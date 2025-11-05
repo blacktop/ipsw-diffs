@@ -1,0 +1,109 @@
+## TextInput_vi
+
+> `/System/Library/TextInput/TextInput_vi.bundle/Versions/A/TextInput_vi`
+
+```diff
+
+-3479.227.0.0.0
+-  __TEXT.__text: 0x3eac
+-  __TEXT.__auth_stubs: 0x510
++3479.319.0.0.0
++  __TEXT.__text: 0x3e94
++  __TEXT.__auth_stubs: 0x520
+   __TEXT.__init_offsets: 0xc
+   __TEXT.__objc_methlist: 0x23c
+   __TEXT.__cstring: 0x172
+   __TEXT.__const: 0x10
+-  __TEXT.__unwind_info: 0x68
++  __TEXT.__unwind_info: 0x70
+   __TEXT.__objc_classname: 0x90
+-  __TEXT.__objc_methname: 0x726
++  __TEXT.__objc_methname: 0x77c
+   __TEXT.__objc_methtype: 0xe5
+-  __TEXT.__objc_stubs: 0x6e0
+-  __DATA_CONST.__got: 0x60
++  __TEXT.__objc_stubs: 0x760
++  __DATA_CONST.__got: 0x70
+   __DATA_CONST.__const: 0x48
+   __DATA_CONST.__objc_classlist: 0x20
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x250
++  __DATA_CONST.__objc_selrefs: 0x270
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __AUTH_CONST.__auth_got: 0x290
++  __AUTH_CONST.__auth_got: 0x298
+   __AUTH_CONST.__const: 0x310
+   __AUTH_CONST.__cfstring: 0x1a0
+   __AUTH_CONST.__objc_const: 0x348
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2581BECB-516D-376B-B6B7-ECFE5F733D3B
+-  Functions: 143
+-  Symbols:   370
+-  CStrings:  136
++  UUID: 55508226-96D7-3D2D-B56B-F034695C7631
++  Functions: 144
++  Symbols:   380
++  CStrings:  140
+ 
+Symbols:
++ +[NSCharacterSet(VietnameseAdditions) TI_vietnameseBaseCharacterSet].cold.1
++ +[NSCharacterSet(VietnameseAdditions) TI_vietnameseTelexSpecialsCharacterSet].cold.1
++ +[NSCharacterSet(VietnameseAdditions) TI_vietnameseVIQRSpecialsCharacterSet].cold.1
++ +[NSCharacterSet(VietnameseAdditions) TI_vietnameseVNISpecialsCharacterSet].cold.1
++ _OBJC_CLASS_$_TIPreferencesController
++ _TIKeyboardPredictionPreference
++ _ZNSt3__112__hash_tableINS_17__hash_value_typeIjN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEENS_22__unordered_map_hasherIjS8_NS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjS8_SD_SB_Lb1EEENS_9allocatorIS8_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS8_PvEEEE.cold.1
++ __ZNSt3__110__function12__value_funcIFN2KB6StringERKS3_EEC2B8nn190102ERKS7_
++ __ZNSt3__110__function12__value_funcIFN2KB6StringERKS3_EED2B8nn190102Ev
++ __ZNSt3__112__destroy_atB8nn190102INS_4pairIKN2KB10ByteStringEN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEELi0EEEvPT_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn190102ILi0EEEPKc
++ __ZNSt3__114__split_bufferINS_10shared_ptrIN2KB15CandidateFilterEEERNS_9allocatorIS4_EEE5clearB8nn190102Ev
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIN2KB10FilterFlagEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorINS_10shared_ptrIN2KB15CandidateFilterEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__shared_weak_count16__release_sharedB8nn190102Ev
++ __ZNSt3__16vectorIN2KB10FilterFlagENS_9allocatorIS2_EEE11__vallocateB8nn190102Em
++ __ZNSt3__16vectorIN2KB6StringENS_9allocatorIS2_EEE16__destroy_vectorclB8nn190102Ev
++ __ZNSt3__16vectorIN2KB6StringENS_9allocatorIS2_EEED1B8nn190102Ev
++ __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEENS_9allocatorIS6_EEE16__destroy_vectorclB8nn190102Ev
++ __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEENS_9allocatorIS6_EEE7__clearB8nn190102Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN2KB15CandidateFilterEEENS_9allocatorIS4_EEE16__destroy_vectorclB8nn190102Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN2KB15CandidateFilterEEENS_9allocatorIS4_EEE7__clearB8nn190102Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE7__clearB8nn190102Ev
++ __ZNSt3__19remove_ifB8nn190102INS_11__wrap_iterIPN2KB9CandidateEEEU13block_pointerFbRKS3_EEET_SA_SA_T0_
++ __ZSt28__throw_bad_array_new_lengthB8nn190102v
++ _memcpy
++ _objc_msgSend$autocorrectionEnabled
++ _objc_msgSend$boolForPreferenceKey:
++ _objc_msgSend$keyboardState
++ _objc_msgSend$sharedPreferencesController
+- __ZNSt3__110__function12__value_funcIFN2KB6StringERKS3_EEC2B8nn180100ERKS7_
+- __ZNSt3__110__function12__value_funcIFN2KB6StringERKS3_EED2B8nn180100Ev
+- __ZNSt3__112__destroy_atB8nn180100INS_4pairIKN2KB10ByteStringEN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEELi0EEEvPT_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn180100ILi0EEEPKc
+- __ZNSt3__114__split_bufferINS_10shared_ptrIN2KB15CandidateFilterEEERNS_9allocatorIS4_EEE5clearB8nn180100Ev
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIN2KB10FilterFlagEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorINS_10shared_ptrIN2KB15CandidateFilterEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__shared_weak_count16__release_sharedB8nn180100Ev
+- __ZNSt3__121__unwrap_and_dispatchB8nn180100INS_10__overloadINS_11__move_loopINS_17_ClassicAlgPolicyEEENS_14__move_trivialEEEPN2KB9CandidateES9_S9_Li0EEENS_4pairIT0_T2_EESB_T1_SC_
+- __ZNSt3__16vectorIN2KB10FilterFlagENS_9allocatorIS2_EEE11__vallocateB8nn180100Em
+- __ZNSt3__16vectorIN2KB6StringENS_9allocatorIS2_EEE16__destroy_vectorclB8nn180100Ev
+- __ZNSt3__16vectorIN2KB6StringENS_9allocatorIS2_EEED1B8nn180100Ev
+- __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEENS_9allocatorIS6_EEE16__destroy_vectorclB8nn180100Ev
+- __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEENS_9allocatorIS6_EEE7__clearB8nn180100Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN2KB15CandidateFilterEEENS_9allocatorIS4_EEE16__destroy_vectorclB8nn180100Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN2KB15CandidateFilterEEENS_9allocatorIS4_EEE7__clearB8nn180100Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN2KB15CandidateFilterEEENS_9allocatorIS4_EEE9push_backB8nn180100ERKS4_
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE7__clearB8nn180100Ev
+- __ZNSt3__19remove_ifB8nn180100INS_11__wrap_iterIPN2KB9CandidateEEEU13block_pointerFbRKS3_EEET_SA_SA_T0_
+- __ZSt28__throw_bad_array_new_lengthB8nn180100v
+CStrings:
++ "autocorrectionEnabled"
++ "boolForPreferenceKey:"
++ "keyboardState"
++ "sharedPreferencesController"
+
+```

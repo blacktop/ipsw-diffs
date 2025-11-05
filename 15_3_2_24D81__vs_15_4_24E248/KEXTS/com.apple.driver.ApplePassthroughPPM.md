@@ -1,0 +1,218 @@
+## com.apple.driver.ApplePassthroughPPM
+
+> `com.apple.driver.ApplePassthroughPPM`
+
+```diff
+
+-931.80.2.0.0
+-  __TEXT.__const: 0xea0
++931.100.29.0.0
++  __TEXT.__const: 0x1010
+   __TEXT.__cstring: 0xd206
+   __TEXT.__os_log: 0x2059
+-  __TEXT_EXEC.__text: 0x49d74
++  __TEXT_EXEC.__text: 0x4b0e0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x156
+   __DATA.__common: 0x4f8
+
+   __DATA_CONST.__mod_term_func: 0xb0
+   __DATA_CONST.__const: 0x7ed0
+   __DATA_CONST.__kalloc_type: 0x9c0
+-  UUID: 015C3D74-CFEF-31CA-865B-1010AD2EE78B
+-  Functions: 1757
+-  Symbols:   2647
++  UUID: CB2392DA-7F93-3652-A83C-1A9DA0D40BBB
++  Functions: 1922
++  Symbols:   2846
+   CStrings:  1378
+ 
+Symbols:
++ _OUTLINED_FUNCTION_0
++ _OUTLINED_FUNCTION_1
++ _OUTLINED_FUNCTION_10
++ _OUTLINED_FUNCTION_11
++ _OUTLINED_FUNCTION_12
++ _OUTLINED_FUNCTION_13
++ _OUTLINED_FUNCTION_14
++ _OUTLINED_FUNCTION_15
++ _OUTLINED_FUNCTION_16
++ _OUTLINED_FUNCTION_17
++ _OUTLINED_FUNCTION_18
++ _OUTLINED_FUNCTION_19
++ _OUTLINED_FUNCTION_2
++ _OUTLINED_FUNCTION_20
++ _OUTLINED_FUNCTION_21
++ _OUTLINED_FUNCTION_22
++ _OUTLINED_FUNCTION_23
++ _OUTLINED_FUNCTION_24
++ _OUTLINED_FUNCTION_25
++ _OUTLINED_FUNCTION_26
++ _OUTLINED_FUNCTION_27
++ _OUTLINED_FUNCTION_28
++ _OUTLINED_FUNCTION_29
++ _OUTLINED_FUNCTION_3
++ _OUTLINED_FUNCTION_30
++ _OUTLINED_FUNCTION_31
++ _OUTLINED_FUNCTION_32
++ _OUTLINED_FUNCTION_33
++ _OUTLINED_FUNCTION_34
++ _OUTLINED_FUNCTION_35
++ _OUTLINED_FUNCTION_36
++ _OUTLINED_FUNCTION_37
++ _OUTLINED_FUNCTION_38
++ _OUTLINED_FUNCTION_39
++ _OUTLINED_FUNCTION_4
++ _OUTLINED_FUNCTION_40
++ _OUTLINED_FUNCTION_41
++ _OUTLINED_FUNCTION_42
++ _OUTLINED_FUNCTION_43
++ _OUTLINED_FUNCTION_44
++ _OUTLINED_FUNCTION_45
++ _OUTLINED_FUNCTION_46
++ _OUTLINED_FUNCTION_47
++ _OUTLINED_FUNCTION_48
++ _OUTLINED_FUNCTION_49
++ _OUTLINED_FUNCTION_5
++ _OUTLINED_FUNCTION_50
++ _OUTLINED_FUNCTION_51
++ _OUTLINED_FUNCTION_52
++ _OUTLINED_FUNCTION_53
++ _OUTLINED_FUNCTION_54
++ _OUTLINED_FUNCTION_55
++ _OUTLINED_FUNCTION_56
++ _OUTLINED_FUNCTION_57
++ _OUTLINED_FUNCTION_58
++ _OUTLINED_FUNCTION_59
++ _OUTLINED_FUNCTION_6
++ _OUTLINED_FUNCTION_60
++ _OUTLINED_FUNCTION_61
++ _OUTLINED_FUNCTION_62
++ _OUTLINED_FUNCTION_63
++ _OUTLINED_FUNCTION_7
++ _OUTLINED_FUNCTION_8
++ _OUTLINED_FUNCTION_9
++ _Z13getPidForTaskP4task.cold.1
++ _Z13getPidForTaskP4task.cold.2
++ _Z21getValueFromKeyInDictPK12OSDictionaryPK8OSSymbolPjb.cold.1
++ _Z21getValueFromKeyInDictPK12OSDictionaryPK8OSSymbolPjb.cold.2
++ _Z21getValueFromKeyInDictPK12OSDictionaryPK8OSSymbolPjb.cold.3
++ _Z21getValueFromKeyInDictPK12OSDictionaryPK8OSSymbolPjb.cold.4
++ _ZN12ApplePPMCPMS18setPropertiesGatedEP8OSObject.cold.1
++ _ZN12ApplePPMCPMS18setPropertiesGatedEP8OSObject.cold.2
++ _ZN12ApplePPMCPMS18setPropertiesGatedEP8OSObject.cold.3
++ _ZN18ApplePPMUserClient13pushTelemetryEP23UserClientTelemetryDict.cold.1
++ _ZN18ApplePPMUserClient13pushTelemetryEP23UserClientTelemetryDict.cold.2
++ _ZN18ApplePPMUserClient13pushTelemetryEP23UserClientTelemetryDict.cold.3
++ _ZN18ApplePPMUserClient13pushTelemetryEP23UserClientTelemetryDict.cold.4
++ _ZN18ApplePPMUserClient17associateClientIdE16UniqueClientID_t.cold.2
++ _ZN18ApplePPMUserClient17associateClientIdE16UniqueClientID_t.cold.3
++ _ZN18ApplePPMUserClient17associateClientIdE16UniqueClientID_t.cold.4
++ _ZN18ApplePPMUserClient18dissociateClientIdE16UniqueClientID_t.cold.2
++ _ZN18ApplePPMUserClient5startEP9IOService.cold.1
++ _ZN18ApplePPMUserClient5startEP9IOService.cold.2
++ _ZN18ApplePPMUserClient5startEP9IOService.cold.3
++ _ZN18ApplePPMUserClient5startEP9IOService.cold.4
++ _ZN20ApplePPMBatteryModel29convertSingleTemperatureCoeffEffff.cold.1
++ _ZN20ApplePPMBatteryModel29convertSingleTemperatureCoeffEffff.cold.2
++ _ZN20ApplePPMBatteryModel29convertSingleTemperatureCoeffEffff.cold.3
++ _ZN20ApplePPMBatteryModel29convertSingleTemperatureCoeffEffff.cold.4
++ _ZN20ApplePPMBatteryModel7getPmaxEf.cold.1
++ _ZN20ApplePPMBatteryModel7getPmaxEf.cold.2
++ _ZN20ApplePPMKernelClient23admissionCheckWithValueEjjPj.cold.3
++ _ZN22ApplePPMEntityBaseband13pushTelemetryEP12OSDictionary.cold.3
++ _ZN23ApplePPMBatteryModel4RC14calculateMaxPbEPfP22PmaxTransientVariablesffb.cold.1
++ _ZN23ApplePPMBatteryModel4RC14calculateMaxPpEPfP22PmaxTransientVariablesffb.cold.1
++ _ZN23ApplePPMBatteryModel4RC14calculateMaxPsEPfP22PmaxTransientVariablesffb.cold.1
++ _ZN23ApplePPMBatteryModel4RC14calculateMaxPuEPfP22PmaxTransientVariablesffb.cold.1
++ _ZN23ApplePPMBatteryModel4RC19updateRCParamsAt25CEP18AgingModelRiRatios.cold.1
++ _ZN23ApplePPMBatteryModel4RC19updateRCParamsAt25CEP18AgingModelRiRatios.cold.2
++ _ZN23ApplePPMBatteryModel4RC19updateRCParamsAt25CEP18AgingModelRiRatios.cold.3
++ _ZN23ApplePPMBatteryModel4RC23estimateLastStepCurrentEPffS0_P22PmaxTransientVariables17PmaxPowerStepType.cold.1
++ _ZN23ApplePPMBatteryModel4RC23estimateLastStepCurrentEPffS0_P22PmaxTransientVariables17PmaxPowerStepType.cold.2
++ _ZN23ApplePPMBatteryModel4RC24updateRiTemperatureCoeffEiPf.cold.2
++ _ZN23ApplePPMBatteryModel4RC26estimateBackTwoStepCurrentEPffS0_P22PmaxTransientVariables17PmaxPowerStepType.cold.1
++ _ZN23ApplePPMBatteryModel4RC26estimateBackTwoStepCurrentEPffS0_P22PmaxTransientVariables17PmaxPowerStepType.cold.2
++ _ZN23ApplePPMBatteryModel4RC26estimateBackTwoStepCurrentEPffS0_P22PmaxTransientVariables17PmaxPowerStepType.cold.3
++ _ZN23ApplePPMBatteryModel4RC26estimateBackTwoStepCurrentEPffS0_P22PmaxTransientVariables17PmaxPowerStepType.cold.4
++ _ZN23ApplePPMBatteryModel4RC34estimateTransientVoltageOfUVLOStepEPfS0_P22PmaxTransientVariables.cold.1
++ _ZN23ApplePPMBatteryModel4RC34estimateTransientVoltageOfUVLOStepEPfS0_P22PmaxTransientVariables.cold.2
++ _ZN31ApplePPMSystemCapabilityMonitor18_asbArrivalHandlerEPvP9IOServiceP10IONotifier.cold.1
++ _ZN31ApplePPMSystemCapabilityMonitor18_asbArrivalHandlerEPvP9IOServiceP10IONotifier.cold.2
++ _ZN31ApplePPMSystemCapabilityMonitor21setRCParamsPropertiesEP12OSDictionary.cold.2
++ _ZN31ApplePPMSystemCapabilityMonitor23installSlowBatteryInputEv.cold.1
++ _ZN31ApplePPMSystemCapabilityMonitor23installSlowBatteryInputEv.cold.10
++ _ZN31ApplePPMSystemCapabilityMonitor23installSlowBatteryInputEv.cold.11
++ _ZN31ApplePPMSystemCapabilityMonitor23installSlowBatteryInputEv.cold.12
++ _ZN31ApplePPMSystemCapabilityMonitor23installSlowBatteryInputEv.cold.13
++ _ZN31ApplePPMSystemCapabilityMonitor23installSlowBatteryInputEv.cold.14
++ _ZN31ApplePPMSystemCapabilityMonitor23installSlowBatteryInputEv.cold.15
++ _ZN31ApplePPMSystemCapabilityMonitor23installSlowBatteryInputEv.cold.16
++ _ZN31ApplePPMSystemCapabilityMonitor23installSlowBatteryInputEv.cold.17
++ _ZN31ApplePPMSystemCapabilityMonitor23installSlowBatteryInputEv.cold.2
++ _ZN31ApplePPMSystemCapabilityMonitor23installSlowBatteryInputEv.cold.3
++ _ZN31ApplePPMSystemCapabilityMonitor23installSlowBatteryInputEv.cold.4
++ _ZN31ApplePPMSystemCapabilityMonitor23installSlowBatteryInputEv.cold.5
++ _ZN31ApplePPMSystemCapabilityMonitor23installSlowBatteryInputEv.cold.6
++ _ZN31ApplePPMSystemCapabilityMonitor23installSlowBatteryInputEv.cold.7
++ _ZN31ApplePPMSystemCapabilityMonitor23installSlowBatteryInputEv.cold.8
++ _ZN31ApplePPMSystemCapabilityMonitor23installSlowBatteryInputEv.cold.9
++ _ZN31ApplePPMSystemCapabilityMonitor23readBatteryInputFromASBEv.cold.1
++ _ZN31ApplePPMSystemCapabilityMonitor23readBatteryInputFromASBEv.cold.10
++ _ZN31ApplePPMSystemCapabilityMonitor23readBatteryInputFromASBEv.cold.11
++ _ZN31ApplePPMSystemCapabilityMonitor23readBatteryInputFromASBEv.cold.12
++ _ZN31ApplePPMSystemCapabilityMonitor23readBatteryInputFromASBEv.cold.13
++ _ZN31ApplePPMSystemCapabilityMonitor23readBatteryInputFromASBEv.cold.14
++ _ZN31ApplePPMSystemCapabilityMonitor23readBatteryInputFromASBEv.cold.15
++ _ZN31ApplePPMSystemCapabilityMonitor23readBatteryInputFromASBEv.cold.16
++ _ZN31ApplePPMSystemCapabilityMonitor23readBatteryInputFromASBEv.cold.17
++ _ZN31ApplePPMSystemCapabilityMonitor23readBatteryInputFromASBEv.cold.18
++ _ZN31ApplePPMSystemCapabilityMonitor23readBatteryInputFromASBEv.cold.19
++ _ZN31ApplePPMSystemCapabilityMonitor23readBatteryInputFromASBEv.cold.2
++ _ZN31ApplePPMSystemCapabilityMonitor23readBatteryInputFromASBEv.cold.20
++ _ZN31ApplePPMSystemCapabilityMonitor23readBatteryInputFromASBEv.cold.21
++ _ZN31ApplePPMSystemCapabilityMonitor23readBatteryInputFromASBEv.cold.22
++ _ZN31ApplePPMSystemCapabilityMonitor23readBatteryInputFromASBEv.cold.23
++ _ZN31ApplePPMSystemCapabilityMonitor23readBatteryInputFromASBEv.cold.24
++ _ZN31ApplePPMSystemCapabilityMonitor23readBatteryInputFromASBEv.cold.25
++ _ZN31ApplePPMSystemCapabilityMonitor23readBatteryInputFromASBEv.cold.26
++ _ZN31ApplePPMSystemCapabilityMonitor23readBatteryInputFromASBEv.cold.3
++ _ZN31ApplePPMSystemCapabilityMonitor23readBatteryInputFromASBEv.cold.4
++ _ZN31ApplePPMSystemCapabilityMonitor23readBatteryInputFromASBEv.cold.5
++ _ZN31ApplePPMSystemCapabilityMonitor23readBatteryInputFromASBEv.cold.6
++ _ZN31ApplePPMSystemCapabilityMonitor23readBatteryInputFromASBEv.cold.7
++ _ZN31ApplePPMSystemCapabilityMonitor23readBatteryInputFromASBEv.cold.8
++ _ZN31ApplePPMSystemCapabilityMonitor23readBatteryInputFromASBEv.cold.9
++ _ZN31ApplePPMSystemCapabilityMonitor26installASBFastBatteryInputEv.cold.2
++ _ZN31ApplePPMSystemCapabilityMonitor26installBatteryDataOverrideEv.cold.3
++ _ZN31ApplePPMSystemCapabilityMonitor26installBatteryDataOverrideEv.cold.4
++ _ZN31ApplePPMSystemCapabilityMonitor26installBatteryDataOverrideEv.cold.5
++ _ZN31ApplePPMSystemCapabilityMonitor26installBatteryDataOverrideEv.cold.6
++ _ZN31ApplePPMSystemCapabilityMonitor27handleBatteryUpdateCallbackEPvjP9IOServiceS0_m.cold.1
++ _ZN31ApplePPMSystemCapabilityMonitor27handleBatteryUpdateCallbackEPvjP9IOServiceS0_m.cold.2
++ _ZN31ApplePPMSystemCapabilityMonitor28startSystemCapabilityMonitorEv.cold.1
++ _ZN31ApplePPMSystemCapabilityMonitor29updateSystemCapabilityWithPPMEv.cold.1
++ _ZN31ApplePPMSystemCapabilityMonitor40computeSystemCapabilityWithBatteryUpdateEv.cold.1
++ _ZN31ApplePPMSystemCapabilityMonitor40computeSystemCapabilityWithBatteryUpdateEv.cold.2
++ _ZN31ApplePPMSystemCapabilityMonitor44computeSystemCapabilityWithFastBatteryUpdateEv.cold.1
++ _ZN31ApplePPMSystemCapabilityMonitor44computeSystemCapabilityWithFastBatteryUpdateEv.cold.2
++ _ZN35ApplePPMCPMSSystemCapabilityMonitor23readBatteryInputFromASBEv.cold.4
++ _ZN35ApplePPMCPMSSystemCapabilityMonitor23readBatteryInputFromASBEv.cold.5
++ _ZN35ApplePPMCPMSSystemCapabilityMonitor23readBatteryInputFromASBEv.cold.6
++ _ZN35ApplePPMCPMSSystemCapabilityMonitor26updateReadingsFromGasGaugeEv.cold.2
++ _ZN41ApplePPMPolicyCPMSPowerServoLowerLayerCEs16createPowerServoE16CPMSPPMLaneInputff.cold.3
++ _ZN8ApplePPM13startActivityEP14ApplePPMEntityj.cold.3
++ _ZN8ApplePPM18setBattModelParamsEPK7ParamRC.cold.1
++ _ZN8ApplePPM18setPropertiesGatedEP8OSObject.cold.1
++ _ZN8ApplePPM18setPropertiesGatedEP8OSObject.cold.2
++ _ZN8ApplePPM21admissionCheckOfValueEP14ApplePPMEntityjPj.cold.3
++ _ZN8ApplePPM21admissionCheckOfValueEP14ApplePPMEntityjPj.cold.4
++ _ZN8ApplePPM25updateDebuggingPropertiesEv.cold.3
++ _ZN8ApplePPM29addDeviceTreeClientPropertiesEP6OSDataS1_S1_.cold.7
++ _ZN8ApplePPM29removePPMUserClientByClientIdE16UniqueClientID_t.cold.1
++ _ZN8ApplePPM33policyInputUpdateInterruptHandlerEP22IOInterruptEventSourcei.cold.1
++ _ZN8ApplePPM9setBudgetEP14ApplePPMEntityj.cold.3
+- _ZN12ApplePPMCPMS9initLocalEP9IOService.cold.28
+- _ZN18ApplePPMPolicyCPMS39getClientBudgetForGeneralControlEffortsE16UniqueClientID_tPiPf.cold.3
+
+```

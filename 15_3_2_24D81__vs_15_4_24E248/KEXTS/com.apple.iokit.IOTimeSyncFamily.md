@@ -1,0 +1,313 @@
+## com.apple.iokit.IOTimeSyncFamily
+
+> `com.apple.iokit.IOTimeSyncFamily`
+
+```diff
+
+-1330.2.0.0.0
+-  __TEXT.__cstring: 0x3a86
+-  __TEXT.__os_log: 0x75d0
++1340.12.0.0.0
++  __TEXT.__cstring: 0x3a9e
++  __TEXT.__os_log: 0x7802
+   __TEXT.__const: 0x1d8
+-  __TEXT_EXEC.__text: 0x316b8
++  __TEXT_EXEC.__text: 0x33a58
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xd0
+   __DATA.__common: 0x638
+   __DATA.__bss: 0x39
+-  __DATA_CONST.__auth_got: 0x400
++  __DATA_CONST.__auth_got: 0x408
+   __DATA_CONST.__got: 0xc0
++  __DATA_CONST.__auth_ptr: 0x8
+   __DATA_CONST.__mod_init_func: 0xf8
+   __DATA_CONST.__mod_term_func: 0xf8
+   __DATA_CONST.__const: 0x14760
+   __DATA_CONST.__kalloc_type: 0xbc0
+   __DATA_CONST.__kalloc_var: 0x280
+-  UUID: 39F7CD95-3464-312F-8FEE-AB50B361695F
+-  Functions: 1490
+-  Symbols:   2781
+-  CStrings:  631
++  UUID: 448FD16F-F880-3BDC-BC80-C60C8E650D5F
++  Functions: 1679
++  Symbols:   2981
++  CStrings:  635
+ 
+Symbols:
++ _OUTLINED_FUNCTION_0
++ _OUTLINED_FUNCTION_1
++ _ZL15parsePacketInfoP9TSNPacketPcS1_S1_R27IOTimeSyncgPTPMessageHeaderh.cold.1
++ _ZL15parsePacketInfoP9TSNPacketPcS1_S1_R27IOTimeSyncgPTPMessageHeaderh.cold.2
++ _ZL15parsePacketInfoP9TSNPacketPcS1_S1_R27IOTimeSyncgPTPMessageHeaderh.cold.3
++ _ZL43TSNUserWiFiControlInterface_Create_Internal18TSNEthernetAddressP8OSStringt16TSNInterfaceType22TSNTimestampingSupportbP12OSDictionaryPP27TSNUserWiFiControlInterface.cold.1
++ _ZL43TSNUserWiFiControlInterface_Create_Internal18TSNEthernetAddressP8OSStringt16TSNInterfaceType22TSNTimestampingSupportbP12OSDictionaryPP27TSNUserWiFiControlInterface.cold.2
++ _ZL54TSNUserWiFiControlInterface_CreateWithBSDName_Internal18TSNEthernetAddressP8OSString16TSNInterfaceType22TSNTimestampingSupportbP12OSDictionaryPP27TSNUserWiFiControlInterface.cold.1
++ _ZN12TSNInterface18allocatePacketPoolEv.cold.1
++ _ZN12TSNInterface18allocatePacketPoolEv.cold.2
++ _ZN12TSNInterface22receivedTimeSyncPacketEP9TSNPacket.cold.1
++ _ZN12TSNInterface22receivedTimeSyncPacketEP9TSNPacket.cold.2
++ _ZN12TSNInterface25transmittedTimeSyncPacketEP9TSNPacketb.cold.1
++ _ZN12TSNInterface25transmittedTimeSyncPacketEP9TSNPacketb.cold.2
++ _ZN12TSNInterface27nextAvailableTimeSyncPacketEv.cold.1
++ _ZN12TSNInterface31addTimeSyncReceivePacketHandlerEPFvPvP9TSNPacketES0_.cold.1
++ _ZN12TSNInterface31addTimeSyncReceivePacketHandlerEPFvPvP9TSNPacketES0_.cold.2
++ _ZN12TSNInterface32addTimeSyncTransmitPacketHandlerEPFvPvP9TSNPacketES0_Pj.cold.1
++ _ZN12TSNInterface32addTimeSyncTransmitPacketHandlerEPFvPvP9TSNPacketES0_Pj.cold.2
++ _ZN12TSNInterface32addTimeSyncTransmitPacketHandlerEPFvPvP9TSNPacketES0_Pj.cold.3
++ _ZN12TSNInterface32addTimeSyncTransmitPacketHandlerEPFvPvP9TSNPacketES0_Pj.cold.4
++ _ZN12TSNInterface34removeTimeSyncReceivePacketHandlerEPFvPvP9TSNPacketES0_.cold.1
++ _ZN12TSNInterface4initE18TSNEthernetAddressP8OSString16TSNInterfaceType22TSNTimestampingSupportP8IOMapperbP12OSDictionary.cold.1
++ _ZN12TSNInterface4initE18TSNEthernetAddressP8OSStringt16TSNInterfaceType22TSNTimestampingSupportP8IOMapperbP12OSDictionary.cold.1
++ _ZN12TSNInterface4initE18TSNEthernetAddressP8OSStringt16TSNInterfaceType22TSNTimestampingSupportP8IOMapperbP12OSDictionary.cold.10
++ _ZN12TSNInterface4initE18TSNEthernetAddressP8OSStringt16TSNInterfaceType22TSNTimestampingSupportP8IOMapperbP12OSDictionary.cold.11
++ _ZN12TSNInterface4initE18TSNEthernetAddressP8OSStringt16TSNInterfaceType22TSNTimestampingSupportP8IOMapperbP12OSDictionary.cold.12
++ _ZN12TSNInterface4initE18TSNEthernetAddressP8OSStringt16TSNInterfaceType22TSNTimestampingSupportP8IOMapperbP12OSDictionary.cold.13
++ _ZN12TSNInterface4initE18TSNEthernetAddressP8OSStringt16TSNInterfaceType22TSNTimestampingSupportP8IOMapperbP12OSDictionary.cold.14
++ _ZN12TSNInterface4initE18TSNEthernetAddressP8OSStringt16TSNInterfaceType22TSNTimestampingSupportP8IOMapperbP12OSDictionary.cold.15
++ _ZN12TSNInterface4initE18TSNEthernetAddressP8OSStringt16TSNInterfaceType22TSNTimestampingSupportP8IOMapperbP12OSDictionary.cold.16
++ _ZN12TSNInterface4initE18TSNEthernetAddressP8OSStringt16TSNInterfaceType22TSNTimestampingSupportP8IOMapperbP12OSDictionary.cold.17
++ _ZN12TSNInterface4initE18TSNEthernetAddressP8OSStringt16TSNInterfaceType22TSNTimestampingSupportP8IOMapperbP12OSDictionary.cold.2
++ _ZN12TSNInterface4initE18TSNEthernetAddressP8OSStringt16TSNInterfaceType22TSNTimestampingSupportP8IOMapperbP12OSDictionary.cold.3
++ _ZN12TSNInterface4initE18TSNEthernetAddressP8OSStringt16TSNInterfaceType22TSNTimestampingSupportP8IOMapperbP12OSDictionary.cold.4
++ _ZN12TSNInterface4initE18TSNEthernetAddressP8OSStringt16TSNInterfaceType22TSNTimestampingSupportP8IOMapperbP12OSDictionary.cold.5
++ _ZN12TSNInterface4initE18TSNEthernetAddressP8OSStringt16TSNInterfaceType22TSNTimestampingSupportP8IOMapperbP12OSDictionary.cold.6
++ _ZN12TSNInterface4initE18TSNEthernetAddressP8OSStringt16TSNInterfaceType22TSNTimestampingSupportP8IOMapperbP12OSDictionary.cold.7
++ _ZN12TSNInterface4initE18TSNEthernetAddressP8OSStringt16TSNInterfaceType22TSNTimestampingSupportP8IOMapperbP12OSDictionary.cold.8
++ _ZN12TSNInterface4initE18TSNEthernetAddressP8OSStringt16TSNInterfaceType22TSNTimestampingSupportP8IOMapperbP12OSDictionary.cold.9
++ _ZN12TSNInterface5startEP9IOService.cold.1
++ _ZN13TSNPacketPool14completePacketEP9TSNPacket.cold.1
++ _ZN13TSNPacketPool14completePacketEP9TSNPacket.cold.2
++ _ZN13TSNPacketPool14completePacketEP9TSNPacket.cold.3
++ _ZN13TSNPacketPool19nextAvailablePacketEv.cold.2
++ _ZN13TSNPacketPool4initEthPmP8IOMapper.cold.1
++ _ZN13TSNPacketPool4initEthPmP8IOMapper.cold.10
++ _ZN13TSNPacketPool4initEthPmP8IOMapper.cold.11
++ _ZN13TSNPacketPool4initEthPmP8IOMapper.cold.12
++ _ZN13TSNPacketPool4initEthPmP8IOMapper.cold.2
++ _ZN13TSNPacketPool4initEthPmP8IOMapper.cold.3
++ _ZN13TSNPacketPool4initEthPmP8IOMapper.cold.4
++ _ZN13TSNPacketPool4initEthPmP8IOMapper.cold.5
++ _ZN13TSNPacketPool4initEthPmP8IOMapper.cold.6
++ _ZN13TSNPacketPool4initEthPmP8IOMapper.cold.7
++ _ZN13TSNPacketPool4initEthPmP8IOMapper.cold.8
++ _ZN13TSNPacketPool4initEthPmP8IOMapper.cold.9
++ _ZN15TSNBSDInterface17mbufFromTSNPacketEP9TSNPacketbb.cold.1
++ _ZN15TSNBSDInterface17mbufFromTSNPacketEP9TSNPacketbb.cold.2
++ _ZN15TSNBSDInterface18receivedMBUFPacketEP6__mbuf.cold.1
++ _ZN15TSNBSDInterface18receivedMBUFPacketEP6__mbuf.cold.2
++ _ZN15TSNBSDInterface18receivedMBUFPacketEP6__mbuf.cold.3
++ _ZN15TSNBSDInterface20mbufTransmitCallbackEP9TSNPacketyib.cold.1
++ _ZN15TSNBSDInterface22transmitTimeSyncPacketEP9TSNPackety.cold.1
++ _ZN15TSNBSDInterface22transmitTimeSyncPacketEP9TSNPackety.cold.2
++ _ZN15TSNBSDInterface25timeSyncTSNPacketFromMBUFEP6__mbuf.cold.2
++ _ZN15TSNBSDInterface25timeSyncTSNPacketFromMBUFEP6__mbuf.cold.3
++ _ZN15TSNBSDInterface25timeSyncTSNPacketFromMBUFEP6__mbuf.cold.4
++ _ZN15TSNBSDInterface4initE18TSNEthernetAddressP8OSStringt16TSNInterfaceType22TSNTimestampingSupportP8IOMapperbP12OSDictionary.cold.1
++ _ZN15TSNBSDInterface4initE18TSNEthernetAddressP8OSStringt16TSNInterfaceType22TSNTimestampingSupportP8IOMapperbP12OSDictionary.cold.2
++ _ZN15TSNBSDInterface4initE18TSNEthernetAddressP8OSStringt16TSNInterfaceType22TSNTimestampingSupportP8IOMapperbP12OSDictionary.cold.3
++ _ZN15TSNBSDInterface4initE18TSNEthernetAddressP8OSStringt16TSNInterfaceType22TSNTimestampingSupportP8IOMapperbP12OSDictionary.cold.4
++ _ZN15TSNBSDInterface5startEP9IOService.cold.1
++ _ZN16TSNWiFiInterface17setInterfaceStateEN12TSNInterface17TSNInterfaceStateES1_.cold.1
++ _ZN16TSNWiFiInterface17setInterfaceStateEN12TSNInterface17TSNInterfaceStateES1_.cold.2
++ _ZN16TSNWiFiInterface17setInterfaceStateEN12TSNInterface17TSNInterfaceStateES1_.cold.3
++ _ZN16TSNWiFiInterface17setInterfaceStateEN12TSNInterface17TSNInterfaceStateES1_.cold.4
++ _ZN16TSNWiFiInterface4initE18TSNEthernetAddressP8OSStringt16TSNInterfaceType22TSNTimestampingSupportP8IOMapperbP12OSDictionary.cold.1
++ _ZN16TSNWiFiInterface4initE18TSNEthernetAddressP8OSStringt16TSNInterfaceType22TSNTimestampingSupportP8IOMapperbP12OSDictionary.cold.2
++ _ZN16TSNWiFiInterface5startEP9IOService.cold.1
++ _ZN17IOTimeSyncService13newUserClientEP4taskPvjP12OSDictionaryPP12IOUserClient.cold.1
++ _ZN17IOTimeSyncService13newUserClientEP4taskPvjP12OSDictionaryPP12IOUserClient.cold.2
++ _ZN17IOTimeSyncService13newUserClientEP4taskPvjP12OSDictionaryPP12IOUserClient.cold.3
++ _ZN17IOTimeSyncService13newUserClientEP4taskPvjP12OSDictionaryPP12IOUserClient.cold.4
++ _ZN17IOTimeSyncService13newUserClientEP4taskPvjP12OSDictionaryPP12IOUserClient.cold.5
++ _ZN17IOTimeSyncService21sendGeneralSyncUpdateEv.cold.1
++ _ZN17IOTimeSyncService21sendGeneralSyncUpdateEv.cold.2
++ _ZN17IOTimeSyncService26addUserClientForSyncUpdateEP8OSObject.cold.1
++ _ZN17IOTimeSyncService26addUserClientForSyncUpdateEP8OSObject.cold.2
++ _ZN17IOTimeSyncService29removeUserClientForSyncUpdateEP8OSObject.cold.1
++ _ZN17IOTimeSyncService29removeUserClientForSyncUpdateEP8OSObject.cold.2
++ _ZN17IOTimeSyncService34getMachAbsoluteRateRatioAndAnchorsEPyS0_S0_S0_.cold.1
++ _ZN17IOTimeSyncService34getMachAbsoluteRateRatioAndAnchorsEPyS0_S0_S0_.cold.2
++ _ZN17IOTimeSyncService34getMachAbsoluteRateRatioAndAnchorsEPyS0_S0_S0_.cold.3
++ _ZN17IOTimeSyncService4initEP12OSDictionary.cold.1
++ _ZN17IOTimeSyncService4initEP12OSDictionary.cold.2
++ _ZN17IOTimeSyncService4initEP12OSDictionary.cold.3
++ _ZN19TSNITimeSyncHandler4initEPFvPvP9TSNPacketES0_j.cold.1
++ _ZN20TSNAssistedInterface28processReceivedSkywalkPacketEPKhP22IOSkywalkNetworkPacket.cold.1
++ _ZN20TSNAssistedInterface28processReceivedSkywalkPacketEPKhP22IOSkywalkNetworkPacket.cold.2
++ _ZN20TSNAssistedInterface28processReceivedSkywalkPacketEPKhP22IOSkywalkNetworkPacket.cold.3
++ _ZN20TSNAssistedInterface28processReceivedSkywalkPacketEPKhP22IOSkywalkNetworkPacket.cold.4
++ _ZN20TSNAssistedInterface28processReceivedSkywalkPacketEPKhP22IOSkywalkNetworkPacket.cold.5
++ _ZN20TSNAssistedInterface34timeSyncTSNPacketFromSkywalkPacketEP22IOSkywalkNetworkPacket.cold.1
++ _ZN20TSNAssistedInterface34timeSyncTSNPacketFromSkywalkPacketEP22IOSkywalkNetworkPacket.cold.2
++ _ZN20TSNAssistedInterface34timeSyncTSNPacketFromSkywalkPacketEP22IOSkywalkNetworkPacket.cold.3
++ _ZN20TSNAssistedInterface5startEP9IOService.cold.1
++ _ZN20TSNAssistedInterface5startEP9IOService.cold.2
++ _ZN20TSNAssistedInterface5startEP9IOService.cold.3
++ _ZN21IOTimeSyncRootService5probeEP9IOServicePi.cold.1
++ _ZN21IOTimeSyncRootService5probeEP9IOServicePi.cold.2
++ _ZN21IOTimeSyncRootService5startEP9IOService.cold.1
++ _ZN21TSNBSDInterfaceHelper14mbufTXCallbackEmP7__ifnetymmi.cold.1
++ _ZN21TSNBSDInterfaceHelper14mbufTXCallbackEmP7__ifnetymmi.cold.2
++ _ZN21TSNBSDInterfaceHelper15addMbufCallbackEv.cold.1
++ _ZN22IOTimeSyncClockManager18sharedClockManagerEv.cold.1
++ _ZN22IOTimeSyncClockManager18sharedClockManagerEv.cold.2
++ _ZN22IOTimeSyncClockManager18sharedClockManagerEv.cold.3
++ _ZN22IOTimeSyncClockManager23findTimeSyncTimeClockIDEv.cold.1
++ _ZN22IOTimeSyncClockManager23findTimeSyncTimeClockIDEv.cold.2
++ _ZN22IOTimeSyncClockManager23findTimeSyncTimeClockIDEv.cold.3
++ _ZN22IOTimeSyncClockManager23findTimeSyncTimeClockIDEv.cold.4
++ _ZN22IOTimeSyncClockManager23findTimeSyncTimeClockIDEv.cold.5
++ _ZN22IOTimeSyncClockManager23findTimeSyncTimeClockIDEv.cold.6
++ _ZN22IOTimeSyncClockManager23findTimeSyncTimeClockIDEv.cold.7
++ _ZN22IOTimeSyncClockManager23findTimeSyncTimeClockIDEv.cold.8
++ _ZN22IOTimeSyncClockManager23findTimeSyncTimeClockIDEv.cold.9
++ _ZN22IOTimeSyncClockManager24createTranslationServiceEv.cold.1
++ _ZN22IOTimeSyncClockManager24createTranslationServiceEv.cold.2
++ _ZN22IOTimeSyncClockManager5startEP9IOService.cold.1
++ _ZN22IOTimeSyncClockManager5startEP9IOService.cold.2
++ _ZN22IOTimeSyncClockManager5startEP9IOService.cold.3
++ _ZN23TSNWiFiControlInterface4initE18TSNEthernetAddressP8OSString16TSNInterfaceType22TSNTimestampingSupportbP12OSDictionary.cold.1
++ _ZN23TSNWiFiControlInterface4initE18TSNEthernetAddressP8OSStringt16TSNInterfaceType22TSNTimestampingSupportbP12OSDictionary.cold.1
++ _ZN23TSNWiFiControlInterface4initE18TSNEthernetAddressP8OSStringt16TSNInterfaceType22TSNTimestampingSupportbP12OSDictionary.cold.2
++ _ZN23TSNWiFiControlInterface4initE18TSNEthernetAddressP8OSStringt16TSNInterfaceType22TSNTimestampingSupportbP12OSDictionary.cold.3
++ _ZN23TSNWiFiControlInterface4initE18TSNEthernetAddressP8OSStringt16TSNInterfaceType22TSNTimestampingSupportbP12OSDictionary.cold.4
++ _ZN23TSNWiFiControlInterface4initE18TSNEthernetAddressP8OSStringt16TSNInterfaceType22TSNTimestampingSupportbP12OSDictionary.cold.5
++ _ZN23TSNWiFiControlInterface5startEP9IOService.cold.1
++ _ZN23TSNWiFiControlInterface5startEP9IOService.cold.2
++ _ZN23TSNWiFiControlInterface6attachEP9IOService.cold.1
++ _ZN24IOTimeSyncSyncUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.1
++ _ZN24IOTimeSyncSyncUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.2
++ _ZN24IOTimeSyncSyncUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.3
++ _ZN24IOTimeSyncSyncUserClient5startEP9IOService.cold.1
++ _ZN25IOTimeSyncEdgeTimeCapture12addTimestampEyy.cold.1
++ _ZN25IOTimeSyncEdgeTimeCapture12getTimestampEjPyS0_.cold.1
++ _ZN25IOTimeSyncEdgeTimeCapture12resetCaptureEv.cold.1
++ _ZN25IOTimeSyncEdgeTimeCapture13enableCaptureEv.cold.1
++ _ZN25IOTimeSyncEdgeTimeCapture14disableCaptureEv.cold.1
++ _ZN25IOTimeSyncEdgeTimeCapture18numberOfTimestampsEv.cold.1
++ _ZN25IOTimeSyncEdgeTimeCapture4initEP12OSDictionary.cold.1
++ _ZN25IOTimeSyncEdgeTimeCapture4initEP12OSDictionary.cold.2
++ _ZN28IOTimeSyncTimedEdgeGenerator13schedulePulseEP9IOServiceyj.cold.1
++ _ZN28IOTimeSyncTimedEdgeGenerator13schedulePulseEP9IOServiceyj.cold.2
++ _ZN28IOTimeSyncTimedEdgeGenerator18endExclusiveAccessEP9IOService.cold.1
++ _ZN28IOTimeSyncTimedEdgeGenerator18endExclusiveAccessEP9IOService.cold.2
++ _ZN28IOTimeSyncTimedEdgeGenerator19scheduleNativePulseEP9IOServiceyj.cold.1
++ _ZN28IOTimeSyncTimedEdgeGenerator19scheduleNativePulseEP9IOServiceyj.cold.2
++ _ZN28IOTimeSyncTimedEdgeGenerator20beginExclusiveAccessEP9IOService.cold.1
++ _ZN28IOTimeSyncTimedEdgeGenerator20beginExclusiveAccessEP9IOService.cold.2
++ _ZN28IOTimeSyncTimedEdgeGenerator20cancelRepeatingPulseEP9IOService.cold.1
++ _ZN28IOTimeSyncTimedEdgeGenerator20cancelRepeatingPulseEP9IOService.cold.2
++ _ZN28IOTimeSyncTimedEdgeGenerator22scheduleRepeatingPulseEP9IOServiceyjy.cold.1
++ _ZN28IOTimeSyncTimedEdgeGenerator22scheduleRepeatingPulseEP9IOServiceyjy.cold.2
++ _ZN28IOTimeSyncTimedEdgeGenerator28scheduleNativeRepeatingPulseEP9IOServiceyjy.cold.1
++ _ZN28IOTimeSyncTimedEdgeGenerator28scheduleNativeRepeatingPulseEP9IOServiceyjy.cold.2
++ _ZN28IOTimeSyncTimedEdgeGenerator4initEbjjP12OSDictionary.cold.1
++ _ZN28IOTimeSyncTimedEdgeGenerator4initEbjjP12OSDictionary.cold.2
++ _ZN29IOTimeSyncClockTestUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.1
++ _ZN29IOTimeSyncClockTestUserClient14externalMethodEjP25IOExternalMethodArgumentsP24IOExternalMethodDispatchP8OSObjectPv.cold.1
++ _ZN29IOTimeSyncClockTestUserClient14externalMethodEjP25IOExternalMethodArgumentsP24IOExternalMethodDispatchP8OSObjectPv.cold.2
++ _ZN29IOTimeSyncClockTestUserClient14externalMethodEjP25IOExternalMethodArgumentsP24IOExternalMethodDispatchP8OSObjectPv.cold.3
++ _ZN29IOTimeSyncClockTestUserClient14externalMethodEjP25IOExternalMethodArgumentsP24IOExternalMethodDispatchP8OSObjectPv.cold.4
++ _ZN29IOTimeSyncClockTestUserClient20clockPCR1MeasurementEyP30IOTimeSyncClockPCR1Measurement.cold.1
++ _ZN29IOTimeSyncClockTestUserClient20clockPCR1MeasurementEyP30IOTimeSyncClockPCR1Measurement.cold.2
++ _ZN29IOTimeSyncClockTestUserClient20clockPCR1MeasurementEyP30IOTimeSyncClockPCR1Measurement.cold.3
++ _ZN29IOTimeSyncClockTestUserClient5startEP9IOService.cold.1
++ _ZN35IOTimeSyncEdgeTimeCaptureUserClient14externalMethodEjP25IOExternalMethodArgumentsP24IOExternalMethodDispatchP8OSObjectPv.cold.1
++ _ZN35IOTimeSyncEdgeTimeCaptureUserClient5startEP9IOService.cold.1
++ _ZN38IOTimeSyncTimedEdgeGeneratorUserClient14externalMethodEjP25IOExternalMethodArgumentsP24IOExternalMethodDispatchP8OSObjectPv.cold.1
++ _ZN38IOTimeSyncTimedEdgeGeneratorUserClient5startEP9IOService.cold.1
++ _ZN9TSNPacket11resetPacketEPNS_14TSNPacketRangeEh.cold.1
++ _ZN9TSNPacket11resetPacketEPNS_14TSNPacketRangeEh.cold.2
++ _ZN9TSNPacket11resetPacketEPNS_14TSNPacketRangeEh.cold.3
++ _ZN9TSNPacket16getVirtualRangesEP14IOVirtualRangePi.cold.1
++ _ZN9TSNPacket16getVirtualRangesEP14IOVirtualRangePi.cold.2
++ _ZN9TSNPacket16getVirtualRangesEP14IOVirtualRangePi.cold.3
++ _ZN9TSNPacket16setVirtualRangesEP14IOVirtualRange.cold.1
++ _ZN9TSNPacket17getPhysicalRangesEP15IOPhysicalRangePi.cold.1
++ _ZN9TSNPacket17getPhysicalRangesEP15IOPhysicalRangePi.cold.2
++ _ZN9TSNPacket17getPhysicalRangesEP15IOPhysicalRangePi.cold.3
++ _ZN9TSNPacket17setSegmentLengthsEPm.cold.1
++ _ZNK12TSNInterface13getMACAddressEP18TSNEthernetAddress.cold.1
++ __ZN20IOTimeSyncUserClient21sendAsyncNotificationEjPyj
++ __ZZN17IOTimeSyncService16sendNotificationEjyyE11_os_log_fmt_3
++ __ZZN17IOTimeSyncService4freeEvE20kalloc_type_view_245
++ __ZZN17IOTimeSyncService4initEP12OSDictionaryE19kalloc_type_view_71
++ __ZZN26IOTimeSyncSyncDaemonClient35clockUpdatedTimeSyncTimePTPSyncInfoEbhyyyyyytE11_os_log_fmt
++ __ZZN26IOTimeSyncSyncDaemonClient39clockUpdatedTimeSyncTimeGeneralSyncInfoEyyyyE11_os_log_fmt
++ ___chkstk_darwin
++ ___chkstk_darwin_probe
++ _memcpy
+- __ZN20IOTimeSyncUserClient21sendAsyncNotificationEjyy
+- __ZZN17IOTimeSyncService4freeEvE20kalloc_type_view_235
+- __ZZN17IOTimeSyncService4initEP12OSDictionaryE19kalloc_type_view_61
+CStrings:
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncClockManager.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncClockManagerUserClient.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncClockTestUserClient.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncDaemonClientBase.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncDaemonServiceBase.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncEdgeTimeCapture.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncEdgeTimeCaptureUserClient.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncFilteredService.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncNanosecondSnapshotService.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncRootService.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncService.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncServiceDaemonClient.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncSyncDaemonClient.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncSyncUserClient.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncTimeLineFilter.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncTimedEdgeGenerator.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncTimedEdgeGeneratorUserClient.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncTranslationMach.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncTranslationPMGR.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncUserClient.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncUserFilteredService.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/TimeSensitiveNetworking/DriverKitKernelSupport/TSNUserWiFiControlInterface.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/TimeSensitiveNetworking/TSNAssistedInterface.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/TimeSensitiveNetworking/TSNBSDInterface.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/TimeSensitiveNetworking/TSNInterface.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/TimeSensitiveNetworking/TSNPacket.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/TimeSensitiveNetworking/TSNPacketPool.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/TimeSensitiveNetworking/TSNWiFiControlInterface.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/TimeSensitiveNetworking/TSNWiFiInterface.cpp"
++ "1211111212221212111221"
++ "12111112122212121112211"
++ "IOTimeSyncService::sendNotification: notification=%u arg0=%llu arg1=%llu"
++ "IOTimeSyncSyncDaemonClient::clockUpdatedTimeSyncTimeGeneralSyncInfo: kIOTimeSyncSyncNotificationGeneralSyncUpdate rateNumerator=%llu rateDenominator=%llu timeSyncAnchor=%llu domainAnchor=%llu"
++ "IOTimeSyncSyncDaemonClient::clockUpdatedTimeSyncTimeGeneralSyncInfo: kIOTimeSyncSyncNotificationPTPSyncUpdate cumulativeScaledRate=%llu inverseCumulativeScaledRate=%llu timeSyncAnchor=%llu domainAnchorHi=%llu domainAnchorLo=%llu grandmasterID=%llu localPortNumber=%u syncFlags=%u syncInfoValid=%u"
++ "timesync_tsnotifytest"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncClockManager.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncClockManagerUserClient.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncClockTestUserClient.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncDaemonClientBase.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncDaemonServiceBase.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncEdgeTimeCapture.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncEdgeTimeCaptureUserClient.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncFilteredService.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncNanosecondSnapshotService.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncRootService.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncService.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncServiceDaemonClient.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncSyncDaemonClient.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncSyncUserClient.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncTimeLineFilter.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncTimedEdgeGenerator.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncTimedEdgeGeneratorUserClient.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncTranslationMach.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncTranslationPMGR.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncUserClient.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/IOTimeSyncUserFilteredService.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/TimeSensitiveNetworking/DriverKitKernelSupport/TSNUserWiFiControlInterface.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/TimeSensitiveNetworking/TSNAssistedInterface.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/TimeSensitiveNetworking/TSNBSDInterface.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/TimeSensitiveNetworking/TSNInterface.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/TimeSensitiveNetworking/TSNPacket.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/TimeSensitiveNetworking/TSNPacketPool.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/TimeSensitiveNetworking/TSNWiFiControlInterface.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOTimeSyncFamily/TimeSensitiveNetworking/TSNWiFiInterface.cpp"
+- "121111121222121211121"
+- "1211111212221212111211"
+
+```

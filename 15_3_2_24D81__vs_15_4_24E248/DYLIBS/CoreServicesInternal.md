@@ -1,0 +1,220 @@
+## CoreServicesInternal
+
+> `/System/Library/PrivateFrameworks/CoreServicesInternal.framework/Versions/A/CoreServicesInternal`
+
+```diff
+
+-548.3.0.0.0
+-  __TEXT.__text: 0x36bb0
+-  __TEXT.__auth_stubs: 0x1c90
++554.5.0.0.0
++  __TEXT.__text: 0x364b0
++  __TEXT.__auth_stubs: 0x1bf0
+   __TEXT.__delay_stubs: 0x1b8
+   __TEXT.__delay_helper: 0x49c
+-  __TEXT.__const: 0x370
+-  __TEXT.__cstring: 0x27a0
+-  __TEXT.__oslogstring: 0x2afb
++  __TEXT.__const: 0x500
++  __TEXT.__cstring: 0x279f
++  __TEXT.__oslogstring: 0x2ace
+   __TEXT.__unwind_info: 0x100
+-  __DATA_CONST.__got: 0x7e8
++  __DATA_CONST.__got: 0x7e0
+   __DATA_CONST.__const: 0x320
+-  __AUTH_CONST.__auth_got: 0xe98
+-  __AUTH_CONST.__const: 0x428
+-  __AUTH_CONST.__cfstring: 0x18e0
++  __AUTH_CONST.__auth_got: 0xe48
++  __AUTH_CONST.__const: 0x3f8
++  __AUTH_CONST.__cfstring: 0x1900
+   __DATA.__data: 0x131
+-  __DATA.__bss: 0x7e8
++  __DATA.__bss: 0x1370
+   __DATA_DIRTY.__data: 0x1b8
+-  __DATA_DIRTY.__bss: 0x1d69
++  __DATA_DIRTY.__bss: 0x11a0
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+   - /System/Library/Frameworks/FileProvider.framework/Versions/A/FileProvider
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libfakelink.dylib
+-  UUID: 36144ED0-C50B-3319-B3C1-B1CB578D3633
+-  Functions: 715
+-  Symbols:   1618
++  UUID: CF0DC5D0-A358-3C16-81C0-4D75401AF16E
++  Functions: 741
++  Symbols:   1616
+   CStrings:  847
+ 
+Symbols:
++ _CFURLCompareBookmarkData.cold.1
++ _CFURLCreateByResolvingBookmarkData.cold.10
++ _CFURLCreateByResolvingBookmarkData.cold.11
++ _CFURLCreateByResolvingBookmarkData.cold.12
++ _CFURLCreateByResolvingBookmarkData.cold.13
++ _CFURLCreateByResolvingBookmarkData.cold.14
++ _CFURLCreateByResolvingBookmarkData.cold.15
++ _CFURLCreateByResolvingBookmarkData.cold.16
++ _CFURLCreateByResolvingBookmarkData.cold.3
++ _CFURLCreateByResolvingBookmarkData.cold.4
++ _CFURLCreateByResolvingBookmarkData.cold.5
++ _CFURLCreateByResolvingBookmarkData.cold.6
++ _CFURLCreateByResolvingBookmarkData.cold.7
++ _CFURLCreateByResolvingBookmarkData.cold.8
++ _CFURLCreateByResolvingBookmarkData.cold.9
++ _FSURLGetAttrListForPropertyKeys.cold.1
++ _FSURLGetFSRef.cold.1
++ _FSURLGetFSRef.cold.2
++ _FSURLGetResourcePropertyFlags.cold.2
++ _URLEnumeratorGetTypeID.cold.1
++ _URLReplaceObject.cold.2
++ _URLReplaceObject.cold.3
++ _URLReplaceObject.cold.4
++ _Z15initGlobalsOncev.cold.1
++ _Z19_FileCacheInitClassv.cold.1
++ _Z31GetFakelinkDataVolumeMountPointv.cold.1
++ _Z32CFBookmarkPropertyKeyToKnownTypePK10__CFString.cold.1
++ _Z33CFBookmarkPropertyEnumToStringKeyj.cold.1
++ _Z33GetFakelinkSystemVolumeMountPointv.cold.1
++ _Z55_CFURLCopyResourcePropertyFromAliasRecordInBookmarkDataRK12BookmarkDataPK10__CFString.cold.1
++ _ZL20parseAttributeBufferPK13__CFAllocatorPKhhPK8attrlistPKvPPvP15_FileAttributesPjh.cold.1
++ _ZL20parseAttributeBufferPK13__CFAllocatorPKhhPK8attrlistPKvPPvP15_FileAttributesPjh.cold.2
++ _ZL20parseAttributeBufferPK13__CFAllocatorPKhhPK8attrlistPKvPPvP15_FileAttributesPjh.cold.3
++ _ZL21createFinderInfoValuePK7__CFURLPK15_FileAttributesPv.cold.1
++ _ZL22registerCorePropertiesv.cold.1
++ _ZL24registerVolumePropertiesv.cold.1
++ _ZL25registerPathURLPropertiesv.cold.1
++ _ZL25registerPathURLPropertiesv.cold.2
++ _ZL27copyAllPropertiesInBookmarkR12BookmarkDataj.cold.1
++ _ZL33GetBookmarkResourcePropertyToInfoPK10__CFStringP43BookmarkResourcePropertyKeyToInfoStructItem.cold.1
++ _ZL34__FSURLCreateWithPathAndAttributesPK13__CFAllocatorP19URLCreateParametersPP9__CFError.cold.1
++ _ZL36CFURLCreateByResolvingDataInBookmarkPK13__CFAllocatorR12BookmarkDatajmPK9__CFArrayPhPP9__CFErrorPPK7__CFURL.cold.33
++ _ZN21SandboxExtensionCache6sharedEv.cold.1
++ __MergedGlobals
++ __ZL17parse_path_prefixPKcPj
++ __ZL25createFileReferenceURLRefPK13__CFAllocatoryyyPK10__CFStringhj
++ __ZL34__FSURLCreateWithPathAndAttributesPK13__CFAllocatorP19URLCreateParametersPP9__CFError
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn190102Emc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn190102ILi0EEEPKc
++ __ZNSt3__113__tree_removeB8nn190102IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__116__pad_and_outputB8nn190102IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIPKvEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8nn190102Ev
++ __ZNSt3__124__put_character_sequenceB8nn190102IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__127__tree_balance_after_insertB8nn190102IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__16__treeINS_12__value_typeINS_4pairIjjEEPKvEENS_19__map_value_compareIS3_S6_NS_4lessIS3_EELb1EEENS_9allocatorIS6_EEE25__emplace_unique_key_argsIS3_JNS2_IS3_S5_EEEEENS2_INS_15__tree_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEEbEERKT_DpOT0_
++ __ZNSt3__1lsB8nn190102INS_11char_traitsIcEEEERNS_13basic_ostreamIcT_EES6_RKNS_8__iom_t4IcEE
++ __ZSt28__throw_bad_array_new_lengthB8nn190102v
++ __ZZL25createFileReferenceURLRefPK13__CFAllocatoryyyPK10__CFStringhjE8hexchars
++ ___FSURLCopyResourcePropertyValuesAndFlags_block_invoke.cold.1
++ ___FSURLGetCatalogInfo_block_invoke.cold.1
++ ___FSURLGetResourcePropertyFlags_block_invoke.cold.1
++ __block_descriptor_tmp.70
++ __block_literal_global.72
++ _strtoul
++ filtered_getattrlist.cold.1
++ registerExternalProviderProperties.cold.1
++ registerExternalProviderProperties.cold.2
++ registerExternalProviderProperties.cold.3
+- _FSURLCopyResourcePropertyValuesAndFlags.cold.1
+- _OUTLINED_FUNCTION_10
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_9
+- _ZL25resolveScopedBookmarkDataPK13__CFAllocatorPK8__CFDatamPK7__CFURLPhPP9__CFError.cold.1
+- _ZL25resolveScopedBookmarkDataPK13__CFAllocatorPK8__CFDatamPK7__CFURLPhPP9__CFError.cold.10
+- _ZL25resolveScopedBookmarkDataPK13__CFAllocatorPK8__CFDatamPK7__CFURLPhPP9__CFError.cold.11
+- _ZL25resolveScopedBookmarkDataPK13__CFAllocatorPK8__CFDatamPK7__CFURLPhPP9__CFError.cold.2
+- _ZL25resolveScopedBookmarkDataPK13__CFAllocatorPK8__CFDatamPK7__CFURLPhPP9__CFError.cold.3
+- _ZL25resolveScopedBookmarkDataPK13__CFAllocatorPK8__CFDatamPK7__CFURLPhPP9__CFError.cold.4
+- _ZL25resolveScopedBookmarkDataPK13__CFAllocatorPK8__CFDatamPK7__CFURLPhPP9__CFError.cold.5
+- _ZL25resolveScopedBookmarkDataPK13__CFAllocatorPK8__CFDatamPK7__CFURLPhPP9__CFError.cold.6
+- _ZL25resolveScopedBookmarkDataPK13__CFAllocatorPK8__CFDatamPK7__CFURLPhPP9__CFError.cold.7
+- _ZL25resolveScopedBookmarkDataPK13__CFAllocatorPK8__CFDatamPK7__CFURLPhPP9__CFError.cold.8
+- _ZL25resolveScopedBookmarkDataPK13__CFAllocatorPK8__CFDatamPK7__CFURLPhPP9__CFError.cold.9
+- _ZL37createByResolvingBookmarkDataInternalPK13__CFAllocatorPK8__CFDatamPK7__CFURLPK9__CFArrayPhPP9__CFErrorPS7_.cold.1
+- _ZL37createByResolvingBookmarkDataInternalPK13__CFAllocatorPK8__CFDatamPK7__CFURLPK9__CFArrayPhPP9__CFErrorPS7_.cold.2
+- _ZL37createByResolvingBookmarkDataInternalPK13__CFAllocatorPK8__CFDatamPK7__CFURLPK9__CFArrayPhPP9__CFErrorPS7_.cold.3
+- __CFFileCoordinateReadingItemAtURL2
+- __CFURLCopyPromiseURLOfLogicalURL
+- __CFURLPromiseCopyPhysicalURL
+- __CFURLPromiseCopyResourcePropertyForKey
+- __CFURLPromiseSetPhysicalURL
+- __CFURLPromiseSetResourcePropertyForKey
+- __ZGVZ34registerExternalProviderPropertiesE13propertyTable
+- __ZGVZ34registerExternalProviderPropertiesE22tagNamesDependencyKeys
+- __ZGVZ34registerExternalProviderPropertiesE24thumbnailsDependencyKeys
+- __ZGVZ55_CFURLCopyResourcePropertyFromAliasRecordInBookmarkDataRK12BookmarkDataPK10__CFStringE44sPropertiesWhichMayBeInAnAliasRecordBookmark
+- __ZGVZL17GetFSRefKeysArrayvE9fsRefKeys
+- __ZGVZL22registerCorePropertiesvE17corePropertyTable
+- __ZGVZL24registerVolumePropertiesvE13propertyTable
+- __ZGVZL25registerPathURLPropertiesvE13propertyTable
+- __ZGVZL25registerPathURLPropertiesvE20parentDependencyKeys
+- __ZGVZZ20_FSURLGetCatalogInfoEUb1_E8theTable
+- __ZGVZZ30_FSURLGetResourcePropertyFlagsEUb0_E8theTable
+- __ZGVZZ40_FSURLCopyResourcePropertyValuesAndFlagsEUb_E8theTable
+- __ZL19URLHasSecurityScopePK7__CFURL
+- __ZL23_kCFURLEnumeratorTypeID
+- __ZL25DownloadCloudDocumentSyncPK7__CFURL
+- __ZL25createFileReferenceURLRefPK13__CFAllocatoryyyPK10__CFStringh
+- __ZL25resolveScopedBookmarkDataPK13__CFAllocatorPK8__CFDatamPK7__CFURLPhPP9__CFError
+- __ZL34__FSURLCreateWithPathAndAttributesPK13__CFAllocatorPKhllPK7__CFURLPK8attrlistPKvhhhhiPPvPP9__CFError
+- __ZL37createByResolvingBookmarkDataInternalPK13__CFAllocatorPK8__CFDatamPK7__CFURLPK9__CFArrayPhPP9__CFErrorPS7_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn180100Emc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn180100ILi0EEEPKc
+- __ZNSt3__113__tree_removeB8nn180100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__116__pad_and_outputB8nn180100IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIPKvEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8nn180100Ev
+- __ZNSt3__124__put_character_sequenceB8nn180100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__127__tree_balance_after_insertB8nn180100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__16__treeINS_12__value_typeINS_4pairIjjEEPKvEENS_19__map_value_compareIS3_S6_NS_4lessIS3_EELb1EEENS_9allocatorIS6_EEE25__emplace_unique_key_argsIS3_JRKNS2_IKS3_S5_EEEEENS2_INS_15__tree_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEEbEERKT_DpOT0_
+- __ZNSt3__1lsB8nn180100INS_11char_traitsIcEEEERNS_13basic_ostreamIcT_EES6_RKNS_8__iom_t4IcEE
+- __ZSt28__throw_bad_array_new_lengthB8nn180100v
+- __ZZ20_FSURLGetCatalogInfoE19maskToPropertyTable
+- __ZZ20_FSURLGetCatalogInfoE5sOnce
+- __ZZ23_URLEnumeratorGetTypeIDE9onceToken
+- __ZZ34registerExternalProviderPropertiesE13propertyTable
+- __ZZ34registerExternalProviderPropertiesE22tagNamesDependencyKeys
+- __ZZ34registerExternalProviderPropertiesE24thumbnailsDependencyKeys
+- __ZZ40_FSURLCopyResourcePropertyValuesAndFlagsE19maskToPropertyTable
+- __ZZ40_FSURLCopyResourcePropertyValuesAndFlagsE24maskToPropertyTableCount
+- __ZZ40_FSURLCopyResourcePropertyValuesAndFlagsE5sOnce
+- __ZZ55_CFURLCopyResourcePropertyFromAliasRecordInBookmarkDataRK12BookmarkDataPK10__CFStringE44sPropertiesWhichMayBeInAnAliasRecordBookmark
+- __ZZL17GetFSRefKeysArrayvE9fsRefKeys
+- __ZZL25createFileReferenceURLRefPK13__CFAllocatoryyyPK10__CFStringhE8hexchars
+- __ZZL25registerPathURLPropertiesvE13propertyTable
+- __ZZL25registerPathURLPropertiesvE20parentDependencyKeys
+- __ZZZ20_FSURLGetCatalogInfoEUb1_E8theTable
+- __ZZZ30_FSURLGetResourcePropertyFlagsEUb0_E8theTable
+- __ZZZ40_FSURLCopyResourcePropertyValuesAndFlagsEUb_E8theTable
+- ____ZL25DownloadCloudDocumentSyncPK7__CFURL_block_invoke
+- __block_descriptor_tmp.125
+- __block_descriptor_tmp.65
+- __block_literal_global.67
+- __kCFURLPromisePhysicalURLKey
+- _dispatch_group_create
+- _dispatch_group_enter
+- _dispatch_group_leave
+- _dispatch_group_wait
+- _dispatch_release
+CStrings:
++ "/.nofollow%s"
++ "/.nofollow/"
++ "/.resolve/"
++ "/.resolve/%u%s"
++ "file:///.file/id=%lld.%lld%s"
++ "file:///.file/id=%lld.%lld/?.resolve=%u"
+- "%s: downloading %@"
+- "%s: finished %@, error=%@"
+- "._"
+- "/.file/id=%lld.%lld"
+- "DownloadCloudDocumentSync"
+- "com.apple.bookmarkresolution"
+- "v32@?0^{__CFURL=}8^{__CFError=}16@?<v@?>24"
+
+```

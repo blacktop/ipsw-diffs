@@ -1,0 +1,291 @@
+## com.apple.iokit.IOAVBFamily
+
+> `com.apple.iokit.IOAVBFamily`
+
+```diff
+
+   __TEXT.__cstring: 0x2408
+   __TEXT.__os_log: 0x9d27
+   __TEXT.__const: 0x60
+-  __TEXT_EXEC.__text: 0x1fe10
++  __TEXT_EXEC.__text: 0x21a08
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xcc
+   __DATA.__common: 0x220
+
+   __DATA_CONST.__mod_term_func: 0x68
+   __DATA_CONST.__const: 0x7fb0
+   __DATA_CONST.__kalloc_type: 0x340
+-  UUID: 7A264F68-694A-3CE8-ABE7-AC8CB8BB9493
+-  Functions: 418
+-  Symbols:   1876
++  UUID: 7D5ED30F-CF17-3D8B-B104-BA882E4610CD
++  Functions: 655
++  Symbols:   2115
+   CStrings:  388
+ 
+Symbols:
++ _OUTLINED_FUNCTION_0
++ _ZL19takeCrystalSnapshotPFyvERyS1_.cold.1
++ _ZN13IOAVBValidate20getCrystalTimestampsEyRyS0_S0_S0_.cold.1
++ _ZN13IOAVBValidate5probeEP9IOServicePi.cold.1
++ _ZN13IOAVBValidate5probeEP9IOServicePi.cold.2
++ _ZN13IOAVBValidate5startEP9IOService.cold.1
++ _ZN18IOAVBNubUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.1
++ _ZN18IOAVBNubUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.2
++ _ZN18IOAVBNubUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.3
++ _ZN18IOAVBNubUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.4
++ _ZN18IOAVBNubUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.5
++ _ZN18IOAVBNubUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.6
++ _ZN18IOAVBNubUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.7
++ _ZN18IOAVBNubUserClient13addSyncClientEyPy.cold.1
++ _ZN18IOAVBNubUserClient13addSyncClientEyPy.cold.2
++ _ZN18IOAVBNubUserClient13addSyncClientEyPy.cold.3
++ _ZN18IOAVBNubUserClient13addSyncClientEyPy.cold.4
++ _ZN18IOAVBNubUserClient13addSyncClientEyPy.cold.5
++ _ZN18IOAVBNubUserClient13addSyncClientEyPy.cold.6
++ _ZN18IOAVBNubUserClient13addSyncClientEyPy.cold.7
++ _ZN18IOAVBNubUserClient16removeSyncClientEy.cold.1
++ _ZN18IOAVBNubUserClient16removeSyncClientEy.cold.2
++ _ZN18IOAVBNubUserClient16removeSyncClientEy.cold.3
++ _ZN18IOAVBNubUserClient16removeSyncClientEy.cold.4
++ _ZN18IOAVBNubUserClient16removeSyncClientEy.cold.5
++ _ZN18IOAVBNubUserClient28addStreamCaptureForInterfaceEPKcj.cold.1
++ _ZN18IOAVBNubUserClient28addStreamCaptureForInterfaceEPKcj.cold.2
++ _ZN18IOAVBNubUserClient28addStreamCaptureForInterfaceEPKcj.cold.3
++ _ZN18IOAVBNubUserClient28addStreamCaptureForInterfaceEPKcj.cold.4
++ _ZN18IOAVBNubUserClient28addStreamCaptureForInterfaceEPKcj.cold.5
++ _ZN18IOAVBNubUserClient28addStreamCaptureForInterfaceEPKcj.cold.6
++ _ZN18IOAVBNubUserClient30addTimeSyncCaptureForInterfaceEPKc.cold.1
++ _ZN18IOAVBNubUserClient30addTimeSyncCaptureForInterfaceEPKc.cold.2
++ _ZN18IOAVBNubUserClient30addTimeSyncCaptureForInterfaceEPKc.cold.3
++ _ZN18IOAVBNubUserClient30addTimeSyncCaptureForInterfaceEPKc.cold.4
++ _ZN18IOAVBNubUserClient30addTimeSyncCaptureForInterfaceEPKc.cold.5
++ _ZN18IOAVBNubUserClient31removeStreamCaptureForInterfaceEPKcj.cold.1
++ _ZN18IOAVBNubUserClient31removeStreamCaptureForInterfaceEPKcj.cold.2
++ _ZN18IOAVBNubUserClient31removeStreamCaptureForInterfaceEPKcj.cold.3
++ _ZN18IOAVBNubUserClient31removeStreamCaptureForInterfaceEPKcj.cold.4
++ _ZN18IOAVBNubUserClient33removeTimeSyncCaptureForInterfaceEPKc.cold.1
++ _ZN18IOAVBNubUserClient33removeTimeSyncCaptureForInterfaceEPKc.cold.2
++ _ZN18IOAVBNubUserClient33removeTimeSyncCaptureForInterfaceEPKc.cold.3
++ _ZN18IOAVBNubUserClient33removeTimeSyncCaptureForInterfaceEPKc.cold.4
++ _ZN22IOAVBLocalClockGlobals16dataLoadCallbackEjiPKvjPv.cold.1
++ _ZN22IOAVBLocalClockGlobals16dataLoadCallbackEjiPKvjPv.cold.2
++ _ZN22IOAVBLocalClockGlobals18verifyAndUpdateKeyEPKcS1_P12OSDictionary.cold.1
++ _ZN22IOAVBLocalClockGlobals18verifyAndUpdateKeyEPKcS1_P12OSDictionary.cold.2
++ _ZN22IOAVBLocalClockGlobals19setupLocalClockTimeEv.cold.2
++ _ZN22IOAVBLocalClockGlobals8dataLoadEPKvj.cold.10
++ _ZN22IOAVBLocalClockGlobals8dataLoadEPKvj.cold.11
++ _ZN22IOAVBLocalClockGlobals8dataLoadEPKvj.cold.12
++ _ZN22IOAVBLocalClockGlobals8dataLoadEPKvj.cold.13
++ _ZN22IOAVBLocalClockGlobals8dataLoadEPKvj.cold.14
++ _ZN22IOAVBLocalClockGlobals8dataLoadEPKvj.cold.15
++ _ZN22IOAVBLocalClockGlobals8dataLoadEPKvj.cold.16
++ _ZN22IOAVBLocalClockGlobals8dataLoadEPKvj.cold.17
++ _ZN22IOAVBLocalClockGlobals8dataLoadEPKvj.cold.2
++ _ZN22IOAVBLocalClockGlobals8dataLoadEPKvj.cold.3
++ _ZN22IOAVBLocalClockGlobals8dataLoadEPKvj.cold.4
++ _ZN22IOAVBLocalClockGlobals8dataLoadEPKvj.cold.5
++ _ZN22IOAVBLocalClockGlobals8dataLoadEPKvj.cold.6
++ _ZN22IOAVBLocalClockGlobals8dataLoadEPKvj.cold.7
++ _ZN22IOAVBLocalClockGlobals8dataLoadEPKvj.cold.8
++ _ZN22IOAVBLocalClockGlobals8dataLoadEPKvj.cold.9
++ _ZN23IOAVBValidateUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.1
++ _ZN23IOAVBValidateUserClient5startEP9IOService.cold.1
++ _ZN24IOAVBGPIOEdgeTimeCapture12resetCaptureEv.cold.1
++ _ZN24IOAVBGPIOEdgeTimeCapture13enableCaptureEv.cold.1
++ _ZN24IOAVBGPIOEdgeTimeCapture13enableCaptureEv.cold.2
++ _ZN24IOAVBGPIOEdgeTimeCapture13enableCaptureEv.cold.3
++ _ZN24IOAVBGPIOEdgeTimeCapture14disableCaptureEv.cold.1
++ _ZN24IOAVBGPIOEdgeTimeCapture14disableCaptureEv.cold.2
++ _ZN24IOAVBGPIOEdgeTimeCapture14disableCaptureEv.cold.3
++ _ZN24IOAVBGPIOEdgeTimeCapture5probeEP9IOServicePi.cold.1
++ _ZN24IOAVBGPIOEdgeTimeCapture5probeEP9IOServicePi.cold.2
++ _ZN24IOAVBGPIOEdgeTimeCapture5probeEP9IOServicePi.cold.3
++ _ZN24IOAVBGPIOEdgeTimeCapture5probeEP9IOServicePi.cold.4
++ _ZN24IOAVBGPIOEdgeTimeCapture5probeEP9IOServicePi.cold.5
++ _ZN24IOAVBGPIOEdgeTimeCapture5probeEP9IOServicePi.cold.6
++ _ZN24IOAVBGPIOEdgeTimeCapture5probeEP9IOServicePi.cold.7
++ _ZN24IOAVBGPIOEdgeTimeCapture5probeEP9IOServicePi.cold.8
++ _ZN24IOAVBGPIOEdgeTimeCapture5startEP9IOService.cold.1
++ _ZN24IOAVBGPIOEdgeTimeCapture5startEP9IOService.cold.2
++ _ZN24IOAVBGPIOEdgeTimeCapture5startEP9IOService.cold.3
++ _ZN24IOAVBGPIOEdgeTimeCapture5startEP9IOService.cold.4
++ _ZN24IOAVBGPIOEdgeTimeCapture5startEP9IOService.cold.5
++ _ZN24IOAVBGPIOEdgeTimeCapture5startEP9IOService.cold.6
++ _ZN24IOAVBGPIOEdgeTimeCapture5startEP9IOService.cold.7
++ _ZN27IOAVBTimeSyncSyncUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.1
++ _ZN28IOAVBStreamCaptureUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.1
++ _ZN28IOAVBStreamCaptureUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.2
++ _ZN28IOAVBStreamCaptureUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.3
++ _ZN28IOAVBStreamCaptureUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.4
++ _ZN28IOAVBStreamCaptureUserClient16setAsyncCallbackEPy.cold.1
++ _ZN28IOAVBStreamCaptureUserClient20releaseAsyncCallbackEv.cold.1
++ _ZN28IOAVBStreamCaptureUserClient20streamReceivedPacketEPN20IOEthernetController19IOEthernetAVBPacketE.cold.1
++ _ZN28IOAVBStreamCaptureUserClient20streamReceivedPacketEPN20IOEthernetController19IOEthernetAVBPacketE.cold.2
++ _ZN28IOAVBStreamCaptureUserClient20streamReceivedPacketEPN20IOEthernetController19IOEthernetAVBPacketE.cold.3
++ _ZN28IOAVBStreamCaptureUserClient5startEP9IOService.cold.1
++ _ZN28IOAVBStreamCaptureUserClient5startEP9IOService.cold.2
++ _ZN28IOAVBStreamCaptureUserClient5startEP9IOService.cold.3
++ _ZN30IOAVBTimeSyncCaptureUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.1
++ _ZN30IOAVBTimeSyncCaptureUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.2
++ _ZN30IOAVBTimeSyncCaptureUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.3
++ _ZN30IOAVBTimeSyncCaptureUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.4
++ _ZN30IOAVBTimeSyncCaptureUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.5
++ _ZN30IOAVBTimeSyncCaptureUserClient13myIPv4AddressEPjS0_.cold.1
++ _ZN30IOAVBTimeSyncCaptureUserClient13myIPv6AddressEPh.cold.1
++ _ZN30IOAVBTimeSyncCaptureUserClient14transmitPacketEyyy.cold.1
++ _ZN30IOAVBTimeSyncCaptureUserClient14transmitPacketEyyy.cold.2
++ _ZN30IOAVBTimeSyncCaptureUserClient14transmitPacketEyyy.cold.3
++ _ZN30IOAVBTimeSyncCaptureUserClient14transmitPacketEyyy.cold.4
++ _ZN30IOAVBTimeSyncCaptureUserClient14transmitPacketEyyy.cold.5
++ _ZN30IOAVBTimeSyncCaptureUserClient14transmitPacketEyyy.cold.6
++ _ZN30IOAVBTimeSyncCaptureUserClient16setAsyncCallbackEPy.cold.1
++ _ZN30IOAVBTimeSyncCaptureUserClient20releaseAsyncCallbackEv.cold.1
++ _ZN30IOAVBTimeSyncCaptureUserClient22timeSyncReceivedPacketEP9TSNPacket.cold.1
++ _ZN30IOAVBTimeSyncCaptureUserClient22timeSyncReceivedPacketEP9TSNPacket.cold.2
++ _ZN30IOAVBTimeSyncCaptureUserClient22timeSyncReceivedPacketEP9TSNPacket.cold.3
++ _ZN30IOAVBTimeSyncCaptureUserClient23myIPv4AddressForAddressEjPjS0_.cold.1
++ _ZN30IOAVBTimeSyncCaptureUserClient23myIPv6AddressForAddressEPKhPh.cold.1
++ _ZN30IOAVBTimeSyncCaptureUserClient24macAddressForIPv4AddressEjjjPh.cold.1
++ _ZN30IOAVBTimeSyncCaptureUserClient24macAddressForIPv6AddressEPKhPh.cold.1
++ _ZN30IOAVBTimeSyncCaptureUserClient25timeSyncTransmittedPacketEP9TSNPacket.cold.1
++ _ZN30IOAVBTimeSyncCaptureUserClient25timeSyncTransmittedPacketEP9TSNPacket.cold.2
++ _ZN30IOAVBTimeSyncCaptureUserClient25timeSyncTransmittedPacketEP9TSNPacket.cold.3
++ _ZN30IOAVBTimeSyncCaptureUserClient5startEP9IOService.cold.1
++ _ZN30IOAVBTimeSyncCaptureUserClient5startEP9IOService.cold.2
++ _ZN30IOAVBTimeSyncCaptureUserClient5startEP9IOService.cold.3
++ _ZN8IOAVBNub12findEntityIDEv.cold.1
++ _ZN8IOAVBNub12findEntityIDEv.cold.2
++ _ZN8IOAVBNub12findEntityIDEv.cold.3
++ _ZN8IOAVBNub12findEntityIDEv.cold.4
++ _ZN8IOAVBNub12findEntityIDEv.cold.5
++ _ZN8IOAVBNub12findEntityIDEv.cold.6
++ _ZN8IOAVBNub12findEntityIDEv.cold.7
++ _ZN8IOAVBNub12findEntityIDEv.cold.8
++ _ZN8IOAVBNub12sharedAVBNubEv.cold.1
++ _ZN8IOAVBNub12sharedAVBNubEv.cold.2
++ _ZN8IOAVBNub13addSyncClientEyPy.cold.1
++ _ZN8IOAVBNub13addSyncClientEyPy.cold.2
++ _ZN8IOAVBNub13addSyncClientEyPy.cold.3
++ _ZN8IOAVBNub13addSyncClientEyPy.cold.4
++ _ZN8IOAVBNub13addSyncClientEyPy.cold.5
++ _ZN8IOAVBNub13addSyncClientEyPy.cold.6
++ _ZN8IOAVBNub13addSyncClientEyPy.cold.7
++ _ZN8IOAVBNub13addSyncClientEyPy.cold.8
++ _ZN8IOAVBNub13newUserClientEP4taskPvjP12OSDictionaryPP12IOUserClient.cold.1
++ _ZN8IOAVBNub13newUserClientEP4taskPvjP12OSDictionaryPP12IOUserClient.cold.2
++ _ZN8IOAVBNub13newUserClientEP4taskPvjP12OSDictionaryPP12IOUserClient.cold.3
++ _ZN8IOAVBNub13newUserClientEP4taskPvjP12OSDictionaryPP12IOUserClient.cold.4
++ _ZN8IOAVBNub13newUserClientEP4taskPvjP12OSDictionaryPP12IOUserClient.cold.5
++ _ZN8IOAVBNub16removeSyncClientEy.cold.1
++ _ZN8IOAVBNub16removeSyncClientEy.cold.2
++ _ZN8IOAVBNub16removeSyncClientEy.cold.3
++ _ZN8IOAVBNub16removeSyncClientEy.cold.4
++ _ZN8IOAVBNub16removeSyncClientEy.cold.5
++ _ZN8IOAVBNub16wantsAudioDriverEb.cold.1
++ _ZN8IOAVBNub16wantsAudioDriverEb.cold.2
++ _ZN8IOAVBNub16wantsAudioDriverEb.cold.3
++ _ZN8IOAVBNub16wantsAudioDriverEb.cold.4
++ _ZN8IOAVBNub17reregisterLanSyncEv.cold.1
++ _ZN8IOAVBNub17reregisterLanSyncEv.cold.2
++ _ZN8IOAVBNub17reregisterLanSyncEv.cold.3
++ _ZN8IOAVBNub17reregisterLanSyncEv.cold.4
++ _ZN8IOAVBNub20getCrystalTimestampsEyRyS0_S0_S0_.cold.1
++ _ZN8IOAVBNub26networkInterfaceTerminatedEP9IOService.cold.1
++ _ZN8IOAVBNub28addStreamCaptureForInterfaceEPKcjPP18IOAVBStreamCapture.cold.1
++ _ZN8IOAVBNub28addStreamCaptureForInterfaceEPKcjPP18IOAVBStreamCapture.cold.10
++ _ZN8IOAVBNub28addStreamCaptureForInterfaceEPKcjPP18IOAVBStreamCapture.cold.11
++ _ZN8IOAVBNub28addStreamCaptureForInterfaceEPKcjPP18IOAVBStreamCapture.cold.2
++ _ZN8IOAVBNub28addStreamCaptureForInterfaceEPKcjPP18IOAVBStreamCapture.cold.3
++ _ZN8IOAVBNub28addStreamCaptureForInterfaceEPKcjPP18IOAVBStreamCapture.cold.4
++ _ZN8IOAVBNub28addStreamCaptureForInterfaceEPKcjPP18IOAVBStreamCapture.cold.5
++ _ZN8IOAVBNub28addStreamCaptureForInterfaceEPKcjPP18IOAVBStreamCapture.cold.6
++ _ZN8IOAVBNub28addStreamCaptureForInterfaceEPKcjPP18IOAVBStreamCapture.cold.7
++ _ZN8IOAVBNub28addStreamCaptureForInterfaceEPKcjPP18IOAVBStreamCapture.cold.8
++ _ZN8IOAVBNub28addStreamCaptureForInterfaceEPKcjPP18IOAVBStreamCapture.cold.9
++ _ZN8IOAVBNub30addTimeSyncCaptureForInterfaceEPKcPP20IOAVBTimeSyncCapture.cold.1
++ _ZN8IOAVBNub30addTimeSyncCaptureForInterfaceEPKcPP20IOAVBTimeSyncCapture.cold.2
++ _ZN8IOAVBNub30addTimeSyncCaptureForInterfaceEPKcPP20IOAVBTimeSyncCapture.cold.3
++ _ZN8IOAVBNub30addTimeSyncCaptureForInterfaceEPKcPP20IOAVBTimeSyncCapture.cold.4
++ _ZN8IOAVBNub30addTimeSyncCaptureForInterfaceEPKcPP20IOAVBTimeSyncCapture.cold.5
++ _ZN8IOAVBNub30addTimeSyncCaptureForInterfaceEPKcPP20IOAVBTimeSyncCapture.cold.6
++ _ZN8IOAVBNub30addTimeSyncCaptureForInterfaceEPKcPP20IOAVBTimeSyncCapture.cold.7
++ _ZN8IOAVBNub30addTimeSyncCaptureForInterfaceEPKcPP20IOAVBTimeSyncCapture.cold.8
++ _ZN8IOAVBNub30addTimeSyncCaptureForInterfaceEPKcPP20IOAVBTimeSyncCapture.cold.9
++ _ZN8IOAVBNub31removeStreamCaptureForInterfaceEPKcjP18IOAVBStreamCapture.cold.1
++ _ZN8IOAVBNub31removeStreamCaptureForInterfaceEPKcjP18IOAVBStreamCapture.cold.10
++ _ZN8IOAVBNub31removeStreamCaptureForInterfaceEPKcjP18IOAVBStreamCapture.cold.2
++ _ZN8IOAVBNub31removeStreamCaptureForInterfaceEPKcjP18IOAVBStreamCapture.cold.3
++ _ZN8IOAVBNub31removeStreamCaptureForInterfaceEPKcjP18IOAVBStreamCapture.cold.4
++ _ZN8IOAVBNub31removeStreamCaptureForInterfaceEPKcjP18IOAVBStreamCapture.cold.5
++ _ZN8IOAVBNub31removeStreamCaptureForInterfaceEPKcjP18IOAVBStreamCapture.cold.6
++ _ZN8IOAVBNub31removeStreamCaptureForInterfaceEPKcjP18IOAVBStreamCapture.cold.7
++ _ZN8IOAVBNub31removeStreamCaptureForInterfaceEPKcjP18IOAVBStreamCapture.cold.8
++ _ZN8IOAVBNub31removeStreamCaptureForInterfaceEPKcjP18IOAVBStreamCapture.cold.9
++ _ZN8IOAVBNub33removeTimeSyncCaptureForInterfaceEPKcP20IOAVBTimeSyncCapture.cold.1
++ _ZN8IOAVBNub33removeTimeSyncCaptureForInterfaceEPKcP20IOAVBTimeSyncCapture.cold.10
++ _ZN8IOAVBNub33removeTimeSyncCaptureForInterfaceEPKcP20IOAVBTimeSyncCapture.cold.2
++ _ZN8IOAVBNub33removeTimeSyncCaptureForInterfaceEPKcP20IOAVBTimeSyncCapture.cold.3
++ _ZN8IOAVBNub33removeTimeSyncCaptureForInterfaceEPKcP20IOAVBTimeSyncCapture.cold.4
++ _ZN8IOAVBNub33removeTimeSyncCaptureForInterfaceEPKcP20IOAVBTimeSyncCapture.cold.5
++ _ZN8IOAVBNub33removeTimeSyncCaptureForInterfaceEPKcP20IOAVBTimeSyncCapture.cold.6
++ _ZN8IOAVBNub33removeTimeSyncCaptureForInterfaceEPKcP20IOAVBTimeSyncCapture.cold.7
++ _ZN8IOAVBNub33removeTimeSyncCaptureForInterfaceEPKcP20IOAVBTimeSyncCapture.cold.8
++ _ZN8IOAVBNub33removeTimeSyncCaptureForInterfaceEPKcP20IOAVBTimeSyncCapture.cold.9
++ _ZN8IOAVBNub4initEP12OSDictionary.cold.1
++ _ZN8IOAVBNub4initEP12OSDictionary.cold.10
++ _ZN8IOAVBNub4initEP12OSDictionary.cold.11
++ _ZN8IOAVBNub4initEP12OSDictionary.cold.12
++ _ZN8IOAVBNub4initEP12OSDictionary.cold.13
++ _ZN8IOAVBNub4initEP12OSDictionary.cold.14
++ _ZN8IOAVBNub4initEP12OSDictionary.cold.2
++ _ZN8IOAVBNub4initEP12OSDictionary.cold.3
++ _ZN8IOAVBNub4initEP12OSDictionary.cold.4
++ _ZN8IOAVBNub4initEP12OSDictionary.cold.5
++ _ZN8IOAVBNub4initEP12OSDictionary.cold.6
++ _ZN8IOAVBNub4initEP12OSDictionary.cold.7
++ _ZN8IOAVBNub4initEP12OSDictionary.cold.8
++ _ZN8IOAVBNub4initEP12OSDictionary.cold.9
++ _ZN8IOAVBNub5probeEP9IOServicePi.cold.1
++ _ZN8IOAVBNub5probeEP9IOServicePi.cold.2
++ _ZN8IOAVBNub5startEP9IOService.cold.1
++ _ZN8IOAVBNub5startEP9IOService.cold.2
++ _ZN8IOAVBNub5startEP9IOService.cold.3
++ _ZN8IOAVBNub5startEP9IOService.cold.4
++ _ZN8IOAVBNub5startEP9IOService.cold.5
++ ___ZN8IOAVBNub13newUserClientEP4taskPvjP12OSDictionaryPP12IOUserClient_block_invoke.cold.1
++ ___ZN8IOAVBNub13newUserClientEP4taskPvjP12OSDictionaryPP12IOUserClient_block_invoke.cold.2
++ ___ZN8IOAVBNub13newUserClientEP4taskPvjP12OSDictionaryPP12IOUserClient_block_invoke.cold.3
++ ___ZN8IOAVBNub13newUserClientEP4taskPvjP12OSDictionaryPP12IOUserClient_block_invoke.cold.4
++ ___ZN8IOAVBNub13newUserClientEP4taskPvjP12OSDictionaryPP12IOUserClient_block_invoke.cold.5
++ ___ZN8IOAVBNub13newUserClientEP4taskPvjP12OSDictionaryPP12IOUserClient_block_invoke.cold.6
++ ___ZN8IOAVBNub13newUserClientEP4taskPvjP12OSDictionaryPP12IOUserClient_block_invoke.cold.7
+- _ZN18IOAVBNubUserClient14externalMethodEjP25IOExternalMethodArgumentsP24IOExternalMethodDispatchP8OSObjectPv.cold.1
+CStrings:
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/IOAVBFamily_kexts/IOAVBFamily/ClockServices/IOAVBGPIOEdgeTimeCapture.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/IOAVBFamily_kexts/IOAVBFamily/ClockServices/IOAVBLocalClock.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/IOAVBFamily_kexts/IOAVBFamily/ClockServices/IOAVBTimeSyncSyncUserClient.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/IOAVBFamily_kexts/IOAVBFamily/IOAVBControllerHelper.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/IOAVBFamily_kexts/IOAVBFamily/IOAVBNub.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/IOAVBFamily_kexts/IOAVBFamily/IOAVBNubUserClient.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/IOAVBFamily_kexts/IOAVBFamily/IOAVBValidate.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/IOAVBFamily_kexts/IOAVBFamily/IOAVBValidateUserClient.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/IOAVBFamily_kexts/IOAVBFamily/NetworkInterface/IOAVBStreamCapture.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/IOAVBFamily_kexts/IOAVBFamily/NetworkInterface/IOAVBStreamCaptureUserClient.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/IOAVBFamily_kexts/IOAVBFamily/NetworkInterface/IOAVBTimeSyncCapture.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/IOAVBFamily_kexts/IOAVBFamily/NetworkInterface/IOAVBTimeSyncCaptureUserClient.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/IOAVBFamily_kexts/IOAVBFamily/ClockServices/IOAVBGPIOEdgeTimeCapture.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/IOAVBFamily_kexts/IOAVBFamily/ClockServices/IOAVBLocalClock.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/IOAVBFamily_kexts/IOAVBFamily/ClockServices/IOAVBTimeSyncSyncUserClient.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/IOAVBFamily_kexts/IOAVBFamily/IOAVBControllerHelper.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/IOAVBFamily_kexts/IOAVBFamily/IOAVBNub.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/IOAVBFamily_kexts/IOAVBFamily/IOAVBNubUserClient.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/IOAVBFamily_kexts/IOAVBFamily/IOAVBValidate.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/IOAVBFamily_kexts/IOAVBFamily/IOAVBValidateUserClient.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/IOAVBFamily_kexts/IOAVBFamily/NetworkInterface/IOAVBStreamCapture.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/IOAVBFamily_kexts/IOAVBFamily/NetworkInterface/IOAVBStreamCaptureUserClient.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/IOAVBFamily_kexts/IOAVBFamily/NetworkInterface/IOAVBTimeSyncCapture.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/IOAVBFamily_kexts/IOAVBFamily/NetworkInterface/IOAVBTimeSyncCaptureUserClient.cpp"
+
+```

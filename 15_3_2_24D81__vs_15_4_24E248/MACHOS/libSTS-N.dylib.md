@@ -1,0 +1,137 @@
+## libSTS-N.dylib
+
+> `/System/Library/Frameworks/MediaToolbox.framework/Support/libSTS-N.dylib`
+
+```diff
+
+-1456.404.0.0.0
+-  __TEXT.__text: 0xb690
++1456.533.0.0.0
++  __TEXT.__text: 0xb680
+   __TEXT.__auth_stubs: 0x5f0
+   __TEXT.__objc_methlist: 0x5c
+-  __TEXT.__const: 0x110
++  __TEXT.__const: 0x118
++  __TEXT.__dlopen_cstrs: 0x101
+   __TEXT.__gcc_except_tab: 0x824
+   __TEXT.__oslogstring: 0x75e
+-  __TEXT.__cstring: 0x67b
+-  __TEXT.__dlopen_cstrs: 0x101
+-  __TEXT.__unwind_info: 0x350
++  __TEXT.__cstring: 0x698
++  __TEXT.__unwind_info: 0x348
+   __TEXT.__objc_classname: 0x2a
+   __TEXT.__objc_methname: 0x1be
+-  __TEXT.__objc_methtype: 0x19c
++  __TEXT.__objc_methtype: 0x17c
+   __TEXT.__objc_stubs: 0x280
+   __DATA_CONST.__got: 0x88
+-  __DATA_CONST.__const: 0xb0
++  __DATA_CONST.__const: 0xb8
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0xb8
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D6177555-A576-3B11-87E0-75D2944E804A
+-  Functions: 105
+-  Symbols:   344
+-  CStrings:  154
++  UUID: CB32EEEB-0E3E-3A52-B3AE-657D727524F9
++  Functions: 108
++  Symbols:   348
++  CStrings:  155
+ 
+Symbols:
++ GCC_except_table100
++ GCC_except_table101
++ GCC_except_table107
++ GCC_except_table19
++ GCC_except_table24
++ GCC_except_table28
++ GCC_except_table29
++ GCC_except_table36
++ GCC_except_table37
++ GCC_except_table49
++ GCC_except_table50
++ GCC_except_table62
++ GCC_except_table64
++ GCC_except_table69
++ GCC_except_table74
++ GCC_except_table80
++ GCC_except_table85
++ GCC_except_table86
++ GCC_except_table88
++ GCC_except_table98
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__113__string_hashIcNS_9allocatorIcEEEclB8ne190102ERKNS_12basic_stringIcNS_11char_traitsIcEES2_EE
++ __ZNKSt3__114default_deleteIN5STS_N12PerLabelInfoEEclB8ne190102EPS2_
++ __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB8ne190102ERKS6_S9_
++ __ZNSt12length_errorC1B8ne190102EPKc
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS0_IN5STS_N12PerLabelInfoENS_14default_deleteISA_EEEEEEPvEENS_22__hash_node_destructorINS6_ISG_EEEEE5resetB8ne190102EPSG_
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIP23ComponentInstanceRecordNS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESB_EEEEPvEENS_22__hash_node_destructorINS9_ISF_EEEEE5resetB8ne190102EPSF_
++ __ZNSt3__110unique_ptrINS_5tupleIJN5caulk6thread10attributesEZL15STS_N_CopyShmemP12OpaqueFigSTSPK10__CFStringPPU24objcproto13OS_xpc_object8NSObjectE3$_0NS1_IJEEEEEENS_14default_deleteISG_EEED1B8ne190102Ev
++ __ZNSt3__112__destroy_atB8ne190102INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10unique_ptrIN5STS_N12PerLabelInfoENS_14default_deleteISB_EEEEEELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8ne190102INS_4pairIKP23ComponentInstanceRecordNS1_INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESA_EEEELi0EEEvPT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10unique_ptrIN5STS_N12PerLabelInfoENS_14default_deleteISA_EEEEEENS_22__unordered_map_hasherIS7_SE_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SE_SJ_SH_Lb1EEENS5_ISE_EEE5eraseENS_21__hash_const_iteratorIPNS_11__hash_nodeISE_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10unique_ptrIN5STS_N12PerLabelInfoENS_14default_deleteISA_EEEEEENS_22__unordered_map_hasherIS7_SE_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SE_SJ_SH_Lb1EEENS5_ISE_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIP23ComponentInstanceRecordNS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESA_EEEENS_22__unordered_map_hasherIS3_SC_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_SC_SH_SF_Lb1EEENS8_ISC_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIP23ComponentInstanceRecordbEENS_22__unordered_map_hasherIS3_S4_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_S4_S9_S7_Lb1EEENS_9allocatorIS4_EEE25__emplace_unique_key_argsIS3_JRKS3_RbEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102ILi0EEEPKc
++ __ZNSt3__117__call_once_proxyB8ne190102INS_5tupleIJOZN12CADeprecated10TSingletonI5STS_NE8instanceEvEUlvE_EEEEEvPv
++ __ZNSt3__119__shared_weak_count16__release_sharedB8ne190102Ev
++ __ZNSt3__120__optional_copy_baseINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEELb0EEC2B8ne190102ERKS7_
++ __ZNSt3__120__throw_length_errorB8ne190102EPKc
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEPvEEEEEclB8ne190102EPS9_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEyEEPvEEEEEclB8ne190102EPSB_
++ __ZNSt3__14pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_ED1Ev
++ __ZNSt3__14pairIP23ComponentInstanceRecordNS0_INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES8_EEED1Ev
++ __ZSt28__throw_bad_array_new_lengthB8ne190102v
+- GCC_except_table17
+- GCC_except_table22
+- GCC_except_table26
+- GCC_except_table27
+- GCC_except_table30
+- GCC_except_table33
+- GCC_except_table44
+- GCC_except_table45
+- GCC_except_table53
+- GCC_except_table54
+- GCC_except_table56
+- GCC_except_table70
+- GCC_except_table72
+- GCC_except_table81
+- GCC_except_table82
+- GCC_except_table84
+- GCC_except_table90
+- GCC_except_table92
+- GCC_except_table95
+- GCC_except_table97
+- __ZN15STSSpatializers22setSpatializerIsActiveEP23ComponentInstanceRecordb
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__113__string_hashIcNS_9allocatorIcEEEclB8ne180100ERKNS_12basic_stringIcNS_11char_traitsIcEES2_EE
+- __ZNKSt3__114default_deleteIN5STS_N12PerLabelInfoEEclB8ne180100EPS2_
+- __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB8ne180100ERKS6_S9_
+- __ZNSt12length_errorC1B8ne180100EPKc
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS0_IN5STS_N12PerLabelInfoENS_14default_deleteISA_EEEEEEPvEENS_22__hash_node_destructorINS6_ISG_EEEEE5resetB8ne180100EPSG_
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIP23ComponentInstanceRecordNS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESB_EEEEPvEENS_22__hash_node_destructorINS9_ISF_EEEEE5resetB8ne180100EPSF_
+- __ZNSt3__110unique_ptrINS_5tupleIJN5caulk6thread10attributesEZL15STS_N_CopyShmemP12OpaqueFigSTSPK10__CFStringPPU24objcproto13OS_xpc_object8NSObjectE3$_0NS1_IJEEEEEENS_14default_deleteISG_EEED1B8ne180100Ev
+- __ZNSt3__112__destroy_atB8ne180100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10unique_ptrIN5STS_N12PerLabelInfoENS_14default_deleteISB_EEEEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB8ne180100INS_4pairIKP23ComponentInstanceRecordNS1_INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESA_EEEELi0EEEvPT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10unique_ptrIN5STS_N12PerLabelInfoENS_14default_deleteISA_EEEEEENS_22__unordered_map_hasherIS7_SE_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SE_SJ_SH_Lb1EEENS5_ISE_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeISE_PvEEEE
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne180100ILi0EEEPKc
+- __ZNSt3__117__call_once_proxyB8ne180100INS_5tupleIJOZN12CADeprecated10TSingletonI5STS_NE8instanceEvEUlvE_EEEEEvPv
+- __ZNSt3__119__shared_weak_count16__release_sharedB8ne180100Ev
+- __ZNSt3__120__optional_copy_baseINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEELb0EEC2B8ne180100ERKS7_
+- __ZNSt3__120__throw_length_errorB8ne180100EPKc
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEPvEEEEEclB8ne180100EPS9_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEyEEPvEEEEEclB8ne180100EPSB_
+- __ZSt28__throw_bad_array_new_lengthB8ne180100v
+CStrings:
++ "kSTSSoundStageSize_AIVPortal"
++ "{basic_string<char, std::char_traits<char>, std::allocator<char>>=\"__r_\"{__compressed_pair<std::basic_string<char>::__rep, std::allocator<char>>=\"__value_\"(__rep=\"__s\"{__short=\"__data_\"[23c]\"__padding_\"[0C]\"__size_\"b7\"__is_long_\"b1}\"__l\"{__long=\"__data_\"*\"__size_\"Q\"__cap_\"b63\"__is_long_\"b1})}}"
+- "{basic_string<char, std::char_traits<char>, std::allocator<char>>=\"__r_\"{__compressed_pair<std::basic_string<char>::__rep, std::allocator<char>>=\"__value_\"{__rep=\"\"(?=\"__s\"{__short=\"__data_\"[23c]\"__padding_\"[0C]\"__size_\"b7\"__is_long_\"b1}\"__l\"{__long=\"__data_\"*\"__size_\"Q\"__cap_\"b63\"__is_long_\"b1}\"__r\"{__raw=\"__words\"[3Q]})}}}"
+
+```

@@ -26,6 +26,7 @@
 <a href="#ipados-17-7">iPadOS 17.7</a> ·
 <a href="#ios-17-6-1">iOS 17.6.1</a> ·
 <a href="#macos-15-5-beta">macOS 15.5 beta</a> ·
+<a href="#macos-15-4">macOS 15.4</a> ·
 <a href="#macos-15-0-beta">macOS 15.0 beta</a>
 </p>
 
@@ -280,6 +281,15 @@
   <summary>View diffs</summary>
 
 - [15.4 (24E248) .vs 15.5 beta 1 (24F5042g)](15_4_24E248__vs_15_5_24F5042g/README.md)
+
+</details>
+
+<a id="macos-15-4"></a>
+### macOS 15.4
+<details>
+  <summary>View diffs</summary>
+
+- [15.3.2 (24D81) .vs 15.4 (24E248)](15_3_2_24D81__vs_15_4_24E248/README.md)
 
 </details>
 

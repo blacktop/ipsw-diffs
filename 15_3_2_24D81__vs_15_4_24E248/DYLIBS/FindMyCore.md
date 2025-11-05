@@ -1,0 +1,563 @@
+## FindMyCore
+
+> `/System/Library/PrivateFrameworks/FindMyCore.framework/Versions/A/FindMyCore`
+
+```diff
+
+-415.23.10.29.4
+-  __TEXT.__text: 0x5c7f0
+-  __TEXT.__auth_stubs: 0x1570
+-  __TEXT.__const: 0x39e6
+-  __TEXT.__swift5_typeref: 0x114c
+-  __TEXT.__cstring: 0xcd3
+-  __TEXT.__constg_swiftt: 0x1034
+-  __TEXT.__swift5_builtin: 0x3c
+-  __TEXT.__swift5_reflstr: 0xa80
+-  __TEXT.__swift5_fieldmd: 0x1078
+-  __TEXT.__swift5_assocty: 0x4a8
+-  __TEXT.__swift5_proto: 0x348
+-  __TEXT.__swift5_types: 0x164
++415.24.7.13.34
++  __TEXT.__text: 0x86a0c
++  __TEXT.__auth_stubs: 0x18c0
++  __TEXT.__objc_methlist: 0x154
++  __TEXT.__const: 0x5a86
++  __TEXT.__cstring: 0xde3
++  __TEXT.__swift5_typeref: 0x1c76
++  __TEXT.__constg_swiftt: 0x1254
++  __TEXT.__swift5_builtin: 0x50
++  __TEXT.__swift5_reflstr: 0x1181
++  __TEXT.__swift5_fieldmd: 0x1658
++  __TEXT.__swift5_assocty: 0x8a0
++  __TEXT.__swift5_proto: 0x52c
++  __TEXT.__swift5_types: 0x1bc
++  __TEXT.__oslogstring: 0x46d
++  __TEXT.__swift5_capture: 0x268
++  __TEXT.__swift_as_entry: 0x148
++  __TEXT.__swift_as_ret: 0x16c
+   __TEXT.__swift5_protos: 0x2c
+-  __TEXT.__oslogstring: 0x25b
+-  __TEXT.__swift5_capture: 0x180
+-  __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__unwind_info: 0x1950
+-  __TEXT.__eh_frame: 0x2230
++  __TEXT.__swift5_mpenum: 0x18
++  __TEXT.__unwind_info: 0x2490
++  __TEXT.__eh_frame: 0x3004
+   __TEXT.__objc_classname: 0x3b
+-  __TEXT.__objc_methname: 0x670
++  __TEXT.__objc_methname: 0x6b7
+   __TEXT.__objc_methtype: 0x100
+-  __DATA_CONST.__got: 0x3f8
+-  __DATA_CONST.__const: 0x148
++  __DATA_CONST.__got: 0x4d8
++  __DATA_CONST.__const: 0x310
+   __DATA_CONST.__objc_classlist: 0x18
+   __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1c0
++  __DATA_CONST.__objc_selrefs: 0x298
+   __DATA_CONST.__objc_protorefs: 0x28
+-  __AUTH_CONST.__auth_got: 0xab8
+-  __AUTH_CONST.__const: 0x2b38
+-  __AUTH_CONST.__objc_const: 0x6f0
++  __AUTH_CONST.__auth_got: 0xc60
++  __AUTH_CONST.__const: 0x38c0
++  __AUTH_CONST.__objc_const: 0x3e0
+   __AUTH.__objc_data: 0x50
+-  __AUTH.__data: 0xdb8
+-  __DATA.__data: 0x1438
+-  __DATA.__bss: 0x6590
++  __AUTH.__data: 0x1000
++  __DATA.__data: 0x1ed8
++  __DATA.__bss: 0xa240
+   __DATA.__common: 0x38
+   - /System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+   - /System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreLocation.framework/Versions/A/CoreLocation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
++  - /System/Library/PrivateFrameworks/CorePhoneNumbers.framework/Versions/A/CorePhoneNumbers
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags
+   - /System/Library/PrivateFrameworks/FindMyBase.framework/Versions/A/FindMyBase
+   - /System/Library/PrivateFrameworks/FindMyLocate.framework/Versions/A/FindMyLocate
+   - /System/Library/PrivateFrameworks/SPOwner.framework/Versions/A/SPOwner
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftFileProvider.dylib
+   - /usr/lib/swift/libswiftIOKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: CAF05FD8-BB76-3EDC-9459-4EDE4D087091
+-  Functions: 2069
+-  Symbols:   662
+-  CStrings:  214
++  UUID: 7FFD6253-5416-38F8-B1D1-AFCB642DBB9D
++  Functions: 3072
++  Symbols:   972
++  CStrings:  256
+ 
+Symbols:
++ _CFPhoneNumberCreate
++ _CFPhoneNumberCreateString
++ _OBJC_CLASS_$_CLPlacemark
++ _OBJC_CLASS_$_NSLocale
++ _SPBeaconTypeHele
++ _SPBeaconTypeSelfBeaconing
++ _SPBeaconTypeVirtualMeDevice
++ __DATA__TtC10FindMyCore18IntelligenceModule
++ __IVARS__TtC10FindMyCore9DataCache
++ __METACLASS_DATA__TtC10FindMyCore18IntelligenceModule
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ ___swift_memcpy145_8
++ ___swift_memcpy168_8
++ ___swift_memcpy232_8
++ ___swift_memcpy40_8
++ ___swift_memcpy48_8
++ __swiftEmptySetSingleton
++ __swift_FORCE_LOAD_$_swiftCompression
++ __swift_FORCE_LOAD_$_swiftCompression_$_FindMyCore
++ _associated conformance 10FindMyCore10ItemEntityV10AppIntents012AttributableE0AaD0fE0
++ _associated conformance 10FindMyCore12DeviceEntityV015ImageDefinitionE0V10AppIntents012AttributableE0AaF0hE0
++ _associated conformance 10FindMyCore12DeviceEntityV015ImageDefinitionE0V10AppIntents09TransienthE0AaF0hE0
++ _associated conformance 10FindMyCore12DeviceEntityV015ImageDefinitionE0V10AppIntents0H5ValueAaF07_IntentJ0
++ _associated conformance 10FindMyCore12DeviceEntityV015ImageDefinitionE0V10AppIntents0H5ValueAaF24PersistentlyIdentifiable
++ _associated conformance 10FindMyCore12DeviceEntityV015ImageDefinitionE0V10AppIntents0H5ValueAaF24TypeDisplayRepresentable
++ _associated conformance 10FindMyCore12DeviceEntityV015ImageDefinitionE0V10AppIntents0hE0AA12DefaultQueryAfGP_AF0eK0
++ _associated conformance 10FindMyCore12DeviceEntityV015ImageDefinitionE0V10AppIntents0hE0AA2IDs12IdentifiableP_AF0E21IdentifierConvertible
++ _associated conformance 10FindMyCore12DeviceEntityV015ImageDefinitionE0V10AppIntents0hE0AAs12Identifiable
++ _associated conformance 10FindMyCore12DeviceEntityV015ImageDefinitionE0V10AppIntents0hE0AaF0H5Value
++ _associated conformance 10FindMyCore12DeviceEntityV015ImageDefinitionE0V10AppIntents0hE0AaF20DisplayRepresentable
++ _associated conformance 10FindMyCore12DeviceEntityV015ImageDefinitionE0V10AppIntents12_IntentValueAA0K4TypeAfGP_AfG
++ _associated conformance 10FindMyCore12DeviceEntityV015ImageDefinitionE0V10AppIntents12_IntentValueAA13SpecificationAfGP_AF08ResolverL0
++ _associated conformance 10FindMyCore12DeviceEntityV015ImageDefinitionE0V10AppIntents12_IntentValueAA13UnwrappedTypeAfGP_AfG
++ _associated conformance 10FindMyCore12DeviceEntityV015ImageDefinitionE0V10AppIntents20DisplayRepresentableAaF04TypejK0
++ _associated conformance 10FindMyCore12DeviceEntityV015ImageDefinitionE0V10AppIntents20DisplayRepresentableAaF08InstancejK0
++ _associated conformance 10FindMyCore12DeviceEntityV015ImageDefinitionE0V10AppIntents28InstanceDisplayRepresentableAA10Foundation40CustomLocalizedStringResourceConvertible
++ _associated conformance 10FindMyCore12DeviceEntityV015ImageDefinitionE0Vs12IdentifiableAA2IDsAFP_SH
++ _associated conformance 10FindMyCore12DeviceEntityV10AppIntents012AttributableE0AaD0fE0
++ _associated conformance 10FindMyCore12DeviceEntityV10AppIntents0F5ValueAaD07_IntentH0
++ _associated conformance 10FindMyCore12DeviceEntityV10AppIntents0F5ValueAaD24PersistentlyIdentifiable
++ _associated conformance 10FindMyCore12DeviceEntityV10AppIntents0F5ValueAaD24TypeDisplayRepresentable
++ _associated conformance 10FindMyCore12DeviceEntityV10AppIntents0fE0AA12DefaultQueryAdEP_AD0eI0
++ _associated conformance 10FindMyCore12DeviceEntityV10AppIntents0fE0AA2IDs12IdentifiableP_AD0E21IdentifierConvertible
++ _associated conformance 10FindMyCore12DeviceEntityV10AppIntents0fE0AAs12Identifiable
++ _associated conformance 10FindMyCore12DeviceEntityV10AppIntents0fE0AaD0F5Value
++ _associated conformance 10FindMyCore12DeviceEntityV10AppIntents0fE0AaD20DisplayRepresentable
++ _associated conformance 10FindMyCore12DeviceEntityV10AppIntents12_IntentValueAA0I4TypeAdEP_AdE
++ _associated conformance 10FindMyCore12DeviceEntityV10AppIntents12_IntentValueAA13SpecificationAdEP_AD08ResolverJ0
++ _associated conformance 10FindMyCore12DeviceEntityV10AppIntents12_IntentValueAA13UnwrappedTypeAdEP_AdE
++ _associated conformance 10FindMyCore12DeviceEntityV10AppIntents20DisplayRepresentableAaD04TypehI0
++ _associated conformance 10FindMyCore12DeviceEntityV10AppIntents20DisplayRepresentableAaD08InstancehI0
++ _associated conformance 10FindMyCore12DeviceEntityV10AppIntents28InstanceDisplayRepresentableAA10Foundation40CustomLocalizedStringResourceConvertible
++ _associated conformance 10FindMyCore12DeviceEntityVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 10FindMyCore12PersonEntityV012RelationshipE0V10AppIntents012AttributableE0AaF0gE0
++ _associated conformance 10FindMyCore12PersonEntityV012RelationshipE0V10AppIntents09TransientgE0AaF0gE0
++ _associated conformance 10FindMyCore12PersonEntityV012RelationshipE0V10AppIntents0G5ValueAaF07_IntentI0
++ _associated conformance 10FindMyCore12PersonEntityV012RelationshipE0V10AppIntents0G5ValueAaF24PersistentlyIdentifiable
++ _associated conformance 10FindMyCore12PersonEntityV012RelationshipE0V10AppIntents0G5ValueAaF24TypeDisplayRepresentable
++ _associated conformance 10FindMyCore12PersonEntityV012RelationshipE0V10AppIntents0gE0AA12DefaultQueryAfGP_AF0eJ0
++ _associated conformance 10FindMyCore12PersonEntityV012RelationshipE0V10AppIntents0gE0AA2IDs12IdentifiableP_AF0E21IdentifierConvertible
++ _associated conformance 10FindMyCore12PersonEntityV012RelationshipE0V10AppIntents0gE0AAs12Identifiable
++ _associated conformance 10FindMyCore12PersonEntityV012RelationshipE0V10AppIntents0gE0AaF0G5Value
++ _associated conformance 10FindMyCore12PersonEntityV012RelationshipE0V10AppIntents0gE0AaF20DisplayRepresentable
++ _associated conformance 10FindMyCore12PersonEntityV012RelationshipE0V10AppIntents12_IntentValueAA0J4TypeAfGP_AfG
++ _associated conformance 10FindMyCore12PersonEntityV012RelationshipE0V10AppIntents12_IntentValueAA13SpecificationAfGP_AF08ResolverK0
++ _associated conformance 10FindMyCore12PersonEntityV012RelationshipE0V10AppIntents12_IntentValueAA13UnwrappedTypeAfGP_AfG
++ _associated conformance 10FindMyCore12PersonEntityV012RelationshipE0V10AppIntents20DisplayRepresentableAaF04TypeiJ0
++ _associated conformance 10FindMyCore12PersonEntityV012RelationshipE0V10AppIntents20DisplayRepresentableAaF08InstanceiJ0
++ _associated conformance 10FindMyCore12PersonEntityV012RelationshipE0V10AppIntents28InstanceDisplayRepresentableAA10Foundation40CustomLocalizedStringResourceConvertible
++ _associated conformance 10FindMyCore12PersonEntityV012RelationshipE0Vs12IdentifiableAA2IDsAFP_SH
++ _associated conformance 10FindMyCore12PersonEntityV10AppIntents012AttributableE0AaD0fE0
++ _associated conformance 10FindMyCore16DistanceFromUserVSHAASQ
++ _associated conformance 10FindMyCore16DistanceFromUserVSLAASQ
++ _associated conformance 10FindMyCore17DeviceEntityQueryV10AppIntents010EnumerableeF0AaD0eF0
++ _associated conformance 10FindMyCore17DeviceEntityQueryV10AppIntents0eF0AA0E0AdEP_AD0gE0
++ _associated conformance 10FindMyCore17DeviceEntityQueryV10AppIntents0eF0AaD22DynamicOptionsProvider
++ _associated conformance 10FindMyCore17DeviceEntityQueryV10AppIntents0eF0AaD24PersistentlyIdentifiable
++ _associated conformance 10FindMyCore17DeviceEntityQueryV10AppIntents22DynamicOptionsProviderAA12DefaultValueAdEP_AD07_IntentM0
++ _associated conformance 10FindMyCore17DeviceEntityQueryV10AppIntents22DynamicOptionsProviderAA6ResultAdEP_AD17ResultsCollection
++ _associated conformance 10FindMyCore17DeviceEntityQueryV10AppIntents22DynamicOptionsProviderAaD09_SupportsG12Dependencies
++ _associated conformance 10FindMyCore19LocationLabelEntityV10AppIntents012AttributableF0AaD0gF0
++ _associated conformance 10FindMyCore19LocationLabelEntityV10AppIntents09TransientgF0AaD0gF0
++ _associated conformance 10FindMyCore19LocationLabelEntityV10AppIntents0G5ValueAaD07_IntentI0
++ _associated conformance 10FindMyCore19LocationLabelEntityV10AppIntents0G5ValueAaD24PersistentlyIdentifiable
++ _associated conformance 10FindMyCore19LocationLabelEntityV10AppIntents0G5ValueAaD24TypeDisplayRepresentable
++ _associated conformance 10FindMyCore19LocationLabelEntityV10AppIntents0gF0AA12DefaultQueryAdEP_AD0fJ0
++ _associated conformance 10FindMyCore19LocationLabelEntityV10AppIntents0gF0AA2IDs12IdentifiableP_AD0F21IdentifierConvertible
++ _associated conformance 10FindMyCore19LocationLabelEntityV10AppIntents0gF0AAs12Identifiable
++ _associated conformance 10FindMyCore19LocationLabelEntityV10AppIntents0gF0AaD0G5Value
++ _associated conformance 10FindMyCore19LocationLabelEntityV10AppIntents0gF0AaD20DisplayRepresentable
++ _associated conformance 10FindMyCore19LocationLabelEntityV10AppIntents12_IntentValueAA0J4TypeAdEP_AdE
++ _associated conformance 10FindMyCore19LocationLabelEntityV10AppIntents12_IntentValueAA13SpecificationAdEP_AD08ResolverK0
++ _associated conformance 10FindMyCore19LocationLabelEntityV10AppIntents12_IntentValueAA13UnwrappedTypeAdEP_AdE
++ _associated conformance 10FindMyCore19LocationLabelEntityV10AppIntents20DisplayRepresentableAaD04TypeiJ0
++ _associated conformance 10FindMyCore19LocationLabelEntityV10AppIntents20DisplayRepresentableAaD08InstanceiJ0
++ _associated conformance 10FindMyCore19LocationLabelEntityV10AppIntents28InstanceDisplayRepresentableAA10Foundation40CustomLocalizedStringResourceConvertible
++ _associated conformance 10FindMyCore19LocationLabelEntityVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 10FindMyCore20DeviceLocationEntityV10AppIntents012AttributableF0AaD0gF0
++ _associated conformance 10FindMyCore20DeviceLocationEntityV10AppIntents0G5ValueAaD07_IntentI0
++ _associated conformance 10FindMyCore20DeviceLocationEntityV10AppIntents0G5ValueAaD24PersistentlyIdentifiable
++ _associated conformance 10FindMyCore20DeviceLocationEntityV10AppIntents0G5ValueAaD24TypeDisplayRepresentable
++ _associated conformance 10FindMyCore20DeviceLocationEntityV10AppIntents0gF0AA12DefaultQueryAdEP_AD0fJ0
++ _associated conformance 10FindMyCore20DeviceLocationEntityV10AppIntents0gF0AA2IDs12IdentifiableP_AD0F21IdentifierConvertible
++ _associated conformance 10FindMyCore20DeviceLocationEntityV10AppIntents0gF0AAs12Identifiable
++ _associated conformance 10FindMyCore20DeviceLocationEntityV10AppIntents0gF0AaD0G5Value
++ _associated conformance 10FindMyCore20DeviceLocationEntityV10AppIntents0gF0AaD20DisplayRepresentable
++ _associated conformance 10FindMyCore20DeviceLocationEntityV10AppIntents12_IntentValueAA0J4TypeAdEP_AdE
++ _associated conformance 10FindMyCore20DeviceLocationEntityV10AppIntents12_IntentValueAA13SpecificationAdEP_AD08ResolverK0
++ _associated conformance 10FindMyCore20DeviceLocationEntityV10AppIntents12_IntentValueAA13UnwrappedTypeAdEP_AdE
++ _associated conformance 10FindMyCore20DeviceLocationEntityV10AppIntents20DisplayRepresentableAaD04TypeiJ0
++ _associated conformance 10FindMyCore20DeviceLocationEntityV10AppIntents20DisplayRepresentableAaD08InstanceiJ0
++ _associated conformance 10FindMyCore20DeviceLocationEntityV10AppIntents28InstanceDisplayRepresentableAA10Foundation40CustomLocalizedStringResourceConvertible
++ _associated conformance 10FindMyCore20DeviceLocationEntityVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 10FindMyCore20PersonLocationEntityV10AppIntents012AttributableF0AaD0gF0
++ _associated conformance 10FindMyCore20PersonLocationEntityV10AppIntents0G5ValueAaD07_IntentI0
++ _associated conformance 10FindMyCore20PersonLocationEntityV10AppIntents0G5ValueAaD24PersistentlyIdentifiable
++ _associated conformance 10FindMyCore20PersonLocationEntityV10AppIntents0G5ValueAaD24TypeDisplayRepresentable
++ _associated conformance 10FindMyCore20PersonLocationEntityV10AppIntents0gF0AA12DefaultQueryAdEP_AD0fJ0
++ _associated conformance 10FindMyCore20PersonLocationEntityV10AppIntents0gF0AA2IDs12IdentifiableP_AD0F21IdentifierConvertible
++ _associated conformance 10FindMyCore20PersonLocationEntityV10AppIntents0gF0AAs12Identifiable
++ _associated conformance 10FindMyCore20PersonLocationEntityV10AppIntents0gF0AaD0G5Value
++ _associated conformance 10FindMyCore20PersonLocationEntityV10AppIntents0gF0AaD20DisplayRepresentable
++ _associated conformance 10FindMyCore20PersonLocationEntityV10AppIntents12_IntentValueAA0J4TypeAdEP_AdE
++ _associated conformance 10FindMyCore20PersonLocationEntityV10AppIntents12_IntentValueAA13SpecificationAdEP_AD08ResolverK0
++ _associated conformance 10FindMyCore20PersonLocationEntityV10AppIntents12_IntentValueAA13UnwrappedTypeAdEP_AdE
++ _associated conformance 10FindMyCore20PersonLocationEntityV10AppIntents20DisplayRepresentableAaD04TypeiJ0
++ _associated conformance 10FindMyCore20PersonLocationEntityV10AppIntents20DisplayRepresentableAaD08InstanceiJ0
++ _associated conformance 10FindMyCore20PersonLocationEntityV10AppIntents28InstanceDisplayRepresentableAA10Foundation40CustomLocalizedStringResourceConvertible
++ _associated conformance 10FindMyCore20PersonLocationEntityVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 10FindMyCore24CombinedUniqueIdentifierOSHAASQ
++ _associated conformance 10FindMyCore25DeviceLocationEntityQueryV10AppIntents0fG0AA0F0AdEP_AD0hF0
++ _associated conformance 10FindMyCore25DeviceLocationEntityQueryV10AppIntents0fG0AaD22DynamicOptionsProvider
++ _associated conformance 10FindMyCore25DeviceLocationEntityQueryV10AppIntents0fG0AaD24PersistentlyIdentifiable
++ _associated conformance 10FindMyCore25DeviceLocationEntityQueryV10AppIntents22DynamicOptionsProviderAA12DefaultValueAdEP_AD07_IntentN0
++ _associated conformance 10FindMyCore25DeviceLocationEntityQueryV10AppIntents22DynamicOptionsProviderAA6ResultAdEP_AD17ResultsCollection
++ _associated conformance 10FindMyCore25DeviceLocationEntityQueryV10AppIntents22DynamicOptionsProviderAaD09_SupportsH12Dependencies
++ _associated conformance 10FindMyCore25OrganizedListWithMappingsVyxq_GSHAASHRzSHR_rlSQ
++ _associated conformance 10FindMyCore25PersonLocationEntityQueryV10AppIntents0fG0AA0F0AdEP_AD0hF0
++ _associated conformance 10FindMyCore25PersonLocationEntityQueryV10AppIntents0fG0AaD22DynamicOptionsProvider
++ _associated conformance 10FindMyCore25PersonLocationEntityQueryV10AppIntents0fG0AaD24PersistentlyIdentifiable
++ _associated conformance 10FindMyCore25PersonLocationEntityQueryV10AppIntents22DynamicOptionsProviderAA12DefaultValueAdEP_AD07_IntentN0
++ _associated conformance 10FindMyCore25PersonLocationEntityQueryV10AppIntents22DynamicOptionsProviderAA6ResultAdEP_AD17ResultsCollection
++ _associated conformance 10FindMyCore25PersonLocationEntityQueryV10AppIntents22DynamicOptionsProviderAaD09_SupportsH12Dependencies
++ _associated conformance 10FindMyCore28OrganizedListSectionedValuesVyxq_GSHAASHRzSHR_rlSQ
++ _associated conformance 10FindMyCore34DataCacheResultInitializationErrorOSHAASQ
++ _associated conformance 10FindMyCore5BadgeV5ColorOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 10FindMyCore6BeaconV11DisplayNameVSHAASQ
++ _associated conformance 10FindMyCore6BeaconV15ImageDefinitionOSHAASQ
++ _associated conformance 10FindMyCore6BeaconV5OwnerOSHAASQ
++ _associated conformance 10FindMyCore6BeaconVSHAASQ
++ _associated conformance 10FindMyCore6DeviceV12CapabilitiesVSHAASQ
++ _associated conformance 10FindMyCore6DeviceV12CapabilitiesVs10SetAlgebraAASQ
++ _associated conformance 10FindMyCore6DeviceV12CapabilitiesVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 10FindMyCore6DeviceV12CapabilitiesVs9OptionSetAASY
++ _associated conformance 10FindMyCore6DeviceV12CapabilitiesVs9OptionSetAAs0G7Algebra
++ _associated conformance 10FindMyCore6DeviceV12RelationshipOSHAASQ
++ _associated conformance 10FindMyCore6DeviceV14PlaySoundStateOSHAASQ
++ _associated conformance 10FindMyCore6DeviceV4KindOSHAASQ
++ _associated conformance 10FindMyCore6DeviceVSHAASQ
++ _associated conformance 10FindMyCore6PersonV12RelationshipV8FollowerOSHAASQ
++ _associated conformance 10FindMyCore6PersonV12RelationshipV9FollowingOSHAASQ
++ _associated conformance 10FindMyCore6PersonV12RelationshipVSHAASQ
++ _associated conformance 10FindMyCore6PersonV8FavoriteVSHAASQ
++ _associated conformance 10FindMyCore6PersonVSHAASQ
++ _generic environment 10FindMyCore23OrganizedListSearchableRzAA0dE11SectionableRzAA0dE8SortableRzAA0dE8TaggableRz7ElementQy_RszAA0dE20ExtraStorageMappingsR_AA0dE15SectionedValuesVy7SectionAaCPQzxG0nO0Rt_r0_l
++ _kCFAllocatorDefault
++ _swift_getErrorValue
++ _swift_initEnumMetadataSinglePayload
++ _swift_retain_n
++ _swift_task_create
++ _symbolic $s10FindMyCore15DataCacheResultP
++ _symbolic $s10FindMyCore16DataCacheRequestP
++ _symbolic $s10FindMyCore33OrganizedListExtraStorageMappingsP
++ _symbolic $ss10SetAlgebraP
++ _symbolic $ss25ExpressibleByArrayLiteralP
++ _symbolic $ss9OptionSetP
++ _symbolic 15SectionedValues_____Qy_ 10FindMyCore33OrganizedListExtraStorageMappingsP
++ _symbolic 7Element_____Qy_ 10FindMyCore33OrganizedListExtraStorageMappingsP
++ _symbolic G0R1_
++ _symbolic G0R3_
++ _symbolic G1R1_
++ _symbolic G1R3_
++ _symbolic IeAgH_
++ _symbolic SDy_____So16SPBeaconLocationCG 10Foundation4UUIDV
++ _symbolic SDy__________G 10FindMyCore6BeaconV16UniqueIdentifierV AA17PublishedLocationV
++ _symbolic SDy__________G 10FindMyCore6PersonV16UniqueIdentifierV AA17PublishedLocationV
++ _symbolic SDy__________G_____YaYbKc 10FindMyCore6BeaconV16UniqueIdentifierV AA17PublishedLocationV AA06DeviceH11EntityQueryV12DependenciesV21DevicesFetcherOptionsO
++ _symbolic SDy__________G_____YaYbKc 10FindMyCore6PersonV16UniqueIdentifierV AA17PublishedLocationV AA0dH11EntityQueryV12DependenciesV20PeopleFetcherOptionsO
++ _symbolic SDyxScTyq_______pGG s5ErrorP
++ _symbolic Say_____G 10FindMyCore5BadgeV5ColorO
++ _symbolic Say_____G 10FindMyCore6DeviceV
++ _symbolic Say_____G___________tYaYbKc 10FindMyCore4ItemV AA0D11EntityQueryV12DependenciesV19ItemsFetcherOptionsO 10AppIntents13SystemContextV
++ _symbolic Say_____G___________tYaYbKc 10FindMyCore6DeviceV AA0D11EntityQueryV12DependenciesV21DevicesFetcherOptionsO 10AppIntents13SystemContextV
++ _symbolic Say_____G___________tYaYbKc 10FindMyCore6PersonV AA0D11EntityQueryV12DependenciesV20PeopleFetcherOptionsO 10AppIntents13SystemContextV
++ _symbolic Say_____y7Section_____QzxGG 10FindMyCore28OrganizedListSectionedValuesV AA0dE11SectionableP
++ _symbolic Say_____y_____GG 10Foundation14SortDescriptorV 10FindMyCore6DeviceV
++ _symbolic Sayq_G
++ _symbolic Sb11isConnected_t
++ _symbolic ScA_pSg
++ _symbolic ScPSg
++ _symbolic _____ 10FindMyCore12DeviceEntityV
++ _symbolic _____ 10FindMyCore12DeviceEntityV015ImageDefinitionE0V
++ _symbolic _____ 10FindMyCore12PersonEntityV012RelationshipE0V
++ _symbolic _____ 10FindMyCore16DistanceFromUserV
++ _symbolic _____ 10FindMyCore17DeviceEntityQueryV
++ _symbolic _____ 10FindMyCore17DeviceEntityQueryV12DependenciesV
++ _symbolic _____ 10FindMyCore17DeviceEntityQueryV12DependenciesV21DevicesFetcherOptionsO
++ _symbolic _____ 10FindMyCore18IntelligenceModuleC
++ _symbolic _____ 10FindMyCore19LocationLabelEntityV
++ _symbolic _____ 10FindMyCore20DeviceLocationEntityV
++ _symbolic _____ 10FindMyCore20PersonLocationEntityV
++ _symbolic _____ 10FindMyCore24CombinedUniqueIdentifierO
++ _symbolic _____ 10FindMyCore25DeviceLocationEntityQueryV
++ _symbolic _____ 10FindMyCore25DeviceLocationEntityQueryV12DependenciesV
++ _symbolic _____ 10FindMyCore25DeviceLocationEntityQueryV12DependenciesV21DevicesFetcherOptionsO
++ _symbolic _____ 10FindMyCore25OrganizedListWithMappingsV
++ _symbolic _____ 10FindMyCore25PersonLocationEntityQueryV
++ _symbolic _____ 10FindMyCore25PersonLocationEntityQueryV12DependenciesV
++ _symbolic _____ 10FindMyCore25PersonLocationEntityQueryV12DependenciesV20PeopleFetcherOptionsO
++ _symbolic _____ 10FindMyCore28OrganizedListSectionedValuesV
++ _symbolic _____ 10FindMyCore33OrganizedListEmptyStorageMappingsV
++ _symbolic _____ 10FindMyCore34DataCacheResultInitializationErrorO
++ _symbolic _____ 10FindMyCore6BeaconV5OwnerO
++ _symbolic _____ 10FindMyCore6DeviceV12CapabilitiesV
++ _symbolic _____ 10FindMyCore6DeviceV12RelationshipO
++ _symbolic _____ 10FindMyCore6DeviceV14PlaySoundStateO
++ _symbolic _____ 10FindMyCore6DeviceV4KindO
++ _symbolic _____ 10FindMyCore9DataCacheC
++ _symbolic _____ 10FindMyCore9DataCacheC0E4TypeO
++ _symbolic _____ 12FindMyLocate15LocationShifterC
++ _symbolic _____ 12FindMyLocate15ReverseGeocoderC
++ _symbolic _____18diskCacheDirectory_t 10Foundation3URLV
++ _symbolic _____3key_So16SPBeaconLocationC5valuet 10Foundation4UUIDV
++ _symbolic _____3key______5valuet 12FindMyLocate6HandleV AA8LocationV
++ _symbolic _____Sg 10AppIntents12IntentPersonV10IdentifierO
++ _symbolic _____Sg 10AppIntents12IntentPersonV6HandleV
++ _symbolic _____Sg 10Foundation3URLV
++ _symbolic ______So16SPBeaconLocationCt 10Foundation4UUIDV
++ _symbolic ___________tSg 10FindMyCore6BeaconV16UniqueIdentifierV AA17PublishedLocationV
++ _symbolic ___________tSgIeAgHr_ 10FindMyCore6BeaconV16UniqueIdentifierV AA17PublishedLocationV
++ _symbolic _____y7Section_____QzxG 10FindMyCore28OrganizedListSectionedValuesV AA0dE11SectionableP
++ _symbolic _____ySSG 10AppIntents14EntityPropertyC
++ _symbolic _____ySSSgG 10AppIntents14EntityPropertyC
++ _symbolic _____ySbG 10AppIntents14EntityPropertyC
++ _symbolic _____ySdG 10Foundation24FloatingPointFormatStyleV
++ _symbolic _____ySdGSg 10Foundation24FloatingPointFormatStyleV
++ _symbolic _____ySiG 10AppIntents14EntityPropertyC
++ _symbolic _____ySiSgG 10AppIntents14EntityPropertyC
++ _symbolic _____ySo11CLPlacemarkCG 10AppIntents14EntityPropertyC
++ _symbolic _____ySo12NSUnitLengthCG 10Foundation11MeasurementV
++ _symbolic _____ySo12NSUnitLengthCG 10Foundation26MeasurementFormatUnitUsageV
++ _symbolic _____ySo12NSUnitLengthCGSg 10Foundation11MeasurementV
++ _symbolic _____ySo12NSUnitLengthCGSg_AEt 10Foundation11MeasurementV
++ _symbolic _____ySo12NSUnitLengthC_G 10Foundation11MeasurementVAASo11NSDimensionCRbzrlE11FormatStyleV
++ _symbolic _____ySo12NSUnitLengthC__G 10Foundation11MeasurementVAASo11NSDimensionCRbzrlE11FormatStyleV9UnitWidthV
++ _symbolic _____y_____G 10AppIntents010_TransientA11EntityQueryV 10FindMyCore013LocationLabelD0V
++ _symbolic _____y_____G 10AppIntents010_TransientA11EntityQueryV 10FindMyCore06DeviceD0V015ImageDefinitionD0V
++ _symbolic _____y_____G 10AppIntents010_TransientA11EntityQueryV 10FindMyCore06PersonD0V012RelationshipD0V
++ _symbolic _____y_____G 10AppIntents14EntityPropertyC 10FindMyCore013LocationLabelC0V
++ _symbolic _____y_____G 10AppIntents14EntityPropertyC 10FindMyCore06DeviceC0V015ImageDefinitionC0V
++ _symbolic _____y_____G 10AppIntents14EntityPropertyC 10FindMyCore06PersonC0V012RelationshipC0V
++ _symbolic _____y_____G 10AppIntents14EntityPropertyC AA12IntentPersonV
++ _symbolic _____y_____G 10AppIntents17IntentItemSectionV 10FindMyCore12DeviceEntityV
++ _symbolic _____y_____G 10AppIntents20IntentItemCollectionV 10FindMyCore12DeviceEntityV
++ _symbolic _____y_____G 10AppIntents20IntentItemCollectionV 10FindMyCore20DeviceLocationEntityV
++ _symbolic _____y_____G 10AppIntents20IntentItemCollectionV 10FindMyCore20PersonLocationEntityV
++ _symbolic _____y_____G 10AppIntents26EmptyResolverSpecificationV 10FindMyCore12DeviceEntityV
++ _symbolic _____y_____G 10AppIntents26EmptyResolverSpecificationV 10FindMyCore12DeviceEntityV015ImageDefinitionJ0V
++ _symbolic _____y_____G 10AppIntents26EmptyResolverSpecificationV 10FindMyCore12PersonEntityV012RelationshipJ0V
++ _symbolic _____y_____G 10AppIntents26EmptyResolverSpecificationV 10FindMyCore19LocationLabelEntityV
++ _symbolic _____y_____G 10AppIntents26EmptyResolverSpecificationV 10FindMyCore20DeviceLocationEntityV
++ _symbolic _____y_____G 10AppIntents26EmptyResolverSpecificationV 10FindMyCore20PersonLocationEntityV
++ _symbolic _____y_____G 10Foundation14SortDescriptorV 10FindMyCore6DeviceV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10AppIntents12IntentPersonV6HandleV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10FindMyCore12DeviceEntityV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10FindMyCore20DeviceLocationEntityV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10FindMyCore20PersonLocationEntityV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10FindMyCore6BeaconV16UniqueIdentifierV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10FindMyCore6DeviceV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10FindMyCore6DeviceV7SectionO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10FindMyCore6PersonV16UniqueIdentifierV
++ _symbolic _____y_____Say_____GG s18_DictionaryStorageC 10FindMyCore6DeviceV7SectionO AE
++ _symbolic _____y_____SgG 10AppIntents14EntityPropertyC 10Foundation4DateV
++ _symbolic _____y_____So16SPBeaconLocationCG s18_DictionaryStorageC 10Foundation4UUIDV
++ _symbolic _____y__________G 10FindMyCore28OrganizedListSectionedValuesV AA4ItemV7SectionO AE
++ _symbolic _____y__________G 10FindMyCore28OrganizedListSectionedValuesV AA6DeviceV7SectionO AE
++ _symbolic _____y__________G 10FindMyCore28OrganizedListSectionedValuesV AA6PersonV7SectionO AE
++ _symbolic _____y__________G s18_DictionaryStorageC 10FindMyCore6BeaconV16UniqueIdentifierV AC17PublishedLocationV
++ _symbolic _____y__________G s18_DictionaryStorageC 10FindMyCore6PersonV16UniqueIdentifierV AC17PublishedLocationV
++ _symbolic _____y___________tSg_G ScG8IteratorV 10FindMyCore6BeaconV16UniqueIdentifierV AC17PublishedLocationV
++ _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 10AppIntents17IntentItemSectionV 10FindMyCore12DeviceEntityV
++ _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 10Foundation14SortDescriptorV 10FindMyCore6DeviceV
++ _symbolic _____y_____y__________GADG 10FindMyCore33OrganizedListEmptyStorageMappingsV AA0dE15SectionedValuesV AA4ItemV7SectionO AG
++ _symbolic _____y_____y__________GADG 10FindMyCore33OrganizedListEmptyStorageMappingsV AA0dE15SectionedValuesV AA6DeviceV7SectionO AG
++ _symbolic _____y_____y__________GADG 10FindMyCore33OrganizedListEmptyStorageMappingsV AA0dE15SectionedValuesV AA6PersonV7SectionO AG
++ _symbolic _____y_____y__________GG s23_ContiguousArrayStorageC 10FindMyCore28OrganizedListSectionedValuesV AC4ItemV7SectionO AG
++ _symbolic _____y_____y__________GG s23_ContiguousArrayStorageC 10FindMyCore28OrganizedListSectionedValuesV AC6DeviceV7SectionO AG
++ _symbolic _____y_____y__________GG s23_ContiguousArrayStorageC 10FindMyCore28OrganizedListSectionedValuesV AC6PersonV7SectionO AG
++ _symbolic _____yxq_G 10FindMyCore9DataCacheC
++ _symbolic _____yxq__G 10FindMyCore9DataCacheC0E4TypeO
++ block_copy_helper.15
++ block_descriptor.17
++ block_destroy_helper.16
+- _OBJC_CLASS_$_SPBeacon
+- __DATA__TtC10FindMyCoreP33_3672232253C37D008E31FD33BDFFD60D18IntelligenceModule
+- __IVARS__TtC10FindMyCore14ImageDiskCache
+- __IVARS__TtC10FindMyCore23ImageMemoryAndDiskCache
+- __METACLASS_DATA__TtC10FindMyCoreP33_3672232253C37D008E31FD33BDFFD60D18IntelligenceModule
+- ___swift_memcpy32_8
+- __swift_FORCE_LOAD_$_swiftFileProvider
+- __swift_FORCE_LOAD_$_swiftFileProvider_$_FindMyCore
+- _associated conformance 10FindMyCore23ImageMemoryAndDiskCacheC5ErrorOyxq_q0__GSHAASQ
+- _generic environment 10FindMyCore23OrganizedListSearchableRzAA0dE11SectionableRzAA0dE8SortableRzAA0dE8TaggableRzl
+- _symbolic $s10FindMyCore16ImageCacheResultP
+- _symbolic $s10FindMyCore17ImageCacheRequestP
+- _symbolic $s10FindMyCore20ImageCacheDiskResultP
+- _symbolic B2
+- _symbolic G0R0_
+- _symbolic G1R0_
+- _symbolic G2R0_
+- _symbolic SDyxq0_G
+- _symbolic Say_____G_____YaYbKc 10FindMyCore4ItemV AA0D11EntityQueryV12DependenciesV19ItemsFetcherOptionsO
+- _symbolic Say_____G_____YaYbKc 10FindMyCore6PersonV AA0D11EntityQueryV12DependenciesV20PeopleFetcherOptionsO
+- _symbolic Say_____yx_GG 10FindMyCore13OrganizedListV15SectionedValuesV
+- _symbolic _____ 10FindMyBase13WorkItemQueueC
+- _symbolic _____ 10FindMyCore13OrganizedListV
+- _symbolic _____ 10FindMyCore13OrganizedListV15SectionedValuesV
+- _symbolic _____ 10FindMyCore14ImageDiskCacheC
+- _symbolic _____ 10FindMyCore18IntelligenceModule33_3672232253C37D008E31FD33BDFFD60DLLC
+- _symbolic _____ 10FindMyCore23ImageMemoryAndDiskCacheC
+- _symbolic _____ 10FindMyCore23ImageMemoryAndDiskCacheC5ErrorO
+- _symbolic _____ 10FindMyCore6BeaconV5OwnerV
+- _symbolic _____ 10Foundation3URLV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 10FindMyCore6DeviceV4SortO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 10FindMyCore6DeviceV7SectionO8CategoryO
+- _symbolic _____y______G 10FindMyCore13OrganizedListV15SectionedValuesV AA4ItemV
+- _symbolic _____y______G 10FindMyCore13OrganizedListV15SectionedValuesV AA6PersonV
+- _symbolic _____y_____y______GG s23_ContiguousArrayStorageC 10FindMyCore13OrganizedListV15SectionedValuesV AC4ItemV
+- _symbolic _____y_____y______GG s23_ContiguousArrayStorageC 10FindMyCore13OrganizedListV15SectionedValuesV AC6PersonV
+- _symbolic _____yx_G 10FindMyCore13OrganizedListV15SectionedValuesV
+- _symbolic _____yxq_G 10FindMyCore14ImageDiskCacheC
+- _symbolic _____yxq_q0_G 10FindMyCore23ImageMemoryAndDiskCacheC
+- _symbolic q0_
+- block_copy_helper.10
+- block_descriptor.12
+- block_destroy_helper.11
+CStrings:
++ "%s - Couldn't fetch CNContact for %{public}s"
++ "%s - did receive fetchDevicesLocationsWithOptions %s"
++ "%s - did receive fetchDevicesWithOptions: %s"
++ "%s - did receive fetchPeopleLocationsWithOptions %s"
++ "%s - will call fetchDevicesLocationsWithOptions %s"
++ "%s - will call fetchDevicesWithOptions: %s"
++ "%s - will call fetchPeopleLocationsWithOptions %s"
++ "%s: Failed to create result even though we had file on disk"
++ "%s: Failed to save data %s"
++ "%s<uuid.>: Failed to preload data %s"
++ "%{public}s"
++ "%{public}s: DataCache created for path: %s"
++ "BADGE_DESCRIPTION_CONTACT"
++ "BADGE_DESCRIPTION_DIRECTIONS"
++ "BADGE_DESCRIPTION_LOCATION_SLASH"
++ "BADGE_DESCRIPTION_SOUND"
++ "DEVICES_SECTION_ATTENTION"
++ "DEVICES_SECTION_FAMILYDEVICE_"
++ "DEVICES_SECTION_MYDEVICES"
++ "DEVICES_SECTION_OTHERS"
++ "DEVICES_TAG_ALL_DEVICES"
++ "DEVICES_TAG_ALL_ITEMS"
++ "DEVICE_ENTITY_TITLE"
++ "DEVICE_LOCATION_ENTITY_TITLE"
++ "DeviceEntity.ImageRepresentationEntity"
++ "DeviceLocationEntityQuery"
++ "Failed to shift/revgeo: %{public}@."
++ "FindMyCore/DeviceEntityQuery+Dependencies+Live.swift"
++ "PERSON_LOCATION_ENTITY_TITLE"
++ "PersonEntity.RelationshipEntity"
++ "PersonLocationEntityQuery"
++ "PublishedLocation(\""
++ "SearchParty is not supported in this platform"
++ "_TtC10FindMyCore18IntelligenceModule"
++ "active"
++ "arrow.triangle.turn.up.right"
++ "automotive"
++ "cacheType"
++ "caseLidClosed"
++ "caseLidOpenLeftInside"
++ "caseLidOpenLeftRightInside"
++ "caseLidOpenRightInside"
++ "com.apple.findmy."
++ "currentLocale"
++ "cycling"
++ "destination"
++ "fetchDevices(options:)"
++ "fetchDevicesLocations(options:)"
++ "fetchPeopleLocations(options:)"
++ "init(cacheType:)"
++ "kilometers"
++ "leftBud"
++ "legacy"
++ "live"
++ "load(_:taskPriority:)"
++ "locked"
++ "message"
++ "off"
++ "offline"
++ "online"
++ "other"
++ "pending"
++ "placemarkWithLocation:name:postalAddress:"
++ "preload(requests:taskPriority:)"
++ "proactiveOrShallow"
++ "queued"
++ "resultTasks"
++ "rightBud"
++ "running"
++ "satellite"
++ "stationary"
++ "unknown"
++ "walking"
+- "%s %s"
+- "%s - Couldn't fetch contact for %{public}s"
+- "%s Will CreateAndStore %s"
+- "Can't construct Array with count < 0"
+- "Division by zero"
+- "Division results in an overflow"
+- "ImageDiskCache.workItemQueue"
+- "Insufficient space allocated to copy string contents"
+- "SPOwner"
+- "Swift/Array.swift"
+- "Swift/ContiguousArrayBuffer.swift"
+- "Swift/IntegerTypes.swift"
+- "Swift/StringTesting.swift"
+- "Swift/StringUTF8View.swift"
+- "Swift/UnsafeBufferPointer.swift"
+- "Swift/UnsafePointer.swift"
+- "Swift/UnsafeRawPointer.swift"
+- "Unexpectedly found nil while unwrapping an Optional value"
+- "UnsafeMutableBufferPointer with negative count"
+- "UnsafeMutablePointer.initialize overlapping range"
+- "UnsafeMutablePointer.initialize with negative count"
+- "UnsafeMutablePointer.moveInitialize with negative count"
+- "UnsafeMutableRawPointer.initializeMemory overlapping range"
+- "_TtC10FindMyCoreP33_3672232253C37D008E31FD33BDFFD60D18IntelligenceModule"
+- "cacheDirectory"
+- "diskCache"
+- "invalid Collection: less than 'count' elements in collection"
+- "memoryCache"
+- "preload(requests:)"
+- "workItemQueue"
+
+```

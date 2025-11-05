@@ -1,0 +1,229 @@
+## com.apple.driver.AppleDPTX
+
+> `com.apple.driver.AppleDPTX`
+
+```diff
+
+-355.60.5.0.0
+-  __TEXT.__cstring: 0x4f9d
+-  __TEXT.__os_log: 0x6575
++360.100.14.0.0
++  __TEXT.__cstring: 0x4fb8
++  __TEXT.__os_log: 0x65b6
+   __TEXT.__const: 0x170
+-  __TEXT_EXEC.__text: 0x39f38
++  __TEXT_EXEC.__text: 0x3a950
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x248
+   __DATA.__common: 0x1f0
+   __DATA_CONST.__auth_got: 0x3b0
+-  __DATA_CONST.__got: 0xe8
++  __DATA_CONST.__got: 0xf0
+   __DATA_CONST.__mod_init_func: 0x60
+   __DATA_CONST.__mod_term_func: 0x60
+-  __DATA_CONST.__const: 0x8c58
++  __DATA_CONST.__const: 0x8c60
+   __DATA_CONST.__kalloc_type: 0x300
+-  UUID: 9071FFAF-DCA5-3016-A5BB-72AAE5848B38
+-  Functions: 1012
+-  Symbols:   2109
+-  CStrings:  1009
++  UUID: 86AE3E28-9FA8-3234-8EA6-903E52E4A874
++  Functions: 1224
++  Symbols:   2357
++  CStrings:  1010
+ 
+Symbols:
++ _OUTLINED_FUNCTION_0
++ _OUTLINED_FUNCTION_1
++ _OUTLINED_FUNCTION_10
++ _OUTLINED_FUNCTION_11
++ _OUTLINED_FUNCTION_12
++ _OUTLINED_FUNCTION_13
++ _OUTLINED_FUNCTION_14
++ _OUTLINED_FUNCTION_15
++ _OUTLINED_FUNCTION_16
++ _OUTLINED_FUNCTION_17
++ _OUTLINED_FUNCTION_18
++ _OUTLINED_FUNCTION_19
++ _OUTLINED_FUNCTION_2
++ _OUTLINED_FUNCTION_20
++ _OUTLINED_FUNCTION_21
++ _OUTLINED_FUNCTION_22
++ _OUTLINED_FUNCTION_23
++ _OUTLINED_FUNCTION_24
++ _OUTLINED_FUNCTION_25
++ _OUTLINED_FUNCTION_26
++ _OUTLINED_FUNCTION_27
++ _OUTLINED_FUNCTION_28
++ _OUTLINED_FUNCTION_29
++ _OUTLINED_FUNCTION_3
++ _OUTLINED_FUNCTION_30
++ _OUTLINED_FUNCTION_31
++ _OUTLINED_FUNCTION_32
++ _OUTLINED_FUNCTION_33
++ _OUTLINED_FUNCTION_34
++ _OUTLINED_FUNCTION_35
++ _OUTLINED_FUNCTION_36
++ _OUTLINED_FUNCTION_37
++ _OUTLINED_FUNCTION_38
++ _OUTLINED_FUNCTION_39
++ _OUTLINED_FUNCTION_4
++ _OUTLINED_FUNCTION_40
++ _OUTLINED_FUNCTION_41
++ _OUTLINED_FUNCTION_42
++ _OUTLINED_FUNCTION_43
++ _OUTLINED_FUNCTION_44
++ _OUTLINED_FUNCTION_45
++ _OUTLINED_FUNCTION_46
++ _OUTLINED_FUNCTION_47
++ _OUTLINED_FUNCTION_48
++ _OUTLINED_FUNCTION_49
++ _OUTLINED_FUNCTION_5
++ _OUTLINED_FUNCTION_50
++ _OUTLINED_FUNCTION_51
++ _OUTLINED_FUNCTION_52
++ _OUTLINED_FUNCTION_53
++ _OUTLINED_FUNCTION_54
++ _OUTLINED_FUNCTION_55
++ _OUTLINED_FUNCTION_56
++ _OUTLINED_FUNCTION_57
++ _OUTLINED_FUNCTION_58
++ _OUTLINED_FUNCTION_59
++ _OUTLINED_FUNCTION_6
++ _OUTLINED_FUNCTION_60
++ _OUTLINED_FUNCTION_61
++ _OUTLINED_FUNCTION_62
++ _OUTLINED_FUNCTION_63
++ _OUTLINED_FUNCTION_64
++ _OUTLINED_FUNCTION_65
++ _OUTLINED_FUNCTION_66
++ _OUTLINED_FUNCTION_67
++ _OUTLINED_FUNCTION_68
++ _OUTLINED_FUNCTION_69
++ _OUTLINED_FUNCTION_7
++ _OUTLINED_FUNCTION_70
++ _OUTLINED_FUNCTION_71
++ _OUTLINED_FUNCTION_72
++ _OUTLINED_FUNCTION_73
++ _OUTLINED_FUNCTION_74
++ _OUTLINED_FUNCTION_75
++ _OUTLINED_FUNCTION_76
++ _OUTLINED_FUNCTION_77
++ _OUTLINED_FUNCTION_78
++ _OUTLINED_FUNCTION_79
++ _OUTLINED_FUNCTION_8
++ _OUTLINED_FUNCTION_80
++ _OUTLINED_FUNCTION_81
++ _OUTLINED_FUNCTION_82
++ _OUTLINED_FUNCTION_83
++ _OUTLINED_FUNCTION_84
++ _OUTLINED_FUNCTION_85
++ _OUTLINED_FUNCTION_86
++ _OUTLINED_FUNCTION_87
++ _OUTLINED_FUNCTION_88
++ _OUTLINED_FUNCTION_89
++ _OUTLINED_FUNCTION_9
++ _OUTLINED_FUNCTION_90
++ _OUTLINED_FUNCTION_91
++ _OUTLINED_FUNCTION_92
++ _ZN12AppleCIODPTX18validateConnectionEPK12AppleDPTXNub20IODPTXPortAttributesPj.cold.1
++ _ZN12AppleCIODPTX18validateConnectionEPK12AppleDPTXNub20IODPTXPortAttributesPj.cold.2
++ _ZN12AppleCIODPTX18validateConnectionEPK12AppleDPTXNub20IODPTXPortAttributesPj.cold.3
++ _ZN12AppleCIODPTX18validateConnectionEPK12AppleDPTXNub20IODPTXPortAttributesPj.cold.4
++ _ZN19AppleDPTXController11handleStartEP9IOService.cold.1
++ _ZN19AppleDPTXController11handleStartEP9IOService.cold.10
++ _ZN19AppleDPTXController11handleStartEP9IOService.cold.11
++ _ZN19AppleDPTXController11handleStartEP9IOService.cold.12
++ _ZN19AppleDPTXController11handleStartEP9IOService.cold.13
++ _ZN19AppleDPTXController11handleStartEP9IOService.cold.14
++ _ZN19AppleDPTXController11handleStartEP9IOService.cold.15
++ _ZN19AppleDPTXController11handleStartEP9IOService.cold.16
++ _ZN19AppleDPTXController11handleStartEP9IOService.cold.2
++ _ZN19AppleDPTXController11handleStartEP9IOService.cold.3
++ _ZN19AppleDPTXController11handleStartEP9IOService.cold.4
++ _ZN19AppleDPTXController11handleStartEP9IOService.cold.5
++ _ZN19AppleDPTXController11handleStartEP9IOService.cold.6
++ _ZN19AppleDPTXController11handleStartEP9IOService.cold.7
++ _ZN19AppleDPTXController11handleStartEP9IOService.cold.8
++ _ZN19AppleDPTXController11handleStartEP9IOService.cold.9
++ _ZN19AppleDPTXController13deviceRemovedEb.cold.1
++ _ZN19AppleDPTXController13handlePowerOnEb.cold.3
++ _ZN19AppleDPTXController13handlePowerOnEb.cold.4
++ _ZN19AppleDPTXController13setPPSEnabledEb.cold.1
++ _ZN19AppleDPTXController14deviceDetectedEv.cold.1
++ _ZN19AppleDPTXController14deviceDetectedEv.cold.2
++ _ZN19AppleDPTXController14handlePowerOffEv.cold.1
++ _ZN19AppleDPTXController14handlePowerOffEv.cold.2
++ _ZN19AppleDPTXController14startVideoLinkEP10IODPDeviceP17IOAVVideoLinkData.cold.1
++ _ZN19AppleDPTXController14startVideoLinkEP10IODPDeviceP17IOAVVideoLinkData.cold.2
++ _ZN19AppleDPTXController14startVideoLinkEP10IODPDeviceP17IOAVVideoLinkData.cold.3
++ _ZN19AppleDPTXController14startVideoLinkEP10IODPDeviceP17IOAVVideoLinkData.cold.4
++ _ZN19AppleDPTXController14startVideoLinkEP10IODPDeviceP17IOAVVideoLinkData.cold.5
++ _ZN19AppleDPTXController14startVideoLinkEP10IODPDeviceP17IOAVVideoLinkData.cold.6
++ _ZN19AppleDPTXController16configureVideoMNEP10IODPDevicePK17IOAVVideoLinkDatai.cold.1
++ _ZN19AppleDPTXController16protectLinkGatedEP10IODPDeviceP21IOAVContentProtection.cold.1
++ _ZN19AppleDPTXController16setFECReadyGatedEP10IODPDevicePb.cold.1
++ _ZN19AppleDPTXController17handleProtectLinkEP10IODPDevice21IOAVContentProtection.cold.1
++ _ZN19AppleDPTXController18configureVideoBISTEP10IODPDevicePK17IOAVVideoLinkData.cold.1
++ _ZN19AppleDPTXController18setFECEnabledGatedEP10IODPDevicePb.cold.1
++ _ZN19AppleDPTXController18unprotectLinkGatedEP10IODPDevice.cold.1
++ _ZN19AppleDPTXController19abortAuxTransactionEP10IODPDevicei.cold.1
++ _ZN19AppleDPTXController19abortAuxTransactionEP10IODPDevicei.cold.2
++ _ZN19AppleDPTXController19handleSetPropertiesEP8OSObject.cold.1
++ _ZN19AppleDPTXController19handleUnprotectLinkEP10IODPDevice.cold.1
++ _ZN19AppleDPTXController19issueI2CReadRequestEP10IODPDevicejjPhj.cold.1
++ _ZN19AppleDPTXController19setALPMEnabledGatedEP10IODPDevicePb.cold.1
++ _ZN19AppleDPTXController19updateLinkRateGatedEP10IODPDevicePKNS_18ByteTransferStructE.cold.1
++ _ZN19AppleDPTXController22openAuxiliaryProvidersEP9IOService.cold.1
++ _ZN19AppleDPTXController22validateALPMParametersEP10IODPDevicePK27IODPLinkPowerManagementDataii.cold.1
++ _ZN19AppleDPTXController22validateALPMParametersEP10IODPDevicePK27IODPLinkPowerManagementDataii.cold.2
++ _ZN19AppleDPTXController22validateALPMParametersEP10IODPDevicePK27IODPLinkPowerManagementDataii.cold.3
++ _ZN19AppleDPTXController22validateALPMParametersEP10IODPDevicePK27IODPLinkPowerManagementDataii.cold.4
++ _ZN19AppleDPTXController23handlePowerRegistrationEP9IOService.cold.1
++ _ZN19AppleDPTXController24signalForAuxAvailabilityEP10IODPDevicePKc.cold.1
++ _ZN19AppleDPTXController25handleStartHDCPControllerEPK11OSMetaClass.cold.1
++ _ZN19AppleDPTXController25handleStartHDCPControllerEPK11OSMetaClass.cold.2
++ _ZN19AppleDPTXController25handleStartHDCPControllerEPK11OSMetaClass.cold.3
++ _ZN19AppleDPTXController30interruptRequestOccurredOnPortEP10IODPTXPort.cold.1
++ _ZN19AppleDPTXController33hotPlugDetectChangeOccurredOnPortEP10IODPTXPortb.cold.1
++ _ZN19AppleDPTXController9enableSDPEjPK23IODPSecondaryDataPacket.cold.1
++ _ZN20AppleDPTXCrossbarUFP11handleStartEP9IOService.cold.1
++ _ZN20AppleDPTXCrossbarUFP11handleStartEP9IOService.cold.2
++ _ZN20AppleDPTXCrossbarUFP11handleStartEP9IOService.cold.3
++ _ZN20AppleDPTXCrossbarUFP11handleStartEP9IOService.cold.4
++ _ZN24AppleDPTXHDCP1Controller16disableHDCPGatedEP10IODPDevice.cold.1
++ _ZN24AppleDPTXHDCP1Controller16protectLinkGatedEP10IODPDevice.cold.1
++ _ZN24AppleDPTXHDCP1Controller16protectLinkGatedEP10IODPDevice.cold.2
++ _ZN24AppleDPTXHDCP1Controller16protectLinkGatedEP10IODPDevice.cold.3
++ _ZN24AppleDPTXHDCP1Controller19waitForKSVListReadyEP10IODPDevice.cold.1
++ _ZN24AppleDPTXHDCP1Controller7loadKeyEv.cold.1
++ _ZN24AppleDPTXHDCP2Controller16disableHDCPGatedEP10IODPDevice.cold.1
++ _ZN24AppleDPTXHDCP2Controller16protectLinkGatedEP10IODPDevice.cold.1
++ _ZN24AppleDPTXHDCP2Controller16protectLinkGatedEP10IODPDevice.cold.2
++ _ZN24AppleDPTXHDCP2Controller16protectLinkGatedEP10IODPDevice.cold.3
++ _ZN24AppleDPTXHDCP2Controller16protectLinkGatedEP10IODPDevice.cold.4
++ _ZN24AppleDPTXHDCP2Controller16protectLinkGatedEP10IODPDevice.cold.5
++ _ZN24AppleDPTXHDCP2Controller28hdcp2ReceiverIDListAvailableEP10IODPDevicePb.cold.1
++ _ZN9AppleDPTX11publishNubsEP9IOService.cold.1
++ _ZN9AppleDPTX11publishNubsEP9IOService.cold.2
++ _ZN9AppleDPTX13handlePowerOnEv.cold.1
++ _ZN9AppleDPTX14handlePowerOffEv.cold.1
++ _ZN9AppleDPTX29setDeviceClockAndPowerEnabledEbj.cold.1
++ _ZNK19AppleDPTXController19getVideoStreamClockEv.cold.2
++ _ZNK19AppleDPTXController34getSlaveVideoLinkDataFromRegistersEP17IOAVVideoLinkData.cold.4
++ __ZN19AppleDPTXController14addRegisterSetEPKc19IOAVRegisterSetTypeyyyjP8OSObjectPFiS4_PK15IOAVRegisterSetPKNS5_5RangeEPvSB_ESB_
++ __ZN19AppleDPTXController20inactiveSinkDetectedEP10IODPDevice
++ __ZN19AppleDPTXController25inactiveSinkDetectedGatedEP10IODPDevice
++ __ZZN19AppleDPTXController25inactiveSinkDetectedGatedEP10IODPDeviceE11_os_log_fmt
++ __block_descriptor_tmp.227
++ _kIOAVDisplayHints_None
+- _ZN19AppleDPTXController19setLaneMappingGatedEPKj.cold.1
+- __ZN14IOAVController14addRegisterSetEPKc19IOAVRegisterSetTypeyyyjP8OSObjectPFiS4_PK15IOAVRegisterSetPKNS5_5RangeEPvSB_ESB_
+- __block_descriptor_tmp.224
+CStrings:
++ "121111121222121211111222221111111111112222222222222222222222222222222222222121"
++ "inactiveSinkDetectedGated"
+- "12111112122212121111122222111111111111222222222222222222222222222222222222121"
+
+```

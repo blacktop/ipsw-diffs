@@ -1,0 +1,428 @@
+## cvfsdb
+
+> `/System/Library/Filesystems/acfs.fs/Contents/bin/cvfsdb`
+
+```diff
+
+-780.80.2.0.1
+-  __TEXT.__text: 0x77918
++782.100.7.0.0
++  __TEXT.__text: 0x7782c
+   __TEXT.__auth_stubs: 0xff0
+-  __TEXT.__cstring: 0x1efa2
+-  __TEXT.__const: 0xd4a0
+-  __TEXT.__unwind_info: 0x1310
++  __TEXT.__cstring: 0x1ef95
++  __TEXT.__const: 0xd510
++  __TEXT.__unwind_info: 0x1238
+   __DATA_CONST.__auth_got: 0x7f8
+   __DATA_CONST.__got: 0x88
+   __DATA_CONST.__auth_ptr: 0x10
+   __DATA_CONST.__const: 0x658
+   __DATA_CONST.__cfstring: 0x460
+   __DATA.__data: 0x23800
+-  __DATA.__common: 0x11b98
++  __DATA.__common: 0x12710
+   __DATA.__bss: 0x13030
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+
+   - /usr/lib/libedit.3.dylib
+   - /usr/lib/libncurses.5.4.dylib
+   - /usr/lib/libxml2.2.dylib
+-  UUID: 2CA08E2E-6BFE-356E-83E9-7BD04E5B02DB
+-  Functions: 1643
+-  Symbols:   9547
+-  CStrings:  3903
++  UUID: 8807B982-0CE5-38FD-9CAB-2337F568D96B
++  Functions: 1651
++  Symbols:   9842
++  CStrings:  3899
+ 
+Symbols:
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../../lib/liblz4_darwin/liblz4.a(lz4_darwin.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../../lib/libsnatomic_darwin/libsnatomic.a(rs_atomic_darwin.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../authlib/libcvfsauth.a(auth_connection.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../authlib/libcvfsauth.a(auth_globals.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../authlib/libcvfsauth.a(md5.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../authlib/libcvfsauth.a(utilities.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../extapi/libcvextapi.a(cvapi.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../fsmlib/libfsmlib-static.a(cfgi.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../fsmlib/libfsmlib-static.a(cvuuid.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../fsmlib/libfsmlib-static.a(disks.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../fsmlib/libfsmlib-static.a(dk_nomad.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../fsmlib/libfsmlib-static.a(do_sum.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../fsmlib/libfsmlib-static.a(efi_gpt.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../fsmlib/libfsmlib-static.a(efi_util.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../fsmlib/libfsmlib-static.a(fsm_cfgparse.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../fsmlib/libfsmlib-static.a(mcan_toc.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../fsmlib/libfsmlib-static.a(program_init.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../fsmlib/libfsmlib-static.a(snfs_cverr.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../fsmlib/libfsmlib-static.a(utils.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../fsmlib/libfsmlib-static.a(xcvlabel.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../fsmlib/libglobals-static.a(globals.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../journal/libjournal-static.a(journal.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../journal/libjournal-static.a(jrn_recover.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../journal/libjournal-static.a(sb.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../journal/libjournal-static.a(sb_core.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libconfig/libconfig-static.a(FsCfg.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libconfig/libconfig-static.a(ascii.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libconfig/libconfig-static.a(cfgparse.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libconfig/libconfig-static.a(confgrammar.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libconfig/libconfig-static.a(config.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libconfig/libconfig-static.a(conflexer.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libconfig/libconfig-static.a(data_disks.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libconfig/libconfig-static.a(data_disktype.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libconfig/libconfig-static.a(data_names.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libconfig/libconfig-static.a(data_stripes.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libconfig/libconfig-static.a(expandable_buffer.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libconfig/libconfig-static.a(msg.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libconfig/libconfig-static.a(splay.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libconfig/libconfig-static.a(xml.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libfsmcomm/libfsmcomm-static.a(altpmap.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libfsmcomm/libfsmcomm-static.a(fsmcomm.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libfsmcomm/libfsmcomm-static.a(fsmsubrs.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libfsmcomm/libfsmcomm-static.a(pxsubr.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libfsmcomm/libfsmcomm-static.a(rerecv.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libsndb/libsndb-static.a(confgrammar.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libsndb/libsndb-static.a(conflexer.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libsndb/libsndb-static.a(cvfsdb_subr.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libsndb/libsndb-static.a(print_inode.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libsndb/libsndb-static.a(print_item.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libsndb/libsndb-static.a(print_jrn.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libsndb/libsndb-static.a(print_misc.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libsndb/libsndb-static.a(print_ntsec.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libsndb/libsndb-static.a(print_sb.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libsndb/libsndb-static.a(print_snbt.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libsndb/libsndb-static.a(trans_str.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libcrc32-static.a(crc32.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(alloc.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(brandcfg.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(cvras.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(dopanic.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(fmt_syserror.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(fprintf_indent.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(fsports.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(getroot.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(hash_table.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(list.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(logger.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(memsize.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(msleep.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(mutex.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(payload.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(pollutil.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(priv_check.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(rawip.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(rdwrlk.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(resolvshim.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(sid_subr.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(sn_fsname.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(snfsio.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(snfslog.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(snprintf.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(sock46.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(strint.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(subr.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(subr2.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(thread_common.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(thrpri.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(timer.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(tmspec.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../libutil/libsnutil-static.a(utf8.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../metalib/libmetalib-static.a(binodecnv.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../metalib/libmetalib-static.a(dir_btree.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../metalib/libmetalib-static.a(inode_tree_map.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../metalib/libmetalib-static.a(inodecnv.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../physio/libphysio-static.a(arbitration_block.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../physio/libphysio-static.a(icb.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../physio/libphysio-static.a(physio.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../physio/libphysio-static.a(physio_init.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../qustat/libqustat/libqustat-static.a(libqustat.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../qustat/libqustat/libqustat-static.a(qustat_log.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../qustat/libqustat/libqustat-static.a(qustat_rec.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../snbtree/libsnbtree-static.a(dirhash.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../snbtree/libsnbtree-static.a(snbt_datafuncs.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../snbtree/libsnbtree-static.a(snbt_dump.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../snbtree/libsnbtree-static.a(snbt_insert.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../snbtree/libsnbtree-static.a(snbt_lookup.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../snbtree/libsnbtree-static.a(snbt_misc.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../snbtree/libsnbtree-static.a(snbt_node.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../snbtree/libsnbtree-static.a(snbt_payload.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../snbtree/libsnbtree-static.a(snbt_pfuncs.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/../snbtree/libsnbtree-static.a(snbt_split.c.o)
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/CMakeFiles/cvfsdb.dir/cvfsdb.c.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libconfig/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libsndb/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/lib/liblz4_darwin/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/lib/libsnatomic_darwin/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/authlib/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/cvfsdb/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/extapi/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/fsmlib/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/include/common/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/journal/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/libconfig/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/libfsmcomm/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/libsndb/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/libutil/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/metalib/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/physio/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/qustat/libqustat/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/snbtree/
++ Journal_recover.cold.1
++ _OUTLINED_FUNCTION_0
++ _qustat_mod_alloc.cold.1
++ _qustat_mod_alloc.cold.2
++ _snbtree_remove.cold.1
++ qustat_array_fm_net.cold.1
++ qustat_array_fm_net.cold.2
++ qustat_array_to_net.cold.1
++ qustat_array_to_net.cold.2
++ qustat_ctrl.cold.1
++ qustat_ctrl.cold.2
++ qustat_fm_net.cold.1
++ qustat_fm_net.cold.2
++ qustat_grp_find_tbl.cold.1
++ qustat_grp_find_tbl.cold.2
++ qustat_grp_free.cold.1
++ qustat_grp_free.cold.2
++ qustat_grp_insert.cold.1
++ qustat_grp_insert.cold.2
++ qustat_grp_minmax_reset.cold.1
++ qustat_grp_minmax_reset.cold.2
++ qustat_grp_remove.cold.1
++ qustat_grp_remove.cold.2
++ qustat_grp_reset.cold.1
++ qustat_grp_reset.cold.2
++ qustat_help_array_free.cold.1
++ qustat_help_array_free.cold.2
++ qustat_help_fm_net.cold.1
++ qustat_help_fm_net.cold.2
++ qustat_help_free.cold.1
++ qustat_help_free.cold.2
++ qustat_help_hash_destroy.cold.1
++ qustat_help_hash_destroy.cold.2
++ qustat_help_to_net.cold.1
++ qustat_help_to_net.cold.2
++ qustat_minmax_reset.cold.1
++ qustat_minmax_reset.cold.2
++ qustat_minmax_tbl_reset.cold.1
++ qustat_minmax_tbl_reset.cold.2
++ qustat_reset.cold.1
++ qustat_reset.cold.2
++ qustat_tbl_alloc.cold.1
++ qustat_tbl_alloc.cold.2
++ qustat_tbl_fm_net.cold.1
++ qustat_tbl_fm_net.cold.2
++ qustat_tbl_free.cold.1
++ qustat_tbl_free.cold.2
++ qustat_tbl_reset.cold.1
++ qustat_tbl_reset.cold.2
++ qustat_tbl_title_set.cold.1
++ qustat_tbl_title_set.cold.2
++ qustat_tbl_to_help.cold.1
++ qustat_tbl_to_help.cold.2
++ qustat_tbl_to_net.cold.1
++ qustat_tbl_to_net.cold.2
++ qustat_tbl_to_stat.cold.1
++ qustat_tbl_to_stat.cold.2
++ qustat_to_net.cold.1
++ qustat_to_net.cold.2
++ snbt_set_hist.cold.1
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/lib/liblz4_darwin/liblz4.a(lz4_darwin.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/lib/libsnatomic_darwin/libsnatomic.a(rs_atomic_darwin.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/authlib/libcvfsauth.a(auth_connection.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/authlib/libcvfsauth.a(auth_globals.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/authlib/libcvfsauth.a(md5.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/authlib/libcvfsauth.a(utilities.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/cvfsdb/CMakeFiles/cvfsdb.dir/cvfsdb.c.o
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/extapi/libcvextapi.a(cvapi.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/fsmlib/libfsmlib-static.a(cfgi.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/fsmlib/libfsmlib-static.a(cvuuid.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/fsmlib/libfsmlib-static.a(disks.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/fsmlib/libfsmlib-static.a(dk_nomad.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/fsmlib/libfsmlib-static.a(do_sum.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/fsmlib/libfsmlib-static.a(efi_gpt.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/fsmlib/libfsmlib-static.a(efi_util.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/fsmlib/libfsmlib-static.a(fsm_cfgparse.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/fsmlib/libfsmlib-static.a(mcan_toc.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/fsmlib/libfsmlib-static.a(program_init.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/fsmlib/libfsmlib-static.a(snfs_cverr.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/fsmlib/libfsmlib-static.a(utils.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/fsmlib/libfsmlib-static.a(xcvlabel.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/fsmlib/libglobals-static.a(globals.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/journal/libjournal-static.a(journal.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/journal/libjournal-static.a(jrn_recover.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/journal/libjournal-static.a(sb.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/journal/libjournal-static.a(sb_core.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libconfig/
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libconfig/libconfig-static.a(FsCfg.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libconfig/libconfig-static.a(ascii.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libconfig/libconfig-static.a(cfgparse.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libconfig/libconfig-static.a(confgrammar.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libconfig/libconfig-static.a(config.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libconfig/libconfig-static.a(conflexer.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libconfig/libconfig-static.a(data_disks.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libconfig/libconfig-static.a(data_disktype.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libconfig/libconfig-static.a(data_names.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libconfig/libconfig-static.a(data_stripes.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libconfig/libconfig-static.a(expandable_buffer.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libconfig/libconfig-static.a(msg.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libconfig/libconfig-static.a(splay.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libconfig/libconfig-static.a(xml.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libfsmcomm/libfsmcomm-static.a(altpmap.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libfsmcomm/libfsmcomm-static.a(fsmcomm.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libfsmcomm/libfsmcomm-static.a(fsmsubrs.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libfsmcomm/libfsmcomm-static.a(pxsubr.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libfsmcomm/libfsmcomm-static.a(rerecv.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libsndb/
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libsndb/libsndb-static.a(confgrammar.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libsndb/libsndb-static.a(conflexer.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libsndb/libsndb-static.a(cvfsdb_subr.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libsndb/libsndb-static.a(print_inode.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libsndb/libsndb-static.a(print_item.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libsndb/libsndb-static.a(print_jrn.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libsndb/libsndb-static.a(print_misc.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libsndb/libsndb-static.a(print_ntsec.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libsndb/libsndb-static.a(print_sb.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libsndb/libsndb-static.a(print_snbt.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libsndb/libsndb-static.a(trans_str.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libcrc32-static.a(crc32.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(alloc.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(brandcfg.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(cvras.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(dopanic.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(fmt_syserror.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(fprintf_indent.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(fsports.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(getroot.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(hash_table.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(list.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(logger.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(memsize.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(msleep.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(mutex.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(payload.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(pollutil.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(priv_check.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(rawip.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(rdwrlk.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(resolvshim.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(sid_subr.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(sn_fsname.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(snfsio.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(snfslog.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(snprintf.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(sock46.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(strint.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(subr.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(subr2.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(thread_common.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(thrpri.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(timer.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(tmspec.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/libutil/libsnutil-static.a(utf8.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/metalib/libmetalib-static.a(binodecnv.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/metalib/libmetalib-static.a(dir_btree.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/metalib/libmetalib-static.a(inode_tree_map.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/metalib/libmetalib-static.a(inodecnv.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/physio/libphysio-static.a(arbitration_block.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/physio/libphysio-static.a(icb.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/physio/libphysio-static.a(physio.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/physio/libphysio-static.a(physio_init.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/qustat/libqustat/libqustat-static.a(libqustat.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/qustat/libqustat/libqustat-static.a(qustat_log.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/qustat/libqustat/libqustat-static.a(qustat_rec.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/snbtree/libsnbtree-static.a(dirhash.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/snbtree/libsnbtree-static.a(snbt_datafuncs.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/snbtree/libsnbtree-static.a(snbt_dump.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/snbtree/libsnbtree-static.a(snbt_insert.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/snbtree/libsnbtree-static.a(snbt_lookup.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/snbtree/libsnbtree-static.a(snbt_misc.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/snbtree/libsnbtree-static.a(snbt_node.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/snbtree/libsnbtree-static.a(snbt_payload.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/snbtree/libsnbtree-static.a(snbt_pfuncs.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Binaries/XsanFS/install/TempContent/Objects/snfs/snbtree/libsnbtree-static.a(snbt_split.c.o)
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/lib/liblz4_darwin/
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/lib/libsnatomic_darwin/
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/authlib/
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/cvfsdb/
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/extapi/
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/fsmlib/
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/include/common/
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/journal/
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/libconfig/
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/libfsmcomm/
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/libsndb/
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/libutil/
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/metalib/
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/physio/
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/qustat/libqustat/
+- /AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/snbtree/
+- _sanitize_label
+CStrings:
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/fsmlib/cfgi.c"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/fsmlib/disks.c"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/fsmlib/fsm_cfgparse.c"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/include/common/splay.c"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/journal/journal.c"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/journal/jrn_recover.c"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/journal/sb.c"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/libconfig/cfgparse.c"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/libfsmcomm/fsmcomm.c"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/libfsmcomm/fsmsubrs.c"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/libsndb/cvfsdb_subr.c"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/libsndb/print_inode.c"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/libsndb/print_jrn.c"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/libsndb/print_misc.c"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/libutil/alloc.c"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/libutil/cvras.c"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/libutil/mutex.c"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/libutil/pollutil.c"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/libutil/sock46.c"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/metalib/dir_btree.c"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/physio/arbitration_block.c"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/physio/icb.c"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/physio/physio.c"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/physio/physio_init.c"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/qustat/libqustat/libqustat.c"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/snbtree/snbt_insert.c"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/snbtree/snbt_lookup.c"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/snbtree/snbt_misc.c"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/snbtree/snbt_pfuncs.c"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/fsmlib/cfgi.c"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/fsmlib/disks.c"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/fsmlib/fsm_cfgparse.c"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/include/common/splay.c"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/journal/journal.c"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/journal/jrn_recover.c"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/journal/sb.c"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/libconfig/cfgparse.c"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/libfsmcomm/fsmcomm.c"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/libfsmcomm/fsmsubrs.c"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/libsndb/cvfsdb_subr.c"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/libsndb/print_inode.c"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/libsndb/print_jrn.c"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/libsndb/print_misc.c"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/libutil/alloc.c"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/libutil/cvras.c"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/libutil/mutex.c"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/libutil/pollutil.c"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/libutil/sock46.c"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/metalib/dir_btree.c"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/physio/arbitration_block.c"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/physio/icb.c"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/physio/physio.c"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/physio/physio_init.c"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/qustat/libqustat/libqustat.c"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/snbtree/snbt_insert.c"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/snbtree/snbt_lookup.c"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/snbtree/snbt_misc.c"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/XsanFS/snfs/snbtree/snbt_pfuncs.c"
+- "1"
+- "bia"
+- "lo"
+- "sb_"
+
+```

@@ -1,0 +1,56 @@
+## FWAVC
+
+> `/System/Library/PrivateFrameworks/FWAVC.framework/Versions/A/FWAVC`
+
+```diff
+
+-5590.80.3.0.0
+-  __TEXT.__text: 0x122e8
++5590.100.8.0.0
++  __TEXT.__text: 0x11fc4
+   __TEXT.__auth_stubs: 0x500
+-  __TEXT.__const: 0x150
++  __TEXT.__const: 0x130
+   __TEXT.__gcc_except_tab: 0x40c
+   __TEXT.__cstring: 0x13f0
+-  __TEXT.__unwind_info: 0x5d0
++  __TEXT.__unwind_info: 0x5a8
+   __DATA_CONST.__got: 0x38
+   __AUTH_CONST.__auth_got: 0x288
+   __AUTH_CONST.__cfstring: 0x100
+
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 921F6BE2-3B04-37B0-B197-77DF770328E1
+-  Functions: 395
+-  Symbols:   544
++  UUID: BBBEA7EA-0449-30ED-A888-3D8C48591A9A
++  Functions: 388
++  Symbols:   545
+   CStrings:  112
+ 
+Symbols:
++ __ZN3AVSL13getSignalModeEPP29IOFireWireAVCLibUnitInterfacePh
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIPPN3AVS14DVReceiveFrameEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIPPN3AVS17DVFrameNotifyInstEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIPPN3AVS7DVFrameEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__15dequeIPN3AVS14DVReceiveFrameENS_9allocatorIS3_EEE26__maybe_remove_front_spareB8ne190102Eb
++ __ZNSt3__15dequeIPN3AVS14DVReceiveFrameENS_9allocatorIS3_EEED2B8ne190102Ev
++ __ZNSt3__15dequeIPN3AVS17DVFrameNotifyInstENS_9allocatorIS3_EEE26__maybe_remove_front_spareB8ne190102Eb
++ __ZNSt3__15dequeIPN3AVS17DVFrameNotifyInstENS_9allocatorIS3_EEED2B8ne190102Ev
++ __ZNSt3__15dequeIPN3AVS7DVFrameENS_9allocatorIS3_EEE26__maybe_remove_front_spareB8ne190102Eb
++ __ZNSt3__15dequeIPN3AVS7DVFrameENS_9allocatorIS3_EEED2B8ne190102Ev
++ __ZSt28__throw_bad_array_new_lengthB8ne190102v
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIPPN3AVS14DVReceiveFrameEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIPPN3AVS17DVFrameNotifyInstEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIPPN3AVS7DVFrameEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__15dequeIPN3AVS14DVReceiveFrameENS_9allocatorIS3_EEE26__maybe_remove_front_spareB8ne180100Eb
+- __ZNSt3__15dequeIPN3AVS14DVReceiveFrameENS_9allocatorIS3_EEED2B8ne180100Ev
+- __ZNSt3__15dequeIPN3AVS17DVFrameNotifyInstENS_9allocatorIS3_EEE26__maybe_remove_front_spareB8ne180100Eb
+- __ZNSt3__15dequeIPN3AVS17DVFrameNotifyInstENS_9allocatorIS3_EEED2B8ne180100Ev
+- __ZNSt3__15dequeIPN3AVS7DVFrameENS_9allocatorIS3_EEE26__maybe_remove_front_spareB8ne180100Eb
+- __ZNSt3__15dequeIPN3AVS7DVFrameENS_9allocatorIS3_EEED2B8ne180100Ev
+- __ZSt28__throw_bad_array_new_lengthB8ne180100v
+
+```

@@ -1,0 +1,1910 @@
+## Speech
+
+> `/System/Library/Frameworks/Speech.framework/Versions/A/Speech`
+
+```diff
+
+-3403.3.1.0.0
+-  __TEXT.__text: 0x19c438
+-  __TEXT.__auth_stubs: 0x2a70
+-  __TEXT.__objc_methlist: 0x33a4
+-  __TEXT.__cstring: 0xa11e
+-  __TEXT.__const: 0x7f98
+-  __TEXT.__constg_swiftt: 0x419c
+-  __TEXT.__swift5_typeref: 0x541e
+-  __TEXT.__swift5_reflstr: 0x34c8
+-  __TEXT.__swift5_fieldmd: 0x2d9c
++3404.78.1.0.0
++  __TEXT.__text: 0x1c9a28
++  __TEXT.__auth_stubs: 0x2d60
++  __TEXT.__objc_methlist: 0x40d4
++  __TEXT.__const: 0xaa78
++  __TEXT.__dlopen_cstrs: 0x60
++  __TEXT.__cstring: 0xa9f2
++  __TEXT.__constg_swiftt: 0x45ac
++  __TEXT.__swift5_typeref: 0x6180
++  __TEXT.__swift5_reflstr: 0x3787
++  __TEXT.__swift5_fieldmd: 0x3114
+   __TEXT.__swift5_builtin: 0xdc
+-  __TEXT.__swift5_assocty: 0x828
+-  __TEXT.__swift5_proto: 0x554
+-  __TEXT.__swift5_types: 0x2ec
+-  __TEXT.__oslogstring: 0x3240
+-  __TEXT.__swift5_capture: 0x1f28
+-  __TEXT.__swift5_acfuncs: 0x460
+-  __TEXT.__swift5_protos: 0x54
++  __TEXT.__swift5_assocty: 0xde0
++  __TEXT.__swift5_proto: 0x754
++  __TEXT.__swift5_types: 0x338
++  __TEXT.__oslogstring: 0x3629
++  __TEXT.__swift5_capture: 0x226c
++  __TEXT.__swift5_acfuncs: 0x500
++  __TEXT.__swift_as_entry: 0x868
++  __TEXT.__swift_as_ret: 0x840
++  __TEXT.__swift5_protos: 0x5c
+   __TEXT.__swift5_mpenum: 0x38
+-  __TEXT.__gcc_except_tab: 0x808
+-  __TEXT.__dlopen_cstrs: 0x60
+-  __TEXT.__unwind_info: 0x7340
+-  __TEXT.__eh_frame: 0xef98
+-  __TEXT.__objc_classname: 0x909
+-  __TEXT.__objc_methname: 0xc675
+-  __TEXT.__objc_methtype: 0x24fc
+-  __TEXT.__objc_stubs: 0x4a20
+-  __DATA_CONST.__got: 0xcd0
+-  __DATA_CONST.__const: 0x7d8
+-  __DATA_CONST.__objc_classlist: 0x3c0
++  __TEXT.__gcc_except_tab: 0x7f4
++  __TEXT.__unwind_info: 0x8040
++  __TEXT.__eh_frame: 0x10f9c
++  __TEXT.__objc_classname: 0xa00
++  __TEXT.__objc_methname: 0xd34d
++  __TEXT.__objc_methtype: 0x26e0
++  __TEXT.__objc_stubs: 0x4bc0
++  __DATA_CONST.__got: 0xe38
++  __DATA_CONST.__const: 0x798
++  __DATA_CONST.__objc_classlist: 0x408
+   __DATA_CONST.__objc_catlist: 0x18
+-  __DATA_CONST.__objc_protolist: 0x140
++  __DATA_CONST.__objc_protolist: 0x170
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x26f0
+-  __DATA_CONST.__objc_protorefs: 0xb8
+-  __DATA_CONST.__objc_superrefs: 0x1d8
+-  __DATA_CONST.__objc_arraydata: 0x20
+-  __AUTH_CONST.__auth_got: 0x1548
+-  __AUTH_CONST.__const: 0x9980
+-  __AUTH_CONST.__cfstring: 0x3420
+-  __AUTH_CONST.__objc_const: 0xc5c0
+-  __AUTH_CONST.__objc_dictobj: 0x28
++  __DATA_CONST.__objc_selrefs: 0x29a0
++  __DATA_CONST.__objc_protorefs: 0xe0
++  __DATA_CONST.__objc_superrefs: 0x1f8
++  __DATA_CONST.__objc_arraydata: 0x40
++  __AUTH_CONST.__auth_got: 0x16c0
++  __AUTH_CONST.__const: 0xae28
++  __AUTH_CONST.__cfstring: 0x36c0
++  __AUTH_CONST.__objc_const: 0xbd80
++  __AUTH_CONST.__objc_dictobj: 0x50
+   __AUTH_CONST.__objc_intobj: 0xf0
+-  __AUTH.__objc_data: 0x2218
+-  __AUTH.__data: 0x44c0
+-  __DATA.__objc_ivar: 0x4dc
+-  __DATA.__data: 0x4dc0
+-  __DATA.__bss: 0x8c78
+-  __DATA.__common: 0x348
++  __AUTH.__objc_data: 0x21f8
++  __AUTH.__data: 0x4900
++  __DATA.__objc_ivar: 0x508
++  __DATA.__data: 0x5948
++  __DATA.__bss: 0xc9c0
++  __DATA.__common: 0x380
+   - /System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+   - /System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork
+
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftSynchronization.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 7DFBF182-CD6D-3CAD-84F8-52139AB7997F
+-  Functions: 10289
+-  Symbols:   8075
+-  CStrings:  3962
++  UUID: 80182552-D14F-3557-98FD-08E41963B43F
++  Functions: 11928
++  Symbols:   9218
++  CStrings:  4127
+ 
+Symbols:
++ +[EARFullPayloadCorrectionResult supportsSecureCoding]
++ +[SFEntitledAssetManager assetPathFromStatus:]
++ +[SFSpeechAssetManager generalASRLanguageForLocale:]
++ +[SFSpeechAssetManager generalASRLanguageForLocaleIdentifier:]
++ +[SFSpeechAssetManager pathToAssetWithConfig:clientIdentifier:completion:]
++ +[SFSpeechAssetManager unsubscribeFromAssetWithConfig:clientIdentifier:completion:]
++ +[SFUtilities allSpeechProfileContainersForSharedUserInfos:]
++ +[SFUtilities aneSubType]
++ +[SFUtilities generalASRLanguageForLocaleIdentifier:]
++ +[SFUtilities isANETypeAtLeastVersion:prefix:]
++ +[SFUtilities speechProfilePathsForLanguage:]
++ +[SFUtilities speechProfilePathsForLanguage:personaId:]
++ +[SFUtilities speechProfilePathsForLanguage:speechProfileContainers:]
++ +[SFUtilities speechProfilePathsForLanguage:userType:]
++ +[SFUtilities speechProfileRootDirectoriesWithUserType:]
++ +[SFUtilities userSpecificSpeechProfileContainersForSharedUserInfos:]
++ +[_SFSpeechRecognizerEndpointDetectorOptions supportsSecureCoding]
++ +[_SFSpeechRecognizerSpeechDetectorOptions supportsSecureCoding]
++ -[EARFullPayloadCorrectionResult .cxx_destruct]
++ -[EARFullPayloadCorrectionResult copyWithZone:]
++ -[EARFullPayloadCorrectionResult encodeWithCoder:]
++ -[EARFullPayloadCorrectionResult error]
++ -[EARFullPayloadCorrectionResult initWithCoder:]
++ -[EARFullPayloadCorrectionResult initWithResult:loggingInfo:error:]
++ -[EARFullPayloadCorrectionResult loggingInfo]
++ -[EARFullPayloadCorrectionResult result]
++ -[SFAnalyzerTranscriptionSegment confidence]
++ -[SFAnalyzerTranscriptionSegment initWithText:alternatives:confidence:]
++ -[SFEntitledAssetConfig initWithAssetType:locale:regionId:]
++ -[SFLocalSpeechRecognitionClient pathToAssetWithConfig:clientID:asyncCompletion:]
++ -[SFLocalSpeechRecognitionClient unsubscribeFromAssetWithConfig:clientID:asyncCompletion:]
++ -[SFSpeechAnalyzerOptions initWithHighPriority:modelRetention:loggingInfo:powerContext:]
++ -[SFSpeechAnalyzerOptions modelRetention]
++ -[SFSpeechAnalyzerSpeechDetectorOptions initWithReportResults:]
++ -[SFSpeechAnalyzerSpeechDetectorOptions init]
++ -[SFSpeechAnalyzerSpeechDetectorOptions reportResults]
++ -[SFSpeechAnalyzerSpeechDetectorOptions sensitivityLevel]
++ -[SFSpeechAnalyzerSpeechDetectorOptions setReportResults:]
++ -[SFSpeechAnalyzerSpeechDetectorOptions setSensitivityLevel:]
++ -[SFSpeechDetectorResult initWithRange:]
++ -[SFSpeechDetectorResult range]
++ -[SFSpeechRecognizer _dealloc]
++ -[SFSpeechRecognizer _objc_initiateDealloc]
++ -[SFTranscriberModelOptions geoLMRegionID]
++ -[SFTranscriberModelOptions initWithSupplementalModelURL:farField:geoLMRegionID:modelOverrideURL:speechProfileURLs:taskForMemoryLock:atypicalSpeech:enableParallelLoading:]
++ -[STTranscriberMultisegmentResult bestFormattedStringSegmentConfidence]
++ -[STTranscriberMultisegmentResult bestFormattedString]
++ -[STTranscriberMultisegmentResult initWithSegments:transcriptions:earResultType:nBestChoices:recognitionAudioRange:bestFormattedString:bestFormattedStringSegmentConfidence:]
++ -[_SFAnalysisContextCodingObject initWithLeftContext:rightContext:selectedText:contextualStrings:contextualNamedEntities:profileData:jitProfileData:]
++ -[_SFSpeechRecognizerEndpointDetectorOptions copyWithZone:]
++ -[_SFSpeechRecognizerEndpointDetectorOptions description]
++ -[_SFSpeechRecognizerEndpointDetectorOptions detectAfterTime]
++ -[_SFSpeechRecognizerEndpointDetectorOptions encodeWithCoder:]
++ -[_SFSpeechRecognizerEndpointDetectorOptions hash]
++ -[_SFSpeechRecognizerEndpointDetectorOptions initWithCoder:]
++ -[_SFSpeechRecognizerEndpointDetectorOptions initWithDetectAfterTime:]
++ -[_SFSpeechRecognizerEndpointDetectorOptions isEqual:]
++ -[_SFSpeechRecognizerModelOptions geoLMRegionID]
++ -[_SFSpeechRecognizerModelOptions initWithFarField:geoLMRegionID:supplementalModelURL:modelOverrideURL:speechProfileURLs:userIdMask:taskForMemoryLock:atypicalSpeech:enableParallelLoading:speechProfileContainers:]
++ -[_SFSpeechRecognizerSpeechDetectorOptions copyWithZone:]
++ -[_SFSpeechRecognizerSpeechDetectorOptions description]
++ -[_SFSpeechRecognizerSpeechDetectorOptions encodeWithCoder:]
++ -[_SFSpeechRecognizerSpeechDetectorOptions hash]
++ -[_SFSpeechRecognizerSpeechDetectorOptions initWithCoder:]
++ -[_SFSpeechRecognizerSpeechDetectorOptions initWithSensitivityLevel:]
++ -[_SFSpeechRecognizerSpeechDetectorOptions isEqual:]
++ -[_SFSpeechRecognizerSpeechDetectorOptions sensitivityLevel]
++ -[_SFSpeechRecognizerSupportedFeatures endpointDetectionOptions]
++ -[_SFSpeechRecognizerSupportedFeatures initWithLocale:taskNames:singleUtterance:concatenateUtterances:voiceCommandActiveSet:modelOptions:endpointDetectionOptions:speechDetectionOptions:flags:]
++ -[_SFSpeechRecognizerSupportedFeatures speechDetectionOptions]
++ GCC_except_table1009
++ GCC_except_table1031
++ GCC_except_table1036
++ GCC_except_table1117
++ GCC_except_table1142
++ GCC_except_table1302
++ GCC_except_table1310
++ GCC_except_table1314
++ GCC_except_table1318
++ GCC_except_table1322
++ GCC_except_table1328
++ GCC_except_table1329
++ GCC_except_table1330
++ GCC_except_table1332
++ GCC_except_table1333
++ GCC_except_table1334
++ GCC_except_table1337
++ GCC_except_table258
++ GCC_except_table390
++ GCC_except_table396
++ GCC_except_table398
++ GCC_except_table400
++ GCC_except_table405
++ GCC_except_table413
++ GCC_except_table416
++ GCC_except_table421
++ GCC_except_table443
++ GCC_except_table464
++ GCC_except_table470
++ GCC_except_table505
++ GCC_except_table739
++ GCC_except_table840
++ GCC_except_table874
++ GCC_except_table884
++ GCC_except_table886
++ GCC_except_table895
++ GCC_except_table938
++ GCC_except_table990
++ OBJC_IVAR_$_EARFullPayloadCorrectionResult._error
++ OBJC_IVAR_$_EARFullPayloadCorrectionResult._loggingInfo
++ OBJC_IVAR_$_EARFullPayloadCorrectionResult._result
++ OBJC_IVAR_$_SFAnalyzerTranscriptionSegment._confidence
++ OBJC_IVAR_$_SFSpeechAnalyzerOptions._modelRetention
++ OBJC_IVAR_$_SFSpeechAnalyzerSpeechDetectorOptions._reportResults
++ OBJC_IVAR_$_SFSpeechAnalyzerSpeechDetectorOptions._sensitivityLevel
++ OBJC_IVAR_$_SFSpeechDetectorResult._range
++ OBJC_IVAR_$_SFTranscriberModelOptions._geoLMRegionID
++ OBJC_IVAR_$_STTranscriberMultisegmentResult._bestFormattedString
++ OBJC_IVAR_$_STTranscriberMultisegmentResult._bestFormattedStringSegmentConfidence
++ OBJC_IVAR_$__SFSpeechRecognizerEndpointDetectorOptions._detectAfterTime
++ OBJC_IVAR_$__SFSpeechRecognizerModelOptions._geoLMRegionID
++ OBJC_IVAR_$__SFSpeechRecognizerSpeechDetectorOptions._sensitivityLevel
++ OBJC_IVAR_$__SFSpeechRecognizerSupportedFeatures._endpointDetectionOptions
++ OBJC_IVAR_$__SFSpeechRecognizerSupportedFeatures._speechDetectionOptions
++ SFGeneralASRReplacementLanguageCodeForLocaleIdentifier.onceToken
++ SFGeneralASRReplacementLanguageCodeForLocaleIdentifier.sReplacementLanguageCodeForLocaleIdentifier
++ _CMTimeRangeGetIntersection
++ _NSProgressFileOperationKindDownloading
++ _NSProgressKindFile
++ _NSProgressUseItemDescriptionKey
++ _OBJC_CLASS_$_AFASRSharedUserInfo
++ _OBJC_CLASS_$_ASRSchemaASRPersonalizationUserEditNamedEntityMetrics
++ _OBJC_CLASS_$_EARFullPayloadCorrectionResult
++ _OBJC_CLASS_$_SFSpeechAnalyzerSpeechDetectorOptions
++ _OBJC_CLASS_$_SFSpeechDetectorResult
++ _OBJC_CLASS_$__SFSpeechRecognizerEndpointDetectorOptions
++ _OBJC_CLASS_$__SFSpeechRecognizerSpeechDetectorOptions
++ _OBJC_CLASS_$__TtC6Speech25AssetsInstallationRequest
++ _OBJC_METACLASS_$_EARFullPayloadCorrectionResult
++ _OBJC_METACLASS_$_SFSpeechAnalyzerSpeechDetectorOptions
++ _OBJC_METACLASS_$_SFSpeechDetectorResult
++ _OBJC_METACLASS_$__SFSpeechRecognizerEndpointDetectorOptions
++ _OBJC_METACLASS_$__SFSpeechRecognizerSpeechDetectorOptions
++ _OBJC_METACLASS_$__TtC6Speech25AssetsInstallationRequest
++ _OUTLINED_FUNCTION_546
++ _OUTLINED_FUNCTION_547
++ _OUTLINED_FUNCTION_548
++ _OUTLINED_FUNCTION_549
++ _OUTLINED_FUNCTION_550
++ _OUTLINED_FUNCTION_551
++ _OUTLINED_FUNCTION_552
++ _OUTLINED_FUNCTION_553
++ _OUTLINED_FUNCTION_554
++ _OUTLINED_FUNCTION_555
++ _OUTLINED_FUNCTION_556
++ _OUTLINED_FUNCTION_557
++ _OUTLINED_FUNCTION_558
++ _OUTLINED_FUNCTION_559
++ _OUTLINED_FUNCTION_560
++ _OUTLINED_FUNCTION_561
++ _OUTLINED_FUNCTION_562
++ _OUTLINED_FUNCTION_563
++ _OUTLINED_FUNCTION_564
++ _OUTLINED_FUNCTION_565
++ _OUTLINED_FUNCTION_566
++ _OUTLINED_FUNCTION_567
++ _OUTLINED_FUNCTION_568
++ _OUTLINED_FUNCTION_569
++ _OUTLINED_FUNCTION_570
++ _OUTLINED_FUNCTION_571
++ _OUTLINED_FUNCTION_572
++ _OUTLINED_FUNCTION_573
++ _OUTLINED_FUNCTION_574
++ _OUTLINED_FUNCTION_575
++ _OUTLINED_FUNCTION_576
++ _OUTLINED_FUNCTION_577
++ _OUTLINED_FUNCTION_578
++ _OUTLINED_FUNCTION_579
++ _OUTLINED_FUNCTION_580
++ _OUTLINED_FUNCTION_581
++ _OUTLINED_FUNCTION_582
++ _OUTLINED_FUNCTION_583
++ _OUTLINED_FUNCTION_584
++ _OUTLINED_FUNCTION_585
++ _PROTOCOLS__TtC6Speech25AssetsInstallationRequest.5
++ _SFDefaultDataSite
++ _SFEndModelRetention
++ _SFGeneralASRReplacementLanguageCodeForLocaleIdentifier
++ _SFLanguageDetectorLanguagePlaceholder
++ _SFModelAttributeCodeAutoPunctuation
++ _SFModelAttributeCodeContinuousListening
++ _SFModelAttributeCodeEmojiRecognition
++ _SFModelAttributeCodeOfflineOnly
++ _SFModelAttributeCodeOnDeviceSearch
++ _SFModelAttributeCodePreferOverServer
++ _SFModelAttributeCodeVoiceCommands
++ _SFSpeechProfileSiteDirectoriesWithUserType
++ _SFUserSpecificDataSites
++ __101-[SFEntitledAssetManager _installedAssetWithConfig:regionId:shouldSubscribe:subscriberId:expiration:]_block_invoke.541
++ __102-[SFLocalSpeechRecognitionClient downloadAssetsForConfig:clientID:detailedProgress:completionHandler:]_block_invoke.67
++ __107-[SFEntitledAssetManager downloadStatusWithConfig:regionId:subscriberId:progressHandler:completionHandler:]_block_invoke.536
++ __58-[SFEntitledAssetManager registerAssetDelegate:assetType:]_block_invoke.501
++ __58-[SFEntitledAssetManager registerAssetDelegate:assetType:]_block_invoke.504
++ __58-[SFEntitledAssetManager registerAssetDelegate:assetType:]_block_invoke.510
++ __58-[SFEntitledAssetManager registerAssetDelegate:assetType:]_block_invoke.511
++ __58-[SFEntitledAssetManager registerAssetDelegate:assetType:]_block_invoke_2.505
++ __70+[SFSpeechAssetManager setAssetsPurgeability:forLanguages:completion:]_block_invoke.57
++ __72+[SFSpeechRecognizer _fetchSupportedForcedOfflineLocalesWithCompletion:]_block_invoke.29
++ __94-[SFLocalSpeechRecognitionClient downloadAssetsForConfig:clientID:progress:completionHandler:]_block_invoke.62
++ __94-[SFLocalSpeechRecognitionClient downloadAssetsForConfig:clientID:progress:completionHandler:]_block_invoke.63
++ __Block_byref_object_copy_.1427
++ __Block_byref_object_copy_.1538
++ __Block_byref_object_copy_.1671
++ __Block_byref_object_copy_.2022
++ __Block_byref_object_copy_.2205
++ __Block_byref_object_copy_.2795
++ __Block_byref_object_copy_.623
++ __Block_byref_object_dispose_.1428
++ __Block_byref_object_dispose_.1539
++ __Block_byref_object_dispose_.1672
++ __Block_byref_object_dispose_.2023
++ __Block_byref_object_dispose_.2206
++ __Block_byref_object_dispose_.2796
++ __Block_byref_object_dispose_.624
++ __DATA__TtC6Speech14EARXPCRegistry
++ __DATA__TtC6Speech20FullPayloadCorrector
++ __DATA__TtC6Speech22TranscriptionEvaluator
++ __DATA__TtC6Speech23EARFullPayloadCorrector
++ __DATA__TtC6Speech25AssetsInstallationRequest
++ __DATA__TtC6Speech25EARTranscriptionEvaluator
++ __DATA__TtC6SpeechP33_62876FE84B3142C220F84970CC8D7F0025FullPayloadCorrectorActor
++ __INSTANCE_METHODS__TtC6Speech25AssetsInstallationRequest
++ __IVARS__TtC6Speech14EARXPCRegistry
++ __IVARS__TtC6Speech20FullPayloadCorrector
++ __IVARS__TtC6Speech22TranscriptionEvaluator
++ __IVARS__TtC6Speech23EARFullPayloadCorrector
++ __IVARS__TtC6Speech25AssetsInstallationRequest
++ __IVARS__TtC6Speech25EARTranscriptionEvaluator
++ __IVARS__TtC6SpeechP33_62876FE84B3142C220F84970CC8D7F0025FullPayloadCorrectorActor
++ __METACLASS_DATA__TtC6Speech14EARXPCRegistry
++ __METACLASS_DATA__TtC6Speech20FullPayloadCorrector
++ __METACLASS_DATA__TtC6Speech22TranscriptionEvaluator
++ __METACLASS_DATA__TtC6Speech23EARFullPayloadCorrector
++ __METACLASS_DATA__TtC6Speech25AssetsInstallationRequest
++ __METACLASS_DATA__TtC6Speech25EARTranscriptionEvaluator
++ __METACLASS_DATA__TtC6SpeechP33_62876FE84B3142C220F84970CC8D7F0025FullPayloadCorrectorActor
++ __OBJC_$_CLASS_METHODS_EARFullPayloadCorrectionResult
++ __OBJC_$_CLASS_METHODS__SFSpeechRecognizerEndpointDetectorOptions
++ __OBJC_$_CLASS_METHODS__SFSpeechRecognizerSpeechDetectorOptions
++ __OBJC_$_CLASS_PROP_LIST_EARFullPayloadCorrectionResult
++ __OBJC_$_CLASS_PROP_LIST__SFSpeechRecognizerEndpointDetectorOptions
++ __OBJC_$_CLASS_PROP_LIST__SFSpeechRecognizerSpeechDetectorOptions
++ __OBJC_$_INSTANCE_METHODS_EARFullPayloadCorrectionResult
++ __OBJC_$_INSTANCE_METHODS_SFSpeechAnalyzerSpeechDetectorOptions
++ __OBJC_$_INSTANCE_METHODS_SFSpeechDetectorResult
++ __OBJC_$_INSTANCE_METHODS__SFSpeechRecognizerEndpointDetectorOptions
++ __OBJC_$_INSTANCE_METHODS__SFSpeechRecognizerSpeechDetectorOptions
++ __OBJC_$_INSTANCE_VARIABLES_EARFullPayloadCorrectionResult
++ __OBJC_$_INSTANCE_VARIABLES_SFSpeechAnalyzerSpeechDetectorOptions
++ __OBJC_$_INSTANCE_VARIABLES_SFSpeechDetectorResult
++ __OBJC_$_INSTANCE_VARIABLES__SFSpeechRecognizerEndpointDetectorOptions
++ __OBJC_$_INSTANCE_VARIABLES__SFSpeechRecognizerSpeechDetectorOptions
++ __OBJC_$_PROP_LIST_EARFullPayloadCorrectionResult
++ __OBJC_$_PROP_LIST_SFSpeechAnalyzerSpeechDetectorOptions
++ __OBJC_$_PROP_LIST_SFSpeechDetectorResult
++ __OBJC_$_PROP_LIST__SFSpeechRecognizerEndpointDetectorOptions
++ __OBJC_$_PROP_LIST__SFSpeechRecognizerSpeechDetectorOptions
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SFSpeechAnalyzerSpeechDetectorResultDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS__SFXPCEARFullPayloadCorrector
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS__SFXPCEARTranscriptionEvaluator
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SFSpeechAnalyzerSpeechDetectorResultDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES__SFXPCEARFullPayloadCorrector
++ __OBJC_$_PROTOCOL_METHOD_TYPES__SFXPCEARTranscriptionEvaluator
++ __OBJC_CLASS_PROTOCOLS_$_EARFullPayloadCorrectionResult
++ __OBJC_CLASS_PROTOCOLS_$__SFSpeechRecognizerEndpointDetectorOptions
++ __OBJC_CLASS_PROTOCOLS_$__SFSpeechRecognizerSpeechDetectorOptions
++ __OBJC_CLASS_RO_$_EARFullPayloadCorrectionResult
++ __OBJC_CLASS_RO_$_SFSpeechAnalyzerSpeechDetectorOptions
++ __OBJC_CLASS_RO_$_SFSpeechDetectorResult
++ __OBJC_CLASS_RO_$__SFSpeechRecognizerEndpointDetectorOptions
++ __OBJC_CLASS_RO_$__SFSpeechRecognizerSpeechDetectorOptions
++ __OBJC_LABEL_PROTOCOL_$_SFSpeechAnalyzerSpeechDetectorResultDelegate
++ __OBJC_LABEL_PROTOCOL_$__SFXPCEARFullPayloadCorrector
++ __OBJC_LABEL_PROTOCOL_$__SFXPCEARTranscriptionEvaluator
++ __OBJC_METACLASS_RO_$_EARFullPayloadCorrectionResult
++ __OBJC_METACLASS_RO_$_SFSpeechAnalyzerSpeechDetectorOptions
++ __OBJC_METACLASS_RO_$_SFSpeechDetectorResult
++ __OBJC_METACLASS_RO_$__SFSpeechRecognizerEndpointDetectorOptions
++ __OBJC_METACLASS_RO_$__SFSpeechRecognizerSpeechDetectorOptions
++ __OBJC_PROTOCOL_$_SFSpeechAnalyzerSpeechDetectorResultDelegate
++ __OBJC_PROTOCOL_$__SFXPCEARFullPayloadCorrector
++ __OBJC_PROTOCOL_$__SFXPCEARTranscriptionEvaluator
++ __OBJC_PROTOCOL_REFERENCE_$__SFXPCEARFullPayloadCorrector
++ __OBJC_PROTOCOL_REFERENCE_$__SFXPCEARTranscriptionEvaluator
++ __PROPERTIES__TtC6Speech25AssetsInstallationRequest
++ __PROTOCOLS__TtC6Speech25AssetsInstallationRequest
++ ___25+[SFUtilities aneSubType]_block_invoke
++ ___30-[SFSpeechRecognizer _dealloc]_block_invoke
++ ___53+[SFEntitledAssetManager assetSetUsagesForAssetType:]_block_invoke
++ ___55+[SFUtilities speechProfilePathsForLanguage:personaId:]_block_invoke
++ ___74+[SFSpeechAssetManager pathToAssetWithConfig:clientIdentifier:completion:]_block_invoke
++ ___81-[SFLocalSpeechRecognitionClient pathToAssetWithConfig:clientID:asyncCompletion:]_block_invoke
++ ___81-[SFLocalSpeechRecognitionClient pathToAssetWithConfig:clientID:asyncCompletion:]_block_invoke_2
++ ___83+[SFSpeechAssetManager unsubscribeFromAssetWithConfig:clientIdentifier:completion:]_block_invoke
++ ___90-[SFLocalSpeechRecognitionClient unsubscribeFromAssetWithConfig:clientID:asyncCompletion:]_block_invoke
++ ___90-[SFLocalSpeechRecognitionClient unsubscribeFromAssetWithConfig:clientID:asyncCompletion:]_block_invoke_2
++ ___SFEndModelRetention_block_invoke
++ ___SFGeneralASRReplacementLanguageCodeForLocaleIdentifier_block_invoke
++ ___block_descriptor_40_e8_32s_e39_v16?0"<AFASRSharedUserInfoMutating>"8l
++ ___block_descriptor_48_e8_32s40bs_e18_v16?0"NSString"8l
++ ___block_descriptor_64_e8_32s40s48s56bs_e5_v8?0l
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ ___swift_destroy_boxed_opaque_existential_1Tm
++ ___swift_memcpy73_4
++ ___swift_mutable_project_boxed_opaque_existential_0
++ __block_literal_global.1445
++ __block_literal_global.1567
++ __block_literal_global.1773
++ __block_literal_global.2003
++ __block_literal_global.2236
++ __block_literal_global.233
++ __block_literal_global.251
++ __block_literal_global.2600
++ __block_literal_global.278
++ __block_literal_global.2844
++ __block_literal_global.286
++ __block_literal_global.37
++ __block_literal_global.429
++ __block_literal_global.431
++ __block_literal_global.456
++ __block_literal_global.664
++ __block_literal_global.910
++ __class_setCustomDeallocInitiation
++ __dealloc
++ __dispatch_main_q
++ _associated conformance 10Foundation15AttributeScopesO6SpeechE0D10AttributesV010ConfidenceB0VAA19AttributedStringKeyAD5ValueAaIP_SH
++ _associated conformance 10Foundation15AttributeScopesO6SpeechE0D10AttributesV010ConfidenceB0VAA28DecodableAttributedStringKeyAdA0hiJ0
++ _associated conformance 10Foundation15AttributeScopesO6SpeechE0D10AttributesV010ConfidenceB0VAA28EncodableAttributedStringKeyAdA0hiJ0
++ _associated conformance 10Foundation15AttributeScopesO6SpeechE0D10AttributesV09TimeRangeB0VAA19AttributedStringKeyAD5ValueAaIP_SH
++ _associated conformance 10Foundation15AttributeScopesO6SpeechE0D10AttributesV09TimeRangeB0VAA28DecodableAttributedStringKeyAdA0ijK0
++ _associated conformance 10Foundation15AttributeScopesO6SpeechE0D10AttributesV09TimeRangeB0VAA28EncodableAttributedStringKeyAdA0ijK0
++ _associated conformance 6Speech0A8DetectorC16DetectionOptionsVSHAASQ
++ _associated conformance 6Speech0A8DetectorC16SensitivityLevelOSHAASQ
++ _associated conformance 6Speech0A8DetectorC16SensitivityLevelOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 6Speech0A8DetectorCAA0A6ModuleAA6ResultAaDP_AA0acD0
++ _associated conformance 6Speech0A8DetectorCAA0A6ModuleAA7ResultsAaDP_Sci
++ _associated conformance 6Speech0A8DonationV23TranscriptionEvaluationV0D4CaseOSHAASQ
++ _associated conformance 6Speech0A8DonationV23TranscriptionEvaluationVSHAASQ
++ _associated conformance 6Speech10ClientInfoV07LoggingC0VSHAASQ
++ _associated conformance 6Speech10ClientInfoVSHAASQ
++ _associated conformance 6Speech11TranscriberC15ReportingOptionOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 6Speech11TranscriberC18MultisegmentResultVSHAASQ
++ _associated conformance 6Speech11TranscriberC19TranscriptionOptionOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 6Speech11TranscriberC6ResultVSHAASQ
++ _associated conformance 6Speech11TranscriberCAA0A6ModuleAA6ResultAaDP_AA0acD0
++ _associated conformance 6Speech11TranscriberCAA0A6ModuleAA7ResultsAaDP_Sci
++ _associated conformance 6Speech13EARResultTypeOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 6Speech13VoiceMeasurerCAA0A6ModuleAA6ResultAaDP_AA0adE0
++ _associated conformance 6Speech13VoiceMeasurerCAA0A6ModuleAA7ResultsAaDP_Sci
++ _associated conformance 6Speech14AudioAnalyticsV15AcousticFeatureVSHAASQ
++ _associated conformance 6Speech14AudioAnalyticsVSHAASQ
++ _associated conformance 6Speech15AnalysisOptionsV11LoggingInfoVSHAASQ
++ _associated conformance 6Speech15AnalysisOptionsV12PowerContextVSHAASQ
++ _associated conformance 6Speech15AnalysisOptionsV14ModelRetentionOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 6Speech15AssetsInventoryC11AssetStatusOSHAASQ
++ _associated conformance 6Speech15AssetsInventoryC9AssetTaskOSHAASQ
++ _associated conformance 6Speech15AssetsInventoryC9AssetTaskOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 6Speech16EndpointDetectorCAA0A6ModuleAA6ResultAaDP_AA0adE0
++ _associated conformance 6Speech16EndpointDetectorCAA0A6ModuleAA7ResultsAaDP_Sci
++ _associated conformance 6Speech16LanguageDetectorC17LocaleAlternativeVSHAASQ
++ _associated conformance 6Speech16LanguageDetectorCAA0A6ModuleAA6ResultAaDP_AA0adE0
++ _associated conformance 6Speech16LanguageDetectorCAA0A6ModuleAA7ResultsAaDP_Sci
++ _associated conformance 6Speech16PhoneticEmbedderC11InputFormatOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 6Speech16PhoneticEmbedderC13LoadingOptionOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 6Speech17CommandRecognizerC14InterpretationVSHAASQ
++ _associated conformance 6Speech17CommandRecognizerC8ArgumentV8PresenceOs12CaseIterableAA8AllCasessAHP_Sl
++ _associated conformance 6Speech17CommandRecognizerC8ArgumentVSHAASQ
++ _associated conformance 6Speech17CommandRecognizerC9ActiveSetVSHAASQ
++ _associated conformance 6Speech17CommandRecognizerCAA0A6ModuleAA6ResultAaDP_AA0adE0
++ _associated conformance 6Speech17CommandRecognizerCAA0A6ModuleAA7ResultsAaDP_Sci
++ _associated conformance 6Speech17IndexedCollectionVyxGSKAASKRzrl11SubSequenceSl_SK
++ _associated conformance 6Speech17IndexedCollectionVyxGSKAASKRzrl7IndicesSl_SK
++ _associated conformance 6Speech17IndexedCollectionVyxGSKAASKRzrlSl
++ _associated conformance 6Speech17IndexedCollectionVyxGSTAA8IteratorST_St
++ _associated conformance 6Speech17IndexedCollectionVyxGSkAASkRzrl11SubSequenceSl_Sk
++ _associated conformance 6Speech17IndexedCollectionVyxGSkAASkRzrl7IndicesSl_Sk
++ _associated conformance 6Speech17IndexedCollectionVyxGSkAASkRzrlSK
++ _associated conformance 6Speech17IndexedCollectionVyxGSlAA11SubSequenceSl_Sl
++ _associated conformance 6Speech17IndexedCollectionVyxGSlAA5IndexSl_SL
++ _associated conformance 6Speech17IndexedCollectionVyxGSlAA7IndicesSl_Sl
++ _associated conformance 6Speech17IndexedCollectionVyxGSlAAST
++ _associated conformance 6Speech17IndexedCollectionVyxGs04LazyC8ProtocolAAs0d8SequenceE0Rzrl8ElementssAFP_Sl
++ _associated conformance 6Speech17IndexedCollectionVyxGs04LazyC8ProtocolAAs0d8SequenceE0RzrlSl
++ _associated conformance 6Speech17IndexedCollectionVyxGs04LazyC8ProtocolAAs0d8SequenceE0RzrlsAF
++ _associated conformance 6Speech17IndexedCollectionVyxGs20LazySequenceProtocolAAsAERzrl8ElementssAEP_ST
++ _associated conformance 6Speech17IndexedCollectionVyxGs20LazySequenceProtocolAAsAERzrlST
++ _associated conformance 6Speech18TimeRangeAttributeV10Foundation28DecodableAttributedStringKeyAaD0ghI0
++ _associated conformance 6Speech18TimeRangeAttributeV10Foundation28EncodableAttributedStringKeyAaD0ghI0
++ _associated conformance 6Speech18TranscriptionTokenVSHAASQ
++ _associated conformance 6Speech19ChunkedByCollectionV5IndexVyxq__GSHAASHADRpzrlSQ
++ _associated conformance 6Speech19ChunkedByCollectionV5IndexVyxq__GSLAASQ
++ _associated conformance 6Speech19ChunkedByCollectionVyxq_GSKAASKRzrl11SubSequenceSl_SK
++ _associated conformance 6Speech19ChunkedByCollectionVyxq_GSKAASKRzrl7IndicesSl_SK
++ _associated conformance 6Speech19ChunkedByCollectionVyxq_GSKAASKRzrlSl
++ _associated conformance 6Speech19ChunkedByCollectionVyxq_GSTAA8IteratorST_St
++ _associated conformance 6Speech19ChunkedByCollectionVyxq_GSlAA11SubSequenceSl_Sl
++ _associated conformance 6Speech19ChunkedByCollectionVyxq_GSlAA5IndexSl_SL
++ _associated conformance 6Speech19ChunkedByCollectionVyxq_GSlAA7IndicesSl_Sl
++ _associated conformance 6Speech19ChunkedByCollectionVyxq_GSlAAST
++ _associated conformance 6Speech19ChunkedByCollectionVyxq_Gs04LazyD8ProtocolAA8Elementss0e8SequenceF0P_Sl
++ _associated conformance 6Speech19ChunkedByCollectionVyxq_Gs04LazyD8ProtocolAASl
++ _associated conformance 6Speech19ChunkedByCollectionVyxq_Gs04LazyD8ProtocolAAs0e8SequenceF0
++ _associated conformance 6Speech19ChunkedByCollectionVyxq_Gs20LazySequenceProtocolAA8ElementssAEP_ST
++ _associated conformance 6Speech19ChunkedByCollectionVyxq_Gs20LazySequenceProtocolAAST
++ _associated conformance 6Speech19ChunkedOnCollectionVyxq_GSKAASKRzrl11SubSequenceSl_SK
++ _associated conformance 6Speech19ChunkedOnCollectionVyxq_GSKAASKRzrl7IndicesSl_SK
++ _associated conformance 6Speech19ChunkedOnCollectionVyxq_GSKAASKRzrlSl
++ _associated conformance 6Speech19ChunkedOnCollectionVyxq_GSTAA8IteratorST_St
++ _associated conformance 6Speech19ChunkedOnCollectionVyxq_GSlAA11SubSequenceSl_Sl
++ _associated conformance 6Speech19ChunkedOnCollectionVyxq_GSlAA5IndexSl_SL
++ _associated conformance 6Speech19ChunkedOnCollectionVyxq_GSlAA7IndicesSl_Sl
++ _associated conformance 6Speech19ChunkedOnCollectionVyxq_GSlAAST
++ _associated conformance 6Speech19ChunkedOnCollectionVyxq_Gs04LazyD8ProtocolAA8Elementss0e8SequenceF0P_Sl
++ _associated conformance 6Speech19ChunkedOnCollectionVyxq_Gs04LazyD8ProtocolAASl
++ _associated conformance 6Speech19ChunkedOnCollectionVyxq_Gs04LazyD8ProtocolAAs0e8SequenceF0
++ _associated conformance 6Speech19ChunkedOnCollectionVyxq_Gs20LazySequenceProtocolAA8ElementssAEP_ST
++ _associated conformance 6Speech19ChunkedOnCollectionVyxq_Gs20LazySequenceProtocolAAST
++ _associated conformance 6Speech19ConfidenceAttributeV10Foundation28DecodableAttributedStringKeyAaD0fgH0
++ _associated conformance 6Speech19ConfidenceAttributeV10Foundation28EncodableAttributedStringKeyAaD0fgH0
++ _associated conformance 6Speech19PhoneticTranscriberC15ReportingOptionOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 6Speech19PhoneticTranscriberC19TranscriptionFormatOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 6Speech19PhoneticTranscriberCAA0A6ModuleAA6ResultAaDP_AA0adE0
++ _associated conformance 6Speech19PhoneticTranscriberCAA0A6ModuleAA7ResultsAaDP_Sci
++ _associated conformance 6Speech19VoiceCommandContextVSHAASQ
++ _associated conformance 6Speech20EARLocaleAlternativeVSHAASQ
++ _associated conformance 6Speech20TranscriptionSegmentVSHAASQ
++ _associated conformance 6Speech21ContextualNamedEntityV15SourceFrameworkOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 6Speech21ContextualNamedEntityVSHAASQ
++ _associated conformance 6Speech23ChunksOfCountCollectionV5IndexVyx_GSHAASHADRpzrlSQ
++ _associated conformance 6Speech23ChunksOfCountCollectionV5IndexVyx_GSLAASQ
++ _associated conformance 6Speech23ChunksOfCountCollectionVyxGSKAASkRzrl11SubSequenceSl_SK
++ _associated conformance 6Speech23ChunksOfCountCollectionVyxGSKAASkRzrl7IndicesSl_SK
++ _associated conformance 6Speech23ChunksOfCountCollectionVyxGSKAASkRzrlSl
++ _associated conformance 6Speech23ChunksOfCountCollectionVyxGSTAA8IteratorST_St
++ _associated conformance 6Speech23ChunksOfCountCollectionVyxGSkAASkRzrl11SubSequenceSl_Sk
++ _associated conformance 6Speech23ChunksOfCountCollectionVyxGSkAASkRzrl7IndicesSl_Sk
++ _associated conformance 6Speech23ChunksOfCountCollectionVyxGSkAASkRzrlSK
++ _associated conformance 6Speech23ChunksOfCountCollectionVyxGSlAA11SubSequenceSl_Sl
++ _associated conformance 6Speech23ChunksOfCountCollectionVyxGSlAA5IndexSl_SL
++ _associated conformance 6Speech23ChunksOfCountCollectionVyxGSlAA7IndicesSl_Sl
++ _associated conformance 6Speech23ChunksOfCountCollectionVyxGSlAAST
++ _associated conformance 6Speech23ChunksOfCountCollectionVyxGs04LazyE8ProtocolAAsAERzrl8Elementss0f8SequenceG0P_Sl
++ _associated conformance 6Speech23ChunksOfCountCollectionVyxGs04LazyE8ProtocolAAsAERzrlSl
++ _associated conformance 6Speech23ChunksOfCountCollectionVyxGs04LazyE8ProtocolAAsAERzrls0f8SequenceG0
++ _associated conformance 6Speech23ChunksOfCountCollectionVyxGs20LazySequenceProtocolAAsAERzrl8ElementssAEP_ST
++ _associated conformance 6Speech23ChunksOfCountCollectionVyxGs20LazySequenceProtocolAAsAERzrlST
++ _associated conformance 6Speech23EARFullPayloadCorrectorC11Distributed0E5ActorAA0F6SystemAdEP_AD0efG0
++ _associated conformance 6Speech23EARFullPayloadCorrectorC11Distributed0E5ActorAASH
++ _associated conformance 6Speech23EARFullPayloadCorrectorC11Distributed0E5ActorAAs12Identifiable
++ _associated conformance 6Speech23EARFullPayloadCorrectorCSHAASQ
++ _associated conformance 6Speech23EARFullPayloadCorrectorCs12IdentifiableAA2IDsADP_SH
++ _associated conformance 6Speech23EvenlyChunkedCollectionV5IndexVyx_GSHAASHADRpzrlSQ
++ _associated conformance 6Speech23EvenlyChunkedCollectionV5IndexVyx_GSLAASQ
++ _associated conformance 6Speech23EvenlyChunkedCollectionVyxGSKAASKRzrl11SubSequenceSl_SK
++ _associated conformance 6Speech23EvenlyChunkedCollectionVyxGSKAASKRzrl7IndicesSl_SK
++ _associated conformance 6Speech23EvenlyChunkedCollectionVyxGSKAASKRzrlSl
++ _associated conformance 6Speech23EvenlyChunkedCollectionVyxGSTAA8IteratorST_St
++ _associated conformance 6Speech23EvenlyChunkedCollectionVyxGSkAASkRzrl11SubSequenceSl_Sk
++ _associated conformance 6Speech23EvenlyChunkedCollectionVyxGSkAASkRzrl7IndicesSl_Sk
++ _associated conformance 6Speech23EvenlyChunkedCollectionVyxGSkAASkRzrlSK
++ _associated conformance 6Speech23EvenlyChunkedCollectionVyxGSlAA11SubSequenceSl_Sl
++ _associated conformance 6Speech23EvenlyChunkedCollectionVyxGSlAA5IndexSl_SL
++ _associated conformance 6Speech23EvenlyChunkedCollectionVyxGSlAA7IndicesSl_Sl
++ _associated conformance 6Speech23EvenlyChunkedCollectionVyxGSlAAST
++ _associated conformance 6Speech23EvenlyChunkedCollectionVyxGs04LazyD8ProtocolAAsAERzrl8Elementss0e8SequenceF0P_Sl
++ _associated conformance 6Speech23EvenlyChunkedCollectionVyxGs04LazyD8ProtocolAAsAERzrlSl
++ _associated conformance 6Speech23EvenlyChunkedCollectionVyxGs04LazyD8ProtocolAAsAERzrls0e8SequenceF0
++ _associated conformance 6Speech23EvenlyChunkedCollectionVyxGs20LazySequenceProtocolAAsAERzrl8ElementssAEP_ST
++ _associated conformance 6Speech23EvenlyChunkedCollectionVyxGs20LazySequenceProtocolAAsAERzrlST
++ _associated conformance 6Speech23LanguageDetectorOptionsVSHAASQ
++ _associated conformance 6Speech25EARTranscriptionEvaluatorC11Distributed0D5ActorAA0E6SystemAdEP_AD0deF0
++ _associated conformance 6Speech25EARTranscriptionEvaluatorC11Distributed0D5ActorAASH
++ _associated conformance 6Speech25EARTranscriptionEvaluatorC11Distributed0D5ActorAAs12Identifiable
++ _associated conformance 6Speech25EARTranscriptionEvaluatorCSHAASQ
++ _associated conformance 6Speech25EARTranscriptionEvaluatorCs12IdentifiableAA2IDsADP_SH
++ _associated conformance 6Speech27ContextualNamedEntitySourceVSHAASQ
++ _associated conformance 6Speech29ContextualRankedContactSourceVSHAASQ
++ _associated conformance 6Speech34TranscriptionResultAttributeOptionOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 6Speech35TranscriptionLatticeMitigatorResultVSHAASQ
++ _associated conformance 6Speech8TaskHintOs12CaseIterableAA8AllCasessADP_Sl
++ _dispatch_async_f
++ _flat unique So44SFSpeechAnalyzerSpeechDetectorResultDelegate_p
++ _get_ANEDeviceInfoClass
++ _kSFDefaultDataSiteName
++ _kSFUserSpecificDataSiteName
++ _objc_msgSend$_dealloc
++ _objc_msgSend$_endModelRetentionWithCompletion:
++ _objc_msgSend$allSpeechProfileContainersForSharedUserInfos:
++ _objc_msgSend$assetPathFromStatus:
++ _objc_msgSend$endpointDetectionOptions
++ _objc_msgSend$generalASRLanguageForLocaleIdentifier:
++ _objc_msgSend$hasANE
++ _objc_msgSend$initWithBuilder:
++ _objc_msgSend$initWithHighPriority:modelRetention:loggingInfo:powerContext:
++ _objc_msgSend$initWithSupplementalModelURL:farField:geoLMRegionID:modelOverrideURL:speechProfileURLs:taskForMemoryLock:atypicalSpeech:enableParallelLoading:
++ _objc_msgSend$isANETypeAtLeastVersion:prefix:
++ _objc_msgSend$pathToAssetWithConfig:clientID:asyncCompletion:
++ _objc_msgSend$setPersonaId:
++ _objc_msgSend$speechDetectionOptions
++ _objc_msgSend$speechProfilePathsForLanguage:
++ _objc_msgSend$speechProfilePathsForLanguage:speechProfileContainers:
++ _objc_msgSend$speechProfilePathsForLanguage:userType:
++ _objc_msgSend$speechProfileRootDirectoriesWithUserType:
++ _objc_msgSend$unsubscribeFromAssetWithConfig:clientID:asyncCompletion:
++ _objc_msgSend$userSpecificSpeechProfileContainersForSharedUserInfos:
++ _objc_unsafeClaimAutoreleasedReturnValue
++ _pthread_main_np
++ _swift_asyncLet_begin
++ _swift_asyncLet_finish
++ _swift_asyncLet_get
++ _swift_getKeyPath
++ _swift_runtimeSupportsNoncopyableTypes
++ _symbolic $s6Speech017TranscriberBackedA6ModuleP
++ _symbolic $s6Speech08InternalA6ModuleP
++ _symbolic $s6Speech0A12ModuleResultP
++ _symbolic $s6Speech0A6ModuleP
++ _symbolic $ss12CaseIterableP
++ _symbolic 11SubSequenceSlQz
++ _symbolic 5IndexSlQz5index_7ElementSTQz7elementt
++ _symbolic 6Result_____Qz 6Speech0A6ModuleP
++ _symbolic 7IndicesSlQz
++ _symbolic 7Results_____Qz 6Speech0A6ModuleP
++ _symbolic 7Results______7ElementSciQZ 6Speech0A6ModuleP
++ _symbolic 7Results______7FailureSciQZ 6Speech0A6ModuleP
++ _symbolic IeyB_Sg
++ _symbolic SDyS2SGSgm
++ _symbolic SDy_____SaySSGG 6Speech15AnalysisContextC20ContextualStringsTagV
++ _symbolic SDy_____ypG 6Speech15AnalysisContextC11UserDataTagV
++ _symbolic SIy_____yxGG 6Speech23ChunksOfCountCollectionV
++ _symbolic SIy_____yxGG 6Speech23EvenlyChunkedCollectionV
++ _symbolic SIy_____yxq_GG 6Speech19ChunkedByCollectionV
++ _symbolic SIy_____yxq_GG 6Speech19ChunkedOnCollectionV
++ _symbolic SSSDyS2SGSg_____So30EARFullPayloadCorrectionResultC______pIetMHgTgTgozo_ 6Speech23EARFullPayloadCorrectorC s5ErrorP
++ _symbolic SS_____Sb______pIetMHgTgdzo_ 6Speech05LocalA18RecognitionServiceC s5ErrorP
++ _symbolic SaySDySSSaySSGGG
++ _symbolic SaySDySSSaySSGGGS2S_____SSSg_____Sb______pIetMHgTgTgTnTgTgdzo_ 10Foundation4UUIDV 6Speech25EARTranscriptionEvaluatorC s5ErrorP
++ _symbolic SaySDySSSaySSGGGm
++ _symbolic SaySaySdGG
++ _symbolic SaySo21SFEntitledAssetConfigCG
++ _symbolic Say_____G 6Speech0A8DetectorC16SensitivityLevelO
++ _symbolic Say_____G 6Speech11TranscriberC15ReportingOptionO
++ _symbolic Say_____G 6Speech13EARResultTypeO
++ _symbolic Say_____G 6Speech15AnalysisOptionsV14ModelRetentionO
++ _symbolic Say_____G 6Speech15AssetsInventoryC9AssetTaskO
++ _symbolic Say_____G 6Speech16PhoneticEmbedderC11InputFormatO
++ _symbolic Say_____G 6Speech16PhoneticEmbedderC13LoadingOptionO
++ _symbolic Say_____G 6Speech17CommandRecognizerC8ArgumentV8PresenceO
++ _symbolic Say_____G 6Speech19PhoneticTranscriberC15ReportingOptionO
++ _symbolic Say_____G 6Speech19PhoneticTranscriberC19TranscriptionFormatO
++ _symbolic Say_____G 6Speech21ContextualNamedEntityV15SourceFrameworkO
++ _symbolic Say_____G 6Speech34TranscriptionResultAttributeOptionO
++ _symbolic Say_____G 6Speech8TaskHintO
++ _symbolic Say______pG 6Speech08InternalA6ModuleP
++ _symbolic Say______pGSg 6Speech0A6ModuleP
++ _symbolic Say______pSgycG 6Speech22EARXPCRegistryDelegateP
++ _symbolic Sbq__q_tc
++ _symbolic ScCySo30EARFullPayloadCorrectionResultC______pG s5ErrorP
++ _symbolic ScCy___________pG 6Speech23EARFullPayloadCorrectorC s5ErrorP
++ _symbolic ScCy___________pG 6Speech25EARTranscriptionEvaluatorC s5ErrorP
++ _symbolic SccySSSg_____G s5NeverO
++ _symbolic SccySaySSG_____G s5NeverO
++ _symbolic SccyShySSG_____G s5NeverO
++ _symbolic Sccyyt______pG s5ErrorP
++ _symbolic Sny5IndexSlQzG
++ _symbolic So12NSDictionaryCSgSo7NSErrorCSgIeyByy_Sg
++ _symbolic So16SFSpeechAnalyzerCXMo
++ _symbolic So21SFEntitledAssetConfigCSbSS_____SgSb________________pIetMHgTyTgTnTyTgozo_ 10Foundation3URLV 6Speech05LocalC18RecognitionServiceC AD9LSRAssetsC s5ErrorP
++ _symbolic So21SFEntitledAssetConfigCm
++ _symbolic So22SFSpeechDetectorResultC
++ _symbolic So34SFSpeechAnalyzerTranscriberOptionsC
++ _symbolic So37SFSpeechAnalyzerSpeechDetectorOptionsCSg
++ _symbolic So5NSSetCSgSo7NSErrorCSgIeyByy_Sg
++ _symbolic So7NSErrorCSgIeyBy_Sg
++ _symbolic So8BMSourceCySo25BMASRRequestMetricsRecordCGSg
++ _symbolic So8NSStringC
++ _symbolic So8NSStringCSgSo7NSErrorCSgIeyByy_Sg
++ _symbolic _____ 10Foundation15AttributeScopesO6SpeechE0D10AttributesV010ConfidenceB0V
++ _symbolic _____ 10Foundation15AttributeScopesO6SpeechE0D10AttributesV09TimeRangeB0V
++ _symbolic _____ 10Foundation22AttributeDynamicLookupO
++ _symbolic _____ 6Speech0A6ModelsO
++ _symbolic _____ 6Speech0A8DetectorC16DetectionOptionsV
++ _symbolic _____ 6Speech0A8DetectorC16SensitivityLevelO
++ _symbolic _____ 6Speech14EARXPCRegistryC
++ _symbolic _____ 6Speech15AssetsInventoryC11AssetStatusO
++ _symbolic _____ 6Speech15AssetsInventoryC9AssetTaskO
++ _symbolic _____ 6Speech17IndexedCollectionV
++ _symbolic _____ 6Speech18ObjCSpeechAnalyzerC19setUpOutputWrappers33_8857AB449320DF71AE3DAA5E149DC512LL03objcD06config25transcriberResultDelegate011endpointingrS0016languageDetectorrS006speechvrS0ySo08SFSpeechD0C_AA0bcD13ConfigurationCSo0xd11TranscriberrS0_pSgSo0xd11EndpointingrS0_pSgSo0xd8LanguagevrS0_pSgSo0xdavrS0_pSgtFZ011Endpointingg7WrapperS7AdapterL_V
++ _symbolic _____ 6Speech18ObjCSpeechAnalyzerC19setUpOutputWrappers33_8857AB449320DF71AE3DAA5E149DC512LL03objcD06config25transcriberResultDelegate011endpointingrS0016languageDetectorrS006speechvrS0ySo08SFSpeechD0C_AA0bcD13ConfigurationCSo0xd11TranscriberrS0_pSgSo0xd11EndpointingrS0_pSgSo0xd8LanguagevrS0_pSgSo0xdavrS0_pSgtFZ08Languagevg7WrapperS7AdapterL_V
++ _symbolic _____ 6Speech18ObjCSpeechAnalyzerC19setUpOutputWrappers33_8857AB449320DF71AE3DAA5E149DC512LL03objcD06config25transcriberResultDelegate011endpointingrS0016languageDetectorrS006speechvrS0ySo08SFSpeechD0C_AA0bcD13ConfigurationCSo0xd11TranscriberrS0_pSgSo0xd11EndpointingrS0_pSgSo0xd8LanguagevrS0_pSgSo0xdavrS0_pSgtFZ0avg7WrapperS7AdapterL_V
++ _symbolic _____ 6Speech18ObjCSpeechAnalyzerC19setUpOutputWrappers33_8857AB449320DF71AE3DAA5E149DC512LL03objcD06config25transcriberResultDelegate011endpointingrS0016languageDetectorrS006speechvrS0ySo08SFSpeechD0C_AA0bcD13ConfigurationCSo0xd11TranscriberrS0_pSgSo0xd11EndpointingrS0_pSgSo0xd8LanguagevrS0_pSgSo0xdavrS0_pSgtFZ0zg7WrapperS7AdapterL_V
++ _symbolic _____ 6Speech19ChunkedByCollectionV
++ _symbolic _____ 6Speech19ChunkedByCollectionV5IndexV
++ _symbolic _____ 6Speech19ChunkedOnCollectionV
++ _symbolic _____ 6Speech20FullPayloadCorrectorC
++ _symbolic _____ 6Speech22TranscriptionEvaluatorC
++ _symbolic _____ 6Speech23ChunksOfCountCollectionV
++ _symbolic _____ 6Speech23ChunksOfCountCollectionV5IndexV
++ _symbolic _____ 6Speech23EARFullPayloadCorrectorC
++ _symbolic _____ 6Speech23EvenlyChunkedCollectionV
++ _symbolic _____ 6Speech23EvenlyChunkedCollectionV5IndexV
++ _symbolic _____ 6Speech25AssetsInstallationRequestC
++ _symbolic _____ 6Speech25EARTranscriptionEvaluatorC
++ _symbolic _____ 6Speech25FullPayloadCorrectorActor33_62876FE84B3142C220F84970CC8D7F00LLC
++ _symbolic _____5lower_AA5uppert 10Foundation16AttributedStringV5IndexV
++ _symbolic _____6locale______6statust 10Foundation6LocaleV 6Speech15AssetsInventoryC11AssetStatusO
++ _symbolic _____IeyBy_Sg So6CMTimea
++ _symbolic _____S2bIegnyy_Sg So11CMTimeRangea
++ _symbolic _____SS________________pIetMHnTgTgozo_ 10Foundation6LocaleV 6Speech05LocalC18RecognitionServiceC AD23EARFullPayloadCorrectorC s5ErrorP
++ _symbolic _____Sg 10Foundation16AttributedStringV4RunsV3RunV
++ _symbolic _____Sg 10Foundation16AttributedStringV5IndexV
++ _symbolic _____Sg 10Foundation6LocaleV6ScriptV
++ _symbolic _____Sg 6Speech0A8DetectorC
++ _symbolic _____Sg 6Speech0A8DetectorC16DetectionOptionsV
++ _symbolic _____Sg 6Speech0A8DetectorC16SensitivityLevelO
++ _symbolic _____Sg6worker_Sb27hasModuleLockedWorkerBeforet 6Speech0A16RecognizerWorkerC
++ _symbolic _____Sg6worker_Sb27hasModuleLockedWorkerBeforet 6Speech22LanguageDetectorWorkerC
++ _symbolic _____SgIeyBy_ 6Speech25AssetsInstallationRequestC
++ _symbolic _____Sg_ABt 10Foundation6LocaleV12LanguageCodeV
++ _symbolic _____Sg_ABt 10Foundation6LocaleV6RegionV
++ _symbolic _____Sg_Sny_____Gt So11CMTimeRangea 10Foundation16AttributedStringV5IndexV
++ _symbolic _____Sg_Sny_____GtSg So11CMTimeRangea 10Foundation16AttributedStringV5IndexV
++ _symbolic _____Sg___________Sgt 10Foundation6LocaleV12LanguageCodeV AC6ScriptV AC6RegionV
++ _symbolic _____XMo 6Speech18ObjCSpeechAnalyzerC
++ _symbolic __________ABIeyByyy_ So11CMTimeRangea 10ObjectiveC8ObjCBoolV
++ _symbolic __________ABIeyByyy_Sg So11CMTimeRangea 10ObjectiveC8ObjCBoolV
++ _symbolic ________________pIetMHgozo_ 6Speech05LocalA18RecognitionServiceC AA25EARTranscriptionEvaluatorC s5ErrorP
++ _symbolic ___________pIetMHgzo_ 6Speech23EARFullPayloadCorrectorC s5ErrorP
++ _symbolic ___________pIetMHgzo_ 6Speech25EARTranscriptionEvaluatorC s5ErrorP
++ _symbolic ______p 6Speech017TranscriberBackedA6ModuleP
++ _symbolic ______p 6Speech08InternalA6ModuleP
++ _symbolic ______p 6Speech0A6ModuleP
++ _symbolic ______pSay_____ySo13AVAudioFormatCGGIegHgo_ 6Speech08InternalA6ModuleP AA13KnownSendableV
++ _symbolic ______pSay_____ySo13AVAudioFormatCGGSg______pIeghHnrzo_ 6Speech08InternalA6ModuleP AA13KnownSendableV s5ErrorP
++ _symbolic ______pSg So44SFSpeechAnalyzerSpeechDetectorResultDelegateP
++ _symbolic ______pSgXw So44SFSpeechAnalyzerSpeechDetectorResultDelegateP
++ _symbolic _____m 10Foundation4UUIDV
++ _symbolic _____ySDyS2SGSgG 11Distributed18RemoteCallArgumentV
++ _symbolic _____ySDy_____SaySSGGG 15Synchronization5MutexVAARi_zrlE 6Speech15AnalysisContextC20ContextualStringsTagV
++ _symbolic _____ySDy_____ypGG 15Synchronization5MutexVAARi_zrlE 6Speech15AnalysisContextC11UserDataTagV
++ _symbolic _____ySSSgG 15Synchronization5MutexVAARi_zrlE
++ _symbolic _____ySaySDySSSaySSGGGG 11Distributed18RemoteCallArgumentV
++ _symbolic _____ySaySaySo25EARSpeechRecognitionTokenCGGG s10ArraySliceV
++ _symbolic _____ySay______pSgyYbcGG 15Synchronization5MutexVAARi_zrlE 6Speech15ContextDelegateP
++ _symbolic _____ySay______pSgycGG 15Synchronization5MutexVAARi_zrlE 6Speech22EARXPCRegistryDelegateP
++ _symbolic _____ySb______pG s6ResultOsRi_zrlE s5ErrorP
++ _symbolic _____yScsy___________pGSo22SFSpeechDetectorResultCG s16AsyncMapSequenceV 6Speech0D8DetectorC6ResultV s5ErrorP
++ _symbolic _____yScsy___________pGSo22SFSpeechDetectorResultC_G s16AsyncMapSequenceV8IteratorV 6Speech0E8DetectorC6ResultV s5ErrorP
++ _symbolic _____ySo21SFEntitledAssetConfigCG 11Distributed18RemoteCallArgumentV
++ _symbolic _____y_____6locale______6statustG s23_ContiguousArrayStorageC 10Foundation6LocaleV 6Speech15AssetsInventoryC11AssetStatusO
++ _symbolic _____y_____G 11Distributed18RemoteCallArgumentV 10Foundation4UUIDV
++ _symbolic _____y_____G 6Speech23InvalidatingRemoteActorC AA23EARFullPayloadCorrectorC
++ _symbolic _____y_____G 6Speech23InvalidatingRemoteActorC AA25EARTranscriptionEvaluatorC
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 6Speech11TranscriberC6ResultV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 6Speech34TranscriptionResultAttributeOptionO
++ _symbolic _____y_____GSg 6Speech23InvalidatingRemoteActorC AA23EARFullPayloadCorrectorC
++ _symbolic _____y_____GSg 6Speech23InvalidatingRemoteActorC AA25EARTranscriptionEvaluatorC
++ _symbolic _____y_____Sg6worker_Sb27hasModuleLockedWorkerBeforetG 15Synchronization5MutexVAARi_zrlE 6Speech0C16RecognizerWorkerC
++ _symbolic _____y_____Sg6worker_Sb27hasModuleLockedWorkerBeforetG 15Synchronization5MutexVAARi_zrlE 6Speech22LanguageDetectorWorkerC
++ _symbolic _____y_____SgG 15Synchronization5MutexVAARi_zrlE 10Foundation6LocaleV
++ _symbolic _____y_____SgG 15Synchronization5MutexVAARi_zrlE 6Speech11TranscriberC18MultisegmentResultV
++ _symbolic _____y_____SgG 15Synchronization5_CellVAARi_zrlE 10Foundation6LocaleV
++ _symbolic _____y_______G 10Foundation16AttributedStringV4RunsV16AttributesSlice1V AA15AttributeScopesO6SpeechE0iE0V09TimeRangeG0V
++ _symbolic _____y________G 10Foundation16AttributedStringV4RunsV16AttributesSlice1V8IteratorV AA15AttributeScopesO6SpeechE0jE0V09TimeRangeH0V
++ _symbolic _____y__________G s7KeyPathC 10Foundation15AttributeScopesO6SpeechE0F10AttributesV AF010ConfidenceD0V
++ _symbolic _____y__________G s7KeyPathC 10Foundation15AttributeScopesO6SpeechE0F10AttributesV AF09TimeRangeD0V
++ _symbolic _____y__________G s7KeyPathC 10Foundation15AttributeScopesO6SpeechE0F10AttributesV AH010ConfidenceD0V
++ _symbolic _____y__________G s7KeyPathC 10Foundation15AttributeScopesO6SpeechE0F10AttributesV AH09TimeRangeD0V
++ _symbolic _____y___________p_G Scs12ContinuationV 6Speech0B8DetectorC6ResultV s5ErrorP
++ _symbolic _____y___________p_GSg Scs12ContinuationV 6Speech0B8DetectorC6ResultV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 6Speech0D8DetectorC6ResultV s5ErrorP
++ _symbolic _____y______pG 6Speech0A23AnalyzerClientInterfaceC So08SFSpeechbA22DetectorResultDelegateP
++ _symbolic _____y______pG s20CollectionDifferenceV 6Speech08InternalC6ModuleP
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 6Speech017TranscriberBackedD6ModuleP
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 6Speech08InternalD6ModuleP
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 6Speech0D6ModuleP
++ _symbolic _____y______pSgycG s23_ContiguousArrayStorageC 6Speech22EARXPCRegistryDelegateP
++ _symbolic _____y_____ySaySaySo25EARSpeechRecognitionTokenCGGGG s23_ContiguousArrayStorageC s0B5SliceV
++ _symbolic _____y_____y_____GSay______pGG s17_NativeDictionaryV 6Speech13KnownSendableV s11AnyHashableV AC08InternalC6ModuleP
++ _symbolic _____y_____yxGG s16IndexingIteratorV 6Speech17IndexedCollectionV
++ _symbolic _____y_____yxGG s16IndexingIteratorV 6Speech23ChunksOfCountCollectionV
++ _symbolic _____y_____yxGG s16IndexingIteratorV 6Speech23EvenlyChunkedCollectionV
++ _symbolic _____y_____yxGG s5SliceV 6Speech17IndexedCollectionV
++ _symbolic _____y_____yxGG s5SliceV 6Speech23ChunksOfCountCollectionV
++ _symbolic _____y_____yxGG s5SliceV 6Speech23EvenlyChunkedCollectionV
++ _symbolic _____y_____yxq_GG s16IndexingIteratorV 6Speech19ChunkedByCollectionV
++ _symbolic _____y_____yxq_GG s16IndexingIteratorV 6Speech19ChunkedOnCollectionV
++ _symbolic _____y_____yxq_GG s5SliceV 6Speech19ChunkedByCollectionV
++ _symbolic _____y_____yxq_GG s5SliceV 6Speech19ChunkedOnCollectionV
++ _symbolic _____yxG 6Speech17IndexedCollectionV
++ _symbolic _____yxG 6Speech23ChunksOfCountCollectionV
++ _symbolic _____yxG 6Speech23EvenlyChunkedCollectionV
++ _symbolic _____yx_G 6Speech23ChunksOfCountCollectionV5IndexV
++ _symbolic _____yx_G 6Speech23EvenlyChunkedCollectionV5IndexV
++ _symbolic _____yxq_G 6Speech19ChunkedByCollectionV
++ _symbolic _____yxq_G 6Speech19ChunkedOnCollectionV
++ _symbolic _____yxq__G 6Speech19ChunkedByCollectionV5IndexV
++ _symbolic q__11SubSequenceSlQzt
++ _symbolic xSgXwz_______p______yScsy___________pGSo19SFEndpointingResultCG_____8Delegate_____Qyd_0_RszSciRd_______Rd_0_0B0ALQyd_0_7ElementSciRtd__r_0_lXX So41SFSpeechAnalyzerEndpointingResultDelegateP s16AsyncMapSequenceV 6Speech16EndpointDetectorC12ModuleOutputV s5ErrorP AE010ObjCSpeechB0C05setUpM8Wrappers33_8857AB449320DF71AE3DAA5E149DC512LL03objpB06config011transcriberdE0011endpointingdE008languagekdE006speechkdE0ySo0aB0C_AE0opB13ConfigurationCSo0ab11TranscriberdE0_pSgSoAA_pSgSo0ab8LanguagekdE0_pSgSo0abikdE0_pSgtFZ0cm7WrapperE7AdapterL_V AE0m7WrapperE7AdapterP A8_
++ _symbolic xSgXwz_______p______yScsy___________pGSo22SFSpeechDetectorResultCG_____8Delegate_____Qyd_0_RszSciRd_______Rd_0_0C0ALQyd_0_7ElementSciRtd__r_0_lXX So44SFSpeechAnalyzerSpeechDetectorResultDelegateP s16AsyncMapSequenceV 0C00cD0C0E0V s5ErrorP AE010ObjCSpeechB0C19setUpOutputWrappers33_8857AB449320DF71AE3DAA5E149DC512LL03objlB06config011transcribereF0011endpointingeF008languagedeF006speechdeF0ySo0aB0C_AE0klB13ConfigurationCSo0ab11TranscribereF0_pSgSo0ab11EndpointingeF0_pSgSo0ab8LanguagedeF0_pSgSoAA_pSgtFZ0cdo7WrapperF7AdapterL_V AE0o7WrapperF7AdapterP A8_
++ _symbolic xSgXwz_______p______yScsy___________pGSo24SFLanguageDetectorResultCG_____8Delegate_____Qyd_0_RszSciRd_______Rd_0_0C0ALQyd_0_7ElementSciRtd__r_0_lXX So46SFSpeechAnalyzerLanguageDetectorResultDelegateP s16AsyncMapSequenceV 6Speech0cD0C0E0V s5ErrorP AE010ObjCSpeechB0C19setUpOutputWrappers33_8857AB449320DF71AE3DAA5E149DC512LL03objmB06config011transcribereF0011endpointingeF008languagedeF006speechdeF0ySo0aB0C_AE0lmB13ConfigurationCSo0ab11TranscribereF0_pSgSo0ab11EndpointingeF0_pSgSoAA_pSgSo0abjdeF0_pSgtFZ0cdp7WrapperF7AdapterL_V AE0p7WrapperF7AdapterP A8_
++ _symbolic xSgXwz_______p______y_____yScsy___________pGAGGSo19SFTranscriberResultCG_____8Delegate_____Qyd_0_RszSciRd_______Rd_0_0B0ANQyd_0_7ElementSciRtd__r_0_lXX So41SFSpeechAnalyzerTranscriberResultDelegateP s16AsyncMapSequenceV 6Speech0f4Zip2H0V AE0C0C012MultisegmentD0V s5ErrorP AE010ObjCSpeechB0C19setUpOutputWrappers33_8857AB449320DF71AE3DAA5E149DC512LL03objnB06config011transcriberdE0011endpointingdE0016languageDetectordE0014speechDetectordE0ySo0aB0C_AE0mnB13ConfigurationCSoAA_pSgSo0ab11EndpointingdE0_pSgSo0ab16LanguageDetectordE0_pSgSo0abi8DetectordE0_pSgtFZ0cq7WrapperE7AdapterL_V AE0q7WrapperE7AdapterP A10_
++ _symbolic y______S2btcSg So11CMTimeRangea
++ _symbolic y_____cSg So11CMTimeRangea
++ _xpcInterface_EARFullPayloadCorrector
++ _xpcInterface_EARTranscriptionEvaluator
++ aneSubType.aneSubType
++ aneSubType.onceToken
++ block_copy_helper.1
++ block_copy_helper.107
++ block_copy_helper.112
++ block_copy_helper.113
++ block_copy_helper.120
++ block_copy_helper.126
++ block_copy_helper.130
++ block_copy_helper.132
++ block_copy_helper.135
++ block_copy_helper.138
++ block_copy_helper.147
++ block_copy_helper.150
++ block_copy_helper.153
++ block_copy_helper.156
++ block_copy_helper.16
++ block_copy_helper.160
++ block_copy_helper.167
++ block_copy_helper.17
++ block_copy_helper.174
++ block_copy_helper.179
++ block_copy_helper.188
++ block_copy_helper.19
++ block_copy_helper.194
++ block_copy_helper.199
++ block_copy_helper.2
++ block_copy_helper.206
++ block_copy_helper.213
++ block_copy_helper.214
++ block_copy_helper.223
++ block_copy_helper.229
++ block_copy_helper.23
++ block_copy_helper.231
++ block_copy_helper.240
++ block_copy_helper.251
++ block_copy_helper.262
++ block_copy_helper.273
++ block_copy_helper.280
++ block_copy_helper.296
++ block_copy_helper.330
++ block_copy_helper.351
++ block_copy_helper.358
++ block_copy_helper.385
++ block_copy_helper.392
++ block_copy_helper.4
++ block_copy_helper.419
++ block_copy_helper.430
++ block_copy_helper.441
++ block_copy_helper.452
++ block_copy_helper.46
++ block_copy_helper.463
++ block_copy_helper.474
++ block_copy_helper.484
++ block_copy_helper.491
++ block_copy_helper.508
++ block_copy_helper.559
++ block_copy_helper.575
++ block_copy_helper.586
++ block_copy_helper.607
++ block_copy_helper.614
++ block_copy_helper.62
++ block_copy_helper.630
++ block_copy_helper.641
++ block_copy_helper.652
++ block_copy_helper.663
++ block_copy_helper.674
++ block_copy_helper.685
++ block_copy_helper.696
++ block_copy_helper.7
++ block_copy_helper.708
++ block_copy_helper.73
++ block_copy_helper.79
++ block_copy_helper.85
++ block_copy_helper.91
++ block_copy_helper.97
++ block_descriptor.109
++ block_descriptor.114
++ block_descriptor.115
++ block_descriptor.122
++ block_descriptor.128
++ block_descriptor.132
++ block_descriptor.134
++ block_descriptor.137
++ block_descriptor.140
++ block_descriptor.149
++ block_descriptor.152
++ block_descriptor.155
++ block_descriptor.158
++ block_descriptor.162
++ block_descriptor.169
++ block_descriptor.176
++ block_descriptor.18
++ block_descriptor.181
++ block_descriptor.19
++ block_descriptor.190
++ block_descriptor.196
++ block_descriptor.201
++ block_descriptor.208
++ block_descriptor.21
++ block_descriptor.215
++ block_descriptor.216
++ block_descriptor.225
++ block_descriptor.231
++ block_descriptor.233
++ block_descriptor.242
++ block_descriptor.25
++ block_descriptor.253
++ block_descriptor.264
++ block_descriptor.275
++ block_descriptor.282
++ block_descriptor.298
++ block_descriptor.3
++ block_descriptor.332
++ block_descriptor.353
++ block_descriptor.360
++ block_descriptor.387
++ block_descriptor.394
++ block_descriptor.421
++ block_descriptor.432
++ block_descriptor.443
++ block_descriptor.454
++ block_descriptor.465
++ block_descriptor.476
++ block_descriptor.48
++ block_descriptor.486
++ block_descriptor.493
++ block_descriptor.510
++ block_descriptor.561
++ block_descriptor.577
++ block_descriptor.588
++ block_descriptor.6
++ block_descriptor.609
++ block_descriptor.616
++ block_descriptor.632
++ block_descriptor.64
++ block_descriptor.643
++ block_descriptor.654
++ block_descriptor.665
++ block_descriptor.676
++ block_descriptor.687
++ block_descriptor.698
++ block_descriptor.710
++ block_descriptor.75
++ block_descriptor.81
++ block_descriptor.87
++ block_descriptor.9
++ block_descriptor.93
++ block_descriptor.99
++ block_destroy_helper.108
++ block_destroy_helper.113
++ block_destroy_helper.114
++ block_destroy_helper.121
++ block_destroy_helper.127
++ block_destroy_helper.131
++ block_destroy_helper.133
++ block_destroy_helper.136
++ block_destroy_helper.139
++ block_destroy_helper.148
++ block_destroy_helper.151
++ block_destroy_helper.154
++ block_destroy_helper.157
++ block_destroy_helper.161
++ block_destroy_helper.168
++ block_destroy_helper.17
++ block_destroy_helper.175
++ block_destroy_helper.18
++ block_destroy_helper.180
++ block_destroy_helper.189
++ block_destroy_helper.195
++ block_destroy_helper.2
++ block_destroy_helper.20
++ block_destroy_helper.200
++ block_destroy_helper.207
++ block_destroy_helper.214
++ block_destroy_helper.215
++ block_destroy_helper.224
++ block_destroy_helper.230
++ block_destroy_helper.232
++ block_destroy_helper.24
++ block_destroy_helper.241
++ block_destroy_helper.252
++ block_destroy_helper.263
++ block_destroy_helper.274
++ block_destroy_helper.281
++ block_destroy_helper.297
++ block_destroy_helper.3
++ block_destroy_helper.331
++ block_destroy_helper.352
++ block_destroy_helper.359
++ block_destroy_helper.386
++ block_destroy_helper.393
++ block_destroy_helper.420
++ block_destroy_helper.431
++ block_destroy_helper.442
++ block_destroy_helper.453
++ block_destroy_helper.464
++ block_destroy_helper.47
++ block_destroy_helper.475
++ block_destroy_helper.485
++ block_destroy_helper.492
++ block_destroy_helper.5
++ block_destroy_helper.509
++ block_destroy_helper.560
++ block_destroy_helper.576
++ block_destroy_helper.587
++ block_destroy_helper.608
++ block_destroy_helper.615
++ block_destroy_helper.63
++ block_destroy_helper.631
++ block_destroy_helper.642
++ block_destroy_helper.653
++ block_destroy_helper.664
++ block_destroy_helper.675
++ block_destroy_helper.686
++ block_destroy_helper.697
++ block_destroy_helper.709
++ block_destroy_helper.74
++ block_destroy_helper.8
++ block_destroy_helper.80
++ block_destroy_helper.86
++ block_destroy_helper.92
++ block_destroy_helper.98
++ get_type_metadata 15Synchronization5MutexVy10Foundation6LocaleVSgG.7
++ get_type_metadata 15Synchronization5MutexVy10Foundation6LocaleVSgG.8
++ get_type_metadata 15Synchronization5MutexVy6Speech0C16RecognizerWorkerCSg6worker_Sb015hasModuleLockedE6BeforetG.11
++ get_type_metadata 15Synchronization5MutexVy6Speech0C16RecognizerWorkerCSg6worker_Sb015hasModuleLockedE6BeforetG.32
++ get_type_metadata 15Synchronization5MutexVy6Speech0C16RecognizerWorkerCSg6worker_Sb015hasModuleLockedE6BeforetG.7
++ get_type_metadata 15Synchronization5MutexVy6Speech0C16RecognizerWorkerCSg6worker_Sb015hasModuleLockedE6BeforetG.8
++ get_type_metadata 15Synchronization5MutexVy6Speech0C16RecognizerWorkerCSg6worker_Sb015hasModuleLockedE6BeforetG.9
++ get_type_metadata 15Synchronization5MutexVy6Speech11TranscriberC18MultisegmentResultVSgG.30
++ get_type_metadata 15Synchronization5MutexVy6Speech22LanguageDetectorWorkerCSg6worker_Sb015hasModuleLockedF6BeforetG.14
++ get_type_metadata 15Synchronization5MutexVySDy6Speech15AnalysisContextC11UserDataTagVs8Sendable_pGG.19
++ get_type_metadata 15Synchronization5MutexVySDy6Speech15AnalysisContextC20ContextualStringsTagVSaySSGGG.18
++ get_type_metadata 15Synchronization5MutexVySSSgG.31
++ get_type_metadata 15Synchronization5MutexVySay6Speech15ContextDelegate_pSgyYbcGG.20
++ get_type_metadata 15Synchronization5MutexVySay6Speech22EARXPCRegistryDelegate_pSgycGG.2
++ get_witness_table Scsy6Speech0A8DetectorC6ResultVs5Error_pGSciHPyHC.22
++ get_witness_table Scsy6Speech11TranscriberC18MultisegmentResultVs5Error_pGSciHPyHC.45
++ get_witness_table Scsy6Speech11TranscriberC6ResultVs5Error_pGSciHPyHC.44
++ get_witness_table Scsy6Speech16LanguageDetectorC6ResultVs5Error_pGSciHPyHC.19
++ get_witness_table Scsy6Speech17CommandRecognizerC6ResultVs5Error_pGSciHPyHC.20
++ get_witness_table Scsy6Speech19PhoneticTranscriberC6ResultVs5Error_pGSciHPyHC.20
++ get_witness_table ScsySDySS6Speech11TranscriberC18MultisegmentResultVGs5Error_pGSciHPyHC.46
++ isANETypeAtLeastVersion:prefix:.isANETypeHigher
++ objectdestroy.102Tm
++ objectdestroy.106Tm
++ objectdestroy.121Tm
++ objectdestroy.125Tm
++ objectdestroy.130Tm
++ objectdestroy.141Tm
++ objectdestroy.162Tm
++ objectdestroy.168Tm
++ objectdestroy.171Tm
++ objectdestroy.17Tm
++ objectdestroy.193Tm
++ objectdestroy.56Tm
++ objectdestroy.89Tm
++ objectdestroy.96Tm
++ sSupportedLocaleIdentifiers.883
++ sSupportedLocales.908
++ sharedInstance.onceToken.1772
++ sharedInstance.onceToken.1819
++ sharedInstance.sharedManager.1774
++ sharedInstance.sharedManager.1820
+- +[SFEntitledAssetManager _assetPathWithStatus:]
+- +[SFUtilities _isDeviceH13Plus]
+- +[_SFSpeechRecognizerDetectorOptions supportsSecureCoding]
+- -[SFAnalyzerTranscriptionSegment initWithText:alternatives:]
+- -[SFSpeechRecognizer dealloc]
+- -[STTranscriberMultisegmentResult initWithSegments:transcriptions:earResultType:nBestChoices:recognitionAudioRange:]
+- -[_SFAnalysisContextCodingObject geoLMRegionID]
+- -[_SFAnalysisContextCodingObject initWithLeftContext:rightContext:selectedText:geoLMRegionID:contextualStrings:contextualNamedEntities:profileData:jitProfileData:]
+- -[_SFSpeechRecognizerDetectorOptions copyWithZone:]
+- -[_SFSpeechRecognizerDetectorOptions description]
+- -[_SFSpeechRecognizerDetectorOptions detectAfterTime]
+- -[_SFSpeechRecognizerDetectorOptions encodeWithCoder:]
+- -[_SFSpeechRecognizerDetectorOptions hash]
+- -[_SFSpeechRecognizerDetectorOptions initWithCoder:]
+- -[_SFSpeechRecognizerDetectorOptions initWithDetectAfterTime:]
+- -[_SFSpeechRecognizerDetectorOptions isEqual:]
+- -[_SFSpeechRecognizerModelOptions initWithFarField:supplementalModelURL:modelOverrideURL:speechProfileURLs:userIdMask:taskForMemoryLock:atypicalSpeech:enableParallelLoading:speechProfileContainers:]
+- -[_SFSpeechRecognizerSupportedFeatures detectionOptions]
+- -[_SFSpeechRecognizerSupportedFeatures initWithLocale:taskNames:singleUtterance:concatenateUtterances:voiceCommandActiveSet:modelOptions:detectionOptions:flags:]
+- GCC_except_table1075
+- GCC_except_table1100
+- GCC_except_table1241
+- GCC_except_table1249
+- GCC_except_table1253
+- GCC_except_table1255
+- GCC_except_table1257
+- GCC_except_table1263
+- GCC_except_table1264
+- GCC_except_table1265
+- GCC_except_table1267
+- GCC_except_table1268
+- GCC_except_table1269
+- GCC_except_table1272
+- GCC_except_table246
+- GCC_except_table376
+- GCC_except_table382
+- GCC_except_table384
+- GCC_except_table386
+- GCC_except_table388
+- GCC_except_table391
+- GCC_except_table399
+- GCC_except_table407
+- GCC_except_table429
+- GCC_except_table450
+- GCC_except_table456
+- GCC_except_table489
+- GCC_except_table686
+- GCC_except_table714
+- GCC_except_table809
+- GCC_except_table844
+- GCC_except_table854
+- GCC_except_table856
+- GCC_except_table865
+- GCC_except_table908
+- GCC_except_table955
+- GCC_except_table968
+- GCC_except_table989
+- GCC_except_table994
+- OBJC_IVAR_$_SFSpeechRecognizer._facetimeObserver
+- OBJC_IVAR_$_SFSpeechRecognizer._foregroundObserver
+- OBJC_IVAR_$__SFAnalysisContextCodingObject._geoLMRegionID
+- OBJC_IVAR_$__SFSpeechRecognizerDetectorOptions._detectAfterTime
+- OBJC_IVAR_$__SFSpeechRecognizerSupportedFeatures._detectionOptions
+- _OBJC_CLASS_$__SFSpeechRecognizerDetectorOptions
+- _OBJC_CLASS_$__TtC6Speech15AnalysisContext
+- _OBJC_CLASS_$__TtC6Speech20ModelDownloadRequest
+- _OBJC_METACLASS_$__SFSpeechRecognizerDetectorOptions
+- _OBJC_METACLASS_$__TtC6Speech15AnalysisContext
+- _OBJC_METACLASS_$__TtC6Speech20ModelDownloadRequest
+- _PROTOCOLS__TtC6Speech20ModelDownloadRequest.9
+- _SFAnalysisContextTagGeoLMRegionID
+- _SFSpeechProfileSiteDirectoriesWithRoot
+- __101-[SFEntitledAssetManager _installedAssetWithConfig:regionId:shouldSubscribe:subscriberId:expiration:]_block_invoke.529
+- __102-[SFLocalSpeechRecognitionClient downloadAssetsForConfig:clientID:detailedProgress:completionHandler:]_block_invoke.69
+- __107-[SFEntitledAssetManager downloadStatusWithConfig:regionId:subscriberId:progressHandler:completionHandler:]_block_invoke.524
+- __58-[SFEntitledAssetManager registerAssetDelegate:assetType:]_block_invoke.489
+- __58-[SFEntitledAssetManager registerAssetDelegate:assetType:]_block_invoke.492
+- __58-[SFEntitledAssetManager registerAssetDelegate:assetType:]_block_invoke.498
+- __58-[SFEntitledAssetManager registerAssetDelegate:assetType:]_block_invoke.499
+- __58-[SFEntitledAssetManager registerAssetDelegate:assetType:]_block_invoke_2.493
+- __70+[SFSpeechAssetManager setAssetsPurgeability:forLanguages:completion:]_block_invoke.55
+- __72+[SFSpeechRecognizer _fetchSupportedForcedOfflineLocalesWithCompletion:]_block_invoke.31
+- __94-[SFLocalSpeechRecognitionClient downloadAssetsForConfig:clientID:progress:completionHandler:]_block_invoke.64
+- __94-[SFLocalSpeechRecognitionClient downloadAssetsForConfig:clientID:progress:completionHandler:]_block_invoke.65
+- __Block_byref_object_copy_.1370
+- __Block_byref_object_copy_.1478
+- __Block_byref_object_copy_.1599
+- __Block_byref_object_copy_.1945
+- __Block_byref_object_copy_.2131
+- __Block_byref_object_copy_.2686
+- __Block_byref_object_copy_.596
+- __Block_byref_object_dispose_.1371
+- __Block_byref_object_dispose_.1479
+- __Block_byref_object_dispose_.1600
+- __Block_byref_object_dispose_.1946
+- __Block_byref_object_dispose_.2132
+- __Block_byref_object_dispose_.2687
+- __Block_byref_object_dispose_.597
+- __DATA__TtC6Speech20ModelDownloadRequest
+- __DATA__TtCC6Speech15AnalysisContextP33_813AAEFDCCF2FB11F9DE9A1343F1F01821ContextDelegatesMutex
+- __INSTANCE_METHODS__TtC6Speech20ModelDownloadRequest
+- __IVARS__TtC6Speech20ModelDownloadRequest
+- __IVARS__TtCC6Speech15AnalysisContextP33_813AAEFDCCF2FB11F9DE9A1343F1F01821ContextDelegatesMutex
+- __METACLASS_DATA__TtC6Speech20ModelDownloadRequest
+- __METACLASS_DATA__TtCC6Speech15AnalysisContextP33_813AAEFDCCF2FB11F9DE9A1343F1F01821ContextDelegatesMutex
+- __OBJC_$_CLASS_METHODS__SFSpeechRecognizerDetectorOptions
+- __OBJC_$_CLASS_PROP_LIST__SFSpeechRecognizerDetectorOptions
+- __OBJC_$_INSTANCE_METHODS__SFSpeechRecognizerDetectorOptions
+- __OBJC_$_INSTANCE_VARIABLES__SFSpeechRecognizerDetectorOptions
+- __OBJC_$_PROP_LIST__SFSpeechRecognizerDetectorOptions
+- __OBJC_CLASS_PROTOCOLS_$__SFSpeechRecognizerDetectorOptions
+- __OBJC_CLASS_RO_$__SFSpeechRecognizerDetectorOptions
+- __OBJC_METACLASS_RO_$__SFSpeechRecognizerDetectorOptions
+- __PROPERTIES__TtC6Speech15AnalysisContext
+- __PROPERTIES__TtC6Speech20ModelDownloadRequest
+- __PROTOCOLS__TtC6Speech20ModelDownloadRequest
+- ___29-[SFSpeechRecognizer dealloc]_block_invoke
+- ___31+[SFUtilities _isDeviceH13Plus]_block_invoke
+- ___61+[SFLocalSpeechRecognitionClient cleanupCacheWithCompletion:]_block_invoke_2
+- ___block_descriptor_48_e8_32s40bs_e5_v8?0l
+- ___swift_memcpy56_8
+- __block_literal_global.1384
+- __block_literal_global.1504
+- __block_literal_global.1694
+- __block_literal_global.1904
+- __block_literal_global.2165
+- __block_literal_global.227
+- __block_literal_global.245
+- __block_literal_global.271
+- __block_literal_global.273
+- __block_literal_global.2733
+- __block_literal_global.426
+- __block_literal_global.428
+- __block_literal_global.450
+- __block_literal_global.642
+- __block_literal_global.878
+- __detectDataSites
+- _associated conformance 6Speech0A8DetectorCAA14ModuleProtocolAA0C6OutputAaDP_AA11TimeRanging
+- _associated conformance 6Speech0A8DetectorCAA14ModuleProtocolAA14ResultSequenceAaDP_Sci
+- _associated conformance 6Speech11TranscriberCAA14ModuleProtocolAA0C6OutputAaDP_AA11TimeRanging
+- _associated conformance 6Speech11TranscriberCAA14ModuleProtocolAA14ResultSequenceAaDP_Sci
+- _associated conformance 6Speech13VoiceMeasurerCAA14ModuleProtocolAA0D6OutputAaDP_AA11TimeRanging
+- _associated conformance 6Speech13VoiceMeasurerCAA14ModuleProtocolAA14ResultSequenceAaDP_Sci
+- _associated conformance 6Speech16EndpointDetectorCAA14ModuleProtocolAA0D6OutputAaDP_AA11TimeRanging
+- _associated conformance 6Speech16EndpointDetectorCAA14ModuleProtocolAA14ResultSequenceAaDP_Sci
+- _associated conformance 6Speech16LanguageDetectorCAA14ModuleProtocolAA0D6OutputAaDP_AA11TimeRanging
+- _associated conformance 6Speech16LanguageDetectorCAA14ModuleProtocolAA14ResultSequenceAaDP_Sci
+- _associated conformance 6Speech17CommandRecognizerCAA14ModuleProtocolAA0D6OutputAaDP_AA11TimeRanging
+- _associated conformance 6Speech17CommandRecognizerCAA14ModuleProtocolAA14ResultSequenceAaDP_Sci
+- _associated conformance 6Speech19PhoneticTranscriberCAA14ModuleProtocolAA0D6OutputAaDP_AA11TimeRanging
+- _associated conformance 6Speech19PhoneticTranscriberCAA14ModuleProtocolAA14ResultSequenceAaDP_Sci
+- _associated conformance So19SFEntitledAssetTypeVSHSCSQ
+- _isDeviceH13Plus.isH13Plus
+- _isDeviceH13Plus.onceToken
+- _kCMTimeRangeZero
+- _objc_msgSend$_assetPathWithStatus:
+- _objc_msgSend$_isDeviceH13Plus
+- _objc_msgSend$detectionOptions
+- _objc_msgSend$initWithSupplementalModelURL:farField:modelOverrideURL:speechProfileURLs:taskForMemoryLock:atypicalSpeech:enableParallelLoading:
+- _objc_msgSend$personaForContainerRelativeURL:
+- _objc_msgSend$speechProfilePathsWithLanguage:
+- _objc_msgSend$speechProfileRootDirectories
+- _symbolic $s6Speech11TimeRangingP
+- _symbolic $s6Speech22InternalModuleProtocolP
+- _symbolic 12ModuleOutput_____Qz 6Speech14ModuleProtocolP
+- _symbolic 14ResultSequence_____Qz 6Speech14ModuleProtocolP
+- _symbolic 14ResultSequence______7ElementSciQZ 6Speech14ModuleProtocolP
+- _symbolic 14ResultSequence______7FailureSciQZ 6Speech14ModuleProtocolP
+- _symbolic SDySSShy_____GG So19SFEntitledAssetTypeV
+- _symbolic SS_ypt
+- _symbolic SaySaySdGGSg______pSgIeggg_ s5ErrorP
+- _symbolic Say______pG 6Speech22InternalModuleProtocolP
+- _symbolic Say______pGSg 6Speech14ModuleProtocolP
+- _symbolic Shy_____G So19SFEntitledAssetTypeV
+- _symbolic So12NSDictionaryCSgSo7NSErrorCSgIeyByy_
+- _symbolic So5NSSetCSgSo7NSErrorCSgIeyByy_
+- _symbolic So8BMSourceCySo25BMASRRequestMetricsRecordCG
+- _symbolic So8NSStringCSg
+- _symbolic So8NSStringCSgSo7NSErrorCSgIeyByy_
+- _symbolic _____ 6Speech10CodepathIDO
+- _symbolic _____ 6Speech14EARXPCRegistryV
+- _symbolic _____ 6Speech15AnalysisContextC0C14DelegatesMutex33_813AAEFDCCF2FB11F9DE9A1343F1F018LLC
+- _symbolic _____ 6Speech18ObjCSpeechAnalyzerC19setUpOutputWrappers33_8857AB449320DF71AE3DAA5E149DC512LL03objcD06config25transcriberResultDelegate011endpointingrS0016languageDetectorrS0ySo08SFSpeechD0C_AA0bcD13ConfigurationCSo0wd11TranscriberrS0_pSgSo0wd11EndpointingrS0_pSgSo0wd8LanguagevrS0_pSgtFZ08Languagevg7WrapperS7AdapterL_V
+- _symbolic _____ 6Speech18ObjCSpeechAnalyzerC19setUpOutputWrappers33_8857AB449320DF71AE3DAA5E149DC512LL03objcD06config25transcriberResultDelegate011endpointingrS0016languageDetectorrS0ySo08SFSpeechD0C_AA0bcD13ConfigurationCSo0wd11TranscriberrS0_pSgSo0wd11EndpointingrS0_pSgSo0wd8LanguagevrS0_pSgtFZ0yg7WrapperS7AdapterL_V
+- _symbolic _____ 6Speech18ObjCSpeechAnalyzerC19setUpOutputWrappers33_8857AB449320DF71AE3DAA5E149DC512LL03objcD06config25transcriberResultDelegate011endpointingrS0016languageDetectorrS0ySo08SFSpeechD0C_AA0bcD13ConfigurationCSo0wd11TranscriberrS0_pSgSo0wd11EndpointingrS0_pSgSo0wd8LanguagevrS0_pSgtFZ0zg7WrapperS7AdapterL_V
+- _symbolic _____ 6Speech20ModelDownloadRequestC
+- _symbolic _____Iegn_ So11CMTimeRangea
+- _symbolic _____IeyBy_ So6CMTimea
+- _symbolic _____S2S_____SgSb________________pIetMHnTgTgTnTyTgozo_ 10Foundation6LocaleV AA3URLV 6Speech05LocalD18RecognitionServiceC AF9LSRAssetsC s5ErrorP
+- _symbolic _____S2bIeghnyy_Sg So11CMTimeRangea
+- _symbolic _____Sg 6Speech18TranscriptionTokenV
+- _symbolic __________ABIeyBhyyy_ So11CMTimeRangea 10ObjectiveC8ObjCBoolV
+- _symbolic __________ABIeyBhyyy_Sg So11CMTimeRangea 10ObjectiveC8ObjCBoolV
+- _symbolic ______p 6Speech15ContextDelegateP
+- _symbolic ______p 6Speech22InternalModuleProtocolP
+- _symbolic ______pSay_____ySo13AVAudioFormatCGGIegHgo_ 6Speech14ModuleProtocolP AA13KnownSendableV
+- _symbolic ______pSay_____ySo13AVAudioFormatCGGIegHgo_ 6Speech22InternalModuleProtocolP AA13KnownSendableV
+- _symbolic ______pSay_____ySo13AVAudioFormatCGGSg______pIeghHnrzo_ 6Speech22InternalModuleProtocolP AA13KnownSendableV s5ErrorP
+- _symbolic _____m 6Speech18TimeRangeAttributeV
+- _symbolic _____m 6Speech19ConfidenceAttributeV
+- _symbolic _____ySDy_____SaySSGGG 2os21OSAllocatedUnfairLockV 6Speech15AnalysisContextC20ContextualStringsTagV
+- _symbolic _____ySDy_____SaySSGG_____G s13ManagedBufferCsRi__rlE 6Speech15AnalysisContextC20ContextualStringsTagV So16os_unfair_lock_sV
+- _symbolic _____ySDy_____ypGG 2os21OSAllocatedUnfairLockV 6Speech15AnalysisContextC11UserDataTagV
+- _symbolic _____ySDy_____ypG_____G s13ManagedBufferCsRi__rlE 6Speech15AnalysisContextC11UserDataTagV So16os_unfair_lock_sV
+- _symbolic _____ySSSgG 2os21OSAllocatedUnfairLockV
+- _symbolic _____ySSSg_____G s13ManagedBufferCsRi__rlE So16os_unfair_lock_sV
+- _symbolic _____ySSShy_____GG s17_NativeDictionaryV So19SFEntitledAssetTypeV
+- _symbolic _____ySS_Shy_____GtG s23_ContiguousArrayStorageC So19SFEntitledAssetTypeV
+- _symbolic _____ySSypG s18_DictionaryStorageC
+- _symbolic _____ySay______pSgyYbcGG 2os21OSAllocatedUnfairLockV 6Speech22EARXPCRegistryDelegateP
+- _symbolic _____ySay______pSgyYbcG_____G s13ManagedBufferCsRi__rlE 6Speech22EARXPCRegistryDelegateP So16os_unfair_lock_sV
+- _symbolic _____y_____G s11_SetStorageC So19SFEntitledAssetTypeV
+- _symbolic _____y_____G3key_Say______pG5valuetSg 6Speech13KnownSendableV s11AnyHashableV AA22InternalModuleProtocolP
+- _symbolic _____y_____SaySSGG s17_NativeDictionaryV 6Speech15AnalysisContextC20ContextualStringsTagV
+- _symbolic _____y_____Sg6worker_Sb27hasModuleLockedWorkerBeforetG 2os21OSAllocatedUnfairLockV 6Speech0E16RecognizerWorkerC
+- _symbolic _____y_____Sg6worker_Sb27hasModuleLockedWorkerBeforetG 2os21OSAllocatedUnfairLockV 6Speech22LanguageDetectorWorkerC
+- _symbolic _____y_____Sg6worker_Sb27hasModuleLockedWorkerBeforet_____G s13ManagedBufferCsRi__rlE 6Speech0C16RecognizerWorkerC So16os_unfair_lock_sV
+- _symbolic _____y_____Sg6worker_Sb27hasModuleLockedWorkerBeforet_____G s13ManagedBufferCsRi__rlE 6Speech22LanguageDetectorWorkerC So16os_unfair_lock_sV
+- _symbolic _____y_____SgG 2os21OSAllocatedUnfairLockV 10Foundation6LocaleV
+- _symbolic _____y_____SgG 2os21OSAllocatedUnfairLockV 6Speech11TranscriberC18MultisegmentResultV
+- _symbolic _____y_____Sg_____G s13ManagedBufferCsRi__rlE 10Foundation6LocaleV So16os_unfair_lock_sV
+- _symbolic _____y_____Sg_____G s13ManagedBufferCsRi__rlE 6Speech11TranscriberC18MultisegmentResultV So16os_unfair_lock_sV
+- _symbolic _____y______pG s20CollectionDifferenceV 6Speech22InternalModuleProtocolP
+- _symbolic _____y______pG s23_ContiguousArrayStorageC 6Speech14ModuleProtocolP
+- _symbolic _____y______pG s23_ContiguousArrayStorageC 6Speech22InternalModuleProtocolP
+- _symbolic _____y______pSgyYbcG s23_ContiguousArrayStorageC 6Speech22EARXPCRegistryDelegateP
+- _symbolic _____y_____y_____GSay______pGG s17_NativeDictionaryV 6Speech13KnownSendableV s11AnyHashableV AC22InternalModuleProtocolP
+- _symbolic _____ytIegnr_ So11CMTimeRangea
+- _symbolic _____yy_____cSgG 6Speech13LockableValueC So11CMTimeRangea
+- _symbolic xSgXwz_______p______yScsy___________pGSo19SFEndpointingResultCG_____8Delegate_____Qyd_0_RszSciRd_______Rd_0_0B0ALQyd_0_7ElementSciRtd__r_0_lXX So41SFSpeechAnalyzerEndpointingResultDelegateP s16AsyncMapSequenceV 6Speech16EndpointDetectorC12ModuleOutputV s5ErrorP AE010ObjCSpeechB0C05setUpM8Wrappers33_8857AB449320DF71AE3DAA5E149DC512LL03objpB06config011transcriberdE0011endpointingdE008languagekdE0ySo0aB0C_AE0opB13ConfigurationCSo0ab11TranscriberdE0_pSgSoAA_pSgSo0ab8LanguagekdE0_pSgtFZ0cm7WrapperE7AdapterL_V AE0m7WrapperE7AdapterP A5_
+- _symbolic xSgXwz_______p______yScsy___________pGSo24SFLanguageDetectorResultCG_____8Delegate_____Qyd_0_RszSciRd_______Rd_0_0C0ALQyd_0_7ElementSciRtd__r_0_lXX So46SFSpeechAnalyzerLanguageDetectorResultDelegateP s16AsyncMapSequenceV 6Speech0cD0C0E0V s5ErrorP AE010ObjCSpeechB0C19setUpOutputWrappers33_8857AB449320DF71AE3DAA5E149DC512LL03objmB06config011transcribereF0011endpointingeF008languagedeF0ySo0aB0C_AE0lmB13ConfigurationCSo0ab11TranscribereF0_pSgSo0ab11EndpointingeF0_pSgSoAA_pSgtFZ0cdp7WrapperF7AdapterL_V AE0p7WrapperF7AdapterP A5_
+- _symbolic xSgXwz_______p______y_____yScsy___________pGAGGSo19SFTranscriberResultCG_____8Delegate_____Qyd_0_RszSciRd_______Rd_0_0B0ANQyd_0_7ElementSciRtd__r_0_lXX So41SFSpeechAnalyzerTranscriberResultDelegateP s16AsyncMapSequenceV 6Speech0f4Zip2H0V AE0C0C012MultisegmentD0V s5ErrorP AE010ObjCSpeechB0C19setUpOutputWrappers33_8857AB449320DF71AE3DAA5E149DC512LL03objnB06config011transcriberdE0011endpointingdE0016languageDetectordE0ySo0aB0C_AE0mnB13ConfigurationCSoAA_pSgSo0ab11EndpointingdE0_pSgSo0ab16LanguageDetectordE0_pSgtFZ0cq7WrapperE7AdapterL_V AE0q7WrapperE7AdapterP A7_
+- _symbolic y______S2btYbcSg So11CMTimeRangea
+- block_copy_helper.101
+- block_copy_helper.109
+- block_copy_helper.110
+- block_copy_helper.116
+- block_copy_helper.122
+- block_copy_helper.134
+- block_copy_helper.136
+- block_copy_helper.140
+- block_copy_helper.154
+- block_copy_helper.163
+- block_copy_helper.166
+- block_copy_helper.169
+- block_copy_helper.181
+- block_copy_helper.184
+- block_copy_helper.203
+- block_copy_helper.219
+- block_copy_helper.230
+- block_copy_helper.241
+- block_copy_helper.25
+- block_copy_helper.252
+- block_copy_helper.263
+- block_copy_helper.270
+- block_copy_helper.286
+- block_copy_helper.297
+- block_copy_helper.331
+- block_copy_helper.348
+- block_copy_helper.364
+- block_copy_helper.386
+- block_copy_helper.397
+- block_copy_helper.418
+- block_copy_helper.425
+- block_copy_helper.43
+- block_copy_helper.442
+- block_copy_helper.453
+- block_copy_helper.464
+- block_copy_helper.475
+- block_copy_helper.486
+- block_copy_helper.496
+- block_copy_helper.503
+- block_copy_helper.563
+- block_copy_helper.574
+- block_copy_helper.585
+- block_descriptor.103
+- block_descriptor.111
+- block_descriptor.112
+- block_descriptor.118
+- block_descriptor.124
+- block_descriptor.127
+- block_descriptor.136
+- block_descriptor.138
+- block_descriptor.142
+- block_descriptor.156
+- block_descriptor.165
+- block_descriptor.168
+- block_descriptor.171
+- block_descriptor.183
+- block_descriptor.186
+- block_descriptor.2
+- block_descriptor.205
+- block_descriptor.221
+- block_descriptor.232
+- block_descriptor.243
+- block_descriptor.254
+- block_descriptor.265
+- block_descriptor.27
+- block_descriptor.272
+- block_descriptor.288
+- block_descriptor.299
+- block_descriptor.333
+- block_descriptor.350
+- block_descriptor.366
+- block_descriptor.388
+- block_descriptor.399
+- block_descriptor.420
+- block_descriptor.427
+- block_descriptor.444
+- block_descriptor.45
+- block_descriptor.455
+- block_descriptor.466
+- block_descriptor.477
+- block_descriptor.488
+- block_descriptor.498
+- block_descriptor.505
+- block_descriptor.565
+- block_descriptor.576
+- block_descriptor.587
+- block_destroy_helper.102
+- block_destroy_helper.110
+- block_destroy_helper.111
+- block_destroy_helper.117
+- block_destroy_helper.123
+- block_destroy_helper.135
+- block_destroy_helper.137
+- block_destroy_helper.141
+- block_destroy_helper.155
+- block_destroy_helper.164
+- block_destroy_helper.167
+- block_destroy_helper.170
+- block_destroy_helper.182
+- block_destroy_helper.185
+- block_destroy_helper.204
+- block_destroy_helper.220
+- block_destroy_helper.231
+- block_destroy_helper.242
+- block_destroy_helper.253
+- block_destroy_helper.26
+- block_destroy_helper.264
+- block_destroy_helper.271
+- block_destroy_helper.287
+- block_destroy_helper.298
+- block_destroy_helper.332
+- block_destroy_helper.349
+- block_destroy_helper.365
+- block_destroy_helper.387
+- block_destroy_helper.398
+- block_destroy_helper.419
+- block_destroy_helper.426
+- block_destroy_helper.44
+- block_destroy_helper.443
+- block_destroy_helper.454
+- block_destroy_helper.465
+- block_destroy_helper.476
+- block_destroy_helper.487
+- block_destroy_helper.497
+- block_destroy_helper.504
+- block_destroy_helper.564
+- block_destroy_helper.575
+- block_destroy_helper.586
+- get_witness_table Scsy6Speech0A8DetectorC6ResultVs5Error_pGSciHPyHC.10
+- get_witness_table Scsy6Speech11TranscriberC18MultisegmentResultVs5Error_pGSciHPyHC.60
+- get_witness_table Scsy6Speech11TranscriberC6ResultVs5Error_pGSciHPyHC.59
+- get_witness_table Scsy6Speech16LanguageDetectorC6ResultVs5Error_pGSciHPyHC.18
+- get_witness_table Scsy6Speech17CommandRecognizerC6ResultVs5Error_pGSciHPyHC.18
+- get_witness_table Scsy6Speech19PhoneticTranscriberC6ResultVs5Error_pGSciHPyHC.19
+- get_witness_table ScsySDySS6Speech11TranscriberC18MultisegmentResultVGs5Error_pGSciHPyHC.61
+- objectdestroy.107Tm
+- objectdestroy.123Tm
+- objectdestroy.126Tm
+- objectdestroy.142Tm
+- objectdestroy.152Tm
+- objectdestroy.158Tm
+- objectdestroy.15Tm
+- objectdestroy.161Tm
+- objectdestroy.298Tm
+- objectdestroy.53Tm
+- objectdestroy.55Tm
+- objectdestroy.59Tm
+- objectdestroy.86Tm
+- objectdestroy.8Tm
+- objectdestroy.93Tm
+- objectdestroy.99Tm
+- sSupportedLocaleIdentifiers.854
+- sSupportedLocales.876
+- sharedInstance.onceToken.1693
+- sharedInstance.onceToken.1736
+- sharedInstance.sharedManager.1695
+- sharedInstance.sharedManager.1737
+CStrings:
++ " Transcriber cannot be initialized with both `.emoji` and `.normalizedTranscription`."
++ " Transcriber cannot be initialized with both `.longerContextualization` and `.normalizedTranscription`."
++ " Transcriber cannot be initialized with both `.normalizedTranscription` and `.contextualizedTranscription`."
++ " Transcriber cannot be initialized with both `.punctuation` and `.normalizedTranscription`."
++ " Transcriber must be initialized with either `.normalizedTranscription` or `.contextualizedTranscription`."
++ " using Transcriber that is not associated with same SpeechAnalyzer"
++ "\""
++ "%@"
++ "%s Adding known usages for %@ assets: %@"
++ "%s All usages for %@ assets: %@"
++ "%s Client (%@) async fetching the path to the %@ asset for: %@"
++ "%s Client (%@) async unsubscribing from the %@ asset for: %@"
++ "%s Device %@ %@%d+"
++ "%s Device aneSubType: %@"
++ "%s MUX: Checking %zu container(s) for valid speech profiles."
++ "%s MUX: Failed to load speech profile at path: %@, error: %@"
++ "%s MUX: Failed to retrieve file attributes at path: %@, error: %@"
++ "%s MUX: Loaded %zu speech profile(s) in total."
++ "%s MUX: Loaded speech profile at path: %@"
++ "%s MUX: No cached speech profile for path: %@"
++ "%s MUX: No speech profile exists at path: %@"
++ "%s MUX: No speech profile site URL for personaId: %@"
++ "%s MUX: Out of %zu container(s), %zu speech profile(s) are present on disk."
++ "%s MUX: Reusing cached speech profile at path: %@"
++ "%s MUX: loadedProfiles cannot be nil."
++ "%s No userType provided, fetching both default and user-specific data site directories."
++ "%s No valid URL for speech profile container: %@"
++ "%s Refreshed %@ asset set with usage: %@"
++ "%s Refreshed all %@ asset sets."
++ "%s Returning the %@ speech profile path for the default user."
++ "%s Unrecognized userType: %@"
++ "%s containerRelativeURL cannot be %@."
++ "+[SFEntitledAssetManager assetSetUsagesForAssetType:]_block_invoke"
++ "+[SFSpeechAssetManager pathToAssetWithConfig:clientIdentifier:completion:]"
++ "+[SFSpeechAssetManager unsubscribeFromAssetWithConfig:clientIdentifier:completion:]"
++ "+[SFUtilities allSpeechProfileContainersForSharedUserInfos:]"
++ "+[SFUtilities isANETypeAtLeastVersion:prefix:]"
++ "+[SFUtilities speechProfilePathsForLanguage:personaId:]"
++ "+[SFUtilities speechProfilePathsForLanguage:speechProfileContainers:]"
++ "+[SFUtilities speechProfilePathsForLanguage:userType:]"
++ "+[SFUtilities userSpecificSpeechProfileContainersForSharedUserInfos:]"
++ ", resultsFinalizationTime "
++ "-[SFEntitledAssetManager _refreshAssetSetsWithName:]"
++ "-[SFSpeechProfileContainerManager personaForContainerRelativeURL:]"
++ "-[SFSpeechProfileContainerManager personaForContainerRelativeURL:]_block_invoke_2"
++ ".etiquetteReplacements flags desired "
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/SpeechFramework/EAR-XPC/NSXPCActorSystem.swift"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/SpeechFramework/SpeechAnalyzer/Assets/AssetsInstallationRequest.swift"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/SpeechFramework/SpeechAnalyzer/CommandRecognizer.swift"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/SpeechFramework/SpeechAnalyzer/EndpointDetector.swift"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/SpeechFramework/SpeechAnalyzer/LanguageDetector.swift"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/SpeechFramework/SpeechAnalyzer/LanguageDetectorWorker.swift"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/SpeechFramework/SpeechAnalyzer/Misc.swift"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/SpeechFramework/SpeechAnalyzer/ObjCSpeechAnalyzer.swift"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/SpeechFramework/SpeechAnalyzer/PhoneticTranscriber.swift"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/SpeechFramework/SpeechAnalyzer/SpeechAnalyzer.swift"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/SpeechFramework/SpeechAnalyzer/SpeechAnalyzerClientInterface.swift"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/SpeechFramework/SpeechAnalyzer/SpeechDetector.swift"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/SpeechFramework/SpeechAnalyzer/SpeechRecognizerWorker.swift"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/SpeechFramework/SpeechAnalyzer/TaskHint.swift"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/SpeechFramework/SpeechAnalyzer/TimeUtilities.swift"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/SpeechFramework/SpeechAnalyzer/Transcriber.swift"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/SpeechFramework/SpeechAnalyzer/TranscriberResults.swift"
++ "<Speech.SpeechDetector.Result: range "
++ "<_SFSpeechRecognizerEndpointDetectorOptions: detectAfterTime %f>"
++ "<_SFSpeechRecognizerModelOptions: farField %d, geoLMRegionID %@, supplementalModelURL %@, modelOverrideURL %@, speechProfileURLs %@, userIdMask %@, taskForMemoryLock %@, atypicalSpeech %d, enableParallelLoading %d, speechProfileContainers %@>"
++ "<_SFSpeechRecognizerSpeechDetectorOptions: sensitivityLevel %lu>"
++ "<_SFSpeechRecognizerSupportedFeatures (%p): locale %@, taskNames %@, singleUtterance %d, concatenateUtterances %d, modelOptions %@, endpointDetectionOptions %@, speechDetectionOptions %@, flags %#lx>"
++ "@"
++ "@\"_SFSpeechRecognizerEndpointDetectorOptions\""
++ "@\"_SFSpeechRecognizerSpeechDetectorOptions\""
++ "@108@0:8@16@24@32@40@48@56@64@72@80B88@92@?100"
++ "@112@0:8@16@24Q32@40{?={?=qiIq}{?=qiIq}}48@96d104"
++ "@116@0:8@16@24@32@40@48@56@64@72@80@88@96B104@?108"
++ "@124@0:8@16@24@32@40@48@56@64@72@80@88@96B104@108@?116"
++ "@132@0:8@16@24@32@40@48@56@64@72@80@88@96@104B112@116@?124"
++ "@44@0:8B16Q20@28@36"
++ "@52@0:8@16@24B32@36@?44"
++ "@64@0:8{?={?=qiIq}{?=qiIq}}16"
++ "@68@0:8@16B24@28@36@44@52B60B64"
++ "@80@0:8@16@24B32B36@40@48@56@64Q72"
++ "@84@0:8B16@20@28@36@44@52@60B68B72@76"
++ "Assets needed for PhoneticEmbedder in %s are not installed on this device."
++ "Assets was initialized with a locale with insufficient information: "
++ "Audio input time range is invalid"
++ "B28@0:8i16@20"
++ "CMTimeRangeValue"
++ "Cannot create SpeechDetector-only worker; use Transcriber worker instead"
++ "Custom transcriptionOptions provided: "
++ "EARFullPayloadCorrectionResult"
++ "Enqueuing experiment trigger log on a background task. codepathId=%s namespace=%s requestId=%s"
++ "FullPayloadCorrector was initialized with a locale with insufficient information: "
++ "LanguageDetector.%s: No available model info; fetching `Assets` to query"
++ "M"
++ "No assets to install supplied"
++ "PhoneticEmbedder was initialized with a locale with insufficient information: "
++ "Retrieving codepathIds from speech profile for trigger logging: %s"
++ "SFAllDataSites"
++ "SFSpeechAnalyzerSpeechDetectorOptions"
++ "SFSpeechAnalyzerSpeechDetectorResultDelegate"
++ "SFSpeechDetectorResult"
++ "SFSpeechProfileSiteDirectoriesWithUserType"
++ "SFUserSpecificDataSites"
++ "Speech.AssetsInstallationRequest"
++ "Speech.ConfidenceAttribute"
++ "Speech.EARFullPayloadCorrector.correctPostITNOutput(_:withOptions:)"
++ "Speech.EARFullPayloadCorrector.hello()"
++ "Speech.EARSpeechRecognizer.isVADSupportedForRequest()"
++ "Speech.EARTranscriptionEvaluator.evaluateMessagesContext(_:recognizedText:correctedText:asrID:speechProfilePath:)"
++ "Speech.EARTranscriptionEvaluator.hello()"
++ "Speech.LocalSpeechRecognitionService.isEuclidAvailable(forConfigPath:)"
++ "Speech.LocalSpeechRecognitionService.makeFullPayloadCorrectorInstance(withLocale:clientID:)"
++ "Speech.LocalSpeechRecognitionService.makeLSRAssets(for:shouldSubscribe:clientID:modelOverridePath:isSpelling:)"
++ "Speech.LocalSpeechRecognitionService.makeTranscriptionEvaluator()"
++ "Speech.TimeRangeAttribute"
++ "Speech/Chunked.swift"
++ "Speech/EARFullPayloadCorrector.swift"
++ "Speech/EARTranscriptionEvaluator.swift"
++ "Speech/ObjCSpeechAnalyzer.swift"
++ "Speech/SpeechDetector.swift"
++ "SpeechAnalyzer: Executing finalize/finish input barrier at %@"
++ "SpeechDetector encountered an error during recognition: %@"
++ "SpeechDetector.isWorkerUsable: Worker not usable because %s"
++ "T@\"NSDictionary\",R,C,N,V_loggingInfo"
++ "T@\"NSError\",R,C,N,V_error"
++ "T@\"NSString\",R,C,N,V_bestFormattedString"
++ "T@\"NSString\",R,C,N,V_result"
++ "T@\"_SFSpeechRecognizerEndpointDetectorOptions\",R,C,N,V_endpointDetectionOptions"
++ "T@\"_SFSpeechRecognizerSpeechDetectorOptions\",R,C,N,V_speechDetectionOptions"
++ "TB,N,V_reportResults"
++ "TQ,N,V_sensitivityLevel"
++ "TQ,R,N,V_modelRetention"
++ "TQ,R,N,V_sensitivityLevel"
++ "Td,R,N,V_bestFormattedStringSegmentConfidence"
++ "Transcriber initialized with locale: %s, effective locale (language-region) pair: %s"
++ "Transcriber was initialized with a locale with insufficient information: "
++ "Transcriber.makeWorkerUsable: Concatenate-utterances option different, cannot make usable"
++ "Transcriber.makeWorkerUsable: Must-match flags different, cannot make usable"
++ "Transcriber: Saved end-of-recognition result %s"
++ "Transcriber: Skipped empty/internal results"
++ "Unable to unarchive object, result was nil"
++ "Unable to unsubscribe %s from %@: %@"
++ "VAD sensitivity level desired "
++ "Voice activity detection model was unable to be enabled."
++ "Vv24@0:8@?<v@?@\"NSXPCListenerEndpoint\"@\"NSError\">16"
++ "Vv32@0:8@\"NSString\"16@?<v@?B@\"NSError\">24"
++ "Vv40@0:8@\"NSLocale\"16@\"NSString\"24@?<v@?@\"NSXPCListenerEndpoint\"@\"NSError\">32"
++ "Vv40@0:8@\"NSString\"16@\"NSDictionary\"24@?<v@?@\"EARFullPayloadCorrectionResult\">32"
++ "Vv56@0:8@\"SFEntitledAssetConfig\"16B24@\"NSString\"28@\"NSURL\"36B44@?<v@?@\"NSXPCListenerEndpoint\"@\"NSError\">48"
++ "Vv56@0:8@16B24@28@36B44@?48"
++ "Vv64@0:8@\"NSArray\"16@\"NSString\"24@\"NSString\"32@\"NSUUID\"40@\"NSString\"48@?<v@?B>56"
++ "[To be implemented in rdar://105899082] - SpeechDetector: Yielded (dummy) result"
++ "_SFSpeechRecognizerEndpointDetectorOptions"
++ "_SFSpeechRecognizerSpeechDetectorOptions"
++ "_SFXPCEARFullPayloadCorrector"
++ "_SFXPCEARTranscriptionEvaluator"
++ "_TtC6Speech14EARXPCRegistry"
++ "_TtC6Speech20FullPayloadCorrector"
++ "_TtC6Speech22TranscriptionEvaluator"
++ "_TtC6Speech23EARFullPayloadCorrector"
++ "_TtC6Speech25AssetsInstallationRequest"
++ "_TtC6Speech25EARTranscriptionEvaluator"
++ "_TtC6SpeechP33_62876FE84B3142C220F84970CC8D7F0025FullPayloadCorrectorActor"
++ "_bestFormattedString"
++ "_bestFormattedStringSegmentConfidence"
++ "_dealloc"
++ "_endModelRetentionWithCompletion:"
++ "_endpointDetectionOptions"
++ "_fullPayloadCorrectorService"
++ "_modelRetention"
++ "_objc_initiateDealloc"
++ "_reportResults"
++ "_result"
++ "_sensitivityLevel"
++ "_speechDetectionOptions"
++ "_transcriptionEvaluatorService"
++ "allSpeechProfileContainersForSharedUserInfos:"
++ "assetConfig"
++ "assetConfigs"
++ "assetName cannot be nil."
++ "assetPathFromStatus:"
++ "assetsDownloadRequestForClientIdentifier:transcriberOptions:completion:"
++ "bestFormattedString"
++ "bestFormattedStringSegmentConfidence"
++ "concatenate utterances desired "
++ "configurationForClientIdentifier:queue:transcriberOptions:languageDetectorOptions:speechDetectorOptions:transcriberResultDelegate:endpointingResultDelegate:languageDetectorResultDelegate:speechDetectorResultDelegate:considering:completion:"
++ "correctPostITNOutput:withOptions:reply:"
++ "default"
++ "detector.json"
++ "didFinalizeToRange"
++ "empty"
++ "endpointDetectionOptions"
++ "evaluateMessagesContext:recognizedText:correctedText:asrID:speechProfilePath:reply:"
++ "fullPayloadCorrectorActor"
++ "generalASRLanguageForLocale:"
++ "generalASRLanguageForLocaleIdentifier:"
++ "hasANE"
++ "index element "
++ "initWithAssetType:locale:regionId:"
++ "initWithBool:"
++ "initWithBuilder:"
++ "initWithClientIdentifier:audioFormat:transcriberResultDelegate:endpointingResultDelegate:languageDetectorResultDelegate:queue:transcriberOptions:options:languageDetectorOptions:restrictedLogging:contextualNamedEntities:didChangeVolatileRange:"
++ "initWithClientIdentifier:audioFormat:transcriberResultDelegate:endpointingResultDelegate:languageDetectorResultDelegate:speechDetectorResultDelegate:queue:transcriberOptions:options:languageDetectorOptions:speechDetectorOptions:restrictedLogging:contextualNamedEntities:didChangeVolatileRange:"
++ "initWithClientIdentifier:audioFormat:transcriberResultDelegate:endpointingResultDelegate:languageDetectorResultDelegate:speechDetectorResultDelegate:queue:transcriberOptions:options:languageDetectorOptions:speechDetectorOptions:restrictedLogging:didChangeVolatileRange:"
++ "initWithConfiguration:options:restrictedLogging:contextualNamedEntities:didChangeVolatileRange:"
++ "initWithFarField:geoLMRegionID:supplementalModelURL:modelOverrideURL:speechProfileURLs:userIdMask:taskForMemoryLock:atypicalSpeech:enableParallelLoading:speechProfileContainers:"
++ "initWithHighPriority:modelRetention:loggingInfo:powerContext:"
++ "initWithLeftContext:rightContext:selectedText:contextualStrings:contextualNamedEntities:profileData:jitProfileData:"
++ "initWithLocale:taskNames:singleUtterance:concatenateUtterances:voiceCommandActiveSet:modelOptions:endpointDetectionOptions:speechDetectionOptions:flags:"
++ "initWithObjCSpeechAnalyzer:clientIdentifier:audioFormat:transcriberResultDelegate:endpointingResultDelegate:languageDetectorResultDelegate:speechDetectorResultDelegate:queue:transcriberOptions:options:languageDetectorOptions:speechDetectorOptions:restrictedLogging:contextualNamedEntities:didChangeVolatileRange:"
++ "initWithRange:"
++ "initWithReportResults:"
++ "initWithResult:loggingInfo:error:"
++ "initWithSegments:transcriptions:earResultType:nBestChoices:recognitionAudioRange:bestFormattedString:bestFormattedStringSegmentConfidence:"
++ "initWithSensitivityLevel:"
++ "initWithSupplementalModelURL:farField:geoLMRegionID:modelOverrideURL:speechProfileURLs:taskForMemoryLock:atypicalSpeech:enableParallelLoading:"
++ "initWithText:alternatives:confidence:"
++ "inputSequence"
++ "is"
++ "is NOT"
++ "isANETypeAtLeastVersion:prefix:"
++ "isEuclidAvailableForConfigPath:reply:"
++ "isVADSupportedForRequestWithReply:"
++ "language cannot be nil."
++ "lower upper "
++ "makeFullPayloadCorrectorInstanceWithLocale:clientID:reply:"
++ "makeLSRAssetsForAssetConfig:shouldSubscribe:clientID:modelOverridePath:isSpelling:reply:"
++ "makeTranscriptionEvaluatorWithReply:"
++ "modelRetention"
++ "nil"
++ "pathToAssetWithConfig:clientID:asyncCompletion:"
++ "pathToAssetWithConfig:clientIdentifier:completion:"
++ "prepareToAnalyze(withProgressReadyHandler:)"
++ "progressWithTotalUnitCount:"
++ "reportResults"
++ "sensitivityLevel"
++ "setAnalysisContextWithContextualNamedEntities:completionHandler:"
++ "setFileOperationKind:"
++ "setInputSequence(_:audioFormat:)"
++ "setKind:"
++ "setLocalizedAdditionalDescription:"
++ "setPersonaId:"
++ "setPersonalizationUserEditNamedEntityMetrics:"
++ "setReportResults:"
++ "setSensitivityLevel:"
++ "setUserInfoObject:forKey:"
++ "shouldEmitOndeviceRecordLogs"
++ "shouldSubscribe"
++ "speechAnalyzer:didProduceSpeechDetectorResult:"
++ "speechAnalyzer:didStopSpeechDetectorWithError:"
++ "speechAnalyzerWithConfiguration:inputAudioFile:options:restrictedLogging:contextualNamedEntities:didChangeVolatileRange:completion:"
++ "speechDetectionOptions"
++ "speechDetector"
++ "speechProfilePath"
++ "speechProfilePathsForLanguage:"
++ "speechProfilePathsForLanguage:personaId:"
++ "speechProfilePathsForLanguage:speechProfileContainers:"
++ "speechProfilePathsForLanguage:userType:"
++ "speechProfileRootDirectoriesWithUserType:"
++ "speechRecognizerDidProduceLoggableMultiUserPackages:"
++ "subscriberId cannot be nil."
++ "unsubscribeFromAssetWithConfig:clientID:asyncCompletion:"
++ "unsubscribeFromAssetWithConfig:clientIdentifier:completion:"
++ "userSpecificSpeechProfileContainersForSharedUserInfos:"
++ "v104@0:8@16@24@32@40@48@56@64@72@80@88@?96"
++ "v16@?0@\"<AFASRSharedUserInfoMutating>\"8"
++ "v16@?0@\"EARFullPayloadCorrectionResult\"8"
++ "v32@0:8@\"NSArray\"16@?<v@?@\"NSError\">24"
++ "v32@0:8@\"SFSpeechAnalyzer\"16@\"SFSpeechDetectorResult\"24"
++ "v40@0:8@\"NSString\"16@\"SFSpeechAnalyzerTranscriberOptions\"24@?<v@?@\"_TtC6Speech25AssetsInstallationRequest\">32"
++ "v68@0:8@16@24@32B40@44@?52@?60"
++ "valueWithCMTimeRange:"
++ "yue"
++ "zh-HK"
++ "zh-MO"
+- "%s GeneralASR is not supported on this device"
+- "%s Language cannot be nil."
+- "%s MUX: %zu speech profiles (out of %zu containers) are present on disk"
+- "%s MUX: %zu speech profiles are loaded"
+- "%s MUX: Failed to resolve container, url and personaId cannot both be nil."
+- "%s MUX: cached speech profile is nil for path=%{private}@"
+- "%s MUX: checking speech profile existence of %zu containers..."
+- "%s MUX: empty data site URL for Container from Persona: %@"
+- "%s MUX: failed to load speech profile: path=%{private}@ error=%@"
+- "%s MUX: fileAttribs is nil for cached speech profile at path=%{private}@"
+- "%s MUX: loaded speech profile: path=%{private}@"
+- "%s MUX: no (%@) speech profile at path: %@"
+- "%s MUX: profiles cannot be nil."
+- "%s MUX: reusing cached speech profile: path=%{private}@"
+- "%s Root directories for new type of speech profile: %{private}@"
+- "+[SFUtilities speechProfilePathsWithLanguage:]"
+- "+[SFUtilities speechProfilePathsWithLanguage:sharedUserInfos:]"
+- "+[SFUtilities speechProfileRootDirectories]"
+- ", resultsFinalToTime "
+- ", transcription "
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/SpeechFramework/EAR-XPC/NSXPCActorSystem.swift"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/SpeechFramework/SpeechAnalyzer/CommandRecognizer.swift"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/SpeechFramework/SpeechAnalyzer/EndpointDetector.swift"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/SpeechFramework/SpeechAnalyzer/LanguageDetector.swift"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/SpeechFramework/SpeechAnalyzer/LanguageDetectorWorker.swift"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/SpeechFramework/SpeechAnalyzer/Misc.swift"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/SpeechFramework/SpeechAnalyzer/ModelDownloadRequest.swift"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/SpeechFramework/SpeechAnalyzer/ObjCSpeechAnalyzer.swift"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/SpeechFramework/SpeechAnalyzer/PhoneticTranscriber.swift"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/SpeechFramework/SpeechAnalyzer/SpeechAnalyzer.swift"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/SpeechFramework/SpeechAnalyzer/SpeechAnalyzerClientInterface.swift"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/SpeechFramework/SpeechAnalyzer/SpeechRecognizerWorker.swift"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/SpeechFramework/SpeechAnalyzer/TaskHint.swift"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/SpeechFramework/SpeechAnalyzer/TimeUtilities.swift"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/SpeechFramework/SpeechAnalyzer/Transcriber.swift"
+- "043fda7b-2fc0-489e-8cce-319c22dcf3ba"
+- "502484ea-7a73-454a-8e1f-9f04983d6358"
+- "<_SFSpeechRecognizerDetectorOptions: detectAfterTime %f>"
+- "<_SFSpeechRecognizerModelOptions: farField %d, supplementalModelURL %@, modelOverrideURL %@, speechProfileURLs %@, userIdMask %@, taskForMemoryLock %@, atypicalSpeech %d, enableParallelLoading %d, speechProfileContainers %@>"
+- "<_SFSpeechRecognizerSupportedFeatures (%p): locale %@, taskNames %@, singleUtterance %d, concatenateUtterances %d, modelOptions %@, detectionOptions %@, flags %#lx>"
+- "@\"_SFSpeechRecognizerDetectorOptions\""
+- "@124@0:8@16@24@32@40@48@56@64@72@80@88B96@100@108@?116"
+- "@72@0:8@16@24B32B36@40@48@56Q64"
+- "@76@0:8B16@20@28@36@44@52B60B64@68"
+- "@80@0:8@16@24@32@40@48@56@64@72"
+- "@96@0:8@16@24Q32@40{?={?=qiIq}{?=qiIq}}48"
+- "Attempt to modify value after it was locked"
+- "Can't construct Array with count < 0"
+- "CommandRecognizer using Transcriber that is not associated with same SpeechAnalyzer"
+- "Division by zero"
+- "Division results in an overflow"
+- "Enqueuing experiment trigger log on a background task. codepathId=%s requestId=%s"
+- "Failed to log experiment trigger log for unrecognized codepathId %s"
+- "Insufficient space allocated to copy string contents"
+- "LanguageDetector.%s: No available model info; using hard-coded values"
+- "Must take zero or more splits"
+- "Negative value is not representable"
+- "No models to download supplied"
+- "Not enough bits to represent the passed value"
+- "Range requires lowerBound <= upperBound"
+- "Speech.LocalSpeechRecognitionService.makeLSRAssets(locale:taskName:clientID:modelOverridePath:isSpelling:)"
+- "Speech.ModelDownloadRequest"
+- "SpeechAnalyzer: Executing input barrier at %@"
+- "Swift/Array.swift"
+- "Swift/Collection.swift"
+- "Swift/ContiguousArrayBuffer.swift"
+- "Swift/IntegerTypes.swift"
+- "Swift/Integers.swift"
+- "Swift/Range.swift"
+- "Swift/StringTesting.swift"
+- "Swift/StringUTF8View.swift"
+- "Swift/UnsafeBufferPointer.swift"
+- "Swift/UnsafePointer.swift"
+- "Swift/UnsafeRawPointer.swift"
+- "T@\"NSString\",N,C"
+- "T@\"_SFSpeechRecognizerDetectorOptions\",R,C,N,V_detectionOptions"
+- "Transcriber cannot be initialized with both `.emoji` and `.normalizedTranscription`."
+- "Transcriber cannot be initialized with both `.longerContextualization` and `.normalizedTranscription`."
+- "Transcriber cannot be initialized with both `.normalizedTranscription` and `.contextualizedTranscription`."
+- "Transcriber cannot be initialized with both `.punctuation` and `.normalizedTranscription`."
+- "Transcriber.%s: No available model info; using hard-coded values"
+- "Unexpectedly found nil while unwrapping an Optional value"
+- "UnsafeMutableBufferPointer with negative count"
+- "UnsafeMutablePointer.initialize overlapping range"
+- "UnsafeMutablePointer.initialize with negative count"
+- "UnsafeMutablePointer.moveInitialize with negative count"
+- "UnsafeMutableRawPointer.initializeMemory overlapping range"
+- "UnsafeMutableRawPointer.initializeMemory with negative count"
+- "Vv60@0:8@\"NSLocale\"16@\"NSString\"24@\"NSString\"32@\"NSURL\"40B48@?<v@?@\"NSXPCListenerEndpoint\"@\"NSError\">52"
+- "Vv60@0:8@16@24@32@40B48@?52"
+- "_SFSpeechRecognizerDetectorOptions"
+- "_TtC6Speech20ModelDownloadRequest"
+- "_TtCC6Speech15AnalysisContextP33_813AAEFDCCF2FB11F9DE9A1343F1F01821ContextDelegatesMutex"
+- "_assetPathWithStatus:"
+- "_contextualStringsForKey:"
+- "_detectDataSites"
+- "_detectionOptions"
+- "_didFinalizeToRange"
+- "_facetimeObserver"
+- "_foregroundObserver"
+- "_isDeviceH13Plus"
+- "_setContextualStrings:forKey:"
+- "_setUserData:forKey:"
+- "_userDataForKey:"
+- "asr_speech_profile_shared_data"
+- "assetTypesPerLocale"
+- "availableCompatibleAudioFormats(clientID:)"
+- "c852375e-0091-4dbd-b2f7-792507612de5"
+- "configurationForClientIdentifier:queue:transcriberOptions:languageDetectorOptions:transcriberResultDelegate:endpointingResultDelegate:languageDetectorResultDelegate:considering:completion:"
+- "contextDelegatesMutex"
+- "downloadWithCompletion:"
+- "eb18055e-87c4-44c2-ab94-9275bec61c52"
+- "geoLM region desired "
+- "initWithFarField:supplementalModelURL:modelOverrideURL:speechProfileURLs:userIdMask:taskForMemoryLock:atypicalSpeech:enableParallelLoading:speechProfileContainers:"
+- "initWithLeftContext:rightContext:selectedText:geoLMRegionID:contextualStrings:contextualNamedEntities:profileData:jitProfileData:"
+- "initWithLocale:taskNames:singleUtterance:concatenateUtterances:voiceCommandActiveSet:modelOptions:detectionOptions:flags:"
+- "initWithObjCSpeechAnalyzer:clientIdentifier:audioFormat:transcriberResultDelegate:endpointingResultDelegate:languageDetectorResultDelegate:queue:transcriberOptions:options:languageDetectorOptions:restrictedLogging:geoLMRegionID:contextualNamedEntities:didChangeVolatileRange:"
+- "initWithSegments:transcriptions:earResultType:nBestChoices:recognitionAudioRange:"
+- "initWithText:alternatives:"
+- "internalInputSequence"
+- "invalid Collection: less than 'count' elements in collection"
+- "makeLSRAssetsForLocale:taskName:clientID:modelOverrideURL:isSpelling:reply:"
+- "modelDownloadRequestForClientIdentifier:transcriberOptions:"
+- "prepareToAnalyze(reportingInto:)"
+- "setAnalysisContextWithGeoLMRegionID:contextualNamedEntities:completionHandler:"
+- "setDialogContexts:"
+- "setGeoLMRegionID:"
+- "setInputSequence(_:withAudioFormat:)"
+- "speechAnalyzerWithConfiguration:inputAudioFile:options:restrictedLogging:geoLMRegionID:contextualNamedEntities:didChangeVolatileRange:completion:"
+- "startTimeOnAudioBuffer"
+- "taskName"
+- "v32@0:8@\"NSArray\"16@?<v@?@\"NSArray\">24"
+- "v40@0:8@\"NSString\"16@\"NSArray\"24@?<v@?@\"NSError\">32"
+- "v76@0:8@16@24@32B40@44@52@?60@?68"
+- "v88@0:8@16@24@32@40@48@56@64@72@?80"
+
+```

@@ -1,0 +1,384 @@
+## TimelineUI
+
+> `/System/Library/PrivateFrameworks/TimelineUI.framework/Versions/A/TimelineUI`
+
+```diff
+
+-2427.0.0.0.0
+-  __TEXT.__text: 0xeabd4
+-  __TEXT.__auth_stubs: 0x2e60
+-  __TEXT.__objc_methlist: 0x8d4
+-  __TEXT.__const: 0x5f88
+-  __TEXT.__gcc_except_tab: 0xd30
+-  __TEXT.__cstring: 0x2c2d
+-  __TEXT.__swift5_typeref: 0x5aeb
++2430.0.0.0.0
++  __TEXT.__text: 0xe7f20
++  __TEXT.__auth_stubs: 0x2e30
++  __TEXT.__objc_methlist: 0xd60
++  __TEXT.__const: 0x6148
++  __TEXT.__gcc_except_tab: 0xcd8
++  __TEXT.__cstring: 0x2835
++  __TEXT.__swift5_typeref: 0x59f1
+   __TEXT.__swift5_capture: 0x113c
+   __TEXT.__swift5_reflstr: 0x1cf0
+-  __TEXT.__swift5_assocty: 0xa88
+-  __TEXT.__constg_swiftt: 0x2d7c
+-  __TEXT.__swift5_fieldmd: 0x2080
+-  __TEXT.__swift5_builtin: 0x208
+-  __TEXT.__swift5_proto: 0x440
+-  __TEXT.__swift5_types: 0x32c
++  __TEXT.__swift5_assocty: 0xab8
++  __TEXT.__constg_swiftt: 0x2d9c
++  __TEXT.__swift5_fieldmd: 0x209c
++  __TEXT.__swift5_builtin: 0x21c
++  __TEXT.__swift5_proto: 0x458
++  __TEXT.__swift5_types: 0x334
+   __TEXT.__oslogstring: 0x80b
++  __TEXT.__swift_as_entry: 0x2e0
++  __TEXT.__swift_as_ret: 0x2e0
+   __TEXT.__swift5_protos: 0x1c
+   __TEXT.__swift5_types2: 0x8
+   __TEXT.__swift5_mpenum: 0x48
+-  __TEXT.__unwind_info: 0x3f70
+-  __TEXT.__eh_frame: 0x6114
++  __TEXT.__unwind_info: 0x3c68
++  __TEXT.__eh_frame: 0x63d0
+   __TEXT.__objc_classname: 0xda
+   __TEXT.__objc_methname: 0x284b
+   __TEXT.__objc_methtype: 0xc84
+   __TEXT.__objc_stubs: 0xf20
+-  __DATA_CONST.__got: 0xa70
+-  __DATA_CONST.__const: 0x240
++  __DATA_CONST.__got: 0xa78
++  __DATA_CONST.__const: 0x138
+   __DATA_CONST.__objc_classlist: 0xe0
+   __DATA_CONST.__objc_catlist: 0x40
+   __DATA_CONST.__objc_protolist: 0x70
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xb10
++  __DATA_CONST.__objc_selrefs: 0xd20
+   __DATA_CONST.__objc_protorefs: 0x38
+   __DATA_CONST.__objc_superrefs: 0x18
+-  __AUTH_CONST.__auth_got: 0x1740
+-  __AUTH_CONST.__const: 0x5650
++  __AUTH_CONST.__auth_got: 0x1728
++  __AUTH_CONST.__const: 0x58a8
+   __AUTH_CONST.__cfstring: 0x140
+-  __AUTH_CONST.__objc_const: 0x2a90
++  __AUTH_CONST.__objc_const: 0x21f8
+   __AUTH.__objc_data: 0xc30
+-  __AUTH.__data: 0x1d98
++  __AUTH.__data: 0x1d88
+   __DATA.__objc_ivar: 0x4c
+-  __DATA.__data: 0x22b8
+-  __DATA.__bss: 0x7e88
++  __DATA.__data: 0x2330
++  __DATA.__bss: 0x8178
+   __DATA.__common: 0x1f8
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+   - /System/Library/Frameworks/Combine.framework/Versions/A/Combine
+
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
++  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIOKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: B1B9D001-0FAD-3E57-AF64-285D64162EA5
+-  Functions: 4506
+-  Symbols:   2280
+-  CStrings:  968
++  UUID: 67F2B64B-1D40-3842-82C4-D3A683DF230A
++  Functions: 4478
++  Symbols:   2361
++  CStrings:  947
+ 
+Symbols:
++ +[NSBundle(TLUExtensions) tlu_timelineUIBundle].cold.1
++ +[NSDateFormatter(TLUExtensions) tlu_fullDateOnlyFormatter:].cold.1
++ +[NSDateFormatter(TLUExtensions) tlu_fullDateOnlyFormatter:].cold.2
++ +[NSDateFormatter(TLUExtensions) tlu_fullDateTimeFormatter:].cold.1
++ +[NSDateFormatter(TLUExtensions) tlu_fullDateTimeFormatter:].cold.2
++ +[NSDateFormatter(TLUExtensions) tlu_mediumDateTimeFormatter:].cold.1
++ +[NSDateFormatter(TLUExtensions) tlu_mediumDateTimeFormatter:].cold.2
++ -[TLUTimelineLayer invalidate].cold.1
++ -[TLUTimelineLayer setTargetMagnification:amount:].cold.1
++ GCC_except_table102
++ GCC_except_table40
++ GCC_except_table45
++ GCC_except_table50
++ GCC_except_table57
++ GCC_except_table60
++ GCC_except_table65
++ GCC_except_table74
++ GCC_except_table76
++ GCC_except_table78
++ GCC_except_table80
++ GCC_except_table82
++ GCC_except_table95
++ __ZNKSt3__111__copy_implINS_17_ClassicAlgPolicyEEclB8ne190102IPKNS_10shared_ptrI15TLUTimelineTickEES8_PS6_EENS_4pairIT_T1_EESB_T0_SC_
++ __ZNKSt3__111__copy_implINS_17_ClassicAlgPolicyEEclB8ne190102IPNS_10shared_ptrI15TLUTimelineTickEES7_S7_EENS_4pairIT_T1_EES9_T0_SA_
++ __ZNKSt3__111__copy_implINS_17_ClassicAlgPolicyEEclB8ne190102IPNS_6vectorIdNS_9allocatorIdEEEES8_S8_EENS_4pairIT_T1_EESA_T0_SB_
++ __ZNKSt3__111__move_implINS_17_ClassicAlgPolicyEEclB8ne190102IPNS_10shared_ptrI15TLUTimelineTickEES7_S7_EENS_4pairIT_T1_EES9_T0_SA_
++ __ZNKSt3__120__move_backward_implINS_17_ClassicAlgPolicyEEclB8ne190102IPNS_10shared_ptrI15TLUTimelineTickEES7_S7_EENS_4pairIT_T1_EES9_T0_SA_
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_10shared_ptrI15TLUTimelineTickEEEEPS4_EclB8ne190102Ev
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIdNS1_IdEEEEEEPS4_EclB8ne190102Ev
++ __ZNKSt3__16vectorIN23TParametricInterpolator4knotENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorINS0_IdNS_9allocatorIdEEEENS1_IS3_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorINS_10shared_ptrI15TLUTimelineTickEENS_9allocatorIS3_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIdNS_9allocatorIdEEE20__throw_length_errorB8ne190102Ev
++ __ZNSt12length_errorC1B8ne190102EPKc
++ __ZNSt3__110shared_ptrI15TLUTimelineTickE18__enable_weak_thisB8ne190102IS1_S1_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
++ __ZNSt3__110shared_ptrIK15TLUTimelineTickEC2B8ne190102IS1_Li0EEERKNS_8weak_ptrIT_EE
++ __ZNSt3__114__split_bufferINS_10shared_ptrI15TLUTimelineTickEERNS_9allocatorIS3_EEE5clearB8ne190102Ev
++ __ZNSt3__114__split_bufferINS_6vectorIdNS_9allocatorIdEEEERNS2_IS4_EEE17__destruct_at_endB8ne190102EPS4_
++ __ZNSt3__115allocate_sharedB8ne190102I15TLUTimelineTickNS_9allocatorIS1_EEJRiRU8__strongP6NSDate11TLUTickTypeELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8ne190102I15TLUTimelineTickNS_9allocatorIS1_EEJRiRU8__strongP6NSDate11TLUTickTypeRbELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8ne190102I15TLUTimelineTickNS_9allocatorIS1_EEJRiU8__strongP6NSDate11TLUTickTypeELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8ne190102I15TLUTimelineTickNS_9allocatorIS1_EEJRiU8__strongP6NSDate11TLUTickTypebELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8ne190102I15TLUTimelineTickNS_9allocatorIS1_EEJiU8__strongP6NSDate11TLUTickTypeELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN23TParametricInterpolator4knotEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_10shared_ptrI15TLUTimelineTickEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_6vectorIdNS1_IdEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIdEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__shared_weak_count16__release_sharedB8ne190102Ev
++ __ZNSt3__120__shared_ptr_emplaceI15TLUTimelineTickNS_9allocatorIS1_EEEC2B8ne190102IJRiRU8__strongP6NSDate11TLUTickTypeES3_Li0EEES3_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceI15TLUTimelineTickNS_9allocatorIS1_EEEC2B8ne190102IJRiRU8__strongP6NSDate11TLUTickTypeRbES3_Li0EEES3_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceI15TLUTimelineTickNS_9allocatorIS1_EEEC2B8ne190102IJRiU8__strongP6NSDate11TLUTickTypeES3_Li0EEES3_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceI15TLUTimelineTickNS_9allocatorIS1_EEEC2B8ne190102IJRiU8__strongP6NSDate11TLUTickTypebES3_Li0EEES3_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceI15TLUTimelineTickNS_9allocatorIS1_EEEC2B8ne190102IJiU8__strongP6NSDate11TLUTickTypeES3_Li0EEES3_DpOT_
++ __ZNSt3__120__throw_bad_weak_ptrB8ne190102Ev
++ __ZNSt3__120__throw_length_errorB8ne190102EPKc
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_10shared_ptrI15TLUTimelineTickEEEEPS5_EEED2B8ne190102Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIdNS2_IdEEEEEEPS5_EEED2B8ne190102Ev
++ __ZNSt3__135__uninitialized_allocator_copy_implB8ne190102INS_9allocatorINS_10shared_ptrI15TLUTimelineTickEEEEPKS4_S7_PS4_EET2_RT_T0_T1_S9_
++ __ZNSt3__135__uninitialized_allocator_copy_implB8ne190102INS_9allocatorINS_10shared_ptrI15TLUTimelineTickEEEEPS4_S6_S6_EET2_RT_T0_T1_S7_
++ __ZNSt3__135__uninitialized_allocator_copy_implB8ne190102INS_9allocatorINS_6vectorIdNS1_IdEEEEEEPS4_S6_S6_EET2_RT_T0_T1_S7_
++ __ZNSt3__16vectorINS0_IdNS_9allocatorIdEEEENS1_IS3_EEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorINS0_IdNS_9allocatorIdEEEENS1_IS3_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorINS0_IdNS_9allocatorIdEEEENS1_IS3_EEE18__assign_with_sizeB8ne190102IPS3_S7_EEvT_T0_l
++ __ZNSt3__16vectorINS0_IdNS_9allocatorIdEEEENS1_IS3_EEE7__clearB8ne190102Ev
++ __ZNSt3__16vectorINS_10shared_ptrI15TLUTimelineTickEENS_9allocatorIS3_EEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorINS_10shared_ptrI15TLUTimelineTickEENS_9allocatorIS3_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorINS_10shared_ptrI15TLUTimelineTickEENS_9allocatorIS3_EEE18__insert_with_sizeB8ne190102INS_11__wrap_iterIPKS3_EESB_EENS8_IPS3_EESB_T_T0_l
++ __ZNSt3__16vectorINS_10shared_ptrI15TLUTimelineTickEENS_9allocatorIS3_EEE18__insert_with_sizeB8ne190102INS_11__wrap_iterIPS3_EESA_EESA_NS8_IPKS3_EET_T0_l
++ __ZNSt3__16vectorINS_10shared_ptrI15TLUTimelineTickEENS_9allocatorIS3_EEE7__clearB8ne190102Ev
++ __ZNSt3__16vectorINS_10shared_ptrI15TLUTimelineTickEENS_9allocatorIS3_EEEC2B8ne190102EmRKS3_
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE16__init_with_sizeB8ne190102IPdS5_EEvT_T0_m
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE18__assign_with_sizeB8ne190102IPdS5_EEvT_T0_l
++ __ZSt28__throw_bad_array_new_lengthB8ne190102v
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ ___swift_project_boxed_opaque_existential_1Tm
++ __swift_FORCE_LOAD_$_swiftDataDetection
++ __swift_FORCE_LOAD_$_swiftDataDetection_$_TimelineUI
++ _associated conformance So15NSModalResponseaSHSCSQ
++ _associated conformance So15NSModalResponseas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So15NSModalResponseas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _symbolic SccySaySo22TLUFloatingRestoreIconCGSg_____G s5NeverO
++ _symbolic SccySo18SCShareableContentC______pG s5ErrorP
++ _symbolic Sccy______AAt______pG So20TLUTimelineItemFlagsV s5ErrorP
++ _symbolic Sccy__________G So15NSModalResponsea s5NeverO
++ _symbolic Sccy___________pG So10CGImageRefa s5ErrorP
++ _symbolic Sccyyp_____G s5NeverO
++ _symbolic Sccyyp______pG s5ErrorP
++ _symbolic Sccyyt______pG s5ErrorP
++ _symbolic _____ So15NSModalResponsea
++ _symbolic _____Sg 10TimelineUI0A9TestEventO
++ _symbolic _____y______G ScS8IteratorV 10TimelineUI0B9TestEventO
++ block_copy_helper.102
++ block_copy_helper.107
++ block_copy_helper.113
++ block_copy_helper.116
++ block_copy_helper.122
++ block_copy_helper.125
++ block_copy_helper.132
++ block_copy_helper.135
++ block_copy_helper.145
++ block_copy_helper.148
++ block_copy_helper.37
++ block_copy_helper.41
++ block_copy_helper.44
++ block_copy_helper.45
++ block_descriptor.104
++ block_descriptor.109
++ block_descriptor.115
++ block_descriptor.118
++ block_descriptor.124
++ block_descriptor.127
++ block_descriptor.134
++ block_descriptor.137
++ block_descriptor.147
++ block_descriptor.150
++ block_descriptor.43
++ block_descriptor.46
++ block_descriptor.47
++ block_destroy_helper.103
++ block_destroy_helper.108
++ block_destroy_helper.114
++ block_destroy_helper.117
++ block_destroy_helper.123
++ block_destroy_helper.126
++ block_destroy_helper.133
++ block_destroy_helper.136
++ block_destroy_helper.146
++ block_destroy_helper.149
++ block_destroy_helper.38
++ block_destroy_helper.42
++ block_destroy_helper.45
++ block_destroy_helper.46
++ objectdestroy.66Tm
+- GCC_except_table104
+- GCC_except_table109
+- GCC_except_table22
+- GCC_except_table38
+- GCC_except_table43
+- GCC_except_table46
+- GCC_except_table53
+- GCC_except_table58
+- GCC_except_table62
+- GCC_except_table66
+- GCC_except_table75
+- GCC_except_table77
+- GCC_except_table79
+- GCC_except_table81
+- GCC_except_table83
+- __ZNKSt3__111__copy_loopINS_17_ClassicAlgPolicyEEclB8ne180100IPKNS_10shared_ptrI15TLUTimelineTickEES8_PS6_EENS_4pairIT_T1_EESB_T0_SC_
+- __ZNKSt3__111__copy_loopINS_17_ClassicAlgPolicyEEclB8ne180100IPNS_10shared_ptrI15TLUTimelineTickEES7_S7_EENS_4pairIT_T1_EES9_T0_SA_
+- __ZNKSt3__111__copy_loopINS_17_ClassicAlgPolicyEEclB8ne180100IPNS_6vectorIdNS_9allocatorIdEEEES8_S8_EENS_4pairIT_T1_EESA_T0_SB_
+- __ZNKSt3__111__move_loopINS_17_ClassicAlgPolicyEEclB8ne180100IPNS_10shared_ptrI15TLUTimelineTickEES7_S7_EENS_4pairIT_T1_EES9_T0_SA_
+- __ZNKSt3__120__move_backward_loopINS_17_ClassicAlgPolicyEEclB8ne180100IPNS_10shared_ptrI15TLUTimelineTickEES7_S7_EENS_4pairIT_T1_EES9_T0_SA_
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_10shared_ptrI15TLUTimelineTickEEEENS_16reverse_iteratorIPS4_EEEclB8ne180100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_10shared_ptrI15TLUTimelineTickEEEEPS4_EclB8ne180100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIdNS1_IdEEEEEENS_16reverse_iteratorIPS4_EEEclB8ne180100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIdNS1_IdEEEEEEPS4_EclB8ne180100Ev
+- __ZNKSt3__16vectorIN23TParametricInterpolator4knotENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorINS0_IdNS_9allocatorIdEEEENS1_IS3_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorINS_10shared_ptrI15TLUTimelineTickEENS_9allocatorIS3_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIdNS_9allocatorIdEEE20__throw_length_errorB8ne180100Ev
+- __ZNSt12length_errorC1B8ne180100EPKc
+- __ZNSt3__110shared_ptrI15TLUTimelineTickE18__enable_weak_thisB8ne180100IS1_S1_vEEvPKNS_23enable_shared_from_thisIT_EEPT0_
+- __ZNSt3__110shared_ptrIK15TLUTimelineTickEC2B8ne180100IS1_vEERKNS_8weak_ptrIT_EE
+- __ZNSt3__114__split_bufferINS_10shared_ptrI15TLUTimelineTickEERNS_9allocatorIS3_EEE5clearB8ne180100Ev
+- __ZNSt3__114__split_bufferINS_6vectorIdNS_9allocatorIdEEEERNS2_IS4_EEE17__destruct_at_endB8ne180100EPS4_
+- __ZNSt3__115allocate_sharedB8ne180100I15TLUTimelineTickNS_9allocatorIS1_EEJRiRU8__strongP6NSDate11TLUTickTypeEvEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne180100I15TLUTimelineTickNS_9allocatorIS1_EEJRiRU8__strongP6NSDate11TLUTickTypeRbEvEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne180100I15TLUTimelineTickNS_9allocatorIS1_EEJRiU8__strongP6NSDate11TLUTickTypeEvEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne180100I15TLUTimelineTickNS_9allocatorIS1_EEJRiU8__strongP6NSDate11TLUTickTypebEvEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne180100I15TLUTimelineTickNS_9allocatorIS1_EEJiU8__strongP6NSDate11TLUTickTypeEvEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIN23TParametricInterpolator4knotEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorINS_10shared_ptrI15TLUTimelineTickEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorINS_6vectorIdNS1_IdEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIdEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__shared_weak_count16__release_sharedB8ne180100Ev
+- __ZNSt3__120__shared_ptr_emplaceI15TLUTimelineTickNS_9allocatorIS1_EEEC2B8ne180100IJRiRU8__strongP6NSDate11TLUTickTypeES3_Li0EEES3_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceI15TLUTimelineTickNS_9allocatorIS1_EEEC2B8ne180100IJRiRU8__strongP6NSDate11TLUTickTypeRbES3_Li0EEES3_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceI15TLUTimelineTickNS_9allocatorIS1_EEEC2B8ne180100IJRiU8__strongP6NSDate11TLUTickTypeES3_Li0EEES3_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceI15TLUTimelineTickNS_9allocatorIS1_EEEC2B8ne180100IJRiU8__strongP6NSDate11TLUTickTypebES3_Li0EEES3_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceI15TLUTimelineTickNS_9allocatorIS1_EEEC2B8ne180100IJiU8__strongP6NSDate11TLUTickTypeES3_Li0EEES3_DpOT_
+- __ZNSt3__120__throw_bad_weak_ptrB8ne180100Ev
+- __ZNSt3__120__throw_length_errorB8ne180100EPKc
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_10shared_ptrI15TLUTimelineTickEEEENS_16reverse_iteratorIPS5_EEEEED2B8ne180100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_10shared_ptrI15TLUTimelineTickEEEEPS5_EEED2B8ne180100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIdNS2_IdEEEEEENS_16reverse_iteratorIPS5_EEEEED2B8ne180100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIdNS2_IdEEEEEEPS5_EEED2B8ne180100Ev
+- __ZNSt3__135__uninitialized_allocator_copy_implB8ne180100INS_9allocatorINS_10shared_ptrI15TLUTimelineTickEEEEPKS4_S7_PS4_EET2_RT_T0_T1_S9_
+- __ZNSt3__135__uninitialized_allocator_copy_implB8ne180100INS_9allocatorINS_10shared_ptrI15TLUTimelineTickEEEEPS4_S6_S6_EET2_RT_T0_T1_S7_
+- __ZNSt3__135__uninitialized_allocator_copy_implB8ne180100INS_9allocatorINS_6vectorIdNS1_IdEEEEEEPS4_S6_S6_EET2_RT_T0_T1_S7_
+- __ZNSt3__142__uninitialized_allocator_move_if_noexceptB8ne180100INS_9allocatorINS_10shared_ptrI15TLUTimelineTickEEEENS_16reverse_iteratorIPS4_EES8_S8_EET2_RT_T0_T1_S9_
+- __ZNSt3__142__uninitialized_allocator_move_if_noexceptB8ne180100INS_9allocatorINS_10shared_ptrI15TLUTimelineTickEEEEPS4_S6_S6_EET2_RT_T0_T1_S7_
+- __ZNSt3__142__uninitialized_allocator_move_if_noexceptB8ne180100INS_9allocatorINS_6vectorIdNS1_IdEEEEEENS_16reverse_iteratorIPS4_EES8_S8_EET2_RT_T0_T1_S9_
+- __ZNSt3__16vectorIN23TParametricInterpolator4knotENS_9allocatorIS2_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS2_RS4_EEPS2_
+- __ZNSt3__16vectorINS0_IdNS_9allocatorIdEEEENS1_IS3_EEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorINS0_IdNS_9allocatorIdEEEENS1_IS3_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorINS0_IdNS_9allocatorIdEEEENS1_IS3_EEE18__assign_with_sizeB8ne180100IPS3_S7_EEvT_T0_l
+- __ZNSt3__16vectorINS0_IdNS_9allocatorIdEEEENS1_IS3_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS3_RS4_EE
+- __ZNSt3__16vectorINS0_IdNS_9allocatorIdEEEENS1_IS3_EEE7__clearB8ne180100Ev
+- __ZNSt3__16vectorINS_10shared_ptrI15TLUTimelineTickEENS_9allocatorIS3_EEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorINS_10shared_ptrI15TLUTimelineTickEENS_9allocatorIS3_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorINS_10shared_ptrI15TLUTimelineTickEENS_9allocatorIS3_EEE18__insert_with_sizeB8ne180100INS_11__wrap_iterIPKS3_EESB_EENS8_IPS3_EESB_T_T0_l
+- __ZNSt3__16vectorINS_10shared_ptrI15TLUTimelineTickEENS_9allocatorIS3_EEE18__insert_with_sizeB8ne180100INS_11__wrap_iterIPS3_EESA_EESA_NS8_IPKS3_EET_T0_l
+- __ZNSt3__16vectorINS_10shared_ptrI15TLUTimelineTickEENS_9allocatorIS3_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS3_RS5_EE
+- __ZNSt3__16vectorINS_10shared_ptrI15TLUTimelineTickEENS_9allocatorIS3_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS3_RS5_EEPS3_
+- __ZNSt3__16vectorINS_10shared_ptrI15TLUTimelineTickEENS_9allocatorIS3_EEE7__clearB8ne180100Ev
+- __ZNSt3__16vectorINS_10shared_ptrI15TLUTimelineTickEENS_9allocatorIS3_EEE9push_backB8ne180100ERKS3_
+- __ZNSt3__16vectorINS_10shared_ptrI15TLUTimelineTickEENS_9allocatorIS3_EEEC2EmRKS3_
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE16__init_with_sizeB8ne180100IPdS5_EEvT_T0_m
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE18__assign_with_sizeB8ne180100IPdS5_EEvT_T0_l
+- __ZSt28__throw_bad_array_new_lengthB8ne180100v
+- _symbolic _____yAAy__________y_____ADSQ12CoreGraphicsyHCg_GG_____G 7SwiftUI15ModifiedContentV 08TimelineB08TickViewV AA23_GeometryActionModifierV So6CGSizeV AA07_HiddenJ0V
+- _symbolic _____yAAy_____yAAy_____y_____y_____ySay_____GG__________y_____y______SbQo__SbQo_GG_____G_Qo______y_____ARSQ12CoreGraphicsyHCg_GG_____G 7SwiftUI15ModifiedContentV AA4ViewP08TimelineB0E11debugBorder_5widthQrAA5ColorV_12CoreGraphics7CGFloatVtFQO AA6VStackV AA7ForEachV AA7BindingV AF04TickE5ModelV AF06RibbonR0O AeAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAEAxyZ_Qrqd___Sbyqd___qd__tctSQRd__lFQO AF0rE0V AA16_FlexFrameLayoutV AA23_GeometryActionModifierV So6CGSizeV AA15_HiddenModifierV
+- _symbolic _____y_Qo_ 10TimelineUI0A6RibbonV4bodyQrvpQO
+- _symbolic _____y_Qo_ 10TimelineUI16AXTimelineRibbonV4bodyQrvpQO
+- _symbolic _____y_____y_____y_____y_____y_____yACyACyACy__________GACy_____AGGGACyACyAeGGACyAgEGGGACy_____AEGGG_____y_____GG_Qo__Qo__Qo_ 7SwiftUI4ViewP08TimelineB0E11debugBorder_5widthQrAA5ColorV_12CoreGraphics7CGFloatVtFQO AcDE0E10WindowCardyQrAHFQO AcDE0E5LabelyQrSSFQO AA15ModifiedContentV AA6ZStackV AA012_ConditionalP0V AD04LivelM0V AD016EmptyPlaceholderM0V AD05ImageuM0V AD07LoadingM0V AA21_TraitWritingModifierV AA06ZIndexX3KeyV
+- _symbolic _____y_____y_____y_____y_____y_____y___________y_____AFGAAyAD_____GtGG_____y_____y_____GGG______SgASSQHPARSQ12CoreGraphicsyHC_HCg0_Qo__SbQo__Qo_ 7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AcAE0D6Change2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAEAghI_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV AA6VStackV AA05TupleC0V 08TimelineB010TickSpacerV AA012_ConditionalM0V AP09HoverableQ0V AA14_PaddingLayoutV AA16_OverlayModifierV AA14GeometryReaderV AA03AnyC0V So7CGPointV
+- block_copy_helper.103
+- block_copy_helper.118
+- block_copy_helper.129
+- block_copy_helper.96
+- block_copy_helper.99
+- block_descriptor.101
+- block_descriptor.102
+- block_descriptor.105
+- block_descriptor.106
+- block_descriptor.120
+- block_descriptor.121
+- block_descriptor.131
+- block_descriptor.132
+- block_descriptor.37
+- block_descriptor.41
+- block_descriptor.42
+- block_descriptor.96
+- block_descriptor.98
+- block_destroy_helper.100
+- block_destroy_helper.104
+- block_destroy_helper.119
+- block_destroy_helper.130
+- block_destroy_helper.97
+- objectdestroy.60Tm
+CStrings:
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/backupd/TimelineUI-Framework/CardDealer.swift"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/backupd/TimelineUI-Framework/Timeline+ObjC.swift"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/backupd/TimelineUI-Framework/TimelineController.swift"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/backupd/TimelineUI-Framework/Views/OldTimelineRibbon.swift"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/backupd/TimelineUI-Framework/Views/Ribbon/TickViewModels.swift"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/backupd/TimelineUI-Framework/Views/Ribbon/TimelineRibbon.swift"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/backupd/TimelineUI-Framework/Views/WindowBox.swift"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/backupd/TimelineUI-Framework/CardDealer.swift"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/backupd/TimelineUI-Framework/Timeline+ObjC.swift"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/backupd/TimelineUI-Framework/TimelineController.swift"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/backupd/TimelineUI-Framework/Views/OldTimelineRibbon.swift"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/backupd/TimelineUI-Framework/Views/Ribbon/TickViewModels.swift"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/backupd/TimelineUI-Framework/Views/Ribbon/TimelineRibbon.swift"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/backupd/TimelineUI-Framework/Views/WindowBox.swift"
+- "Can't construct Array with count < 0"
+- "Division by zero"
+- "Division results in an overflow"
+- "Insufficient space allocated to copy string contents"
+- "Not enough bits to represent the passed value"
+- "Swift/Array.swift"
+- "Swift/ContiguousArrayBuffer.swift"
+- "Swift/IntegerTypes.swift"
+- "Swift/Integers.swift"
+- "Swift/StringTesting.swift"
+- "Swift/StringUTF8View.swift"
+- "Swift/UnsafeBufferPointer.swift"
+- "Swift/UnsafePointer.swift"
+- "Swift/UnsafeRawPointer.swift"
+- "Unexpectedly found nil while unwrapping an Optional value"
+- "UnsafeMutableBufferPointer with negative count"
+- "UnsafeMutablePointer.initialize overlapping range"
+- "UnsafeMutablePointer.initialize with negative count"
+- "UnsafeMutablePointer.moveInitialize with negative count"
+- "UnsafeMutableRawPointer.initializeMemory overlapping range"
+- "invalid Collection: less than 'count' elements in collection"
+
+```

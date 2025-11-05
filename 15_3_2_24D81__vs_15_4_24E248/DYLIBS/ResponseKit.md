@@ -1,0 +1,135 @@
+## ResponseKit
+
+> `/System/Library/PrivateFrameworks/ResponseKit.framework/Versions/A/ResponseKit`
+
+```diff
+
+ 204.0.0.0.0
+-  __TEXT.__text: 0x334c8
++  __TEXT.__text: 0x33310
+   __TEXT.__auth_stubs: 0x9f0
+-  __TEXT.__objc_methlist: 0x1f20
++  __TEXT.__objc_methlist: 0x1f6c
+   __TEXT.__const: 0x158
+   __TEXT.__cstring: 0x228e
+   __TEXT.__ustring: 0x922
+-  __TEXT.__gcc_except_tab: 0xf60
++  __TEXT.__gcc_except_tab: 0xf70
+   __TEXT.__oslogstring: 0x3d7
+-  __TEXT.__unwind_info: 0xb38
++  __TEXT.__unwind_info: 0xb48
+   __TEXT.__objc_classname: 0x729
+   __TEXT.__objc_methname: 0x4da3
+   __TEXT.__objc_methtype: 0x772
+
+   __AUTH_CONST.__auth_got: 0x510
+   __AUTH_CONST.__const: 0x1210
+   __AUTH_CONST.__cfstring: 0x7380
+-  __AUTH_CONST.__objc_const: 0x4280
++  __AUTH_CONST.__objc_const: 0x4208
+   __AUTH_CONST.__objc_arrayobj: 0x708
+   __AUTH_CONST.__objc_dictobj: 0xc8
+   __DATA.__objc_ivar: 0x1d0
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F5BF15E4-F7F3-3818-8A33-13DBC9F39CBF
+-  Functions: 905
+-  Symbols:   2563
++  UUID: 496BD4A2-974F-3236-A2E5-0073E3F0C3F5
++  Functions: 927
++  Symbols:   2591
+   CStrings:  2640
+ 
+Symbols:
++ +[RKPaymentIdentifier sharedManager].cold.1
++ +[RKPersistentPersonalizer nonEmptyStringsPredicate].cold.1
++ +[RKResponseCollection responsesForFixedPhrase:withLanguage:].cold.1
++ +[RKResponseCollection speechActsForCategory:platform:].cold.1
++ +[RKSentenceClassifier alternativeInversionsForLanguage:].cold.1
++ +[RKSentenceClassifier appreciationKeywordsForLanguage:].cold.1
++ +[RKSentenceClassifier categoryKeywordMapForLanguage:].cold.1
++ +[RKSentenceClassifier polarTagRegularExpressionForLanguage:].cold.1
++ +[RKSentenceClassifier sensitiveSubjectRegularExpressionForLanguage:].cold.1
++ +[RKSentenceClassifier subclassForLanguageIdentifier:].cold.1
++ +[RKText defaultDataProvider].cold.1
++ +[RKUtilities getDeviceModel].cold.1
++ +[RKUtilities isDeviceSupportedForLSTMBasedLanguageIdentification:].cold.1
++ +[RKUtilities normalizeForPersonalization:].cold.1
++ -[RKMessageResponseManager dispatchQueue].cold.1
++ -[RKMessageResponseManager responsesForMessageWithLanguageDetectionImp:maximumResponses:forRecipientID:forConversationHistory:forContext:withLanguage:inputModes:options:].cold.2
++ -[RKMontrealModel initWithPath:].cold.1
++ -[RKNLEventTokenizer getTokens:].cold.1
++ -[RKResponseCollection responsesForCategory:gender:maximumResponses:withLanguage:context:options:].cold.1
++ -[RKSentenceClassifier analyzeSentence].cold.1
++ -[RKSentenceClassifier init].cold.1
++ -[RKSentenceClassifier_de_DE analyzeSentence].cold.1
++ -[RKText cleanupData].cold.1
++ -[_RKResponse type].cold.1
++ __98-[RKResponseCollection responsesForCategory:gender:maximumResponses:withLanguage:context:options:]_block_invoke.cold.1
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__14lessINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB8ne190102ERKS6_S9_
++ __ZNKSt3__16vectorI22RKEventIdentifierRangeNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorINS_4pairIiiEENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIZ64-[RKEventIdentifier _identifyStrings:otherDateCount:otherDates:]E5DeltaNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
++ __ZNSt12length_errorC1B8ne190102EPKc
++ __ZNSt12out_of_rangeC1B8ne190102EPKc
++ __ZNSt3__111__sift_downB8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIiiEEEEvT1_OT0_NS_15iterator_traitsIS8_E15difference_typeES8_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102EPKcm
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102ILi0EEEPKc
++ __ZNSt3__116__insertion_sortB8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIiiEEEEvT1_S8_T0_
++ __ZNSt3__117__floyd_sift_downB8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIiiEEEET1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorI22RKEventIdentifierRangeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_4pairIiiEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__partial_sort_implB8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIiiEES7_EET1_S8_S8_T2_OT0_
++ __ZNSt3__120__throw_length_errorB8ne190102EPKc
++ __ZNSt3__120__throw_out_of_rangeB8ne190102EPKc
++ __ZNSt3__124__sort5_maybe_branchlessB8ne190102INS_17_ClassicAlgPolicyERZ64-[RKEventIdentifier _identifyStrings:otherDateCount:otherDates:]E3$_0PZ64-[RKEventIdentifier _identifyStrings:otherDateCount:otherDates:]E5DeltaLi0EEEvT1_S6_S6_S6_S6_T0_
++ __ZNSt3__126__insertion_sort_unguardedB8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIiiEEEEvT1_S8_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIiiEEEEbT1_S8_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8ne190102INS_17_ClassicAlgPolicyERZ64-[RKEventIdentifier _identifyStrings:otherDateCount:otherDates:]E3$_0PZ64-[RKEventIdentifier _identifyStrings:otherDateCount:otherDates:]E5DeltaEEbT1_S6_T0_
++ __ZNSt3__131__partition_with_equals_on_leftB8ne190102INS_17_ClassicAlgPolicyEPNS_4pairIiiEERNS_6__lessIvvEEEET0_S8_S8_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8ne190102INS_17_ClassicAlgPolicyEPNS_4pairIiiEERNS_6__lessIvvEEEENS2_IT0_bEES8_S8_T1_
++ __ZNSt3__17__sort3B8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIiiEEEEjT1_S8_S8_T0_
++ __ZNSt3__17__sort3B8ne190102INS_17_ClassicAlgPolicyERZ64-[RKEventIdentifier _identifyStrings:otherDateCount:otherDates:]E3$_0PZ64-[RKEventIdentifier _identifyStrings:otherDateCount:otherDates:]E5DeltaEEjT1_S6_S6_T0_
++ __ZNSt3__17__sort4B8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIiiEEEEvT1_S8_S8_S8_T0_
++ __ZNSt3__17__sort4B8ne190102INS_17_ClassicAlgPolicyERZ64-[RKEventIdentifier _identifyStrings:otherDateCount:otherDates:]E3$_0PZ64-[RKEventIdentifier _identifyStrings:otherDateCount:otherDates:]E5DeltaEEvT1_S6_S6_S6_T0_
++ __ZNSt3__17__sort5B8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIiiEEEEvT1_S8_S8_S8_S8_T0_
++ __ZNSt3__19__sift_upB8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIiiEEEEvT1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
++ __ZSt28__throw_bad_array_new_lengthB8ne190102v
++ keyToCategoryMap.cold.1
++ stripDiacritics.cold.1
++ stripEmojiSkinTones.cold.1
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__14lessINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB8ne180100ERKS6_S9_
+- __ZNKSt3__16vectorI22RKEventIdentifierRangeNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorINS_4pairIiiEENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIZ64-[RKEventIdentifier _identifyStrings:otherDateCount:otherDates:]E5DeltaNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNSt12length_errorC1B8ne180100EPKc
+- __ZNSt12out_of_rangeC1B8ne180100EPKc
+- __ZNSt3__111__sift_downB8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIiiEEEEvT1_OT0_NS_15iterator_traitsIS8_E15difference_typeES8_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne180100EPKcm
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne180100ILi0EEEPKc
+- __ZNSt3__116__insertion_sortB8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIiiEEEEvT1_S8_T0_
+- __ZNSt3__117__floyd_sift_downB8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIiiEEEET1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorI22RKEventIdentifierRangeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorINS_4pairIiiEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__partial_sort_implB8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIiiEES7_EET1_S8_S8_T2_OT0_
+- __ZNSt3__120__throw_length_errorB8ne180100EPKc
+- __ZNSt3__120__throw_out_of_rangeB8ne180100EPKc
+- __ZNSt3__124__sort5_maybe_branchlessB8ne180100INS_17_ClassicAlgPolicyERZ64-[RKEventIdentifier _identifyStrings:otherDateCount:otherDates:]E3$_0PZ64-[RKEventIdentifier _identifyStrings:otherDateCount:otherDates:]E5DeltaLi0EEEvT1_S6_S6_S6_S6_T0_
+- __ZNSt3__126__insertion_sort_unguardedB8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIiiEEEEvT1_S8_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIiiEEEEbT1_S8_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8ne180100INS_17_ClassicAlgPolicyERZ64-[RKEventIdentifier _identifyStrings:otherDateCount:otherDates:]E3$_0PZ64-[RKEventIdentifier _identifyStrings:otherDateCount:otherDates:]E5DeltaEEbT1_S6_T0_
+- __ZNSt3__131__partition_with_equals_on_leftB8ne180100INS_17_ClassicAlgPolicyEPNS_4pairIiiEERNS_6__lessIvvEEEET0_S8_S8_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8ne180100INS_17_ClassicAlgPolicyEPNS_4pairIiiEERNS_6__lessIvvEEEENS2_IT0_bEES8_S8_T1_
+- __ZNSt3__17__sort3B8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIiiEEEEjT1_S8_S8_T0_
+- __ZNSt3__17__sort3B8ne180100INS_17_ClassicAlgPolicyERZ64-[RKEventIdentifier _identifyStrings:otherDateCount:otherDates:]E3$_0PZ64-[RKEventIdentifier _identifyStrings:otherDateCount:otherDates:]E5DeltaEEjT1_S6_S6_T0_
+- __ZNSt3__17__sort4B8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIiiEEEEvT1_S8_S8_S8_T0_
+- __ZNSt3__17__sort4B8ne180100INS_17_ClassicAlgPolicyERZ64-[RKEventIdentifier _identifyStrings:otherDateCount:otherDates:]E3$_0PZ64-[RKEventIdentifier _identifyStrings:otherDateCount:otherDates:]E5DeltaEEvT1_S6_S6_S6_T0_
+- __ZNSt3__17__sort5B8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIiiEEEEvT1_S8_S8_S8_S8_T0_
+- __ZNSt3__19__sift_upB8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIiiEEEEvT1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
+- __ZSt28__throw_bad_array_new_lengthB8ne180100v
+
+```

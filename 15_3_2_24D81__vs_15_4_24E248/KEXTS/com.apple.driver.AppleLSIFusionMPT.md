@@ -1,0 +1,98 @@
+## com.apple.driver.AppleLSIFusionMPT
+
+> `com.apple.driver.AppleLSIFusionMPT`
+
+```diff
+
+-410.0.0.0.0
++412.0.0.0.0
+   __TEXT.__cstring: 0x34b9
+-  __TEXT.__const: 0x160
+-  __TEXT_EXEC.__text: 0x15eb0
++  __TEXT.__const: 0x150
++  __TEXT_EXEC.__text: 0x151f0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x118
+   __DATA.__common: 0x1a8
+
+   __DATA_CONST.__got: 0xc0
+   __DATA_CONST.__mod_init_func: 0x38
+   __DATA_CONST.__mod_term_func: 0x38
+-  __DATA_CONST.__const: 0x4188
++  __DATA_CONST.__const: 0x4190
+   __DATA_CONST.__kalloc_type: 0x280
+   __DATA_CONST.__kalloc_var: 0x1e0
+-  UUID: D92F2BE4-5325-3CB4-ABD1-B5F0F7661EA6
+-  Functions: 427
+-  Symbols:   995
++  UUID: 35D89F58-DE9D-31E8-A8B8-83A1F1D415E6
++  Functions: 530
++  Symbols:   1130
+   CStrings:  389
+ 
+Symbols:
++ _OUTLINED_FUNCTION_0
++ _OUTLINED_FUNCTION_1
++ _OUTLINED_FUNCTION_10
++ _OUTLINED_FUNCTION_11
++ _OUTLINED_FUNCTION_12
++ _OUTLINED_FUNCTION_13
++ _OUTLINED_FUNCTION_14
++ _OUTLINED_FUNCTION_15
++ _OUTLINED_FUNCTION_16
++ _OUTLINED_FUNCTION_17
++ _OUTLINED_FUNCTION_18
++ _OUTLINED_FUNCTION_19
++ _OUTLINED_FUNCTION_2
++ _OUTLINED_FUNCTION_20
++ _OUTLINED_FUNCTION_21
++ _OUTLINED_FUNCTION_22
++ _OUTLINED_FUNCTION_23
++ _OUTLINED_FUNCTION_24
++ _OUTLINED_FUNCTION_25
++ _OUTLINED_FUNCTION_26
++ _OUTLINED_FUNCTION_27
++ _OUTLINED_FUNCTION_28
++ _OUTLINED_FUNCTION_29
++ _OUTLINED_FUNCTION_3
++ _OUTLINED_FUNCTION_30
++ _OUTLINED_FUNCTION_31
++ _OUTLINED_FUNCTION_32
++ _OUTLINED_FUNCTION_33
++ _OUTLINED_FUNCTION_34
++ _OUTLINED_FUNCTION_35
++ _OUTLINED_FUNCTION_36
++ _OUTLINED_FUNCTION_37
++ _OUTLINED_FUNCTION_38
++ _OUTLINED_FUNCTION_39
++ _OUTLINED_FUNCTION_4
++ _OUTLINED_FUNCTION_40
++ _OUTLINED_FUNCTION_41
++ _OUTLINED_FUNCTION_42
++ _OUTLINED_FUNCTION_43
++ _OUTLINED_FUNCTION_44
++ _OUTLINED_FUNCTION_45
++ _OUTLINED_FUNCTION_46
++ _OUTLINED_FUNCTION_5
++ _OUTLINED_FUNCTION_6
++ _OUTLINED_FUNCTION_7
++ _OUTLINED_FUNCTION_8
++ _OUTLINED_FUNCTION_9
++ _ZN16AppleLSIFusionFC20ScanForTargetDevicesEj.cold.1
++ _ZN16AppleLSIFusionFC20ScanForTargetDevicesEj.cold.2
++ _ZN17AppleLSIFusionMPT15StartControllerEv.cold.1
++ _ZN17AppleLSIFusionMPT15StartControllerEv.cold.2
++ _ZN17AppleLSIFusionMPT15WaitForIOCStateEhj.cold.1
++ _ZN17AppleLSIFusionMPT19HandleSetPowerStateEmPi.cold.3
++ _ZN17AppleLSIFusionMPT19HandleSetPowerStateEmPi.cold.4
++ _ZN17AppleLSIFusionMPT19ProcessParallelTaskEP8OSObject.cold.2
++ _ZN17AppleLSIFusionMPT20InitializeControllerEv.cold.2
++ _ZN17AppleLSIFusionMPT20InitializeControllerEv.cold.3
++ _ZN17AppleLSIFusionMPT20InitializeControllerEv.cold.4
++ _ZN17AppleLSIFusionMPT23AllocateAuxiliaryFramesEbj.cold.2
++ _ZN17AppleLSIFusionMPT26PostSCSIRequestToFIFOGatedEP17FusionMPTTaskData.cold.1
++ _ZN17AppleLSIFusionMPT29FlushOutstandingParallelTasksEv.cold.1
++ _ZN17AppleLSIFusionMPT29HandleSCSITaskManagementReplyEj.cold.1
++ _ZN17AppleLSIFusionMPT29HandleSCSITaskManagementReplyEj.cold.2
+
+```

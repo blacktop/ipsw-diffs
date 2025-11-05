@@ -1,0 +1,304 @@
+## com.apple.iokit.IOHIDFamily
+
+> `com.apple.iokit.IOHIDFamily`
+
+```diff
+
+-2104.80.4.0.0
+-  __TEXT.__cstring: 0x3ee8
+-  __TEXT.__const: 0x13c8
+-  __TEXT.__os_log: 0x3052
+-  __TEXT_EXEC.__text: 0x8c02c
++2115.100.21.0.0
++  __TEXT.__cstring: 0x3f60
++  __TEXT.__const: 0x1468
++  __TEXT.__os_log: 0x3132
++  __TEXT_EXEC.__text: 0x8bad4
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xbea
+   __DATA.__common: 0xaf0
+-  __DATA.__bss: 0x158
+-  __DATA_CONST.__auth_got: 0x628
+-  __DATA_CONST.__got: 0x160
++  __DATA.__bss: 0x160
++  __DATA_CONST.__auth_got: 0x638
++  __DATA_CONST.__got: 0x168
+   __DATA_CONST.__auth_ptr: 0x8
+   __DATA_CONST.__mod_init_func: 0x188
+   __DATA_CONST.__mod_term_func: 0x168
+-  __DATA_CONST.__const: 0x1e1e8
++  __DATA_CONST.__const: 0x1e240
+   __DATA_CONST.__kalloc_type: 0x1fc0
++  __DATA_CONST.__assert: 0xf0
+   __DATA_CONST.__kalloc_var: 0xa0
+-  UUID: 416711AA-474C-3870-86DC-CBA22FA11E44
+-  Functions: 2901
+-  Symbols:   4248
+-  CStrings:  938
++  UUID: CE6ED474-A8F0-316A-92BB-A5938A56511C
++  Functions: 2964
++  Symbols:   4627
++  CStrings:  949
+ 
+Symbols:
++ _OUTLINED_FUNCTION_0
++ _OUTLINED_FUNCTION_1
++ _OUTLINED_FUNCTION_10
++ _OUTLINED_FUNCTION_11
++ _OUTLINED_FUNCTION_12
++ _OUTLINED_FUNCTION_13
++ _OUTLINED_FUNCTION_14
++ _OUTLINED_FUNCTION_15
++ _OUTLINED_FUNCTION_16
++ _OUTLINED_FUNCTION_17
++ _OUTLINED_FUNCTION_18
++ _OUTLINED_FUNCTION_19
++ _OUTLINED_FUNCTION_2
++ _OUTLINED_FUNCTION_20
++ _OUTLINED_FUNCTION_21
++ _OUTLINED_FUNCTION_22
++ _OUTLINED_FUNCTION_23
++ _OUTLINED_FUNCTION_24
++ _OUTLINED_FUNCTION_25
++ _OUTLINED_FUNCTION_26
++ _OUTLINED_FUNCTION_27
++ _OUTLINED_FUNCTION_28
++ _OUTLINED_FUNCTION_29
++ _OUTLINED_FUNCTION_3
++ _OUTLINED_FUNCTION_30
++ _OUTLINED_FUNCTION_31
++ _OUTLINED_FUNCTION_32
++ _OUTLINED_FUNCTION_33
++ _OUTLINED_FUNCTION_34
++ _OUTLINED_FUNCTION_35
++ _OUTLINED_FUNCTION_36
++ _OUTLINED_FUNCTION_37
++ _OUTLINED_FUNCTION_38
++ _OUTLINED_FUNCTION_39
++ _OUTLINED_FUNCTION_4
++ _OUTLINED_FUNCTION_40
++ _OUTLINED_FUNCTION_41
++ _OUTLINED_FUNCTION_42
++ _OUTLINED_FUNCTION_43
++ _OUTLINED_FUNCTION_44
++ _OUTLINED_FUNCTION_45
++ _OUTLINED_FUNCTION_46
++ _OUTLINED_FUNCTION_47
++ _OUTLINED_FUNCTION_48
++ _OUTLINED_FUNCTION_49
++ _OUTLINED_FUNCTION_5
++ _OUTLINED_FUNCTION_50
++ _OUTLINED_FUNCTION_51
++ _OUTLINED_FUNCTION_52
++ _OUTLINED_FUNCTION_53
++ _OUTLINED_FUNCTION_54
++ _OUTLINED_FUNCTION_55
++ _OUTLINED_FUNCTION_56
++ _OUTLINED_FUNCTION_57
++ _OUTLINED_FUNCTION_58
++ _OUTLINED_FUNCTION_59
++ _OUTLINED_FUNCTION_6
++ _OUTLINED_FUNCTION_60
++ _OUTLINED_FUNCTION_61
++ _OUTLINED_FUNCTION_62
++ _OUTLINED_FUNCTION_63
++ _OUTLINED_FUNCTION_64
++ _OUTLINED_FUNCTION_65
++ _OUTLINED_FUNCTION_66
++ _OUTLINED_FUNCTION_67
++ _OUTLINED_FUNCTION_68
++ _OUTLINED_FUNCTION_69
++ _OUTLINED_FUNCTION_7
++ _OUTLINED_FUNCTION_70
++ _OUTLINED_FUNCTION_71
++ _OUTLINED_FUNCTION_72
++ _OUTLINED_FUNCTION_73
++ _OUTLINED_FUNCTION_74
++ _OUTLINED_FUNCTION_75
++ _OUTLINED_FUNCTION_76
++ _OUTLINED_FUNCTION_77
++ _OUTLINED_FUNCTION_78
++ _OUTLINED_FUNCTION_8
++ _OUTLINED_FUNCTION_9
++ _ZN11IOHIDDevice15createInterfaceEj.cold.1
++ _ZN11IOHIDDevice15createReportersEv.cold.1
++ _ZN11IOHIDDevice15createReportersEv.cold.2
++ _ZN11IOHIDDevice15createReportersEv.cold.3
++ _ZN11IOHIDDevice16runElementValuesEPjjjjP15IOHIDCompletionP24IOBufferMemoryDescriptorb.cold.1
++ _ZN11IOHIDDevice16runElementValuesEPjjjjP15IOHIDCompletionP24IOBufferMemoryDescriptorb.cold.2
++ _ZN11IOHIDDevice16runElementValuesEPjjjjP15IOHIDCompletionP24IOBufferMemoryDescriptorb.cold.3
++ _ZN11IOHIDDevice16runElementValuesEPjjjjP15IOHIDCompletionP24IOBufferMemoryDescriptorb.cold.4
++ _ZN11IOHIDDevice16runElementValuesEPjjjjP15IOHIDCompletionP24IOBufferMemoryDescriptorb.cold.5
++ _ZN11IOHIDDevice16runElementValuesEPjjjjP15IOHIDCompletionP24IOBufferMemoryDescriptorb.cold.6
++ _ZN11IOHIDDevice16runElementValuesEPjjjjP15IOHIDCompletionP24IOBufferMemoryDescriptorb.cold.7
++ _ZN11IOHIDDevice18_HandleReport_ImplEyP18IOMemoryDescriptorj15IOHIDReportTypej.cold.1
++ _ZN11IOHIDDevice20newIsAccessProtectedEv.cold.1
++ _ZN11IOHIDDevice20newIsAccessProtectedEv.cold.2
++ _ZN11IOHIDDevice20newIsAccessProtectedEv.cold.3
++ _ZN11IOHIDDevice20newIsAccessProtectedEv.cold.4
++ _ZN11IOHIDDevice20newIsAccessProtectedEv.cold.5
++ _ZN11IOHIDDevice20newIsAccessProtectedEv.cold.6
++ _ZN11IOHIDDevice21parseReportDescriptorEP18IOMemoryDescriptorj.cold.1
++ _ZN11IOHIDDevice5startEP9IOService.cold.1
++ _ZN11IOHIDDevice5startEP9IOService.cold.2
++ _ZN11IOHIDDevice5startEP9IOService.cold.3
++ _ZN11IOHIDDevice5startEP9IOService.cold.4
++ _ZN11IOHIDDevice5startEP9IOService.cold.5
++ _ZN11IOHIDSystem9postEventEiP14IOFixedPoint64yP11NXEventDataP8OSObjectjbj.cold.1
++ _ZN14IOHIDInterface21GetElementValues_ImplEjP18IOMemoryDescriptor.cold.2
++ _ZN14IOHIDInterface21GetElementValues_ImplEjP18IOMemoryDescriptor.cold.3
++ _ZN14IOHIDInterface21GetElementValues_ImplEjP18IOMemoryDescriptor.cold.4
++ _ZN15IOHIDUserClient12initWithTaskEP4taskPvj.cold.1
++ _ZN16IOHIDEventDriver11handleStartEP9IOService.cold.1
++ _ZN16IOHIDEventDriver11handleStartEP9IOService.cold.2
++ _ZN16IOHIDEventDriver11handleStartEP9IOService.cold.3
++ _ZN16IOHIDEventDriver25parseVendorMessageElementEP12IOHIDElement.cold.1
++ _ZN17IOHIDEventService21dispatchKeyboardEventEyjjjhhhj.cold.1
++ _ZN17IOHIDEventService21dispatchKeyboardEventEyjjjhhhj.cold.10
++ _ZN17IOHIDEventService21dispatchKeyboardEventEyjjjhhhj.cold.11
++ _ZN17IOHIDEventService21dispatchKeyboardEventEyjjjhhhj.cold.12
++ _ZN17IOHIDEventService21dispatchKeyboardEventEyjjjhhhj.cold.13
++ _ZN17IOHIDEventService21dispatchKeyboardEventEyjjjhhhj.cold.14
++ _ZN17IOHIDEventService21dispatchKeyboardEventEyjjjhhhj.cold.15
++ _ZN17IOHIDEventService21dispatchKeyboardEventEyjjjhhhj.cold.16
++ _ZN17IOHIDEventService21dispatchKeyboardEventEyjjjhhhj.cold.17
++ _ZN17IOHIDEventService21dispatchKeyboardEventEyjjjhhhj.cold.18
++ _ZN17IOHIDEventService21dispatchKeyboardEventEyjjjhhhj.cold.19
++ _ZN17IOHIDEventService21dispatchKeyboardEventEyjjjhhhj.cold.2
++ _ZN17IOHIDEventService21dispatchKeyboardEventEyjjjhhhj.cold.20
++ _ZN17IOHIDEventService21dispatchKeyboardEventEyjjjhhhj.cold.21
++ _ZN17IOHIDEventService21dispatchKeyboardEventEyjjjhhhj.cold.3
++ _ZN17IOHIDEventService21dispatchKeyboardEventEyjjjhhhj.cold.4
++ _ZN17IOHIDEventService21dispatchKeyboardEventEyjjjhhhj.cold.5
++ _ZN17IOHIDEventService21dispatchKeyboardEventEyjjjhhhj.cold.6
++ _ZN17IOHIDEventService21dispatchKeyboardEventEyjjjhhhj.cold.7
++ _ZN17IOHIDEventService21dispatchKeyboardEventEyjjjhhhj.cold.8
++ _ZN17IOHIDEventService21dispatchKeyboardEventEyjjjhhhj.cold.9
++ _ZN18AppleUserHIDDevice13processReportE20HIDReportCommandTypeP18IOMemoryDescriptor15IOHIDReportTypejjP15IOHIDCompletionb.cold.1
++ _ZN18AppleUserHIDDevice13setPropertiesEP8OSObject.cold.1
++ _ZN18AppleUserHIDDevice14completeReportEP8OSActionij.cold.1
++ _ZN18AppleUserHIDDevice20handleReportWithTimeEyP18IOMemoryDescriptor15IOHIDReportTypej.cold.1
++ _ZN18AppleUserHIDDevice5startEP9IOService.cold.1
++ _ZN18AppleUserHIDDevice5startEP9IOService.cold.2
++ _ZN18IOHIDLibUserClient11createQueueEjjPy.cold.1
++ _ZN18IOHIDLibUserClient14processElementEP18_IOHIDElementValueP23IOHIDReportElementQueue.cold.1
++ _ZN18IOHIDLibUserClient14processElementEP18_IOHIDElementValueP23IOHIDReportElementQueue.cold.2
++ _ZN18IOHIDLibUserClient14processElementEP18_IOHIDElementValueP23IOHIDReportElementQueue.cold.3
++ _ZN18IOHIDLibUserClient16ReqCompleteGatedEPvij.cold.1
++ _ZN18IOHIDLibUserClient16ReqCompleteGatedEPvij.cold.2
++ _ZN18IOHIDLibUserClient16ReqCompleteGatedEPvij.cold.3
++ _ZN18IOHIDLibUserClient17addElementToQueueEP15IOHIDEventQueuejjPy.cold.1
++ _ZN18IOHIDLibUserClient19CommitCompleteGatedEPvij.cold.1
++ _ZN18IOHIDLibUserClient19CommitCompleteGatedEPvij.cold.2
++ _ZN18IOHIDLibUserClient19updateElementValuesEPKjjPvjjjP15IOHIDCompletionP24IOBufferMemoryDescriptor.cold.1
++ _ZN18IOHIDLibUserClient19updateElementValuesEPKjjPvjjjP15IOHIDCompletionP24IOBufferMemoryDescriptor.cold.2
++ _ZN18IOHIDLibUserClient19updateElementValuesEPKjjPvjjjP15IOHIDCompletionP24IOBufferMemoryDescriptor.cold.3
++ _ZN18IOHIDLibUserClient19updateElementValuesEPKjjPvjjjP15IOHIDCompletionP24IOBufferMemoryDescriptor.cold.4
++ _ZN18IOHIDLibUserClient19updateElementValuesEPKjjPvjjjP15IOHIDCompletionP24IOBufferMemoryDescriptor.cold.5
++ _ZN18IOHIDLibUserClient19updateElementValuesEPKjjPvjjjP15IOHIDCompletionP24IOBufferMemoryDescriptor.cold.6
++ _ZN18IOHIDLibUserClient19updateElementValuesEPKjjPvjjjP15IOHIDCompletionP24IOBufferMemoryDescriptor.cold.7
++ _ZN18IOHIDLibUserClient19updateElementValuesEPKjjPvjjjP15IOHIDCompletionP24IOBufferMemoryDescriptor.cold.8
++ _ZN18IOHIDLibUserClient19updateElementValuesEPKjjPvjjjP15IOHIDCompletionP24IOBufferMemoryDescriptor.cold.9
++ _ZN18IOHIDLibUserClient22removeElementFromQueueEP15IOHIDEventQueuejPy.cold.1
++ _ZN18IOHIDLibUserClient5startEP9IOService.cold.1
++ _ZN18IOHIDLibUserClient9getReportEP18IOMemoryDescriptorPj15IOHIDReportTypejjP15IOHIDCompletion.cold.1
++ _ZN18IOHIDLibUserClient9getReportEP18IOMemoryDescriptorPj15IOHIDReportTypejjP15IOHIDCompletion.cold.2
++ _ZN18IOHIDLibUserClient9getReportEP18IOMemoryDescriptorPj15IOHIDReportTypejjP15IOHIDCompletion.cold.3
++ _ZN18IOHIDLibUserClient9getReportEP18IOMemoryDescriptorPj15IOHIDReportTypejjP15IOHIDCompletion.cold.4
++ _ZN18IOHIDLibUserClient9getReportEP18IOMemoryDescriptorPj15IOHIDReportTypejjP15IOHIDCompletion.cold.5
++ _ZN18IOHIDLibUserClient9setReportEP18IOMemoryDescriptor15IOHIDReportTypejjP15IOHIDCompletion.cold.1
++ _ZN18IOHIDLibUserClient9setReportEP18IOMemoryDescriptor15IOHIDReportTypejjP15IOHIDCompletion.cold.2
++ _ZN18IOHIDLibUserClient9setReportEP18IOMemoryDescriptor15IOHIDReportTypejjP15IOHIDCompletion.cold.3
++ _ZN18IOHIDLibUserClient9setReportEP18IOMemoryDescriptor15IOHIDReportTypejjP15IOHIDCompletion.cold.4
++ _ZN24AppleUserHIDEventService13dispatchEventEP10IOHIDEventj.cold.1
++ _ZN24AppleUserHIDEventService21dispatchKeyboardEventEyjjjj.cold.1
++ _ZN24AppleUserHIDEventService33dispatchScrollWheelEventWithFixedEyiiij.cold.1
++ _ZN24AppleUserHIDEventService5startEP9IOService.cold.1
++ _ZN24AppleUserHIDEventService5startEP9IOService.cold.2
++ _ZN24AppleUserHIDEventService5startEP9IOService.cold.3
++ _ZN24AppleUserHIDEventService5startEP9IOService.cold.4
++ _ZN26IOHIDEventSystemUserClient12initWithTaskEP4taskPvj.cold.1
++ _ZN27IOHIDEventServiceUserClient12initWithTaskEP4taskPvj.cold.1
++ _ZN29IOHIDResourceDeviceUserClient12initWithTaskEP4taskPvj.cold.1
++ _ZN29IOHIDResourceDeviceUserClient19setNextAsyncTimeoutEv.cold.1
++ _ZN29IOHIDResourceDeviceUserClient20createAndStartDeviceEv.cold.1
++ _ZN29IOHIDResourceDeviceUserClient20createAndStartDeviceEv.cold.2
++ _ZN29IOHIDResourceDeviceUserClient21cleanupPendingReportsEv.cold.1
++ _ZN29IOHIDResourceDeviceUserClient5startEP9IOService.cold.1
++ _ZN35IOHIDEventServiceFastPathUserClient12initWithTaskEP4taskPvj.cold.1
++ _ZNK7libkern17bounded_array_refI3KeyN9os_detail21panic_trapping_policyEE3endEv.cold.1
++ _ZNK7libkern17bounded_array_refI3KeyN9os_detail21panic_trapping_policyEE3endEv.cold.2
++ __MergedGlobals
++ __ZN11OSSerialize12withCapacityEj
++ __ZN24IOProviderPropertyMerger10gMetaClassE
++ __ZN24IOProviderPropertyMerger11setPropertyEPK8OSSymbolP8OSObject
++ __ZN24IOProviderPropertyMerger16setPropertyTableEP12OSDictionary
++ __ZN24IOProviderPropertyMerger4initEP12OSDictionary
++ __ZN24IOProviderPropertyMergerC2EPK11OSMetaClass
++ __ZN24IOProviderPropertyMergerD2Ev
++ __ZZL17SetupAccelerationP6OSDataiiiPPvPjE6__desc
++ __ZZL17SetupAccelerationP6OSDataiiiPPvPjE6__desc_0
++ __ZZN11IOHIDDevice14CommitCompleteEPvijE21kalloc_type_view_2654
++ __ZZN11IOHIDDevice14CommitCompleteEPvijE21kalloc_type_view_2659
++ __ZZN11IOHIDDevice16runElementValuesEPjjjjP15IOHIDCompletionP24IOBufferMemoryDescriptorbE21kalloc_type_view_2466
++ __ZZN11IOHIDDevice16runElementValuesEPjjjjP15IOHIDCompletionP24IOBufferMemoryDescriptorbE21kalloc_type_view_2484
++ __ZZN11IOHIDDevice16runElementValuesEPjjjjP15IOHIDCompletionP24IOBufferMemoryDescriptorbE21kalloc_type_view_2505
++ __ZZN11IOHIDDevice16runElementValuesEPjjjjP15IOHIDCompletionP24IOBufferMemoryDescriptorbE21kalloc_type_view_2509
++ __ZZN11IOHIDDevice17publishPropertiesEP9IOServiceE11_os_log_fmt
++ __ZZN11IOHIDDevice17publishPropertiesEP9IOServiceE11_os_log_fmt_0
++ __ZZN11IOHIDDevice17publishPropertiesEP9IOServiceE11logPropKeys
++ __ZZN11IOHIDDevice18runSyncReportAsyncEvE21kalloc_type_view_2082
++ __ZZN11IOHIDDevice19setNextAsyncTimeoutEvE21kalloc_type_view_2023
++ __ZZN11IOHIDDevice9outReportEP18IOMemoryDescriptor15IOHIDReportTypejjP15IOHIDCompletionbE21kalloc_type_view_2094
++ __ZZN11IOHIDDevice9outReportEP18IOMemoryDescriptor15IOHIDReportTypejjP15IOHIDCompletionbE21kalloc_type_view_2114
++ __ZZN14IOHIDInterface21GetElementValues_ImplEjP18IOMemoryDescriptorE6__desc
++ __ZZN16IOHIDActionQueue12dispatchSyncEU13block_pointerFvvEE6__desc
++ __ZZN16IOHIDActionQueue13dispatchAsyncEU13block_pointerFvvEE6__desc
++ __ZZN16IOHIDActionQueue16setCancelHandlerEU13block_pointerFvvEE6__desc
++ __ZZN16IOHIDActionQueue4freeEvE6__desc
++ __ZZN16IOHIDEventDriver39createDigitizerTransducerEventForReportEP19DigitizerTransduceryjE11_os_log_fmt_0
++ __ZZN17IOHIDEventService4freeEvE21kalloc_type_view_1229
++ __ZZN18IOHIDLibUserClient13handleEnqueueEPvjP23IOHIDReportElementQueueE6__desc
++ __ZZNK13OSValueObjectI14__ReportResultE6getRefEvE6__desc
++ __ZZNK13OSValueObjectI16AsyncCommitParamE6getRefEvE6__desc
++ __ZZNK13OSValueObjectI16AsyncReportParamE6getRefEvE6__desc
++ __ZZNK13OSValueObjectI16KeyboardReservedE6getRefEvE6__desc
++ ___ZN35IOHIDEventServiceFastPathUserClient7messageEjP9IOServicePv_block_invoke.cold.1
++ __cxx_global_var_init.144
++ __cxx_global_var_init.145
+- _Assert
+- _ZN12IOHIKeyboard18setParamPropertiesEP12OSDictionary.cold.1
+- _ZN12IOHIKeyboard4initEP12OSDictionary.cold.1
+- __ZL10evInstance
+- __ZL33gIOHIDPowerOnThresoldAbsoluteTime
+- __ZZN11IOHIDDevice14CommitCompleteEPvijE21kalloc_type_view_2626
+- __ZZN11IOHIDDevice14CommitCompleteEPvijE21kalloc_type_view_2631
+- __ZZN11IOHIDDevice16runElementValuesEPjjjjP15IOHIDCompletionP24IOBufferMemoryDescriptorbE21kalloc_type_view_2438
+- __ZZN11IOHIDDevice16runElementValuesEPjjjjP15IOHIDCompletionP24IOBufferMemoryDescriptorbE21kalloc_type_view_2456
+- __ZZN11IOHIDDevice16runElementValuesEPjjjjP15IOHIDCompletionP24IOBufferMemoryDescriptorbE21kalloc_type_view_2477
+- __ZZN11IOHIDDevice16runElementValuesEPjjjjP15IOHIDCompletionP24IOBufferMemoryDescriptorbE21kalloc_type_view_2481
+- __ZZN11IOHIDDevice18runSyncReportAsyncEvE21kalloc_type_view_2054
+- __ZZN11IOHIDDevice19setNextAsyncTimeoutEvE21kalloc_type_view_1995
+- __ZZN11IOHIDDevice9outReportEP18IOMemoryDescriptor15IOHIDReportTypejjP15IOHIDCompletionbE21kalloc_type_view_2066
+- __ZZN11IOHIDDevice9outReportEP18IOMemoryDescriptor15IOHIDReportTypejjP15IOHIDCompletionbE21kalloc_type_view_2086
+- __ZZN17IOHIDEventService4freeEvE21kalloc_type_view_1219
+- __cxx_global_var_init.140
+- __cxx_global_var_init.141
+CStrings:
++ "%s:0x%llx XML serialization failed\n\n"
++ "%s:0x%llx close (set reports:%d(err:%d), get reports:%d(err:%d))\n\n"
++ "%s:0x%llx createDigitizerTransducerEventForReport generates null event: dispatched input report not present in digitizer collection\n\n"
++ "1211111212221212111111111111111111112121112221221221"
++ "Allowed"
++ "GetReportCnt"
++ "GetReportErrCnt"
++ "HIDRMDeviceState"
++ "IOName"
++ "IORegistryEntryID"
++ "SetReportCnt"
++ "SetReportErrCnt"
++ "oversized"
+- "%s:0x%llx close\n\n"
+- "12111112122212121111111111111111111121211121221221"
+
+```

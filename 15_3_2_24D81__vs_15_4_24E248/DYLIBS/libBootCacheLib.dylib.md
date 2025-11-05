@@ -1,0 +1,59 @@
+## libBootCacheLib.dylib
+
+> `/usr/lib/libBootCacheLib.dylib`
+
+```diff
+
+ 134.0.0.0.0
+-  __TEXT.__text: 0x7a74
++  __TEXT.__text: 0x7954
+   __TEXT.__auth_stubs: 0x3f0
+   __TEXT.__objc_methlist: 0x418
+   __TEXT.__const: 0x48
+-  __TEXT.__gcc_except_tab: 0xb78
++  __TEXT.__gcc_except_tab: 0xba4
+   __TEXT.__cstring: 0x33e
+   __TEXT.__unwind_info: 0x4d0
+   __TEXT.__objc_classname: 0xa3
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D124C7CA-9A8E-3C63-B442-27734EBF482D
+-  Functions: 154
++  UUID: BB8F4139-4514-3EEA-855C-DE4792755914
++  Functions: 150
+   Symbols:   473
+   CStrings:  258
+ 
+Symbols:
++ __ZNKSt3__16vectorIPKvNS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorItNS_9allocatorItEEE20__throw_length_errorB8ne190102Ev
++ __ZNSt12length_errorC1B8ne190102EPKc
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIPKvEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorItEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__120__throw_length_errorB8ne190102EPKc
++ __ZNSt3__127__tree_balance_after_insertB8ne190102IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE18__assign_with_sizeB8ne190102IPhS5_EEvT_T0_l
++ __ZNSt3__16vectorIhNS_9allocatorIhEEEC2B8ne190102Em
++ __ZSt28__throw_bad_array_new_lengthB8ne190102v
+- __ZNKSt3__16vectorIPKvNS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorItNS_9allocatorItEEE20__throw_length_errorB8ne180100Ev
+- __ZNSt12length_errorC1B8ne180100EPKc
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIPKvEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorItEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__120__throw_length_errorB8ne180100EPKc
+- __ZNSt3__127__tree_balance_after_insertB8ne180100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE18__assign_with_sizeB8ne180100IPhS5_EEvT_T0_l
+- __ZNSt3__16vectorIhNS_9allocatorIhEEEC2Em
+- __ZSt28__throw_bad_array_new_lengthB8ne180100v
+
+```

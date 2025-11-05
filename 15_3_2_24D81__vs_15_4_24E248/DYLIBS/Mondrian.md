@@ -1,0 +1,1961 @@
+## Mondrian
+
+> `/System/Library/PrivateFrameworks/Mondrian.framework/Versions/A/Mondrian`
+
+```diff
+
+-741.0.130.0.0
+-  __TEXT.__text: 0x4f55c
+-  __TEXT.__auth_stubs: 0xbe0
+-  __TEXT.__objc_methlist: 0x528c
+-  __TEXT.__gcc_except_tab: 0x1964
+-  __TEXT.__const: 0x220
+-  __TEXT.__cstring: 0x257b
+-  __TEXT.__oslogstring: 0x7ba
+-  __TEXT.__unwind_info: 0x1560
+-  __TEXT.__objc_classname: 0x72f
+-  __TEXT.__objc_methname: 0x144fc
+-  __TEXT.__objc_methtype: 0x4118
+-  __TEXT.__objc_stubs: 0xab20
+-  __DATA_CONST.__got: 0x5d8
+-  __DATA_CONST.__const: 0x3b8
+-  __DATA_CONST.__objc_classlist: 0x1a0
+-  __DATA_CONST.__objc_catlist: 0x38
+-  __DATA_CONST.__objc_protolist: 0xa0
++751.0.104.0.0
++  __TEXT.__text: 0x48ebc
++  __TEXT.__auth_stubs: 0xb50
++  __TEXT.__objc_methlist: 0x48a8
++  __TEXT.__const: 0x210
++  __TEXT.__gcc_except_tab: 0x1880
++  __TEXT.__cstring: 0x2096
++  __TEXT.__oslogstring: 0x558
++  __TEXT.__unwind_info: 0x13b0
++  __TEXT.__objc_classname: 0x5c3
++  __TEXT.__objc_methname: 0xe786
++  __TEXT.__objc_methtype: 0x3b2c
++  __TEXT.__objc_stubs: 0x9a40
++  __DATA_CONST.__got: 0x560
++  __DATA_CONST.__const: 0x180
++  __DATA_CONST.__objc_classlist: 0x160
++  __DATA_CONST.__objc_catlist: 0x30
++  __DATA_CONST.__objc_protolist: 0x70
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x3f98
+-  __DATA_CONST.__objc_protorefs: 0x18
+-  __DATA_CONST.__objc_superrefs: 0x140
+-  __AUTH_CONST.__auth_got: 0x600
+-  __AUTH_CONST.__const: 0xeb0
+-  __AUTH_CONST.__cfstring: 0x2bc0
+-  __AUTH_CONST.__objc_const: 0x88c8
++  __DATA_CONST.__objc_selrefs: 0x35a0
++  __DATA_CONST.__objc_superrefs: 0x120
++  __AUTH_CONST.__auth_got: 0x5b8
++  __AUTH_CONST.__const: 0xdb0
++  __AUTH_CONST.__cfstring: 0x1e80
++  __AUTH_CONST.__objc_const: 0x57d0
+   __AUTH_CONST.__objc_doubleobj: 0x20
+   __AUTH_CONST.__objc_intobj: 0xc0
+-  __AUTH.__objc_data: 0x1040
+-  __DATA.__objc_ivar: 0x6d0
+-  __DATA.__data: 0x798
+-  __DATA.__bss: 0x108
+-  __DATA.__common: 0xa
++  __AUTH.__objc_data: 0xdc0
++  __DATA.__objc_ivar: 0x4d0
++  __DATA.__data: 0x558
++  __DATA.__bss: 0x100
++  __DATA.__common: 0x2
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/UXKit.framework/Versions/A/UXKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2A2CC8A2-1A10-36C1-B34A-8EADE8A1B685
+-  Functions: 1963
+-  Symbols:   4984
+-  CStrings:  4075
++  UUID: B69E4B1E-E00A-320E-87B1-D60BCFB954FE
++  Functions: 1597
++  Symbols:   4160
++  CStrings:  3124
+ 
+Symbols:
++ GCC_except_table1059
++ GCC_except_table1078
++ GCC_except_table1090
++ GCC_except_table1098
++ GCC_except_table1107
++ GCC_except_table1156
++ GCC_except_table1235
++ GCC_except_table1236
++ GCC_except_table1237
++ GCC_except_table1238
++ GCC_except_table1239
++ GCC_except_table1240
++ GCC_except_table1241
++ GCC_except_table1242
++ GCC_except_table1244
++ GCC_except_table1254
++ GCC_except_table1255
++ GCC_except_table1256
++ GCC_except_table1257
++ GCC_except_table1259
++ GCC_except_table1260
++ GCC_except_table1261
++ GCC_except_table1262
++ GCC_except_table1264
++ GCC_except_table1279
++ GCC_except_table1294
++ GCC_except_table1302
++ GCC_except_table1304
++ GCC_except_table1306
++ GCC_except_table1345
++ GCC_except_table1351
++ GCC_except_table1366
++ GCC_except_table1368
++ GCC_except_table1370
++ GCC_except_table1435
++ GCC_except_table1437
++ GCC_except_table1481
++ GCC_except_table1489
++ GCC_except_table1595
++ GCC_except_table387
++ GCC_except_table410
++ GCC_except_table548
++ GCC_except_table559
++ GCC_except_table585
++ GCC_except_table654
++ GCC_except_table655
++ GCC_except_table659
++ GCC_except_table665
++ GCC_except_table667
++ GCC_except_table669
++ GCC_except_table671
++ GCC_except_table673
++ GCC_except_table776
++ GCC_except_table866
++ GCC_except_table880
++ GCC_except_table888
++ GCC_except_table907
++ __40-[MOMediaView orderedOverdrawMediaItems]_block_invoke.215
++ __40-[MOMediaView orderedOverdrawMediaItems]_block_invoke_2.218
++ __44-[MOMediaView setMotionBlurRadius:animated:]_block_invoke.187
++ __50-[MOMediaView prefetchBestThumbnailsAtIndexPaths:]_block_invoke.286
++ __53-[MOMediaView _updateCell:withMediaItem:atIndexPath:]_block_invoke.248
++ __53-[MOMediaView _updateCell:withMediaItem:atIndexPath:]_block_invoke.253
++ __83-[MOMediaView _updateCellToBest:withMediaItem:atIndexPath:withDependencyOperation:]_block_invoke.256
++ __83-[MOMediaView _updateCellToBest:withMediaItem:atIndexPath:withDependencyOperation:]_block_invoke.259
++ __83-[MOMediaView _updateCellToBest:withMediaItem:atIndexPath:withDependencyOperation:]_block_invoke.262
++ __Block_byref_object_copy_.1132
++ __Block_byref_object_copy_.1229
++ __Block_byref_object_copy_.1414
++ __Block_byref_object_copy_.1815
++ __Block_byref_object_copy_.2116
++ __Block_byref_object_copy_.725
++ __Block_byref_object_dispose_.1133
++ __Block_byref_object_dispose_.1230
++ __Block_byref_object_dispose_.1415
++ __Block_byref_object_dispose_.1816
++ __Block_byref_object_dispose_.2117
++ __Block_byref_object_dispose_.726
++ __OBJC_$_CATEGORY_INSTANCE_METHODS_NSString_$_MONSStringExtensions
++ __block_literal_global.1044
++ __block_literal_global.1261
++ __block_literal_global.1554
++ __block_literal_global.157
++ __block_literal_global.189
++ __block_literal_global.204
++ __block_literal_global.206
++ __block_literal_global.208
++ __block_literal_global.210
++ __block_literal_global.2120
++ __block_literal_global.217
++ __block_literal_global.220
++ __block_literal_global.226
++ __block_literal_global.265
++ __block_literal_global.267
++ __block_literal_global.269
++ __block_literal_global.271
++ __block_literal_global.273
++ __block_literal_global.275
++ __block_literal_global.277
++ __block_literal_global.279
++ __block_literal_global.281
++ __block_literal_global.283
++ __block_literal_global.285
++ __block_literal_global.2908
++ __block_literal_global.53
++ __block_literal_global.721
++ __block_literal_global.864
+- +[MOImageDiskCache alignResolution:]
+- +[MOImageDiskCache bestResolutionForSize:]
+- +[MOMSMonitoringProcessInfo supportsSecureCoding]
+- +[MOMSMonitoringSystemInfo supportsSecureCoding]
+- +[MOMonitoringController isLoggingEnabled]
+- +[MOMonitoringController monitoringControllerForMediaView:]
+- +[MOMonitoringPanelController panelControllerForMonitoringController:]
+- +[MOSettingsPanelController panelControllerForMediaView:]
+- -[MOCollectionView _automateLiveScrollingWithRecordingData:]
+- -[MOCollectionView automateLiveScrollingWithLaps:andStepSize:]
+- -[MOCollectionView automateLiveScrollingWithRecordingFilePath:]
+- -[MOCollectionView automateLiveScrollingWithRecordingPasteboardData]
+- -[MOCollectionView automateLiveScrolling]
+- -[MOImageDiskCache _didResignActiveNotification]
+- -[MOImageDiskCache _diskCacheDirectoryForURL:]
+- -[MOImageDiskCache _diskCacheFilePathForURL:withResolution:]
+- -[MOImageDiskCache _diskCacheResolutionsForURL:]
+- -[MOImageDiskCache _willTerminateNotification]
+- -[MOImageDiskCache bestImageDiskCacheForURL:]
+- -[MOImageDiskCache dealloc]
+- -[MOImageDiskCache hasImageForURL:withResolution:]
+- -[MOImageDiskCache imageForURL:withResolution:]
+- -[MOImageDiskCache imageFormat]
+- -[MOImageDiskCache imageFromBestDiskCacheForURL:withResolution:]
+- -[MOImageDiskCache initWithDiskCacheDirectory:]
+- -[MOImageDiskCache init]
+- -[MOImageDiskCache invalidateDiskCacheForURL:]
+- -[MOImageDiskCache invalidateDiskCaches]
+- -[MOImageDiskCache invalidateMemoryCaches]
+- -[MOImageDiskCache purgeDiskCache:progressBlock:]
+- -[MOImageDiskCache setImage:withResolution:forURL:]
+- -[MOImageDiskCache setImageFormat:]
+- -[MOImageDiskCache setUseAsynchronousSerialDiskSaveQueue:]
+- -[MOImageDiskCache useAsynchronousSerialDiskSaveQueue]
+- -[MOMSMonitoringProcessInfo cpuUsagePercentage]
+- -[MOMSMonitoringProcessInfo encodeWithCoder:]
+- -[MOMSMonitoringProcessInfo initWithCoder:]
+- -[MOMSMonitoringProcessInfo memoryAnonymousBytes]
+- -[MOMSMonitoringProcessInfo memoryPurgeableBytes]
+- -[MOMSMonitoringProcessInfo memoryResidentBytes]
+- -[MOMSMonitoringProcessInfo setCpuUsagePercentage:]
+- -[MOMSMonitoringProcessInfo setMemoryAnonymousBytes:]
+- -[MOMSMonitoringProcessInfo setMemoryPurgeableBytes:]
+- -[MOMSMonitoringProcessInfo setMemoryResidentBytes:]
+- -[MOMSMonitoringSystemInfo cpuUsagePercentage]
+- -[MOMSMonitoringSystemInfo diskBytesReadPerInterval]
+- -[MOMSMonitoringSystemInfo diskBytesWritePerInterval]
+- -[MOMSMonitoringSystemInfo encodeWithCoder:]
+- -[MOMSMonitoringSystemInfo initWithCoder:]
+- -[MOMSMonitoringSystemInfo physicalMemoryFreeBytes]
+- -[MOMSMonitoringSystemInfo physicalMemoryUsedBytes]
+- -[MOMSMonitoringSystemInfo setCpuUsagePercentage:]
+- -[MOMSMonitoringSystemInfo setDiskBytesReadPerInterval:]
+- -[MOMSMonitoringSystemInfo setDiskBytesWritePerInterval:]
+- -[MOMSMonitoringSystemInfo setPhysicalMemoryFreeBytes:]
+- -[MOMSMonitoringSystemInfo setPhysicalMemoryUsedBytes:]
+- -[MOMSMonitoringSystemInfo setVirtualMemoryBytes:]
+- -[MOMSMonitoringSystemInfo setVirtualMemoryCompressedBytes:]
+- -[MOMSMonitoringSystemInfo setVirtualMemoryPageInBytes:]
+- -[MOMSMonitoringSystemInfo setVirtualMemoryPageOutBytes:]
+- -[MOMSMonitoringSystemInfo setVirtualMemorySwapUsedBytes:]
+- -[MOMSMonitoringSystemInfo virtualMemoryBytes]
+- -[MOMSMonitoringSystemInfo virtualMemoryCompressedBytes]
+- -[MOMSMonitoringSystemInfo virtualMemoryPageInBytes]
+- -[MOMSMonitoringSystemInfo virtualMemoryPageOutBytes]
+- -[MOMSMonitoringSystemInfo virtualMemorySwapUsedBytes]
+- -[MOMediaView monitoringController]
+- -[MOMediaView openMonitoringPanel:]
+- -[MOMediaView openSettingsPanel:]
+- -[MOMediaView settingsPanelController]
+- -[MOMonitoringController .cxx_destruct]
+- -[MOMonitoringController _didResignActiveNotification]
+- -[MOMonitoringController _loggingFilePath]
+- -[MOMonitoringController _restartMonitoring]
+- -[MOMonitoringController _restartOutputLogTimer]
+- -[MOMonitoringController _restartRecentLowFrameRateTimer]
+- -[MOMonitoringController _willTerminateNotification]
+- -[MOMonitoringController clearAllStatistics]
+- -[MOMonitoringController clearBestThumbnailGenerationStatistics]
+- -[MOMonitoringController clearIndexPathsForItemsInRectStatistics]
+- -[MOMonitoringController clearLowThumbnailGenerationStatistics]
+- -[MOMonitoringController clearPrefetchLowThumbnailsPreparationStatistics]
+- -[MOMonitoringController clearRescheduleThumbnailCellOperationsStatistics]
+- -[MOMonitoringController clearThumbnailOperationsDurationStatistics]
+- -[MOMonitoringController clearThumbnailsMemoryCacheStatistics]
+- -[MOMonitoringController dealloc]
+- -[MOMonitoringController emptyCellsStatistic]
+- -[MOMonitoringController finishBestThumbnailGenerationTiming:]
+- -[MOMonitoringController finishBestThumbnailsMemoryCacheGetTiming:]
+- -[MOMonitoringController finishBestThumbnailsMemoryCacheSetTiming:]
+- -[MOMonitoringController finishIndexPathsForItemsInRectTiming:]
+- -[MOMonitoringController finishLowThumbnailGenerationTiming:]
+- -[MOMonitoringController finishLowThumbnailsMemoryCacheGetTiming:]
+- -[MOMonitoringController finishLowThumbnailsMemoryCacheSetTiming:]
+- -[MOMonitoringController finishPrefetchLowThumbnailsPreparationTiming:]
+- -[MOMonitoringController finishRescheduleThumbnailCellOperationsTiming:]
+- -[MOMonitoringController frameRateStatistic]
+- -[MOMonitoringController init]
+- -[MOMonitoringController isRunning]
+- -[MOMonitoringController liveMonitoringPanelController]
+- -[MOMonitoringController markAutomationBegin]
+- -[MOMonitoringController markAutomationEnd]
+- -[MOMonitoringController markBestThumbnailCellOperationDuration:]
+- -[MOMonitoringController markBestThumbnailPrefetchOperationDuration:]
+- -[MOMonitoringController markDataSourceChange:]
+- -[MOMonitoringController markFrameRate]
+- -[MOMonitoringController markLastNumberOfBestThumbnailCellOperations:]
+- -[MOMonitoringController markLastNumberOfBestThumbnailPrefetchOperations:]
+- -[MOMonitoringController markLastNumberOfLowThumbnailCellOperations:]
+- -[MOMonitoringController markLastNumberOfLowThumbnailPrefetchOperations:]
+- -[MOMonitoringController markLayoutChange:]
+- -[MOMonitoringController markLowThumbnailCellOperationDuration:]
+- -[MOMonitoringController markLowThumbnailPrefetchOperationDuration:]
+- -[MOMonitoringController markNumberOfBestThumbnailCellOperations:]
+- -[MOMonitoringController markNumberOfBestThumbnailPrefetchOperations:]
+- -[MOMonitoringController markNumberOfBestThumbnailsMemoryCacheAvailableSlots:]
+- -[MOMonitoringController markNumberOfBestThumbnailsMemoryCacheAvailableSlotsSize:]
+- -[MOMonitoringController markNumberOfBestThumbnailsMemoryCacheUsedSlots:]
+- -[MOMonitoringController markNumberOfContentCells:]
+- -[MOMonitoringController markNumberOfEmptyCells:]
+- -[MOMonitoringController markNumberOfItemsMemoryCacheAvailableSlots:]
+- -[MOMonitoringController markNumberOfItemsMemoryCacheUsedSlots:]
+- -[MOMonitoringController markNumberOfLowThumbnailCellOperations:]
+- -[MOMonitoringController markNumberOfLowThumbnailPrefetchOperations:]
+- -[MOMonitoringController markNumberOfLowThumbnailsMemoryCacheAvailableSlots:]
+- -[MOMonitoringController markNumberOfLowThumbnailsMemoryCacheAvailableSlotsSize:]
+- -[MOMonitoringController markNumberOfLowThumbnailsMemoryCacheUsedSlots:]
+- -[MOMonitoringController markNumberOfSectionsMemoryCacheAvailableSlots:]
+- -[MOMonitoringController markNumberOfSectionsMemoryCacheUsedSlots:]
+- -[MOMonitoringController markNumberOfSelectedCells:]
+- -[MOMonitoringController markNumberOfVisibleCells:]
+- -[MOMonitoringController mediaView]
+- -[MOMonitoringController outputLogTimeInterval]
+- -[MOMonitoringController pause]
+- -[MOMonitoringController recentLowFrameRateTimerInterval]
+- -[MOMonitoringController resetEmptyCellsStatistics]
+- -[MOMonitoringController resetFrameRateStatistics]
+- -[MOMonitoringController resetFrameRate]
+- -[MOMonitoringController resume]
+- -[MOMonitoringController setLogCategory:]
+- -[MOMonitoringController setMediaView:]
+- -[MOMonitoringController setOutputLogTimeInterval:]
+- -[MOMonitoringController setRecentLowFrameRateTimerInterval:]
+- -[MOMonitoringController startBestThumbnailGenerationTiming]
+- -[MOMonitoringController startBestThumbnailsMemoryCacheGetTiming]
+- -[MOMonitoringController startBestThumbnailsMemoryCacheSetTiming]
+- -[MOMonitoringController startIndexPathsForItemsInRectTiming]
+- -[MOMonitoringController startLowThumbnailGenerationTiming]
+- -[MOMonitoringController startLowThumbnailsMemoryCacheGetTiming]
+- -[MOMonitoringController startLowThumbnailsMemoryCacheSetTiming]
+- -[MOMonitoringController startPrefetchLowThumbnailsPreparationTiming]
+- -[MOMonitoringController startRescheduleThumbnailCellOperationsTiming]
+- -[MOMonitoringController updateMonitoringProcessInfo:]
+- -[MOMonitoringController updateMonitoringSystemInfo:]
+- -[MOMonitoringPanel canBecomeKeyWindow]
+- -[MOMonitoringPanel canBecomeMainWindow]
+- -[MOMonitoringPanelController .cxx_destruct]
+- -[MOMonitoringPanelController _convertBytesToBestReadableFormat:]
+- -[MOMonitoringPanelController bestCellOperationAverageDurationTextField]
+- -[MOMonitoringPanelController bestCellOperationMaximumDurationTextField]
+- -[MOMonitoringPanelController bestPrefetchOperationAverageDurationTextField]
+- -[MOMonitoringPanelController bestPrefetchOperationMaximumDurationTextField]
+- -[MOMonitoringPanelController bestThumbnailGenerationAverageDurationTextField]
+- -[MOMonitoringPanelController bestThumbnailGenerationMaximumDurationTextField]
+- -[MOMonitoringPanelController bestThumbnailsMemoryCacheGetAverageDurationTextField]
+- -[MOMonitoringPanelController bestThumbnailsMemoryCacheGetMaximumDurationTextField]
+- -[MOMonitoringPanelController bestThumbnailsMemoryCacheSetAverageDurationTextField]
+- -[MOMonitoringPanelController bestThumbnailsMemoryCacheSetMaximumDurationTextField]
+- -[MOMonitoringPanelController close:]
+- -[MOMonitoringPanelController diskBytesReadTextField]
+- -[MOMonitoringPanelController diskBytesWriteTextField]
+- -[MOMonitoringPanelController frameRateProgressBar]
+- -[MOMonitoringPanelController frameRateTextField]
+- -[MOMonitoringPanelController indexPathsForItemsInRectAverageDurationTextField]
+- -[MOMonitoringPanelController indexPathsForItemsInRectMaximumDurationTextField]
+- -[MOMonitoringPanelController init]
+- -[MOMonitoringPanelController isVisible]
+- -[MOMonitoringPanelController lastNumberOfBestCellOperationsTextField]
+- -[MOMonitoringPanelController lastNumberOfBestPrefetchOperationsTextField]
+- -[MOMonitoringPanelController lastNumberOfLowCellOperationsTextField]
+- -[MOMonitoringPanelController lastNumberOfLowPrefetchOperationsTextField]
+- -[MOMonitoringPanelController lowCellOperationAverageDurationTextField]
+- -[MOMonitoringPanelController lowCellOperationMaximumDurationTextField]
+- -[MOMonitoringPanelController lowFrameRateTextField]
+- -[MOMonitoringPanelController lowPrefetchOperationAverageDurationTextField]
+- -[MOMonitoringPanelController lowPrefetchOperationMaximumDurationTextField]
+- -[MOMonitoringPanelController lowThumbnailGenerationAverageDurationTextField]
+- -[MOMonitoringPanelController lowThumbnailGenerationMaximumDurationTextField]
+- -[MOMonitoringPanelController lowThumbnailsMemoryCacheGetAverageDurationTextField]
+- -[MOMonitoringPanelController lowThumbnailsMemoryCacheGetMaximumDurationTextField]
+- -[MOMonitoringPanelController lowThumbnailsMemoryCacheSetAverageDurationTextField]
+- -[MOMonitoringPanelController lowThumbnailsMemoryCacheSetMaximumDurationTextField]
+- -[MOMonitoringPanelController monitoringController]
+- -[MOMonitoringPanelController numberOfBestCellOperationsTextField]
+- -[MOMonitoringPanelController numberOfBestPrefetchOperationsTextField]
+- -[MOMonitoringPanelController numberOfBestThumbnailsMemoryCacheAvailableSlotsSizeTextField]
+- -[MOMonitoringPanelController numberOfBestThumbnailsMemoryCacheAvailableSlotsTextField]
+- -[MOMonitoringPanelController numberOfBestThumbnailsMemoryCacheUsedSlotsTextField]
+- -[MOMonitoringPanelController numberOfContentCellsTextField]
+- -[MOMonitoringPanelController numberOfEmptyCellsTextField]
+- -[MOMonitoringPanelController numberOfItemsMemoryCacheAvailableSlotsTextField]
+- -[MOMonitoringPanelController numberOfItemsMemoryCacheUsedSlotsTextField]
+- -[MOMonitoringPanelController numberOfItemsTextField]
+- -[MOMonitoringPanelController numberOfLowCellOperationsTextField]
+- -[MOMonitoringPanelController numberOfLowPrefetchOperationsTextField]
+- -[MOMonitoringPanelController numberOfLowThumbnailsMemoryCacheAvailableSlotsSizeTextField]
+- -[MOMonitoringPanelController numberOfLowThumbnailsMemoryCacheAvailableSlotsTextField]
+- -[MOMonitoringPanelController numberOfLowThumbnailsMemoryCacheUsedSlotTextField]
+- -[MOMonitoringPanelController numberOfRecentEmptyCellsTextField]
+- -[MOMonitoringPanelController numberOfSectionsMemoryCacheAvailableSlotsTextField]
+- -[MOMonitoringPanelController numberOfSectionsMemoryCacheUsedSlotTextField]
+- -[MOMonitoringPanelController numberOfSectionsTextField]
+- -[MOMonitoringPanelController numberOfSelectedCellsTextField]
+- -[MOMonitoringPanelController numberOfVisibleCellsTextField]
+- -[MOMonitoringPanelController open:]
+- -[MOMonitoringPanelController physicalMemoryFreeTextField]
+- -[MOMonitoringPanelController physicalMemoryUsedTextField]
+- -[MOMonitoringPanelController prefetchLowThumbnailsPreparationAverageDurationTextField]
+- -[MOMonitoringPanelController prefetchLowThumbnailsPreparationMaximumDurationTextField]
+- -[MOMonitoringPanelController processAnonymousSizeTextField]
+- -[MOMonitoringPanelController processCPUUsageTextField]
+- -[MOMonitoringPanelController processPurgeableSizeTextField]
+- -[MOMonitoringPanelController rescheduleThumbnailCellOperationsAverageDurationTextField]
+- -[MOMonitoringPanelController rescheduleThumbnailCellOperationsMaximumDurationTextField]
+- -[MOMonitoringPanelController setBestCellOperationAverageDurationTextField:]
+- -[MOMonitoringPanelController setBestCellOperationMaximumDurationTextField:]
+- -[MOMonitoringPanelController setBestPrefetchOperationAverageDurationTextField:]
+- -[MOMonitoringPanelController setBestPrefetchOperationMaximumDurationTextField:]
+- -[MOMonitoringPanelController setBestThumbnailGenerationAverageDurationTextField:]
+- -[MOMonitoringPanelController setBestThumbnailGenerationMaximumDurationTextField:]
+- -[MOMonitoringPanelController setBestThumbnailsMemoryCacheGetAverageDurationTextField:]
+- -[MOMonitoringPanelController setBestThumbnailsMemoryCacheGetMaximumDurationTextField:]
+- -[MOMonitoringPanelController setBestThumbnailsMemoryCacheSetAverageDurationTextField:]
+- -[MOMonitoringPanelController setBestThumbnailsMemoryCacheSetMaximumDurationTextField:]
+- -[MOMonitoringPanelController setDiskBytesReadTextField:]
+- -[MOMonitoringPanelController setDiskBytesWriteTextField:]
+- -[MOMonitoringPanelController setFrameRateProgressBar:]
+- -[MOMonitoringPanelController setFrameRateTextField:]
+- -[MOMonitoringPanelController setIndexPathsForItemsInRectAverageDurationTextField:]
+- -[MOMonitoringPanelController setIndexPathsForItemsInRectMaximumDurationTextField:]
+- -[MOMonitoringPanelController setLastNumberOfBestCellOperationsTextField:]
+- -[MOMonitoringPanelController setLastNumberOfBestPrefetchOperationsTextField:]
+- -[MOMonitoringPanelController setLastNumberOfLowCellOperationsTextField:]
+- -[MOMonitoringPanelController setLastNumberOfLowPrefetchOperationsTextField:]
+- -[MOMonitoringPanelController setLowCellOperationAverageDurationTextField:]
+- -[MOMonitoringPanelController setLowCellOperationMaximumDurationTextField:]
+- -[MOMonitoringPanelController setLowFrameRateTextField:]
+- -[MOMonitoringPanelController setLowPrefetchOperationAverageDurationTextField:]
+- -[MOMonitoringPanelController setLowPrefetchOperationMaximumDurationTextField:]
+- -[MOMonitoringPanelController setLowThumbnailGenerationAverageDurationTextField:]
+- -[MOMonitoringPanelController setLowThumbnailGenerationMaximumDurationTextField:]
+- -[MOMonitoringPanelController setLowThumbnailsMemoryCacheGetAverageDurationTextField:]
+- -[MOMonitoringPanelController setLowThumbnailsMemoryCacheGetMaximumDurationTextField:]
+- -[MOMonitoringPanelController setLowThumbnailsMemoryCacheSetAverageDurationTextField:]
+- -[MOMonitoringPanelController setLowThumbnailsMemoryCacheSetMaximumDurationTextField:]
+- -[MOMonitoringPanelController setMonitoringController:]
+- -[MOMonitoringPanelController setNumberOfBestCellOperationsTextField:]
+- -[MOMonitoringPanelController setNumberOfBestPrefetchOperationsTextField:]
+- -[MOMonitoringPanelController setNumberOfBestThumbnailsMemoryCacheAvailableSlotsSizeTextField:]
+- -[MOMonitoringPanelController setNumberOfBestThumbnailsMemoryCacheAvailableSlotsTextField:]
+- -[MOMonitoringPanelController setNumberOfBestThumbnailsMemoryCacheUsedSlotsTextField:]
+- -[MOMonitoringPanelController setNumberOfContentCellsTextField:]
+- -[MOMonitoringPanelController setNumberOfEmptyCellsTextField:]
+- -[MOMonitoringPanelController setNumberOfItemsMemoryCacheAvailableSlotsTextField:]
+- -[MOMonitoringPanelController setNumberOfItemsMemoryCacheUsedSlotsTextField:]
+- -[MOMonitoringPanelController setNumberOfItemsTextField:]
+- -[MOMonitoringPanelController setNumberOfLowCellOperationsTextField:]
+- -[MOMonitoringPanelController setNumberOfLowPrefetchOperationsTextField:]
+- -[MOMonitoringPanelController setNumberOfLowThumbnailsMemoryCacheAvailableSlotsSizeTextField:]
+- -[MOMonitoringPanelController setNumberOfLowThumbnailsMemoryCacheAvailableSlotsTextField:]
+- -[MOMonitoringPanelController setNumberOfLowThumbnailsMemoryCacheUsedSlotTextField:]
+- -[MOMonitoringPanelController setNumberOfRecentEmptyCellsTextField:]
+- -[MOMonitoringPanelController setNumberOfSectionsMemoryCacheAvailableSlotsTextField:]
+- -[MOMonitoringPanelController setNumberOfSectionsMemoryCacheUsedSlotTextField:]
+- -[MOMonitoringPanelController setNumberOfSectionsTextField:]
+- -[MOMonitoringPanelController setNumberOfSelectedCellsTextField:]
+- -[MOMonitoringPanelController setNumberOfVisibleCellsTextField:]
+- -[MOMonitoringPanelController setPhysicalMemoryFreeTextField:]
+- -[MOMonitoringPanelController setPhysicalMemoryUsedTextField:]
+- -[MOMonitoringPanelController setPrefetchLowThumbnailsPreparationAverageDurationTextField:]
+- -[MOMonitoringPanelController setPrefetchLowThumbnailsPreparationMaximumDurationTextField:]
+- -[MOMonitoringPanelController setProcessAnonymousSizeTextField:]
+- -[MOMonitoringPanelController setProcessCPUUsageTextField:]
+- -[MOMonitoringPanelController setProcessPurgeableSizeTextField:]
+- -[MOMonitoringPanelController setRescheduleThumbnailCellOperationsAverageDurationTextField:]
+- -[MOMonitoringPanelController setRescheduleThumbnailCellOperationsMaximumDurationTextField:]
+- -[MOMonitoringPanelController setSystemCPUUsageTextField:]
+- -[MOMonitoringPanelController setVmCompressorTextField:]
+- -[MOMonitoringPanelController setVmPageOutTextField:]
+- -[MOMonitoringPanelController systemCPUUsageTextField]
+- -[MOMonitoringPanelController updateWithMeasurements:]
+- -[MOMonitoringPanelController vmCompressorTextField]
+- -[MOMonitoringPanelController vmPageOutTextField]
+- -[MOMonitoringPanelController windowDidLoad]
+- -[MOMonitoringPanelController windowWillClose:]
+- -[MOSettingsPanel canBecomeKeyWindow]
+- -[MOSettingsPanel canBecomeMainWindow]
+- -[MOSettingsPanelController .cxx_destruct]
+- -[MOSettingsPanelController _setupLayoutOptions]
+- -[MOSettingsPanelController _setup]
+- -[MOSettingsPanelController automateLiveScrollingWithLapsAndSteps:]
+- -[MOSettingsPanelController automateLiveScrollingWithRecording:]
+- -[MOSettingsPanelController cellArrayController]
+- -[MOSettingsPanelController cellRepresentations]
+- -[MOSettingsPanelController changeCellRepresentation:]
+- -[MOSettingsPanelController changeColorBackground:]
+- -[MOSettingsPanelController changeHeaderRepresentation:]
+- -[MOSettingsPanelController changeLayoutPreset:]
+- -[MOSettingsPanelController clearMonitoringStatistics:]
+- -[MOSettingsPanelController close:]
+- -[MOSettingsPanelController colorArrayController]
+- -[MOSettingsPanelController colorBackgrounds]
+- -[MOSettingsPanelController headerArrayController]
+- -[MOSettingsPanelController headerRepresentations]
+- -[MOSettingsPanelController init]
+- -[MOSettingsPanelController invalidateDataSourceMemory:]
+- -[MOSettingsPanelController invalidatePrefetchMemory:]
+- -[MOSettingsPanelController layoutArrayController]
+- -[MOSettingsPanelController layoutPresets]
+- -[MOSettingsPanelController liveScrollingAutomationLapsTextField]
+- -[MOSettingsPanelController liveScrollingAutomationStepsTextField]
+- -[MOSettingsPanelController mediaView]
+- -[MOSettingsPanelController open:]
+- -[MOSettingsPanelController optionsView]
+- -[MOSettingsPanelController registerCellRepresentation:withName:]
+- -[MOSettingsPanelController registerColorBackground:withName:]
+- -[MOSettingsPanelController registerHeaderRepresentation:withName:]
+- -[MOSettingsPanelController registerLayoutPreset:withName:]
+- -[MOSettingsPanelController setCellArrayController:]
+- -[MOSettingsPanelController setCellRepresentations:]
+- -[MOSettingsPanelController setColorArrayController:]
+- -[MOSettingsPanelController setColorBackgrounds:]
+- -[MOSettingsPanelController setHeaderArrayController:]
+- -[MOSettingsPanelController setHeaderRepresentations:]
+- -[MOSettingsPanelController setLayoutArrayController:]
+- -[MOSettingsPanelController setLayoutPresets:]
+- -[MOSettingsPanelController setLiveScrollingAutomationLapsTextField:]
+- -[MOSettingsPanelController setLiveScrollingAutomationStepsTextField:]
+- -[MOSettingsPanelController setMediaView:]
+- -[MOSettingsPanelController setOptionsView:]
+- -[MOSettingsPanelController windowDidLoad]
+- -[NSData(MONSDataCryptoExtensions) hexString]
+- -[NSData(MONSDataCryptoExtensions) sha1Hash]
+- -[NSString(MONSStringCryptoExtensions) sha1HashString]
+- GCC_except_table1270
+- GCC_except_table1289
+- GCC_except_table1301
+- GCC_except_table1309
+- GCC_except_table1318
+- GCC_except_table1367
+- GCC_except_table1447
+- GCC_except_table1448
+- GCC_except_table1449
+- GCC_except_table1450
+- GCC_except_table1451
+- GCC_except_table1452
+- GCC_except_table1453
+- GCC_except_table1455
+- GCC_except_table1465
+- GCC_except_table1466
+- GCC_except_table1467
+- GCC_except_table1468
+- GCC_except_table1470
+- GCC_except_table1471
+- GCC_except_table1472
+- GCC_except_table1473
+- GCC_except_table1475
+- GCC_except_table1490
+- GCC_except_table1505
+- GCC_except_table1513
+- GCC_except_table1515
+- GCC_except_table1517
+- GCC_except_table1556
+- GCC_except_table1562
+- GCC_except_table1577
+- GCC_except_table1579
+- GCC_except_table1581
+- GCC_except_table1646
+- GCC_except_table1648
+- GCC_except_table1657
+- GCC_except_table1699
+- GCC_except_table1707
+- GCC_except_table1954
+- GCC_except_table391
+- GCC_except_table414
+- GCC_except_table540
+- GCC_except_table542
+- GCC_except_table543
+- GCC_except_table546
+- GCC_except_table612
+- GCC_except_table619
+- GCC_except_table630
+- GCC_except_table725
+- GCC_except_table726
+- GCC_except_table727
+- GCC_except_table730
+- GCC_except_table736
+- GCC_except_table738
+- GCC_except_table740
+- GCC_except_table742
+- GCC_except_table744
+- GCC_except_table847
+- GCC_except_table937
+- GCC_except_table951
+- GCC_except_table959
+- GCC_except_table978
+- OBJC_IVAR_$_MOImageDiskCache._diskCacheDirectory
+- OBJC_IVAR_$_MOImageDiskCache._diskCacheDirectoryForURLs
+- OBJC_IVAR_$_MOImageDiskCache._imageFormat
+- OBJC_IVAR_$_MOImageDiskCache._serialDiskSaveQueue
+- OBJC_IVAR_$_MOImageDiskCache._useAsynchronousSerialDiskSaveQueue
+- OBJC_IVAR_$_MOMSMonitoringProcessInfo._cpuUsagePercentage
+- OBJC_IVAR_$_MOMSMonitoringProcessInfo._memoryAnonymousBytes
+- OBJC_IVAR_$_MOMSMonitoringProcessInfo._memoryPurgeableBytes
+- OBJC_IVAR_$_MOMSMonitoringProcessInfo._memoryResidentBytes
+- OBJC_IVAR_$_MOMSMonitoringSystemInfo._cpuUsagePercentage
+- OBJC_IVAR_$_MOMSMonitoringSystemInfo._diskBytesReadPerInterval
+- OBJC_IVAR_$_MOMSMonitoringSystemInfo._diskBytesWritePerInterval
+- OBJC_IVAR_$_MOMSMonitoringSystemInfo._physicalMemoryFreeBytes
+- OBJC_IVAR_$_MOMSMonitoringSystemInfo._physicalMemoryUsedBytes
+- OBJC_IVAR_$_MOMSMonitoringSystemInfo._virtualMemoryBytes
+- OBJC_IVAR_$_MOMSMonitoringSystemInfo._virtualMemoryCompressedBytes
+- OBJC_IVAR_$_MOMSMonitoringSystemInfo._virtualMemoryPageInBytes
+- OBJC_IVAR_$_MOMSMonitoringSystemInfo._virtualMemoryPageOutBytes
+- OBJC_IVAR_$_MOMSMonitoringSystemInfo._virtualMemorySwapUsedBytes
+- OBJC_IVAR_$_MOMediaView._monitoringController
+- OBJC_IVAR_$_MOMonitoringController._basicTimerQueue
+- OBJC_IVAR_$_MOMonitoringController._bestThumbnailCellOperationStatisticTimer
+- OBJC_IVAR_$_MOMonitoringController._bestThumbnailGenerationStatisticTimer
+- OBJC_IVAR_$_MOMonitoringController._bestThumbnailPrefetchOperationStatisticTimer
+- OBJC_IVAR_$_MOMonitoringController._bestThumbnailsMemoryCacheGetStatisticTimer
+- OBJC_IVAR_$_MOMonitoringController._bestThumbnailsMemoryCacheSetStatisticTimer
+- OBJC_IVAR_$_MOMonitoringController._emptyCellsStatistic
+- OBJC_IVAR_$_MOMonitoringController._frameRate
+- OBJC_IVAR_$_MOMonitoringController._frameRateLastRecordedTime
+- OBJC_IVAR_$_MOMonitoringController._frameRateStatistic
+- OBJC_IVAR_$_MOMonitoringController._indexPathsForItemsInRectStatisticTimer
+- OBJC_IVAR_$_MOMonitoringController._isLoggingEnabled
+- OBJC_IVAR_$_MOMonitoringController._isRunning
+- OBJC_IVAR_$_MOMonitoringController._liveMonitoringPanelController
+- OBJC_IVAR_$_MOMonitoringController._lowThumbnailCellOperationStatisticTimer
+- OBJC_IVAR_$_MOMonitoringController._lowThumbnailGenerationStatisticTimer
+- OBJC_IVAR_$_MOMonitoringController._lowThumbnailPrefetchOperationStatisticTimer
+- OBJC_IVAR_$_MOMonitoringController._lowThumbnailsMemoryCacheGetStatisticTimer
+- OBJC_IVAR_$_MOMonitoringController._lowThumbnailsMemoryCacheSetStatisticTimer
+- OBJC_IVAR_$_MOMonitoringController._mediaView
+- OBJC_IVAR_$_MOMonitoringController._monitoringServiceConnection
+- OBJC_IVAR_$_MOMonitoringController._outputLogTimeInterval
+- OBJC_IVAR_$_MOMonitoringController._outputLogTimer
+- OBJC_IVAR_$_MOMonitoringController._outputLogTimerQueue
+- OBJC_IVAR_$_MOMonitoringController._prefetchLowThumbnailsPreparationStatisticTimer
+- OBJC_IVAR_$_MOMonitoringController._recentEmptyCellsCount
+- OBJC_IVAR_$_MOMonitoringController._recentLowFrameRate
+- OBJC_IVAR_$_MOMonitoringController._recentLowFrameRateTimer
+- OBJC_IVAR_$_MOMonitoringController._recentLowFrameRateTimerInterval
+- OBJC_IVAR_$_MOMonitoringController._rescheduleThumbnailCellOperationsTimer
+- OBJC_IVAR_$_MOMonitoringController._supportLiveMonitoringPanel
+- OBJC_IVAR_$_MOMonitoringPanelController._bestCellOperationAverageDurationTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._bestCellOperationMaximumDurationTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._bestPrefetchOperationAverageDurationTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._bestPrefetchOperationMaximumDurationTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._bestThumbnailGenerationAverageDurationTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._bestThumbnailGenerationMaximumDurationTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._bestThumbnailsMemoryCacheGetAverageDurationTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._bestThumbnailsMemoryCacheGetMaximumDurationTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._bestThumbnailsMemoryCacheSetAverageDurationTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._bestThumbnailsMemoryCacheSetMaximumDurationTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._diskBytesReadTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._diskBytesWriteTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._frameRateProgressBar
+- OBJC_IVAR_$_MOMonitoringPanelController._frameRateTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._indexPathsForItemsInRectAverageDurationTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._indexPathsForItemsInRectMaximumDurationTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._lastNumberOfBestCellOperationsTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._lastNumberOfBestPrefetchOperationsTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._lastNumberOfLowCellOperationsTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._lastNumberOfLowPrefetchOperationsTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._lowCellOperationAverageDurationTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._lowCellOperationMaximumDurationTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._lowFrameRateTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._lowPrefetchOperationAverageDurationTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._lowPrefetchOperationMaximumDurationTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._lowThumbnailGenerationAverageDurationTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._lowThumbnailGenerationMaximumDurationTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._lowThumbnailsMemoryCacheGetAverageDurationTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._lowThumbnailsMemoryCacheGetMaximumDurationTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._lowThumbnailsMemoryCacheSetAverageDurationTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._lowThumbnailsMemoryCacheSetMaximumDurationTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._monitoringController
+- OBJC_IVAR_$_MOMonitoringPanelController._numberOfBestCellOperationsTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._numberOfBestPrefetchOperationsTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._numberOfBestThumbnailsMemoryCacheAvailableSlotsSizeTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._numberOfBestThumbnailsMemoryCacheAvailableSlotsTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._numberOfBestThumbnailsMemoryCacheUsedSlotsTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._numberOfContentCellsTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._numberOfEmptyCellsTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._numberOfItemsMemoryCacheAvailableSlotsTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._numberOfItemsMemoryCacheUsedSlotsTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._numberOfItemsTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._numberOfLowCellOperationsTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._numberOfLowPrefetchOperationsTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._numberOfLowThumbnailsMemoryCacheAvailableSlotsSizeTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._numberOfLowThumbnailsMemoryCacheAvailableSlotsTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._numberOfLowThumbnailsMemoryCacheUsedSlotTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._numberOfRecentEmptyCellsTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._numberOfSectionsMemoryCacheAvailableSlotsTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._numberOfSectionsMemoryCacheUsedSlotTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._numberOfSectionsTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._numberOfSelectedCellsTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._numberOfVisibleCellsTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._physicalMemoryFreeTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._physicalMemoryUsedTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._prefetchLowThumbnailsPreparationAverageDurationTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._prefetchLowThumbnailsPreparationMaximumDurationTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._processAnonymousSizeTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._processCPUUsageTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._processPurgeableSizeTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._rescheduleThumbnailCellOperationsAverageDurationTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._rescheduleThumbnailCellOperationsMaximumDurationTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._systemCPUUsageTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._vmCompressorTextField
+- OBJC_IVAR_$_MOMonitoringPanelController._vmPageOutTextField
+- OBJC_IVAR_$_MOSettingsPanelController._cellArrayController
+- OBJC_IVAR_$_MOSettingsPanelController._cellRepresentations
+- OBJC_IVAR_$_MOSettingsPanelController._colorArrayController
+- OBJC_IVAR_$_MOSettingsPanelController._colorBackgrounds
+- OBJC_IVAR_$_MOSettingsPanelController._headerArrayController
+- OBJC_IVAR_$_MOSettingsPanelController._headerRepresentations
+- OBJC_IVAR_$_MOSettingsPanelController._layoutArrayController
+- OBJC_IVAR_$_MOSettingsPanelController._layoutPresets
+- OBJC_IVAR_$_MOSettingsPanelController._liveScrollingAutomationLapsTextField
+- OBJC_IVAR_$_MOSettingsPanelController._liveScrollingAutomationStepsTextField
+- OBJC_IVAR_$_MOSettingsPanelController._mediaView
+- OBJC_IVAR_$_MOSettingsPanelController._optionsView
+- _CC_SHA1_Final
+- _CC_SHA1_Init
+- _CC_SHA1_Update
+- _CGImageRetain
+- _NSPasteboardNameGeneral
+- _NSPasteboardTypeString
+- _NSURLContentAccessDateKey
+- _NSURLNameKey
+- _OBJC_CLASS_$_MOImageDiskCache
+- _OBJC_CLASS_$_MOMSMonitoringProcessInfo
+- _OBJC_CLASS_$_MOMSMonitoringSystemInfo
+- _OBJC_CLASS_$_MOMonitoringController
+- _OBJC_CLASS_$_MOMonitoringPanel
+- _OBJC_CLASS_$_MOMonitoringPanelController
+- _OBJC_CLASS_$_MOSettingsPanel
+- _OBJC_CLASS_$_MOSettingsPanelController
+- _OBJC_CLASS_$_NSOpenPanel
+- _OBJC_CLASS_$_NSPanel
+- _OBJC_CLASS_$_NSPasteboard
+- _OBJC_CLASS_$_NSSortDescriptor
+- _OBJC_CLASS_$_NSXPCConnection
+- _OBJC_CLASS_$_NSXPCInterface
+- _OBJC_METACLASS_$_MOImageDiskCache
+- _OBJC_METACLASS_$_MOMSMonitoringProcessInfo
+- _OBJC_METACLASS_$_MOMSMonitoringSystemInfo
+- _OBJC_METACLASS_$_MOMonitoringController
+- _OBJC_METACLASS_$_MOMonitoringPanel
+- _OBJC_METACLASS_$_MOMonitoringPanelController
+- _OBJC_METACLASS_$_MOSettingsPanel
+- _OBJC_METACLASS_$_MOSettingsPanelController
+- _OBJC_METACLASS_$_NSPanel
+- _UTTagClassFilenameExtension
+- _UTTypeData
+- __40-[MOMediaView orderedOverdrawMediaItems]_block_invoke.216
+- __40-[MOMediaView orderedOverdrawMediaItems]_block_invoke_2.219
+- __44-[MOMediaView setMotionBlurRadius:animated:]_block_invoke.188
+- __50-[MOMediaView prefetchBestThumbnailsAtIndexPaths:]_block_invoke.287
+- __53-[MOMediaView _updateCell:withMediaItem:atIndexPath:]_block_invoke.250
+- __53-[MOMediaView _updateCell:withMediaItem:atIndexPath:]_block_invoke.254
+- __60-[MOCollectionView _automateLiveScrollingWithRecordingData:]_block_invoke.69
+- __83-[MOMediaView _updateCellToBest:withMediaItem:atIndexPath:withDependencyOperation:]_block_invoke.257
+- __83-[MOMediaView _updateCellToBest:withMediaItem:atIndexPath:withDependencyOperation:]_block_invoke.260
+- __83-[MOMediaView _updateCellToBest:withMediaItem:atIndexPath:withDependencyOperation:]_block_invoke.263
+- __Block_byref_object_copy_.1567
+- __Block_byref_object_copy_.1670
+- __Block_byref_object_copy_.1869
+- __Block_byref_object_copy_.2288
+- __Block_byref_object_copy_.2599
+- __Block_byref_object_copy_.926
+- __Block_byref_object_dispose_.1568
+- __Block_byref_object_dispose_.1671
+- __Block_byref_object_dispose_.1870
+- __Block_byref_object_dispose_.2289
+- __Block_byref_object_dispose_.2600
+- __Block_byref_object_dispose_.927
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_NSData_$_MONSDataCryptoExtensions
+- __OBJC_$_CATEGORY_NSData_$_MONSDataCryptoExtensions
+- __OBJC_$_CLASS_METHODS_MOImageDiskCache
+- __OBJC_$_CLASS_METHODS_MOMSMonitoringProcessInfo
+- __OBJC_$_CLASS_METHODS_MOMSMonitoringSystemInfo
+- __OBJC_$_CLASS_METHODS_MOMonitoringController
+- __OBJC_$_CLASS_METHODS_MOMonitoringPanelController
+- __OBJC_$_CLASS_METHODS_MOSettingsPanelController
+- __OBJC_$_CLASS_PROP_LIST_MOMSMonitoringProcessInfo
+- __OBJC_$_CLASS_PROP_LIST_MOMSMonitoringSystemInfo
+- __OBJC_$_CLASS_PROP_LIST_NSSecureCoding
+- __OBJC_$_INSTANCE_METHODS_MOImageDiskCache
+- __OBJC_$_INSTANCE_METHODS_MOMSMonitoringProcessInfo
+- __OBJC_$_INSTANCE_METHODS_MOMSMonitoringSystemInfo
+- __OBJC_$_INSTANCE_METHODS_MOMonitoringController
+- __OBJC_$_INSTANCE_METHODS_MOMonitoringPanel
+- __OBJC_$_INSTANCE_METHODS_MOMonitoringPanelController
+- __OBJC_$_INSTANCE_METHODS_MOSettingsPanel
+- __OBJC_$_INSTANCE_METHODS_MOSettingsPanelController
+- __OBJC_$_INSTANCE_METHODS_NSString(MONSStringExtensions|MONSStringCryptoExtensions)
+- __OBJC_$_INSTANCE_VARIABLES_MOImageDiskCache
+- __OBJC_$_INSTANCE_VARIABLES_MOMSMonitoringProcessInfo
+- __OBJC_$_INSTANCE_VARIABLES_MOMSMonitoringSystemInfo
+- __OBJC_$_INSTANCE_VARIABLES_MOMonitoringController
+- __OBJC_$_INSTANCE_VARIABLES_MOMonitoringPanelController
+- __OBJC_$_INSTANCE_VARIABLES_MOSettingsPanelController
+- __OBJC_$_PROP_LIST_MOImageDiskCache
+- __OBJC_$_PROP_LIST_MOMSMonitoringProcessInfo
+- __OBJC_$_PROP_LIST_MOMSMonitoringSystemInfo
+- __OBJC_$_PROP_LIST_MOMonitoringController
+- __OBJC_$_PROP_LIST_MOMonitoringPanelController
+- __OBJC_$_PROP_LIST_MOSettingsPanelController
+- __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_MOMSMonitoringProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_MOMSMonitoringUpdateProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_MOSSScrollingProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSWindowDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_MOMSMonitoringProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_MOMSMonitoringUpdateProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_MOSSScrollingProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSWindowDelegate
+- __OBJC_$_PROTOCOL_REFS_NSSecureCoding
+- __OBJC_$_PROTOCOL_REFS_NSWindowDelegate
+- __OBJC_CLASS_PROTOCOLS_$_MOMSMonitoringProcessInfo
+- __OBJC_CLASS_PROTOCOLS_$_MOMSMonitoringSystemInfo
+- __OBJC_CLASS_PROTOCOLS_$_MOMonitoringController
+- __OBJC_CLASS_PROTOCOLS_$_MOMonitoringPanelController
+- __OBJC_CLASS_RO_$_MOImageDiskCache
+- __OBJC_CLASS_RO_$_MOMSMonitoringProcessInfo
+- __OBJC_CLASS_RO_$_MOMSMonitoringSystemInfo
+- __OBJC_CLASS_RO_$_MOMonitoringController
+- __OBJC_CLASS_RO_$_MOMonitoringPanel
+- __OBJC_CLASS_RO_$_MOMonitoringPanelController
+- __OBJC_CLASS_RO_$_MOSettingsPanel
+- __OBJC_CLASS_RO_$_MOSettingsPanelController
+- __OBJC_LABEL_PROTOCOL_$_MOMSMonitoringProtocol
+- __OBJC_LABEL_PROTOCOL_$_MOMSMonitoringUpdateProtocol
+- __OBJC_LABEL_PROTOCOL_$_MOSSScrollingProtocol
+- __OBJC_LABEL_PROTOCOL_$_NSCoding
+- __OBJC_LABEL_PROTOCOL_$_NSSecureCoding
+- __OBJC_LABEL_PROTOCOL_$_NSWindowDelegate
+- __OBJC_METACLASS_RO_$_MOImageDiskCache
+- __OBJC_METACLASS_RO_$_MOMSMonitoringProcessInfo
+- __OBJC_METACLASS_RO_$_MOMSMonitoringSystemInfo
+- __OBJC_METACLASS_RO_$_MOMonitoringController
+- __OBJC_METACLASS_RO_$_MOMonitoringPanel
+- __OBJC_METACLASS_RO_$_MOMonitoringPanelController
+- __OBJC_METACLASS_RO_$_MOSettingsPanel
+- __OBJC_METACLASS_RO_$_MOSettingsPanelController
+- __OBJC_PROTOCOL_$_MOMSMonitoringProtocol
+- __OBJC_PROTOCOL_$_MOMSMonitoringUpdateProtocol
+- __OBJC_PROTOCOL_$_MOSSScrollingProtocol
+- __OBJC_PROTOCOL_$_NSCoding
+- __OBJC_PROTOCOL_$_NSSecureCoding
+- __OBJC_PROTOCOL_$_NSWindowDelegate
+- __OBJC_PROTOCOL_REFERENCE_$_MOMSMonitoringProtocol
+- __OBJC_PROTOCOL_REFERENCE_$_MOMSMonitoringUpdateProtocol
+- __OBJC_PROTOCOL_REFERENCE_$_MOSSScrollingProtocol
+- ___42+[MOMonitoringController isLoggingEnabled]_block_invoke
+- ___46-[MOImageDiskCache _willTerminateNotification]_block_invoke
+- ___48-[MOImageDiskCache _didResignActiveNotification]_block_invoke
+- ___48-[MOMonitoringController _restartOutputLogTimer]_block_invoke
+- ___48-[MOMonitoringController _restartOutputLogTimer]_block_invoke_2
+- ___51-[MOImageDiskCache setImage:withResolution:forURL:]_block_invoke
+- ___60-[MOCollectionView _automateLiveScrollingWithRecordingData:]_block_invoke
+- ___64-[MOSettingsPanelController automateLiveScrollingWithRecording:]_block_invoke
+- ___64-[MOSettingsPanelController automateLiveScrollingWithRecording:]_block_invoke_2
+- ___67-[MOSettingsPanelController automateLiveScrollingWithLapsAndSteps:]_block_invoke
+- ___block_descriptor_40_e8_32o_e5_v8?0l
+- ___block_descriptor_48_e8_32s40s_e17_v16?0"NSError"8l
+- ___block_descriptor_48_e8_32s40s_e8_v16?0q8l
+- ___block_descriptor_64_e8_32o40o_e5_v8?0l
+- ___copy_helper_block_e8_32o
+- ___copy_helper_block_e8_32o40o
+- ___destroy_helper_block_e8_32o
+- ___destroy_helper_block_e8_32o40o
+- __block_literal_global.100
+- __block_literal_global.1337
+- __block_literal_global.1480
+- __block_literal_global.1706
+- __block_literal_global.190
+- __block_literal_global.2022
+- __block_literal_global.205
+- __block_literal_global.207
+- __block_literal_global.209
+- __block_literal_global.211
+- __block_literal_global.218
+- __block_literal_global.221
+- __block_literal_global.252
+- __block_literal_global.2603
+- __block_literal_global.266
+- __block_literal_global.268
+- __block_literal_global.270
+- __block_literal_global.272
+- __block_literal_global.274
+- __block_literal_global.276
+- __block_literal_global.278
+- __block_literal_global.280
+- __block_literal_global.282
+- __block_literal_global.284
+- __block_literal_global.286
+- __block_literal_global.296
+- __block_literal_global.3574
+- __block_literal_global.383
+- __block_literal_global.3906
+- __block_literal_global.923
+- _dispatch_release
+- _dispatch_semaphore_create
+- _dispatch_semaphore_signal
+- _dispatch_semaphore_wait
+- _gMonitoringLoggingCategory
+- _kMOMonitoringAutomationBeginKey
+- _kMOMonitoringAutomationEndKey
+- _kMOMonitoringFrameRateKey
+- _kMOMonitoringMediaViewBestThumbnailCellOperationDurationKey
+- _kMOMonitoringMediaViewBestThumbnailCellOperationDurationStatisticsKey
+- _kMOMonitoringMediaViewBestThumbnailGenerationDurationKey
+- _kMOMonitoringMediaViewBestThumbnailGenerationStatisticsKey
+- _kMOMonitoringMediaViewBestThumbnailPrefetchOperationDurationKey
+- _kMOMonitoringMediaViewBestThumbnailPrefetchOperationDurationStatisticsKey
+- _kMOMonitoringMediaViewBestThumbnailsMemoryCacheGetDurationKey
+- _kMOMonitoringMediaViewBestThumbnailsMemoryCacheGetStatisticsKey
+- _kMOMonitoringMediaViewBestThumbnailsMemoryCacheSetDurationKey
+- _kMOMonitoringMediaViewBestThumbnailsMemoryCacheSetStatisticsKey
+- _kMOMonitoringMediaViewDataSourceChangeKey
+- _kMOMonitoringMediaViewEmptyCellsKey
+- _kMOMonitoringMediaViewIndexPathsForItemsInRectDurationKey
+- _kMOMonitoringMediaViewIndexPathsForItemsInRectStatisticsKey
+- _kMOMonitoringMediaViewLastNumberOfBestThumbnailCellOperationsKey
+- _kMOMonitoringMediaViewLastNumberOfBestThumbnailPrefetchOperationsKey
+- _kMOMonitoringMediaViewLastNumberOfLowThumbnailCellOperationsKey
+- _kMOMonitoringMediaViewLastNumberOfLowThumbnailPrefetchOperationsKey
+- _kMOMonitoringMediaViewLayoutChangeKey
+- _kMOMonitoringMediaViewLowThumbnailCellOperationDurationKey
+- _kMOMonitoringMediaViewLowThumbnailCellOperationDurationStatisticsKey
+- _kMOMonitoringMediaViewLowThumbnailGenerationDurationKey
+- _kMOMonitoringMediaViewLowThumbnailGenerationStatisticsKey
+- _kMOMonitoringMediaViewLowThumbnailPrefetchOperationDurationKey
+- _kMOMonitoringMediaViewLowThumbnailPrefetchOperationDurationStatisticsKey
+- _kMOMonitoringMediaViewLowThumbnailsMemoryCacheGetDurationKey
+- _kMOMonitoringMediaViewLowThumbnailsMemoryCacheGetStatisticsKey
+- _kMOMonitoringMediaViewLowThumbnailsMemoryCacheSetDurationKey
+- _kMOMonitoringMediaViewLowThumbnailsMemoryCacheSetStatisticsKey
+- _kMOMonitoringMediaViewNumberOfBestThumbnailCellOperationsKey
+- _kMOMonitoringMediaViewNumberOfBestThumbnailPrefetchOperationsKey
+- _kMOMonitoringMediaViewNumberOfBestThumbnailsMemoryCacheAvailableSlotsKey
+- _kMOMonitoringMediaViewNumberOfBestThumbnailsMemoryCacheAvailableSlotsSizeKey
+- _kMOMonitoringMediaViewNumberOfBestThumbnailsMemoryCacheUsedSlotsKey
+- _kMOMonitoringMediaViewNumberOfContentCellsKey
+- _kMOMonitoringMediaViewNumberOfItemsKey
+- _kMOMonitoringMediaViewNumberOfItemsMemoryCacheAvailableSlotsKey
+- _kMOMonitoringMediaViewNumberOfItemsMemoryCacheUsedSlotsKey
+- _kMOMonitoringMediaViewNumberOfLowThumbnailCellOperationsKey
+- _kMOMonitoringMediaViewNumberOfLowThumbnailPrefetchOperationsKey
+- _kMOMonitoringMediaViewNumberOfLowThumbnailsMemoryCacheAvailableSlotsKey
+- _kMOMonitoringMediaViewNumberOfLowThumbnailsMemoryCacheAvailableSlotsSizeKey
+- _kMOMonitoringMediaViewNumberOfLowThumbnailsMemoryCacheUsedSlotsKey
+- _kMOMonitoringMediaViewNumberOfSectionsKey
+- _kMOMonitoringMediaViewNumberOfSectionsMemoryCacheAvailableSlotsKey
+- _kMOMonitoringMediaViewNumberOfSectionsMemoryCacheUsedSlotsKey
+- _kMOMonitoringMediaViewNumberOfSelectedCellsKey
+- _kMOMonitoringMediaViewNumberOfVisibleCellsKey
+- _kMOMonitoringMediaViewPrefetchLowThumbnailsPreparationDurationKey
+- _kMOMonitoringMediaViewPrefetchLowThumbnailsPreparationStatisticsKey
+- _kMOMonitoringMediaViewRecentEmptyCellsKey
+- _kMOMonitoringMediaViewRescheduleThumbnailCellOperationsDurationKey
+- _kMOMonitoringMediaViewRescheduleThumbnailCellOperationsStatisticsKey
+- _kMOMonitoringRecentLowFrameRateKey
+- _kMOMonitoringSystemStatsDiskBytesReadPerSecondKey
+- _kMOMonitoringSystemStatsDiskBytesWrittenPerSecondKey
+- _kMOMonitoringSystemStatsPhysicalMemoryFreeBytesKey
+- _kMOMonitoringSystemStatsPhysicalMemoryUsedBytesKey
+- _kMOMonitoringSystemStatsProcessAnonymousSizeBytesKey
+- _kMOMonitoringSystemStatsProcessCPUUsagePercentageKey
+- _kMOMonitoringSystemStatsProcessPurgeableSizeBytesKey
+- _kMOMonitoringSystemStatsProcessResidentSizeBytesKey
+- _kMOMonitoringSystemStatsProcessVirtualPrivateSizeBytesKey
+- _kMOMonitoringSystemStatsSystemCPUUsagePercentageKey
+- _kMOMonitoringSystemStatsVMCompressorPageCountBytesKey
+- _kMOMonitoringSystemStatsVMPageInBytesKey
+- _kMOMonitoringSystemStatsVMPageOutBytesKey
+- _kMOMonitoringSystemStatsVMSwapUsedBytesKey
+- _objc_msgSend$_automateLiveScroll
+- _objc_msgSend$_automateLiveScrollingWithRecordingData:
+- _objc_msgSend$_automatedLiveScrollingDidEnd
+- _objc_msgSend$_automatedLiveScrollingWillBegin
+- _objc_msgSend$_diskCacheDirectoryForURL:
+- _objc_msgSend$_diskCacheFilePathForURL:withResolution:
+- _objc_msgSend$_diskCacheResolutionsForURL:
+- _objc_msgSend$_restartMonitoring
+- _objc_msgSend$_restartOutputLogTimer
+- _objc_msgSend$_restartRecentLowFrameRateTimer
+- _objc_msgSend$_setMediaViewLayout:animated:
+- _objc_msgSend$_setup
+- _objc_msgSend$_setupLayoutOptions
+- _objc_msgSend$_zeroScreenHeight
+- _objc_msgSend$alignResolution:
+- _objc_msgSend$arguments
+- _objc_msgSend$arrayWithObject:
+- _objc_msgSend$arrayWithObjects:
+- _objc_msgSend$automateLiveScrolling
+- _objc_msgSend$automateLiveScrollingWithLaps:andStepSize:
+- _objc_msgSend$automateLiveScrollingWithRecordingPasteboardData
+- _objc_msgSend$backgroundColor
+- _objc_msgSend$beginPerformanceMeasurementForIdentifier:
+- _objc_msgSend$beginWithCompletionHandler:
+- _objc_msgSend$boolValue
+- _objc_msgSend$cellArrayController
+- _objc_msgSend$cellRepresentations
+- _objc_msgSend$clear
+- _objc_msgSend$clearAllStatistics
+- _objc_msgSend$clearBestThumbnailGenerationStatistics
+- _objc_msgSend$clearIndexPathsForItemsInRectStatistics
+- _objc_msgSend$clearLowThumbnailGenerationStatistics
+- _objc_msgSend$clearPrefetchLowThumbnailsPreparationStatistics
+- _objc_msgSend$clearRescheduleThumbnailCellOperationsStatistics
+- _objc_msgSend$clearThumbnailOperationsDurationStatistics
+- _objc_msgSend$clearThumbnailsMemoryCacheStatistics
+- _objc_msgSend$close
+- _objc_msgSend$close:
+- _objc_msgSend$colorArrayController
+- _objc_msgSend$colorBackgrounds
+- _objc_msgSend$convertRectFromScreen:
+- _objc_msgSend$dataUsingEncoding:
+- _objc_msgSend$dataUsingEncoding:allowLossyConversion:
+- _objc_msgSend$dataWithContentsOfURL:options:error:
+- _objc_msgSend$debuggingLayoutOptionsView
+- _objc_msgSend$declareTypes:owner:
+- _objc_msgSend$decodeValueOfObjCType:at:size:
+- _objc_msgSend$defaultCStringEncoding
+- _objc_msgSend$encodeValueOfObjCType:at:
+- _objc_msgSend$endPerformanceMeasurementForIdentifier:
+- _objc_msgSend$enumeratorAtURL:includingPropertiesForKeys:options:errorHandler:
+- _objc_msgSend$environment
+- _objc_msgSend$fileExistsAtPath:isDirectory:
+- _objc_msgSend$getResourceValue:forKey:error:
+- _objc_msgSend$headerArrayController
+- _objc_msgSend$headerRepresentations
+- _objc_msgSend$hexString
+- _objc_msgSend$initWithBytes:length:encoding:
+- _objc_msgSend$initWithContentRect:styleMask:backing:defer:
+- _objc_msgSend$initWithServiceName:
+- _objc_msgSend$intValue
+- _objc_msgSend$integerForKey:
+- _objc_msgSend$interfaceWithProtocol:
+- _objc_msgSend$invalidateMemoryCaches
+- _objc_msgSend$isAutomating
+- _objc_msgSend$isLoggingEnabled
+- _objc_msgSend$isVisible
+- _objc_msgSend$isWindowLoaded
+- _objc_msgSend$layoutArrayController
+- _objc_msgSend$layoutPresets
+- _objc_msgSend$liveMonitoringPanelController
+- _objc_msgSend$liveScrollingAutomationLapsTextField
+- _objc_msgSend$liveScrollingAutomationStepsTextField
+- _objc_msgSend$localizedDescription
+- _objc_msgSend$longLongValue
+- _objc_msgSend$makeKeyAndOrderFront:
+- _objc_msgSend$markFrameRate
+- _objc_msgSend$markNumberOfEmptyCells:
+- _objc_msgSend$monitoringController
+- _objc_msgSend$monitoringControllerForMediaView:
+- _objc_msgSend$object
+- _objc_msgSend$open:
+- _objc_msgSend$openPanel
+- _objc_msgSend$optionsView
+- _objc_msgSend$pasteboardWithName:
+- _objc_msgSend$pathForResource:ofType:
+- _objc_msgSend$pause
+- _objc_msgSend$playScrollRecordingData:atScreenLocation:withReply:
+- _objc_msgSend$readObjectsForClasses:options:
+- _objc_msgSend$recalculateKeyViewLoop
+- _objc_msgSend$registeredClassForSupplementaryViewOfKind:withReuseIdentifier:
+- _objc_msgSend$remoteObjectProxy
+- _objc_msgSend$removeItemAtURL:error:
+- _objc_msgSend$resetEmptyCellsStatistics
+- _objc_msgSend$resetFrameRateStatistics
+- _objc_msgSend$resume
+- _objc_msgSend$selectedObjects
+- _objc_msgSend$setAllowedContentTypes:
+- _objc_msgSend$setCanChooseDirectories:
+- _objc_msgSend$setCanChooseFiles:
+- _objc_msgSend$setCellRepresentations:
+- _objc_msgSend$setColorBackgrounds:
+- _objc_msgSend$setDisplaysWhenScreenProfileChanges:
+- _objc_msgSend$setDouble:forKey:
+- _objc_msgSend$setExportedInterface:
+- _objc_msgSend$setExportedObject:
+- _objc_msgSend$setFrame:display:animate:
+- _objc_msgSend$setFrameOrigin:
+- _objc_msgSend$setHeaderRepresentations:
+- _objc_msgSend$setInteger:forKey:
+- _objc_msgSend$setLayoutPresets:
+- _objc_msgSend$setLogCategory:
+- _objc_msgSend$setMediaView:
+- _objc_msgSend$setMessage:
+- _objc_msgSend$setMonitoringController:
+- _objc_msgSend$setMovableByWindowBackground:
+- _objc_msgSend$setPreventsApplicationTerminationWhenModal:
+- _objc_msgSend$setRemoteObjectInterface:
+- _objc_msgSend$setSelectionIndex:
+- _objc_msgSend$setShouldInsetForAnchor:
+- _objc_msgSend$setString:forType:
+- _objc_msgSend$setStyleMask:
+- _objc_msgSend$setWindow:
+- _objc_msgSend$setWorksWhenModal:
+- _objc_msgSend$settingsPanelController
+- _objc_msgSend$sha1Hash
+- _objc_msgSend$sha1HashString
+- _objc_msgSend$sortDescriptorWithKey:ascending:
+- _objc_msgSend$sortUsingDescriptors:
+- _objc_msgSend$startMonitoringWithUpdateRate:
+- _objc_msgSend$stringWithContentsOfURL:encoding:error:
+- _objc_msgSend$subpathsOfDirectoryAtPath:error:
+- _objc_msgSend$timeIntervalSince1970
+- _objc_msgSend$typesWithTag:tagClass:conformingToType:
+- _objc_msgSend$writeToFile:options:error:
+- _sprintf
+- isLoggingEnabled.onceToken
+CStrings:
+- "%.1f B"
+- "%.1f GB"
+- "%.1f KB"
+- "%.1f MB"
+- "%02x"
+- "%lu%@"
+- "-enableMondrianPMR"
+- ".jpg"
+- ".png"
+- "@\"MOMonitoringController\""
+- "@\"MOMonitoringPanelController\""
+- "@\"MOUIProgressBar\""
+- "@\"NSArray\"24@0:8@\"NSWindow\"16"
+- "@\"NSArray\"32@0:8@\"NSWindow\"16@\"NSScreen\"24"
+- "@\"NSArrayController\""
+- "@\"NSUndoManager\"24@0:8@\"NSWindow\"16"
+- "@\"NSWindow\"24@0:8@\"NSWindow\"16"
+- "@\"NSXPCConnection\""
+- "@24@0:8@\"NSCoder\"16"
+- "@32@0:8@\"NSWindow\"16@24"
+- "AB"
+- "AE"
+- "AS"
+- "An error occured automating scrollong with recording data: \"%@\""
+- "AutomatedScrolling"
+- "B24@0:8@\"NSWindow\"16"
+- "B32@0:8@\"NSWindow\"16@\"NSMenu\"24"
+- "B56@0:8@\"NSWindow\"16@\"NSEvent\"24{CGPoint=dd}32@\"NSPasteboard\"48"
+- "B56@0:8@\"NSWindow\"16{CGRect={CGPoint=dd}{CGSize=dd}}24"
+- "B56@0:8@16@24{CGPoint=dd}32@48"
+- "B56@0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24"
+- "BTCOD"
+- "BTCODS"
+- "BTGD"
+- "BTGS"
+- "BTMCGD"
+- "BTMCGS"
+- "BTMCSD"
+- "BTMCSS"
+- "BTPOD"
+- "BTPODS"
+- "CPUU"
+- "Choose a flick recording"
+- "DBRPS"
+- "DBWPS"
+- "DSC"
+- "EC"
+- "Error getting scrolling recording data from file \"%@\""
+- "Error getting scrolling recording data from pasteboard"
+- "FR"
+- "Failed to cleanup image disk cache \"%@\": \"%@\""
+- "Failed to cleanup thumbnails disk cache \"%@\": \"%@\""
+- "Failed to cleanup thumbnails disk caches \"%@\": \"%@\""
+- "Failed to create image disk cache \"%@\": \"%@\""
+- "Failed to create images disk cache \"%@\": \"%@\""
+- "Failed to create thumbnail disk cache \"%@\": \"%@\""
+- "Failed to save image disk cache \"%@\": \"%@\""
+- "Flick recording can be generated from AppKit FlickMetrics application."
+- "H:[_cancelButton]-[_acceptButton]-|"
+- "H:|-[_nameTextField]-|"
+- "IPFIIRD"
+- "IPFIIRS"
+- "LC"
+- "LNOBTCO"
+- "LNOBTPO"
+- "LNOLTCO"
+- "LNOLTPO"
+- "LTCOD"
+- "LTCODS"
+- "LTGD"
+- "LTGS"
+- "LTMCGD"
+- "LTMCGS"
+- "LTMCSD"
+- "LTMCSS"
+- "LTPOD"
+- "LTPODS"
+- "Logs/%@/Mondrian.molog"
+- "MOImageDiskCache"
+- "MOMSMonitoringProcessInfo"
+- "MOMSMonitoringProtocol"
+- "MOMSMonitoringSystemInfo"
+- "MOMSMonitoringUpdateProtocol"
+- "MOMonitoringController"
+- "MOMonitoringPanel"
+- "MOMonitoringPanelController"
+- "MONSDataCryptoExtensions"
+- "MONSStringCryptoExtensions"
+- "MOSSScrollingProtocol"
+- "MOSettingsPanel"
+- "MOSettingsPanelController"
+- "Mondrian PMR is enabled. This may impact grid performance, only enable for tracing / debugging purposes."
+- "MondrianMonitoringLogCategory"
+- "MondrianMonitoringLogEnabled"
+- "MondrianPMR"
+- "NOBTCO"
+- "NOBTMCAS"
+- "NOBTMCASS"
+- "NOBTMCUS"
+- "NOBTPO"
+- "NOCC"
+- "NOI"
+- "NOIMCAS"
+- "NOIMCUS"
+- "NOLTCO"
+- "NOLTMCAS"
+- "NOLTMCASS"
+- "NOLTMCUS"
+- "NOLTPO"
+- "NOS"
+- "NOSC"
+- "NOSMCAS"
+- "NOSMCUS"
+- "NOVC"
+- "NSCoding"
+- "NSSecureCoding"
+- "NSWindowDelegate"
+- "PLTPD"
+- "PLTPS"
+- "PMF"
+- "PMU"
+- "PS"
+- "Q24@0:8Q16"
+- "Q32@0:8@\"NSWindow\"16Q24"
+- "Q32@0:8@16Q24"
+- "Q32@0:8{CGSize=dd}16"
+- "REC"
+- "RLFR"
+- "RS"
+- "RTCOD"
+- "RTCOS"
+- "SCPUU"
+- "T@\"MOMediaView\",W,N,V_mediaView"
+- "T@\"MOMonitoringController\",W,N,V_monitoringController"
+- "T@\"MOMonitoringPanelController\",R,N,V_liveMonitoringPanelController"
+- "T@\"MOUIProgressBar\",&,V_frameRateProgressBar"
+- "T@\"NSArrayController\",&,V_cellArrayController"
+- "T@\"NSArrayController\",&,V_colorArrayController"
+- "T@\"NSArrayController\",&,V_headerArrayController"
+- "T@\"NSArrayController\",&,V_layoutArrayController"
+- "T@\"NSMutableArray\",&,V_cellRepresentations"
+- "T@\"NSMutableArray\",&,V_colorBackgrounds"
+- "T@\"NSMutableArray\",&,V_headerRepresentations"
+- "T@\"NSMutableArray\",&,V_layoutPresets"
+- "T@\"NSTextField\",&,V_bestCellOperationAverageDurationTextField"
+- "T@\"NSTextField\",&,V_bestCellOperationMaximumDurationTextField"
+- "T@\"NSTextField\",&,V_bestPrefetchOperationAverageDurationTextField"
+- "T@\"NSTextField\",&,V_bestPrefetchOperationMaximumDurationTextField"
+- "T@\"NSTextField\",&,V_bestThumbnailGenerationAverageDurationTextField"
+- "T@\"NSTextField\",&,V_bestThumbnailGenerationMaximumDurationTextField"
+- "T@\"NSTextField\",&,V_bestThumbnailsMemoryCacheGetAverageDurationTextField"
+- "T@\"NSTextField\",&,V_bestThumbnailsMemoryCacheGetMaximumDurationTextField"
+- "T@\"NSTextField\",&,V_bestThumbnailsMemoryCacheSetAverageDurationTextField"
+- "T@\"NSTextField\",&,V_bestThumbnailsMemoryCacheSetMaximumDurationTextField"
+- "T@\"NSTextField\",&,V_diskBytesReadTextField"
+- "T@\"NSTextField\",&,V_diskBytesWriteTextField"
+- "T@\"NSTextField\",&,V_frameRateTextField"
+- "T@\"NSTextField\",&,V_indexPathsForItemsInRectAverageDurationTextField"
+- "T@\"NSTextField\",&,V_indexPathsForItemsInRectMaximumDurationTextField"
+- "T@\"NSTextField\",&,V_lastNumberOfBestCellOperationsTextField"
+- "T@\"NSTextField\",&,V_lastNumberOfBestPrefetchOperationsTextField"
+- "T@\"NSTextField\",&,V_lastNumberOfLowCellOperationsTextField"
+- "T@\"NSTextField\",&,V_lastNumberOfLowPrefetchOperationsTextField"
+- "T@\"NSTextField\",&,V_liveScrollingAutomationLapsTextField"
+- "T@\"NSTextField\",&,V_liveScrollingAutomationStepsTextField"
+- "T@\"NSTextField\",&,V_lowCellOperationAverageDurationTextField"
+- "T@\"NSTextField\",&,V_lowCellOperationMaximumDurationTextField"
+- "T@\"NSTextField\",&,V_lowFrameRateTextField"
+- "T@\"NSTextField\",&,V_lowPrefetchOperationAverageDurationTextField"
+- "T@\"NSTextField\",&,V_lowPrefetchOperationMaximumDurationTextField"
+- "T@\"NSTextField\",&,V_lowThumbnailGenerationAverageDurationTextField"
+- "T@\"NSTextField\",&,V_lowThumbnailGenerationMaximumDurationTextField"
+- "T@\"NSTextField\",&,V_lowThumbnailsMemoryCacheGetAverageDurationTextField"
+- "T@\"NSTextField\",&,V_lowThumbnailsMemoryCacheGetMaximumDurationTextField"
+- "T@\"NSTextField\",&,V_lowThumbnailsMemoryCacheSetAverageDurationTextField"
+- "T@\"NSTextField\",&,V_lowThumbnailsMemoryCacheSetMaximumDurationTextField"
+- "T@\"NSTextField\",&,V_numberOfBestCellOperationsTextField"
+- "T@\"NSTextField\",&,V_numberOfBestPrefetchOperationsTextField"
+- "T@\"NSTextField\",&,V_numberOfBestThumbnailsMemoryCacheAvailableSlotsSizeTextField"
+- "T@\"NSTextField\",&,V_numberOfBestThumbnailsMemoryCacheAvailableSlotsTextField"
+- "T@\"NSTextField\",&,V_numberOfBestThumbnailsMemoryCacheUsedSlotsTextField"
+- "T@\"NSTextField\",&,V_numberOfContentCellsTextField"
+- "T@\"NSTextField\",&,V_numberOfEmptyCellsTextField"
+- "T@\"NSTextField\",&,V_numberOfItemsMemoryCacheAvailableSlotsTextField"
+- "T@\"NSTextField\",&,V_numberOfItemsMemoryCacheUsedSlotsTextField"
+- "T@\"NSTextField\",&,V_numberOfItemsTextField"
+- "T@\"NSTextField\",&,V_numberOfLowCellOperationsTextField"
+- "T@\"NSTextField\",&,V_numberOfLowPrefetchOperationsTextField"
+- "T@\"NSTextField\",&,V_numberOfLowThumbnailsMemoryCacheAvailableSlotsSizeTextField"
+- "T@\"NSTextField\",&,V_numberOfLowThumbnailsMemoryCacheAvailableSlotsTextField"
+- "T@\"NSTextField\",&,V_numberOfLowThumbnailsMemoryCacheUsedSlotTextField"
+- "T@\"NSTextField\",&,V_numberOfRecentEmptyCellsTextField"
+- "T@\"NSTextField\",&,V_numberOfSectionsMemoryCacheAvailableSlotsTextField"
+- "T@\"NSTextField\",&,V_numberOfSectionsMemoryCacheUsedSlotTextField"
+- "T@\"NSTextField\",&,V_numberOfSectionsTextField"
+- "T@\"NSTextField\",&,V_numberOfSelectedCellsTextField"
+- "T@\"NSTextField\",&,V_numberOfVisibleCellsTextField"
+- "T@\"NSTextField\",&,V_physicalMemoryFreeTextField"
+- "T@\"NSTextField\",&,V_physicalMemoryUsedTextField"
+- "T@\"NSTextField\",&,V_prefetchLowThumbnailsPreparationAverageDurationTextField"
+- "T@\"NSTextField\",&,V_prefetchLowThumbnailsPreparationMaximumDurationTextField"
+- "T@\"NSTextField\",&,V_processAnonymousSizeTextField"
+- "T@\"NSTextField\",&,V_processCPUUsageTextField"
+- "T@\"NSTextField\",&,V_processPurgeableSizeTextField"
+- "T@\"NSTextField\",&,V_rescheduleThumbnailCellOperationsAverageDurationTextField"
+- "T@\"NSTextField\",&,V_rescheduleThumbnailCellOperationsMaximumDurationTextField"
+- "T@\"NSTextField\",&,V_systemCPUUsageTextField"
+- "T@\"NSTextField\",&,V_vmCompressorTextField"
+- "T@\"NSTextField\",&,V_vmPageOutTextField"
+- "T@\"NSView\",&,V_optionsView"
+- "T@,R,N,V_emptyCellsStatistic"
+- "T@,R,N,V_frameRateStatistic"
+- "TB,N,V_useAsynchronousSerialDiskSaveQueue"
+- "TB,R,N,V_isRunning"
+- "TQ,N,V_imageFormat"
+- "TQ,V_diskBytesReadPerInterval"
+- "TQ,V_diskBytesWritePerInterval"
+- "TQ,V_memoryAnonymousBytes"
+- "TQ,V_memoryPurgeableBytes"
+- "TQ,V_memoryResidentBytes"
+- "TQ,V_physicalMemoryFreeBytes"
+- "TQ,V_physicalMemoryUsedBytes"
+- "TQ,V_virtualMemoryBytes"
+- "TQ,V_virtualMemoryCompressedBytes"
+- "TQ,V_virtualMemoryPageInBytes"
+- "TQ,V_virtualMemoryPageOutBytes"
+- "TQ,V_virtualMemorySwapUsedBytes"
+- "Td,N,V_outputLogTimeInterval"
+- "Td,N,V_recentLowFrameRateTimerInterval"
+- "Td,V_cpuUsagePercentage"
+- "V:|-[_nameTextField]-[_acceptButton]-|"
+- "VMCPB"
+- "VMPIB"
+- "VMPOB"
+- "VMSWB"
+- "VP"
+- "^{CGImage=}24@0:8@16"
+- "^{CGImage=}32@0:8@16Q24"
+- "_acceptButton, _cancelButton, _nameTextField"
+- "_automateLiveScroll"
+- "_automateLiveScrollingWithRecordingData:"
+- "_basicTimerQueue"
+- "_bestCellOperationAverageDurationTextField"
+- "_bestCellOperationMaximumDurationTextField"
+- "_bestPrefetchOperationAverageDurationTextField"
+- "_bestPrefetchOperationMaximumDurationTextField"
+- "_bestThumbnailCellOperationStatisticTimer"
+- "_bestThumbnailGenerationAverageDurationTextField"
+- "_bestThumbnailGenerationMaximumDurationTextField"
+- "_bestThumbnailGenerationStatisticTimer"
+- "_bestThumbnailPrefetchOperationStatisticTimer"
+- "_bestThumbnailsMemoryCacheGetAverageDurationTextField"
+- "_bestThumbnailsMemoryCacheGetMaximumDurationTextField"
+- "_bestThumbnailsMemoryCacheGetStatisticTimer"
+- "_bestThumbnailsMemoryCacheSetAverageDurationTextField"
+- "_bestThumbnailsMemoryCacheSetMaximumDurationTextField"
+- "_bestThumbnailsMemoryCacheSetStatisticTimer"
+- "_cellArrayController"
+- "_cellRepresentations"
+- "_colorArrayController"
+- "_colorBackgrounds"
+- "_convertBytesToBestReadableFormat:"
+- "_cpuUsagePercentage"
+- "_diskBytesReadPerInterval"
+- "_diskBytesReadTextField"
+- "_diskBytesWritePerInterval"
+- "_diskBytesWriteTextField"
+- "_diskCacheDirectory"
+- "_diskCacheDirectoryForURL:"
+- "_diskCacheDirectoryForURLs"
+- "_diskCacheFilePathForURL:withResolution:"
+- "_diskCacheResolutionsForURL:"
+- "_emptyCellsStatistic"
+- "_frameRate"
+- "_frameRateLastRecordedTime"
+- "_frameRateProgressBar"
+- "_frameRateStatistic"
+- "_frameRateTextField"
+- "_headerArrayController"
+- "_headerRepresentations"
+- "_imageFormat"
+- "_indexPathsForItemsInRectAverageDurationTextField"
+- "_indexPathsForItemsInRectMaximumDurationTextField"
+- "_indexPathsForItemsInRectStatisticTimer"
+- "_isLoggingEnabled"
+- "_isRunning"
+- "_lastNumberOfBestCellOperationsTextField"
+- "_lastNumberOfBestPrefetchOperationsTextField"
+- "_lastNumberOfLowCellOperationsTextField"
+- "_lastNumberOfLowPrefetchOperationsTextField"
+- "_layoutArrayController"
+- "_layoutPresets"
+- "_liveMonitoringPanelController"
+- "_liveScrollingAutomationLapsTextField"
+- "_liveScrollingAutomationStepsTextField"
+- "_loggingFilePath"
+- "_lowCellOperationAverageDurationTextField"
+- "_lowCellOperationMaximumDurationTextField"
+- "_lowFrameRateTextField"
+- "_lowPrefetchOperationAverageDurationTextField"
+- "_lowPrefetchOperationMaximumDurationTextField"
+- "_lowThumbnailCellOperationStatisticTimer"
+- "_lowThumbnailGenerationAverageDurationTextField"
+- "_lowThumbnailGenerationMaximumDurationTextField"
+- "_lowThumbnailGenerationStatisticTimer"
+- "_lowThumbnailPrefetchOperationStatisticTimer"
+- "_lowThumbnailsMemoryCacheGetAverageDurationTextField"
+- "_lowThumbnailsMemoryCacheGetMaximumDurationTextField"
+- "_lowThumbnailsMemoryCacheGetStatisticTimer"
+- "_lowThumbnailsMemoryCacheSetAverageDurationTextField"
+- "_lowThumbnailsMemoryCacheSetMaximumDurationTextField"
+- "_lowThumbnailsMemoryCacheSetStatisticTimer"
+- "_memoryAnonymousBytes"
+- "_memoryPurgeableBytes"
+- "_memoryResidentBytes"
+- "_monitoringController"
+- "_monitoringServiceConnection"
+- "_numberOfBestCellOperationsTextField"
+- "_numberOfBestPrefetchOperationsTextField"
+- "_numberOfBestThumbnailsMemoryCacheAvailableSlotsSizeTextField"
+- "_numberOfBestThumbnailsMemoryCacheAvailableSlotsTextField"
+- "_numberOfBestThumbnailsMemoryCacheUsedSlotsTextField"
+- "_numberOfContentCellsTextField"
+- "_numberOfEmptyCellsTextField"
+- "_numberOfItemsMemoryCacheAvailableSlotsTextField"
+- "_numberOfItemsMemoryCacheUsedSlotsTextField"
+- "_numberOfItemsTextField"
+- "_numberOfLowCellOperationsTextField"
+- "_numberOfLowPrefetchOperationsTextField"
+- "_numberOfLowThumbnailsMemoryCacheAvailableSlotsSizeTextField"
+- "_numberOfLowThumbnailsMemoryCacheAvailableSlotsTextField"
+- "_numberOfLowThumbnailsMemoryCacheUsedSlotTextField"
+- "_numberOfRecentEmptyCellsTextField"
+- "_numberOfSectionsMemoryCacheAvailableSlotsTextField"
+- "_numberOfSectionsMemoryCacheUsedSlotTextField"
+- "_numberOfSectionsTextField"
+- "_numberOfSelectedCellsTextField"
+- "_numberOfVisibleCellsTextField"
+- "_optionsView"
+- "_outputLogTimeInterval"
+- "_outputLogTimer"
+- "_outputLogTimerQueue"
+- "_physicalMemoryFreeBytes"
+- "_physicalMemoryFreeTextField"
+- "_physicalMemoryUsedBytes"
+- "_physicalMemoryUsedTextField"
+- "_prefetchLowThumbnailsPreparationAverageDurationTextField"
+- "_prefetchLowThumbnailsPreparationMaximumDurationTextField"
+- "_prefetchLowThumbnailsPreparationStatisticTimer"
+- "_processAnonymousSizeTextField"
+- "_processCPUUsageTextField"
+- "_processPurgeableSizeTextField"
+- "_recentEmptyCellsCount"
+- "_recentLowFrameRate"
+- "_recentLowFrameRateTimer"
+- "_recentLowFrameRateTimerInterval"
+- "_rescheduleThumbnailCellOperationsAverageDurationTextField"
+- "_rescheduleThumbnailCellOperationsMaximumDurationTextField"
+- "_rescheduleThumbnailCellOperationsTimer"
+- "_restartMonitoring"
+- "_restartOutputLogTimer"
+- "_restartRecentLowFrameRateTimer"
+- "_serialDiskSaveQueue"
+- "_setMediaViewLayout:animated:"
+- "_setup"
+- "_setupLayoutOptions"
+- "_supportLiveMonitoringPanel"
+- "_systemCPUUsageTextField"
+- "_useAsynchronousSerialDiskSaveQueue"
+- "_virtualMemoryBytes"
+- "_virtualMemoryCompressedBytes"
+- "_virtualMemoryPageInBytes"
+- "_virtualMemoryPageOutBytes"
+- "_virtualMemorySwapUsedBytes"
+- "_vmCompressorTextField"
+- "_vmPageOutTextField"
+- "_zeroScreenHeight"
+- "alignResolution:"
+- "arguments"
+- "arrayWithObject:"
+- "arrayWithObjects:"
+- "automateLiveScrolling"
+- "automateLiveScrollingWithLaps:andStepSize:"
+- "automateLiveScrollingWithLapsAndSteps:"
+- "automateLiveScrollingWithRecording:"
+- "automateLiveScrollingWithRecordingFilePath:"
+- "automateLiveScrollingWithRecordingPasteboardData"
+- "beginPerformanceMeasurementForIdentifier:"
+- "beginWithCompletionHandler:"
+- "bestCellOperationAverageDurationTextField"
+- "bestCellOperationMaximumDurationTextField"
+- "bestImageDiskCacheForURL:"
+- "bestPrefetchOperationAverageDurationTextField"
+- "bestPrefetchOperationMaximumDurationTextField"
+- "bestResolutionForSize:"
+- "bestThumbnailGenerationAverageDurationTextField"
+- "bestThumbnailGenerationMaximumDurationTextField"
+- "bestThumbnailsMemoryCacheGetAverageDurationTextField"
+- "bestThumbnailsMemoryCacheGetMaximumDurationTextField"
+- "bestThumbnailsMemoryCacheSetAverageDurationTextField"
+- "bestThumbnailsMemoryCacheSetMaximumDurationTextField"
+- "boolValue"
+- "canBecomeKeyWindow"
+- "canBecomeMainWindow"
+- "cellArrayController"
+- "cellRepresentations"
+- "changeCellRepresentation:"
+- "changeColorBackground:"
+- "changeHeaderRepresentation:"
+- "changeLayoutPreset:"
+- "clear"
+- "clearAllStatistics"
+- "clearBestThumbnailGenerationStatistics"
+- "clearIndexPathsForItemsInRectStatistics"
+- "clearLowThumbnailGenerationStatistics"
+- "clearMonitoringStatistics:"
+- "clearPrefetchLowThumbnailsPreparationStatistics"
+- "clearRescheduleThumbnailCellOperationsStatistics"
+- "clearThumbnailOperationsDurationStatistics"
+- "clearThumbnailsMemoryCacheStatistics"
+- "close"
+- "close:"
+- "colorArrayController"
+- "colorBackgrounds"
+- "com.apple.MondrianMonitoringService"
+- "com.apple.MondrianScrollingService"
+- "com.apple.mondrian.monitoring.basicTimerQueue"
+- "com.apple.mondrian.monitoring.outputLogQueue"
+- "com.apple.opus.MOImageDiskCache.disksavequeue"
+- "convertRectFromScreen:"
+- "cpuUsagePercentage"
+- "customWindowsToEnterFullScreenForWindow:"
+- "customWindowsToEnterFullScreenForWindow:onScreen:"
+- "customWindowsToExitFullScreenForWindow:"
+- "dataUsingEncoding:"
+- "dataUsingEncoding:allowLossyConversion:"
+- "dataWithContentsOfURL:options:error:"
+- "date"
+- "declareTypes:owner:"
+- "decodeValueOfObjCType:at:size:"
+- "defaultCStringEncoding"
+- "diskBytesReadPerInterval"
+- "diskBytesReadTextField"
+- "diskBytesWritePerInterval"
+- "diskBytesWriteTextField"
+- "emptyCellsStatistic"
+- "encodeValueOfObjCType:at:"
+- "encodeWithCoder:"
+- "endPerformanceMeasurementForIdentifier:"
+- "enumeratorAtURL:includingPropertiesForKeys:options:errorHandler:"
+- "environment"
+- "fileExistsAtPath:isDirectory:"
+- "finishBestThumbnailGenerationTiming:"
+- "finishBestThumbnailsMemoryCacheGetTiming:"
+- "finishBestThumbnailsMemoryCacheSetTiming:"
+- "finishIndexPathsForItemsInRectTiming:"
+- "finishLowThumbnailGenerationTiming:"
+- "finishLowThumbnailsMemoryCacheGetTiming:"
+- "finishLowThumbnailsMemoryCacheSetTiming:"
+- "finishPrefetchLowThumbnailsPreparationTiming:"
+- "finishRescheduleThumbnailCellOperationsTiming:"
+- "flickrecording"
+- "frameRateProgressBar"
+- "frameRateStatistic"
+- "frameRateTextField"
+- "getResourceValue:forKey:error:"
+- "hasImageForURL:withResolution:"
+- "headerArrayController"
+- "headerRepresentations"
+- "hexString"
+- "imageForURL:withResolution:"
+- "imageFormat"
+- "imageFromBestDiskCacheForURL:withResolution:"
+- "indexPathsForItemsInRectAverageDurationTextField"
+- "indexPathsForItemsInRectMaximumDurationTextField"
+- "initWithBytes:length:encoding:"
+- "initWithContentRect:styleMask:backing:defer:"
+- "initWithDiskCacheDirectory:"
+- "initWithServiceName:"
+- "initWithWindowNibPath:owner:"
+- "intValue"
+- "integerForKey:"
+- "interfaceWithProtocol:"
+- "invalidateDataSourceMemory:"
+- "invalidateDiskCacheForURL:"
+- "invalidateDiskCaches"
+- "invalidateMemoryCaches"
+- "invalidatePrefetchMemory:"
+- "isLoggingEnabled"
+- "isRunning"
+- "isVisible"
+- "jpg"
+- "lastNumberOfBestCellOperationsTextField"
+- "lastNumberOfBestPrefetchOperationsTextField"
+- "lastNumberOfLowCellOperationsTextField"
+- "lastNumberOfLowPrefetchOperationsTextField"
+- "layoutArrayController"
+- "layoutPresets"
+- "liveMonitoringPanelController"
+- "liveScrollingAutomationLapsTextField"
+- "liveScrollingAutomationStepsTextField"
+- "localizedDescription"
+- "longLongValue"
+- "lowCellOperationAverageDurationTextField"
+- "lowCellOperationMaximumDurationTextField"
+- "lowFrameRateTextField"
+- "lowPrefetchOperationAverageDurationTextField"
+- "lowPrefetchOperationMaximumDurationTextField"
+- "lowThumbnailGenerationAverageDurationTextField"
+- "lowThumbnailGenerationMaximumDurationTextField"
+- "lowThumbnailsMemoryCacheGetAverageDurationTextField"
+- "lowThumbnailsMemoryCacheGetMaximumDurationTextField"
+- "lowThumbnailsMemoryCacheSetAverageDurationTextField"
+- "lowThumbnailsMemoryCacheSetMaximumDurationTextField"
+- "makeKeyAndOrderFront:"
+- "markAutomationBegin"
+- "markAutomationEnd"
+- "markBestThumbnailCellOperationDuration:"
+- "markBestThumbnailPrefetchOperationDuration:"
+- "markDataSourceChange:"
+- "markFrameRate"
+- "markLastNumberOfBestThumbnailCellOperations:"
+- "markLastNumberOfBestThumbnailPrefetchOperations:"
+- "markLastNumberOfLowThumbnailCellOperations:"
+- "markLastNumberOfLowThumbnailPrefetchOperations:"
+- "markLayoutChange:"
+- "markLowThumbnailCellOperationDuration:"
+- "markLowThumbnailPrefetchOperationDuration:"
+- "markNumberOfBestThumbnailCellOperations:"
+- "markNumberOfBestThumbnailPrefetchOperations:"
+- "markNumberOfBestThumbnailsMemoryCacheAvailableSlots:"
+- "markNumberOfBestThumbnailsMemoryCacheAvailableSlotsSize:"
+- "markNumberOfBestThumbnailsMemoryCacheUsedSlots:"
+- "markNumberOfContentCells:"
+- "markNumberOfEmptyCells:"
+- "markNumberOfItemsMemoryCacheAvailableSlots:"
+- "markNumberOfItemsMemoryCacheUsedSlots:"
+- "markNumberOfLowThumbnailCellOperations:"
+- "markNumberOfLowThumbnailPrefetchOperations:"
+- "markNumberOfLowThumbnailsMemoryCacheAvailableSlots:"
+- "markNumberOfLowThumbnailsMemoryCacheAvailableSlotsSize:"
+- "markNumberOfLowThumbnailsMemoryCacheUsedSlots:"
+- "markNumberOfSectionsMemoryCacheAvailableSlots:"
+- "markNumberOfSectionsMemoryCacheUsedSlots:"
+- "markNumberOfSelectedCells:"
+- "markNumberOfVisibleCells:"
+- "memoryAnonymousBytes"
+- "memoryPurgeableBytes"
+- "memoryResidentBytes"
+- "monitoringController"
+- "monitoringControllerForMediaView:"
+- "name"
+- "nib"
+- "numberOfBestCellOperationsTextField"
+- "numberOfBestPrefetchOperationsTextField"
+- "numberOfBestThumbnailsMemoryCacheAvailableSlotsSizeTextField"
+- "numberOfBestThumbnailsMemoryCacheAvailableSlotsTextField"
+- "numberOfBestThumbnailsMemoryCacheUsedSlotsTextField"
+- "numberOfContentCellsTextField"
+- "numberOfEmptyCellsTextField"
+- "numberOfItemsMemoryCacheAvailableSlotsTextField"
+- "numberOfItemsMemoryCacheUsedSlotsTextField"
+- "numberOfItemsTextField"
+- "numberOfLowCellOperationsTextField"
+- "numberOfLowPrefetchOperationsTextField"
+- "numberOfLowThumbnailsMemoryCacheAvailableSlotsSizeTextField"
+- "numberOfLowThumbnailsMemoryCacheAvailableSlotsTextField"
+- "numberOfLowThumbnailsMemoryCacheUsedSlotTextField"
+- "numberOfRecentEmptyCellsTextField"
+- "numberOfSectionsMemoryCacheAvailableSlotsTextField"
+- "numberOfSectionsMemoryCacheUsedSlotTextField"
+- "numberOfSectionsTextField"
+- "numberOfSelectedCellsTextField"
+- "numberOfVisibleCellsTextField"
+- "object"
+- "open:"
+- "openMonitoringPanel:"
+- "openPanel"
+- "openSettingsPanel:"
+- "optionsView"
+- "outputLogTimeInterval"
+- "panelControllerForMediaView:"
+- "panelControllerForMonitoringController:"
+- "pasteboardWithName:"
+- "pathForResource:ofType:"
+- "pause"
+- "physicalMemoryFreeBytes"
+- "physicalMemoryFreeTextField"
+- "physicalMemoryUsedBytes"
+- "physicalMemoryUsedTextField"
+- "playScrollRecordingData:atScreenLocation:withReply:"
+- "prefetchLowThumbnailsPreparationAverageDurationTextField"
+- "prefetchLowThumbnailsPreparationMaximumDurationTextField"
+- "previewRepresentableActivityItemsForWindow:"
+- "processAnonymousSizeTextField"
+- "processCPUUsageTextField"
+- "processPurgeableSizeTextField"
+- "purgeDiskCache:progressBlock:"
+- "readObjectsForClasses:options:"
+- "recalculateKeyViewLoop"
+- "recentLowFrameRateTimerInterval"
+- "registerCellRepresentation:withName:"
+- "registerColorBackground:withName:"
+- "registerHeaderRepresentation:withName:"
+- "registerLayoutPreset:withName:"
+- "registeredClassForSupplementaryViewOfKind:withReuseIdentifier:"
+- "remoteObjectProxy"
+- "removeItemAtURL:error:"
+- "rescheduleThumbnailCellOperationsAverageDurationTextField"
+- "rescheduleThumbnailCellOperationsMaximumDurationTextField"
+- "resetEmptyCellsStatistics"
+- "resetFrameRate"
+- "resetFrameRateStatistics"
+- "resume"
+- "selectedObjects"
+- "setAllowedContentTypes:"
+- "setBestCellOperationAverageDurationTextField:"
+- "setBestCellOperationMaximumDurationTextField:"
+- "setBestPrefetchOperationAverageDurationTextField:"
+- "setBestPrefetchOperationMaximumDurationTextField:"
+- "setBestThumbnailGenerationAverageDurationTextField:"
+- "setBestThumbnailGenerationMaximumDurationTextField:"
+- "setBestThumbnailsMemoryCacheGetAverageDurationTextField:"
+- "setBestThumbnailsMemoryCacheGetMaximumDurationTextField:"
+- "setBestThumbnailsMemoryCacheSetAverageDurationTextField:"
+- "setBestThumbnailsMemoryCacheSetMaximumDurationTextField:"
+- "setCanChooseDirectories:"
+- "setCanChooseFiles:"
+- "setCellArrayController:"
+- "setCellRepresentations:"
+- "setColorArrayController:"
+- "setColorBackgrounds:"
+- "setCpuUsagePercentage:"
+- "setDiskBytesReadPerInterval:"
+- "setDiskBytesReadTextField:"
+- "setDiskBytesWritePerInterval:"
+- "setDiskBytesWriteTextField:"
+- "setDisplaysWhenScreenProfileChanges:"
+- "setDouble:forKey:"
+- "setExportedInterface:"
+- "setExportedObject:"
+- "setFrame:display:animate:"
+- "setFrameOrigin:"
+- "setFrameRateProgressBar:"
+- "setFrameRateTextField:"
+- "setHeaderArrayController:"
+- "setHeaderRepresentations:"
+- "setImage:withResolution:forURL:"
+- "setImageFormat:"
+- "setIndexPathsForItemsInRectAverageDurationTextField:"
+- "setIndexPathsForItemsInRectMaximumDurationTextField:"
+- "setInteger:forKey:"
+- "setLastNumberOfBestCellOperationsTextField:"
+- "setLastNumberOfBestPrefetchOperationsTextField:"
+- "setLastNumberOfLowCellOperationsTextField:"
+- "setLastNumberOfLowPrefetchOperationsTextField:"
+- "setLayoutArrayController:"
+- "setLayoutPresets:"
+- "setLiveScrollingAutomationLapsTextField:"
+- "setLiveScrollingAutomationStepsTextField:"
+- "setLogCategory:"
+- "setLowCellOperationAverageDurationTextField:"
+- "setLowCellOperationMaximumDurationTextField:"
+- "setLowFrameRateTextField:"
+- "setLowPrefetchOperationAverageDurationTextField:"
+- "setLowPrefetchOperationMaximumDurationTextField:"
+- "setLowThumbnailGenerationAverageDurationTextField:"
+- "setLowThumbnailGenerationMaximumDurationTextField:"
+- "setLowThumbnailsMemoryCacheGetAverageDurationTextField:"
+- "setLowThumbnailsMemoryCacheGetMaximumDurationTextField:"
+- "setLowThumbnailsMemoryCacheSetAverageDurationTextField:"
+- "setLowThumbnailsMemoryCacheSetMaximumDurationTextField:"
+- "setMediaView:"
+- "setMemoryAnonymousBytes:"
+- "setMemoryPurgeableBytes:"
+- "setMemoryResidentBytes:"
+- "setMonitoringController:"
+- "setMovableByWindowBackground:"
+- "setNumberOfBestCellOperationsTextField:"
+- "setNumberOfBestPrefetchOperationsTextField:"
+- "setNumberOfBestThumbnailsMemoryCacheAvailableSlotsSizeTextField:"
+- "setNumberOfBestThumbnailsMemoryCacheAvailableSlotsTextField:"
+- "setNumberOfBestThumbnailsMemoryCacheUsedSlotsTextField:"
+- "setNumberOfContentCellsTextField:"
+- "setNumberOfEmptyCellsTextField:"
+- "setNumberOfItemsMemoryCacheAvailableSlotsTextField:"
+- "setNumberOfItemsMemoryCacheUsedSlotsTextField:"
+- "setNumberOfItemsTextField:"
+- "setNumberOfLowCellOperationsTextField:"
+- "setNumberOfLowPrefetchOperationsTextField:"
+- "setNumberOfLowThumbnailsMemoryCacheAvailableSlotsSizeTextField:"
+- "setNumberOfLowThumbnailsMemoryCacheAvailableSlotsTextField:"
+- "setNumberOfLowThumbnailsMemoryCacheUsedSlotTextField:"
+- "setNumberOfRecentEmptyCellsTextField:"
+- "setNumberOfSectionsMemoryCacheAvailableSlotsTextField:"
+- "setNumberOfSectionsMemoryCacheUsedSlotTextField:"
+- "setNumberOfSectionsTextField:"
+- "setNumberOfSelectedCellsTextField:"
+- "setNumberOfVisibleCellsTextField:"
+- "setOptionsView:"
+- "setOutputLogTimeInterval:"
+- "setPhysicalMemoryFreeBytes:"
+- "setPhysicalMemoryFreeTextField:"
+- "setPhysicalMemoryUsedBytes:"
+- "setPhysicalMemoryUsedTextField:"
+- "setPrefetchLowThumbnailsPreparationAverageDurationTextField:"
+- "setPrefetchLowThumbnailsPreparationMaximumDurationTextField:"
+- "setPreventsApplicationTerminationWhenModal:"
+- "setProcessAnonymousSizeTextField:"
+- "setProcessCPUUsageTextField:"
+- "setProcessPurgeableSizeTextField:"
+- "setRecentLowFrameRateTimerInterval:"
+- "setRemoteObjectInterface:"
+- "setRescheduleThumbnailCellOperationsAverageDurationTextField:"
+- "setRescheduleThumbnailCellOperationsMaximumDurationTextField:"
+- "setSelectionIndex:"
+- "setShouldInsetForAnchor:"
+- "setString:forType:"
+- "setStyleMask:"
+- "setSystemCPUUsageTextField:"
+- "setUseAsynchronousSerialDiskSaveQueue:"
+- "setVirtualMemoryBytes:"
+- "setVirtualMemoryCompressedBytes:"
+- "setVirtualMemoryPageInBytes:"
+- "setVirtualMemoryPageOutBytes:"
+- "setVirtualMemorySwapUsedBytes:"
+- "setVmCompressorTextField:"
+- "setVmPageOutTextField:"
+- "setWindow:"
+- "setWorksWhenModal:"
+- "settingsPanelController"
+- "sha1Hash"
+- "sha1HashString"
+- "sortDescriptorWithKey:ascending:"
+- "sortUsingDescriptors:"
+- "startBestThumbnailGenerationTiming"
+- "startBestThumbnailsMemoryCacheGetTiming"
+- "startBestThumbnailsMemoryCacheSetTiming"
+- "startIndexPathsForItemsInRectTiming"
+- "startLowThumbnailGenerationTiming"
+- "startLowThumbnailsMemoryCacheGetTiming"
+- "startLowThumbnailsMemoryCacheSetTiming"
+- "startMonitoringWithUpdateRate:"
+- "startPrefetchLowThumbnailsPreparationTiming"
+- "startRescheduleThumbnailCellOperationsTiming"
+- "stringWithContentsOfURL:encoding:error:"
+- "subpathsOfDirectoryAtPath:error:"
+- "supportsSecureCoding"
+- "systemCPUUsageTextField"
+- "timeIntervalSince1970"
+- "typesWithTag:tagClass:conformingToType:"
+- "updateMonitoringProcessInfo:"
+- "updateMonitoringSystemInfo:"
+- "updateWithMeasurements:"
+- "useAsynchronousSerialDiskSaveQueue"
+- "v16@?0@\"NSError\"8"
+- "v16@?0q8"
+- "v24@0:8@\"MOMSMonitoringProcessInfo\"16"
+- "v24@0:8@\"MOMSMonitoringSystemInfo\"16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@\"NSWindow\"16"
+- "v32@0:8@\"NSWindow\"16@\"NSCoder\"24"
+- "v32@0:8@\"NSWindow\"16d24"
+- "v32@0:8@16d24"
+- "v32@0:8Q16@?24"
+- "v32@0:8Q16d24"
+- "v40@0:8@\"NSWindow\"16@\"NSScreen\"24d32"
+- "v40@0:8@16@24d32"
+- "v40@0:8^{CGImage=}16Q24@32"
+- "v48@0:8@\"NSData\"16{CGPoint=dd}24@?<v@?@\"NSError\">40"
+- "v48@0:8@16{CGPoint=dd}24@?40"
+- "virtualMemoryBytes"
+- "virtualMemoryCompressedBytes"
+- "virtualMemoryPageInBytes"
+- "virtualMemoryPageOutBytes"
+- "virtualMemorySwapUsedBytes"
+- "vmCompressorTextField"
+- "vmPageOutTextField"
+- "window:didDecodeRestorableState:"
+- "window:shouldDragDocumentWithEvent:from:withPasteboard:"
+- "window:shouldPopUpDocumentPathMenu:"
+- "window:startCustomAnimationToEnterFullScreenOnScreen:withDuration:"
+- "window:startCustomAnimationToEnterFullScreenWithDuration:"
+- "window:startCustomAnimationToExitFullScreenWithDuration:"
+- "window:willEncodeRestorableState:"
+- "window:willPositionSheet:usingRect:"
+- "window:willResizeForVersionBrowserWithMaxPreferredSize:maxAllowedSize:"
+- "window:willUseFullScreenContentSize:"
+- "window:willUseFullScreenPresentationOptions:"
+- "windowDidBecomeKey:"
+- "windowDidBecomeMain:"
+- "windowDidChangeBackingProperties:"
+- "windowDidChangeOcclusionState:"
+- "windowDidChangeScreen:"
+- "windowDidChangeScreenProfile:"
+- "windowDidDeminiaturize:"
+- "windowDidEndLiveResize:"
+- "windowDidEndSheet:"
+- "windowDidEnterVersionBrowser:"
+- "windowDidExitVersionBrowser:"
+- "windowDidExpose:"
+- "windowDidFailToEnterFullScreen:"
+- "windowDidFailToExitFullScreen:"
+- "windowDidLoad"
+- "windowDidMiniaturize:"
+- "windowDidMove:"
+- "windowDidResignKey:"
+- "windowDidResignMain:"
+- "windowDidResize:"
+- "windowDidUpdate:"
+- "windowForSharingRequestFromWindow:"
+- "windowShouldClose:"
+- "windowShouldZoom:toFrame:"
+- "windowWillBeginSheet:"
+- "windowWillClose:"
+- "windowWillEnterFullScreen:"
+- "windowWillEnterVersionBrowser:"
+- "windowWillExitFullScreen:"
+- "windowWillExitVersionBrowser:"
+- "windowWillMiniaturize:"
+- "windowWillMove:"
+- "windowWillResize:toSize:"
+- "windowWillReturnFieldEditor:toObject:"
+- "windowWillReturnUndoManager:"
+- "windowWillStartLiveResize:"
+- "windowWillUseStandardFrame:defaultFrame:"
+- "writeToFile:options:error:"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}56@0:8@\"NSWindow\"16{CGRect={CGPoint=dd}{CGSize=dd}}24"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}56@0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}64@0:8@\"NSWindow\"16@\"NSWindow\"24{CGRect={CGPoint=dd}{CGSize=dd}}32"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}64@0:8@16@24{CGRect={CGPoint=dd}{CGSize=dd}}32"
+- "{CGSize=dd}40@0:8@\"NSWindow\"16{CGSize=dd}24"
+- "{CGSize=dd}40@0:8@16{CGSize=dd}24"
+- "{CGSize=dd}56@0:8@\"NSWindow\"16{CGSize=dd}24{CGSize=dd}40"
+- "\xf0\xe1"
+
+```

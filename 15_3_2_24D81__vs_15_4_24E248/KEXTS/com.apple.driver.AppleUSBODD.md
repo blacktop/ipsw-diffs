@@ -1,0 +1,44 @@
+## com.apple.driver.AppleUSBODD
+
+> `com.apple.driver.AppleUSBODD`
+
+```diff
+
+ 556.0.0.0.0
+-  __TEXT.__cstring: 0x177
+-  __TEXT_EXEC.__text: 0x1598
++  __TEXT.__cstring: 0x16d
++  __TEXT_EXEC.__text: 0x1540
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x60
+
+   __DATA_CONST.__mod_term_func: 0x10
+   __DATA_CONST.__const: 0x1bc8
+   __DATA_CONST.__kalloc_type: 0x80
+-  UUID: 36E40F8A-B17E-3F48-B902-6909FE1768B2
+-  Functions: 48
+-  Symbols:   654
++  UUID: 6B491C30-1E00-34D5-9F94-AD8467670D9C
++  Functions: 61
++  Symbols:   667
+   CStrings:  14
+ 
+Symbols:
++ _OUTLINED_FUNCTION_0
++ _OUTLINED_FUNCTION_1
++ _OUTLINED_FUNCTION_10
++ _OUTLINED_FUNCTION_2
++ _OUTLINED_FUNCTION_3
++ _OUTLINED_FUNCTION_4
++ _OUTLINED_FUNCTION_5
++ _OUTLINED_FUNCTION_6
++ _OUTLINED_FUNCTION_7
++ _OUTLINED_FUNCTION_8
++ _OUTLINED_FUNCTION_9
++ _ZN28com_apple_driver_AppleUSBODD21BeginProvidedServicesEv.cold.1
+CStrings:
++ "1211111212221212111122111211111122211112111122222212222212"
+- "12111112122212121111221112111111222111121111222222122222222222222212"
+
+```

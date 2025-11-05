@@ -1,0 +1,1464 @@
+## libauthinstall.dylib
+
+> `/usr/lib/libauthinstall.dylib`
+
+```diff
+
+-1033.80.3.0.0
+-  __TEXT.__text: 0x9acdc
+-  __TEXT.__auth_stubs: 0x1930
+-  __TEXT.__objc_methlist: 0x2340
+-  __TEXT.__cstring: 0x2004f
+-  __TEXT.__const: 0xc040
++1049.100.23.0.0
++  __TEXT.__text: 0x98f84
++  __TEXT.__auth_stubs: 0x1980
++  __TEXT.__objc_methlist: 0x239c
++  __TEXT.__cstring: 0x1ee49
++  __TEXT.__const: 0xc09b
+   __TEXT.__oslogstring: 0x518
+-  __TEXT.__gcc_except_tab: 0x2658
+-  __TEXT.__unwind_info: 0x2258
+-  __TEXT.__eh_frame: 0x74
++  __TEXT.__gcc_except_tab: 0x2730
++  __TEXT.__unwind_info: 0x2498
++  __TEXT.__eh_frame: 0xb4
+   __TEXT.__objc_classname: 0x8b3
+   __TEXT.__objc_methname: 0x2342
+-  __TEXT.__objc_methtype: 0x6a3
++  __TEXT.__objc_methtype: 0x6ae
+   __TEXT.__objc_stubs: 0x1e40
+-  __DATA_CONST.__got: 0x140
+-  __DATA_CONST.__const: 0x2630
++  __DATA_CONST.__got: 0x138
++  __DATA_CONST.__const: 0x2438
+   __DATA_CONST.__objc_classlist: 0x1f0
+   __DATA_CONST.__objc_catlist: 0x18
+   __DATA_CONST.__objc_protolist: 0x18
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x9c0
+-  __AUTH_CONST.__auth_got: 0xcb0
+-  __AUTH_CONST.__const: 0x1300
+-  __AUTH_CONST.__cfstring: 0xd1a0
+-  __AUTH_CONST.__objc_const: 0x45c0
++  __AUTH_CONST.__auth_got: 0xcd8
++  __AUTH_CONST.__const: 0x1370
++  __AUTH_CONST.__cfstring: 0xc8e0
++  __AUTH_CONST.__objc_const: 0x4548
+   __AUTH.__objc_data: 0x1360
+   __AUTH.__data: 0x28
+   __DATA.__objc_classrefs: 0x1f8
+   __DATA.__objc_superrefs: 0x1e8
+   __DATA.__objc_ivar: 0x2d8
+   __DATA.__data: 0x718
+-  __DATA.__bss: 0xdf8
+-  __DATA.__common: 0x1010
++  __DATA.__bss: 0xde8
++  __DATA.__common: 0x10
+   - /System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/libcrypto.42.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 7B89C730-7D37-34E1-83BB-D6281146B5B6
+-  Functions: 2339
+-  Symbols:   5060
+-  CStrings:  6812
++  UUID: 268EEAF6-5DA9-35AA-8510-86D38849A384
++  Functions: 3224
++  Symbols:   6006
++  CStrings:  6604
+ 
+Symbols:
++ +[UARPMetaDataTLVOS metaDataTable].cold.1
++ -[UARPAssetVersionOS compare:]
++ AMAuthInstallApAddTag.cold.1
++ AMAuthInstallApAddTag.cold.2
++ AMAuthInstallApAddTag.cold.3
++ AMAuthInstallApEnableGlobalSigning.cold.1
++ AMAuthInstallApEnableGlobalSigning.cold.2
++ AMAuthInstallApEnableLocalPolicyHactivation.cold.1
++ AMAuthInstallApImg4AddBooleanProperty.cold.1
++ AMAuthInstallApImg4AddBooleanProperty.cold.2
++ AMAuthInstallApImg4AddDataProperty.cold.1
++ AMAuthInstallApImg4AddDictionaryProperty.cold.1
++ AMAuthInstallApImg4AddDictionaryProperty.cold.2
++ AMAuthInstallApImg4AddInteger32Property.cold.1
++ AMAuthInstallApImg4AddInteger64Property.cold.1
++ AMAuthInstallApImg4CopyPayloadType.cold.1
++ AMAuthInstallApImg4CopyPayloadType.cold.2
++ AMAuthInstallApImg4CopyPayloadType.cold.3
++ AMAuthInstallApImg4CopyPayloadType.cold.4
++ AMAuthInstallApImg4CopyPayloadType.cold.5
++ AMAuthInstallApImg4CopyPayloadType.cold.6
++ AMAuthInstallApImg4CreateStitchTicket.cold.1
++ AMAuthInstallApImg4EncodeRestoreInfo.cold.1
++ AMAuthInstallApImg4EncodeRestoreInfo.cold.2
++ AMAuthInstallApImg4FindItemWithTag.cold.1
++ AMAuthInstallApImg4LocalCreateEncodedData.cold.1
++ AMAuthInstallApImg4LocalCreateEncodedData.cold.2
++ AMAuthInstallApImg4LocalCreateEncodedTag.cold.1
++ AMAuthInstallApImg4LocalCreateEncodedTag.cold.2
++ AMAuthInstallApImg4LocalCreateEncodedTag.cold.3
++ AMAuthInstallApImg4LocalCreateEncodedVersion.cold.1
++ AMAuthInstallApImg4LocalCreateEncodedVersion.cold.2
++ AMAuthInstallApImg4LocalCreateManifestBody.cold.1
++ AMAuthInstallApImg4LocalCreateManifestBody.cold.2
++ AMAuthInstallApImg4StitchRestoreInfoWithAMAI.cold.4
++ AMAuthInstallApIsImg4.cold.1
++ AMAuthInstallApIsImg4.cold.2
++ AMAuthInstallBasebandApplyTssOverrides.cold.1
++ AMAuthInstallBasebandApplyTssOverrides.cold.2
++ AMAuthInstallBasebandApplyTssOverrides.cold.3
++ AMAuthInstallBasebandApplyTssOverrides.cold.4
++ AMAuthInstallBasebandApplyTssOverrides.cold.5
++ AMAuthInstallBasebandApplyTssOverrides.cold.6
++ AMAuthInstallBasebandApplyTssOverrides.cold.7
++ AMAuthInstallBasebandApplyTssOverrides.cold.8
++ AMAuthInstallBasebandCopyCustomFirmware.cold.1
++ AMAuthInstallBasebandCopyCustomFirmware.cold.2
++ AMAuthInstallBasebandCopyCustomFirmware.cold.3
++ AMAuthInstallBasebandCopyCustomFirmware.cold.4
++ AMAuthInstallBasebandCopyCustomFirmware.cold.5
++ AMAuthInstallBasebandCopyCustomFirmware.cold.6
++ AMAuthInstallBasebandGetKeyHash.cold.1
++ AMAuthInstallBasebandGetKeyHash.cold.2
++ AMAuthInstallBasebandGetTagForKeyHashName.cold.1
++ AMAuthInstallBasebandGetTagForKeyHashName.cold.2
++ AMAuthInstallBasebandGetTagForKeyHashName.cold.3
++ AMAuthInstallBasebandHandleUpdaterStatus.cold.1
++ AMAuthInstallBasebandHandleUpdaterStatus.cold.2
++ AMAuthInstallBasebandHandleUpdaterStatus.cold.3
++ AMAuthInstallBasebandHandleUpdaterStatus.cold.4
++ AMAuthInstallBasebandHandleUpdaterStatus.cold.5
++ AMAuthInstallBasebandLocalSign.cold.1
++ AMAuthInstallBasebandLocalSign.cold.10
++ AMAuthInstallBasebandLocalSign.cold.11
++ AMAuthInstallBasebandLocalSign.cold.12
++ AMAuthInstallBasebandLocalSign.cold.13
++ AMAuthInstallBasebandLocalSign.cold.14
++ AMAuthInstallBasebandLocalSign.cold.15
++ AMAuthInstallBasebandLocalSign.cold.16
++ AMAuthInstallBasebandLocalSign.cold.2
++ AMAuthInstallBasebandLocalSign.cold.3
++ AMAuthInstallBasebandLocalSign.cold.4
++ AMAuthInstallBasebandLocalSign.cold.5
++ AMAuthInstallBasebandLocalSign.cold.6
++ AMAuthInstallBasebandLocalSign.cold.7
++ AMAuthInstallBasebandLocalSign.cold.8
++ AMAuthInstallBasebandLocalSign.cold.9
++ AMAuthInstallBasebandSetNonce.cold.1
++ AMAuthInstallBasebandSetNonce.cold.2
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.1
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.10
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.11
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.12
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.13
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.14
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.15
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.16
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.17
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.18
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.19
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.2
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.20
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.21
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.22
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.23
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.24
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.25
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.26
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.27
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.28
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.29
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.3
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.30
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.31
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.32
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.33
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.34
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.35
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.36
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.37
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.38
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.39
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.4
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.40
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.41
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.42
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.43
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.44
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.45
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.5
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.6
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.7
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.8
++ AMAuthInstallBasebandSetParametersWithUpdaterOutput.cold.9
++ AMAuthInstallBundleAppendRecoveryOSiBootFirmwareEntriesToAssetArray.cold.1
++ AMAuthInstallBundleCreatePersonalizedPathWithKey.cold.1
++ AMAuthInstallBundleCreateURLForKeyEntryInBuildIdentity.cold.1
++ AMAuthInstallBundleCreateURLForKeyEntryInBuildIdentity.cold.2
++ AMAuthInstallBundleCreateURLForKeyEntryInBuildIdentity.cold.3
++ AMAuthInstallBundleCreateURLForKeyEntryInBuildIdentity.cold.4
++ AMAuthInstallBundleCreateURLForKeyEntryInBuildIdentity.cold.5
++ AMAuthInstallBundleCreateURLForKeyEntryInBuildIdentity.cold.6
++ AMAuthInstallBundleGetManifestEntry.cold.1
++ AMAuthInstallBundleGetManifestEntry.cold.2
++ AMAuthInstallBundleGetManifestEntry.cold.3
++ AMAuthInstallBundleGetManifestEntry.cold.4
++ AMAuthInstallBundleGetManifestEntry.cold.5
++ AMAuthInstallBundleSetPropertiesWithBoardConfig.cold.2
++ AMAuthInstallBundleShouldPersonalizeOSImage.cold.1
++ AMAuthInstallBundleShouldPersonalizeOSImage.cold.2
++ AMAuthInstallBundleShouldPersonalizeOSImage.cold.3
++ AMAuthInstallBundleShouldPersonalizeOSImage.cold.4
++ AMAuthInstallBundleShouldPersonalizeOSImage.cold.5
++ AMAuthInstallBundleShouldPersonalizeOSImage.cold.6
++ AMAuthInstallCryptoCreateEcdsaSignatureWithSHA384.cold.1
++ AMAuthInstallCryptoCreateEcdsaSignatureWithSHA384.cold.2
++ AMAuthInstallCryptoCreateEcdsaSignatureWithSHA384.cold.3
++ AMAuthInstallCryptoCreateEcdsaSignature_SHA384.cold.1
++ AMAuthInstallCryptoCreateEcdsaSignature_SHA384.cold.2
++ AMAuthInstallCryptoCreateEcdsaSignature_SHA384.cold.3
++ AMAuthInstallCryptoCreateEcdsaSignature_SHA384.cold.4
++ AMAuthInstallCryptoCreateEcdsaSignature_SHA384.cold.5
++ AMAuthInstallCryptoCreateRsaSignatureWithSHA256.cold.1
++ AMAuthInstallCryptoCreateRsaSignatureWithSHA256.cold.2
++ AMAuthInstallCryptoCreateRsaSignatureWithSHA256.cold.3
++ AMAuthInstallCryptoCreateRsaSignature_SHA384.cold.1
++ AMAuthInstallCryptoCreateRsaSignature_SHA384.cold.2
++ AMAuthInstallCryptoCreateRsaSignature_SHA384.cold.3
++ AMAuthInstallCryptoCreateRsaSignature_SHA384.cold.4
++ AMAuthInstallCryptoCreateRsaSignature_SHA384.cold.5
++ AMAuthInstallHttpMessageSendSyncNew.cold.1
++ AMAuthInstallHttpMessageSendSyncNew.cold.2
++ AMAuthInstallHttpMessageSendSyncNew.cold.3
++ AMAuthInstallHttpUriEscapeString.cold.1
++ AMAuthInstallHttpUriEscapeString.cold.2
++ AMAuthInstallHttpUriEscapeString.cold.3
++ AMAuthInstallHttpUriUnescapeString.cold.1
++ AMAuthInstallHttpUriUnescapeString.cold.2
++ AMAuthInstallHttpUriUnescapeString.cold.3
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.1
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.10
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.100
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.101
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.102
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.11
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.12
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.13
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.14
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.15
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.16
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.17
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.18
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.19
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.2
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.20
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.21
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.22
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.23
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.24
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.25
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.26
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.27
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.28
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.29
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.3
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.30
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.31
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.32
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.33
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.34
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.35
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.36
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.37
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.38
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.39
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.4
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.40
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.41
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.42
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.43
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.44
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.45
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.46
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.47
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.48
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.49
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.5
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.50
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.51
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.52
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.53
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.54
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.55
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.56
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.57
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.58
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.59
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.6
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.60
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.61
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.62
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.63
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.64
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.65
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.66
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.67
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.68
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.69
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.7
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.70
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.71
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.72
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.73
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.74
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.75
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.76
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.77
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.78
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.79
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.8
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.80
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.81
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.82
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.83
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.84
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.85
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.86
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.87
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.88
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.89
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.9
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.90
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.91
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.92
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.93
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.94
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.95
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.96
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.97
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.98
++ AMAuthInstallMaverickLocalCreateRootTicket.cold.99
++ AMAuthInstallMonetLocalProvisionDevice.cold.1
++ AMAuthInstallMonetLocalProvisionDevice.cold.2
++ AMAuthInstallMonetLocalProvisionDevice.cold.3
++ AMAuthInstallMonetLocalProvisionDevice.cold.4
++ AMAuthInstallMonetLocalProvisionDevice.cold.5
++ AMAuthInstallMonetLocalProvisionDevice.cold.6
++ AMAuthInstallMonetLocalProvisionDevice.cold.7
++ AMAuthInstallMonetLocalProvisionDevice.cold.8
++ AMAuthInstallMonetMeasureDbl.cold.1
++ AMAuthInstallMonetMeasureElfMBN.cold.1
++ AMAuthInstallMonetMeasureElfMBN.cold.10
++ AMAuthInstallMonetMeasureElfMBN.cold.11
++ AMAuthInstallMonetMeasureElfMBN.cold.2
++ AMAuthInstallMonetMeasureElfMBN.cold.3
++ AMAuthInstallMonetMeasureElfMBN.cold.4
++ AMAuthInstallMonetMeasureElfMBN.cold.5
++ AMAuthInstallMonetMeasureElfMBN.cold.6
++ AMAuthInstallMonetMeasureElfMBN.cold.7
++ AMAuthInstallMonetMeasureElfMBN.cold.8
++ AMAuthInstallMonetMeasureElfMBN.cold.9
++ AMAuthInstallMonetMeasureMav20ElfMBN.cold.1
++ AMAuthInstallMonetMeasureMav20ElfMBN.cold.10
++ AMAuthInstallMonetMeasureMav20ElfMBN.cold.11
++ AMAuthInstallMonetMeasureMav20ElfMBN.cold.12
++ AMAuthInstallMonetMeasureMav20ElfMBN.cold.2
++ AMAuthInstallMonetMeasureMav20ElfMBN.cold.3
++ AMAuthInstallMonetMeasureMav20ElfMBN.cold.4
++ AMAuthInstallMonetMeasureMav20ElfMBN.cold.5
++ AMAuthInstallMonetMeasureMav20ElfMBN.cold.6
++ AMAuthInstallMonetMeasureMav20ElfMBN.cold.7
++ AMAuthInstallMonetMeasureMav20ElfMBN.cold.8
++ AMAuthInstallMonetMeasureMav20ElfMBN.cold.9
++ AMAuthInstallMonetStitchEBootLoader.cold.1
++ AMAuthInstallSetFusingRootCA.cold.1
++ AMAuthInstallSetFusingRootCA.cold.2
++ AMAuthInstallSetSOCKSProxyDict.cold.1
++ AMAuthInstallSetSOCKSProxyDict.cold.2
++ AMAuthInstallSetSOCKSProxyInformation.cold.1
++ AMAuthInstallSetSOCKSProxyInformation.cold.2
++ AMAuthInstallSetSOCKSProxyInformation.cold.3
++ AMAuthInstallSetSOCKSProxyInformation.cold.4
++ AMAuthInstallSsoInitialize.cold.1
++ AMAuthInstallSsoInitialize.cold.2
++ AMAuthInstallSupportBase64Decode.cold.1
++ AMAuthInstallSupportBase64Decode.cold.2
++ AMAuthInstallSupportBase64Encode.cold.1
++ AMAuthInstallSupportBase64Encode.cold.2
++ AMAuthInstallSupportCompareStringToInt32.cold.1
++ AMAuthInstallSupportCompareStringToInt32.cold.2
++ AMAuthInstallSupportCreateDecodedPEM.cold.1
++ AMAuthInstallSupportCreateDecodedPEM.cold.2
++ AMAuthInstallSupportCreateDecodedPEM.cold.3
++ AMAuthInstallSupportCreateDecodedPEM.cold.4
++ AMAuthInstallSupportCreateDecodedPEM.cold.5
++ AMAuthInstallSupportCreateDecodedPEM.cold.6
++ AMAuthInstallSupportGetValueForKeyPathInDict.cold.1
++ AMAuthInstallSupportGetValueForKeyPathInDict.cold.2
++ AMAuthInstallSupportGetValueForKeyPathInDict.cold.3
++ AMAuthInstallSupportGetValueForKeyPathInDict.cold.4
++ AMAuthInstallUpdater.cold.1
++ AMAuthInstallUpdaterAddTags.cold.1
++ AMAuthInstallUpdaterAddTags.cold.2
++ AMAuthInstallUpdaterAddTags.cold.3
++ AMAuthInstallUpdaterCopyBuildIdentityTags.cold.1
++ AMAuthInstallUpdaterCopyBuildIdentityTags.cold.2
++ AMAuthInstallUpdaterCopyBuildIdentityTags.cold.3
++ AMAuthInstallUpdaterCopyBuildIdentityTags.cold.4
++ AMAuthInstallUpdaterCopyBuildIdentityTags.cold.5
++ AMAuthInstallUpdaterCopyBuildIdentityTags.cold.6
++ AMAuthInstallUpdaterCopyResponse.cold.1
++ AMAuthInstallUpdaterCopyResponse.cold.2
++ AMAuthInstallUpdaterCopyResponse.cold.3
++ AMAuthInstallUpdaterCopyTags.cold.1
++ AMAuthInstallUpdaterCopyTags.cold.2
++ AMAuthInstallUpdaterCopyTags.cold.3
++ AMAuthInstallUpdaterCopyTags.cold.4
++ AMAuthInstallUpdaterCreateLocalResponse.cold.1
++ AMAuthInstallUpdaterCreateLocalResponse.cold.2
++ AMAuthInstallUpdaterCryptex1CopyFirmware.cold.1
++ AMAuthInstallUpdaterCryptex1GetTags.cold.1
++ AMAuthInstallUpdaterCryptex1GetTags.cold.2
++ AMAuthInstallUpdaterCryptex1GetTags.cold.3
++ AMAuthInstallUpdaterCryptex1GetTags.cold.4
++ AMAuthInstallUpdaterCryptex1GetTags.cold.5
++ AMAuthInstallUpdaterCryptex1LocalPolicyCopyDeviceInfo.cold.1
++ AMAuthInstallUpdaterCryptex1LocalPolicyCopyDeviceInfo.cold.2
++ AMAuthInstallUpdaterCryptex1LocalPolicyCopyDeviceInfo.cold.3
++ AMAuthInstallUpdaterCryptex1LocalPolicyCopyDeviceInfo.cold.4
++ AMAuthInstallUpdaterCryptex1LocalPolicyCopyDeviceInfo.cold.5
++ AMAuthInstallUpdaterCryptex1LocalPolicyCopyDeviceInfo.cold.6
++ AMAuthInstallUpdaterCryptex1LocalPolicyCopyDeviceInfo.cold.7
++ AMAuthInstallUpdaterCryptex1LocalPolicyCopyDeviceInfo.cold.8
++ AMAuthInstallUpdaterCryptex1LocalPolicyCopyDeviceInfo.cold.9
++ AMAuthInstallUpdaterCryptex1LocalPolicyCopyFirmware.cold.1
++ AMAuthInstallUpdaterCryptex1LocalPolicyCreateRequest.cold.1
++ AMAuthInstallUpdaterCryptex1LocalPolicyCreateRequest.cold.2
++ AMAuthInstallUpdaterCryptex1LocalPolicyCreateRequest.cold.3
++ AMAuthInstallUpdaterCryptex1LocalPolicyCreateRequest.cold.4
++ AMAuthInstallUpdaterCryptex1LocalPolicyGetTags.cold.1
++ AMAuthInstallUpdaterCryptex1LocalPolicyGetTags.cold.2
++ AMAuthInstallUpdaterCryptex1LocalPolicyGetTags.cold.3
++ AMAuthInstallUpdaterCryptex1MobileAssetSetInfo.cold.1
++ AMAuthInstallUpdaterCryptex1MobileAssetSetInfo.cold.2
++ AMAuthInstallUpdaterCryptex1MobileAssetSetInfo.cold.3
++ AMAuthInstallUpdaterCryptex1MobileAssetSetInfo.cold.4
++ AMAuthInstallUpdaterCryptex1MobileAssetSetInfo.cold.5
++ AMAuthInstallUpdaterCryptex1MobileAssetSetInfo.cold.6
++ AMAuthInstallUpdaterLoadFromReceipt.cold.1
++ AMAuthInstallUpdaterLoadFromReceipt.cold.2
++ AMAuthInstallUpdaterLoadFromReceipt.cold.3
++ AMAuthInstallUpdaterPersonalize.cold.1
++ AMAuthInstallUpdaterPersonalize.cold.2
++ AMAuthInstallUpdaterPersonalize.cold.3
++ AMAuthInstallUpdaterPersonalize.cold.4
++ AMAuthInstallUpdaterPersonalize.cold.5
++ AMAuthInstallUpdaterPersonalize.cold.6
++ AMAuthInstallUpdaterPersonalize.cold.7
++ AMAuthInstallUpdaterRestoreInfoSet.cold.1
++ AMAuthInstallUpdaterSaveToReceipt.cold.1
++ AMAuthInstallUpdaterSaveToReceipt.cold.2
++ AMAuthInstallUpdaterSetInfo.cold.1
++ AMAuthInstallUpdaterSetTags.cold.1
++ AMAuthInstallUpdaterSetTags.cold.2
++ AMAuthInstallUpdaterSetTags.cold.3
++ AMAuthInstallUpdaterSetTags.cold.4
++ AMAuthInstallUpdaterSetTags.cold.5
++ AMAuthInstallUpdaterWriteManifests.cold.1
++ AMAuthInstallUpdaterWriteManifests.cold.2
++ AMAuthInstallUpdaterWriteManifests.cold.3
++ AMAuthInstallUpdaterWriteManifests.cold.4
++ BbfwWriterAddFile.cold.1
++ GCC_except_table104
++ GCC_except_table126
++ GCC_except_table130
++ GCC_except_table37
++ GCC_except_table58
++ GCC_except_table82
++ GCC_except_table86
++ GCC_except_table91
++ RoseUpdaterCopyFirmware.cold.1
++ RoseUpdaterCopyFirmware.cold.2
++ RoseUpdaterGetTags.cold.1
++ RoseUpdaterGetTags.cold.2
++ SEUpdaterCopyFirmware.cold.1
++ SEUpdaterCopyFirmware.cold.2
++ TSSRequestLogToken.cold.1
++ _AMAuthInstallApFtabCopyFtabFromFile.cold.1
++ _AMAuthInstallApFtabCopyFtabFromFile.cold.2
++ _AMAuthInstallApFtabCopyFtabFromFile.cold.3
++ _AMAuthInstallApFtabCopyFtabFromFile.cold.4
++ _AMAuthInstallApFtabCopyFtabFromFile.cold.5
++ _AMAuthInstallApFtabCopyFtabFromFile.cold.6
++ _AMAuthInstallApFtabCopyFtabFromFile.cold.7
++ _AMAuthInstallApFtabCopyFtabFromFile.cold.8
++ _AMAuthInstallApFtabCopyFtabFromFile.cold.9
++ _AMAuthInstallApImg4LocalCreateSignedManifest.cold.1
++ _AMAuthInstallApImg4LocalCreateSignedManifest.cold.2
++ _AMAuthInstallApImg4LocalCreateSignedManifest.cold.3
++ _AMAuthInstallApImg4LocalCreateSignedManifest.cold.4
++ _AMAuthInstallApImg4LocalCreateSignedManifest.cold.5
++ _AMAuthInstallApImg4LocalCreateSignedManifest.cold.6
++ _AMAuthInstallApImg4LocalCreateSignedManifest.cold.7
++ _AMAuthInstallApImg4LocalCreateSignedManifest.cold.8
++ _AMAuthInstallApImg4LocalCreateSignedManifest.cold.9
++ _AMAuthInstallApImg4StitchToURL.cold.1
++ _AMAuthInstallApImg4StitchToURL.cold.2
++ _AMAuthInstallApImg4StitchToURL.cold.3
++ _AMAuthInstallApImg4StitchToURL.cold.4
++ _AMAuthInstallApImg4StitchToURL.cold.5
++ _AMAuthInstallApImg4StitchToURL.cold.6
++ _AMAuthInstallApImg4StitchToURL.cold.7
++ _AMAuthInstallBundlePopulateManifestProperties.cold.1
++ _AMAuthInstallBundlePopulateManifestProperties.cold.2
++ _AMAuthInstallBundlePopulateManifestProperties.cold.3
++ _AMAuthInstallBundlePopulateManifestProperties.cold.4
++ _AMAuthInstallBundlePopulatePersonalizedBundle.cold.10
++ _AMAuthInstallBundlePopulatePersonalizedBundle.cold.11
++ _AMAuthInstallBundlePopulatePersonalizedBundle.cold.12
++ _AMAuthInstallBundlePopulatePersonalizedBundle.cold.13
++ _AMAuthInstallBundlePopulatePersonalizedBundle.cold.14
++ _AMAuthInstallBundlePopulatePersonalizedBundle.cold.15
++ _AMAuthInstallBundlePopulatePersonalizedBundle.cold.16
++ _AMAuthInstallBundlePopulatePersonalizedBundle.cold.17
++ _AMAuthInstallBundlePopulatePersonalizedBundle.cold.4
++ _AMAuthInstallBundlePopulatePersonalizedBundle.cold.5
++ _AMAuthInstallBundlePopulatePersonalizedBundle.cold.6
++ _AMAuthInstallBundlePopulatePersonalizedBundle.cold.7
++ _AMAuthInstallBundlePopulatePersonalizedBundle.cold.8
++ _AMAuthInstallBundlePopulatePersonalizedBundle.cold.9
++ _AMAuthInstallBundleSetEntryEnabled
++ _AMAuthInstallBundleShouldPersonalizeOS.cold.1
++ _AMAuthInstallBundleShouldPersonalizeOS.cold.2
++ _AMAuthInstallCryptex1GetDeviceInfoValue.cold.1
++ _AMAuthInstallCryptex1RequestSetNonce.cold.1
++ _AMAuthInstallCryptex1RequestSetNonce.cold.2
++ _AMAuthInstallCryptoRegisterKeyHash.cold.1
++ _AMAuthInstallCryptoRegisterKeyHash.cold.2
++ _AMAuthInstallPlatformCreateDataFromMappedFileURL
++ _AMAuthInstallSsoCreateServiceTicketAndDAWToken.cold.1
++ _AMAuthInstallSsoCreateServiceTicketAndDAWToken.cold.2
++ _AMAuthInstallSsoCreateServiceTicketAndDAWToken.cold.3
++ _AMAuthInstallSsoCreateServiceTicketAndDAWToken.cold.4
++ _AMAuthInstallSsoCreateServiceTicketAndDAWToken.cold.5
++ _AMAuthInstallSsoCreateServiceTicketAndDAWToken.cold.6
++ _AMAuthInstallSsoCreateServiceTicketAndDAWToken.cold.7
++ _AMAuthInstallSsoCreateServiceTicketAndDAWToken.cold.8
++ _AMAuthInstallSsoCreateServiceTicketAndDAWToken.cold.9
++ _AMAuthInstallSupportCreateDataFromMappedFileURL
++ _AMAuthInstallUpdaterCopyResponseURL.cold.1
++ _AMAuthInstallUpdaterCopyResponseURL.cold.2
++ _AMAuthInstallUpdaterCopyResponseURL.cold.3
++ _AMAuthInstallUpdaterCopyResponseURL.cold.4
++ _AMAuthInstallUpdaterInitLocalSigning.cold.1
++ _AMAuthInstallUpdaterSetInfoWithCallbacks.cold.1
++ _AMAuthInstallUpdaterSetInfoWithCallbacks.cold.2
++ _AMAuthInstallUpdaterSetInfoWithCallbacks.cold.3
++ _AMAuthInstallUpdaterSetInfoWithCallbacks.cold.4
++ _AMAuthInstallUpdaterSetInfoWithCallbacks.cold.5
++ _AMAuthInstallUpdaterSetInfoWithCallbacks.cold.6
++ _AMAuthInstallUpdaterSetInfoWithCallbacks.cold.7
++ _AMRAuthInstallBundleAppendFirmwareEntriesToArrays.cold.1
++ _AMSupportCreateArrayFromFileURL
++ _AMSupportCreateDictionaryFromFileURL
++ _AMSupportPlatformCreateDataFromFileURL
++ _AMSupportPlatformCreateDataFromMappedFileURL
++ _AMSupportPlatformOpenFileStreamWithURL
++ _AMSupportPlatformWriteDataToFileURL
++ _AddUpdaterTags.cold.1
++ _ApplyTagPrefix.cold.1
++ _ApplyTagPrefix.cold.2
++ _CanaryCopyFirmware.cold.1
++ _CanaryCreateRequest.cold.1
++ _CanaryCreateRequest.cold.2
++ _CanaryGetTags.cold.1
++ _CanaryGetTags.cold.2
++ _CanaryGetTags.cold.3
++ _CanaryGetTags.cold.4
++ _CanaryLocalSign.cold.1
++ _DefaultLogHandler.cold.3
++ _OUTLINED_FUNCTION_10
++ _OUTLINED_FUNCTION_11
++ _OUTLINED_FUNCTION_12
++ _OUTLINED_FUNCTION_13
++ _OUTLINED_FUNCTION_14
++ _OUTLINED_FUNCTION_15
++ _OUTLINED_FUNCTION_16
++ _OUTLINED_FUNCTION_17
++ _OUTLINED_FUNCTION_18
++ _OUTLINED_FUNCTION_19
++ _OUTLINED_FUNCTION_20
++ _OUTLINED_FUNCTION_21
++ _OUTLINED_FUNCTION_22
++ _OUTLINED_FUNCTION_23
++ _OUTLINED_FUNCTION_24
++ _OUTLINED_FUNCTION_25
++ _OUTLINED_FUNCTION_26
++ _OUTLINED_FUNCTION_27
++ _OUTLINED_FUNCTION_28
++ _OUTLINED_FUNCTION_29
++ _OUTLINED_FUNCTION_30
++ _OUTLINED_FUNCTION_31
++ _OUTLINED_FUNCTION_32
++ _OUTLINED_FUNCTION_33
++ _OUTLINED_FUNCTION_34
++ _OUTLINED_FUNCTION_35
++ _OUTLINED_FUNCTION_36
++ _OUTLINED_FUNCTION_37
++ _OUTLINED_FUNCTION_38
++ _OUTLINED_FUNCTION_39
++ _OUTLINED_FUNCTION_40
++ _OUTLINED_FUNCTION_41
++ _OUTLINED_FUNCTION_42
++ _OUTLINED_FUNCTION_43
++ _OUTLINED_FUNCTION_44
++ _OUTLINED_FUNCTION_45
++ _OUTLINED_FUNCTION_7
++ _OUTLINED_FUNCTION_8
++ _OUTLINED_FUNCTION_9
++ _VinylBBFWReaderCB.cold.1
++ _WriteStreamIntoFile.cold.1
++ _WriteStreamIntoFile.cold.2
++ _ZN10ACFUCommon11getFileSizeEPK7__CFURL.cold.1
++ _ZN10ACFUCommon11getFileSizeEPK7__CFURL.cold.2
++ _ZN10ACFUCommon11getFileSizeEPK7__CFURL.cold.3
++ _ZN10ACFUCommon14parseDebugArgsEPK14__CFDictionaryPKc.cold.1
++ _ZN10ACFUCommon14parseDebugArgsEPK14__CFDictionaryPKc.cold.2
++ _ZN10ACFUCommon14parseDebugArgsEPK14__CFDictionaryPKc.cold.3
++ _ZN10ACFUCommon14parseDebugArgsEPK14__CFDictionaryPKc.cold.4
++ _ZN10ACFUCommon14parseDebugArgsEPK14__CFDictionaryPKc.cold.5
++ _ZN10ACFUCommon14parseDebugArgsEPK14__CFDictionaryPKc.cold.6
++ _ZN10ACFUCommon14parseDebugArgsEPK14__CFDictionaryPKc.cold.7
++ _ZN10ACFUCommon33createMutableFileDatafromFilePathEPK10__CFString.cold.1
++ _ZN10ACFUCommon33createMutableFileDatafromFilePathEPK10__CFString.cold.2
++ _ZN10ACFUCommon33createMutableFileDatafromFilePathEPK10__CFString.cold.3
++ _ZN10ACFUCommon33createMutableFileDatafromFilePathEPK10__CFString.cold.4
++ _ZN10ACFUCommon33createMutableFileDatafromFilePathEPK10__CFString.cold.5
++ _ZN10ACFUCommon33createMutableFileDatafromFilePathEPK10__CFString.cold.6
++ _ZN10ACFUCommon33createMutableFileDatafromFilePathEPK10__CFString.cold.7
++ _ZN11ACFULogging14getLogInstanceEv.cold.1
++ _ZN12ACFUFTABFile11updateCacheERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEjj.cold.1
++ _ZN12ACFUFTABFile12copyManifestEv.cold.1
++ _ZN12ACFUFTABFile12copyManifestEv.cold.2
++ _ZN12ACFUFTABFile12getBootNonceEv.cold.1
++ _ZN12ACFUFTABFile12getBootNonceEv.cold.2
++ _ZN12ACFUFTABFile12getBootNonceEv.cold.3
++ _ZN12ACFUFTABFile12isCacheValidEv.cold.1
++ _ZN12ACFUFTABFile12isCacheValidEv.cold.2
++ _ZN12ACFUFTABFile12isCacheValidEv.cold.3
++ _ZN12ACFUFTABFile12isCacheValidEv.cold.4
++ _ZN12ACFUFTABFile12isCacheValidEv.cold.5
++ _ZN12ACFUFTABFile12setBootNonceEy.cold.1
++ _ZN12ACFUFTABFile12setBootNonceEy.cold.2
++ _ZN12ACFUFTABFile12setBootNonceEy.cold.3
++ _ZN12ACFUFTABFile15isValidFileDataEPK8__CFDatab.cold.1
++ _ZN12ACFUFTABFile15isValidFileDataEPK8__CFDatab.cold.10
++ _ZN12ACFUFTABFile15isValidFileDataEPK8__CFDatab.cold.11
++ _ZN12ACFUFTABFile15isValidFileDataEPK8__CFDatab.cold.12
++ _ZN12ACFUFTABFile15isValidFileDataEPK8__CFDatab.cold.2
++ _ZN12ACFUFTABFile15isValidFileDataEPK8__CFDatab.cold.3
++ _ZN12ACFUFTABFile15isValidFileDataEPK8__CFDatab.cold.4
++ _ZN12ACFUFTABFile15isValidFileDataEPK8__CFDatab.cold.5
++ _ZN12ACFUFTABFile15isValidFileDataEPK8__CFDatab.cold.6
++ _ZN12ACFUFTABFile15isValidFileDataEPK8__CFDatab.cold.7
++ _ZN12ACFUFTABFile15isValidFileDataEPK8__CFDatab.cold.8
++ _ZN12ACFUFTABFile15isValidFileDataEPK8__CFDatab.cold.9
++ _ZN12ACFUFTABFile15setFTABValidityEj.cold.1
++ _ZN12ACFUFTABFile15setFTABValidityEj.cold.2
++ _ZN12ACFUFTABFile15setFTABValidityEj.cold.3
++ _ZN12ACFUFTABFile16copyFWDataByNameERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE.cold.1
++ _ZN12ACFUFTABFile16copyFWDataByNameERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE.cold.2
++ _ZN12ACFUFTABFile16copyFWDataByNameERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE.cold.3
++ _ZN12ACFUFTABFile16copyFWDataByNameERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE.cold.4
++ _ZN12ACFUFTABFile16copyFWDataByNameERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE.cold.5
++ _ZN12ACFUFTABFile17setManifestOnDataEPK8__CFDataPPS0_.cold.1
++ _ZN12ACFUFTABFile17setManifestOnDataEPK8__CFDataPPS0_.cold.2
++ _ZN12ACFUFTABFile17setManifestOnDataEPK8__CFDataPPS0_.cold.3
++ _ZN12ACFUFTABFile17setManifestOnDataEPK8__CFDataPPS0_.cold.4
++ _ZN12ACFUFTABFile17setManifestOnDataEPK8__CFDataPPS0_.cold.5
++ _ZN12ACFUFTABFile17setManifestOnDataEPK8__CFDataPPS0_.cold.6
++ _ZN12ACFUFTABFile17setManifestOnDataEPK8__CFDataPPS0_.cold.7
++ _ZN12ACFUFTABFile17setManifestOnDataEPK8__CFDataPPS0_.cold.8
++ _ZN12ACFUFTABFile21copyFirmwareContainerEv.cold.1
++ _ZN12ACFUFTABFile21copyFirmwareContainerEv.cold.2
++ _ZN12ACFUFTABFile21copyFirmwareContainerEv.cold.3
++ _ZN12ACFUFTABFile21copyFirmwareContainerEv.cold.4
++ _ZN12ACFUFTABFile21getFileSizeByFileNameERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE.cold.1
++ _ZN12ACFUFTABFile21getFileSizeByFileNameERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE.cold.2
++ _ZN12ACFUFTABFile21removeManifestPaddingEP8__CFData.cold.1
++ _ZN12ACFUFTABFile21removeManifestPaddingEP8__CFData.cold.2
++ _ZN12ACFUFTABFile22addNewFileToFTABOnDataERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPK8__CFDataPPS9_.cold.1
++ _ZN12ACFUFTABFile22addNewFileToFTABOnDataERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPK8__CFDataPPS9_.cold.10
++ _ZN12ACFUFTABFile22addNewFileToFTABOnDataERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPK8__CFDataPPS9_.cold.11
++ _ZN12ACFUFTABFile22addNewFileToFTABOnDataERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPK8__CFDataPPS9_.cold.12
++ _ZN12ACFUFTABFile22addNewFileToFTABOnDataERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPK8__CFDataPPS9_.cold.13
++ _ZN12ACFUFTABFile22addNewFileToFTABOnDataERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPK8__CFDataPPS9_.cold.14
++ _ZN12ACFUFTABFile22addNewFileToFTABOnDataERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPK8__CFDataPPS9_.cold.15
++ _ZN12ACFUFTABFile22addNewFileToFTABOnDataERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPK8__CFDataPPS9_.cold.16
++ _ZN12ACFUFTABFile22addNewFileToFTABOnDataERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPK8__CFDataPPS9_.cold.2
++ _ZN12ACFUFTABFile22addNewFileToFTABOnDataERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPK8__CFDataPPS9_.cold.3
++ _ZN12ACFUFTABFile22addNewFileToFTABOnDataERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPK8__CFDataPPS9_.cold.4
++ _ZN12ACFUFTABFile22addNewFileToFTABOnDataERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPK8__CFDataPPS9_.cold.5
++ _ZN12ACFUFTABFile22addNewFileToFTABOnDataERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPK8__CFDataPPS9_.cold.6
++ _ZN12ACFUFTABFile22addNewFileToFTABOnDataERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPK8__CFDataPPS9_.cold.7
++ _ZN12ACFUFTABFile22addNewFileToFTABOnDataERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPK8__CFDataPPS9_.cold.8
++ _ZN12ACFUFTABFile22addNewFileToFTABOnDataERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPK8__CFDataPPS9_.cold.9
++ _ZN12ACFUFTABFile22setManifestToTopOnDataEPK8__CFDataPPS0_.cold.1
++ _ZN12ACFUFTABFile22setManifestToTopOnDataEPK8__CFDataPPS0_.cold.2
++ _ZN12ACFUFTABFile22setManifestToTopOnDataEPK8__CFDataPPS0_.cold.3
++ _ZN12ACFUFTABFile22setManifestToTopOnDataEPK8__CFDataPPS0_.cold.4
++ _ZN12ACFUFTABFile22setManifestToTopOnDataEPK8__CFDataPPS0_.cold.5
++ _ZN12ACFUFTABFile22setManifestToTopOnDataEPK8__CFDataPPS0_.cold.6
++ _ZN12ACFUFTABFile22setManifestToTopOnDataEPK8__CFDataPPS0_.cold.7
++ _ZN12ACFUFTABFile22updateFileInFTABOnDataERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPK8__CFDataPPS9_.cold.1
++ _ZN12ACFUFTABFile22updateFileInFTABOnDataERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPK8__CFDataPPS9_.cold.10
++ _ZN12ACFUFTABFile22updateFileInFTABOnDataERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPK8__CFDataPPS9_.cold.11
++ _ZN12ACFUFTABFile22updateFileInFTABOnDataERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPK8__CFDataPPS9_.cold.12
++ _ZN12ACFUFTABFile22updateFileInFTABOnDataERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPK8__CFDataPPS9_.cold.13
++ _ZN12ACFUFTABFile22updateFileInFTABOnDataERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPK8__CFDataPPS9_.cold.2
++ _ZN12ACFUFTABFile22updateFileInFTABOnDataERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPK8__CFDataPPS9_.cold.3
++ _ZN12ACFUFTABFile22updateFileInFTABOnDataERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPK8__CFDataPPS9_.cold.4
++ _ZN12ACFUFTABFile22updateFileInFTABOnDataERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPK8__CFDataPPS9_.cold.5
++ _ZN12ACFUFTABFile22updateFileInFTABOnDataERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPK8__CFDataPPS9_.cold.6
++ _ZN12ACFUFTABFile22updateFileInFTABOnDataERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPK8__CFDataPPS9_.cold.7
++ _ZN12ACFUFTABFile22updateFileInFTABOnDataERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPK8__CFDataPPS9_.cold.8
++ _ZN12ACFUFTABFile22updateFileInFTABOnDataERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPK8__CFDataPPS9_.cold.9
++ _ZN12ACFUFTABFile4initEP8__CFData.cold.1
++ _ZN12ACFUFTABFile4initEPK10__CFStringb.cold.1
++ _ZN12ACFUFTABFile4initEPK8__CFData.cold.1
++ _ZN12ACFUFTABFile7hasFileERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE.cold.1
++ _ZN12ACFUFTABFile9initCacheEv.cold.1
++ _ZN12ACFUFTABFile9initCacheEv.cold.2
++ _ZN12ACFUFTABFile9initCacheEv.cold.3
++ _ZN12ACFUFTABFile9initCacheEv.cold.4
++ _ZN12ACFUFTABFile9initCacheEv.cold.5
++ _ZN12ACFUFTABFile9prettyLogEv.cold.1
++ _ZN12ACFUFTABFile9prettyLogEv.cold.2
++ _ZN12ACFUFTABFile9prettyLogEv.cold.3
++ _ZN12ACFUFTABFile9prettyLogEv.cold.4
++ _ZN12ACFUFTABFile9prettyLogEv.cold.5
++ _ZN12ACFUFirmware12saveFirmwareEv.cold.1
++ _ZN12ACFUFirmware12saveFirmwareEv.cold.2
++ _ZN12ACFUFirmware12saveFirmwareEv.cold.3
++ _ZN12ACFUFirmware12saveFirmwareEv.cold.4
++ _ZN12ACFUFirmware4initENSt3__13mapIPK10__CFStringNS0_12basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS0_4lessIS4_EENS8_INS0_4pairIKS4_SA_EEEEEE.cold.1
++ _ZN12ACFUFirmware9measureFWEv.cold.1
++ _ZN13RTKitFirmware11setManifestEPK8__CFData.cold.1
++ _ZN13RTKitFirmware12saveFirmwareEv.cold.1
++ _ZN13RTKitFirmware12saveFirmwareEv.cold.2
++ _ZN13RTKitFirmware12saveFirmwareEv.cold.3
++ _ZN13RTKitFirmware16setFirmwareNonceEPK8__CFData.cold.1
++ _ZN13RTKitFirmware16setFirmwareNonceEPK8__CFData.cold.2
++ _ZN13RTKitFirmware17copyFirmwareNonceEv.cold.1
++ _ZN13RTKitFirmware21getFileSizeByFileNameERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE.cold.1
++ _ZN13RTKitFirmware28openFirmwareInRestoreOptionsEPK14__CFDictionary.cold.1
++ _ZN13RTKitFirmware28openFirmwareInRestoreOptionsEPK14__CFDictionary.cold.2
++ _ZN13RTKitFirmware28openFirmwareInRestoreOptionsEPK14__CFDictionary.cold.3
++ _ZN13RTKitFirmware4initENSt3__13mapIPK10__CFStringNS0_12basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS0_4lessIS4_EENS8_INS0_4pairIKS4_SA_EEEEEEPK8__CFDataN12ACFUFTABFile16FTABOptimizationE.cold.1
++ _ZN13RTKitFirmware4initENSt3__13mapIPK10__CFStringNS0_12basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS0_4lessIS4_EENS8_INS0_4pairIKS4_SA_EEEEEEPK8__CFDataN12ACFUFTABFile16FTABOptimizationE.cold.2
++ _ZN13RTKitFirmware4initENSt3__13mapIPK10__CFStringNS0_12basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS0_4lessIS4_EENS8_INS0_4pairIKS4_SA_EEEEEEPK8__CFDataN12ACFUFTABFile16FTABOptimizationE.cold.3
++ _ZN13SERestoreInfo16SERestoreInfoLog3getEv.cold.1
++ _ZN13SERestoreInfo17IcefallDeviceInfo12updateFromMQERKNS_4BLOBE.cold.1
++ _ZN13SERestoreInfo18getValueFromCFDictEPK14__CFDictionaryPK10__CFStringmPvj.cold.1
++ _ZN15ACFURestoreHost12copyFirmwareEv.cold.1
++ _ZN15ACFURestoreHost12copyFirmwareEv.cold.2
++ _ZN15ACFURestoreHost12copyFirmwareEv.cold.3
++ _ZN15ACFURestoreHost12copyFirmwareEv.cold.4
++ _ZN15ACFURestoreHost12copyFirmwareEv.cold.5
++ _ZN15ACFURestoreHost12copyFirmwareEv.cold.6
++ _ZN15ACFURestoreHost12copyFirmwareEv.cold.7
++ _ZN15ACFURestoreHost12copyFirmwareEv.cold.8
++ _ZN15ACFURestoreHost12copyFirmwareEv.cold.9
++ _ZN15ACFURestoreHost13convertCFTypeEPKvm.cold.1
++ _ZN15ACFURestoreHost13createRequestENSt3__110shared_ptrI12ACFUFirmwareEERKNS_8DemotionE.cold.1
++ _ZN15ACFURestoreHost13createRequestENSt3__110shared_ptrI12ACFUFirmwareEERKNS_8DemotionE.cold.10
++ _ZN15ACFURestoreHost13createRequestENSt3__110shared_ptrI12ACFUFirmwareEERKNS_8DemotionE.cold.11
++ _ZN15ACFURestoreHost13createRequestENSt3__110shared_ptrI12ACFUFirmwareEERKNS_8DemotionE.cold.2
++ _ZN15ACFURestoreHost13createRequestENSt3__110shared_ptrI12ACFUFirmwareEERKNS_8DemotionE.cold.3
++ _ZN15ACFURestoreHost13createRequestENSt3__110shared_ptrI12ACFUFirmwareEERKNS_8DemotionE.cold.4
++ _ZN15ACFURestoreHost13createRequestENSt3__110shared_ptrI12ACFUFirmwareEERKNS_8DemotionE.cold.5
++ _ZN15ACFURestoreHost13createRequestENSt3__110shared_ptrI12ACFUFirmwareEERKNS_8DemotionE.cold.6
++ _ZN15ACFURestoreHost13createRequestENSt3__110shared_ptrI12ACFUFirmwareEERKNS_8DemotionE.cold.7
++ _ZN15ACFURestoreHost13createRequestENSt3__110shared_ptrI12ACFUFirmwareEERKNS_8DemotionE.cold.8
++ _ZN15ACFURestoreHost13createRequestENSt3__110shared_ptrI12ACFUFirmwareEERKNS_8DemotionE.cold.9
++ _ZN15ACFURestoreHost18createBoolFromDataEPK8__CFData.cold.1
++ _ZN15ACFURestoreHost18getPathFromBuildIDEPK14__CFDictionaryPK10__CFString.cold.1
++ _ZN15ACFURestoreHost18getPathFromBuildIDEPK14__CFDictionaryPK10__CFString.cold.2
++ _ZN15ACFURestoreHost18getPathFromBuildIDEPK14__CFDictionaryPK10__CFString.cold.3
++ _ZN15ACFURestoreHost19createArrayFromListERKNSt3__16vectorIPK10__CFStringNS0_9allocatorIS4_EEEE.cold.1
++ _ZN15ACFURestoreHost24createNum64Num32FromDataEPK8__CFDataPPK10__CFNumber.cold.1
++ _ZN15ACFURestoreHost28copyToPersonalizedBundlePathEPK14__CFDictionaryPK10__CFStringPK8__CFData.cold.1
++ _ZN15ACFURestoreHost28copyToPersonalizedBundlePathEPK14__CFDictionaryPK10__CFStringPK8__CFData.cold.2
++ _ZN15ACFURestoreHost28copyToPersonalizedBundlePathEPK14__CFDictionaryPK10__CFStringPK8__CFData.cold.3
++ _ZN15ACFURestoreHost28copyToPersonalizedBundlePathEPK14__CFDictionaryPK10__CFStringPK8__CFData.cold.4
++ _ZN15ACFURestoreHost7getTagsEv.cold.1
++ _ZN15ACFURestoreHost7getTagsEv.cold.2
++ _ZN15ACFURestoreHost7getTagsEv.cold.3
++ _ZN15ACFURestoreHost7getTagsEv.cold.4
++ _ZN15RoseRestoreHost13createRequestENSt3__110shared_ptrI12ACFUFirmwareEERKN15ACFURestoreHost8DemotionE.cold.1
++ _ZN15RoseRestoreHost13createRequestENSt3__110shared_ptrI12ACFUFirmwareEERKN15ACFURestoreHost8DemotionE.cold.2
++ _ZN15RoseRestoreHost4initEPK14__CFDictionaryPK10__CFString.cold.1
++ _ZN15RoseRestoreHost4initEPK14__CFDictionaryPK10__CFString.cold.2
++ _ZN15RoseRestoreHost4initEPK14__CFDictionaryPK10__CFString.cold.3
++ _ZN15RoseRestoreHost4initEPK14__CFDictionaryPK10__CFString.cold.4
++ _ZN15RoseRestoreHost4initEPK14__CFDictionaryPK10__CFString.cold.5
++ _ZN15RoseRestoreHost4initEPK14__CFDictionaryPK10__CFString.cold.6
++ _ZN17ACFUDataContainer4initEP8__CFData.cold.1
++ _ZN17ACFUDataContainer4initEPK8__CFData.cold.1
++ _ZN17ACFUDataContainer7setDataEP8__CFData.cold.1
++ _ZN17ACFUDataContainer7setDataEP8__CFData.cold.2
++ _ZN17ACFUDataContainer7setDataEP8__CFData.cold.3
++ _ZN17ACFUDataContainer7setDataEP8__CFData.cold.4
++ _ZN17ACFUDataContainer7setDataEP8__CFData.cold.5
++ _ZN17ACFUDataContainer8copyDataEjm.cold.1
++ _ZN17ACFUDataContainer8copyDataEjm.cold.2
++ _ZN17ACFUDataContainer8copyDataEjm.cold.3
++ _ZN17ACFUDataContainer8copyDataEjm.cold.4
++ _ZN17ACFUDataContainer8copyDataEjm.cold.5
++ _ZN17ACFUDataContainer8copyDataEjm.cold.6
++ _ZN17ACFUDataContainer8copyDataEjm.cold.7
++ _ZN17ACFUDataContainer8copyDataEjm.cold.8
++ _ZN17ACFUDataContainer8copyDataEv.cold.1
++ _ZN8ACFUFile10saveToPathEPK7__CFURL.cold.1
++ _ZN8ACFUFile10saveToPathEPK7__CFURL.cold.2
++ _ZN8ACFUFile10saveToPathEPK7__CFURL.cold.3
++ _ZN8ACFUFile10saveToPathEPK7__CFURL.cold.4
++ _ZN8ACFUFile10saveToPathEPK7__CFURL.cold.5
++ _ZN8ACFUFile10saveToPathEPK7__CFURL.cold.6
++ _ZN8ACFUFile10saveToPathEPK7__CFURL.cold.7
++ _ZN8ACFUFile10saveToPathEPK7__CFURL.cold.8
++ _ZN8ACFUFile10saveToPathEPK7__CFURL.cold.9
++ _ZN8ACFUFile14fileVersionLogEv.cold.1
++ _ZN8ACFUFile14fileVersionLogEv.cold.2
++ _ZN8ACFUFile4initEP8__CFData.cold.1
++ _ZN8ACFUFile4initEP8__CFData.cold.2
++ _ZN8ACFUFile4initEP8__CFData.cold.3
++ _ZN8ACFUFile4initEP8__CFData.cold.4
++ _ZN8ACFUFile4initEPK10__CFStringb.cold.1
++ _ZN8ACFUFile4initEPK10__CFStringb.cold.2
++ _ZN8ACFUFile4initEPK10__CFStringb.cold.3
++ _ZN8ACFUFile4initEPK10__CFStringb.cold.4
++ _ZN8ACFUFile4initEPK8__CFData.cold.1
++ _ZN8ACFUFile4initEPK8__CFData.cold.2
++ _ZN8ACFUFile4initEPK8__CFData.cold.3
++ _ZN8ACFUFile4initEPK8__CFData.cold.4
++ _ZN9ACFUError10getCFErrorEv.cold.1
++ _ZNK12ACFUFirmware15copyFWDataByTagEPK10__CFString.cold.1
++ _ZNK12ACFUFirmware8hashDataENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEj.cold.1
++ _ZNK12ACFUFirmware8hashDataEPK8__CFData.cold.1
++ _ZNK12ACFUFirmware8hashDataEPK8__CFData.cold.2
++ _ZNK12ACFUFirmware8hashDataEPK8__CFData.cold.3
++ _ZNK13SERestoreInfo18IcefallRestoreInfo11getImageTagEv.cold.1
++ _ZNK13SERestoreInfo18IcefallRestoreInfo11getTagsInBIEv.cold.1
++ _ZNK13SERestoreInfo18P73BaseRestoreInfo11getImageTagEv.cold.1
++ _ZNK13SERestoreInfo18P73BaseRestoreInfo11getTagsInBIEv.cold.1
++ __AMAuthInstallApImg4StitchToURL
++ __AMAuthInstallSupportCreateDataFromCopiedOrMappedFileURL
++ __AMAuthInstallVinylFwReaderInfoPlistCallback.cold.1
++ __DERItemEqualsCString
++ __WriteCFDataIntoFile
++ __WriteStreamIntoFile
++ __ZN13SERestoreInfo17SN300V3DeviceInfoC1ERKNS_4BLOBE
++ __ZN13SERestoreInfo17SN300V3DeviceInfoC1ERKPK14__CFDictionary
++ __ZN13SERestoreInfo17SN300V3DeviceInfoC2ERKNS_4BLOBE
++ __ZN13SERestoreInfo17SN300V3DeviceInfoC2ERKPK14__CFDictionary
++ __ZN13SERestoreInfo17SN300V3DeviceInfoD0Ev
++ __ZN13SERestoreInfo17SN300V3DeviceInfoD1Ev
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__114default_deleteINS_6vectorIhNS_9allocatorIhEEEEEclB8ne190102EPS4_
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN13SERestoreInfo16UpdateTableEntryEEEPS3_EclB8ne190102Ev
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN13SERestoreInfo8ApduBLOBEEEPS3_EclB8ne190102Ev
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorItNS1_ItEEEEEEPS4_EclB8ne190102Ev
++ __ZNKSt3__14lessINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB8ne190102ERKS6_S9_
++ __ZNKSt3__16vectorI18ACFUErrorContainerNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIN13SERestoreInfo16UpdateTableEntryENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIN13SERestoreInfo4BLOBENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIN13SERestoreInfo8ApduBLOBENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIN15ACFURestoreHost8FileListENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorINS0_ItNS_9allocatorItEEEENS1_IS3_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorINS0_ItNS_9allocatorItEEEENS1_IS3_EEE20__throw_out_of_rangeB8ne190102Ev
++ __ZNKSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIPK10__CFStringNS_9allocatorIS3_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorItNS_9allocatorItEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt9type_infoeqB8ne190102ERKS_
++ __ZNSt12length_errorC1B8ne190102EPKc
++ __ZNSt12out_of_rangeC1B8ne190102EPKc
++ __ZNSt3__110shared_ptrI13RTKitFirmwareEaSB8ne190102IS1_NS_14default_deleteIS1_EELi0EEERS2_ONS_10unique_ptrIT_T0_EE
++ __ZNSt3__110shared_ptrI16RoseCapabilitiesEC2B8ne190102IS1_Li0EEEPT_
++ __ZNSt3__110unique_ptrI17ACFUDataContainerNS_14default_deleteIS1_EEE5resetB8ne190102EPS1_
++ __ZNSt3__110unique_ptrIN17ACFUDataContainer13DirectDataRefENS_14default_deleteIS2_EEE5resetB8ne190102EPS2_
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_6vectorIhNS_9allocatorIhEEEENS_10shared_ptrIKN13SERestoreInfo21P73BaseDeliveryObjectEEEEEPvEENS_22__tree_node_destructorINS4_ISE_EEEEE5resetB8ne190102EPSE_
++ __ZNSt3__110unique_ptrINS_6vectorI18ACFUErrorContainerNS_9allocatorIS2_EEEENS_14default_deleteIS5_EEE5resetB8ne190102EPS5_
++ __ZNSt3__112__destroy_atB8ne190102INS_4pairIKNS_6vectorIhNS_9allocatorIhEEEENS_10shared_ptrIKN13SERestoreInfo21P73BaseDeliveryObjectEEEEELi0EEEvPT_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__assign_trivialB8ne190102IPhS7_EEvT_T0_m
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB8ne190102IPKhS8_EEvT_T0_m
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB8ne190102IPcS7_EEvT_T0_m
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102Emc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102ILi0EEEPKc
++ __ZNSt3__113__tree_removeB8ne190102IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__114__split_bufferIN13SERestoreInfo16UpdateTableEntryERNS_9allocatorIS2_EEE5clearB8ne190102Ev
++ __ZNSt3__114__split_bufferIN13SERestoreInfo8ApduBLOBERNS_9allocatorIS2_EEE17__destruct_at_endB8ne190102EPS2_
++ __ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEE17__destruct_at_endB8ne190102EPS6_
++ __ZNSt3__114__split_bufferINS_6vectorItNS_9allocatorItEEEERNS2_IS4_EEE17__destruct_at_endB8ne190102EPS4_
++ __ZNSt3__115allocate_sharedB8ne190102IN13SERestoreInfo13P73DeviceInfoENS_9allocatorIS2_EEJRKNS1_4BLOBEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8ne190102IN13SERestoreInfo13P73DeviceInfoENS_9allocatorIS2_EEJRKPK14__CFDictionaryELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8ne190102IN13SERestoreInfo16SE310SDeviceInfoENS_9allocatorIS2_EEJRKNS1_4BLOBEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8ne190102IN13SERestoreInfo16SE310SDeviceInfoENS_9allocatorIS2_EEJRKPK14__CFDictionaryELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8ne190102IN13SERestoreInfo16SN100VDeviceInfoENS_9allocatorIS2_EEJRKNS1_4BLOBEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8ne190102IN13SERestoreInfo16SN100VDeviceInfoENS_9allocatorIS2_EEJRKPK14__CFDictionaryELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8ne190102IN13SERestoreInfo16SN200VDeviceInfoENS_9allocatorIS2_EEJRKNS1_4BLOBEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8ne190102IN13SERestoreInfo16SN200VDeviceInfoENS_9allocatorIS2_EEJRKPK14__CFDictionaryELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8ne190102IN13SERestoreInfo16SN210VDeviceInfoENS_9allocatorIS2_EEJRKNS1_4BLOBEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8ne190102IN13SERestoreInfo16SN210VDeviceInfoENS_9allocatorIS2_EEJRKPK14__CFDictionaryELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8ne190102IN13SERestoreInfo16SN300VDeviceInfoENS_9allocatorIS2_EEJRKNS1_4BLOBEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8ne190102IN13SERestoreInfo16SN300VDeviceInfoENS_9allocatorIS2_EEJRKPK14__CFDictionaryELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8ne190102IN13SERestoreInfo17IcefallDeviceInfoENS_9allocatorIS2_EEJRKNS1_4BLOBEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8ne190102IN13SERestoreInfo17IcefallDeviceInfoENS_9allocatorIS2_EEJRKPK14__CFDictionaryELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8ne190102IN13SERestoreInfo17SN300V2DeviceInfoENS_9allocatorIS2_EEJRKNS1_4BLOBEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8ne190102IN13SERestoreInfo17SN300V2DeviceInfoENS_9allocatorIS2_EEJRKPK14__CFDictionaryELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8ne190102IN13SERestoreInfo17SN300V3DeviceInfoENS_9allocatorIS2_EEJRKNS1_4BLOBEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8ne190102IN13SERestoreInfo17SN300V3DeviceInfoENS_9allocatorIS2_EEJRKPK14__CFDictionaryELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8ne190102IN13SERestoreInfo21IcefallDeliveryObjectENS_9allocatorIS2_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8ne190102IN13SERestoreInfo21P73BaseDeliveryObjectENS_9allocatorIS2_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__116__pad_and_outputB8ne190102IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorI18ACFUErrorContainerEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN13SERestoreInfo16UpdateTableEntryEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN13SERestoreInfo4BLOBEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN13SERestoreInfo8ApduBLOBEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN15ACFURestoreHost8FileListEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_6vectorItNS1_ItEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIPK10__CFStringEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorItEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__shared_weak_count16__release_sharedB8ne190102Ev
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne190102Ev
++ __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo13P73DeviceInfoENS_9allocatorIS2_EEEC2B8ne190102IJRKNS1_4BLOBEES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo13P73DeviceInfoENS_9allocatorIS2_EEEC2B8ne190102IJRKPK14__CFDictionaryES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo16SE310SDeviceInfoENS_9allocatorIS2_EEEC2B8ne190102IJRKNS1_4BLOBEES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo16SE310SDeviceInfoENS_9allocatorIS2_EEEC2B8ne190102IJRKPK14__CFDictionaryES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo16SN100VDeviceInfoENS_9allocatorIS2_EEEC2B8ne190102IJRKNS1_4BLOBEES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo16SN100VDeviceInfoENS_9allocatorIS2_EEEC2B8ne190102IJRKPK14__CFDictionaryES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo16SN200VDeviceInfoENS_9allocatorIS2_EEEC2B8ne190102IJRKNS1_4BLOBEES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo16SN200VDeviceInfoENS_9allocatorIS2_EEEC2B8ne190102IJRKPK14__CFDictionaryES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo16SN210VDeviceInfoENS_9allocatorIS2_EEEC2B8ne190102IJRKNS1_4BLOBEES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo16SN210VDeviceInfoENS_9allocatorIS2_EEEC2B8ne190102IJRKPK14__CFDictionaryES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo16SN300VDeviceInfoENS_9allocatorIS2_EEEC2B8ne190102IJRKNS1_4BLOBEES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo16SN300VDeviceInfoENS_9allocatorIS2_EEEC2B8ne190102IJRKPK14__CFDictionaryES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo17IcefallDeviceInfoENS_9allocatorIS2_EEEC2B8ne190102IJRKNS1_4BLOBEES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo17IcefallDeviceInfoENS_9allocatorIS2_EEEC2B8ne190102IJRKPK14__CFDictionaryES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo17SN300V2DeviceInfoENS_9allocatorIS2_EEEC2B8ne190102IJRKNS1_4BLOBEES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo17SN300V2DeviceInfoENS_9allocatorIS2_EEEC2B8ne190102IJRKPK14__CFDictionaryES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo17SN300V3DeviceInfoENS_9allocatorIS2_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo17SN300V3DeviceInfoENS_9allocatorIS2_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo17SN300V3DeviceInfoENS_9allocatorIS2_EEEC2B8ne190102IJRKNS1_4BLOBEES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo17SN300V3DeviceInfoENS_9allocatorIS2_EEEC2B8ne190102IJRKPK14__CFDictionaryES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo17SN300V3DeviceInfoENS_9allocatorIS2_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo17SN300V3DeviceInfoENS_9allocatorIS2_EEED1Ev
++ __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo21IcefallDeliveryObjectENS_9allocatorIS2_EEEC2B8ne190102IJES4_Li0EEES4_DpOT_
++ __ZNSt3__120__throw_length_errorB8ne190102EPKc
++ __ZNSt3__120__throw_out_of_rangeB8ne190102EPKc
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIN13SERestoreInfo10AMS_UOS_IDENS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPvEEEEEclB8ne190102EPSD_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEN12ACFUFTABFile18CachedFileMetadataEEEPvEEEEEclB8ne190102EPSD_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEPKvEEPvEEEEEclB8ne190102EPSD_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIPK10__CFStringNS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPvEEEEEclB8ne190102EPSE_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIjNS_3mapIjjNS_4lessIjEENS1_INS_4pairIKjjEEEEEEEEPvEEEEEclB8ne190102EPSE_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeItN13SERestoreInfo11ImageBinaryEEEPvEEEEEclB8ne190102EPS8_
++ __ZNSt3__124__put_character_sequenceB8ne190102IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__127__tree_balance_after_insertB8ne190102IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN13SERestoreInfo16UpdateTableEntryEEEPS4_EEED2B8ne190102Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN13SERestoreInfo8ApduBLOBEEEPS4_EEED2B8ne190102Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorItNS2_ItEEEEEEPS5_EEED2B8ne190102Ev
++ __ZNSt3__134__uninitialized_allocator_relocateB8ne190102INS_9allocatorI18ACFUErrorContainerEES2_EEvRT_PT0_S7_S7_
++ __ZNSt3__134__uninitialized_allocator_relocateB8ne190102INS_9allocatorIN13SERestoreInfo16UpdateTableEntryEEES3_EEvRT_PT0_S8_S8_
++ __ZNSt3__134__uninitialized_allocator_relocateB8ne190102INS_9allocatorIN13SERestoreInfo8ApduBLOBEEES3_EEvRT_PT0_S8_S8_
++ __ZNSt3__135__uninitialized_allocator_copy_implB8ne190102INS_9allocatorINS_6vectorItNS1_ItEEEEEEPS4_S6_S6_EET2_RT_T0_T1_S7_
++ __ZNSt3__13mapIN13SERestoreInfo10AMS_UOS_IDENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS2_EENS6_INS_4pairIKS2_S8_EEEEEC2B8ne190102ESt16initializer_listISD_ERKSA_
++ __ZNSt3__13mapIPK10__CFStringNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS3_EENS7_INS_4pairIKS3_S9_EEEEE6insertB8ne190102INS_20__map_const_iteratorINS_21__tree_const_iteratorINS_12__value_typeIS3_S9_EEPNS_11__tree_nodeISL_PvEElEEEEEEvT_SS_
++ __ZNSt3__13mapIPK10__CFStringNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS3_EENS7_INS_4pairIKS3_S9_EEEEEC2B8ne190102ERKSG_
++ __ZNSt3__13mapIPK10__CFStringNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS3_EENS7_INS_4pairIKS3_S9_EEEEEC2B8ne190102ESt16initializer_listISE_ERKSB_
++ __ZNSt3__13mapIPK10__CFStringmNS_4lessIS3_EENS_9allocatorINS_4pairIKS3_mEEEEE6insertB8ne190102INS_20__map_const_iteratorINS_21__tree_const_iteratorINS_12__value_typeIS3_mEEPNS_11__tree_nodeISG_PvEElEEEEEEvT_SN_
++ __ZNSt3__13mapIPK10__CFStringmNS_4lessIS3_EENS_9allocatorINS_4pairIKS3_mEEEEEC2B8ne190102ERKSB_
++ __ZNSt3__13mapIjNS0_IjjNS_4lessIjEENS_9allocatorINS_4pairIKjjEEEEEES2_NS3_INS4_IS5_S8_EEEEEC2B8ne190102ESt16initializer_listIS9_ERKS2_
++ __ZNSt3__13mapIjjNS_4lessIjEENS_9allocatorINS_4pairIKjjEEEEE6insertB8ne190102INS_20__map_const_iteratorINS_21__tree_const_iteratorINS_12__value_typeIjjEEPNS_11__tree_nodeISD_PvEElEEEEEEvT_SK_
++ __ZNSt3__13mapIjjNS_4lessIjEENS_9allocatorINS_4pairIKjjEEEEEC2B8ne190102ERKS8_
++ __ZNSt3__13mapIjjNS_4lessIjEENS_9allocatorINS_4pairIKjjEEEEEC2B8ne190102ESt16initializer_listIS6_ERKS2_
++ __ZNSt3__14pairIKtN13SERestoreInfo11ImageBinaryEEC2B8ne190102IRjRS3_Li0EEEOT_OT0_
++ __ZNSt3__16__treeINS_12__value_typeIPK10__CFStringN15ACFURestoreHost12DemoteConfigEEENS_19__map_value_compareIS4_S7_NS_4lessIS4_EELb1EEENS_9allocatorIS7_EEE18_DetachedTreeCacheD2B8ne190102Ev
++ __ZNSt3__16__treeINS_12__value_typeIPK10__CFStringNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS_19__map_value_compareIS4_SB_NS_4lessIS4_EELb1EEENS8_ISB_EEE18_DetachedTreeCacheD2B8ne190102Ev
++ __ZNSt3__16__treeINS_12__value_typeIPK10__CFStringmEENS_19__map_value_compareIS4_S5_NS_4lessIS4_EELb1EEENS_9allocatorIS5_EEE18_DetachedTreeCacheD2B8ne190102Ev
++ __ZNSt3__16vectorI18ACFUErrorContainerNS_9allocatorIS1_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorIN13SERestoreInfo16UpdateTableEntryENS_9allocatorIS2_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorIN13SERestoreInfo4BLOBENS_9allocatorIS2_EEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorIN13SERestoreInfo4BLOBENS_9allocatorIS2_EEE12emplace_backIJS2_EEEvDpOT_
++ __ZNSt3__16vectorIN13SERestoreInfo4BLOBENS_9allocatorIS2_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorIN13SERestoreInfo4BLOBENS_9allocatorIS2_EEE16__init_with_sizeB8ne190102IPS2_S7_EEvT_T0_m
++ __ZNSt3__16vectorIN13SERestoreInfo4BLOBENS_9allocatorIS2_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS2_RS4_EE
++ __ZNSt3__16vectorIN13SERestoreInfo8ApduBLOBENS_9allocatorIS2_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorIN13SERestoreInfo8ApduBLOBENS_9allocatorIS2_EEE22__base_destruct_at_endB8ne190102EPS2_
++ __ZNSt3__16vectorIN13SERestoreInfo8ApduBLOBENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJS2_EEEPS2_DpOT_
++ __ZNSt3__16vectorIN15ACFURestoreHost8FileListENS_9allocatorIS2_EEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorIN15ACFURestoreHost8FileListENS_9allocatorIS2_EEE18__assign_with_sizeB8ne190102IPKS2_S8_EEvT_T0_l
++ __ZNSt3__16vectorINS0_ItNS_9allocatorItEEEENS1_IS3_EEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorINS0_ItNS_9allocatorItEEEENS1_IS3_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorINS0_ItNS_9allocatorItEEEENS1_IS3_EEE16__init_with_sizeB8ne190102IPS3_S7_EEvT_T0_m
++ __ZNSt3__16vectorINS0_ItNS_9allocatorItEEEENS1_IS3_EEE7__clearB8ne190102Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE7__clearB8ne190102Ev
++ __ZNSt3__16vectorIPK10__CFStringNS_9allocatorIS3_EEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorIPK10__CFStringNS_9allocatorIS3_EEE16__init_with_sizeB8ne190102IPKS3_S9_EEvT_T0_m
++ __ZNSt3__16vectorIPK10__CFStringNS_9allocatorIS3_EEE16__init_with_sizeB8ne190102IPS3_S8_EEvT_T0_m
++ __ZNSt3__16vectorIPK10__CFStringNS_9allocatorIS3_EEE18__assign_with_sizeB8ne190102IPKS3_S9_EEvT_T0_l
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE16__init_with_sizeB8ne190102IPKhS6_EEvT_T0_m
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE16__init_with_sizeB8ne190102IPhS5_EEvT_T0_m
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE18__assign_with_sizeB8ne190102IPKhS6_EEvT_T0_l
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE18__assign_with_sizeB8ne190102IPhS5_EEvT_T0_l
++ __ZNSt3__16vectorIhNS_9allocatorIhEEEC2B8ne190102Em
++ __ZNSt3__16vectorItNS_9allocatorItEEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorItNS_9allocatorItEEE16__init_with_sizeB8ne190102IPtS5_EEvT_T0_m
++ __ZNSt3__19allocatorI18ACFUErrorContainerE9constructB8ne190102IS1_JRKNS_12basic_stringIcNS_11char_traitsIcEENS0_IcEEEERlRP9__CFErrorEEEvPT_DpOT0_
++ __ZNSt3__19allocatorIN13SERestoreInfo16UpdateTableEntryEE7destroyB8ne190102EPS2_
++ __ZNSt3__19allocatorIN13SERestoreInfo16UpdateTableEntryEE9constructB8ne190102IS2_JRS2_EEEvPT_DpOT0_
++ __ZSt28__throw_bad_array_new_lengthB8ne190102v
++ __ZTIN13SERestoreInfo17SN300V3DeviceInfoE
++ __ZTINSt3__120__shared_ptr_emplaceIN13SERestoreInfo17SN300V3DeviceInfoENS_9allocatorIS2_EEEE
++ __ZTSN13SERestoreInfo17SN300V3DeviceInfoE
++ __ZTSNSt3__120__shared_ptr_emplaceIN13SERestoreInfo17SN300V3DeviceInfoENS_9allocatorIS2_EEEE
++ __ZTVN13SERestoreInfo17SN300V3DeviceInfoE
++ __ZTVNSt3__120__shared_ptr_emplaceIN13SERestoreInfo17SN300V3DeviceInfoENS_9allocatorIS2_EEEE
++ __isPlatformVersionAtLeast.cold.1
++ __isPlatformVersionAtLeast.cold.2
++ _fileno
++ _updater_named.cold.1
+- AMAuthInstallApImg4Stitch.cold.1
+- AMAuthInstallApImg4Stitch.cold.2
+- AMAuthInstallApImg4Stitch.cold.3
+- GCC_except_table108
+- GCC_except_table134
+- GCC_except_table138
+- GCC_except_table39
+- GCC_except_table51
+- GCC_except_table57
+- GCC_except_table69
+- GCC_except_table70
+- GCC_except_table95
+- SavageCFDictionarySetInteger32.cold.1
+- _AMAuthInstallApImg4Stitch
+- _AMAuthInstallPlatformCreateBufferFromNativeFilePath
+- _AMAuthInstallPlatformWriteBufferToNativeFilePath
+- _AMAuthInstallPlatformWriteDataToFileURL
+- _CreateYonkersMeasurementDict
+- _CreateYonkersRequestDictForTATSU
+- _DERImg4DecodeFindInSequence
+- _GetRelevantMeasurementTags
+- _GetYonkersFabRevisionTags
+- _GetYonkersMeasurementTags
+- _SavageCFDictionarySetInteger32
+- _SavageCFStringToUInt32
+- _SavageSafeRetain
+- _SavageUpdaterCopyFirmware
+- _SavageUpdaterCopyFirmwareWithLogging
+- _SavageUpdaterCreateRequest
+- _SavageUpdaterCreateRequestWithLogging
+- _SavageUpdaterGetTags
+- _SavageUpdaterGetTagsWithLogging
+- _YonkersAddEntitlementsToTATSURequestDict
+- __ZGVZN11ACFULogging14getLogInstanceEvE4inst
+- __ZGVZNK13SERestoreInfo18IcefallRestoreInfo11getImageTagEvE10_imageTags
+- __ZGVZNK13SERestoreInfo18IcefallRestoreInfo11getTagsInBIEvE9_tagsInBI
+- __ZGVZNK13SERestoreInfo18P73BaseRestoreInfo11getImageTagEvE9_imageTag
+- __ZGVZNK13SERestoreInfo18P73BaseRestoreInfo11getTagsInBIEvE9_tagsInBI
+- __ZL10logContext
+- __ZL14CreateFileDataPK14__CFDictionaryPK10__CFStringPP9__CFError
+- __ZL19_computePatchDigestPKhmPh
+- __ZL20SavageRestoreInfoLogPKcz
+- __ZL21CreateMeasurementDictPK8__CFDataPPK14__CFDictionary
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__114default_deleteINS_6vectorIhNS_9allocatorIhEEEEEclB8ne180100EPS4_
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN13SERestoreInfo16UpdateTableEntryEEENS_16reverse_iteratorIPS3_EEEclB8ne180100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN13SERestoreInfo8ApduBLOBEEENS_16reverse_iteratorIPS3_EEEclB8ne180100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEENS_16reverse_iteratorIPS6_EEEclB8ne180100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorItNS1_ItEEEEEENS_16reverse_iteratorIPS4_EEEclB8ne180100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorItNS1_ItEEEEEEPS4_EclB8ne180100Ev
+- __ZNKSt3__14lessINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB8ne180100ERKS6_S9_
+- __ZNKSt3__16vectorI18ACFUErrorContainerNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN13SERestoreInfo16UpdateTableEntryENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN13SERestoreInfo4BLOBENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN13SERestoreInfo8ApduBLOBENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN15ACFURestoreHost8FileListENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorINS0_ItNS_9allocatorItEEEENS1_IS3_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorINS0_ItNS_9allocatorItEEEENS1_IS3_EEE20__throw_out_of_rangeB8ne180100Ev
+- __ZNKSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIPK10__CFStringNS_9allocatorIS3_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorItNS_9allocatorItEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt9type_infoeqB8ne180100ERKS_
+- __ZNSt12length_errorC1B8ne180100EPKc
+- __ZNSt12out_of_rangeC1B8ne180100EPKc
+- __ZNSt3__110shared_ptrI13RTKitFirmwareEaSB8ne180100IS1_NS_14default_deleteIS1_EEvEERS2_ONS_10unique_ptrIT_T0_EE
+- __ZNSt3__110shared_ptrI16RoseCapabilitiesEC2B8ne180100IS1_vEEPT_
+- __ZNSt3__110unique_ptrI17ACFUDataContainerNS_14default_deleteIS1_EEE5resetB8ne180100EPS1_
+- __ZNSt3__110unique_ptrIN17ACFUDataContainer13DirectDataRefENS_14default_deleteIS2_EEE5resetB8ne180100EPS2_
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeI11ImageType_tN13SERestoreInfo4BLOBEEEPvEENS_22__tree_node_destructorINS_9allocatorIS8_EEEEE5resetB8ne180100EPS8_
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_6vectorIhNS_9allocatorIhEEEENS_10shared_ptrIKN13SERestoreInfo21P73BaseDeliveryObjectEEEEEPvEENS_22__tree_node_destructorINS4_ISE_EEEEE5resetB8ne180100EPSE_
+- __ZNSt3__110unique_ptrINS_6vectorI18ACFUErrorContainerNS_9allocatorIS2_EEEENS_14default_deleteIS5_EEE5resetB8ne180100EPS5_
+- __ZNSt3__112__destroy_atB8ne180100INS_4pairIKNS_6vectorIhNS_9allocatorIhEEEENS_10shared_ptrIKN13SERestoreInfo21P73BaseDeliveryObjectEEEEELi0EEEvPT_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__assign_trivialB8ne180100IPhS7_EEvT_T0_m
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB8ne180100IPKhS8_EEvT_T0_m
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB8ne180100IPcS7_EEvT_T0_m
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne180100Emc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne180100ILi0EEEPKc
+- __ZNSt3__113__tree_removeB8ne180100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__114__split_bufferIN13SERestoreInfo16UpdateTableEntryERNS_9allocatorIS2_EEE5clearB8ne180100Ev
+- __ZNSt3__114__split_bufferIN13SERestoreInfo8ApduBLOBERNS_9allocatorIS2_EEE17__destruct_at_endB8ne180100EPS2_
+- __ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEE17__destruct_at_endB8ne180100EPS6_
+- __ZNSt3__114__split_bufferINS_6vectorItNS_9allocatorItEEEERNS2_IS4_EEE17__destruct_at_endB8ne180100EPS4_
+- __ZNSt3__115allocate_sharedB8ne180100IN13SERestoreInfo13P73DeviceInfoENS_9allocatorIS2_EEJRKNS1_4BLOBEEvEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne180100IN13SERestoreInfo13P73DeviceInfoENS_9allocatorIS2_EEJRKPK14__CFDictionaryEvEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne180100IN13SERestoreInfo16SE310SDeviceInfoENS_9allocatorIS2_EEJRKNS1_4BLOBEEvEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne180100IN13SERestoreInfo16SE310SDeviceInfoENS_9allocatorIS2_EEJRKPK14__CFDictionaryEvEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne180100IN13SERestoreInfo16SN100VDeviceInfoENS_9allocatorIS2_EEJRKNS1_4BLOBEEvEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne180100IN13SERestoreInfo16SN100VDeviceInfoENS_9allocatorIS2_EEJRKPK14__CFDictionaryEvEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne180100IN13SERestoreInfo16SN200VDeviceInfoENS_9allocatorIS2_EEJRKNS1_4BLOBEEvEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne180100IN13SERestoreInfo16SN200VDeviceInfoENS_9allocatorIS2_EEJRKPK14__CFDictionaryEvEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne180100IN13SERestoreInfo16SN210VDeviceInfoENS_9allocatorIS2_EEJRKNS1_4BLOBEEvEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne180100IN13SERestoreInfo16SN210VDeviceInfoENS_9allocatorIS2_EEJRKPK14__CFDictionaryEvEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne180100IN13SERestoreInfo16SN300VDeviceInfoENS_9allocatorIS2_EEJRKNS1_4BLOBEEvEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne180100IN13SERestoreInfo16SN300VDeviceInfoENS_9allocatorIS2_EEJRKPK14__CFDictionaryEvEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne180100IN13SERestoreInfo17IcefallDeviceInfoENS_9allocatorIS2_EEJRKNS1_4BLOBEEvEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne180100IN13SERestoreInfo17IcefallDeviceInfoENS_9allocatorIS2_EEJRKPK14__CFDictionaryEvEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne180100IN13SERestoreInfo17SN300V2DeviceInfoENS_9allocatorIS2_EEJRKNS1_4BLOBEEvEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne180100IN13SERestoreInfo17SN300V2DeviceInfoENS_9allocatorIS2_EEJRKPK14__CFDictionaryEvEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne180100IN13SERestoreInfo21IcefallDeliveryObjectENS_9allocatorIS2_EEJEvEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne180100IN13SERestoreInfo21P73BaseDeliveryObjectENS_9allocatorIS2_EEJEvEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__116__pad_and_outputB8ne180100IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorI18ACFUErrorContainerEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIN13SERestoreInfo16UpdateTableEntryEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIN13SERestoreInfo4BLOBEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIN13SERestoreInfo8ApduBLOBEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIN15ACFURestoreHost8FileListEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorINS_6vectorItNS1_ItEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIPK10__CFStringEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorItEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__shared_weak_count16__release_sharedB8ne180100Ev
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne180100Ev
+- __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo13P73DeviceInfoENS_9allocatorIS2_EEEC2B8ne180100IJRKNS1_4BLOBEES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo13P73DeviceInfoENS_9allocatorIS2_EEEC2B8ne180100IJRKPK14__CFDictionaryES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo16SE310SDeviceInfoENS_9allocatorIS2_EEEC2B8ne180100IJRKNS1_4BLOBEES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo16SE310SDeviceInfoENS_9allocatorIS2_EEEC2B8ne180100IJRKPK14__CFDictionaryES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo16SN100VDeviceInfoENS_9allocatorIS2_EEEC2B8ne180100IJRKNS1_4BLOBEES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo16SN100VDeviceInfoENS_9allocatorIS2_EEEC2B8ne180100IJRKPK14__CFDictionaryES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo16SN200VDeviceInfoENS_9allocatorIS2_EEEC2B8ne180100IJRKNS1_4BLOBEES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo16SN200VDeviceInfoENS_9allocatorIS2_EEEC2B8ne180100IJRKPK14__CFDictionaryES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo16SN210VDeviceInfoENS_9allocatorIS2_EEEC2B8ne180100IJRKNS1_4BLOBEES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo16SN210VDeviceInfoENS_9allocatorIS2_EEEC2B8ne180100IJRKPK14__CFDictionaryES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo16SN300VDeviceInfoENS_9allocatorIS2_EEEC2B8ne180100IJRKNS1_4BLOBEES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo16SN300VDeviceInfoENS_9allocatorIS2_EEEC2B8ne180100IJRKPK14__CFDictionaryES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo17IcefallDeviceInfoENS_9allocatorIS2_EEEC2B8ne180100IJRKNS1_4BLOBEES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo17IcefallDeviceInfoENS_9allocatorIS2_EEEC2B8ne180100IJRKPK14__CFDictionaryES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo17SN300V2DeviceInfoENS_9allocatorIS2_EEEC2B8ne180100IJRKNS1_4BLOBEES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo17SN300V2DeviceInfoENS_9allocatorIS2_EEEC2B8ne180100IJRKPK14__CFDictionaryES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN13SERestoreInfo21IcefallDeliveryObjectENS_9allocatorIS2_EEEC2B8ne180100IJES4_Li0EEES4_DpOT_
+- __ZNSt3__120__throw_length_errorB8ne180100EPKc
+- __ZNSt3__120__throw_out_of_rangeB8ne180100EPKc
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIN13SERestoreInfo10AMS_UOS_IDENS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPvEEEEEclB8ne180100EPSD_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEN12ACFUFTABFile18CachedFileMetadataEEEPvEEEEEclB8ne180100EPSD_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEPKvEEPvEEEEEclB8ne180100EPSD_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIPK10__CFStringNS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPvEEEEEclB8ne180100EPSE_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIjNS_3mapIjjNS_4lessIjEENS1_INS_4pairIKjjEEEEEEEEPvEEEEEclB8ne180100EPSE_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeItN13SERestoreInfo11ImageBinaryEEEPvEEEEEclB8ne180100EPS8_
+- __ZNSt3__124__put_character_sequenceB8ne180100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__127__tree_balance_after_insertB8ne180100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN13SERestoreInfo16UpdateTableEntryEEENS_16reverse_iteratorIPS4_EEEEED2B8ne180100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN13SERestoreInfo8ApduBLOBEEENS_16reverse_iteratorIPS4_EEEEED2B8ne180100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEEENS_16reverse_iteratorIPS7_EEEEED2B8ne180100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorItNS2_ItEEEEEENS_16reverse_iteratorIPS5_EEEEED2B8ne180100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorItNS2_ItEEEEEEPS5_EEED2B8ne180100Ev
+- __ZNSt3__135__uninitialized_allocator_copy_implB8ne180100INS_9allocatorINS_6vectorItNS1_ItEEEEEEPS4_S6_S6_EET2_RT_T0_T1_S7_
+- __ZNSt3__13mapIN13SERestoreInfo10AMS_UOS_IDENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS2_EENS6_INS_4pairIKS2_S8_EEEEEC2B8ne180100ESt16initializer_listISD_ERKSA_
+- __ZNSt3__13mapIPK10__CFStringNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS3_EENS7_INS_4pairIKS3_S9_EEEEE6insertB8ne180100INS_20__map_const_iteratorINS_21__tree_const_iteratorINS_12__value_typeIS3_S9_EEPNS_11__tree_nodeISL_PvEElEEEEEEvT_SS_
+- __ZNSt3__13mapIPK10__CFStringNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS3_EENS7_INS_4pairIKS3_S9_EEEEEC2B8ne180100ERKSG_
+- __ZNSt3__13mapIPK10__CFStringNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS3_EENS7_INS_4pairIKS3_S9_EEEEEC2B8ne180100ESt16initializer_listISE_ERKSB_
+- __ZNSt3__13mapIPK10__CFStringmNS_4lessIS3_EENS_9allocatorINS_4pairIKS3_mEEEEE6insertB8ne180100INS_20__map_const_iteratorINS_21__tree_const_iteratorINS_12__value_typeIS3_mEEPNS_11__tree_nodeISG_PvEElEEEEEEvT_SN_
+- __ZNSt3__13mapIPK10__CFStringmNS_4lessIS3_EENS_9allocatorINS_4pairIKS3_mEEEEEC2B8ne180100ERKSB_
+- __ZNSt3__13mapIjNS0_IjjNS_4lessIjEENS_9allocatorINS_4pairIKjjEEEEEES2_NS3_INS4_IS5_S8_EEEEEC2B8ne180100ESt16initializer_listIS9_ERKS2_
+- __ZNSt3__13mapIjjNS_4lessIjEENS_9allocatorINS_4pairIKjjEEEEE6insertB8ne180100INS_20__map_const_iteratorINS_21__tree_const_iteratorINS_12__value_typeIjjEEPNS_11__tree_nodeISD_PvEElEEEEEEvT_SK_
+- __ZNSt3__13mapIjjNS_4lessIjEENS_9allocatorINS_4pairIKjjEEEEEC2B8ne180100ERKS8_
+- __ZNSt3__13mapIjjNS_4lessIjEENS_9allocatorINS_4pairIKjjEEEEEC2B8ne180100ESt16initializer_listIS6_ERKS2_
+- __ZNSt3__142__uninitialized_allocator_move_if_noexceptB8ne180100INS_9allocatorI18ACFUErrorContainerEENS_16reverse_iteratorIPS2_EES6_S6_EET2_RT_T0_T1_S7_
+- __ZNSt3__142__uninitialized_allocator_move_if_noexceptB8ne180100INS_9allocatorIN13SERestoreInfo16UpdateTableEntryEEENS_16reverse_iteratorIPS3_EES7_S7_EET2_RT_T0_T1_S8_
+- __ZNSt3__142__uninitialized_allocator_move_if_noexceptB8ne180100INS_9allocatorIN13SERestoreInfo8ApduBLOBEEENS_16reverse_iteratorIPS3_EES7_S7_EET2_RT_T0_T1_S8_
+- __ZNSt3__142__uninitialized_allocator_move_if_noexceptB8ne180100INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEENS_16reverse_iteratorIPS6_EESA_SA_EET2_RT_T0_T1_SB_
+- __ZNSt3__142__uninitialized_allocator_move_if_noexceptB8ne180100INS_9allocatorINS_6vectorItNS1_ItEEEEEENS_16reverse_iteratorIPS4_EES8_S8_EET2_RT_T0_T1_S9_
+- __ZNSt3__14pairIKtN13SERestoreInfo11ImageBinaryEEC2B8ne180100IRjRS3_Li0EEEOT_OT0_
+- __ZNSt3__16__treeINS_12__value_typeIPK10__CFStringN15ACFURestoreHost12DemoteConfigEEENS_19__map_value_compareIS4_S7_NS_4lessIS4_EELb1EEENS_9allocatorIS7_EEE18_DetachedTreeCacheD2B8ne180100Ev
+- __ZNSt3__16__treeINS_12__value_typeIPK10__CFStringNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS_19__map_value_compareIS4_SB_NS_4lessIS4_EELb1EEENS8_ISB_EEE18_DetachedTreeCacheD2B8ne180100Ev
+- __ZNSt3__16__treeINS_12__value_typeIPK10__CFStringmEENS_19__map_value_compareIS4_S5_NS_4lessIS4_EELb1EEENS_9allocatorIS5_EEE18_DetachedTreeCacheD2B8ne180100Ev
+- __ZNSt3__16vectorI18ACFUErrorContainerNS_9allocatorIS1_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorI18ACFUErrorContainerNS_9allocatorIS1_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS1_RS3_EE
+- __ZNSt3__16vectorIN13SERestoreInfo16UpdateTableEntryENS_9allocatorIS2_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorIN13SERestoreInfo16UpdateTableEntryENS_9allocatorIS2_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS2_RS4_EE
+- __ZNSt3__16vectorIN13SERestoreInfo4BLOBENS_9allocatorIS2_EEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorIN13SERestoreInfo4BLOBENS_9allocatorIS2_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorIN13SERestoreInfo4BLOBENS_9allocatorIS2_EEE16__init_with_sizeB8ne180100IPS2_S7_EEvT_T0_m
+- __ZNSt3__16vectorIN13SERestoreInfo8ApduBLOBENS_9allocatorIS2_EEE12emplace_backIJS2_EEEvDpOT_
+- __ZNSt3__16vectorIN13SERestoreInfo8ApduBLOBENS_9allocatorIS2_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorIN13SERestoreInfo8ApduBLOBENS_9allocatorIS2_EEE22__base_destruct_at_endB8ne180100EPS2_
+- __ZNSt3__16vectorIN13SERestoreInfo8ApduBLOBENS_9allocatorIS2_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS2_RS4_EE
+- __ZNSt3__16vectorIN15ACFURestoreHost8FileListENS_9allocatorIS2_EEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorIN15ACFURestoreHost8FileListENS_9allocatorIS2_EEE18__assign_with_sizeB8ne180100IPKS2_S8_EEvT_T0_l
+- __ZNSt3__16vectorINS0_ItNS_9allocatorItEEEENS1_IS3_EEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorINS0_ItNS_9allocatorItEEEENS1_IS3_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorINS0_ItNS_9allocatorItEEEENS1_IS3_EEE16__init_with_sizeB8ne180100IPS3_S7_EEvT_T0_m
+- __ZNSt3__16vectorINS0_ItNS_9allocatorItEEEENS1_IS3_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS3_RS4_EE
+- __ZNSt3__16vectorINS0_ItNS_9allocatorItEEEENS1_IS3_EEE7__clearB8ne180100Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS6_RS7_EE
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE7__clearB8ne180100Ev
+- __ZNSt3__16vectorIPK10__CFStringNS_9allocatorIS3_EEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorIPK10__CFStringNS_9allocatorIS3_EEE16__init_with_sizeB8ne180100IPKS3_S9_EEvT_T0_m
+- __ZNSt3__16vectorIPK10__CFStringNS_9allocatorIS3_EEE16__init_with_sizeB8ne180100IPS3_S8_EEvT_T0_m
+- __ZNSt3__16vectorIPK10__CFStringNS_9allocatorIS3_EEE18__assign_with_sizeB8ne180100IPKS3_S9_EEvT_T0_l
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE16__init_with_sizeB8ne180100IPKhS6_EEvT_T0_m
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE16__init_with_sizeB8ne180100IPhS5_EEvT_T0_m
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE18__assign_with_sizeB8ne180100IPKhS6_EEvT_T0_l
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE18__assign_with_sizeB8ne180100IPhS5_EEvT_T0_l
+- __ZNSt3__16vectorIhNS_9allocatorIhEEEC2Em
+- __ZNSt3__16vectorItNS_9allocatorItEEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorItNS_9allocatorItEEE16__init_with_sizeB8ne180100IPtS5_EEvT_T0_m
+- __ZNSt3__19allocatorI18ACFUErrorContainerE9constructB8ne180100IS1_JRKNS_12basic_stringIcNS_11char_traitsIcEENS0_IcEEEERlRP9__CFErrorEEEvPT_DpOT0_
+- __ZNSt3__19allocatorIN13SERestoreInfo16UpdateTableEntryEE7destroyB8ne180100EPS2_
+- __ZNSt3__19allocatorIN13SERestoreInfo16UpdateTableEntryEE9constructB8ne180100IS2_JRS2_EEEvPT_DpOT0_
+- __ZSt28__throw_bad_array_new_lengthB8ne180100v
+- __ZZN11ACFULogging14getLogInstanceEvE4inst
+- __ZZNK13SERestoreInfo18IcefallRestoreInfo11getImageTagEvE10_imageTags
+- __ZZNK13SERestoreInfo18IcefallRestoreInfo11getTagsInBIEvE9_tagsInBI
+- __ZZNK13SERestoreInfo18P73BaseRestoreInfo11getImageTagEvE9_imageTag
+- __ZZNK13SERestoreInfo18P73BaseRestoreInfo11getTagsInBIEvE9_tagsInBI
+- __ssoFrameworkBundle
+- __ssoSymbolTable
+- _kSavageErrorDomain
+- _kSavageTagDeviceProductionMode
+- _kSavageTagDeviceRev
+- _kSavageTagMeasurementB0DevPatch
+- _kSavageTagMeasurementB0DevPatchVT
+- _kSavageTagMeasurementB0ProdPatch
+- _kSavageTagMeasurementB0ProdPatchVT
+- _kSavageTagMeasurementB2DevPatch
+- _kSavageTagMeasurementB2DevPatchVT
+- _kSavageTagMeasurementB2ProdPatch
+- _kSavageTagMeasurementB2ProdPatchVT
+- _kSavageTagMeasurementBADevPatch
+- _kSavageTagMeasurementBADevPatchVT
+- _kSavageTagMeasurementBAProdPatch
+- _kSavageTagMeasurementBAProdPatchVT
+- _kSavageTagMeasurementBEDevPatch
+- _kSavageTagMeasurementBEDevPatchVT
+- _kSavageTagMeasurementBEProdPatch
+- _kSavageTagMeasurementBEProdPatchVT
+- _kSavageTagMeasurementBFDevPatch
+- _kSavageTagMeasurementBFDevPatchVT
+- _kSavageTagMeasurementBFProdPatch
+- _kSavageTagMeasurementBFProdPatchVT
+- _kYonkersDeviceInfo
+- _kYonkersErrorDomain
+- _kYonkersFirmwareData
+- _kYonkersTagDeviceBoardID
+- _kYonkersTagDeviceChipID
+- _kYonkersTagDeviceFabRevision
+- _kYonkersTagDeviceProductionMode
+- _kYonkersTagPatchEpoch
+- _kYonkersTagResponseTicket
+- _logString
+- _makeCFErrorWithDomain
+- _read
+- _write
+CStrings:
++ "%s::%s: no dataref\n"
++ "%s::%s: no digest in build ID (%s)\n"
++ "%s::%s: optional tag %s missing from build identity, skipping\n"
++ "%s::%s: tag %s missing from firmware, skipping\n"
++ "%s::%s: wrong digest type (%s)\n"
++ "AMAuthInstallPlatformCreateDataFromMappedFileURL returned %d"
++ "Ap,SecurePageTableMonitor"
++ "Ap,TrustedExecutionMonitor"
++ "Ap,cL4"
++ "Helsinki_Restore_Host-56.4.13"
++ "_AMAuthInstallApImg4StitchToURL"
++ "_AMAuthInstallSupportCreateDataFromCopiedOrMappedFileURL"
++ "_WriteStreamIntoFile"
++ "createRequest: no digest in build ID"
++ "createRequest: wrong digest type"
++ "excl"
++ "libauthinstall-1049.100.23"
++ "q24@0:8@16"
++ "sptm"
++ "trxm"
+- " beta"
+- "%@: Input Options: %@"
+- "%s [error]: %s \n"
+- "%s [input]: BuildIdentity %s \n"
+- "%s [input]: DeviceInfo %s \n"
+- "%s [input]: FirmwareData %s \n"
+- "%s [input]: Input Options - %s \n"
+- "%s [input]: SEP Digest from ReceiptManifest - %s \n"
+- "%s [input]: SavageMeasurementDict - %s \n"
+- "%s [input]: YonkersMeasurementDict - %s \n"
+- "%s [output]: %s \n"
+- "%s: Device side restoreInfo path \n"
+- "%s: Host side restoreInfo path \n"
+- "%s::%s: Tag '%s' doesn't exist -- moving along\n"
+- ".."
+- "@Savage,Ticket"
+- "@Yonkers,Ticket"
+- "AMAuthInstallApImg4Stitch"
+- "AMAuthInstallPlatformCreateBufferFromNativeFilePath"
+- "AMAuthInstallPlatformOpenFileStreamWithURL"
+- "AMAuthInstallPlatformWriteBufferToNativeFilePath"
+- "AMAuthInstallSupportCreateArrayFromFileURL"
+- "AMAuthInstallSupportCreateDataFromFileURL"
+- "AMAuthInstallSupportCreateDictionaryFromFileURL"
+- "AMAuthInstallSupportWriteDictionarytoFileURL"
+- "AMSupportCreateDataFromFileURL returned %d"
+- "CreateFileData"
+- "CreateFileData: AMSupportPlatformFileURLExists returned FALSE"
+- "CreateFileData: Fail to run AMSupportCreateDataFromFileURL"
+- "CreateFileData: Fail to run AMSupportMakeDirectory with dstFilePathURL"
+- "CreateFileData: Fail to run AMSupportPlatformCopyURLWithAppendedComponent with dstBundleURL"
+- "CreateFileData: Fail to run AMSupportPlatformCopyURLWithAppendedComponent with srcBundleURL"
+- "CreateFileData: Fail to run AMSupportWriteDataToFileURL with dstFilePathURL"
+- "CreateFileData: Missing kSavageBuildIdentityInfoKey"
+- "CreateFileData: Missing kSavageBuildIdentityPathKey"
+- "CreateFileData: Missing kSavageOptionBuildIdentity"
+- "CreateFileData: Missing kSavageOptionSourceBundlePath"
+- "CreateFileData: bundleDataDict missing expected tag"
+- "FabRevision"
+- "Helsinki_Restore_Host-56.2.7"
+- "MeasurementDictPatch"
+- "MeasurementDictPatchVT"
+- "No C string description available."
+- "Savage"
+- "Savage,AccessSecurity"
+- "Savage,AccessSensor"
+- "Savage,AllowOfflineBoot"
+- "Savage,B0-Dev-Patch"
+- "Savage,B0-Dev-PatchVT"
+- "Savage,B0-Prod-Patch"
+- "Savage,B0-Prod-PatchVT"
+- "Savage,B2-Dev-Patch"
+- "Savage,B2-Dev-PatchVT"
+- "Savage,B2-Prod-Patch"
+- "Savage,B2-Prod-PatchVT"
+- "Savage,BA-Dev-Patch"
+- "Savage,BA-Dev-PatchVT"
+- "Savage,BA-Prod-Patch"
+- "Savage,BA-Prod-PatchVT"
+- "Savage,BE-Dev-Patch"
+- "Savage,BE-Dev-PatchVT"
+- "Savage,BE-Prod-Patch"
+- "Savage,BE-Prod-PatchVT"
+- "Savage,BF-Dev-Patch"
+- "Savage,BF-Dev-PatchVT"
+- "Savage,BF-Prod-Patch"
+- "Savage,BF-Prod-PatchVT"
+- "Savage,ChipID"
+- "Savage,DebugStatus"
+- "Savage,FADemote"
+- "Savage,Nonce"
+- "Savage,PatchEpoch"
+- "Savage,ProductionMode"
+- "Savage,Provisioning"
+- "Savage,ReadECKey"
+- "Savage,ReadFWKey"
+- "Savage,ReadGID"
+- "Savage,Revision"
+- "Savage,TempDemote"
+- "Savage,Ticket"
+- "Savage,UID"
+- "Savage,WriteECKey"
+- "Savage,WriteEpoch"
+- "Savage,WriteUID"
+- "SavageCFDictionarySetInteger32"
+- "SavageErrorDomain"
+- "SavageFirmware"
+- "SavagePrivateHelper.cpp"
+- "SavageUpdaterCopyFirmware"
+- "SavageUpdaterCopyFirmware: Cannot allocate memory for outputDict"
+- "SavageUpdaterCopyFirmware: Cannot allocate memory for savageFirmwareData"
+- "SavageUpdaterCopyFirmware: Cannot allocate memory for yonkersFirmwareData"
+- "SavageUpdaterCopyFirmware: Empty Savage firmware file"
+- "SavageUpdaterCopyFirmware: Empty Yonkers firmware file?"
+- "SavageUpdaterCopyFirmware: Missing device info"
+- "SavageUpdaterCopyFirmware: Unable to get kSavageTagMeasurementPatch"
+- "SavageUpdaterCopyFirmware: Unable to get kSavageTagMeasurementPatchVT"
+- "SavageUpdaterCopyFirmware: Unable to get kYonkersPatchMeasurementTag"
+- "SavageUpdaterCopyFirmware: options is NULL"
+- "SavageUpdaterCreateRequest"
+- "SavageUpdaterCreateRequest: BuildIdentity is NULL in input options"
+- "SavageUpdaterCreateRequest: Cannot get DeviceInfo"
+- "SavageUpdaterCreateRequest: CreateMeasurementDict fails for Savage (Old way)."
+- "SavageUpdaterCreateRequest: CreateMeasurementDict fails for Savage."
+- "SavageUpdaterCreateRequest: CreateMeasurementDict fails for Yonkers."
+- "SavageUpdaterCreateRequest: CreateRequestDictForTATSU fails."
+- "SavageUpdaterCreateRequest: CreateYonkersRequestDictForTATSU fails."
+- "SavageUpdaterCreateRequest: ReceiptManifest is missing in input options"
+- "SavageUpdaterCreateRequest: kSavageOptionFirmwareData is NULL in input options"
+- "SavageUpdaterCreateRequest: options is NULL"
+- "SavageUpdaterGetTags"
+- "SavageUpdaterGetTags: Cannot allocate memory for outputDict"
+- "SavageUpdaterGetTags: Cannot allocate memory for tagsInBI"
+- "SavageUpdaterGetTags: Cannot allocate memory for tagsInTssResponse"
+- "SavageUpdaterGetTags: DeviceInfo is NULL?"
+- "SavageUpdaterGetTags: Unable to get kSavageTagMeasurementPatch"
+- "SavageUpdaterGetTags: Unable to get kSavageTagMeasurementPatchVT"
+- "SavageUpdaterGetTags: Unable to get kYonkersPatchMeasurementTag"
+- "SavageUpdaterGetTags: options is NULL"
+- "Unsupported image type %d"
+- "Yonkers,AccessSecurity"
+- "Yonkers,AccessSensor"
+- "Yonkers,AllowOfflineBoot"
+- "Yonkers,BoardID"
+- "Yonkers,ChipID"
+- "Yonkers,DebugStatus"
+- "Yonkers,ECID"
+- "Yonkers,FADemote"
+- "Yonkers,FabRevision"
+- "Yonkers,Nonce"
+- "Yonkers,PatchEpoch"
+- "Yonkers,ProductionMode"
+- "Yonkers,Provisioning"
+- "Yonkers,ReadECKey"
+- "Yonkers,ReadFWKey"
+- "Yonkers,ReadGID"
+- "Yonkers,SysTopPatch%X"
+- "Yonkers,TempDemote"
+- "Yonkers,Ticket"
+- "Yonkers,WriteECID"
+- "Yonkers,WriteECKey"
+- "Yonkers,WriteEpoch"
+- "YonkersDeviceInfo"
+- "YonkersErrorDomain"
+- "YonkersFirmware"
+- "YonkersIsProvisioned"
+- "YonkersIsYmgt"
+- "failed to convert url to file system representation"
+- "failed to create property list: %@"
+- "failed to open file for writing: %s"
+- "failed to stitch img4 file"
+- "fstat failed: %s"
+- "libauthinstall-1033.80.3"
+- "malloc(%d) failed: %s"
+- "open failed: %s"
+- "path: %s"
+- "read failed: %s"
+- "srcFileURL is NULL"
+
+```

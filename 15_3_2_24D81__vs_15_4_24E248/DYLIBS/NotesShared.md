@@ -1,0 +1,1046 @@
+## NotesShared
+
+> `/System/Library/PrivateFrameworks/NotesShared.framework/Versions/A/NotesShared`
+
+```diff
+
+-2994.3.0.0.0
+-  __TEXT.__text: 0x37e818
+-  __TEXT.__auth_stubs: 0x4ee0
+-  __TEXT.__objc_methlist: 0x15b04
+-  __TEXT.__const: 0xb60c
+-  __TEXT.__cstring: 0x1a1cf
+-  __TEXT.__oslogstring: 0x1b3ae
+-  __TEXT.__gcc_except_tab: 0xf8ac
++2998.23.0.0.0
++  __TEXT.__text: 0x366af4
++  __TEXT.__auth_stubs: 0x4d90
++  __TEXT.__objc_methlist: 0x172d8
++  __TEXT.__const: 0xb5e0
++  __TEXT.__cstring: 0x19bff
++  __TEXT.__oslogstring: 0x1af4c
++  __TEXT.__gcc_except_tab: 0xfb58
+   __TEXT.__dlopen_cstrs: 0x2b8
+   __TEXT.__ustring: 0x38e
+-  __TEXT.__swift5_typeref: 0x4077
+-  __TEXT.__constg_swiftt: 0x32fc
++  __TEXT.__constg_swiftt: 0x2e30
++  __TEXT.__swift5_typeref: 0x3e6d
+   __TEXT.__swift5_builtin: 0x1cc
+-  __TEXT.__swift5_reflstr: 0x1f78
+-  __TEXT.__swift5_fieldmd: 0x2b08
++  __TEXT.__swift5_reflstr: 0x1c68
++  __TEXT.__swift5_fieldmd: 0x2944
+   __TEXT.__swift5_assocty: 0x838
+-  __TEXT.__swift5_capture: 0x163c
+-  __TEXT.__swift5_proto: 0x928
+-  __TEXT.__swift5_types: 0x358
+-  __TEXT.__swift5_mpenum: 0x7c
++  __TEXT.__swift5_capture: 0x1518
++  __TEXT.__swift5_proto: 0x968
++  __TEXT.__swift5_types: 0x344
++  __TEXT.__swift_as_entry: 0x1a8
++  __TEXT.__swift_as_ret: 0x1d8
+   __TEXT.__swift5_protos: 0x54
+-  __TEXT.__unwind_info: 0xf578
+-  __TEXT.__eh_frame: 0x9e64
+-  __TEXT.__objc_classname: 0x2125
+-  __TEXT.__objc_methname: 0x34374
+-  __TEXT.__objc_methtype: 0x4ba2
+-  __TEXT.__objc_stubs: 0x25680
+-  __DATA_CONST.__got: 0x2130
+-  __DATA_CONST.__const: 0x1f90
+-  __DATA_CONST.__objc_classlist: 0xa28
++  __TEXT.__swift5_mpenum: 0x74
++  __TEXT.__unwind_info: 0xee80
++  __TEXT.__eh_frame: 0x9334
++  __TEXT.__objc_classname: 0x2124
++  __TEXT.__objc_methname: 0x34128
++  __TEXT.__objc_methtype: 0x4b72
++  __TEXT.__objc_stubs: 0x25740
++  __DATA_CONST.__got: 0x20d0
++  __DATA_CONST.__const: 0x1e30
++  __DATA_CONST.__objc_classlist: 0x9f8
+   __DATA_CONST.__objc_catlist: 0x118
+   __DATA_CONST.__objc_protolist: 0x210
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xbff8
++  __DATA_CONST.__objc_selrefs: 0xc130
+   __DATA_CONST.__objc_protorefs: 0xa8
+   __DATA_CONST.__objc_superrefs: 0x6d0
+   __DATA_CONST.__objc_arraydata: 0x1f0
+-  __AUTH_CONST.__auth_got: 0x2788
+-  __AUTH_CONST.__const: 0x10380
+-  __AUTH_CONST.__cfstring: 0xed20
+-  __AUTH_CONST.__objc_const: 0x23c88
++  __AUTH_CONST.__auth_got: 0x26e0
++  __AUTH_CONST.__const: 0x102b0
++  __AUTH_CONST.__cfstring: 0xee20
++  __AUTH_CONST.__objc_const: 0x20950
+   __AUTH_CONST.__objc_doubleobj: 0x20
+   __AUTH_CONST.__objc_intobj: 0x408
+   __AUTH_CONST.__objc_arrayobj: 0x258
+   __AUTH_CONST.__objc_dictobj: 0x28
+-  __AUTH.__objc_data: 0x65b0
+-  __AUTH.__data: 0x2348
+-  __DATA.__objc_ivar: 0xd20
+-  __DATA.__data: 0x59f8
++  __AUTH.__objc_data: 0x60d8
++  __AUTH.__data: 0x1dc8
++  __DATA.__objc_ivar: 0xd1c
++  __DATA.__data: 0x5818
+   __DATA.__objc_stublist: 0x20
+-  __DATA.__bss: 0x120c0
+-  __DATA.__common: 0x370
++  __DATA.__bss: 0x12830
++  __DATA.__common: 0x330
+   __DATA_DIRTY.__objc_data: 0xa00
+   __DATA_DIRTY.__bss: 0xa0
+   __DATA_DIRTY.__common: 0x8
+   - /System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+-  - /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+   - /System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+-  - /System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox
+   - /System/Library/Frameworks/CloudKit.framework/Versions/A/CloudKit
+   - /System/Library/Frameworks/Combine.framework/Versions/A/Combine
+   - /System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftFileProvider.dylib
+   - /usr/lib/swift/libswiftIOKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 37DF6FB9-158A-338E-8356-11E9ED26D8B0
+-  Functions: 18384
+-  Symbols:   25596
+-  CStrings:  16116
++  UUID: 024EEDA1-0F5B-3562-ACCA-77F4FE54D4FD
++  Functions: 17959
++  Symbols:   25605
++  CStrings:  16026
+ 
+Symbols:
++ +[CKShareParticipant(IC) ic_mentionableNamesCache].cold.1
++ +[ICAppURLUtilities accountFromACAccountIDInURL:context:]
++ +[ICAppURLUtilities defaultCloudFolderForACAccountInURL:context:]
++ +[ICAppURLUtilities defaultCloudFolderURLForACAccountID:]
++ +[ICAppURLUtilities isShowDefaultCloudFolderURL:]
++ +[ICAppURLUtilities isShowRecentlyDeletedFolderURL:]
++ +[ICAppURLUtilities recentlyDeletedFolderForACAccountInURL:context:]
++ +[ICAppURLUtilities recentlyDeletedFolderURLForACAccountID:]
++ +[ICAppURLUtilities urlByAppendingACAccountIDToURL:acAccountID:]
++ +[ICAttachment attachmentSectionSortOrder].cold.1
++ +[ICAttachment isBeingEditedLocallyOnDeviceSet].cold.1
++ +[ICAttachment isTypeUTISupportedForPasswordProtectedNotes:].cold.1
++ +[ICAttachment mergeableWallClockValueKeyPaths].cold.1
++ +[ICAttachment(Management) predicateForAllPaperKitBackedAttachments].cold.1
++ +[ICAttachment(Management) predicateForInlineDrawing].cold.1
++ +[ICAttachment(Management) predicateForOutdatedOrMissingHandwritingSummary].cold.1
++ +[ICAttachmentPreviewImage concurrentFileLoadLimitSemaphore].cold.1
++ +[ICAttachmentPreviewImage fileGlobalQueue].cold.1
++ +[ICAttachmentPreviewImage fileQueueGroup].cold.1
++ +[ICAuthenticationState defaultDeauthenticationTimeInterval].cold.1
++ +[ICAuthenticationState sharedState].cold.1
++ +[ICBackgroundTaskScheduler sharedScheduler].cold.1
++ +[ICCloudConfiguration cloudConfigurationQueue].cold.1
++ +[ICCloudConfiguration(SharedInstance) sharedConfiguration].cold.1
++ +[ICCloudContext metadataZoneID].cold.1
++ +[ICCloudContext notesZoneID].cold.1
++ +[ICCloudContext sharedContext].cold.1
++ +[ICCloudSyncingObject bundleIdentifiersWithReplicaID].cold.1
++ +[ICCloudSyncingObject deleteTemporaryAssetFilesForOperation:].cold.1
++ +[ICCloudSyncingObject deletedByThisDeviceOperationQueue].cold.1
++ +[ICCloudSyncingObject deletedByThisDeviceSet].cold.1
++ +[ICCloudSyncingObject failedToSyncCountsByIdentifier].cold.1
++ +[ICCloudSyncingObject failureCountQueue].cold.1
++ +[ICCloudSyncingObject mergeUnappliedEncryptedRecordsQueue].cold.1
++ +[ICCloudSyncingObject numberOfPushAttemptsToWaitByIdentifier].cold.1
++ +[ICCloudSyncingObject recordSystemFieldsTransformer].cold.1
++ +[ICCloudSyncingObject shareSystemFieldsTransformer].cold.1
++ +[ICCloudSyncingObject temporaryAssetDirectoryURL].cold.1
++ +[ICCloudSyncingObject temporaryAssets].cold.1
++ +[ICCloudSyncingObject versionsByOperationQueue].cold.1
++ +[ICCloudSyncingObject versionsByRecordIDByOperation].cold.1
++ +[ICCompatibilityController sharedController].cold.1
++ +[ICCryptoConvergenceController sharedController].cold.1
++ +[ICDateFilterTypeSelection shortDateFormatter].cold.1
++ +[ICFolder reservedFolderTitles].cold.1
++ +[ICHandoffController sharedController].cold.1
++ +[ICInvitation shareSystemFieldsTransformer].cold.1
++ +[ICLocalAuthentication checkBiometricsPolicyState].cold.1
++ +[ICLocationContext sharedContext].cold.1
++ +[ICMedia(Management) newMediaWithAttachment:forURL:filename:error:]
++ +[ICMedia(Management) newMediaWithAttachment:forURL:filename:error:].cold.1
++ +[ICNoteAllAccountVisibilityTesting sharedInstance].cold.1
++ +[ICNoteContext markOldTrashedNotesForDeletionInContext:].cold.2
++ +[ICNoteContext performBackgroundTaskSerialQueue].cold.1
++ +[ICPasswordReaskController sharedController].cold.1
++ +[ICRandomTextGenerator loadWordsForLanguage:].cold.2
++ +[ICRandomTextGenerator wordsForLanguage:].cold.1
++ +[ICReaderDelegateUtilities sharedInstance].cold.1
++ +[ICSearchQueryOperation nlpParser].cold.1
++ +[ICSearchQueryOperation nlpSerialQueue].cold.1
++ +[ICSearchQueryTokenizer connectorCharacterSet].cold.1
++ +[ICSearchQueryTokenizer spellChecker].cold.1
++ +[ICSearchQueryTokenizer tokenizer].cold.1
++ +[ICSearchRankingStrategySwitch ICSearchRankingStrategyDisplayNames].cold.1
++ +[ICSearchSuggestion orderedDefaultSearchSuggestions].cold.1
++ +[ICShareNotifier shouldShowNotificationForNote:].cold.13
++ +[ICTTMergeableAttributedString allowedTypingAttributes].cold.1
++ +[ICTTParagraphStyle defaultParagraphStyle].cold.1
++ +[ICTableAttachmentProvider defaultBackgroundManagedObjectContext].cold.1
++ +[ICTableAttachmentProvider mergeNotificationRegister].cold.1
++ +[ICTableAttachmentProvider providerMapping].cold.1
++ +[NSUUID(CRDT_Additions) CR_unknown].cold.1
++ +[NSUUID(CRDT_Additions) CR_unserialized].cold.1
++ +[NSUUID(CRDT_Additions) CR_zero].cold.1
++ +[NSUUID(NSUUIDAdditions) TTZero].cold.1
++ +[NotesAssistantMainThreadContext initializeSearchIndexerDataSource].cold.1
++ -[ICAttachment(MediaManagement) addMediaWithURL:filename:updateFileBasedAttributes:]
++ -[ICAttachment(Previews) checkPreviewImagesIntegrity].cold.1
++ -[ICAttachmentPaperBundleModel updateMinimumSupportedVersionIfNeededWithCompletionHandler:].cold.2
++ -[ICBackgroundTranscriptionHelper addAudioTranscriptionTaskToQueueWithIdentifier:]
++ -[ICCloudContext loadZoneFetchState].cold.2
++ -[ICCloudNotificationsController pdsClient].cold.1
++ -[ICNote(AttachmentManagement) addAttachmentWithFileURL:filename:]
++ -[ICNote(AttachmentManagement) addAttachmentWithFileURL:filename:updateFileBasedAttributes:analytics:]
++ -[ICNote(AttachmentManagement) addAttachmentWithFileURL:filename:updateFileBasedAttributes:analytics:].cold.1
++ -[ICNote(AttachmentManagement) addAttachmentWithUTI:withURL:filename:updateFileBasedAttributes:analytics:]
++ -[ICNote(AttachmentManagement) addMediaToAttachment:withBlock:].cold.3
++ -[ICNoteContext persistentContainerQueue].cold.1
++ -[ICNoteContext setupTrashDeletionTimer].cold.1
++ GCC_except_table163
++ GCC_except_table169
++ GCC_except_table221
++ GCC_except_table225
++ GCC_except_table243
++ GCC_except_table312
++ GCC_except_table353
++ GCC_except_table410
++ GCC_except_table552
++ GCC_except_table556
++ GCC_except_table591
++ GCC_except_table592
++ GCC_except_table621
++ GCC_except_table640
++ ICIsNotesURLScheme.cold.1
++ ICPaperKitBackedAttachmentUTTypes.cold.1
++ _AVAssetRequiresInProcessOperationKey
++ _CMTimeRangeMake
++ _GESummarizationClientErrorDomain
++ _ICAudioTranscriptionModelDownloadFinishedNotification
++ _ICAudioTranscriptionModelDownloadStartedNotification
++ _ICNoteAnalyticsAudioRecordingStoppedNotificationDurationKey
++ _ICNoteAnalyticsAudioRecordingStoppedNotificationSessionEndedKey
++ _ICNoteAnalyticsAudioRecordingStoppedNotificationSessionEndedObjectKey
++ _OBJC_CLASS_$_ICTranscription
++ _OBJC_METACLASS_$_ICTranscription
++ __46-[ICAttachmentAudioModel assetWithCompletion:]_block_invoke.67
++ __46-[ICAttachmentAudioModel assetWithCompletion:]_block_invoke.67.cold.1
++ __46-[ICAttachmentAudioModel assetWithCompletion:]_block_invoke.69
++ __46-[ICAttachmentAudioModel assetWithCompletion:]_block_invoke.69.cold.1
++ __53-[ICAttachment(Previews) checkPreviewImagesIntegrity]_block_invoke.1123
++ __63-[ICNote(AttachmentManagement) addMediaToAttachment:withBlock:]_block_invoke.1207
++ __63-[ICNote(AttachmentManagement) addMediaToAttachment:withBlock:]_block_invoke.1207.cold.1
++ __63-[ICNote(AttachmentManagement) addMediaToAttachment:withBlock:]_block_invoke.1207.cold.2
++ __63-[ICNote(AttachmentManagement) addMediaToAttachment:withBlock:]_block_invoke.1208
++ __67+[ICMarkupUtilities createProcessingMarkupViewControllerOutWindow:]_block_invoke.152
++ __CLASS_METHODS_ICTranscription
++ __CLASS_PROPERTIES_ICTranscription
++ __DATA_ICTranscription
++ __DATA__TtC11NotesShared24CallRecordingTranscriber
++ __INSTANCE_METHODS_ICTranscription
++ __IVARS_ICTranscription
++ __METACLASS_DATA_ICTranscription
++ __METACLASS_DATA__TtC11NotesShared24CallRecordingTranscriber
++ __ZL17CGColorCreateRGBAdddd
++ __ZNKSt3__111__copy_implINS_17_ClassicAlgPolicyEEclB8ne190102IP11TopoIDRangeS5_S5_EENS_4pairIT_T1_EES7_T0_S8_
++ __ZNKSt3__111__move_implINS_17_ClassicAlgPolicyEEclB8ne190102IPNS_4pairI13minIdPathDataP13TopoSubstringEES9_S9_EENS4_IT_T1_EESA_T0_SB_
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorI20ICDrawingOutputPointNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorI8_NSRangeNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEENS_9allocatorIS6_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorINS_4pairI13minIdPathDataP13TopoSubstringEENS_9allocatorIS5_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorINS_4pairI6TopoIDS2_EENS_9allocatorIS3_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIP13TopoSubstringNS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIPFvvENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIPN4CRDT18Document_DocObjectENS_9allocatorIS3_EEE20__throw_length_errorB8ne190102Ev
++ __ZNSt12length_errorC1B8ne190102EPKc
++ __ZNSt3__110unique_ptrINS_11__hash_nodeI6TopoIDPvEENS_22__hash_node_destructorINS_9allocatorIS4_EEEEE5resetB8ne190102EPS4_
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeI6TopoIDNS_4pairIP13TopoSubstringS6_EEEEPvEENS_22__hash_node_destructorINS_9allocatorISA_EEEEE5resetB8ne190102EPSA_
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeI6TopoIDP13TopoSubstringEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEE5resetB8ne190102EPS8_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102EPKcm
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102ILi0EEEPKc
++ __ZNSt3__114__split_bufferINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEERNS_9allocatorIS6_EEE17__destruct_at_endB8ne190102EPS6_
++ __ZNSt3__114__split_bufferINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEERNS_9allocatorIS6_EEE17__destruct_at_endB8ne190102EPS6_
++ __ZNSt3__114__split_bufferINS_4pairI6TopoIDS2_EERNS_9allocatorIS3_EEE17__destruct_at_endB8ne190102EPS3_
++ __ZNSt3__116__rotate_forwardB8ne190102INS_17_ClassicAlgPolicyENS_11__wrap_iterIPNS_4pairI13minIdPathDataP13TopoSubstringEEEEEET0_SA_SA_SA_
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorI11TopoIDRangeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorI20ICDrawingOutputPointEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorI8_NSRangeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_4pairI13minIdPathDataP13TopoSubstringEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_4pairI6TopoIDS3_EEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIP13TopoSubstringEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIPFvvEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIPN4CRDT18Document_DocObjectEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIPP13TopoSubstringEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocator_destroyB8ne190102INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEENS_16reverse_iteratorIPS7_EESB_EEvRT_T0_T1_
++ __ZNSt3__120__throw_length_errorB8ne190102EPKc
++ __ZNSt3__120get_temporary_bufferB8ne190102INS_4pairI13minIdPathDataP13TopoSubstringEEEENS1_IPT_lEEl
++ __ZNSt3__124__copy_move_unwrap_itersB8ne190102INS_11__move_implINS_17_ClassicAlgPolicyEEENS_16reverse_iteratorIPNS_4pairI13minIdPathDataP13TopoSubstringEEEESB_NS4_INS_11__wrap_iterISA_EEEELi0EEENS5_IT0_T2_EESF_T1_SG_
++ __ZNSt3__127__insertion_sort_incompleteB8ne190102INS_17_ClassicAlgPolicyERZ60-[ICTTMergeableString deleteSubstrings:withCharacterRanges:]E3$_1P8_NSRangeEEbT1_S6_T0_
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEEPS8_EEED2B8ne190102Ev
++ __ZNSt3__135__uninitialized_allocator_copy_implB8ne190102INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEEPS7_S9_S9_EET2_RT_T0_T1_SA_
++ __ZNSt3__14pairI11TopoIDRangeU8__strongP12NSDictionaryEaSB8ne190102ERKS5_
++ __ZNSt3__14pairI13minIdPathDataP13TopoSubstringE4swapB8ne190102ERS4_
++ __ZNSt3__15dequeIP13TopoSubstringNS_9allocatorIS2_EEE25__maybe_remove_back_spareB8ne190102Eb
++ __ZNSt3__15dequeIP13TopoSubstringNS_9allocatorIS2_EEED2B8ne190102Ev
++ __ZNSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE18__assign_with_sizeB8ne190102IPS1_S6_EEvT_T0_l
++ __ZNSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE18__construct_at_endIPS1_S6_EEvT_T0_m
++ __ZNSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE9push_backB8ne190102ERKS1_
++ __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE18__assign_with_sizeB8ne190102IPS6_SB_EEvT_T0_l
++ __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE22__base_destruct_at_endB8ne190102EPS6_
++ __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEENS_9allocatorIS6_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEENS_9allocatorIS6_EEE22__base_destruct_at_endB8ne190102EPS6_
++ __ZNSt3__16vectorINS_4pairI13minIdPathDataP13TopoSubstringEENS_9allocatorIS5_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorINS_4pairI6TopoIDS2_EENS_9allocatorIS3_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorINS_4pairI6TopoIDS2_EENS_9allocatorIS3_EEE22__base_destruct_at_endB8ne190102EPS3_
++ __ZNSt3__16vectorIP13TopoSubstringNS_9allocatorIS2_EEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorIP13TopoSubstringNS_9allocatorIS2_EEE18__assign_with_sizeB8ne190102IPKS2_S8_EEvT_T0_l
++ __ZNSt3__16vectorIP13TopoSubstringNS_9allocatorIS2_EEE18__assign_with_sizeB8ne190102IPS2_S7_EEvT_T0_l
++ __ZNSt3__17__sort3B8ne190102INS_17_ClassicAlgPolicyERZ60-[ICTTMergeableString deleteSubstrings:withCharacterRanges:]E3$_1P8_NSRangeEEjT1_S6_S6_T0_
++ __ZNSt3__17__sort4B8ne190102INS_17_ClassicAlgPolicyERZ60-[ICTTMergeableString deleteSubstrings:withCharacterRanges:]E3$_1P8_NSRangeEEvT1_S6_S6_S6_T0_
++ __ZSt28__throw_bad_array_new_lengthB8ne190102v
++ ___106-[ICNote(AttachmentManagement) addAttachmentWithUTI:withURL:filename:updateFileBasedAttributes:analytics:]_block_invoke
++ ___106-[ICNote(AttachmentManagement) addAttachmentWithUTI:withURL:filename:updateFileBasedAttributes:analytics:]_block_invoke_2
++ ___45-[ICNote(AirDropDocument) newAirDropDocument]_block_invoke
++ ___block_descriptor_56_ea8_32s40s48r_e5_v8?0l
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ __block_literal_global.1003
++ __block_literal_global.1011
++ __block_literal_global.1121
++ __block_literal_global.1204
++ __block_literal_global.998
++ _associated conformance 11NotesShared19TemporaryTranscriptV10CodingKeys33_C1247E7752C9CB9DCD3007613A84CDA3LLOSHAASQ
++ _associated conformance 11NotesShared19TemporaryTranscriptV10CodingKeys33_C1247E7752C9CB9DCD3007613A84CDA3LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 11NotesShared19TemporaryTranscriptV10CodingKeys33_C1247E7752C9CB9DCD3007613A84CDA3LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11NotesShared20SummarizationManagerC0C5ErrorOSHAASQ
++ _associated conformance 11NotesShared22TranscriptionTaskErrorOSHAASQ
++ _associated conformance SC24SummarizationClientErrorLeV10Foundation021_ObjectiveCBridgeableC0SCs0C0
++ _associated conformance SC24SummarizationClientErrorLeV10Foundation13CustomNSErrorSCs0C0
++ _associated conformance SC24SummarizationClientErrorLeV10Foundation21_BridgedStoredNSErrorSC4CodeAcDP_8RawValueSYs17FixedWidthInteger
++ _associated conformance SC24SummarizationClientErrorLeV10Foundation21_BridgedStoredNSErrorSC4CodeAcDP_AC01_cH8Protocol
++ _associated conformance SC24SummarizationClientErrorLeV10Foundation21_BridgedStoredNSErrorSC4CodeAcDP_SY
++ _associated conformance SC24SummarizationClientErrorLeV10Foundation21_BridgedStoredNSErrorSCAC021_ObjectiveCBridgeableC0
++ _associated conformance SC24SummarizationClientErrorLeV10Foundation21_BridgedStoredNSErrorSCAC06CustomG0
++ _associated conformance SC24SummarizationClientErrorLeV10Foundation21_BridgedStoredNSErrorSCSH
++ _associated conformance SC24SummarizationClientErrorLeVSHSCSQ
++ _associated conformance So24SummarizationClientErrorV10Foundation01_C12CodeProtocolSC01_C4TypeAcDP_AC21_BridgedStoredNSError
++ _associated conformance So24SummarizationClientErrorV10Foundation01_C12CodeProtocolSCSQ
++ _objc_msgSend$accountFromACAccountIDInURL:context:
++ _objc_msgSend$addAttachmentWithFileURL:filename:updateFileBasedAttributes:analytics:
++ _objc_msgSend$addAttachmentWithUTI:withURL:filename:updateFileBasedAttributes:analytics:
++ _objc_msgSend$addAudioTranscriptionTaskToQueueWithAttachmentIdentifier:
++ _objc_msgSend$addMediaWithURL:filename:updateFileBasedAttributes:
++ _objc_msgSend$ic_localeIsArabic
++ _objc_msgSend$initWithName:value:
++ _objc_msgSend$newMediaWithAttachment:forURL:filename:error:
++ _objc_msgSend$urlByAppendingACAccountIDToURL:acAccountID:
++ _swift_asyncLet_begin
++ _swift_asyncLet_finish
++ _swift_asyncLet_get
++ _symbolic SS______t 10Foundation3URLV
++ _symbolic SaySSG13speakerLabels_t
++ _symbolic Say_____Gz_Xx 11NotesShared26TranscriptViewModelSegmentV
++ _symbolic SccySS______pG s5ErrorP
++ _symbolic SccySaySo12AVAssetTrackCG______pG s5ErrorP
++ _symbolic SccyShySSG_____G s5NeverO
++ _symbolic SccySo20ICCloudConfigurationC_____G s5NeverO
++ _symbolic Sdz_Xx
++ _symbolic So10AVURLAssetC
++ _symbolic So11AVAudioTimeC
++ _symbolic So12AVAssetTrackC
++ _symbolic So12AVAssetTrackCSg
++ _symbolic So17NSManagedObjectIDC_____y_____GSgIeggr_ 9Coherence7CapsuleV 8PaperKit0C0V
++ _symbolic So17NSManagedObjectIDC_____y_____GSgIegnr_ 9Coherence7CapsuleV 8PaperKit0C0V
++ _symbolic So20AVMutableCompositionCSg
++ _symbolic So7NSErrorCSgIeyBy_Sg
++ _symbolic _____ 11NotesShared13TranscriptionC
++ _symbolic _____ 11NotesShared19TemporaryTranscriptV
++ _symbolic _____ 11NotesShared19TemporaryTranscriptV10CodingKeys33_C1247E7752C9CB9DCD3007613A84CDA3LLO
++ _symbolic _____ 11NotesShared20SummarizationManagerC0C5ErrorO
++ _symbolic _____ 11NotesShared21TranscriptionTaskTypeO
++ _symbolic _____ 11NotesShared22TranscriptionTaskErrorO
++ _symbolic _____ 11NotesShared24CallRecordingTranscriberC
++ _symbolic _____ 11NotesShared9AudioDataV
++ _symbolic _____ 6Speech0A8AnalyzerC
++ _symbolic _____ SC24SummarizationClientErrorLeV
++ _symbolic _____ So24SummarizationClientErrorV
++ _symbolic _____Sg 11NotesShared19TemporaryTranscriptV
++ _symbolic _____XMT 11NotesShared13TranscriptionC
++ _symbolic _____XMT 11NotesShared24CallRecordingTranscriberC
++ _symbolic _____ySo17NSManagedObjectIDCG 2os21OSAllocatedUnfairLockV
++ _symbolic _____ySo17NSManagedObjectIDC_____G s13ManagedBufferCsRi__rlE So16os_unfair_lock_sV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11NotesShared19TemporaryTranscriptV10CodingKeys33_C1247E7752C9CB9DCD3007613A84CDA3LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11NotesShared19TemporaryTranscriptV10CodingKeys33_C1247E7752C9CB9DCD3007613A84CDA3LLO
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 6Speech0D6ModuleP
++ block_copy_helper.1
++ block_copy_helper.100
++ block_copy_helper.103
++ block_copy_helper.117
++ block_copy_helper.119
++ block_copy_helper.26
++ block_copy_helper.37
++ block_copy_helper.38
++ block_copy_helper.46
++ block_copy_helper.59
++ block_copy_helper.6
++ block_copy_helper.61
++ block_copy_helper.65
++ block_copy_helper.71
++ block_copy_helper.85
++ block_copy_helper.93
++ block_descriptor.102
++ block_descriptor.105
++ block_descriptor.119
++ block_descriptor.121
++ block_descriptor.28
++ block_descriptor.3
++ block_descriptor.40
++ block_descriptor.48
++ block_descriptor.61
++ block_descriptor.67
++ block_descriptor.73
++ block_descriptor.95
++ block_destroy_helper.101
++ block_destroy_helper.104
++ block_destroy_helper.118
++ block_destroy_helper.120
++ block_destroy_helper.2
++ block_destroy_helper.27
++ block_destroy_helper.38
++ block_destroy_helper.39
++ block_destroy_helper.47
++ block_destroy_helper.60
++ block_destroy_helper.62
++ block_destroy_helper.66
++ block_destroy_helper.7
++ block_destroy_helper.72
++ block_destroy_helper.86
++ block_destroy_helper.94
++ objectdestroy.35Tm
++ objectdestroy.59Tm
++ objectdestroy.67Tm
+- +[ICMedia(Management) newMediaWithAttachment:forURL:error:].cold.1
+- -[ICBackgroundTranscriptionHelper addFirstTimeTranscriptionTaskToQueue:attachmentIdentifier:subattachmentIdentifier:]
+- -[ICBackgroundTranscriptionHelper addRetranscriptionTaskToQueue:attachmentIdentifier:]
+- -[ICMentionsController autoCompleteController]
+- -[ICMentionsController setAutoCompleteController:]
+- -[ICNote(AttachmentManagement) addAttachmentWithFileURL:updateFileBasedAttributes:analytics:].cold.1
+- GCC_except_table164
+- GCC_except_table187
+- GCC_except_table230
+- GCC_except_table234
+- GCC_except_table241
+- GCC_except_table284
+- GCC_except_table311
+- GCC_except_table549
+- GCC_except_table554
+- GCC_except_table588
+- GCC_except_table589
+- GCC_except_table616
+- GCC_except_table635
+- OBJC_IVAR_$_ICMentionsController._autoCompleteController
+- _AVAudioSessionCategoryPlayAndRecord
+- _AVAudioSessionModeSpokenAudio
+- _AVEncoderAudioQualityKey
+- _AVFormatIDKey
+- _AVLinearPCMBitDepthKey
+- _AVLinearPCMIsFloatKey
+- _AVNumberOfChannelsKey
+- _AVSampleRateKey
+- _AVURLAssetPreferPreciseDurationAndTimingKey
+- _AudioFormatGetProperty
+- _AudioFormatGetPropertyInfo
+- _CMAudioSampleBufferCreateWithPacketDescriptions
+- _CMTimeMake
+- _NSURLContentTypeKey
+- _OBJC_CLASS_$_AVAsset
+- _OBJC_CLASS_$_AVAssetReaderTrackOutput
+- _OBJC_CLASS_$_AVAssetWriter
+- _OBJC_CLASS_$_AVAssetWriterInput
+- _OBJC_CLASS_$_AVAudioEngine
+- _OBJC_CLASS_$_AVAudioFile
+- _OBJC_CLASS_$_AVAudioSession
+- _OBJC_CLASS_$_ICAudioRecordingManager
+- _OBJC_CLASS_$_ICBackgroundTranscriber
+- _OBJC_CLASS_$__TtC11NotesShared21AudioRecordingManager
+- _OBJC_METACLASS_$_ICAudioRecordingManager
+- _OBJC_METACLASS_$_ICBackgroundTranscriber
+- _OBJC_METACLASS_$__TtC11NotesShared21AudioRecordingManager
+- _OUTLINED_FUNCTION_37
+- __46-[ICAttachmentAudioModel assetWithCompletion:]_block_invoke.61
+- __46-[ICAttachmentAudioModel assetWithCompletion:]_block_invoke.61.cold.1
+- __46-[ICAttachmentAudioModel assetWithCompletion:]_block_invoke.63
+- __46-[ICAttachmentAudioModel assetWithCompletion:]_block_invoke.63.cold.1
+- __53-[ICAttachment(Previews) checkPreviewImagesIntegrity]_block_invoke.1121
+- __63-[ICNote(AttachmentManagement) addMediaToAttachment:withBlock:]_block_invoke.1209.cold.2
+- __63-[ICNote(AttachmentManagement) addMediaToAttachment:withBlock:]_block_invoke.1210
+- __63-[ICNote(AttachmentManagement) addMediaToAttachment:withBlock:]_block_invoke.1211
+- __63-[ICNote(AttachmentManagement) addMediaToAttachment:withBlock:]_block_invoke.1211.cold.1
+- __67+[ICMarkupUtilities createProcessingMarkupViewControllerOutWindow:]_block_invoke.38
+- __CLASS_METHODS_ICAudioRecordingManager
+- __CLASS_METHODS_ICBackgroundTranscriber
+- __CLASS_PROPERTIES_ICAudioRecordingManager
+- __CLASS_PROPERTIES_ICBackgroundTranscriber
+- __DATA_ICAudioRecordingManager
+- __DATA_ICBackgroundTranscriber
+- __DATA__TtC11NotesShared16AudioAssetWriter
+- __DATA__TtC11NotesShared19AudioWaveformSource
+- __DATA__TtC11NotesShared21AudioRecordingManager
+- __DATA__TtC11NotesShared22AudioWaveformGenerator
+- __DATA__TtC11NotesShared25AudioRecordingCoordinator
+- __DATA__TtC11NotesShared28AVAudioEngineRecordingMethod
+- __INSTANCE_METHODS_ICAudioRecordingManager
+- __INSTANCE_METHODS_ICBackgroundTranscriber
+- __INSTANCE_METHODS__TtC11NotesShared21AudioRecordingManager
+- __IVARS_ICBackgroundTranscriber
+- __IVARS__TtC11NotesShared16AudioAssetWriter
+- __IVARS__TtC11NotesShared19AudioWaveformSource
+- __IVARS__TtC11NotesShared21AudioRecordingManager
+- __IVARS__TtC11NotesShared22AudioWaveformGenerator
+- __IVARS__TtC11NotesShared25AudioRecordingCoordinator
+- __IVARS__TtC11NotesShared28AVAudioEngineRecordingMethod
+- __METACLASS_DATA_ICAudioRecordingManager
+- __METACLASS_DATA_ICBackgroundTranscriber
+- __METACLASS_DATA__TtC11NotesShared16AudioAssetWriter
+- __METACLASS_DATA__TtC11NotesShared19AudioWaveformSource
+- __METACLASS_DATA__TtC11NotesShared21AudioRecordingManager
+- __METACLASS_DATA__TtC11NotesShared22AudioWaveformGenerator
+- __METACLASS_DATA__TtC11NotesShared25AudioRecordingCoordinator
+- __METACLASS_DATA__TtC11NotesShared28AVAudioEngineRecordingMethod
+- __ZNKSt3__111__copy_loopINS_17_ClassicAlgPolicyEEclB8ne180100IP11TopoIDRangeS5_S5_EENS_4pairIT_T1_EES7_T0_S8_
+- __ZNKSt3__111__move_loopINS_17_ClassicAlgPolicyEEclB8ne180100IPNS_4pairI13minIdPathDataP13TopoSubstringEES9_S9_EENS4_IT_T1_EESA_T0_SB_
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEENS_16reverse_iteratorIPS7_EEEclB8ne180100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEEEENS_16reverse_iteratorIPS7_EEEclB8ne180100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_4pairI6TopoIDS3_EEEENS_16reverse_iteratorIPS4_EEEclB8ne180100Ev
+- __ZNKSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorI20ICDrawingOutputPointNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorI8_NSRangeNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEENS_9allocatorIS6_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorINS_4pairI13minIdPathDataP13TopoSubstringEENS_9allocatorIS5_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorINS_4pairI6TopoIDS2_EENS_9allocatorIS3_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIP13TopoSubstringNS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIPFvvENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIPN4CRDT18Document_DocObjectENS_9allocatorIS3_EEE20__throw_length_errorB8ne180100Ev
+- __ZNSt12length_errorC1B8ne180100EPKc
+- __ZNSt3__112__hash_tableI6TopoIDNS_4hashIS1_EENS_8equal_toIS1_EENS_9allocatorIS1_EEE5eraseENS_21__hash_const_iteratorIPNS_11__hash_nodeIS1_PvEEEE
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne180100EPKcm
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne180100ILi0EEEPKc
+- __ZNSt3__114__split_bufferINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEERNS_9allocatorIS6_EEE17__destruct_at_endB8ne180100EPS6_
+- __ZNSt3__114__split_bufferINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEERNS_9allocatorIS6_EEE17__destruct_at_endB8ne180100EPS6_
+- __ZNSt3__114__split_bufferINS_4pairI6TopoIDS2_EERNS_9allocatorIS3_EEE17__destruct_at_endB8ne180100EPS3_
+- __ZNSt3__116__rotate_forwardB8ne180100INS_17_ClassicAlgPolicyENS_11__wrap_iterIPNS_4pairI13minIdPathDataP13TopoSubstringEEEEEET0_SA_SA_SA_
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorI11TopoIDRangeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorI20ICDrawingOutputPointEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorI8_NSRangeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorINS_4pairI13minIdPathDataP13TopoSubstringEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorINS_4pairI6TopoIDS3_EEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIP13TopoSubstringEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIPFvvEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIPN4CRDT18Document_DocObjectEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIPP13TopoSubstringEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocator_destroyB8ne180100INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEENS_16reverse_iteratorINS9_IPS7_EEEESC_EEvRT_T0_T1_
+- __ZNSt3__119__allocator_destroyB8ne180100INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEENS_16reverse_iteratorIPS7_EESB_EEvRT_T0_T1_
+- __ZNSt3__119__allocator_destroyB8ne180100INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEEEENS_16reverse_iteratorINS9_IPS7_EEEESC_EEvRT_T0_T1_
+- __ZNSt3__119__allocator_destroyB8ne180100INS_9allocatorINS_4pairI6TopoIDS3_EEEENS_16reverse_iteratorINS6_IPS4_EEEES9_EEvRT_T0_T1_
+- __ZNSt3__120__throw_length_errorB8ne180100EPKc
+- __ZNSt3__120get_temporary_bufferB8ne180100INS_4pairI13minIdPathDataP13TopoSubstringEEEENS1_IPT_lEEl
+- __ZNSt3__121__unwrap_and_dispatchB8ne180100INS_10__overloadINS_11__move_loopINS_17_ClassicAlgPolicyEEENS_14__move_trivialEEENS_16reverse_iteratorIPNS_4pairI13minIdPathDataP13TopoSubstringEEEESE_NS7_INS_11__wrap_iterISD_EEEELi0EEENS8_IT0_T2_EESI_T1_SJ_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeI6TopoIDPvEEEEEclB8ne180100EPS5_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeI6TopoIDNS_4pairIP13TopoSubstringS7_EEEEPvEEEEEclB8ne180100EPSB_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeI6TopoIDP13TopoSubstringEEPvEEEEEclB8ne180100EPS9_
+- __ZNSt3__127__insertion_sort_incompleteB8ne180100INS_17_ClassicAlgPolicyERZ60-[ICTTMergeableString deleteSubstrings:withCharacterRanges:]E3$_1P8_NSRangeEEbT1_S6_T0_
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEENS_16reverse_iteratorIPS8_EEEEED2B8ne180100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEEPS8_EEED2B8ne180100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEEEENS_16reverse_iteratorIPS8_EEEEED2B8ne180100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_4pairI6TopoIDS4_EEEENS_16reverse_iteratorIPS5_EEEEED2B8ne180100Ev
+- __ZNSt3__130__uninitialized_allocator_copyB8ne180100INS_9allocatorI11TopoIDRangeEEPS2_S4_S4_EET2_RT_T0_T1_S5_
+- __ZNSt3__135__uninitialized_allocator_copy_implB8ne180100INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEEPS7_S9_S9_EET2_RT_T0_T1_SA_
+- __ZNSt3__142__uninitialized_allocator_move_if_noexceptB8ne180100INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEENS_16reverse_iteratorIPS7_EESB_SB_EET2_RT_T0_T1_SC_
+- __ZNSt3__142__uninitialized_allocator_move_if_noexceptB8ne180100INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEEEENS_16reverse_iteratorIPS7_EESB_SB_EET2_RT_T0_T1_SC_
+- __ZNSt3__142__uninitialized_allocator_move_if_noexceptB8ne180100INS_9allocatorINS_4pairI6TopoIDS3_EEEENS_16reverse_iteratorIPS4_EES8_S8_EET2_RT_T0_T1_S9_
+- __ZNSt3__14pairI11TopoIDRangeU8__strongP12NSDictionaryEaSB8ne180100ERKS5_
+- __ZNSt3__14pairI13minIdPathDataP13TopoSubstringE4swapB8ne180100ERS4_
+- __ZNSt3__15dequeIP13TopoSubstringNS_9allocatorIS2_EEE25__maybe_remove_back_spareB8ne180100Eb
+- __ZNSt3__15dequeIP13TopoSubstringNS_9allocatorIS2_EEED2B8ne180100Ev
+- __ZNSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE18__assign_with_sizeB8ne180100IPS1_S6_EEvT_T0_l
+- __ZNSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE21__push_back_slow_pathIRKS1_EEPS1_OT_
+- __ZNSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS1_RS3_EE
+- __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE18__assign_with_sizeB8ne180100IPS6_SB_EEvT_T0_l
+- __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE22__base_destruct_at_endB8ne180100EPS6_
+- __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS6_RS8_EE
+- __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE9push_backB8ne180100EOS6_
+- __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEENS_9allocatorIS6_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEENS_9allocatorIS6_EEE22__base_destruct_at_endB8ne180100EPS6_
+- __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEENS_9allocatorIS6_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS6_RS8_EE
+- __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEENS_9allocatorIS6_EEE9push_backB8ne180100EOS6_
+- __ZNSt3__16vectorINS_4pairI13minIdPathDataP13TopoSubstringEENS_9allocatorIS5_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorINS_4pairI13minIdPathDataP13TopoSubstringEENS_9allocatorIS5_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS5_RS7_EE
+- __ZNSt3__16vectorINS_4pairI13minIdPathDataP13TopoSubstringEENS_9allocatorIS5_EEE9push_backB8ne180100EOS5_
+- __ZNSt3__16vectorINS_4pairI6TopoIDS2_EENS_9allocatorIS3_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorINS_4pairI6TopoIDS2_EENS_9allocatorIS3_EEE22__base_destruct_at_endB8ne180100EPS3_
+- __ZNSt3__16vectorINS_4pairI6TopoIDS2_EENS_9allocatorIS3_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS3_RS5_EE
+- __ZNSt3__16vectorINS_4pairI6TopoIDS2_EENS_9allocatorIS3_EEE9push_backB8ne180100EOS3_
+- __ZNSt3__16vectorIP13TopoSubstringNS_9allocatorIS2_EEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorIP13TopoSubstringNS_9allocatorIS2_EEE18__assign_with_sizeB8ne180100IPKS2_S8_EEvT_T0_l
+- __ZNSt3__16vectorIP13TopoSubstringNS_9allocatorIS2_EEE18__assign_with_sizeB8ne180100IPS2_S7_EEvT_T0_l
+- __ZNSt3__16vectorIP13TopoSubstringNS_9allocatorIS2_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS2_RS4_EEPS2_
+- __ZNSt3__17__sort3B8ne180100INS_17_ClassicAlgPolicyERZ60-[ICTTMergeableString deleteSubstrings:withCharacterRanges:]E3$_1P8_NSRangeEEjT1_S6_S6_T0_
+- __ZNSt3__17__sort4B8ne180100INS_17_ClassicAlgPolicyERZ60-[ICTTMergeableString deleteSubstrings:withCharacterRanges:]E3$_1P8_NSRangeEEvT1_S6_S6_S6_T0_
+- __ZSt28__throw_bad_array_new_lengthB8ne180100v
+- ___97-[ICNote(AttachmentManagement) addAttachmentWithUTI:withURL:updateFileBasedAttributes:analytics:]_block_invoke
+- ___97-[ICNote(AttachmentManagement) addAttachmentWithUTI:withURL:updateFileBasedAttributes:analytics:]_block_invoke_2
+- ___block_descriptor_41_e8_32s_e22_v16?0"ICAttachment"8l
+- ___swift_memcpy5_4
+- __block_literal_global.1002
+- __block_literal_global.1010
+- __block_literal_global.1119
+- __block_literal_global.1206
+- __block_literal_global.997
+- __swift_FORCE_LOAD_$_swiftFileProvider
+- __swift_FORCE_LOAD_$_swiftFileProvider_$_NotesShared
+- _associated conformance 11NotesShared21AudioRecordingManagerC7Combine16ObservableObjectAA0H19WillChangePublisherAdEP_AD0K0
+- _associated conformance 11NotesShared25AudioRecordingCoordinatorC7Combine16ObservableObjectAA0H19WillChangePublisherAdEP_AD0K0
+- _associated conformance 11NotesShared28AVAudioEngineRecordingMethodC7Combine16ObservableObjectAA0I19WillChangePublisherAdEP_AD0L0
+- _keypath_hashTm
+- _mach_absolute_time
+- _mach_timebase_info
+- _objc_msgSend$addFirstTimeTranscriptionTaskToQueueWithMediaURL:attachmentIdentifier:subattachmentIdentifier:
+- _objc_msgSend$addRetranscriptionTaskToQueueWithSubattachmentAndMediaInfo:attachmentIdentifier:
+- _objc_msgSend$localeIsArabic
+- _swift_deletedAsyncMethodErrorTu
+- _swift_unknownObjectWeakDestroy
+- _swift_unknownObjectWeakInit
+- _swift_unknownObjectWeakLoadStrong
+- _symbolic $s7Combine16ObservableObjectP
+- _symbolic IeghH_SgIeghg_
+- _symbolic SDySo17NSManagedObjectIDC_____G 10Foundation3URLV
+- _symbolic SS13syntaxSummary_SSSg7summaryAB5prosetSg
+- _symbolic SS3key______t 11NotesShared15ArgumentDecoderC10ParametersV
+- _symbolic SS______t 11NotesShared15ArgumentDecoderC10ParametersV
+- _symbolic SaySfG
+- _symbolic SaySo16AVAudioPCMBufferCG
+- _symbolic SaySo17NSManagedObjectIDCG
+- _symbolic Say_____G 11NotesShared22AudioWaveformGeneratorC6SampleV
+- _symbolic Say_____G So17CMSampleBufferRefa9CoreMediaE5FlagsV
+- _symbolic ScCyyt______pG s5ErrorP
+- _symbolic ScSy_____G 11NotesShared9AudioDataO
+- _symbolic ScsySaySfG______pG s5ErrorP
+- _symbolic Sf
+- _symbolic So11AVAudioFileC
+- _symbolic So11AVAudioTimeCSg
+- _symbolic So13AVAssetWriterC
+- _symbolic So13AVAudioEngineC
+- _symbolic So16AVAudioPCMBufferCSg
+- _symbolic So16AVAudioPCMBufferC_So0A4TimeCt
+- _symbolic So17NSManagedObjectIDC3key______5valuet 10Foundation3URLV
+- _symbolic So17NSManagedObjectIDC______t 10Foundation3URLV
+- _symbolic So18AVAssetWriterInputC
+- _symbolic _____ 11NotesShared15ArgumentDecoderC23ParametersParsingStates33_9C220BC25E60CBEBF3522D63F6F5A78FLLO
+- _symbolic _____ 11NotesShared16AudioAssetWriterC
+- _symbolic _____ 11NotesShared16AudioAssetWriterC5ErrorO
+- _symbolic _____ 11NotesShared16AudioAssetWriterC5StateO
+- _symbolic _____ 11NotesShared19AudioWaveformSourceC
+- _symbolic _____ 11NotesShared19AudioWaveformSourceC5ErrorO
+- _symbolic _____ 11NotesShared21AudioRecordingManagerC
+- _symbolic _____ 11NotesShared21BackgroundTranscriberC
+- _symbolic _____ 11NotesShared22AudioWaveformGeneratorC
+- _symbolic _____ 11NotesShared22AudioWaveformGeneratorC6SampleV
+- _symbolic _____ 11NotesShared25AudioRecordingCoordinatorC
+- _symbolic _____ 11NotesShared25__ICAudioRecordingManagerC
+- _symbolic _____ 11NotesShared28AVAudioEngineRecordingMethodC
+- _symbolic _____ 11NotesShared9AudioDataO
+- _symbolic _____ 7Combine25ObservableObjectPublisherC
+- _symbolic _____Sg 11NotesShared16AudioAssetWriterC
+- _symbolic _____Sg 11NotesShared21AudioRecordingManagerC
+- _symbolic _____Sg 11NotesShared9AudioDataO
+- _symbolic _____Sg 22UniformTypeIdentifiers6UTTypeV
+- _symbolic _____Sg 7Combine14AnyCancellableC
+- _symbolic _____Sg So11CMTimeRangea
+- _symbolic _____SgXw 11NotesShared21BackgroundTranscriberC
+- _symbolic _____XMo 11NotesShared25__ICAudioRecordingManagerC
+- _symbolic ______pSg s5ErrorP
+- _symbolic _____ySSG 2os21OSAllocatedUnfairLockV
+- _symbolic _____ySS_____G s13ManagedBufferCsRi__rlE So16os_unfair_lock_sV
+- _symbolic _____ySaySfGG 7Combine9PublishedV
+- _symbolic _____ySaySfG_G 7Combine9PublishedV9PublisherV
+- _symbolic _____ySaySfG______p_G Scs12ContinuationV s5ErrorP
+- _symbolic _____ySaySfG______p_G Scs8IteratorV s5ErrorP
+- _symbolic _____ySaySfG______p__G Scs12ContinuationV11YieldResultO s5ErrorP
+- _symbolic _____ySaySfG______p__G Scs12ContinuationV15BufferingPolicyO s5ErrorP
+- _symbolic _____ySdG 7Combine9PublishedV
+- _symbolic _____ySd_G 7Combine9PublishedV9PublisherV
+- _symbolic _____ySfG s23_ContiguousArrayStorageC
+- _symbolic _____ySo11AVAudioTimeCSgG 7Combine9PublishedV
+- _symbolic _____ySo11AVAudioTimeCSg_G 7Combine9PublishedV9PublisherV
+- _symbolic _____ySo17NSManagedObjectIDC_____G s18_DictionaryStorageC 10Foundation3URLV
+- _symbolic _____ySo17NSManagedObjectIDC______tG s23_ContiguousArrayStorageC 10Foundation3URLV
+- _symbolic _____y_____G 7Combine9PublishedV 11NotesShared14RecordingStateO
+- _symbolic _____y_____G 9Coherence14SharedTagged_3V 8PaperKit0cD4PageV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 11NotesShared22AudioWaveformGeneratorC6SampleV
+- _symbolic _____y_____SgG 7Combine9PublishedV 11NotesShared21AudioRecordingManagerC
+- _symbolic _____y_____Sg_G 7Combine9PublishedV9PublisherV 11NotesShared21AudioRecordingManagerC
+- _symbolic _____y______G 7Combine9PublishedV9PublisherV 11NotesShared14RecordingStateO
+- _symbolic _____y______G ScS12ContinuationV 11NotesShared9AudioDataO
+- _symbolic _____y______G ScS8IteratorV 11NotesShared9AudioDataO
+- _symbolic _____y______GSg ScS12ContinuationV 11NotesShared9AudioDataO
+- _symbolic _____y_______G ScS12ContinuationV11YieldResultO 11NotesShared9AudioDataO
+- _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 11NotesShared9AudioDataO
+- _symbolic _____y_______GSg ScS12ContinuationV11YieldResultO 11NotesShared9AudioDataO
+- _symbolic _____y______pG s23_ContiguousArrayStorageC 6Speech14ModuleProtocolP
+- _symbolic ytSgIeAgHr_
+- _vDSP_maxv
+- _vDSP_vabs
+- block_copy_helper.102
+- block_copy_helper.115
+- block_copy_helper.123
+- block_copy_helper.131
+- block_copy_helper.137
+- block_copy_helper.145
+- block_copy_helper.35
+- block_copy_helper.44
+- block_copy_helper.47
+- block_copy_helper.57
+- block_copy_helper.63
+- block_copy_helper.75
+- block_descriptor.1
+- block_descriptor.104
+- block_descriptor.117
+- block_descriptor.125
+- block_descriptor.133
+- block_descriptor.139
+- block_descriptor.147
+- block_descriptor.37
+- block_descriptor.38
+- block_descriptor.46
+- block_descriptor.49
+- block_descriptor.59
+- block_descriptor.6
+- block_descriptor.62
+- block_descriptor.64
+- block_descriptor.65
+- block_descriptor.7
+- block_descriptor.77
+- block_destroy_helper.103
+- block_destroy_helper.116
+- block_destroy_helper.124
+- block_destroy_helper.132
+- block_destroy_helper.138
+- block_destroy_helper.146
+- block_destroy_helper.36
+- block_destroy_helper.45
+- block_destroy_helper.48
+- block_destroy_helper.58
+- block_destroy_helper.64
+- block_destroy_helper.76
+- objectdestroy.108Tm
+- objectdestroy.27Tm
+- objectdestroy.51Tm
+CStrings:
++ "+[ICMedia(Management) newMediaWithAttachment:forURL:filename:error:]"
++ "/AppleInternal/Library/BuildRoots/656826c2-0194-11f0-9fc9-122ba06eff56/Library/Caches/com.apple.xbs/Sources/NotesFramework/Ironcade/Shared/CloudKit/ICCloudContext.m"
++ "/AppleInternal/Library/BuildRoots/656826c2-0194-11f0-9fc9-122ba06eff56/Library/Caches/com.apple.xbs/Sources/NotesFramework/Ironcade/Shared/CoreData/AttachmentModel/ICAttachmentDrawingModel.m"
++ "/AppleInternal/Library/BuildRoots/656826c2-0194-11f0-9fc9-122ba06eff56/Library/Caches/com.apple.xbs/Sources/NotesFramework/Ironcade/Shared/CoreData/ICAccount.m"
++ "/AppleInternal/Library/BuildRoots/656826c2-0194-11f0-9fc9-122ba06eff56/Library/Caches/com.apple.xbs/Sources/NotesFramework/Source/Shared/protobuf-lite/airdrop-document.pb.cc"
++ "/AppleInternal/Library/BuildRoots/656826c2-0194-11f0-9fc9-122ba06eff56/Library/Caches/com.apple.xbs/Sources/NotesFramework/Source/Shared/protobuf-lite/crframework.pb.cc"
++ "/AppleInternal/Library/BuildRoots/656826c2-0194-11f0-9fc9-122ba06eff56/Library/Caches/com.apple.xbs/Sources/NotesFramework/Source/Shared/protobuf-lite/drawing.pb.cc"
++ "/AppleInternal/Library/BuildRoots/656826c2-0194-11f0-9fc9-122ba06eff56/Library/Caches/com.apple.xbs/Sources/NotesFramework/Source/Shared/protobuf-lite/google/protobuf/io/coded_stream.cc"
++ "/AppleInternal/Library/BuildRoots/656826c2-0194-11f0-9fc9-122ba06eff56/Library/Caches/com.apple.xbs/Sources/NotesFramework/Source/Shared/protobuf-lite/google/protobuf/io/zero_copy_stream.cc"
++ "/AppleInternal/Library/BuildRoots/656826c2-0194-11f0-9fc9-122ba06eff56/Library/Caches/com.apple.xbs/Sources/NotesFramework/Source/Shared/protobuf-lite/google/protobuf/io/zero_copy_stream_impl_lite.cc"
++ "/AppleInternal/Library/BuildRoots/656826c2-0194-11f0-9fc9-122ba06eff56/Library/Caches/com.apple.xbs/Sources/NotesFramework/Source/Shared/protobuf-lite/google/protobuf/message_lite.cc"
++ "/AppleInternal/Library/BuildRoots/656826c2-0194-11f0-9fc9-122ba06eff56/Library/Caches/com.apple.xbs/Sources/NotesFramework/Source/Shared/protobuf-lite/google/protobuf/repeated_field.h"
++ "/AppleInternal/Library/BuildRoots/656826c2-0194-11f0-9fc9-122ba06eff56/Library/Caches/com.apple.xbs/Sources/NotesFramework/Source/Shared/protobuf-lite/google/protobuf/stubs/common.cc"
++ "/AppleInternal/Library/BuildRoots/656826c2-0194-11f0-9fc9-122ba06eff56/Library/Caches/com.apple.xbs/Sources/NotesFramework/Source/Shared/protobuf-lite/google/protobuf/wire_format_lite.cc"
++ "/AppleInternal/Library/BuildRoots/656826c2-0194-11f0-9fc9-122ba06eff56/Library/Caches/com.apple.xbs/Sources/NotesFramework/Source/Shared/protobuf-lite/peernetworking.pb.cc"
++ "/AppleInternal/Library/BuildRoots/656826c2-0194-11f0-9fc9-122ba06eff56/Library/Caches/com.apple.xbs/Sources/NotesFramework/Source/Shared/protobuf-lite/topotext.pb.cc"
++ "/AppleInternal/Library/BuildRoots/656826c2-0194-11f0-9fc9-122ba06eff56/Library/Caches/com.apple.xbs/Sources/NotesFramework/Source/Shared/protobuf-lite/versioned-document.pb.cc"
++ "Cannot save cached biometrics policy state {error: %@}"
++ "Couldn’t Summarize Audio"
++ "Failed to encode and save temporary transcript: %@"
++ "ICAudioTranscriptionModelDownloadFinishedNotification"
++ "ICAudioTranscriptionModelDownloadStartedNotification"
++ "ICNoteAnalyticsAudioRecordingStoppedNotificationDurationKey"
++ "ICNoteAnalyticsAudioRecordingStoppedNotificationSessionEndedKey"
++ "ICNoteAnalyticsAudioRecordingStoppedNotificationSessionEndedObjectKey"
++ "ICTranscription"
++ "Recording summarization is temporarily restricted"
++ "T@\"ICTranscription\",N,&"
++ "The transcription cannot be summarized."
++ "_TtC11NotesShared24CallRecordingTranscriber"
++ "acAccountID"
++ "accountFromACAccountIDInURL:context:"
++ "accountID != ((void*)0)"
++ "addAttachmentWithFileURL:filename:"
++ "addAttachmentWithFileURL:filename:updateFileBasedAttributes:analytics:"
++ "addAttachmentWithUTI:withURL:filename:updateFileBasedAttributes:analytics:"
++ "addAudioTranscriptionTaskToQueueWithAttachmentIdentifier:"
++ "addAudioTranscriptionTaskToQueueWithIdentifier:"
++ "addMediaWithURL:filename:updateFileBasedAttributes:"
++ "call transcription failed: %@"
++ "called checkpoint task"
++ "checked for temp transcript and there was none: %@"
++ "checkedDeviceInfo != ((void*)0)"
++ "checking for temp transcript: %@"
++ "checkpointing"
++ "cleared temporary transcript"
++ "compositionWithURLAssetInitializationOptions:"
++ "could not fetch region code for ASR model download in locale: %s"
++ "could not save transcript: %@"
++ "defaultCloudFolderForACAccountInURL:context:"
++ "defaultCloudFolderURLForACAccountID:"
++ "done making speech analyzer sequences"
++ "entering checkpoint task"
++ "exclamationmark.shield.fill"
++ "failed to decode temporary transcript for attachment: %@: %s"
++ "fetchAssetWithConfig:clientIdentifier:progress:completion:"
++ "finishing up call transcription"
++ "generalASRLanguageForLocale:"
++ "ic_localeIsArabic"
++ "initWithName:value:"
++ "isShowDefaultCloudFolderURL:"
++ "isShowRecentlyDeletedFolderURL:"
++ "making speech analyzer sequences"
++ "newMediaWithAttachment:forURL:filename:error:"
++ "no attachment found for ID %@ while attempting transcription"
++ "offline audio transcription failed: %@"
++ "queryStringResult != ((void*)0)"
++ "recentlyDeletedFolderForACAccountInURL:context:"
++ "recentlyDeletedFolderURLForACAccountID:"
++ "record != ((void*)0)"
++ "saved temporary transcript"
++ "self.identifier != ((void*)0)"
++ "set needs transcription to false"
++ "setTemporaryTranscriptData:"
++ "setTimeRange:"
++ "showDefaultCloudFolder"
++ "showRecentlyDeletedFolder"
++ "successfully checkpointed transcript for attachmentID: %@ localTime: %f remote: %f"
++ "successfully retrieved checkpointed transcript: localTime: %s"
++ "supportsOnDeviceSummary"
++ "temporaryTranscriptData"
++ "unable to queue audio transcription task: %@"
++ "unable to queue call transcription task: %@"
++ "urlByAppendingACAccountIDToURL:acAccountID:"
++ "urlString != ((void*)0)"
++ "urlString == ((void*)0)"
++ "{Document=\"_vptr$MessageLite\"^^?\"_unknown_fields_\"{basic_string<char, std::char_traits<char>, std::allocator<char>>=\"__r_\"{__compressed_pair<std::basic_string<char>::__rep, std::allocator<char>>=\"__value_\"(__rep=\"__s\"{__short=\"__data_\"[23c]\"__padding_\"[0C]\"__size_\"b7\"__is_long_\"b1}\"__l\"{__long=\"__data_\"*\"__size_\"Q\"__cap_\"b63\"__is_long_\"b1})}}\"_has_bits_\"[1I]\"_cached_size_\"i\"notedocument_\"^{NoteDocument}\"legacynotedocument_\"^{LegacyNoteDocument}}"
++ "{basic_string<char, std::char_traits<char>, std::allocator<char>>={__compressed_pair<std::basic_string<char>::__rep, std::allocator<char>>=(__rep={__short=[23c][0C]b7b1}{__long=*Qb63b1})}}16@0:8"
+- "+[ICMedia(Management) newMediaWithAttachment:forURL:error:]"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/NotesFramework/Ironcade/Shared/CloudKit/ICCloudContext.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/NotesFramework/Ironcade/Shared/CoreData/AttachmentModel/ICAttachmentDrawingModel.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/NotesFramework/Ironcade/Shared/CoreData/ICAccount.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/NotesFramework/Source/Shared/protobuf-lite/airdrop-document.pb.cc"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/NotesFramework/Source/Shared/protobuf-lite/crframework.pb.cc"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/NotesFramework/Source/Shared/protobuf-lite/drawing.pb.cc"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/NotesFramework/Source/Shared/protobuf-lite/google/protobuf/io/coded_stream.cc"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/NotesFramework/Source/Shared/protobuf-lite/google/protobuf/io/zero_copy_stream.cc"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/NotesFramework/Source/Shared/protobuf-lite/google/protobuf/io/zero_copy_stream_impl_lite.cc"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/NotesFramework/Source/Shared/protobuf-lite/google/protobuf/message_lite.cc"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/NotesFramework/Source/Shared/protobuf-lite/google/protobuf/repeated_field.h"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/NotesFramework/Source/Shared/protobuf-lite/google/protobuf/stubs/common.cc"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/NotesFramework/Source/Shared/protobuf-lite/google/protobuf/wire_format_lite.cc"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/NotesFramework/Source/Shared/protobuf-lite/peernetworking.pb.cc"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/NotesFramework/Source/Shared/protobuf-lite/topotext.pb.cc"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/NotesFramework/Source/Shared/protobuf-lite/versioned-document.pb.cc"
+- "Added call transcription task to queue"
+- "Added retranscription task to queue"
+- "Added transcription task to queue"
+- "Already started. Not generating waveform again."
+- "AudioWaveformSource: AVAssetReader failed to start with error: %@"
+- "AudioWaveformSource: Can't add AVAssetReaderOutput"
+- "AudioWaveformSource: Failed to convert buffer"
+- "AudioWaveformSource: Failed to convert buffer: %@"
+- "AudioWaveformSource: Failed to create AVAudioConverter from %@ to standard format with sample rate: %f; will continue without sample rate conversion"
+- "AudioWaveformSource: Source asset has no audio tracks"
+- "Can't construct Array with count < 0"
+- "Division by zero"
+- "Division results in an overflow"
+- "Failed to append sample buffer: %@"
+- "Failed to finish writing audio file: %@"
+- "Failed to generate waveform: %@"
+- "Failed to start writing asset: %@"
+- "ICAudioRecordingManager"
+- "ICBackgroundTranscriber"
+- "Insufficient space allocated to copy string contents"
+- "NotesShared.AudioRecordingManager"
+- "Recording error: %@"
+- "Recording task finished {subattachment: %s, url: %s}"
+- "Recording task starting {subattachment: %s, url: %s}"
+- "Swift/Array.swift"
+- "Swift/ContiguousArrayBuffer.swift"
+- "Swift/IntegerTypes.swift"
+- "Swift/StringTesting.swift"
+- "Swift/StringUTF8View.swift"
+- "Swift/UnsafeBufferPointer.swift"
+- "Swift/UnsafePointer.swift"
+- "Swift/UnsafeRawPointer.swift"
+- "T@\"ICAttachment\",N,R"
+- "T@\"ICAutoCompleteSuggestionsViewController\",&,N,V_autoCompleteController"
+- "T@\"ICBackgroundTranscriber\",N,&"
+- "Transcription error: %@"
+- "Unexpectedly found nil while unwrapping an Optional value"
+- "UnsafeMutableBufferPointer with negative count"
+- "UnsafeMutablePointer.initialize overlapping range"
+- "UnsafeMutablePointer.initialize with negative count"
+- "UnsafeMutablePointer.moveInitialize with negative count"
+- "UnsafeMutableRawPointer.initializeMemory overlapping range"
+- "_TtC11NotesShared16AudioAssetWriter"
+- "_TtC11NotesShared19AudioWaveformSource"
+- "_TtC11NotesShared21AudioRecordingManager"
+- "_TtC11NotesShared22AudioWaveformGenerator"
+- "_TtC11NotesShared25AudioRecordingCoordinator"
+- "_TtC11NotesShared28AVAudioEngineRecordingMethod"
+- "_autoCompleteController"
+- "_currentRecordingDuration"
+- "_currentRecordingManager"
+- "_generatedSamples"
+- "_recordedSamples"
+- "_recordingStartTime"
+- "_recordingState"
+- "_samples"
+- "_started"
+- "_totalRecordingDuration"
+- "accountID != ((void *)0)"
+- "addFirstTimeTranscriptionTaskToQueue:attachmentIdentifier:subattachmentIdentifier:"
+- "addFirstTimeTranscriptionTaskToQueueWithMediaURL:attachmentIdentifier:subattachmentIdentifier:"
+- "addInput:"
+- "addRetranscriptionTaskToQueue:attachmentIdentifier:"
+- "addRetranscriptionTaskToQueueWithSubattachmentAndMediaInfo:attachmentIdentifier:"
+- "appBackgroundOccurred"
+- "appendSampleBuffer:"
+- "assetWriter"
+- "assetWriterInput"
+- "audioBufferList"
+- "audioEngine"
+- "autoCompleteController"
+- "call transcription error: %@"
+- "called save everything on recording attachment"
+- "canAddInput:"
+- "cancelCurrentAudioRecordingSessionWithCompletionHandler:"
+- "channelCount"
+- "checkedDeviceInfo != ((void *)0)"
+- "com.apple.mobilenotes.AudioAssetWriter"
+- "could not background transcribe call recording files %@"
+- "could not background transcribe fragments for attachment: %s."
+- "could not save topline call recording summary"
+- "could not transcribe because we did not find a subattachment"
+- "could not transcribe fragments for attachment: %s %@"
+- "currentAttachment"
+- "did not find attachment to transcribe"
+- "did not find subattachment info for retranscription task"
+- "did not get subattachment info for call transcription task"
+- "failedAttachments"
+- "fetchAssetsForLanguage:taskHint:clientIdentifier:progress:completion:"
+- "finishWritingWithCompletionHandler:"
+- "floatChannelData"
+- "formatDescription"
+- "fragmentInterval"
+- "frameCapacity"
+- "frameCount"
+- "framePosition"
+- "handleResumeForeground"
+- "hostTime"
+- "initForReading:error:"
+- "initStandardFormatWithSampleRate:channels:"
+- "initWithMediaType:outputSettings:sourceFormatHint:"
+- "initWithTrack:outputSettings:"
+- "initWithURL:fileType:error:"
+- "inputFormatForBus:"
+- "inputNode"
+- "installTapOnBus:bufferSize:format:block:"
+- "invalid Collection: less than 'count' elements in collection"
+- "isHostTimeValid"
+- "isPaused"
+- "isReadyForMoreMediaData"
+- "isRecording"
+- "liveTranscriptionCoordinator"
+- "localeIsArabic"
+- "markAsFinished"
+- "no worker context found for background transcription"
+- "noteMultitaskingOccurred"
+- "outputContinuation"
+- "outputFormatForBus:"
+- "paused recording"
+- "prepare"
+- "processingBuffer"
+- "processingFormat"
+- "progressThreshold"
+- "queryStringResult != ((void *)0)"
+- "queuedBuffers"
+- "readIntoBuffer:error:"
+- "readIntoBuffer:frameCount:error:"
+- "record != ((void *)0)"
+- "recordingMethod"
+- "removeTapOnBus:"
+- "samplesPerWaveformSlice"
+- "saving recording on pause"
+- "self.identifier != ((void *)0)"
+- "setActive:withOptions:error:"
+- "setAutoCompleteController:"
+- "setCategory:mode:options:error:"
+- "setExpectsMediaDataInRealTime:"
+- "setFrameLength:"
+- "setMovieFragmentInterval:"
+- "setSampleRateConverterQuality:"
+- "startAndReturnError:"
+- "startSessionAtSourceTime:"
+- "startWriting"
+- "started"
+- "status"
+- "stopped recording"
+- "streamDescription"
+- "successfully generated transcript in background"
+- "successfully saved transcript in background"
+- "supportsGreymatter"
+- "targetSampleRate"
+- "timeObserver"
+- "tracksWithMediaType:"
+- "tried to do background transcription on an attachment with a transcript"
+- "tried to save on Done, but we've already saved"
+- "tried to transcribe an imported call recording and thankfully failed"
+- "trying to background transcribe but identifier was nil"
+- "urlString != ((void *)0)"
+- "urlString == ((void *)0)"
+- "v24@?0@\"AVAudioPCMBuffer\"8@\"AVAudioTime\"16"
+- "waveformBuffer"
+- "{Document=\"_vptr$MessageLite\"^^?\"_unknown_fields_\"{basic_string<char, std::char_traits<char>, std::allocator<char>>=\"__r_\"{__compressed_pair<std::basic_string<char>::__rep, std::allocator<char>>=\"__value_\"{__rep=\"\"(?=\"__s\"{__short=\"__data_\"[23c]\"__padding_\"[0C]\"__size_\"b7\"__is_long_\"b1}\"__l\"{__long=\"__data_\"*\"__size_\"Q\"__cap_\"b63\"__is_long_\"b1}\"__r\"{__raw=\"__words\"[3Q]})}}}\"_has_bits_\"[1I]\"_cached_size_\"i\"notedocument_\"^{NoteDocument}\"legacynotedocument_\"^{LegacyNoteDocument}}"
+- "{basic_string<char, std::char_traits<char>, std::allocator<char>>={__compressed_pair<std::basic_string<char>::__rep, std::allocator<char>>={__rep=(?={__short=[23c][0C]b7b1}{__long=*Qb63b1}{__raw=[3Q]})}}}16@0:8"
+
+```

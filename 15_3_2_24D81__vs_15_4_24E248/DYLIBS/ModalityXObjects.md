@@ -1,0 +1,185 @@
+## ModalityXObjects
+
+> `/System/Library/PrivateFrameworks/ModalityXObjects.framework/Versions/A/ModalityXObjects`
+
+```diff
+
+ 3300.2.1.0.0
+-  __TEXT.__text: 0x98d70
+-  __TEXT.__auth_stubs: 0x720
+-  __TEXT.__objc_methlist: 0x39d8
++  __TEXT.__text: 0x9580c
++  __TEXT.__auth_stubs: 0x700
++  __TEXT.__objc_methlist: 0x39ec
+   __TEXT.__const: 0x5c68
+   __TEXT.__cstring: 0x1d2b
+   __TEXT.__swift5_typeref: 0xbee
+
+   __TEXT.__swift5_fieldmd: 0x137c
+   __TEXT.__swift5_proto: 0x534
+   __TEXT.__swift5_types: 0xf8
+-  __TEXT.__unwind_info: 0x3840
+-  __TEXT.__eh_frame: 0x3ce8
++  __TEXT.__unwind_info: 0x3788
++  __TEXT.__eh_frame: 0x3cb0
+   __TEXT.__objc_classname: 0x3de
+   __TEXT.__objc_methname: 0x4945
+   __TEXT.__objc_methtype: 0x911
+   __TEXT.__objc_stubs: 0x15e0
+   __DATA_CONST.__got: 0x228
+-  __DATA_CONST.__const: 0xf58
++  __DATA_CONST.__const: 0xf98
+   __DATA_CONST.__objc_classlist: 0x178
+   __DATA_CONST.__objc_protolist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x1370
+   __DATA_CONST.__objc_superrefs: 0x158
+   __DATA_CONST.__objc_arraydata: 0x50
+-  __AUTH_CONST.__auth_got: 0x398
++  __AUTH_CONST.__auth_got: 0x388
+   __AUTH_CONST.__const: 0x960
+   __AUTH_CONST.__cfstring: 0x1f00
+-  __AUTH_CONST.__objc_const: 0x5ee0
++  __AUTH_CONST.__objc_const: 0x5ec0
+   __AUTH_CONST.__objc_dictobj: 0xc8
+   __AUTH.__objc_data: 0xeb0
+   __AUTH.__data: 0x2288
+
+   - /usr/lib/swift/libswift_time.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 7C759664-47C0-3BC9-9B34-B2D787D7443A
+-  Functions: 5653
+-  Symbols:   9584
++  UUID: 78AC6355-DA63-36B9-992F-A5DE08F08A41
++  Functions: 5755
++  Symbols:   9621
+   CStrings:  1621
+ 
+Symbols:
++ MXEnumsOptions.cold.1
++ MXModalityxOptions.cold.1
++ MXModalityx_sharedOptions.cold.1
++ MXQss_single_userOptions.cold.1
++ MXSpeech_profile_dataOptions.cold.1
++ _$s16ModalityXObjects0A12XAudioSourceO8allCasesSayACGvpZMV
++ _$s16ModalityXObjects0A12XErrorSourceO8allCasesSayACGvpZMV
++ _$s16ModalityXObjects0A12XInputOriginO8allCasesSayACGvpZMV
++ _$s16ModalityXObjects0A13XBeginRequestV11inputOriginAA0a6XInputF0OvpACTK
++ _$s16ModalityXObjects0A13XBeginRequestV13decodeMessage7decoderyxz_tK21InternalSwiftProtobuf7DecoderRzlFTm
++ _$s16ModalityXObjects0A14XAudioMetadataV11audioSourceAA0acF0OvpACTK
++ _$s16ModalityXObjects0A14XAudioMetadataV5codecAA0A6XCodecOvpACTK
++ _$s16ModalityXObjects0A14XCancelRequestV6reasonAA0A19XCancellationReasonOvpACTK
++ _$s16ModalityXObjects0A15XBeginDictationV11inputOriginAA0a6XInputF0OvpACTK
++ _$s16ModalityXObjects0A15XBeginDictationV12keyboardTypeAA0a14XFieldKeyboardF0OvpACTK
++ _$s16ModalityXObjects0A15XBeginDictationV17keyboardReturnKeyAA0a14XFieldKeyboardfG0OvpACTK
++ _$s16ModalityXObjects0A15XMitigationTypeO8allCasesSayACGvpZMV
++ _$s16ModalityXObjects0A16XProcessingErrorV11errorSourceAA0a6XErrorF0OvpACTK
++ _$s16ModalityXObjects0A16XSessionMetadataV18userInterfaceIdiomAA0a5XUserfG0OvpACTK
++ _$s16ModalityXObjects0A17XRequestMitigatedV14mitigationTypeAA0a11XMitigationF0OvpACTK
++ _$s16ModalityXObjects0A18XFieldKeyboardTypeO8allCasesSayACGvpZMV
++ _$s16ModalityXObjects0A19XCancellationReasonO8allCasesSayACGvpZMV
++ _$s16ModalityXObjects0A19XUserInterfaceIdiomO8allCasesSayACGvpZMV
++ _$s16ModalityXObjects0A21XRecognitionCandidateV13decodeMessage7decoderyxz_tK21InternalSwiftProtobuf7DecoderRzlFTm
++ _$s16ModalityXObjects0A21XRecognitionCandidateV18watermarkDetectionAA0a10XWatermarkF6ResultOvpACTK
++ _$s16ModalityXObjects0A21XRecognitionCandidateV20fingerprintDetectionAA0a12XFingerprintF6ResultOvpACTK
++ _$s16ModalityXObjects0A23XFieldKeyboardReturnKeyO8allCasesSayACGvpZMV
++ _$s16ModalityXObjects0A25XWatermarkDetectionResultO8allCasesSayACGvpZMV
++ _$s16ModalityXObjects0A27XFingerprintDetectionResultO8allCasesSayACGvpZMV
++ _$s16ModalityXObjects0A29XLanguageProfileRecreateCodesO8allCasesSayACGvpZMV
++ _$s16ModalityXObjects0A31XFinalSpeechRecognitionResponseV18watermarkDetectionAA0a10XWatermarkH6ResultOvpACTK
++ _$s16ModalityXObjects0A31XFinalSpeechRecognitionResponseV24langProfileRecreateCodesAA0a9XLanguagehiJ0OvpACTK
++ _$s16ModalityXObjects0A6XCodecO8allCasesSayACGvpZMV
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ10Foundation4DataV_Tt1g5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B12XEntityWordsV_Tt1g5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B13XItnAlignmentV_Tt1g5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B16XChoiceAlignmentV_Tt1g5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B17XCategoryEntitiesV_Tt1g5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B17XRecognitionTokenV_Tt1g5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B18XRecognitionChoiceV_Tt1g5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B21XRepeatedItnAlignmentV_Tt1g5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B23XWordWithPronunciationsV_Tt1g5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B24XRecognitionPhraseTokensV_Tt1g5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B25XSpeechRecognitionFeatureV_Tt1g5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B30XAudioAnalyticsAcousticFeatureV_Tt1g5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B36XRecognitionPhraseTokensAlternativesV_Tt1g5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZSS_Tt1g5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZSf_Tt1g5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZs5Int32V_Tt1g5
++ _$ss20withExtendedLifetimeyq0_x_q0_xq_YKXEtq_YKs5ErrorR_Ri_zRi_0_r1_lF16ModalityXObjects0E21XRecognitionCandidateV13_StorageClass33_75A932E5D6A2D682264742982DE931B5LLC_AHt_s5NeverOSbTg504$s16e12XObjects0A21gh4V13_i10Class33_75klmnopq23LLCAFSbIgggd_AF_AFtSbs5r20OIegnrzr_TR04$s16a12t34A21cd24V2eeoiySbAC_ACtFZSbAC13_e10W36_75ghijklM14LLC_AGt_tXEfU_Tf3nnnpf_nTf1nc_n
++ _OUTLINED_FUNCTION_351
++ _OUTLINED_FUNCTION_352
++ _OUTLINED_FUNCTION_353
++ _OUTLINED_FUNCTION_354
++ _OUTLINED_FUNCTION_355
++ _OUTLINED_FUNCTION_356
++ _OUTLINED_FUNCTION_357
++ _OUTLINED_FUNCTION_358
++ _OUTLINED_FUNCTION_359
++ _OUTLINED_FUNCTION_360
++ _OUTLINED_FUNCTION_361
++ _OUTLINED_FUNCTION_362
++ _OUTLINED_FUNCTION_363
++ _OUTLINED_FUNCTION_364
++ _OUTLINED_FUNCTION_365
++ _OUTLINED_FUNCTION_366
++ _OUTLINED_FUNCTION_367
++ _OUTLINED_FUNCTION_368
++ _OUTLINED_FUNCTION_369
++ _OUTLINED_FUNCTION_370
++ _OUTLINED_FUNCTION_371
++ _OUTLINED_FUNCTION_372
+- $s16ModalityXObjects0A14XAudioMetadataV10isFarFieldSbvM.resume.0Tm
+- $s16ModalityXObjects0A16XAcousticFeatureV13frameDurationSfvM.resume.0Tm
+- $s16ModalityXObjects0A16XSessionMetadataV22dataSharingOptInStatusSbvM.resume.0Tm
+- $s16ModalityXObjects0A17XRecognitionTokenV13addSpaceAfterSbvM.resume.0Tm
+- $s16ModalityXObjects0A17XRecognitionTokenV17startMilliSecondss5Int32VvM.resume.0Tm
+- $s16ModalityXObjects0A17XVoiceTriggerInfoV12triggerScoreSdvM.resume.0Tm
+- $s16ModalityXObjects0A21XLatnnMitigatorResultV9thresholdSdvM.resume.0Tm
+- _$s10Foundation13__DataStorageC15withUnsafeBytes2in5applyxSnySiG_xSWKXEtKlFSb_Tgq5015$s10Foundation4b26V2eeoiySbAC_ACtFZSbSWXEfU_lP2U_SWTf1ncn_n
+- _$s16ModalityXObjects0A11XAudioFrameV04lastD0SbvgTm
+- _$s16ModalityXObjects0A11XAudioFrameV04lastD0SbvsTm
+- _$s16ModalityXObjects0A11XAudioFrameV12hasRequestIDSbvgTm
+- _$s16ModalityXObjects0A13XBeginRequestV14_uniqueStorage33_CBCEF76E48FCDEC1269AFEAD4BBE13E9LLAC01_F5ClassAELLCyFTm
+- _$s16ModalityXObjects0A14XAudioMetadataVSgWOb
+- _$s16ModalityXObjects0A14XCancelRequestV03hasD2IDSbvgTm
+- _$s16ModalityXObjects0A14XCancelRequestV6reasonAA0A19XCancellationReasonOvsTm
+- _$s16ModalityXObjects0A16XAcousticFeatureV13frameDurationSfvsTm
+- _$s16ModalityXObjects0A16XSessionMetadataV11hasLanguageSbvgTm
+- _$s16ModalityXObjects0A16XSessionMetadataV18userInterfaceIdiomAA0a5XUserfG0OvsTm
+- _$s16ModalityXObjects0A17XRecognitionTokenV03hasD4TextSbvgTm
+- _$s16ModalityXObjects0A17XRecognitionTokenV15endMilliSecondss5Int32VvsTm
+- _$s16ModalityXObjects0A17XRecognitionTokenV17startMilliSecondss5Int32VvsTm
+- _$s16ModalityXObjects0A17XRecognitionTokenV18hasEndMilliSecondsSbvgTm
+- _$s16ModalityXObjects0A17XRecognitionTokenV20clearEndMilliSecondsyyFTm
+- _$s16ModalityXObjects0A17XRecognitionTokenV20hasStartMilliSecondsSbvgTm
+- _$s16ModalityXObjects0A17XRecognitionTokenV22clearStartMilliSecondsyyFTm
+- _$s16ModalityXObjects0A17XRecognitionTokenV24silenceStartMilliSecondss5Int32VvsTm
+- _$s16ModalityXObjects0A17XRecognitionTokenV27hasSilenceStartMilliSecondsSbvgTm
+- _$s16ModalityXObjects0A17XRecognitionTokenV29clearSilenceStartMilliSecondsyyFTm
+- _$s16ModalityXObjects0A18XRecognitionResultVSgWObTm
+- _$s16ModalityXObjects0A21XRecognitionCandidateV14_uniqueStorage33_75A932E5D6A2D682264742982DE931B5LLAC01_F5ClassAELLCyFTm
+- _$s16ModalityXObjects0A21XRecognitionCandidateV2eeoiySbAC_ACtFZTm
+- _$s16ModalityXObjects0A26XSpeechProfileBuildRequestV019hasExistingLanguageD0SbvgTm
+- _$s16ModalityXObjects0A26XSpeechProfileBuildRequestV9hasLocaleSbvgTm
+- _$s16ModalityXObjects0A30XStreamingSpeechProfileAddDataV29hasExistingPronunciationCacheSbvgTm
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ10Foundation4DataV_Tgm5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B12XEntityWordsV_Tgm5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B13XItnAlignmentV_Tgm5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B16XChoiceAlignmentV_Tgm5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B17XCategoryEntitiesV_Tgm5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B17XRecognitionTokenV_Tgm5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B18XRecognitionChoiceV_Tgm5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B21XRepeatedItnAlignmentV_Tgm5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B23XWordWithPronunciationsV_Tgm5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B24XRecognitionPhraseTokensV_Tgm5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B25XSpeechRecognitionFeatureV_Tgm5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B30XAudioAnalyticsAcousticFeatureV_Tgm5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ16ModalityXObjects0B36XRecognitionPhraseTokensAlternativesV_Tgm5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZSS_Tgm5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZSf_Tgm5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZs5Int32V_Tgm5
+- _fmod
+- _fmodf
+
+```

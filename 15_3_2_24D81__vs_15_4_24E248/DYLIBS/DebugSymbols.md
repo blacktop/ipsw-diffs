@@ -1,0 +1,1792 @@
+## DebugSymbols
+
+> `/System/Library/PrivateFrameworks/DebugSymbols.framework/Versions/A/DebugSymbols`
+
+```diff
+
+-195.1.0.0.0
+-  __TEXT.__text: 0x3beb8
+-  __TEXT.__auth_stubs: 0xc80
+-  __TEXT.__const: 0xc14
+-  __TEXT.__gcc_except_tab: 0x26a0
+-  __TEXT.__cstring: 0x3b6e
+-  __TEXT.__unwind_info: 0xf08
+-  __TEXT.__objc_classname: 0x1
+-  __DATA_CONST.__got: 0xd0
+-  __DATA_CONST.__const: 0x5b0
++217.0.0.0.0
++  __TEXT.__text: 0x1be30
++  __TEXT.__auth_stubs: 0x1200
++  __TEXT.__init_offsets: 0x4
++  __TEXT.__const: 0x704
++  __TEXT.__gcc_except_tab: 0x1158
++  __TEXT.__cstring: 0x12fa
++  __TEXT.__oslogstring: 0x1b2
++  __TEXT.__constg_swiftt: 0x35c
++  __TEXT.__swift5_typeref: 0x204
++  __TEXT.__swift5_builtin: 0x14
++  __TEXT.__swift5_fieldmd: 0x17c
++  __TEXT.__swift5_types: 0x40
++  __TEXT.__swift5_reflstr: 0x6c
++  __TEXT.__swift5_proto: 0x2c
++  __TEXT.__swift5_capture: 0xe8
++  __TEXT.__swift_as_entry: 0x38
++  __TEXT.__swift_as_ret: 0x2c
++  __TEXT.__unwind_info: 0xb30
++  __TEXT.__eh_frame: 0xef0
++  __TEXT.__objc_methname: 0xc2
++  __DATA_CONST.__got: 0x178
++  __DATA_CONST.__const: 0xf0
++  __DATA_CONST.__objc_classlist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __AUTH_CONST.__auth_got: 0x648
+-  __AUTH_CONST.__const: 0xfd8
+-  __AUTH_CONST.__cfstring: 0x1840
+-  __DATA.__data: 0x211
+-  __DATA.__bss: 0x168
++  __DATA_CONST.__objc_selrefs: 0x30
++  __AUTH_CONST.__auth_got: 0x910
++  __AUTH_CONST.__const: 0xa58
++  __AUTH_CONST.__cfstring: 0x1e0
++  __AUTH_CONST.__objc_const: 0x368
++  __AUTH.__objc_data: 0x50
++  __AUTH.__data: 0x640
++  __DATA.__data: 0x2e8
++  __DATA.__common: 0x48
++  __DATA.__bss: 0x600
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
++  - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
++  - /usr/lib/libAppleArchive.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: E007C9AB-65EF-35B2-947E-E9EC48865726
+-  Functions: 762
+-  Symbols:   1388
+-  CStrings:  798
++  - /usr/lib/libobjc.A.dylib
++  - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftDarwin.dylib
++  - /usr/lib/swift/libswiftDispatch.dylib
++  - /usr/lib/swift/libswiftIOKit.dylib
++  - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftXPC.dylib
++  - /usr/lib/swift/libswift_Builtin_float.dylib
++  - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_errno.dylib
++  - /usr/lib/swift/libswift_math.dylib
++  - /usr/lib/swift/libswift_signal.dylib
++  - /usr/lib/swift/libswift_stdio.dylib
++  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswiftos.dylib
++  - /usr/lib/swift/libswiftsys_time.dylib
++  - /usr/lib/swift/libswiftunistd.dylib
++  UUID: A532245E-6698-384E-82FD-EC1E294BF944
++  Functions: 590
++  Symbols:   850
++  CStrings:  165
+ 
+Symbols:
++ DBGExplicitSearchPathRemove.cold.1
++ DBGExplicitSearchPathRemove.cold.2
++ DBGExplicitSearchPathRemove.cold.3
++ DBGExplicitSearchPathRemove.cold.4
++ DBGExplicitSearchPathRemove.cold.5
++ DBGExplicitSearchPathRemove.cold.6
++ GCC_except_table100
++ GCC_except_table105
++ GCC_except_table106
++ GCC_except_table108
++ GCC_except_table113
++ GCC_except_table116
++ GCC_except_table123
++ GCC_except_table34
++ GCC_except_table49
++ GCC_except_table53
++ GCC_except_table57
++ GCC_except_table79
++ GCC_except_table80
++ GCC_except_table89
++ GCC_except_table91
++ GCC_except_table98
++ _CFArrayRemoveAllValues
++ _CFUUIDCreateFromUUIDBytes
++ _CFUUIDGetUUIDBytes
++ _GLOBAL__sub_I_SpotlightWorker.mm
++ _MergedGlobals.19
++ _OBJC_CLASS_$_NSFileManager
++ _OBJC_CLASS_$_NSProgress
++ _OBJC_CLASS_$_NSPropertyListSerialization
++ _OBJC_CLASS_$_OS_dispatch_queue
++ _OBJC_CLASS_$__TtCs12_SwiftObject
++ _OBJC_METACLASS_$__TtCs12_SwiftObject
++ _OUTLINED_FUNCTION_2
++ _Z13_DBGGetDSFSDBv.cold.1
++ _Z26CreateUUIDsFromFatMachFileR6UnixFDxR10BinaryDatajjRK8ArchSpecR14CFMutableArrayRNSt3__16vectorIS3_NS8_9allocatorIS3_EEEE.cold.1
++ _Z28CreateUUIDFromSkinnyMachFileR6UnixFDxR10BinaryDatajjRK8ArchSpecRS3_.cold.1
++ _Z31DBGStartWatchingOrScanningPathsPKvbbU13block_pointerFvvE.cold.1
++ _Z31DBGStartWatchingOrScanningPathsPKvbbU13block_pointerFvvE.cold.2
++ _Z31DBGStartWatchingOrScanningPathsPKvbbU13block_pointerFvvE.cold.3
++ _Z31DBGStartWatchingOrScanningPathsPKvbbU13block_pointerFvvE.cold.4
++ _Z31DBGStartWatchingOrScanningPathsPKvbbU13block_pointerFvvE.cold.5
++ _Z31DBGStartWatchingOrScanningPathsPKvbbU13block_pointerFvvE.cold.6
++ _ZN6DSFSDB13ScanDirectoryEPKcbU13block_pointerFvvE.cold.1
++ _ZN6DSFSDB14WatchDirectoryEPKcbU13block_pointerFvvE.cold.1
++ __DATA__TtC12DebugSymbols14SymbolSearcher
++ __DATA__TtC12DebugSymbols20SymbolSearchStrategy
++ __DATA__TtC12DebugSymbols28AdjacentSymbolSearchStrategy
++ __DATA__TtC12DebugSymbols29RecursiveSymbolSearchStrategy
++ __DATA__TtC12DebugSymbols29SpotlightSymbolSearchStrategy
++ __DATA__TtC12DebugSymbols30DownloadedSymbolSearchStrategy
++ __IVARS__TtC12DebugSymbols28AdjacentSymbolSearchStrategy
++ __IVARS__TtC12DebugSymbols29RecursiveSymbolSearchStrategy
++ __METACLASS_DATA__TtC12DebugSymbols14SymbolSearcher
++ __METACLASS_DATA__TtC12DebugSymbols20SymbolSearchStrategy
++ __METACLASS_DATA__TtC12DebugSymbols28AdjacentSymbolSearchStrategy
++ __METACLASS_DATA__TtC12DebugSymbols29RecursiveSymbolSearchStrategy
++ __METACLASS_DATA__TtC12DebugSymbols29SpotlightSymbolSearchStrategy
++ __METACLASS_DATA__TtC12DebugSymbols30DownloadedSymbolSearchStrategy
++ __Z13_DBGGetDSFSDBv
++ __Z14_DBGAddDSYMURLPK7__CFURL
++ __Z16ReadUserDefaultsv
++ __Z17_DBGSpotlightStopv
++ __Z22PrepareSpotlightThreadi
++ __Z22SetSpotlightQueryState19SpotlightQueryState
++ __Z24CopyURLFromCachesForUUIDPK10__CFString
++ __Z26CreateUUIDsFromFatMachFileR6UnixFDxR10BinaryDatajjRK8ArchSpecR14CFMutableArrayRNSt3__16vectorIS3_NS8_9allocatorIS3_EEEE
++ __Z28CreateDSYMPathUsingSpotlightPK10__CFString
++ __Z28CreateUUIDFromSkinnyMachFileR6UnixFDxR10BinaryDatajjRK8ArchSpecRS3_
++ __Z31CopyDSYMURLAdjacentToExecutablePK8__CFUUIDPK7__CFURLb
++ __Z31CreateDSYMPathUsingShellCommandPK10__CFStringS1_
++ __Z31DBGStartWatchingOrScanningPathsPKvbbU13block_pointerFvvE
++ __Z32CreateDSYMPathUsingShellCommandsPK10__CFStringPK9__CFArray
++ __Z33CreateDSYMPathUsingFileMappedPathPK10__CFStringPKv
++ __Z33WaitForSpotlightQueryToReachState19SpotlightQueryStatei
++ __Z34CreateDSYMPathUsingFileMappedPathsPK10__CFStringPK9__CFArray
++ __Z34WaitForSpotlightQueryToFinishAsyncU13block_pointerFviE
++ __Z38CreateDSYMPathUsingExplicitSearchPathsPK8__CFUUIDPK9__CFArraybbb
++ __Z38CreateDSYMPathUsingImplicitSearchPathsPK8__CFUUID
++ __Z38WaitForSpotlightQueryToReachStateAsync19SpotlightQueryStateU13block_pointerFviE
++ __Z41CreateDSYMPathUsingShellCommandOrCommandsPK10__CFStringPKv
++ __ZL12_retainBlockPK13__CFAllocatorPKv
++ __ZL13_releaseBlockPK13__CFAllocatorPKv
++ __ZL25_swift_stdlib_malloc_sizePKv
++ __ZN10CFReleaserIPK10__CFStringED2Ev
++ __ZN14CFMutableArray10_swift_getEv
++ __ZN14CFMutableArrayC1Ev
++ __ZN6DSFSDB13ScanDirectoryEPKcbU13block_pointerFvvE
++ __ZN6DSFSDB14WatchDirectoryEPKcbU13block_pointerFvvE
++ __ZN8ArchSpecC1ERKS_
++ __ZN8ArchSpecC1Ejj
++ __ZNK8ArchSpec10GetCPUTypeEv
++ __ZNK8ArchSpec13GetCPUSubtypeEv
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__119__shared_weak_count13__get_deleterERKSt9type_info
++ __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB8ne190102EPKvm
++ __ZNKSt3__16vectorI16FullUUIDRecord_tNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorI8ArchSpecNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorI8ArchSpecNS_9allocatorIS1_EEE4sizeB8ne190102Ev
++ __ZNKSt3__16vectorI8ArchSpecNS_9allocatorIS1_EEEixB8ne190102Em
++ __ZNKSt3__16vectorIP10DSFSDBNodeNS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIP13UUIDEntries_tNS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB8ne190102Ev
++ __ZNSt12length_errorC1B8ne190102EPKc
++ __ZNSt3__110shared_ptrINS_6atomicIbEEED1B8ne190102Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEiEEPvEENS_22__hash_node_destructorINS6_ISB_EEEEED1B8ne190102Ev
++ __ZNSt3__113unordered_mapIP8__MDItemPKcNS_4hashIS2_EENS_8equal_toIS2_EENS_9allocatorINS_4pairIKS2_S4_EEEEED1B8ne190102Ev
++ __ZNSt3__113unordered_mapIPKcP13UUIDEntries_tNS_4hashIS2_EENS_8equal_toIS2_EENS_9allocatorINS_4pairIKS2_S4_EEEEED1B8ne190102Ev
++ __ZNSt3__113unordered_setINS_4pairIiyEEN6DSFSDB15DeviceInodeHashENS3_16DeviceInodeEqualENS_9allocatorIS2_EEED1B8ne190102Ev
++ __ZNSt3__120__shared_ptr_emplaceINS_6atomicIbEENS_9allocatorIS2_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceINS_6atomicIbEENS_9allocatorIS2_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceINS_6atomicIbEENS_9allocatorIS2_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceINS_6atomicIbEENS_9allocatorIS2_EEED1Ev
++ __ZNSt3__120__throw_length_errorB8ne190102EPKc
++ __ZNSt3__16vectorI8ArchSpecNS_9allocatorIS1_EEE21__push_back_slow_pathIRKS1_EEPS1_OT_
++ __ZNSt3__16vectorI8ArchSpecNS_9allocatorIS1_EEEC1B8ne190102Ev
++ __ZNSt3__16vectorI8ArchSpecNS_9allocatorIS1_EEED1B8ne190102Ev
++ __ZSt28__throw_bad_array_new_lengthB8ne190102v
++ __ZTINSt3__120__shared_ptr_emplaceINS_6atomicIbEENS_9allocatorIS2_EEEE
++ __ZTSNSt3__120__shared_ptr_emplaceINS_6atomicIbEENS_9allocatorIS2_EEEE
++ __ZTVNSt3__120__shared_ptr_emplaceINS_6atomicIbEENS_9allocatorIS2_EEEE
++ __ZZ13_DBGGetDSFSDBvE9onceToken
++ __ZZ38CreateDSYMPathUsingImplicitSearchPathsPK8__CFUUIDE21g_implicit_init_mutex
++ ___Z38WaitForSpotlightQueryToReachStateAsync19SpotlightQueryStateU13block_pointerFviE_block_invoke.3
++ ___ZN6DSFSDB14WatchDirectoryEPKcbU13block_pointerFvvE_block_invoke.cold.1
++ ___ZN6DSFSDB14WatchDirectoryEPKcbU13block_pointerFvvE_block_invoke.cold.2
++ ___ZN6DSFSDB14WatchDirectoryEPKcbU13block_pointerFvvE_block_invoke.cold.3
++ ____Z13_DBGGetDSFSDBv_block_invoke
++ ____Z24CopyURLFromCachesForUUIDPK10__CFString_block_invoke
++ ____Z38WaitForSpotlightQueryToReachStateAsync19SpotlightQueryStateU13block_pointerFviE_block_invoke
++ ____ZL7_loggerv_block_invoke
++ ____ZN6DSFSDB13ScanDirectoryEPKcbU13block_pointerFvvE_block_invoke
++ ____ZN6DSFSDB14WatchDirectoryEPKcbU13block_pointerFvvE_block_invoke
++ ___block_descriptor_56_e8_32b40c40_ZTSNSt3__110shared_ptrINS_6atomicIbEEEE_e5_v8?0l
++ ___copy_helper_block_e8_32b
++ ___copy_helper_block_e8_32b40c40_ZTSNSt3__110shared_ptrINS_6atomicIbEEEE
++ ___destroy_helper_block_e8_32b
++ ___destroy_helper_block_e8_32b40c40_ZTSNSt3__110shared_ptrINS_6atomicIbEEEE
++ ___swift_allocate_boxed_opaque_existential_0
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ ___swift_destroy_boxed_opaque_existential_0
++ ___swift_instantiateConcreteTypeFromMangledName
++ ___swift_instantiateConcreteTypeFromMangledNameAbstract
++ ___swift_memcpy0_1
++ ___swift_memcpy16_8
++ ___swift_noop_void_return
++ ___swift_reflection_version
++ __block_descriptor_tmp.43
++ __block_descriptor_tmp.52
++ __block_descriptor_tmp.58
++ __objc_empty_cache
++ __os_log_error_impl
++ __swiftEmptyArrayStorage
++ __swiftImmortalRefCount
++ __swift_FORCE_LOAD_$_swiftCoreFoundation
++ __swift_FORCE_LOAD_$_swiftCoreFoundation_$_DebugSymbols
++ __swift_FORCE_LOAD_$_swiftDarwin
++ __swift_FORCE_LOAD_$_swiftDarwin_$_DebugSymbols
++ __swift_FORCE_LOAD_$_swiftDispatch
++ __swift_FORCE_LOAD_$_swiftDispatch_$_DebugSymbols
++ __swift_FORCE_LOAD_$_swiftFoundation
++ __swift_FORCE_LOAD_$_swiftFoundation_$_DebugSymbols
++ __swift_FORCE_LOAD_$_swiftIOKit
++ __swift_FORCE_LOAD_$_swiftIOKit_$_DebugSymbols
++ __swift_FORCE_LOAD_$_swiftObjectiveC
++ __swift_FORCE_LOAD_$_swiftObjectiveC_$_DebugSymbols
++ __swift_FORCE_LOAD_$_swiftXPC
++ __swift_FORCE_LOAD_$_swiftXPC_$_DebugSymbols
++ __swift_FORCE_LOAD_$_swift_Builtin_float
++ __swift_FORCE_LOAD_$_swift_Builtin_float_$_DebugSymbols
++ __swift_FORCE_LOAD_$_swift_errno
++ __swift_FORCE_LOAD_$_swift_errno_$_DebugSymbols
++ __swift_FORCE_LOAD_$_swift_math
++ __swift_FORCE_LOAD_$_swift_math_$_DebugSymbols
++ __swift_FORCE_LOAD_$_swift_signal
++ __swift_FORCE_LOAD_$_swift_signal_$_DebugSymbols
++ __swift_FORCE_LOAD_$_swift_stdio
++ __swift_FORCE_LOAD_$_swift_stdio_$_DebugSymbols
++ __swift_FORCE_LOAD_$_swift_time
++ __swift_FORCE_LOAD_$_swift_time_$_DebugSymbols
++ __swift_FORCE_LOAD_$_swiftos
++ __swift_FORCE_LOAD_$_swiftos_$_DebugSymbols
++ __swift_FORCE_LOAD_$_swiftsys_time
++ __swift_FORCE_LOAD_$_swiftsys_time_$_DebugSymbols
++ __swift_FORCE_LOAD_$_swiftunistd
++ __swift_FORCE_LOAD_$_swiftunistd_$_DebugSymbols
++ __swift_exceptionPersonality
++ __swift_stdlib_reportUnimplementedInitializer
++ _associated conformance 12DebugSymbols10DSYMBinaryVSHAASQ
++ _associated conformance 12DebugSymbols12DSYMMetadataV5ErrorO10Foundation09LocalizedD0AAsAD
++ _associated conformance 12DebugSymbols12DSYMMetadataV5ErrorOSHAASQ
++ _associated conformance 12DebugSymbols4DSYMVSHAASQ
++ _associated conformance 12DebugSymbols9DSYMSliceVSHAASQ
++ _block_copy_helper
++ _block_descriptor
++ _block_destroy_helper
++ _dispatch_after
++ _dispatch_get_global_queue
++ _dispatch_time
++ _fwrite
++ _g_filesystem_db
++ _g_filesystem_db_user_paths
++ _g_filesystem_db_user_paths_mutex
++ _g_prefs_already_read
++ _g_prefs_disable_fs_events
++ _g_prefs_file_mapped
++ _g_prefs_mutex
++ _g_prefs_search
++ _g_prefs_shell
++ _g_prefs_spotlight
++ _g_prefs_spotlight_timeout
++ _getuid
++ _malloc_size
++ _objc_msgSend
++ _objc_opt_self
++ _objc_release
++ _objc_retain
++ _objc_retainAutoreleasedReturnValue
++ _os_log_create
++ _os_log_type_enabled
++ _os_variant_has_internal_content
++ _setegid
++ _seteuid
++ _swift_allocBox
++ _swift_allocError
++ _swift_allocObject
++ _swift_arrayInitWithCopy
++ _swift_arrayInitWithTakeBackToFront
++ _swift_arrayInitWithTakeFrontToBack
++ _swift_beginAccess
++ _swift_bridgeObjectRelease
++ _swift_bridgeObjectRelease_n
++ _swift_bridgeObjectRetain
++ _swift_deallocClassInstance
++ _swift_deallocObject
++ _swift_deletedMethodError
++ _swift_dynamicCast
++ _swift_errorRelease
++ _swift_errorRetain
++ _swift_getEnumCaseMultiPayload
++ _swift_getEnumTagSinglePayloadGeneric
++ _swift_getErrorValue
++ _swift_getForeignTypeMetadata
++ _swift_getObjCClassMetadata
++ _swift_getObjectType
++ _swift_getSingletonMetadata
++ _swift_getTypeByMangledNameInContext2
++ _swift_getTypeByMangledNameInContextInMetadataState2
++ _swift_getWitnessTable
++ _swift_initStructMetadata
++ _swift_isUniquelyReferenced_nonNull_native
++ _swift_lookUpClassMethod
++ _swift_release
++ _swift_retain
++ _swift_storeEnumTagSinglePayloadGeneric
++ _swift_task_alloc
++ _swift_task_create
++ _swift_task_dealloc
++ _swift_task_switch
++ _swift_unknownObjectRelease
++ _swift_unknownObjectRelease_n
++ _swift_unknownObjectRetain
++ _swift_updateClassMetadata2
++ _swift_willThrow
++ _symbolic SDyS2SG
++ _symbolic SDySSypG
++ _symbolic SS
++ _symbolic SSSg
++ _symbolic SVIeyBy_
++ _symbolic SVSgIeyBy_
++ _symbolic Say_____G 10Foundation3URLV
++ _symbolic Say_____G 12DebugSymbols20SymbolSearchStrategyC
++ _symbolic Say_____G 8Dispatch0A13WorkItemFlagsV
++ _symbolic ScA_pSg
++ _symbolic ScCy_____Sg_____G 10Foundation3URLV s5NeverO
++ _symbolic ScCy__________G s5Int32V s5NeverO
++ _symbolic ScCyyt_____G s5NeverO
++ _symbolic ScPSg
++ _symbolic ScTy___________pG 12DebugSymbols4DSYMV s5ErrorP
++ _symbolic So10NSProgressC
++ _symbolic _____ 10Foundation3URLV
++ _symbolic _____ 10Foundation4UUIDV
++ _symbolic _____ 12DebugSymbols10DSYMBinaryV
++ _symbolic _____ 12DebugSymbols12DSYMMetadataV
++ _symbolic _____ 12DebugSymbols12DSYMMetadataV5ErrorO
++ _symbolic _____ 12DebugSymbols14SymbolSearcherC
++ _symbolic _____ 12DebugSymbols14SymbolSearcherC17DSYMNotFoundError33_B2480A6CFFAEDA0D9C1D1F8352058271LLV
++ _symbolic _____ 12DebugSymbols18SymbolDownloadTaskV
++ _symbolic _____ 12DebugSymbols20SymbolSearchStrategyC
++ _symbolic _____ 12DebugSymbols28AdjacentSymbolSearchStrategyC
++ _symbolic _____ 12DebugSymbols29RecursiveSymbolSearchStrategyC
++ _symbolic _____ 12DebugSymbols29SpotlightSymbolSearchStrategyC
++ _symbolic _____ 12DebugSymbols30DownloadedSymbolSearchStrategyC
++ _symbolic _____ 12DebugSymbols4DSYMV
++ _symbolic _____ 12DebugSymbols9DSYMSliceV
++ _symbolic _____ So8ArchSpecV
++ _symbolic _____ s5Int32V
++ _symbolic _____ s5Int64V
++ _symbolic _____Sg 10Foundation10CocoaErrorV
++ _symbolic _____Sg 10Foundation3URLV
++ _symbolic _____Sg 10Foundation4UUIDV
++ _symbolic _____Sg 12DebugSymbols4DSYMV
++ _symbolic _____Sg_ABt 12DebugSymbols4DSYMV
++ _symbolic _____XMT 12DebugSymbols14SymbolSearcherC
++ _symbolic ___________t So9CFUUIDRefa So8ArchSpecV
++ _symbolic ______p s5ErrorP
++ _symbolic _____ySSG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation3URLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12DebugSymbols10DSYMBinaryV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12DebugSymbols9DSYMSliceV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So8ArchSpecV
++ _symbolic _____y___________pG s6ResultOsRi_zrlE 12DebugSymbols4DSYMV s5ErrorP
++ _symbolic _____yypG s23_ContiguousArrayStorageC
++ _symbolic yXl
++ _symbolic ypSg
++ _symbolic ytIeAgHr_
++ block_copy_helper.25
++ block_copy_helper.57
++ block_copy_helper.63
++ block_copy_helper.69
++ block_copy_helper.85
++ block_descriptor.27
++ block_descriptor.59
++ block_descriptor.65
++ block_descriptor.71
++ block_descriptor.87
++ block_destroy_helper.26
++ block_destroy_helper.58
++ block_destroy_helper.64
++ block_destroy_helper.70
++ block_destroy_helper.86
++ objectdestroy.3Tm
++ objectdestroy.55Tm
+- DBGDwarfGetCompileUnitFunctions.cold.1
+- DBGDwarfGetCompileUnitLineTable.cold.1
+- DBGDwarfGetCompileUnitLineTable.cold.2
+- DW_TAG_value_to_name.invalid
+- GCC_except_table23
+- GCC_except_table24
+- GCC_except_table25
+- GCC_except_table27
+- GCC_except_table35
+- GCC_except_table36
+- GCC_except_table37
+- GCC_except_table41
+- GCC_except_table42
+- GCC_except_table44
+- GCC_except_table47
+- GCC_except_table48
+- GCC_except_table51
+- GCC_except_table52
+- GCC_except_table58
+- GCC_except_table59
+- GCC_except_table61
+- GCC_except_table62
+- GCC_except_table63
+- GCC_except_table66
+- GCC_except_table67
+- GCC_except_table68
+- GCC_except_table69
+- GCC_except_table70
+- GCC_except_table71
+- GCC_except_table78
+- GCC_except_table81
+- GCC_except_table83
+- GCC_except_table90
+- GCC_except_table92
+- GCC_except_table93
+- GCC_except_table94
+- GCC_except_table96
+- GCC_except_table97
+- _CFDataGetBytePtr
+- _CFDataGetLength
+- _CFDictionarySetValue
+- _CFNumberCreate
+- _CFNumberGetValue
+- _CFRunLoopGetMain
+- _CFRunLoopPerformBlock
+- _CFRunLoopWakeUp
+- _CFSetAddValue
+- _CFSetCreateMutable
+- _CFSetGetValue
+- _CFURLCopyFileSystemPath
+- _DBGAppID
+- _DBGBlockPath
+- _DBGDictKey_FUNCTIONS
+- _DBGDictKey_LINE_TABLE
+- _DBGDictKey_PATH
+- _DBGDictKey_TAG
+- _DBGDictKey_UID
+- _DBGDwarfClose
+- _DBGDwarfGetAttributeKey
+- _DBGDwarfGetCompileUnitFunctions
+- _DBGDwarfGetCompileUnitLineTable
+- _DBGDwarfGetCompileUnits
+- _DBGDwarfGetDIEObjectsForAddress
+- _DBGDwarfGetFirstChild
+- _DBGDwarfGetLinkMap
+- _DBGDwarfGetParent
+- _DBGDwarfGetSibling
+- _DBGDwarfGetTagKey
+- _DBGDwarfOpen
+- _DBGExplicitSearchPathRemoveAll
+- _DBGPauseWatchingPaths
+- _DBGPrefKey_DisableFSEvents
+- _DBGPrefKey_FileMappedPaths
+- _DBGPrefKey_SearchPaths
+- _DBGPrefKey_ShellCommands
+- _DBGPrefKey_SpotlightPaths
+- _DBGPrefKey_SpotlightTimeout
+- _DBGRegisterObserver
+- _DBGResumeWatchingPaths
+- _DBGTerminate
+- _DBGUnregisterObserver
+- _DW_TAG_value_to_name
+- _MDQuerySetSearchScope
+- _MergedGlobals.626
+- _Z26CreateUUIDsFromFatMachFileR6UnixFDxR10BinaryDatajjRK8ArchSpecR14CFMutableArray.cold.1
+- _Z28CreateUUIDFromSkinnyMachFileR6UnixFDxR10BinaryDatajjRK8ArchSpec.cold.1
+- _ZN14DWARFDebugLine13ParsePrologueERK13BinaryDataRefPjPNS_8PrologueE.cold.1
+- _ZN14DWARFDebugLine19ParseStatementTableERK13BinaryDataRefPjPFvjRKNS_12StateMachineEPvES7_.cold.1
+- _ZN14DWARFDebugLine5ParseERK13BinaryDataRef.cold.1
+- _ZN16DWARFDebugRanges9RangeList7ExtractEPK9DWARFDataPjj.cold.1
+- _ZN19DWARFDebugArangeSet7ExtractEPK9DWARFDataPj.cold.1
+- _ZN25MachOFatRuntimeFileParser12GetFileStatsERyS0_S0_S0_S0_S0_S0_.cold.1
+- _ZN25MachOFatRuntimeFileParser20ExtractArchitecturesERK13BinaryDataRefj.cold.1
+- _ZN6DSFSDB13ScanDirectoryEPKcb.cold.1
+- _ZN6DSFSDB14WatchDirectoryEPKcb.cold.1
+- _ZN6DSFSDB17_Terminate_lockedEb.cold.1
+- _ZN6DSFSDB23StopWatchingDirectoriesEv.cold.1
+- _ZN6DSFSDB24PauseWatchingDirectoriesEv.cold.1
+- _ZNK13BinaryDataRef10GetAddressEPj.cold.1
+- _ZNK13BinaryDataRef8GetMax64EPjj.cold.1
+- _ZNK19DWARFDebugInfoEntry13GetAttributesEP9DWARFDataPK16DWARFCompileUnitRNS_10AttributesEbj.cold.1
+- _ZNK20ELFRuntimeFileParser15NeedsEndianSwapEv.cold.1
+- _ZNSt3__110shared_ptrIN14DWARFDebugLine9LineTableEE5resetB8ne180100IS2_vEEvPT_.cold.1
+- __DefaultRuneLocale
+- __Z14compare_symbolPKvS0_
+- __Z16CreateDictForDIEP13DWARFInstancePK16DWARFCompileUnitPK19DWARFDebugInfoEntryR19CFMutableDictionary
+- __Z19NotifyDSYMObserversPK8__CFUUIDPK7__CFURLh
+- __Z23GetDictForDIEAttributesP13DWARFInstancePK16DWARFCompileUnitPK19DWARFDebugInfoEntry
+- __Z23GetMachFileTypeAsStringj
+- __Z26CreateUUIDsFromFatMachFileR6UnixFDxR10BinaryDatajjRK8ArchSpecR14CFMutableArray
+- __Z28CreateUUIDFromSkinnyMachFileR6UnixFDxR10BinaryDatajjRK8ArchSpec
+- __Z33WaitForSpotlightQueryToReachState19SpotlightQueryStateiPK9__CFArray
+- __ZL11ResolvePathPKcS0_Pcm
+- __ZL11g_arch_defs
+- __ZL13RangeLessThanRKN17DWARFDebugAranges5RangeES2_
+- __ZL13g_prefs_mutex
+- __ZL14ExtractIntegerRK13BinaryDataRefjRj
+- __ZL15GetUniqueStringP13DWARFInstancePK10__CFString
+- __ZL15GetUniqueStringP13DWARFInstancePKc
+- __ZL16ReadUserDefaultsv
+- __ZL19g_default_addr_size
+- __ZL27ParseStatementTableCallbackjRKN14DWARFDebugLine12StateMachineEPv
+- __ZL28CreateDSYMPathUsingSpotlightPK10__CFStringPK9__CFArray
+- __ZL31CreateDSYMPathUsingShellCommandPK10__CFStringS1_
+- __ZL32CreateDSYMPathUsingShellCommandsPK10__CFStringPK9__CFArray
+- __ZL32_DBGStartWatchingOrScanningPathsPKvbb
+- __ZL33CreateDSYMPathUsingFileMappedPathPK10__CFStringPKv
+- __ZL38CreateDSYMPathUsingExplicitSearchPathsPK8__CFUUIDPK9__CFArraybbb
+- __ZN10CFReleaserIP7__CFSetED0Ev
+- __ZN10CFReleaserIP7__CFSetED1Ev
+- __ZN10CFReleaserIPK10__CFNumberED0Ev
+- __ZN10CFReleaserIPK10__CFNumberED1Ev
+- __ZN11NListSymtab17ExtractAllSymbolsEP25RuntimeFileParserProtocol
+- __ZN11NListSymtabC1Ev
+- __ZN11NListSymtabD1Ev
+- __ZN11RuntimeFile5ClearEv
+- __ZN11RuntimeFile8LoadFileEPKc
+- __ZN11RuntimeFileC2EPKcjRi
+- __ZN11RuntimeFileD1Ev
+- __ZN12CFMutableSet8AddValueEPKvb
+- __ZN12CFMutableSetC1EP7__CFSet
+- __ZN12CFMutableSetD0Ev
+- __ZN12CFMutableSetD1Ev
+- __ZN13BinaryDataRefC1EPKvmb
+- __ZN13BinaryDataRefC1Ev
+- __ZN13DWARFInstanceC2EP17RuntimeFileParser
+- __ZN13DWARFInstanceD2Ev
+- __ZN14DSFSDBNodeDSYM16RemoveAllEntriesEv
+- __ZN14DWARFDebugInfo12SetDwarfDataEP9DWARFData
+- __ZN14DWARFDebugInfo13LookupAddressEyjRNSt3__110shared_ptrI16DWARFCompileUnitEEPPK19DWARFDebugInfoEntryS8_
+- __ZN14DWARFDebugInfo18GetNumCompileUnitsEv
+- __ZN14DWARFDebugInfo21GetCompileUnitAtIndexEj
+- __ZN14DWARFDebugInfo27GetCompileUnitContainingDIEEj
+- __ZN14DWARFDebugInfo5ParseEv
+- __ZN14DWARFDebugInfo9CreateMapERNSt3__16vectorI9dw_symbolNS0_9allocatorIS2_EEEE
+- __ZN14DWARFDebugInfo9GetDIEPtrEjPNSt3__110shared_ptrI16DWARFCompileUnitEE
+- __ZN14DWARFDebugInfoC1Ev
+- __ZN14DWARFDebugInfoD1Ev
+- __ZN14DWARFDebugLine12StateMachine21do_DW_LNE_define_fileERK13BinaryDataRefPj
+- __ZN14DWARFDebugLine12StateMachineD1Ev
+- __ZN14DWARFDebugLine13ParseIfNeededERK13BinaryDataRef
+- __ZN14DWARFDebugLine13ParsePrologueERK13BinaryDataRefPjPNS_8PrologueE
+- __ZN14DWARFDebugLine19ParseStatementTableERK13BinaryDataRefPjPFvjRKNS_12StateMachineEPvES7_
+- __ZN14DWARFDebugLine5ParseERK13BinaryDataRef
+- __ZN14DWARFDebugLine9LineTable9AppendRowERKNS_3RowE
+- __ZN14DWARFFormValue12ExtractValueERK13BinaryDataRefPjPK16DWARFCompileUnit
+- __ZN14DWARFFormValue9SkipValueEhRK13BinaryDataRefPjPK16DWARFCompileUnit
+- __ZN14DWARFFormValueC1Eh
+- __ZN16DWARFCompileUnit12GetLineTableEv
+- __ZN16DWARFCompileUnit13LookupAddressEyPPK19DWARFDebugInfoEntryS3_
+- __ZN16DWARFCompileUnit14GetAddressSizeEPKS_
+- __ZN16DWARFCompileUnit16GetLineTableFileEj
+- __ZN16DWARFCompileUnit7ExtractEPj
+- __ZN16DWARFCompileUnitC1EP9DWARFData
+- __ZN16DWARFDebugAbbrev5ParseERK13BinaryDataRef
+- __ZN16DWARFDebugAbbrevC1Ev
+- __ZN16DWARFDebugRanges15ContainsAddressEyRK13BinaryDataRefjyj
+- __ZN16DWARFDebugRanges9RangeList12AppendRangesEyjR17DWARFDebugAranges
+- __ZN16DWARFDebugRanges9RangeList17ConvertToAbsoluteEy
+- __ZN16DWARFDebugRanges9RangeList7ExtractEPK9DWARFDataPjj
+- __ZN16DWARFDebugRanges9RangeList8AddRangeEyy
+- __ZN17DWARFDebugAranges11AppendRangeERKNS_5RangeE
+- __ZN17DWARFDebugAranges4SortEv
+- __ZN17DWARFDebugAranges7ExtractEPK9DWARFData
+- __ZN17DWARFDebugArangesC1Ev
+- __ZN17DWARFLocationList7ExtractEPK16DWARFCompileUnitRK13BinaryDataRefPjRS3_
+- __ZN17RuntimeFileParser12GetFileStatsERyS0_S0_S0_S0_S0_S0_
+- __ZN17RuntimeFileParser13ObjectAtIndexEj
+- __ZN17RuntimeFileParser14GetNListSymtabER13BinaryDataRefS1_bRj
+- __ZN17RuntimeFileParser18SelectArchitectureERK8ArchSpec
+- __ZN17RuntimeFileParser4FileEv
+- __ZN17RuntimeFileParser5ParseEv
+- __ZN17RuntimeFileParser7GetUUIDEPh
+- __ZN17RuntimeFileParser8CanParseEv
+- __ZN17RuntimeFileParser9GetObjectEPKcj
+- __ZN17RuntimeFileParserC1EPKcjRi
+- __ZN17RuntimeFileParserC2EPKcjRi
+- __ZN17RuntimeFileParserD0Ev
+- __ZN17RuntimeFileParserD1Ev
+- __ZN19CFMutableDictionary13AddValueUInt8EPK10__CFStringhb
+- __ZN19CFMutableDictionary14AddValueUInt16EPK10__CFStringtb
+- __ZN19CFMutableDictionary14AddValueUInt32EPK10__CFStringjb
+- __ZN19CFMutableDictionary14AddValueUInt64EPK10__CFStringyb
+- __ZN19CFMutableDictionary14SetValueUInt32EPK10__CFStringjb
+- __ZN19CFMutableDictionary8SetValueEPK10__CFStringPKvb
+- __ZN19DWARFDebugArangeSet7ExtractEPK9DWARFDataPj
+- __ZN19DWARFDebugArangeSetC1Ev
+- __ZN19DWARFDebugInfoEntry10Attributes6AppendEPK16DWARFCompileUnitjthj
+- __ZN19DWARFDebugInfoEntry10AttributesC1Ev
+- __ZN19DWARFDebugInfoEntry10AttributesD1Ev
+- __ZN19DWARFDebugInfoEntry7ExtractEP9DWARFDataPK16DWARFCompileUnitPj
+- __ZN20ELFRuntimeFileParser12GetFileStatsERyS0_S0_S0_S0_S0_S0_
+- __ZN20ELFRuntimeFileParser13DumpELFHeaderEPNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEERK14Elf64_Ehdr_Tag
+- __ZN20ELFRuntimeFileParser14GetNListSymtabER13BinaryDataRefS1_bRj
+- __ZN20ELFRuntimeFileParser15ParserELFHeaderEv
+- __ZN20ELFRuntimeFileParser18SelectArchitectureERK8ArchSpec
+- __ZN20ELFRuntimeFileParser19ParseProgramHeadersEv
+- __ZN20ELFRuntimeFileParser19ParseSectionHeadersEv
+- __ZN20ELFRuntimeFileParser20DumpELFHeader_e_typeEPNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEEt
+- __ZN20ELFRuntimeFileParser20DumpELFProgramHeaderEPNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEERK14Elf64_Phdr_Tag
+- __ZN20ELFRuntimeFileParser20DumpELFSectionHeaderEPNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEERK14Elf64_Shdr_Tag
+- __ZN20ELFRuntimeFileParser27DumpELFProgramHeader_p_typeEPNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEEj
+- __ZN20ELFRuntimeFileParser28DumpELFSectionHeader_sh_typeEPNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEEj
+- __ZN20ELFRuntimeFileParser29DumpELFHeader_e_ident_EI_DATAEPNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEEh
+- __ZN20ELFRuntimeFileParser30DumpELFHeader_e_ident_EI_CLASSEPNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEEh
+- __ZN20ELFRuntimeFileParser5ParseEv
+- __ZN20ELFRuntimeFileParser7GetUUIDEPh
+- __ZN20ELFRuntimeFileParser8CanParseEv
+- __ZN20ELFRuntimeFileParserC1ER11RuntimeFile
+- __ZN20ELFRuntimeFileParserD0Ev
+- __ZN20ELFRuntimeFileParserD1Ev
+- __ZN24MachO32RuntimeFileParser12GetFileStatsERyS0_S0_S0_S0_S0_S0_
+- __ZN24MachO32RuntimeFileParser14GetNListSymtabER13BinaryDataRefS1_bRj
+- __ZN24MachO32RuntimeFileParser18ParseSymtabHeadersEv
+- __ZN24MachO32RuntimeFileParser18SelectArchitectureERK8ArchSpec
+- __ZN24MachO32RuntimeFileParser20ExtractSectionHeaderERK13BinaryDataRefPjP7section
+- __ZN24MachO32RuntimeFileParser20ExtractSegmentHeaderERK13BinaryDataRefPjPK12load_commandP15segment_command
+- __ZN24MachO32RuntimeFileParser21ExtractSegmentHeadersERK13BinaryDataRefj
+- __ZN24MachO32RuntimeFileParser26ExtractDysymtabLoadCommandERK13BinaryDataRefPjPK12load_commandP16dysymtab_command
+- __ZN24MachO32RuntimeFileParser4DumpEPNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEEPK11mach_header
+- __ZN24MachO32RuntimeFileParser4DumpEPNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEEPK15segment_command
+- __ZN24MachO32RuntimeFileParser4DumpEPNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEEPK7section
+- __ZN24MachO32RuntimeFileParser5ParseEv
+- __ZN24MachO32RuntimeFileParser7GetUUIDEPh
+- __ZN24MachO32RuntimeFileParser8CanParseEv
+- __ZN24MachO32RuntimeFileParserC1ER11RuntimeFilexm
+- __ZN24MachO32RuntimeFileParserD0Ev
+- __ZN24MachO32RuntimeFileParserD1Ev
+- __ZN24MachO64RuntimeFileParser12GetFileStatsERyS0_S0_S0_S0_S0_S0_
+- __ZN24MachO64RuntimeFileParser14GetNListSymtabER13BinaryDataRefS1_bRj
+- __ZN24MachO64RuntimeFileParser18ParseSymtabHeadersEv
+- __ZN24MachO64RuntimeFileParser18SelectArchitectureERK8ArchSpec
+- __ZN24MachO64RuntimeFileParser20ExtractSectionHeaderERK13BinaryDataRefPjP10section_64
+- __ZN24MachO64RuntimeFileParser20ExtractSegmentHeaderERK13BinaryDataRefPjPK12load_commandP18segment_command_64
+- __ZN24MachO64RuntimeFileParser21ExtractSegmentHeadersERK13BinaryDataRefj
+- __ZN24MachO64RuntimeFileParser26ExtractDysymtabLoadCommandERK13BinaryDataRefPjPK12load_commandP16dysymtab_command
+- __ZN24MachO64RuntimeFileParser4DumpEPNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEEPK10section_64
+- __ZN24MachO64RuntimeFileParser4DumpEPNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEEPK14mach_header_64
+- __ZN24MachO64RuntimeFileParser4DumpEPNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEEPK18segment_command_64
+- __ZN24MachO64RuntimeFileParser5ParseEv
+- __ZN24MachO64RuntimeFileParser7GetUUIDEPh
+- __ZN24MachO64RuntimeFileParser8CanParseEv
+- __ZN24MachO64RuntimeFileParserC1ER11RuntimeFilexm
+- __ZN24MachO64RuntimeFileParserD0Ev
+- __ZN24MachO64RuntimeFileParserD1Ev
+- __ZN25MachOFatRuntimeFileParser12GetFileStatsERyS0_S0_S0_S0_S0_S0_
+- __ZN25MachOFatRuntimeFileParser12SelectObjectEPKc
+- __ZN25MachOFatRuntimeFileParser13ObjectAtIndexEj
+- __ZN25MachOFatRuntimeFileParser14GetNListSymtabER13BinaryDataRefS1_bRj
+- __ZN25MachOFatRuntimeFileParser16VerifyFatHeadersERK13BinaryDataRef
+- __ZN25MachOFatRuntimeFileParser18SelectArchitectureERK8ArchSpec
+- __ZN25MachOFatRuntimeFileParser20ExtractArchitecturesERK13BinaryDataRefj
+- __ZN25MachOFatRuntimeFileParser4DumpEPNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEEPK10fat_header
+- __ZN25MachOFatRuntimeFileParser4DumpEPNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEEPK8fat_arch
+- __ZN25MachOFatRuntimeFileParser5ParseEv
+- __ZN25MachOFatRuntimeFileParser7GetUUIDEPh
+- __ZN25MachOFatRuntimeFileParser8CanParseEv
+- __ZN25MachOFatRuntimeFileParser9GetObjectEPKcj
+- __ZN25MachOFatRuntimeFileParserC1ER11RuntimeFile
+- __ZN25MachOFatRuntimeFileParserD0Ev
+- __ZN25MachOFatRuntimeFileParserD1Ev
+- __ZN25RuntimeFileParserProtocol12SelectObjectEPKc
+- __ZN25RuntimeFileParserProtocol13ObjectAtIndexEj
+- __ZN25RuntimeFileParserProtocol9GetObjectEPKcj
+- __ZN27BSDArchiveRuntimeFileParser12GetFileStatsERyS0_S0_S0_S0_S0_S0_
+- __ZN27BSDArchiveRuntimeFileParser12SelectObjectEPKc
+- __ZN27BSDArchiveRuntimeFileParser13ExtractObjectERK13BinaryDataRefj
+- __ZN27BSDArchiveRuntimeFileParser13ObjectAtIndexEj
+- __ZN27BSDArchiveRuntimeFileParser14GetNListSymtabER13BinaryDataRefS1_bRj
+- __ZN27BSDArchiveRuntimeFileParser18SelectArchitectureERK8ArchSpec
+- __ZN27BSDArchiveRuntimeFileParser27ExtractArchivePathAndObjectEPKcRNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEES9_
+- __ZN27BSDArchiveRuntimeFileParser5ParseEv
+- __ZN27BSDArchiveRuntimeFileParser6ObjectD1Ev
+- __ZN27BSDArchiveRuntimeFileParser7GetUUIDEPh
+- __ZN27BSDArchiveRuntimeFileParser8CanParseEv
+- __ZN27BSDArchiveRuntimeFileParser9GetObjectEPKcj
+- __ZN27BSDArchiveRuntimeFileParserC1ER11RuntimeFilexm
+- __ZN27BSDArchiveRuntimeFileParserD0Ev
+- __ZN27BSDArchiveRuntimeFileParserD1Ev
+- __ZN27BSDArchiveRuntimeFileParserD2Ev
+- __ZN28DWARFAbbreviationDeclaration12AddAttributeEth
+- __ZN28DWARFAbbreviationDeclaration7ExtractERK13BinaryDataRefPj
+- __ZN28DWARFAbbreviationDeclaration7ExtractERK13BinaryDataRefPjy
+- __ZN28DWARFAbbreviationDeclarationC1Ev
+- __ZN31DWARFAbbreviationDeclarationSet7ExtractERK13BinaryDataRefPj
+- __ZN31DWARFAbbreviationDeclarationSetD1Ev
+- __ZN3Log12DebugVerboseEPKcz
+- __ZN3Log5DebugEPKcz
+- __ZN5NList9Extract32ERK13BinaryDataRefPjR8nlist_64
+- __ZN5NList9Extract64ERK13BinaryDataRefPjR8nlist_64
+- __ZN6DSFSDB13ScanDirectoryEPKcb
+- __ZN6DSFSDB14BlockDirectoryEPKc
+- __ZN6DSFSDB14WatchDirectoryEPKcb
+- __ZN6DSFSDB17_Terminate_lockedEb
+- __ZN6DSFSDB23StopWatchingDirectoriesEv
+- __ZN6DSFSDB24PauseWatchingDirectoriesEv
+- __ZN6DSFSDB25ResumeWatchingDirectoriesEv
+- __ZN6DSFSDB9TerminateEv
+- __ZN6DSFSDBC1Ev
+- __ZN6Mach3210AddSegmentERNSt3__110shared_ptrINS_7SegmentEEE
+- __ZN6Mach327SectionC1ERK7sectionPKhj
+- __ZN6Mach327SectionD1Ev
+- __ZN6Mach327SegmentC1ERK15segment_command
+- __ZN6Mach327SegmentD1Ev
+- __ZN6Mach329SetSymtabERK14symtab_command
+- __ZN6Mach6410AddSegmentERNSt3__110shared_ptrINS_7SegmentEEE
+- __ZN6Mach647SectionC1ERK10section_64PKhy
+- __ZN6Mach647SectionD1Ev
+- __ZN6Mach647SegmentC1ERK18segment_command_64
+- __ZN6Mach647SegmentD1Ev
+- __ZN6Mach649SetSymtabERK14symtab_command
+- __ZN8ArchSpec7GetNameEjj
+- __ZN8ArchSpec7SetNameEPKc
+- __ZN8ArchSpecC1EPKc
+- __ZN8ArchSpecD0Ev
+- __ZN8ArchSpecD1Ev
+- __ZN8CFString27GetFileSystemRepresentationERNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+- __ZN8CFString37SetFileSystemRepresentationFromCFTypeEPKv
+- __ZN9DWARFData13LookupAddressEyRNSt3__110shared_ptrI16DWARFCompileUnitEEPPK19DWARFDebugInfoEntryS8_PNS1_IN14DWARFDebugLine9LineTableEEEPj
+- __ZN9DWARFData13debug_arangesEv
+- __ZN9DWARFData16SupportedVersionEt
+- __ZN9DWARFDataC1EP25RuntimeFileParserProtocol
+- __ZN9DWARFDataC2EP25RuntimeFileParserProtocol
+- __ZN9DWARFDataD1Ev
+- __ZN9DWARFDataD2Ev
+- __ZN9DWARFdSYM14GetPathToDWARFERNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS_8FileTypeE
+- __ZN9DWARFdSYM22GetExtensionStartIndexEPKc
+- __ZN9MemoryMap18MMapFromOpenedFileEiP4statxm
+- __ZN9MemoryMap7SetSizeEm
+- __ZN9MemoryMapC1Ev
+- __ZN9MemoryMapD0Ev
+- __ZN9MemoryMapD1Ev
+- __ZNK11NListSymtab14GetStabsStringEj
+- __ZNK12CFMutableSet8GetValueEPKv
+- __ZNK13BinaryDataRef10GetAddressEPj
+- __ZNK13BinaryDataRef11Get_SLEB128EPj
+- __ZNK13BinaryDataRef11Get_ULEB128EPj
+- __ZNK13BinaryDataRef11Skip_LEB128EPj
+- __ZNK13BinaryDataRef12MemoryAdviseEi
+- __ZNK13BinaryDataRef4Get8EPj
+- __ZNK13BinaryDataRef5Get16EPj
+- __ZNK13BinaryDataRef5Get64EPj
+- __ZNK13BinaryDataRef7GetCStrEPjj
+- __ZNK13BinaryDataRef8GetMax64EPjj
+- __ZNK14DWARFDebugLine12GetLineTableEj
+- __ZNK14DWARFDebugLine8Prologue7GetFileEjRNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES8_
+- __ZNK14DWARFDebugLine9LineTable13LookupAddressEy
+- __ZNK14DWARFFormValue7CStringEPK13BinaryDataRef
+- __ZNK14DWARFFormValue9BlockDataEv
+- __ZNK14DWARFFormValue9ReferenceEPK16DWARFCompileUnit
+- __ZNK16DWARFCompileUnit17ParseDIEsIfNeededEv
+- __ZNK16DWARFCompileUnit3DIEEv
+- __ZNK16DWARFCompileUnit9GetDIEPtrEj
+- __ZNK16DWARFDebugAbbrev29GetAbbreviationDeclarationSetEj
+- __ZNK17DWARFDebugAranges11FindAddressEy
+- __ZNK17RuntimeFileParser10NumObjectsEv
+- __ZNK17RuntimeFileParser11GetFileSizeEv
+- __ZNK17RuntimeFileParser11GetFileTypeEv
+- __ZNK17RuntimeFileParser13GetCodeRangesER17DWARFDebugAranges
+- __ZNK17RuntimeFileParser13GetFileOffsetEv
+- __ZNK17RuntimeFileParser14GetCurrentArchER8ArchSpec
+- __ZNK17RuntimeFileParser14GetSectionInfoEjPNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPyS8_S8_S8_PjP13BinaryDataRefSB_
+- __ZNK17RuntimeFileParser14GetSegmentInfoEjPNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPyS8_S8_S8_PjP13BinaryDataRef
+- __ZNK17RuntimeFileParser15NeedsEndianSwapEv
+- __ZNK17RuntimeFileParser17ObjectNameAtIndexEj
+- __ZNK17RuntimeFileParser19GetNumArchitecturesEv
+- __ZNK17RuntimeFileParser21GetSectionIndexByNameEPKc
+- __ZNK17RuntimeFileParser21GetSegmentIndexByNameEPKc
+- __ZNK17RuntimeFileParser22GetArchitectureAtIndexEjR8ArchSpec
+- __ZNK17RuntimeFileParser24AppendSegmentInformationEP6Mach32
+- __ZNK17RuntimeFileParser24AppendSegmentInformationEP6Mach64
+- __ZNK17RuntimeFileParser24GetSectionIndexByAddressEy
+- __ZNK17RuntimeFileParser25GetMinimumInstructionSizeEv
+- __ZNK17RuntimeFileParser4DumpEPNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEE
+- __ZNK17RuntimeFileParser4FileEv
+- __ZNK17RuntimeFileParser5ScopeERNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEb
+- __ZNK17RuntimeFileParser7GetArchER8ArchSpec
+- __ZNK19DWARFDebugInfoEntry10Attributes18FindAttributeIndexEt
+- __ZNK19DWARFDebugInfoEntry10Attributes22ExtractValueAsUnsignedEP9DWARFDataty
+- __ZNK19DWARFDebugInfoEntry10Attributes29ExtractValueAsUnsignedAtIndexEP9DWARFDatajy
+- __ZNK19DWARFDebugInfoEntry10GetPubnameEP9DWARFDataPK16DWARFCompileUnitPPKc
+- __ZNK19DWARFDebugInfoEntry10GetPubnameEP9DWARFDataPK16DWARFCompileUnitRKNS_10AttributesEPPKc
+- __ZNK19DWARFDebugInfoEntry11GetByteSizeEP9DWARFDataPK16DWARFCompileUnitRKNS_10AttributesE
+- __ZNK19DWARFDebugInfoEntry13GetAttributesEP9DWARFDataPK16DWARFCompileUnitRNS_10AttributesEbj
+- __ZNK19DWARFDebugInfoEntry13LookupAddressEyP9DWARFDataPK16DWARFCompileUnitPKS_PS6_S7_
+- __ZNK19DWARFDebugInfoEntry15GetAddressRangeEP9DWARFDataPK16DWARFCompileUnitRyS5_Pj
+- __ZNK19DWARFDebugInfoEntry16GetAddressRangesEP9DWARFDataPK16DWARFCompileUnit
+- __ZNK19DWARFDebugInfoEntry16GetAddressRangesEP9DWARFDataPK16DWARFCompileUnitR17DWARFDebugArangesj
+- __ZNK19DWARFDebugInfoEntry25GetAttributeValueAsStringEP9DWARFDataPK16DWARFCompileUnittPKc
+- __ZNK19DWARFDebugInfoEntry27GetAttributeValueAsLocationEP9DWARFDataPK16DWARFCompileUnittR13BinaryDataRefPj
+- __ZNK19DWARFDebugInfoEntry27GetAttributeValueAsUnsignedEP9DWARFDataPK16DWARFCompileUnitty
+- __ZNK19DWARFDebugInfoEntry33BuildCompileUnitAddressRangeTableEP9DWARFDataPK16DWARFCompileUnitR17DWARFDebugAranges
+- __ZNK19DWARFDebugInfoEntry9GetHighPCEP9DWARFDataPK16DWARFCompileUnity
+- __ZNK20ELFRuntimeFileParser11GetFileSizeEv
+- __ZNK20ELFRuntimeFileParser11GetFileTypeEv
+- __ZNK20ELFRuntimeFileParser13GetFileOffsetEv
+- __ZNK20ELFRuntimeFileParser14GetCurrentArchER8ArchSpec
+- __ZNK20ELFRuntimeFileParser14GetSectionInfoEjPNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPyS8_S8_S8_PjP13BinaryDataRefSB_
+- __ZNK20ELFRuntimeFileParser15NeedsEndianSwapEv
+- __ZNK20ELFRuntimeFileParser19GetNumArchitecturesEv
+- __ZNK20ELFRuntimeFileParser21DumpELFProgramHeadersEPNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEE
+- __ZNK20ELFRuntimeFileParser21DumpELFSectionHeadersEPNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEE
+- __ZNK20ELFRuntimeFileParser21GetSectionIndexByNameEPKc
+- __ZNK20ELFRuntimeFileParser22GetArchitectureAtIndexEjR8ArchSpec
+- __ZNK20ELFRuntimeFileParser24GetSectionIndexByAddressEy
+- __ZNK20ELFRuntimeFileParser25GetMinimumInstructionSizeEv
+- __ZNK20ELFRuntimeFileParser4DumpEPNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEE
+- __ZNK20ELFRuntimeFileParser4FileEv
+- __ZNK20ELFRuntimeFileParser5ScopeERNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEb
+- __ZNK20ELFRuntimeFileParser7GetArchER8ArchSpec
+- __ZNK24MachO32RuntimeFileParser11GetFileSizeEv
+- __ZNK24MachO32RuntimeFileParser11GetFileTypeEv
+- __ZNK24MachO32RuntimeFileParser13GetBinaryDataER13BinaryDataRef
+- __ZNK24MachO32RuntimeFileParser13GetCodeRangesER17DWARFDebugAranges
+- __ZNK24MachO32RuntimeFileParser13GetFileOffsetEv
+- __ZNK24MachO32RuntimeFileParser14GetCurrentArchER8ArchSpec
+- __ZNK24MachO32RuntimeFileParser14GetSectionInfoEjPNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPyS8_S8_S8_PjP13BinaryDataRefSB_
+- __ZNK24MachO32RuntimeFileParser14GetSegmentInfoEjPNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPyS8_S8_S8_PjP13BinaryDataRef
+- __ZNK24MachO32RuntimeFileParser15NeedsEndianSwapEv
+- __ZNK24MachO32RuntimeFileParser19GetNumArchitecturesEv
+- __ZNK24MachO32RuntimeFileParser21GetSectionIndexByNameEPKc
+- __ZNK24MachO32RuntimeFileParser21GetSegmentIndexByNameEPKc
+- __ZNK24MachO32RuntimeFileParser22GetArchitectureAtIndexEjR8ArchSpec
+- __ZNK24MachO32RuntimeFileParser24AppendSegmentInformationEP6Mach32
+- __ZNK24MachO32RuntimeFileParser24AppendSegmentInformationEP6Mach64
+- __ZNK24MachO32RuntimeFileParser24GetSectionIndexByAddressEy
+- __ZNK24MachO32RuntimeFileParser25GetMinimumInstructionSizeEv
+- __ZNK24MachO32RuntimeFileParser4DumpEPNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEE
+- __ZNK24MachO32RuntimeFileParser4FileEv
+- __ZNK24MachO32RuntimeFileParser5ScopeERNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEb
+- __ZNK24MachO32RuntimeFileParser7GetArchER8ArchSpec
+- __ZNK24MachO64RuntimeFileParser11GetFileSizeEv
+- __ZNK24MachO64RuntimeFileParser11GetFileTypeEv
+- __ZNK24MachO64RuntimeFileParser13GetBinaryDataER13BinaryDataRef
+- __ZNK24MachO64RuntimeFileParser13GetCodeRangesER17DWARFDebugAranges
+- __ZNK24MachO64RuntimeFileParser13GetFileOffsetEv
+- __ZNK24MachO64RuntimeFileParser14GetCurrentArchER8ArchSpec
+- __ZNK24MachO64RuntimeFileParser14GetSectionInfoEjPNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPyS8_S8_S8_PjP13BinaryDataRefSB_
+- __ZNK24MachO64RuntimeFileParser14GetSegmentInfoEjPNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPyS8_S8_S8_PjP13BinaryDataRef
+- __ZNK24MachO64RuntimeFileParser15NeedsEndianSwapEv
+- __ZNK24MachO64RuntimeFileParser19GetNumArchitecturesEv
+- __ZNK24MachO64RuntimeFileParser21GetSectionIndexByNameEPKc
+- __ZNK24MachO64RuntimeFileParser21GetSegmentIndexByNameEPKc
+- __ZNK24MachO64RuntimeFileParser22GetArchitectureAtIndexEjR8ArchSpec
+- __ZNK24MachO64RuntimeFileParser24AppendSegmentInformationEP6Mach32
+- __ZNK24MachO64RuntimeFileParser24AppendSegmentInformationEP6Mach64
+- __ZNK24MachO64RuntimeFileParser24GetSectionIndexByAddressEy
+- __ZNK24MachO64RuntimeFileParser25GetMinimumInstructionSizeEv
+- __ZNK24MachO64RuntimeFileParser4DumpEPNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEE
+- __ZNK24MachO64RuntimeFileParser4FileEv
+- __ZNK24MachO64RuntimeFileParser5ScopeERNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEb
+- __ZNK24MachO64RuntimeFileParser7GetArchER8ArchSpec
+- __ZNK25MachOFatRuntimeFileParser10NumObjectsEv
+- __ZNK25MachOFatRuntimeFileParser11GetFileSizeEv
+- __ZNK25MachOFatRuntimeFileParser11GetFileTypeEv
+- __ZNK25MachOFatRuntimeFileParser13GetCodeRangesER17DWARFDebugAranges
+- __ZNK25MachOFatRuntimeFileParser13GetFileOffsetEv
+- __ZNK25MachOFatRuntimeFileParser14GetCurrentArchER8ArchSpec
+- __ZNK25MachOFatRuntimeFileParser14GetSectionInfoEjPNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPyS8_S8_S8_PjP13BinaryDataRefSB_
+- __ZNK25MachOFatRuntimeFileParser14GetSegmentInfoEjPNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPyS8_S8_S8_PjP13BinaryDataRef
+- __ZNK25MachOFatRuntimeFileParser15NeedsEndianSwapEv
+- __ZNK25MachOFatRuntimeFileParser17ObjectNameAtIndexEj
+- __ZNK25MachOFatRuntimeFileParser19GetNumArchitecturesEv
+- __ZNK25MachOFatRuntimeFileParser21GetRuntimeFileAtIndexEj
+- __ZNK25MachOFatRuntimeFileParser21GetSectionIndexByNameEPKc
+- __ZNK25MachOFatRuntimeFileParser21GetSegmentIndexByNameEPKc
+- __ZNK25MachOFatRuntimeFileParser22GetArchitectureAtIndexEjR8ArchSpec
+- __ZNK25MachOFatRuntimeFileParser24AppendSegmentInformationEP6Mach32
+- __ZNK25MachOFatRuntimeFileParser24AppendSegmentInformationEP6Mach64
+- __ZNK25MachOFatRuntimeFileParser24GetSectionIndexByAddressEy
+- __ZNK25MachOFatRuntimeFileParser25GetMinimumInstructionSizeEv
+- __ZNK25MachOFatRuntimeFileParser4DumpEPNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEE
+- __ZNK25MachOFatRuntimeFileParser4FileEv
+- __ZNK25MachOFatRuntimeFileParser5ScopeERNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEb
+- __ZNK25MachOFatRuntimeFileParser7GetArchER8ArchSpec
+- __ZNK25RuntimeFileParserProtocol10NumObjectsEv
+- __ZNK25RuntimeFileParserProtocol13GetCodeRangesER17DWARFDebugAranges
+- __ZNK25RuntimeFileParserProtocol14GetSegmentInfoEjPNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPyS8_S8_S8_PjP13BinaryDataRef
+- __ZNK25RuntimeFileParserProtocol17ObjectNameAtIndexEj
+- __ZNK25RuntimeFileParserProtocol21GetSegmentIndexByNameEPKc
+- __ZNK25RuntimeFileParserProtocol24AppendSegmentInformationEP6Mach32
+- __ZNK25RuntimeFileParserProtocol24AppendSegmentInformationEP6Mach64
+- __ZNK27BSDArchiveRuntimeFileParser10NumObjectsEv
+- __ZNK27BSDArchiveRuntimeFileParser11GetFileSizeEv
+- __ZNK27BSDArchiveRuntimeFileParser11GetFileTypeEv
+- __ZNK27BSDArchiveRuntimeFileParser13GetCodeRangesER17DWARFDebugAranges
+- __ZNK27BSDArchiveRuntimeFileParser13GetFileOffsetEv
+- __ZNK27BSDArchiveRuntimeFileParser14GetCurrentArchER8ArchSpec
+- __ZNK27BSDArchiveRuntimeFileParser14GetSectionInfoEjPNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPyS8_S8_S8_PjP13BinaryDataRefSB_
+- __ZNK27BSDArchiveRuntimeFileParser14GetSegmentInfoEjPNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPyS8_S8_S8_PjP13BinaryDataRef
+- __ZNK27BSDArchiveRuntimeFileParser15NeedsEndianSwapEv
+- __ZNK27BSDArchiveRuntimeFileParser17ObjectNameAtIndexEj
+- __ZNK27BSDArchiveRuntimeFileParser19GetNumArchitecturesEv
+- __ZNK27BSDArchiveRuntimeFileParser21GetCurrentRuntimeFileEv
+- __ZNK27BSDArchiveRuntimeFileParser21GetSectionIndexByNameEPKc
+- __ZNK27BSDArchiveRuntimeFileParser21GetSegmentIndexByNameEPKc
+- __ZNK27BSDArchiveRuntimeFileParser22GetArchitectureAtIndexEjR8ArchSpec
+- __ZNK27BSDArchiveRuntimeFileParser24AppendSegmentInformationEP6Mach32
+- __ZNK27BSDArchiveRuntimeFileParser24AppendSegmentInformationEP6Mach64
+- __ZNK27BSDArchiveRuntimeFileParser24GetSectionIndexByAddressEy
+- __ZNK27BSDArchiveRuntimeFileParser25GetMinimumInstructionSizeEv
+- __ZNK27BSDArchiveRuntimeFileParser4DumpEPNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEE
+- __ZNK27BSDArchiveRuntimeFileParser4FileEv
+- __ZNK27BSDArchiveRuntimeFileParser5ScopeERNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEb
+- __ZNK27BSDArchiveRuntimeFileParser7GetArchER8ArchSpec
+- __ZNK28DWARFAbbreviationDeclaration16GetFixedByteSizeEPK16DWARFCompileUnit
+- __ZNK28DWARFAbbreviationDeclaration18FindAttributeIndexEt
+- __ZNK31DWARFAbbreviationDeclarationSet26GetAbbreviationDeclarationEy
+- __ZNK8ArchSpec7GetNameEv
+- __ZNK9MemoryMap7GetSizeEv
+- __ZNK9MemoryMap8GetBytesEv
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_out_of_rangeB8ne180100Ev
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5rfindEcm
+- __ZNKSt3__112basic_stringIhNS_11char_traitsIhEENS_9allocatorIhEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__114default_deleteI16DWARFCompileUnitEclB8ne180100EPS1_
+- __ZNKSt3__114default_deleteIN14DWARFDebugLine8PrologueEEclB8ne180100EPS2_
+- __ZNKSt3__120__shared_ptr_pointerIP16DWARFCompileUnitNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEE13__get_deleterERKSt9type_info
+- __ZNKSt3__120__shared_ptr_pointerIP24MachO32RuntimeFileParserNS_10shared_ptrI25RuntimeFileParserProtocolE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEE13__get_deleterERKSt9type_info
+- __ZNKSt3__120__shared_ptr_pointerIP24MachO64RuntimeFileParserNS_10shared_ptrI25RuntimeFileParserProtocolE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEE13__get_deleterERKSt9type_info
+- __ZNKSt3__120__shared_ptr_pointerIP27BSDArchiveRuntimeFileParserNS_10shared_ptrI25RuntimeFileParserProtocolE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEE13__get_deleterERKSt9type_info
+- __ZNKSt3__120__shared_ptr_pointerIPN14DWARFDebugLine8PrologueENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE13__get_deleterERKSt9type_info
+- __ZNKSt3__120__shared_ptr_pointerIPN14DWARFDebugLine9LineTableENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE13__get_deleterERKSt9type_info
+- __ZNKSt3__120__shared_ptr_pointerIPN6Mach327SectionENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE13__get_deleterERKSt9type_info
+- __ZNKSt3__120__shared_ptr_pointerIPN6Mach327SegmentENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE13__get_deleterERKSt9type_info
+- __ZNKSt3__120__shared_ptr_pointerIPN6Mach647SectionENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE13__get_deleterERKSt9type_info
+- __ZNKSt3__120__shared_ptr_pointerIPN6Mach647SegmentENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE13__get_deleterERKSt9type_info
+- __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB8ne180100EPKvm
+- __ZNKSt3__16locale9use_facetERNS0_2idE
+- __ZNKSt3__16vectorI10section_64NS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorI12DBGSymbolTagNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorI14DWARFAttributeNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorI14Elf64_Phdr_TagNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorI14Elf64_Shdr_TagNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorI15DBGLineEntryTagNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorI15segment_commandNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorI16FullUUIDRecord_tNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorI18segment_command_64NS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorI19DWARFDebugArangeSetNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorI19DWARFDebugInfoEntryNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorI28DWARFAbbreviationDeclarationNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorI7sectionNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorI8fat_archNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorI8nlist_64NS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorI9dw_symbolNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN14DWARFDebugLine16FileNameEntryTagENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN14DWARFDebugLine3RowENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN16DWARFDebugRanges5RangeENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN17DWARFDebugAranges5RangeENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN19DWARFDebugArangeSet13DescriptorTagENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN19DWARFDebugInfoEntry10Attributes4InfoENS_9allocatorIS3_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN27BSDArchiveRuntimeFileParser6ObjectENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorINS_10shared_ptrI16DWARFCompileUnitEENS_9allocatorIS3_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorINS_10shared_ptrI25RuntimeFileParserProtocolEENS_9allocatorIS3_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIP10DSFSDBNodeNS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIP13UUIDEntries_tNS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIP18_DBGDSYMObserverIDNS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIPK10__CFStringNS_9allocatorIS3_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIbNS_9allocatorIbEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__18ios_base6getlocEv
+- __ZNSt12length_errorC1B8ne180100EPKc
+- __ZNSt12out_of_rangeC1B8ne180100EPKc
+- __ZNSt12out_of_rangeD1Ev
+- __ZNSt3__110shared_ptrI16DWARFCompileUnitED1B8ne180100Ev
+- __ZNSt3__110shared_ptrI25RuntimeFileParserProtocolED1B8ne180100Ev
+- __ZNSt3__110shared_ptrIN14DWARFDebugLine8PrologueEED1B8ne180100Ev
+- __ZNSt3__110shared_ptrIN14DWARFDebugLine9LineTableEE5resetB8ne180100IS2_vEEvPT_
+- __ZNSt3__110shared_ptrIN14DWARFDebugLine9LineTableEED1B8ne180100Ev
+- __ZNSt3__110shared_ptrIN6Mach327SectionEED1B8ne180100Ev
+- __ZNSt3__110shared_ptrIN6Mach327SegmentEED1B8ne180100Ev
+- __ZNSt3__110shared_ptrIN6Mach647SectionEED1B8ne180100Ev
+- __ZNSt3__110shared_ptrIN6Mach647SegmentEED1B8ne180100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEiEEPvEENS_22__hash_node_destructorINS6_ISB_EEEEED1B8ne180100Ev
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERPFbRKN17DWARFDebugAranges5RangeES5_EPS3_Lb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKcjEENS_22__unordered_map_hasherIS3_S4_11CStringHash27CStringEqualBinaryPredicateLb1EEENS_21__unordered_map_equalIS3_S4_S7_S6_Lb1EEENS_9allocatorIS4_EEE11__do_rehashILb0EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKcjEENS_22__unordered_map_hasherIS3_S4_11CStringHash27CStringEqualBinaryPredicateLb1EEENS_21__unordered_map_equalIS3_S4_S7_S6_Lb1EEENS_9allocatorIS4_EEE19__node_insert_multiEPNS_11__hash_nodeIS4_PvEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKcjEENS_22__unordered_map_hasherIS3_S4_11CStringHash27CStringEqualBinaryPredicateLb1EEENS_21__unordered_map_equalIS3_S4_S7_S6_Lb1EEENS_9allocatorIS4_EEE27__node_insert_multi_prepareEmRS4_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKcjEENS_22__unordered_map_hasherIS3_S4_11CStringHash27CStringEqualBinaryPredicateLb1EEENS_21__unordered_map_equalIS3_S4_S7_S6_Lb1EEENS_9allocatorIS4_EEE4findIS3_EENS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEERKT_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEmc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEPKcm
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignERKS5_mm
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9push_backEc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSERKS5_
+- __ZNSt3__112basic_stringIhNS_11char_traitsIhEENS_9allocatorIhEEE17__assign_externalEPKhm
+- __ZNSt3__112basic_stringIhNS_11char_traitsIhEENS_9allocatorIhEEE6resizeB8ne180100Em
+- __ZNSt3__112basic_stringIhNS_11char_traitsIhEENS_9allocatorIhEEE9__grow_byEmmmmmm
+- __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE3putEc
+- __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE5flushEv
+- __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE6sentryC1ERS3_
+- __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE6sentryD1Ev
+- __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEd
+- __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEf
+- __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEi
+- __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEj
+- __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEt
+- __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEy
+- __ZNSt3__113unordered_mapIP8__MDItemPKcNS_4hashIS2_EENS_8equal_toIS2_EENS_9allocatorINS_4pairIKS2_S4_EEEEED1B8ne180100Ev
+- __ZNSt3__113unordered_mapIPKcP13UUIDEntries_tNS_4hashIS2_EENS_8equal_toIS2_EENS_9allocatorINS_4pairIKS2_S4_EEEEED1B8ne180100Ev
+- __ZNSt3__113unordered_setINS_4pairIiyEEN6DSFSDB15DeviceInodeHashENS3_16DeviceInodeEqualENS_9allocatorIS2_EEED1B8ne180100Ev
+- __ZNSt3__114__split_bufferI19DWARFDebugArangeSetRNS_9allocatorIS1_EEED1Ev
+- __ZNSt3__114__split_bufferI28DWARFAbbreviationDeclarationRNS_9allocatorIS1_EEED1Ev
+- __ZNSt3__114__split_bufferIN14DWARFDebugLine16FileNameEntryTagERNS_9allocatorIS2_EEED1Ev
+- __ZNSt3__114__split_bufferIN27BSDArchiveRuntimeFileParser6ObjectERNS_9allocatorIS2_EEED1Ev
+- __ZNSt3__116__pad_and_outputB8ne180100IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__119__partial_sort_implB8ne180100INS_17_ClassicAlgPolicyERPFbRKN17DWARFDebugAranges5RangeES5_EPS3_S9_EET1_SA_SA_T2_OT0_
+- __ZNSt3__120__shared_ptr_pointerIP16DWARFCompileUnitNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_pointerIP16DWARFCompileUnitNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_pointerIP16DWARFCompileUnitNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEED0Ev
+- __ZNSt3__120__shared_ptr_pointerIP16DWARFCompileUnitNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEED1Ev
+- __ZNSt3__120__shared_ptr_pointerIP24MachO32RuntimeFileParserNS_10shared_ptrI25RuntimeFileParserProtocolE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_pointerIP24MachO32RuntimeFileParserNS_10shared_ptrI25RuntimeFileParserProtocolE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_pointerIP24MachO32RuntimeFileParserNS_10shared_ptrI25RuntimeFileParserProtocolE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEED0Ev
+- __ZNSt3__120__shared_ptr_pointerIP24MachO32RuntimeFileParserNS_10shared_ptrI25RuntimeFileParserProtocolE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEED1Ev
+- __ZNSt3__120__shared_ptr_pointerIP24MachO64RuntimeFileParserNS_10shared_ptrI25RuntimeFileParserProtocolE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_pointerIP24MachO64RuntimeFileParserNS_10shared_ptrI25RuntimeFileParserProtocolE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_pointerIP24MachO64RuntimeFileParserNS_10shared_ptrI25RuntimeFileParserProtocolE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEED0Ev
+- __ZNSt3__120__shared_ptr_pointerIP24MachO64RuntimeFileParserNS_10shared_ptrI25RuntimeFileParserProtocolE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEED1Ev
+- __ZNSt3__120__shared_ptr_pointerIP27BSDArchiveRuntimeFileParserNS_10shared_ptrI25RuntimeFileParserProtocolE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_pointerIP27BSDArchiveRuntimeFileParserNS_10shared_ptrI25RuntimeFileParserProtocolE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_pointerIP27BSDArchiveRuntimeFileParserNS_10shared_ptrI25RuntimeFileParserProtocolE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEED0Ev
+- __ZNSt3__120__shared_ptr_pointerIP27BSDArchiveRuntimeFileParserNS_10shared_ptrI25RuntimeFileParserProtocolE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEED1Ev
+- __ZNSt3__120__shared_ptr_pointerIPN14DWARFDebugLine8PrologueENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_pointerIPN14DWARFDebugLine8PrologueENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_pointerIPN14DWARFDebugLine8PrologueENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED0Ev
+- __ZNSt3__120__shared_ptr_pointerIPN14DWARFDebugLine8PrologueENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED1Ev
+- __ZNSt3__120__shared_ptr_pointerIPN14DWARFDebugLine9LineTableENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_pointerIPN14DWARFDebugLine9LineTableENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_pointerIPN14DWARFDebugLine9LineTableENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED0Ev
+- __ZNSt3__120__shared_ptr_pointerIPN14DWARFDebugLine9LineTableENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED1Ev
+- __ZNSt3__120__shared_ptr_pointerIPN6Mach327SectionENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_pointerIPN6Mach327SectionENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_pointerIPN6Mach327SectionENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED0Ev
+- __ZNSt3__120__shared_ptr_pointerIPN6Mach327SectionENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED1Ev
+- __ZNSt3__120__shared_ptr_pointerIPN6Mach327SegmentENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_pointerIPN6Mach327SegmentENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_pointerIPN6Mach327SegmentENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED0Ev
+- __ZNSt3__120__shared_ptr_pointerIPN6Mach327SegmentENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED1Ev
+- __ZNSt3__120__shared_ptr_pointerIPN6Mach647SectionENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_pointerIPN6Mach647SectionENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_pointerIPN6Mach647SectionENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED0Ev
+- __ZNSt3__120__shared_ptr_pointerIPN6Mach647SectionENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED1Ev
+- __ZNSt3__120__shared_ptr_pointerIPN6Mach647SegmentENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_pointerIPN6Mach647SegmentENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_pointerIPN6Mach647SegmentENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED0Ev
+- __ZNSt3__120__shared_ptr_pointerIPN6Mach647SegmentENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED1Ev
+- __ZNSt3__120__throw_length_errorB8ne180100EPKc
+- __ZNSt3__120__throw_out_of_rangeB8ne180100EPKc
+- __ZNSt3__124__put_character_sequenceB8ne180100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__127__insertion_sort_incompleteB8ne180100INS_17_ClassicAlgPolicyERPFbRKN17DWARFDebugAranges5RangeES5_EPS3_EEbT1_SA_T0_
+- __ZNSt3__127__tree_balance_after_insertB8ne180100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorI28DWARFAbbreviationDeclarationEEPS3_EEED1B8ne180100Ev
+- __ZNSt3__135__uninitialized_allocator_copy_implB8ne180100INS_9allocatorI28DWARFAbbreviationDeclarationEEPS2_S4_S4_EET2_RT_T0_T1_S5_
+- __ZNSt3__15ctypeIcE2idE
+- __ZNSt3__16__treeINS_12__value_typeIj31DWARFAbbreviationDeclarationSetEENS_19__map_value_compareIjS3_NS_4lessIjEELb1EEENS_9allocatorIS3_EEE7destroyEPNS_11__tree_nodeIS3_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIjNS_10shared_ptrIN14DWARFDebugLine9LineTableEEEEENS_19__map_value_compareIjS6_NS_4lessIjEELb1EEENS_9allocatorIS6_EEE7destroyEPNS_11__tree_nodeIS6_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIjhEENS_19__map_value_compareIjS2_NS_4lessIjEELb1EEENS_9allocatorIS2_EEE7destroyEPNS_11__tree_nodeIS2_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIjyEENS_19__map_value_compareIjS2_NS_4lessIjEELb1EEENS_9allocatorIS2_EEE7destroyEPNS_11__tree_nodeIS2_PvEE
+- __ZNSt3__16localeD1Ev
+- __ZNSt3__16vectorI12DBGSymbolTagNS_9allocatorIS1_EEE8__appendEm
+- __ZNSt3__16vectorI14DWARFAttributeNS_9allocatorIS1_EEE18__assign_with_sizeB8ne180100IPS1_S6_EEvT_T0_l
+- __ZNSt3__16vectorI14Elf64_Phdr_TagNS_9allocatorIS1_EEE8__appendEm
+- __ZNSt3__16vectorI14Elf64_Shdr_TagNS_9allocatorIS1_EEE8__appendEm
+- __ZNSt3__16vectorI15DBGLineEntryTagNS_9allocatorIS1_EEE8__appendEm
+- __ZNSt3__16vectorI19DWARFDebugArangeSetNS_9allocatorIS1_EEE21__push_back_slow_pathIRKS1_EEPS1_OT_
+- __ZNSt3__16vectorI19DWARFDebugArangeSetNS_9allocatorIS1_EEED1B8ne180100Ev
+- __ZNSt3__16vectorI28DWARFAbbreviationDeclarationNS_9allocatorIS1_EEE18__assign_with_sizeB8ne180100IPS1_S6_EEvT_T0_l
+- __ZNSt3__16vectorI28DWARFAbbreviationDeclarationNS_9allocatorIS1_EEE21__push_back_slow_pathIRKS1_EEPS1_OT_
+- __ZNSt3__16vectorI8fat_archNS_9allocatorIS1_EEE8__appendEm
+- __ZNSt3__16vectorIN14DWARFDebugLine16FileNameEntryTagENS_9allocatorIS2_EEE21__push_back_slow_pathIRKS2_EEPS2_OT_
+- __ZNSt3__16vectorIN17DWARFDebugAranges5RangeENS_9allocatorIS2_EEE6insertENS_11__wrap_iterIPKS2_EERS7_
+- __ZNSt3__16vectorIN27BSDArchiveRuntimeFileParser6ObjectENS_9allocatorIS2_EEE21__push_back_slow_pathIRKS2_EEPS2_OT_
+- __ZNSt3__16vectorIN27BSDArchiveRuntimeFileParser6ObjectENS_9allocatorIS2_EEE9push_backB8ne180100ERKS2_
+- __ZNSt3__16vectorINS_10shared_ptrI16DWARFCompileUnitEENS_9allocatorIS3_EEE21__push_back_slow_pathIRKS3_EEPS3_OT_
+- __ZNSt3__16vectorINS_10shared_ptrI25RuntimeFileParserProtocolEENS_9allocatorIS3_EEE8__appendEm
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE21__push_back_slow_pathIS6_EEPS6_OT_
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE8__appendEm
+- __ZNSt3__16vectorIPK10__CFStringNS_9allocatorIS3_EEE6assignEmRKS3_
+- __ZNSt3__16vectorIbNS_9allocatorIbEEE6resizeEmb
+- __ZNSt3__16vectorIbNS_9allocatorIbEEE7reserveEm
+- __ZNSt3__17__sort4B8ne180100INS_17_ClassicAlgPolicyERPFbRKN17DWARFDebugAranges5RangeES5_EPS3_EEvT1_SA_SA_SA_T0_
+- __ZNSt3__18auto_ptrI13DWARFInstanceED1B8ne180100Ev
+- __ZNSt3__18auto_ptrI9DWARFDataED1B8ne180100Ev
+- __ZNSt3__18ios_base33__set_badbit_and_consider_rethrowEv
+- __ZNSt3__18ios_base5clearEj
+- __ZSt28__throw_bad_array_new_lengthB8ne180100v
+- __ZTI10CFReleaserIP7__CFSetE
+- __ZTI10CFReleaserIPK10__CFNumberE
+- __ZTI12CFMutableSet
+- __ZTI17RuntimeFileParser
+- __ZTI20ELFRuntimeFileParser
+- __ZTI24MachO32RuntimeFileParser
+- __ZTI24MachO64RuntimeFileParser
+- __ZTI25MachOFatRuntimeFileParser
+- __ZTI25RuntimeFileParserProtocol
+- __ZTI27BSDArchiveRuntimeFileParser
+- __ZTI8ArchSpec
+- __ZTI9MemoryMap
+- __ZTINSt3__120__shared_ptr_pointerIP16DWARFCompileUnitNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEEE
+- __ZTINSt3__120__shared_ptr_pointerIP24MachO32RuntimeFileParserNS_10shared_ptrI25RuntimeFileParserProtocolE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEEE
+- __ZTINSt3__120__shared_ptr_pointerIP24MachO64RuntimeFileParserNS_10shared_ptrI25RuntimeFileParserProtocolE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEEE
+- __ZTINSt3__120__shared_ptr_pointerIP27BSDArchiveRuntimeFileParserNS_10shared_ptrI25RuntimeFileParserProtocolE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEEE
+- __ZTINSt3__120__shared_ptr_pointerIPN14DWARFDebugLine8PrologueENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+- __ZTINSt3__120__shared_ptr_pointerIPN14DWARFDebugLine9LineTableENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+- __ZTINSt3__120__shared_ptr_pointerIPN6Mach327SectionENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+- __ZTINSt3__120__shared_ptr_pointerIPN6Mach327SegmentENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+- __ZTINSt3__120__shared_ptr_pointerIPN6Mach647SectionENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+- __ZTINSt3__120__shared_ptr_pointerIPN6Mach647SegmentENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+- __ZTISt12out_of_range
+- __ZTS10CFReleaserIP7__CFSetE
+- __ZTS10CFReleaserIPK10__CFNumberE
+- __ZTS12CFMutableSet
+- __ZTS17RuntimeFileParser
+- __ZTS20ELFRuntimeFileParser
+- __ZTS24MachO32RuntimeFileParser
+- __ZTS24MachO64RuntimeFileParser
+- __ZTS25MachOFatRuntimeFileParser
+- __ZTS25RuntimeFileParserProtocol
+- __ZTS27BSDArchiveRuntimeFileParser
+- __ZTS8ArchSpec
+- __ZTS9MemoryMap
+- __ZTSNSt3__110shared_ptrI16DWARFCompileUnitE27__shared_ptr_default_deleteIS1_S1_EE
+- __ZTSNSt3__110shared_ptrI25RuntimeFileParserProtocolE27__shared_ptr_default_deleteIS1_24MachO32RuntimeFileParserEE
+- __ZTSNSt3__110shared_ptrI25RuntimeFileParserProtocolE27__shared_ptr_default_deleteIS1_24MachO64RuntimeFileParserEE
+- __ZTSNSt3__110shared_ptrI25RuntimeFileParserProtocolE27__shared_ptr_default_deleteIS1_27BSDArchiveRuntimeFileParserEE
+- __ZTSNSt3__110shared_ptrIN14DWARFDebugLine8PrologueEE27__shared_ptr_default_deleteIS2_S2_EE
+- __ZTSNSt3__110shared_ptrIN14DWARFDebugLine9LineTableEE27__shared_ptr_default_deleteIS2_S2_EE
+- __ZTSNSt3__110shared_ptrIN6Mach327SectionEE27__shared_ptr_default_deleteIS2_S2_EE
+- __ZTSNSt3__110shared_ptrIN6Mach327SegmentEE27__shared_ptr_default_deleteIS2_S2_EE
+- __ZTSNSt3__110shared_ptrIN6Mach647SectionEE27__shared_ptr_default_deleteIS2_S2_EE
+- __ZTSNSt3__110shared_ptrIN6Mach647SegmentEE27__shared_ptr_default_deleteIS2_S2_EE
+- __ZTSNSt3__120__shared_ptr_pointerIP16DWARFCompileUnitNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEEE
+- __ZTSNSt3__120__shared_ptr_pointerIP24MachO32RuntimeFileParserNS_10shared_ptrI25RuntimeFileParserProtocolE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEEE
+- __ZTSNSt3__120__shared_ptr_pointerIP24MachO64RuntimeFileParserNS_10shared_ptrI25RuntimeFileParserProtocolE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEEE
+- __ZTSNSt3__120__shared_ptr_pointerIP27BSDArchiveRuntimeFileParserNS_10shared_ptrI25RuntimeFileParserProtocolE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEEE
+- __ZTSNSt3__120__shared_ptr_pointerIPN14DWARFDebugLine8PrologueENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+- __ZTSNSt3__120__shared_ptr_pointerIPN14DWARFDebugLine9LineTableENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+- __ZTSNSt3__120__shared_ptr_pointerIPN6Mach327SectionENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+- __ZTSNSt3__120__shared_ptr_pointerIPN6Mach327SegmentENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+- __ZTSNSt3__120__shared_ptr_pointerIPN6Mach647SectionENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+- __ZTSNSt3__120__shared_ptr_pointerIPN6Mach647SegmentENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+- __ZTV10CFReleaserIP7__CFSetE
+- __ZTV10CFReleaserIPK10__CFNumberE
+- __ZTV12CFMutableSet
+- __ZTV17RuntimeFileParser
+- __ZTV20ELFRuntimeFileParser
+- __ZTV24MachO32RuntimeFileParser
+- __ZTV24MachO64RuntimeFileParser
+- __ZTV25MachOFatRuntimeFileParser
+- __ZTV27BSDArchiveRuntimeFileParser
+- __ZTV8ArchSpec
+- __ZTV9MemoryMap
+- __ZTVNSt3__120__shared_ptr_pointerIP16DWARFCompileUnitNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEEE
+- __ZTVNSt3__120__shared_ptr_pointerIP24MachO32RuntimeFileParserNS_10shared_ptrI25RuntimeFileParserProtocolE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEEE
+- __ZTVNSt3__120__shared_ptr_pointerIP24MachO64RuntimeFileParserNS_10shared_ptrI25RuntimeFileParserProtocolE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEEE
+- __ZTVNSt3__120__shared_ptr_pointerIP27BSDArchiveRuntimeFileParserNS_10shared_ptrI25RuntimeFileParserProtocolE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEEE
+- __ZTVNSt3__120__shared_ptr_pointerIPN14DWARFDebugLine8PrologueENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+- __ZTVNSt3__120__shared_ptr_pointerIPN14DWARFDebugLine9LineTableENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+- __ZTVNSt3__120__shared_ptr_pointerIPN6Mach327SectionENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+- __ZTVNSt3__120__shared_ptr_pointerIPN6Mach327SegmentENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+- __ZTVNSt3__120__shared_ptr_pointerIPN6Mach647SectionENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+- __ZTVNSt3__120__shared_ptr_pointerIPN6Mach647SegmentENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+- __ZTVSt12out_of_range
+- __ZZ23GetMachFileTypeAsStringjE14g_filetype_str
+- __ZZL38CreateDSYMPathUsingImplicitSearchPathsPK8__CFUUIDE21g_implicit_init_mutex
+- __ZZN8ArchSpec7GetNameEjjE13s_cpu_hex_str
+- __ZeqRK8ArchSpecS1_
+- ___ZN6DSFSDB14WatchDirectoryEPKcb_block_invoke.cold.1
+- ___ZN6DSFSDB14WatchDirectoryEPKcb_block_invoke.cold.2
+- ___ZN6DSFSDB14WatchDirectoryEPKcb_block_invoke.cold.3
+- ____Z19NotifyDSYMObserversPK8__CFUUIDPK7__CFURLh_block_invoke
+- ____ZL16_getFileSystemDBv_block_invoke
+- ____ZL24copyURLFromCachesForUUIDPK10__CFString_block_invoke
+- ____ZL38CreateDSYMPathUsingExplicitSearchPathsPK8__CFUUIDPK9__CFArraybbb_block_invoke
+- ____ZL39CopyDSYMURLForQueryItemWithMatchingUUIDPK10__CFString_block_invoke
+- ____ZN6DSFSDB13ScanDirectoryEPKcb_block_invoke
+- ____ZN6DSFSDB14WatchDirectoryEPKcb_block_invoke
+- ____ZN6DSFSDB17_Terminate_lockedEb_block_invoke
+- ___block_descriptor_60_e5_v8?0l
+- ___cxa_end_catch
+- ___tolower
+- __block_descriptor_tmp.40
+- __block_descriptor_tmp.49
+- __block_descriptor_tmp.53
+- _dispatch_release
+- _getenv
+- _getpagesize
+- _kCFRunLoopDefaultMode
+- _kCFTypeSetCallBacks
+- _madvise
+- _memchr
+- _memset
+- _mmap
+- _munmap
+- _qsort
+- _setgid
+- _strcasecmp
+- _strncmp
+- _strtoul
+CStrings:
++ "/usr/local/bin/dsymForUUID"
++ "Calling FSEventStreamRelease()\n"
++ "DBGBuildContainerPath"
++ "DBGBuildSourcePath"
++ "DBGSourceCachePathMapping"
++ "DBGSourcePathRemapping"
++ "DBGStartWatchingOrScanningPaths"
++ "DBGSymbolRichExecutable"
++ "DebugSymbols.AdjacentSymbolSearchStrategy"
++ "DebugSymbols.RecursiveSymbolSearchStrategy"
++ "DebugSymbols/SymbolSearcher.swift"
++ "Fatal error"
++ "Metadata property list has an invalid format"
++ "Must implement search(for:)"
++ "SearchPathStrategy"
++ "SearchPathStrategy.mm"
++ "SpotlightWorker.mm"
++ "[DBGExplicitSearchPathRemove] couldn't convert url to a string."
++ "[DBGExplicitSearchPathRemove] couldn't get a c-string from a CFString."
++ "[DBGExplicitSearchPathRemove] was provided a non string/url path to stop watching."
++ "[_DBGStartWatchingOrScanningPaths] couldn't convert url to a string."
++ "[_DBGStartWatchingOrScanningPaths] couldn't get a c-string from a CFString."
++ "[_DBGStartWatchingOrScanningPaths] was provided a non string/url path."
++ "_CreateSpotlightThread"
++ "_StopWatchingPaths_locked"
++ "_TtC12DebugSymbols14SymbolSearcher"
++ "_TtC12DebugSymbols20SymbolSearchStrategy"
++ "_TtC12DebugSymbols28AdjacentSymbolSearchStrategy"
++ "_TtC12DebugSymbols29RecursiveSymbolSearchStrategy"
++ "_TtC12DebugSymbols29SpotlightSymbolSearchStrategy"
++ "_TtC12DebugSymbols30DownloadedSymbolSearchStrategy"
++ "binary"
++ "com.apple.dt.DebugSymbols"
++ "contentsOfDirectoryAtURL:includingPropertiesForKeys:options:error:"
++ "defaultManager"
++ "directories"
++ "fileExistsAtPath:"
++ "g_spotlight_query_state == eSpotlightQueryUninitialized"
++ "init()"
++ "progressWithTotalUnitCount:"
++ "propertyListWithData:options:format:error:"
++ "runLegacyDownloadScript(for:customScript:)"
++ "setCompletedUnitCount:"
++ "seteuid(%u) => %i, seteugid(%u) => %i"
++ "v12@?0i8"
+- "  "
+- "    "
+- "     "
+- "         "
+- "                      cpu"
+- "    checking '%s'\n"
+- "    found '%s'\n"
+- "    magic:      "
+- "    nfat_arch:  "
+- "    using '%s'\n"
+- "    using non-variant '%s'\n"
+- "    using variant '%s'\n"
+- " '"
+- " ("
+- "!\"DWARFDebugRanges::RangeList::Extract() unsupported address size.\""
+- "!\"GetMax64 unhandled case!\""
+- "!\"invalid address byte size\""
+- "!<arch>\n"
+- "%s"
+- "%u%c%u"
+- "'%s' doesn't contain architecture information for %s."
+- "(%s) %s section has file offset + file size (0x%8.8llx) that is beyond the end (0x%8.8zx) of architecture slice in '%s'"
+- "(%s) %s section has file offset + file size (0x%8.8x) that is beyond the end (0x%8.8lx) of architecture slice in '%s'"
+- "(%s) %s segment has file offset (0x%8.8llx) that is beyond the end (0x%8.8zx) of architecture slice in '%s'"
+- "(%s) %s segment has file offset (0x%8.8x) that is beyond the end (0x%8.8lx) of architecture slice in '%s'"
+- "(%s) %s.%s section has a relocation offset (0x%8.8x) that is beyond the end (0x%8.8zx) of architecture slice in '%s'"
+- "(%s) %s.%s section has a relocation offset + size (0x%8.8x) that is beyond the (0x%8.8zx) of architecture slice in '%s'"
+- "(%s) %s.%s section has offset (0x%8.8x) that is beyond the end (0x%8.8zx) of architecture slice in '%s'"
+- "(%s) %s.%s section has offset + size (0x%8.8llx) that is beyond the end (0x%8.8zx) of architecture slice in '%s'"
+- "(%s) %s.%s section has offset + size (0x%8.8x) that is beyond the end (0x%8.8zx) of architecture slice in '%s'"
+- ") "
+- "*offset_ptr == end_prologue_offset"
+- "---------------- -------- -------- -------- -------- -------- -------- -------- --------"
+- "---------------- ---------------- -------- -------- -------- -------- -------- -------- -------- -------- -------- ======== ======"
+- "---------------- ---------------- ---------------- ---------------- -------- -------- -------- -------- -------- -------- -------- -------- ======== ======"
+- "---------------- ---------------- ---------------- ---------------- ---------------- -------- -------- -------- --------"
+- ".debug_"
+- ".debug_abbrev"
+- ".debug_aranges"
+- ".debug_frame"
+- ".debug_info"
+- ".debug_inlined"
+- ".debug_line"
+- ".debug_loc"
+- ".debug_macinfo"
+- ".debug_pubnames"
+- ".debug_pubtypes"
+- ".debug_ranges"
+- ".debug_str"
+- ".stab"
+- ".stabstr"
+- "0x%8.8x"
+- "=== -------- -------- -------- -------- -------- --------"
+- "==== -------- ------------ ---------------------------------------- ---------------- ---------------- ---------------- -------- -------- ---------------- ---------------- ===================="
+- "==== ---------- -------------- ---------------- ---------------- ---------------- ---------------- ---------------- ----------------"
+- "ALLOC"
+- "Architectures:"
+- "BinaryDataRef.cpp"
+- "CFGetTypeID (compile_unit) == CFDictionaryGetTypeID ()"
+- "CFGetTypeID (compile_unit_dict) == CFDictionaryGetTypeID ()"
+- "Contents/Resources/DWARF/"
+- "DBGDwarfGetCompileUnitFunctions"
+- "DBGDwarfGetCompileUnitLineTable"
+- "DBGSpotlightTimeoutSeconds"
+- "DBG_FUNCTIONS"
+- "DBG_LINE_TABLE"
+- "DBG_PATH"
+- "DWARF"
+- "DWARFDebugArangeSet.cpp"
+- "DWARFDebugInfoEntry.cpp"
+- "DWARFDebugLine.cpp"
+- "DWARFDebugRanges.cpp"
+- "DWARFFormValue::SkipValue(form, debug_info_data, &offset, cu)"
+- "DW_AT_%4.4x"
+- "DW_AT_APPLE_block"
+- "DW_AT_APPLE_flags"
+- "DW_AT_APPLE_isa"
+- "DW_AT_APPLE_optimized"
+- "DW_AT_APPLE_repository_abstract_origin"
+- "DW_AT_APPLE_repository_file"
+- "DW_AT_APPLE_repository_import"
+- "DW_AT_APPLE_repository_name"
+- "DW_AT_APPLE_repository_specification"
+- "DW_AT_APPLE_repository_type"
+- "DW_AT_GNU_vector"
+- "DW_AT_MIPS_abstract_name"
+- "DW_AT_MIPS_clone_origin"
+- "DW_AT_MIPS_epilog_begin"
+- "DW_AT_MIPS_fde"
+- "DW_AT_MIPS_has_inlines"
+- "DW_AT_MIPS_linkage_name"
+- "DW_AT_MIPS_loop_begin"
+- "DW_AT_MIPS_loop_unroll_factor"
+- "DW_AT_MIPS_software_pipeline_depth"
+- "DW_AT_MIPS_stride"
+- "DW_AT_MIPS_tail_loop_begin"
+- "DW_AT_abstract_origin"
+- "DW_AT_accessibility"
+- "DW_AT_address_class"
+- "DW_AT_allocated"
+- "DW_AT_artificial"
+- "DW_AT_associated"
+- "DW_AT_base_types"
+- "DW_AT_binary_scale"
+- "DW_AT_bit_offset"
+- "DW_AT_bit_size"
+- "DW_AT_bit_stride"
+- "DW_AT_body_begin"
+- "DW_AT_body_end"
+- "DW_AT_byte_size"
+- "DW_AT_byte_stride"
+- "DW_AT_call_column"
+- "DW_AT_call_file"
+- "DW_AT_call_line"
+- "DW_AT_calling_convention"
+- "DW_AT_common_reference"
+- "DW_AT_comp_dir"
+- "DW_AT_const_value"
+- "DW_AT_containing_type"
+- "DW_AT_count"
+- "DW_AT_data_location"
+- "DW_AT_data_member_location"
+- "DW_AT_decimal_scale"
+- "DW_AT_decimal_sign"
+- "DW_AT_decl_column"
+- "DW_AT_decl_file"
+- "DW_AT_decl_line"
+- "DW_AT_declaration"
+- "DW_AT_default_value"
+- "DW_AT_description"
+- "DW_AT_digit_count"
+- "DW_AT_discr"
+- "DW_AT_discr_list"
+- "DW_AT_discr_value"
+- "DW_AT_elemental"
+- "DW_AT_encoding"
+- "DW_AT_endianity"
+- "DW_AT_entry_pc"
+- "DW_AT_explicit"
+- "DW_AT_extension"
+- "DW_AT_external"
+- "DW_AT_frame_base"
+- "DW_AT_friend"
+- "DW_AT_hi_user"
+- "DW_AT_high_pc"
+- "DW_AT_identifier_case"
+- "DW_AT_import"
+- "DW_AT_inline"
+- "DW_AT_is_optional"
+- "DW_AT_language"
+- "DW_AT_lo_user"
+- "DW_AT_location"
+- "DW_AT_low_pc"
+- "DW_AT_lower_bound"
+- "DW_AT_mac_info"
+- "DW_AT_macro_info"
+- "DW_AT_mutable"
+- "DW_AT_name"
+- "DW_AT_namelist_item"
+- "DW_AT_object_pointer"
+- "DW_AT_ordering"
+- "DW_AT_picture_string"
+- "DW_AT_priority"
+- "DW_AT_producer"
+- "DW_AT_prototyped"
+- "DW_AT_pure"
+- "DW_AT_ranges"
+- "DW_AT_recursive"
+- "DW_AT_return_addr"
+- "DW_AT_segment"
+- "DW_AT_sf_names"
+- "DW_AT_sibling"
+- "DW_AT_small"
+- "DW_AT_specification"
+- "DW_AT_src_coords"
+- "DW_AT_src_info"
+- "DW_AT_start_scope"
+- "DW_AT_static_link"
+- "DW_AT_stmt_list"
+- "DW_AT_string_length"
+- "DW_AT_threads_scaled"
+- "DW_AT_trampoline"
+- "DW_AT_type"
+- "DW_AT_upper_bound"
+- "DW_AT_use_UTF8"
+- "DW_AT_use_location"
+- "DW_AT_variable_parameter"
+- "DW_AT_virtuality"
+- "DW_AT_visibility"
+- "DW_AT_vtable_elem_location"
+- "DW_TAG"
+- "DW_TAG_%4.4x"
+- "DW_TAG_access_declaration"
+- "DW_TAG_array_type"
+- "DW_TAG_base_type"
+- "DW_TAG_catch_block"
+- "DW_TAG_class_type"
+- "DW_TAG_common_block"
+- "DW_TAG_common_inclusion"
+- "DW_TAG_compile_unit"
+- "DW_TAG_condition"
+- "DW_TAG_const_type"
+- "DW_TAG_constant"
+- "DW_TAG_dwarf_procedure"
+- "DW_TAG_entry_point"
+- "DW_TAG_enumeration_type"
+- "DW_TAG_enumerator"
+- "DW_TAG_file_type"
+- "DW_TAG_formal_parameter"
+- "DW_TAG_friend"
+- "DW_TAG_imported_declaration"
+- "DW_TAG_imported_module"
+- "DW_TAG_imported_unit"
+- "DW_TAG_inheritance"
+- "DW_TAG_inlined_subroutine"
+- "DW_TAG_interface_type"
+- "DW_TAG_label"
+- "DW_TAG_lexical_block"
+- "DW_TAG_member"
+- "DW_TAG_module"
+- "DW_TAG_namelist"
+- "DW_TAG_namelist_item"
+- "DW_TAG_namespace"
+- "DW_TAG_packed_type"
+- "DW_TAG_partial_unit"
+- "DW_TAG_pointer_type"
+- "DW_TAG_ptr_to_member_type"
+- "DW_TAG_reference_type"
+- "DW_TAG_restrict_type"
+- "DW_TAG_set_type"
+- "DW_TAG_shared_type"
+- "DW_TAG_string_type"
+- "DW_TAG_structure_type"
+- "DW_TAG_subprogram"
+- "DW_TAG_subrange_type"
+- "DW_TAG_subroutine_type"
+- "DW_TAG_template_type_parameter"
+- "DW_TAG_template_value_parameter"
+- "DW_TAG_thrown_type"
+- "DW_TAG_try_block"
+- "DW_TAG_typedef"
+- "DW_TAG_union_type"
+- "DW_TAG_unspecified_parameters"
+- "DW_TAG_unspecified_type"
+- "DW_TAG_variable"
+- "DW_TAG_variant"
+- "DW_TAG_variant_part"
+- "DW_TAG_volatile_type"
+- "DW_TAG_with_stmt"
+- "DW_UID"
+- "DYLD_IMAGE_SUFFIX"
+- "DebugSymbols couldn't convert url to a string."
+- "DebugSymbols couldn't get a c-string from a CFString."
+- "DebugSymbols was provided a non string/url path to block."
+- "DebugSymbols was provided a non string/url path to stop watching."
+- "DebugSymbols was provided a non string/url path."
+- "DebugSymbols.mm"
+- "ELF Header"
+- "ELF32RuntimeFileParser.cpp"
+- "ELFCLASS32"
+- "ELFCLASS64"
+- "ELFCLASSNONE"
+- "ELFDATA2LSB - Little Endian"
+- "ELFDATA2MSB - Big Endian"
+- "ELFDATANONE"
+- "ET_CORE"
+- "ET_DYN"
+- "ET_EXEC"
+- "ET_NONE"
+- "ET_REL"
+- "EXECINSTR"
+- "Extract"
+- "ExtractArchitectures"
+- "GetAddress"
+- "GetAttributes"
+- "GetFileStats"
+- "GetMax64"
+- "GetPathToDWARF('%s')\n"
+- "GetPathToDWARF('%s') with DYLD_IMAGE_SUFFIX == '%s'\n"
+- "Header"
+- "IDX  name     type         flags                                    addr             offset           size             link     info     address align    entsize          Name"
+- "IDX  p_type     p_flags        p_offset         p_vaddr          p_paddr          p_filesz         p_memsz          p_align"
+- "MH_BUNDLE"
+- "MH_CORE"
+- "MH_DSYM"
+- "MH_DYLIB"
+- "MH_DYLIB_STUB"
+- "MH_DYLINKER"
+- "MH_EXECUTE"
+- "MH_FVMLIB"
+- "MH_KEXT_BUNDLE"
+- "MH_OBJECT"
+- "MH_PRELOAD"
+- "MachO32RuntimeFileParser.cpp"
+- "MachO64RuntimeFileParser.cpp"
+- "MachOFatRuntimeFileParser.cpp"
+- "NeedsEndianSwap"
+- "PT_DYNAMIC"
+- "PT_INTERP"
+- "PT_LOAD"
+- "PT_NOTE"
+- "PT_NULL"
+- "PT_PHDR"
+- "PT_SHLIB"
+- "ParsePrologue"
+- "ParseStatementTable"
+- "Program Headers"
+- "SHT_DYNAMIC"
+- "SHT_DYNSYM"
+- "SHT_HASH"
+- "SHT_HIPROC"
+- "SHT_HIUSER"
+- "SHT_LOPROC"
+- "SHT_LOUSER"
+- "SHT_NOBITS"
+- "SHT_NOTE"
+- "SHT_NULL"
+- "SHT_PROGBITS"
+- "SHT_REL"
+- "SHT_RELA"
+- "SHT_SHLIB"
+- "SHT_STRTAB"
+- "SHT_SYMTAB"
+- "Section Headers"
+- "Section Name     Segment Name     addr             size             offset   align    reloff   nreloc   flags    reserv1  reserv2  reserv3  size     size %"
+- "Section Name     Segment Name     addr     size     offset   align    reloff   nreloc   flags    reserv1  reserv2  size     size %"
+- "Sections"
+- "Segment Name     vmaddr           vmsize           fileoff          filesize         maxprot  initprot nsects   flags"
+- "Segment Name     vmaddr   vmsize   fileoff  filesize maxprot  initprot nsects   flags"
+- "Segments"
+- "TAG_APPLE_Property"
+- "TAG_GNU_formal_parameter_pack"
+- "TAG_GNU_template_parameter_pack"
+- "TAG_GNU_template_template_param"
+- "TAG_MIPS_loop"
+- "TAG_access_declaration"
+- "TAG_array_type"
+- "TAG_base_type"
+- "TAG_catch_block"
+- "TAG_class_template"
+- "TAG_class_type"
+- "TAG_common_block"
+- "TAG_common_inclusion"
+- "TAG_compile_unit"
+- "TAG_const_type"
+- "TAG_constant"
+- "TAG_dwarf_procedure"
+- "TAG_entry_point"
+- "TAG_enumeration_type"
+- "TAG_enumerator"
+- "TAG_file_type"
+- "TAG_formal_parameter"
+- "TAG_format_label"
+- "TAG_friend"
+- "TAG_function_template"
+- "TAG_hi_user"
+- "TAG_imported_declaration"
+- "TAG_imported_module"
+- "TAG_imported_unit"
+- "TAG_inheritance"
+- "TAG_inlined_subroutine"
+- "TAG_interface_type"
+- "TAG_label"
+- "TAG_lexical_block"
+- "TAG_lo_user"
+- "TAG_member"
+- "TAG_module"
+- "TAG_namelist"
+- "TAG_namelist_item"
+- "TAG_namespace"
+- "TAG_packed_type"
+- "TAG_partial_unit"
+- "TAG_pointer_type"
+- "TAG_ptr_to_member_type"
+- "TAG_reference_type"
+- "TAG_restrict_type"
+- "TAG_rvalue_reference_type"
+- "TAG_set_type"
+- "TAG_shared_type"
+- "TAG_string_type"
+- "TAG_structure_type"
+- "TAG_subprogram"
+- "TAG_subrange_type"
+- "TAG_subroutine_type"
+- "TAG_template_alias"
+- "TAG_template_type_parameter"
+- "TAG_template_value_parameter"
+- "TAG_thrown_type"
+- "TAG_try_block"
+- "TAG_type_unit"
+- "TAG_typedef"
+- "TAG_union_type"
+- "TAG_unspecified_parameters"
+- "TAG_unspecified_type"
+- "TAG_variable"
+- "TAG_variant"
+- "TAG_variant_part"
+- "TAG_volatile_type"
+- "TAG_with_stmt"
+- "Universal header"
+- "Universal mach-o runtime file dump for: "
+- "Unknown DW_TAG constant: 0x%x"
+- "WRITE"
+- "] "
+- "_DBGStartWatchingOrScanningPaths"
+- "_PauseWatchingPaths_locked"
+- "__DWARF"
+- "__apple_exttypes"
+- "__apple_names"
+- "__apple_namespac"
+- "__apple_objc"
+- "__apple_types"
+- "__swift_ast"
+- "`\n"
+- "all"
+- "archive"
+- "arm"
+- "arm64"
+- "arm64_32"
+- "arm64e"
+- "armv4"
+- "armv5"
+- "armv6"
+- "armv7"
+- "armv7em"
+- "armv7f"
+- "armv7k"
+- "armv7m"
+- "armv7s"
+- "cpusubtype: "
+- "cputype:    "
+- "cu_die"
+- "debug_line_data.ValidOffset(end_offset-1)"
+- "e_ehsize    = "
+- "e_entry     = "
+- "e_flags     = "
+- "e_ident[EI_CLASS  ] = "
+- "e_ident[EI_DATA   ] = "
+- "e_ident[EI_MAG0   ] = "
+- "e_ident[EI_MAG1   ] = "
+- "e_ident[EI_MAG2   ] = "
+- "e_ident[EI_MAG3   ] = "
+- "e_ident[EI_PAD    ] = "
+- "e_ident[EI_VERSION] = "
+- "e_machine   = "
+- "e_phentsize = "
+- "e_phnum     = "
+- "e_phoff     = "
+- "e_shentsize = "
+- "e_shnum     = "
+- "e_shoff     = "
+- "e_shstrndx  = "
+- "e_type      = "
+- "e_version   = "
+- "elf32-"
+- "failed to extract attribute at offset 0x%8.8x for %s [%u] DIE at 0x%8.8x"
+- "fat_arch[%u] extends beyond EOF.\n"
+- "file_size > (symtab_size + strtab_size + code_data_size + dwarf_debug_size + stabs_debug_size)"
+- "filetype:   "
+- "flags:      "
+- "i386"
+- "idx arch     cputype  subtype  offset   size     align"
+- "invalid abbreviation code [%u] for DIE at 0x%8.8x"
+- "invalid abbreviation code [%u] for DIE at 0x%8.8x in '%s'"
+- "m_fat_header.magic == FAT_MAGIC"
+- "m_header.e_ident[EI_MAG0] == 0x7f"
+- "mach32-"
+- "mach64-"
+- "magic:      "
+- "ncmds:      "
+- "offset + size of architecture slice (0x%8.8llx) is beyond the end of file (0x%8.8zx) in '%s'"
+- "offset of mach_header (0x%8.8llx) is beyond the end of file (0x%8.8zx) in '%s'"
+- "offset of mach_header_64 (0x%8.8llx) is beyond the end of file (0x%8.8zx) in '%s'"
+- "opcode - 1 < prologue->standard_opcode_lengths.size()"
+- "ppc"
+- "ppc601"
+- "ppc602"
+- "ppc603"
+- "ppc603e"
+- "ppc603ev"
+- "ppc604"
+- "ppc604e"
+- "ppc620"
+- "ppc64"
+- "ppc7400"
+- "ppc7450"
+- "ppc750"
+- "ppc970"
+- "ppc970-64"
+- "setgid(%u) => %i"
+- "sizeof(arangeDescriptor.address) >= m_header.addr_size"
+- "sizeofcmds: "
+- "unable to convert path to file system representation"
+- "unable to open '%s'"
+- "universal"
+- "unsupported file type: '%s'"
+- "x86_64"
+- "x86_64h"
+- "xscale"
+
+```

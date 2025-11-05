@@ -1,0 +1,368 @@
+## FusionTracker
+
+> `/System/Library/PrivateFrameworks/FusionTracker.framework/Versions/A/FusionTracker`
+
+```diff
+
+-436.81.2.0.0
+-  __TEXT.__text: 0x36a4c
+-  __TEXT.__auth_stubs: 0x950
+-  __TEXT.__objc_methlist: 0xa54
+-  __TEXT.__const: 0x21f1
+-  __TEXT.__gcc_except_tab: 0x3118
+-  __TEXT.__cstring: 0x2828
++436.100.8.0.0
++  __TEXT.__text: 0x3675c
++  __TEXT.__auth_stubs: 0x940
++  __TEXT.__objc_methlist: 0xb00
++  __TEXT.__const: 0x2281
++  __TEXT.__gcc_except_tab: 0x31bc
++  __TEXT.__cstring: 0x287c
+   __TEXT.__oslogstring: 0x680
+-  __TEXT.__unwind_info: 0xf50
+-  __TEXT.__eh_frame: 0x48
+-  __TEXT.__objc_classname: 0x1b2
+-  __TEXT.__objc_methname: 0x1c0e
+-  __TEXT.__objc_methtype: 0x2705
+-  __TEXT.__objc_stubs: 0x17a0
+-  __DATA_CONST.__got: 0x208
++  __TEXT.__unwind_info: 0xf58
++  __TEXT.__eh_frame: 0x50
++  __TEXT.__objc_classname: 0x1cb
++  __TEXT.__objc_methname: 0x1d12
++  __TEXT.__objc_methtype: 0x270f
++  __TEXT.__objc_stubs: 0x17e0
++  __DATA_CONST.__got: 0x228
+   __DATA_CONST.__const: 0x90
+-  __DATA_CONST.__objc_classlist: 0x90
++  __DATA_CONST.__objc_classlist: 0x98
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x18
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x6f0
+-  __DATA_CONST.__objc_superrefs: 0x68
++  __DATA_CONST.__objc_selrefs: 0x720
++  __DATA_CONST.__objc_superrefs: 0x70
+   __DATA_CONST.__objc_arraydata: 0x28
+-  __AUTH_CONST.__auth_got: 0x4b8
+-  __AUTH_CONST.__const: 0x7c0
++  __AUTH_CONST.__auth_got: 0x4b0
++  __AUTH_CONST.__const: 0x780
+   __AUTH_CONST.__cfstring: 0x780
+-  __AUTH_CONST.__objc_const: 0x19c0
++  __AUTH_CONST.__objc_const: 0x1a60
+   __AUTH_CONST.__objc_arrayobj: 0x48
+-  __AUTH.__objc_data: 0x5a0
+-  __DATA.__objc_ivar: 0x144
++  __AUTH.__objc_data: 0x5f0
++  __DATA.__objc_ivar: 0x150
+   __DATA.__data: 0x128
+   __DATA.__bss: 0xa0
+   - /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 58D9F3A7-1F70-3E1E-B37D-DF767C3BE369
+-  Functions: 936
+-  Symbols:   2105
+-  CStrings:  943
++  UUID: 2A7F87FC-E57E-38C5-8F6C-996BBC88D611
++  Functions: 948
++  Symbols:   2138
++  CStrings:  962
+ 
+Symbols:
++ -[FTBipartiteMatcher computeMatchingForCostMatrix:withRowCount:columnCount:maxIters:minimumNonzeroPaddingValue:]
++ -[FTBipartiteMatcher computeMatchingForCostMatrix:withRowCount:columnCount:maxIters:minimumNonzeroPaddingValue:].cold.1
++ -[FTBipartiteMatcherOutput .cxx_destruct]
++ -[FTBipartiteMatcherOutput initWithMatches:state:usedIterations:]
++ -[FTBipartiteMatcherOutput matches]
++ -[FTBipartiteMatcherOutput state]
++ -[FTBipartiteMatcherOutput usedIterations]
++ GCC_except_table112
++ GCC_except_table113
++ GCC_except_table117
++ GCC_except_table122
++ GCC_except_table128
++ GCC_except_table132
++ GCC_except_table25
++ GCC_except_table29
++ GCC_except_table47
++ GCC_except_table49
++ GCC_except_table55
++ GCC_except_table67
++ GCC_except_table81
++ GCC_except_table92
++ GCC_except_table95
++ OBJC_IVAR_$_FTBipartiteMatcherOutput._matches
++ OBJC_IVAR_$_FTBipartiteMatcherOutput._state
++ OBJC_IVAR_$_FTBipartiteMatcherOutput._usedIterations
++ _OBJC_CLASS_$_FTBipartiteMatcherOutput
++ _OBJC_METACLASS_$_FTBipartiteMatcherOutput
++ _Z17bmMunkresExtendedPfjPhjPjjS1_m.cold.1
++ _Z17bmMunkresExtendedPfjPhjPjjS1_m.cold.2
++ _ZL19bmMunkresUpdateCostR8BmBufferfPKhS2_.cold.1
++ _ZL19bmMunkresUpdateCostR8BmBufferfPKhS2_.cold.2
++ _ZL19bmMunkresUpdateCostR8BmBufferfPKhS2_.cold.3
++ _ZL19bmMunkresUpdateCostR8BmBufferfPKhS2_.cold.4
++ _ZL19bmMunkresUpdateCostR8BmBufferfPKhS2_.cold.5
++ _ZL23bmMunkresMaxAssignmentsRK8BmBufferfPhjPjS2_S2_.cold.1
++ _ZL23bmMunkresMaxAssignmentsRK8BmBufferfPhjPjS2_S2_.cold.10
++ _ZL23bmMunkresMaxAssignmentsRK8BmBufferfPhjPjS2_S2_.cold.11
++ _ZL23bmMunkresMaxAssignmentsRK8BmBufferfPhjPjS2_S2_.cold.12
++ _ZL23bmMunkresMaxAssignmentsRK8BmBufferfPhjPjS2_S2_.cold.13
++ _ZL23bmMunkresMaxAssignmentsRK8BmBufferfPhjPjS2_S2_.cold.14
++ _ZL23bmMunkresMaxAssignmentsRK8BmBufferfPhjPjS2_S2_.cold.15
++ _ZL23bmMunkresMaxAssignmentsRK8BmBufferfPhjPjS2_S2_.cold.16
++ _ZL23bmMunkresMaxAssignmentsRK8BmBufferfPhjPjS2_S2_.cold.17
++ _ZL23bmMunkresMaxAssignmentsRK8BmBufferfPhjPjS2_S2_.cold.18
++ _ZL23bmMunkresMaxAssignmentsRK8BmBufferfPhjPjS2_S2_.cold.19
++ _ZL23bmMunkresMaxAssignmentsRK8BmBufferfPhjPjS2_S2_.cold.2
++ _ZL23bmMunkresMaxAssignmentsRK8BmBufferfPhjPjS2_S2_.cold.20
++ _ZL23bmMunkresMaxAssignmentsRK8BmBufferfPhjPjS2_S2_.cold.21
++ _ZL23bmMunkresMaxAssignmentsRK8BmBufferfPhjPjS2_S2_.cold.22
++ _ZL23bmMunkresMaxAssignmentsRK8BmBufferfPhjPjS2_S2_.cold.3
++ _ZL23bmMunkresMaxAssignmentsRK8BmBufferfPhjPjS2_S2_.cold.4
++ _ZL23bmMunkresMaxAssignmentsRK8BmBufferfPhjPjS2_S2_.cold.5
++ _ZL23bmMunkresMaxAssignmentsRK8BmBufferfPhjPjS2_S2_.cold.6
++ _ZL23bmMunkresMaxAssignmentsRK8BmBufferfPhjPjS2_S2_.cold.7
++ _ZL23bmMunkresMaxAssignmentsRK8BmBufferfPhjPjS2_S2_.cold.8
++ _ZL23bmMunkresMaxAssignmentsRK8BmBufferfPhjPjS2_S2_.cold.9
++ _ZL26bmMunkresSubtractMinPerColR8BmBuffer.cold.1
++ _ZL26bmMunkresSubtractMinPerColR8BmBuffer.cold.2
++ _ZL26bmMunkresSubtractMinPerColR8BmBuffer.cold.3
++ _ZL26bmMunkresSubtractMinPerRowR8BmBuffer.cold.1
++ _ZL26bmMunkresSubtractMinPerRowR8BmBuffer.cold.2
++ _ZL26bmMunkresSubtractMinPerRowR8BmBuffer.cold.3
++ _ZN2ft8GetOsLogEv.cold.1
++ _ZN2ik4core16EspressoNetStateC2ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKNS_14EspressoConfigE.cold.1
++ _ZNK12TtTrkRpnNode9getParamsERK17TtTrkRpnNodeStateR14TtTrkRpnParams.cold.2
++ _ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2ik14EspressoTensorEEC2B8ne190102ERKSA_.cold.1
++ _ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2ik6TensorEEC2B8ne190102ERKSA_.cold.1
++ _ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2ik6TensorEEC2B8ne190102IPKcRNS8_17PixelBufferTensorELi0EEEOT_OT0_.cold.1
++ _ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2ik6TensorEEC2B8ne190102IRA6_KcRNS8_17PixelBufferTensorELi0EEEOT_OT0_.cold.1
++ _ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2ik6TensorEEC2B8ne190102IS6_RNS8_17PixelBufferTensorELi0EEEOT_OT0_.cold.1
++ __OBJC_$_INSTANCE_METHODS_FTBipartiteMatcherOutput
++ __OBJC_$_INSTANCE_VARIABLES_FTBipartiteMatcherOutput
++ __OBJC_$_PROP_LIST_FTBipartiteMatcherOutput
++ __OBJC_CLASS_RO_$_FTBipartiteMatcherOutput
++ __OBJC_METACLASS_RO_$_FTBipartiteMatcherOutput
++ __Z17bmMunkresExtendedPfjPhjPjjS1_m
++ __ZL19bmMunkresUpdateCostR8BmBufferfPKhS2_
++ __ZL23bmMunkresMaxAssignmentsRK8BmBufferfPhjPjS2_S2_
++ __ZL26bmMunkresSubtractMinPerColR8BmBuffer
++ __ZL26bmMunkresSubtractMinPerRowR8BmBuffer
++ __ZN2ft16HungarianMatcher11padToSquareEfmm
++ __ZN2ft16HungarianMatcher18copyFromCostMatrixEPKfmm
++ __ZN2ft16HungarianMatcher5MatchEPKfmmmPjfP22FTMunkresSolutionState
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB8ne190102EPKvm
++ __ZNKSt3__16vectorIDv2_fNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIN2ft10TrackMatchENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIN2ft11ObservationENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIN2ft16ObservationMatchENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIN2ft4RectIdEENS_9allocatorIS3_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorINS_10shared_ptrIN2ft5TrackEEENS_9allocatorIS4_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorImNS_9allocatorImEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIxNS_9allocatorIxEEE20__throw_length_errorB8ne190102Ev
++ __ZNSt12length_errorC1B8ne190102EPKc
++ __ZNSt12out_of_rangeC1B8ne190102EPKc
++ __ZNSt3__110shared_ptrIA_hED1B8ne190102Ev
++ __ZNSt3__110shared_ptrIN2ft16CinematicTrackerEED1B8ne190102Ev
++ __ZNSt3__110shared_ptrIN2ft5FrameEED1B8ne190102Ev
++ __ZNSt3__110shared_ptrIN2ft5TrackEED1B8ne190102Ev
++ __ZNSt3__110shared_ptrIN2ik13TensorStorageEED1B8ne190102Ev
++ __ZNSt3__110shared_ptrIN2ik4core18PixelBufferStorageEED1B8ne190102Ev
++ __ZNSt3__110shared_ptrIN2ik4core21EspressoBufferStorageEED1B8ne190102Ev
++ __ZNSt3__110unique_ptrIN2ft12TrackMatcherENS_14default_deleteIS2_EEED1B8ne190102Ev
++ __ZNSt3__110unique_ptrIN2ft17DetectorInternalsENS_14default_deleteIS2_EEED1B8ne190102Ev
++ __ZNSt3__110unique_ptrIN2ft9TrackPoolENS_14default_deleteIS2_EEED1B8ne190102Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE17espresso_buffer_tEEPvEENS_22__hash_node_destructorINS6_ISC_EEEEED1B8ne190102Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE44espresso_simple_image_preprocessing_params_tEEPvEENS_22__hash_node_destructorINS6_ISC_EEEEED1B8ne190102Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2ik14EspressoTensorEEEPvEENS_22__hash_node_destructorINS6_ISD_EEEEE5resetB8ne190102EPSD_
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2ik6TensorEEEPvEENS_22__hash_node_destructorINS6_ISD_EEEEE5resetB8ne190102EPSD_
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeI23BmBufferPixelFormatTypeNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEPvEENS_22__tree_node_destructorINS7_ISC_EEEEED1B8ne190102Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE23BmBufferPixelFormatTypeEEPvEENS_22__tree_node_destructorINS6_ISC_EEEEED1B8ne190102Ev
++ __ZNSt3__111make_uniqueB8ne190102IN2ik11EspressoNetEJPKcNS1_14EspressoConfigEEEENS_11__unique_ifIT_E15__unique_singleEDpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2ik6TensorEEENS_22__unordered_map_hasherIS7_SA_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SA_SF_SD_Lb1EEENS5_ISA_EEE28__node_insert_unique_prepareB8ne190102EmRSA_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne190102ILi0EEEPKc
++ __ZNSt3__113unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE17espresso_buffer_tNS_4hashIS6_EENS_8equal_toIS6_EENS4_INS_4pairIKS6_S7_EEEEED1B8ne190102Ev
++ __ZNSt3__113unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE44espresso_simple_image_preprocessing_params_tNS_4hashIS6_EENS_8equal_toIS6_EENS4_INS_4pairIKS6_S7_EEEEED1B8ne190102Ev
++ __ZNSt3__113unordered_mapIx6CMTimeNS_4hashIxEENS_8equal_toIxEENS_9allocatorINS_4pairIKxS1_EEEEED1B8ne190102Ev
++ __ZNSt3__113unordered_setIxNS_4hashIxEENS_8equal_toIxEENS_9allocatorIxEEED1B8ne190102Ev
++ __ZNSt3__120__shared_ptr_emplaceIN2ik4core18PixelBufferStorageENS_9allocatorIS3_EEEC2B8ne190102IJRP10__CVBufferES5_Li0EEES5_DpOT_
++ __ZNSt3__120__throw_length_errorB8ne190102EPKc
++ __ZNSt3__120__throw_out_of_rangeB8ne190102EPKc
++ __ZNSt3__125__throw_bad_function_callB8ne190102Ev
++ __ZNSt3__127__tree_balance_after_insertB8ne190102IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEEEPS7_EEED1B8ne190102Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS_10shared_ptrIN2ft5TrackEEENS_9allocatorIS5_EEE16__destroy_vectorEED1B8ne190102Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS5_IS7_EEE16__destroy_vectorEED1B8ne190102Ev
++ __ZNSt3__13mapI23BmBufferPixelFormatTypeNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS1_EENS5_INS_4pairIKS1_S7_EEEEEC1B8ne190102ESt16initializer_listISC_ERKS9_
++ __ZNSt3__13mapI23BmBufferPixelFormatTypeNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS1_EENS5_INS_4pairIKS1_S7_EEEEED1B8ne190102Ev
++ __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE23BmBufferPixelFormatTypeNS_4lessIS6_EENS4_INS_4pairIKS6_S7_EEEEEC1B8ne190102ESt16initializer_listISC_ERKS9_
++ __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE23BmBufferPixelFormatTypeNS_4lessIS6_EENS4_INS_4pairIKS6_S7_EEEEED1B8ne190102Ev
++ __ZNSt3__14pairIK23BmBufferPixelFormatTypeNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEC1B8ne190102IS1_RA5_KcLi0EEEOT_OT0_
++ __ZNSt3__14pairIK23BmBufferPixelFormatTypeNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEC1B8ne190102IS1_RA6_KcLi0EEEOT_OT0_
++ __ZNSt3__14pairIK23BmBufferPixelFormatTypeNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEC1B8ne190102IS1_RA7_KcLi0EEEOT_OT0_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE23BmBufferPixelFormatTypeEC1B8ne190102IRA5_KcS8_Li0EEEOT_OT0_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE23BmBufferPixelFormatTypeEC1B8ne190102IRA6_KcS8_Li0EEEOT_OT0_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE23BmBufferPixelFormatTypeEC1B8ne190102IRA7_KcS8_Li0EEEOT_OT0_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2ik14EspressoTensorEEC2B8ne190102ERKSA_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2ik6TensorEEC2B8ne190102ERKSA_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2ik6TensorEEC2B8ne190102IPKcRNS8_17PixelBufferTensorELi0EEEOT_OT0_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2ik6TensorEEC2B8ne190102IRA6_KcRNS8_17PixelBufferTensorELi0EEEOT_OT0_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2ik6TensorEEC2B8ne190102IS6_RNS8_17PixelBufferTensorELi0EEEOT_OT0_
++ __ZNSt3__16vectorINS_10shared_ptrIN2ft5TrackEEENS_9allocatorIS4_EEE12emplace_backIJRS4_EEES9_DpOT_
++ __ZNSt3__16vectorINS_10shared_ptrIN2ft5TrackEEENS_9allocatorIS4_EEED1B8ne190102Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__init_with_sizeB8ne190102IPS6_SA_EEvT_T0_m
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEC2B8ne190102ESt16initializer_listIS6_E
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEED1B8ne190102Ev
++ __ZNSt3__16vectorImNS_9allocatorImEEE18__assign_with_sizeB8ne190102IPmS5_EEvT_T0_l
++ __ZSt28__throw_bad_array_new_lengthB8ne190102v
++ _objc_msgSend$copy
++ _objc_msgSend$initWithMatches:state:usedIterations:
+- -[FTCinematicHighPriorityTrackerState preProcessExemplarInputFromSourceBuffer:toDestinationBuffer:forTargetRect:meanPixel:scaler:].cold.1
+- -[FTCinematicHighPriorityTrackerState preProcessInstanceInputFromSourceBuffer:toDestinationBuffer:meanPixel:scaler:].cold.1
+- -[FTCinematicTapToTrack initWithEspressoEngine:scalingBackend:commandQueue:].cold.1
+- -[FTCinematicTapToTrack predictRectForPoint:inColorBuffer:].cold.1
+- GCC_except_table102
+- GCC_except_table106
+- GCC_except_table120
+- GCC_except_table124
+- GCC_except_table131
+- GCC_except_table27
+- GCC_except_table39
+- GCC_except_table46
+- GCC_except_table56
+- GCC_except_table73
+- GCC_except_table83
+- GCC_except_table96
+- GCC_except_table97
+- _OUTLINED_FUNCTION_3
+- _Z9bmMunkresPfjPhjPjjS1_.cold.10
+- _Z9bmMunkresPfjPhjPjjS1_.cold.11
+- _Z9bmMunkresPfjPhjPjjS1_.cold.12
+- _Z9bmMunkresPfjPhjPjjS1_.cold.13
+- _Z9bmMunkresPfjPhjPjjS1_.cold.14
+- _Z9bmMunkresPfjPhjPjjS1_.cold.15
+- _Z9bmMunkresPfjPhjPjjS1_.cold.16
+- _Z9bmMunkresPfjPhjPjjS1_.cold.17
+- _Z9bmMunkresPfjPhjPjjS1_.cold.18
+- _Z9bmMunkresPfjPhjPjjS1_.cold.19
+- _Z9bmMunkresPfjPhjPjjS1_.cold.20
+- _Z9bmMunkresPfjPhjPjjS1_.cold.4
+- _Z9bmMunkresPfjPhjPjjS1_.cold.5
+- _Z9bmMunkresPfjPhjPjjS1_.cold.6
+- _Z9bmMunkresPfjPhjPjjS1_.cold.7
+- _Z9bmMunkresPfjPhjPjjS1_.cold.8
+- _Z9bmMunkresPfjPhjPjjS1_.cold.9
+- _ZN2ft8DetectorC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKNS1_8functionIFvP10__CVBufferSC_RKNS_4RectIdEEEEE.cold.1
+- _ZN2ik11EspressoNet7PredictERKNSt3__113unordered_mapINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS_6TensorENS1_4hashIS8_EENS1_8equal_toIS8_EENS6_INS1_4pairIKS8_S9_EEEEEERKNS1_6vectorIS8_NS6_IS8_EEEE.cold.1
+- _ZN2ik14EspressoConfigC1ERKS0_.cold.1
+- _ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2ik14EspressoTensorEEC2B8ne180100ERKSA_.cold.1
+- _ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2ik6TensorEEC2B8ne180100ERKSA_.cold.1
+- _ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2ik6TensorEEC2B8ne180100IPKcRNS8_17PixelBufferTensorELi0EEEOT_OT0_.cold.1
+- _ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2ik6TensorEEC2B8ne180100IRA6_KcRNS8_17PixelBufferTensorELi0EEEOT_OT0_.cold.1
+- _ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2ik6TensorEEC2B8ne180100IS6_RNS8_17PixelBufferTensorELi0EEEOT_OT0_.cold.1
+- _ZNSt3__16vectorINS_10shared_ptrIN2ft5TrackEEENS_9allocatorIS4_EEEC2ERKS7_.cold.1
+- __ZN2ik14EspressoConfigC1ERKS0_
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB8ne180100EPKvm
+- __ZNKSt3__16vectorIDv2_fNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN2ft10TrackMatchENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN2ft11ObservationENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN2ft16ObservationMatchENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN2ft4RectIdEENS_9allocatorIS3_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorINS_10shared_ptrIN2ft5TrackEEENS_9allocatorIS4_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorImNS_9allocatorImEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIxNS_9allocatorIxEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt9exception4whatEv
+- __ZNSt12length_errorC1B8ne180100EPKc
+- __ZNSt12out_of_rangeC1B8ne180100EPKc
+- __ZNSt3__110shared_ptrIA_hED1B8ne180100Ev
+- __ZNSt3__110shared_ptrIN2ft16CinematicTrackerEED1B8ne180100Ev
+- __ZNSt3__110shared_ptrIN2ft5FrameEED1B8ne180100Ev
+- __ZNSt3__110shared_ptrIN2ft5TrackEED1B8ne180100Ev
+- __ZNSt3__110shared_ptrIN2ik13TensorStorageEED1B8ne180100Ev
+- __ZNSt3__110shared_ptrIN2ik4core18PixelBufferStorageEED1B8ne180100Ev
+- __ZNSt3__110shared_ptrIN2ik4core21EspressoBufferStorageEED1B8ne180100Ev
+- __ZNSt3__110unique_ptrIN2ft12TrackMatcherENS_14default_deleteIS2_EEED1B8ne180100Ev
+- __ZNSt3__110unique_ptrIN2ft17DetectorInternalsENS_14default_deleteIS2_EEED1B8ne180100Ev
+- __ZNSt3__110unique_ptrIN2ft9TrackPoolENS_14default_deleteIS2_EEED1B8ne180100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE17espresso_buffer_tEEPvEENS_22__hash_node_destructorINS6_ISC_EEEEED1B8ne180100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE44espresso_simple_image_preprocessing_params_tEEPvEENS_22__hash_node_destructorINS6_ISC_EEEEED1B8ne180100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2ik14EspressoTensorEEEPvEENS_22__hash_node_destructorINS6_ISD_EEEEE5resetB8ne180100EPSD_
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2ik6TensorEEEPvEENS_22__hash_node_destructorINS6_ISD_EEEEE5resetB8ne180100EPSD_
+- __ZNSt3__111make_uniqueB8ne180100IN2ik11EspressoNetEJPKcNS1_14EspressoConfigEEEENS_11__unique_ifIT_E15__unique_singleEDpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2ik6TensorEEENS_22__unordered_map_hasherIS7_SA_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SA_SF_SD_Lb1EEENS5_ISA_EEE28__node_insert_unique_prepareB8ne180100EmRSA_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne180100ILi0EEEPKc
+- __ZNSt3__113unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE17espresso_buffer_tNS_4hashIS6_EENS_8equal_toIS6_EENS4_INS_4pairIKS6_S7_EEEEED1B8ne180100Ev
+- __ZNSt3__113unordered_mapIx6CMTimeNS_4hashIxEENS_8equal_toIxEENS_9allocatorINS_4pairIKxS1_EEEEED1B8ne180100Ev
+- __ZNSt3__113unordered_setIxNS_4hashIxEENS_8equal_toIxEENS_9allocatorIxEEED1B8ne180100Ev
+- __ZNSt3__117bad_function_callD0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN2ik4core18PixelBufferStorageENS_9allocatorIS3_EEEC2B8ne180100IJRP10__CVBufferES5_Li0EEES5_DpOT_
+- __ZNSt3__120__throw_length_errorB8ne180100EPKc
+- __ZNSt3__120__throw_out_of_rangeB8ne180100EPKc
+- __ZNSt3__125__throw_bad_function_callB8ne180100Ev
+- __ZNSt3__127__tree_balance_after_insertB8ne180100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS5_IS7_EEE16__destroy_vectorEED1B8ne180100Ev
+- __ZNSt3__13mapI23BmBufferPixelFormatTypeNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS1_EENS5_INS_4pairIKS1_S7_EEEEEC1B8ne180100ESt16initializer_listISC_ERKS9_
+- __ZNSt3__13mapI23BmBufferPixelFormatTypeNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS1_EENS5_INS_4pairIKS1_S7_EEEEED1B8ne180100Ev
+- __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE23BmBufferPixelFormatTypeNS_4lessIS6_EENS4_INS_4pairIKS6_S7_EEEEEC1B8ne180100ESt16initializer_listISC_ERKS9_
+- __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE23BmBufferPixelFormatTypeNS_4lessIS6_EENS4_INS_4pairIKS6_S7_EEEEED1B8ne180100Ev
+- __ZNSt3__14pairIK23BmBufferPixelFormatTypeNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEC1B8ne180100IS1_RA5_KcLi0EEEOT_OT0_
+- __ZNSt3__14pairIK23BmBufferPixelFormatTypeNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEC1B8ne180100IS1_RA6_KcLi0EEEOT_OT0_
+- __ZNSt3__14pairIK23BmBufferPixelFormatTypeNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEC1B8ne180100IS1_RA7_KcLi0EEEOT_OT0_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE23BmBufferPixelFormatTypeEC1B8ne180100IRA5_KcS8_Li0EEEOT_OT0_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE23BmBufferPixelFormatTypeEC1B8ne180100IRA6_KcS8_Li0EEEOT_OT0_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE23BmBufferPixelFormatTypeEC1B8ne180100IRA7_KcS8_Li0EEEOT_OT0_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2ik14EspressoTensorEEC2B8ne180100ERKSA_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2ik6TensorEEC2B8ne180100ERKSA_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2ik6TensorEEC2B8ne180100IPKcRNS8_17PixelBufferTensorELi0EEEOT_OT0_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2ik6TensorEEC2B8ne180100IRA6_KcRNS8_17PixelBufferTensorELi0EEEOT_OT0_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2ik6TensorEEC2B8ne180100IS6_RNS8_17PixelBufferTensorELi0EEEOT_OT0_
+- __ZNSt3__16vectorINS_10shared_ptrIN2ft5TrackEEENS_9allocatorIS4_EEE24__emplace_back_slow_pathIJRS4_EEEPS4_DpOT_
+- __ZNSt3__16vectorINS_10shared_ptrIN2ft5TrackEEENS_9allocatorIS4_EEEC2ERKS7_
+- __ZNSt3__16vectorINS_10shared_ptrIN2ft5TrackEEENS_9allocatorIS4_EEED1B8ne180100Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__init_with_sizeB8ne180100IPS6_SA_EEvT_T0_m
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE21__push_back_slow_pathIS6_EEPS6_OT_
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEC2B8ne180100ESt16initializer_listIS6_E
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEED1B8ne180100Ev
+- __ZNSt3__16vectorImNS_9allocatorImEEE18__assign_with_sizeB8ne180100IPmS5_EEvT_T0_l
+- __ZNSt9exceptionD2Ev
+- __ZSt28__throw_bad_array_new_lengthB8ne180100v
+- __ZTSNSt3__117bad_function_callE
+CStrings:
++ "@36@0:8@16Q24I32"
++ "@52@0:8r^f16Q24Q32Q40f48"
++ "A.pixelFormat == kBmBufferPixelFormatType_Float"
++ "FTBipartiteMatcherOutput"
++ "T@\"NSArray\",R,N,V_matches"
++ "TI,R,N,V_usedIterations"
++ "TQ,R,N,V_state"
++ "_matches"
++ "_state"
++ "_usedIterations"
++ "bmMunkresExtended"
++ "cols > 0"
++ "computeMatchingForCostMatrix:withRowCount:columnCount:maxIters:minimumNonzeroPaddingValue:"
++ "copy"
++ "initWithMatches:state:usedIterations:"
++ "matches"
++ "rows > 0"
++ "state"
++ "usedIterations"
++ "{EspressoConfig={vector<std::string, std::allocator<std::string>>=^v^v{__compressed_pair<std::string *, std::allocator<std::string>>=^v}}{optional<espresso_engine_t>=(?=ci)B}iii{optional<espresso_plan_priority_t>=(?=ci)B}{optional<void *>=(?=c^v)B}{unordered_map<std::string, espresso_simple_image_preprocessing_params_t, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, espresso_simple_image_preprocessing_params_t>>>={__hash_table<std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, std::__unordered_map_hasher<std::string, std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>>>={unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, void *> *> *>>>={__compressed_pair<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, void *> *> **, std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, void *> *> *>>>=^^v{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, void *> *> *>>={__compressed_pair<unsigned long, std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, void *> *> *>>=Q}}}}{__compressed_pair<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, void *> *>, std::allocator<std::__hash_node<std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, void *>>>={__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, void *> *>=^v}}{__compressed_pair<unsigned long, std::__unordered_map_hasher<std::string, std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, std::hash<std::string>, std::equal_to<std::string>>>=Q}{__compressed_pair<float, std::__unordered_map_equal<std::string, std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, std::equal_to<std::string>, std::hash<std::string>>>=f}}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={__compressed_pair<std::basic_string<char>::__rep, std::allocator<char>>=(__rep={__short=[23c][0C]b7b1}{__long=*Qb63b1})}}}32@0:8@16r^v24"
++ "{basic_string<char, std::char_traits<char>, std::allocator<char>>={__compressed_pair<std::basic_string<char>::__rep, std::allocator<char>>=(__rep={__short=[23c][0C]b7b1}{__long=*Qb63b1})}}24@0:8@16"
+- "{EspressoConfig={vector<std::string, std::allocator<std::string>>=^v^v{__compressed_pair<std::string *, std::allocator<std::string>>=^v}}{optional<espresso_engine_t>=(?=ci)B}iii{optional<espresso_plan_priority_t>=(?=ci)B}{optional<void *>=(?=c^v)B}{unordered_map<std::string, espresso_simple_image_preprocessing_params_t, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, espresso_simple_image_preprocessing_params_t>>>={__hash_table<std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, std::__unordered_map_hasher<std::string, std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>>>={unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, void *> *> *>>>={__compressed_pair<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, void *> *> **, std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, void *> *> *>>>=^^v{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, void *> *> *>>={__compressed_pair<unsigned long, std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, void *> *> *>>=Q}}}}{__compressed_pair<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, void *> *>, std::allocator<std::__hash_node<std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, void *>>>={__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, void *> *>=^v}}{__compressed_pair<unsigned long, std::__unordered_map_hasher<std::string, std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, std::hash<std::string>, std::equal_to<std::string>>>=Q}{__compressed_pair<float, std::__unordered_map_equal<std::string, std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, std::equal_to<std::string>, std::hash<std::string>>>=f}}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={__compressed_pair<std::basic_string<char>::__rep, std::allocator<char>>={__rep=(?={__short=[23c][0C]b7b1}{__long=*Qb63b1}{__raw=[3Q]})}}}}32@0:8@16r^v24"
+- "{basic_string<char, std::char_traits<char>, std::allocator<char>>={__compressed_pair<std::basic_string<char>::__rep, std::allocator<char>>={__rep=(?={__short=[23c][0C]b7b1}{__long=*Qb63b1}{__raw=[3Q]})}}}24@0:8@16"
+
+```

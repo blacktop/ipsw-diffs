@@ -1,0 +1,145 @@
+## SpeechRecognitionCore
+
+> `/System/Library/PrivateFrameworks/SpeechRecognitionCore.framework/Versions/A/SpeechRecognitionCore`
+
+```diff
+
+-6.3.25.6.0
+-  __TEXT.__text: 0xe99c
+-  __TEXT.__auth_stubs: 0xcb0
+-  __TEXT.__const: 0xe8
+-  __TEXT.__cstring: 0x12e6
+-  __TEXT.__oslogstring: 0x337
+-  __TEXT.__gcc_except_tab: 0x50c
++6.3.30.7.0
++  __TEXT.__text: 0xeae8
++  __TEXT.__auth_stubs: 0xcc0
++  __TEXT.__const: 0xe0
++  __TEXT.__cstring: 0x12e3
++  __TEXT.__oslogstring: 0x310
++  __TEXT.__gcc_except_tab: 0x528
+   __TEXT.__ustring: 0xc
+-  __TEXT.__unwind_info: 0x5c8
++  __TEXT.__unwind_info: 0x5e8
+   __DATA_CONST.__got: 0xe0
+   __DATA_CONST.__const: 0x4c8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __AUTH_CONST.__auth_got: 0x660
++  __AUTH_CONST.__auth_got: 0x668
+   __AUTH_CONST.__const: 0x570
+   __AUTH_CONST.__cfstring: 0x9e0
+   __DATA.__data: 0x1f8
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5CF5E4D5-83EB-3DE5-9C93-E41D7A9DDA80
+-  Functions: 344
+-  Symbols:   820
+-  CStrings:  320
++  UUID: 3797A345-4424-30E1-8C86-CE5F686B71F7
++  Functions: 358
++  Symbols:   846
++  CStrings:  318
+ 
+Symbols:
++ GCC_except_table59
++ GCC_except_table60
++ GCC_except_table73
++ GCC_except_table76
++ GCC_except_table87
++ GCC_except_table92
++ RXEngineTypeForLocaleIdentifier.cold.1
++ RXEngineTypeForLocaleIdentifier.cold.2
++ RXGetSupportedNashvilleLocaleIdentifiers.cold.1
++ RXGetSupportedQuasarLocaleIdentifiers.cold.1
++ RXIsAppleInternal.cold.1
++ RXOSLog.cold.1
++ RXSignpostLog.cold.1
++ _RXCopyAssetFallbackLocaleIdentifier
++ _RXCopyAssetFallbackLocales
++ _RXCopyLocalizedStringForSpacebar
++ _RXCopyReplaceHyphensWithSpace
++ _ZL20RXCopyGlobalPropertyj.cold.1
++ _ZL33RXLanguageObjectCharacterTokenizePK10__CFStringPK10__CFLocale.cold.1
++ _ZL35RXLanguageObjectCFTokenizerTokenizePK10__CFStringPK10__CFLocale.cold.1
++ _ZL35RXLanguageObjectCFTokenizerTokenizePK10__CFStringPK10__CFLocale.cold.2
++ _ZL35RXLanguageObjectCFTokenizerTokenizePK10__CFStringPK10__CFLocale.cold.3
++ _ZL35RXLanguageObjectCFTokenizerTokenizePK10__CFStringPK10__CFLocale.cold.4
++ _ZN5RXXPC11ClientEventEPv.cold.2
++ _ZN5RXXPC11ClientEventEPv.cold.3
++ _ZN5RXXPC11ClientEventEPv.cold.4
++ _ZN5RXXPC30SendBrokerMessageWithReplySyncEPvb.cold.1
++ _ZN5RXXPC5QueueEv.cold.1
++ __ZNKSt3__111__copy_implINS_17_ClassicAlgPolicyEEclB8ne190102INS_21__tree_const_iteratorIP8RXObjectPNS_11__tree_nodeIS6_PvEElEESB_NS_20back_insert_iteratorINS_6vectorIS6_NS_9allocatorIS6_EEEEEEEENS_4pairIT_T1_EESJ_T0_SK_
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_out_of_rangeB8ne190102Ev
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE4findB8ne190102ERKS5_m
++ __ZNKSt3__16vectorIP16RXLanguageObjectNS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIP19RXRecognitionSystemNS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIP8RXObjectNS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIPKvNS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIyNS_9allocatorIyEEE20__throw_length_errorB8ne190102Ev
++ __ZNSt12length_errorC1B8ne190102EPKc
++ __ZNSt12out_of_rangeC1B8ne190102EPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102ENS_24__uninitialized_size_tagEmRKS4_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102ILi0EEEPKc
++ __ZNSt3__116__set_differenceB8ne190102INS_17_ClassicAlgPolicyENS_6__lessIvvEERNS_21__tree_const_iteratorIP8RXObjectPNS_11__tree_nodeIS6_PvEElEESC_SC_SC_RNS_20back_insert_iteratorINS_6vectorIS6_NS_9allocatorIS6_EEEEEEEENS_4pairIu14__remove_cvrefIT1_Eu14__remove_cvrefIT5_EEEOSL_OT2_OT3_OT4_OSN_OT0_
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIP16RXLanguageObjectEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIP19RXRecognitionSystemEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIP8RXObjectEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIPKvEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIyEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__120__throw_length_errorB8ne190102EPKc
++ __ZNSt3__120__throw_out_of_rangeB8ne190102EPKc
++ __ZNSt3__120back_insert_iteratorINS_6vectorIP8RXObjectNS_9allocatorIS3_EEEEEaSB8ne190102ERKS3_
++ __ZNSt3__127__tree_balance_after_insertB8ne190102IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__1plB8ne190102IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EERKS9_SB_
++ __ZSt28__throw_bad_array_new_lengthB8ne190102v
++ ___ZN5RXXPC11ClientEventEPv_block_invoke.27.cold.1
++ _memcpy
++ reportBacktrace.cold.1
++ reportBacktrace.cold.2
+- GCC_except_table56
+- GCC_except_table72
+- GCC_except_table75
+- GCC_except_table83
+- GCC_except_table91
+- __ZNKSt3__111__copy_loopINS_17_ClassicAlgPolicyEEclB8ne180100INS_21__tree_const_iteratorIP8RXObjectPNS_11__tree_nodeIS6_PvEElEESB_NS_20back_insert_iteratorINS_6vectorIS6_NS_9allocatorIS6_EEEEEEEENS_4pairIT_T1_EESJ_T0_SK_
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_out_of_rangeB8ne180100Ev
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE4findB8ne180100ERKS5_m
+- __ZNKSt3__16vectorIP16RXLanguageObjectNS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIP19RXRecognitionSystemNS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIP8RXObjectNS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIPKvNS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIyNS_9allocatorIyEEE20__throw_length_errorB8ne180100Ev
+- __ZNSt12length_errorC1B8ne180100EPKc
+- __ZNSt12out_of_rangeC1B8ne180100EPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne180100ENS_24__uninitialized_size_tagEmRKS4_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne180100ILi0EEEPKc
+- __ZNSt3__116__set_differenceB8ne180100INS_17_ClassicAlgPolicyENS_6__lessIvvEERNS_21__tree_const_iteratorIP8RXObjectPNS_11__tree_nodeIS6_PvEElEESC_SC_SC_RNS_20back_insert_iteratorINS_6vectorIS6_NS_9allocatorIS6_EEEEEEEENS_4pairIu14__remove_cvrefIT1_Eu14__remove_cvrefIT5_EEEOSL_OT2_OT3_OT4_OSN_OT0_
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIP16RXLanguageObjectEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIP19RXRecognitionSystemEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIP8RXObjectEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIPKvEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIyEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__120__throw_length_errorB8ne180100EPKc
+- __ZNSt3__120__throw_out_of_rangeB8ne180100EPKc
+- __ZNSt3__120back_insert_iteratorINS_6vectorIP8RXObjectNS_9allocatorIS3_EEEEEaSB8ne180100ERKS3_
+- __ZNSt3__127__tree_balance_after_insertB8ne180100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__1plB8ne180100IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EERKS9_SB_
+- __ZSt28__throw_bad_array_new_lengthB8ne180100v
+CStrings:
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/SpeechRecognitionCore/Sources/RXLanguageObject.cpp"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/SpeechRecognitionCore/Sources/RXObject.cpp"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/SpeechRecognitionCore/Sources/RXRecognitionSystem.cpp"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/SpeechRecognitionCore/Sources/RXXPC.cpp"
+- "-_"
+- "/AppleInternal/Library/BuildRoots/dcf74a61-baa9-11ef-b807-d285688f7a47/Library/Caches/com.apple.xbs/Sources/SpeechRecognitionCore/Sources/RXLanguageObject.cpp"
+- "/AppleInternal/Library/BuildRoots/dcf74a61-baa9-11ef-b807-d285688f7a47/Library/Caches/com.apple.xbs/Sources/SpeechRecognitionCore/Sources/RXObject.cpp"
+- "/AppleInternal/Library/BuildRoots/dcf74a61-baa9-11ef-b807-d285688f7a47/Library/Caches/com.apple.xbs/Sources/SpeechRecognitionCore/Sources/RXRecognitionSystem.cpp"
+- "/AppleInternal/Library/BuildRoots/dcf74a61-baa9-11ef-b807-d285688f7a47/Library/Caches/com.apple.xbs/Sources/SpeechRecognitionCore/Sources/RXXPC.cpp"
+- "setting recognizer property = %d to %@"
+
+```

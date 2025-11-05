@@ -1,0 +1,263 @@
+## VisionCore
+
+> `/System/Library/PrivateFrameworks/VisionCore.framework/Versions/A/VisionCore`
+
+```diff
+
+-8.0.66.0.0
+-  __TEXT.__text: 0x30708
+-  __TEXT.__auth_stubs: 0xcc0
+-  __TEXT.__objc_methlist: 0x259c
+-  __TEXT.__gcc_except_tab: 0x2608
+-  __TEXT.__const: 0xfc
+-  __TEXT.__cstring: 0x35ce
++8.0.76.0.0
++  __TEXT.__text: 0x305ec
++  __TEXT.__auth_stubs: 0xcd0
++  __TEXT.__objc_methlist: 0x27ac
++  __TEXT.__const: 0x124
+   __TEXT.__dlopen_cstrs: 0x190
++  __TEXT.__gcc_except_tab: 0x26d8
++  __TEXT.__cstring: 0x361b
+   __TEXT.__oslogstring: 0x1d5
+-  __TEXT.__unwind_info: 0xf68
++  __TEXT.__unwind_info: 0xf60
+   __TEXT.__objc_classname: 0xa5a
+   __TEXT.__objc_methname: 0x77c1
+   __TEXT.__objc_methtype: 0x212c
+
+   __DATA_CONST.__objc_catlist: 0x30
+   __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x15f0
++  __DATA_CONST.__objc_selrefs: 0x1678
+   __DATA_CONST.__objc_superrefs: 0x168
+   __DATA_CONST.__objc_arraydata: 0x140
+-  __AUTH_CONST.__auth_got: 0x678
++  __AUTH_CONST.__auth_got: 0x680
+   __AUTH_CONST.__const: 0x620
+   __AUTH_CONST.__cfstring: 0x3700
+-  __AUTH_CONST.__objc_const: 0x5598
++  __AUTH_CONST.__objc_const: 0x5210
+   __AUTH_CONST.__objc_intobj: 0x438
+   __AUTH_CONST.__objc_arrayobj: 0x78
+   __AUTH_CONST.__objc_dictobj: 0x50
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 2D3D41F4-A989-39E5-914F-B417BEE1B16F
+-  Functions: 939
+-  Symbols:   2767
+-  CStrings:  2325
++  UUID: 3106ADEF-8A21-3AAB-8814-97ABF08A4162
++  Functions: 940
++  Symbols:   2774
++  CStrings:  2328
+ 
+Symbols:
++ -[VisionCoreE5RTExecutionContext _bindIOSurface:toSurfaceInputPort:error:]
++ GCC_except_table346
++ GCC_except_table347
++ GCC_except_table383
++ GCC_except_table400
++ GCC_except_table401
++ GCC_except_table402
++ GCC_except_table411
++ GCC_except_table419
++ GCC_except_table423
++ GCC_except_table424
++ GCC_except_table434
++ GCC_except_table435
++ GCC_except_table451
++ GCC_except_table457
++ GCC_except_table458
++ GCC_except_table464
++ GCC_except_table468
++ GCC_except_table472
++ GCC_except_table477
++ GCC_except_table478
++ GCC_except_table486
++ GCC_except_table487
++ GCC_except_table488
++ GCC_except_table494
++ GCC_except_table501
++ GCC_except_table553
++ GCC_except_table555
++ GCC_except_table556
++ GCC_except_table580
++ GCC_except_table632
++ GCC_except_table635
++ GCC_except_table636
++ GCC_except_table639
++ GCC_except_table645
++ GCC_except_table651
++ GCC_except_table670
++ GCC_except_table674
++ GCC_except_table681
++ GCC_except_table682
++ GCC_except_table683
++ GCC_except_table685
++ GCC_except_table704
++ GCC_except_table710
++ GCC_except_table718
++ GCC_except_table720
++ GCC_except_table786
++ GCC_except_table792
++ GCC_except_table879
++ GCC_except_table891
++ GCC_except_table892
++ GCC_except_table895
++ GCC_except_table918
++ GCC_except_table926
++ GCC_except_table927
++ _Geometry2D_denormalizeHomography
++ _Geometry2D_estimateHomography
++ _Geometry2D_estimateHomographyOD
++ _RANSAC_estimateIterationThreshold
++ _RANSAC_sampleMSSUniform
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorI20VisionCoreHomographyNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorI30VisionCoreValueConfidencePointNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorI7CGPointNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIDhNS_9allocatorIDhEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIbNS_9allocatorIbEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIlNS_9allocatorIlEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorImNS_9allocatorImEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorImNS_9allocatorImEEE20__throw_out_of_rangeB8ne190102Ev
++ __ZNSt12length_errorC1B8ne190102EPKc
++ __ZNSt12out_of_rangeC1B8ne190102EPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102ILi0EEEPKc
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorI30VisionCoreValueConfidencePointEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIDhEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIlEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorImEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__120__throw_length_errorB8ne190102EPKc
++ __ZNSt3__120__throw_out_of_rangeB8ne190102EPKc
++ __ZNSt3__120back_insert_iteratorINS_6vectorIDhNS_9allocatorIDhEEEEEaSB8ne190102ERKDh
++ __ZNSt3__120back_insert_iteratorINS_6vectorImNS_9allocatorImEEEEEaSB8ne190102ERKm
++ __ZNSt3__127__insertion_sort_incompleteB8ne190102INS_17_ClassicAlgPolicyERZ57-[VisionCoreValueConfidenceCurve _finalizeInitialization]E3$_0P30VisionCoreValueConfidencePointEEbT1_S6_T0_
++ __ZNSt3__16vectorI20VisionCoreHomographyNS_9allocatorIS1_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorI20VisionCoreHomographyNS_9allocatorIS1_EEEC2B8ne190102EmRKS1_
++ __ZNSt3__16vectorI7CGPointNS_9allocatorIS1_EEEC2B8ne190102Em
++ __ZNSt3__16vectorIDhNS_9allocatorIDhEEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorIDhNS_9allocatorIDhEEE18__assign_with_sizeB8ne190102IPDhS5_EEvT_T0_l
++ __ZNSt3__16vectorIDhNS_9allocatorIDhEEE18__insert_with_sizeB8ne190102INS_11__wrap_iterIPDhEES7_EES7_NS5_IPKDhEET_T0_l
++ __ZNSt3__16vectorIDhNS_9allocatorIDhEEEC2B8ne190102Em
++ __ZNSt3__16vectorIbNS_9allocatorIbEEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE18__assign_with_sizeB8ne190102IPfS5_EEvT_T0_l
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE16__init_with_sizeB8ne190102IPiS5_EEvT_T0_m
++ __ZNSt3__16vectorIiNS_9allocatorIiEEEC2B8ne190102EmRKi
++ __ZNSt3__16vectorImNS_9allocatorImEEE18__assign_with_sizeB8ne190102IPmS5_EEvT_T0_l
++ __ZNSt3__17__sort3B8ne190102INS_17_ClassicAlgPolicyERZ57-[VisionCoreValueConfidenceCurve _finalizeInitialization]E3$_0P30VisionCoreValueConfidencePointEEjT1_S6_S6_T0_
++ __ZNSt3__17__sort4B8ne190102INS_17_ClassicAlgPolicyERZ57-[VisionCoreValueConfidenceCurve _finalizeInitialization]E3$_0P30VisionCoreValueConfidencePointEEvT1_S6_S6_S6_T0_
++ __ZNSt3__1ssB8ne190102IcNS_11char_traitsIcEENS_9allocatorIcEEEEDaRKNS_12basic_stringIT_T0_T1_EESC_
++ __ZSt28__throw_bad_array_new_lengthB8ne190102v
++ ___assert_rtn
+- GCC_except_table343
+- GCC_except_table344
+- GCC_except_table380
+- GCC_except_table387
+- GCC_except_table389
+- GCC_except_table394
+- GCC_except_table408
+- GCC_except_table409
+- GCC_except_table410
+- GCC_except_table414
+- GCC_except_table431
+- GCC_except_table432
+- GCC_except_table448
+- GCC_except_table449
+- GCC_except_table454
+- GCC_except_table461
+- GCC_except_table465
+- GCC_except_table469
+- GCC_except_table471
+- GCC_except_table475
+- GCC_except_table483
+- GCC_except_table484
+- GCC_except_table485
+- GCC_except_table491
+- GCC_except_table498
+- GCC_except_table549
+- GCC_except_table551
+- GCC_except_table552
+- GCC_except_table576
+- GCC_except_table628
+- GCC_except_table629
+- GCC_except_table630
+- GCC_except_table631
+- GCC_except_table640
+- GCC_except_table646
+- GCC_except_table665
+- GCC_except_table669
+- GCC_except_table671
+- GCC_except_table672
+- GCC_except_table678
+- GCC_except_table680
+- GCC_except_table699
+- GCC_except_table705
+- GCC_except_table713
+- GCC_except_table715
+- GCC_except_table781
+- GCC_except_table787
+- GCC_except_table874
+- GCC_except_table886
+- GCC_except_table887
+- GCC_except_table890
+- GCC_except_table912
+- GCC_except_table920
+- GCC_except_table921
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorI20VisionCoreHomographyNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorI30VisionCoreValueConfidencePointNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorI7CGPointNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIDhNS_9allocatorIDhEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIbNS_9allocatorIbEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIlNS_9allocatorIlEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorImNS_9allocatorImEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorImNS_9allocatorImEEE20__throw_out_of_rangeB8ne180100Ev
+- __ZNSt12length_errorC1B8ne180100EPKc
+- __ZNSt12out_of_rangeC1B8ne180100EPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne180100ILi0EEEPKc
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorI30VisionCoreValueConfidencePointEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIDhEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIlEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorImEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__120__throw_length_errorB8ne180100EPKc
+- __ZNSt3__120__throw_out_of_rangeB8ne180100EPKc
+- __ZNSt3__121__unwrap_and_dispatchB8ne180100INS_10__overloadINS_11__copy_loopINS_17_ClassicAlgPolicyEEENS_14__copy_trivialEEENS_11__wrap_iterIPDhEES9_NS_20back_insert_iteratorINS_6vectorIDhNS_9allocatorIDhEEEEEELi0EEENS_4pairIT0_T2_EESH_T1_SI_
+- __ZNSt3__121__unwrap_and_dispatchB8ne180100INS_10__overloadINS_11__copy_loopINS_17_ClassicAlgPolicyEEENS_14__copy_trivialEEENS_11__wrap_iterIPmEES9_NS_20back_insert_iteratorINS_6vectorImNS_9allocatorImEEEEEELi0EEENS_4pairIT0_T2_EESH_T1_SI_
+- __ZNSt3__127__insertion_sort_incompleteB8ne180100INS_17_ClassicAlgPolicyERZ57-[VisionCoreValueConfidenceCurve _finalizeInitialization]E3$_0P30VisionCoreValueConfidencePointEEbT1_S6_T0_
+- __ZNSt3__16vectorI20VisionCoreHomographyNS_9allocatorIS1_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorI20VisionCoreHomographyNS_9allocatorIS1_EEEC2EmRKS1_
+- __ZNSt3__16vectorI7CGPointNS_9allocatorIS1_EEEC2Em
+- __ZNSt3__16vectorIDhNS_9allocatorIDhEEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorIDhNS_9allocatorIDhEEE18__assign_with_sizeB8ne180100IPDhS5_EEvT_T0_l
+- __ZNSt3__16vectorIDhNS_9allocatorIDhEEE18__insert_with_sizeB8ne180100INS_11__wrap_iterIPDhEES7_EES7_NS5_IPKDhEET_T0_l
+- __ZNSt3__16vectorIDhNS_9allocatorIDhEEEC2Em
+- __ZNSt3__16vectorIbNS_9allocatorIbEEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE18__assign_with_sizeB8ne180100IPfS5_EEvT_T0_l
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE16__init_with_sizeB8ne180100IPiS5_EEvT_T0_m
+- __ZNSt3__16vectorIiNS_9allocatorIiEEEC2EmRKi
+- __ZNSt3__16vectorImNS_9allocatorImEEE18__assign_with_sizeB8ne180100IPmS5_EEvT_T0_l
+- __ZNSt3__17__sort3B8ne180100INS_17_ClassicAlgPolicyERZ57-[VisionCoreValueConfidenceCurve _finalizeInitialization]E3$_0P30VisionCoreValueConfidencePointEEjT1_S6_S6_T0_
+- __ZNSt3__17__sort4B8ne180100INS_17_ClassicAlgPolicyERZ57-[VisionCoreValueConfidenceCurve _finalizeInitialization]E3$_0P30VisionCoreValueConfidencePointEEvT1_S6_S6_S6_T0_
+- __ZNSt3__1ssB8ne180100IcNS_11char_traitsIcEENS_9allocatorIcEEEEDaRKNS_12basic_stringIT_T0_T1_EESC_
+- __ZSt28__throw_bad_array_new_lengthB8ne180100v
+CStrings:
++ "Geometry2D_Homography.c"
++ "Geometry2D_denormalizeHomography"
++ "HNormalized != NULL"
+
+```

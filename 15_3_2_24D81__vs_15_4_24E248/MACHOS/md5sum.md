@@ -1,0 +1,36 @@
+## md5sum
+
+> `/sbin/md5sum`
+
+```diff
+
+-190.0.1.0.0
+-  __TEXT.__text: 0x16ac
++195.0.0.0.0
++  __TEXT.__text: 0x1658
+   __TEXT.__auth_stubs: 0x200
+-  __TEXT.__const: 0x58
+-  __TEXT.__cstring: 0x1261
+-  __TEXT.__unwind_info: 0x88
++  __TEXT.__const: 0x48
++  __TEXT.__cstring: 0x125e
++  __TEXT.__unwind_info: 0x80
+   __DATA_CONST.__auth_got: 0x100
+   __DATA_CONST.__got: 0x30
+   __DATA_CONST.__auth_ptr: 0x8
+
+   __DATA.__bss: 0x3c
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libmd.dylib
+-  UUID: 33D3A0CC-6499-3AAA-BD68-847052E6EFB8
+-  Functions: 10
++  UUID: CFDBDAA4-92EE-3B2A-A2C5-48BD1EB4870A
++  Functions: 9
+   Symbols:   64
+-  CStrings:  137
++  CStrings:  136
+ 
+CStrings:
+- " ("
+
+```

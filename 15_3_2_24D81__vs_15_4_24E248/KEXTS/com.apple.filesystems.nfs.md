@@ -1,0 +1,433 @@
+## com.apple.filesystems.nfs
+
+> `com.apple.filesystems.nfs`
+
+```diff
+
+-316.80.1.0.0
+-  __TEXT.__cstring: 0x8b67
+-  __TEXT.__const: 0x354
+-  __TEXT_EXEC.__text: 0x89438
++327.100.3.0.0
++  __TEXT.__cstring: 0x8cc1
++  __TEXT.__const: 0x3dc
++  __TEXT_EXEC.__text: 0x8c69c
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0xec0
+-  __DATA.__common: 0xc44
++  __DATA.__data: 0xee0
++  __DATA.__common: 0xc94
+   __DATA.__bss: 0xb0
+   __DATA_CONST.__auth_got: 0xa70
+   __DATA_CONST.__got: 0xa8
+   __DATA_CONST.__auth_ptr: 0x8
+   __DATA_CONST.__mod_init_func: 0x8
+   __DATA_CONST.__mod_term_func: 0x8
+-  __DATA_CONST.__const: 0x1bb8
++  __DATA_CONST.__const: 0x1bc8
+   __DATA_CONST.__kalloc_type: 0x1000
+   __DATA_CONST.__kalloc_var: 0x320
+-  UUID: D92165CB-C0A5-37B7-8D0C-EE9BD428AEF5
+-  Functions: 701
+-  Symbols:   1665
+-  CStrings:  1043
++  UUID: 74A82537-3F75-3B98-897A-36D8F744C4DA
++  Functions: 948
++  Symbols:   1948
++  CStrings:  1050
+ 
+Symbols:
++ _OUTLINED_FUNCTION_0
++ _OUTLINED_FUNCTION_1
++ _OUTLINED_FUNCTION_10
++ _OUTLINED_FUNCTION_11
++ _OUTLINED_FUNCTION_12
++ _OUTLINED_FUNCTION_13
++ _OUTLINED_FUNCTION_14
++ _OUTLINED_FUNCTION_15
++ _OUTLINED_FUNCTION_16
++ _OUTLINED_FUNCTION_17
++ _OUTLINED_FUNCTION_18
++ _OUTLINED_FUNCTION_2
++ _OUTLINED_FUNCTION_3
++ _OUTLINED_FUNCTION_4
++ _OUTLINED_FUNCTION_5
++ _OUTLINED_FUNCTION_6
++ _OUTLINED_FUNCTION_7
++ _OUTLINED_FUNCTION_8
++ _OUTLINED_FUNCTION_9
++ _nfs_buf_commit_push
++ _nfs_buf_commit_remove
++ _nfs_buf_commit_thread
++ _nfs_buf_commit_thread_wakeup
++ _nfsbufcommitthd
++ _nfscommitq
++ mountnfs.kalloc_type_view_2898
++ mountnfs.kalloc_type_view_2907
++ mountnfs.kalloc_type_view_2916
++ mountnfs.kalloc_type_view_2926
++ mountnfs.kalloc_type_view_2949
++ nfs3_commit_rpc.cold.1
++ nfs3_vnop_create.cold.1
++ nfs3_vnop_create.cold.2
++ nfs3_vnop_create.kalloc_type_view_4478
++ nfs3_vnop_create.kalloc_type_view_4606
++ nfs3_vnop_getattr.cold.1
++ nfs3_vnop_getattr.cold.2
++ nfs3_vnop_link.cold.1
++ nfs3_vnop_link.cold.2
++ nfs3_vnop_mkdir.cold.1
++ nfs3_vnop_mkdir.cold.2
++ nfs3_vnop_mkdir.kalloc_type_view_5584
++ nfs3_vnop_mkdir.kalloc_type_view_5698
++ nfs3_vnop_mknod.cold.1
++ nfs3_vnop_mknod.cold.2
++ nfs3_vnop_rmdir.cold.1
++ nfs3_vnop_rmdir.cold.2
++ nfs3_vnop_rmdir.cold.3
++ nfs3_vnop_rmdir.kalloc_type_view_5755
++ nfs3_vnop_rmdir.kalloc_type_view_5831
++ nfs3_vnop_symlink.cold.1
++ nfs3_vnop_symlink.cold.2
++ nfs3_vnop_symlink.kalloc_type_view_5395
++ nfs3_vnop_symlink.kalloc_type_view_5515
++ nfs4_callback_timer.kalloc_type_view_2728
++ nfs4_cb_accept.cold.2
++ nfs4_cb_accept.kalloc_type_view_2762
++ nfs4_cb_accept.kalloc_type_view_2772
++ nfs4_cb_handler.cold.1
++ nfs4_cb_handler.cold.2
++ nfs4_cb_handler.cold.3
++ nfs4_cb_handler.cold.4
++ nfs4_cb_rcv.cold.1
++ nfs4_cb_rcv.cold.2
++ nfs4_commit_rpc.cold.1
++ nfs4_create_rpc.kalloc_type_view_7345
++ nfs4_create_rpc.kalloc_type_view_7467
++ nfs4_mount_callback_setup.cold.2
++ nfs4_mount_callback_setup.cold.3
++ nfs4_mount_callback_shutdown.kalloc_type_view_2695
++ nfs4_open_rpc_internal.kalloc_type_view_5487
++ nfs4_open_rpc_internal.kalloc_type_view_5758
++ nfs4_vnop_create.cold.1
++ nfs4_vnop_create.cold.2
++ nfs4_vnop_getattr.cold.1
++ nfs4_vnop_getattr.cold.2
++ nfs4_vnop_getnamedstream.cold.1
++ nfs4_vnop_getnamedstream.cold.2
++ nfs4_vnop_getxattr.cold.1
++ nfs4_vnop_getxattr.cold.2
++ nfs4_vnop_link.cold.1
++ nfs4_vnop_link.cold.2
++ nfs4_vnop_listxattr.cold.1
++ nfs4_vnop_listxattr.cold.2
++ nfs4_vnop_makenamedstream.cold.1
++ nfs4_vnop_makenamedstream.cold.2
++ nfs4_vnop_mkdir.cold.1
++ nfs4_vnop_mkdir.cold.2
++ nfs4_vnop_mknod.cold.1
++ nfs4_vnop_mknod.cold.2
++ nfs4_vnop_removenamedstream.cold.1
++ nfs4_vnop_removenamedstream.cold.2
++ nfs4_vnop_removexattr.cold.1
++ nfs4_vnop_removexattr.cold.2
++ nfs4_vnop_rmdir.cold.1
++ nfs4_vnop_rmdir.kalloc_type_view_7787
++ nfs4_vnop_rmdir.kalloc_type_view_7824
++ nfs4_vnop_setxattr.cold.1
++ nfs4_vnop_setxattr.cold.2
++ nfs4_vnop_symlink.cold.1
++ nfs4_vnop_symlink.cold.2
++ nfs_asyncio_finish.cold.1
++ nfs_asyncio_finish.cold.2
++ nfs_bioread.cold.3
++ nfs_bioread.cold.4
++ nfs_bioread.cold.5
++ nfs_buf_freeup.cold.1
++ nfs_buf_freeup.cold.2
++ nfs_buf_get.cold.10
++ nfs_buf_get.cold.11
++ nfs_buf_get.cold.12
++ nfs_buf_get.cold.13
++ nfs_buf_get.cold.14
++ nfs_buf_get.cold.9
++ nfs_buf_iodone.cold.2
++ nfs_buf_iowait.cold.1
++ nfs_buf_iowait.cold.2
++ nfs_buf_map.cold.2
++ nfs_buf_map.cold.3
++ nfs_buf_page_inval_internal.cold.2
++ nfs_buf_release.cold.7
++ nfs_buf_release.cold.8
++ nfs_buf_upl_check.cold.1
++ nfs_buf_upl_setup.cold.1
++ nfs_buf_upl_setup.cold.2
++ nfs_buf_write.cold.3
++ nfs_buf_write.cold.4
++ nfs_buf_write.cold.5
++ nfs_buf_write_delayed.cold.2
++ nfs_buf_write_delayed.cold.3
++ nfs_connect_search_ping.cold.1
++ nfs_data_exclusive_to_shared.cold.1
++ nfs_data_exclusive_to_shared.cold.2
++ nfs_data_lock_internal.cold.1
++ nfs_data_lock_internal.cold.2
++ nfs_data_shared_to_exclusive.cold.1
++ nfs_data_shared_to_exclusive.cold.2
++ nfs_data_unlock_internal.cold.1
++ nfs_data_unlock_internal.cold.2
++ nfs_data_update_size.cold.1
++ nfs_data_update_size.cold.2
++ nfs_flush.cold.1
++ nfs_flush.cold.2
++ nfs_flush.cold.3
++ nfs_flush.cold.4
++ nfs_flushcommits.cold.2
++ nfs_flushcommits.cold.3
++ nfs_flushcommits.cold.4
++ nfs_flushcommits.cold.5
++ nfs_fs_locations_cleanup.kalloc_type_view_4618
++ nfs_fs_locations_cleanup.kalloc_type_view_4621
++ nfs_fs_locations_cleanup.kalloc_type_view_4623
++ nfs_fs_locations_cleanup.kalloc_type_view_4626
++ nfs_fs_locations_cleanup.kalloc_type_view_4628
++ nfs_fs_path_destroy.kalloc_type_view_534
++ nfs_fs_path_init.kalloc_type_view_498
++ nfs_getattr_internal.cold.1
++ nfs_getattr_internal.cold.2
++ nfs_getattr_internal.cold.3
++ nfs_getattr_internal.cold.4
++ nfs_getattr_internal.cold.5
++ nfs_getattrcache.cold.1
++ nfs_getattrcache.cold.2
++ nfs_getattrcache.cold.3
++ nfs_getattrcache.cold.4
++ nfs_loadattrcache.cold.1
++ nfs_loadattrcache.cold.2
++ nfs_loadattrcache.cold.3
++ nfs_loadattrcache.cold.4
++ nfs_loadattrcache.cold.5
++ nfs_mount_cleanup.kalloc_type_view_4921
++ nfs_nget.cold.1
++ nfs_nget.cold.10
++ nfs_nget.cold.11
++ nfs_nget.cold.2
++ nfs_nget.cold.3
++ nfs_nget.cold.4
++ nfs_nget.cold.5
++ nfs_nget.cold.6
++ nfs_nget.cold.7
++ nfs_nget.cold.8
++ nfs_nget.cold.9
++ nfs_node_lock_internal.cold.1
++ nfs_node_lock_internal.cold.2
++ nfs_node_unlock.cold.1
++ nfs_read_rpc.cold.1
++ nfs_request2.cold.1
++ nfs_request_async.cold.1
++ nfs_request_async.cold.2
++ nfs_request_async_cancel.cold.1
++ nfs_request_async_finish.cold.1
++ nfs_request_async_finish.cold.2
++ nfs_request_destroy.kalloc_type_view_4322
++ nfs_request_finish.cold.1
++ nfs_request_finish.cold.2
++ nfs_request_finish.cold.3
++ nfs_request_gss.cold.1
++ nfs_request_gss.cold.2
++ nfs_request_match_reply.cold.2
++ nfs_request_match_reply.cold.3
++ nfs_send.cold.1
++ nfs_sendmbuf.cold.1
++ nfs_sillyrename.cold.1
++ nfs_sillyrename.kalloc_type_view_7018
++ nfs_sillyrename.kalloc_type_view_7077
++ nfs_sndlock.cold.1
++ nfs_softterm.cold.1
++ nfs_vfs_getattr.cold.1
++ nfs_vfs_getattr.cold.2
++ nfs_vfs_init.cold.1
++ nfs_vfs_init.cold.2
++ nfs_vfs_root.cold.1
++ nfs_vfs_sync.cold.1
++ nfs_vfs_sync.cold.2
++ nfs_vfs_sysctl.cold.1
++ nfs_vfs_sysctl.cold.2
++ nfs_vfs_unmount.cold.1
++ nfs_vfs_unmount.cold.2
++ nfs_vinvalbuf2.cold.2
++ nfs_vinvalbuf2.cold.3
++ nfs_vinvalbuf2.cold.4
++ nfs_vinvalbuf_internal.cold.3
++ nfs_vinvalbuf_internal.cold.4
++ nfs_vinvalbuf_internal.cold.5
++ nfs_vinvalbuf_internal.cold.6
++ nfs_vinvalbuf_internal.cold.7
++ nfs_vnop_access.cold.1
++ nfs_vnop_access.cold.2
++ nfs_vnop_advlock.cold.1
++ nfs_vnop_advlock.cold.2
++ nfs_vnop_blktooff.cold.1
++ nfs_vnop_blktooff.cold.2
++ nfs_vnop_close.cold.1
++ nfs_vnop_close.cold.2
++ nfs_vnop_fsync.cold.1
++ nfs_vnop_fsync.cold.2
++ nfs_vnop_inactive.cold.3
++ nfs_vnop_inactive.cold.4
++ nfs_vnop_inactive.cold.5
++ nfs_vnop_inactive.cold.6
++ nfs_vnop_inactive.cold.7
++ nfs_vnop_inactive.cold.8
++ nfs_vnop_inactive.kalloc_type_view_666
++ nfs_vnop_inactive.kalloc_type_view_941
++ nfs_vnop_inactive.kalloc_type_view_943
++ nfs_vnop_ioctl.cold.1
++ nfs_vnop_ioctl.cold.2
++ nfs_vnop_lookup.cold.1
++ nfs_vnop_lookup.cold.2
++ nfs_vnop_mmap.cold.1
++ nfs_vnop_mmap.cold.2
++ nfs_vnop_mmap_check.cold.1
++ nfs_vnop_mmap_check.cold.2
++ nfs_vnop_mnomap.cold.1
++ nfs_vnop_mnomap.cold.2
++ nfs_vnop_monitor.cold.1
++ nfs_vnop_monitor.cold.2
++ nfs_vnop_offtoblk.cold.1
++ nfs_vnop_offtoblk.cold.2
++ nfs_vnop_open.cold.1
++ nfs_vnop_open.cold.2
++ nfs_vnop_pagein.cold.2
++ nfs_vnop_pagein.cold.3
++ nfs_vnop_pagein.cold.4
++ nfs_vnop_pagein.cold.5
++ nfs_vnop_pageout.cold.3
++ nfs_vnop_pageout.cold.4
++ nfs_vnop_pageout.cold.5
++ nfs_vnop_pageout.cold.6
++ nfs_vnop_pageout.cold.7
++ nfs_vnop_pageout.cold.8
++ nfs_vnop_pageout.cold.9
++ nfs_vnop_pathconf.cold.1
++ nfs_vnop_pathconf.cold.2
++ nfs_vnop_read.cold.1
++ nfs_vnop_read.cold.2
++ nfs_vnop_readdir.cold.1
++ nfs_vnop_readdir.cold.2
++ nfs_vnop_readlink.cold.1
++ nfs_vnop_readlink.cold.2
++ nfs_vnop_readlink.cold.3
++ nfs_vnop_reclaim.cold.1
++ nfs_vnop_reclaim.cold.2
++ nfs_vnop_reclaim.cold.3
++ nfs_vnop_reclaim.kalloc_type_view_1130
++ nfs_vnop_remove.cold.1
++ nfs_vnop_remove.cold.2
++ nfs_vnop_remove.kalloc_type_view_4663
++ nfs_vnop_remove.kalloc_type_view_4858
++ nfs_vnop_rename.cold.1
++ nfs_vnop_rename.cold.2
++ nfs_vnop_rename.cold.3
++ nfs_vnop_setattr.cold.1
++ nfs_vnop_setattr.cold.2
++ nfs_vnop_setattr.cold.3
++ nfs_vnop_setattr.cold.4
++ nfs_vnop_setattr.cold.5
++ nfs_vnop_setattr.cold.6
++ nfs_vnop_setattr.cold.7
++ nfs_vnop_setattr.cold.8
++ nfs_vnop_write.cold.10
++ nfs_vnop_write.cold.11
++ nfs_vnop_write.cold.12
++ nfs_vnop_write.cold.13
++ nfs_vnop_write.cold.14
++ nfs_vnop_write.cold.15
++ nfs_vnop_write.cold.16
++ nfs_vnop_write.cold.17
++ nfs_vnop_write.cold.18
++ nfs_vnop_write.cold.19
++ nfs_vnop_write.cold.20
++ nfs_vnop_write.cold.7
++ nfs_vnop_write.cold.8
++ nfs_vnop_write.cold.9
++ nfs_write_rpc.cold.1
++ nfs_write_rpc.cold.2
+- krb5_key_derivation.cold.1
+- krb5_key_derivation.cold.2
+- mountnfs.cold.1
+- mountnfs.cold.2
+- mountnfs.cold.3
+- mountnfs.kalloc_type_view_2894
+- mountnfs.kalloc_type_view_2903
+- mountnfs.kalloc_type_view_2912
+- mountnfs.kalloc_type_view_2922
+- mountnfs.kalloc_type_view_2945
+- nfs3_getlock_rpc.cold.1
+- nfs3_setlock_rpc.cold.1
+- nfs3_unlock_rpc.cold.1
+- nfs3_vnop_create.kalloc_type_view_4479
+- nfs3_vnop_create.kalloc_type_view_4607
+- nfs3_vnop_mkdir.kalloc_type_view_5585
+- nfs3_vnop_mkdir.kalloc_type_view_5699
+- nfs3_vnop_rmdir.kalloc_type_view_5756
+- nfs3_vnop_rmdir.kalloc_type_view_5832
+- nfs3_vnop_symlink.kalloc_type_view_5396
+- nfs3_vnop_symlink.kalloc_type_view_5516
+- nfs4_callback_timer.kalloc_type_view_2724
+- nfs4_cb_accept.kalloc_type_view_2755
+- nfs4_cb_accept.kalloc_type_view_2765
+- nfs4_create_rpc.kalloc_type_view_7445
+- nfs4_create_rpc.kalloc_type_view_7567
+- nfs4_id2guid.cold.1
+- nfs4_mount.cold.1
+- nfs4_mount.cold.2
+- nfs4_mount_callback_shutdown.kalloc_type_view_2691
+- nfs4_open_rpc_internal.kalloc_type_view_5476
+- nfs4_open_rpc_internal.kalloc_type_view_5787
+- nfs4_parsefattr.cold.1
+- nfs4_parsefattr.cold.2
+- nfs4_vnop_rmdir.kalloc_type_view_7887
+- nfs4_vnop_rmdir.kalloc_type_view_7924
+- nfs_connect.cold.1
+- nfs_connect.cold.2
+- nfs_connect.cold.3
+- nfs_fs_locations_cleanup.kalloc_type_view_4614
+- nfs_fs_locations_cleanup.kalloc_type_view_4617
+- nfs_fs_locations_cleanup.kalloc_type_view_4619
+- nfs_fs_locations_cleanup.kalloc_type_view_4622
+- nfs_fs_locations_cleanup.kalloc_type_view_4624
+- nfs_fs_path_destroy.kalloc_type_view_530
+- nfs_fs_path_init.kalloc_type_view_494
+- nfs_gss_clnt_ctx_copy.cold.1
+- nfs_gss_clnt_ctx_find_principal.cold.1
+- nfs_gss_clnt_ctx_get_principal.cold.1
+- nfs_gss_clnt_ctx_init_retry.cold.1
+- nfs_gss_clnt_ctx_init_retry.cold.2
+- nfs_gss_clnt_ctx_init_retry.cold.3
+- nfs_gss_clnt_ctx_init_retry.cold.4
+- nfs_mount_cleanup.kalloc_type_view_4917
+- nfs_portmap_lookup.cold.2
+- nfs_refresh_fh.cold.1
+- nfs_request_destroy.kalloc_type_view_4298
+- nfs_sillyrename.kalloc_type_view_7019
+- nfs_sillyrename.kalloc_type_view_7078
+- nfs_vfs_mount.cold.3
+- nfs_vnop_inactive.kalloc_type_view_665
+- nfs_vnop_inactive.kalloc_type_view_940
+- nfs_vnop_inactive.kalloc_type_view_942
+- nfs_vnop_reclaim.kalloc_type_view_1116
+- nfs_vnop_remove.kalloc_type_view_4664
+- nfs_vnop_remove.kalloc_type_view_4859
+CStrings:
++ "nfs4_delegation_return was called without delegation? [name %s, np 0x%lx, inode %llu] \n"
++ "nfs_advlock_unlock: newnflp is NULL! [name %s, np 0x%lx, inode %llu] \n"
++ "nfs_buf_write: got invalid offsets! dend %lld, doff %lld, lblkno %lld, n_size %lld [name %s, np 0x%lx, inode %llu] \n"
++ "nfs_buf_write_rpc: Got request with invalid length %lld\n"
++ "nfs_commit_thread"
++ "nfs_commitd_mutex"
++ "nfsbufcommit"
++ "nfswaitcommit"
+- "nfs_buf_write_rpc: Got request with zero length.\n"
+
+```

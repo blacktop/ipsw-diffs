@@ -1,0 +1,155 @@
+## CoreHaptics
+
+> `/System/Library/Frameworks/CoreHaptics.framework/Versions/A/CoreHaptics`
+
+```diff
+
+-250.400.0.0.0
+-  __TEXT.__text: 0x4dfb8
+-  __TEXT.__auth_stubs: 0x830
+-  __TEXT.__objc_methlist: 0x1c58
+-  __TEXT.__const: 0x4d0
+-  __TEXT.__gcc_except_tab: 0x8648
++250.501.0.0.0
++  __TEXT.__text: 0x4ddb4
++  __TEXT.__auth_stubs: 0x840
++  __TEXT.__objc_methlist: 0x215c
++  __TEXT.__const: 0x4b0
++  __TEXT.__gcc_except_tab: 0x8658
+   __TEXT.__cstring: 0x5e0f
+-  __TEXT.__oslogstring: 0x7cb7
++  __TEXT.__oslogstring: 0x7ce7
+   __TEXT.__unwind_info: 0x1828
+   __TEXT.__objc_classname: 0x3a0
+-  __TEXT.__objc_methname: 0x4862
++  __TEXT.__objc_methname: 0x4872
+   __TEXT.__objc_methtype: 0x1822
+-  __TEXT.__objc_stubs: 0x3aa0
+-  __DATA_CONST.__got: 0x188
++  __TEXT.__objc_stubs: 0x3ac0
++  __DATA_CONST.__got: 0x1a0
+   __DATA_CONST.__const: 0x2a0
+   __DATA_CONST.__objc_classlist: 0xc8
+   __DATA_CONST.__objc_protolist: 0x60
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x11b0
++  __DATA_CONST.__objc_selrefs: 0x1260
+   __DATA_CONST.__objc_protorefs: 0x10
+   __DATA_CONST.__objc_superrefs: 0x98
+-  __AUTH_CONST.__auth_got: 0x430
+-  __AUTH_CONST.__const: 0xc38
++  __AUTH_CONST.__auth_got: 0x438
++  __AUTH_CONST.__const: 0xbf8
+   __AUTH_CONST.__cfstring: 0x1e20
+-  __AUTH_CONST.__objc_const: 0x49f8
++  __AUTH_CONST.__objc_const: 0x40a8
+   __AUTH_CONST.__objc_doubleobj: 0x50
+   __AUTH.__objc_data: 0x7d0
+   __DATA.__objc_ivar: 0x1e4
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 52170B19-4042-30A2-8692-CF66880DF4C0
+-  Functions: 911
+-  Symbols:   2622
+-  CStrings:  2453
++  UUID: 34E67B3C-DC36-3145-AF45-94919D69DB9A
++  Functions: 912
++  Symbols:   2632
++  CStrings:  2455
+ 
+Symbols:
++ +[CHHapticEngine capabilitiesForHardware].cold.1
++ -[AVHapticClient initWithOptions:error:].cold.1
++ -[CHHapticEngine initAndReturnError:].cold.1
++ -[CHHapticEngine initWithAudioSession:error:].cold.1
++ -[CHHapticEngine initWithAudioSession:sessionIsShared:options:error:].cold.1
++ -[CHHapticEngine initWithAudioSessionID:error:].cold.1
++ -[CHHapticEngine initWithAudioSessionID:options:error:].cold.1
++ -[CHHapticEngine initWithOptions:error:].cold.1
++ GCC_except_table236
++ _Z20setupClientLogScopesv.cold.1
++ _Z20setupHapticLogScopesv.cold.1
++ _ZN13AudioResource22getTotalAllocationLockEv.cold.1
++ __ZNKSt3__16vectorI28AVHapticPlayerFixedParameterNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIN18CASmartPreferences4PrefENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorImNS_9allocatorImEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt9type_infoeqB8ne190102ERKS_
++ __ZNSt12length_errorC1B8ne190102EPKc
++ __ZNSt3__110__function12__value_funcIFbPKvEEC2B8ne190102EOS5_
++ __ZNSt3__110__function12__value_funcIFbPKvEEC2B8ne190102ERKS5_
++ __ZNSt3__110__function12__value_funcIFbPKvEED2B8ne190102Ev
++ __ZNSt3__110__function12__value_funcIFviEEC2B8ne190102EOS3_
++ __ZNSt3__110__function12__value_funcIFviEEC2B8ne190102ERKS3_
++ __ZNSt3__110__function12__value_funcIFviEED2B8ne190102Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeImU8__strongP21AVHapticSequenceEntryEEPvEENS_22__tree_node_destructorINS_9allocatorIS8_EEEEE5resetB8ne190102EPS8_
++ __ZNSt3__112__destroy_atB8ne190102INS_4pairIKmNS_5tupleIJNS_10shared_ptrI13AudioResourceEEU8__strongP12NSDictionaryjEEEEELi0EEEvPT_
++ __ZNSt3__113__tree_removeB8ne190102IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__115allocate_sharedB8ne190102I13AudioResourceNS_9allocatorIS1_EEJRU8__strongP5NSURLELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__117__call_once_paramINS_5tupleIJOZN12CADeprecated10TSingletonI12AVFASoftLinkE8instanceEvEUlvE_EEEE9__executeB8ne190102IJEEEvNS_15__tuple_indicesIJXspT_EEEE
++ __ZNSt3__117__call_once_proxyB8ne190102INS_5tupleIJOZN12CADeprecated10TSingletonI12AVFASoftLinkE8instanceEvEUlvE_EEEEEvPv
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorI28AVHapticPlayerFixedParameterEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN18CASmartPreferences4PrefEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorImEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__shared_weak_count16__release_sharedB8ne190102Ev
++ __ZNSt3__120__shared_ptr_emplaceI13AudioResourceNS_9allocatorIS1_EEEC2B8ne190102IJRU8__strongP5NSURLES3_Li0EEES3_DpOT_
++ __ZNSt3__120__throw_length_errorB8ne190102EPKc
++ __ZNSt3__125__throw_bad_function_callB8ne190102Ev
++ __ZNSt3__127__tree_balance_after_insertB8ne190102IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__128__invoke_void_return_wrapperIbLb0EE6__callB8ne190102IJRZN18CASmartPreferences10AddHandlerIiEEvPK10__CFStringS7_PFT_PKvRbENS_8functionIFvS8_EEEEUlSA_E_SA_EEEbDpOT_
++ __ZNSt3__134__uninitialized_allocator_relocateB8ne190102INS_9allocatorIN18CASmartPreferences4PrefEEES3_EEvRT_PT0_S8_S8_
++ __ZNSt3__16vectorImNS_9allocatorImEEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorImNS_9allocatorImEEE16__init_with_sizeB8ne190102IPmS5_EEvT_T0_m
++ __ZNSt3__19allocatorIN18CASmartPreferences4PrefEE9constructB8ne190102IS2_JRPK10__CFStringS8_RNS_8functionIFbPKvEEEEEEvPT_DpOT0_
++ __ZSt28__throw_bad_array_new_lengthB8ne190102v
++ _memcpy
++ _objc_msgSend$opaqueSessionID
+- GCC_except_table238
+- __ZNKSt3__16vectorI28AVHapticPlayerFixedParameterNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN18CASmartPreferences4PrefENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorImNS_9allocatorImEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt9exception4whatEv
+- __ZNKSt9type_infoeqB8ne180100ERKS_
+- __ZNSt12length_errorC1B8ne180100EPKc
+- __ZNSt3__110__function12__value_funcIFbPKvEEC2B8ne180100EOS5_
+- __ZNSt3__110__function12__value_funcIFbPKvEEC2B8ne180100ERKS5_
+- __ZNSt3__110__function12__value_funcIFbPKvEED2B8ne180100Ev
+- __ZNSt3__110__function12__value_funcIFviEEC2B8ne180100EOS3_
+- __ZNSt3__110__function12__value_funcIFviEEC2B8ne180100ERKS3_
+- __ZNSt3__110__function12__value_funcIFviEED2B8ne180100Ev
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeImNS_5tupleIJNS_10shared_ptrI13AudioResourceEEU8__strongP12NSDictionaryjEEEEEPvEENS_22__tree_node_destructorINS_9allocatorISD_EEEEE5resetB8ne180100EPSD_
+- __ZNSt3__112__destroy_atB8ne180100INS_4pairIKmNS_5tupleIJNS_10shared_ptrI13AudioResourceEEU8__strongP12NSDictionaryjEEEEELi0EEEvPT_
+- __ZNSt3__113__tree_removeB8ne180100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__115allocate_sharedB8ne180100I13AudioResourceNS_9allocatorIS1_EEJRU8__strongP5NSURLEvEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__117__call_once_paramINS_5tupleIJOZN12CADeprecated10TSingletonI12AVFASoftLinkE8instanceEvEUlvE_EEEE9__executeB8ne180100IJEEEvNS_15__tuple_indicesIJXspT_EEEE
+- __ZNSt3__117__call_once_proxyB8ne180100INS_5tupleIJOZN12CADeprecated10TSingletonI12AVFASoftLinkE8instanceEvEUlvE_EEEEEvPv
+- __ZNSt3__117bad_function_callD0Ev
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorI28AVHapticPlayerFixedParameterEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIN18CASmartPreferences4PrefEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorImEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__shared_weak_count16__release_sharedB8ne180100Ev
+- __ZNSt3__120__shared_ptr_emplaceI13AudioResourceNS_9allocatorIS1_EEEC2B8ne180100IJRU8__strongP5NSURLES3_Li0EEES3_DpOT_
+- __ZNSt3__120__throw_length_errorB8ne180100EPKc
+- __ZNSt3__125__throw_bad_function_callB8ne180100Ev
+- __ZNSt3__127__tree_balance_after_insertB8ne180100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__128__invoke_void_return_wrapperIbLb0EE6__callB8ne180100IJRZN18CASmartPreferences10AddHandlerIiEEvPK10__CFStringS7_PFT_PKvRbENS_8functionIFvS8_EEEEUlSA_E_SA_EEEbDpOT_
+- __ZNSt3__16vectorIN18CASmartPreferences4PrefENS_9allocatorIS2_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS2_RS4_EE
+- __ZNSt3__16vectorImNS_9allocatorImEEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorImNS_9allocatorImEEE16__init_with_sizeB8ne180100IPmS5_EEvT_T0_m
+- __ZNSt3__19allocatorIN18CASmartPreferences4PrefEE9constructB8ne180100IS2_JRPK10__CFStringS8_RNS_8functionIFbPKvEEEEEEvPT_DpOT0_
+- __ZSt28__throw_bad_array_new_lengthB8ne180100v
+- __ZTSNSt3__117bad_function_callE
+CStrings:
++ "%25s:%-5d %s: Cannot configure audio session %u"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/CoreHaptics/Source/AVHapticPlayer.mm"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/CoreHaptics/Source/CHHapticAdvancedPatternPlayer.mm"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/CoreHaptics/Source/CHHapticEngine.mm"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/CoreHaptics/Source/CHHapticPatternPlayer.mm"
++ "opaqueSessionID"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/CoreHaptics/Source/AVHapticPlayer.mm"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/CoreHaptics/Source/CHHapticAdvancedPatternPlayer.mm"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/CoreHaptics/Source/CHHapticEngine.mm"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/CoreHaptics/Source/CHHapticPatternPlayer.mm"
+
+```

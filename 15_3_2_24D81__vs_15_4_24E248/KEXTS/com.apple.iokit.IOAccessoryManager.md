@@ -1,0 +1,310 @@
+## com.apple.iokit.IOAccessoryManager
+
+> `com.apple.iokit.IOAccessoryManager`
+
+```diff
+
+-1004.80.3.0.1
+-  __TEXT.__const: 0x314
+-  __TEXT.__cstring: 0x108c4
++1016.100.10.0.0
++  __TEXT.__const: 0x328
++  __TEXT.__cstring: 0x108b5
+   __TEXT.__os_log: 0x107da
+-  __TEXT_EXEC.__text: 0xf34e4
++  __TEXT_EXEC.__text: 0xf3098
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x7e8
+   __DATA.__common: 0x1630
+-  __DATA.__bss: 0x132
++  __DATA.__bss: 0x13a
+   __DATA_CONST.__auth_got: 0x5c0
+   __DATA_CONST.__got: 0x1e0
+   __DATA_CONST.__auth_ptr: 0x20
+   __DATA_CONST.__mod_init_func: 0x338
+   __DATA_CONST.__mod_term_func: 0x330
+-  __DATA_CONST.__const: 0x41860
++  __DATA_CONST.__const: 0x41878
+   __DATA_CONST.__kalloc_type: 0x2440
+-  UUID: 64303737-2FD4-399A-A791-8F2B0348B229
+-  Functions: 4445
+-  Symbols:   7396
+-  CStrings:  2791
++  UUID: D4751992-68EE-30DC-A106-C055C2E90842
++  Functions: 4823
++  Symbols:   8015
++  CStrings:  2789
+ 
+Symbols:
++ _OUTLINED_FUNCTION_0
++ _OUTLINED_FUNCTION_1
++ _OUTLINED_FUNCTION_10
++ _OUTLINED_FUNCTION_11
++ _OUTLINED_FUNCTION_12
++ _OUTLINED_FUNCTION_13
++ _OUTLINED_FUNCTION_14
++ _OUTLINED_FUNCTION_15
++ _OUTLINED_FUNCTION_16
++ _OUTLINED_FUNCTION_17
++ _OUTLINED_FUNCTION_18
++ _OUTLINED_FUNCTION_19
++ _OUTLINED_FUNCTION_2
++ _OUTLINED_FUNCTION_20
++ _OUTLINED_FUNCTION_21
++ _OUTLINED_FUNCTION_22
++ _OUTLINED_FUNCTION_23
++ _OUTLINED_FUNCTION_24
++ _OUTLINED_FUNCTION_25
++ _OUTLINED_FUNCTION_26
++ _OUTLINED_FUNCTION_27
++ _OUTLINED_FUNCTION_28
++ _OUTLINED_FUNCTION_29
++ _OUTLINED_FUNCTION_3
++ _OUTLINED_FUNCTION_30
++ _OUTLINED_FUNCTION_31
++ _OUTLINED_FUNCTION_32
++ _OUTLINED_FUNCTION_33
++ _OUTLINED_FUNCTION_34
++ _OUTLINED_FUNCTION_35
++ _OUTLINED_FUNCTION_36
++ _OUTLINED_FUNCTION_37
++ _OUTLINED_FUNCTION_38
++ _OUTLINED_FUNCTION_39
++ _OUTLINED_FUNCTION_4
++ _OUTLINED_FUNCTION_40
++ _OUTLINED_FUNCTION_41
++ _OUTLINED_FUNCTION_42
++ _OUTLINED_FUNCTION_43
++ _OUTLINED_FUNCTION_44
++ _OUTLINED_FUNCTION_45
++ _OUTLINED_FUNCTION_46
++ _OUTLINED_FUNCTION_47
++ _OUTLINED_FUNCTION_48
++ _OUTLINED_FUNCTION_49
++ _OUTLINED_FUNCTION_5
++ _OUTLINED_FUNCTION_50
++ _OUTLINED_FUNCTION_51
++ _OUTLINED_FUNCTION_52
++ _OUTLINED_FUNCTION_53
++ _OUTLINED_FUNCTION_54
++ _OUTLINED_FUNCTION_55
++ _OUTLINED_FUNCTION_56
++ _OUTLINED_FUNCTION_57
++ _OUTLINED_FUNCTION_58
++ _OUTLINED_FUNCTION_59
++ _OUTLINED_FUNCTION_6
++ _OUTLINED_FUNCTION_60
++ _OUTLINED_FUNCTION_61
++ _OUTLINED_FUNCTION_7
++ _OUTLINED_FUNCTION_8
++ _OUTLINED_FUNCTION_9
++ _ZN12IOPortFamily11setMetadataEP12OSDictionary.cold.1
++ _ZN12IOPortFamily11setMetadataEP12OSDictionary.cold.2
++ _ZN12IOPortFamily12sendMessagesEv.cold.1
++ _ZN12IOPortFamily14enqueueMessageEjPvm.cold.1
++ _ZN12IOPortFamily15propertyChangedEv.cold.1
++ _ZN12IOPortFamily21enableSendingMessagesEv.cold.1
++ _ZN12IOPortFamily21handleMetadataChangesEP12OSDictionaryS1_b.cold.1
++ _ZN12IOPortFamily22disableSendingMessagesEv.cold.1
++ _ZN12IOPortFamily24addSerializerForPropertyEPKc.cold.1
++ _ZN12IOPortFamily26queueServiceReregistrationEv.cold.1
++ _ZN12IOPortFamily27enableServiceReregistrationEv.cold.1
++ _ZN12IOPortFamily27handleServiceReregistrationEv.cold.1
++ _ZN12IOPortFamily28disableServiceReregistrationEv.cold.1
++ _ZN12IOPortFamily4initEP12OSDictionary.cold.1
++ _ZN12IOPortFamily5startEP9IOService.cold.1
++ _ZN13IOPortFeature19initWithFeatureTypeE17IOPortFeatureTypeP12OSDictionary.cold.1
++ _ZN13IOPortFeature25featureMatchingForServiceEPK9IOService17IOPortFeatureType.cold.1
++ _ZN13IOPortFeature5startEP9IOService.cold.1
++ _ZN14IOAccessoryTRM18_updateStatusGatedEv.cold.1
++ _ZN14IOAccessoryTRM19_setPropertiesGatedEv.cold.1
++ _ZN14IOAccessoryTRM20_handleNotificationsEv.cold.1
++ _ZN15IOAccessoryPort20releaseDynamicPortIDEi.cold.1
++ _ZN16IOPortUserClient11clientCloseEv.cold.1
++ _ZN16IOPortUserClient5startEP9IOService.cold.1
++ _ZN17IOPortFeatureLDCM17setLiquidDetectedEb.cold.1
++ _ZN17IOPortFeatureLDCM18setFirmwareVersionEP8OSString.cold.1
++ _ZN17IOPortFeatureLDCM21setMitigationsEnabledEb.cold.1
++ _ZN17IOPortFeatureLDCM21setMitigationsEnabledEb.cold.2
++ _ZN17IOPortFeatureLDCM21setUserOverrideActiveEb.cold.1
++ _ZN18IOPortFeaturePower15_addPowerSourceEP24IOPortFeaturePowerSourceP9IOService.cold.1
++ _ZN18IOPortFeaturePower15_addPowerSourceEP24IOPortFeaturePowerSourceP9IOService.cold.2
++ _ZN18IOPortFeaturePower18_removePowerSourceEP24IOPortFeaturePowerSourceP9IOService.cold.1
++ _ZN18IOPortFeaturePower19initWithFeatureTypeE17IOPortFeatureTypeP12OSDictionary.cold.1
++ _ZN18IOPortFeaturePower5startEP9IOService.cold.1
++ _ZN19IOAccessoryDock9Pin16checkFreePinPairEPbNS_10DPDNConfigE.cold.1
++ _ZN19IOAccessoryDock9Pin19handleIDBusResponseEN21IOAccessoryManagerAID10IDBusStateE.cold.1
++ _ZN19IOAccessoryDock9Pin21handleAccessoryDetectEPbP15IOAccResistorIDbb.cold.1
++ _ZN19IOAccessoryDock9Pin21handleAccessoryDetectEPbP15IOAccResistorIDbb.cold.2
++ _ZN19IOAccessoryDock9Pin28runGoldbondStateMachineGatedEv.cold.1
++ _ZN19IOAccessoryDock9Pin28runGoldbondStateMachineGatedEv.cold.2
++ _ZN19IOAccessoryDock9Pin28runGoldbondStateMachineGatedEv.cold.3
++ _ZN19IOAccessoryDock9Pin33runVoltageDetectStateMachineGatedEv.cold.1
++ _ZN19IOAccessoryDock9Pin33runVoltageDetectStateMachineGatedEv.cold.2
++ _ZN20IOPortTransportState10_initIndexEv.cold.1
++ _ZN20IOPortTransportState11setMetadataEP12OSDictionary.cold.1
++ _ZN20IOPortTransportState11setMetadataEP12OSDictionary.cold.2
++ _ZN20IOPortTransportState12sendMessagesEv.cold.1
++ _ZN20IOPortTransportState14enqueueMessageEj.cold.1
++ _ZN20IOPortTransportState15propertyChangedEv.cold.1
++ _ZN20IOPortTransportState15setDriverStatusE32IOPortTransportStateDriverStatus.cold.1
++ _ZN20IOPortTransportState17handleStateChangeEv.cold.1
++ _ZN20IOPortTransportState19_handleNotificationEPviP22AppleNotificationQueue.cold.1
++ _ZN20IOPortTransportState21handleMetadataChangesEP12OSDictionaryS1_b.cold.1
++ _ZN20IOPortTransportState22setAuthorizationStatusE39IOPortTransportStateAuthorizationStatus.cold.1
++ _ZN20IOPortTransportState22setAuthorizationStatusE39IOPortTransportStateAuthorizationStatus.cold.2
++ _ZN20IOPortTransportState23setAuthenticationStatusE40IOPortTransportStateAuthenticationStatus.cold.1
++ _ZN20IOPortTransportState24setAuthenticationTimeoutEt.cold.1
++ _ZN20IOPortTransportState25setAuthenticationRequiredEb.cold.1
++ _ZN20IOPortTransportState26queueServiceReregistrationEv.cold.1
++ _ZN20IOPortTransportState27handleServiceReregistrationEv.cold.1
++ _ZN20IOPortTransportState5startEP9IOService.cold.1
++ _ZN20IOPortTransportState5startEP9IOService.cold.2
++ _ZN20IOPortTransportState5startEP9IOService.cold.3
++ _ZN20IOPortTransportState7setHashEPK6OSData.cold.1
++ _ZN20IOPortTransportState9_setIndexEh.cold.1
++ _ZN20IOPortTransportState9setActiveEb.cold.1
++ _ZN22IOAccessoryManagerUSBC5startEP9IOService.cold.1
++ _ZN22IOPortTransportStateCC5startEP9IOService.cold.1
++ _ZN22IOPortTransportStateSD5startEP9IOService.cold.1
++ _ZN23IOPortFeatureUserClient11clientCloseEv.cold.1
++ _ZN23IOPortFeatureUserClient5startEP9IOService.cold.1
++ _ZN23IOPortTransportProtocol5startEP9IOService.cold.1
++ _ZN23IOPortTransportProtocol5startEP9IOService.cold.2
++ _ZN23IOPortTransportStateCIO21handleMetadataChangesEP12OSDictionaryS1_b.cold.1
++ _ZN23IOPortTransportStateCIO21handleMetadataChangesEP12OSDictionaryS1_b.cold.2
++ _ZN23IOPortTransportStateCIO5startEP9IOService.cold.1
++ _ZN23IOPortTransportStateIIC5startEP9IOService.cold.1
++ _ZN23IOPortTransportStateSWN5startEP9IOService.cold.1
++ _ZN23IOPortTransportStateUSB15_updateDataRoleE31IOPortTransportStateUSBDataRolebP9IOService.cold.1
++ _ZN23IOPortTransportStateUSB5startEP9IOService.cold.1
++ _ZN24IOAccessoryHSAIDBulkData17_finishStartGatedEP9IOService.cold.1
++ _ZN24IOAccessoryHSAIDBulkData19handleErrorResponseEPKvj.cold.1
++ _ZN24IOAccessoryHSAIDBulkData22handleIdentifyResponseEPKvj.cold.1
++ _ZN24IOAccessoryHSAIDBulkData5startEP9IOService.cold.1
++ _ZN24IOAccessoryIDBusBulkData26_completeIDBusInfoInternalEi.cold.1
++ _ZN24IOAccessoryIDBusBulkData26_completeIDBusInfoInternalEi.cold.2
++ _ZN24IOAccessoryIDBusBulkData29_completeIDBusCommandInternalEi.cold.1
++ _ZN24IOPortFeaturePowerSource5startEP9IOService.cold.1
++ _ZN24IOPortFeaturePowerSource9_setOwnerEP9IOService.cold.1
++ _ZN24IOPortTransportComponent5startEP9IOService.cold.1
++ _ZN24IOPortTransportComponent5startEP9IOService.cold.2
++ _ZN24IOPortTransportStateUSB216setWakeHostStateE37IOPortTransportStateUSB2WakeHostState.cold.1
++ _ZN24IOPortTransportStateUSB25startEP9IOService.cold.1
++ _ZN24IOPortTransportStateUSB29setActiveEb.cold.1
++ _ZN24IOPortTransportStateUSB35startEP9IOService.cold.1
++ _ZN24IOPortTransportStateUSB39setActiveEb.cold.1
++ _ZN25IOAccessoryIDBusTransport24completeTransferCallbackEPvi.cold.1
++ _ZN25IOAccessoryUSBConnectShim13setPowerStateEmP9IOService.cold.1
++ _ZN25IOAccessoryUSBConnectShim16publishResourcesEv.cold.1
++ _ZN25IOPortTransportUserClient11clientCloseEv.cold.1
++ _ZN25IOPortTransportUserClient5startEP9IOService.cold.1
++ _ZN27IOPortFeatureLDCMUserClient13_copyWaveformEPS_PvP25IOExternalMethodArguments.cold.1
++ _ZN27IOPortFeatureLDCMUserClient5startEP9IOService.cold.1
++ _ZN27IOPortFeatureLDCMUserClient9_copyDataEPS_PvP25IOExternalMethodArguments.cold.1
++ _ZN28IOAccessoryHSAIDBusTransport21receiveLongFormPacketEPKvjPj.cold.1
++ _ZN29IOAccessoryHIDDeviceInterface21handleStartThreadCallEPvS0_.cold.1
++ _ZN29IOAccessoryHIDDeviceInterface5startEP9IOService.cold.1
++ _ZN29IOAccessoryHIDDeviceInterface5startEP9IOService.cold.2
++ _ZN29IOPortTunnelingTransportState5startEP9IOService.cold.1
++ _ZN30IOPortFeaturePowerSourceOption21_setParentPowerSourceEP24IOPortFeaturePowerSource.cold.1
++ _ZN30IOPortTransportStateOrderedSet13orderFunctionEPK15OSMetaClassBaseS2_Pv.cold.1
++ _ZN30IOPortTransportStateOrderedSet13orderFunctionEPK15OSMetaClassBaseS2_Pv.cold.2
++ _ZN31IOAccessoryUSBPowerSourceDetect19determineUSBChargerEP22IOAccessoryPowerSourceyP5OSSet.cold.1
++ _ZN31IOAccessoryUSBPowerSourceDetect19determineUSBChargerEP22IOAccessoryPowerSourceyP5OSSet.cold.2
++ _ZN31IOAccessoryUSBPowerSourceDetect19determineUSBChargerEP22IOAccessoryPowerSourceyP5OSSet.cold.3
++ _ZN31IOAccessoryUSBPowerSourceDetect19determineUSBChargerEP22IOAccessoryPowerSourceyP5OSSet.cold.4
++ _ZN31IOPortTransportComponentCCUSBPD7setVDOsEP7OSArray.cold.1
++ _ZN31IOPortTransportStateDisplayPort21handleMetadataChangesEP12OSDictionaryS1_b.cold.1
++ _ZN31IOPortTransportStateDisplayPort5startEP9IOService.cold.1
++ _ZN31IOPortTransportStateDisplayPort9setActiveEb.cold.1
++ _ZN32IOAccessoryConfigStreamInterface19_publishDevInfoDataEv.cold.1
++ _ZN32IOAccessoryConfigStreamInterface22_publishMFiDevInfoDataEv.cold.1
++ _ZN32IOAccessoryConfigStreamInterface26_setStringPropertyWithDataEPKcPKhy.cold.1
++ _ZN32IOAccessoryConfigStreamInterface26_setStringPropertyWithDataEPKcPKhy.cold.2
++ _ZN32IOAccessoryUSBTypeCCurrentDetect12updateStatusEv.cold.1
++ _ZN32IOAccessoryUSBTypeCCurrentDetect17checkRpValueTimerEP18IOTimerEventSource.cold.1
++ _ZN32IOAccessoryUSBTypeCCurrentDetect17checkRpValueTimerEP18IOTimerEventSource.cold.2
++ _ZN32IOAccessoryUSBTypeCCurrentDetect5startEP9IOService.cold.1
++ _ZN32IOAccessoryUSBTypeCCurrentDetect5startEP9IOService.cold.2
++ _ZN34IOPortTransportComponentCCUSBPDSOP7setVDOsEP7OSArray.cold.1
++ _ZN35IOPortTransportComponentCCUSBPDSOPp7setVDOsEP7OSArray.cold.1
++ _ZN6IOPort11setMetadataEPKcP8OSObject.cold.1
++ _ZN6IOPort12initPortTypeE10IOPortType.cold.1
++ _ZN6IOPort12initPortTypeE10IOPortType.cold.2
++ _ZN6IOPort12setLDCMStateE15IOPortLDCMState.cold.1
++ _ZN6IOPort15removeTransportE33IOPortTransportStateTransportTypeh.cold.1
++ _ZN6IOPort15removeTransportE33IOPortTransportStateTransportTypeh.cold.2
++ _ZN6IOPort15removeTransportE33IOPortTransportStateTransportTypeh.cold.3
++ _ZN6IOPort17_removeTransportsE33IOPortTransportStateTransportTypeb.cold.1
++ _ZN6IOPort17handleStateChangeEv.cold.1
++ _ZN6IOPort18_requestPortNumberE10IOPortTypeP12IOPortNumber.cold.1
++ _ZN6IOPort18_requestPortNumberE10IOPortTypeP12IOPortNumber.cold.2
++ _ZN6IOPort18_requestPortNumberE10IOPortTypeP12IOPortNumber.cold.3
++ _ZN6IOPort21setLDCMLiquidDetectedEb.cold.1
++ _ZN6IOPort24setLDCMMeasurementStatusE27IOPortLDCMMeasurementStatus.cold.1
++ _ZN6IOPort25setLDCMMitigationsEnabledEb.cold.1
++ _ZN6IOPort25setLDCMUserOverrideActiveEb.cold.1
++ _ZN6IOPort26_findPortNumberReservationE10IOPortType12IOPortNumberS1_S1_bPj.cold.1
++ _ZN6IOPort26setUserAuthorizationStatusE29IOPortUserAuthorizationStatus.cold.1
++ _ZN6IOPort26setUserAuthorizationStatusE29IOPortUserAuthorizationStatus.cold.2
++ _ZN6IOPort26setUserAuthorizationStatusE29IOPortUserAuthorizationStatus.cold.3
++ _ZN6IOPort30_copyOrRemoveTransportFromDictE33IOPortTransportStateTransportTypehbb.cold.1
++ _ZN6IOPort38_getPortNumberReservationCountForRangeE10IOPortType12IOPortNumberS1_.cold.1
++ _ZN6IOPort39_setSupportedTransportsForRegistryEntryEP15IORegistryEntry.cold.1
++ _ZN6IOPort39_setSupportedTransportsForRegistryEntryEP15IORegistryEntry.cold.2
++ _ZN6IOPort5startEP9IOService.cold.1
++ _ZN6IOPort5startEP9IOService.cold.2
++ _ZN6IOPort5startEP9IOService.cold.3
++ _ZN6IOPort5startEP9IOService.cold.4
++ _ZN6IOPort5startEP9IOService.cold.5
++ _ZNK14IOAccessoryTRM16_getACMTRMStatusEP22IOAccessoryTRM_State_tP34IOAccessoryTRM_GracePeriodReason_tPb.cold.1
++ _ZNK14IOAccessoryTRM16_getACMTRMStatusEP22IOAccessoryTRM_State_tP34IOAccessoryTRM_GracePeriodReason_tPb.cold.2
++ _ZNK14IOAccessoryTRM26_isCachedAccessoryAttachedEPb.cold.1
++ _ZNK14IOAccessoryTRM26_isExemptAccessoryAttachedEv.cold.1
++ _ZNK18IOAccessoryManager17getFeatureAllowedEj.cold.1
++ _ZNK18IOAccessoryManager17getFeatureAllowedEj.cold.2
++ _ZNK19IOAccessoryDock9Pin20getSleepPowerEnabledEv.cold.1
++ _ZNK19IOPortFeatureRFCoEx17isRFClientEnabledE27IOPortFeatureRFCoExRFClient.cold.1
++ _ZNK19IOPortFeatureRFCoEx24isTransportClientEnabledE33IOPortTransportStateTransportType.cold.1
++ _ZNK22IOAccessoryPowerSource20copyPowerSourceItemsEv.cold.1
++ _ZNK22IOAccessoryPowerSource23copyPowerSourceBehaviorEv.cold.1
++ _ZNK26IOAccessoryPowerSourceItem9serializeEP11OSSerialize.cold.1
++ _ZNK6IOPort14copyTransportsE33IOPortTransportStateTransportType.cold.1
++ _ZNK6IOPort16isFeatureEnabledE17IOPortFeatureType.cold.1
++ _ZNK6IOPort18isFeatureSupportedE17IOPortFeatureType.cold.1
++ _ZNK6IOPort20isTransportSupportedE33IOPortTransportStateTransportType.cold.1
++ _ZNK6IOPort30_copyTerminatedTransportHashesEv.cold.1
++ __MergedGlobals
++ __ZZN18IOAccessoryManager5startEP9IOServiceE8uptimeNS
++ ___ZN18IOPortFeaturePower15addPowerSourcesEP7OSArrayP9IOService_block_invoke_2.cold.1
++ ___ZN19IOPortFeatureRFCoEx27setRFClientMitigationStatusE27IOPortFeatureRFCoExRFClientj43IOPortFeatureRFCoExRFClientMitigationStatusPKc_block_invoke.cold.1
++ ___ZN20IOPortFeaturePowerIn34_setWinningPowerSourceOptionByUUIDEP8OSObject_block_invoke_3.cold.1
++ ___ZN20IOPortTransportState19_handleNotificationEPviP22AppleNotificationQueue_block_invoke_2.cold.1
++ ___ZN20IOPortTransportState30setNominalSignalingFrequenciesEP5OSSet_block_invoke.cold.1
++ ___ZN20IOPortTransportState9setActiveEb_block_invoke.cold.1
++ ___ZN20IOPortTransportState9setActiveEb_block_invoke.cold.2
++ ___ZN24IOPortFeaturePowerSource21addPowerSourceOptionsEP7OSArray_block_invoke_2.cold.1
++ ___ZN24IOPortFeaturePowerSource24removePowerSourceOptionsEP7OSArray_block_invoke_2.cold.1
++ ___ZN24IOPortFeaturePowerSource28_setWinningPowerSourceOptionEP30IOPortFeaturePowerSourceOptionb_block_invoke.cold.1
++ ___ZN24IOPortFeaturePowerSource33setWinningPowerSourceOptionByUUIDEP6OSData_block_invoke_2.cold.1
++ ___ZN24IOPortFeaturePowerSource33setWinningPowerSourceOptionByUUIDEP8OSString_block_invoke_2.cold.1
++ ___ZN29IOPortTunnelingTransportState23removeTunneledTransportEP20IOPortTransportState_block_invoke.cold.1
++ ___ZN6IOPort16_removeTransportEP20IOPortTransportStateb_block_invoke.cold.1
++ ___ZN6IOPort17_removeTransportsE33IOPortTransportStateTransportTypeb_block_invoke_2.cold.1
+- _ZN21IOAccessoryManagerAID18handleIDBusCommandEPFvPviEyP25IOAccessoryIDBusTransportbb.cold.1
+- _ZN24IOAccessoryHSAIDBulkData14_startTransferEP6OSData.cold.1
+- _ZN24IOAccessoryIDBusBulkData26_startIDBusCommandInternalEv.cold.1
+- __ZL26sIOAccessoryDock9PinMPDTag
+- __ZL33sIOAccessoryDock9PinMPDDropoutTag
+- __ZL39sIOAccessoryPowerSourceItemsPropertyKey
+- __ZL42sIOAccessoryPowerSourceBehaviorPropertyKey
+- ___ZN20IOPortTransportState14_isHashInCacheEPb_block_invoke.cold.1
+- ___ZN20IOPortTransportState15_addHashToCacheEPbb_block_invoke.cold.2
+CStrings:
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/IOAccessoryManager_Arrow/IOAccessoryIDBusTransport.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/IOAccessoryManager_Arrow/IOAccessoryIDBusTransport.cpp"
+- "255.255.255"
+- "p\x80"
+
+```

@@ -1,0 +1,913 @@
+## com.apple.filesystems.apfs
+
+> `com.apple.filesystems.apfs`
+
+```diff
+
+-2317.81.2.0.0
+-  __TEXT.__const: 0x910
+-  __TEXT.__cstring: 0x563a6
+-  __TEXT_EXEC.__text: 0x170e4c
++2332.101.1.0.0
++  __TEXT.__const: 0xaf8
++  __TEXT.__cstring: 0x574f5
++  __TEXT_EXEC.__text: 0x1843d0
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0xd40
+-  __DATA.__bss: 0xac8
+-  __DATA_CONST.__auth_got: 0x12a0
++  __DATA.__data: 0xd48
++  __DATA.__bss: 0xb10
++  __DATA_CONST.__auth_got: 0x12e0
+   __DATA_CONST.__got: 0x1b8
+   __DATA_CONST.__auth_ptr: 0x8
+   __DATA_CONST.__mod_init_func: 0x10
+   __DATA_CONST.__mod_term_func: 0x10
+-  __DATA_CONST.__const: 0x91c8
+-  __DATA_CONST.__kalloc_type: 0x5f40
+-  __DATA_CONST.__kalloc_var: 0x3160
+-  UUID: 429F32F7-E551-3154-A2EB-56710C570D26
+-  Functions: 2649
+-  Symbols:   4668
+-  CStrings:  7405
++  __DATA_CONST.__const: 0x9ba8
++  __DATA_CONST.__kalloc_type: 0x6180
++  __DATA_CONST.__kalloc_var: 0x3250
++  __DATA_CONST.__assert: 0x294
++  UUID: 25DF9C22-7990-34FC-A3FF-83F9E33D9AB6
++  Functions: 2629
++  Symbols:   4777
++  CStrings:  7500
+ 
+Symbols:
++ _APFS_WRITE_DRAIN_SECONDARY
++ _GLOBAL__D_a.1777
++ _ZN18APFSOSNumberAtomic10withNumberEx.1729
++ __ZL18AppleAPFSGraft_ktv
++ __ZL19set_sealed_propertyP15IORegistryEntryPK4apfs
++ __ZL26initialize_volume_countersPK4apfsPP18APFSOSNumberAtomici
++ __ZL29initialize_container_countersbPP18APFSOSNumberAtomici
++ __ZN14AppleAPFSGraft10gMetaClassE
++ __ZN14AppleAPFSGraft4freeEv
++ __ZN14AppleAPFSGraft4initEPK16apfs_graft_state
++ __ZN14AppleAPFSGraft9MetaClassD0Ev
++ __ZN14AppleAPFSGraft9MetaClassD1Ev
++ __ZN14AppleAPFSGraftD0Ev
++ __ZN14AppleAPFSGraftD1Ev
++ __ZNK14AppleAPFSGraft12getMetaClassEv
++ __ZNK14AppleAPFSGraft9MetaClass5allocEv
++ __ZTV14AppleAPFSGraft
++ __ZTVN14AppleAPFSGraft9MetaClassE
++ __ZZ16container_unloadE21kalloc_type_view_2113
++ __ZZ21delta_teardown_threadPviE22kalloc_type_view_10210
++ __ZZ22apfs_vek_get_aks_stateE21kalloc_type_view_1178
++ __ZZ22apfs_vek_get_aks_stateE21kalloc_type_view_1191
++ __ZZ22apfs_vek_get_aks_stateE21kalloc_type_view_1199
++ __ZZ22apfs_vek_get_aks_stateE21kalloc_type_view_1206
++ __ZZ23apfs_vek_get_sidp_stateE21kalloc_type_view_1241
++ __ZZ23apfs_vek_get_sidp_stateE21kalloc_type_view_1254
++ __ZZ23apfs_vek_get_sidp_stateE21kalloc_type_view_1262
++ __ZZ23apfs_vek_get_sidp_stateE21kalloc_type_view_1270
++ __ZZ24swcrypto_threadpool_initvE6__desc
++ __ZZ24swcrypto_threadpool_initvE6__desc_0
++ __ZZ24swcrypto_threadpool_initvE6__desc_1
++ __ZZ28container_load_with_callbackE21kalloc_type_view_1868
++ __ZZ28container_load_with_callbackE21kalloc_type_view_1876
++ __ZZ28container_load_with_callbackE21kalloc_type_view_1879
++ __ZZ28container_load_with_callbackE21kalloc_type_view_1907
++ __ZZ28container_load_with_callbackE21kalloc_type_view_2023
++ __ZZ28swcrypto_threadpool_scheduleP22CryptoBufferDescriptorE6__desc
++ __ZZ28swcrypto_threadpool_scheduleP22CryptoBufferDescriptorE6__desc_0
++ __ZZ28swcrypto_threadpool_scheduleP22CryptoBufferDescriptorE6__desc_1
++ __ZZ28swcrypto_threadpool_scheduleP22CryptoBufferDescriptorE6__desc_2
++ __ZZ28swcrypto_threadpool_scheduleP22CryptoBufferDescriptorE6__desc_3
++ __ZZ28swcrypto_threadpool_shutdownvE6__desc
++ __ZZ28swcrypto_threadpool_shutdownvE6__desc_0
++ __ZZ28swcrypto_threadpool_shutdownvE6__desc_1
++ __ZZL14completionReadPvS_iyE6__desc
++ __ZZL14completionReadPvS_iyE6__desc_0
++ __ZZL15completionWritePvS_iyE6__desc
++ __ZZL19free_placeholder_nxP2nxE21kalloc_type_view_1779
++ __ZZL19free_placeholder_nxP2nxE21kalloc_type_view_1781
++ __ZZL20alloc_placeholder_nxP15dev_init_paramsiPvPP2nxE21kalloc_type_view_1714
++ __ZZL20alloc_placeholder_nxP15dev_init_paramsiPvPP2nxE21kalloc_type_view_1721
++ __ZZL20alloc_placeholder_nxP15dev_init_paramsiPvPP2nxE21kalloc_type_view_1756
++ __ZZL20alloc_placeholder_nxP15dev_init_paramsiPvPP2nxE21kalloc_type_view_1759
++ __ZZL23apfs_keycache_operationPKh13apfs_key_typeiPP3cpxbE22kalloc_type_view_13397
++ __ZZL23apfs_keycache_operationPKh13apfs_key_typeiPP3cpxbE22kalloc_type_view_13407
++ __ZZL23apfs_keycache_operationPKh13apfs_key_typeiPP3cpxbE22kalloc_type_view_13428
++ __ZZL26initialize_volume_countersPK4apfsPP18APFSOSNumberAtomiciE19apfs_volstat_labels
++ __ZZL29initialize_container_countersbPP18APFSOSNumberAtomiciE14nx_stat_labels
++ __ZZL33swcrypto_threadpool_worker_threadPviE6__desc
++ __ZZN15AppleAPFSVolume15asyncCryptoReadEP18AppleAPFSContaineryyPyaybE21kalloc_type_view_9149
++ __ZZN15AppleAPFSVolume15asyncCryptoReadEP18AppleAPFSContaineryyPyaybE21kalloc_type_view_9236
++ __ZZN15AppleAPFSVolume27asyncCryptoReadFinishHelperEP24multikey_crypto_io_entryPyE21kalloc_type_view_9268
++ __ZZN18AppleAPFSContainer16lockerDataGetSetEb9klckr_ctxPhyP4taskE22kalloc_type_view_14995
++ __ZZN18AppleAPFSContainer16lockerDataGetSetEb9klckr_ctxPhyP4taskE22kalloc_type_view_14998
++ __ZZN18AppleAPFSContainer19deltaCreateTeardownEP18delta_create_ctx_tE21kalloc_type_view_8123
++ __ZZN18AppleAPFSContainer20deltaRestoreTeardownEP19delta_restore_ctx_tE21kalloc_type_view_8316
++ __ZZN18AppleAPFSContainer27containerGetKeyLockerRangesEjj9klckr_ctxyPjP20vol_keylocker_rangesE22kalloc_type_view_14816
++ __ZZN18AppleAPFSContainer27containerGetKeyLockerRangesEjj9klckr_ctxyPjP20vol_keylocker_rangesE22kalloc_type_view_14847
++ __ZZN19AppleAPFSUserClient24methodDeltaCreatePrepareEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11481
++ __ZZN19AppleAPFSUserClient24methodDeltaCreatePrepareEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11505
++ __ZZN19AppleAPFSUserClient25methodDeltaRestorePrepareEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11607
++ __ZZN19AppleAPFSUserClient25methodDeltaRestorePrepareEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11636
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10840
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10841
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10842
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10848
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10849
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10850
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10915
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10918
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10927
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10930
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10938
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10941
++ __ZZN19AppleAPFSUserClient4stopEP9IOServiceE22kalloc_type_view_10224
++ __ZZN19AppleAPFSUserClient4stopEP9IOServiceE22kalloc_type_view_10234
++ __ZZN22CryptoBufferDescriptor7DecryptEvE6__desc
++ __ZZN22CryptoBufferDescriptor7EncryptEvE6__desc
++ __ZZN22CryptoBufferDescriptor7EncryptEvE6__desc_0
++ __ZZN22CryptoBufferDescriptor7ReleaseEiyE6__desc
++ __ZZN22CryptoBufferDescriptor9setLengthEmE6__desc
++ __ZZN24AppleAPFSContainerScheme13cryptoReleaseEvE6__desc
++ __ZZN24AppleAPFSContainerScheme13cryptoReleaseEvE6__desc_0
++ __ZZN24AppleAPFSContainerScheme19acquireCryptoBufferEP17APFSCryptoContextyymPFvPvS2_iyEbE6__desc
++ __ZZN24AppleAPFSContainerScheme19releaseCryptoBufferEP22CryptoBufferDescriptorE6__desc
++ __ZZN24AppleAPFSContainerScheme20acquireCryptoContextEP18IOMemoryDescriptorP19IOStorageAttributesP19IOStorageCompletionE6__desc
++ __ZZN24AppleAPFSContainerScheme20acquireCryptoContextEP18IOMemoryDescriptorP19IOStorageAttributesP19IOStorageCompletionE6__desc_0
++ __ZZN24AppleAPFSContainerScheme20releaseCryptoContextEP17APFSCryptoContextE6__desc
++ __ZZN24AppleAPFSContainerScheme20releaseCryptoContextEP17APFSCryptoContextE6__desc_0
++ __ZZN24AppleAPFSContainerScheme21allocCryptoBufferPoolEvE6__desc
++ __ZZN24AppleAPFSContainerScheme22allocCryptoContextPoolEvE6__desc
++ __ZZN24AppleAPFSContainerScheme4readEP9IOServiceyP18IOMemoryDescriptorP19IOStorageAttributesP19IOStorageCompletionE6__desc
++ __ZZN24AppleAPFSContainerScheme5writeEP9IOServiceyP18IOMemoryDescriptorP19IOStorageAttributesP19IOStorageCompletionE6__desc
++ _add_file_id_to_seen_ids
++ _apfs_graft_get_graft_info
++ _apfs_graft_init
++ _apfs_graft_is_vnoflush
++ _apfs_graft_shutdown
++ _apfs_graft_vnoflush_update
++ _apfs_lowspace_min_inline_unlink_blocks_threshold
++ _apfs_reset_parent_nlink
++ _apfs_verify_uncompressed_data
++ _authapfs_digest
++ _authapfs_valid_hash_type
++ _cc_clear
++ _ccdigest_init
++ _ccdigest_update
++ _ccsha3_256_di
++ _ccsha3_384_di
++ _ccsha3_512_di
++ _convert_empty_file_into_dataless_fault
++ _crypto_cache_query
++ _delta_fixup_dstream_if_needed
++ _delta_restore_clone_dstream_range
++ _delta_restore_doc_id_mapping
++ _delta_restore_rewrap
++ _delta_restore_set_dstream_crypto
++ _dereference_ext_range
++ _ert_calc_tidemark
++ _file_has_extents
++ _fs_add_xattr.kalloc_type_view_22776
++ _fs_add_xattr.kalloc_type_view_22782
++ _fs_add_xattr.kalloc_type_view_22785
++ _fs_add_xattr.kalloc_type_view_22839
++ _fs_add_xattr.kalloc_type_view_22840
++ _fs_count_freeable_blocks
++ _fs_count_freeable_blocks_in_dstream
++ _fs_tx_calc_num_blocks
++ _fs_tx_calc_total_space_required
++ _fusion_mt_free_ssd_space
++ _get_threshold
++ _get_uncompressed_size_for_verify
++ _graft_blockmap_lut_metadata_mark_omap_mappings
++ _graft_dev_hint
++ _graft_dev_hint_flush
++ _handle_apfs_file_padding
++ _ino_shrink
++ _iokit_add_graft
++ _is_altlink_entitled
++ _lookup_purgatory_entry
++ _mark_purgeable_id_as_orphan
++ _nx_mount_scan_volumes
++ _nx_resize_rollback
++ _nx_unmount_internal
++ _remove_purgeable_record_with_details
++ _save_orphan_purgeable_record
++ _set_decmpfs_xattr_if_needed
++ _set_parent_chain_noflush
++ _spaceman_alloc_flags_to_devs
++ _spaceman_alloc_iterate_chunks
++ _spaceman_check_available_space
++ _spaceman_resize
++ _spec_telem_info_process_object
++ _task_get_platform_binary
++ _tx_checkpoint_desc_zero
++ _update_dir_stats_chained_key
++ _vn_getpath_fsenter
++ _vnode_dev_hint
++ _vnode_dev_hint_flush
++ _vnode_parent
++ _vnoflush_hash
++ _vnoflush_hash_lock
++ _vnoflush_hash_size
++ _workaround31868215
++ apfs_check_seal.kalloc_type_view_1078
++ apfs_check_seal.kalloc_type_view_1083
++ apfs_check_seal.kalloc_type_view_1103
++ apfs_check_seal.kalloc_type_view_1113
++ apfs_check_snapshots_extents.kalloc_type_view_2836
++ apfs_check_snapshots_extents.kalloc_type_view_2930
++ apfs_drop_allocated_unwritten_ranges.kalloc_type_view_15915
++ apfs_drop_rangelist_entries.kalloc_type_view_9055
++ apfs_drop_rangelist_entry.kalloc_type_view_9002
++ apfs_find_gaps_in_rangelist.kalloc_type_view_11732
++ apfs_flush_allocated_unwritten_ranges.kalloc_type_view_13345
++ apfs_flush_allocated_unwritten_ranges.kalloc_type_view_13403
++ apfs_graft.kalloc_type_view_1009
++ apfs_graft.kalloc_type_view_1154
++ apfs_graft_shutdown.kalloc_type_view_103
++ apfs_graft_shutdown.kalloc_type_view_99
++ apfs_io_common.kalloc_type_view_18141
++ apfs_io_common.kalloc_type_view_18152
++ apfs_io_common.kalloc_type_view_18170
++ apfs_io_common.kalloc_type_view_18188
++ apfs_io_common.kalloc_type_view_18204
++ apfs_io_common.kalloc_type_view_18228
++ apfs_io_common.kalloc_type_view_18311
++ apfs_io_common.kalloc_type_view_18343
++ apfs_io_common.kalloc_type_view_18361
++ apfs_io_common.kalloc_type_view_18380
++ apfs_io_common.kalloc_type_view_18393
++ apfs_io_common.kalloc_type_view_18414
++ apfs_io_common.kalloc_type_view_18426
++ apfs_io_common.kalloc_type_view_18433
++ apfs_iodone.kalloc_type_view_17565
++ apfs_iodone.kalloc_type_view_17604
++ apfs_jhash_getvnode_internal.kalloc_type_view_580
++ apfs_jhash_init.kalloc_type_view_395
++ apfs_jhash_insertvnode.kalloc_type_view_681
++ apfs_jhash_removevnode.kalloc_type_view_930
++ apfs_jhash_shutdown.kalloc_type_view_424
++ apfs_jhash_shutdown.kalloc_type_view_428
++ apfs_jhash_try_insert_stream.kalloc_type_view_740
++ apfs_punch_out_ranges_in_fext.kalloc_type_view_21038
++ apfs_punch_out_ranges_in_fext.kalloc_type_view_21045
++ apfs_rawdev_collect_extents.__desc
++ apfs_record_intention_to_allocate.kalloc_type_view_8942
++ apfs_release_all_reserved_space.kalloc_type_view_4526
++ apfs_release_hash_records.kalloc_type_view_111
++ apfs_release_io_context.kalloc_type_view_17803
++ apfs_release_io_context.kalloc_type_view_17812
++ apfs_save_hash_record.kalloc_type_view_78
++ apfs_save_hash_record.kalloc_type_view_84
++ apfs_save_hash_record.kalloc_type_view_84.26
++ apfs_setxattr_internal.kalloc_type_view_3453
++ apfs_setxattr_internal.kalloc_type_view_3459
++ apfs_setxattr_internal.kalloc_type_view_3463
++ apfs_trim_ranges_in_region.kalloc_type_view_16617
++ apfs_update_ranges_on_allocation.kalloc_type_view_16708
++ apfs_update_reserved_ranges.kalloc_type_view_21181
++ apfs_update_reserved_ranges.kalloc_type_view_21186
++ apfs_verify.kalloc_type_view_683
++ apfs_verify.kalloc_type_view_691
++ apfs_verify.kalloc_type_view_795
++ apfs_vnop_blockmap.kalloc_type_view_17123
++ apfs_vnop_blockmap.kalloc_type_view_17484
++ apfs_vnop_getattrlistbulk.kalloc_type_view_19167
++ apfs_vnop_getattrlistbulk.kalloc_type_view_19174
++ apfs_vnop_getattrlistbulk.kalloc_type_view_19241
++ apfs_vnop_getattrlistbulk.kalloc_type_view_19265
++ apfs_vnop_readdir.kalloc_type_view_15520
++ apfs_vnop_readdir.kalloc_type_view_15536
++ apfs_vnop_readdir.kalloc_type_view_15655
++ apfs_vnop_readdir.kalloc_type_view_15665
++ apfs_vnop_readdir.kalloc_type_view_15686
++ arle_alloc_pending_entry.kalloc_type_view_20623
++ blkAccSnapshotsCheck.kalloc_type_view_4078
++ clear_revert_to_snapshot_ro_mount_state.kalloc_type_view_1481
++ clone_fexts_.kalloc_type_view_14008
++ clone_fexts_.kalloc_type_view_14021
++ clone_fexts_.kalloc_type_view_14079
++ clone_fs.kalloc_type_view_2449
++ clone_fs.kalloc_type_view_2469
++ create_snap_dir_vnode.kalloc_type_view_3658
++ create_snap_dir_vnode.kalloc_type_view_3678
++ dev_close.kalloc_type_view_376
++ dump_extents_of_stream.kalloc_type_view_18060
++ ek_to_crypto_state.kalloc_type_view_32686
++ extent_evict_range.kalloc_type_view_25389
++ extent_evict_range.kalloc_type_view_25489
++ fext_collector.kalloc_type_view_13772
++ fext_collector.kalloc_type_view_13772.213
++ fext_collector.kalloc_type_view_13779
++ fext_collector_cleanup.kalloc_type_view_13754
++ fext_collector_reset.kalloc_type_view_13743
++ fs_calculate_snapshot_range_space_usage.kalloc_type_view_2127
++ fs_calculate_snapshot_range_space_usage.kalloc_type_view_2199
++ fs_get_shared_extents.kalloc_type_view_2232
++ fs_get_shared_extents.kalloc_type_view_2310
++ fs_get_xattr_in_snap.kalloc_type_view_22874
++ fs_get_xattr_in_snap.kalloc_type_view_22893
++ fs_init_bootcache_inodes_dstreams_info.kalloc_type_view_27318
++ fs_init_bootcache_inodes_dstreams_info.kalloc_type_view_27318.333
++ fs_iterate_snapshots.kalloc_type_view_26552
++ fs_iterate_snapshots.kalloc_type_view_26599
++ fs_map_file_offset_ext.kalloc_type_view_21593
++ fs_map_file_offset_ext.kalloc_type_view_21625
++ fs_map_file_offset_ext.kalloc_type_view_21663
++ fs_map_file_offset_ext.kalloc_type_view_21686
++ fs_remove_xattr_with_nstream_inode.kalloc_type_view_22988
++ fs_remove_xattr_with_nstream_inode.kalloc_type_view_23004
++ fs_remove_xattr_with_nstream_inode.kalloc_type_view_23025
++ fs_remove_xattr_with_nstream_inode.kalloc_type_view_23142
++ graft_blockmap_lut_clone.kalloc_type_view_1449
++ graft_blockmap_lut_create.kalloc_type_view_1373
++ graft_blockmap_lut_release.kalloc_type_view_1599
++ graft_dev_init.kalloc_type_view_421
++ graft_dev_init.kalloc_type_view_434
++ graft_dev_init.kalloc_type_view_458
++ graft_state_smr_cb.kalloc_type_view_1468
++ handle_apfs_set_backingstore.kalloc_type_view_6247
++ handle_apfs_set_backingstore.kalloc_type_view_6276
++ handle_apfs_set_backingstore.kalloc_type_view_6289
++ handle_apfs_set_backingstore.kalloc_type_view_6300
++ handle_fusion_debug.kalloc_type_view_11177
++ handle_fusion_debug.kalloc_type_view_11196
++ handle_get_crypto_ids.kalloc_type_view_4844
++ handle_get_crypto_ids.kalloc_type_view_4914
++ handle_get_crypto_key.kalloc_type_view_5023
++ handle_get_crypto_key.kalloc_type_view_5039
++ handle_get_crypto_key.kalloc_type_view_5070
++ handle_snap_token.kalloc_type_view_6459
++ handle_snapshot_lookup.kalloc_type_view_12377
++ handle_xdstream_obj_id.kalloc_type_view_15956
++ handle_xdstream_obj_id.kalloc_type_view_15979
++ ier_alloc_tls.kalloc_type_view_27826
++ ier_alloc_tls.kalloc_type_view_27833
++ ier_alloc_tls.kalloc_type_view_27879
++ ier_alloc_tls.kalloc_type_view_27881
++ ier_free_tls.kalloc_type_view_27908
++ ier_free_tls.kalloc_type_view_27912
++ ier_ierso_free.kalloc_type_view_27001
++ ier_ierso_load.kalloc_type_view_27015
++ ier_ierso_load.kalloc_type_view_27027
++ ier_ierso_new.kalloc_type_view_26710
++ ier_ierso_new.kalloc_type_view_26743
++ ier_ierto_free.kalloc_type_view_24605
++ ier_ierto_new.kalloc_type_view_24591
++ legacy_get_ek.kalloc_type_view_34168
++ lookup_purgeable_drec_as_record.kalloc_type_view_979
++ lookup_unfoldable_name_iterator.kalloc_type_view_17502
++ lookup_unfoldable_name_iterator.kalloc_type_view_17510
++ nx_block_out_physical_range_internal.kalloc_type_view_4278
++ nx_block_out_physical_range_internal.kalloc_type_view_4332
++ nx_block_out_physical_range_internal.kalloc_type_view_4488
++ nx_debug_unfree_blocked_out_range.kalloc_type_view_3178
++ nx_debug_unfree_blocked_out_range.kalloc_type_view_3368
++ nx_free_bootcache_info.kalloc_type_view_4922
++ nx_fusion_find_lba_owner_checkForNewEntry.kalloc_type_view_10669
++ nx_fusion_find_lba_owner_cleanup.kalloc_type_view_10921
++ nx_fusion_find_lba_owner_scanInodes.kalloc_type_view_10864
++ nx_fusion_find_lba_owner_scanInodes.kalloc_type_view_10882
++ nx_fusion_mover.kalloc_type_view_8656
++ nx_fusion_mover_loop.kalloc_type_view_8528
++ nx_fusion_mover_loop.kalloc_type_view_8612
++ nx_fusion_mover_purge_queue.kalloc_type_view_8886
++ nx_fusion_request_movement.kalloc_type_view_8803
++ nx_fusion_request_movement.kalloc_type_view_8838
++ nx_get_minimal_tier_size.kalloc_type_view_5641
++ nx_get_minimal_tier_size.kalloc_type_view_5751
++ nx_promote_to_soft_block_out_range.kalloc_type_view_4800
++ nx_promote_to_soft_block_out_range.kalloc_type_view_4823
++ nx_unmount_internal.kalloc_type_view_1994
++ obj_cache_create.kalloc_type_view_168
++ obj_cache_create.kalloc_type_view_176
++ obj_cache_create.kalloc_type_view_182
++ obj_cache_create.kalloc_type_view_189
++ obj_cache_create.kalloc_type_view_197
++ obj_cache_create.kalloc_type_view_204
++ obj_cache_create.kalloc_type_view_210
++ obj_cache_create.kalloc_type_view_231
++ obj_cache_create.kalloc_type_view_233
++ obj_cache_create.kalloc_type_view_238
++ obj_cache_destroy.kalloc_type_view_607
++ obj_cache_destroy.kalloc_type_view_631
++ obj_cache_destroy.kalloc_type_view_640
++ obj_get_async_read.kalloc_type_view_3592
++ obj_get_async_read.kalloc_type_view_3604
++ obj_get_async_read.kalloc_type_view_3616
++ obj_get_callback.kalloc_type_view_3558
++ obj_get_callback.kalloc_type_view_3560
++ obj_mem_mgr_init.kalloc_type_view_7165
++ obj_mem_mgr_init.kalloc_type_view_7205
++ obj_mem_mgr_init.kalloc_type_view_7219
++ obj_mem_mgr_shutdown.kalloc_type_view_7253
++ obj_type_alloc.kalloc_type_view_5991
++ obj_type_alloc.kalloc_type_view_5998
++ obj_type_alloc.kalloc_type_view_6007
++ obj_type_alloc.kalloc_type_view_6016
++ obj_type_alloc.kalloc_type_view_6027
++ obj_type_alloc.kalloc_type_view_6036
++ obj_type_alloc.kalloc_type_view_6040
++ obj_type_alloc.kalloc_type_view_6043
++ obj_type_alloc.kalloc_type_view_6047
++ obj_type_free.kalloc_type_view_6061
++ obj_type_free.kalloc_type_view_6068
++ obj_type_free.kalloc_type_view_6079
++ obj_type_free.kalloc_type_view_6102
++ obj_type_free.kalloc_type_view_6107
++ obj_type_free.kalloc_type_view_6113
++ obj_type_free.kalloc_type_view_6118
++ obj_type_free.kalloc_type_view_6134
++ obj_type_free.kalloc_type_view_6145
++ obj_type_free.kalloc_type_view_6149
++ obj_type_free.kalloc_type_view_6153
++ orphan_snap_check_iterator.kalloc_type_view_1917
++ pfkur_pfkurso_free.kalloc_type_view_36069
++ pfkur_pfkurso_new.kalloc_type_view_34469
++ purge_files_with_ino.kalloc_type_view_7052
++ purge_files_with_ino.kalloc_type_view_7256
++ purge_single_file.kalloc_type_view_9257
++ purge_single_file.kalloc_type_view_9261
++ purge_single_file.kalloc_type_view_9263
++ purge_single_file.kalloc_type_view_9289
++ purge_single_file.kalloc_type_view_9290
++ revert_to_snapshot.kalloc_type_view_1562
++ simple_remove_xattr.kalloc_type_view_22912
++ simple_remove_xattr.kalloc_type_view_22925
++ spec_telem_info_hash_entry_create.kalloc_type_view_800
++ spec_telem_info_hash_to_list.kalloc_type_view_852
++ spec_telem_info_hash_to_list.kalloc_type_view_855
++ spec_telemetry_hash_init.kalloc_type_view_760
++ tx_add_dirty_work_item.kalloc_type_view_1466
++ tx_add_dirty_work_item.kalloc_type_view_1466.19
++ tx_clean_up_dirty_work.kalloc_type_view_1662
++ update_parent_xattr.kalloc_type_view_20371
++ update_parent_xattr.kalloc_type_view_20501
++ validate_file_data.kalloc_type_view_916
++ validate_file_data.kalloc_type_view_967
++ vnoflush_drop.kalloc_type_view_528
++ vnoflush_take.kalloc_type_view_476
++ xattr_cloner.kalloc_type_view_16233
++ xattr_cloner.kalloc_type_view_16275
++ xattr_ek_to_crypto_state.kalloc_type_view_33361
+- _GLOBAL__D_a.1767
+- _ZN18APFSOSNumberAtomic10withNumberEx.1719
+- __ZZ16container_unloadE21kalloc_type_view_2043
+- __ZZ21delta_teardown_threadPviE22kalloc_type_view_10068
+- __ZZ22apfs_vek_get_aks_stateE21kalloc_type_view_1125
+- __ZZ22apfs_vek_get_aks_stateE21kalloc_type_view_1138
+- __ZZ22apfs_vek_get_aks_stateE21kalloc_type_view_1146
+- __ZZ22apfs_vek_get_aks_stateE21kalloc_type_view_1153
+- __ZZ23apfs_vek_get_sidp_stateE21kalloc_type_view_1188
+- __ZZ23apfs_vek_get_sidp_stateE21kalloc_type_view_1201
+- __ZZ23apfs_vek_get_sidp_stateE21kalloc_type_view_1209
+- __ZZ23apfs_vek_get_sidp_stateE21kalloc_type_view_1217
+- __ZZ28container_load_with_callbackE21kalloc_type_view_1812
+- __ZZ28container_load_with_callbackE21kalloc_type_view_1820
+- __ZZ28container_load_with_callbackE21kalloc_type_view_1823
+- __ZZ28container_load_with_callbackE21kalloc_type_view_1851
+- __ZZ28container_load_with_callbackE21kalloc_type_view_1957
+- __ZZL19free_placeholder_nxP2nxE21kalloc_type_view_1723
+- __ZZL19free_placeholder_nxP2nxE21kalloc_type_view_1725
+- __ZZL20alloc_placeholder_nxP15dev_init_paramsiPvPP2nxE21kalloc_type_view_1658
+- __ZZL20alloc_placeholder_nxP15dev_init_paramsiPvPP2nxE21kalloc_type_view_1665
+- __ZZL20alloc_placeholder_nxP15dev_init_paramsiPvPP2nxE21kalloc_type_view_1700
+- __ZZL20alloc_placeholder_nxP15dev_init_paramsiPvPP2nxE21kalloc_type_view_1703
+- __ZZL23apfs_keycache_operationPKh13apfs_key_typeiPP3cpxbE22kalloc_type_view_13138
+- __ZZL23apfs_keycache_operationPKh13apfs_key_typeiPP3cpxbE22kalloc_type_view_13148
+- __ZZL23apfs_keycache_operationPKh13apfs_key_typeiPP3cpxbE22kalloc_type_view_13169
+- __ZZN15AppleAPFSVolume15asyncCryptoReadEP18AppleAPFSContaineryyPyaybE21kalloc_type_view_9049
+- __ZZN15AppleAPFSVolume15asyncCryptoReadEP18AppleAPFSContaineryyPyaybE21kalloc_type_view_9136
+- __ZZN15AppleAPFSVolume16createAPFSVolumeEP18AppleAPFSContainerPK2nxiPK4apfsE19apfs_volstat_labels
+- __ZZN15AppleAPFSVolume27asyncCryptoReadFinishHelperEP24multikey_crypto_io_entryPyE21kalloc_type_view_9168
+- __ZZN18AppleAPFSContainer16lockerDataGetSetEb9klckr_ctxPhyP4taskE22kalloc_type_view_14702
+- __ZZN18AppleAPFSContainer16lockerDataGetSetEb9klckr_ctxPhyP4taskE22kalloc_type_view_14705
+- __ZZN18AppleAPFSContainer18initContainerStatsEP7IOMediaE14nx_stat_labels
+- __ZZN18AppleAPFSContainer19deltaCreateTeardownEP18delta_create_ctx_tE21kalloc_type_view_8067
+- __ZZN18AppleAPFSContainer20deltaRestoreTeardownEP19delta_restore_ctx_tE21kalloc_type_view_8260
+- __ZZN18AppleAPFSContainer27containerGetKeyLockerRangesEjj9klckr_ctxyPjP20vol_keylocker_rangesE22kalloc_type_view_14523
+- __ZZN18AppleAPFSContainer27containerGetKeyLockerRangesEjj9klckr_ctxyPjP20vol_keylocker_rangesE22kalloc_type_view_14554
+- __ZZN19AppleAPFSUserClient24methodDeltaCreatePrepareEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11339
+- __ZZN19AppleAPFSUserClient24methodDeltaCreatePrepareEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11363
+- __ZZN19AppleAPFSUserClient25methodDeltaRestorePrepareEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11465
+- __ZZN19AppleAPFSUserClient25methodDeltaRestorePrepareEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11494
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10698
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10699
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10700
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10706
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10707
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10708
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10773
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10776
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10785
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10788
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10796
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10799
+- __ZZN19AppleAPFSUserClient4stopEP9IOServiceE22kalloc_type_view_10082
+- __ZZN19AppleAPFSUserClient4stopEP9IOServiceE22kalloc_type_view_10092
+- _apfs_graft_mount_update_ro_to_rw
+- _apfs_increment_num_objects
+- _er_get_recovery_buf_max_size
+- _fext_riterator_next
+- _fs_add_xattr.kalloc_type_view_22685
+- _fs_add_xattr.kalloc_type_view_22691
+- _fs_add_xattr.kalloc_type_view_22694
+- _fs_add_xattr.kalloc_type_view_22748
+- _fs_add_xattr.kalloc_type_view_22749
+- _fusion_wbc_remove_inflight_reads
+- _ier_alloc_tmp_space
+- _ier_round_range
+- _ino_get_class_check
+- _make_fext_riterator
+- _nx_destroy_incompletely_restored_volumes
+- _nx_unmount
+- _sanitize_drec_name_len
+- _spaceman_free_extent_cache_remove
+- _spaceman_initialize_allocation_zone_from_disk
+- _tx_add_dirty_work_item
+- _ubc_was_mapped_writable
+- _xf_get_ptr_and_size
+- apfs_check_seal.kalloc_type_view_1076
+- apfs_check_seal.kalloc_type_view_1081
+- apfs_check_seal.kalloc_type_view_1101
+- apfs_check_seal.kalloc_type_view_1111
+- apfs_check_snapshots_extents.kalloc_type_view_2835
+- apfs_check_snapshots_extents.kalloc_type_view_2929
+- apfs_drop_allocated_unwritten_ranges.kalloc_type_view_15814
+- apfs_drop_rangelist_entries.kalloc_type_view_8999
+- apfs_drop_rangelist_entry.kalloc_type_view_8946
+- apfs_find_gaps_in_rangelist.kalloc_type_view_11671
+- apfs_flush_allocated_unwritten_ranges.kalloc_type_view_13260
+- apfs_flush_allocated_unwritten_ranges.kalloc_type_view_13318
+- apfs_graft.kalloc_type_view_749
+- apfs_graft.kalloc_type_view_877
+- apfs_io_common.kalloc_type_view_18002
+- apfs_io_common.kalloc_type_view_18040
+- apfs_io_common.kalloc_type_view_18051
+- apfs_io_common.kalloc_type_view_18069
+- apfs_io_common.kalloc_type_view_18087
+- apfs_io_common.kalloc_type_view_18127
+- apfs_io_common.kalloc_type_view_18210
+- apfs_io_common.kalloc_type_view_18231
+- apfs_io_common.kalloc_type_view_18242
+- apfs_io_common.kalloc_type_view_18260
+- apfs_io_common.kalloc_type_view_18279
+- apfs_io_common.kalloc_type_view_18292
+- apfs_io_common.kalloc_type_view_18313
+- apfs_io_common.kalloc_type_view_18325
+- apfs_iodone.kalloc_type_view_17464
+- apfs_iodone.kalloc_type_view_17503
+- apfs_jhash_getvnode_internal.kalloc_type_view_595
+- apfs_jhash_init.kalloc_type_view_410
+- apfs_jhash_insertvnode.kalloc_type_view_696
+- apfs_jhash_removevnode.kalloc_type_view_945
+- apfs_jhash_shutdown.kalloc_type_view_439
+- apfs_jhash_shutdown.kalloc_type_view_443
+- apfs_jhash_try_insert_stream.kalloc_type_view_755
+- apfs_punch_out_ranges_in_fext.kalloc_type_view_21017
+- apfs_punch_out_ranges_in_fext.kalloc_type_view_21024
+- apfs_record_intention_to_allocate.kalloc_type_view_8886
+- apfs_release_all_reserved_space.kalloc_type_view_4520
+- apfs_release_hash_records.kalloc_type_view_110
+- apfs_release_io_context.kalloc_type_view_17702
+- apfs_release_io_context.kalloc_type_view_17711
+- apfs_save_hash_record.kalloc_type_view_77
+- apfs_save_hash_record.kalloc_type_view_83
+- apfs_save_hash_record.kalloc_type_view_83.26
+- apfs_setxattr_internal.kalloc_type_view_3451
+- apfs_setxattr_internal.kalloc_type_view_3457
+- apfs_setxattr_internal.kalloc_type_view_3461
+- apfs_trim_ranges_in_region.kalloc_type_view_16516
+- apfs_update_ranges_on_allocation.kalloc_type_view_16607
+- apfs_update_reserved_ranges.kalloc_type_view_21160
+- apfs_update_reserved_ranges.kalloc_type_view_21165
+- apfs_verify.kalloc_type_view_682
+- apfs_verify.kalloc_type_view_690
+- apfs_verify.kalloc_type_view_794
+- apfs_vnop_blockmap.kalloc_type_view_17022
+- apfs_vnop_blockmap.kalloc_type_view_17383
+- apfs_vnop_getattrlistbulk.kalloc_type_view_19066
+- apfs_vnop_getattrlistbulk.kalloc_type_view_19073
+- apfs_vnop_getattrlistbulk.kalloc_type_view_19140
+- apfs_vnop_getattrlistbulk.kalloc_type_view_19164
+- apfs_vnop_readdir.kalloc_type_view_15419
+- apfs_vnop_readdir.kalloc_type_view_15435
+- apfs_vnop_readdir.kalloc_type_view_15554
+- apfs_vnop_readdir.kalloc_type_view_15564
+- apfs_vnop_readdir.kalloc_type_view_15585
+- arle_alloc_pending_entry.kalloc_type_view_20602
+- blkAccSnapshotsCheck.kalloc_type_view_4128
+- clear_revert_to_snapshot_ro_mount_state.kalloc_type_view_1478
+- clone_fexts_.kalloc_type_view_13998
+- clone_fexts_.kalloc_type_view_14011
+- clone_fexts_.kalloc_type_view_14069
+- clone_fs.kalloc_type_view_2462
+- clone_fs.kalloc_type_view_2482
+- create_snap_dir_vnode.kalloc_type_view_3649
+- create_snap_dir_vnode.kalloc_type_view_3669
+- dev_close.kalloc_type_view_360
+- dump_extents_of_stream.kalloc_type_view_18046
+- ek_to_crypto_state.kalloc_type_view_32547
+- extent_evict_range.kalloc_type_view_25298
+- extent_evict_range.kalloc_type_view_25398
+- fext_collector.kalloc_type_view_13762
+- fext_collector.kalloc_type_view_13762.213
+- fext_collector.kalloc_type_view_13769
+- fext_collector_cleanup.kalloc_type_view_13744
+- fext_collector_reset.kalloc_type_view_13733
+- fs_calculate_snapshot_range_space_usage.kalloc_type_view_2123
+- fs_calculate_snapshot_range_space_usage.kalloc_type_view_2195
+- fs_get_shared_extents.kalloc_type_view_2228
+- fs_get_shared_extents.kalloc_type_view_2306
+- fs_get_xattr_in_snap.kalloc_type_view_22783
+- fs_get_xattr_in_snap.kalloc_type_view_22802
+- fs_init_bootcache_inodes_dstreams_info.kalloc_type_view_27227
+- fs_init_bootcache_inodes_dstreams_info.kalloc_type_view_27227.332
+- fs_iterate_snapshots.kalloc_type_view_26461
+- fs_iterate_snapshots.kalloc_type_view_26508
+- fs_map_file_offset_ext.kalloc_type_view_21572
+- fs_map_file_offset_ext.kalloc_type_view_21604
+- fs_map_file_offset_ext.kalloc_type_view_21642
+- fs_map_file_offset_ext.kalloc_type_view_21665
+- fs_remove_xattr_with_nstream_inode.kalloc_type_view_22897
+- fs_remove_xattr_with_nstream_inode.kalloc_type_view_22913
+- fs_remove_xattr_with_nstream_inode.kalloc_type_view_22934
+- fs_remove_xattr_with_nstream_inode.kalloc_type_view_23051
+- graft_blockmap_lut_clone.kalloc_type_view_1435
+- graft_blockmap_lut_create.kalloc_type_view_1359
+- graft_blockmap_lut_release.kalloc_type_view_1585
+- graft_dev_init.kalloc_type_view_407
+- graft_dev_init.kalloc_type_view_420
+- graft_dev_init.kalloc_type_view_444
+- graft_state_smr_cb.kalloc_type_view_1188
+- handle_apfs_set_backingstore.kalloc_type_view_6301
+- handle_apfs_set_backingstore.kalloc_type_view_6330
+- handle_apfs_set_backingstore.kalloc_type_view_6343
+- handle_apfs_set_backingstore.kalloc_type_view_6354
+- handle_fusion_debug.kalloc_type_view_11039
+- handle_fusion_debug.kalloc_type_view_11058
+- handle_get_crypto_ids.kalloc_type_view_4894
+- handle_get_crypto_ids.kalloc_type_view_4964
+- handle_get_crypto_key.kalloc_type_view_5073
+- handle_get_crypto_key.kalloc_type_view_5089
+- handle_get_crypto_key.kalloc_type_view_5120
+- handle_snap_token.kalloc_type_view_6469
+- handle_snapshot_lookup.kalloc_type_view_12239
+- handle_xdstream_obj_id.kalloc_type_view_15818
+- handle_xdstream_obj_id.kalloc_type_view_15841
+- ier_alloc_tls.kalloc_type_view_27732
+- ier_alloc_tls.kalloc_type_view_27778
+- ier_free_tls.kalloc_type_view_27811
+- ier_ierso_free.kalloc_type_view_26900
+- ier_ierso_load.kalloc_type_view_26914
+- ier_ierso_load.kalloc_type_view_26926
+- ier_ierso_new.kalloc_type_view_26609
+- ier_ierso_new.kalloc_type_view_26642
+- ier_ierto_free.kalloc_type_view_24504
+- ier_ierto_new.kalloc_type_view_24490
+- legacy_get_ek.kalloc_type_view_34029
+- lookup_purgeable_drec_as_record.kalloc_type_view_976
+- lookup_unfoldable_name_iterator.kalloc_type_view_17482
+- lookup_unfoldable_name_iterator.kalloc_type_view_17488
+- nx_block_out_physical_range_internal.kalloc_type_view_4277
+- nx_block_out_physical_range_internal.kalloc_type_view_4331
+- nx_block_out_physical_range_internal.kalloc_type_view_4487
+- nx_debug_unfree_blocked_out_range.kalloc_type_view_3177
+- nx_debug_unfree_blocked_out_range.kalloc_type_view_3367
+- nx_free_bootcache_info.kalloc_type_view_4921
+- nx_fusion_find_lba_owner_checkForNewEntry.kalloc_type_view_10531
+- nx_fusion_find_lba_owner_cleanup.kalloc_type_view_10783
+- nx_fusion_find_lba_owner_scanInodes.kalloc_type_view_10726
+- nx_fusion_find_lba_owner_scanInodes.kalloc_type_view_10744
+- nx_fusion_mover.kalloc_type_view_8666
+- nx_fusion_mover_loop.kalloc_type_view_8538
+- nx_fusion_mover_loop.kalloc_type_view_8622
+- nx_fusion_mover_purge_queue.kalloc_type_view_8896
+- nx_fusion_request_movement.kalloc_type_view_8813
+- nx_fusion_request_movement.kalloc_type_view_8848
+- nx_get_minimal_tier_size.kalloc_type_view_5640
+- nx_get_minimal_tier_size.kalloc_type_view_5750
+- nx_promote_to_soft_block_out_range.kalloc_type_view_4799
+- nx_promote_to_soft_block_out_range.kalloc_type_view_4822
+- nx_unmount.kalloc_type_view_1990
+- obj_cache_create.kalloc_type_view_169
+- obj_cache_create.kalloc_type_view_177
+- obj_cache_create.kalloc_type_view_183
+- obj_cache_create.kalloc_type_view_190
+- obj_cache_create.kalloc_type_view_198
+- obj_cache_create.kalloc_type_view_205
+- obj_cache_create.kalloc_type_view_211
+- obj_cache_create.kalloc_type_view_232
+- obj_cache_create.kalloc_type_view_234
+- obj_cache_create.kalloc_type_view_239
+- obj_cache_destroy.kalloc_type_view_608
+- obj_cache_destroy.kalloc_type_view_632
+- obj_cache_destroy.kalloc_type_view_641
+- obj_get_async_read.kalloc_type_view_3582
+- obj_get_async_read.kalloc_type_view_3594
+- obj_get_async_read.kalloc_type_view_3606
+- obj_get_callback.kalloc_type_view_3548
+- obj_get_callback.kalloc_type_view_3550
+- obj_mem_mgr_init.kalloc_type_view_7159
+- obj_mem_mgr_init.kalloc_type_view_7199
+- obj_mem_mgr_init.kalloc_type_view_7213
+- obj_mem_mgr_shutdown.kalloc_type_view_7247
+- obj_type_alloc.kalloc_type_view_5981
+- obj_type_alloc.kalloc_type_view_5988
+- obj_type_alloc.kalloc_type_view_5997
+- obj_type_alloc.kalloc_type_view_6000
+- obj_type_alloc.kalloc_type_view_6003
+- obj_type_alloc.kalloc_type_view_6006
+- obj_type_alloc.kalloc_type_view_6017
+- obj_type_alloc.kalloc_type_view_6026
+- obj_type_alloc.kalloc_type_view_6037
+- obj_type_free.kalloc_type_view_6051
+- obj_type_free.kalloc_type_view_6058
+- obj_type_free.kalloc_type_view_6069
+- obj_type_free.kalloc_type_view_6082
+- obj_type_free.kalloc_type_view_6087
+- obj_type_free.kalloc_type_view_6103
+- obj_type_free.kalloc_type_view_6108
+- obj_type_free.kalloc_type_view_6114
+- obj_type_free.kalloc_type_view_6119
+- obj_type_free.kalloc_type_view_6135
+- obj_type_free.kalloc_type_view_6143
+- orphan_snap_check_iterator.kalloc_type_view_1913
+- pfkur_pfkurso_free.kalloc_type_view_35968
+- pfkur_pfkurso_new.kalloc_type_view_34368
+- purge_files_with_ino.kalloc_type_view_6962
+- purge_files_with_ino.kalloc_type_view_7166
+- purge_single_file.kalloc_type_view_9009
+- purge_single_file.kalloc_type_view_9013
+- purge_single_file.kalloc_type_view_9015
+- purge_single_file.kalloc_type_view_9041
+- purge_single_file.kalloc_type_view_9042
+- revert_to_snapshot.kalloc_type_view_1559
+- simple_remove_xattr.kalloc_type_view_22821
+- simple_remove_xattr.kalloc_type_view_22834
+- tx_add_dirty_work_item.kalloc_type_view_1453
+- tx_add_dirty_work_item.kalloc_type_view_1453.19
+- tx_clean_up_dirty_work.kalloc_type_view_1649
+- update_parent_xattr.kalloc_type_view_20270
+- update_parent_xattr.kalloc_type_view_20400
+- validate_file_data.kalloc_type_view_914
+- validate_file_data.kalloc_type_view_965
+- xattr_cloner.kalloc_type_view_16223
+- xattr_cloner.kalloc_type_view_16265
+- xattr_ek_to_crypto_state.kalloc_type_view_33222
+CStrings:
++ "!dstream || (dstream->size == wsp->newEOF)"
++ "\"%s : Full io lock cannot be held during extending write\" @%s:%d"
++ "%s:%d: %s Can't get graft dir path: %s (%d)\n"
++ "%s:%d: %s Cannot copy spec telemetry info buffer out %lu bytes: %d (%s)\n"
++ "%s:%d: %s Could not fetch purgeable file-id %lld\n"
++ "%s:%d: %s Couldn't get extentref tree, err %d\n"
++ "%s:%d: %s Failed to add iokit node\n"
++ "%s:%d: %s Failed to allocate buffer for speculative telemetry info list with %d entries \n"
++ "%s:%d: %s Failed to allocate speculative download hash entry\n"
++ "%s:%d: %s Failed to extract dir-stats id for ino %llu with error %d (%s)\n"
++ "%s:%d: %s Failed to extract speculative download info\n"
++ "%s:%d: %s Failed to get speculative telemetry info %d (%s)\n"
++ "%s:%d: %s Failed to initialize  speculative telemetry fsroot tree iterator, %d\n"
++ "%s:%d: %s Failed to update number of entries due to interger overflow\n"
++ "%s:%d: %s Failed to update the accumulated number of inodes for residency %d, error %d (%s)\n"
++ "%s:%d: %s Failed to update the accumulated size for residency %d, with size: %llu error %d (%s)\n"
++ "%s:%d: %s Flags %llx are not settable.\n"
++ "%s:%d: %s Graft file %llu has hardlinks\n"
++ "%s:%d: %s Invalid buffer size %u, maximum allowed buffer size %lu\n"
++ "%s:%d: %s Invalid purgeable bulk info version %u specified\n"
++ "%s:%d: %s Invalid timeout  %u mSec, the maximum allowed timeout is %u\n"
++ "%s:%d: %s Invalid timeout  %u mSec, the minimum allowed timeout is %u\n"
++ "%s:%d: %s Not enough free blocks, calculate tidemark\n"
++ "%s:%d: %s Number of free blocks %lld, number of freeable blocks %lld\n"
++ "%s:%d: %s Requested to stop all background work, interrupting speculative info iteration\n"
++ "%s:%d: %s Speculative download get info run out of time\n"
++ "%s:%d: %s Speculative telemetry iteration END - elapsed_time %llu\n"
++ "%s:%d: %s Telemetry ino with obj_id %llu not found in the current fsroot tree\n"
++ "%s:%d: %s Unable to allocate memory for graft dir path\n"
++ "%s:%d: %s Volume with quota %lld, calling fs_count_freeable_blocks(%lld, %lld)\n"
++ "%s:%d: %s about to delete %llu orphan purgeable records\n"
++ "%s:%d: %s can't add more records to the orphan purgeables list\n"
++ "%s:%d: %s can't allocate memory for %llu orphan purgeable records\n"
++ "%s:%d: %s can't allocate memory for %u seen purgeable records\n"
++ "%s:%d: %s failed to allocate vnoflush hash entry\n"
++ "%s:%d: %s failed to enter a transaction: %d (%s)"
++ "%s:%d: %s failed to get graft info from graft state: error %d\n"
++ "%s:%d: %s failed to get iterator next for speculative telemetry info, error %d (%s)\n"
++ "%s:%d: %s failed to lookup drec of inode %llu in the purgatory: %d (%s)\n"
++ "%s:%d: %s failed to remove orphan purgeable record: %d (%s)\n"
++ "%s:%d: %s failed to reset dir_nlink for inode %llu: %d\n"
++ "%s:%d: %s failed to set parent chain noflush for graft dir, %d\n"
++ "%s:%d: %s failed to set parent chain noflush for graft file, %d\n"
++ "%s:%d: %s failed to update parent chain noflush=%d, %d\n"
++ "%s:%d: %s found %lld dups/clones and %llu orphans on %s (num & max ids: %d / %d)\n"
++ "%s:%d: %s fs_count_freeable_blocks failed with %d\n"
++ "%s:%d: %s ino %llu was unexpectedly tagged and maintaining SAF dir-stats\n"
++ "%s:%d: %s ino_shrink for ino %lld returned %d %s on short write\n"
++ "%s:%d: %s inode (id %llu) wasn't found in the purgatory, but its nlink is 0\n"
++ "%s:%d: %s low space conditions: ino %llu inline delete %sallowed. %llu deletable blocks found\n"
++ "%s:%d: %s purgeable records fixup aborted\n"
++ "%s:%d: %s released extra iocount on previous-root-snapshot's dev vp\n"
++ "%s:%d: %s searching for purgeable dups/clones/orphans on %s\n"
++ "%s:%d: %s tidemark for quota volume %lld\n"
++ "%s:%d: %s will release extra counts on the dev vp\n"
++ "%s:%d: Failed to allocate speculative telemetry hash table\n"
++ "%s:%d: Hit an error flushing the hint list, %d dev_name = %s\n"
++ "%s:%d: No space left in supplied buffer with size %lu\n"
++ "%s:%d: conflicting mount options: probe %d temporary %d sbindex %d\n"
++ "%s:%d: failed to allocate vnoflush hash\n"
++ "%s:%d: hinting %d blocks from hint_list failed w/: %d (entry %lld:%lld ; %lld:%lld)\n"
++ "%s:%d: ubc_msync failed on ino %llu offset %llu (error %d)\n"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/apfs/kext/apfs_filter.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/apfs/kext/apfs_ioctls.c"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/apfs/kext/apfs_vnops.c"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/apfs/nx/jobj.c"
++ "111122222222212212122122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211112222222222222221221"
++ "1121222111111122222222221111111111112222221222222222122222222222122112122112211112212212211111122222122222221222122212222222222222222211222222222122111221221"
++ "1211111212221212111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111"
++ "2025/03/19"
++ "2111"
++ "21:14:54"
++ "22222222211"
++ "2332.101.1"
++ "AppleAPFSGraft"
++ "Container statistics"
++ "Cryptex inode"
++ "Graft directory inode"
++ "Mar 19 2025"
++ "SNAP_DELETE_TXN"
++ "System content"
++ "Volume statistics"
++ "add_file_id_to_seen_ids"
++ "apfs-2332.101.1"
++ "apfs_graft_get_graft_info"
++ "apfs_graft_init"
++ "apfs_graft_vnoflush_update"
++ "apfs_io_lock_extending_write_to_exclusive"
++ "apfs_lowspc_inline_unlink_min"
++ "buffer"
++ "check_file_deletion"
++ "com.apple.private.apfs.no-padding"
++ "convert_empty_file_into_dataless_fault"
++ "dev_close"
++ "dis"
++ "fext_slide(fexts, 1, 16384) == 0"
++ "fs_with_quota_tidemark"
++ "handle_apfs_file_padding"
++ "handle_get_spec_telemetry_info"
++ "inode range base"
++ "inode range length"
++ "nx_mount_scan_volumes"
++ "process_write_and_unlock"
++ "remove_orphan_purgeables"
++ "save_orphan_purgeable_record"
++ "set_decmpfs_xattr_if_needed"
++ "site.AppleAPFSGraft"
++ "site.ier_current_obj_t"
++ "site.spec_telem_hash_entry_t"
++ "site.spec_telem_hash_t"
++ "site.struct vnoflush_head"
++ "site.vnoflush_entry_t"
++ "spaceman_alloc_iterate_chunks"
++ "spec_telem_fill_up_xattr"
++ "spec_telem_info_fill_up_entry_data"
++ "spec_telem_info_hash_entry_create"
++ "spec_telem_info_iterate"
++ "spec_telem_info_process_object"
++ "spec_telemetry_hash_init"
++ "spec_telemetry_iterator_init"
++ "vnode_dev_hint_flush"
++ "vnoflush_take"
+- "!fext_riterator_poisoned(it)"
+- "\"unknown fext lookup variant %d!\\n\" @%s:%d"
+- "%s:%d: %s Could not fetch dup file-id %lld\n"
+- "%s:%d: %s Failed to perform speculative download telemetry ino %llu: %d\n"
+- "%s:%d: %s Not supported action for speculative download xattr\n"
+- "%s:%d: %s found %lld dups/clones on %s (num & max ids: %d / %d)\n"
+- "%s:%d: %s sanity check of recently-changed structures failed: %d\n"
+- "%s:%d: %s searching for purgeable dups/clones on %s\n"
+- "%s:%d: %s tried to get metazone alloc index for unknown type: %d\n"
+- "%s:%d: %s unsupported tree type: %d\n"
+- "%s:%d: conflicting mount options: load from temporary checkpoint AND checkpoint descriptor index %d\n"
+- "%s:%d: ubc_msync failed on ino %llu (error %d)\n"
+- "/AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Sources/apfs/kext/apfs_filter.cpp"
+- "/AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Sources/apfs/kext/apfs_ioctls.c"
+- "/AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Sources/apfs/kext/apfs_vnops.c"
+- "/AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Sources/apfs/nx/jobj.c"
+- "111122222222212212122122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211112222222222222221"
+- "11212221111111222222222211111111111122222212222222122222222222122112122112211112212212211111122222122222221222122212222222222222222211222222222122111221221"
+- "2025/01/10"
+- "20:34:18"
+- "2317.81.2"
+- "Jan 10 2025"
+- "apfs-2317.81.2"
+- "nx_destroy_incompletely_restored_volumes"
+- "spaceman_get_metazone_alloc_index"
+- "spec_telem_load_xattr"
+- "supplemental_tree_get_descriptor"
+
+```

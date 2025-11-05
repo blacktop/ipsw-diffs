@@ -1,0 +1,266 @@
+## EnergyKitFoundation
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/EnergyKitFoundation.framework/Versions/A/EnergyKitFoundation`
+
+```diff
+
+-254.4.1.0.0
+-  __TEXT.__text: 0x678a4
+-  __TEXT.__auth_stubs: 0x1000
+-  __TEXT.__objc_methlist: 0x188
+-  __TEXT.__const: 0x1608
+-  __TEXT.__swift5_typeref: 0x498
+-  __TEXT.__cstring: 0x1493
+-  __TEXT.__swift5_reflstr: 0x6c7
+-  __TEXT.__swift5_assocty: 0x60
+-  __TEXT.__constg_swiftt: 0xb7c
+-  __TEXT.__swift5_fieldmd: 0x7f0
+-  __TEXT.__swift5_proto: 0xe0
+-  __TEXT.__swift5_types: 0x7c
+-  __TEXT.__swift5_capture: 0x700
+-  __TEXT.__oslogstring: 0x43b
+-  __TEXT.__unwind_info: 0xd30
+-  __TEXT.__eh_frame: 0x1060
++287.5.2.0.0
++  __TEXT.__text: 0xac23c
++  __TEXT.__auth_stubs: 0x1120
++  __TEXT.__objc_methlist: 0x1c0
++  __TEXT.__const: 0x3758
++  __TEXT.__swift5_typeref: 0x8a4
++  __TEXT.__cstring: 0x1923
++  __TEXT.__swift5_reflstr: 0xaa9
++  __TEXT.__swift5_assocty: 0x2a0
++  __TEXT.__constg_swiftt: 0xf48
++  __TEXT.__swift5_fieldmd: 0xecc
++  __TEXT.__swift5_proto: 0x2c8
++  __TEXT.__swift5_types: 0xec
++  __TEXT.__swift5_capture: 0x760
++  __TEXT.__oslogstring: 0x45b
++  __TEXT.__unwind_info: 0x13f8
++  __TEXT.__eh_frame: 0x1e38
+   __TEXT.__objc_classname: 0x18
+   __TEXT.__objc_methname: 0x681
+   __TEXT.__objc_methtype: 0x46
+-  __DATA_CONST.__got: 0x328
+-  __DATA_CONST.__const: 0x8d8
+-  __DATA_CONST.__objc_classlist: 0x70
++  __DATA_CONST.__got: 0x348
++  __DATA_CONST.__const: 0xa38
++  __DATA_CONST.__objc_classlist: 0x78
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x3a0
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __AUTH_CONST.__auth_got: 0x800
+-  __AUTH_CONST.__const: 0x1630
+-  __AUTH_CONST.__objc_const: 0x1360
++  __AUTH_CONST.__auth_got: 0x890
++  __AUTH_CONST.__const: 0x1dc0
++  __AUTH_CONST.__objc_const: 0x1398
+   __AUTH.__objc_data: 0xc90
+-  __AUTH.__data: 0x980
+-  __DATA.__data: 0x510
+-  __DATA.__bss: 0x20d0
++  __AUTH.__data: 0xf70
++  __DATA.__data: 0x8b8
++  __DATA.__bss: 0x62a0
+   __DATA.__common: 0xf0
+   - /System/Library/Frameworks/CoreData.framework/Versions/A/CoreData
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 4D4D78CA-290D-3AFD-B74B-85746AAF115D
+-  Functions: 1784
+-  Symbols:   377
+-  CStrings:  359
++  UUID: 4A4E698D-42E0-304A-B9E0-E04FBA2DE110
++  Functions: 3003
++  Symbols:   514
++  CStrings:  402
+ 
+Symbols:
++ _OBJC_CLASS_$_NSArray
++ __DATA__TtC19EnergyKitFoundation23IntervalBlockProcessing
++ __METACLASS_DATA__TtC19EnergyKitFoundation23IntervalBlockProcessing
++ ___swift_memcpy9_8
++ __objc_autoreleasePoolPop
++ __objc_autoreleasePoolPush
++ __swift_stdlib_bridgeErrorToNSError
++ _associated conformance 19EnergyKitFoundation17UsagePointPayloadV11TariffRiderV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 19EnergyKitFoundation17UsagePointPayloadV11TariffRiderV21InternalSwiftProtobuf26_MessageImplementationBaseAaF0L0
++ _associated conformance 19EnergyKitFoundation17UsagePointPayloadV11TariffRiderV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 19EnergyKitFoundation17UsagePointPayloadV11TariffRiderVSHAASQ
++ _associated conformance 19EnergyKitFoundation17UsagePointPayloadV13TariffProfileV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 19EnergyKitFoundation17UsagePointPayloadV13TariffProfileV21InternalSwiftProtobuf26_MessageImplementationBaseAaF0L0
++ _associated conformance 19EnergyKitFoundation17UsagePointPayloadV13TariffProfileV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 19EnergyKitFoundation17UsagePointPayloadV13TariffProfileVSHAASQ
++ _associated conformance 19EnergyKitFoundation17UsagePointPayloadV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 19EnergyKitFoundation17UsagePointPayloadV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
++ _associated conformance 19EnergyKitFoundation17UsagePointPayloadV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 19EnergyKitFoundation17UsagePointPayloadVSHAASQ
++ _associated conformance 19EnergyKitFoundation19UsageSummaryPayloadV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 19EnergyKitFoundation19UsageSummaryPayloadV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
++ _associated conformance 19EnergyKitFoundation19UsageSummaryPayloadV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 19EnergyKitFoundation19UsageSummaryPayloadV4ItemV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 19EnergyKitFoundation19UsageSummaryPayloadV4ItemV21InternalSwiftProtobuf26_MessageImplementationBaseAaF0K0
++ _associated conformance 19EnergyKitFoundation19UsageSummaryPayloadV4ItemV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 19EnergyKitFoundation19UsageSummaryPayloadV4ItemVSHAASQ
++ _associated conformance 19EnergyKitFoundation19UsageSummaryPayloadV4UnitO21InternalSwiftProtobuf4EnumAASH
++ _associated conformance 19EnergyKitFoundation19UsageSummaryPayloadV4UnitO21InternalSwiftProtobuf4EnumAASY
++ _associated conformance 19EnergyKitFoundation19UsageSummaryPayloadV4UnitOSHAASQ
++ _associated conformance 19EnergyKitFoundation19UsageSummaryPayloadV4UnitOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 19EnergyKitFoundation19UsageSummaryPayloadV8ItemTypeO21InternalSwiftProtobuf4EnumAASH
++ _associated conformance 19EnergyKitFoundation19UsageSummaryPayloadV8ItemTypeO21InternalSwiftProtobuf4EnumAASY
++ _associated conformance 19EnergyKitFoundation19UsageSummaryPayloadV8ItemTypeOSHAASQ
++ _associated conformance 19EnergyKitFoundation19UsageSummaryPayloadV8ItemTypeOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 19EnergyKitFoundation19UsageSummaryPayloadVSHAASQ
++ _associated conformance 19EnergyKitFoundation20IntervalBlockPayloadV0D7ReadingV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 19EnergyKitFoundation20IntervalBlockPayloadV0D7ReadingV21InternalSwiftProtobuf26_MessageImplementationBaseAaF0K0
++ _associated conformance 19EnergyKitFoundation20IntervalBlockPayloadV0D7ReadingV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 19EnergyKitFoundation20IntervalBlockPayloadV0D7ReadingV7QualityO21InternalSwiftProtobuf4EnumAASH
++ _associated conformance 19EnergyKitFoundation20IntervalBlockPayloadV0D7ReadingV7QualityO21InternalSwiftProtobuf4EnumAASY
++ _associated conformance 19EnergyKitFoundation20IntervalBlockPayloadV0D7ReadingV7QualityOSHAASQ
++ _associated conformance 19EnergyKitFoundation20IntervalBlockPayloadV0D7ReadingV7QualityOs12CaseIterableAA8AllCasessAHP_Sl
++ _associated conformance 19EnergyKitFoundation20IntervalBlockPayloadV0D7ReadingVSHAASQ
++ _associated conformance 19EnergyKitFoundation20IntervalBlockPayloadV13FlowDirectionO21InternalSwiftProtobuf4EnumAASH
++ _associated conformance 19EnergyKitFoundation20IntervalBlockPayloadV13FlowDirectionO21InternalSwiftProtobuf4EnumAASY
++ _associated conformance 19EnergyKitFoundation20IntervalBlockPayloadV13FlowDirectionOSHAASQ
++ _associated conformance 19EnergyKitFoundation20IntervalBlockPayloadV13FlowDirectionOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 19EnergyKitFoundation20IntervalBlockPayloadV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 19EnergyKitFoundation20IntervalBlockPayloadV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
++ _associated conformance 19EnergyKitFoundation20IntervalBlockPayloadV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 19EnergyKitFoundation20IntervalBlockPayloadV4UnitO21InternalSwiftProtobuf4EnumAASH
++ _associated conformance 19EnergyKitFoundation20IntervalBlockPayloadV4UnitO21InternalSwiftProtobuf4EnumAASY
++ _associated conformance 19EnergyKitFoundation20IntervalBlockPayloadV4UnitOSHAASQ
++ _associated conformance 19EnergyKitFoundation20IntervalBlockPayloadV4UnitOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 19EnergyKitFoundation20IntervalBlockPayloadV9CommodityO21InternalSwiftProtobuf4EnumAASH
++ _associated conformance 19EnergyKitFoundation20IntervalBlockPayloadV9CommodityO21InternalSwiftProtobuf4EnumAASY
++ _associated conformance 19EnergyKitFoundation20IntervalBlockPayloadV9CommodityOSHAASQ
++ _associated conformance 19EnergyKitFoundation20IntervalBlockPayloadV9CommodityOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 19EnergyKitFoundation20IntervalBlockPayloadVSHAASQ
++ _associated conformance 19EnergyKitFoundation26IntervalBlockClientPayloadV0D7ReadingV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 19EnergyKitFoundation26IntervalBlockClientPayloadV0D7ReadingV21InternalSwiftProtobuf26_MessageImplementationBaseAaF0L0
++ _associated conformance 19EnergyKitFoundation26IntervalBlockClientPayloadV0D7ReadingV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 19EnergyKitFoundation26IntervalBlockClientPayloadV0D7ReadingV7QualityO21InternalSwiftProtobuf4EnumAASH
++ _associated conformance 19EnergyKitFoundation26IntervalBlockClientPayloadV0D7ReadingV7QualityO21InternalSwiftProtobuf4EnumAASY
++ _associated conformance 19EnergyKitFoundation26IntervalBlockClientPayloadV0D7ReadingV7QualityOSHAASQ
++ _associated conformance 19EnergyKitFoundation26IntervalBlockClientPayloadV0D7ReadingV7QualityOs12CaseIterableAA8AllCasessAHP_Sl
++ _associated conformance 19EnergyKitFoundation26IntervalBlockClientPayloadV0D7ReadingVSHAASQ
++ _associated conformance 19EnergyKitFoundation26IntervalBlockClientPayloadV13FlowDirectionO21InternalSwiftProtobuf4EnumAASH
++ _associated conformance 19EnergyKitFoundation26IntervalBlockClientPayloadV13FlowDirectionO21InternalSwiftProtobuf4EnumAASY
++ _associated conformance 19EnergyKitFoundation26IntervalBlockClientPayloadV13FlowDirectionOSHAASQ
++ _associated conformance 19EnergyKitFoundation26IntervalBlockClientPayloadV13FlowDirectionOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 19EnergyKitFoundation26IntervalBlockClientPayloadV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 19EnergyKitFoundation26IntervalBlockClientPayloadV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0K0
++ _associated conformance 19EnergyKitFoundation26IntervalBlockClientPayloadV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 19EnergyKitFoundation26IntervalBlockClientPayloadV4UnitO21InternalSwiftProtobuf4EnumAASH
++ _associated conformance 19EnergyKitFoundation26IntervalBlockClientPayloadV4UnitO21InternalSwiftProtobuf4EnumAASY
++ _associated conformance 19EnergyKitFoundation26IntervalBlockClientPayloadV4UnitOSHAASQ
++ _associated conformance 19EnergyKitFoundation26IntervalBlockClientPayloadV4UnitOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 19EnergyKitFoundation26IntervalBlockClientPayloadV9CommodityO21InternalSwiftProtobuf4EnumAASH
++ _associated conformance 19EnergyKitFoundation26IntervalBlockClientPayloadV9CommodityO21InternalSwiftProtobuf4EnumAASY
++ _associated conformance 19EnergyKitFoundation26IntervalBlockClientPayloadV9CommodityOSHAASQ
++ _associated conformance 19EnergyKitFoundation26IntervalBlockClientPayloadV9CommodityOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 19EnergyKitFoundation26IntervalBlockClientPayloadVSHAASQ
++ _associated conformance 19EnergyKitFoundation35_GeneratedWithProtocGenSwiftVersion33_3EE22AFA93C70BC1286A1FA3CDC4FAB1LLV08InternalH8Protobuf0S15APIVersionCheckAA0I0AeFP_AE0sT2_2
++ _associated conformance 19EnergyKitFoundation35_GeneratedWithProtocGenSwiftVersion33_40C483C7FA1421647A9187CD3C6AA599LLV08InternalH8Protobuf0R15APIVersionCheckAA0I0AeFP_AE0rS2_2
++ _associated conformance 19EnergyKitFoundation35_GeneratedWithProtocGenSwiftVersion33_5508711FA7262D61B35924348B6813BDLLV08InternalH8Protobuf0P15APIVersionCheckAA0I0AeFP_AE0pQ2_2
++ _associated conformance 19EnergyKitFoundation35_GeneratedWithProtocGenSwiftVersion33_AB9D7195BAEC11F837A2016E52EAD76ELLV08InternalH8Protobuf0R15APIVersionCheckAA0I0AeFP_AE0rS2_2
++ _objc_release_x8
++ _objc_retain_x8
++ _symbolic $ss12CaseIterableP
++ _symbolic Say_____G 19EnergyKitFoundation17UsagePointPayloadV11TariffRiderV
++ _symbolic Say_____G 19EnergyKitFoundation17UsagePointPayloadV13TariffProfileV
++ _symbolic Say_____G 19EnergyKitFoundation19UsageSummaryPayloadV4ItemV
++ _symbolic Say_____G 19EnergyKitFoundation19UsageSummaryPayloadV4UnitO
++ _symbolic Say_____G 19EnergyKitFoundation19UsageSummaryPayloadV8ItemTypeO
++ _symbolic Say_____G 19EnergyKitFoundation20IntervalBlockPayloadV0D7ReadingV
++ _symbolic Say_____G 19EnergyKitFoundation20IntervalBlockPayloadV0D7ReadingV7QualityO
++ _symbolic Say_____G 19EnergyKitFoundation20IntervalBlockPayloadV13FlowDirectionO
++ _symbolic Say_____G 19EnergyKitFoundation20IntervalBlockPayloadV4UnitO
++ _symbolic Say_____G 19EnergyKitFoundation20IntervalBlockPayloadV9CommodityO
++ _symbolic Say_____G 19EnergyKitFoundation26IntervalBlockClientPayloadV0D7ReadingV
++ _symbolic Say_____G 19EnergyKitFoundation26IntervalBlockClientPayloadV0D7ReadingV7QualityO
++ _symbolic Say_____G 19EnergyKitFoundation26IntervalBlockClientPayloadV13FlowDirectionO
++ _symbolic Say_____G 19EnergyKitFoundation26IntervalBlockClientPayloadV4UnitO
++ _symbolic Say_____G 19EnergyKitFoundation26IntervalBlockClientPayloadV9CommodityO
++ _symbolic So8NSObjectCIego_
++ _symbolic So8NSObjectCSgIego_
++ _symbolic _____ 19EnergyKitFoundation17UsagePointPayloadV
++ _symbolic _____ 19EnergyKitFoundation17UsagePointPayloadV11TariffRiderV
++ _symbolic _____ 19EnergyKitFoundation17UsagePointPayloadV13TariffProfileV
++ _symbolic _____ 19EnergyKitFoundation19UsageSummaryPayloadV
++ _symbolic _____ 19EnergyKitFoundation19UsageSummaryPayloadV4ItemV
++ _symbolic _____ 19EnergyKitFoundation19UsageSummaryPayloadV4UnitO
++ _symbolic _____ 19EnergyKitFoundation19UsageSummaryPayloadV8ItemTypeO
++ _symbolic _____ 19EnergyKitFoundation20IntervalBlockPayloadV
++ _symbolic _____ 19EnergyKitFoundation20IntervalBlockPayloadV0D7ReadingV
++ _symbolic _____ 19EnergyKitFoundation20IntervalBlockPayloadV0D7ReadingV7QualityO
++ _symbolic _____ 19EnergyKitFoundation20IntervalBlockPayloadV13FlowDirectionO
++ _symbolic _____ 19EnergyKitFoundation20IntervalBlockPayloadV4UnitO
++ _symbolic _____ 19EnergyKitFoundation20IntervalBlockPayloadV9CommodityO
++ _symbolic _____ 19EnergyKitFoundation23IntervalBlockProcessingC
++ _symbolic _____ 19EnergyKitFoundation26IntervalBlockClientPayloadV
++ _symbolic _____ 19EnergyKitFoundation26IntervalBlockClientPayloadV0D7ReadingV
++ _symbolic _____ 19EnergyKitFoundation26IntervalBlockClientPayloadV0D7ReadingV7QualityO
++ _symbolic _____ 19EnergyKitFoundation26IntervalBlockClientPayloadV13FlowDirectionO
++ _symbolic _____ 19EnergyKitFoundation26IntervalBlockClientPayloadV4UnitO
++ _symbolic _____ 19EnergyKitFoundation26IntervalBlockClientPayloadV9CommodityO
++ _symbolic _____ 19EnergyKitFoundation35_GeneratedWithProtocGenSwiftVersion33_3EE22AFA93C70BC1286A1FA3CDC4FAB1LLV
++ _symbolic _____ 19EnergyKitFoundation35_GeneratedWithProtocGenSwiftVersion33_3EE22AFA93C70BC1286A1FA3CDC4FAB1LLV2_2V
++ _symbolic _____ 19EnergyKitFoundation35_GeneratedWithProtocGenSwiftVersion33_40C483C7FA1421647A9187CD3C6AA599LLV
++ _symbolic _____ 19EnergyKitFoundation35_GeneratedWithProtocGenSwiftVersion33_40C483C7FA1421647A9187CD3C6AA599LLV2_2V
++ _symbolic _____ 19EnergyKitFoundation35_GeneratedWithProtocGenSwiftVersion33_5508711FA7262D61B35924348B6813BDLLV
++ _symbolic _____ 19EnergyKitFoundation35_GeneratedWithProtocGenSwiftVersion33_5508711FA7262D61B35924348B6813BDLLV2_2V
++ _symbolic _____ 19EnergyKitFoundation35_GeneratedWithProtocGenSwiftVersion33_AB9D7195BAEC11F837A2016E52EAD76ELLV
++ _symbolic _____ 19EnergyKitFoundation35_GeneratedWithProtocGenSwiftVersion33_AB9D7195BAEC11F837A2016E52EAD76ELLV2_2V
++ _symbolic _____ s5Int32V
++ _symbolic ______pIego_ s5ErrorP
+CStrings:
++ ".IntervalReading"
++ ".Item"
++ ".TariffProfile"
++ ".TariffRider"
++ "COMMODITY_UNSPECIFIED"
++ "DELIVERED"
++ "ELECTRIC"
++ "ESTIMATED"
++ "FLOW_DIRECTION_UNSPECIFIED"
++ "Failed to unarchive Readings %@"
++ "ITEM_TYPE_UNSPECIFIED"
++ "Insufficient space allocated to copy string contents"
++ "KWH"
++ "NET"
++ "QUALITY_UNSPECIFIED"
++ "RAW"
++ "REVERSE"
++ "String index is out of bounds"
++ "Swift/ContiguousArrayBuffer.swift"
++ "Swift/StringTesting.swift"
++ "Swift/StringUTF8View.swift"
++ "Swift/UnsafeRawPointer.swift"
++ "UNIT_UNSPECIFIED"
++ "USAGE"
++ "UnsafeMutableBufferPointer with negative count"
++ "UnsafeMutablePointer.initialize overlapping range"
++ "UnsafeMutablePointer.initialize with negative count"
++ "UnsafeMutablePointer.moveInitialize with negative count"
++ "UnsafeMutableRawPointer.initializeMemory overlapping range"
++ "UnsafeMutableRawPointer.initializeMemory with negative count"
++ "VALIDATED"
++ "_TtC19EnergyKitFoundation23IntervalBlockProcessing"
++ "amount"
++ "consumptionUnit"
++ "consumptionValue"
++ "invalid Collection: less than 'count' elements in collection"
++ "invalid Collection: more than 'count' elements in collection"
++ "qualities"
++ "rank"
++ "riderID"
++ "riders"
++ "type"
++ "value"
+
+```

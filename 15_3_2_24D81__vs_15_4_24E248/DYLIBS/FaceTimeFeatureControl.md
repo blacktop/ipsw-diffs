@@ -1,0 +1,154 @@
+## FaceTimeFeatureControl
+
+> `/System/Library/PrivateFrameworks/FaceTimeFeatureControl.framework/Versions/A/FaceTimeFeatureControl`
+
+```diff
+
+-1525.400.141.0.0
+-  __TEXT.__text: 0x2fac
+-  __TEXT.__auth_stubs: 0x160
+-  __TEXT.__const: 0xa14
+-  __TEXT.__swift5_typeref: 0x23b
+-  __TEXT.__cstring: 0x2c
+-  __TEXT.__constg_swiftt: 0x1e0
+-  __TEXT.__swift5_reflstr: 0x49
+-  __TEXT.__swift5_fieldmd: 0x188
+-  __TEXT.__swift5_proto: 0xa0
+-  __TEXT.__swift5_types: 0x34
+-  __TEXT.__swift5_protos: 0x4
+-  __TEXT.__unwind_info: 0x1d0
+-  __TEXT.__eh_frame: 0x100
++1525.500.181.0.0
++  __TEXT.__text: 0x6030
++  __TEXT.__auth_stubs: 0x1e0
++  __TEXT.__const: 0x14b4
++  __TEXT.__swift5_typeref: 0x457
++  __TEXT.__cstring: 0xa8
++  __TEXT.__constg_swiftt: 0x3cc
++  __TEXT.__swift5_reflstr: 0xc6
++  __TEXT.__swift5_fieldmd: 0x304
++  __TEXT.__swift5_proto: 0x154
++  __TEXT.__swift5_types: 0x68
++  __TEXT.__swift5_protos: 0x8
++  __TEXT.__unwind_info: 0x320
++  __TEXT.__eh_frame: 0x2b8
+   __DATA_CONST.__got: 0x18
+-  __DATA_CONST.__const: 0x68
++  __DATA_CONST.__const: 0x80
++  __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __AUTH_CONST.__auth_got: 0xb0
+-  __AUTH_CONST.__const: 0x370
+-  __DATA.__data: 0x190
+-  __DATA.__bss: 0x1380
++  __AUTH_CONST.__auth_got: 0xf0
++  __AUTH_CONST.__const: 0x810
++  __AUTH_CONST.__objc_const: 0xd8
++  __AUTH.__data: 0xa8
++  __DATA.__data: 0x328
++  __DATA.__bss: 0x2980
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
++  - /usr/lib/swift/libswiftIOKit.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 1001600E-C04B-3DBC-9DCD-59465C5211BC
+-  Functions: 152
+-  Symbols:   99
+-  CStrings:  1
++  UUID: 9312E147-8031-3EB2-831D-06A428E52F5D
++  Functions: 306
++  Symbols:   173
++  CStrings:  4
+ 
+Symbols:
++ _OBJC_CLASS_$__TtCs12_SwiftObject
++ _OBJC_METACLASS_$__TtCs12_SwiftObject
++ __DATA__TtC22FaceTimeFeatureControl19CallsFeatureManager
++ __IVARS__TtC22FaceTimeFeatureControl19CallsFeatureManager
++ __METACLASS_DATA__TtC22FaceTimeFeatureControl19CallsFeatureManager
++ ___swift_memcpy0_1
++ __objc_empty_cache
++ __swift_FORCE_LOAD_$_swiftCoreFoundation
++ __swift_FORCE_LOAD_$_swiftCoreFoundation_$_FaceTimeFeatureControl
++ __swift_FORCE_LOAD_$_swiftFoundation
++ __swift_FORCE_LOAD_$_swiftFoundation_$_FaceTimeFeatureControl
++ __swift_FORCE_LOAD_$_swiftIOKit
++ __swift_FORCE_LOAD_$_swiftIOKit_$_FaceTimeFeatureControl
++ _associated conformance 22FaceTimeFeatureControl05CallsC0O06RemoteD10CodingKeys33_B13A68A8CDBBA0C06D8D0DE5BEF2E682LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22FaceTimeFeatureControl05CallsC0O06RemoteD10CodingKeys33_B13A68A8CDBBA0C06D8D0DE5BEF2E682LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22FaceTimeFeatureControl05CallsC0O10CodingKeys33_B13A68A8CDBBA0C06D8D0DE5BEF2E682LLOSHAASQ
++ _associated conformance 22FaceTimeFeatureControl05CallsC0O10CodingKeys33_B13A68A8CDBBA0C06D8D0DE5BEF2E682LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22FaceTimeFeatureControl05CallsC0O10CodingKeys33_B13A68A8CDBBA0C06D8D0DE5BEF2E682LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22FaceTimeFeatureControl05CallsC0OSHAASQ
++ _associated conformance 22FaceTimeFeatureControl16EnablementStatusO10CodingKeys33_8CEA8A85DF4F010D9C908BA8A0A27937LLOSHAASQ
++ _associated conformance 22FaceTimeFeatureControl16EnablementStatusO10CodingKeys33_8CEA8A85DF4F010D9C908BA8A0A27937LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22FaceTimeFeatureControl16EnablementStatusO10CodingKeys33_8CEA8A85DF4F010D9C908BA8A0A27937LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22FaceTimeFeatureControl16EnablementStatusO17EnabledCodingKeys33_8CEA8A85DF4F010D9C908BA8A0A27937LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22FaceTimeFeatureControl16EnablementStatusO17EnabledCodingKeys33_8CEA8A85DF4F010D9C908BA8A0A27937LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22FaceTimeFeatureControl16EnablementStatusO20NotEnabledCodingKeys33_8CEA8A85DF4F010D9C908BA8A0A27937LLOSHAASQ
++ _associated conformance 22FaceTimeFeatureControl16EnablementStatusO20NotEnabledCodingKeys33_8CEA8A85DF4F010D9C908BA8A0A27937LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22FaceTimeFeatureControl16EnablementStatusO20NotEnabledCodingKeys33_8CEA8A85DF4F010D9C908BA8A0A27937LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22FaceTimeFeatureControl16EnablementStatusOSHAASQ
++ _associated conformance 22FaceTimeFeatureControl17UnavailableReasonO10CodingKeys33_5706D3A4D592AF21596BB146A6B4A034LLOSHAASQ
++ _associated conformance 22FaceTimeFeatureControl17UnavailableReasonO10CodingKeys33_5706D3A4D592AF21596BB146A6B4A034LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22FaceTimeFeatureControl17UnavailableReasonO10CodingKeys33_5706D3A4D592AF21596BB146A6B4A034LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22FaceTimeFeatureControl17UnavailableReasonO22OsElgibilityCodingKeys33_5706D3A4D592AF21596BB146A6B4A034LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22FaceTimeFeatureControl17UnavailableReasonO22OsElgibilityCodingKeys33_5706D3A4D592AF21596BB146A6B4A034LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22FaceTimeFeatureControl17UnavailableReasonO24MdmRestrictionCodingKeys33_5706D3A4D592AF21596BB146A6B4A034LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22FaceTimeFeatureControl17UnavailableReasonO24MdmRestrictionCodingKeys33_5706D3A4D592AF21596BB146A6B4A034LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22FaceTimeFeatureControl17UnavailableReasonOSHAASQ
++ _objc_opt_self
++ _swift_allocObject
++ _swift_deallocClassInstance
++ _swift_deletedMethodError
++ _swift_lookUpClassMethod
++ _swift_once
++ _swift_retain
++ _symbolic $s22FaceTimeFeatureControl05CallsC8ManagingP
++ _symbolic _____ 22FaceTimeFeatureControl05CallsC0O
++ _symbolic _____ 22FaceTimeFeatureControl05CallsC0O06RemoteD10CodingKeys33_B13A68A8CDBBA0C06D8D0DE5BEF2E682LLO
++ _symbolic _____ 22FaceTimeFeatureControl05CallsC0O10CodingKeys33_B13A68A8CDBBA0C06D8D0DE5BEF2E682LLO
++ _symbolic _____ 22FaceTimeFeatureControl05CallsC7ManagerC
++ _symbolic _____ 22FaceTimeFeatureControl16EnablementStatusO
++ _symbolic _____ 22FaceTimeFeatureControl16EnablementStatusO10CodingKeys33_8CEA8A85DF4F010D9C908BA8A0A27937LLO
++ _symbolic _____ 22FaceTimeFeatureControl16EnablementStatusO17EnabledCodingKeys33_8CEA8A85DF4F010D9C908BA8A0A27937LLO
++ _symbolic _____ 22FaceTimeFeatureControl16EnablementStatusO20NotEnabledCodingKeys33_8CEA8A85DF4F010D9C908BA8A0A27937LLO
++ _symbolic _____ 22FaceTimeFeatureControl17UnavailableReasonO
++ _symbolic _____ 22FaceTimeFeatureControl17UnavailableReasonO10CodingKeys33_5706D3A4D592AF21596BB146A6B4A034LLO
++ _symbolic _____ 22FaceTimeFeatureControl17UnavailableReasonO22OsElgibilityCodingKeys33_5706D3A4D592AF21596BB146A6B4A034LLO
++ _symbolic _____ 22FaceTimeFeatureControl17UnavailableReasonO24MdmRestrictionCodingKeys33_5706D3A4D592AF21596BB146A6B4A034LLO
++ _symbolic _____ 22FaceTimeFeatureControl30ManagedConfigurationConnectionV
++ _symbolic ______p 22FaceTimeFeatureControl0C19EligibilityCheckingP
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22FaceTimeFeatureControl05CallsF0O06RemoteG10CodingKeys33_B13A68A8CDBBA0C06D8D0DE5BEF2E682LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22FaceTimeFeatureControl05CallsF0O10CodingKeys33_B13A68A8CDBBA0C06D8D0DE5BEF2E682LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22FaceTimeFeatureControl16EnablementStatusO10CodingKeys33_8CEA8A85DF4F010D9C908BA8A0A27937LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22FaceTimeFeatureControl16EnablementStatusO17EnabledCodingKeys33_8CEA8A85DF4F010D9C908BA8A0A27937LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22FaceTimeFeatureControl16EnablementStatusO20NotEnabledCodingKeys33_8CEA8A85DF4F010D9C908BA8A0A27937LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22FaceTimeFeatureControl17UnavailableReasonO10CodingKeys33_5706D3A4D592AF21596BB146A6B4A034LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22FaceTimeFeatureControl17UnavailableReasonO22OsElgibilityCodingKeys33_5706D3A4D592AF21596BB146A6B4A034LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22FaceTimeFeatureControl17UnavailableReasonO24MdmRestrictionCodingKeys33_5706D3A4D592AF21596BB146A6B4A034LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22FaceTimeFeatureControl05CallsF0O06RemoteG10CodingKeys33_B13A68A8CDBBA0C06D8D0DE5BEF2E682LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22FaceTimeFeatureControl05CallsF0O10CodingKeys33_B13A68A8CDBBA0C06D8D0DE5BEF2E682LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22FaceTimeFeatureControl16EnablementStatusO10CodingKeys33_8CEA8A85DF4F010D9C908BA8A0A27937LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22FaceTimeFeatureControl16EnablementStatusO17EnabledCodingKeys33_8CEA8A85DF4F010D9C908BA8A0A27937LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22FaceTimeFeatureControl16EnablementStatusO20NotEnabledCodingKeys33_8CEA8A85DF4F010D9C908BA8A0A27937LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22FaceTimeFeatureControl17UnavailableReasonO10CodingKeys33_5706D3A4D592AF21596BB146A6B4A034LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22FaceTimeFeatureControl17UnavailableReasonO22OsElgibilityCodingKeys33_5706D3A4D592AF21596BB146A6B4A034LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22FaceTimeFeatureControl17UnavailableReasonO24MdmRestrictionCodingKeys33_5706D3A4D592AF21596BB146A6B4A034LLO
+CStrings:
++ "_TtC22FaceTimeFeatureControl19CallsFeatureManager"
++ "configurationConnection"
++ "featureEligibilityChecker"
+
+```

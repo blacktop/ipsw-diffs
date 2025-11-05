@@ -1,0 +1,2703 @@
+## ProximityReader
+
+> `/System/iOSSupport/System/Library/Frameworks/ProximityReader.framework/Versions/A/ProximityReader`
+
+```diff
+
+-131.3.0.0.0
+-  __TEXT.__text: 0xd8de0
+-  __TEXT.__auth_stubs: 0x1bd0
+-  __TEXT.__objc_methlist: 0x794
+-  __TEXT.__const: 0xd660
+-  __TEXT.__cstring: 0x7584
+-  __TEXT.__constg_swiftt: 0x35d0
+-  __TEXT.__swift5_typeref: 0x2e68
+-  __TEXT.__swift5_builtin: 0x230
+-  __TEXT.__swift5_reflstr: 0x2812
+-  __TEXT.__swift5_fieldmd: 0x38cc
+-  __TEXT.__swift5_assocty: 0x4b0
+-  __TEXT.__swift5_proto: 0xc30
+-  __TEXT.__swift5_types: 0x518
+-  __TEXT.__oslogstring: 0x1cbc
+-  __TEXT.__swift5_mpenum: 0x38
+-  __TEXT.__swift5_capture: 0x620
+-  __TEXT.__swift5_protos: 0x1c
+-  __TEXT.__unwind_info: 0x3c20
+-  __TEXT.__eh_frame: 0x4070
+-  __TEXT.__objc_classname: 0x3a
+-  __TEXT.__objc_methname: 0x1139
+-  __TEXT.__objc_methtype: 0x7e
++134.20.0.0.0
++  __TEXT.__text: 0x7e348
++  __TEXT.__auth_stubs: 0x1a60
++  __TEXT.__objc_methlist: 0x260
++  __TEXT.__const: 0x3920
++  __TEXT.__cstring: 0x418c
++  __TEXT.__swift5_typeref: 0xe34
++  __TEXT.__swift5_reflstr: 0x1e02
++  __TEXT.__swift5_assocty: 0x210
++  __TEXT.__constg_swiftt: 0x14bc
++  __TEXT.__swift5_fieldmd: 0x1b0c
++  __TEXT.__swift5_proto: 0x28c
++  __TEXT.__swift5_types: 0x194
++  __TEXT.__swift_as_entry: 0x1b8
++  __TEXT.__swift_as_ret: 0x1b8
++  __TEXT.__swift5_capture: 0x5d0
++  __TEXT.__oslogstring: 0x1622
++  __TEXT.__swift5_builtin: 0x64
++  __TEXT.__swift5_mpenum: 0x10
++  __TEXT.__swift5_protos: 0x10
++  __TEXT.__unwind_info: 0x21a8
++  __TEXT.__eh_frame: 0x3f78
++  __TEXT.__objc_classname: 0x22
++  __TEXT.__objc_methname: 0x8be
++  __TEXT.__objc_methtype: 0x38
+   __TEXT.__objc_stubs: 0x1e0
+-  __DATA_CONST.__got: 0x5c8
+-  __DATA_CONST.__const: 0x460
+-  __DATA_CONST.__objc_classlist: 0x158
+-  __DATA_CONST.__objc_protolist: 0xa8
++  __DATA_CONST.__got: 0x540
++  __DATA_CONST.__const: 0x140
++  __DATA_CONST.__objc_classlist: 0x98
++  __DATA_CONST.__objc_protolist: 0x28
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x408
+-  __DATA_CONST.__objc_protorefs: 0x98
+-  __AUTH_CONST.__auth_got: 0xdf0
+-  __AUTH_CONST.__const: 0x9108
+-  __AUTH_CONST.__cfstring: 0x520
+-  __AUTH_CONST.__objc_const: 0x3178
+-  __AUTH.__objc_data: 0x1b38
+-  __AUTH.__data: 0x22a8
+-  __DATA.__data: 0x33c8
+-  __DATA.__bss: 0x18100
+-  __DATA.__common: 0x170
+-  - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
++  __DATA_CONST.__objc_selrefs: 0x2d8
++  __DATA_CONST.__objc_protorefs: 0x28
++  __AUTH_CONST.__auth_got: 0xd38
++  __AUTH_CONST.__const: 0x3218
++  __AUTH_CONST.__cfstring: 0x5c0
++  __AUTH_CONST.__objc_const: 0x11a0
++  __AUTH.__objc_data: 0x2d0
++  __AUTH.__data: 0x1f80
++  __DATA.__data: 0xc30
++  __DATA.__bss: 0x5a30
++  __DATA.__common: 0x98
+   - /System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+-  - /System/Library/Frameworks/CryptoKit.framework/Versions/A/CryptoKit
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+-  - /System/Library/Frameworks/LocalAuthentication.framework/Versions/A/LocalAuthentication
+-  - /System/Library/Frameworks/Security.framework/Versions/A/Security
+-  - /System/Library/PrivateFrameworks/AppSupport.framework/Versions/A/AppSupport
+-  - /System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags
+-  - /System/Library/PrivateFrameworks/RTCReporting.framework/Versions/A/RTCReporting
+-  - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/Versions/A/TelephonyUtilities
++  - /System/iOSSupport/System/Library/PrivateFrameworks/ProximityReaderCore.framework/Versions/A/ProximityReaderCore
+   - /System/iOSSupport/System/Library/PrivateFrameworks/UIKitCore.framework/Versions/A/UIKitCore
+-  - /System/iOSSupport/usr/lib/swift/libswiftMapKit.dylib
+-  - /System/iOSSupport/usr/lib/swift/libswiftSceneKit.dylib
+-  - /System/iOSSupport/usr/lib/swift/libswiftWebKit.dylib
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+-  - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+-  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+-  - /usr/lib/swift/libswiftCoreLocation.dylib
+-  - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftCryptoTokenKit.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftFileProvider.dylib
+   - /usr/lib/swift/libswiftIOKit.dylib
+-  - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 88560E2B-794D-3CD7-9384-F6792E61FC9B
+-  Functions: 5688
+-  Symbols:   1947
+-  CStrings:  1173
++  UUID: D678B5B6-8F2B-3DB1-81EC-FFDE9CEE432F
++  Functions: 2590
++  Symbols:   832
++  CStrings:  635
+ 
+Symbols:
++ +[PRSettingsProvider getEnableDiagnosticsForBundleID:]
++ +[PRSettingsProvider setEnableDiagnostics:forBundleID:]
++ _OBJC_CLASS_$_NSSet
++ _PREnableDiagnostics
++ _PROTOCOLS__TtC15ProximityReader25PaymentCardReaderDelegate.109
++ _PROTOCOLS__TtC15ProximityReader32PaymentReadResultStorageDelegate.42
++ __DATA__TtC15ProximityReader12BatchBuilder
++ __DATA__TtC15ProximityReader27PaymentCardReaderStoreActor
++ __DATA__TtC15ProximityReader32PaymentReadResultStorageDelegate
++ __DATA__TtC15ProximityReader39StoreAndForwardPaymentCardReaderSession
++ __INSTANCE_METHODS__TtC15ProximityReader32PaymentReadResultStorageDelegate
++ __IVARS__TtC15ProximityReader12BatchBuilder
++ __IVARS__TtC15ProximityReader27PaymentCardReaderStoreActor
++ __IVARS__TtC15ProximityReader32PaymentReadResultStorageDelegate
++ __METACLASS_DATA__TtC15ProximityReader12BatchBuilder
++ __METACLASS_DATA__TtC15ProximityReader27PaymentCardReaderStoreActor
++ __METACLASS_DATA__TtC15ProximityReader32PaymentReadResultStorageDelegate
++ __METACLASS_DATA__TtC15ProximityReader39StoreAndForwardPaymentCardReaderSession
++ __PROTOCOLS__TtC15ProximityReader32PaymentReadResultStorageDelegate
++ __PROTOCOL_INSTANCE_METHODS__TtP19ProximityReaderCore30IdentityReaderServiceInterface_
++ __PROTOCOL_INSTANCE_METHODS__TtP19ProximityReaderCore30PaymentTerminalServiceDelegate_
++ __PROTOCOL_INSTANCE_METHODS__TtP19ProximityReaderCore30PaymentTerminalStorageDelegate_
++ __PROTOCOL_INSTANCE_METHODS__TtP19ProximityReaderCore31PaymentTerminalServiceInterface_
++ __PROTOCOL_INSTANCE_METHODS__TtP19ProximityReaderCore31PaymentTerminalStorageInterface_
++ __PROTOCOL_METHOD_TYPES__TtP19ProximityReaderCore30IdentityReaderServiceInterface_
++ __PROTOCOL_METHOD_TYPES__TtP19ProximityReaderCore30PaymentTerminalServiceDelegate_
++ __PROTOCOL_METHOD_TYPES__TtP19ProximityReaderCore30PaymentTerminalStorageDelegate_
++ __PROTOCOL_METHOD_TYPES__TtP19ProximityReaderCore31PaymentTerminalServiceInterface_
++ __PROTOCOL_METHOD_TYPES__TtP19ProximityReaderCore31PaymentTerminalStorageInterface_
++ __PROTOCOL__TtP19ProximityReaderCore30IdentityReaderServiceInterface_
++ __PROTOCOL__TtP19ProximityReaderCore30PaymentTerminalServiceDelegate_
++ __PROTOCOL__TtP19ProximityReaderCore30PaymentTerminalStorageDelegate_
++ __PROTOCOL__TtP19ProximityReaderCore31PaymentTerminalServiceInterface_
++ __PROTOCOL__TtP19ProximityReaderCore31PaymentTerminalStorageInterface_
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ ___swift_destroy_boxed_opaque_existential_0Tm
++ ___swift_memcpy64_8
++ ___swift_memcpy69_8
++ ___swift_memcpy72_8
++ ___swift_project_boxed_opaque_existential_1Tm
++ _associated conformance 15ProximityReader11CRUIPrefKeyOSHAASQ
++ _associated conformance 15ProximityReader11CountryCodeOSHAASQ
++ _associated conformance 15ProximityReader13DaemonPrefKeyOSHAASQ
++ _associated conformance 15ProximityReader20StoreAndForwardBatchV10CodingKeys33_53902CFC445BFE67464B42AAF55D7A0CLLOSHAASQ
++ _associated conformance 15ProximityReader20StoreAndForwardBatchV10CodingKeys33_53902CFC445BFE67464B42AAF55D7A0CLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 15ProximityReader20StoreAndForwardBatchV10CodingKeys33_53902CFC445BFE67464B42AAF55D7A0CLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 15ProximityReader20StoreAndForwardBatchV27StoredPaymentCardReadResultV10CodingKeys33_53902CFC445BFE67464B42AAF55D7A0CLLOSHAASQ
++ _associated conformance 15ProximityReader20StoreAndForwardBatchV27StoredPaymentCardReadResultV10CodingKeys33_53902CFC445BFE67464B42AAF55D7A0CLLOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 15ProximityReader20StoreAndForwardBatchV27StoredPaymentCardReadResultV10CodingKeys33_53902CFC445BFE67464B42AAF55D7A0CLLOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 15ProximityReader20StoreAndForwardBatchV27StoredPaymentCardReadResultVs12IdentifiableAA2IDsAFP_SH
++ _associated conformance 15ProximityReader20StoreAndForwardBatchVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 15ProximityReader21PaymentCardReadResultV0D14EffectiveStateOSHAASQ
++ _associated conformance 15ProximityReader21PaymentCardReadResultV0D15ExpirationStateOSHAASQ
++ _associated conformance 15ProximityReader21StoreAndForwardStatusVSHAASQ
++ _associated conformance 15ProximityReader33StoreAndForwardBatchDeletionTokenVSHAASQ
++ _flat unique 19ProximityReaderCore08IdentityB16ServiceInterface_p
++ _flat unique 19ProximityReaderCore31PaymentTerminalServiceInterface_p
++ _flat unique 19ProximityReaderCore31PaymentTerminalStorageInterface_p
++ _objc_retain_x27
++ _swift_continuation_throwingResume
++ _swift_continuation_throwingResumeWithError
++ _swift_dynamicCastClass
++ _symbolic IeAgH_
++ _symbolic IeghH_
++ _symbolic IeyB_
++ _symbolic Say_____G 15ProximityReader20StoreAndForwardBatchV27StoredPaymentCardReadResultV
++ _symbolic ScCySDySSypG______pG s5ErrorP
++ _symbolic ScCySS______pG s5ErrorP
++ _symbolic ScCySi______pG s5ErrorP
++ _symbolic ScCy___________pG 15ProximityReader011PaymentCardB7SessionC s5ErrorP
++ _symbolic ScCy___________pG 15ProximityReader014MobileDocumentB0C13ConfigurationV s5ErrorP
++ _symbolic ScCy___________pG 15ProximityReader014MobileDocumentB7SessionC s5ErrorP
++ _symbolic ScCy___________pG 15ProximityReader20StoreAndForwardBatchV s5ErrorP
++ _symbolic ScCy___________pG 15ProximityReader21StoreAndForwardStatusV s5ErrorP
++ _symbolic ScCy___________pG 19ProximityReaderCore10ReadResultC s5ErrorP
++ _symbolic SccySi______pG s5ErrorP
++ _symbolic Sccy___________pG 19ProximityReaderCore29StoreAndForwardStatusInternalC s5ErrorP
++ _symbolic Sccy___________pG 19ProximityReaderCore34StoreAndForwardBatchHeaderInternalC s5ErrorP
++ _symbolic Sccyyt______pG s5ErrorP
++ _symbolic So14NSXPCInterfaceC
++ _symbolic So7NSArrayC
++ _symbolic _____ 10Foundation4UUIDV
++ _symbolic _____ 15ProximityReader011PaymentCardB10StoreActorC
++ _symbolic _____ 15ProximityReader011PaymentCardB5StoreV
++ _symbolic _____ 15ProximityReader011PaymentCardB5StoreV0E5ErrorO
++ _symbolic _____ 15ProximityReader026StoreAndForwardPaymentCardB7SessionC
++ _symbolic _____ 15ProximityReader11CRUIPrefKeyO
++ _symbolic _____ 15ProximityReader11CountryCodeO
++ _symbolic _____ 15ProximityReader12BatchBuilderC
++ _symbolic _____ 15ProximityReader13DaemonPrefKeyO
++ _symbolic _____ 15ProximityReader20StoreAndForwardBatchV
++ _symbolic _____ 15ProximityReader20StoreAndForwardBatchV10CodingKeys33_53902CFC445BFE67464B42AAF55D7A0CLLO
++ _symbolic _____ 15ProximityReader20StoreAndForwardBatchV27StoredPaymentCardReadResultV
++ _symbolic _____ 15ProximityReader20StoreAndForwardBatchV27StoredPaymentCardReadResultV10CodingKeys33_53902CFC445BFE67464B42AAF55D7A0CLLO
++ _symbolic _____ 15ProximityReader21PaymentCardReadResultV0D14EffectiveStateO
++ _symbolic _____ 15ProximityReader21PaymentCardReadResultV0D15ExpirationStateO
++ _symbolic _____ 15ProximityReader21StoreAndForwardStatusV
++ _symbolic _____ 15ProximityReader32PaymentReadResultStorageDelegateC
++ _symbolic _____ 15ProximityReader33StoreAndForwardBatchDeletionTokenV
++ _symbolic _____ 15ProximityReader6CommonV
++ _symbolic _____ 19ProximityReaderCore10CRSignpostV
++ _symbolic _____ 19ProximityReaderCore19InternalSessionTypeO
++ _symbolic _____ 19ProximityReaderCore20ReadFeedbackInternalO
++ _symbolic _____ 19ProximityReaderCore29MobileDocumentElementInternalO
++ _symbolic _____ 19ProximityReaderCore39MobileDriversLicenseViewOptionsInternalC14ValidationModeO
++ _symbolic _____Iegn_ 15ProximityReader011PaymentCardB0C11UpdateEventO
++ _symbolic _____Sg 15ProximityReader21PaymentCardReadResultV0D14EffectiveStateO
++ _symbolic _____Sg 15ProximityReader21PaymentCardReadResultV0D15ExpirationStateO
++ _symbolic _____Sg 19ProximityReaderCore04CardB13ErrorInternalC
++ _symbolic _____Sg 19ProximityReaderCore08IdentityB13ErrorInternalV
++ _symbolic _____Sg 19ProximityReaderCore11CurrencyDefV
++ _symbolic _____Sg 19ProximityReaderCore34StoreAndForwardBatchHeaderInternalC
++ _symbolic _____Sg 19ProximityReaderCore40MobileDriversLicenseDataResponseInternalC16DocumentElementsV16IssuingAuthorityV
++ _symbolic _____Sg 19ProximityReaderCore40MobileDriversLicenseDataResponseInternalC16DocumentElementsV19DHSComplianceStatusO
++ _symbolic _____Sg 19ProximityReaderCore40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV12VehicleClassV
++ _symbolic _____Sg 19ProximityReaderCore40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO
++ _symbolic _____Sg 19ProximityReaderCore40MobileDriversLicenseDataResponseInternalC16DocumentElementsV7AddressV
++ _symbolic ___________6amountSi8paymentst 19ProximityReaderCore20PaymentCycleInternalO So9NSDecimala
++ _symbolic ______p 19ProximityReaderCore08IdentityB16ServiceInterfaceP
++ _symbolic ______p 19ProximityReaderCore31PaymentTerminalServiceInterfaceP
++ _symbolic ______p 19ProximityReaderCore31PaymentTerminalStorageInterfaceP
++ _symbolic ______pScCySi______pGIegHgn_ 19ProximityReaderCore31PaymentTerminalStorageInterfaceP s5ErrorP
++ _symbolic ______pScCy___________pGIegHgn_ 19ProximityReaderCore31PaymentTerminalServiceInterfaceP 0aB021StoreAndForwardStatusV s5ErrorP
++ _symbolic ______pScCy___________pGIegHgn_ 19ProximityReaderCore31PaymentTerminalStorageInterfaceP 0aB020StoreAndForwardBatchV s5ErrorP
++ _symbolic ______pScCyyt______pGIegHgn_ 19ProximityReaderCore31PaymentTerminalServiceInterfaceP s5ErrorP
++ _symbolic ______pScCyyt______pGIegHgn_ 19ProximityReaderCore31PaymentTerminalStorageInterfaceP s5ErrorP
++ _symbolic ______pSg 19ProximityReaderCore08IdentityB16ServiceInterfaceP
++ _symbolic _____m 19ProximityReaderCore33StoreAndForwardReadResultInternalC
++ _symbolic _____ySDy__________GG 2os21OSAllocatedUnfairLockV 10Foundation4UUIDV 15ProximityReader12BatchBuilderC
++ _symbolic _____ySDy__________G_____G s13ManagedBufferCsRi__rlE 10Foundation4UUIDV 15ProximityReader12BatchBuilderC So16os_unfair_lock_sV
++ _symbolic _____y_____G s11_SetStorageC s11AnyHashableV
++ _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader20StoreAndForwardBatchV10CodingKeys33_53902CFC445BFE67464B42AAF55D7A0CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader20StoreAndForwardBatchV27StoredPaymentCardReadResultV10CodingKeys33_53902CFC445BFE67464B42AAF55D7A0CLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 15ProximityReader20StoreAndForwardBatchV27StoredPaymentCardReadResultV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 19ProximityReaderCore29MobileDocumentElementInternalO
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 15ProximityReader12BatchBuilderC
++ _symbolic _____y______pG 19ProximityReaderCore30UncheckedSendableXPCConnectionV AA08IdentityB16ServiceInterfaceP
++ _symbolic _____y______pG 19ProximityReaderCore30UncheckedSendableXPCConnectionV AA31PaymentTerminalStorageInterfaceP
++ block_copy_helper.102
++ block_copy_helper.119
++ block_copy_helper.125
++ block_copy_helper.171
++ block_copy_helper.184
++ block_copy_helper.196
++ block_copy_helper.204
++ block_copy_helper.210
++ block_copy_helper.216
++ block_copy_helper.230
++ block_copy_helper.236
++ block_copy_helper.248
++ block_copy_helper.254
++ block_copy_helper.260
++ block_copy_helper.266
++ block_copy_helper.285
++ block_copy_helper.291
++ block_copy_helper.299
++ block_copy_helper.307
++ block_copy_helper.313
++ block_copy_helper.321
++ block_copy_helper.332
++ block_copy_helper.339
++ block_copy_helper.55
++ block_copy_helper.61
++ block_copy_helper.67
++ block_copy_helper.73
++ block_copy_helper.79
++ block_copy_helper.88
++ block_copy_helper.91
++ block_copy_helper.97
++ block_descriptor.104
++ block_descriptor.121
++ block_descriptor.127
++ block_descriptor.173
++ block_descriptor.186
++ block_descriptor.198
++ block_descriptor.206
++ block_descriptor.212
++ block_descriptor.218
++ block_descriptor.232
++ block_descriptor.238
++ block_descriptor.250
++ block_descriptor.256
++ block_descriptor.262
++ block_descriptor.268
++ block_descriptor.287
++ block_descriptor.293
++ block_descriptor.301
++ block_descriptor.309
++ block_descriptor.315
++ block_descriptor.323
++ block_descriptor.334
++ block_descriptor.341
++ block_descriptor.57
++ block_descriptor.63
++ block_descriptor.69
++ block_descriptor.75
++ block_descriptor.81
++ block_descriptor.90
++ block_descriptor.93
++ block_descriptor.99
++ block_destroy_helper.103
++ block_destroy_helper.120
++ block_destroy_helper.126
++ block_destroy_helper.172
++ block_destroy_helper.185
++ block_destroy_helper.197
++ block_destroy_helper.205
++ block_destroy_helper.211
++ block_destroy_helper.217
++ block_destroy_helper.231
++ block_destroy_helper.237
++ block_destroy_helper.249
++ block_destroy_helper.255
++ block_destroy_helper.261
++ block_destroy_helper.267
++ block_destroy_helper.286
++ block_destroy_helper.292
++ block_destroy_helper.300
++ block_destroy_helper.308
++ block_destroy_helper.314
++ block_destroy_helper.322
++ block_destroy_helper.333
++ block_destroy_helper.340
++ block_destroy_helper.56
++ block_destroy_helper.62
++ block_destroy_helper.68
++ block_destroy_helper.74
++ block_destroy_helper.80
++ block_destroy_helper.89
++ block_destroy_helper.92
++ block_destroy_helper.98
++ objectdestroy.169Tm
++ objectdestroy.175Tm
++ objectdestroy.214Tm
++ objectdestroy.25Tm
++ objectdestroy.28Tm
++ objectdestroy.33Tm
++ objectdestroy.48Tm
++ objectdestroy.68Tm
+- _CFPreferencesGetAppBooleanValue
+- _CFRunLoopAddSource
+- _CFRunLoopGetMain
+- _CFUserNotificationCreate
+- _CFUserNotificationCreateRunLoopSource
+- _CFUserNotificationDisplayAlert
+- _CFUserNotificationDisplayNotice
+- _CPSharedResourcesDirectory
+- _NSFileProtectionComplete
+- _NSFileProtectionKey
+- _NSHomeDirectory
+- _OBJC_CLASS_$_ACAccountStore
+- _OBJC_CLASS_$_LAContext
+- _OBJC_CLASS_$_LSApplicationWorkspace
+- _OBJC_CLASS_$_NSArray
+- _OBJC_CLASS_$_NSData
+- _OBJC_CLASS_$_NSDate
+- _OBJC_CLASS_$_NSFileManager
+- _OBJC_CLASS_$_NSHTTPURLResponse
+- _OBJC_CLASS_$_NSISO8601DateFormatter
+- _OBJC_CLASS_$_NSJSONSerialization
+- _OBJC_CLASS_$_NSKeyedArchiver
+- _OBJC_CLASS_$_NSKeyedUnarchiver
+- _OBJC_CLASS_$_NSOrderedSet
+- _OBJC_CLASS_$_NSProcessInfo
+- _OBJC_CLASS_$_NSURLSession
+- _OBJC_CLASS_$_OS_os_log
+- _OBJC_CLASS_$_RTCReporting
+- _OBJC_CLASS_$_TUCallCenter
+- _OBJC_CLASS_$_UIDevice
+- _OBJC_CLASS_$__TtC15ProximityReader10ReadResult
+- _OBJC_CLASS_$__TtC15ProximityReader11AccountAuth
+- _OBJC_CLASS_$__TtC15ProximityReader12VASReadEntry
+- _OBJC_CLASS_$__TtC15ProximityReader15InternalOptions
+- _OBJC_CLASS_$__TtC15ProximityReader16PINConfiguration
+- _OBJC_CLASS_$__TtC15ProximityReader19IdentityInformation
+- _OBJC_CLASS_$__TtC15ProximityReader19TransactionInternal
+- _OBJC_CLASS_$__TtC15ProximityReader19VASMerchantInternal
+- _OBJC_CLASS_$__TtC15ProximityReader21VASResultArrayWrapper
+- _OBJC_CLASS_$__TtC15ProximityReader23CardReaderErrorInternal
+- _OBJC_CLASS_$__TtC15ProximityReader29IdentityConfigurationInternal
+- _OBJC_CLASS_$__TtC15ProximityReader29StoreAndForwardStatusInternal
+- _OBJC_CLASS_$__TtC15ProximityReader37StoreAndForwardValidationDataInternal
+- _OBJC_CLASS_$__TtC15ProximityReader39MobileDriversLicenseDataRequestInternal
+- _OBJC_CLASS_$__TtC15ProximityReader39MobileDriversLicenseReadRequestInternal
+- _OBJC_CLASS_$__TtC15ProximityReader39MobileDriversLicenseViewOptionsInternal
+- _OBJC_CLASS_$__TtC15ProximityReader39MobileDriversLicenseViewRequestInternal
+- _OBJC_CLASS_$__TtC15ProximityReader40MobileDriversLicenseDataResponseInternal
+- _OBJC_CLASS_$__TtC15ProximityReader40MobileDriversLicenseReadResponseInternal
+- _OBJC_CLASS_$__TtC15ProximityReader40MobileDriversLicenseViewResponseInternal
+- _OBJC_CLASS_$__TtC15ProximityReader7PINData
+- _OBJC_METACLASS_$__TtC15ProximityReader10ReadResult
+- _OBJC_METACLASS_$__TtC15ProximityReader11AccountAuth
+- _OBJC_METACLASS_$__TtC15ProximityReader12VASReadEntry
+- _OBJC_METACLASS_$__TtC15ProximityReader15InternalOptions
+- _OBJC_METACLASS_$__TtC15ProximityReader16PINConfiguration
+- _OBJC_METACLASS_$__TtC15ProximityReader19IdentityInformation
+- _OBJC_METACLASS_$__TtC15ProximityReader19TransactionInternal
+- _OBJC_METACLASS_$__TtC15ProximityReader19VASMerchantInternal
+- _OBJC_METACLASS_$__TtC15ProximityReader21VASResultArrayWrapper
+- _OBJC_METACLASS_$__TtC15ProximityReader23CardReaderErrorInternal
+- _OBJC_METACLASS_$__TtC15ProximityReader29IdentityConfigurationInternal
+- _OBJC_METACLASS_$__TtC15ProximityReader29StoreAndForwardStatusInternal
+- _OBJC_METACLASS_$__TtC15ProximityReader37StoreAndForwardValidationDataInternal
+- _OBJC_METACLASS_$__TtC15ProximityReader39MobileDriversLicenseDataRequestInternal
+- _OBJC_METACLASS_$__TtC15ProximityReader39MobileDriversLicenseReadRequestInternal
+- _OBJC_METACLASS_$__TtC15ProximityReader39MobileDriversLicenseViewOptionsInternal
+- _OBJC_METACLASS_$__TtC15ProximityReader39MobileDriversLicenseViewRequestInternal
+- _OBJC_METACLASS_$__TtC15ProximityReader40MobileDriversLicenseDataResponseInternal
+- _OBJC_METACLASS_$__TtC15ProximityReader40MobileDriversLicenseReadResponseInternal
+- _OBJC_METACLASS_$__TtC15ProximityReader40MobileDriversLicenseViewResponseInternal
+- _OBJC_METACLASS_$__TtC15ProximityReader7PINData
+- _PROTOCOLS__TtC15ProximityReader10ReadResult.3
+- _PROTOCOLS__TtC15ProximityReader11AccountAuth.2
+- _PROTOCOLS__TtC15ProximityReader12VASReadEntry.2
+- _PROTOCOLS__TtC15ProximityReader15InternalOptions.2
+- _PROTOCOLS__TtC15ProximityReader16PINConfiguration.2
+- _PROTOCOLS__TtC15ProximityReader19TransactionInternal.2
+- _PROTOCOLS__TtC15ProximityReader19VASMerchantInternal.2
+- _PROTOCOLS__TtC15ProximityReader21VASResultArrayWrapper.8
+- _PROTOCOLS__TtC15ProximityReader23CardReaderErrorInternal.2
+- _PROTOCOLS__TtC15ProximityReader25PaymentCardReaderDelegate.61
+- _PROTOCOLS__TtC15ProximityReader29StoreAndForwardStatusInternal.2
+- _PROTOCOLS__TtC15ProximityReader37StoreAndForwardValidationDataInternal.2
+- _PROTOCOLS__TtC15ProximityReader39MobileDriversLicenseDataRequestInternal.2
+- _PROTOCOLS__TtC15ProximityReader39MobileDriversLicenseReadRequestInternal.2
+- _PROTOCOLS__TtC15ProximityReader39MobileDriversLicenseViewRequestInternal.11
+- _PROTOCOLS__TtC15ProximityReader7PINData.2
+- _SecTaskCopyValueForEntitlement
+- _SecTaskCreateFromSelf
+- __CLASS_METHODS__TtC15ProximityReader10ReadResult
+- __CLASS_METHODS__TtC15ProximityReader11AccountAuth
+- __CLASS_METHODS__TtC15ProximityReader12VASReadEntry
+- __CLASS_METHODS__TtC15ProximityReader15InternalOptions
+- __CLASS_METHODS__TtC15ProximityReader16PINConfiguration
+- __CLASS_METHODS__TtC15ProximityReader19TransactionInternal
+- __CLASS_METHODS__TtC15ProximityReader19VASMerchantInternal
+- __CLASS_METHODS__TtC15ProximityReader21VASResultArrayWrapper
+- __CLASS_METHODS__TtC15ProximityReader23CardReaderErrorInternal
+- __CLASS_METHODS__TtC15ProximityReader29StoreAndForwardStatusInternal
+- __CLASS_METHODS__TtC15ProximityReader37StoreAndForwardValidationDataInternal
+- __CLASS_METHODS__TtC15ProximityReader39MobileDriversLicenseDataRequestInternal
+- __CLASS_METHODS__TtC15ProximityReader39MobileDriversLicenseReadRequestInternal
+- __CLASS_METHODS__TtC15ProximityReader39MobileDriversLicenseViewRequestInternal
+- __CLASS_METHODS__TtC15ProximityReader7PINData
+- __CLASS_PROPERTIES__TtC15ProximityReader10ReadResult
+- __CLASS_PROPERTIES__TtC15ProximityReader11AccountAuth
+- __CLASS_PROPERTIES__TtC15ProximityReader12VASReadEntry
+- __CLASS_PROPERTIES__TtC15ProximityReader15InternalOptions
+- __CLASS_PROPERTIES__TtC15ProximityReader16PINConfiguration
+- __CLASS_PROPERTIES__TtC15ProximityReader19TransactionInternal
+- __CLASS_PROPERTIES__TtC15ProximityReader19VASMerchantInternal
+- __CLASS_PROPERTIES__TtC15ProximityReader21VASResultArrayWrapper
+- __CLASS_PROPERTIES__TtC15ProximityReader23CardReaderErrorInternal
+- __CLASS_PROPERTIES__TtC15ProximityReader29StoreAndForwardStatusInternal
+- __CLASS_PROPERTIES__TtC15ProximityReader37StoreAndForwardValidationDataInternal
+- __CLASS_PROPERTIES__TtC15ProximityReader39MobileDriversLicenseDataRequestInternal
+- __CLASS_PROPERTIES__TtC15ProximityReader39MobileDriversLicenseReadRequestInternal
+- __CLASS_PROPERTIES__TtC15ProximityReader39MobileDriversLicenseViewRequestInternal
+- __CLASS_PROPERTIES__TtC15ProximityReader7PINData
+- __DATA__TtC15ProximityReader10ReadResult
+- __DATA__TtC15ProximityReader11AccountAuth
+- __DATA__TtC15ProximityReader11LogoManager
+- __DATA__TtC15ProximityReader12LocaleHelper
+- __DATA__TtC15ProximityReader12VASReadEntry
+- __DATA__TtC15ProximityReader14AnalyticsCache
+- __DATA__TtC15ProximityReader15InternalOptions
+- __DATA__TtC15ProximityReader16PINConfiguration
+- __DATA__TtC15ProximityReader19BaselineErrorDialog
+- __DATA__TtC15ProximityReader19CurrencyDefinitions
+- __DATA__TtC15ProximityReader19IdentityInformation
+- __DATA__TtC15ProximityReader19TransactionInternal
+- __DATA__TtC15ProximityReader19VASMerchantInternal
+- __DATA__TtC15ProximityReader21VASResultArrayWrapper
+- __DATA__TtC15ProximityReader23CardReaderErrorInternal
+- __DATA__TtC15ProximityReader29IdentityConfigurationInternal
+- __DATA__TtC15ProximityReader29StoreAndForwardStatusInternal
+- __DATA__TtC15ProximityReader37StoreAndForwardValidationDataInternal
+- __DATA__TtC15ProximityReader39MobileDriversLicenseDataRequestInternal
+- __DATA__TtC15ProximityReader39MobileDriversLicenseReadRequestInternal
+- __DATA__TtC15ProximityReader39MobileDriversLicenseViewOptionsInternal
+- __DATA__TtC15ProximityReader39MobileDriversLicenseViewRequestInternal
+- __DATA__TtC15ProximityReader40MobileDriversLicenseDataResponseInternal
+- __DATA__TtC15ProximityReader40MobileDriversLicenseReadResponseInternal
+- __DATA__TtC15ProximityReader40MobileDriversLicenseViewResponseInternal
+- __DATA__TtC15ProximityReader7PINData
+- __DATA__TtC15ProximityReader9Utilities
+- __DATA__TtC15ProximityReaderP33_3716CC6506213A5054A49C8E0F33F1E322AutoBugCaptureReporter
+- __INSTANCE_METHODS__TtC15ProximityReader10ReadResult
+- __INSTANCE_METHODS__TtC15ProximityReader11AccountAuth
+- __INSTANCE_METHODS__TtC15ProximityReader12VASReadEntry
+- __INSTANCE_METHODS__TtC15ProximityReader15InternalOptions
+- __INSTANCE_METHODS__TtC15ProximityReader16PINConfiguration
+- __INSTANCE_METHODS__TtC15ProximityReader19TransactionInternal
+- __INSTANCE_METHODS__TtC15ProximityReader19VASMerchantInternal
+- __INSTANCE_METHODS__TtC15ProximityReader21VASResultArrayWrapper
+- __INSTANCE_METHODS__TtC15ProximityReader23CardReaderErrorInternal
+- __INSTANCE_METHODS__TtC15ProximityReader29StoreAndForwardStatusInternal
+- __INSTANCE_METHODS__TtC15ProximityReader37StoreAndForwardValidationDataInternal
+- __INSTANCE_METHODS__TtC15ProximityReader39MobileDriversLicenseDataRequestInternal
+- __INSTANCE_METHODS__TtC15ProximityReader39MobileDriversLicenseReadRequestInternal
+- __INSTANCE_METHODS__TtC15ProximityReader39MobileDriversLicenseViewOptionsInternal
+- __INSTANCE_METHODS__TtC15ProximityReader39MobileDriversLicenseViewRequestInternal
+- __INSTANCE_METHODS__TtC15ProximityReader7PINData
+- __IVARS__TtC15ProximityReader10ReadResult
+- __IVARS__TtC15ProximityReader11AccountAuth
+- __IVARS__TtC15ProximityReader11LogoManager
+- __IVARS__TtC15ProximityReader12VASReadEntry
+- __IVARS__TtC15ProximityReader14AnalyticsCache
+- __IVARS__TtC15ProximityReader14TaskSerializer
+- __IVARS__TtC15ProximityReader15InternalOptions
+- __IVARS__TtC15ProximityReader16PINConfiguration
+- __IVARS__TtC15ProximityReader19BaselineErrorDialog
+- __IVARS__TtC15ProximityReader19IdentityInformation
+- __IVARS__TtC15ProximityReader19TransactionInternal
+- __IVARS__TtC15ProximityReader19VASMerchantInternal
+- __IVARS__TtC15ProximityReader21VASResultArrayWrapper
+- __IVARS__TtC15ProximityReader23CardReaderErrorInternal
+- __IVARS__TtC15ProximityReader29IdentityConfigurationInternal
+- __IVARS__TtC15ProximityReader29StoreAndForwardStatusInternal
+- __IVARS__TtC15ProximityReader37StoreAndForwardValidationDataInternal
+- __IVARS__TtC15ProximityReader39MobileDriversLicenseDataRequestInternal
+- __IVARS__TtC15ProximityReader39MobileDriversLicenseReadRequestInternal
+- __IVARS__TtC15ProximityReader39MobileDriversLicenseViewOptionsInternal
+- __IVARS__TtC15ProximityReader39MobileDriversLicenseViewRequestInternal
+- __IVARS__TtC15ProximityReader40MobileDriversLicenseDataResponseInternal
+- __IVARS__TtC15ProximityReader40MobileDriversLicenseReadResponseInternal
+- __IVARS__TtC15ProximityReader40MobileDriversLicenseViewResponseInternal
+- __IVARS__TtC15ProximityReader7PINData
+- __METACLASS_DATA__TtC15ProximityReader10ReadResult
+- __METACLASS_DATA__TtC15ProximityReader11AccountAuth
+- __METACLASS_DATA__TtC15ProximityReader11LogoManager
+- __METACLASS_DATA__TtC15ProximityReader12LocaleHelper
+- __METACLASS_DATA__TtC15ProximityReader12VASReadEntry
+- __METACLASS_DATA__TtC15ProximityReader14AnalyticsCache
+- __METACLASS_DATA__TtC15ProximityReader15InternalOptions
+- __METACLASS_DATA__TtC15ProximityReader16PINConfiguration
+- __METACLASS_DATA__TtC15ProximityReader19BaselineErrorDialog
+- __METACLASS_DATA__TtC15ProximityReader19CurrencyDefinitions
+- __METACLASS_DATA__TtC15ProximityReader19IdentityInformation
+- __METACLASS_DATA__TtC15ProximityReader19TransactionInternal
+- __METACLASS_DATA__TtC15ProximityReader19VASMerchantInternal
+- __METACLASS_DATA__TtC15ProximityReader21VASResultArrayWrapper
+- __METACLASS_DATA__TtC15ProximityReader23CardReaderErrorInternal
+- __METACLASS_DATA__TtC15ProximityReader29IdentityConfigurationInternal
+- __METACLASS_DATA__TtC15ProximityReader29StoreAndForwardStatusInternal
+- __METACLASS_DATA__TtC15ProximityReader37StoreAndForwardValidationDataInternal
+- __METACLASS_DATA__TtC15ProximityReader39MobileDriversLicenseDataRequestInternal
+- __METACLASS_DATA__TtC15ProximityReader39MobileDriversLicenseReadRequestInternal
+- __METACLASS_DATA__TtC15ProximityReader39MobileDriversLicenseViewOptionsInternal
+- __METACLASS_DATA__TtC15ProximityReader39MobileDriversLicenseViewRequestInternal
+- __METACLASS_DATA__TtC15ProximityReader40MobileDriversLicenseDataResponseInternal
+- __METACLASS_DATA__TtC15ProximityReader40MobileDriversLicenseReadResponseInternal
+- __METACLASS_DATA__TtC15ProximityReader40MobileDriversLicenseViewResponseInternal
+- __METACLASS_DATA__TtC15ProximityReader7PINData
+- __METACLASS_DATA__TtC15ProximityReader9Utilities
+- __METACLASS_DATA__TtC15ProximityReaderP33_3716CC6506213A5054A49C8E0F33F1E322AutoBugCaptureReporter
+- __OBJC_$_CLASS_METHODS__TtC15ProximityReader19IdentityInformation(ProximityReader)
+- __OBJC_$_CLASS_METHODS__TtC15ProximityReader29IdentityConfigurationInternal(ProximityReader)
+- __OBJC_$_CLASS_METHODS__TtC15ProximityReader40MobileDriversLicenseDataResponseInternal(ProximityReader)
+- __OBJC_$_CLASS_METHODS__TtC15ProximityReader40MobileDriversLicenseReadResponseInternal(ProximityReader)
+- __OBJC_$_CLASS_METHODS__TtC15ProximityReader40MobileDriversLicenseViewResponseInternal(ProximityReader)
+- __OBJC_$_CLASS_PROP_LIST_NSSecureCoding
+- __OBJC_$_INSTANCE_METHODS__TtC15ProximityReader19IdentityInformation(ProximityReader)
+- __OBJC_$_INSTANCE_METHODS__TtC15ProximityReader29IdentityConfigurationInternal(ProximityReader)
+- __OBJC_$_INSTANCE_METHODS__TtC15ProximityReader40MobileDriversLicenseDataResponseInternal(ProximityReader)
+- __OBJC_$_INSTANCE_METHODS__TtC15ProximityReader40MobileDriversLicenseReadResponseInternal(ProximityReader)
+- __OBJC_$_INSTANCE_METHODS__TtC15ProximityReader40MobileDriversLicenseViewResponseInternal(ProximityReader)
+- __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding
+- __OBJC_$_PROTOCOL_REFS_NSSecureCoding
+- __OBJC_CLASS_PROTOCOLS_$__TtC15ProximityReader19IdentityInformation(ProximityReader)
+- __OBJC_CLASS_PROTOCOLS_$__TtC15ProximityReader29IdentityConfigurationInternal(ProximityReader)
+- __OBJC_CLASS_PROTOCOLS_$__TtC15ProximityReader40MobileDriversLicenseDataResponseInternal(ProximityReader)
+- __OBJC_CLASS_PROTOCOLS_$__TtC15ProximityReader40MobileDriversLicenseReadResponseInternal(ProximityReader)
+- __OBJC_CLASS_PROTOCOLS_$__TtC15ProximityReader40MobileDriversLicenseViewResponseInternal(ProximityReader)
+- __OBJC_LABEL_PROTOCOL_$_NSCoding
+- __OBJC_LABEL_PROTOCOL_$_NSSecureCoding
+- __OBJC_PROTOCOL_$_NSCoding
+- __OBJC_PROTOCOL_$_NSSecureCoding
+- __PROPERTIES__TtC15ProximityReader19TransactionInternal
+- __PROPERTIES__TtC15ProximityReader23CardReaderErrorInternal
+- __PROPERTIES__TtC15ProximityReader39MobileDriversLicenseDataRequestInternal
+- __PROPERTIES__TtC15ProximityReader39MobileDriversLicenseReadRequestInternal
+- __PROPERTIES__TtC15ProximityReader39MobileDriversLicenseViewOptionsInternal
+- __PROPERTIES__TtC15ProximityReader39MobileDriversLicenseViewRequestInternal
+- __PROTOCOLS__TtC15ProximityReader10ReadResult
+- __PROTOCOLS__TtC15ProximityReader11AccountAuth
+- __PROTOCOLS__TtC15ProximityReader12VASReadEntry
+- __PROTOCOLS__TtC15ProximityReader15InternalOptions
+- __PROTOCOLS__TtC15ProximityReader16PINConfiguration
+- __PROTOCOLS__TtC15ProximityReader19TransactionInternal
+- __PROTOCOLS__TtC15ProximityReader19VASMerchantInternal
+- __PROTOCOLS__TtC15ProximityReader21VASResultArrayWrapper
+- __PROTOCOLS__TtC15ProximityReader23CardReaderErrorInternal
+- __PROTOCOLS__TtC15ProximityReader29StoreAndForwardStatusInternal
+- __PROTOCOLS__TtC15ProximityReader37StoreAndForwardValidationDataInternal
+- __PROTOCOLS__TtC15ProximityReader39MobileDriversLicenseDataRequestInternal
+- __PROTOCOLS__TtC15ProximityReader39MobileDriversLicenseReadRequestInternal
+- __PROTOCOLS__TtC15ProximityReader39MobileDriversLicenseViewRequestInternal
+- __PROTOCOLS__TtC15ProximityReader7PINData
+- __PROTOCOL_INSTANCE_METHODS__TtP15ProximityReader10IdentityUI_
+- __PROTOCOL_INSTANCE_METHODS__TtP15ProximityReader13PINUIDelegate_
+- __PROTOCOL_INSTANCE_METHODS__TtP15ProximityReader13RegUIDelegate_
+- __PROTOCOL_INSTANCE_METHODS__TtP15ProximityReader13TapUIDelegate_
+- __PROTOCOL_INSTANCE_METHODS__TtP15ProximityReader18IdentityUIDelegate_
+- __PROTOCOL_INSTANCE_METHODS__TtP15ProximityReader22IdentityRegistrationUI_
+- __PROTOCOL_INSTANCE_METHODS__TtP15ProximityReader23ForegroundStateObserver_
+- __PROTOCOL_INSTANCE_METHODS__TtP15ProximityReader25DiscoveryServiceInterface_
+- __PROTOCOL_INSTANCE_METHODS__TtP15ProximityReader30IdentityReaderServiceInterface_
+- __PROTOCOL_INSTANCE_METHODS__TtP15ProximityReader30IdentityRegistrationUIDelegate_
+- __PROTOCOL_INSTANCE_METHODS__TtP15ProximityReader30PaymentTerminalServiceDelegate_
+- __PROTOCOL_INSTANCE_METHODS__TtP15ProximityReader31PaymentTerminalServiceInterface_
+- __PROTOCOL_INSTANCE_METHODS__TtP15ProximityReader5PINUI_
+- __PROTOCOL_INSTANCE_METHODS__TtP15ProximityReader5RegUI_
+- __PROTOCOL_INSTANCE_METHODS__TtP15ProximityReader5TapUI_
+- __PROTOCOL_METHOD_TYPES__TtP15ProximityReader10IdentityUI_
+- __PROTOCOL_METHOD_TYPES__TtP15ProximityReader13PINUIDelegate_
+- __PROTOCOL_METHOD_TYPES__TtP15ProximityReader13RegUIDelegate_
+- __PROTOCOL_METHOD_TYPES__TtP15ProximityReader13TapUIDelegate_
+- __PROTOCOL_METHOD_TYPES__TtP15ProximityReader18IdentityUIDelegate_
+- __PROTOCOL_METHOD_TYPES__TtP15ProximityReader22IdentityRegistrationUI_
+- __PROTOCOL_METHOD_TYPES__TtP15ProximityReader23ForegroundStateObserver_
+- __PROTOCOL_METHOD_TYPES__TtP15ProximityReader25DiscoveryServiceInterface_
+- __PROTOCOL_METHOD_TYPES__TtP15ProximityReader30IdentityReaderServiceInterface_
+- __PROTOCOL_METHOD_TYPES__TtP15ProximityReader30IdentityRegistrationUIDelegate_
+- __PROTOCOL_METHOD_TYPES__TtP15ProximityReader30PaymentTerminalServiceDelegate_
+- __PROTOCOL_METHOD_TYPES__TtP15ProximityReader31PaymentTerminalServiceInterface_
+- __PROTOCOL_METHOD_TYPES__TtP15ProximityReader5PINUI_
+- __PROTOCOL_METHOD_TYPES__TtP15ProximityReader5RegUI_
+- __PROTOCOL_METHOD_TYPES__TtP15ProximityReader5TapUI_
+- __PROTOCOL_PROTOCOLS__TtP15ProximityReader13TransactionUI_
+- __PROTOCOL_PROTOCOLS__TtP15ProximityReader21TransactionUIDelegate_
+- __PROTOCOL__TtP15ProximityReader10IdentityUI_
+- __PROTOCOL__TtP15ProximityReader13PINUIDelegate_
+- __PROTOCOL__TtP15ProximityReader13RegUIDelegate_
+- __PROTOCOL__TtP15ProximityReader13TapUIDelegate_
+- __PROTOCOL__TtP15ProximityReader13TransactionUI_
+- __PROTOCOL__TtP15ProximityReader18IdentityUIDelegate_
+- __PROTOCOL__TtP15ProximityReader21TransactionUIDelegate_
+- __PROTOCOL__TtP15ProximityReader22IdentityRegistrationUI_
+- __PROTOCOL__TtP15ProximityReader23ForegroundStateObserver_
+- __PROTOCOL__TtP15ProximityReader25DiscoveryServiceInterface_
+- __PROTOCOL__TtP15ProximityReader30IdentityReaderServiceInterface_
+- __PROTOCOL__TtP15ProximityReader30IdentityRegistrationUIDelegate_
+- __PROTOCOL__TtP15ProximityReader30PaymentTerminalServiceDelegate_
+- __PROTOCOL__TtP15ProximityReader31PaymentTerminalServiceInterface_
+- __PROTOCOL__TtP15ProximityReader5PINUI_
+- __PROTOCOL__TtP15ProximityReader5RegUI_
+- __PROTOCOL__TtP15ProximityReader5TapUI_
+- ___swift_destroy_boxed_opaque_existential_1
+- ___swift_instantiateGenericMetadata
+- ___swift_memcpy128_8
+- ___swift_memcpy41_8
+- ___swift_memcpy50_8
+- ___swift_memcpy67_8
+- ___swift_project_boxed_opaque_existential_0Tm
+- ___unnamed_1
+- __swiftEmptySetSingleton
+- __swift_FORCE_LOAD_$_swiftAVFoundation
+- __swift_FORCE_LOAD_$_swiftAVFoundation_$_ProximityReader
+- __swift_FORCE_LOAD_$_swiftCompression
+- __swift_FORCE_LOAD_$_swiftCompression_$_ProximityReader
+- __swift_FORCE_LOAD_$_swiftCoreAudio
+- __swift_FORCE_LOAD_$_swiftCoreAudio_$_ProximityReader
+- __swift_FORCE_LOAD_$_swiftCoreLocation
+- __swift_FORCE_LOAD_$_swiftCoreLocation_$_ProximityReader
+- __swift_FORCE_LOAD_$_swiftCoreMIDI
+- __swift_FORCE_LOAD_$_swiftCoreMIDI_$_ProximityReader
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_ProximityReader
+- __swift_FORCE_LOAD_$_swiftCryptoTokenKit
+- __swift_FORCE_LOAD_$_swiftCryptoTokenKit_$_ProximityReader
+- __swift_FORCE_LOAD_$_swiftFileProvider
+- __swift_FORCE_LOAD_$_swiftFileProvider_$_ProximityReader
+- __swift_FORCE_LOAD_$_swiftIntents
+- __swift_FORCE_LOAD_$_swiftIntents_$_ProximityReader
+- __swift_FORCE_LOAD_$_swiftMapKit
+- __swift_FORCE_LOAD_$_swiftMapKit_$_ProximityReader
+- __swift_FORCE_LOAD_$_swiftSceneKit
+- __swift_FORCE_LOAD_$_swiftSceneKit_$_ProximityReader
+- __swift_FORCE_LOAD_$_swiftWebKit
+- __swift_FORCE_LOAD_$_swiftWebKit_$_ProximityReader
+- __swift_stdlib_reportUnimplementedInitializer
+- _associated conformance 15ProximityReader04CardB13ErrorInternalC10Foundation021_ObjectiveCBridgeableD0AAs0D0
+- _associated conformance 15ProximityReader04CardB13ErrorInternalC10Foundation13CustomNSErrorAAs0D0
+- _associated conformance 15ProximityReader04CardB9ErrorTypeOSHAASQ
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV10Foundation021_ObjectiveCBridgeableD0AAs0D0
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV10Foundation13CustomNSErrorAAs0D0
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO07NetworkD10CodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO07NetworkD10CodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO0B17TimeoutCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO0B17TimeoutCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO0b10ConnectionD10CodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO0b10ConnectionD10CodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO10CodingKeys33_0278440CBB9047E200923FE35A12668FLLOSHAASQ
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO10CodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO10CodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO17UnknownCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO17UnknownCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO19CancelledCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO19CancelledCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO20NotAllowedCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO20NotAllowedCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO20SystemBusyCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO20SystemBusyCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO21NfcDisabledCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO21NfcDisabledCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO21NfcOverheatCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO21NfcOverheatCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO22InvalidTokenCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO22InvalidTokenCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO22NotSupportedCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO22NotSupportedCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO24InvalidRequestCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO24InvalidRequestCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO24SessionExpiredCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO24SessionExpiredCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO25InvalidResponseCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO25InvalidResponseCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO26AccountSignedOutCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO26AccountSignedOutCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO26PasscodeDisabledCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO26PasscodeDisabledCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO27BluetoothDisabledCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO27BluetoothDisabledCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO28ServiceUnavailableCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO28ServiceUnavailableCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO31OsVersionNotSupportedCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0K3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO31OsVersionNotSupportedCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0K3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO37ContinuityDisplayNotAllowedCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0K3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO37ContinuityDisplayNotAllowedCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0K3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO37NfcNegotiatedHandoverFailedCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0K3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO37NfcNegotiatedHandoverFailedCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0K3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO38AccountTwoFactorAuthRequiredCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0L3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO38AccountTwoFactorAuthRequiredCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0L3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO46TermsAndConditionsAcceptanceRequiredCodingKeys33_0278440CBB9047E200923FE35A12668FLLOSHAASQ
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO46TermsAndConditionsAcceptanceRequiredCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0L3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeO46TermsAndConditionsAcceptanceRequiredCodingKeys33_0278440CBB9047E200923FE35A12668FLLOs0L3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader08IdentityB13ErrorInternalV4CodeOSHAASQ
+- _associated conformance 15ProximityReader11FeatureFlagOSHAASQ
+- _associated conformance 15ProximityReader11VASProtocolOSHAASQ
+- _associated conformance 15ProximityReader13SessionStatusOSHAASQ
+- _associated conformance 15ProximityReader14AnalyticsErrorOSHAASQ
+- _associated conformance 15ProximityReader14XPCUserInfoKeyOSHAASQ
+- _associated conformance 15ProximityReader15ContentInternalV10CodingKeys33_EDB9054EF000ED6A8CD319BF83BDEB77LLOSHAASQ
+- _associated conformance 15ProximityReader15ContentInternalV10CodingKeys33_EDB9054EF000ED6A8CD319BF83BDEB77LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader15ContentInternalV10CodingKeys33_EDB9054EF000ED6A8CD319BF83BDEB77LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader15ContentInternalVSHAASQ
+- _associated conformance 15ProximityReader15IdentityUIEventOSHAASQ
+- _associated conformance 15ProximityReader15MerchantDetailsV10CodingKeys33_AC3CC92B33A46FA47889C110393A91DELLOSHAASQ
+- _associated conformance 15ProximityReader15MerchantDetailsV10CodingKeys33_AC3CC92B33A46FA47889C110393A91DELLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader15MerchantDetailsV10CodingKeys33_AC3CC92B33A46FA47889C110393A91DELLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader15PINSessionEventOSHAASQ
+- _associated conformance 15ProximityReader16IdentityUIButtonOSHAASQ
+- _associated conformance 15ProximityReader16RegistrationTypeO10CodingKeys33_9EDAB0EBF86BD6D60A73766762CAA0B5LLOSHAASQ
+- _associated conformance 15ProximityReader16RegistrationTypeO10CodingKeys33_9EDAB0EBF86BD6D60A73766762CAA0B5LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader16RegistrationTypeO10CodingKeys33_9EDAB0EBF86BD6D60A73766762CAA0B5LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader16RegistrationTypeO18IdentityCodingKeys33_9EDAB0EBF86BD6D60A73766762CAA0B5LLOSHAASQ
+- _associated conformance 15ProximityReader16RegistrationTypeO18IdentityCodingKeys33_9EDAB0EBF86BD6D60A73766762CAA0B5LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader16RegistrationTypeO18IdentityCodingKeys33_9EDAB0EBF86BD6D60A73766762CAA0B5LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader16RegistrationTypeO18TapToPayCodingKeys33_9EDAB0EBF86BD6D60A73766762CAA0B5LLOSHAASQ
+- _associated conformance 15ProximityReader16RegistrationTypeO18TapToPayCodingKeys33_9EDAB0EBF86BD6D60A73766762CAA0B5LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader16RegistrationTypeO18TapToPayCodingKeys33_9EDAB0EBF86BD6D60A73766762CAA0B5LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader16ResponseDataTypeOSHAASQ
+- _associated conformance 15ProximityReader16UnknownErrorCodeOSHAASQ
+- _associated conformance 15ProximityReader17AccessibilityTypeOSHAASQ
+- _associated conformance 15ProximityReader17AnalyticsReporterV10CodingKeysOSHAASQ
+- _associated conformance 15ProximityReader17AnalyticsReporterV10CodingKeysOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader17AnalyticsReporterV10CodingKeysOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader17ReadErrorInternalO10Foundation021_ObjectiveCBridgeableD0AAs0D0
+- _associated conformance 15ProximityReader17ReadErrorInternalO10Foundation15_BridgedNSErrorAA8RawValueSY_s17FixedWidthInteger
+- _associated conformance 15ProximityReader17ReadErrorInternalO10Foundation15_BridgedNSErrorAASH
+- _associated conformance 15ProximityReader17ReadErrorInternalO10Foundation15_BridgedNSErrorAASY
+- _associated conformance 15ProximityReader17ReadErrorInternalO10Foundation15_BridgedNSErrorAaD021_ObjectiveCBridgeableD0
+- _associated conformance 15ProximityReader17ReadErrorInternalOSHAASQ
+- _associated conformance 15ProximityReader18AutoBugCaptureTypeOSHAASQ
+- _associated conformance 15ProximityReader18TransactionUIEventOSHAASQ
+- _associated conformance 15ProximityReader18VerificationReasonOSHAASQ
+- _associated conformance 15ProximityReader19IdentityInformationC10CodingKeys33_ACCC020274359DCDE08BEA43F5642544LLOSHAASQ
+- _associated conformance 15ProximityReader19IdentityInformationC10CodingKeys33_ACCC020274359DCDE08BEA43F5642544LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader19IdentityInformationC10CodingKeys33_ACCC020274359DCDE08BEA43F5642544LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader19ReadOutcomeInternalO10Foundation15_BridgedNSErrorAA8RawValueSY_s17FixedWidthInteger
+- _associated conformance 15ProximityReader19ReadOutcomeInternalO10Foundation15_BridgedNSErrorAASH
+- _associated conformance 15ProximityReader19ReadOutcomeInternalO10Foundation15_BridgedNSErrorAASY
+- _associated conformance 15ProximityReader19ReadOutcomeInternalO10Foundation15_BridgedNSErrorAaD26_ObjectiveCBridgeableError
+- _associated conformance 15ProximityReader19ReadOutcomeInternalO10Foundation26_ObjectiveCBridgeableErrorAAs0I0
+- _associated conformance 15ProximityReader19ReadOutcomeInternalOSHAASQ
+- _associated conformance 15ProximityReader20AutoBugCaptureDomainOSHAASQ
+- _associated conformance 15ProximityReader20IdentityDocumentTypeO10CodingKeys33_41546A030660639EBCF1FA831873F93ELLOSHAASQ
+- _associated conformance 15ProximityReader20IdentityDocumentTypeO10CodingKeys33_41546A030660639EBCF1FA831873F93ELLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader20IdentityDocumentTypeO10CodingKeys33_41546A030660639EBCF1FA831873F93ELLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader20IdentityDocumentTypeO24DriversLicenseCodingKeys33_41546A030660639EBCF1FA831873F93ELLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader20IdentityDocumentTypeO24DriversLicenseCodingKeys33_41546A030660639EBCF1FA831873F93ELLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader20IdentityDocumentTypeO24NationalIDCardCodingKeys33_41546A030660639EBCF1FA831873F93ELLOSHAASQ
+- _associated conformance 15ProximityReader20IdentityDocumentTypeO24NationalIDCardCodingKeys33_41546A030660639EBCF1FA831873F93ELLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader20IdentityDocumentTypeO24NationalIDCardCodingKeys33_41546A030660639EBCF1FA831873F93ELLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader20PaymentCycleInternalO10CodingKeys33_55FA90637A1866FD50F049AC08E0567FLLOSHAASQ
+- _associated conformance 15ProximityReader20PaymentCycleInternalO10CodingKeys33_55FA90637A1866FD50F049AC08E0567FLLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader20PaymentCycleInternalO10CodingKeys33_55FA90637A1866FD50F049AC08E0567FLLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader20PaymentCycleInternalO16WeeklyCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader20PaymentCycleInternalO16WeeklyCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader20PaymentCycleInternalO16YearlyCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader20PaymentCycleInternalO16YearlyCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader20PaymentCycleInternalO17MonthlyCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader20PaymentCycleInternalO17MonthlyCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader20PaymentCycleInternalOSHAASQ
+- _associated conformance 15ProximityReader20ReadFeedbackInternalOSHAASQ
+- _associated conformance 15ProximityReader21AutoBugCaptureSubTypeOSHAASQ
+- _associated conformance 15ProximityReader22DiscoveryAnalyticsDataV10CodingKeys33_6DF954CDACCF0FAD98B3D991518159CCLLOSHAASQ
+- _associated conformance 15ProximityReader22DiscoveryAnalyticsDataV10CodingKeys33_6DF954CDACCF0FAD98B3D991518159CCLLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader22DiscoveryAnalyticsDataV10CodingKeys33_6DF954CDACCF0FAD98B3D991518159CCLLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader22DiscoveryAnalyticsDataV9EventTypeOSHAASQ
+- _associated conformance 15ProximityReader22DiscoveryErrorInternalO10Foundation021_ObjectiveCBridgeableD0AAs0D0
+- _associated conformance 15ProximityReader22DiscoveryErrorInternalO10Foundation15_BridgedNSErrorAA8RawValueSY_s17FixedWidthInteger
+- _associated conformance 15ProximityReader22DiscoveryErrorInternalO10Foundation15_BridgedNSErrorAASH
+- _associated conformance 15ProximityReader22DiscoveryErrorInternalO10Foundation15_BridgedNSErrorAASY
+- _associated conformance 15ProximityReader22DiscoveryErrorInternalO10Foundation15_BridgedNSErrorAaD021_ObjectiveCBridgeableD0
+- _associated conformance 15ProximityReader22DiscoveryErrorInternalOSHAASQ
+- _associated conformance 15ProximityReader23IdentityInternalRequestV10CodingKeys33_41546A030660639EBCF1FA831873F93ELLOSHAASQ
+- _associated conformance 15ProximityReader23IdentityInternalRequestV10CodingKeys33_41546A030660639EBCF1FA831873F93ELLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader23IdentityInternalRequestV10CodingKeys33_41546A030660639EBCF1FA831873F93ELLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader23IdentityMerchantDetailsV0D5ImageO0D22CategoryCodeCodingKeys33_599A0CFB44273BE8E58D040716844AD2LLOSHAASQ
+- _associated conformance 15ProximityReader23IdentityMerchantDetailsV0D5ImageO0D22CategoryCodeCodingKeys33_599A0CFB44273BE8E58D040716844AD2LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader23IdentityMerchantDetailsV0D5ImageO0D22CategoryCodeCodingKeys33_599A0CFB44273BE8E58D040716844AD2LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader23IdentityMerchantDetailsV0D5ImageO0F14DataCodingKeys33_599A0CFB44273BE8E58D040716844AD2LLOSHAASQ
+- _associated conformance 15ProximityReader23IdentityMerchantDetailsV0D5ImageO0F14DataCodingKeys33_599A0CFB44273BE8E58D040716844AD2LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader23IdentityMerchantDetailsV0D5ImageO0F14DataCodingKeys33_599A0CFB44273BE8E58D040716844AD2LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader23IdentityMerchantDetailsV0D5ImageO10CodingKeys33_599A0CFB44273BE8E58D040716844AD2LLOSHAASQ
+- _associated conformance 15ProximityReader23IdentityMerchantDetailsV0D5ImageO10CodingKeys33_599A0CFB44273BE8E58D040716844AD2LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader23IdentityMerchantDetailsV0D5ImageO10CodingKeys33_599A0CFB44273BE8E58D040716844AD2LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader23IdentityMerchantDetailsV10CodingKeys33_599A0CFB44273BE8E58D040716844AD2LLOSHAASQ
+- _associated conformance 15ProximityReader23IdentityMerchantDetailsV10CodingKeys33_599A0CFB44273BE8E58D040716844AD2LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader23IdentityMerchantDetailsV10CodingKeys33_599A0CFB44273BE8E58D040716844AD2LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader23TransactionTypeInternalOSHAASQ
+- _associated conformance 15ProximityReader26CardEffectiveStateInternalOSHAASQ
+- _associated conformance 15ProximityReader26CardEffectiveStateInternalOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 15ProximityReader27CardExpirationStateInternalOSHAASQ
+- _associated conformance 15ProximityReader27CardExpirationStateInternalOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 15ProximityReader27IdentityDocumentRequestTypeO10CodingKeys33_41546A030660639EBCF1FA831873F93ELLOSHAASQ
+- _associated conformance 15ProximityReader27IdentityDocumentRequestTypeO10CodingKeys33_41546A030660639EBCF1FA831873F93ELLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader27IdentityDocumentRequestTypeO10CodingKeys33_41546A030660639EBCF1FA831873F93ELLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader27IdentityDocumentRequestTypeO13AgeCodingKeys33_41546A030660639EBCF1FA831873F93ELLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader27IdentityDocumentRequestTypeO13AgeCodingKeys33_41546A030660639EBCF1FA831873F93ELLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader27IdentityDocumentRequestTypeO14NameCodingKeys33_41546A030660639EBCF1FA831873F93ELLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader27IdentityDocumentRequestTypeO14NameCodingKeys33_41546A030660639EBCF1FA831873F93ELLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader27IdentityDocumentRequestTypeO20AgeAndNameCodingKeys33_41546A030660639EBCF1FA831873F93ELLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader27IdentityDocumentRequestTypeO20AgeAndNameCodingKeys33_41546A030660639EBCF1FA831873F93ELLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader27IdentityDocumentRequestTypeO24DriversLicenseCodingKeys33_41546A030660639EBCF1FA831873F93ELLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader27IdentityDocumentRequestTypeO24DriversLicenseCodingKeys33_41546A030660639EBCF1FA831873F93ELLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader27IdentityDocumentRequestTypeO24NationalIDCardCodingKeys33_41546A030660639EBCF1FA831873F93ELLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader27IdentityDocumentRequestTypeO24NationalIDCardCodingKeys33_41546A030660639EBCF1FA831873F93ELLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader27IdentityDocumentRequestTypeOSHAASQ
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalO0D16NumberCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalO0D16NumberCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalO0D19IssueDateCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalO0D19IssueDateCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalO0D24ExpirationDateCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalO0D24ExpirationDateCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalO0D29DHSComplianceStatusCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalO0D29DHSComplianceStatusCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalO10CodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOSHAASQ
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalO10CodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalO10CodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalO13AgeCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalO13AgeCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalO13SexCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalO13SexCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalO17AddressCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalO17AddressCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalO18PortraitCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalO18PortraitCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalO19GivenNameCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalO19GivenNameCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalO20AgeAtLeastCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOSHAASQ
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalO20AgeAtLeastCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalO20AgeAtLeastCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalO20FamilyNameCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalO20FamilyNameCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalO21DateOfBirthCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalO21DateOfBirthCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalO26IssuingAuthorityCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalO26IssuingAuthorityCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalO27DrivingPrivilegesCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalO27DrivingPrivilegesCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader29MobileDocumentElementInternalOSHAASQ
+- _associated conformance 15ProximityReader32MobileDriversLicenseTransferTypeOSHAASQ
+- _associated conformance 15ProximityReader36TransactionAmountDescriptionInternalO016PreauthorizationD10CodingKeys33_55FA90637A1866FD50F049AC08E0567FLLOSHAASQ
+- _associated conformance 15ProximityReader36TransactionAmountDescriptionInternalO016PreauthorizationD10CodingKeys33_55FA90637A1866FD50F049AC08E0567FLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader36TransactionAmountDescriptionInternalO016PreauthorizationD10CodingKeys33_55FA90637A1866FD50F049AC08E0567FLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader36TransactionAmountDescriptionInternalO09SurchargeD10CodingKeys33_55FA90637A1866FD50F049AC08E0567FLLOSHAASQ
+- _associated conformance 15ProximityReader36TransactionAmountDescriptionInternalO09SurchargeD10CodingKeys33_55FA90637A1866FD50F049AC08E0567FLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader36TransactionAmountDescriptionInternalO09SurchargeD10CodingKeys33_55FA90637A1866FD50F049AC08E0567FLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader36TransactionAmountDescriptionInternalO10CodingKeys33_55FA90637A1866FD50F049AC08E0567FLLOSHAASQ
+- _associated conformance 15ProximityReader36TransactionAmountDescriptionInternalO10CodingKeys33_55FA90637A1866FD50F049AC08E0567FLLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader36TransactionAmountDescriptionInternalO10CodingKeys33_55FA90637A1866FD50F049AC08E0567FLLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader36TransactionAmountDescriptionInternalO20MembershipCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLOSHAASQ
+- _associated conformance 15ProximityReader36TransactionAmountDescriptionInternalO20MembershipCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader36TransactionAmountDescriptionInternalO20MembershipCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader36TransactionAmountDescriptionInternalO21InstallmentCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLOSHAASQ
+- _associated conformance 15ProximityReader36TransactionAmountDescriptionInternalO21InstallmentCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader36TransactionAmountDescriptionInternalO21InstallmentCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader36TransactionAmountDescriptionInternalO26PreauthorizationCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader36TransactionAmountDescriptionInternalO26PreauthorizationCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader36TransactionAmountDescriptionInternalO26SurchargePercentCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLOSHAASQ
+- _associated conformance 15ProximityReader36TransactionAmountDescriptionInternalO26SurchargePercentCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader36TransactionAmountDescriptionInternalO26SurchargePercentCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader36TransactionAmountDescriptionInternalO33PreauthorizationReleaseCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader36TransactionAmountDescriptionInternalO33PreauthorizationReleaseCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader39MobileDriversLicenseDataRequestInternalC10CodingKeys33_075CCF7D5E2DBA040BD6781507F24554LLOSHAASQ
+- _associated conformance 15ProximityReader39MobileDriversLicenseDataRequestInternalC10CodingKeys33_075CCF7D5E2DBA040BD6781507F24554LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader39MobileDriversLicenseDataRequestInternalC10CodingKeys33_075CCF7D5E2DBA040BD6781507F24554LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader39MobileDriversLicenseReadRequestInternalC10CodingKeys33_B753FFABD609196BE22387661A41A85FLLOSHAASQ
+- _associated conformance 15ProximityReader39MobileDriversLicenseReadRequestInternalC10CodingKeys33_B753FFABD609196BE22387661A41A85FLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader39MobileDriversLicenseReadRequestInternalC10CodingKeys33_B753FFABD609196BE22387661A41A85FLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader39MobileDriversLicenseViewOptionsInternalC10CodingKeys33_AA72FF7A0D3EDD5A37A20C17EBBD00A4LLOSHAASQ
+- _associated conformance 15ProximityReader39MobileDriversLicenseViewOptionsInternalC10CodingKeys33_AA72FF7A0D3EDD5A37A20C17EBBD00A4LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader39MobileDriversLicenseViewOptionsInternalC10CodingKeys33_AA72FF7A0D3EDD5A37A20C17EBBD00A4LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader39MobileDriversLicenseViewOptionsInternalC14ValidationModeOSHAASQ
+- _associated conformance 15ProximityReader39MobileDriversLicenseViewRequestInternalC10CodingKeys33_AA72FF7A0D3EDD5A37A20C17EBBD00A4LLOSHAASQ
+- _associated conformance 15ProximityReader39MobileDriversLicenseViewRequestInternalC10CodingKeys33_AA72FF7A0D3EDD5A37A20C17EBBD00A4LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader39MobileDriversLicenseViewRequestInternalC10CodingKeys33_AA72FF7A0D3EDD5A37A20C17EBBD00A4LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOSHAASQ
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOSHAASQ
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0K3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0K3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV16DrivingPrivilegeV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOSHAASQ
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV16DrivingPrivilegeV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0M3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV16DrivingPrivilegeV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0M3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV16DrivingPrivilegeV4CodeV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOSHAASQ
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV16DrivingPrivilegeV4CodeV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0N3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV16DrivingPrivilegeV4CodeV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0N3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV16DrivingPrivilegeV4CodeVSHAASQ
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV16DrivingPrivilegeVSHAASQ
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV16IssuingAuthorityV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOSHAASQ
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV16IssuingAuthorityV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0M3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV16IssuingAuthorityV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0M3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV16IssuingAuthorityVSHAASQ
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV19DHSComplianceStatusO10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOSHAASQ
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV19DHSComplianceStatusO10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0M3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV19DHSComplianceStatusO10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0M3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV19DHSComplianceStatusO19CompliantCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0N3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV19DHSComplianceStatusO19CompliantCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0N3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV19DHSComplianceStatusO22NoncompliantCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0N3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV19DHSComplianceStatusO22NoncompliantCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0N3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV19DHSComplianceStatusOSHAASQ
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOSHAASQ
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0M3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0M3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV12VehicleClassV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOSHAASQ
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV12VehicleClassV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0O3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV12VehicleClassV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0O3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV12VehicleClassVSHAASQ
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV18VehicleEndorsementV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOSHAASQ
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV18VehicleEndorsementV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0O3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV18VehicleEndorsementV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0O3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV18VehicleEndorsementVSHAASQ
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV18VehicleRestrictionV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOSHAASQ
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV18VehicleRestrictionV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0O3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV18VehicleRestrictionV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0O3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV18VehicleRestrictionVSHAASQ
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeVSHAASQ
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOSHAASQ
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0L3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0L3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO14MaleCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0M3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO14MaleCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0M3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO16FemaleCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0M3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO16FemaleCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0M3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO17UnknownCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0M3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO17UnknownCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0M3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO22NotSpecifiedCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0N3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO22NotSpecifiedCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0N3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO23NotApplicableCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0N3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO23NotApplicableCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0N3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexOSHAASQ
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV7AddressV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOSHAASQ
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV7AddressV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0L3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV7AddressV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLOs0L3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV7AddressVSHAASQ
+- _associated conformance 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsVSHAASQ
+- _associated conformance 15ProximityReader40MobileDriversLicenseViewResponseInternalC10CodingKeys33_BFA6BAB9DDC3C5966C98FA6D688F2075LLOSHAASQ
+- _associated conformance 15ProximityReader40MobileDriversLicenseViewResponseInternalC10CodingKeys33_BFA6BAB9DDC3C5966C98FA6D688F2075LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseViewResponseInternalC10CodingKeys33_BFA6BAB9DDC3C5966C98FA6D688F2075LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseViewResponseInternalC17ValidationOutcomeO10CodingKeys33_BFA6BAB9DDC3C5966C98FA6D688F2075LLOSHAASQ
+- _associated conformance 15ProximityReader40MobileDriversLicenseViewResponseInternalC17ValidationOutcomeO10CodingKeys33_BFA6BAB9DDC3C5966C98FA6D688F2075LLOs0K3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseViewResponseInternalC17ValidationOutcomeO10CodingKeys33_BFA6BAB9DDC3C5966C98FA6D688F2075LLOs0K3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseViewResponseInternalC17ValidationOutcomeO18ApprovedCodingKeys33_BFA6BAB9DDC3C5966C98FA6D688F2075LLOs0L3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseViewResponseInternalC17ValidationOutcomeO18ApprovedCodingKeys33_BFA6BAB9DDC3C5966C98FA6D688F2075LLOs0L3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseViewResponseInternalC17ValidationOutcomeO18RejectedCodingKeys33_BFA6BAB9DDC3C5966C98FA6D688F2075LLOs0L3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseViewResponseInternalC17ValidationOutcomeO18RejectedCodingKeys33_BFA6BAB9DDC3C5966C98FA6D688F2075LLOs0L3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseViewResponseInternalC17ValidationOutcomeO19DismissedCodingKeys33_BFA6BAB9DDC3C5966C98FA6D688F2075LLOs0L3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseViewResponseInternalC17ValidationOutcomeO19DismissedCodingKeys33_BFA6BAB9DDC3C5966C98FA6D688F2075LLOs0L3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader40MobileDriversLicenseViewResponseInternalC17ValidationOutcomeOSHAASQ
+- _associated conformance 15ProximityReader6UIModeOSHAASQ
+- _associated conformance 15ProximityReader7VASModeOSHAASQ
+- _associated conformance 15ProximityReader7VASModeOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 15ProximityReader9JwtHeaderV10CodingKeys33_B36966F143C05AAE8DA8ED93F3E4612BLLOSHAASQ
+- _associated conformance 15ProximityReader9JwtHeaderV10CodingKeys33_B36966F143C05AAE8DA8ED93F3E4612BLLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader9JwtHeaderV10CodingKeys33_B36966F143C05AAE8DA8ED93F3E4612BLLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15ProximityReader9JwtHelperV10CodingKeys33_B36966F143C05AAE8DA8ED93F3E4612BLLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 15ProximityReader9JwtHelperV10CodingKeys33_B36966F143C05AAE8DA8ED93F3E4612BLLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance So11CFStringRefa14CoreFoundation9_CFObjectSCSH
+- _associated conformance So11CFStringRefaSHSCSQ
+- _associated conformance So18NSFileAttributeKeyaSHSCSQ
+- _associated conformance So18NSFileAttributeKeyas20_SwiftNewtypeWrapperSCSY
+- _associated conformance So18NSFileAttributeKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
+- _associated conformance So20NSFileProtectionTypeaSHSCSQ
+- _associated conformance So20NSFileProtectionTypeas20_SwiftNewtypeWrapperSCSY
+- _associated conformance So20NSFileProtectionTypeas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
+- _flat unique 15ProximityReader08IdentityB16ServiceInterface_p
+- _flat unique 15ProximityReader31PaymentTerminalServiceInterface_p
+- _kCFRunLoopCommonModes
+- _kCFUserNotificationAlertHeaderKey
+- _kCFUserNotificationAlertMessageKey
+- _kCFUserNotificationAlternateButtonTitleKey
+- _kCFUserNotificationDefaultButtonTitleKey
+- _kRTCReportingSessionInfoBatchEvent
+- _kRTCReportingSessionInfoClientBundleID
+- _kRTCReportingSessionInfoClientType
+- _kRTCReportingSessionInfoClientVersion
+- _kRTCReportingSessionInfoSessionID
+- _kRTCReportingUserInfoClientName
+- _kRTCReportingUserInfoServiceName
+- _objc_autoreleaseReturnValue
+- _objc_msgSendSuper2
+- _objc_release_x9
+- _objc_retain_x22
+- _objc_retain_x26
+- _objc_retain_x9
+- _swift_allocateGenericClassMetadata
+- _swift_allocateGenericValueMetadata
+- _swift_continuation_resume
+- _swift_dynamicCastObjCClass
+- _swift_getDynamicType
+- _swift_getErrorValue
+- _swift_getGenericMetadata
+- _swift_initClassMetadata2
+- _swift_initEnumMetadataSinglePayload
+- _swift_initStackObject
+- _swift_initStaticObject
+- _swift_isaMask
+- _swift_setDeallocating
+- _symbolic $s15ProximityReader08IdentityB16ServiceInterfaceP
+- _symbolic $s15ProximityReader10IdentityUIP
+- _symbolic $s15ProximityReader13PINUIDelegateP
+- _symbolic $s15ProximityReader13RegUIDelegateP
+- _symbolic $s15ProximityReader13TapUIDelegateP
+- _symbolic $s15ProximityReader13TransactionUIP
+- _symbolic $s15ProximityReader18IdentityUIDelegateP
+- _symbolic $s15ProximityReader20FeatureFlagProvidingP
+- _symbolic $s15ProximityReader21TransactionUIDelegateP
+- _symbolic $s15ProximityReader22IdentityRegistrationUIP
+- _symbolic $s15ProximityReader25DiscoveryServiceInterfaceP
+- _symbolic $s15ProximityReader30IdentityRegistrationUIDelegateP
+- _symbolic $s15ProximityReader30PaymentTerminalServiceDelegateP
+- _symbolic $s15ProximityReader31PaymentTerminalServiceInterfaceP
+- _symbolic $s15ProximityReader37MobileDriversLicenseRequestVerifiableP
+- _symbolic $s15ProximityReader38MobileDriversLicenseRequestInformationP
+- _symbolic $s15ProximityReader5PINUIP
+- _symbolic $s15ProximityReader5RegUIP
+- _symbolic $s15ProximityReader5TapUIP
+- _symbolic $s15ProximityReader7StorageP
+- _symbolic $ss12CaseIterableP
+- _symbolic $ss21_ObjectiveCBridgeableP
+- _symbolic B0
+- _symbolic Ieg_
+- _symbolic Ieg_Sg
+- _symbolic SDySS_____G 15ProximityReader17AnalyticsReporterV
+- _symbolic SDySSyXlG
+- _symbolic SDySSypGSg
+- _symbolic SS12partnerToken_Sb6relinkt
+- _symbolic SS15localizedString_t
+- _symbolic SS36termsAndConditionsAcceptanceRequired_t
+- _symbolic SS3key_yp5valuet
+- _symbolic SS_ypt
+- _symbolic SaySSGSg
+- _symbolic SaySdG
+- _symbolic SaySfG
+- _symbolic SaySiG
+- _symbolic SaySsG
+- _symbolic Say_____G 15ProximityReader12VASReadEntryC
+- _symbolic Say_____G 15ProximityReader19VASMerchantInternalC
+- _symbolic Say_____G 15ProximityReader26CardEffectiveStateInternalO
+- _symbolic Say_____G 15ProximityReader27CardExpirationStateInternalO
+- _symbolic Say_____G 15ProximityReader29MobileDocumentElementInternalO
+- _symbolic Say_____G 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV16DrivingPrivilegeV
+- _symbolic Say_____G 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV16DrivingPrivilegeV4CodeV
+- _symbolic Say_____G 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV
+- _symbolic Say_____G 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV18VehicleEndorsementV
+- _symbolic Say_____G 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV18VehicleRestrictionV
+- _symbolic Say_____G 15ProximityReader7VASModeO
+- _symbolic Say_____G 8Dispatch0A13WorkItemFlagsV
+- _symbolic Say_____G So17OS_dispatch_queueC8DispatchE10AttributesV
+- _symbolic Say_____G s5UInt8V
+- _symbolic Say______pG s7CVarArgP
+- _symbolic SayypGSg
+- _symbolic SbIegy_
+- _symbolic SbSg
+- _symbolic ScCy___________pG 15ProximityReader10ReadResultC s5ErrorP
+- _symbolic ScTyx______pGSg s5ErrorP
+- _symbolic Si_SaySSGt
+- _symbolic So12RTCReportingC
+- _symbolic So15NSDecimalNumberC
+- _symbolic So15NSXPCConnectionC
+- _symbolic So8NSObjectC
+- _symbolic So8NSStringC
+- _symbolic Su
+- _symbolic _____ 10Foundation3URLV
+- _symbolic _____ 15ProximityReader04CardB13ErrorInternalC
+- _symbolic _____ 15ProximityReader04CardB9ErrorTypeO
+- _symbolic _____ 15ProximityReader08IdentityB13ErrorInternalV
+- _symbolic _____ 15ProximityReader08IdentityB13ErrorInternalV4CodeO
+- _symbolic _____ 15ProximityReader08IdentityB13ErrorInternalV4CodeO07NetworkD10CodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____ 15ProximityReader08IdentityB13ErrorInternalV4CodeO0B17TimeoutCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____ 15ProximityReader08IdentityB13ErrorInternalV4CodeO0b10ConnectionD10CodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____ 15ProximityReader08IdentityB13ErrorInternalV4CodeO10CodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____ 15ProximityReader08IdentityB13ErrorInternalV4CodeO17UnknownCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____ 15ProximityReader08IdentityB13ErrorInternalV4CodeO19CancelledCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____ 15ProximityReader08IdentityB13ErrorInternalV4CodeO20NotAllowedCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____ 15ProximityReader08IdentityB13ErrorInternalV4CodeO20SystemBusyCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____ 15ProximityReader08IdentityB13ErrorInternalV4CodeO21NfcDisabledCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____ 15ProximityReader08IdentityB13ErrorInternalV4CodeO21NfcOverheatCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____ 15ProximityReader08IdentityB13ErrorInternalV4CodeO22InvalidTokenCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____ 15ProximityReader08IdentityB13ErrorInternalV4CodeO22NotSupportedCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____ 15ProximityReader08IdentityB13ErrorInternalV4CodeO24InvalidRequestCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____ 15ProximityReader08IdentityB13ErrorInternalV4CodeO24SessionExpiredCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____ 15ProximityReader08IdentityB13ErrorInternalV4CodeO25InvalidResponseCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____ 15ProximityReader08IdentityB13ErrorInternalV4CodeO26AccountSignedOutCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____ 15ProximityReader08IdentityB13ErrorInternalV4CodeO26PasscodeDisabledCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____ 15ProximityReader08IdentityB13ErrorInternalV4CodeO27BluetoothDisabledCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____ 15ProximityReader08IdentityB13ErrorInternalV4CodeO28ServiceUnavailableCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____ 15ProximityReader08IdentityB13ErrorInternalV4CodeO31OsVersionNotSupportedCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____ 15ProximityReader08IdentityB13ErrorInternalV4CodeO37ContinuityDisplayNotAllowedCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____ 15ProximityReader08IdentityB13ErrorInternalV4CodeO37NfcNegotiatedHandoverFailedCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____ 15ProximityReader08IdentityB13ErrorInternalV4CodeO38AccountTwoFactorAuthRequiredCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____ 15ProximityReader08IdentityB13ErrorInternalV4CodeO46TermsAndConditionsAcceptanceRequiredCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____ 15ProximityReader10CRSignpostV
+- _symbolic _____ 15ProximityReader10OnboardingV
+- _symbolic _____ 15ProximityReader10ReadResultC
+- _symbolic _____ 15ProximityReader11AccountAuthC
+- _symbolic _____ 15ProximityReader11CurrencyDefV
+- _symbolic _____ 15ProximityReader11FeatureFlagO
+- _symbolic _____ 15ProximityReader11LogoManagerC
+- _symbolic _____ 15ProximityReader11VASProtocolO
+- _symbolic _____ 15ProximityReader11XPCServicesV
+- _symbolic _____ 15ProximityReader12ErrorDetailsV
+- _symbolic _____ 15ProximityReader12LocaleHelperC
+- _symbolic _____ 15ProximityReader12VASReadEntryC
+- _symbolic _____ 15ProximityReader13SecureStorageV
+- _symbolic _____ 15ProximityReader13SessionStatusO
+- _symbolic _____ 15ProximityReader14AnalyticsCacheC
+- _symbolic _____ 15ProximityReader14AnalyticsErrorO
+- _symbolic _____ 15ProximityReader14TaskSerializerC
+- _symbolic _____ 15ProximityReader14XPCUserInfoKeyO
+- _symbolic _____ 15ProximityReader15ContentInternalV
+- _symbolic _____ 15ProximityReader15ContentInternalV10CodingKeys33_EDB9054EF000ED6A8CD319BF83BDEB77LLO
+- _symbolic _____ 15ProximityReader15FeatureFlagsKey031_B3DC85B1D8BE5AA374E53CF13A4825F0LLV
+- _symbolic _____ 15ProximityReader15IdentityUIEventO
+- _symbolic _____ 15ProximityReader15InternalOptionsC
+- _symbolic _____ 15ProximityReader15MerchantDetailsV
+- _symbolic _____ 15ProximityReader15MerchantDetailsV10CodingKeys33_AC3CC92B33A46FA47889C110393A91DELLO
+- _symbolic _____ 15ProximityReader15PINSessionEventO
+- _symbolic _____ 15ProximityReader16AnalyticsManagerV
+- _symbolic _____ 15ProximityReader16IdentityUIButtonO
+- _symbolic _____ 15ProximityReader16PINConfigurationC
+- _symbolic _____ 15ProximityReader16RegistrationTypeO
+- _symbolic _____ 15ProximityReader16RegistrationTypeO10CodingKeys33_9EDAB0EBF86BD6D60A73766762CAA0B5LLO
+- _symbolic _____ 15ProximityReader16RegistrationTypeO18IdentityCodingKeys33_9EDAB0EBF86BD6D60A73766762CAA0B5LLO
+- _symbolic _____ 15ProximityReader16RegistrationTypeO18TapToPayCodingKeys33_9EDAB0EBF86BD6D60A73766762CAA0B5LLO
+- _symbolic _____ 15ProximityReader16ResponseDataTypeO
+- _symbolic _____ 15ProximityReader16UnknownErrorCodeO
+- _symbolic _____ 15ProximityReader17AccessibilityTypeO
+- _symbolic _____ 15ProximityReader17AnalyticsReporterV
+- _symbolic _____ 15ProximityReader17AnalyticsReporterV10CodingKeysO
+- _symbolic _____ 15ProximityReader17ReadErrorInternalO
+- _symbolic _____ 15ProximityReader18AutoBugCaptureTypeO
+- _symbolic _____ 15ProximityReader18TransactionUIEventO
+- _symbolic _____ 15ProximityReader18VerificationReasonO
+- _symbolic _____ 15ProximityReader19AutoBugCaptureIssueV
+- _symbolic _____ 15ProximityReader19BaselineErrorDialogC
+- _symbolic _____ 15ProximityReader19CurrencyDefinitionsC
+- _symbolic _____ 15ProximityReader19FeatureFlagProviderV
+- _symbolic _____ 15ProximityReader19IdentityInformationC
+- _symbolic _____ 15ProximityReader19IdentityInformationC10CodingKeys33_ACCC020274359DCDE08BEA43F5642544LLO
+- _symbolic _____ 15ProximityReader19ReadOutcomeInternalO
+- _symbolic _____ 15ProximityReader19TransactionInternalC
+- _symbolic _____ 15ProximityReader19VASMerchantInternalC
+- _symbolic _____ 15ProximityReader20AutoBugCaptureDomainO
+- _symbolic _____ 15ProximityReader20IdentityDocumentTypeO
+- _symbolic _____ 15ProximityReader20IdentityDocumentTypeO10CodingKeys33_41546A030660639EBCF1FA831873F93ELLO
+- _symbolic _____ 15ProximityReader20IdentityDocumentTypeO24DriversLicenseCodingKeys33_41546A030660639EBCF1FA831873F93ELLO
+- _symbolic _____ 15ProximityReader20IdentityDocumentTypeO24NationalIDCardCodingKeys33_41546A030660639EBCF1FA831873F93ELLO
+- _symbolic _____ 15ProximityReader20PaymentCycleInternalO
+- _symbolic _____ 15ProximityReader20PaymentCycleInternalO10CodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____ 15ProximityReader20PaymentCycleInternalO16WeeklyCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____ 15ProximityReader20PaymentCycleInternalO16YearlyCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____ 15ProximityReader20PaymentCycleInternalO17MonthlyCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____ 15ProximityReader20ReadFeedbackInternalO
+- _symbolic _____ 15ProximityReader21AutoBugCaptureManagerV
+- _symbolic _____ 15ProximityReader21AutoBugCaptureSubTypeO
+- _symbolic _____ 15ProximityReader21VASResultArrayWrapperC
+- _symbolic _____ 15ProximityReader22AutoBugCaptureReporter33_3716CC6506213A5054A49C8E0F33F1E3LLC
+- _symbolic _____ 15ProximityReader22DiscoveryAnalyticsDataV
+- _symbolic _____ 15ProximityReader22DiscoveryAnalyticsDataV10CodingKeys33_6DF954CDACCF0FAD98B3D991518159CCLLO
+- _symbolic _____ 15ProximityReader22DiscoveryAnalyticsDataV9EventTypeO
+- _symbolic _____ 15ProximityReader22DiscoveryErrorInternalO
+- _symbolic _____ 15ProximityReader23DiscoveryInternalTopicsV
+- _symbolic _____ 15ProximityReader23DiscoveryInternalTopicsV4MainV
+- _symbolic _____ 15ProximityReader23DiscoveryInternalTopicsV7PaymentV
+- _symbolic _____ 15ProximityReader23IdentityInternalRequestV
+- _symbolic _____ 15ProximityReader23IdentityInternalRequestV10CodingKeys33_41546A030660639EBCF1FA831873F93ELLO
+- _symbolic _____ 15ProximityReader23IdentityMerchantDetailsV
+- _symbolic _____ 15ProximityReader23IdentityMerchantDetailsV0D5ImageO
+- _symbolic _____ 15ProximityReader23IdentityMerchantDetailsV0D5ImageO0D22CategoryCodeCodingKeys33_599A0CFB44273BE8E58D040716844AD2LLO
+- _symbolic _____ 15ProximityReader23IdentityMerchantDetailsV0D5ImageO0F14DataCodingKeys33_599A0CFB44273BE8E58D040716844AD2LLO
+- _symbolic _____ 15ProximityReader23IdentityMerchantDetailsV0D5ImageO10CodingKeys33_599A0CFB44273BE8E58D040716844AD2LLO
+- _symbolic _____ 15ProximityReader23IdentityMerchantDetailsV10CodingKeys33_599A0CFB44273BE8E58D040716844AD2LLO
+- _symbolic _____ 15ProximityReader23TransactionTypeInternalO
+- _symbolic _____ 15ProximityReader26CardEffectiveStateInternalO
+- _symbolic _____ 15ProximityReader27CardExpirationStateInternalO
+- _symbolic _____ 15ProximityReader27IdentityDocumentRequestTypeO
+- _symbolic _____ 15ProximityReader27IdentityDocumentRequestTypeO10CodingKeys33_41546A030660639EBCF1FA831873F93ELLO
+- _symbolic _____ 15ProximityReader27IdentityDocumentRequestTypeO13AgeCodingKeys33_41546A030660639EBCF1FA831873F93ELLO
+- _symbolic _____ 15ProximityReader27IdentityDocumentRequestTypeO14NameCodingKeys33_41546A030660639EBCF1FA831873F93ELLO
+- _symbolic _____ 15ProximityReader27IdentityDocumentRequestTypeO20AgeAndNameCodingKeys33_41546A030660639EBCF1FA831873F93ELLO
+- _symbolic _____ 15ProximityReader27IdentityDocumentRequestTypeO24DriversLicenseCodingKeys33_41546A030660639EBCF1FA831873F93ELLO
+- _symbolic _____ 15ProximityReader27IdentityDocumentRequestTypeO24NationalIDCardCodingKeys33_41546A030660639EBCF1FA831873F93ELLO
+- _symbolic _____ 15ProximityReader27IdentityEntitlementVerifierV
+- _symbolic _____ 15ProximityReader29IdentityConfigurationInternalC
+- _symbolic _____ 15ProximityReader29MobileDocumentElementInternalO
+- _symbolic _____ 15ProximityReader29MobileDocumentElementInternalO0D16NumberCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____ 15ProximityReader29MobileDocumentElementInternalO0D19IssueDateCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____ 15ProximityReader29MobileDocumentElementInternalO0D24ExpirationDateCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____ 15ProximityReader29MobileDocumentElementInternalO0D29DHSComplianceStatusCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____ 15ProximityReader29MobileDocumentElementInternalO10CodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____ 15ProximityReader29MobileDocumentElementInternalO13AgeCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____ 15ProximityReader29MobileDocumentElementInternalO13SexCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____ 15ProximityReader29MobileDocumentElementInternalO17AddressCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____ 15ProximityReader29MobileDocumentElementInternalO18PortraitCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____ 15ProximityReader29MobileDocumentElementInternalO19GivenNameCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____ 15ProximityReader29MobileDocumentElementInternalO20AgeAtLeastCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____ 15ProximityReader29MobileDocumentElementInternalO20FamilyNameCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____ 15ProximityReader29MobileDocumentElementInternalO21DateOfBirthCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____ 15ProximityReader29MobileDocumentElementInternalO26IssuingAuthorityCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____ 15ProximityReader29MobileDocumentElementInternalO27DrivingPrivilegesCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____ 15ProximityReader29StoreAndForwardStatusInternalC
+- _symbolic _____ 15ProximityReader30UncheckedSendableXPCConnectionV
+- _symbolic _____ 15ProximityReader32MobileDriversLicenseTransferTypeO
+- _symbolic _____ 15ProximityReader36TransactionAmountDescriptionInternalO
+- _symbolic _____ 15ProximityReader36TransactionAmountDescriptionInternalO016PreauthorizationD10CodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____ 15ProximityReader36TransactionAmountDescriptionInternalO09SurchargeD10CodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____ 15ProximityReader36TransactionAmountDescriptionInternalO10CodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____ 15ProximityReader36TransactionAmountDescriptionInternalO20MembershipCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____ 15ProximityReader36TransactionAmountDescriptionInternalO21InstallmentCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____ 15ProximityReader36TransactionAmountDescriptionInternalO26PreauthorizationCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____ 15ProximityReader36TransactionAmountDescriptionInternalO26SurchargePercentCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____ 15ProximityReader36TransactionAmountDescriptionInternalO33PreauthorizationReleaseCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____ 15ProximityReader37StoreAndForwardValidationDataInternalC
+- _symbolic _____ 15ProximityReader39MobileDriversLicenseDataRequestInternalC
+- _symbolic _____ 15ProximityReader39MobileDriversLicenseDataRequestInternalC10CodingKeys33_075CCF7D5E2DBA040BD6781507F24554LLO
+- _symbolic _____ 15ProximityReader39MobileDriversLicenseReadRequestInternalC
+- _symbolic _____ 15ProximityReader39MobileDriversLicenseReadRequestInternalC10CodingKeys33_B753FFABD609196BE22387661A41A85FLLO
+- _symbolic _____ 15ProximityReader39MobileDriversLicenseViewOptionsInternalC
+- _symbolic _____ 15ProximityReader39MobileDriversLicenseViewOptionsInternalC10CodingKeys33_AA72FF7A0D3EDD5A37A20C17EBBD00A4LLO
+- _symbolic _____ 15ProximityReader39MobileDriversLicenseViewOptionsInternalC14ValidationModeO
+- _symbolic _____ 15ProximityReader39MobileDriversLicenseViewRequestInternalC
+- _symbolic _____ 15ProximityReader39MobileDriversLicenseViewRequestInternalC10CodingKeys33_AA72FF7A0D3EDD5A37A20C17EBBD00A4LLO
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseDataResponseInternalC
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseDataResponseInternalC10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV16DrivingPrivilegeV
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV16DrivingPrivilegeV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV16DrivingPrivilegeV4CodeV
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV16DrivingPrivilegeV4CodeV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV16IssuingAuthorityV
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV16IssuingAuthorityV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV19DHSComplianceStatusO
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV19DHSComplianceStatusO10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV19DHSComplianceStatusO19CompliantCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV19DHSComplianceStatusO22NoncompliantCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV12VehicleClassV
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV12VehicleClassV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV18VehicleEndorsementV
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV18VehicleEndorsementV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV18VehicleRestrictionV
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV18VehicleRestrictionV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO14MaleCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO16FemaleCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO17UnknownCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO22NotSpecifiedCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO23NotApplicableCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV7AddressV
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV7AddressV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseReadResponseInternalC
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseViewResponseInternalC
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseViewResponseInternalC10CodingKeys33_BFA6BAB9DDC3C5966C98FA6D688F2075LLO
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseViewResponseInternalC17ValidationOutcomeO
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseViewResponseInternalC17ValidationOutcomeO10CodingKeys33_BFA6BAB9DDC3C5966C98FA6D688F2075LLO
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseViewResponseInternalC17ValidationOutcomeO18ApprovedCodingKeys33_BFA6BAB9DDC3C5966C98FA6D688F2075LLO
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseViewResponseInternalC17ValidationOutcomeO18RejectedCodingKeys33_BFA6BAB9DDC3C5966C98FA6D688F2075LLO
+- _symbolic _____ 15ProximityReader40MobileDriversLicenseViewResponseInternalC17ValidationOutcomeO19DismissedCodingKeys33_BFA6BAB9DDC3C5966C98FA6D688F2075LLO
+- _symbolic _____ 15ProximityReader6ServerV
+- _symbolic _____ 15ProximityReader6UIModeO
+- _symbolic _____ 15ProximityReader7PINDataC
+- _symbolic _____ 15ProximityReader7VASModeO
+- _symbolic _____ 15ProximityReader9AnalyticsV
+- _symbolic _____ 15ProximityReader9AnalyticsV11PrivacyLockV
+- _symbolic _____ 15ProximityReader9AnalyticsV11ProductTypeV
+- _symbolic _____ 15ProximityReader9AnalyticsV12PINEntryTypeV
+- _symbolic _____ 15ProximityReader9AnalyticsV14GuidanceActiveV
+- _symbolic _____ 15ProximityReader9AnalyticsV14PINRequestTypeV
+- _symbolic _____ 15ProximityReader9AnalyticsV14ProductSubTypeV
+- _symbolic _____ 15ProximityReader9AnalyticsV14SpecificErrorsV
+- _symbolic _____ 15ProximityReader9AnalyticsV15DiscoveryRegionV
+- _symbolic _____ 15ProximityReader9AnalyticsV15GuidanceDismissV
+- _symbolic _____ 15ProximityReader9AnalyticsV15IdentityAppTypeV
+- _symbolic _____ 15ProximityReader9AnalyticsV15PurchaseContextV
+- _symbolic _____ 15ProximityReader9AnalyticsV16DataTransferTypeV
+- _symbolic _____ 15ProximityReader9AnalyticsV17PreferredLanguageV
+- _symbolic _____ 15ProximityReader9AnalyticsV18CancelationTriggerV
+- _symbolic _____ 15ProximityReader9AnalyticsV18DiscoveryErrorTypeV
+- _symbolic _____ 15ProximityReader9AnalyticsV23DiscoveryContentVersionV
+- _symbolic _____ 15ProximityReader9AnalyticsV23DiscoveryScrollQuantileV
+- _symbolic _____ 15ProximityReader9AnalyticsV25AccessibilityPINEntryTypeV
+- _symbolic _____ 15ProximityReader9AnalyticsV29PrivacyLockCancelationTriggerV
+- _symbolic _____ 15ProximityReader9AnalyticsV3KeyV
+- _symbolic _____ 15ProximityReader9AnalyticsV6ButtonV
+- _symbolic _____ 15ProximityReader9AnalyticsV6ClientV
+- _symbolic _____ 15ProximityReader9AnalyticsV7PageTagV
+- _symbolic _____ 15ProximityReader9AnalyticsV7ServiceV
+- _symbolic _____ 15ProximityReader9AnalyticsV9ButtonTagV
+- _symbolic _____ 15ProximityReader9AnalyticsV9ErrorTypeV
+- _symbolic _____ 15ProximityReader9AnalyticsV9EventTypeV
+- _symbolic _____ 15ProximityReader9AnalyticsV9PINBypassV
+- _symbolic _____ 15ProximityReader9ConstantsV
+- _symbolic _____ 15ProximityReader9ErrorCodeV
+- _symbolic _____ 15ProximityReader9ErrorCodeV13AuthorizationV
+- _symbolic _____ 15ProximityReader9ErrorCodeV15MerchantManagerV
+- _symbolic _____ 15ProximityReader9JwtHeaderV
+- _symbolic _____ 15ProximityReader9JwtHeaderV10CodingKeys33_B36966F143C05AAE8DA8ED93F3E4612BLLO
+- _symbolic _____ 15ProximityReader9JwtHelperV
+- _symbolic _____ 15ProximityReader9JwtHelperV10CodingKeys33_B36966F143C05AAE8DA8ED93F3E4612BLLO
+- _symbolic _____ 15ProximityReader9StatusKeyV
+- _symbolic _____ 15ProximityReader9UtilitiesC
+- _symbolic _____ 2os12OSSignpostIDV
+- _symbolic _____ SS5IndexV
+- _symbolic _____ So18NSFileAttributeKeya
+- _symbolic _____ So20NSFileProtectionTypea
+- _symbolic _____3key_yp5valuet s11AnyHashableV
+- _symbolic _____Sg 10Foundation6LocaleV
+- _symbolic _____Sg 10Foundation6LocaleV12LanguageCodeV
+- _symbolic _____Sg 10Foundation6LocaleV6RegionV
+- _symbolic _____Sg 10Foundation6LocaleV6ScriptV
+- _symbolic _____Sg 10Foundation8TimeZoneV
+- _symbolic _____Sg 15ProximityReader17AnalyticsReporterV
+- _symbolic _____Sg 15ProximityReader26CardEffectiveStateInternalO
+- _symbolic _____Sg 15ProximityReader27CardExpirationStateInternalO
+- _symbolic _____Sg 15ProximityReader39MobileDriversLicenseViewOptionsInternalC14ValidationModeO
+- _symbolic _____Sg 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV16IssuingAuthorityV
+- _symbolic _____Sg 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV19DHSComplianceStatusO
+- _symbolic _____Sg 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV12VehicleClassV
+- _symbolic _____Sg 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO
+- _symbolic _____Sg 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV7AddressV
+- _symbolic _____Sg 9CryptoKit4P256O7SigningO10PrivateKeyV
+- _symbolic _____Sg So11CFStringRefa
+- _symbolic _____Sg So21CFUserNotificationRefa
+- _symbolic _____Sg_ABt 10Foundation6LocaleV12LanguageCodeV
+- _symbolic _____Sg_ABt 10Foundation6LocaleV6RegionV
+- _symbolic _____Sg_ABt 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV12VehicleClassV
+- _symbolic _____XMT 15ProximityReader9UtilitiesC
+- _symbolic ___________6amountSi8paymentst 15ProximityReader20PaymentCycleInternalO So9NSDecimala
+- _symbolic ______p 10Foundation15ContiguousBytesP
+- _symbolic ______p 15ProximityReader08IdentityB16ServiceInterfaceP
+- _symbolic ______p 15ProximityReader31PaymentTerminalServiceInterfaceP
+- _symbolic ______pScCy___________pGIeghnn_ 15ProximityReader08IdentityB16ServiceInterfaceP AA31MobileDriversLicenseDataRequestV8ResponseV s5ErrorP
+- _symbolic ______pScCy___________pGIeghnn_ 15ProximityReader08IdentityB16ServiceInterfaceP AA31MobileNationalIDCardDataRequestV8ResponseV s5ErrorP
+- _symbolic ______pScCy___________pGIeghnn_ 15ProximityReader08IdentityB16ServiceInterfaceP AA34MobileDriversLicenseDisplayRequestV8ResponseV s5ErrorP
+- _symbolic ______pScCy___________pGIeghnn_ 15ProximityReader08IdentityB16ServiceInterfaceP AA34MobileDriversLicenseRawDataRequestV8ResponseV s5ErrorP
+- _symbolic ______pScCy___________pGIeghnn_ 15ProximityReader08IdentityB16ServiceInterfaceP AA34MobileNationalIDCardDisplayRequestV8ResponseV s5ErrorP
+- _symbolic ______pScCy___________pGIeghnn_ 15ProximityReader08IdentityB16ServiceInterfaceP AA34MobileNationalIDCardRawDataRequestV8ResponseV s5ErrorP
+- _symbolic ______pScCyyt______pGIeghnn_ 15ProximityReader08IdentityB16ServiceInterfaceP s5ErrorP
+- _symbolic ______pSg 10Foundation15ContiguousBytesP
+- _symbolic ______pSg 15ProximityReader08IdentityB16ServiceInterfaceP
+- _symbolic ______ypt So18NSFileAttributeKeya
+- _symbolic ______ypt s11AnyHashableV
+- _symbolic _____yS2SG s18_DictionaryStorageC
+- _symbolic _____ySJG s23_ContiguousArrayStorageC
+- _symbolic _____ySOySucG s18_DictionaryStorageC
+- _symbolic _____ySSG s23_ContiguousArrayStorageC
+- _symbolic _____ySS_____G s18_DictionaryStorageC 15ProximityReader11CurrencyDefV
+- _symbolic _____ySS_____G s18_DictionaryStorageC 15ProximityReader17AnalyticsReporterV
+- _symbolic _____ySS______tG s23_ContiguousArrayStorageC 15ProximityReader11CurrencyDefV
+- _symbolic _____ySS_yptG s23_ContiguousArrayStorageC
+- _symbolic _____ySSyXlG s18_DictionaryStorageC
+- _symbolic _____ySSypG s18_DictionaryStorageC
+- _symbolic _____ySdG s23_ContiguousArrayStorageC
+- _symbolic _____ySfG s23_ContiguousArrayStorageC
+- _symbolic _____ySiG s23_ContiguousArrayStorageC
+- _symbolic _____ySiSaySSGG s18_DictionaryStorageC
+- _symbolic _____ySi_SaySSGtG s23_ContiguousArrayStorageC
+- _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
+- _symbolic _____ySsG s23_ContiguousArrayStorageC
+- _symbolic _____y_____G s11_SetStorageC 10Foundation8CalendarV9ComponentO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO07NetworkG10CodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO0E17TimeoutCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO0e10ConnectionG10CodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO10CodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO17UnknownCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO19CancelledCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO20NotAllowedCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO20SystemBusyCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO21NfcDisabledCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO21NfcOverheatCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO22InvalidTokenCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO22NotSupportedCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO24InvalidRequestCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO24SessionExpiredCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO25InvalidResponseCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO26AccountSignedOutCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO26PasscodeDisabledCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO27BluetoothDisabledCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO28ServiceUnavailableCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO31OsVersionNotSupportedCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO37ContinuityDisplayNotAllowedCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO37NfcNegotiatedHandoverFailedCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO38AccountTwoFactorAuthRequiredCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO46TermsAndConditionsAcceptanceRequiredCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader15ContentInternalV10CodingKeys33_EDB9054EF000ED6A8CD319BF83BDEB77LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader15MerchantDetailsV10CodingKeys33_AC3CC92B33A46FA47889C110393A91DELLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader16RegistrationTypeO10CodingKeys33_9EDAB0EBF86BD6D60A73766762CAA0B5LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader16RegistrationTypeO18IdentityCodingKeys33_9EDAB0EBF86BD6D60A73766762CAA0B5LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader16RegistrationTypeO18TapToPayCodingKeys33_9EDAB0EBF86BD6D60A73766762CAA0B5LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader17AnalyticsReporterV10CodingKeysO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader19IdentityInformationC10CodingKeys33_ACCC020274359DCDE08BEA43F5642544LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader20IdentityDocumentTypeO10CodingKeys33_41546A030660639EBCF1FA831873F93ELLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader20IdentityDocumentTypeO24DriversLicenseCodingKeys33_41546A030660639EBCF1FA831873F93ELLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader20IdentityDocumentTypeO24NationalIDCardCodingKeys33_41546A030660639EBCF1FA831873F93ELLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader20PaymentCycleInternalO10CodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader20PaymentCycleInternalO16WeeklyCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader20PaymentCycleInternalO16YearlyCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader20PaymentCycleInternalO17MonthlyCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader22DiscoveryAnalyticsDataV10CodingKeys33_6DF954CDACCF0FAD98B3D991518159CCLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader23IdentityInternalRequestV10CodingKeys33_41546A030660639EBCF1FA831873F93ELLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader23IdentityMerchantDetailsV0G5ImageO0G22CategoryCodeCodingKeys33_599A0CFB44273BE8E58D040716844AD2LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader23IdentityMerchantDetailsV0G5ImageO0I14DataCodingKeys33_599A0CFB44273BE8E58D040716844AD2LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader23IdentityMerchantDetailsV0G5ImageO10CodingKeys33_599A0CFB44273BE8E58D040716844AD2LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader23IdentityMerchantDetailsV10CodingKeys33_599A0CFB44273BE8E58D040716844AD2LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader27IdentityDocumentRequestTypeO10CodingKeys33_41546A030660639EBCF1FA831873F93ELLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader27IdentityDocumentRequestTypeO13AgeCodingKeys33_41546A030660639EBCF1FA831873F93ELLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader27IdentityDocumentRequestTypeO14NameCodingKeys33_41546A030660639EBCF1FA831873F93ELLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader27IdentityDocumentRequestTypeO20AgeAndNameCodingKeys33_41546A030660639EBCF1FA831873F93ELLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader27IdentityDocumentRequestTypeO24DriversLicenseCodingKeys33_41546A030660639EBCF1FA831873F93ELLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader27IdentityDocumentRequestTypeO24NationalIDCardCodingKeys33_41546A030660639EBCF1FA831873F93ELLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader29MobileDocumentElementInternalO0G16NumberCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader29MobileDocumentElementInternalO0G19IssueDateCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader29MobileDocumentElementInternalO0G24ExpirationDateCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader29MobileDocumentElementInternalO0G29DHSComplianceStatusCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader29MobileDocumentElementInternalO10CodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader29MobileDocumentElementInternalO13AgeCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader29MobileDocumentElementInternalO13SexCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader29MobileDocumentElementInternalO17AddressCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader29MobileDocumentElementInternalO18PortraitCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader29MobileDocumentElementInternalO19GivenNameCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader29MobileDocumentElementInternalO20AgeAtLeastCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader29MobileDocumentElementInternalO20FamilyNameCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader29MobileDocumentElementInternalO21DateOfBirthCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader29MobileDocumentElementInternalO26IssuingAuthorityCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader29MobileDocumentElementInternalO27DrivingPrivilegesCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader36TransactionAmountDescriptionInternalO016PreauthorizationG10CodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader36TransactionAmountDescriptionInternalO09SurchargeG10CodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader36TransactionAmountDescriptionInternalO10CodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader36TransactionAmountDescriptionInternalO20MembershipCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader36TransactionAmountDescriptionInternalO21InstallmentCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader36TransactionAmountDescriptionInternalO26PreauthorizationCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader36TransactionAmountDescriptionInternalO26SurchargePercentCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader36TransactionAmountDescriptionInternalO33PreauthorizationReleaseCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader39MobileDriversLicenseDataRequestInternalC10CodingKeys33_075CCF7D5E2DBA040BD6781507F24554LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader39MobileDriversLicenseReadRequestInternalC10CodingKeys33_B753FFABD609196BE22387661A41A85FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader39MobileDriversLicenseViewOptionsInternalC10CodingKeys33_AA72FF7A0D3EDD5A37A20C17EBBD00A4LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader39MobileDriversLicenseViewRequestInternalC10CodingKeys33_AA72FF7A0D3EDD5A37A20C17EBBD00A4LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV16DrivingPrivilegeV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV16DrivingPrivilegeV4CodeV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV16IssuingAuthorityV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV19DHSComplianceStatusO10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV19DHSComplianceStatusO19CompliantCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV19DHSComplianceStatusO22NoncompliantCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV12VehicleClassV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV18VehicleEndorsementV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV18VehicleRestrictionV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO14MaleCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO16FemaleCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO17UnknownCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO22NotSpecifiedCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO23NotApplicableCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV7AddressV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader40MobileDriversLicenseViewResponseInternalC10CodingKeys33_BFA6BAB9DDC3C5966C98FA6D688F2075LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader40MobileDriversLicenseViewResponseInternalC17ValidationOutcomeO10CodingKeys33_BFA6BAB9DDC3C5966C98FA6D688F2075LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader40MobileDriversLicenseViewResponseInternalC17ValidationOutcomeO18ApprovedCodingKeys33_BFA6BAB9DDC3C5966C98FA6D688F2075LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader40MobileDriversLicenseViewResponseInternalC17ValidationOutcomeO18RejectedCodingKeys33_BFA6BAB9DDC3C5966C98FA6D688F2075LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader40MobileDriversLicenseViewResponseInternalC17ValidationOutcomeO19DismissedCodingKeys33_BFA6BAB9DDC3C5966C98FA6D688F2075LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO07NetworkG10CodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO0E17TimeoutCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO0e10ConnectionG10CodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO10CodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO17UnknownCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO19CancelledCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO20NotAllowedCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO20SystemBusyCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO21NfcDisabledCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO21NfcOverheatCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO22InvalidTokenCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO22NotSupportedCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO24InvalidRequestCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO24SessionExpiredCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO25InvalidResponseCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO26AccountSignedOutCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO26PasscodeDisabledCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO27BluetoothDisabledCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO28ServiceUnavailableCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO31OsVersionNotSupportedCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO37ContinuityDisplayNotAllowedCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO37NfcNegotiatedHandoverFailedCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO38AccountTwoFactorAuthRequiredCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader08IdentityE13ErrorInternalV4CodeO46TermsAndConditionsAcceptanceRequiredCodingKeys33_0278440CBB9047E200923FE35A12668FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader15ContentInternalV10CodingKeys33_EDB9054EF000ED6A8CD319BF83BDEB77LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader15MerchantDetailsV10CodingKeys33_AC3CC92B33A46FA47889C110393A91DELLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader16RegistrationTypeO10CodingKeys33_9EDAB0EBF86BD6D60A73766762CAA0B5LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader16RegistrationTypeO18IdentityCodingKeys33_9EDAB0EBF86BD6D60A73766762CAA0B5LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader16RegistrationTypeO18TapToPayCodingKeys33_9EDAB0EBF86BD6D60A73766762CAA0B5LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader17AnalyticsReporterV10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader19IdentityInformationC10CodingKeys33_ACCC020274359DCDE08BEA43F5642544LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader20IdentityDocumentTypeO10CodingKeys33_41546A030660639EBCF1FA831873F93ELLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader20IdentityDocumentTypeO24DriversLicenseCodingKeys33_41546A030660639EBCF1FA831873F93ELLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader20IdentityDocumentTypeO24NationalIDCardCodingKeys33_41546A030660639EBCF1FA831873F93ELLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader20PaymentCycleInternalO10CodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader20PaymentCycleInternalO16WeeklyCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader20PaymentCycleInternalO16YearlyCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader20PaymentCycleInternalO17MonthlyCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader22DiscoveryAnalyticsDataV10CodingKeys33_6DF954CDACCF0FAD98B3D991518159CCLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader23IdentityInternalRequestV10CodingKeys33_41546A030660639EBCF1FA831873F93ELLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader23IdentityMerchantDetailsV0G5ImageO0G22CategoryCodeCodingKeys33_599A0CFB44273BE8E58D040716844AD2LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader23IdentityMerchantDetailsV0G5ImageO0I14DataCodingKeys33_599A0CFB44273BE8E58D040716844AD2LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader23IdentityMerchantDetailsV0G5ImageO10CodingKeys33_599A0CFB44273BE8E58D040716844AD2LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader23IdentityMerchantDetailsV10CodingKeys33_599A0CFB44273BE8E58D040716844AD2LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader27IdentityDocumentRequestTypeO10CodingKeys33_41546A030660639EBCF1FA831873F93ELLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader27IdentityDocumentRequestTypeO13AgeCodingKeys33_41546A030660639EBCF1FA831873F93ELLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader27IdentityDocumentRequestTypeO14NameCodingKeys33_41546A030660639EBCF1FA831873F93ELLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader27IdentityDocumentRequestTypeO20AgeAndNameCodingKeys33_41546A030660639EBCF1FA831873F93ELLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader27IdentityDocumentRequestTypeO24DriversLicenseCodingKeys33_41546A030660639EBCF1FA831873F93ELLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader27IdentityDocumentRequestTypeO24NationalIDCardCodingKeys33_41546A030660639EBCF1FA831873F93ELLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader29MobileDocumentElementInternalO0G16NumberCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader29MobileDocumentElementInternalO0G19IssueDateCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader29MobileDocumentElementInternalO0G24ExpirationDateCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader29MobileDocumentElementInternalO0G29DHSComplianceStatusCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader29MobileDocumentElementInternalO10CodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader29MobileDocumentElementInternalO13AgeCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader29MobileDocumentElementInternalO13SexCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader29MobileDocumentElementInternalO17AddressCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader29MobileDocumentElementInternalO18PortraitCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader29MobileDocumentElementInternalO19GivenNameCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader29MobileDocumentElementInternalO20AgeAtLeastCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader29MobileDocumentElementInternalO20FamilyNameCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader29MobileDocumentElementInternalO21DateOfBirthCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader29MobileDocumentElementInternalO26IssuingAuthorityCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader29MobileDocumentElementInternalO27DrivingPrivilegesCodingKeys33_25808CD70381FDEC3D48E7C3BC97227DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader36TransactionAmountDescriptionInternalO016PreauthorizationG10CodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader36TransactionAmountDescriptionInternalO09SurchargeG10CodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader36TransactionAmountDescriptionInternalO10CodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader36TransactionAmountDescriptionInternalO20MembershipCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader36TransactionAmountDescriptionInternalO21InstallmentCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader36TransactionAmountDescriptionInternalO26PreauthorizationCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader36TransactionAmountDescriptionInternalO26SurchargePercentCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader36TransactionAmountDescriptionInternalO33PreauthorizationReleaseCodingKeys33_55FA90637A1866FD50F049AC08E0567FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader39MobileDriversLicenseDataRequestInternalC10CodingKeys33_075CCF7D5E2DBA040BD6781507F24554LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader39MobileDriversLicenseReadRequestInternalC10CodingKeys33_B753FFABD609196BE22387661A41A85FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader39MobileDriversLicenseViewOptionsInternalC10CodingKeys33_AA72FF7A0D3EDD5A37A20C17EBBD00A4LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader39MobileDriversLicenseViewRequestInternalC10CodingKeys33_AA72FF7A0D3EDD5A37A20C17EBBD00A4LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV16DrivingPrivilegeV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV16DrivingPrivilegeV4CodeV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV16IssuingAuthorityV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV19DHSComplianceStatusO10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV19DHSComplianceStatusO19CompliantCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV19DHSComplianceStatusO22NoncompliantCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV12VehicleClassV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV18VehicleEndorsementV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV18VehicleRestrictionV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO14MaleCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO16FemaleCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO17UnknownCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO22NotSpecifiedCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexO23NotApplicableCodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV7AddressV10CodingKeys33_C46D53FE4CBD7EB8BBCAB47CD80B657DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader40MobileDriversLicenseViewResponseInternalC10CodingKeys33_BFA6BAB9DDC3C5966C98FA6D688F2075LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader40MobileDriversLicenseViewResponseInternalC17ValidationOutcomeO10CodingKeys33_BFA6BAB9DDC3C5966C98FA6D688F2075LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader40MobileDriversLicenseViewResponseInternalC17ValidationOutcomeO18ApprovedCodingKeys33_BFA6BAB9DDC3C5966C98FA6D688F2075LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader40MobileDriversLicenseViewResponseInternalC17ValidationOutcomeO18RejectedCodingKeys33_BFA6BAB9DDC3C5966C98FA6D688F2075LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader40MobileDriversLicenseViewResponseInternalC17ValidationOutcomeO19DismissedCodingKeys33_BFA6BAB9DDC3C5966C98FA6D688F2075LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader9JwtHeaderV10CodingKeys33_B36966F143C05AAE8DA8ED93F3E4612BLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader9JwtHelperV10CodingKeys33_B36966F143C05AAE8DA8ED93F3E4612BLLO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation6LocaleV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation8CalendarV9ComponentO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 15ProximityReader17AnalyticsReporterV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 15ProximityReader29MobileDocumentElementInternalO
+- _symbolic _____y______pG 15ProximityReader30UncheckedSendableXPCConnectionV AA08IdentityB16ServiceInterfaceP
+- _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
+- _symbolic _____y______yptG s23_ContiguousArrayStorageC So18NSFileAttributeKeya
+- _symbolic _____y______yptG s23_ContiguousArrayStorageC s11AnyHashableV
+- _symbolic _____y_____ypG s18_DictionaryStorageC So18NSFileAttributeKeya
+- _symbolic _____y_____ypG s18_DictionaryStorageC s11AnyHashableV
+- _symbolic _____yyXlXpG s23_ContiguousArrayStorageC
+- _symbolic x______pIeghHrzo_ s5ErrorP
+- _symbolic yp
+- _symbolic ypXmT______t s13DecodingErrorO7ContextV
+- _symbolic ytSg
+- _symbolic ytSgIeAgHr_
+- block_copy_helper.101
+- block_copy_helper.116
+- block_copy_helper.118
+- block_copy_helper.122
+- block_copy_helper.124
+- block_copy_helper.137
+- block_copy_helper.141
+- block_copy_helper.143
+- block_copy_helper.147
+- block_copy_helper.156
+- block_copy_helper.162
+- block_copy_helper.17
+- block_copy_helper.32
+- block_copy_helper.38
+- block_copy_helper.53
+- block_copy_helper.59
+- block_copy_helper.77
+- block_copy_helper.80
+- block_copy_helper.92
+- block_copy_helper.95
+- block_descriptor.103
+- block_descriptor.118
+- block_descriptor.120
+- block_descriptor.124
+- block_descriptor.126
+- block_descriptor.139
+- block_descriptor.143
+- block_descriptor.145
+- block_descriptor.149
+- block_descriptor.158
+- block_descriptor.164
+- block_descriptor.19
+- block_descriptor.34
+- block_descriptor.40
+- block_descriptor.55
+- block_descriptor.61
+- block_descriptor.79
+- block_descriptor.82
+- block_descriptor.94
+- block_descriptor.97
+- block_destroy_helper.102
+- block_destroy_helper.117
+- block_destroy_helper.119
+- block_destroy_helper.123
+- block_destroy_helper.125
+- block_destroy_helper.138
+- block_destroy_helper.142
+- block_destroy_helper.144
+- block_destroy_helper.148
+- block_destroy_helper.157
+- block_destroy_helper.163
+- block_destroy_helper.18
+- block_destroy_helper.33
+- block_destroy_helper.39
+- block_destroy_helper.54
+- block_destroy_helper.60
+- block_destroy_helper.78
+- block_destroy_helper.81
+- block_destroy_helper.93
+- block_destroy_helper.96
+- objectdestroy.116Tm
+- objectdestroy.122Tm
+- objectdestroy.12Tm
+- objectdestroy.15Tm
+- objectdestroy.21Tm
+- objectdestroy.42Tm
+CStrings:
++ "An error occurred when retrieving the mobile document reader configuration: %{public}s"
++ "An error occurred whilst preparing the device for mobile document reading: %{public}s"
++ "An unexpected error happened, try again."
++ "Application not in foreground, returning from %s"
++ "Batch header was not populated"
++ "Calling capturePIN in a SAF session, not supported"
++ "Decline request failed because the read result can't be found."
++ "Decline request was made after the allowance time window."
++ "Error (%s): [%@]"
++ "Error (%s): a previous store request is running, returning busy"
++ "Error (%s): unexpected error received: [%@]"
++ "Error (decline): %@"
++ "Error (decline): unexpected error [%@]"
++ "Error (isAccountLinked): %s"
++ "Error (linkAccount): %s"
++ "Error (prepare): %s"
++ "Error (prepare): ErrorDetails.unknownSessionError"
++ "Error (readerIdentifier): %s"
++ "Error (readerIdentifier): nil"
++ "Error (status): %s"
++ "Error (status): nil result"
++ "Error (storeAndForwardStatus): %@"
++ "Error (storeAndForwardStatus): unexpected error [%@]"
++ "Error building batch"
++ "Invalid session was returned on prepare request"
++ "New token issuer cannot create a Store and Forward session"
++ "No transaction to decline"
++ "OS deprecation date: %s"
++ "PIN transaction ID is invalid"
++ "PREnableDiagnostics"
++ "PRSettingsProvider: diagnosticsForBundleID = %d"
++ "PRSettingsProvider: getEnableDiagnosticsForBundleID"
++ "PRSettingsProvider: setEnableDiagnostics"
++ "PRSettingsProvider: setEnableDiagnostics = %d"
++ "ProximityReader/PaymentCardReaderActor.swift"
++ "ProximityReader/ReadFeedbackInternal+externalize.swift"
++ "Received a batch of [%ld] transaction(s)"
++ "Received batch header:\n%@"
++ "Requested batch size is not valid: [%ld]"
++ "Result (isAccountLinked): returned %{bool}d"
++ "Result (linkAccount): result is false, linkAccount cancelled"
++ "Result (linkAccount): success"
++ "Result (prepare): Unexpected session type"
++ "Result (prepare): session created"
++ "Result (readerIdentifier): success %s"
++ "Result (status): success"
++ "Result (storeAndForwardStatus): %@"
++ "Returning a new MobileDocumentReaderSession"
++ "Returning batch result with [%ld] transactions"
++ "Store and Forward mode is not allowed"
++ "Store and Forward session is expired"
++ "Store and Forward session was invalidated"
++ "Success (decline): Transaction declined"
++ "Transactions received[%ld] do not match the requested[%ld]"
++ "Unknown"
++ "Unknown StoreErrorInternal: %@"
++ "Unknown card effective state: %s"
++ "Unknown card expiration state: %s"
++ "Unknown error was returned from Identity service on prepare request: [ %@ ]"
++ "Unknown error was returned from Identity service on read config request: [ %@ ]"
++ "Unknown read feeeback type: "
++ "Unknown read outcome: %s"
++ "Unknown session type "
++ "Unknown transaction data type [%ld]"
++ "Unknown transaction description type: %s"
++ "_TtC15ProximityReader12BatchBuilder"
++ "_TtC15ProximityReader27PaymentCardReaderStoreActor"
++ "_TtC15ProximityReader32PaymentReadResultStorageDelegate"
++ "_TtC15ProximityReader39StoreAndForwardPaymentCardReaderSession"
++ "_TtP19ProximityReaderCore30IdentityReaderServiceInterface_"
++ "_TtP19ProximityReaderCore30PaymentTerminalServiceDelegate_"
++ "_TtP19ProximityReaderCore30PaymentTerminalStorageDelegate_"
++ "_TtP19ProximityReaderCore31PaymentTerminalServiceInterface_"
++ "_TtP19ProximityReaderCore31PaymentTerminalStorageInterface_"
++ "added updateHandlers=%ld"
++ "allowMockIssuerPIN"
++ "backgroundAllowed"
++ "blockBlobGeneration"
++ "busy on prepare, no clean up"
++ "bypassSAFTokenGeneration"
++ "bypassSAFTokenValidation"
++ "capturePIN(using:cardReaderTransactionID:)"
++ "cardReadPreconditionError"
++ "classesForSelector:argumentIndex:ofReply:"
++ "closeSessionWithDelete:backgrounded:"
++ "createContextWithCompletion:"
++ "currentOSVersionDeprecationDate"
++ "declineTransaction:completionHandler:"
++ "decrementReader(_:)"
++ "delegate"
++ "delegateInterface"
++ "disableTapGuide"
++ "doneDelay"
++ "enableAnalytics"
++ "fetchStoredPaymentCardReadResultBatch(size:)"
++ "fetchStoredPaymentCardReadResultBatchWithSize:completionHandler:"
++ "fetchStoredPaymentCardReadResultCount()"
++ "fetchStoredPaymentCardReadResultCountWithCompletionHandler:"
++ "forceContentNotFoundError"
++ "forceInternalAppState"
++ "forceMMGError"
++ "forceSessionExpiration"
++ "forceUIAssert"
++ "getEnableDiagnosticsForBundleID:"
++ "getTerminalId() - retrieve from cache"
++ "header"
++ "incrementReader(_:)"
++ "intermediateCertificate"
++ "isAccountLinked(using:)"
++ "lastCardReadTransactionID"
++ "linkAccount(using:)"
++ "linkAccount(using:relink:)"
++ "localUIMode"
++ "mockCardPrefLang"
++ "mockCountryCode"
++ "mockJCOPError"
++ "mockLogoURL"
++ "mockMBN"
++ "mockMCC"
++ "mockOSVersion"
++ "mockSPRConfigError"
++ "mockSecurePairingBroken"
++ "mockTapDelay"
++ "osVersionDeprecation"
++ "paymentCardReadResultsWithBatch:completionHandler:"
++ "payments"
++ "prepare(sessionType:options:signPost:)"
++ "prepare(using:options:)"
++ "prepare(using:options:updateHandler:)"
++ "prepare(using:updateHandler:)"
++ "prepareStoreAndForward(options:)"
++ "qrScannerTimeoutAfter60"
++ "read(_:_:eventHandler:)"
++ "readPaymentCard(_:)"
++ "readPaymentCard(_:eventHandler:)"
++ "readPaymentCard(_:vasRequest:stopOnVASResult:)"
++ "readPaymentCard(_:vasRequest:stopOnVASResult:eventHandler:)"
++ "readVAS(_:eventHandler:)"
++ "reader [%s], [%ld]"
++ "readerForcePIN"
++ "readerModeMismatch"
++ "registerObserver(observer:)"
++ "relinkAccount(using:)"
++ "removed updateHandlers=%ld"
++ "requestDocument(_:)"
++ "resetBatchState()"
++ "resetBatchStateWithCompletionHandler:"
++ "resolveBatch(batchDeletionToken:)"
++ "resolveBatchWithBatchDeletionToken:completionHandler:"
++ "retrieveConnection()"
++ "retrieveConnection(isRead:)"
++ "safDBCorrupted"
++ "safDBException"
++ "safReplicateTransaction"
++ "safSessionExpirationInterval"
++ "safTransactionExpirationInterval"
++ "serverSessionURL"
++ "sessionDeleteAll"
++ "sessionExpiration"
++ "setClasses:forSelector:argumentIndex:ofReply:"
++ "setEnableDiagnostics:forBundleID:"
++ "sprFailCardReaderBlob"
++ "sprForceCardDeclined"
++ "sprMemoryFull"
++ "sprSkipInstall"
++ "startSession:completion:"
++ "storeAndForwardDecline(_:)"
++ "storeAndForwardDeclineFailed"
++ "storeAndForwardNotAllowed"
++ "storeAndForwardResultNotFound"
++ "storeAndForwardSessionExpired"
++ "storeAndForwardSessionInvalidated"
++ "storeAndForwardStatus(_:)"
++ "storeAndForwardStatusWithCompletionHandler:"
++ "storeAndForwardTokenIssuerChanged"
++ "unknownErrorTriggerPoint"
++ "unregisterObserver(observer:)"
++ "unused"
++ "useProxSensorTap"
++ "v16@?0B8B12"
++ "v20@?0B8@\"_TtC19ProximityReaderCore23CardReaderErrorInternal\"12"
++ "v24@0:8@?<v@?@\"NSString\"@\"_TtC19ProximityReaderCore23CardReaderErrorInternal\">16"
++ "v24@0:8@?<v@?@\"_TtC19ProximityReaderCore29IdentityConfigurationInternal\"@\"NSError\">16"
++ "v24@0:8@?<v@?@\"_TtC19ProximityReaderCore29StoreAndForwardStatusInternal\"@\"NSError\">16"
++ "v24@0:8@?<v@?BB>16"
++ "v24@0:8@?<v@?q@\"NSError\">16"
++ "v24@?0@\"NSDictionary\"8@\"_TtC19ProximityReaderCore23CardReaderErrorInternal\"16"
++ "v24@?0@\"NSString\"8@\"NSError\"16"
++ "v24@?0@\"NSString\"8@\"_TtC19ProximityReaderCore23CardReaderErrorInternal\"16"
++ "v24@?0@\"_TtC19ProximityReaderCore10ReadResult\"8@\"NSError\"16"
++ "v24@?0@\"_TtC19ProximityReaderCore13SessionResult\"8@\"_TtC19ProximityReaderCore23CardReaderErrorInternal\"16"
++ "v24@?0@\"_TtC19ProximityReaderCore29IdentityConfigurationInternal\"8@\"NSError\"16"
++ "v24@?0@\"_TtC19ProximityReaderCore29StoreAndForwardStatusInternal\"8@\"NSError\"16"
++ "v24@?0@\"_TtC19ProximityReaderCore34StoreAndForwardBatchHeaderInternal\"8@\"NSError\"16"
++ "v24@?0@\"_TtC19ProximityReaderCore40MobileDriversLicenseDataResponseInternal\"8@\"NSError\"16"
++ "v24@?0@\"_TtC19ProximityReaderCore40MobileDriversLicenseReadResponseInternal\"8@\"NSError\"16"
++ "v24@?0@\"_TtC19ProximityReaderCore40MobileDriversLicenseViewResponseInternal\"8@\"NSError\"16"
++ "v24@?0q8@\"NSError\"16"
++ "v32@0:8@\"NSArray\"16@?<v@?>24"
++ "v32@0:8@\"NSString\"16@?<v@?@\"NSDictionary\"@\"_TtC19ProximityReaderCore23CardReaderErrorInternal\">24"
++ "v32@0:8@\"NSString\"16@?<v@?B@\"_TtC19ProximityReaderCore23CardReaderErrorInternal\">24"
++ "v32@0:8@\"NSString\"16@?<v@?q@\"NSError\">24"
++ "v32@0:8@\"NSUUID\"16@?<v@?@\"NSError\">24"
++ "v32@0:8@\"_TtC19ProximityReaderCore19TransactionInternal\"16@?<v@?@\"_TtC19ProximityReaderCore10ReadResult\"@\"NSError\">24"
++ "v32@0:8@\"_TtC19ProximityReaderCore22SessionRequestInternal\"16@?<v@?@\"_TtC19ProximityReaderCore13SessionResult\"@\"_TtC19ProximityReaderCore23CardReaderErrorInternal\">24"
++ "v32@0:8@\"_TtC19ProximityReaderCore39MobileDriversLicenseDataRequestInternal\"16@?<v@?@\"_TtC19ProximityReaderCore40MobileDriversLicenseDataResponseInternal\"@\"NSError\">24"
++ "v32@0:8@\"_TtC19ProximityReaderCore39MobileDriversLicenseReadRequestInternal\"16@?<v@?@\"_TtC19ProximityReaderCore40MobileDriversLicenseReadResponseInternal\"@\"NSError\">24"
++ "v32@0:8@\"_TtC19ProximityReaderCore39MobileDriversLicenseViewRequestInternal\"16@?<v@?@\"_TtC19ProximityReaderCore40MobileDriversLicenseViewResponseInternal\"@\"NSError\">24"
++ "v32@0:8q16@?24"
++ "v32@0:8q16@?<v@?@\"_TtC19ProximityReaderCore34StoreAndForwardBatchHeaderInternal\"@\"NSError\">24"
++ "v36@0:8@\"NSString\"16B24@?<v@?B@\"_TtC19ProximityReaderCore23CardReaderErrorInternal\">28"
++ "v40@0:8@\"NSString\"16@\"NSUUID\"24@?<v@?@\"_TtC19ProximityReaderCore10ReadResult\"@\"NSError\">32"
++ "visibleDrawNumber"
+- "\n    ---------------------------------------"
+- "\n    casdCertificate: "
+- "\n    pinCipherBlob: "
+- "\n    pinKeyBlob: "
+- "\n    seAttestation: "
+- "               locale = %s"
+- "            contentId = %s"
+- "            eventType = %s"
+- "         errorType = %s"
+- "        appIdPresence = %{bool}d"
+- "        contentRegion = %s"
+- "       contentVersion = %s"
+- "     contentSessionId = %s"
+- "    ---------------------------------------\n    pinBypass : "
+- "    contentScrollable = %{bool}d"
+- " ]\nDisplay Elements: [ "
+- " ]\nDisplay Options: [ "
+- " ]\nNon Retained Elements: [ "
+- " ]\nRetained Elements: [ "
+- " ]\nSession Identifier: [ "
+- "*-*-*-* proxreader - DiscoveryAnalyticsData"
+- ", CurrencyCode: "
+- ".cxx_destruct"
+- "/ContactlessReader/"
+- "0ad7bdab-d99d-45d9-b715-e79405ffb3fd"
+- "@16@0:8"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "AABranding"
+- "ALREADY_REGISTERED"
+- "APPLE_ACCOUNT_SIGN_IN_ALERT_MESSAGE"
+- "APPLE_ACCOUNT_SIGN_IN_ALERT_TITLE"
+- "AccountAuth | Failed to decode object"
+- "Action not allowed with this token."
+- "Already showing, don't show another one"
+- "America/Los_Angeles"
+- "AnalyticsReporter"
+- "App bundle ID is not supported by the token."
+- "App bundle ID is not supported by this token."
+- "AppleAccount"
+- "Assertion"
+- "Attestation failed due to clock issue"
+- "Attestation has wrong format or is expired"
+- "B16@0:8"
+- "BLUETOOTH_DISABLED_ALERT_MESSAGE"
+- "BLUETOOTH_DISABLED_ALERT_TITLE"
+- "BaselineErrorDialog callback notification is nil"
+- "BaselineErrorDialog callback object not found"
+- "Bluetooth Required Alert was dismissed"
+- "Cached at: %s"
+- "Can't construct Array with count < 0"
+- "Cancelled"
+- "Cannot renew certificate"
+- "CardReaderErrorInternal | Failed to decode object"
+- "Clear logo"
+- "Configuration endpoint not found"
+- "Could not configure reader"
+- "Could not create baselineErrorDialog: %d"
+- "Could not create the RTCReporting object"
+- "Could not delete Analytics session: [%@]"
+- "Could not delete Analytics session: [%s]"
+- "Could not find parent session with ID: [%s]"
+- "Could not generate JWT token"
+- "Could not generate URL for BT settings"
+- "Could not generate URL for NFC settings"
+- "Could not generate URL for iCloud sign in settings"
+- "Could not generate URL for iCloud two factor settings"
+- "Could not generate URL for passcode settings"
+- "Could not load Analytics session: [%@]"
+- "Could not load Analytics sessions: [%@]"
+- "Could not read image file"
+- "Could not save Analytics session: [%@]"
+- "Could not save merchant logo: %s"
+- "Could not send session event: [%s]"
+- "Did not receive logo data from provided logoURL"
+- "DiscoveryAnalyticsData - failed to encode object"
+- "ERROR_LOW_MEMORY_DETAIL"
+- "ERROR_LOW_MEMORY_TITLE"
+- "ERROR_PROFILE_OS_NOT_SUPPORTED_DETAIL"
+- "ERROR_PROFILE_OS_NOT_SUPPORTED_DETAIL_IDENTITY"
+- "ERROR_PROFILE_OS_NOT_SUPPORTED_TITLE"
+- "ERROR_RESTORE_OS_DETAIL"
+- "ERROR_RESTORE_OS_TITLE"
+- "Empty logo directory: %s"
+- "EmptyDeviceID"
+- "EmptyInstallerID"
+- "Error [%s] mapping Data to %s"
+- "Error during session creation"
+- "Error encoding %s to JSON"
+- "Error extracting JWT payload value"
+- "Error json->dictionary"
+- "Error occurred when retrieving logo directories: %s"
+- "Error received when fetching merchant logo: %s"
+- "Error signing Digest: [%s]"
+- "Error using service: [ %@ ]"
+- "Fail to decode the provided token."
+- "Install"
+- "Insufficient space allocated to copy string contents"
+- "Invalid installation identifier"
+- "Invalid key path"
+- "Invalid number of keys found, expected one."
+- "Invalid partner data parameter."
+- "Invalid reader script"
+- "InvalidEnvironment"
+- "JSONObjectWithData:options:error:"
+- "Logo: %s"
+- "Must take zero or more splits"
+- "NFC Required Alert was dismissed"
+- "NFC_DISABLED_ALERT_MESSAGE"
+- "NFC_DISABLED_ALERT_TITLE"
+- "NSCoding"
+- "NSSecureCoding"
+- "No Alternate button handler"
+- "No Other button handler"
+- "No account"
+- "NoContext"
+- "NoDelegate"
+- "Non 200 response"
+- "Not Now"
+- "Not reporting to AutoBugCapture because it is not available on this platform: %s"
+- "PASSCODE_ALERT_MESSAGE"
+- "PASSCODE_ALERT_TITLE"
+- "PINConfiguration | Failed to decode object"
+- "PINData | Failed to decode object"
+- "PREnableAlwaysPlaySound-"
+- "PREnablePrivacyLockKey-"
+- "Partner data not found."
+- "Passcode alert was dismissed"
+- "Payment only"
+- "Preferred Locale Identifier: [ "
+- "Primary email is good"
+- "PrivateFrameworks/ContactlessReaderUI.framework"
+- "ProximityReader"
+- "ProximityReader.AccountAuth"
+- "ProximityReader.Assertion."
+- "ProximityReader.CardReaderErrorInternal"
+- "ProximityReader.DiscoveryErrorInternal"
+- "ProximityReader.IdentityConfigurationInternal"
+- "ProximityReader.IdentityInformation"
+- "ProximityReader.InternalOptions"
+- "ProximityReader.MobileDriversLicenseDataRequestInternal"
+- "ProximityReader.MobileDriversLicenseDataResponseInternal"
+- "ProximityReader.MobileDriversLicenseReadRequestInternal"
+- "ProximityReader.MobileDriversLicenseReadResponseInternal"
+- "ProximityReader.MobileDriversLicenseViewOptionsInternal"
+- "ProximityReader.MobileDriversLicenseViewRequestInternal"
+- "ProximityReader.MobileDriversLicenseViewResponseInternal"
+- "ProximityReader.PINConfiguration"
+- "ProximityReader.PINData"
+- "ProximityReader.ReadErrorInternal"
+- "ProximityReader.ReadOutcomeInternal"
+- "ProximityReader.ReadResult"
+- "ProximityReader.StoreAndForwardStatusInternal"
+- "ProximityReader.StoreAndForwardValidationDataInternal"
+- "ProximityReader.TransactionInternal"
+- "ProximityReader.VASMerchantInternal"
+- "ProximityReader.VASReadEntry"
+- "ProximityReader.VASResultArrayWrapper"
+- "ProximityReaderSignpost"
+- "ProximityReader_Localizable"
+- "RTC storebag found!"
+- "RTC storebag was NOT found!"
+- "Range requires lowerBound <= upperBound"
+- "ReadResultInternal | Failed to decode object"
+- "Reader ID is not supported by this token."
+- "Reader applet temporally not available"
+- "Reader attestation error"
+- "Reader configuration cannot be read"
+- "Reader configuration expired"
+- "Reader configuration incompatible baseline"
+- "Reader configuration not valid"
+- "Reader configuration wrong format"
+- "Reader could not be attested"
+- "Reader could not be prepared"
+- "Reader error during attestation"
+- "Reader initialized by wrong component"
+- "Reader install failed"
+- "Reader is not initialized"
+- "Reader secure pairing violation"
+- "Reader software update issue"
+- "Releasing session: [%s]"
+- "Secure message format error"
+- "Secure service error"
+- "Secure session is busy"
+- "ServerEnvironmentPSP"
+- "ServerEnvironmentSPS"
+- "ServerEnvironmentWCS"
+- "Service not available to create a session"
+- "Session Identifier: [ "
+- "Session [%s] released"
+- "Session format error"
+- "StoreAndForwardStatusInternal | Failed to decode object"
+- "StoreAndForwardValidationDataInternal | Failed to decode object"
+- "Stored session is invalid"
+- "Swift/Array.swift"
+- "Swift/Collection.swift"
+- "Swift/ContiguousArrayBuffer.swift"
+- "Swift/Range.swift"
+- "Swift/StringTesting.swift"
+- "Swift/StringUTF8View.swift"
+- "Swift/UnsafeBufferPointer.swift"
+- "Swift/UnsafePointer.swift"
+- "Swift/UnsafeRawPointer.swift"
+- "T@\"NSString\",N,R"
+- "TB,N"
+- "TB,N,R"
+- "TB,R"
+- "TWO_FACTOR_AUTH_ALERT_MESSAGE"
+- "TWO_FACTOR_AUTH_ALERT_TITLE"
+- "The Alert timed out"
+- "The claim: [ %s ] could not be found or have different value types"
+- "The claim: [ %s ] does not match or could not be compared"
+- "The environment is not supported"
+- "The time could not be synchronized"
+- "The token does not have the same configuration as the one used in the last online session"
+- "The token does not support store and forward"
+- "The token is missing the 'exp' claim"
+- "This token cannot be used with a sandbox test account."
+- "This token requires a sandbox test account from Apple Developer account."
+- "Token data invalid."
+- "Token data not found."
+- "Token does not have 'exp' claim"
+- "Token is expired: [%s]"
+- "Token is invalid."
+- "Token key environment is not acceptable."
+- "Token key has incorrect date format."
+- "Token key is expired."
+- "Token key is invalid."
+- "Token key is not yet valid."
+- "Token key type is not acceptable."
+- "Token or other payload is too large"
+- "TransactionInternal | Failed to decode object"
+- "TransactionType: "
+- "UI Bundle not found, unable to check Locales"
+- "Unable to resolve logo path"
+- "Unexpected baselineErrorDialog responseCode: %lu"
+- "Unexpected error type"
+- "Unexpected reader error"
+- "Unexpected response received from Alert"
+- "Unexpected session data"
+- "Unexpected session error"
+- "Unexpectedly found nil while unwrapping an Optional value"
+- "UnsafeMutableBufferPointer with negative count"
+- "UnsafeMutablePointer.initialize overlapping range"
+- "UnsafeMutablePointer.initialize with negative count"
+- "UnsafeMutablePointer.moveInitialize with negative count"
+- "UnsafeMutableRawPointer.initializeMemory overlapping range"
+- "User name is good"
+- "VASMerchantInternal | Failed to decode object"
+- "VASReadEntry | Failed to decode merchantIdentifier"
+- "VASResultArrayWrapper | Failed to decode object"
+- "ValidationMode: "
+- "Vas and payment"
+- "Vas only"
+- "Vas or payment"
+- "Virtual terminal ID is not supported by the token."
+- "_TtC15ProximityReader10ReadResult"
+- "_TtC15ProximityReader11AccountAuth"
+- "_TtC15ProximityReader11LogoManager"
+- "_TtC15ProximityReader12LocaleHelper"
+- "_TtC15ProximityReader12VASReadEntry"
+- "_TtC15ProximityReader14AnalyticsCache"
+- "_TtC15ProximityReader15InternalOptions"
+- "_TtC15ProximityReader16PINConfiguration"
+- "_TtC15ProximityReader19BaselineErrorDialog"
+- "_TtC15ProximityReader19CurrencyDefinitions"
+- "_TtC15ProximityReader19IdentityInformation"
+- "_TtC15ProximityReader19TransactionInternal"
+- "_TtC15ProximityReader19VASMerchantInternal"
+- "_TtC15ProximityReader21VASResultArrayWrapper"
+- "_TtC15ProximityReader23CardReaderErrorInternal"
+- "_TtC15ProximityReader29IdentityConfigurationInternal"
+- "_TtC15ProximityReader29StoreAndForwardStatusInternal"
+- "_TtC15ProximityReader37StoreAndForwardValidationDataInternal"
+- "_TtC15ProximityReader39MobileDriversLicenseDataRequestInternal"
+- "_TtC15ProximityReader39MobileDriversLicenseReadRequestInternal"
+- "_TtC15ProximityReader39MobileDriversLicenseViewOptionsInternal"
+- "_TtC15ProximityReader39MobileDriversLicenseViewRequestInternal"
+- "_TtC15ProximityReader40MobileDriversLicenseDataResponseInternal"
+- "_TtC15ProximityReader40MobileDriversLicenseReadResponseInternal"
+- "_TtC15ProximityReader40MobileDriversLicenseViewResponseInternal"
+- "_TtC15ProximityReader7PINData"
+- "_TtC15ProximityReader9Utilities"
+- "_TtC15ProximityReaderP33_3716CC6506213A5054A49C8E0F33F1E322AutoBugCaptureReporter"
+- "_TtP15ProximityReader10IdentityUI_"
+- "_TtP15ProximityReader13PINUIDelegate_"
+- "_TtP15ProximityReader13RegUIDelegate_"
+- "_TtP15ProximityReader13TapUIDelegate_"
+- "_TtP15ProximityReader13TransactionUI_"
+- "_TtP15ProximityReader18IdentityUIDelegate_"
+- "_TtP15ProximityReader21TransactionUIDelegate_"
+- "_TtP15ProximityReader22IdentityRegistrationUI_"
+- "_TtP15ProximityReader23ForegroundStateObserver_"
+- "_TtP15ProximityReader25DiscoveryServiceInterface_"
+- "_TtP15ProximityReader30IdentityReaderServiceInterface_"
+- "_TtP15ProximityReader30IdentityRegistrationUIDelegate_"
+- "_TtP15ProximityReader30PaymentTerminalServiceDelegate_"
+- "_TtP15ProximityReader31PaymentTerminalServiceInterface_"
+- "_TtP15ProximityReader5PINUI_"
+- "_TtP15ProximityReader5RegUI_"
+- "_TtP15ProximityReader5TapUI_"
+- "aa_primaryAppleAccount"
+- "aa_primaryEmail"
+- "aamvaDrivingPrivileges"
+- "accessibilityPinEntryType"
+- "accountSignedOut"
+- "accountTwoFactorAuthRequired"
+- "activationID"
+- "additionalTrustedIssuerCertificates"
+- "age"
+- "ageAtLeastElements"
+- "allowPINBypass"
+- "altDsId"
+- "alwaysPlaySound"
+- "amount"
+- "array"
+- "attestationRequired"
+- "banExpirationTime"
+- "baselineNotification"
+- "blockForNotification"
+- "blockForNotification response = %lu"
+- "bluetoothDisabled"
+- "both primary email and username are empty"
+- "bundleIdentifier"
+- "bundleURL"
+- "bundleWithIdentifier:"
+- "cache"
+- "canEvaluatePolicy:error:"
+- "cancelQRCodeScanning"
+- "cancelRegistration"
+- "cancelRequestWithCompletionHandler:"
+- "cardInfoDelivered"
+- "cardInfoNotDelivered"
+- "cardNotSupported"
+- "cardPreferredLocaleIdentifier"
+- "cardReaderBlob"
+- "casdCertificateHex"
+- "closeIdentityRegUI"
+- "closePINUI"
+- "closePINUIImmediate"
+- "closeRegUI"
+- "closeRegUIImmediate"
+- "closeSession:"
+- "closeUI"
+- "closeUIImmediate"
+- "com.apple.ContactlessReaderUI"
+- "com.apple.Foundation"
+- "com.apple.ProximityReader"
+- "com.apple.ProximityReaderUIService"
+- "com.apple.developer.proximity-reader.identity.display"
+- "com.apple.developer.proximity-reader.identity.read"
+- "com.apple.gs.contactlessreader.auth"
+- "com.apple.internal.ProximityReaderPerf"
+- "com.apple.merchantd.AutoBugCaptureManager"
+- "com.apple.merchantd.discovery"
+- "com.apple.merchantd.identity"
+- "com.apple.merchantd.internals"
+- "com.apple.merchantd.transaction"
+- "com.apple.onboarding.appleid"
+- "com.apple.onboarding.contactlessAcceptance"
+- "com.apple.proximityreader"
+- "com.apple.proximityreader.identityreadererror.code"
+- "com.apple.proximityreader.identityreadererror.debugDescription"
+- "connectionTimeout"
+- "containsValueForKey:"
+- "contentDismissed"
+- "contentDisplayFailed"
+- "contentListWithCompletionHandler:"
+- "contentPresented"
+- "contentScrollQuantile"
+- "contentScrollQuantile = %s"
+- "contentScrollable"
+- "contentSessionID"
+- "contentSessionId"
+- "contentWithTopic:subtopic:completionHandler:"
+- "contentsOfDirectoryAtPath:error:"
+- "contentsOfDirectoryAtURL:includingPropertiesForKeys:options:error:"
+- "context"
+- "context-001-verify"
+- "context-002-environmentSelection"
+- "context-total-daemon"
+- "context-total-public"
+- "continuityDisplayNotAllowed"
+- "countryCode"
+- "createContext:completion:"
+- "createDirectoryAtURL:withIntermediateDirectories:attributes:error:"
+- "creationTimestamp"
+- "currencyCode"
+- "currentDevice"
+- "customerLocaleIdentifier"
+- "customerPreferredLocaleIdentifier"
+- "customerVASData"
+- "dataTaskWithURL:completionHandler:"
+- "dataTransferSubType"
+- "dataTransferType"
+- "dataType"
+- "dataWithJSONObject:options:error:"
+- "dealloc"
+- "decodeBoolForKey:"
+- "decodeIntegerForKey:"
+- "defaultManager"
+- "defaultWorkspace"
+- "description"
+- "deviceLocale"
+- "digest"
+- "dismissErrorForQROnly"
+- "dismissQRCodeScanning"
+- "displayIdentityInformation:"
+- "documentDHSComplianceStatus"
+- "documentElements"
+- "documentExpirationDate"
+- "documentIssueDate"
+- "documentType"
+- "drivingPrivileges"
+- "elements"
+- "encodeBool:forKey:"
+- "encodeInteger:forKey:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "encodedData"
+- "error parsing preferred language tag, array out of bounds"
+- "errorInDaemonWithError:"
+- "expiry"
+- "failWithError:"
+- "fileExistsAtPath:"
+- "finishDecoding"
+- "finishEncoding"
+- "generalCardData"
+- "getFilesMatching at: %s"
+- "gsToken"
+- "guidanceDismissed"
+- "hasCurrentCalls"
+- "hierarchyToken"
+- "hostPreferredLocaleIdentifier"
+- "hostUnexpectedDisconnect"
+- "iCloud signed out dialog was dismissed"
+- "iCloud two factor auth alert was dismissed"
+- "idVerifierDataTransfer"
+- "identifierForVendor"
+- "identity-001-identifier"
+- "identity-001-validate-request"
+- "identity-002-preFlightCheck"
+- "identity-003-showTapUI"
+- "identity-004-waiting-tap"
+- "identity-005-connecting-holder"
+- "identity-006-waiting-approval"
+- "identity-007-fetchMerchantDetails"
+- "identity-displayOnly-001-readerReady"
+- "identity-displayOnly-002-IdentityInfo"
+- "identity-identifier-total-public"
+- "identity-readData-001-readerReady"
+- "identity-readData-002-deliver-response"
+- "identity-readData-total-public"
+- "identity-readRawData-001-readerReady"
+- "identity-readRawData-002-deliver-response"
+- "identity-readRawData-total-public"
+- "identity-registration-001-showRegistrationUI"
+- "identity-registration-002-register"
+- "identity-session-001"
+- "identity-session-total-public"
+- "identityRegUIDidLoad"
+- "identityRegUIFinished"
+- "identityUIDidLoad"
+- "identityUIFinished"
+- "inRangeProxEvent"
+- "includeErrorInReadResult"
+- "includePreAuthAmount"
+- "init()"
+- "initForReadingFromData:error:"
+- "initRequiringSecureCoding:"
+- "initWithCoder:"
+- "initWithData:"
+- "initWithSessionInfo:userInfo:frameworksToCheck:"
+- "initWithURL:"
+- "installId"
+- "installment(cycle: "
+- "interfaceOrCVMFailed"
+- "internalValidationOutcome"
+- "invalid Collection: less than 'count' elements in collection"
+- "invalidReaderTokenDetails"
+- "isJCOPVersionCorrect"
+- "isPINBypass"
+- "isPINFallback"
+- "issuer"
+- "issuingAuthority"
+- "kernelUpdateNeeded"
+- "layoutBundleWithContentId:completionHandler:"
+- "localizations"
+- "localizedName"
+- "localizedStringForKey:value:table:"
+- "mbn"
+- "membership(cycle: "
+- "merchant"
+- "merchant-manager"
+- "merchantCategory"
+- "merchantCategoryCode"
+- "merchantIdentifier"
+- "merchantName"
+- "message"
+- "mobileDriversLicense"
+- "mobileToken"
+- "model: %s"
+- "monthlyInstallment"
+- "monthlyMembership"
+- "name"
+- "networkAuthError"
+- "networkUnavailable"
+- "nfcNegotiatedHandoverFailed"
+- "nonRetainedElements"
+- "notificationCallback(notification:responseCode:)"
+- "notifyRegUIResultWithResult:"
+- "notifyUIButtonTapWithButton:"
+- "openSensitiveURL:withOptions:"
+- "operatingSystemVersion"
+- "operatingSystemVersionString"
+- "partnerToken"
+- "payAppType"
+- "payments-pos-assets"
+- "performWithRemoteObjectProxy(_:)"
+- "pin-001-startPINUI"
+- "pin-002-addPINDigit"
+- "pin-003-removePINDigit"
+- "pin-004-clearPINDigits"
+- "pin-005-capturePIN"
+- "pin-006-generatePINBlock"
+- "pin-007-sendPINData"
+- "pin-008-cancelPINCapture"
+- "pin-009-closePINUI"
+- "pin-010-displayPINRequired"
+- "pin-011-deliverPINResult"
+- "pinAuthNeeded"
+- "pinAuthResultWithError:cancelsFlow:"
+- "pinBypassed"
+- "pinCipherBlobBase64"
+- "pinConfig"
+- "pinDataReceivedWithPinData:isCardRequest:isAccessibilityEnabled:accessibilityEntryType:drawNumberFailures:"
+- "pinKekId"
+- "pinKeyBlobBase64"
+- "pinToken"
+- "pinUIDidLoad"
+- "pinValidateSession"
+- "portraitData"
+- "preAuthorization"
+- "preauthorization"
+- "preauthorizationAmount"
+- "preauthorizationRelease"
+- "pref - %s-%s"
+- "pref - alwaysPlaySound = %{bool}d, exists = %{bool}d"
+- "pref - isPINPrivacyEnabled = %{bool}d, exists = %{bool}d"
+- "pref - missing, default to true"
+- "preferredAIDList"
+- "preferredLanguage"
+- "prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY"
+- "prefs:root=Bluetooth"
+- "prefs:root=General&path=NFC_LINK"
+- "prefs:root=General&path=SOFTWARE_UPDATE_LINK"
+- "prefs:root=TOUCHID_PASSCODE&path=TOUCHID_PASSCODE"
+- "presentmentError"
+- "previousTask"
+- "privacyAuthFailed"
+- "privacyAuthSuccess"
+- "privacyLockEnabled"
+- "processId"
+- "processInfo"
+- "qrCodeScanErrorWithError:"
+- "qrCodeScanInitiated"
+- "qrScannerSleepTimeout"
+- "read-001-verify"
+- "read-002-startUI"
+- "read-003-readerReady"
+- "read-004-userTap"
+- "read-005-cardRead"
+- "read-006-cardReaderBlobEncryption"
+- "read-007-closeUI"
+- "read-008-deliverReadCardResult"
+- "read-total-daemon"
+- "read-total-public"
+- "readCompleteSuccess"
+- "readCount"
+- "readDocumentFromScannedQRCodeWithPayload:"
+- "readErrorCode init"
+- "readOutcome"
+- "readerApprovedNoProcessing"
+- "readerAwaitingApproval"
+- "readerBluetoothOff"
+- "readerCardDetected"
+- "readerCardNotSupported"
+- "readerConnectingUsingNFC"
+- "readerConnectingUsingQRCode"
+- "readerConnectionError"
+- "readerFailureUnsupportedCard"
+- "readerFinalFailure"
+- "readerInvalidResponse"
+- "readerNFCDisabled"
+- "readerNFCNegotiatedHandoverFailed"
+- "readerNFCOverheat"
+- "readerNotAvailable"
+- "readerReadyForPIN"
+- "readerReadyForTap"
+- "readerRecoverableFailure"
+- "readerRemoveCard"
+- "readerUnknownError"
+- "readerVasDataNotActivated"
+- "readerVasNoDataFound"
+- "regUIAccountWithAccount:"
+- "regUIDidLoad"
+- "regUIFinishedWithUserCancelled:regStatus:"
+- "registerWithCompletion:"
+- "registration"
+- "registration-001-showRegistrationUI"
+- "registration-002-showTermsOfServiceUI"
+- "registration-003-configure"
+- "registration-004-useDifferentAppleId"
+- "registration-005-payloadCreation"
+- "registration-006-register"
+- "registration-total-daemon"
+- "registration-total-public"
+- "relink"
+- "relyingPartyName"
+- "removeItemAtURL:error:"
+- "reportGuidanceUpdateWithVisible:trigger:"
+- "reportPINErrorWithError:isCardRequest:isAccessibilityEnabled:accessibilityEntryType:drawNumberFailures:"
+- "reportProxEventInRange:inRangeTime:"
+- "request"
+- "requestCancelReadWithIsEngagementTransition:"
+- "requestRestartReadWithTriggeredByMultipleCheck:"
+- "requiresCardPIN:"
+- "responseData"
+- "resultCode"
+- "retainedElements"
+- "returnReadResultImmediately"
+- "safModeAlreadyStarted"
+- "safModeInvalidated"
+- "safTransactionsLimitReached"
+- "safValidationTokenInvalid"
+- "scribbleRetryCount"
+- "seAttestationBase64"
+- "secureElementMemoryFull"
+- "sendAnalyticsWithAnalyticsData:"
+- "sendURLOnly"
+- "serviceName"
+- "serviceUnavailable"
+- "session-001-verify"
+- "session-002-load"
+- "session-003-attestationToken"
+- "session-004-openSession"
+- "session-005-kernelInstall"
+- "session-006-save"
+- "session-total-daemon"
+- "session-total-public"
+- "sessionID"
+- "sessionTranscript"
+- "setSupportsSecureCoding:"
+- "setVoiceOverWithEnabled:"
+- "sharedInstance"
+- "sharedSession"
+- "startConfigurationWithCompletionHandler:"
+- "startIssuerPINEntry-total-daemon"
+- "startIssuerPINEntry-total-public"
+- "startSession:options:completion:"
+- "statusCode"
+- "storage"
+- "stringFromDate:timeZone:formatOptions:"
+- "supportsSecureCoding"
+- "surchargeAmount("
+- "surchargePercent"
+- "surchargePercent("
+- "tapUIDidLoad"
+- "tapUIFinishedWithExpected:issuerPIN:"
+- "tapUIRequestingCancel"
+- "tapUIRequestingRetry"
+- "termsAndConditionsAcceptanceRequired"
+- "transaction"
+- "transactionAmountDescriptionEncoded"
+- "transactionCancelled"
+- "transactionDescriptionEncoded"
+- "transactionId"
+- "transactionType"
+- "uiMode"
+- "unknownErrorCode"
+- "updateAccountSubscription"
+- "updateSessionEventWithSessionEvent:"
+- "updateUIState:"
+- "updateWithState:"
+- "updateWithTransactionEvent:"
+- "url"
+- "useCurrentAppleID"
+- "useDifferentAppleID"
+- "useSystemTrustedIssuerCertificates"
+- "userInfo"
+- "username"
+- "v16@0:8"
+- "v16@?0@\"NSArray\"8"
+- "v24@0:8@\"NSArray\"16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@\"NSData\"16"
+- "v24@0:8@\"NSString\"16"
+- "v24@0:8@\"_TtC15ProximityReader11AccountAuth\"16"
+- "v24@0:8@\"_TtC15ProximityReader16PINConfiguration\"16"
+- "v24@0:8@\"_TtC15ProximityReader19IdentityInformation\"16"
+- "v24@0:8@16"
+- "v24@0:8@?<v@?>16"
+- "v24@0:8@?<v@?@\"NSData\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSString\"@\"_TtC15ProximityReader23CardReaderErrorInternal\">16"
+- "v24@0:8@?<v@?@\"_TtC15ProximityReader29IdentityConfigurationInternal\"@\"NSError\">16"
+- "v24@0:8B16I20"
+- "v24@?0@\"_TtC15ProximityReader10ReadResult\"8@\"NSError\"16"
+- "v24@?0@\"_TtC15ProximityReader40MobileDriversLicenseDataResponseInternal\"8@\"NSError\"16"
+- "v24@?0@\"_TtC15ProximityReader40MobileDriversLicenseReadResponseInternal\"8@\"NSError\"16"
+- "v24@?0@\"_TtC15ProximityReader40MobileDriversLicenseViewResponseInternal\"8@\"NSError\"16"
+- "v28@0:8@\"NSString\"16B24"
+- "v28@0:8@16B24"
+- "v28@0:8B16@\"NSString\"20"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSDictionary\"@\"_TtC15ProximityReader23CardReaderErrorInternal\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSString\"@\"NSString\"@\"NSString\"@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?B>24"
+- "v32@0:8@\"NSString\"16@?<v@?B@\"_TtC15ProximityReader23CardReaderErrorInternal\">24"
+- "v32@0:8@\"_TtC15ProximityReader19TransactionInternal\"16@?<v@?@\"_TtC15ProximityReader10ReadResult\"@\"NSError\">24"
+- "v32@0:8@\"_TtC15ProximityReader39MobileDriversLicenseDataRequestInternal\"16@?<v@?@\"_TtC15ProximityReader40MobileDriversLicenseDataResponseInternal\"@\"NSError\">24"
+- "v32@0:8@\"_TtC15ProximityReader39MobileDriversLicenseReadRequestInternal\"16@?<v@?@\"_TtC15ProximityReader40MobileDriversLicenseReadResponseInternal\"@\"NSError\">24"
+- "v32@0:8@\"_TtC15ProximityReader39MobileDriversLicenseViewRequestInternal\"16@?<v@?@\"_TtC15ProximityReader40MobileDriversLicenseViewResponseInternal\"@\"NSError\">24"
+- "v32@?0@\"NSData\"8@\"NSURLResponse\"16@\"NSError\"24"
+- "v36@0:8@\"NSString\"16B24@?<v@?B@\"_TtC15ProximityReader23CardReaderErrorInternal\">28"
+- "v40@0:8@\"NSString\"16@\"NSString\"24@?<v@?@\"NSData\"@\"NSError\">32"
+- "v40@0:8@\"NSString\"16@\"NSString\"24@?<v@?@\"_TtC15ProximityReader10ReadResult\"@\"NSError\">32"
+- "v40@0:8@\"NSString\"16@\"_TtC15ProximityReader15InternalOptions\"24@?<v@?q@\"_TtC15ProximityReader23CardReaderErrorInternal\">32"
+- "v48@0:8@\"_TtC15ProximityReader7PINData\"16B24B28q32q40"
+- "v48@0:8@16B24B28q32q40"
+- "v48@0:8q16B24B28q32q40"
+- "validatedDataTransfer"
+- "validationMode"
+- "valueForEntitlement:"
+- "vasDataNotActivated"
+- "vasEntries"
+- "vasMode"
+- "vasReadSuccessWithMerchantNames:"
+- "vasRequestName"
+- "vasResultArrayWrapper"
+- "vasTooManyMerchants"
+- "vasUserInterventionRequired"
+- "vehicleCategoryCode"
+- "vehicleEndorsements"
+- "vehicleRestrictions"
+- "verificationReason"
+- "weeklyInstallment"
+- "weeklyMembership"
+- "yearlyInstallment"
+- "yearlyMembership"
+
+```

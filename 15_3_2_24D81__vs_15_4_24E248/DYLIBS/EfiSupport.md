@@ -1,0 +1,112 @@
+## EfiSupport
+
+> `/System/Library/PrivateFrameworks/EfiSupport.framework/Versions/A/EfiSupport`
+
+```diff
+
+-2069.80.3.0.0
+-  __TEXT.__text: 0x88e4
+-  __TEXT.__auth_stubs: 0x350
+-  __TEXT.__cstring: 0x9c9
++2075.101.2.0.0
++  __TEXT.__text: 0x8610
++  __TEXT.__auth_stubs: 0x340
+   __TEXT.__const: 0x413
+-  __TEXT.__gcc_except_tab: 0x350
++  __TEXT.__cstring: 0x9c9
++  __TEXT.__gcc_except_tab: 0x338
+   __TEXT.__ustring: 0x6e
+   __TEXT.__oslogstring: 0x3
+-  __TEXT.__unwind_info: 0x458
++  __TEXT.__unwind_info: 0x450
+   __TEXT.__eh_frame: 0xe9c
+   __DATA_CONST.__got: 0x70
+   __DATA_CONST.__const: 0x20
+-  __AUTH_CONST.__auth_got: 0x1b0
++  __AUTH_CONST.__auth_got: 0x1a8
+   __AUTH_CONST.__const: 0x1f8
+   __DATA.__data: 0xf0
+-  __DATA.__common: 0x48
+   __DATA.__bss: 0x30
++  __DATA.__common: 0x48
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 246674A4-2227-3323-B1EA-03AE5DEFC2A5
+-  Functions: 144
+-  Symbols:   306
++  UUID: BEFBFDD7-06DE-3815-96BD-6D7D80706DF5
++  Functions: 141
++  Symbols:   304
+   CStrings:  72
+ 
+Symbols:
++ GCC_except_table30
++ GCC_except_table34
++ GCC_except_table42
++ GCC_except_table46
++ GCC_except_table49
++ GCC_except_table53
++ GCC_except_table57
++ GCC_except_table65
++ GCC_except_table68
++ GCC_except_table70
++ GCC_except_table77
++ GCC_except_table79
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_out_of_rangeB8ne190102Ev
++ __ZNKSt3__16vectorI23EFI_CONFIGURATION_TABLENS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorINS_10unique_ptrIN3Efi3Dxe6System8EfiEventENS_14default_deleteIS5_EEEENS_9allocatorIS8_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorINS_5tupleIJPU6ms_abiFvPvS2_ES2_S2_EEENS_9allocatorIS5_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIPvNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
++ __ZNSt12length_errorC1B8ne190102EPKc
++ __ZNSt12out_of_rangeC1B8ne190102EPKc
++ __ZNSt3__110unique_ptrIN3Efi3Dxe6System10AllocationENS_14default_deleteIS4_EEE5resetB8ne190102EPS4_
++ __ZNSt3__110unique_ptrIN3Efi3Dxe6System11LoadedImageENS_14default_deleteIS4_EEE5resetB8ne190102EPS4_
++ __ZNSt3__110unique_ptrIN3Efi3Dxe6System5NvRamENS_14default_deleteIS4_EEE5resetB8ne190102EPS4_
++ __ZNSt3__110unique_ptrIN3Efi3Dxe6System9EfiHandleENS_14default_deleteIS4_EEE5resetB8ne190102EPS4_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendB8ne190102IPKcLi0EEERS5_T_SA_
++ __ZNSt3__113__tree_removeB8ne190102IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__120__throw_length_errorB8ne190102EPKc
++ __ZNSt3__120__throw_out_of_rangeB8ne190102EPKc
++ __ZNSt3__127__tree_balance_after_insertB8ne190102IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__17find_ifB8ne190102INS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeIPvNS_10unique_ptrIN3Efi3Dxe6System11LoadedImageENS_14default_deleteIS9_EEEEEEPNS_11__tree_nodeISD_S4_EElEEEEZNS8_15FirmwareVolume215HostReadSectionEPK30_EFI_FIRMWARE_VOLUME2_PROTOCOLPK4GUIDhyPS4_PyPjE3$_0EET_SU_SU_T0_
++ __ZNSt3__18optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEaSB8ne190102IRNS_17basic_string_viewIcS3_EEvEERS7_OT_
++ __ZNSt3__19allocatorIPvE17allocate_at_leastB8ne190102Em
++ __ZSt28__throw_bad_array_new_lengthB8ne190102v
+- GCC_except_table32
+- GCC_except_table35
+- GCC_except_table43
+- GCC_except_table47
+- GCC_except_table50
+- GCC_except_table54
+- GCC_except_table58
+- GCC_except_table66
+- GCC_except_table69
+- GCC_except_table71
+- GCC_except_table78
+- GCC_except_table80
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_out_of_rangeB8ne180100Ev
+- __ZNKSt3__16vectorI23EFI_CONFIGURATION_TABLENS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorINS_10unique_ptrIN3Efi3Dxe6System8EfiEventENS_14default_deleteIS5_EEEENS_9allocatorIS8_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorINS_5tupleIJPU6ms_abiFvPvS2_ES2_S2_EEENS_9allocatorIS5_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIPvNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNSt12length_errorC1B8ne180100EPKc
+- __ZNSt12out_of_rangeC1B8ne180100EPKc
+- __ZNSt3__110unique_ptrIN3Efi3Dxe6System10AllocationENS_14default_deleteIS4_EEE5resetB8ne180100EPS4_
+- __ZNSt3__110unique_ptrIN3Efi3Dxe6System11LoadedImageENS_14default_deleteIS4_EEE5resetB8ne180100EPS4_
+- __ZNSt3__110unique_ptrIN3Efi3Dxe6System5NvRamENS_14default_deleteIS4_EEE5resetB8ne180100EPS4_
+- __ZNSt3__110unique_ptrIN3Efi3Dxe6System9EfiHandleENS_14default_deleteIS4_EEE5resetB8ne180100EPS4_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendB8ne180100IPKcLi0EEERS5_T_SA_
+- __ZNSt3__112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE17__assign_externalEPKwm
+- __ZNSt3__112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE21__grow_by_and_replaceEmmmmmmPKw
+- __ZNSt3__113__tree_removeB8ne180100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__120__throw_length_errorB8ne180100EPKc
+- __ZNSt3__120__throw_out_of_rangeB8ne180100EPKc
+- __ZNSt3__127__tree_balance_after_insertB8ne180100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__17find_ifB8ne180100INS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeIPvNS_10unique_ptrIN3Efi3Dxe6System11LoadedImageENS_14default_deleteIS9_EEEEEEPNS_11__tree_nodeISD_S4_EElEEEEZNS8_15FirmwareVolume215HostReadSectionEPK30_EFI_FIRMWARE_VOLUME2_PROTOCOLPK4GUIDhyPS4_PyPjE3$_0EET_SU_SU_T0_
+- __ZNSt3__18optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEaSB8ne180100IRNS_17basic_string_viewIcS3_EEvEERS7_OT_
+- __ZNSt3__19allocatorIPvE17allocate_at_leastB8ne180100Em
+- __ZSt28__throw_bad_array_new_lengthB8ne180100v
+
+```

@@ -1,0 +1,884 @@
+## HomeUI
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/HomeUI.framework/Versions/A/HomeUI`
+
+```diff
+
+-989.4.12.0.0
+-  __TEXT.__text: 0x5bf258
++1026.5.13.0.0
++  __TEXT.__text: 0x5b6398
+   __TEXT.__auth_stubs: 0x6300
+-  __TEXT.__objc_methlist: 0x41fd4
+-  __TEXT.__const: 0x9c50
+-  __TEXT.__cstring: 0x40a31
+-  __TEXT.__swift5_typeref: 0xa214
++  __TEXT.__objc_methlist: 0x48f2c
++  __TEXT.__const: 0x9b40
++  __TEXT.__dlopen_cstrs: 0xda
++  __TEXT.__cstring: 0x409eb
++  __TEXT.__swift5_typeref: 0xa2c8
+   __TEXT.__swift5_fieldmd: 0x3754
+-  __TEXT.__constg_swiftt: 0x7508
++  __TEXT.__constg_swiftt: 0x7510
+   __TEXT.__swift5_reflstr: 0x3e88
+   __TEXT.__swift5_builtin: 0x3fc
+   __TEXT.__swift5_assocty: 0x9f0
+   __TEXT.__swift5_protos: 0x44
+   __TEXT.__swift5_proto: 0x4e8
+   __TEXT.__swift5_types: 0x440
+-  __TEXT.__swift5_capture: 0x207c
+-  __TEXT.__oslogstring: 0x1b928
++  __TEXT.__swift5_capture: 0x20a0
++  __TEXT.__oslogstring: 0x1b9c4
++  __TEXT.__swift_as_entry: 0x1cc
++  __TEXT.__swift_as_ret: 0x1f0
+   __TEXT.__swift5_mpenum: 0x3c
+-  __TEXT.__gcc_except_tab: 0x897c
++  __TEXT.__gcc_except_tab: 0x8a28
+   __TEXT.__ustring: 0x7e
+-  __TEXT.__dlopen_cstrs: 0xda
+-  __TEXT.__unwind_info: 0x14790
+-  __TEXT.__eh_frame: 0x7a14
++  __TEXT.__unwind_info: 0x14640
++  __TEXT.__eh_frame: 0x7a44
+   __TEXT.__objc_classname: 0xbd15
+-  __TEXT.__objc_methname: 0x9faea
+-  __TEXT.__objc_methtype: 0x14528
+-  __TEXT.__objc_stubs: 0x63ea0
+-  __DATA_CONST.__got: 0x5768
+-  __DATA_CONST.__const: 0xda90
++  __TEXT.__objc_methname: 0x9ffd9
++  __TEXT.__objc_methtype: 0x14668
++  __TEXT.__objc_stubs: 0x641a0
++  __DATA_CONST.__got: 0x57d0
++  __DATA_CONST.__const: 0xdc98
+   __DATA_CONST.__objc_classlist: 0x2538
+   __DATA_CONST.__objc_catlist: 0x1f0
+   __DATA_CONST.__objc_protolist: 0x10b0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1d888
++  __DATA_CONST.__objc_selrefs: 0x1f030
+   __DATA_CONST.__objc_protorefs: 0x628
+   __DATA_CONST.__objc_superrefs: 0x1cd8
+-  __DATA_CONST.__objc_arraydata: 0x818
++  __DATA_CONST.__objc_arraydata: 0x840
+   __AUTH_CONST.__auth_got: 0x3190
+-  __AUTH_CONST.__const: 0xecf8
+-  __AUTH_CONST.__cfstring: 0x1fac0
+-  __AUTH_CONST.__objc_const: 0x8dda0
++  __AUTH_CONST.__const: 0xed70
++  __AUTH_CONST.__cfstring: 0x1fd20
++  __AUTH_CONST.__objc_const: 0x81e98
+   __AUTH_CONST.__objc_intobj: 0x1968
+-  __AUTH_CONST.__objc_arrayobj: 0x3c0
++  __AUTH_CONST.__objc_arrayobj: 0x3d8
+   __AUTH_CONST.__objc_dictobj: 0x578
+   __AUTH_CONST.__objc_doubleobj: 0x4c0
+   __AUTH_CONST.__objc_floatobj: 0x40
+-  __AUTH.__objc_data: 0x1f470
+-  __AUTH.__data: 0x2fb8
++  __AUTH.__objc_data: 0x1f170
++  __AUTH.__data: 0x2fe8
+   __DATA.__objc_ivar: 0x4d98
+-  __DATA.__data: 0xee30
++  __DATA.__data: 0xeec0
+   __DATA.__objc_stublist: 0x30
++  __DATA.__common: 0x298
+   __DATA.__bss: 0x9958
+-  __DATA.__common: 0x268
+   - /System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
++  - /usr/lib/swift/libswiftCryptoTokenKit.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftFileProvider.dylib
+   - /usr/lib/swift/libswiftIOKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
++  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 8583C2DF-FEA5-3244-B21B-2A86CFE72EED
+-  Functions: 33527
+-  Symbols:   56892
+-  CStrings:  39153
++  UUID: 81F92876-F685-3736-87A2-50535679F954
++  Functions: 33560
++  Symbols:   57014
++  CStrings:  39226
+ 
+Symbols:
++ +[HUWallpaperPickerViewController presentSecurePickerFromNavigationController:collectionType:withTitle:delegate:]
++ +[NSURL(HUAdditions) hu_homeUpdateLearnMoreURL]
++ +[UIImage(HUAdditions) hu_avatarImageWithSymbolNamed:configuration:backgroundColor:diameter:]
++ -[HUAccessoryDiagnosticsItemManager addCollectionFailure:]
++ -[HUAccessoryDiagnosticsItemManager collectionFailures]
++ -[HUAccessoryDiagnosticsItemManager recordDownloadedMatterLog:forType:]
++ -[HUAccessoryDiagnosticsItemManager resetCollectionFailures]
++ -[HUCameraController _showPictureInPicturePlaybackError:]
++ -[HUCameraController playbackEngine:didUpdateTimelineState:]
++ -[HUCameraController setTipView:]
++ -[HUCameraController tipView]
++ -[HUEditLocationViewController textView:shouldChangeTextInRange:replacementText:]
++ -[HUEditUserItemManager _createAccessLevelSectionUsing:]
++ -[HUEditUserItemManager _createAccessorySectionUsing:]
++ -[HUEditUserItemManager _createAllowEditingSectionUsing:]
++ -[HUEditUserItemManager _createAllowedAccessoriesSectionUsing:]
++ -[HUEditUserItemManager _createAppleTVProfileSectionUsing:]
++ -[HUEditUserItemManager _createLocalAccessSectionUsing:]
++ -[HUEditUserItemManager _createPendingAccessoriesSectionUsing:]
++ -[HUEditUserItemManager _createRemoveUserLeaveHomeSectionUsing:]
++ -[HUHomeHubIntroSetupViewController learnMoreButton]
++ -[HUHomeHubIntroSetupViewController setLearnMoreButton:]
++ -[HUHomeHubMigrationBannerItem shouldHideForHomes:]
++ -[HUHomeHubMigrationBannerItem shouldHideForHomes:withUserDefaults:softwareUpdateCounter:]
++ GCC_except_table85
++ GCC_except_table95
++ OBJC_IVAR_$_HUCameraController._tipView
++ _HFHomePodMediaAccessorySettingKeyPathAppleMusicAllowExplicitContent
++ _HFPreferencesForceNativeMatterKey
++ _HUIsValid
++ _MTRErrorDomain
++ _OBJC_CLASS_$_NSRegularExpression
++ __106-[HUDashboardViewController(ContextMenu) collectionView:contextMenuConfigurationForItemAtIndexPath:point:]_block_invoke.1199
++ __106-[HUDashboardViewController(ContextMenu) collectionView:contextMenuConfigurationForItemAtIndexPath:point:]_block_invoke.1253
++ __106-[HUDashboardViewController(ContextMenu) collectionView:contextMenuConfigurationForItemAtIndexPath:point:]_block_invoke_2.1207
++ __106-[HUHomeHubIntroSetupViewController _presentUpgradeFailedAlert:message:retryTitle:retryBlock:cancelBlock:]_block_invoke.102
++ __116-[HUDashboardViewController(HomeKitObjectPresenting) presentItemWithUUID:destination:secondaryDestination:animated:]_block_invoke.716
++ __116-[HUDashboardViewController(HomeKitObjectPresenting) presentItemWithUUID:destination:secondaryDestination:animated:]_block_invoke.717
++ __124+[HUContainedServicesGridViewController_legacy itemManagerWithServiceContainerItem:shouldGroupByRoom:mediaItem:valueSource:]_block_invoke.137
++ __124+[HUContainedServicesGridViewController_legacy itemManagerWithServiceContainerItem:shouldGroupByRoom:mediaItem:valueSource:]_block_invoke.349
++ __124+[HUContainedServicesGridViewController_legacy itemManagerWithServiceContainerItem:shouldGroupByRoom:mediaItem:valueSource:]_block_invoke_2.139
++ __124+[HUContainedServicesGridViewController_legacy itemManagerWithServiceContainerItem:shouldGroupByRoom:mediaItem:valueSource:]_block_invoke_3.141
++ __37-[HUCameraController nextControlItem]_block_invoke.131
++ __38-[HUCameraController cameraPickerMenu]_block_invoke.160
++ __45-[HUServiceDetailsViewController _removeItem]_block_invoke.242
++ __45-[HUServiceDetailsViewController _removeItem]_block_invoke_2.243
++ __46-[HUBannerItemModuleController didSelectItem:]_block_invoke.135
++ __46-[HUBannerItemModuleController didSelectItem:]_block_invoke_2.139
++ __46-[HUBannerItemModuleController didSelectItem:]_block_invoke_3.143
++ __46-[HUStatusItemModule _updateInvalidationTimer]_block_invoke.100
++ __48-[HUServiceDetailsItemManager _restartAccessory]_block_invoke.424
++ __49-[HUEnergySettingsItemModule _buildItemProviders]_block_invoke.127
++ __49-[HUEnergySettingsItemModule _buildItemProviders]_block_invoke_2.147
++ __51-[HUDashboardItemManager _buildStaticItemsForHome:]_block_invoke.261
++ __51-[HUDashboardItemManager _buildStaticItemsForHome:]_block_invoke.274
++ __51-[HUDashboardItemManager _buildStaticItemsForHome:]_block_invoke.283
++ __51-[HUDashboardItemManager _buildStaticItemsForHome:]_block_invoke.288
++ __51-[HUDashboardItemManager _buildStaticItemsForHome:]_block_invoke_2.285
++ __51-[HUUtilityDiscoverySetupViewController _checkTAF:]_block_invoke.116
++ __53-[HUEditLocationViewController switchCell:didTurnOn:]_block_invoke.226
++ __53-[HUEditLocationViewController switchCell:didTurnOn:]_block_invoke.227
++ __54-[HUHomeHubIntroSetupViewController _commitOrContinue]_block_invoke.79
++ __55-[HUCardViewController hu_prepareForDismissalAnimated:]_block_invoke.157
++ __56-[HUServiceDetailsItemManager _buildItemModulesForHome:]_block_invoke.206
++ __57-[HUBannerItemModuleController fetchMediaAccountForHome:]_block_invoke.155
++ __57-[HULocationDeviceManager startUpdatingFindMyPreferences]_block_invoke.193
++ __57-[HULocationDeviceManager startUpdatingFindMyPreferences]_block_invoke.194
++ __58-[HUEditUserItemManager _buildSectionsWithDisplayedItems:]_block_invoke.162
++ __58-[HUEditUserItemManager _buildSectionsWithDisplayedItems:]_block_invoke_2.164
++ __58-[HUEditUserItemManager _buildSectionsWithDisplayedItems:]_block_invoke_3.168
++ __58-[HUPinCodeDetailsItemManager _buildItemProvidersForHome:]_block_invoke.103
++ __58-[HUPinCodeDetailsItemManager _buildItemProvidersForHome:]_block_invoke.118
++ __58-[HUPinCodeDetailsItemManager _buildItemProvidersForHome:]_block_invoke.129
++ __58-[HUPinCodeDetailsItemManager _buildItemProvidersForHome:]_block_invoke.130
++ __58-[HUPinCodeDetailsItemManager _buildItemProvidersForHome:]_block_invoke.145
++ __58-[HUPinCodeDetailsItemManager _buildItemProvidersForHome:]_block_invoke.156
++ __58-[HUPinCodeDetailsItemManager _buildItemProvidersForHome:]_block_invoke.169
++ __58-[HUPinCodeDetailsItemManager _buildItemProvidersForHome:]_block_invoke.96
++ __58-[HUPinCodeDetailsItemManager _buildItemProvidersForHome:]_block_invoke_2.131
++ __58-[HUPinCodeDetailsItemManager _buildItemProvidersForHome:]_block_invoke_2.149
++ __58-[HUPinCodeDetailsItemManager _buildItemProvidersForHome:]_block_invoke_2.157
++ __58-[HUPinCodeDetailsItemManager _buildItemProvidersForHome:]_block_invoke_2.173
++ __58-[HUPinCodeDetailsItemManager _buildItemProvidersForHome:]_block_invoke_3.176
++ __58-[HUServiceDetailsViewController initWithServiceLikeItem:]_block_invoke.176
++ __58-[HUServiceDetailsViewController initWithServiceLikeItem:]_block_invoke.178
++ __60-[HUServiceDetailsViewController _exportDiagnosticsForItem:]_block_invoke.692
++ __60-[HUUtilityDiscoverySetupViewController _fetchUtilityConfig]_block_invoke.109
++ __61-[HUCameraController _refreshClipCacheAndRefetchForClipUUID:]_block_invoke.145
++ __63-[HUServiceDetailsViewController didSelectHeaderWarningAction:]_block_invoke.946
++ __64-[HUServiceDetailsItemManager _buildSectionsWithDisplayedItems:]_block_invoke.340
++ __64-[HUServiceDetailsItemManager _buildSectionsWithDisplayedItems:]_block_invoke.378
++ __64-[HUServiceDetailsItemManager _buildSectionsWithDisplayedItems:]_block_invoke_2.379
++ __64-[HUUtilityOnboardingTAFViewController _continueTAFWithFutures:]_block_invoke.142
++ __65-[HUAccessoryDiagnosticsItemManager initWithDelegate:sourceItem:]_block_invoke.85
++ __65-[HUAccessoryDiagnosticsItemManager initWithDelegate:sourceItem:]_block_invoke_2.121
++ __65-[HULocationDeviceManager updateActiveLocationDeviceToThisDevice]_block_invoke.202
++ __65-[HULocationDeviceManager updateActiveLocationDeviceToThisDevice]_block_invoke.204
++ __66-[HUEditLocationViewController tableView:didSelectRowAtIndexPath:]_block_invoke.203
++ __66-[HUEditLocationViewController tableView:didSelectRowAtIndexPath:]_block_invoke_2.205
++ __67-[HUServiceDetailsViewController _presentResetHomePodConfirmation:]_block_invoke.674
++ __68-[HUPersonalRequestsDevicesItemModule _commitUpdateToAccessControl:]_block_invoke.301
++ __68-[HUServiceDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke.566
++ __68-[HUServiceDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke.573
++ __68-[HUServiceDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke.580
++ __68-[HUServiceDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke.613
++ __69-[HUAddRestrictedGuestItemManager sendInvitesWithAllowedAccessories:]_block_invoke.133
++ __69-[HUAddRestrictedGuestItemManager sendInvitesWithAllowedAccessories:]_block_invoke.135
++ __69-[HUAddRestrictedGuestItemManager sendInvitesWithAllowedAccessories:]_block_invoke.145
++ __69-[HUAddRestrictedGuestItemManager sendInvitesWithAllowedAccessories:]_block_invoke.147
++ __69-[HUAddRestrictedGuestItemManager sendInvitesWithAllowedAccessories:]_block_invoke_2.134
++ __69-[HUAddRestrictedGuestItemManager sendInvitesWithAllowedAccessories:]_block_invoke_2.140
++ __70-[HUServiceDetailsViewController _offerToCreateHomeTheaterIfPossible:]_block_invoke.923
++ __70-[HUServiceDetailsViewController _presentRemoveFromGroupConfirmation:]_block_invoke.706
++ __70-[HUUtilityOnboardingTAFItemManager _buildSectionsWithDisplayedItems:]_block_invoke.103
++ __71-[HUUtilityDiscoverySetupViewController _fetchUtilityConfigAndCheckTAF]_block_invoke.113
++ __74-[HUServiceDetailsViewController _presentHomeAccessoryRemoveConfirmation:]_block_invoke.771
++ __75-[HUSiriTriggerPhraseSettingDetailsItemManager _buildItemProvidersForHome:]_block_invoke.282
++ __75-[HUSiriTriggerPhraseSettingDetailsItemManager _buildItemProvidersForHome:]_block_invoke.312
++ __75-[HUSiriTriggerPhraseSettingDetailsItemManager _buildItemProvidersForHome:]_block_invoke_2.284
++ __75-[HUSiriTriggerPhraseSettingDetailsItemManager _buildItemProvidersForHome:]_block_invoke_2.313
++ __79-[HUServiceDetailsViewController _presentEcosystemAccessoryRemoveConfirmation:]_block_invoke.715
++ __79-[HUServiceDetailsViewController _presentEcosystemAccessoryRemoveConfirmation:]_block_invoke.716
++ __79-[HUServiceDetailsViewController _presentEcosystemAccessoryRemoveConfirmation:]_block_invoke.718
++ __79-[HUServiceDetailsViewController _presentEcosystemAccessoryRemoveConfirmation:]_block_invoke.721
++ __81-[HUServiceDetailsViewController _notifyOfHomeTheaterReconfigurationIfNecessary:]_block_invoke.901
++ __81-[HUServiceDetailsViewController _notifyOfHomeTheaterReconfigurationIfNecessary:]_block_invoke.902
++ __81-[HUServiceDetailsViewController _notifyOfHomeTheaterReconfigurationIfNecessary:]_block_invoke.903
++ __82-[HUControllableItemCollectionViewController _performTapActionForItem:tappedArea:]_block_invoke.244
++ __82-[HUControllableItemCollectionViewController _performTapActionForItem:tappedArea:]_block_invoke_2.245
++ __84-[HUAccessoryDiagnosticsItemManager _beginMatterDiagnosticCollectionForDevice:type:]_block_invoke.189
++ __84-[HUAccessoryDiagnosticsItemManager _beginMatterDiagnosticCollectionForDevice:type:]_block_invoke.190
++ __87-[HUDashboardViewController presentationCoordinator:didRecognizeTapForItem:tappedArea:]_block_invoke.320
++ __87-[HUDashboardViewController presentationCoordinator:didRecognizeTapForItem:tappedArea:]_block_invoke.332
++ __87-[HUDashboardViewController presentationCoordinator:didRecognizeTapForItem:tappedArea:]_block_invoke_2.328
++ __88-[HUDashboardViewController presentationCoordinator:shouldBeginPresentationWithContext:]_block_invoke.306
++ __OBJC_$_CLASS_METHODS_HUCameraController(HomeUI)
++ __OBJC_$_CLASS_METHODS_HUWallpaperPickerViewController
++ __OBJC_$_INSTANCE_METHODS_HUEditUserItemManager(HomeUI)
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_HFServiceNameComponentsProviding
++ ___90-[HUHomeHubMigrationBannerItem shouldHideForHomes:withUserDefaults:softwareUpdateCounter:]_block_invoke
++ ___HUIsValid_block_invoke
++ ___HUIsValid_block_invoke_2
++ ___block_descriptor_32_e15_B32?0816^B24l
++ ___block_descriptor_40_e8_32w_e42_"HFTransformItem"16?0"HFAccessoryItem"8lw32l8
++ ___block_descriptor_48_e8_32s40w_e24_v16?0?<v?"NSError">8lw40l8s32l8
++ ___block_descriptor_48_e8_32s40w_e26_v16?0"<HFUserObserver>"8lw40l8s32l8
++ ___block_descriptor_48_e8_32s40w_e32_"NAFuture"16?0"HFStaticItem"8lw40l8s32l8
++ ___block_descriptor_56_e8_32s40w_e56_"NSDictionary"24?0"HFTransformItem"8"NSDictionary"16lw40l8s32l8
++ ___block_descriptor_64_e8_32s40s48w_e56_"NSDictionary"24?0"HFTransformItem"8"NSDictionary"16lw48l8s32l8s40l8
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ ___swift_mutable_project_boxed_opaque_existential_0
++ __block_literal_global.1100
++ __block_literal_global.1104
++ __block_literal_global.1193
++ __block_literal_global.1246
++ __block_literal_global.138
++ __block_literal_global.147
++ __block_literal_global.159
++ __block_literal_global.174
++ __block_literal_global.192
++ __block_literal_global.196
++ __block_literal_global.205
++ __block_literal_global.209
++ __block_literal_global.210
++ __block_literal_global.226
++ __block_literal_global.227
++ __block_literal_global.241
++ __block_literal_global.246
++ __block_literal_global.248
++ __block_literal_global.251
++ __block_literal_global.254
++ __block_literal_global.263
++ __block_literal_global.268
++ __block_literal_global.279
++ __block_literal_global.281
++ __block_literal_global.287
++ __block_literal_global.289
++ __block_literal_global.298
++ __block_literal_global.300
++ __block_literal_global.303
++ __block_literal_global.306
++ __block_literal_global.309
++ __block_literal_global.311
++ __block_literal_global.317
++ __block_literal_global.323
++ __block_literal_global.325
++ __block_literal_global.328
++ __block_literal_global.330
++ __block_literal_global.341
++ __block_literal_global.344
++ __block_literal_global.348
++ __block_literal_global.355
++ __block_literal_global.359
++ __block_literal_global.361
++ __block_literal_global.363
++ __block_literal_global.385
++ __block_literal_global.387
++ __block_literal_global.394
++ __block_literal_global.395
++ __block_literal_global.402
++ __block_literal_global.406
++ __block_literal_global.410
++ __block_literal_global.412
++ __block_literal_global.423
++ __block_literal_global.429
++ __block_literal_global.569
++ __block_literal_global.582
++ __block_literal_global.62
++ __block_literal_global.662
++ __block_literal_global.676
++ __block_literal_global.708
++ __block_literal_global.713
++ __block_literal_global.714
++ __block_literal_global.720
++ __block_literal_global.723
++ __block_literal_global.745
++ __block_literal_global.747
++ __block_literal_global.758
++ __block_literal_global.761
++ __block_literal_global.773
++ __block_literal_global.794
++ __block_literal_global.795
++ __block_literal_global.862
++ __block_literal_global.864
++ __block_literal_global.90
++ __block_literal_global.937
++ __block_literal_global.948
++ __block_literal_global.958
++ __swift_FORCE_LOAD_$_swiftCryptoTokenKit
++ __swift_FORCE_LOAD_$_swiftCryptoTokenKit_$_HomeUI
++ __swift_FORCE_LOAD_$_swiftVideoToolbox
++ __swift_FORCE_LOAD_$_swiftVideoToolbox_$_HomeUI
++ _flat unique So8NSObject_p
++ _objc_msgSend$_createAccessLevelSectionUsing:
++ _objc_msgSend$_createAccessorySectionUsing:
++ _objc_msgSend$_createAllowEditingSectionUsing:
++ _objc_msgSend$_createAllowedAccessoriesSectionUsing:
++ _objc_msgSend$_createAppleTVProfileSectionUsing:
++ _objc_msgSend$_createLocalAccessSectionUsing:
++ _objc_msgSend$_createPendingAccessoriesSectionUsing:
++ _objc_msgSend$_createRemoveUserLeaveHomeSectionUsing:
++ _objc_msgSend$_showPictureInPicturePlaybackError:
++ _objc_msgSend$addCollectionFailure:
++ _objc_msgSend$collectionFailures
++ _objc_msgSend$hf_shouldPostHomeUgradeRequired
++ _objc_msgSend$initWithHome:user:nameStyle:userDefaults:
++ _objc_msgSend$initWithResultsAndItemBlock:
++ _objc_msgSend$initWithSourceItem:updateOptionsTransformBlock:resultsAndItemTransformBlock:
++ _objc_msgSend$keysOfEntriesPassingTest:
++ _objc_msgSend$matterItemHasControlModules:
++ _objc_msgSend$numberOfMatchesInString:options:range:
++ _objc_msgSend$presentSecurePickerFromNavigationController:collectionType:withTitle:delegate:
++ _objc_msgSend$recordDownloadedMatterLog:forType:
++ _objc_msgSend$regularExpressionWithPattern:options:error:
++ _objc_msgSend$resetCollectionFailures
++ _objc_msgSend$setDateFormat:
++ _objc_msgSend$setErrorContent:
++ _objc_msgSend$setIncludesMatterOnlyAccessoryItems:
++ _objc_msgSend$shouldHideForHomes:
++ _objc_msgSend$shouldHideForHomes:withUserDefaults:softwareUpdateCounter:
++ _objc_msgSend$tipView
++ _objc_msgSend$uuid
++ _objc_release_x14
++ _symbolic Sccy______So16UIViewControllerCXcSg_____G So26HUPresentationDelegateHostP s5NeverO
++ _symbolic Sccyyt______pG s5ErrorP
++ _symbolic ______p 13HomeDataModel13MatterCommandP
++ _symbolic ______p So8NSObjectP
++ _symbolic _____yAAyAAyAAy__________y_____GG_____y_____GG_____G_____G 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AE5ScaleO AA016_ForegroundStyleI0V AA5ColorV AA14_OpacityEffectV AA023AccessibilityAttachmentI0V
++ _symbolic _____yAAy_____y_____y_____y_____y_____y_____AAyAAy__________y_____GGAGy_____GGAEG_Qo_______yAAyADy__________y_____yAEG______Qo______yA2ESgGSgSgGALG_Qo_Sg_____yAAyADyAE_____ySay_____G_____AAy_____yACyAAyAF_____G______AAyAAy__________y_____SgGG_____y_____GGSgtGGAIGGAPGALG_Qo_SgtGG_A3_SgQo______yA5_SgGGA33_ySbGG 7SwiftUI15ModifiedContentV AA4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA5GroupV AA05TupleE0V AeAE5alert11isPresented7contentQrAA7BindingVySbG_AA5AlertVyXEtFQO AA7SectionV AA4TextV 04HomeB00t17HubsSelectionListE0V012ResidentInfoE0V AA21_TraitWritingModifierV AA02Isv7EnabledZ3KeyV AA0w13RowBackgroundZ3KeyV AeAEAmnOQrAR_ATyXEtFQO AA05EmptyE0V AeAE11toggleStyleyQrqd__AA11ToggleStyleRd__lFQO AA6ToggleV AA17SwitchToggleStyleV AA012_ConditionalD0V AeAEAmnOQrAR_ATyXEtFQO AA7ForEachV 0T9DataModel06StaticX0V 10Foundation4UUIDV AA6HStackV AA31AccessibilityAttachmentModifierV AA6SpacerV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA24_ForegroundStyleModifierV AA5ColorV AY02OnG25AfterInitialSetupModifierV
++ _symbolic _____ySay_____G__________y_____y_____yAEy__________G______AEyAEy__________y_____SgGG_____y_____GGSgtGG_____y_____GGG 7SwiftUI7ForEachV 13HomeDataModel14StaticResidentV 10Foundation4UUIDV AA15ModifiedContentV AA6HStackV AA9TupleViewV 0eB00e17HubsSelectionListP0V0i4InfoP0V AA31AccessibilityAttachmentModifierV AA6SpacerV AA5ImageV AA022_EnvironmentKeyWritingW0V AA4FontV AA016_ForegroundStyleW0V AA5ColorV AA013_TraitWritingW0V AA02IsR15EnabledTraitKeyV
++ _symbolic _____y_____G 7SwiftUI24_ForegroundStyleModifierV AA5ColorV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 04HomeB00E21HubsSelectionListViewV012ResidentInfoI0V AA31AccessibilityAttachmentModifierV
++ _symbolic _____y__________G______AAyAAy__________y_____SgGG_____y_____GGSgt 7SwiftUI15ModifiedContentV 04HomeB00E21HubsSelectionListViewV012ResidentInfoI0V AA31AccessibilityAttachmentModifierV AA6SpacerV AA5ImageV AA022_EnvironmentKeyWritingN0V AA4FontV AA016_ForegroundStyleN0V AA5ColorV
++ _symbolic _____y___________y_____yACy_____y_____y__________G_____G_AEyAEyAEyAEy__________y_____GG_____yAHGG_____G_____GtGG______yACy___________yA_A_GSgtGGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA6ZStackV AA15ModifiedContentV AA06_ShapeD0V AA9RectangleV AA5ColorV AA06_FrameG0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AW5ScaleO AA016_ForegroundStyleT0V AA14_OpacityEffectV AA023AccessibilityAttachmentT0V AA6VStackV AA4TextV AA012_ConditionalK0V
++ _symbolic _____y___________y_____y__________G______ADyADy__________y_____SgGG_____y_____GGSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA15ModifiedContentV 04HomeB00k17HubsSelectionListD0V012ResidentInfoD0V AA31AccessibilityAttachmentModifierV AA6SpacerV AA5ImageV AA022_EnvironmentKeyWritingS0V AA4FontV AA016_ForegroundStyleS0V AA5ColorV
++ _symbolic _____y___________y_____y_____y__________G_____G_ADyADyADyADy__________y_____GG_____yAGGG_____G_____GtGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA05TupleD0V AA15ModifiedContentV AA06_ShapeD0V AA9RectangleV AA5ColorV AA06_FrameG0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AU5ScaleO AA016_ForegroundStyleS0V AA14_OpacityEffectV AA023AccessibilityAttachmentS0V
++ _symbolic _____y__________ySay_____G__________y_____y_____yAGy__________G______AGyAGy__________y_____SgGG_____y_____GGSgtGG_____y_____GGG_____G 7SwiftUI7SectionV AA4TextV AA7ForEachV 13HomeDataModel14StaticResidentV 10Foundation4UUIDV AA15ModifiedContentV AA6HStackV AA9TupleViewV 0gB00g17HubsSelectionListR0V0k4InfoR0V AA31AccessibilityAttachmentModifierV AA6SpacerV AA5ImageV AA022_EnvironmentKeyWritingY0V AA4FontV AA016_ForegroundStyleY0V AA5ColorV AA013_TraitWritingY0V AA02IsT15EnabledTraitKeyV AA05EmptyR0V
++ _symbolic _____y_____y__________G_____G_AAyAAyAAyAAy__________y_____GG_____yADGG_____G_____Gt 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA5ImageV AA30_EnvironmentKeyWritingModifierV AM5ScaleO AA016_ForegroundStyleO0V AA14_OpacityEffectV AA023AccessibilityAttachmentO0V
++ _symbolic _____y_____y__________yACy__________y_____GGAEy_____GGABG_Qo_______yACyAAy__________y_____yABG______Qo______yA2BSgGSgSgGAJG_Qo_Sg_____yACyAAyAB_____ySay_____G_____ACy_____y_____yACyAD_____G______ACyACy__________y_____SgGG_____y_____GGSgtGGAGGGANGAJG_Qo_Sgt 7SwiftUI4ViewPAAE5alert11isPresented7contentQrAA7BindingVySbG_AA5AlertVyXEtFQO AA7SectionV AA4TextV AA15ModifiedContentV 04HomeB00n17HubsSelectionListC0V012ResidentInfoC0V AA21_TraitWritingModifierV AA02Isp7EnabledT3KeyV AA0q13RowBackgroundtY0V AcAEAdeFQrAI_AKyXEtFQO AA05EmptyC0V AcAE11toggleStyleyQrqd__AA11ToggleStyleRd__lFQO AA6ToggleV AA17SwitchToggleStyleV AA012_ConditionalM0V AcAEAdeFQrAI_AKyXEtFQO AA7ForEachV 0N9DataModel06StaticR0V 10Foundation4UUIDV AA6HStackV AA05TupleC0V AA023AccessibilityAttachmentV0V AA6SpacerV AA5ImageV AA012_EnvironmentyuV0V AA4FontV AA016_ForegroundStyleV0V AA5ColorV
++ _symbolic _____y_____y__________ySay_____G_____AAy_____y_____yAAy__________G______AAyAAy__________y_____SgGG_____y_____GGSgtGG_____y_____GGG_____GA_y_____GG 7SwiftUI15ModifiedContentV AA7SectionV AA4TextV AA7ForEachV 13HomeDataModel14StaticResidentV 10Foundation4UUIDV AA6HStackV AA9TupleViewV 0iB00i17HubsSelectionListR0V0m4InfoR0V AA31AccessibilityAttachmentModifierV AA6SpacerV AA5ImageV AA022_EnvironmentKeyWritingY0V AA4FontV AA016_ForegroundStyleY0V AA5ColorV AA013_TraitWritingY0V AA02IsT15EnabledTraitKeyV AA05EmptyR0V AA0U21RowBackgroundTraitKeyV
++ _symbolic _____y_____y_____yAAy__________G______AAyAAy__________y_____SgGG_____y_____GGSgtGG_____y_____GG 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV 04HomeB00h17HubsSelectionListG0V012ResidentInfoG0V AA31AccessibilityAttachmentModifierV AA6SpacerV AA5ImageV AA022_EnvironmentKeyWritingP0V AA4FontV AA016_ForegroundStyleP0V AA5ColorV AA06_TraituP0V AA02Isj7EnabledzT0V
++ _symbolic _____y_____y_____yABy_____y_____y__________G_____G_ADyADyADyADy__________y_____GG_____yAGGG_____G_____GtGG______yABy___________yA2ZGSgtGGtGG 7SwiftUI6HStackV AA9TupleViewV AA6ZStackV AA15ModifiedContentV AA06_ShapeE0V AA9RectangleV AA5ColorV AA12_FrameLayoutV AA5ImageV AA30_EnvironmentKeyWritingModifierV AS5ScaleO AA016_ForegroundStyleR0V AA14_OpacityEffectV AA023AccessibilityAttachmentR0V AA6VStackV AA4TextV AA012_ConditionalH0V
++ _symbolic _____y_____y_____y__________G______ACyACy__________y_____SgGG_____y_____GGSgtGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV 04HomeB00h17HubsSelectionListE0V012ResidentInfoE0V AA31AccessibilityAttachmentModifierV AA6SpacerV AA5ImageV AA022_EnvironmentKeyWritingP0V AA4FontV AA016_ForegroundStyleP0V AA5ColorV
++ _symbolic _____y_____y_____y__________yADy__________y_____GGAFy_____GGACG_Qo_______yADyABy__________y_____yACG______Qo______yA2CSgGSgSgGAKG_Qo_Sg_____yADyAByAC_____ySay_____G_____ADy_____yAAyADyAE_____G______ADyADy__________y_____SgGG_____y_____GGSgtGGAHGGAOGAKG_Qo_SgtG 7SwiftUI9TupleViewV AA0D0PAAE5alert11isPresented7contentQrAA7BindingVySbG_AA5AlertVyXEtFQO AA7SectionV AA4TextV AA15ModifiedContentV 04HomeB00o17HubsSelectionListD0V012ResidentInfoD0V AA21_TraitWritingModifierV AA02Isq7EnabledU3KeyV AA0r13RowBackgrounduZ0V AeAEAfgHQrAK_AMyXEtFQO AA05EmptyD0V AeAE11toggleStyleyQrqd__AA11ToggleStyleRd__lFQO AA6ToggleV AA17SwitchToggleStyleV AA012_ConditionalN0V AeAEAfgHQrAK_AMyXEtFQO AA7ForEachV 0O9DataModel06StaticS0V 10Foundation4UUIDV AA6HStackV AA023AccessibilityAttachmentW0V AA6SpacerV AA5ImageV AA012_EnvironmentzvW0V AA4FontV AA016_ForegroundStyleW0V AA5ColorV
++ _symbolic _____y_____y_____y__________ySay_____G_____AAy_____y_____yAAy__________G______AAyAAy__________y_____SgGG_____y_____GGSgtGG_____y_____GGG_____GA_y_____GG_Qo_ 7SwiftUI4ViewPAAE5alert11isPresented7contentQrAA7BindingVySbG_AA5AlertVyXEtFQO AA15ModifiedContentV AA7SectionV AA4TextV AA7ForEachV 13HomeDataModel14StaticResidentV 10Foundation4UUIDV AA6HStackV AA05TupleC0V 0pB00p17HubsSelectionListC0V0t4InfoC0V AA31AccessibilityAttachmentModifierV AA6SpacerV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA24_ForegroundStyleModifierV AA5ColorV AA21_TraitWritingModifierV AA02IsZ15EnabledTraitKeyV AA05EmptyC0V AA25ListRowBackgroundTraitKeyV
++ _symbolic _____y_____y_____y__________ySay_____G_____AAy_____y_____yAAy__________G______AAyAAy__________y_____SgGG_____y_____GGSgtGG_____y_____GGG_____GA_y_____GG_Qo_Sg 7SwiftUI4ViewPAAE5alert11isPresented7contentQrAA7BindingVySbG_AA5AlertVyXEtFQO AA15ModifiedContentV AA7SectionV AA4TextV AA7ForEachV 13HomeDataModel14StaticResidentV 10Foundation4UUIDV AA6HStackV AA05TupleC0V 0pB00p17HubsSelectionListC0V0t4InfoC0V AA31AccessibilityAttachmentModifierV AA6SpacerV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA24_ForegroundStyleModifierV AA5ColorV AA21_TraitWritingModifierV AA02IsZ15EnabledTraitKeyV AA05EmptyC0V AA25ListRowBackgroundTraitKeyV
++ _symbolic _____y_____y_____y_____y__________G_____G_ACyACyACyACy__________y_____GG_____yAFGG_____G_____GtGG 7SwiftUI6ZStackV AA9TupleViewV AA15ModifiedContentV AA06_ShapeE0V AA9RectangleV AA5ColorV AA12_FrameLayoutV AA5ImageV AA30_EnvironmentKeyWritingModifierV AQ5ScaleO AA016_ForegroundStyleQ0V AA14_OpacityEffectV AA023AccessibilityAttachmentQ0V
++ _symbolic _____y_____y_____y_____y__________G_____G_ACyACyACyACy__________y_____GG_____yAFGG_____G_____GtGG______yABy___________yA2YGSgtGGt 7SwiftUI6ZStackV AA9TupleViewV AA15ModifiedContentV AA06_ShapeE0V AA9RectangleV AA5ColorV AA12_FrameLayoutV AA5ImageV AA30_EnvironmentKeyWritingModifierV AQ5ScaleO AA016_ForegroundStyleQ0V AA14_OpacityEffectV AA023AccessibilityAttachmentQ0V AA6VStackV AA4TextV AA012_ConditionalG0V
++ _symbolic _____y_____y_____y_____y__________yAEy__________y_____GGAGy_____GGADG_Qo_______yAEyACy__________y_____yADG______Qo______yA2DSgGSgSgGALG_Qo_Sg_____yAEyACyAD_____ySay_____G_____AEy_____yAByAEyAF_____G______AEyAEy__________y_____SgGG_____y_____GGSgtGGAIGGAPGALG_Qo_SgtGG 7SwiftUI5GroupV AA9TupleViewV AA0E0PAAE5alert11isPresented7contentQrAA7BindingVySbG_AA5AlertVyXEtFQO AA7SectionV AA4TextV AA15ModifiedContentV 04HomeB00p17HubsSelectionListE0V012ResidentInfoE0V AA21_TraitWritingModifierV AA02Isr7EnabledV3KeyV AA0s13RowBackgroundV3KeyV AgAEAhiJQrAM_AOyXEtFQO AA05EmptyE0V AgAE11toggleStyleyQrqd__AA11ToggleStyleRd__lFQO AA6ToggleV AA17SwitchToggleStyleV AA012_ConditionalO0V AgAEAhiJQrAM_AOyXEtFQO AA7ForEachV 0P9DataModel06StaticT0V 10Foundation4UUIDV AA6HStackV AA023AccessibilityAttachmentX0V AA6SpacerV AA5ImageV AA015_EnvironmentKeywX0V AA4FontV AA016_ForegroundStyleX0V AA5ColorV
++ _symbolic _____y_____y_____y_____y_____y__________yAEy__________y_____GGAGy_____GGADG_Qo_______yAEyACy__________y_____yADG______Qo______yA2DSgGSgSgGALG_Qo_Sg_____yAEyACyAD_____ySay_____G_____AEy_____yAByAEyAF_____G______AEyAEy__________y_____SgGG_____y_____GGSgtGGAIGGAPGALG_Qo_SgtGG_A3_SgQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA5GroupV AA05TupleC0V AcAE5alert11isPresented7contentQrAA7BindingVySbG_AA5AlertVyXEtFQO AA7SectionV AA4TextV AA15ModifiedContentV 04HomeB00t17HubsSelectionListC0V012ResidentInfoC0V AA21_TraitWritingModifierV AA02Isv7EnabledZ3KeyV AA0w13RowBackgroundZ3KeyV AcAEAklMQrAP_ARyXEtFQO AA05EmptyC0V AcAE11toggleStyleyQrqd__AA11ToggleStyleRd__lFQO AA6ToggleV AA17SwitchToggleStyleV AA012_ConditionalS0V AcAEAklMQrAP_ARyXEtFQO AA7ForEachV 0T9DataModel06StaticX0V 10Foundation4UUIDV AA6HStackV AA31AccessibilityAttachmentModifierV AA6SpacerV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA24_ForegroundStyleModifierV AA5ColorV
++ _symbolic _____y_____y_____y_____y_____y_____y_____AAyAAy__________y_____GGAGy_____GGAEG_Qo_______yAAyADy__________y_____yAEG______Qo______yA2ESgGSgSgGALG_Qo_Sg_____yAAyADyAE_____ySay_____G_____AAy_____yACyAAyAF_____G______AAyAAy__________y_____SgGG_____y_____GGSgtGGAIGGAPGALG_Qo_SgtGG_A3_SgQo______yA5_SgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA5GroupV AA05TupleE0V AeAE5alert11isPresented7contentQrAA7BindingVySbG_AA5AlertVyXEtFQO AA7SectionV AA4TextV 04HomeB00t17HubsSelectionListE0V012ResidentInfoE0V AA21_TraitWritingModifierV AA02Isv7EnabledZ3KeyV AA0w13RowBackgroundZ3KeyV AeAEAmnOQrAR_ATyXEtFQO AA05EmptyE0V AeAE11toggleStyleyQrqd__AA11ToggleStyleRd__lFQO AA6ToggleV AA17SwitchToggleStyleV AA012_ConditionalD0V AeAEAmnOQrAR_ATyXEtFQO AA7ForEachV 0T9DataModel06StaticX0V 10Foundation4UUIDV AA6HStackV AA31AccessibilityAttachmentModifierV AA6SpacerV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA24_ForegroundStyleModifierV AA5ColorV AY02OnG25AfterInitialSetupModifierV
++ _symbolic yXlSgSo7NSErrorCSgIeyBhyy_
++ block_copy_helper.24
++ block_copy_helper.271
++ block_copy_helper.275
++ block_copy_helper.283
++ block_copy_helper.287
++ block_copy_helper.48
++ block_copy_helper.54
++ block_copy_helper.68
++ block_descriptor.26
++ block_descriptor.273
++ block_descriptor.277
++ block_descriptor.285
++ block_descriptor.289
++ block_descriptor.50
++ block_descriptor.56
++ block_descriptor.70
++ block_destroy_helper.25
++ block_destroy_helper.272
++ block_destroy_helper.276
++ block_destroy_helper.284
++ block_destroy_helper.288
++ block_destroy_helper.49
++ block_destroy_helper.55
++ block_destroy_helper.69
++ get_witness_table 7SwiftUI15ModifiedContentVyACyAA4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAA5GroupVyAA05TupleE0VyAeAE5alert11isPresented7contentQrAA7BindingVySbG_AA5AlertVyXEtFQOyAA7SectionVyAA4TextVACyACy04HomeB00t17HubsSelectionListE0V012ResidentInfoE0VAA21_TraitWritingModifierVyAA02Isv7EnabledZ3KeyVGGA3_yAA0w13RowBackgroundZ3KeyVGGAXG_Qo__AeAEAmnOQrAR_ATyXEtFQOyACyAVyAA05EmptyE0VAeAE11toggleStyleyQrqd__AA11ToggleStyleRd__lFQOyAA6ToggleVyAXG_AA17SwitchToggleStyleVQo_AA012_ConditionalD0VyA2XSgGSgSgGA10_G_Qo_SgAeAEAmnOQrAR_ATyXEtFQOyACyAVyAxA7ForEachVySay0T9DataModel06StaticX0VG10Foundation4UUIDVACyAA6HStackVyALyACyA1_AA31AccessibilityAttachmentModifierVG_AA6SpacerVACyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA24_ForegroundStyleModifierVyAA5ColorVGGSgtGGA6_GGA15_GA10_G_Qo_SgtGG_A38_SgQo_AY02OnG25AfterInitialSetupModifierVyA42_SgGGA79_ySbGGAaDHPA82_AaDHPqd0__AaDHD3_A77_HO_A81_AA0E8ModifierHPyHCHC_A83_AAA85_HPyHCHC.49
++ get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA6ZStackVyAEyAA15ModifiedContentVyAA06_ShapeE0VyAA9RectangleVAA5ColorVGAA12_FrameLayoutVG_AIyAIyAIyAIyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAU5ScaleOGGAA016_ForegroundStyleR0VyAOGGAA14_OpacityEffectVGAA023AccessibilityAttachmentR0VGtGG_AA6VStackVyAEyAA4TextV_AA012_ConditionalH0VyA15_A15_GSgtGGtGGAA0E0HPyHC.54
++ objectdestroy.11Tm
++ objectdestroy.23Tm
++ objectdestroy.316Tm
++ objectdestroy.340Tm
+- +[UIImage(HUAdditions) hu_avatarImageWithSymbolNamed:textStyle:scale:diameter:]
+- -[HUAccessoryDiagnosticsItemManager collectionFailed]
+- -[HUAccessoryDiagnosticsItemManager recordDownloadedMatterLog:]
+- -[HUAccessoryDiagnosticsItemManager setCollectionFailed:]
+- -[HUCameraController _updateCanShowOverlayState]
+- -[HUCameraController setTipPopoverController:]
+- -[HUCameraController tipPopoverController]
+- -[HUCameraErrorView labelStackView]
+- GCC_except_table86
+- OBJC_IVAR_$_HUCameraController._tipPopoverController
+- OBJC_IVAR_$_HUTriggerConditionEditorExpandingSectionModule._showOptions
+- __106-[HUDashboardViewController(ContextMenu) collectionView:contextMenuConfigurationForItemAtIndexPath:point:]_block_invoke.1194
+- __106-[HUDashboardViewController(ContextMenu) collectionView:contextMenuConfigurationForItemAtIndexPath:point:]_block_invoke.1248
+- __106-[HUDashboardViewController(ContextMenu) collectionView:contextMenuConfigurationForItemAtIndexPath:point:]_block_invoke_2.1202
+- __106-[HUHomeHubIntroSetupViewController _presentUpgradeFailedAlert:message:retryTitle:retryBlock:cancelBlock:]_block_invoke.111
+- __116-[HUDashboardViewController(HomeKitObjectPresenting) presentItemWithUUID:destination:secondaryDestination:animated:]_block_invoke.711
+- __116-[HUDashboardViewController(HomeKitObjectPresenting) presentItemWithUUID:destination:secondaryDestination:animated:]_block_invoke.713
+- __124+[HUContainedServicesGridViewController_legacy itemManagerWithServiceContainerItem:shouldGroupByRoom:mediaItem:valueSource:]_block_invoke.134
+- __124+[HUContainedServicesGridViewController_legacy itemManagerWithServiceContainerItem:shouldGroupByRoom:mediaItem:valueSource:]_block_invoke.345
+- __124+[HUContainedServicesGridViewController_legacy itemManagerWithServiceContainerItem:shouldGroupByRoom:mediaItem:valueSource:]_block_invoke_2.136
+- __124+[HUContainedServicesGridViewController_legacy itemManagerWithServiceContainerItem:shouldGroupByRoom:mediaItem:valueSource:]_block_invoke_3.138
+- __37-[HUCameraController nextControlItem]_block_invoke.128
+- __38-[HUCameraController cameraPickerMenu]_block_invoke.157
+- __45-[HUServiceDetailsViewController _removeItem]_block_invoke.239
+- __45-[HUServiceDetailsViewController _removeItem]_block_invoke_2.240
+- __46-[HUBannerItemModuleController didSelectItem:]_block_invoke.132
+- __46-[HUBannerItemModuleController didSelectItem:]_block_invoke_2.136
+- __46-[HUBannerItemModuleController didSelectItem:]_block_invoke_3.140
+- __46-[HUStatusItemModule _updateInvalidationTimer]_block_invoke.97
+- __48-[HUServiceDetailsItemManager _restartAccessory]_block_invoke.421
+- __49-[HUEnergySettingsItemModule _buildItemProviders]_block_invoke.121
+- __49-[HUEnergySettingsItemModule _buildItemProviders]_block_invoke_2.144
+- __51-[HUDashboardItemManager _buildStaticItemsForHome:]_block_invoke.257
+- __51-[HUDashboardItemManager _buildStaticItemsForHome:]_block_invoke.266
+- __51-[HUDashboardItemManager _buildStaticItemsForHome:]_block_invoke.279
+- __51-[HUDashboardItemManager _buildStaticItemsForHome:]_block_invoke.280
+- __51-[HUDashboardItemManager _buildStaticItemsForHome:]_block_invoke_2.281
+- __51-[HUUtilityDiscoverySetupViewController _checkTAF:]_block_invoke.113
+- __53-[HUEditLocationViewController switchCell:didTurnOn:]_block_invoke.223
+- __53-[HUEditLocationViewController switchCell:didTurnOn:]_block_invoke.224
+- __54-[HUHomeHubIntroSetupViewController _commitOrContinue]_block_invoke.88
+- __55-[HUCardViewController hu_prepareForDismissalAnimated:]_block_invoke.154
+- __56-[HUServiceDetailsItemManager _buildItemModulesForHome:]_block_invoke.203
+- __57-[HUBannerItemModuleController fetchMediaAccountForHome:]_block_invoke.152
+- __57-[HULocationDeviceManager startUpdatingFindMyPreferences]_block_invoke.190
+- __57-[HULocationDeviceManager startUpdatingFindMyPreferences]_block_invoke.191
+- __58-[HUEditUserItemManager _buildSectionsWithDisplayedItems:]_block_invoke.176
+- __58-[HUEditUserItemManager _buildSectionsWithDisplayedItems:]_block_invoke_2.178
+- __58-[HUEditUserItemManager _buildSectionsWithDisplayedItems:]_block_invoke_3.188
+- __58-[HUPinCodeDetailsItemManager _buildItemProvidersForHome:]_block_invoke.100
+- __58-[HUPinCodeDetailsItemManager _buildItemProvidersForHome:]_block_invoke.115
+- __58-[HUPinCodeDetailsItemManager _buildItemProvidersForHome:]_block_invoke.123
+- __58-[HUPinCodeDetailsItemManager _buildItemProvidersForHome:]_block_invoke.127
+- __58-[HUPinCodeDetailsItemManager _buildItemProvidersForHome:]_block_invoke.142
+- __58-[HUPinCodeDetailsItemManager _buildItemProvidersForHome:]_block_invoke.153
+- __58-[HUPinCodeDetailsItemManager _buildItemProvidersForHome:]_block_invoke.166
+- __58-[HUPinCodeDetailsItemManager _buildItemProvidersForHome:]_block_invoke.93
+- __58-[HUPinCodeDetailsItemManager _buildItemProvidersForHome:]_block_invoke_2.128
+- __58-[HUPinCodeDetailsItemManager _buildItemProvidersForHome:]_block_invoke_2.146
+- __58-[HUPinCodeDetailsItemManager _buildItemProvidersForHome:]_block_invoke_2.154
+- __58-[HUPinCodeDetailsItemManager _buildItemProvidersForHome:]_block_invoke_2.170
+- __58-[HUPinCodeDetailsItemManager _buildItemProvidersForHome:]_block_invoke_3.173
+- __58-[HUServiceDetailsViewController initWithServiceLikeItem:]_block_invoke.173
+- __58-[HUServiceDetailsViewController initWithServiceLikeItem:]_block_invoke.175
+- __60-[HUServiceDetailsViewController _exportDiagnosticsForItem:]_block_invoke.688
+- __60-[HUUtilityDiscoverySetupViewController _fetchUtilityConfig]_block_invoke.106
+- __61-[HUCameraController _refreshClipCacheAndRefetchForClipUUID:]_block_invoke.142
+- __63-[HUServiceDetailsViewController didSelectHeaderWarningAction:]_block_invoke.942
+- __64-[HUServiceDetailsItemManager _buildSectionsWithDisplayedItems:]_block_invoke.337
+- __64-[HUServiceDetailsItemManager _buildSectionsWithDisplayedItems:]_block_invoke.375
+- __64-[HUServiceDetailsItemManager _buildSectionsWithDisplayedItems:]_block_invoke_2.376
+- __64-[HUUtilityOnboardingTAFViewController _continueTAFWithFutures:]_block_invoke.139
+- __65-[HUAccessoryDiagnosticsItemManager initWithDelegate:sourceItem:]_block_invoke.79
+- __65-[HUAccessoryDiagnosticsItemManager initWithDelegate:sourceItem:]_block_invoke_2.115
+- __65-[HULocationDeviceManager updateActiveLocationDeviceToThisDevice]_block_invoke.199
+- __65-[HULocationDeviceManager updateActiveLocationDeviceToThisDevice]_block_invoke.201
+- __66-[HUEditLocationViewController tableView:didSelectRowAtIndexPath:]_block_invoke.200
+- __66-[HUEditLocationViewController tableView:didSelectRowAtIndexPath:]_block_invoke_2.202
+- __67-[HUServiceDetailsViewController _presentResetHomePodConfirmation:]_block_invoke.666
+- __68-[HUPersonalRequestsDevicesItemModule _commitUpdateToAccessControl:]_block_invoke.300
+- __68-[HUServiceDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke.562
+- __68-[HUServiceDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke.569
+- __68-[HUServiceDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke.576
+- __68-[HUServiceDetailsViewController tableView:didSelectRowAtIndexPath:]_block_invoke.609
+- __69-[HUAddRestrictedGuestItemManager sendInvitesWithAllowedAccessories:]_block_invoke.124
+- __69-[HUAddRestrictedGuestItemManager sendInvitesWithAllowedAccessories:]_block_invoke.132
+- __69-[HUAddRestrictedGuestItemManager sendInvitesWithAllowedAccessories:]_block_invoke.142
+- __69-[HUAddRestrictedGuestItemManager sendInvitesWithAllowedAccessories:]_block_invoke.144
+- __69-[HUAddRestrictedGuestItemManager sendInvitesWithAllowedAccessories:]_block_invoke_2.131
+- __69-[HUAddRestrictedGuestItemManager sendInvitesWithAllowedAccessories:]_block_invoke_2.137
+- __70-[HUServiceDetailsViewController _offerToCreateHomeTheaterIfPossible:]_block_invoke.919
+- __70-[HUServiceDetailsViewController _presentRemoveFromGroupConfirmation:]_block_invoke.702
+- __70-[HUUtilityOnboardingTAFItemManager _buildSectionsWithDisplayedItems:]_block_invoke.100
+- __71-[HUUtilityDiscoverySetupViewController _fetchUtilityConfigAndCheckTAF]_block_invoke.110
+- __74-[HUServiceDetailsViewController _presentHomeAccessoryRemoveConfirmation:]_block_invoke.767
+- __75-[HUSiriTriggerPhraseSettingDetailsItemManager _buildItemProvidersForHome:]_block_invoke.281
+- __75-[HUSiriTriggerPhraseSettingDetailsItemManager _buildItemProvidersForHome:]_block_invoke.310
+- __75-[HUSiriTriggerPhraseSettingDetailsItemManager _buildItemProvidersForHome:]_block_invoke_2.283
+- __75-[HUSiriTriggerPhraseSettingDetailsItemManager _buildItemProvidersForHome:]_block_invoke_2.312
+- __79-[HUServiceDetailsViewController _presentEcosystemAccessoryRemoveConfirmation:]_block_invoke.707
+- __79-[HUServiceDetailsViewController _presentEcosystemAccessoryRemoveConfirmation:]_block_invoke.708
+- __79-[HUServiceDetailsViewController _presentEcosystemAccessoryRemoveConfirmation:]_block_invoke.713
+- __79-[HUServiceDetailsViewController _presentEcosystemAccessoryRemoveConfirmation:]_block_invoke.714
+- __81-[HUServiceDetailsViewController _notifyOfHomeTheaterReconfigurationIfNecessary:]_block_invoke.893
+- __81-[HUServiceDetailsViewController _notifyOfHomeTheaterReconfigurationIfNecessary:]_block_invoke.898
+- __81-[HUServiceDetailsViewController _notifyOfHomeTheaterReconfigurationIfNecessary:]_block_invoke.899
+- __82-[HUControllableItemCollectionViewController _performTapActionForItem:tappedArea:]_block_invoke.241
+- __82-[HUControllableItemCollectionViewController _performTapActionForItem:tappedArea:]_block_invoke_2.242
+- __84-[HUAccessoryDiagnosticsItemManager _beginMatterDiagnosticCollectionForDevice:type:]_block_invoke.182
+- __87-[HUDashboardViewController presentationCoordinator:didRecognizeTapForItem:tappedArea:]_block_invoke.317
+- __87-[HUDashboardViewController presentationCoordinator:didRecognizeTapForItem:tappedArea:]_block_invoke.329
+- __87-[HUDashboardViewController presentationCoordinator:didRecognizeTapForItem:tappedArea:]_block_invoke_2.325
+- __88-[HUDashboardViewController presentationCoordinator:shouldBeginPresentationWithContext:]_block_invoke.303
+- __OBJC_$_INSTANCE_METHODS_HUEditUserItemManager
+- ___60-[HUHomeHubMigrationBannerItem _subclass_updateWithOptions:]_block_invoke_2
+- ___68-[HUSoftwareUpdateStandaloneItemManager _buildItemProvidersForHome:]_block_invoke_5
+- ___68-[HUSoftwareUpdateStandaloneItemManager _buildItemProvidersForHome:]_block_invoke_6
+- ___block_descriptor_56_e8_32s40r48w_e15_"NAFuture"8?0lw48l8r40l8s32l8
+- ___block_descriptor_56_e8_32s40s48s_e17_v16?0"NSArray"8ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40r48w_e36_"NSDictionary"16?0"NSDictionary"8lw48l8r40l8s32l8
+- ___block_descriptor_72_e8_32s40s48r56w_e36_"NSDictionary"16?0"NSDictionary"8lw56l8r48l8s32l8s40l8
+- __block_literal_global.1095
+- __block_literal_global.1099
+- __block_literal_global.112
+- __block_literal_global.1188
+- __block_literal_global.1241
+- __block_literal_global.139
+- __block_literal_global.144
+- __block_literal_global.146
+- __block_literal_global.155
+- __block_literal_global.168
+- __block_literal_global.180
+- __block_literal_global.181
+- __block_literal_global.184
+- __block_literal_global.188
+- __block_literal_global.189
+- __block_literal_global.193
+- __block_literal_global.206
+- __block_literal_global.208
+- __block_literal_global.223
+- __block_literal_global.224
+- __block_literal_global.238
+- __block_literal_global.240
+- __block_literal_global.242
+- __block_literal_global.247
+- __block_literal_global.249
+- __block_literal_global.250
+- __block_literal_global.258
+- __block_literal_global.260
+- __block_literal_global.269
+- __block_literal_global.274
+- __block_literal_global.284
+- __block_literal_global.286
+- __block_literal_global.292
+- __block_literal_global.297
+- __block_literal_global.302
+- __block_literal_global.305
+- __block_literal_global.307
+- __block_literal_global.308
+- __block_literal_global.310
+- __block_literal_global.312
+- __block_literal_global.319
+- __block_literal_global.324
+- __block_literal_global.340
+- __block_literal_global.347
+- __block_literal_global.354
+- __block_literal_global.360
+- __block_literal_global.362
+- __block_literal_global.379
+- __block_literal_global.384
+- __block_literal_global.391
+- __block_literal_global.392
+- __block_literal_global.396
+- __block_literal_global.400
+- __block_literal_global.405
+- __block_literal_global.407
+- __block_literal_global.420
+- __block_literal_global.426
+- __block_literal_global.565
+- __block_literal_global.578
+- __block_literal_global.658
+- __block_literal_global.672
+- __block_literal_global.704
+- __block_literal_global.710
+- __block_literal_global.716
+- __block_literal_global.719
+- __block_literal_global.741
+- __block_literal_global.743
+- __block_literal_global.754
+- __block_literal_global.757
+- __block_literal_global.769
+- __block_literal_global.791
+- __block_literal_global.854
+- __block_literal_global.856
+- __block_literal_global.933
+- __block_literal_global.944
+- __block_literal_global.954
+- __swift_FORCE_LOAD_$_swiftFileProvider
+- __swift_FORCE_LOAD_$_swiftFileProvider_$_HomeUI
+- _objc_msgSend$collectionFailed
+- _objc_msgSend$lazyFutureWithBlock:scheduler:
+- _objc_msgSend$moreThanOneHome
+- _objc_msgSend$recordDownloadedMatterLog:
+- _objc_msgSend$setCollectionFailed:
+- _objc_retain_x13
+- _objc_retain_x14
+- _objc_retain_x15
+- _symbolic _____3key_yp5valuetSg So15HFItemResultKeya
+- _symbolic _____Sg 6HomeUI28TileCellContentConfigurationV
+- _symbolic _____Sg So23NSDirectionalEdgeInsetsV
+- _symbolic ______So16UIViewControllerCXcSg So26HUPresentationDelegateHostP
+- _symbolic ________________yACy__________y_____SgGG_____y_____GGSgt 6HomeUI0A21HubsSelectionListViewV012ResidentInfoF0V 05SwiftB06SpacerV AF15ModifiedContentV AF5ImageV AF30_EnvironmentKeyWritingModifierV AF4FontV AF016_ForegroundStyleQ0V AF5ColorV
+- _symbolic _____yAAy_____y_____y_____y_____y_____y_____AAyAAy__________y_____GGAGy_____GGAEG_Qo_______yAAyADy__________y_____yAEG______Qo______yA2ESgGSgSgGALG_Qo_Sg_____yAAyADyAE_____ySay_____G_____AAy_____yACyAF______AAyAAy__________y_____SgGG_____y_____GGSgtGGAIGGAPGALG_Qo_SgtGG_A3_SgQo______yA5_SgGGA31_ySbGG 7SwiftUI15ModifiedContentV AA4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA5GroupV AA05TupleE0V AeAE5alert11isPresented7contentQrAA7BindingVySbG_AA5AlertVyXEtFQO AA7SectionV AA4TextV 04HomeB00t17HubsSelectionListE0V012ResidentInfoE0V AA21_TraitWritingModifierV AA02Isv7EnabledZ3KeyV AA0w13RowBackgroundZ3KeyV AeAEAmnOQrAR_ATyXEtFQO AA05EmptyE0V AeAE11toggleStyleyQrqd__AA11ToggleStyleRd__lFQO AA6ToggleV AA17SwitchToggleStyleV AA012_ConditionalD0V AeAEAmnOQrAR_ATyXEtFQO AA7ForEachV 0T9DataModel06StaticX0V 10Foundation4UUIDV AA6HStackV AA6SpacerV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA24_ForegroundStyleModifierV AA5ColorV AY02OnG25AfterInitialSetupModifierV
+- _symbolic _____ySay_____G__________y_____y_____y___________AEyAEy__________y_____SgGG_____y_____GGSgtGG_____y_____GGG 7SwiftUI7ForEachV 13HomeDataModel14StaticResidentV 10Foundation4UUIDV AA15ModifiedContentV AA6HStackV AA9TupleViewV 0eB00e17HubsSelectionListP0V0i4InfoP0V AA6SpacerV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleZ0V AA5ColorV AA06_TraityZ0V AA02Isr12EnabledTraitX0V
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 12CoreGraphics7CGFloatV
+- _symbolic _____y___________y________________yAFy__________y_____SgGG_____y_____GGSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V 04HomeB00i17HubsSelectionListD0V012ResidentInfoD0V AA6SpacerV AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleV0V AA5ColorV
+- _symbolic _____y___________y_____yACy_____y_____y__________G_____G_AEyAEyAEy__________y_____GG_____yAHGG_____GtGG______yACy___________yA2YGSgtGGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA6ZStackV AA15ModifiedContentV AA06_ShapeD0V AA9RectangleV AA5ColorV AA06_FrameG0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AW5ScaleO AA016_ForegroundStyleT0V AA14_OpacityEffectV AA6VStackV AA4TextV AA012_ConditionalK0V
+- _symbolic _____y___________y_____y_____y__________G_____G_ADyADyADy__________y_____GG_____yAGGG_____GtGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA05TupleD0V AA15ModifiedContentV AA06_ShapeD0V AA9RectangleV AA5ColorV AA06_FrameG0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AU5ScaleO AA016_ForegroundStyleS0V AA14_OpacityEffectV
+- _symbolic _____y__________ySay_____G__________y_____y_____y___________AGyAGy__________y_____SgGG_____y_____GGSgtGG_____y_____GGG_____G 7SwiftUI7SectionV AA4TextV AA7ForEachV 13HomeDataModel14StaticResidentV 10Foundation4UUIDV AA15ModifiedContentV AA6HStackV AA9TupleViewV 0gB00g17HubsSelectionListR0V0k4InfoR0V AA6SpacerV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA24_ForegroundStyleModifierV AA5ColorV AA21_TraitWritingModifierV AA02Ist12EnabledTraitZ0V AA05EmptyR0V
+- _symbolic _____y_____y__________G_____G_AAyAAyAAy__________y_____GG_____yADGG_____Gt 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA5ImageV AA30_EnvironmentKeyWritingModifierV AM5ScaleO AA016_ForegroundStyleO0V AA14_OpacityEffectV
+- _symbolic _____y_____y________________yAEy__________y_____SgGG_____y_____GGSgtGG 7SwiftUI6HStackV AA9TupleViewV 04HomeB00f17HubsSelectionListE0V012ResidentInfoE0V AA6SpacerV AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleS0V AA5ColorV
+- _symbolic _____y_____y__________yACy__________y_____GGAEy_____GGABG_Qo_______yACyAAy__________y_____yABG______Qo______yA2BSgGSgSgGAJG_Qo_Sg_____yACyAAyAB_____ySay_____G_____ACy_____y_____yAD______ACyACy__________y_____SgGG_____y_____GGSgtGGAGGGANGAJG_Qo_Sgt 7SwiftUI4ViewPAAE5alert11isPresented7contentQrAA7BindingVySbG_AA5AlertVyXEtFQO AA7SectionV AA4TextV AA15ModifiedContentV 04HomeB00n17HubsSelectionListC0V012ResidentInfoC0V AA21_TraitWritingModifierV AA02Isp7EnabledT3KeyV AA0q13RowBackgroundtY0V AcAEAdeFQrAI_AKyXEtFQO AA05EmptyC0V AcAE11toggleStyleyQrqd__AA11ToggleStyleRd__lFQO AA6ToggleV AA17SwitchToggleStyleV AA012_ConditionalM0V AcAEAdeFQrAI_AKyXEtFQO AA7ForEachV 0N9DataModel06StaticR0V 10Foundation4UUIDV AA6HStackV AA05TupleC0V AA6SpacerV AA5ImageV AA012_EnvironmentyuV0V AA4FontV AA016_ForegroundStyleV0V AA5ColorV
+- _symbolic _____y_____y__________ySay_____G_____AAy_____y_____y___________AAyAAy__________y_____SgGG_____y_____GGSgtGG_____y_____GGG_____GAYy_____GG 7SwiftUI15ModifiedContentV AA7SectionV AA4TextV AA7ForEachV 13HomeDataModel14StaticResidentV 10Foundation4UUIDV AA6HStackV AA9TupleViewV 0iB00i17HubsSelectionListR0V0m4InfoR0V AA6SpacerV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA24_ForegroundStyleModifierV AA5ColorV AA21_TraitWritingModifierV AA02Ist12EnabledTraitZ0V AA05EmptyR0V AA0u18RowBackgroundTraitZ0V
+- _symbolic _____y_____y_____yABy_____y_____y__________G_____G_ADyADyADy__________y_____GG_____yAGGG_____GtGG______yABy___________yA2XGSgtGGtGG 7SwiftUI6HStackV AA9TupleViewV AA6ZStackV AA15ModifiedContentV AA06_ShapeE0V AA9RectangleV AA5ColorV AA12_FrameLayoutV AA5ImageV AA30_EnvironmentKeyWritingModifierV AS5ScaleO AA016_ForegroundStyleR0V AA14_OpacityEffectV AA6VStackV AA4TextV AA012_ConditionalH0V
+- _symbolic _____y_____y_____y___________AAyAAy__________y_____SgGG_____y_____GGSgtGG_____y_____GG 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV 04HomeB00h17HubsSelectionListG0V012ResidentInfoG0V AA6SpacerV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleS0V AA5ColorV AA06_TraitrS0V AA02Isj7EnabledxQ0V
+- _symbolic _____y_____y_____y__________yADy__________y_____GGAFy_____GGACG_Qo_______yADyABy__________y_____yACG______Qo______yA2CSgGSgSgGAKG_Qo_Sg_____yADyAByAC_____ySay_____G_____ADy_____yAAyAE______ADyADy__________y_____SgGG_____y_____GGSgtGGAHGGAOGAKG_Qo_SgtG 7SwiftUI9TupleViewV AA0D0PAAE5alert11isPresented7contentQrAA7BindingVySbG_AA5AlertVyXEtFQO AA7SectionV AA4TextV AA15ModifiedContentV 04HomeB00o17HubsSelectionListD0V012ResidentInfoD0V AA21_TraitWritingModifierV AA02Isq7EnabledU3KeyV AA0r13RowBackgrounduZ0V AeAEAfgHQrAK_AMyXEtFQO AA05EmptyD0V AeAE11toggleStyleyQrqd__AA11ToggleStyleRd__lFQO AA6ToggleV AA17SwitchToggleStyleV AA012_ConditionalN0V AeAEAfgHQrAK_AMyXEtFQO AA7ForEachV 0O9DataModel06StaticS0V 10Foundation4UUIDV AA6HStackV AA6SpacerV AA5ImageV AA012_EnvironmentzvW0V AA4FontV AA016_ForegroundStyleW0V AA5ColorV
+- _symbolic _____y_____y_____y__________ySay_____G_____AAy_____y_____y___________AAyAAy__________y_____SgGG_____y_____GGSgtGG_____y_____GGG_____GAYy_____GG_Qo_ 7SwiftUI4ViewPAAE5alert11isPresented7contentQrAA7BindingVySbG_AA5AlertVyXEtFQO AA15ModifiedContentV AA7SectionV AA4TextV AA7ForEachV 13HomeDataModel14StaticResidentV 10Foundation4UUIDV AA6HStackV AA05TupleC0V 0pB00p17HubsSelectionListC0V0t4InfoC0V AA6SpacerV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA24_ForegroundStyleModifierV AA5ColorV AA21_TraitWritingModifierV AA02IsZ15EnabledTraitKeyV AA05EmptyC0V AA25ListRowBackgroundTraitKeyV
+- _symbolic _____y_____y_____y__________ySay_____G_____AAy_____y_____y___________AAyAAy__________y_____SgGG_____y_____GGSgtGG_____y_____GGG_____GAYy_____GG_Qo_Sg 7SwiftUI4ViewPAAE5alert11isPresented7contentQrAA7BindingVySbG_AA5AlertVyXEtFQO AA15ModifiedContentV AA7SectionV AA4TextV AA7ForEachV 13HomeDataModel14StaticResidentV 10Foundation4UUIDV AA6HStackV AA05TupleC0V 0pB00p17HubsSelectionListC0V0t4InfoC0V AA6SpacerV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA24_ForegroundStyleModifierV AA5ColorV AA21_TraitWritingModifierV AA02IsZ15EnabledTraitKeyV AA05EmptyC0V AA25ListRowBackgroundTraitKeyV
+- _symbolic _____y_____y_____y_____yAByABy__________y_____SgGG_____G______tGG_____GAByABy_____yADyAL_AM_____tGGAPGAPG_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA6VStackV AA9TupleViewV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA12_FrameLayoutV AA4TextV AA08_PaddingQ0V AA6HStackV AA6SpacerV
+- _symbolic _____y_____y_____y_____y__________G_____G_ACyACyACy__________y_____GG_____yAFGG_____GtGG 7SwiftUI6ZStackV AA9TupleViewV AA15ModifiedContentV AA06_ShapeE0V AA9RectangleV AA5ColorV AA12_FrameLayoutV AA5ImageV AA30_EnvironmentKeyWritingModifierV AQ5ScaleO AA016_ForegroundStyleQ0V AA14_OpacityEffectV
+- _symbolic _____y_____y_____y_____y__________G_____G_ACyACyACy__________y_____GG_____yAFGG_____GtGG______yABy___________yA2WGSgtGGt 7SwiftUI6ZStackV AA9TupleViewV AA15ModifiedContentV AA06_ShapeE0V AA9RectangleV AA5ColorV AA12_FrameLayoutV AA5ImageV AA30_EnvironmentKeyWritingModifierV AQ5ScaleO AA016_ForegroundStyleQ0V AA14_OpacityEffectV AA6VStackV AA4TextV AA012_ConditionalG0V
+- _symbolic _____y_____y_____y_____y__________yAEy__________y_____GGAGy_____GGADG_Qo_______yAEyACy__________y_____yADG______Qo______yA2DSgGSgSgGALG_Qo_Sg_____yAEyACyAD_____ySay_____G_____AEy_____yAByAF______AEyAEy__________y_____SgGG_____y_____GGSgtGGAIGGAPGALG_Qo_SgtGG 7SwiftUI5GroupV AA9TupleViewV AA0E0PAAE5alert11isPresented7contentQrAA7BindingVySbG_AA5AlertVyXEtFQO AA7SectionV AA4TextV AA15ModifiedContentV 04HomeB00p17HubsSelectionListE0V012ResidentInfoE0V AA21_TraitWritingModifierV AA02Isr7EnabledV3KeyV AA0s13RowBackgroundV3KeyV AgAEAhiJQrAM_AOyXEtFQO AA05EmptyE0V AgAE11toggleStyleyQrqd__AA11ToggleStyleRd__lFQO AA6ToggleV AA17SwitchToggleStyleV AA012_ConditionalO0V AgAEAhiJQrAM_AOyXEtFQO AA7ForEachV 0P9DataModel06StaticT0V 10Foundation4UUIDV AA6HStackV AA6SpacerV AA5ImageV AA015_EnvironmentKeywX0V AA4FontV AA016_ForegroundStyleX0V AA5ColorV
+- _symbolic _____y_____y_____y_____y_____y__________yAEy__________y_____GGAGy_____GGADG_Qo_______yAEyACy__________y_____yADG______Qo______yA2DSgGSgSgGALG_Qo_Sg_____yAEyACyAD_____ySay_____G_____AEy_____yAByAF______AEyAEy__________y_____SgGG_____y_____GGSgtGGAIGGAPGALG_Qo_SgtGG_A3_SgQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA5GroupV AA05TupleC0V AcAE5alert11isPresented7contentQrAA7BindingVySbG_AA5AlertVyXEtFQO AA7SectionV AA4TextV AA15ModifiedContentV 04HomeB00t17HubsSelectionListC0V012ResidentInfoC0V AA21_TraitWritingModifierV AA02Isv7EnabledZ3KeyV AA0w13RowBackgroundZ3KeyV AcAEAklMQrAP_ARyXEtFQO AA05EmptyC0V AcAE11toggleStyleyQrqd__AA11ToggleStyleRd__lFQO AA6ToggleV AA17SwitchToggleStyleV AA012_ConditionalS0V AcAEAklMQrAP_ARyXEtFQO AA7ForEachV 0T9DataModel06StaticX0V 10Foundation4UUIDV AA6HStackV AA6SpacerV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA24_ForegroundStyleModifierV AA5ColorV
+- _symbolic _____y_____y_____y_____y_____y_____y_____AAyAAy__________y_____GGAGy_____GGAEG_Qo_______yAAyADy__________y_____yAEG______Qo______yA2ESgGSgSgGALG_Qo_Sg_____yAAyADyAE_____ySay_____G_____AAy_____yACyAF______AAyAAy__________y_____SgGG_____y_____GGSgtGGAIGGAPGALG_Qo_SgtGG_A3_SgQo______yA5_SgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA5GroupV AA05TupleE0V AeAE5alert11isPresented7contentQrAA7BindingVySbG_AA5AlertVyXEtFQO AA7SectionV AA4TextV 04HomeB00t17HubsSelectionListE0V012ResidentInfoE0V AA21_TraitWritingModifierV AA02Isv7EnabledZ3KeyV AA0w13RowBackgroundZ3KeyV AeAEAmnOQrAR_ATyXEtFQO AA05EmptyE0V AeAE11toggleStyleyQrqd__AA11ToggleStyleRd__lFQO AA6ToggleV AA17SwitchToggleStyleV AA012_ConditionalD0V AeAEAmnOQrAR_ATyXEtFQO AA7ForEachV 0T9DataModel06StaticX0V 10Foundation4UUIDV AA6HStackV AA6SpacerV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA24_ForegroundStyleModifierV AA5ColorV AY02OnG25AfterInitialSetupModifierV
+- _symbolic yXlSgSo7NSErrorCSgIeyByy_
+- block_copy_helper.2
+- block_copy_helper.269
+- block_copy_helper.274
+- block_copy_helper.278
+- block_copy_helper.28
+- block_copy_helper.284
+- block_copy_helper.41
+- block_copy_helper.43
+- block_copy_helper.49
+- block_copy_helper.60
+- block_copy_helper.66
+- block_descriptor.271
+- block_descriptor.276
+- block_descriptor.280
+- block_descriptor.286
+- block_descriptor.30
+- block_descriptor.4
+- block_descriptor.43
+- block_descriptor.45
+- block_descriptor.51
+- block_descriptor.55
+- block_descriptor.62
+- block_descriptor.68
+- block_destroy_helper.270
+- block_destroy_helper.275
+- block_destroy_helper.279
+- block_destroy_helper.285
+- block_destroy_helper.29
+- block_destroy_helper.3
+- block_destroy_helper.42
+- block_destroy_helper.44
+- block_destroy_helper.50
+- block_destroy_helper.61
+- block_destroy_helper.67
+- get_witness_table 7SwiftUI15ModifiedContentVyACyAA4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAA5GroupVyAA05TupleE0VyAeAE5alert11isPresented7contentQrAA7BindingVySbG_AA5AlertVyXEtFQOyAA7SectionVyAA4TextVACyACy04HomeB00t17HubsSelectionListE0V012ResidentInfoE0VAA21_TraitWritingModifierVyAA02Isv7EnabledZ3KeyVGGA3_yAA0w13RowBackgroundZ3KeyVGGAXG_Qo__AeAEAmnOQrAR_ATyXEtFQOyACyAVyAA05EmptyE0VAeAE11toggleStyleyQrqd__AA11ToggleStyleRd__lFQOyAA6ToggleVyAXG_AA17SwitchToggleStyleVQo_AA012_ConditionalD0VyA2XSgGSgSgGA10_G_Qo_SgAeAEAmnOQrAR_ATyXEtFQOyACyAVyAxA7ForEachVySay0T9DataModel06StaticX0VG10Foundation4UUIDVACyAA6HStackVyALyA1__AA6SpacerVACyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA24_ForegroundStyleModifierVyAA5ColorVGGSgtGGA6_GGA15_GA10_G_Qo_SgtGG_A38_SgQo_AY02OnG25AfterInitialSetupModifierVyA42_SgGGA76_ySbGGAaDHPA79_AaDHPqd0__AaDHD3_A74_HO_A78_AA0E8ModifierHPyHCHC_A80_AAA82_HPyHCHC.49
+- get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA6ZStackVyAEyAA15ModifiedContentVyAA06_ShapeE0VyAA9RectangleVAA5ColorVGAA12_FrameLayoutVG_AIyAIyAIyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAU5ScaleOGGAA016_ForegroundStyleR0VyAOGGAA14_OpacityEffectVGtGG_AA6VStackVyAEyAA4TextV_AA012_ConditionalH0VyA12_A12_GSgtGGtGGAA0E0HPyHC.54
+- objectdestroy.26Tm
+- objectdestroy.313Tm
+- objectdestroy.337Tm
+- objectdestroy.42Tm
+CStrings:
++ "\n[INTERNAL] Encountered %lu errors: %@"
++ "%1$@"
++ "%1$@ %1$@"
++ "%1$@ %1$@ %1$@"
++ "%2$@"
++ "%3$@"
++ "%4$@"
++ "%@+Controls: confirming control items %@, isMatterOnly: %d, hasMatterControlModules: %d, forceNativeMatter: %d"
++ "%@-%@-%@.log"
++ "%@:%s Cancel button tapped"
++ "%s - %s: hf_walletKeyDeviceStatesOfCompatiblePairedWatches %s"
++ "%s: Could not determine offset for indexPath: %@; event: %@"
++ "%s: Offset not found for event: %@"
++ "(HUPinCodeEditorViewController) User tapped 'cancel' button"
++ "(HUPinCodeEditorViewController) User tapped 'save' button"
++ "-[HUClipScrubberDataSource offsetForEvent:]"
++ "/AppleInternal/Library/BuildRoots/f1d3dab2-fe51-11ef-979c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/Home/HomeUI/AccessoryList/ViewControllers/TriggerActionPickerViewController+ConvertToShortcut.swift"
++ "/AppleInternal/Library/BuildRoots/f1d3dab2-fe51-11ef-979c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/Home/HomeUI/AccessoryList/ViewControllers/TriggerActionPickerViewController.swift"
++ "/AppleInternal/Library/BuildRoots/f1d3dab2-fe51-11ef-979c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/Home/HomeUI/Locations/HomeHubsAndBridgesListView.swift"
++ "@\"NAFuture\"16@?0@\"HFStaticItem\"8"
++ "@\"NSDictionary\"24@?0@\"HFTransformItem\"8@\"NSDictionary\"16"
++ "@\"OBHeaderAccessoryButton\""
++ "@48@0:8@16@24@32d40"
++ "B32@?0@8@16^B24"
++ "Could not dismiss TipView; no existing view"
++ "Couldn't localize format string \"%@\". Validator says: %@. error: %@"
++ "Crash"
++ "EndUserSupport"
++ "Failing send due to invalid recipients. ComposeView's recipients count is 0"
++ "Failing send due to invalid unatomized address: %@"
++ "Found common specifiers %@ in the format string, not defined in validFormatSpecifiers"
++ "HUSoftwareUpdateControlDescription"
++ "HUSoftwareUpdateHomeKitUpdateRecommended"
++ "HUSoftwareUpdateHomeKitUpdateRecommendedDescription"
++ "HUSoftwareUpdateHomeKitUpdateRequired"
++ "HUSoftwareUpdateHomeKitUpdateRequiredDescription"
++ "HUSoftwareUpdateMigrationUpdateAnyway"
++ "HUSoftwareUpdateMigrationUpdateHomeButtonTitle"
++ "HUSoftwareUpdateMigrationUpdateHomeDescription"
++ "HUSoftwareUpdateMigrationUpdateHomeTitle"
++ "HUSoftwareUpdateMigrationUpdateLaterTitle"
++ "Home.Banners.Migration.HomeUpgradeRequired"
++ "NetworkDiagnostics"
++ "No specifiers provided"
++ "Should show HH2 migration banner?: %{BOOL}d %@"
++ "Specifiers provided (%@) matched %lu out of %lu from the format string"
++ "T@\"OBHeaderAccessoryButton\",&,N,V_learnMoreButton"
++ "T@\"UIView\",W,N,V_tipView"
++ "The specifiers %@ are missing from the format string"
++ "Trying to present more than one TipView"
++ "_createAccessLevelSectionUsing:"
++ "_createAccessorySectionUsing:"
++ "_createAllowEditingSectionUsing:"
++ "_createAllowedAccessoriesSectionUsing:"
++ "_createAppleTVProfileSectionUsing:"
++ "_createLocalAccessSectionUsing:"
++ "_createPendingAccessoriesSectionUsing:"
++ "_createRemoveUserLeaveHomeSectionUsing:"
++ "_showPictureInPicturePlaybackError:"
++ "_tipView"
++ "addCollectionFailure:"
++ "addConstraints:"
++ "collectionFailures"
++ "error = %@"
++ "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"
++ "hf_shouldPostHomeUgradeRequired"
++ "home.residentselection.icon."
++ "home.residentselection.listitem."
++ "home:didUpdateActionSet:isExecuting:"
++ "homeKitDispatcher:manager:didChangeHome: home = %{public}@"
++ "https://support.apple.com/102287?cid=mc-ols-home-article_102287-homeappui-02122025"
++ "hu_avatarImageWithSymbolNamed:configuration:backgroundColor:diameter:"
++ "hu_homeUpdateLearnMoreURL"
++ "initWithResultsAndItemBlock:"
++ "initWithSourceItem:updateOptionsTransformBlock:resultsAndItemTransformBlock:"
++ "isNull"
++ "keysOfEntriesPassingTest:"
++ "matterItemHasControlModules:"
++ "numberOfMatchesInString:options:range:"
++ "presentSecurePickerFromNavigationController:collectionType:withTitle:delegate:"
++ "recordDownloadedMatterLog:forType:"
++ "regularExpressionWithPattern:options:error:"
++ "resetCollectionFailures"
++ "setDateFormat:"
++ "setIncludesMatterOnlyAccessoryItems:"
++ "setTipView:"
++ "shouldFilterOutInlineULHItem"
++ "shouldHideForHomes:"
++ "shouldHideForHomes:withUserDefaults:softwareUpdateCounter:"
++ "shouldShowMediaServicesSection"
++ "textField:insertInputSuggestion:"
++ "textView:insertInputSuggestion:"
++ "tipMinWidth"
++ "tipPadding"
++ "v32@0:8@\"UITextField\"16@\"UIInputSuggestion\"24"
++ "v32@0:8@\"UITextView\"16@\"UIInputSuggestion\"24"
++ "v36@0:8@\"HMHome\"16@\"HMActionSet\"24B32"
++ "v44@0:8@\"WKWebView\"16@\"WKBackForwardListItem\"24B32@?<v@?B>36"
++ "v48@0:8@\"WKWebView\"16@\"WKOpenPanelParameters\"24@\"WKFrameInfo\"32@?<v@?@\"NSArray\">40"
++ "v48@0:8@16q24@32@40"
++ "webView:runOpenPanelWithParameters:initiatedByFrame:completionHandler:"
++ "webView:shouldGoToBackForwardListItem:willUseInstantBack:completionHandler:"
++ "yyyy-MM-dd_HH:mm:ss"
++ "| hf_canUpdateToHH2=%d | hasHomePodsUpdating=%d | hasDismissedBanner=%d | allHomePodsSupportHH2=%d"
+- "%@+Controls: confirming control items %@, shouldShowWithNoControlItems: %{BOOL}d"
+- "%s - %s: hf_walletKeyDeviceStatesOfCompatiblePairedWatches %@"
+- "%s Cancel button tapped"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/Home/HomeUI/AccessoryList/ViewControllers/TriggerActionPickerViewController+ConvertToShortcut.swift"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/Home/HomeUI/AccessoryList/ViewControllers/TriggerActionPickerViewController.swift"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/Home/HomeUI/Locations/HomeHubsAndBridgesListView.swift"
+- "@48@0:8@16@24q32d40"
+- "Can't construct Array with count < 0"
+- "Division by zero"
+- "Division results in an overflow"
+- "Failing send due to invalid address: %@"
+- "Failing send due to invalid recipients"
+- "HULearnMoreTitle"
+- "HUSoftwareUpdateHomeKitUpdateAvailable"
+- "HUSoftwareUpdateImproveReliabilityAndPerformance"
+- "HUSoftwareUpdateImproveReliabilityAndPerformancePlural"
+- "HUSoftwareUpdateMigrationUpgradeAnyway"
+- "HUSoftwareUpdateMigrationUpgradeHomeDescription"
+- "HUSoftwareUpdateMigrationUpgradeHomeTitle"
+- "HUSoftwareUpdateMigrationUpgradeHomesDescription"
+- "HUSoftwareUpdateMigrationUpgradeHomesTitle"
+- "HUSoftwareUpdateMigrationUpgradeLaterTitle"
+- "HUSoftwareUpdateMigrationUpgradeSpecificHomeTitle"
+- "Insufficient space allocated to copy string contents"
+- "Negative value is not representable"
+- "Not enough bits to represent the passed value"
+- "Offset not found for displayableEvent:%@."
+- "Should show HH2 migration banner?: %{BOOL}d | hf_canUpdateToHH2=%{BOOL}d | hasHomePodsUpdating=%{BOOL}d | hasDismissedBanner=%{BOOL}d | allHomePodsSupportHH2=%{BOOL}d"
+- "Swift/Array.swift"
+- "Swift/ContiguousArrayBuffer.swift"
+- "Swift/IntegerTypes.swift"
+- "Swift/Integers.swift"
+- "Swift/StringTesting.swift"
+- "Swift/StringUTF8View.swift"
+- "Swift/UnsafeBufferPointer.swift"
+- "Swift/UnsafePointer.swift"
+- "Swift/UnsafeRawPointer.swift"
+- "Unexpectedly found nil while unwrapping an Optional value"
+- "UnsafeMutableBufferPointer with negative count"
+- "UnsafeMutablePointer.initialize overlapping range"
+- "UnsafeMutablePointer.initialize with negative count"
+- "UnsafeMutablePointer.moveInitialize with negative count"
+- "UnsafeMutableRawPointer.initializeMemory overlapping range"
+- "_setShouldHideArrow:"
+- "_updateCanShowOverlayState"
+- "collectionFailed"
+- "error = %s"
+- "hu_avatarImageWithSymbolNamed:textStyle:scale:diameter:"
+- "invalid Collection: less than 'count' elements in collection"
+- "lazyFutureWithBlock:scheduler:"
+- "recordDownloadedMatterLog:"
+- "setCollectionFailed:"
+- "user:didUpdatePersonManagerSettings:"
+
+```

@@ -1,0 +1,622 @@
+## libquic.dylib
+
+> `/usr/lib/libquic.dylib`
+
+```diff
+
+-4277.81.1.0.0
+-  __TEXT.__text: 0xcd194
++4277.101.3.0.0
++  __TEXT.__text: 0xcf5ec
+   __TEXT.__auth_stubs: 0x18b0
+   __TEXT.__objc_methlist: 0x238
+-  __TEXT.__const: 0x395
+-  __TEXT.__cstring: 0x8b70
+-  __TEXT.__oslogstring: 0x11574
+-  __TEXT.__unwind_info: 0xdb8
++  __TEXT.__const: 0x355
++  __TEXT.__cstring: 0x8dc6
++  __TEXT.__oslogstring: 0x115c5
++  __TEXT.__unwind_info: 0xd60
+   __TEXT.__objc_classname: 0xa
+   __TEXT.__objc_methname: 0x7c5
+   __TEXT.__objc_methtype: 0xbd0
+
+   __DATA_CONST.__objc_selrefs: 0x1e0
+   __DATA_CONST.__objc_superrefs: 0x8
+   __AUTH_CONST.__auth_got: 0xc60
+-  __AUTH_CONST.__const: 0x2f90
++  __AUTH_CONST.__const: 0x2fb0
+   __AUTH_CONST.__cfstring: 0x1480
+   __AUTH_CONST.__objc_const: 0xf8
+   __AUTH.__objc_data: 0x50
+
+   - /System/Library/Frameworks/Security.framework/Versions/A/Security
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F39717BD-0C54-3A7A-8C46-DCE046FF377B
+-  Functions: 1190
+-  Symbols:   2029
+-  CStrings:  2888
++  UUID: E5331D7A-FF00-3487-9438-472B708438A9
++  Functions: 1176
++  Symbols:   2031
++  CStrings:  2913
+ 
+Symbols:
++ __35-[QUICLog addFrameList:frame_list:]_block_invoke.360
++ ____quic_signpost_is_enabled_block_invoke.2539
++ ____quic_signpost_is_enabled_block_invoke.3040
++ ____quic_signpost_is_enabled_block_invoke.3132
++ ____quic_signpost_is_enabled_block_invoke.3671
++ ____quic_signpost_is_enabled_block_invoke.3906
++ ____quic_signpost_is_enabled_block_invoke.4745
++ ____quic_signpost_is_enabled_block_invoke.695
++ ____quic_signpost_is_enabled_block_invoke.969
++ ___quic_timer_run_block_invoke
++ __block_descriptor_tmp.1.3053
++ __block_descriptor_tmp.1.3172
++ __block_descriptor_tmp.101
++ __block_descriptor_tmp.105
++ __block_descriptor_tmp.107
++ __block_descriptor_tmp.11.2484
++ __block_descriptor_tmp.11.3401
++ __block_descriptor_tmp.11.3804
++ __block_descriptor_tmp.113
++ __block_descriptor_tmp.117
++ __block_descriptor_tmp.12.3130
++ __block_descriptor_tmp.12.3538
++ __block_descriptor_tmp.12.4800
++ __block_descriptor_tmp.1247
++ __block_descriptor_tmp.127
++ __block_descriptor_tmp.128
++ __block_descriptor_tmp.129
++ __block_descriptor_tmp.13.2487
++ __block_descriptor_tmp.13.2985
++ __block_descriptor_tmp.133
++ __block_descriptor_tmp.134
++ __block_descriptor_tmp.138
++ __block_descriptor_tmp.139
++ __block_descriptor_tmp.14.2091
++ __block_descriptor_tmp.14.3575
++ __block_descriptor_tmp.143
++ __block_descriptor_tmp.144
++ __block_descriptor_tmp.149
++ __block_descriptor_tmp.15.2485
++ __block_descriptor_tmp.15.2842
++ __block_descriptor_tmp.15.337
++ __block_descriptor_tmp.15.3966
++ __block_descriptor_tmp.150
++ __block_descriptor_tmp.151
++ __block_descriptor_tmp.16.3965
++ __block_descriptor_tmp.16.4508
++ __block_descriptor_tmp.160.4257
++ __block_descriptor_tmp.162
++ __block_descriptor_tmp.162.4256
++ __block_descriptor_tmp.1622
++ __block_descriptor_tmp.163.4255
++ __block_descriptor_tmp.167
++ __block_descriptor_tmp.168
++ __block_descriptor_tmp.168.4262
++ __block_descriptor_tmp.169.4265
++ __block_descriptor_tmp.17.3805
++ __block_descriptor_tmp.1700
++ __block_descriptor_tmp.175
++ __block_descriptor_tmp.1825
++ __block_descriptor_tmp.184.4275
++ __block_descriptor_tmp.187.4284
++ __block_descriptor_tmp.190
++ __block_descriptor_tmp.1922
++ __block_descriptor_tmp.193
++ __block_descriptor_tmp.20.3652
++ __block_descriptor_tmp.2056
++ __block_descriptor_tmp.21.3962
++ __block_descriptor_tmp.22.3961
++ __block_descriptor_tmp.2225
++ __block_descriptor_tmp.223
++ __block_descriptor_tmp.227
++ __block_descriptor_tmp.23.378
++ __block_descriptor_tmp.23.3806
++ __block_descriptor_tmp.230
++ __block_descriptor_tmp.233
++ __block_descriptor_tmp.236
++ __block_descriptor_tmp.238
++ __block_descriptor_tmp.2396
++ __block_descriptor_tmp.24
++ __block_descriptor_tmp.24.2546
++ __block_descriptor_tmp.2477
++ __block_descriptor_tmp.249
++ __block_descriptor_tmp.254
++ __block_descriptor_tmp.255
++ __block_descriptor_tmp.262
++ __block_descriptor_tmp.267
++ __block_descriptor_tmp.27.3958
++ __block_descriptor_tmp.2702
++ __block_descriptor_tmp.273
++ __block_descriptor_tmp.277
++ __block_descriptor_tmp.28.180
++ __block_descriptor_tmp.28.3253
++ __block_descriptor_tmp.28.3957
++ __block_descriptor_tmp.2832
++ __block_descriptor_tmp.29.3807
++ __block_descriptor_tmp.293
++ __block_descriptor_tmp.296
++ __block_descriptor_tmp.3.3021
++ __block_descriptor_tmp.3.3763
++ __block_descriptor_tmp.3.427
++ __block_descriptor_tmp.30.1703
++ __block_descriptor_tmp.30.2566
++ __block_descriptor_tmp.30.3244
++ __block_descriptor_tmp.3017
++ __block_descriptor_tmp.3147
++ __block_descriptor_tmp.32.3245
++ __block_descriptor_tmp.33.199
++ __block_descriptor_tmp.33.2547
++ __block_descriptor_tmp.33.3242
++ __block_descriptor_tmp.33.3954
++ __block_descriptor_tmp.34.2555
++ __block_descriptor_tmp.34.3808
++ __block_descriptor_tmp.3443
++ __block_descriptor_tmp.36.3669
++ __block_descriptor_tmp.3973
++ __block_descriptor_tmp.4.1626
++ __block_descriptor_tmp.4.2892
++ __block_descriptor_tmp.4.3761
++ __block_descriptor_tmp.41.3951
++ __block_descriptor_tmp.42.3809
++ __block_descriptor_tmp.432
++ __block_descriptor_tmp.4333
++ __block_descriptor_tmp.44.3832
++ __block_descriptor_tmp.46
++ __block_descriptor_tmp.46.3810
++ __block_descriptor_tmp.4611
++ __block_descriptor_tmp.4743
++ __block_descriptor_tmp.48.3811
++ __block_descriptor_tmp.5.2141
++ __block_descriptor_tmp.5.2475
++ __block_descriptor_tmp.5.3039
++ __block_descriptor_tmp.5.3457
++ __block_descriptor_tmp.5.4005
++ __block_descriptor_tmp.50
++ __block_descriptor_tmp.52.3812
++ __block_descriptor_tmp.56
++ __block_descriptor_tmp.56.3813
++ __block_descriptor_tmp.60.4702
++ __block_descriptor_tmp.62
++ __block_descriptor_tmp.64
++ __block_descriptor_tmp.67
++ __block_descriptor_tmp.69
++ __block_descriptor_tmp.693
++ __block_descriptor_tmp.7.270
++ __block_descriptor_tmp.7.3232
++ __block_descriptor_tmp.72
++ __block_descriptor_tmp.74
++ __block_descriptor_tmp.77.3815
++ __block_descriptor_tmp.79
++ __block_descriptor_tmp.8.3323
++ __block_descriptor_tmp.83
++ __block_descriptor_tmp.83.4020
++ __block_descriptor_tmp.84
++ __block_descriptor_tmp.87.4021
++ __block_descriptor_tmp.9.2548
++ __block_descriptor_tmp.9.3334
++ __block_descriptor_tmp.9.3532
++ __block_descriptor_tmp.9.3969
++ __block_descriptor_tmp.90
++ __block_descriptor_tmp.94
++ __block_descriptor_tmp.95
++ __block_descriptor_tmp.967
++ __block_literal_global.107
++ __block_literal_global.11
++ __block_literal_global.1195
++ __block_literal_global.123
++ __block_literal_global.131
++ __block_literal_global.137
++ __block_literal_global.146
++ __block_literal_global.152
++ __block_literal_global.1620
++ __block_literal_global.17
++ __block_literal_global.1823
++ __block_literal_global.1920
++ __block_literal_global.21
++ __block_literal_global.2223
++ __block_literal_global.232
++ __block_literal_global.235
++ __block_literal_global.239
++ __block_literal_global.2394
++ __block_literal_global.2535
++ __block_literal_global.259
++ __block_literal_global.295
++ __block_literal_global.3035
++ __block_literal_global.3126
++ __block_literal_global.3663
++ __block_literal_global.3760
++ __block_literal_global.425
++ __block_literal_global.4609
++ __block_literal_global.4730
++ __block_literal_global.5
++ __block_literal_global.626
++ __block_literal_global.7
++ __block_literal_global.7.4003
++ __block_literal_global.963
++ __quic_conn_copy_info_block_invoke.176
++ __quic_conn_copy_metadata_block_invoke.80
++ __quic_conn_copy_metadata_block_invoke.84
++ __quic_conn_initialize_inner_block_invoke.224
++ __quic_conn_link_advisory_block_invoke.166
++ __quic_conn_send_frames_for_key_state_block_invoke.248
++ __quic_conn_set_metadata_handlers_block_invoke.12
++ __quic_conn_set_metadata_handlers_block_invoke.18
++ __quic_conn_set_metadata_handlers_block_invoke.24
++ __quic_conn_set_metadata_handlers_block_invoke.30
++ __quic_conn_set_metadata_handlers_block_invoke.35
++ __quic_conn_set_metadata_handlers_block_invoke.39
++ __quic_conn_set_metadata_handlers_block_invoke.49
++ __quic_conn_set_metadata_handlers_block_invoke.51
++ __quic_conn_set_metadata_handlers_block_invoke.53
++ __quic_conn_set_metadata_handlers_block_invoke.55
++ __quic_conn_set_metadata_handlers_block_invoke.65
++ __quic_conn_set_metadata_handlers_block_invoke.70
++ __quic_conn_set_metadata_handlers_block_invoke_2.13
++ __quic_conn_set_metadata_handlers_block_invoke_2.19
++ __quic_conn_set_metadata_handlers_block_invoke_2.25
++ __quic_conn_set_metadata_handlers_block_invoke_2.31
++ __quic_conn_set_metadata_handlers_block_invoke_2.36
++ __quic_conn_set_metadata_handlers_block_invoke_2.40
++ __quic_conn_set_metadata_handlers_block_invoke_2.57
++ __quic_conn_set_metadata_handlers_block_invoke_2.66
++ __quic_conn_set_metadata_handlers_block_invoke_2.71
++ __quic_conn_set_metadata_handlers_block_invoke_3.20
++ __quic_conn_set_metadata_handlers_block_invoke_3.26
++ __quic_conn_set_metadata_handlers_block_invoke_3.43
++ __quic_conn_set_metadata_handlers_block_invoke_3.60
++ __quic_conn_set_metadata_handlers_block_invoke_3.75
++ __quic_conn_set_metadata_handlers_block_invoke_4.61
++ __quic_conn_set_metadata_handlers_block_invoke_4.76
++ __quic_conn_set_mss_block_invoke.95
++ __quic_crypto_finalize_output_frames_block_invoke.79
++ __quic_crypto_setup_sec_options_block_invoke.25
++ __quic_crypto_setup_sec_options_block_invoke_2.26
++ __quic_crypto_tls_ready_inner_block_invoke.72
++ __quic_frame_process_DATAGRAM_block_invoke.185
++ __quic_migration_path_event_block_invoke.22
++ __quic_pmtud_change_path_block_invoke.13
++ __quic_signpost_is_enabled._quic_signposts_enabled.2536
++ __quic_signpost_is_enabled._quic_signposts_enabled.3036
++ __quic_signpost_is_enabled._quic_signposts_enabled.3127
++ __quic_signpost_is_enabled._quic_signposts_enabled.3664
++ __quic_signpost_is_enabled._quic_signposts_enabled.3904
++ __quic_signpost_is_enabled._quic_signposts_enabled.4731
++ __quic_signpost_is_enabled._quic_signposts_enabled.627
++ __quic_signpost_is_enabled._quic_signposts_enabled.964
++ __quic_signpost_is_enabled._quic_signposts_once.2534
++ __quic_signpost_is_enabled._quic_signposts_once.3034
++ __quic_signpost_is_enabled._quic_signposts_once.3125
++ __quic_signpost_is_enabled._quic_signposts_once.3662
++ __quic_signpost_is_enabled._quic_signposts_once.3903
++ __quic_signpost_is_enabled._quic_signposts_once.4729
++ __quic_signpost_is_enabled._quic_signposts_once.625
++ __quic_signpost_is_enabled._quic_signposts_once.962
++ __quic_tp_serialize_internal_block_invoke.29
++ _nw_interface_get_subtype
++ _nw_protocol_instance_early_data_rejected
++ _quic_conn_mark_dcid_used
++ _quic_frame_free
++ _quic_migration_can_migrate
++ _quic_migration_disable_active_migration
++ _quic_migration_prepare_parameters
+- __35-[QUICLog addFrameList:frame_list:]_block_invoke.359
+- ____quic_signpost_is_enabled_block_invoke.2526
+- ____quic_signpost_is_enabled_block_invoke.3029
+- ____quic_signpost_is_enabled_block_invoke.3123
+- ____quic_signpost_is_enabled_block_invoke.3664
+- ____quic_signpost_is_enabled_block_invoke.3896
+- ____quic_signpost_is_enabled_block_invoke.4735
+- ____quic_signpost_is_enabled_block_invoke.668
+- ____quic_signpost_is_enabled_block_invoke.942
+- __block_descriptor_tmp.1.3042
+- __block_descriptor_tmp.1.3163
+- __block_descriptor_tmp.10.3797
+- __block_descriptor_tmp.100
+- __block_descriptor_tmp.103
+- __block_descriptor_tmp.108
+- __block_descriptor_tmp.11.3394
+- __block_descriptor_tmp.11.3532
+- __block_descriptor_tmp.112
+- __block_descriptor_tmp.114
+- __block_descriptor_tmp.115
+- __block_descriptor_tmp.12.2470
+- __block_descriptor_tmp.12.3121
+- __block_descriptor_tmp.122
+- __block_descriptor_tmp.1222
+- __block_descriptor_tmp.123
+- __block_descriptor_tmp.13.3569
+- __block_descriptor_tmp.130
+- __block_descriptor_tmp.131
+- __block_descriptor_tmp.132
+- __block_descriptor_tmp.136
+- __block_descriptor_tmp.137
+- __block_descriptor_tmp.14.2068
+- __block_descriptor_tmp.14.3954
+- __block_descriptor_tmp.141
+- __block_descriptor_tmp.146
+- __block_descriptor_tmp.147
+- __block_descriptor_tmp.15.3953
+- __block_descriptor_tmp.15.4791
+- __block_descriptor_tmp.152
+- __block_descriptor_tmp.152.3828
+- __block_descriptor_tmp.153
+- __block_descriptor_tmp.154
+- __block_descriptor_tmp.1593
+- __block_descriptor_tmp.160.4249
+- __block_descriptor_tmp.164
+- __block_descriptor_tmp.164.4253
+- __block_descriptor_tmp.165
+- __block_descriptor_tmp.166
+- __block_descriptor_tmp.1673
+- __block_descriptor_tmp.169.4258
+- __block_descriptor_tmp.17.3211
+- __block_descriptor_tmp.170
+- __block_descriptor_tmp.18.3258
+- __block_descriptor_tmp.18.360
+- __block_descriptor_tmp.1801
+- __block_descriptor_tmp.185
+- __block_descriptor_tmp.189
+- __block_descriptor_tmp.1899
+- __block_descriptor_tmp.19.4500
+- __block_descriptor_tmp.195
+- __block_descriptor_tmp.2
+- __block_descriptor_tmp.2.2460
+- __block_descriptor_tmp.2.3756
+- __block_descriptor_tmp.2.401
+- __block_descriptor_tmp.2034
+- __block_descriptor_tmp.21.3950
+- __block_descriptor_tmp.22.3798
+- __block_descriptor_tmp.2206
+- __block_descriptor_tmp.224
+- __block_descriptor_tmp.228
+- __block_descriptor_tmp.23.376
+- __block_descriptor_tmp.231
+- __block_descriptor_tmp.234
+- __block_descriptor_tmp.237
+- __block_descriptor_tmp.2379
+- __block_descriptor_tmp.239
+- __block_descriptor_tmp.2462
+- __block_descriptor_tmp.251
+- __block_descriptor_tmp.252
+- __block_descriptor_tmp.258
+- __block_descriptor_tmp.26.3947
+- __block_descriptor_tmp.264
+- __block_descriptor_tmp.2689
+- __block_descriptor_tmp.269
+- __block_descriptor_tmp.27.3946
+- __block_descriptor_tmp.275
+- __block_descriptor_tmp.279
+- __block_descriptor_tmp.28.3246
+- __block_descriptor_tmp.28.3799
+- __block_descriptor_tmp.2821
+- __block_descriptor_tmp.294
+- __block_descriptor_tmp.297
+- __block_descriptor_tmp.3.2879
+- __block_descriptor_tmp.3.3010
+- __block_descriptor_tmp.3.3754
+- __block_descriptor_tmp.30.3237
+- __block_descriptor_tmp.3006
+- __block_descriptor_tmp.31.156
+- __block_descriptor_tmp.31.1676
+- __block_descriptor_tmp.3138
+- __block_descriptor_tmp.32.3238
+- __block_descriptor_tmp.32.3943
+- __block_descriptor_tmp.33.2553
+- __block_descriptor_tmp.33.3235
+- __block_descriptor_tmp.33.3800
+- __block_descriptor_tmp.3436
+- __block_descriptor_tmp.36.175
+- __block_descriptor_tmp.36.2533
+- __block_descriptor_tmp.36.3940
+- __block_descriptor_tmp.37.2541
+- __block_descriptor_tmp.37.3801
+- __block_descriptor_tmp.39.3662
+- __block_descriptor_tmp.3961
+- __block_descriptor_tmp.4.3992
+- __block_descriptor_tmp.40
+- __block_descriptor_tmp.407
+- __block_descriptor_tmp.43
+- __block_descriptor_tmp.4324
+- __block_descriptor_tmp.45.3802
+- __block_descriptor_tmp.4603
+- __block_descriptor_tmp.47
+- __block_descriptor_tmp.47.2548
+- __block_descriptor_tmp.47.3803
+- __block_descriptor_tmp.4733
+- __block_descriptor_tmp.49.3804
+- __block_descriptor_tmp.5.2120
+- __block_descriptor_tmp.5.3450
+- __block_descriptor_tmp.51
+- __block_descriptor_tmp.55
+- __block_descriptor_tmp.55.3805
+- __block_descriptor_tmp.6.249
+- __block_descriptor_tmp.6.2534
+- __block_descriptor_tmp.6.3028
+- __block_descriptor_tmp.61
+- __block_descriptor_tmp.61.2486
+- __block_descriptor_tmp.61.3816
+- __block_descriptor_tmp.63
+- __block_descriptor_tmp.66
+- __block_descriptor_tmp.666
+- __block_descriptor_tmp.68
+- __block_descriptor_tmp.68.3806
+- __block_descriptor_tmp.7.2974
+- __block_descriptor_tmp.7.3225
+- __block_descriptor_tmp.76.3808
+- __block_descriptor_tmp.78.4007
+- __block_descriptor_tmp.8.2469
+- __block_descriptor_tmp.8.3316
+- __block_descriptor_tmp.8.3526
+- __block_descriptor_tmp.8.3957
+- __block_descriptor_tmp.82.4008
+- __block_descriptor_tmp.85
+- __block_descriptor_tmp.86.4010
+- __block_descriptor_tmp.87.2583
+- __block_descriptor_tmp.88.2582
+- __block_descriptor_tmp.89
+- __block_descriptor_tmp.89.4009
+- __block_descriptor_tmp.9.2831
+- __block_descriptor_tmp.9.3327
+- __block_descriptor_tmp.93
+- __block_descriptor_tmp.940
+- __block_descriptor_tmp.96
+- __block_literal_global.10
+- __block_literal_global.106
+- __block_literal_global.1168
+- __block_literal_global.117
+- __block_literal_global.128
+- __block_literal_global.134
+- __block_literal_global.143
+- __block_literal_global.149
+- __block_literal_global.1591
+- __block_literal_global.1799
+- __block_literal_global.1897
+- __block_literal_global.20.3212
+- __block_literal_global.20.348
+- __block_literal_global.218
+- __block_literal_global.2204
+- __block_literal_global.233
+- __block_literal_global.236
+- __block_literal_global.2377
+- __block_literal_global.2522
+- __block_literal_global.260
+- __block_literal_global.296
+- __block_literal_global.3024
+- __block_literal_global.3117
+- __block_literal_global.3656
+- __block_literal_global.3753
+- __block_literal_global.399
+- __block_literal_global.4
+- __block_literal_global.4601
+- __block_literal_global.4720
+- __block_literal_global.599
+- __block_literal_global.6.3990
+- __block_literal_global.936
+- __quic_conn_copy_info_block_invoke.173
+- __quic_conn_copy_metadata_block_invoke.79
+- __quic_conn_copy_metadata_block_invoke.83
+- __quic_conn_initialize_inner_block_invoke.225
+- __quic_conn_link_advisory_block_invoke.163
+- __quic_conn_send_frames_for_key_state_block_invoke.249
+- __quic_conn_set_metadata_handlers_block_invoke.11
+- __quic_conn_set_metadata_handlers_block_invoke.17
+- __quic_conn_set_metadata_handlers_block_invoke.23
+- __quic_conn_set_metadata_handlers_block_invoke.29
+- __quic_conn_set_metadata_handlers_block_invoke.34
+- __quic_conn_set_metadata_handlers_block_invoke.38
+- __quic_conn_set_metadata_handlers_block_invoke.48
+- __quic_conn_set_metadata_handlers_block_invoke.50
+- __quic_conn_set_metadata_handlers_block_invoke.52
+- __quic_conn_set_metadata_handlers_block_invoke.54
+- __quic_conn_set_metadata_handlers_block_invoke.64
+- __quic_conn_set_metadata_handlers_block_invoke.69
+- __quic_conn_set_metadata_handlers_block_invoke_2.12
+- __quic_conn_set_metadata_handlers_block_invoke_2.18
+- __quic_conn_set_metadata_handlers_block_invoke_2.24
+- __quic_conn_set_metadata_handlers_block_invoke_2.30
+- __quic_conn_set_metadata_handlers_block_invoke_2.35
+- __quic_conn_set_metadata_handlers_block_invoke_2.39
+- __quic_conn_set_metadata_handlers_block_invoke_2.56
+- __quic_conn_set_metadata_handlers_block_invoke_2.65
+- __quic_conn_set_metadata_handlers_block_invoke_2.70
+- __quic_conn_set_metadata_handlers_block_invoke_3.19
+- __quic_conn_set_metadata_handlers_block_invoke_3.25
+- __quic_conn_set_metadata_handlers_block_invoke_3.42
+- __quic_conn_set_metadata_handlers_block_invoke_3.59
+- __quic_conn_set_metadata_handlers_block_invoke_3.74
+- __quic_conn_set_metadata_handlers_block_invoke_4.60
+- __quic_conn_set_metadata_handlers_block_invoke_4.75
+- __quic_conn_set_mss_block_invoke.94
+- __quic_crypto_finalize_output_frames_block_invoke.84
+- __quic_crypto_setup_sec_options_block_invoke.28
+- __quic_crypto_setup_sec_options_block_invoke_2.29
+- __quic_crypto_tls_ready_inner_block_invoke.74
+- __quic_crypto_tls_ready_inner_block_invoke.77
+- __quic_frame_process_DATAGRAM_block_invoke.186
+- __quic_migration_path_event_block_invoke.21
+- __quic_pmtud_change_path_block_invoke.16
+- __quic_signpost_is_enabled._quic_signposts_enabled.2523
+- __quic_signpost_is_enabled._quic_signposts_enabled.3025
+- __quic_signpost_is_enabled._quic_signposts_enabled.3118
+- __quic_signpost_is_enabled._quic_signposts_enabled.3657
+- __quic_signpost_is_enabled._quic_signposts_enabled.3894
+- __quic_signpost_is_enabled._quic_signposts_enabled.4721
+- __quic_signpost_is_enabled._quic_signposts_enabled.600
+- __quic_signpost_is_enabled._quic_signposts_enabled.937
+- __quic_signpost_is_enabled._quic_signposts_once.2521
+- __quic_signpost_is_enabled._quic_signposts_once.3023
+- __quic_signpost_is_enabled._quic_signposts_once.3116
+- __quic_signpost_is_enabled._quic_signposts_once.3655
+- __quic_signpost_is_enabled._quic_signposts_once.3893
+- __quic_signpost_is_enabled._quic_signposts_once.4719
+- __quic_signpost_is_enabled._quic_signposts_once.598
+- __quic_signpost_is_enabled._quic_signposts_once.935
+- __quic_tp_serialize_internal_block_invoke.30
+- _nw_protocol_instance_ignore_future_path_changes
+- _quic_ack_alloc
+- _quic_frame_alloc_STOP_SENDING
+- _quic_migration_disable
+- _quic_migration_is_disabled
+- _strcmp
+CStrings:
++ "%s strict allocator failed"
++ "%s strict_reallocf called with size 0"
++ "%s strict_reallocf(%zu) failed"
++ "%{public}s DCID not found"
++ "%{public}s ignoring migration because of PTOs while the interface is AWDL"
++ "%{public}s marking DCID with sequence number %llu as used"
++ "%{public}s sending packet on path %p/%lx with DCID %{public}s"
++ "%{public}s timer->instance is null or 0"
++ "-[QUICLog createEvent:]"
++ "-[QUICLog packetLost:trigger:]"
++ "-[QUICLog packetReceived:isCoalesced:]"
++ "-[QUICLog packetSent:]"
++ "cubic_create"
++ "ledbat_create"
++ "prague_create"
++ "quic_ack_alloc"
++ "quic_ack_bitstring_create"
++ "quic_cid_array_create"
++ "quic_conn_alloc_globals"
++ "quic_conn_allocate"
++ "quic_conn_copy_data_transfer_snapshot_block_invoke"
++ "quic_conn_mark_dcid_used"
++ "quic_crypto_queue_create"
++ "quic_frame_alloc_CRYPTO"
++ "quic_frame_copy_metadata"
++ "quic_frame_free"
++ "quic_migration_can_migrate"
++ "quic_migration_create"
++ "quic_migration_disable_active_migration"
++ "quic_migration_prepare_parameters"
++ "quic_pacer_alloc"
++ "quic_packet_builder_create"
++ "quic_protector_create"
++ "quic_protector_get_mp_space"
++ "quic_reassq_create"
++ "quic_rtt_create"
++ "quic_shorthand_copyout"
++ "quic_shorthand_create"
++ "quic_tp_create"
+- "%s _strict_reallocf called with size 0"
+- "%s _strict_reallocf(%zu) failed"
+- "%s strict_malloc(%zu) failed"
+- "%{public}s invalid preferred address IPv4"
+- "%{public}s migration is disabled"
+- "%{public}s sending packet on path %p with DCID %{public}s"
+- "%{public}s unsupported identifier type 0x%llx"
+- "1"
+- "_strict_reallocf"
+- "quic_frame_find_path_from_path_identifiers"
+- "quic_migration_disable"
+- "quic_migration_is_disabled"
+- "strict_calloc"
+- "strict_malloc"
+
+```

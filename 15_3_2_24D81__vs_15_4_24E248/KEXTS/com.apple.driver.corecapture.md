@@ -1,0 +1,159 @@
+## com.apple.driver.corecapture
+
+> `com.apple.driver.corecapture`
+
+```diff
+
+-1210.3.0.0.0
+-  __TEXT.__const: 0x110
+-  __TEXT.__cstring: 0x1f26
+-  __TEXT.__os_log: 0x4147
+-  __TEXT_EXEC.__text: 0x27d54
++1250.24.0.0.0
++  __TEXT.__os_log: 0x4182
++  __TEXT.__const: 0x130
++  __TEXT.__cstring: 0x1f56
++  __TEXT_EXEC.__text: 0x2859c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc5
+   __DATA.__common: 0x2e0
+-  __DATA.__bss: 0x284
++  __DATA.__bss: 0x294
+   __DATA_CONST.__auth_got: 0x3a8
+   __DATA_CONST.__got: 0xc8
+   __DATA_CONST.__mod_init_func: 0x88
+   __DATA_CONST.__mod_term_func: 0x80
+-  __DATA_CONST.__const: 0xae88
++  __DATA_CONST.__const: 0xaec8
+   __DATA_CONST.__kalloc_type: 0x1000
+   __DATA_CONST.__kalloc_var: 0xa0
+-  UUID: A3647B9C-8E40-3AA6-A59A-2E218206DD14
+-  Functions: 847
+-  Symbols:   1931
+-  CStrings:  649
++  UUID: EC7F19A1-4C0A-3E6F-8983-575ED55D9CA5
++  Functions: 848
++  Symbols:   1941
++  CStrings:  652
+ 
+Symbols:
++ _GLOBAL__D_a.2961
++ _GLOBAL__D_a.3270
++ _GLOBAL__D_a.3593
++ _GLOBAL__D_a.3934
++ _GLOBAL__D_a.4280
++ _GLOBAL__D_a.4634
++ _ZL24kCoreCaptureStreamReport.4643
++ _ZL8sMethods.4242
++ __ZL27CCIOServiceValidatorReleasev
++ __ZN15CCFaultReporter27callCompleteReportCallbacksEv
++ __ZN15OSMetaClassBase6InvokeE5IORPC
++ __ZN19CCLogPipeUserClient18dumpToDiskCompleteEPK11CCTimestamp
++ __ZN19CCLogPipeUserClient28dumpToDiskCompleteUserClientEPS_PvP25IOExternalMethodArguments
++ __ZN9CCLogPipe18dumpToDiskCompleteEPK11CCTimestamp
++ __ZN9IOService16propertyMatchingEPK8OSSymbolPK8OSObjectP12OSDictionary
++ __ZNK13CCFaultReport21dumpFaultReportToDiskEv
++ __ZNK13CCFaultReport26needsBlockingFaultReporterEv
++ __ZZN10CCDataPipe25initWithOwnerNameCapacityEP9IOServicePKcS3_PK13CCPipeOptionsE20kalloc_type_view_503
++ __ZZN10CCDataPipe4freeEvE20kalloc_type_view_626
++ __ZZN12CCDataStream19initWithPipeAndNameEP6CCPipePKcPK15CCStreamOptionsE19kalloc_type_view_92
++ __ZZN12CCDataStream4freeEvE20kalloc_type_view_137
++ __ZZN13CCDataSession24initWithNameAndTimestampEPKc11CCTimestampE19kalloc_type_view_82
++ __ZZN13CCDataSession4freeEvE20kalloc_type_view_100
++ __ZZN13CCFaultReport7addFileEP8OSStringP8OSObjectE11_os_log_fmt_2
++ __ZZN13CCFaultReport7addFileEP8OSStringP8OSObjectE20kalloc_type_view_471
++ __ZZN13CCFaultReport7addFileEP8OSStringP8OSObjectE20kalloc_type_view_501
++ __ZZN14CCDataPipeBlob4freeEvE20kalloc_type_view_175
++ __ZZN14CCDataPipeBlob4initEvE20kalloc_type_view_157
++ __ZZN15CCFaultReporter17registerCallbacksEPNS_19register_callback_tEjP8OSObjectPKcE20kalloc_type_view_527
++ __ZZN15CCFaultReporter19unregisterCallbacksEP8OSObjectE20kalloc_type_view_675
++ __ZZN15CCFaultReporter22initWithStreamWorkloopEP12CCDataStreamP10IOWorkLoopE20kalloc_type_view_193
++ __ZZN15CCFaultReporter27callCompleteReportCallbacksEvE11_os_log_fmt
++ __ZZN15CCFaultReporter27callCompleteReportCallbacksEvE11_os_log_fmt_0
++ __ZZN15CCFaultReporter27callCompleteReportCallbacksEvE11_os_log_fmt_1
++ __ZZN15CCFaultReporter27callCompleteReportCallbacksEvE11_os_log_fmt_2
++ __ZZN15CCFaultReporter27callCompleteReportCallbacksEvE11_os_log_fmt_3
++ __ZZN15CCFaultReporter4freeEvE20kalloc_type_view_448
++ __ZZN16CCDataPipeBlobOD4freeEvE20kalloc_type_view_402
++ __ZZN16CCDataPipeBlobOD4initEvE20kalloc_type_view_380
++ __ZZN16CCDataPipeBlobOS4freeEvE20kalloc_type_view_335
++ __ZZN16CCDataPipeBlobOS4initEvE20kalloc_type_view_314
++ __ZZN19CCLogPipeUserClient18dumpToDiskCompleteEPK11CCTimestampE11_os_log_fmt
++ __ZZN6CCPipe25initWithOwnerNameCapacityEP9IOServicePKcS3_PK13CCPipeOptionsE11_os_log_fmt__36_
++ __ZZN6CCPipe4freeEvE20kalloc_type_view_733
++ __ZZN8CCStream4freeEvE20kalloc_type_view_357
++ __ZZN9CCCapture4freeEvE20kalloc_type_view_233
++ __ZZN9CCLogPipe13freeResourcesEvE20kalloc_type_view_422
++ __ZZN9CCLogPipe18freeScratchBuffersEvE21kalloc_type_view_1344
++ __ZZN9CCLogPipe18initScratchBuffersEmmE21kalloc_type_view_1309
++ __ZZN9CCLogPipe25initWithOwnerNameCapacityEP9IOServicePKcS3_PK13CCPipeOptionsE20kalloc_type_view_199
++ __ZZN9CCLogPipe25initWithOwnerNameCapacityEP9IOServicePKcS3_PK13CCPipeOptionsE20kalloc_type_view_252
++ __ZZN9CCLogPipe4freeEvE20kalloc_type_view_398
++ ____ZN19CCLogPipeUserClient18dumpToDiskCompleteEPK11CCTimestamp_block_invoke
++ __block_descriptor_tmp.10.4243
++ __block_descriptor_tmp.11.4246
++ __block_descriptor_tmp.12.4245
++ __block_descriptor_tmp.19
++ __block_descriptor_tmp.4247
++ __block_descriptor_tmp.7.4244
+- _GLOBAL__D_a.2960
+- _GLOBAL__D_a.3269
+- _GLOBAL__D_a.3592
+- _GLOBAL__D_a.3933
+- _GLOBAL__D_a.4270
+- _GLOBAL__D_a.4624
+- _OSKextGetCurrentIdentifier
+- _OSKextGetCurrentLoadTag
+- _OSKextGetCurrentVersionString
+- _ZL24kCoreCaptureStreamReport.4633
+- _ZL8sMethods.4232
+- __ZZN10CCDataPipe25initWithOwnerNameCapacityEP9IOServicePKcS3_PK13CCPipeOptionsE20kalloc_type_view_500
+- __ZZN10CCDataPipe4freeEvE20kalloc_type_view_621
+- __ZZN12CCDataStream19initWithPipeAndNameEP6CCPipePKcPK15CCStreamOptionsE19kalloc_type_view_91
+- __ZZN12CCDataStream4freeEvE20kalloc_type_view_136
+- __ZZN13CCDataSession24initWithNameAndTimestampEPKc11CCTimestampE19kalloc_type_view_81
+- __ZZN13CCDataSession4freeEvE19kalloc_type_view_99
+- __ZZN13CCFaultReport7addFileEP8OSStringP8OSObjectE20kalloc_type_view_450
+- __ZZN13CCFaultReport7addFileEP8OSStringP8OSObjectE20kalloc_type_view_480
+- __ZZN14CCDataPipeBlob4freeEvE20kalloc_type_view_174
+- __ZZN14CCDataPipeBlob4initEvE20kalloc_type_view_156
+- __ZZN15CCFaultReporter14completeReportEP13CCFaultReportE11_os_log_fmt_0
+- __ZZN15CCFaultReporter14completeReportEP13CCFaultReportE11_os_log_fmt_1
+- __ZZN15CCFaultReporter14completeReportEP13CCFaultReportE11_os_log_fmt_2
+- __ZZN15CCFaultReporter14completeReportEP13CCFaultReportE11_os_log_fmt_3
+- __ZZN15CCFaultReporter14completeReportEP13CCFaultReportE11_os_log_fmt_4
+- __ZZN15CCFaultReporter14completeReportEP13CCFaultReportE11_os_log_fmt_5
+- __ZZN15CCFaultReporter17registerCallbacksEPNS_19register_callback_tEjP8OSObjectPKcE20kalloc_type_view_486
+- __ZZN15CCFaultReporter19unregisterCallbacksEP8OSObjectE20kalloc_type_view_634
+- __ZZN15CCFaultReporter22initWithStreamWorkloopEP12CCDataStreamP10IOWorkLoopE20kalloc_type_view_183
+- __ZZN15CCFaultReporter4freeEvE20kalloc_type_view_407
+- __ZZN16CCDataPipeBlobOD4freeEvE20kalloc_type_view_401
+- __ZZN16CCDataPipeBlobOD4initEvE20kalloc_type_view_379
+- __ZZN16CCDataPipeBlobOS4freeEvE20kalloc_type_view_334
+- __ZZN16CCDataPipeBlobOS4initEvE20kalloc_type_view_313
+- __ZZN6CCPipe4freeEvE20kalloc_type_view_709
+- __ZZN8CCStream4freeEvE20kalloc_type_view_332
+- __ZZN9CCCapture4freeEvE20kalloc_type_view_206
+- __ZZN9CCLogPipe13freeResourcesEvE20kalloc_type_view_414
+- __ZZN9CCLogPipe18freeScratchBuffersEvE21kalloc_type_view_1288
+- __ZZN9CCLogPipe18initScratchBuffersEmmE21kalloc_type_view_1253
+- __ZZN9CCLogPipe25initWithOwnerNameCapacityEP9IOServicePKcS3_PK13CCPipeOptionsE20kalloc_type_view_196
+- __ZZN9CCLogPipe25initWithOwnerNameCapacityEP9IOServicePKcS3_PK13CCPipeOptionsE20kalloc_type_view_249
+- __ZZN9CCLogPipe4freeEvE20kalloc_type_view_390
+- __block_descriptor_tmp.10.4233
+- __block_descriptor_tmp.11.4236
+- __block_descriptor_tmp.12.4235
+- __block_descriptor_tmp.4237
+- __block_descriptor_tmp.7.4234
+CStrings:
++ "%s:%06u: ERROR: Return code not successful [%08x]\n"
++ "%s::%s():Failed to set pipe compression property (%d) \n"
++ "22212122222222222222222222222222222222222222222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222"
++ "CompressionDisabled"
++ "dumpToDiskComplete"
++ "dumping to disk is disabled\n"
+- "%s fLogAfterWatchDog:%d fEnableCoreCapture:%d needCaptureLog:%d doCapture=%d"
+- "22212122222222222222222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222"
+- "completeReport"
+
+```

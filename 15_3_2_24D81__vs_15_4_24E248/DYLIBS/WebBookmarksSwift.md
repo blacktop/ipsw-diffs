@@ -1,0 +1,195 @@
+## WebBookmarksSwift
+
+> `/System/Library/PrivateFrameworks/WebBookmarksSwift.framework/Versions/A/WebBookmarksSwift`
+
+```diff
+
+-7620.2.4.11.6
+-  __TEXT.__text: 0x4d538
+-  __TEXT.__auth_stubs: 0x1010
+-  __TEXT.__objc_methlist: 0x1c0
++7621.1.15.11.10
++  __TEXT.__text: 0x4ee70
++  __TEXT.__auth_stubs: 0xfc0
++  __TEXT.__objc_methlist: 0x200
+   __TEXT.__const: 0x1170
+-  __TEXT.__cstring: 0xcc2
+-  __TEXT.__swift5_typeref: 0xf52
++  __TEXT.__cstring: 0xa42
++  __TEXT.__swift5_typeref: 0xf4a
+   __TEXT.__swift5_reflstr: 0x5b0
+   __TEXT.__swift5_assocty: 0xa0
+   __TEXT.__constg_swiftt: 0xaa0
+
+   __TEXT.__swift5_builtin: 0x3c
+   __TEXT.__swift5_proto: 0xe8
+   __TEXT.__swift5_types: 0x68
++  __TEXT.__swift_as_entry: 0x184
+   __TEXT.__swift5_protos: 0x8
+   __TEXT.__swift5_mpenum: 0x1c
+   __TEXT.__oslogstring: 0x13fc
+   __TEXT.__swift5_capture: 0x64c
+-  __TEXT.__unwind_info: 0x1508
+-  __TEXT.__eh_frame: 0x3c68
++  __TEXT.__swift_as_ret: 0x1a4
++  __TEXT.__unwind_info: 0x1468
++  __TEXT.__eh_frame: 0x40f8
+   __TEXT.__objc_classname: 0x5a
+   __TEXT.__objc_methname: 0x4ef
+   __TEXT.__objc_methtype: 0xdf
+   __TEXT.__objc_stubs: 0x200
+   __DATA_CONST.__got: 0x260
+-  __DATA_CONST.__const: 0x1e8
++  __DATA_CONST.__const: 0x1e0
+   __DATA_CONST.__objc_classlist: 0x30
+   __DATA_CONST.__objc_protolist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x148
+   __DATA_CONST.__objc_protorefs: 0x8
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __AUTH_CONST.__auth_got: 0x810
++  __AUTH_CONST.__auth_got: 0x7e8
+   __AUTH_CONST.__const: 0x1938
+-  __AUTH_CONST.__objc_const: 0x9a0
+-  __AUTH.__objc_data: 0x1a0
++  __AUTH_CONST.__objc_const: 0x968
++  __AUTH.__objc_data: 0x168
+   __AUTH.__data: 0x460
+   __DATA.__objc_ivar: 0x8
+-  __DATA.__data: 0xf98
++  __DATA.__data: 0xf90
+   __DATA.__bss: 0x1d00
+   __DATA.__common: 0x18
+   - /System/Library/Frameworks/CloudKit.framework/Versions/A/CloudKit
+
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
++  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftFileProvider.dylib
+   - /usr/lib/swift/libswiftIOKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftWebKit.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: CEE11071-F652-34E0-8DB9-DFAA6EC656F3
+-  Functions: 1352
+-  Symbols:   2979
+-  CStrings:  221
++  UUID: 2A37161B-64DC-3482-9C3C-7F276062D7DB
++  Functions: 1307
++  Symbols:   2957
++  CStrings:  208
+ 
+Symbols:
++ _$s15GroupActivities0A7SessionC17WebBookmarksSwiftE4join2onySo17OS_dispatch_queueC_tYaKFyyYbXEfU0_AD34PersonalDeviceCoordinationActivityV_Tg5Tm
++ _$s17WebBookmarksSwift20FastSyncStateMachineV0F0OyAA28CKShareCollaborationActivityVAA0H20GroupSessionProviderCyAGG_GWOy
++ _$s17WebBookmarksSwift30CollaborationConnectionManagerC13WeakContainer33_FDA7675CD52635FF68DA1B94E45788C7LLVyAA07CKShareD8ActivityVAA0P20GroupSessionProviderCyAHGAA21PresenceUpdateMessageV_AA18AsyncBufferedQueueCyShy0R10Activities11ParticipantVGGGWObTm
++ _$s17WebBookmarksSwift30CollaborationConnectionManagerC20waitForGroupSessions33_FDA7675CD52635FF68DA1B94E45788C7LL4withyq__tYaFyScgyyts5Error_pGzYaKXEfU_yyYaKcfU_AA07CKShareD8ActivityV_AA0tI15SessionProviderCyAJGAA21PresenceUpdateMessageVTg5TY4_
++ _$s17WebBookmarksSwift30CollaborationConnectionManagerC20waitForGroupSessions33_FDA7675CD52635FF68DA1B94E45788C7LL4withyq__tYaFyScgyyts5Error_pGzYaKXEfU_yyYaKcfU_AA34PersonalDeviceCoordinationActivityV_0I10Activities0tI15SessionProviderCyAJGAA21PresenceUpdateMessageVTg5TY4_
++ _$s17WebBookmarksSwift31GroupSessionMessengerControllerC05groupE0ACyxq_G0D10Activities0dE0CyxG_tYacfcAA28CKShareCollaborationActivityV_AA21PresenceUpdateMessageVTg5Tf4gn_nTY1_
++ _$s17WebBookmarksSwift31GroupSessionMessengerControllerC05groupE0ACyxq_G0D10Activities0dE0CyxG_tYacfcAA34PersonalDeviceCoordinationActivityV_AA21PresenceUpdateMessageVTg5Tf4gn_nTY1_
++ _$s17WebBookmarksSwift31GroupSessionMessengerControllerC10_makeTasks33_4FE67489B0C0A6324494250B012D84BALLSayScTyyts5NeverOGGyFyyYacfU_AA28CKShareCollaborationActivityV_AA21PresenceUpdateMessageVTg5TY4_
++ _$s17WebBookmarksSwift31GroupSessionMessengerControllerC10_makeTasks33_4FE67489B0C0A6324494250B012D84BALLSayScTyyts5NeverOGGyFyyYacfU_AA34PersonalDeviceCoordinationActivityV_AA21PresenceUpdateMessageVTg5TY4_
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_17WebBookmarksSwift20ParticipantHandleMapC0F4KindOTt0g5
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_17WebBookmarksSwift30ParticipantPresenceCoordinatorC22ConnectionManagerStoreC06SharedI0VTt0g5
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SS18tabGroupIdentifier_SS0cE0tTt0g5
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ShySo18CKShareParticipantCGTt0g5
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_So7CKShareC5share_Si5counttTt0g5
++ _$sSSWOh
++ _$sScTss5Error_pRs_rlE8priority9operationScTyxsAA_pGScPSg_xyYaKYAcntcfC15GroupActivities08PersonalD15SessionProviderCy17WebBookmarksSwift0F26DeviceCoordinationActivityVG_Tt1g5Tm
++ _$sScTss5NeverORs_rlE8priority9operationScTyxABGScPSg_xyYaYAcntcfCyt_Tt1g5
++ _$sScTss5NeverORs_rlE8priority9operationScTyxABGScPSg_xyYaYAcntcfCyt_Tt1gq5
++ _$sSh21_nonEmptyArrayLiteralShyxGSayxG_tcfCSS_Tt0g5Tf4g_n
++ _$sSh21_nonEmptyArrayLiteralShyxGSayxG_tcfCSo18CKShareParticipantC_Tt0g5Tf4g_n
++ _$sShyShyxGqd__nc7ElementQyd__RszSTRd__lufC15GroupActivities17AddressableMemberV_SayAFGTt0g5Tf4g_n
++ _$sShyShyxGqd__nc7ElementQyd__RszSTRd__lufC17WebBookmarksSwift20ParticipantHandleMapC0E4KindO_SayAHGTt0g5Tf4g_n
++ _$sShyShyxGqd__nc7ElementQyd__RszSTRd__lufCSo18CKShareParticipantC_SayAEGTt0g5Tf4g_n
++ _$ss10_NativeSetV10startIndexSh0D0Vyx_GvgSS_Tg5
++ _$ss10_NativeSetV_8capacityAByxGs07__CocoaB0Vn_SitcfCSo18CKShareParticipantC_Tt1g5
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ __swift_FORCE_LOAD_$_swiftDataDetection
++ __swift_FORCE_LOAD_$_swiftDataDetection_$_WebBookmarksSwift
+- $s17WebBookmarksSwift28CKShareCollaborationActivityV15GroupActivities0gF0AadEP8metadataAD0gF8MetadataVvgTW.0
+- $s17WebBookmarksSwift34PersonalDeviceCoordinationActivityV15GroupActivities0hG0AadEP8metadataAD0hG8MetadataVvgTW.0
+- _$s15GroupActivities0A7SessionC17WebBookmarksSwiftE4join2onySo17OS_dispatch_queueC_tYaKFyyYbXEfU0_AD28CKShareCollaborationActivityV_Tg5
+- _$s15GroupActivities0A7SessionC17WebBookmarksSwiftE4join2onySo17OS_dispatch_queueC_tYaKFyyYbXEfU0_AD34PersonalDeviceCoordinationActivityV_Tg5
+- _$s15GroupActivities0A7SessionC17WebBookmarksSwiftE4join2onySo17OS_dispatch_queueC_tYaKFyyYbXEfU0_yAcDE9JoinState33_9E63992A5E84F75B6BAC05F37743AB10LLOyx_GzYbXEfU_AD28CKShareCollaborationActivityV_Tg5
+- _$s15GroupActivities0A7SessionC17WebBookmarksSwiftE4join2onySo17OS_dispatch_queueC_tYaKFyyYbXEfU0_yAcDE9JoinState33_9E63992A5E84F75B6BAC05F37743AB10LLOyx_GzYbXEfU_AD34PersonalDeviceCoordinationActivityV_Tg5
+- _$s15GroupActivities6Member_pSgWOb
+- _$s17WebBookmarksSwift14CRDTGenerationV16debugDescriptionSSvg
+- _$s17WebBookmarksSwift20FastSyncStateMachineV0F0OyAA28CKShareCollaborationActivityVAA0H20GroupSessionProviderCyAGG_GWOyTm
+- _$s17WebBookmarksSwift20ParticipantHandleMapC0D4KindO4hash4intoys6HasherVz_tF
+- _$s17WebBookmarksSwift21PresenceUpdateMessageV10CodingKeys33_D1800A617CCBB8875C2948DFDD679592LLO11stringValueSSvg
+- _$s17WebBookmarksSwift21PresenceUpdateMessageV10CodingKeys33_D1800A617CCBB8875C2948DFDD679592LLO8rawValueSSvg
+- _$s17WebBookmarksSwift21PresenceUpdateMessageV4KindOWOb
+- _$s17WebBookmarksSwift28CKShareCollaborationActivityV10CodingKeys33_BDCC217CEB0DF725B2BFAD583F8618F3LLO11stringValueAFSgSS_tcfCTf4nd_n
+- _$s17WebBookmarksSwift28CKShareCollaborationActivityV10CodingKeys33_BDCC217CEB0DF725B2BFAD583F8618F3LLO11stringValueSSvgTf4d_n
+- _$s17WebBookmarksSwift30ParticipantPresenceCoordinatorC22ConnectionManagerStoreC06SharedG0VSgMD
+- _$s17WebBookmarksSwift30ParticipantPresenceCoordinatorC22ConnectionManagerStoreC06SharedG0VSgWObTm
+- _$s17WebBookmarksSwift34PersonalDeviceCoordinationActivityV10CodingKeys33_2E2785385871484D9EC6B327441CA1D2LLO11stringValueAFSgSS_tcfCTf4nd_n
+- _$s17WebBookmarksSwift34PersonalDeviceCoordinationActivityV10CodingKeys33_2E2785385871484D9EC6B327441CA1D2LLO11stringValueSSvgTf4d_n
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_17WebBookmarksSwift20ParticipantHandleMapC0F4KindOTgm5
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_17WebBookmarksSwift30ParticipantPresenceCoordinatorC22ConnectionManagerStoreC06SharedI0VTgm5
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SS18tabGroupIdentifier_SS0cE0tTgm5
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ShySo18CKShareParticipantCGTgm5
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_So7CKShareC5share_Si5counttTgm5
+- _$sSYsSHRzSH8RawValueSYRpzrlE04hashB0Sivg17WebBookmarksSwift21PresenceUpdateMessageV10CodingKeys33_D1800A617CCBB8875C2948DFDD679592LLO_Tg5
+- _$sSYsSHRzSH8RawValueSYRpzrlE08_rawHashB04seedS2i_tF17WebBookmarksSwift21PresenceUpdateMessageV10CodingKeys33_D1800A617CCBB8875C2948DFDD679592LLO_Tg5
+- _$sSYsSHRzSH8RawValueSYRpzrlE4hash4intoys6HasherVz_tF17WebBookmarksSwift21PresenceUpdateMessageV10CodingKeys33_D1800A617CCBB8875C2948DFDD679592LLO_Tg5
+- _$sSa12_endMutationyyFyXl_Ts5
+- _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFSS_17WebBookmarksSwift20ParticipantHandleMapC0H4KindOt_SaySS_AItGTg5
+- _$sScTss5Error_pRs_rlE8priority9operationScTyxsAA_pGScPSg_xyYaKYAcntcfC15GroupActivities08PersonalD15SessionProviderCy17WebBookmarksSwift0F26DeviceCoordinationActivityVG_Tgm5Tm
+- _$sScTss5NeverORs_rlE8priority9operationScTyxABGScPSg_xyYaYAcntcfCyt_Tgm5
+- _$sScTss5NeverORs_rlE8priority9operationScTyxABGScPSg_xyYaYAcntcfCyt_Tgmq5
+- _$sSh10startIndexSh0B0Vyx_GvgSS_Tg5
+- _$sSh21_nonEmptyArrayLiteralShyxGSayxG_tcfCSS_Tgm5Tf4g_n
+- _$sSh21_nonEmptyArrayLiteralShyxGSayxG_tcfCSo18CKShareParticipantC_Tgm5Tf4g_n
+- _$sShyShyxGqd__nc7ElementQyd__RszSTRd__lufC15GroupActivities17AddressableMemberV_SayAFGTgm5Tf4g_n
+- _$sShyShyxGqd__nc7ElementQyd__RszSTRd__lufC17WebBookmarksSwift20ParticipantHandleMapC0E4KindO_SayAHGTgm5Tf4g_n
+- _$sShyShyxGqd__nc7ElementQyd__RszSTRd__lufCSo18CKShareParticipantC_SayAEGTgm5Tf4g_n
+- _$sSw10copyMemory4fromySW_tF
+- _$sSwys5UInt8VSicis
+- _$ss10_NativeSetV_8capacityAByxGs07__CocoaB0Vn_SitcfCSo18CKShareParticipantC_Tgm5
+- _$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtF17WebBookmarksSwift20ParticipantHandleMapC0K4KindO_Tg5Tf4nng_n
+- _$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtF17WebBookmarksSwift30CollaborationConnectionManagerC13WeakContainer33_FDA7675CD52635FF68DA1B94E45788C7LLVyAH34PersonalDeviceCoordinationActivityV15GroupActivities0W20GroupSessionProviderCyAOGAH21PresenceUpdateMessageV_AH18AsyncBufferedQueueCyShyAP11ParticipantVGGG_Tg5Tf4nng_nTm
+- _$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtFSS_17WebBookmarksSwift20ParticipantHandleMapC0K4KindOt_Tg5Tf4nng_n
+- _$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtFSS_So18CKShareParticipantCt_Tg5Tf4nng_n
+- _$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtFScTyyts5NeverOG_Tg5Tf4nng_n
+- _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
+- _$ss18_fatalErrorMessage__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
+- _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tgmq5
+- __swift_FORCE_LOAD_$_swiftFileProvider
+- __swift_FORCE_LOAD_$_swiftFileProvider_$_WebBookmarksSwift
+- __swift_FORCE_LOAD_$_swiftWebKit
+- __swift_FORCE_LOAD_$_swiftWebKit_$_WebBookmarksSwift
+- _symbolic _____Sg 17WebBookmarksSwift30ParticipantPresenceCoordinatorC22ConnectionManagerStoreC06SharedG0V
+CStrings:
+- "Insufficient space allocated to copy string contents"
+- "Swift/ContiguousArrayBuffer.swift"
+- "Swift/StringTesting.swift"
+- "Swift/StringUTF8View.swift"
+- "Swift/UnsafeBufferPointer.swift"
+- "Swift/UnsafePointer.swift"
+- "Swift/UnsafeRawPointer.swift"
+- "Unexpectedly found nil while unwrapping an Optional value"
+- "UnsafeMutableBufferPointer with negative count"
+- "UnsafeMutablePointer.initialize overlapping range"
+- "UnsafeMutablePointer.initialize with negative count"
+- "UnsafeMutableRawPointer.initializeMemory overlapping range"
+- "invalid Collection: less than 'count' elements in collection"
+
+```

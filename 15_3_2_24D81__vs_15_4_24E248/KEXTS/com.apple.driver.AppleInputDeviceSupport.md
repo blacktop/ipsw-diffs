@@ -1,0 +1,259 @@
+## com.apple.driver.AppleInputDeviceSupport
+
+> `com.apple.driver.AppleInputDeviceSupport`
+
+```diff
+
+-8400.26.0.0.0
+-  __TEXT.__cstring: 0x1e67
+-  __TEXT.__const: 0x58
++8440.2.0.0.0
++  __TEXT.__cstring: 0x1e87
++  __TEXT.__const: 0x60
+   __TEXT.__os_log: 0x63a
+-  __TEXT_EXEC.__text: 0x1841c
++  __TEXT_EXEC.__text: 0x19cd8
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x358
+-  __DATA_CONST.__auth_got: 0x370
++  __DATA_CONST.__auth_got: 0x378
+   __DATA_CONST.__got: 0xf8
+   __DATA_CONST.__mod_init_func: 0x80
+   __DATA_CONST.__mod_term_func: 0x80
+-  __DATA_CONST.__const: 0x5fc0
++  __DATA_CONST.__const: 0x6000
+   __DATA_CONST.__kalloc_type: 0x640
+   __DATA_CONST.__kalloc_var: 0x2d0
+-  UUID: 8A3A7EC6-3DDD-3AAB-805F-F4860B40C65B
+-  Functions: 615
+-  Symbols:   1305
+-  CStrings:  324
++  UUID: 5714A6E1-95DA-3737-8261-C7322993D82C
++  Functions: 805
++  Symbols:   1527
++  CStrings:  326
+ 
+Symbols:
++ _OUTLINED_FUNCTION_0
++ _OUTLINED_FUNCTION_1
++ _OUTLINED_FUNCTION_2
++ _OUTLINED_FUNCTION_3
++ _OUTLINED_FUNCTION_4
++ _OUTLINED_FUNCTION_5
++ _OUTLINED_FUNCTION_6
++ _OUTLINED_FUNCTION_7
++ _ZN10AIDService5startEP9IOService.cold.1
++ _ZN11AIDReporter12updateReportEP19IOReportChannelListjPvS2_.cold.1
++ _ZN11AIDReporter21addDefaultProxyConfigEv.cold.1
++ _ZN11AIDReporter21addDefaultProxyConfigEv.cold.2
++ _ZN11AIDReporter21addDefaultProxyConfigEv.cold.3
++ _ZN11AIDReporter21addDefaultProxyConfigEv.cold.4
++ _ZN11AIDReporter21addDefaultProxyConfigEv.cold.5
++ _ZN11AIDReporter4initEP9IOServiceP12OSDictionaryyP12AIDReporters.cold.1
++ _ZN11AIDReporter4initEP9IOServiceP12OSDictionaryyP12AIDReporters.cold.10
++ _ZN11AIDReporter4initEP9IOServiceP12OSDictionaryyP12AIDReporters.cold.11
++ _ZN11AIDReporter4initEP9IOServiceP12OSDictionaryyP12AIDReporters.cold.2
++ _ZN11AIDReporter4initEP9IOServiceP12OSDictionaryyP12AIDReporters.cold.3
++ _ZN11AIDReporter4initEP9IOServiceP12OSDictionaryyP12AIDReporters.cold.4
++ _ZN11AIDReporter4initEP9IOServiceP12OSDictionaryyP12AIDReporters.cold.5
++ _ZN11AIDReporter4initEP9IOServiceP12OSDictionaryyP12AIDReporters.cold.6
++ _ZN11AIDReporter4initEP9IOServiceP12OSDictionaryyP12AIDReporters.cold.7
++ _ZN11AIDReporter4initEP9IOServiceP12OSDictionaryyP12AIDReporters.cold.8
++ _ZN11AIDReporter4initEP9IOServiceP12OSDictionaryyP12AIDReporters.cold.9
++ _ZN12AIDReporters12updateReportEP19IOReportChannelListjPvS2_.cold.1
++ _ZN12AIDReporters12updateReportEP19IOReportChannelListjPvS2_.cold.2
++ _ZN12AIDReporters12updateReportEP19IOReportChannelListjPvS2_.cold.3
++ _ZN12AIDReporters15configureReportEP19IOReportChannelListjPvS2_.cold.1
++ _ZN12AIDReporters15configureReportEP19IOReportChannelListjPvS2_.cold.2
++ _ZN12AIDReporters15configureReportEP19IOReportChannelListjPvS2_.cold.3
++ _ZN12AIDReporters17clearReporterDataEP20AIDReporterInterfaceP11AIDReporter.cold.1
++ _ZN12AIDReporters18createReporterDataEP20AIDReporterInterfaceP11AIDReporter.cold.1
++ _ZN12AIDReporters18createReporterDataEP20AIDReporterInterfaceP11AIDReporter.cold.2
++ _ZN12AIDReporters18createReporterDataEP20AIDReporterInterfaceP11AIDReporter.cold.3
++ _ZN12AIDReporters19updateReportersDataEv.cold.1
++ _ZN12AIDReporters19updateReportersDataEv.cold.2
++ _ZN12AIDReporters19updateReportersDataEv.cold.3
++ _ZN12AIDReporters19updateReportersDataEv.cold.4
++ _ZN12AIDReporters24updateReportersGroupDataEP7OSArrayP6OSData.cold.1
++ _ZN12AIDReporters24updateReportersGroupDataEP7OSArrayP6OSData.cold.2
++ _ZN12AIDReporters4initEP9IOServiceP7OSArrayP20AIDReporterInterface.cold.1
++ _ZN12AIDReporters4initEP9IOServiceP7OSArrayP20AIDReporterInterface.cold.2
++ _ZN12AIDReporters4initEP9IOServiceP7OSArrayP20AIDReporterInterface.cold.3
++ _ZN12AIDReporters4initEP9IOServiceP7OSArrayP20AIDReporterInterface.cold.4
++ _ZN12AIDReporters4initEP9IOServiceP7OSArrayP20AIDReporterInterface.cold.5
++ _ZN12AIDReporters4initEP9IOServiceP7OSArrayP20AIDReporterInterface.cold.6
++ _ZN14AIDEventLogger12updateReportEP19IOReportChannelListjPvS2_.cold.1
++ _ZN14AIDEventLogger13addIOReporterEPKcS1_PKyPKS1_j.cold.1
++ _ZN14AIDEventLogger13addIOReporterEPKcS1_PKyPKS1_j.cold.2
++ _ZN14AIDEventLogger13addIOReporterEPKcS1_PKyPKS1_j.cold.3
++ _ZN14AIDEventLogger13addIOReporterEPKcS1_PKyPKS1_j.cold.4
++ _ZN14AIDEventLogger14incrementValueEPKcjP12OSDictionary.cold.1
++ _ZN14AIDEventLogger14incrementValueEPKcjP12OSDictionary.cold.2
++ _ZN14AIDEventLogger14incrementValueEPKcjP12OSDictionary.cold.3
++ _ZN14AIDEventLogger14incrementValueEPKcjP12OSDictionary.cold.4
++ _ZN14AIDEventLogger14incrementValueEPKcjP12OSDictionary.cold.5
++ _ZN14AIDEventLogger14incrementValueEPKcjP12OSDictionary.cold.6
++ _ZN14AIDEventLogger14incrementValueEPKcjP12OSDictionary.cold.7
++ _ZN14AIDEventLogger15configureReportEP19IOReportChannelListjPvS2_.cold.1
++ _ZN14AIDEventLogger15initWithServiceEP10AIDService.cold.1
++ _ZN14AIDEventLogger15initWithServiceEP10AIDService.cold.2
++ _ZN14AIDEventLogger15initWithServiceEP10AIDService.cold.3
++ _ZN14AIDEventLogger15initWithServiceEP10AIDService.cold.4
++ _ZN14AIDEventLogger15initWithServiceEP10AIDService.cold.5
++ _ZN14AIDEventLogger15initWithServiceEP10AIDService.cold.6
++ _ZN14AIDEventLogger15initWithServiceEP10AIDService.cold.7
++ _ZN14AIDEventLogger20logEventWithFullNameEP8OSStringP12OSDictionary.cold.1
++ _ZN14AIDEventLogger37coreAnalyticsNotificationHandlerGatedEPvP9IOServiceP10IONotifier.cold.1
++ _ZN14AIDEventLogger8getValueEy.cold.1
++ _ZN14AIDEventLogger8logEventEPKcS1_P12OSDictionary.cold.1
++ _ZN14AIDEventLogger8logEventEPKcS1_P12OSDictionary.cold.2
++ _ZN14AIDEventLogger8logEventEPKcS1_P12OSDictionary.cold.3
++ _ZN14AIDEventLogger8logEventEPKcS1_P12OSDictionary.cold.4
++ _ZN14AIDEventLogger8logEventEPKcS1_P12OSDictionary.cold.5
++ _ZN16AIDReporterState12initReporterEP9IOServiceP12OSDictionaryty.cold.1
++ _ZN16AIDReporterState12initReporterEP9IOServiceP12OSDictionaryty.cold.10
++ _ZN16AIDReporterState12initReporterEP9IOServiceP12OSDictionaryty.cold.11
++ _ZN16AIDReporterState12initReporterEP9IOServiceP12OSDictionaryty.cold.12
++ _ZN16AIDReporterState12initReporterEP9IOServiceP12OSDictionaryty.cold.13
++ _ZN16AIDReporterState12initReporterEP9IOServiceP12OSDictionaryty.cold.14
++ _ZN16AIDReporterState12initReporterEP9IOServiceP12OSDictionaryty.cold.15
++ _ZN16AIDReporterState12initReporterEP9IOServiceP12OSDictionaryty.cold.16
++ _ZN16AIDReporterState12initReporterEP9IOServiceP12OSDictionaryty.cold.17
++ _ZN16AIDReporterState12initReporterEP9IOServiceP12OSDictionaryty.cold.18
++ _ZN16AIDReporterState12initReporterEP9IOServiceP12OSDictionaryty.cold.19
++ _ZN16AIDReporterState12initReporterEP9IOServiceP12OSDictionaryty.cold.2
++ _ZN16AIDReporterState12initReporterEP9IOServiceP12OSDictionaryty.cold.3
++ _ZN16AIDReporterState12initReporterEP9IOServiceP12OSDictionaryty.cold.4
++ _ZN16AIDReporterState12initReporterEP9IOServiceP12OSDictionaryty.cold.5
++ _ZN16AIDReporterState12initReporterEP9IOServiceP12OSDictionaryty.cold.6
++ _ZN16AIDReporterState12initReporterEP9IOServiceP12OSDictionaryty.cold.7
++ _ZN16AIDReporterState12initReporterEP9IOServiceP12OSDictionaryty.cold.8
++ _ZN16AIDReporterState12initReporterEP9IOServiceP12OSDictionaryty.cold.9
++ _ZN16AIDReporterState20updateReportWithDataEPK6OSData.cold.1
++ _ZN16AIDReporterState7Channel10addChannelEP15IOStateReporterPNS_14FieldReportersEjPy.cold.1
++ _ZN16AIDReporterState7Channel10addChannelEP15IOStateReporterPNS_14FieldReportersEjPy.cold.2
++ _ZN16AIDReporterState7Channel10addChannelEP15IOStateReporterPNS_14FieldReportersEjPy.cold.3
++ _ZN16AIDReporterState7Channel10addChannelEP15IOStateReporterPNS_14FieldReportersEjPy.cold.4
++ _ZN16AIDReporterState7Channel10addChannelEP15IOStateReporterPNS_14FieldReportersEjPy.cold.5
++ _ZN16AIDReporterState7Channel10addChannelEP15IOStateReporterPNS_14FieldReportersEjPy.cold.6
++ _ZN16AIDReporterState7Channel10addChannelEP15IOStateReporterPNS_14FieldReportersEjPy.cold.7
++ _ZN16AIDReporterState7Channel10addChannelEP15IOStateReporterPNS_14FieldReportersEjPy.cold.8
++ _ZN16AIDReporterState7Channel20updateReportWithDataEP15IOStateReporterPNS_14FieldReportersEyyPK6OSData.cold.1
++ _ZN16AIDReporterState7Channel20updateReportWithDataEP15IOStateReporterPNS_14FieldReportersEyyPK6OSData.cold.2
++ _ZN16AIDReporterState7Channel20updateReportWithDataEP15IOStateReporterPNS_14FieldReportersEyyPK6OSData.cold.3
++ _ZN16AIDReporterState7Channel20updateReportWithDataEP15IOStateReporterPNS_14FieldReportersEyyPK6OSData.cold.4
++ _ZN16AIDReporterState7Channel20updateReportWithDataEP15IOStateReporterPNS_14FieldReportersEyyPK6OSData.cold.5
++ _ZN16AIDReporterState7Channel20updateReportWithDataEP15IOStateReporterPNS_14FieldReportersEyyPK6OSData.cold.6
++ _ZN16AIDReporterState7Channel20updateReportWithDataEP15IOStateReporterPNS_14FieldReportersEyyPK6OSData.cold.7
++ _ZN16AIDReporterState7Channel4initEPS_P12OSDictionary.cold.1
++ _ZN16AIDReporterState7Channel4initEPS_P12OSDictionary.cold.2
++ _ZN16AIDReporterState7Channel4initEPS_P12OSDictionary.cold.3
++ _ZN16AIDReporterState7Channel4initEPS_P12OSDictionary.cold.4
++ _ZN16AIDReporterState7Channel4initEPS_P12OSDictionary.cold.5
++ _ZN16AIDReporterState7Channel4initEPS_P12OSDictionary.cold.6
++ _ZN16AIDReporterState7Channel4initEPS_P12OSDictionary.cold.7
++ _ZN16AIDReporterState7Channel4initEPS_P12OSDictionary.cold.8
++ _ZN17AIDReporterSimple12initReporterEP9IOServiceP12OSDictionaryty.cold.1
++ _ZN17AIDReporterSimple12initReporterEP9IOServiceP12OSDictionaryty.cold.10
++ _ZN17AIDReporterSimple12initReporterEP9IOServiceP12OSDictionaryty.cold.11
++ _ZN17AIDReporterSimple12initReporterEP9IOServiceP12OSDictionaryty.cold.12
++ _ZN17AIDReporterSimple12initReporterEP9IOServiceP12OSDictionaryty.cold.2
++ _ZN17AIDReporterSimple12initReporterEP9IOServiceP12OSDictionaryty.cold.3
++ _ZN17AIDReporterSimple12initReporterEP9IOServiceP12OSDictionaryty.cold.4
++ _ZN17AIDReporterSimple12initReporterEP9IOServiceP12OSDictionaryty.cold.5
++ _ZN17AIDReporterSimple12initReporterEP9IOServiceP12OSDictionaryty.cold.6
++ _ZN17AIDReporterSimple12initReporterEP9IOServiceP12OSDictionaryty.cold.7
++ _ZN17AIDReporterSimple12initReporterEP9IOServiceP12OSDictionaryty.cold.8
++ _ZN17AIDReporterSimple12initReporterEP9IOServiceP12OSDictionaryty.cold.9
++ _ZN17AIDReporterSimple20updateReportWithDataEPK6OSData.cold.2
++ _ZN18AIDImageDownloader10clearImageEv.cold.1
++ _ZN18AIDImageDownloader10downloaderEP9IOServiceP15IORegistryEntryjbP12OSDictionary.cold.1
++ _ZN18AIDImageDownloader10downloaderEP9IOServiceP15IORegistryEntryjbP12OSDictionary.cold.2
++ _ZN18AIDImageDownloader10downloaderEP9IOServiceP15IORegistryEntryjbP12OSDictionary.cold.3
++ _ZN18AIDImageDownloader10downloaderEP9IOServiceP15IORegistryEntryjbP12OSDictionary.cold.4
++ _ZN18AIDImageDownloader10downloaderEP9IOServiceP15IORegistryEntryjbP12OSDictionary.cold.5
++ _ZN18AIDImageDownloader13addDownloaderEP9IOServiceP15IORegistryEntryP7OSArrayjbP12OSDictionary.cold.1
++ _ZN18AIDImageDownloader13addDownloaderEP9IOServiceP15IORegistryEntryP7OSArrayjbP12OSDictionary.cold.2
++ _ZN18AIDImageDownloader15findDownloadersEP9IOServicebP12OSDictionary.cold.1
++ _ZN18AIDImageDownloader15findDownloadersEP9IOServicebP12OSDictionary.cold.2
++ _ZN18AIDImageDownloader15findDownloadersEP9IOServicebP12OSDictionary.cold.3
++ _ZN18AIDImageDownloader15findDownloadersEP9IOServicebP12OSDictionary.cold.4
++ _ZN18AIDImageDownloader15findDownloadersEP9IOServicebP12OSDictionary.cold.5
++ _ZN18AIDImageDownloader18createdDownloadersEP9IOService.cold.1
++ _ZN18AIDImageDownloader18createdDownloadersEP9IOService.cold.2
++ _ZN18AIDImageDownloader21beginFirmwareDownloadE18FWValidationStatusjP6OSData.cold.1
++ _ZN18AIDImageDownloader21beginFirmwareDownloadE18FWValidationStatusjP6OSData.cold.2
++ _ZN18AIDImageDownloader4initEPKcjP12OSDictionaryjbS3_.cold.1
++ _ZN18AIDImageDownloader4initEPKcjP12OSDictionaryjbS3_.cold.2
++ _ZN18AIDImageDownloader4initEPKcjP12OSDictionaryjbS3_.cold.3
++ _ZN19AIDLoggerUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.1
++ _ZN19AIDLoggerUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.2
++ _ZN19AIDLoggerUserClient5startEP9IOServiceP9AIDLogger.cold.1
++ _ZN19AIDLoggerUserClient5startEP9IOServiceP9AIDLogger.cold.2
++ _ZN19AIDLoggerUserClient5startEP9IOServiceP9AIDLogger.cold.3
++ _ZN22AIDSharedMemoryManager15setMapperConfigEhh.cold.1
++ _ZN22AIDSharedMemoryManager15setMapperConfigEhh.cold.2
++ _ZN22AIDSharedMemoryManager20readSharedMemoryFifoEP24IOBufferMemoryDescriptoryRyyh.cold.1
++ _ZN22AIDSharedMemoryManager21writeSharedMemoryFifoEP18IOMemoryDescriptoryh.cold.1
++ _ZN22AIDSharedMemoryManager22createSharedMemoryFifoEyNS_20SharedMemoryFIFOTypeERh.cold.1
++ _ZN22AIDSharedMemoryManager22createSharedMemoryFifoEyNS_20SharedMemoryFIFOTypeERh.cold.2
++ _ZN22AIDSharedMemoryManager22createSharedMemoryFifoEyNS_20SharedMemoryFIFOTypeERh.cold.3
++ _ZN22AIDSharedMemoryManager22createSharedMemoryFifoEyNS_20SharedMemoryFIFOTypeERh.cold.4
++ _ZN22AIDSharedMemoryManager27initWithIommuParentProviderEP9IOServiceP10AIDService.cold.2
++ _ZN22AIDSharedMemoryManager27initWithIommuParentProviderEP9IOServiceP10AIDService.cold.3
++ _ZN22AIDSharedMemoryManager27initWithIommuParentProviderEP9IOServiceP10AIDService.cold.4
++ _ZN22AIDSharedMemoryManager27initWithIommuParentProviderEP9IOServiceP10AIDService.cold.5
++ _ZN22AIDSharedMemoryManager27initWithIommuParentProviderEP9IOServiceP10AIDService.cold.6
++ _ZN22AIDSharedMemoryManager27initWithIommuParentProviderEP9IOServiceP10AIDService.cold.7
++ _ZN22AIDSharedMemoryManager27initWithIommuParentProviderEP9IOServiceP10AIDService.cold.8
++ _ZN22AIDSharedMemoryManager27initWithIommuParentProviderEP9IOServiceP10AIDService.cold.9
++ _ZN9AIDLogger20logTransactionHeaderEPhtS0_thPKcS2_.cold.1
++ _ZN9AIDLogger20logTransactionHeaderEPhtS0_thPKcS2_.cold.10
++ _ZN9AIDLogger20logTransactionHeaderEPhtS0_thPKcS2_.cold.11
++ _ZN9AIDLogger20logTransactionHeaderEPhtS0_thPKcS2_.cold.12
++ _ZN9AIDLogger20logTransactionHeaderEPhtS0_thPKcS2_.cold.13
++ _ZN9AIDLogger20logTransactionHeaderEPhtS0_thPKcS2_.cold.14
++ _ZN9AIDLogger20logTransactionHeaderEPhtS0_thPKcS2_.cold.15
++ _ZN9AIDLogger20logTransactionHeaderEPhtS0_thPKcS2_.cold.16
++ _ZN9AIDLogger20logTransactionHeaderEPhtS0_thPKcS2_.cold.17
++ _ZN9AIDLogger20logTransactionHeaderEPhtS0_thPKcS2_.cold.18
++ _ZN9AIDLogger20logTransactionHeaderEPhtS0_thPKcS2_.cold.2
++ _ZN9AIDLogger20logTransactionHeaderEPhtS0_thPKcS2_.cold.3
++ _ZN9AIDLogger20logTransactionHeaderEPhtS0_thPKcS2_.cold.4
++ _ZN9AIDLogger20logTransactionHeaderEPhtS0_thPKcS2_.cold.5
++ _ZN9AIDLogger20logTransactionHeaderEPhtS0_thPKcS2_.cold.6
++ _ZN9AIDLogger20logTransactionHeaderEPhtS0_thPKcS2_.cold.7
++ _ZN9AIDLogger20logTransactionHeaderEPhtS0_thPKcS2_.cold.8
++ _ZN9AIDLogger20logTransactionHeaderEPhtS0_thPKcS2_.cold.9
++ _ZNK22AIDSharedMemoryManager18createSharedMemoryEyjjP8IOMapper.cold.1
++ _ZNK22AIDSharedMemoryManager18createSharedMemoryEyjjP8IOMapper.cold.2
++ _ZNK22AIDSharedMemoryManager26findSlaveProcessorWithRoleE11OSSharedPtrI8OSObjectE.cold.1
++ _ZNK22AIDSharedMemoryManager26findSlaveProcessorWithRoleE11OSSharedPtrI8OSObjectE.cold.2
++ __ZN12OSCollection14iterateObjectsEU13block_pointerFbP8OSObjectE
++ ____ZN19AIDUserClientLogger16vDriverLogStringEPKcPcN9AIDLogger8LogLevelE_block_invoke
++ ____ZN19AIDUserClientLogger20driverLogTransactionEPhtS0_thPKcS2__block_invoke
++ __block_descriptor_tmp.16
+CStrings:
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/AppleInputDeviceSupport/AppleInputDeviceSupport/AIDImageDownloader.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/AppleInputDeviceSupport/AppleInputDeviceSupport/AIDService.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/AppleInputDeviceSupport/AppleInputDeviceSupport/AIDSharedMemoryManager.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/AppleInputDeviceSupport/AppleInputDeviceSupport/Logger/AIDLoggerUserClient.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/AppleInputDeviceSupport/AppleInputDeviceSupport/Reporter/AIDEventLogger.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/AppleInputDeviceSupport/AppleInputDeviceSupport/Reporter/AIDReporter.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/AppleInputDeviceSupport/AppleInputDeviceSupport/Reporter/AIDReporterSimple.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/AppleInputDeviceSupport/AppleInputDeviceSupport/Reporter/AIDReporterState.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/AppleInputDeviceSupport/AppleInputDeviceSupport/Reporter/AIDReporters.cpp"
++ "B16@?0^{OSObject=^^?i}8"
++ "_logger"
+- "/AppleInternal/Library/BuildRoots/2d1fc6ee-e34b-11ef-ba1a-122ba06eff56/Library/Caches/com.apple.xbs/Sources/AppleInputDeviceSupport/AppleInputDeviceSupport/AIDImageDownloader.cpp"
+- "/AppleInternal/Library/BuildRoots/2d1fc6ee-e34b-11ef-ba1a-122ba06eff56/Library/Caches/com.apple.xbs/Sources/AppleInputDeviceSupport/AppleInputDeviceSupport/AIDService.cpp"
+- "/AppleInternal/Library/BuildRoots/2d1fc6ee-e34b-11ef-ba1a-122ba06eff56/Library/Caches/com.apple.xbs/Sources/AppleInputDeviceSupport/AppleInputDeviceSupport/AIDSharedMemoryManager.cpp"
+- "/AppleInternal/Library/BuildRoots/2d1fc6ee-e34b-11ef-ba1a-122ba06eff56/Library/Caches/com.apple.xbs/Sources/AppleInputDeviceSupport/AppleInputDeviceSupport/Logger/AIDLoggerUserClient.cpp"
+- "/AppleInternal/Library/BuildRoots/2d1fc6ee-e34b-11ef-ba1a-122ba06eff56/Library/Caches/com.apple.xbs/Sources/AppleInputDeviceSupport/AppleInputDeviceSupport/Reporter/AIDEventLogger.cpp"
+- "/AppleInternal/Library/BuildRoots/2d1fc6ee-e34b-11ef-ba1a-122ba06eff56/Library/Caches/com.apple.xbs/Sources/AppleInputDeviceSupport/AppleInputDeviceSupport/Reporter/AIDReporter.cpp"
+- "/AppleInternal/Library/BuildRoots/2d1fc6ee-e34b-11ef-ba1a-122ba06eff56/Library/Caches/com.apple.xbs/Sources/AppleInputDeviceSupport/AppleInputDeviceSupport/Reporter/AIDReporterSimple.cpp"
+- "/AppleInternal/Library/BuildRoots/2d1fc6ee-e34b-11ef-ba1a-122ba06eff56/Library/Caches/com.apple.xbs/Sources/AppleInputDeviceSupport/AppleInputDeviceSupport/Reporter/AIDReporterState.cpp"
+- "/AppleInternal/Library/BuildRoots/2d1fc6ee-e34b-11ef-ba1a-122ba06eff56/Library/Caches/com.apple.xbs/Sources/AppleInputDeviceSupport/AppleInputDeviceSupport/Reporter/AIDReporters.cpp"
+
+```

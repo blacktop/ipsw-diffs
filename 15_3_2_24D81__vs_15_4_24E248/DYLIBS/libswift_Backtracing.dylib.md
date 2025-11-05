@@ -1,0 +1,184 @@
+## libswift_Backtracing.dylib
+
+> `/usr/lib/swift/libswift_Backtracing.dylib`
+
+```diff
+
+-6.0.3.1.5
+-  __TEXT.__text: 0x3ad04
++6.1.0.110.5
++  __TEXT.__text: 0x30620
+   __TEXT.__auth_stubs: 0xbd0
+-  __TEXT.__const: 0x2768
+-  __TEXT.__cstring: 0x1899
++  __TEXT.__const: 0x3768
++  __TEXT.__cstring: 0x17f9
+   __TEXT.__swift5_typeref: 0x5a4
+   __TEXT.__swift5_reflstr: 0xbca
+   __TEXT.__swift5_assocty: 0x1b8
+
+   __TEXT.__swift5_capture: 0x64
+   __TEXT.__swift5_protos: 0x18
+   __TEXT.__swift5_proto: 0xec
+-  __TEXT.__swift5_types: 0xc8
+-  __TEXT.__unwind_info: 0xbf0
+-  __TEXT.__eh_frame: 0x8f0
++  __TEXT.__swift5_types: 0xc4
++  __TEXT.__unwind_info: 0xb10
++  __TEXT.__eh_frame: 0x840
+   __DATA_CONST.__got: 0x178
+   __DATA_CONST.__const: 0x188
+   __DATA_CONST.__objc_classlist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __AUTH_CONST.__auth_got: 0x5e8
+-  __AUTH_CONST.__const: 0x1e00
++  __AUTH_CONST.__const: 0x1d60
+   __AUTH_CONST.__objc_const: 0x2a0
+   __AUTH.__data: 0x648
+-  __DATA.__data: 0x1f8
++  __DATA.__data: 0x1f0
+   __DATA.__bss: 0x1be0
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  UUID: 56F30F2F-2EE6-30C1-9E5E-22771E43DCAE
+-  Functions: 1262
+-  Symbols:   3062
+-  CStrings:  229
++  UUID: 9A3C06B5-03EA-3BBD-82F1-6E3DB022FB5D
++  Functions: 1232
++  Symbols:   3041
++  CStrings:  217
+ 
+Symbols:
++ $sSw9copyBytes4fromyx_tSlRzs5UInt8V7ElementRtzlFySRyADGXEfU_s5SliceVySWG_TG5TA.161
++ $ss5SliceV32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlFqd__AGKXEfU_SW_ytTG5TA.162
++ _$s12_Backtracing10ARMContextV12stackPointers6UInt32VvsTm
++ _$s12_Backtracing10ARMContextV13registerCountSivpZMV
++ _$s12_Backtracing11I386ContextV12stackPointers6UInt32VvsTm
++ _$s12_Backtracing11I386ContextV13registerCountSivpZMV
++ _$s12_Backtracing12ARM64ContextV12stackPointers6UInt64VvsTm
++ _$s12_Backtracing12ARM64ContextV13registerCountSivpZMV
++ _$s12_Backtracing13X86_64ContextV12stackPointers6UInt64VvsTm
++ _$s12_Backtracing13X86_64ContextV13registerCountSivpZMV
++ _$s12_Backtracing18BacktraceFormatterV6ThemesV5plainAE10PlainThemeVvpZMV
++ _$s12_Backtracing21SymbolicatedBacktraceV5FrameVSgWOy
++ _$s12_Backtracing24BacktraceFormattingThemeP14frameAttributeyS2SFTm
++ _$s12_Backtracing24BacktraceFormattingThemePAAE14frameAttributeyS2SFTm
++ _$s12_Backtracing3Sym33_773CB3E43D5B171BE8905CD7180E0DB6LLO9CSRelease_WZTm
++ _$s12_Backtracing9BacktraceV7capture4from5using6images9algorithm5limit6offset3topACx_q_SayAC5ImageVGSgAC15UnwindAlgorithmOSiSgS2itKAA7ContextRzAA12MemoryReaderR_r0_lFZAA05ARM64N0V_AA011UnsafeLocaloP0VTt3t7B5
++ _$s12_Backtracing9BacktraceV7capture4from5using6images9algorithm5limit6offset3topACx_q_SayAC5ImageVGSgAC15UnwindAlgorithmOSiSgS2itKAA7ContextRzAA12MemoryReaderR_r0_lFZAA05ARM64N0V_AA011UnsafeLocaloP0VTt3t7B5Tv_r
++ _$s12_Backtracing9BacktraceVWOs
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCs6UInt64V_SWTt0g5Tf4g_n
++ _$sSD8IteratorV8_VariantOys6UInt64VSW__GWOe
++ _$sSMsSKRzrlE14_insertionSort6within9sortedEnd2byySny5IndexSlQzG_AFSb7ElementSTQz_AItKXEtKFSrySiG_Tg508$sSTsSL7H45RpzrlE6sortedSayABGyFSbAB_ABtcfu_ShySiG_Tt1G5Tf1nncn_n
++ _$sSR8rebasingSRyxGs5SliceVyABG_tcfCs5UInt8V_Tt0g5
++ _$sSW17withMemoryRebound2to_q0_xm_q0_SRyxGq_YKXEtq_YKs5ErrorR_Ri_zRi_0_r1_lFs6UInt32V_s5NeverOAFTt1g5046$s12_Backtracing11I386ContextV11getRegisterys6F33VSgAA0bE0OFAGSWXEfU_AFSRyAFGXEfU_12_Backtracing0J8RegisterOTf1cn_n
++ _$sSa15_checkSubscript_20wasNativeTypeCheckeds16_DependenceTokenVSi_SbtF12_Backtracing27BinaryRelocationInformationV_Tg5
++ _$sSa22_allocateUninitializedySayxG_SpyxGtSiFZ12_Backtracing9BacktraceV5ImageV_Tt0g5Tm
++ _$sSa9repeating5countSayxGx_SitcfCSi_Tt1g5
++ _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSay12_Backtracing9BacktraceV5ImageVG_AF06BinaryF11InformationVs5NeverOTg5030$s12_Backtracing21Symbolicatede107V16withSymbolicator33_1BCABCD438B11670E5565DC5859D0CFFLL6images15sharedCacheInfo09useSymbolN02fnxSayAA0C0V5f49VG_AK06SharednO0VSgSbxSo10_CSTypeRefVKXEtKlFZAA06g3S11H8VAMXEfU_AF0lE0VXMtTf1cn_nTf4nd_n
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSi_Tg560$sSTsSL7ElementRpzrlE6sortedSayABGyFSbAB_ABtcfu_ShySiG_Tt1G5Tf1cn_n
++ _$sSxsE5_step5after4from2bySiSg5index_x5valuetAeF_xAGt_x6StrideQztFZ12_Backtracing11ARMRegisterO_Tt4B5
++ _$sSxsE5_step5after4from2bySiSg5index_x5valuetAeF_xAGt_x6StrideQztFZ12_Backtracing12I386RegisterO_Tt4B5
++ _$sSxsE5_step5after4from2bySiSg5index_x5valuetAeF_xAGt_x6StrideQztFZ12_Backtracing13ARM64RegisterO_Tt4B5
++ _$sSxsE5_step5after4from2bySiSg5index_x5valuetAeF_xAGt_x6StrideQztFZ12_Backtracing14X86_64RegisterO_Tt4B5
++ _$ss15ContiguousArrayV30withUnsafeMutableBufferPointeryqd__qd__SryxGzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lF6$deferL_yysAERd_0_r_0_lFADSpyxGSiAByxGsAE_pRsd_0_r_0_lIetbyyb_Tpq512_Backtracing9BacktraceV5ImageV_ytTg5Tm
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5
++ _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlFSi_Tg560$sSTsSL7ElementRpzrlE6sortedSayABGyFSbAB_ABtcfu_ShySiG_Tt1G5Tf1nnnnc_n
++ block_copy_helper.182
++ block_copy_helper.191
++ block_copy_helper.195
++ block_descriptor.184
++ block_descriptor.193
++ block_descriptor.197
++ block_destroy_helper.183
++ block_destroy_helper.192
++ block_destroy_helper.196
+- $s12_Backtracing11I386ContextV14programCounters6UInt32VvM.resume.0Tm
+- $s12_Backtracing12ARM64ContextV14programCounters6UInt64VvM.resume.0Tm
+- $s12_Backtracing13X86_64ContextV14programCounters6UInt64VvM.resume.0Tm
+- _$s12_Backtracing12ARM64ContextVSgMJ
+- _$s12_Backtracing12ARM64ContextVSgMN
+- _$s12_Backtracing12ARM64ContextVSgWOb
+- _$s12_Backtracing12ARM64ContextVSgWV
+- _$s12_Backtracing18BacktraceFormatterV11formatTable_10alignmentsSSSayAC0E3RowOG_SayAC9AlignmentOGtFZSSSi_SStXEfU0_TA
+- _$s12_Backtracing18BacktraceFormatterV6ThemesV10PlainThemeVAA0b10FormattingF0A2aHP14frameAttributeyS2SFTWTm
+- _$s12_Backtracing20coreFoundationHandle33_773CB3E43D5B171BE8905CD7180E0DB6LL_WZTm
+- _$s12_Backtracing21SymbolicatedBacktraceV16withSymbolicator33_1BCABCD438B11670E5565DC5859D0CFFLL6images15sharedCacheInfo09useSymbolN02fnxSayAA0C0V5ImageVG_AK06SharednO0VSgSbxSo10_CSTypeRefVKXEtKlFZAA06BinaryS11InformationVAMXEfU_
+- _$s12_Backtracing24BacktraceFormattingThemePAAE13crashLocationSSyFTf4d_n
+- _$s12_Backtracing24BacktraceFormattingThemePAAE14frameAttributeyS2SFTf4nd_nTm
+- _$s12_Backtracing24BacktraceFormattingTheme_pWOb
+- _$s12_Backtracing3Sym33_773CB3E43D5B171BE8905CD7180E0DB6LLO33CSSymbolOwnerGetSymbolWithAddress_WZTm
+- _$s12_Backtracing3hex_6prefix5widthSSx_SbSits17FixedWidthIntegerRzlFs5UInt8V_Tg5
+- _$s12_Backtracing3hex_6prefix5widthSSx_SbSits17FixedWidthIntegerRzlFs6UInt16V_Tg5
+- _$s12_Backtracing3hex_6prefix5widthSSx_SbSits17FixedWidthIntegerRzlFs6UInt32V_Tg5
+- _$s12_Backtracing9BacktraceV7capture4from5using6images9algorithm5limit6offset3topACx_q_SayAC5ImageVGSgAC15UnwindAlgorithmOSiSgS2itKAA7ContextRzAA12MemoryReaderR_r0_lFZAA05ARM64N0V_AA011UnsafeLocaloP0VTBm5
+- _$s12_Backtracing9BacktraceV7capture4from5using6images9algorithm5limit6offset3topACx_q_SayAC5ImageVGSgAC15UnwindAlgorithmOSiSgS2itKAA7ContextRzAA12MemoryReaderR_r0_lFZAA05ARM64N0V_AA011UnsafeLocaloP0VTBm5Tv_r
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCs6UInt64V_SWTgm5Tf4g_n
+- _$sSMsSKRzrlE14_insertionSort6within9sortedEnd2byySny5IndexSlQzG_AFSb7ElementSTQz_AItKXEtKFSrySiG_Tg508$sSTsSL7H44RpzrlE6sortedSayABGyFSbAB_ABtcfu_ShySiG_TGm5Tf1nncn_n
+- _$sSR8rebasingSRyxGs5SliceVyABG_tcfCs5UInt8V_Tgm5
+- _$sSTsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFs18EnumeratedSequenceVySaySSGG_SSs5NeverOTg5038$sSiS2SIgygo_Si6offset_SS7elementtSSs5F11OIegnrzr_TRSiS2SIgygo_Tf1cn_nTf4ng_n
+- _$sSW13_copyContents12initializingSW8IteratorV_SitSrys5UInt8VG_tF
+- _$sSW17withMemoryRebound2to_q0_xm_q0_SRyxGq_YKXEtq_YKs5ErrorR_Ri_zRi_0_r1_lFs6UInt32V_s5NeverOAFTgm5046$s12_Backtracing11I386ContextV11getRegisterys6F33VSgAA0bE0OFAGSWXEfU_AFSRyAFGXEfU_12_Backtracing0J8RegisterOTf1cn_n
+- _$sSa15_checkSubscript_20wasNativeTypeCheckeds16_DependenceTokenVSi_SbtF12_Backtracing18BacktraceFormatterV9AlignmentO_Tg5
+- _$sSa22_allocateUninitializedySayxG_SpyxGtSiFZ12_Backtracing9BacktraceV5ImageV_Tgm5Tm
+- _$sSa9repeating5countSayxGx_SitcfCSi_Tgm5
+- _$sSh8IteratorV8_VariantOySi__GWOe
+- _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSay12_Backtracing9BacktraceV5ImageVG_AF06BinaryF11InformationVs5NeverOTg5030$s12_Backtracing21Symbolicatede107V16withSymbolicator33_1BCABCD438B11670E5565DC5859D0CFFLL6images15sharedCacheInfo09useSymbolN02fnxSayAA0C0V5f49VG_AK06SharednO0VSgSbxSo10_CSTypeRefVKXEtKlFZAA06g3S11H8VAMXEfU_AF0lE0VXMtTf1cn_n
+- _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSaySiG_12_Backtracing9BacktraceV5ImageVs5NeverOTg5018$s12_Backtracing18e55FormatterV6format9backtraceSSAA012SymbolicatedB0V_tFAA0n2V5F8VSiXEfU_AG0mE0VTf1cn_nTf4ng_n
+- _$sSqMn
+- _$sSqwCP
+- _$sSqwca
+- _$sSqwcp
+- _$sSqwet
+- _$sSqwst
+- _$sSqwta
+- _$sSqwtk
+- _$sSqwug
+- _$sSqwui
+- _$sSqwup
+- _$sSqwxx
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSi_Tg559$sSTsSL7ElementRpzrlE6sortedSayABGyFSbAB_ABtcfu_ShySiG_TGm5Tf1cn_n
+- _$sSrsRi_zrlE17withMemoryRebound2to_qd_1_qd__m_qd_1_Sryqd__Gqd_0_YKXEtqd_0_YKs5ErrorRd_0_Ri_d__Ri_d_1_r1_lFSo11CFUUIDBytesa_s5UInt8Vs5NeverOytTgm50121$s12_Backtracing21SymbolicatedBacktraceV20uuidBytesFromBuildID33_1BCABCD438B11670E5565DC5859D0CFFLLySo11CFUUIDBytesaSays5G29VGFZAGSryAGGXEfU_ySryAIGXEfU_SayAHGTf1ncn_n
+- _$sSw9copyBytes4fromyx_tSlRzs5UInt8V7ElementRtzlFs5SliceVySWG_Tg5
+- _$sSw9copyBytes4fromyx_tSlRzs5UInt8V7ElementRtzlFySRyADGXEfU_s5SliceVySWG_TG5TA
+- _$sSxsE5_step5after4from2bySiSg5index_x5valuetAeF_xAGt_x6StrideQztFZ12_Backtracing11ARMRegisterO_TBm5
+- _$sSxsE5_step5after4from2bySiSg5index_x5valuetAeF_xAGt_x6StrideQztFZ12_Backtracing12I386RegisterO_TBm5
+- _$sSxsE5_step5after4from2bySiSg5index_x5valuetAeF_xAGt_x6StrideQztFZ12_Backtracing13ARM64RegisterO_TBm5
+- _$sSxsE5_step5after4from2bySiSg5index_x5valuetAeF_xAGt_x6StrideQztFZ12_Backtracing14X86_64RegisterO_TBm5
+- _$ss15ContiguousArrayV30withUnsafeMutableBufferPointeryqd__qd__SryxGzKXEKlF6$deferL_yyr__lF12_Backtracing9BacktraceV5ImageV_ytTg5Tm
+- _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tgmq5
+- _$ss5SliceV32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlFqd__AGKXEfU_SW_ytTG5TA
+- _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlFSi_Tg559$sSTsSL7ElementRpzrlE6sortedSayABGyFSbAB_ABtcfu_ShySiG_TGm5Tf1nnnnc_n
+- block_copy_helper.180
+- block_copy_helper.189
+- block_copy_helper.193
+- block_descriptor.182
+- block_descriptor.191
+- block_descriptor.195
+- block_destroy_helper.181
+- block_destroy_helper.190
+- block_destroy_helper.194
+CStrings:
++ "\n\nImages:\n"
++ "_"
+- "\n r4: "
+- "\n x4: "
+- "\nesi: "
+- "\nrdx: "
+- "  r3: "
+- "  x3: "
+- " <no build ID> "
+- " [thunk]"
+- " edx: "
+- " rsi: "
+- "<unknown>"
+- "Attempt to copy contents into nil buffer pointer"
+- "] "
+- "dyld"
+
+```

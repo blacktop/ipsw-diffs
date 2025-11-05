@@ -1,0 +1,334 @@
+## com.apple.driver.AppleBiometricSensor
+
+> `com.apple.driver.AppleBiometricSensor`
+
+```diff
+
+-259.0.2.0.0
+-  __TEXT.__cstring: 0x290d
+-  __TEXT.__os_log: 0x8307
++259.100.1.0.0
++  __TEXT.__cstring: 0x2930
++  __TEXT.__os_log: 0x8338
+   __TEXT.__const: 0x360
+-  __TEXT_EXEC.__text: 0x20198
++  __TEXT_EXEC.__text: 0x23354
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x188
+   __DATA.__common: 0x1c8
+-  __DATA_CONST.__auth_got: 0x280
++  __DATA_CONST.__auth_got: 0x288
+   __DATA_CONST.__got: 0x98
+   __DATA_CONST.__auth_ptr: 0x8
+   __DATA_CONST.__mod_init_func: 0x38
+   __DATA_CONST.__mod_term_func: 0x38
+   __DATA_CONST.__const: 0x5f90
+   __DATA_CONST.__kalloc_type: 0x3c0
+-  UUID: 50842996-2BE6-3760-BF4F-5C5479CEC961
+-  Functions: 422
+-  Symbols:   1868
+-  CStrings:  723
++  UUID: 91059E33-54D7-3EC9-97CD-18C404A27C57
++  Functions: 689
++  Symbols:   2144
++  CStrings:  727
+ 
+Symbols:
++ _OUTLINED_FUNCTION_0
++ _OUTLINED_FUNCTION_1
++ _OUTLINED_FUNCTION_2
++ _OUTLINED_FUNCTION_3
++ _OUTLINED_FUNCTION_4
++ _ZN15AppleSandDollar18FillSetParamBufferEPKhmPhmb.cold.1
++ _ZN15AppleSandDollar18FillSetParamBufferEPKhmPhmb.cold.2
++ _ZN15AppleSandDollar18FillSetParamBufferEPKhmPhmb.cold.3
++ _ZN15AppleSandDollar18FillSetParamBufferEPKhmPhmb.cold.4
++ _ZN15AppleSandDollar18disableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEb.cold.1
++ _ZN15AppleSandDollar18disableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEb.cold.2
++ _ZN15AppleSandDollar25SendEncryptedCommandGatedEjPKhm.cold.1
++ _ZN15AppleSandDollar25SendEncryptedCommandGatedEjPKhm.cold.2
++ _ZN15AppleSandDollar26CalibrateAndUpdateNVMGatedEPhmS0_m.cold.1
++ _ZN15AppleSandDollar26CalibrateAndUpdateNVMGatedEPhmS0_m.cold.2
++ _ZN15AppleSandDollar29_handleSensorSpecificResponseEjPhPKhy.cold.1
++ _ZN15AppleSandDollar35EncryptedGetModuleSerialNumberGatedEPKhmPhm.cold.1
++ _ZN20AppleMesaARMFunction27initWithTargetDataAndSymbolEP9IOServicePK6OSDataPK8OSSymbol.cold.1
++ _ZN23AppleSPIBiometricSensor12transferDataEP18IOMemoryDescriptorPvyS1_S2_yNS_12TransferModeE.cold.1
++ _ZN23AppleSPIBiometricSensor12transferDataEP18IOMemoryDescriptorPvyS1_S2_yNS_12TransferModeE.cold.2
++ _ZN23AppleSPIBiometricSensor12transferDataEP18IOMemoryDescriptorPvyS1_S2_yNS_12TransferModeE.cold.3
++ _ZN23AppleSPIBiometricSensor12transferDataEP18IOMemoryDescriptorPvyS1_S2_yNS_12TransferModeE.cold.4
++ _ZN23AppleSPIBiometricSensor12transferDataEP18IOMemoryDescriptorPvyS1_S2_yNS_12TransferModeE.cold.5
++ _ZN9AppleMesa10PatchGatedEP18IOMemoryDescriptorPhm.cold.1
++ _ZN9AppleMesa10PatchGatedEP18IOMemoryDescriptorPhm.cold.2
++ _ZN9AppleMesa10PatchGatedEP18IOMemoryDescriptorPhm.cold.3
++ _ZN9AppleMesa10ResetGatedEN20AppleBiometricSensor10eResetTypeEPhm.cold.1
++ _ZN9AppleMesa10handleOpenEP9IOServicejPv.cold.1
++ _ZN9AppleMesa11ResetActionEP18IOTimerEventSource.cold.1
++ _ZN9AppleMesa12powerOnResetEv.cold.1
++ _ZN9AppleMesa12powerOnResetEv.cold.2
++ _ZN9AppleMesa12powerOnResetEv.cold.3
++ _ZN9AppleMesa13SetPowerGatedEj.cold.1
++ _ZN9AppleMesa13SetPowerGatedEj.cold.2
++ _ZN9AppleMesa13SetPowerGatedEj.cold.3
++ _ZN9AppleMesa13SetPowerGatedEj.cold.4
++ _ZN9AppleMesa13SetPowerGatedEj.cold.5
++ _ZN9AppleMesa13SetPowerGatedEj.cold.6
++ _ZN9AppleMesa13SetPowerGatedEj.cold.7
++ _ZN9AppleMesa13handleCMDSyncEjmmm.cold.1
++ _ZN9AppleMesa13handleCMDSyncEjmmm.cold.2
++ _ZN9AppleMesa13handleCMDSyncEjmmm.cold.3
++ _ZN9AppleMesa14LoadPatchGatedEP18IOMemoryDescriptor.cold.1
++ _ZN9AppleMesa14LoadPatchGatedEP18IOMemoryDescriptor.cold.2
++ _ZN9AppleMesa14LoadPatchGatedEP18IOMemoryDescriptor.cold.3
++ _ZN9AppleMesa14checkCRC16ANSIEPKhm.cold.1
++ _ZN9AppleMesa14readLDOCurrentEP16AppleARMFunctionPjjS2_S2_.cold.1
++ _ZN9AppleMesa14readLDOCurrentEP16AppleARMFunctionPjjS2_S2_.cold.2
++ _ZN9AppleMesa14readLDOCurrentEP16AppleARMFunctionPjjS2_S2_.cold.3
++ _ZN9AppleMesa14readLDOCurrentEP16AppleARMFunctionPjjS2_S2_.cold.4
++ _ZN9AppleMesa14readLDOCurrentEP16AppleARMFunctionPjjS2_S2_.cold.5
++ _ZN9AppleMesa14readLDOCurrentEP16AppleARMFunctionPjjS2_S2_.cold.6
++ _ZN9AppleMesa14readSensorDataEy.cold.1
++ _ZN9AppleMesa14readSensorDataEy.cold.2
++ _ZN9AppleMesa15LockSensorGatedEPhm.cold.1
++ _ZN9AppleMesa15LockSensorGatedEPhm.cold.2
++ _ZN9AppleMesa15SensorTestGatedEPhm.cold.1
++ _ZN9AppleMesa15StopSSHBHBGatedEhPhm.cold.1
++ _ZN9AppleMesa15createReportersEv.cold.1
++ _ZN9AppleMesa15createReportersEv.cold.2
++ _ZN9AppleMesa15createReportersEv.cold.3
++ _ZN9AppleMesa15setCurrentStateEj.cold.1
++ _ZN9AppleMesa16StartBurnInGatedEPhm.cold.1
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.1
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.10
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.11
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.12
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.13
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.14
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.15
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.16
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.17
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.18
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.19
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.2
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.20
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.21
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.22
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.23
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.24
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.25
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.26
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.27
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.28
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.29
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.3
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.30
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.31
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.32
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.33
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.34
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.4
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.5
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.6
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.7
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.8
++ _ZN9AppleMesa16postHourlyUpdateEP17PowerMonitorStats.cold.9
++ _ZN9AppleMesa17ESDRecoveryActionEP13IOEventSource.cold.1
++ _ZN9AppleMesa17ESDRecoveryActionEP13IOEventSource.cold.2
++ _ZN9AppleMesa17ESDRecoveryActionEP13IOEventSource.cold.3
++ _ZN9AppleMesa17PauseCaptureGatedEPhm.cold.1
++ _ZN9AppleMesa17StartCaptureGatedEPhm.cold.1
++ _ZN9AppleMesa17enableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEb.cold.1
++ _ZN9AppleMesa18DHKeyExchangeGatedEPKhmPhm.cold.1
++ _ZN9AppleMesa18FillSetParamBufferEPKhmPhmb.cold.1
++ _ZN9AppleMesa18FillSetParamBufferEPKhmPhmb.cold.2
++ _ZN9AppleMesa18FillSetParamBufferEPKhmPhmb.cold.3
++ _ZN9AppleMesa18disableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEb.cold.1
++ _ZN9AppleMesa18disableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEb.cold.2
++ _ZN9AppleMesa18initializeHardwareEv.cold.1
++ _ZN9AppleMesa18postAnalyticsEventEP8OSStringP12OSDictionary.cold.1
++ _ZN9AppleMesa18postAnalyticsEventEP8OSStringP12OSDictionary.cold.2
++ _ZN9AppleMesa18postAnalyticsEventEP8OSStringP12OSDictionary.cold.3
++ _ZN9AppleMesa18powerMonitorThreadEv.cold.1
++ _ZN9AppleMesa18powerMonitorThreadEv.cold.10
++ _ZN9AppleMesa18powerMonitorThreadEv.cold.11
++ _ZN9AppleMesa18powerMonitorThreadEv.cold.12
++ _ZN9AppleMesa18powerMonitorThreadEv.cold.13
++ _ZN9AppleMesa18powerMonitorThreadEv.cold.14
++ _ZN9AppleMesa18powerMonitorThreadEv.cold.15
++ _ZN9AppleMesa18powerMonitorThreadEv.cold.16
++ _ZN9AppleMesa18powerMonitorThreadEv.cold.17
++ _ZN9AppleMesa18powerMonitorThreadEv.cold.18
++ _ZN9AppleMesa18powerMonitorThreadEv.cold.2
++ _ZN9AppleMesa18powerMonitorThreadEv.cold.3
++ _ZN9AppleMesa18powerMonitorThreadEv.cold.4
++ _ZN9AppleMesa18powerMonitorThreadEv.cold.5
++ _ZN9AppleMesa18powerMonitorThreadEv.cold.6
++ _ZN9AppleMesa18powerMonitorThreadEv.cold.7
++ _ZN9AppleMesa18powerMonitorThreadEv.cold.8
++ _ZN9AppleMesa18powerMonitorThreadEv.cold.9
++ _ZN9AppleMesa18setPropertiesGatedEP8OSObject.cold.1
++ _ZN9AppleMesa18setPropertiesGatedEP8OSObject.cold.2
++ _ZN9AppleMesa19GetSensorNonceGatedEPhm.cold.1
++ _ZN9AppleMesa20GetSerialNumberGatedEPhm.cold.1
++ _ZN9AppleMesa20ProvisionSensorGatedEPhmS0_m.cold.1
++ _ZN9AppleMesa20dispatchCaptureReadyEP18IOMemoryDescriptoryy.cold.1
++ _ZN9AppleMesa21LockLowerHalfKeyGatedEPhm.cold.1
++ _ZN9AppleMesa21LockLowerHalfKeyGatedEPhm.cold.2
++ _ZN9AppleMesa21LockUpperHalfKeyGatedEPhm.cold.1
++ _ZN9AppleMesa21LockUpperHalfKeyGatedEPhm.cold.2
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.1
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.10
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.11
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.12
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.13
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.14
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.15
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.16
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.17
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.18
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.19
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.2
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.20
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.21
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.22
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.23
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.24
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.25
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.26
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.27
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.28
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.29
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.3
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.30
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.31
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.32
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.33
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.34
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.35
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.36
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.37
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.38
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.39
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.4
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.40
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.5
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.6
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.7
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.8
++ _ZN9AppleMesa21postHourlyPowerUpdateEP17PowerMonitorStats.cold.9
++ _ZN9AppleMesa22ReprovisionSEPKeyGatedEPhmS0_m.cold.1
++ _ZN9AppleMesa22ReprovisionSensorGatedEPKhmPhm.cold.1
++ _ZN9AppleMesa22StartFingerDetectGatedEPhm.cold.1
++ _ZN9AppleMesa22WriteUpperHalfKeyGatedEPhmS0_m.cold.1
++ _ZN9AppleMesa22WriteUpperHalfKeyGatedEPhmS0_m.cold.2
++ _ZN9AppleMesa23GoToProductionModeGatedEPhm.cold.1
++ _ZN9AppleMesa23GoToProductionModeGatedEPhm.cold.2
++ _ZN9AppleMesa23SessionKeyExchangeGatedEPhmS0_m.cold.1
++ _ZN9AppleMesa23UnpairUpperHalfKeyGatedEPhm.cold.1
++ _ZN9AppleMesa23UnpairUpperHalfKeyGatedEPhm.cold.2
++ _ZN9AppleMesa23calculateAverageCurrentEPjjjjS0_.cold.1
++ _ZN9AppleMesa23calculateAverageCurrentEPjjjjS0_.cold.2
++ _ZN9AppleMesa23calculateAverageCurrentEPjjjjS0_.cold.3
++ _ZN9AppleMesa23getCoreAnalyticsServiceEv.cold.1
++ _ZN9AppleMesa23getCoreAnalyticsServiceEv.cold.2
++ _ZN9AppleMesa23getCoreAnalyticsServiceEv.cold.3
++ _ZN9AppleMesa24powerMonitorContinuationEP8OSObjecti.cold.1
++ _ZN9AppleMesa26CalibrateAndUpdateNVMGatedEPhmS0_m.cold.1
++ _ZN9AppleMesa26CalibrateAndUpdateNVMGatedEPhmS0_m.cold.2
++ _ZN9AppleMesa26FillEncryptedCommandBufferEPKhmPhm.cold.1
++ _ZN9AppleMesa26GetModuleSerialNumberGatedEPhm.cold.1
++ _ZN9AppleMesa26powerStateDidChangeToGatedEmmP9IOService.cold.1
++ _ZN9AppleMesa27SetEncryptedParametersGatedEPKhmb.cold.1
++ _ZN9AppleMesa27SetEncryptedParametersGatedEPKhmb.cold.2
++ _ZN9AppleMesa27postHourlyHighCurrentUpdateEP17PowerMonitorStats.cold.1
++ _ZN9AppleMesa27postHourlyHighCurrentUpdateEP17PowerMonitorStats.cold.10
++ _ZN9AppleMesa27postHourlyHighCurrentUpdateEP17PowerMonitorStats.cold.11
++ _ZN9AppleMesa27postHourlyHighCurrentUpdateEP17PowerMonitorStats.cold.12
++ _ZN9AppleMesa27postHourlyHighCurrentUpdateEP17PowerMonitorStats.cold.13
++ _ZN9AppleMesa27postHourlyHighCurrentUpdateEP17PowerMonitorStats.cold.14
++ _ZN9AppleMesa27postHourlyHighCurrentUpdateEP17PowerMonitorStats.cold.15
++ _ZN9AppleMesa27postHourlyHighCurrentUpdateEP17PowerMonitorStats.cold.16
++ _ZN9AppleMesa27postHourlyHighCurrentUpdateEP17PowerMonitorStats.cold.17
++ _ZN9AppleMesa27postHourlyHighCurrentUpdateEP17PowerMonitorStats.cold.18
++ _ZN9AppleMesa27postHourlyHighCurrentUpdateEP17PowerMonitorStats.cold.19
++ _ZN9AppleMesa27postHourlyHighCurrentUpdateEP17PowerMonitorStats.cold.2
++ _ZN9AppleMesa27postHourlyHighCurrentUpdateEP17PowerMonitorStats.cold.20
++ _ZN9AppleMesa27postHourlyHighCurrentUpdateEP17PowerMonitorStats.cold.21
++ _ZN9AppleMesa27postHourlyHighCurrentUpdateEP17PowerMonitorStats.cold.22
++ _ZN9AppleMesa27postHourlyHighCurrentUpdateEP17PowerMonitorStats.cold.23
++ _ZN9AppleMesa27postHourlyHighCurrentUpdateEP17PowerMonitorStats.cold.24
++ _ZN9AppleMesa27postHourlyHighCurrentUpdateEP17PowerMonitorStats.cold.25
++ _ZN9AppleMesa27postHourlyHighCurrentUpdateEP17PowerMonitorStats.cold.26
++ _ZN9AppleMesa27postHourlyHighCurrentUpdateEP17PowerMonitorStats.cold.27
++ _ZN9AppleMesa27postHourlyHighCurrentUpdateEP17PowerMonitorStats.cold.28
++ _ZN9AppleMesa27postHourlyHighCurrentUpdateEP17PowerMonitorStats.cold.29
++ _ZN9AppleMesa27postHourlyHighCurrentUpdateEP17PowerMonitorStats.cold.3
++ _ZN9AppleMesa27postHourlyHighCurrentUpdateEP17PowerMonitorStats.cold.30
++ _ZN9AppleMesa27postHourlyHighCurrentUpdateEP17PowerMonitorStats.cold.31
++ _ZN9AppleMesa27postHourlyHighCurrentUpdateEP17PowerMonitorStats.cold.32
++ _ZN9AppleMesa27postHourlyHighCurrentUpdateEP17PowerMonitorStats.cold.4
++ _ZN9AppleMesa27postHourlyHighCurrentUpdateEP17PowerMonitorStats.cold.5
++ _ZN9AppleMesa27postHourlyHighCurrentUpdateEP17PowerMonitorStats.cold.6
++ _ZN9AppleMesa27postHourlyHighCurrentUpdateEP17PowerMonitorStats.cold.7
++ _ZN9AppleMesa27postHourlyHighCurrentUpdateEP17PowerMonitorStats.cold.8
++ _ZN9AppleMesa27postHourlyHighCurrentUpdateEP17PowerMonitorStats.cold.9
++ _ZN9AppleMesa30EncryptedLockLowerHalfKeyGatedEPhmS0_m.cold.1
++ _ZN9AppleMesa30EncryptedLockLowerHalfKeyGatedEPhmS0_m.cold.2
++ _ZN9AppleMesa30InitializeSequenceCounterGatedEPhmS0_m.cold.1
++ _ZN9AppleMesa31EncryptedWriteUpperHalfKeyGatedEPhmS0_m.cold.1
++ _ZN9AppleMesa31EncryptedWriteUpperHalfKeyGatedEPhmS0_m.cold.2
++ _ZN9AppleMesa32RePairingSessionKeyExchangeGatedEPhmS0_m.cold.1
++ _ZN9AppleMesa5startEP9IOService.cold.1
++ _ZN9AppleMesa5startEP9IOService.cold.10
++ _ZN9AppleMesa5startEP9IOService.cold.11
++ _ZN9AppleMesa5startEP9IOService.cold.12
++ _ZN9AppleMesa5startEP9IOService.cold.13
++ _ZN9AppleMesa5startEP9IOService.cold.14
++ _ZN9AppleMesa5startEP9IOService.cold.15
++ _ZN9AppleMesa5startEP9IOService.cold.16
++ _ZN9AppleMesa5startEP9IOService.cold.17
++ _ZN9AppleMesa5startEP9IOService.cold.18
++ _ZN9AppleMesa5startEP9IOService.cold.19
++ _ZN9AppleMesa5startEP9IOService.cold.2
++ _ZN9AppleMesa5startEP9IOService.cold.3
++ _ZN9AppleMesa5startEP9IOService.cold.4
++ _ZN9AppleMesa5startEP9IOService.cold.5
++ _ZN9AppleMesa5startEP9IOService.cold.6
++ _ZN9AppleMesa5startEP9IOService.cold.7
++ _ZN9AppleMesa5startEP9IOService.cold.8
++ _ZN9AppleMesa5startEP9IOService.cold.9
++ _ZN9AppleMesa9IdleGatedEPhm.cold.1
++ _ZN9AppleMesa9crc16ansiEPKvmPt.cold.1
++ _ZN9AppleMesa9crc16ansiEPKvmPt.cold.2
++ _ZN9AppleMesa9loadPatchEPhy.cold.1
++ _ZN9AppleMesa9loadPatchEPhy.cold.2
++ _ZN9AppleMesa9loadPatchEPhy.cold.3
++ __ZN9AppleMesa17getHibernateStateEv
++ __ZN9IOService15getPMRootDomainEv
++ __ZZN9AppleMesa17enableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt_5
++ __ZZN9AppleMesa17getHibernateStateEvE11_os_log_fmt
++ __ZZN9AppleMesa20dispatchCaptureReadyEP18IOMemoryDescriptoryyE21kalloc_type_view_6858
++ __ZZN9AppleMesa20dispatchCaptureReadyEP18IOMemoryDescriptoryyE21kalloc_type_view_6874
++ bufferToString.cold.1
++ bufferToString.cold.2
++ bufferToString.cold.3
++ bufferToString.cold.4
+- _ZN9AppleMesa15getSensorStatusEPhmb.cold.1
+- __ZZN9AppleMesa20dispatchCaptureReadyEP18IOMemoryDescriptoryyE21kalloc_type_view_6832
+- __ZZN9AppleMesa20dispatchCaptureReadyEP18IOMemoryDescriptoryyE21kalloc_type_view_6848
+CStrings:
++ "%s: Wake from hibernation"
++ "%s: hibernateState: %d"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/ABSLogging.c"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleMesa.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleMesaResources.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleSPIBiometricSensor.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleSandDollar.cpp"
++ "IOHibernateState"
++ "getHibernateState"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/ABSLogging.c"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleMesa.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleMesaResources.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleSPIBiometricSensor.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleSandDollar.cpp"
+
+```

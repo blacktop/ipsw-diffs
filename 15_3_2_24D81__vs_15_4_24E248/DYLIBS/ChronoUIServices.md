@@ -1,0 +1,156 @@
+## ChronoUIServices
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/ChronoUIServices.framework/Versions/A/ChronoUIServices`
+
+```diff
+
+-537.4.1.0.0
+-  __TEXT.__text: 0x118da8
+-  __TEXT.__auth_stubs: 0x2e30
+-  __TEXT.__objc_methlist: 0x2544
+-  __TEXT.__const: 0x4148
+-  __TEXT.__gcc_except_tab: 0x310c
+-  __TEXT.__cstring: 0x37ae
++537.5.41.0.0
++  __TEXT.__text: 0x11e440
++  __TEXT.__auth_stubs: 0x2ec0
++  __TEXT.__objc_methlist: 0x2a94
++  __TEXT.__const: 0x4128
++  __TEXT.__gcc_except_tab: 0x3100
++  __TEXT.__cstring: 0x3dde
+   __TEXT.__oslogstring: 0x2115
+   __TEXT.__constg_swiftt: 0x2458
+-  __TEXT.__swift5_typeref: 0x2bf0
++  __TEXT.__swift5_typeref: 0x2c82
+   __TEXT.__swift5_builtin: 0xc8
+-  __TEXT.__swift5_reflstr: 0x10c9
+-  __TEXT.__swift5_fieldmd: 0x123c
++  __TEXT.__swift5_reflstr: 0x10d9
++  __TEXT.__swift5_fieldmd: 0x1248
+   __TEXT.__swift5_assocty: 0x288
+   __TEXT.__swift5_proto: 0x220
+   __TEXT.__swift5_types: 0x16c
+   __TEXT.__swift5_protos: 0x3c
+   __TEXT.__swift5_capture: 0x23ec
++  __TEXT.__swift_as_entry: 0x88
++  __TEXT.__swift_as_ret: 0x84
+   __TEXT.__swift5_mpenum: 0x14
+-  __TEXT.__unwind_info: 0x2830
++  __TEXT.__unwind_info: 0x28e0
+   __TEXT.__eh_frame: 0xdd0
+   __TEXT.__objc_classname: 0x7b8
+-  __TEXT.__objc_methname: 0x61c8
++  __TEXT.__objc_methname: 0x61db
+   __TEXT.__objc_methtype: 0xde1
+   __TEXT.__objc_stubs: 0x3be0
+-  __DATA_CONST.__got: 0xac8
+-  __DATA_CONST.__const: 0xa80
++  __DATA_CONST.__got: 0xad8
++  __DATA_CONST.__const: 0xa78
+   __DATA_CONST.__objc_classlist: 0x220
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0xa0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x16d8
++  __DATA_CONST.__objc_selrefs: 0x18d0
+   __DATA_CONST.__objc_protorefs: 0x28
+   __DATA_CONST.__objc_superrefs: 0x110
+   __DATA_CONST.__objc_arraydata: 0x10
+-  __AUTH_CONST.__auth_got: 0x1728
++  __AUTH_CONST.__auth_got: 0x1770
+   __AUTH_CONST.__const: 0x6cd8
+   __AUTH_CONST.__cfstring: 0x1220
+-  __AUTH_CONST.__objc_const: 0x8f08
++  __AUTH_CONST.__objc_const: 0x8560
+   __AUTH_CONST.__objc_dictobj: 0x28
+   __AUTH.__objc_data: 0x1560
+   __AUTH.__data: 0x2b60
+   __DATA.__objc_ivar: 0x254
+-  __DATA.__data: 0x20d0
++  __DATA.__data: 0x20e0
+   __DATA.__bss: 0x4020
+   __DATA.__common: 0x5e0
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftFileProvider.dylib
+   - /usr/lib/swift/libswiftIOKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 2D950564-44EB-3865-A20B-1F308A31A66C
+-  Functions: 5003
+-  Symbols:   3389
+-  CStrings:  2079
++  UUID: 46493469-5478-3085-B557-134C048151EB
++  Functions: 5214
++  Symbols:   3413
++  CStrings:  2102
+ 
+Symbols:
++ +[CHUISKeybag sharedInstance].cold.1
++ +[CHUISPreferences sharedInstance].cold.1
++ +[CHUISWidgetHostViewController _compatibilityMetrics].cold.1
++ +[_CHUISWidgetHostViewControllerCollection sharedInstance].cold.1
++ -[CHUISWidgetHostViewController initWithWidget:metrics:widgetConfigurationIdentifier:].cold.1
++ CHUISHasGlobalCaptureEntitlement.cold.1
++ CHUISLogKeybag.cold.1
++ CHUISLogViewController.cold.1
++ CHUISLogViewControllerTouch.cold.1
++ CHUISSceneWorkspace.cold.1
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ _symbolic _____yAAyAAy_____y_____yAByAByAByABy__________G_____G_____G_____G_____G_SbQo_ABy_____AHGGAByAByAByABy_____ADGAFGAHGAJGGABy_____AHGG 7SwiftUI19_ConditionalContentV AA4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA08ModifiedD0V 9WidgetKit015MetadataGraphicE0V 16ChronoUIServices22VerticalOffsetOverride33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AN010ImageScaleS0APLLV AN04FontS0APLLV AN17SymbolColorEffectAPLLV AA20_TransactionModifierV AN015RasterizedImageE0V AA5ImageV AN07AppIconE0V
++ _symbolic _____yAAy__________yACyACyACy__________G_____G_____G_____GGAAyAAyAAy_____yACyACyACyACyACy_____AEGAGGAIGAKG_____G_SbQo_ACy_____AIGGALGACy_____AIGGG 7SwiftUI19_ConditionalContentV AA9EmptyViewV AA08ModifiedD0V AA5ImageV 16ChronoUIServices22VerticalOffsetOverride33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AJ0h5ScaleM0ALLLV AJ04FontM0ALLLV AJ17SymbolColorEffectALLLV AA0F0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO 9WidgetKit015MetadataGraphicF0V AA20_TransactionModifierV AJ010RasterizedhF0V AJ07AppIconF0V
++ _symbolic _____y__________yACyACyACy__________G_____G_____G_____GG 7SwiftUI19_ConditionalContentV AA9EmptyViewV AA08ModifiedD0V AA5ImageV 16ChronoUIServices22VerticalOffsetOverride33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AJ0h5ScaleM0ALLLV AJ04FontM0ALLLV AJ17SymbolColorEffectALLLV
++ _symbolic _____y__________yACyACyACy__________G_____G_____G_____G_G 7SwiftUI19_ConditionalContentV7StorageO AA9EmptyViewV AA08ModifiedD0V AA5ImageV 16ChronoUIServices22VerticalOffsetOverride33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AL0i5ScaleN0ANLLV AL04FontN0ANLLV AL17SymbolColorEffectANLLV
++ _symbolic _____y_____yABy_____AAyAAyAAyAAy__________G_____G_____G_____GGAByAByABy_____yAAyAAyAAyAAyAAy_____AEGAGGAIGAKG_____G_SbQo_AAy_____AIGGALGAAy_____AIGGG_____G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA9EmptyViewV AA5ImageV 16ChronoUIServices22VerticalOffsetOverride33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AJ0h5ScaleM0ALLLV AJ04FontM0ALLLV AJ17SymbolColorEffectALLLV AA0G0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO 9WidgetKit015MetadataGraphicG0V AA20_TransactionModifierV AJ010RasterizedhG0V AJ07AppIconG0V AJ09AlignmentM0ALLLV
++ _symbolic _____y_____yABy_____y_____yACyACyACyACy__________G_____G_____G_____G_____G_SbQo_ACy_____AIGGACyACyACyACy_____AEGAGGAIGAKGGACy_____AIG_G 7SwiftUI19_ConditionalContentV7StorageO AC AA4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA08ModifiedD0V 9WidgetKit015MetadataGraphicF0V 16ChronoUIServices22VerticalOffsetOverride33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AP010ImageScaleT0ARLLV AP04FontT0ARLLV AP17SymbolColorEffectARLLV AA20_TransactionModifierV AP015RasterizedImageF0V AA5ImageV AP07AppIconF0V
++ _symbolic _____y_____y__________yADyADyADy__________G_____G_____G_____GGAByAByABy_____yADyADyADyADyADy_____AFGAHGAJGALG_____G_SbQo_ADy_____AJGGAMGADy_____AJGG_G 7SwiftUI19_ConditionalContentV7StorageO AC AA9EmptyViewV AA08ModifiedD0V AA5ImageV 16ChronoUIServices22VerticalOffsetOverride33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AL0i5ScaleN0ANLLV AL04FontN0ANLLV AL17SymbolColorEffectANLLV AA0G0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO 9WidgetKit015MetadataGraphicG0V AA20_TransactionModifierV AL010RasterizediG0V AL07AppIconG0V
++ get_witness_table 7SwiftUI15ModifiedContentVyAA012_ConditionalD0VyAEyAA9EmptyViewVACyACyACyACyAA5ImageV16ChronoUIServices22VerticalOffsetOverride33_9F33113B44FE0FFD4EB13F27DDC4994ELLVGAJ0h5ScaleM0ALLLVGAJ04FontM0ALLLVGAJ17SymbolColorEffectALLLVGGAEyAEyAEyAA0G0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyACyACyACyACyACy9WidgetKit015MetadataGraphicG0VAMGAPGASGAVGAA20_TransactionModifierVG_SbQo_ACyAJ010RasterizedhG0VASGGAWGACyAJ07AppIconG0VASGGGAJ09AlignmentM0ALLLVGAaYHPA22_AaYHPAxaYHPAgaYHPyHC_AwaYHPAtaYHPAqaYHPAnaYHPAiaYHPyHC_AmA0G8ModifierHPyHCHC_ApAA26_HPyHCHC_AsAA26_HPyHCHC_AvAA26_HPyHCHCHC_A21_AaYHPA17_AaYHPA16_AaYHPqd0__AaYHD3_A12_HO_A15_AaYHPA14_AaYHPyHC_AsAA26_HPyHCHCHC_AwaYHPAtaYHPAqaYHPAnaYHPAiaYHPyHC_AmAA26_HPyHCHC_ApAA26_HPyHCHC_AsAA26_HPyHCHC_AvAA26_HPyHCHCHC_A20_AaYHPA19_AaYHPyHC_AsAA26_HPyHCHCHCHC_A24_AAA26_HPyHCHC.54
++ get_witness_table 7SwiftUI19_ConditionalContentVyACyAA9EmptyViewVAA08ModifiedD0VyAGyAGyAGyAA5ImageV16ChronoUIServices22VerticalOffsetOverride33_9F33113B44FE0FFD4EB13F27DDC4994ELLVGAJ0h5ScaleM0ALLLVGAJ04FontM0ALLLVGAJ17SymbolColorEffectALLLVGGACyACyACyAA0F0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAGyAGyAGyAGyAGy9WidgetKit015MetadataGraphicF0VAMGAPGASGAVGAA20_TransactionModifierVG_SbQo_AGyAJ010RasterizedhF0VASGGAWGAGyAJ07AppIconF0VASGGGAaYHPAxaYHPAeaYHPyHC_AwaYHPAtaYHPAqaYHPAnaYHPAiaYHPyHC_AmA0F8ModifierHPyHCHC_ApAA23_HPyHCHC_AsAA23_HPyHCHC_AvAA23_HPyHCHCHC_A21_AaYHPA17_AaYHPA16_AaYHPqd0__AaYHD3_A12_HO_A15_AaYHPA14_AaYHPyHC_AsAA23_HPyHCHCHC_AwaYHPAtaYHPAqaYHPAnaYHPAiaYHPyHC_AmAA23_HPyHCHC_ApAA23_HPyHCHC_AsAA23_HPyHCHC_AvAA23_HPyHCHCHC_A20_AaYHPA19_AaYHPyHC_AsAA23_HPyHCHCHCHC.55
+- _OUTLINED_FUNCTION_9
+- __swift_FORCE_LOAD_$_swiftFileProvider
+- __swift_FORCE_LOAD_$_swiftFileProvider_$_ChronoUIServices
+- _symbolic _____yAAy_____AAyAAy_____y_____yACyACyACyACy__________G_____G_____G_____G_____G_SbQo_ACy_____AIGGACyACyACyACy_____AEGAGGAIGAKGGGACy_____AIGG 7SwiftUI19_ConditionalContentV AA9EmptyViewV AA0F0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA08ModifiedD0V 9WidgetKit015MetadataGraphicF0V 16ChronoUIServices22VerticalOffsetOverride33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AP010ImageScaleT0ARLLV AP04FontT0ARLLV AP17SymbolColorEffectARLLV AA20_TransactionModifierV AP015RasterizedImageF0V AA5ImageV AP07AppIconF0V
+- _symbolic _____y_____AAyAAy_____y_____yACyACyACyACy__________G_____G_____G_____G_____G_SbQo_ACy_____AIGGACyACyACyACy_____AEGAGGAIGAKGGG 7SwiftUI19_ConditionalContentV AA9EmptyViewV AA0F0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA08ModifiedD0V 9WidgetKit015MetadataGraphicF0V 16ChronoUIServices22VerticalOffsetOverride33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AP010ImageScaleT0ARLLV AP04FontT0ARLLV AP17SymbolColorEffectARLLV AA20_TransactionModifierV AP015RasterizedImageF0V AA5ImageV
+- _symbolic _____y__________yACy_____y_____yADyADyADyADy__________G_____G_____G_____G_____G_SbQo_ADy_____AJGGADyADyADyADy_____AFGAHGAJGALGG_G 7SwiftUI19_ConditionalContentV7StorageO AA9EmptyViewV AC AA0G0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA08ModifiedD0V 9WidgetKit015MetadataGraphicG0V 16ChronoUIServices22VerticalOffsetOverride33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AR010ImageScaleU0ATLLV AR04FontU0ATLLV AR17SymbolColorEffectATLLV AA20_TransactionModifierV AR015RasterizedImageG0V AA5ImageV
+- _symbolic _____y_____yABy_____AByABy_____yAAyAAyAAyAAyAAy__________G_____G_____G_____G_____G_SbQo_AAy_____AIGGAAyAAyAAyAAy_____AEGAGGAIGAKGGGAAy_____AIGG_____G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA9EmptyViewV AA0G0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO 9WidgetKit015MetadataGraphicG0V 16ChronoUIServices22VerticalOffsetOverride33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AP010ImageScaleT0ARLLV AP04FontT0ARLLV AP17SymbolColorEffectARLLV AA20_TransactionModifierV AP015RasterizedImageG0V AA5ImageV AP07AppIconG0V AP09AlignmentT0ARLLV
+- _symbolic _____y_____y_____AByABy_____y_____yADyADyADyADy__________G_____G_____G_____G_____G_SbQo_ADy_____AJGGADyADyADyADy_____AFGAHGAJGALGGGADy_____AJG_G 7SwiftUI19_ConditionalContentV7StorageO AC AA9EmptyViewV AA0G0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA08ModifiedD0V 9WidgetKit015MetadataGraphicG0V 16ChronoUIServices22VerticalOffsetOverride33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AR010ImageScaleU0ATLLV AR04FontU0ATLLV AR17SymbolColorEffectATLLV AA20_TransactionModifierV AR015RasterizedImageG0V AA5ImageV AR07AppIconG0V
+- get_witness_table 7SwiftUI15ModifiedContentVyAA012_ConditionalD0VyAEyAA9EmptyViewVAEyAEyAA0G0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyACyACyACyACyACy9WidgetKit015MetadataGraphicG0V16ChronoUIServices22VerticalOffsetOverride33_9F33113B44FE0FFD4EB13F27DDC4994ELLVGAP010ImageScaleT0ARLLVGAP04FontT0ARLLVGAP17SymbolColorEffectARLLVGAA20_TransactionModifierVG_SbQo_ACyAP015RasterizedImageG0VAYGGACyACyACyACyAA5ImageVASGAVGAYGA0_GGGACyAP07AppIconG0VAYGGAP09AlignmentT0ARLLVGAaHHPA21_AaHHPA17_AaHHPAgaHHPyHC_A16_AaHHPA9_AaHHPqd0__AaHHD3_A5_HO_A8_AaHHPA7_AaHHPyHC_AyA0G8ModifierHPyHCHCHC_A15_AaHHPA14_AaHHPA13_AaHHPA12_AaHHPA11_AaHHPyHC_AsAA25_HPyHCHC_AvAA25_HPyHCHC_AyAA25_HPyHCHC_A0_AAA25_HPyHCHCHCHC_A20_AaHHPA19_AaHHPyHC_AyAA25_HPyHCHCHC_A23_AAA25_HPyHCHC.54
+- get_witness_table 7SwiftUI19_ConditionalContentVyACyAA9EmptyViewVACyACyAA0F0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAA08ModifiedD0VyALyALyALyALy9WidgetKit015MetadataGraphicF0V16ChronoUIServices22VerticalOffsetOverride33_9F33113B44FE0FFD4EB13F27DDC4994ELLVGAP010ImageScaleT0ARLLVGAP04FontT0ARLLVGAP17SymbolColorEffectARLLVGAA20_TransactionModifierVG_SbQo_ALyAP015RasterizedImageF0VAYGGALyALyALyALyAA5ImageVASGAVGAYGA0_GGGALyAP07AppIconF0VAYGGAaFHPA17_AaFHPAeaFHPyHC_A16_AaFHPA9_AaFHPqd0__AaFHD3_A5_HO_A8_AaFHPA7_AaFHPyHC_AyA0F8ModifierHPyHCHCHC_A15_AaFHPA14_AaFHPA13_AaFHPA12_AaFHPA11_AaFHPyHC_AsAA22_HPyHCHC_AvAA22_HPyHCHC_AyAA22_HPyHCHC_A0_AAA22_HPyHCHCHCHC_A20_AaFHPA19_AaFHPyHC_AyAA22_HPyHCHCHC.55
+CStrings:
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Binaries/Chrono_UI_iosmac/install/Symbols/BuiltProducts/ChronoUIServices.framework/Headers/CHUISControlInstance.h"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Binaries/Chrono_UI_iosmac/install/Symbols/BuiltProducts/ChronoUIServices.framework/Headers/CHUISControlInstanceButton.h"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Binaries/Chrono_UI_iosmac/install/Symbols/BuiltProducts/ChronoUIServices.framework/Headers/CHUISControlInstancePicker.h"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/Chrono_UI_iosmac/ChronoUIServices/CHUISControlInstanceConfiguration.swift"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/Chrono_UI_iosmac/ChronoUIServices/ControlArchiveServiceStore.swift"
++ "Insufficient space allocated to copy string contents"
++ "String index is out of bounds"
++ "Swift/ContiguousArrayBuffer.swift"
++ "Swift/StringTesting.swift"
++ "Swift/StringUTF8View.swift"
++ "Swift/UnsafeRawBufferPointer.swift"
++ "Swift/UnsafeRawPointer.swift"
++ "UnsafeMutableBufferPointer with negative count"
++ "UnsafeMutablePointer.initialize overlapping range"
++ "UnsafeMutablePointer.initialize with negative count"
++ "UnsafeMutablePointer.moveInitialize with negative count"
++ "UnsafeMutableRawBufferPointer with negative count"
++ "UnsafeMutableRawPointer.initializeMemory overlapping range"
++ "UnsafeMutableRawPointer.initializeMemory with negative count"
++ "UnsafeRawBufferPointer with negative count"
++ "_systemImageNamed:"
++ "init()"
++ "init(control:)"
++ "invalid Collection: less than 'count' elements in collection"
++ "invalid Collection: more than 'count' elements in collection"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/Chrono_UI_iosmac/ChronoUIServices/CHUISControlInstanceConfiguration.swift"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/Chrono_UI_iosmac/ChronoUIServices/ControlArchiveServiceStore.swift"
+
+```

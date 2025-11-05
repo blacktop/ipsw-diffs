@@ -1,0 +1,95 @@
+## com.apple.driver.SoftRAID
+
+> `com.apple.driver.SoftRAID`
+
+```diff
+
+-49.0.0.0.0
+-  __TEXT.__const: 0xa0
+-  __TEXT.__cstring: 0x27d0
+-  __TEXT_EXEC.__text: 0x35a14
++50.0.0.0.0
++  __TEXT.__const: 0x1c8
++  __TEXT.__cstring: 0x26e1
++  __TEXT_EXEC.__text: 0x365e0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x7a0
+
+   __DATA_CONST.__got: 0xd0
+   __DATA_CONST.__mod_init_func: 0xe8
+   __DATA_CONST.__mod_term_func: 0xe8
+-  __DATA_CONST.__const: 0xb6f8
++  __DATA_CONST.__const: 0xb6f0
+   __DATA_CONST.__kalloc_var: 0x1bd0
+   __DATA_CONST.__kalloc_type: 0xc00
+-  UUID: 7E385D62-82EF-32B5-A5F9-D11B5735F424
+-  Functions: 1751
+-  Symbols:   2784
+-  CStrings:  308
++  UUID: 9CF6142D-E5F8-32CB-BB83-9AD7C3E88D04
++  Functions: 1727
++  Symbols:   2779
++  CStrings:  302
+ 
+Symbols:
++ __ZN41com_softraid_driver_SoftRAID_VolumeRAID1026GetStripeUnitTypeAndOffsetEyjPy
++ __ZZN35com_softraid_driver_SoftRAID_Volume11UnmapStripeEP9IOServiceP15IOStorageExtentjjE21kalloc_type_view_4612
++ __ZZN35com_softraid_driver_SoftRAID_Volume11UnmapStripeEP9IOServiceP15IOStorageExtentjjE21kalloc_type_view_4839
++ __ZZN35com_softraid_driver_SoftRAID_Volume15UpdateStatusRecEyE21kalloc_type_view_2728
++ __ZZN35com_softraid_driver_SoftRAID_Volume15UpdateStatusRecEyE21kalloc_type_view_2734
++ __ZZN35com_softraid_driver_SoftRAID_Volume15UpdateStatusRecEyE21kalloc_type_view_2788
++ __ZZN35com_softraid_driver_SoftRAID_Volume15UpdateStatusRecEyE21kalloc_type_view_2793
++ __ZZN35com_softraid_driver_SoftRAID_Volume18RemoveVolumeClientEP9IOServiceE21kalloc_type_view_3825
++ __ZZN35com_softraid_driver_SoftRAID_Volume18RemoveVolumeClientEP9IOServiceE21kalloc_type_view_3840
++ __ZZN35com_softraid_driver_SoftRAID_Volume19PostAddVolumeClientEP9IOServicejE21kalloc_type_view_3766
++ __ZZN35com_softraid_driver_SoftRAID_Volume19PostAddVolumeClientEP9IOServicejE21kalloc_type_view_3779
++ __ZZN35com_softraid_driver_SoftRAID_Volume5unmapEP9IOServiceP15IOStorageExtentjjE21kalloc_type_view_2187
++ __ZZN35com_softraid_driver_SoftRAID_Volume5unmapEP9IOServiceP15IOStorageExtentjjE21kalloc_type_view_2210
++ __ZZN42com_softraid_driver_SoftRAID_RebuildEngine16CreateRebuildRecEvE21kalloc_type_view_2653
++ __ZZN42com_softraid_driver_SoftRAID_RebuildEngine16DeleteRebuildRecEP10RebuildRecE21kalloc_type_view_2695
++ __ZZN42com_softraid_driver_SoftRAID_RebuildEngine25IncrementRebuildArraySizeEvE21kalloc_type_view_3062
++ __ZZN42com_softraid_driver_SoftRAID_RebuildEngine25IncrementRebuildArraySizeEvE21kalloc_type_view_3070
++ __ZZN46com_softraid_driver_SoftRAID_DirtyBlockManager26RemoveDirtyBlockRecAtIndexEjE21kalloc_type_view_2625
++ __ZZN46com_softraid_driver_SoftRAID_DirtyBlockManager31IncrementDirtyBlockRecArraySizeEvE21kalloc_type_view_2595
++ __ZZN46com_softraid_driver_SoftRAID_DirtyBlockManager31IncrementDirtyBlockRecArraySizeEvE21kalloc_type_view_2603
+- _ZN35com_softraid_driver_SoftRAID_Volume11UnmapStripeEP9IOServiceP15IOStorageExtentjj.cold.1
+- _ZN35com_softraid_driver_SoftRAID_Volume37AddPartialStripeToExtentsForProvidersEP15IOStorageExtentPjPS1_.cold.1
+- _ZN40com_softraid_driver_SoftRAID_RAID_Engine21ExecuteMapInstructionEP11RAID_IO_Recb.cold.1
+- _ZN40com_softraid_driver_SoftRAID_RAID_Engine21ExecuteMapInstructionEP11RAID_IO_Recb.cold.2
+- _ZN44com_softraid_driver_SoftRAID_WA_CacheManager22StoreCacheToIORegistryEv.cold.1
+- __ZN35com_softraid_driver_SoftRAID_Volume17DumpExtentRecordsEP15IOStorageExtentj
+- __ZZN35com_softraid_driver_SoftRAID_Volume11UnmapStripeEP9IOServiceP15IOStorageExtentjjE21kalloc_type_view_4636
+- __ZZN35com_softraid_driver_SoftRAID_Volume11UnmapStripeEP9IOServiceP15IOStorageExtentjjE21kalloc_type_view_4824
+- __ZZN35com_softraid_driver_SoftRAID_Volume15UpdateStatusRecEyE21kalloc_type_view_2727
+- __ZZN35com_softraid_driver_SoftRAID_Volume15UpdateStatusRecEyE21kalloc_type_view_2733
+- __ZZN35com_softraid_driver_SoftRAID_Volume15UpdateStatusRecEyE21kalloc_type_view_2787
+- __ZZN35com_softraid_driver_SoftRAID_Volume15UpdateStatusRecEyE21kalloc_type_view_2792
+- __ZZN35com_softraid_driver_SoftRAID_Volume18RemoveVolumeClientEP9IOServiceE21kalloc_type_view_3827
+- __ZZN35com_softraid_driver_SoftRAID_Volume18RemoveVolumeClientEP9IOServiceE21kalloc_type_view_3842
+- __ZZN35com_softraid_driver_SoftRAID_Volume19PostAddVolumeClientEP9IOServicejE21kalloc_type_view_3768
+- __ZZN35com_softraid_driver_SoftRAID_Volume19PostAddVolumeClientEP9IOServicejE21kalloc_type_view_3781
+- __ZZN35com_softraid_driver_SoftRAID_Volume5unmapEP9IOServiceP15IOStorageExtentjjE21kalloc_type_view_2185
+- __ZZN35com_softraid_driver_SoftRAID_Volume5unmapEP9IOServiceP15IOStorageExtentjjE21kalloc_type_view_2208
+- __ZZN42com_softraid_driver_SoftRAID_RebuildEngine16CreateRebuildRecEvE21kalloc_type_view_2654
+- __ZZN42com_softraid_driver_SoftRAID_RebuildEngine16DeleteRebuildRecEP10RebuildRecE21kalloc_type_view_2696
+- __ZZN42com_softraid_driver_SoftRAID_RebuildEngine25IncrementRebuildArraySizeEvE21kalloc_type_view_3063
+- __ZZN42com_softraid_driver_SoftRAID_RebuildEngine25IncrementRebuildArraySizeEvE21kalloc_type_view_3071
+- __ZZN46com_softraid_driver_SoftRAID_DirtyBlockManager26RemoveDirtyBlockRecAtIndexEjE21kalloc_type_view_2610
+- __ZZN46com_softraid_driver_SoftRAID_DirtyBlockManager31IncrementDirtyBlockRecArraySizeEvE21kalloc_type_view_2580
+- __ZZN46com_softraid_driver_SoftRAID_DirtyBlockManager31IncrementDirtyBlockRecArraySizeEvE21kalloc_type_view_2588
+CStrings:
++ "21:13:21"
++ "8.5"
++ "Mar 19 2025"
+- "\"%s\" @%s:%d"
+- "\"ExecuteMapInstruction - Invalid buffer address\" @%s:%d"
+- "\"ExecuteMapInstruction - Invalid memory map\" @%s:%d"
+- "20:15:10"
+- "8.3"
+- "Jan  2 2025"
+- "Math error adding extents in AddPartialStripeToExtentsForProviders"
+- "Math error adding extents in UnmapStripe"
+- "Volume.cpp"
+
+```

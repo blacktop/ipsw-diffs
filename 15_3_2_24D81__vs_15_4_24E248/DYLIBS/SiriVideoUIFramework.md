@@ -1,0 +1,123 @@
+## SiriVideoUIFramework
+
+> `/System/Library/PrivateFrameworks/SiriVideoUIFramework.framework/Versions/A/SiriVideoUIFramework`
+
+```diff
+
+-3402.37.1.0.0
+-  __TEXT.__text: 0x10ccc
+-  __TEXT.__auth_stubs: 0x920
+-  __TEXT.__const: 0x506
++3404.17.1.0.0
++  __TEXT.__text: 0xed70
++  __TEXT.__auth_stubs: 0x930
++  __TEXT.__const: 0x406
+   __TEXT.__cstring: 0x55
+-  __TEXT.__swift5_typeref: 0x9e4
+-  __TEXT.__swift5_capture: 0x108
+-  __TEXT.__swift5_reflstr: 0xc0
+-  __TEXT.__swift5_assocty: 0xc0
+-  __TEXT.__constg_swiftt: 0x2a8
+-  __TEXT.__swift5_fieldmd: 0x144
+-  __TEXT.__swift5_proto: 0x20
+-  __TEXT.__swift5_types: 0x24
+-  __TEXT.__unwind_info: 0x3b0
++  __TEXT.__swift5_typeref: 0x888
++  __TEXT.__swift5_capture: 0xfc
++  __TEXT.__swift5_reflstr: 0xa4
++  __TEXT.__swift5_assocty: 0x90
++  __TEXT.__constg_swiftt: 0x208
++  __TEXT.__swift5_fieldmd: 0x10c
++  __TEXT.__swift5_proto: 0x18
++  __TEXT.__swift5_types: 0x1c
++  __TEXT.__unwind_info: 0x348
+   __TEXT.__eh_frame: 0x48
+   __TEXT.__objc_methname: 0x124
+-  __DATA_CONST.__got: 0x2b0
++  __DATA_CONST.__got: 0x2b8
+   __DATA_CONST.__const: 0x128
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x60
+-  __AUTH_CONST.__auth_got: 0x490
+-  __AUTH_CONST.__const: 0x2a0
+-  __AUTH.__data: 0x408
+-  __DATA.__data: 0x4b8
+-  __DATA.__bss: 0x400
++  __AUTH_CONST.__auth_got: 0x498
++  __AUTH_CONST.__const: 0x278
++  __AUTH.__data: 0x310
++  __DATA.__data: 0x450
++  __DATA.__bss: 0x300
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+   - /System/Library/PrivateFrameworks/SiriVideoIntents.framework/Versions/A/SiriVideoIntents
+
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftCryptoTokenKit.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
++  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftFileProvider.dylib
+   - /usr/lib/swift/libswiftIOKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMapKit.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: FD3E8DE5-20D4-3056-8980-5D9CA37FC6A1
+-  Functions: 300
+-  Symbols:   286
++  UUID: 3DC7B9AD-663B-369E-AA32-FA0806801509
++  Functions: 260
++  Symbols:   271
+   CStrings:  15
+ 
+Symbols:
++ _OUTLINED_FUNCTION_9
++ ___swift_allocate_boxed_opaque_existential_1
++ ___swift_destroy_boxed_opaque_existential_1
++ ___swift_project_boxed_opaque_existential_1
++ __swift_FORCE_LOAD_$_swiftDataDetection
++ __swift_FORCE_LOAD_$_swiftDataDetection_$_SiriVideoUIFramework
++ _memcpy
++ _swift_allocBox
++ _symbolic _____ 16SiriVideoIntents0B10DataModelsO11PersonModelV
++ _symbolic _____Iegn_ 10SnippetKit14ActionPropertyV
++ _symbolic _____Sg 16SiriVideoIntents0B10DataModelsO11PersonModelV
++ _symbolic _____Sg______ySay_____GSSSg_____Gt 7SwiftUI7AnyViewV AA7ForEachV 16SiriVideoIntents0H10DataModelsO0H6ResultV 0gH11UIFrameworkAIV
++ _symbolic ______pSg 7SwiftUI4ViewP
++ _symbolic _____y_____G 7SwiftUI17EnvironmentObjectV 07SnippetB07ContextC
++ _symbolic _____y_____SgG 10SnippetKit8LoggableV 16SiriVideoIntents0E10DataModelsO11PersonModelV
++ _symbolic _____y_____Sg______ySay_____GSSSg_____GtG 7SwiftUI9TupleViewV AA03AnyD0V AA7ForEachV 16SiriVideoIntents0I10DataModelsO0I6ResultV 0hI11UIFrameworkAKV
++ _symbolic _____y_____y_____Sg______ySay_____GSSSg_____GtGG 9SnippetUI14ComponentStackV 05SwiftB09TupleViewV AD03AnyG0V AD7ForEachV 16SiriVideoIntents0L10DataModelsO0L6ResultV 0kL11UIFrameworkANV
++ _symbolic _____y_____y_____y_____Sg______ySay_____GSSSg_____GtGG_Qo_ 7SwiftUI4ViewP07SnippetB0E17setHostBackgroundyQrAD0fG0OSgFQO AD14ComponentStackV AA05TupleC0V AA03AnyC0V AA7ForEachV 16SiriVideoIntents0O10DataModelsO0O6ResultV 0nO11UIFrameworkATV
++ _symbolic _____y_____y_____y_____y_____Sg______ySay_____GSSSg_____GtGG_Qo__Qo_ 7SwiftUI4ViewPAAE16privacySensitiveyQrSbFQO AC07SnippetB0E17setHostBackgroundyQrAE0hI0OSgFQO AE14ComponentStackV AA05TupleC0V AA03AnyC0V AA7ForEachV 16SiriVideoIntents0Q10DataModelsO0Q6ResultV 0pQ11UIFrameworkAUV
++ get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE16privacySensitiveyQrSbFQOyAC07SnippetB0E17setHostBackgroundyQrAE0hI0OSgFQOyAE14ComponentStackVyAA05TupleC0VyAA03AnyC0VSg_AA7ForEachVySay16SiriVideoIntents0Q10DataModelsO0Q6ResultVGSSSg0pQ11UIFrameworkAVVGtGG_Qo__Qo_HO.12
+- __swift_FORCE_LOAD_$_swiftFileProvider
+- __swift_FORCE_LOAD_$_swiftFileProvider_$_SiriVideoUIFramework
+- _associated conformance 20SiriVideoUIFramework06PersonB12FactListViewV7SwiftUI0G0AA4BodyAdEP_AdE
+- _associated conformance 20SiriVideoUIFramework16FilteredListViewV7SwiftUI0F0AA4BodyAdEP_AdE
+- _symbolic _____ 16SiriVideoIntents0B10DataModelsO06PersonB13FactListModelV
+- _symbolic _____ 16SiriVideoIntents0B10DataModelsO17FilteredListModelV
+- _symbolic _____ 20SiriVideoUIFramework06PersonB12FactListViewV
+- _symbolic _____ 20SiriVideoUIFramework16FilteredListViewV
+- _symbolic _____y______Qo_Sg 7SwiftUI4ViewP07SnippetB0E10imageStyleyQr0D3Kit12ImageElementV0hF0OFQO AD07RFImageC0V
+- _symbolic _____y__________G______t 7SwiftUI15ModifiedContentV 07SnippetB025PrimaryHeaderStandardViewV AA31AccessibilityAttachmentModifierV 20SiriVideoUIFramework11ResultsListV
+- _symbolic _____y_____ySay_____GSSSg_____GG 9SnippetUI14ComponentStackV 05SwiftB07ForEachV 16SiriVideoIntents0I10DataModelsO0I6ResultV 0hI11UIFrameworkAJV
+- _symbolic _____y_____y______Qo______G______t 7SwiftUI15ModifiedContentV AA4ViewP07SnippetB0E15componentTapped12isNavigation7performQrSb_yyctFQO AF019SummaryItemStandardE0V AA31AccessibilityAttachmentModifierV 20SiriVideoUIFramework11ResultsListV
+- _symbolic _____y_____y__________G______tG 7SwiftUI9TupleViewV AA15ModifiedContentV 07SnippetB0021PrimaryHeaderStandardD0V AA31AccessibilityAttachmentModifierV 20SiriVideoUIFramework11ResultsListV
+- _symbolic _____y_____y_____ySay_____GSSSg_____GG_Qo_ 7SwiftUI4ViewP07SnippetB0E17setHostBackgroundyQrAD0fG0OSgFQO AD14ComponentStackV AA7ForEachV 16SiriVideoIntents0M10DataModelsO0M6ResultV 0lM11UIFrameworkAPV
+- _symbolic _____y_____y_____y______Qo______G______tG 7SwiftUI9TupleViewV AA15ModifiedContentV AA0D0P07SnippetB0E15componentTapped12isNavigation7performQrSb_yyctFQO AH019SummaryItemStandardD0V AA31AccessibilityAttachmentModifierV 20SiriVideoUIFramework11ResultsListV
+- _symbolic _____y_____y_____y__________G______tGG 9SnippetUI14ComponentStackV 05SwiftB09TupleViewV AD15ModifiedContentV AA021PrimaryHeaderStandardG0V AD31AccessibilityAttachmentModifierV 20SiriVideoUIFramework11ResultsListV
+- _symbolic _____y_____y_____y_____ySay_____GSSSg_____GG_Qo__Qo_ 7SwiftUI4ViewPAAE16privacySensitiveyQrSbFQO AC07SnippetB0E17setHostBackgroundyQrAE0hI0OSgFQO AE14ComponentStackV AA7ForEachV 16SiriVideoIntents0O10DataModelsO0O6ResultV 0nO11UIFrameworkAQV
+- _symbolic _____y_____y_____y_____y______Qo______G______tGG 9SnippetUI14ComponentStackV 05SwiftB09TupleViewV AD15ModifiedContentV AD0G0PAAE15componentTapped12isNavigation7performQrSb_yyctFQO AA019SummaryItemStandardG0V AD31AccessibilityAttachmentModifierV 20SiriVideoUIFramework11ResultsListV
+- _symbolic _____y_____y_____y_____y__________G______tGG_Qo_ 7SwiftUI4ViewP07SnippetB0E17setHostBackgroundyQrAD0fG0OSgFQO AD14ComponentStackV AA05TupleC0V AA15ModifiedContentV AD021PrimaryHeaderStandardC0V AA31AccessibilityAttachmentModifierV 20SiriVideoUIFramework11ResultsListV
+- _symbolic _____y_____y_____y_____y_____y______Qo______G______tGG_Qo_ 7SwiftUI4ViewP07SnippetB0E17setHostBackgroundyQrAD0fG0OSgFQO AD14ComponentStackV AA05TupleC0V AA15ModifiedContentV AcDE15componentTapped12isNavigation7performQrSb_yyctFQO AD019SummaryItemStandardC0V AA31AccessibilityAttachmentModifierV 20SiriVideoUIFramework11ResultsListV
+- _symbolic _____y_____y_____y_____y_____y__________G______tGG_Qo__Qo_ 7SwiftUI4ViewPAAE16privacySensitiveyQrSbFQO AC07SnippetB0E17setHostBackgroundyQrAE0hI0OSgFQO AE14ComponentStackV AA05TupleC0V AA15ModifiedContentV AE021PrimaryHeaderStandardC0V AA31AccessibilityAttachmentModifierV 20SiriVideoUIFramework11ResultsListV
+- _symbolic _____y_____y_____y_____y_____y_____y______Qo______G______tGG_Qo__Qo_ 7SwiftUI4ViewPAAE16privacySensitiveyQrSbFQO AC07SnippetB0E17setHostBackgroundyQrAE0hI0OSgFQO AE14ComponentStackV AA05TupleC0V AA15ModifiedContentV AcEE15componentTapped12isNavigation7performQrSb_yyctFQO AE019SummaryItemStandardC0V AA31AccessibilityAttachmentModifierV 20SiriVideoUIFramework11ResultsListV
+- get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE16privacySensitiveyQrSbFQOyAC07SnippetB0E17setHostBackgroundyQrAE0hI0OSgFQOyAE14ComponentStackVyAA05TupleC0VyAA15ModifiedContentVyAE021PrimaryHeaderStandardC0VAA31AccessibilityAttachmentModifierVG_20SiriVideoUIFramework11ResultsListVtGG_Qo__Qo_HO.4
+- get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE16privacySensitiveyQrSbFQOyAC07SnippetB0E17setHostBackgroundyQrAE0hI0OSgFQOyAE14ComponentStackVyAA05TupleC0VyAA15ModifiedContentVyAcEE15componentTapped12isNavigation7performQrSb_yyctFQOyAE019SummaryItemStandardC0V_Qo_AA31AccessibilityAttachmentModifierVG_20SiriVideoUIFramework11ResultsListVtGG_Qo__Qo_HO.9
+- get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE16privacySensitiveyQrSbFQOyAC07SnippetB0E17setHostBackgroundyQrAE0hI0OSgFQOyAE14ComponentStackVyAA7ForEachVySay16SiriVideoIntents0O10DataModelsO0O6ResultVGSSSg0nO11UIFrameworkAQVGG_Qo__Qo_HO.4
+
+```

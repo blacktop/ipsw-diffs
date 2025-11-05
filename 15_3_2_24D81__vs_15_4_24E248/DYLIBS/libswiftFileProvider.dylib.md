@@ -1,0 +1,607 @@
+## libswiftFileProvider.dylib
+
+> `/usr/lib/swift/libswiftFileProvider.dylib`
+
+```diff
+
+-2732.81.1.0.0
+-  __TEXT.__text: 0x7088
+-  __TEXT.__auth_stubs: 0x440
+-  __TEXT.__const: 0x5fa
+-  __TEXT.__swift5_typeref: 0x1d4
+-  __TEXT.__swift5_capture: 0x24
+-  __TEXT.__cstring: 0x235
+-  __TEXT.__swift5_reflstr: 0xe6
+-  __TEXT.__swift5_assocty: 0xd8
+-  __TEXT.__constg_swiftt: 0x1a0
+-  __TEXT.__swift5_fieldmd: 0x17c
+-  __TEXT.__swift5_builtin: 0x3c
+-  __TEXT.__swift5_proto: 0x38
+-  __TEXT.__swift5_types: 0x20
+-  __TEXT.__unwind_info: 0x1e8
+-  __TEXT.__eh_frame: 0x198
+-  __TEXT.__objc_methname: 0xad
+-  __DATA_CONST.__got: 0x88
+-  __DATA_CONST.__const: 0xc0
+-  __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x20
+-  __AUTH_CONST.__auth_got: 0x220
+-  __AUTH_CONST.__const: 0x388
+-  __AUTH_CONST.__objc_const: 0x28
+-  __DATA.__data: 0xb8
+-  __DATA.__bss: 0x880
+-  __DATA.__common: 0x1
+-  - /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
++2882.101.2.0.0
++  __TEXT.__text: 0x0
+   - /System/Library/Frameworks/FileProvider.framework/Versions/A/FileProvider
+-  - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /usr/lib/libSystem.B.dylib
+-  - /usr/lib/libobjc.A.dylib
+-  - /usr/lib/swift/libswiftCore.dylib
+-  - /usr/lib/swift/libswiftCoreFoundation.dylib
+-  - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftIOKit.dylib
+-  - /usr/lib/swift/libswiftObjectiveC.dylib
+-  - /usr/lib/swift/libswiftXPC.dylib
+-  - /usr/lib/swift/libswift_Builtin_float.dylib
+-  - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
+-  - /usr/lib/swift/libswiftos.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 99165EE5-5BB7-3C5C-9ED7-03944E9510C5
+-  Functions: 193
+-  Symbols:   517
+-  CStrings:  20
++  UUID: DA613E1F-B32E-33B4-9B44-6F1FE708AC9D
++  Functions: 0
++  Symbols:   0
++  CStrings:  0
+ 
+Symbols:
+- $s12FileProvider01_aB22_CSQueryExpressionFlagV13fuzzyMatchingACvMZ.resume.0
+- $s12FileProvider01_aB22_CSQueryExpressionFlagV13wildcardAtEndACvMZ.resume.0
+- $s12FileProvider01_aB22_CSQueryExpressionFlagV14fuzzyThresholdACvMZ.resume.0
+- $s12FileProvider01_aB22_CSQueryExpressionFlagV15caseInsensitiveACvMZ.resume.0
+- $s12FileProvider01_aB22_CSQueryExpressionFlagV15wildcardAtStartACvMZ.resume.0
+- $s12FileProvider01_aB22_CSQueryExpressionFlagV17wordBasedMatchingACvMZ.resume.0
+- $s12FileProvider01_aB22_CSQueryExpressionFlagV20diacriticInsensitiveACvMZ.resume.0
+- $s12FileProvider01_aB22_CSQueryExpressionFlagV21collationTypeNoSearchACvMZ.resume.0
+- $s12FileProvider01_aB22_CSQueryExpressionFlagV22attributeIsMultivaluedACvMZ.resume.0
+- _$s10Foundation10NSNotFoundSivg
+- _$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF
+- _$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF
+- _$s12FileProvider01_aB14_CSQueryParserC13ExpressionBox33_FC34056914C7E9D23F96BD9FCC873032LLC10expressionAFyx_qd__Gqd___tcfC
+- _$s12FileProvider01_aB14_CSQueryParserC13ExpressionBox33_FC34056914C7E9D23F96BD9FCC873032LLCMF
+- _$s12FileProvider01_aB14_CSQueryParserC13ExpressionBox33_FC34056914C7E9D23F96BD9FCC873032LLCMI
+- _$s12FileProvider01_aB14_CSQueryParserC13ExpressionBox33_FC34056914C7E9D23F96BD9FCC873032LLCMP
+- _$s12FileProvider01_aB14_CSQueryParserC13ExpressionBox33_FC34056914C7E9D23F96BD9FCC873032LLCMXX
+- _$s12FileProvider01_aB14_CSQueryParserC13ExpressionBox33_FC34056914C7E9D23F96BD9FCC873032LLCMa
+- _$s12FileProvider01_aB14_CSQueryParserC13ExpressionBox33_FC34056914C7E9D23F96BD9FCC873032LLCMi
+- _$s12FileProvider01_aB14_CSQueryParserC13ExpressionBox33_FC34056914C7E9D23F96BD9FCC873032LLCMn
+- _$s12FileProvider01_aB14_CSQueryParserC13ExpressionBox33_FC34056914C7E9D23F96BD9FCC873032LLCMr
+- _$s12FileProvider01_aB14_CSQueryParserC13ExpressionBox33_FC34056914C7E9D23F96BD9FCC873032LLCfD
+- _$s12FileProvider01_aB14_CSQueryParserC19parseSpotlightQuery09spotlightG08callbackqd__SS_qd__AA01_ab1_C10ExpressionOyqd__GKctKlFZ
+- _$s12FileProvider01_aB14_CSQueryParserC19parseSpotlightQuery09spotlightG08callbackqd__SS_qd__AA01_ab1_C10ExpressionOyqd__GKctKlFZSvSgs5Int32V_A3JtcfU_
+- _$s12FileProvider01_aB14_CSQueryParserC19parseSpotlightQuery09spotlightG08callbackqd__SS_qd__AA01_ab1_C10ExpressionOyqd__GKctKlFZSvSgs5Int32V_A3JtcfU_TA
+- _$s12FileProvider01_aB14_CSQueryParserC19parseSpotlightQuery09spotlightG08callbackqd__SS_qd__AA01_ab1_C10ExpressionOyqd__GKctKlFZSvSgs5Int32V_A3JtcfU_qd__yKXEfU_
+- _$s12FileProvider01_aB14_CSQueryParserC19parseSpotlightQuery09spotlightG08callbackqd__SS_qd__AA01_ab1_C10ExpressionOyqd__GKctKlFZSvSgs5Int32V_A3JtcfU_qd__yKXEfU_TA
+- _$s12FileProvider01_aB14_CSQueryParserC21createErrorFromString33_FC34056914C7E9D23F96BD9FCC873032LL05errorH0s0F0_pSS_tFZ
+- _$s12FileProvider01_aB14_CSQueryParserC29parseCStringFromUnsafePointer33_FC34056914C7E9D23F96BD9FCC873032LL7pointer11descriptionSSSVSg_SStKFZ
+- _$s12FileProvider01_aB14_CSQueryParserC41createExpressionForAttributeNameValueFlag33_FC34056914C7E9D23F96BD9FCC873032LL2k12k22k314expressionKindSS_SSAA01_ab1_cfK0VtSVSg_A2LSStKFZ
+- _$s12FileProvider01_aB14_CSQueryParserCACyxGycfCTq
+- _$s12FileProvider01_aB14_CSQueryParserCMF
+- _$s12FileProvider01_aB14_CSQueryParserCMI
+- _$s12FileProvider01_aB14_CSQueryParserCMP
+- _$s12FileProvider01_aB14_CSQueryParserCMa
+- _$s12FileProvider01_aB14_CSQueryParserCMi
+- _$s12FileProvider01_aB14_CSQueryParserCMn
+- _$s12FileProvider01_aB14_CSQueryParserCMo
+- _$s12FileProvider01_aB14_CSQueryParserCMr
+- _$s12FileProvider01_aB14_CSQueryParserCMu
+- _$s12FileProvider01_aB14_CSQueryParserCfD
+- _$s12FileProvider01_aB14_CSQueryParserCfd
+- _$s12FileProvider01_aB18_CSQueryExpressionO11greaterThanyACyxGSS_SSAA01_ab1_cD4FlagVtcAEmlFWC
+- _$s12FileProvider01_aB18_CSQueryExpressionO15lessThanOrEqualyACyxGSS_SSAA01_ab1_cD4FlagVtcAEmlFWC
+- _$s12FileProvider01_aB18_CSQueryExpressionO18greaterThanOrEqualyACyxGSS_SSAA01_ab1_cD4FlagVtcAEmlFWC
+- _$s12FileProvider01_aB18_CSQueryExpressionO2oryACyxGx_xtcAEmlFWC
+- _$s12FileProvider01_aB18_CSQueryExpressionO3andyACyxGx_xtcAEmlFWC
+- _$s12FileProvider01_aB18_CSQueryExpressionO3notyACyxGx_tcAEmlFWC
+- _$s12FileProvider01_aB18_CSQueryExpressionO5equalyACyxGSS_SSAA01_ab1_cD4FlagVtcAEmlFWC
+- _$s12FileProvider01_aB18_CSQueryExpressionO5identyACyxGSS_SSAA01_ab1_cD4FlagVtcAEmlFWC
+- _$s12FileProvider01_aB18_CSQueryExpressionO7inRangeyACyxGSS_S2StcAEmlFWC
+- _$s12FileProvider01_aB18_CSQueryExpressionO8lessThanyACyxGSS_SSAA01_ab1_cD4FlagVtcAEmlFWC
+- _$s12FileProvider01_aB18_CSQueryExpressionO8notEqualyACyxGSS_SSAA01_ab1_cD4FlagVtcAEmlFWC
+- _$s12FileProvider01_aB18_CSQueryExpressionO8notIdentyACyxGSS_SSAA01_ab1_cD4FlagVtcAEmlFWC
+- _$s12FileProvider01_aB18_CSQueryExpressionO8trueCaseyACyxGAEmlFWC
+- _$s12FileProvider01_aB18_CSQueryExpressionO9falseCaseyACyxGAEmlFWC
+- _$s12FileProvider01_aB18_CSQueryExpressionOMF
+- _$s12FileProvider01_aB18_CSQueryExpressionOMI
+- _$s12FileProvider01_aB18_CSQueryExpressionOMP
+- _$s12FileProvider01_aB18_CSQueryExpressionOMa
+- _$s12FileProvider01_aB18_CSQueryExpressionOMi
+- _$s12FileProvider01_aB18_CSQueryExpressionOMn
+- _$s12FileProvider01_aB18_CSQueryExpressionOMr
+- _$s12FileProvider01_aB18_CSQueryExpressionOWV
+- _$s12FileProvider01_aB18_CSQueryExpressionOwCP
+- _$s12FileProvider01_aB18_CSQueryExpressionOwca
+- _$s12FileProvider01_aB18_CSQueryExpressionOwcp
+- _$s12FileProvider01_aB18_CSQueryExpressionOwet
+- _$s12FileProvider01_aB18_CSQueryExpressionOwst
+- _$s12FileProvider01_aB18_CSQueryExpressionOwta
+- _$s12FileProvider01_aB18_CSQueryExpressionOwtk
+- _$s12FileProvider01_aB18_CSQueryExpressionOwug
+- _$s12FileProvider01_aB18_CSQueryExpressionOwui
+- _$s12FileProvider01_aB18_CSQueryExpressionOwup
+- _$s12FileProvider01_aB18_CSQueryExpressionOwxx
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV13fuzzyMatchingACvMZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV13fuzzyMatchingACvgZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV13fuzzyMatchingACvpZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV13fuzzyMatchingACvsZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV13wildcardAtEndACvMZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV13wildcardAtEndACvgZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV13wildcardAtEndACvpZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV13wildcardAtEndACvsZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV14fuzzyThresholdACvMZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV14fuzzyThresholdACvgZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV14fuzzyThresholdACvpZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV14fuzzyThresholdACvsZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV15caseInsensitiveACvMZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV15caseInsensitiveACvgZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV15caseInsensitiveACvpZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV15caseInsensitiveACvsZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV15wildcardAtStartACvMZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV15wildcardAtStartACvgZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV15wildcardAtStartACvpZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV15wildcardAtStartACvsZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV17wordBasedMatchingACvMZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV17wordBasedMatchingACvgZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV17wordBasedMatchingACvpZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV17wordBasedMatchingACvsZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV20diacriticInsensitiveACvMZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV20diacriticInsensitiveACvgZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV20diacriticInsensitiveACvpZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV20diacriticInsensitiveACvsZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV21collationTypeNoSearchACvMZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV21collationTypeNoSearchACvgZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV21collationTypeNoSearchACvpZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV21collationTypeNoSearchACvsZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV22attributeIsMultivaluedACvMZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV22attributeIsMultivaluedACvgZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV22attributeIsMultivaluedACvpZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV22attributeIsMultivaluedACvsZ
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV8rawValueACs6UInt32V_tcfC
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV8rawValues6UInt32Vvg
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagV8rawValues6UInt32VvpMV
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVACSQAAWL
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVACSQAAWl
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVACSYAAWL
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVACSYAAWl
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVACs10SetAlgebraAAWL
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVACs10SetAlgebraAAWl
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVACs25ExpressibleByArrayLiteralAAWL
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVACs25ExpressibleByArrayLiteralAAWl
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVMF
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVMa
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVMf
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVMn
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVN
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVSQAAMc
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVSQAAMcMK
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVSQAASQ2eeoiySbx_xtFZTW
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVSYAAMA
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVSYAAMc
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVSYAAMcMK
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVSYAASY8rawValue03RawG0QzvgTW
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVSYAASY8rawValuexSg03RawG0Qz_tcfCTW
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs10SetAlgebraAAMA
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs10SetAlgebraAAMc
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs10SetAlgebraAAMcMK
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs10SetAlgebraAASQWb
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs10SetAlgebraAAs25ExpressibleByArrayLiteralPWb
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs10SetAlgebraAAsADP10isDisjoint4withSbx_tFTW
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs10SetAlgebraAAsADP10isSuperset2ofSbx_tFTW
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs10SetAlgebraAAsADP11subtractingyxxFTW
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs10SetAlgebraAAsADP12intersectionyxxFTW
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs10SetAlgebraAAsADP16formIntersectionyyxFTW
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs10SetAlgebraAAsADP19symmetricDifferenceyxxnFTW
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs10SetAlgebraAAsADP23formSymmetricDifferenceyyxnFTW
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs10SetAlgebraAAsADP5unionyxxnFTW
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs10SetAlgebraAAsADP6insertySb8inserted_7ElementQz17memberAfterInserttAInFTW
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs10SetAlgebraAAsADP6removey7ElementQzSgAHFTW
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs10SetAlgebraAAsADP6update4with7ElementQzSgAIn_tFTW
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs10SetAlgebraAAsADP7isEmptySbvgTW
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs10SetAlgebraAAsADP8containsySb7ElementQzFTW
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs10SetAlgebraAAsADP8isSubset2ofSbx_tFTW
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs10SetAlgebraAAsADP8subtractyyxFTW
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs10SetAlgebraAAsADP9formUnionyyxnFTW
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs10SetAlgebraAAsADPxycfCTW
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs10SetAlgebraAAsADPyxqd__ncSTRd__7ElementQyd__AFRtzlufCTW
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs25ExpressibleByArrayLiteralAAMA
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs25ExpressibleByArrayLiteralAAMc
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs25ExpressibleByArrayLiteralAAMcMK
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs25ExpressibleByArrayLiteralAAsADP05arrayI0x0hI7ElementQzd_tcfCTW
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs9OptionSetAAMA
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs9OptionSetAAMc
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs9OptionSetAAMcMK
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs9OptionSetAASYWb
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs9OptionSetAAs0G7AlgebraPWb
+- _$s12FileProvider01_aB22_CSQueryExpressionFlagVs9OptionSetAAsADP8rawValuex03RawI0Qz_tcfCTW
+- _$s12FileProviderMXM
+- _$s19ArrayLiteralElements013ExpressibleByaB0PTl
+- _$s7Elements10SetAlgebraPTl
+- _$s8RawValueSYTl
+- _$sBi32_WV
+- _$sBi64_WV
+- _$sSD10FoundationE19_bridgeToObjectiveCSo12NSDictionaryCyF
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SSTgm5
+- _$sSD8IteratorV8_VariantOyS2S__GWOe
+- _$sSL1goiySbx_xtFZTq
+- _$sSL1loiySbx_xtFZTq
+- _$sSL2geoiySbx_xtFZTq
+- _$sSL2leoiySbx_xtFZTq
+- _$sSLMp
+- _$sSLSQTb
+- _$sSLsE1goiySbx_xtFZ
+- _$sSLsE2geoiySbx_xtFZ
+- _$sSLsE2leoiySbx_xtFZ
+- _$sSQ2eeoiySbx_xtFZTq
+- _$sSQMp
+- _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF
+- _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ
+- _$sSS4hash4intoys6HasherVz_tF
+- _$sSS6appendyySSF
+- _$sSS7cStringSSSPys4Int8VG_tcfC
+- _$sSSN
+- _$sSSSHsWP
+- _$sSY8rawValue03RawB0QzvgTq
+- _$sSY8rawValuexSg03RawB0Qz_tcfCTq
+- _$sSYMp
+- _$sSo10MDExprKindVMB
+- _$sSo10MDExprKindVMF
+- _$sSo10MDExprKindVML
+- _$sSo10MDExprKindVMa
+- _$sSo10MDExprKindVMf
+- _$sSo10MDExprKindVMn
+- _$sSo10MDExprKindVSQSCMc
+- _$sSo10MDExprKindVSQSCMcMK
+- _$sSo10MDExprKindVSQSCSQ2eeoiySbx_xtFZTW
+- _$sSo10MDExprKindVSYSCMA
+- _$sSo10MDExprKindVSYSCMc
+- _$sSo10MDExprKindVSYSCMcMK
+- _$sSo10MDExprKindVSYSCSY8rawValue03RawD0QzvgTW
+- _$sSo10MDExprKindVSYSCSY8rawValuexSg03RawD0Qz_tcfCTW
+- _$sSo15MDExprErrorKindVMB
+- _$sSo15MDExprErrorKindVMF
+- _$sSo15MDExprErrorKindVML
+- _$sSo15MDExprErrorKindVMa
+- _$sSo15MDExprErrorKindVMf
+- _$sSo15MDExprErrorKindVMn
+- _$sSo21NSFileProviderManagerC04FileB0E17EligibilityResultO10ineligibleyAESo0aB23VolumeUnsupportedReasonVcAEmFWC
+- _$sSo21NSFileProviderManagerC04FileB0E17EligibilityResultO2eeoiySbAE_AEtFZ
+- _$sSo21NSFileProviderManagerC04FileB0E17EligibilityResultO8eligibleyA2EmFWC
+- _$sSo21NSFileProviderManagerC04FileB0E17EligibilityResultOMF
+- _$sSo21NSFileProviderManagerC04FileB0E17EligibilityResultOMa
+- _$sSo21NSFileProviderManagerC04FileB0E17EligibilityResultOMf
+- _$sSo21NSFileProviderManagerC04FileB0E17EligibilityResultOMn
+- _$sSo21NSFileProviderManagerC04FileB0E17EligibilityResultON
+- _$sSo21NSFileProviderManagerC04FileB0E17EligibilityResultOSQACMc
+- _$sSo21NSFileProviderManagerC04FileB0E17EligibilityResultOSQACMcMK
+- _$sSo21NSFileProviderManagerC04FileB0E17EligibilityResultOSQACSQ2eeoiySbx_xtFZTW
+- _$sSo21NSFileProviderManagerC04FileB0E17EligibilityResultOWV
+- _$sSo21NSFileProviderManagerC04FileB0E17EligibilityResultOwet
+- _$sSo21NSFileProviderManagerC04FileB0E17EligibilityResultOwst
+- _$sSo21NSFileProviderManagerC04FileB0E17EligibilityResultOwug
+- _$sSo21NSFileProviderManagerC04FileB0E17EligibilityResultOwui
+- _$sSo21NSFileProviderManagerC04FileB0E17EligibilityResultOwup
+- _$sSo21NSFileProviderManagerC04FileB0E22requestDownloadForItem14withIdentifier14requestedRange17completionHandlerySo0abhJ0a_So8_NSRangeVSgys5Error_pSgctF
+- _$sSo21NSFileProviderManagerC04FileB0E22requestDownloadForItem14withIdentifier14requestedRangeySo0abhJ0a_So8_NSRangeVSgtYaKF
+- _$sSo21NSFileProviderManagerC04FileB0E22requestDownloadForItem14withIdentifier14requestedRangeySo0abhJ0a_So8_NSRangeVSgtYaKFTQ1_
+- _$sSo21NSFileProviderManagerC04FileB0E22requestDownloadForItem14withIdentifier14requestedRangeySo0abhJ0a_So8_NSRangeVSgtYaKFTY0_
+- _$sSo21NSFileProviderManagerC04FileB0E22requestDownloadForItem14withIdentifier14requestedRangeySo0abhJ0a_So8_NSRangeVSgtYaKFTY2_
+- _$sSo21NSFileProviderManagerC04FileB0E22requestDownloadForItem14withIdentifier14requestedRangeySo0abhJ0a_So8_NSRangeVSgtYaKFTY3_
+- _$sSo21NSFileProviderManagerC04FileB0E22requestDownloadForItem14withIdentifier14requestedRangeySo0abhJ0a_So8_NSRangeVSgtYaKFTu
+- _$sSo21NSFileProviderManagerC04FileB0E31checkDomainsCanBeStoredOnVolume2atAbCE17EligibilityResultO10Foundation3URLV_tKFZ
+- _$sSo21NSFileProviderManagerC04FileB0EMXE
+- _$sSo27NSFileProviderDomainVersionC04FileB0E1loiySbAB_ABtFZ
+- _$sSo27NSFileProviderDomainVersionCML
+- _$sSo27NSFileProviderDomainVersionCMa
+- _$sSo27NSFileProviderDomainVersionCSL04FileB0Mc
+- _$sSo27NSFileProviderDomainVersionCSL04FileB0McMK
+- _$sSo27NSFileProviderDomainVersionCSL04FileB0SL1goiySbx_xtFZTW
+- _$sSo27NSFileProviderDomainVersionCSL04FileB0SL1loiySbx_xtFZTW
+- _$sSo27NSFileProviderDomainVersionCSL04FileB0SL2geoiySbx_xtFZTW
+- _$sSo27NSFileProviderDomainVersionCSL04FileB0SL2leoiySbx_xtFZTW
+- _$sSo27NSFileProviderDomainVersionCSL04FileB0SQWb
+- _$sSo27NSFileProviderDomainVersionCSo8NSObjectCSQ10ObjectiveCWL
+- _$sSo27NSFileProviderDomainVersionCSo8NSObjectCSQ10ObjectiveCWlTm
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVABSQSCWL
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVABSYSCWL
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVABs10SetAlgebraSCWL
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVABs25ExpressibleByArrayLiteralSCWL
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVMB
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVMF
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVML
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVMa
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVMaTm
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVMf
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVMn
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVSQSCMc
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVSQSCMcMK
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVSQSCSQ2eeoiySbx_xtFZTW
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVSYSCMA
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVSYSCMc
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVSYSCMcMK
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVSYSCSY8rawValue03RawG0QzvgTW
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVSYSCSY8rawValuexSg03RawG0Qz_tcfCTW
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs10SetAlgebraSCMA
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs10SetAlgebraSCMc
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs10SetAlgebraSCMcMK
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs10SetAlgebraSCSQWb
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs10SetAlgebraSCs25ExpressibleByArrayLiteralPWb
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs10SetAlgebraSCsACP10isDisjoint4withSbx_tFTW
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs10SetAlgebraSCsACP10isSuperset2ofSbx_tFTW
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs10SetAlgebraSCsACP11subtractingyxxFTW
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs10SetAlgebraSCsACP12intersectionyxxFTW
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs10SetAlgebraSCsACP16formIntersectionyyxFTW
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs10SetAlgebraSCsACP19symmetricDifferenceyxxnFTW
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs10SetAlgebraSCsACP23formSymmetricDifferenceyyxnFTW
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs10SetAlgebraSCsACP5unionyxxnFTW
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs10SetAlgebraSCsACP6insertySb8inserted_7ElementQz17memberAfterInserttAHnFTW
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs10SetAlgebraSCsACP6removey7ElementQzSgAGFTW
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs10SetAlgebraSCsACP6update4with7ElementQzSgAHn_tFTW
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs10SetAlgebraSCsACP7isEmptySbvgTW
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs10SetAlgebraSCsACP8containsySb7ElementQzFTW
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs10SetAlgebraSCsACP8isSubset2ofSbx_tFTW
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs10SetAlgebraSCsACP8subtractyyxFTW
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs10SetAlgebraSCsACP9formUnionyyxnFTW
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs10SetAlgebraSCsACPxycfCTW
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs10SetAlgebraSCsACPyxqd__ncSTRd__7ElementQyd__AERtzlufCTW
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs25ExpressibleByArrayLiteralSCMA
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs25ExpressibleByArrayLiteralSCMc
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs25ExpressibleByArrayLiteralSCMcMK
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs25ExpressibleByArrayLiteralSCsACP05arrayI0x0hI7ElementQzd_tcfCTW
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs9OptionSetSCMA
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs9OptionSetSCMc
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs9OptionSetSCMcMK
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs9OptionSetSCSYWb
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs9OptionSetSCs0G7AlgebraPWb
+- _$sSo37NSFileProviderVolumeUnsupportedReasonVs9OptionSetSCsACP8rawValuex03RawI0Qz_tcfCTW
+- _$sSo7NSErrorCSgIeyBy_ytTz_
+- _$sSo8NSObjectCSQ10ObjectiveCMc
+- _$sSoMXM
+- _$ss042_stdlib_isOSVersionAtLeastOrVariantVersiondE0yBi1_Bw_BwBwBwBwBwtF
+- _$ss10SetAlgebraMp
+- _$ss10SetAlgebraP10isDisjoint4withSbx_tFTq
+- _$ss10SetAlgebraP10isSuperset2ofSbx_tFTq
+- _$ss10SetAlgebraP11subtractingyxxFTq
+- _$ss10SetAlgebraP12intersectionyxxFTq
+- _$ss10SetAlgebraP16formIntersectionyyxFTq
+- _$ss10SetAlgebraP19symmetricDifferenceyxxnFTq
+- _$ss10SetAlgebraP23formSymmetricDifferenceyyxnFTq
+- _$ss10SetAlgebraP5unionyxxnFTq
+- _$ss10SetAlgebraP6insertySb8inserted_7ElementQz17memberAfterInserttAFnFTq
+- _$ss10SetAlgebraP6removey7ElementQzSgAEFTq
+- _$ss10SetAlgebraP6update4with7ElementQzSgAFn_tFTq
+- _$ss10SetAlgebraP7isEmptySbvgTq
+- _$ss10SetAlgebraP8containsySb7ElementQzFTq
+- _$ss10SetAlgebraP8isSubset2ofSbx_tFTq
+- _$ss10SetAlgebraP8subtractyyxFTq
+- _$ss10SetAlgebraP9formUnionyyxnFTq
+- _$ss10SetAlgebraPSQTb
+- _$ss10SetAlgebraPs25ExpressibleByArrayLiteralTb
+- _$ss10SetAlgebraPs7ElementQz012ArrayLiteralC0RtzrlE05arrayE0xAFd_tcfC12FileProvider01_gH22_CSQueryExpressionFlagV_Tg5
+- _$ss10SetAlgebraPs7ElementQz012ArrayLiteralC0RtzrlE05arrayE0xAFd_tcfCSo37NSFileProviderVolumeUnsupportedReasonV_Tgq5Tf4gd_n
+- _$ss10SetAlgebraPsEyxqd__ncSTRd__7ElementQyd__ACRtzlufC
+- _$ss10SetAlgebraPxycfCTq
+- _$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTq
+- _$ss11_StringGutsV4growyySiF
+- _$ss15_print_unlockedyyx_q_zts16TextOutputStreamR_r0_lF
+- _$ss17_dictionaryUpCastySDyq0_q1_GSDyxq_GSHRzSHR0_r2_lFSS_S2SypTg5
+- _$ss18_DictionaryStorageC8allocate8capacityAByxq_GSi_tFZ
+- _$ss18_DictionaryStorageCMn
+- _$ss18_DictionaryStorageCyS2SGMD
+- _$ss18_DictionaryStorageCySSypGMD
+- _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5
+- _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5
+- _$ss23CustomStringConvertibleP11descriptionSSvgTj
+- _$ss23_ContiguousArrayStorageCMn
+- _$ss23_ContiguousArrayStorageCySS_SStGMD
+- _$ss25ExpressibleByArrayLiteralMp
+- _$ss25ExpressibleByArrayLiteralP05arrayD0x0cD7ElementQzd_tcfCTq
+- _$ss26DefaultStringInterpolationVN
+- _$ss26DefaultStringInterpolationVs16TextOutputStreamsWP
+- _$ss27_stringCompareWithSmolCheck__9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
+- _$ss5ErrorMp
+- _$ss5ErrorWS
+- _$ss5Error_pMD
+- _$ss5Error_pSgIegg_So7NSErrorCSgIeyBy_TR
+- _$ss5Int32VN
+- _$ss5Int32VSvSgA3CIegyyyyd_Ab4CIeyByyyyd_TR
+- _$ss5Int32Vs23CustomStringConvertiblesWP
+- _$ss6HasherV5_seedABSi_tcfC
+- _$ss6HasherV9_finalizeSiyF
+- _$ss6ResultOMa
+- _$ss6ResultOsRi_zrlE3getxyq_YKF
+- _$ss6ResultOsRi_zrlE8catchingAByxq_Gxyq_YKXE_tcfC
+- _$ss6UInt32VMn
+- _$ss9OptionSetMp
+- _$ss9OptionSetP8rawValuex03RawD0Qz_tcfCTq
+- _$ss9OptionSetPSYTb
+- _$ss9OptionSetPs0B7AlgebraTb
+- _$sypN
+- _$sypWOb
+- _NSCocoaErrorDomain
+- _NSDebugDescriptionErrorKey
+- _OBJC_CLASS_$_NSError
+- _OBJC_CLASS_$_NSFileProviderDomainVersion
+- _OBJC_CLASS_$_NSFileProviderManager
+- _OBJC_METACLASS_$__TtCs12_SwiftObject
+- __Block_copy
+- __Block_release
+- __IVARS__TtCC12FileProvider27_FileProvider_CSQueryParserP33_FC34056914C7E9D23F96BD9FCC87303213ExpressionBox
+- __MDQueryCreateExpr
+- __NSConcreteStackBlock
+- ___chkstk_darwin
+- ___stack_chk_fail
+- ___stack_chk_guard
+- ___swift_destroy_boxed_opaque_existential_0
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+- ___swift_instantiateGenericMetadata
+- ___swift_memcpy9_8
+- ___swift_noop_void_return
+- ___swift_reflection_version
+- ___unnamed_19
+- ___unnamed_20
+- __objc_empty_cache
+- __swiftEmptyDictionarySingleton
+- __swift_FORCE_LOAD_$_swiftCoreFoundation
+- __swift_FORCE_LOAD_$_swiftCoreFoundation_$_FileProvider
+- __swift_FORCE_LOAD_$_swiftDarwin
+- __swift_FORCE_LOAD_$_swiftDarwin_$_FileProvider
+- __swift_FORCE_LOAD_$_swiftDispatch
+- __swift_FORCE_LOAD_$_swiftDispatch_$_FileProvider
+- __swift_FORCE_LOAD_$_swiftFileProvider
+- __swift_FORCE_LOAD_$_swiftFoundation
+- __swift_FORCE_LOAD_$_swiftFoundation_$_FileProvider
+- __swift_FORCE_LOAD_$_swiftIOKit
+- __swift_FORCE_LOAD_$_swiftIOKit_$_FileProvider
+- __swift_FORCE_LOAD_$_swiftObjectiveC
+- __swift_FORCE_LOAD_$_swiftObjectiveC_$_FileProvider
+- __swift_FORCE_LOAD_$_swiftXPC
+- __swift_FORCE_LOAD_$_swiftXPC_$_FileProvider
+- __swift_FORCE_LOAD_$_swift_Builtin_float
+- __swift_FORCE_LOAD_$_swift_Builtin_float_$_FileProvider
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_FileProvider
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_FileProvider
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_FileProvider
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_FileProvider
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_FileProvider
+- __swift_FORCE_LOAD_$_swiftos
+- __swift_FORCE_LOAD_$_swiftos_$_FileProvider
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_FileProvider
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_FileProvider
+- _associated conformance 12FileProvider01_aB22_CSQueryExpressionFlagVs10SetAlgebraAASQ
+- _associated conformance 12FileProvider01_aB22_CSQueryExpressionFlagVs10SetAlgebraAAs25ExpressibleByArrayLiteral
+- _associated conformance 12FileProvider01_aB22_CSQueryExpressionFlagVs9OptionSetAASY
+- _associated conformance 12FileProvider01_aB22_CSQueryExpressionFlagVs9OptionSetAAs0G7Algebra
+- _associated conformance So27NSFileProviderDomainVersionCSL04FileB0SQ
+- _associated conformance So37NSFileProviderVolumeUnsupportedReasonVs10SetAlgebraSCSQ
+- _associated conformance So37NSFileProviderVolumeUnsupportedReasonVs10SetAlgebraSCs25ExpressibleByArrayLiteral
+- _associated conformance So37NSFileProviderVolumeUnsupportedReasonVs9OptionSetSCSY
+- _associated conformance So37NSFileProviderVolumeUnsupportedReasonVs9OptionSetSCs0G7Algebra
+- _block_copy_helper
+- _block_descriptor
+- _block_destroy_helper
+- _bzero
+- _memcpy
+- _objc_allocWithZone
+- _objc_msgSend
+- _objc_opt_self
+- _objc_release
+- _objc_retain
+- _swift_allocError
+- _swift_allocObject
+- _swift_allocateGenericClassMetadata
+- _swift_allocateGenericValueMetadata
+- _swift_beginAccess
+- _swift_bridgeObjectRelease
+- _swift_bridgeObjectRetain
+- _swift_checkMetadataState
+- _swift_continuation_await
+- _swift_continuation_init
+- _swift_continuation_throwingResume
+- _swift_continuation_throwingResumeWithError
+- _swift_deallocClassInstance
+- _swift_deallocObject
+- _swift_dynamicCast
+- _swift_endAccess
+- _swift_getEnumCaseMultiPayload
+- _swift_getForeignTypeMetadata
+- _swift_getGenericMetadata
+- _swift_getObjCClassMetadata
+- _swift_getTupleTypeLayout2
+- _swift_getTupleTypeMetadata2
+- _swift_getTypeByMangledNameInContext2
+- _swift_getTypeByMangledNameInContextInMetadataState2
+- _swift_getWitnessTable
+- _swift_initClassMetadata2
+- _swift_initEnumMetadataMultiPayload
+- _swift_initStackObject
+- _swift_lookUpClassMethod
+- _swift_release
+- _swift_retain
+- _swift_storeEnumTagMultiPayload
+- _swift_task_switch
+- _swift_willThrow
+- _swift_willThrowTypedImpl
+- _symbolic $sSY
+- _symbolic $ss10SetAlgebraP
+- _symbolic $ss25ExpressibleByArrayLiteralP
+- _symbolic $ss9OptionSetP
+- _symbolic B0
+- _symbolic G0M4_
+- _symbolic SS13attributeName_SS0A5Value_____5flagst 12FileProvider01_aB22_CSQueryExpressionFlagV
+- _symbolic SS13attributeName_SS8maxValueSS03minD0t
+- _symbolic So21NSFileProviderManagerC
+- _symbolic Su
+- _symbolic _____ 12FileProvider01_aB14_CSQueryParserC
+- _symbolic _____ 12FileProvider01_aB14_CSQueryParserC13ExpressionBox33_FC34056914C7E9D23F96BD9FCC873032LLC
+- _symbolic _____ 12FileProvider01_aB18_CSQueryExpressionO
+- _symbolic _____ 12FileProvider01_aB22_CSQueryExpressionFlagV
+- _symbolic _____ So10MDExprKindV
+- _symbolic _____ So15MDExprErrorKindV
+- _symbolic _____ So21NSFileProviderManagerC04FileB0E17EligibilityResultO
+- _symbolic _____ So37NSFileProviderVolumeUnsupportedReasonV
+- _symbolic _____ s6UInt32V
+- _symbolic ______p s5ErrorP
+- _symbolic _____yS2SG s18_DictionaryStorageC
+- _symbolic _____ySS_SStG s23_ContiguousArrayStorageC
+- _symbolic _____ySSypG s18_DictionaryStorageC
+- _symbolic _____yqd__Gqd________pIegnrzo_ 12FileProvider01_aB18_CSQueryExpressionO s5ErrorP
+- _symbolic _____yxGXMT 12FileProvider01_aB14_CSQueryParserC
+- _symbolic qd__
+- _symbolic x
+- _symbolic x10expression_t
+- _symbolic x11expression1_x11expression2t
+- block_copy_helper.9
+- block_descriptor.11
+- block_descriptor.12
+- block_destroy_helper.10
+CStrings:
+- "Error parsing Spotlight query"
+- "FPSpotlightError, code: "
+- "^v36@?0i8^v12^v20^v28"
+- "checkDomainsCanBeStored:onVolumeAtURL:unsupportedReason:error:"
+- "compare:"
+- "expression"
+- "expression1 expression2 "
+- "failed casting to cchar pointer for "
+- "initWithDomain:code:userInfo:"
+- "k1 should be populated for AND expression"
+- "k1 should be populated for NOT expression"
+- "k1 should be populated for OR expression"
+- "k2 should be populated for AND expression"
+- "k2 should be populated for OR expression"
+- "kMDExprInRange attributeName"
+- "kMDExprInRange maxValue"
+- "kMDExprInRange minValue"
+- "requestDownloadForItemWithIdentifier:requestedRange:completionHandler:"
+- "unknown enumKind: "
+- "v16@?0@\"NSError\"8"
+
+```

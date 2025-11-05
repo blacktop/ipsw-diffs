@@ -1,0 +1,253 @@
+## AXMediaUtilities
+
+> `/System/Library/PrivateFrameworks/AXMediaUtilities.framework/Versions/A/AXMediaUtilities`
+
+```diff
+
+-152.1.0.0.0
+-  __TEXT.__text: 0xb92e4
++152.2.1.0.0
++  __TEXT.__text: 0xb8cc8
+   __TEXT.__auth_stubs: 0x1a60
+-  __TEXT.__objc_methlist: 0x9dd0
++  __TEXT.__objc_methlist: 0xa2ac
+   __TEXT.__const: 0x161e
+   __TEXT.__cstring: 0x946c
+-  __TEXT.__oslogstring: 0x36ed
+-  __TEXT.__gcc_except_tab: 0x4860
++  __TEXT.__oslogstring: 0x370b
++  __TEXT.__gcc_except_tab: 0x48bc
+   __TEXT.__dlopen_cstrs: 0x7d0
+   __TEXT.__ustring: 0x422
+   __TEXT.__swift5_typeref: 0x2f8
+
+   __TEXT.__swift5_builtin: 0x50
+   __TEXT.__swift5_proto: 0x8c
+   __TEXT.__swift5_types: 0x30
+-  __TEXT.__unwind_info: 0x3230
++  __TEXT.__unwind_info: 0x3260
+   __TEXT.__eh_frame: 0x470
+   __TEXT.__objc_classname: 0x1264
+-  __TEXT.__objc_methname: 0x18e21
++  __TEXT.__objc_methname: 0x18e31
+   __TEXT.__objc_methtype: 0x394c
+-  __TEXT.__objc_stubs: 0x10840
++  __TEXT.__objc_stubs: 0x10860
+   __DATA_CONST.__got: 0xbf8
+-  __DATA_CONST.__const: 0x1388
++  __DATA_CONST.__const: 0x1418
+   __DATA_CONST.__objc_classlist: 0x598
+   __DATA_CONST.__objc_catlist: 0x30
+   __DATA_CONST.__objc_protolist: 0xc0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x5670
++  __DATA_CONST.__objc_selrefs: 0x5730
+   __DATA_CONST.__objc_protorefs: 0x10
+   __DATA_CONST.__objc_superrefs: 0x3c0
+   __DATA_CONST.__objc_arraydata: 0x6b8
+   __AUTH_CONST.__auth_got: 0xd48
+   __AUTH_CONST.__const: 0x2ba8
+   __AUTH_CONST.__cfstring: 0xb8e0
+-  __AUTH_CONST.__objc_const: 0x12c18
++  __AUTH_CONST.__objc_const: 0x12390
+   __AUTH_CONST.__objc_intobj: 0xa50
+   __AUTH_CONST.__objc_doubleobj: 0x280
+   __AUTH_CONST.__objc_arrayobj: 0x240
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 319C7B33-106F-35A4-80BA-84F02B1E62F7
++  UUID: C0D88F46-4CAB-3B88-AE38-3F9AD44A2325
+   Functions: 4592
+-  Symbols:   10692
+-  CStrings:  8499
++  Symbols:   10724
++  CStrings:  8501
+ 
+Symbols:
++ +[AXMAssetManager defaultManager].cold.1
++ +[AXMDeviceInfo sharedInstance].cold.1
++ +[AXMImageCaptionModelAssetManager sharedInstance].cold.1
++ +[AXMLElementCoagulation sharedInstance].cold.1
++ +[AXMLocSupport sharedInstance].cold.1
++ +[AXMOutputRequest speechItemSeparator].cold.1
++ +[AXMPhotoVisionSupport _validatePhotosFormatSoftLinkSymbols].cold.1
++ +[AXMSettings settings].cold.1
++ +[AXMVisionColorMarker allColorMarkers].cold.1
++ -[AXMCIMorphologyRectangle outputImage].cold.1
++ -[AXMCIMorphologyRectangle outputImage].cold.2
++ -[AXMMobileAssetEvaluationNode modelURLs].cold.1
++ -[AXMVisionFeatureFaceAttributes _AXMAgeCategoryForVisionCategoryIdentifier:].cold.2
++ -[AXMVisionFeatureFaceAttributes _AXMEthnicityCategoryForVisionCategoryIdentifier:].cold.2
++ -[AXMVisionFeatureFaceAttributes _AXMExpressionCategoryForVisionCategoryIdentifier:].cold.2
++ -[AXMVisionFeatureFaceAttributes _AXMEyesCategoryForVisionCategoryIdentifier:].cold.2
++ -[AXMVisionFeatureFaceAttributes _AXMFaceHairV2CategoryForVisionCategoryIdentifier:].cold.2
++ -[AXMVisionFeatureFaceAttributes _AXMFacemaskCategoryForVisionCategoryIdentifier:].cold.2
++ -[AXMVisionFeatureFaceAttributes _AXMGenderCategoryForVisionCategoryIdentifier:].cold.2
++ -[AXMVisionFeatureFaceAttributes _AXMGlassesCategoryForVisionCategoryIdentifier:].cold.2
++ -[AXMVisionFeatureFaceAttributes _AXMHairColorCategoryForVisionCategoryIdentifier:].cold.2
++ -[AXMVisionFeatureFaceAttributes _AXMHairtypeCategoryForVisionCategoryIdentifier:].cold.2
++ -[AXMVisionFeatureFaceAttributes _AXMHeadgearCategoryForVisionCategoryIdentifier:].cold.2
++ -[AXMVisionFeatureFaceAttributes _AXMMakeupEyesCategoryForVisionCategoryIdentifier:].cold.2
++ -[AXMVisionFeatureFaceAttributes _AXMMakeupLipsCategoryForVisionCategoryIdentifier:].cold.2
++ -[AXMVisionFeatureFaceAttributes _AXMPoseCategoryForVisionCategoryIdentifier:].cold.2
++ -[AXMVisionFeatureFaceAttributes _AXMSkintoneCategoryForVisionCategoryIdentifier:].cold.2
++ AXMFormatNumber.cold.1
++ AXMHasInternalSecurityPrivilages.cold.1
++ AXMIsRunningInServiceProcess.cold.1
++ AXMServiceInterface.cold.1
++ AXMSharedDisplayManager.cold.1
++ UIAXPhotoDescriptionString.cold.1
++ _AXDeviceIsVM
++ _AXIsInternalInstall
++ _AXMCachedDateFormatterForFormat.cold.1
++ _AXMContextQueue.cold.1
++ __40-[AXMTextDetectorNode evaluate:metrics:]_block_invoke.158
++ __92-[AXMTextLayoutManager featureCellsForNutritionLabelRows:withRequestHandler:withCanvasSize:]_block_invoke.599
++ __ZNKSt3__111__copy_implINS_17_ClassicAlgPolicyEEclB8ne190102IPU8__strongKP8NSStringS7_PU8__strongS5_EENS_4pairIT_T1_EESB_T0_SC_
++ __ZNKSt3__16vectorINS_10shared_ptrI17espresso_buffer_tEENS_9allocatorIS3_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIbNS_9allocatorIbEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt9type_infoeqB8ne190102ERKS_
++ __ZNSt12length_errorC1B8ne190102EPKc
++ __ZNSt3__110shared_ptrI7CGImageEC2B8ne190102IS1_PFvPS1_ELi0EEEPT_T0_
++ __ZNSt3__113__fill_n_boolB8ne190102ILb0ENS_6vectorIbNS_9allocatorIbEEEEEEvNS_14__bit_iteratorIT0_Lb0EXLi0EEEENS6_9size_typeE
++ __ZNSt3__113__fill_n_boolB8ne190102ILb1ENS_6vectorIbNS_9allocatorIbEEEEEEvNS_14__bit_iteratorIT0_Lb0EXLi0EEEENS6_9size_typeE
++ __ZNSt3__114__split_bufferINS_10shared_ptrI17espresso_buffer_tEERNS_9allocatorIS3_EEE5clearB8ne190102Ev
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_10shared_ptrI17espresso_buffer_tEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIU8__strongP8NSStringEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorImEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__shared_weak_count16__release_sharedB8ne190102Ev
++ __ZNSt3__120__throw_length_errorB8ne190102EPKc
++ __ZNSt3__16vectorINS_10shared_ptrI17espresso_buffer_tEENS_9allocatorIS3_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorINS_10shared_ptrI17espresso_buffer_tEENS_9allocatorIS3_EEE7__clearB8ne190102Ev
++ __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE18__assign_with_sizeB8ne190102IPU8__strongKS2_S9_EEvT_T0_l
++ __ZNSt3__16vectorIbNS_9allocatorIbEEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE18__assign_with_sizeB8ne190102IPKfS6_EEvT_T0_l
++ __ZNSt3__16vectorIfNS_9allocatorIfEEEC2B8ne190102Em
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE18__assign_with_sizeB8ne190102IPKiS6_EEvT_T0_l
++ __ZSt28__throw_bad_array_new_lengthB8ne190102v
++ ___AXMCachedDateFormatterForFormat_block_invoke_2.cold.1
++ __block_literal_global.161
++ __block_literal_global.258
++ __block_literal_global.260
++ __block_literal_global.262
++ __block_literal_global.266
++ __block_literal_global.268
++ __block_literal_global.272
++ __block_literal_global.274
++ __block_literal_global.276
++ __block_literal_global.278
++ __block_literal_global.280
++ __block_literal_global.284
++ __block_literal_global.286
++ __block_literal_global.288
++ __block_literal_global.290
++ __block_literal_global.419
++ __block_literal_global.422
++ __block_literal_global.430
++ __block_literal_global.434
++ __block_literal_global.436
++ __block_literal_global.454
++ __block_literal_global.456
++ __block_literal_global.461
++ __block_literal_global.463
++ __block_literal_global.468
++ __block_literal_global.482
++ __block_literal_global.491
++ __block_literal_global.493
++ __block_literal_global.495
++ __block_literal_global.535
++ __block_literal_global.538
++ __block_literal_global.583
++ __block_literal_global.585
++ __block_literal_global.589
++ __block_literal_global.591
++ __block_literal_global.593
++ __block_literal_global.601
++ _eyesLocSuffixForSuffix.cold.1
++ _mouthLocSuffixForSuffix.cold.1
++ _objc_msgSend$setUsesCPUOnly:
+- GCC_except_table48
+- GCC_except_table52
+- __40-[AXMTextDetectorNode evaluate:metrics:]_block_invoke.44
+- __92-[AXMTextLayoutManager featureCellsForNutritionLabelRows:withRequestHandler:withCanvasSize:]_block_invoke.485
+- __ZNKSt3__111__copy_loopINS_17_ClassicAlgPolicyEEclB8ne180100IPU8__strongKP8NSStringS7_PU8__strongS5_EENS_4pairIT_T1_EESB_T0_SC_
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_10shared_ptrI17espresso_buffer_tEEEENS_16reverse_iteratorIPS4_EEEclB8ne180100Ev
+- __ZNKSt3__16vectorINS_10shared_ptrI17espresso_buffer_tEENS_9allocatorIS3_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIbNS_9allocatorIbEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt9type_infoeqB8ne180100ERKS_
+- __ZNSt12length_errorC1B8ne180100EPKc
+- __ZNSt3__110shared_ptrI7CGImageEC2B8ne180100IS1_PFvPS1_EvEEPT_T0_
+- __ZNSt3__114__split_bufferINS_10shared_ptrI17espresso_buffer_tEERNS_9allocatorIS3_EEE5clearB8ne180100Ev
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorINS_10shared_ptrI17espresso_buffer_tEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIU8__strongP8NSStringEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorImEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__shared_weak_count16__release_sharedB8ne180100Ev
+- __ZNSt3__120__throw_length_errorB8ne180100EPKc
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_10shared_ptrI17espresso_buffer_tEEEENS_16reverse_iteratorIPS5_EEEEED2B8ne180100Ev
+- __ZNSt3__142__uninitialized_allocator_move_if_noexceptB8ne180100INS_9allocatorINS_10shared_ptrI17espresso_buffer_tEEEENS_16reverse_iteratorIPS4_EES8_S8_EET2_RT_T0_T1_S9_
+- __ZNSt3__16vectorINS_10shared_ptrI17espresso_buffer_tEENS_9allocatorIS3_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorINS_10shared_ptrI17espresso_buffer_tEENS_9allocatorIS3_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS3_RS5_EE
+- __ZNSt3__16vectorINS_10shared_ptrI17espresso_buffer_tEENS_9allocatorIS3_EEE7__clearB8ne180100Ev
+- __ZNSt3__16vectorINS_10shared_ptrI17espresso_buffer_tEENS_9allocatorIS3_EEE9push_backB8ne180100ERKS3_
+- __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE18__assign_with_sizeB8ne180100IPU8__strongKS2_S9_EEvT_T0_l
+- __ZNSt3__16vectorIbNS_9allocatorIbEEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE18__assign_with_sizeB8ne180100IPKfS6_EEvT_T0_l
+- __ZNSt3__16vectorIfNS_9allocatorIfEEEC2Em
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE18__assign_with_sizeB8ne180100IPKiS6_EEvT_T0_l
+- __ZNSt3__18__fill_nB8ne180100ILb0ENS_6vectorIbNS_9allocatorIbEEEEEEvNS_14__bit_iteratorIT0_Lb0EXLi0EEEENS6_9size_typeE
+- __ZNSt3__18__fill_nB8ne180100ILb1ENS_6vectorIbNS_9allocatorIbEEEEEEvNS_14__bit_iteratorIT0_Lb0EXLi0EEEENS6_9size_typeE
+- __ZSt28__throw_bad_array_new_lengthB8ne180100v
+- __block_literal_global.148
+- __block_literal_global.152
+- __block_literal_global.154
+- __block_literal_global.158
+- __block_literal_global.160
+- __block_literal_global.162
+- __block_literal_global.164
+- __block_literal_global.166
+- __block_literal_global.172
+- __block_literal_global.305
+- __block_literal_global.322
+- __block_literal_global.340
+- __block_literal_global.342
+- __block_literal_global.347
+- __block_literal_global.349
+- __block_literal_global.368
+- __block_literal_global.381
+- __block_literal_global.421
+- __block_literal_global.469
+- __block_literal_global.47
+- __block_literal_global.471
+- __block_literal_global.475
+- __block_literal_global.477
+- __block_literal_global.479
+- __block_literal_global.60
+- __block_literal_global.62
+- _fmod
+CStrings:
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/AccessibilityMediaUtilities/AXMediaUtilities/source/ImageTools.m"
++ "Using CPU only for VM request"
++ "setUsesCPUOnly:"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/AccessibilityMediaUtilities/AXMediaUtilities/source/ImageTools.m"
+
+```

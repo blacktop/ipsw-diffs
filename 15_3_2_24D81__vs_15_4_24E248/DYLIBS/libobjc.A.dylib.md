@@ -1,0 +1,322 @@
+## libobjc.A.dylib
+
+> `/usr/lib/libobjc.A.dylib`
+
+```diff
+
+-928.3.0.0.0
+-  __TEXT.__text: 0x3fd84
+-  __TEXT.__auth_stubs: 0x890
++940.4.0.0.0
++  __TEXT.__text: 0x415e0
++  __TEXT.__auth_stubs: 0x880
+   __TEXT.__delay_helper: 0xec
+-  __TEXT.__objc_init_offs: 0x0
+-  __TEXT.__objc_methlist: 0x4e4
++  __TEXT.__objc_methlist: 0x5ec
++  __TEXT.__const: 0x4140
+   __TEXT.__objc_opt_ro: 0x4000
+-  __TEXT.__const: 0x4100
+-  __TEXT.__cstring: 0x4c4b
+-  __TEXT.__gcc_except_tab: 0xb54
++  __TEXT.__cstring: 0x4e24
++  __TEXT.__gcc_except_tab: 0xb64
+   __TEXT.__dof_objc_runt: 0x113f
+-  __TEXT.__unwind_info: 0xda8
++  __TEXT.__objc_init_offs: 0x0
++  __TEXT.__unwind_info: 0xdc0
+   __TEXT.__objc_classname: 0x4d
+   __TEXT.__objc_methname: 0x3c1
+   __TEXT.__objc_methtype: 0x11e
+-  __DATA_CONST.__got: 0x50
+-  __DATA_CONST.__const: 0x8c0
++  __DATA_CONST.__got: 0x48
++  __DATA_CONST.__const: 0x8e0
+   __DATA_CONST.__objc_classlist: 0x28
+   __DATA_CONST.__objc_nlclslist: 0x20
+   __DATA_CONST.__objc_protolist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x1d0
+-  __AUTH_CONST.__auth_got: 0x458
++  __AUTH_CONST.__auth_got: 0x450
+   __AUTH_CONST.__const: 0x5c0
+-  __AUTH_CONST.__objc_const: 0x658
++  __AUTH_CONST.__objc_const: 0x468
+   __AUTH.__objc_data: 0x50
+-  __AUTH.__data: 0x40
+   __AUTH.__objc_opt_ptrs: 0x8
++  __AUTH.__data: 0x40
+   __DATA.__objc_ivar: 0x8
+   __DATA.__data: 0xc8
+   __DATA.__crash_info: 0x40
+
+   __DATA_DIRTY.__data: 0x940
+   __DATA_DIRTY.__bss: 0x2350
+   __DATA_DIRTY.__common: 0x18
++  - /usr/lib/libRosetta.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libc++abi.dylib
+-  - /usr/lib/liboah.dylib
+   - /usr/lib/libobjc-env.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+-  UUID: B2882096-462B-3878-BE2A-410F7B1A27FD
+-  Functions: 921
+-  Symbols:   1474
+-  CStrings:  564
++  UUID: 3262CD12-9CC3-3417-895F-E859872C3848
++  Functions: 932
++  Symbols:   1493
++  CStrings:  572
+ 
+Symbols:
++ GCC_except_table110
++ GCC_except_table144
++ GCC_except_table159
++ GCC_except_table176
++ GCC_except_table181
++ GCC_except_table189
++ GCC_except_table196
++ GCC_except_table198
++ GCC_except_table216
++ GCC_except_table218
++ GCC_except_table220
++ GCC_except_table224
++ GCC_except_table289
++ GCC_except_table319
++ GCC_except_table325
++ GCC_except_table331
++ GCC_except_table336
++ GCC_except_table341
++ GCC_except_table349
++ GCC_except_table352
++ GCC_except_table381
++ GCC_except_table382
++ GCC_except_table391
++ GCC_except_table393
++ GCC_except_table397
++ GCC_except_table406
++ GCC_except_table408
++ GCC_except_table409
++ GCC_except_table410
++ GCC_except_table411
++ GCC_except_table420
++ GCC_except_table421
++ GCC_except_table422
++ GCC_except_table423
++ GCC_except_table442
++ GCC_except_table446
++ GCC_except_table452
++ GCC_except_table456
++ GCC_except_table457
++ GCC_except_table460
++ GCC_except_table463
++ GCC_except_table471
++ GCC_except_table473
++ GCC_except_table476
++ GCC_except_table491
++ GCC_except_table492
++ GCC_except_table495
++ GCC_except_table497
++ GCC_except_table502
++ GCC_except_table504
++ GCC_except_table506
++ GCC_except_table507
++ GCC_except_table508
++ GCC_except_table509
++ GCC_except_table524
++ GCC_except_table567
++ GCC_except_table578
++ GCC_except_table581
++ GCC_except_table585
++ GCC_except_table633
++ GCC_except_table635
++ GCC_except_table638
++ GCC_except_table649
++ GCC_except_table652
++ GCC_except_table739
++ GCC_except_table740
++ GCC_except_table742
++ GCC_except_table743
++ GCC_except_table837
++ __Z11_objc_faultPKcz
++ __Z19_objc_fault_and_logPKcz
++ __Z22_objc_inform_backtracePKc
++ __Z22_objc_stochastic_faultPKcz
++ __ZL13fixupProtocolP10protocol_tjbU13block_pointerFvjE
++ __ZL13remapClassRefPP10objc_classjbU13block_pointerFvjE
++ __ZL15fixupMethodListP13method_list_tbbbPPP13objc_selector
++ __ZL16_objc_fault_implbbPKcPc
++ __ZL23fixupProtocolMethodListP10protocol_tP13method_list_tbbbPPP13objc_selector
++ __ZL38objc_destructInstance_nonnull_realizedP11objc_object
++ __ZL43_class_conformsToProtocol_unrealized_nolockP10objc_classP8Protocol
++ __ZN10objc_class15realizeIfNeededEv
++ __ZN11objc_object36sidetable_setWeaklyReferenced_nolockEv
++ __ZN19AutoreleasePoolPage24moveTLSAutoreleaseToPoolE21ReturnAutoreleaseInfo
++ __ZN4objc12DenseMapBaseINS_8DenseMapI12DisguisedPtrI10objc_classENS_13category_listENS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS4_EENS_6detail12DenseMapPairIS4_S5_EEEES4_S5_S7_S9_SC_E4findERKS4_
++ __ZN4objc12DenseMapBaseINS_8DenseMapI12DisguisedPtrI10objc_classENS_13category_listENS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS4_EENS_6detail12DenseMapPairIS4_S5_EEEES4_S5_S7_S9_SC_E7compactEv
++ __ZN4objc12DenseMapBaseINS_8DenseMapI12DisguisedPtrI10objc_classENS_6detail13DenseSetEmptyENS_17DenseMapValueInfoIS6_EENS_12DenseMapInfoIS4_EENS5_12DenseSetPairIS4_EEEES4_S6_S8_SA_SC_E11try_emplaceIJRS6_EEENSt3__14pairINS_16DenseMapIteratorIS4_S6_S8_SA_SC_Lb0EEEbEEOS4_DpOT_
++ __ZN4objc12DenseMapBaseINS_8DenseMapI12DisguisedPtrI10objc_classENS_6detail13DenseSetEmptyENS_17DenseMapValueInfoIS6_EENS_12DenseMapInfoIS4_EENS5_12DenseSetPairIS4_EEEES4_S6_S8_SA_SC_E4findERKS4_
++ __ZN4objc6detail12DenseSetImplI12DisguisedPtrI10objc_classENS_8DenseMapIS4_NS0_13DenseSetEmptyENS_17DenseMapValueInfoIS6_EENS_12DenseMapInfoIS4_EENS0_12DenseSetPairIS4_EEEESA_E5beginEv
++ __ZN4objc8DenseMapI12DisguisedPtrI10objc_classENS_13category_listENS_17DenseMapValueInfoIS4_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S4_EEE4growEj
++ __ZN4objc8DenseMapI12DisguisedPtrI10objc_classENS_13category_listENS_17DenseMapValueInfoIS4_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S4_EEE4initEj
++ __ZN4objc8DenseMapI12DisguisedPtrI10objc_classENS_6detail13DenseSetEmptyENS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS3_EENS4_12DenseSetPairIS3_EEE4growEj
++ __ZN4objc8DenseMapI12DisguisedPtrI10objc_classEP10objc_classNS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S5_EEE4growEj
++ __ZN4objc8DenseMapI12DisguisedPtrI10objc_classEP17PendingInitializeNS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S5_EEE4growEj
++ __ZN4objc8DenseMapI12DisguisedPtrI10objc_classEP17PendingInitializeNS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S5_EEE4initEj
++ __ZN8method_t7setNameEP13objc_selector
++ __ZNK4objc12DenseMapBaseINS_8DenseMapI12DisguisedPtrI10objc_classENS_13category_listENS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS4_EENS_6detail12DenseMapPairIS4_S5_EEEES4_S5_S7_S9_SC_E15LookupBucketForIS4_EEbRKT_RPKSC_
++ __ZNK4objc12DenseMapBaseINS_8DenseMapI12DisguisedPtrI10objc_classENS_13category_listENS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS4_EENS_6detail12DenseMapPairIS4_S5_EEEES4_S5_S7_S9_SC_E22FatalCorruptHashTablesEPKSC_j
++ __ZNK4objc12DenseMapBaseINS_8DenseMapI12DisguisedPtrI10objc_classENS_6detail13DenseSetEmptyENS_17DenseMapValueInfoIS6_EENS_12DenseMapInfoIS4_EENS5_12DenseSetPairIS4_EEEES4_S6_S8_SA_SC_E15LookupBucketForIS4_EEbRKT_RPKSC_
++ __ZNK4objc12DenseMapBaseINS_8DenseMapI12DisguisedPtrI10objc_classENS_6detail13DenseSetEmptyENS_17DenseMapValueInfoIS6_EENS_12DenseMapInfoIS4_EENS5_12DenseSetPairIS4_EEEES4_S6_S8_SA_SC_E22FatalCorruptHashTablesEPKSC_j
++ __ZNK4objc12DenseMapBaseINS_8DenseMapI12DisguisedPtrI10objc_classEP10objc_classNS_17DenseMapValueInfoIS6_EENS_12DenseMapInfoIS4_EENS_6detail12DenseMapPairIS4_S6_EEEES4_S6_S8_SA_SD_E15LookupBucketForIS4_EEbRKT_RPKSD_
++ __ZNK4objc12DenseMapBaseINS_8DenseMapI12DisguisedPtrI10objc_classEP10objc_classNS_17DenseMapValueInfoIS6_EENS_12DenseMapInfoIS4_EENS_6detail12DenseMapPairIS4_S6_EEEES4_S6_S8_SA_SD_E22FatalCorruptHashTablesEPKSD_j
++ __ZNK4objc12DenseMapBaseINS_8DenseMapI12DisguisedPtrI10objc_classEP17PendingInitializeNS_17DenseMapValueInfoIS6_EENS_12DenseMapInfoIS4_EENS_6detail12DenseMapPairIS4_S6_EEEES4_S6_S8_SA_SD_E15LookupBucketForIS4_EEbRKT_RPKSD_
++ __ZNK4objc12DenseMapBaseINS_8DenseMapI12DisguisedPtrI10objc_classEP17PendingInitializeNS_17DenseMapValueInfoIS6_EENS_12DenseMapInfoIS4_EENS_6detail12DenseMapPairIS4_S6_EEEES4_S6_S8_SA_SD_E22FatalCorruptHashTablesEPKSD_j
++ __ZNSt3__110__function12__value_funcIFvPK18segment_command_64lEED2B8nn190102Ev
++ __ZNSt3__122__libcpp_verbose_abortEPKcz
++ __ZNSt3__125__throw_bad_function_callB8nn190102Ev
++ __ZNSt3__127__insertion_sort_incompleteB8nn190102INS_17_ClassicAlgPolicyERZN4objc10SafeRanges4findEmRjE3$_0PNS3_5RangeEEEbT1_S9_T0_
++ __ZNSt3__17__sort3B8nn190102INS_17_ClassicAlgPolicyERZN4objc10SafeRanges4findEmRjE3$_0PNS3_5RangeEEEjT1_S9_S9_T0_
++ __ZNSt3__17__sort4B8nn190102INS_17_ClassicAlgPolicyERZN4objc10SafeRanges4findEmRjE3$_0PNS3_5RangeEEEvT1_S9_S9_S9_T0_
++ __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB8nn190102IRPN8method_t9bigSignedES7_EEvOT_OT0_
++ __ZSt28__throw_bad_array_new_lengthB8nn190102v
++ __ZZ12_read_imagesENK3$_2clEP10objc_class
++ ___ZL13setSuperclassP10objc_classS0__block_invoke.190
++ ___ZL32objc_getRealizedClassList_nolockPP10objc_classm_block_invoke.171
++ __destroy_helper_block_e8_32.711
++ __headerForAddress
++ __objc_supportsLazyRealization
++ _customRR_retain
++ _deallocating_retain
++ _nilOrTagged_retain
++ _objc_AVersionNumber
++ _objc_AVersionString
++ _overflow_retain
++ _rawISA_retain
++ _rosetta_is_current_process_translated
+- GCC_except_table107
+- GCC_except_table143
+- GCC_except_table153
+- GCC_except_table170
+- GCC_except_table175
+- GCC_except_table183
+- GCC_except_table184
+- GCC_except_table192
+- GCC_except_table204
+- GCC_except_table225
+- GCC_except_table232
+- GCC_except_table303
+- GCC_except_table305
+- GCC_except_table317
+- GCC_except_table324
+- GCC_except_table329
+- GCC_except_table334
+- GCC_except_table335
+- GCC_except_table345
+- GCC_except_table373
+- GCC_except_table374
+- GCC_except_table375
+- GCC_except_table384
+- GCC_except_table385
+- GCC_except_table389
+- GCC_except_table395
+- GCC_except_table396
+- GCC_except_table398
+- GCC_except_table401
+- GCC_except_table402
+- GCC_except_table405
+- GCC_except_table414
+- GCC_except_table415
+- GCC_except_table433
+- GCC_except_table437
+- GCC_except_table438
+- GCC_except_table443
+- GCC_except_table444
+- GCC_except_table448
+- GCC_except_table450
+- GCC_except_table451
+- GCC_except_table454
+- GCC_except_table455
+- GCC_except_table467
+- GCC_except_table478
+- GCC_except_table479
+- GCC_except_table481
+- GCC_except_table482
+- GCC_except_table483
+- GCC_except_table484
+- GCC_except_table498
+- GCC_except_table500
+- GCC_except_table501
+- GCC_except_table515
+- GCC_except_table558
+- GCC_except_table559
+- GCC_except_table571
+- GCC_except_table575
+- GCC_except_table623
+- GCC_except_table625
+- GCC_except_table628
+- GCC_except_table629
+- GCC_except_table632
+- GCC_except_table729
+- GCC_except_table730
+- GCC_except_table732
+- GCC_except_table733
+- GCC_except_table825
+- __Z16verifySuperclassP10objc_classb
+- __ZL13fixupProtocolP10protocol_t
+- __ZL15fixupMethodListP13method_list_tbb
+- __ZL23fixupProtocolMethodListP10protocol_tP13method_list_tbb
+- __ZN4objc12DenseMapBaseINS_8DenseMapIP10objc_classNS_13category_listENS_17DenseMapValueInfoIS4_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S4_EEEES3_S4_S6_S8_SB_E4findEPKS2_
+- __ZN4objc12DenseMapBaseINS_8DenseMapIP10objc_classNS_13category_listENS_17DenseMapValueInfoIS4_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S4_EEEES3_S4_S6_S8_SB_E7compactEv
+- __ZN4objc12DenseMapBaseINS_8DenseMapIP10objc_classNS_6detail13DenseSetEmptyENS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS3_EENS4_12DenseSetPairIS3_EEEES3_S5_S7_S9_SB_E11try_emplaceIJRS5_EEENSt3__14pairINS_16DenseMapIteratorIS3_S5_S7_S9_SB_Lb0EEEbEERKS3_DpOT_
+- __ZN4objc12DenseMapBaseINS_8DenseMapIP10objc_classNS_6detail13DenseSetEmptyENS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS3_EENS4_12DenseSetPairIS3_EEEES3_S5_S7_S9_SB_E4findEPKS2_
+- __ZN4objc6detail12DenseSetImplIP10objc_classNS_8DenseMapIS3_NS0_13DenseSetEmptyENS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS3_EENS0_12DenseSetPairIS3_EEEES9_E5beginEv
+- __ZN4objc8DenseMapIP10objc_classNS_13category_listENS_17DenseMapValueInfoIS3_EENS_12DenseMapInfoIS2_EENS_6detail12DenseMapPairIS2_S3_EEE4growEj
+- __ZN4objc8DenseMapIP10objc_classNS_13category_listENS_17DenseMapValueInfoIS3_EENS_12DenseMapInfoIS2_EENS_6detail12DenseMapPairIS2_S3_EEE4initEj
+- __ZN4objc8DenseMapIP10objc_classNS_6detail13DenseSetEmptyENS_17DenseMapValueInfoIS4_EENS_12DenseMapInfoIS2_EENS3_12DenseSetPairIS2_EEE4growEj
+- __ZN4objc8DenseMapIP10objc_classP17PendingInitializeNS_17DenseMapValueInfoIS4_EENS_12DenseMapInfoIS2_EENS_6detail12DenseMapPairIS2_S4_EEE4growEj
+- __ZN4objc8DenseMapIP10objc_classP17PendingInitializeNS_17DenseMapValueInfoIS4_EENS_12DenseMapInfoIS2_EENS_6detail12DenseMapPairIS2_S4_EEE4initEj
+- __ZN4objc8DenseMapIP10objc_classS2_NS_17DenseMapValueInfoIS2_EENS_12DenseMapInfoIS2_EENS_6detail12DenseMapPairIS2_S2_EEE4growEj
+- __ZNK4objc12DenseMapBaseINS_8DenseMapIP10objc_classNS_13category_listENS_17DenseMapValueInfoIS4_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S4_EEEES3_S4_S6_S8_SB_E15LookupBucketForIS3_EEbRKT_RPKSB_
+- __ZNK4objc12DenseMapBaseINS_8DenseMapIP10objc_classNS_13category_listENS_17DenseMapValueInfoIS4_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S4_EEEES3_S4_S6_S8_SB_E22FatalCorruptHashTablesEPKSB_j
+- __ZNK4objc12DenseMapBaseINS_8DenseMapIP10objc_classNS_6detail13DenseSetEmptyENS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS3_EENS4_12DenseSetPairIS3_EEEES3_S5_S7_S9_SB_E15LookupBucketForIS3_EEbRKT_RPKSB_
+- __ZNK4objc12DenseMapBaseINS_8DenseMapIP10objc_classNS_6detail13DenseSetEmptyENS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS3_EENS4_12DenseSetPairIS3_EEEES3_S5_S7_S9_SB_E22FatalCorruptHashTablesEPKSB_j
+- __ZNK4objc12DenseMapBaseINS_8DenseMapIP10objc_classP17PendingInitializeNS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S5_EEEES3_S5_S7_S9_SC_E15LookupBucketForIS3_EEbRKT_RPKSC_
+- __ZNK4objc12DenseMapBaseINS_8DenseMapIP10objc_classP17PendingInitializeNS_17DenseMapValueInfoIS5_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S5_EEEES3_S5_S7_S9_SC_E22FatalCorruptHashTablesEPKSC_j
+- __ZNK4objc12DenseMapBaseINS_8DenseMapIP10objc_classS3_NS_17DenseMapValueInfoIS3_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S3_EEEES3_S3_S5_S7_SA_E15LookupBucketForIS3_EEbRKT_RPKSA_
+- __ZNK4objc12DenseMapBaseINS_8DenseMapIP10objc_classS3_NS_17DenseMapValueInfoIS3_EENS_12DenseMapInfoIS3_EENS_6detail12DenseMapPairIS3_S3_EEEES3_S3_S5_S7_SA_E22FatalCorruptHashTablesEPKSA_j
+- __ZNSt3__110__function12__value_funcIFvPK18segment_command_64lEED2B8nn180100Ev
+- __ZNSt3__125__throw_bad_function_callB8nn180100Ev
+- __ZNSt3__127__insertion_sort_incompleteB8nn180100INS_17_ClassicAlgPolicyERZN4objc10SafeRanges4findEmRjE3$_0PNS3_5RangeEEEbT1_S9_T0_
+- __ZNSt3__17__sort3B8nn180100INS_17_ClassicAlgPolicyERZN4objc10SafeRanges4findEmRjE3$_0PNS3_5RangeEEEjT1_S9_S9_T0_
+- __ZNSt3__17__sort4B8nn180100INS_17_ClassicAlgPolicyERZN4objc10SafeRanges4findEmRjE3$_0PNS3_5RangeEEEvT1_S9_S9_S9_T0_
+- __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB8nn180100IRPN8method_t9bigSignedES7_EEvOT_OT0_
+- __ZSt28__throw_bad_array_new_lengthB8nn180100v
+- __ZZ12_read_imagesENK3$_1clEP10objc_class
+- ___ZL13setSuperclassP10objc_classS0__block_invoke.187
+- ___ZL32objc_getRealizedClassList_nolockPP10objc_classm_block_invoke.166
+- __destroy_helper_block_e8_32.688
+- __dyld_get_shared_cache_uuid
+- __headerForClass
+- __os_log_simple
+- _oah_is_current_process_translated
+CStrings:
++ "%s is faulting"
++ "%s is stochastically faulting"
++ "%s%s"
++ "CLASS: eagerly realizing class '%s' in objc_readClassPair, overlap found with superclass '%s' - subclass start %u < superclass size %u"
++ "Class %s is implemented in both %s (%p) and %s (%p). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed."
++ "Class of category %s at %p in %s is set to %p, indicating it is missing from an installed root"
++ "POOL HIGHWATER:     "
++ "Superclass of %s at %p in %s is set to %p, indicating it is missing from an installed root"
++ "bad_function_call was thrown in -fno-exceptions mode"
++ "fault"
++ "stochastic-fault"
++ "stochasticFault"
+- "1"
+- "Class %s is implemented in both %s (%p) and %s (%p). One of the two will be used. Which one is undefined."
+- "POOL HIGHWATER:     %s"
+- "nonmeta class %s (%p) unexpectedly not realized"
+
+```

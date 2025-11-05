@@ -1,0 +1,101 @@
+## UserNotificationsSettings
+
+> `/System/Library/PrivateFrameworks/UserNotificationsSettings.framework/Versions/A/UserNotificationsSettings`
+
+```diff
+
+-579.4.3.401.0
+-  __TEXT.__text: 0x9098
++579.5.24.0.0
++  __TEXT.__text: 0x90e4
+   __TEXT.__auth_stubs: 0x320
+-  __TEXT.__objc_methlist: 0x964
++  __TEXT.__objc_methlist: 0xb9c
+   __TEXT.__const: 0x80
+-  __TEXT.__cstring: 0x82d
++  __TEXT.__cstring: 0x843
+   __TEXT.__gcc_except_tab: 0x6c
+   __TEXT.__oslogstring: 0x827
+-  __TEXT.__unwind_info: 0x2f0
++  __TEXT.__unwind_info: 0x2f8
+   __TEXT.__objc_classname: 0x252
+-  __TEXT.__objc_methname: 0x1e7c
+-  __TEXT.__objc_methtype: 0x5fe
+-  __TEXT.__objc_stubs: 0x1140
++  __TEXT.__objc_methname: 0x1f21
++  __TEXT.__objc_methtype: 0x609
++  __TEXT.__objc_stubs: 0x1160
+   __DATA_CONST.__got: 0x148
+   __DATA_CONST.__const: 0x98
+   __DATA_CONST.__objc_classlist: 0x60
+   __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x588
++  __DATA_CONST.__objc_selrefs: 0x620
+   __DATA_CONST.__objc_protorefs: 0x10
+   __DATA_CONST.__objc_superrefs: 0x50
+   __AUTH_CONST.__auth_got: 0x1a0
+   __AUTH_CONST.__const: 0x470
+-  __AUTH_CONST.__cfstring: 0x7e0
+-  __AUTH_CONST.__objc_const: 0x1f30
++  __AUTH_CONST.__cfstring: 0x800
++  __AUTH_CONST.__objc_const: 0x1b98
+   __AUTH.__objc_data: 0x3c0
+-  __DATA.__objc_ivar: 0x8c
++  __DATA.__objc_ivar: 0x90
+   __DATA.__data: 0x300
+   __DATA.__bss: 0x50
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A09CDCDC-D735-3BD0-A263-E165B82EAA7D
+-  Functions: 282
+-  Symbols:   777
+-  CStrings:  530
++  UUID: 7E90D0D5-FF89-3A36-8592-AADD8B119A77
++  Functions: 288
++  Symbols:   785
++  CStrings:  536
+ 
+Symbols:
++ +[UNNotificationSettingsCenter currentNotificationSettingsCenter].cold.1
++ +[UNSystemPreferencesServiceConnection sharedInstance].cold.1
++ +[UNUserNotificationSettingsService clientInterface].cold.1
++ +[UNUserNotificationSettingsService serverInterface].cold.1
++ +[UNUserNotificationSettingsServiceConnection sharedInstance].cold.1
++ -[UNNotificationSystemSettings initWithShowPreviewsSetting:announcementSetting:announcementHeadphonesSetting:announcementCarPlaySetting:scheduledDeliverySetting:scheduledDeliveryTimes:scheduledDeliveryShowNextSummarySetting:notificationListDisplayStyleSetting:remoteNotificationsSetting:summarizationSetting:prioritizationSetting:modifiedSettings:]
++ -[UNNotificationSystemSettings initWithShowPreviewsSetting:announcementSetting:announcementHeadphonesSetting:announcementCarPlaySetting:scheduledDeliverySetting:scheduledDeliveryTimes:scheduledDeliveryShowNextSummarySetting:notificationListDisplayStyleSetting:summarizationSetting:prioritizationSetting:]
++ -[UNNotificationSystemSettings initWithShowPreviewsSetting:announcementSetting:announcementHeadphonesSetting:announcementCarPlaySetting:scheduledDeliverySetting:scheduledDeliveryTimes:scheduledDeliveryShowNextSummarySetting:notificationListDisplayStyleSetting:summarizationSetting:prioritizationSetting:modifiedSettings:]
++ -[UNNotificationSystemSettings prioritizationSetting]
++ OBJC_IVAR_$_UNNotificationSystemSettings._prioritizationSetting
++ _objc_msgSend$initWithShowPreviewsSetting:announcementSetting:announcementHeadphonesSetting:announcementCarPlaySetting:scheduledDeliverySetting:scheduledDeliveryTimes:scheduledDeliveryShowNextSummarySetting:notificationListDisplayStyleSetting:remoteNotificationsSetting:summarizationSetting:prioritizationSetting:modifiedSettings:
++ _objc_msgSend$initWithShowPreviewsSetting:announcementSetting:announcementHeadphonesSetting:announcementCarPlaySetting:scheduledDeliverySetting:scheduledDeliveryTimes:scheduledDeliveryShowNextSummarySetting:notificationListDisplayStyleSetting:summarizationSetting:prioritizationSetting:modifiedSettings:
++ _objc_msgSend$prioritizationSetting
++ _objc_msgSend$settingsWithAuthorizationStatus:soundSetting:badgeSetting:alertSetting:notificationCenterSetting:lockScreenSetting:carPlaySetting:remoteNotificationsSetting:announcementSetting:criticalAlertSetting:timeSensitiveSetting:scheduledDeliverySetting:directMessagesSetting:summarizationSetting:prioritizationSetting:alertStyle:showPreviewsSetting:groupingSetting:providesAppNotificationSettings:
+- -[UNNotificationSystemSettings initWithShowPreviewsSetting:announcementSetting:announcementHeadphonesSetting:announcementCarPlaySetting:scheduledDeliverySetting:scheduledDeliveryTimes:scheduledDeliveryShowNextSummarySetting:notificationListDisplayStyleSetting:remoteNotificationsSetting:summarizationSetting:modifiedSettings:]
+- -[UNNotificationSystemSettings initWithShowPreviewsSetting:announcementSetting:announcementHeadphonesSetting:announcementCarPlaySetting:scheduledDeliverySetting:scheduledDeliveryTimes:scheduledDeliveryShowNextSummarySetting:notificationListDisplayStyleSetting:summarizationSetting:]
+- -[UNNotificationSystemSettings initWithShowPreviewsSetting:announcementSetting:announcementHeadphonesSetting:announcementCarPlaySetting:scheduledDeliverySetting:scheduledDeliveryTimes:scheduledDeliveryShowNextSummarySetting:notificationListDisplayStyleSetting:summarizationSetting:modifiedSettings:]
+- _objc_msgSend$initWithShowPreviewsSetting:announcementSetting:announcementHeadphonesSetting:announcementCarPlaySetting:scheduledDeliverySetting:scheduledDeliveryTimes:scheduledDeliveryShowNextSummarySetting:notificationListDisplayStyleSetting:remoteNotificationsSetting:summarizationSetting:modifiedSettings:
+- _objc_msgSend$initWithShowPreviewsSetting:announcementSetting:announcementHeadphonesSetting:announcementCarPlaySetting:scheduledDeliverySetting:scheduledDeliveryTimes:scheduledDeliveryShowNextSummarySetting:notificationListDisplayStyleSetting:summarizationSetting:modifiedSettings:
+- _objc_msgSend$settingsWithAuthorizationStatus:soundSetting:badgeSetting:alertSetting:notificationCenterSetting:lockScreenSetting:carPlaySetting:remoteNotificationsSetting:announcementSetting:criticalAlertSetting:timeSensitiveSetting:scheduledDeliverySetting:directMessagesSetting:summarizationSetting:alertStyle:showPreviewsSetting:groupingSetting:providesAppNotificationSettings:
+CStrings:
++ "@112@0:8q16q24q32q40q48@56q64q72q80q88q96Q104"
++ "@96@0:8q16q24q32q40q48@56q64q72q80q88"
++ "Tq"
++ "Tq,R,V_prioritizationSetting"
++ "_prioritizationSetting"
++ "initWithShowPreviewsSetting:announcementSetting:announcementHeadphonesSetting:announcementCarPlaySetting:scheduledDeliverySetting:scheduledDeliveryTimes:scheduledDeliveryShowNextSummarySetting:notificationListDisplayStyleSetting:remoteNotificationsSetting:summarizationSetting:prioritizationSetting:modifiedSettings:"
++ "initWithShowPreviewsSetting:announcementSetting:announcementHeadphonesSetting:announcementCarPlaySetting:scheduledDeliverySetting:scheduledDeliveryTimes:scheduledDeliveryShowNextSummarySetting:notificationListDisplayStyleSetting:summarizationSetting:prioritizationSetting:"
++ "initWithShowPreviewsSetting:announcementSetting:announcementHeadphonesSetting:announcementCarPlaySetting:scheduledDeliverySetting:scheduledDeliveryTimes:scheduledDeliveryShowNextSummarySetting:notificationListDisplayStyleSetting:summarizationSetting:prioritizationSetting:modifiedSettings:"
++ "prioritizationSetting"
++ "settingsWithAuthorizationStatus:soundSetting:badgeSetting:alertSetting:notificationCenterSetting:lockScreenSetting:carPlaySetting:remoteNotificationsSetting:announcementSetting:criticalAlertSetting:timeSensitiveSetting:scheduledDeliverySetting:directMessagesSetting:summarizationSetting:prioritizationSetting:alertStyle:showPreviewsSetting:groupingSetting:providesAppNotificationSettings:"
+- "@88@0:8q16q24q32q40q48@56q64q72q80"
+- "@96@0:8q16q24q32q40q48@56q64q72q80Q88"
+- "initWithShowPreviewsSetting:announcementSetting:announcementHeadphonesSetting:announcementCarPlaySetting:scheduledDeliverySetting:scheduledDeliveryTimes:scheduledDeliveryShowNextSummarySetting:notificationListDisplayStyleSetting:remoteNotificationsSetting:summarizationSetting:modifiedSettings:"
+- "initWithShowPreviewsSetting:announcementSetting:announcementHeadphonesSetting:announcementCarPlaySetting:scheduledDeliverySetting:scheduledDeliveryTimes:scheduledDeliveryShowNextSummarySetting:notificationListDisplayStyleSetting:summarizationSetting:"
+- "initWithShowPreviewsSetting:announcementSetting:announcementHeadphonesSetting:announcementCarPlaySetting:scheduledDeliverySetting:scheduledDeliveryTimes:scheduledDeliveryShowNextSummarySetting:notificationListDisplayStyleSetting:summarizationSetting:modifiedSettings:"
+- "settingsWithAuthorizationStatus:soundSetting:badgeSetting:alertSetting:notificationCenterSetting:lockScreenSetting:carPlaySetting:remoteNotificationsSetting:announcementSetting:criticalAlertSetting:timeSensitiveSetting:scheduledDeliverySetting:directMessagesSetting:summarizationSetting:alertStyle:showPreviewsSetting:groupingSetting:providesAppNotificationSettings:"
+
+```

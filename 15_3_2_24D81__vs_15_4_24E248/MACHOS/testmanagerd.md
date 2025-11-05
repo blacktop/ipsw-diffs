@@ -1,0 +1,1452 @@
+## testmanagerd
+
+> `/usr/libexec/testmanagerd`
+
+```diff
+
+-23196.3.0.0.0
+-  __TEXT.__text: 0xb88fc
+-  __TEXT.__auth_stubs: 0x1f60
+-  __TEXT.__objc_stubs: 0x6680
+-  __TEXT.__objc_methlist: 0x3950
+-  __TEXT.__const: 0x1712
+-  __TEXT.__swift5_typeref: 0xcbe
+-  __TEXT.__cstring: 0x5ff2
+-  __TEXT.__objc_methname: 0xca20
+-  __TEXT.__oslogstring: 0x59b9
+-  __TEXT.__swift5_capture: 0x24a4
++23790.0.0.0.0
++  __TEXT.__text: 0xc15b0
++  __TEXT.__auth_stubs: 0x2090
++  __TEXT.__objc_stubs: 0x7000
++  __TEXT.__objc_methlist: 0x5810
++  __TEXT.__const: 0x1732
++  __TEXT.__swift5_typeref: 0xd64
++  __TEXT.__cstring: 0x6ef2
++  __TEXT.__objc_methname: 0xd7e3
++  __TEXT.__oslogstring: 0x6099
++  __TEXT.__swift5_capture: 0x24b4
+   __TEXT.__swift5_entry: 0x8
+   __TEXT.__constg_swiftt: 0x714
+-  __TEXT.__swift5_fieldmd: 0x5f4
++  __TEXT.__swift5_fieldmd: 0x600
+   __TEXT.__swift5_types: 0xa4
+-  __TEXT.__objc_classname: 0x11ac
+-  __TEXT.__objc_methtype: 0x44bd
++  __TEXT.__objc_classname: 0x1228
++  __TEXT.__objc_methtype: 0x4707
+   __TEXT.__ustring: 0xf4
+-  __TEXT.__gcc_except_tab: 0xbac
++  __TEXT.__gcc_except_tab: 0xc3c
+   __TEXT.__swift5_builtin: 0x154
+-  __TEXT.__swift5_reflstr: 0x531
++  __TEXT.__swift5_reflstr: 0x541
+   __TEXT.__swift5_assocty: 0x1e0
+   __TEXT.__swift5_proto: 0xec
++  __TEXT.__swift_as_entry: 0x8c
++  __TEXT.__swift_as_ret: 0x84
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__unwind_info: 0x1ad0
++  __TEXT.__unwind_info: 0x1c60
+   __TEXT.__eh_frame: 0xfc8
+-  __DATA_CONST.__auth_got: 0xfc0
+-  __DATA_CONST.__got: 0x8b8
+-  __DATA_CONST.__auth_ptr: 0x460
+-  __DATA_CONST.__const: 0x7d70
+-  __DATA_CONST.__cfstring: 0x41e0
+-  __DATA_CONST.__objc_classlist: 0x1f8
++  __DATA_CONST.__auth_got: 0x1058
++  __DATA_CONST.__got: 0x918
++  __DATA_CONST.__auth_ptr: 0x408
++  __DATA_CONST.__const: 0x8208
++  __DATA_CONST.__cfstring: 0x4d80
++  __DATA_CONST.__objc_classlist: 0x218
+   __DATA_CONST.__objc_catlist: 0x40
+-  __DATA_CONST.__objc_protolist: 0x3d0
++  __DATA_CONST.__objc_protolist: 0x3e0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0xf0
+-  __DATA_CONST.__objc_superrefs: 0x178
+-  __DATA_CONST.__objc_intobj: 0x768
++  __DATA_CONST.__objc_protorefs: 0xf8
++  __DATA_CONST.__objc_superrefs: 0x188
++  __DATA_CONST.__objc_intobj: 0x888
+   __DATA_CONST.__objc_doubleobj: 0x20
+   __DATA_CONST.__objc_arraydata: 0xd8
+   __DATA_CONST.__objc_dictobj: 0x28
+   __DATA_CONST.__objc_arrayobj: 0x60
+-  __DATA.__objc_const: 0x12c58
+-  __DATA.__objc_selrefs: 0x2618
+-  __DATA.__objc_ivar: 0x520
+-  __DATA.__objc_data: 0x1818
+-  __DATA.__data: 0x3630
+-  __DATA.__bss: 0x1e60
+-  __DATA.__common: 0x1a8
++  __DATA.__objc_const: 0x108d8
++  __DATA.__objc_selrefs: 0x2b48
++  __DATA.__objc_ivar: 0x58c
++  __DATA.__objc_data: 0x1828
++  __DATA.__data: 0x36b0
++  __DATA.__bss: 0x1ea0
++  __DATA.__common: 0x1b0
+   __CGPreLoginApp.__cgpreloginapp: 0x0
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
++  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIOKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 76F7C001-B897-3A98-BF63-2AE2B3ACB3F1
+-  Functions: 3152
+-  Symbols:   7971
+-  CStrings:  4177
++  UUID: A957F458-8E9D-3A3C-AF6B-255A342F87E6
++  Functions: 3413
++  Symbols:   8518
++  CStrings:  4600
+ 
+Symbols:
++ $s2os0A11LogInternal_3log4typeyAA12OSLogMessageV_So03OS_a1_D0CSo0a1_d1_E2_tatFyySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcXEfU_TA.394
++ $s2os0A11LogInternal_3log4typeyAA12OSLogMessageV_So03OS_a1_D0CSo0a1_d1_E2_tatFyySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcXEfU_TA.403
++ $s2os0A11LogInternal_3log4typeyAA12OSLogMessageV_So03OS_a1_D0CSo0a1_d1_E2_tatFyySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcXEfU_TA.433
++ $s2os0A11LogInternal_3log4typeyAA12OSLogMessageV_So03OS_a1_D0CSo0a1_d1_E2_tatFyySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcXEfU_TA.470
++ $s2os0A11LogInternal_3log4typeyAA12OSLogMessageV_So03OS_a1_D0CSo0a1_d1_E2_tatFyySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcXEfU_TA.62
++ $s2os12emitSignpost8preamble13argumentCount10bufferSize06objectF006stringF00E8Closures12signpostTaskxs5UInt8V_AKS3iSayySpyAKGz_SpySo8NSObjectCSgGSgzSpyypGSgztcGxAL_s6UInt32VtKXEtKlFyyALz_AQzASztcXEfU_TA.338
++ $s2os12emitSignpost8preamble13argumentCount10bufferSize06objectF006stringF00E8Closures12signpostTaskxs5UInt8V_AKS3iSayySpyAKGz_SpySo8NSObjectCSgGSgzSpyypGSgztcGxAL_s6UInt32VtKXEtKlFyyALz_AQzASztcXEfU_TA.343
++ $s2os12emitSignpost8preamble13argumentCount10bufferSize06objectF006stringF00E8Closures12signpostTaskxs5UInt8V_AKS3iSayySpyAKGz_SpySo8NSObjectCSgGSgzSpyypGSgztcGxAL_s6UInt32VtKXEtKlFyyALz_AQzASztcXEfU_TA.350
++ $s2os12emitSignpost8preamble13argumentCount10bufferSize06objectF006stringF00E8Closures12signpostTaskxs5UInt8V_AKS3iSayySpyAKGz_SpySo8NSObjectCSgGSgzSpyypGSgztcGxAL_s6UInt32VtKXEtKlFyyALz_AQzASztcXEfU_TA.485
++ $s2os12emitSignpost8preamble13argumentCount10bufferSize06objectF006stringF00E8Closures12signpostTaskxs5UInt8V_AKS3iSayySpyAKGz_SpySo8NSObjectCSgGSgzSpyypGSgztcGxAL_s6UInt32VtKXEtKlFyyALz_AQzASztcXEfU_TA.529
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.203
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.232
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.273
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.306
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.376
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.392
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.393
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.464
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.480
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.508
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.82
++ $s2os14OSLogArgumentsV6appendyySo8NSObjectCSgycFySpys5UInt8VGz_SpyAGGSgzSpyypGSgztcfU_TA.100
++ $s2os14OSLogArgumentsV6appendyySo8NSObjectCSgycFySpys5UInt8VGz_SpyAGGSgzSpyypGSgztcfU_TA.179
++ $s2os14OSLogArgumentsV6appendyySo8NSObjectCSgycFySpys5UInt8VGz_SpyAGGSgzSpyypGSgztcfU_TA.250
++ $s2os14OSLogArgumentsV6appendyySo8NSObjectCSgycFySpys5UInt8VGz_SpyAGGSgzSpyypGSgztcfU_TA.322
++ $s2os14OSLogArgumentsV6appendyySo8NSObjectCSgycFySpys5UInt8VGz_SpyAGGSgzSpyypGSgztcfU_TA.528
++ $s2os14OSLogArgumentsV6appendyySo8NSObjectCSgycFySpys5UInt8VGz_SpyAGGSgzSpyypGSgztcfU_TA.548
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.129
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.133
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.151
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.155
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.167
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.170
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.195
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.220
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.235
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.239
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.240
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.251
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.26
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.261
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.265
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.267
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.271
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.283
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.287
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.294
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.298
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.299
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.303
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.310
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.314
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.315
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.319
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.326
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.330
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.331
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.335
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.347
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.351
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.360
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.364
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.368
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.380
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.384
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.385
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.401
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.405
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.420
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.424
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.435
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.452
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.454
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.456
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.468
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.472
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.487
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.491
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.496
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.500
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.509
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.513
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.516
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.520
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.525
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.529
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.536
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.540
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.547
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.551
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.56
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.563
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.567
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.60
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.70
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.74
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.88
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.141
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.163
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.231
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.247
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.263
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.279
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.295
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.311
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.327
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.337
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.343
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.377
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.413
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.432
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.443
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.462
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.499
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.521
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.537
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.55
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.559
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.575
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.84
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.199
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.228
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.269
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.302
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.372
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.388
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.389
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.460
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.476
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.504
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.78
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyyxyXA_AA0B15StringAlignmentVAA0B7PrivacyVts06CustomG11ConvertibleRzlFSSycfu_TA.187
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyyxyXA_AA0B15StringAlignmentVAA0B7PrivacyVts06CustomG11ConvertibleRzlFSSycfu_TA.213
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyyxyXA_AA0B15StringAlignmentVAA0B7PrivacyVts06CustomG11ConvertibleRzlFSSycfu_TA.257
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyyxyXA_AA0B15StringAlignmentVAA0B7PrivacyVts06CustomG11ConvertibleRzlFSSycfu_TA.284
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyyxyXA_AA0B15StringAlignmentVAA0B7PrivacyVts06CustomG11ConvertibleRzlFSSycfu_TA.441
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyyxyXA_AA0B15StringAlignmentVAA0B7PrivacyVts06CustomG11ConvertibleRzlFSSycfu_TA.448
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyyxyXA_AA0B15StringAlignmentVAA0B7PrivacyVts06CustomG11ConvertibleRzlFSSycfu_TA.492
++ $s2os18OSLogInterpolationV06appendC0_7privacy10attributesys5Error_pSgyXA_AA0B7PrivacyVSStFSo8NSObjectCSgycfu_TA.318
++ $s2os18OSLogInterpolationV06appendC0_7privacyySo8NSObjectCyXA_AA0B7PrivacyVtFAGSgycfu_TA.175
++ $s2os18OSLogInterpolationV06appendC0_7privacyySo8NSObjectCyXA_AA0B7PrivacyVtFAGSgycfu_TA.524
++ $s2os18OSLogInterpolationV06appendC0_7privacyySo8NSObjectCyXA_AA0B7PrivacyVtFAGSgycfu_TA.544
++ $s2os18OSLogInterpolationV06appendC0_7privacyySo8NSObjectCyXA_AA0B7PrivacyVtFAGSgycfu_TA.96
++ $s9XCTDaemon28RemoteRunnerConnectionBrokerC8delegateSo35XCTDRemoteAutomationSessionDelegate_pSgvM.resume.0
++ $sIg_Ieg_TRTA.116
++ $sIg_Ieg_TRTA.186
++ $sIg_Ieg_TRTA.399
++ $sIg_Ieg_TRTA.477
++ $sSiIegd_SiIegr_TRTA.409
++ $sSiIegd_SiIegr_TRTA.428
++ $ss5Int32VIegd_ABIegr_TRTA.137
++ $ss5Int32VIegd_ABIegr_TRTA.159
++ $ss5Int32VIegd_ABIegr_TRTA.420
++ $ss5Int32VIegd_ABIegr_TRTA.439
++ $ss5Int32VIegd_ABIegr_TRTA.458
++ $ss5Int32VIegd_ABIegr_TRTA.495
++ $ss5Int32VIegd_ABIegr_TRTA.51
++ $ss5Int32VIegd_ABIegr_TRTA.517
++ $ss5Int32VIegd_ABIegr_TRTA.533
++ $ss5Int32VIegd_ABIegr_TRTA.555
++ $ss5Int32VIegd_ABIegr_TRTA.571
++ $ss5Int32VIegd_ABIegr_TRTA.80
++ $ss6UInt32VIegd_ABIegr_TRTA.243
++ $ss6UInt32VIegd_ABIegr_TRTA.259
++ $ss6UInt32VIegd_ABIegr_TRTA.275
++ $ss6UInt32VIegd_ABIegr_TRTA.291
++ $ss6UInt32VIegd_ABIegr_TRTA.307
++ $ss6UInt32VIegd_ABIegr_TRTA.323
++ $ss6UInt32VIegd_ABIegr_TRTA.339
++ +[XCPointerEvent eventWithType:buttonType:coordinate:pressure:gestureStage:offset:duration:clickCount:gesturePhase:].cold.1
++ +[XCPointerEvent textEventForString:offset:typingSpeed:shouldRedact:].cold.1
++ +[XCSynthesizedEventRecord utIdentifierString]
++ +[XCTDAXNotificationHandlerRegistry sharedRegistry].cold.1
++ +[XCTDAutomationModeInterface sharedInterface].cold.1
++ +[XCTDKeyboardLayout _keyboardLayoutForIdentifier:].cold.1
++ +[XCTDKeyboardLayout currentKeyboardLayout].cold.1
++ +[XCTDKeyboardLayout unicodeHexKeyboardLayout].cold.1
++ +[XCTDKeyboardLayoutCache sharedCache].cold.1
++ +[XCTDMouseEventConverter supportedEventTypes].cold.1
++ +[XCTDProcessMonitor processStateDescriptor].cold.1
++ +[XCTDRemoteAutomationSession deviceSupportsAccessibilityAutomation]
++ +[XCTDRemoteAutomationSession deviceSupportsAccessibilityAutomation].cold.1
++ +[XCTDTextEventConverter supportedEventTypes].cold.1
++ +[XCTDTouchBarEventConverter supportedEventTypes].cold.1
++ +[XCTDUIRecorder_Mac provideCapabilitiesToBuilder:]
++ +[XCTestSession deviceSupportsAccessibilityAutomation]
++ +[XCTestSession deviceSupportsAccessibilityAutomation].cold.1
++ -[XCCrashReportObserver startMonitoringWithError:].cold.1
++ -[XCIDESession _IDE_startRecordingProcessPID:xcodeProcessPID:]
++ -[XCIDESession _IDE_startRecordingProcessPID:xcodeProcessPID:].cold.1
++ -[XCIDESession currentRecorder]
++ -[XCIDESession dealloc].cold.1
++ -[XCIDESession setCurrentRecorder:]
++ -[XCPointerEventPath dragWithButton:toPoint:atOffset:duration:].cold.1
++ -[XCPointerEventPath dragWithButton:toPoint:atOffset:duration:].cold.2
++ -[XCPointerEventPath dragWithButton:toPoint:atOffset:duration:].cold.3
++ -[XCPointerEventPath initForTouchAtPoint:offset:].cold.1
++ -[XCPointerEventPath initForTouchBarAtPoint:offset:].cold.1
++ -[XCPointerEventPath moveMouseToPoint:atOffset:duration:].cold.1
++ -[XCPointerEventPath moveMouseToPoint:atOffset:duration:].cold.2
++ -[XCPointerEventPath moveMouseToPoint:atOffset:duration:].cold.3
++ -[XCPointerEventPath moveToPoint:atOffset:].cold.1
++ -[XCPointerEventPath moveToPoint:atOffset:].cold.2
++ -[XCTDAXManager_macOS _queue_startObservingApplication:error:].cold.1
++ -[XCTDApplicationLauncher snapshotForApplicationWithASN:eventID:].cold.1
++ -[XCTDAuthorizedProcessTracker authorizeProcessID:].cold.1
++ -[XCTDAutomationServicesProvider dealloc].cold.1
++ -[XCTDAutomationServicesProvider loadAccessibilityWithTimeout:error:].cold.1
++ -[XCTDAutomationServicesProvider loadAccessibilityWithTimeout:error:].cold.2
++ -[XCTDAutomationServicesProvider unloadAccessibility].cold.1
++ -[XCTDContinuousEventInterpolationStepper initWithPointerEvent:eventConverter:eventSource:].cold.1
++ -[XCTDDaemon remoteRunnerUnexpectedlyDisconnected]
++ -[XCTDDragOrMoveEventInterpolator pointerEventForInterpolationStep:error:].cold.1
++ -[XCTDDragOrMoveEventInterpolator pointerEventForInterpolationStep:error:].cold.2
++ -[XCTDEventDispatcher postMacOSEvent:forRequest:].cold.1
++ -[XCTDEventDispatcher postMacOSEvent:forRequest:].cold.2
++ -[XCTDEventDispatcher postMacOSEvent:forRequest:].cold.3
++ -[XCTDEventGenerator_macOS _finalizeRequest:timedOut:error:].cold.1
++ -[XCTDKeyboardKeyMap _initInexactSequences].cold.1
++ -[XCTDKeyboardKeyMap _initIntendedStrings].cold.1
++ -[XCTDKeyboardKeyMap _initKeyboardKeys].cold.1
++ -[XCTDKeyboardKeyMap _initKeyboardKeys].cold.2
++ -[XCTDKeyboardLayout activateWithError:].cold.1
++ -[XCTDKeyboardLayout deactivateWithNewState:error:].cold.1
++ -[XCTDKeyboardLayout deactivateWithNewState:error:].cold.2
++ -[XCTDKeyboardLayout initWithInputSource:].cold.1
++ -[XCTDKeyboardLayout initWithInputSource:].cold.2
++ -[XCTDLaunchServicesFramework ASNForBundleID:path:].cold.1
++ -[XCTDMouseEventConverter eventForPointerEvent:error:].cold.1
++ -[XCTDMouseEventConverter interpolationStepperForPointerEvent:eventSource:].cold.1
++ -[XCTDMouseEventConverter interpolatorForPointerEvent:eventSource:].cold.1
++ -[XCTDProcessAssertionManager dealloc].cold.1
++ -[XCTDProcessManagementServicesProvider dealloc].cold.1
++ -[XCTDProcessManagementServicesProvider invalidate].cold.1
++ -[XCTDRBSTargetApplicationResolver .cxx_destruct]
++ -[XCTDRBSTargetApplicationResolver cache]
++ -[XCTDRBSTargetApplicationResolver fetchTargetPidForRecordingEvent:]
++ -[XCTDRBSTargetApplicationResolver init]
++ -[XCTDRBSTargetApplicationResolver invalidate]
++ -[XCTDRBSTargetApplicationResolver isInvalidated]
++ -[XCTDRBSTargetApplicationResolver setCache:]
++ -[XCTDRBSTargetApplicationResolver setIsInvalidated:]
++ -[XCTDRBSTargetApplicationResolver targetPidForRecordingEvent:]
++ -[XCTDRemoteAutomationSession dealloc].cold.1
++ -[XCTDRemoteAutomationSession handleRemoteRunnerUnexpectedDisconnect]
++ -[XCTDScrollEventInterpolator pointerEventForInterpolationStep:error:].cold.1
++ -[XCTDScrollEventInterpolator pointerEventForInterpolationStep:error:].cold.2
++ -[XCTDTextEventConverter _cgEventForPointerEvent:].cold.1
++ -[XCTDTextEventConverter eventForPointerEvent:error:].cold.1
++ -[XCTDTextEventConverter eventForPointerEvent:error:].cold.2
++ -[XCTDTextEventConverter interpolationStepperForPointerEvent:eventSource:].cold.1
++ -[XCTDTextEventConverter interpolatorForPointerEvent:eventSource:].cold.1
++ -[XCTDTextInputSource initWithInputSourceRef:].cold.1
++ -[XCTDTouchBarEventConverter eventForPointerEvent:error:].cold.1
++ -[XCTDTouchBarEventConverter interpolationStepperForPointerEvent:eventSource:].cold.1
++ -[XCTDTouchBarEventConverter interpolatorForPointerEvent:eventSource:].cold.1
++ -[XCTDTrackpadScrollGestureEventInterpolationStepper initWithPointerEvent:eventConverter:eventSource:].cold.1
++ -[XCTDUIRecorder_Mac .cxx_destruct]
++ -[XCTDUIRecorder_Mac _applicationSnapshot]
++ -[XCTDUIRecorder_Mac _elementForLocation:inRootElementSnapshot:error:]
++ -[XCTDUIRecorder_Mac _isCancelCommandEvent:withType:]
++ -[XCTDUIRecorder_Mac _processApplicationActivatedEventForProcessId:]
++ -[XCTDUIRecorder_Mac _processEvent:withType:proxy:]
++ -[XCTDUIRecorder_Mac _recognizedEventTypeNames:atAbsoluteTime:applicationSnapshot:accessibilityElement:modifierFlags:]
++ -[XCTDUIRecorder_Mac _recordEvent:withType:proxy:]
++ -[XCTDUIRecorder_Mac _recordEventsOnPrivateThread]
++ -[XCTDUIRecorder_Mac _recordedKeyEventsWithApplicationSnapshot:characters:charactersIgnoringModifiers:modifierFlags:]
++ -[XCTDUIRecorder_Mac _sendCurrentAction]
++ -[XCTDUIRecorder_Mac _setupEventTapOnCurrentRunLoopWithErrorString:]
++ -[XCTDUIRecorder_Mac _setupEventTapOnCurrentRunLoopWithErrorString:].cold.1
++ -[XCTDUIRecorder_Mac _shouldRecordEventForPID:]
++ -[XCTDUIRecorder_Mac axManager]
++ -[XCTDUIRecorder_Mac client]
++ -[XCTDUIRecorder_Mac currentAction]
++ -[XCTDUIRecorder_Mac eventTapPort]
++ -[XCTDUIRecorder_Mac excludedProccessPIDs]
++ -[XCTDUIRecorder_Mac isRecording]
++ -[XCTDUIRecorder_Mac processManagementServices]
++ -[XCTDUIRecorder_Mac setClient:]
++ -[XCTDUIRecorder_Mac setCurrentAction:]
++ -[XCTDUIRecorder_Mac setEventTapPort:]
++ -[XCTDUIRecorder_Mac setExcludedProccessPIDs:]
++ -[XCTDUIRecorder_Mac setIsRecording:]
++ -[XCTDUIRecorder_Mac setProcessManagementServices:]
++ -[XCTDUIRecorder_Mac setTargetApplicationResolver:]
++ -[XCTDUIRecorder_Mac startRecordingWithHostXcodePID:targetProcessPID:]
++ -[XCTDUIRecorder_Mac stopRecording]
++ -[XCTDUIRecorder_Mac targetApplicationResolver]
++ -[XCTSerializedTransportWrapper initWithCoder:].cold.1
++ -[XCTTargetBootstrapSession initWithTargetConnection:delegate:].cold.1
++ -[XCTestSession canSkipAutomationMode]
++ -[XCTestSession dealloc].cold.1
++ -[XCTestSession initWithNSXPCConnection:delegate:automationModeInterface:diagnosticsProvider:screenshotProvider:screenRecordingProvider:processManagementServices:targetBootstrapSessionProvider:automationServicesFactory:].cold.1
++ -[XCUIRecorderAction .cxx_destruct]
++ -[XCUIRecorderAction actionBeganRootElementSnapshot]
++ -[XCUIRecorderAction actionBeganSelectedElementSnapshot]
++ -[XCUIRecorderAction events]
++ -[XCUIRecorderAction init]
++ -[XCUIRecorderAction isHandEvent]
++ -[XCUIRecorderAction mouseGestureNames]
++ -[XCUIRecorderAction setActionBeganRootElementSnapshot:]
++ -[XCUIRecorderAction setActionBeganSelectedElementSnapshot:]
++ -[XCUIRecorderAction setEvents:]
++ -[XCUIRecorderAction setTargetAccessibilityElement:]
++ -[XCUIRecorderAction targetAccessibilityElement]
++ -[XCUIRecorderAction touchEventTypeNameWaitForTimeInterval:]
++ -[XCUIRecorderAction touchGestureNamesWaitForTimeInterval:]
++ -[XCUIRecorderAction touchGestureNamesWaitForTimeInterval:].cold.1
++ -[XCUIRecorderAction touchGestureNamesWaitForTimeInterval:].cold.2
++ -[XCUIRecorderAction touchGestureNamesWaitForTimeInterval:].cold.3
++ -[XCUIRecorderAction touchGestureNamesWaitForTimeInterval:].cold.4
++ -[XCUIRecorderAction touchGestureNamesWaitForTimeInterval:].cold.5
++ -[XCUIRecorderEvent HIDTime]
++ -[XCUIRecorderEvent clickCount]
++ -[XCUIRecorderEvent creationAbsoluteTime]
++ -[XCUIRecorderEvent eventType]
++ -[XCUIRecorderEvent handEventType]
++ -[XCUIRecorderEvent keyboardModifierFlags]
++ -[XCUIRecorderEvent location]
++ -[XCUIRecorderEvent setClickCount:]
++ -[XCUIRecorderEvent setCreationAbsoluteTime:]
++ -[XCUIRecorderEvent setEventType:]
++ -[XCUIRecorderEvent setHIDTime:]
++ -[XCUIRecorderEvent setHandEventType:]
++ -[XCUIRecorderEvent setKeyboardModifierFlags:]
++ -[XCUIRecorderEvent setLocation:]
++ -[XCUIRecorderEvent setTouchCount:]
++ -[XCUIRecorderEvent touchCount]
++ GCC_except_table103
++ GCC_except_table108
++ GCC_except_table119
++ GCC_except_table42
++ GCC_except_table72
++ GCC_except_table89
++ OBJC_IVAR_$_XCIDESession._currentRecorder
++ OBJC_IVAR_$_XCTDRBSTargetApplicationResolver._cache
++ OBJC_IVAR_$_XCTDRBSTargetApplicationResolver._isInvalidated
++ OBJC_IVAR_$_XCTDUIRecorder_Mac._axManager
++ OBJC_IVAR_$_XCTDUIRecorder_Mac._client
++ OBJC_IVAR_$_XCTDUIRecorder_Mac._currentAction
++ OBJC_IVAR_$_XCTDUIRecorder_Mac._currentProcessPID
++ OBJC_IVAR_$_XCTDUIRecorder_Mac._eventTapPort
++ OBJC_IVAR_$_XCTDUIRecorder_Mac._eventsQueue
++ OBJC_IVAR_$_XCTDUIRecorder_Mac._excludedProccessPIDs
++ OBJC_IVAR_$_XCTDUIRecorder_Mac._isRecording
++ OBJC_IVAR_$_XCTDUIRecorder_Mac._lastTimestamp
++ OBJC_IVAR_$_XCTDUIRecorder_Mac._processManagementServices
++ OBJC_IVAR_$_XCTDUIRecorder_Mac._targetApplicationResolver
++ OBJC_IVAR_$_XCTDUIRecorder_Mac._targetProcessPID
++ OBJC_IVAR_$_XCUIRecorderAction._actionBeganRootElementSnapshot
++ OBJC_IVAR_$_XCUIRecorderAction._actionBeganSelectedElementSnapshot
++ OBJC_IVAR_$_XCUIRecorderAction._events
++ OBJC_IVAR_$_XCUIRecorderAction._targetAccessibilityElement
++ OBJC_IVAR_$_XCUIRecorderEvent._HIDTime
++ OBJC_IVAR_$_XCUIRecorderEvent._clickCount
++ OBJC_IVAR_$_XCUIRecorderEvent._creationAbsoluteTime
++ OBJC_IVAR_$_XCUIRecorderEvent._eventType
++ OBJC_IVAR_$_XCUIRecorderEvent._handEventType
++ OBJC_IVAR_$_XCUIRecorderEvent._keyboardModifierFlags
++ OBJC_IVAR_$_XCUIRecorderEvent._location
++ OBJC_IVAR_$_XCUIRecorderEvent._touchCount
++ XCTDDefaultLog.cold.1
++ XCUIEventTypeForCGEventType._mapTable
++ XCUIEventTypeForCGEventType.cold.1
++ XCUIEventTypeForCGEventType.onceToken
++ XCUIKeyboardDisplayStringForKey.cold.1
++ XCUIKeyboardSymbolNameForKey.cold.1
++ _$s10ObjectiveC15autoreleasepool8invokingq_q_yxYKXE_txYKs5ErrorRzRi__r0_lF
++ _$s12CoreGraphics7CGFloatVyACxcSzRzlufCSi_Tt0gq5
++ _$s12testmanagerdAAO4mainyyFZSSycfu_
++ _$s12testmanagerdAAO4mainyyFZSSycfu_TA
++ _$s12testmanagerdAAO4mainyyFZs5Error_pycfu2_
++ _$s12testmanagerdAAO4mainyyFZs5Error_pycfu2_TA
++ _$s2os12OSSignposterV9XCTDaemonE10screenshotACvgZ
++ _$s2os12OSSignposterV9XCTDaemonE11diagnosticsACvgZ
++ _$s2os12OSSignposterV9XCTDaemonE15screenRecordingACvgZ
++ _$s2os12OSSignposterV9XCTDaemonE35protectedResourceAuthorizationResetACvgZ
++ _$s2os12OSSignposterV9XCTDaemonE9subsystem33_A1B2F5D7C38491B88341899338559AFDLLSSvgZ
++ _$s2os6LoggerV9XCTDaemonE9subsystem33_4394650322BF6885742267C63EDCA710LLSSvgZ
++ _$s9XCTDaemon16SpindumpProviderC13specification027_827FBDB3B22E68B5BE5CE0E313H4AA3ALLSo31XCTSpindumpRequestSpecificationCvg
++ _$s9XCTDaemon16SpindumpProviderC16spindumpFunction027_827FBDB3B22E68B5BE5CE0E313I4AA3ALLyys5Int32V_s6UInt64VA2ISo15SPSpindumpFlagsVSPys4Int8VGSgAoNyAG_AOtcSgtYbcvg
++ _$s9XCTDaemon16TailspinProviderC16tailspinFunction33_973C8F72E7F43160E05417C88196EC2FLLyys5Int32V_SDys11AnyHashableVypGSgSo17OS_dispatch_queueCSgySbctYbcvg
++ _$s9XCTDaemon16TailspinProviderC7request33_973C8F72E7F43160E05417C88196EC2FLLSo18XCTTailspinRequestCvg
++ _$s9XCTDaemon18ScreenshotProviderC11ideSessions33_95F59F0EBA10926FC362B85516BB4A3CLLAA04WeakE14ContainerActorCySo12XCIDESessionCGvgZ
++ _$s9XCTDaemon18ScreenshotProviderC9ConstantsO11encodingKeySSvgZ
++ _$s9XCTDaemon18ScreenshotProviderC9ConstantsO11metadataKeySSvgZ
++ _$s9XCTDaemon18ScreenshotProviderC9ConstantsO14orientationKeySSvgZ
++ _$s9XCTDaemon23InternalTelemetryLoggerC11endpointURL33_2A8CAE3FC8F0BF295D21FB1B0974D28BLL10Foundation0F0Vvg
++ _$s9XCTDaemon23InternalTelemetryLoggerC18authorizationToken33_2A8CAE3FC8F0BF295D21FB1B0974D28BLLSSvg
++ _$s9XCTDaemon23InternalTelemetryLoggerC25urlSessionProtocolClasses33_2A8CAE3FC8F0BF295D21FB1B0974D28BLLSayyXlXpGvg
++ _$s9XCTDaemon23InternalTelemetryLoggerC7defaultACSgvpZMV
++ _$s9XCTDaemon23InternalTelemetryLoggerC8_session33_2A8CAE3FC8F0BF295D21FB1B0974D28BLLSo12NSURLSessionCSgvg
++ _$s9XCTDaemon23InternalTelemetryLoggerC8_session33_2A8CAE3FC8F0BF295D21FB1B0974D28BLLSo12NSURLSessionCSgvs
++ _$s9XCTDaemon23InternalTelemetryLoggerC9ConstantsO10httpMethodSSvpZMV
++ _$s9XCTDaemon23InternalTelemetryLoggerC9ConstantsO14requestTimeoutSdvpZMV
++ _$s9XCTDaemon23InternalTelemetryLoggerC9ConstantsO15resourceTimeoutSdvpZMV
++ _$s9XCTDaemon23InternalTelemetryLoggerC9ConstantsO17configurationPath10Foundation3URLVvpZMV
++ _$s9XCTDaemon23InternalTelemetryLoggerC9ConstantsO21tokenConfigurationKeySSvpZMV
++ _$s9XCTDaemon23InternalTelemetryLoggerC9ConstantsO24authorizationHeaderFieldSSvpZMV
++ _$s9XCTDaemon23InternalTelemetryLoggerC9ConstantsO25configurationPathOverride10Foundation3URLVSgvpZMV
++ _$s9XCTDaemon23InternalTelemetryLoggerC9ConstantsO27endpointURLConfigurationKeySSvpZMV
++ _$s9XCTDaemon23InternalTelemetryLoggerC9ConstantsO33urlSessionProtocolClassesOverrideSayyXlXpGSgvpZMV
++ _$s9XCTDaemon23ScreenRecordingProviderC11ideSessions33_EFE97DD832FC613A5AB16C1ACFB3C5A4LLAA04WeakF14ContainerActorCySo12XCIDESessionCGvgZ
++ _$s9XCTDaemon23ScreenRecordingProviderC17videoWritingQueue33_EFE97DD832FC613A5AB16C1ACFB3C5A4LLSo17OS_dispatch_queueCvg
++ _$s9XCTDaemon23ScreenRecordingProviderC24remoteAutomationSessions33_EFE97DD832FC613A5AB16C1ACFB3C5A4LLAA04WeakG14ContainerActorCySo010XCTDRemoteF7SessionCGvgZ
++ _$s9XCTDaemon23ScreenRecordingProviderC5State33_EFE97DD832FC613A5AB16C1ACFB3C5A4LLO5ModelV11assetWriterSo07AVAssetQ0Cvg
++ _$s9XCTDaemon23ScreenRecordingProviderC5State33_EFE97DD832FC613A5AB16C1ACFB3C5A4LLO5ModelV11assetWriterSo07AVAssetQ0Cvs
++ _$s9XCTDaemon23ScreenRecordingProviderC5State33_EFE97DD832FC613A5AB16C1ACFB3C5A4LLO5ModelV16assetWriterInputSo07AVAssetqR0Cvg
++ _$s9XCTDaemon23ScreenRecordingProviderC5State33_EFE97DD832FC613A5AB16C1ACFB3C5A4LLO5ModelV16assetWriterInputSo07AVAssetqR0Cvs
++ _$s9XCTDaemon23ScreenRecordingProviderC5State33_EFE97DD832FC613A5AB16C1ACFB3C5A4LLO5ModelV24attachmentFutureMetadataSo013XCTAttachmentqR0Cvg
++ _$s9XCTDaemon23ScreenRecordingProviderC5State33_EFE97DD832FC613A5AB16C1ACFB3C5A4LLO5ModelV24attachmentFutureMetadataSo013XCTAttachmentqR0Cvs
++ _$s9XCTDaemon23ScreenRecordingProviderC5State33_EFE97DD832FC613A5AB16C1ACFB3C5A4LLO5ModelV3url10Foundation3URLVvg
++ _$s9XCTDaemon23ScreenRecordingProviderC5State33_EFE97DD832FC613A5AB16C1ACFB3C5A4LLO5ModelV3url10Foundation3URLVvs
++ _$s9XCTDaemon23ScreenRecordingProviderC5State33_EFE97DD832FC613A5AB16C1ACFB3C5A4LLO5ModelV6streamSo8SCStreamCvg
++ _$s9XCTDaemon23ScreenRecordingProviderC5State33_EFE97DD832FC613A5AB16C1ACFB3C5A4LLO5ModelV6streamSo8SCStreamCvs
++ _$s9XCTDaemon23ScreenRecordingProviderC9stateLock33_EFE97DD832FC613A5AB16C1ACFB3C5A4LL2os017OSAllocatedUnfairF0VyAC5StateAELLOGvg
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC015_XCT_isReadyForbcD014withAuditTokenySo13audit_token_ta_tFyyXEfU_s5Int32Vycfu_
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC015_XCT_isReadyForbcD014withAuditTokenySo13audit_token_ta_tFyyXEfU_s5Int32Vycfu_TA
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC03xpcD0So15NSXPCConnectionCSgvWyycfU_TA
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC03xpcD0So15NSXPCConnectionCSgvg
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC06remoteC9ProcessIDs5Int32Vvg
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC06remoteC9ProcessIDs5Int32Vvs
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC10connectionSo13DTXConnectionCSgvg
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC10connectionSo13DTXConnectionCSgvs
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC18connectionListenerSo13NSXPCListenerCvg
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC22hostObserverCompletionySo7NSErrorCSgcSgvg
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC22hostObserverCompletionySo7NSErrorCSgcSgvs
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC23_XCT_readyForDisconnectyyF
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC23_XCT_readyForDisconnectyyFTo
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC24checkInternalEntitlement33_8B746F3B8478C55E7CB7A7C4810FC86DLL14withAuditTokenSbSo13audit_token_ta_tFSSycfu7_
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC24checkInternalEntitlement33_8B746F3B8478C55E7CB7A7C4810FC86DLL14withAuditTokenSbSo13audit_token_ta_tFSSycfu8_TA
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC24runnerObserverCompletionySo13OS_xpc_object_pcSgvg
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC24runnerObserverCompletionySo13OS_xpc_object_pcSgvs
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC32connectionTransferCompletedStateAC0g10CompletionI0OSgvg
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC32connectionTransferCompletedStateAC0g10CompletionI0OSgvs
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC5queue33_8B746F3B8478C55E7CB7A7C4810FC86DLLSo012OS_dispatch_F0Cvg
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC6sharedACvau
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC6sharedACvgZ
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC6sharedACvgZTo
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC6sharedACvpZ
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC6shared_WZ
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC6shared_Wz
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC8delegateSo35XCTDRemoteAutomationSessionDelegate_pSgvM
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC8delegateSo35XCTDRemoteAutomationSessionDelegate_pSgvg
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC8delegateSo35XCTDRemoteAutomationSessionDelegate_pSgvgTo
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC8delegateSo35XCTDRemoteAutomationSessionDelegate_pSgvpMV
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC8delegateSo35XCTDRemoteAutomationSessionDelegate_pSgvpWvd
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC8delegateSo35XCTDRemoteAutomationSessionDelegate_pSgvpfi
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC8delegateSo35XCTDRemoteAutomationSessionDelegate_pSgvs
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC8delegateSo35XCTDRemoteAutomationSessionDelegate_pSgvsTo
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC8listener_015shouldAcceptNewD0SbSo13NSXPCListenerC_So15NSXPCConnectionCtFSbyXEfU_s5Int32Vycfu0_
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC8listener_015shouldAcceptNewD0SbSo13NSXPCListenerC_So15NSXPCConnectionCtFSbyXEfU_s5Int32Vycfu0_TA
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC9transportSo13OS_xpc_object_pSgvg
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerC9transportSo13OS_xpc_object_pSgvs
++ _$s9XCTDaemon28RemoteRunnerConnectionBrokerCSgWOh
++ _$s9XCTDaemon35TCCAuthorizationStatusResetProviderC018resetAuthorizationC07requestyAA017ProtectedResourcegD7RequestV_tYaKFSSycfu_
++ _$s9XCTDaemon35TCCAuthorizationStatusResetProviderC018resetAuthorizationC07requestyAA017ProtectedResourcegD7RequestV_tYaKFSSycfu_TA
++ _$s9XCTDaemon35TCCAuthorizationStatusResetProviderC018resetAuthorizationC07requestyAA017ProtectedResourcegD7RequestV_tYaKFSiycfu3_
++ _$s9XCTDaemon35TCCAuthorizationStatusResetProviderC018resetAuthorizationC07requestyAA017ProtectedResourcegD7RequestV_tYaKFSiycfu3_TA
++ _$s9XCTDaemon42ProtectedResourceAuthorizationResetRequestV09protectedC0So13XCTCapabilityavg
++ _$s9XCTDaemon42ProtectedResourceAuthorizationResetRequestV10auditTokenSo0G8_token_tavg
++ _$s9XCTDaemon42ProtectedResourceAuthorizationResetRequestV16bundleIdentifierSSvg
++ _$sSS8UTF8ViewV13_foreignIndex5afterSS0D0VAF_tF
++ _$sSS8UTF8ViewV13_foreignIndex_8offsetBySS0D0VAF_SitF
++ _$sSS8UTF8ViewV17_foreignSubscript8positions5UInt8VSS5IndexV_tF
++ _$sSS9UTF16ViewV5index_8offsetBySS5IndexVAF_SitF
++ _$sSa22_allocateUninitializedySayxG_SpyxGtSiFZSo17OS_dispatch_queueC8DispatchE10AttributesV_Tt0gq5
++ _$sScTss5NeverORs_rlE8priority9operationScTyxABGScPSg_xyYaYAcntcfCyt_Tt1gq5
++ _$sSccySo18SCShareableContentCs5Error_pGMD
++ _$sSccySo27XCTAttachmentFutureMetadataCs5Error_pGMD
++ _$sSccyyts5Error_pGMD
++ _$sSccyyts5NeverOGMD
++ _$sSo23CGSWindowCaptureOptionsV9XCTDaemonE26captureExcludeCursorWindowABvgZ
++ _$sSo35XCTDRemoteAutomationSessionDelegate_pSgWOh
++ _$sSo35XCTDRemoteAutomationSessionDelegate_pSgXwWOh
++ _$sSv16initializeMemory2as4from5countSpyxGxm_SPyxGSitlFs5UInt8V_Ttgq5
++ _$ss11_StringGutsV27_slowEnsureMatchingEncodingySS5IndexVAEF
++ _$ss15ContiguousArrayVAByxGycfCs5UInt8V_Ttgq5
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5
++ _$ss5NeverOMn
++ _CFMachPortCreateRunLoopSource
++ _CFRunLoopGetCurrent
++ _CGEventGetFlags
++ _CGEventGetLocation
++ _CGEventGetTimestamp
++ _CGEventKeyboardGetUnicodeString
++ _CGEventTapCreate
++ _CGEventTapEnable
++ _NSDefaultRunLoopMode
++ _OBJC_$_PROP_LIST_XCTDAutomationModeInterface.305
++ _OBJC_$_PROP_LIST_XCTTargetBootstrapSession.315
++ _OBJC_$_PROP_LIST_XCTestSession.708
++ _OBJC_CLASS_$_NSEvent
++ _OBJC_CLASS_$_XCTDRBSTargetApplicationResolver
++ _OBJC_CLASS_$_XCTDUIRecorder_Mac
++ _OBJC_CLASS_$_XCTTimeoutControls
++ _OBJC_CLASS_$_XCUIRecorderAction
++ _OBJC_CLASS_$_XCUIRecorderEvent
++ _OBJC_METACLASS_$_XCTDRBSTargetApplicationResolver
++ _OBJC_METACLASS_$_XCTDUIRecorder_Mac
++ _OBJC_METACLASS_$_XCUIRecorderAction
++ _OBJC_METACLASS_$_XCUIRecorderEvent
++ _PROTOCOLS_XCTDRemoteRunnerConnectionBroker.405
++ _PROTOCOLS_XCTDScreenRecordingProvider.345
++ _XCIsValidKeyboardKey.cold.1
++ _XCMachTimeForTimeInterval.cold.1
++ _XCTimeIntervalForMachTime.cold.1
++ _XCTimeIntervalForMachTime_TimeScale.onceToken
++ _XCTimeIntervalForMachTime_TimeScale.timeScale
++ _XCUIEventTypeForCGEventType
++ _XCUIEventType_GetEnumSymbolName.cold.1
++ _XCUIGestureName_DoubleClick
++ _XCUIGestureName_DoubleTap
++ _XCUIGestureName_LeftMouseDown
++ _XCUIGestureName_LongPress
++ _XCUIGestureName_Pan
++ _XCUIGestureName_PinchClosed
++ _XCUIGestureName_PinchOpen
++ _XCUIGestureName_RightMouseDown
++ _XCUIGestureName_SwipeDown
++ _XCUIGestureName_SwipeLeft
++ _XCUIGestureName_SwipeRight
++ _XCUIGestureName_SwipeUp
++ _XCUIGestureName_Tap
++ _XCUIGestureName_TwoFingerTap
++ __100-[XCTDRemoteAutomationSession _IDE_convertConnectionToRemoteAutomationSessionForApplicationWithPID:]_block_invoke.601
++ __145+[XCIDESession sessionWithSocket:effectiveUserIdentifier:clientPrivilege:disconnectionHandler:delegate:diagnosticsProvider:attachmentFinalizers:]_block_invoke.302
++ __262-[XCTDRemoteAutomationSession initWithConnectedSocket:automationModeInterface:diagnosticsProvider:screenshotProvider:screenRecordingProvider:processManagementServices:targetBootstrapSessionProvider:remoteRunnerConnectionBroker:automationServicesFactory:timeout:]_block_invoke.234
++ __262-[XCTDRemoteAutomationSession initWithConnectedSocket:automationModeInterface:diagnosticsProvider:screenshotProvider:screenRecordingProvider:processManagementServices:targetBootstrapSessionProvider:remoteRunnerConnectionBroker:automationServicesFactory:timeout:]_block_invoke.365
++ __262-[XCTDRemoteAutomationSession initWithConnectedSocket:automationModeInterface:diagnosticsProvider:screenshotProvider:screenRecordingProvider:processManagementServices:targetBootstrapSessionProvider:remoteRunnerConnectionBroker:automationServicesFactory:timeout:]_block_invoke.387
++ __262-[XCTDRemoteAutomationSession initWithConnectedSocket:automationModeInterface:diagnosticsProvider:screenshotProvider:screenRecordingProvider:processManagementServices:targetBootstrapSessionProvider:remoteRunnerConnectionBroker:automationServicesFactory:timeout:]_block_invoke.388
++ __27-[XCTestSession invalidate]_block_invoke.233
++ __27-[XCTestSession invalidate]_block_invoke.cold.1
++ __33-[XCTDDaemon setupSignalHandlers]_block_invoke.294
++ __34-[XCIDESession _IDE_stopRecording]_block_invoke.403
++ __34-[XCIDESession _IDE_stopRecording]_block_invoke.cold.1
++ __41-[XCTDRemoteAutomationSession invalidate]_block_invoke.cold.1
++ __42-[XCTDDaemon setIDESession:forIdentifier:]_block_invoke.cold.1
++ __51-[XCTDUIRecorder_Mac _processEvent:withType:proxy:]_block_invoke.263
++ __51-[XCTDUIRecorder_Mac _processEvent:withType:proxy:]_block_invoke.267
++ __51-[XCTDUIRecorder_Mac _processEvent:withType:proxy:]_block_invoke.268
++ __61-[XCTestManagerIDEServer listener:shouldAcceptNewConnection:]_block_invoke.262
++ __63-[XCIDESession _IDE_initiateControlSessionWithProtocolVersion:]_block_invoke.395
++ __63-[XCTTargetBootstrapSession initWithTargetConnection:delegate:]_block_invoke.273
++ __64-[XCIDESession _IDE_initiateSessionWithIdentifier:capabilities:]_block_invoke.364
++ __64-[XCTestSession _XCT_startScreenRecordingWithRequest:withReply:]_block_invoke.481
++ __64-[XCTestSession _XCT_startScreenRecordingWithRequest:withReply:]_block_invoke.482
++ __72-[XCIDESession closeConnectionAndHandOffTransportWithCompletionHandler:]_block_invoke.349
++ __76-[XCTDRemoteAutomationSession _transferConnectionToProcessWithPID:endpoint:]_block_invoke.574
++ __76-[XCTDRemoteAutomationSession _transferConnectionToProcessWithPID:endpoint:]_block_invoke.575
++ __76-[XCTDRemoteAutomationSession _transferConnectionToProcessWithPID:endpoint:]_block_invoke.576
++ __76-[XCTDRemoteAutomationSession _transferConnectionToProcessWithPID:endpoint:]_block_invoke.578
++ __76-[XCTDRemoteAutomationSession _transferConnectionToProcessWithPID:endpoint:]_block_invoke.585
++ __81-[XCTTargetBootstrapSession requestEndpointForBackendPath:protocolVersion:reply:]_block_invoke.284
++ __81-[XCTTargetBootstrapSession requestEndpointForBackendPath:protocolVersion:reply:]_block_invoke.284.cold.1
++ __84-[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke.386
++ __84-[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke.391
++ __86-[XCTestManagerIDEServer listenForConnectionsOfServiceType:overRemoteServiceWithName:]_block_invoke.275
++ __CLASS_METHODS_XCTDRemoteRunnerConnectionBroker
++ __CLASS_PROPERTIES_XCTDRemoteRunnerConnectionBroker
++ __OBJC_$_CLASS_METHODS_XCTDUIRecorder_Mac
++ __OBJC_$_INSTANCE_METHODS_XCTDRBSTargetApplicationResolver
++ __OBJC_$_INSTANCE_METHODS_XCTDUIRecorder_Mac
++ __OBJC_$_INSTANCE_METHODS_XCUIRecorderAction
++ __OBJC_$_INSTANCE_METHODS_XCUIRecorderEvent
++ __OBJC_$_INSTANCE_VARIABLES_XCTDRBSTargetApplicationResolver
++ __OBJC_$_INSTANCE_VARIABLES_XCTDUIRecorder_Mac
++ __OBJC_$_INSTANCE_VARIABLES_XCUIRecorderAction
++ __OBJC_$_INSTANCE_VARIABLES_XCUIRecorderEvent
++ __OBJC_$_PROP_LIST_XCTDRBSTargetApplicationResolver
++ __OBJC_$_PROP_LIST_XCTDUIRecorder_Mac
++ __OBJC_$_PROP_LIST_XCUIRecorderAction
++ __OBJC_$_PROP_LIST_XCUIRecorderEvent
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_XCTDTargetApplicationResolver
++ __OBJC_$_PROTOCOL_METHOD_TYPES_XCTDTargetApplicationResolver
++ __OBJC_CLASS_PROTOCOLS_$_XCTDRBSTargetApplicationResolver
++ __OBJC_CLASS_PROTOCOLS_$_XCTDUIRecorder_Mac
++ __OBJC_CLASS_RO_$_XCTDRBSTargetApplicationResolver
++ __OBJC_CLASS_RO_$_XCTDUIRecorder_Mac
++ __OBJC_CLASS_RO_$_XCUIRecorderAction
++ __OBJC_CLASS_RO_$_XCUIRecorderEvent
++ __OBJC_LABEL_PROTOCOL_$_XCTDTargetApplicationResolver
++ __OBJC_METACLASS_RO_$_XCTDRBSTargetApplicationResolver
++ __OBJC_METACLASS_RO_$_XCTDUIRecorder_Mac
++ __OBJC_METACLASS_RO_$_XCUIRecorderAction
++ __OBJC_METACLASS_RO_$_XCUIRecorderEvent
++ __OBJC_PROTOCOL_$_XCTDTargetApplicationResolver
++ __PROPERTIES_XCTDRemoteRunnerConnectionBroker
++ __PROTOCOL_PROPERTIES_XCTDRemoteRunnerConnectionBrokering
++ __XCMachTimeForTimeInterval
++ __XCTimeIntervalForMachTime
++ __XCUIEventType_GetEnumSymbolName
++ ___34-[XCIDESession _IDE_stopRecording]_block_invoke
++ ___51-[XCTDUIRecorder_Mac _processEvent:withType:proxy:]_block_invoke
++ ___54+[XCTestSession deviceSupportsAccessibilityAutomation]_block_invoke
++ ___68+[XCTDRemoteAutomationSession deviceSupportsAccessibilityAutomation]_block_invoke
++ ___69-[XCTDRemoteAutomationSession handleRemoteRunnerUnexpectedDisconnect]_block_invoke
++ ___XCNonCanonicalUTF16CodePoints_block_invoke.cold.1
++ ___XCUIEventTypeForCGEventType_block_invoke
++ ____XCTimeIntervalForMachTime_TimeScale_block_invoke
++ ___block_descriptor_32_e17_v16?0"NSError"8l
++ ___block_descriptor_40_e8_32r_e31_v24?0"XCElementSnapshot"8^B16l
++ ___block_descriptor_60_e5_v8?0l
++ ___block_descriptor_60_e8_32s40s_e5_v8?0l
++ ___block_descriptor_68_e8_32s40s48s_e5_v8?0l
++ ___recordEventCallback_block_invoke
++ ___recordEventCallback_block_invoke_2
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ ___swift_project_boxed_opaque_existential_0
++ __block_literal_global.414
++ __block_literal_global.431
++ __block_literal_global.484
++ __objc_autoreleasePoolPop
++ __objc_autoreleasePoolPush
++ __swift_FORCE_LOAD_$_swiftDataDetection
++ __swift_FORCE_LOAD_$_swiftDataDetection_$_XCTDaemon
++ __swift_FORCE_LOAD_$_swiftDataDetection_$_testmanagerd
++ _flat unique So35XCTDRemoteAutomationSessionDelegate_p
++ _mach_port_deallocate
++ _mach_task_self_
++ _mach_thread_self
++ _mach_timebase_info
++ _malloc
++ _objc_msgSend$HIDTime
++ _objc_msgSend$_XCTD_remoteRunnerUnexpectedlyExited
++ _objc_msgSend$_XCT_recordedApplicationActivated:
++ _objc_msgSend$_XCT_recordedEventNames:timestamp:duration:applicationSnapshot:accessibilityElement:modifierFlags:
++ _objc_msgSend$_XCT_recordedKeyEventsWithApplicationSnapshot:characters:charactersIgnoringModifiers:modifierFlags:
++ _objc_msgSend$_XCT_stopScreenRecordingWithUUID:withReply:
++ _objc_msgSend$_applicationSnapshot
++ _objc_msgSend$_elementForLocation:inRootElementSnapshot:error:
++ _objc_msgSend$_isCancelCommandEvent:withType:
++ _objc_msgSend$_processApplicationActivatedEventForProcessId:
++ _objc_msgSend$_processEvent:withType:proxy:
++ _objc_msgSend$_recognizedEventTypeNames:atAbsoluteTime:applicationSnapshot:accessibilityElement:modifierFlags:
++ _objc_msgSend$_recordEvent:withType:proxy:
++ _objc_msgSend$_recordedKeyEventsWithApplicationSnapshot:characters:charactersIgnoringModifiers:modifierFlags:
++ _objc_msgSend$_sendCurrentAction
++ _objc_msgSend$_setupEventTapOnCurrentRunLoopWithErrorString:
++ _objc_msgSend$_shouldRecordEventForPID:
++ _objc_msgSend$accessibilityElement
++ _objc_msgSend$actionBeganRootElementSnapshot
++ _objc_msgSend$cache
++ _objc_msgSend$canSkipAutomationMode
++ _objc_msgSend$characters
++ _objc_msgSend$charactersIgnoringModifiers
++ _objc_msgSend$client
++ _objc_msgSend$closeIDEConnection:
++ _objc_msgSend$creationAbsoluteTime
++ _objc_msgSend$currentAction
++ _objc_msgSend$currentRecorder
++ _objc_msgSend$currentRunLoop
++ _objc_msgSend$defaultQueryExecutionTimeout
++ _objc_msgSend$detachNewThreadSelector:toTarget:withObject:
++ _objc_msgSend$deviceSupportsAccessibilityAutomation
++ _objc_msgSend$distantFuture
++ _objc_msgSend$doubleClickInterval
++ _objc_msgSend$elementWithAccessibilityElement:
++ _objc_msgSend$enumerateDescendantsUsingBlock:
++ _objc_msgSend$eventWithCGEvent:
++ _objc_msgSend$events
++ _objc_msgSend$excludedProccessPIDs
++ _objc_msgSend$fetchTargetPidForRecordingEvent:
++ _objc_msgSend$handEventType
++ _objc_msgSend$handleFailureInFunction:file:lineNumber:description:
++ _objc_msgSend$handleRemoteRunnerUnexpectedDisconnect
++ _objc_msgSend$hasKeyboardFocus
++ _objc_msgSend$hostProcess
++ _objc_msgSend$isInvalidated
++ _objc_msgSend$isRecording
++ _objc_msgSend$keyboardModifierFlags
++ _objc_msgSend$location
++ _objc_msgSend$mouseGestureNames
++ _objc_msgSend$pidForBundleID:error:
++ _objc_msgSend$recorderIDEProxy
++ _objc_msgSend$rootElementSnapshot
++ _objc_msgSend$runMode:beforeDate:
++ _objc_msgSend$setActionBeganRootElementSnapshot:
++ _objc_msgSend$setClient:
++ _objc_msgSend$setCurrentAction:
++ _objc_msgSend$setCurrentRecorder:
++ _objc_msgSend$setElementType:
++ _objc_msgSend$setEventTapPort:
++ _objc_msgSend$setEvents:
++ _objc_msgSend$setExcludedProccessPIDs:
++ _objc_msgSend$setHIDTime:
++ _objc_msgSend$setIsInvalidated:
++ _objc_msgSend$setIsRecording:
++ _objc_msgSend$setKeyboardModifierFlags:
++ _objc_msgSend$setLocation:
++ _objc_msgSend$setTargetAccessibilityElement:
++ _objc_msgSend$sharedBroker
++ _objc_msgSend$startRecordingWithHostXcodePID:targetProcessPID:
++ _objc_msgSend$stopRecording
++ _objc_msgSend$strongToStrongObjectsMapTable
++ _objc_msgSend$targetAccessibilityElement
++ _objc_msgSend$targetApplicationResolver
++ _objc_msgSend$targetPidForRecordingEvent:
++ _objc_msgSend$touchCount
++ _recordEventCallback
++ _s_callbackQueue
++ _s_completionSema
++ _swift_unknownObjectWeakAssign
++ _symbolic SccySo18SCShareableContentC______pG s5ErrorP
++ _symbolic SccySo27XCTAttachmentFutureMetadataC______pG s5ErrorP
++ _symbolic Sccyyt_____G s5NeverO
++ _symbolic Sccyyt______pG s5ErrorP
++ _symbolic ______pSgXw So35XCTDRemoteAutomationSessionDelegateP
++ _thread_policy_set
++ block_copy_helper.107
++ block_copy_helper.117
++ block_copy_helper.153
++ block_copy_helper.156
++ block_copy_helper.187
++ block_copy_helper.204
++ block_copy_helper.274
++ block_copy_helper.400
++ block_copy_helper.44
++ block_copy_helper.467
++ block_copy_helper.478
++ block_copy_helper.59
++ block_descriptor.109
++ block_descriptor.119
++ block_descriptor.155
++ block_descriptor.158
++ block_descriptor.189
++ block_descriptor.206
++ block_descriptor.276
++ block_descriptor.402
++ block_descriptor.46
++ block_descriptor.469
++ block_descriptor.480
++ block_descriptor.61
++ block_destroy_helper.108
++ block_destroy_helper.118
++ block_destroy_helper.154
++ block_destroy_helper.157
++ block_destroy_helper.188
++ block_destroy_helper.205
++ block_destroy_helper.275
++ block_destroy_helper.401
++ block_destroy_helper.45
++ block_destroy_helper.468
++ block_destroy_helper.479
++ block_destroy_helper.60
++ deviceSupportsAccessibilityAutomation.onceToken
++ locationSimulationManager.cold.1
++ recordEventCallback.cold.1
++ recordEventCallback.onceToken
+- $s2os0A11LogInternal_3log4typeyAA12OSLogMessageV_So03OS_a1_D0CSo0a1_d1_E2_tatFyySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcXEfU_TA.386
+- $s2os0A11LogInternal_3log4typeyAA12OSLogMessageV_So03OS_a1_D0CSo0a1_d1_E2_tatFyySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcXEfU_TA.425
+- $s2os0A11LogInternal_3log4typeyAA12OSLogMessageV_So03OS_a1_D0CSo0a1_d1_E2_tatFyySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcXEfU_TA.468
+- $s2os0A11LogInternal_3log4typeyAA12OSLogMessageV_So03OS_a1_D0CSo0a1_d1_E2_tatFyySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcXEfU_TA.59
+- $s2os12emitSignpost8preamble13argumentCount10bufferSize06objectF006stringF00E8Closures12signpostTaskxs5UInt8V_AKS3iSayySpyAKGz_SpySo8NSObjectCSgGSgzSpyypGSgztcGxAL_s6UInt32VtKXEtKlFyyALz_AQzASztcXEfU_TA.330
+- $s2os12emitSignpost8preamble13argumentCount10bufferSize06objectF006stringF00E8Closures12signpostTaskxs5UInt8V_AKS3iSayySpyAKGz_SpySo8NSObjectCSgGSgzSpyypGSgztcGxAL_s6UInt32VtKXEtKlFyyALz_AQzASztcXEfU_TA.335
+- $s2os12emitSignpost8preamble13argumentCount10bufferSize06objectF006stringF00E8Closures12signpostTaskxs5UInt8V_AKS3iSayySpyAKGz_SpySo8NSObjectCSgGSgzSpyypGSgztcGxAL_s6UInt32VtKXEtKlFyyALz_AQzASztcXEfU_TA.342
+- $s2os12emitSignpost8preamble13argumentCount10bufferSize06objectF006stringF00E8Closures12signpostTaskxs5UInt8V_AKS3iSayySpyAKGz_SpySo8NSObjectCSgGSgzSpyypGSgztcGxAL_s6UInt32VtKXEtKlFyyALz_AQzASztcXEfU_TA.477
+- $s2os12emitSignpost8preamble13argumentCount10bufferSize06objectF006stringF00E8Closures12signpostTaskxs5UInt8V_AKS3iSayySpyAKGz_SpySo8NSObjectCSgGSgzSpyypGSgztcGxAL_s6UInt32VtKXEtKlFyyALz_AQzASztcXEfU_TA.521
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.199
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.226
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.267
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.298
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.373
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.385
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.389
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.456
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.472
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.500
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.80
+- $s2os14OSLogArgumentsV6appendyySo8NSObjectCSgycFySpys5UInt8VGz_SpyAGGSgzSpyypGSgztcfU_TA.176
+- $s2os14OSLogArgumentsV6appendyySo8NSObjectCSgycFySpys5UInt8VGz_SpyAGGSgzSpyypGSgztcfU_TA.244
+- $s2os14OSLogArgumentsV6appendyySo8NSObjectCSgycFySpys5UInt8VGz_SpyAGGSgzSpyypGSgztcfU_TA.314
+- $s2os14OSLogArgumentsV6appendyySo8NSObjectCSgycFySpys5UInt8VGz_SpyAGGSgzSpyypGSgztcfU_TA.520
+- $s2os14OSLogArgumentsV6appendyySo8NSObjectCSgycFySpys5UInt8VGz_SpyAGGSgzSpyypGSgztcfU_TA.540
+- $s2os14OSLogArgumentsV6appendyySo8NSObjectCSgycFySpys5UInt8VGz_SpyAGGSgzSpyypGSgztcfU_TA.97
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.126
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.148
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.152
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.162
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.164
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.168
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.187
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.214
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.217
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.218
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.221
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.230
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.232
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.234
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.248
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.259
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.264
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.268
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.280
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.284
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.286
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.290
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.296
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.300
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.302
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.306
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.312
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.316
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.318
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.322
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.328
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.332
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.344
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.348
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.352
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.356
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.361
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.365
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.373
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.377
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.393
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.397
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.408
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.427
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.444
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.446
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.448
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.460
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.464
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.485
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.488
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.489
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.492
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.507
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.508
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.511
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.512
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.523
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.527
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.528
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.532
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.545
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.549
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.561
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.565
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.58
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.68
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.69
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.73
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.85
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.89
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.138
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.160
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.228
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.244
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.260
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.276
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.292
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.308
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.324
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.329
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.340
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.369
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.405
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.420
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.439
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.458
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.497
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.519
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.52
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.535
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.557
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.573
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.81
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.195
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.222
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.263
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.294
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.369
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.381
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.385
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.452
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.468
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.496
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.76
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyyxyXA_AA0B15StringAlignmentVAA0B7PrivacyVts06CustomG11ConvertibleRzlFSSycfu_TA.183
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyyxyXA_AA0B15StringAlignmentVAA0B7PrivacyVts06CustomG11ConvertibleRzlFSSycfu_TA.207
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyyxyXA_AA0B15StringAlignmentVAA0B7PrivacyVts06CustomG11ConvertibleRzlFSSycfu_TA.251
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyyxyXA_AA0B15StringAlignmentVAA0B7PrivacyVts06CustomG11ConvertibleRzlFSSycfu_TA.276
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyyxyXA_AA0B15StringAlignmentVAA0B7PrivacyVts06CustomG11ConvertibleRzlFSSycfu_TA.433
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyyxyXA_AA0B15StringAlignmentVAA0B7PrivacyVts06CustomG11ConvertibleRzlFSSycfu_TA.440
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyyxyXA_AA0B15StringAlignmentVAA0B7PrivacyVts06CustomG11ConvertibleRzlFSSycfu_TA.484
+- $s2os18OSLogInterpolationV06appendC0_7privacy10attributesys5Error_pSgyXA_AA0B7PrivacyVSStFSo8NSObjectCSgycfu_TA.310
+- $s2os18OSLogInterpolationV06appendC0_7privacyySo8NSObjectCyXA_AA0B7PrivacyVtFAGSgycfu_TA.172
+- $s2os18OSLogInterpolationV06appendC0_7privacyySo8NSObjectCyXA_AA0B7PrivacyVtFAGSgycfu_TA.516
+- $s2os18OSLogInterpolationV06appendC0_7privacyySo8NSObjectCyXA_AA0B7PrivacyVtFAGSgycfu_TA.536
+- $s2os18OSLogInterpolationV06appendC0_7privacyySo8NSObjectCyXA_AA0B7PrivacyVtFAGSgycfu_TA.93
+- $sIg_Ieg_TRTA.113
+- $sIg_Ieg_TRTA.183
+- $sIg_Ieg_TRTA.396
+- $sIg_Ieg_TRTA.475
+- $sSiIegd_SiIegr_TRTA.401
+- $sSiIegd_SiIegr_TRTA.420
+- $ss5Int32VIegd_ABIegr_TRTA.134
+- $ss5Int32VIegd_ABIegr_TRTA.156
+- $ss5Int32VIegd_ABIegr_TRTA.416
+- $ss5Int32VIegd_ABIegr_TRTA.435
+- $ss5Int32VIegd_ABIegr_TRTA.454
+- $ss5Int32VIegd_ABIegr_TRTA.48
+- $ss5Int32VIegd_ABIegr_TRTA.493
+- $ss5Int32VIegd_ABIegr_TRTA.515
+- $ss5Int32VIegd_ABIegr_TRTA.531
+- $ss5Int32VIegd_ABIegr_TRTA.553
+- $ss5Int32VIegd_ABIegr_TRTA.569
+- $ss5Int32VIegd_ABIegr_TRTA.77
+- $ss6UInt32VIegd_ABIegr_TRTA.240
+- $ss6UInt32VIegd_ABIegr_TRTA.256
+- $ss6UInt32VIegd_ABIegr_TRTA.272
+- $ss6UInt32VIegd_ABIegr_TRTA.288
+- $ss6UInt32VIegd_ABIegr_TRTA.304
+- $ss6UInt32VIegd_ABIegr_TRTA.320
+- $ss6UInt32VIegd_ABIegr_TRTA.336
+- GCC_except_table100
+- GCC_except_table117
+- GCC_except_table69
+- GCC_except_table86
+- _$s10ObjectiveC15autoreleasepool8invokingxxyKXE_tKlF
+- _$s12CoreGraphics7CGFloatVyACxcSzRzlufCSi_Tgmq5
+- _$s12testmanagerdAAO4mainyyFZSSycfu0_TA
+- _$s12testmanagerdAAO4mainyyFZSSycfu1_
+- _$s12testmanagerdAAO4mainyyFZs5Error_pycfu3_
+- _$s12testmanagerdAAO4mainyyFZs5Error_pycfu3_TA
+- _$s9XCTDaemon18ScreenshotProviderCfDTo
+- _$s9XCTDaemon28RemoteRunnerConnectionBrokerC015_XCT_isReadyForbcD014withAuditTokenySo13audit_token_ta_tFyyXEfU_s5Int32Vycfu0_
+- _$s9XCTDaemon28RemoteRunnerConnectionBrokerC015_XCT_isReadyForbcD014withAuditTokenySo13audit_token_ta_tFyyXEfU_s5Int32Vycfu0_TA
+- _$s9XCTDaemon28RemoteRunnerConnectionBrokerC03xpcD0So15NSXPCConnectionCSgvWyycfU0_
+- _$s9XCTDaemon28RemoteRunnerConnectionBrokerC24checkInternalEntitlement33_8B746F3B8478C55E7CB7A7C4810FC86DLL14withAuditTokenSbSo13audit_token_ta_tFSSycfu10_
+- _$s9XCTDaemon28RemoteRunnerConnectionBrokerC24checkInternalEntitlement33_8B746F3B8478C55E7CB7A7C4810FC86DLL14withAuditTokenSbSo13audit_token_ta_tFSSycfu9_TA
+- _$s9XCTDaemon28RemoteRunnerConnectionBrokerC8listener_015shouldAcceptNewD0SbSo13NSXPCListenerC_So15NSXPCConnectionCtFSbyXEfU_s5Int32Vycfu4_
+- _$s9XCTDaemon28RemoteRunnerConnectionBrokerC8listener_015shouldAcceptNewD0SbSo13NSXPCListenerC_So15NSXPCConnectionCtFSbyXEfU_s5Int32Vycfu4_TA
+- _$s9XCTDaemon35TCCAuthorizationStatusResetProviderC018resetAuthorizationC07requestyAA017ProtectedResourcegD7RequestV_tYaKFSSycfu3_
+- _$s9XCTDaemon35TCCAuthorizationStatusResetProviderC018resetAuthorizationC07requestyAA017ProtectedResourcegD7RequestV_tYaKFSSycfu3_TA
+- _$s9XCTDaemon35TCCAuthorizationStatusResetProviderC018resetAuthorizationC07requestyAA017ProtectedResourcegD7RequestV_tYaKFSiycfu4_
+- _$s9XCTDaemon35TCCAuthorizationStatusResetProviderC018resetAuthorizationC07requestyAA017ProtectedResourcegD7RequestV_tYaKFSiycfu4_TA
+- _$sSa22_allocateUninitializedySayxG_SpyxGtSiFZSo17OS_dispatch_queueC8DispatchE10AttributesV_Tgmq5
+- _$sScTss5NeverORs_rlE8priority9operationScTyxABGScPSg_xyYaYAcntcfCyt_Tgmq5
+- _$sSo16AVVideoCodecTypeaWOh
+- _$sSo6CGRectVSgWOb
+- _$sSv16initializeMemory2as4from5countSpyxGxm_SPyxGSitlFs5UInt8V_Tgmq5
+- _$ss15ContiguousArrayVAByxGycfCs5UInt8V_Tgmq5
+- _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tgmq5
+- _OBJC_$_PROP_LIST_XCTDAutomationModeInterface.302
+- _OBJC_$_PROP_LIST_XCTTargetBootstrapSession.312
+- _OBJC_$_PROP_LIST_XCTestSession.695
+- _OUTLINED_FUNCTION_3
+- _PROTOCOLS_XCTDRemoteRunnerConnectionBroker.401
+- _PROTOCOLS_XCTDScreenRecordingProvider.337
+- __100-[XCTDRemoteAutomationSession _IDE_convertConnectionToRemoteAutomationSessionForApplicationWithPID:]_block_invoke.595
+- __145+[XCIDESession sessionWithSocket:effectiveUserIdentifier:clientPrivilege:disconnectionHandler:delegate:diagnosticsProvider:attachmentFinalizers:]_block_invoke.295
+- __262-[XCTDRemoteAutomationSession initWithConnectedSocket:automationModeInterface:diagnosticsProvider:screenshotProvider:screenRecordingProvider:processManagementServices:targetBootstrapSessionProvider:remoteRunnerConnectionBroker:automationServicesFactory:timeout:]_block_invoke.231
+- __262-[XCTDRemoteAutomationSession initWithConnectedSocket:automationModeInterface:diagnosticsProvider:screenshotProvider:screenRecordingProvider:processManagementServices:targetBootstrapSessionProvider:remoteRunnerConnectionBroker:automationServicesFactory:timeout:]_block_invoke.361
+- __262-[XCTDRemoteAutomationSession initWithConnectedSocket:automationModeInterface:diagnosticsProvider:screenshotProvider:screenRecordingProvider:processManagementServices:targetBootstrapSessionProvider:remoteRunnerConnectionBroker:automationServicesFactory:timeout:]_block_invoke.383
+- __262-[XCTDRemoteAutomationSession initWithConnectedSocket:automationModeInterface:diagnosticsProvider:screenshotProvider:screenRecordingProvider:processManagementServices:targetBootstrapSessionProvider:remoteRunnerConnectionBroker:automationServicesFactory:timeout:]_block_invoke.384
+- __27-[XCTestSession invalidate]_block_invoke.230
+- __33-[XCTDDaemon setupSignalHandlers]_block_invoke.291
+- __61-[XCTestManagerIDEServer listener:shouldAcceptNewConnection:]_block_invoke.259
+- __63-[XCIDESession _IDE_initiateControlSessionWithProtocolVersion:]_block_invoke.387
+- __63-[XCTTargetBootstrapSession initWithTargetConnection:delegate:]_block_invoke.270
+- __64-[XCIDESession _IDE_initiateSessionWithIdentifier:capabilities:]_block_invoke.356
+- __72-[XCIDESession closeConnectionAndHandOffTransportWithCompletionHandler:]_block_invoke.341
+- __76-[XCTDRemoteAutomationSession _transferConnectionToProcessWithPID:endpoint:]_block_invoke.568
+- __76-[XCTDRemoteAutomationSession _transferConnectionToProcessWithPID:endpoint:]_block_invoke.569
+- __76-[XCTDRemoteAutomationSession _transferConnectionToProcessWithPID:endpoint:]_block_invoke.570
+- __76-[XCTDRemoteAutomationSession _transferConnectionToProcessWithPID:endpoint:]_block_invoke.572
+- __76-[XCTDRemoteAutomationSession _transferConnectionToProcessWithPID:endpoint:]_block_invoke.579
+- __81-[XCTTargetBootstrapSession requestEndpointForBackendPath:protocolVersion:reply:]_block_invoke.281
+- __81-[XCTTargetBootstrapSession requestEndpointForBackendPath:protocolVersion:reply:]_block_invoke.281.cold.1
+- __84-[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke.378
+- __84-[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke.383
+- __86-[XCTestManagerIDEServer listenForConnectionsOfServiceType:overRemoteServiceWithName:]_block_invoke.272
+- ___swift_continuation_await_point
+- block_copy_helper.104
+- block_copy_helper.114
+- block_copy_helper.184
+- block_copy_helper.397
+- block_copy_helper.465
+- block_copy_helper.476
+- block_copy_helper.56
+- block_descriptor.106
+- block_descriptor.116
+- block_descriptor.153
+- block_descriptor.154
+- block_descriptor.186
+- block_descriptor.200
+- block_descriptor.268
+- block_descriptor.399
+- block_descriptor.44
+- block_descriptor.467
+- block_descriptor.478
+- block_descriptor.58
+- block_destroy_helper.105
+- block_destroy_helper.115
+- block_destroy_helper.185
+- block_destroy_helper.398
+- block_destroy_helper.466
+- block_destroy_helper.477
+- block_destroy_helper.57
+CStrings:
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/XCTest/Sources/testmanagerd/XCTDaemon/RemoteAutomation/RemoteRunnerConnectionBroker.swift"
++ "@\"<XCTDRemoteAutomationSessionDelegate>\"16@0:8"
++ "@\"<XCTDTargetApplicationResolver>\""
++ "@\"XCAccessibilityElement\""
++ "@\"XCElementSnapshot\""
++ "@\"XCTDProcessManagementServicesProvider\""
++ "@\"XCTDUIRecorder_Mac\""
++ "@\"XCUIRecorderAction\""
++ "@24@0:8^d16"
++ "@48@0:8{CGPoint=dd}16^@32^@40"
++ "@64@0:8@\"NSArray\"16@\"NSNumber\"24@\"NSNumber\"32@\"XCElementSnapshot\"40@\"XCAccessibilityElement\"48@\"NSNumber\"56"
++ "B28@0:8^{__CGEvent=}16I24"
++ "B36@0:8^{__CGEvent=}16I24^{__CGEventTapProxy=}28"
++ "Cannot find process handle from RBS %d: %@"
++ "Caught cancel event"
++ "Closing connection to IDE"
++ "Error finding the dock processID:%{public}@"
++ "Error in -applicationSnapshot:%{public}@"
++ "Error in -loadAccessibilityWithTimeout:%{public}@"
++ "Error in _elementForLocation:%{public}@"
++ "Error restarting EventTap: %{public}@"
++ "Error retrieving process for processID %d: %@"
++ "Event had an invalid target element"
++ "Failed to Start Recording: Failed to get CFMachPortRef for CGEventTap"
++ "Failed to Start Recording: Failed to get CFRunLoopRef"
++ "Failed to Start Recording: Failed to get CFRunLoopSourceRef"
++ "Failed to Start Recording: Failed to give recording thread realtime priority."
++ "Got empty string for type (%lu)"
++ "HIDTime"
++ "Host finished with native code tasks."
++ "Insufficient space allocated to copy string contents"
++ "Loaded accessibility for recording"
++ "NSString * _Nonnull _XCUIEventType_GetEnumSymbolName(XCUIEventType)"
++ "No ASN matching bundleID %@"
++ "No PID matching bundleID %@"
++ "Recording error: %@"
++ "Reset current action"
++ "Restarted Recording."
++ "Restoring to target processID %d"
++ "Searching for bundleID for processID %d"
++ "Setting current action"
++ "Skipping automation mode for internal client / remote runner"
++ "Starting accessibility for recording..."
++ "Stopping recording"
++ "String index is out of bounds"
++ "Swift/ContiguousArrayBuffer.swift"
++ "Swift/StringTesting.swift"
++ "Swift/StringUTF8View.swift"
++ "Swift/UnsafeRawBufferPointer.swift"
++ "Swift/UnsafeRawPointer.swift"
++ "T@\"<XCTDRemoteAutomationSessionDelegate>\",N,W"
++ "T@\"<XCTDRemoteAutomationSessionDelegate>\",N,W,Vdelegate"
++ "T@\"<XCTDTargetApplicationResolver>\",&,V_targetApplicationResolver"
++ "T@\"<XCTMessagingChannel_DaemonRecorderToIDE>\",&,V_client"
++ "T@\"NSMutableArray\",&,V_events"
++ "T@\"NSMutableArray\",&,V_excludedProccessPIDs"
++ "T@\"NSMutableDictionary\",&,V_cache"
++ "T@\"XCAccessibilityElement\",&,V_targetAccessibilityElement"
++ "T@\"XCElementSnapshot\",&,V_actionBeganRootElementSnapshot"
++ "T@\"XCElementSnapshot\",&,V_actionBeganSelectedElementSnapshot"
++ "T@\"XCTDProcessManagementServicesProvider\",&,V_processManagementServices"
++ "T@\"XCTDRemoteRunnerConnectionBroker\",N,R"
++ "T@\"XCTDUIRecorder_Mac\",&,V_currentRecorder"
++ "T@\"XCUIRecorderAction\",&,V_currentAction"
++ "TB,R,GisHandEvent"
++ "TB,V_isInvalidated"
++ "TB,V_isRecording"
++ "TI,V_eventType"
++ "TI,V_handEventType"
++ "TQ,N,V_clickCount"
++ "TQ,N,V_keyboardModifierFlags"
++ "TQ,N,V_touchCount"
++ "Td,V_creationAbsoluteTime"
++ "Telling test manager that connection is closed."
++ "Tq,N,V_HIDTime"
++ "T{CGPoint=dd},N,V_location"
++ "Unable to find targetElement at location %@ error: %@"
++ "Uncaught Event: %d"
++ "Unknown AXEventType (%lu)"
++ "UnsafeMutableBufferPointer with negative count"
++ "UnsafeMutablePointer.initialize overlapping range"
++ "UnsafeMutablePointer.initialize with negative count"
++ "UnsafeMutablePointer.moveInitialize with negative count"
++ "UnsafeMutableRawBufferPointer with negative count"
++ "UnsafeMutableRawPointer.initializeMemory overlapping range"
++ "UnsafeMutableRawPointer.initializeMemory with negative count"
++ "UnsafeRawBufferPointer with negative count"
++ "Updated bundleID to %@"
++ "Updated processID to %d"
++ "Using host process PID %d instead of %d"
++ "XCTDRBSTargetApplicationResolver"
++ "XCTDTargetApplicationResolver"
++ "XCTDUIRecorder_Mac"
++ "XCTDUIRecorder_Mac.m"
++ "XCUIEventKeyDown"
++ "XCUIEventKeyUp"
++ "XCUIEventLeftMouseDown"
++ "XCUIEventLeftMouseUp"
++ "XCUIEventRightMouseDown"
++ "XCUIEventRightMouseUp"
++ "XCUIEventType.m"
++ "XCUIEventTypeACHomeDown"
++ "XCUIEventTypeACHomeUp"
++ "XCUIEventTypeAccelerometer"
++ "XCUIEventTypeCameraButtonDown"
++ "XCUIEventTypeCameraButtonUp"
++ "XCUIEventTypeDeviceOrientationChanged"
++ "XCUIEventTypeEjectButtonDown"
++ "XCUIEventTypeEjectButtonUp"
++ "XCUIEventTypeFlagsChanged"
++ "XCUIEventTypeGameController"
++ "XCUIEventTypeHand"
++ "XCUIEventTypeKeyDown"
++ "XCUIEventTypeKeyUp"
++ "XCUIEventTypeLockButtonDown"
++ "XCUIEventTypeLockButtonUp"
++ "XCUIEventTypeLockDevice"
++ "XCUIEventTypeMediaKeyDown"
++ "XCUIEventTypeMediaKeyUp"
++ "XCUIEventTypeMenuButtonDown"
++ "XCUIEventTypeMenuButtonUp"
++ "XCUIEventTypeMuteButtonDown"
++ "XCUIEventTypeMuteButtonUp"
++ "XCUIEventTypeNull"
++ "XCUIEventTypePlayButtonDown"
++ "XCUIEventTypePlayButtonUp"
++ "XCUIEventTypePlayPauseButtonDown"
++ "XCUIEventTypePlayPauseButtonUp"
++ "XCUIEventTypeProximity"
++ "XCUIEventTypeRingerOff"
++ "XCUIEventTypeRingerOn"
++ "XCUIEventTypeScreenSaverButtonDown"
++ "XCUIEventTypeScreenSaverButtonUp"
++ "XCUIEventTypeShakeSimulator"
++ "XCUIEventTypeSiriButtonDown"
++ "XCUIEventTypeSiriButtonUp"
++ "XCUIEventTypeStaccatoDown"
++ "XCUIEventTypeStaccatoUp"
++ "XCUIEventTypeStingButtonDown"
++ "XCUIEventTypeStingButtonUp"
++ "XCUIEventTypeTVRemoteActivate2Down"
++ "XCUIEventTypeTVRemoteActivate2Up"
++ "XCUIEventTypeTVRemoteActivateDown"
++ "XCUIEventTypeTVRemoteActivateUp"
++ "XCUIEventTypeTVRemoteDownArrowDown"
++ "XCUIEventTypeTVRemoteDownArrowUp"
++ "XCUIEventTypeTVRemoteLeftArrowDown"
++ "XCUIEventTypeTVRemoteLeftArrowUp"
++ "XCUIEventTypeTVRemoteMenuDown"
++ "XCUIEventTypeTVRemoteMenuUp"
++ "XCUIEventTypeTVRemoteMicDown"
++ "XCUIEventTypeTVRemoteMicUp"
++ "XCUIEventTypeTVRemoteRightArrowDown"
++ "XCUIEventTypeTVRemoteRightArrowUp"
++ "XCUIEventTypeTVRemoteTVDown"
++ "XCUIEventTypeTVRemoteTVUp"
++ "XCUIEventTypeTVRemoteUpArrowDown"
++ "XCUIEventTypeTVRemoteUpArrowUp"
++ "XCUIEventTypeVolumeDownButtonDown"
++ "XCUIEventTypeVolumeDownButtonUp"
++ "XCUIEventTypeVolumeUpButtonDown"
++ "XCUIEventTypeVolumeUpButtonUp"
++ "XCUIRecorderAction"
++ "XCUIRecorderEvent"
++ "XCUIRecorderService.eventsQueue"
++ "[XCTestSession] Received recording request result with error: %{public}@"
++ "[XCTestSession] Stopping brand new recording request after session invalidation."
++ "^{__CFMachPort=}"
++ "^{__CFMachPort=}16@0:8"
++ "_HIDTime"
++ "_IDE_startRecordingProcessPID:xcodeProcessPID:"
++ "_XCTD_remoteRunnerUnexpectedlyExited"
++ "_XCT_readyForDisconnect"
++ "_XCT_recordedApplicationActivated:"
++ "_XCT_recordedEventNames:timestamp:duration:applicationSnapshot:accessibilityElement:modifierFlags:"
++ "_actionBeganRootElementSnapshot"
++ "_actionBeganSelectedElementSnapshot"
++ "_applicationSnapshot"
++ "_cache"
++ "_client"
++ "_creationAbsoluteTime"
++ "_currentAction"
++ "_currentProcessPID"
++ "_currentRecorder"
++ "_elementForLocation:inRootElementSnapshot:error:"
++ "_eventTapPort"
++ "_events"
++ "_eventsQueue"
++ "_excludedProccessPIDs"
++ "_handEventType"
++ "_isCancelCommandEvent:withType:"
++ "_isInvalidated"
++ "_isRecording"
++ "_keyboardModifierFlags"
++ "_lastTimestamp"
++ "_location"
++ "_processApplicationActivatedEventForProcessId:"
++ "_processEvent: type:%d eventPID:%d currentAppPID:%d"
++ "_processEvent:withType:proxy:"
++ "_recognizedEventTypeNames:atAbsoluteTime:applicationSnapshot:accessibilityElement:modifierFlags:"
++ "_recordEvent:withType:proxy:"
++ "_recordEventsOnPrivateThread"
++ "_recordedKeyEventsWithApplicationSnapshot:characters:charactersIgnoringModifiers:modifierFlags:"
++ "_sendCurrentAction"
++ "_setupEventTapOnCurrentRunLoopWithErrorString:"
++ "_shouldRecordEventForPID:"
++ "_targetAccessibilityElement"
++ "_targetApplicationResolver"
++ "_targetProcessPID"
++ "_touchCount"
++ "accessibilityElement"
++ "actionBeganRootElementSnapshot"
++ "actionBeganSelectedElementSnapshot"
++ "cache"
++ "callbackQueue"
++ "canSkipAutomationMode"
++ "characters"
++ "charactersIgnoringModifiers"
++ "client"
++ "com.apple.dt.xctest.synthesized-event-record"
++ "creationAbsoluteTime"
++ "currentAction"
++ "currentRecorder"
++ "currentRunLoop"
++ "defaultQueryExecutionTimeout"
++ "detachNewThreadSelector:toTarget:withObject:"
++ "deviceSupportsAccessibilityAutomation"
++ "did process %@"
++ "did process kCGEventKeyDown"
++ "distantFuture"
++ "double click"
++ "double tap"
++ "doubleClickInterval"
++ "duration: %f"
++ "elementWithAccessibilityElement:"
++ "enumerateDescendantsUsingBlock:"
++ "error! already recording"
++ "error! not recording"
++ "event is duplicate"
++ "eventTapPort"
++ "eventWithCGEvent:"
++ "events"
++ "excludedProccessPIDs"
++ "fetchTargetPidForRecordingEvent:"
++ "handEvent"
++ "handEventType"
++ "handleFailureInFunction:file:lineNumber:description:"
++ "handleRemoteRunnerUnexpectedDisconnect"
++ "hasKeyboardFocus"
++ "hit element at %{public}@ : %{public}@, error %{public}@"
++ "hostProcess"
++ "i20@0:8i16"
++ "ideal duration: %f, current duration: %f"
++ "invalid Collection: less than 'count' elements in collection"
++ "invalid Collection: more than 'count' elements in collection"
++ "isHandEvent"
++ "isInvalidated"
++ "isRecording"
++ "kCGEventTapDisabledByTimeout"
++ "kCGEventTapDisabledByUserInput"
++ "keyboardModifierFlags"
++ "left mouse down"
++ "location"
++ "long press"
++ "mouseGestureNames"
++ "pan"
++ "pinch closed"
++ "pinch open"
++ "processID %d is excluded from UI recording"
++ "processing characters: %{public}@"
++ "recognized events: %{public}@"
++ "record UI interaction capability"
++ "recorded characters: %{public}@"
++ "remoteRunnerUnexpectedlyDisconnected"
++ "right mouse down"
++ "rootElementSnapshot"
++ "runMode:beforeDate:"
++ "self.client: %{public}@"
++ "setActionBeganRootElementSnapshot:"
++ "setActionBeganSelectedElementSnapshot:"
++ "setCache:"
++ "setClient:"
++ "setCreationAbsoluteTime:"
++ "setCurrentAction:"
++ "setCurrentRecorder:"
++ "setElementType:"
++ "setEventTapPort:"
++ "setEvents:"
++ "setExcludedProccessPIDs:"
++ "setHIDTime:"
++ "setHandEventType:"
++ "setIsInvalidated:"
++ "setIsRecording:"
++ "setKeyboardModifierFlags:"
++ "setLocation:"
++ "setProcessManagementServices:"
++ "setTargetAccessibilityElement:"
++ "setTargetApplicationResolver:"
++ "setTouchCount:"
++ "sharedBroker"
++ "startRecordingWithHostXcodePID:targetProcessPID:"
++ "startRecordingWithReply:%{public}@"
++ "stopRecording"
++ "strongToStrongObjectsMapTable"
++ "supports deferring automation mode decisions to daemon"
++ "swipe down"
++ "swipe left"
++ "swipe right"
++ "swipe up"
++ "tap"
++ "targetAccessibilityElement"
++ "targetApplicationResolver"
++ "targetPidForRecordingEvent:"
++ "touchCount"
++ "touchEventTypeNameWaitForTimeInterval:"
++ "touchGestureNamesWaitForTimeInterval:"
++ "two finger tap"
++ "utIdentifierString"
++ "v20@0:8I16"
++ "v24@0:8@\"<XCTDRemoteAutomationSessionDelegate>\"16"
++ "v24@0:8^{__CFMachPort=}16"
++ "v24@0:8i16i20"
++ "v24@?0@\"XCElementSnapshot\"8^B16"
++ "v36@0:8^{__CGEvent=}16I24^{__CGEventTapProxy=}28"
++ "v48@0:8@16@24@32Q40"
++ "v56@0:8@16d24@32@40@48"
++ "will fetch targetElement"
++ "will process kCGEventKeyDown"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/XCTest/Sources/testmanagerd/XCTDaemon/RemoteAutomation/RemoteRunnerConnectionBroker.swift"
+- "Skipping automation mode for internal client"
+
+```

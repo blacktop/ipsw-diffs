@@ -1,0 +1,301 @@
+## com.apple.iokit.IOAVFamily
+
+> `com.apple.iokit.IOAVFamily`
+
+```diff
+
+-483.80.4.0.1
+-  __TEXT.__cstring: 0xa828
++486.100.9.0.0
++  __TEXT.__cstring: 0xa833
+   __TEXT.__os_log: 0x99e5
+-  __TEXT.__const: 0xe7d4
+-  __TEXT_EXEC.__text: 0x869e4
++  __TEXT.__const: 0x10124
++  __TEXT_EXEC.__text: 0x85704
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xd0
+   __DATA.__common: 0x988
+
+   __DATA_CONST.__got: 0x140
+   __DATA_CONST.__mod_init_func: 0x1c0
+   __DATA_CONST.__mod_term_func: 0x1c0
+-  __DATA_CONST.__const: 0x1edb0
++  __DATA_CONST.__const: 0x1eda0
+   __DATA_CONST.__kalloc_type: 0xe80
+   __DATA_CONST.__kalloc_var: 0x1e0
+-  UUID: 7363F069-C92F-33C8-98E5-CF2400C4398A
+-  Functions: 2950
+-  Symbols:   4810
++  UUID: EB66CB26-5D05-34AF-BB5F-A59ACEF74DF2
++  Functions: 3312
++  Symbols:   5353
+   CStrings:  2129
+ 
+Symbols:
++ _OUTLINED_FUNCTION_0
++ _OUTLINED_FUNCTION_1
++ _OUTLINED_FUNCTION_10
++ _OUTLINED_FUNCTION_100
++ _OUTLINED_FUNCTION_101
++ _OUTLINED_FUNCTION_102
++ _OUTLINED_FUNCTION_103
++ _OUTLINED_FUNCTION_11
++ _OUTLINED_FUNCTION_12
++ _OUTLINED_FUNCTION_13
++ _OUTLINED_FUNCTION_14
++ _OUTLINED_FUNCTION_15
++ _OUTLINED_FUNCTION_16
++ _OUTLINED_FUNCTION_17
++ _OUTLINED_FUNCTION_18
++ _OUTLINED_FUNCTION_19
++ _OUTLINED_FUNCTION_2
++ _OUTLINED_FUNCTION_20
++ _OUTLINED_FUNCTION_21
++ _OUTLINED_FUNCTION_22
++ _OUTLINED_FUNCTION_23
++ _OUTLINED_FUNCTION_24
++ _OUTLINED_FUNCTION_25
++ _OUTLINED_FUNCTION_26
++ _OUTLINED_FUNCTION_27
++ _OUTLINED_FUNCTION_28
++ _OUTLINED_FUNCTION_29
++ _OUTLINED_FUNCTION_3
++ _OUTLINED_FUNCTION_30
++ _OUTLINED_FUNCTION_31
++ _OUTLINED_FUNCTION_32
++ _OUTLINED_FUNCTION_33
++ _OUTLINED_FUNCTION_34
++ _OUTLINED_FUNCTION_35
++ _OUTLINED_FUNCTION_36
++ _OUTLINED_FUNCTION_37
++ _OUTLINED_FUNCTION_38
++ _OUTLINED_FUNCTION_39
++ _OUTLINED_FUNCTION_4
++ _OUTLINED_FUNCTION_40
++ _OUTLINED_FUNCTION_41
++ _OUTLINED_FUNCTION_42
++ _OUTLINED_FUNCTION_43
++ _OUTLINED_FUNCTION_44
++ _OUTLINED_FUNCTION_45
++ _OUTLINED_FUNCTION_46
++ _OUTLINED_FUNCTION_47
++ _OUTLINED_FUNCTION_48
++ _OUTLINED_FUNCTION_49
++ _OUTLINED_FUNCTION_5
++ _OUTLINED_FUNCTION_50
++ _OUTLINED_FUNCTION_51
++ _OUTLINED_FUNCTION_52
++ _OUTLINED_FUNCTION_53
++ _OUTLINED_FUNCTION_54
++ _OUTLINED_FUNCTION_55
++ _OUTLINED_FUNCTION_56
++ _OUTLINED_FUNCTION_57
++ _OUTLINED_FUNCTION_58
++ _OUTLINED_FUNCTION_59
++ _OUTLINED_FUNCTION_6
++ _OUTLINED_FUNCTION_60
++ _OUTLINED_FUNCTION_61
++ _OUTLINED_FUNCTION_62
++ _OUTLINED_FUNCTION_63
++ _OUTLINED_FUNCTION_64
++ _OUTLINED_FUNCTION_65
++ _OUTLINED_FUNCTION_66
++ _OUTLINED_FUNCTION_67
++ _OUTLINED_FUNCTION_68
++ _OUTLINED_FUNCTION_69
++ _OUTLINED_FUNCTION_7
++ _OUTLINED_FUNCTION_70
++ _OUTLINED_FUNCTION_71
++ _OUTLINED_FUNCTION_72
++ _OUTLINED_FUNCTION_73
++ _OUTLINED_FUNCTION_74
++ _OUTLINED_FUNCTION_75
++ _OUTLINED_FUNCTION_76
++ _OUTLINED_FUNCTION_77
++ _OUTLINED_FUNCTION_78
++ _OUTLINED_FUNCTION_79
++ _OUTLINED_FUNCTION_8
++ _OUTLINED_FUNCTION_80
++ _OUTLINED_FUNCTION_81
++ _OUTLINED_FUNCTION_82
++ _OUTLINED_FUNCTION_83
++ _OUTLINED_FUNCTION_84
++ _OUTLINED_FUNCTION_85
++ _OUTLINED_FUNCTION_86
++ _OUTLINED_FUNCTION_87
++ _OUTLINED_FUNCTION_88
++ _OUTLINED_FUNCTION_89
++ _OUTLINED_FUNCTION_9
++ _OUTLINED_FUNCTION_90
++ _OUTLINED_FUNCTION_91
++ _OUTLINED_FUNCTION_92
++ _OUTLINED_FUNCTION_93
++ _OUTLINED_FUNCTION_94
++ _OUTLINED_FUNCTION_95
++ _OUTLINED_FUNCTION_96
++ _OUTLINED_FUNCTION_97
++ _OUTLINED_FUNCTION_98
++ _OUTLINED_FUNCTION_99
++ _Z42IOAVWaitForServiceMatchingProviderPropertyPK11OSMetaClassP9IOServicePKcb.cold.1
++ _ZN10IOAVDevice15validateKSVListEv.cold.1
++ _ZN10IOAVDevice15validateKSVListEv.cold.2
++ _ZN10IOAVDevice15validateKSVListEv.cold.3
++ _ZN10IOAVDevice15validateKSVListEv.cold.4
++ _ZN10IOAVDevice15validateKSVListEv.cold.5
++ _ZN11IOAVService12validateLinkEP12IOAVLinkData14IOAVLinkSourceb.cold.1
++ _ZN11IOAVService15processEDIDCEA3EP10_EDIDCEA_3.cold.1
++ _ZN11IOAVService17enableWorkaroundsEP7OSArray.cold.1
++ _ZN11IOAVService20removeInterfaceGatedEP13IOAVInterface.cold.1
++ _ZN11IOAVService22handleProtectLinkGatedEv.cold.1
++ _ZN11IOAVService22restartInterfacesGatedEPNS_23RestartInterfacesReasonE.cold.1
++ _ZN11IOAVService22restartInterfacesGatedEPNS_23RestartInterfacesReasonE.cold.2
++ _ZN11IOAVService22validateTimingElementsEv.cold.1
++ _ZN11IOAVService22validateTimingElementsEv.cold.2
++ _ZN11IOAVService22validateTimingElementsEv.cold.3
++ _ZN11IOAVService22validateTimingElementsEv.cold.4
++ _ZN11IOAVService24handleCPOverridesChangedEv.cold.1
++ _ZN11IOAVService24handleCPOverridesChangedEv.cold.2
++ _ZN11IOAVService25copyFilteredAudioElementsEPK7OSArray.cold.1
++ _ZN11IOAVService25restartInterfacesOccurredEP20IOAVAsyncEventSource.cold.1
++ _ZN11IOAVService26processEDIDStandardFeatureEP13_EDIDStandard.cold.1
++ _ZN11IOAVService27hdcpReauthenticationRequestE27IOAVHDCPReauthRequestReason.cold.1
++ _ZN11IOAVService30copyFilteredVideoColorElementsEPK7OSArray.cold.1
++ _ZN11IOAVService31copyFilteredVideoTimingElementsEPK7OSArray.cold.1
++ _ZN11IOAVService32handleProtectionIntegrityFailureEv.cold.1
++ _ZN11IOAVService35enumerateAudioChannelLayoutElementsEv.cold.1
++ _ZN11IOAVService5startEP9IOService.cold.1
++ _ZN14IOAVCECService12sendCECGatedEPK10IOCECFramePh.cold.1
++ _ZN14IOAVCECService12sendCECGatedEPK10IOCECFramePh.cold.2
++ _ZN14IOAVCECService12sendCECGatedEPK10IOCECFramePh.cold.3
++ _ZN14IOAVCECService13openInterfaceEv.cold.1
++ _ZN14IOAVController19openServiceMatchingEPK11OSMetaClassP12OSDictionaryPKc.cold.1
++ _ZN14IOAVController35openServiceMatchingProviderPropertyEPK11OSMetaClassP9IOServicePKcb.cold.2
++ _ZN14IOAVController35openServiceMatchingProviderPropertyEPK11OSMetaClassP9IOServicePKcb.cold.3
++ _ZN14IOAVController35openServiceMatchingProviderPropertyEPK11OSMetaClassP9IOServicePKcb.cold.4
++ _ZN14IOAVController35openServiceMatchingProviderPropertyEPK11OSMetaClassP9IOServicePKcb.cold.5
++ _ZN14IOAVController35openServiceMatchingProviderPropertyEPK11OSMetaClassP9IOServicePKcb.cold.6
++ _ZN14IOAVController35openServiceMatchingProviderPropertyEPK11OSMetaClassP9IOServicePKcb.cold.7
++ _ZN14IOAVController5startEP9IOService.cold.1
++ _ZN14IOAVController5startEP9IOService.cold.10
++ _ZN14IOAVController5startEP9IOService.cold.11
++ _ZN14IOAVController5startEP9IOService.cold.12
++ _ZN14IOAVController5startEP9IOService.cold.13
++ _ZN14IOAVController5startEP9IOService.cold.2
++ _ZN14IOAVController5startEP9IOService.cold.3
++ _ZN14IOAVController5startEP9IOService.cold.4
++ _ZN14IOAVController5startEP9IOService.cold.5
++ _ZN14IOAVController5startEP9IOService.cold.6
++ _ZN14IOAVController5startEP9IOService.cold.7
++ _ZN14IOAVController5startEP9IOService.cold.8
++ _ZN14IOAVController5startEP9IOService.cold.9
++ _ZN15IOAVAudioDriver12didTerminateEP9IOServicejPb.cold.1
++ _ZN15IOAVAudioDriver12messageGatedEPjP9IOServicePv.cold.1
++ _ZN15IOAVAudioDriver13setPropertiesEP8OSObject.cold.1
++ _ZN15IOAVAudioDriver13setPropertiesEP8OSObject.cold.2
++ _ZN15IOAVAudioDriver13setPropertiesEP8OSObject.cold.3
++ _ZN15IOAVAudioDriver13setPropertiesEP8OSObject.cold.4
++ _ZN15IOAVAudioDriver16startDMAInternalEb.cold.1
++ _ZN15IOAVAudioDriver19stopPersistentAudioEv.cold.1
++ _ZN15IOAVAudioDriver20getIOBufferForStreamEjPjPP18IOMemoryDescriptor.cold.1
++ _ZN15IOAVAudioDriver20registerServiceGatedEPj.cold.1
++ _ZN15IOAVAudioDriver20registerServiceGatedEPj.cold.2
++ _ZN15IOAVAudioDriver20registerServiceGatedEPj.cold.3
++ _ZN15IOAVAudioDriver20stopIOEngineInternalEv.cold.1
++ _ZN15IOAVAudioDriver23beginStartStopOperationEv.cold.1
++ _ZN15IOAVAudioDriver23startDefaultAudioStreamEv.cold.1
++ _ZN15IOAVAudioDriver23startDefaultAudioStreamEv.cold.2
++ _ZN15IOAVAudioDriver28updatePhysicalFormatIfNeededEv.cold.1
++ _ZN15IOAVAudioDriver28updatePhysicalFormatIfNeededEv.cold.2
++ _ZN15IOAVAudioDriver5startEP21IOAVAbstractInterfaceP31IOAVAudioInterfaceUserInterfaceP9IOService.cold.1
++ _ZN15IOAVAudioDriver5startEP21IOAVAbstractInterfaceP31IOAVAudioInterfaceUserInterfaceP9IOService.cold.2
++ _ZN15IOAVAudioDriver5startEP21IOAVAbstractInterfaceP31IOAVAudioInterfaceUserInterfaceP9IOService.cold.3
++ _ZN15IOAVAudioDriver5startEP21IOAVAbstractInterfaceP31IOAVAudioInterfaceUserInterfaceP9IOService.cold.4
++ _ZN15IOAVAudioDriver5startEP21IOAVAbstractInterfaceP31IOAVAudioInterfaceUserInterfaceP9IOService.cold.5
++ _ZN15IOAVAudioDriver5startEP21IOAVAbstractInterfaceP31IOAVAudioInterfaceUserInterfaceP9IOService.cold.6
++ _ZN15IOAVAudioDriver5startEP21IOAVAbstractInterfaceP31IOAVAudioInterfaceUserInterfaceP9IOService.cold.7
++ _ZN15IOAVAudioDriver7messageEjP9IOServicePv.cold.1
++ _ZN15IOAVWAVRecorder13initWithOwnerEP15IOAVAudioDriverj.cold.1
++ _ZN16IOAVAudioElement16withCEAShortDataEPhj.cold.1
++ _ZN16IOAVCECInterface10closeGatedEP9IOServicePj.cold.1
++ _ZN16IOAVCECInterface12setHPDStatusEb.cold.1
++ _ZN16IOAVCECInterface18setPhysicalAddressEt.cold.1
++ _ZN16IOAVSplitDisplay18commandSingleSliceEjj.cold.1
++ _ZN16IOAVSplitDisplay22publishClientInterfaceEv.cold.1
++ _ZN16IOAVSplitDisplay22publishClientInterfaceEv.cold.2
++ _ZN16IOAVSplitDisplay22publishClientInterfaceEv.cold.3
++ _ZN16IOAVSplitDisplay22publishClientInterfaceEv.cold.4
++ _ZN16IOAVSplitDisplay5probeEP9IOServicePi.cold.1
++ _ZN16IOAVSplitDisplay5probeEP9IOServicePi.cold.2
++ _ZN16IOAVSplitDisplay5startEP9IOService.cold.1
++ _ZN16IOAVSplitDisplay5startEP9IOService.cold.10
++ _ZN16IOAVSplitDisplay5startEP9IOService.cold.11
++ _ZN16IOAVSplitDisplay5startEP9IOService.cold.2
++ _ZN16IOAVSplitDisplay5startEP9IOService.cold.3
++ _ZN16IOAVSplitDisplay5startEP9IOService.cold.4
++ _ZN16IOAVSplitDisplay5startEP9IOService.cold.5
++ _ZN16IOAVSplitDisplay5startEP9IOService.cold.6
++ _ZN16IOAVSplitDisplay5startEP9IOService.cold.7
++ _ZN16IOAVSplitDisplay5startEP9IOService.cold.8
++ _ZN16IOAVSplitDisplay5startEP9IOService.cold.9
++ _ZN20IOAVAudioDMADelegate19getDataSafetyOffsetEPK17IOAVAudioLinkData.cold.1
++ _ZN20IOAVAudioDMADelegate22transferAudioDataGatedEPNS_20DMACommandAttributesE.cold.1
++ _ZN20IOAVAudioDMADelegate22transferAudioDataGatedEPNS_20DMACommandAttributesE.cold.2
++ _ZN20IOAVAudioDMADelegate5startEP9IOServiceS1_.cold.1
++ _ZN20IOAVAudioDMADelegate5startEP9IOServiceS1_.cold.10
++ _ZN20IOAVAudioDMADelegate5startEP9IOServiceS1_.cold.11
++ _ZN20IOAVAudioDMADelegate5startEP9IOServiceS1_.cold.12
++ _ZN20IOAVAudioDMADelegate5startEP9IOServiceS1_.cold.13
++ _ZN20IOAVAudioDMADelegate5startEP9IOServiceS1_.cold.14
++ _ZN20IOAVAudioDMADelegate5startEP9IOServiceS1_.cold.15
++ _ZN20IOAVAudioDMADelegate5startEP9IOServiceS1_.cold.16
++ _ZN20IOAVAudioDMADelegate5startEP9IOServiceS1_.cold.2
++ _ZN20IOAVAudioDMADelegate5startEP9IOServiceS1_.cold.3
++ _ZN20IOAVAudioDMADelegate5startEP9IOServiceS1_.cold.4
++ _ZN20IOAVAudioDMADelegate5startEP9IOServiceS1_.cold.5
++ _ZN20IOAVAudioDMADelegate5startEP9IOServiceS1_.cold.6
++ _ZN20IOAVAudioDMADelegate5startEP9IOServiceS1_.cold.7
++ _ZN20IOAVAudioDMADelegate5startEP9IOServiceS1_.cold.8
++ _ZN20IOAVAudioDMADelegate5startEP9IOServiceS1_.cold.9
++ _ZN22IOAVVideoTimingElement15initWithElementEPKS_.cold.1
++ _ZN25AppleIISAudioLinkDelegate5startEP9IOService.cold.1
++ _ZN25AppleIISAudioLinkDelegate5startEP9IOService.cold.2
++ _ZN25AppleIISAudioLinkDelegate5startEP9IOService.cold.3
++ _ZN25AppleIISAudioLinkDelegate5startEP9IOService.cold.4
++ _ZN9__IOAVLog11getLogLevelEP9IOService.cold.1
++ _ZN9__IOAVLog11setLogLevelEPKcj.cold.1
++ _ZN9__IOAVLog15getLogLevelMaskEP9IOService12IOAVLogLevel.cold.1
++ _ZN9__IOAVLog15getLogLevelMaskEPKc12IOAVLogLevel.cold.1
++ _ZN9__IOAVLog15setLogLevelMaskEPKcjj.cold.1
++ _ZN9__IOAVLog20getEventLogEventMaskEP9IOServicePy.cold.1
++ _ZN9__IOAVLog20setEventLogEventMaskEPKcy.cold.1
++ _ZN9__IOAVLog22getEventLogCommandMaskEP9IOServicePy.cold.1
++ _ZN9__IOAVLog22getEventLogMaxCapacityEP9IOServicePj.cold.1
++ _ZN9__IOAVLog22setEventLogCommandMaskEPKcy.cold.1
++ _ZN9__IOAVLog22setEventLogMaxCapacityEPKcj.cold.1
++ __ZN12IOCECService10updateEDIDE19IOCECEDIDAttributes
++ __ZN14IOAVCECService18updateEDIDCallbackEP24IOAVCECInterfaceProtocol19IOCECEDIDAttributes
++ __ZN16IOAVCECInterface17getEDIDAttributesEv
++ __ZN16IOAVCECInterface22getEDIDAttributesGatedEP19IOCECEDIDAttributes
++ __ZThn216_N16IOAVCECInterface17getEDIDAttributesEv
++ __ZZN16IOAVCECInterface17getEDIDAttributesEvE11_os_log_fmt
++ ___ZN11IOAVService12sortElementsEv_block_invoke.cold.1
+- __ZN12IOCECService21updatePhysicalAddressEt
+- __ZN14IOAVCECService29updatePhysicalAddressCallbackEP24IOAVCECInterfaceProtocolt
+- __ZN16IOAVCECInterface18getPhysicalAddressEv
+- __ZN16IOAVCECInterface23getPhysicalAddressGatedEPt
+- __ZThn216_N16IOAVCECInterface12setHPDStatusEb
+- __ZThn216_N16IOAVCECInterface18getPhysicalAddressEv
+- __ZThn216_N16IOAVCECInterface18setPhysicalAddressEt
+- __ZZN16IOAVCECInterface18getPhysicalAddressEvE11_os_log_fmt
+CStrings:
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/IOAVFamily/IOAV.cpp"
++ "12111112122212121112222211111111112221222221222222212222212222212222222222222222222222222222222222222222222222222221111111112111111112222"
++ "1211111212221212111222222222221112122222"
++ "getEDIDAttributes"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/IOAVFamily/IOAV.cpp"
+- "121111121222121211121112122222"
+- "121111121222121211122222111111111122212222212222222122222122222122222222222222222222222222222222222222222222222221111111112111111112222"
+- "getPhysicalAddress"
+
+```

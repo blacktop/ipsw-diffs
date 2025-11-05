@@ -1,0 +1,476 @@
+## com.apple.filesystems.smbfs
+
+> `com.apple.filesystems.smbfs`
+
+```diff
+
+-493.80.3.0.0
+-  __TEXT.__const: 0xb45
+-  __TEXT.__cstring: 0x459d
+-  __TEXT.__os_log: 0x159d9
+-  __TEXT_EXEC.__text: 0x7d1f8
++494.100.17.0.0
++  __TEXT.__const: 0xbf5
++  __TEXT.__cstring: 0x4622
++  __TEXT.__os_log: 0x15b44
++  __TEXT_EXEC.__text: 0x7d8fc
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xdf8
+   __DATA.__bss: 0x106c
+   __DATA.__common: 0x24f0
+-  __DATA_CONST.__auth_got: 0xa68
+-  __DATA_CONST.__got: 0x38
++  __DATA_CONST.__auth_got: 0xa78
++  __DATA_CONST.__got: 0x40
+   __DATA_CONST.__auth_ptr: 0x8
+   __DATA_CONST.__const: 0x78
+   __DATA_CONST.__kalloc_type: 0x4d40
+   __DATA_CONST.__kalloc_var: 0x460
+-  UUID: BE2B8019-1A24-398A-8CE8-F31D16180599
+-  Functions: 810
+-  Symbols:   3720
+-  CStrings:  2442
++  UUID: 74D370B0-FAF3-33A0-A3C1-B97F54715447
++  Functions: 750
++  Symbols:   3708
++  CStrings:  2457
+ 
+Symbols:
++ AddRemoveByteRangeLockEntry.kalloc_type_view_6249
++ AddRemoveByteRangeLockEntry.kalloc_type_view_6287
++ AddRemoveByteRangeLockEntry.kalloc_type_view_6298
++ __ZN12IOUserClient21copyClientEntitlementEP4taskPKc
++ _kOSBooleanTrue
++ _proc_task
++ _smbfs_default_error
++ _smbfs_is_task_entitled_to
++ addressMatch._os_log_fmt.50
++ addressMatch._os_log_fmt.51
++ dnsMatch._os_log_fmt.53
++ dnsMatch._os_log_fmt.54
++ dnsMatch._os_log_fmt.55
++ nsmb_dev_close.kalloc_type_view_234
++ nsmb_dev_ioctl._os_log_fmt.29
++ nsmb_dev_ioctl._os_log_fmt.30
++ nsmb_dev_load.kalloc_type_view_1842
++ nsmb_dev_load.kalloc_type_view_1850
++ nsmb_dev_open_nolock.kalloc_type_view_144
++ nsmb_dev_open_nolock.kalloc_type_view_153
++ smb2_compress_data._os_log_fmt.29
++ smb2_create_server_addr._os_log_fmt.43
++ smb2_create_server_addr._os_log_fmt.44
++ smb2_create_server_addr._os_log_fmt.45
++ smb2_create_server_addr._os_log_fmt.46
++ smb2_create_server_addr._os_log_fmt.47
++ smb2_extract_ip_and_len._os_log_fmt.24
++ smb2_extract_ip_and_len._os_log_fmt.25
++ smb2_find_valid_ip_family._os_log_fmt.48
++ smb2_get_port_from_sockaddr._os_log_fmt.26
++ smb2_mc_add_new_interface_info_to_list.kalloc_type_view_1467
++ smb2_mc_query_info_response_event.kalloc_type_view_863
++ smb2_mc_release_connection_list.kalloc_type_view_1799
++ smb2_mc_release_interface.kalloc_type_view_1813
++ smb2_mc_release_interface.kalloc_type_view_1828
++ smb2_mc_remove_nic_if_unused.kalloc_type_view_970
++ smb2_mc_update_con_list.kalloc_type_view_1636
++ smb2_mc_update_info_with_ip.kalloc_type_view_1975
++ smb2_mc_update_info_with_ip.kalloc_type_view_1983
++ smb2_rq_compress_chunk._os_log_fmt.34
++ smb2_rq_compress_write._os_log_fmt.39
++ smb2_rq_compress_write._os_log_fmt.43
++ smb2_rq_compress_write._os_log_fmt.44
++ smb2_rq_compress_write._os_log_fmt.52
++ smb2_rq_compress_write._os_log_fmt.57
++ smb2_rq_compress_write._os_log_fmt.58
++ smb2_rq_decompress_read._os_log_fmt.89
++ smb2_rq_decompress_read._os_log_fmt.90
++ smb2_rq_decompress_read._os_log_fmt.91
++ smb2_session_maxread._os_log_fmt.156
++ smb2_session_maxread._os_log_fmt.157
++ smb2_session_maxread._os_log_fmt.158
++ smb2_session_maxwrite._os_log_fmt.160
++ smb2_session_maxwrite._os_log_fmt.161
++ smb2_session_maxwrite._os_log_fmt.162
++ smb2_set_port_in_sockaddr._os_log_fmt.27
++ smb2_sign._os_log_fmt.94
++ smb2_sign._os_log_fmt.95
++ smb2_smb_add_create_contexts._os_log_fmt.166
++ smb2_smb_add_create_contexts._os_log_fmt.167
++ smb2_smb_add_create_contexts._os_log_fmt.168
++ smb2_smb_add_negotiate_contexts._os_log_fmt.171
++ smb2_smb_add_negotiate_contexts._os_log_fmt.172
++ smb2_smb_get_alloc_size._os_log_fmt.217
++ smb2_smb_get_quantum_sizes._os_log_fmt.252
++ smb2_smb_logoff._os_log_fmt.169
++ smb2_smb_logoff._os_log_fmt.170
++ smb2_smb_parse_create_contexts._os_log_fmt.198
++ smb2_smb_parse_create_contexts._os_log_fmt.199
++ smb2_smb_parse_create_contexts._os_log_fmt.200
++ smb2_smb_parse_create_str._os_log_fmt.227
++ smb2_smb_parse_create_str._os_log_fmt.228
++ smb2_smb_parse_create_str._os_log_fmt.229
++ smb2_smb_parse_file_all_info._os_log_fmt.224
++ smb2_smb_parse_file_all_info._os_log_fmt.225
++ smb2_smb_parse_file_all_info._os_log_fmt.226
++ smb2_smb_parse_negotiate._os_log_fmt.208
++ smb2_smb_parse_negotiate._os_log_fmt.209
++ smb2_smb_parse_negotiate._os_log_fmt.210
++ smb2_smb_parse_negotiate_contexts._os_log_fmt.214
++ smb2_smb_parse_negotiate_contexts._os_log_fmt.215
++ smb2_smb_parse_negotiate_contexts._os_log_fmt.216
++ smb2_smb_read._os_log_fmt.128
++ smb2_smb_read._os_log_fmt.129
++ smb2_smb_read_one._os_log_fmt.132
++ smb2_smb_read_one._os_log_fmt.133
++ smb2_smb_read_uio.kalloc_type_view_8895
++ smb2_smb_read_uio.kalloc_type_view_8912
++ smb2_smb_read_write_async._os_log_fmt.231
++ smb2_smb_read_write_async._os_log_fmt.232
++ smb2_smb_read_write_async._os_log_fmt.237
++ smb2_smb_read_write_async._os_log_fmt.246
++ smb2_smb_read_write_async._os_log_fmt.250
++ smb2_smb_read_write_async._os_log_fmt.251
++ smb2_smb_read_write_async.kalloc_type_view_9064
++ smb2_smb_read_write_async.kalloc_type_view_9130
++ smb2_smb_read_write_async.kalloc_type_view_9458
++ smb2_smb_read_write_async.kalloc_type_view_9527
++ smb2_smb_read_write_fill._os_log_fmt.253
++ smb2_smb_set_info._os_log_fmt.135
++ smb2_smb_set_info._os_log_fmt.136
++ smb2_smb_tree_connect._os_log_fmt.144
++ smb2_smb_tree_connect._os_log_fmt.150
++ smb2_smb_tree_connect._os_log_fmt.151
++ smb2_smb_tree_connect_bad_cluster_dialect._os_log_fmt.254
++ smb2_smb_tree_connect_bad_cluster_dialect._os_log_fmt.255
++ smb2_smb_tree_connect_bad_cluster_dialect._os_log_fmt.256
++ smb2_smb_tree_disconnect._os_log_fmt.257
++ smb2_smb_tree_disconnect._os_log_fmt.258
++ smb2_smb_write._os_log_fmt
++ smb2_smb_write._os_log_fmt.152
++ smb2_smb_write_one._os_log_fmt.153
++ smb2_smb_write_one._os_log_fmt.154
++ smb2_smb_write_uio._os_log_fmt.259
++ smb2_smb_write_uio.kalloc_type_view_10687
++ smb2_smb_write_uio.kalloc_type_view_10740
++ smb2_sockaddr_to_str._os_log_fmt.28
++ smb2_sockaddr_to_str._os_log_fmt.32
++ smb2_verify._os_log_fmt.96
++ smb2_verify._os_log_fmt.97
++ smb2_verify._os_log_fmt.98
++ smb2fs_reconnect.kalloc_type_view_3819
++ smb2fs_reconnect.kalloc_type_view_4363
++ smb2fs_reconnect_dur_handle.kalloc_type_view_3581
++ smb2fs_reconnect_dur_handle.kalloc_type_view_3737
++ smb3_derive_channel_keys._os_log_fmt.25
++ smb3_get_signature._os_log_fmt.102
++ smb3_get_signature._os_log_fmt.104
++ smb3_get_signature._os_log_fmt.108
++ smb3_get_signature._os_log_fmt.109
++ smb3_get_signature_blocks._os_log_fmt.117
++ smb3_get_signature_blocks._os_log_fmt.119
++ smb3_msg_decrypt._os_log_fmt.16
++ smb3_verify._os_log_fmt.100
++ smb3_verify._os_log_fmt.101
++ smb3_verify._os_log_fmt.99
++ smb_co_lock._os_log_fmt.49
++ smb_dup_sockaddr.kalloc_type_view_264
++ smb_session_create._os_log_fmt.59
++ smb_session_create._os_log_fmt.60
++ smb_session_create._os_log_fmt.61
++ smb_session_create.kalloc_type_view_574
++ smb_session_establish_alternate_connection._os_log_fmt.20
++ smb_session_establish_alternate_connection._os_log_fmt.21
++ smb_session_establish_alternate_connection._os_log_fmt.22
++ smb_session_establish_alternate_connection._os_log_fmt.23
++ smb_session_free._os_log_fmt.64
++ smb_session_free._os_log_fmt.66
++ smb_session_free._os_log_fmt.67
++ smb_session_free._os_log_fmt.68
++ smb_session_free.kalloc_type_view_449
++ smb_session_free.kalloc_type_view_481
++ smb_session_free.kalloc_type_view_507
++ smb_session_lease_thread.kalloc_type_view_2223
++ smb_session_query_net_if._os_log_fmt.14
++ smb_session_query_net_if._os_log_fmt.15
++ smb_session_query_net_if._os_log_fmt.16
++ smb_share_create.kalloc_type_view_1492
++ smb_share_create.kalloc_type_view_1498
++ smb_share_free.kalloc_type_view_1453
++ smb_sm_lock_session_list.cold.1
++ smb_sm_negotiate._os_log_fmt.10
++ smb_sm_negotiate._os_log_fmt.11
++ smb_sm_ssnsetup._os_log_fmt.12
++ smb_sm_ssnsetup._os_log_fmt.13
++ smbfs_CloseChildren.kalloc_type_view_3372
++ smbfs_clear_lockEntries.kalloc_type_view_6660
++ smbfs_clear_lockEntries.kalloc_type_view_6690
++ smbfs_free_locks_on_close.kalloc_type_view_6842
++ smbfs_get_lockEntry.kalloc_type_view_7049
++ smbfs_get_lockEntry.kalloc_type_view_7138
++ smbfs_lease_hash_add.kalloc_type_view_6101
++ smbfs_lease_hash_remove.kalloc_type_view_6201
++ smbfs_nget.kalloc_type_view_1046
++ smbfs_nget.kalloc_type_view_1066
++ smbfs_nget.kalloc_type_view_1073
++ smbfs_nget.kalloc_type_view_1376
++ smbfs_nget.kalloc_type_view_962
++ smbfs_nget.kalloc_type_view_991
++ smbfs_remove._os_log_fmt.336
++ smbfs_vgetstrm.kalloc_type_view_1463
++ smbfs_vgetstrm.kalloc_type_view_1470
++ smbfs_vgetstrm.kalloc_type_view_1679
++ smbfs_vnop_access._os_log_fmt.395
++ smbfs_vnop_access._os_log_fmt.400
++ smbfs_vnop_access._os_log_fmt.403
++ smbfs_vnop_access._os_log_fmt.409
++ smbfs_vnop_access._os_log_fmt.421
++ smbfs_vnop_getattrlistbulk._os_log_fmt.326
++ smbfs_vnop_getnamedstream._os_log_fmt.392
++ smbfs_vnop_getxattr._os_log_fmt.380
++ smbfs_vnop_getxattr._os_log_fmt.382
++ smbfs_vnop_reclaim._os_log_fmt.330
++ smbfs_vnop_removexattr._os_log_fmt.391
++ smbfs_vnop_rename._os_log_fmt.343
++ smbfs_vnop_rename._os_log_fmt.345
++ smbfs_vnop_rename._os_log_fmt.352
++ smbfs_vnop_rename._os_log_fmt.356
++ smbfs_vnop_setxattr._os_log_fmt.389
++ smbfs_vnop_strategy._os_log_fmt.375
++ smbfs_vnop_strategy._os_log_fmt.378
++ smbfs_vnop_write._os_log_fmt.373
+- AddRemoveByteRangeLockEntry.kalloc_type_view_6230
+- AddRemoveByteRangeLockEntry.kalloc_type_view_6268
+- AddRemoveByteRangeLockEntry.kalloc_type_view_6279
+- _vn_default_error
+- addressMatch._os_log_fmt.45
+- addressMatch._os_log_fmt.46
+- dnsMatch._os_log_fmt.48
+- dnsMatch._os_log_fmt.49
+- dnsMatch._os_log_fmt.50
+- nsmb_dev_close.kalloc_type_view_232
+- nsmb_dev_ioctl._os_log_fmt.18
+- nsmb_dev_ioctl.cold.1
+- nsmb_dev_load.kalloc_type_view_1833
+- nsmb_dev_load.kalloc_type_view_1841
+- nsmb_dev_open_nolock.kalloc_type_view_142
+- nsmb_dev_open_nolock.kalloc_type_view_151
+- smb2_compress_data._os_log_fmt.25
+- smb2_create_server_addr._os_log_fmt.35
+- smb2_create_server_addr._os_log_fmt.36
+- smb2_create_server_addr._os_log_fmt.37
+- smb2_create_server_addr._os_log_fmt.38
+- smb2_create_server_addr._os_log_fmt.39
+- smb2_extract_ip_and_len._os_log_fmt.20
+- smb2_extract_ip_and_len._os_log_fmt.21
+- smb2_find_valid_ip_family._os_log_fmt.43
+- smb2_get_port_from_sockaddr._os_log_fmt.22
+- smb2_mc_add_new_interface_info_to_list.kalloc_type_view_1466
+- smb2_mc_query_info_response_event.kalloc_type_view_862
+- smb2_mc_release_connection_list.kalloc_type_view_1798
+- smb2_mc_release_interface.kalloc_type_view_1812
+- smb2_mc_release_interface.kalloc_type_view_1827
+- smb2_mc_remove_nic_if_unused.kalloc_type_view_969
+- smb2_mc_update_con_list.kalloc_type_view_1635
+- smb2_mc_update_info_with_ip.cold.1
+- smb2_mc_update_info_with_ip.kalloc_type_view_1974
+- smb2_mc_update_info_with_ip.kalloc_type_view_1982
+- smb2_rq_compress_chunk._os_log_fmt.29
+- smb2_rq_compress_write._os_log_fmt.34
+- smb2_rq_compress_write._os_log_fmt.40
+- smb2_rq_compress_write._os_log_fmt.48
+- smb2_rq_compress_write._os_log_fmt.49
+- smb2_rq_compress_write._os_log_fmt.54
+- smb2_rq_decompress_read._os_log_fmt.58
+- smb2_rq_decompress_read._os_log_fmt.59
+- smb2_rq_decompress_read.cold.1
+- smb2_session_maxread._os_log_fmt.152
+- smb2_session_maxread._os_log_fmt.153
+- smb2_session_maxread._os_log_fmt.154
+- smb2_session_maxwrite._os_log_fmt.156
+- smb2_session_maxwrite._os_log_fmt.157
+- smb2_session_maxwrite._os_log_fmt.158
+- smb2_set_port_in_sockaddr._os_log_fmt.23
+- smb2_sign._os_log_fmt.91
+- smb2_sign._os_log_fmt.92
+- smb2_sign.cold.1
+- smb2_smb_add_create_contexts._os_log_fmt.160
+- smb2_smb_add_create_contexts._os_log_fmt.161
+- smb2_smb_add_create_contexts._os_log_fmt.162
+- smb2_smb_add_negotiate_contexts._os_log_fmt.168
+- smb2_smb_add_negotiate_contexts._os_log_fmt.169
+- smb2_smb_get_alloc_size._os_log_fmt.214
+- smb2_smb_get_quantum_sizes._os_log_fmt.249
+- smb2_smb_logoff._os_log_fmt.166
+- smb2_smb_logoff._os_log_fmt.167
+- smb2_smb_parse_create_contexts._os_log_fmt.170
+- smb2_smb_parse_create_contexts._os_log_fmt.171
+- smb2_smb_parse_create_contexts._os_log_fmt.172
+- smb2_smb_parse_create_str._os_log_fmt.224
+- smb2_smb_parse_create_str._os_log_fmt.225
+- smb2_smb_parse_create_str._os_log_fmt.226
+- smb2_smb_parse_file_all_info._os_log_fmt.221
+- smb2_smb_parse_file_all_info._os_log_fmt.222
+- smb2_smb_parse_file_all_info._os_log_fmt.223
+- smb2_smb_parse_negotiate._os_log_fmt.198
+- smb2_smb_parse_negotiate._os_log_fmt.199
+- smb2_smb_parse_negotiate._os_log_fmt.200
+- smb2_smb_parse_negotiate_contexts._os_log_fmt.208
+- smb2_smb_parse_negotiate_contexts._os_log_fmt.209
+- smb2_smb_parse_negotiate_contexts._os_log_fmt.210
+- smb2_smb_read_one._os_log_fmt.128
+- smb2_smb_read_one._os_log_fmt.129
+- smb2_smb_read_uio.kalloc_type_view_8892
+- smb2_smb_read_uio.kalloc_type_view_8909
+- smb2_smb_read_write_async._os_log_fmt.227
+- smb2_smb_read_write_async._os_log_fmt.228
+- smb2_smb_read_write_async._os_log_fmt.229
+- smb2_smb_read_write_async._os_log_fmt.234
+- smb2_smb_read_write_async._os_log_fmt.235
+- smb2_smb_read_write_async._os_log_fmt.240
+- smb2_smb_read_write_async.cold.1
+- smb2_smb_read_write_async.kalloc_type_view_9061
+- smb2_smb_read_write_async.kalloc_type_view_9125
+- smb2_smb_read_write_async.kalloc_type_view_9456
+- smb2_smb_read_write_async.kalloc_type_view_9525
+- smb2_smb_read_write_fill._os_log_fmt.250
+- smb2_smb_set_info._os_log_fmt.132
+- smb2_smb_set_info._os_log_fmt.133
+- smb2_smb_tree_connect._os_log_fmt.136
+- smb2_smb_tree_connect._os_log_fmt.139
+- smb2_smb_tree_connect._os_log_fmt.146
+- smb2_smb_tree_connect_bad_cluster_dialect._os_log_fmt.251
+- smb2_smb_tree_connect_bad_cluster_dialect._os_log_fmt.252
+- smb2_smb_tree_connect_bad_cluster_dialect._os_log_fmt.253
+- smb2_smb_tree_disconnect._os_log_fmt.254
+- smb2_smb_tree_disconnect._os_log_fmt.255
+- smb2_smb_write_one._os_log_fmt.150
+- smb2_smb_write_one._os_log_fmt.151
+- smb2_smb_write_uio._os_log_fmt.256
+- smb2_smb_write_uio.kalloc_type_view_10683
+- smb2_smb_write_uio.kalloc_type_view_10736
+- smb2_sockaddr_to_str._os_log_fmt.24
+- smb2_verify._os_log_fmt.93
+- smb2_verify._os_log_fmt.94
+- smb2_verify._os_log_fmt.95
+- smb2_verify.cold.1
+- smb2fs_reconnect.kalloc_type_view_3800
+- smb2fs_reconnect.kalloc_type_view_4344
+- smb2fs_reconnect_dur_handle.kalloc_type_view_3562
+- smb2fs_reconnect_dur_handle.kalloc_type_view_3718
+- smb2fs_smb_cmpd_query_async.cold.1
+- smb3_derive_channel_keys._os_log_fmt.24
+- smb3_get_signature._os_log_fmt.100
+- smb3_get_signature._os_log_fmt.101
+- smb3_get_signature._os_log_fmt.105
+- smb3_get_signature._os_log_fmt.99
+- smb3_get_signature_blocks._os_log_fmt.108
+- smb3_get_signature_blocks._os_log_fmt.109
+- smb3_get_signature_blocks._os_log_fmt.110
+- smb3_get_signature_blocks._os_log_fmt.115
+- smb3_verify._os_log_fmt.96
+- smb3_verify._os_log_fmt.97
+- smb3_verify._os_log_fmt.98
+- smb_co_lock._os_log_fmt.44
+- smb_dup_sockaddr.kalloc_type_view_263
+- smb_gss_dup.cold.1
+- smb_gss_dup.cold.2
+- smb_gss_init.cold.1
+- smb_gss_init.cold.2
+- smb_ntlmv2hash.cold.1
+- smb_ntlmv2response.cold.1
+- smb_ntlmv2response.cold.2
+- smb_session_create._os_log_fmt.54
+- smb_session_create._os_log_fmt.55
+- smb_session_create._os_log_fmt.56
+- smb_session_create.kalloc_type_view_573
+- smb_session_establish_alternate_connection._os_log_fmt.13
+- smb_session_establish_alternate_connection._os_log_fmt.14
+- smb_session_establish_alternate_connection._os_log_fmt.15
+- smb_session_establish_alternate_connection._os_log_fmt.16
+- smb_session_free._os_log_fmt.57
+- smb_session_free._os_log_fmt.58
+- smb_session_free._os_log_fmt.59
+- smb_session_free._os_log_fmt.61
+- smb_session_free.kalloc_type_view_448
+- smb_session_free.kalloc_type_view_480
+- smb_session_free.kalloc_type_view_506
+- smb_session_lease_thread.kalloc_type_view_2232
+- smb_session_query_net_if._os_log_fmt.10
+- smb_session_query_net_if._os_log_fmt.11
+- smb_session_query_net_if._os_log_fmt.12
+- smb_share_create.kalloc_type_view_1491
+- smb_share_create.kalloc_type_view_1497
+- smb_share_free.kalloc_type_view_1452
+- smb_sm_negotiate._os_log_fmt.6
+- smb_sm_negotiate._os_log_fmt.7
+- smb_sm_ssnsetup._os_log_fmt.8
+- smb_sm_ssnsetup._os_log_fmt.9
+- smb_strndup.cold.1
+- smbfs_CloseChildren.kalloc_type_view_3353
+- smbfs_clear_lockEntries.kalloc_type_view_6641
+- smbfs_clear_lockEntries.kalloc_type_view_6671
+- smbfs_create_start_path.cold.1
+- smbfs_free_locks_on_close.kalloc_type_view_6823
+- smbfs_get_lockEntry.kalloc_type_view_7030
+- smbfs_get_lockEntry.kalloc_type_view_7119
+- smbfs_lease_hash_add.kalloc_type_view_6082
+- smbfs_lease_hash_remove.kalloc_type_view_6182
+- smbfs_mount.cold.1
+- smbfs_nget.kalloc_type_view_1027
+- smbfs_nget.kalloc_type_view_1047
+- smbfs_nget.kalloc_type_view_1054
+- smbfs_nget.kalloc_type_view_1357
+- smbfs_nget.kalloc_type_view_942
+- smbfs_nget.kalloc_type_view_971
+- smbfs_remove._os_log_fmt.335
+- smbfs_smb_create_windows_symlink.cold.1
+- smbfs_smb_create_windows_symlink.cold.2
+- smbfs_sysctl.cold.1
+- smbfs_vget.cold.1
+- smbfs_vget.cold.2
+- smbfs_vget.cold.3
+- smbfs_vgetstrm.kalloc_type_view_1444
+- smbfs_vgetstrm.kalloc_type_view_1451
+- smbfs_vgetstrm.kalloc_type_view_1660
+- smbfs_vnop_access._os_log_fmt.392
+- smbfs_vnop_access._os_log_fmt.397
+- smbfs_vnop_access._os_log_fmt.402
+- smbfs_vnop_access._os_log_fmt.405
+- smbfs_vnop_access._os_log_fmt.411
+- smbfs_vnop_getattrlistbulk._os_log_fmt.325
+- smbfs_vnop_getnamedstream._os_log_fmt.391
+- smbfs_vnop_getxattr._os_log_fmt.379
+- smbfs_vnop_getxattr._os_log_fmt.381
+- smbfs_vnop_reclaim._os_log_fmt.327
+- smbfs_vnop_removexattr._os_log_fmt.390
+- smbfs_vnop_rename._os_log_fmt.336
+- smbfs_vnop_rename._os_log_fmt.344
+- smbfs_vnop_rename._os_log_fmt.347
+- smbfs_vnop_rename._os_log_fmt.354
+- smbfs_vnop_setxattr._os_log_fmt.388
+- smbfs_vnop_setxattr.cold.1
+- smbfs_vnop_strategy._os_log_fmt.373
+- smbfs_vnop_strategy._os_log_fmt.377
+- smbfs_vnop_write._os_log_fmt.361
+CStrings:
++ "\"%s: assertion '%s' failed, msg: <%s>\" @%s:%d"
++ "%s: SMBIOC_UPDATE_NOTIFIER_PID needs entitlement"
++ "%s: Unexpected partial read! resid %lld, len %lld\n"
++ "%s: Unexpected partial write! resid %lld, len %lld\n"
++ "%s: compress_len<%u> larger than remaining_size<%zu>"
++ "%s: inet_ntop failed for IPv6 address.\n"
++ "%s: msglen<%d> > kDefaultMaxIOSize <%d>"
++ "%s: smb2_smb_read_write_async failed with an error %d\n"
++ "%s: write_buffer_len<%d> > kDefaultMaxIOSize<%d>\n"
++ "(smb_co_lock(&smb_session_list) == 0)"
++ "IPv6[%s]:%u"
++ "com.apple.private.smbfs.update-notifier-pid"
++ "smb2_smb_write"
++ "smb_conn.c"
++ "smb_sm_lock_session_list"
++ "smb_sm_lock_session_list: lock failed"
++ "va_name is NULL"
+- "\"assertion '%s' failed\" @%s:%d"
+- "IPv6[%02x%02x:%02x%02x:%02x%02x:%02x%02x:%02x%02x:%02x%02x:%02x%02x:%02x%02x]:%u"
+
+```

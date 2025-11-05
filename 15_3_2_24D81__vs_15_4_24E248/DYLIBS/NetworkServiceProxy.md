@@ -1,0 +1,7014 @@
+## NetworkServiceProxy
+
+> `/System/Library/PrivateFrameworks/NetworkServiceProxy.framework/Versions/A/NetworkServiceProxy`
+
+```diff
+
+-847.80.2.0.0
+-  __TEXT.__text: 0xa7d5c
+-  __TEXT.__auth_stubs: 0x1780
+-  __TEXT.__objc_methlist: 0x7898
+-  __TEXT.__const: 0x660
+-  __TEXT.__gcc_except_tab: 0x1c34
+-  __TEXT.__cstring: 0x731d
+-  __TEXT.__oslogstring: 0x82eb
+-  __TEXT.__unwind_info: 0x1c28
+-  __TEXT.__objc_classname: 0x7d0
+-  __TEXT.__objc_methname: 0x1243f
+-  __TEXT.__objc_methtype: 0x1f9a
+-  __TEXT.__objc_stubs: 0xc780
+-  __DATA_CONST.__got: 0x5e0
+-  __DATA_CONST.__const: 0x778
+-  __DATA_CONST.__objc_classlist: 0x278
+-  __DATA_CONST.__objc_protolist: 0x48
++868.100.2.0.0
++  __TEXT.__text: 0x4c420
++  __TEXT.__auth_stubs: 0xc50
++  __TEXT.__objc_methlist: 0x4104
++  __TEXT.__const: 0x368
++  __TEXT.__gcc_except_tab: 0xe0
++  __TEXT.__cstring: 0x4e54
++  __TEXT.__oslogstring: 0x2c1d
++  __TEXT.__unwind_info: 0xc70
++  __TEXT.__objc_classname: 0x4e3
++  __TEXT.__objc_methname: 0x8af8
++  __TEXT.__objc_methtype: 0x10c1
++  __TEXT.__objc_stubs: 0x4d20
++  __DATA_CONST.__got: 0x3b8
++  __DATA_CONST.__const: 0x5c0
++  __DATA_CONST.__objc_classlist: 0x148
++  __DATA_CONST.__objc_protolist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x40e0
+-  __DATA_CONST.__objc_superrefs: 0x240
+-  __DATA_CONST.__objc_arraydata: 0x78
+-  __AUTH_CONST.__auth_got: 0xbd8
+-  __AUTH_CONST.__const: 0x24c0
+-  __AUTH_CONST.__cfstring: 0x7920
+-  __AUTH_CONST.__objc_const: 0xd0b0
+-  __AUTH_CONST.__objc_intobj: 0x138
+-  __AUTH_CONST.__objc_arrayobj: 0x78
++  __DATA_CONST.__objc_selrefs: 0x1fe8
++  __DATA_CONST.__objc_superrefs: 0x128
++  __DATA_CONST.__objc_arraydata: 0x48
++  __AUTH_CONST.__auth_got: 0x640
++  __AUTH_CONST.__const: 0x780
++  __AUTH_CONST.__cfstring: 0x4740
++  __AUTH_CONST.__objc_const: 0x58b8
++  __AUTH_CONST.__objc_arrayobj: 0x18
++  __AUTH_CONST.__objc_intobj: 0x60
+   __AUTH_CONST.__objc_dictobj: 0x28
+-  __AUTH.__objc_data: 0x1680
+-  __DATA.__objc_ivar: 0xadc
+-  __DATA.__data: 0x3b8
+-  __DATA.__bss: 0x4f0
+-  __DATA.__common: 0x48
+-  __DATA_DIRTY.__objc_data: 0x230
+-  __DATA_DIRTY.__bss: 0x8
++  __AUTH.__objc_data: 0xc30
++  __DATA.__objc_ivar: 0x490
++  __DATA.__data: 0x268
++  __DATA.__common: 0x28
++  __DATA.__bss: 0xb8
++  __DATA_DIRTY.__objc_data: 0xa0
+   - /System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libnetwork.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F29C56BD-FDA6-3778-8844-282C2C420BB6
+-  Functions: 3260
+-  Symbols:   6919
+-  CStrings:  6748
++  UUID: 201CB061-B5C3-3F35-B47F-B84C0CDBE803
++  Functions: 1485
++  Symbols:   3033
++  CStrings:  3356
+ 
+Symbols:
++ +[NPUtilities copyUUIDsForSigningIdentifier:executablePath:]
++ +[NPUtilities mergeHTTPHeaders:headerOverrides:]
++ -[NSPConfiguration configServerHeaders]
++ -[NSPConfiguration createConfigFetchURLWithPath]
++ -[NSPConfiguration ignoreSignature]
++ -[NSPConfiguration initWithTimestamp:fromDictionary:]
++ -[NSPConfiguration overrideConfigServerPath]
++ -[NSPConfiguration saveInternalOptions:]
++ -[NSPConfiguration setConfigServerHeaders:]
++ -[NSPConfiguration setIgnoreSignature:]
++ -[NSPConfiguration setOverrideConfigServerPath:]
++ -[NSPServerClient fetchNewConfigurationWithCompletionHandler:]
++ -[NSPServerClient resetConfigurationInternalSettings:]
++ GCC_except_table39
++ GCC_except_table51
++ OBJC_IVAR_$_NSPConfiguration._configServerHeaders
++ OBJC_IVAR_$_NSPConfiguration._dayPassExpirationDate
++ OBJC_IVAR_$_NSPConfiguration._earliestEnableCheckDate
++ OBJC_IVAR_$_NSPConfiguration._ignoreSignature
++ OBJC_IVAR_$_NSPConfiguration._overrideConfigServerPath
++ ___54-[NSPServerClient resetConfigurationInternalSettings:]_block_invoke
++ ___54-[NSPServerClient resetConfigurationInternalSettings:]_block_invoke_2
++ ___60+[NPUtilities copyUUIDsForSigningIdentifier:executablePath:]_block_invoke
++ ___62-[NSPServerClient fetchNewConfigurationWithCompletionHandler:]_block_invoke
++ ___block_descriptor_40_e8_32bs_e18_v16?0"NSString"8l
++ ___block_descriptor_48_e8_32s40bs_e26_v16?0"NSPConfiguration"8l
++ __block_literal_global.2
++ __block_literal_global.248
++ _objc_msgSend$configServerHeaders
++ _objc_msgSend$ignoreSignature
++ _objc_msgSend$initWithTimestamp:fromDictionary:
++ _objc_msgSend$overrideConfigServerPath
++ _objc_msgSend$setConfigServerHeaders:
++ _objc_msgSend$setCurrentConfiguration:withCompletionHandler:
++ _objc_msgSend$setIgnoreSignature:
++ _objc_msgSend$setOverrideConfigServerPath:
+- +[EdgeSelection supportsSecureCoding]
+- +[NPAverage supportsSecureCoding]
+- +[NPDiagnosticReport logInternalError:context:]
+- +[NPDiagnosticReport logNSPDiagnosticReport:event:context:]
+- +[NPDirectFlow initializeProtocol]
+- +[NPEdgeLatency supportsSecureCoding]
+- +[NPEdgeSelection supportsSecureCoding]
+- +[NPLocation supportsSecureCoding]
+- +[NPNetworkInfo failureReasonToFallbackReason:]
+- +[NPNetworkInfo supportsSecureCoding]
+- +[NPTunnel initializeProtocol]
+- +[NPTunnelTuscanyEndpoint encodeHosts:]
+- +[NPTunnelTuscanyEndpoint endpointType]
+- +[NPTunnelTuscanyEndpoint supportsResolverCallback]
+- +[NPTunnelTuscanyEndpoint supportsSecureCoding]
+- +[NPTuscanyEdge supportsSecureCoding]
+- +[NPTuscanyOnRamp supportsSecureCoding]
+- +[NPUsageReport supportsSecureCoding]
+- +[NPUtilities fillOutConnectionInfo:withPath:interface:remoteEndpoint:parameters:outputHandler:]
+- +[NPWaldo createEndpointFromHostList:defaultPortString:allowIPv6:]
+- +[NPWaldo supportsSecureCoding]
+- +[NSPAppRule copyUUIDsForSigningIdentifier:executablePath:]
+- +[NSPAppRule loadAppRules:withCompletionHandler:]
+- +[NSPAppRule supportsSecureCoding]
+- +[NSPAppRule validateRuleDictionary:]
+- +[NSPDNSResourceRecord typeToString:]
+- +[NSPKeyNetworkAgent agentType]
+- +[NSPManager sharedManager]
+- +[NSPNetworkAgent agentDomain]
+- +[NSPNetworkAgent agentFromData:]
+- +[NSPNetworkAgent agentType]
+- -[EdgeSelection .cxx_destruct]
+- -[EdgeSelection _stochasticRewardFromRTT:]
+- -[EdgeSelection alpha]
+- -[EdgeSelection description]
+- -[EdgeSelection edgeAttributesDict]
+- -[EdgeSelection encodeWithCoder:]
+- -[EdgeSelection getAttributesForEdge:reply:]
+- -[EdgeSelection getMinimumLatencyEdge:]
+- -[EdgeSelection initWithCoder:]
+- -[EdgeSelection initWithNetworkSignature:interfaceType:modelParams:]
+- -[EdgeSelection interfaceType]
+- -[EdgeSelection networkSignature]
+- -[EdgeSelection setAlpha:]
+- -[EdgeSelection setEdgeAttributesDict:]
+- -[EdgeSelection setInterfaceType:]
+- -[EdgeSelection setNetworkSignature:]
+- -[EdgeSelection setTrialCount:]
+- -[EdgeSelection setWindowSize:]
+- -[EdgeSelection trainEdgeSelectionModel:reply:]
+- -[EdgeSelection trialCount]
+- -[EdgeSelection windowSize]
+- -[NPAppProxyFlowBridge .cxx_destruct]
+- -[NPAppProxyFlowBridge closeAllWithError:]
+- -[NPAppProxyFlowBridge closeFlowWithError:]
+- -[NPAppProxyFlowBridge initWithAppProxyFlow:nwContext:]
+- -[NPAppProxyFlowBridge readDataFromClient]
+- -[NPAppProxyFlowBridge readDataFromConnection]
+- -[NPAppProxyFlowBridge startConnection]
+- -[NPAppProxyFlowBridge writeDataToConnection:]
+- -[NPAverage .cxx_destruct]
+- -[NPAverage addSample:]
+- -[NPAverage addSamples:]
+- -[NPAverage average]
+- -[NPAverage copyWithZone:]
+- -[NPAverage description]
+- -[NPAverage encodeWithCoder:]
+- -[NPAverage initWithCoder:]
+- -[NPAverage initWithSampleSize:]
+- -[NPAverage isAnyValid]
+- -[NPAverage isLastValid]
+- -[NPAverage samples]
+- -[NPAverage setSamples:]
+- -[NPAverage setSize:]
+- -[NPAverage shortDescription]
+- -[NPAverage size]
+- -[NPDirectFlow .cxx_destruct]
+- -[NPDirectFlow connectionInfo]
+- -[NPDirectFlow connectionStartDate]
+- -[NPDirectFlow createConnectionInfo]
+- -[NPDirectFlow firstTxByteTimestamp]
+- -[NPDirectFlow handleDetachedFromProtocol]
+- -[NPDirectFlow identifier]
+- -[NPDirectFlow initWithParameters:]
+- -[NPDirectFlow protocol]
+- -[NPDirectFlow setConnectionInfo:]
+- -[NPDirectFlow setConnectionStartDate:]
+- -[NPDirectFlow setFirstTxByteTimestamp:]
+- -[NPDirectFlow startDate]
+- -[NPEdgeLatency .cxx_destruct]
+- -[NPEdgeLatency TFOStatusString]
+- -[NPEdgeLatency TFOStatus]
+- -[NPEdgeLatency addRoundTripSample:]
+- -[NPEdgeLatency addRoundTripSampleObserved:]
+- -[NPEdgeLatency addRoundTripSamples:]
+- -[NPEdgeLatency addressFamilyString]
+- -[NPEdgeLatency addressFamily]
+- -[NPEdgeLatency connectionParametersString]
+- -[NPEdgeLatency copyWithZone:]
+- -[NPEdgeLatency creationDate]
+- -[NPEdgeLatency currentTimeout]
+- -[NPEdgeLatency description]
+- -[NPEdgeLatency edgeIndex]
+- -[NPEdgeLatency encodeWithCoder:]
+- -[NPEdgeLatency fillTestLatency]
+- -[NPEdgeLatency getRoundTripSample:]
+- -[NPEdgeLatency initWithCoder:]
+- -[NPEdgeLatency initWithProbeEndpoint:probeTFO:]
+- -[NPEdgeLatency interfaceType]
+- -[NPEdgeLatency isComplete:]
+- -[NPEdgeLatency isMatched:]
+- -[NPEdgeLatency isMatched:parameters:]
+- -[NPEdgeLatency isObserving]
+- -[NPEdgeLatency isTFOEnabled]
+- -[NPEdgeLatency measureLatencyWithTimeout:completionHandler:]
+- -[NPEdgeLatency needReprobe]
+- -[NPEdgeLatency observeValueForKeyPath:ofObject:change:context:]
+- -[NPEdgeLatency passedReprobeThreshold]
+- -[NPEdgeLatency pingPong]
+- -[NPEdgeLatency probeCompletionHandler]
+- -[NPEdgeLatency probeConnection]
+- -[NPEdgeLatency probeCount]
+- -[NPEdgeLatency probeEndpoint]
+- -[NPEdgeLatency probeNoTFOCookie]
+- -[NPEdgeLatency probeTFO]
+- -[NPEdgeLatency probeTimer]
+- -[NPEdgeLatency reprobeCount]
+- -[NPEdgeLatency roundTripAverageObserved]
+- -[NPEdgeLatency roundTripAverage]
+- -[NPEdgeLatency roundTripTime]
+- -[NPEdgeLatency setAddressFamily:]
+- -[NPEdgeLatency setCreationDate:]
+- -[NPEdgeLatency setCurrentTimeout:]
+- -[NPEdgeLatency setEdgeIndex:]
+- -[NPEdgeLatency setInterfaceType:]
+- -[NPEdgeLatency setIsObserving:]
+- -[NPEdgeLatency setNeedReprobe:]
+- -[NPEdgeLatency setPassedReprobeThreshold:]
+- -[NPEdgeLatency setProbeCompletionHandler:]
+- -[NPEdgeLatency setProbeConnection:]
+- -[NPEdgeLatency setProbeCount:]
+- -[NPEdgeLatency setProbeEndpoint:]
+- -[NPEdgeLatency setProbeNoTFOCookie:]
+- -[NPEdgeLatency setProbeTFO:]
+- -[NPEdgeLatency setProbeTimer:]
+- -[NPEdgeLatency setReprobeCount:]
+- -[NPEdgeLatency setRoundTripAverage:]
+- -[NPEdgeLatency setRoundTripAverageObserved:]
+- -[NPEdgeLatency setRoundTripTime:]
+- -[NPEdgeLatency setTFOStatus:]
+- -[NPEdgeSelection .cxx_destruct]
+- -[NPEdgeSelection bestEdgeProbedRTT]
+- -[NPEdgeSelection bestEdgeRTT]
+- -[NPEdgeSelection bestEdge]
+- -[NPEdgeSelection copyEdgeSelectionTelemetry]
+- -[NPEdgeSelection description]
+- -[NPEdgeSelection encodeWithCoder:]
+- -[NPEdgeSelection getBestEdgeFromEdgeSelection]
+- -[NPEdgeSelection initWithCoder:]
+- -[NPEdgeSelection initWithWaldo:signature:interfaceType:]
+- -[NPEdgeSelection nextBestEdgeRTT]
+- -[NPEdgeSelection nextBestEdge]
+- -[NPEdgeSelection probeDate]
+- -[NPEdgeSelection setBestEdge:]
+- -[NPEdgeSelection setBestEdgeProbedRTT:]
+- -[NPEdgeSelection setBestEdgeRTT:]
+- -[NPEdgeSelection setNextBestEdge:]
+- -[NPEdgeSelection setNextBestEdgeRTT:]
+- -[NPEdgeSelection setProbeDate:]
+- -[NPEdgeSelection setWaldoInfo:]
+- -[NPEdgeSelection shouldProbeForEdgeSelection:edgeRank:edgeIndex:bestEdgeLabel:]
+- -[NPEdgeSelection trainEdgeSelection:edgeRank:rtt:]
+- -[NPEdgeSelection updateEdgeSelection:]
+- -[NPEdgeSelection waldoInfo]
+- -[NPFlowProperties .cxx_destruct]
+- -[NPFlowProperties copyTLVData]
+- -[NPFlowProperties dataMode]
+- -[NPFlowProperties dealloc]
+- -[NPFlowProperties directEndpoint]
+- -[NPFlowProperties disableIdleTimeout]
+- -[NPFlowProperties enableNSP]
+- -[NPFlowProperties fallbackTimeout]
+- -[NPFlowProperties flags]
+- -[NPFlowProperties flowIdentifier]
+- -[NPFlowProperties initWithTLVData:]
+- -[NPFlowProperties isLoopback]
+- -[NPFlowProperties replacementAddressMap]
+- -[NPFlowProperties replacementEndpoint]
+- -[NPFlowProperties requestData]
+- -[NPFlowProperties serviceID]
+- -[NPFlowProperties setDataMode:]
+- -[NPFlowProperties setDirectEndpoint:]
+- -[NPFlowProperties setDisableIdleTimeout:]
+- -[NPFlowProperties setEnableNSP:]
+- -[NPFlowProperties setFallbackTimeout:]
+- -[NPFlowProperties setFlags:]
+- -[NPFlowProperties setFlowIdentifier:]
+- -[NPFlowProperties setIsLoopback:]
+- -[NPFlowProperties setReplacementAddressMap:]
+- -[NPFlowProperties setReplacementEndpoint:]
+- -[NPFlowProperties setRequestData:]
+- -[NPFlowProperties setServiceID:]
+- -[NPFlowProperties setTimestamps:]
+- -[NPFlowProperties timestamps]
+- -[NPKey .cxx_destruct]
+- -[NPKey agentForKey]
+- -[NPKey data]
+- -[NPKey error]
+- -[NPKey flags]
+- -[NPKey info]
+- -[NPKey initWithData:]
+- -[NPKey session_counter]
+- -[NPKey setError:]
+- -[NPKey setFlags:]
+- -[NPKey setInfo:]
+- -[NPKey setSession_counter:]
+- -[NPKey setUuid:]
+- -[NPKey uuid]
+- -[NPKeyBag .cxx_destruct]
+- -[NPKeyBag TFOStatusOverride]
+- -[NPKeyBag copyUsableOnRamps:requireTFO:]
+- -[NPKeyBag createOnRamps]
+- -[NPKeyBag data]
+- -[NPKeyBag fallbackReason]
+- -[NPKeyBag generation]
+- -[NPKeyBag getOnRampForEndpoint:]
+- -[NPKeyBag index]
+- -[NPKeyBag initWithData:]
+- -[NPKeyBag initWithOnRamps:currentNetworkInfo:currentEdgeIndex:currentEdgeList:generation:identifier:updateHash:]
+- -[NPKeyBag init]
+- -[NPKeyBag keys]
+- -[NPKeyBag lastUsedTimestamp]
+- -[NPKeyBag logWithMessage:identifier:]
+- -[NPKeyBag moveToNextOnRamp]
+- -[NPKeyBag moveToOnRamp:]
+- -[NPKeyBag onRampList]
+- -[NPKeyBag onRampMap]
+- -[NPKeyBag removeIPv6Keys]
+- -[NPKeyBag setFallbackReason:]
+- -[NPKeyBag setGeneration:]
+- -[NPKeyBag setIndex:]
+- -[NPKeyBag setKeys:]
+- -[NPKeyBag setLastUsedTimestamp:]
+- -[NPKeyBag setOnRampList:]
+- -[NPKeyBag setOnRampMap:]
+- -[NPKeyBag setTFOStatusOverride:]
+- -[NPKeyBag setUpdateHash:]
+- -[NPKeyBag setValidOnRampPredicate:]
+- -[NPKeyBag setValidOnRampWithTFOPredicate:]
+- -[NPKeyBag timeSinceLastUsed]
+- -[NPKeyBag updateHashMatchesEdgeSet:]
+- -[NPKeyBag updateHash]
+- -[NPKeyBag validOnRampPredicate]
+- -[NPKeyBag validOnRampWithTFOPredicate]
+- -[NPLocation .cxx_destruct]
+- -[NPLocation copyWithZone:]
+- -[NPLocation description]
+- -[NPLocation encodeWithCoder:]
+- -[NPLocation initWithCoder:]
+- -[NPLocation initWithLatitude:longtitude:timestamp:]
+- -[NPLocation isValid]
+- -[NPLocation latitude]
+- -[NPLocation longtitude]
+- -[NPLocation setLatitude:]
+- -[NPLocation setLongtitude:]
+- -[NPLocation setTimestamp:]
+- -[NPLocation timestamp]
+- -[NPNetworkInfo .cxx_destruct]
+- -[NPNetworkInfo compareLastVisited:]
+- -[NPNetworkInfo currentLatencyMap]
+- -[NPNetworkInfo edgeLatencies]
+- -[NPNetworkInfo edgeSelection]
+- -[NPNetworkInfo encodeWithCoder:]
+- -[NPNetworkInfo handleTFOFailedForAddressFamily:]
+- -[NPNetworkInfo hasIPv6]
+- -[NPNetworkInfo initWithCoder:]
+- -[NPNetworkInfo isLatency:qualifiedForLatencyMap:parameters:requireUniqueEdges:]
+- -[NPNetworkInfo isProbeInProgress]
+- -[NPNetworkInfo lastFallbackReason]
+- -[NPNetworkInfo lastUsedDesc]
+- -[NPNetworkInfo lastUsed]
+- -[NPNetworkInfo lastVisitedDesc]
+- -[NPNetworkInfo lastVisited]
+- -[NPNetworkInfo mergeNewLatencies:usingComparator:]
+- -[NPNetworkInfo probeRateLimit]
+- -[NPNetworkInfo rebuildLatencyMapWithViewSize:edgeCount:parameters:]
+- -[NPNetworkInfo resortEdgeLatenciesUsingComparator:]
+- -[NPNetworkInfo setCurrentLatencyMap:]
+- -[NPNetworkInfo setEdgeLatencies:]
+- -[NPNetworkInfo setEdgeSelection:]
+- -[NPNetworkInfo setHasIPv6:]
+- -[NPNetworkInfo setIsProbeInProgress:]
+- -[NPNetworkInfo setLastFallbackReason:]
+- -[NPNetworkInfo setLastUsed:]
+- -[NPNetworkInfo setLastVisited:]
+- -[NPNetworkInfo setProbeRateLimit:]
+- -[NPResolver .cxx_destruct]
+- -[NPResolver observeValueForKeyPath:ofObject:change:context:]
+- -[NPResolver resolveCompletionHandler]
+- -[NPResolver resolveTimer]
+- -[NPResolver resolveWithCompletionHandler:]
+- -[NPResolver setResolveCompletionHandler:]
+- -[NPResolver setResolveTimer:]
+- -[NPTunnel .cxx_destruct]
+- -[NPTunnel acknowledgeData:sentToFlow:]
+- -[NPTunnel addNewFlow:]
+- -[NPTunnel allocateFlowID]
+- -[NPTunnel appRule]
+- -[NPTunnel canHandleMoreData]
+- -[NPTunnel cancelConnection]
+- -[NPTunnel closeFlow:]
+- -[NPTunnel connectionStartDate]
+- -[NPTunnel connectionState]
+- -[NPTunnel createConnectionInfo]
+- -[NPTunnel dealloc]
+- -[NPTunnel delegate]
+- -[NPTunnel destroyConnection]
+- -[NPTunnel disableIdleTimeout]
+- -[NPTunnel endpoint]
+- -[NPTunnel eof]
+- -[NPTunnel error]
+- -[NPTunnel fallbackReason]
+- -[NPTunnel flowIsFirstFlow:]
+- -[NPTunnel flows]
+- -[NPTunnel handleCanHandleMoreData]
+- -[NPTunnel handleConnected]
+- -[NPTunnel handleConnectionIsDisconnected]
+- -[NPTunnel handleDataWrittenWithError:]
+- -[NPTunnel handleDisconnected]
+- -[NPTunnel handleEOF]
+- -[NPTunnel handleFallbackForFlow:]
+- -[NPTunnel handleFlowClosed:withFallbackReason:]
+- -[NPTunnel handleFlowUsedTunnel]
+- -[NPTunnel handleInputAvailable]
+- -[NPTunnel handleOutputAvailable]
+- -[NPTunnel handleReadData:]
+- -[NPTunnel handleReady]
+- -[NPTunnel handledDisconnected]
+- -[NPTunnel hasFlow:]
+- -[NPTunnel identifier]
+- -[NPTunnel increaseWindowSizeForFlow:byBytes:]
+- -[NPTunnel initWithEndpoint:parameters:appRule:flowProperties:delegate:]
+- -[NPTunnel initialWindowSize]
+- -[NPTunnel isCancelled]
+- -[NPTunnel isConnectionAlive]
+- -[NPTunnel isReadyForData]
+- -[NPTunnel isTFOProbeSucceeded]
+- -[NPTunnel localEndpoint]
+- -[NPTunnel maxDataSendSizeForFlow:]
+- -[NPTunnel outputInterface]
+- -[NPTunnel parameters]
+- -[NPTunnel path]
+- -[NPTunnel protocol]
+- -[NPTunnel readMinimumLength:maximumLength:]
+- -[NPTunnel removeFlow:]
+- -[NPTunnel sendData:forFlow:]
+- -[NPTunnel sendData:toClientFlow:]
+- -[NPTunnel setConnectionStartDate:]
+- -[NPTunnel setConnectionState:]
+- -[NPTunnel setDisableIdleTimeout:]
+- -[NPTunnel setEof:]
+- -[NPTunnel setError:]
+- -[NPTunnel setFallbackReason:]
+- -[NPTunnel setHandledDisconnected:]
+- -[NPTunnel setIsCancelled:]
+- -[NPTunnel setLocalEndpoint:]
+- -[NPTunnel setPath:]
+- -[NPTunnel setTimeToFirstByte:]
+- -[NPTunnel setTimeToFirstRequest:]
+- -[NPTunnel startIdleTimer]
+- -[NPTunnel start]
+- -[NPTunnel teardownOutputHandler]
+- -[NPTunnel timeToFirstByte]
+- -[NPTunnel timeToFirstRequest]
+- -[NPTunnel timestamps]
+- -[NPTunnel write:]
+- -[NPTunnel writeInitialData]
+- -[NPTunnelFlow .cxx_destruct]
+- -[NPTunnelFlow appData]
+- -[NPTunnelFlow appRule]
+- -[NPTunnelFlow cleanupLosingConnection:]
+- -[NPTunnelFlow closeClientFlowWithError:]
+- -[NPTunnelFlow closeFromDirectConnectionWithError:]
+- -[NPTunnelFlow closeFromTunnel]
+- -[NPTunnelFlow closeWithError:]
+- -[NPTunnelFlow combineStateInfo:andConnectionInfo:]
+- -[NPTunnelFlow copyConnectionInfo]
+- -[NPTunnelFlow createFallbackConnectionInfoWithFallbackReason:]
+- -[NPTunnelFlow createTelemetryDataWithCompletionHandler:]
+- -[NPTunnelFlow dealloc]
+- -[NPTunnelFlow disconnectedByApp]
+- -[NPTunnelFlow enableDirectRace]
+- -[NPTunnelFlow extraFlowProperties]
+- -[NPTunnelFlow fallbackDelay]
+- -[NPTunnelFlow fallbackDisabled]
+- -[NPTunnelFlow fallbackReason]
+- -[NPTunnelFlow fallbackTimer]
+- -[NPTunnelFlow firstTxByteTimestamp]
+- -[NPTunnelFlow handleAppData:]
+- -[NPTunnelFlow handleTunnelCanHandleMoreData]
+- -[NPTunnelFlow handleTunnelConnected]
+- -[NPTunnelFlow handleTunnelDisconnected]
+- -[NPTunnelFlow handleTunnelReadyForData]
+- -[NPTunnelFlow hashKey]
+- -[NPTunnelFlow identifier]
+- -[NPTunnelFlow increaseWindowSize:]
+- -[NPTunnelFlow initWithTunnel:appRule:hashKey:extraFlowProperties:]
+- -[NPTunnelFlow initialBytesLeftOver]
+- -[NPTunnelFlow isBestEffort]
+- -[NPTunnelFlow isClientFlowClosed]
+- -[NPTunnelFlow isDirectConnectionViable]
+- -[NPTunnelFlow processConnectionInfo:]
+- -[NPTunnelFlow readDataFromClient]
+- -[NPTunnelFlow reportMetrics]
+- -[NPTunnelFlow reportTelemetry:withService:url:]
+- -[NPTunnelFlow savedData]
+- -[NPTunnelFlow sendDataToClient:fromTunnel:]
+- -[NPTunnelFlow setAppData:]
+- -[NPTunnelFlow setDisconnectedByApp:]
+- -[NPTunnelFlow setFallbackDelay:]
+- -[NPTunnelFlow setFallbackDisabled:]
+- -[NPTunnelFlow setFallbackReason:]
+- -[NPTunnelFlow setFallbackTimer:]
+- -[NPTunnelFlow setFirstTxByteTimestamp:]
+- -[NPTunnelFlow setIdentifier:]
+- -[NPTunnelFlow setInitialBytesLeftOver:]
+- -[NPTunnelFlow setIsDirectConnectionViable:]
+- -[NPTunnelFlow setSavedData:]
+- -[NPTunnelFlow setShouldComposeIntialData:]
+- -[NPTunnelFlow setTelemetryTimer:]
+- -[NPTunnelFlow shouldComposeIntialData]
+- -[NPTunnelFlow shouldSendDataToClient:fromTunnel:]
+- -[NPTunnelFlow startDate]
+- -[NPTunnelFlow startDirectConnection]
+- -[NPTunnelFlow state]
+- -[NPTunnelFlow stopDirectConnection]
+- -[NPTunnelFlow telemetryTimer]
+- -[NPTunnelFlow tunnel]
+- -[NPTunnelFlow window]
+- -[NPTunnelFlowDNS .cxx_destruct]
+- -[NPTunnelFlowDNS addDNSInfoToTelemetry:]
+- -[NPTunnelFlowDNS checkAndReportTelemetry]
+- -[NPTunnelFlowDNS cleanupLosingConnection:]
+- -[NPTunnelFlowDNS closeFromDirectConnectionWithError:]
+- -[NPTunnelFlowDNS closeFromTunnel]
+- -[NPTunnelFlowDNS createStateDictionaryWithResult:response:]
+- -[NPTunnelFlowDNS directDNSResponse]
+- -[NPTunnelFlowDNS directResult]
+- -[NPTunnelFlowDNS handleAppData:]
+- -[NPTunnelFlowDNS handleTunnelConnected]
+- -[NPTunnelFlowDNS query]
+- -[NPTunnelFlowDNS resultToString:]
+- -[NPTunnelFlowDNS sendDataToClient:fromTunnel:]
+- -[NPTunnelFlowDNS setDirectDNSResponse:]
+- -[NPTunnelFlowDNS setDirectResult:]
+- -[NPTunnelFlowDNS setQuery:]
+- -[NPTunnelFlowDNS setTelemetryReported:]
+- -[NPTunnelFlowDNS setTunnelDNSResponse:]
+- -[NPTunnelFlowDNS setTunnelResponseTimer:]
+- -[NPTunnelFlowDNS setTunnelResult:]
+- -[NPTunnelFlowDNS shouldSendDataToClient:fromTunnel:]
+- -[NPTunnelFlowDNS telemetryReported]
+- -[NPTunnelFlowDNS tunnelDNSResponse]
+- -[NPTunnelFlowDNS tunnelResponseTimer]
+- -[NPTunnelFlowDNS tunnelResult]
+- -[NPTunnelFlowHTTP .cxx_destruct]
+- -[NPTunnelFlowHTTP closeClientFlowWithError:]
+- -[NPTunnelFlowHTTP initWithTunnel:URL:extraFlowProperties:]
+- -[NPTunnelFlowHTTP isClientFlowClosed]
+- -[NPTunnelFlowHTTP postCompletionHandler]
+- -[NPTunnelFlowHTTP postData:withCompletionHandler:]
+- -[NPTunnelFlowHTTP receivedHeaders]
+- -[NPTunnelFlowHTTP responseContentLength]
+- -[NPTunnelFlowHTTP responseData]
+- -[NPTunnelFlowHTTP responseSuccess]
+- -[NPTunnelFlowHTTP sendDataToClient:fromTunnel:]
+- -[NPTunnelFlowHTTP setPostCompletionHandler:]
+- -[NPTunnelFlowHTTP setReceivedHeaders:]
+- -[NPTunnelFlowHTTP setResponseContentLength:]
+- -[NPTunnelFlowHTTP setResponseData:]
+- -[NPTunnelFlowHTTP setResponseSuccess:]
+- -[NPTunnelFlowHTTP setUrl:]
+- -[NPTunnelFlowHTTP url]
+- -[NPTunnelFlowProtocol .cxx_destruct]
+- -[NPTunnelFlowProtocol addBufferToFrameArray:bufferSize:]
+- -[NPTunnelFlowProtocol addInputFramesToArray:limitMinimumBytes:limitMaximumBytes:limitMaximumFrames:]
+- -[NPTunnelFlowProtocol addOutputFramesToArray:limitMinimumBytes:limitMaximumBytes:limitMaximumFrames:]
+- -[NPTunnelFlowProtocol closeClientFlowWithError:]
+- -[NPTunnelFlowProtocol connect]
+- -[NPTunnelFlowProtocol disconnect]
+- -[NPTunnelFlowProtocol dropInputProtocol]
+- -[NPTunnelFlowProtocol handleAppData:]
+- -[NPTunnelFlowProtocol handleOutputFrame:send:]
+- -[NPTunnelFlowProtocol handleTunnelReadyForData]
+- -[NPTunnelFlowProtocol initWithTunnel:appRule:inputProtocol:extraProperties:]
+- -[NPTunnelFlowProtocol inputProtocol]
+- -[NPTunnelFlowProtocol isClientFlowClosed]
+- -[NPTunnelFlowProtocol notifyClientConnected]
+- -[NPTunnelFlowProtocol readDataFromClient]
+- -[NPTunnelFlowProtocol sendDataToClient:fromTunnel:]
+- -[NPTunnelFlowProtocol waitingForOutput]
+- -[NPTunnelFlowTelemetry handleTunnelConnected]
+- -[NPTunnelFlowTelemetry initWithTunnel:service:postURL:]
+- -[NPTunnelFlowTelemetry isBestEffort]
+- -[NPTunnelFlowTelemetry reportTelemetry:]
+- -[NPTunnelFlowUDP .cxx_destruct]
+- -[NPTunnelFlowUDP directSession]
+- -[NPTunnelFlowUDP firstPacketDate]
+- -[NPTunnelFlowUDP handleAppData:]
+- -[NPTunnelFlowUDP handleIncomingData:andError:]
+- -[NPTunnelFlowUDP initWithTunnel:appRule:inputProtocol:extraProperties:]
+- -[NPTunnelFlowUDP observeValueForKeyPath:ofObject:change:context:]
+- -[NPTunnelFlowUDP remoteEndpoint]
+- -[NPTunnelFlowUDP savedDataSize]
+- -[NPTunnelFlowUDP savedDirectData]
+- -[NPTunnelFlowUDP sendDataOnDirectSession:]
+- -[NPTunnelFlowUDP setDirectSession:]
+- -[NPTunnelFlowUDP setFirstPacketDate:]
+- -[NPTunnelFlowUDP setSavedDataSize:]
+- -[NPTunnelFlowUDP setSavedDirectData:]
+- -[NPTunnelFlowUDP startDirectConnection]
+- -[NPTunnelFlowUDP startHandlingIncomingData]
+- -[NPTunnelFlowUDP stopDirectConnection]
+- -[NPTunnelTuscany .cxx_destruct]
+- -[NPTunnelTuscany acknowledgeData:sentToFlow:]
+- -[NPTunnelTuscany allocateFlowID]
+- -[NPTunnelTuscany canHandleMoreData]
+- -[NPTunnelTuscany cancelConnectionTimer]
+- -[NPTunnelTuscany cancelConnection]
+- -[NPTunnelTuscany clientRef]
+- -[NPTunnelTuscany closeFlow:]
+- -[NPTunnelTuscany createConnectionInfo]
+- -[NPTunnelTuscany createTuscanyClient]
+- -[NPTunnelTuscany currentMTU]
+- -[NPTunnelTuscany dayPassCreationDate]
+- -[NPTunnelTuscany dayPassSessionCounter]
+- -[NPTunnelTuscany dealloc]
+- -[NPTunnelTuscany destroyConnection]
+- -[NPTunnelTuscany flowIsFirstFlow:]
+- -[NPTunnelTuscany handleConnected]
+- -[NPTunnelTuscany handleConnectionError]
+- -[NPTunnelTuscany handleDataWrittenWithError:]
+- -[NPTunnelTuscany handleDisconnected]
+- -[NPTunnelTuscany handleEOF]
+- -[NPTunnelTuscany handleFallbackForFlow:]
+- -[NPTunnelTuscany handleFlowUsedTunnel]
+- -[NPTunnelTuscany handleHelloAck:]
+- -[NPTunnelTuscany handleInputAvailable]
+- -[NPTunnelTuscany handlePingResponseRTT:geohash:]
+- -[NPTunnelTuscany handleReadData:]
+- -[NPTunnelTuscany ignoreWaldoTimestamp]
+- -[NPTunnelTuscany initWithEndpoint:parameters:appRule:flowProperties:onRamp:delegate:]
+- -[NPTunnelTuscany initialWindowSize]
+- -[NPTunnelTuscany isFirstTunnel]
+- -[NPTunnelTuscany isTFOProbeSucceeded]
+- -[NPTunnelTuscany maxDataSendSizeForFlow:]
+- -[NPTunnelTuscany maxFrameSize]
+- -[NPTunnelTuscany pendingPingCompletionHandler]
+- -[NPTunnelTuscany pingWithCompletionHandler:]
+- -[NPTunnelTuscany sendData:forFlow:]
+- -[NPTunnelTuscany sendDataOnUDPSession:]
+- -[NPTunnelTuscany sendUsageReportWithRTT:geohash:fallbackReason:]
+- -[NPTunnelTuscany setClientRef:]
+- -[NPTunnelTuscany setIgnoreWaldoTimestamp:]
+- -[NPTunnelTuscany setIsFirstTunnel:]
+- -[NPTunnelTuscany setPendingPingCompletionHandler:]
+- -[NPTunnelTuscany startConnectionTimer]
+- -[NPTunnelTuscany start]
+- -[NPTunnelTuscany writeInitialData]
+- -[NPTunnelTuscanyEndpoint .cxx_destruct]
+- -[NPTunnelTuscanyEndpoint copyHostsWithPort:]
+- -[NPTunnelTuscanyEndpoint description]
+- -[NPTunnelTuscanyEndpoint encodeWithCoder:]
+- -[NPTunnelTuscanyEndpoint encodedData]
+- -[NPTunnelTuscanyEndpoint hostsData]
+- -[NPTunnelTuscanyEndpoint hosts]
+- -[NPTunnelTuscanyEndpoint initWithCoder:]
+- -[NPTunnelTuscanyEndpoint initWithEncodedData:]
+- -[NPTunnelTuscanyEndpoint initWithHosts:]
+- -[NPTunnelTuscanyEndpoint resolveEndpointWithCompletionHandler:]
+- -[NPTunnelTuscanyLoopback .cxx_destruct]
+- -[NPTunnelTuscanyLoopback addNewFlow:]
+- -[NPTunnelTuscanyLoopback cancelConnectionTimer]
+- -[NPTunnelTuscanyLoopback cancelConnection]
+- -[NPTunnelTuscanyLoopback createTuscanyClient]
+- -[NPTunnelTuscanyLoopback currentMTU]
+- -[NPTunnelTuscanyLoopback dayPassSessionCounter]
+- -[NPTunnelTuscanyLoopback dealloc]
+- -[NPTunnelTuscanyLoopback flow]
+- -[NPTunnelTuscanyLoopback initWithEndpoint:parameters:appRule:flowProperties:onRamp:delegate:]
+- -[NPTunnelTuscanyLoopback initialWindowSize]
+- -[NPTunnelTuscanyLoopback maxFrameSize]
+- -[NPTunnelTuscanyLoopback pingWithCompletionHandler:]
+- -[NPTunnelTuscanyLoopback removeFlow:]
+- -[NPTunnelTuscanyLoopback selectBestEdge]
+- -[NPTunnelTuscanyLoopback sendUsageReportWithRTT:geohash:fallbackReason:]
+- -[NPTunnelTuscanyLoopback setFlow:]
+- -[NPTunnelTuscanyLoopback setWindow:]
+- -[NPTunnelTuscanyLoopback startConnectionTimer]
+- -[NPTunnelTuscanyLoopback window]
+- -[NPTunnelTuscanyLoopback write:]
+- -[NPTuscanyEdge .cxx_destruct]
+- -[NPTuscanyEdge compareByDistance:]
+- -[NPTuscanyEdge currentIndex:]
+- -[NPTuscanyEdge currentOnRampIndexList]
+- -[NPTuscanyEdge description]
+- -[NPTuscanyEdge distance]
+- -[NPTuscanyEdge encodeWithCoder:]
+- -[NPTuscanyEdge getCurrentOnRamp:]
+- -[NPTuscanyEdge getOnRamp:addressFamily:]
+- -[NPTuscanyEdge getPortFromEndpoint:defaultPort:]
+- -[NPTuscanyEdge hash]
+- -[NPTuscanyEdge index]
+- -[NPTuscanyEdge initWithCoder:]
+- -[NPTuscanyEdge initWithLabel:index:onRampEndpoint:probeEndpoint:location:]
+- -[NPTuscanyEdge isEqual:]
+- -[NPTuscanyEdge iterateOnRampsForAddressFamily:withBlock:]
+- -[NPTuscanyEdge label]
+- -[NPTuscanyEdge lastUsed]
+- -[NPTuscanyEdge linkWithOnRampsRetainMissingAddressFamilies:]
+- -[NPTuscanyEdge location]
+- -[NPTuscanyEdge nextOnRampForLatency:outIndex:]
+- -[NPTuscanyEdge onRampEndpoint]
+- -[NPTuscanyEdge onRampLists]
+- -[NPTuscanyEdge parentWaldo]
+- -[NPTuscanyEdge probeEndpoint]
+- -[NPTuscanyEdge probePending]
+- -[NPTuscanyEdge reResolve]
+- -[NPTuscanyEdge resolveWithCompletionHandler:]
+- -[NPTuscanyEdge savedEndpoint]
+- -[NPTuscanyEdge setCurrentIndex:addressFamily:]
+- -[NPTuscanyEdge setCurrentOnRampIndexList:]
+- -[NPTuscanyEdge setDistance:]
+- -[NPTuscanyEdge setIndex:]
+- -[NPTuscanyEdge setLastUsed:]
+- -[NPTuscanyEdge setOnRampLists:]
+- -[NPTuscanyEdge setParentWaldo:]
+- -[NPTuscanyEdge setProbePending:]
+- -[NPTuscanyEdge setReResolve:]
+- -[NPTuscanyEdge setSavedEndpoint:]
+- -[NPTuscanyEdge unsynthesizeAddresses:]
+- -[NPTuscanyLoopbackConnection addInputFramesToArray:maximumBytes:minimumBytes:maximumFrameCount:]
+- -[NPTuscanyLoopbackConnection addOutputFramesToArray:maximumBytes:minimumBytes:maximumFrameCount:]
+- -[NPTuscanyLoopbackConnection currentBlobSizeIndex]
+- -[NPTuscanyLoopbackConnection dealloc]
+- -[NPTuscanyLoopbackConnection handleDetachedFromProtocol]
+- -[NPTuscanyLoopbackConnection handleOutputFrame:]
+- -[NPTuscanyLoopbackConnection init]
+- -[NPTuscanyLoopbackConnection notifyInputHandler]
+- -[NPTuscanyLoopbackConnection protocol]
+- -[NPTuscanyLoopbackConnection setCurrentBlobSizeIndex:]
+- -[NPTuscanyLoopbackConnection setWaitingForOutput:]
+- -[NPTuscanyLoopbackConnection waitingForOutput]
+- -[NPTuscanyOnRamp .cxx_destruct]
+- -[NPTuscanyOnRamp TFOStatus]
+- -[NPTuscanyOnRamp agentRegistration]
+- -[NPTuscanyOnRamp agent]
+- -[NPTuscanyOnRamp copyValue:ofSize:fromOffset:base:totalLength:]
+- -[NPTuscanyOnRamp currentEdgeType]
+- -[NPTuscanyOnRamp dayPassCreationDate]
+- -[NPTuscanyOnRamp dayPassFailed]
+- -[NPTuscanyOnRamp dayPassHardExpiry]
+- -[NPTuscanyOnRamp dayPassPending]
+- -[NPTuscanyOnRamp dayPassRefreshAllowed]
+- -[NPTuscanyOnRamp dayPassSessionCounter]
+- -[NPTuscanyOnRamp dayPassSession]
+- -[NPTuscanyOnRamp dayPassUUID]
+- -[NPTuscanyOnRamp dayPass]
+- -[NPTuscanyOnRamp daypassEndpoint]
+- -[NPTuscanyOnRamp descriptionDictionary]
+- -[NPTuscanyOnRamp description]
+- -[NPTuscanyOnRamp encodeWithCoder:]
+- -[NPTuscanyOnRamp error]
+- -[NPTuscanyOnRamp fillTestDaypass]
+- -[NPTuscanyOnRamp getNextSessionCounter]
+- -[NPTuscanyOnRamp getTuscanyEndpoint:]
+- -[NPTuscanyOnRamp hash]
+- -[NPTuscanyOnRamp initWithCoder:]
+- -[NPTuscanyOnRamp initWithEndpoint:]
+- -[NPTuscanyOnRamp initWithKey:]
+- -[NPTuscanyOnRamp invalidateDayPass]
+- -[NPTuscanyOnRamp isDayPassExpired]
+- -[NPTuscanyOnRamp isDayPassPastExpiry:]
+- -[NPTuscanyOnRamp isEqual:]
+- -[NPTuscanyOnRamp isTFOEnabled]
+- -[NPTuscanyOnRamp maxFrameSize]
+- -[NPTuscanyOnRamp parentWaldo]
+- -[NPTuscanyOnRamp refreshDayPassWithWaldoDelegate:softExpiry:retryInterval:edge:completionHandler:]
+- -[NPTuscanyOnRamp registerAgentWithKey:]
+- -[NPTuscanyOnRamp resetParentWaldo:]
+- -[NPTuscanyOnRamp retryDate]
+- -[NPTuscanyOnRamp rtt]
+- -[NPTuscanyOnRamp setAgent:]
+- -[NPTuscanyOnRamp setAgentRegistration:]
+- -[NPTuscanyOnRamp setDayPass:]
+- -[NPTuscanyOnRamp setDayPassCreationDate:]
+- -[NPTuscanyOnRamp setDayPassFailed:]
+- -[NPTuscanyOnRamp setDayPassHardExpiry:]
+- -[NPTuscanyOnRamp setDayPassPending:]
+- -[NPTuscanyOnRamp setDayPassSession:]
+- -[NPTuscanyOnRamp setDayPassSessionCounter:]
+- -[NPTuscanyOnRamp setDayPassUUID:]
+- -[NPTuscanyOnRamp setError:]
+- -[NPTuscanyOnRamp setParentWaldo:]
+- -[NPTuscanyOnRamp setRetryDate:]
+- -[NPTuscanyOnRamp setTFOStatus:]
+- -[NPTuscanyOnRamp setTuscanyEndpoint:]
+- -[NPTuscanyOnRamp shortDescription]
+- -[NPTuscanyOnRamp tuscanyEndpoint]
+- -[NPTuscanyOnRamp unregisterAgent]
+- -[NPTuscanyOnRamp updateSessionCounterFromKernel]
+- -[NPUsageReport .cxx_destruct]
+- -[NPUsageReport addressFamily]
+- -[NPUsageReport dayPassUUID]
+- -[NPUsageReport edgeIndex]
+- -[NPUsageReport encodeWithCoder:]
+- -[NPUsageReport fallbackReason]
+- -[NPUsageReport geohash]
+- -[NPUsageReport initWithCoder:]
+- -[NPUsageReport initWithSigningIdentifier:fallbackReason:]
+- -[NPUsageReport keybagGeneration]
+- -[NPUsageReport rtt]
+- -[NPUsageReport setAddressFamily:]
+- -[NPUsageReport setDayPassUUID:]
+- -[NPUsageReport setEdgeIndex:]
+- -[NPUsageReport setGeohash:]
+- -[NPUsageReport setKeybagGeneration:]
+- -[NPUsageReport setRtt:]
+- -[NPUsageReport setWaldoTimestamp:]
+- -[NPUsageReport signingIdentifier]
+- -[NPUsageReport waldoTimestamp]
+- -[NPWaldo .cxx_destruct]
+- -[NPWaldo TFOLeeway]
+- -[NPWaldo ageOutLatencyMap]
+- -[NPWaldo agentRegistration]
+- -[NPWaldo agent]
+- -[NPWaldo allOnRamps]
+- -[NPWaldo cachedLocation]
+- -[NPWaldo cancelProbes]
+- -[NPWaldo cleanupStaleKeys]
+- -[NPWaldo configurationIdentifier]
+- -[NPWaldo connectionIdleTimeoutMaximum]
+- -[NPWaldo copyEdgeList:]
+- -[NPWaldo copyEdgeListRTTAverage:observed:shortDescription:]
+- -[NPWaldo copyEdgeSelectionTelemetry]
+- -[NPWaldo copyLatencyInfoDictionary:copyAll:]
+- -[NPWaldo copyStateIncludeDistance:]
+- -[NPWaldo copyWithZone:]
+- -[NPWaldo createEdgeLatenciesToProbeWithEdgeIndex:startSampleCount:]
+- -[NPWaldo currentEdgeIndex]
+- -[NPWaldo currentEdgeList]
+- -[NPWaldo currentEdge]
+- -[NPWaldo currentEdges]
+- -[NPWaldo currentNetworkInfo]
+- -[NPWaldo currentNetworkLastUsed]
+- -[NPWaldo dayPassEnableSessionTicket]
+- -[NPWaldo dayPassExtendedValidation]
+- -[NPWaldo dayPassFetchCount]
+- -[NPWaldo dayPassHostnamePrependLabel]
+- -[NPWaldo dayPassHostname]
+- -[NPWaldo dayPassLeafOID]
+- -[NPWaldo dayPassPort]
+- -[NPWaldo dayPassRequestTimeout]
+- -[NPWaldo dayPassRevocationFailClosed]
+- -[NPWaldo dayPassSoftExpiry]
+- -[NPWaldo daypassRefreshInProgress]
+- -[NPWaldo defaults]
+- -[NPWaldo delegate]
+- -[NPWaldo description]
+- -[NPWaldo edgeAtIndex:]
+- -[NPWaldo edgeContainingOnRamp:]
+- -[NPWaldo edgeCount]
+- -[NPWaldo edgeFairnessFactor]
+- -[NPWaldo edgeSelectionAlpha]
+- -[NPWaldo edgeSelectionEnabled]
+- -[NPWaldo edgeSelectionWindowSize]
+- -[NPWaldo edgesGeneration]
+- -[NPWaldo edges]
+- -[NPWaldo enableIPv6]
+- -[NPWaldo enableLatencyDerivation]
+- -[NPWaldo encodeWithCoder:]
+- -[NPWaldo establishTrustWithCompletionHandler:]
+- -[NPWaldo expirationDate]
+- -[NPWaldo generation]
+- -[NPWaldo getCurrentNetworkInterfaceType]
+- -[NPWaldo getDayPassRTT]
+- -[NPWaldo getFallbackReasonForLatencies:]
+- -[NPWaldo handleUsageReport:]
+- -[NPWaldo hasEdges]
+- -[NPWaldo hostname]
+- -[NPWaldo identifier]
+- -[NPWaldo incrementSessionCounters]
+- -[NPWaldo indexOfBestEdge]
+- -[NPWaldo initFromKeychainWithIdentifier:]
+- -[NPWaldo initWithCoder:]
+- -[NPWaldo initWithIdentifier:timestamp:fromDictionary:source:]
+- -[NPWaldo init]
+- -[NPWaldo initializeEdgeSelection]
+- -[NPWaldo isEndpointProbed:parameters:latencies:checkSampleSize:incompleteLatency:]
+- -[NPWaldo isIPv6Enabled]
+- -[NPWaldo isLatenciesCompleteForNetwork:]
+- -[NPWaldo keybag]
+- -[NPWaldo latencyComparator]
+- -[NPWaldo latencyFactorA]
+- -[NPWaldo latencyFactorB]
+- -[NPWaldo latencyFactorX]
+- -[NPWaldo linkAllSignatures:]
+- -[NPWaldo linkLatenciesAllSignatures:]
+- -[NPWaldo link]
+- -[NPWaldo loadObservedRTTSamples:]
+- -[NPWaldo locationCheckInterval]
+- -[NPWaldo locationCheckTimestamp]
+- -[NPWaldo locationExpiration]
+- -[NPWaldo locationManager]
+- -[NPWaldo locationTTL]
+- -[NPWaldo locationToleranceDistance]
+- -[NPWaldo logEdgeList:debug:toStdout:]
+- -[NPWaldo logLatencyInfoToStdout:logAll:logEdgeSelection:]
+- -[NPWaldo merge:missingSettingsOnly:]
+- -[NPWaldo mergeEdgeList:forNetworkSignature:]
+- -[NPWaldo networkInformation]
+- -[NPWaldo nextEdge]
+- -[NPWaldo observedRTTSampleSize]
+- -[NPWaldo onRampForIndex:]
+- -[NPWaldo probeNoTFOCookie]
+- -[NPWaldo probePause]
+- -[NPWaldo probeSize]
+- -[NPWaldo probeTFO]
+- -[NPWaldo probeTimeout]
+- -[NPWaldo pushKeybagToKernelCanReuse:]
+- -[NPWaldo pushKeybagToKernelUpdateGeneration:]
+- -[NPWaldo pushKeybagToKernel]
+- -[NPWaldo reResolve]
+- -[NPWaldo rebuildLatencyMapAllSignatures:]
+- -[NPWaldo refreshDayPassesWithCompletionHandler:]
+- -[NPWaldo removeDayPassesFromKernel]
+- -[NPWaldo removeFromKeychain]
+- -[NPWaldo reprocessAdHocWithEdgeIndex:completionHandler:]
+- -[NPWaldo reprocessCancelled]
+- -[NPWaldo reprocessEdgeAtIndex:networkSignature:completionHandler:]
+- -[NPWaldo reprocessLatencies:sampleCount:completionHandler:]
+- -[NPWaldo reprocessPending]
+- -[NPWaldo reprocessQueue]
+- -[NPWaldo reprocessSampleSize]
+- -[NPWaldo reprocessSamplingInterval]
+- -[NPWaldo reprocessSamplingTimer]
+- -[NPWaldo reprocessWithCompletionHandler:]
+- -[NPWaldo reprocessWithNewRTT:reProbe:]
+- -[NPWaldo requireTFO]
+- -[NPWaldo resolveWithCompletionHandler:]
+- -[NPWaldo resortEdgeListForCurrentNetworkSignature]
+- -[NPWaldo retryPause]
+- -[NPWaldo saveToKeychain]
+- -[NPWaldo setAgent:]
+- -[NPWaldo setAgentRegistration:]
+- -[NPWaldo setAllOnRamps:]
+- -[NPWaldo setCachedLocation:]
+- -[NPWaldo setConfigurationIdentifier:]
+- -[NPWaldo setConnectionIdleTimeoutMaximum:]
+- -[NPWaldo setCurrentEdgeIndex:]
+- -[NPWaldo setCurrentNetworkCharacteristics:]
+- -[NPWaldo setDayPassEnableSessionTicket:]
+- -[NPWaldo setDayPassExtendedValidation:]
+- -[NPWaldo setDayPassHostname:]
+- -[NPWaldo setDayPassHostnamePrependLabel:]
+- -[NPWaldo setDayPassLeafOID:]
+- -[NPWaldo setDayPassPort:]
+- -[NPWaldo setDayPassRequestTimeout:]
+- -[NPWaldo setDayPassRevocationFailClosed:]
+- -[NPWaldo setDayPassSoftExpiry:]
+- -[NPWaldo setDaypassRefreshInProgress:]
+- -[NPWaldo setDefaults:]
+- -[NPWaldo setDelegate:]
+- -[NPWaldo setEdgeFairnessFactor:]
+- -[NPWaldo setEdgeSelectionAlpha:]
+- -[NPWaldo setEdgeSelectionEnabled:]
+- -[NPWaldo setEdgeSelectionWindowSize:]
+- -[NPWaldo setEdges:]
+- -[NPWaldo setEdgesGeneration:]
+- -[NPWaldo setEnableIPv6:]
+- -[NPWaldo setEnableLatencyDerivation:]
+- -[NPWaldo setGeneration:]
+- -[NPWaldo setHostname:]
+- -[NPWaldo setKeybag:]
+- -[NPWaldo setLatencyFactorA:]
+- -[NPWaldo setLatencyFactorB:]
+- -[NPWaldo setLatencyFactorX:]
+- -[NPWaldo setLocationCheckInterval:]
+- -[NPWaldo setLocationCheckTimestamp:]
+- -[NPWaldo setLocationExpiration:]
+- -[NPWaldo setLocationManager:]
+- -[NPWaldo setLocationTTL:]
+- -[NPWaldo setLocationToleranceDistance:]
+- -[NPWaldo setNetworkInformation:]
+- -[NPWaldo setObservedRTTSampleSize:]
+- -[NPWaldo setProbeNoTFOCookie:]
+- -[NPWaldo setProbePause:]
+- -[NPWaldo setProbeTFO:]
+- -[NPWaldo setProbeTimeout:]
+- -[NPWaldo setReResolve:]
+- -[NPWaldo setReprocessCancelled:]
+- -[NPWaldo setReprocessPending:]
+- -[NPWaldo setReprocessSampleSize:]
+- -[NPWaldo setReprocessSamplingInterval:]
+- -[NPWaldo setReprocessSamplingTimer:]
+- -[NPWaldo setRequireTFO:]
+- -[NPWaldo setRetryPause:]
+- -[NPWaldo setShouldSave:]
+- -[NPWaldo setSignatureLimit:]
+- -[NPWaldo setTFOLeeway:]
+- -[NPWaldo setTag:]
+- -[NPWaldo setTelemetryService:]
+- -[NPWaldo setTelemetryURL:]
+- -[NPWaldo setTimestamp:]
+- -[NPWaldo setUpdateHash:]
+- -[NPWaldo setUseGeohashFromServer:]
+- -[NPWaldo setUsedEdgesGeneration:]
+- -[NPWaldo setVersion:]
+- -[NPWaldo setViewSize:]
+- -[NPWaldo shouldFetchWaldo]
+- -[NPWaldo shouldPerformDayPassRefresh]
+- -[NPWaldo shouldSave]
+- -[NPWaldo signatureLimit]
+- -[NPWaldo source]
+- -[NPWaldo startProbingEdges:atIndex:doneCount:sampleCount:completionHandler:]
+- -[NPWaldo tag]
+- -[NPWaldo teardownNetworkAgent]
+- -[NPWaldo telemetryService]
+- -[NPWaldo telemetryURL]
+- -[NPWaldo timestampNetworkSignature:]
+- -[NPWaldo timestamp]
+- -[NPWaldo updateEdgeSelection:]
+- -[NPWaldo updateHash]
+- -[NPWaldo updateMetaDataNeedProbe:refresh:push:minRTT:]
+- -[NPWaldo updateNetworkAgentWithKeybag:networkInfo:]
+- -[NPWaldo useGeohashFromServer]
+- -[NPWaldo usedEdgesGeneration]
+- -[NPWaldo validateEdgeList:]
+- -[NPWaldo version]
+- -[NPWaldo viewSize]
+- -[NSPAppRule .cxx_destruct]
+- -[NSPAppRule agentRegistration]
+- -[NSPAppRule agent]
+- -[NSPAppRule configurationIdentifier]
+- -[NSPAppRule connectionIdleTimeout]
+- -[NSPAppRule connectionTimeout]
+- -[NSPAppRule copyAccountIdentifierConditions]
+- -[NSPAppRule copyExecutableConditions]
+- -[NSPAppRule copyMatchDomainConditions]
+- -[NSPAppRule copyMatchEffectiveApplicationConditions]
+- -[NSPAppRule copyTLVData]
+- -[NSPAppRule copyWithZone:]
+- -[NSPAppRule defaults]
+- -[NSPAppRule directTLSPorts]
+- -[NSPAppRule disableFallback]
+- -[NSPAppRule disabledByRatio]
+- -[NSPAppRule divertDNSOnly]
+- -[NSPAppRule edgeSetIdentifier]
+- -[NSPAppRule enableCheckDate]
+- -[NSPAppRule enableDirectExtendedValidation]
+- -[NSPAppRule enableDirectMultipath]
+- -[NSPAppRule enableDirectRace]
+- -[NSPAppRule enableDirectTFO]
+- -[NSPAppRule enableMultipath]
+- -[NSPAppRule enableNoTFOCookie]
+- -[NSPAppRule enableOptInPerTask]
+- -[NSPAppRule enableRatio]
+- -[NSPAppRule enableTFO]
+- -[NSPAppRule enableUDPRace]
+- -[NSPAppRule enabled]
+- -[NSPAppRule encodeWithCoder:]
+- -[NSPAppRule fallbackBufferLimit]
+- -[NSPAppRule fallbackCountBeforeImmediateFallback]
+- -[NSPAppRule fallbackTimeout]
+- -[NSPAppRule initFromDictionary:]
+- -[NSPAppRule initFromTLVs:]
+- -[NSPAppRule initWithCoder:]
+- -[NSPAppRule initialWindowSize]
+- -[NSPAppRule isEqual:]
+- -[NSPAppRule label]
+- -[NSPAppRule locationBundlePath]
+- -[NSPAppRule matchEffectiveApplications]
+- -[NSPAppRule merge:]
+- -[NSPAppRule noDNSDelegation]
+- -[NSPAppRule proxyEvaluationPath]
+- -[NSPAppRule reenableInterval]
+- -[NSPAppRule requireTFO]
+- -[NSPAppRule saveWithCompletionHandler:]
+- -[NSPAppRule serviceID]
+- -[NSPAppRule setAgent:]
+- -[NSPAppRule setAgentRegistration:]
+- -[NSPAppRule setConfigurationIdentifier:]
+- -[NSPAppRule setConnectionIdleTimeout:]
+- -[NSPAppRule setConnectionTimeout:]
+- -[NSPAppRule setDefaults:]
+- -[NSPAppRule setDirectTLSPorts:]
+- -[NSPAppRule setDisableFallback:]
+- -[NSPAppRule setDisabledByRatio:]
+- -[NSPAppRule setDivertDNSOnly:]
+- -[NSPAppRule setEdgeSetIdentifier:]
+- -[NSPAppRule setEnableCheckDate:]
+- -[NSPAppRule setEnableDirectExtendedValidation:]
+- -[NSPAppRule setEnableDirectMultipath:]
+- -[NSPAppRule setEnableDirectRace:]
+- -[NSPAppRule setEnableDirectTFO:]
+- -[NSPAppRule setEnableMultipath:]
+- -[NSPAppRule setEnableNoTFOCookie:]
+- -[NSPAppRule setEnableOptInPerTask:]
+- -[NSPAppRule setEnableRatio:]
+- -[NSPAppRule setEnableTFO:]
+- -[NSPAppRule setEnableUDPRace:]
+- -[NSPAppRule setEnabled:]
+- -[NSPAppRule setFallbackBufferLimit:]
+- -[NSPAppRule setFallbackCountBeforeImmediateFallback:]
+- -[NSPAppRule setFallbackTimeout:]
+- -[NSPAppRule setInitialWindowSize:]
+- -[NSPAppRule setLabel:]
+- -[NSPAppRule setLocationBundlePath:]
+- -[NSPAppRule setMatchEffectiveApplications:]
+- -[NSPAppRule setNoDNSDelegation:]
+- -[NSPAppRule setProxyEvaluationPath:]
+- -[NSPAppRule setReenableInterval:]
+- -[NSPAppRule setRequireTFO:]
+- -[NSPAppRule setServiceID:]
+- -[NSPAppRule setShouldComposeInitialData:]
+- -[NSPAppRule setTelemetryRatio:]
+- -[NSPAppRule setUpdateHash:]
+- -[NSPAppRule setUseCustomProtocol:]
+- -[NSPAppRule setUseLocalFlowDivert:]
+- -[NSPAppRule shouldComposeInitialData]
+- -[NSPAppRule teardownNetworkAgent]
+- -[NSPAppRule telemetryRatio]
+- -[NSPAppRule updateHash]
+- -[NSPAppRule updateNetworkAgent]
+- -[NSPAppRule useCustomProtocol]
+- -[NSPAppRule useLocalFlowDivert]
+- -[NSPByteParser .cxx_destruct]
+- -[NSPByteParser advanceBy:andCopyTo:]
+- -[NSPByteParser bytes]
+- -[NSPByteParser copyWithZone:]
+- -[NSPByteParser cursor]
+- -[NSPByteParser data]
+- -[NSPByteParser initWithData:]
+- -[NSPByteParser offset]
+- -[NSPByteParser parse16Bits:]
+- -[NSPByteParser parse32Bits:]
+- -[NSPByteParser parse8Bits:]
+- -[NSPByteParser parseAddressWithFamily:]
+- -[NSPByteParser parseBytes:]
+- -[NSPByteParser parseDomainName]
+- -[NSPByteParser setCursor:]
+- -[NSPByteParser setOffset:]
+- -[NSPConfiguration appRules]
+- -[NSPConfiguration copyAgentResultsForAppRule:]
+- -[NSPConfiguration createConfigFetchURLWithPath:timestamp:]
+- -[NSPConfiguration edgeSets]
+- -[NSPConfiguration enumerateEdgeSetsWithBlock:]
+- -[NSPConfiguration evaluateEnableRatios]
+- -[NSPConfiguration getCurrentKeyBagForAppRule:]
+- -[NSPConfiguration getEdgeSetForAppRule:]
+- -[NSPConfiguration getEdgeSetForSigningIdentifier:]
+- -[NSPConfiguration initFromKeychain]
+- -[NSPConfiguration initWithTimestamp:fromDictionary:waldoSource:]
+- -[NSPConfiguration resetStaleEdgeSets]
+- -[NSPConfiguration setAppRules:]
+- -[NSPConfiguration setEdgeSets:]
+- -[NSPConfiguration setWaldoLeafOID:]
+- -[NSPConfiguration setWaldoRevocationFailClosed:]
+- -[NSPConfiguration teardown]
+- -[NSPConfiguration updateNetworkAgents]
+- -[NSPConfiguration waldoLeafOID]
+- -[NSPConfiguration waldoRevocationFailClosed]
+- -[NSPDNSPacket .cxx_destruct]
+- -[NSPDNSPacket additionalRecords]
+- -[NSPDNSPacket answers]
+- -[NSPDNSPacket authorities]
+- -[NSPDNSPacket data]
+- -[NSPDNSPacket identifier]
+- -[NSPDNSPacket initFromData:]
+- -[NSPDNSPacket isAuthoritativeAnswer]
+- -[NSPDNSPacket isRecursionAvailable]
+- -[NSPDNSPacket isRecursionDesired]
+- -[NSPDNSPacket isTruncated]
+- -[NSPDNSPacket messageType]
+- -[NSPDNSPacket opCode]
+- -[NSPDNSPacket queries]
+- -[NSPDNSPacket responseCodeString]
+- -[NSPDNSPacket responseCode]
+- -[NSPDNSPacket timestamp]
+- -[NSPDNSQuery .cxx_destruct]
+- -[NSPDNSQuery copyStateDictionary]
+- -[NSPDNSQuery initWithName:recordType:recordClass:]
+- -[NSPDNSQuery name]
+- -[NSPDNSQuery recordClass]
+- -[NSPDNSQuery recordType]
+- -[NSPDNSResourceRecord .cxx_destruct]
+- -[NSPDNSResourceRecord copyStateDictionary]
+- -[NSPDNSResourceRecord dataLength]
+- -[NSPDNSResourceRecord initFromByteParser:]
+- -[NSPDNSResourceRecord name]
+- -[NSPDNSResourceRecord recordClass]
+- -[NSPDNSResourceRecord resourceString]
+- -[NSPDNSResourceRecord timeToLive]
+- -[NSPDNSResourceRecord type]
+- -[NSPFlowDivert .cxx_destruct]
+- -[NSPFlowDivert addPoliciesForAgent:conditions:]
+- -[NSPFlowDivert addPoliciesForDivertDNSOnly:domainConditions:divertResult:]
+- -[NSPFlowDivert addPolicy:]
+- -[NSPFlowDivert configuration]
+- -[NSPFlowDivert createFlowDivertSocketHandle]
+- -[NSPFlowDivert createPolicySession]
+- -[NSPFlowDivert destroyFlowDivertSocketHandles]
+- -[NSPFlowDivert destroyPolicySession]
+- -[NSPFlowDivert didFailWithError:]
+- -[NSPFlowDivert didStartWithError:]
+- -[NSPFlowDivert flowDivertControlHandle]
+- -[NSPFlowDivert getAgentResults:]
+- -[NSPFlowDivert getAgentResultsForSelf]
+- -[NSPFlowDivert getEffectiveAppRules:]
+- -[NSPFlowDivert getExecutableConditions:]
+- -[NSPFlowDivert initWithDelegate:providerClass:configuration:]
+- -[NSPFlowDivert policySession]
+- -[NSPFlowDivert resetPolicies:]
+- -[NSPFlowDivert setConfiguration:]
+- -[NSPFlowDivert setFlowDivertControlHandle:]
+- -[NSPFlowDivert setPolicySession:]
+- -[NSPFlowDivert setShouldResetPolicies:]
+- -[NSPFlowDivert setStarted:]
+- -[NSPFlowDivert shouldResetPolicies]
+- -[NSPFlowDivert startWithOptions:completionHandler:]
+- -[NSPFlowDivert started]
+- -[NSPFlowDivert stop]
+- -[NSPFlowDivert teardown]
+- -[NSPFlowDivertProvider .cxx_destruct]
+- -[NSPFlowDivertProvider handleNewFlow:]
+- -[NSPFlowDivertProvider init]
+- -[NSPFlowDivertProvider manager]
+- -[NSPFlowDivertProvider setManager:]
+- -[NSPFlowDivertProvider startProxyWithOptions:completionHandler:]
+- -[NSPFlowDivertProvider stopProxyWithReason:completionHandler:]
+- -[NSPManager .cxx_destruct]
+- -[NSPManager appRules]
+- -[NSPManager buildTestLatencyMap:]
+- -[NSPManager changeHandler]
+- -[NSPManager configuration]
+- -[NSPManager connectionInfoSetHandler]
+- -[NSPManager container:didFailWithError:]
+- -[NSPManager container:didRequestFlowDivertControlSocketWithCompletionHandler:]
+- -[NSPManager container:didSetTunnelConfiguration:completionHandler:]
+- -[NSPManager container:didStartWithError:]
+- -[NSPManager createAppRuleMapWithRules:]
+- -[NSPManager createReplacementEndpointForEndpoint:properties:]
+- -[NSPManager createTransformsForEndpoint:parameters:]
+- -[NSPManager currentAgents]
+- -[NSPManager currentNetworkHasProxies]
+- -[NSPManager currentTunnelEndpoint]
+- -[NSPManager delegate]
+- -[NSPManager disableIdleTimeout]
+- -[NSPManager fallbackCounts]
+- -[NSPManager fetchStateForClient:withPeerEndpoint:completionHandler:]
+- -[NSPManager flowDivert]
+- -[NSPManager flowInfoMap]
+- -[NSPManager getAppRuleMatchingParameters:flowProperties:]
+- -[NSPManager getConnectionInfoForIdentifier:]
+- -[NSPManager getTestLatencyRTT:parameters:]
+- -[NSPManager handlePolicyUpdate]
+- -[NSPManager inUseKeybag]
+- -[NSPManager ingestTestLatencyMap:local:completionHandler:]
+- -[NSPManager init]
+- -[NSPManager instantiateFlowWithTunnel:inputProtocol:]
+- -[NSPManager instantiateTunnelWithEndpoint:parameters:]
+- -[NSPManager isEnabled]
+- -[NSPManager isFirstTunnel]
+- -[NSPManager isObserving]
+- -[NSPManager keybag]
+- -[NSPManager knownFlows]
+- -[NSPManager matchingAppRule]
+- -[NSPManager nextFlowID]
+- -[NSPManager observeValueForKeyPath:ofObject:change:context:]
+- -[NSPManager pathEvaluator]
+- -[NSPManager pendingCancellationHandler]
+- -[NSPManager policyEvaluator]
+- -[NSPManager resetTestLatencyMapIndex:]
+- -[NSPManager sendUsageReport:]
+- -[NSPManager setAppRules:]
+- -[NSPManager setChangeHandler:]
+- -[NSPManager setConfiguration:]
+- -[NSPManager setConnectionInfo:forIdentifier:]
+- -[NSPManager setConnectionInfoSetHandler:]
+- -[NSPManager setCurrentAgents:]
+- -[NSPManager setCurrentTunnelEndpoint:]
+- -[NSPManager setDelegate:]
+- -[NSPManager setDisableIdleTimeout:]
+- -[NSPManager setFlowDivert:]
+- -[NSPManager setFlowInfoMap:]
+- -[NSPManager setInUseKeybag:]
+- -[NSPManager setIsObserving:]
+- -[NSPManager setKeybag:]
+- -[NSPManager setMatchingAppRule:]
+- -[NSPManager setNextFlowID:]
+- -[NSPManager setPendingCancellationHandler:]
+- -[NSPManager setTestFetchDaypass:]
+- -[NSPManager setTestLatencyMap:]
+- -[NSPManager setTestLatencyMapIndex:]
+- -[NSPManager setTunnelConnectedHandler:]
+- -[NSPManager setTunnelCount:]
+- -[NSPManager shouldSetConfigurationToAppRule:edgeSet:]
+- -[NSPManager signingIdentifier]
+- -[NSPManager startWithConfiguration:appRules:delegate:]
+- -[NSPManager start]
+- -[NSPManager stopWithCompletionHandler:]
+- -[NSPManager testFetchDaypass]
+- -[NSPManager testLatencyMapIndex]
+- -[NSPManager testLatencyMap]
+- -[NSPManager timeIntervalSinceLastUsage]
+- -[NSPManager tunnel:flowDidFallbackWithReason:]
+- -[NSPManager tunnelConnectedHandler]
+- -[NSPManager tunnelCount]
+- -[NSPManager tunnelDidCancel:]
+- -[NSPManager tunnelDidConnect:]
+- -[NSPManager tunnelIsReady:]
+- -[NSPManager useTestDaypass]
+- -[NSPManager useTestLatencyMap]
+- -[NSPManager waitForTunnelsToCancelWithCompletionHandler:]
+- -[NSPNetworkAgent .cxx_destruct]
+- -[NSPNetworkAgent agentData]
+- -[NSPNetworkAgent agentDescription]
+- -[NSPNetworkAgent agentUUID]
+- -[NSPNetworkAgent appRule]
+- -[NSPNetworkAgent configuration]
+- -[NSPNetworkAgent copyAgentData]
+- -[NSPNetworkAgent init]
+- -[NSPNetworkAgent isActive]
+- -[NSPNetworkAgent isEqual:]
+- -[NSPNetworkAgent isKernelActivated]
+- -[NSPNetworkAgent isUserActivated]
+- -[NSPNetworkAgent isVoluntary]
+- -[NSPNetworkAgent keybag]
+- -[NSPNetworkAgent parseAgentData]
+- -[NSPNetworkAgent setActive:]
+- -[NSPNetworkAgent setAgentData:]
+- -[NSPNetworkAgent setAgentDescription:]
+- -[NSPNetworkAgent setAgentUUID:]
+- -[NSPNetworkAgent setAppRule:]
+- -[NSPNetworkAgent setConfiguration:]
+- -[NSPNetworkAgent setKernelActivated:]
+- -[NSPNetworkAgent setKeybag:]
+- -[NSPNetworkAgent setUserActivated:]
+- -[NSPNetworkAgent setVoluntary:]
+- -[NSPServerClient establishTrustWithEdgeSetForIdentifier:completionHandler:]
+- -[NSPServerClient fetchAppRuleForLabel:completionHandler:]
+- -[NSPServerClient fetchEdgeSetForIdentifier:completionHandler:]
+- -[NSPServerClient fetchStateForClient:withPeerEndpoint:completionHandler:]
+- -[NSPServerClient refreshWaldoNowWithCompletionHandler:]
+- -[NSPServerClient reportUsage:fromClient:]
+- -[NSPServerClient setAppRule:forLabel:completionHandler:]
+- -[NSPServerClient setCurrentLatitude:longitude:timestamp:forClient:]
+- -[NSPServerClient setEdgeSet:forIdentifier:completionHandler:]
+- -[NSPServerClient setTestLatencyMap:completionHandler:]
+- .str
+- .str.1
+- .str.199
+- .str.2
+- .str.56
+- GCC_except_table0
+- GCC_except_table1
+- GCC_except_table10
+- GCC_except_table103
+- GCC_except_table11
+- GCC_except_table115
+- GCC_except_table12
+- GCC_except_table122
+- GCC_except_table132
+- GCC_except_table15
+- GCC_except_table161
+- GCC_except_table181
+- GCC_except_table2
+- GCC_except_table20
+- GCC_except_table204
+- GCC_except_table220
+- GCC_except_table224
+- GCC_except_table238
+- GCC_except_table25
+- GCC_except_table258
+- GCC_except_table26
+- GCC_except_table267
+- GCC_except_table270
+- GCC_except_table278
+- GCC_except_table28
+- GCC_except_table29
+- GCC_except_table3
+- GCC_except_table30
+- GCC_except_table31
+- GCC_except_table32
+- GCC_except_table33
+- GCC_except_table34
+- GCC_except_table35
+- GCC_except_table4
+- GCC_except_table40
+- GCC_except_table429
+- GCC_except_table431
+- GCC_except_table45
+- GCC_except_table5
+- GCC_except_table56
+- GCC_except_table59
+- GCC_except_table6
+- GCC_except_table60
+- GCC_except_table66
+- GCC_except_table7
+- GCC_except_table72
+- GCC_except_table75
+- GCC_except_table76
+- GCC_except_table77
+- GCC_except_table78
+- GCC_except_table8
+- GCC_except_table80
+- GCC_except_table89
+- GCC_except_table9
+- GCC_except_table98
+- OBJC_IVAR_$_EdgeSelection._alpha
+- OBJC_IVAR_$_EdgeSelection._edgeAttributesDict
+- OBJC_IVAR_$_EdgeSelection._interfaceType
+- OBJC_IVAR_$_EdgeSelection._networkSignature
+- OBJC_IVAR_$_EdgeSelection._trialCount
+- OBJC_IVAR_$_EdgeSelection._windowSize
+- OBJC_IVAR_$_NPAppProxyFlowBridge._connection
+- OBJC_IVAR_$_NPAppProxyFlowBridge._connectionError
+- OBJC_IVAR_$_NPAppProxyFlowBridge._currentState
+- OBJC_IVAR_$_NPAppProxyFlowBridge._eofFlow
+- OBJC_IVAR_$_NPAppProxyFlowBridge._eofNW
+- OBJC_IVAR_$_NPAppProxyFlowBridge._flow
+- OBJC_IVAR_$_NPAppProxyFlowBridge._networkTransaction
+- OBJC_IVAR_$_NPAppProxyFlowBridge._nwContext
+- OBJC_IVAR_$_NPAppProxyFlowBridge._queue
+- OBJC_IVAR_$_NPAppProxyFlowBridge._remoteEndpoint
+- OBJC_IVAR_$_NPAverage._samples
+- OBJC_IVAR_$_NPAverage._size
+- OBJC_IVAR_$_NPDirectFlow._connectionInfo
+- OBJC_IVAR_$_NPDirectFlow._connectionStartDate
+- OBJC_IVAR_$_NPDirectFlow._firstTxByteTimestamp
+- OBJC_IVAR_$_NPDirectFlow._identifier
+- OBJC_IVAR_$_NPDirectFlow._protocol
+- OBJC_IVAR_$_NPDirectFlow._startDate
+- OBJC_IVAR_$_NPEdgeLatency._TFOStatus
+- OBJC_IVAR_$_NPEdgeLatency._addressFamily
+- OBJC_IVAR_$_NPEdgeLatency._creationDate
+- OBJC_IVAR_$_NPEdgeLatency._currentTimeout
+- OBJC_IVAR_$_NPEdgeLatency._edgeIndex
+- OBJC_IVAR_$_NPEdgeLatency._interfaceType
+- OBJC_IVAR_$_NPEdgeLatency._isObserving
+- OBJC_IVAR_$_NPEdgeLatency._needReprobe
+- OBJC_IVAR_$_NPEdgeLatency._passedReprobeThreshold
+- OBJC_IVAR_$_NPEdgeLatency._probeCompletionHandler
+- OBJC_IVAR_$_NPEdgeLatency._probeConnection
+- OBJC_IVAR_$_NPEdgeLatency._probeCount
+- OBJC_IVAR_$_NPEdgeLatency._probeEndpoint
+- OBJC_IVAR_$_NPEdgeLatency._probeNoTFOCookie
+- OBJC_IVAR_$_NPEdgeLatency._probeTFO
+- OBJC_IVAR_$_NPEdgeLatency._probeTimer
+- OBJC_IVAR_$_NPEdgeLatency._reprobeCount
+- OBJC_IVAR_$_NPEdgeLatency._roundTripAverage
+- OBJC_IVAR_$_NPEdgeLatency._roundTripAverageObserved
+- OBJC_IVAR_$_NPEdgeLatency._roundTripTime
+- OBJC_IVAR_$_NPFlowProperties._dataMode
+- OBJC_IVAR_$_NPFlowProperties._directEndpoint
+- OBJC_IVAR_$_NPFlowProperties._fallbackTimeout
+- OBJC_IVAR_$_NPFlowProperties._flags
+- OBJC_IVAR_$_NPFlowProperties._flowIdentifier
+- OBJC_IVAR_$_NPFlowProperties._replacementAddressMap
+- OBJC_IVAR_$_NPFlowProperties._replacementEndpoint
+- OBJC_IVAR_$_NPFlowProperties._requestData
+- OBJC_IVAR_$_NPFlowProperties._serviceID
+- OBJC_IVAR_$_NPFlowProperties._timestamps
+- OBJC_IVAR_$_NPKey._error
+- OBJC_IVAR_$_NPKey._flags
+- OBJC_IVAR_$_NPKey._info
+- OBJC_IVAR_$_NPKey._session_counter
+- OBJC_IVAR_$_NPKey._uuid
+- OBJC_IVAR_$_NPKeyBag._TFOStatusOverride
+- OBJC_IVAR_$_NPKeyBag._fallbackReason
+- OBJC_IVAR_$_NPKeyBag._generation
+- OBJC_IVAR_$_NPKeyBag._index
+- OBJC_IVAR_$_NPKeyBag._keys
+- OBJC_IVAR_$_NPKeyBag._lastUsedTimestamp
+- OBJC_IVAR_$_NPKeyBag._onRampList
+- OBJC_IVAR_$_NPKeyBag._onRampMap
+- OBJC_IVAR_$_NPKeyBag._updateHash
+- OBJC_IVAR_$_NPKeyBag._validOnRampPredicate
+- OBJC_IVAR_$_NPKeyBag._validOnRampWithTFOPredicate
+- OBJC_IVAR_$_NPLocation._latitude
+- OBJC_IVAR_$_NPLocation._longtitude
+- OBJC_IVAR_$_NPLocation._timestamp
+- OBJC_IVAR_$_NPNetworkInfo._currentLatencyMap
+- OBJC_IVAR_$_NPNetworkInfo._edgeLatencies
+- OBJC_IVAR_$_NPNetworkInfo._edgeSelection
+- OBJC_IVAR_$_NPNetworkInfo._hasIPv6
+- OBJC_IVAR_$_NPNetworkInfo._isProbeInProgress
+- OBJC_IVAR_$_NPNetworkInfo._lastFallbackReason
+- OBJC_IVAR_$_NPNetworkInfo._lastUsed
+- OBJC_IVAR_$_NPNetworkInfo._lastVisited
+- OBJC_IVAR_$_NPNetworkInfo._probeRateLimit
+- OBJC_IVAR_$_NPTunnel._appRule
+- OBJC_IVAR_$_NPTunnel._connectionStartDate
+- OBJC_IVAR_$_NPTunnel._connectionState
+- OBJC_IVAR_$_NPTunnel._delegate
+- OBJC_IVAR_$_NPTunnel._disableIdleTimeout
+- OBJC_IVAR_$_NPTunnel._endpoint
+- OBJC_IVAR_$_NPTunnel._eof
+- OBJC_IVAR_$_NPTunnel._error
+- OBJC_IVAR_$_NPTunnel._fallbackReason
+- OBJC_IVAR_$_NPTunnel._flows
+- OBJC_IVAR_$_NPTunnel._handledDisconnected
+- OBJC_IVAR_$_NPTunnel._identifier
+- OBJC_IVAR_$_NPTunnel._idleTimer
+- OBJC_IVAR_$_NPTunnel._isCancelled
+- OBJC_IVAR_$_NPTunnel._isReadyForData
+- OBJC_IVAR_$_NPTunnel._isTFOProbeSucceeded
+- OBJC_IVAR_$_NPTunnel._localEndpoint
+- OBJC_IVAR_$_NPTunnel._parameters
+- OBJC_IVAR_$_NPTunnel._path
+- OBJC_IVAR_$_NPTunnel._protocol
+- OBJC_IVAR_$_NPTunnel._savedData
+- OBJC_IVAR_$_NPTunnel._timeToFirstByte
+- OBJC_IVAR_$_NPTunnel._timeToFirstRequest
+- OBJC_IVAR_$_NPTunnel._timestamps
+- OBJC_IVAR_$_NPTunnelFlow._appRule
+- OBJC_IVAR_$_NPTunnelFlow._disconnectedByApp
+- OBJC_IVAR_$_NPTunnelFlow._enableDirectRace
+- OBJC_IVAR_$_NPTunnelFlow._extraFlowProperties
+- OBJC_IVAR_$_NPTunnelFlow._fallbackDelay
+- OBJC_IVAR_$_NPTunnelFlow._fallbackDisabled
+- OBJC_IVAR_$_NPTunnelFlow._fallbackReason
+- OBJC_IVAR_$_NPTunnelFlow._fallbackTimer
+- OBJC_IVAR_$_NPTunnelFlow._firstTxByteTimestamp
+- OBJC_IVAR_$_NPTunnelFlow._hasTunnel
+- OBJC_IVAR_$_NPTunnelFlow._hashKey
+- OBJC_IVAR_$_NPTunnelFlow._identifier
+- OBJC_IVAR_$_NPTunnelFlow._initialBytesLeftOver
+- OBJC_IVAR_$_NPTunnelFlow._isDirectConnectionViable
+- OBJC_IVAR_$_NPTunnelFlow._savedData
+- OBJC_IVAR_$_NPTunnelFlow._shouldComposeIntialData
+- OBJC_IVAR_$_NPTunnelFlow._startDate
+- OBJC_IVAR_$_NPTunnelFlow._state
+- OBJC_IVAR_$_NPTunnelFlow._telemetryTimer
+- OBJC_IVAR_$_NPTunnelFlow._tunnel
+- OBJC_IVAR_$_NPTunnelFlow._tunnelError
+- OBJC_IVAR_$_NPTunnelFlow._window
+- OBJC_IVAR_$_NPTunnelFlowDNS._directResult
+- OBJC_IVAR_$_NPTunnelFlowDNS._telemetryReported
+- OBJC_IVAR_$_NPTunnelFlowDNS._tunnelResponseTimer
+- OBJC_IVAR_$_NPTunnelFlowDNS._tunnelResult
+- OBJC_IVAR_$_NPTunnelFlowHTTP._receivedHeaders
+- OBJC_IVAR_$_NPTunnelFlowHTTP._responseSuccess
+- OBJC_IVAR_$_NPTunnelFlowUDP._savedDataSize
+- OBJC_IVAR_$_NPTunnelTuscany._clientRef
+- OBJC_IVAR_$_NPTunnelTuscany._connectionTimer
+- OBJC_IVAR_$_NPTunnelTuscany._ignoreWaldoTimestamp
+- OBJC_IVAR_$_NPTunnelTuscany._waldoTimestamp
+- OBJC_IVAR_$_NPTunnelTuscanyLoopback._flow
+- OBJC_IVAR_$_NPTunnelTuscanyLoopback._window
+- OBJC_IVAR_$_NPTuscanyEdge._currentOnRampIndexList
+- OBJC_IVAR_$_NPTuscanyEdge._distance
+- OBJC_IVAR_$_NPTuscanyEdge._index
+- OBJC_IVAR_$_NPTuscanyEdge._label
+- OBJC_IVAR_$_NPTuscanyEdge._lastUsed
+- OBJC_IVAR_$_NPTuscanyEdge._location
+- OBJC_IVAR_$_NPTuscanyEdge._onRampEndpoint
+- OBJC_IVAR_$_NPTuscanyEdge._onRampLists
+- OBJC_IVAR_$_NPTuscanyEdge._parentWaldo
+- OBJC_IVAR_$_NPTuscanyEdge._probeEndpoint
+- OBJC_IVAR_$_NPTuscanyEdge._probePending
+- OBJC_IVAR_$_NPTuscanyEdge._reResolve
+- OBJC_IVAR_$_NPTuscanyEdge._savedEndpoint
+- OBJC_IVAR_$_NPTuscanyLoopbackConnection._blobSizes
+- OBJC_IVAR_$_NPTuscanyLoopbackConnection._currentBlobSizeIndex
+- OBJC_IVAR_$_NPTuscanyLoopbackConnection._currentInputFrames
+- OBJC_IVAR_$_NPTuscanyLoopbackConnection._protocol
+- OBJC_IVAR_$_NPTuscanyLoopbackConnection._waitingForOutput
+- OBJC_IVAR_$_NPTuscanyOnRamp._TFOStatus
+- OBJC_IVAR_$_NPTuscanyOnRamp._agent
+- OBJC_IVAR_$_NPTuscanyOnRamp._agentRegistration
+- OBJC_IVAR_$_NPTuscanyOnRamp._currentEdgeType
+- OBJC_IVAR_$_NPTuscanyOnRamp._dayPass
+- OBJC_IVAR_$_NPTuscanyOnRamp._dayPassCreationDate
+- OBJC_IVAR_$_NPTuscanyOnRamp._dayPassFailed
+- OBJC_IVAR_$_NPTuscanyOnRamp._dayPassHardExpiry
+- OBJC_IVAR_$_NPTuscanyOnRamp._dayPassPending
+- OBJC_IVAR_$_NPTuscanyOnRamp._dayPassSession
+- OBJC_IVAR_$_NPTuscanyOnRamp._dayPassUUID
+- OBJC_IVAR_$_NPTuscanyOnRamp._daypassEndpoint
+- OBJC_IVAR_$_NPTuscanyOnRamp._error
+- OBJC_IVAR_$_NPTuscanyOnRamp._maxFrameSize
+- OBJC_IVAR_$_NPTuscanyOnRamp._parentWaldo
+- OBJC_IVAR_$_NPTuscanyOnRamp._retryDate
+- OBJC_IVAR_$_NPTuscanyOnRamp._rtt
+- OBJC_IVAR_$_NPTuscanyOnRamp._tuscanyEndpoint
+- OBJC_IVAR_$_NPUsageReport._addressFamily
+- OBJC_IVAR_$_NPUsageReport._dayPassUUID
+- OBJC_IVAR_$_NPUsageReport._edgeIndex
+- OBJC_IVAR_$_NPUsageReport._fallbackReason
+- OBJC_IVAR_$_NPUsageReport._geohash
+- OBJC_IVAR_$_NPUsageReport._keybagGeneration
+- OBJC_IVAR_$_NPUsageReport._rtt
+- OBJC_IVAR_$_NPUsageReport._signingIdentifier
+- OBJC_IVAR_$_NPUsageReport._waldoTimestamp
+- OBJC_IVAR_$_NPWaldo._TFOLeeway
+- OBJC_IVAR_$_NPWaldo._agent
+- OBJC_IVAR_$_NPWaldo._agentRegistration
+- OBJC_IVAR_$_NPWaldo._allOnRamps
+- OBJC_IVAR_$_NPWaldo._cachedLocation
+- OBJC_IVAR_$_NPWaldo._configurationIdentifier
+- OBJC_IVAR_$_NPWaldo._connectionIdleTimeoutMaximum
+- OBJC_IVAR_$_NPWaldo._currentEdgeIndex
+- OBJC_IVAR_$_NPWaldo._currentEdges
+- OBJC_IVAR_$_NPWaldo._currentNetworkCharacteristics
+- OBJC_IVAR_$_NPWaldo._dayPassEnableSessionTicket
+- OBJC_IVAR_$_NPWaldo._dayPassExtendedValidation
+- OBJC_IVAR_$_NPWaldo._dayPassHostname
+- OBJC_IVAR_$_NPWaldo._dayPassHostnamePrependLabel
+- OBJC_IVAR_$_NPWaldo._dayPassLeafOID
+- OBJC_IVAR_$_NPWaldo._dayPassPort
+- OBJC_IVAR_$_NPWaldo._dayPassRequestTimeout
+- OBJC_IVAR_$_NPWaldo._dayPassRevocationFailClosed
+- OBJC_IVAR_$_NPWaldo._dayPassSoftExpiry
+- OBJC_IVAR_$_NPWaldo._daypassRefreshInProgress
+- OBJC_IVAR_$_NPWaldo._defaults
+- OBJC_IVAR_$_NPWaldo._delegate
+- OBJC_IVAR_$_NPWaldo._edgeFairnessFactor
+- OBJC_IVAR_$_NPWaldo._edgeSelectionAlpha
+- OBJC_IVAR_$_NPWaldo._edgeSelectionEnabled
+- OBJC_IVAR_$_NPWaldo._edgeSelectionWindowSize
+- OBJC_IVAR_$_NPWaldo._edges
+- OBJC_IVAR_$_NPWaldo._edgesGeneration
+- OBJC_IVAR_$_NPWaldo._enableIPv6
+- OBJC_IVAR_$_NPWaldo._enableLatencyDerivation
+- OBJC_IVAR_$_NPWaldo._generation
+- OBJC_IVAR_$_NPWaldo._hostname
+- OBJC_IVAR_$_NPWaldo._identifier
+- OBJC_IVAR_$_NPWaldo._keybag
+- OBJC_IVAR_$_NPWaldo._latencyFactorA
+- OBJC_IVAR_$_NPWaldo._latencyFactorB
+- OBJC_IVAR_$_NPWaldo._latencyFactorX
+- OBJC_IVAR_$_NPWaldo._locationCheckInterval
+- OBJC_IVAR_$_NPWaldo._locationCheckTimestamp
+- OBJC_IVAR_$_NPWaldo._locationExpiration
+- OBJC_IVAR_$_NPWaldo._locationManager
+- OBJC_IVAR_$_NPWaldo._locationTTL
+- OBJC_IVAR_$_NPWaldo._locationToleranceDistance
+- OBJC_IVAR_$_NPWaldo._networkInformation
+- OBJC_IVAR_$_NPWaldo._nextEdge
+- OBJC_IVAR_$_NPWaldo._observedRTTSampleSize
+- OBJC_IVAR_$_NPWaldo._probeNoTFOCookie
+- OBJC_IVAR_$_NPWaldo._probePause
+- OBJC_IVAR_$_NPWaldo._probeTFO
+- OBJC_IVAR_$_NPWaldo._probeTimeout
+- OBJC_IVAR_$_NPWaldo._reprocessCancelled
+- OBJC_IVAR_$_NPWaldo._reprocessPending
+- OBJC_IVAR_$_NPWaldo._reprocessQueue
+- OBJC_IVAR_$_NPWaldo._reprocessSampleSize
+- OBJC_IVAR_$_NPWaldo._reprocessSamplingInterval
+- OBJC_IVAR_$_NPWaldo._reprocessSamplingTimer
+- OBJC_IVAR_$_NPWaldo._requireTFO
+- OBJC_IVAR_$_NPWaldo._retryPause
+- OBJC_IVAR_$_NPWaldo._shouldSave
+- OBJC_IVAR_$_NPWaldo._signatureLimit
+- OBJC_IVAR_$_NPWaldo._source
+- OBJC_IVAR_$_NPWaldo._tag
+- OBJC_IVAR_$_NPWaldo._telemetryService
+- OBJC_IVAR_$_NPWaldo._telemetryURL
+- OBJC_IVAR_$_NPWaldo._timestamp
+- OBJC_IVAR_$_NPWaldo._updateHash
+- OBJC_IVAR_$_NPWaldo._useGeohashFromServer
+- OBJC_IVAR_$_NPWaldo._usedEdgesGeneration
+- OBJC_IVAR_$_NPWaldo._version
+- OBJC_IVAR_$_NPWaldo._viewSize
+- OBJC_IVAR_$_NSPByteParser._bytes
+- OBJC_IVAR_$_NSPByteParser._cursor
+- OBJC_IVAR_$_NSPByteParser._data
+- OBJC_IVAR_$_NSPByteParser._offset
+- OBJC_IVAR_$_NSPConfiguration._appRules
+- OBJC_IVAR_$_NSPConfiguration._edgeSets
+- OBJC_IVAR_$_NSPConfiguration._waldoLeafOID
+- OBJC_IVAR_$_NSPConfiguration._waldoRevocationFailClosed
+- OBJC_IVAR_$_NSPDNSPacket._additionalRecords
+- OBJC_IVAR_$_NSPDNSPacket._answers
+- OBJC_IVAR_$_NSPDNSPacket._authorities
+- OBJC_IVAR_$_NSPDNSPacket._data
+- OBJC_IVAR_$_NSPDNSPacket._identifier
+- OBJC_IVAR_$_NSPDNSPacket._isAuthoritativeAnswer
+- OBJC_IVAR_$_NSPDNSPacket._isRecursionAvailable
+- OBJC_IVAR_$_NSPDNSPacket._isRecursionDesired
+- OBJC_IVAR_$_NSPDNSPacket._isTruncated
+- OBJC_IVAR_$_NSPDNSPacket._messageType
+- OBJC_IVAR_$_NSPDNSPacket._opCode
+- OBJC_IVAR_$_NSPDNSPacket._queries
+- OBJC_IVAR_$_NSPDNSPacket._responseCode
+- OBJC_IVAR_$_NSPDNSPacket._timestamp
+- OBJC_IVAR_$_NSPDNSQuery._name
+- OBJC_IVAR_$_NSPDNSQuery._recordClass
+- OBJC_IVAR_$_NSPDNSQuery._recordType
+- OBJC_IVAR_$_NSPDNSResourceRecord._dataLength
+- OBJC_IVAR_$_NSPDNSResourceRecord._name
+- OBJC_IVAR_$_NSPDNSResourceRecord._recordClass
+- OBJC_IVAR_$_NSPDNSResourceRecord._resourceString
+- OBJC_IVAR_$_NSPDNSResourceRecord._timeToLive
+- OBJC_IVAR_$_NSPDNSResourceRecord._type
+- OBJC_IVAR_$_NSPFlowDivert._shouldResetPolicies
+- OBJC_IVAR_$_NSPFlowDivert._started
+- OBJC_IVAR_$_NSPFlowDivertProvider._manager
+- OBJC_IVAR_$_NSPManager._appRules
+- OBJC_IVAR_$_NSPManager._changeHandler
+- OBJC_IVAR_$_NSPManager._configuration
+- OBJC_IVAR_$_NSPManager._connectionInfoSetHandler
+- OBJC_IVAR_$_NSPManager._currentAgents
+- OBJC_IVAR_$_NSPManager._currentTunnelEndpoint
+- OBJC_IVAR_$_NSPManager._delegate
+- OBJC_IVAR_$_NSPManager._disableIdleTimeout
+- OBJC_IVAR_$_NSPManager._fallbackCounts
+- OBJC_IVAR_$_NSPManager._flowDivert
+- OBJC_IVAR_$_NSPManager._flowInfoMap
+- OBJC_IVAR_$_NSPManager._inUseKeybag
+- OBJC_IVAR_$_NSPManager._isObserving
+- OBJC_IVAR_$_NSPManager._keybag
+- OBJC_IVAR_$_NSPManager._knownFlows
+- OBJC_IVAR_$_NSPManager._matchingAppRule
+- OBJC_IVAR_$_NSPManager._nextFlowID
+- OBJC_IVAR_$_NSPManager._pathEvaluator
+- OBJC_IVAR_$_NSPManager._pendingCancellationHandler
+- OBJC_IVAR_$_NSPManager._policyEvaluator
+- OBJC_IVAR_$_NSPManager._signingIdentifier
+- OBJC_IVAR_$_NSPManager._testFetchDaypass
+- OBJC_IVAR_$_NSPManager._testLatencyMap
+- OBJC_IVAR_$_NSPManager._testLatencyMapIndex
+- OBJC_IVAR_$_NSPManager._tunnelConnectedHandler
+- OBJC_IVAR_$_NSPManager._tunnelCount
+- OBJC_IVAR_$_NSPManager.lock
+- OBJC_IVAR_$_NSPNetworkAgent._agentData
+- OBJC_IVAR_$_NSPNetworkAgent._appRule
+- OBJC_IVAR_$_NSPNetworkAgent._configuration
+- OBJC_IVAR_$_NSPNetworkAgent._dataDigest
+- OBJC_IVAR_$_NSPNetworkAgent._keybag
+- OBJC_IVAR_$_NSPNetworkAgent.active
+- OBJC_IVAR_$_NSPNetworkAgent.agentDescription
+- OBJC_IVAR_$_NSPNetworkAgent.agentUUID
+- OBJC_IVAR_$_NSPNetworkAgent.kernelActivated
+- OBJC_IVAR_$_NSPNetworkAgent.userActivated
+- OBJC_IVAR_$_NSPNetworkAgent.voluntary
+- TFOStatusString.names
+- _CFBundleCopyLocalizationForLocalizationInfo
+- _CFBundleGetLocalizationInfoForLocalization
+- _CFHTTPMessageCopySerializedMessage
+- _CFHTTPMessageSetHeaderFieldValue
+- _CFURLRequestCopyHTTPRequest
+- _NPFlowProperty
+- _NPFlowPropertyFlag
+- _NSPOSIXErrorDomain
+- _OBJC_CLASS_$_EdgeSelection
+- _OBJC_CLASS_$_NEAppProxyProvider
+- _OBJC_CLASS_$_NEAppProxyProviderContainer
+- _OBJC_CLASS_$_NEAppProxyUDPFlow
+- _OBJC_CLASS_$_NEAppRule
+- _OBJC_CLASS_$_NEFlowDivertFileHandle
+- _OBJC_CLASS_$_NENetworkAgentRegistrationFileHandle
+- _OBJC_CLASS_$_NEPolicy
+- _OBJC_CLASS_$_NEPolicyCondition
+- _OBJC_CLASS_$_NEPolicyResult
+- _OBJC_CLASS_$_NEPolicySession
+- _OBJC_CLASS_$_NPAppProxyFlowBridge
+- _OBJC_CLASS_$_NPAverage
+- _OBJC_CLASS_$_NPDiagnosticReport
+- _OBJC_CLASS_$_NPDirectFlow
+- _OBJC_CLASS_$_NPEdgeLatency
+- _OBJC_CLASS_$_NPEdgeSelection
+- _OBJC_CLASS_$_NPFlowProperties
+- _OBJC_CLASS_$_NPKey
+- _OBJC_CLASS_$_NPKeyBag
+- _OBJC_CLASS_$_NPLocation
+- _OBJC_CLASS_$_NPNetworkInfo
+- _OBJC_CLASS_$_NPResolver
+- _OBJC_CLASS_$_NPTunnel
+- _OBJC_CLASS_$_NPTunnelFlow
+- _OBJC_CLASS_$_NPTunnelFlowDNS
+- _OBJC_CLASS_$_NPTunnelFlowHTTP
+- _OBJC_CLASS_$_NPTunnelFlowProtocol
+- _OBJC_CLASS_$_NPTunnelFlowTelemetry
+- _OBJC_CLASS_$_NPTunnelFlowUDP
+- _OBJC_CLASS_$_NPTunnelTuscany
+- _OBJC_CLASS_$_NPTunnelTuscanyEndpoint
+- _OBJC_CLASS_$_NPTunnelTuscanyLoopback
+- _OBJC_CLASS_$_NPTuscanyEdge
+- _OBJC_CLASS_$_NPTuscanyLoopbackConnection
+- _OBJC_CLASS_$_NPTuscanyOnRamp
+- _OBJC_CLASS_$_NPUsageReport
+- _OBJC_CLASS_$_NPWaldo
+- _OBJC_CLASS_$_NSCharacterSet
+- _OBJC_CLASS_$_NSFileManager
+- _OBJC_CLASS_$_NSHTTPURLResponse
+- _OBJC_CLASS_$_NSInputStream
+- _OBJC_CLASS_$_NSNull
+- _OBJC_CLASS_$_NSPAppRule
+- _OBJC_CLASS_$_NSPByteParser
+- _OBJC_CLASS_$_NSPDNSPacket
+- _OBJC_CLASS_$_NSPDNSQuery
+- _OBJC_CLASS_$_NSPDNSResourceRecord
+- _OBJC_CLASS_$_NSPFlowDivert
+- _OBJC_CLASS_$_NSPFlowDivertProvider
+- _OBJC_CLASS_$_NSPKeyNetworkAgent
+- _OBJC_CLASS_$_NSPManager
+- _OBJC_CLASS_$_NSPNetworkAgent
+- _OBJC_CLASS_$_NSPredicate
+- _OBJC_CLASS_$_NSPropertyListSerialization
+- _OBJC_CLASS_$_NSURLRequest
+- _OBJC_CLASS_$_NWEndpoint
+- _OBJC_CLASS_$_NWNetworkAgentRegistration
+- _OBJC_CLASS_$_NWParameters
+- _OBJC_CLASS_$_NWPathEvaluator
+- _OBJC_CLASS_$_NWResolver
+- _OBJC_CLASS_$_NWTCPConnection
+- _OBJC_CLASS_$_NWUDPSession
+- _OBJC_CLASS_$_SDRDiagnosticReporter
+- _OBJC_METACLASS_$_EdgeSelection
+- _OBJC_METACLASS_$_NEAppProxyProvider
+- _OBJC_METACLASS_$_NEAppProxyProviderContainer
+- _OBJC_METACLASS_$_NEAppRule
+- _OBJC_METACLASS_$_NPAppProxyFlowBridge
+- _OBJC_METACLASS_$_NPAverage
+- _OBJC_METACLASS_$_NPDiagnosticReport
+- _OBJC_METACLASS_$_NPDirectFlow
+- _OBJC_METACLASS_$_NPEdgeLatency
+- _OBJC_METACLASS_$_NPEdgeSelection
+- _OBJC_METACLASS_$_NPFlowProperties
+- _OBJC_METACLASS_$_NPKey
+- _OBJC_METACLASS_$_NPKeyBag
+- _OBJC_METACLASS_$_NPLocation
+- _OBJC_METACLASS_$_NPNetworkInfo
+- _OBJC_METACLASS_$_NPResolver
+- _OBJC_METACLASS_$_NPTunnel
+- _OBJC_METACLASS_$_NPTunnelFlow
+- _OBJC_METACLASS_$_NPTunnelFlowDNS
+- _OBJC_METACLASS_$_NPTunnelFlowHTTP
+- _OBJC_METACLASS_$_NPTunnelFlowProtocol
+- _OBJC_METACLASS_$_NPTunnelFlowTelemetry
+- _OBJC_METACLASS_$_NPTunnelFlowUDP
+- _OBJC_METACLASS_$_NPTunnelTuscany
+- _OBJC_METACLASS_$_NPTunnelTuscanyEndpoint
+- _OBJC_METACLASS_$_NPTunnelTuscanyLoopback
+- _OBJC_METACLASS_$_NPTuscanyEdge
+- _OBJC_METACLASS_$_NPTuscanyLoopbackConnection
+- _OBJC_METACLASS_$_NPTuscanyOnRamp
+- _OBJC_METACLASS_$_NPUsageReport
+- _OBJC_METACLASS_$_NPWaldo
+- _OBJC_METACLASS_$_NSPAppRule
+- _OBJC_METACLASS_$_NSPByteParser
+- _OBJC_METACLASS_$_NSPDNSPacket
+- _OBJC_METACLASS_$_NSPDNSQuery
+- _OBJC_METACLASS_$_NSPDNSResourceRecord
+- _OBJC_METACLASS_$_NSPFlowDivert
+- _OBJC_METACLASS_$_NSPFlowDivertProvider
+- _OBJC_METACLASS_$_NSPKeyNetworkAgent
+- _OBJC_METACLASS_$_NSPManager
+- _OBJC_METACLASS_$_NSPNetworkAgent
+- _OBJC_METACLASS_$_NWEndpoint
+- _OBJC_METACLASS_$_NWResolver
+- _SecCodeCopyDesignatedRequirement
+- _SecCodeCopySelf
+- _SecRequirementCopyString
+- _SecTaskCopySigningIdentifier
+- _SecTaskCreateFromSelf
+- _SipHash
+- __101-[NPTunnelFlowProtocol addInputFramesToArray:limitMinimumBytes:limitMaximumBytes:limitMaximumFrames:]_block_invoke.2
+- __18-[NPTunnel write:]_block_invoke.7
+- __25-[NPEdgeLatency pingPong]_block_invoke.158
+- __25-[NPEdgeLatency pingPong]_block_invoke_2.159
+- __27-[NSPAppRule initFromTLVs:]_block_invoke.224
+- __32-[NSPAppRule updateNetworkAgent]_block_invoke.232
+- __32-[NSPManager handlePolicyUpdate]_block_invoke.22
+- __39-[NPAppProxyFlowBridge startConnection]_block_invoke.31
+- __40-[NPTunnelTuscany sendDataOnUDPSession:]_block_invoke.15
+- __40-[NPTuscanyOnRamp registerAgentWithKey:]_block_invoke.59
+- __41-[NPTunnelFlowTelemetry reportTelemetry:]_block_invoke.2
+- __45-[NPAppProxyFlowBridge handleConnectionReady]_block_invoke.2
+- __46-[NPTuscanyEdge resolveWithCompletionHandler:]_block_invoke.507
+- __47-[EdgeSelection trainEdgeSelectionModel:reply:]_block_invoke.85
+- __47-[EdgeSelection trainEdgeSelectionModel:reply:]_block_invoke.86
+- __47-[NPWaldo establishTrustWithCompletionHandler:]_block_invoke.888
+- __47-[NPWaldo establishTrustWithCompletionHandler:]_block_invoke.889
+- __49-[NPWaldo refreshDayPassesWithCompletionHandler:]_block_invoke.971
+- __52-[NPWaldo updateNetworkAgentWithKeybag:networkInfo:]_block_invoke.853
+- __57-[NSPConfiguration incrementSessionCountersOnFirstLaunch]_block_invoke.448
+- __60-[NPWaldo reprocessLatencies:sampleCount:completionHandler:]_block_invoke.942
+- __64-[NPEdgeLatency observeValueForKeyPath:ofObject:change:context:]_block_invoke.164
+- __67-[NPWaldo reprocessEdgeAtIndex:networkSignature:completionHandler:]_block_invoke.925
+- __99-[NPTuscanyOnRamp refreshDayPassWithWaldoDelegate:softExpiry:retryInterval:edge:completionHandler:]_block_invoke.111
+- __Block_byref_object_copy_.739
+- __Block_byref_object_dispose_.740
+- __OBJC_$_CLASS_METHODS_EdgeSelection
+- __OBJC_$_CLASS_METHODS_NPAverage
+- __OBJC_$_CLASS_METHODS_NPDiagnosticReport
+- __OBJC_$_CLASS_METHODS_NPDirectFlow
+- __OBJC_$_CLASS_METHODS_NPEdgeLatency
+- __OBJC_$_CLASS_METHODS_NPEdgeSelection
+- __OBJC_$_CLASS_METHODS_NPLocation
+- __OBJC_$_CLASS_METHODS_NPNetworkInfo
+- __OBJC_$_CLASS_METHODS_NPTunnel
+- __OBJC_$_CLASS_METHODS_NPTunnelTuscanyEndpoint
+- __OBJC_$_CLASS_METHODS_NPTuscanyEdge
+- __OBJC_$_CLASS_METHODS_NPTuscanyOnRamp
+- __OBJC_$_CLASS_METHODS_NPUsageReport
+- __OBJC_$_CLASS_METHODS_NPWaldo
+- __OBJC_$_CLASS_METHODS_NSPAppRule
+- __OBJC_$_CLASS_METHODS_NSPDNSResourceRecord
+- __OBJC_$_CLASS_METHODS_NSPKeyNetworkAgent
+- __OBJC_$_CLASS_METHODS_NSPManager
+- __OBJC_$_CLASS_METHODS_NSPNetworkAgent
+- __OBJC_$_CLASS_PROP_LIST_EdgeSelection
+- __OBJC_$_CLASS_PROP_LIST_NPAverage
+- __OBJC_$_CLASS_PROP_LIST_NPEdgeLatency
+- __OBJC_$_CLASS_PROP_LIST_NPLocation
+- __OBJC_$_CLASS_PROP_LIST_NPNetworkInfo
+- __OBJC_$_CLASS_PROP_LIST_NPTuscanyEdge
+- __OBJC_$_CLASS_PROP_LIST_NPTuscanyOnRamp
+- __OBJC_$_CLASS_PROP_LIST_NPUsageReport
+- __OBJC_$_CLASS_PROP_LIST_NPWaldo
+- __OBJC_$_INSTANCE_METHODS_EdgeSelection
+- __OBJC_$_INSTANCE_METHODS_NPAppProxyFlowBridge
+- __OBJC_$_INSTANCE_METHODS_NPAverage
+- __OBJC_$_INSTANCE_METHODS_NPDirectFlow
+- __OBJC_$_INSTANCE_METHODS_NPEdgeLatency
+- __OBJC_$_INSTANCE_METHODS_NPEdgeSelection
+- __OBJC_$_INSTANCE_METHODS_NPFlowProperties
+- __OBJC_$_INSTANCE_METHODS_NPKey
+- __OBJC_$_INSTANCE_METHODS_NPKeyBag
+- __OBJC_$_INSTANCE_METHODS_NPLocation
+- __OBJC_$_INSTANCE_METHODS_NPNetworkInfo
+- __OBJC_$_INSTANCE_METHODS_NPResolver
+- __OBJC_$_INSTANCE_METHODS_NPTunnel
+- __OBJC_$_INSTANCE_METHODS_NPTunnelFlow
+- __OBJC_$_INSTANCE_METHODS_NPTunnelFlowDNS
+- __OBJC_$_INSTANCE_METHODS_NPTunnelFlowHTTP
+- __OBJC_$_INSTANCE_METHODS_NPTunnelFlowProtocol
+- __OBJC_$_INSTANCE_METHODS_NPTunnelFlowTelemetry
+- __OBJC_$_INSTANCE_METHODS_NPTunnelFlowUDP
+- __OBJC_$_INSTANCE_METHODS_NPTunnelTuscany
+- __OBJC_$_INSTANCE_METHODS_NPTunnelTuscanyEndpoint
+- __OBJC_$_INSTANCE_METHODS_NPTunnelTuscanyLoopback
+- __OBJC_$_INSTANCE_METHODS_NPTuscanyEdge
+- __OBJC_$_INSTANCE_METHODS_NPTuscanyLoopbackConnection
+- __OBJC_$_INSTANCE_METHODS_NPTuscanyOnRamp
+- __OBJC_$_INSTANCE_METHODS_NPUsageReport
+- __OBJC_$_INSTANCE_METHODS_NPWaldo
+- __OBJC_$_INSTANCE_METHODS_NSPAppRule
+- __OBJC_$_INSTANCE_METHODS_NSPByteParser
+- __OBJC_$_INSTANCE_METHODS_NSPDNSPacket
+- __OBJC_$_INSTANCE_METHODS_NSPDNSQuery
+- __OBJC_$_INSTANCE_METHODS_NSPDNSResourceRecord
+- __OBJC_$_INSTANCE_METHODS_NSPFlowDivert
+- __OBJC_$_INSTANCE_METHODS_NSPFlowDivertProvider
+- __OBJC_$_INSTANCE_METHODS_NSPManager
+- __OBJC_$_INSTANCE_METHODS_NSPNetworkAgent
+- __OBJC_$_INSTANCE_VARIABLES_EdgeSelection
+- __OBJC_$_INSTANCE_VARIABLES_NPAppProxyFlowBridge
+- __OBJC_$_INSTANCE_VARIABLES_NPAverage
+- __OBJC_$_INSTANCE_VARIABLES_NPDirectFlow
+- __OBJC_$_INSTANCE_VARIABLES_NPEdgeLatency
+- __OBJC_$_INSTANCE_VARIABLES_NPEdgeSelection
+- __OBJC_$_INSTANCE_VARIABLES_NPFlowProperties
+- __OBJC_$_INSTANCE_VARIABLES_NPKey
+- __OBJC_$_INSTANCE_VARIABLES_NPKeyBag
+- __OBJC_$_INSTANCE_VARIABLES_NPLocation
+- __OBJC_$_INSTANCE_VARIABLES_NPNetworkInfo
+- __OBJC_$_INSTANCE_VARIABLES_NPResolver
+- __OBJC_$_INSTANCE_VARIABLES_NPTunnel
+- __OBJC_$_INSTANCE_VARIABLES_NPTunnelFlow
+- __OBJC_$_INSTANCE_VARIABLES_NPTunnelFlowDNS
+- __OBJC_$_INSTANCE_VARIABLES_NPTunnelFlowHTTP
+- __OBJC_$_INSTANCE_VARIABLES_NPTunnelFlowProtocol
+- __OBJC_$_INSTANCE_VARIABLES_NPTunnelFlowUDP
+- __OBJC_$_INSTANCE_VARIABLES_NPTunnelTuscany
+- __OBJC_$_INSTANCE_VARIABLES_NPTunnelTuscanyEndpoint
+- __OBJC_$_INSTANCE_VARIABLES_NPTunnelTuscanyLoopback
+- __OBJC_$_INSTANCE_VARIABLES_NPTuscanyEdge
+- __OBJC_$_INSTANCE_VARIABLES_NPTuscanyLoopbackConnection
+- __OBJC_$_INSTANCE_VARIABLES_NPTuscanyOnRamp
+- __OBJC_$_INSTANCE_VARIABLES_NPUsageReport
+- __OBJC_$_INSTANCE_VARIABLES_NPWaldo
+- __OBJC_$_INSTANCE_VARIABLES_NSPAppRule
+- __OBJC_$_INSTANCE_VARIABLES_NSPByteParser
+- __OBJC_$_INSTANCE_VARIABLES_NSPDNSPacket
+- __OBJC_$_INSTANCE_VARIABLES_NSPDNSQuery
+- __OBJC_$_INSTANCE_VARIABLES_NSPDNSResourceRecord
+- __OBJC_$_INSTANCE_VARIABLES_NSPFlowDivert
+- __OBJC_$_INSTANCE_VARIABLES_NSPFlowDivertProvider
+- __OBJC_$_INSTANCE_VARIABLES_NSPManager
+- __OBJC_$_INSTANCE_VARIABLES_NSPNetworkAgent
+- __OBJC_$_PROP_LIST_EdgeSelection
+- __OBJC_$_PROP_LIST_NPAverage
+- __OBJC_$_PROP_LIST_NPDirectFlow
+- __OBJC_$_PROP_LIST_NPEdgeLatency
+- __OBJC_$_PROP_LIST_NPEdgeSelection
+- __OBJC_$_PROP_LIST_NPFlowProperties
+- __OBJC_$_PROP_LIST_NPKey
+- __OBJC_$_PROP_LIST_NPKeyBag
+- __OBJC_$_PROP_LIST_NPLocation
+- __OBJC_$_PROP_LIST_NPNetworkInfo
+- __OBJC_$_PROP_LIST_NPResolver
+- __OBJC_$_PROP_LIST_NPTunnel
+- __OBJC_$_PROP_LIST_NPTunnelDelegate
+- __OBJC_$_PROP_LIST_NPTunnelFlow
+- __OBJC_$_PROP_LIST_NPTunnelFlowDNS
+- __OBJC_$_PROP_LIST_NPTunnelFlowHTTP
+- __OBJC_$_PROP_LIST_NPTunnelFlowProtocol
+- __OBJC_$_PROP_LIST_NPTunnelFlowUDP
+- __OBJC_$_PROP_LIST_NPTunnelTuscany
+- __OBJC_$_PROP_LIST_NPTunnelTuscanyEndpoint
+- __OBJC_$_PROP_LIST_NPTunnelTuscanyLoopback
+- __OBJC_$_PROP_LIST_NPTuscanyEdge
+- __OBJC_$_PROP_LIST_NPTuscanyLoopbackConnection
+- __OBJC_$_PROP_LIST_NPTuscanyOnRamp
+- __OBJC_$_PROP_LIST_NPUsageReport
+- __OBJC_$_PROP_LIST_NPWaldo
+- __OBJC_$_PROP_LIST_NSPAppRule
+- __OBJC_$_PROP_LIST_NSPByteParser
+- __OBJC_$_PROP_LIST_NSPDNSPacket
+- __OBJC_$_PROP_LIST_NSPDNSQuery
+- __OBJC_$_PROP_LIST_NSPDNSResourceRecord
+- __OBJC_$_PROP_LIST_NSPFlowDivert
+- __OBJC_$_PROP_LIST_NSPFlowDivertProvider
+- __OBJC_$_PROP_LIST_NSPManager
+- __OBJC_$_PROP_LIST_NSPNetworkAgent
+- __OBJC_$_PROP_LIST_NWNetworkAgent
+- __OBJC_$_PROTOCOL_CLASS_METHODS_NWNetworkAgent
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NEAppProxyProviderContainerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NPTunnelDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NWNetworkAgent
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NWNetworkAgent
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NEAppProxyProviderContainerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NPTunnelDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NWNetworkAgent
+- __OBJC_$_PROTOCOL_REFS_NPTunnelDelegate
+- __OBJC_CLASS_PROTOCOLS_$_EdgeSelection
+- __OBJC_CLASS_PROTOCOLS_$_NPAverage
+- __OBJC_CLASS_PROTOCOLS_$_NPEdgeLatency
+- __OBJC_CLASS_PROTOCOLS_$_NPLocation
+- __OBJC_CLASS_PROTOCOLS_$_NPNetworkInfo
+- __OBJC_CLASS_PROTOCOLS_$_NPTuscanyEdge
+- __OBJC_CLASS_PROTOCOLS_$_NPTuscanyOnRamp
+- __OBJC_CLASS_PROTOCOLS_$_NPUsageReport
+- __OBJC_CLASS_PROTOCOLS_$_NPWaldo
+- __OBJC_CLASS_PROTOCOLS_$_NSPByteParser
+- __OBJC_CLASS_PROTOCOLS_$_NSPManager
+- __OBJC_CLASS_PROTOCOLS_$_NSPNetworkAgent
+- __OBJC_CLASS_RO_$_EdgeSelection
+- __OBJC_CLASS_RO_$_NPAppProxyFlowBridge
+- __OBJC_CLASS_RO_$_NPAverage
+- __OBJC_CLASS_RO_$_NPDiagnosticReport
+- __OBJC_CLASS_RO_$_NPDirectFlow
+- __OBJC_CLASS_RO_$_NPEdgeLatency
+- __OBJC_CLASS_RO_$_NPEdgeSelection
+- __OBJC_CLASS_RO_$_NPFlowProperties
+- __OBJC_CLASS_RO_$_NPKey
+- __OBJC_CLASS_RO_$_NPKeyBag
+- __OBJC_CLASS_RO_$_NPLocation
+- __OBJC_CLASS_RO_$_NPNetworkInfo
+- __OBJC_CLASS_RO_$_NPResolver
+- __OBJC_CLASS_RO_$_NPTunnel
+- __OBJC_CLASS_RO_$_NPTunnelFlow
+- __OBJC_CLASS_RO_$_NPTunnelFlowDNS
+- __OBJC_CLASS_RO_$_NPTunnelFlowHTTP
+- __OBJC_CLASS_RO_$_NPTunnelFlowProtocol
+- __OBJC_CLASS_RO_$_NPTunnelFlowTelemetry
+- __OBJC_CLASS_RO_$_NPTunnelFlowUDP
+- __OBJC_CLASS_RO_$_NPTunnelTuscany
+- __OBJC_CLASS_RO_$_NPTunnelTuscanyEndpoint
+- __OBJC_CLASS_RO_$_NPTunnelTuscanyLoopback
+- __OBJC_CLASS_RO_$_NPTuscanyEdge
+- __OBJC_CLASS_RO_$_NPTuscanyLoopbackConnection
+- __OBJC_CLASS_RO_$_NPTuscanyOnRamp
+- __OBJC_CLASS_RO_$_NPUsageReport
+- __OBJC_CLASS_RO_$_NPWaldo
+- __OBJC_CLASS_RO_$_NSPAppRule
+- __OBJC_CLASS_RO_$_NSPByteParser
+- __OBJC_CLASS_RO_$_NSPDNSPacket
+- __OBJC_CLASS_RO_$_NSPDNSQuery
+- __OBJC_CLASS_RO_$_NSPDNSResourceRecord
+- __OBJC_CLASS_RO_$_NSPFlowDivert
+- __OBJC_CLASS_RO_$_NSPFlowDivertProvider
+- __OBJC_CLASS_RO_$_NSPKeyNetworkAgent
+- __OBJC_CLASS_RO_$_NSPManager
+- __OBJC_CLASS_RO_$_NSPNetworkAgent
+- __OBJC_LABEL_PROTOCOL_$_NEAppProxyProviderContainerDelegate
+- __OBJC_LABEL_PROTOCOL_$_NPTunnelDelegate
+- __OBJC_LABEL_PROTOCOL_$_NWNetworkAgent
+- __OBJC_METACLASS_RO_$_EdgeSelection
+- __OBJC_METACLASS_RO_$_NPAppProxyFlowBridge
+- __OBJC_METACLASS_RO_$_NPAverage
+- __OBJC_METACLASS_RO_$_NPDiagnosticReport
+- __OBJC_METACLASS_RO_$_NPDirectFlow
+- __OBJC_METACLASS_RO_$_NPEdgeLatency
+- __OBJC_METACLASS_RO_$_NPEdgeSelection
+- __OBJC_METACLASS_RO_$_NPFlowProperties
+- __OBJC_METACLASS_RO_$_NPKey
+- __OBJC_METACLASS_RO_$_NPKeyBag
+- __OBJC_METACLASS_RO_$_NPLocation
+- __OBJC_METACLASS_RO_$_NPNetworkInfo
+- __OBJC_METACLASS_RO_$_NPResolver
+- __OBJC_METACLASS_RO_$_NPTunnel
+- __OBJC_METACLASS_RO_$_NPTunnelFlow
+- __OBJC_METACLASS_RO_$_NPTunnelFlowDNS
+- __OBJC_METACLASS_RO_$_NPTunnelFlowHTTP
+- __OBJC_METACLASS_RO_$_NPTunnelFlowProtocol
+- __OBJC_METACLASS_RO_$_NPTunnelFlowTelemetry
+- __OBJC_METACLASS_RO_$_NPTunnelFlowUDP
+- __OBJC_METACLASS_RO_$_NPTunnelTuscany
+- __OBJC_METACLASS_RO_$_NPTunnelTuscanyEndpoint
+- __OBJC_METACLASS_RO_$_NPTunnelTuscanyLoopback
+- __OBJC_METACLASS_RO_$_NPTuscanyEdge
+- __OBJC_METACLASS_RO_$_NPTuscanyLoopbackConnection
+- __OBJC_METACLASS_RO_$_NPTuscanyOnRamp
+- __OBJC_METACLASS_RO_$_NPUsageReport
+- __OBJC_METACLASS_RO_$_NPWaldo
+- __OBJC_METACLASS_RO_$_NSPAppRule
+- __OBJC_METACLASS_RO_$_NSPByteParser
+- __OBJC_METACLASS_RO_$_NSPDNSPacket
+- __OBJC_METACLASS_RO_$_NSPDNSQuery
+- __OBJC_METACLASS_RO_$_NSPDNSResourceRecord
+- __OBJC_METACLASS_RO_$_NSPFlowDivert
+- __OBJC_METACLASS_RO_$_NSPFlowDivertProvider
+- __OBJC_METACLASS_RO_$_NSPKeyNetworkAgent
+- __OBJC_METACLASS_RO_$_NSPManager
+- __OBJC_METACLASS_RO_$_NSPNetworkAgent
+- __OBJC_PROTOCOL_$_NEAppProxyProviderContainerDelegate
+- __OBJC_PROTOCOL_$_NPTunnelDelegate
+- __OBJC_PROTOCOL_$_NWNetworkAgent
+- __ZN10BufferPool3popEv
+- __ZN10BufferPool4pushEP7Pending
+- __ZN10BufferPool4readEiPvm
+- __ZN10BufferPool5closeEv
+- __ZN11FrameStream11acknowledgeEjib
+- __ZN11FrameStream3eofEj
+- __ZN11FrameStream4doneEj
+- __ZN11FrameStream6adviseEjh
+- __ZN11FrameStream6headerEv
+- __ZN11FrameStream7disposeEPKcb
+- __ZN11FrameStream8dispatchER3AIOj
+- __ZN11FrameStream8helloackEi
+- __ZN11FrameStreamC2ER3LogR6SocketR10BufferPoolj
+- __ZN11FrameStreamD0Ev
+- __ZN11FrameStreamD1Ev
+- __ZN13NPFrameStream11initialDataEb
+- __ZN13NPFrameStream14amountToBeReadEv
+- __ZN13NPFrameStream14handleReadDataEP16nw_frame_array_s
+- __ZN13NPFrameStream15logCurrentStateEb
+- __ZN13NPFrameStream17takeCurrentPacketEv
+- __ZN13NPFrameStream25handleConnectionConnectedEv
+- __ZN13NPFrameStream5flushER3AIO
+- __ZN13NPFrameStream7disposeEPKcb
+- __ZN13NPFrameStreamC2ER3LogR6SocketR10BufferPoolj
+- __ZN13NPFrameStreamD0Ev
+- __ZN13NPFrameStreamD1Ev
+- __ZN13PendingStream2fdEv
+- __ZN13PendingStream4emitEPKcS1_i
+- __ZN13PendingStream5flushER3AIO
+- __ZN13PendingStream7blockedER3AIO
+- __ZN13PendingStream7disposeEPKcb
+- __ZN13PendingStream7dubiousEPKc
+- __ZN13PendingStream7reclaimEv
+- __ZN13PendingStream8readableER3AIOb
+- __ZN13PendingStream8writableER3AIO
+- __ZN13PendingStreamD0Ev
+- __ZN13PendingStreamD1Ev
+- __ZN13PendingStreamD2Ev
+- __ZN15NPTuscanyClient11maxSendSizeEyb
+- __ZN15NPTuscanyClient6tunnelEv
+- __ZN15NPTuscanyClient7disposeEPKcb
+- __ZN15NPTuscanyClient7inboundERN5Frame3AckE
+- __ZN15NPTuscanyClient7inboundERN5Frame4DataEPKvi
+- __ZN15NPTuscanyClient7inboundERN5Frame4HackE
+- __ZN15NPTuscanyClient7inboundERN5Frame4PingE
+- __ZN15NPTuscanyClient7inboundERN5Frame7RequestEPKvi
+- __ZN15NPTuscanyClient7inboundERN5Frame9ExceptionEPKv
+- __ZN15NPTuscanyClient8sendDataEP12NPTunnelFlowP6NSDataPm
+- __ZN15NPTuscanyClient9sendCloseEP12NPTunnelFlow
+- __ZN15NPTuscanyClientC2EP15NPTunnelTuscanyP6NSDataP15NPTuscanyConfig
+- __ZN15NPTuscanyClientD0Ev
+- __ZN15NPTuscanyClientD1Ev
+- __ZN15NPTuscanyConfigC2Ev
+- __ZN23NPTuscanyLoopbackClient7decryptEPN5Frame6HeaderE
+- __ZN23NPTuscanyLoopbackClient7disposeEPKcb
+- __ZN23NPTuscanyLoopbackClient7encryptEPN5Frame6HeaderE
+- __ZN23NPTuscanyLoopbackClient7inboundERN5Frame7RequestEPKvi
+- __ZN23NPTuscanyLoopbackClientD0Ev
+- __ZN23NPTuscanyLoopbackClientD1Ev
+- __ZN3AIO2rwERNS_5EventEji
+- __ZN3LRUI7PendingN8LRULinksIS0_E5DerefEE3popEPS0_
+- __ZN3Log4infoEPKcz
+- __ZN3Log5errorEPKcz
+- __ZN3Log5fatalEPKcz
+- __ZN3Log5traceEPKcz
+- __ZN3Log6Stderr4emitEPKcm
+- __ZN3Log6Stderr4selfEv
+- __ZN3Log6StderrD0Ev
+- __ZN3Log6StderrD1Ev
+- __ZN3Log8DateTime4selfEv
+- __ZN3Log8DateTime6formatERS_PKcS3_RPc
+- __ZN3Log8DateTimeD0Ev
+- __ZN3Log8DateTimeD1Ev
+- __ZN3LogD0Ev
+- __ZN3LogD1Ev
+- __ZN5Frame3Ack4sizeEv
+- __ZN5Frame3Ack6stringEv
+- __ZN5Frame3Ack8validateEt
+- __ZN5Frame4Data4sizeEv
+- __ZN5Frame4Data6stringEv
+- __ZN5Frame4Data8validateEt
+- __ZN5Frame4Hack4sizeEv
+- __ZN5Frame4Hack6stringEv
+- __ZN5Frame4Hack8validateEt
+- __ZN5Frame4Ping4sizeEv
+- __ZN5Frame4Ping6stringEv
+- __ZN5Frame4Ping8validateEt
+- __ZN5Frame5Hello4sizeEv
+- __ZN5Frame5Hello6stringEv
+- __ZN5Frame5Hello8validateEt
+- __ZN5Frame5Rekey4sizeEv
+- __ZN5Frame5Rekey6stringEv
+- __ZN5Frame5Rekey8validateEt
+- __ZN5Frame6Prefix4Meta8fdecryptERS0_RNS_4AEADEb
+- __ZN5Frame6Prefix4Meta8fencryptERS0_RNS_4AEADEb
+- __ZN5Frame6Prefix4Meta8hdecryptERS0_RNS_4AEADEb
+- __ZN5Frame6Prefix4Meta8hencryptERS0_RNS_4AEADEb
+- __ZN5Frame7Request4sizeEv
+- __ZN5Frame7Request6stringEv
+- __ZN5Frame7Request8validateEt
+- __ZN5Frame8Capacity4sizeEv
+- __ZN5Frame8Capacity6stringEv
+- __ZN5Frame8Capacity8validateEt
+- __ZN5Frame9Advertise4sizeEv
+- __ZN5Frame9Advertise6stringEv
+- __ZN5Frame9Advertise8validateEt
+- __ZN5Frame9Exception4sizeEv
+- __ZN5Frame9Exception6stringEv
+- __ZN5Frame9Exception8validateEt
+- __ZN6Buffer6headerEv
+- __ZN6Buffer7disposeEv
+- __ZN6BufferD0Ev
+- __ZN6BufferD1Ev
+- __ZN6Client4pingEjy
+- __ZN6Client5Hello6headerEv
+- __ZN6Client5Hello7disposeEv
+- __ZN6Client5HelloD0Ev
+- __ZN6Client5HelloD1Ev
+- __ZN6Client5Query6headerEv
+- __ZN6Client5Query7disposeEv
+- __ZN6Client5QueryD0Ev
+- __ZN6Client5QueryD1Ev
+- __ZN6Client5flushER3AIO
+- __ZN6Client7decryptEPN5Frame6HeaderE
+- __ZN6Client7disposeEPKcb
+- __ZN6Client7encryptEPN5Frame6HeaderE
+- __ZN6Client7enqueueEP7Pending
+- __ZN6Client7inboundERN5Frame3AckE
+- __ZN6Client7inboundERN5Frame4DataEPKvi
+- __ZN6Client7inboundERN5Frame4HackE
+- __ZN6Client7inboundERN5Frame4PingE
+- __ZN6Client7inboundERN5Frame7RequestEPKvi
+- __ZN6Client7inboundERN5Frame9ExceptionEPKv
+- __ZN6Client7trafficER5Frame
+- __ZN6Client8populateEPN5Frame7RequestEPNS_7RequestEh
+- __ZN6Client8transmitEP7PendingP8Transfer
+- __ZN6ClientC2ER3LogR10BufferPoolR3AIOR6Socketj
+- __ZN6ClientD0Ev
+- __ZN6ClientD1Ev
+- __ZN6ClientD2Ev
+- __ZN6Crypto4Bits9stream_toEPhS1_myy
+- __ZN6Crypto4zeroEPvm
+- __ZN6Crypto7Session6sipkeyE
+- __ZN6Crypto7Session7decryptEPhjjPj
+- __ZN6Crypto7Session7encryptEPhjjPj
+- __ZN6Crypto7SessionD2Ev
+- __ZN6Socket3getEiiPiPj
+- __ZN6Socket3setEiiPij
+- __ZN6Socket4bindER7Address
+- __ZN6Socket4readEPvii
+- __ZN6Socket4readEPvm
+- __ZN6Socket5closeEv
+- __ZN6Socket5errorEPKcS1_
+- __ZN6Socket5writeEPKvm
+- __ZN6Socket5writeEPKvmi
+- __ZN6Socket6serverER7Addressbi
+- __ZN6Socket7connectER7AddressPvm
+- __ZN6Socket7pendingEv
+- __ZN6Socket8readmoreEv
+- __ZN6Socket8strerrorEb
+- __ZN6SocketD0Ev
+- __ZN6SocketD1Ev
+- __ZN7Address6formatEPci
+- __ZN7Pending5labelEv
+- __ZN7Pending5writeEPKvm
+- __ZN7Pending6headerEv
+- __ZN7Pending7disposeEv
+- __ZN7PendingD0Ev
+- __ZN7PendingD1Ev
+- __ZN8Transfer3eofEj
+- __ZN8Transfer6adviseEjh
+- __ZN8Transfer6attachEPS_
+- __ZN8Transfer6detachEPKcPS_j
+- __ZN8Transfer7addressEv
+- __ZN8Transfer7receiptEji
+- __ZN8Transfer7sessionEPcm
+- __ZN8Transfer8transmitEP7PendingPS_
+- __ZN9AddressV43dupEv
+- __ZN9AddressV44nameEv
+- __ZN9AddressV44portEi
+- __ZN9AddressV44portEv
+- __ZN9AddressV47namelenEv
+- __ZN9AddressV4D0Ev
+- __ZN9AddressV4D1Ev
+- __ZSt9terminatev
+- __ZTI10BufferPool
+- __ZTI11FrameStream
+- __ZTI11PendingPool
+- __ZTI13NPFrameStream
+- __ZTI13PendingStream
+- __ZTI15NPTuscanyClient
+- __ZTI23NPTuscanyLoopbackClient
+- __ZTI2IO
+- __ZTI3Log
+- __ZTI6Buffer
+- __ZTI6Client
+- __ZTI6Reader
+- __ZTI6Socket
+- __ZTI6Writer
+- __ZTI7Address
+- __ZTI7Pending
+- __ZTI8Transfer
+- __ZTI9AddressV4
+- __ZTIN3AIO5EventE
+- __ZTIN3Log6StderrE
+- __ZTIN3Log8AppenderE
+- __ZTIN3Log8DateTimeE
+- __ZTIN3Log9FormatterE
+- __ZTIN5Frame4AEADE
+- __ZTIN6Client5HelloE
+- __ZTIN6Client5QueryE
+- __ZTIN6Crypto7SessionE
+- __ZTIN6Socket6ErrorsE
+- __ZTS10BufferPool
+- __ZTS11FrameStream
+- __ZTS11PendingPool
+- __ZTS13NPFrameStream
+- __ZTS13PendingStream
+- __ZTS15NPTuscanyClient
+- __ZTS23NPTuscanyLoopbackClient
+- __ZTS2IO
+- __ZTS3Log
+- __ZTS6Buffer
+- __ZTS6Client
+- __ZTS6Reader
+- __ZTS6Socket
+- __ZTS6Writer
+- __ZTS7Address
+- __ZTS7Pending
+- __ZTS8Transfer
+- __ZTS9AddressV4
+- __ZTSN3AIO5EventE
+- __ZTSN3Log6StderrE
+- __ZTSN3Log8AppenderE
+- __ZTSN3Log8DateTimeE
+- __ZTSN3Log9FormatterE
+- __ZTSN5Frame4AEADE
+- __ZTSN6Client5HelloE
+- __ZTSN6Client5QueryE
+- __ZTSN6Crypto7SessionE
+- __ZTSN6Socket6ErrorsE
+- __ZTV10BufferPool
+- __ZTV11FrameStream
+- __ZTV13NPFrameStream
+- __ZTV13PendingStream
+- __ZTV15NPTuscanyClient
+- __ZTV23NPTuscanyLoopbackClient
+- __ZTV3Log
+- __ZTV6Buffer
+- __ZTV6Client
+- __ZTV6Socket
+- __ZTV7Pending
+- __ZTV9AddressV4
+- __ZTVN10__cxxabiv117__class_type_infoE
+- __ZTVN10__cxxabiv120__si_class_type_infoE
+- __ZTVN10__cxxabiv121__vmi_class_type_infoE
+- __ZTVN3Log6StderrE
+- __ZTVN3Log8DateTimeE
+- __ZTVN6Client5HelloE
+- __ZTVN6Client5QueryE
+- __ZTVN6Crypto7SessionE
+- __ZThn16_N11FrameStreamD0Ev
+- __ZThn16_N11FrameStreamD1Ev
+- __ZThn16_N13NPFrameStreamD0Ev
+- __ZThn16_N13NPFrameStreamD1Ev
+- __ZThn16_N13PendingStream4emitEPKcS1_i
+- __ZThn16_N13PendingStreamD0Ev
+- __ZThn16_N13PendingStreamD1Ev
+- __ZThn16_N15NPTuscanyClientD0Ev
+- __ZThn16_N15NPTuscanyClientD1Ev
+- __ZThn16_N23NPTuscanyLoopbackClientD0Ev
+- __ZThn16_N23NPTuscanyLoopbackClientD1Ev
+- __ZThn16_N6ClientD0Ev
+- __ZThn16_N6ClientD1Ev
+- __ZThn24_N11FrameStream3eofEj
+- __ZThn24_N11FrameStream6adviseEjh
+- __ZThn24_N13PendingStream8readableER3AIOb
+- __ZThn24_N6Client8transmitEP7PendingP8Transfer
+- __ZThn8_N6Socket5writeEPKvm
+- __ZThn8_N6SocketD0Ev
+- __ZThn8_N6SocketD1Ev
+- __ZZN5Frame6Prefix4metaEvE4meta
+- __ZZN5Frame6Ticket5tohexEPvPKvmE9hexdigits
+- __ZZN5Frame9Exception5labelEiE5names
+- __ZdlPvSt19__type_descriptor_t
+- __ZnwmSt19__type_descriptor_t
+- ___101-[NPTunnelFlowProtocol addInputFramesToArray:limitMinimumBytes:limitMaximumBytes:limitMaximumFrames:]_block_invoke
+- ___16-[NPKeyBag init]_block_invoke
+- ___16-[NPKeyBag init]_block_invoke_2
+- ___18-[NPTunnel write:]_block_invoke
+- ___19-[NSPManager start]_block_invoke
+- ___22-[NPKey initWithData:]_block_invoke
+- ___23-[NPAverage isAnyValid]_block_invoke
+- ___25-[NPEdgeLatency pingPong]_block_invoke
+- ___25-[NPEdgeLatency pingPong]_block_invoke_2
+- ___25-[NPKeyBag initWithData:]_block_invoke
+- ___25-[NPWaldo expirationDate]_block_invoke
+- ___25-[NPWaldo saveToKeychain]_block_invoke
+- ___26-[NPKeyBag removeIPv6Keys]_block_invoke
+- ___26-[NPTunnel startIdleTimer]_block_invoke
+- ___26-[NSPConfiguration merge:]_block_invoke
+- ___26-[NSPConfiguration merge:]_block_invoke_2
+- ___27+[NSPManager sharedManager]_block_invoke
+- ___27-[NPWaldo cleanupStaleKeys]_block_invoke
+- ___27-[NSPAppRule initFromTLVs:]_block_invoke
+- ___27-[NSPAppRule initFromTLVs:]_block_invoke_2
+- ___28-[NPTunnel cancelConnection]_block_invoke
+- ___28-[NPTuscanyEdge description]_block_invoke
+- ___28-[NPWaldo latencyComparator]_block_invoke
+- ___28-[NSPConfiguration teardown]_block_invoke
+- ___29-[NPWaldo handleUsageReport:]_block_invoke
+- ___30-[NPTunnelFlow handleAppData:]_block_invoke
+- ___31-[NPTunnelFlowProtocol connect]_block_invoke
+- ___31-[NPWaldo teardownNetworkAgent]_block_invoke
+- ___31-[NPWaldo teardownNetworkAgent]_block_invoke_2
+- ___32-[NPWaldo edgeContainingOnRamp:]_block_invoke
+- ___32-[NSPAppRule updateNetworkAgent]_block_invoke
+- ___32-[NSPManager handlePolicyUpdate]_block_invoke
+- ___32-[NSPManager handlePolicyUpdate]_block_invoke_2
+- ___33-[NSPNetworkAgent parseAgentData]_block_invoke
+- ___34-[NPTunnelFlowDNS closeFromTunnel]_block_invoke
+- ___34-[NPTunnelTuscany handleConnected]_block_invoke
+- ___34-[NPTuscanyOnRamp unregisterAgent]_block_invoke
+- ___34-[NSPAppRule teardownNetworkAgent]_block_invoke
+- ___34-[NSPConfiguration saveToKeychain]_block_invoke
+- ___35-[NPTunnelTuscany cancelConnection]_block_invoke
+- ___36-[NPFlowProperties initWithTLVData:]_block_invoke
+- ___37-[NPTunnelFlow handleTunnelConnected]_block_invoke
+- ___37-[NPTunnelFlow handleTunnelConnected]_block_invoke_2
+- ___38-[NSPConfiguration removeFromKeychain]_block_invoke
+- ___38-[NSPConfiguration resetStaleEdgeSets]_block_invoke
+- ___39-[EdgeSelection getMinimumLatencyEdge:]_block_invoke
+- ___39-[NPAppProxyFlowBridge startConnection]_block_invoke
+- ___39-[NPEdgeSelection updateEdgeSelection:]_block_invoke
+- ___39-[NPTunnelTuscany handleFlowUsedTunnel]_block_invoke
+- ___39-[NPTunnelTuscany startConnectionTimer]_block_invoke
+- ___39-[NPTuscanyEdge unsynthesizeAddresses:]_block_invoke
+- ___40-[NPAppProxyFlowBridge writeDataToFlow:]_block_invoke
+- ___40-[NPTunnelTuscany sendDataOnUDPSession:]_block_invoke
+- ___40-[NPTuscanyOnRamp registerAgentWithKey:]_block_invoke
+- ___40-[NPWaldo resolveWithCompletionHandler:]_block_invoke
+- ___40-[NPWaldo resolveWithCompletionHandler:]_block_invoke_2
+- ___41-[NPTunnelFlowTelemetry reportTelemetry:]_block_invoke
+- ___41-[NSPConfiguration dayPassExpirationDate]_block_invoke
+- ___42-[NPAppProxyFlowBridge readDataFromClient]_block_invoke
+- ___42-[NPTunnel handleConnectionIsDisconnected]_block_invoke
+- ___42-[NPTunnelFlowDNS checkAndReportTelemetry]_block_invoke
+- ___42-[NPWaldo reprocessWithCompletionHandler:]_block_invoke
+- ___43-[NPResolver resolveWithCompletionHandler:]_block_invoke
+- ___43-[NPTunnelFlowUDP sendDataOnDirectSession:]_block_invoke
+- ___43-[NPTunnelFlowUDP sendDataOnDirectSession:]_block_invoke_2
+- ___43-[NPTunnelTuscanyLoopback cancelConnection]_block_invoke
+- ___44-[EdgeSelection getAttributesForEdge:reply:]_block_invoke
+- ___44-[NPTunnelFlowUDP startHandlingIncomingData]_block_invoke
+- ___45-[NPAppProxyFlowBridge handleConnectionReady]_block_invoke
+- ___45-[NPTunnelTuscany pingWithCompletionHandler:]_block_invoke
+- ___46-[NPAppProxyFlowBridge readDataFromConnection]_block_invoke
+- ___46-[NPAppProxyFlowBridge writeDataToConnection:]_block_invoke
+- ___46-[NPTuscanyEdge resolveWithCompletionHandler:]_block_invoke
+- ___47-[EdgeSelection trainEdgeSelectionModel:reply:]_block_invoke
+- ___47-[NPEdgeSelection getBestEdgeFromEdgeSelection]_block_invoke
+- ___47-[NPEdgeSelection getBestEdgeFromEdgeSelection]_block_invoke_2
+- ___47-[NPTunnelFlowProtocol handleOutputFrame:send:]_block_invoke
+- ___47-[NPTunnelFlowUDP handleIncomingData:andError:]_block_invoke
+- ___47-[NPWaldo establishTrustWithCompletionHandler:]_block_invoke
+- ___47-[NPWaldo establishTrustWithCompletionHandler:]_block_invoke_2
+- ___48-[NPTunnelFlowHTTP sendDataToClient:fromTunnel:]_block_invoke
+- ___49-[NPTuscanyLoopbackConnection notifyInputHandler]_block_invoke
+- ___49-[NPWaldo refreshDayPassesWithCompletionHandler:]_block_invoke
+- ___51-[NPEdgeSelection trainEdgeSelection:edgeRank:rtt:]_block_invoke
+- ___51-[NPEdgeSelection trainEdgeSelection:edgeRank:rtt:]_block_invoke_2
+- ___52-[NPWaldo updateNetworkAgentWithKeybag:networkInfo:]_block_invoke
+- ___55-[NPAppProxyFlowBridge handleDataFromClient:readError:]_block_invoke
+- ___55-[NPAppProxyFlowBridge handleDataFromClient:readError:]_block_invoke_2
+- ___55-[NPWaldo updateMetaDataNeedProbe:refresh:push:minRTT:]_block_invoke
+- ___55-[NPWaldo updateMetaDataNeedProbe:refresh:push:minRTT:]_block_invoke_2
+- ___55-[NSPServerClient setTestLatencyMap:completionHandler:]_block_invoke
+- ___56-[NPAppProxyFlowBridge handleDataWriteToFlowCompletion:]_block_invoke
+- ___56-[NSPServerClient refreshWaldoNowWithCompletionHandler:]_block_invoke
+- ___57-[NPTunnelFlow createTelemetryDataWithCompletionHandler:]_block_invoke
+- ___57-[NPTunnelFlow createTelemetryDataWithCompletionHandler:]_block_invoke_2
+- ___57-[NPWaldo reprocessAdHocWithEdgeIndex:completionHandler:]_block_invoke
+- ___57-[NSPServerClient setAppRule:forLabel:completionHandler:]_block_invoke
+- ___58-[NSPServerClient fetchAppRuleForLabel:completionHandler:]_block_invoke
+- ___59+[NPDiagnosticReport logNSPDiagnosticReport:event:context:]_block_invoke
+- ___59+[NSPAppRule copyUUIDsForSigningIdentifier:executablePath:]_block_invoke
+- ___59-[NSPManager ingestTestLatencyMap:local:completionHandler:]_block_invoke
+- ___60-[NPWaldo reprocessLatencies:sampleCount:completionHandler:]_block_invoke
+- ___60-[NPWaldo reprocessLatencies:sampleCount:completionHandler:]_block_invoke_2
+- ___61-[NPEdgeLatency measureLatencyWithTimeout:completionHandler:]_block_invoke
+- ___61-[NPResolver observeValueForKeyPath:ofObject:change:context:]_block_invoke
+- ___61-[NPTuscanyEdge linkWithOnRampsRetainMissingAddressFamilies:]_block_invoke
+- ___62-[NSPServerClient setEdgeSet:forIdentifier:completionHandler:]_block_invoke
+- ___63-[NSPServerClient fetchEdgeSetForIdentifier:completionHandler:]_block_invoke
+- ___64-[NPEdgeLatency observeValueForKeyPath:ofObject:change:context:]_block_invoke
+- ___64-[NPEdgeLatency observeValueForKeyPath:ofObject:change:context:]_block_invoke_2
+- ___66-[NPTunnelFlowUDP observeValueForKeyPath:ofObject:change:context:]_block_invoke
+- ___67-[NPWaldo reprocessEdgeAtIndex:networkSignature:completionHandler:]_block_invoke
+- ___67-[NPWaldo reprocessEdgeAtIndex:networkSignature:completionHandler:]_block_invoke_2
+- ___74-[NSPServerClient fetchStateForClient:withPeerEndpoint:completionHandler:]_block_invoke
+- ___76-[NSPServerClient establishTrustWithEdgeSetForIdentifier:completionHandler:]_block_invoke
+- ___77-[NPWaldo startProbingEdges:atIndex:doneCount:sampleCount:completionHandler:]_block_invoke
+- ___97-[NPTuscanyLoopbackConnection addInputFramesToArray:maximumBytes:minimumBytes:maximumFrameCount:]_block_invoke
+- ___99-[NPTuscanyOnRamp refreshDayPassWithWaldoDelegate:softExpiry:retryInterval:edge:completionHandler:]_block_invoke
+- ___NSDictionary0__struct
+- ___ZN15NPTuscanyClient8sendDataEP12NPTunnelFlowP6NSDataPm_block_invoke.159
+- ____ZL28getHTTPPreferredLanguageCodev_block_invoke
+- ____ZL30NetworkServiceProxyInitializerv_block_invoke
+- ____ZN13NPFrameStream14handleReadDataEP16nw_frame_array_s_block_invoke
+- ____ZN13NPFrameStream5flushER3AIO_block_invoke
+- ____ZN15NPTuscanyClient7inboundERN5Frame4DataEPKvi_block_invoke
+- ____ZN15NPTuscanyClient8sendDataEP12NPTunnelFlowP6NSDataPm_block_invoke
+- ____ZN6Client5chunkEPU27objcproto16OS_dispatch_data8NSObjectj_block_invoke
+- ___block_descriptor_32_e17_B16?0"NPWaldo"8l
+- ___block_descriptor_32_e22_v16?0"NSDictionary"8l
+- ___block_descriptor_32_e25_B24?08"NSDictionary"16l
+- ___block_descriptor_32_e41_B32?0Q8"NSNumber"16"NPTuscanyOnRamp"24l
+- ___block_descriptor_40_e31_B16?0"NSObject<OS_nw_frame>"8l
+- ___block_descriptor_40_e47_B40?0"NSObject<OS_dispatch_data>"8Q16r^v24Q32l
+- ___block_descriptor_40_e5_v8?0l
+- ___block_descriptor_40_e8_32bs_e8_v12?0B8l
+- ___block_descriptor_40_e8_32r_e16_B24?0C8S12r^v16l
+- ___block_descriptor_40_e8_32r_e17_B16?0"NPWaldo"8l
+- ___block_descriptor_40_e8_32r_e31_B16?0"NSObject<OS_nw_frame>"8l
+- ___block_descriptor_40_e8_32r_e41_B32?0Q8"NSNumber"16"NPTuscanyOnRamp"24l
+- ___block_descriptor_40_e8_32r_e5_v8?0l
+- ___block_descriptor_40_e8_32r_e8_v12?0B8l
+- ___block_descriptor_40_e8_32s_e101_v36?0"NSObject<OS_dispatch_data>"8"NSObject<OS_nw_content_context>"16B24"NSObject<OS_nw_error>"28l
+- ___block_descriptor_40_e8_32s_e11_q24?0816l
+- ___block_descriptor_40_e8_32s_e17_B16?0"NPWaldo"8l
+- ___block_descriptor_40_e8_32s_e17_v16?0"NSError"8l
+- ___block_descriptor_40_e8_32s_e22_B16?0"NEFileHandle"8l
+- ___block_descriptor_40_e8_32s_e24_v28?0Q8"NSString"16B24l
+- ___block_descriptor_40_e8_32s_e28_v24?0"NSData"8"NSError"16l
+- ___block_descriptor_40_e8_32s_e31_v16?0"NSObject<OS_nw_error>"8l
+- ___block_descriptor_40_e8_32s_e34_v24?0"NSDictionary"8"NSError"16l
+- ___block_descriptor_40_e8_32s_e45_v32?0"NSDictionary"8"NSString"16"NSURL"24l
+- ___block_descriptor_40_e8_32s_e5_v8?0l
+- ___block_descriptor_40_e8_32s_e8_v12?0B8l
+- ___block_descriptor_40_e8_32s_e8_v12?0i8l
+- ___block_descriptor_40_e8_32w_e29_v24?0"NSArray"8"NSError"16l
+- ___block_descriptor_40_ea8_32bs_e29_v40?0r^v8{_NSRange=QQ}16^B32l
+- ___block_descriptor_48_e8_32r40r_e15_v32?0816^B24l
+- ___block_descriptor_48_e8_32s40bs_e11_v16?0B8B12l
+- ___block_descriptor_48_e8_32s40bs_e8_v12?0B8l
+- ___block_descriptor_48_e8_32s40r_e16_B24?0C8S12r^v16l
+- ___block_descriptor_48_e8_32s40r_e22_B16?0"NEFileHandle"8l
+- ___block_descriptor_48_e8_32s40r_e34_v24?0"NSURLResponse"8"NSData"16l
+- ___block_descriptor_48_e8_32s40r_e41_B32?0Q8"NSNumber"16"NPTuscanyOnRamp"24l
+- ___block_descriptor_48_e8_32s40r_e5_v8?0l
+- ___block_descriptor_48_e8_32s40s_e17_v16?0"NSError"8l
+- ___block_descriptor_48_e8_32s40s_e28_v24?0"NSData"8"NSError"16l
+- ___block_descriptor_48_e8_32s40s_e34_v20?0i8"NSObject<OS_nw_error>"12l
+- ___block_descriptor_48_e8_32s40s_e5_v8?0l
+- ___block_descriptor_48_e8_32s_e5_v8?0l
+- ___block_descriptor_48_ea8_32r_e31_B16?0"NSObject<OS_nw_frame>"8l
+- ___block_descriptor_49_e8_32s40bs_e11_v16?0B8B12l
+- ___block_descriptor_51_e8_32s_e8_v12?0B8l
+- ___block_descriptor_56_e8_32s40bs48bs_e8_v12?0B8l
+- ___block_descriptor_56_e8_32s40bs48r_e15_v32?0816^B24l
+- ___block_descriptor_56_e8_32s40bs48r_e20_v24?0"NSArray"8q16l
+- ___block_descriptor_56_e8_32s40r48r_e15_v32?0816^B24l
+- ___block_descriptor_56_e8_32s40s48bs_e8_v16?0q8l
+- ___block_descriptor_56_e8_32s40s48r_e41_B32?0Q8"NSNumber"16"NPTuscanyOnRamp"24l
+- ___block_descriptor_56_e8_32s40s48s_e15_v32?0816^B24l
+- ___block_descriptor_56_e8_32s40s48s_e34_v20?0i8"NSObject<OS_nw_error>"12l
+- ___block_descriptor_56_e8_32s40s48s_e5_v8?0l
+- ___block_descriptor_56_e8_32s40s_e5_v8?0l
+- ___block_descriptor_64_e8_32r40r48r_e47_B40?0"NSObject<OS_dispatch_data>"8Q16r^v24Q32l
+- ___block_descriptor_64_e8_32r40r_e47_B40?0"NSObject<OS_dispatch_data>"8Q16r^v24Q32l
+- ___block_descriptor_64_e8_32s40bs48r_e20_v20?0"NSError"8B16l
+- ___block_descriptor_64_e8_32s40r48r56r_e15_v32?0816^B24l
+- ___block_descriptor_64_e8_32s40r48r_e11_v16?0B8B12l
+- ___block_descriptor_64_e8_32s40s48bs56r_e8_v12?0B8l
+- ___block_descriptor_64_e8_32s40s48bs56w_e45_v32?0"NSDictionary"8"NSString"16"NSURL"24l
+- ___block_descriptor_64_e8_32s40s48bs_e5_v8?0l
+- ___block_descriptor_64_e8_32s40s48s56r_e17_B16?0"NPWaldo"8l
+- ___block_descriptor_64_e8_32s40s48s56s_e5_v8?0l
+- ___block_descriptor_64_ea8_32s40r48r_e25_v32?0r^v8{_NSRange=QQ}16l
+- ___block_descriptor_72_e8_32s40bs48r56r64r_e11_v20?0Q8B16l
+- ___block_descriptor_72_e8_32s40r48r56r_e11_v16?0B8B12l
+- ___block_descriptor_72_e8_32s40s48s56bs64r_e20_v24?0"NSArray"8q16l
+- ___block_descriptor_80_e8_32s40r48r56r64r72r_e16_B24?0C8S12r^v16l
+- ___block_descriptor_80_e8_32s40s48s56s64bs72w_e5_v8?0l
+- ___block_descriptor_88_e8_32s40s48s56r64r_e17_v16?0"NSArray"8l
+- ___block_descriptor_96_e8_32s40s48s56bs64r72r_e5_v8?0l
+- ___block_descriptor_96_e8_32s40s48s56s64r72r80r_e14_v20?0B8B12B16l
+- ___clang_call_terminate
+- ___copy_helper_block_e8_32r40r
+- ___copy_helper_block_e8_32r40r48r
+- ___copy_helper_block_e8_32s40b48b
+- ___copy_helper_block_e8_32s40b48r
+- ___copy_helper_block_e8_32s40b48r56r64r
+- ___copy_helper_block_e8_32s40r
+- ___copy_helper_block_e8_32s40r48r
+- ___copy_helper_block_e8_32s40r48r56r
+- ___copy_helper_block_e8_32s40r48r56r64r72r
+- ___copy_helper_block_e8_32s40s48b56r
+- ___copy_helper_block_e8_32s40s48b56w
+- ___copy_helper_block_e8_32s40s48r
+- ___copy_helper_block_e8_32s40s48s
+- ___copy_helper_block_e8_32s40s48s56b64r
+- ___copy_helper_block_e8_32s40s48s56b64r72r
+- ___copy_helper_block_e8_32s40s48s56r
+- ___copy_helper_block_e8_32s40s48s56r64r
+- ___copy_helper_block_e8_32s40s48s56s
+- ___copy_helper_block_e8_32s40s48s56s64b72w
+- ___copy_helper_block_e8_32s40s48s56s64r72r80r
+- ___copy_helper_block_e8_32w
+- ___copy_helper_block_ea8_32b
+- ___copy_helper_block_ea8_32r
+- ___copy_helper_block_ea8_32s40r48r
+- ___cxa_atexit
+- ___cxa_begin_catch
+- ___cxa_guard_acquire
+- ___cxa_guard_release
+- ___cxa_pure_virtual
+- ___destroy_helper_block_e8_32r40r
+- ___destroy_helper_block_e8_32r40r48r
+- ___destroy_helper_block_e8_32s40r
+- ___destroy_helper_block_e8_32s40r48r
+- ___destroy_helper_block_e8_32s40r48r56r
+- ___destroy_helper_block_e8_32s40r48r56r64r72r
+- ___destroy_helper_block_e8_32s40s48r
+- ___destroy_helper_block_e8_32s40s48r56r64r
+- ___destroy_helper_block_e8_32s40s48s56r
+- ___destroy_helper_block_e8_32s40s48s56r64r
+- ___destroy_helper_block_e8_32s40s48s56s64r
+- ___destroy_helper_block_e8_32s40s48s56s64r72r
+- ___destroy_helper_block_e8_32s40s48s56s64r72r80r
+- ___destroy_helper_block_e8_32s40s48s56s64s72w
+- ___destroy_helper_block_e8_32s40s48s56w
+- ___destroy_helper_block_e8_32w
+- ___destroy_helper_block_ea8_32r
+- ___destroy_helper_block_ea8_32s
+- ___destroy_helper_block_ea8_32s40r48r
+- ___getSigningIdentifier_block_invoke
+- ___np_direct_protocol_get_id_block_invoke
+- ___np_loopback_connect_block_invoke
+- ___np_loopback_disconnect_block_invoke
+- ___np_loopback_finalize_output_frames_block_invoke
+- ___np_loopback_protocol_get_id_block_invoke
+- ___np_tunnel_finalize_output_frames_block_invoke
+- ___np_tunnel_protocol_get_id_block_invoke
+- ___stderrp
+- ___strlcpy_chk
+- __block_literal_global.1509
+- __block_literal_global.1511
+- __block_literal_global.1516
+- __block_literal_global.24
+- __block_literal_global.251
+- __block_literal_global.26
+- __block_literal_global.39
+- __block_literal_global.415
+- __block_literal_global.42
+- __block_literal_global.433
+- __block_literal_global.44
+- __block_literal_global.450
+- __block_literal_global.509
+- __block_literal_global.72
+- __block_literal_global.855
+- __block_literal_global.885
+- __dispatch_source_type_timer
+- __func__.tuscanyClientGetDataSize
+- __kCFStreamPropertyTCPConnectionMetadata
+- __nw_connection_send_idempotent_content
+- __nw_content_context_default_stream
+- _arc4random_uniform
+- _bind
+- _chacha20_all_64x64
+- _chacha20_final
+- _chacha20_init_64x64
+- _chacha20_update
+- _close
+- _connect
+- _createMetadataFromProperties
+- _createObjectsFromDictionary
+- _createPropertiesFromMetaData
+- _dispatch_data_apply
+- _dispatch_data_create
+- _dispatch_data_create_concat
+- _dispatch_data_create_map
+- _dispatch_data_create_subrange
+- _dispatch_data_get_size
+- _dispatch_get_global_queue
+- _dispatch_resume
+- _dispatch_source_cancel
+- _dispatch_source_create
+- _dispatch_source_set_cancel_handler
+- _dispatch_source_set_event_handler
+- _dispatch_source_set_timer
+- _dispatch_suspend
+- _dispatch_time
+- _dup
+- _exit
+- _fprintf
+- _freemptcpinfo
+- _fwrite
+- _getDesignatedRequirement
+- _getRTTFromFrame
+- _getSigningIdentifier
+- _getnameinfo
+- _getsockopt
+- _gettimeofday
+- _hchacha
+- _kCFStreamPropertySSLSettings
+- _kCFStreamSSLPeerName
+- _kEdgeSelectionServiceAlpha
+- _kEdgeSelectionServiceFairness
+- _kEdgeSelectionServiceGoodness
+- _kEdgeSelectionServiceIsSelected
+- _kEdgeSelectionServiceLastUsedTimestamp
+- _kEdgeSelectionServiceNoRTTCount
+- _kEdgeSelectionServicePolicyMetric
+- _kEdgeSelectionServiceRTT
+- _kEdgeSelectionServiceRTTSamples
+- _kEdgeSelectionServiceRank
+- _kEdgeSelectionServiceRewardSampleMean
+- _kEdgeSelectionServiceRewardSamples
+- _kEdgeSelectionServiceSelectedEdgeLabel
+- _kEdgeSelectionServiceSelectionCount
+- _kEdgeSelectionServiceTrialCount
+- _kEdgeSelectionServiceWindowSize
+- _kSymptomDiagnosticActionProbeDuration
+- _kSymptomDiagnosticActionProbePacketCapture
+- _kSymptomDiagnosticSignatureSubTypeContext
+- _kdebug_trace
+- _kevent
+- _listen
+- _localtime_r
+- _log
+- _logHTTPRequestData
+- _mach_absolute_time
+- _memmove
+- _np_direct_add_input_handler
+- _np_direct_connected
+- _np_direct_error
+- _np_direct_finalize_output_frames
+- _np_direct_get_input_frames
+- _np_direct_get_output_frames
+- _np_direct_protocol_create
+- _np_direct_protocol_get_id
+- _np_direct_remove_input_handler
+- _np_direct_supports_external_data
+- _np_direct_waiting_for_output
+- _np_flow_connect
+- _np_flow_disconnect
+- _np_flow_get_input_frames
+- _np_flow_get_output_frames
+- _np_flow_output_finished
+- _np_flow_waiting_for_output
+- _np_loopback_add_input_handler
+- _np_loopback_connect
+- _np_loopback_connected
+- _np_loopback_disconnect
+- _np_loopback_error
+- _np_loopback_finalize_output_frames
+- _np_loopback_get_input_frames
+- _np_loopback_get_output_frames
+- _np_loopback_input_frame_finalizer
+- _np_loopback_output_frame_finalizer
+- _np_loopback_protocol_create
+- _np_loopback_protocol_get_id
+- _np_loopback_remove_input_handler
+- _np_loopback_supports_external_data
+- _np_loopback_waiting_for_output
+- _np_protocol_input_frame_finalizer
+- _np_tunnel_add_input_handler
+- _np_tunnel_connected
+- _np_tunnel_disconnected
+- _np_tunnel_error
+- _np_tunnel_finalize_output_frames
+- _np_tunnel_flow_output_frame_finalizer
+- _np_tunnel_get_local_endpoint
+- _np_tunnel_get_output_local_endpoint
+- _np_tunnel_get_parameters
+- _np_tunnel_get_path
+- _np_tunnel_get_remote_endpoint
+- _np_tunnel_input_available
+- _np_tunnel_input_finished
+- _np_tunnel_output_available
+- _np_tunnel_protocol_create
+- _np_tunnel_protocol_get_id
+- _np_tunnel_protocol_modify_parameters
+- _np_tunnel_protocol_should_accept_new_flow
+- _np_tunnel_remove_input_handler
+- _np_tunnel_supports_external_data
+- _np_tunnel_updated_path
+- _nw_array_append
+- _nw_array_create
+- _nw_array_get_count
+- _nw_connection_cancel
+- _nw_connection_copy_metadata
+- _nw_connection_create
+- _nw_connection_receive
+- _nw_connection_send
+- _nw_connection_set_cancel_handler
+- _nw_connection_set_event_handler
+- _nw_connection_set_queue
+- _nw_connection_start
+- _nw_connection_write_multiple
+- _nw_context_copy_implicit_context
+- _nw_endpoint_copy_address_string
+- _nw_endpoint_copy_parent_endpoint
+- _nw_endpoint_copy_port_string
+- _nw_endpoint_create_host
+- _nw_endpoint_get_description
+- _nw_endpoint_get_hostname
+- _nw_error_copy_cf_error
+- _nw_error_get_error_code
+- _nw_error_get_error_domain
+- _nw_frame_array_append
+- _nw_frame_array_first
+- _nw_frame_array_foreach
+- _nw_frame_array_init
+- _nw_frame_array_is_empty
+- _nw_frame_array_next
+- _nw_frame_array_remove
+- _nw_frame_claim
+- _nw_frame_collapse
+- _nw_frame_create
+- _nw_frame_finalize
+- _nw_frame_get_buffer
+- _nw_frame_reset
+- _nw_frame_set_external_data
+- _nw_frame_unclaim
+- _nw_frame_unclaimed_bytes
+- _nw_frame_unclaimed_length
+- _nw_frame_uses_external_data
+- _nw_interface_create_with_index
+- _nw_interface_get_index
+- _nw_interface_get_name
+- _nw_nat64_copy_prefixes
+- _nw_nat64_extract_v4
+- _nw_parameters_copy_context
+- _nw_parameters_copy_metadata
+- _nw_parameters_create
+- _nw_parameters_create_protocol_parameters
+- _nw_parameters_get_account_id
+- _nw_parameters_get_data_mode
+- _nw_parameters_get_effective_bundle_id
+- _nw_parameters_get_multipath
+- _nw_parameters_get_multipath_service
+- _nw_parameters_get_no_delay
+- _nw_parameters_get_tfo
+- _nw_parameters_get_tfo_no_cookie
+- _nw_parameters_get_tls
+- _nw_parameters_has_initial_data_payload
+- _nw_parameters_set_account_id
+- _nw_parameters_set_context
+- _nw_parameters_set_data_mode
+- _nw_parameters_set_e_proc_uuid
+- _nw_parameters_set_indefinite
+- _nw_parameters_set_metadata
+- _nw_parameters_set_no_delay
+- _nw_parameters_set_tfo
+- _nw_parameters_set_transform_array
+- _nw_path_copy_interface
+- _nw_path_get_mtu
+- _nw_protocol_boringssl_identifier
+- _nw_protocol_register_extended
+- _nw_protocol_register_many_to_one
+- _nw_protocol_register_parameter_modifier
+- _nw_protocol_remove_instance
+- _nw_protocol_set_default_one_to_one_callbacks
+- _nw_protocol_transform_append_protocol
+- _nw_protocol_transform_create
+- _nw_protocol_transform_disable_protocol
+- _nw_protocol_transform_replace_endpoint
+- _nw_protocol_transform_set_fallback_mode
+- _nw_protocol_transform_set_multipath_service
+- _nw_protocol_transform_set_no_path_fallback
+- _nw_protocol_transform_set_no_proxy
+- _nw_protocol_transform_set_prohibit_direct
+- _nw_protocol_transform_set_tfo
+- _nw_protocol_transform_set_tfo_no_cookie
+- _nw_protocols_are_equal
+- _nw_queue_cancel_source
+- _nw_queue_context_async
+- _nw_queue_context_create_source
+- _nw_queue_resume_source
+- _nw_queue_set_timer_values
+- _objc_autoreleasePoolPop
+- _objc_autoreleasePoolPush
+- _objc_copyWeak
+- _objc_destroyWeak
+- _objc_initWeak
+- _objc_loadWeakRetained
+- _objc_msgSend$TFOLeeway
+- _objc_msgSend$TFOStatus
+- _objc_msgSend$TFOStatusOverride
+- _objc_msgSend$TFOStatusString
+- _objc_msgSend$URL
+- _objc_msgSend$UUID
+- _objc_msgSend$_CFURLRequest
+- _objc_msgSend$_TCPConnectionMetadata
+- _objc_msgSend$_preconnect
+- _objc_msgSend$_stochasticRewardFromRTT:
+- _objc_msgSend$accountIdentifier:
+- _objc_msgSend$acknowledgeData:sentToFlow:
+- _objc_msgSend$addBufferToFrameArray:bufferSize:
+- _objc_msgSend$addDNSInfoToTelemetry:
+- _objc_msgSend$addEntriesFromDictionary:
+- _objc_msgSend$addInputFramesToArray:limitMinimumBytes:limitMaximumBytes:limitMaximumFrames:
+- _objc_msgSend$addInputFramesToArray:maximumBytes:minimumBytes:maximumFrameCount:
+- _objc_msgSend$addNewFlow:
+- _objc_msgSend$addObjectsFromArray:
+- _objc_msgSend$addObserver:forKeyPath:options:context:
+- _objc_msgSend$addOutputFramesToArray:limitMinimumBytes:limitMaximumBytes:limitMaximumFrames:
+- _objc_msgSend$addOutputFramesToArray:maximumBytes:minimumBytes:maximumFrameCount:
+- _objc_msgSend$addPolicy:
+- _objc_msgSend$addRoundTripSample:
+- _objc_msgSend$addRoundTripSampleObserved:
+- _objc_msgSend$addRoundTripSamples:
+- _objc_msgSend$addSample:
+- _objc_msgSend$addSamples:
+- _objc_msgSend$addressData
+- _objc_msgSend$addressFamily
+- _objc_msgSend$addressFamilyString
+- _objc_msgSend$advanceBy:andCopyTo:
+- _objc_msgSend$ageOutLatencyMap
+- _objc_msgSend$agent
+- _objc_msgSend$agentData
+- _objc_msgSend$agentRegistration
+- _objc_msgSend$agentUUID
+- _objc_msgSend$allHTTPHeaderFields
+- _objc_msgSend$allHeaderFields
+- _objc_msgSend$allInterfaces
+- _objc_msgSend$allKeys
+- _objc_msgSend$allOnRamps
+- _objc_msgSend$allocateFlowID
+- _objc_msgSend$alpha
+- _objc_msgSend$answers
+- _objc_msgSend$appRule
+- _objc_msgSend$appRules
+- _objc_msgSend$array
+- _objc_msgSend$arrayWithArray:
+- _objc_msgSend$arrayWithObjects:count:
+- _objc_msgSend$average
+- _objc_msgSend$bestEdge
+- _objc_msgSend$bestEdgeProbedRTT
+- _objc_msgSend$bestEdgeRTT
+- _objc_msgSend$buildTestLatencyMap:
+- _objc_msgSend$cachedLocation
+- _objc_msgSend$canHandleMoreData
+- _objc_msgSend$cancel
+- _objc_msgSend$cancelConnection
+- _objc_msgSend$cancelConnectionTimer
+- _objc_msgSend$cancelProbes
+- _objc_msgSend$changeHandler
+- _objc_msgSend$characterSetWithCharactersInString:
+- _objc_msgSend$checkAndReportTelemetry
+- _objc_msgSend$cleanupLosingConnection:
+- _objc_msgSend$cleanupStaleKeys
+- _objc_msgSend$clientRef
+- _objc_msgSend$close
+- _objc_msgSend$closeClientFlowWithError:
+- _objc_msgSend$closeFlow:
+- _objc_msgSend$closeFromDirectConnectionWithError:
+- _objc_msgSend$closeFromTunnel
+- _objc_msgSend$closeReadWithError:
+- _objc_msgSend$closeWithError:
+- _objc_msgSend$closeWriteWithError:
+- _objc_msgSend$code
+- _objc_msgSend$combineStateInfo:andConnectionInfo:
+- _objc_msgSend$commit
+- _objc_msgSend$compare:
+- _objc_msgSend$componentsSeparatedByCharactersInSet:
+- _objc_msgSend$configuration
+- _objc_msgSend$configurationIdentifier
+- _objc_msgSend$connect
+- _objc_msgSend$connectedPath
+- _objc_msgSend$connectionIdleTimeout
+- _objc_msgSend$connectionIdleTimeoutMaximum
+- _objc_msgSend$connectionInfo
+- _objc_msgSend$connectionInfoSetHandler
+- _objc_msgSend$connectionParametersString
+- _objc_msgSend$connectionStartDate
+- _objc_msgSend$connectionState
+- _objc_msgSend$connectionTimeout
+- _objc_msgSend$contentsOfDirectoryAtPath:error:
+- _objc_msgSend$copyCEndpoint
+- _objc_msgSend$copyConnectionInfo
+- _objc_msgSend$copyEdgeList:
+- _objc_msgSend$copyEdgeListRTTAverage:observed:shortDescription:
+- _objc_msgSend$copyEdgeSelectionTelemetry
+- _objc_msgSend$copyExecutableConditions
+- _objc_msgSend$copyHostsWithPort:
+- _objc_msgSend$copyItemIdentifiersFromKeychainWithAccountName:
+- _objc_msgSend$copyMatchEffectiveApplicationConditions
+- _objc_msgSend$copyNetworkDescription:
+- _objc_msgSend$copyStateDictionary
+- _objc_msgSend$copyStateForClient:withPeerEndpoint:outWaldoInfo:
+- _objc_msgSend$copyTLVData
+- _objc_msgSend$copyUUIDsForSigningIdentifier:executablePath:
+- _objc_msgSend$copyUsableOnRamps:requireTFO:
+- _objc_msgSend$copyValue:ofSize:fromOffset:base:totalLength:
+- _objc_msgSend$createAppRuleMapWithRules:
+- _objc_msgSend$createConnectionInfo
+- _objc_msgSend$createEdgeLatenciesToProbeWithEdgeIndex:startSampleCount:
+- _objc_msgSend$createEndpointFromHostList:defaultPortString:allowIPv6:
+- _objc_msgSend$createFallbackConnectionInfoWithFallbackReason:
+- _objc_msgSend$createFlowDivertSocketHandle
+- _objc_msgSend$createOnRamps
+- _objc_msgSend$createReplacementEndpointForEndpoint:properties:
+- _objc_msgSend$createStateDictionaryWithResult:response:
+- _objc_msgSend$createTelemetryDataWithCompletionHandler:
+- _objc_msgSend$createTransformsForEndpoint:parameters:
+- _objc_msgSend$createTuscanyClient
+- _objc_msgSend$creationDate
+- _objc_msgSend$currentBlobSizeIndex
+- _objc_msgSend$currentEdge
+- _objc_msgSend$currentEdgeIndex
+- _objc_msgSend$currentEdgeList
+- _objc_msgSend$currentEdgeType
+- _objc_msgSend$currentIndex:
+- _objc_msgSend$currentLatencyMap
+- _objc_msgSend$currentMTU
+- _objc_msgSend$currentNetworkHasProxies
+- _objc_msgSend$currentNetworkInfo
+- _objc_msgSend$currentOnRampIndexList
+- _objc_msgSend$currentPath
+- _objc_msgSend$currentTimeout
+- _objc_msgSend$cursor
+- _objc_msgSend$dataMode
+- _objc_msgSend$dataUsingEncoding:
+- _objc_msgSend$date
+- _objc_msgSend$dateByAddingTimeInterval:
+- _objc_msgSend$dayPass
+- _objc_msgSend$dayPassCreationDate
+- _objc_msgSend$dayPassEnableSessionTicket
+- _objc_msgSend$dayPassExtendedValidation
+- _objc_msgSend$dayPassFailed
+- _objc_msgSend$dayPassFetchCount
+- _objc_msgSend$dayPassHardExpiry
+- _objc_msgSend$dayPassHostname
+- _objc_msgSend$dayPassHostnamePrependLabel
+- _objc_msgSend$dayPassLeafOID
+- _objc_msgSend$dayPassPending
+- _objc_msgSend$dayPassPort
+- _objc_msgSend$dayPassRefreshAllowed
+- _objc_msgSend$dayPassRequestTimeout
+- _objc_msgSend$dayPassRevocationFailClosed
+- _objc_msgSend$dayPassSession
+- _objc_msgSend$dayPassSessionCounter
+- _objc_msgSend$dayPassSoftExpiry
+- _objc_msgSend$dayPassUUID
+- _objc_msgSend$daypassEndpoint
+- _objc_msgSend$decodeInt32ForKey:
+- _objc_msgSend$decodeInt64ForKey:
+- _objc_msgSend$defaultManager
+- _objc_msgSend$defaults
+- _objc_msgSend$delegate
+- _objc_msgSend$destroyConnection
+- _objc_msgSend$destroyFlowDivertSocketHandles
+- _objc_msgSend$dictionaryWithObjectsAndKeys:
+- _objc_msgSend$didFailWithError:
+- _objc_msgSend$didStartWithError:
+- _objc_msgSend$directDNSResponse
+- _objc_msgSend$directEndpoint
+- _objc_msgSend$directResult
+- _objc_msgSend$directSession
+- _objc_msgSend$directTLSPorts
+- _objc_msgSend$disableFallback
+- _objc_msgSend$disableIdleTimeout
+- _objc_msgSend$disabledByRatio
+- _objc_msgSend$disconnect
+- _objc_msgSend$disconnectedByApp
+- _objc_msgSend$distance
+- _objc_msgSend$divertDNSOnly
+- _objc_msgSend$domain:
+- _objc_msgSend$dropInputProtocol
+- _objc_msgSend$earlierDate:
+- _objc_msgSend$edgeAtIndex:
+- _objc_msgSend$edgeAttributesDict
+- _objc_msgSend$edgeCount
+- _objc_msgSend$edgeFairnessFactor
+- _objc_msgSend$edgeIndex
+- _objc_msgSend$edgeLatencies
+- _objc_msgSend$edgeSelection
+- _objc_msgSend$edgeSelectionAlpha
+- _objc_msgSend$edgeSelectionEnabled
+- _objc_msgSend$edgeSelectionWindowSize
+- _objc_msgSend$edgeSetIdentifier
+- _objc_msgSend$edgeSets
+- _objc_msgSend$edges
+- _objc_msgSend$edgesGeneration
+- _objc_msgSend$effectiveApplication:
+- _objc_msgSend$enableCheckDate
+- _objc_msgSend$enableDirectExtendedValidation
+- _objc_msgSend$enableDirectMultipath
+- _objc_msgSend$enableDirectRace
+- _objc_msgSend$enableDirectTFO
+- _objc_msgSend$enableIPv6
+- _objc_msgSend$enableLatencyDerivation
+- _objc_msgSend$enableMultipath
+- _objc_msgSend$enableNSP
+- _objc_msgSend$enableNoTFOCookie
+- _objc_msgSend$enableOptInPerTask
+- _objc_msgSend$enableRatio
+- _objc_msgSend$enableTFO
+- _objc_msgSend$enableUDPRace
+- _objc_msgSend$encodeHosts:
+- _objc_msgSend$encodeInt32:forKey:
+- _objc_msgSend$encodeInt64:forKey:
+- _objc_msgSend$endpoint
+- _objc_msgSend$endpointWithAddress:
+- _objc_msgSend$endpointWithCEndpoint:
+- _objc_msgSend$enumerateByteRangesUsingBlock:
+- _objc_msgSend$enumerateEdgeSetsWithBlock:
+- _objc_msgSend$enumerateKeysAndObjectsUsingBlock:
+- _objc_msgSend$error
+- _objc_msgSend$errorWithDomain:code:userInfo:
+- _objc_msgSend$evaluateWithObject:
+- _objc_msgSend$exceptions
+- _objc_msgSend$expirationDate
+- _objc_msgSend$extraFlowProperties
+- _objc_msgSend$failureReasonToFallbackReason:
+- _objc_msgSend$fallbackBufferLimit
+- _objc_msgSend$fallbackCountBeforeImmediateFallback
+- _objc_msgSend$fallbackDisabled
+- _objc_msgSend$fallbackReasonToErrno:
+- _objc_msgSend$fallbackTimeout
+- _objc_msgSend$fetchAppRuleForLabel:completionHandler:
+- _objc_msgSend$fetchStateForClient:withPeerEndpoint:completionHandler:
+- _objc_msgSend$fileDescriptor
+- _objc_msgSend$fillOutConnectionInfo:withPath:interface:remoteEndpoint:parameters:outputHandler:
+- _objc_msgSend$fillTestDaypass
+- _objc_msgSend$fillTestLatency
+- _objc_msgSend$filteredArrayUsingPredicate:
+- _objc_msgSend$firstTxByteTimestamp
+- _objc_msgSend$flags
+- _objc_msgSend$flow
+- _objc_msgSend$flowDivert
+- _objc_msgSend$flowDivertControlHandle
+- _objc_msgSend$flowIdentifier
+- _objc_msgSend$flowIsFirstFlow:
+- _objc_msgSend$flows
+- _objc_msgSend$generation
+- _objc_msgSend$geohash
+- _objc_msgSend$getAgentResults:
+- _objc_msgSend$getAppRuleMatchingParameters:flowProperties:
+- _objc_msgSend$getBestEdgeFromEdgeSelection
+- _objc_msgSend$getBytes:length:
+- _objc_msgSend$getConnectionInfoForIdentifier:
+- _objc_msgSend$getCurrentKeyBagForAppRule:
+- _objc_msgSend$getCurrentOnRamp:
+- _objc_msgSend$getDayPassRTT
+- _objc_msgSend$getEdgeSetForAppRule:
+- _objc_msgSend$getFallbackReasonForLatencies:
+- _objc_msgSend$getHashForObject:
+- _objc_msgSend$getInterfaceName:
+- _objc_msgSend$getMinimumLatencyEdge:
+- _objc_msgSend$getNextSessionCounter
+- _objc_msgSend$getOnRamp:addressFamily:
+- _objc_msgSend$getOnRampForEndpoint:
+- _objc_msgSend$getPortFromEndpoint:defaultPort:
+- _objc_msgSend$getRoundTripSample:
+- _objc_msgSend$getTestLatencyRTT:parameters:
+- _objc_msgSend$getTuscanyEndpoint:
+- _objc_msgSend$getUUIDBytes:
+- _objc_msgSend$handle
+- _objc_msgSend$handleAppData:
+- _objc_msgSend$handleCanHandleMoreData
+- _objc_msgSend$handleConnected
+- _objc_msgSend$handleConnectionError
+- _objc_msgSend$handleConnectionIsDisconnected
+- _objc_msgSend$handleDataWrittenWithError:
+- _objc_msgSend$handleDetachedFromProtocol
+- _objc_msgSend$handleDisconnected
+- _objc_msgSend$handleEOF
+- _objc_msgSend$handleFallbackForFlow:
+- _objc_msgSend$handleFlowClosed:withFallbackReason:
+- _objc_msgSend$handleFlowUsedTunnel
+- _objc_msgSend$handleHelloAck:
+- _objc_msgSend$handleIncomingData:andError:
+- _objc_msgSend$handleInputAvailable
+- _objc_msgSend$handleOutputAvailable
+- _objc_msgSend$handleOutputFrame:
+- _objc_msgSend$handleOutputFrame:send:
+- _objc_msgSend$handlePingResponseRTT:geohash:
+- _objc_msgSend$handlePolicyUpdate
+- _objc_msgSend$handleReadData:
+- _objc_msgSend$handleReady
+- _objc_msgSend$handleTFOFailedForAddressFamily:
+- _objc_msgSend$handleTunnelCanHandleMoreData
+- _objc_msgSend$handleTunnelConnected
+- _objc_msgSend$handleTunnelDisconnected
+- _objc_msgSend$handleTunnelReadyForData
+- _objc_msgSend$handleUsageReport:fromClient:
+- _objc_msgSend$handledDisconnected
+- _objc_msgSend$hasFlow:
+- _objc_msgSend$hasIPv6
+- _objc_msgSend$hasNetworkPath
+- _objc_msgSend$hasPacketDrop:
+- _objc_msgSend$hashKey
+- _objc_msgSend$hostname
+- _objc_msgSend$hosts
+- _objc_msgSend$identifier
+- _objc_msgSend$inUseKeybag
+- _objc_msgSend$increaseWindowSize:
+- _objc_msgSend$increaseWindowSizeForFlow:byBytes:
+- _objc_msgSend$incrementSessionCounters
+- _objc_msgSend$index
+- _objc_msgSend$indexOfBestEdge
+- _objc_msgSend$indexOfObject:
+- _objc_msgSend$info
+- _objc_msgSend$initFlowDivertControlSocketDisableAppMap:
+- _objc_msgSend$initFromByteParser:
+- _objc_msgSend$initFromData:
+- _objc_msgSend$initFromDictionary:
+- _objc_msgSend$initFromKeychainWithIdentifier:
+- _objc_msgSend$initFromTLVs:
+- _objc_msgSend$initWithAppProxyFlow:nwContext:
+- _objc_msgSend$initWithArray:
+- _objc_msgSend$initWithArray:copyItems:
+- _objc_msgSend$initWithBytesNoCopy:length:
+- _objc_msgSend$initWithBytesNoCopy:length:freeWhenDone:
+- _objc_msgSend$initWithDelegate:providerClass:configuration:
+- _objc_msgSend$initWithDictionary:copyItems:
+- _objc_msgSend$initWithEncodedData:
+- _objc_msgSend$initWithEndpoint:
+- _objc_msgSend$initWithEndpoint:parameters:
+- _objc_msgSend$initWithEndpoint:parameters:appRule:flowProperties:onRamp:delegate:
+- _objc_msgSend$initWithHosts:
+- _objc_msgSend$initWithIdentifier:timestamp:fromDictionary:source:
+- _objc_msgSend$initWithKey:
+- _objc_msgSend$initWithLabel:index:onRampEndpoint:probeEndpoint:location:
+- _objc_msgSend$initWithLatitude:longtitude:timestamp:
+- _objc_msgSend$initWithName:recordType:recordClass:
+- _objc_msgSend$initWithNetworkAgentClass:
+- _objc_msgSend$initWithNetworkAgentRegistration:sessionType:configurationIdentifier:agentUUID:
+- _objc_msgSend$initWithObjectsAndKeys:
+- _objc_msgSend$initWithOnRamps:currentNetworkInfo:currentEdgeIndex:currentEdgeList:generation:identifier:updateHash:
+- _objc_msgSend$initWithOrder:result:conditions:
+- _objc_msgSend$initWithParameters:
+- _objc_msgSend$initWithProbeEndpoint:probeTFO:
+- _objc_msgSend$initWithSampleSize:
+- _objc_msgSend$initWithSigningIdentifier:fallbackReason:
+- _objc_msgSend$initWithTLVData:
+- _objc_msgSend$initWithTimeInterval:sinceDate:
+- _objc_msgSend$initWithTimeIntervalSinceNow:
+- _objc_msgSend$initWithTimeIntervalSinceReferenceDate:
+- _objc_msgSend$initWithTimestamp:fromDictionary:waldoSource:
+- _objc_msgSend$initWithTunnel:appRule:inputProtocol:extraProperties:
+- _objc_msgSend$initWithTunnel:service:postURL:
+- _objc_msgSend$initWithUnsignedInt:
+- _objc_msgSend$initWithWaldo:signature:interfaceType:
+- _objc_msgSend$initialWindowSize
+- _objc_msgSend$initializeProtocol
+- _objc_msgSend$inputStreamWithFileAtPath:
+- _objc_msgSend$instantiateFlowWithTunnel:inputProtocol:
+- _objc_msgSend$instantiateTunnelWithEndpoint:parameters:
+- _objc_msgSend$interfaceIndex
+- _objc_msgSend$interfaceTypeOfInterface:
+- _objc_msgSend$interfaceTypeOfNWInterface:
+- _objc_msgSend$invalidateDayPass
+- _objc_msgSend$ipProtocol:
+- _objc_msgSend$isAnyValid
+- _objc_msgSend$isBestEffort
+- _objc_msgSend$isCancelled
+- _objc_msgSend$isClientFlowClosed
+- _objc_msgSend$isComplete:
+- _objc_msgSend$isConnectionAlive
+- _objc_msgSend$isDayPassExpired
+- _objc_msgSend$isDayPassPastExpiry:
+- _objc_msgSend$isDead
+- _objc_msgSend$isDirectConnectionViable
+- _objc_msgSend$isEnabled
+- _objc_msgSend$isEndpointProbed:parameters:latencies:checkSampleSize:incompleteLatency:
+- _objc_msgSend$isEqualToData:
+- _objc_msgSend$isFirstTunnel
+- _objc_msgSend$isIPv6Enabled
+- _objc_msgSend$isLatenciesCompleteForNetwork:
+- _objc_msgSend$isLatency:qualifiedForLatencyMap:parameters:requireUniqueEdges:
+- _objc_msgSend$isLoopback
+- _objc_msgSend$isMatched:
+- _objc_msgSend$isMatched:parameters:
+- _objc_msgSend$isObserving
+- _objc_msgSend$isProbeInProgress
+- _objc_msgSend$isReadyForData
+- _objc_msgSend$isRegistered
+- _objc_msgSend$isTFOEnabled
+- _objc_msgSend$iterateOnRampsForAddressFamily:withBlock:
+- _objc_msgSend$keybag
+- _objc_msgSend$keybagGeneration
+- _objc_msgSend$keys
+- _objc_msgSend$keysSortedByValueUsingSelector:
+- _objc_msgSend$label
+- _objc_msgSend$lastFallbackReason
+- _objc_msgSend$lastUsed
+- _objc_msgSend$lastUsedDesc
+- _objc_msgSend$lastVisited
+- _objc_msgSend$lastVisitedDesc
+- _objc_msgSend$latencyComparator
+- _objc_msgSend$latencyFactorA
+- _objc_msgSend$latencyFactorB
+- _objc_msgSend$latencyFactorX
+- _objc_msgSend$laterDate:
+- _objc_msgSend$latitude
+- _objc_msgSend$linkAllSignatures:
+- _objc_msgSend$linkLatenciesAllSignatures:
+- _objc_msgSend$linkWithOnRampsRetainMissingAddressFamilies:
+- _objc_msgSend$loadObservedRTTSamples:
+- _objc_msgSend$localEndpoint
+- _objc_msgSend$location
+- _objc_msgSend$locationBundlePath
+- _objc_msgSend$locationCheckInterval
+- _objc_msgSend$locationCheckTimestamp
+- _objc_msgSend$locationManager
+- _objc_msgSend$locationTTL
+- _objc_msgSend$locationToleranceDistance
+- _objc_msgSend$logEdgeList:debug:toStdout:
+- _objc_msgSend$logInternalError:context:
+- _objc_msgSend$logNSPDiagnosticReport:event:context:
+- _objc_msgSend$logWithMessage:identifier:
+- _objc_msgSend$longtitude
+- _objc_msgSend$lowercaseString
+- _objc_msgSend$machoUUIDFromPID:
+- _objc_msgSend$manager
+- _objc_msgSend$matchAccountIdentifiers
+- _objc_msgSend$matchDesignatedRequirement
+- _objc_msgSend$matchDomains
+- _objc_msgSend$matchEffectiveApplications
+- _objc_msgSend$matchPath
+- _objc_msgSend$matchSigningIdentifier
+- _objc_msgSend$matchingAppRule
+- _objc_msgSend$maxDataSendSizeForFlow:
+- _objc_msgSend$maxFrameSize
+- _objc_msgSend$measureLatencyWithTimeout:completionHandler:
+- _objc_msgSend$merge:
+- _objc_msgSend$merge:missingSettingsOnly:
+- _objc_msgSend$mergeEdgeList:forNetworkSignature:
+- _objc_msgSend$mergeNewLatencies:usingComparator:
+- _objc_msgSend$metaData
+- _objc_msgSend$moveToNextOnRamp
+- _objc_msgSend$moveToOnRamp:
+- _objc_msgSend$name
+- _objc_msgSend$needReprobe
+- _objc_msgSend$netAgentUUID:
+- _objc_msgSend$networkAgentsOfType:
+- _objc_msgSend$networkInformation
+- _objc_msgSend$networkSignature
+- _objc_msgSend$nextBestEdge
+- _objc_msgSend$nextBestEdgeRTT
+- _objc_msgSend$nextOnRampForLatency:outIndex:
+- _objc_msgSend$noDNSDelegation
+- _objc_msgSend$noDivertDNS
+- _objc_msgSend$notifyClientConnected
+- _objc_msgSend$notifyInputHandler
+- _objc_msgSend$null
+- _objc_msgSend$numberWithUnsignedLong:
+- _objc_msgSend$numberWithUnsignedShort:
+- _objc_msgSend$observedRTTSampleSize
+- _objc_msgSend$offset
+- _objc_msgSend$onRampEndpoint
+- _objc_msgSend$onRampForIndex:
+- _objc_msgSend$onRampList
+- _objc_msgSend$onRampLists
+- _objc_msgSend$onRampMap
+- _objc_msgSend$open
+- _objc_msgSend$openWithLocalEndpoint:completionHandler:
+- _objc_msgSend$originalRequest
+- _objc_msgSend$outputInterface
+- _objc_msgSend$parameters
+- _objc_msgSend$parentWaldo
+- _objc_msgSend$parse16Bits:
+- _objc_msgSend$parse32Bits:
+- _objc_msgSend$parse8Bits:
+- _objc_msgSend$parseAddressWithFamily:
+- _objc_msgSend$parseAgentData
+- _objc_msgSend$parseBytes:
+- _objc_msgSend$parseDomainName
+- _objc_msgSend$parseXHost:
+- _objc_msgSend$parseXRTT:
+- _objc_msgSend$parseXTimeout:hardTTLInSeconds:
+- _objc_msgSend$passedReprobeThreshold
+- _objc_msgSend$performSelector:
+- _objc_msgSend$pidFromAuditToken:
+- _objc_msgSend$pingPong
+- _objc_msgSend$pingWithCompletionHandler:
+- _objc_msgSend$policySession
+- _objc_msgSend$port
+- _objc_msgSend$postCompletionHandler
+- _objc_msgSend$postData:withCompletionHandler:
+- _objc_msgSend$predicateWithBlock:
+- _objc_msgSend$probeCompletionHandler
+- _objc_msgSend$probeConnection
+- _objc_msgSend$probeCount
+- _objc_msgSend$probeDate
+- _objc_msgSend$probeEndpoint
+- _objc_msgSend$probeNoTFOCookie
+- _objc_msgSend$probePause
+- _objc_msgSend$probePending
+- _objc_msgSend$probeRateLimit
+- _objc_msgSend$probeSize
+- _objc_msgSend$probeTFO
+- _objc_msgSend$probeTimeout
+- _objc_msgSend$probeTimer
+- _objc_msgSend$processConnectionInfo:
+- _objc_msgSend$propertyForKey:
+- _objc_msgSend$propertyListWithData:options:format:error:
+- _objc_msgSend$propertyListWithStream:options:format:error:
+- _objc_msgSend$protocol
+- _objc_msgSend$protocolTypeFromPath:endpoint:
+- _objc_msgSend$proxyEvaluationPath
+- _objc_msgSend$proxySettings
+- _objc_msgSend$pushKeybagToKernel
+- _objc_msgSend$pushKeybagToKernelCanReuse:
+- _objc_msgSend$queries
+- _objc_msgSend$query
+- _objc_msgSend$rangeOfData:options:range:
+- _objc_msgSend$reResolve
+- _objc_msgSend$readDataFromClient
+- _objc_msgSend$readDataWithCompletionHandler:
+- _objc_msgSend$readMinimumLength:maximumLength:
+- _objc_msgSend$readMinimumLength:maximumLength:completionHandler:
+- _objc_msgSend$rebuildLatencyMapAllSignatures:
+- _objc_msgSend$rebuildLatencyMapWithViewSize:edgeCount:parameters:
+- _objc_msgSend$receivedHeaders
+- _objc_msgSend$recordType
+- _objc_msgSend$reenableInterval
+- _objc_msgSend$refreshDayPassWithWaldoDelegate:softExpiry:retryInterval:edge:completionHandler:
+- _objc_msgSend$refreshDayPassesWithCompletionHandler:
+- _objc_msgSend$registerAgentWithKey:
+- _objc_msgSend$registerNetworkAgent:
+- _objc_msgSend$remoteEndpoint
+- _objc_msgSend$remoteHostname
+- _objc_msgSend$removeDayPassesFromKernel
+- _objc_msgSend$removeFileHandleMatchingPredicate:
+- _objc_msgSend$removeFlow:
+- _objc_msgSend$removeFromKeychain
+- _objc_msgSend$removeIPv6Keys
+- _objc_msgSend$removeObject:
+- _objc_msgSend$removeObjectAtIndex:
+- _objc_msgSend$removeObserver:forKeyPath:context:
+- _objc_msgSend$replaceBytesInRange:withBytes:length:
+- _objc_msgSend$replaceObjectAtIndex:withObject:
+- _objc_msgSend$replaceOccurrencesOfString:withString:options:range:
+- _objc_msgSend$replacementAddressMap
+- _objc_msgSend$replacementEndpoint
+- _objc_msgSend$reportTelemetry:
+- _objc_msgSend$reportTelemetry:withService:url:
+- _objc_msgSend$reportUsage:fromClient:
+- _objc_msgSend$reprobeCount
+- _objc_msgSend$reprocessAdHocWithEdgeIndex:completionHandler:
+- _objc_msgSend$reprocessCancelled
+- _objc_msgSend$reprocessEdgeAtIndex:networkSignature:completionHandler:
+- _objc_msgSend$reprocessLatencies:sampleCount:completionHandler:
+- _objc_msgSend$reprocessPending
+- _objc_msgSend$reprocessQueue
+- _objc_msgSend$reprocessSampleSize
+- _objc_msgSend$reprocessSamplingInterval
+- _objc_msgSend$reprocessSamplingTimer
+- _objc_msgSend$reprocessWithCompletionHandler:
+- _objc_msgSend$reprocessWithNewRTT:reProbe:
+- _objc_msgSend$requestData
+- _objc_msgSend$requireTFO
+- _objc_msgSend$resetParentWaldo:
+- _objc_msgSend$resetPolicies:
+- _objc_msgSend$resetTestLatencyMapIndex:
+- _objc_msgSend$resolveCompletionHandler
+- _objc_msgSend$resolveTimer
+- _objc_msgSend$resolveWithCompletionHandler:
+- _objc_msgSend$resolvedEndpointArray
+- _objc_msgSend$resortEdgeLatenciesUsingComparator:
+- _objc_msgSend$resortEdgeListForCurrentNetworkSignature
+- _objc_msgSend$resourceString
+- _objc_msgSend$responseCode
+- _objc_msgSend$responseCodeString
+- _objc_msgSend$responseContentLength
+- _objc_msgSend$responseData
+- _objc_msgSend$responseSuccess
+- _objc_msgSend$resultToString:
+- _objc_msgSend$retryDate
+- _objc_msgSend$retryPause
+- _objc_msgSend$rollDiceWithSuccessRatio:
+- _objc_msgSend$roundTripAverage
+- _objc_msgSend$roundTripAverageObserved
+- _objc_msgSend$roundTripTime
+- _objc_msgSend$rtt
+- _objc_msgSend$samples
+- _objc_msgSend$saveToKeychain
+- _objc_msgSend$savedDataSize
+- _objc_msgSend$savedDirectData
+- _objc_msgSend$savedEndpoint
+- _objc_msgSend$sendData:forFlow:
+- _objc_msgSend$sendData:toClientFlow:
+- _objc_msgSend$sendDataOnDirectSession:
+- _objc_msgSend$sendDataOnUDPSession:
+- _objc_msgSend$sendDataToClient:fromTunnel:
+- _objc_msgSend$sendUsageReport:
+- _objc_msgSend$sendUsageReportWithRTT:geohash:fallbackReason:
+- _objc_msgSend$serviceID
+- _objc_msgSend$sessionType
+- _objc_msgSend$session_counter
+- _objc_msgSend$setAccount:
+- _objc_msgSend$setActive:
+- _objc_msgSend$setAddressFamily:
+- _objc_msgSend$setAgent:
+- _objc_msgSend$setAgentData:
+- _objc_msgSend$setAgentRegistration:
+- _objc_msgSend$setAgentUUID:
+- _objc_msgSend$setAllOnRamps:
+- _objc_msgSend$setAllowUnusableAddresses:
+- _objc_msgSend$setAppRule:
+- _objc_msgSend$setAppRule:forLabel:completionHandler:
+- _objc_msgSend$setAppRules:
+- _objc_msgSend$setBestEdge:
+- _objc_msgSend$setBestEdgeProbedRTT:
+- _objc_msgSend$setBestEdgeRTT:
+- _objc_msgSend$setClientRef:
+- _objc_msgSend$setConfigurationIdentifier:
+- _objc_msgSend$setConnectionDelay:
+- _objc_msgSend$setConnectionIdleTimeout:
+- _objc_msgSend$setConnectionIdleTimeoutMaximum:
+- _objc_msgSend$setConnectionInfo:
+- _objc_msgSend$setConnectionInfo:forIdentifier:
+- _objc_msgSend$setConnectionStartDate:
+- _objc_msgSend$setConnectionState:
+- _objc_msgSend$setConnectionTimeout:
+- _objc_msgSend$setCreationDate:
+- _objc_msgSend$setCurrentBlobSizeIndex:
+- _objc_msgSend$setCurrentEdgeIndex:
+- _objc_msgSend$setCurrentGeohash:
+- _objc_msgSend$setCurrentIndex:addressFamily:
+- _objc_msgSend$setCurrentLatencyMap:
+- _objc_msgSend$setCurrentLatitude:longitude:timestamp:forClient:
+- _objc_msgSend$setCurrentOnRampIndexList:
+- _objc_msgSend$setCurrentTimeout:
+- _objc_msgSend$setCursor:
+- _objc_msgSend$setDataMode:
+- _objc_msgSend$setDayPass:
+- _objc_msgSend$setDayPassEnableSessionTicket:
+- _objc_msgSend$setDayPassExtendedValidation:
+- _objc_msgSend$setDayPassFailed:
+- _objc_msgSend$setDayPassHostname:
+- _objc_msgSend$setDayPassHostnamePrependLabel:
+- _objc_msgSend$setDayPassLeafOID:
+- _objc_msgSend$setDayPassPending:
+- _objc_msgSend$setDayPassRequestTimeout:
+- _objc_msgSend$setDayPassRevocationFailClosed:
+- _objc_msgSend$setDayPassSession:
+- _objc_msgSend$setDayPassSessionCounter:
+- _objc_msgSend$setDayPassSoftExpiry:
+- _objc_msgSend$setDayPassUUID:
+- _objc_msgSend$setDefaults:
+- _objc_msgSend$setDirectDNSResponse:
+- _objc_msgSend$setDirectEndpoint:
+- _objc_msgSend$setDirectResult:
+- _objc_msgSend$setDirectSession:
+- _objc_msgSend$setDirectTLSPorts:
+- _objc_msgSend$setDisableFallback:
+- _objc_msgSend$setDisableIdleTimeout:
+- _objc_msgSend$setDisabledByRatio:
+- _objc_msgSend$setDisconnectedByApp:
+- _objc_msgSend$setDivertDNSOnly:
+- _objc_msgSend$setEdgeAddress:
+- _objc_msgSend$setEdgeFairnessFactor:
+- _objc_msgSend$setEdgeIndex:
+- _objc_msgSend$setEdgeLatencies:
+- _objc_msgSend$setEdgeSelection:
+- _objc_msgSend$setEdgeSelectionAlpha:
+- _objc_msgSend$setEdgeSelectionEnabled:
+- _objc_msgSend$setEdgeSelectionWindowSize:
+- _objc_msgSend$setEdgeSetIdentifier:
+- _objc_msgSend$setEdgeSets:
+- _objc_msgSend$setEdgeType:
+- _objc_msgSend$setEdges:
+- _objc_msgSend$setEdgesGeneration:
+- _objc_msgSend$setEnableCheckDate:
+- _objc_msgSend$setEnableDirectExtendedValidation:
+- _objc_msgSend$setEnableDirectMultipath:
+- _objc_msgSend$setEnableDirectRace:
+- _objc_msgSend$setEnableDirectTFO:
+- _objc_msgSend$setEnableExtendedValidation:
+- _objc_msgSend$setEnableIPv6:
+- _objc_msgSend$setEnableLatencyDerivation:
+- _objc_msgSend$setEnableMultipath:
+- _objc_msgSend$setEnableNSP:
+- _objc_msgSend$setEnableNoTFOCookie:
+- _objc_msgSend$setEnableOptInPerTask:
+- _objc_msgSend$setEnableRatio:
+- _objc_msgSend$setEnableTFO:
+- _objc_msgSend$setEnableTFONoCookie:
+- _objc_msgSend$setEnableUDPRace:
+- _objc_msgSend$setEof:
+- _objc_msgSend$setError:
+- _objc_msgSend$setExceptions:
+- _objc_msgSend$setFallbackBufferLimit:
+- _objc_msgSend$setFallbackCountBeforeImmediateFallback:
+- _objc_msgSend$setFallbackDelay:
+- _objc_msgSend$setFallbackDisabled:
+- _objc_msgSend$setFallbackReason:
+- _objc_msgSend$setFallbackTimeout:
+- _objc_msgSend$setFileHandle:matchingPredicate:
+- _objc_msgSend$setFirstPacketDate:
+- _objc_msgSend$setFirstTxByteDelay:
+- _objc_msgSend$setFirstTxByteTimeStamp:
+- _objc_msgSend$setFirstTxByteTimestamp:
+- _objc_msgSend$setFlags:
+- _objc_msgSend$setFlow:
+- _objc_msgSend$setFlowDivert:
+- _objc_msgSend$setFlowDivertControlHandle:
+- _objc_msgSend$setFlowIdentifier:
+- _objc_msgSend$setGeneration:
+- _objc_msgSend$setGeohash:
+- _objc_msgSend$setHandledDisconnected:
+- _objc_msgSend$setHasIPv6:
+- _objc_msgSend$setHostname:
+- _objc_msgSend$setIPType:
+- _objc_msgSend$setIgnoreWaldoTimestamp:
+- _objc_msgSend$setInUseKeybag:
+- _objc_msgSend$setIndex:
+- _objc_msgSend$setInfo:
+- _objc_msgSend$setInitialBytesLeftOver:
+- _objc_msgSend$setInitialDataPayload:
+- _objc_msgSend$setInitialWindowSize:
+- _objc_msgSend$setInterfaceName:
+- _objc_msgSend$setInterfaceType:
+- _objc_msgSend$setIsCancelled:
+- _objc_msgSend$setIsDirectConnectionViable:
+- _objc_msgSend$setIsLoopback:
+- _objc_msgSend$setIsMultipath:
+- _objc_msgSend$setIsObserving:
+- _objc_msgSend$setIsProbeInProgress:
+- _objc_msgSend$setIsTFOProbeSucceeded:
+- _objc_msgSend$setKernelActivated:
+- _objc_msgSend$setKeybag:
+- _objc_msgSend$setKeybagGeneration:
+- _objc_msgSend$setLastFallbackReason:
+- _objc_msgSend$setLastUsed:
+- _objc_msgSend$setLastVisited:
+- _objc_msgSend$setLatencyFactorA:
+- _objc_msgSend$setLatencyFactorB:
+- _objc_msgSend$setLatencyFactorX:
+- _objc_msgSend$setLatitude:
+- _objc_msgSend$setLeafOID:
+- _objc_msgSend$setLocalEndpoint:
+- _objc_msgSend$setLocationBundlePath:
+- _objc_msgSend$setLocationCheckInterval:
+- _objc_msgSend$setLocationTTL:
+- _objc_msgSend$setLocationToleranceDistance:
+- _objc_msgSend$setLongtitude:
+- _objc_msgSend$setManager:
+- _objc_msgSend$setMatchAccountIdentifiers:
+- _objc_msgSend$setMatchDomains:
+- _objc_msgSend$setMatchEffectiveApplications:
+- _objc_msgSend$setMatchPath:
+- _objc_msgSend$setMatchingAppRule:
+- _objc_msgSend$setMinimumRTT:
+- _objc_msgSend$setMultipathConnectedSubflowCount:
+- _objc_msgSend$setMultipathPrimarySubflowInterfaceIndex:
+- _objc_msgSend$setMultipathSubflowCount:
+- _objc_msgSend$setMultipathSubflowSwitchCounts:
+- _objc_msgSend$setNeedReprobe:
+- _objc_msgSend$setNetworkInformation:
+- _objc_msgSend$setNextBestEdge:
+- _objc_msgSend$setNextBestEdgeRTT:
+- _objc_msgSend$setNoDNSDelegation:
+- _objc_msgSend$setObservedRTTSampleSize:
+- _objc_msgSend$setOffset:
+- _objc_msgSend$setOnRampLists:
+- _objc_msgSend$setParentWaldo:
+- _objc_msgSend$setPassedReprobeThreshold:
+- _objc_msgSend$setPathType:
+- _objc_msgSend$setPolicySession:
+- _objc_msgSend$setPostCompletionHandler:
+- _objc_msgSend$setPriority:
+- _objc_msgSend$setProbeCompletionHandler:
+- _objc_msgSend$setProbeConnection:
+- _objc_msgSend$setProbeCount:
+- _objc_msgSend$setProbeDate:
+- _objc_msgSend$setProbeEndpoint:
+- _objc_msgSend$setProbeNoTFOCookie:
+- _objc_msgSend$setProbePause:
+- _objc_msgSend$setProbePending:
+- _objc_msgSend$setProbeRateLimit:
+- _objc_msgSend$setProbeTFO:
+- _objc_msgSend$setProbeTimeout:
+- _objc_msgSend$setProbeTimer:
+- _objc_msgSend$setProxyEvaluationPath:
+- _objc_msgSend$setQuery:
+- _objc_msgSend$setReResolve:
+- _objc_msgSend$setReadHandler:maxDatagrams:
+- _objc_msgSend$setReceivedHeaders:
+- _objc_msgSend$setReenableInterval:
+- _objc_msgSend$setRegisteredNetworkAgent:fileDescriptor:
+- _objc_msgSend$setReplacementAddressMap:
+- _objc_msgSend$setReplacementEndpoint:
+- _objc_msgSend$setReprobeCount:
+- _objc_msgSend$setReprocessCancelled:
+- _objc_msgSend$setReprocessPending:
+- _objc_msgSend$setReprocessSampleSize:
+- _objc_msgSend$setReprocessSamplingInterval:
+- _objc_msgSend$setReprocessSamplingTimer:
+- _objc_msgSend$setRequestData:
+- _objc_msgSend$setRequireTFO:
+- _objc_msgSend$setRequiredAddressFamily:
+- _objc_msgSend$setResolveCompletionHandler:
+- _objc_msgSend$setResolveTimer:
+- _objc_msgSend$setResponseContentLength:
+- _objc_msgSend$setResponseData:
+- _objc_msgSend$setResponseSuccess:
+- _objc_msgSend$setRetryDate:
+- _objc_msgSend$setRetryPause:
+- _objc_msgSend$setRevocationFailClosed:
+- _objc_msgSend$setRoundTripAverage:
+- _objc_msgSend$setRoundTripAverageObserved:
+- _objc_msgSend$setRoundTripTime:
+- _objc_msgSend$setRtt:
+- _objc_msgSend$setSamples:
+- _objc_msgSend$setSavedDataSize:
+- _objc_msgSend$setSavedDirectData:
+- _objc_msgSend$setSavedEndpoint:
+- _objc_msgSend$setServiceID:
+- _objc_msgSend$setSession_counter:
+- _objc_msgSend$setShouldComposeInitialData:
+- _objc_msgSend$setShouldComposeIntialData:
+- _objc_msgSend$setShouldResetPolicies:
+- _objc_msgSend$setShouldSave:
+- _objc_msgSend$setSignatureLimit:
+- _objc_msgSend$setSize:
+- _objc_msgSend$setStarted:
+- _objc_msgSend$setTCPInfo:
+- _objc_msgSend$setTFOLeeway:
+- _objc_msgSend$setTFOStatus:
+- _objc_msgSend$setTFOStatusOverride:
+- _objc_msgSend$setTFOSucceeded:
+- _objc_msgSend$setTag:
+- _objc_msgSend$setTelemetryRatio:
+- _objc_msgSend$setTelemetryReported:
+- _objc_msgSend$setTelemetryService:
+- _objc_msgSend$setTelemetryURL:
+- _objc_msgSend$setTestLatencyMap:completionHandler:
+- _objc_msgSend$setTimeIntervalSinceLastUsage:
+- _objc_msgSend$setTimeToFirstByte:
+- _objc_msgSend$setTimeToFirstRequest:
+- _objc_msgSend$setTimestamp:
+- _objc_msgSend$setTimestamps:
+- _objc_msgSend$setTimingIntervals:
+- _objc_msgSend$setTrialCount:
+- _objc_msgSend$setTunnelConnectedHandler:
+- _objc_msgSend$setTunnelConnectionError:
+- _objc_msgSend$setTunnelDNSResponse:
+- _objc_msgSend$setTunnelResponseTimer:
+- _objc_msgSend$setTunnelResult:
+- _objc_msgSend$setTuscanyEndpoint:
+- _objc_msgSend$setUpdateHash:
+- _objc_msgSend$setUseCount:
+- _objc_msgSend$setUseCustomProtocol:
+- _objc_msgSend$setUseGeohashFromServer:
+- _objc_msgSend$setUseLocalFlowDivert:
+- _objc_msgSend$setUsedEdgesGeneration:
+- _objc_msgSend$setUserActivated:
+- _objc_msgSend$setUuid:
+- _objc_msgSend$setViewSize:
+- _objc_msgSend$setVoluntary:
+- _objc_msgSend$setWaitingForOutput:
+- _objc_msgSend$setWaldoInfo:
+- _objc_msgSend$setWaldoLeafOID:
+- _objc_msgSend$setWaldoRevocationFailClosed:
+- _objc_msgSend$set_TCPConnectionMetadata:
+- _objc_msgSend$set_allowsTCPFastOpen:
+- _objc_msgSend$set_allowsTLSSessionTickets:
+- _objc_msgSend$sharedDefaultEvaluator
+- _objc_msgSend$sharedManager
+- _objc_msgSend$shortDescription
+- _objc_msgSend$shouldCheckLocation
+- _objc_msgSend$shouldComposeInitialData
+- _objc_msgSend$shouldComposeIntialData
+- _objc_msgSend$shouldPerformDayPassRefresh
+- _objc_msgSend$shouldProbeForEdgeSelection:edgeRank:edgeIndex:bestEdgeLabel:
+- _objc_msgSend$shouldResetPolicies
+- _objc_msgSend$shouldResolveForFallbackReason:
+- _objc_msgSend$shouldSave
+- _objc_msgSend$shouldSendDataToClient:fromTunnel:
+- _objc_msgSend$signatureLimit
+- _objc_msgSend$signatureWithDomain:type:subType:detectedProcess:triggerThresholdValues:
+- _objc_msgSend$signingIdentifier
+- _objc_msgSend$size
+- _objc_msgSend$snapshotWithSignature:duration:events:payload:actions:reply:
+- _objc_msgSend$sortEdgesByDistanceWithCompletionHandler:
+- _objc_msgSend$sortedArrayUsingComparator:
+- _objc_msgSend$source
+- _objc_msgSend$sourceAppAuditToken
+- _objc_msgSend$start
+- _objc_msgSend$startConnectionTimer
+- _objc_msgSend$startDate
+- _objc_msgSend$startDirectConnection
+- _objc_msgSend$startHandlingIncomingData
+- _objc_msgSend$startIdleTimer
+- _objc_msgSend$startProbingEdges:atIndex:doneCount:sampleCount:completionHandler:
+- _objc_msgSend$startWithOptions:completionHandler:
+- _objc_msgSend$started
+- _objc_msgSend$stop
+- _objc_msgSend$stopDirectConnection
+- _objc_msgSend$stopWithCompletionHandler:
+- _objc_msgSend$streamError
+- _objc_msgSend$stringWithString:
+- _objc_msgSend$subdataWithRange:
+- _objc_msgSend$tag
+- _objc_msgSend$teardown
+- _objc_msgSend$teardownNetworkAgent
+- _objc_msgSend$teardownOutputHandler
+- _objc_msgSend$telemetryRatio
+- _objc_msgSend$telemetryReported
+- _objc_msgSend$telemetryService
+- _objc_msgSend$telemetryURL
+- _objc_msgSend$timeIntervalSince1970
+- _objc_msgSend$timeIntervalSinceReferenceDate
+- _objc_msgSend$timeSinceLastUsed
+- _objc_msgSend$timeToFirstRequest
+- _objc_msgSend$timeToLive
+- _objc_msgSend$timestampIdentifierToName:
+- _objc_msgSend$timestampNetworkSignature:
+- _objc_msgSend$timestamps
+- _objc_msgSend$trainEdgeSelection:edgeRank:rtt:
+- _objc_msgSend$trainEdgeSelectionModel:reply:
+- _objc_msgSend$trialCount
+- _objc_msgSend$tunnel
+- _objc_msgSend$tunnel:flowDidFallbackWithReason:
+- _objc_msgSend$tunnelConnectedHandler
+- _objc_msgSend$tunnelDNSResponse
+- _objc_msgSend$tunnelDidCancel:
+- _objc_msgSend$tunnelDidConnect:
+- _objc_msgSend$tunnelIsReady:
+- _objc_msgSend$tunnelResponseTimer
+- _objc_msgSend$tunnelResult
+- _objc_msgSend$tuscanyEndpoint
+- _objc_msgSend$typeToString:
+- _objc_msgSend$unarchivedObjectOfClass:fromData:error:
+- _objc_msgSend$unregisterAgent
+- _objc_msgSend$unregisterNetworkAgent
+- _objc_msgSend$unsignedCharValue
+- _objc_msgSend$unsynthesizeAddresses:
+- _objc_msgSend$updateEdgeSelection:
+- _objc_msgSend$updateHash
+- _objc_msgSend$updateHashMatchesEdgeSet:
+- _objc_msgSend$updateMetaDataNeedProbe:refresh:push:minRTT:
+- _objc_msgSend$updateNetworkAgent
+- _objc_msgSend$updateNetworkAgent:
+- _objc_msgSend$updateNetworkAgentWithKeybag:networkInfo:
+- _objc_msgSend$updateSessionCounterFromKernel
+- _objc_msgSend$url
+- _objc_msgSend$useCount
+- _objc_msgSend$useCustomProtocol
+- _objc_msgSend$useGeohashFromServer
+- _objc_msgSend$useLocalFlowDivert
+- _objc_msgSend$useNetworkAgent:returnUseCount:
+- _objc_msgSend$useTestDaypass
+- _objc_msgSend$useTestLatencyMap
+- _objc_msgSend$usedEdgesGeneration
+- _objc_msgSend$usesNetworkAgentType:
+- _objc_msgSend$uuid
+- _objc_msgSend$validateEdgeList:
+- _objc_msgSend$valueForKeyPath:
+- _objc_msgSend$viewSize
+- _objc_msgSend$waitingForOutput
+- _objc_msgSend$waldo:didFinishProbingWithSuccess:
+- _objc_msgSend$waldo:didFinishSampleProbingWithSuccess:
+- _objc_msgSend$waldo:fetchDayPassForURL:ifExpired:session:dataHandler:completionHandler:
+- _objc_msgSend$waldoDidSaveToKeychain:
+- _objc_msgSend$waldoInfo
+- _objc_msgSend$waldoLeafOID
+- _objc_msgSend$waldoNeedsPolicyReset
+- _objc_msgSend$waldoRequiresTFO:
+- _objc_msgSend$waldoRevocationFailClosed
+- _objc_msgSend$window
+- _objc_msgSend$windowSize
+- _objc_msgSend$write:
+- _objc_msgSend$write:completionHandler:
+- _objc_msgSend$writeData:withCompletionHandler:
+- _objc_msgSend$writeDatagram:completionHandler:
+- _objc_msgSend$writeInitialData
+- _objc_retainBlock
+- _objc_storeWeak
+- _objc_unsafeClaimAutoreleasedReturnValue
+- _os_transaction_create
+- _poly1305
+- _pow
+- _proc_name
+- _proc_pidpath
+- _recv
+- _send
+- _serviceNameToID
+- _setsockopt
+- _shutdown
+- _strcat
+- _strcmp
+- _strncmp
+- _tuscanyClientCreate
+- _tuscanyClientCreateFakeDayPass
+- _tuscanyClientDestroy
+- _tuscanyClientGetAmountToRead
+- _tuscanyClientGetDataSize
+- _tuscanyClientGetDayPassHostID
+- _tuscanyClientGetDayPassOriginAddressString
+- _tuscanyClientGetDayPassPortID
+- _tuscanyClientGetDayPassSessionCount
+- _tuscanyClientGetExceptionCounts
+- _tuscanyClientGetHeaderSize
+- _tuscanyClientGetInitialData
+- _tuscanyClientGetInitialWindowSize
+- _tuscanyClientGetMaxDataSendSize
+- _tuscanyClientGetMaximumFrameSize
+- _tuscanyClientGetNameForException
+- _tuscanyClientHandleConnectionConnected
+- _tuscanyClientHandleReadData
+- _tuscanyClientSendAcknowledge
+- _tuscanyClientSendClose
+- _tuscanyClientSendData
+- _tuscanyClientSendException
+- _tuscanyClientSendPing
+- _tuscanyClientSetDayPassSessionCount
+- _tuscanyClientValidateDayPass
+- _tuscanyLoopbackClientCreate
+- _tuscanyWindowAddCredits
+- _tuscanyWindowCreate
+- _tuscanyWindowDestroy
+- _tuscanyWindowGetAmountToAck
+- _tuscanyWindowGetCredits
+- _uuid_clear
+- _uuid_copy
+- _uuid_is_null
+- _vsnprintf
+- _xpc_data_create
+- _xpc_data_get_bytes_ptr
+- _xpc_data_get_length
+- start.onceToken
+CStrings:
++ ";;"
++ "="
++ "Adding/replacing header %@ with value \"%@\" due to user-configured headers"
++ "Attempt to fetch new configuration returned %d"
++ "Configuration Server (user-overridden)"
++ "Configuration Server Headers (user-overriden)"
++ "Configuration Server Path"
++ "Configuration Server Path (user-overridden)"
++ "Ignore Config Signature"
++ "NSPServerErrorReason"
++ "PrivacyProxyConfigurationOverrideServerPath"
++ "PrivacyProxyConfigurationServerHeaders"
++ "ProxyConfigurationIgnoreSignature"
++ "Removing header %@ due to user-configured headers, current value is %@"
++ "Requesting a new fetch of the configuration from the server"
++ "Set configServerHost to %@"
++ "Set configServerPath to %@"
++ "Set of config while resetting internal settings returned: %@"
++ "Set overrideConfigServerPath to %@"
++ "Skipping malformed header override: %@"
++ "T@\"NSDate\",R,V_dayPassExpirationDate"
++ "T@\"NSDate\",R,V_earliestEnableCheckDate"
++ "T@\"NSString\",C,V_configServerHeaders"
++ "T@\"NSString\",C,V_overrideConfigServerPath"
++ "TB,V_ignoreSignature"
++ "X25519_MLKEM768"
++ "_configServerHeaders"
++ "_dayPassExpirationDate"
++ "_earliestEnableCheckDate"
++ "_ignoreSignature"
++ "_overrideConfigServerPath"
++ "configServerHeaders"
++ "createConfigFetchURLWithPath"
++ "fetchNewConfigurationWithCompletionHandler:"
++ "ignoreSignature"
++ "ingoreConfigSignature"
++ "initWithTimestamp:fromDictionary:"
++ "mergeHTTPHeaders:headerOverrides:"
++ "overrideConfigServerPath"
++ "resetConfigurationInternalSettings:"
++ "saveInternalOptions:"
++ "setConfigServerHeaders:"
++ "setIgnoreSignature:"
++ "setOverrideConfigServerPath:"
++ "v16@?0@\"NSString\"8"
+- "\n\t%@"
+- "\n\n%@"
+- "\n\nEdges (current network RTT order):"
+- "\n%@"
+- "\n%s\n"
+- "\nEdges (ordered by distance if available) :"
+- "\r\n\r\n"
+- "    %s(%s) rtt %lu (%s) %s %s (%s) %s %s\n"
+- " (%@ %@)"
+- " (%@)"
+- " (daypass failed, error %d)"
+- " (observed %@)"
+- " (passed reprobe threshold)"
+- " distance: %f, location: %@"
+- " lastUsed: %@"
+- " onRamps: %@ currOnRamp: %ld "
+- " refreshing day passes"
+- "!5"
+- "!_decsz || plainsz + decsz <= sizeof(pt)"
+- "\"unexpected Splicing call\"==0"
+- "%@"
+- "%@ "
+- "%@ %@ %u %u %u %u %u"
+- "%@ Creating a new flow divert control socket"
+- "%@ NSPFlowDivert is already started, ignoring start request"
+- "%@ TrustEstablishment"
+- "%@ contains a non-number: %@"
+- "%@ does not contain dictionary with App signing identifier, designated requirement or path: %@\n"
+- "%@ does not contain dictionary: %@\n"
+- "%@ does not contain string: %@\n"
+- "%@ fetch day pass from network"
+- "%@ is not a number: %@"
+- "%@ is not a number: %@\n"
+- "%@ is not a string: %@"
+- "%@ is not a string: %@\n"
+- "%@ is not an array: %@\n"
+- "%@ must be a number between 0.0 and 1.0 inclusive"
+- "%@ must be a positive number or 0: %@"
+- "%@ must be a positive number or 0: %@\n"
+- "%@ probe: %@"
+- "%@(%@):%lu %@ | "
+- "%@(%@):(%@) %@ %@ | "
+- "%@,"
+- "%@.%@"
+- "%@:    %s(%@) rtt %lu (%@) %@ %@ (%@) %@ %@"
+- "%@:   %u. [%@] [%lu info bytes] [%u session counter]"
+- "%@:  Current index: %u"
+- "%@:  Fallback Reason: %ld"
+- "%@:  Generation: %u"
+- "%@:  TFO status override: %ld"
+- "%@: %@ latencies for network %@"
+- "%@: %s:"
+- "%@: Aging out network signature %@ (%@)"
+- "%@: Cancelling probe"
+- "%@: Cancelling the Tuscany connection"
+- "%@: Cannot start the connection, no output handler available"
+- "%@: Cannot unsynthesize addresses, no path"
+- "%@: Change in observed RTT, %s%s"
+- "%@: Checking to see if new minimum latency to %@ (%lu) is greater than %f times the latency to %@ (rtt %lu) (index %lu)"
+- "%@: Checking to see if new minimum latency to %@ (%lu) is less than its current latency (%lu) divided by %f"
+- "%@: Checking to see if new minimum latency to %@ (%lu) is less than the latency to %@ (rtt %lu) divided by %f (index %lu)"
+- "%@: Connection timer fired"
+- "%@: Created new UUID for keybag agent: %@"
+- "%@: Creating a new keybag agent"
+- "%@: Current Network Signature %@"
+- "%@: Current RTT average is %lu for edge %@, (RTT samples: %@)"
+- "%@: Current day pass for edge %ld %@ has not soft expired, sticking with the current onramp"
+- "%@: Day Pass refresh failed"
+- "%@: DayPass session count = %u, addr = %s, age = %f"
+- "%@: DayPass session count = %u, hostid = %u, portid = %u, age = %f"
+- "%@: DayPass shared MAC %s"
+- "%@: Did not write any bytes to a frame"
+- "%@: Discard RTT of %lu (%@), reprobe due to lost packets"
+- "%@: Dispose called with error: %s"
+- "%@: Edge %@ observed RTT has passed reprobe threshold"
+- "%@: Edge onramp list is not a non-empty array"
+- "%@: Edge specification is not a dictionary"
+- "%@: Failed to check latency completeness, no signature"
+- "%@: Failed to claim %u bytes"
+- "%@: Failed to create a decoder: %@"
+- "%@: Failed to decode from the keychain"
+- "%@: Failed to dup the key network agent registration file descriptor: %s"
+- "%@: Failed to dup the keybag network agent registration file descriptor: %s"
+- "%@: Failed to fetch a Day Pass for Edge: %ld %@, next onramp is nil"
+- "%@: Failed to fetch a Day Pass for edge %ld: edge is nil"
+- "%@: Failed to fetch a Day Pass for edge %ld: latency is nil"
+- "%@: Failed to get a hostname from the day pass endpoint %@"
+- "%@: Failed to handle data read from the tunnel connection"
+- "%@: Failed to measure RTT"
+- "%@: Failed to read byte for RTT probe (%@), %@"
+- "%@: Failed to read frame for RTT probe (%@), %@"
+- "%@: Failed to register key agent with UUID %@"
+- "%@: Failed to register keybag network agent"
+- "%@: Failed to resolve while establishing trust"
+- "%@: Failed to set data in frame"
+- "%@: Failed to set the registered network agent for %@"
+- "%@: Failed to use %u frames"
+- "%@: Failed to write byte for RTT probe (%@), %@"
+- "%@: Fetching a new Day Pass for Edge: %ld %@, (onRamp: %ld %@)"
+- "%@: Flow %llu (%llu) initial data did not entirely fit in the Hello/Request frame, %lu bytes left over"
+- "%@: Got RTT of %lu (%@)"
+- "%@: Got an error on the UDP session: %d:%d"
+- "%@: Got an error while writing the UDP datagram: %s"
+- "%@: Got an error while writing to the tunnel connection: %d (%s)"
+- "%@: Got session counter %llu for day pass %@ from the kernel"
+- "%@: Got session counter 0 for day pass %@ from the kernel"
+- "%@: Idle timer fired, cancelling the tunnel"
+- "%@: Ignoring extra disconnected callback"
+- "%@: Invalid edge latitude %@, longtitude %@"
+- "%@: Invalid expiry minutes: %@"
+- "%@: Invalid expiry: %@"
+- "%@: Invalidating day pass %@"
+- "%@: Label is not a string"
+- "%@: Latency derivation is disabled, not probing"
+- "%@: Latency information incomplete for the current network, re-probing"
+- "%@: Latency results for network signature %@:"
+- "%@: Loaded Waldo from keychain"
+- "%@: Location condition changed, re-evaluate view"
+- "%@: Looking for keybag agent registration with configuration ID %@"
+- "%@: Measuring RTT to edge %@ (current latency %@) at %luth round"
+- "%@: Merged current edge list: "
+- "%@: Missing edge latitude / longtitude: %@"
+- "%@: NSPFlowDivert starting with options: %@"
+- "%@: NSPFlowDivert: Adding policy: %@"
+- "%@: NSPFlowDivert: Failed to create a flow divert control socket"
+- "%@: NSPFlowDivert: resetPolicies failed"
+- "%@: NSPFlowDivertProvider: starting with options %@"
+- "%@: NSPFlowDivertProvider: stopping with reason %ld"
+- "%@: Network signature has changed since probing was initiated, not probing"
+- "%@: New keybag does not have any keys, re-pushing current keybag with TFO disabled and updated generation"
+- "%@: No DayPass available, cannot establish tunnel connection"
+- "%@: No UDP endpoint available, not racing UDP"
+- "%@: No Waldo info in the keychain"
+- "%@: No current network characteristics, not probing"
+- "%@: No edges available, not fetching day passes"
+- "%@: No latencies for network %@"
+- "%@: No latency map available, not fetching day passes"
+- "%@: No more flows, cancelling the tunnel"
+- "%@: No more flows, setting the idle timer to fire in %@ seconds"
+- "%@: No need to unsynthesize addresses, no IPv6 address"
+- "%@: No need to unsynthesize addresses, no prefixes"
+- "%@: No network characteristics available"
+- "%@: No network info available for the current network signature, cannot probe"
+- "%@: No network signature available"
+- "%@: No network signature available, cannot probe"
+- "%@: No valid day passes after a day pass refresh"
+- "%@: Not re-probing, check for day pass refresh"
+- "%@: One or more day passes has expired, refreshing"
+- "%@: Opening Tuscany connection to %s, TFO enabled = %d MPTCP enabled = %d, No TFO cookie = %d, No Delay = %d"
+- "%@: Probe connection connected over %@"
+- "%@: Probe endpoint (%@) and onRampEndpoint (%@) types do not match"
+- "%@: Probe endpoint (%@) does not equal onramp endpoint (%@)"
+- "%@: Probe endpoint (%@) is a hostname and does not match the onramp endpoint (%@)"
+- "%@: Probe hosts is not an array"
+- "%@: Pushing %u [%@] [%u session counter]"
+- "%@: Pushing keybag to the kernel"
+- "%@: RTT probe to %@ was aborted"
+- "%@: Racing UDP to %s"
+- "%@: Ran out of flow identifiers"
+- "%@: Re-measuring latency due to all top edge observed RTTs exceeded threshold"
+- "%@: Re-probe date (%@) has passed, re-probing edges"
+- "%@: Re-processing latency to %@ with current connection observed RTT %lu (avg RTT %lu)"
+- "%@: Re-set UUID for keybag agent: %@"
+- "%@: Re-sorting edge latencies and rebuilding the latency map for the current network signature"
+- "%@: Re-using existing key network agent registration file handle for %@"
+- "%@: Re-using existing keybag network agent registration file handle"
+- "%@: Reading between %lu and %lu bytes from the tunnel connection"
+- "%@: Received EOF on the tunnel connection"
+- "%@: Received Hello ack with timestamp: %u"
+- "%@: Received a %d-byte data frame for channel %u"
+- "%@: Received a %u-byte ack for channel %u"
+- "%@: Received a 0-byte data frame for channel %u"
+- "%@: Received exception on %u: %d (%s)"
+- "%@: Received geohash %@ from ping response"
+- "%@: Received ping RTT of %lu"
+- "%@: Received ping response with RTT %u us, variation %u us"
+- "%@: Registered key agent with UUID %@"
+- "%@: Removing stale key %@"
+- "%@: Reporting usage with fallback reason: %@"
+- "%@: Reprocessing due to reprocess sampling timer"
+- "%@: Reprocessing has been aborted"
+- "%@: Saving Waldo info to keychain: %@"
+- "%@: Sending day pass UUID %@, counter %u to the kernel"
+- "%@: Sending onRamp with %@ %@ <TFOStatus: %@> to the kernel"
+- "%@: Setting current keybag to keybag obtained from the kernel"
+- "%@: Setting up new key network agent registration for %@"
+- "%@: Setting up new keybag network agent registration"
+- "%@: Skip Measuring RTT to edge %@ (current latency %@) at %luth round"
+- "%@: Skip RTT reprocess, no usable network path"
+- "%@: Skip re-processing latency because the latency factors are invalid (A = %f, B = %f, X = %f)"
+- "%@: Skip re-processing latency due to insufficient observed RTT samples"
+- "%@: Skip re-processing latency to %@ with current connection observed RTT %lu"
+- "%@: Skip, pending for previous day pass response for edge %ld %@ %@"
+- "%@: Skipping Day Pass fetch for %@ because the retry date has not passed"
+- "%@: Skipping onRamp with %@ <TFOStatus: %@> because it does not have a Tuscany endpoint with address family %@"
+- "%@: Skipping re-probing of edges because the re-probe date (%@) has not passed"
+- "%@: Stored network signature count (%lu) exceeded max (%d), aging %ld network signature"
+- "%@: TTFB: %f TTFR: %f ConnectionDelay: %f"
+- "%@: Tearing down output handler"
+- "%@: Tunnel connection disconnected with error: %d (%s)"
+- "%@: Tuscany connection is now connected"
+- "%@: Tuscany connection is now disconnected"
+- "%@: Un-registering key agent with UUID %@"
+- "%@: Unsynthesized %@ to %@"
+- "%@: Unsynthesized result %@"
+- "%@: Updating existing keybag agent with UUID %@"
+- "%@: Usage report keybag generation (%u) != current keybag generation (%u), ignoring report"
+- "%@: Usage timer fired"
+- "%@: Using best edge %ld"
+- "%@: Using session counter %u"
+- "%@: Waldo info setting current network characteristics to %@"
+- "%@: While cleaning up stale keys, failed to dup the agent registration file descriptor for agent with UUID %@"
+- "%@: While cleaning up stale keys, failed to register key agent with UUID %@"
+- "%@: client reports that TFO failed, marking TFO as failed for current latency map where address family = %d"
+- "%@: didFailWithError called with: %@"
+- "%@: flow divert provider failed to start with error: %@"
+- "%@: flow divert provider started successfully"
+- "%@: no probe endpoints to probe"
+- "%@: probing completed for %@ but latency map is empty, un-resolving edges"
+- "%@: probing latency list starting at %luth sample: %@"
+- "%@: read called after the connection was torn down"
+- "%@: resolution failed while handling a usage update"
+- "%@: resolving %@"
+- "%@: sendData (size %lu): first request"
+- "%@: skipping edge %lu because it has a un-resolved probe endpoint %@"
+- "%@: usage update contains fallback reason %ld (%@), un-resolving edges"
+- "%@: write called while not connected"
+- "%@: writeInitialData called but no initial data is available"
+- "%@:%@"
+- "%d-%.2d-%.2d %.2d:%.2d:%.2d,%.3d %s.%s: "
+- "%f"
+- "%lu"
+- "%lu | "
+- "%s@%s"
+- "( "
+- "(alpha %f windowSize %ld, trialCount %ld, signature %@, interfaceType %@, edgeAttributesDict %@"
+- "(observed %@)"
+- "(passed reprobe threshold)"
+- "*"
+- "*/*"
+- "-"
+- "-[NPEdgeLatency initWithProbeEndpoint:probeTFO:]"
+- "-[NPEdgeLatency measureLatencyWithTimeout:completionHandler:]"
+- "-[NPTuscanyEdge linkWithOnRampsRetainMissingAddressFamilies:]"
+- "/"
+- "/%@"
+- "/System/Library/NetworkServiceProxy"
+- "0123456789abcdef"
+- "1.1.1.1@5223,11:11:11:11:11:11:11:11@5223"
+- "127.0.0.1"
+- "443"
+- "5223"
+- ": \r\n"
+- "<%f, %f> %@"
+- "<<<<<<<<< kevent setup failed (%d: %s) >>>>>>>>>>\n"
+- "<TFO %d, NoCookie %d>"
+- "<inactive>"
+- "<log message too large>"
+- "<unknown-name>[%d]"
+- "<unknown>"
+- "@\"<NPTunnelDelegate>\""
+- "@\"<NPWaldoDelegate>\""
+- "@\"<NSPManagerDelegate>\""
+- "@\"NEAppProxyFlow\""
+- "@\"NEFlowDivertFileHandle\""
+- "@\"NEPolicySession\""
+- "@\"NPAverage\""
+- "@\"NPEdgeSelection\""
+- "@\"NPFlowProperties\""
+- "@\"NPKeyBag\""
+- "@\"NPLocation\""
+- "@\"NPTunnel\""
+- "@\"NPTunnelFlow\""
+- "@\"NPTunnelTuscanyEndpoint\""
+- "@\"NPTuscanyEdge\""
+- "@\"NPTuscanyOnRamp\""
+- "@\"NPWaldo\""
+- "@\"NPWaldoLocationManager\""
+- "@\"NSData\"16@0:8"
+- "@\"NSError\""
+- "@\"NSMutableData\""
+- "@\"NSMutableDictionary\""
+- "@\"NSObject<OS_dispatch_data>\""
+- "@\"NSObject<OS_dispatch_source>\""
+- "@\"NSObject<OS_nw_connection>\""
+- "@\"NSObject<OS_nw_context>\""
+- "@\"NSObject<OS_nw_endpoint>\""
+- "@\"NSObject<OS_nw_parameters>\""
+- "@\"NSObject<OS_nw_path>\""
+- "@\"NSObject<OS_os_transaction>\""
+- "@\"NSPAppRule\""
+- "@\"NSPConnectionInfo\""
+- "@\"NSPDNSPacket\""
+- "@\"NSPFlowDivert\""
+- "@\"NSPKeyNetworkAgent\""
+- "@\"NSPManager\""
+- "@\"NSPNetworkAgent\""
+- "@\"NSPredicate\""
+- "@\"NSUUID\""
+- "@\"NSUUID\"16@0:8"
+- "@\"NWEndpoint\""
+- "@\"NWNetworkAgentRegistration\""
+- "@\"NWPathEvaluator\""
+- "@\"NWTCPConnection\""
+- "@\"NWUDPSession\""
+- "@20@0:8B16"
+- "@20@0:8C16"
+- "@24@0:8@\"NSData\"16"
+- "@24@0:8B16B20"
+- "@28@0:8@16B24"
+- "@32@0:8@16B24B28"
+- "@32@0:8@16^q24"
+- "@32@0:8@16^{nw_protocol=[16C]^{nw_protocol_identifier}^{nw_protocol_callbacks}^{nw_protocol}^v^{nw_protocol}^v}24"
+- "@32@0:8@16q24"
+- "@32@0:8Q16^Q24"
+- "@32@0:8Q16q24"
+- "@32@0:8q16@24"
+- "@36@0:8@16@24B32"
+- "@40@0:8@16#24@32"
+- "@40@0:8@16@24q32"
+- "@40@0:8@16q24q32"
+- "@40@0:8d16d24@32"
+- "@48@0:8@16@24@32q40"
+- "@48@0:8@16@24Q32@40"
+- "@48@0:8@16@24^{nw_protocol=[16C]^{nw_protocol_identifier}^{nw_protocol_callbacks}^{nw_protocol}^v^{nw_protocol}^v}32@40"
+- "@56@0:8@16@24@32@40@48"
+- "@56@0:8@16Q24@32@40@48"
+- "@64@0:8@16@24@32@40@48@56"
+- "@68@0:8@16@24q32@40I48@52@60"
+- "@?"
+- "@?16@0:8"
+- "@sum.self"
+- "A"
+- "A hostname endpoint was specified and it is not the only endpoint"
+- "AAAA"
+- "Accept"
+- "Accept-Encoding"
+- "Accept-Language"
+- "Added tunnel %@ using key %@"
+- "Address (%@) in address map for hostname %@ is not a string"
+- "All agents matched, not updating from new agents"
+- "All tunnels closed, calling cancellation handler"
+- "AppleLanguages"
+- "Available input data (%lu bytes) is smaller than minimum bytes requested (%u bytes)"
+- "AverageSampleSize"
+- "AverageSamples"
+- "B16@?0@\"NPWaldo\"8"
+- "B16@?0@\"NSObject<OS_nw_frame>\"8"
+- "B20@0:8B16"
+- "B24@0:8@\"NSDictionary\"16"
+- "B24@0:8Q16"
+- "B24@0:8d16"
+- "B24@?0@8@\"NSDictionary\"16"
+- "B28@0:8@16B24"
+- "B28@0:8i16@\"NSDictionary\"20"
+- "B28@0:8i16@20"
+- "B32@0:8@16^{networkParameters=BB}24"
+- "B32@0:8Q16^B24"
+- "B32@0:8Q16^v24"
+- "B32@0:8^{nw_frame_array_s=^{nw_frame}^^{nw_frame}}16Q24"
+- "B32@?0Q8@\"NSNumber\"16@\"NPTuscanyOnRamp\"24"
+- "B40@0:8@16@24@32"
+- "B40@?0@\"NSObject<OS_dispatch_data>\"8Q16r^v24Q32"
+- "B44@0:8@16@24^{networkParameters=BB}32B40"
+- "B48@0:8@16^q24^q32^@40"
+- "B52@0:8@16^{networkParameters=BB}24@32B40^@44"
+- "BestEdge"
+- "BestEdgeProbedRTT"
+- "BestEdgeRTT"
+- "Bridge %lu: nw_connection with [%@] received error: %s"
+- "C16@0:8"
+- "C24@0:8^B16"
+- "CNAME"
+- "CachedLocation"
+- "Cannot link with onramps because the onramp endpoint is not a list of addresses"
+- "Cleared test latency map"
+- "ComposeInitialData"
+- "Connection"
+- "ConnectionIdleTimeoutMaximum"
+- "Content-Length"
+- "Cookie"
+- "Created a new config agent UUID: %@"
+- "Created direct flow with identifier %@"
+- "Created new flow %u"
+- "Creating a new config agent configuration identifier: %@"
+- "Creating a new policy session"
+- "CreationDate"
+- "Current Network Signature %s\n\n"
+- "CurrentEdgeIndex"
+- "CurrentLatencyMap"
+- "CurrentOnRampIndexList"
+- "CurrentOnRampMaxFrameBytes"
+- "CurrentOnRampRTT"
+- "D"
+- "DNS Flow %llu (%llu) received %lu bytes from the app"
+- "DNS Flow %llu (%llu): %@ send data to client"
+- "DayPassCreationDate"
+- "DayPassData"
+- "DayPassEV"
+- "DayPassEndpoint"
+- "DayPassError"
+- "DayPassExpiry"
+- "DayPassFailed"
+- "DayPassHardExpiry"
+- "DayPassHostname"
+- "DayPassUUID"
+- "Deallocating loopback connection"
+- "DesignatedRequirement"
+- "Diagnostic report response = %@"
+- "Direct"
+- "Direct flow has no metadata"
+- "DirectTLSPorts"
+- "DisableDivertDNS"
+- "DisableFallback"
+- "Distance"
+- "ESS: (%@training) Received new RTT for edge: %@, RTT: %f, reward: %.15f, reward mean: %.15f (%@ %@)"
+- "ESS: Attributes queried for null edge (%@ %@)"
+- "ESS: Computing metric for edge: %@, reward mean: %.15f, trial: %ld, fairness: %.15f, goodness: %.15f, selections: %ld, metric: %.15f (%@ %@)"
+- "ESS: EdgeSelection object initialized with alpha: %f, windowsize: %ld, trial count: %ld, edgeAttributesDict: %@ (%@ %@)"
+- "ESS: Failed updating attributes for edge: %@, RTT: %f, rank: %ld (%@ %@)"
+- "ESS: Queried attributes for edge: %@, attributes: %@ (%@ %@)"
+- "ESS: Returning selected edge: %@, last RTT: %f (%@ %@)"
+- "ESS: Setting fairness for edge: %@, rank: %ld, fairness: %.15f (%@ %@)"
+- "ESS: Updated attributes for edge: %@, attributes: %@ (%@ %@)"
+- "Edge %@ does not match current best edge, should probe (%@ %@)"
+- "Edge %lu(%@) RTT %lu"
+- "Edge Selection: best edge <%@, rtt %lu, probed rtt %lu> next best edge <%@, rtt %lu> trialCount %ld"
+- "Edge selection get edge, failed get min with error: %@ (%@ %@)"
+- "Edge selection get edge, failed get min, no result dictionary (%@ %@)"
+- "Edge selection get edge, failed get min, no selected edge / rtt: %@ (%@ %@)"
+- "Edge selection get edge: next best edge %@ Last RTT %lu (%@ %@)"
+- "Edge selection initialize failed for %@ (%@)"
+- "Edge selection initialize, no current network characteristics"
+- "Edge selection probe skipped, no edge for index %lu"
+- "Edge selection probe, got sorted result for %@ (%@ %@)"
+- "Edge selection probe, sorted result count (%lu) != %lu (%@ %@)"
+- "Edge selection train failed for edge data %@, error: %@ (%@ %@)"
+- "Edge selection train with edge data %@ (%@ %@)"
+- "Edge selection train, no edge data (%@ %@)"
+- "Edge selection update, best edge matched (%@ last RTT %lu, current RTT %lu) (%@ %@)"
+- "Edge selection update, best edge mismatched (%@ RTT %lu, ES %@ last RTT %lu, current RTT %lu) (%@ %@)"
+- "Edge selection update, current best edge %@, avg RTT: %ld (%@ %@)"
+- "Edge selection update, edge %@ is already being probed currently, skip probe (%@ %@)"
+- "Edge selection update, no current network characteristics"
+- "Edge selection update, no edge selection"
+- "Edge selection update, probing %@ (rank %lu, index %lu) (%@ %@)"
+- "Edge selection update, reprocess probe pending, skip probe for %@ (rank %lu, index %lu) (%@ %@)"
+- "Edge selection update, skip probe for %@ because the probe date (%@) has not passed (%@ %@)"
+- "EdgeFairnessFactor"
+- "EdgeIndex"
+- "EdgeLatencies"
+- "EdgeList"
+- "EdgeSelection"
+- "EdgeSelectionAlpha"
+- "EdgeSelectionEnabled"
+- "EdgeSelectionWindowSize"
+- "EnableDirectExtendedValidation"
+- "EnableDirectMultipath"
+- "EnableDirectRace"
+- "EnableDirectTFO"
+- "EnableDivertDNSOnly"
+- "EnableIPv6"
+- "EnableLatencyDerivation"
+- "EnableOptIn"
+- "EnableOptInPerTask"
+- "EncodedData"
+- "Endpoint"
+- "Endpoint (%p) or parameters (%p) is nil, cannot modify parameters"
+- "ExecutablePath"
+- "Existing tunnel state is %ld, isCancelled = %d"
+- "Failed"
+- "Failed edge selection update, edge %@ does not match any edge in edge list (%@ %@)"
+- "Failed to advance by %lu bytes from offset %lu"
+- "Failed to allocate %u bytes to hold the current packet"
+- "Failed to allocate a query object for query %u"
+- "Failed to connect to networkserviceproxy"
+- "Failed to create a NPTunnelTuscanyEndpoint from endpoints"
+- "Failed to create a NWHostEndpoint from address %@ port %@"
+- "Failed to create a SecTask for self"
+- "Failed to create a keybag"
+- "Failed to create a new flow"
+- "Failed to create a nw_protocol_transform"
+- "Failed to create a stream for %@"
+- "Failed to create a tuscany endpoint from endpoint data from key"
+- "Failed to create an endpoint from string: %@"
+- "Failed to create an nw_interface object with interface index %d"
+- "Failed to create an output buffer"
+- "Failed to create flow properties from the connection metadata"
+- "Failed to create meta-data from properties in NetworkServiceProxySetRemoteEndpointMapForSessionTask"
+- "Failed to create meta-data from properties in NetworkServiceProxySetRemoteEndpointsForSessionTask"
+- "Failed to create properties dictionary from flow metadata"
+- "Failed to create telemetry JSON: %@"
+- "Failed to create the XPC connection to the server"
+- "Failed to decode the NSP configuration from the keychain"
+- "Failed to decode the direct endpoint: %@"
+- "Failed to decode the replacement address map: %@"
+- "Failed to derive the request Host: header"
+- "Failed to encode replacement address map: %@"
+- "Failed to encode replacement endpoint: %@"
+- "Failed to find a matching app rule"
+- "Failed to follow pointer %u bytes from offset %lu"
+- "Failed to get connection info for flow %lu"
+- "Failed to get the creation date from the key info"
+- "Failed to get the current process' designated requirement"
+- "Failed to get the current process' path: %s"
+- "Failed to get the current process' signing identifier"
+- "Failed to get the day pass bytes from the key info"
+- "Failed to get the day pass length from the key info"
+- "Failed to get the hard expiry from the key info"
+- "Failed to get the interface name from %@"
+- "Failed to get the max frame size from the key info"
+- "Failed to get the port string from the endpoint"
+- "Failed to get the signing identifier, cannot set the current location"
+- "Failed to get the tfostatus from the key info"
+- "Failed to log %@ event"
+- "Failed to obtain the signing identifier"
+- "Failed to obtain the signing identifier: %@"
+- "Failed to open an input stream for %@: %@"
+- "Failed to open flow %lu: %@"
+- "Failed to parse %u label bytes at offset %lu"
+- "Failed to parse 1st label length byte at offset %lu"
+- "Failed to parse 2nd label length byte at offset %lu"
+- "Failed to parse DNS packet additional record count"
+- "Failed to parse DNS packet answer count"
+- "Failed to parse DNS packet authority count"
+- "Failed to parse DNS packet flags"
+- "Failed to parse DNS packet identifier"
+- "Failed to parse DNS packet query %u class"
+- "Failed to parse DNS packet query %u name"
+- "Failed to parse DNS packet query %u type"
+- "Failed to parse DNS packet query count"
+- "Failed to parse RR A address"
+- "Failed to parse RR AAAA address"
+- "Failed to parse RR CNAME"
+- "Failed to parse RR NS"
+- "Failed to parse RR PTR"
+- "Failed to parse RR SOA expire interval"
+- "Failed to parse RR SOA main name"
+- "Failed to parse RR SOA minimum TTL"
+- "Failed to parse RR SOA refresh interval"
+- "Failed to parse RR SOA responsible name"
+- "Failed to parse RR SOA retry interval"
+- "Failed to parse RR SOA serial number"
+- "Failed to parse RR TTL"
+- "Failed to parse RR TXT"
+- "Failed to parse RR class"
+- "Failed to parse RR length"
+- "Failed to parse RR name"
+- "Failed to parse RR type"
+- "Failed to parse a DNS response from the direct connection"
+- "Failed to parse a DNS response from the tunnel"
+- "Failed to parse additional record %u"
+- "Failed to parse answer %u"
+- "Failed to parse authority %u"
+- "Failed to post telemetry data"
+- "Failed to read a rule dictionary from %@: %@"
+- "Failed to read the contents of %@: %@"
+- "Failed to register configuration network agent"
+- "Failed to register parameter modifier function"
+- "Failed to register the np_tunnel protocol"
+- "Failed to register the np_tunnel_flow protocol"
+- "Failed to serialize the usage report"
+- "Failed to set the NSP configuration: %@ key is not a dictionary"
+- "Failed to set the NSP configuration: dictionary is missing the %@ key"
+- "Failed to update the keybag network agent"
+- "Failed to update the network agent for %@"
+- "FailedToCreateDataFrame"
+- "FailedToCreateIncomingFrame"
+- "FailedToGetSessionCounter"
+- "Fallback limit (%lu) exceeded, falling back"
+- "Fallback timeout %ld"
+- "FallbackBufferLimit"
+- "FallbackCountBeforeImmediateFallback"
+- "First launch after boot, incrementing session counters"
+- "Flow %llu (%llu) %@ won: skip cleanup of losing connection"
+- "Flow %llu (%llu) Received %lu bytes from %s"
+- "Flow %llu (%llu) Received ack for %lu bytes, window size is now %lu"
+- "Flow %llu (%llu) Received first data from %s"
+- "Flow %llu (%llu) Saving %lu bytes of data for the direct session"
+- "Flow %llu (%llu) Sending %lu bytes of data on the direct session"
+- "Flow %llu (%llu) added to tunnel %@"
+- "Flow %llu (%llu) closed from direct connection and has no tunnel, closing the flow"
+- "Flow %llu (%llu) closed from tunnel and has no direct connection, closing the flow"
+- "Flow %llu (%llu) closed from tunnel with error %d (%s)"
+- "Flow %llu (%llu) closed with fallback reason: %@"
+- "Flow %llu (%llu) configured telemetry ratio is 0"
+- "Flow %llu (%llu) direct session failed"
+- "Flow %llu (%llu) direct session is now cancelled"
+- "Flow %llu (%llu) direct session is now ready"
+- "Flow %llu (%llu) dropping %lu bytes of data from %s"
+- "Flow %llu (%llu) failed to parse the DNS query"
+- "Flow %llu (%llu) failed to send %lu bytes of data on the direct session: %@"
+- "Flow %llu (%llu) fallback timer fired"
+- "Flow %llu (%llu) is falling back with no fallback reason"
+- "Flow %llu (%llu) not reporting telemetry because the tunnel is not connected"
+- "Flow %llu (%llu) ran over the limit (%@) on saved data (%u), disabling fallback"
+- "Flow %llu (%llu) random telemety ratio did not fall within configured ratio (%f)"
+- "Flow %llu (%llu) received %lu bytes of HTTP response"
+- "Flow %llu (%llu) received EOF from the app"
+- "Flow %llu (%llu) received query %ld"
+- "Flow %llu (%llu) reporting telemetry"
+- "Flow %llu (%llu) sending %lu bytes of data through the tunnel"
+- "Flow %llu (%llu) setting final connection info"
+- "Flow %llu (%llu) starting direct session to %@"
+- "Flow %llu (%llu) tunnel DNS response timer fired"
+- "Flow %llu (%llu) tunnel and direct DNS results known, checking if telemetry should be reported"
+- "Flow %llu Maximum frame count (%u) and/or maximum byte count (%u) is 0"
+- "Flow %llu app read %u bytes"
+- "Flow %llu creating input frames"
+- "Flow %llu creating output frames for %u bytes"
+- "Flow %llu discarding %u bytes"
+- "Flow %llu fell back with reason: %@"
+- "Flow %llu has initial data or TFO is enabled, waiting for output"
+- "Flow %llu has no initial data"
+- "Flow %llu is connecting with endpoint %s"
+- "Flow %llu is disconnecting"
+- "Flow %llu is now connected"
+- "Flow %llu no input data currently available"
+- "Flow %llu notifying input protocol of error: %s"
+- "Flow %llu notifying input protocol that input is finished"
+- "Flow %llu notifying input protocol that input is finished after all pending data read"
+- "Flow %llu removed from tunnel %@"
+- "Flow %u no usable Day Pass available, falling back"
+- "Flow %u using service ID %llu"
+- "Found complete latency for %@ <%@, sample size %lu>"
+- "Found incomplete latency for %@ <%@, sample size %lu>"
+- "GET %@ HTTP/1.1\r\nHost: %@\r\n\r\n"
+- "Generation"
+- "Got Test RTT %lu"
+- "Got a new keybag from the kernel"
+- "Got config agent with UUID %@"
+- "Got connection info for flow %lu"
+- "Got keybag agent with UUID %@"
+- "HelloFrameFailed"
+- "Host"
+- "Hostname (%@) in addressMap parameter is not a string"
+- "I24@0:8^B16"
+- "I36@0:8^{nw_frame_array_s=^{nw_frame}^^{nw_frame}}16I24I28I32"
+- "I44@0:8^v16I24I28r*32I40"
+- "IFType"
+- "INFO"
+- "IPv4"
+- "IPv6"
+- "Identifier"
+- "InternalError"
+- "Invalid edge set, disabling app rule"
+- "Invalid endpoints passed to NetworkServiceProxySetRemoteEndpointsForSessionTask: %@"
+- "InvalidLengthForIncomingFrame"
+- "Key"
+- "LastFailureReason"
+- "LastFallbackReason"
+- "LastUsed"
+- "LastVisited"
+- "Latency not found for %@ %@"
+- "Latency results for network signature %s:\n"
+- "LatencyDerivationEnabled"
+- "LatencyFactorA"
+- "LatencyFactorB"
+- "LatencyFactorX"
+- "Latitude"
+- "Location"
+- "LocationCheckInterval"
+- "LocationCheckTimestamp"
+- "LocationTTL"
+- "LocationToleranceDistance"
+- "Logged %@ event"
+- "Logging diagnostic event <%@> for %@ with context <%@>"
+- "Longtitude"
+- "Looking for existing config agent registration with configuration ID %@"
+- "MBOX"
+- "MEXG"
+- "Maximum frame count (%u) and/or maximum byte count (%u) is 0"
+- "MessageResult"
+- "NEAppProxyProviderContainerDelegate"
+- "NPAppProxyFlowBridge"
+- "NPAppProxyFlowBridge queue"
+- "NPAverage"
+- "NPDiagnosticReport"
+- "NPDirectFlow"
+- "NPEdgeLatency"
+- "NPEdgeLatency.m"
+- "NPEdgeSelection"
+- "NPFlowProperties"
+- "NPKey"
+- "NPKeyBag"
+- "NPLocation"
+- "NPNetworkInfo"
+- "NPResolver"
+- "NPTunnel"
+- "NPTunnelDelegate"
+- "NPTunnelFlow"
+- "NPTunnelFlowDNS"
+- "NPTunnelFlowHTTP"
+- "NPTunnelFlowProtocol"
+- "NPTunnelFlowTelemetry"
+- "NPTunnelFlowUDP"
+- "NPTunnelTuscany"
+- "NPTunnelTuscanyEndpoint"
+- "NPTunnelTuscanyLoopback"
+- "NPTuscanyClient"
+- "NPTuscanyClient.mm"
+- "NPTuscanyEdge"
+- "NPTuscanyLoopbackConnection"
+- "NPTuscanyOnRamp"
+- "NPUsageReport"
+- "NPWaldo"
+- "NPWaldo.m"
+- "NS"
+- "NSP flow divert stopped (%@)"
+- "NSP is currently disabled and the new app rule does not enable it, not updating the configuration"
+- "NSP is disabled because the current network has proxies"
+- "NSP is disabled by the current configuration"
+- "NSP setting up flow %u"
+- "NSPAppRule"
+- "NSPByteParser"
+- "NSPDNSPacket"
+- "NSPDNSQuery"
+- "NSPDNSResourceRecord"
+- "NSPFlowDivert"
+- "NSPFlowDivertProvider"
+- "NSPKeyNetworkAgent"
+- "NSPManager"
+- "NSPManager change handler queue"
+- "NSPNetworkAgent"
+- "NSPServerAppLabel"
+- "NSPServerAppRule"
+- "NSPServerAppRules"
+- "NSPServerEdgeSetIdentifier"
+- "NSPServerEndpoint"
+- "NSPServerLatitude"
+- "NSPServerLongtitude"
+- "NSPServerResponseData"
+- "NSPServerTelemetryService"
+- "NSPServerTelemetryURL"
+- "NSPServerTestLatencyMap"
+- "NSPServerTimestamp"
+- "NSPServerUsageData"
+- "NSPServerWaldoInfo"
+- "NSPServerWaldoInfos"
+- "NSPServerWaldoState"
+- "NWNetworkAgent"
+- "Name"
+- "NetworkInformation"
+- "NetworkLastUsed"
+- "NetworkSignatureLimit"
+- "New keybag does not have any keys, re-pushing current keybag with TFO disabled and updated generation"
+- "NextBestEdge"
+- "NextBestEdgeRTT"
+- "No Waldo info in the keychain"
+- "No endpoint data in key"
+- "No flow ID available, failed to create a flow"
+- "No flow properties available, failed to create a new flow"
+- "No info in key"
+- "No input data currently available"
+- "No open tunnels, not waiting"
+- "No tunnel found for protocol %s"
+- "NoCookie"
+- "NoDNSDelegation"
+- "NoFallbackReason"
+- "None"
+- "Not enough data available to meet the required minimum"
+- "ObservedRTTSampleSize"
+- "ObservedRTTSampleSizeKey"
+- "OnRampEndpoint"
+- "OnRampList"
+- "Overriding TFO status to %ld"
+- "POST %@ HTTP/1.1\r\nHost: %@\r\nContent-Length: %lu\r\n\r\n"
+- "PTR"
+- "PassedReprobeThreshold"
+- "Posting %lu bytes of data to %@"
+- "ProbeCount"
+- "ProbeEndpoint"
+- "ProbeNoTFOCookie"
+- "ProbePause"
+- "ProbeRateLimit"
+- "ProbeTFO"
+- "ProbeTFONoCookie"
+- "ProbeTimeout"
+- "Probing %@ %@"
+- "ProxyEvaluationPath"
+- "Q24@0:8Q16"
+- "Q32@0:8@16^{networkParameters=BB}24"
+- "R "
+- "RTT"
+- "RTT probe timeout for %@"
+- "RTTAverage"
+- "RTTAverageObserved"
+- "RTTAverageObservedLast"
+- "Re-resolving edge hostnames"
+- "Re-using existing network agent registration file handle"
+- "Read an entire %u byte packet"
+- "Read part of a header (%lu bytes)"
+- "Read part of a packet (%lu bytes)"
+- "Read the header of a %u byte packet"
+- "Received DNS response %ld from the direct connection"
+- "Received DNS response %ld from the tunnel"
+- "Received data is less than an RTT-frame: %lu"
+- "Received frame is too long (%lu)"
+- "Removed tunnel %@"
+- "Replaced endpoint %s with endpoints %@"
+- "Reporting usage"
+- "ReprocessSampleSize"
+- "ReprocessSampleSizeKey"
+- "ReprocessSamplingInterval"
+- "ReprocessSamplingIntervalKey"
+- "RequestLog"
+- "Requesting current state for %@"
+- "Requesting establish trust with edge set %@"
+- "Requesting fetch app rule for %@:"
+- "Requesting fetch edge set for %@"
+- "Requesting set app rule for %@"
+- "Requesting set edge set for %@"
+- "Requesting set latitude and longitude"
+- "Requesting set test latency map"
+- "Requesting waldo refresh"
+- "RequireTFO"
+- "Resolved %@ to %@"
+- "S24@0:8^B16"
+- "SOA"
+- "SRV"
+- "SavedEndpoint"
+- "SecRandomCopyBytes failed: %s"
+- "Sending usage data"
+- "ServiceID"
+- "Set config agent UUID: %@"
+- "Set of addresses in address map for hostname %@ is not an NSSet: (%@)"
+- "Setting SNI to %@"
+- "Setting service name to %@ (%llu)"
+- "Setting stream properties to %@"
+- "Setting up local flow divert for %@"
+- "Setting up loopback transform"
+- "Setting up new network agent registration"
+- "SignatureLastVisited"
+- "Socket.bind"
+- "Socket.connect"
+- "Socket.get"
+- "Socket.listen"
+- "Socket.set"
+- "Succeeded"
+- "T@\"<NPTunnelDelegate>\",R,W,N,V_delegate"
+- "T@\"<NPWaldoDelegate>\",W,V_delegate"
+- "T@\"<NSPManagerDelegate>\",W,N,V_delegate"
+- "T@\"NEFlowDivertFileHandle\",&,N,V_flowDivertControlHandle"
+- "T@\"NEPolicySession\",&,V_policySession"
+- "T@\"NPAverage\",&,V_roundTripAverage"
+- "T@\"NPAverage\",&,V_roundTripAverageObserved"
+- "T@\"NPEdgeSelection\",&,V_edgeSelection"
+- "T@\"NPFlowProperties\",R,N,V_extraFlowProperties"
+- "T@\"NPKeyBag\",&,N,V_keybag"
+- "T@\"NPKeyBag\",&,V_inUseKeybag"
+- "T@\"NPKeyBag\",&,V_keybag"
+- "T@\"NPLocation\",&,N,V_cachedLocation"
+- "T@\"NPLocation\",R,V_location"
+- "T@\"NPTunnel\",R,N,V_tunnel"
+- "T@\"NPTunnelFlow\",&,V_flow"
+- "T@\"NPTunnelTuscanyEndpoint\",&,N,V_replacementEndpoint"
+- "T@\"NPTunnelTuscanyEndpoint\",&,V_tuscanyEndpoint"
+- "T@\"NPTuscanyEdge\",R"
+- "T@\"NPTuscanyEdge\",R,V_nextEdge"
+- "T@\"NPWaldo\",&,N,V_defaults"
+- "T@\"NPWaldo\",W,N,V_waldoInfo"
+- "T@\"NPWaldo\",W,V_parentWaldo"
+- "T@\"NPWaldoLocationManager\",&,N,V_locationManager"
+- "T@\"NSArray\",&"
+- "T@\"NSArray\",&,N,V_currentAgents"
+- "T@\"NSArray\",&,N,V_keys"
+- "T@\"NSArray\",&,V_currentLatencyMap"
+- "T@\"NSArray\",&,V_edgeLatencies"
+- "T@\"NSArray\",&,V_onRampList"
+- "T@\"NSArray\",&,V_testLatencyMap"
+- "T@\"NSArray\",C"
+- "T@\"NSArray\",C,N,V_directTLSPorts"
+- "T@\"NSArray\",C,N,V_matchEffectiveApplications"
+- "T@\"NSArray\",C,V_appRules"
+- "T@\"NSArray\",C,V_dayPassSoftExpiry"
+- "T@\"NSArray\",R,V_additionalRecords"
+- "T@\"NSArray\",R,V_answers"
+- "T@\"NSArray\",R,V_authorities"
+- "T@\"NSArray\",R,V_currentEdges"
+- "T@\"NSArray\",R,V_hosts"
+- "T@\"NSArray\",R,V_queries"
+- "T@\"NSData\",&,N,V_info"
+- "T@\"NSData\",&,N,V_networkSignature"
+- "T@\"NSData\",&,N,V_requestData"
+- "T@\"NSData\",&,N,V_updateHash"
+- "T@\"NSData\",&,V_agentData"
+- "T@\"NSData\",&,V_dayPass"
+- "T@\"NSData\",&,V_keybag"
+- "T@\"NSData\",&,V_updateHash"
+- "T@\"NSData\",R,V_data"
+- "T@\"NSData\",R,V_hostsData"
+- "T@\"NSDate\",&,N,V_connectionStartDate"
+- "T@\"NSDate\",&,N,V_enableCheckDate"
+- "T@\"NSDate\",&,N,V_firstTxByteTimestamp"
+- "T@\"NSDate\",&,N,V_lastUsed"
+- "T@\"NSDate\",&,N,V_lastVisited"
+- "T@\"NSDate\",&,N,V_locationCheckTimestamp"
+- "T@\"NSDate\",&,N,V_locationExpiration"
+- "T@\"NSDate\",&,N,V_timestamp"
+- "T@\"NSDate\",&,V_connectionStartDate"
+- "T@\"NSDate\",&,V_creationDate"
+- "T@\"NSDate\",&,V_dayPassCreationDate"
+- "T@\"NSDate\",&,V_firstPacketDate"
+- "T@\"NSDate\",&,V_firstTxByteTimestamp"
+- "T@\"NSDate\",&,V_lastUsed"
+- "T@\"NSDate\",&,V_probeDate"
+- "T@\"NSDate\",&,V_probeRateLimit"
+- "T@\"NSDate\",&,V_retryDate"
+- "T@\"NSDate\",R"
+- "T@\"NSDate\",R,N"
+- "T@\"NSDate\",R,N,V_startDate"
+- "T@\"NSDate\",R,V_startDate"
+- "T@\"NSDate\",R,V_timestamp"
+- "T@\"NSDictionary\",&,N,V_edgeSets"
+- "T@\"NSDictionary\",&,N,V_replacementAddressMap"
+- "T@\"NSDictionary\",&,V_appRules"
+- "T@\"NSDictionary\",&,V_currentOnRampIndexList"
+- "T@\"NSDictionary\",&,V_onRampLists"
+- "T@\"NSDictionary\",&,V_onRampMap"
+- "T@\"NSMutableArray\",&,V_samples"
+- "T@\"NSMutableArray\",&,V_savedDirectData"
+- "T@\"NSMutableArray\",R,N,V_knownFlows"
+- "T@\"NSMutableData\",&,V_responseData"
+- "T@\"NSMutableDictionary\",&,N,V_edgeAttributesDict"
+- "T@\"NSMutableDictionary\",&,N,V_flowInfoMap"
+- "T@\"NSMutableDictionary\",&,V_networkInformation"
+- "T@\"NSMutableDictionary\",R,N,V_fallbackCounts"
+- "T@\"NSMutableDictionary\",R,N,V_flows"
+- "T@\"NSNumber\",&,N,V_interfaceType"
+- "T@\"NSNumber\",&,V_addressFamily"
+- "T@\"NSNumber\",&,V_currentTimeout"
+- "T@\"NSNumber\",&,V_responseContentLength"
+- "T@\"NSNumber\",C,N,V_connectionIdleTimeout"
+- "T@\"NSNumber\",C,N,V_connectionTimeout"
+- "T@\"NSNumber\",C,N,V_disableFallback"
+- "T@\"NSNumber\",C,N,V_divertDNSOnly"
+- "T@\"NSNumber\",C,N,V_enableDirectExtendedValidation"
+- "T@\"NSNumber\",C,N,V_enableDirectMultipath"
+- "T@\"NSNumber\",C,N,V_enableDirectRace"
+- "T@\"NSNumber\",C,N,V_enableDirectTFO"
+- "T@\"NSNumber\",C,N,V_enableMultipath"
+- "T@\"NSNumber\",C,N,V_enableNoTFOCookie"
+- "T@\"NSNumber\",C,N,V_enableOptInPerTask"
+- "T@\"NSNumber\",C,N,V_enableRatio"
+- "T@\"NSNumber\",C,N,V_enableTFO"
+- "T@\"NSNumber\",C,N,V_enableUDPRace"
+- "T@\"NSNumber\",C,N,V_enabled"
+- "T@\"NSNumber\",C,N,V_fallbackBufferLimit"
+- "T@\"NSNumber\",C,N,V_fallbackCountBeforeImmediateFallback"
+- "T@\"NSNumber\",C,N,V_fallbackTimeout"
+- "T@\"NSNumber\",C,N,V_initialWindowSize"
+- "T@\"NSNumber\",C,N,V_noDNSDelegation"
+- "T@\"NSNumber\",C,N,V_reenableInterval"
+- "T@\"NSNumber\",C,N,V_requireTFO"
+- "T@\"NSNumber\",C,N,V_serviceID"
+- "T@\"NSNumber\",C,N,V_shouldComposeInitialData"
+- "T@\"NSNumber\",C,N,V_telemetryRatio"
+- "T@\"NSNumber\",C,N,V_useCustomProtocol"
+- "T@\"NSNumber\",C,N,V_useLocalFlowDivert"
+- "T@\"NSNumber\",C,V_TFOLeeway"
+- "T@\"NSNumber\",C,V_connectionIdleTimeoutMaximum"
+- "T@\"NSNumber\",C,V_dayPassEnableSessionTicket"
+- "T@\"NSNumber\",C,V_dayPassExtendedValidation"
+- "T@\"NSNumber\",C,V_dayPassHostnamePrependLabel"
+- "T@\"NSNumber\",C,V_dayPassPort"
+- "T@\"NSNumber\",C,V_dayPassRequestTimeout"
+- "T@\"NSNumber\",C,V_dayPassRevocationFailClosed"
+- "T@\"NSNumber\",C,V_edgeFairnessFactor"
+- "T@\"NSNumber\",C,V_edgeSelectionAlpha"
+- "T@\"NSNumber\",C,V_edgeSelectionEnabled"
+- "T@\"NSNumber\",C,V_edgeSelectionWindowSize"
+- "T@\"NSNumber\",C,V_edgesGeneration"
+- "T@\"NSNumber\",C,V_enableIPv6"
+- "T@\"NSNumber\",C,V_enableLatencyDerivation"
+- "T@\"NSNumber\",C,V_latencyFactorA"
+- "T@\"NSNumber\",C,V_latencyFactorB"
+- "T@\"NSNumber\",C,V_latencyFactorX"
+- "T@\"NSNumber\",C,V_locationCheckInterval"
+- "T@\"NSNumber\",C,V_locationTTL"
+- "T@\"NSNumber\",C,V_locationToleranceDistance"
+- "T@\"NSNumber\",C,V_observedRTTSampleSize"
+- "T@\"NSNumber\",C,V_probeNoTFOCookie"
+- "T@\"NSNumber\",C,V_probePause"
+- "T@\"NSNumber\",C,V_probeTFO"
+- "T@\"NSNumber\",C,V_probeTimeout"
+- "T@\"NSNumber\",C,V_reprocessSampleSize"
+- "T@\"NSNumber\",C,V_reprocessSamplingInterval"
+- "T@\"NSNumber\",C,V_requireTFO"
+- "T@\"NSNumber\",C,V_retryPause"
+- "T@\"NSNumber\",C,V_signatureLimit"
+- "T@\"NSNumber\",C,V_useGeohashFromServer"
+- "T@\"NSNumber\",C,V_usedEdgesGeneration"
+- "T@\"NSNumber\",C,V_version"
+- "T@\"NSNumber\",C,V_viewSize"
+- "T@\"NSNumber\",C,V_waldoRevocationFailClosed"
+- "T@\"NSNumber\",R,V_identifier"
+- "T@\"NSObject<OS_dispatch_data>\",&,N,V_savedData"
+- "T@\"NSObject<OS_dispatch_queue>\",R,V_reprocessQueue"
+- "T@\"NSObject<OS_dispatch_source>\",&,V_probeTimer"
+- "T@\"NSObject<OS_dispatch_source>\",&,V_reprocessSamplingTimer"
+- "T@\"NSObject<OS_dispatch_source>\",&,V_resolveTimer"
+- "T@\"NSObject<OS_nw_endpoint>\",&,N,V_currentTunnelEndpoint"
+- "T@\"NSObject<OS_nw_endpoint>\",&,N,V_localEndpoint"
+- "T@\"NSObject<OS_nw_endpoint>\",R,N,V_endpoint"
+- "T@\"NSObject<OS_nw_interface>\",R,N"
+- "T@\"NSObject<OS_nw_parameters>\",R,N,V_parameters"
+- "T@\"NSObject<OS_nw_path>\",&,N,V_path"
+- "T@\"NSPAppRule\",&,N,V_defaults"
+- "T@\"NSPAppRule\",&,V_appRule"
+- "T@\"NSPAppRule\",&,V_matchingAppRule"
+- "T@\"NSPAppRule\",R,N,V_appRule"
+- "T@\"NSPConfiguration\",&,N,V_configuration"
+- "T@\"NSPConfiguration\",&,V_configuration"
+- "T@\"NSPConnectionInfo\",&,V_connectionInfo"
+- "T@\"NSPDNSPacket\",&,V_directDNSResponse"
+- "T@\"NSPDNSPacket\",&,V_query"
+- "T@\"NSPDNSPacket\",&,V_tunnelDNSResponse"
+- "T@\"NSPFlowDivert\",&,V_flowDivert"
+- "T@\"NSPKeyNetworkAgent\",&,V_agent"
+- "T@\"NSPManager\",&,V_manager"
+- "T@\"NSPNetworkAgent\",&,N,V_agent"
+- "T@\"NSPNetworkAgent\",R"
+- "T@\"NSPredicate\",&,V_validOnRampPredicate"
+- "T@\"NSPredicate\",&,V_validOnRampWithTFOPredicate"
+- "T@\"NSString\",&,N,V_geohash"
+- "T@\"NSString\",&,N,V_hostname"
+- "T@\"NSString\",&,V_bestEdge"
+- "T@\"NSString\",&,V_nextBestEdge"
+- "T@\"NSString\",C,N"
+- "T@\"NSString\",C,N,V_edgeSetIdentifier"
+- "T@\"NSString\",C,N,V_label"
+- "T@\"NSString\",C,N,V_locationBundlePath"
+- "T@\"NSString\",C,N,V_proxyEvaluationPath"
+- "T@\"NSString\",C,N,VagentDescription"
+- "T@\"NSString\",C,V_dayPassHostname"
+- "T@\"NSString\",C,V_dayPassLeafOID"
+- "T@\"NSString\",C,V_tag"
+- "T@\"NSString\",C,V_telemetryService"
+- "T@\"NSString\",C,V_waldoLeafOID"
+- "T@\"NSString\",R,N"
+- "T@\"NSString\",R,N,V_signingIdentifier"
+- "T@\"NSString\",R,V_identifier"
+- "T@\"NSString\",R,V_label"
+- "T@\"NSString\",R,V_name"
+- "T@\"NSString\",R,V_resourceString"
+- "T@\"NSURL\",&,V_url"
+- "T@\"NSURL\",C,V_telemetryURL"
+- "T@\"NSURLSession\",&,V_dayPassSession"
+- "T@\"NSUUID\",&,N,V_configurationIdentifier"
+- "T@\"NSUUID\",&,N,V_dayPassUUID"
+- "T@\"NSUUID\",&,N,V_uuid"
+- "T@\"NSUUID\",&,V_configurationIdentifier"
+- "T@\"NSUUID\",&,V_dayPassUUID"
+- "T@\"NSUUID\",C,N"
+- "T@\"NSUUID\",C,N,VagentUUID"
+- "T@\"NSUUID\",R,N,V_identifier"
+- "T@\"NWEndpoint\",&,N,V_directEndpoint"
+- "T@\"NWEndpoint\",&,V_probeEndpoint"
+- "T@\"NWEndpoint\",&,V_savedEndpoint"
+- "T@\"NWEndpoint\",R,V_daypassEndpoint"
+- "T@\"NWEndpoint\",R,V_onRampEndpoint"
+- "T@\"NWEndpoint\",R,V_probeEndpoint"
+- "T@\"NWEndpoint\",R,V_remoteEndpoint"
+- "T@\"NWNetworkAgentRegistration\",&,N,V_agentRegistration"
+- "T@\"NWNetworkAgentRegistration\",&,V_agentRegistration"
+- "T@\"NWPathEvaluator\",R,N,V_pathEvaluator"
+- "T@\"NWPathEvaluator\",R,N,V_policyEvaluator"
+- "T@\"NWTCPConnection\",&,V_probeConnection"
+- "T@\"NWUDPSession\",&,V_directSession"
+- "T@?,C,N,V_changeHandler"
+- "T@?,C,N,V_connectionInfoSetHandler"
+- "T@?,C,N,V_pendingCancellationHandler"
+- "T@?,C,N,V_pendingPingCompletionHandler"
+- "T@?,C,N,V_tunnelConnectedHandler"
+- "T@?,C,V_postCompletionHandler"
+- "T@?,C,V_probeCompletionHandler"
+- "T@?,C,V_resolveCompletionHandler"
+- "T@?,R"
+- "TB"
+- "TB,?,N"
+- "TB,?,N,GisNetworkProvider"
+- "TB,?,N,GisNexusProvider"
+- "TB,?,N,GisSpecificUseOnly"
+- "TB,N,GisActive"
+- "TB,N,GisActive,Vactive"
+- "TB,N,GisKernelActivated"
+- "TB,N,GisKernelActivated,VkernelActivated"
+- "TB,N,GisUserActivated"
+- "TB,N,GisUserActivated,VuserActivated"
+- "TB,N,GisVoluntary"
+- "TB,N,GisVoluntary,Vvoluntary"
+- "TB,N,V_disableIdleTimeout"
+- "TB,N,V_disabledByRatio"
+- "TB,N,V_disconnectedByApp"
+- "TB,N,V_eof"
+- "TB,N,V_fallbackDisabled"
+- "TB,N,V_handledDisconnected"
+- "TB,N,V_ignoreWaldoTimestamp"
+- "TB,N,V_isCancelled"
+- "TB,N,V_isDirectConnectionViable"
+- "TB,N,V_isFirstTunnel"
+- "TB,N,V_isObserving"
+- "TB,N,V_shouldComposeIntialData"
+- "TB,R,N,V_enableDirectRace"
+- "TB,R,N,V_isReadyForData"
+- "TB,R,N,V_isTFOProbeSucceeded"
+- "TB,R,N,V_waitingForOutput"
+- "TB,R,V_isAuthoritativeAnswer"
+- "TB,R,V_isRecursionAvailable"
+- "TB,R,V_isRecursionDesired"
+- "TB,R,V_isTruncated"
+- "TB,V_dayPassFailed"
+- "TB,V_dayPassPending"
+- "TB,V_daypassRefreshInProgress"
+- "TB,V_disableIdleTimeout"
+- "TB,V_hasIPv6"
+- "TB,V_isObserving"
+- "TB,V_isProbeInProgress"
+- "TB,V_needReprobe"
+- "TB,V_passedReprobeThreshold"
+- "TB,V_probeNoTFOCookie"
+- "TB,V_probePending"
+- "TB,V_probeTFO"
+- "TB,V_reResolve"
+- "TB,V_receivedHeaders"
+- "TB,V_reprocessCancelled"
+- "TB,V_reprocessPending"
+- "TB,V_responseSuccess"
+- "TB,V_shouldResetPolicies"
+- "TB,V_shouldSave"
+- "TB,V_started"
+- "TB,V_telemetryReported"
+- "TB,V_testFetchDaypass"
+- "TB,V_waitingForOutput"
+- "TC,N,V_addressFamily"
+- "TCP"
+- "TFO %@"
+- "TFOLeeway"
+- "TFONoCookie"
+- "TFOStatus"
+- "TFOStatusOverride"
+- "TFOStatusString"
+- "TI"
+- "TI,N,V_edgeIndex"
+- "TI,N,V_flags"
+- "TI,N,V_flowIdentifier"
+- "TI,N,V_generation"
+- "TI,N,V_keybagGeneration"
+- "TI,N,V_nextFlowID"
+- "TI,N,V_tunnelCount"
+- "TI,N,V_waldoTimestamp"
+- "TI,R,N"
+- "TI,V_flags"
+- "TI,V_generation"
+- "TI,V_index"
+- "TI,V_session_counter"
+- "TQ,N,V_identifier"
+- "TQ,N,V_rtt"
+- "TQ,N,V_serviceID"
+- "TQ,R,N,V_hashKey"
+- "TQ,R,V_dataLength"
+- "TQ,R,V_maxFrameSize"
+- "TQ,R,V_rtt"
+- "TQ,R,V_timeToLive"
+- "TQ,V_bestEdgeProbedRTT"
+- "TQ,V_bestEdgeRTT"
+- "TQ,V_currentBlobSizeIndex"
+- "TQ,V_edgeIndex"
+- "TQ,V_index"
+- "TQ,V_nextBestEdgeRTT"
+- "TQ,V_offset"
+- "TQ,V_roundTripTime"
+- "TQ,V_savedDataSize"
+- "TQ,V_size"
+- "TQ,V_testLatencyMapIndex"
+- "TXT"
+- "T^Q,N,V_timestamps"
+- "T^Q,R,N,V_timestamps"
+- "T^v,N,V_clientRef"
+- "T^v,N,V_fallbackTimer"
+- "T^v,N,V_telemetryTimer"
+- "T^v,R,N,V_window"
+- "T^v,V_tunnelResponseTimer"
+- "T^v,V_window"
+- "T^{nw_protocol=[16C]^{nw_protocol_identifier}^{nw_protocol_callbacks}^{nw_protocol}^v^{nw_protocol}^v},R"
+- "T^{nw_protocol=[16C]^{nw_protocol_identifier}^{nw_protocol_callbacks}^{nw_protocol}^v^{nw_protocol}^v},R,N"
+- "T^{nw_protocol=[16C]^{nw_protocol_identifier}^{nw_protocol_callbacks}^{nw_protocol}^v^{nw_protocol}^v},R,N,V_inputProtocol"
+- "Tag"
+- "Td,N,V_alpha"
+- "Td,N,V_fallbackTimeout"
+- "Td,N,V_lastUsedTimestamp"
+- "Td,N,V_timeToFirstRequest"
+- "Td,R"
+- "Td,V_dayPassHardExpiry"
+- "Td,V_distance"
+- "Td,V_latitude"
+- "Td,V_longtitude"
+- "Telemetry ratio is 0.0, not sending telemetry"
+- "TelemetryService"
+- "TelemetryURL"
+- "The new NSP configuration does not differ from the current configuration, not updating the configuration"
+- "Ti,N,V_dataMode"
+- "Ti,N,V_error"
+- "Ti,V_error"
+- "Timestamp"
+- "Tq,N,V_TFOStatusOverride"
+- "Tq,N,V_connectionState"
+- "Tq,N,V_fallbackReason"
+- "Tq,N,V_trialCount"
+- "Tq,N,V_windowSize"
+- "Tq,R"
+- "Tq,R,N"
+- "Tq,R,N,V_fallbackReason"
+- "Tq,R,N,V_state"
+- "Tq,R,V_currentEdgeType"
+- "Tq,R,V_identifier"
+- "Tq,R,V_messageType"
+- "Tq,R,V_opCode"
+- "Tq,R,V_recordClass"
+- "Tq,R,V_recordType"
+- "Tq,R,V_responseCode"
+- "Tq,R,V_source"
+- "Tq,R,V_type"
+- "Tq,V_TFOStatus"
+- "Tq,V_currentEdgeIndex"
+- "Tq,V_directResult"
+- "Tq,V_fallbackReason"
+- "Tq,V_interfaceType"
+- "Tq,V_lastFallbackReason"
+- "Tq,V_probeCount"
+- "Tq,V_reprobeCount"
+- "Tq,V_tunnelResult"
+- "Tr*,R,V_bytes"
+- "Tr*,V_cursor"
+- "Tunnel"
+- "Tunnel %@ is ready"
+- "Tunnel count is now %u"
+- "TunnelDisposed"
+- "TunnelStartFailed"
+- "Tuscany"
+- "Tuscany endpoint resolve custom endpoint %@"
+- "URL"
+- "UUID"
+- "Updating existing configuration agent"
+- "UseCustomProtocol"
+- "UseGeoFromServer"
+- "UseLocalFlowDivert"
+- "Using test latency map data for locally: %@"
+- "V"
+- "ViewCount"
+- "ViewSize"
+- "Waiting for %u tunnels to close"
+- "Waldo Request timeout"
+- "Waldo reprocess queue"
+- "Who<3LovesYaBaby"
+- "Will"
+- "Will not"
+- "X-Host"
+- "X-MaxFrame"
+- "X-RTT"
+- "X-Timeout"
+- "[%@ tuscany: %@ maxframe: %lu rtt: %lu %@ creation: %@ hard: %f tfoStatus: %ld]"
+- "[%@]"
+- "[%d] %s (%s)"
+- "[%d] blocked"
+- "[%d] dispose ('%s')"
+- "[%d] dispose ('%s') :: queue=%u"
+- "[%d] exception '%s' on channel %d"
+- "[%d] incoming <%s:%d>"
+- "[%d] queued <%s:%ld>"
+- "[%d] readable (%s)"
+- "[%d] sending ack(%d) on channel %d"
+- "[%d] sending eof on channel %d"
+- "[%d] sending hack (time %d)"
+- "[%d] writable"
+- "[%d] wrote %ld of <%s:%ld>"
+- "[32C]"
+- "[4Q]"
+- "[bytes = %lu, frames = %lu, last frame = %lu, partial frames = %lu, partial headers = %lu]"
+- "[probeEndpoint isKindOfClass:[NWAddressEndpoint class]]"
+- "^Q"
+- "^Q16@0:8"
+- "^v"
+- "^v16@0:8"
+- "^{nw_protocol=[16C]^{nw_protocol_identifier}^{nw_protocol_callbacks}^{nw_protocol}^v^{nw_protocol}^v}"
+- "^{nw_protocol=[16C]^{nw_protocol_identifier}^{nw_protocol_callbacks}^{nw_protocol}^v^{nw_protocol}^v}16@0:8"
+- "_"
+- "_CFURLRequest"
+- "_TCPConnectionMetadata"
+- "_TFOLeeway"
+- "_TFOStatus"
+- "_TFOStatusOverride"
+- "_UDPSession"
+- "_additionalRecords"
+- "_addressFamily"
+- "_agent"
+- "_agentData"
+- "_agentRegistration"
+- "_allOnRamps"
+- "_alpha"
+- "_answers"
+- "_appRule"
+- "_appRules"
+- "_authorities"
+- "_bestEdge"
+- "_bestEdgeProbedRTT"
+- "_bestEdgeRTT"
+- "_blobSizes"
+- "_bytes"
+- "_cachedLocation"
+- "_changeHandler"
+- "_clientRef"
+- "_configurationIdentifier"
+- "_connectedOnInitialData"
+- "_connectedOnTunnelReadyForData"
+- "_connectionError"
+- "_connectionIdleTimeout"
+- "_connectionIdleTimeoutMaximum"
+- "_connectionInfo"
+- "_connectionInfoSetHandler"
+- "_connectionStartDate"
+- "_connectionState"
+- "_connectionTimeout"
+- "_connectionTimer"
+- "_creationDate"
+- "_currentAgents"
+- "_currentBlobSizeIndex"
+- "_currentEdgeIndex"
+- "_currentEdgeType"
+- "_currentEdges"
+- "_currentInputFrames"
+- "_currentLatencyMap"
+- "_currentNetworkCharacteristics"
+- "_currentOnRampIndexList"
+- "_currentState"
+- "_currentTimeout"
+- "_currentTunnelEndpoint"
+- "_cursor"
+- "_data"
+- "_dataDigest"
+- "_dataLength"
+- "_dataMode"
+- "_dayPass"
+- "_dayPassCreationDate"
+- "_dayPassEnableSessionTicket"
+- "_dayPassExtendedValidation"
+- "_dayPassFailed"
+- "_dayPassHardExpiry"
+- "_dayPassHostname"
+- "_dayPassHostnamePrependLabel"
+- "_dayPassLeafOID"
+- "_dayPassPending"
+- "_dayPassPort"
+- "_dayPassRequestTimeout"
+- "_dayPassRevocationFailClosed"
+- "_dayPassSession"
+- "_dayPassSoftExpiry"
+- "_dayPassUUID"
+- "_daypassEndpoint"
+- "_daypassRefreshInProgress"
+- "_delegate"
+- "_directDNSResponse"
+- "_directEndpoint"
+- "_directResult"
+- "_directSession"
+- "_directTLSPorts"
+- "_disableFallback"
+- "_disableIdleTimeout"
+- "_disabledByRatio"
+- "_discardFirstData"
+- "_disconnectedByApp"
+- "_disconnectedByTunnel"
+- "_distance"
+- "_divertDNSOnly"
+- "_edgeAttributesDict"
+- "_edgeFairnessFactor"
+- "_edgeIndex"
+- "_edgeLatencies"
+- "_edgeSelection"
+- "_edgeSelectionAlpha"
+- "_edgeSelectionEnabled"
+- "_edgeSelectionWindowSize"
+- "_edgeSetIdentifier"
+- "_edgeSets"
+- "_edges"
+- "_edgesGeneration"
+- "_enableCheckDate"
+- "_enableDirectExtendedValidation"
+- "_enableDirectMultipath"
+- "_enableDirectRace"
+- "_enableDirectTFO"
+- "_enableIPv6"
+- "_enableLatencyDerivation"
+- "_enableMultipath"
+- "_enableNoTFOCookie"
+- "_enableOptInPerTask"
+- "_enableRatio"
+- "_enableTFO"
+- "_enableUDPRace"
+- "_endpoint"
+- "_eof"
+- "_eofFlow"
+- "_eofNW"
+- "_error"
+- "_extraFlowProperties"
+- "_fallbackBufferLimit"
+- "_fallbackCountBeforeImmediateFallback"
+- "_fallbackCounts"
+- "_fallbackDisabled"
+- "_fallbackTimeout"
+- "_fallbackTimer"
+- "_firstPacketDate"
+- "_firstTxByteTimestamp"
+- "_flags"
+- "_flow"
+- "_flowDivert"
+- "_flowDivertControlHandle"
+- "_flowInfoMap"
+- "_flows"
+- "_generation"
+- "_geohash"
+- "_handledDisconnected"
+- "_hasIPv6"
+- "_hasTunnel"
+- "_hashKey"
+- "_hostname"
+- "_hosts"
+- "_hostsData"
+- "_idleTimer"
+- "_ignoreWaldoTimestamp"
+- "_inUseKeybag"
+- "_index"
+- "_info"
+- "_initialWindowSize"
+- "_inputBuffer"
+- "_inputProtocol"
+- "_isAuthoritativeAnswer"
+- "_isCancelled"
+- "_isDirectConnectionViable"
+- "_isFirstTunnel"
+- "_isObserving"
+- "_isProbeInProgress"
+- "_isReadyForData"
+- "_isRecursionAvailable"
+- "_isRecursionDesired"
+- "_isTruncated"
+- "_keybag"
+- "_keybagGeneration"
+- "_keys"
+- "_knownFlows"
+- "_lastFallbackReason"
+- "_lastUsed"
+- "_lastUsedTimestamp"
+- "_lastVisited"
+- "_latencyFactorA"
+- "_latencyFactorB"
+- "_latencyFactorX"
+- "_latitude"
+- "_localEndpoint"
+- "_location"
+- "_locationBundlePath"
+- "_locationCheckInterval"
+- "_locationCheckTimestamp"
+- "_locationExpiration"
+- "_locationManager"
+- "_locationTTL"
+- "_locationToleranceDistance"
+- "_longtitude"
+- "_manager"
+- "_matchEffectiveApplications"
+- "_matchingAppRule"
+- "_maxFrameSize"
+- "_messageType"
+- "_name"
+- "_needReprobe"
+- "_networkInformation"
+- "_networkSignature"
+- "_networkTransaction"
+- "_nextBestEdge"
+- "_nextBestEdgeRTT"
+- "_nextEdge"
+- "_nextFlowID"
+- "_noDNSDelegation"
+- "_nwContext"
+- "_observedRTTSampleSize"
+- "_offset"
+- "_onRamp"
+- "_onRampEndpoint"
+- "_onRampList"
+- "_onRampLists"
+- "_onRampMap"
+- "_opCode"
+- "_parameters"
+- "_parentWaldo"
+- "_passedReprobeThreshold"
+- "_pathEvaluator"
+- "_pendingCancellationHandler"
+- "_pendingPingCompletionHandler"
+- "_pingTimer"
+- "_policyEvaluator"
+- "_policySession"
+- "_postCompletionHandler"
+- "_preconnect"
+- "_probeCompletionHandler"
+- "_probeConnection"
+- "_probeCount"
+- "_probeDate"
+- "_probeEndpoint"
+- "_probeNoTFOCookie"
+- "_probePause"
+- "_probePending"
+- "_probeRateLimit"
+- "_probeTFO"
+- "_probeTimeout"
+- "_probeTimer"
+- "_protocol"
+- "_proxyEvaluationPath"
+- "_queries"
+- "_query"
+- "_reResolve"
+- "_receivedHeaders"
+- "_recordClass"
+- "_recordType"
+- "_reenableInterval"
+- "_remoteEndpoint"
+- "_replacementAddressMap"
+- "_replacementEndpoint"
+- "_reprobeCount"
+- "_reprocessCancelled"
+- "_reprocessPending"
+- "_reprocessQueue"
+- "_reprocessSampleSize"
+- "_reprocessSamplingInterval"
+- "_reprocessSamplingTimer"
+- "_requireTFO"
+- "_resolveCompletionHandler"
+- "_resolveTimer"
+- "_resourceString"
+- "_responseCode"
+- "_responseContentLength"
+- "_responseSuccess"
+- "_retryDate"
+- "_retryPause"
+- "_roundTripAverage"
+- "_roundTripAverageObserved"
+- "_roundTripTime"
+- "_rtt"
+- "_samples"
+- "_savedData"
+- "_savedDataSize"
+- "_savedDirectData"
+- "_savedEndpoint"
+- "_serviceID"
+- "_session_counter"
+- "_shouldComposeInitialData"
+- "_shouldComposeIntialData"
+- "_shouldReportUsage"
+- "_shouldResetPolicies"
+- "_shouldSave"
+- "_signatureLimit"
+- "_signingIdentifier"
+- "_size"
+- "_source"
+- "_startDate"
+- "_started"
+- "_state"
+- "_stochasticRewardFromRTT:"
+- "_tag"
+- "_telemetryRatio"
+- "_telemetryReported"
+- "_telemetryService"
+- "_telemetryTimer"
+- "_telemetryURL"
+- "_testFetchDaypass"
+- "_testLatencyMap"
+- "_testLatencyMapIndex"
+- "_timeToFirstRequest"
+- "_timeToLive"
+- "_timestamps"
+- "_trialCount"
+- "_tunnel"
+- "_tunnelConnectedHandler"
+- "_tunnelCount"
+- "_tunnelDNSResponse"
+- "_tunnelError"
+- "_tunnelResponseTimer"
+- "_tunnelResult"
+- "_tuscanyEndpoint"
+- "_type"
+- "_updateHash"
+- "_url"
+- "_usageReportTimer"
+- "_useCustomProtocol"
+- "_useGeohashFromServer"
+- "_useLocalFlowDivert"
+- "_usedEdgesGeneration"
+- "_uuid"
+- "_validOnRampPredicate"
+- "_validOnRampWithTFOPredicate"
+- "_viewSize"
+- "_waitingForOutput"
+- "_waldoInfo"
+- "_waldoLeafOID"
+- "_waldoRevocationFailClosed"
+- "_waldoTimestamp"
+- "_window"
+- "_windowSize"
+- "accountIdentifier:"
+- "ace.siri.apple.com"
+- "ack"
+- "ack.bytes >= 0"
+- "acknowledgeData:sentToFlow:"
+- "active"
+- "addBufferToFrameArray:bufferSize:"
+- "addDNSInfoToTelemetry:"
+- "addEntriesFromDictionary:"
+- "addInputFramesToArray:limitMinimumBytes:limitMaximumBytes:limitMaximumFrames:"
+- "addInputFramesToArray:maximumBytes:minimumBytes:maximumFrameCount:"
+- "addNewFlow:"
+- "addObjectsFromArray:"
+- "addObserver:forKeyPath:options:context:"
+- "addOutputFramesToArray:limitMinimumBytes:limitMaximumBytes:limitMaximumFrames:"
+- "addOutputFramesToArray:maximumBytes:minimumBytes:maximumFrameCount:"
+- "addPoliciesForAgent:conditions:"
+- "addPoliciesForDivertDNSOnly:domainConditions:divertResult:"
+- "addPolicy:"
+- "addRoundTripSample:"
+- "addRoundTripSampleObserved:"
+- "addRoundTripSamples:"
+- "addSample:"
+- "addSamples:"
+- "additionalRecords"
+- "addressData"
+- "addressFamily"
+- "addressFamilyString"
+- "advanceBy:andCopyTo:"
+- "advertise"
+- "af"
+- "age"
+- "ageOutLatencyMap"
+- "agent"
+- "agentData"
+- "agentDescription"
+- "agentDomain"
+- "agentForKey"
+- "agentFromData:"
+- "agentRegistration"
+- "agentType"
+- "agentUUID"
+- "allHTTPHeaderFields"
+- "allHeaderFields"
+- "allInterfaces"
+- "allKeys"
+- "allOnRamps"
+- "allocateFlowID"
+- "alpha"
+- "alternate"
+- "answers"
+- "app"
+- "appData"
+- "appRule"
+- "appRuleUpdateHash"
+- "appRules"
+- "append (invalid link)"
+- "apps"
+- "array"
+- "arrayWithArray:"
+- "arrayWithObjects:count:"
+- "assertAgentWithOptions:"
+- "authorities"
+- "average"
+- "avg = %lu"
+- "bestEdge"
+- "bestEdgeProbedRTT"
+- "bestEdgeRTT"
+- "br, gzip, deflate"
+- "buffer.h"
+- "build"
+- "buildTestLatencyMap:"
+- "bundle"
+- "busy"
+- "cachedLocation"
+- "can't create Hello"
+- "canHandleMoreData"
+- "cancel"
+- "cancelConnection"
+- "cancelConnectionTimer"
+- "cancelProbes"
+- "capacity"
+- "changeHandler"
+- "characterSetWithCharactersInString:"
+- "checkAndReportTelemetry"
+- "cleanupLosingConnection:"
+- "cleanupStaleKeys"
+- "clientRef"
+- "close"
+- "closeClientFlowWithError:"
+- "closeFlow:"
+- "closeFromDirectConnectionWithError:"
+- "closeFromTunnel"
+- "closeNexusWithOptions:"
+- "closeReadWithError:"
+- "closeWithError:"
+- "closeWriteWithError:"
+- "code"
+- "com.apple.NetworkServiceProxy"
+- "com.apple.NetworkServiceProxy.WaldoInfo"
+- "com.apple.assistantd"
+- "com.apple.networkserviceproxy.flowdivert"
+- "com.apple.networkserviceproxy.network-transaction"
+- "com.apple.networkserviceproxy.waldoRefreshDayPasses"
+- "com.apple.networkserviceproxy.waldoReprocess"
+- "com.apple.networkserviceproxy.waldoReprocessAdHoc"
+- "com.apple.networkserviceproxy.waldoResolve"
+- "com.apple.nsputil"
+- "combineStateInfo:andConnectionInfo:"
+- "commit"
+- "compare:"
+- "compareByDistance:"
+- "compareLastVisited:"
+- "complete"
+- "componentsSeparatedByCharactersInSet:"
+- "configID"
+- "configurationIdentifier"
+- "connect"
+- "connected"
+- "connectedPath"
+- "connection"
+- "connectionIdleTimeout"
+- "connectionIdleTimeoutMaximum"
+- "connectionInfo"
+- "connectionInfoSetHandler"
+- "connectionParametersString"
+- "connectionStartDate"
+- "connectionState"
+- "connectionTimeout"
+- "constraint"
+- "container:didFailWithError:"
+- "container:didRequestFlowDivertControlSocketWithCompletionHandler:"
+- "container:didSetTunnelConfiguration:completionHandler:"
+- "container:didStartWithError:"
+- "contentsOfDirectoryAtPath:error:"
+- "copyAccountIdentifierConditions"
+- "copyAgentData"
+- "copyAgentResultsForAppRule:"
+- "copyCEndpoint"
+- "copyConnectionInfo"
+- "copyEdgeList:"
+- "copyEdgeListRTTAverage:observed:shortDescription:"
+- "copyEdgeSelectionTelemetry"
+- "copyExecutableConditions"
+- "copyHostsWithPort:"
+- "copyLatencyInfoDictionary:copyAll:"
+- "copyMatchDomainConditions"
+- "copyMatchEffectiveApplicationConditions"
+- "copyStateDictionary"
+- "copyStateForClient:withPeerEndpoint:outWaldoInfo:"
+- "copyStateIncludeDistance:"
+- "copyUsableOnRamps:requireTFO:"
+- "copyValue:ofSize:fromOffset:base:totalLength:"
+- "createAppRuleMapWithRules:"
+- "createConfigFetchURLWithPath:timestamp:"
+- "createConnectionInfo"
+- "createEdgeLatenciesToProbeWithEdgeIndex:startSampleCount:"
+- "createEndpointFromHostList:defaultPortString:allowIPv6:"
+- "createFallbackConnectionInfoWithFallbackReason:"
+- "createFlowDivertSocketHandle"
+- "createOnRamps"
+- "createPolicySession"
+- "createReplacementEndpointForEndpoint:properties:"
+- "createStateDictionaryWithResult:response:"
+- "createTelemetryDataWithCompletionHandler:"
+- "createTransformsForEndpoint:parameters:"
+- "createTuscanyClient"
+- "creationDate"
+- "crypto.h"
+- "currentAgents"
+- "currentBlobSizeIndex"
+- "currentEdge"
+- "currentEdgeIndex"
+- "currentEdgeList"
+- "currentEdgeType"
+- "currentEdges"
+- "currentIndex:"
+- "currentLatencyMap"
+- "currentMTU"
+- "currentNetworkHasProxies"
+- "currentNetworkInfo"
+- "currentNetworkLastUsed"
+- "currentOnRampIndexList"
+- "currentPath"
+- "currentTimeout"
+- "currentTunnelEndpoint"
+- "cursor"
+- "d24@0:8d16"
+- "dataLen > sizeof(Frame::Header)"
+- "dataLength"
+- "dataMode"
+- "dataUsingEncoding:"
+- "date"
+- "dateByAddingTimeInterval:"
+- "dayPass"
+- "dayPassCreation"
+- "dayPassCreationDate"
+- "dayPassEnableSessionTicket"
+- "dayPassEndpoint"
+- "dayPassExtendedValidation"
+- "dayPassFailed"
+- "dayPassFetchCount"
+- "dayPassHardExpiry"
+- "dayPassHostID"
+- "dayPassHostname"
+- "dayPassHostnamePrependLabel"
+- "dayPassLeafOID"
+- "dayPassOriginAddress"
+- "dayPassPending"
+- "dayPassPort"
+- "dayPassPortID"
+- "dayPassRefreshAllowed"
+- "dayPassRequestTimeout"
+- "dayPassRevocationFailClosed"
+- "dayPassSession"
+- "dayPassSessionCounter"
+- "dayPassSoftExpiry"
+- "dayPassUUID"
+- "daypass"
+- "daypassEndpoint"
+- "daypassRefreshInProgress"
+- "decodeInt32ForKey:"
+- "decodeInt64ForKey:"
+- "decrypt"
+- "decrypt failed"
+- "defaultManager"
+- "defaults"
+- "delegate"
+- "descriptionDictionary"
+- "destroyConnection"
+- "destroyFlowDivertSocketHandles"
+- "destroyPolicySession"
+- "device"
+- "dictionary parameter is not a dictionary: %@"
+- "dictionaryWithObjectsAndKeys:"
+- "didFailWithError with error: %@"
+- "didFailWithError:"
+- "didStartWithError called with: %@"
+- "didStartWithError:"
+- "direct connection"
+- "directDNSResponse"
+- "directEndpoint"
+- "directResult"
+- "directSession"
+- "directTLSPorts"
+- "disableFallback"
+- "disableIdleTimeout"
+- "disabledByRatio"
+- "disconnect"
+- "disconnectedByApp"
+- "distance"
+- "divertDNSOnly"
+- "dns"
+- "domain:"
+- "dpuuid"
+- "dropInputProtocol"
+- "dtor"
+- "earlierDate:"
+- "edgeAtIndex:"
+- "edgeAttributesDict"
+- "edgeContainingOnRamp:"
+- "edgeCount"
+- "edgeFairnessFactor"
+- "edgeIndex"
+- "edgeLatencies"
+- "edgeSelection"
+- "edgeSelectionAlpha"
+- "edgeSelectionEnabled"
+- "edgeSelectionWindowSize"
+- "edgeSet"
+- "edgeSetIdentifier"
+- "edgeSets"
+- "edges"
+- "edgesGeneration"
+- "effectiveApplication:"
+- "eidx"
+- "en"
+- "enable"
+- "enable-ratio"
+- "enableCheckDate"
+- "enableDirectExtendedValidation"
+- "enableDirectMultipath"
+- "enableDirectRace"
+- "enableDirectTFO"
+- "enableIPv6"
+- "enableLatencyDerivation"
+- "enableMultipath"
+- "enableNSP"
+- "enableNoTFOCookie"
+- "enableOptInPerTask"
+- "enableRatio"
+- "enableTFO"
+- "enableUDPRace"
+- "encodeHosts:"
+- "encodeInt32:forKey:"
+- "encodeInt64:forKey:"
+- "encrypt"
+- "endpoint"
+- "endpointType"
+- "endpointWithAddress:"
+- "endpointWithCEndpoint:"
+- "enumerateByteRangesUsingBlock:"
+- "enumerateEdgeSetsWithBlock:"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "eof"
+- "error"
+- "errorWithDomain:code:userInfo:"
+- "establishTrustWithCompletionHandler:"
+- "establishTrustWithEdgeSetForIdentifier:completionHandler:"
+- "ev"
+- "evaluateEnableRatios"
+- "evaluateWithObject:"
+- "exception"
+- "expirationDate"
+- "expiry"
+- "extraFlowProperties"
+- "failed to encrypt"
+- "failureReasonToFallbackReason:"
+- "fallback"
+- "fallbackBufferLimit"
+- "fallbackCountBeforeImmediateFallback"
+- "fallbackCounts"
+- "fallbackDisabled"
+- "fallbackTimeout"
+- "fallbackTimer"
+- "fatal"
+- "fatal: %s\n"
+- "fb"
+- "fetchAppRuleForLabel:completionHandler:"
+- "fetchDaypass"
+- "fetchEdgeSetForIdentifier:completionHandler:"
+- "fetchStateForClient:withPeerEndpoint:completionHandler:"
+- "fileDescriptor"
+- "fillOutConnectionInfo:withPath:interface:remoteEndpoint:parameters:outputHandler:"
+- "fillTestDaypass"
+- "fillTestLatency"
+- "filteredArrayUsingPredicate:"
+- "firstPacketDate"
+- "firstTxByteTimestamp"
+- "flags"
+- "flow"
+- "flowDivert"
+- "flowDivertControlHandle"
+- "flowInfoMap"
+- "flowIsFirstFlow:"
+- "flows"
+- "format"
+- "gen"
+- "generation"
+- "geo"
+- "geohash"
+- "getAgentResults:"
+- "getAgentResultsForSelf"
+- "getAppRuleMatchingParameters:flowProperties:"
+- "getAttributesForEdge:reply:"
+- "getBestEdgeFromEdgeSelection"
+- "getBytes:length:"
+- "getConnectionInfoForIdentifier:"
+- "getCurrentKeyBagForAppRule:"
+- "getCurrentNetworkInterfaceType"
+- "getCurrentOnRamp:"
+- "getDayPassRTT"
+- "getEdgeSetForAppRule:"
+- "getEdgeSetForSigningIdentifier:"
+- "getEffectiveAppRules:"
+- "getExecutableConditions:"
+- "getFallbackReasonForLatencies:"
+- "getMinimumLatencyEdge:"
+- "getNextSessionCounter"
+- "getOnRamp:addressFamily:"
+- "getOnRampForEndpoint:"
+- "getPortFromEndpoint:defaultPort:"
+- "getRoundTripSample:"
+- "getTestLatencyRTT:parameters:"
+- "getTuscanyEndpoint:"
+- "getUUIDBytes:"
+- "got reply for waldo refresh"
+- "hack"
+- "handle"
+- "handleAppData:"
+- "handleCanHandleMoreData"
+- "handleConnected"
+- "handleConnectionError"
+- "handleConnectionIsDisconnected"
+- "handleDataWrittenWithError:"
+- "handleDetachedFromProtocol"
+- "handleDisconnected"
+- "handleEOF"
+- "handleFallbackForFlow:"
+- "handleFlowClosed:withFallbackReason:"
+- "handleFlowUsedTunnel"
+- "handleHelloAck:"
+- "handleIncomingData:andError:"
+- "handleInputAvailable"
+- "handleNewFlow:"
+- "handleOutputAvailable"
+- "handleOutputFrame:"
+- "handleOutputFrame:send:"
+- "handlePingResponseRTT:geohash:"
+- "handlePolicyUpdate"
+- "handleReadData:"
+- "handleReadData_block_invoke"
+- "handleReady"
+- "handleTFOFailedForAddressFamily:"
+- "handleTunnelCanHandleMoreData"
+- "handleTunnelConnected"
+- "handleTunnelDisconnected"
+- "handleTunnelReadyForData"
+- "handleUsageReport:"
+- "handleUsageReport:fromClient:"
+- "handledDisconnected"
+- "hangup"
+- "hasEdges"
+- "hasFlow:"
+- "hasIPv6"
+- "hasNetworkPath"
+- "hashKey"
+- "hello"
+- "host is not a string"
+- "host-prepend-label"
+- "hostname"
+- "hosts"
+- "hostsData"
+- "https://%@:%@/tuscany/daypass/2"
+- "identifier = %@, currentEdgeIndex = %ld, retryPause = %@, probePause = %@, probeTFO = %@, probeNoTFOCookie = %@ enableLatencyDerivation = %@, latencyFactorX = %@, latencyFactorA = %@, latencyFactorB = %@, edgeFairnessFactor = %@, locationCheckInterval = %@, locationToleranceDistance = %@, locationTTL = %@, viewSize = %@, daypassRequestTimeout = %@, daypassSoftExpiry = %@, generation = %u, cachedLocation = %@, locationCheckTimestamp %@, useGeoFromServer %@, enableIPv6 %@, requireTFO %@"
+- "idle"
+- "idleSeconds"
+- "ignoreWaldoTimestamp"
+- "inUseKeybag"
+- "inbound"
+- "incomplete"
+- "increaseWindowSize:"
+- "increaseWindowSizeForFlow:byBytes:"
+- "incrementSessionCounters"
+- "index"
+- "indexOfBestEdge"
+- "indexOfObject:"
+- "info"
+- "ingestTestLatencyMap:local:completionHandler:"
+- "initFlowDivertControlSocketDisableAppMap:"
+- "initFromByteParser:"
+- "initFromData:"
+- "initFromDictionary:"
+- "initFromKeychain"
+- "initFromKeychainWithIdentifier:"
+- "initWithAppProxyFlow:nwContext:"
+- "initWithArray:"
+- "initWithArray:copyItems:"
+- "initWithBytesNoCopy:length:"
+- "initWithBytesNoCopy:length:freeWhenDone:"
+- "initWithDelegate:providerClass:"
+- "initWithDelegate:providerClass:configuration:"
+- "initWithDictionary:copyItems:"
+- "initWithEncodedData:"
+- "initWithEndpoint:"
+- "initWithEndpoint:parameters:"
+- "initWithEndpoint:parameters:appRule:flowProperties:delegate:"
+- "initWithEndpoint:parameters:appRule:flowProperties:onRamp:delegate:"
+- "initWithHosts:"
+- "initWithIdentifier:timestamp:fromDictionary:source:"
+- "initWithKey:"
+- "initWithLabel:index:onRampEndpoint:probeEndpoint:location:"
+- "initWithLatitude:longtitude:timestamp:"
+- "initWithName:recordType:recordClass:"
+- "initWithNetworkAgentClass:"
+- "initWithNetworkAgentRegistration:sessionType:configurationIdentifier:agentUUID:"
+- "initWithNetworkSignature:interfaceType:modelParams:"
+- "initWithObjectsAndKeys:"
+- "initWithOnRamps:currentNetworkInfo:currentEdgeIndex:currentEdgeList:generation:identifier:updateHash:"
+- "initWithOrder:result:conditions:"
+- "initWithParameters:"
+- "initWithProbeEndpoint:probeTFO:"
+- "initWithSampleSize:"
+- "initWithSigningIdentifier:designatedRequirement:"
+- "initWithSigningIdentifier:fallbackReason:"
+- "initWithTLVData:"
+- "initWithTimeInterval:sinceDate:"
+- "initWithTimeIntervalSinceNow:"
+- "initWithTimeIntervalSinceReferenceDate:"
+- "initWithTimestamp:fromDictionary:waldoSource:"
+- "initWithTunnel:URL:extraFlowProperties:"
+- "initWithTunnel:appRule:hashKey:extraFlowProperties:"
+- "initWithTunnel:appRule:inputProtocol:extraProperties:"
+- "initWithTunnel:service:postURL:"
+- "initWithUnsignedInt:"
+- "initWithWaldo:signature:interfaceType:"
+- "initialWindowSize"
+- "initializeEdgeSelection"
+- "initializeProtocol"
+- "inputProtocol"
+- "inputStreamWithFileAtPath:"
+- "instantiateFlowWithTunnel:inputProtocol:"
+- "instantiateTunnelWithEndpoint:parameters:"
+- "interfaceIndex"
+- "interrupt"
+- "interval"
+- "invalid header"
+- "invalidateDayPass"
+- "ipProtocol:"
+- "isActive"
+- "isAnyValid"
+- "isAuthoritativeAnswer"
+- "isBestEffort"
+- "isCancelled"
+- "isClientFlowClosed"
+- "isComplete:"
+- "isConnectionAlive"
+- "isDayPassExpired"
+- "isDayPassPastExpiry:"
+- "isDirectConnectionViable"
+- "isEnabled"
+- "isEndpointProbed:parameters:latencies:checkSampleSize:incompleteLatency:"
+- "isEqualToData:"
+- "isFirstTunnel"
+- "isIPv6Enabled"
+- "isKernelActivated"
+- "isLastValid"
+- "isLatenciesCompleteForNetwork:"
+- "isLatency:qualifiedForLatencyMap:parameters:requireUniqueEdges:"
+- "isLoopback"
+- "isMatched:"
+- "isMatched:parameters:"
+- "isNetworkProvider"
+- "isNexusProvider"
+- "isObserving"
+- "isProbeInProgress"
+- "isReadyForData"
+- "isRecursionAvailable"
+- "isRecursionDesired"
+- "isRegistered"
+- "isSpecificUseOnly"
+- "isTFOEnabled"
+- "isTruncated"
+- "isUserActivated"
+- "isValid"
+- "isVoluntary"
+- "iterateOnRampsForAddressFamily:withBlock:"
+- "kESSAlpha"
+- "kESSFairness"
+- "kESSGoodness"
+- "kESSIsSelected"
+- "kESSLastUsedTimestamp"
+- "kESSNoRTTCount"
+- "kESSPolicyMetric"
+- "kESSRTT"
+- "kESSRTTSamples"
+- "kESSRank"
+- "kESSRewardSampleMean"
+- "kESSRewardSamples"
+- "kESSSelectedEdgeLabel"
+- "kESSSelectionCount"
+- "kESSTrialCount"
+- "kESSWindowSize"
+- "keep-alive"
+- "kernelActivated"
+- "keybag"
+- "keybagGeneration"
+- "keys"
+- "keysSortedByValueUsingSelector:"
+- "knownFlows"
+- "lastFallbackReason"
+- "lastUsed"
+- "lastUsedDesc"
+- "lastUsedTimestamp"
+- "lastVisited"
+- "lastVisitedDesc"
+- "latencyComparator"
+- "latencyFactorA"
+- "latencyFactorB"
+- "latencyFactorX"
+- "latencyMap"
+- "laterDate:"
+- "latitude"
+- "link"
+- "linkAllSignatures:"
+- "linkLatenciesAllSignatures:"
+- "linkWithOnRampsRetainMissingAddressFamilies:"
+- "loadAppRules:withCompletionHandler:"
+- "loadObservedRTTSamples:"
+- "localEndpoint"
+- "location"
+- "locationBundlePath"
+- "locationCheckInterval"
+- "locationCheckTimestamp"
+- "locationExpiration"
+- "locationManager"
+- "locationTTL"
+- "locationToleranceDistance"
+- "logEdgeList:debug:toStdout:"
+- "logInternalError:context:"
+- "logLatencyInfoToStdout:logAll:logEdgeSelection:"
+- "logNSPDiagnosticReport:event:context:"
+- "logWithMessage:identifier:"
+- "longtitude"
+- "loopback"
+- "lowercaseString"
+- "m_headerReadCount < sizeof(m_currentHeader)"
+- "manager"
+- "matchAccountIdentifiers"
+- "matchDesignatedRequirement"
+- "matchDomains"
+- "matchEffectiveAppDesignatedRequirement"
+- "matchEffectiveAppPath"
+- "matchEffectiveAppSigningIdentifier"
+- "matchEffectiveApplications"
+- "matchPath"
+- "matchSigningIdentifier"
+- "matchingAppRule"
+- "maxDataSendSizeForFlow:"
+- "maxFrameSize"
+- "maxframe"
+- "measureLatencyWithTimeout:completionHandler:"
+- "merge:missingSettingsOnly:"
+- "mergeEdgeList:forNetworkSignature:"
+- "mergeNewLatencies:usingComparator:"
+- "messageType"
+- "metaData"
+- "moveToNextOnRamp"
+- "moveToOnRamp:"
+- "mptcp"
+- "must-tfo"
+- "name"
+- "needReprobe"
+- "netAgentUUID:"
+- "net_result"
+- "networkAgentsOfType:"
+- "networkInformation"
+- "networkProvider"
+- "networkSignature"
+- "nextBestEdge"
+- "nextBestEdgeRTT"
+- "nextEdge"
+- "nextFlowID"
+- "nextOnRampForLatency:outIndex:"
+- "nexusProvider"
+- "noDNSDelegation"
+- "noDivertDNS"
+- "noimpl"
+- "normal close"
+- "not "
+- "notfocookie"
+- "notifyClientConnected"
+- "notifyInputHandler"
+- "nsp"
+- "nsp.direct"
+- "nsp.loopback"
+- "null"
+- "numberWithUnsignedLong:"
+- "numberWithUnsignedShort:"
+- "nxdomain"
+- "observeValueForKeyPath:ofObject:change:context:"
+- "observedRTTSampleSize"
+- "offline"
+- "offset"
+- "ok"
+- "onRampEndpoint"
+- "onRampForIndex:"
+- "onRampList"
+- "onRampLists"
+- "onRampMap"
+- "opCode"
+- "open"
+- "openWithLocalEndpoint:completionHandler:"
+- "originalRequest"
+- "orphaned"
+- "out of buffers"
+- "outputInterface"
+- "parameters"
+- "parentWaldo"
+- "parentWaldo != nil"
+- "parse16Bits:"
+- "parse32Bits:"
+- "parse8Bits:"
+- "parseAddressWithFamily:"
+- "parseAgentData"
+- "parseBytes:"
+- "parseDomainName"
+- "parse_error"
+- "passedReprobeThreshold"
+- "pathEvaluator"
+- "peer closed"
+- "peer_address"
+- "pendingCancellationHandler"
+- "pendingPingCompletionHandler"
+- "ping"
+- "pingPong"
+- "pingWithCompletionHandler:"
+- "pki"
+- "plainsz + skpsz <= sizeof(pt)"
+- "policyEvaluator"
+- "policySession"
+- "populating (ch %d, len %ld)"
+- "port"
+- "postCompletionHandler"
+- "postData:withCompletionHandler:"
+- "predicateWithBlock:"
+- "probe"
+- "probeAddress"
+- "probeCompletionHandler"
+- "probeConnection"
+- "probeCount"
+- "probeDate"
+- "probeEndpoint"
+- "probeNoTFOCookie"
+- "probePause"
+- "probePending"
+- "probeRateLimit"
+- "probeSize"
+- "probeTFO"
+- "probeTimeout"
+- "probeTimer"
+- "probes"
+- "processConnectionInfo:"
+- "propertyForKey:"
+- "propertyListWithData:options:format:error:"
+- "propertyListWithStream:options:format:error:"
+- "protocol"
+- "proxyEvaluationPath"
+- "proxySettings"
+- "push (invalid link)"
+- "pushCurrentDayPassesToKernel setting keybag in kernel"
+- "pushKeybagToKernel"
+- "pushKeybagToKernelCanReuse:"
+- "pushKeybagToKernelUpdateGeneration:"
+- "q20@0:8I16"
+- "q24@?0@8@16"
+- "queries"
+- "query"
+- "questions"
+- "r*"
+- "r*16@0:8"
+- "r*24@0:8Q16"
+- "rangeOfData:options:range:"
+- "ratio"
+- "re-probing"
+- "reResolve"
+- "read"
+- "readDataFromClient"
+- "readDataWithCompletionHandler:"
+- "readMinimumLength:maximumLength:"
+- "readMinimumLength:maximumLength:completionHandler:"
+- "rebuildLatencyMapAllSignatures:"
+- "rebuildLatencyMapWithViewSize:edgeCount:parameters:"
+- "receivedHeaders"
+- "recordClass"
+- "recordType"
+- "reenableInterval"
+- "refreshDayPassWithWaldoDelegate:softExpiry:retryInterval:edge:completionHandler:"
+- "refreshDayPassesWithCompletionHandler:"
+- "refreshWaldoNowWithCompletionHandler:"
+- "refused"
+- "registerAgentWithKey:"
+- "registerNetworkAgent:"
+- "rekey"
+- "remoteEndpoint"
+- "remoteHostname"
+- "removeDayPassesFromKernel"
+- "removeFileHandleMatchingPredicate:"
+- "removeFlow:"
+- "removeIPv6Keys"
+- "removeObject:"
+- "removeObjectAtIndex:"
+- "removeObserver:forKeyPath:context:"
+- "replaceBytesInRange:withBytes:length:"
+- "replaceObjectAtIndex:withObject:"
+- "replaceOccurrencesOfString:withString:options:range:"
+- "replacementAddressMap"
+- "replacementEndpoint"
+- "reportError:withOptions:"
+- "reportMetrics"
+- "reportTelemetry:"
+- "reportTelemetry:withService:url:"
+- "reportUsage:fromClient:"
+- "reprobeCount"
+- "reprocessAdHocWithEdgeIndex:completionHandler:"
+- "reprocessCancelled"
+- "reprocessEdgeAtIndex:networkSignature:completionHandler:"
+- "reprocessLatencies:sampleCount:completionHandler:"
+- "reprocessPending"
+- "reprocessQueue"
+- "reprocessSampleSize"
+- "reprocessSamplingInterval"
+- "reprocessSamplingTimer"
+- "reprocessWithCompletionHandler:"
+- "reprocessWithNewRTT:reProbe:"
+- "request"
+- "request-timeout"
+- "requestData"
+- "requestNexusWithOptions:"
+- "requireTFO"
+- "requiresAssert"
+- "resend"
+- "reserved"
+- "resetParentWaldo:"
+- "resetPolicies:"
+- "resetStaleEdgeSets"
+- "resetTestLatencyMapIndex:"
+- "resolveCompletionHandler"
+- "resolveEndpointWithCompletionHandler:"
+- "resolveTimer"
+- "resolveWithCompletionHandler:"
+- "resolvedEndpointArray"
+- "resortEdgeLatenciesUsingComparator:"
+- "resortEdgeListForCurrentNetworkSignature"
+- "resource"
+- "resourceString"
+- "response"
+- "responseCode"
+- "responseCodeString"
+- "responseContentLength"
+- "responseData"
+- "responseSuccess"
+- "resultToString:"
+- "retry"
+- "retryDate"
+- "retryPause"
+- "roundTripAverage"
+- "roundTripAverageObserved"
+- "roundTripTime"
+- "rtt"
+- "rtts"
+- "rttvar"
+- "ru"
+- "ru-ru"
+- "rwnd"
+- "rx"
+- "samples"
+- "saveWithCompletionHandler:"
+- "savedData"
+- "savedDataSize"
+- "savedDirectData"
+- "savedEndpoint"
+- "selectBestEdge"
+- "self.probeConnection == nil"
+- "sendData:forFlow:"
+- "sendData:toClientFlow:"
+- "sendDataOnDirectSession:"
+- "sendDataOnUDPSession:"
+- "sendDataToClient:fromTunnel:"
+- "sendUsageReport:"
+- "sendUsageReportWithRTT:geohash:fallbackReason:"
+- "server"
+- "service"
+- "serviceID"
+- "session"
+- "sessionType"
+- "session_counter"
+- "setAccount:"
+- "setActive:"
+- "setAddressFamily:"
+- "setAgent:"
+- "setAgentData:"
+- "setAgentDescription:"
+- "setAgentRegistration:"
+- "setAgentUUID:"
+- "setAllOnRamps:"
+- "setAllowUnusableAddresses:"
+- "setAlpha:"
+- "setAppData:"
+- "setAppRule:"
+- "setAppRule:forLabel:completionHandler:"
+- "setAppRules:"
+- "setBestEdge:"
+- "setBestEdgeProbedRTT:"
+- "setBestEdgeRTT:"
+- "setCachedLocation:"
+- "setChangeHandler:"
+- "setClientRef:"
+- "setConfigurationIdentifier:"
+- "setConnectionIdleTimeout:"
+- "setConnectionIdleTimeoutMaximum:"
+- "setConnectionInfo:"
+- "setConnectionInfo:forIdentifier:"
+- "setConnectionInfoSetHandler:"
+- "setConnectionStartDate:"
+- "setConnectionState:"
+- "setConnectionTimeout:"
+- "setCreationDate:"
+- "setCurrentAgents:"
+- "setCurrentBlobSizeIndex:"
+- "setCurrentEdgeIndex:"
+- "setCurrentGeohash:"
+- "setCurrentIndex:addressFamily:"
+- "setCurrentLatencyMap:"
+- "setCurrentNetworkCharacteristics:"
+- "setCurrentOnRampIndexList:"
+- "setCurrentTimeout:"
+- "setCurrentTunnelEndpoint:"
+- "setCursor:"
+- "setDataMode:"
+- "setDayPass:"
+- "setDayPassCreationDate:"
+- "setDayPassEnableSessionTicket:"
+- "setDayPassExtendedValidation:"
+- "setDayPassFailed:"
+- "setDayPassHardExpiry:"
+- "setDayPassHostname:"
+- "setDayPassHostnamePrependLabel:"
+- "setDayPassLeafOID:"
+- "setDayPassPending:"
+- "setDayPassPort:"
+- "setDayPassRequestTimeout:"
+- "setDayPassRevocationFailClosed:"
+- "setDayPassSession:"
+- "setDayPassSessionCounter:"
+- "setDayPassSoftExpiry:"
+- "setDayPassUUID:"
+- "setDaypassRefreshInProgress:"
+- "setDefaults:"
+- "setDelegate:"
+- "setDirectDNSResponse:"
+- "setDirectEndpoint:"
+- "setDirectResult:"
+- "setDirectSession:"
+- "setDirectTLSPorts:"
+- "setDisableFallback:"
+- "setDisableIdleTimeout:"
+- "setDisabledByRatio:"
+- "setDisconnectedByApp:"
+- "setDistance:"
+- "setDivertDNSOnly:"
+- "setEdgeAttributesDict:"
+- "setEdgeFairnessFactor:"
+- "setEdgeIndex:"
+- "setEdgeLatencies:"
+- "setEdgeSelection:"
+- "setEdgeSelectionAlpha:"
+- "setEdgeSelectionEnabled:"
+- "setEdgeSelectionWindowSize:"
+- "setEdgeSet:forIdentifier:completionHandler:"
+- "setEdgeSetIdentifier:"
+- "setEdgeSets:"
+- "setEdges:"
+- "setEdgesGeneration:"
+- "setEnableCheckDate:"
+- "setEnableDirectExtendedValidation:"
+- "setEnableDirectMultipath:"
+- "setEnableDirectRace:"
+- "setEnableDirectTFO:"
+- "setEnableIPv6:"
+- "setEnableLatencyDerivation:"
+- "setEnableMultipath:"
+- "setEnableNSP:"
+- "setEnableNoTFOCookie:"
+- "setEnableOptInPerTask:"
+- "setEnableRatio:"
+- "setEnableTFO:"
+- "setEnableTFONoCookie:"
+- "setEnableUDPRace:"
+- "setEof:"
+- "setError:"
+- "setFallbackBufferLimit:"
+- "setFallbackCountBeforeImmediateFallback:"
+- "setFallbackDisabled:"
+- "setFallbackTimeout:"
+- "setFallbackTimer:"
+- "setFileHandle:matchingPredicate:"
+- "setFirstPacketDate:"
+- "setFirstTxByteTimestamp:"
+- "setFlags:"
+- "setFlow:"
+- "setFlowDivert:"
+- "setFlowDivertControlHandle:"
+- "setFlowIdentifier:"
+- "setFlowInfoMap:"
+- "setGeneration:"
+- "setGeohash:"
+- "setHandledDisconnected:"
+- "setHasIPv6:"
+- "setHostname:"
+- "setIgnoreWaldoTimestamp:"
+- "setInUseKeybag:"
+- "setIndex:"
+- "setInfo:"
+- "setInitialDataPayload:"
+- "setInitialFlowDivertControlSocket:"
+- "setInitialWindowSize:"
+- "setIsCancelled:"
+- "setIsDirectConnectionViable:"
+- "setIsFirstTunnel:"
+- "setIsLoopback:"
+- "setIsObserving:"
+- "setIsProbeInProgress:"
+- "setKernelActivated:"
+- "setKeybag:"
+- "setKeybagGeneration:"
+- "setKeys:"
+- "setLastFallbackReason:"
+- "setLastUsed:"
+- "setLastUsedTimestamp:"
+- "setLastVisited:"
+- "setLatencyFactorA:"
+- "setLatencyFactorB:"
+- "setLatencyFactorX:"
+- "setLatitude:"
+- "setLocalEndpoint:"
+- "setLocationBundlePath:"
+- "setLocationCheckInterval:"
+- "setLocationCheckTimestamp:"
+- "setLocationExpiration:"
+- "setLocationManager:"
+- "setLocationTTL:"
+- "setLocationToleranceDistance:"
+- "setLongtitude:"
+- "setManager:"
+- "setMatchAccountIdentifiers:"
+- "setMatchDomains:"
+- "setMatchEffectiveApplications:"
+- "setMatchPath:"
+- "setMatchingAppRule:"
+- "setNeedReprobe:"
+- "setNetworkInformation:"
+- "setNetworkProvider:"
+- "setNetworkSignature:"
+- "setNextBestEdge:"
+- "setNextBestEdgeRTT:"
+- "setNextFlowID:"
+- "setNexusProvider:"
+- "setNoDNSDelegation:"
+- "setObservedRTTSampleSize:"
+- "setOffset:"
+- "setOnRampList:"
+- "setOnRampLists:"
+- "setOnRampMap:"
+- "setParentWaldo:"
+- "setPassedReprobeThreshold:"
+- "setPendingCancellationHandler:"
+- "setPendingPingCompletionHandler:"
+- "setPolicySession:"
+- "setPostCompletionHandler:"
+- "setPriority:"
+- "setProbeCompletionHandler:"
+- "setProbeConnection:"
+- "setProbeCount:"
+- "setProbeDate:"
+- "setProbeEndpoint:"
+- "setProbeNoTFOCookie:"
+- "setProbePause:"
+- "setProbePending:"
+- "setProbeRateLimit:"
+- "setProbeTFO:"
+- "setProbeTimeout:"
+- "setProbeTimer:"
+- "setProxyEvaluationPath:"
+- "setQuery:"
+- "setReResolve:"
+- "setReadHandler:maxDatagrams:"
+- "setReceivedHeaders:"
+- "setReenableInterval:"
+- "setRegisteredNetworkAgent:fileDescriptor:"
+- "setReplacementAddressMap:"
+- "setReplacementEndpoint:"
+- "setReprobeCount:"
+- "setReprocessCancelled:"
+- "setReprocessPending:"
+- "setReprocessSampleSize:"
+- "setReprocessSamplingInterval:"
+- "setReprocessSamplingTimer:"
+- "setRequestData:"
+- "setRequireTFO:"
+- "setRequiredAddressFamily:"
+- "setRequiresAssert:"
+- "setResolveCompletionHandler:"
+- "setResolveTimer:"
+- "setResponseContentLength:"
+- "setResponseData:"
+- "setResponseSuccess:"
+- "setRetryDate:"
+- "setRetryPause:"
+- "setRoundTripAverage:"
+- "setRoundTripAverageObserved:"
+- "setRoundTripTime:"
+- "setRtt:"
+- "setSamples:"
+- "setSavedData:"
+- "setSavedDataSize:"
+- "setSavedDirectData:"
+- "setSavedEndpoint:"
+- "setServiceID:"
+- "setSession_counter:"
+- "setShouldComposeInitialData:"
+- "setShouldComposeIntialData:"
+- "setShouldResetPolicies:"
+- "setShouldSave:"
+- "setSignatureLimit:"
+- "setSize:"
+- "setSpecificUseOnly:"
+- "setStarted:"
+- "setSupportsBrowseRequests:"
+- "setSupportsListenRequests:"
+- "setSupportsResolveRequests:"
+- "setTFOLeeway:"
+- "setTFOStatus:"
+- "setTFOStatusOverride:"
+- "setTag:"
+- "setTelemetryRatio:"
+- "setTelemetryReported:"
+- "setTelemetryService:"
+- "setTelemetryTimer:"
+- "setTelemetryURL:"
+- "setTestFetchDaypass:"
+- "setTestLatencyMap:"
+- "setTestLatencyMapIndex:"
+- "setTimeToFirstRequest:"
+- "setTimestamps:"
+- "setTrialCount:"
+- "setTunnelConnectedHandler:"
+- "setTunnelCount:"
+- "setTunnelDNSResponse:"
+- "setTunnelResponseTimer:"
+- "setTunnelResult:"
+- "setTuscanyEndpoint:"
+- "setUpdateClientsImmediately:"
+- "setUpdateHash:"
+- "setUrl:"
+- "setUseCount:"
+- "setUseCustomProtocol:"
+- "setUseGeohashFromServer:"
+- "setUseLocalFlowDivert:"
+- "setUsedEdgesGeneration:"
+- "setUserActivated:"
+- "setUuid:"
+- "setValidOnRampPredicate:"
+- "setValidOnRampWithTFOPredicate:"
+- "setViewSize:"
+- "setVoluntary:"
+- "setWaitingForOutput:"
+- "setWaldoInfo:"
+- "setWaldoLeafOID:"
+- "setWaldoRevocationFailClosed:"
+- "setWaldoTimestamp:"
+- "setWindow:"
+- "setWindowSize:"
+- "set_TCPConnectionMetadata:"
+- "set_allowsTCPFastOpen:"
+- "set_allowsTLSSessionTickets:"
+- "sharedDefaultEvaluator"
+- "sharedManager"
+- "shortDescription"
+- "should"
+- "should not"
+- "shouldCheckLocation"
+- "shouldComposeInitialData"
+- "shouldComposeIntialData"
+- "shouldFetchWaldo"
+- "shouldPerformDayPassRefresh"
+- "shouldProbeForEdgeSelection:edgeRank:edgeIndex:bestEdgeLabel:"
+- "shouldResetPolicies"
+- "shouldSave"
+- "shouldSendDataToClient:fromTunnel:"
+- "shouldSetConfigurationToAppRule:edgeSet:"
+- "signatureLimit"
+- "signatureWithDomain:type:subType:detectedProcess:triggerThresholdValues:"
+- "signingIdentifier"
+- "size"
+- "snapshotWithSignature:duration:events:payload:actions:reply:"
+- "sortEdgesByDistanceWithCompletionHandler:"
+- "sortedArrayUsingComparator:"
+- "source"
+- "sourceAppAuditToken"
+- "specificUseOnly"
+- "start"
+- "startAgentWithOptions:"
+- "startConnectionTimer"
+- "startDate"
+- "startDirectConnection"
+- "startHandlingIncomingData"
+- "startIdleTimer"
+- "startProbingEdges:atIndex:doneCount:sampleCount:completionHandler:"
+- "startProxyWithOptions:completionHandler:"
+- "startWithConfiguration:appRules:delegate:"
+- "startWithOptions:completionHandler:"
+- "started"
+- "stop"
+- "stopDirectConnection"
+- "stopProxyWithReason:completionHandler:"
+- "stopWithCompletionHandler:"
+- "streamError"
+- "stream_nw.mm"
+- "stringWithString:"
+- "subdataWithRange:"
+- "subflows"
+- "supportsBrowseRequests"
+- "supportsListenRequests"
+- "supportsResolveRequests"
+- "supportsResolverCallback"
+- "switches"
+- "symptomsd"
+- "tag"
+- "tarpit escapee"
+- "tcp"
+- "teardown"
+- "teardownNetworkAgent"
+- "teardownOutputHandler"
+- "telemetry"
+- "telemetry-ratio"
+- "telemetryRatio"
+- "telemetryReported"
+- "telemetryService"
+- "telemetryTimer"
+- "telemetryURL"
+- "testFetchDaypass"
+- "testLatencyMap"
+- "testLatencyMapIndex"
+- "tfo"
+- "timeIntervalSince1970"
+- "timeIntervalSinceReferenceDate"
+- "timeSinceLastUsed"
+- "timeToFirstRequest"
+- "timeToLive"
+- "timeout"
+- "timer"
+- "timestampNetworkSignature:"
+- "timestamps"
+- "tokenLowWaterMarkReached"
+- "trace"
+- "trainEdgeSelection:edgeRank:rtt:"
+- "trainEdgeSelectionModel:reply:"
+- "transport"
+- "trialCount"
+- "ts"
+- "ttfb"
+- "ttfr"
+- "ttl"
+- "tunnel"
+- "tunnel:flowDidFallbackWithReason:"
+- "tunnelConnectedHandler"
+- "tunnelCount"
+- "tunnelDNSResponse"
+- "tunnelDidCancel:"
+- "tunnelDidConnect:"
+- "tunnelIsReady:"
+- "tunnelResponseTimer"
+- "tunnelResult"
+- "tuscanyClientGetDataSize"
+- "tuscanyEndpoint"
+- "tx"
+- "typeToString:"
+- "udp"
+- "unarchivedObjectOfClass:fromData:error:"
+- "unassertAgentWithOptions:"
+- "unhandled %d bytes on channel %d"
+- "unhandled ack on channel %d"
+- "unhandled exception '%s' on channel %d"
+- "unhandled hack"
+- "unhandled ping"
+- "unhandled request for %llx with %d bytes on channel %d"
+- "unregisterAgent"
+- "unregisterNetworkAgent"
+- "unsignedCharValue"
+- "unsupported cmd"
+- "unsynthesizeAddresses:"
+- "updateClientsImmediately"
+- "updateEdgeSelection:"
+- "updateHash"
+- "updateHashMatchesEdgeSet:"
+- "updateMetaDataNeedProbe:refresh:push:minRTT:"
+- "updateNetworkAgent"
+- "updateNetworkAgent:"
+- "updateNetworkAgentWithKeybag:networkInfo:"
+- "updateNetworkAgents"
+- "updateSessionCounterFromKernel"
+- "url"
+- "useCount"
+- "useCustomProtocol"
+- "useGeoFromServer"
+- "useGeohashFromServer"
+- "useLocalFlowDivert"
+- "useNetworkAgent:returnUseCount:"
+- "useTestDaypass"
+- "useTestLatencyMap"
+- "usedEdgesGeneration"
+- "userActivated"
+- "usesNetworkAgentType:"
+- "uuid"
+- "v12@?0B8"
+- "v12@?0i8"
+- "v16@?0@\"NSArray\"8"
+- "v16@?0@\"NSDictionary\"8"
+- "v16@?0@\"NSObject<OS_nw_error>\"8"
+- "v16@?0B8B12"
+- "v16@?0q8"
+- "v20@0:8C16"
+- "v20@?0@\"NSError\"8B16"
+- "v20@?0B8B12B16"
+- "v20@?0Q8B16"
+- "v20@?0i8@\"NSObject<OS_nw_error>\"12"
+- "v24@0:8@\"NPTunnel\"16"
+- "v24@0:8@\"NSDictionary\"16"
+- "v24@0:8@\"NSString\"16"
+- "v24@0:8@\"NSUUID\"16"
+- "v24@0:8@?<v@?B@\"NSString\">16"
+- "v24@0:8^Q16"
+- "v24@0:8^v16"
+- "v24@0:8^{nw_frame_array_s=^{nw_frame}^^{nw_frame}}16"
+- "v24@0:8r*16"
+- "v24@?0@\"NSArray\"8q16"
+- "v24@?0@\"NSDictionary\"8@\"NSError\"16"
+- "v24@?0@\"NSURLResponse\"8@\"NSData\"16"
+- "v28@0:8@16B24"
+- "v28@0:8B16B20B24"
+- "v28@?0Q8@\"NSString\"16B24"
+- "v32@0:8@\"NEAppProxyProviderContainer\"16@\"NSError\"24"
+- "v32@0:8@\"NEAppProxyProviderContainer\"16@?<v@?@\"NSFileHandle\">24"
+- "v32@0:8@\"NPTunnel\"16q24"
+- "v32@0:8@\"NPUsageReport\"16@\"NSString\"24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSArray\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSString\">24"
+- "v32@0:8@16B24B28"
+- "v32@0:8@16q24"
+- "v32@0:8Q16@24"
+- "v32@0:8Q16Q24"
+- "v32@0:8q16@24"
+- "v32@0:8q16@?24"
+- "v32@?0@\"NSDictionary\"8@\"NSString\"16@\"NSURL\"24"
+- "v32@?0@8@16^B24"
+- "v32@?0r^v8{_NSRange=QQ}16"
+- "v36@0:8B16B20B24Q28"
+- "v36@?0@\"NSObject<OS_dispatch_data>\"8@\"NSObject<OS_nw_content_context>\"16B24@\"NSObject<OS_nw_error>\"28"
+- "v40@0:8@\"NEAppProxyProviderContainer\"16@\"NETunnelNetworkSettings\"24@?<v@?@\"NSError\">32"
+- "v40@0:8@\"NPWaldo\"16@\"NSString\"24@?<v@?@\"NSString\">32"
+- "v40@0:8@\"NSPAppRule\"16@\"NSString\"24@?<v@?@\"NSString\">32"
+- "v40@0:8@\"NSString\"16@\"NSString\"24@?<v@?@\"NSDictionary\"@\"NSString\"@\"NSURL\">32"
+- "v40@0:8@16Q24@?32"
+- "v40@0:8@16Q24Q32"
+- "v40@0:8@16Q24^{networkParameters=BB}32"
+- "v40@0:8Q16@24q32"
+- "v40@?0r^v8{_NSRange=QQ}16^B32"
+- "v48@0:8@16@24@32^v40"
+- "v56@0:8@16Q24Q32Q40@?48"
+- "v56@0:8@16d24d32@40@?48"
+- "v64@0:8@16@24@32@40@48^{nw_protocol=[16C]^{nw_protocol_identifier}^{nw_protocol_callbacks}^{nw_protocol}^v^{nw_protocol}^v}56"
+- "validOnRampPredicate"
+- "validOnRampWithTFOPredicate"
+- "validateEdgeList:"
+- "validateRuleDictionary:"
+- "valueForKeyPath:"
+- "viewSize"
+- "voluntary"
+- "waitForTunnelsToCancelWithCompletionHandler:"
+- "waitingForOutput"
+- "waldo"
+- "waldo:didFinishProbingWithSuccess:"
+- "waldo:didFinishSampleProbingWithSuccess:"
+- "waldo:fetchDayPassForURL:ifExpired:session:dataHandler:completionHandler:"
+- "waldoDidSaveToKeychain:"
+- "waldoHostname"
+- "waldoInfo"
+- "waldoLeafOID"
+- "waldoNeedsPolicyReset"
+- "waldoRequiresTFO:"
+- "waldoRevocationFailClosed"
+- "waldoTimestamp"
+- "waldoUpdateHash"
+- "where"
+- "window"
+- "windowSize"
+- "write:"
+- "write:completionHandler:"
+- "writeData:withCompletionHandler:"
+- "writeDatagram:completionHandler:"
+- "writeInitialData"
+- "{nw_frame_array_s=\"tqh_first\"^{nw_frame}\"tqh_last\"^^{nw_frame}}"
+- "{nw_protocol=\"flow_id\"[16C]\"identifier\"^{nw_protocol_identifier}\"callbacks\"^{nw_protocol_callbacks}\"output_handler\"^{nw_protocol}\"handle\"^v\"default_input_handler\"^{nw_protocol}\"output_handler_context\"^v}"
+- "\x85"
+- "\xa1"
+- "\xe1"
+- "\xf0!"
+- "\xf0\xf0\xf0Q"
+- "\xf1"
+
+```

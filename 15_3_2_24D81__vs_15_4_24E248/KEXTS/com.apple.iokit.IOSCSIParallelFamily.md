@@ -1,0 +1,133 @@
+## com.apple.iokit.IOSCSIParallelFamily
+
+> `com.apple.iokit.IOSCSIParallelFamily`
+
+```diff
+
+-342.0.0.0.0
+-  __TEXT.__cstring: 0x89d
+-  __TEXT.__const: 0x3f8
+-  __TEXT_EXEC.__text: 0xe4a0
++343.0.0.0.0
++  __TEXT.__cstring: 0xa81
++  __TEXT.__const: 0x490
++  __TEXT_EXEC.__text: 0xf034
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x2a8
+-  __DATA.__common: 0x130
+-  __DATA_CONST.__auth_got: 0x2e8
++  __DATA.__common: 0x158
++  __DATA_CONST.__auth_got: 0x340
+   __DATA_CONST.__got: 0xe8
+   __DATA_CONST.__mod_init_func: 0x38
+   __DATA_CONST.__mod_term_func: 0x38
+-  __DATA_CONST.__const: 0x2ed8
+-  __DATA_CONST.__kalloc_type: 0x1c0
++  __DATA_CONST.__const: 0x3140
++  __DATA_CONST.__kalloc_type: 0x2c0
+   __LINKINFO.__symbolsets: 0x2be1
+-  UUID: DC0500E9-7E44-393E-8181-EE8DD9A7B11D
+-  Functions: 468
+-  Symbols:   1086
+-  CStrings:  88
++  UUID: 2746191A-36F5-3361-96E3-FC16A4D2E73F
++  Functions: 500
++  Symbols:   1176
++  CStrings:  97
+ 
+Symbols:
++ _IOFreeTypeImpl
++ _IOMallocTypeImpl
++ _OUTLINED_FUNCTION_0
++ _OUTLINED_FUNCTION_1
++ _OUTLINED_FUNCTION_10
++ _OUTLINED_FUNCTION_11
++ _OUTLINED_FUNCTION_12
++ _OUTLINED_FUNCTION_13
++ _OUTLINED_FUNCTION_14
++ _OUTLINED_FUNCTION_2
++ _OUTLINED_FUNCTION_3
++ _OUTLINED_FUNCTION_4
++ _OUTLINED_FUNCTION_5
++ _OUTLINED_FUNCTION_6
++ _OUTLINED_FUNCTION_7
++ _OUTLINED_FUNCTION_8
++ _OUTLINED_FUNCTION_9
++ _ZN33IOSCSIParallelInterfaceController33CompleteOutstandingTasksForTargetEP29IOSCSIParallelInterfaceDevice.cold.1
++ _ZN37IOUserSCSIParallelInterfaceController19ProcessParallelTaskEP8OSObject.cold.1
++ __ZL82OSAction_IOUserSCSIParallelInterfaceController_UserCompleteBundledParallelTask_ktv
++ __ZN37IOUserSCSIParallelInterfaceController22AcquireBundledTaskSlotEPi
++ __ZN37IOUserSCSIParallelInterfaceController22InitializeBundledTasksEv
++ __ZN37IOUserSCSIParallelInterfaceController22ReleaseBundledTaskSlotEi
++ __ZN37IOUserSCSIParallelInterfaceController22ScheduleDispatchThreadEb
++ __ZN37IOUserSCSIParallelInterfaceController24UserCompleteParallelTaskEPK24SCSIUserParallelResponse
++ __ZN37IOUserSCSIParallelInterfaceController25DispatchBundledTaskThreadEv
++ __ZN37IOUserSCSIParallelInterfaceController26ReadyToDispatchBundledTaskEi
++ __ZN37IOUserSCSIParallelInterfaceController29BundledParallelTaskCompletionEP8OSActionPKttPFiP15OSMetaClassBase5IORPCE
++ __ZN37IOUserSCSIParallelInterfaceController31UserProcessBundledParallelTasksEPKttP8OSActionPFiP15OSMetaClassBase5IORPCE
++ __ZN37IOUserSCSIParallelInterfaceController36BundledParallelTaskCompletion_InvokeE5IORPCP15OSMetaClassBasePFvS2_P8OSActionPKttE
++ __ZN37IOUserSCSIParallelInterfaceController36BundledParallelTaskCompletion_InvokeE5IORPCP15OSMetaClassBasePFvS2_P8OSActionPKttEPK11OSMetaClass
++ __ZN37IOUserSCSIParallelInterfaceController36UserCompleteBundledParallelTask_ImplEP8OSActionPKtt
++ __ZN37IOUserSCSIParallelInterfaceController38UserProcessBundledParallelTasks_InvokeE5IORPCP15OSMetaClassBasePFvS2_PKttP8OSActionE
++ __ZN37IOUserSCSIParallelInterfaceController43CreateActionUserCompleteBundledParallelTaskEmPP8OSAction
++ __ZN37IOUserSCSIParallelInterfaceController51UserMapBundledParallelTaskCommandAndResponseBuffersEP24IOBufferMemoryDescriptorS1_PFiP15OSMetaClassBase5IORPCE
++ __ZN37IOUserSCSIParallelInterfaceController58UserMapBundledParallelTaskCommandAndResponseBuffers_InvokeE5IORPCP15OSMetaClassBasePFiS2_P24IOBufferMemoryDescriptorS4_E
++ __ZN78OSAction_IOUserSCSIParallelInterfaceController_UserCompleteBundledParallelTask10gMetaClassE
++ __ZN78OSAction_IOUserSCSIParallelInterfaceController_UserCompleteBundledParallelTask10superClassE
++ __ZN78OSAction_IOUserSCSIParallelInterfaceController_UserCompleteBundledParallelTask8DispatchE5IORPC
++ __ZN78OSAction_IOUserSCSIParallelInterfaceController_UserCompleteBundledParallelTask9MetaClass8DispatchE5IORPC
++ __ZN78OSAction_IOUserSCSIParallelInterfaceController_UserCompleteBundledParallelTask9MetaClassC1Ev
++ __ZN78OSAction_IOUserSCSIParallelInterfaceController_UserCompleteBundledParallelTask9MetaClassC2Ev
++ __ZN78OSAction_IOUserSCSIParallelInterfaceController_UserCompleteBundledParallelTask9MetaClassD0Ev
++ __ZN78OSAction_IOUserSCSIParallelInterfaceController_UserCompleteBundledParallelTask9MetaClassD1Ev
++ __ZN78OSAction_IOUserSCSIParallelInterfaceController_UserCompleteBundledParallelTask9_DispatchEPS_5IORPC
++ __ZN78OSAction_IOUserSCSIParallelInterfaceController_UserCompleteBundledParallelTask9metaClassE
++ __ZN78OSAction_IOUserSCSIParallelInterfaceController_UserCompleteBundledParallelTaskC1EPK11OSMetaClass
++ __ZN78OSAction_IOUserSCSIParallelInterfaceController_UserCompleteBundledParallelTaskC1Ev
++ __ZN78OSAction_IOUserSCSIParallelInterfaceController_UserCompleteBundledParallelTaskC2EPK11OSMetaClass
++ __ZN78OSAction_IOUserSCSIParallelInterfaceController_UserCompleteBundledParallelTaskC2Ev
++ __ZN78OSAction_IOUserSCSIParallelInterfaceController_UserCompleteBundledParallelTaskD0Ev
++ __ZN78OSAction_IOUserSCSIParallelInterfaceController_UserCompleteBundledParallelTaskD1Ev
++ __ZN78OSAction_IOUserSCSIParallelInterfaceController_UserCompleteBundledParallelTaskD2Ev
++ __ZN78OSAction_IOUserSCSIParallelInterfaceController_UserCompleteBundledParallelTaskdlEPvm
++ __ZN78OSAction_IOUserSCSIParallelInterfaceController_UserCompleteBundledParallelTasknwEm
++ __ZNK78OSAction_IOUserSCSIParallelInterfaceController_UserCompleteBundledParallelTask12getMetaClassEv
++ __ZNK78OSAction_IOUserSCSIParallelInterfaceController_UserCompleteBundledParallelTask9MetaClass5allocEv
++ __ZTV78OSAction_IOUserSCSIParallelInterfaceController_UserCompleteBundledParallelTask
++ __ZTVN78OSAction_IOUserSCSIParallelInterfaceController_UserCompleteBundledParallelTask9MetaClassE
++ __ZZN37IOUserSCSIParallelInterfaceController20InitializeControllerEvE20kalloc_type_view_592
++ __ZZN37IOUserSCSIParallelInterfaceController20InitializeControllerEvE20kalloc_type_view_643
++ __ZZN37IOUserSCSIParallelInterfaceController4freeEvE20kalloc_type_view_998
++ __block_descriptor_tmp.11
++ __block_descriptor_tmp.17
++ __block_descriptor_tmp.18
++ _ffs
++ _lck_mtx_lock
++ _lck_mtx_unlock
++ _lck_spin_lock
++ _lck_spin_unlock
++ _memmove
++ _thread_call_allocate
++ _thread_call_cancel_wait
++ _thread_call_enter
++ _thread_call_enter_delayed
++ _thread_call_free
+- _IOLockLock
+- _IOLockUnlock
+- __block_descriptor_tmp.10
+- __block_descriptor_tmp.8
+- __block_descriptor_tmp.9
+CStrings:
++ "1111211122"
++ "121111121222121211112222111111111111111111111112211111"
++ "OSAction_IOUserSCSIParallelInterfaceController_UserCompleteBundledParallelTask"
++ "ProcessParallelTask: prepare error 0x%x xfr count %llu \n"
++ "Use UserCompleteBundledParallelTask to complete the parallel task\n"
++ "Use UserCompleteParallelTask to complete the parallel task\n"
++ "bundled I/O enabled, max task count %d \n"
++ "dk.scsicontroller_bundledio"
++ "site.IOUserSCSIParallelInterfaceControllerExpansionData"
++ "site.OSAction_IOUserSCSIParallelInterfaceController_UserCompleteBundledParallelTask"
+- "12111112122212121111222211111111111111111111111221111"
+
+```

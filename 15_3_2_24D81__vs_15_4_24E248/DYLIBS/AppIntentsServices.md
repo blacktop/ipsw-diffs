@@ -1,0 +1,1097 @@
+## AppIntentsServices
+
+> `/System/Library/PrivateFrameworks/AppIntentsServices.framework/Versions/A/AppIntentsServices`
+
+```diff
+
+-31.21.0.0.0
+-  __TEXT.__text: 0x1e6534
+-  __TEXT.__auth_stubs: 0x2400
+-  __TEXT.__objc_methlist: 0x184
+-  __TEXT.__cstring: 0x5031
+-  __TEXT.__swift5_typeref: 0x4fd2
+-  __TEXT.__swift5_capture: 0x13e0
+-  __TEXT.__const: 0x10068
+-  __TEXT.__constg_swiftt: 0x42c8
+-  __TEXT.__swift5_reflstr: 0x2b8c
+-  __TEXT.__swift5_fieldmd: 0x414c
+-  __TEXT.__swift5_builtin: 0x2a8
+-  __TEXT.__swift5_assocty: 0x6a8
+-  __TEXT.__swift5_protos: 0xec
+-  __TEXT.__swift5_proto: 0xed8
+-  __TEXT.__swift5_types: 0x4bc
+-  __TEXT.__oslogstring: 0x1d3e
+-  __TEXT.__swift5_mpenum: 0xf0
+-  __TEXT.__swift5_acfuncs: 0x1a4
+-  __TEXT.__unwind_info: 0x8870
+-  __TEXT.__eh_frame: 0x14070
+-  __TEXT.__objc_classname: 0x4a
+-  __TEXT.__objc_methname: 0x1982
+-  __TEXT.__objc_methtype: 0x36a
+-  __DATA_CONST.__got: 0xab0
+-  __DATA_CONST.__const: 0x270
+-  __DATA_CONST.__objc_classlist: 0x100
+-  __DATA_CONST.__objc_protolist: 0x30
++33.19.0.0.0
++  __TEXT.__text: 0x20f14c
++  __TEXT.__auth_stubs: 0x2560
++  __TEXT.__objc_methlist: 0x614
++  __TEXT.__cstring: 0x5661
++  __TEXT.__swift5_typeref: 0x557a
++  __TEXT.__swift5_capture: 0x15cc
++  __TEXT.__const: 0x111e8
++  __TEXT.__constg_swiftt: 0x4a7c
++  __TEXT.__swift5_reflstr: 0x2f2c
++  __TEXT.__swift5_fieldmd: 0x4874
++  __TEXT.__swift5_builtin: 0x2d0
++  __TEXT.__swift5_assocty: 0x710
++  __TEXT.__swift5_protos: 0xf0
++  __TEXT.__swift5_proto: 0xfc8
++  __TEXT.__swift5_types: 0x530
++  __TEXT.__swift_as_entry: 0x520
++  __TEXT.__swift_as_ret: 0x58c
++  __TEXT.__oslogstring: 0x2414
++  __TEXT.__swift5_mpenum: 0x12c
++  __TEXT.__swift5_acfuncs: 0x168
++  __TEXT.__unwind_info: 0x9548
++  __TEXT.__eh_frame: 0x15fd8
++  __TEXT.__objc_classname: 0x59
++  __TEXT.__objc_methname: 0x1e8f
++  __TEXT.__objc_methtype: 0x3f6
++  __DATA_CONST.__got: 0xb88
++  __DATA_CONST.__const: 0x160
++  __DATA_CONST.__objc_classlist: 0x128
++  __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x7d8
+-  __DATA_CONST.__objc_protorefs: 0x18
+-  __AUTH_CONST.__auth_got: 0x1200
+-  __AUTH_CONST.__const: 0x8790
+-  __AUTH_CONST.__objc_const: 0x28a0
+-  __AUTH.__objc_data: 0x590
+-  __AUTH.__data: 0x5110
+-  __DATA.__data: 0x4d58
+-  __DATA.__bss: 0x18b00
+-  __DATA.__common: 0x1090
++  __DATA_CONST.__objc_selrefs: 0xa38
++  __DATA_CONST.__objc_protorefs: 0x20
++  __AUTH_CONST.__auth_got: 0x12b0
++  __AUTH_CONST.__const: 0x9298
++  __AUTH_CONST.__objc_const: 0x2e80
++  __AUTH.__objc_data: 0x810
++  __AUTH.__data: 0x5ee0
++  __DATA.__data: 0x5830
++  __DATA.__bss: 0x1a990
++  __DATA.__common: 0x11f0
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreSpotlight.framework/Versions/A/CoreSpotlight
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftDistributed.dylib
+-  - /usr/lib/swift/libswiftFileProvider.dylib
+   - /usr/lib/swift/libswiftIOKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 4052D76C-C6B4-3C28-A684-B78BEA88886F
+-  Functions: 11686
+-  Symbols:   5024
+-  CStrings:  1085
++  UUID: C387AB83-977C-3342-B91A-9BD54DC99941
++  Functions: 12735
++  Symbols:   5446
++  CStrings:  1220
+ 
+Symbols:
++ _OBJC_CLASS_$_LNActionMetadata
++ _OBJC_CLASS_$_LNActionOutput
++ _OBJC_CLASS_$_LNDynamicOption
++ _OBJC_CLASS_$_LNDynamicOptionsSection
++ _OBJC_CLASS_$_LNSuccessResult
++ _OBJC_METACLASS_$__TtCV18AppIntentsServices9AnyDialogP33_2751758AFE110A00C5EF3AE4BAE73B7118RemoteDialogResult
++ _PROTOCOLS__TtCV18AppIntentsServices9AnyDialogP33_2751758AFE110A00C5EF3AE4BAE73B7118RemoteDialogResult.16
++ __DATA__TtCV18AppIntentsServices9AnyDialogP33_2751758AFE110A00C5EF3AE4BAE73B7118RemoteDialogResult
++ __DATA__TtCVVV18AppIntentsServices31AppIntentsProtobuf_HostMessages21PerformActionResponse17NeedsValueRequestP33_15D8ACD6F9A04B79071F668CEE455EA313_StorageClass
++ __DATA__TtCVVV18AppIntentsServices31AppIntentsProtobuf_HostMessages21PerformActionResponse19ConfirmationRequestP33_15D8ACD6F9A04B79071F668CEE455EA313_StorageClass
++ __DATA__TtCVVV18AppIntentsServices31AppIntentsProtobuf_HostMessages21PerformActionResponse20ContinueInAppRequestP33_15D8ACD6F9A04B79071F668CEE455EA313_StorageClass
++ __DATA__TtCVVV18AppIntentsServices31AppIntentsProtobuf_HostMessages21PerformActionResponse21DisambiguationRequestP33_15D8ACD6F9A04B79071F668CEE455EA313_StorageClass
++ __INSTANCE_METHODS__TtCV18AppIntentsServices9AnyDialogP33_2751758AFE110A00C5EF3AE4BAE73B7118RemoteDialogResult
++ __IVARS__TtCV18AppIntentsServices9AnyDialogP33_2751758AFE110A00C5EF3AE4BAE73B7118RemoteDialogResult
++ __IVARS__TtCVVV18AppIntentsServices31AppIntentsProtobuf_HostMessages21PerformActionResponse17NeedsValueRequestP33_15D8ACD6F9A04B79071F668CEE455EA313_StorageClass
++ __IVARS__TtCVVV18AppIntentsServices31AppIntentsProtobuf_HostMessages21PerformActionResponse19ConfirmationRequestP33_15D8ACD6F9A04B79071F668CEE455EA313_StorageClass
++ __IVARS__TtCVVV18AppIntentsServices31AppIntentsProtobuf_HostMessages21PerformActionResponse20ContinueInAppRequestP33_15D8ACD6F9A04B79071F668CEE455EA313_StorageClass
++ __IVARS__TtCVVV18AppIntentsServices31AppIntentsProtobuf_HostMessages21PerformActionResponse21DisambiguationRequestP33_15D8ACD6F9A04B79071F668CEE455EA313_StorageClass
++ __METACLASS_DATA__TtCV18AppIntentsServices9AnyDialogP33_2751758AFE110A00C5EF3AE4BAE73B7118RemoteDialogResult
++ __METACLASS_DATA__TtCVVV18AppIntentsServices31AppIntentsProtobuf_HostMessages21PerformActionResponse17NeedsValueRequestP33_15D8ACD6F9A04B79071F668CEE455EA313_StorageClass
++ __METACLASS_DATA__TtCVVV18AppIntentsServices31AppIntentsProtobuf_HostMessages21PerformActionResponse19ConfirmationRequestP33_15D8ACD6F9A04B79071F668CEE455EA313_StorageClass
++ __METACLASS_DATA__TtCVVV18AppIntentsServices31AppIntentsProtobuf_HostMessages21PerformActionResponse20ContinueInAppRequestP33_15D8ACD6F9A04B79071F668CEE455EA313_StorageClass
++ __METACLASS_DATA__TtCVVV18AppIntentsServices31AppIntentsProtobuf_HostMessages21PerformActionResponse21DisambiguationRequestP33_15D8ACD6F9A04B79071F668CEE455EA313_StorageClass
++ __OBJC_$_PROP_LIST_LNDialogResult
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_LNDialogResult
++ __OBJC_$_PROTOCOL_METHOD_TYPES_LNDialogResult
++ __OBJC_$_PROTOCOL_REFS_LNDialogResult
++ __OBJC_LABEL_PROTOCOL_$_LNDialogResult
++ __OBJC_PROTOCOL_$_LNDialogResult
++ __PROPERTIES__TtCV18AppIntentsServices9AnyDialogP33_2751758AFE110A00C5EF3AE4BAE73B7118RemoteDialogResult
++ __PROTOCOLS__TtCV18AppIntentsServices9AnyDialogP33_2751758AFE110A00C5EF3AE4BAE73B7118RemoteDialogResult
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ ___swift_memcpy129_8
++ ___swift_memcpy130_8
++ ___swift_memcpy162_8
++ ___swift_memcpy210_8
++ ___swift_project_boxed_opaque_existential_0Tm
++ ___unnamed_15
++ __swift_get_extra_inhabitant_index.134Tm
++ __swift_get_extra_inhabitant_index.137Tm
++ __swift_get_extra_inhabitant_index.152Tm
++ __swift_get_extra_inhabitant_index.167Tm
++ __swift_get_extra_inhabitant_index.201Tm
++ __swift_get_extra_inhabitant_index.213Tm
++ __swift_get_extra_inhabitant_index.21Tm
++ __swift_get_extra_inhabitant_index.29Tm
++ __swift_get_extra_inhabitant_index.53Tm
++ __swift_get_extra_inhabitant_index.83Tm
++ __swift_get_extra_inhabitant_index.95Tm
++ __swift_store_extra_inhabitant_index.135Tm
++ __swift_store_extra_inhabitant_index.138Tm
++ __swift_store_extra_inhabitant_index.153Tm
++ __swift_store_extra_inhabitant_index.202Tm
++ __swift_store_extra_inhabitant_index.214Tm
++ __swift_store_extra_inhabitant_index.22Tm
++ __swift_store_extra_inhabitant_index.30Tm
++ __swift_store_extra_inhabitant_index.54Tm
++ __swift_store_extra_inhabitant_index.84Tm
++ __swift_store_extra_inhabitant_index.96Tm
++ _associated conformance 18AppIntentsServices0A24IntentFetchOptionsResultVyxGSTAA8IteratorST_St
++ _associated conformance 18AppIntentsServices0aB21Protobuf_HostMessagesV29FetchOptionsForActionResponseV013InternalSwiftD026_MessageImplementationBaseAASH
++ _associated conformance 18AppIntentsServices0aB21Protobuf_HostMessagesV29FetchOptionsForActionResponseV013InternalSwiftD026_MessageImplementationBaseAaF0N0
++ _associated conformance 18AppIntentsServices0aB21Protobuf_HostMessagesV29FetchOptionsForActionResponseV013InternalSwiftD07MessageAAs28CustomDebugStringConvertible
++ _associated conformance 18AppIntentsServices0aB21Protobuf_HostMessagesV29FetchOptionsForActionResponseV7SuccessV013InternalSwiftD026_MessageImplementationBaseAASH
++ _associated conformance 18AppIntentsServices0aB21Protobuf_HostMessagesV29FetchOptionsForActionResponseV7SuccessV013InternalSwiftD026_MessageImplementationBaseAaH0O0
++ _associated conformance 18AppIntentsServices0aB21Protobuf_HostMessagesV29FetchOptionsForActionResponseV7SuccessV013InternalSwiftD07MessageAAs28CustomDebugStringConvertible
++ _associated conformance 18AppIntentsServices0aB21Protobuf_HostMessagesV29FetchOptionsForActionResponseV7SuccessVSHAASQ
++ _associated conformance 18AppIntentsServices0aB21Protobuf_HostMessagesV29FetchOptionsForActionResponseVSHAASQ
++ _associated conformance 18AppIntentsServices0aB22Protobuf_DynamicOptionV013InternalSwiftD026_MessageImplementationBaseAASH
++ _associated conformance 18AppIntentsServices0aB22Protobuf_DynamicOptionV013InternalSwiftD026_MessageImplementationBaseAaD0I0
++ _associated conformance 18AppIntentsServices0aB22Protobuf_DynamicOptionV013InternalSwiftD07MessageAAs28CustomDebugStringConvertible
++ _associated conformance 18AppIntentsServices0aB22Protobuf_DynamicOptionVSHAASQ
++ _associated conformance 18AppIntentsServices0aB23Protobuf_ClientMessagesV19PerformQueryRequestV15ParameterTargetV013InternalSwiftD026_MessageImplementationBaseAASH
++ _associated conformance 18AppIntentsServices0aB23Protobuf_ClientMessagesV19PerformQueryRequestV15ParameterTargetV013InternalSwiftD026_MessageImplementationBaseAaH0N0
++ _associated conformance 18AppIntentsServices0aB23Protobuf_ClientMessagesV19PerformQueryRequestV15ParameterTargetV013InternalSwiftD07MessageAAs28CustomDebugStringConvertible
++ _associated conformance 18AppIntentsServices0aB23Protobuf_ClientMessagesV19PerformQueryRequestV15ParameterTargetVSHAASQ
++ _associated conformance 18AppIntentsServices0aB23Protobuf_ClientMessagesV28FetchOptionsForActionRequestV013InternalSwiftD026_MessageImplementationBaseAASH
++ _associated conformance 18AppIntentsServices0aB23Protobuf_ClientMessagesV28FetchOptionsForActionRequestV013InternalSwiftD026_MessageImplementationBaseAaF0N0
++ _associated conformance 18AppIntentsServices0aB23Protobuf_ClientMessagesV28FetchOptionsForActionRequestV013InternalSwiftD07MessageAAs28CustomDebugStringConvertible
++ _associated conformance 18AppIntentsServices0aB23Protobuf_ClientMessagesV28FetchOptionsForActionRequestVSHAASQ
++ _associated conformance 18AppIntentsServices0aB29Protobuf_DynamicOptionsResultV013InternalSwiftD026_MessageImplementationBaseAASH
++ _associated conformance 18AppIntentsServices0aB29Protobuf_DynamicOptionsResultV013InternalSwiftD026_MessageImplementationBaseAaD0J0
++ _associated conformance 18AppIntentsServices0aB29Protobuf_DynamicOptionsResultV013InternalSwiftD07MessageAAs28CustomDebugStringConvertible
++ _associated conformance 18AppIntentsServices0aB29Protobuf_DynamicOptionsResultVSHAASQ
++ _associated conformance 18AppIntentsServices0aB30Protobuf_DynamicOptionsSectionV013InternalSwiftD026_MessageImplementationBaseAASH
++ _associated conformance 18AppIntentsServices0aB30Protobuf_DynamicOptionsSectionV013InternalSwiftD026_MessageImplementationBaseAaD0J0
++ _associated conformance 18AppIntentsServices0aB30Protobuf_DynamicOptionsSectionV013InternalSwiftD07MessageAAs28CustomDebugStringConvertible
++ _associated conformance 18AppIntentsServices0aB30Protobuf_DynamicOptionsSectionVSHAASQ
++ _associated conformance 18AppIntentsServices0aB8ProtocolO21FetchOptionsForActionO7RequestV7Network20NWCustomSerializableAASE
++ _associated conformance 18AppIntentsServices0aB8ProtocolO21FetchOptionsForActionO7RequestV7Network20NWCustomSerializableAASe
++ _associated conformance 18AppIntentsServices0aB8ProtocolO21FetchOptionsForActionO7RequestVAA21ProtobufRepresentableAA0J4TypeAaHP_013InternalSwiftJ07Message
++ _associated conformance 18AppIntentsServices0aB8ProtocolO21FetchOptionsForActionO7RequestVAA21ProtobufRepresentableAA0J4TypeAaHP_SQ
++ _associated conformance 18AppIntentsServices0aB8ProtocolO21FetchOptionsForActionO8ResponseO7Network20NWCustomSerializableAASE
++ _associated conformance 18AppIntentsServices0aB8ProtocolO21FetchOptionsForActionO8ResponseO7Network20NWCustomSerializableAASe
++ _associated conformance 18AppIntentsServices0aB8ProtocolO21FetchOptionsForActionO8ResponseOAA21ProtobufRepresentableAA0J4TypeAaHP_013InternalSwiftJ07Message
++ _associated conformance 18AppIntentsServices0aB8ProtocolO21FetchOptionsForActionO8ResponseOAA21ProtobufRepresentableAA0J4TypeAaHP_SQ
++ _associated conformance 18AppIntentsServices25ActorTransactionOperationVs12IdentifiableAA2IDsADP_SH
++ _dynamic_cast_existential_1_superclass_conditional
++ _flat unique So14LNDialogResult_p
++ _objc_autoreleaseReturnValue
++ _swift_deallocPartialClassInstance
++ _swift_stdlib_random
++ _symbolic $s18AppIntentsServices23LNDialogResultProvidingP
++ _symbolic $sST
++ _symbolic $sSt
++ _symbolic SDyS2SG
++ _symbolic SDyS2SGSg
++ _symbolic SDySSSDyS2SGG
++ _symbolic SDySSSDySSSo15LNQueryMetadataCGG
++ _symbolic SDySSSDySSSo16LNActionMetadataCGG
++ _symbolic SDySSSDySSSo16LNEntityMetadataCGG
++ _symbolic SDySSSo16LNActionMetadataCG
++ _symbolic SDy__________G 10Foundation4UUIDV 18AppIntentsServices06RemotecD5ActorC29PerformActionExecutorDelegateC
++ _symbolic SS16actionIdentifier_SS13parameterNamet
++ _symbolic SS8deviceId_t
++ _symbolic SS_So16LNActionMetadataCt
++ _symbolic SS______11queryTargett 18AppIntentsServices11QueryTargetV
++ _symbolic SaySJG
++ _symbolic SaySo16CSSearchableItemCG______11queryTargett 18AppIntentsServices11QueryTargetV
++ _symbolic SaySo8NSNumberCG
++ _symbolic SaySsG
++ _symbolic Say_____G 18AppIntentsServices0aB22Protobuf_DynamicOptionV
++ _symbolic Say_____G 18AppIntentsServices0aB30Protobuf_DynamicOptionsSectionV
++ _symbolic Say_____G s5Int32V
++ _symbolic Say______pG______11queryTargett 18AppIntentsServices0A16EntityIdentifierP AA11QueryTargetV
++ _symbolic Say_____yx_GG 18AppIntentsServices0A24IntentFetchOptionsResultV4ItemV
++ _symbolic Say_____yx_GG 18AppIntentsServices0A24IntentFetchOptionsResultV7SectionV
++ _symbolic Sayy______pYbcG s5ErrorP
++ _symbolic ScCySo15LNSuccessResultC______pG s5ErrorP
++ _symbolic SccySaySo7LNValueCG______pG s5ErrorP
++ _symbolic SccySo13LNQueryOutputC______pG s5ErrorP
++ _symbolic SccySo15LNAsyncIteratorC______pG s5ErrorP
++ _symbolic SccySo22LNDynamicOptionsResultC______pG s5ErrorP
++ _symbolic SccySo7INImageCSg______pG s5ErrorP
++ _symbolic SccySo7LNValueCSg______pG s5ErrorP
++ _symbolic Sccy______p______pG So14LNDialogResultP s5ErrorP
++ _symbolic Sccyyt______pG s5ErrorP
++ _symbolic Shy_____G 18AppIntentsServices06RemoteaB10DispatcherC9ActorCall33_B5708ECC7F6A26C5132D2814E197AF3BLLC
++ _symbolic So15LNSuccessResultCSg
++ _symbolic So18LNMetadataProviderC
++ _symbolic So19LNNeedsValueRequestC
++ _symbolic So21LNConfirmationRequestC
++ _symbolic So23LNDisambiguationRequestC
++ _symbolic _____ 18AppIntentsServices0A14IntentRegistryV
++ _symbolic _____ 18AppIntentsServices0A14IntentRegistryV6TargetO
++ _symbolic _____ 18AppIntentsServices0A24IntentFetchOptionsResultV
++ _symbolic _____ 18AppIntentsServices0A24IntentFetchOptionsResultV4ItemV
++ _symbolic _____ 18AppIntentsServices0A24IntentFetchOptionsResultV7SectionV
++ _symbolic _____ 18AppIntentsServices0A24IntentFetchOptionsResultV8IteratorV
++ _symbolic _____ 18AppIntentsServices0aB21Protobuf_HostMessagesV21PerformActionResponseV010ContinueInA7RequestV13_StorageClass33_15D8ACD6F9A04B79071F668CEE455EA3LLC
++ _symbolic _____ 18AppIntentsServices0aB21Protobuf_HostMessagesV21PerformActionResponseV17NeedsValueRequestV13_StorageClass33_15D8ACD6F9A04B79071F668CEE455EA3LLC
++ _symbolic _____ 18AppIntentsServices0aB21Protobuf_HostMessagesV21PerformActionResponseV19ConfirmationRequestV13_StorageClass33_15D8ACD6F9A04B79071F668CEE455EA3LLC
++ _symbolic _____ 18AppIntentsServices0aB21Protobuf_HostMessagesV21PerformActionResponseV21DisambiguationRequestV13_StorageClass33_15D8ACD6F9A04B79071F668CEE455EA3LLC
++ _symbolic _____ 18AppIntentsServices0aB21Protobuf_HostMessagesV29FetchOptionsForActionResponseV
++ _symbolic _____ 18AppIntentsServices0aB21Protobuf_HostMessagesV29FetchOptionsForActionResponseV13OneOf_PayloadO
++ _symbolic _____ 18AppIntentsServices0aB21Protobuf_HostMessagesV29FetchOptionsForActionResponseV7SuccessV
++ _symbolic _____ 18AppIntentsServices0aB22Protobuf_DynamicOptionV
++ _symbolic _____ 18AppIntentsServices0aB23Protobuf_ClientMessagesV19PerformQueryRequestV11AllEntitiesV12OneOf_TargetO
++ _symbolic _____ 18AppIntentsServices0aB23Protobuf_ClientMessagesV19PerformQueryRequestV12ByPropertiesV12OneOf_TargetO
++ _symbolic _____ 18AppIntentsServices0aB23Protobuf_ClientMessagesV19PerformQueryRequestV12UniqueEntityV12OneOf_TargetO
++ _symbolic _____ 18AppIntentsServices0aB23Protobuf_ClientMessagesV19PerformQueryRequestV13ByIdentifiersV12OneOf_TargetO
++ _symbolic _____ 18AppIntentsServices0aB23Protobuf_ClientMessagesV19PerformQueryRequestV15ParameterTargetV
++ _symbolic _____ 18AppIntentsServices0aB23Protobuf_ClientMessagesV19PerformQueryRequestV17SuggestedEntitiesV12OneOf_TargetO
++ _symbolic _____ 18AppIntentsServices0aB23Protobuf_ClientMessagesV19PerformQueryRequestV8ByStringV12OneOf_TargetO
++ _symbolic _____ 18AppIntentsServices0aB23Protobuf_ClientMessagesV28FetchOptionsForActionRequestV
++ _symbolic _____ 18AppIntentsServices0aB29Protobuf_DynamicOptionsResultV
++ _symbolic _____ 18AppIntentsServices0aB30Protobuf_DynamicOptionsSectionV
++ _symbolic _____ 18AppIntentsServices0aB8ProtocolO21FetchOptionsForActionO
++ _symbolic _____ 18AppIntentsServices0aB8ProtocolO21FetchOptionsForActionO7RequestV
++ _symbolic _____ 18AppIntentsServices0aB8ProtocolO21FetchOptionsForActionO8ResponseO
++ _symbolic _____ 18AppIntentsServices25ActorTransactionOperationV
++ _symbolic _____ 18AppIntentsServices9AnyDialogV06RemoteE6Result33_2751758AFE110A00C5EF3AE4BAE73B71LLC
++ _symbolic _____ SS5IndexV
++ _symbolic _____ So25LNUserIdentityAccessLevelV
++ _symbolic _____11queryTarget_t 18AppIntentsServices11QueryTargetV
++ _symbolic _____13propertyQuery_SiSg18maximumResultCountSay_____GSg14sortingOptions_____11queryTargett 18AppIntentsServices13PropertyQueryV AC13SortingOptionV AA0E6TargetV
++ _symbolic _____Sg 18AppIntentsServices0aB21Protobuf_HostMessagesV29FetchOptionsForActionResponseV13OneOf_PayloadO
++ _symbolic _____Sg 18AppIntentsServices0aB21Protobuf_HostMessagesV29FetchOptionsForActionResponseV7SuccessV
++ _symbolic _____Sg 18AppIntentsServices0aB23Protobuf_ClientMessagesV19PerformQueryRequestV11AllEntitiesV12OneOf_TargetO
++ _symbolic _____Sg 18AppIntentsServices0aB23Protobuf_ClientMessagesV19PerformQueryRequestV12ByPropertiesV12OneOf_TargetO
++ _symbolic _____Sg 18AppIntentsServices0aB23Protobuf_ClientMessagesV19PerformQueryRequestV12UniqueEntityV12OneOf_TargetO
++ _symbolic _____Sg 18AppIntentsServices0aB23Protobuf_ClientMessagesV19PerformQueryRequestV13ByIdentifiersV12OneOf_TargetO
++ _symbolic _____Sg 18AppIntentsServices0aB23Protobuf_ClientMessagesV19PerformQueryRequestV15ParameterTargetV
++ _symbolic _____Sg 18AppIntentsServices0aB23Protobuf_ClientMessagesV19PerformQueryRequestV17SuggestedEntitiesV12OneOf_TargetO
++ _symbolic _____Sg 18AppIntentsServices0aB23Protobuf_ClientMessagesV19PerformQueryRequestV8ByStringV12OneOf_TargetO
++ _symbolic _____Sg 18AppIntentsServices0aB29Protobuf_DynamicOptionsResultV
++ _symbolic _____Sg 7Network18NWActorSystemErrorO
++ _symbolic _____Sg_ABt 18AppIntentsServices0aB21Protobuf_HostMessagesV29FetchOptionsForActionResponseV13OneOf_PayloadO
++ _symbolic _____Sg_ABt 18AppIntentsServices0aB23Protobuf_ClientMessagesV19PerformQueryRequestV11AllEntitiesV12OneOf_TargetO
++ _symbolic _____Sg_ABt 18AppIntentsServices0aB23Protobuf_ClientMessagesV19PerformQueryRequestV12ByPropertiesV12OneOf_TargetO
++ _symbolic _____Sg_ABt 18AppIntentsServices0aB23Protobuf_ClientMessagesV19PerformQueryRequestV12UniqueEntityV12OneOf_TargetO
++ _symbolic _____Sg_ABt 18AppIntentsServices0aB23Protobuf_ClientMessagesV19PerformQueryRequestV13ByIdentifiersV12OneOf_TargetO
++ _symbolic _____Sg_ABt 18AppIntentsServices0aB23Protobuf_ClientMessagesV19PerformQueryRequestV17SuggestedEntitiesV12OneOf_TargetO
++ _symbolic _____Sg_ABt 18AppIntentsServices0aB23Protobuf_ClientMessagesV19PerformQueryRequestV8ByStringV12OneOf_TargetO
++ _symbolic _____Sg_ABt 18AppIntentsServices0aB29Protobuf_DynamicOptionsResultV
++ _symbolic ______AAt 18AppIntentsServices0aB21Protobuf_HostMessagesV29FetchOptionsForActionResponseV13OneOf_PayloadO
++ _symbolic ______AAt 18AppIntentsServices0aB23Protobuf_ClientMessagesV19PerformQueryRequestV11AllEntitiesV12OneOf_TargetO
++ _symbolic ______AAt 18AppIntentsServices0aB23Protobuf_ClientMessagesV19PerformQueryRequestV12ByPropertiesV12OneOf_TargetO
++ _symbolic ______AAt 18AppIntentsServices0aB23Protobuf_ClientMessagesV19PerformQueryRequestV12UniqueEntityV12OneOf_TargetO
++ _symbolic ______AAt 18AppIntentsServices0aB23Protobuf_ClientMessagesV19PerformQueryRequestV13ByIdentifiersV12OneOf_TargetO
++ _symbolic ______AAt 18AppIntentsServices0aB23Protobuf_ClientMessagesV19PerformQueryRequestV17SuggestedEntitiesV12OneOf_TargetO
++ _symbolic ______AAt 18AppIntentsServices0aB23Protobuf_ClientMessagesV19PerformQueryRequestV8ByStringV12OneOf_TargetO
++ _symbolic _____________________pIetMHnTgrzo_ 18AppIntentsServices0aB8ProtocolO21FetchOptionsForActionO7RequestV AA06RemoteaB5ActorC AE8ResponseO s5ErrorP
++ _symbolic ______p 18AppIntentsServices26DisplayRepresentationImageP
++ _symbolic ______pSg So14LNDialogResultP
++ _symbolic ______pSg s5ErrorP
++ _symbolic ______pXp So14LNDialogResultP
++ _symbolic _____m 18AppIntentsServices0aB8ProtocolO21FetchOptionsForActionO8ResponseO
++ _symbolic _____ySDySSSDySSSo16LNActionMetadataCGGG 15Synchronization5MutexVAARi_zrlE
++ _symbolic _____ySJG s23_ContiguousArrayStorageC
++ _symbolic _____ySSSDySSSo16LNActionMetadataCGG s17_NativeDictionaryV
++ _symbolic _____ySSSo16LNActionMetadataCG s17_NativeDictionaryV
++ _symbolic _____ySSSo16LNActionMetadataCG s18_DictionaryStorageC
++ _symbolic _____ySS_So11LNValueTypeCtG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_So16LNActionMetadataCtG s23_ContiguousArrayStorageC
++ _symbolic _____ySo7LNValueCG 18AppIntentsServices0A24IntentFetchOptionsResultV
++ _symbolic _____ySo7LNValueC_G 18AppIntentsServices0A24IntentFetchOptionsResultV4ItemV
++ _symbolic _____ySo7LNValueC_G 18AppIntentsServices0A24IntentFetchOptionsResultV7SectionV
++ _symbolic _____ySsG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G 11Distributed18RemoteCallArgumentV 18AppIntentsServices0eF8ProtocolO21FetchOptionsForActionO7RequestV
++ _symbolic _____y_____G s11_SetStorageC 18AppIntentsServices05LocalcD10DispatcherC29PerformActionExecutorDelegateC
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 18AppIntentsServices0dE22Protobuf_DynamicOptionV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 18AppIntentsServices0dE30Protobuf_DynamicOptionsSectionV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5Int32V
++ _symbolic _____y_____SgG 15Synchronization5MutexVAARi_zrlE 10Foundation4UUIDV
++ _symbolic _____y_____SgG 15Synchronization5_CellVAARi_zrlE 10Foundation4UUIDV
++ _symbolic _____y______G 18AppIntentsServices15InstrumentationO8ActivityC AA0aB8ProtocolO21FetchOptionsForActionO8ResponseO
++ _symbolic _____y_____ySo7LNValueC_GG s23_ContiguousArrayStorageC 18AppIntentsServices0D24IntentFetchOptionsResultV4ItemV
++ _symbolic _____y_____ySo7LNValueC_GG s23_ContiguousArrayStorageC 18AppIntentsServices0D24IntentFetchOptionsResultV7SectionV
++ _symbolic _____yx_G 18AppIntentsServices0A24IntentFetchOptionsResultV8IteratorV
++ _symbolic xXMT
++ _symbolic y___________tYbcSg 18AppIntentsServices06RemoteaB5ActorC29PerformActionExecutorDelegateC 10Foundation4UUIDV
++ block_copy_helper.139
++ block_copy_helper.160
++ block_copy_helper.18
++ block_copy_helper.180
++ block_copy_helper.206
++ block_copy_helper.21
++ block_copy_helper.225
++ block_copy_helper.253
++ block_copy_helper.256
++ block_copy_helper.259
++ block_copy_helper.55
++ block_copy_helper.67
++ block_copy_helper.81
++ block_descriptor.141
++ block_descriptor.162
++ block_descriptor.182
++ block_descriptor.20
++ block_descriptor.208
++ block_descriptor.227
++ block_descriptor.23
++ block_descriptor.255
++ block_descriptor.258
++ block_descriptor.261
++ block_descriptor.57
++ block_descriptor.69
++ block_descriptor.83
++ block_destroy_helper.140
++ block_destroy_helper.161
++ block_destroy_helper.181
++ block_destroy_helper.19
++ block_destroy_helper.207
++ block_destroy_helper.22
++ block_destroy_helper.226
++ block_destroy_helper.254
++ block_destroy_helper.257
++ block_destroy_helper.260
++ block_destroy_helper.56
++ block_destroy_helper.68
++ block_destroy_helper.82
++ get_type_metadata 15Synchronization5MutexVy10Foundation4UUIDVSgG.4
++ get_type_metadata 15Synchronization5MutexVy18AppIntentsServices29WeakObjectReferenceCollectionCyAD06RemotecD16DispatcherFacadeCGG.5
++ get_type_metadata 15Synchronization5MutexVy18AppIntentsServices29WeakObjectReferenceCollectionCyAD06RemotecD23DispatcherStateDelegate_pGG.4
++ get_type_metadata 15Synchronization5MutexVySDySSSDyS2SGGG.5
++ get_type_metadata 15Synchronization5MutexVySDySSSDySSSo15LNQueryMetadataCGGG.6
++ get_type_metadata 15Synchronization5MutexVySDySSSDySSSo16LNActionMetadataCGGG.3
++ get_type_metadata 15Synchronization5MutexVySDySSSDySSSo16LNEntityMetadataCGGG.4
++ get_type_metadata 15Synchronization5MutexVyShy18AppIntentsServices06RemotecD10DispatcherC9ActorCall33_B5708ECC7F6A26C5132D2814E197AF3BLLCGG.2
++ get_type_metadata 15Synchronization5MutexVys5Error_pSgG.3
++ objectdestroy.101Tm
++ objectdestroy.11Tm
++ objectdestroy.126Tm
++ objectdestroy.167Tm
++ objectdestroy.171Tm
++ objectdestroy.175Tm
++ objectdestroy.179Tm
++ objectdestroy.183Tm
++ objectdestroy.184Tm
++ objectdestroy.210Tm
++ objectdestroy.26Tm
++ objectdestroy.292Tm
++ objectdestroy.41Tm
++ objectdestroy.48Tm
++ objectdestroy.72Tm
++ objectdestroy.76Tm
++ objectdestroy.79Tm
+- _OBJC_CLASS_$_LNLocalizedStringResourceDialog
+- _OUTLINED_FUNCTION_525
+- _OUTLINED_FUNCTION_526
+- _OUTLINED_FUNCTION_527
+- _OUTLINED_FUNCTION_528
+- _OUTLINED_FUNCTION_529
+- _OUTLINED_FUNCTION_530
+- _OUTLINED_FUNCTION_531
+- _OUTLINED_FUNCTION_532
+- _OUTLINED_FUNCTION_533
+- _OUTLINED_FUNCTION_534
+- _OUTLINED_FUNCTION_535
+- _OUTLINED_FUNCTION_536
+- _OUTLINED_FUNCTION_537
+- _OUTLINED_FUNCTION_538
+- _OUTLINED_FUNCTION_539
+- _OUTLINED_FUNCTION_540
+- _OUTLINED_FUNCTION_541
+- _OUTLINED_FUNCTION_542
+- _OUTLINED_FUNCTION_543
+- _OUTLINED_FUNCTION_544
+- _OUTLINED_FUNCTION_545
+- _OUTLINED_FUNCTION_546
+- _OUTLINED_FUNCTION_547
+- _OUTLINED_FUNCTION_548
+- _OUTLINED_FUNCTION_549
+- _OUTLINED_FUNCTION_550
+- _OUTLINED_FUNCTION_551
+- _OUTLINED_FUNCTION_552
+- _OUTLINED_FUNCTION_553
+- _OUTLINED_FUNCTION_554
+- _OUTLINED_FUNCTION_555
+- _OUTLINED_FUNCTION_556
+- _OUTLINED_FUNCTION_557
+- _OUTLINED_FUNCTION_558
+- _OUTLINED_FUNCTION_559
+- _OUTLINED_FUNCTION_560
+- _OUTLINED_FUNCTION_561
+- _OUTLINED_FUNCTION_562
+- _OUTLINED_FUNCTION_563
+- _OUTLINED_FUNCTION_564
+- _OUTLINED_FUNCTION_565
+- _OUTLINED_FUNCTION_566
+- _OUTLINED_FUNCTION_567
+- _OUTLINED_FUNCTION_568
+- _OUTLINED_FUNCTION_569
+- _OUTLINED_FUNCTION_570
+- _OUTLINED_FUNCTION_571
+- _OUTLINED_FUNCTION_572
+- _OUTLINED_FUNCTION_573
+- _OUTLINED_FUNCTION_574
+- _OUTLINED_FUNCTION_575
+- _OUTLINED_FUNCTION_576
+- _OUTLINED_FUNCTION_577
+- _OUTLINED_FUNCTION_578
+- _OUTLINED_FUNCTION_579
+- _OUTLINED_FUNCTION_580
+- _OUTLINED_FUNCTION_581
+- _OUTLINED_FUNCTION_582
+- _OUTLINED_FUNCTION_583
+- _OUTLINED_FUNCTION_584
+- _OUTLINED_FUNCTION_585
+- _OUTLINED_FUNCTION_586
+- _OUTLINED_FUNCTION_587
+- _OUTLINED_FUNCTION_588
+- _OUTLINED_FUNCTION_589
+- _OUTLINED_FUNCTION_590
+- _OUTLINED_FUNCTION_591
+- _OUTLINED_FUNCTION_592
+- _OUTLINED_FUNCTION_593
+- _OUTLINED_FUNCTION_594
+- _OUTLINED_FUNCTION_595
+- _OUTLINED_FUNCTION_596
+- _OUTLINED_FUNCTION_597
+- _OUTLINED_FUNCTION_598
+- _OUTLINED_FUNCTION_599
+- _OUTLINED_FUNCTION_600
+- _OUTLINED_FUNCTION_601
+- _OUTLINED_FUNCTION_602
+- _OUTLINED_FUNCTION_603
+- _OUTLINED_FUNCTION_604
+- _OUTLINED_FUNCTION_605
+- _OUTLINED_FUNCTION_606
+- _OUTLINED_FUNCTION_607
+- _OUTLINED_FUNCTION_608
+- _OUTLINED_FUNCTION_609
+- _OUTLINED_FUNCTION_610
+- _OUTLINED_FUNCTION_611
+- _OUTLINED_FUNCTION_612
+- _OUTLINED_FUNCTION_613
+- _OUTLINED_FUNCTION_614
+- _OUTLINED_FUNCTION_615
+- _OUTLINED_FUNCTION_616
+- _OUTLINED_FUNCTION_617
+- _OUTLINED_FUNCTION_618
+- _OUTLINED_FUNCTION_619
+- _OUTLINED_FUNCTION_620
+- _OUTLINED_FUNCTION_621
+- _OUTLINED_FUNCTION_622
+- _OUTLINED_FUNCTION_623
+- _OUTLINED_FUNCTION_624
+- _OUTLINED_FUNCTION_625
+- _OUTLINED_FUNCTION_626
+- _OUTLINED_FUNCTION_627
+- _OUTLINED_FUNCTION_628
+- _OUTLINED_FUNCTION_629
+- _OUTLINED_FUNCTION_630
+- _OUTLINED_FUNCTION_631
+- _OUTLINED_FUNCTION_632
+- _OUTLINED_FUNCTION_633
+- _OUTLINED_FUNCTION_634
+- _OUTLINED_FUNCTION_635
+- _OUTLINED_FUNCTION_636
+- _OUTLINED_FUNCTION_637
+- _OUTLINED_FUNCTION_638
+- _OUTLINED_FUNCTION_639
+- _OUTLINED_FUNCTION_640
+- _OUTLINED_FUNCTION_641
+- _OUTLINED_FUNCTION_642
+- _OUTLINED_FUNCTION_643
+- _OUTLINED_FUNCTION_644
+- _OUTLINED_FUNCTION_645
+- _OUTLINED_FUNCTION_646
+- _OUTLINED_FUNCTION_647
+- _OUTLINED_FUNCTION_648
+- _OUTLINED_FUNCTION_649
+- _OUTLINED_FUNCTION_650
+- _OUTLINED_FUNCTION_651
+- _OUTLINED_FUNCTION_652
+- _OUTLINED_FUNCTION_653
+- _OUTLINED_FUNCTION_654
+- _OUTLINED_FUNCTION_655
+- _OUTLINED_FUNCTION_656
+- _OUTLINED_FUNCTION_657
+- _OUTLINED_FUNCTION_658
+- _OUTLINED_FUNCTION_659
+- _OUTLINED_FUNCTION_660
+- _OUTLINED_FUNCTION_661
+- _OUTLINED_FUNCTION_662
+- _OUTLINED_FUNCTION_663
+- _OUTLINED_FUNCTION_664
+- _OUTLINED_FUNCTION_665
+- _OUTLINED_FUNCTION_666
+- _OUTLINED_FUNCTION_667
+- _OUTLINED_FUNCTION_668
+- _OUTLINED_FUNCTION_669
+- _OUTLINED_FUNCTION_670
+- _OUTLINED_FUNCTION_671
+- _OUTLINED_FUNCTION_672
+- _OUTLINED_FUNCTION_673
+- _OUTLINED_FUNCTION_674
+- _OUTLINED_FUNCTION_675
+- _OUTLINED_FUNCTION_676
+- _OUTLINED_FUNCTION_677
+- _OUTLINED_FUNCTION_678
+- _OUTLINED_FUNCTION_679
+- _OUTLINED_FUNCTION_680
+- _OUTLINED_FUNCTION_681
+- _OUTLINED_FUNCTION_682
+- _OUTLINED_FUNCTION_683
+- _OUTLINED_FUNCTION_684
+- _OUTLINED_FUNCTION_685
+- _OUTLINED_FUNCTION_686
+- _OUTLINED_FUNCTION_687
+- _OUTLINED_FUNCTION_688
+- _OUTLINED_FUNCTION_689
+- _OUTLINED_FUNCTION_690
+- _OUTLINED_FUNCTION_691
+- _OUTLINED_FUNCTION_692
+- _OUTLINED_FUNCTION_693
+- _OUTLINED_FUNCTION_694
+- _OUTLINED_FUNCTION_695
+- _OUTLINED_FUNCTION_696
+- _OUTLINED_FUNCTION_697
+- _OUTLINED_FUNCTION_698
+- _OUTLINED_FUNCTION_699
+- _OUTLINED_FUNCTION_700
+- _OUTLINED_FUNCTION_701
+- _OUTLINED_FUNCTION_702
+- _OUTLINED_FUNCTION_703
+- _OUTLINED_FUNCTION_704
+- _OUTLINED_FUNCTION_705
+- _OUTLINED_FUNCTION_706
+- _OUTLINED_FUNCTION_707
+- _OUTLINED_FUNCTION_708
+- _OUTLINED_FUNCTION_709
+- _OUTLINED_FUNCTION_710
+- _OUTLINED_FUNCTION_711
+- _OUTLINED_FUNCTION_712
+- _OUTLINED_FUNCTION_713
+- _OUTLINED_FUNCTION_714
+- _OUTLINED_FUNCTION_715
+- _OUTLINED_FUNCTION_716
+- _OUTLINED_FUNCTION_717
+- _OUTLINED_FUNCTION_718
+- _OUTLINED_FUNCTION_719
+- _OUTLINED_FUNCTION_720
+- _OUTLINED_FUNCTION_721
+- _OUTLINED_FUNCTION_722
+- _OUTLINED_FUNCTION_723
+- _OUTLINED_FUNCTION_724
+- _OUTLINED_FUNCTION_725
+- _OUTLINED_FUNCTION_726
+- _OUTLINED_FUNCTION_727
+- _OUTLINED_FUNCTION_728
+- _OUTLINED_FUNCTION_729
+- _OUTLINED_FUNCTION_730
+- _OUTLINED_FUNCTION_731
+- _OUTLINED_FUNCTION_732
+- _OUTLINED_FUNCTION_733
+- _OUTLINED_FUNCTION_734
+- _OUTLINED_FUNCTION_735
+- _OUTLINED_FUNCTION_736
+- _OUTLINED_FUNCTION_737
+- _OUTLINED_FUNCTION_738
+- _OUTLINED_FUNCTION_739
+- _OUTLINED_FUNCTION_740
+- _OUTLINED_FUNCTION_741
+- _OUTLINED_FUNCTION_742
+- _OUTLINED_FUNCTION_743
+- _OUTLINED_FUNCTION_744
+- _OUTLINED_FUNCTION_745
+- _OUTLINED_FUNCTION_746
+- _OUTLINED_FUNCTION_747
+- _OUTLINED_FUNCTION_748
+- _OUTLINED_FUNCTION_749
+- _OUTLINED_FUNCTION_750
+- _OUTLINED_FUNCTION_751
+- _OUTLINED_FUNCTION_752
+- _OUTLINED_FUNCTION_753
+- _OUTLINED_FUNCTION_754
+- _OUTLINED_FUNCTION_755
+- _OUTLINED_FUNCTION_756
+- _OUTLINED_FUNCTION_757
+- _OUTLINED_FUNCTION_758
+- _OUTLINED_FUNCTION_759
+- _OUTLINED_FUNCTION_760
+- _OUTLINED_FUNCTION_761
+- _OUTLINED_FUNCTION_762
+- _OUTLINED_FUNCTION_763
+- _OUTLINED_FUNCTION_764
+- _OUTLINED_FUNCTION_765
+- _OUTLINED_FUNCTION_766
+- _OUTLINED_FUNCTION_767
+- _OUTLINED_FUNCTION_768
+- _OUTLINED_FUNCTION_769
+- _OUTLINED_FUNCTION_770
+- _OUTLINED_FUNCTION_771
+- _OUTLINED_FUNCTION_772
+- _OUTLINED_FUNCTION_773
+- _OUTLINED_FUNCTION_774
+- _OUTLINED_FUNCTION_775
+- _OUTLINED_FUNCTION_776
+- _OUTLINED_FUNCTION_777
+- _OUTLINED_FUNCTION_778
+- _OUTLINED_FUNCTION_779
+- _OUTLINED_FUNCTION_780
+- _OUTLINED_FUNCTION_781
+- _OUTLINED_FUNCTION_782
+- _OUTLINED_FUNCTION_783
+- _OUTLINED_FUNCTION_784
+- _OUTLINED_FUNCTION_785
+- _OUTLINED_FUNCTION_786
+- _OUTLINED_FUNCTION_787
+- _OUTLINED_FUNCTION_788
+- _OUTLINED_FUNCTION_789
+- _OUTLINED_FUNCTION_790
+- _OUTLINED_FUNCTION_791
+- _OUTLINED_FUNCTION_792
+- _OUTLINED_FUNCTION_793
+- _OUTLINED_FUNCTION_794
+- _OUTLINED_FUNCTION_795
+- _OUTLINED_FUNCTION_796
+- _OUTLINED_FUNCTION_797
+- _OUTLINED_FUNCTION_798
+- _OUTLINED_FUNCTION_799
+- _OUTLINED_FUNCTION_800
+- _OUTLINED_FUNCTION_801
+- _OUTLINED_FUNCTION_802
+- _OUTLINED_FUNCTION_803
+- _OUTLINED_FUNCTION_804
+- _OUTLINED_FUNCTION_805
+- _OUTLINED_FUNCTION_806
+- _OUTLINED_FUNCTION_807
+- _OUTLINED_FUNCTION_808
+- _OUTLINED_FUNCTION_809
+- _OUTLINED_FUNCTION_810
+- _OUTLINED_FUNCTION_811
+- _OUTLINED_FUNCTION_812
+- _OUTLINED_FUNCTION_813
+- _OUTLINED_FUNCTION_814
+- _OUTLINED_FUNCTION_815
+- _OUTLINED_FUNCTION_816
+- _OUTLINED_FUNCTION_817
+- _OUTLINED_FUNCTION_818
+- _OUTLINED_FUNCTION_819
+- _OUTLINED_FUNCTION_820
+- _OUTLINED_FUNCTION_821
+- _OUTLINED_FUNCTION_822
+- _OUTLINED_FUNCTION_823
+- _OUTLINED_FUNCTION_824
+- _OUTLINED_FUNCTION_825
+- _OUTLINED_FUNCTION_826
+- _OUTLINED_FUNCTION_827
+- _OUTLINED_FUNCTION_828
+- _OUTLINED_FUNCTION_829
+- _OUTLINED_FUNCTION_830
+- _OUTLINED_FUNCTION_831
+- _OUTLINED_FUNCTION_832
+- _OUTLINED_FUNCTION_833
+- _OUTLINED_FUNCTION_834
+- _OUTLINED_FUNCTION_835
+- _OUTLINED_FUNCTION_836
+- _OUTLINED_FUNCTION_837
+- ___swift_memcpy113_8
+- ___swift_memcpy145_8
+- ___swift_memcpy193_8
+- __swift_FORCE_LOAD_$_swiftFileProvider
+- __swift_FORCE_LOAD_$_swiftFileProvider_$_AppIntentsServices
+- __swift_get_extra_inhabitant_index.116Tm
+- __swift_get_extra_inhabitant_index.119Tm
+- __swift_get_extra_inhabitant_index.16Tm
+- __swift_get_extra_inhabitant_index.19Tm
+- __swift_get_extra_inhabitant_index.34Tm
+- __swift_get_extra_inhabitant_index.40Tm
+- __swift_get_extra_inhabitant_index.44Tm
+- __swift_get_extra_inhabitant_index.46Tm
+- __swift_get_extra_inhabitant_index.80Tm
+- __swift_store_extra_inhabitant_index.117Tm
+- __swift_store_extra_inhabitant_index.120Tm
+- __swift_store_extra_inhabitant_index.17Tm
+- __swift_store_extra_inhabitant_index.20Tm
+- __swift_store_extra_inhabitant_index.35Tm
+- __swift_store_extra_inhabitant_index.41Tm
+- __swift_store_extra_inhabitant_index.45Tm
+- __swift_store_extra_inhabitant_index.47Tm
+- __swift_store_extra_inhabitant_index.81Tm
+- _associated conformance 18AppIntentsServices0A17NotificationTopicV7Network20NWCustomSerializableAASE
+- _associated conformance 18AppIntentsServices0A17NotificationTopicV7Network20NWCustomSerializableAASe
+- _associated conformance 18AppIntentsServices0A17NotificationTopicVAA21ProtobufRepresentableAA0F4TypeAaDP_013InternalSwiftF07Message
+- _associated conformance 18AppIntentsServices0A17NotificationTopicVAA21ProtobufRepresentableAA0F4TypeAaDP_SQ
+- _symbolic SS20entityTypeIdentifier_t
+- _symbolic SS3key_yp5valuetSg
+- _symbolic Say______pG17entityIdentifiers_t 18AppIntentsServices0A16EntityIdentifierP
+- _symbolic ScCySo7LNValueCSg______pG s5ErrorP
+- _symbolic Scsy___________pG 18AppIntentsServices05LocalaB10DispatcherC19LinkConnectionEventO s5ErrorP
+- _symbolic So15LNSuccessResultC
+- _symbolic So19LNNeedsValueRequestC_So16LNActionMetadataCSSt
+- _symbolic So21LNConfirmationRequestC_So16LNActionMetadataCt
+- _symbolic So23LNDisambiguationRequestC_So16LNActionMetadataCt
+- _symbolic _____ 18AppIntentsServices05LocalaB10DispatcherC19LinkConnectionEventO
+- _symbolic _____11queryTarget_SS8matchingt 18AppIntentsServices11QueryTargetV
+- _symbolic _____11queryTarget_SaySo16CSSearchableItemCG17csSearchableItemst 18AppIntentsServices11QueryTargetV
+- _symbolic _____11queryTarget______13propertyQuerySiSg18maximumResultCountSay_____GSg14sortingOptionst 18AppIntentsServices11QueryTargetV AA08PropertyD0V AE13SortingOptionV
+- _symbolic _____S2u__________Sg______pIetMHnTyTyTgozo_ 10Foundation3URLV 18AppIntentsServices06RemotecD5ActorC AA4DataV s5ErrorP
+- _symbolic _____Sg 18AppIntentsServices03AnyA20EntityRepresentationV
+- _symbolic __________________________pIetMHnTgTgrzo_ 18AppIntentsServices0A17NotificationTopicV AA06RemoteaD4SinkC AA0faB5ActorC 10Foundation4UUIDV s5ErrorP
+- _symbolic __________________________pIetMHnTnTgTgzo_ 18AppIntentsServices0A17NotificationTopicV 10Foundation4UUIDV AA06RemoteaD4SinkC AA0haB5ActorC s5ErrorP
+- _symbolic _____________________pIetMHnTnTgzo_ 18AppIntentsServices0A17NotificationTopicV 10Foundation4UUIDV AA06RemoteaB5ActorC s5ErrorP
+- _symbolic ______pSg 18AppIntentsServices24ActorTransactionDelegateP
+- _symbolic _____ySo7LNValueCGSg 18AppIntentsServices0A19IntentSuccessResultV
+- _symbolic _____ySuG 11Distributed18RemoteCallArgumentV
+- _symbolic _____y_____G 11Distributed18RemoteCallArgumentV 10Foundation3URLV
+- _symbolic _____y_____G 11Distributed18RemoteCallArgumentV 10Foundation4UUIDV
+- _symbolic _____y_____G 11Distributed18RemoteCallArgumentV 18AppIntentsServices0E17NotificationTopicV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 18AppIntentsServices0eF0O15DevicePredicateO
+- _symbolic _____y__________G s17_NativeDictionaryV 10Foundation4UUIDV 18AppIntentsServices05LocaleF10DispatcherC29PerformActionExecutorDelegateC
+- _symbolic _____y__________G s6ResultOsRi_zrlE 18AppIntentsServices0bC8ProtocolO12PerformQueryO8ResponseO s5NeverO
+- _symbolic _____y___________pG s6ResultOsRi_zrlE 18AppIntentsServices0bC8ProtocolO12PerformQueryO8ResponseO s5ErrorP
+- _symbolic _____y___________p_G Scs12ContinuationV 18AppIntentsServices05LocalbC10DispatcherC19LinkConnectionEventO s5ErrorP
+- _symbolic _____y___________p_G Scs8IteratorV 18AppIntentsServices05LocalbC10DispatcherC19LinkConnectionEventO s5ErrorP
+- _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 18AppIntentsServices05LocaldE10DispatcherC19LinkConnectionEventO s5ErrorP
+- _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 18AppIntentsServices05LocaldE10DispatcherC19LinkConnectionEventO s5ErrorP
+- _symbolic xIeghn_
+- block_descriptor.10
+- block_descriptor.148
+- block_descriptor.167
+- block_descriptor.185
+- block_descriptor.231
+- block_descriptor.232
+- block_descriptor.233
+- block_descriptor.60
+- get_type_metadata 15Synchronization5MutexVy18AppIntentsServices29WeakObjectReferenceCollectionCyAD06RemotecD16DispatcherFacadeCGG.25
+- get_type_metadata 15Synchronization5MutexVy18AppIntentsServices29WeakObjectReferenceCollectionCyAD06RemotecD23DispatcherStateDelegate_pGG.24
+- get_type_metadata 15Synchronization5MutexVySDySSSDyS2SGGG.6
+- get_type_metadata 15Synchronization5MutexVySDySSSDySSSo15LNQueryMetadataCGGG.7
+- get_type_metadata 15Synchronization5MutexVySDySSSDySSSo16LNEntityMetadataCGGG.5
+- get_type_metadata 15Synchronization5MutexVyShy18AppIntentsServices06RemotecD10DispatcherC9ActorCall33_B5708ECC7F6A26C5132D2814E197AF3BLLCGG.22
+- get_type_metadata 15Synchronization5MutexVys5Error_pSgG.23
+- objectdestroy.114Tm
+- objectdestroy.118Tm
+- objectdestroy.135Tm
+- objectdestroy.143Tm
+- objectdestroy.147Tm
+- objectdestroy.150Tm
+- objectdestroy.211Tm
+- objectdestroy.238Tm
+- objectdestroy.242Tm
+- objectdestroy.246Tm
+- objectdestroy.250Tm
+- objectdestroy.254Tm
+- objectdestroy.258Tm
+- objectdestroy.264Tm
+- objectdestroy.35Tm
+- objectdestroy.95Tm
+CStrings:
++ " has searchTerm: "
++ " parameterIdentifier: "
++ "$__lazy_storage_$_logPrefix"
++ "%s%s Device: %s, NWEndpoint: %s, txtRecord: %s"
++ "%sFailed initializing a new NWBrowser: %@"
++ "%sIntent returned an AsyncSequence, retrieving content"
++ "%sInvalid state transition from %s to %s"
++ "%sNWBrowser endpoints changed while in an unexpected state: %s"
++ "%sNWBrowser failed with error: %@. Creating a new browser"
++ "%sNWBrowser reported new state: %s"
++ "%sNWBrowser waiting with error: %@"
++ "%sTransitioning from %s to %s"
++ "%sUpdating endpoint to %s"
++ ", dialogResult: "
++ ", localeIdentifier: "
++ ", supportingString: "
++ ".FetchOptionsForActionRequest"
++ ".FetchOptionsForActionResponse"
++ ".ParameterTarget"
++ ".allEntities(queryTarget: "
++ ".byEntityIdentifiers(\n"
++ ".byMatchingString( "
++ ".byProperties(propertyQuery: "
++ ".suggestedEntities(queryTarget: "
++ ".uniqueEntity(queryTarget: "
++ "<User personaUniqueIdentifier="
++ "<User personaUniqueString="
++ "<User siriSharedUserIdentifier="
++ "@\"NSArray\"16@0:8"
++ "@\"NSData\"16@0:8"
++ "@\"NSDictionary\"16@0:8"
++ "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
++ "ActorCall %s completed with activeError: %@"
++ "ActorCall %s execution cancelled"
++ "ActorCall %s failed at canMakeRemoteCalls with error: %@"
++ "ActorCall %s retrying on: %@, remaining attempts: %ld"
++ "AnyDialog(fullString: "
++ "AppIntentsProtobuf.DynamicOption"
++ "AppIntentsProtobuf.DynamicOptionsResult"
++ "AppIntentsProtobuf.DynamicOptionsSection"
++ "AppIntentsServices.RemoteDialogResult"
++ "Error extracting LNDialogResult: %@"
++ "Expected previously extracted value type when processing array"
++ "Failed to fetch proxied image data"
++ "Fatal Error: multiple iterations for ProgressTask"
++ "Fetching options for "
++ "First observer added - listening for topic: %s"
++ "LNDialogResult"
++ "Last observer removed - stop listening for topic: %s"
++ "NWBrowserDebounceDuration"
++ "Re-stopping observation for %s/%s on connection interruption: %@"
++ "Received an empty personaUniqueString"
++ "Stopping observation for %s/%s on connection interruption: %@"
++ "T@\"NSArray\",&,N"
++ "T@\"NSArray\",N,C"
++ "T@\"NSData\",&,N"
++ "T@\"NSData\",N,C"
++ "T@\"NSDictionary\",&,N"
++ "T@\"NSDictionary\",N,C"
++ "T@\"NSString\",&,N"
++ "T@\"NSString\",N,C"
++ "Topic %s no observers for %s"
++ "Unknown FetchOptionsForAction response type"
++ "Unknown parameter: "
++ "[%s] %s Received disambiguation request %{private}@"
++ "[%s] %s Received disambiguation request %{sensitive}@"
++ "[%s] %s Received needsActionConfirmation request %{private}@"
++ "[%s] %s Received needsActionConfirmation request %{sensitive}@"
++ "[%s] %s Received needsConfirmation request %{private}@"
++ "[%s] %s Received needsConfirmation request %{sensitive}@"
++ "[%s] %s Received needsContinueInAppWith request %{private}@"
++ "[%s] %s Received needsContinueInAppWith request %{sensitive}@"
++ "[%s] %s Received needsValue request %{private}@"
++ "[%s] %s Received needsValue request %{sensitive}@"
++ "[%s] %s deinit for %s"
++ "[%s] %s invalidated for %s"
++ "[%s] Cannot convert %s to %s"
++ "[%s] Deinit"
++ "[%s] EXECUTOR %s COMPLETED WITH NO RESULT NOR ERROR"
++ "[%s] Executor %s didCompleteExecution with result=%{private}@, error=%{private}@"
++ "[%s] Executor %s didCompleteExecution with result=%{sensitive}@, error=%{sensitive}@"
++ "[%s] Executor %s didPerformActionWithResult with result=%{private}@, error=%{private}@"
++ "[%s] Executor %s didPerformActionWithResult with result=%{sensitive}@, error=%{sensitive}@"
++ "[%s] Failed to validate entitlements: %@"
++ "[%s] Initialized dispatcher for %s"
++ "[%s] NeedsActionConfirmation: failed with error %@"
++ "[%s] NeedsActionConfirmation: responding to app request"
++ "[%s] NeedsActionConfirmation: waiting for client response..."
++ "[%s] NeedsConfirmation: failed with error: %@"
++ "[%s] NeedsConfirmation: responding to app request"
++ "[%s] NeedsConfirmation: waiting for client response..."
++ "[%s] NeedsContinueInApp: failed with error %@"
++ "[%s] NeedsContinueInApp: responding to app request"
++ "[%s] NeedsContinueInApp: waiting for client response..."
++ "[%s] NeedsDisambiguation: failed with error: %@"
++ "[%s] NeedsDisambiguation: responding to app request"
++ "[%s] NeedsDisambiguation: waiting for client response..."
++ "[%s] NeedsValue: failed with error: %@"
++ "[%s] NeedsValue: responding to app request"
++ "[%s] NeedsValue: waiting for client response..."
++ "[%s] Received cancellation event"
++ "[%s] Started executor with identifier: %s"
++ "_TtCV18AppIntentsServices9AnyDialogP33_2751758AFE110A00C5EF3AE4BAE73B7118RemoteDialogResult"
++ "_TtCVVV18AppIntentsServices31AppIntentsProtobuf_HostMessages21PerformActionResponse17NeedsValueRequestP33_15D8ACD6F9A04B79071F668CEE455EA313_StorageClass"
++ "_TtCVVV18AppIntentsServices31AppIntentsProtobuf_HostMessages21PerformActionResponse19ConfirmationRequestP33_15D8ACD6F9A04B79071F668CEE455EA313_StorageClass"
++ "_TtCVVV18AppIntentsServices31AppIntentsProtobuf_HostMessages21PerformActionResponse20ContinueInAppRequestP33_15D8ACD6F9A04B79071F668CEE455EA313_StorageClass"
++ "_TtCVVV18AppIntentsServices31AppIntentsProtobuf_HostMessages21PerformActionResponse21DisambiguationRequestP33_15D8ACD6F9A04B79071F668CEE455EA313_StorageClass"
++ "_effectiveBundleIdentifier"
++ "_executionIdentifier"
++ "_executorIdentifier"
++ "_isThrowing"
++ "_parameterMetadata"
++ "_parameterName"
++ "_providedValues"
++ "_requestConfirmation"
++ "_requiresRetrieval"
++ "_retrieveImageDataWithReply:"
++ "_type"
++ "actionMetadataMap"
++ "actionsConformingToSystemProtocol:withParametersOfTypes:bundleIdentifier:error:"
++ "actionsForBundleIdentifier:error:"
++ "activityIdentifier"
++ "attribution"
++ "basePrefix"
++ "byEntityIdentifiers"
++ "captionPrint"
++ "captionSpeak"
++ "catId"
++ "clientDelegate"
++ "com.apple.runningboard.launchprocess"
++ "confirmationConditions"
++ "dependentParameterIdentifiers"
++ "dialogId"
++ "dispatcher"
++ "fetchOptionsForAction"
++ "fetchOptionsForAction:actionMetadata:parameterMetadata:searchTerm:localeIdentifier:completionHandler:"
++ "fullyQualifiedIdentifier"
++ "getResultWithCompletionHandler:"
++ "indentationLevel"
++ "initWithINImage:"
++ "initWithIdentifier:dialog:viewSnippet:attribution:value:showOutputAction:showOutputActionHint:showOutputActionOptions:deferred:nextAction:suggestedFollowUpActions:activityIdentifier:confirmationActionName:showPrompt:confirmationConditions:undoContext:"
++ "initWithInt:"
++ "initWithPersonaUniqueIdentifier:accessLevel:"
++ "intValue"
++ "intent"
++ "isDeferred"
++ "localizedKey"
++ "loggingPrefix"
++ "meta"
++ "openEntitySystemProtocol"
++ "openIntent is not supported for remote devices"
++ "parameter"
++ "parameterIdentifier"
++ "perform(intent:options:delegate:activity:)"
++ "performActionExecutor."
++ "performIntent:actionExecutor:completed"
++ "performIntent:actionExecutor:start"
++ "performIntent:createConnection"
++ "performIntent:createPolicy"
++ "performIntent:loadActionMetadata"
++ "performIntent:outputGenerated"
++ "policyWithActionMetadata:"
++ "print"
++ "printOnly"
++ "promptLabel"
++ "queryIdentifier"
++ "searchTerm"
++ "sections"
++ "setCaptionPrint:"
++ "setCaptionSpeak:"
++ "setCatId:"
++ "setDialogId:"
++ "setMeta:"
++ "setPrint:"
++ "setPrintOnly:"
++ "setSpeak:"
++ "setSpokenOnly:"
++ "setSpokenOnlyDefined:"
++ "setVisualId:"
++ "setVisualParameters:"
++ "setVisualResponse:"
++ "showOutputActionHint"
++ "speak"
++ "spokenOnly"
++ "spokenOnlyDefined"
++ "suggestedFollowUpActions"
++ "targetIntentParameter"
++ "undoContext"
++ "usesIndexedCollation"
++ "usesIndexedCollection"
++ "v24@0:8@\"NSArray\"16"
++ "v24@0:8@\"NSData\"16"
++ "v24@0:8@\"NSDictionary\"16"
++ "v24@0:8@\"NSString\"16"
++ "v24@?0@\"<LNDialogResult>\"8@\"NSError\"16"
++ "v24@?0@\"INImage\"8@\"NSError\"16"
++ "v24@?0@\"LNDynamicOptionsResult\"8@\"NSError\"16"
++ "visualId"
++ "visualParameters"
++ "visualResponse"
+- " propertyQuery: "
+- "%s Device: %s, NWEndpoint: %s, txtRecord: %s"
+- ",     matchingString: "
+- ".byMatchingString(     queryTarget: "
+- ".byProperties(queryTarget: "
+- ".suggestedEntities(queryTarget; "
+- ".uniqueEntity(queryTarget; "
+- "ActorCall %s completed with active error: %@"
+- "ActorCall %s retrying on error: %@"
+- "AnyDialog conversion not implemented for: %s"
+- "Cannot convert %s to %s"
+- "Connection executor identifier: %s"
+- "Decoding exportedContent using legacy INFile descriptor codepath"
+- "Decoding exportedContent using new INFile descriptor codepath"
+- "Division by zero"
+- "Division results in an overflow"
+- "Failed initializing a new NWBrowser: %@"
+- "Failed to validate entitlements: %@"
+- "Failed with error %@"
+- "Fatal Error: multiple iterations for ProgressTask "
+- "Insufficient space allocated to copy string contents"
+- "Intent returned an AsyncSequence, retrieving content"
+- "Invalid state transition from %s to %s"
+- "Local app intent dispatcher connection executor identifier: %s"
+- "NWBrowser endpoints changed while in an unexpected state: %s"
+- "NWBrowser failed with error: %@. Creating a new browser"
+- "NWBrowser reported new state: %s"
+- "NWBrowser waiting with error: %@"
+- "NeedsActionConfirmation failed with error %@"
+- "NeedsConfirmation failed with error: %@"
+- "NeedsContinueInApp failed with error %@"
+- "NeedsDisambiguation failed with error: %@"
+- "NeedsValue failed with error: %@"
+- "Negative value is not representable"
+- "Not able to handle error because of deprecated call: %@"
+- "Not enough bits to represent the passed value"
+- "Stopping observation for %s on connection interruption: %@"
+- "Swift/ContiguousArrayBuffer.swift"
+- "Swift/IntegerTypes.swift"
+- "Swift/Integers.swift"
+- "Swift/StringTesting.swift"
+- "Swift/StringUTF8View.swift"
+- "Swift/UnsafeBufferPointer.swift"
+- "Swift/UnsafePointer.swift"
+- "Swift/UnsafeRawPointer.swift"
+- "Transitioning from %s to %s"
+- "Unexpectedly found nil while unwrapping an Optional value"
+- "Unknown dialog type"
+- "UnsafeMutableBufferPointer with negative count"
+- "UnsafeMutablePointer.initialize overlapping range"
+- "UnsafeMutablePointer.initialize with negative count"
+- "UnsafeMutablePointer.moveInitialize with negative count"
+- "UnsafeMutableRawPointer.initializeMemory overlapping range"
+- "UnsafeMutableRawPointer.initializeMemory with negative count"
+- "Unsupported dialog type"
+- "Updating endpoint to %s"
+- "User(personaUniqueIdentifier="
+- "User(personaUniqueString="
+- "User(siriSharedUserIdentifier="
+- "XPC: First observer added - listening for topic: %s"
+- "XPC: Last observer removed - stop listening for topic: %s"
+- "XPC: Topic %s events %s"
+- "XPC: Topic %s no observers"
+- "entityTypeIdentifier"
+- "entityTypeName"
+- "eventComplete"
+- "eventHandleNeedsActionConfirmation"
+- "eventHandleNeedsContinueInApp"
+- "eventNeedsConfirmation"
+- "eventNeedsDisambiguation"
+- "eventNeedsValue"
+- "fetchValueForProperty(withIdentifier:entity:)"
+- "file"
+- "fullString"
+- "initWithPersonaUniqueIdentifier:"
+- "invalid Collection: less than 'count' elements in collection"
+- "line"
+- "openURLIntent"
+- "startPerformActionExecutor"
+- "supportingString"
+- "value(for: %s as:%s)"
+
+```

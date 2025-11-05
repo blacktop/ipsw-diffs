@@ -1,0 +1,709 @@
+## PoirotBlocks
+
+> `/System/Library/PrivateFrameworks/PoirotBlocks.framework/Versions/A/PoirotBlocks`
+
+```diff
+
+-3402.32.1.0.0
+-  __TEXT.__text: 0x5a0f4
+-  __TEXT.__auth_stubs: 0x1690
+-  __TEXT.__objc_methlist: 0x5c
+-  __TEXT.__cstring: 0x1756
+-  __TEXT.__const: 0x3e52
+-  __TEXT.__constg_swiftt: 0x1d74
+-  __TEXT.__swift5_typeref: 0x1462
+-  __TEXT.__swift5_reflstr: 0xe8a
+-  __TEXT.__swift5_fieldmd: 0x1604
+-  __TEXT.__swift5_builtin: 0x140
+-  __TEXT.__swift5_assocty: 0x170
+-  __TEXT.__swift5_proto: 0x3d4
+-  __TEXT.__swift5_types: 0x184
+-  __TEXT.__swift5_protos: 0x90
+-  __TEXT.__swift5_mpenum: 0x74
+-  __TEXT.__swift5_capture: 0x108
+-  __TEXT.__unwind_info: 0x1978
+-  __TEXT.__eh_frame: 0x3598
++3404.60.1.0.0
++  __TEXT.__text: 0x7f90c
++  __TEXT.__auth_stubs: 0x1cc0
++  __TEXT.__objc_methlist: 0x21c
++  __TEXT.__cstring: 0x1d12
++  __TEXT.__const: 0x5fc0
++  __TEXT.__constg_swiftt: 0x2964
++  __TEXT.__swift5_typeref: 0x1aa6
++  __TEXT.__swift5_builtin: 0x12c
++  __TEXT.__swift5_reflstr: 0x15f2
++  __TEXT.__swift5_fieldmd: 0x1f84
++  __TEXT.__swift5_assocty: 0x268
++  __TEXT.__swift5_proto: 0x610
++  __TEXT.__swift5_types: 0x244
++  __TEXT.__swift5_capture: 0x1bc
++  __TEXT.__swift5_protos: 0x84
++  __TEXT.__swift5_mpenum: 0x6c
++  __TEXT.__oslogstring: 0x28
++  __TEXT.__unwind_info: 0x22e8
++  __TEXT.__eh_frame: 0x4850
+   __TEXT.__objc_classname: 0x22
+-  __TEXT.__objc_methname: 0x44b
++  __TEXT.__objc_methname: 0x48b
+   __TEXT.__objc_methtype: 0x126
+-  __DATA_CONST.__got: 0x380
+-  __DATA_CONST.__const: 0xf0
+-  __DATA_CONST.__objc_classlist: 0xc0
++  __DATA_CONST.__got: 0x5c8
++  __DATA_CONST.__const: 0x158
++  __DATA_CONST.__objc_classlist: 0x108
+   __DATA_CONST.__objc_protolist: 0x38
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xd8
++  __DATA_CONST.__objc_selrefs: 0x1d0
+   __DATA_CONST.__objc_protorefs: 0x20
+-  __AUTH_CONST.__auth_got: 0xb48
+-  __AUTH_CONST.__const: 0x2c20
+-  __AUTH_CONST.__objc_const: 0x1cb0
+-  __AUTH.__objc_data: 0x2c0
+-  __AUTH.__data: 0x1ae8
+-  __DATA.__data: 0xd48
+-  __DATA.__bss: 0x6b10
+-  __DATA.__common: 0x60
++  __AUTH_CONST.__auth_got: 0xe60
++  __AUTH_CONST.__const: 0x4358
++  __AUTH_CONST.__objc_const: 0x2318
++  __AUTH.__objc_data: 0x340
++  __AUTH.__data: 0x2aa0
++  __DATA.__data: 0x15d0
++  __DATA.__bss: 0xa980
++  __DATA.__common: 0xe8
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
++  - /System/Library/Frameworks/Security.framework/Versions/A/Security
+   - /System/Library/Frameworks/TabularData.framework/Versions/A/TabularData
+   - /System/Library/PrivateFrameworks/BiomeLibrary.framework/Versions/A/BiomeLibrary
+   - /System/Library/PrivateFrameworks/BiomeStreams.framework/Versions/A/BiomeStreams
++  - /System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+   - /System/Library/PrivateFrameworks/PoirotSQLite.framework/Versions/A/PoirotSQLite
+   - /System/Library/PrivateFrameworks/PoirotSchematizer.framework/Versions/A/PoirotSchematizer
+   - /System/Library/PrivateFrameworks/PoirotUDFs.framework/Versions/A/PoirotUDFs
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswift_errno.dylib
+   - /usr/lib/swift/libswift_math.dylib
+   - /usr/lib/swift/libswift_signal.dylib
+
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: CF9AF3A5-EE98-306F-B858-A7B4B06E5EF4
+-  Functions: 1994
+-  Symbols:   677
+-  CStrings:  281
++  UUID: A62E2ADB-DF4C-3F7D-AF3D-8610B46B8B56
++  Functions: 2859
++  Symbols:   931
++  CStrings:  348
+ 
+Symbols:
++ _AnalyticsSendEvent
++ _OBJC_CLASS_$_NSObject
++ _SecTaskCopyValueForEntitlement
++ _SecTaskCreateFromSelf
++ __DATA__TtC12PoirotBlocks13SentinelBlock
++ __DATA__TtC12PoirotBlocks14FileLogHandler
++ __DATA__TtC12PoirotBlocks15DebugLogHandler
++ __DATA__TtC12PoirotBlocks15TimeWindowBlock
++ __DATA__TtC12PoirotBlocks17ConsoleLogHandler
++ __DATA__TtC12PoirotBlocks17LogEntryCollector
++ __DATA__TtC12PoirotBlocks19BaseHostEnvironment
++ __DATA__TtC12PoirotBlocks20AdHocHostEnvironment
++ __DATA__TtC12PoirotBlocks20QueryParametersBlock
++ __DATA__TtC12PoirotBlocks21DefaultHostController
++ __DATA__TtC12PoirotBlocks29HostDiagnosingActivityMonitor
++ __DATA__TtC12PoirotBlocks33TelemetryReportingActivityMonitor
++ __DATA__TtCO12PoirotBlocks12BiomeStreams12TableFactory
++ __DATA__TtCO12PoirotBlocks12BiomeStreams19PrivateTableFactory
++ __DATA__TtCO12PoirotBlocks12BiomeStreams23SchematizedTableFactory
++ __DATA__TtCO12PoirotBlocks15BiomePublishers12TableFactory
++ __IVARS__TtC12PoirotBlocks10PoirotTask
++ __IVARS__TtC12PoirotBlocks13SentinelBlock
++ __IVARS__TtC12PoirotBlocks14CommandHandler
++ __IVARS__TtC12PoirotBlocks14FileLogHandler
++ __IVARS__TtC12PoirotBlocks15DebugLogHandler
++ __IVARS__TtC12PoirotBlocks15TimeWindowBlock
++ __IVARS__TtC12PoirotBlocks17ConsoleLogHandler
++ __IVARS__TtC12PoirotBlocks17LogEntryCollector
++ __IVARS__TtC12PoirotBlocks19BaseHostEnvironment
++ __IVARS__TtC12PoirotBlocks20AdHocHostEnvironment
++ __IVARS__TtC12PoirotBlocks20QueryParametersBlock
++ __IVARS__TtC12PoirotBlocks21DefaultHostController
++ __IVARS__TtC12PoirotBlocks29HostDiagnosingActivityMonitor
++ __IVARS__TtCO12PoirotBlocks12BiomeStreams12TableFactory
++ __IVARS__TtCO12PoirotBlocks12BiomeStreams19PrivateTableFactory
++ __IVARS__TtCO12PoirotBlocks12BiomeStreams23SchematizedTableFactory
++ __IVARS__TtCO12PoirotBlocks15BiomePublishers12TableFactory
++ __METACLASS_DATA__TtC12PoirotBlocks13SentinelBlock
++ __METACLASS_DATA__TtC12PoirotBlocks14FileLogHandler
++ __METACLASS_DATA__TtC12PoirotBlocks15DebugLogHandler
++ __METACLASS_DATA__TtC12PoirotBlocks15TimeWindowBlock
++ __METACLASS_DATA__TtC12PoirotBlocks17ConsoleLogHandler
++ __METACLASS_DATA__TtC12PoirotBlocks17LogEntryCollector
++ __METACLASS_DATA__TtC12PoirotBlocks19BaseHostEnvironment
++ __METACLASS_DATA__TtC12PoirotBlocks20AdHocHostEnvironment
++ __METACLASS_DATA__TtC12PoirotBlocks20QueryParametersBlock
++ __METACLASS_DATA__TtC12PoirotBlocks21DefaultHostController
++ __METACLASS_DATA__TtC12PoirotBlocks29HostDiagnosingActivityMonitor
++ __METACLASS_DATA__TtC12PoirotBlocks33TelemetryReportingActivityMonitor
++ __METACLASS_DATA__TtCO12PoirotBlocks12BiomeStreams12TableFactory
++ __METACLASS_DATA__TtCO12PoirotBlocks12BiomeStreams19PrivateTableFactory
++ __METACLASS_DATA__TtCO12PoirotBlocks12BiomeStreams23SchematizedTableFactory
++ __METACLASS_DATA__TtCO12PoirotBlocks15BiomePublishers12TableFactory
++ ___swift_allocate_boxed_opaque_existential_0
++ ___swift_destroy_boxed_opaque_existential_0Tm
++ ___swift_instantiateGenericMetadata
++ ___swift_memcpy0_1
++ ___swift_memcpy128_8
++ ___swift_memcpy34_8
++ ___swift_memcpy56_8
++ ___swift_project_boxed_opaque_existential_1Tm
++ ___unnamed_1
++ ___unnamed_2
++ __os_signpost_emit_with_name_impl
++ _associated conformance 12PoirotBlocks0A18ToolTaskParametersV10CodingKeys010_24F34D7A7I21BC7A0822D04E201BD3600LLOSHAASQ
++ _associated conformance 12PoirotBlocks0A18ToolTaskParametersV10CodingKeys010_24F34D7A7I21BC7A0822D04E201BD3600LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 12PoirotBlocks0A18ToolTaskParametersV10CodingKeys010_24F34D7A7I21BC7A0822D04E201BD3600LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12PoirotBlocks0A21DefaultTaskParametersV10CodingKeys33_5A296060CBF0F518E56BA618A1AC0403LLOSHAASQ
++ _associated conformance 12PoirotBlocks0A21DefaultTaskParametersV10CodingKeys33_5A296060CBF0F518E56BA618A1AC0403LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 12PoirotBlocks0A21DefaultTaskParametersV10CodingKeys33_5A296060CBF0F518E56BA618A1AC0403LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12PoirotBlocks11RecipeModelV10CodingKeysOSHAASQ
++ _associated conformance 12PoirotBlocks11RecipeModelV10CodingKeysOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 12PoirotBlocks11RecipeModelV10CodingKeysOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12PoirotBlocks14DataSourceTypeOSHAASQ
++ _associated conformance 12PoirotBlocks14DatabaseConfigV10CodingKeysOSHAASQ
++ _associated conformance 12PoirotBlocks14DatabaseConfigV10CodingKeysOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 12PoirotBlocks14DatabaseConfigV10CodingKeysOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12PoirotBlocks15AnyDatasetValueV10CodingKeysOSHAASQ
++ _associated conformance 12PoirotBlocks15AnyDatasetValueV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 12PoirotBlocks15AnyDatasetValueV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12PoirotBlocks15DataSourceModelV10CodingKeysOSHAASQ
++ _associated conformance 12PoirotBlocks15DataSourceModelV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 12PoirotBlocks15DataSourceModelV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12PoirotBlocks17RuntimeParametersV10CodingKeys33_BC102C02F8E3AD32B5542ECE910F746BLLOSHAASQ
++ _associated conformance 12PoirotBlocks17RuntimeParametersV10CodingKeys33_BC102C02F8E3AD32B5542ECE910F746BLLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 12PoirotBlocks17RuntimeParametersV10CodingKeys33_BC102C02F8E3AD32B5542ECE910F746BLLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12PoirotBlocks19AdHocExecutionErrorO10CodingKeys33_3F382FE07328F23A2959DC3E5F52F388LLOSHAASQ
++ _associated conformance 12PoirotBlocks19AdHocExecutionErrorO10CodingKeys33_3F382FE07328F23A2959DC3E5F52F388LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 12PoirotBlocks19AdHocExecutionErrorO10CodingKeys33_3F382FE07328F23A2959DC3E5F52F388LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12PoirotBlocks19AdHocExecutionErrorO39RecipeRequiresQueryParametersCodingKeys33_3F382FE07328F23A2959DC3E5F52F388LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 12PoirotBlocks19AdHocExecutionErrorO39RecipeRequiresQueryParametersCodingKeys33_3F382FE07328F23A2959DC3E5F52F388LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12PoirotBlocks19AdHocExecutionErrorO51QueryParametersAreMissingForBlockWithNameCodingKeys33_3F382FE07328F23A2959DC3E5F52F388LLOSHAASQ
++ _associated conformance 12PoirotBlocks19AdHocExecutionErrorO51QueryParametersAreMissingForBlockWithNameCodingKeys33_3F382FE07328F23A2959DC3E5F52F388LLOs0O3KeyAAs23CustomStringConvertible
++ _associated conformance 12PoirotBlocks19AdHocExecutionErrorO51QueryParametersAreMissingForBlockWithNameCodingKeys33_3F382FE07328F23A2959DC3E5F52F388LLOs0O3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12PoirotBlocks19SentinelBlockConfigV10CodingKeys33_BE09A6E657E234053C8BCE74539438BFLLOSHAASQ
++ _associated conformance 12PoirotBlocks19SentinelBlockConfigV10CodingKeys33_BE09A6E657E234053C8BCE74539438BFLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 12PoirotBlocks19SentinelBlockConfigV10CodingKeys33_BE09A6E657E234053C8BCE74539438BFLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12PoirotBlocks21DefaultHostControllerCAA0D11ControllingAA0D11EnvironmentAaDP_AA0D11Configuring
++ _associated conformance 12PoirotBlocks21DefaultHostControllerCAA0D11ControllingAA10TaskParamsAaDP_AA0G11Configuring
++ _associated conformance 12PoirotBlocks21TimeWindowBlockConfigV10CodingKeys33_B60CB0BC1D0B6C14EEB1094F1BF5CCEELLOSHAASQ
++ _associated conformance 12PoirotBlocks21TimeWindowBlockConfigV10CodingKeys33_B60CB0BC1D0B6C14EEB1094F1BF5CCEELLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 12PoirotBlocks21TimeWindowBlockConfigV10CodingKeys33_B60CB0BC1D0B6C14EEB1094F1BF5CCEELLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12PoirotBlocks26QueryParametersBlockConfigV10CodingKeys33_3CECFCA5F1D7A3E8B55DA259DA75EFB9LLOSHAASQ
++ _associated conformance 12PoirotBlocks26QueryParametersBlockConfigV10CodingKeys33_3CECFCA5F1D7A3E8B55DA259DA75EFB9LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 12PoirotBlocks26QueryParametersBlockConfigV10CodingKeys33_3CECFCA5F1D7A3E8B55DA259DA75EFB9LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12PoirotBlocks7CommandOSHAASQ
++ _associated conformance 12PoirotBlocks8HostInfoV10CodingKeys33_4D93AD7479A41D997DC3FCB6010CC4F6LLOSHAASQ
++ _associated conformance 12PoirotBlocks8HostInfoV10CodingKeys33_4D93AD7479A41D997DC3FCB6010CC4F6LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 12PoirotBlocks8HostInfoV10CodingKeys33_4D93AD7479A41D997DC3FCB6010CC4F6LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12PoirotBlocks8IntervalOSHAASQ
++ _associated conformance 12PoirotBlocks8LogEntryV0D4TypeOSHAASQ
++ _associated conformance 12PoirotBlocks8LogEntryV10CodingKeys33_B8F91607F494A3AB380331807B835980LLOSHAASQ
++ _associated conformance 12PoirotBlocks8LogEntryV10CodingKeys33_B8F91607F494A3AB380331807B835980LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 12PoirotBlocks8LogEntryV10CodingKeys33_B8F91607F494A3AB380331807B835980LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _swift_allocateGenericClassMetadata
++ _swift_conformsToProtocol2
++ _swift_dynamicCastClass
++ _swift_getEnumCaseMultiPayload
++ _swift_getErrorValue
++ _swift_initEnumMetadataMultiPayload
++ _swift_isUniquelyReferenced_nonNull_bridgeObject
++ _swift_stdlib_random
++ _swift_storeEnumTagMultiPayload
++ _swift_unknownObjectRelease_n
++ _swift_unknownObjectRetain_n
++ _symbolic $s12PoirotBlocks11LogHandlingP
++ _symbolic $s12PoirotBlocks15HostConfiguringP
++ _symbolic $s12PoirotBlocks15HostControllingP
++ _symbolic $s12PoirotBlocks15TaskConfiguringP
++ _symbolic $s12PoirotBlocks17RecipeLogHandlingP
++ _symbolic $s12PoirotBlocks17UserBlockDecodingP
++ _symbolic $s12PoirotBlocks18BiomeTableCreatingP
++ _symbolic $s12PoirotBlocks18LogEntryCollectingP
++ _symbolic $s12PoirotBlocks20BiomeSchemaProvidingP
++ _symbolic $s12PoirotBlocks21TimeWindowConfiguringP
++ _symbolic $s12PoirotBlocks22MessageToColumnMappingP
++ _symbolic $s12PoirotBlocks24MessageManifestProvidingP
++ _symbolic $s12PoirotBlocks24RecipeOutcomeConvertableP
++ _symbolic $s12PoirotBlocks24TelemetryReportableErrorP
++ _symbolic $s12PoirotBlocks26QueryParametersConfiguringP
++ _symbolic $s12PoirotBlocks29BiomePublisherSchemaProvidingP
++ _symbolic $s12PoirotBlocks30ProtobufMessageSchemaProvidingP
++ _symbolic 10TaskParams_____Qz 12PoirotBlocks15HostControllingP
++ _symbolic 15HostEnvironment_____Qz 12PoirotBlocks15HostControllingP
++ _symbolic B0
++ _symbolic SDySS_____G 12PoirotBlocks15AnyDatasetValueV
++ _symbolic SDySS_____G 12PoirotBlocks18AnyQueryParametersV
++ _symbolic SDySS_____G 2os12OSSignposterV
++ _symbolic SDySS_____GSg 12PoirotBlocks10AnyCodableO
++ _symbolic SDySS_____GSg 12PoirotBlocks18AnyQueryParametersV
++ _symbolic SNySdGSg
++ _symbolic SS_______pt 10PoirotUDFs20StreamTableProvidingP
++ _symbolic SS______t 2os12OSSignposterV
++ _symbolic SS_ypt
++ _symbolic SS_yptSg
++ _symbolic SaySay_____GyKcG 12PoirotBlocks8LogEntryV
++ _symbolic SaySo20BMStreamVirtualTableCG
++ _symbolic Say_____G 10PoirotUDFs6ColumnV
++ _symbolic Say_____G 12PoirotBlocks10DataSourceV
++ _symbolic Say_____G 12PoirotBlocks15DataSourceModelV
++ _symbolic Say_____G 12PoirotBlocks15DebugLogHandlerC6RecordV
++ _symbolic Say_____G______pIegozo_ 12PoirotBlocks8LogEntryV s5ErrorP
++ _symbolic SbSg
++ _symbolic SdSg
++ _symbolic ShySSGSg
++ _symbolic So12BPSPublisherCyxG
++ _symbolic So12BPSPublisherCyyXlG
++ _symbolic So12BPSPublisherCyyXlGIego_
++ _symbolic So12BPSPublisherCyyXlGSo18BMPublisherOptionsCSgc
++ _symbolic So12BPSPublisherCyyXlGyc
++ _symbolic So20BMStreamVirtualTableC
++ _symbolic _____ 10Foundation4DateV
++ _symbolic _____ 10Foundation4UUIDV
++ _symbolic _____ 10PoirotUDFs17UDFSchemaProviderC
++ _symbolic _____ 12PoirotBlocks0A18ToolTaskParametersV
++ _symbolic _____ 12PoirotBlocks0A18ToolTaskParametersV10CodingKeys010_24F34D7A7I21BC7A0822D04E201BD3600LLO
++ _symbolic _____ 12PoirotBlocks0A21DefaultTaskParametersV10CodingKeys33_5A296060CBF0F518E56BA618A1AC0403LLO
++ _symbolic _____ 12PoirotBlocks0A4TaskC
++ _symbolic _____ 12PoirotBlocks0A9TaskErrorO
++ _symbolic _____ 12PoirotBlocks10CommandURIV
++ _symbolic _____ 12PoirotBlocks10DataSourceV
++ _symbolic _____ 12PoirotBlocks10DataSourceV9ContainerO
++ _symbolic _____ 12PoirotBlocks11LoggingTypeO
++ _symbolic _____ 12PoirotBlocks11RecipeModelV
++ _symbolic _____ 12PoirotBlocks11RecipeModelV10CodingKeysO
++ _symbolic _____ 12PoirotBlocks11RecipeModelV7StringsV
++ _symbolic _____ 12PoirotBlocks12BiomeStreamsO
++ _symbolic _____ 12PoirotBlocks12BiomeStreamsO12TableFactoryC
++ _symbolic _____ 12PoirotBlocks12BiomeStreamsO19PrivateTableFactoryC
++ _symbolic _____ 12PoirotBlocks12BiomeStreamsO23SchematizedTableFactoryC
++ _symbolic _____ 12PoirotBlocks13BlockMetadataV
++ _symbolic _____ 12PoirotBlocks13SentinelBlockC
++ _symbolic _____ 12PoirotBlocks14CommandHandlerC
++ _symbolic _____ 12PoirotBlocks14DataSourceTypeO
++ _symbolic _____ 12PoirotBlocks14DatabaseConfigV
++ _symbolic _____ 12PoirotBlocks14DatabaseConfigV10CodingKeysO
++ _symbolic _____ 12PoirotBlocks14FileLogHandlerC
++ _symbolic _____ 12PoirotBlocks14VoidLogHandlerV
++ _symbolic _____ 12PoirotBlocks15AnyDatasetValueV
++ _symbolic _____ 12PoirotBlocks15AnyDatasetValueV10CodingKeysO
++ _symbolic _____ 12PoirotBlocks15BiomePublishersO
++ _symbolic _____ 12PoirotBlocks15BiomePublishersO12TableFactoryC
++ _symbolic _____ 12PoirotBlocks15DataSourceModelV
++ _symbolic _____ 12PoirotBlocks15DataSourceModelV10CodingKeysO
++ _symbolic _____ 12PoirotBlocks15DebugLogHandlerC
++ _symbolic _____ 12PoirotBlocks15DebugLogHandlerC6RecordV
++ _symbolic _____ 12PoirotBlocks15MeasurmentStateV
++ _symbolic _____ 12PoirotBlocks15TimeWindowBlockC
++ _symbolic _____ 12PoirotBlocks16EntitlementErrorO
++ _symbolic _____ 12PoirotBlocks16PublisherFactoryO
++ _symbolic _____ 12PoirotBlocks17ConsoleLogHandlerC
++ _symbolic _____ 12PoirotBlocks17LogEntryCollectorC
++ _symbolic _____ 12PoirotBlocks17RuntimeParametersV
++ _symbolic _____ 12PoirotBlocks17RuntimeParametersV10CodingKeys33_BC102C02F8E3AD32B5542ECE910F746BLLO
++ _symbolic _____ 12PoirotBlocks18AnyQueryParametersV
++ _symbolic _____ 12PoirotBlocks18BiomeStreamWrapperV
++ _symbolic _____ 12PoirotBlocks19AdHocExecutionErrorO
++ _symbolic _____ 12PoirotBlocks19AdHocExecutionErrorO10CodingKeys33_3F382FE07328F23A2959DC3E5F52F388LLO
++ _symbolic _____ 12PoirotBlocks19AdHocExecutionErrorO39RecipeRequiresQueryParametersCodingKeys33_3F382FE07328F23A2959DC3E5F52F388LLO
++ _symbolic _____ 12PoirotBlocks19AdHocExecutionErrorO51QueryParametersAreMissingForBlockWithNameCodingKeys33_3F382FE07328F23A2959DC3E5F52F388LLO
++ _symbolic _____ 12PoirotBlocks19BaseHostEnvironmentC
++ _symbolic _____ 12PoirotBlocks19SentinelBlockConfigV
++ _symbolic _____ 12PoirotBlocks19SentinelBlockConfigV10CodingKeys33_BE09A6E657E234053C8BCE74539438BFLLO
++ _symbolic _____ 12PoirotBlocks19TemplateConfigErrorO
++ _symbolic _____ 12PoirotBlocks19TimeWindowConstantsV
++ _symbolic _____ 12PoirotBlocks20AdHocHostEnvironmentC
++ _symbolic _____ 12PoirotBlocks20QueryParametersBlockC
++ _symbolic _____ 12PoirotBlocks20TimeWindowBlockErrorO
++ _symbolic _____ 12PoirotBlocks21DefaultHostControllerC
++ _symbolic _____ 12PoirotBlocks21TimeWindowBlockConfigV
++ _symbolic _____ 12PoirotBlocks21TimeWindowBlockConfigV10CodingKeys33_B60CB0BC1D0B6C14EEB1094F1BF5CCEELLO
++ _symbolic _____ 12PoirotBlocks22AttachedDatabaseConfigV
++ _symbolic _____ 12PoirotBlocks23CustomStreamTableConfigV
++ _symbolic _____ 12PoirotBlocks26QueryParametersBlockConfigV
++ _symbolic _____ 12PoirotBlocks26QueryParametersBlockConfigV10CodingKeys33_3CECFCA5F1D7A3E8B55DA259DA75EFB9LLO
++ _symbolic _____ 12PoirotBlocks29HostDiagnosingActivityMonitorC
++ _symbolic _____ 12PoirotBlocks30DefaultPublisherSchemaProviderC
++ _symbolic _____ 12PoirotBlocks31FlexiblePublisherSchemaProviderC
++ _symbolic _____ 12PoirotBlocks33TelemetryReportingActivityMonitorC
++ _symbolic _____ 12PoirotBlocks35DefaultFinalPublisherSchemaProviderC
++ _symbolic _____ 12PoirotBlocks7CommandO
++ _symbolic _____ 12PoirotBlocks8HostInfoV
++ _symbolic _____ 12PoirotBlocks8HostInfoV10CodingKeys33_4D93AD7479A41D997DC3FCB6010CC4F6LLO
++ _symbolic _____ 12PoirotBlocks8IntervalO
++ _symbolic _____ 12PoirotBlocks8LogEntryV
++ _symbolic _____ 12PoirotBlocks8LogEntryV0D4TypeO
++ _symbolic _____ 12PoirotBlocks8LogEntryV10CodingKeys33_B8F91607F494A3AB380331807B835980LLO
++ _symbolic _____Sg 10Foundation12DateIntervalV
++ _symbolic _____Sg 10Foundation6LocaleV
++ _symbolic _____Sg 10Foundation8TimeZoneV
++ _symbolic _____Sg 12PoirotBlocks0B10ControllerC
++ _symbolic _____Sg 12PoirotBlocks11LoggingTypeO
++ _symbolic _____Sg 12PoirotBlocks14DatabaseConfigV
++ _symbolic _____Sg 12PoirotBlocks14RecipeMetadataV
++ _symbolic _____Sg 12PoirotBlocks15AnyDatasetValueV
++ _symbolic _____Sg 12PoirotBlocks16PublisherFactoryO
++ _symbolic _____Sg 12PoirotBlocks17RuntimeParametersV
++ _symbolic _____Sg 12PoirotBlocks8IntervalO
++ _symbolic _____Sg 17PoirotSchematizer8AnyValueO
++ _symbolic _____Sg 2os12OSSignposterV
++ _symbolic _____Sg 2os23OSSignpostIntervalStateC
++ _symbolic _____Sg_ABt 12PoirotBlocks14DatabaseConfigV
++ _symbolic _____Sg_ABt 17PoirotSchematizer14SchemaManifestV
++ _symbolic ___________p 12PoirotBlocks13EntryBuildingP AA03LogC10CollectingP
++ _symbolic ______p 10PoirotUDFs20StreamTableProvidingP
++ _symbolic ______p 12PoirotBlocks11LogHandlingP
++ _symbolic ______p 12PoirotBlocks15HostConfiguringP
++ _symbolic ______p 12PoirotBlocks16UserBlockFactoryP
++ _symbolic ______p 12PoirotBlocks18BiomeTableCreatingP
++ _symbolic ______p 12PoirotBlocks20BiomeSchemaProvidingP
++ _symbolic ______p 12PoirotBlocks21TimeWindowConfiguringP
++ _symbolic ______p 12PoirotBlocks24RecipeOutcomeConvertableP
++ _symbolic ______p 12PoirotBlocks24TelemetryReportableErrorP
++ _symbolic ______p 12PoirotBlocks26QueryParametersConfiguringP
++ _symbolic ______pSg 12PoirotBlocks11LogHandlingP
++ _symbolic ______pSg 12PoirotBlocks16BlockLogHandlingP
++ _symbolic ______pSg 12PoirotBlocks17UserBlockDecodingP
++ _symbolic ______pSg 12PoirotBlocks18ActivityMonitoringP
++ _symbolic ______pSg 12PoirotBlocks20BiomeSchemaProvidingP
++ _symbolic ______pSg 12PoirotBlocks24RecipeOutcomeConvertableP
++ _symbolic ______pSg 12PoirotBlocks24TelemetryReportableErrorP
++ _symbolic _____yKc 12PoirotBlocks19BaseHostEnvironmentC
++ _symbolic _____ySSSay_____GG s18_DictionaryStorageC 12PoirotBlocks8LogEntryV
++ _symbolic _____ySSSo8NSObjectCG s18_DictionaryStorageC
++ _symbolic _____ySS_So8NSObjectCtG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 12PoirotBlocks15AnyDatasetValueV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 2os12OSSignposterV
++ _symbolic _____ySS_______ptG s23_ContiguousArrayStorageC 10PoirotUDFs20StreamTableProvidingP
++ _symbolic _____ySS______pG s18_DictionaryStorageC 10PoirotUDFs20StreamTableProvidingP
++ _symbolic _____ySS_yptG s23_ContiguousArrayStorageC
++ _symbolic _____ySSypG s18_DictionaryStorageC
++ _symbolic _____ySay_____GyKcG s23_ContiguousArrayStorageC 12PoirotBlocks8LogEntryV
++ _symbolic _____y_____G 12PoirotBlocks0A4TaskC AA21DefaultHostControllerC
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12PoirotBlocks0D18ToolTaskParametersV10CodingKeys010_24F34D7A7L21BC7A0822D04E201BD3600LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12PoirotBlocks0D21DefaultTaskParametersV10CodingKeys33_5A296060CBF0F518E56BA618A1AC0403LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12PoirotBlocks11RecipeModelV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12PoirotBlocks14DatabaseConfigV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12PoirotBlocks15AnyDatasetValueV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12PoirotBlocks15DataSourceModelV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12PoirotBlocks17RuntimeParametersV10CodingKeys33_BC102C02F8E3AD32B5542ECE910F746BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12PoirotBlocks19AdHocExecutionErrorO10CodingKeys33_3F382FE07328F23A2959DC3E5F52F388LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12PoirotBlocks19AdHocExecutionErrorO39RecipeRequiresQueryParametersCodingKeys33_3F382FE07328F23A2959DC3E5F52F388LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12PoirotBlocks19AdHocExecutionErrorO51QueryParametersAreMissingForBlockWithNameCodingKeys33_3F382FE07328F23A2959DC3E5F52F388LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12PoirotBlocks19SentinelBlockConfigV10CodingKeys33_BE09A6E657E234053C8BCE74539438BFLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12PoirotBlocks21TimeWindowBlockConfigV10CodingKeys33_B60CB0BC1D0B6C14EEB1094F1BF5CCEELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12PoirotBlocks26QueryParametersBlockConfigV10CodingKeys33_3CECFCA5F1D7A3E8B55DA259DA75EFB9LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12PoirotBlocks8HostInfoV10CodingKeys33_4D93AD7479A41D997DC3FCB6010CC4F6LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12PoirotBlocks0D18ToolTaskParametersV10CodingKeys010_24F34D7A7L21BC7A0822D04E201BD3600LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12PoirotBlocks0D21DefaultTaskParametersV10CodingKeys33_5A296060CBF0F518E56BA618A1AC0403LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12PoirotBlocks11RecipeModelV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12PoirotBlocks14DatabaseConfigV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12PoirotBlocks14RecipeMetadataV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12PoirotBlocks15AnyDatasetValueV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12PoirotBlocks15DataSourceModelV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12PoirotBlocks17RuntimeParametersV10CodingKeys33_BC102C02F8E3AD32B5542ECE910F746BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12PoirotBlocks19AdHocExecutionErrorO10CodingKeys33_3F382FE07328F23A2959DC3E5F52F388LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12PoirotBlocks19AdHocExecutionErrorO39RecipeRequiresQueryParametersCodingKeys33_3F382FE07328F23A2959DC3E5F52F388LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12PoirotBlocks19AdHocExecutionErrorO51QueryParametersAreMissingForBlockWithNameCodingKeys33_3F382FE07328F23A2959DC3E5F52F388LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12PoirotBlocks19SentinelBlockConfigV10CodingKeys33_BE09A6E657E234053C8BCE74539438BFLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12PoirotBlocks21TimeWindowBlockConfigV10CodingKeys33_B60CB0BC1D0B6C14EEB1094F1BF5CCEELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12PoirotBlocks26QueryParametersBlockConfigV10CodingKeys33_3CECFCA5F1D7A3E8B55DA259DA75EFB9LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12PoirotBlocks8HostInfoV10CodingKeys33_4D93AD7479A41D997DC3FCB6010CC4F6LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12PoirotBlocks8LogEntryV10CodingKeys33_B8F91607F494A3AB380331807B835980LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10PoirotUDFs6ColumnV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12PoirotBlocks10DataSourceV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12PoirotBlocks15DataSourceModelV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12PoirotBlocks15DebugLogHandlerC6RecordV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12PoirotBlocks16BiomeTableConfigV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12PoirotBlocks22AttachedDatabaseConfigV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12PoirotBlocks23CustomStreamTableConfigV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12PoirotBlocks8LogEntryV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
++ _symbolic _____yxG 12PoirotBlocks0A4TaskC
++ _symbolic y_____KcSg 12PoirotBlocks7DatasetV
++ _symbolic ypXmT______t s13DecodingErrorO7ContextV
++ block_copy_helper.1
++ block_copy_helper.13
++ block_copy_helper.7
++ block_descriptor.15
++ block_descriptor.3
++ block_descriptor.9
++ block_destroy_helper.14
++ block_destroy_helper.2
++ block_destroy_helper.8
+- __DATA__TtC12PoirotBlocks10FileLogger
+- __DATA__TtC12PoirotBlocks13ConsoleLogger
+- __DATA__TtC12PoirotBlocks22BlockLogEntryCollector
+- __DATA__TtC12PoirotBlocks22DefaultActivityMonitor
+- __DATA__TtCV12PoirotBlocks16BiomeTableConfig18BiomeLibraryConfig
+- __DATA__TtCV12PoirotBlocks16BiomeTableConfig24PrivateBiomeStreamConfig
+- __DATA__TtCV12PoirotBlocks16BiomeTableConfig29SchematizedBiomeLibraryConfig
+- __IVARS__TtC12PoirotBlocks10FileLogger
+- __IVARS__TtC12PoirotBlocks13ConsoleLogger
+- __IVARS__TtC12PoirotBlocks22BlockLogEntryCollector
+- __IVARS__TtCV12PoirotBlocks16BiomeTableConfig18BiomeLibraryConfig
+- __IVARS__TtCV12PoirotBlocks16BiomeTableConfig24PrivateBiomeStreamConfig
+- __IVARS__TtCV12PoirotBlocks16BiomeTableConfig29SchematizedBiomeLibraryConfig
+- __METACLASS_DATA__TtC12PoirotBlocks10FileLogger
+- __METACLASS_DATA__TtC12PoirotBlocks13ConsoleLogger
+- __METACLASS_DATA__TtC12PoirotBlocks22BlockLogEntryCollector
+- __METACLASS_DATA__TtC12PoirotBlocks22DefaultActivityMonitor
+- __METACLASS_DATA__TtCV12PoirotBlocks16BiomeTableConfig18BiomeLibraryConfig
+- __METACLASS_DATA__TtCV12PoirotBlocks16BiomeTableConfig24PrivateBiomeStreamConfig
+- __METACLASS_DATA__TtCV12PoirotBlocks16BiomeTableConfig29SchematizedBiomeLibraryConfig
+- ___swift_memcpy112_8
+- ___swift_memcpy41_8
+- ___swift_memcpy80_8
+- _associated conformance 12PoirotBlocks0A21DefaultTaskParametersV10CodingKeys33_AD2935DBF85891E0A989149C44C20D87LLOSHAASQ
+- _associated conformance 12PoirotBlocks0A21DefaultTaskParametersV10CodingKeys33_AD2935DBF85891E0A989149C44C20D87LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 12PoirotBlocks0A21DefaultTaskParametersV10CodingKeys33_AD2935DBF85891E0A989149C44C20D87LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12PoirotBlocks13BlockLogEntryV0E4TypeOSHAASQ
+- _associated conformance 12PoirotBlocks13BlockLogEntryV10CodingKeys33_69749758A44B8078BD3FAF1FBA55E6F6LLOSHAASQ
+- _associated conformance 12PoirotBlocks13BlockLogEntryV10CodingKeys33_69749758A44B8078BD3FAF1FBA55E6F6LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 12PoirotBlocks13BlockLogEntryV10CodingKeys33_69749758A44B8078BD3FAF1FBA55E6F6LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12PoirotBlocks13RecipeBuilderV05BuildC5ErrorOSHAASQ
+- _associated conformance 12PoirotBlocks17AggregationRecipeV10CodingKeysOSHAASQ
+- _associated conformance 12PoirotBlocks17AggregationRecipeV10CodingKeysOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 12PoirotBlocks17AggregationRecipeV10CodingKeysOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12PoirotBlocks18RecipeBuilderErrorO10Foundation09LocalizedE0AAs0E0
+- _swift_getKeyPath
+- _swift_initEnumMetadataSinglePayload
+- _symbolic $s12PoirotBlocks0A22TaskParametersProtocolP
+- _symbolic $s12PoirotBlocks11TemplatableP
+- _symbolic $s12PoirotBlocks12ProvidesNameP
+- _symbolic $s12PoirotBlocks13BlockProtocolP
+- _symbolic $s12PoirotBlocks17JoinBlockProtocolP
+- _symbolic $s12PoirotBlocks19DependencyResolvingP
+- _symbolic $s12PoirotBlocks19ProvidesQueryStringP
+- _symbolic $s12PoirotBlocks21TemplateBlockProtocolP
+- _symbolic $s12PoirotBlocks23BlockLogEntryCollectingP
+- _symbolic $s12PoirotBlocks23ExtractionBlockProtocolP
+- _symbolic $s12PoirotBlocks23ProvidesDependencyNamesP
+- _symbolic $s12PoirotBlocks23SchematizedStreamConfigP
+- _symbolic $s12PoirotBlocks24AggregationBlockProtocolP
+- _symbolic $s12PoirotBlocks24ProvidesCustomConfigDataP
+- _symbolic $s12PoirotBlocks24ProvidesPivotColumnNamesP
+- _symbolic $s12PoirotBlocks24SupportsIgnoreSQLFailureP
+- _symbolic $s12PoirotBlocks24UserDefinedBlockProtocolP
+- _symbolic $s12PoirotBlocks25ProvidesOutputDescriptionP
+- _symbolic $s12PoirotBlocks29MaterializedViewBlockProtocolP
+- _symbolic $s12PoirotBlocks32ProvidesInputParametersBlockNameP
+- _symbolic SDySSSaySSGG
+- _symbolic SS9tokenName_t
+- _symbolic SS_______ptSg 12PoirotSQLite0B4TypeP
+- _symbolic SaySay_____GyKcG 12PoirotBlocks13BlockLogEntryV
+- _symbolic Say_____G______pIegozo_ 12PoirotBlocks13BlockLogEntryV s5ErrorP
+- _symbolic Si9maxTokens_t
+- _symbolic Ss
+- _symbolic Ss_Ss5tokenSs0A4NameSsSgt
+- _symbolic _____ 10PoirotUDFs24BaseStreamSchemaProviderC
+- _symbolic _____ 12PoirotBlocks0A21DefaultTaskParametersV10CodingKeys33_AD2935DBF85891E0A989149C44C20D87LLO
+- _symbolic _____ 12PoirotBlocks10AdHocBlockV
+- _symbolic _____ 12PoirotBlocks10FileLoggerC
+- _symbolic _____ 12PoirotBlocks10VoidLoggerV
+- _symbolic _____ 12PoirotBlocks13BlockLogEntryV
+- _symbolic _____ 12PoirotBlocks13BlockLogEntryV0E4TypeO
+- _symbolic _____ 12PoirotBlocks13BlockLogEntryV10CodingKeys33_69749758A44B8078BD3FAF1FBA55E6F6LLO
+- _symbolic _____ 12PoirotBlocks13ConsoleLoggerC
+- _symbolic _____ 12PoirotBlocks13RecipeBuilderV
+- _symbolic _____ 12PoirotBlocks13RecipeBuilderV05BuildC5ErrorO
+- _symbolic _____ 12PoirotBlocks13RecipeBuilderV10TokenErrorO
+- _symbolic _____ 12PoirotBlocks16BiomeTableConfigV011Schematizedc7LibraryE0C
+- _symbolic _____ 12PoirotBlocks16BiomeTableConfigV07Privatec6StreamE0C
+- _symbolic _____ 12PoirotBlocks16BiomeTableConfigV0c7LibraryE0C
+- _symbolic _____ 12PoirotBlocks16BiomeTableConfigV9ContainerO
+- _symbolic _____ 12PoirotBlocks16BlockLoggingTypeO
+- _symbolic _____ 12PoirotBlocks17AggregationRecipeV
+- _symbolic _____ 12PoirotBlocks17AggregationRecipeV10CodingKeysO
+- _symbolic _____ 12PoirotBlocks18RecipeBuilderErrorO
+- _symbolic _____ 12PoirotBlocks22BlockLogEntryCollectorC
+- _symbolic _____ 12PoirotBlocks22DefaultActivityMonitorC
+- _symbolic _____ 12PoirotBlocks23TemplateBlockConfigTypeO
+- _symbolic _____ 12PoirotBlocks8TemplateV
+- _symbolic _____Sg 10PoirotUDFs24BaseStreamSchemaProviderC
+- _symbolic _____Sg 11TabularData9AnyColumnV
+- _symbolic ______p 12PoirotBlocks23SchematizedStreamConfigP
+- _symbolic ______p 12PoirotBlocks24AggregationBlockProtocolP
+- _symbolic _____ySSSaySSGG s18_DictionaryStorageC
+- _symbolic _____ySSSay_____GG s18_DictionaryStorageC 12PoirotBlocks13BlockLogEntryV
+- _symbolic _____ySay_____GyKcG s23_ContiguousArrayStorageC 12PoirotBlocks13BlockLogEntryV
+- _symbolic _____ySs_Ss5tokenSs0A4NameSsSgtG 17_StringProcessing5RegexV
+- _symbolic _____ySs_Ss5tokenSs0A4NameSsSgt_G 17_StringProcessing5RegexV5MatchV
+- _symbolic _____ySs_Ss5tokenSs0A4NameSsSgt_GSg 17_StringProcessing5RegexV5MatchV
+- _symbolic _____y_____G s22KeyedDecodingContainerV 12PoirotBlocks0D21DefaultTaskParametersV10CodingKeys33_AD2935DBF85891E0A989149C44C20D87LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 12PoirotBlocks17AggregationRecipeV10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 12PoirotBlocks0D21DefaultTaskParametersV10CodingKeys33_AD2935DBF85891E0A989149C44C20D87LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 12PoirotBlocks13BlockLogEntryV10CodingKeys33_69749758A44B8078BD3FAF1FBA55E6F6LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 12PoirotBlocks17AggregationRecipeV10CodingKeysO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 12PoirotBlocks11BlockConfigO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 12PoirotBlocks13BlockLogEntryV
+CStrings:
++ "%s=%lu"
++ "%s=%lu,%s=%s,%s=%lu"
++ "%s=%s,%s=%ld"
++ "** END: Recipe Metadata **"
++ "** START: Recipe Metadata **"
++ "*** END: Recipe Log ***"
++ "*** START: Recipe Log ***"
++ "@16@?0@8"
++ "ATTACH DATABASE '"
++ "Cannot locate a weekend for gregorian "
++ "Host custom table"
++ "Invalid number of keys found, expected one."
++ "Poirot customized Biome stream '"
++ "PoirotBlocks/AnyDatasetValue.swift"
++ "PoirotBlocks/BMSQLSchema+Poirot.swift"
++ "PoirotBlocks/BiomePublisherSchemaProviding.swift"
++ "PoirotBlocks/BiomePublishers+TableFactory.swift"
++ "PoirotBlocks/BiomeStreams+PrivateTableFactory.swift"
++ "PoirotBlocks/BiomeStreams+SchematizedTableFactory.swift"
++ "PoirotBlocks/BiomeStreams+TableFactory.swift"
++ "PoirotBlocks/Column+Biome.swift"
++ "PoirotBlocks/CommandURI.swift"
++ "PoirotBlocks/HostDiagnosingActivityMonitor.swift"
++ "PoirotBlocks/ProtobufMessageSchemaProviding.swift"
++ "PoirotBlocks/RecipeLog.swift"
++ "PoirotBlocks/TimeWindowBlockConfig.swift"
++ "Private Biome stream '"
++ "Publisher based stream '"
++ "QueryParametersBlock requires QueryParametersConfiguring environment"
++ "TimeWindowBlock requires TimeWindowConfiguring environment"
++ "Unsupported type: "
++ "Use makeUDFContext(withStreamTables:manifest:)"
++ "[Error] Interval already ended"
++ "_TtC12PoirotBlocks13SentinelBlock"
++ "_TtC12PoirotBlocks14FileLogHandler"
++ "_TtC12PoirotBlocks15DebugLogHandler"
++ "_TtC12PoirotBlocks15TimeWindowBlock"
++ "_TtC12PoirotBlocks17ConsoleLogHandler"
++ "_TtC12PoirotBlocks17LogEntryCollector"
++ "_TtC12PoirotBlocks19BaseHostEnvironment"
++ "_TtC12PoirotBlocks20AdHocHostEnvironment"
++ "_TtC12PoirotBlocks20QueryParametersBlock"
++ "_TtC12PoirotBlocks21DefaultHostController"
++ "_TtC12PoirotBlocks29HostDiagnosingActivityMonitor"
++ "_TtC12PoirotBlocks33TelemetryReportingActivityMonitor"
++ "_TtCO12PoirotBlocks12BiomeStreams12TableFactory"
++ "_TtCO12PoirotBlocks12BiomeStreams19PrivateTableFactory"
++ "_TtCO12PoirotBlocks12BiomeStreams23SchematizedTableFactory"
++ "_TtCO12PoirotBlocks15BiomePublishers12TableFactory"
++ "__conclude_clause__"
++ "_activityMonitor"
++ "_environmentFactory"
++ "allowedBlockNames"
++ "biomePublisher"
++ "biomeStream"
++ "block"
++ "blocksController"
++ "chooseRandomDayOfWeek"
++ "code"
++ "columns"
++ "com.apple.PoirotRecipes"
++ "com.apple.private.biome.read-only"
++ "commandURI"
++ "concludeClause"
++ "config"
++ "configuration"
++ "currentInterval"
++ "cutoffTime"
++ "dataSources"
++ "dataType"
++ "databaseTable"
++ "day"
++ "endToEnd"
++ "endToEndTelemetryEventName"
++ "environment"
++ "eventClass"
++ "generation_start_ts"
++ "get-host-info"
++ "hostController"
++ "hostCustomStream"
++ "hostCustomTable"
++ "ignoreMaximumLookbackTime"
++ "legacyForward"
++ "loggingType"
++ "mainDatabaseConfig"
++ "mapWithTransform:"
++ "maximumLookbackInDays"
++ "nextStartTime"
++ "parameters"
++ "publisherFactory"
++ "queryParameters"
++ "queryParametersAreMissingForBlockWithName"
++ "random_day_of_the_week"
++ "random_day_timestamp"
++ "recipeProcessing"
++ "recipeRequiresQueryParameters"
++ "recipeURL"
++ "records"
++ "requestOnly"
++ "runtimeParameters"
++ "sentinel"
++ "signposterCache"
++ "task"
++ "taskParams"
++ "tempDatabaseConfig"
++ "timeWindow"
++ "week"
+- " is not equal to "
+- " must have at least 1 pivot. Found "
+- " must have at least 2 dependencies. Found "
+- "' is already used by another block"
+- "' is already used by preceding block"
+- "/(?<token>__(?<tokenName>[A-Za-z0-9]+(_[A-Za-z0-9]+)*)__)/"
+- "Can't construct Array with count < 0"
+- "Division by zero"
+- "Division results in an overflow"
+- "Duplicate Query Name: "
+- "Failed to construct replica of the "
+- "Failed to create "
+- "Failed to resolve pivots for Join Block "
+- "Missing Dependencies: "
+- "Missing Pivots: "
+- "Missing Queries: "
+- "Negative value is not representable"
+- "One of tokens should match name of the replicable view: "
+- "PoirotBlocks/BaseStreamSchemaProvider+Biome.swift"
+- "PoirotBlocks/BiomeTableConfig.swift"
+- "PoirotBlocks/RecipeBuilder.swift"
+- "Swift/Array.swift"
+- "Swift/IntegerTypes.swift"
+- "Swift/Integers.swift"
+- "Swift/UnsafePointer.swift"
+- "Template Error: "
+- "Unmatched Pivots: "
+- "UnsafeMutablePointer.initialize overlapping range"
+- "UnsafeMutablePointer.initialize with negative count"
+- "UnsafeMutablePointer.moveInitialize with negative count"
+- "Use makeUDFContext(withStreamTables:)"
+- "_TtC12PoirotBlocks10FileLogger"
+- "_TtC12PoirotBlocks13ConsoleLogger"
+- "_TtC12PoirotBlocks22BlockLogEntryCollector"
+- "_TtC12PoirotBlocks22DefaultActivityMonitor"
+- "_TtCV12PoirotBlocks16BiomeTableConfig18BiomeLibraryConfig"
+- "_TtCV12PoirotBlocks16BiomeTableConfig24PrivateBiomeStreamConfig"
+- "_TtCV12PoirotBlocks16BiomeTableConfig29SchematizedBiomeLibraryConfig"
+- "recipeFolder"
+- "removeItemAtURL:error:"
+- "requiresPublisher"
+
+```

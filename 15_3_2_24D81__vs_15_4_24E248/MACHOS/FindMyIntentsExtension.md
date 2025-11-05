@@ -1,0 +1,51 @@
+## FindMyIntentsExtension
+
+> `/System/Library/ExtensionKit/Extensions/FindMyIntentsExtension.appex/Contents/MacOS/FindMyIntentsExtension`
+
+```diff
+
+-415.23.10.29.4
+-  __TEXT.__text: 0x108
++415.24.7.13.34
++  __TEXT.__text: 0x110
+   __TEXT.__auth_stubs: 0x50
+   __TEXT.__const: 0x78
+   __TEXT.__constg_swiftt: 0x28
+
+   __TEXT.__swift5_fieldmd: 0x10
+   __TEXT.__swift5_proto: 0x4
+   __TEXT.__swift5_types: 0x4
+-  __TEXT.__unwind_info: 0x58
+   __DATA_CONST.__auth_got: 0x28
+   __DATA_CONST.__got: 0x8
+   __DATA_CONST.__auth_ptr: 0x18
+
+   - /System/Library/PrivateFrameworks/FindMyCore.framework/Versions/A/FindMyCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftFileProvider.dylib
+   - /usr/lib/swift/libswiftIOKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: B3D1C631-2E60-3EFE-9E67-C78A22B961DD
++  UUID: B91D719E-6FD6-3DBB-A9F0-9D7E2E9465FB
+   Functions: 4
+   Symbols:   30
+   CStrings:  0
+Symbols:
++ __swift_FORCE_LOAD_$_swiftCompression
+- __swift_FORCE_LOAD_$_swiftFileProvider
+Functions:
+~ sub_100003de4 -> sub_100000ffc : 68 -> 76
+
+```

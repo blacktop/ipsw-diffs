@@ -1,0 +1,64 @@
+## com.apple.driver.usb.cdc.ncm
+
+> `com.apple.driver.usb.cdc.ncm`
+
+```diff
+
+-354.60.6.0.0
+-  __TEXT.__const: 0x78
++362.100.1.0.0
++  __TEXT.__const: 0x128
+   __TEXT.__cstring: 0xcea
+-  __TEXT_EXEC.__text: 0x8a74
++  __TEXT_EXEC.__text: 0x83f8
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x60
+
+   __DATA_CONST.__mod_term_func: 0x10
+   __DATA_CONST.__const: 0x1838
+   __DATA_CONST.__kalloc_type: 0x100
+-  UUID: EEEF6545-C6D8-3F33-91CD-98EB6F41BC7B
+-  Functions: 144
+-  Symbols:   670
++  UUID: 221975F5-EF83-3FA1-B793-BE525E250001
++  Functions: 191
++  Symbols:   722
+   CStrings:  128
+ 
+Symbols:
++ _OUTLINED_FUNCTION_0
++ _OUTLINED_FUNCTION_1
++ _OUTLINED_FUNCTION_10
++ _OUTLINED_FUNCTION_11
++ _OUTLINED_FUNCTION_12
++ _OUTLINED_FUNCTION_13
++ _OUTLINED_FUNCTION_14
++ _OUTLINED_FUNCTION_15
++ _OUTLINED_FUNCTION_16
++ _OUTLINED_FUNCTION_17
++ _OUTLINED_FUNCTION_18
++ _OUTLINED_FUNCTION_19
++ _OUTLINED_FUNCTION_2
++ _OUTLINED_FUNCTION_20
++ _OUTLINED_FUNCTION_21
++ _OUTLINED_FUNCTION_22
++ _OUTLINED_FUNCTION_23
++ _OUTLINED_FUNCTION_24
++ _OUTLINED_FUNCTION_25
++ _OUTLINED_FUNCTION_3
++ _OUTLINED_FUNCTION_4
++ _OUTLINED_FUNCTION_5
++ _OUTLINED_FUNCTION_6
++ _OUTLINED_FUNCTION_7
++ _OUTLINED_FUNCTION_8
++ _OUTLINED_FUNCTION_9
++ _ZN15AppleUSBNCMData28waitForMatchingControlDriverEv.cold.1
++ _ZN15AppleUSBNCMData5startEP9IOService.cold.1
++ _ZN18AppleUSBNCMControl5startEP9IOService.cold.1
++ __ZZN15AppleUSBNCMData11freeRecordsEvE21kalloc_type_view_1490
++ __ZZN15AppleUSBNCMData12allocRecordsEvE21kalloc_type_view_1415
+- __ZZN15AppleUSBNCMData11freeRecordsEvE21kalloc_type_view_1489
+- __ZZN15AppleUSBNCMData12allocRecordsEvE21kalloc_type_view_1414
+
+```

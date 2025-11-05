@@ -1,0 +1,70 @@
+## PCSAccountNotificationPlugin
+
+> `/System/Library/Accounts/Notification/PCSAccountNotificationPlugin.bundle/Contents/MacOS/PCSAccountNotificationPlugin`
+
+```diff
+
+-1037.80.6.0.0
+-  __TEXT.__text: 0x9e8
+-  __TEXT.__auth_stubs: 0x80
+-  __TEXT.__objc_methlist: 0x94
+-  __TEXT.__const: 0x80
++1037.100.126.0.1
++  __TEXT.__text: 0x8f0
++  __TEXT.__auth_stubs: 0x70
++  __TEXT.__objc_methlist: 0x1f4
++  __TEXT.__const: 0x88
+   __TEXT.__cstring: 0xb2
+-  __TEXT.__oslogstring: 0x359
++  __TEXT.__oslogstring: 0x340
+   __TEXT.__unwind_info: 0x78
+   __TEXT.__objc_classname: 0x59
+-  __TEXT.__objc_methname: 0x46c
++  __TEXT.__objc_methname: 0x419
+   __TEXT.__objc_methtype: 0x20f
+-  __TEXT.__objc_stubs: 0x3a0
++  __TEXT.__objc_stubs: 0x320
+   __DATA_CONST.__got: 0x70
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xf8
+-  __AUTH_CONST.__auth_got: 0x48
++  __DATA_CONST.__objc_selrefs: 0x1a8
++  __AUTH_CONST.__auth_got: 0x40
+   __AUTH_CONST.__cfstring: 0x140
+-  __AUTH_CONST.__objc_const: 0x528
++  __AUTH_CONST.__objc_const: 0x270
+   __AUTH.__objc_data: 0x50
+   __DATA.__data: 0xc0
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+
+   - /System/Library/PrivateFrameworks/ProtectedCloudStorage.framework/Versions/A/ProtectedCloudStorage
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 653FB02F-C9F8-388E-A366-E834ED6A8106
+-  Functions: 11
+-  Symbols:   32
+-  CStrings:  126
++  UUID: 79CD1F47-2422-3943-8B91-1924BF9C0ABC
++  Functions: 10
++  Symbols:   31
++  CStrings:  121
+ 
+Symbols:
++ _OBJC_CLASS_$_PCSAccountsModel
+- _OBJC_CLASS_$_AKAccountManager
+- _objc_opt_respondsToSelector
+CStrings:
++ "account:willChangeWithType: update %d: for account %@ (password: %@, pcs dataclass: %@, gf: %lu)"
++ "guitarfishStateForAltDSID:"
+- "account:willChangeWithType: update %d: for account %@ (password: %@, pcs dataclass: %@, gf: %@)"
+- "authKitAccountWithAltDSID:error:"
+- "boolValue"
+- "edpStateForAccount:"
+- "error getting account: %@"
+- "guitarfishStateForAppleAccount:"
+- "sharedInstance"
+
+```

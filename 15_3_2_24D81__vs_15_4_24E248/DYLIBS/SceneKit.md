@@ -1,0 +1,1349 @@
+## SceneKit
+
+> `/System/iOSSupport/System/Library/Frameworks/SceneKit.framework/Versions/A/SceneKit`
+
+```diff
+
+-603.301.0.0.0
+-  __TEXT.__text: 0x369b24
+-  __TEXT.__auth_stubs: 0x2f30
+-  __TEXT.__objc_methlist: 0x11bf8
+-  __TEXT.__const: 0x26278
+-  __TEXT.__oslogstring: 0x16406
+-  __TEXT.__cstring: 0x978d3
+-  __TEXT.__gcc_except_tab: 0x43a8
++603.403.0.0.0
++  __TEXT.__text: 0x368870
++  __TEXT.__auth_stubs: 0x2f10
++  __TEXT.__objc_methlist: 0x177f4
++  __TEXT.__const: 0x26258
++  __TEXT.__oslogstring: 0x164d6
++  __TEXT.__cstring: 0x97903
++  __TEXT.__gcc_except_tab: 0x43f0
+   __TEXT.__dlopen_cstrs: 0x45
+   __TEXT.__ustring: 0x2e
+-  __TEXT.__unwind_info: 0xac98
+-  __TEXT.__eh_frame: 0x60
++  __TEXT.__unwind_info: 0xaeb8
++  __TEXT.__eh_frame: 0x38
+   __TEXT.__objc_classname: 0x1cd5
+-  __TEXT.__objc_methname: 0x245af
++  __TEXT.__objc_methname: 0x245c5
+   __TEXT.__objc_methtype: 0x1257a
+-  __TEXT.__objc_stubs: 0x1d440
++  __TEXT.__objc_stubs: 0x1d460
+   __DATA_CONST.__got: 0xbd0
+-  __DATA_CONST.__const: 0x7af8
++  __DATA_CONST.__const: 0x7b08
+   __DATA_CONST.__objc_classlist: 0x6d8
+   __DATA_CONST.__objc_catlist: 0xa0
+   __DATA_CONST.__objc_protolist: 0x338
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x9128
++  __DATA_CONST.__objc_selrefs: 0x9698
+   __DATA_CONST.__objc_protorefs: 0x220
+   __DATA_CONST.__objc_superrefs: 0x5f8
+   __DATA_CONST.__objc_arraydata: 0x270
+-  __AUTH_CONST.__auth_got: 0x17b0
++  __AUTH_CONST.__auth_got: 0x17a0
+   __AUTH_CONST.__const: 0x94a0
+-  __AUTH_CONST.__cfstring: 0x20c20
+-  __AUTH_CONST.__objc_const: 0x2e3f8
++  __AUTH_CONST.__cfstring: 0x20c40
++  __AUTH_CONST.__objc_const: 0x232d8
+   __AUTH_CONST.__objc_intobj: 0x558
+   __AUTH_CONST.__objc_arrayobj: 0xa8
+   __AUTH_CONST.__objc_doubleobj: 0x20
+
+   __AUTH_CONST.__objc_floatobj: 0x10
+   __AUTH.__objc_data: 0x820
+   __AUTH.__data: 0x1b78
+-  __DATA.__objc_ivar: 0x1c94
++  __DATA.__objc_ivar: 0x1c90
+   __DATA.__data: 0x291c
+-  __DATA.__bss: 0x2e70
++  __DATA.__bss: 0x2e98
+   __DATA.__common: 0x1d1
+   __DATA_DIRTY.__objc_data: 0x3c50
+   __DATA_DIRTY.__data: 0x3218
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libxml2.2.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: FF549571-FA02-31CC-A381-30D5D166E53B
+-  Functions: 19000
+-  Symbols:   34206
+-  CStrings:  20345
++  UUID: 0DEB98B1-8BB8-3A06-8178-D67CA59C7BE1
++  Functions: 19108
++  Symbols:   34611
++  CStrings:  20346
+ 
+Symbols:
++ +[MDLSubmesh(SCNModelIO) newSubmeshWithUniquedIndexData:andSCNGeometryElement:bufferAllocator:].cold.1
++ +[SCNAssetCatalog objectWithName:class:].cold.1
++ +[SCNAudioSource audioSourceNamed:].cold.1
++ +[SCNMTLResourceManager resourceManagerForDevice:].cold.1
++ +[SCNMorpher weightIndexStringForIndex:].cold.1
++ +[SCNSourceRendererRegistry sharedRegistry].cold.1
++ +[_SCNUIApplicationObserver sharedInstance].cold.1
++ -[SCNGeometryVariableTopologySampleDeformerInstance initWithNode:deformer:outputs:computeVertexCount:context:].cold.4
++ -[SCNMTLLibraryManager libraryForProgramDesc:completionHandler:].cold.4
++ -[SCNMTLRenderContext _commitResourceCommandBufferIfNeeded]
++ -[SCNMTLRenderContext _createResourceCommandBufferIfNeeded].cold.1
++ -[SCNMTLSkinDeformer makeReadOnlyBuffersWithBaseGeometry:baseMesh:blitEncoder:].cold.4
++ -[SCNMTLSkinDeformer setupWithComputeContext:].cold.3
++ -[SCNMovieExportOperation appendImage:withPresentationTime:usingAdaptor:].cold.3
++ -[SCNMovieExportOperation renderAndAppendWithPresentationTime:usingAdaptor:metalTextureCache:cvQueue:completionBlock:].cold.2
++ -[SCNPhysicsWorld commonInit].cold.1
++ -[SCNReferenceNode _diffObject:with:path:].cold.1
++ -[SCNRenderer programWithNode:withMaterial:].cold.1
++ -[SCNRenderer programWithNode:withMaterial:].cold.2
++ -[SCNScene(Internal) writeToURLWithUSDKit:].cold.1
++ -[SCNTextureSource rendererContextForTextureSourceWithEngineContext:].cold.1
++ C3DASTCIsSupported.cold.1
++ C3DAddSceneRef.cold.2
++ C3DAllocatorCreate.cold.1
++ C3DAnimatableParamControllerCreate.cold.1
++ C3DAnimationClusterCreate.cold.1
++ C3DAnimationClusterCreateWithAnimationGroup.cold.5
++ C3DAnimationClusterGetTypeID.cold.1
++ C3DAnimationClusterKeyframesCreate.cold.1
++ C3DAnimationClusterNodeCreateWithAnimation.cold.1
++ C3DAnimationClusterNodeGetTypeID.cold.1
++ C3DAnimationCreateCopy.cold.2
++ C3DAnimationEventsCreateWithEventCount.cold.1
++ C3DAnimationGetBaseType.cold.1
++ C3DAnimationGetBaseType.cold.2
++ C3DAnimationGroupCreate.cold.1
++ C3DAnimationGroupGetTypeID.cold.1
++ C3DAnimationManagerAddAnimationPlayerForKey.cold.7
++ C3DAnimationManagerCreate.cold.1
++ C3DAnimationNodeCreateWithAnimation.cold.1
++ C3DAnimationPlayerCreateWithAnimation.cold.1
++ C3DAnimationPlayerGetTypeID.cold.1
++ C3DAnimationSetup.cold.3
++ C3DArrayCreate.cold.1
++ C3DAudioManagerAddVoice.cold.1
++ C3DAudioManagerGetAudioEngine.cold.1
++ C3DAudioManagerGetAudioEngine.cold.2
++ C3DAudioManagerGetAudioEnvironmentNode.cold.1
++ C3DAudioManagerGetListener.cold.1
++ C3DAudioManagerRemoveEngineContext.cold.1
++ C3DAudioManagerRemoveVoice.cold.1
++ C3DAudioManagerSetListener.cold.1
++ C3DAudioManagerUpdateEngineContext.cold.1
++ C3DAudioManagerUpdateNodes.cold.1
++ C3DAvoidOccluderConstraintDelegateCreate.cold.2
++ C3DBezierCurveCreateWithCGPath.cold.1
++ C3DBezierCurveGeometryCreate.cold.1
++ C3DBezierCurveGeometryGetTypeID.cold.1
++ C3DBlendStatesCreate.cold.1
++ C3DBlendStatesDefaultAdditive.cold.1
++ C3DBlendStatesDefaultConstantAlpha.cold.1
++ C3DBlendStatesDefaultConstantColor.cold.1
++ C3DBlendStatesDefaultMax.cold.1
++ C3DBlendStatesDefaultMultiplicative.cold.1
++ C3DBlendStatesDefaultMultiplicativeSeparate.cold.1
++ C3DBlendStatesDefaultOver.cold.1
++ C3DBlendStatesDefaultOverBlack.cold.1
++ C3DBlendStatesDefaultReplace.cold.1
++ C3DBlendStatesDefaultScreen.cold.1
++ C3DBlendStatesDefaultSubtract.cold.1
++ C3DBufferObjectCreate.cold.1
++ C3DBufferObjectGetTypeID.cold.1
++ C3DCFTypeGetAddressForKey.cold.1
++ C3DCGColorCreateExtendedLinearSRGBWithComponents.cold.1
++ C3DCGColorCreateExtendedSRGBWithC3DColor.cold.1
++ C3DCGColorCreateExtendedSRGBWithCGColor.cold.2
++ C3DCGColorCreateExtendedSRGBWithCGColor.cold.3
++ C3DCGColorGetITUR_709Components.cold.1
++ C3DCGColorGetITUR_709Components.cold.2
++ C3DCGColorGetLinearExtendedSRGBComponents.cold.1
++ C3DCGColorGetLinearExtendedSRGBComponents.cold.2
++ C3DCameraCreate.cold.1
++ C3DCameraGetTypeID.cold.1
++ C3DColor4ConvertToLinear.cold.1
++ C3DColor4ConvertToLinear.cold.2
++ C3DColor4ConvertToLinear.cold.3
++ C3DColor4ConvertToLinear.cold.4
++ C3DColor4ConvertToNonLinear.cold.1
++ C3DColor4ConvertToNonLinear.cold.2
++ C3DColor4ConvertToNonLinear.cold.3
++ C3DColor4ConvertToNonLinear.cold.4
++ C3DColor4WithCGColor.cold.2
++ C3DColor4WithCGColor.cold.3
++ C3DColor4WithCGColor.cold.4
++ C3DColor4WithCGColor.cold.5
++ C3DColorSpaceExtendedLinearSRGB.cold.1
++ C3DColorSpaceExtendedSRGB.cold.1
++ C3DColorSpaceGray.cold.1
++ C3DColorSpaceITUR_709.cold.1
++ C3DColorSpaceLinearDisplayP3.cold.1
++ C3DColorSpaceLinearGray.cold.1
++ C3DColorSpaceLinearSRGB.cold.1
++ C3DColorSpaceSRGB.cold.1
++ C3DCommonProfileShaderAssignAttributesAndUniformsIndexes.cold.1
++ C3DConstraintAccelerationGetTypeID.cold.1
++ C3DConstraintAvoidOccluderGetTypeID.cold.1
++ C3DConstraintBillboardGetTypeID.cold.1
++ C3DConstraintConstantScaleGetTypeID.cold.1
++ C3DConstraintControllerCreate.cold.1
++ C3DConstraintCreateAcceleration.cold.1
++ C3DConstraintCreateAvoidOccluder.cold.1
++ C3DConstraintCreateBillboard.cold.1
++ C3DConstraintCreateConstantScale.cold.1
++ C3DConstraintCreateDistance.cold.1
++ C3DConstraintCreateIK.cold.1
++ C3DConstraintCreateLookAt.cold.1
++ C3DConstraintCreateProcedural.cold.1
++ C3DConstraintCreateReplicator.cold.1
++ C3DConstraintCreateSlider.cold.1
++ C3DConstraintDistanceGetTypeID.cold.1
++ C3DConstraintIKGetTypeID.cold.1
++ C3DConstraintLookAtGetTypeID.cold.1
++ C3DConstraintManagerCreate.cold.1
++ C3DConstraintProceduralCreateCopy.cold.1
++ C3DConstraintProceduralGetTypeID.cold.1
++ C3DConstraintReplicatorGetTypeID.cold.1
++ C3DConstraintSliderGetTypeID.cold.1
++ C3DConvexPolyhedronCreate.cold.1
++ C3DCullingSystemCreate.cold.1
++ C3DDeformerStackCreate.cold.1
++ C3DDeformerStackCreateCopy.cold.1
++ C3DDynamicBatchingSystemCreate.cold.1
++ C3DEdgeArrayCreateFromMeshElement.cold.3
++ C3DEffectCommonProfileCreate.cold.1
++ C3DEffectSlotCreate.cold.1
++ C3DEffectSlotGetTypeID.cold.1
++ C3DEngineContextCreateWithOptions.cold.1
++ C3DEngineNotificationQueueCreate.cold.1
++ C3DEnginePipelineCreate.cold.1
++ C3DEntityGetTypeID.cold.1
++ C3DFXContextCreate.cold.1
++ C3DFXGLSLProgramCopyAttributesNames.cold.3
++ C3DFXGLSLProgramCreate.cold.1
++ C3DFXGLSLProgramGetAttributeIndex.cold.4
++ C3DFXGLSLProgramGetDefaultProgram.cold.1
++ C3DFXGLSLProgramGetNextUniformIndex.cold.3
++ C3DFXGLSLProgramGetShader.cold.3
++ C3DFXGLSLProgramGetShaderSources.cold.2
++ C3DFXGLSLProgramGetShaders.cold.2
++ C3DFXGLSLProgramGetTypeID.cold.1
++ C3DFXGLSLProgramGetUniformIndex.cold.4
++ C3DFXGLSLProgramObjectCreateWithProgramID.cold.1
++ C3DFXGLSLProgramObjectGetTypeID.cold.1
++ C3DFXGLSLProgramSetAttributeIndex.cold.4
++ C3DFXGLSLProgramSetShader.cold.4
++ C3DFXGLSLProgramSetUniformIndex.cold.4
++ C3DFXMetalProgramCreate.cold.1
++ C3DFXMetalProgramGetBufferBindings.cold.3
++ C3DFXMetalProgramGetConstants.cold.3
++ C3DFXMetalProgramGetFunctionName.cold.3
++ C3DFXMetalProgramGetHash.cold.2
++ C3DFXMetalProgramGetLanguageVersion.cold.3
++ C3DFXMetalProgramGetLibraryProviderBlock.cold.2
++ C3DFXMetalProgramGetLinkedFunctionsFamilies.cold.3
++ C3DFXMetalProgramGetPreprocessorAllPossibleMacros.cold.3
++ C3DFXMetalProgramGetPreprocessorsMacros.cold.3
++ C3DFXMetalProgramGetSourceCode.cold.3
++ C3DFXMetalProgramGetSourceCodeForShaderCollection.cold.3
++ C3DFXMetalProgramGetTypeID.cold.1
++ C3DFXMetalProgramReplaceSourceCodeWithLibrary.cold.3
++ C3DFXMetalProgramSetBufferBinding.cold.2
++ C3DFXMetalProgramSetFunctionName.cold.3
++ C3DFXPassCreate.cold.1
++ C3DFXPassInputCreate.cold.1
++ C3DFXProgramDelegateCreate.cold.1
++ C3DFXSamplerCreate.cold.1
++ C3DFXShaderCreate.cold.1
++ C3DFXTechniqueCreateWithCapacity.cold.1
++ C3DFXTechniqueCreateWithDescription.cold.2
++ C3DFXTechniqueGetTypeID.cold.1
++ C3DFloorCreate.cold.1
++ C3DFloorGetTypeID.cold.1
++ C3DFramebufferCreate.cold.1
++ C3DFramebufferRegistryCreate.cold.1
++ C3DGenericSourceCreateEmpty.cold.1
++ C3DGenericSourceGetTypeID.cold.1
++ C3DGeometryCreate.cold.1
++ C3DGeometryGetTypeID.cold.1
++ C3DGetColorTransformToGlobalColorSpace.cold.1
++ C3DGetColorTransformToGlobalColorSpace.cold.2
++ C3DGetColorTransformToGlobalColorSpace.cold.3
++ C3DGetColorTransformToGlobalColorSpace.cold.4
++ C3DGetGlobalColorSpace.cold.1
++ C3DGetGlobalColorSpace.cold.2
++ C3DGetGlobalColorSpace.cold.3
++ C3DGetGlobalColorSpace.cold.4
++ C3DGlyphCreate.cold.2
++ C3DHitTestResultCreate.cold.1
++ C3DImageCreate.cold.1
++ C3DImageGetTypeID.cold.1
++ C3DImageProxyCreate.cold.2
++ C3DImageProxyGetTypeID.cold.1
++ C3DIndexSetCreate.cold.1
++ C3DIndexStoreCreateWithCapacity.cold.1
++ C3DIndicesContentGetVertexIndicesForLinePrimitiveAtIndex.cold.1
++ C3DIndicesContentGetVertexIndicesForTrianglePrimitiveAtIndex.cold.1
++ C3DIsRunningInSCNTool.cold.1
++ C3DIsRunningInXcode.cold.1
++ C3DKeyValueStoreCreate.cold.1
++ C3DKeyValueStoreGetTypeID.cold.1
++ C3DKeyframedAnimationCreate.cold.1
++ C3DKeyframedAnimationGetTypeID.cold.1
++ C3DLODCreate.cold.1
++ C3DLODGetTypeID.cold.1
++ C3DLibraryCreate.cold.1
++ C3DLibraryGetSubStorage.cold.2
++ C3DLightCreate.cold.1
++ C3DLightGetTypeID.cold.1
++ C3DLightProbesSystemCreate.cold.1
++ C3DLightingSystemCreate.cold.1
++ C3DLinearRenderingIsEnabled.cold.1
++ C3DListCreate.cold.1
++ C3DMaterialCreate.cold.1
++ C3DMaterialGetTypeID.cold.1
++ C3DMeshCreate.cold.1
++ C3DMeshElementCreate.cold.2
++ C3DMeshElementEditorCreate.cold.2
++ C3DMeshElementGetEmptyElement.cold.1
++ C3DMeshElementGetFastIndexLookupInfo.cold.1
++ C3DMeshElementGetTypeID.cold.1
++ C3DMeshGetTypeID.cold.1
++ C3DMeshSourceGetTypeID.cold.1
++ C3DMetalIsSupported.cold.1
++ C3DModelTargetCreate.cold.1
++ C3DModelTargetCreateCopy.cold.1
++ C3DModelValueStorageCreate.cold.1
++ C3DModelValueStorageCreateItem.cold.1
++ C3DMorphCreate.cold.1
++ C3DMorphGetTypeID.cold.1
++ C3DMorpherCreateWith.cold.1
++ C3DMorpherGetTypeID.cold.1
++ C3DNodeCreate.cold.1
++ C3DNodeGetTypeID.cold.1
++ C3DNotificationCenterCreate.cold.1
++ C3DNotificationCenterGetSharedInstance.cold.1
++ C3DPBROpacityIsEnabled.cold.1
++ C3DParametricGeometryGetTypeID.cold.1
++ C3DParticleManagerCreate.cold.1
++ C3DParticleModifierCreate.cold.1
++ C3DParticleSystemCreate.cold.1
++ C3DParticleSystemGetTypeID.cold.1
++ C3DParticleSystemInstanceCreate.cold.1
++ C3DParticleSystemInstanceGetTypeID.cold.1
++ C3DPreferencesGetBool.cold.1
++ C3DPreferencesGetInteger.cold.1
++ C3DProgramHashCodeCreate.cold.3
++ C3DProgramHashCodeStoreCreate.cold.1
++ C3DRasterizerStatesCreate.cold.1
++ C3DRasterizerStatesCreate.cold.2
++ C3DRemoveSceneRef.cold.3
++ C3DRenderTargetCreate.cold.1
++ C3DRendererContextCreateWithOptions.cold.1
++ C3DRendererDelegateCreate.cold.2
++ C3DRendererElementStateCreate.cold.2
++ C3DRendererElementStoreCreate.cold.1
++ C3DResourceCacheCreate.cold.2
++ C3DResourceCacheGetSharedInstance.cold.1
++ C3DResourceManagerCreate.cold.1
++ C3DReverseZIsSupported.cold.1
++ C3DSceneCreate.cold.1
++ C3DSceneCreateCopy.cold.1
++ C3DSceneGetTypeID.cold.1
++ C3DSceneSourceCreate.cold.1
++ C3DShaderFeedStandardUniformsToIndex.cold.1
++ C3DShaderGetStandardUniforms.cold.1
++ C3DShaderModifierEnumeratePossibleDefinesUsingBlock.cold.1
++ C3DShaderModifierEnumeratePossibleDefinesUsingBlock.cold.2
++ C3DShaderModifierEnumeratePossibleDefinesUsingBlock.cold.3
++ C3DShaderModifierEnumeratePossibleDefinesUsingBlock.cold.4
++ C3DShapeCreate.cold.1
++ C3DShapeGeometryCreate.cold.1
++ C3DShapeGeometryGetBoundingBox.cold.2
++ C3DShapeGeometryGetBoundingSphere.cold.2
++ C3DShapeGeometryGetTypeID.cold.1
++ C3DShapeGeometryMeshForBoundingBox.cold.2
++ C3DShapeGeometryValidate.cold.3
++ C3DShouldCollectGeneratedShaders.cold.1
++ C3DSimpleAnimationCreate.cold.1
++ C3DSimpleAnimationGetTypeID.cold.1
++ C3DSkinCreate.cold.1
++ C3DSkinGetTypeID.cold.1
++ C3DSkinnerCreate.cold.1
++ C3DSkinnerGetTypeID.cold.1
++ C3DSortSystemCreate.cold.1
++ C3DSpanAllocatorCreate.cold.1
++ C3DStackAllocatorCreate.cold.1
++ C3DStackCreate.cold.1
++ C3DStandardShadersUseFunctionConstants.cold.1
++ C3DSubdivisionOsdGPUGetPerPatchTypeSources.cold.2
++ C3DSubdivisionOsdGPUGetPerPatchTypeSources.cold.3
++ C3DSubdivisionOsdGPUGetPerPatchTypeSources.cold.4
++ C3DSubdivisionOsdGPUGetPerPatchTypeSources.cold.5
++ C3DSubdivisionOsdGPUGetPerPatchTypeSources.cold.6
++ C3DSubdivisionOsdGPUGetPerPatchTypeSources.cold.7
++ C3DSubdivisionOsdGPUGetSharedSources.cold.1
++ C3DTextFrameCreate.cold.1
++ C3DTextGeometryCreate.cold.1
++ C3DTextGeometryGetTypeID.cold.1
++ C3DTextLineCreateWithTextFrame.cold.1
++ C3DTextureCreate.cold.2
++ C3DTextureGetTypeID.cold.1
++ C3DTextureProxyCreate.cold.2
++ C3DTextureSamplerBilinearMipMapClampNoAnisotropy.cold.1
++ C3DTextureSamplerBilinearNoAnisotropy.cold.1
++ C3DTextureSamplerCreate.cold.1
++ C3DTextureSamplerDepthCompare.cold.1
++ C3DTextureSamplerGetDefault.cold.1
++ C3DTextureSamplerNearest.cold.1
++ C3DTextureSamplerTrilinearRepeatNoAnisotropy.cold.1
++ C3DTimingFunctionCreateSpring.cold.1
++ C3DTimingFunctionCreateWithControlPoints.cold.1
++ C3DTimingFunctionCreateWithName.cold.1
++ C3DTimingFunctionCreateWithPropertyList.cold.1
++ C3DTransactionGetStack.cold.1
++ C3DTransformTreeCreate.cold.1
++ C3DTriangulationInfoCreateFromMeshElement.cold.4
++ C3DUseOneCommandQueuePerDevice.cold.1
++ C3DValueCreate.cold.1
++ C3DValueGetTypeID.cold.1
++ C3DWasLinkedBeforeMajorOSYear2013.cold.1
++ C3DWasLinkedBeforeMajorOSYear2014.cold.1
++ C3DWasLinkedBeforeMajorOSYear2015.cold.1
++ C3DWasLinkedBeforeMajorOSYear2016.cold.1
++ C3DWasLinkedBeforeMajorOSYear2017.cold.1
++ C3DWasLinkedBeforeMajorOSYear2018.cold.1
++ C3DWasLinkedBeforeMajorOSYear2019.cold.1
++ C3DWasLinkedBeforeMajorOSYear2020.cold.1
++ C3DWasLinkedBeforeMajorOSYear2021.cold.1
++ C3DWasLinkedBeforeMajorOSYear2022.cold.1
++ C3DWasLinkedBeforeMajorOSYear2023.cold.1
++ C3DWideGamutIsUsed.cold.1
++ CFTypeIsC3DEntity.cold.1
++ CFTypeIsC3DGeometry.cold.1
++ GCC_except_table107
++ GCC_except_table121
++ GCC_except_table135
++ GCC_except_table138
++ GCC_except_table142
++ GCC_except_table147
++ GCC_except_table173
++ GCC_except_table186
++ GCC_except_table193
++ GCC_except_table266
++ GCC_except_table45
++ GCC_except_table61
++ GCC_except_table62
++ GCC_except_table81
++ SCNDecodeAnimations.cold.1
++ SCNDecodeAnimations.cold.2
++ SCNDecodeC3DAnimationForKey.cold.3
++ SCNDecodeImageArray.cold.1
++ SCNDecodeUnsafeObjectForKey.cold.2
++ SCNExportJavaScriptModule.cold.1
++ SCNGetPerformanceStatistics.cold.1
++ SCNGetPerformanceStatisticsEnabled.cold.1
++ SCNMetalLanguageVersion.cold.1
++ SCNPlistClasses.cold.1
++ SCNPushPerformanceStatistics.cold.1
++ SCNSetPerformanceStatisticsEnabled.cold.1
++ SCNSetPerformanceStatisticsEnabled.cold.2
++ SCNUserInfoClasses.cold.1
++ _C3DAnimationGetBaseType
++ _C3DAnimationReadsDestinationBuffer.cold.1
++ _C3DFXGLSLProgramGetMaxUniformIndex.cold.3
++ _C3DFXGLSLProgramSetAttributesDictionary.cold.3
++ _C3DFXGLSLProgramSetUniformDictionary.cold.3
++ _C3DGeometryOpenSubdivGetGPUPrimvarDataTypeHash
++ _C3DIndicesContentGetVertexIndicesForLinePrimitiveAtIndex
++ _C3DIndicesContentGetVertexIndicesForTrianglePrimitiveAtIndex
++ _C3DKeyframeControllerCreate.cold.1
++ _C3DMeshElementComputePolygonOffsetsIfNeeded.cold.1
++ _C3DMeshElementGetFastIndexLookupInfo
++ _C3DMeshElementGetIndexUsingFastIndexLookupInfo
++ _C3DMeshSourceCreate.cold.1
++ _C3DParametricGeometryCreate.cold.2
++ _C3DSourceAccessorCreate.cold.1
++ _C3DTransactionBegin.cold.1
++ _OUTLINED_FUNCTION_16
++ _OUTLINED_FUNCTION_17
++ _OUTLINED_FUNCTION_18
++ _OUTLINED_FUNCTION_19
++ _OUTLINED_FUNCTION_20
++ _OUTLINED_FUNCTION_21
++ _OUTLINED_FUNCTION_22
++ _OUTLINED_FUNCTION_23
++ _OUTLINED_FUNCTION_24
++ _OUTLINED_FUNCTION_25
++ _OUTLINED_FUNCTION_26
++ _OUTLINED_FUNCTION_27
++ _OUTLINED_FUNCTION_28
++ _OUTLINED_FUNCTION_29
++ _OUTLINED_FUNCTION_30
++ _OUTLINED_FUNCTION_31
++ _OUTLINED_FUNCTION_32
++ _OUTLINED_FUNCTION_33
++ _OUTLINED_FUNCTION_34
++ _OUTLINED_FUNCTION_35
++ _OUTLINED_FUNCTION_36
++ _OUTLINED_FUNCTION_37
++ _OUTLINED_FUNCTION_38
++ _OUTLINED_FUNCTION_39
++ _OUTLINED_FUNCTION_40
++ _OUTLINED_FUNCTION_41
++ _OUTLINED_FUNCTION_42
++ _OUTLINED_FUNCTION_43
++ _OUTLINED_FUNCTION_44
++ _OUTLINED_FUNCTION_45
++ _OUTLINED_FUNCTION_46
++ _OUTLINED_FUNCTION_47
++ _OUTLINED_FUNCTION_48
++ _OUTLINED_FUNCTION_49
++ _SCNGeometrySemanticForMeshSourceSemantic
++ _SCNGetPerformanceStatisticsForPid.cold.1
++ _SCNObjCLightingModelFromCLightingModel
++ _SCNSetLinearRenderingEnabled.cold.1
++ _SCNSetLinearRenderingEnabled.cold.2
++ _SCNStartCollectingPerformanceStatisticsForPid.cold.1
++ _SCNStopCollectingPerformanceStatisticsForPid.cold.1
++ _Z27C3DSubdivInitializeIfNeededv.cold.1
++ _Z34C3DSubdivGetGPUPrimvarDataTypeHashPK26C3DGeometrySubdivisionInfoP9__C3DMesh.cold.1
++ _Z45C3DSubdivisionOsdGPURuntimeDataCreateWithDataPK8__CFDataP8NSStringRK36C3DSubdivisionOsdGPUSubdivParametersP21SCNMTLResourceManagerPU26objcproto15MTLCommandQueue11objc_objectU13block_pointerFvPU27objcproto16MTLCommandBuffer11objc_objectbE.cold.3
++ _ZL16__C3DMeshDeindexP9__C3DMeshPP9__CFArrayS3_PPjS4_S5_.cold.7
++ _ZL49C3DSubdivisionOsdGPURuntimeDataCreateWithGeometryP13__C3DGeometryP18__C3DEngineContextRK36C3DSubdivisionOsdGPUSubdivParametersP21SCNMTLResourceManagerPU26objcproto15MTLCommandQueue11objc_objectU13block_pointerFvPU27objcproto16MTLCommandBuffer11objc_objectbE.cold.4
++ _ZL56C3DIndicesContentGetVertexIndicesForLinePrimitiveAtIndex17C3DIndicesContentlPjS0_.cold.1
++ _ZL67__C3DSubdivisionOsdGPURuntimeDataInitializePerPatchComputePipelinesP33__C3DSubdivisionOsdGPURuntimeDataRK36C3DSubdivisionOsdGPUSubdivParametersP21SCNMTLResourceManagerP8NSStringPN10OpenSubdiv6v3_1_13Osd10MTLContextE.cold.2
++ _ZN10OpenSubdiv6v3_1_13SdcL17staticTraitsTableEv.cold.1
++ _ZN11btMatrix3x311getIdentityEv.cold.1
++ _ZN11btShapeHull19getUnitSpherePointsEv.cold.1
++ _ZN12btQuaternion11getIdentityEv.cold.1
++ _ZN15C3DEnumIteratorI17C3DEffectPropertyLa0ELa15EE3endEv.cold.1
++ _ZN15ShaderConverterC2EP8NSString.cold.1
++ _ZN17btActionInterface12getFixedBodyEv.cold.1
++ _ZN17btTypedConstraint12getFixedBodyEv.cold.1
++ _ZN20SCNCJavaScriptActionC2EP10SCNCActionP8NSString.cold.1
++ _ZN30btKinematicCharacterController19getUpAxisDirectionsEv.cold.1
++ _ZN32btConvexInternalAabbCachingShape15recalcLocalAabbEv.cold.1
++ _ZN33btMinkowskiPenetrationDepthSolver24getPenetrationDirectionsEv.cold.1
++ _ZN34btPolyhedralConvexAabbCachingShape15recalcLocalAabbEv.cold.1
++ _ZN3C3D29MainPassCustomPostProcessPass7compileEv.cold.1
++ _ZNK15ShaderConverter17GLSLToMetalSymbolERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE.cold.1
++ _ZNK15ShaderConverter17MetalToGLSLSymbolERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE.cold.1
++ __56-[SCNMTLResourceManager renderResourceForMesh:dataKind:]_block_invoke.cold.1
++ __AllocAttributesNamesToIndexesIfNeeded.cold.3
++ __AllocUniformsNamesToIndexesIfNeeded.cold.3
++ __C3DConstraintAccelerationGetTypeID_block_invoke.cold.1
++ __C3DConstraintDistanceGetTypeID_block_invoke.cold.1
++ __C3DConstraintIKGetTypeID_block_invoke.cold.1
++ __C3DConstraintLookAtGetTypeID_block_invoke.cold.1
++ __C3DConstraintReplicatorGetTypeID_block_invoke.cold.1
++ __C3DGetColorTransformToExtendedLinearSRGB_block_invoke.cold.1
++ __C3DGetColorTransformToExtendedSRGB_block_invoke.cold.1
++ __C3DGetColorTransformToITUR_709_block_invoke.cold.1
++ __C3DGetColorTransformToLinearSRGB_block_invoke.cold.1
++ __C3DGetColorTransformToSRGB_block_invoke.cold.1
++ __C3DLinearRenderingIsEnabled_block_invoke.cold.1
++ __C3DMeshElementComputePolygonOffsetsIfNeeded
++ __C3DProgramHashCodeCreate_block_invoke_2.cold.1
++ __C3DReverseZIsSupported_block_invoke.cold.1
++ __C3DShaderModifierCreate.cold.3
++ __C3DShaderModifierCreate.cold.4
++ __C3DShaderModifierCreate.cold.5
++ __C3DShaderModifierCreate.cold.6
++ __C3DShaderModifierCreate.cold.7
++ __C3DStandardShadersUseFunctionConstants_block_invoke.cold.1
++ __C3DTextGeometryGetTypeID_block_invoke.cold.1
++ __C3DWideGamutIsUsed_block_invoke.cold.1
++ __GetAttributeIndexFromSemanticAndUVSet
++ __GetDefineForPropertyAndSuffix.cold.1
++ __MergedGlobals
++ __SCNGetPerformanceStatisticsEnabled_block_invoke.cold.1
++ __SCNUserInfoClasses_block_invoke.cold.1
++ __Z34C3DSubdivGetGPUPrimvarDataTypeHashPK26C3DGeometrySubdivisionInfoP9__C3DMesh
++ __ZL56C3DIndicesContentGetVertexIndicesForLinePrimitiveAtIndex17C3DIndicesContentlPjS0_
++ __ZN11btRigidBodyD2Ev
++ __ZN13btGhostObjectD2Ev
++ __ZN20btAlignedObjectArrayI16btC3DContactInfoED1Ev
++ __ZN20btAlignedObjectArrayI16btC3DIndexedMeshED1Ev
++ __ZN20btAlignedObjectArrayI9btVector3ED1Ev
++ __ZN26btTriangleIndexVertexArrayD2Ev
++ __ZN30btKinematicCharacterControllerD2Ev
++ __ZN6btDbvtD2Ev
++ __ZNK10OpenSubdiv6v3_1_13Far15PatchDescriptor21GetNumControlVerticesEv
++ __ZNKSt3__111__copy_implINS_17_ClassicAlgPolicyEEclB8nn190102INS_14__bit_iteratorINS_6vectorIbNS_9allocatorIbEEEELb0ELm0EEES9_S9_EENS_4pairIT_T1_EESB_T0_SC_
++ __ZNKSt3__14lessINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB8nn190102ERKS6_S9_
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIP19CAKeyframeAnimationNS6_ISB_EEEEEEPvEENS_22__tree_node_destructorINS6_ISG_EEEEE5resetB8nn190102EPSG_
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIS8_NS6_IS8_EEEEEEPvEENS_22__tree_node_destructorINS6_ISE_EEEEE5resetB8nn190102EPSE_
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES8_EEPvEENS_22__tree_node_destructorINS6_ISB_EEEEE5resetB8nn190102EPSB_
++ __ZNSt3__111__sift_downB8nn190102INS_17_ClassicAlgPolicyER12__VolumeCompPsEEvT1_OT0_NS_15iterator_traitsIS5_E15difference_typeES5_
++ __ZNSt3__111__sift_downB8nn190102INS_17_ClassicAlgPolicyER13__SphereZCompPsEEvT1_OT0_NS_15iterator_traitsIS5_E15difference_typeES5_
++ __ZNSt3__111__sift_downB8nn190102INS_17_ClassicAlgPolicyER18CompareCornerAngleP13ClippedCornerEEvT1_OT0_NS_15iterator_traitsIS6_E15difference_typeES6_
++ __ZNSt3__111__sift_downB8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPP9__C3DNodeEEvT1_OT0_NS_15iterator_traitsIS8_E15difference_typeES8_
++ __ZNSt3__111__sift_downB8nn190102INS_17_ClassicAlgPolicyERNS_7greaterIiEEPiEEvT1_OT0_NS_15iterator_traitsIS6_E15difference_typeES6_
++ __ZNSt3__111__sift_downB8nn190102INS_17_ClassicAlgPolicyERPFbRK9HitResultS4_EPS2_EEvT1_OT0_NS_15iterator_traitsIS9_E15difference_typeES9_
++ __ZNSt3__112__destroy_atB8nn190102INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIP19CAKeyframeAnimationNS5_ISB_EEEEEELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8nn190102INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIS7_NS5_IS7_EEEEEELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8nn190102INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EELi0EEEvPT_
++ __ZNSt3__112__rotate_gcdB8nn190102INS_17_ClassicAlgPolicyEPN3C3D16PassIODescriptorEEET0_S5_S5_S5_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn190102ENS_24__uninitialized_size_tagEmRKS4_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn190102EPKcm
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn190102Emc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn190102ILi0EEEPKc
++ __ZNSt3__113__fill_n_boolB8nn190102ILb0ENS_6vectorIbNS_9allocatorIbEEEEEEvNS_14__bit_iteratorIT0_Lb0EXLi0EEEENS6_9size_typeE
++ __ZNSt3__113__fill_n_boolB8nn190102ILb1ENS_6vectorIbNS_9allocatorIbEEEEEEvNS_14__bit_iteratorIT0_Lb0EXLi0EEEENS6_9size_typeE
++ __ZNSt3__113__tree_removeB8nn190102IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__113unordered_mapIi25SCNPerformanceDataMappingNS_4hashIiEENS_8equal_toIiEENS_9allocatorINS_4pairIKiS1_EEEEED1B8nn190102Ev
++ __ZNSt3__114__copy_alignedB8nn190102INS_6vectorIbNS_9allocatorIbEEEELb1EEENS_14__bit_iteratorIT_Lb0EXLi0EEEENS5_IS6_XT0_EXLi0EEEES8_S7_
++ __ZNSt3__114__split_bufferI11MaterialMapRNS_9allocatorIS1_EEE17__destruct_at_endB8nn190102EPS1_
++ __ZNSt3__114__split_bufferI23C3DSubdivCPUPrimvarDataIDv2_fERNS_9allocatorIS3_EEE5clearB8nn190102Ev
++ __ZNSt3__114__split_bufferI23C3DSubdivCPUPrimvarDataIDv3_fERNS_9allocatorIS3_EEE5clearB8nn190102Ev
++ __ZNSt3__114__split_bufferI23C3DSubdivCPUPrimvarDataIDv4_fERNS_9allocatorIS3_EEE5clearB8nn190102Ev
++ __ZNSt3__114__split_bufferI27C3DSubdivCPUFVarPrimvarInfoRNS_9allocatorIS1_EEE17__destruct_at_endB8nn190102EPS1_
++ __ZNSt3__114__split_bufferI27C3DSubdivGPUFVarPrimvarDataRNS_9allocatorIS1_EEE5clearB8nn190102Ev
++ __ZNSt3__114__split_bufferI28C3DSubdivCPUPrimvarDataGroupRNS_9allocatorIS1_EEE5clearB8nn190102Ev
++ __ZNSt3__114__split_bufferI8VariableRNS_9allocatorIS1_EEE5clearB8nn190102Ev
++ __ZNSt3__114__split_bufferIN10OpenSubdiv6v3_1_13Far10PatchTable16FVarPatchChannelERNS_9allocatorIS5_EEE5clearB8nn190102Ev
++ __ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEE17__destruct_at_endB8nn190102EPS6_
++ __ZNSt3__114__split_bufferINS_6vectorIN10OpenSubdiv6v3_1_13Osd10PatchArrayENS_9allocatorIS5_EEEERNS6_IS8_EEE17__destruct_at_endB8nn190102EPS8_
++ __ZNSt3__114__split_bufferINS_6vectorIN10OpenSubdiv6v3_1_13Osd10PatchParamENS_9allocatorIS5_EEEERNS6_IS8_EEE17__destruct_at_endB8nn190102EPS8_
++ __ZNSt3__114__split_bufferINS_6vectorIfNS_9allocatorIfEEEERNS2_IS4_EEE17__destruct_at_endB8nn190102EPS4_
++ __ZNSt3__114__split_bufferINS_6vectorIiNS_9allocatorIiEEEERNS2_IS4_EEE17__destruct_at_endB8nn190102EPS4_
++ __ZNSt3__116__insertion_sortB8nn190102INS_17_ClassicAlgPolicyER12__VolumeCompPsEEvT1_S5_T0_
++ __ZNSt3__116__insertion_sortB8nn190102INS_17_ClassicAlgPolicyER13__SphereZCompPsEEvT1_S5_T0_
++ __ZNSt3__116__insertion_sortB8nn190102INS_17_ClassicAlgPolicyER18CompareCornerAngleP13ClippedCornerEEvT1_S6_T0_
++ __ZNSt3__116__insertion_sortB8nn190102INS_17_ClassicAlgPolicyERPFbRK9HitResultS4_EPS2_EEvT1_S9_T0_
++ __ZNSt3__116__pad_and_outputB8nn190102IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8nn190102Ev
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI10SCNVector3EEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI10simd_quatfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI11MaterialMapEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI13ClippedCornerEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI13simd_float4x4EEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI14simd_double4x4EEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI16C3DSubdivCPUDataIDv2_fEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI16C3DSubdivCPUDataIDv3_fEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI16C3DSubdivCPUDataIDv4_fEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI18SCNSemanticBindingEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI19C3DTransformIndexesEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI19SCNPassInputBindingEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI23C3DSubdivCPUPrimvarDataIDv2_fEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI23C3DSubdivCPUPrimvarDataIDv3_fEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI23C3DSubdivCPUPrimvarDataIDv4_fEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI23C3DSubdivCPUPrimvarInfoEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI23C3DSubdivGPUPrimvarInfoEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI27C3DSubdivCPUFVarPrimvarInfoEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI27C3DSubdivGPUFVarPrimvarDataEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI27C3DSubdivisionOsdGPURefinerEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI28C3DSubdivCPUPrimvarDataGroupEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI30C3DSubdivisionOsdGPUPatchTableEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI31C3DSubdivMeshSourceIndexingInfoEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI34C3DSubdivCPUMeshCreationSourceInfoEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI4PairEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI5TokenEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI7CFRangeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI8TriangleEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI8VariableEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI9C3DColor4EEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIDv2_fEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIDv3_fEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIN10OpenSubdiv6v3_1_13Far10PatchParamEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIN10OpenSubdiv6v3_1_13Far10PatchTable10PatchArrayEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIN10OpenSubdiv6v3_1_13Far10PatchTable16FVarPatchChannelEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIN10OpenSubdiv6v3_1_13Far13TopologyLevelEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIN10OpenSubdiv6v3_1_13Far17PatchTableFactory14BuilderContext10PatchTupleEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIN10OpenSubdiv6v3_1_13Osd10PatchArrayEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIN10OpenSubdiv6v3_1_13Osd10PatchParamEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIN10OpenSubdiv6v3_1_13Osd15EvaluatorCacheTINS4_19MTLComputeEvaluatorEE5EntryEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSC_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIN10OpenSubdiv6v3_1_13Vtr8internal5Level4VTagEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIN10OpenSubdiv6v3_1_13Vtr8internal9FVarLevel13CreaseEndPairEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIN16SCNMTLBufferPool6BufferEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIN17SCNMTLTexturePool13CachedTextureEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIN5vmesh15SubdivisionInfoEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIN5vmesh8TriangleEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIN9AnimCodec17ArithmeticContextEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIN9AnimCodec7Vector3IfEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorINS_4pairIP7SCNNodeP8SkeletonEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorINS_4pairIP9__C3DMeshP16__C3DMeshElementEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorINS_6vectorI7CFRangeNS1_IS3_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorINS_6vectorIN10OpenSubdiv6v3_1_13Osd10PatchArrayENS1_IS6_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSC_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorINS_6vectorIN10OpenSubdiv6v3_1_13Osd10PatchParamENS1_IS6_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSC_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorINS_6vectorINS2_I7CFRangeNS1_IS3_EEEENS1_IS5_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorINS_6vectorIfNS1_IfEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorINS_6vectorIiNS1_IiEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIP10BlendShapeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIP10SCNCActionEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIP11MaterialMapEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIP13TextureLookupEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIP15c3dPhysicsFieldEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIP19CAKeyframeAnimationEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIP21WireframeMeshInstanceEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIP4SkinEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIP7SCNNodeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIP7UITouchEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIP8SkeletonEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIP9StatementEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIPKN10OpenSubdiv6v3_1_13Far12StencilTableEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIPN10OpenSubdiv6v3_1_13Vtr8internal10RefinementEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIPN10OpenSubdiv6v3_1_13Vtr8internal14FVarRefinementEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIPN10OpenSubdiv6v3_1_13Vtr8internal5LevelEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIPN10OpenSubdiv6v3_1_13Vtr8internal9FVarLevelEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIPU19objcproto9MTLBuffer11objc_objectEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIPiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIdEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorImEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorItEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__partial_sort_implB8nn190102INS_17_ClassicAlgPolicyER12__VolumeCompPsS4_EET1_S5_S5_T2_OT0_
++ __ZNSt3__119__partial_sort_implB8nn190102INS_17_ClassicAlgPolicyER13__SphereZCompPsS4_EET1_S5_S5_T2_OT0_
++ __ZNSt3__119__partial_sort_implB8nn190102INS_17_ClassicAlgPolicyER18CompareCornerAngleP13ClippedCornerS5_EET1_S6_S6_T2_OT0_
++ __ZNSt3__119__partial_sort_implB8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPP9__C3DNodeS7_EET1_S8_S8_T2_OT0_
++ __ZNSt3__119__partial_sort_implB8nn190102INS_17_ClassicAlgPolicyERNS_7greaterIiEEPiS5_EET1_S6_S6_T2_OT0_
++ __ZNSt3__119__partial_sort_implB8nn190102INS_17_ClassicAlgPolicyERPFbRK9HitResultS4_EPS2_S8_EET1_S9_S9_T2_OT0_
++ __ZNSt3__120get_temporary_bufferB8nn190102IN3C3D16PassIODescriptorEEENS_4pairIPT_lEEl
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEENS_4pairIiiEEEEPvEEEEEclB8nn190102EPSD_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEPvEEEEEclB8nn190102EPS9_
++ __ZNSt3__124__copy_move_unwrap_itersB8nn190102INS_11__copy_implINS_17_ClassicAlgPolicyEEENS_14__bit_iteratorINS_6vectorIbNS_9allocatorIbEEEELb0ELm0EEES9_S9_Li0EEENS_4pairIT0_T2_EESB_T1_SC_
++ __ZNSt3__124__put_character_sequenceB8nn190102IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__126__insertion_sort_unguardedB8nn190102INS_17_ClassicAlgPolicyER12__VolumeCompPsEEvT1_S5_T0_
++ __ZNSt3__126__insertion_sort_unguardedB8nn190102INS_17_ClassicAlgPolicyER13__SphereZCompPsEEvT1_S5_T0_
++ __ZNSt3__126__insertion_sort_unguardedB8nn190102INS_17_ClassicAlgPolicyERPFbRK9HitResultS4_EPS2_EEvT1_S9_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8nn190102INS_17_ClassicAlgPolicyER12__VolumeCompPsEEbT1_S5_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8nn190102INS_17_ClassicAlgPolicyER13__SphereZCompPsEEbT1_S5_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8nn190102INS_17_ClassicAlgPolicyER18CompareCornerAngleP13ClippedCornerEEbT1_S6_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPP9__C3DNodeEEbT1_S8_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8nn190102INS_17_ClassicAlgPolicyERNS_7greaterIiEEPiEEbT1_S6_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8nn190102INS_17_ClassicAlgPolicyERPFbRK9HitResultS4_EPS2_EEbT1_S9_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8nn190102INS_17_ClassicAlgPolicyERZN3C3D11RenderGraph26resolvePartialDependenciesEvE3$_0PNS3_4LinkEEEbT1_S8_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8nn190102INS_17_ClassicAlgPolicyERZN3C3D11RenderGraph8validateEvE3$_0PNS3_9PortsPairEEEbT1_S8_T0_
++ __ZNSt3__127__tree_balance_after_insertB8nn190102IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__130__uninitialized_allocator_copyB8nn190102INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPS6_S8_S8_EET2_RT_T0_T1_S9_
++ __ZNSt3__131__partition_with_equals_on_leftB8nn190102INS_17_ClassicAlgPolicyEP13ClippedCornerR18CompareCornerAngleEET0_S6_S6_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB8nn190102INS_17_ClassicAlgPolicyEP9HitResultRPFbRKS2_S5_EEET0_S9_S9_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB8nn190102INS_17_ClassicAlgPolicyEPP9__C3DNodeRNS_6__lessIvvEEEET0_S8_S8_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB8nn190102INS_17_ClassicAlgPolicyEPiRNS_7greaterIiEEEET0_S6_S6_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB8nn190102INS_17_ClassicAlgPolicyEPsR12__VolumeCompEET0_S5_S5_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB8nn190102INS_17_ClassicAlgPolicyEPsR13__SphereZCompEET0_S5_S5_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8nn190102INS_17_ClassicAlgPolicyEP13ClippedCornerR18CompareCornerAngleEENS_4pairIT0_bEES7_S7_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8nn190102INS_17_ClassicAlgPolicyEP9HitResultRPFbRKS2_S5_EEENS_4pairIT0_bEESA_SA_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8nn190102INS_17_ClassicAlgPolicyEPP9__C3DNodeRNS_6__lessIvvEEEENS_4pairIT0_bEES9_S9_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8nn190102INS_17_ClassicAlgPolicyEPiRNS_7greaterIiEEEENS_4pairIT0_bEES7_S7_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8nn190102INS_17_ClassicAlgPolicyEPsR12__VolumeCompEENS_4pairIT0_bEES6_S6_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8nn190102INS_17_ClassicAlgPolicyEPsR13__SphereZCompEENS_4pairIT0_bEES6_S6_T1_
++ __ZNSt3__134__uninitialized_allocator_relocateB8nn190102INS_9allocatorI11MaterialMapEES2_EEvRT_PT0_S7_S7_
++ __ZNSt3__134__uninitialized_allocator_relocateB8nn190102INS_9allocatorI23C3DSubdivCPUPrimvarDataIDv2_fEEES4_EEvRT_PT0_S9_S9_
++ __ZNSt3__134__uninitialized_allocator_relocateB8nn190102INS_9allocatorI23C3DSubdivCPUPrimvarDataIDv3_fEEES4_EEvRT_PT0_S9_S9_
++ __ZNSt3__134__uninitialized_allocator_relocateB8nn190102INS_9allocatorI23C3DSubdivCPUPrimvarDataIDv4_fEEES4_EEvRT_PT0_S9_S9_
++ __ZNSt3__134__uninitialized_allocator_relocateB8nn190102INS_9allocatorI27C3DSubdivCPUFVarPrimvarInfoEES2_EEvRT_PT0_S7_S7_
++ __ZNSt3__134__uninitialized_allocator_relocateB8nn190102INS_9allocatorI27C3DSubdivGPUFVarPrimvarDataEES2_EEvRT_PT0_S7_S7_
++ __ZNSt3__134__uninitialized_allocator_relocateB8nn190102INS_9allocatorI28C3DSubdivCPUPrimvarDataGroupEES2_EEvRT_PT0_S7_S7_
++ __ZNSt3__134__uninitialized_allocator_relocateB8nn190102INS_9allocatorI8VariableEES2_EEvRT_PT0_S7_S7_
++ __ZNSt3__134__uninitialized_allocator_relocateB8nn190102INS_9allocatorIN10OpenSubdiv6v3_1_13Far10PatchTable16FVarPatchChannelEEES6_EEvRT_PT0_SB_SB_
++ __ZNSt3__14listIP10SCNCActionNS_9allocatorIS2_EEE13__move_assignERS5_NS_17integral_constantIbLb1EEE
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B8nn190102ERKS8_
++ __ZNSt3__15dequeIiNS_9allocatorIiEEED2B8nn190102Ev
++ __ZNSt3__16__treeINS_12__value_typeIiNS_6vectorIiNS_9allocatorIiEEEEEENS_19__map_value_compareIiS6_NS_4lessIiEELb1EEENS3_IS6_EEE25__emplace_unique_key_argsIiJRKNS_21piecewise_construct_tENS_5tupleIJRKiEEENSH_IJEEEEEENS_4pairINS_15__tree_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEEbEERKT_DpOT0_
++ __ZNSt3__16vectorI11MaterialMapNS_9allocatorIS1_EEE16__destroy_vectorclB8nn190102Ev
++ __ZNSt3__16vectorI11MaterialMapNS_9allocatorIS1_EEE21__push_back_slow_pathIS1_EEPS1_OT_
++ __ZNSt3__16vectorI11MaterialMapNS_9allocatorIS1_EEE7__clearB8nn190102Ev
++ __ZNSt3__16vectorI16C3DSubdivCPUDataIDv2_fENS_9allocatorIS3_EEE11__vallocateB8nn190102Em
++ __ZNSt3__16vectorI16C3DSubdivCPUDataIDv3_fENS_9allocatorIS3_EEE11__vallocateB8nn190102Em
++ __ZNSt3__16vectorI16C3DSubdivCPUDataIDv4_fENS_9allocatorIS3_EEE11__vallocateB8nn190102Em
++ __ZNSt3__16vectorI18SCNSemanticBindingNS_9allocatorIS1_EEE9push_backB8nn190102ERKS1_
++ __ZNSt3__16vectorI23C3DSubdivCPUPrimvarDataIDv2_fENS_9allocatorIS3_EEE16__destroy_vectorclB8nn190102Ev
++ __ZNSt3__16vectorI23C3DSubdivCPUPrimvarDataIDv2_fENS_9allocatorIS3_EEE21__push_back_slow_pathIRKS3_EEPS3_OT_
++ __ZNSt3__16vectorI23C3DSubdivCPUPrimvarDataIDv3_fENS_9allocatorIS3_EEE16__destroy_vectorclB8nn190102Ev
++ __ZNSt3__16vectorI23C3DSubdivCPUPrimvarDataIDv3_fENS_9allocatorIS3_EEE21__push_back_slow_pathIRKS3_EEPS3_OT_
++ __ZNSt3__16vectorI23C3DSubdivCPUPrimvarDataIDv4_fENS_9allocatorIS3_EEE16__destroy_vectorclB8nn190102Ev
++ __ZNSt3__16vectorI23C3DSubdivCPUPrimvarDataIDv4_fENS_9allocatorIS3_EEE21__push_back_slow_pathIRKS3_EEPS3_OT_
++ __ZNSt3__16vectorI27C3DSubdivCPUFVarPrimvarInfoNS_9allocatorIS1_EEE16__destroy_vectorclB8nn190102Ev
++ __ZNSt3__16vectorI27C3DSubdivCPUFVarPrimvarInfoNS_9allocatorIS1_EEE21__push_back_slow_pathIS1_EEPS1_OT_
++ __ZNSt3__16vectorI27C3DSubdivCPUFVarPrimvarInfoNS_9allocatorIS1_EEE7__clearB8nn190102Ev
++ __ZNSt3__16vectorI27C3DSubdivCPUFVarPrimvarInfoNS_9allocatorIS1_EEE9push_backB8nn190102EOS1_
++ __ZNSt3__16vectorI27C3DSubdivGPUFVarPrimvarDataNS_9allocatorIS1_EEE16__destroy_vectorclB8nn190102Ev
++ __ZNSt3__16vectorI27C3DSubdivGPUFVarPrimvarDataNS_9allocatorIS1_EEE9push_backB8nn190102EOS1_
++ __ZNSt3__16vectorI27C3DSubdivisionOsdGPURefinerNS_9allocatorIS1_EEE11__vallocateB8nn190102Em
++ __ZNSt3__16vectorI27C3DSubdivisionOsdGPURefinerNS_9allocatorIS1_EEEC2B8nn190102Em
++ __ZNSt3__16vectorI28C3DSubdivCPUPrimvarDataGroupNS_9allocatorIS1_EEE16__destroy_vectorclB8nn190102Ev
++ __ZNSt3__16vectorI30C3DSubdivisionOsdGPUPatchTableNS_9allocatorIS1_EEE11__vallocateB8nn190102Em
++ __ZNSt3__16vectorI30C3DSubdivisionOsdGPUPatchTableNS_9allocatorIS1_EEEC2B8nn190102Em
++ __ZNSt3__16vectorI5TokenNS_9allocatorIS1_EEE9push_backB8nn190102ERKS1_
++ __ZNSt3__16vectorI7CFRangeNS_9allocatorIS1_EEE11__vallocateB8nn190102Em
++ __ZNSt3__16vectorI8VariableNS_9allocatorIS1_EEE16__destroy_vectorclB8nn190102Ev
++ __ZNSt3__16vectorIDv2_fNS_9allocatorIS1_EEE11__vallocateB8nn190102Em
++ __ZNSt3__16vectorIDv3_fNS_9allocatorIS1_EEE11__vallocateB8nn190102Em
++ __ZNSt3__16vectorIN10OpenSubdiv6v3_1_13Far10PatchTable10PatchArrayENS_9allocatorIS5_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS5_RS7_EE
++ __ZNSt3__16vectorIN10OpenSubdiv6v3_1_13Far10PatchTable10PatchArrayENS_9allocatorIS5_EEE9push_backB8nn190102EOS5_
++ __ZNSt3__16vectorIN10OpenSubdiv6v3_1_13Far10PatchTable16FVarPatchChannelENS_9allocatorIS5_EEE16__destroy_vectorclB8nn190102Ev
++ __ZNSt3__16vectorIN10OpenSubdiv6v3_1_13Far17PatchTableFactory14BuilderContext10PatchTupleENS_9allocatorIS6_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS6_RS8_EE
++ __ZNSt3__16vectorIN10OpenSubdiv6v3_1_13Osd10PatchArrayENS_9allocatorIS4_EEE11__vallocateB8nn190102Em
++ __ZNSt3__16vectorIN10OpenSubdiv6v3_1_13Osd10PatchArrayENS_9allocatorIS4_EEE18__assign_with_sizeB8nn190102IPKS4_SA_EEvT_T0_l
++ __ZNSt3__16vectorIN10OpenSubdiv6v3_1_13Osd10PatchArrayENS_9allocatorIS4_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS4_RS6_EE
++ __ZNSt3__16vectorIN5vmesh8TriangleENS_9allocatorIS2_EEE11__vallocateB8nn190102Em
++ __ZNSt3__16vectorIN5vmesh8TriangleENS_9allocatorIS2_EEE18__assign_with_sizeB8nn190102IPS2_S7_EEvT_T0_l
++ __ZNSt3__16vectorINS0_I7CFRangeNS_9allocatorIS1_EEEENS2_IS4_EEE11__vallocateB8nn190102Em
++ __ZNSt3__16vectorINS0_I7CFRangeNS_9allocatorIS1_EEEENS2_IS4_EEE16__destroy_vectorclB8nn190102Ev
++ __ZNSt3__16vectorINS0_I7CFRangeNS_9allocatorIS1_EEEENS2_IS4_EEE16__init_with_sizeB8nn190102IPS4_S8_EEvT_T0_m
++ __ZNSt3__16vectorINS0_I7CFRangeNS_9allocatorIS1_EEEENS2_IS4_EEE7__clearB8nn190102Ev
++ __ZNSt3__16vectorINS0_I7CFRangeNS_9allocatorIS1_EEEENS2_IS4_EEEC2B8nn190102Em
++ __ZNSt3__16vectorINS0_IN10OpenSubdiv6v3_1_13Osd10PatchArrayENS_9allocatorIS4_EEEENS5_IS7_EEE16__destroy_vectorclB8nn190102Ev
++ __ZNSt3__16vectorINS0_IN10OpenSubdiv6v3_1_13Osd10PatchArrayENS_9allocatorIS4_EEEENS5_IS7_EEE7__clearB8nn190102Ev
++ __ZNSt3__16vectorINS0_IN10OpenSubdiv6v3_1_13Osd10PatchParamENS_9allocatorIS4_EEEENS5_IS7_EEE16__destroy_vectorclB8nn190102Ev
++ __ZNSt3__16vectorINS0_IN10OpenSubdiv6v3_1_13Osd10PatchParamENS_9allocatorIS4_EEEENS5_IS7_EEE7__clearB8nn190102Ev
++ __ZNSt3__16vectorINS0_INS0_I7CFRangeNS_9allocatorIS1_EEEENS2_IS4_EEEENS2_IS6_EEE11__vallocateB8nn190102Em
++ __ZNSt3__16vectorINS0_INS0_I7CFRangeNS_9allocatorIS1_EEEENS2_IS4_EEEENS2_IS6_EEE16__destroy_vectorclB8nn190102Ev
++ __ZNSt3__16vectorINS0_INS0_I7CFRangeNS_9allocatorIS1_EEEENS2_IS4_EEEENS2_IS6_EEEC2B8nn190102EmRKS6_
++ __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE16__destroy_vectorclB8nn190102Ev
++ __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE7__clearB8nn190102Ev
++ __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE16__destroy_vectorclB8nn190102Ev
++ __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE7__clearB8nn190102Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE11__vallocateB8nn190102Em
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB8nn190102Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE18__assign_with_sizeB8nn190102IPS6_SA_EEvT_T0_l
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE7__clearB8nn190102Ev
++ __ZNSt3__16vectorIP19CAKeyframeAnimationNS_9allocatorIS2_EEE11__vallocateB8nn190102Em
++ __ZNSt3__16vectorIP19CAKeyframeAnimationNS_9allocatorIS2_EEE18__assign_with_sizeB8nn190102IPS2_S7_EEvT_T0_l
++ __ZNSt3__16vectorIP19CAKeyframeAnimationNS_9allocatorIS2_EEE9push_backB8nn190102ERKS2_
++ __ZNSt3__16vectorIP9StatementNS_9allocatorIS2_EEE11__vallocateB8nn190102Em
++ __ZNSt3__16vectorIbNS_9allocatorIbEEE11__vallocateB8nn190102Em
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE11__vallocateB8nn190102Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB8nn190102Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEEC2ERKS3_
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE11__vallocateB8nn190102Em
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE18__assign_with_sizeB8nn190102IPKiS6_EEvT_T0_l
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE18__insert_with_sizeB8nn190102IPKiS6_EENS_11__wrap_iterIPiEENS7_IS6_EET_T0_l
++ __ZNSt3__16vectorIiNS_9allocatorIiEEEC2ERKS3_
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE11__vallocateB8nn190102Em
++ __ZNSt3__16vectorItNS_9allocatorItEEE11__vallocateB8nn190102Em
++ __ZNSt3__17__sort3B8nn190102INS_17_ClassicAlgPolicyER12__VolumeCompPsEEjT1_S5_S5_T0_
++ __ZNSt3__17__sort3B8nn190102INS_17_ClassicAlgPolicyER13__SphereZCompPsEEjT1_S5_S5_T0_
++ __ZNSt3__17__sort3B8nn190102INS_17_ClassicAlgPolicyER18CompareCornerAngleP13ClippedCornerEEjT1_S6_S6_T0_
++ __ZNSt3__17__sort3B8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPP9__C3DNodeEEjT1_S8_S8_T0_
++ __ZNSt3__17__sort3B8nn190102INS_17_ClassicAlgPolicyERNS_7greaterIiEEPiEEjT1_S6_S6_T0_
++ __ZNSt3__17__sort3B8nn190102INS_17_ClassicAlgPolicyERPFbRK9HitResultS4_EPS2_EEjT1_S9_S9_T0_
++ __ZNSt3__17__sort3B8nn190102INS_17_ClassicAlgPolicyERZN3C3D11RenderGraph26resolvePartialDependenciesEvE3$_0PNS3_4LinkEEEjT1_S8_S8_T0_
++ __ZNSt3__17__sort3B8nn190102INS_17_ClassicAlgPolicyERZN3C3D11RenderGraph8validateEvE3$_0PNS3_9PortsPairEEEjT1_S8_S8_T0_
++ __ZNSt3__17__sort4B8nn190102INS_17_ClassicAlgPolicyER12__VolumeCompPsEEvT1_S5_S5_S5_T0_
++ __ZNSt3__17__sort4B8nn190102INS_17_ClassicAlgPolicyER13__SphereZCompPsEEvT1_S5_S5_S5_T0_
++ __ZNSt3__17__sort4B8nn190102INS_17_ClassicAlgPolicyER18CompareCornerAngleP13ClippedCornerEEvT1_S6_S6_S6_T0_
++ __ZNSt3__17__sort4B8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPP9__C3DNodeEEvT1_S8_S8_S8_T0_
++ __ZNSt3__17__sort4B8nn190102INS_17_ClassicAlgPolicyERPFbRK9HitResultS4_EPS2_EEvT1_S9_S9_S9_T0_
++ __ZNSt3__17__sort4B8nn190102INS_17_ClassicAlgPolicyERZN3C3D11RenderGraph26resolvePartialDependenciesEvE3$_0PNS3_4LinkEEEvT1_S8_S8_S8_T0_
++ __ZNSt3__17__sort4B8nn190102INS_17_ClassicAlgPolicyERZN3C3D11RenderGraph8validateEvE3$_0PNS3_9PortsPairEEEvT1_S8_S8_S8_T0_
++ __ZNSt3__17__sort5B8nn190102INS_17_ClassicAlgPolicyER12__VolumeCompPsEEvT1_S5_S5_S5_S5_T0_
++ __ZNSt3__17__sort5B8nn190102INS_17_ClassicAlgPolicyER13__SphereZCompPsEEvT1_S5_S5_S5_S5_T0_
++ __ZNSt3__17__sort5B8nn190102INS_17_ClassicAlgPolicyER18CompareCornerAngleP13ClippedCornerEEvT1_S6_S6_S6_S6_T0_
++ __ZNSt3__17__sort5B8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPP9__C3DNodeEEvT1_S8_S8_S8_S8_T0_
++ __ZNSt3__17__sort5B8nn190102INS_17_ClassicAlgPolicyERPFbRK9HitResultS4_EPS2_EEvT1_S9_S9_S9_S9_T0_
++ __ZNSt3__18__rotateB8nn190102INS_17_ClassicAlgPolicyEPN3C3D16PassIODescriptorES4_EENS_4pairIT0_S6_EES6_S6_T1_
++ __ZNSt3__19__sift_upB8nn190102INS_17_ClassicAlgPolicyER12__VolumeCompPsEEvT1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
++ __ZNSt3__19__sift_upB8nn190102INS_17_ClassicAlgPolicyER13__SphereZCompPsEEvT1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
++ __ZNSt3__19__sift_upB8nn190102INS_17_ClassicAlgPolicyER18CompareCornerAngleP13ClippedCornerEEvT1_S6_OT0_NS_15iterator_traitsIS6_E15difference_typeE
++ __ZNSt3__19__sift_upB8nn190102INS_17_ClassicAlgPolicyERPFbRK9HitResultS4_EPS2_EEvT1_S9_OT0_NS_15iterator_traitsIS9_E15difference_typeE
++ __ZNSt3__19allocatorI23C3DSubdivCPUPrimvarDataIDv2_fEE7destroyB8nn190102EPS3_
++ __ZNSt3__19allocatorI23C3DSubdivCPUPrimvarDataIDv3_fEE7destroyB8nn190102EPS3_
++ __ZNSt3__19allocatorI23C3DSubdivCPUPrimvarDataIDv4_fEE7destroyB8nn190102EPS3_
++ __ZNSt3__19allocatorI27C3DSubdivGPUFVarPrimvarDataE7destroyB8nn190102EPS1_
++ __ZNSt3__19allocatorI28C3DSubdivCPUPrimvarDataGroupE7destroyB8nn190102EPS1_
++ __ZNSt3__19allocatorI28C3DSubdivCPUPrimvarDataGroupE9constructB8nn190102IS1_JS1_EEEvPT_DpOT0_
++ __ZNSt3__19allocatorI8VariableE7destroyB8nn190102EPS1_
++ __ZNSt3__19allocatorIN10OpenSubdiv6v3_1_13Far10PatchTable16FVarPatchChannelEE7destroyB8nn190102EPS5_
++ __ZNSt3__1L19piecewise_constructE
++ __ZNSt3__1eqB8nn190102IcNS_11char_traitsIcEENS_9allocatorIcEEEEbRKNS_12basic_stringIT_T0_T1_EEPKS6_
++ __ZSt28__throw_bad_array_new_lengthB8nn190102v
++ ___C3DResourceCacheCopyResourceOrCreateIfNeededForSource_block_invoke
++ ___Z34C3DSubdivGetGPUPrimvarDataTypeHashPK26C3DGeometrySubdivisionInfoP9__C3DMesh_block_invoke.cold.1
++ ___ZL49C3DSubdivisionOsdGPURuntimeDataCreateWithGeometryP13__C3DGeometryP18__C3DEngineContextRK36C3DSubdivisionOsdGPUSubdivParametersP21SCNMTLResourceManagerPU26objcproto15MTLCommandQueue11objc_objectU13block_pointerFvPU27objcproto16MTLCommandBuffer11objc_objectbE_block_invoke.530
++ ___ZL49C3DSubdivisionOsdGPURuntimeDataCreateWithGeometryP13__C3DGeometryP18__C3DEngineContextRK36C3DSubdivisionOsdGPUSubdivParametersP21SCNMTLResourceManagerPU26objcproto15MTLCommandQueue11objc_objectU13block_pointerFvPU27objcproto16MTLCommandBuffer11objc_objectbE_block_invoke.530.cold.1
++ ___ZL49C3DSubdivisionOsdGPURuntimeDataCreateWithGeometryP13__C3DGeometryP18__C3DEngineContextRK36C3DSubdivisionOsdGPUSubdivParametersP21SCNMTLResourceManagerPU26objcproto15MTLCommandQueue11objc_objectU13block_pointerFvPU27objcproto16MTLCommandBuffer11objc_objectbE_block_invoke.530.cold.2
++ ___ZL49C3DSubdivisionOsdGPURuntimeDataCreateWithGeometryP13__C3DGeometryP18__C3DEngineContextRK36C3DSubdivisionOsdGPUSubdivParametersP21SCNMTLResourceManagerPU26objcproto15MTLCommandQueue11objc_objectU13block_pointerFvPU27objcproto16MTLCommandBuffer11objc_objectbE_block_invoke.530.cold.3
++ ____Z34C3DSubdivGetGPUPrimvarDataTypeHashPK26C3DGeometrySubdivisionInfoP9__C3DMesh_block_invoke
++ ___block_descriptor_108_e19_v32?0I8^I12I20^B24l
++ ___block_descriptor_169_e8_32r40r48r56r_e19_v32?0I8^I12I20^B24lr32l8r40l8r48l8r56l8
++ ___block_descriptor_282_e16_80r88r96r104r_e31_v48?0I8^I12I20I24I28I32I36^B40lr80l8r88l8r96l8r104l8
++ ___block_descriptor_520_e16_496r_e19_v32?0I8^I12I20^B24lr496l8
++ ___block_descriptor_56_e8_32r_e15_v24?0r^v8r^v16lr32l8
++ ___block_descriptor_80_e8_32r40r_e19_v32?0I8^I12I20^B24lr32l8r40l8
++ __block_descriptor_tmp.22
++ __block_literal_global.506
++ __block_literal_global.517
++ __block_literal_global.519
++ __block_literal_global.521
++ __block_literal_global.523
++ __block_literal_global.525
++ __block_literal_global.527
++ _arrowNode.cold.1
++ _axisNode.cold.1
++ _commitImplicitTransaction.cold.1
++ _objc_msgSend$_commitResourceCommandBufferIfNeeded
++ _objc_release_x10
++ _pathComponentForString.cold.1
++ _rotationArcNode.cold.1
++ _translationPlaneNode.cold.1
++ _wireframeCircle.cold.1
++ scn_default_log.cold.1
+- -[SCNMTLDeformerStack bufferForCommonProfileArgumentNamed:].cold.1
+- -[SCNMTLMesh vertexDescriptorHash].cold.1
+- -[SCNMTLMeshElement setupWithElement:].cold.1
+- -[SCNMTLMeshElement setupWithElement:].cold.2
+- -[SCNMTLRenderContext _drawMeshElement:instanceCount:].cold.1
+- -[SCNMTLRenderContext _drawPatchForMeshElement:instanceCount:].cold.1
+- -[SCNMTLRenderContext _drawPatchForMeshElement:instanceCount:].cold.2
+- -[SCNMTLRenderContext authoring_drawPrimitives:vertexCount:instanceCount:vertexBuffers:offsets:range:vertexDescriptor:withProgram:uniforms:uniformsLength:rasterizerStates:blendStates:].cold.1
+- -[SCNMTLRenderContext authoring_renderMesh:meshElement:withProgram:uniforms:uniformsLength:rasterizerStates:blendStates:texture:depthBias:].cold.1
+- -[SCNMTLRenderContext authoring_renderMesh:meshElement:withProgram:uniforms:uniformsLength:rasterizerStates:blendStates:texture:depthBias:].cold.2
+- -[SCNMTLRenderContext createVolatileMeshElementOfType:primitiveCount:bytesPerIndex:].cold.1
+- -[SCNMTLRenderContext createVolatileMeshElementOfType:primitiveCount:bytesPerIndex:].cold.2
+- -[SCNMTLRenderContext drawFullScreenQuadForPass:].cold.1
+- -[SCNMTLRenderContext drawRenderElement:withPass:].cold.1
+- -[SCNMTLRenderContext mapVolatileMesh:verticesCount:].cold.1
+- -[SCNMTLRenderContext mapVolatileMesh:verticesCount:].cold.2
+- -[SCNMTLRenderContext processRendererElements:count:engineIterationContext:].cold.1
+- -[SCNMTLRenderContext renderBackground:engineContext:passInstance:].cold.1
+- -[SCNMTLRenderContext renderVideoBackground:engineContext:slot:].cold.1
+- -[SCNMTLRenderContext setPreferredFramesPerSecond:].cold.1
+- -[SCNMTLRenderContext setRasterizerStates:].cold.1
+- -[SCNMTLRenderContext unmapVolatileMesh:modifiedVerticesCount:].cold.1
+- -[SCNMTLRenderContext unmapVolatileMesh:modifiedVerticesCount:].cold.2
+- -[SCNMTLResourceManager renderResourceForMeshSource:].cold.1
+- -[SCNMTLSmoothNormalsDeformer initWithMesh:dataKind:resourceManager:computeContext:].cold.1
+- -[SCNMTLSmoothNormalsDeformer initWithMesh:dataKind:resourceManager:computeContext:].cold.2
+- -[SCNMorpher _validateTargetsAndInBetweens:inBetweenCounts:inBetweenWeights:].cold.1
+- -[SCNMorpher _validateTargetsAndInBetweens:inBetweenCounts:inBetweenWeights:].cold.2
+- -[SCNRenderer updateProbes:atTime:].cold.5
+- C3DFXPassInitialize.cold.7
+- C3DIndicesContentGetLineIndex.cold.1
+- C3DIndicesContentGetTriangleIndex.cold.1
+- C3DMeshElementGetIndexCount.cold.1
+- C3DPreviousKeyFrameIndexForTime.cold.1
+- GCC_except_table128
+- GCC_except_table134
+- GCC_except_table137
+- GCC_except_table145
+- GCC_except_table160
+- GCC_except_table174
+- GCC_except_table177
+- GCC_except_table189
+- GCC_except_table194
+- GCC_except_table59
+- GCC_except_table91
+- OBJC_IVAR_$_SCNMTLRenderContext._resourceGroup
+- _C3DGeometryOsdGetPrimvarDataTypeHash
+- _C3DIndicesContentGetLineIndex
+- _C3DIndicesContentGetTriangleIndex
+- _ZL29C3DIndicesContentGetLineIndex17C3DIndicesContentlPjS0_.cold.1
+- _ZN3C3D11RenderGraph27resolvePartialCompatibilityEv.cold.10
+- _ZN3C3D11RenderGraph27resolvePartialCompatibilityEv.cold.9
+- __AppendArgument.cold.1
+- __C3DGeometryOsdGetPrimvarDataTypeHash_block_invoke.cold.1
+- __SCNConvertFieldOfViewFromHorizontalToVertical
+- __SCNConvertFieldOfViewFromVerticalToHorizontal
+- __SCNGetEffectiveLegacyFieldOfView
+- __Z5aboveP9btVector3RK4int3RKS_f
+- __ZGVZL23getPerfDataMappingByPIDvE20perfDataMappingByPID
+- __ZGVZN10OpenSubdiv6v3_1_13SdcL17staticTraitsTableEvE17staticTraitsTable
+- __ZGVZN11btShapeHull19getUnitSpherePointsEvE17sUnitSpherePoints
+- __ZGVZN17btActionInterface12getFixedBodyEvE7s_fixed
+- __ZGVZN17btTypedConstraint12getFixedBodyEvE7s_fixed
+- __ZGVZN30btKinematicCharacterController19getUpAxisDirectionsEvE16sUpAxisDirection
+- __ZGVZN32btConvexInternalAabbCachingShape15recalcLocalAabbEvE11_directions
+- __ZGVZN33btMinkowskiPenetrationDepthSolver24getPenetrationDirectionsEvE22sPenetrationDirections
+- __ZGVZN34btPolyhedralConvexAabbCachingShape15recalcLocalAabbEvE11_directions
+- __ZL29C3DIndicesContentGetLineIndex17C3DIndicesContentlPjS0_
+- __ZN11btUnionFind4FreeEv
+- __ZN12gjkepa2_impl3GJK13projectoriginERK9btVector3S3_PfRj
+- __ZN14btQuantizedBvh30assignInternalNodeFromLeafNodeEii
+- __ZN20btAlignedObjectArrayI11btWheelInfoED2Ev
+- __ZN20btAlignedObjectArrayI12btSolverBodyED2Ev
+- __ZN20btAlignedObjectArrayI13btIndexedMeshED2Ev
+- __ZN20btAlignedObjectArrayI14btTriangleInfoED2Ev
+- __ZN20btAlignedObjectArrayI16btBroadphasePairED2Ev
+- __ZN20btAlignedObjectArrayI16btBvhSubtreeInfoED2Ev
+- __ZN20btAlignedObjectArrayI16btC3DContactInfoED2Ev
+- __ZN20btAlignedObjectArrayI16btC3DIndexedMeshED2Ev
+- __ZN20btAlignedObjectArrayI18btOptimizedBvhNodeED2Ev
+- __ZN20btAlignedObjectArrayI18btQuantizedBvhNodeED2Ev
+- __ZN20btAlignedObjectArrayI18btSolverConstraintED2Ev
+- __ZN20btAlignedObjectArrayI20btCompoundShapeChildED2Ev
+- __ZN20btAlignedObjectArrayI9btElementED2Ev
+- __ZN20btAlignedObjectArrayI9btHashIntED2Ev
+- __ZN20btAlignedObjectArrayI9btVector3ED2Ev
+- __ZN20btAlignedObjectArrayIN17btTypedConstraint17btConstraintInfo1EED2Ev
+- __ZN20btAlignedObjectArrayIN6btDbvt6sStkNNEED2Ev
+- __ZN20btAlignedObjectArrayIP11btRigidBodyED2Ev
+- __ZN20btAlignedObjectArrayIP17btActionInterfaceED2Ev
+- __ZN20btAlignedObjectArrayIP17btCollisionObjectED2Ev
+- __ZN20btAlignedObjectArrayIP17btTypedConstraintED2Ev
+- __ZN20btAlignedObjectArrayIP20btCollisionAlgorithmED2Ev
+- __ZN20btAlignedObjectArrayIP20btPersistentManifoldED2Ev
+- __ZN20btAlignedObjectArrayIPK10btDbvtNodeED2Ev
+- __ZN20btAlignedObjectArrayIPK17btCollisionObjectED2Ev
+- __ZN20btAlignedObjectArrayIfED2Ev
+- __ZN20btAlignedObjectArrayIiE6removeERKi
+- __ZN20btAlignedObjectArrayIiED2Ev
+- __ZN20btAlignedObjectArrayIjED2Ev
+- __ZN20btConvexHullInternal11Rational128C2Ex
+- __ZNKSt3__111__copy_loopINS_17_ClassicAlgPolicyEEclB8nn180100INS_14__bit_iteratorINS_6vectorIbNS_9allocatorIbEEEELb0ELm0EEES9_S9_EENS_4pairIT_T1_EESB_T0_SC_
+- __ZNKSt3__14lessINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB8nn180100ERKS6_S9_
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIP19CAKeyframeAnimationNS6_ISB_EEEEEEPvEENS_22__tree_node_destructorINS6_ISG_EEEEE5resetB8nn180100EPSG_
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIS8_NS6_IS8_EEEEEEPvEENS_22__tree_node_destructorINS6_ISE_EEEEE5resetB8nn180100EPSE_
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES8_EEPvEENS_22__tree_node_destructorINS6_ISB_EEEEE5resetB8nn180100EPSB_
+- __ZNSt3__111__sift_downB8nn180100INS_17_ClassicAlgPolicyER12__VolumeCompPsEEvT1_OT0_NS_15iterator_traitsIS5_E15difference_typeES5_
+- __ZNSt3__111__sift_downB8nn180100INS_17_ClassicAlgPolicyER13__SphereZCompPsEEvT1_OT0_NS_15iterator_traitsIS5_E15difference_typeES5_
+- __ZNSt3__111__sift_downB8nn180100INS_17_ClassicAlgPolicyER18CompareCornerAngleP13ClippedCornerEEvT1_OT0_NS_15iterator_traitsIS6_E15difference_typeES6_
+- __ZNSt3__111__sift_downB8nn180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPP9__C3DNodeEEvT1_OT0_NS_15iterator_traitsIS8_E15difference_typeES8_
+- __ZNSt3__111__sift_downB8nn180100INS_17_ClassicAlgPolicyERNS_7greaterIiEEPiEEvT1_OT0_NS_15iterator_traitsIS6_E15difference_typeES6_
+- __ZNSt3__111__sift_downB8nn180100INS_17_ClassicAlgPolicyERPFbRK9HitResultS4_EPS2_EEvT1_OT0_NS_15iterator_traitsIS9_E15difference_typeES9_
+- __ZNSt3__112__destroy_atB8nn180100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIP19CAKeyframeAnimationNS5_ISB_EEEEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB8nn180100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIS7_NS5_IS7_EEEEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB8nn180100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EELi0EEEvPT_
+- __ZNSt3__112__rotate_gcdB8nn180100INS_17_ClassicAlgPolicyEPN3C3D16PassIODescriptorEEET0_S5_S5_S5_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn180100ENS_24__uninitialized_size_tagEmRKS4_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn180100EPKcm
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn180100Emc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn180100ILi0EEEPKc
+- __ZNSt3__113__tree_removeB8nn180100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__113unordered_mapIi25SCNPerformanceDataMappingNS_4hashIiEENS_8equal_toIiEENS_9allocatorINS_4pairIKiS1_EEEEED1B8nn180100Ev
+- __ZNSt3__114__copy_alignedB8nn180100INS_6vectorIbNS_9allocatorIbEEEELb1EEENS_14__bit_iteratorIT_Lb0EXLi0EEEENS5_IS6_XT0_EXLi0EEEES8_S7_
+- __ZNSt3__114__split_bufferI11MaterialMapRNS_9allocatorIS1_EEE17__destruct_at_endB8nn180100EPS1_
+- __ZNSt3__114__split_bufferI23C3DSubdivCPUPrimvarDataIDv2_fERNS_9allocatorIS3_EEE5clearB8nn180100Ev
+- __ZNSt3__114__split_bufferI23C3DSubdivCPUPrimvarDataIDv3_fERNS_9allocatorIS3_EEE5clearB8nn180100Ev
+- __ZNSt3__114__split_bufferI23C3DSubdivCPUPrimvarDataIDv4_fERNS_9allocatorIS3_EEE5clearB8nn180100Ev
+- __ZNSt3__114__split_bufferI27C3DSubdivCPUFVarPrimvarInfoRNS_9allocatorIS1_EEE17__destruct_at_endB8nn180100EPS1_
+- __ZNSt3__114__split_bufferI27C3DSubdivGPUFVarPrimvarDataRNS_9allocatorIS1_EEE5clearB8nn180100Ev
+- __ZNSt3__114__split_bufferI28C3DSubdivCPUPrimvarDataGroupRNS_9allocatorIS1_EEE5clearB8nn180100Ev
+- __ZNSt3__114__split_bufferI8VariableRNS_9allocatorIS1_EEE5clearB8nn180100Ev
+- __ZNSt3__114__split_bufferIN10OpenSubdiv6v3_1_13Far10PatchTable16FVarPatchChannelERNS_9allocatorIS5_EEE5clearB8nn180100Ev
+- __ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEE17__destruct_at_endB8nn180100EPS6_
+- __ZNSt3__114__split_bufferINS_6vectorIN10OpenSubdiv6v3_1_13Osd10PatchArrayENS_9allocatorIS5_EEEERNS6_IS8_EEE17__destruct_at_endB8nn180100EPS8_
+- __ZNSt3__114__split_bufferINS_6vectorIN10OpenSubdiv6v3_1_13Osd10PatchParamENS_9allocatorIS5_EEEERNS6_IS8_EEE17__destruct_at_endB8nn180100EPS8_
+- __ZNSt3__114__split_bufferINS_6vectorIfNS_9allocatorIfEEEERNS2_IS4_EEE17__destruct_at_endB8nn180100EPS4_
+- __ZNSt3__114__split_bufferINS_6vectorIiNS_9allocatorIiEEEERNS2_IS4_EEE17__destruct_at_endB8nn180100EPS4_
+- __ZNSt3__116__insertion_sortB8nn180100INS_17_ClassicAlgPolicyER12__VolumeCompPsEEvT1_S5_T0_
+- __ZNSt3__116__insertion_sortB8nn180100INS_17_ClassicAlgPolicyER13__SphereZCompPsEEvT1_S5_T0_
+- __ZNSt3__116__insertion_sortB8nn180100INS_17_ClassicAlgPolicyER18CompareCornerAngleP13ClippedCornerEEvT1_S6_T0_
+- __ZNSt3__116__insertion_sortB8nn180100INS_17_ClassicAlgPolicyERPFbRK9HitResultS4_EPS2_EEvT1_S9_T0_
+- __ZNSt3__116__pad_and_outputB8nn180100IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__117__floyd_sift_downB8nn180100INS_17_ClassicAlgPolicyER12__VolumeCompPsEET1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
+- __ZNSt3__117__floyd_sift_downB8nn180100INS_17_ClassicAlgPolicyER13__SphereZCompPsEET1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
+- __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8nn180100Ev
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorI10SCNVector3EEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorI10simd_quatfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorI11MaterialMapEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorI13ClippedCornerEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorI13simd_float4x4EEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorI14simd_double4x4EEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorI16C3DSubdivCPUDataIDv2_fEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorI16C3DSubdivCPUDataIDv3_fEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorI16C3DSubdivCPUDataIDv4_fEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorI18SCNSemanticBindingEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorI19C3DTransformIndexesEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorI19SCNPassInputBindingEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorI23C3DSubdivCPUPrimvarDataIDv2_fEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorI23C3DSubdivCPUPrimvarDataIDv3_fEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorI23C3DSubdivCPUPrimvarDataIDv4_fEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorI23C3DSubdivCPUPrimvarInfoEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorI23C3DSubdivGPUPrimvarInfoEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorI27C3DSubdivCPUFVarPrimvarInfoEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorI27C3DSubdivGPUFVarPrimvarDataEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorI27C3DSubdivisionOsdGPURefinerEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorI28C3DSubdivCPUPrimvarDataGroupEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorI30C3DSubdivisionOsdGPUPatchTableEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorI31C3DSubdivMeshSourceIndexingInfoEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorI34C3DSubdivCPUMeshCreationSourceInfoEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorI4PairEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorI5TokenEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorI7CFRangeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorI8TriangleEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorI8VariableEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorI9C3DColor4EEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIDv2_fEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIDv3_fEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIN10OpenSubdiv6v3_1_13Far10PatchParamEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIN10OpenSubdiv6v3_1_13Far10PatchTable10PatchArrayEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIN10OpenSubdiv6v3_1_13Far10PatchTable16FVarPatchChannelEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIN10OpenSubdiv6v3_1_13Far13TopologyLevelEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIN10OpenSubdiv6v3_1_13Far17PatchTableFactory14BuilderContext10PatchTupleEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIN10OpenSubdiv6v3_1_13Osd10PatchArrayEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIN10OpenSubdiv6v3_1_13Osd10PatchParamEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIN10OpenSubdiv6v3_1_13Osd15EvaluatorCacheTINS4_19MTLComputeEvaluatorEE5EntryEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSC_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIN10OpenSubdiv6v3_1_13Vtr8internal5Level4VTagEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIN10OpenSubdiv6v3_1_13Vtr8internal9FVarLevel13CreaseEndPairEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIN16SCNMTLBufferPool6BufferEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIN17SCNMTLTexturePool13CachedTextureEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIN5vmesh15SubdivisionInfoEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIN5vmesh8TriangleEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIN9AnimCodec17ArithmeticContextEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIN9AnimCodec7Vector3IfEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorINS_4pairIP7SCNNodeP8SkeletonEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorINS_4pairIP9__C3DMeshP16__C3DMeshElementEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorINS_6vectorI7CFRangeNS1_IS3_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorINS_6vectorIN10OpenSubdiv6v3_1_13Osd10PatchArrayENS1_IS6_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSC_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorINS_6vectorIN10OpenSubdiv6v3_1_13Osd10PatchParamENS1_IS6_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSC_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorINS_6vectorINS2_I7CFRangeNS1_IS3_EEEENS1_IS5_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorINS_6vectorIfNS1_IfEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorINS_6vectorIiNS1_IiEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIP10BlendShapeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIP10SCNCActionEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIP11MaterialMapEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIP13TextureLookupEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIP15c3dPhysicsFieldEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIP19CAKeyframeAnimationEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIP21WireframeMeshInstanceEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIP4SkinEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIP7SCNNodeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIP7UITouchEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIP8SkeletonEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIP9StatementEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIPKN10OpenSubdiv6v3_1_13Far12StencilTableEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIPN10OpenSubdiv6v3_1_13Vtr8internal10RefinementEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIPN10OpenSubdiv6v3_1_13Vtr8internal14FVarRefinementEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIPN10OpenSubdiv6v3_1_13Vtr8internal5LevelEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIPN10OpenSubdiv6v3_1_13Vtr8internal9FVarLevelEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIPU19objcproto9MTLBuffer11objc_objectEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIPiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIdEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorImEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorItEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__partial_sort_implB8nn180100INS_17_ClassicAlgPolicyER12__VolumeCompPsS4_EET1_S5_S5_T2_OT0_
+- __ZNSt3__119__partial_sort_implB8nn180100INS_17_ClassicAlgPolicyER13__SphereZCompPsS4_EET1_S5_S5_T2_OT0_
+- __ZNSt3__119__partial_sort_implB8nn180100INS_17_ClassicAlgPolicyER18CompareCornerAngleP13ClippedCornerS5_EET1_S6_S6_T2_OT0_
+- __ZNSt3__119__partial_sort_implB8nn180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPP9__C3DNodeS7_EET1_S8_S8_T2_OT0_
+- __ZNSt3__119__partial_sort_implB8nn180100INS_17_ClassicAlgPolicyERNS_7greaterIiEEPiS5_EET1_S6_S6_T2_OT0_
+- __ZNSt3__119__partial_sort_implB8nn180100INS_17_ClassicAlgPolicyERPFbRK9HitResultS4_EPS2_S8_EET1_S9_S9_T2_OT0_
+- __ZNSt3__120get_temporary_bufferB8nn180100IN3C3D16PassIODescriptorEEENS_4pairIPT_lEEl
+- __ZNSt3__121__unwrap_and_dispatchB8nn180100INS_10__overloadINS_11__copy_loopINS_17_ClassicAlgPolicyEEENS_14__copy_trivialEEENS_14__bit_iteratorINS_6vectorIbNS_9allocatorIbEEEELb0ELm0EEESC_SC_Li0EEENS_4pairIT0_T2_EESE_T1_SF_
+- __ZNSt3__121__unwrap_and_dispatchB8nn180100INS_10__overloadINS_11__copy_loopINS_17_ClassicAlgPolicyEEENS_14__copy_trivialEEEPNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESD_SD_Li0EEENS_4pairIT0_T2_EESF_T1_SG_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEENS_4pairIiiEEEEPvEEEEEclB8nn180100EPSD_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEPvEEEEEclB8nn180100EPS9_
+- __ZNSt3__124__put_character_sequenceB8nn180100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__126__insertion_sort_unguardedB8nn180100INS_17_ClassicAlgPolicyER12__VolumeCompPsEEvT1_S5_T0_
+- __ZNSt3__126__insertion_sort_unguardedB8nn180100INS_17_ClassicAlgPolicyER13__SphereZCompPsEEvT1_S5_T0_
+- __ZNSt3__126__insertion_sort_unguardedB8nn180100INS_17_ClassicAlgPolicyERPFbRK9HitResultS4_EPS2_EEvT1_S9_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8nn180100INS_17_ClassicAlgPolicyER12__VolumeCompPsEEbT1_S5_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8nn180100INS_17_ClassicAlgPolicyER13__SphereZCompPsEEbT1_S5_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8nn180100INS_17_ClassicAlgPolicyER18CompareCornerAngleP13ClippedCornerEEbT1_S6_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8nn180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPP9__C3DNodeEEbT1_S8_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8nn180100INS_17_ClassicAlgPolicyERNS_7greaterIiEEPiEEbT1_S6_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8nn180100INS_17_ClassicAlgPolicyERPFbRK9HitResultS4_EPS2_EEbT1_S9_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8nn180100INS_17_ClassicAlgPolicyERZN3C3D11RenderGraph26resolvePartialDependenciesEvE3$_0PNS3_4LinkEEEbT1_S8_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8nn180100INS_17_ClassicAlgPolicyERZN3C3D11RenderGraph8validateEvE3$_0PNS3_9PortsPairEEEbT1_S8_T0_
+- __ZNSt3__127__tree_balance_after_insertB8nn180100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__130__uninitialized_allocator_copyB8nn180100INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPS6_S8_S8_EET2_RT_T0_T1_S9_
+- __ZNSt3__131__partition_with_equals_on_leftB8nn180100INS_17_ClassicAlgPolicyEP13ClippedCornerR18CompareCornerAngleEET0_S6_S6_T1_
+- __ZNSt3__131__partition_with_equals_on_leftB8nn180100INS_17_ClassicAlgPolicyEP9HitResultRPFbRKS2_S5_EEET0_S9_S9_T1_
+- __ZNSt3__131__partition_with_equals_on_leftB8nn180100INS_17_ClassicAlgPolicyEPP9__C3DNodeRNS_6__lessIvvEEEET0_S8_S8_T1_
+- __ZNSt3__131__partition_with_equals_on_leftB8nn180100INS_17_ClassicAlgPolicyEPiRNS_7greaterIiEEEET0_S6_S6_T1_
+- __ZNSt3__131__partition_with_equals_on_leftB8nn180100INS_17_ClassicAlgPolicyEPsR12__VolumeCompEET0_S5_S5_T1_
+- __ZNSt3__131__partition_with_equals_on_leftB8nn180100INS_17_ClassicAlgPolicyEPsR13__SphereZCompEET0_S5_S5_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8nn180100INS_17_ClassicAlgPolicyEP13ClippedCornerR18CompareCornerAngleEENS_4pairIT0_bEES7_S7_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8nn180100INS_17_ClassicAlgPolicyEP9HitResultRPFbRKS2_S5_EEENS_4pairIT0_bEESA_SA_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8nn180100INS_17_ClassicAlgPolicyEPP9__C3DNodeRNS_6__lessIvvEEEENS_4pairIT0_bEES9_S9_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8nn180100INS_17_ClassicAlgPolicyEPiRNS_7greaterIiEEEENS_4pairIT0_bEES7_S7_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8nn180100INS_17_ClassicAlgPolicyEPsR12__VolumeCompEENS_4pairIT0_bEES6_S6_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8nn180100INS_17_ClassicAlgPolicyEPsR13__SphereZCompEENS_4pairIT0_bEES6_S6_T1_
+- __ZNSt3__13mapIiNS_6vectorIiNS_9allocatorIiEEEENS_4lessIiEENS2_INS_4pairIKiS4_EEEEEixERS8_
+- __ZNSt3__142__uninitialized_allocator_move_if_noexceptB8nn180100INS_9allocatorI27C3DSubdivGPUFVarPrimvarDataEENS_16reverse_iteratorIPS2_EES6_S6_EET2_RT_T0_T1_S7_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B8nn180100ERKS8_
+- __ZNSt3__15dequeIiNS_9allocatorIiEEED2B8nn180100Ev
+- __ZNSt3__16vectorI11MaterialMapNS_9allocatorIS1_EEE16__destroy_vectorclB8nn180100Ev
+- __ZNSt3__16vectorI11MaterialMapNS_9allocatorIS1_EEE7__clearB8nn180100Ev
+- __ZNSt3__16vectorI11MaterialMapNS_9allocatorIS1_EEE9push_backB8nn180100EOS1_
+- __ZNSt3__16vectorI16C3DSubdivCPUDataIDv2_fENS_9allocatorIS3_EEE11__vallocateB8nn180100Em
+- __ZNSt3__16vectorI16C3DSubdivCPUDataIDv3_fENS_9allocatorIS3_EEE11__vallocateB8nn180100Em
+- __ZNSt3__16vectorI16C3DSubdivCPUDataIDv4_fENS_9allocatorIS3_EEE11__vallocateB8nn180100Em
+- __ZNSt3__16vectorI18SCNSemanticBindingNS_9allocatorIS1_EEE9push_backB8nn180100ERKS1_
+- __ZNSt3__16vectorI23C3DSubdivCPUPrimvarDataIDv2_fENS_9allocatorIS3_EEE16__destroy_vectorclB8nn180100Ev
+- __ZNSt3__16vectorI23C3DSubdivCPUPrimvarDataIDv2_fENS_9allocatorIS3_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS3_RS5_EE
+- __ZNSt3__16vectorI23C3DSubdivCPUPrimvarDataIDv2_fENS_9allocatorIS3_EEE9push_backB8nn180100ERKS3_
+- __ZNSt3__16vectorI23C3DSubdivCPUPrimvarDataIDv3_fENS_9allocatorIS3_EEE16__destroy_vectorclB8nn180100Ev
+- __ZNSt3__16vectorI23C3DSubdivCPUPrimvarDataIDv3_fENS_9allocatorIS3_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS3_RS5_EE
+- __ZNSt3__16vectorI23C3DSubdivCPUPrimvarDataIDv3_fENS_9allocatorIS3_EEE9push_backB8nn180100ERKS3_
+- __ZNSt3__16vectorI23C3DSubdivCPUPrimvarDataIDv4_fENS_9allocatorIS3_EEE16__destroy_vectorclB8nn180100Ev
+- __ZNSt3__16vectorI23C3DSubdivCPUPrimvarDataIDv4_fENS_9allocatorIS3_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS3_RS5_EE
+- __ZNSt3__16vectorI23C3DSubdivCPUPrimvarDataIDv4_fENS_9allocatorIS3_EEE9push_backB8nn180100ERKS3_
+- __ZNSt3__16vectorI27C3DSubdivCPUFVarPrimvarInfoNS_9allocatorIS1_EEE16__destroy_vectorclB8nn180100Ev
+- __ZNSt3__16vectorI27C3DSubdivCPUFVarPrimvarInfoNS_9allocatorIS1_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS1_RS3_EE
+- __ZNSt3__16vectorI27C3DSubdivCPUFVarPrimvarInfoNS_9allocatorIS1_EEE7__clearB8nn180100Ev
+- __ZNSt3__16vectorI27C3DSubdivCPUFVarPrimvarInfoNS_9allocatorIS1_EEE9push_backB8nn180100EOS1_
+- __ZNSt3__16vectorI27C3DSubdivGPUFVarPrimvarDataNS_9allocatorIS1_EEE16__destroy_vectorclB8nn180100Ev
+- __ZNSt3__16vectorI27C3DSubdivGPUFVarPrimvarDataNS_9allocatorIS1_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS1_RS3_EE
+- __ZNSt3__16vectorI27C3DSubdivGPUFVarPrimvarDataNS_9allocatorIS1_EEE9push_backB8nn180100EOS1_
+- __ZNSt3__16vectorI27C3DSubdivisionOsdGPURefinerNS_9allocatorIS1_EEE11__vallocateB8nn180100Em
+- __ZNSt3__16vectorI27C3DSubdivisionOsdGPURefinerNS_9allocatorIS1_EEEC2Em
+- __ZNSt3__16vectorI28C3DSubdivCPUPrimvarDataGroupNS_9allocatorIS1_EEE16__destroy_vectorclB8nn180100Ev
+- __ZNSt3__16vectorI28C3DSubdivCPUPrimvarDataGroupNS_9allocatorIS1_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS1_RS3_EE
+- __ZNSt3__16vectorI30C3DSubdivisionOsdGPUPatchTableNS_9allocatorIS1_EEE11__vallocateB8nn180100Em
+- __ZNSt3__16vectorI30C3DSubdivisionOsdGPUPatchTableNS_9allocatorIS1_EEEC2Em
+- __ZNSt3__16vectorI5TokenNS_9allocatorIS1_EEE9push_backB8nn180100ERKS1_
+- __ZNSt3__16vectorI7CFRangeNS_9allocatorIS1_EEE11__vallocateB8nn180100Em
+- __ZNSt3__16vectorI8VariableNS_9allocatorIS1_EEE16__destroy_vectorclB8nn180100Ev
+- __ZNSt3__16vectorI8VariableNS_9allocatorIS1_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS1_RS3_EE
+- __ZNSt3__16vectorIDv2_fNS_9allocatorIS1_EEE11__vallocateB8nn180100Em
+- __ZNSt3__16vectorIDv3_fNS_9allocatorIS1_EEE11__vallocateB8nn180100Em
+- __ZNSt3__16vectorIN10OpenSubdiv6v3_1_13Far10PatchParamENS_9allocatorIS4_EEE11__vallocateB8nn180100Em
+- __ZNSt3__16vectorIN10OpenSubdiv6v3_1_13Far10PatchParamENS_9allocatorIS4_EEE16__init_with_sizeB8nn180100IPS4_S9_EEvT_T0_m
+- __ZNSt3__16vectorIN10OpenSubdiv6v3_1_13Far10PatchTable16FVarPatchChannelENS_9allocatorIS5_EEE16__destroy_vectorclB8nn180100Ev
+- __ZNSt3__16vectorIN10OpenSubdiv6v3_1_13Far10PatchTable16FVarPatchChannelENS_9allocatorIS5_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS5_RS7_EE
+- __ZNSt3__16vectorIN10OpenSubdiv6v3_1_13Osd10PatchArrayENS_9allocatorIS4_EEE11__vallocateB8nn180100Em
+- __ZNSt3__16vectorIN10OpenSubdiv6v3_1_13Osd10PatchArrayENS_9allocatorIS4_EEE18__assign_with_sizeB8nn180100IPKS4_SA_EEvT_T0_l
+- __ZNSt3__16vectorIN5vmesh8TriangleENS_9allocatorIS2_EEE11__vallocateB8nn180100Em
+- __ZNSt3__16vectorIN5vmesh8TriangleENS_9allocatorIS2_EEE18__assign_with_sizeB8nn180100IPS2_S7_EEvT_T0_l
+- __ZNSt3__16vectorINS0_I7CFRangeNS_9allocatorIS1_EEEENS2_IS4_EEE11__vallocateB8nn180100Em
+- __ZNSt3__16vectorINS0_I7CFRangeNS_9allocatorIS1_EEEENS2_IS4_EEE16__destroy_vectorclB8nn180100Ev
+- __ZNSt3__16vectorINS0_I7CFRangeNS_9allocatorIS1_EEEENS2_IS4_EEE16__init_with_sizeB8nn180100IPS4_S8_EEvT_T0_m
+- __ZNSt3__16vectorINS0_I7CFRangeNS_9allocatorIS1_EEEENS2_IS4_EEE18__construct_at_endIPS4_S8_EEvT_T0_m
+- __ZNSt3__16vectorINS0_I7CFRangeNS_9allocatorIS1_EEEENS2_IS4_EEE7__clearB8nn180100Ev
+- __ZNSt3__16vectorINS0_I7CFRangeNS_9allocatorIS1_EEEENS2_IS4_EEEC2Em
+- __ZNSt3__16vectorINS0_IN10OpenSubdiv6v3_1_13Osd10PatchArrayENS_9allocatorIS4_EEEENS5_IS7_EEE16__destroy_vectorclB8nn180100Ev
+- __ZNSt3__16vectorINS0_IN10OpenSubdiv6v3_1_13Osd10PatchArrayENS_9allocatorIS4_EEEENS5_IS7_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS7_RS8_EE
+- __ZNSt3__16vectorINS0_IN10OpenSubdiv6v3_1_13Osd10PatchArrayENS_9allocatorIS4_EEEENS5_IS7_EEE7__clearB8nn180100Ev
+- __ZNSt3__16vectorINS0_IN10OpenSubdiv6v3_1_13Osd10PatchParamENS_9allocatorIS4_EEEENS5_IS7_EEE16__destroy_vectorclB8nn180100Ev
+- __ZNSt3__16vectorINS0_IN10OpenSubdiv6v3_1_13Osd10PatchParamENS_9allocatorIS4_EEEENS5_IS7_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS7_RS8_EE
+- __ZNSt3__16vectorINS0_IN10OpenSubdiv6v3_1_13Osd10PatchParamENS_9allocatorIS4_EEEENS5_IS7_EEE7__clearB8nn180100Ev
+- __ZNSt3__16vectorINS0_INS0_I7CFRangeNS_9allocatorIS1_EEEENS2_IS4_EEEENS2_IS6_EEE11__vallocateB8nn180100Em
+- __ZNSt3__16vectorINS0_INS0_I7CFRangeNS_9allocatorIS1_EEEENS2_IS4_EEEENS2_IS6_EEE16__destroy_vectorclB8nn180100Ev
+- __ZNSt3__16vectorINS0_INS0_I7CFRangeNS_9allocatorIS1_EEEENS2_IS4_EEEENS2_IS6_EEEC2EmRKS6_
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE16__destroy_vectorclB8nn180100Ev
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS3_RS4_EE
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE7__clearB8nn180100Ev
+- __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE16__destroy_vectorclB8nn180100Ev
+- __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS3_RS4_EE
+- __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE7__clearB8nn180100Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE11__vallocateB8nn180100Em
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB8nn180100Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE18__assign_with_sizeB8nn180100IPS6_SA_EEvT_T0_l
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE7__clearB8nn180100Ev
+- __ZNSt3__16vectorIP19CAKeyframeAnimationNS_9allocatorIS2_EEE11__vallocateB8nn180100Em
+- __ZNSt3__16vectorIP19CAKeyframeAnimationNS_9allocatorIS2_EEE18__assign_with_sizeB8nn180100IPS2_S7_EEvT_T0_l
+- __ZNSt3__16vectorIP19CAKeyframeAnimationNS_9allocatorIS2_EEE9push_backB8nn180100ERKS2_
+- __ZNSt3__16vectorIP9StatementNS_9allocatorIS2_EEE11__vallocateB8nn180100Em
+- __ZNSt3__16vectorIbNS_9allocatorIbEEE11__vallocateB8nn180100Em
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE11__vallocateB8nn180100Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB8nn180100Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE16__init_with_sizeB8nn180100IPfS5_EEvT_T0_m
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE11__vallocateB8nn180100Em
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE16__init_with_sizeB8nn180100IPiS5_EEvT_T0_m
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE18__assign_with_sizeB8nn180100IPKiS6_EEvT_T0_l
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE18__insert_with_sizeB8nn180100IPKiS6_EENS_11__wrap_iterIPiEENS7_IS6_EET_T0_l
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE26__swap_out_circular_bufferERNS_14__split_bufferIiRS2_EEPi
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE11__vallocateB8nn180100Em
+- __ZNSt3__16vectorItNS_9allocatorItEEE11__vallocateB8nn180100Em
+- __ZNSt3__17__sort3B8nn180100INS_17_ClassicAlgPolicyER12__VolumeCompPsEEjT1_S5_S5_T0_
+- __ZNSt3__17__sort3B8nn180100INS_17_ClassicAlgPolicyER13__SphereZCompPsEEjT1_S5_S5_T0_
+- __ZNSt3__17__sort3B8nn180100INS_17_ClassicAlgPolicyER18CompareCornerAngleP13ClippedCornerEEjT1_S6_S6_T0_
+- __ZNSt3__17__sort3B8nn180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPP9__C3DNodeEEjT1_S8_S8_T0_
+- __ZNSt3__17__sort3B8nn180100INS_17_ClassicAlgPolicyERNS_7greaterIiEEPiEEjT1_S6_S6_T0_
+- __ZNSt3__17__sort3B8nn180100INS_17_ClassicAlgPolicyERPFbRK9HitResultS4_EPS2_EEjT1_S9_S9_T0_
+- __ZNSt3__17__sort3B8nn180100INS_17_ClassicAlgPolicyERZN3C3D11RenderGraph26resolvePartialDependenciesEvE3$_0PNS3_4LinkEEEjT1_S8_S8_T0_
+- __ZNSt3__17__sort3B8nn180100INS_17_ClassicAlgPolicyERZN3C3D11RenderGraph8validateEvE3$_0PNS3_9PortsPairEEEjT1_S8_S8_T0_
+- __ZNSt3__17__sort4B8nn180100INS_17_ClassicAlgPolicyER12__VolumeCompPsEEvT1_S5_S5_S5_T0_
+- __ZNSt3__17__sort4B8nn180100INS_17_ClassicAlgPolicyER13__SphereZCompPsEEvT1_S5_S5_S5_T0_
+- __ZNSt3__17__sort4B8nn180100INS_17_ClassicAlgPolicyER18CompareCornerAngleP13ClippedCornerEEvT1_S6_S6_S6_T0_
+- __ZNSt3__17__sort4B8nn180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPP9__C3DNodeEEvT1_S8_S8_S8_T0_
+- __ZNSt3__17__sort4B8nn180100INS_17_ClassicAlgPolicyERPFbRK9HitResultS4_EPS2_EEvT1_S9_S9_S9_T0_
+- __ZNSt3__17__sort4B8nn180100INS_17_ClassicAlgPolicyERZN3C3D11RenderGraph26resolvePartialDependenciesEvE3$_0PNS3_4LinkEEEvT1_S8_S8_S8_T0_
+- __ZNSt3__17__sort4B8nn180100INS_17_ClassicAlgPolicyERZN3C3D11RenderGraph8validateEvE3$_0PNS3_9PortsPairEEEvT1_S8_S8_S8_T0_
+- __ZNSt3__17__sort5B8nn180100INS_17_ClassicAlgPolicyER12__VolumeCompPsEEvT1_S5_S5_S5_S5_T0_
+- __ZNSt3__17__sort5B8nn180100INS_17_ClassicAlgPolicyER13__SphereZCompPsEEvT1_S5_S5_S5_S5_T0_
+- __ZNSt3__17__sort5B8nn180100INS_17_ClassicAlgPolicyER18CompareCornerAngleP13ClippedCornerEEvT1_S6_S6_S6_S6_T0_
+- __ZNSt3__17__sort5B8nn180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPP9__C3DNodeEEvT1_S8_S8_S8_S8_T0_
+- __ZNSt3__17__sort5B8nn180100INS_17_ClassicAlgPolicyERPFbRK9HitResultS4_EPS2_EEvT1_S9_S9_S9_S9_T0_
+- __ZNSt3__18__fill_nB8nn180100ILb0ENS_6vectorIbNS_9allocatorIbEEEEEEvNS_14__bit_iteratorIT0_Lb0EXLi0EEEENS6_9size_typeE
+- __ZNSt3__18__fill_nB8nn180100ILb1ENS_6vectorIbNS_9allocatorIbEEEEEEvNS_14__bit_iteratorIT0_Lb0EXLi0EEEENS6_9size_typeE
+- __ZNSt3__18__rotateB8nn180100INS_17_ClassicAlgPolicyEPN3C3D16PassIODescriptorES4_EENS_4pairIT0_S6_EES6_S6_T1_
+- __ZNSt3__19__sift_upB8nn180100INS_17_ClassicAlgPolicyER12__VolumeCompPsEEvT1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
+- __ZNSt3__19__sift_upB8nn180100INS_17_ClassicAlgPolicyER13__SphereZCompPsEEvT1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
+- __ZNSt3__19__sift_upB8nn180100INS_17_ClassicAlgPolicyER18CompareCornerAngleP13ClippedCornerEEvT1_S6_OT0_NS_15iterator_traitsIS6_E15difference_typeE
+- __ZNSt3__19__sift_upB8nn180100INS_17_ClassicAlgPolicyERPFbRK9HitResultS4_EPS2_EEvT1_S9_OT0_NS_15iterator_traitsIS9_E15difference_typeE
+- __ZNSt3__19allocatorI23C3DSubdivCPUPrimvarDataIDv2_fEE7destroyB8nn180100EPS3_
+- __ZNSt3__19allocatorI23C3DSubdivCPUPrimvarDataIDv3_fEE7destroyB8nn180100EPS3_
+- __ZNSt3__19allocatorI23C3DSubdivCPUPrimvarDataIDv4_fEE7destroyB8nn180100EPS3_
+- __ZNSt3__19allocatorI27C3DSubdivGPUFVarPrimvarDataE7destroyB8nn180100EPS1_
+- __ZNSt3__19allocatorI28C3DSubdivCPUPrimvarDataGroupE7destroyB8nn180100EPS1_
+- __ZNSt3__19allocatorI28C3DSubdivCPUPrimvarDataGroupE9constructB8nn180100IS1_JS1_EEEvPT_DpOT0_
+- __ZNSt3__19allocatorI8VariableE7destroyB8nn180100EPS1_
+- __ZNSt3__19allocatorIN10OpenSubdiv6v3_1_13Far10PatchTable16FVarPatchChannelEE7destroyB8nn180100EPS5_
+- __ZNSt3__19allocatorIN10OpenSubdiv6v3_1_13Far10PatchTable16FVarPatchChannelEE9constructB8nn180100IS5_JS5_EEEvPT_DpOT0_
+- __ZNSt3__1eqB8nn180100IcNS_11char_traitsIcEENS_9allocatorIcEEEEbRKNS_12basic_stringIT_T0_T1_EEPKS6_
+- __ZSt28__throw_bad_array_new_lengthB8nn180100v
+- __ZSt9terminatev
+- __ZZL23getPerfDataMappingByPIDvE20perfDataMappingByPID
+- __ZZN10OpenSubdiv6v3_1_13SdcL17staticTraitsTableEvE17staticTraitsTable
+- __ZZN11btShapeHull19getUnitSpherePointsEvE17sUnitSpherePoints
+- __ZZN17btActionInterface12getFixedBodyEvE7s_fixed
+- __ZZN17btTypedConstraint12getFixedBodyEvE7s_fixed
+- __ZZN30btKinematicCharacterController19getUpAxisDirectionsEvE16sUpAxisDirection
+- __ZZN32btConvexInternalAabbCachingShape15recalcLocalAabbEvE11_directions
+- __ZZN33btMinkowskiPenetrationDepthSolver24getPenetrationDirectionsEvE22sPenetrationDirections
+- __ZZN34btPolyhedralConvexAabbCachingShape15recalcLocalAabbEvE11_directions
+- ___C3DGeometryOsdGetPrimvarDataTypeHash_block_invoke
+- ___ZL49C3DSubdivisionOsdGPURuntimeDataCreateWithGeometryP13__C3DGeometryP18__C3DEngineContextRK36C3DSubdivisionOsdGPUSubdivParametersP21SCNMTLResourceManagerPU26objcproto15MTLCommandQueue11objc_objectU13block_pointerFvPU27objcproto16MTLCommandBuffer11objc_objectbE_block_invoke.527
+- ___ZL49C3DSubdivisionOsdGPURuntimeDataCreateWithGeometryP13__C3DGeometryP18__C3DEngineContextRK36C3DSubdivisionOsdGPUSubdivParametersP21SCNMTLResourceManagerPU26objcproto15MTLCommandQueue11objc_objectU13block_pointerFvPU27objcproto16MTLCommandBuffer11objc_objectbE_block_invoke.527.cold.1
+- ___ZL49C3DSubdivisionOsdGPURuntimeDataCreateWithGeometryP13__C3DGeometryP18__C3DEngineContextRK36C3DSubdivisionOsdGPUSubdivParametersP21SCNMTLResourceManagerPU26objcproto15MTLCommandQueue11objc_objectU13block_pointerFvPU27objcproto16MTLCommandBuffer11objc_objectbE_block_invoke.527.cold.2
+- ___ZL49C3DSubdivisionOsdGPURuntimeDataCreateWithGeometryP13__C3DGeometryP18__C3DEngineContextRK36C3DSubdivisionOsdGPUSubdivParametersP21SCNMTLResourceManagerPU26objcproto15MTLCommandQueue11objc_objectU13block_pointerFvPU27objcproto16MTLCommandBuffer11objc_objectbE_block_invoke.527.cold.3
+- ___block_descriptor_153_e8_32r40r48r56r_e19_v32?0I8^I12I20^B24lr32l8r40l8r48l8r56l8
+- ___block_descriptor_250_e16_80r88r96r104r_e31_v48?0I8^I12I20I24I28I32I36^B40lr80l8r88l8r96l8r104l8
+- ___block_descriptor_504_e16_480r_e19_v32?0I8^I12I20^B24lr480l8
+- ___block_descriptor_64_e8_32r40r_e19_v32?0I8^I12I20^B24lr32l8r40l8
+- ___block_descriptor_76_e19_v32?0I8^I12I20^B24l
+- ___clang_call_terminate
+- ___cxa_begin_catch
+- __block_literal_global.503
+- __block_literal_global.514
+- __block_literal_global.516
+- __block_literal_global.518
+- __block_literal_global.520
+- __block_literal_global.522
+- __block_literal_global.524
+- __updateFov
+- _objc_release_x9
+- _scn_frustum_extract_from_twos_viewProjs
+- _scn_ray_create_segment
+CStrings:
++ "///)@"
++ "Assertion '%s' failed. Only compute offsets for polygon"
++ "C3DIndicesContentGetVertexIndicesForLinePrimitiveAtIndex"
++ "C3DIndicesContentGetVertexIndicesForTrianglePrimitiveAtIndex"
++ "Error: Deindexing failed - mesh %p has no position source"
++ "Error: __GeometryComputeBoundingBoxForMeshElementAtIndex - element has insufficient data (length %zu for count %d and stride %zu) ; count capped to %d (was %d)"
++ "Error: __GeometryComputeBoundingBoxForMeshElementAtIndex - index (%u) out of bounds (%u)"
++ "Error: can't update animation keypath using names because it is ambiguous (name=%@)"
++ "Error: failed to assign animation with keypath %@"
++ "Error: failed to resolve animation path (%@)"
++ "Welcome to SceneKit 603.403 (Mar  7 2025 23:06:31)"
++ "__bindToUV"
++ "_commitResourceCommandBufferIfNeeded"
++ "channelCount == rhs.lookupInfo->channelCount"
++ "cumulativeCache"
++ "done"
++ "indexBufferWriteOffset == headerLength"
++ "meshElement->_topology.type == kC3DMeshElementTypePolygonsArray"
++ "primvarDataTypeHash"
++ "\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xb2"
+- "///'@"
+- "Assertion '%s' failed. Internal consistency error: number of indices should be a multiple of number of channels"
+- "Assertion '%s' failed. Unsuported shading language"
+- "Assertion '%s' failed. _C3DPreviousKeyIndexForTime - unexpected integer division"
+- "C3DIndicesContentGetLineIndex"
+- "C3DIndicesContentGetTriangleIndex"
+- "Unreachable code: Argument type not supported %d"
+- "Unreachable code: Unsupported probe type"
+- "Welcome to SceneKit 603.301 (Dec 14 2024 01:04:45)"
+- "_resourceGroup"
+- "channelCount == C3DMeshElementGetIndicesChannelCount(rhs.element)"
+- "indexBufferWriteOffset == effectivePrimitiveCount * bytesPerIndex"
+- "indexCount % channelCount == 0"
+- "middle >= 0"
+- "node->_cumulativeCache"
+- "\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xd2"
+
+```

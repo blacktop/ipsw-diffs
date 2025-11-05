@@ -1,0 +1,2087 @@
+## ShazamKit
+
+> `/System/Library/Frameworks/ShazamKit.framework/Versions/A/ShazamKit`
+
+```diff
+
+-307.2.0.0.0
+-  __TEXT.__text: 0x75c40
+-  __TEXT.__auth_stubs: 0x15a0
+-  __TEXT.__objc_methlist: 0x39d4
+-  __TEXT.__const: 0x206c7
+-  __TEXT.__gcc_except_tab: 0x2540
+-  __TEXT.__cstring: 0x318f
+-  __TEXT.__oslogstring: 0xbe6
+-  __TEXT.__constg_swiftt: 0x468
+-  __TEXT.__swift5_typeref: 0x9d6
+-  __TEXT.__swift5_reflstr: 0x30c
+-  __TEXT.__swift5_fieldmd: 0x390
+-  __TEXT.__swift5_builtin: 0x8c
+-  __TEXT.__swift5_assocty: 0x1f8
++318.0.0.0.0
++  __TEXT.__text: 0x82a94
++  __TEXT.__auth_stubs: 0x1690
++  __TEXT.__objc_methlist: 0x45c8
++  __TEXT.__const: 0x20cc7
++  __TEXT.__gcc_except_tab: 0x34b0
++  __TEXT.__cstring: 0x364b
++  __TEXT.__oslogstring: 0xf86
++  __TEXT.__constg_swiftt: 0x4c0
++  __TEXT.__swift5_typeref: 0xa0e
++  __TEXT.__swift5_reflstr: 0x34c
++  __TEXT.__swift5_fieldmd: 0x408
++  __TEXT.__swift5_builtin: 0xa0
++  __TEXT.__swift5_assocty: 0x230
+   __TEXT.__swift5_capture: 0x214
+-  __TEXT.__swift5_proto: 0xac
+-  __TEXT.__swift5_types: 0x5c
++  __TEXT.__swift5_proto: 0xb8
++  __TEXT.__swift5_types: 0x68
++  __TEXT.__swift_as_entry: 0x64
++  __TEXT.__swift_as_ret: 0x68
+   __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__unwind_info: 0x2638
+-  __TEXT.__eh_frame: 0xef0
+-  __TEXT.__objc_classname: 0x995
+-  __TEXT.__objc_methname: 0x813d
+-  __TEXT.__objc_methtype: 0x1688
+-  __TEXT.__objc_stubs: 0x6520
+-  __DATA_CONST.__got: 0x5b8
+-  __DATA_CONST.__const: 0x350
+-  __DATA_CONST.__objc_classlist: 0x2d0
+-  __DATA_CONST.__objc_catlist: 0x10
+-  __DATA_CONST.__objc_protolist: 0x120
++  __TEXT.__unwind_info: 0x2c48
++  __TEXT.__eh_frame: 0xfd0
++  __TEXT.__objc_classname: 0xa92
++  __TEXT.__objc_methname: 0x90b9
++  __TEXT.__objc_methtype: 0x1d7c
++  __TEXT.__objc_stubs: 0x6d80
++  __DATA_CONST.__got: 0x620
++  __DATA_CONST.__const: 0x460
++  __DATA_CONST.__objc_classlist: 0x308
++  __DATA_CONST.__objc_catlist: 0x18
++  __DATA_CONST.__objc_protolist: 0x130
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1db8
++  __DATA_CONST.__objc_selrefs: 0x20a0
+   __DATA_CONST.__objc_protorefs: 0x60
+-  __DATA_CONST.__objc_superrefs: 0x1d8
+-  __AUTH_CONST.__auth_got: 0xae8
+-  __AUTH_CONST.__const: 0x1810
+-  __AUTH_CONST.__cfstring: 0x1f20
+-  __AUTH_CONST.__objc_const: 0x8988
++  __DATA_CONST.__objc_superrefs: 0x200
++  __AUTH_CONST.__auth_got: 0xb60
++  __AUTH_CONST.__const: 0x1bd0
++  __AUTH_CONST.__cfstring: 0x2080
++  __AUTH_CONST.__objc_const: 0x8a50
+   __AUTH_CONST.__objc_doubleobj: 0x10
+   __AUTH_CONST.__objc_intobj: 0x18
+-  __AUTH.__objc_data: 0x1ce8
+-  __AUTH.__data: 0x710
+-  __DATA.__objc_ivar: 0x3d0
+-  __DATA.__data: 0x1340
++  __AUTH.__objc_data: 0x1f18
++  __AUTH.__data: 0x708
++  __DATA.__objc_ivar: 0x42c
++  __DATA.__data: 0x1430
+   __DATA.__common: 0x158
+-  __DATA.__bss: 0x17d8
++  __DATA.__bss: 0x1958
+   - /System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+   - /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+
+   - /System/Library/Frameworks/CoreData.framework/Versions/A/CoreData
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreLocation.framework/Versions/A/CoreLocation
++  - /System/Library/Frameworks/CoreML.framework/Versions/A/CoreML
+   - /System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia
+   - /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 3DEF7E8C-5AD9-3B00-94CC-4520F8073781
+-  Functions: 2738
+-  Symbols:   5058
+-  CStrings:  2499
++  UUID: A926E4BC-2676-3BB3-AB76-7D20BED556F7
++  Functions: 3035
++  Symbols:   5694
++  CStrings:  2705
+ 
+Symbols:
++ +[NSBundle(ShazamKitBundle) sh_ShazamKitBundle]
++ +[SHCoalescedSignature coalesePeakFeatures:musicalFeatures:error:]
++ +[SHCoalescedSignature separate:intoPeakFeatures:andMusicalFeatures:error:]
++ +[SHLocationTransformer coordinateFromLocation:]
++ +[SHLocationTransformer coordinateValueFromLatitude:longitude:]
++ +[SHLocationTransformer coordinateValueFromLocation:]
++ +[SHLocationTransformer isValidCoordinateValue:]
++ +[SHLocationTransformer locationFromCoordinate:]
++ +[SHLocationTransformer locationFromCoordinateValue:]
++ +[SHLocationTransformer valueForCoordinate:]
++ +[SHMediaItem transformedPropertiesFromProperties:]
++ +[SHMediaItem(Presentation) sh_uiServerConnection].cold.1
++ +[SHMediaItemDaemonConnection serverConnection].cold.1
++ +[SHMediaItemPropertyUtilities buildPropertySets].cold.1
++ +[SHMediaItemSerialization dateFormatter].cold.1
++ +[SHMediaLibrary defaultLibrary].cold.1
++ +[SHMusicalFeaturesConfiguration supportsSecureCoding]
++ +[SHSigUtilities convertException:toError:code:]
++ +[SHSigUtilities signatureDurationForData:error:]
++ +[SHSigUtilities signatureFileTypeForData:error:]
++ +[SHSigX version]
++ +[SHSignature signatureTypeFromData:]
++ +[SHSignature splitSignatureFromData:intoSpectralPeaks:andMusicalFeatures:error:]
++ +[UTType(SHShazamAdditions) SHCustomCatalogContentType].cold.1
++ +[UTType(SHShazamAdditions) SHSignatureContentType].cold.1
++ +[_SHMediaLibrary _defaultLibrary].cold.1
++ +[_SHMediaLibrary(Presentation) sh_uiServerConnection].cold.1
++ -[MRE search:error:].cold.1
++ -[MRE search:error:].cold.2
++ -[MREResult .cxx_destruct]
++ -[MRESignature .cxx_destruct]
++ -[NSError(SHError) sh_isMediaItemFetchFailedError]
++ -[SHCatalogConfiguration musicalFeaturesConfiguration]
++ -[SHCatalogConfiguration setMusicalFeaturesConfiguration:]
++ -[SHCustomCatalog count]
++ -[SHCustomCatalog objectAtIndexedSubscript:]
++ -[SHCustomCatalog removeReferenceSignatureWithID:]
++ -[SHCustomCatalogMemoryContainer containsSignatureWithIdentifier:]
++ -[SHCustomCatalogMemoryContainer count]
++ -[SHCustomCatalogMemoryContainer matchReferenceAtIndex:]
++ -[SHCustomCatalogMemoryContainer matchReferenceForTrackID:]
++ -[SHCustomCatalogMemoryContainer removeSignatureWithID:]
++ -[SHCustomCatalogMemoryStorage removeSignatureWithID:]
++ -[SHCustomCatalogMemoryStorage setSignatureIDs:]
++ -[SHCustomCatalogMemoryStorage signatureExistsForIdentifier:]
++ -[SHCustomCatalogMemoryStorage signatureIDs]
++ -[SHFeatureConfiguration .cxx_destruct]
++ -[SHFeatureConfiguration cremaModelURL]
++ -[SHFeatureConfiguration crepeModelURL]
++ -[SHFeatureConfiguration isCircularBuffering]
++ -[SHFeatureConfiguration sampleRate]
++ -[SHFeatureConfiguration setCremaModelURL:]
++ -[SHFeatureConfiguration setCrepeModelURL:]
++ -[SHFeatureConfiguration setIsCircularBuffering:]
++ -[SHFeatureConfiguration setSampleRate:]
++ -[SHFeatureExtractor .cxx_construct]
++ -[SHFeatureExtractor .cxx_destruct]
++ -[SHFeatureExtractor audioDurationInMilliseconds]
++ -[SHFeatureExtractor convertException:toError:code:]
++ -[SHFeatureExtractor featuresWithError:]
++ -[SHFeatureExtractor flowFloatSamples:sampleCount:error:]
++ -[SHFeatureExtractor flowIntSamples:sampleCount:error:]
++ -[SHFeatureExtractor initWithFeatureConfiguration:error:]
++ -[SHFeatureExtractor initWithFeatureConfiguration:error:].cold.1
++ -[SHFeatureExtractor initWithFeatureConfiguration:error:].cold.2
++ -[SHFeatureExtractor reset]
++ -[SHFeatureExtractor setStreatx:]
++ -[SHFeatureExtractor streatx]
++ -[SHFeatureExtractor(SHFeatureExtractor) flowBuffer:error:]
++ -[SHFeatureExtractorController .cxx_destruct]
++ -[SHFeatureExtractorController coalescePeaksFeatures:musicalFeatures:error:]
++ -[SHFeatureExtractorController configureMusicalFeaturesExtractorWithConfiguration:sampleRate:error:]
++ -[SHFeatureExtractorController configureSpectralPeaksExtractorWithClipStype:maximumSeconds:sampleRate:error:]
++ -[SHFeatureExtractorController disableSpectralOutput]
++ -[SHFeatureExtractorController enableSpectralOutputWithConfiguration:completionHandler:]
++ -[SHFeatureExtractorController flowBuffer:error:]
++ -[SHFeatureExtractorController flowBuffer:throughExtractor:error:]
++ -[SHFeatureExtractorController musicalFeaturesExtractor]
++ -[SHFeatureExtractorController reset]
++ -[SHFeatureExtractorController setMusicalFeaturesExtractor:]
++ -[SHFeatureExtractorController setRollingBufferSeconds:error:]
++ -[SHFeatureExtractorController setSpectralPeaksExtractor:]
++ -[SHFeatureExtractorController signatureDataForExtractor:error:]
++ -[SHFeatureExtractorController signatureWithError:]
++ -[SHFeatureExtractorController spectralPeaksExtractor]
++ -[SHJSONLCustomCatalogContainer containsSignatureWithIdentifier:]
++ -[SHJSONLCustomCatalogContainer count]
++ -[SHJSONLCustomCatalogContainer matchReferenceAtIndex:]
++ -[SHJSONLCustomCatalogContainer matchReferenceForTrackID:]
++ -[SHJSONLCustomCatalogContainer removeSignatureWithID:]
++ -[SHMatchedMediaItem confidence]
++ -[SHMediaItem _rawResponseSongsData]
++ -[SHMediaItem set_rawResponseSongsData:]
++ -[SHMediaLibraryGroup initWithGroupMetadata:groupSyncID:]
++ -[SHMediaLibraryTrack initWithTrackSyncID:creationDate:releaseDate:groupSyncID:labels:lastUpdatedDate:providerIdentifier:trackMetadata:providerName:shazamKey:recognitionID:title:subtitle:artworkURL:appleMusicID:appleMusicURL:shazamURL:videoURL:isExplicit:albumName:isrc:shazamCount:locationCoordinate:genres:rawSongResponse:]
++ -[SHMediaLibraryTrack locationCoordinate]
++ -[SHMediaLibraryTrack setLocationCoordinate:]
++ -[SHMusicalFeaturesConfiguration .cxx_destruct]
++ -[SHMusicalFeaturesConfiguration copyWithZone:]
++ -[SHMusicalFeaturesConfiguration cremaModelURL]
++ -[SHMusicalFeaturesConfiguration crepeModelURL]
++ -[SHMusicalFeaturesConfiguration debugDescription]
++ -[SHMusicalFeaturesConfiguration encodeWithCoder:]
++ -[SHMusicalFeaturesConfiguration initWithCoder:]
++ -[SHMusicalFeaturesConfiguration initWithCremaModelURL:crepeModelURL:minimumDuration:]
++ -[SHMusicalFeaturesConfiguration initWithCremaModelURL:crepeModelURL:minimumDuration:error:]
++ -[SHMusicalFeaturesConfiguration initWithCremaModelURL:minimumDuration:error:]
++ -[SHMusicalFeaturesConfiguration initWithCrepeModelURL:minimumDuration:error:]
++ -[SHMusicalFeaturesConfiguration minimumDuration]
++ -[SHMusicalFeaturesExtractor .cxx_destruct]
++ -[SHMusicalFeaturesExtractor dealloc]
++ -[SHMusicalFeaturesExtractor duration]
++ -[SHMusicalFeaturesExtractor featureConfiguration]
++ -[SHMusicalFeaturesExtractor featureExtractor]
++ -[SHMusicalFeaturesExtractor flowBuffer:error:]
++ -[SHMusicalFeaturesExtractor initWithConfiguration:sampleRate:error:]
++ -[SHMusicalFeaturesExtractor reset]
++ -[SHMusicalFeaturesExtractor signatureWithError:]
++ -[SHMutableSignature configureMusicalFeaturesExtractorWithConfiguration:sampleRate:error:]
++ -[SHMutableSignature configureSpectralPeaksExtractorWithSampleRate:error:]
++ -[SHMutableSignature extractorController]
++ -[SHMutableSignature initWithMaximumSeconds:clipStyle:musicalFeaturesConfiguration:]
++ -[SHMutableSignature musicalFeaturesConfiguration]
++ -[SHMutableSignature reset]
++ -[SHReferenceMatch .cxx_destruct]
++ -[SHReferenceMatch initWithSignature:mediaItems:]
++ -[SHReferenceMatch mediaItems]
++ -[SHReferenceMatch signature]
++ -[SHSigX .cxx_destruct]
++ -[SHSigX ConvertSigXErrorCode:code:]
++ -[SHSigX dealloc]
++ -[SHSigX disableSpectralOutput]
++ -[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]
++ -[SHSigX flowFloatSamples:sampleCount:channels:error:]
++ -[SHSigX flowFloatSamples:sampleCount:error:]
++ -[SHSigX flowIntSamples:sampleCount:channels:error:]
++ -[SHSigX flowIntSamples:sampleCount:error:]
++ -[SHSigX initWithSignatureType:sampleRate:error:]
++ -[SHSigX initWithSignatureType:sampleRate:signatureOptions:error:]
++ -[SHSigX initWithSignatureType:sampleRate:signatureOptions:error:].cold.1
++ -[SHSigX pipeline]
++ -[SHSigX resetWithError:]
++ -[SHSigX setPipeline:]
++ -[SHSigX setRollingBufferSeconds:error:]
++ -[SHSigX setSpectralOutputHandler:]
++ -[SHSigX signatureWithError:]
++ -[SHSigX spectralOutputHandler]
++ -[SHSigX(SHFlow) flowBuffer:error:]
++ -[SHSignature commonSetupWithID:spectralPeaksData:musicalFeaturesData:startTime:]
++ -[SHSignature durationForSignatureData:]
++ -[SHSignature initWithID:spectralPeaksData:musicalFeaturesData:startTime:error:]
++ -[SHSignature musicalFeaturesData]
++ -[SHSignature musicalFeaturesDuration]
++ -[SHSignature spectralPeaksData]
++ -[SHSignature spectralPeaksDuration]
++ -[SHSignatureBuffer clipStyle]
++ -[SHSignatureBuffer initWithMinimumSignatureDuration:maximumSignatureDuration:bufferDuration:musicalFeaturesConfiguration:]
++ -[SHSignatureBuffer minimumMusicalFeaturesDuration]
++ -[SHSignatureBuffer setClipStyle:]
++ -[SHSignatureBuffer setMinimumMusicalFeaturesDuration:]
++ -[SHSignatureGenerator clipStyle]
++ -[SHSignatureGenerator musicalFeaturesConfiguration]
++ -[SHSignatureGenerator reset]
++ -[SHSpectralPeakFeaturesExtractor .cxx_destruct]
++ -[SHSpectralPeakFeaturesExtractor clipStyle]
++ -[SHSpectralPeakFeaturesExtractor dealloc]
++ -[SHSpectralPeakFeaturesExtractor disableSpectralOutput]
++ -[SHSpectralPeakFeaturesExtractor enableSpectralOutputWithConfiguration:completionHandler:]
++ -[SHSpectralPeakFeaturesExtractor flowBuffer:error:]
++ -[SHSpectralPeakFeaturesExtractor initWithClipStype:maximumSeconds:sampleRate:error:]
++ -[SHSpectralPeakFeaturesExtractor reset]
++ -[SHSpectralPeakFeaturesExtractor sampleRate]
++ -[SHSpectralPeakFeaturesExtractor setRollingBufferSeconds:error:]
++ -[SHSpectralPeakFeaturesExtractor sigX]
++ -[SHSpectralPeakFeaturesExtractor signatureType]
++ -[SHSpectralPeakFeaturesExtractor signatureWithError:]
++ -[SHStreamingSessionDriver initWithMinimumSignatureDuration:maximumSignatureDuration:bufferDuration:musicalFeaturesConfiguration:]
++ GCC_except_table102
++ GCC_except_table105
++ GCC_except_table108
++ GCC_except_table110
++ GCC_except_table124
++ GCC_except_table128
++ GCC_except_table136
++ GCC_except_table141
++ GCC_except_table147
++ GCC_except_table148
++ GCC_except_table151
++ GCC_except_table154
++ GCC_except_table157
++ GCC_except_table161
++ GCC_except_table164
++ GCC_except_table171
++ GCC_except_table177
++ GCC_except_table178
++ GCC_except_table179
++ GCC_except_table188
++ GCC_except_table195
++ GCC_except_table27
++ GCC_except_table30
++ GCC_except_table33
++ GCC_except_table37
++ GCC_except_table39
++ GCC_except_table44
++ GCC_except_table46
++ GCC_except_table47
++ GCC_except_table48
++ GCC_except_table51
++ GCC_except_table54
++ GCC_except_table55
++ GCC_except_table71
++ GCC_except_table89
++ GCC_except_table92
++ GCC_except_table97
++ GCC_except_table98
++ GCC_except_table99
++ OBJC_IVAR_$_SHCatalogConfiguration._musicalFeaturesConfiguration
++ OBJC_IVAR_$_SHCustomCatalogMemoryStorage._signatureIDs
++ OBJC_IVAR_$_SHFeatureConfiguration._cremaModelURL
++ OBJC_IVAR_$_SHFeatureConfiguration._crepeModelURL
++ OBJC_IVAR_$_SHFeatureConfiguration._isCircularBuffering
++ OBJC_IVAR_$_SHFeatureConfiguration._sampleRate
++ OBJC_IVAR_$_SHFeatureExtractor.real_streatx
++ OBJC_IVAR_$_SHFeatureExtractorController._musicalFeaturesExtractor
++ OBJC_IVAR_$_SHFeatureExtractorController._spectralPeaksExtractor
++ OBJC_IVAR_$_SHMediaItem.__rawResponseSongsData
++ OBJC_IVAR_$_SHMediaLibraryTrack._locationCoordinate
++ OBJC_IVAR_$_SHMusicalFeaturesConfiguration._cremaModelURL
++ OBJC_IVAR_$_SHMusicalFeaturesConfiguration._crepeModelURL
++ OBJC_IVAR_$_SHMusicalFeaturesConfiguration._minimumDuration
++ OBJC_IVAR_$_SHMusicalFeaturesExtractor._featureConfiguration
++ OBJC_IVAR_$_SHMusicalFeaturesExtractor._featureExtractor
++ OBJC_IVAR_$_SHMutableSignature._extractorController
++ OBJC_IVAR_$_SHMutableSignature._musicalFeaturesConfiguration
++ OBJC_IVAR_$_SHReferenceMatch._mediaItems
++ OBJC_IVAR_$_SHReferenceMatch._signature
++ OBJC_IVAR_$_SHSigX._pipeline
++ OBJC_IVAR_$_SHSigX._spectralOutputHandler
++ OBJC_IVAR_$_SHSignature._musicalFeaturesData
++ OBJC_IVAR_$_SHSignature._spectralPeaksData
++ OBJC_IVAR_$_SHSignatureBuffer._clipStyle
++ OBJC_IVAR_$_SHSignatureBuffer._minimumMusicalFeaturesDuration
++ OBJC_IVAR_$_SHSpectralPeakFeaturesExtractor._clipStyle
++ OBJC_IVAR_$_SHSpectralPeakFeaturesExtractor._sampleRate
++ OBJC_IVAR_$_SHSpectralPeakFeaturesExtractor._sigX
++ SHShazamKitClientInterface.cold.1
++ SHShazamKitServiceInterface.cold.1
++ SHShazamKitUIClientInterface.cold.1
++ SHShazamKitUIServiceInterface.cold.1
++ _CLLocationCoordinate2DIsValid
++ _CLLocationCoordinate2DMake
++ _MLModelVersionStringKey
++ _OBJC_CLASS_$_MLDictionaryFeatureProvider
++ _OBJC_CLASS_$_MLModel
++ _OBJC_CLASS_$_MLMultiArray
++ _OBJC_CLASS_$_NSDecimalNumber
++ _OBJC_CLASS_$_NSValue
++ _OBJC_CLASS_$_SHCoalescedSignature
++ _OBJC_CLASS_$_SHFeatureConfiguration
++ _OBJC_CLASS_$_SHFeatureExtractor
++ _OBJC_CLASS_$_SHFeatureExtractorController
++ _OBJC_CLASS_$_SHLocationTransformer
++ _OBJC_CLASS_$_SHMusicalFeaturesConfiguration
++ _OBJC_CLASS_$_SHMusicalFeaturesExtractor
++ _OBJC_CLASS_$_SHReferenceMatch
++ _OBJC_CLASS_$_SHSigUtilities
++ _OBJC_CLASS_$_SHSigX
++ _OBJC_CLASS_$_SHSpectralPeakFeaturesExtractor
++ _OBJC_METACLASS_$_SHCoalescedSignature
++ _OBJC_METACLASS_$_SHFeatureConfiguration
++ _OBJC_METACLASS_$_SHFeatureExtractor
++ _OBJC_METACLASS_$_SHFeatureExtractorController
++ _OBJC_METACLASS_$_SHLocationTransformer
++ _OBJC_METACLASS_$_SHMusicalFeaturesConfiguration
++ _OBJC_METACLASS_$_SHMusicalFeaturesExtractor
++ _OBJC_METACLASS_$_SHReferenceMatch
++ _OBJC_METACLASS_$_SHSigUtilities
++ _OBJC_METACLASS_$_SHSigX
++ _OBJC_METACLASS_$_SHSpectralPeakFeaturesExtractor
++ _SHMediaItemConfidence
++ _SHMediaItemMatchLocationCoordinate
++ _SHMediaItemMatchLocationCoordinateSwift
++ _SHMusicalFeaturesConfigurationDefaultMinimumDuration
++ _ZN6shazam12get_os_timerEv.cold.1
++ _ZN6shazam13sigx_categoryEv.cold.1
++ _ZN6shazam13virtual_arrayI11xpair_groupIJ12xpair_fieldsEEE9push_backERKS3_.cold.1
++ _ZN6shazam18signature_categoryEv.cold.1
++ _ZN6shazam24get_spect_peak_log_scaleEv.cold.1
++ _ZN6shazam25get_spect_peak_log_offsetEv.cold.1
++ _ZN7SHZ_FFTC1Em.cold.1
++ __MergedGlobals
++ __OBJC_$_CATEGORY_CLASS_METHODS_NSBundle_$_ShazamKitBundle
++ __OBJC_$_CATEGORY_NSBundle_$_ShazamKitBundle
++ __OBJC_$_CLASS_METHODS_SHCoalescedSignature
++ __OBJC_$_CLASS_METHODS_SHLocationTransformer
++ __OBJC_$_CLASS_METHODS_SHMusicalFeaturesConfiguration
++ __OBJC_$_CLASS_METHODS_SHSigUtilities
++ __OBJC_$_CLASS_METHODS_SHSigX
++ __OBJC_$_CLASS_PROP_LIST_SHMusicalFeaturesConfiguration
++ __OBJC_$_INSTANCE_METHODS_SHFeatureConfiguration
++ __OBJC_$_INSTANCE_METHODS_SHFeatureExtractor(SHFeatureExtractor)
++ __OBJC_$_INSTANCE_METHODS_SHFeatureExtractorController
++ __OBJC_$_INSTANCE_METHODS_SHMusicalFeaturesConfiguration
++ __OBJC_$_INSTANCE_METHODS_SHMusicalFeaturesExtractor
++ __OBJC_$_INSTANCE_METHODS_SHReferenceMatch
++ __OBJC_$_INSTANCE_METHODS_SHSigX(SHFlow)
++ __OBJC_$_INSTANCE_METHODS_SHSpectralPeakFeaturesExtractor
++ __OBJC_$_INSTANCE_VARIABLES_SHFeatureConfiguration
++ __OBJC_$_INSTANCE_VARIABLES_SHFeatureExtractor
++ __OBJC_$_INSTANCE_VARIABLES_SHFeatureExtractorController
++ __OBJC_$_INSTANCE_VARIABLES_SHMusicalFeaturesConfiguration
++ __OBJC_$_INSTANCE_VARIABLES_SHMusicalFeaturesExtractor
++ __OBJC_$_INSTANCE_VARIABLES_SHReferenceMatch
++ __OBJC_$_INSTANCE_VARIABLES_SHSigX
++ __OBJC_$_INSTANCE_VARIABLES_SHSpectralPeakFeaturesExtractor
++ __OBJC_$_PROP_LIST_SHFeatureConfiguration
++ __OBJC_$_PROP_LIST_SHFeatureExtractor
++ __OBJC_$_PROP_LIST_SHFeatureExtractorController
++ __OBJC_$_PROP_LIST_SHMusicalFeaturesConfiguration
++ __OBJC_$_PROP_LIST_SHMusicalFeaturesExtractor
++ __OBJC_$_PROP_LIST_SHReferenceMatch
++ __OBJC_$_PROP_LIST_SHSigX
++ __OBJC_$_PROP_LIST_SHSpectralPeakFeaturesExtractor
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SHSignatureExtractor
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SHSignatureExtractor
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SHSpectralOutputProvider
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SHSignatureExtractor
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SHSpectralOutputProvider
++ __OBJC_$_PROTOCOL_REFS_SHSignatureExtractor
++ __OBJC_$_PROTOCOL_REFS_SHSpectralOutputProvider
++ __OBJC_CLASS_PROTOCOLS_$_SHFeatureExtractorController
++ __OBJC_CLASS_PROTOCOLS_$_SHMusicalFeaturesConfiguration
++ __OBJC_CLASS_PROTOCOLS_$_SHMusicalFeaturesExtractor
++ __OBJC_CLASS_PROTOCOLS_$_SHSpectralPeakFeaturesExtractor
++ __OBJC_CLASS_RO_$_SHCoalescedSignature
++ __OBJC_CLASS_RO_$_SHFeatureConfiguration
++ __OBJC_CLASS_RO_$_SHFeatureExtractor
++ __OBJC_CLASS_RO_$_SHFeatureExtractorController
++ __OBJC_CLASS_RO_$_SHLocationTransformer
++ __OBJC_CLASS_RO_$_SHMusicalFeaturesConfiguration
++ __OBJC_CLASS_RO_$_SHMusicalFeaturesExtractor
++ __OBJC_CLASS_RO_$_SHReferenceMatch
++ __OBJC_CLASS_RO_$_SHSigUtilities
++ __OBJC_CLASS_RO_$_SHSigX
++ __OBJC_CLASS_RO_$_SHSpectralPeakFeaturesExtractor
++ __OBJC_LABEL_PROTOCOL_$_SHSignatureExtractor
++ __OBJC_LABEL_PROTOCOL_$_SHSpectralOutputProvider
++ __OBJC_METACLASS_RO_$_SHCoalescedSignature
++ __OBJC_METACLASS_RO_$_SHFeatureConfiguration
++ __OBJC_METACLASS_RO_$_SHFeatureExtractor
++ __OBJC_METACLASS_RO_$_SHFeatureExtractorController
++ __OBJC_METACLASS_RO_$_SHLocationTransformer
++ __OBJC_METACLASS_RO_$_SHMusicalFeaturesConfiguration
++ __OBJC_METACLASS_RO_$_SHMusicalFeaturesExtractor
++ __OBJC_METACLASS_RO_$_SHReferenceMatch
++ __OBJC_METACLASS_RO_$_SHSigUtilities
++ __OBJC_METACLASS_RO_$_SHSigX
++ __OBJC_METACLASS_RO_$_SHSpectralPeakFeaturesExtractor
++ __OBJC_PROTOCOL_$_SHSignatureExtractor
++ __OBJC_PROTOCOL_$_SHSpectralOutputProvider
++ __Z10element_opINSt3__17complexIfEEZN6shazam3dsp4HCQTILj2ELj6EEC1EjfbEUlRT_E_EvN3gsl4spanIS7_Lm18446744073709551615EEERKT0_
++ __Z10element_opIfZN6shazam3dsp4HCQTILj2ELj6EEC1EjfbEUlRT_E0_EvN3gsl4spanIS4_Lm18446744073709551615EEERKT0_
++ __Z11vDSP_matmulRKN3gsl4spanINSt3__17complexIfEELm18446744073709551615EEES6_mRNS1_6vectorIS3_NS1_9allocatorIS3_EEEEmm
++ __Z17BandSpectralPeaksINSt3__116__deque_iteratorI15spectral_peak_tPKS2_RS3_PKS4_lLl512EEENS0_6vectorINS9_IS2_NS0_9allocatorIS2_EEEENSA_ISC_EEEEEN2tl8expectedIT0_N6shazam9sig_errorEEET_SL_NSI_17signature_densityEmb
++ __Z17reinterpret_saferIPK11SumoSigInfoLi0EET_RKN3gsl4spanIKcLm18446744073709551615EEE
++ __Z17reinterpret_saferIPK13ClusterCmdPktLi0EET_RKN3gsl4spanIKcLm18446744073709551615EEE
++ __Z17reinterpret_saferIPK15legacy_sig_infoLi0EET_RKN3gsl4spanIKcLm18446744073709551615EEE
++ __Z17reinterpret_saferIPK15spectral_peak_tLi0EET_RKN3gsl4spanIKcLm18446744073709551615EEE
++ __Z17reinterpret_saferIPK16LegacyFatSigInfoLi0EET_RKN3gsl4spanIKcLm18446744073709551615EEE
++ __Z17reinterpret_saferIPKN6shazam13multisig_infoELi0EET_RKN3gsl4spanIKcLm18446744073709551615EEE
++ __Z17reinterpret_saferIPKN6shazam15ShazamKitHeaderELi0EET_RKN3gsl4spanIKcLm18446744073709551615EEE
++ __Z17reinterpret_saferIPKN6shazam15freebird_headerELi0EET_RKN3gsl4spanIKcLm18446744073709551615EEE
++ __Z17reinterpret_saferIPKN6shazam23spectral_peak_compact_tELi0EET_RKN3gsl4spanIKcLm18446744073709551615EEE
++ __Z17reinterpret_saferIPKN6shazam24ancient_dead_sig_point_tELi0EET_RKN3gsl4spanIKcLm18446744073709551615EEE
++ __Z17reinterpret_saferIPKN6shazam25fp_data_header_extern_newELi0EET_RKN3gsl4spanIKcLm18446744073709551615EEE
++ __Z17reinterpret_saferIPKN6shazam28fp_data_header_extern_legacyELi0EET_RKN3gsl4spanIKcLm18446744073709551615EEE
++ __Z17reinterpret_saferIPKjLi0EET_RKN3gsl4spanIKcLm18446744073709551615EEE
++ __Z23find_sparsity_thresholdN3gsl4spanIfLm18446744073709551615EEEf
++ __Z26octave_frequencies_lengthsN3gsl4spanIfLm18446744073709551615EEEtf
++ __Z6matmulRKN3gsl4spanINSt3__17complexIfEELm18446744073709551615EEES6_mRNS1_6vectorIS3_NS1_9allocatorIS3_EEEE
++ __Z7sum_absN3gsl4spanINSt3__17complexIfEELm18446744073709551615EEE
++ __ZGVZN6shazam13sigx_categoryEvE8instance
++ __ZN10fft_stream6createEv
++ __ZN10fft_streamC2EO21static_aligned_bufferIfLm2048EES2_OS0_IfLm2052EE
++ __ZN10fft_streamD2Ev
++ __ZN10sig_stream30get_writable_fft_frame_complexEv
++ __ZN10sig_stream32get_writable_fft_frame_magnitudeEv
++ __ZN10sig_stream6createEv
++ __ZN11hann_window11half_windowEPKNSt3__17complexIfEEPS2_
++ __ZN12_GLOBAL__N_118sigx_category_implD0Ev
++ __ZN12_GLOBAL__N_118sigx_category_implD1Ev
++ __ZN12_GLOBAL__N_120find_packed_sig_typeEN3gsl4spanIKcLm18446744073709551615EEE
++ __ZN12_GLOBAL__N_128inflate_basic_sumo_peak_dataEN3gsl4spanIKcLm18446744073709551615EEEN6shazam17signature_densityENSt3__16chrono8durationIhNS6_5ratioILl1ELl125EEEEE
++ __ZN12_GLOBAL__N_17get_sigERNSt3__16vectorIcNS0_9allocatorIcEEEERKNS0_5dequeI15spectral_peak_tNS2_IS7_EEEERKN6shazam14signature_infoENSC_17signature_densityEbm
++ __ZN12_GLOBAL__N_19_get_implEmb
++ __ZN15inference_errorC2ERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEP7NSError
++ __ZN15inference_errorD0Ev
++ __ZN15inference_errorD1Ev
++ __ZN15resample_stream6createEjj
++ __ZN15resample_streamC1ERKS_
++ __ZN15resample_streamC2ERKS_
++ __ZN15resample_streamD2Ev
++ __ZN17AlignedRingBufferINSt3__17complexIfEEE6createEii
++ __ZN17AlignedRingBufferIfE6createEii
++ __ZN18CoreMLFeatureModel12runInferenceEN3gsl4spanIKfLm18446744073709551615EEE
++ __ZN18CoreMLFeatureModelC1EP5NSURLN6shazam3dsp10TensorSpecES4_
++ __ZN18CoreMLFeatureModelC2EP5NSURLN6shazam3dsp10TensorSpecES4_
++ __ZN18CoreMLFeatureModelD0Ev
++ __ZN18CoreMLFeatureModelD1Ev
++ __ZN18sig_extractor_pipeI15spectral_peak_tE10get_statusEv
++ __ZN18sig_extractor_pipeI15spectral_peak_tE14getWindowedSigERNSt3__16vectorIcNS2_9allocatorIcEEEEN6shazam17signature_densityE
++ __ZN18sig_extractor_pipeI15spectral_peak_tE15getStreamingSigERNSt3__16vectorIcNS2_9allocatorIcEEEEN6shazam17signature_densityE
++ __ZN18sig_extractor_pipeI15spectral_peak_tE17getProgressiveSigERNSt3__16vectorIcNS2_9allocatorIcEEEEN6shazam17signature_densityE
++ __ZN18sig_extractor_pipeI15spectral_peak_tE6createE14signature_typei17signature_options
++ __ZN18sig_extractor_pipeI15spectral_peak_tEC2E14signature_typei17signature_optionsO10fft_streamO10sig_streamO15resample_stream
++ __ZN2tl19bad_expected_accessIN6shazam10sigx_errorEED0Ev
++ __ZN2tl19bad_expected_accessIN6shazam10sigx_errorEED1Ev
++ __ZN2tl19bad_expected_accessIN6shazam9sig_errorEED0Ev
++ __ZN2tl19bad_expected_accessIN6shazam9sig_errorEED1Ev
++ __ZN2tl6detail15throw_exceptionINS_19bad_expected_accessIN6shazam10sigx_errorEEEEEvOT_
++ __ZN2tl6detail15throw_exceptionINS_19bad_expected_accessIN6shazam9sig_errorEEEEEvOT_
++ __ZN2tl6detail21expected_storage_baseI10fft_streamN6shazam10sigx_errorELb0ELb1EEC2IJS2_ELPv0EEENS_10in_place_tEDpOT_
++ __ZN2tl6detail21expected_storage_baseI10sig_streamN6shazam10sigx_errorELb0ELb1EED2Ev
++ __ZN3gsl12final_actionIZN18sig_extractor_pipeI15spectral_peak_tE14getWindowedSigERNSt3__16vectorIcNS4_9allocatorIcEEEEN6shazam17signature_densityEEUlvE_ED2Ev
++ __ZN3gsl12final_actionIZN18sig_extractor_pipeI15spectral_peak_tE15getStreamingSigERNSt3__16vectorIcNS4_9allocatorIcEEEEN6shazam17signature_densityEEUlvE_ED2Ev
++ __ZN3gsl12final_actionIZN18sig_extractor_pipeI15spectral_peak_tE17getProgressiveSigERNSt3__16vectorIcNS4_9allocatorIcEEEEN6shazam17signature_densityEEUlvE_ED2Ev
++ __ZN3gsl12final_actionIZN6shazam2io4packERNSt3__16vectorIcNS3_9allocatorIcEEEERKNS1_18freebird_signatureEE3$_0ED1Ev
++ __ZN3gsl4spanIfLm18446744073709551615EE12storage_typeINS_7details11extent_typeILm18446744073709551615EEEEC2ImEEPfT_
++ __ZN3gsl4spanIfLm18446744073709551615EEC1ILm18446744073709551615ENSt3__16vectorIfNS3_9allocatorIfEEEELi0EEERT0_
++ __ZN3gsl7details13span_iteratorIKN6shazam3dsp4HCQTILj2ELj6EE9timeframeEEppEv
++ __ZN3gsl7details13span_iteratorINSt3__17complexIfEEEppEv
++ __ZN3gsl9make_spanINSt3__16vectorINS1_7complexIfEENS1_9allocatorIS4_EEEEEENS_4spanINT_10value_typeELm18446744073709551615EEERS9_
++ __ZN3gsl9make_spanINSt3__17complexIfEEEENS_4spanIT_Lm18446744073709551615EEEPS5_NS6_9size_typeE
++ __ZN3gsl9make_spanIsEENS_4spanIT_Lm18446744073709551615EEEPS2_NS3_9size_typeE
++ __ZN6shazam12aligned_freeEPv
++ __ZN6shazam13sigx_categoryEv
++ __ZN6shazam14signature_info7convertEPK15legacy_sig_info
++ __ZN6shazam14signature_info7convertEPK16LegacyFatSigInfo
++ __ZN6shazam14signature_info7convertEPKNS_15freebird_headerE
++ __ZN6shazam15freebird_header19set_raw_sample_rateEj
++ __ZN6shazam15freebird_header25set_sample_length_samplesEy
++ __ZN6shazam15unwrap_or_throwI15resample_streamNS_10sigx_errorEvEEOT_ON2tl8expectedIS3_T0_EE
++ __ZN6shazam15unwrap_or_throwI26static_aligned_dual_bufferIfLm2048EENS_10sigx_errorEvEEOT_ON2tl8expectedIS4_T0_EE
++ __ZN6shazam15unwrap_or_throwI26static_aligned_dual_bufferIfLm256EENS_10sigx_errorEvEEOT_ON2tl8expectedIS4_T0_EE
++ __ZN6shazam15unwrap_or_throwI26static_aligned_dual_bufferIfLm64EENS_10sigx_errorEvEEOT_ON2tl8expectedIS4_T0_EE
++ __ZN6shazam16unpack_signatureINS_15basic_signatureILNS_17signature_densityE16EEEEET_RKNS_21packed_signature_viewE
++ __ZN6shazam16unpack_signatureINS_15basic_signatureILNS_17signature_densityE2147483647EEEEET_RKNS_21packed_signature_viewE
++ __ZN6shazam16unpack_signatureINS_15basic_signatureILNS_17signature_densityE24EEEEET_RKNS_21packed_signature_viewE
++ __ZN6shazam16unpack_signatureINS_18freebird_signatureEEET_RKNS_21packed_signature_viewE
++ __ZN6shazam16unpack_signatureINSt3__15tupleIJNS_15basic_signatureILNS_17signature_densityE2147483647EEENS_18freebird_signatureEEEEEET_RKNS_21packed_signature_viewE
++ __ZN6shazam17match_single_peakEN3gsl4spanIK7peak_tfLm18446744073709551615EEERS3_ffihhRm
++ __ZN6shazam22FreebirdHeaderIteratorEN3gsl4spanIKcLm18446744073709551615EEERKNSt3__18functionIFvNS_16signature_headerEEEE
++ __ZN6shazam22MultiSigHeaderIteratorEN3gsl4spanIKcLm18446744073709551615EEERKNSt3__18functionIFvNS_16signature_headerEEEE
++ __ZN6shazam2io15write_unalignedIcEEvRNSt3__16vectorIcNS2_9allocatorIcEEEERKNS3_IT_NS4_IS8_EEEE
++ __ZN6shazam2io15write_unalignedIfEEvRNSt3__16vectorIcNS2_9allocatorIcEEEERKNS3_IT_NS4_IS8_EEEE
++ __ZN6shazam2io4packERKNS_18freebird_signatureE
++ __ZN6shazam2io4packERNSt3__16vectorIcNS1_9allocatorIcEEEERKNS_18freebird_signatureE
++ __ZN6shazam2io8coalesceERKNS_15basic_signatureILNS_17signature_densityE2147483647EEERKNS_18freebird_signatureE
++ __ZN6shazam3ccp8checksumEPKvm
++ __ZN6shazam3dsp11CrepeFramer4flowEN3gsl4spanIfLm18446744073709551615EEE
++ __ZN6shazam3dsp11CrepeFramer5flushEv
++ __ZN6shazam3dsp11CrepeFramer5resetEv
++ __ZN6shazam3dsp11CrepeFramer8generateEv
++ __ZN6shazam3dsp11CrepeFramerC1EjjRNSt3__110unique_ptrINS0_12FeatureModelENS2_14default_deleteIS4_EEEEb
++ __ZN6shazam3dsp11CrepeFramerC2EjjRNSt3__110unique_ptrINS0_12FeatureModelENS2_14default_deleteIS4_EEEEb
++ __ZN6shazam3dsp11build_basisEN3gsl4spanIfLm18446744073709551615EEEtffRmRNSt3__16vectorINS5_7complexIfEENS5_9allocatorIS8_EEEE
++ __ZN6shazam3dsp11cascade_buf14set_read_pointEmjm
++ __ZN6shazam3dsp11cascade_buf4flowEN3gsl4spanIfLm18446744073709551615EEE
++ __ZN6shazam3dsp11cascade_buf5resetEv
++ __ZN6shazam3dsp11cascade_buf7cascadeEv
++ __ZN6shazam3dsp11cascade_buf8zero_padEv
++ __ZN6shazam3dsp11cascade_bufC1Emjm
++ __ZN6shazam3dsp11cascade_bufC2Emjm
++ __ZN6shazam3dsp12bpo_to_alphaEt
++ __ZN6shazam3dsp16FeatureExtractor13enableFeatureENS_12feature_typeENSt3__110unique_ptrINS0_12FeatureModelENS3_14default_deleteIS5_EEEE
++ __ZN6shazam3dsp16FeatureExtractor4flowEN3gsl4spanIfLm18446744073709551615EEE
++ __ZN6shazam3dsp16FeatureExtractor4flowEN3gsl4spanIsLm18446744073709551615EEE
++ __ZN6shazam3dsp16FeatureExtractor5resetEv
++ __ZN6shazam3dsp16FeatureExtractor7subflowEN3gsl4spanIfLm18446744073709551615EEE
++ __ZN6shazam3dsp16FeatureExtractor8generateERNSt3__16vectorIcNS2_9allocatorIcEEEE
++ __ZN6shazam3dsp16FeatureExtractorC1Ejb
++ __ZN6shazam3dsp16FeatureExtractorC2Ejb
++ __ZN6shazam3dsp22constant_q_frequenciesEfftt
++ __ZN6shazam3dsp4HCQTILj2ELj6EE10flow_frameEPKfmmm
++ __ZN6shazam3dsp4HCQTILj2ELj6EE11scale_to_dbEN3gsl4spanIKNS2_9timeframeELm18446744073709551615EEERfRNSt3__16vectorIS5_NS9_9allocatorIS5_EEEE
++ __ZN6shazam3dsp4HCQTILj2ELj6EE4flowEN3gsl4spanIfLm18446744073709551615EEE
++ __ZN6shazam3dsp4HCQTILj2ELj6EE5resetEv
++ __ZN6shazam3dsp4HCQTILj2ELj6EE8generateEv
++ __ZN6shazam3dsp4HCQTILj2ELj6EEC2Ejfb
++ __ZN6shazam3dsp4HCQTILj2ELj6EED2Ev
++ __ZN6shazam3dsp6detail22early_downsample_countEffii
++ __ZN6shazam3dspL23crema_input_tensor_specE
++ __ZN6shazam3dspL23crepe_input_tensor_specE
++ __ZN6shazam3dspL24crema_output_tensor_specE
++ __ZN6shazam3dspL24crepe_output_tensor_specE
++ __ZN7SHZ_FFT4fftcEPKNSt3__17complexIfEEPS2_
++ __ZN7SHZ_FFT4fftrEPKfPNSt3__17complexIfEE
++ __ZN7SHZ_FFTC2EOS_
++ __ZN7SHZ_FFTC2EmONSt3__110unique_ptrI18FFT_implementationNS0_14default_deleteIS2_EEEE
++ __ZN7SHZ_FFTD1Ev
++ __ZNK12_GLOBAL__N_118sigx_category_impl4nameEv
++ __ZNK12_GLOBAL__N_118sigx_category_impl7messageEi
++ __ZNK18CoreMLFeatureModel7versionEv
++ __ZNK2tl19bad_expected_accessIN6shazam10sigx_errorEE4whatEv
++ __ZNK2tl19bad_expected_accessIN6shazam9sig_errorEE4whatEv
++ __ZNK3gsl4spanIfLm18446744073709551615EE12make_subspanEmmNS1_16subspan_selectorILm18446744073709551615EEE
++ __ZNK3gsl7details13span_iteratorIKN6shazam3dsp4HCQTILj2ELj6EE9timeframeEEdeEv
++ __ZNK3gsl7details13span_iteratorINSt3__17complexIfEEEdeEv
++ __ZNK6shazam15freebird_header19get_raw_sample_rateEv
++ __ZNK6shazam15freebird_header25get_sample_length_samplesEv
++ __ZNK6shazam15freebird_tensor16get_feature_sizeEv
++ __ZNK6shazam18freebird_signature16get_feature_sizeEv
++ __ZNK6shazam21packed_signature_view12is_shazamkitEv
++ __ZNK6shazam3dsp11CrepeFramer15getModelVersionEv
++ __ZNK6shazam3dsp11cascade_buf17getSamplesWrittenEm
++ __ZNK6shazam3dsp11cascade_buf5flushIZNS0_4HCQTILj2ELj6EE8generateEvEUlN3gsl4spanIKfLm18446744073709551615EEEmmE_EEvmjRKT_
++ __ZNK6shazam3dsp11cascade_buf9get_frameIZNS0_4HCQTILj2ELj6EE4flowEN3gsl4spanIfLm18446744073709551615EEEEUlNS6_IKfLm18446744073709551615EEEmmE_EEvjjRKT_
++ __ZNK6shazam3dsp16FeatureExtractor16getAudioLengthMsEv
++ __ZNKSt13runtime_error4whatEv
++ __ZNKSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEE7__cloneEPNS0_6__baseIS7_EE
++ __ZNKSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE11target_typeEv
++ __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE7__cloneEPNS0_6__baseISH_EE
++ __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE7__cloneEv
++ __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE11target_typeEv
++ __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE7__cloneEPNS0_6__baseISH_EE
++ __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE7__cloneEv
++ __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE11target_typeEv
++ __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE7__cloneEPNS0_6__baseISH_EE
++ __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE7__cloneEv
++ __ZNKSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS9_EEFvNS2_16signature_headerEEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS9_EEFvNS2_16signature_headerEEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS9_EEFvNS2_16signature_headerEEE7__cloneEPNS0_6__baseISD_EE
++ __ZNKSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS9_EEFvNS2_16signature_headerEEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorISE_EEFvNS2_16signature_headerEEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorISE_EEFvNS2_16signature_headerEEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorISE_EEFvNS2_16signature_headerEEE7__cloneEPNS0_6__baseISI_EE
++ __ZNKSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorISE_EEFvNS2_16signature_headerEEE7__cloneEv
++ __ZNKSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyS2_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE4findIyEENS_21__hash_const_iteratorIPNS_11__hash_nodeIS2_PvEEEERKT_
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__114default_deleteI11MREInstanceEclB8ne190102EPS1_
++ __ZNKSt3__114default_deleteIN6shazam3dsp11CrepeFramerEEclB8ne190102EPS3_
++ __ZNKSt3__114default_deleteIN6shazam3dsp11cascade_bufEEclB8ne190102EPS3_
++ __ZNKSt3__114default_deleteIN6shazam3dsp16FeatureExtractorEEclB8ne190102EPS3_
++ __ZNKSt3__116__deque_iteratorI15spectral_peak_tPS1_RS1_PS2_lLl512EEplB8ne190102El
++ __ZNKSt3__120__move_backward_implINS_17_ClassicAlgPolicyEEclB8ne190102INS_16__deque_iteratorI15spectral_peak_tPS5_RS5_PS6_lLl512EEES9_Li0EEENS_4pairIT_T0_EESB_SB_SC_
++ __ZNKSt3__120__move_backward_implINS_17_ClassicAlgPolicyEEclB8ne190102IP15spectral_peak_tNS_16__deque_iteratorIS4_S5_RS4_PS5_lLl512EEELi0EEENS_4pairIT_T0_EESB_SB_SC_
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorI6ResultEEPS2_EclB8ne190102Ev
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam14density_filterI15spectral_peak_tEEEEPS5_EclB8ne190102Ev
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam15CPULMFPDataBaseEEEPS3_EclB8ne190102Ev
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam15basic_signatureILNS2_17signature_densityE24EEEEEPS5_EclB8ne190102Ev
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam15freebird_tensorEEEPS3_EclB8ne190102Ev
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorI15spectral_peak_tNS1_IS3_EEEEEEPS5_EclB8ne190102Ev
++ __ZNKSt3__16vectorI10SearchPlanNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorI15spectral_peak_tNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorI26static_aligned_dual_bufferIfLm2048EENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorI26static_aligned_dual_bufferIfLm2048EENS_9allocatorIS2_EEE20__throw_out_of_rangeB8ne190102Ev
++ __ZNKSt3__16vectorI6ResultNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorI7peak_tfNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIN6shazam10SongOffsetENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIN6shazam11regresspairENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIN6shazam13sig_alignmentENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIN6shazam14TrackingResultENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIN6shazam14density_filterI15spectral_peak_tEENS_9allocatorIS4_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIN6shazam15CPULMFPDataBaseENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIN6shazam15basic_signatureILNS1_17signature_densityE24EEENS_9allocatorIS4_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIN6shazam15freebird_tensorENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIN6shazam21signature_header_typeENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIN6shazam23spectral_peak_compact_tENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIN6shazam24ancient_dead_sig_point_tENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIN6shazam2io12_GLOBAL__N_115compacted_peaksENS_9allocatorIS4_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIN6shazam3dsp11CrepeFramer9timeframeENS_9allocatorIS4_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIN6shazam3dsp4HCQTILj2ELj6EE9timeframeENS_9allocatorIS5_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIN6shazam4lmfpILNS1_7fp_typeE0EEENS_9allocatorIS4_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIN6shazam7tfmatchENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIN6shazam9PeakMatchENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIN6shazam9fp_suffixIL8AlgoType12EEENS_9allocatorIS4_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIN6shazam9fp_suffixIL8AlgoType1EEENS_9allocatorIS4_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIN6shazam9time_freqENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorINS0_I15spectral_peak_tNS_9allocatorIS1_EEEENS2_IS4_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorINS0_IN6shazam24ancient_dead_sig_point_tENS_9allocatorIS2_EEEENS3_IS5_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorINS0_IcNS_9allocatorIcEEEENS1_IS3_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorINS_10unique_ptrI15resample_streamNS_14default_deleteIS2_EEEENS_9allocatorIS5_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorINS_6chrono8durationIfNS_5ratioILl1ELl1EEEEENS_9allocatorIS5_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorINS_6chrono8durationIxNS_5ratioILl1ELl1000EEEEENS_9allocatorIS5_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorINS_7complexIfEENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIfNS_9allocatorIfEEE20__throw_out_of_rangeB8ne190102Ev
++ __ZNKSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorImNS_9allocatorImEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorImNS_9allocatorImEEE20__throw_out_of_rangeB8ne190102Ev
++ __ZNKSt3__16vectorIsNS_9allocatorIsEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIyNS_9allocatorIyEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt9type_infoeqB8ne190102ERKS_
++ __ZNR2tl8expectedIN6shazam14signature_infoENS1_9sig_errorEE5valueIS2_LPv0EEERT_v
++ __ZNR2tl8expectedINSt3__110unique_ptrI14sigx_pipe_baseNS1_14default_deleteIS3_EEEEN6shazam10sigx_errorEE5valueIS6_LPv0EEERT_v
++ __ZNR2tl8expectedINSt3__16vectorINS2_I15spectral_peak_tNS1_9allocatorIS3_EEEENS4_IS6_EEEEN6shazam9sig_errorEE5valueIS8_LPv0EEERT_v
++ __ZNSt11logic_errorC1EPKc
++ __ZNSt11logic_errorD1Ev
++ __ZNSt11range_errorC1B8ne190102EPKc
++ __ZNSt12length_errorC1B8ne190102EPKc
++ __ZNSt12out_of_rangeC1B8ne190102EPKc
++ __ZNSt13runtime_errorC2ERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
++ __ZNSt13runtime_errorD2Ev
++ __ZNSt16invalid_argumentC1B8ne190102EPKc
++ __ZNSt3__110__function12__value_funcIFvN6shazam16signature_headerEEED2B8ne190102Ev
++ __ZNSt3__110__function12__value_funcIFvPKfmEE4swapB8ne190102ERS5_
++ __ZNSt3__110__function12__value_funcIFvPKfmEEC2B8ne190102EOS5_
++ __ZNSt3__110__function12__value_funcIFvPKfmEEC2B8ne190102ERKS5_
++ __ZNSt3__110__function12__value_funcIFvPKfmEED2B8ne190102Ev
++ __ZNSt3__110__function12__value_funcIFvRK14SearchResponseEED2B8ne190102Ev
++ __ZNSt3__110__function12__value_funcIFvRKN6shazam14TrackingResultERKNS2_13sig_alignmentEEED2B8ne190102Ev
++ __ZNSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEE7destroyEv
++ __ZNSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEED0Ev
++ __ZNSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEED1Ev
++ __ZNSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEEclEOS6_Om
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE7destroyEv
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EED0Ev
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EED1Ev
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EEclEOSB_
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE7destroyEv
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EED0Ev
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EED1Ev
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EEclEOSB_
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE7destroyEv
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EED0Ev
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EED1Ev
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EEclEOSB_
++ __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS9_EEFvNS2_16signature_headerEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS9_EEFvNS2_16signature_headerEEE7destroyEv
++ __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS9_EEFvNS2_16signature_headerEEED0Ev
++ __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS9_EEFvNS2_16signature_headerEEED1Ev
++ __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS9_EEFvNS2_16signature_headerEEEclEOSC_
++ __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorISE_EEFvNS2_16signature_headerEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorISE_EEFvNS2_16signature_headerEEE7destroyEv
++ __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorISE_EEFvNS2_16signature_headerEEED0Ev
++ __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorISE_EEFvNS2_16signature_headerEEED1Ev
++ __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorISE_EEFvNS2_16signature_headerEEEclEOSH_
++ __ZNSt3__110__pop_heapB8ne190102INS_17_ClassicAlgPolicyENS_7greaterIvEEP6ResultEEvT1_S6_RT0_NS_15iterator_traitsIS6_E15difference_typeE
++ __ZNSt3__110__pop_heapB8ne190102INS_17_ClassicAlgPolicyEPDoFbRK11xpair_groupIJ12xpair_fieldsEES6_EN3gsl7details13span_iteratorIS4_EEEEvT1_SD_RT0_NS_15iterator_traitsISD_E15difference_typeE
++ __ZNSt3__110unique_ptrI15resample_streamNS_14default_deleteIS1_EEE5resetB8ne190102EPS1_
++ __ZNSt3__110unique_ptrI18CoreMLFeatureModelNS_14default_deleteIS1_EEE5resetB8ne190102EPS1_
++ __ZNSt3__110unique_ptrIN6shazam3dsp4HCQTILj2ELj6EEENS_14default_deleteIS4_EEE5resetB8ne190102EPS4_
++ __ZNSt3__111__sift_downB8ne190102INS_17_ClassicAlgPolicyER3$_1P15spectral_peak_tEEvT1_OT0_NS_15iterator_traitsIS6_E15difference_typeES6_
++ __ZNSt3__111__sift_downB8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP15spectral_peak_tEEvT1_OT0_NS_15iterator_traitsIS7_E15difference_typeES7_
++ __ZNSt3__111__sift_downB8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP7peak_tfEEvT1_OT0_NS_15iterator_traitsIS7_E15difference_typeES7_
++ __ZNSt3__111__sift_downB8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam11regresspairEEEvT1_OT0_NS_15iterator_traitsIS8_E15difference_typeES8_
++ __ZNSt3__111__sift_downB8ne190102INS_17_ClassicAlgPolicyERNS_7greaterIvEEP6ResultEEvT1_OT0_NS_15iterator_traitsIS7_E15difference_typeES7_
++ __ZNSt3__111__sift_downB8ne190102INS_17_ClassicAlgPolicyERNS_7greaterIvEEPmEEvT1_OT0_NS_15iterator_traitsIS6_E15difference_typeES6_
++ __ZNSt3__111__sift_downB8ne190102INS_17_ClassicAlgPolicyERPDoFbRK11xpair_groupIJ12xpair_fieldsEES6_EN3gsl7details13span_iteratorIS4_EEEEvT1_OT0_NS_15iterator_traitsISE_E15difference_typeESE_
++ __ZNSt3__111make_uniqueB8ne190102IN6shazam17StaticCPUSearcherEJRKNS1_12CPUDatabasesERK5TimerRKmSA_RKbEEENS_11__unique_ifIT_E15__unique_singleEDpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIN6shazam12feature_typeENS_10unique_ptrINS2_3dsp12FeatureModelENS_14default_deleteIS6_EEEEEENS_22__unordered_map_hasherIS3_SA_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_SA_SF_SD_Lb1EEENS_9allocatorISA_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIN6shazam12feature_typeENS_10unique_ptrINS2_3dsp12FeatureModelENS_14default_deleteIS6_EEEEEENS_22__unordered_map_hasherIS3_SA_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_SA_SF_SD_Lb1EEENS_9allocatorISA_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeISA_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIN6shazam12feature_typeENS_10unique_ptrINS2_3dsp12FeatureModelENS_14default_deleteIS6_EEEEEENS_22__unordered_map_hasherIS3_SA_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_SA_SF_SD_Lb1EEENS_9allocatorISA_EEE25__emplace_unique_key_argsIS3_JRKNS_21piecewise_construct_tENS_5tupleIJOS3_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISA_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIN6shazam12feature_typeENS_10unique_ptrINS2_3dsp12FeatureModelENS_14default_deleteIS6_EEEEEENS_22__unordered_map_hasherIS3_SA_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_SA_SF_SD_Lb1EEENS_9allocatorISA_EEE4findIS3_EENS_15__hash_iteratorIPNS_11__hash_nodeISA_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIN6shazam12feature_typeENS_10unique_ptrINS2_3dsp12FeatureModelENS_14default_deleteIS6_EEEEEENS_22__unordered_map_hasherIS3_SA_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_SA_SF_SD_Lb1EEENS_9allocatorISA_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIN6shazam12feature_typeENS_10unique_ptrINS2_3dsp12FeatureModelENS_14default_deleteIS6_EEEEEENS_22__unordered_map_hasherIS3_SA_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_SA_SF_SD_Lb1EEENS_9allocatorISA_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyS2_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyS2_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE25__emplace_unique_key_argsIyJRKNS_21piecewise_construct_tENS_5tupleIJRKyEEENSI_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyS2_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE5clearEv
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyS2_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyS2_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS2_S7_S5_Lb1EEENS_9allocatorIS2_EEED2Ev
++ __ZNSt3__112__rotate_gcdB8ne190102INS_17_ClassicAlgPolicyENS_16reverse_iteratorINS_11__wrap_iterIPcEEEEEET0_S7_S7_S7_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102Emc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102ILi0EEEPKc
++ __ZNSt3__112system_errorC1EiRKNS_14error_categoryEPKc
++ __ZNSt3__113__upper_boundB8ne190102INS_17_ClassicAlgPolicyEZN6shazam9crop_bandI15spectral_peak_tEEvN3gsl4spanIKT_Lm18446744073709551615EEERNS_6vectorIS7_NS_9allocatorIS7_EEEENS_6chrono8durationIjNS_5ratioILl1ELl125EEEEESJ_EUlRS8_RKT0_E0_NS5_7details13span_iteratorIKS4_EESS_SJ_NS_10__identityEEET1_SU_T2_RKT3_OSL_OT4_
++ __ZNSt3__113unordered_mapIiN6shazam14target_zone_2dENS_4hashIiEENS_8equal_toIiEENS_9allocatorINS_4pairIKiS2_EEEEED1B8ne190102Ev
++ __ZNSt3__114__partial_sortB8ne190102INS_17_ClassicAlgPolicyERPDoFbRK11xpair_groupIJ12xpair_fieldsEES6_EN3gsl7details13span_iteratorIS4_EESD_EET1_SE_SE_T2_RT0_
++ __ZNSt3__114__split_bufferI26static_aligned_dual_bufferIfLm2048EERNS_9allocatorIS2_EEE17__destruct_at_endB8ne190102EPS2_
++ __ZNSt3__114__split_bufferI26static_aligned_dual_bufferIfLm2048EERNS_9allocatorIS2_EEED2Ev
++ __ZNSt3__114__split_bufferI6ResultRNS_9allocatorIS1_EEE17__destruct_at_endB8ne190102EPS1_
++ __ZNSt3__114__split_bufferIN6shazam14density_filterI15spectral_peak_tEERNS_9allocatorIS4_EEE17__destruct_at_endB8ne190102EPS4_
++ __ZNSt3__114__split_bufferIN6shazam15CPULMFPDataBaseERNS_9allocatorIS2_EEE5clearB8ne190102Ev
++ __ZNSt3__114__split_bufferIN6shazam15basic_signatureILNS1_17signature_densityE24EEERNS_9allocatorIS4_EEE5clearB8ne190102Ev
++ __ZNSt3__114__split_bufferIN6shazam15freebird_tensorERNS_9allocatorIS2_EEE17__destruct_at_endB8ne190102EPS2_
++ __ZNSt3__114__split_bufferIN6shazam15freebird_tensorERNS_9allocatorIS2_EEED2Ev
++ __ZNSt3__114__split_bufferINS_10unique_ptrI15resample_streamNS_14default_deleteIS2_EEEERNS_9allocatorIS5_EEED2Ev
++ __ZNSt3__114__split_bufferINS_6vectorI15spectral_peak_tNS_9allocatorIS2_EEEERNS3_IS5_EEE17__destruct_at_endB8ne190102EPS5_
++ __ZNSt3__114__split_bufferINS_6vectorIN6shazam24ancient_dead_sig_point_tENS_9allocatorIS3_EEEERNS4_IS6_EEE17__destruct_at_endB8ne190102EPS6_
++ __ZNSt3__115__sort_dispatchB8ne190102INS_17_ClassicAlgPolicyEN3gsl7details13span_iteratorI11xpair_groupIJ12xpair_fieldsEEEEPDoFbRKS7_SA_EEEvT0_SD_RT1_
++ __ZNSt3__115allocate_sharedB8ne190102IN6shazam12SongDataBaseENS_9allocatorIS2_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8ne190102IN6shazam16CPUOnePtDatabaseENS_9allocatorIS2_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__116__insertion_sortB8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP15spectral_peak_tEEvT1_S7_T0_
++ __ZNSt3__116__insertion_sortB8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam11regresspairEEEvT1_S8_T0_
++ __ZNSt3__116__insertion_sortB8ne190102INS_17_ClassicAlgPolicyERNS_7greaterIvEEP6ResultEEvT1_S7_T0_
++ __ZNSt3__116__insertion_sortB8ne190102INS_17_ClassicAlgPolicyERPDoFbRK11xpair_groupIJ12xpair_fieldsEES6_EN3gsl7details13span_iteratorIS4_EEEEvT1_SE_T0_
++ __ZNSt3__116__pad_and_outputB8ne190102IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__116generic_categoryEv
++ __ZNSt3__117__floyd_sift_downB8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP15spectral_peak_tEET1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
++ __ZNSt3__117__floyd_sift_downB8ne190102INS_17_ClassicAlgPolicyERNS_7greaterIvEEP6ResultEET1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
++ __ZNSt3__117__floyd_sift_downB8ne190102INS_17_ClassicAlgPolicyERPDoFbRK11xpair_groupIJ12xpair_fieldsEES6_EN3gsl7details13span_iteratorIS4_EEEET1_SE_OT0_NS_15iterator_traitsISE_E15difference_typeE
++ __ZNSt3__117__is_sorted_untilB8ne190102IRNS_6__lessIvvEENS_16__deque_iteratorI15spectral_peak_tPKS5_RS6_PKS7_lLl512EEEEET0_SC_SC_T_
++ __ZNSt3__118__for_each_segmentB8ne190102INS_16__deque_iteratorI15spectral_peak_tPS2_RS2_PS3_lLl512EEENS_11__move_implINS_17_ClassicAlgPolicyEE12_MoveSegmentIS6_S6_EEEEvT_SC_T0_
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorI10SearchPlanEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorI15spectral_peak_tEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorI26static_aligned_dual_bufferIfLm2048EEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorI6ResultEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorI7peak_tfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN6shazam10SongOffsetEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN6shazam11regresspairEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN6shazam13sig_alignmentEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN6shazam14TrackingResultEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN6shazam14density_filterI15spectral_peak_tEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN6shazam15CPULMFPDataBaseEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN6shazam15basic_signatureILNS2_17signature_densityE24EEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN6shazam15freebird_tensorEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN6shazam21signature_header_typeEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN6shazam23spectral_peak_compact_tEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN6shazam24ancient_dead_sig_point_tEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN6shazam3dsp11CrepeFramer9timeframeEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN6shazam3dsp4HCQTILj2ELj6EE9timeframeEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN6shazam4lmfpILNS2_7fp_typeE0EEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN6shazam7tfmatchEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN6shazam9PeakMatchEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN6shazam9fp_suffixIL8AlgoType12EEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN6shazam9fp_suffixIL8AlgoType1EEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN6shazam9time_freqEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_10unique_ptrI15resample_streamNS_14default_deleteIS3_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_6chrono8durationIfNS_5ratioILl1ELl1EEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_6chrono8durationIxNS_5ratioILl1ELl1000EEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_6vectorI15spectral_peak_tNS1_IS3_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_6vectorIN6shazam24ancient_dead_sig_point_tENS1_IS4_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_6vectorIcNS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_7complexIfEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIP15spectral_peak_tEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorImEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIsEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIyEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocator_destroyB8ne190102INS_9allocatorI26static_aligned_dual_bufferIfLm2048EEEENS_16reverse_iteratorIPS3_EES7_EEvRT_T0_T1_
++ __ZNSt3__119__allocator_destroyB8ne190102INS_9allocatorI26static_aligned_dual_bufferIfLm2048EEEEPS3_S5_EEvRT_T0_T1_
++ __ZNSt3__119__allocator_destroyB8ne190102INS_9allocatorIN6shazam14density_filterI15spectral_peak_tEEEEPS5_S7_EEvRT_T0_T1_
++ __ZNSt3__119__partial_sort_implB8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP15spectral_peak_tS6_EET1_S7_S7_T2_OT0_
++ __ZNSt3__119__partial_sort_implB8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP7peak_tfS6_EET1_S7_S7_T2_OT0_
++ __ZNSt3__119__partial_sort_implB8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam11regresspairES7_EET1_S8_S8_T2_OT0_
++ __ZNSt3__119__partial_sort_implB8ne190102INS_17_ClassicAlgPolicyERNS_7greaterIvEEP6ResultS6_EET1_S7_S7_T2_OT0_
++ __ZNSt3__119__partial_sort_implB8ne190102INS_17_ClassicAlgPolicyERNS_7greaterIvEEPmS5_EET1_S6_S6_T2_OT0_
++ __ZNSt3__119__partial_sort_implB8ne190102INS_17_ClassicAlgPolicyERPDoFbRK11xpair_groupIJ12xpair_fieldsEES6_EN3gsl7details13span_iteratorIS4_EESD_EET1_SE_SE_T2_OT0_
++ __ZNSt3__119__shared_weak_count16__release_sharedB8ne190102Ev
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne190102Ev
++ __ZNSt3__119piecewise_constructE
++ __ZNSt3__120__shared_ptr_emplaceIN6shazam12SongDataBaseENS_9allocatorIS2_EEEC2B8ne190102IJES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN6shazam16CPUOnePtDatabaseENS_9allocatorIS2_EEEC2B8ne190102IJES4_Li0EEES4_DpOT_
++ __ZNSt3__120__throw_length_errorB8ne190102EPKc
++ __ZNSt3__120__throw_out_of_rangeB8ne190102EPKc
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIN6shazam12feature_typeENS_10unique_ptrINS4_3dsp12FeatureModelENS_14default_deleteIS8_EEEEEEPvEEEEEclB8ne190102EPSE_
++ __ZNSt3__123__lower_bound_bisectingB8ne190102INS_17_ClassicAlgPolicyEN3gsl7details13span_iteratorIK15spectral_peak_tEENS_6chrono8durationIjNS_5ratioILl1ELl125EEEEENS_10__identityEZN6shazam9crop_bandIS5_EEvNS2_4spanIKT_Lm18446744073709551615EEERNS_6vectorISH_NS_9allocatorISH_EEEESC_SC_EUlRSI_RKT0_E_EESQ_SQ_RKT1_NS_15iterator_traitsISQ_E15difference_typeERT3_RT2_
++ __ZNSt3__124__copy_move_unwrap_itersB8ne190102INS_11__move_implINS_17_ClassicAlgPolicyEEEP15spectral_peak_tS5_NS_16__deque_iteratorIS4_S5_RS4_PS5_lLl512EEELi0EEENS_4pairIT0_T2_EESB_T1_SC_
++ __ZNSt3__124__put_character_sequenceB8ne190102IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__125__throw_bad_function_callB8ne190102Ev
++ __ZNSt3__126__insertion_sort_unguardedB8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP15spectral_peak_tEEvT1_S7_T0_
++ __ZNSt3__126__insertion_sort_unguardedB8ne190102INS_17_ClassicAlgPolicyERNS_7greaterIvEEP6ResultEEvT1_S7_T0_
++ __ZNSt3__126__insertion_sort_unguardedB8ne190102INS_17_ClassicAlgPolicyERPDoFbRK11xpair_groupIJ12xpair_fieldsEES6_EN3gsl7details13span_iteratorIS4_EEEEvT1_SE_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8ne190102INS_17_ClassicAlgPolicyER3$_0P15spectral_peak_tEEbT1_S6_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8ne190102INS_17_ClassicAlgPolicyER3$_1P15spectral_peak_tEEbT1_S6_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8ne190102INS_17_ClassicAlgPolicyER3$_3P15spectral_peak_tEEbT1_S6_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP15spectral_peak_tEEbT1_S7_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP7peak_tfEEbT1_S7_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam11regresspairEEEbT1_S8_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8ne190102INS_17_ClassicAlgPolicyERNS_7greaterIvEEP6ResultEEbT1_S7_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8ne190102INS_17_ClassicAlgPolicyERNS_7greaterIvEEPmEEbT1_S6_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8ne190102INS_17_ClassicAlgPolicyERPDoFbRK11xpair_groupIJ12xpair_fieldsEES6_EN3gsl7details13span_iteratorIS4_EEEEbT1_SE_T0_
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorI26static_aligned_dual_bufferIfLm2048EEEEPS4_EEED2B8ne190102Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorI6ResultEEPS3_EEED2B8ne190102Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam14density_filterI15spectral_peak_tEEEEPS6_EEED2B8ne190102Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam15CPULMFPDataBaseEEEPS4_EEED2B8ne190102Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam15basic_signatureILNS3_17signature_densityE24EEEEEPS6_EEED2B8ne190102Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam15freebird_tensorEEEPS4_EEED2B8ne190102Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorI15spectral_peak_tNS2_IS4_EEEEEEPS6_EEED2B8ne190102Ev
++ __ZNSt3__131__partition_with_equals_on_leftB8ne190102INS_17_ClassicAlgPolicyEN3gsl7details13span_iteratorI11xpair_groupIJ12xpair_fieldsEEEERPDoFbRKS7_SA_EEET0_SE_SE_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB8ne190102INS_17_ClassicAlgPolicyEP15spectral_peak_tRNS_6__lessIvvEEEET0_S7_S7_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB8ne190102INS_17_ClassicAlgPolicyEP6ResultRNS_7greaterIvEEEET0_S7_S7_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB8ne190102INS_17_ClassicAlgPolicyEP7peak_tfRNS_6__lessIvvEEEET0_S7_S7_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB8ne190102INS_17_ClassicAlgPolicyEPN6shazam11regresspairERNS_6__lessIvvEEEET0_S8_S8_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB8ne190102INS_17_ClassicAlgPolicyEPmRNS_7greaterIvEEEET0_S6_S6_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8ne190102INS_17_ClassicAlgPolicyEN3gsl7details13span_iteratorI11xpair_groupIJ12xpair_fieldsEEEERPDoFbRKS7_SA_EEENS_4pairIT0_bEESF_SF_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8ne190102INS_17_ClassicAlgPolicyEP15spectral_peak_tRNS_6__lessIvvEEEENS_4pairIT0_bEES8_S8_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8ne190102INS_17_ClassicAlgPolicyEP6ResultRNS_7greaterIvEEEENS_4pairIT0_bEES8_S8_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8ne190102INS_17_ClassicAlgPolicyEP7peak_tfRNS_6__lessIvvEEEENS_4pairIT0_bEES8_S8_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8ne190102INS_17_ClassicAlgPolicyEPN6shazam11regresspairERNS_6__lessIvvEEEENS_4pairIT0_bEES9_S9_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8ne190102INS_17_ClassicAlgPolicyEPmRNS_7greaterIvEEEENS_4pairIT0_bEES7_S7_T1_
++ __ZNSt3__134__uninitialized_allocator_relocateB8ne190102INS_9allocatorI26static_aligned_dual_bufferIfLm2048EEEES3_EEvRT_PT0_S8_S8_
++ __ZNSt3__134__uninitialized_allocator_relocateB8ne190102INS_9allocatorI6ResultEES2_EEvRT_PT0_S7_S7_
++ __ZNSt3__134__uninitialized_allocator_relocateB8ne190102INS_9allocatorIN6shazam14density_filterI15spectral_peak_tEEEES5_EEvRT_PT0_SA_SA_
++ __ZNSt3__134__uninitialized_allocator_relocateB8ne190102INS_9allocatorIN6shazam15CPULMFPDataBaseEEES3_EEvRT_PT0_S8_S8_
++ __ZNSt3__134__uninitialized_allocator_relocateB8ne190102INS_9allocatorIN6shazam15basic_signatureILNS2_17signature_densityE24EEEEES5_EEvRT_PT0_SA_SA_
++ __ZNSt3__134__uninitialized_allocator_relocateB8ne190102INS_9allocatorIN6shazam15freebird_tensorEEES3_EEvRT_PT0_S8_S8_
++ __ZNSt3__135__uninitialized_allocator_copy_implB8ne190102INS_9allocatorI6ResultEEPS2_S4_S4_EET2_RT_T0_T1_S5_
++ __ZNSt3__135__uninitialized_allocator_copy_implB8ne190102INS_9allocatorINS_6vectorI15spectral_peak_tNS1_IS3_EEEEEEPS5_S7_S7_EET2_RT_T0_T1_S8_
++ __ZNSt3__135__uninitialized_allocator_copy_implB8ne190102INS_9allocatorIfEEN3gsl7details13span_iteratorIfEES6_PfEET2_RT_T0_T1_S8_
++ __ZNSt3__15__gcdIjEET_S1_S1_
++ __ZNSt3__15dequeI15spectral_peak_tNS_9allocatorIS1_EEE18__append_with_sizeB8ne190102INS_16__deque_iteratorIS1_PKS1_RS7_PKS8_lLl512EEEEEvT_m
++ __ZNSt3__15dequeI15spectral_peak_tNS_9allocatorIS1_EEE18__append_with_sizeB8ne190102INS_16__deque_iteratorIS1_PS1_RS1_PS7_lLl512EEEEEvT_m
++ __ZNSt3__15dequeI15spectral_peak_tNS_9allocatorIS1_EEE25__maybe_remove_back_spareB8ne190102Eb
++ __ZNSt3__15dequeI15spectral_peak_tNS_9allocatorIS1_EEE26__maybe_remove_front_spareB8ne190102Eb
++ __ZNSt3__15dequeI15spectral_peak_tNS_9allocatorIS1_EEED2B8ne190102Ev
++ __ZNSt3__15tupleIJN6shazam15basic_signatureILNS1_17signature_densityE2147483647EEENS1_18freebird_signatureEEED1Ev
++ __ZNSt3__16__sortIRNS_6__lessIffEEPfEEvT0_S5_T_
++ __ZNSt3__16vectorI10SearchPlanNS_9allocatorIS1_EEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorI15spectral_peak_tNS_9allocatorIS1_EEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorI15spectral_peak_tNS_9allocatorIS1_EEE16__init_with_sizeB8ne190102IPS1_S6_EEvT_T0_m
++ __ZNSt3__16vectorI15spectral_peak_tNS_9allocatorIS1_EEE18__assign_with_sizeB8ne190102IPKS1_S7_EEvT_T0_l
++ __ZNSt3__16vectorI15spectral_peak_tNS_9allocatorIS1_EEE18__insert_with_sizeB8ne190102INS_11__wrap_iterIPKS1_EES9_EENS6_IPS1_EES9_T_T0_l
++ __ZNSt3__16vectorI26static_aligned_dual_bufferIfLm2048EENS_9allocatorIS2_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorI26static_aligned_dual_bufferIfLm2048EENS_9allocatorIS2_EEE22__base_destruct_at_endB8ne190102EPS2_
++ __ZNSt3__16vectorI26static_aligned_dual_bufferIfLm2048EENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJS2_EEEPS2_DpOT_
++ __ZNSt3__16vectorI6ResultNS_9allocatorIS1_EEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorI6ResultNS_9allocatorIS1_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorI6ResultNS_9allocatorIS1_EEE16__init_with_sizeB8ne190102IPS1_S6_EEvT_T0_m
++ __ZNSt3__16vectorI6ResultNS_9allocatorIS1_EEE22__construct_one_at_endB8ne190102IJRKS1_EEEvDpOT_
++ __ZNSt3__16vectorI6ResultNS_9allocatorIS1_EEE7__clearB8ne190102Ev
++ __ZNSt3__16vectorIN6shazam14density_filterI15spectral_peak_tEENS_9allocatorIS4_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorIN6shazam14density_filterI15spectral_peak_tEENS_9allocatorIS4_EEE22__base_destruct_at_endB8ne190102EPS4_
++ __ZNSt3__16vectorIN6shazam14density_filterI15spectral_peak_tEENS_9allocatorIS4_EEE24__emplace_back_slow_pathIJRNS0_IS3_NS5_IS3_EEEERKNS1_17signature_densityERKNS_6chrono8durationIhNS_5ratioILl1ELl125EEEEEEEEPS4_DpOT_
++ __ZNSt3__16vectorIN6shazam15CPULMFPDataBaseENS_9allocatorIS2_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorIN6shazam15basic_signatureILNS1_17signature_densityE24EEENS_9allocatorIS4_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorIN6shazam15basic_signatureILNS1_17signature_densityE24EEENS_9allocatorIS4_EEE21__push_back_slow_pathIS4_EEPS4_OT_
++ __ZNSt3__16vectorIN6shazam15freebird_tensorENS_9allocatorIS2_EEE13__vdeallocateEv
++ __ZNSt3__16vectorIN6shazam15freebird_tensorENS_9allocatorIS2_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorIN6shazam15freebird_tensorENS_9allocatorIS2_EEE21__push_back_slow_pathIRKS2_EEPS2_OT_
++ __ZNSt3__16vectorIN6shazam15freebird_tensorENS_9allocatorIS2_EEE22__construct_one_at_endB8ne190102IJRKS2_EEEvDpOT_
++ __ZNSt3__16vectorIN6shazam15freebird_tensorENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJRS2_EEEPS2_DpOT_
++ __ZNSt3__16vectorIN6shazam15freebird_tensorENS_9allocatorIS2_EEE7__clearB8ne190102Ev
++ __ZNSt3__16vectorIN6shazam24ancient_dead_sig_point_tENS_9allocatorIS2_EEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorIN6shazam24ancient_dead_sig_point_tENS_9allocatorIS2_EEE18__assign_with_sizeB8ne190102IPKS2_S8_EEvT_T0_l
++ __ZNSt3__16vectorIN6shazam2io12_GLOBAL__N_115compacted_peaksENS_9allocatorIS4_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorIN6shazam3dsp11CrepeFramer9timeframeENS_9allocatorIS4_EEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorIN6shazam3dsp11CrepeFramer9timeframeENS_9allocatorIS4_EEE16__init_with_sizeB8ne190102INS_11__wrap_iterIPKS4_EESC_EEvT_T0_m
++ __ZNSt3__16vectorIN6shazam3dsp11CrepeFramer9timeframeENS_9allocatorIS4_EEE18__insert_with_sizeB8ne190102INS_11__wrap_iterIPKS4_EESC_EENS9_IPS4_EESC_T_T0_l
++ __ZNSt3__16vectorIN6shazam3dsp11CrepeFramer9timeframeENS_9allocatorIS4_EEE6resizeEm
++ __ZNSt3__16vectorIN6shazam3dsp11CrepeFramer9timeframeENS_9allocatorIS4_EEE8__appendEm
++ __ZNSt3__16vectorIN6shazam3dsp4HCQTILj2ELj6EE9timeframeENS_9allocatorIS5_EEE6resizeEm
++ __ZNSt3__16vectorIN6shazam3dsp4HCQTILj2ELj6EE9timeframeENS_9allocatorIS5_EEE8__appendEm
++ __ZNSt3__16vectorIN6shazam4lmfpILNS1_7fp_typeE0EEENS_9allocatorIS4_EEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorIN6shazam4lmfpILNS1_7fp_typeE0EEENS_9allocatorIS4_EEEC2B8ne190102Em
++ __ZNSt3__16vectorINS0_I15spectral_peak_tNS_9allocatorIS1_EEEENS2_IS4_EEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorINS0_I15spectral_peak_tNS_9allocatorIS1_EEEENS2_IS4_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorINS0_I15spectral_peak_tNS_9allocatorIS1_EEEENS2_IS4_EEE16__init_with_sizeB8ne190102IPS4_S8_EEvT_T0_m
++ __ZNSt3__16vectorINS0_I15spectral_peak_tNS_9allocatorIS1_EEEENS2_IS4_EEE7__clearB8ne190102Ev
++ __ZNSt3__16vectorINS0_I15spectral_peak_tNS_9allocatorIS1_EEEENS2_IS4_EEEC2B8ne190102Em
++ __ZNSt3__16vectorINS0_IN6shazam24ancient_dead_sig_point_tENS_9allocatorIS2_EEEENS3_IS5_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorINS0_IN6shazam24ancient_dead_sig_point_tENS_9allocatorIS2_EEEENS3_IS5_EEE7__clearB8ne190102Ev
++ __ZNSt3__16vectorINS0_IcNS_9allocatorIcEEEENS1_IS3_EEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorINS0_IcNS_9allocatorIcEEEENS1_IS3_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorINS0_IcNS_9allocatorIcEEEENS1_IS3_EEE7__clearB8ne190102Ev
++ __ZNSt3__16vectorINS0_IcNS_9allocatorIcEEEENS1_IS3_EEEC2B8ne190102Em
++ __ZNSt3__16vectorINS_10unique_ptrI15resample_streamNS_14default_deleteIS2_EEEENS_9allocatorIS5_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorINS_7complexIfEENS_9allocatorIS2_EEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorINS_7complexIfEENS_9allocatorIS2_EEE6resizeEm
++ __ZNSt3__16vectorINS_7complexIfEENS_9allocatorIS2_EEE7reserveEm
++ __ZNSt3__16vectorINS_7complexIfEENS_9allocatorIS2_EEE8__appendEm
++ __ZNSt3__16vectorINS_7complexIfEENS_9allocatorIS2_EEEC2B8ne190102Em
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorIcNS_9allocatorIcEEEC2B8ne190102Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE16__init_with_sizeB8ne190102IN3gsl7details13span_iteratorIfEES8_EEvT_T0_m
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE16__init_with_sizeB8ne190102IPfS5_EEvT_T0_m
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE18__construct_at_endIN3gsl7details13span_iteratorIfEES8_EEvT_T0_m
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE18__insert_with_sizeB8ne190102IPKfS6_EENS_11__wrap_iterIPfEENS7_IS6_EET_T0_l
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE7reserveEm
++ __ZNSt3__16vectorIfNS_9allocatorIfEEEC2B8ne190102Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEEC2B8ne190102EmRKf
++ __ZNSt3__16vectorIfNS_9allocatorIfEEEC2IN3gsl7details13span_iteratorIfEELi0EEET_S9_
++ __ZNSt3__16vectorImNS_9allocatorImEEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorImNS_9allocatorImEEE6resizeEm
++ __ZNSt3__16vectorImNS_9allocatorImEEE8__appendEm
++ __ZNSt3__16vectorImNS_9allocatorImEEEC2B8ne190102EmRKm
++ __ZNSt3__16vectorIsNS_9allocatorIsEEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorIsNS_9allocatorIsEEEC2B8ne190102Em
++ __ZNSt3__17__sort3B8ne190102INS_17_ClassicAlgPolicyER3$_0P15spectral_peak_tEEjT1_S6_S6_T0_
++ __ZNSt3__17__sort3B8ne190102INS_17_ClassicAlgPolicyER3$_1P15spectral_peak_tEEjT1_S6_S6_T0_
++ __ZNSt3__17__sort3B8ne190102INS_17_ClassicAlgPolicyER3$_3P15spectral_peak_tEEjT1_S6_S6_T0_
++ __ZNSt3__17__sort3B8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP15spectral_peak_tEEjT1_S7_S7_T0_
++ __ZNSt3__17__sort3B8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP7peak_tfEEjT1_S7_S7_T0_
++ __ZNSt3__17__sort3B8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam11regresspairEEEjT1_S8_S8_T0_
++ __ZNSt3__17__sort3B8ne190102INS_17_ClassicAlgPolicyERNS_7greaterIvEEP6ResultEEjT1_S7_S7_T0_
++ __ZNSt3__17__sort3B8ne190102INS_17_ClassicAlgPolicyERNS_7greaterIvEEPmEEjT1_S6_S6_T0_
++ __ZNSt3__17__sort3B8ne190102INS_17_ClassicAlgPolicyERPDoFbRK11xpair_groupIJ12xpair_fieldsEES6_EN3gsl7details13span_iteratorIS4_EEEEjT1_SE_SE_T0_
++ __ZNSt3__17__sort4B8ne190102INS_17_ClassicAlgPolicyER3$_0P15spectral_peak_tEEvT1_S6_S6_S6_T0_
++ __ZNSt3__17__sort4B8ne190102INS_17_ClassicAlgPolicyER3$_1P15spectral_peak_tEEvT1_S6_S6_S6_T0_
++ __ZNSt3__17__sort4B8ne190102INS_17_ClassicAlgPolicyER3$_3P15spectral_peak_tEEvT1_S6_S6_S6_T0_
++ __ZNSt3__17__sort4B8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP15spectral_peak_tEEvT1_S7_S7_S7_T0_
++ __ZNSt3__17__sort4B8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP7peak_tfEEvT1_S7_S7_S7_T0_
++ __ZNSt3__17__sort4B8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam11regresspairEEEvT1_S8_S8_S8_T0_
++ __ZNSt3__17__sort4B8ne190102INS_17_ClassicAlgPolicyERNS_7greaterIvEEP6ResultEEvT1_S7_S7_S7_T0_
++ __ZNSt3__17__sort4B8ne190102INS_17_ClassicAlgPolicyERPDoFbRK11xpair_groupIJ12xpair_fieldsEES6_EN3gsl7details13span_iteratorIS4_EEEEvT1_SE_SE_SE_T0_
++ __ZNSt3__17__sort5B8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP15spectral_peak_tEEvT1_S7_S7_S7_S7_T0_
++ __ZNSt3__17__sort5B8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP7peak_tfEEvT1_S7_S7_S7_S7_T0_
++ __ZNSt3__17__sort5B8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam11regresspairEEEvT1_S8_S8_S8_S8_T0_
++ __ZNSt3__17__sort5B8ne190102INS_17_ClassicAlgPolicyERNS_7greaterIvEEP6ResultEEvT1_S7_S7_S7_S7_T0_
++ __ZNSt3__17__sort5B8ne190102INS_17_ClassicAlgPolicyERPDoFbRK11xpair_groupIJ12xpair_fieldsEES6_EN3gsl7details13span_iteratorIS4_EEEEvT1_SE_SE_SE_SE_T0_
++ __ZNSt3__18__rotateB8ne190102INS_17_ClassicAlgPolicyENS_16reverse_iteratorINS_11__wrap_iterIPcEEEES6_EENS_4pairIT0_S8_EES8_S8_T1_
++ __ZNSt3__19__sift_upB8ne190102INS_17_ClassicAlgPolicyERN6shazam7Tracker20ComparePeakMatchLessENS_11__wrap_iterIPNS2_9PeakMatchEEEEEvT1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
++ __ZNSt3__19__sift_upB8ne190102INS_17_ClassicAlgPolicyERN6shazam7Tracker23ComparePeakMatchGreaterENS_11__wrap_iterIPNS2_9PeakMatchEEEEEvT1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
++ __ZNSt3__19__sift_upB8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP15spectral_peak_tEEvT1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
++ __ZNSt3__19__sift_upB8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam11regresspairEEEvT1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
++ __ZNSt3__19__sift_upB8ne190102INS_17_ClassicAlgPolicyERNS_7greaterIvEEP6ResultEEvT1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
++ __ZNSt3__19__sift_upB8ne190102INS_17_ClassicAlgPolicyERPDoFbRK11xpair_groupIJ12xpair_fieldsEES6_EN3gsl7details13span_iteratorIS4_EEEEvT1_SE_OT0_NS_15iterator_traitsISE_E15difference_typeE
++ __ZNSt3__19allocatorIN6shazam12SongDataBaseEE7destroyB8ne190102EPS2_
++ __ZNSt3__19allocatorIN6shazam15CPULMFPDataBaseEE7destroyB8ne190102EPS2_
++ __ZNSt3__19allocatorIN6shazam15CPULMFPDataBaseEE9constructB8ne190102IS2_JR10SearchPlanRNS_6vectorIcNS0_IcEEEEEEEvPT_DpOT0_
++ __ZNSt3__19allocatorIN6shazam15CPULMFPDataBaseEE9constructB8ne190102IS2_JS2_EEEvPT_DpOT0_
++ __ZNSt3__19allocatorIN6shazam16CPUOnePtDatabaseEE7destroyB8ne190102EPS2_
++ __ZSt28__throw_bad_array_new_lengthB8ne190102v
++ __ZTI15inference_error
++ __ZTI18CoreMLFeatureModel
++ __ZTIN12_GLOBAL__N_118sigx_category_implE
++ __ZTIN2tl19bad_expected_accessIN6shazam10sigx_errorEEE
++ __ZTIN2tl19bad_expected_accessIN6shazam9sig_errorEEE
++ __ZTIN6shazam3dsp12FeatureModelE
++ __ZTINSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEEE
++ __ZTINSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EEE
++ __ZTINSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EEE
++ __ZTINSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EEE
++ __ZTINSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS9_EEFvNS2_16signature_headerEEEE
++ __ZTINSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorISE_EEFvNS2_16signature_headerEEEE
++ __ZTISt11logic_error
++ __ZTIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0
++ __ZTIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS1_15basic_signatureIXT_EEERKNS1_21packed_signature_viewEEUlRKNS1_16signature_headerEE_
++ __ZTIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS1_15basic_signatureIXT_EEERKNS1_21packed_signature_viewEEUlRKNS1_16signature_headerEE_
++ __ZTIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS1_15basic_signatureIXT_EEERKNS1_21packed_signature_viewEEUlRKNS1_16signature_headerEE_
++ __ZTIZN6shazam16unpack_signatureINS_18freebird_signatureEEET_RKNS_21packed_signature_viewEE3$_0
++ __ZTIZN6shazam16unpack_signatureINSt3__15tupleIJNS_15basic_signatureILNS_17signature_densityE2147483647EEENS_18freebird_signatureEEEEEET_RKNS_21packed_signature_viewEE3$_0
++ __ZTS15inference_error
++ __ZTS18CoreMLFeatureModel
++ __ZTSN12_GLOBAL__N_118sigx_category_implE
++ __ZTSN2tl19bad_expected_accessIN6shazam10sigx_errorEEE
++ __ZTSN2tl19bad_expected_accessIN6shazam9sig_errorEEE
++ __ZTSN6shazam3dsp12FeatureModelE
++ __ZTSNSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEEE
++ __ZTSNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EEE
++ __ZTSNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EEE
++ __ZTSNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EEE
++ __ZTSNSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS9_EEFvNS2_16signature_headerEEEE
++ __ZTSNSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorISE_EEFvNS2_16signature_headerEEEE
++ __ZTSZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0
++ __ZTSZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS1_15basic_signatureIXT_EEERKNS1_21packed_signature_viewEEUlRKNS1_16signature_headerEE_
++ __ZTSZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS1_15basic_signatureIXT_EEERKNS1_21packed_signature_viewEEUlRKNS1_16signature_headerEE_
++ __ZTSZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS1_15basic_signatureIXT_EEERKNS1_21packed_signature_viewEEUlRKNS1_16signature_headerEE_
++ __ZTSZN6shazam16unpack_signatureINS_18freebird_signatureEEET_RKNS_21packed_signature_viewEE3$_0
++ __ZTSZN6shazam16unpack_signatureINSt3__15tupleIJNS_15basic_signatureILNS_17signature_densityE2147483647EEENS_18freebird_signatureEEEEEET_RKNS_21packed_signature_viewEE3$_0
++ __ZTV15inference_error
++ __ZTV18CoreMLFeatureModel
++ __ZTVN12_GLOBAL__N_118sigx_category_implE
++ __ZTVN2tl19bad_expected_accessIN6shazam10sigx_errorEEE
++ __ZTVN2tl19bad_expected_accessIN6shazam9sig_errorEEE
++ __ZTVNSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEEE
++ __ZTVNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EEE
++ __ZTVNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EEE
++ __ZTVNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EEE
++ __ZTVNSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS9_EEFvNS2_16signature_headerEEEE
++ __ZTVNSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorISE_EEFvNS2_16signature_headerEEEE
++ __ZZN6shazam13sigx_categoryEvE8instance
++ ___block_descriptor_40_e8_32w_e17_v16?0"NSArray"8l
++ ___divsc3
++ ___sincosf_stret
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ ___swift_memcpy16_8
++ __os_signpost_emit_with_name_impl
++ _associated conformance So15SHCustomCatalogCST9ShazamKit8IteratorST_St
++ _exp2
++ _exp2f
++ _hypotf
++ _kCLLocationCoordinate2DInvalid
++ _locationCoordinateValueProperties
++ _log10f
++ _log2f
++ _objc_msgSend$ConvertSigXErrorCode:code:
++ _objc_msgSend$_rawResponseSongsData
++ _objc_msgSend$audioDurationInMilliseconds
++ _objc_msgSend$coalescePeaksFeatures:musicalFeatures:error:
++ _objc_msgSend$coalesePeakFeatures:musicalFeatures:error:
++ _objc_msgSend$commonSetupWithID:spectralPeaksData:musicalFeaturesData:startTime:
++ _objc_msgSend$configureMusicalFeaturesExtractorWithConfiguration:sampleRate:error:
++ _objc_msgSend$configureSpectralPeaksExtractorWithClipStype:maximumSeconds:sampleRate:error:
++ _objc_msgSend$configureSpectralPeaksExtractorWithSampleRate:error:
++ _objc_msgSend$containsSignatureWithIdentifier:
++ _objc_msgSend$convertException:toError:code:
++ _objc_msgSend$coordinate
++ _objc_msgSend$coordinateFromLocation:
++ _objc_msgSend$coordinateValueFromLatitude:longitude:
++ _objc_msgSend$cremaModelURL
++ _objc_msgSend$crepeModelURL
++ _objc_msgSend$dataPointer
++ _objc_msgSend$decimalNumberWithString:
++ _objc_msgSend$durationForSignatureData:
++ _objc_msgSend$enableSpectralOutputWithConfiguration:completionHandler:
++ _objc_msgSend$extractorController
++ _objc_msgSend$featureConfiguration
++ _objc_msgSend$featureExtractor
++ _objc_msgSend$featureValueForName:
++ _objc_msgSend$featuresWithError:
++ _objc_msgSend$flowBuffer:throughExtractor:error:
++ _objc_msgSend$flowFloatSamples:sampleCount:error:
++ _objc_msgSend$flowIntSamples:sampleCount:error:
++ _objc_msgSend$getValue:size:
++ _objc_msgSend$initWithClipStype:maximumSeconds:sampleRate:error:
++ _objc_msgSend$initWithConfiguration:sampleRate:error:
++ _objc_msgSend$initWithCremaModelURL:crepeModelURL:minimumDuration:
++ _objc_msgSend$initWithDictionary:error:
++ _objc_msgSend$initWithFeatureConfiguration:error:
++ _objc_msgSend$initWithID:spectralPeaksData:musicalFeaturesData:startTime:error:
++ _objc_msgSend$initWithMaximumSeconds:clipStyle:musicalFeaturesConfiguration:
++ _objc_msgSend$initWithMinimumSignatureDuration:maximumSignatureDuration:bufferDuration:musicalFeaturesConfiguration:
++ _objc_msgSend$initWithShape:dataType:error:
++ _objc_msgSend$initWithSignature:mediaItems:
++ _objc_msgSend$intValue
++ _objc_msgSend$isCircularBuffering
++ _objc_msgSend$isValidCoordinateValue:
++ _objc_msgSend$locationCoordinate
++ _objc_msgSend$locationFromCoordinate:
++ _objc_msgSend$locationFromCoordinateValue:
++ _objc_msgSend$matchReferenceAtIndex:
++ _objc_msgSend$matchReferenceForTrackID:
++ _objc_msgSend$minimumDuration
++ _objc_msgSend$minimumMusicalFeaturesDuration
++ _objc_msgSend$modelDescription
++ _objc_msgSend$modelWithContentsOfURL:error:
++ _objc_msgSend$multiArrayValue
++ _objc_msgSend$musicalFeaturesConfiguration
++ _objc_msgSend$musicalFeaturesData
++ _objc_msgSend$musicalFeaturesDuration
++ _objc_msgSend$musicalFeaturesExtractor
++ _objc_msgSend$numberWithInt:
++ _objc_msgSend$objCType
++ _objc_msgSend$predictionFromFeatures:error:
++ _objc_msgSend$removeObject:
++ _objc_msgSend$removeSignatureWithID:
++ _objc_msgSend$resetWithError:
++ _objc_msgSend$separate:intoPeakFeatures:andMusicalFeatures:error:
++ _objc_msgSend$setCremaModelURL:
++ _objc_msgSend$setCrepeModelURL:
++ _objc_msgSend$setLocationCoordinate:
++ _objc_msgSend$setMusicalFeaturesConfiguration:
++ _objc_msgSend$setMusicalFeaturesExtractor:
++ _objc_msgSend$setSampleRate:
++ _objc_msgSend$setSpectralPeaksExtractor:
++ _objc_msgSend$setStreatx:
++ _objc_msgSend$set_rawResponseSongsData:
++ _objc_msgSend$signatureDataForExtractor:error:
++ _objc_msgSend$signatureDurationForData:error:
++ _objc_msgSend$signatureExistsForIdentifier:
++ _objc_msgSend$signatureFileTypeForData:error:
++ _objc_msgSend$signatureIDs
++ _objc_msgSend$signatureTypeFromData:
++ _objc_msgSend$spectralPeaksData
++ _objc_msgSend$spectralPeaksDuration
++ _objc_msgSend$spectralPeaksExtractor
++ _objc_msgSend$splitSignatureFromData:intoSpectralPeaks:andMusicalFeatures:error:
++ _objc_msgSend$transformedPropertiesFromProperties:
++ _objc_msgSend$valueForCoordinate:
++ _objc_msgSend$valueWithBytes:objCType:
++ _os_signpost_enabled
++ _os_signpost_id_generate
++ _symbolic $sST
++ _symbolic $sSt
++ _symbolic Sd
++ _symbolic _____ 9ShazamKit16SHReferenceMatchV
++ _symbolic _____ So15SHCustomCatalogC9ShazamKitE0aB8IteratorV
++ _symbolic _____ So22CLLocationCoordinate2DV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9ShazamKit16SHReferenceMatchV
++ _vDSP_zmmul
++ block_copy_helper.42
++ block_copy_helper.58
++ block_descriptor.44
++ block_descriptor.60
++ block_destroy_helper.43
++ block_destroy_helper.59
++ keypath_get.3Tm
++ keypath_set.4Tm
++ objectdestroy.21Tm
++ sh_log_object.cold.1
+- +[SHGroupMO(CoreDataProperties) fetchRequest]
+- +[SHMetadataMO(CoreDataProperties) fetchRequest]
+- +[SHTrackMO(CoreDataProperties) fetchRequest]
+- +[SigCrop getSampleLength:error:]
+- +[SigX version]
+- -[MREResult dealloc]
+- -[MRESignature dealloc]
+- -[SHMediaItem _rawResponseSongs]
+- -[SHMediaItem set_rawResponseSongs:]
+- -[SHMediaLibraryGroup initWithManagedGroup:]
+- -[SHMediaLibraryTrack initWithManagedTrack:]
+- -[SHMediaLibraryTrack setLocation:]
+- -[SHMutableSignature setSigX:]
+- -[SHMutableSignature sigX]
+- -[SHMutableSignature signatureType]
+- -[SHSignature commonSetupWithID:dataRepresentation:startTime:]
+- -[SHSignatureBuffer initWithMinimumSignatureDuration:maximumSignatureDuration:bufferDuration:]
+- -[SHStreamingSessionDriver initWithMinimumSignatureDuration:maximumSignatureDuration:bufferDuration:]
+- -[SigX ConvertException:toError:]
+- -[SigX ConvertSystemError:toError:]
+- -[SigX FillUnknownError:]
+- -[SigX dealloc]
+- -[SigX disableSpectralOutput]
+- -[SigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]
+- -[SigX flowFloatSamples:sampleCount:channels:error:]
+- -[SigX flowFloatSamples:sampleCount:error:]
+- -[SigX flowIntSamples:sampleCount:channels:error:]
+- -[SigX flowIntSamples:sampleCount:error:]
+- -[SigX initWithSignatureType:sampleRate:error:]
+- -[SigX initWithSignatureType:sampleRate:signatureOptions:error:]
+- -[SigX mySigX]
+- -[SigX resetWithError:]
+- -[SigX setMySigX:]
+- -[SigX setRollingBufferSeconds:error:]
+- -[SigX setSpectralOutputHandler:]
+- -[SigX signatureWithError:]
+- -[SigX spectralOutputHandler]
+- -[SigX(SHFlow) flowBuffer:error:]
+- GCC_except_table101
+- GCC_except_table113
+- GCC_except_table125
+- GCC_except_table132
+- GCC_except_table134
+- GCC_except_table140
+- GCC_except_table145
+- GCC_except_table152
+- GCC_except_table163
+- GCC_except_table169
+- GCC_except_table175
+- GCC_except_table176
+- GCC_except_table182
+- GCC_except_table183
+- GCC_except_table184
+- GCC_except_table57
+- GCC_except_table79
+- GCC_except_table81
+- GCC_except_table82
+- GCC_except_table83
+- GCC_except_table84
+- GCC_except_table93
+- GCC_except_table94
+- GCC_except_table96
+- OBJC_IVAR_$_SHMediaItem.__rawResponseSongs
+- OBJC_IVAR_$_SHMediaLibraryTrack._location
+- OBJC_IVAR_$_SHMutableSignature._sigX
+- OBJC_IVAR_$_SHSignature._dataRepresentation
+- OBJC_IVAR_$_SigX._mySigX
+- OBJC_IVAR_$_SigX._spectralOutputHandler
+- _OBJC_CLASS_$_NSFetchRequest
+- _OBJC_CLASS_$_NSJSONSerialization
+- _OBJC_CLASS_$_NSManagedObject
+- _OBJC_CLASS_$_SHGroupMO
+- _OBJC_CLASS_$_SHMetadataMO
+- _OBJC_CLASS_$_SHTrackMO
+- _OBJC_CLASS_$_SigX
+- _OBJC_METACLASS_$_NSManagedObject
+- _OBJC_METACLASS_$_SHGroupMO
+- _OBJC_METACLASS_$_SHMetadataMO
+- _OBJC_METACLASS_$_SHTrackMO
+- _OBJC_METACLASS_$_SigX
+- _SHMediaItemMatchLocation
+- __OBJC_$_CLASS_METHODS_SHGroupMO(CoreDataProperties)
+- __OBJC_$_CLASS_METHODS_SHMetadataMO(CoreDataProperties)
+- __OBJC_$_CLASS_METHODS_SHTrackMO(CoreDataProperties)
+- __OBJC_$_CLASS_METHODS_SigX
+- __OBJC_$_INSTANCE_METHODS_SigX(SHFlow)
+- __OBJC_$_INSTANCE_VARIABLES_SigX
+- __OBJC_$_PROP_LIST_SigX
+- __OBJC_CLASS_RO_$_SHGroupMO
+- __OBJC_CLASS_RO_$_SHMetadataMO
+- __OBJC_CLASS_RO_$_SHTrackMO
+- __OBJC_CLASS_RO_$_SigX
+- __OBJC_METACLASS_RO_$_SHGroupMO
+- __OBJC_METACLASS_RO_$_SHMetadataMO
+- __OBJC_METACLASS_RO_$_SHTrackMO
+- __OBJC_METACLASS_RO_$_SigX
+- __Z11crc32_checkjPKcm
+- __Z12window_peaksI15spectral_peak_tENSt3__15dequeIT_NS1_9allocatorIS3_EEEERS6_NS1_6chrono8durationIjNS1_5ratioILl1ELl125EEEEE
+- __Z17BandSpectralPeaksINSt3__116__deque_iteratorI15spectral_peak_tPKS2_RS3_PKS4_lLl512EEENS0_6vectorINS9_IS2_NS0_9allocatorIS2_EEEENSA_ISC_EEEEET0_T_SG_N6shazam17signature_densityEmb
+- __Z8checksumPKvm
+- __ZGVZ20-[MRE search:error:]E14configProvider
+- __ZGVZ20-[MRE search:error:]E6config
+- __ZGVZN6shazam24get_spect_peak_log_scaleEvE21_spect_peak_log_scale
+- __ZGVZN6shazam25get_spect_peak_log_offsetEvE22_spect_peak_log_offset
+- __ZN10fft_streamC2Ev
+- __ZN10sig_streamC1Ev
+- __ZN10sig_streamC2Ev
+- __ZN11SHAZAM_SIGX13get_signatureERNSt3__16vectorIcNS0_9allocatorIcEEEE
+- __ZN11SHAZAM_SIGX21setup_spectral_outputEiiRKNSt3__18functionIFvPKfmEEE
+- __ZN11SHAZAM_SIGX22set_max_rolling_bufferEf
+- __ZN11SHAZAM_SIGX23disable_spectral_outputEv
+- __ZN11SHAZAM_SIGX4flowEPKfi
+- __ZN11SHAZAM_SIGX4flowEPKsi
+- __ZN11SHAZAM_SIGX4flowEPfii
+- __ZN11SHAZAM_SIGX4flowEPsii
+- __ZN11SHAZAM_SIGX5resetEv
+- __ZN11SHAZAM_SIGXC1E14signature_typej17signature_options
+- __ZN11SHAZAM_SIGXC2E14signature_typej17signature_options
+- __ZN11SHAZAM_SIGXD1Ev
+- __ZN12_GLOBAL__N_17get_sigERKNSt3__15dequeI15spectral_peak_tNS0_9allocatorIS2_EEEERKN6shazam14signature_infoENS8_17signature_densityEbm
+- __ZN15resample_streamC1Ejj
+- __ZN15resample_streamC2Ejj
+- __ZN15resample_streamD1Ev
+- __ZN17AlignedRingBufferINSt3__17complexIfEEEC2Eii
+- __ZN17AlignedRingBufferIfEC2Eii
+- __ZN18sig_extractor_pipeI15spectral_peak_tE14getWindowedSigEN6shazam17signature_densityE
+- __ZN18sig_extractor_pipeI15spectral_peak_tE15getStreamingSigEN6shazam17signature_densityE
+- __ZN18sig_extractor_pipeI15spectral_peak_tE17getProgressiveSigEN6shazam17signature_densityE
+- __ZN18sig_extractor_pipeI15spectral_peak_tEC1E14signature_typei17signature_options
+- __ZN18sig_extractor_pipeI15spectral_peak_tEC2E14signature_typei17signature_options
+- __ZN18sig_extractor_pipeI15spectral_peak_tED2Ev
+- __ZN3gsl12final_actionIZN18sig_extractor_pipeI15spectral_peak_tE14getWindowedSigEN6shazam17signature_densityEEUlvE_ED2Ev
+- __ZN3gsl12final_actionIZN18sig_extractor_pipeI15spectral_peak_tE15getStreamingSigEN6shazam17signature_densityEEUlvE_ED2Ev
+- __ZN3gsl12final_actionIZN18sig_extractor_pipeI15spectral_peak_tE17getProgressiveSigEN6shazam17signature_densityEEUlvE_ED2Ev
+- __ZN6shazam11make_vectorINS_15basic_signatureILNS_17signature_densityE24EEEJRKN3gsl4spanIKcLm18446744073709551615EEEEEEDaDpOT0_
+- __ZN6shazam14signature_infoC1EPK15legacy_sig_info
+- __ZN6shazam14signature_infoC1EPK16LegacyFatSigInfo
+- __ZN6shazam14signature_infoC2EPK15legacy_sig_info
+- __ZN6shazam14signature_infoC2EPK16LegacyFatSigInfo
+- __ZN6shazam15basic_signatureILNS_17signature_densityE16EEC1ERKNS_21packed_signature_viewE
+- __ZN6shazam15basic_signatureILNS_17signature_densityE16EEC2ERKNS_21packed_signature_viewE
+- __ZN6shazam15basic_signatureILNS_17signature_densityE2147483647EEC1ERKNS_21packed_signature_viewE
+- __ZN6shazam15basic_signatureILNS_17signature_densityE2147483647EEC2ERKNS_21packed_signature_viewE
+- __ZN6shazam15basic_signatureILNS_17signature_densityE24EEC1ERKNS_21packed_signature_viewE
+- __ZN6shazam15basic_signatureILNS_17signature_densityE24EEC2ERKNS_21packed_signature_viewE
+- __ZN6shazam17reinterpret_saferIPK11SumoSigInfoLi0EEET_RKN3gsl4spanIKcLm18446744073709551615EEE
+- __ZN6shazam17reinterpret_saferIPK13ClusterCmdPktLi0EEET_RKN3gsl4spanIKcLm18446744073709551615EEE
+- __ZN6shazam17reinterpret_saferIPK15legacy_sig_infoLi0EEET_RKN3gsl4spanIKcLm18446744073709551615EEE
+- __ZN6shazam17reinterpret_saferIPK15spectral_peak_tLi0EEET_RKN3gsl4spanIKcLm18446744073709551615EEE
+- __ZN6shazam17reinterpret_saferIPK16LegacyFatSigInfoLi0EEET_RKN3gsl4spanIKcLm18446744073709551615EEE
+- __ZN6shazam17reinterpret_saferIPKNS_15ShazamKitHeaderELi0EEET_RKN3gsl4spanIKcLm18446744073709551615EEE
+- __ZN6shazam17reinterpret_saferIPKNS_23spectral_peak_compact_tELi0EEET_RKN3gsl4spanIKcLm18446744073709551615EEE
+- __ZN6shazam17reinterpret_saferIPKNS_24ancient_dead_sig_point_tELi0EEET_RKN3gsl4spanIKcLm18446744073709551615EEE
+- __ZN6shazam17reinterpret_saferIPKNS_25fp_data_header_extern_newELi0EEET_RKN3gsl4spanIKcLm18446744073709551615EEE
+- __ZN6shazam17reinterpret_saferIPKNS_28fp_data_header_extern_legacyELi0EEET_RKN3gsl4spanIKcLm18446744073709551615EEE
+- __ZN6shazam17reinterpret_saferIPKjLi0EEET_RKN3gsl4spanIKcLm18446744073709551615EEE
+- __ZN6shazam21packed_signature_viewC2EN3gsl4spanIKcLm18446744073709551615EEE
+- __ZN6shazam28inflate_basic_sumo_peak_dataEN3gsl4spanIKcLm18446744073709551615EEENS_17signature_densityENSt3__16chrono8durationIhNS5_5ratioILl1ELl125EEEEE
+- __ZN7SHZ_FFTC2Em
+- __ZNK10sig_stream30get_writable_fft_frame_complexEv
+- __ZNK10sig_stream32get_writable_fft_frame_magnitudeEv
+- __ZNKSt3__110__function6__funcIZ89-[SigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ89-[SigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ89-[SigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEE7__cloneEPNS0_6__baseIS7_EE
+- __ZNKSt3__110__function6__funcIZ89-[SigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE16EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EE11target_typeEv
+- __ZNKSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE16EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE16EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EE7__cloneEPNS0_6__baseISD_EE
+- __ZNKSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE16EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EE7__cloneEv
+- __ZNKSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE2147483647EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EE11target_typeEv
+- __ZNKSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE2147483647EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE2147483647EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EE7__cloneEPNS0_6__baseISD_EE
+- __ZNKSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE2147483647EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EE7__cloneEv
+- __ZNKSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE24EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EE11target_typeEv
+- __ZNKSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE24EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE24EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EE7__cloneEPNS0_6__baseISD_EE
+- __ZNKSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE24EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EE7__cloneEv
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__114default_deleteI11MREInstanceEclB8ne180100EPS1_
+- __ZNKSt3__116__deque_iteratorI15spectral_peak_tPS1_RS1_PS2_lLl512EEplB8ne180100El
+- __ZNKSt3__120__move_backward_loopINS_17_ClassicAlgPolicyEEclB8ne180100INS_16__deque_iteratorI15spectral_peak_tPS5_RS5_PS6_lLl512EEES9_Li0EEENS_4pairIT_T0_EESB_SB_SC_
+- __ZNKSt3__120__move_backward_loopINS_17_ClassicAlgPolicyEEclB8ne180100IP15spectral_peak_tNS_16__deque_iteratorIS4_S5_RS4_PS5_lLl512EEELi0EEENS_4pairIT_T0_EESB_SB_SC_
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorI6ResultEENS_16reverse_iteratorIPS2_EEEclB8ne180100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorI6ResultEEPS2_EclB8ne180100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam14density_filterI15spectral_peak_tEEEENS_16reverse_iteratorIPS5_EEEclB8ne180100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam15CPULMFPDataBaseEEENS_16reverse_iteratorIPS3_EEEclB8ne180100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam15basic_signatureILNS2_17signature_densityE24EEEEENS_16reverse_iteratorIPS5_EEEclB8ne180100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorI15spectral_peak_tNS1_IS3_EEEEEENS_16reverse_iteratorIPS5_EEEclB8ne180100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorI15spectral_peak_tNS1_IS3_EEEEEEPS5_EclB8ne180100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIN6shazam24ancient_dead_sig_point_tENS1_IS4_EEEEEENS_16reverse_iteratorIPS6_EEEclB8ne180100Ev
+- __ZNKSt3__16vectorI10SearchPlanNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorI15spectral_peak_tNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorI6ResultNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorI7peak_tfNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN6shazam10SongOffsetENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN6shazam11regresspairENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN6shazam13sig_alignmentENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN6shazam14TrackingResultENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN6shazam14density_filterI15spectral_peak_tEENS_9allocatorIS4_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN6shazam15CPULMFPDataBaseENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN6shazam15basic_signatureILNS1_17signature_densityE24EEENS_9allocatorIS4_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN6shazam21signature_header_typeENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN6shazam23spectral_peak_compact_tENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN6shazam24ancient_dead_sig_point_tENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN6shazam2io12_GLOBAL__N_115compacted_peaksENS_9allocatorIS4_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN6shazam4lmfpILNS1_7fp_typeE0EEENS_9allocatorIS4_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN6shazam7tfmatchENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN6shazam9PeakMatchENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN6shazam9fp_suffixIL8AlgoType12EEENS_9allocatorIS4_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN6shazam9fp_suffixIL8AlgoType1EEENS_9allocatorIS4_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN6shazam9time_freqENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorINS0_I15spectral_peak_tNS_9allocatorIS1_EEEENS2_IS4_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorINS0_IN6shazam24ancient_dead_sig_point_tENS_9allocatorIS2_EEEENS3_IS5_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorINS0_IcNS_9allocatorIcEEEENS1_IS3_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorINS_6chrono8durationIfNS_5ratioILl1ELl1EEEEENS_9allocatorIS5_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorINS_6chrono8durationIxNS_5ratioILl1ELl1000EEEEENS_9allocatorIS5_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorINS_7complexIfEENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorImNS_9allocatorImEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIsNS_9allocatorIsEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIyNS_9allocatorIyEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt9exception4whatEv
+- __ZNKSt9type_infoeqB8ne180100ERKS_
+- __ZNSt11range_errorC1B8ne180100EPKc
+- __ZNSt12length_errorC1B8ne180100EPKc
+- __ZNSt12out_of_rangeC1B8ne180100EPKc
+- __ZNSt3__110__function12__value_funcIFvN6shazam16signature_headerEEED2B8ne180100Ev
+- __ZNSt3__110__function12__value_funcIFvPKfmEE4swapB8ne180100ERS5_
+- __ZNSt3__110__function12__value_funcIFvPKfmEEC2B8ne180100ERKS5_
+- __ZNSt3__110__function12__value_funcIFvPKfmEED2B8ne180100Ev
+- __ZNSt3__110__function12__value_funcIFvRK14SearchResponseEED2B8ne180100Ev
+- __ZNSt3__110__function12__value_funcIFvRKN6shazam14TrackingResultERKNS2_13sig_alignmentEEED2B8ne180100Ev
+- __ZNSt3__110__function6__funcIZ89-[SigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ89-[SigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEE7destroyEv
+- __ZNSt3__110__function6__funcIZ89-[SigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEED0Ev
+- __ZNSt3__110__function6__funcIZ89-[SigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEED1Ev
+- __ZNSt3__110__function6__funcIZ89-[SigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEEclEOS6_Om
+- __ZNSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE16EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE16EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EE7destroyEv
+- __ZNSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE16EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EED0Ev
+- __ZNSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE16EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EED1Ev
+- __ZNSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE16EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EEclEOS9_
+- __ZNSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE2147483647EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE2147483647EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EE7destroyEv
+- __ZNSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE2147483647EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EED0Ev
+- __ZNSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE2147483647EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EED1Ev
+- __ZNSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE2147483647EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EEclEOS9_
+- __ZNSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE24EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE24EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EE7destroyEv
+- __ZNSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE24EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EED0Ev
+- __ZNSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE24EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EED1Ev
+- __ZNSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE24EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EEclEOS9_
+- __ZNSt3__110__pop_heapB8ne180100INS_17_ClassicAlgPolicyENS_7greaterIvEEP6ResultEEvT1_S6_RT0_NS_15iterator_traitsIS6_E15difference_typeE
+- __ZNSt3__110__pop_heapB8ne180100INS_17_ClassicAlgPolicyEPDoFbRK11xpair_groupIJ12xpair_fieldsEES6_EN3gsl7details13span_iteratorIS4_EEEEvT1_SD_RT0_NS_15iterator_traitsISD_E15difference_typeE
+- __ZNSt3__111__sift_downB8ne180100INS_17_ClassicAlgPolicyER3$_1P15spectral_peak_tEEvT1_OT0_NS_15iterator_traitsIS6_E15difference_typeES6_
+- __ZNSt3__111__sift_downB8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP15spectral_peak_tEEvT1_OT0_NS_15iterator_traitsIS7_E15difference_typeES7_
+- __ZNSt3__111__sift_downB8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP7peak_tfEEvT1_OT0_NS_15iterator_traitsIS7_E15difference_typeES7_
+- __ZNSt3__111__sift_downB8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam11regresspairEEEvT1_OT0_NS_15iterator_traitsIS8_E15difference_typeES8_
+- __ZNSt3__111__sift_downB8ne180100INS_17_ClassicAlgPolicyERNS_7greaterIvEEP6ResultEEvT1_OT0_NS_15iterator_traitsIS7_E15difference_typeES7_
+- __ZNSt3__111__sift_downB8ne180100INS_17_ClassicAlgPolicyERNS_7greaterIvEEPmEEvT1_OT0_NS_15iterator_traitsIS6_E15difference_typeES6_
+- __ZNSt3__111__sift_downB8ne180100INS_17_ClassicAlgPolicyERPDoFbRK11xpair_groupIJ12xpair_fieldsEES6_EN3gsl7details13span_iteratorIS4_EEEEvT1_OT0_NS_15iterator_traitsISE_E15difference_typeESE_
+- __ZNSt3__111make_uniqueB8ne180100IN6shazam17StaticCPUSearcherEJRKNS1_12CPUDatabasesERK5TimerRKmSA_RKbEEENS_11__unique_ifIT_E15__unique_singleEDpOT0_
+- __ZNSt3__112__rotate_gcdB8ne180100INS_17_ClassicAlgPolicyENS_16reverse_iteratorINS_11__wrap_iterIPcEEEEEET0_S7_S7_S7_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne180100Emc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne180100ILi0EEEPKc
+- __ZNSt3__113__lower_boundB8ne180100INS_17_ClassicAlgPolicyEN3gsl7details13span_iteratorIK15spectral_peak_tEES7_NS_6chrono8durationIjNS_5ratioILl1ELl125EEEEENS_10__identityEZN6shazam9crop_bandIS5_EEvNS2_4spanIKT_Lm18446744073709551615EEERNS_6vectorISH_NS_9allocatorISH_EEEESC_SC_EUlRSI_RKT0_E_EESQ_SQ_T1_RKT2_RT4_RT3_
+- __ZNSt3__113__upper_boundB8ne180100INS_17_ClassicAlgPolicyEZN6shazam9crop_bandI15spectral_peak_tEEvN3gsl4spanIKT_Lm18446744073709551615EEERNS_6vectorIS7_NS_9allocatorIS7_EEEENS_6chrono8durationIjNS_5ratioILl1ELl125EEEEESJ_EUlRS8_RKT0_E0_NS5_7details13span_iteratorIKS4_EESS_SJ_NS_10__identityEEET1_SU_T2_RKT3_OSL_OT4_
+- __ZNSt3__113unordered_mapIiN6shazam14target_zone_2dENS_4hashIiEENS_8equal_toIiEENS_9allocatorINS_4pairIKiS2_EEEEED1B8ne180100Ev
+- __ZNSt3__114__partial_sortB8ne180100INS_17_ClassicAlgPolicyERPDoFbRK11xpair_groupIJ12xpair_fieldsEES6_EN3gsl7details13span_iteratorIS4_EESD_EET1_SE_SE_T2_RT0_
+- __ZNSt3__114__split_bufferI6ResultRNS_9allocatorIS1_EEE17__destruct_at_endB8ne180100EPS1_
+- __ZNSt3__114__split_bufferIN6shazam14density_filterI15spectral_peak_tEERNS_9allocatorIS4_EEE17__destruct_at_endB8ne180100EPS4_
+- __ZNSt3__114__split_bufferIN6shazam15CPULMFPDataBaseERNS_9allocatorIS2_EEE5clearB8ne180100Ev
+- __ZNSt3__114__split_bufferIN6shazam15basic_signatureILNS1_17signature_densityE24EEERNS_9allocatorIS4_EEE5clearB8ne180100Ev
+- __ZNSt3__114__split_bufferINS_6vectorI15spectral_peak_tNS_9allocatorIS2_EEEERNS3_IS5_EEE17__destruct_at_endB8ne180100EPS5_
+- __ZNSt3__114__split_bufferINS_6vectorIN6shazam24ancient_dead_sig_point_tENS_9allocatorIS3_EEEERNS4_IS6_EEE17__destruct_at_endB8ne180100EPS6_
+- __ZNSt3__115__sort_dispatchB8ne180100INS_17_ClassicAlgPolicyEN3gsl7details13span_iteratorI11xpair_groupIJ12xpair_fieldsEEEEPDoFbRKS7_SA_EEEvT0_SD_RT1_
+- __ZNSt3__115allocate_sharedB8ne180100IN6shazam12SongDataBaseENS_9allocatorIS2_EEJEvEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne180100IN6shazam16CPUOnePtDatabaseENS_9allocatorIS2_EEJEvEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__116__insertion_sortB8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP15spectral_peak_tEEvT1_S7_T0_
+- __ZNSt3__116__insertion_sortB8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam11regresspairEEEvT1_S8_T0_
+- __ZNSt3__116__insertion_sortB8ne180100INS_17_ClassicAlgPolicyERNS_7greaterIvEEP6ResultEEvT1_S7_T0_
+- __ZNSt3__116__insertion_sortB8ne180100INS_17_ClassicAlgPolicyERPDoFbRK11xpair_groupIJ12xpair_fieldsEES6_EN3gsl7details13span_iteratorIS4_EEEEvT1_SE_T0_
+- __ZNSt3__116__pad_and_outputB8ne180100IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__117__floyd_sift_downB8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP15spectral_peak_tEET1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
+- __ZNSt3__117__floyd_sift_downB8ne180100INS_17_ClassicAlgPolicyERNS_7greaterIvEEP6ResultEET1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
+- __ZNSt3__117__floyd_sift_downB8ne180100INS_17_ClassicAlgPolicyERPDoFbRK11xpair_groupIJ12xpair_fieldsEES6_EN3gsl7details13span_iteratorIS4_EEEET1_SE_OT0_NS_15iterator_traitsISE_E15difference_typeE
+- __ZNSt3__117__is_sorted_untilB8ne180100IRNS_6__lessIvvEENS_16__deque_iteratorI15spectral_peak_tPKS5_RS6_PKS7_lLl512EEEEET0_SC_SC_T_
+- __ZNSt3__117bad_function_callD0Ev
+- __ZNSt3__118__for_each_segmentB8ne180100INS_16__deque_iteratorI15spectral_peak_tPS2_RS2_PS3_lLl512EEENS_11__move_loopINS_17_ClassicAlgPolicyEE12_MoveSegmentIS6_S6_EEEEvT_SC_T0_
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorI10SearchPlanEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorI15spectral_peak_tEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorI6ResultEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorI7peak_tfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIN6shazam10SongOffsetEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIN6shazam11regresspairEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIN6shazam13sig_alignmentEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIN6shazam14TrackingResultEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIN6shazam14density_filterI15spectral_peak_tEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIN6shazam15CPULMFPDataBaseEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIN6shazam15basic_signatureILNS2_17signature_densityE24EEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIN6shazam21signature_header_typeEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIN6shazam23spectral_peak_compact_tEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIN6shazam24ancient_dead_sig_point_tEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIN6shazam4lmfpILNS2_7fp_typeE0EEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIN6shazam7tfmatchEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIN6shazam9PeakMatchEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIN6shazam9fp_suffixIL8AlgoType12EEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIN6shazam9fp_suffixIL8AlgoType1EEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIN6shazam9time_freqEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorINS_6chrono8durationIfNS_5ratioILl1ELl1EEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorINS_6chrono8durationIxNS_5ratioILl1ELl1000EEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorINS_6vectorI15spectral_peak_tNS1_IS3_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorINS_6vectorIN6shazam24ancient_dead_sig_point_tENS1_IS4_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorINS_6vectorIcNS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorINS_7complexIfEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIP15spectral_peak_tEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorImEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIsEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIyEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocator_destroyB8ne180100INS_9allocatorIN6shazam14density_filterI15spectral_peak_tEEEENS_16reverse_iteratorINS7_IPS5_EEEESA_EEvRT_T0_T1_
+- __ZNSt3__119__partial_sort_implB8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP15spectral_peak_tS6_EET1_S7_S7_T2_OT0_
+- __ZNSt3__119__partial_sort_implB8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP7peak_tfS6_EET1_S7_S7_T2_OT0_
+- __ZNSt3__119__partial_sort_implB8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam11regresspairES7_EET1_S8_S8_T2_OT0_
+- __ZNSt3__119__partial_sort_implB8ne180100INS_17_ClassicAlgPolicyERNS_7greaterIvEEP6ResultS6_EET1_S7_S7_T2_OT0_
+- __ZNSt3__119__partial_sort_implB8ne180100INS_17_ClassicAlgPolicyERNS_7greaterIvEEPmS5_EET1_S6_S6_T2_OT0_
+- __ZNSt3__119__partial_sort_implB8ne180100INS_17_ClassicAlgPolicyERPDoFbRK11xpair_groupIJ12xpair_fieldsEES6_EN3gsl7details13span_iteratorIS4_EESD_EET1_SE_SE_T2_OT0_
+- __ZNSt3__119__shared_weak_count16__release_sharedB8ne180100Ev
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne180100Ev
+- __ZNSt3__120__shared_ptr_emplaceIN6shazam12SongDataBaseENS_9allocatorIS2_EEEC2B8ne180100IJES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN6shazam16CPUOnePtDatabaseENS_9allocatorIS2_EEEC2B8ne180100IJES4_Li0EEES4_DpOT_
+- __ZNSt3__120__throw_length_errorB8ne180100EPKc
+- __ZNSt3__120__throw_out_of_rangeB8ne180100EPKc
+- __ZNSt3__121__unwrap_and_dispatchB8ne180100INS_10__overloadINS_11__move_loopINS_17_ClassicAlgPolicyEEENS_14__move_trivialEEEP15spectral_peak_tS8_NS_16__deque_iteratorIS7_S8_RS7_PS8_lLl512EEELi0EEENS_4pairIT0_T2_EESE_T1_SF_
+- __ZNSt3__124__put_character_sequenceB8ne180100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__125__throw_bad_function_callB8ne180100Ev
+- __ZNSt3__126__insertion_sort_unguardedB8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP15spectral_peak_tEEvT1_S7_T0_
+- __ZNSt3__126__insertion_sort_unguardedB8ne180100INS_17_ClassicAlgPolicyERNS_7greaterIvEEP6ResultEEvT1_S7_T0_
+- __ZNSt3__126__insertion_sort_unguardedB8ne180100INS_17_ClassicAlgPolicyERPDoFbRK11xpair_groupIJ12xpair_fieldsEES6_EN3gsl7details13span_iteratorIS4_EEEEvT1_SE_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8ne180100INS_17_ClassicAlgPolicyER3$_0P15spectral_peak_tEEbT1_S6_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8ne180100INS_17_ClassicAlgPolicyER3$_1P15spectral_peak_tEEbT1_S6_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8ne180100INS_17_ClassicAlgPolicyER3$_3P15spectral_peak_tEEbT1_S6_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP15spectral_peak_tEEbT1_S7_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP7peak_tfEEbT1_S7_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam11regresspairEEEbT1_S8_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8ne180100INS_17_ClassicAlgPolicyERNS_7greaterIvEEP6ResultEEbT1_S7_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8ne180100INS_17_ClassicAlgPolicyERNS_7greaterIvEEPmEEbT1_S6_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8ne180100INS_17_ClassicAlgPolicyERPDoFbRK11xpair_groupIJ12xpair_fieldsEES6_EN3gsl7details13span_iteratorIS4_EEEEbT1_SE_T0_
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorI6ResultEENS_16reverse_iteratorIPS3_EEEEED2B8ne180100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorI6ResultEEPS3_EEED2B8ne180100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam14density_filterI15spectral_peak_tEEEENS_16reverse_iteratorIPS6_EEEEED2B8ne180100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam15CPULMFPDataBaseEEENS_16reverse_iteratorIPS4_EEEEED2B8ne180100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam15basic_signatureILNS3_17signature_densityE24EEEEENS_16reverse_iteratorIPS6_EEEEED2B8ne180100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorI15spectral_peak_tNS2_IS4_EEEEEENS_16reverse_iteratorIPS6_EEEEED2B8ne180100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorI15spectral_peak_tNS2_IS4_EEEEEEPS6_EEED2B8ne180100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIN6shazam24ancient_dead_sig_point_tENS2_IS5_EEEEEENS_16reverse_iteratorIPS7_EEEEED2B8ne180100Ev
+- __ZNSt3__131__partition_with_equals_on_leftB8ne180100INS_17_ClassicAlgPolicyEN3gsl7details13span_iteratorI11xpair_groupIJ12xpair_fieldsEEEERPDoFbRKS7_SA_EEET0_SE_SE_T1_
+- __ZNSt3__131__partition_with_equals_on_leftB8ne180100INS_17_ClassicAlgPolicyEP15spectral_peak_tRNS_6__lessIvvEEEET0_S7_S7_T1_
+- __ZNSt3__131__partition_with_equals_on_leftB8ne180100INS_17_ClassicAlgPolicyEP6ResultRNS_7greaterIvEEEET0_S7_S7_T1_
+- __ZNSt3__131__partition_with_equals_on_leftB8ne180100INS_17_ClassicAlgPolicyEP7peak_tfRNS_6__lessIvvEEEET0_S7_S7_T1_
+- __ZNSt3__131__partition_with_equals_on_leftB8ne180100INS_17_ClassicAlgPolicyEPN6shazam11regresspairERNS_6__lessIvvEEEET0_S8_S8_T1_
+- __ZNSt3__131__partition_with_equals_on_leftB8ne180100INS_17_ClassicAlgPolicyEPmRNS_7greaterIvEEEET0_S6_S6_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8ne180100INS_17_ClassicAlgPolicyEN3gsl7details13span_iteratorI11xpair_groupIJ12xpair_fieldsEEEERPDoFbRKS7_SA_EEENS_4pairIT0_bEESF_SF_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8ne180100INS_17_ClassicAlgPolicyEP15spectral_peak_tRNS_6__lessIvvEEEENS_4pairIT0_bEES8_S8_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8ne180100INS_17_ClassicAlgPolicyEP6ResultRNS_7greaterIvEEEENS_4pairIT0_bEES8_S8_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8ne180100INS_17_ClassicAlgPolicyEP7peak_tfRNS_6__lessIvvEEEENS_4pairIT0_bEES8_S8_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8ne180100INS_17_ClassicAlgPolicyEPN6shazam11regresspairERNS_6__lessIvvEEEENS_4pairIT0_bEES9_S9_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8ne180100INS_17_ClassicAlgPolicyEPmRNS_7greaterIvEEEENS_4pairIT0_bEES7_S7_T1_
+- __ZNSt3__135__uninitialized_allocator_copy_implB8ne180100INS_9allocatorI6ResultEEPS2_S4_S4_EET2_RT_T0_T1_S5_
+- __ZNSt3__135__uninitialized_allocator_copy_implB8ne180100INS_9allocatorINS_6vectorI15spectral_peak_tNS1_IS3_EEEEEEPS5_S7_S7_EET2_RT_T0_T1_S8_
+- __ZNSt3__142__uninitialized_allocator_move_if_noexceptB8ne180100INS_9allocatorI6ResultEENS_16reverse_iteratorIPS2_EES6_S6_EET2_RT_T0_T1_S7_
+- __ZNSt3__142__uninitialized_allocator_move_if_noexceptB8ne180100INS_9allocatorIN6shazam14density_filterI15spectral_peak_tEEEENS_16reverse_iteratorIPS5_EES9_S9_EET2_RT_T0_T1_SA_
+- __ZNSt3__142__uninitialized_allocator_move_if_noexceptB8ne180100INS_9allocatorIN6shazam15CPULMFPDataBaseEEENS_16reverse_iteratorIPS3_EES7_S7_EET2_RT_T0_T1_S8_
+- __ZNSt3__142__uninitialized_allocator_move_if_noexceptB8ne180100INS_9allocatorIN6shazam15basic_signatureILNS2_17signature_densityE24EEEEENS_16reverse_iteratorIPS5_EES9_S9_EET2_RT_T0_T1_SA_
+- __ZNSt3__142__uninitialized_allocator_move_if_noexceptB8ne180100INS_9allocatorINS_6vectorI15spectral_peak_tNS1_IS3_EEEEEENS_16reverse_iteratorIPS5_EES9_S9_EET2_RT_T0_T1_SA_
+- __ZNSt3__142__uninitialized_allocator_move_if_noexceptB8ne180100INS_9allocatorINS_6vectorIN6shazam24ancient_dead_sig_point_tENS1_IS4_EEEEEENS_16reverse_iteratorIPS6_EESA_SA_EET2_RT_T0_T1_SB_
+- __ZNSt3__15dequeI15spectral_peak_tNS_9allocatorIS1_EEE18__append_with_sizeB8ne180100INS_16__deque_iteratorIS1_PKS1_RS7_PKS8_lLl512EEEEEvT_m
+- __ZNSt3__15dequeI15spectral_peak_tNS_9allocatorIS1_EEE18__append_with_sizeB8ne180100INS_16__deque_iteratorIS1_PS1_RS1_PS7_lLl512EEEEEvT_m
+- __ZNSt3__15dequeI15spectral_peak_tNS_9allocatorIS1_EEE25__maybe_remove_back_spareB8ne180100Eb
+- __ZNSt3__15dequeI15spectral_peak_tNS_9allocatorIS1_EEE26__maybe_remove_front_spareB8ne180100Eb
+- __ZNSt3__15dequeI15spectral_peak_tNS_9allocatorIS1_EEED2B8ne180100Ev
+- __ZNSt3__16vectorI10SearchPlanNS_9allocatorIS1_EEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorI15spectral_peak_tNS_9allocatorIS1_EEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorI15spectral_peak_tNS_9allocatorIS1_EEE16__init_with_sizeB8ne180100IPS1_S6_EEvT_T0_m
+- __ZNSt3__16vectorI15spectral_peak_tNS_9allocatorIS1_EEE18__assign_with_sizeB8ne180100IPKS1_S7_EEvT_T0_l
+- __ZNSt3__16vectorI15spectral_peak_tNS_9allocatorIS1_EEE18__insert_with_sizeB8ne180100INS_11__wrap_iterIPKS1_EES9_EENS6_IPS1_EES9_T_T0_l
+- __ZNSt3__16vectorI15spectral_peak_tNS_9allocatorIS1_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS1_RS3_EEPS1_
+- __ZNSt3__16vectorI6ResultNS_9allocatorIS1_EEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorI6ResultNS_9allocatorIS1_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorI6ResultNS_9allocatorIS1_EEE16__init_with_sizeB8ne180100IPS1_S6_EEvT_T0_m
+- __ZNSt3__16vectorI6ResultNS_9allocatorIS1_EEE22__construct_one_at_endB8ne180100IJRKS1_EEEvDpOT_
+- __ZNSt3__16vectorI6ResultNS_9allocatorIS1_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS1_RS3_EE
+- __ZNSt3__16vectorI6ResultNS_9allocatorIS1_EEE7__clearB8ne180100Ev
+- __ZNSt3__16vectorIN6shazam14density_filterI15spectral_peak_tEENS_9allocatorIS4_EEE12emplace_backIJRNS0_IS3_NS5_IS3_EEEERKNS1_17signature_densityERKNS_6chrono8durationIhNS_5ratioILl1ELl125EEEEEEEERS4_DpOT_
+- __ZNSt3__16vectorIN6shazam14density_filterI15spectral_peak_tEENS_9allocatorIS4_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorIN6shazam14density_filterI15spectral_peak_tEENS_9allocatorIS4_EEE22__base_destruct_at_endB8ne180100EPS4_
+- __ZNSt3__16vectorIN6shazam14density_filterI15spectral_peak_tEENS_9allocatorIS4_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS4_RS6_EE
+- __ZNSt3__16vectorIN6shazam15CPULMFPDataBaseENS_9allocatorIS2_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorIN6shazam15CPULMFPDataBaseENS_9allocatorIS2_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS2_RS4_EE
+- __ZNSt3__16vectorIN6shazam15basic_signatureILNS1_17signature_densityE24EEENS_9allocatorIS4_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorIN6shazam15basic_signatureILNS1_17signature_densityE24EEENS_9allocatorIS4_EEE22__construct_one_at_endB8ne180100IJRKN3gsl4spanIKcLm18446744073709551615EEEEEEvDpOT_
+- __ZNSt3__16vectorIN6shazam15basic_signatureILNS1_17signature_densityE24EEENS_9allocatorIS4_EEE24__emplace_back_slow_pathIJRKN3gsl4spanIKcLm18446744073709551615EEEEEEPS4_DpOT_
+- __ZNSt3__16vectorIN6shazam15basic_signatureILNS1_17signature_densityE24EEENS_9allocatorIS4_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS4_RS6_EE
+- __ZNSt3__16vectorIN6shazam15basic_signatureILNS1_17signature_densityE24EEENS_9allocatorIS4_EEE7reserveEm
+- __ZNSt3__16vectorIN6shazam24ancient_dead_sig_point_tENS_9allocatorIS2_EEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorIN6shazam24ancient_dead_sig_point_tENS_9allocatorIS2_EEE18__assign_with_sizeB8ne180100IPKS2_S8_EEvT_T0_l
+- __ZNSt3__16vectorIN6shazam2io12_GLOBAL__N_115compacted_peaksENS_9allocatorIS4_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorIN6shazam4lmfpILNS1_7fp_typeE0EEENS_9allocatorIS4_EEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorIN6shazam4lmfpILNS1_7fp_typeE0EEENS_9allocatorIS4_EEEC2Em
+- __ZNSt3__16vectorINS0_I15spectral_peak_tNS_9allocatorIS1_EEEENS2_IS4_EEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorINS0_I15spectral_peak_tNS_9allocatorIS1_EEEENS2_IS4_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorINS0_I15spectral_peak_tNS_9allocatorIS1_EEEENS2_IS4_EEE16__init_with_sizeB8ne180100IPS4_S8_EEvT_T0_m
+- __ZNSt3__16vectorINS0_I15spectral_peak_tNS_9allocatorIS1_EEEENS2_IS4_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS4_RS5_EE
+- __ZNSt3__16vectorINS0_I15spectral_peak_tNS_9allocatorIS1_EEEENS2_IS4_EEE7__clearB8ne180100Ev
+- __ZNSt3__16vectorINS0_I15spectral_peak_tNS_9allocatorIS1_EEEENS2_IS4_EEEC2Em
+- __ZNSt3__16vectorINS0_IN6shazam24ancient_dead_sig_point_tENS_9allocatorIS2_EEEENS3_IS5_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorINS0_IN6shazam24ancient_dead_sig_point_tENS_9allocatorIS2_EEEENS3_IS5_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS5_RS6_EE
+- __ZNSt3__16vectorINS0_IN6shazam24ancient_dead_sig_point_tENS_9allocatorIS2_EEEENS3_IS5_EEE7__clearB8ne180100Ev
+- __ZNSt3__16vectorINS0_IcNS_9allocatorIcEEEENS1_IS3_EEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorINS0_IcNS_9allocatorIcEEEENS1_IS3_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorINS0_IcNS_9allocatorIcEEEENS1_IS3_EEE7__clearB8ne180100Ev
+- __ZNSt3__16vectorINS0_IcNS_9allocatorIcEEEENS1_IS3_EEEC2Em
+- __ZNSt3__16vectorINS_7complexIfEENS_9allocatorIS2_EEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorINS_7complexIfEENS_9allocatorIS2_EEEC2Em
+- __ZNSt3__16vectorIcNS_9allocatorIcEEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorIcNS_9allocatorIcEEEC2Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE18__insert_with_sizeB8ne180100IPKfS6_EENS_11__wrap_iterIPfEENS7_IS6_EET_T0_l
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE26__swap_out_circular_bufferERNS_14__split_bufferIfRS2_EEPf
+- __ZNSt3__16vectorIfNS_9allocatorIfEEEC2Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEEC2EmRKf
+- __ZNSt3__16vectorImNS_9allocatorImEEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorImNS_9allocatorImEEEC2EmRKm
+- __ZNSt3__16vectorIsNS_9allocatorIsEEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorIsNS_9allocatorIsEEEC2Em
+- __ZNSt3__17__sort3B8ne180100INS_17_ClassicAlgPolicyER3$_0P15spectral_peak_tEEjT1_S6_S6_T0_
+- __ZNSt3__17__sort3B8ne180100INS_17_ClassicAlgPolicyER3$_1P15spectral_peak_tEEjT1_S6_S6_T0_
+- __ZNSt3__17__sort3B8ne180100INS_17_ClassicAlgPolicyER3$_3P15spectral_peak_tEEjT1_S6_S6_T0_
+- __ZNSt3__17__sort3B8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP15spectral_peak_tEEjT1_S7_S7_T0_
+- __ZNSt3__17__sort3B8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP7peak_tfEEjT1_S7_S7_T0_
+- __ZNSt3__17__sort3B8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam11regresspairEEEjT1_S8_S8_T0_
+- __ZNSt3__17__sort3B8ne180100INS_17_ClassicAlgPolicyERNS_7greaterIvEEP6ResultEEjT1_S7_S7_T0_
+- __ZNSt3__17__sort3B8ne180100INS_17_ClassicAlgPolicyERNS_7greaterIvEEPmEEjT1_S6_S6_T0_
+- __ZNSt3__17__sort3B8ne180100INS_17_ClassicAlgPolicyERPDoFbRK11xpair_groupIJ12xpair_fieldsEES6_EN3gsl7details13span_iteratorIS4_EEEEjT1_SE_SE_T0_
+- __ZNSt3__17__sort4B8ne180100INS_17_ClassicAlgPolicyER3$_0P15spectral_peak_tEEvT1_S6_S6_S6_T0_
+- __ZNSt3__17__sort4B8ne180100INS_17_ClassicAlgPolicyER3$_1P15spectral_peak_tEEvT1_S6_S6_S6_T0_
+- __ZNSt3__17__sort4B8ne180100INS_17_ClassicAlgPolicyER3$_3P15spectral_peak_tEEvT1_S6_S6_S6_T0_
+- __ZNSt3__17__sort4B8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP15spectral_peak_tEEvT1_S7_S7_S7_T0_
+- __ZNSt3__17__sort4B8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP7peak_tfEEvT1_S7_S7_S7_T0_
+- __ZNSt3__17__sort4B8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam11regresspairEEEvT1_S8_S8_S8_T0_
+- __ZNSt3__17__sort4B8ne180100INS_17_ClassicAlgPolicyERNS_7greaterIvEEP6ResultEEvT1_S7_S7_S7_T0_
+- __ZNSt3__17__sort4B8ne180100INS_17_ClassicAlgPolicyERPDoFbRK11xpair_groupIJ12xpair_fieldsEES6_EN3gsl7details13span_iteratorIS4_EEEEvT1_SE_SE_SE_T0_
+- __ZNSt3__17__sort5B8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP15spectral_peak_tEEvT1_S7_S7_S7_S7_T0_
+- __ZNSt3__17__sort5B8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP7peak_tfEEvT1_S7_S7_S7_S7_T0_
+- __ZNSt3__17__sort5B8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam11regresspairEEEvT1_S8_S8_S8_S8_T0_
+- __ZNSt3__17__sort5B8ne180100INS_17_ClassicAlgPolicyERNS_7greaterIvEEP6ResultEEvT1_S7_S7_S7_S7_T0_
+- __ZNSt3__17__sort5B8ne180100INS_17_ClassicAlgPolicyERPDoFbRK11xpair_groupIJ12xpair_fieldsEES6_EN3gsl7details13span_iteratorIS4_EEEEvT1_SE_SE_SE_SE_T0_
+- __ZNSt3__18__rotateB8ne180100INS_17_ClassicAlgPolicyENS_16reverse_iteratorINS_11__wrap_iterIPcEEEES6_EENS_4pairIT0_S8_EES8_S8_T1_
+- __ZNSt3__19__sift_upB8ne180100INS_17_ClassicAlgPolicyERN6shazam7Tracker20ComparePeakMatchLessENS_11__wrap_iterIPNS2_9PeakMatchEEEEEvT1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
+- __ZNSt3__19__sift_upB8ne180100INS_17_ClassicAlgPolicyERN6shazam7Tracker23ComparePeakMatchGreaterENS_11__wrap_iterIPNS2_9PeakMatchEEEEEvT1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
+- __ZNSt3__19__sift_upB8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP15spectral_peak_tEEvT1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
+- __ZNSt3__19__sift_upB8ne180100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam11regresspairEEEvT1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
+- __ZNSt3__19__sift_upB8ne180100INS_17_ClassicAlgPolicyERNS_7greaterIvEEP6ResultEEvT1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
+- __ZNSt3__19__sift_upB8ne180100INS_17_ClassicAlgPolicyERPDoFbRK11xpair_groupIJ12xpair_fieldsEES6_EN3gsl7details13span_iteratorIS4_EEEEvT1_SE_OT0_NS_15iterator_traitsISE_E15difference_typeE
+- __ZNSt3__19allocatorIN6shazam12SongDataBaseEE7destroyB8ne180100EPS2_
+- __ZNSt3__19allocatorIN6shazam15CPULMFPDataBaseEE7destroyB8ne180100EPS2_
+- __ZNSt3__19allocatorIN6shazam15CPULMFPDataBaseEE9constructB8ne180100IS2_JR10SearchPlanRNS_6vectorIcNS0_IcEEEEEEEvPT_DpOT0_
+- __ZNSt3__19allocatorIN6shazam15CPULMFPDataBaseEE9constructB8ne180100IS2_JS2_EEEvPT_DpOT0_
+- __ZNSt3__19allocatorIN6shazam16CPUOnePtDatabaseEE7destroyB8ne180100EPS2_
+- __ZSt28__throw_bad_array_new_lengthB8ne180100v
+- __ZTINSt3__110__function6__funcIZ89-[SigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEEE
+- __ZTINSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE16EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EEE
+- __ZTINSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE2147483647EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EEE
+- __ZTINSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE24EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EEE
+- __ZTIZ89-[SigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0
+- __ZTIZN6shazam15basic_signatureILNS_17signature_densityE16EEC1ERKNS_21packed_signature_viewEEUlNS_16signature_headerEE_
+- __ZTIZN6shazam15basic_signatureILNS_17signature_densityE2147483647EEC1ERKNS_21packed_signature_viewEEUlNS_16signature_headerEE_
+- __ZTIZN6shazam15basic_signatureILNS_17signature_densityE24EEC1ERKNS_21packed_signature_viewEEUlNS_16signature_headerEE_
+- __ZTSNSt3__110__function6__funcIZ89-[SigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEEE
+- __ZTSNSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE16EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EEE
+- __ZTSNSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE2147483647EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EEE
+- __ZTSNSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE24EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EEE
+- __ZTSNSt3__117bad_function_callE
+- __ZTSZ89-[SigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0
+- __ZTSZN6shazam15basic_signatureILNS_17signature_densityE16EEC1ERKNS_21packed_signature_viewEEUlNS_16signature_headerEE_
+- __ZTSZN6shazam15basic_signatureILNS_17signature_densityE2147483647EEC1ERKNS_21packed_signature_viewEEUlNS_16signature_headerEE_
+- __ZTSZN6shazam15basic_signatureILNS_17signature_densityE24EEC1ERKNS_21packed_signature_viewEEUlNS_16signature_headerEE_
+- __ZTVNSt3__110__function6__funcIZ89-[SigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEEE
+- __ZTVNSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE16EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EEE
+- __ZTVNSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE2147483647EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EEE
+- __ZTVNSt3__110__function6__funcIZN6shazam15basic_signatureILNS2_17signature_densityE24EEC1ERKNS2_21packed_signature_viewEEUlNS2_16signature_headerEE_NS_9allocatorISA_EEFvS9_EEE
+- __ZZ20-[MRE search:error:]E14configProvider
+- __ZZ20-[MRE search:error:]E6config
+- __ZZN6shazam15basic_signatureILNS_17signature_densityE16EEC1ERKNS_21packed_signature_viewEENKUlNS_16signature_headerEE_clES6_
+- __ZZN6shazam15basic_signatureILNS_17signature_densityE2147483647EEC1ERKNS_21packed_signature_viewEENKUlNS_16signature_headerEE_clES6_
+- __ZZN6shazam15basic_signatureILNS_17signature_densityE24EEC1ERKNS_21packed_signature_viewEENKUlNS_16signature_headerEE_clES6_
+- __ZZN6shazam24get_spect_peak_log_scaleEvE21_spect_peak_log_scale
+- __ZZN6shazam25get_spect_peak_log_offsetEvE22_spect_peak_log_offset
+- ___block_descriptor_40_ea8_32w_e17_v16?0"NSArray"8l
+- ___copy_helper_block_ea8_32w
+- ___destroy_helper_block_ea8_32w
+- _locationProperties
+- _objc_msgSend$_rawResponseSongs
+- _objc_msgSend$commonSetupWithID:dataRepresentation:startTime:
+- _objc_msgSend$explicit
+- _objc_msgSend$fetchRequestWithEntityName:
+- _objc_msgSend$getSampleLength:error:
+- _objc_msgSend$group
+- _objc_msgSend$initSignatureRingBufferWithDuration:
+- _objc_msgSend$initWithMinimumSignatureDuration:maximumSignatureDuration:bufferDuration:
+- _objc_msgSend$latitude
+- _objc_msgSend$longitude
+- _objc_msgSend$modifiedDate
+- _objc_msgSend$mySigX
+- _objc_msgSend$providerID
+- _objc_msgSend$recognitionID
+- _objc_msgSend$setLocation:
+- _objc_msgSend$setSigX:
+- _objc_msgSend$set_rawResponseSongs:
+- _objc_msgSend$syncID
+- block_copy_helper.48
+- block_copy_helper.64
+- block_descriptor.50
+- block_descriptor.66
+- block_destroy_helper.49
+- block_destroy_helper.65
+CStrings:
++ ".cxx_construct"
++ "24.12.3 (compilation mode 'release', built on 'OS X')"
++ "<%@: %p>\n\tCREMA URL: %@\n\tCREPE URL: %@\n\tMinimum duration: %f"
++ "@\"<SHSignatureExtractor>\""
++ "@\"<SHSignatureExtractor><SHSpectralOutputProvider>\""
++ "@\"NSData\"24@0:8^@16"
++ "@\"SHFeatureConfiguration\""
++ "@\"SHFeatureExtractor\""
++ "@\"SHFeatureExtractorController\""
++ "@\"SHMusicalFeaturesConfiguration\""
++ "@\"SHReferenceMatch\"24@0:8Q16"
++ "@\"SHReferenceMatch\"24@0:8q16"
++ "@\"SHSigX\""
++ "@220@0:8@16@24@32@40@48@56@64@72@80@88@96@104@112@120@128@136@144@152B160@164@172q180{CLLocationCoordinate2D=dd}188@204@212"
++ "@32@0:8{CLLocationCoordinate2D=dd}16"
++ "@40@0:8@16@24d32"
++ "@40@0:8@16d24^@32"
++ "@40@0:8d16q24@32"
++ "@48@0:8q16d24d32^@40"
++ "@56@0:8@16@24@32@40^@48"
++ "A Musical Features extractor must not be initialized with a nil configuration object"
++ "A musical features extractor is already initialized"
++ "A signature with the ID %@ already exists in the catalog."
++ "B24@0:8@\"NSUUID\"16"
++ "B28@0:8^@16i24"
++ "B32@0:8@\"AVAudioPCMBuffer\"16^@24"
++ "B36@0:8^s16i24^@28"
++ "B36@0:8r^{exception=^^?}16^@24i32"
++ "B40@0:8@16d24^@32"
++ "B40@0:8r^{exception=^^?}16^@24q32"
++ "B48@0:8@16^@24^@32^@40"
++ "B48@0:8q16d24d32^@40"
++ "Bad expected access"
++ "CREMA=%d CREPE=%d"
++ "Can't checkpoint a fft stream that has already been checkpointed. Must call rewind() before."
++ "Can't checkpoint a signature stream that has already been checkpointed. Must call rewind() before."
++ "Can't rewind() a fft stream that hasn't been checkpointed. Must call checkpoint() before."
++ "Can't rewind() a signature stream that hasn't been checkpointed. Must call checkpoint() before."
++ "ConvertSigXErrorCode:code:"
++ "Could not coalesce signature with error %@"
++ "Could not configure musical features with error %@"
++ "Could not configure spectral peaks extractor with error %@"
++ "Could not determine signature file type %@"
++ "Could not reset musical features extractor %@"
++ "Could not separate signatures: %@"
++ "Custom catalog initialization failed with error %@"
++ "Error - Aligned Buffer is not actually aligned"
++ "Error - count flowed into fft stream not equal to SHZ_SIGX_FFT_STEPSIZE"
++ "Error - internal sample rate is not 16k"
++ "Error - resample function not set correctly"
++ "Error - sample count after resample less than SHZ_SIGX_FFT_STEPSIZE"
++ "Error appending buffer to features extractor: %@"
++ "Error resetting SigX %@"
++ "Extractor %@ failed to generate a signature with error: %@"
++ "Failed to find feature in output"
++ "Feature extractor failed to initialize with error: %@"
++ "Invalid last_n value"
++ "Invalid read offset"
++ "Musical features component (%.2fs) does meet duration threshold (%.2fs)"
++ "Musical features extractor failed to initialize with error: %@"
++ "Not a SigX Error"
++ "Only file URLs are supported for model URLs."
++ "Output was null"
++ "Read offset not updated correctly"
++ "Received wrongly shaped A matrix"
++ "Received wrongly shaped B matrix"
++ "SHCatalogConfigurationMusicalFeaturesConfigurationKey"
++ "SHCoalescedSignature"
++ "SHFeatureConfiguration"
++ "SHFeatureExtractor"
++ "SHFeatureExtractorController"
++ "SHLibraryTrackLocationLatitude"
++ "SHLibraryTrackLocationLongitude"
++ "SHLocationTransformer"
++ "SHMediaItemRawResponseData"
++ "SHMediaLibraryTrackRawSongResponseData"
++ "SHMusicalFeaturesConfiguration"
++ "SHMusicalFeaturesConfigurationCremaModelURLKey"
++ "SHMusicalFeaturesConfigurationCrepeModelURLKey"
++ "SHMusicalFeaturesConfigurationMinimumDurationKey"
++ "SHMusicalFeaturesExtractor"
++ "SHMusicalFeaturesExtractor_Init"
++ "SHReferenceMatch"
++ "SHSigUtilities"
++ "SHSigX"
++ "SHSignatureExtractor"
++ "SHSpectralOutputProvider"
++ "SHSpectralPeakFeaturesExtractor"
++ "Sample rate for musical features extractor changed from %.1f to %.1f"
++ "Sample rate for spectral peaks extractor changed from %.1f to %.1f"
++ "Sample rate is too low or filter cutoff is too high."
++ "ShazamKitBundle"
++ "Spectral peaks feature extractor failed to initialize with error: %@"
++ "T@\"<SHSignatureExtractor>\",&,V_musicalFeaturesExtractor"
++ "T@\"<SHSignatureExtractor><SHSpectralOutputProvider>\",&,V_spectralPeaksExtractor"
++ "T@\"NSData\",&,V__rawResponseSongsData"
++ "T@\"NSData\",&,V_rawSongResponse"
++ "T@\"NSData\",R,V_musicalFeaturesData"
++ "T@\"NSData\",R,V_spectralPeaksData"
++ "T@\"NSMutableArray\",&,V_signatureIDs"
++ "T@\"NSURL\",&,V_cremaModelURL"
++ "T@\"NSURL\",&,V_crepeModelURL"
++ "T@\"NSURL\",R,V_cremaModelURL"
++ "T@\"NSURL\",R,V_crepeModelURL"
++ "T@\"SHFeatureConfiguration\",R,V_featureConfiguration"
++ "T@\"SHFeatureExtractor\",R,V_featureExtractor"
++ "T@\"SHFeatureExtractorController\",R,V_extractorController"
++ "T@\"SHMusicalFeaturesConfiguration\",&,V_musicalFeaturesConfiguration"
++ "T@\"SHMusicalFeaturesConfiguration\",R"
++ "T@\"SHMusicalFeaturesConfiguration\",R,V_musicalFeaturesConfiguration"
++ "T@\"SHSigX\",R,V_sigX"
++ "TB,V_isCircularBuffering"
++ "T^{sigx_pipe_base=^^?},N,V_pipeline"
++ "Td,R,V_minimumDuration"
++ "Td,R,V_sampleRate"
++ "Td,V_minimumMusicalFeaturesDuration"
++ "Td,V_sampleRate"
++ "Tq,V_clipStyle"
++ "T{CLLocationCoordinate2D=dd},V_locationCoordinate"
++ "T{unique_ptr<shazam::dsp::FeatureExtractor, std::default_delete<shazam::dsp::FeatureExtractor>>={__compressed_pair<shazam::dsp::FeatureExtractor *, std::default_delete<shazam::dsp::FeatureExtractor>>=^{FeatureExtractor}}},R"
++ "Unallocated buffer for visualize received"
++ "Unknown SigX Error"
++ "Unknown pipeline error - could not construct pipeline"
++ "^{sigx_pipe_base=^^?}"
++ "^{sigx_pipe_base=^^?}16@0:8"
++ "__rawResponseSongsData"
++ "_cremaModelURL"
++ "_crepeModelURL"
++ "_extractorController"
++ "_featureConfiguration"
++ "_featureExtractor"
++ "_isCircularBuffering"
++ "_locationCoordinate"
++ "_minimumDuration"
++ "_minimumMusicalFeaturesDuration"
++ "_musicalFeaturesConfiguration"
++ "_musicalFeaturesData"
++ "_musicalFeaturesExtractor"
++ "_pipeline"
++ "_rawResponseSongsData"
++ "_sampleRate"
++ "_signatureIDs"
++ "_spectralPeaksData"
++ "_spectralPeaksExtractor"
++ "audioDurationInMilliseconds"
++ "cannot downsample less than once"
++ "coalescePeaksFeatures:musicalFeatures:error:"
++ "coalesePeakFeatures:musicalFeatures:error:"
++ "com.apple.shazamkit"
++ "com.shazam.featx"
++ "commonSetupWithID:spectralPeaksData:musicalFeaturesData:startTime:"
++ "configureMusicalFeaturesExtractorWithConfiguration:sampleRate:error:"
++ "configureSpectralPeaksExtractorWithClipStype:maximumSeconds:sampleRate:error:"
++ "configureSpectralPeaksExtractorWithSampleRate:error:"
++ "containsSignatureWithIdentifier:"
++ "convertException:toError:code:"
++ "coordinate"
++ "coordinateFromLocation:"
++ "coordinateValueFromLatitude:longitude:"
++ "coordinateValueFromLocation:"
++ "crema"
++ "cremaModelURL"
++ "crepe"
++ "crepeModelURL"
++ "dataPointer"
++ "decimalNumberWithString:"
++ "durationForSignatureData:"
++ "enableSpectralOutputWithConfiguration:completionHandler:"
++ "extractorController"
++ "failed to allocate input tensor"
++ "failed to create coreml wrapper"
++ "failed to create feature provider"
++ "failed to predict"
++ "feature-extraction"
++ "featureConfiguration"
++ "featureExtractor"
++ "featureValueForName:"
++ "featuresWithError:"
++ "flowBuffer:throughExtractor:error:"
++ "getValue:size:"
++ "hcqt"
++ "initWithClipStype:maximumSeconds:sampleRate:error:"
++ "initWithConfiguration:sampleRate:error:"
++ "initWithCremaModelURL:crepeModelURL:minimumDuration:"
++ "initWithCremaModelURL:crepeModelURL:minimumDuration:error:"
++ "initWithCremaModelURL:minimumDuration:error:"
++ "initWithCrepeModelURL:minimumDuration:error:"
++ "initWithDictionary:error:"
++ "initWithFeatureConfiguration:error:"
++ "initWithGroupMetadata:groupSyncID:"
++ "initWithID:spectralPeaksData:musicalFeaturesData:startTime:error:"
++ "initWithMaximumSeconds:clipStyle:musicalFeaturesConfiguration:"
++ "initWithMinimumSignatureDuration:maximumSignatureDuration:bufferDuration:musicalFeaturesConfiguration:"
++ "initWithShape:dataType:error:"
++ "initWithSignature:mediaItems:"
++ "initWithTrackSyncID:creationDate:releaseDate:groupSyncID:labels:lastUpdatedDate:providerIdentifier:trackMetadata:providerName:shazamKey:recognitionID:title:subtitle:artworkURL:appleMusicID:appleMusicURL:shazamURL:videoURL:isExplicit:albumName:isrc:shazamCount:locationCoordinate:genres:rawSongResponse:"
++ "intValue"
++ "isCircularBuffering"
++ "isValidCoordinateValue:"
++ "locationCoordinate"
++ "locationFromCoordinate:"
++ "locationFromCoordinateValue:"
++ "matchLocationLatitude"
++ "matchLocationLongitude"
++ "matchReferenceAtIndex:"
++ "matchReferenceForTrackID:"
++ "matrix size to large at requested sample rate"
++ "minimumDuration"
++ "minimumMusicalFeaturesDuration"
++ "modelDescription"
++ "modelWithContentsOfURL:error:"
++ "multiArrayValue"
++ "musicalFeaturesConfiguration"
++ "musicalFeaturesData"
++ "musicalFeaturesDuration"
++ "musicalFeaturesExtractor"
++ "numberWithInt:"
++ "objCType"
++ "pipeline"
++ "predictionFromFeatures:error:"
++ "q32@0:8@16^@24"
++ "real_streatx"
++ "removeObject:"
++ "removeReferenceSignatureWithID:"
++ "removeSignatureWithID:"
++ "s"
++ "samples"
++ "separate:intoPeakFeatures:andMusicalFeatures:error:"
++ "setClipStyle:"
++ "setCremaModelURL:"
++ "setCrepeModelURL:"
++ "setIsCircularBuffering:"
++ "setLocationCoordinate:"
++ "setMinimumMusicalFeaturesDuration:"
++ "setMusicalFeaturesConfiguration:"
++ "setMusicalFeaturesExtractor:"
++ "setPipeline:"
++ "setSampleRate:"
++ "setSignatureIDs:"
++ "setSpectralPeaksExtractor:"
++ "setStreatx:"
++ "set_rawResponseSongsData:"
++ "sh_ShazamKitBundle"
++ "sh_confidence"
++ "sh_isMediaItemFetchFailedError"
++ "sh_matchLocationCoordinate"
++ "sh_matchLocationCoordinate_Swift"
++ "signatureDataForExtractor:error:"
++ "signatureDurationForData:error:"
++ "signatureExistsForIdentifier:"
++ "signatureFileTypeForData:error:"
++ "signatureIDs"
++ "signatureTypeFromData:"
++ "sigx"
++ "spectralPeaksData"
++ "spectralPeaksDuration"
++ "spectralPeaksExtractor"
++ "splitSignatureFromData:intoSpectralPeaks:andMusicalFeatures:error:"
++ "streatx"
++ "transformedPropertiesFromProperties:"
++ "v24@0:8@\"NSString\"16"
++ "v24@0:8^{sigx_pipe_base=^^?}16"
++ "v24@0:8{unique_ptr<shazam::dsp::FeatureExtractor, std::default_delete<shazam::dsp::FeatureExtractor>>={__compressed_pair<shazam::dsp::FeatureExtractor *, std::default_delete<shazam::dsp::FeatureExtractor>>=^{FeatureExtractor}}}16"
++ "v32@0:8@\"SHSpectralOutputConfiguration\"16@?<v@?@\"NSArray\">24"
++ "v32@0:8{CLLocationCoordinate2D=dd}16"
++ "v48@0:8@16@24@32@40"
++ "valueForCoordinate:"
++ "valueWithBytes:objCType:"
++ "zero padding more or equal to the frame size isn't supported"
++ "{CLLocationCoordinate2D=\"latitude\"d\"longitude\"d}"
++ "{CLLocationCoordinate2D=dd}"
++ "{CLLocationCoordinate2D=dd}16@0:8"
++ "{CLLocationCoordinate2D=dd}24@0:8@16"
++ "{unique_ptr<shazam::dsp::FeatureExtractor, std::default_delete<shazam::dsp::FeatureExtractor>>=\"__ptr_\"{__compressed_pair<shazam::dsp::FeatureExtractor *, std::default_delete<shazam::dsp::FeatureExtractor>>=\"__value_\"^{FeatureExtractor}}}"
++ "{unique_ptr<shazam::dsp::FeatureExtractor, std::default_delete<shazam::dsp::FeatureExtractor>>={__compressed_pair<shazam::dsp::FeatureExtractor *, std::default_delete<shazam::dsp::FeatureExtractor>>=^{FeatureExtractor}}}16@0:8"
+- "24.7.11 (compilation mode 'release', built on 'OS X')"
+- "@\"SigX\""
+- "@40@0:8d16d24d32"
+- "Can't construct Array with count < 0"
+- "CoreDataProperties"
+- "Division by zero"
+- "Division results in an overflow"
+- "Invalid input sample rate."
+- "Invalid sig options."
+- "Invalid signature type."
+- "S"
+- "SHGroupMO"
+- "SHLibraryTrackLocation"
+- "SHMediaItemRawResponseDictionary"
+- "SHMediaLibraryTrackRawSongResponse"
+- "SHMetadataMO"
+- "SHTrackMO"
+- "SigX"
+- "SigX returned an error: %@"
+- "Sumo Sig generation not supported!"
+- "Swift/Array.swift"
+- "Swift/IntegerTypes.swift"
+- "Swift/UnsafePointer.swift"
+- "T@\"NSArray\",&,D,N"
+- "T@\"NSData\",&,D,N"
+- "T@\"NSData\",R,V_dataRepresentation"
+- "T@\"NSDate\",C,D,N"
+- "T@\"NSDictionary\",&,D,N"
+- "T@\"NSDictionary\",&,V__rawResponseSongs"
+- "T@\"NSDictionary\",&,V_rawSongResponse"
+- "T@\"NSSet\",&,D,N"
+- "T@\"NSString\",C,D,N"
+- "T@\"NSURL\",C,D,N"
+- "T@\"SHGroupMO\",&,D,N"
+- "T@\"SHMetadataMO\",&,D,N"
+- "T@\"SHTrackMO\",&,D,N"
+- "T@\"SigX\",&,V_sigX"
+- "TB,D,N"
+- "T^v,N,V_mySigX"
+- "Td,D,N"
+- "Tq,D,N"
+- "Unable to align fft buffer"
+- "UnsafeMutablePointer.initialize overlapping range"
+- "UnsafeMutablePointer.initialize with negative count"
+- "UnsafeMutablePointer.moveInitialize with negative count"
+- "__rawResponseSongs"
+- "_dataRepresentation"
+- "_mySigX"
+- "_rawResponseSongs"
+- "callback_frequency_ms must be a power of 2"
+- "callback_frequency_ms must be at least 8"
+- "commonSetupWithID:dataRepresentation:startTime:"
+- "dataWithJSONObject:options:error:"
+- "explicit"
+- "fetchRequest"
+- "fetchRequestWithEntityName:"
+- "first call to get was too small"
+- "getSampleLength:error:"
+- "group"
+- "initWithManagedGroup:"
+- "initWithManagedTrack:"
+- "initWithMinimumSignatureDuration:maximumSignatureDuration:bufferDuration:"
+- "latitude"
+- "longitude"
+- "modifiedDate"
+- "mySigX"
+- "num_freq_bins must be a power of 2"
+- "num_freq_bins must be less than or equal to FFT frame size"
+- "num_freq_bins must be positive"
+- "providerID"
+- "recognitionID"
+- "setMySigX:"
+- "setSigX:"
+- "set_rawResponseSongs:"
+- "sh_matchLocation"
+- "syncID"
+- "track"
+
+```

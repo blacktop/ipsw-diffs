@@ -1,0 +1,229 @@
+## com.apple.driver.ApplePMGR
+
+> `com.apple.driver.ApplePMGR`
+
+```diff
+
+-1555.60.27.0.0
+-  __TEXT.__const: 0x230
+-  __TEXT.__cstring: 0xe92b
+-  __TEXT_EXEC.__text: 0x54184
++1555.100.63.0.0
++  __TEXT.__const: 0x258
++  __TEXT.__cstring: 0xeca4
++  __TEXT_EXEC.__text: 0x57be8
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x100
+-  __DATA.__common: 0x420
++  __DATA.__common: 0x470
+   __DATA.__bss: 0x40
+   __DATA_CONST.__auth_got: 0x388
+   __DATA_CONST.__got: 0xd0
+   __DATA_CONST.__mod_init_func: 0x18
+   __DATA_CONST.__mod_term_func: 0x18
+-  __DATA_CONST.__const: 0x9fa8
+-  __DATA_CONST.__kalloc_type: 0x680
+-  __DATA_CONST.__kalloc_var: 0xe10
+-  UUID: D6525729-5C5E-33D2-91BC-AB13C783A158
+-  Functions: 2170
+-  Symbols:   2792
+-  CStrings:  1592
++  __DATA_CONST.__const: 0xa4f0
++  __DATA_CONST.__kalloc_type: 0x700
++  __DATA_CONST.__kalloc_var: 0xe60
++  UUID: E10F0063-DFBF-3332-8EEC-E21F851DFD51
++  Functions: 2179
++  Symbols:   2861
++  CStrings:  1615
+ 
+Symbols:
++ _ZN29ApplePMGRFunctionSetPerfState12callFunctionEPvS0_S0_.cold.1
++ _ZN29ApplePMGRFunctionSetPerfState12callFunctionEPvS0_S0_.cold.2
++ _ZN29ApplePMGRFunctionSetPerfState12callFunctionEPvS0_S0_.cold.3
++ _ZN9ApplePMGR24_initFreeRunningCountersEP9IOService.cold.1
++ _ZN9ApplePMGR24_initFreeRunningCountersEP9IOService.cold.2
++ _ZN9ApplePMGR24_initFreeRunningCountersEP9IOService.cold.3
++ _ZN9ApplePMGR24_initFreeRunningCountersEP9IOService.cold.4
++ _ZN9ApplePMGR24_initFreeRunningCountersEP9IOService.cold.5
++ _ZN9ApplePMGR24_quiescePerfStateChangesEv.cold.1
++ _ZN9ApplePMGR24_quiescePerfStateChangesEv.cold.2
++ _ZN9ApplePMGR26_handleSOCPerfStateRequestEPNS_10PerfDomainEhbt.cold.1
++ _ZN9ApplePMGR30_pmpWriteDashBoardSetPerfStateEtjjjj.cold.1
++ _ZN9ApplePMGR32_syncDevicePerfDomainRequirementEPNS_22DeviceStatusChangeDataEj.cold.2
++ _ZN9ApplePMGR32_syncDevicePerfDomainRequirementEPNS_22DeviceStatusChangeDataEj.cold.3
++ __ZL33ApplePMGRFunctionSetPerfState_ktv
++ __ZL38ApplePMGRFunctionGetValidPerfState_ktv
++ __ZN29ApplePMGRFunctionSetPerfState10gMetaClassE
++ __ZN29ApplePMGRFunctionSetPerfState10superClassE
++ __ZN29ApplePMGRFunctionSetPerfState12callFunctionEPvS0_S0_
++ __ZN29ApplePMGRFunctionSetPerfState27initWithTargetDataAndSymbolEP9IOServicePK6OSDataPK8OSSymbol
++ __ZN29ApplePMGRFunctionSetPerfState9MetaClassC1Ev
++ __ZN29ApplePMGRFunctionSetPerfState9MetaClassC2Ev
++ __ZN29ApplePMGRFunctionSetPerfState9MetaClassD0Ev
++ __ZN29ApplePMGRFunctionSetPerfState9MetaClassD1Ev
++ __ZN29ApplePMGRFunctionSetPerfState9metaClassE
++ __ZN29ApplePMGRFunctionSetPerfStateC1EPK11OSMetaClass
++ __ZN29ApplePMGRFunctionSetPerfStateC1Ev
++ __ZN29ApplePMGRFunctionSetPerfStateC2EPK11OSMetaClass
++ __ZN29ApplePMGRFunctionSetPerfStateC2Ev
++ __ZN29ApplePMGRFunctionSetPerfStateD0Ev
++ __ZN29ApplePMGRFunctionSetPerfStateD1Ev
++ __ZN29ApplePMGRFunctionSetPerfStateD2Ev
++ __ZN29ApplePMGRFunctionSetPerfStatedlEPvm
++ __ZN29ApplePMGRFunctionSetPerfStatenwEm
++ __ZN34ApplePMGRFunctionGetValidPerfState10gMetaClassE
++ __ZN34ApplePMGRFunctionGetValidPerfState10superClassE
++ __ZN34ApplePMGRFunctionGetValidPerfState12callFunctionEPvS0_S0_
++ __ZN34ApplePMGRFunctionGetValidPerfState27initWithTargetDataAndSymbolEP9IOServicePK6OSDataPK8OSSymbol
++ __ZN34ApplePMGRFunctionGetValidPerfState9MetaClassC1Ev
++ __ZN34ApplePMGRFunctionGetValidPerfState9MetaClassC2Ev
++ __ZN34ApplePMGRFunctionGetValidPerfState9MetaClassD0Ev
++ __ZN34ApplePMGRFunctionGetValidPerfState9MetaClassD1Ev
++ __ZN34ApplePMGRFunctionGetValidPerfState9metaClassE
++ __ZN34ApplePMGRFunctionGetValidPerfStateC1EPK11OSMetaClass
++ __ZN34ApplePMGRFunctionGetValidPerfStateC1Ev
++ __ZN34ApplePMGRFunctionGetValidPerfStateC2EPK11OSMetaClass
++ __ZN34ApplePMGRFunctionGetValidPerfStateC2Ev
++ __ZN34ApplePMGRFunctionGetValidPerfStateD0Ev
++ __ZN34ApplePMGRFunctionGetValidPerfStateD1Ev
++ __ZN34ApplePMGRFunctionGetValidPerfStateD2Ev
++ __ZN34ApplePMGRFunctionGetValidPerfStatedlEPvm
++ __ZN34ApplePMGRFunctionGetValidPerfStatenwEm
++ __ZN9ApplePMGR14_getS2RLoCountEv
++ __ZN9ApplePMGR17_normalizedUptimeEhhj
++ __ZN9ApplePMGR22_getFreeRunningCounterEhjj
++ __ZN9ApplePMGR22_getMaxValidPerfStatesEth
++ __ZN9ApplePMGR24_initFreeRunningCountersEP9IOService
++ __ZN9ApplePMGR26_handleSOCPerfStateRequestEPNS_10PerfDomainEhbt
++ __ZN9ApplePMGR26_recordFrCountersAwakeExitEv
++ __ZN9ApplePMGR27_hasValidFreeRunningCounterEhj
++ __ZN9ApplePMGR30_pmpWriteDashBoardSetPerfStateEtjjjj
++ __ZN9ApplePMGR32_checkUpdateFrCountersAwakeEntryEv
++ __ZN9ApplePMGR35_updateDevicePerfDomainRequirementsEmmm
++ __ZN9ApplePMGR40_updateDevicePerfDomainRequirementsGatedEmmm
++ __ZNK29ApplePMGRFunctionSetPerfState12getMetaClassEv
++ __ZNK29ApplePMGRFunctionSetPerfState9MetaClass5allocEv
++ __ZNK34ApplePMGRFunctionGetValidPerfState12getMetaClassEv
++ __ZNK34ApplePMGRFunctionGetValidPerfState9MetaClass5allocEv
++ __ZTV29ApplePMGRFunctionSetPerfState
++ __ZTV34ApplePMGRFunctionGetValidPerfState
++ __ZTVN29ApplePMGRFunctionSetPerfState9MetaClassE
++ __ZTVN34ApplePMGRFunctionGetValidPerfState9MetaClassE
++ __ZZN28ApplePMGRFunctionISPRefClock27initWithTargetDataAndSymbolEP9IOServicePK6OSDataPK8OSSymbolE22kalloc_type_view_15726
++ __ZZN8ApplePMC19_initVoteAggregatorEvE20kalloc_type_view_486
++ __ZZN8ApplePMC19_initVoteAggregatorEvE20kalloc_type_view_489
++ __ZZN9ApplePMGR10_initPMPv2EvE21kalloc_type_view_9812
++ __ZZN9ApplePMGR10_initPMPv2EvE21kalloc_type_view_9885
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE20kalloc_type_view_922
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE20kalloc_type_view_977
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1025
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1051
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1132
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1149
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1162
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1227
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1231
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1357
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1511
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1534
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1566
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1592
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1745
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1780
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1863
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_2272
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_2327
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_2335
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_2453
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_2455
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_2692
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_2999
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_3002
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_3004
++ __ZZN9ApplePMGR15_initGenericPTDEvE21kalloc_type_view_9766
++ __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_17189
++ __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_17217
++ __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_17260
++ __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_17324
++ __ZZN9ApplePMGR19_initPerfCountersV2EP9IOServiceE22kalloc_type_view_17965
++ __ZZN9ApplePMGR19_initPerfCountersV2EP9IOServiceE22kalloc_type_view_17982
++ __ZZN9ApplePMGR24_initFreeRunningCountersEP9IOServiceE22kalloc_type_view_18160
++ __ZZN9ApplePMGR32_pmpWriteDashBoardSetDeviceStateEtjjE22kalloc_type_view_10255
+- _ZN9ApplePMGR19_initPerfCountersV2EP9IOService.cold.9
+- _ZN9ApplePMGR23_snapshotPerfCountersV2Eb.cold.3
+- _ZN9ApplePMGR26_handleSOCPerfStateRequestEPNS_10PerfDomainEhb.cold.1
+- __ZN9ApplePMGR18_perfCounterUpTimeEj
+- __ZN9ApplePMGR26_handleSOCPerfStateRequestEPNS_10PerfDomainEhb
+- __ZZN28ApplePMGRFunctionISPRefClock27initWithTargetDataAndSymbolEP9IOServicePK6OSDataPK8OSSymbolE22kalloc_type_view_15441
+- __ZZN8ApplePMC19_initVoteAggregatorEvE20kalloc_type_view_478
+- __ZZN8ApplePMC19_initVoteAggregatorEvE20kalloc_type_view_481
+- __ZZN9ApplePMGR10_initPMPv2EvE21kalloc_type_view_9728
+- __ZZN9ApplePMGR10_initPMPv2EvE21kalloc_type_view_9801
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE20kalloc_type_view_910
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE20kalloc_type_view_965
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1013
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1039
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1108
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1137
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1150
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1212
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1216
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1327
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1496
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1519
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1551
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1577
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1730
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1765
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1848
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_2257
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_2312
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_2320
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_2438
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_2440
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_2677
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_2984
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_2987
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_2989
+- __ZZN9ApplePMGR15_initGenericPTDEvE21kalloc_type_view_9682
+- __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16804
+- __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16832
+- __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16875
+- __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16939
+- __ZZN9ApplePMGR19_initPerfCountersV2EP9IOServiceE22kalloc_type_view_17579
+- __ZZN9ApplePMGR19_initPerfCountersV2EP9IOServiceE22kalloc_type_view_17596
+- __ZZN9ApplePMGR32_pmpWriteDashBoardSetDeviceStateEtjjE22kalloc_type_view_10048
+CStrings:
++ "\"%s\" @%s:%d"
++ "(_getEdtPropertyVer() == kEdtPropertyV1) || (_getEdtPropertyVer() == kEdtPropertyV2)"
++ "*_perfDomainIndex < ApplePMGR::kPerfStateReqMaxDomains"
++ "ApplePMGR: die:%d Parent PS check, %s PS device(%d:%s) not powered off(0x%x) before powering off device 0x%x:%s\n"
++ "ApplePMGR: die:%d Quiesce PS check, %s PS device(%d:%s) not powered off(0x%x) before entering sleep\n"
++ "ApplePMGRFunctionGetValidPerfState"
++ "ApplePMGRFunctionSetPerfState"
++ "IOReturn ApplePMGR::_pmpWriteDashBoardSetPerfState(DeviceID, UInt32, UInt32, UInt32, UInt32)"
++ "_frCounterCount < UINT16_MAX"
++ "_frCounters"
++ "_perfGroupCount <= kMaxPerfGroupsCount"
++ "_perfRegGroupCount <= kMaxPerfGroupsCount"
++ "_target"
++ "deprecate-virtual-perf-devices"
++ "deviceID < kDeviceIDMaxCount"
++ "free-running-counter"
++ "length == 1"
++ "param1 && param2"
++ "pmgr-disable-pscheck-panic"
++ "pwrgateretention-workaround"
++ "site.ApplePMGRFunctionGetValidPerfState"
++ "site.ApplePMGRFunctionSetPerfState"
++ "site.FreeRunningCounterData"
++ "vdd-cio-rail-always-on"
++ "virtual IOReturn ApplePMGRFunctionSetPerfState::callFunction(void *, void *, void *)"
++ "void ApplePMGR::_handleSOCPerfStateRequest(PerfDomain *, PerfState, bool, DeviceID)"
++ "void ApplePMGR::_initFreeRunningCounters(IOService *)"
+- "\"ApplePMGR: die %u device 0x%x is not powered off before entering sleep\" @%s:%d"
+- "\"ApplePMGR: die %u device 0x%x is not powered off before powering off device 0x%x\" @%s:%d"
+- "channelID == FR_COUNTER_CHANNEL_ID"
+- "void ApplePMGR::_handleSOCPerfStateRequest(PerfDomain *, PerfState, bool)"
+
+```

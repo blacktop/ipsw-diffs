@@ -1,0 +1,967 @@
+## ShimGameServices
+
+> `/System/Library/PrivateFrameworks/ShimGameServices.framework/Versions/A/ShimGameServices`
+
+```diff
+
+-819.3.6.0.0
+-  __TEXT.__text: 0x75e74
+-  __TEXT.__auth_stubs: 0x1610
+-  __TEXT.__objc_methlist: 0x44
+-  __TEXT.__cstring: 0xfc2
+-  __TEXT.__const: 0x1838
+-  __TEXT.__swift5_typeref: 0x1638
+-  __TEXT.__oslogstring: 0xc4
+-  __TEXT.__swift5_reflstr: 0x4d3
+-  __TEXT.__swift5_assocty: 0xe8
+-  __TEXT.__constg_swiftt: 0x808
+-  __TEXT.__swift5_fieldmd: 0x624
+-  __TEXT.__swift5_protos: 0x2c
+-  __TEXT.__swift5_proto: 0x120
+-  __TEXT.__swift5_types: 0x98
+-  __TEXT.__swift5_capture: 0x244
+-  __TEXT.__swift5_builtin: 0x50
+-  __TEXT.__unwind_info: 0x2978
+-  __TEXT.__eh_frame: 0x8340
+-  __TEXT.__objc_classname: 0x132
+-  __TEXT.__objc_methname: 0x34fc
+-  __TEXT.__objc_methtype: 0x22ca
++819.4.46.0.0
++  __TEXT.__text: 0x65e00
++  __TEXT.__auth_stubs: 0x1650
++  __TEXT.__objc_methlist: 0xa9c
++  __TEXT.__cstring: 0x982
++  __TEXT.__const: 0x1730
++  __TEXT.__constg_swiftt: 0x6f0
++  __TEXT.__swift5_typeref: 0x17fe
++  __TEXT.__swift5_reflstr: 0x491
++  __TEXT.__swift5_fieldmd: 0x638
++  __TEXT.__swift5_proto: 0x108
++  __TEXT.__swift5_types: 0x8c
++  __TEXT.__swift_as_entry: 0x378
++  __TEXT.__swift_as_ret: 0x3d8
++  __TEXT.__oslogstring: 0x224
++  __TEXT.__swift5_builtin: 0x28
++  __TEXT.__swift5_assocty: 0x60
++  __TEXT.__swift5_protos: 0x20
++  __TEXT.__swift5_capture: 0x258
++  __TEXT.__unwind_info: 0x2008
++  __TEXT.__eh_frame: 0x6d18
++  __TEXT.__objc_classname: 0xfc
++  __TEXT.__objc_methname: 0x27b8
++  __TEXT.__objc_methtype: 0x1a47
+   __TEXT.__objc_stubs: 0x1c0
+-  __DATA_CONST.__got: 0x540
+-  __DATA_CONST.__const: 0x248
++  __DATA_CONST.__got: 0x468
++  __DATA_CONST.__const: 0x108
++  __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_catlist: 0x18
+-  __DATA_CONST.__objc_protolist: 0x100
++  __DATA_CONST.__objc_protolist: 0xd0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x560
+-  __DATA_CONST.__objc_protorefs: 0x80
+-  __AUTH_CONST.__auth_got: 0xb10
+-  __AUTH_CONST.__const: 0x1638
++  __DATA_CONST.__objc_selrefs: 0xa28
++  __DATA_CONST.__objc_protorefs: 0x68
++  __AUTH_CONST.__auth_got: 0xb30
++  __AUTH_CONST.__const: 0x1430
+   __AUTH_CONST.__cfstring: 0x80
+-  __AUTH_CONST.__objc_const: 0x3fa0
+-  __AUTH.__data: 0x2c8
+-  __DATA.__data: 0x19e0
+-  __DATA.__bss: 0x2000
++  __AUTH_CONST.__objc_const: 0x2288
++  __AUTH.__objc_data: 0xd0
++  __AUTH.__data: 0x378
++  __DATA.__data: 0x18a0
++  __DATA.__bss: 0x1ee0
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/PrivateFrameworks/GameCenterFoundation.framework/Versions/A/GameCenterFoundation
+-  - /System/Library/PrivateFrameworks/GameServicesProtocols.framework/Versions/A/GameServicesProtocols
++  - /System/Library/PrivateFrameworks/GameServices.framework/Versions/A/GameServices
++  - /System/Library/PrivateFrameworks/GameServicesCore.framework/Versions/A/GameServicesCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
++  - /usr/lib/swift/libswiftSynchronization.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 444B4523-462D-3AEB-A8FA-1DD921695729
+-  Functions: 2703
+-  Symbols:   1887
+-  CStrings:  708
++  UUID: 3D38926F-FD67-3490-914A-37393E554CBC
++  Functions: 2499
++  Symbols:   1882
++  CStrings:  575
+ 
+Symbols:
++ _OBJC_CLASS_$_GKDevice
++ _OBJC_CLASS_$_GKPreferences
++ _OBJC_CLASS_$_GKPrivacyContentVersion
++ _OBJC_CLASS_$_NSNotificationCenter
++ _OBJC_CLASS_$_NSObject
++ _OBJC_METACLASS_$_NSObject
++ _OBJC_METACLASS_$__TtC16ShimGameServicesP33_BB4D3006578329CF5C2F6C1B26EE34E428GameServiceDelegateReference
++ _PROTOCOLS__TtC16ShimGameServicesP33_BB4D3006578329CF5C2F6C1B26EE34E428GameServiceDelegateReference.20
++ __DATA__TtC16ShimGameServicesP33_BB4D3006578329CF5C2F6C1B26EE34E428GameServiceDelegateReference
++ __INSTANCE_METHODS__TtC16ShimGameServicesP33_BB4D3006578329CF5C2F6C1B26EE34E428GameServiceDelegateReference
++ __IVARS__TtC16ShimGameServicesP33_BB4D3006578329CF5C2F6C1B26EE34E428GameServiceDelegateReference
++ __METACLASS_DATA__TtC16ShimGameServicesP33_BB4D3006578329CF5C2F6C1B26EE34E428GameServiceDelegateReference
++ __MergedGlobals
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_GKDaemonProxyDataUpdateDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_GKDaemonProxyDataUpdateDelegate
++ __OBJC_$_PROTOCOL_REFS_GKDaemonProxyDataUpdateDelegate
++ __OBJC_LABEL_PROTOCOL_$_GKDaemonProxyDataUpdateDelegate
++ __OBJC_PROTOCOL_$_GKDaemonProxyDataUpdateDelegate
++ __PROTOCOLS__TtC16ShimGameServicesP33_BB4D3006578329CF5C2F6C1B26EE34E428GameServiceDelegateReference
++ ___swift_allocate_boxed_opaque_existential_0
++ ___swift_allocate_boxed_opaque_existential_1Tm
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ ___swift_destroy_boxed_opaque_existential_0Tm
++ ___swift_destroy_boxed_opaque_existential_1Tm
++ ___swift_memcpy384_8
++ ___swift_project_boxed_opaque_existential_0
++ ___swift_project_boxed_opaque_existential_0Tm
++ ___swift_project_boxed_opaque_existential_1Tm
++ __objc_empty_cache
++ __swift_stdlib_reportUnimplementedInitializer
++ _associated conformance 16ShimGameServices0aB23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO0B16CenterCodingKeysOs0R3KeyAAs23CustomStringConvertible
++ _associated conformance 16ShimGameServices0aB23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO0B16CenterCodingKeysOs0R3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16ShimGameServices0aB23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO10CodingKeysOSHAASQ
++ _associated conformance 16ShimGameServices0aB23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO10CodingKeysOs0Q3KeyAAs23CustomStringConvertible
++ _associated conformance 16ShimGameServices0aB23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO10CodingKeysOs0Q3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16ShimGameServices0aB23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO25PurchaseHistoryCodingKeysOs0S3KeyAAs23CustomStringConvertible
++ _associated conformance 16ShimGameServices0aB23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO25PurchaseHistoryCodingKeysOs0S3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16ShimGameServices0aB23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLOSHAASQ
++ _generic environment 16ShimGameServices23AnySortableKeyValuePairVyqd__GRszSeRd__SERd__s8SendableRd__r__l
++ _generic environment SeRzSERzs8SendableRzl
++ _objc_msgSendSuper2
++ _os_unfair_lock_lock
++ _os_unfair_lock_unlock
++ _swift_deletedMethodError
++ _swift_runtimeSupportsNoncopyableTypes
++ _swift_task_create
++ _swift_unknownObjectWeakAssign
++ _swift_unknownObjectWeakDestroy
++ _swift_unknownObjectWeakInit
++ _swift_unknownObjectWeakLoadStrong
++ _symbolic SDySSSo13GKAppMetadataCG
++ _symbolic SDySSSo8NSNumberCG
++ _symbolic SDySS_____G 10Foundation4DateV
++ _symbolic SDy__________y_____y_____GGG 16ShimGameServices0aB23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO 0bC04PageV AA23AnySortableKeyValuePairV AG0B7HistoryV
++ _symbolic SDy__________y_____y_____y______pGGGG 16ShimGameServices0aB23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO 0bC04PageV AA23AnySortableKeyValuePairV AG3RefV AG0B0P
++ _symbolic SS2id______y______pG4gamet 12GameServices3RefV AA0A0P
++ _symbolic SaySDySS______pGG So14NSSecureCodingP
++ _symbolic SaySo24GKFriendActivityInternalCG
++ _symbolic Say_____G 12GameServices0A11DescriptionV12CapabilitiesV
++ _symbolic Say_____G 12GameServices0A11DescriptionV19CompatiblePlatformsV
++ _symbolic Say_____G 12GameServices14FriendActivityV
++ _symbolic Say_____G 12GameServices7ProfileV13SubscriptionsV
++ _symbolic Say_____G 16ShimGameServices19RawFriendSuggestionV
++ _symbolic Say_____y_____GG 12GameServices4PageV AA22ParticipantInteractionV
++ _symbolic Say_____y_____GG 16ShimGameServices23AnySortableKeyValuePairV 0bC00B7HistoryV
++ _symbolic Say_____y______pGG 12GameServices3RefV AA22FriendSuggestionEntityP
++ _symbolic Say_____y_____y______pGGG 16ShimGameServices23AnySortableKeyValuePairV 0bC03RefV AD0B0P
++ _symbolic Sb8inserted______17memberAfterInsertt 12GameServices0A11DescriptionV12CapabilitiesV
++ _symbolic Sb8inserted______17memberAfterInsertt 12GameServices7ProfileV13SubscriptionsV
++ _symbolic ScA_pSg
++ _symbolic ScCySDySSSo13GKAppMetadataCG______pG s5ErrorP
++ _symbolic ScCySDySSSo8NSNumberCG_____G s5NeverO
++ _symbolic ScCySDySS_____G______pG 10Foundation4DateV s5ErrorP
++ _symbolic ScCySaySDySS______pGG______pG So14NSSecureCodingP s5ErrorP
++ _symbolic ScCySaySo24GKFriendActivityInternalCG______pG s5ErrorP
++ _symbolic ScCySay_____G_____G 16ShimGameServices19RawFriendSuggestionV s5NeverO
++ _symbolic ScCy___________pG 10Foundation4DataV s5ErrorP
++ _symbolic ScPSg
++ _symbolic So20NSNotificationCenterC
++ _symbolic So8NSObjectC
++ _symbolic SuSg
++ _symbolic _____ 12GameServices0A14SortDescriptorV
++ _symbolic _____ 12GameServices0A7FiltersV
++ _symbolic _____ 16GameServicesCore0A11ServiceRootC
++ _symbolic _____ 16GameServicesCore0aB11EnvironmentV
++ _symbolic _____ 16ShimGameServices04FakebC7SupportV
++ _symbolic _____ 16ShimGameServices0A18LeaderboardServiceV011GCFGameStatE19LeaderboardsAdapterV
++ _symbolic _____ 16ShimGameServices0B24ServiceDelegateReference33_BB4D3006578329CF5C2F6C1B26EE34E4LLC
++ _symbolic _____ 16ShimGameServices0aB23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO
++ _symbolic _____ 16ShimGameServices0aB23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO0B16CenterCodingKeysO
++ _symbolic _____ 16ShimGameServices0aB23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO10CodingKeysO
++ _symbolic _____ 16ShimGameServices0aB23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO25PurchaseHistoryCodingKeysO
++ _symbolic _____ 16ShimGameServices19RawFriendSuggestionV
++ _symbolic _____ So17GKLeaderboardTypeV
++ _symbolic _____Sg 12GameServices0A11DescriptionV
++ _symbolic _____Sg 12GameServices0A11DescriptionV12CapabilitiesV
++ _symbolic _____Sg 12GameServices0A11DescriptionV19CompatiblePlatformsV
++ _symbolic _____Sg 12GameServices0A14SortDescriptorV
++ _symbolic _____Sg 12GameServices0A7FiltersV
++ _symbolic _____Sg 12GameServices0A7HistoryV
++ _symbolic _____Sg 12GameServices0A7HistoryV04PlayC0V
++ _symbolic _____Sg 12GameServices16FriendSuggestionV
++ _symbolic _____Sg 12GameServices20LeaderboardTimeScopeO
++ _symbolic _____Sg 12GameServices22AchievementDescriptionV
++ _symbolic _____Sg 12GameServices30RecurringLeaderboardPropertiesV
++ _symbolic _____Sg 12GameServices6CursorV
++ _symbolic _____Sg 12GameServices7ArtworkV
++ _symbolic _____Sg 12GameServices7ProfileV
++ _symbolic _____Sg 12GameServices7ProfileV13SubscriptionsV
++ _symbolic _____Sg 16GameServicesCore04FakeA15KitDataProviderV
++ _symbolic ___________y_____y_____GGt 16ShimGameServices0aB23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO 0bC04PageV AA23AnySortableKeyValuePairV AG0B7HistoryV
++ _symbolic ___________y_____y_____GGtSg 16ShimGameServices0aB23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO 0bC04PageV AA23AnySortableKeyValuePairV AG0B7HistoryV
++ _symbolic ___________y_____y_____GGt______pIeghHrzo_ 16ShimGameServices0aB23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO 0bC04PageV AA23AnySortableKeyValuePairV AG0B7HistoryV s5ErrorP
++ _symbolic ___________y_____y_____y______pGGGt 16ShimGameServices0aB23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO 0bC04PageV AA23AnySortableKeyValuePairV AG3RefV AG0B0P
++ _symbolic ___________y_____y_____y______pGGGtSg 16ShimGameServices0aB23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO 0bC04PageV AA23AnySortableKeyValuePairV AG3RefV AG0B0P
++ _symbolic ___________y_____y_____y______pGGGt______pIeghHrzo_ 16ShimGameServices0aB23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO 0bC04PageV AA23AnySortableKeyValuePairV AG3RefV AG0B0P s5ErrorP
++ _symbolic __________y_____y_____GG______pIeAgHdrzo_ 16ShimGameServices0aB23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO 0bC04PageV AA23AnySortableKeyValuePairV AG0B7HistoryV s5ErrorP
++ _symbolic __________y_____y_____GG______pIeghHdrzo_ 16ShimGameServices0aB23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO 0bC04PageV AA23AnySortableKeyValuePairV AG0B7HistoryV s5ErrorP
++ _symbolic __________y_____y_____y______pGGG______pIeAgHdrzo_ 16ShimGameServices0aB23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO 0bC04PageV AA23AnySortableKeyValuePairV AG3RefV AG0B0P s5ErrorP
++ _symbolic __________y_____y_____y______pGGG______pIeghHdrzo_ 16ShimGameServices0aB23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO 0bC04PageV AA23AnySortableKeyValuePairV AG3RefV AG0B0P s5ErrorP
++ _symbolic ______p 12GameServices0A0P
++ _symbolic ______p 12GameServices0A22LibraryServiceProtocolP
++ _symbolic ______p 12GameServices0A23ActivityServiceProtocolP
++ _symbolic ______p 12GameServices11AchievementP
++ _symbolic ______p 12GameServices11LeaderboardP
++ _symbolic ______p 12GameServices22ProfileServiceProtocolP
++ _symbolic ______p 12GameServices24ChallengeServiceProtocolP
++ _symbolic ______p 12GameServices25ChallengeDefinitionEntityP
++ _symbolic ______p 12GameServices25OnboardingServiceProtocolP
++ _symbolic ______p 12GameServices26AchievementServiceProtocolP
++ _symbolic ______p 12GameServices26LeaderboardServiceProtocolP
++ _symbolic ______p 12GameServices29AuthenticationServiceProtocolP
++ _symbolic ______p 12GameServices6PlayerP
++ _symbolic ______p 12GameServices9ChallengeP
++ _symbolic ______pSgXw 12GameServices0A15ServiceDelegateP
++ _symbolic _____ySS_____y______pGG s17_NativeDictionaryV 12GameServices3RefV AC0C0P
++ _symbolic _____y_____G 12GameServices4PageV AA13FriendRequestV
++ _symbolic _____y_____G 12GameServices4PageV AA16LeaderboardEntryV
++ _symbolic _____y_____G 12GameServices4PageV AA22ParticipantInteractionV
++ _symbolic _____y_____G 16ShimGameServices23AnySortableKeyValuePairV 0bC00B7HistoryV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16ShimGameServices0dE23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO0E16CenterCodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16ShimGameServices0dE23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16ShimGameServices0dE23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO25PurchaseHistoryCodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16ShimGameServices0dE23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO0E16CenterCodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16ShimGameServices0dE23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16ShimGameServices0dE23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO25PurchaseHistoryCodingKeysO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12GameServices0D11DescriptionV19CompatiblePlatformsV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12GameServices0D7HistoryV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12GameServices12PersonHandleO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12GameServices13FriendRequestV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12GameServices14FriendActivityV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12GameServices16LeaderboardEntryV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12GameServices19AchievementProgressV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12GameServices22LeaderboardDescriptionV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12GameServices22ParticipantInteractionV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12GameServices7ProfileV13SubscriptionsV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 16ShimGameServices19RawFriendSuggestionV
++ _symbolic _____y_____GSg 16ShimGameServices23AnySortableKeyValuePairV 0bC00B7HistoryV
++ _symbolic _____y_____SgG s23_ContiguousArrayStorageC 12GameServices0D11DescriptionV
++ _symbolic _____y_____SgG s23_ContiguousArrayStorageC 12GameServices16FriendSuggestionV
++ _symbolic _____y_____SgG s23_ContiguousArrayStorageC 12GameServices22AchievementDescriptionV
++ _symbolic _____y_____SgG s23_ContiguousArrayStorageC 12GameServices7ProfileV
++ _symbolic _____y___________y_____y_____GGt______p_G Scg8IteratorV 16ShimGameServices0bC23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO 0cD04PageV AC23AnySortableKeyValuePairV AI0C7HistoryV s5ErrorP
++ _symbolic _____y___________y_____y_____GGtyYaYbKcG s23_ContiguousArrayStorageC 16ShimGameServices0dE23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO 0eF04PageV AC23AnySortableKeyValuePairV AI0E7HistoryV
++ _symbolic _____y___________y_____y_____y______pGGGt______p_G Scg8IteratorV 16ShimGameServices0bC23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO 0cD04PageV AC23AnySortableKeyValuePairV AI3RefV AI0C0P s5ErrorP
++ _symbolic _____y___________y_____y_____y______pGGGtyYaYbKcG s23_ContiguousArrayStorageC 16ShimGameServices0dE23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO 0eF04PageV AC23AnySortableKeyValuePairV AI3RefV AI0E0P
++ _symbolic _____y__________y_____y_____GGG s17_NativeDictionaryV 16ShimGameServices0cD23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO 0dE04PageV AC23AnySortableKeyValuePairV AI0D7HistoryV
++ _symbolic _____y__________y_____y_____y______pGGGG s17_NativeDictionaryV 16ShimGameServices0cD23LibraryAggregateServiceV6Source33_A7062F1C61AFBF92F89F44D82ABF6B49LLO 0dE04PageV AC23AnySortableKeyValuePairV AI3RefV AI0D0P
++ _symbolic _____y______pG 12GameServices3RefV AA0A0P
++ _symbolic _____y______pG 12GameServices3RefV AA11AchievementP
++ _symbolic _____y______pG 12GameServices3RefV AA11ImageEntityP
++ _symbolic _____y______pG 12GameServices3RefV AA11LeaderboardP
++ _symbolic _____y______pG 12GameServices3RefV AA22FriendSuggestionEntityP
++ _symbolic _____y______pG 12GameServices3RefV AA25ChallengeDefinitionEntityP
++ _symbolic _____y______pG 12GameServices3RefV AA6PlayerP
++ _symbolic _____y______pG 12GameServices3RefV AA7ContactP
++ _symbolic _____y______pG 12GameServices3RefV AA9ChallengeP
++ _symbolic _____y______pGSg 12GameServices3RefV AA0A0P
++ _symbolic _____y______pGSg 12GameServices3RefV AA11ImageEntityP
++ _symbolic _____y______pGSg 12GameServices3RefV AA25ChallengeDefinitionEntityP
++ _symbolic _____y______pGSg 12GameServices3RefV AA6PlayerP
++ _symbolic _____y______pGSg 12GameServices3RefV AA7ContactP
++ _symbolic _____y______pGSg 12GameServices3RefV AA9ChallengeP
++ _symbolic _____y______pGSg_ADt 12GameServices3RefV AA7ContactP
++ _symbolic _____y______pG_AAy______pGt 12GameServices3RefV AA0A0P AA6PlayerP
++ _symbolic _____y______pG_SSt 12GameServices3RefV AA6PlayerP
++ _symbolic _____y_____y_____GG 10Foundation14SortDescriptorV 16ShimGameServices23AnySortableKeyValuePairV 0eF00E7HistoryV
++ _symbolic _____y_____y_____GG 12GameServices4PageV 04ShimaB023AnySortableKeyValuePairV AA0A7HistoryV
++ _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 12GameServices4PageV AC16LeaderboardEntryV
++ _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 12GameServices4PageV AC22ParticipantInteractionV
++ _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 16ShimGameServices23AnySortableKeyValuePairV 0eF00E7HistoryV
++ _symbolic _____y_____y_____GGSg 12GameServices4PageV 04ShimaB023AnySortableKeyValuePairV AA0A7HistoryV
++ _symbolic _____y_____y______pGABy______pGG s17_NativeDictionaryV 12GameServices3RefV AC11AchievementP AC0C0P
++ _symbolic _____y_____y______pGABy______pGG s17_NativeDictionaryV 12GameServices3RefV AC11LeaderboardP AC0C0P
++ _symbolic _____y_____y______pGG 12GameServices4PageV AA3RefV AA0A24ActivityDefinitionEntityP
++ _symbolic _____y_____y______pGG 12GameServices4PageV AA3RefV AA11AchievementP
++ _symbolic _____y_____y______pGG 12GameServices4PageV AA3RefV AA11LeaderboardP
++ _symbolic _____y_____y______pGG 12GameServices4PageV AA3RefV AA25ChallengeDefinitionEntityP
++ _symbolic _____y_____y______pGG 12GameServices4PageV AA3RefV AA6PlayerP
++ _symbolic _____y_____y______pGG 16ShimGameServices23AnySortableKeyValuePairV 0bC03RefV AD0B0P
++ _symbolic _____y_____y______pGG s23_ContiguousArrayStorageC 12GameServices3RefV AC0D0P
++ _symbolic _____y_____y______pGG s23_ContiguousArrayStorageC 12GameServices3RefV AC11AchievementP
++ _symbolic _____y_____y______pGG s23_ContiguousArrayStorageC 12GameServices3RefV AC11LeaderboardP
++ _symbolic _____y_____y______pGG s23_ContiguousArrayStorageC 12GameServices3RefV AC22FriendSuggestionEntityP
++ _symbolic _____y_____y______pGG s23_ContiguousArrayStorageC 12GameServices3RefV AC25ChallengeDefinitionEntityP
++ _symbolic _____y_____y______pGG s23_ContiguousArrayStorageC 12GameServices3RefV AC6PlayerP
++ _symbolic _____y_____y______pGG s23_ContiguousArrayStorageC 12GameServices3RefV AC9ChallengeP
++ _symbolic _____y_____y______pGGSg 16ShimGameServices23AnySortableKeyValuePairV 0bC03RefV AD0B0P
++ _symbolic _____y_____y______pGSSG s17_NativeDictionaryV 12GameServices3RefV AC6PlayerP
++ _symbolic _____y_____y______pGSaySo21GKAchievementInternalCGG s17_NativeDictionaryV 12GameServices3RefV AC0C0P
++ _symbolic _____y_____y______pGSaySo21GKLeaderboardInternalCGG s17_NativeDictionaryV 12GameServices3RefV AC0C0P
++ _symbolic _____y_____y______pG_____G s17_NativeDictionaryV 12GameServices3RefV AC0C0P AC0C11DescriptionV12CapabilitiesV
++ _symbolic _____y_____y______pG_____G s17_NativeDictionaryV 12GameServices3RefV AC22FriendSuggestionEntityP AC0fG0V
++ _symbolic _____y_____y______p_GG s23_ContiguousArrayStorageC 12GameServices3RefVA2C6Player_pRszlE0G2IDO AcFP
++ _symbolic _____y_____y_____y______pGGG 10Foundation14SortDescriptorV 16ShimGameServices23AnySortableKeyValuePairV 0eF03RefV AG0E0P
++ _symbolic _____y_____y_____y______pGGG 12GameServices4PageV 04ShimaB023AnySortableKeyValuePairV AA3RefV AA0A0P
++ _symbolic _____y_____y_____y______pGGG s23_ContiguousArrayStorageC 12GameServices4PageV AC3RefV AC11AchievementP
++ _symbolic _____y_____y_____y______pGGG s23_ContiguousArrayStorageC 12GameServices4PageV AC3RefV AC11LeaderboardP
++ _symbolic _____y_____y_____y______pGGG s23_ContiguousArrayStorageC 12GameServices4PageV AC3RefV AC6PlayerP
++ _symbolic _____y_____y_____y______pGGG s23_ContiguousArrayStorageC 16ShimGameServices23AnySortableKeyValuePairV 0eF03RefV AF0E0P
++ _symbolic _____y_____y_____y______pGGGSg 12GameServices4PageV 04ShimaB023AnySortableKeyValuePairV AA3RefV AA0A0P
++ _symbolic _____yytG 15Synchronization5MutexVAARi_zrlE
++ block_copy_helper.13
++ block_copy_helper.158
++ block_copy_helper.17
++ block_copy_helper.173
++ block_copy_helper.176
++ block_copy_helper.185
++ block_copy_helper.31
++ block_copy_helper.37
++ block_copy_helper.39
++ block_copy_helper.48
++ block_copy_helper.50
++ block_copy_helper.58
++ block_copy_helper.9
++ block_descriptor.15
++ block_descriptor.160
++ block_descriptor.175
++ block_descriptor.178
++ block_descriptor.187
++ block_descriptor.19
++ block_descriptor.33
++ block_descriptor.39
++ block_descriptor.41
++ block_descriptor.50
++ block_descriptor.52
++ block_destroy_helper.10
++ block_destroy_helper.14
++ block_destroy_helper.159
++ block_destroy_helper.174
++ block_destroy_helper.177
++ block_destroy_helper.18
++ block_destroy_helper.186
++ block_destroy_helper.32
++ block_destroy_helper.38
++ block_destroy_helper.40
++ block_destroy_helper.49
++ block_destroy_helper.51
++ block_destroy_helper.59
++ get_type_metadata 15Synchronization5MutexVyytG.21
++ objectdestroy.46Tm
++ objectdestroy.78Tm
+- _OBJC_CLASS_$_GKLeaderboardChallengeActiveInternal
+- _OBJC_CLASS_$_GKLeaderboardChallengeDetailsInternal
+- _OBJC_CLASS_$_GKLeaderboardChallengeDetailsPageInternal
+- _OBJC_CLASS_$_GKLeaderboardChallengeInternal
+- _OBJC_CLASS_$_GKLeaderboardChallengeInviteInternal
+- _OBJC_CLASS_$_GKLeaderboardChallengeInviteeInternal
+- _OBJC_CLASS_$_GKLeaderboardChallengeInviteeStatusInternal
+- _OBJC_CLASS_$_GKLeaderboardChallengeParticipantInternal
+- _OBJC_CLASS_$_GKLeaderboardChallengeParticipantSummaryInternal
+- _OBJC_CLASS_$_GKLeaderboardChallengeSummaryInternal
+- _OUTLINED_FUNCTION_165
+- _OUTLINED_FUNCTION_166
+- _OUTLINED_FUNCTION_167
+- _OUTLINED_FUNCTION_168
+- _OUTLINED_FUNCTION_169
+- _OUTLINED_FUNCTION_170
+- _OUTLINED_FUNCTION_171
+- _OUTLINED_FUNCTION_172
+- _OUTLINED_FUNCTION_173
+- _OUTLINED_FUNCTION_174
+- _OUTLINED_FUNCTION_175
+- _OUTLINED_FUNCTION_176
+- _OUTLINED_FUNCTION_177
+- _OUTLINED_FUNCTION_178
+- _OUTLINED_FUNCTION_179
+- _OUTLINED_FUNCTION_180
+- _OUTLINED_FUNCTION_181
+- _OUTLINED_FUNCTION_182
+- _OUTLINED_FUNCTION_183
+- _OUTLINED_FUNCTION_184
+- _OUTLINED_FUNCTION_185
+- _OUTLINED_FUNCTION_186
+- _OUTLINED_FUNCTION_187
+- _OUTLINED_FUNCTION_188
+- _OUTLINED_FUNCTION_189
+- _OUTLINED_FUNCTION_190
+- _OUTLINED_FUNCTION_191
+- _OUTLINED_FUNCTION_192
+- _OUTLINED_FUNCTION_193
+- _OUTLINED_FUNCTION_194
+- _OUTLINED_FUNCTION_195
+- _OUTLINED_FUNCTION_196
+- _OUTLINED_FUNCTION_197
+- _OUTLINED_FUNCTION_198
+- _OUTLINED_FUNCTION_199
+- _OUTLINED_FUNCTION_200
+- _OUTLINED_FUNCTION_201
+- _OUTLINED_FUNCTION_202
+- _OUTLINED_FUNCTION_203
+- _OUTLINED_FUNCTION_204
+- _OUTLINED_FUNCTION_205
+- _OUTLINED_FUNCTION_206
+- _OUTLINED_FUNCTION_207
+- _OUTLINED_FUNCTION_208
+- _OUTLINED_FUNCTION_209
+- _OUTLINED_FUNCTION_210
+- _OUTLINED_FUNCTION_211
+- _OUTLINED_FUNCTION_212
+- _OUTLINED_FUNCTION_213
+- _OUTLINED_FUNCTION_214
+- _OUTLINED_FUNCTION_215
+- _OUTLINED_FUNCTION_216
+- _OUTLINED_FUNCTION_217
+- _OUTLINED_FUNCTION_218
+- _OUTLINED_FUNCTION_219
+- _OUTLINED_FUNCTION_220
+- _OUTLINED_FUNCTION_221
+- _OUTLINED_FUNCTION_222
+- _OUTLINED_FUNCTION_223
+- _OUTLINED_FUNCTION_224
+- _OUTLINED_FUNCTION_225
+- _OUTLINED_FUNCTION_226
+- _OUTLINED_FUNCTION_227
+- _OUTLINED_FUNCTION_228
+- _OUTLINED_FUNCTION_229
+- _OUTLINED_FUNCTION_230
+- _OUTLINED_FUNCTION_231
+- _OUTLINED_FUNCTION_232
+- _OUTLINED_FUNCTION_233
+- _OUTLINED_FUNCTION_234
+- _OUTLINED_FUNCTION_235
+- _OUTLINED_FUNCTION_236
+- _OUTLINED_FUNCTION_237
+- _OUTLINED_FUNCTION_238
+- _OUTLINED_FUNCTION_239
+- _OUTLINED_FUNCTION_240
+- _OUTLINED_FUNCTION_241
+- _OUTLINED_FUNCTION_242
+- _OUTLINED_FUNCTION_243
+- _OUTLINED_FUNCTION_244
+- _OUTLINED_FUNCTION_245
+- _OUTLINED_FUNCTION_246
+- _OUTLINED_FUNCTION_247
+- _OUTLINED_FUNCTION_248
+- _OUTLINED_FUNCTION_249
+- _OUTLINED_FUNCTION_250
+- _OUTLINED_FUNCTION_251
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_GKAccountService
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_GKAccountServicePrivate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_GKChallengeService
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_GKChallengeServicePrivate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_GKAccountService
+- __OBJC_$_PROTOCOL_METHOD_TYPES_GKAccountServicePrivate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_GKChallengeService
+- __OBJC_$_PROTOCOL_METHOD_TYPES_GKChallengeServicePrivate
+- __OBJC_$_PROTOCOL_REFS_GKAccountService
+- __OBJC_$_PROTOCOL_REFS_GKAccountServicePrivate
+- __OBJC_$_PROTOCOL_REFS_GKChallengeService
+- __OBJC_$_PROTOCOL_REFS_GKChallengeServicePrivate
+- __OBJC_LABEL_PROTOCOL_$_GKAccountService
+- __OBJC_LABEL_PROTOCOL_$_GKAccountServicePrivate
+- __OBJC_LABEL_PROTOCOL_$_GKChallengeService
+- __OBJC_LABEL_PROTOCOL_$_GKChallengeServicePrivate
+- __OBJC_PROTOCOL_$_GKAccountService
+- __OBJC_PROTOCOL_$_GKAccountServicePrivate
+- __OBJC_PROTOCOL_$_GKChallengeService
+- __OBJC_PROTOCOL_$_GKChallengeServicePrivate
+- ___swift_memcpy40_8
+- ___swift_memcpy96_8
+- __swiftImmortalRefCount
+- _associated conformance 16ShimGameServices0A13FriendServiceV0bC9Protocols0dE8ProtocolAaD0eG0
+- _associated conformance 16ShimGameServices0A14ProfileServiceV0bC9Protocols0dE8ProtocolAaD0eG0
+- _associated conformance 16ShimGameServices0A15ActivityServiceV0bC9Protocols0dE8ProtocolAaD0eG0
+- _associated conformance 16ShimGameServices0A16ChallengeServiceV0bC9Protocols0dE8ProtocolAaD0eG0
+- _associated conformance 16ShimGameServices0A17OnboardingServiceV0bC9Protocols0dE8ProtocolAaD0eG0
+- _associated conformance 16ShimGameServices0A18AchievementServiceV0bC9Protocols0dE8ProtocolAaD0eG0
+- _associated conformance 16ShimGameServices0A18LeaderboardServiceV0bC9Protocols0dE8ProtocolAaD0eG0
+- _associated conformance 16ShimGameServices0A21AuthenticationServiceV0bC9Protocols0dE8ProtocolAaD0eG0
+- _associated conformance 16ShimGameServices0aB23LibraryAggregateServiceV0bC9Protocols0bdF8ProtocolAaD0fH0
+- _associated conformance 16ShimGameServices0abC4RootV0bC9Protocols0b7ServiceD8ProtocolAA010OnboardingF0AdEP_AD0hfG0
+- _associated conformance 16ShimGameServices0abC4RootV0bC9Protocols0b7ServiceD8ProtocolAA011AchievementF0AdEP_AD0hfG0
+- _associated conformance 16ShimGameServices0abC4RootV0bC9Protocols0b7ServiceD8ProtocolAA011LeaderboardF0AdEP_AD0hfG0
+- _associated conformance 16ShimGameServices0abC4RootV0bC9Protocols0b7ServiceD8ProtocolAA014AuthenticationF0AdEP_AD0hfG0
+- _associated conformance 16ShimGameServices0abC4RootV0bC9Protocols0b7ServiceD8ProtocolAA06FriendF0AdEP_AD0hfG0
+- _associated conformance 16ShimGameServices0abC4RootV0bC9Protocols0b7ServiceD8ProtocolAA07ProfileF0AdEP_AD0hfG0
+- _associated conformance 16ShimGameServices0abC4RootV0bC9Protocols0b7ServiceD8ProtocolAA08ActivityF0AdEP_AD0hfG0
+- _associated conformance 16ShimGameServices0abC4RootV0bC9Protocols0b7ServiceD8ProtocolAA09ChallengeF0AdEP_AD0hfG0
+- _associated conformance 16ShimGameServices0abC4RootV0bC9Protocols0b7ServiceD8ProtocolAA0b7LibraryF0AdEP_AD0bhfG0
+- _associated conformance 16ShimGameServices15ChallengeStatus030_49777878F312F37EC091C7C1EF677I1CLLOSHAASQ
+- _associated conformance 16ShimGameServices15ChallengeStatus030_49777878F312F37EC091C7C1EF677I1CLLOSLAASQ
+- _associated conformance 16ShimGameServices15ChallengeStatus030_49777878F312F37EC091C7C1EF677I1CLLOs12CaseIterableAA8AllCasessAEP_Sl
+- _flat unique So23GKAccountServicePrivate_p
+- _flat unique So25GKChallengeServicePrivate_p
+- _generic environment 16ShimGameServices23AnySortableKeyValuePairVyqd__GRszSeRd__SERd__r__l
+- _generic environment SeRzSERzl
+- _swift_arrayDestroy
+- _swift_continuation_resume
+- _swift_continuation_throwingResume
+- _swift_continuation_throwingResumeWithError
+- _swift_dynamicCastObjCClass
+- _swift_getOpaqueTypeConformance2
+- _symbolic $s16ShimGameServices14GCFDaemonProxyP
+- _symbolic $s16ShimGameServices19GCFChallengeServiceP
+- _symbolic $s16ShimGameServices25GCFAccountServiceProtocolP
+- _symbolic $s21GameServicesProtocols0A19ServiceRootProtocolP
+- _symbolic $ss12CaseIterableP
+- _symbolic SS2id______y______pG4gamet 21GameServicesProtocols3RefV AA0A0P
+- _symbolic SSSg______pSgIegng_ s5ErrorP
+- _symbolic SaySDySSypGG
+- _symbolic Say_____G 16ShimGameServices15ChallengeStatus030_49777878F312F37EC091C7C1EF677I1CLLO
+- _symbolic Say_____G 21GameServicesProtocols0A11DescriptionV12CapabilitiesV
+- _symbolic Say_____G 21GameServicesProtocols0A11DescriptionV19CompatiblePlatformsV
+- _symbolic Say_____G 21GameServicesProtocols14FriendActivityV
+- _symbolic Say_____G 21GameServicesProtocols15ChallengeInviteV
+- _symbolic Say_____G 21GameServicesProtocols25ChallengeParticipantStateV
+- _symbolic Say_____G 21GameServicesProtocols7ProfileV13SubscriptionsV
+- _symbolic Say_____GSg 21GameServicesProtocols15ChallengeFilterO
+- _symbolic Say_____y_____GG 16ShimGameServices23AnySortableKeyValuePairV 0bC9Protocols0B7HistoryV
+- _symbolic Say_____y_____GG 21GameServicesProtocols4PageV AA22ParticipantInteractionV
+- _symbolic Say_____y______pGG 21GameServicesProtocols3RefV AA22FriendSuggestionEntityP
+- _symbolic Say_____y______pGG______pIegHozo_ 21GameServicesProtocols3RefV AA9ChallengeP s5ErrorP
+- _symbolic Say_____y_____y______pGGG 16ShimGameServices23AnySortableKeyValuePairV 0bC9Protocols3RefV AD0B0P
+- _symbolic Sb8inserted______17memberAfterInsertt 21GameServicesProtocols0A11DescriptionV12CapabilitiesV
+- _symbolic Sb8inserted______17memberAfterInsertt 21GameServicesProtocols7ProfileV13SubscriptionsV
+- _symbolic ScCySaySDySSypGG_____G s5NeverO
+- _symbolic ScCySo26GKPlayerInternalOnboardingCSg______pG s5ErrorP
+- _symbolic ShySSG
+- _symbolic So13GKDaemonProxyC
+- _symbolic So26GKPlayerInternalOnboardingCSg
+- _symbolic So30GKLeaderboardChallengeInternalCSg______pSgIegng_ s5ErrorP
+- _symbolic So34GKBaseLeaderboardChallengeInternalCSb______pIeggdzo_ s5ErrorP
+- _symbolic So37GKLeaderboardChallengeSummaryInternalCSg______pSgIegng_ s5ErrorP
+- _symbolic So41GKLeaderboardChallengeDetailsPageInternalCSg______pSgIegng_ s5ErrorP
+- _symbolic So42GKLeaderboardChallengeInviteStatusInternalCSg
+- _symbolic _____ 16ShimGameServices0A16ChallengeServiceV
+- _symbolic _____ 16ShimGameServices0A16ChallengeServiceV012GCFChallengeE7Adapter030_49777878F312F37EC091C7C1EF677K1CLLV
+- _symbolic _____ 16ShimGameServices0A17OnboardingServiceV
+- _symbolic _____ 16ShimGameServices0A17OnboardingServiceV010GCFAccountE14PrivateAdapter33_9BA75C874F756B88FE21F96A026447C7LLV
+- _symbolic _____ 16ShimGameServices0A18LeaderboardServiceV011GCFGameStatE19LeaderboardsAdapter33_6FDCEA6D26B0908CA37CCB031888B11CLLV
+- _symbolic _____ 16ShimGameServices0A21AuthenticationServiceV
+- _symbolic _____ 16ShimGameServices0A21AuthenticationServiceV21GCFDaemonProxyAdapter33_1154BBB2B98CD61CF80CB7EA011AC9B1LLV
+- _symbolic _____ 16ShimGameServices15ChallengeStatus030_49777878F312F37EC091C7C1EF677I1CLLO
+- _symbolic _____ 16ShimGameServices23InternalChallengeInvite030_49777878F312F37EC091C7C1EF677J1CLLV
+- _symbolic _____ 21GameServicesProtocols20ChallengeInviteStateO
+- _symbolic _____ So19GKPlayerAgeCategoryV
+- _symbolic _____ So26GKProfilePrivacyVisibilityV
+- _symbolic _____ So28GKContactsIntegrationConsentV
+- _symbolic _____3key_yp5valuet s11AnyHashableV
+- _symbolic _____Sg 16ShimGameServices23InternalChallengeInvite030_49777878F312F37EC091C7C1EF677J1CLLV
+- _symbolic _____Sg 21GameServicesProtocols0A11DescriptionV
+- _symbolic _____Sg 21GameServicesProtocols0A11DescriptionV19CompatiblePlatformsV
+- _symbolic _____Sg 21GameServicesProtocols0A14SortDescriptorV
+- _symbolic _____Sg 21GameServicesProtocols0A7FiltersV
+- _symbolic _____Sg 21GameServicesProtocols0A7HistoryV
+- _symbolic _____Sg 21GameServicesProtocols0A7HistoryV04PlayD0V
+- _symbolic _____Sg 21GameServicesProtocols20ChallengeInviteStateO
+- _symbolic _____Sg 21GameServicesProtocols20LeaderboardTimeScopeO
+- _symbolic _____Sg 21GameServicesProtocols6CursorV
+- _symbolic _____Sg 21GameServicesProtocols7ArtworkV
+- _symbolic ______p 16ShimGameServices14GCFDaemonProxyP
+- _symbolic ______p 16ShimGameServices19GCFChallengeServiceP
+- _symbolic ______p 16ShimGameServices25GCFAccountServiceProtocolP
+- _symbolic ______p 21GameServicesProtocols0A0P
+- _symbolic ______p 21GameServicesProtocols11AchievementP
+- _symbolic ______p 21GameServicesProtocols21ChallengeInviteEntityP
+- _symbolic ______p 21GameServicesProtocols22FriendSuggestionEntityP
+- _symbolic ______p 21GameServicesProtocols6PlayerP
+- _symbolic ______p 21GameServicesProtocols9ChallengeP
+- _symbolic ______p So23GKAccountServicePrivateP
+- _symbolic ______p So25GKChallengeServicePrivateP
+- _symbolic _____yS2SG s18_DictionaryStorageC
+- _symbolic _____ySSSo30GKLeaderboardChallengeInternalCG s17_NativeDictionaryV
+- _symbolic _____ySS_____y______pGG s17_NativeDictionaryV 21GameServicesProtocols3RefV AC0C0P
+- _symbolic _____ySay_____GG s23_ContiguousArrayStorageC 21GameServicesProtocols25ChallengeParticipantStateV
+- _symbolic _____ySay_____y______pGGyYaKcG s23_ContiguousArrayStorageC 21GameServicesProtocols3RefV AC9ChallengeP
+- _symbolic _____y_____G 16ShimGameServices23AnySortableKeyValuePairV 0bC9Protocols0B7HistoryV
+- _symbolic _____y_____G 21GameServicesProtocols4PageV AA13FriendRequestV
+- _symbolic _____y_____G 21GameServicesProtocols4PageV AA16LeaderboardEntryV
+- _symbolic _____y_____G 21GameServicesProtocols4PageV AA22ParticipantInteractionV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 16ShimGameServices23InternalChallengeInvite030_49777878F312F37EC091C7C1EF677M1CLLV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 21GameServicesProtocols0D11DescriptionV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 21GameServicesProtocols0D11DescriptionV19CompatiblePlatformsV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 21GameServicesProtocols0D7HistoryV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 21GameServicesProtocols12PersonHandleO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 21GameServicesProtocols13FriendRequestV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 21GameServicesProtocols14ChallengeStateV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 21GameServicesProtocols14FriendActivityV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 21GameServicesProtocols15ChallengeInviteV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 21GameServicesProtocols16FriendSuggestionV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 21GameServicesProtocols16LeaderboardEntryV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 21GameServicesProtocols19AchievementProgressV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 21GameServicesProtocols20ChallengeDescriptionV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 21GameServicesProtocols20ChallengeInviteStateO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 21GameServicesProtocols20ChallengeLeaveResultO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 21GameServicesProtocols22AchievementDescriptionV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 21GameServicesProtocols22ParticipantInteractionV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 21GameServicesProtocols25ChallengeParticipantStateV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 21GameServicesProtocols7ProfileV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 21GameServicesProtocols7ProfileV13SubscriptionsV
+- _symbolic _____y_____GSg 16ShimGameServices23AnySortableKeyValuePairV 0bC9Protocols0B7HistoryV
+- _symbolic _____y_____SgG s23_ContiguousArrayStorageC 21GameServicesProtocols0D11DescriptionV
+- _symbolic _____y______pG 21GameServicesProtocols3RefV AA0A0P
+- _symbolic _____y______pG 21GameServicesProtocols3RefV AA11AchievementP
+- _symbolic _____y______pG 21GameServicesProtocols3RefV AA11ImageEntityP
+- _symbolic _____y______pG 21GameServicesProtocols3RefV AA11LeaderboardP
+- _symbolic _____y______pG 21GameServicesProtocols3RefV AA21ChallengeInviteEntityP
+- _symbolic _____y______pG 21GameServicesProtocols3RefV AA22FriendSuggestionEntityP
+- _symbolic _____y______pG 21GameServicesProtocols3RefV AA6PlayerP
+- _symbolic _____y______pG 21GameServicesProtocols3RefV AA7ContactP
+- _symbolic _____y______pG 21GameServicesProtocols3RefV AA9ChallengeP
+- _symbolic _____y______pG4from_AC2to_____Sg9invitedAtt 21GameServicesProtocols3RefV AA6PlayerP 10Foundation4DateV
+- _symbolic _____y______pGSg 21GameServicesProtocols3RefV AA0A0P
+- _symbolic _____y______pGSg 21GameServicesProtocols3RefV AA11ImageEntityP
+- _symbolic _____y______pGSg 21GameServicesProtocols3RefV AA6PlayerP
+- _symbolic _____y______pGSg 21GameServicesProtocols3RefV AA7ContactP
+- _symbolic _____y______pGSg 21GameServicesProtocols3RefV AA9ChallengeP
+- _symbolic _____y______pGSg_ADt 21GameServicesProtocols3RefV AA7ContactP
+- _symbolic _____y______pG_SSt 21GameServicesProtocols3RefV AA6PlayerP
+- _symbolic _____y_____y_____GG 10Foundation14SortDescriptorV 16ShimGameServices23AnySortableKeyValuePairV 0eF9Protocols0E7HistoryV
+- _symbolic _____y_____y_____GG 21GameServicesProtocols4PageV 04ShimaB023AnySortableKeyValuePairV AA0A7HistoryV
+- _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 16ShimGameServices23AnySortableKeyValuePairV 0eF9Protocols0E7HistoryV
+- _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 21GameServicesProtocols4PageV AC16LeaderboardEntryV
+- _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 21GameServicesProtocols4PageV AC22ParticipantInteractionV
+- _symbolic _____y_____y______pGABy______pGG s17_NativeDictionaryV 21GameServicesProtocols3RefV AC11AchievementP AC0C0P
+- _symbolic _____y_____y______pGG 16ShimGameServices23AnySortableKeyValuePairV 0bC9Protocols3RefV AD0B0P
+- _symbolic _____y_____y______pGG 21GameServicesProtocols4PageV AA3RefV AA11AchievementP
+- _symbolic _____y_____y______pGG 21GameServicesProtocols4PageV AA3RefV AA11LeaderboardP
+- _symbolic _____y_____y______pGG 21GameServicesProtocols4PageV AA3RefV AA6PlayerP
+- _symbolic _____y_____y______pGG s23_ContiguousArrayStorageC 21GameServicesProtocols3RefV AC0D0P
+- _symbolic _____y_____y______pGG s23_ContiguousArrayStorageC 21GameServicesProtocols3RefV AC11AchievementP
+- _symbolic _____y_____y______pGG s23_ContiguousArrayStorageC 21GameServicesProtocols3RefV AC11LeaderboardP
+- _symbolic _____y_____y______pGG s23_ContiguousArrayStorageC 21GameServicesProtocols3RefV AC22FriendSuggestionEntityP
+- _symbolic _____y_____y______pGG s23_ContiguousArrayStorageC 21GameServicesProtocols3RefV AC6PlayerP
+- _symbolic _____y_____y______pGG s23_ContiguousArrayStorageC 21GameServicesProtocols3RefV AC9ChallengeP
+- _symbolic _____y_____y______pGGSg 16ShimGameServices23AnySortableKeyValuePairV 0bC9Protocols3RefV AD0B0P
+- _symbolic _____y_____y______pGSSG s17_NativeDictionaryV 21GameServicesProtocols3RefV AC6PlayerP
+- _symbolic _____y_____y______pGSaySo21GKAchievementInternalCGG s17_NativeDictionaryV 21GameServicesProtocols3RefV AC0C0P
+- _symbolic _____y_____y______pG_____G s17_NativeDictionaryV 21GameServicesProtocols3RefV AC22FriendSuggestionEntityP AC0gH0V
+- _symbolic _____y_____y______p_GG s23_ContiguousArrayStorageC 21GameServicesProtocols3RefVA2C6Player_pRszlE0H2IDO AcFP
+- _symbolic _____y_____y_____y______pGGG 10Foundation14SortDescriptorV 16ShimGameServices23AnySortableKeyValuePairV 0eF9Protocols3RefV AG0E0P
+- _symbolic _____y_____y_____y______pGGG 21GameServicesProtocols4PageV 04ShimaB023AnySortableKeyValuePairV AA3RefV AA0A0P
+- _symbolic _____y_____y_____y______pGGG s23_ContiguousArrayStorageC 16ShimGameServices23AnySortableKeyValuePairV 0eF9Protocols3RefV AF0E0P
+- _symbolic _____y_____y_____y______pGGG s23_ContiguousArrayStorageC 21GameServicesProtocols4PageV AC3RefV AC11AchievementP
+- _symbolic _____y_____y_____y______pGGG s23_ContiguousArrayStorageC 21GameServicesProtocols4PageV AC3RefV AC11LeaderboardP
+- _symbolic _____y_____y_____y______pGGG s23_ContiguousArrayStorageC 21GameServicesProtocols4PageV AC3RefV AC6PlayerP
+- block_copy_helper.109
+- block_copy_helper.146
+- block_copy_helper.170
+- block_copy_helper.179
+- block_copy_helper.22
+- block_copy_helper.43
+- block_copy_helper.74
+- block_copy_helper.84
+- block_copy_helper.94
+- block_descriptor.111
+- block_descriptor.13
+- block_descriptor.145
+- block_descriptor.148
+- block_descriptor.172
+- block_descriptor.181
+- block_descriptor.24
+- block_descriptor.26
+- block_descriptor.29
+- block_descriptor.45
+- block_descriptor.56
+- block_descriptor.64
+- block_descriptor.66
+- block_descriptor.76
+- block_descriptor.86
+- block_descriptor.9
+- block_descriptor.96
+- block_descriptor.99
+- block_destroy_helper.110
+- block_destroy_helper.147
+- block_destroy_helper.171
+- block_destroy_helper.180
+- block_destroy_helper.23
+- block_destroy_helper.44
+- block_destroy_helper.75
+- block_destroy_helper.85
+- block_destroy_helper.95
+- get_witness_table 16ShimGameServices0aB23LibraryAggregateServiceV0bC9Protocols0bdF8ProtocolHPyHC.2
+- objectdestroy.156Tm
+- objectdestroy.164Tm
+- objectdestroy.33Tm
+CStrings:
++ ".cxx_destruct"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/GameCenter_GameServicesShims/Frameworks/GameServices/ShimGameServices/Modules/GameCenterFoundation_Shims/GCF+NillableShims.m"
++ "Artwork is missing attributes: %@"
++ "Can't get scoped IDs for nil local player"
++ "Describing a leaderboard requires a local player"
++ "Error fetching definition support with error: %@"
++ "Failed to extract internal playerID from: %s"
++ "GKDaemonProxyDataUpdateDelegate"
++ "Game is missing bundleID: %@"
++ "Ignoring service delegate event for type: %u"
++ "Nil local player"
++ "No valid ChallengeDefinitionRef found for: %s"
++ "No valid ChallengeRef found for: %s"
++ "ShimGameServices.GameServiceDelegateReference"
++ "Unsupported Leaderboard type: "
++ "Vv24@0:8@?<v@?@\"GKContactsIntegrationState\"@\"NSError\">16"
++ "Vv32@0:8@\"NSURL\"16@?<v@?@\"NSError\">24"
++ "Vv40@0:8@\"NSURL\"16@\"NSString\"24@?<v@?@\"NSError\">32"
++ "Vv64@0:8@\"NSString\"16@\"NSDictionary\"24@\"NSString\"32@\"NSString\"40@\"NSString\"48@?<v@?>56"
++ "Vv64@0:8@16@24@32@40@48@?56"
++ "_TtC16ShimGameServicesP33_BB4D3006578329CF5C2F6C1B26EE34E428GameServiceDelegateReference"
++ "_createCheckedContinuation(_:)"
++ "_createCheckedThrowingContinuation(_:)"
++ "addDataUpdateDelegate:"
++ "baseLeaderboardID"
++ "baseProxy"
++ "cacheTTLOverride"
++ "clearGamesPlayedSummariesCacheForPlayerID:"
++ "contactsIntegrationStatusWithCompletionHandler:"
++ "createGameActivityWithIdentifier:properties:bundleID:referenceLeaderboardID:referenceAchievementDescriptionID:completionHandler:"
++ "currentDevice"
++ "currentVersion"
++ "dealloc"
++ "defaultCenter"
++ "duration"
++ "friendRequestSelected:"
++ "gameServicesRemoteCall:completionHandler:"
++ "getAppRecentlyPlayedBiomeDataForBundleIDs:withCompletion:"
++ "getGamePoliciesForBundleIDs:withCompletion:"
++ "getPurchaseHistoryForBundleIDs:withCompletion:"
++ "init()"
++ "invokeGameTrampolineWithURL:handler:"
++ "invokeGameTrampolineWithURL:inviterPlayerID:handler:"
++ "lock"
++ "nextStartDate"
++ "refreshContentsForDataType:userInfo:"
++ "removeDataUpdateDelegate:"
++ "serviceProxy"
++ "setBadgeCount:forType:"
++ "shared"
++ "supportedGameCenterFeatures"
++ "type"
++ "udid"
++ "v16@0:8"
++ "v24@0:8@\"GKFriendRequestInternal\"16"
++ "v24@?0@\"NSData\"8@\"NSError\"16"
++ "v28@0:8I16@\"NSDictionary\"20"
++ "v28@0:8I16@20"
++ "v32@0:8Q16Q24"
++ "value"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/GameCenter_GameServicesShims/Frameworks/GameServices/ShimGameServices/Modules/GameCenterFoundation_Shims/GCF+NillableShims.m"
+- "Can't construct Array with count < 0"
+- "Division by zero"
+- "Division results in an overflow"
+- "Fatal error"
+- "GKAccountService"
+- "GKAccountServicePrivate"
+- "GKChallengeService"
+- "GKChallengeServicePrivate"
+- "Insufficient space allocated to copy string contents"
+- "Invalid cursor: "
+- "No challenge refs providers for filters: "
+- "No platform specified for game: %s, providing fallback sizing."
+- "Swift/Array.swift"
+- "Swift/ContiguousArrayBuffer.swift"
+- "Swift/IntegerTypes.swift"
+- "Swift/StringTesting.swift"
+- "Swift/StringUTF8View.swift"
+- "Swift/UnsafeBufferPointer.swift"
+- "Swift/UnsafePointer.swift"
+- "Swift/UnsafeRawPointer.swift"
+- "Unexpectedly found nil while unwrapping an Optional value"
+- "UnsafeMutableBufferPointer with negative count"
+- "UnsafeMutablePointer.initialize overlapping range"
+- "UnsafeMutablePointer.initialize with negative count"
+- "UnsafeMutablePointer.moveInitialize with negative count"
+- "UnsafeMutableRawPointer.initializeMemory overlapping range"
+- "UnsafeMutableRawPointer.initializeMemory with negative count"
+- "Unsupported age category: "
+- "Unsupported consent state: "
+- "Unsupported privacy visibility: "
+- "Vv24@0:8@\"NSDate\"16"
+- "Vv24@0:8@?<v@?@\"GKAuthenticateResponse\"@\"NSError\">16"
+- "Vv24@0:8@?<v@?@\"NSData\">16"
+- "Vv24@0:8@?<v@?@\"NSDictionary\"@\"NSError\">16"
+- "Vv24@0:8@?<v@?B@\"NSError\">16"
+- "Vv24@0:8@?<v@?Q@\"NSError\">16"
+- "Vv24@0:8Q16"
+- "Vv32@0:8@\"NSArray\"16@?<v@?>24"
+- "Vv32@0:8@\"NSDictionary\"16@?<v@?@\"NSArray\"@\"NSError\">24"
+- "Vv32@0:8@\"NSDictionary\"16@?<v@?@\"NSError\">24"
+- "Vv32@0:8@\"NSString\"16@\"GKChallengeInternal\"24"
+- "Vv32@0:8@\"NSString\"16@?<v@?@\"GKGameActivityInternal\">24"
+- "Vv32@0:8@\"NSString\"16@?<v@?@\"GKPlayerInternalOnboarding\"@\"NSError\">24"
+- "Vv32@0:8@\"NSString\"16@?<v@?i>24"
+- "Vv36@0:8@\"NSString\"16B24@?<v@?@\"GKLeaderboardChallengeInternal\"@\"NSError\">28"
+- "Vv36@0:8@\"NSString\"16B24@?<v@?@\"NSArray\">28"
+- "Vv40@0:8@\"GKChallengeInternal\"16@\"NSArray\"24@?<v@?@\"NSError\">32"
+- "Vv40@0:8@\"NSArray\"16@\"NSString\"24@?<v@?@\"NSArray\"@\"NSError\">32"
+- "Vv40@0:8@\"NSString\"16@\"NSArray\"24@?<v@?@\"GKLeaderboardChallengeInviteStatusInternal\"@\"NSError\">32"
+- "Vv40@0:8@\"NSString\"16@\"NSString\"24@?<v@?@\"GKAuthenticateResponse\"@\"NSError\">32"
+- "Vv40@0:8@\"NSString\"16@\"NSString\"24@?<v@?@\"GKLeaderboardChallengeSummaryInternal\"@\"NSError\">32"
+- "Vv40@0:8@\"NSString\"16@\"NSString\"24@?<v@?@\"NSString\"@\"NSError\">32"
+- "Vv40@0:8@\"NSString\"16d24@?<v@?@\"NSError\">32"
+- "Vv40@0:8@16d24@?32"
+- "Vv44@0:8@\"NSString\"16@\"NSString\"24B32@?<v@?@\"NSArray\"@\"NSError\">36"
+- "Vv44@0:8@16@24B32@?36"
+- "Vv48@0:8@\"NSString\"16@\"NSString\"24@\"NSDictionary\"32@?<v@?>40"
+- "Vv48@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32@?<v@?@\"GKLeaderboardChallengeComparisonInternal\"@\"NSError\">40"
+- "Vv48@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32@?<v@?@\"GKLeaderboardChallengeCompletedSummaryInternal\"@\"NSError\">40"
+- "Vv48@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32@?<v@?@\"GKLeaderboardChallengeDetailsPageInternal\"@\"NSError\">40"
+- "Vv48@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32@?<v@?@\"NSString\"@\"NSError\">40"
+- "Vv52@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32B40@?<v@?@\"GKAuthenticateResponse\"@\"NSError\">44"
+- "Vv52@0:8@16@24@32B40@?44"
+- "Vv56@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32@\"NSString\"40@?<v@?>48"
+- "Vv56@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32B40B44@?<v@?@\"GKAuthenticateResponse\"@\"NSError\">48"
+- "Vv56@0:8@16@24@32B40B44@?48"
+- "Vv60@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32@\"NSString\"40B48@?<v@?@\"GKAuthenticateResponse\"@\"NSError\">52"
+- "Vv60@0:8@16@24@32@40B48@?52"
+- "Vv68@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32@\"NSString\"40@\"NSString\"48B56@?<v@?@\"GKAuthenticateResponse\"@\"NSError\">60"
+- "Vv68@0:8@16@24@32@40@48B56@?60"
+- "Vv72@0:8@\"NSString\"16@\"NSString\"24@\"NSNumber\"32@\"NSNumber\"40@\"NSArray\"48@\"NSString\"56@?<v@?@\"GKLeaderboardChallengeInternal\"@\"NSError\">64"
+- "Vv72@0:8@16@24@32@40@48@56@?64"
+- "abortChallenges:handler:"
+- "acceptInviteForLeaderboardChallengeCode:completionHandler:"
+- "acceptInviteForLeaderboardChallengeID:completionHandler:"
+- "accountCreated:playerID:authenticationToken:alias:altDSID:finished:handler:"
+- "accountCreated:playerID:authenticationToken:alias:finished:handler:"
+- "accountEdited:alias:firstName:lastName:handler:"
+- "accountServicePrivate"
+- "active"
+- "activeChallenges"
+- "actives"
+- "addGameActivityForActivityType:BundleID:userInfo:handler:"
+- "ageCategory is invalid or not found."
+- "already_accepted"
+- "attemptCount"
+- "attemptLimit"
+- "authenticatePlayerWithExistingCredentialsWithHandler:"
+- "authenticatePlayerWithUsername:password:altDSID:isGame:usingFastPath:handler:"
+- "authenticatePlayerWithUsername:password:altDSID:usingFastPath:handler:"
+- "authenticatePlayerWithUsername:password:handler:"
+- "authenticatedLocalPlayersWithStatus:completion:"
+- "challengeID"
+- "challengeID and code can't both be nil"
+- "challengeServicePrivate"
+- "challenge_already_ended"
+- "checkActivitySharingRepromptWithCompletion:"
+- "compareLeaderboardChallengeWithPlayerID:otherPlayerID:bundleID:completionHandler:"
+- "completed"
+- "contactsIntegration"
+- "contactsIntegration is invalid or not found."
+- "createLeaderboardChallengeInviteCodeWithChallengeID:playerID:completionHandler:"
+- "createLeaderboardChallengeWithBundleID:leaderboardID:attemptLimit:duration:invitedPlayerIDs:previousChallengeID:completionHandler:"
+- "creatorPlayerID"
+- "daemonProxy"
+- "details"
+- "didShowFullscreenSignIn"
+- "didShowSignInBanner"
+- "endDate"
+- "fetchActivitiesForBundleID:ascending:handler:"
+- "fetchItemsForIdentityVerificationSignature:"
+- "fetchMostRecentGameActivityForBundleID:handler:"
+- "formattedScoreValue"
+- "fromPlayerID"
+- "generateIdentityVerificationSignatureWithCompletionHandler:"
+- "getAccountAgeCategoryForPlayerID:withCompletion:"
+- "getAccountAuthTokenWithHandler:"
+- "getActiveLeaderboardChallengeDetailsForPlayerID:bundleID:allowStaleChallengeDetailsData:completionHandler:"
+- "getApprovedGamesForLeaderboardChallengesWithHandler:"
+- "getChallengeDetailsForChallengeIDs:handler:"
+- "getChallengeDetailsForChallengeIDs:receiverID:handler:"
+- "getChallengesForGameDescriptor:handler:"
+- "getCountOfChallengesWithHandler:"
+- "getDevicePushTokenWithHandler:"
+- "getGameInstallDataForBundleIDs:withCompletion:"
+- "getLastContactsIntegrationConsentVersionDisplayedForSignedInPlayerWithHandler:"
+- "getLastFriendSuggestionsVersionDisplayedForSignedInPlayerWithHandler:"
+- "getLastPersonalizationVersionDisplayedForSignedInPlayerWithHandler:"
+- "getLastPrivacyNoticeVersionDisplayedForSignedInPlayerWithHandler:"
+- "getLastProfilePrivacyVersionDisplayedForSignedInPlayerWithHandler:"
+- "getLastWelcomeWhatsNewCopyVersionDisplayedForSignedInPlayerWithHandler:"
+- "getLeaderboardChallengeDetailsForChallengeID:allowStaleData:completionHandler:"
+- "getLeaderboardChallengeInviteStatusWithChallengeID:inviteCode:playerID:completionHandler:"
+- "getLeaderboardChallengeSummaryForPlayerID:bundleID:completionHandler:"
+- "getLeaderboardChallengesCompletedWithPlayerID:type:bundleID:completionHandler:"
+- "getLeaderboardCompletedChallengeSummaryForPlayerID:type:bundleID:completionHandler:"
+- "getOnboardingInfoForPlayerID:withCompletion:"
+- "getOnboardingState(for:)"
+- "hasAcknowledgedLatestGDPR"
+- "icons"
+- "intValue"
+- "integerValue"
+- "invalid Collection: less than 'count' elements in collection"
+- "invalid_challenge"
+- "inviteToLeaderboardChallengeWithID:invitedPlayerIDs:completionHandler:"
+- "invitedDate"
+- "invitedPlayers"
+- "invitees"
+- "invites"
+- "isAppUnlistedAndDisallowed:"
+- "isDefaultNickname"
+- "isICloudAvailableWithHandler:"
+- "issueChallenge:toPlayers:handler:"
+- "leaderboardID"
+- "leaveLeaderboardChallengeWithChallengeID:playerID:completionHandler:"
+- "localizedText"
+- "longLongValue"
+- "notifyClient:playerAuthenticatedFromClient:"
+- "notifyOnCancelWithHandler:"
+- "notifyWidgetPlayerAuthenticationUpdated"
+- "participants"
+- "player_challenges_limit_exceeded"
+- "player_invite_limit_exceeded"
+- "profilePrivacy is invalid or not found."
+- "removeAllGameActivitiesForBundleID:handler:"
+- "removeAllGameActivitiesWithHandler:"
+- "renewCredentialsForAccountWithUsername:ttl:withCompletion:"
+- "resetCredentialsWithHandler:"
+- "scheduledDuration"
+- "scoreValue"
+- "setActivitySharingRepromptLastTriggerDate:"
+- "setLastContactsIntegrationConsentVersionDisplayedForSignedInPlayer:"
+- "setLastFriendSuggestionsVersionDisplayedForSignedInPlayer:"
+- "setLastPersonalizationVersionDisplayedForSignedInPlayer:"
+- "setLastPrivacyNoticeVersionDisplayedForSignedInPlayer:"
+- "setLastProfilePrivacyVersionDisplayedForSignedInPlayer:"
+- "setLastWelcomeWhatsNewCopyVersionDisplayedForSignedInPlayer:"
+- "setLoginStatus:handler:"
+- "setupAccountForParameters:handler:"
+- "shouldShowPersonalizationScreenIsUsingDefaultNickname:"
+- "signOutPlayerWithOptOut:handler:"
+- "startGame:withChallenge:"
+- "state"
+- "status"
+- "triggerGameActivityForChallenge:bundleID:handler:"
+- "use_limit_exceeded"
+- "v24@?0@\"GKLeaderboardChallengeDetailsPageInternal\"8@\"NSError\"16"
+- "v24@?0@\"GKLeaderboardChallengeInternal\"8@\"NSError\"16"
+- "v24@?0@\"GKLeaderboardChallengeInviteStatusInternal\"8@\"NSError\"16"
+- "v24@?0@\"GKLeaderboardChallengeSummaryInternal\"8@\"NSError\"16"
+- "v24@?0@\"GKPlayerInternalOnboarding\"8@\"NSError\"16"
+- "v24@?0@\"NSString\"8@\"NSError\"16"
+- "validateAccountWithUsername:password:handler:"
+- "won"
+
+```

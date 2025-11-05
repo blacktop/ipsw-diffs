@@ -1,0 +1,239 @@
+## Image Playground
+
+> `/System/Applications/Image Playground.app/Contents/MacOS/Image Playground`
+
+```diff
+
+-65.0.0.0.0
+-  __TEXT.__text: 0xc150
+-  __TEXT.__auth_stubs: 0xbf0
+-  __TEXT.__objc_methlist: 0x4c
++109.1.0.0.0
++  __TEXT.__text: 0xd054
++  __TEXT.__auth_stubs: 0xbd0
++  __TEXT.__objc_methlist: 0x394
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__swift5_typeref: 0xb4e
++  __TEXT.__swift5_typeref: 0xce0
+   __TEXT.__const: 0x444
+   __TEXT.__constg_swiftt: 0x198
+   __TEXT.__swift5_reflstr: 0x117
+   __TEXT.__swift5_fieldmd: 0x134
+   __TEXT.__swift5_assocty: 0x30
+   __TEXT.__objc_methname: 0x83e
+-  __TEXT.__cstring: 0x330
+-  __TEXT.__swift5_capture: 0x268
++  __TEXT.__cstring: 0x350
++  __TEXT.__swift5_capture: 0x2c8
+   __TEXT.__swift5_proto: 0x20
+   __TEXT.__swift5_types: 0x20
+   __TEXT.__oslogstring: 0x125
+   __TEXT.__objc_classname: 0x3c
+   __TEXT.__objc_methtype: 0x45c
+-  __TEXT.__unwind_info: 0x318
+-  __TEXT.__eh_frame: 0x300
+-  __DATA_CONST.__auth_got: 0x5f8
++  __TEXT.__swift_as_entry: 0x14
++  __TEXT.__swift_as_ret: 0x10
++  __TEXT.__unwind_info: 0x300
++  __TEXT.__eh_frame: 0x2f8
++  __DATA_CONST.__auth_got: 0x5e8
+   __DATA_CONST.__got: 0x1e0
+   __DATA_CONST.__auth_ptr: 0x328
+-  __DATA_CONST.__const: 0x980
++  __DATA_CONST.__const: 0xab0
+   __DATA_CONST.__objc_classlist: 0x18
+   __DATA_CONST.__objc_protolist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x18
+-  __DATA.__objc_const: 0xa70
+-  __DATA.__objc_selrefs: 0x68
++  __DATA.__objc_const: 0x420
++  __DATA.__objc_selrefs: 0x268
+   __DATA.__objc_data: 0x170
+-  __DATA.__data: 0x5c8
++  __DATA.__data: 0x5f8
+   __DATA.__bss: 0x430
+   - /System/Library/Frameworks/CoreTransferable.framework/Versions/A/CoreTransferable
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/Frameworks/ImagePlayground.framework/Versions/A/ImagePlayground
+   - /System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags
++  - /System/Library/PrivateFrameworks/ImagePlaygroundInternal.framework/Versions/A/ImagePlaygroundInternal
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
++  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftFileProvider.dylib
+   - /usr/lib/swift/libswiftGLKit.dylib
+   - /usr/lib/swift/libswiftIOKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+   - @rpath/AppleConnectClient.framework/Versions/A/AppleConnectClient
+-  UUID: 8A7A21DC-523C-38A6-A702-CDE17A5C6068
+-  Functions: 240
+-  Symbols:   376
+-  CStrings:  156
++  UUID: DE33F380-478C-3215-817C-C6F1BC2115AF
++  Functions: 256
++  Symbols:   374
++  CStrings:  157
+ 
+Symbols:
++ _$s23ImagePlaygroundInternal011DisplayableA0O16CoreTransferable0F0AAMc
++ _$s23ImagePlaygroundInternal011DisplayableA0OMa
++ _$s23ImagePlaygroundInternal011DisplayableA0OMn
++ _$s23ImagePlaygroundInternal05AsyncA12TransferableV04CoreE00E0AAMc
++ _$s23ImagePlaygroundInternal05AsyncA12TransferableVMa
++ _$s23ImagePlaygroundInternal05AsyncA12TransferableVMn
++ _$s23ImagePlaygroundInternal0B13HomeViewModelC09composingE9DidAppearSbvg
++ _$s23ImagePlaygroundInternal0B13HomeViewModelC14enterComposingyyF
++ _$s23ImagePlaygroundInternal0B13HomeViewModelC14setUndoManageryySo06NSUndoI0CSgF
++ _$s23ImagePlaygroundInternal0B13HomeViewModelC15servicesFetcher25appleConnectTokenProvider08creationE5Style10pickerMode09forceDarkP018sessionUndoManagerAcA08ServicesH0C_So07GPApplejkL0CAA08CreationeN0OS2bAA07SessiontU0Ctcfc
++ _$s23ImagePlaygroundInternal0B13HomeViewModelC8openFile2aty10Foundation3URLV_tF
++ _$s23ImagePlaygroundInternal0B13HomeViewModelCMa
++ _$s23ImagePlaygroundInternal0B13HomeViewModelCMn
++ _$s23ImagePlaygroundInternal0B8HomeViewV7SwiftUI0E0AAMc
++ _$s23ImagePlaygroundInternal0B8HomeViewV9viewModelAcA0bdeG0C_tcfC
++ _$s23ImagePlaygroundInternal0B8HomeViewVMa
++ _$s23ImagePlaygroundInternal0B8HomeViewVMn
++ _$s23ImagePlaygroundInternal13DebugSettingsC15servicesFetcherAA08ServicesG0CSgvg
++ _$s23ImagePlaygroundInternal13DebugSettingsC15servicesFetcherAA08ServicesG0CSgvpMV
++ _$s23ImagePlaygroundInternal13DebugSettingsC15servicesFetcherAA08ServicesG0CSgvs
++ _$s23ImagePlaygroundInternal13DebugSettingsCMn
++ _$s23ImagePlaygroundInternal15ServicesFetcherCACycfc
++ _$s23ImagePlaygroundInternal15ServicesFetcherCMa
++ _$s23ImagePlaygroundInternal15ServicesFetcherCMn
++ _$s23ImagePlaygroundInternal16ExecutionContextV16GPClientIdentityO14currentProcessyA2EmFWC
++ _$s23ImagePlaygroundInternal16ExecutionContextV16GPClientIdentityOMa
++ _$s23ImagePlaygroundInternal16ExecutionContextV17setClientIdentityyyAC08GPClientH0OFZ
++ _$s23ImagePlaygroundInternal16PhotoGridActionsV10addCaptionyycvg
++ _$s23ImagePlaygroundInternal16PhotoGridActionsV11deselectAllyycvg
++ _$s23ImagePlaygroundInternal16PhotoGridActionsV25shareOnPresentationChangeyySbcvg
++ _$s23ImagePlaygroundInternal16PhotoGridActionsV4edityycvg
++ _$s23ImagePlaygroundInternal16PhotoGridActionsV4openyycvg
++ _$s23ImagePlaygroundInternal16PhotoGridActionsV9duplicateyycvg
++ _$s23ImagePlaygroundInternal16PhotoGridActionsV9shareDataSayAA011DisplayableA0OGvg
++ _$s23ImagePlaygroundInternal16PhotoGridActionsVMa
++ _$s23ImagePlaygroundInternal16PhotoGridActionsVMn
++ _$s23ImagePlaygroundInternal17CreationViewStyleO010generativeB3AppyA2CmFWC
++ _$s23ImagePlaygroundInternal17CreationViewStyleOMa
++ _$s23ImagePlaygroundInternal17DetailViewActionsV10addCaptionyycvg
++ _$s23ImagePlaygroundInternal17DetailViewActionsV14reportAConcernyycvg
++ _$s23ImagePlaygroundInternal17DetailViewActionsV25shareOnPresentationChangeyySbcvg
++ _$s23ImagePlaygroundInternal17DetailViewActionsV4edityycvg
++ _$s23ImagePlaygroundInternal17DetailViewActionsV5closeyycvg
++ _$s23ImagePlaygroundInternal17DetailViewActionsV9duplicateyycvg
++ _$s23ImagePlaygroundInternal17DetailViewActionsV9shareDataSayAA011DisplayableA0OGvg
++ _$s23ImagePlaygroundInternal17DetailViewActionsVMa
++ _$s23ImagePlaygroundInternal17DetailViewActionsVMn
++ _$s23ImagePlaygroundInternal18SessionUndoManagerC04undoF0ACSo06NSUndoF0CSg_tcfc
++ _$s23ImagePlaygroundInternal18SessionUndoManagerCMa
++ _$s23ImagePlaygroundInternal20ComposingViewActionsV021composingSharePreviewA0AA05AsyncA12TransferableVSgvg
++ _$s23ImagePlaygroundInternal20ComposingViewActionsV05resetB0yycvg
++ _$s23ImagePlaygroundInternal20ComposingViewActionsV11focusPromptyycvg
++ _$s23ImagePlaygroundInternal20ComposingViewActionsV18composingShareDataAA05AsyncA12TransferableVSgvg
++ _$s23ImagePlaygroundInternal20ComposingViewActionsVMa
++ _$s23ImagePlaygroundInternal20ComposingViewActionsVMn
++ _$s23ImagePlaygroundInternal23ObservableDebugSettingsC13dynamicMemberxs24ReferenceWritableKeyPathCyAA0eF0CxG_tcluis
++ _$s23ImagePlaygroundInternal23ObservableDebugSettingsC6sharedACvgZ
++ _$s23ImagePlaygroundInternal23ObservableDebugSettingsCMa
++ _$s23ImagePlaygroundInternal23ObservableDebugSettingsCMn
++ _$s7SwiftUI13FocusedValuesV23ImagePlaygroundInternalE16photoGridActionsAD05PhotoiJ0VSgvg
++ _$s7SwiftUI13FocusedValuesV23ImagePlaygroundInternalE16photoGridActionsAD05PhotoiJ0VSgvpMV
++ _$s7SwiftUI13FocusedValuesV23ImagePlaygroundInternalE16photoGridActionsAD05PhotoiJ0VSgvs
++ _$s7SwiftUI13FocusedValuesV23ImagePlaygroundInternalE17detailViewActionsAD06DetailiJ0VSgvg
++ _$s7SwiftUI13FocusedValuesV23ImagePlaygroundInternalE17detailViewActionsAD06DetailiJ0VSgvpMV
++ _$s7SwiftUI13FocusedValuesV23ImagePlaygroundInternalE17detailViewActionsAD06DetailiJ0VSgvs
++ _$s7SwiftUI13FocusedValuesV23ImagePlaygroundInternalE20composingViewActionsAD09ComposingiJ0VSgvg
++ _$s7SwiftUI13FocusedValuesV23ImagePlaygroundInternalE20composingViewActionsAD09ComposingiJ0VSgvpMV
++ _$s7SwiftUI13FocusedValuesV23ImagePlaygroundInternalE20composingViewActionsAD09ComposingiJ0VSgvs
++ _$s7SwiftUI21CommandGroupPlacementV7newItemACvgZ
++ _$s7SwiftUI4ViewP23ImagePlaygroundInternalE13debugSettingsyQrAD015ObservableDebugH0CF
++ _$s7SwiftUI4ViewP23ImagePlaygroundInternalE13debugSettingsyQrAD015ObservableDebugH0CFQOMQ
++ __swift_FORCE_LOAD_$_swiftDataDetection
+- _$s15ImagePlayground011DisplayableA0O16CoreTransferable0E0AAMc
+- _$s15ImagePlayground011DisplayableA0OMa
+- _$s15ImagePlayground011DisplayableA0OMn
+- _$s15ImagePlayground05AsyncA12TransferableV04CoreD00D0AAMc
+- _$s15ImagePlayground05AsyncA12TransferableVMa
+- _$s15ImagePlayground05AsyncA12TransferableVMn
+- _$s15ImagePlayground0B13HomeViewModelC14setUndoManageryySo06NSUndoH0CSgF
+- _$s15ImagePlayground0B13HomeViewModelC15servicesFetcher25appleConnectTokenProvider08creationD5Style10pickerMode09forceDarkO018sessionUndoManagerAcA08ServicesG0C_So07GPAppleijK0CAA08CreationdM0OS2bAA07SessionsT0Ctcfc
+- _$s15ImagePlayground0B13HomeViewModelC8openFile2aty10Foundation3URLV_tF
+- _$s15ImagePlayground0B13HomeViewModelCMa
+- _$s15ImagePlayground0B13HomeViewModelCMn
+- _$s15ImagePlayground0B8HomeViewV7SwiftUI0D0AAMc
+- _$s15ImagePlayground0B8HomeViewV9viewModelAcA0bcdF0C_tcfC
+- _$s15ImagePlayground0B8HomeViewVMa
+- _$s15ImagePlayground0B8HomeViewVMn
+- _$s15ImagePlayground13DebugSettingsC15servicesFetcherAA08ServicesF0CSgvg
+- _$s15ImagePlayground13DebugSettingsC15servicesFetcherAA08ServicesF0CSgvpMV
+- _$s15ImagePlayground13DebugSettingsC15servicesFetcherAA08ServicesF0CSgvs
+- _$s15ImagePlayground13DebugSettingsCMn
+- _$s15ImagePlayground15ServicesFetcherCACycfc
+- _$s15ImagePlayground15ServicesFetcherCMa
+- _$s15ImagePlayground15ServicesFetcherCMn
+- _$s15ImagePlayground16ExecutionContextV16GPClientIdentityO14currentProcessyA2EmFWC
+- _$s15ImagePlayground16ExecutionContextV16GPClientIdentityOMa
+- _$s15ImagePlayground16ExecutionContextV17setClientIdentityyyAC08GPClientG0OFZ
+- _$s15ImagePlayground16PhotoGridActionsV10addCaptionyycvg
+- _$s15ImagePlayground16PhotoGridActionsV11deselectAllyycvg
+- _$s15ImagePlayground16PhotoGridActionsV25shareOnPresentationChangeyySbcvg
+- _$s15ImagePlayground16PhotoGridActionsV4edityycvg
+- _$s15ImagePlayground16PhotoGridActionsV4openyycvg
+- _$s15ImagePlayground16PhotoGridActionsV9duplicateyycvg
+- _$s15ImagePlayground16PhotoGridActionsV9shareDataSayAA011DisplayableA0OGvg
+- _$s15ImagePlayground16PhotoGridActionsVMa
+- _$s15ImagePlayground16PhotoGridActionsVMn
+- _$s15ImagePlayground17CreationViewStyleO010generativeB3AppyA2CmFWC
+- _$s15ImagePlayground17CreationViewStyleOMa
+- _$s15ImagePlayground17DetailViewActionsV10addCaptionyycvg
+- _$s15ImagePlayground17DetailViewActionsV14reportAConcernyycvg
+- _$s15ImagePlayground17DetailViewActionsV25shareOnPresentationChangeyySbcvg
+- _$s15ImagePlayground17DetailViewActionsV4edityycvg
+- _$s15ImagePlayground17DetailViewActionsV5closeyycvg
+- _$s15ImagePlayground17DetailViewActionsV9duplicateyycvg
+- _$s15ImagePlayground17DetailViewActionsV9shareDataSayAA011DisplayableA0OGvg
+- _$s15ImagePlayground17DetailViewActionsVMa
+- _$s15ImagePlayground17DetailViewActionsVMn
+- _$s15ImagePlayground18SessionUndoManagerC04undoE0ACSo06NSUndoE0CSg_tcfc
+- _$s15ImagePlayground18SessionUndoManagerCMa
+- _$s15ImagePlayground20ComposingViewActionsV021composingSharePreviewA0AA05AsyncA12TransferableVSgvg
+- _$s15ImagePlayground20ComposingViewActionsV18composingShareDataAA05AsyncA12TransferableVSgvg
+- _$s15ImagePlayground20ComposingViewActionsVMa
+- _$s15ImagePlayground20ComposingViewActionsVMn
+- _$s15ImagePlayground23ObservableDebugSettingsC13dynamicMemberxs24ReferenceWritableKeyPathCyAA0dE0CxG_tcluis
+- _$s15ImagePlayground23ObservableDebugSettingsC6sharedACvgZ
+- _$s15ImagePlayground23ObservableDebugSettingsCMa
+- _$s15ImagePlayground23ObservableDebugSettingsCMn
+- _$s7SwiftUI13FocusedValuesV15ImagePlaygroundE16photoGridActionsAD05PhotohI0VSgvg
+- _$s7SwiftUI13FocusedValuesV15ImagePlaygroundE16photoGridActionsAD05PhotohI0VSgvpMV
+- _$s7SwiftUI13FocusedValuesV15ImagePlaygroundE16photoGridActionsAD05PhotohI0VSgvs
+- _$s7SwiftUI13FocusedValuesV15ImagePlaygroundE17detailViewActionsAD06DetailhI0VSgvg
+- _$s7SwiftUI13FocusedValuesV15ImagePlaygroundE17detailViewActionsAD06DetailhI0VSgvpMV
+- _$s7SwiftUI13FocusedValuesV15ImagePlaygroundE17detailViewActionsAD06DetailhI0VSgvs
+- _$s7SwiftUI13FocusedValuesV15ImagePlaygroundE20composingViewActionsAD09ComposinghI0VSgvg
+- _$s7SwiftUI13FocusedValuesV15ImagePlaygroundE20composingViewActionsAD09ComposinghI0VSgvpMV
+- _$s7SwiftUI13FocusedValuesV15ImagePlaygroundE20composingViewActionsAD09ComposinghI0VSgvs
+- _$s7SwiftUI4ViewP15ImagePlaygroundE13debugSettingsyQrAD015ObservableDebugG0CF
+- _$s7SwiftUI4ViewP15ImagePlaygroundE13debugSettingsyQrAD015ObservableDebugG0CFQOMQ
+- _$sSw10copyMemory4fromySW_tF
+- _$sypN
+- ___stack_chk_fail
+- ___stack_chk_guard
+- __swift_FORCE_LOAD_$_swiftFileProvider
+- _swift_arrayDestroy
+- _swift_initStackObject
+- _swift_setDeallocating
+CStrings:
++ "Reset Playground"
+
+```

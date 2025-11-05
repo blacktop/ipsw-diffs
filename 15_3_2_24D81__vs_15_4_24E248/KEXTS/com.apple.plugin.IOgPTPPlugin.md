@@ -1,0 +1,365 @@
+## com.apple.plugin.IOgPTPPlugin
+
+> `com.apple.plugin.IOgPTPPlugin`
+
+```diff
+
+-1330.2.0.0.0
+-  __TEXT.__cstring: 0x6a95
+-  __TEXT.__os_log: 0x1a677
+-  __TEXT.__const: 0x788
+-  __TEXT_EXEC.__text: 0x73dfc
++1340.12.0.0.0
++  __TEXT.__cstring: 0x6a9a
++  __TEXT.__os_log: 0x1a794
++  __TEXT.__const: 0x768
++  __TEXT_EXEC.__text: 0x7718c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x5d8
+
+   __DATA_CONST.__const: 0x173e8
+   __DATA_CONST.__kalloc_type: 0x940
+   __DATA_CONST.__kalloc_var: 0x280
+-  UUID: 4820F9C7-0FC1-3F29-9CF8-DA2289032422
+-  Functions: 1417
+-  Symbols:   4075
+-  CStrings:  1431
++  UUID: 09D7EBF5-ED39-30F4-8700-0F01D25637DA
++  Functions: 1574
++  Symbols:   4262
++  CStrings:  1433
+ 
+Symbols:
++ _OUTLINED_FUNCTION_0
++ _OUTLINED_FUNCTION_1
++ _OUTLINED_FUNCTION_2
++ _OUTLINED_FUNCTION_3
++ _OUTLINED_FUNCTION_4
++ _OUTLINED_FUNCTION_5
++ _OUTLINED_FUNCTION_6
++ _ZL24timeSyncTransmitCallbackPvPN20IOEthernetController19IOEthernetAVBPacketE.cold.1
++ _ZN16IOTimeSyncDomain11getSyncInfoERbRhRyS2_S2_S2_S2_S2_Rt.cold.1
++ _ZN16IOTimeSyncDomain14addReverseSyncEP8OSStringhj.cold.1
++ _ZN16IOTimeSyncDomain17removeReverseSyncEP8OSStringh.cold.1
++ _ZN16IOTimeSyncDomain17sendPTPSyncUpdateEv.cold.1
++ _ZN16IOTimeSyncDomain17sendPTPSyncUpdateEv.cold.2
++ _ZN16IOTimeSyncDomain19addDomainUserClientEP26IOTimeSyncDomainUserClient.cold.1
++ _ZN16IOTimeSyncDomain19interfaceTerminatedEP8OSString.cold.1
++ _ZN16IOTimeSyncDomain21addDomainDaemonClientEP28IOTimeSyncDomainDaemonClient.cold.1
++ _ZN16IOTimeSyncDomain22removeDomainUserClientEP26IOTimeSyncDomainUserClient.cold.1
++ _ZN16IOTimeSyncDomain24removeDomainDaemonClientEP28IOTimeSyncDomainDaemonClient.cold.1
++ _ZN16IOTimeSyncDomain33addUnicastUDPv4EtEPortOnInterfaceEP8OSStringjPt.cold.1
++ _ZN16IOTimeSyncDomain33addUnicastUDPv4PtPPortOnInterfaceEP8OSStringjPt.cold.1
++ _ZN16IOTimeSyncDomain33addUnicastUDPv6EtEPortOnInterfaceEP8OSStringPhPt.cold.1
++ _ZN16IOTimeSyncDomain33addUnicastUDPv6PtPPortOnInterfaceEP8OSStringPhPt.cold.1
++ _ZN16IOTimeSyncDomain37addUnicastLinkLayerEtEPortOnInterfaceEP8OSStringPhPt.cold.1
++ _ZN16IOTimeSyncDomain37addUnicastLinkLayerPtPPortOnInterfaceEP8OSStringPhPt.cold.1
++ _ZN16IOTimeSyncDomain38removeUnicastUDPv4EtEPortFromInterfaceEP8OSStringj.cold.1
++ _ZN16IOTimeSyncDomain38removeUnicastUDPv4PtPPortFromInterfaceEP8OSStringj.cold.1
++ _ZN16IOTimeSyncDomain38removeUnicastUDPv6EtEPortFromInterfaceEP8OSStringPh.cold.1
++ _ZN16IOTimeSyncDomain38removeUnicastUDPv6PtPPortFromInterfaceEP8OSStringPh.cold.1
++ _ZN16IOTimeSyncDomain42getMachAbsoluteRateRatioAndAnchorsWithGMIDEPyS0_S0_S0_S0_Pt.cold.1
++ _ZN16IOTimeSyncDomain42getMachAbsoluteRateRatioAndAnchorsWithGMIDEPyS0_S0_S0_S0_Pt.cold.2
++ _ZN16IOTimeSyncDomain42getMachAbsoluteRateRatioAndAnchorsWithGMIDEPyS0_S0_S0_S0_Pt.cold.3
++ _ZN16IOTimeSyncDomain42removeUnicastLinkLayerEtEPortFromInterfaceEP8OSStringPh.cold.1
++ _ZN16IOTimeSyncDomain42removeUnicastLinkLayerPtPPortFromInterfaceEP8OSStringPh.cold.1
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.1
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.10
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.11
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.12
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.13
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.14
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.15
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.16
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.17
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.18
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.19
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.2
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.20
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.21
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.22
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.23
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.24
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.25
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.26
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.27
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.28
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.29
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.3
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.30
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.31
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.32
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.33
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.34
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.35
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.36
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.37
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.38
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.39
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.4
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.40
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.41
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.42
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.43
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.44
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.45
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.5
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.6
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.7
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.8
++ _ZN16IOTimeSyncDomain4initEy30IOTimeSyncDomainLocalClockTypeP12OSDictionary.cold.9
++ _ZN21IOTimeSyncNetworkPort5startEP9IOService.cold.1
++ _ZN21IOTimeSyncPortManager13myIPv4AddressEPjS0_.cold.1
++ _ZN21IOTimeSyncPortManager13myIPv6AddressEPh.cold.1
++ _ZN21IOTimeSyncPortManager23myIPv4AddressForAddressEjPjS0_.cold.1
++ _ZN21IOTimeSyncPortManager23myIPv6AddressForAddressEPhS0_.cold.1
++ _ZN21IOTimeSyncPortManager24macAddressForIPv4AddressEjjjPh.cold.1
++ _ZN21IOTimeSyncPortManager24macAddressForIPv6AddressEPhS0_.cold.1
++ _ZN21IOTimeSyncPortManager5startEP9IOService.cold.1
++ _ZN21IOTimeSyncReverseSync11buildPacketEPvmh.cold.1
++ _ZN21IOTimeSyncReverseSync11buildPacketEPvmh.cold.2
++ _ZN21IOTimeSyncReverseSync5startEP9IOService.cold.1
++ _ZN21IOTimeSyncgPTPManager12addAVBDomainEtPy.cold.1
++ _ZN21IOTimeSyncgPTPManager12addAVBDomainEtPy.cold.2
++ _ZN21IOTimeSyncgPTPManager16addAirPlayDomainEPy.cold.1
++ _ZN21IOTimeSyncgPTPManager16addAirPlayDomainEPy.cold.2
++ _ZN21IOTimeSyncgPTPManager18addTimeOfDayDomainEPy.cold.1
++ _ZN21IOTimeSyncgPTPManager18addTimeOfDayDomainEPy.cold.2
++ _ZN21IOTimeSyncgPTPManager19addCopresenceDomainEPy.cold.1
++ _ZN21IOTimeSyncgPTPManager19addCopresenceDomainEPy.cold.2
++ _ZN21IOTimeSyncgPTPManager19interfaceTerminatedEP9IOServiceP10IONotifier.cold.1
++ _ZN21IOTimeSyncgPTPManager19interfaceTerminatedEP9IOServiceP10IONotifier.cold.2
++ _ZN21IOTimeSyncgPTPManager19interfaceTerminatedEP9IOServiceP10IONotifier.cold.3
++ _ZN21IOTimeSyncgPTPManager21temperatureSensorNameEv.cold.1
++ _ZN21IOTimeSyncgPTPManager25addPortManagerToInterfaceEP8OSString.cold.1
++ _ZN21IOTimeSyncgPTPManager25addPortManagerToInterfaceEP8OSString.cold.2
++ _ZN21IOTimeSyncgPTPManager25addPortManagerToInterfaceEP8OSString.cold.3
++ _ZN21IOTimeSyncgPTPManager25addPortManagerToInterfaceEP8OSString.cold.4
++ _ZN21IOTimeSyncgPTPManager25priorityCalculationInputsERbS0_S0_.cold.1
++ _ZN21IOTimeSyncgPTPManager25priorityCalculationInputsERbS0_S0_.cold.2
++ _ZN21IOTimeSyncgPTPManager31addInterfaceAdapterForInterfaceEP8OSString.cold.1
++ _ZN21IOTimeSyncgPTPManager31addInterfaceAdapterForInterfaceEP8OSString.cold.10
++ _ZN21IOTimeSyncgPTPManager31addInterfaceAdapterForInterfaceEP8OSString.cold.11
++ _ZN21IOTimeSyncgPTPManager31addInterfaceAdapterForInterfaceEP8OSString.cold.12
++ _ZN21IOTimeSyncgPTPManager31addInterfaceAdapterForInterfaceEP8OSString.cold.13
++ _ZN21IOTimeSyncgPTPManager31addInterfaceAdapterForInterfaceEP8OSString.cold.14
++ _ZN21IOTimeSyncgPTPManager31addInterfaceAdapterForInterfaceEP8OSString.cold.15
++ _ZN21IOTimeSyncgPTPManager31addInterfaceAdapterForInterfaceEP8OSString.cold.16
++ _ZN21IOTimeSyncgPTPManager31addInterfaceAdapterForInterfaceEP8OSString.cold.2
++ _ZN21IOTimeSyncgPTPManager31addInterfaceAdapterForInterfaceEP8OSString.cold.3
++ _ZN21IOTimeSyncgPTPManager31addInterfaceAdapterForInterfaceEP8OSString.cold.4
++ _ZN21IOTimeSyncgPTPManager31addInterfaceAdapterForInterfaceEP8OSString.cold.5
++ _ZN21IOTimeSyncgPTPManager31addInterfaceAdapterForInterfaceEP8OSString.cold.6
++ _ZN21IOTimeSyncgPTPManager31addInterfaceAdapterForInterfaceEP8OSString.cold.7
++ _ZN21IOTimeSyncgPTPManager31addInterfaceAdapterForInterfaceEP8OSString.cold.8
++ _ZN21IOTimeSyncgPTPManager31addInterfaceAdapterForInterfaceEP8OSString.cold.9
++ _ZN21IOTimeSyncgPTPManager4initEP12OSDictionary.cold.1
++ _ZN21IOTimeSyncgPTPManager4initEP12OSDictionary.cold.2
++ _ZN21IOTimeSyncgPTPManager9addDomainEPy.cold.1
++ _ZN21IOTimeSyncgPTPManager9addDomainEPy.cold.2
++ _ZN22IOTSAEITimeSyncHandler4initEPFvPvP9TSNPacketES0_jP34IOTimeSyncEthernetInterfaceAdapter.cold.1
++ _ZN22IOTimeSyncEthernetPort11buildPacketEPvmh.cold.1
++ _ZN22IOTimeSyncEthernetPort11buildPacketEPvmh.cold.2
++ _ZN23IOTimeSyncTimeOfDayPort4initEytP12OSDictionary.cold.1
++ _ZN23IOTimeSyncTimeOfDayPort4initEytP12OSDictionary.cold.2
++ _ZN24IOTimeSyncLocalClockPort4initEytP12OSDictionary.cold.1
++ _ZN26IOTimeSyncDomainUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.1
++ _ZN26IOTimeSyncDomainUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.10
++ _ZN26IOTimeSyncDomainUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.11
++ _ZN26IOTimeSyncDomainUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.12
++ _ZN26IOTimeSyncDomainUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.13
++ _ZN26IOTimeSyncDomainUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.14
++ _ZN26IOTimeSyncDomainUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.15
++ _ZN26IOTimeSyncDomainUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.16
++ _ZN26IOTimeSyncDomainUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.17
++ _ZN26IOTimeSyncDomainUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.2
++ _ZN26IOTimeSyncDomainUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.3
++ _ZN26IOTimeSyncDomainUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.4
++ _ZN26IOTimeSyncDomainUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.5
++ _ZN26IOTimeSyncDomainUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.6
++ _ZN26IOTimeSyncDomainUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.7
++ _ZN26IOTimeSyncDomainUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.8
++ _ZN26IOTimeSyncDomainUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.9
++ _ZN26IOTimeSyncDomainUserClient14addReverseSyncEP8OSStringhj.cold.1
++ _ZN26IOTimeSyncDomainUserClient17removeReverseSyncEP8OSStringh.cold.1
++ _ZN26IOTimeSyncDomainUserClient19interfaceTerminatedEP8OSString.cold.1
++ _ZN28IOTimeSyncDomainDaemonClient14addReverseSyncEP8OSStringhj.cold.1
++ _ZN28IOTimeSyncDomainDaemonClient17removeReverseSyncEP8OSStringh.cold.1
++ _ZN28IOTimeSyncDomainDaemonClient19interfaceTerminatedEP8OSString.cold.1
++ _ZN28IOTimeSyncDomainDaemonClient4initEv.cold.1
++ _ZN28IOTimeSyncDomainDaemonClient4initEv.cold.10
++ _ZN28IOTimeSyncDomainDaemonClient4initEv.cold.11
++ _ZN28IOTimeSyncDomainDaemonClient4initEv.cold.12
++ _ZN28IOTimeSyncDomainDaemonClient4initEv.cold.13
++ _ZN28IOTimeSyncDomainDaemonClient4initEv.cold.14
++ _ZN28IOTimeSyncDomainDaemonClient4initEv.cold.15
++ _ZN28IOTimeSyncDomainDaemonClient4initEv.cold.16
++ _ZN28IOTimeSyncDomainDaemonClient4initEv.cold.17
++ _ZN28IOTimeSyncDomainDaemonClient4initEv.cold.2
++ _ZN28IOTimeSyncDomainDaemonClient4initEv.cold.3
++ _ZN28IOTimeSyncDomainDaemonClient4initEv.cold.4
++ _ZN28IOTimeSyncDomainDaemonClient4initEv.cold.5
++ _ZN28IOTimeSyncDomainDaemonClient4initEv.cold.6
++ _ZN28IOTimeSyncDomainDaemonClient4initEv.cold.7
++ _ZN28IOTimeSyncDomainDaemonClient4initEv.cold.8
++ _ZN28IOTimeSyncDomainDaemonClient4initEv.cold.9
++ _ZN29IOTimeSyncTSNInterfaceAdapter4initEP12OSDictionary.cold.1
++ _ZN29IOTimeSyncTSNInterfaceAdapter4initEP12OSDictionary.cold.2
++ _ZN29IOTimeSyncTSNInterfaceAdapter4initEP12OSDictionary.cold.3
++ _ZN29IOTimeSyncTSNInterfaceAdapter5startEP9IOService.cold.1
++ _ZN29IOTimeSyncTSNInterfaceAdapter5startEP9IOService.cold.2
++ _ZN29IOTimeSyncTSNInterfaceAdapter5startEP9IOService.cold.3
++ _ZN29IOTimeSyncTSNInterfaceAdapter5startEP9IOService.cold.4
++ _ZN29IOTimeSyncUnicastUDPv4EtEPort11buildPacketEPvmh.cold.1
++ _ZN29IOTimeSyncUnicastUDPv4EtEPort11buildPacketEPvmh.cold.2
++ _ZN29IOTimeSyncUnicastUDPv4PtPPort11buildPacketEPvmh.cold.1
++ _ZN29IOTimeSyncUnicastUDPv4PtPPort11buildPacketEPvmh.cold.2
++ _ZN29IOTimeSyncUnicastUDPv6EtEPort11buildPacketEPvmh.cold.1
++ _ZN29IOTimeSyncUnicastUDPv6EtEPort11buildPacketEPvmh.cold.2
++ _ZN29IOTimeSyncUnicastUDPv6PtPPort11buildPacketEPvmh.cold.1
++ _ZN29IOTimeSyncUnicastUDPv6PtPPort11buildPacketEPvmh.cold.2
++ _ZN33IOTimeSyncUnicastLinkLayerEtEPort11buildPacketEPvmh.cold.1
++ _ZN33IOTimeSyncUnicastLinkLayerEtEPort11buildPacketEPvmh.cold.2
++ _ZN33IOTimeSyncUnicastLinkLayerPtPPort11buildPacketEPvmh.cold.1
++ _ZN33IOTimeSyncUnicastLinkLayerPtPPort11buildPacketEPvmh.cold.2
++ _ZN34IOTimeSyncEthernetInterfaceAdapter17mbufFromTSNPacketEP9TSNPacketbb.cold.1
++ _ZN34IOTimeSyncEthernetInterfaceAdapter22avbPacketFromTSNPacketEP9TSNPacket.cold.1
++ _ZN34IOTimeSyncEthernetInterfaceAdapter22avbPacketFromTSNPacketEP9TSNPacket.cold.2
++ _ZN34IOTimeSyncEthernetInterfaceAdapter22tsnPacketFromAVBPacketEPN20IOEthernetController19IOEthernetAVBPacketE.cold.1
++ _ZN34IOTimeSyncEthernetInterfaceAdapter22tsnPacketFromAVBPacketEPN20IOEthernetController19IOEthernetAVBPacketE.cold.2
++ _ZN34IOTimeSyncEthernetInterfaceAdapter22tsnPacketFromAVBPacketEPN20IOEthernetController19IOEthernetAVBPacketE.cold.3
++ _ZN34IOTimeSyncEthernetInterfaceAdapter23timeSyncReceiveCallbackEPN20IOEthernetController19IOEthernetAVBPacketE.cold.1
++ _ZN34IOTimeSyncEthernetInterfaceAdapter27nextAvailableTimeSyncPacketEv.cold.1
++ _ZN34IOTimeSyncEthernetInterfaceAdapter31addTimeSyncReceivePacketHandlerEPFvPvP9TSNPacketES0_.cold.1
++ _ZN34IOTimeSyncEthernetInterfaceAdapter31addTimeSyncReceivePacketHandlerEPFvPvP9TSNPacketES0_.cold.2
++ _ZN34IOTimeSyncEthernetInterfaceAdapter31addTimeSyncReceivePacketHandlerEPFvPvP9TSNPacketES0_.cold.3
++ _ZN34IOTimeSyncEthernetInterfaceAdapter32addTimeSyncTransmitPacketHandlerEPFvPvP9TSNPacketES0_Pj.cold.1
++ _ZN34IOTimeSyncEthernetInterfaceAdapter32addTimeSyncTransmitPacketHandlerEPFvPvP9TSNPacketES0_Pj.cold.2
++ _ZN34IOTimeSyncEthernetInterfaceAdapter32addTimeSyncTransmitPacketHandlerEPFvPvP9TSNPacketES0_Pj.cold.3
++ _ZN34IOTimeSyncEthernetInterfaceAdapter32addTimeSyncTransmitPacketHandlerEPFvPvP9TSNPacketES0_Pj.cold.4
++ _ZN34IOTimeSyncEthernetInterfaceAdapter34removeTimeSyncReceivePacketHandlerEPFvPvP9TSNPacketES0_.cold.1
++ _ZN34IOTimeSyncEthernetInterfaceAdapter34removeTimeSyncReceivePacketHandlerEPFvPvP9TSNPacketES0_.cold.2
++ _ZN34IOTimeSyncEthernetInterfaceAdapter35removeTimeSyncTransmitPacketHandlerEj.cold.1
++ _ZN34IOTimeSyncEthernetInterfaceAdapter4initEP12OSDictionary.cold.1
++ _ZN34IOTimeSyncEthernetInterfaceAdapter4initEP12OSDictionary.cold.2
++ _ZN34IOTimeSyncEthernetInterfaceAdapter4initEP12OSDictionary.cold.3
++ _ZN34IOTimeSyncEthernetInterfaceAdapter4initEP12OSDictionary.cold.4
++ _ZN34IOTimeSyncEthernetInterfaceAdapter4initEP12OSDictionary.cold.5
++ _ZN34IOTimeSyncEthernetInterfaceAdapter4initEP12OSDictionary.cold.6
++ _ZN34IOTimeSyncEthernetInterfaceAdapter5startEP9IOService.cold.1
++ __ZZN28IOTimeSyncDomainDaemonClient29sendDelayStatisticsToUserlandEtyyyyyjE11_os_log_fmt
++ __ZZN33IOTimeSyncNetworkPortDaemonClient21sendAsyncNotificationEjyyyyyyE11_os_log_fmt
+- _ZN21IOTimeSyncgPTPManager10targetTypeEv.cold.1
+- _ZN21IOTimeSyncgPTPManager9modelNameEv.cold.1
+- _ZN26IOTimeSyncDomainUserClient14externalMethodEjP25IOExternalMethodArgumentsP24IOExternalMethodDispatchP8OSObjectPv.cold.1
+- _ZN26IOTimeSyncDomainUserClient14externalMethodEjP25IOExternalMethodArgumentsP24IOExternalMethodDispatchP8OSObjectPv.cold.10
+- _ZN26IOTimeSyncDomainUserClient14externalMethodEjP25IOExternalMethodArgumentsP24IOExternalMethodDispatchP8OSObjectPv.cold.11
+- _ZN26IOTimeSyncDomainUserClient14externalMethodEjP25IOExternalMethodArgumentsP24IOExternalMethodDispatchP8OSObjectPv.cold.12
+- _ZN26IOTimeSyncDomainUserClient14externalMethodEjP25IOExternalMethodArgumentsP24IOExternalMethodDispatchP8OSObjectPv.cold.13
+- _ZN26IOTimeSyncDomainUserClient14externalMethodEjP25IOExternalMethodArgumentsP24IOExternalMethodDispatchP8OSObjectPv.cold.14
+- _ZN26IOTimeSyncDomainUserClient14externalMethodEjP25IOExternalMethodArgumentsP24IOExternalMethodDispatchP8OSObjectPv.cold.15
+- _ZN26IOTimeSyncDomainUserClient14externalMethodEjP25IOExternalMethodArgumentsP24IOExternalMethodDispatchP8OSObjectPv.cold.16
+- _ZN26IOTimeSyncDomainUserClient14externalMethodEjP25IOExternalMethodArgumentsP24IOExternalMethodDispatchP8OSObjectPv.cold.2
+- _ZN26IOTimeSyncDomainUserClient14externalMethodEjP25IOExternalMethodArgumentsP24IOExternalMethodDispatchP8OSObjectPv.cold.3
+- _ZN26IOTimeSyncDomainUserClient14externalMethodEjP25IOExternalMethodArgumentsP24IOExternalMethodDispatchP8OSObjectPv.cold.4
+- _ZN26IOTimeSyncDomainUserClient14externalMethodEjP25IOExternalMethodArgumentsP24IOExternalMethodDispatchP8OSObjectPv.cold.5
+- _ZN26IOTimeSyncDomainUserClient14externalMethodEjP25IOExternalMethodArgumentsP24IOExternalMethodDispatchP8OSObjectPv.cold.6
+- _ZN26IOTimeSyncDomainUserClient14externalMethodEjP25IOExternalMethodArgumentsP24IOExternalMethodDispatchP8OSObjectPv.cold.7
+- _ZN26IOTimeSyncDomainUserClient14externalMethodEjP25IOExternalMethodArgumentsP24IOExternalMethodDispatchP8OSObjectPv.cold.8
+- _ZN26IOTimeSyncDomainUserClient14externalMethodEjP25IOExternalMethodArgumentsP24IOExternalMethodDispatchP8OSObjectPv.cold.9
+- _ZN28IOTimeSyncDomainDaemonClient20handleExternalMethodEjPKyjPKvjPyRj.cold.1
+- _ZN28IOTimeSyncDomainDaemonClient20handleExternalMethodEjPKyjPKvjPyRj.cold.10
+- _ZN28IOTimeSyncDomainDaemonClient20handleExternalMethodEjPKyjPKvjPyRj.cold.11
+- _ZN28IOTimeSyncDomainDaemonClient20handleExternalMethodEjPKyjPKvjPyRj.cold.12
+- _ZN28IOTimeSyncDomainDaemonClient20handleExternalMethodEjPKyjPKvjPyRj.cold.2
+- _ZN28IOTimeSyncDomainDaemonClient20handleExternalMethodEjPKyjPKvjPyRj.cold.3
+- _ZN28IOTimeSyncDomainDaemonClient20handleExternalMethodEjPKyjPKvjPyRj.cold.4
+- _ZN28IOTimeSyncDomainDaemonClient20handleExternalMethodEjPKyjPKvjPyRj.cold.5
+- _ZN28IOTimeSyncDomainDaemonClient20handleExternalMethodEjPKyjPKvjPyRj.cold.6
+- _ZN28IOTimeSyncDomainDaemonClient20handleExternalMethodEjPKyjPKvjPyRj.cold.7
+- _ZN28IOTimeSyncDomainDaemonClient20handleExternalMethodEjPKyjPKvjPyRj.cold.8
+- _ZN28IOTimeSyncDomainDaemonClient20handleExternalMethodEjPKyjPKvjPyRj.cold.9
+- _ZN40IOTimeSyncEthernetModernInterfaceAdapter32addRealtimeReceiveDestinationMACEjPh.cold.1
+- _ZN40IOTimeSyncEthernetModernInterfaceAdapter32addRealtimeReceiveDestinationMACEjPh.cold.2
+CStrings:
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncClockManagerDaemonClient.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncDaemonService.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncDaemonUserClient.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncDomain.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncDomainDaemonClient.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncDomainUserClient.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncEthernetControllerAdapter.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncEthernetInterfaceAdapter.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncEthernetModernInterfaceAdapter.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncEthernetPort.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncEthernetSoftDMAInterfaceAdapater.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncFDEtEPort.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncFDPtPPort.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncInterfaceAdapter.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncLocalClockPort.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncNetworkPort.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncNetworkPortDaemonClient.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncNetworkPortUserClient.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncPort.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncPortManager.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncReverseSync.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncTSNInterfaceAdapter.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncTimeOfDayPort.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncUnicastLinkLayerEtEPort.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncUnicastLinkLayerPtPPort.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncUnicastUDPv4EtEPort.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncUnicastUDPv4PtPPort.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncUnicastUDPv6EtEPort.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncUnicastUDPv6PtPPort.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncUserFilteredServiceDaemonClient.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncgPTPManager.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncgPTPManagerDaemonClient.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncgPTPManagerUserClient.cpp"
++ "121111121222121211122111"
++ "12111112122212121112211111111111111111111"
++ "121111121222121211122111122111111"
++ "1211111212221212111221111222212121"
++ "1211111212221212111221112"
++ "IOTimeSyncNetworkPortDaemonClient::sendAsyncNotification: notification=%u arg1=%u arg2=%u arg3=%u arg4=%u arg5=%u arg6=%u"
++ "sendDelayStatisticsToUserland kIOTimeSyncDomainNotificationEtEDelayStats localPortNumber=%u mean=%llu median=%llu stddev=%llu min=%llu max=%llu numberOfSamples=%u"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncClockManagerDaemonClient.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncDaemonService.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncDaemonUserClient.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncDomain.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncDomainDaemonClient.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncDomainUserClient.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncEthernetControllerAdapter.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncEthernetInterfaceAdapter.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncEthernetModernInterfaceAdapter.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncEthernetPort.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncEthernetSoftDMAInterfaceAdapater.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncFDEtEPort.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncFDPtPPort.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncInterfaceAdapter.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncLocalClockPort.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncNetworkPort.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncNetworkPortDaemonClient.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncNetworkPortUserClient.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncPort.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncPortManager.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncReverseSync.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncTSNInterfaceAdapter.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncTimeOfDayPort.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncUnicastLinkLayerEtEPort.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncUnicastLinkLayerPtPPort.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncUnicastUDPv4EtEPort.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncUnicastUDPv4PtPPort.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncUnicastUDPv6EtEPort.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncUnicastUDPv6PtPPort.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncUserFilteredServiceDaemonClient.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncgPTPManager.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncgPTPManagerDaemonClient.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/TimeSync_kext/IOgPTPPlugin/IOTimeSyncgPTPManagerUserClient.cpp"
+- "12111112122212121112111"
+- "1211111212221212111211111111111111111111"
+- "12111112122212121112111122111111"
+- "121111121222121211121111222212121"
+- "121111121222121211121112"
+
+```

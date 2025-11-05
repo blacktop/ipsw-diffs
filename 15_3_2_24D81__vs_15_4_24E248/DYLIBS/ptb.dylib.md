@@ -1,0 +1,130 @@
+## ptb.dylib
+
+> `/System/Library/PrivateFrameworks/TextToSpeechKonaSupport.framework/Versions/Current/Frameworks/ptb.dylib`
+
+```diff
+
+-98.3.1.0.0
+-  __TEXT.__text: 0xd13b0
++102.1.3.0.0
++  __TEXT.__text: 0xcf6b4
+   __TEXT.__auth_stubs: 0x5f0
+-  __TEXT.__const: 0x31ea
++  __TEXT.__const: 0x320a
+   __TEXT.__cstring: 0x106b
+-  __TEXT.__gcc_except_tab: 0x424
+-  __TEXT.__unwind_info: 0x1f28
+-  __TEXT.__eh_frame: 0x228
++  __TEXT.__gcc_except_tab: 0x430
++  __TEXT.__unwind_info: 0x1ed8
++  __TEXT.__eh_frame: 0x208
+   __DATA_CONST.__got: 0x48
+-  __DATA_CONST.__const: 0x210
++  __DATA_CONST.__const: 0x248
+   __AUTH_CONST.__auth_got: 0x300
+   __AUTH_CONST.__const: 0x778
+   __AUTH.__data: 0x530
+   __DATA.__data: 0x9678
+   __DATA.__bss: 0x10c3
+-  __DATA.__common: 0x448
++  __DATA.__common: 0x5a8
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: ECE3B60A-B47B-354A-9AC2-58B3457C2DFD
+-  Functions: 5537
+-  Symbols:   5471
++  UUID: 6C7DD85C-A5D9-3BD3-A68E-91336CCCB16A
++  Functions: 4976
++  Symbols:   4912
+   CStrings:  638
+ 
+Symbols:
++ __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE4fillB8ne190102Ev
++ __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenB8ne190102Ec
++ __ZNSt3__113basic_istreamIcNS_11char_traitsIcEEE7getlineB8ne190102EPcl
++ __ZNSt3__113basic_istreamIcNS_11char_traitsIcEEEC2B8ne190102EPNS_15basic_streambufIcS2_EE
++ __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEEC2B8ne190102EPNS_15basic_streambufIcS2_EE
++ __ZNSt3__116__pad_and_outputB8ne190102IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__124__put_character_sequenceB8ne190102IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__14endlB8ne190102IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_
++ __ZNSt3__18ios_base8setstateB8ne190102Ej
++ __ZNSt3__19basic_iosIcNS_11char_traitsIcEEE4initB8ne190102EPNS_15basic_streambufIcS2_EE
++ __ZNSt3__19use_facetB8ne190102INS_5ctypeIcEEEERKT_RKNS_6localeE
++ __ZNSt3__1lsB8ne190102INS_11char_traitsIcEEEERNS_13basic_ostreamIcT_EES6_PKc
+- _OUTLINED_FUNCTION_181
+- _OUTLINED_FUNCTION_182
+- _OUTLINED_FUNCTION_183
+- _OUTLINED_FUNCTION_184
+- _OUTLINED_FUNCTION_185
+- _OUTLINED_FUNCTION_186
+- _OUTLINED_FUNCTION_187
+- _OUTLINED_FUNCTION_188
+- _OUTLINED_FUNCTION_189
+- _OUTLINED_FUNCTION_190
+- _OUTLINED_FUNCTION_191
+- _OUTLINED_FUNCTION_192
+- _OUTLINED_FUNCTION_193
+- _OUTLINED_FUNCTION_194
+- _OUTLINED_FUNCTION_195
+- _OUTLINED_FUNCTION_196
+- _OUTLINED_FUNCTION_197
+- _OUTLINED_FUNCTION_198
+- _OUTLINED_FUNCTION_199
+- _OUTLINED_FUNCTION_200
+- _OUTLINED_FUNCTION_201
+- _OUTLINED_FUNCTION_202
+- _OUTLINED_FUNCTION_203
+- _OUTLINED_FUNCTION_204
+- _OUTLINED_FUNCTION_205
+- _OUTLINED_FUNCTION_206
+- _OUTLINED_FUNCTION_207
+- _OUTLINED_FUNCTION_208
+- _OUTLINED_FUNCTION_209
+- _OUTLINED_FUNCTION_210
+- _OUTLINED_FUNCTION_211
+- _OUTLINED_FUNCTION_212
+- _OUTLINED_FUNCTION_213
+- _OUTLINED_FUNCTION_214
+- _OUTLINED_FUNCTION_215
+- _OUTLINED_FUNCTION_216
+- _OUTLINED_FUNCTION_217
+- _OUTLINED_FUNCTION_218
+- _OUTLINED_FUNCTION_219
+- _OUTLINED_FUNCTION_220
+- _OUTLINED_FUNCTION_221
+- _OUTLINED_FUNCTION_222
+- _OUTLINED_FUNCTION_223
+- _OUTLINED_FUNCTION_224
+- _OUTLINED_FUNCTION_225
+- _OUTLINED_FUNCTION_226
+- _OUTLINED_FUNCTION_227
+- _OUTLINED_FUNCTION_228
+- _OUTLINED_FUNCTION_229
+- _OUTLINED_FUNCTION_230
+- _OUTLINED_FUNCTION_231
+- _OUTLINED_FUNCTION_232
+- _OUTLINED_FUNCTION_233
+- _OUTLINED_FUNCTION_234
+- _OUTLINED_FUNCTION_235
+- _OUTLINED_FUNCTION_236
+- _OUTLINED_FUNCTION_237
+- _OUTLINED_FUNCTION_238
+- _OUTLINED_FUNCTION_239
+- _OUTLINED_FUNCTION_240
+- _OUTLINED_FUNCTION_241
+- _OUTLINED_FUNCTION_242
+- _OUTLINED_FUNCTION_243
+- __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE4fillB8ne180100Ev
+- __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenB8ne180100Ec
+- __ZNSt3__113basic_istreamIcNS_11char_traitsIcEEE7getlineB8ne180100EPcl
+- __ZNSt3__113basic_istreamIcNS_11char_traitsIcEEEC2B8ne180100EPNS_15basic_streambufIcS2_EE
+- __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEEC2B8ne180100EPNS_15basic_streambufIcS2_EE
+- __ZNSt3__116__pad_and_outputB8ne180100IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__124__put_character_sequenceB8ne180100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__14endlB8ne180100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_
+- __ZNSt3__18ios_base8setstateB8ne180100Ej
+- __ZNSt3__19basic_iosIcNS_11char_traitsIcEEE4initB8ne180100EPNS_15basic_streambufIcS2_EE
+- __ZNSt3__19use_facetB8ne180100INS_5ctypeIcEEEERKT_RKNS_6localeE
+- __ZNSt3__1lsB8ne180100INS_11char_traitsIcEEEERNS_13basic_ostreamIcT_EES6_PKc
+
+```

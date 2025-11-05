@@ -1,0 +1,184 @@
+## iPhone Mirroring
+
+> `/System/Applications/iPhone Mirroring.app/Contents/MacOS/iPhone Mirroring`
+
+```diff
+
+-50.2.2.0.0
+-  __TEXT.__text: 0xd5f8
+-  __TEXT.__auth_stubs: 0xb10
+-  __TEXT.__objc_methlist: 0x5c
+-  __TEXT.__const: 0xb44
+-  __TEXT.__cstring: 0x830
+-  __TEXT.__constg_swiftt: 0x7e8
+-  __TEXT.__swift5_typeref: 0x52c
+-  __TEXT.__swift5_reflstr: 0x5f6
+-  __TEXT.__swift5_fieldmd: 0x3c0
++50.4.13.0.0
++  __TEXT.__text: 0xd0ec
++  __TEXT.__auth_stubs: 0xb90
++  __TEXT.__objc_methlist: 0x394
++  __TEXT.__const: 0xa54
++  __TEXT.__cstring: 0x810
++  __TEXT.__constg_swiftt: 0x7c0
++  __TEXT.__swift5_typeref: 0x3c8
++  __TEXT.__swift5_reflstr: 0x2f6
++  __TEXT.__swift5_fieldmd: 0x29c
+   __TEXT.__swift5_builtin: 0x14
+   __TEXT.__swift5_assocty: 0x30
+   __TEXT.__swift5_proto: 0x54
+-  __TEXT.__swift5_types: 0x4c
++  __TEXT.__swift5_types: 0x48
+   __TEXT.__objc_methname: 0x8b6
+-  __TEXT.__swift5_capture: 0x98
++  __TEXT.__swift_as_entry: 0x6c
++  __TEXT.__swift5_capture: 0xac
++  __TEXT.__swift_as_ret: 0x30
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__oslogstring: 0x57
++  __TEXT.__oslogstring: 0x87
+   __TEXT.__objc_classname: 0x1f
+   __TEXT.__objc_methtype: 0x42a
+-  __TEXT.__unwind_info: 0x418
+-  __TEXT.__eh_frame: 0x5e8
+-  __DATA_CONST.__auth_got: 0x588
+-  __DATA_CONST.__got: 0x230
+-  __DATA_CONST.__auth_ptr: 0x4a8
+-  __DATA_CONST.__const: 0x400
++  __TEXT.__unwind_info: 0x3f8
++  __TEXT.__eh_frame: 0x630
++  __DATA_CONST.__auth_got: 0x5c8
++  __DATA_CONST.__got: 0x248
++  __DATA_CONST.__auth_ptr: 0x3f0
++  __DATA_CONST.__const: 0x368
+   __DATA_CONST.__objc_classlist: 0x60
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __DATA.__objc_const: 0x1218
+-  __DATA.__objc_selrefs: 0xb0
+-  __DATA.__objc_data: 0x2f8
+-  __DATA.__data: 0x10d0
++  __DATA.__objc_const: 0xb80
++  __DATA.__objc_selrefs: 0x290
++  __DATA.__objc_data: 0x348
++  __DATA.__data: 0x10b8
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__bss: 0xa60
+-  __DATA.__common: 0xa0
++  __DATA.__bss: 0xa50
++  __DATA.__common: 0x48
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+   - /System/Library/Frameworks/Combine.framework/Versions/A/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
++  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIOKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+   - @rpath/ScreenContinuityUI.framework/Versions/A/ScreenContinuityUI
+-  UUID: 2886FDFE-A4B4-33B8-B513-2AD2067E0306
+-  Functions: 283
+-  Symbols:   418
+-  CStrings:  192
++  UUID: 2D6A0F72-BADD-35A3-8DF7-419A8AEDD043
++  Functions: 263
++  Symbols:   407
++  CStrings:  191
+ 
+Symbols:
++ _$s16ScreenSharingKit020MediaTransportBackedaB13SessionVendorC20thisDeviceIdentifier17timeoutPrimitives05mediae6ClientgH005localj11InformationM0010hidServiceM029screenContinuityNotifications09telemetryH0012userDefaultsM019rtiStateCoordinatorAC10Foundation4UUIDV_AA07TimeoutM0VAA0deogH0_pAA05LocaljqM0_pAA010HIDServiceM0_pAA0auV0_pAA09TelemetryH8Protocol_pAA04UseryM0_pAA19RTIStateCoordinator_ptcfc
++ _$s16ScreenSharingKit17TimeoutPrimitivesV28defaultForBuildConfigurationACyFZ
++ _$s16ScreenSharingKit17TimeoutPrimitivesVMa
++ _$s16ScreenSharingKit18AppTelemetryVendorCAA0eF8ProtocolAAWP
++ _$s16ScreenSharingKit20MediaTransportStreamMp
++ _$s16ScreenSharingKit20MediaTransportStreamP10invalidateyyYaFTq
++ _$s16ScreenSharingKit20MediaTransportStreamP10streamTypeAA0dfH0OvgTq
++ _$s16ScreenSharingKit20MediaTransportStreamP8activateScSyAA0deF5StateOGyYaKFTq
++ _$s16ScreenSharingKit23MockRTIStateCoordinatorCAA0eF0AAWP
++ _$s16ScreenSharingKit23MockRTIStateCoordinatorCACycfc
++ _$s16ScreenSharingKit23MockRTIStateCoordinatorCMa
++ _$s16ScreenSharingKit25MediaTransportStreamStateOMa
++ _$s16ScreenSharingKit25MediaTransportStreamStateOMn
++ _$s16ScreenSharingKit26MockUserDefaultsPrimitivesCAA0efG0AAWP
++ _$s16ScreenSharingKit26MockUserDefaultsPrimitivesCACycfc
++ _$s16ScreenSharingKit26MockUserDefaultsPrimitivesCMa
++ _$s16ScreenSharingKit30MediaTransportSessionProvidingP8activateSci_pAA0deF5StateO7ElementRts_s5NeverO7FailureRtsXPyYaKFTq
++ _$s16ScreenSharingKit31NotifyBackedRTIStateCoordinatorVAA0fG0AAWP
++ _$s16ScreenSharingKit31NotifyBackedRTIStateCoordinatorVACycfC
++ _$s16ScreenSharingKit31NotifyBackedRTIStateCoordinatorVMa
++ _$s16ScreenSharingKit33MediaTransportClientSessionVendorP06createdefG016continuityDevice13sessionConfig16discoveryTimeout0N22BluetoothRSSIThreshold9telemetryAA0defG9Providing_pAA010ContinuityK0V_AA0dgM0OSdSiAA17TelemetryProviderCtFTq
++ _$s16ScreenSharingKit36MediaTransportClientSessionProvidingP06createD6StreamyAA0deJ0_pAA0dJ4TypeOYaKFTq
++ _$s16ScreenSharingKit38FoundationBackedUserDefaultsPrimitivesC8defaultsACSo06NSUserG0C_tcfc
++ _$s16ScreenSharingKit38FoundationBackedUserDefaultsPrimitivesCAA0fgH0AAWP
++ _$s16ScreenSharingKit38FoundationBackedUserDefaultsPrimitivesCMa
++ _$s16ScreenSharingKit55ContinuityDeviceBackedMediaTransportClientSessionVendorC12userDefaults17timeoutPrimitivesAcA04UsermO0_p_AA07TimeoutO0Vtcfc
++ _$s18ScreenContinuityUI13AppPrimitivesV32mediaTansportClientSessionVendor016continuityDeviceE0010hidServiceE0020remoteAuthenticationeJ00o12NotificationE005localpE0017applicationLaunchE021accountStorePrimitive017deviceEligibilityE00x11RestrictionE00r4WiFiE00r9BluetoothE0010helpViewerE007timeoutE0013accessibilityheJ0018accessibilityStateE009telemetryJ0016sessionTelemetryJ00r5EventE00ra8ActivityE00R20WindowCaptureMonitor0rl11InformationE0012userDefaultsE019rtiStateCoordinatorAC0A10SharingKit014MediaTransporthiJ0_p_A0_0blE0_pA0_010HIDServiceE0_pA0_06RemotepeJ0_pA0_019RemoteNotificationsE0_pA0_05LocalpE0_pA0_011ApplicationtE0_pA0_07AccountvE0_pA0_07OnenesslyE0_pA0_0ablzE0_pA0_09LocalWiFiE0_pA0_014LocalBluetoothE0_pAA010HelpViewerE0_pA0_07TimeoutE0VA0_7Vending_pA0_013AccessibilityhE0_p10VendedTypeA0_A16_PRts_XPA0_017AccessiblityStateE0_pA0_0d9TelemetryJ0CA0_0di9TelemetryJ0CAA010LocalEventE0_pA0_18ActivityMonitoring_pA0_05LocalA12ActivityTypeO13PublishedTypeA0_A27_PRts_XPA0_25LocalWindowCaptureMonitor_pA0_05Locall11InformationE0_pA0_012UserDefaultsE0_pA0_19RTIStateCoordinator_ptcfC
++ _$s18ScreenContinuityUI13AppPrimitivesVMa
++ _$s18ScreenContinuityUI13AppPrimitivesVMn
++ _$s18ScreenContinuityUI14MainSceneModelC20thisDeviceIdentifier26screenSharingSessionVendor010continuityH10Primitives010hidServiceO0013eventObserveroM0010localEventO00ta8ActivityO00th11InformationO0020remoteAuthenticationoM00x13NotificationsO00tyO00T20WindowCaptureMonitor0jbZ0017applicationLaunchO021accountStorePrimitive017deviceEligibilityO0017deviceRestrictionO00t4WiFiO00t9BluetoothO0010helpViewerO007timeoutO009telemetryM017appStatusDelegate018accessibilityStateO0019accessibilityClientoM012userDefaults19rtiStateCoordinatorAC10Foundation4UUIDV_0aK3Kit7Vending_pA6_0akL0C10VendedTypeA6_A7_PRts_XPA6_0bhO0_pA6_010HIDServiceO0_pA6_08HIDEventsoM0_pAA05LocaluO0_pA6_0V10Monitoring_pA6_05LocalaV4TypeO13PublishedTypeA6_A17_PRts_XPA6_05LocalhwO0_pA6_06RemoteyoM0_pA6_06RemotezO0_pA6_05LocalyO0_pA6_25LocalWindowCaptureMonitor_pA6_0abZ0_pA6_017ApplicationLaunchO0_pA6_012AccountStoreO0_pA6_07Onenessh11EligibilityO0_pA6_0abh11RestrictionO0_pA6_09LocalWiFiO0_pA6_014LocalBluetoothO0_pAA010HelpViewerO0_pA6_07TimeoutO0VA6_09TelemetryM8Protocol_pAA26AppStatusDelegateProviding_pA6_017AccessiblityStateO0_pA6_A7__pA6_019AccessibilityClientO0_pA12_RS_XPA6_012UserDefaultsO0_pA6_19RTIStateCoordinator_ptcfc
++ __swift_FORCE_LOAD_$_swiftCompression
++ __swift_FORCE_LOAD_$_swiftDataDetection
+- _$s16ScreenSharingKit020MediaTransportBackedaB13SessionVendorC20thisDeviceIdentifier05mediae6ClientgH005localJ21InformationPrimitives010hidServiceP029screenContinuityNotifications09telemetryH0AC10Foundation4UUIDV_AA0demgH0_pAA05LocaljoP0_pAA010HIDServiceP0_pAA0atU0_pAA09TelemetryH8Protocol_ptcfc
+- _$s16ScreenSharingKit05LocalA12ActivityTypeOMn
+- _$s16ScreenSharingKit14MediaStreamingMp
+- _$s16ScreenSharingKit14MediaStreamingP10invalidateyyFTq
+- _$s16ScreenSharingKit14MediaStreamingP10streamTypeAA0d6StreamG0OvgTq
+- _$s16ScreenSharingKit14MediaStreamingP5pauseyyKFTq
+- _$s16ScreenSharingKit14MediaStreamingP6resumeyyKFTq
+- _$s16ScreenSharingKit14MediaStreamingP8activateScSyAA0dE5StateOGyYaKFTq
+- _$s16ScreenSharingKit17TelemetryProviderCMn
+- _$s16ScreenSharingKit18ActivityMonitoringMp
+- _$s16ScreenSharingKit18AppTelemetryVendorCMn
+- _$s16ScreenSharingKit19LocalWiFiPrimitivesMp
+- _$s16ScreenSharingKit19MediaStreamingStateOMa
+- _$s16ScreenSharingKit19MediaStreamingStateOMn
+- _$s16ScreenSharingKit20HIDServicePrimitivesMp
+- _$s16ScreenSharingKit24LocalBluetoothPrimitivesMp
+- _$s16ScreenSharingKit25AppSessionTelemetryVendorCMn
+- _$s16ScreenSharingKit25LocalWindowCaptureMonitorMp
+- _$s16ScreenSharingKit27AccessiblityStatePrimitivesMp
+- _$s16ScreenSharingKit27ApplicationLaunchPrimitivesMp
+- _$s16ScreenSharingKit29AccessibilityClientPrimitivesMp
+- _$s16ScreenSharingKit29LocalAuthenticationPrimitivesMp
+- _$s16ScreenSharingKit30MediaTransportSessionProvidingP8activateScSyAA0deF5StateOGyYaKFTq
+- _$s16ScreenSharingKit32LocalDeviceInformationPrimitivesMp
+- _$s16ScreenSharingKit33MediaTransportClientSessionVendorP06createdefG016continuitydevice16discoveryTimeout0K22BluetoothRSSIThreshold9telemetryAA0defG9Providing_pAA16ContinuityDeviceV_S2iAA17TelemetryProviderCtFTq
+- _$s16ScreenSharingKit36MediaTransportClientSessionProvidingP06createD6StreamyAA0D9Streaming_pAA0dJ4TypeOKFTq
+- _$s16ScreenSharingKit36MediaTransportClientSessionProvidingP20withDeviceIdentifier16discoveryTimeout0L22BluetoothRSSIThresholdxSS_S2iSgtcfCTq
+- _$s16ScreenSharingKit36MediaTransportClientSessionProvidingP9telemetryAA17TelemetryProviderCSgvMTq
+- _$s16ScreenSharingKit36MediaTransportClientSessionProvidingP9telemetryAA17TelemetryProviderCSgvgTq
+- _$s16ScreenSharingKit36MediaTransportClientSessionProvidingP9telemetryAA17TelemetryProviderCSgvsTq
+- _$s16ScreenSharingKit55ContinuityDeviceBackedMediaTransportClientSessionVendorCACycfc
+- _$s16ScreenSharingKit7VendingMp
+- _$s18ScreenContinuityUI14MainSceneModelC20thisDeviceIdentifier26screenSharingSessionVendor010continuityH10Primitives010hidServiceO0013eventObserveroM0010localEventO00ta8ActivityO00th11InformationO0020remoteAuthenticationoM00x13NotificationsO00tyO00T20WindowCaptureMonitor0jbZ0017applicationLaunchO021accountStorePrimitive017deviceEligibilityO0017deviceRestrictionO00t4WiFiO00t9BluetoothO0010helpViewerO007timeoutO009telemetryM017appStatusDelegate018accessibilityStateO0019accessibilityClientoM012userDefaultsAC10Foundation4UUIDV_0aK3Kit7Vending_pA5_0akL0C10VendedTypeA5_A6_PRts_XPA5_0bhO0_pA5_010HIDServiceO0_pA5_08HIDEventsoM0_pAA05LocaluO0_pA5_0V10Monitoring_pA5_05LocalaV4TypeO13PublishedTypeA5_A16_PRts_XPA5_05LocalhwO0_pA5_06RemoteyoM0_pA5_06RemotezO0_pA5_05LocalyO0_pA5_25LocalWindowCaptureMonitor_pA5_0abZ0_pA5_017ApplicationLaunchO0_pA5_012AccountStoreO0_pA5_07Onenessh11EligibilityO0_pA5_0abh11RestrictionO0_pA5_09LocalWiFiO0_pA5_014LocalBluetoothO0_pAA010HelpViewerO0_pAA07TimeoutO0VA5_012AppTelemetryM0CAA26AppStatusDelegateProviding_pA5_017AccessiblityStateO0_pA5_A6__pA5_019AccessibilityClientO0_pA11_RS_XPSo14NSUserDefaultsCtcfc
+- _$s18ScreenContinuityUI17TimeoutPrimitivesVMn
+- _$s18ScreenContinuityUI17TimeoutPrimitivesVN
+- _$s18ScreenContinuityUI20HelpViewerPrimitivesMp
+- _$s18ScreenContinuityUI20LocalEventPrimitivesMp
+- _$sSiN
+- _$sSiSzsMc
+- _$sSw10copyMemory4fromySW_tF
+- _memcpy
+- _swift_arrayDestroy
+- _swift_once
+CStrings:
++ "applicationWillBecomeActive called"
+- "NSDisabledDictationMenuItem"
+- "telemetry"
+
+```

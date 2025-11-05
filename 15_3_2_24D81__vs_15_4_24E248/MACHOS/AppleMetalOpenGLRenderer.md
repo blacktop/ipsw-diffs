@@ -1,0 +1,215 @@
+## AppleMetalOpenGLRenderer
+
+> `/System/Library/Extensions/AppleMetalOpenGLRenderer.bundle/Contents/MacOS/AppleMetalOpenGLRenderer`
+
+```diff
+
+-89.3.0.0.0
+-  __TEXT.__text: 0x4ec0c
+-  __TEXT.__auth_stubs: 0x790
++89.4.0.0.0
++  __TEXT.__text: 0x4dd30
++  __TEXT.__auth_stubs: 0x7a0
+   __TEXT.__objc_stubs: 0x31c0
+   __TEXT.__objc_methlist: 0x38
+-  __TEXT.__cstring: 0x311e
+-  __TEXT.__gcc_except_tab: 0xa74
+-  __TEXT.__const: 0x7990
++  __TEXT.__cstring: 0x313c
++  __TEXT.__gcc_except_tab: 0xbfc
++  __TEXT.__const: 0x7980
+   __TEXT.__objc_classname: 0x2b
+   __TEXT.__oslogstring: 0xce
+   __TEXT.__objc_methname: 0x28a3
+   __TEXT.__objc_methtype: 0x350a
+-  __TEXT.__unwind_info: 0xc58
+-  __DATA_CONST.__auth_got: 0x3d8
++  __TEXT.__unwind_info: 0xc20
++  __DATA_CONST.__auth_got: 0x3e0
+   __DATA_CONST.__got: 0x108
+   __DATA_CONST.__auth_ptr: 0x20
+   __DATA_CONST.__const: 0x2808
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A969AEAF-D20C-3296-B195-742E2B280D5E
+-  Functions: 944
+-  Symbols:   1705
+-  CStrings:  996
++  UUID: C56B4A08-939D-334A-B846-AA9542EBCB21
++  Functions: 971
++  Symbols:   1819
++  CStrings:  995
+ 
+Symbols:
++ _OUTLINED_FUNCTION_10
++ _OUTLINED_FUNCTION_11
++ _OUTLINED_FUNCTION_12
++ _OUTLINED_FUNCTION_13
++ _OUTLINED_FUNCTION_14
++ _OUTLINED_FUNCTION_15
++ _OUTLINED_FUNCTION_16
++ _OUTLINED_FUNCTION_17
++ _OUTLINED_FUNCTION_18
++ _OUTLINED_FUNCTION_19
++ _OUTLINED_FUNCTION_20
++ _OUTLINED_FUNCTION_21
++ _OUTLINED_FUNCTION_22
++ _OUTLINED_FUNCTION_23
++ _OUTLINED_FUNCTION_24
++ _OUTLINED_FUNCTION_25
++ _OUTLINED_FUNCTION_26
++ _OUTLINED_FUNCTION_27
++ _OUTLINED_FUNCTION_28
++ _OUTLINED_FUNCTION_29
++ _OUTLINED_FUNCTION_30
++ _OUTLINED_FUNCTION_31
++ _OUTLINED_FUNCTION_32
++ _OUTLINED_FUNCTION_33
++ _OUTLINED_FUNCTION_34
++ _OUTLINED_FUNCTION_35
++ _OUTLINED_FUNCTION_36
++ _OUTLINED_FUNCTION_37
++ _OUTLINED_FUNCTION_38
++ _OUTLINED_FUNCTION_39
++ _OUTLINED_FUNCTION_40
++ _OUTLINED_FUNCTION_41
++ _OUTLINED_FUNCTION_42
++ _OUTLINED_FUNCTION_43
++ _OUTLINED_FUNCTION_44
++ _OUTLINED_FUNCTION_45
++ _OUTLINED_FUNCTION_46
++ _OUTLINED_FUNCTION_47
++ _OUTLINED_FUNCTION_48
++ _OUTLINED_FUNCTION_49
++ _OUTLINED_FUNCTION_50
++ _OUTLINED_FUNCTION_51
++ _OUTLINED_FUNCTION_52
++ _OUTLINED_FUNCTION_53
++ _OUTLINED_FUNCTION_54
++ _OUTLINED_FUNCTION_55
++ _OUTLINED_FUNCTION_56
++ _OUTLINED_FUNCTION_57
++ _OUTLINED_FUNCTION_58
++ _OUTLINED_FUNCTION_7
++ _OUTLINED_FUNCTION_8
++ _OUTLINED_FUNCTION_9
++ _ZL21gldEndPrimitiveBufferP13GLDContextRecjji.cold.1
++ _ZL23gldBeginPrimitiveBufferP13GLDContextRecjPi.cold.1
++ _ZL23gldBeginPrimitiveBufferP13GLDContextRecjPi.cold.2
++ _ZL26makeTextureViewRscIfNeededP18GLRTextureResource14MTLPixelFormat14MTLTextureType8_NSRangeS3_j.cold.1
++ _ZN11GLDQueueRec18initWithShareGroupEP16GLDShareGroupRecPK16GLDQueueStateRec.cold.1
++ _ZN11GLRDrawable14attachDrawableEP13GLDContextRecjP14GLDDrawableRecjP16GLTDimensionsRecPKS_.cold.1
++ _ZN11GLRDrawable18initWithShareGroupEP16GLDShareGroupRecPK19__GLDPixelFormatRecP17GLRDeviceDrawable.cold.1
++ _ZN11GLRDrawable18initWithShareGroupEP16GLDShareGroupRecPK19__GLDPixelFormatRecP17GLRDeviceDrawable.cold.2
++ _ZN11GLRDrawable38convertGLDrawBufferToIOAccelClientTypeEjj.cold.1
++ _ZN11GLRDrawable47convertIOAccelClientModeBitsToIOAccelClientTypeEj.cold.1
++ _ZN12GLDDeviceRec19initWithDisplayMaskEj.cold.1
++ _ZN12GLDDeviceRec19initWithDisplayMaskEj.cold.2
++ _ZN12GLDDeviceRec19initWithDisplayMaskEj.cold.3
++ _ZN12GLDDeviceRec19initWithDisplayMaskEj.cold.4
++ _ZN12GLDDeviceRec19initWithDisplayMaskEj.cold.5
++ _ZN12GLDDeviceRec30getClearShaderFragmentFunctionEj.cold.1
++ _ZN12GLDDeviceRec43getBuiltinRenderPipelineStateFromDescriptorEP27MTLRenderPipelineDescriptor.cold.1
++ _ZN13GLDContextRec24setRenderProvokingVertexEv.cold.1
++ _ZN13GLDContextRec25buildRenderPassDescriptorEv.cold.1
++ _ZN13GLDContextRec25setRenderPrimitiveRestartEv.cold.1
++ _ZN13GLDContextRec27loadCurrentPipelineProgramsEPj.cold.1
++ _ZN13GLDContextRec27loadCurrentPipelineProgramsEPj.cold.10
++ _ZN13GLDContextRec27loadCurrentPipelineProgramsEPj.cold.11
++ _ZN13GLDContextRec27loadCurrentPipelineProgramsEPj.cold.12
++ _ZN13GLDContextRec27loadCurrentPipelineProgramsEPj.cold.13
++ _ZN13GLDContextRec27loadCurrentPipelineProgramsEPj.cold.14
++ _ZN13GLDContextRec27loadCurrentPipelineProgramsEPj.cold.15
++ _ZN13GLDContextRec27loadCurrentPipelineProgramsEPj.cold.16
++ _ZN13GLDContextRec27loadCurrentPipelineProgramsEPj.cold.2
++ _ZN13GLDContextRec27loadCurrentPipelineProgramsEPj.cold.3
++ _ZN13GLDContextRec27loadCurrentPipelineProgramsEPj.cold.4
++ _ZN13GLDContextRec27loadCurrentPipelineProgramsEPj.cold.5
++ _ZN13GLDContextRec27loadCurrentPipelineProgramsEPj.cold.6
++ _ZN13GLDContextRec27loadCurrentPipelineProgramsEPj.cold.7
++ _ZN13GLDContextRec27loadCurrentPipelineProgramsEPj.cold.8
++ _ZN13GLDContextRec27loadCurrentPipelineProgramsEPj.cold.9
++ _ZN13GLDSamplerRec16setSeamedCubemapEbb.cold.1
++ _ZN13GLDTextureRec12loadUnlockedEv.cold.5
++ _ZN13GLDTextureRec12loadUnlockedEv.cold.6
++ _ZN13GLDTextureRec4loadEv.cold.5
++ _ZN13GLDTextureRec4loadEv.cold.6
++ _ZN13GLDTextureRec7loadObjEv.cold.5
++ _ZN13GLDTextureRec7loadObjEv.cold.6
++ _ZN17GLDPixelConverter4initEPU19objcproto9MTLDevice11objc_object.cold.1
++ _ZN20GLDComputeProgramRec12createKernelEP16GLDShareGroupRecPP12GLDKernelRecPK17GLDKernelStateRecP23GLDKernelDeviceStateRecP18GLDKernelConfigRec.cold.1
++ _ZN20GLDComputeProgramRec19buildComputeProgramEP16GLDShareGroupRecPKvmjPc.cold.1
++ _ZN21GLDPipelineProgramRec6updateEP13GLDProgramRecj.cold.1
++ _ZN21GLDPipelineProgramRec6updateEP13GLDProgramRecj.cold.2
++ _ZZN13GLDContextRec18updateTextureStateEjPKyjENK3$_0clEjj.cold.1
++ _ZZN13GLDContextRec30setTexturesAndSamplersInternalE12PipelineTypejP23SetSamplerStateIMPCacheP26SetSamplerStateLODIMPCacheP18SetTextureIMPCacheENKUljjE_clEjj.cold.1
++ __MergedGlobals
++ __ZNSt3__110__function12__value_funcIFiPPvPKcS2_EED2B8nn190102Ev
++ __ZNSt3__110__function12__value_funcIFiPvEED2B8nn190102Ev
++ __ZNSt3__110__function12__value_funcIFiPvPPcEED2B8nn190102Ev
++ __ZNSt3__110__function12__value_funcIFiPvS2_mEED2B8nn190102Ev
++ __ZNSt3__110__function12__value_funcIFvP11GLRResourceEEC2B8nn190102ERKS5_
++ __ZNSt3__110__function12__value_funcIFvP11GLRResourceEED2B8nn190102Ev
++ __ZNSt3__112__destroy_atB8nn190102INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIyNS5_IyEEEEEELi0EEEvPT_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn190102ENS_24__uninitialized_size_tagEmRKS4_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn190102ILi0EEEPKc
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIN10GLDLibrary20DisplayMaskToServiceEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIP17GLRBufferResourceEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIPU34objcproto23MTLComputePipelineState11objc_objectEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIP17GLRBufferResourceNS_6vectorIjNS1_IjEEEEEEPvEEEEEclB8nn190102EPSB_
++ __ZNSt3__122__libcpp_verbose_abortEPKcz
++ __ZNSt3__125__throw_bad_function_callB8nn190102Ev
++ __ZNSt3__127__tree_balance_after_insertB8nn190102IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__16vectorIP17GLRBufferResourceNS_9allocatorIS2_EEE9push_backB8nn190102ERKS2_
++ __ZSt28__throw_bad_array_new_lengthB8nn190102v
++ gldCopyBufferSubData.cold.1
++ gldGenerateTexMipmaps.cold.1
++ gldPopulateRendererInfo.cold.1
++ gldPresentFramebufferData.cold.1
++ gldSetInteger.cold.1
++ gldUpdateDispatch.cold.1
++ gldUpdateDispatch.cold.2
++ gldUpdateDispatch.cold.3
++ gldUpdateDispatch.cold.4
++ gldUpdateDispatch.cold.5
++ gldUpdateDispatch.cold.6
++ gldUpdateDispatch.cold.7
+- __ZGVZ23gldPopulateRendererInfoE26device_texture_memory_size
+- __ZGVZ25gldPresentFramebufferDataE28GLR_NOOP_PRESENT_FRAMEBUFFER
+- __ZGVZN12GLDDeviceRec19initWithDisplayMaskEjE22GLR_OVERRIDE_MTL_INDEX
+- __ZGVZN12GLDDeviceRec19initWithDisplayMaskEjE22useMaxDataBufferSizeEV
+- __ZGVZN13GLDSamplerRec16setSeamedCubemapEbbE26GLD_FORCE_SEAMLESS_CUBEMAP
+- __ZNSt3__110__function12__value_funcIFiPPvPKcS2_EED2B8nn180100Ev
+- __ZNSt3__110__function12__value_funcIFiPvEED2B8nn180100Ev
+- __ZNSt3__110__function12__value_funcIFiPvPPcEED2B8nn180100Ev
+- __ZNSt3__110__function12__value_funcIFiPvS2_mEED2B8nn180100Ev
+- __ZNSt3__110__function12__value_funcIFvP11GLRResourceEEC2B8nn180100ERKS5_
+- __ZNSt3__110__function12__value_funcIFvP11GLRResourceEED2B8nn180100Ev
+- __ZNSt3__112__destroy_atB8nn180100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIyNS5_IyEEEEEELi0EEEvPT_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn180100ENS_24__uninitialized_size_tagEmRKS4_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn180100ILi0EEEPKc
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIN10GLDLibrary20DisplayMaskToServiceEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIP17GLRBufferResourceEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIPU34objcproto23MTLComputePipelineState11objc_objectEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8nn180100INS_9allocatorIjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIP17GLRBufferResourceNS_6vectorIjNS1_IjEEEEEEPvEEEEEclB8nn180100EPSB_
+- __ZNSt3__125__throw_bad_function_callB8nn180100Ev
+- __ZNSt3__127__tree_balance_after_insertB8nn180100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__16vectorIP17GLRBufferResourceNS_9allocatorIS2_EEE9push_backB8nn180100ERKS2_
+- __ZSt28__throw_bad_array_new_lengthB8nn180100v
+- __ZZ23gldPopulateRendererInfoE16device_vram_size
+- __ZZ23gldPopulateRendererInfoE26device_texture_memory_size
+- __ZZ25gldPresentFramebufferDataE28GLR_NOOP_PRESENT_FRAMEBUFFER
+- __ZZN12GLDDeviceRec19initWithDisplayMaskEjE22GLR_OVERRIDE_MTL_INDEX
+- __ZZN12GLDDeviceRec19initWithDisplayMaskEjE22useMaxDataBufferSizeEV
+- __ZZN13GLDContextRec14initGroupModesEvE14groupModeEnums
+- __ZZN13GLDSamplerRec16setSeamedCubemapEbbE26GLD_FORCE_SEAMLESS_CUBEMAP
+CStrings:
++ "bad_function_call was thrown in -fno-exceptions mode"
+- "beginQuery"
+- "resumeQuery"
+
+```

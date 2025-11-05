@@ -1,0 +1,1096 @@
+## PodcastsFoundation
+
+> `/System/Library/PrivateFrameworks/PodcastsFoundation.framework/Versions/A/PodcastsFoundation`
+
+```diff
+
+-4024.400.4.0.0
+-  __TEXT.__text: 0x4acc38
+-  __TEXT.__auth_stubs: 0x49d0
+-  __TEXT.__objc_methlist: 0x9bc8
+-  __TEXT.__const: 0x2bba0
+-  __TEXT.__oslogstring: 0xf40b
+-  __TEXT.__cstring: 0x17fae
+-  __TEXT.__gcc_except_tab: 0xb60
++4024.540.4.0.0
++  __TEXT.__text: 0x4ba2d8
++  __TEXT.__auth_stubs: 0x4d60
++  __TEXT.__objc_methlist: 0xb49c
++  __TEXT.__const: 0x2d9c0
++  __TEXT.__oslogstring: 0xf3ab
++  __TEXT.__cstring: 0x1835e
++  __TEXT.__gcc_except_tab: 0xb98
+   __TEXT.__ustring: 0x54
+   __TEXT.__dlopen_cstrs: 0xca
+-  __TEXT.__swift5_typeref: 0x15ee2
+-  __TEXT.__constg_swiftt: 0xe324
+-  __TEXT.__swift5_reflstr: 0xb6c6
+-  __TEXT.__swift5_fieldmd: 0xd6e8
++  __TEXT.__swift5_typeref: 0x162ce
++  __TEXT.__constg_swiftt: 0xeaa8
++  __TEXT.__swift5_reflstr: 0xba0b
++  __TEXT.__swift5_fieldmd: 0xde60
+   __TEXT.__swift5_builtin: 0x550
+-  __TEXT.__swift5_assocty: 0x1a68
+-  __TEXT.__swift5_proto: 0x21e4
+-  __TEXT.__swift5_types: 0xe7c
+-  __TEXT.__swift5_capture: 0x6b5c
+-  __TEXT.__swift5_protos: 0x190
++  __TEXT.__swift5_assocty: 0x1c30
++  __TEXT.__swift5_proto: 0x23a0
++  __TEXT.__swift5_types: 0xf44
++  __TEXT.__swift5_capture: 0x6ce8
++  __TEXT.__swift_as_entry: 0x1dc
++  __TEXT.__swift_as_ret: 0x20c
++  __TEXT.__swift5_protos: 0x18c
+   __TEXT.__swift5_mpenum: 0x130
+-  __TEXT.__unwind_info: 0x117e8
+-  __TEXT.__eh_frame: 0x112fc
+-  __TEXT.__objc_classname: 0xf11
+-  __TEXT.__objc_methname: 0x19af4
+-  __TEXT.__objc_methtype: 0x30d0
+-  __TEXT.__objc_stubs: 0xe400
+-  __DATA_CONST.__got: 0x1540
+-  __DATA_CONST.__const: 0x2c80
+-  __DATA_CONST.__objc_classlist: 0xa10
+-  __DATA_CONST.__objc_catlist: 0xd0
++  __TEXT.__unwind_info: 0x111e0
++  __TEXT.__eh_frame: 0x11a78
++  __TEXT.__objc_classname: 0xf2c
++  __TEXT.__objc_methname: 0x19d3a
++  __TEXT.__objc_methtype: 0x30e0
++  __TEXT.__objc_stubs: 0xe4a0
++  __DATA_CONST.__got: 0x1568
++  __DATA_CONST.__const: 0x2d70
++  __DATA_CONST.__objc_classlist: 0xa60
++  __DATA_CONST.__objc_catlist: 0xc0
+   __DATA_CONST.__objc_protolist: 0x398
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x63f8
++  __DATA_CONST.__objc_selrefs: 0x6908
+   __DATA_CONST.__objc_protorefs: 0x1f0
+   __DATA_CONST.__objc_superrefs: 0x1f0
+   __DATA_CONST.__objc_arraydata: 0x58
+-  __AUTH_CONST.__auth_got: 0x24f8
+-  __AUTH_CONST.__const: 0x29b40
+-  __AUTH_CONST.__cfstring: 0xa100
+-  __AUTH_CONST.__objc_const: 0x28f70
+-  __AUTH_CONST.__objc_intobj: 0xb40
++  __AUTH_CONST.__auth_got: 0x26c0
++  __AUTH_CONST.__const: 0x2b390
++  __AUTH_CONST.__cfstring: 0xa200
++  __AUTH_CONST.__objc_const: 0x272c8
++  __AUTH_CONST.__objc_intobj: 0xb58
+   __AUTH_CONST.__objc_arrayobj: 0x90
+   __AUTH_CONST.__objc_floatobj: 0x10
+   __AUTH_CONST.__objc_doubleobj: 0x50
+-  __AUTH.__objc_data: 0x8f28
+-  __AUTH.__data: 0x9040
++  __AUTH.__objc_data: 0x86d8
++  __AUTH.__data: 0x9870
+   __DATA.__objc_ivar: 0x534
+-  __DATA.__data: 0xe0e8
+-  __DATA.__bss: 0x3dfc0
+-  __DATA.__common: 0x128
++  __DATA.__data: 0xe678
++  __DATA.__bss: 0x41440
++  __DATA.__common: 0x118
+   __DATA_DIRTY.__objc_data: 0xc80
+-  __DATA_DIRTY.__data: 0x1a0
++  __DATA_DIRTY.__data: 0x1b0
+   __DATA_DIRTY.__bss: 0x128
+   - /System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+
+   - /System/Library/Frameworks/CryptoKit.framework/Versions/A/CryptoKit
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
++  - /System/Library/Frameworks/Metal.framework/Versions/A/Metal
+   - /System/Library/Frameworks/Security.framework/Versions/A/Security
+   - /System/Library/Frameworks/ShazamKit.framework/Versions/A/ShazamKit
+   - /System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags
+   - /System/Library/PrivateFrameworks/IntelligencePlatformLibrary.framework/Versions/A/IntelligencePlatformLibrary
+-  - /System/Library/PrivateFrameworks/Koa.framework/Versions/A/Koa
++  - /System/Library/PrivateFrameworks/MediaServices.framework/Versions/A/MediaServices
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking
+   - /System/Library/PrivateFrameworks/UserManagement.framework/Versions/A/UserManagement
+   - /System/Library/PrivateFrameworks/iTunesCloud.framework/Versions/A/iTunesCloud
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libxml2.2.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
++  - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+
+   - /usr/lib/swift/libswiftCryptoTokenKit.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftFileProvider.dylib
+   - /usr/lib/swift/libswiftIOKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftObservation.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftSystem.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: ABB086BB-F52D-368F-AE58-857D0A4AFAAE
+-  Functions: 26682
+-  Symbols:   15166
+-  CStrings:  10561
++  UUID: 18EF609B-4627-3C9A-A1A0-3E5308C3E8ED
++  Functions: 26622
++  Symbols:   15543
++  CStrings:  10647
+ 
+Symbols:
++ +[IMBaseStoreService signatureQueryParams].cold.1
++ +[IMLogCategory accessibility].cold.1
++ +[IMLogCategory defaultCategory].cold.1
++ +[IMLogCategory imageCache].cold.1
++ +[IMLogCategory player].cold.1
++ +[IMMetricsController queue].cold.1
++ +[IMNetworkObserver _networkObserverLogConfig].cold.1
++ +[MTAdvancedPlaybackSettings insertNewAdvancedPlaybackSettingsOnPodcast:playbackSettingsAdjustedCount:]
++ +[MTAdvancedPlaybackSettings insertNewAdvancedPlaybackSettingsOnPodcast:playbackSettingsAdjustedCount:tipLastShownDate:]
++ +[MTDBExtensionAccess sharedInstance].cold.1
++ +[MTEpisode(NSPredicate) predicateForNewsFromYourShows:ctx:]
++ +[MTEpisodeLookupUtil sharedInstance].cold.1
++ +[MTPodcast(NSPredicate) episodeLimitsAllowingAutomaticDownloads].cold.1
++ +[MTSingleton sharedInstance].cold.1
++ +[NSBundle(PFAdditions) podcastsFoundationBundle].cold.1
++ +[NSDate(MTAdditions) dayOfWeekFromDate:abbreviated:].cold.1
++ +[NSDate(MTAdditions) dayOfWeekFromDate:abbreviated:].cold.2
++ +[NSDate(MTAdditions) mt_dateFormatterJustYear].cold.1
++ +[NSDate(MTAdditions) mt_dateFormatterNoDayWithYear].cold.1
++ +[NSDate(MTAdditions) mt_dateFormatterNoYearAbbrevMonth].cold.1
++ +[NSDate(MTAdditions) mt_dateFormatterNoYear].cold.1
++ +[NSDate(MTAdditions) mt_dateFormatterRelativeDay].cold.1
++ +[NSDate(MTAdditions) mt_dateFormatterShortStyleWithYear].cold.1
++ +[NSDate(MTAdditions) mt_dateFormatterWithYear].cold.1
++ +[NSDate(MTAdditions) mt_lessVerboseDateFormatter].cold.1
++ +[NSDate(MTAdditions) mt_verboseDateFormatter].cold.1
++ +[NSString(MTAdditions) mt_isEnglish].cold.1
++ +[NSString(MTAdditions) mt_isJapanese].cold.1
++ +[NSString(MTAdditions) stringWithDuration:unitsStyle:includeTimeRemainingPhrase:].cold.1
++ +[NSUserDefaults(MTAdditions) _applePodcastsFoundationSharedUserDefaults].cold.1
++ +[PFAutoBugCaptureBugReporter sharedInstance].cold.1
++ +[PFClientUtil bagProfileName].cold.1
++ +[PFClientUtil isRunningOnHomepod].cold.1
++ +[PFClientUtil isRunningOnInternalOS].cold.1
++ +[PFClientUtil isRunningOnVisionOS].cold.1
++ +[PFClientUtil isRunningOnWatch].cold.1
++ +[PFClientUtil isUnitTesting]
++ +[PFClientUtil mediaApiClientIdentifier].cold.1
++ +[PFClientUtil supportsLocalLibrary].cold.1
++ +[PFClientUtil supportsShowLockup]
++ -[IMAVSecureKeyLoader initWithRecipient:useCase:account:urlProtocolDelegate:].cold.1
++ -[IMLogger logString:].cold.1
++ -[IMPodcastParser rssParser:didStartElement:namespaceURI:qualifiedName:attributes:].cold.1
++ -[IMPodcastParser rssParser:didStartElement:namespaceURI:qualifiedName:attributes:].cold.2
++ -[IMPodcastParser rssParser:didStartElement:namespaceURI:qualifiedName:attributes:].cold.3
++ -[IMPodcastParser rssParser:didStartElement:namespaceURI:qualifiedName:attributes:].cold.4
++ -[IMPodcastParser rssParser:didStartElement:namespaceURI:qualifiedName:attributes:].cold.5
++ -[MTManagedObjectContext name]
++ -[MTPodcast(Core) _fetchRequestForDistinctSeasons]
++ -[MTPodcast(Core) playbackRateResolvedValue]
++ -[MTPodcast(Core) seasonNumbers]
++ -[MTPodcast(PFDB) seasonTrailerInSeason:]
++ -[MTPodcast(PFDB) smartPlayEpisode]
++ -[NSDate(MTAdditions) timeString].cold.1
++ -[NSError(MTAdditions) isFileCorruptError]
++ -[NSError(MTAdditions) isMissingFileError]
++ -[NSString(IMAdditions) hasHTML].cold.1
++ -[PFAutoBugCaptureBugReporter canSubmitNewReport:withMinimumElapsedTime:].cold.1
++ -[PFAutoBugCaptureBugReporter submitBugReport:userInfo:withMaximumSubmissionCadence:].cold.1
++ GCC_except_table140
++ GCC_except_table144
++ GCC_except_table20
++ GCC_except_table54
++ MTDisplayTypeToPersistentStringMap_inverted.cold.1
++ MTEpisodeContextSortTypeToPersistentStringMap_inverted.cold.1
++ MTEpisodeContextToPersistentStringMap_inverted.cold.1
++ MTEpisodePriceTypeToPersistentStringMap_inverted.cold.1
++ MTPlayReasonToPersistentStringMap_inverted.cold.1
++ _AFDeviceSupportsSiriUOD
++ _AFShouldRunAsrOnServerForUOD
++ _AVFoundationErrorDomain
++ _CGImageSourceCreateImageAtIndex
++ _CGImageSourceCreateWithData
++ _ICKeyServerErrorDomain
++ _MSVDeviceIsWatch
++ _MSVGetDeviceHardwarePlatform
++ _MTDidFinishFeedUpdateNotification
++ _MTDidUpdateArtworkNotification
++ _MTDidUpdatePlaylistsNotification
++ _MTLCreateSystemDefaultDevice
++ _MTPreferredArtworkSize
++ _MTPreferredUberArtworkSize
++ _NSFilePathErrorKey
++ _NSHomeDirectory
++ _NSHomeDirectoryForUser
++ _NSURLErrorDomain
++ _OBJC_CLASS_$_MTAdvancedPlaybackSettings
++ _OBJC_CLASS_$_MTChapter
++ _OBJC_CLASS_$_PFObjCCachingImageContentProviderBridge
++ _OBJC_CLASS_$__TtC18PodcastsFoundation21_UserDefaultsObserver
++ _OBJC_METACLASS_$_MTAdvancedPlaybackSettings
++ _OBJC_METACLASS_$_MTChapter
++ _OBJC_METACLASS_$_PFObjCCachingImageContentProviderBridge
++ _OBJC_METACLASS_$__TtC18PodcastsFoundation21_UserDefaultsObserver
++ _OUTLINED_FUNCTION_0
++ _PROTOCOLS_MTBaseFeedRequest.14
++ _PROTOCOLS__TtC18PodcastsFoundation16BaseFeedResponse.21
++ _UTTypeVideo
++ __CLASS_METHODS_PFObjCCachingImageContentProviderBridge
++ __DATA_MTChapter
++ __DATA_PFObjCCachingImageContentProviderBridge
++ __DATA__TtC18PodcastsFoundation17PodcastsURLScheme
++ __DATA__TtC18PodcastsFoundation18PodcastsURLCommand
++ __DATA__TtC18PodcastsFoundation21_UserDefaultsObserver
++ __DATA__TtC18PodcastsFoundation22PodcastsURLOpenCommand
++ __DATA__TtC18PodcastsFoundation22PodcastsURLPlayCommand
++ __DATA__TtC18PodcastsFoundation22PodcastsURLShowCommand
++ __DATA__TtC18PodcastsFoundation25PodcastsURLEpisodeCommand
++ __DATA__TtC18PodcastsFoundation28PodcastsURLNowPlayingCommand
++ __DATA__TtCC18PodcastsFoundation17PodcastsURLSchemeP33_A8198395E84B6F2DDADADF43B2890AED5Param
++ __DATA__TtCC18PodcastsFoundation17PodcastsURLSchemeP33_A8198395E84B6F2DDADADF43B2890AED7Command
++ __INSTANCE_METHODS_MTChapter
++ __INSTANCE_METHODS_PFObjCCachingImageContentProviderBridge
++ __INSTANCE_METHODS__TtC18PodcastsFoundation21_UserDefaultsObserver
++ __IVARS_PFObjCCachingImageContentProviderBridge
++ __IVARS__TtC18PodcastsFoundation21_UserDefaultsObserver
++ __IVARS__TtC18PodcastsFoundation22UserDefaultsObservable
++ __IVARS__TtC18PodcastsFoundation25PodcastsURLEpisodeCommand
++ __METACLASS_DATA_MTChapter
++ __METACLASS_DATA_PFObjCCachingImageContentProviderBridge
++ __METACLASS_DATA__TtC18PodcastsFoundation17PodcastsURLScheme
++ __METACLASS_DATA__TtC18PodcastsFoundation18PodcastsURLCommand
++ __METACLASS_DATA__TtC18PodcastsFoundation21_UserDefaultsObserver
++ __METACLASS_DATA__TtC18PodcastsFoundation22PodcastsURLOpenCommand
++ __METACLASS_DATA__TtC18PodcastsFoundation22PodcastsURLPlayCommand
++ __METACLASS_DATA__TtC18PodcastsFoundation22PodcastsURLShowCommand
++ __METACLASS_DATA__TtC18PodcastsFoundation25PodcastsURLEpisodeCommand
++ __METACLASS_DATA__TtC18PodcastsFoundation28PodcastsURLNowPlayingCommand
++ __METACLASS_DATA__TtCC18PodcastsFoundation17PodcastsURLSchemeP33_A8198395E84B6F2DDADADF43B2890AED5Param
++ __METACLASS_DATA__TtCC18PodcastsFoundation17PodcastsURLSchemeP33_A8198395E84B6F2DDADADF43B2890AED7Command
++ __OBJC_$_CLASS_METHODS_MTAdvancedPlaybackSettings
++ __OBJC_$_PROP_LIST_MTAdvancedPlaybackSettings
++ __OBJC_CLASS_RO_$_MTAdvancedPlaybackSettings
++ __OBJC_METACLASS_RO_$_MTAdvancedPlaybackSettings
++ ___32-[MTPodcast(Core) seasonNumbers]_block_invoke
++ ___41-[MTPodcast(PFDB) seasonTrailerInSeason:]_block_invoke
++ ___55-[MTManagedObjectContext initWithConcurrencyType:name:]_block_invoke
++ ___60+[MTEpisode(NSPredicate) predicateForNewsFromYourShows:ctx:]_block_invoke
++ ___block_descriptor_72_e8_32s40s48s56r_e5_v8?0l
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ ___swift_memcpy133_8
++ ___swift_memcpy85_8
++ ___swift_project_boxed_opaque_existential_0Tm
++ __block_literal_global.363
++ __block_literal_global.441
++ __block_literal_global.495
++ __block_literal_global.521
++ __block_literal_global.538
++ __swift_FORCE_LOAD_$_swiftAccelerate
++ __swift_FORCE_LOAD_$_swiftAccelerate_$_PodcastsFoundation
++ _associated conformance 18PodcastsFoundation0A8PlaybackO11PlayerErrorOSHAASQ
++ _associated conformance 18PodcastsFoundation0A8PlaybackO13FairPlayErrorOSHAASQ
++ _associated conformance 18PodcastsFoundation0A8PlaybackO16PlayChapterErrorOSHAASQ
++ _associated conformance 18PodcastsFoundation14PlaybackIntentV0cD5ErrorOSHAASQ
++ _associated conformance 18PodcastsFoundation14PlaybackIntentV6OptionO0C17AccountCodingKeys33_3120B52605701ACB05915E2731DF14ADLLOSHAASQ
++ _associated conformance 18PodcastsFoundation14PlaybackIntentV6OptionO0C17AccountCodingKeys33_3120B52605701ACB05915E2731DF14ADLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation14PlaybackIntentV6OptionO0C17AccountCodingKeys33_3120B52605701ACB05915E2731DF14ADLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation14PlaybackIntentV6OriginO10CodingKeys33_3120B52605701ACB05915E2731DF14ADLLOSHAASQ
++ _associated conformance 18PodcastsFoundation14PlaybackIntentV6OriginO10CodingKeys33_3120B52605701ACB05915E2731DF14ADLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation14PlaybackIntentV6OriginO10CodingKeys33_3120B52605701ACB05915E2731DF14ADLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation14PlaybackIntentV6OriginO16UpNextCodingKeys33_3120B52605701ACB05915E2731DF14ADLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation14PlaybackIntentV6OriginO16UpNextCodingKeys33_3120B52605701ACB05915E2731DF14ADLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation14PlaybackIntentV6OriginO17DefaultCodingKeys33_3120B52605701ACB05915E2731DF14ADLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation14PlaybackIntentV6OriginO17DefaultCodingKeys33_3120B52605701ACB05915E2731DF14ADLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation14PlaybackIntentV6OriginO19SmartPlayCodingKeys33_3120B52605701ACB05915E2731DF14ADLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation14PlaybackIntentV6OriginO19SmartPlayCodingKeys33_3120B52605701ACB05915E2731DF14ADLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation14PlaybackIntentV6OriginO20EndOfQueueCodingKeys33_3120B52605701ACB05915E2731DF14ADLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation14PlaybackIntentV6OriginO20EndOfQueueCodingKeys33_3120B52605701ACB05915E2731DF14ADLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation14PlaybackIntentV6OriginOSHAASQ
++ _associated conformance 18PodcastsFoundation14PlaybackIntentV7ContextV10CodingKeys33_3120B52605701ACB05915E2731DF14ADLLOSHAASQ
++ _associated conformance 18PodcastsFoundation14PlaybackIntentV7ContextV10CodingKeys33_3120B52605701ACB05915E2731DF14ADLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation14PlaybackIntentV7ContextV10CodingKeys33_3120B52605701ACB05915E2731DF14ADLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation15EpisodeListTypeO27NewsFromYourShowsCodingKeys33_AA5AA3F2CD4084C263FF51EE4126F543LLOSHAASQ
++ _associated conformance 18PodcastsFoundation15EpisodeListTypeO27NewsFromYourShowsCodingKeys33_AA5AA3F2CD4084C263FF51EE4126F543LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation15EpisodeListTypeO27NewsFromYourShowsCodingKeys33_AA5AA3F2CD4084C263FF51EE4126F543LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation15HashableIgnoredVyxGSHAASQ
++ _associated conformance 18PodcastsFoundation15UserDefaultsKeyVyxGSHAASQ
++ _associated conformance 18PodcastsFoundation18NeverSessionSourceV0C10FetchErrorOyx_GSHAASQ
++ _associated conformance 18PodcastsFoundation18NeverSessionSourceVyxGAA05AssetE0AA13PublisherTypeAaEP_7Combine0G0
++ _associated conformance 18PodcastsFoundation19DatabaseAccessErrorOSHAASQ
++ _associated conformance 18PodcastsFoundation19EpisodeListSettingsV19InitialItemBehaviorO011TrimHeadAndfG10CodingKeys33_D629700317CD189651F12FE018CC79EDLLOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation19EpisodeListSettingsV19InitialItemBehaviorO011TrimHeadAndfG10CodingKeys33_D629700317CD189651F12FE018CC79EDLLOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation19EpisodeListSettingsV19InitialItemBehaviorO10CodingKeys33_D629700317CD189651F12FE018CC79EDLLOSHAASQ
++ _associated conformance 18PodcastsFoundation19EpisodeListSettingsV19InitialItemBehaviorO10CodingKeys33_D629700317CD189651F12FE018CC79EDLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation19EpisodeListSettingsV19InitialItemBehaviorO10CodingKeys33_D629700317CD189651F12FE018CC79EDLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation19EpisodeListSettingsV19InitialItemBehaviorO17PromoteCodingKeys33_D629700317CD189651F12FE018CC79EDLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation19EpisodeListSettingsV19InitialItemBehaviorO17PromoteCodingKeys33_D629700317CD189651F12FE018CC79EDLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation19EpisodeListSettingsV19InitialItemBehaviorO18TrimHeadCodingKeys33_D629700317CD189651F12FE018CC79EDLLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation19EpisodeListSettingsV19InitialItemBehaviorO18TrimHeadCodingKeys33_D629700317CD189651F12FE018CC79EDLLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation19InMemoryStateDomainOSHAASQ
++ _associated conformance 18PodcastsFoundation20WidgetNowPlayingInfoV10CodingKeys33_2ACF52C94A29FA9B23E12180CBA29202LLOSHAASQ
++ _associated conformance 18PodcastsFoundation20WidgetNowPlayingInfoV10CodingKeys33_2ACF52C94A29FA9B23E12180CBA29202LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation20WidgetNowPlayingInfoV10CodingKeys33_2ACF52C94A29FA9B23E12180CBA29202LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation20WidgetNowPlayingInfoVSHAASQ
++ _associated conformance 18PodcastsFoundation21PlaybackErrorBehaviorO4RoleOSHAASQ
++ _associated conformance 18PodcastsFoundation21_UserDefaultsObserverC5State33_1548496CDF09324C021859690EC969E0LLOSHAASQ
++ _associated conformance 18PodcastsFoundation37ObjCCachingImageContentProviderBridgeC07CachingfH5ErrorOSHAASQ
++ _associated conformance 18PodcastsFoundation9MTChapterC10FieldNamesOSHAASQ
++ _associated conformance 18PodcastsFoundation9MTChapterC11ChapterTypeOSHAASQ
++ _associated conformance 18PodcastsFoundation9MTChapterC11ChapterTypeOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance So13NSFileManagerC18PodcastsFoundationE17DirectoryContentsVSTAC8IteratorST_St
++ _generic environment l
++ _kAdvPlaybackSettingsHasCustomSettings
++ _kAdvPlaybackSettingsPlaybackRate
++ _kAdvPlaybackSettingsPlaybackSettingsAdjustedCount
++ _kAdvPlaybackSettingsTipLastShownDate
++ _kBagKeySignupURL
++ _kEpisodeChapters
++ _kMTAdvancedPlaybackSettingsEnhancedDialogueEnabledKey
++ _kMTAdvancedPlaybackSettingsEntityName
++ _kMTAdvancedPlaybackSettingsSkipSilenceEnabledKey
++ _kMTPodcastUsesGlobalPlaybackRate
++ _keypath_get_selector_artworkHeight
++ _keypath_get_selector_artworkWidth
++ _keypath_get_selector_episode
++ _keypath_get_selector_episodeAdamID
++ _keypath_get_selector_startTime
++ _keypath_get_selector_title
++ _objc_msgSend$_fetchRequestForDistinctSeasons
++ _objc_msgSend$advancedPlaybackSettings
++ _objc_msgSend$bagForProfile:profileVersion:processInfo:
++ _objc_msgSend$hasCustomSettings
++ _objc_msgSend$isFileCorruptError
++ _objc_msgSend$playbackRate
++ _objc_msgSend$predicateForSeasonNumberWithNoEpisodeNumber:
++ _objc_msgSend$seasonTrailerInSeason:
++ _objc_msgSend$setAdvancedPlaybackSettings:
++ _objc_msgSend$setPlaybackRate:
++ _objc_msgSend$setPlaybackSettingsAdjustedCount:
++ _objc_msgSend$setTipLastShownDate:
++ _symbolic $s18PodcastsFoundation13PlaybackErrorP
++ _symbolic $s18PodcastsFoundation21PlaybackErrorBehaviorO19ButtonRepresentableP
++ _symbolic $s18PodcastsFoundation25PlaybackErrorTransformingP
++ _symbolic $s18PodcastsFoundation25UserDefaultsRepresentableP
++ _symbolic $s18PodcastsFoundation31InMemoryStateNetworkingProtocolP
++ _symbolic $sST
++ _symbolic $sSt
++ _symbolic 18UserDefaultsObject_____Qz 18PodcastsFoundation25UserDefaultsRepresentableP
++ _symbolic 7ElementSciQyd__
++ _symbolic 7ElementSciQz
++ _symbolic 7FailureSciQyd__
++ _symbolic 7FailureSciQz
++ _symbolic SDy_____Say_____GG 18PodcastsFoundation12MediaRequestC11ContentTypeO AC5FieldO
++ _symbolic SN
++ _symbolic Sa
++ _symbolic Say_____G 12CoreGraphics7CGFloatV
++ _symbolic Say_____G 18PodcastsFoundation20PodcastDonationModelV
++ _symbolic Say_____G 18PodcastsFoundation20StationDonationModelV
++ _symbolic Say_____G 18PodcastsFoundation9MTChapterC11ChapterTypeO
++ _symbolic Say_____G8podcasts_Say_____G8stationstSg 18PodcastsFoundation20PodcastDonationModelV AA07StationdE0V
++ _symbolic Say_____GSay_____GIeggg_ 18PodcastsFoundation20PodcastDonationModelV AA07StationdE0V
++ _symbolic Say______pG 18PodcastsFoundation21PlaybackErrorBehaviorO19ButtonRepresentableP
++ _symbolic Say______pG 18PodcastsFoundation25PlaybackErrorTransformingP
++ _symbolic ScSyxSgG
++ _symbolic SccySo17CCFullSetDonationC______pG s5ErrorP
++ _symbolic SccySo8NSNumberC_Sbt______pG s5ErrorP
++ _symbolic Sccy___________pG 18PodcastsFoundation23AnalyticsUserIdentifierC s5ErrorP
++ _symbolic Sh
++ _symbolic So12NSURLSessionCIego_
++ _symbolic So13NSFileManagerC
++ _symbolic So15NSDateFormatterC
++ _symbolic So21NSDirectoryEnumeratorCSg
++ _symbolic So22NSManagedObjectContextCIego_
++ _symbolic So22NSManagedObjectContextCSg
++ _symbolic So22NSManagedObjectContextCSgz_Xx
++ _symbolic So5NSURLCSgSo7NSErrorCSgIeyByy_
++ _symbolic So6NSDataC
++ _symbolic So6NSDateC
++ _symbolic So8NSStringC3key______y___________G5valuet 18PodcastsFoundation18InMemoryAssetCacheC6Record33_EDFE0E5AFCFF527923F56A869BF5F444LLC AA14ArtworkRequestV AA0O7ContentO
++ _symbolic So9MTEpisodeCxIggr_
++ _symbolic So9MTPodcastC
++ _symbolic Sq
++ _symbolic _____ 11Observation0A9RegistrarV
++ _symbolic _____ 18PodcastsFoundation0A10URLCommandC
++ _symbolic _____ 18PodcastsFoundation0A14URLOpenCommandC
++ _symbolic _____ 18PodcastsFoundation0A14URLPlayCommandC
++ _symbolic _____ 18PodcastsFoundation0A14URLShowCommandC
++ _symbolic _____ 18PodcastsFoundation0A17URLEpisodeCommandC
++ _symbolic _____ 18PodcastsFoundation0A20URLEpisodeParametersV
++ _symbolic _____ 18PodcastsFoundation0A20URLNowPlayingCommandC
++ _symbolic _____ 18PodcastsFoundation0A8PlaybackO
++ _symbolic _____ 18PodcastsFoundation0A8PlaybackO11PlayerErrorO
++ _symbolic _____ 18PodcastsFoundation0A8PlaybackO13FairPlayErrorO
++ _symbolic _____ 18PodcastsFoundation0A8PlaybackO15ValidationErrorO
++ _symbolic _____ 18PodcastsFoundation0A8PlaybackO16PlayChapterErrorO
++ _symbolic _____ 18PodcastsFoundation0A9URLSchemeC
++ _symbolic _____ 18PodcastsFoundation0A9URLSchemeC5Param33_A8198395E84B6F2DDADADF43B2890AEDLLC
++ _symbolic _____ 18PodcastsFoundation0A9URLSchemeC7Command33_A8198395E84B6F2DDADADF43B2890AEDLLC
++ _symbolic _____ 18PodcastsFoundation14PlaybackIntentV0cD5ErrorO
++ _symbolic _____ 18PodcastsFoundation14PlaybackIntentV6OptionO0C17AccountCodingKeys33_3120B52605701ACB05915E2731DF14ADLLO
++ _symbolic _____ 18PodcastsFoundation14PlaybackIntentV6OriginO
++ _symbolic _____ 18PodcastsFoundation14PlaybackIntentV6OriginO10CodingKeys33_3120B52605701ACB05915E2731DF14ADLLO
++ _symbolic _____ 18PodcastsFoundation14PlaybackIntentV6OriginO16UpNextCodingKeys33_3120B52605701ACB05915E2731DF14ADLLO
++ _symbolic _____ 18PodcastsFoundation14PlaybackIntentV6OriginO17DefaultCodingKeys33_3120B52605701ACB05915E2731DF14ADLLO
++ _symbolic _____ 18PodcastsFoundation14PlaybackIntentV6OriginO19SmartPlayCodingKeys33_3120B52605701ACB05915E2731DF14ADLLO
++ _symbolic _____ 18PodcastsFoundation14PlaybackIntentV6OriginO20EndOfQueueCodingKeys33_3120B52605701ACB05915E2731DF14ADLLO
++ _symbolic _____ 18PodcastsFoundation14PlaybackIntentV7ContextV
++ _symbolic _____ 18PodcastsFoundation14PlaybackIntentV7ContextV10CodingKeys33_3120B52605701ACB05915E2731DF14ADLLO
++ _symbolic _____ 18PodcastsFoundation15EpisodeListTypeO27NewsFromYourShowsCodingKeys33_AA5AA3F2CD4084C263FF51EE4126F543LLO
++ _symbolic _____ 18PodcastsFoundation15HashableIgnoredV
++ _symbolic _____ 18PodcastsFoundation15UserDefaultsKeyV
++ _symbolic _____ 18PodcastsFoundation15WidgetConstantsO
++ _symbolic _____ 18PodcastsFoundation16EquatableIgnoredV
++ _symbolic _____ 18PodcastsFoundation18NeverSessionSourceV
++ _symbolic _____ 18PodcastsFoundation18NeverSessionSourceV0C10FetchErrorO
++ _symbolic _____ 18PodcastsFoundation19DatabaseAccessErrorO
++ _symbolic _____ 18PodcastsFoundation19EpisodeListSettingsV19InitialItemBehaviorO011TrimHeadAndfG10CodingKeys33_D629700317CD189651F12FE018CC79EDLLO
++ _symbolic _____ 18PodcastsFoundation19EpisodeListSettingsV19InitialItemBehaviorO10CodingKeys33_D629700317CD189651F12FE018CC79EDLLO
++ _symbolic _____ 18PodcastsFoundation19EpisodeListSettingsV19InitialItemBehaviorO17PromoteCodingKeys33_D629700317CD189651F12FE018CC79EDLLO
++ _symbolic _____ 18PodcastsFoundation19EpisodeListSettingsV19InitialItemBehaviorO18TrimHeadCodingKeys33_D629700317CD189651F12FE018CC79EDLLO
++ _symbolic _____ 18PodcastsFoundation19InMemoryStateDomainO
++ _symbolic _____ 18PodcastsFoundation19MPCErrorTransformerV
++ _symbolic _____ 18PodcastsFoundation20WidgetNowPlayingInfoV
++ _symbolic _____ 18PodcastsFoundation20WidgetNowPlayingInfoV10CodingKeys33_2ACF52C94A29FA9B23E12180CBA29202LLO
++ _symbolic _____ 18PodcastsFoundation21NSURLErrorTransformerV
++ _symbolic _____ 18PodcastsFoundation21PlaybackErrorBehaviorO
++ _symbolic _____ 18PodcastsFoundation21PlaybackErrorBehaviorO4RoleO
++ _symbolic _____ 18PodcastsFoundation21PlaybackErrorBehaviorO6ButtonV
++ _symbolic _____ 18PodcastsFoundation21PlaybackErrorBehaviorO6DialogV
++ _symbolic _____ 18PodcastsFoundation21_UserDefaultsObserverC
++ _symbolic _____ 18PodcastsFoundation21_UserDefaultsObserverC5State33_1548496CDF09324C021859690EC969E0LLO
++ _symbolic _____ 18PodcastsFoundation22UserDefaultsObservableC
++ _symbolic _____ 18PodcastsFoundation23ReachabilityTransformerV
++ _symbolic _____ 18PodcastsFoundation24FairPlayErrorTransformerV
++ _symbolic _____ 18PodcastsFoundation24PlaybackErrorTransformerV
++ _symbolic _____ 18PodcastsFoundation24UniformBucketingStrategyV
++ _symbolic _____ 18PodcastsFoundation25InMemoryEpisodeStateModelV
++ _symbolic _____ 18PodcastsFoundation28AVFoundationErrorTransformerV
++ _symbolic _____ 18PodcastsFoundation28EndOfQueueEpisodeListBuilderV
++ _symbolic _____ 18PodcastsFoundation32AbbreviatedTimeIntervalFormatterO13ComputedStyleO
++ _symbolic _____ 18PodcastsFoundation37ObjCCachingImageContentProviderBridgeC
++ _symbolic _____ 18PodcastsFoundation37ObjCCachingImageContentProviderBridgeC07CachingfH5ErrorO
++ _symbolic _____ 18PodcastsFoundation9MTChapterC
++ _symbolic _____ 18PodcastsFoundation9MTChapterC10FieldNamesO
++ _symbolic _____ 18PodcastsFoundation9MTChapterC11ChapterTypeO
++ _symbolic _____ 6System8FilePathV
++ _symbolic _____ So13NSFileManagerC18PodcastsFoundationE17DirectoryContentsV
++ _symbolic _____ So13NSFileManagerC18PodcastsFoundationE25DirectoryContentsIteratorV
++ _symbolic _____3key______5valuet 18PodcastsFoundation6AdamIDV AA25InMemoryEpisodeStateModelV
++ _symbolic _____Sg 10Foundation6LocaleV
++ _symbolic _____Sg 18PodcastsFoundation20WidgetNowPlayingInfoV
++ _symbolic _____Sg 18PodcastsFoundation21_UserDefaultsObserverC
++ _symbolic _____Sg 18PodcastsFoundation27FeedManagerBagConfigurationV
++ _symbolic _____Sg 18PodcastsFoundation9ContentIDO
++ _symbolic _____Sg 6System8FilePathV4RootV
++ _symbolic _____SgIeghn_ 18PodcastsFoundation14PlaybackIntentV
++ _symbolic _____Sg_ABt 6System8FilePathV4RootV
++ _symbolic ______AAt 18PodcastsFoundation0A8PlaybackO15ValidationErrorO
++ _symbolic ______AAt 18PodcastsFoundation14PlaybackIntentV16PlayerConstraintO
++ _symbolic ______Sdt 18PodcastsFoundation8TimeSpanO
++ _symbolic ______p 18PodcastsFoundation13PlaybackErrorP
++ _symbolic ______p 18PodcastsFoundation31InMemoryStateNetworkingProtocolP
++ _symbolic ______pSg 18PodcastsFoundation13PlaybackErrorP
++ _symbolic _____y5Asset_____Qz______pG 7Combine4FailV 18PodcastsFoundation22FileBasedAssetLocationP s5ErrorP
++ _symbolic _____ySay_____G8podcasts_Say_____G8stationst______pGIegg_ s6ResultOsRi_zrlE 18PodcastsFoundation20PodcastDonationModelV AC07StationeF0V s5ErrorP
++ _symbolic _____yScSyxSgGxG s16AsyncMapSequenceV
++ _symbolic _____ySo8NSStringC3key______y___________G5valuetG s23_ContiguousArrayStorageC 18PodcastsFoundation18InMemoryAssetCacheC6Record33_EDFE0E5AFCFF527923F56A869BF5F444LLC AC14ArtworkRequestV AC0R7ContentO
++ _symbolic _____y_____G 18PodcastsFoundation18NeverSessionSourceV AA14ArtworkRequestV
++ _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 18PodcastsFoundation21_UserDefaultsObserverC5State33_1548496CDF09324C021859690EC969E0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation14PlaybackIntentV6OptionO0F17AccountCodingKeys33_3120B52605701ACB05915E2731DF14ADLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation14PlaybackIntentV6OriginO10CodingKeys33_3120B52605701ACB05915E2731DF14ADLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation14PlaybackIntentV6OriginO16UpNextCodingKeys33_3120B52605701ACB05915E2731DF14ADLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation14PlaybackIntentV6OriginO17DefaultCodingKeys33_3120B52605701ACB05915E2731DF14ADLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation14PlaybackIntentV6OriginO19SmartPlayCodingKeys33_3120B52605701ACB05915E2731DF14ADLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation14PlaybackIntentV6OriginO20EndOfQueueCodingKeys33_3120B52605701ACB05915E2731DF14ADLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation14PlaybackIntentV7ContextV10CodingKeys33_3120B52605701ACB05915E2731DF14ADLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation15EpisodeListTypeO27NewsFromYourShowsCodingKeys33_AA5AA3F2CD4084C263FF51EE4126F543LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation19EpisodeListSettingsV19InitialItemBehaviorO011TrimHeadAndiJ10CodingKeys33_D629700317CD189651F12FE018CC79EDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation19EpisodeListSettingsV19InitialItemBehaviorO10CodingKeys33_D629700317CD189651F12FE018CC79EDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation19EpisodeListSettingsV19InitialItemBehaviorO17PromoteCodingKeys33_D629700317CD189651F12FE018CC79EDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation19EpisodeListSettingsV19InitialItemBehaviorO18TrimHeadCodingKeys33_D629700317CD189651F12FE018CC79EDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation20WidgetNowPlayingInfoV10CodingKeys33_2ACF52C94A29FA9B23E12180CBA29202LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation14PlaybackIntentV6OptionO0F17AccountCodingKeys33_3120B52605701ACB05915E2731DF14ADLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation14PlaybackIntentV6OriginO10CodingKeys33_3120B52605701ACB05915E2731DF14ADLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation14PlaybackIntentV6OriginO16UpNextCodingKeys33_3120B52605701ACB05915E2731DF14ADLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation14PlaybackIntentV6OriginO17DefaultCodingKeys33_3120B52605701ACB05915E2731DF14ADLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation14PlaybackIntentV6OriginO19SmartPlayCodingKeys33_3120B52605701ACB05915E2731DF14ADLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation14PlaybackIntentV6OriginO20EndOfQueueCodingKeys33_3120B52605701ACB05915E2731DF14ADLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation14PlaybackIntentV7ContextV10CodingKeys33_3120B52605701ACB05915E2731DF14ADLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation15EpisodeListTypeO27NewsFromYourShowsCodingKeys33_AA5AA3F2CD4084C263FF51EE4126F543LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation19EpisodeListSettingsV19InitialItemBehaviorO011TrimHeadAndiJ10CodingKeys33_D629700317CD189651F12FE018CC79EDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation19EpisodeListSettingsV19InitialItemBehaviorO10CodingKeys33_D629700317CD189651F12FE018CC79EDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation19EpisodeListSettingsV19InitialItemBehaviorO17PromoteCodingKeys33_D629700317CD189651F12FE018CC79EDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation19EpisodeListSettingsV19InitialItemBehaviorO18TrimHeadCodingKeys33_D629700317CD189651F12FE018CC79EDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation20WidgetNowPlayingInfoV10CodingKeys33_2ACF52C94A29FA9B23E12180CBA29202LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12CoreGraphics7CGFloatV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 18PodcastsFoundation14ArtworkRequestV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 18PodcastsFoundation20PodcastDonationModelV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 18PodcastsFoundation20StationDonationModelV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 6System8FilePathV
++ _symbolic _____y_____Say_____GG s18_DictionaryStorageC 18PodcastsFoundation12MediaRequestC11ContentTypeO AE5FieldO
++ _symbolic _____y______G 18PodcastsFoundation18NeverSessionSourceV0C10FetchErrorO AA14ArtworkRequestV
++ _symbolic _____y__________G s13ManagedBufferCsRi__rlE 18PodcastsFoundation21_UserDefaultsObserverC5State33_1548496CDF09324C021859690EC969E0LLO So16os_unfair_lock_sV
++ _symbolic _____y___________G 18PodcastsFoundation18InMemoryAssetCacheC6Record33_EDFE0E5AFCFF527923F56A869BF5F444LLC AA14ArtworkRequestV AA0O7ContentO
++ _symbolic _____y___________pG 7Combine4FailV 18PodcastsFoundation14ArtworkContentO s5ErrorP
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 18PodcastsFoundation21PlaybackErrorBehaviorO19ButtonRepresentableP
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 18PodcastsFoundation25PlaybackErrorTransformingP
++ _symbolic _____y______yShySSG______pG_____y______y_AAy_AE_____y_AAy______yAC_____GAFy_ABySbAJGSo17OS_dispatch_queueCGGAD_pGGGANGG 7Combine10PublishersO7FlatMapV AA6FutureC s5ErrorP AC9ReceiveOnV AC6FilterV AC14SetFailureTypeV AA12AnyPublisherV s5NeverO
++ _symbolic _____y______y______yShySSG______pG_____y_AAy_ABy_AF_____y_ABy______yAD_____GAGy_ACySbAJGSo17OS_dispatch_queueCGGAE_pGGGANGGG 7Combine10PublishersO6FilterV AC7FlatMapV AA6FutureC s5ErrorP AC9ReceiveOnV AC14SetFailureTypeV AA12AnyPublisherV s5NeverO
++ _symbolic _____y______y______yShySSG______pG_____y_ABy______yAD_____G_____y_ACySbAIGSo17OS_dispatch_queueCGGAE_pGGG 7Combine10PublishersO6FilterV AC7FlatMapV AA6FutureC s5ErrorP AC14SetFailureTypeV AA12AnyPublisherV s5NeverO AC9ReceiveOnV
++ _symbolic _____y______y______y______yShySSG______pGAAy_ABy_ACy_AG_____y_ACy______yAE_____GAAy_ADySbAJGSo17OS_dispatch_queueCGGAF_pGGGANGGGANG 7Combine10PublishersO9ReceiveOnV AC6FilterV AC7FlatMapV AA6FutureC s5ErrorP AC14SetFailureTypeV AA12AnyPublisherV s5NeverO
++ _symbolic _____y______y______y______yShySSG______pG_____y_ACy______yAE_____GAAy_ADySbAJGSo17OS_dispatch_queueCGGAF_pGGGANG 7Combine10PublishersO9ReceiveOnV AC6FilterV AC7FlatMapV AA6FutureC s5ErrorP AC14SetFailureTypeV AA12AnyPublisherV s5NeverO
++ _symbolic _____y______y______y______y______yShySSG______pGABy_ACy_ADy_AH_____y_ADy______yAF_____GABy_AEySbAKGSo17OS_dispatch_queueCGGAG_pGGGAOGGGAOGytG 7Combine10PublishersO3MapV AC9ReceiveOnV AC6FilterV AC04FlatC0V AA6FutureC s5ErrorP AC14SetFailureTypeV AA12AnyPublisherV s5NeverO
++ _symbolic _____yqd__G 18PodcastsFoundation15UserDefaultsKeyV
++ _symbolic _____yxG 18PodcastsFoundation15UserDefaultsKeyV
++ _symbolic _____yxG 18PodcastsFoundation22UserDefaultsObservableC
++ _symbolic _____yxGSgXw 18PodcastsFoundation22UserDefaultsObservableC
++ _symbolic _____yxGSgXwz_x_lXX 18PodcastsFoundation22UserDefaultsObservableC
++ _symbolic _____yxSg_G ScS12ContinuationV
++ _symbolic xIeAgHr_
++ _symbolic x______pIeAgHrzo_ s5ErrorP
++ _symbolic xxYbc
++ _symbolic yxYbc
++ block_copy_helper.41
++ block_copy_helper.61
++ block_copy_helper.62
++ block_copy_helper.74
++ block_copy_helper.82
++ block_descriptor.43
++ block_descriptor.63
++ block_descriptor.64
++ block_descriptor.76
++ block_descriptor.84
++ block_destroy_helper.42
++ block_destroy_helper.62
++ block_destroy_helper.63
++ block_destroy_helper.75
++ block_destroy_helper.83
++ get_witness_table 18PodcastsFoundation20NetworkAssetLocationRzlAA13EmitLifecycleVy7Combine10PublishersO6TryMapVy_AG04FlatK0Vy_ADyAG12HandleEventsVy_AE8DeferredVyAMy_AE6FutureCy0B04DataVs5Error_pGGGGGAG6OutputVy_AG0H6LatestVy_s6ResultOAEE9PublisherVyAR3URLVsAU_p_GAQySo12NSURLSessionCsAU_pGGGG0D0QzGGAEA5_HPyHC.17
++ get_witness_table 18PodcastsFoundation22FileBasedAssetLocationRzl7Combine4FailVy0E0Qzs5Error_pGAC9PublisherHPyHC.5
++ get_witness_table 18PodcastsFoundation25UserDefaultsRepresentableRzlScSyxSgGSciHPyHC.10
++ get_witness_table 18PodcastsFoundation25UserDefaultsRepresentableRzls16AsyncMapSequenceVyScSyxSgGxGSciHPyHC.11
++ get_witness_table ScSySSGSciHPyHC.9
++ get_witness_table So15NSManagedObjectCRbzl7Combine6FutureCySbs5Error_pGAC9PublisherHPyHC.9
++ isRunningUnitTests.cold.1
++ objectdestroy.15Tm
++ objectdestroy.35Tm
++ objectdestroy.39Tm
++ objectdestroy.47Tm
++ objectdestroy.61Tm
++ objectdestroy.67Tm
++ objectdestroy.83Tm
++ objectdestroy.94Tm
+- +[MTPodcast(NSPredicate) predicateForLastUnfollowedDateOlderThanDate:]
+- +[MTPodcast(NSPredicate) predicateForNilLastUnfollowedDate]
+- +[MTPodcast(NSPredicate) predicateForRecentlyUnfollowedOlderThanCutoffDate]
+- +[MTPodcast(NSPredicate) predicateForRecentlyUnfollowed]
+- +[MTPodcast(NSPredicate) recentlyUnfollowedCutoffDate]
+- -[AVAsset(Deprecated) pf_loadValuesAsynchronouslyForKeys:completionHandler:]
+- -[AVAsset(Deprecated) pf_metadata]
+- -[AVMetadataItem(Deprecated) pf_loadValuesAsynchronouslyForKeys:completionHandler:]
+- -[AVMetadataItem(Deprecated) pf_statusOfValueForKey:error:]
+- -[AVMetadataItem(Deprecated) pf_stringValue]
+- GCC_except_table138
+- GCC_except_table142
+- _ICSiriGetSharedUserIDs
+- _KVOriginAppIdPodcasts
+- _OBJC_CLASS_$_ACAccount
+- _OBJC_CLASS_$_AVAsset
+- _OBJC_CLASS_$_ICUserIdentityStore
+- _OBJC_CLASS_$_KVDonator
+- _OBJC_CLASS_$_KVFullDatasetStream
+- _OBJC_CLASS_$_KVPodcastItemBuilder
+- _OBJC_METACLASS_$__TtC18PodcastsFoundationP33_4984B522253F5D3980999CC4D4B1655C16DefaultsObserver
+- _PROTOCOLS_MTBaseFeedRequest.13
+- _PROTOCOLS__TtC18PodcastsFoundation16BaseFeedResponse.20
+- __DATA__TtC18PodcastsFoundation31ThinClientGlobalStateRepository
+- __DATA__TtC18PodcastsFoundation39ThinClientLibraryPodcastStateDataSource
+- __DATA__TtC18PodcastsFoundationP33_4984B522253F5D3980999CC4D4B1655C16DefaultsObserver
+- __INSTANCE_METHODS__TtC18PodcastsFoundationP33_4984B522253F5D3980999CC4D4B1655C16DefaultsObserver
+- __IVARS__TtC18PodcastsFoundation25ThinClientStateRepository
+- __IVARS__TtC18PodcastsFoundation31ThinClientGlobalStateRepository
+- __IVARS__TtC18PodcastsFoundation39ThinClientLibraryEpisodeStateDataSource
+- __IVARS__TtC18PodcastsFoundation39ThinClientLibraryPodcastStateDataSource
+- __IVARS__TtC18PodcastsFoundationP33_4984B522253F5D3980999CC4D4B1655C16DefaultsObserver
+- __METACLASS_DATA__TtC18PodcastsFoundation31ThinClientGlobalStateRepository
+- __METACLASS_DATA__TtC18PodcastsFoundation39ThinClientLibraryPodcastStateDataSource
+- __METACLASS_DATA__TtC18PodcastsFoundationP33_4984B522253F5D3980999CC4D4B1655C16DefaultsObserver
+- __OBJC_$_CATEGORY_AVAsset_$_Deprecated
+- __OBJC_$_CATEGORY_AVMetadataItem_$_Deprecated
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_AVAsset_$_Deprecated
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_AVMetadataItem_$_Deprecated
+- __OBJC_$_PROP_LIST_AVAsset_$_Deprecated
+- ___swift_memcpy83_8
+- __block_literal_global.357
+- __block_literal_global.435
+- __block_literal_global.489
+- __block_literal_global.515
+- __block_literal_global.532
+- __swift_FORCE_LOAD_$_swiftFileProvider
+- __swift_FORCE_LOAD_$_swiftFileProvider_$_PodcastsFoundation
+- _associated conformance 18PodcastsFoundation14PlaybackIntentV6OptionO19SmartPlayCodingKeys33_3120B52605701ACB05915E2731DF14ADLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 18PodcastsFoundation14PlaybackIntentV6OptionO19SmartPlayCodingKeys33_3120B52605701ACB05915E2731DF14ADLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 18PodcastsFoundation15MediaIdentifierO16UpNextCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 18PodcastsFoundation15MediaIdentifierO16UpNextCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 18PodcastsFoundation16PlayChapterErrorOSHAASQ
+- _associated conformance 18PodcastsFoundation21ThinClientStateDomainOSHAASQ
+- _associated conformance 18PodcastsFoundation39ThinClientLibraryEpisodeStateDataSourceCyxGAA0fghI8ProtocolAA0G0AaEP_AA0fG0
+- _kLastUnfollowedDate
+- _kUTTypeAudio
+- _kUTTypeMovie
+- _kUTTypeVideo
+- _objc_msgSend$bagForProfile:profileVersion:
+- _objc_msgSend$loadValuesAsynchronouslyForKeys:completionHandler:
+- _objc_msgSend$metadata
+- _objc_msgSend$predicateForLastUnfollowedDateOlderThanDate:
+- _objc_msgSend$predicateForNilLastUnfollowedDate
+- _objc_msgSend$recentlyUnfollowedCutoffDate
+- _objc_msgSend$statusOfValueForKey:error:
+- _os_feature_enabled_episode_more_menu_actions
+- _os_feature_enabled_home_tab
+- _os_feature_enabled_recently_unfollowed
+- _symbolic $s18PodcastsFoundation12KoaProvidingP
+- _symbolic $s18PodcastsFoundation12KoaStreamingP
+- _symbolic $s18PodcastsFoundation14DonationObject33_72FF7B62CA8C1FABD9E3F5B4446C3C17LLP
+- _symbolic $s18PodcastsFoundation21PodcastDonationObject33_72FF7B62CA8C1FABD9E3F5B4446C3C17LLP
+- _symbolic $s18PodcastsFoundation21StationDonationObject33_72FF7B62CA8C1FABD9E3F5B4446C3C17LLP
+- _symbolic $s18PodcastsFoundation33ThinClientStateNetworkingProtocolP
+- _symbolic SS13primaryUserId_SS06sharedbC0t
+- _symbolic SS3key_yp5valuetSg
+- _symbolic SSSg5label_yp5valuetSg
+- _symbolic SaySo6KVItemCG
+- _symbolic SaySo6KVItemCG8podcasts_AC8stationstSg
+- _symbolic SaySo6KVItemCGACIeggg_
+- _symbolic SaySo8NSStringCG
+- _symbolic Say_____GIegg_ 18PodcastsFoundation11SiriDonatorC11DonationJobV
+- _symbolic Si6offset______7elementtSg 18PodcastsFoundation18SubscriptionStatusO
+- _symbolic So14NSUserDefaultsCSgXw
+- _symbolic So14NSUserDefaultsCSgXwz_Xx
+- _symbolic So20KVPodcastItemBuilderC
+- _symbolic So7MSVPairC
+- _symbolic So9ACAccountC
+- _symbolic _____ 18PodcastsFoundation11SiriDonatorC11KoaProviderV
+- _symbolic _____ 18PodcastsFoundation14PlaybackIntentV15ValidationErrorO
+- _symbolic _____ 18PodcastsFoundation14PlaybackIntentV6OptionO19SmartPlayCodingKeys33_3120B52605701ACB05915E2731DF14ADLLO
+- _symbolic _____ 18PodcastsFoundation15MediaIdentifierO16UpNextCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLO
+- _symbolic _____ 18PodcastsFoundation16DefaultsObserver33_4984B522253F5D3980999CC4D4B1655CLLC
+- _symbolic _____ 18PodcastsFoundation16PlayChapterErrorO
+- _symbolic _____ 18PodcastsFoundation19PlaybackUserContextV0E4TypeO
+- _symbolic _____ 18PodcastsFoundation20ThinClientStateCacheV
+- _symbolic _____ 18PodcastsFoundation21ThinClientStateDomainO
+- _symbolic _____ 18PodcastsFoundation25ThinClientStateRepositoryC
+- _symbolic _____ 18PodcastsFoundation27ThinClientEpisodeStateModelV
+- _symbolic _____ 18PodcastsFoundation31ThinClientGlobalStateRepositoryC
+- _symbolic _____ 18PodcastsFoundation39ThinClientLibraryEpisodeStateDataSourceC
+- _symbolic _____ 18PodcastsFoundation39ThinClientLibraryPodcastStateDataSourceC
+- _symbolic _____3key______5valuet 18PodcastsFoundation6AdamIDV AA27ThinClientEpisodeStateModelV
+- _symbolic _____3key______5valuetSg 18PodcastsFoundation6AdamIDV AA27ThinClientEpisodeStateModelV
+- _symbolic _____Sg 18PodcastsFoundation12ArtworkModelV
+- _symbolic _____Sg 18PodcastsFoundation17ArtworkTextColorsV
+- _symbolic _____Sg 18PodcastsFoundation27ThinClientEpisodeStateModelV
+- _symbolic _____SgXw 18PodcastsFoundation39ThinClientLibraryPodcastStateDataSourceC
+- _symbolic _____SgXwz_Xx 18PodcastsFoundation11SiriDonatorC
+- _symbolic ______AAtSg So6CMTimea
+- _symbolic ______Say_____Gt 18PodcastsFoundation21ThinClientStateDomainO AA6AdamIDV
+- _symbolic ___________t 10Foundation4UUIDV 08PodcastsA027ThinClientEpisodeStateModelV
+- _symbolic ___________t 18PodcastsFoundation6AdamIDV AA27ThinClientEpisodeStateModelV
+- _symbolic ___________tSg 18PodcastsFoundation6AdamIDV AA12PodcastStateO
+- _symbolic ___________tSg 18PodcastsFoundation6AdamIDV AA27ThinClientEpisodeStateModelV
+- _symbolic ______p 18PodcastsFoundation12KoaProvidingP
+- _symbolic ______p 18PodcastsFoundation12KoaStreamingP
+- _symbolic ______p 18PodcastsFoundation33ThinClientStateNetworkingProtocolP
+- _symbolic ______pSg 18PodcastsFoundation12KoaStreamingP
+- _symbolic ______pSg______pSgIegng_ 18PodcastsFoundation12KoaStreamingP s5ErrorP
+- _symbolic _____ySS_GSg ScS12ContinuationV
+- _symbolic _____ySS__GSg ScS12ContinuationV11YieldResultO
+- _symbolic _____ySaySo6KVItemCG8podcasts_AD8stationst______pGIegg_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____ySay_____GG 2os21OSAllocatedUnfairLockV 18PodcastsFoundation11SiriDonatorC11DonationJobV
+- _symbolic _____ySay_____G_____G s13ManagedBufferCsRi__rlE 18PodcastsFoundation11SiriDonatorC11DonationJobV So16os_unfair_lock_sV
+- _symbolic _____y_____G 18PodcastsFoundation25ThinClientStateRepositoryC AA07PodcastE0O
+- _symbolic _____y_____G 18PodcastsFoundation25ThinClientStateRepositoryC AA0cd7EpisodeE5ModelV
+- _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation14PlaybackIntentV6OptionO19SmartPlayCodingKeys33_3120B52605701ACB05915E2731DF14ADLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation15MediaIdentifierO16UpNextCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation14PlaybackIntentV6OptionO19SmartPlayCodingKeys33_3120B52605701ACB05915E2731DF14ADLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation15MediaIdentifierO16UpNextCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLO
+- _symbolic _____y_____GSgXw 18PodcastsFoundation25ThinClientStateRepositoryC AA07PodcastE0O
+- _symbolic _____y_____GSgXw 18PodcastsFoundation25ThinClientStateRepositoryC AA0cd7EpisodeE5ModelV
+- _symbolic _____y_____GSgXwz_Xx 18PodcastsFoundation25ThinClientStateRepositoryC AA07PodcastE0O
+- _symbolic _____y_____GSgXwz_Xx 18PodcastsFoundation25ThinClientStateRepositoryC AA0cd7EpisodeE5ModelV
+- _symbolic _____y_____Say___________tGG s18_DictionaryStorageC 18PodcastsFoundation6AdamIDV 0D04UUIDV AC27ThinClientEpisodeStateModelV
+- _symbolic _____y______SaySSGtG s23_ContiguousArrayStorageC 18PodcastsFoundation12MediaRequestC11ContentTypeO
+- _symbolic _____y______Say_____GtG s23_ContiguousArrayStorageC 18PodcastsFoundation12MediaRequestC11ContentTypeO AE18IncludeExtendTypesO
+- _symbolic _____y______Say_____GtG s23_ContiguousArrayStorageC 18PodcastsFoundation12MediaRequestC12RelationshipO AE18IncludeExtendTypesO
+- _symbolic _____y______Say_____Gt_____G 7Combine18PassthroughSubjectC 18PodcastsFoundation21ThinClientStateDomainO AD6AdamIDV s5NeverO
+- _symbolic _____y__________G s18_DictionaryStorageC 18PodcastsFoundation6AdamIDV AC27ThinClientEpisodeStateModelV
+- _symbolic _____y__________G s6ResultOsRi_zrlE 18PodcastsFoundation0B12MediaLibraryC8ResponseV AE5ErrorO
+- _symbolic _____y___________tG s23_ContiguousArrayStorageC 10Foundation4UUIDV 08PodcastsD027ThinClientEpisodeStateModelV
+- _symbolic _____y______yShySSG______pG_____y______y_AAy_AE_____y_AAy______yAC_____GAGy_ABySbAJGSo17OS_dispatch_queueCGGAD_pGGANGGG 7Combine10PublishersO7FlatMapV AA6FutureC s5ErrorP AC6FilterV AC9ReceiveOnV AC14SetFailureTypeV AA12AnyPublisherV s5NeverO
+- _symbolic _____y______y______Say_____Gt_____GAGG 7Combine10PublishersO5MergeV AA18PassthroughSubjectC 18PodcastsFoundation21ThinClientStateDomainO AH6AdamIDV s5NeverO
+- _symbolic _____y______y______yShySSG______pG_____y_AAy_ABy_AF_____y_ABy______yAD_____GAAy_ACySbAJGSo17OS_dispatch_queueCGGAE_pGGANGGGANG 7Combine10PublishersO9ReceiveOnV AC7FlatMapV AA6FutureC s5ErrorP AC6FilterV AC14SetFailureTypeV AA12AnyPublisherV s5NeverO
+- _symbolic _____y______y______yShySSG______pG_____y_ABy______yAD_____GAAy_ACySbAIGSo17OS_dispatch_queueCGGAE_pGGAMG 7Combine10PublishersO9ReceiveOnV AC7FlatMapV AA6FutureC s5ErrorP AC14SetFailureTypeV AA12AnyPublisherV s5NeverO
+- _symbolic _____y______y______y______Say_____Gt_____GAHGG 7Combine10PublishersO6FilterV AC5MergeV AA18PassthroughSubjectC 18PodcastsFoundation21ThinClientStateDomainO AJ6AdamIDV s5NeverO
+- _symbolic _____y______y______y______yShySSG______pGAAy_ABy_ACy_AG_____y_ACy______yAE_____GABy_ADySbAJGSo17OS_dispatch_queueCGGAF_pGGANGGGANGG 7Combine10PublishersO6FilterV AC9ReceiveOnV AC7FlatMapV AA6FutureC s5ErrorP AC14SetFailureTypeV AA12AnyPublisherV s5NeverO
+- _symbolic _____y______y______y______yShySSG______pG_____y_ACy______yAE_____GABy_ADySbAJGSo17OS_dispatch_queueCGGAF_pGGANGG 7Combine10PublishersO6FilterV AC9ReceiveOnV AC7FlatMapV AA6FutureC s5ErrorP AC14SetFailureTypeV AA12AnyPublisherV s5NeverO
+- _symbolic _____y______y______y______y______Say_____Gt_____GAIGGAGG 7Combine10PublishersO3MapV AC6FilterV AC5MergeV AA18PassthroughSubjectC 18PodcastsFoundation21ThinClientStateDomainO AL6AdamIDV s5NeverO
+- _symbolic _____y______y______y______y______yShySSG______pGABy_ACy_ADy_AH_____y_ADy______yAF_____GACy_AEySbAKGSo17OS_dispatch_queueCGGAG_pGGAOGGGAOGGytG 7Combine10PublishersO3MapV AC6FilterV AC9ReceiveOnV AC04FlatC0V AA6FutureC s5ErrorP AC14SetFailureTypeV AA12AnyPublisherV s5NeverO
+- _symbolic _____y_____yxGG 2os21OSAllocatedUnfairLockV 18PodcastsFoundation20ThinClientStateCacheV
+- _symbolic _____yxGSgXw 18PodcastsFoundation39ThinClientLibraryEpisodeStateDataSourceC
+- _symbolic _____yxGSgXwz_x______RzlXX 18PodcastsFoundation39ThinClientLibraryEpisodeStateDataSourceC AA0fG0P
+- block_copy_helper.101
+- block_copy_helper.23
+- block_copy_helper.55
+- block_copy_helper.92
+- block_descriptor.103
+- block_descriptor.25
+- block_descriptor.57
+- block_descriptor.94
+- block_destroy_helper.102
+- block_destroy_helper.24
+- block_destroy_helper.56
+- block_destroy_helper.93
+- get_witness_table 18PodcastsFoundation20NetworkAssetLocationRzlAA13EmitLifecycleVy7Combine10PublishersO6TryMapVy_AG04FlatK0Vy_ADyAG12HandleEventsVy_AE8DeferredVyAMy_AE6FutureCy0B04DataVs5Error_pGGGGGAG6OutputVy_AG0H6LatestVy_s6ResultOAEE9PublisherVyAR3URLVsAU_p_GAQySo12NSURLSessionCsAU_pGGGG0D0QzGGAEA5_HPyHC.14
+- get_witness_table 7Combine10PublishersO3MapVy_AC6FilterVy_AC5MergeVy_AA18PassthroughSubjectCy18PodcastsFoundation21ThinClientStateDomainO_SayAL6AdamIDVGts5NeverOGATGGAQGAA9PublisherHPyHC.7
+- get_witness_table SQRzl7Combine18PassthroughSubjectCy18PodcastsFoundation21ThinClientStateDomainO_SayAD6AdamIDVGts5NeverOGAA9PublisherHPyHC.11
+- get_witness_table SQRzl7Combine18PassthroughSubjectCySay18PodcastsFoundation6AdamIDVGs5NeverOGAA9PublisherHPyHC.10
+- get_witness_table So15NSManagedObjectCRbzl7Combine6FutureCySbs5Error_pGAC9PublisherHPyHC.12
+- objectdestroy.17Tm
+- objectdestroy.31Tm
+- objectdestroy.34Tm
+- objectdestroy.38Tm
+- objectdestroy.43Tm
+- objectdestroy.51Tm
+- objectdestroy.62Tm
+- objectdestroy.7Tm
+CStrings:
++ "  |   ╰ identifiers: %s"
++ "  |  \\╭ identifier type: %s"
++ "  │ Origin: %{public}s"
++ "  │ Settings: %s"
++ "  ╰ ID: %{private,mask.hash}s"
++ "  ╰ Identifiers: %{private,mask.hash}s"
++ "  ╰ Items in snapshot: %{public}ld"
++ "  ╰ Options: %{public}s"
++ " ╲╭ Using identifiers from media query"
++ " ╲╭ Using restorable snapshot"
++ " ╲╭ Using track identifiers"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/PodcastsFoundation/PodcastsFoundation/PodcastsFoundation/Logging/IMLogger.m"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/PodcastsFoundation/PodcastsFoundation/PodcastsFoundation/Query/MTBaseQueryObserver.m"
++ "@28@0:8@16i24"
++ "@36@0:8@16i24d28"
++ "Account %{private,mask.hash}s: Donation failed with error:%@"
++ "Account %{private,mask.hash}s: Finished siri donation."
++ "AccountSettingsSwiftUI"
++ "CANNOT_BE_PLAYED_TITLE"
++ "CANT_BE_PLAYED_ON_DEVICE"
++ "Cannot submit bug reports while running unit tests"
++ "CarPlaySiriCell"
++ "Critical error in Core Data intialization. (Error: %@)"
++ "Detailed Error (domain: %@, code: %ld) userInfo: %@"
++ "DonationService: Donating %ld podcast and %ld station entities to Cascade, isCurrentPersona: %{bool}d."
++ "EPISODE_NO_INTERNET"
++ "EPISODE_UNAVAILABLE"
++ "EPISODE_UNAVAILABLE_TITLE_NO_PODCAST"
++ "Encountered an episode model without an identifier: %@"
++ "Encountered application error (domain: %@, code: %ld) desc: %@"
++ "Error loading listen now widget episodes: %@"
++ "ExperimentalPlayActionImplementations"
++ "Failed to read WidgetNowPlayingInfo from defaults %@"
++ "Failed to remove episode asset purgeability for unhandled reason (%s): %s"
++ "Failed to save WidgetNowPlayingInfo to defaults %s, error: %@"
++ "InMemoryState"
++ "JetWidget"
++ "LICENSE_DEVICES_ERROR"
++ "LICENSE_DEVICES_ERROR_TITLE"
++ "LICENSE_SLOT_ERROR"
++ "LICENSE_SLOT_ERROR_TITLE"
++ "LibraryWidget"
++ "MPCEnginePlayerError"
++ "MPCPodcastsBehaviorError"
++ "MTAdvancedPlaybackSettings"
++ "MTApplicationDidFinishFeedUpdateNotification"
++ "MTApplicationDidUpdateArtworkNotification"
++ "MTChapter"
++ "MTDidUpdatePlaylistsNotification"
++ "MacSettingsColumnsFormStyle"
++ "MacShowSettingsSwiftUI"
++ "PFObjCCachingImageContentProviderBridge"
++ "Performed uniform size bucketing: %s -> %s"
++ "PlaybackErrorTransforming: Unhandled AVFoundation error: %@"
++ "PlaybackErrorTransforming: Unhandled ICKeyServerError error: %@"
++ "PlaybackErrorTransforming: Unhandled MPCEnginePlayerError error: %@"
++ "PlaybackErrorTransforming: Unhandled MPCErrorDomain error: %@"
++ "PlaybackErrorTransforming: Unhandled MPCPodcastsBehaviorError error: %@"
++ "PlaybackErrorTransforming: Unhandled network error: %@"
++ "Please open the podcasts app and log in to play this media"
++ "PodcastsFoundation.ObjCCachingImageContentProviderBridge"
++ "PodcastsFoundation.PodcastsURLEpisodeCommand"
++ "PodcastsFoundation._UserDefaultsObserver"
++ "PodcastsFoundation/UserDefaultsRepresentable.swift"
++ "RESTRICTIONS_ON_PLAY"
++ "RedMars"
++ "RedSaturn"
++ "RedVenus"
++ "Removed purgeability for '%s'"
++ "SUBSCRIPTION_REQUIRED"
++ "SUBSCRIPTION_REQUIRED_LICENSE_ERROR"
++ "ShowSettingsRemoveFollowingToggle"
++ "ShowWidget"
++ "Siri understanding on device is not supported"
++ "SpeakEasy"
++ "Starting donation to Siri (Cascade)."
++ "Stations, channels, transcripts, categories, and nextEpisodes are unsupported request types for RecommendationModulesRequest"
++ "T@\"MTAdvancedPlaybackSettings\",&,N"
++ "T@\"MTEpisode\",N,D,&"
++ "Task Enqueued"
++ "TopHitsMac"
++ "Tq,N,D"
++ "Unable to remove purgeability on missing file. This is not necessarily an error, as the file could be removed for many reasons."
++ "Unable to resolve intent: %@"
++ "Unsupported watch device %s"
++ "UserDefaultsKey<"
++ "WidgetNowPlayingInfo: %{public}s has changed %{public}s"
++ "WidgetNowPlayingInfo: %{public}s has changed by %f seconds %{public}s"
++ "WidgetNowPlayingInfo: %{public}s, isPlaying: %{bool}d, duration %{public}s, timeRemaining %{public}s, start %{public}s, end %{public}s"
++ "WidgetNowPlayingInfo: currentEpisodeID has changed %{public}s"
++ "WidgetNowPlayingInfo: format is changing"
++ "WidgetNowPlayingInfo: isPlaying has changed %{bool}d"
++ "WidgetNowPlayingInfo: timeRemaining has changed %f"
++ "WidgetNowPlayingInfo: timeRemaining has changed by %f seconds %f"
++ "WidgetUpNextRelativeDates"
++ "[Push] Error building URLRequest %@, error: %@"
++ "[Push] Error registering push token %@"
++ "[Push] Successfully registered token"
++ "_$observationRegistrar"
++ "_TtC18PodcastsFoundation17PodcastsURLScheme"
++ "_TtC18PodcastsFoundation18PodcastsURLCommand"
++ "_TtC18PodcastsFoundation21_UserDefaultsObserver"
++ "_TtC18PodcastsFoundation22PodcastsURLOpenCommand"
++ "_TtC18PodcastsFoundation22PodcastsURLPlayCommand"
++ "_TtC18PodcastsFoundation22PodcastsURLShowCommand"
++ "_TtC18PodcastsFoundation25PodcastsURLEpisodeCommand"
++ "_TtC18PodcastsFoundation28PodcastsURLNowPlayingCommand"
++ "_TtCC18PodcastsFoundation17PodcastsURLSchemeP33_A8198395E84B6F2DDADADF43B2890AED5Param"
++ "_TtCC18PodcastsFoundation17PodcastsURLSchemeP33_A8198395E84B6F2DDADADF43B2890AED7Command"
++ "_fetchRequestForDistinctSeasons"
++ "_value"
++ "advancedPlaybackSettings"
++ "artworkForPodcast:size:completionHandler:"
++ "bagForProfile:profileVersion:processInfo:"
++ "baseListSettings"
++ "chapterTypeValue"
++ "chapters"
++ "com.apple.podcasts.widget.library"
++ "com.apple.podcasts.widget.singleShow"
++ "com.apple.podcasts.widget.upnext"
++ "com.apple.podcasts.widget.widgetLastPlayedInfo"
++ "copyItemAtPath:toPath:error:"
++ "createSymbolicLinkAtPath:withDestinationPath:error:"
++ "currentEpisodeID"
++ "desiresPubDate"
++ "destinationOfSymbolicLinkAtPath:error:"
++ "endTime"
++ "endTimeNumber"
++ "enumeratorAtPath:"
++ "episodeAdamID"
++ "episodeParameters"
++ "extensionBridge"
++ "hasCustomSettings"
++ "hasUnifiedMemory"
++ "hideUnentitledContent"
++ "imageContentProvider"
++ "inMemoryStateNetworking"
++ "init(from:) has not been implemented"
++ "initialItemBehavior"
++ "insertNewAdvancedPlaybackSettingsOnPodcast:playbackSettingsAdjustedCount:"
++ "insertNewAdvancedPlaybackSettingsOnPodcast:playbackSettingsAdjustedCount:tipLastShownDate:"
++ "isDeletableFileAtPath:"
++ "isExecutableFileAtPath:"
++ "isFileCorruptError"
++ "isMissingFileError"
++ "isReadableFileAtPath:"
++ "isUnitTesting"
++ "isWritableFileAtPath:"
++ "kAdvPlaybackSettingsHasCustomSettings"
++ "kAdvPlaybackSettingsPlaybackRate"
++ "kAdvPlaybackSettingsPlaybackSettingsAdjustedCount"
++ "kAdvPlaybackSettingsTipLastShownDate"
++ "kMTAdvancedPlaybackSettingsEnhancedDialogueEnabledKey"
++ "kMTAdvancedPlaybackSettingsSkipSilenceEnabledKey"
++ "linkItemAtPath:toPath:error:"
++ "lower upper "
++ "newsFromYourShows"
++ "nextObject"
++ "playbackRate"
++ "playbackRateResolvedValue"
++ "playbackSettingsAdjustedCount"
++ "predicateForNewsFromYourShows:ctx:"
++ "predictedCompletionDate"
++ "predictedStartDate"
++ "promptAccountAuthenticationWithDebugReason:forced:"
++ "readValue"
++ "seasonTrailerInSeason:"
++ "setAdvancedPlaybackSettings:"
++ "setChapterTypeValue:"
++ "setEndTimeNumber:"
++ "setEpisode:"
++ "setEpisodeAdamID:"
++ "setPlaybackRate:"
++ "setPlaybackSettingsAdjustedCount:"
++ "setStartTime:"
++ "setTipLastShownDate:"
++ "showPlayerArtworkUntilDate"
++ "smartPlayEpisode"
++ "startTime"
++ "supportsFamily:"
++ "supportsShowLockup"
++ "suppressPubDate"
++ "tipLastShownDate"
++ "trimHeadAndInitialItem"
++ "underlyingErrors"
++ "userDefaultsDidChange:"
++ "userDefaultsObject() has not been implemented"
++ "v48@0:8@\"MTPodcast\"16{CGSize=dd}24@?<v@?@\"NSURL\"@\"NSError\">40"
++ "widgetNowPlayingInfo"
++ "writeValue"
++ "x-samppodcastcollection://store/"
+- "%K = %llu"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/PodcastsFoundation/PodcastsFoundation/PodcastsFoundation/Extensions/Foundation/NSError+MTAdditions.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/PodcastsFoundation/PodcastsFoundation/PodcastsFoundation/Logging/IMLogger.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/PodcastsFoundation/PodcastsFoundation/PodcastsFoundation/Query/MTBaseQueryObserver.m"
+- "Account %{private,mask.hash}s: Could not donate to Siri with error: %@"
+- "Account %{private,mask.hash}s: Could not stream donation for userID %{private,mask.hash}s because there is no stream."
+- "Account %{private,mask.hash}s: Could not stream donation for userId %{private,mask.hash}s with error: %@"
+- "Account %{private,mask.hash}s: Donation failed for siri userId %{private,mask.hash}s with error:%@"
+- "Account %{private,mask.hash}s: Finished siri donation for all ids."
+- "Account %{private,mask.hash}s: Finished streaming donation for userId %{private,mask.hash}s."
+- "Account %{private,mask.hash}s: Registered %ld podcast KVItems."
+- "Account %{private,mask.hash}s: Registered %ld station KVItems."
+- "Account %{private,mask.hash}s: Starting Donation for siri shared user id: %s"
+- "Already sent secondary user data within the last 24 hours. No need to create job for secondary user iTunes account: %{private,mask.hash}s."
+- "Bookmark state for %s already at target, skipping"
+- "Can't construct Array with count < 0"
+- "Cannot create donation job - Could not get siri shared user id's for iTunes account: %{private,mask.hash}s with error: %@"
+- "Cannot create donation job - No siri shared user ids on HomePod device for iTunes account : %{private,mask.hash}s"
+- "CarPlayStoreShowPage"
+- "CompactLargeTitles"
+- "Consolidating bookmark state: %s -> %s"
+- "Consolidating new state into local cache: %s"
+- "Consolidating remote states: %s"
+- "Could not create KVDonator with error: %@"
+- "Could not get DSID for iTunes account: %{private,mask.hash}s"
+- "Division by zero"
+- "Division results in an overflow"
+- "DonationService: Donating %ld podcast entities to Cascade, isCurrentPersona: %{bool}d."
+- "DonationService: Donating %ld station entities to Cascade, isCurrentPersona: %{bool}d."
+- "EpisodeHeroHideSubBadgeForPaidShowWhenEntitled"
+- "EpisodeMoreMenuActions"
+- "Error building URLRequest %@, error: %@"
+- "Error getting self during update for iTunes account: %{private,mask.hash}s"
+- "Error registering push token %@"
+- "Failed to remove episode asset purgeability (%s): %s"
+- "HomeTab"
+- "InMemoryStateRefactor"
+- "Insufficient space allocated to copy string contents"
+- "Must take zero or more splits"
+- "Negative value is not representable"
+- "No iTunes accounts on Homepod device. Cannot create donation jobs."
+- "Overriding all Bookmark internal state with new snapshot: %s"
+- "Overriding all Followed internal state with new snapshot: %s"
+- "PodcastsFoundation.DefaultsObserver"
+- "PreventExplicitNavigation"
+- "Proceeding to get siri shared user id's for account: %{private,mask.hash}s"
+- "ProfilePictureAllTabs"
+- "Range requires lowerBound <= upperBound"
+- "ReadOnlyModeInDeviceWithRecentlyUnfollows"
+- "Received %ld siri shared user id's for iTunes account: %{private,mask.hash}s)"
+- "RecentlyUnfollowed"
+- "SmartPlayButtonHaptics"
+- "Starting donation to Siri KOA."
+- "Stations, channels, transcripts, and categories are unsupported request types for RecommendationModulesRequest"
+- "Successfully registered token"
+- "Swift/Array.swift"
+- "Swift/Collection.swift"
+- "Swift/ContiguousArrayBuffer.swift"
+- "Swift/IntegerTypes.swift"
+- "Swift/Range.swift"
+- "Swift/StringTesting.swift"
+- "Swift/StringUTF8View.swift"
+- "Swift/UnsafeBufferPointer.swift"
+- "Swift/UnsafePointer.swift"
+- "Swift/UnsafeRawBufferPointer.swift"
+- "Swift/UnsafeRawPointer.swift"
+- "ThinClientState"
+- "Trying to create job for iTunes account: %{private,mask.hash}s"
+- "Unable to create KVItem from podcast: %{private,mask.hash}s with error: %@"
+- "Unable to create KVItem from station: %{private,mask.hash}s with error: %@"
+- "Unexpectedly found nil while unwrapping an Optional value"
+- "UnsafeMutableBufferPointer with negative count"
+- "UnsafeMutablePointer.initialize overlapping range"
+- "UnsafeMutablePointer.initialize with negative count"
+- "UnsafeMutablePointer.moveInitialize with negative count"
+- "UnsafeMutableRawBufferPointer.copyMemory source has too many elements"
+- "UnsafeMutableRawPointer.initializeMemory overlapping range"
+- "Updating tip recommendation in response to default key change: %s"
+- "WidgetNowPlayingArtwork"
+- "WriteReviewNew"
+- "[%ld %@] %@"
+- "_TtC18PodcastsFoundation31ThinClientGlobalStateRepository"
+- "_TtC18PodcastsFoundation39ThinClientLibraryPodcastStateDataSource"
+- "_TtC18PodcastsFoundationP33_4984B522253F5D3980999CC4D4B1655C16DefaultsObserver"
+- "ams_iTunesAccounts"
+- "ams_isActiveForMediaType:"
+- "ams_isLocalAccount"
+- "bagForProfile:profileVersion:"
+- "defaultIdentityStore"
+- "donateWithOptions:usingStream:"
+- "donatorWithItemType:originAppId:error:"
+- "donatorWithItemType:originAppId:userId:error:"
+- "first"
+- "ic_privateListeningEnabled"
+- "invalid Collection: less than 'count' elements in collection"
+- "itemBuilder"
+- "lastUnfollowedDate"
+- "pf_loadValuesAsynchronouslyForKeys:completionHandler:"
+- "pf_metadata"
+- "pf_statusOfValueForKey:error:"
+- "pf_stringValue"
+- "playlistItemWithName:itemId:error:"
+- "podcastItemWithTitle:itemId:artistName:error:"
+- "predicateForLastUnfollowedDateOlderThanDate:"
+- "predicateForNilLastUnfollowedDate"
+- "predicateForRecentlyUnfollowed"
+- "predicateForRecentlyUnfollowedOlderThanCutoffDate"
+- "q32@0:8@16^@24"
+- "recentlyUnfollowed"
+- "recentlyUnfollowedCutoffDate"
+- "rootActionRunnerAppIntentDependencyKey"
+- "setFetchOffset:"
+- "thinClientEpisodeStateRepository"
+- "thinClientPodcastStateRepository"
+- "thinClientStateNetworking"
+- "v24@?0@\"KVDatasetStream\"8@\"NSError\"16"
+- "x-sampcollection-podcast"
+- "x-sampcollection-podcast://store/"
+- "x-sampcollection-podcaststation"
+
+```

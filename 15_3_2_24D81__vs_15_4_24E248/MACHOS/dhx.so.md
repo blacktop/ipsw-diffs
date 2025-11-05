@@ -1,0 +1,179 @@
+## dhx.so
+
+> `/usr/lib/sasl2/dhx.so`
+
+```diff
+
+ 195.0.0.0.0
+-  __TEXT.__text: 0x10e28
+-  __TEXT.__auth_stubs: 0x2b0
+-  __TEXT.__gcc_except_tab: 0x8cc
++  __TEXT.__text: 0x109d0
++  __TEXT.__auth_stubs: 0x2a0
++  __TEXT.__gcc_except_tab: 0x7f8
+   __TEXT.__const: 0x296
+   __TEXT.__cstring: 0x9a4
+-  __TEXT.__unwind_info: 0x6f8
+-  __DATA_CONST.__auth_got: 0x160
++  __TEXT.__unwind_info: 0x6d8
++  __DATA_CONST.__auth_got: 0x158
+   __DATA_CONST.__got: 0x40
+   __DATA_CONST.__auth_ptr: 0x10
+   __DATA_CONST.__const: 0x12b0
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libcrypto.46.dylib
+-  UUID: 3D07AB39-CDF3-3A08-A986-441A1F793605
+-  Functions: 374
+-  Symbols:   596
++  UUID: 130E62EA-0B39-3E0A-8AC4-291709589FE6
++  Functions: 372
++  Symbols:   593
+   CStrings:  96
+ 
+Symbols:
++ GCC_except_table107
++ GCC_except_table11
++ GCC_except_table127
++ GCC_except_table130
++ GCC_except_table135
++ GCC_except_table137
++ GCC_except_table142
++ GCC_except_table145
++ GCC_except_table149
++ GCC_except_table156
++ GCC_except_table158
++ GCC_except_table16
++ GCC_except_table161
++ GCC_except_table172
++ GCC_except_table174
++ GCC_except_table177
++ GCC_except_table181
++ GCC_except_table183
++ GCC_except_table185
++ GCC_except_table199
++ GCC_except_table212
++ GCC_except_table217
++ GCC_except_table25
++ GCC_except_table300
++ GCC_except_table301
++ GCC_except_table309
++ GCC_except_table311
++ GCC_except_table60
++ GCC_except_table63
++ GCC_except_table71
++ GCC_except_table8
++ GCC_except_table84
++ GCC_except_table87
++ GCC_except_table95
++ GCC_except_table99
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN8CryptoPP12WindowSliderEEEPS3_EclB8ne190102Ev
++ __ZNKSt3__16vectorIN8CryptoPP12WindowSliderENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIN8CryptoPP7IntegerENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorINS0_IN8CryptoPP7IntegerENS_9allocatorIS2_EEEENS3_IS5_EEE20__throw_length_errorB8ne190102Ev
++ __ZNSt12length_errorC1B8ne190102EPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102ILi0EEEPKc
++ __ZNSt3__114__split_bufferIN8CryptoPP12WindowSliderERNS_9allocatorIS2_EEE5clearB8ne190102Ev
++ __ZNSt3__114__split_bufferIN8CryptoPP7IntegerERNS_9allocatorIS2_EEE17__destruct_at_endB8ne190102EPS2_
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN8CryptoPP12WindowSliderEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN8CryptoPP7IntegerEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_6vectorIN8CryptoPP7IntegerENS1_IS4_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocator_destroyB8ne190102INS_9allocatorIN8CryptoPP7IntegerEEENS_16reverse_iteratorIPS3_EES7_EEvRT_T0_T1_
++ __ZNSt3__119__allocator_destroyB8ne190102INS_9allocatorIN8CryptoPP7IntegerEEEPS3_S5_EEvRT_T0_T1_
++ __ZNSt3__120__throw_length_errorB8ne190102EPKc
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN8CryptoPP12WindowSliderEEEPS4_EEED2B8ne190102Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN8CryptoPP7IntegerEEEPS4_EEED2B8ne190102Ev
++ __ZNSt3__134__uninitialized_allocator_relocateB8ne190102INS_9allocatorIN8CryptoPP12WindowSliderEEES3_EEvRT_PT0_S8_S8_
++ __ZNSt3__134__uninitialized_allocator_relocateB8ne190102INS_9allocatorIN8CryptoPP7IntegerEEES3_EEvRT_PT0_S8_S8_
++ __ZNSt3__16vectorIN8CryptoPP12WindowSliderENS_9allocatorIS2_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorIN8CryptoPP7IntegerENS_9allocatorIS2_EEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorIN8CryptoPP7IntegerENS_9allocatorIS2_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorIN8CryptoPP7IntegerENS_9allocatorIS2_EEE22__base_destruct_at_endB8ne190102EPS2_
++ __ZNSt3__16vectorIN8CryptoPP7IntegerENS_9allocatorIS2_EEEC2B8ne190102Em
++ __ZNSt3__16vectorINS0_IN8CryptoPP7IntegerENS_9allocatorIS2_EEEENS3_IS5_EEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorINS0_IN8CryptoPP7IntegerENS_9allocatorIS2_EEEENS3_IS5_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorINS0_IN8CryptoPP7IntegerENS_9allocatorIS2_EEEENS3_IS5_EEEC2B8ne190102Em
++ __ZNSt3__19allocatorIN8CryptoPP12WindowSliderEE7destroyB8ne190102EPS2_
++ __ZNSt3__19allocatorIN8CryptoPP12WindowSliderEE9constructB8ne190102IS2_JRKS2_EEEvPT_DpOT0_
++ __ZNSt3__19allocatorIN8CryptoPP12WindowSliderEE9constructB8ne190102IS2_JS2_EEEvPT_DpOT0_
++ __ZSt28__throw_bad_array_new_lengthB8ne190102v
+- GCC_except_table100
+- GCC_except_table108
+- GCC_except_table12
+- GCC_except_table128
+- GCC_except_table132
+- GCC_except_table136
+- GCC_except_table139
+- GCC_except_table143
+- GCC_except_table147
+- GCC_except_table150
+- GCC_except_table157
+- GCC_except_table160
+- GCC_except_table162
+- GCC_except_table173
+- GCC_except_table175
+- GCC_except_table178
+- GCC_except_table18
+- GCC_except_table182
+- GCC_except_table184
+- GCC_except_table187
+- GCC_except_table202
+- GCC_except_table208
+- GCC_except_table213
+- GCC_except_table218
+- GCC_except_table27
+- GCC_except_table297
+- GCC_except_table303
+- GCC_except_table305
+- GCC_except_table310
+- GCC_except_table61
+- GCC_except_table64
+- GCC_except_table72
+- GCC_except_table85
+- GCC_except_table89
+- GCC_except_table96
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN8CryptoPP7IntegerEEENS_16reverse_iteratorIPS3_EEEclB8ne180100Ev
+- __ZNKSt3__16vectorIN8CryptoPP12WindowSliderENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIN8CryptoPP7IntegerENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorINS0_IN8CryptoPP7IntegerENS_9allocatorIS2_EEEENS3_IS5_EEE20__throw_length_errorB8ne180100Ev
+- __ZNSt12length_errorC1B8ne180100EPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne180100ILi0EEEPKc
+- __ZNSt3__114__split_bufferIN8CryptoPP12WindowSliderERNS_9allocatorIS2_EEE17__destruct_at_endB8ne180100EPS2_
+- __ZNSt3__114__split_bufferIN8CryptoPP7IntegerERNS_9allocatorIS2_EEE17__destruct_at_endB8ne180100EPS2_
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIN8CryptoPP12WindowSliderEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIN8CryptoPP7IntegerEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorINS_6vectorIN8CryptoPP7IntegerENS1_IS4_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocator_destroyB8ne180100INS_9allocatorIN8CryptoPP7IntegerEEENS_16reverse_iteratorINS5_IPS3_EEEES8_EEvRT_T0_T1_
+- __ZNSt3__120__throw_length_errorB8ne180100EPKc
+- __ZNSt3__142__uninitialized_allocator_move_if_noexceptB8ne180100INS_9allocatorIN8CryptoPP12WindowSliderEEENS_16reverse_iteratorIPS3_EES7_S7_EET2_RT_T0_T1_S8_
+- __ZNSt3__142__uninitialized_allocator_move_if_noexceptB8ne180100INS_9allocatorIN8CryptoPP7IntegerEEENS_16reverse_iteratorIPS3_EES7_S7_EET2_RT_T0_T1_S8_
+- __ZNSt3__16vectorIN8CryptoPP12WindowSliderENS_9allocatorIS2_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorIN8CryptoPP12WindowSliderENS_9allocatorIS2_EEE22__base_destruct_at_endB8ne180100EPS2_
+- __ZNSt3__16vectorIN8CryptoPP12WindowSliderENS_9allocatorIS2_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS2_RS4_EE
+- __ZNSt3__16vectorIN8CryptoPP7IntegerENS_9allocatorIS2_EEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorIN8CryptoPP7IntegerENS_9allocatorIS2_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorIN8CryptoPP7IntegerENS_9allocatorIS2_EEE22__base_destruct_at_endB8ne180100EPS2_
+- __ZNSt3__16vectorIN8CryptoPP7IntegerENS_9allocatorIS2_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS2_RS4_EE
+- __ZNSt3__16vectorIN8CryptoPP7IntegerENS_9allocatorIS2_EEEC2Em
+- __ZNSt3__16vectorINS0_IN8CryptoPP7IntegerENS_9allocatorIS2_EEEENS3_IS5_EEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorINS0_IN8CryptoPP7IntegerENS_9allocatorIS2_EEEENS3_IS5_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorINS0_IN8CryptoPP7IntegerENS_9allocatorIS2_EEEENS3_IS5_EEEC2Em
+- __ZNSt3__19allocatorIN8CryptoPP12WindowSliderEE7destroyB8ne180100EPS2_
+- __ZNSt3__19allocatorIN8CryptoPP12WindowSliderEE9constructB8ne180100IS2_JRKS2_EEEvPT_DpOT0_
+- __ZNSt3__19allocatorIN8CryptoPP12WindowSliderEE9constructB8ne180100IS2_JS2_EEEvPT_DpOT0_
+- __ZSt28__throw_bad_array_new_lengthB8ne180100v
+- ___cxa_call_unexpected
+CStrings:
++ "Out of Memory in /AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/passwordserver_saslplugins/dhx/dhx.c near line %d"
++ "Out of Memory in /AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/passwordserver_saslplugins/plugin_common.c near line %d"
++ "Parameter Error in /AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/passwordserver_saslplugins/dhx/dhx.c near line %d"
++ "Parameter Error in /AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/passwordserver_saslplugins/plugin_common.c near line %d"
+- "Out of Memory in /AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/passwordserver_saslplugins/dhx/dhx.c near line %d"
+- "Out of Memory in /AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/passwordserver_saslplugins/plugin_common.c near line %d"
+- "Parameter Error in /AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/passwordserver_saslplugins/dhx/dhx.c near line %d"
+- "Parameter Error in /AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/passwordserver_saslplugins/plugin_common.c near line %d"
+
+```

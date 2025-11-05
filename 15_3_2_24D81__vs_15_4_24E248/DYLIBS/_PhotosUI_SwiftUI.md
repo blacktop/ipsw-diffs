@@ -1,0 +1,200 @@
+## _PhotosUI_SwiftUI
+
+> `/System/iOSSupport/System/Library/Frameworks/_PhotosUI_SwiftUI.framework/Versions/A/_PhotosUI_SwiftUI`
+
+```diff
+
+-741.0.130.0.0
+-  __TEXT.__text: 0x1db68
+-  __TEXT.__auth_stubs: 0x1130
++751.0.104.0.0
++  __TEXT.__text: 0x20270
++  __TEXT.__auth_stubs: 0x1110
+   __TEXT.__objc_methlist: 0x50
+-  __TEXT.__const: 0x12cc
+-  __TEXT.__cstring: 0x40c
+-  __TEXT.__constg_swiftt: 0xab4
+-  __TEXT.__swift5_typeref: 0xa06
+-  __TEXT.__swift5_reflstr: 0x387
+-  __TEXT.__swift5_fieldmd: 0x3a4
+-  __TEXT.__swift5_builtin: 0x50
+-  __TEXT.__swift5_assocty: 0x310
+-  __TEXT.__swift5_capture: 0x2d4
+-  __TEXT.__swift5_proto: 0xb4
+-  __TEXT.__swift5_types: 0x6c
++  __TEXT.__const: 0x1894
++  __TEXT.__cstring: 0x45c
++  __TEXT.__constg_swiftt: 0xc98
++  __TEXT.__swift5_typeref: 0xafe
++  __TEXT.__swift5_reflstr: 0x3f7
++  __TEXT.__swift5_fieldmd: 0x458
++  __TEXT.__swift5_builtin: 0x78
++  __TEXT.__swift5_assocty: 0x418
++  __TEXT.__swift5_capture: 0x1bc
++  __TEXT.__swift5_proto: 0xf0
++  __TEXT.__swift5_types: 0x84
++  __TEXT.__swift_as_entry: 0x24
++  __TEXT.__swift_as_ret: 0x18
+   __TEXT.__oslogstring: 0x85
+-  __TEXT.__unwind_info: 0x7e8
+-  __TEXT.__eh_frame: 0x598
++  __TEXT.__unwind_info: 0x870
++  __TEXT.__eh_frame: 0x620
+   __TEXT.__objc_methname: 0x325
+-  __DATA_CONST.__got: 0x280
++  __DATA_CONST.__got: 0x298
+   __DATA_CONST.__const: 0x100
+   __DATA_CONST.__objc_classlist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x118
+-  __AUTH_CONST.__auth_got: 0x898
+-  __AUTH_CONST.__const: 0xab0
++  __AUTH_CONST.__auth_got: 0x888
++  __AUTH_CONST.__const: 0x8a8
+   __AUTH_CONST.__objc_const: 0x100
+   __AUTH.__objc_data: 0x130
+-  __AUTH.__data: 0x420
+-  __DATA.__data: 0x838
+-  __DATA.__bss: 0x16e0
++  __AUTH.__data: 0x548
++  __DATA.__data: 0x900
++  __DATA.__bss: 0x1e80
+   - /System/Library/Frameworks/CoreTransferable.framework/Versions/A/CoreTransferable
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/Frameworks/Photos.framework/Versions/A/Photos
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftFileProvider.dylib
+   - /usr/lib/swift/libswiftIOKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 2404FE24-856C-368A-B4CE-335EF0ED38C4
+-  Functions: 876
+-  Symbols:   530
+-  CStrings:  65
++  UUID: 1E69FAB8-02EA-3D70-A28F-CDF824E07748
++  Functions: 936
++  Symbols:   563
++  CStrings:  67
+ 
+Symbols:
++ _OUTLINED_FUNCTION_74
++ _OUTLINED_FUNCTION_75
++ _OUTLINED_FUNCTION_76
++ _OUTLINED_FUNCTION_77
++ _OUTLINED_FUNCTION_78
++ _OUTLINED_FUNCTION_79
++ _OUTLINED_FUNCTION_80
++ _OUTLINED_FUNCTION_81
++ _OUTLINED_FUNCTION_82
++ _OUTLINED_FUNCTION_83
++ _OUTLINED_FUNCTION_84
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ __swift_FORCE_LOAD_$_swiftCompression
++ __swift_FORCE_LOAD_$_swiftCompression_$__PhotosUI_SwiftUI
++ _associated conformance 015_PhotosUI_SwiftB00A10PickerItemV7Content33_017389DAE44781501AADB4871649B487LLOSHAASQ
++ _associated conformance So23_PHPickerCollectionTypeVs10SetAlgebraSCSQ
++ _associated conformance So23_PHPickerCollectionTypeVs10SetAlgebraSCs25ExpressibleByArrayLiteral
++ _associated conformance So23_PHPickerCollectionTypeVs9OptionSetSCSY
++ _associated conformance So23_PHPickerCollectionTypeVs9OptionSetSCs0E7Algebra
++ _associated conformance So33_PHPickerCollectionSuggestionTypeVs10SetAlgebraSCSQ
++ _associated conformance So33_PHPickerCollectionSuggestionTypeVs10SetAlgebraSCs25ExpressibleByArrayLiteral
++ _associated conformance So33_PHPickerCollectionSuggestionTypeVs9OptionSetSCSY
++ _associated conformance So33_PHPickerCollectionSuggestionTypeVs9OptionSetSCs0F7Algebra
++ _objc_retain_x27
++ _swift_initEnumMetadataMultiPayload
++ _symbolic _____ 015_PhotosUI_SwiftB00A10PickerItemV7Content33_017389DAE44781501AADB4871649B487LLO
++ _symbolic _____ 015_PhotosUI_SwiftB00A30PickerSearchTextEnvironmentKey33_017389DAE44781501AADB4871649B487LLV
++ _symbolic _____ 015_PhotosUI_SwiftB00A39PickerExcludedCollectionsEnvironmentKey33_017389DAE44781501AADB4871649B487LLV
++ _symbolic _____ 015_PhotosUI_SwiftB00A48PickerDesiredCollectionSuggestionsEnvironmentKey33_017389DAE44781501AADB4871649B487LLV
++ _symbolic _____ 8PhotosUI14PHPickerResultV
++ _symbolic _____ So23_PHPickerCollectionTypeV
++ _symbolic _____ So33_PHPickerCollectionSuggestionTypeV
++ _symbolic _____Sg 015_PhotosUI_SwiftB00A10PickerItemV
++ _symbolic ______AAt 015_PhotosUI_SwiftB00A10PickerItemV7Content33_017389DAE44781501AADB4871649B487LLO
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV So23_PHPickerCollectionTypeV
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV So33_PHPickerCollectionSuggestionTypeV
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV So23_PHPickerCollectionTypeV
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV So33_PHPickerCollectionSuggestionTypeV
++ _symbolic _____yx_____y_____GG 7SwiftUI15ModifiedContentV AA30_EnvironmentKeyWritingModifierV So23_PHPickerCollectionTypeV
++ _symbolic _____yx_____y_____GG 7SwiftUI15ModifiedContentV AA30_EnvironmentKeyWritingModifierV So33_PHPickerCollectionSuggestionTypeV
++ block_copy_helper.28
++ block_copy_helper.43
++ block_copy_helper.55
++ block_descriptor.30
++ block_descriptor.45
++ block_descriptor.57
++ block_destroy_helper.29
++ block_destroy_helper.44
++ block_destroy_helper.56
++ get_witness_table 16CoreTransferable18DataRepresentationVySo11PHLivePhotoCAeA0B0015_PhotosUI_SwiftH0yHCg_GAA08TransferD0HPyHC.87
++ get_witness_table 16CoreTransferable18FileRepresentationVy015_PhotosUI_SwiftF05Movie33_3BA943E6D7A29AC315168BE52F028B99LLVGAA08TransferD0HPyHC.68
++ get_witness_table 16CoreTransferable18FileRepresentationVy015_PhotosUI_SwiftF05Photo33_3BA943E6D7A29AC315168BE52F028B99LLVGAA08TransferD0HPyHC.67
++ get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyADyxAA30_EnvironmentKeyWritingModifierVySbGGAFy06PhotosB012PHPickerModeVGGAaBHPAhaBHPxAaBHD1__AgA0cI0HPyHCHC_AlaNHPyHCHC.90
++ get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVy06PhotosB024_PHPickerSuggestionGroupVSgGGAaBHPxAaBHD1__AkA0cI0HPyHCHC.99
++ get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVy06PhotosB032_PHPickerCollectionConfigurationVSgGGAaBHPxAaBHD1__AkA0cI0HPyHCHC.98
++ get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVySSSgGGAaBHPxAaBHD1__AhA0cI0HPyHCHC.93
++ get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVySo19_PHPickerSourceTypeVGGAaBHPxAaBHD1__AiA0cI0HPyHCHC.97
++ get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVySo20PHPickerCapabilitiesVGGAaBHPxAaBHD1__AiA0cI0HPyHCHC.92
++ get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVySo23_PHPickerCollectionTypeVGGAaBHPxAaBHD1__AiA0cI0HPyHCHC.94
++ get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVySo28_PHPickerPrivateCapabilitiesVGGAaBHPxAaBHD1__AiA0cI0HPyHCHC.96
++ get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVySo33_PHPickerCollectionSuggestionTypeVGGAaBHPxAaBHD1__AiA0cI0HPyHCHC.95
++ get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVyAA4EdgeO3SetVGGAaBHPxAaBHD1__AkA0cI0HPyHCHC.91
++ get_witness_table 7SwiftUI4ViewRzlAA19_ConditionalContentVyAaBPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOyAA6ButtonVyxG_AeAE18presentationSizingyQrqd__AA012PresentationO0Rd__lFQOyAA08ModifiedE0Vy07_Photosb1_aB00r6PickerC10Controller33_017389DAE44781501AADB4871649B487LLVAA30_SafeAreaRegionsIgnoringLayoutVG_AA06FittedpO0VQo_Qo_AXGAaBHPqd0__AaBHD3_A3_HO_AxaBHPyHCHC.88
++ get_witness_table 7SwiftUI4ViewRzlqd0__AaBHD3_AaBPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOyx_AcAE18presentationSizingyQrqd__AA012PresentationL0Rd__lFQOyAA15ModifiedContentVy07_Photosb1_aB00p6PickerC10Controller33_017389DAE44781501AADB4871649B487LLVAA30_SafeAreaRegionsIgnoringLayoutVG_AA06FittedmL0VQo_Qo_HO.89
++ get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA15ModifiedContentVyAA01_c9Modifier_I0Vy07_Photosb1_aB025_PostToSharedAlbumModifer33_3BA943E6D7A29AC315168BE52F028B99LLVGAA08_OverlayJ0VyAK013_PresentationC23ControllerRepresentableAMLLVGG_SbQo_HO.64
++ objectdestroy.111Tm
++ objectdestroy.35Tm
+- ___swift_memcpy40_8
+- __swift_FORCE_LOAD_$_swiftFileProvider
+- __swift_FORCE_LOAD_$_swiftFileProvider_$__PhotosUI_SwiftUI
+- _objc_retain_x24
+- _objc_retain_x25
+- _objc_retain_x26
+- _swift_arrayDestroy
+- _swift_bridgeObjectRetain_n
+- block_copy_helper.26
+- block_copy_helper.41
+- block_copy_helper.53
+- block_descriptor.28
+- block_descriptor.43
+- block_descriptor.55
+- block_destroy_helper.27
+- block_destroy_helper.42
+- block_destroy_helper.54
+- get_witness_table 16CoreTransferable18DataRepresentationVySo11PHLivePhotoCAeA0B0015_PhotosUI_SwiftH0yHCg_GAA08TransferD0HPyHC.102
+- get_witness_table 16CoreTransferable18FileRepresentationVy015_PhotosUI_SwiftF05Movie33_3BA943E6D7A29AC315168BE52F028B99LLVGAA08TransferD0HPyHC.66
+- get_witness_table 16CoreTransferable18FileRepresentationVy015_PhotosUI_SwiftF05Photo33_3BA943E6D7A29AC315168BE52F028B99LLVGAA08TransferD0HPyHC.65
+- get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyADyxAA30_EnvironmentKeyWritingModifierVySbGGAFy06PhotosB012PHPickerModeVGGAaBHPAhaBHPxAaBHD1__AgA0cI0HPyHCHC_AlaNHPyHCHC.105
+- get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVy06PhotosB024_PHPickerSuggestionGroupVSgGGAaBHPxAaBHD1__AkA0cI0HPyHCHC.112
+- get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVy06PhotosB032_PHPickerCollectionConfigurationVSgGGAaBHPxAaBHD1__AkA0cI0HPyHCHC.110
+- get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVySSSgGGAaBHPxAaBHD1__AhA0cI0HPyHCHC.111
+- get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVySo19_PHPickerSourceTypeVGGAaBHPxAaBHD1__AiA0cI0HPyHCHC.109
+- get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVySo20PHPickerCapabilitiesVGGAaBHPxAaBHD1__AiA0cI0HPyHCHC.107
+- get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVySo28_PHPickerPrivateCapabilitiesVGGAaBHPxAaBHD1__AiA0cI0HPyHCHC.108
+- get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVyAA4EdgeO3SetVGGAaBHPxAaBHD1__AkA0cI0HPyHCHC.106
+- get_witness_table 7SwiftUI4ViewRzlAA19_ConditionalContentVyAaBPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOyAA6ButtonVyxG_AeAE18presentationSizingyQrqd__AA012PresentationO0Rd__lFQOyAA08ModifiedE0Vy07_Photosb1_aB00r6PickerC10Controller33_017389DAE44781501AADB4871649B487LLVAA30_SafeAreaRegionsIgnoringLayoutVG_AA06FittedpO0VQo_Qo_AXGAaBHPqd0__AaBHD3_A3_HO_AxaBHPyHCHC.103
+- get_witness_table 7SwiftUI4ViewRzlqd0__AaBHD3_AaBPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOyx_AcAE18presentationSizingyQrqd__AA012PresentationL0Rd__lFQOyAA15ModifiedContentVy07_Photosb1_aB00p6PickerC10Controller33_017389DAE44781501AADB4871649B487LLVAA30_SafeAreaRegionsIgnoringLayoutVG_AA06FittedmL0VQo_Qo_HO.104
+- get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA15ModifiedContentVyAA01_c9Modifier_I0Vy07_Photosb1_aB025_PostToSharedAlbumModifer33_3BA943E6D7A29AC315168BE52F028B99LLVGAA08_OverlayJ0VyAK013_PresentationC23ControllerRepresentableAMLLVGG_SbQo_HO.62
+- objectdestroy.11Tm
+- objectdestroy.33Tm
+CStrings:
++ "_PHPickerCollectionSuggestionType"
++ "_PHPickerCollectionType"
+
+```

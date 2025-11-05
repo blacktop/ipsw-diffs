@@ -1,0 +1,222 @@
+## libAppleEXR.dylib
+
+> `/usr/lib/libAppleEXR.dylib`
+
+```diff
+
+ 3.1.20.0.0
+-  __TEXT.__text: 0x9ddf4
++  __TEXT.__text: 0x9ab64
+   __TEXT.__auth_stubs: 0x430
+-  __TEXT.__objc_methlist: 0x14c
+-  __TEXT.__const: 0x2110c
+-  __TEXT.__gcc_except_tab: 0x53c
++  __TEXT.__objc_methlist: 0x254
++  __TEXT.__const: 0x210bc
++  __TEXT.__gcc_except_tab: 0x594
+   __TEXT.__cstring: 0x41ba
+   __TEXT.__oslogstring: 0x3
+-  __TEXT.__unwind_info: 0x878
++  __TEXT.__unwind_info: 0x908
++  __TEXT.__eh_frame: 0xf8
+   __TEXT.__objc_classname: 0x59
+   __TEXT.__objc_methname: 0x20a
+   __TEXT.__objc_methtype: 0xcb
+
+   __DATA_CONST.__objc_classlist: 0x28
+   __DATA_CONST.__objc_protolist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x88
++  __DATA_CONST.__objc_selrefs: 0x108
+   __DATA_CONST.__objc_superrefs: 0x28
+   __AUTH_CONST.__auth_got: 0x228
+   __AUTH_CONST.__const: 0x10c0
+   __AUTH_CONST.__cfstring: 0x400
+-  __AUTH_CONST.__objc_const: 0x800
++  __AUTH_CONST.__objc_const: 0x610
+   __AUTH.__objc_data: 0x190
+   __DATA.__data: 0x240
+   __DATA.__bss: 0x20
+
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: E40E75CA-9C10-3FB1-AEB5-2021658EB629
+-  Functions: 717
+-  Symbols:   1044
++  UUID: 6A187B14-DE64-3058-9C77-A2B3281DEE1C
++  Functions: 735
++  Symbols:   1219
+   CStrings:  538
+ 
+Symbols:
++ AXRCreateColorSpace.cold.2
++ AXRLogDebug.cold.1
++ AXRLogError.cold.1
++ _OUTLINED_FUNCTION_0
++ _OUTLINED_FUNCTION_1
++ _OUTLINED_FUNCTION_2
++ _OUTLINED_FUNCTION_3
++ _Z12LaunchBlocksI14ReadPixelsArgsE11axr_error_tPFvPvmEPKT_m11axr_flags_t.cold.1
++ _Z12LaunchBlocksI14ReadPixelsArgsE11axr_error_tPFvPvmEPKT_m11axr_flags_t.cold.2
++ _Z12LaunchBlocksI14ReadPlanesArgsE11axr_error_tPFvPvmEPKT_m11axr_flags_t.cold.1
++ _Z12LaunchBlocksI14ReadPlanesArgsE11axr_error_tPFvPvmEPKT_m11axr_flags_t.cold.2
++ _ZL13ReadLineOrderPKvP4PartR9Attribute11axr_flags_t.cold.1
++ _ZL14ReadDataWindowPKvP4PartR9Attribute11axr_flags_t.cold.1
++ _ZL14ReadResolutionPKvP4PartR9Attribute11axr_flags_t.cold.1
++ _ZL15InitCGFunctionsPv.cold.1
++ _ZL15InitCGFunctionsPv.cold.2
++ _ZL15InitCGFunctionsPv.cold.3
++ _ZL15ReadCompressionPKvP4PartR9Attribute11axr_flags_t.cold.1
++ _ZL15ReadViewVersionPKvP4PartR9Attribute11axr_flags_t.cold.1
++ _ZL17ReadDisplayWindowPKvP4PartR9Attribute11axr_flags_t.cold.1
++ _ZN11EncoderPart12EncodeHeaderEP13EncoderStreamRK9EXRHeader11axr_flags_t.cold.1
++ _ZN11EncoderPart14AppendChannelsEPKc10axr_type_tjjbPK18axr_channel_type_tPS1_mPFlPvmm10axr_size_tmEPFvmEm.cold.1
++ _ZN11EncoderPart14AppendChannelsEPKc10axr_type_tjjbPK18axr_channel_type_tPS1_mPFlPvmm10axr_size_tmEPFvmEm.cold.2
++ _ZN11EncoderPart14AppendChannelsEPKc10axr_type_tjjbPK18axr_channel_type_tPS1_mPFlPvmm10axr_size_tmEPFvmEm.cold.3
++ _ZN11EncoderPart14AppendChannelsEPKc10axr_type_tjjbPK18axr_channel_type_tPS1_mPFlPvmm10axr_size_tmEPFvmEm.cold.4
++ _ZN11EncoderPart14AppendChannelsEPKc10axr_type_tjjbPK18axr_channel_type_tPS1_mPFlPvmm10axr_size_tmEPFvmEm.cold.5
++ _ZN11EncoderPart15AppendAttributeEPKcS1_mPKhmPFvPKvmE.cold.1
++ _ZN11EncoderPart15AppendAttributeEPKcS1_mPKhmPFvPKvmE.cold.2
++ _ZN11EncoderPart15AppendAttributeEPKcS1_mPKhmPFvPKvmE.cold.3
++ _ZN11EncoderPart15AppendAttributeEPKcS1_mPKhmPFvPKvmE.cold.4
++ _ZN11EncoderPart15AppendAttributeEPKcS1_mPKhmPFvPKvmE.cold.5
++ _ZN11EncoderPart15AppendAttributeEPKcS1_mPKhmPFvPKvmE.cold.6
++ _ZN11EncoderPart15AppendAttributeEPKcS1_mPKhmPFvPKvmE.cold.7
++ _ZN11EncoderPart17CreateEncoderPartEPKcS1_17axr_compression_t9axr_box2iS3_16axr_line_order_tfffffjj16axr_level_mode_t11axr_flags_t.cold.1
++ _ZN11EncoderPart17CreateEncoderPartEPKcS1_17axr_compression_t9axr_box2iS3_16axr_line_order_tfffffjj16axr_level_mode_t11axr_flags_t.cold.10
++ _ZN11EncoderPart17CreateEncoderPartEPKcS1_17axr_compression_t9axr_box2iS3_16axr_line_order_tfffffjj16axr_level_mode_t11axr_flags_t.cold.11
++ _ZN11EncoderPart17CreateEncoderPartEPKcS1_17axr_compression_t9axr_box2iS3_16axr_line_order_tfffffjj16axr_level_mode_t11axr_flags_t.cold.2
++ _ZN11EncoderPart17CreateEncoderPartEPKcS1_17axr_compression_t9axr_box2iS3_16axr_line_order_tfffffjj16axr_level_mode_t11axr_flags_t.cold.3
++ _ZN11EncoderPart17CreateEncoderPartEPKcS1_17axr_compression_t9axr_box2iS3_16axr_line_order_tfffffjj16axr_level_mode_t11axr_flags_t.cold.4
++ _ZN11EncoderPart17CreateEncoderPartEPKcS1_17axr_compression_t9axr_box2iS3_16axr_line_order_tfffffjj16axr_level_mode_t11axr_flags_t.cold.5
++ _ZN11EncoderPart17CreateEncoderPartEPKcS1_17axr_compression_t9axr_box2iS3_16axr_line_order_tfffffjj16axr_level_mode_t11axr_flags_t.cold.6
++ _ZN11EncoderPart17CreateEncoderPartEPKcS1_17axr_compression_t9axr_box2iS3_16axr_line_order_tfffffjj16axr_level_mode_t11axr_flags_t.cold.7
++ _ZN11EncoderPart17CreateEncoderPartEPKcS1_17axr_compression_t9axr_box2iS3_16axr_line_order_tfffffjj16axr_level_mode_t11axr_flags_t.cold.8
++ _ZN11EncoderPart17CreateEncoderPartEPKcS1_17axr_compression_t9axr_box2iS3_16axr_line_order_tfffffjj16axr_level_mode_t11axr_flags_t.cold.9
++ _ZN11TileDecoder12ReadYccBlockEPvm.cold.1
++ _ZN11TileDecoder15ReadPixelsBlockEPvm.cold.1
++ _ZN11TileDecoder15ReadPlanesBlockEPvm.cold.1
++ _ZN11TileDecoder25ReadPixelsBlockGrayToRGBAEPvm.cold.1
++ _ZN12EncoderLayer18CreateEncoderLayerEPKc10axr_type_tjjbPK18axr_channel_type_tPS1_mPFlPvmm10axr_size_tmEPFvmE17CGColorSpaceModelm11axr_flags_t.cold.1
++ _ZN13AXRImageLayer11DeserializeERPKvRmj11axr_flags_tP11axr_error_t.cold.1
++ _ZN18ChannelDescription11ParseChListEPKvmm11axr_flags_t16axr_level_mode_tRP5LayerRPS_RjR11axr_error_t.cold.1
++ _ZN18ChannelDescription11ParseChListEPKvmm11axr_flags_t16axr_level_mode_tRP5LayerRPS_RjR11axr_error_t.cold.2
++ _ZN18ChannelDescription11ParseChListEPKvmm11axr_flags_t16axr_level_mode_tRP5LayerRPS_RjR11axr_error_t.cold.3
++ _ZN18ChannelDescription11ParseChListEPKvmm11axr_flags_t16axr_level_mode_tRP5LayerRPS_RjR11axr_error_t.cold.4
++ _ZN18ChannelDescription11ParseChListEPKvmm11axr_flags_t16axr_level_mode_tRP5LayerRPS_RjR11axr_error_t.cold.5
++ _ZN4Part11InitOffsetsEPKvmRm11axr_flags_t.cold.1
++ _ZN4Part11InitOffsetsEPKvmRm11axr_flags_t.cold.2
++ _ZN4Part11InitOffsetsEPKvmRm11axr_flags_t.cold.3
++ _ZN4Part11InitOffsetsEPKvmRm11axr_flags_t.cold.4
++ _ZN4Part11InitOffsetsEPKvmRm11axr_flags_t.cold.5
++ _ZN4Part11InitOffsetsEPKvmRm11axr_flags_t.cold.6
++ _ZN4Part11InitOffsetsEPKvmRm11axr_flags_t.cold.7
++ _ZN4Part15AbsorbAttributeEPKvR9AttributeRm11axr_flags_t.cold.1
++ _ZN4Part15AbsorbAttributeEPKvR9AttributeRm11axr_flags_t.cold.2
++ _ZN4Part4InitEPKvmRm11axr_flags_t.cold.1
++ _ZN4Part4InitEPKvmRm11axr_flags_t.cold.2
++ _ZN4Part4InitEPKvmRm11axr_flags_t.cold.3
++ _ZNK11EncoderPart17EncodeChannelListEP13EncoderStream11axr_flags_t.cold.1
++ _ZNK11TileDecoder10ReadPlanesEP16axr_pixel_data_t.cold.1
++ _ZNK11TileDecoder18IsInterleavedValidERjS0_.cold.1
++ _ZNK11TileDecoder18IsInterleavedValidERjS0_.cold.2
++ _ZNK11TileDecoder18IsInterleavedValidERjS0_.cold.3
++ _ZNK11TileDecoder18IsInterleavedValidERjS0_.cold.4
++ _ZNK11TileDecoder18MakeReadPixelsArgsEdPvmR13AXRBufferPoolbP14ReadPixelsArgs.cold.1
++ _ZNK11TileDecoder18MakeReadPixelsArgsEdPvmR13AXRBufferPoolbP14ReadPixelsArgs.cold.2
++ _ZNK11TileDecoder18MakeReadPixelsArgsEdPvmR13AXRBufferPoolbP14ReadPixelsArgs.cold.3
++ _ZNK11TileDecoder18MakeReadPixelsArgsEdPvmR13AXRBufferPoolbP14ReadPixelsArgs.cold.4
++ _ZNK4Part10GetChannelEm11axr_flags_t.cold.1
++ _ZNK4Part10ReadPixelsEP11axr_decoderPvm11axr_flags_t.cold.1
++ _ZNK4Part10ReadPixelsEP11axr_decoderPvm11axr_flags_t.cold.2
++ _ZNK4Part10ReadPlanesEP11axr_decoderP16axr_pixel_data_t11axr_flags_t.cold.1
++ _ZNK4Part10ReadPlanesEP11axr_decoderP16axr_pixel_data_t11axr_flags_t.cold.2
++ _ZNK4Part10ReadPlanesEP11axr_decoderP16axr_pixel_data_t11axr_flags_t.cold.3
++ _ZNK4Part10ReadPlanesEP11axr_decoderP16axr_pixel_data_t11axr_flags_t.cold.4
++ _ZNK4Part10ReadPlanesEP11axr_decoderP16axr_pixel_data_t11axr_flags_t.cold.5
++ _ZNK4Part14ReadRGBAPixelsEP11axr_decoderPvmd11axr_flags_t.cold.1
++ _ZNK4Part14ReadRGBAPixelsEP11axr_decoderPvmd11axr_flags_t.cold.10
++ _ZNK4Part14ReadRGBAPixelsEP11axr_decoderPvmd11axr_flags_t.cold.11
++ _ZNK4Part14ReadRGBAPixelsEP11axr_decoderPvmd11axr_flags_t.cold.12
++ _ZNK4Part14ReadRGBAPixelsEP11axr_decoderPvmd11axr_flags_t.cold.13
++ _ZNK4Part14ReadRGBAPixelsEP11axr_decoderPvmd11axr_flags_t.cold.14
++ _ZNK4Part14ReadRGBAPixelsEP11axr_decoderPvmd11axr_flags_t.cold.15
++ _ZNK4Part14ReadRGBAPixelsEP11axr_decoderPvmd11axr_flags_t.cold.16
++ _ZNK4Part14ReadRGBAPixelsEP11axr_decoderPvmd11axr_flags_t.cold.17
++ _ZNK4Part14ReadRGBAPixelsEP11axr_decoderPvmd11axr_flags_t.cold.18
++ _ZNK4Part14ReadRGBAPixelsEP11axr_decoderPvmd11axr_flags_t.cold.19
++ _ZNK4Part14ReadRGBAPixelsEP11axr_decoderPvmd11axr_flags_t.cold.2
++ _ZNK4Part14ReadRGBAPixelsEP11axr_decoderPvmd11axr_flags_t.cold.20
++ _ZNK4Part14ReadRGBAPixelsEP11axr_decoderPvmd11axr_flags_t.cold.21
++ _ZNK4Part14ReadRGBAPixelsEP11axr_decoderPvmd11axr_flags_t.cold.22
++ _ZNK4Part14ReadRGBAPixelsEP11axr_decoderPvmd11axr_flags_t.cold.23
++ _ZNK4Part14ReadRGBAPixelsEP11axr_decoderPvmd11axr_flags_t.cold.24
++ _ZNK4Part14ReadRGBAPixelsEP11axr_decoderPvmd11axr_flags_t.cold.25
++ _ZNK4Part14ReadRGBAPixelsEP11axr_decoderPvmd11axr_flags_t.cold.26
++ _ZNK4Part14ReadRGBAPixelsEP11axr_decoderPvmd11axr_flags_t.cold.27
++ _ZNK4Part14ReadRGBAPixelsEP11axr_decoderPvmd11axr_flags_t.cold.28
++ _ZNK4Part14ReadRGBAPixelsEP11axr_decoderPvmd11axr_flags_t.cold.29
++ _ZNK4Part14ReadRGBAPixelsEP11axr_decoderPvmd11axr_flags_t.cold.3
++ _ZNK4Part14ReadRGBAPixelsEP11axr_decoderPvmd11axr_flags_t.cold.4
++ _ZNK4Part14ReadRGBAPixelsEP11axr_decoderPvmd11axr_flags_t.cold.5
++ _ZNK4Part14ReadRGBAPixelsEP11axr_decoderPvmd11axr_flags_t.cold.6
++ _ZNK4Part14ReadRGBAPixelsEP11axr_decoderPvmd11axr_flags_t.cold.7
++ _ZNK4Part14ReadRGBAPixelsEP11axr_decoderPvmd11axr_flags_t.cold.8
++ _ZNK4Part14ReadRGBAPixelsEP11axr_decoderPvmd11axr_flags_t.cold.9
++ _ZNK4Part16CreateColorSpaceEPK11axr_decoderPv11axr_flags_tb.cold.1
++ __MergedGlobals
++ __ZN12AXRLUTStreamIjL10StreamType1EE8SetDataPEv
++ __ZN12AXRLUTStreamItL10StreamType1EE8SetDataPEv
++ __ZN14AXRStreamPXR24IfL10StreamType1EE8SetDataPEv
++ __ZN14AXRStreamPXR24IjL10StreamType1EE8SetDataPEv
++ __ZN14AXRStreamPXR24ItL10StreamType1EE8SetDataPEv
++ axr_decoder_create_colorspace.cold.1
++ axr_decoder_create_rgba.cold.1
++ axr_decoder_create_rgba.cold.2
++ axr_decoder_create_rgba.cold.3
++ axr_decoder_create_rgba.cold.4
++ axr_decoder_create_rgba.cold.5
++ axr_decoder_create_rgba.cold.6
++ axr_decoder_create_rgba.cold.7
++ axr_decoder_create_rgba_colorspace.cold.1
++ axr_decoder_get_info.cold.1
++ axr_decoder_get_read_pixels_info.cold.1
++ axr_decoder_get_read_planes_info.cold.1
++ axr_decoder_get_read_rgba_pixels_info.cold.1
++ axr_decoder_read_pixels.cold.1
++ axr_decoder_read_pixels.cold.2
++ axr_decoder_read_planes.cold.1
++ axr_decoder_read_rgba_pixels.cold.1
++ axr_decoder_read_rgba_pixels.cold.2
++ axr_decoder_set_subregion.cold.1
++ axr_decoder_set_subregion.cold.2
++ axr_encoder_compress.cold.1
++ axr_encoder_compress.cold.2
++ axr_encoder_compress.cold.3
++ axr_encoder_compress.cold.4
++ axr_introspect_data.cold.1
++ axr_introspect_data.cold.2
++ axr_introspect_data.cold.3
++ axr_logical_image_list_create_decoder.cold.1
++ axr_logical_image_list_create_decoder.cold.2
++ axr_logical_image_list_create_decoder.cold.3
++ axr_logical_image_list_get_default_image_index.cold.1
++ axr_logical_image_list_get_default_image_index.cold.2
++ axr_logical_image_list_get_default_view_index.cold.1
++ axr_logical_image_list_get_image_count.cold.1
++ axr_logical_image_list_get_image_count.cold.2
++ axr_logical_image_list_get_image_info.cold.1
++ axr_logical_image_list_get_image_info.cold.2
++ axr_logical_image_list_get_image_info.cold.3
++ axr_logical_image_list_get_image_name.cold.1
++ axr_logical_image_list_get_image_name.cold.2
++ axr_logical_image_list_get_image_name.cold.3
++ axr_logical_image_list_get_view_name.cold.1
++ axr_logical_image_list_get_view_name.cold.2
++ axr_part_set_chromaticities.cold.2
+- AXRGetLog.log
+- AXRGetLog.onceToken
+- __ZNK18ChannelDescription18GetLocationForTileEmmj
+
+```

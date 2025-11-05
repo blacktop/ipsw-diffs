@@ -1,0 +1,171 @@
+## Jet
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/Jet.framework/Versions/A/Jet`
+
+```diff
+
+ 11.4.3.0.0
+-  __TEXT.__text: 0xdba4
+-  __TEXT.__auth_stubs: 0x440
+-  __TEXT.__const: 0x5eb
+-  __TEXT.__gcc_except_tab: 0xf60
++  __TEXT.__text: 0xda40
++  __TEXT.__auth_stubs: 0x430
++  __TEXT.__const: 0x5c3
++  __TEXT.__gcc_except_tab: 0xf64
+   __TEXT.__cstring: 0x5d5
+   __TEXT.__unwind_info: 0x6f0
+   __TEXT.__objc_classname: 0x1
+   __TEXT.__objc_methname: 0xaf0
+   __TEXT.__objc_stubs: 0x1000
+-  __DATA_CONST.__got: 0xc0
++  __DATA_CONST.__got: 0xd8
+   __DATA_CONST.__const: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x400
+-  __AUTH_CONST.__auth_got: 0x230
+-  __AUTH_CONST.__const: 0xd10
++  __AUTH_CONST.__auth_got: 0x228
++  __AUTH_CONST.__const: 0xcd0
+   __AUTH_CONST.__cfstring: 0x100
+   __DATA.__bss: 0x30
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 775541DF-B66D-3644-8E02-FFA5BC544CE2
+-  Functions: 423
+-  Symbols:   843
++  UUID: 2F908CAD-6A98-31B7-9854-664DFDD30FFF
++  Functions: 421
++  Symbols:   844
+   CStrings:  200
+ 
+Symbols:
++ GCC_except_table130
++ GCC_except_table131
++ GCC_except_table153
++ GCC_except_table156
++ GCC_except_table157
++ GCC_except_table164
++ GCC_except_table172
++ GCC_except_table175
++ GCC_except_table176
++ GCC_except_table179
++ GCC_except_table180
++ GCC_except_table183
++ GCC_except_table36
++ GCC_except_table41
++ GCC_except_table44
++ GCC_except_table46
++ GCC_except_table50
++ GCC_except_table54
++ GCC_except_table61
++ GCC_except_table63
++ GCC_except_table68
++ GCC_except_table69
++ GCC_except_table75
++ GCC_except_table80
++ GCC_except_table90
++ _Z17jet_createContextv.cold.1
++ _Z18jet_getClientLabelv.cold.1
++ _Z18jet_setClientLabelP8NSString.cold.1
++ _Z20jet_isMetalSupportedv.cold.1
++ _Z21jet_ensureClientLabelv.cold.1
++ _ZNSt3__110shared_ptrI15jet_fence_MetalEC2B8ne190102IS1_Li0EEEPT_.cold.1
++ _ZNSt3__134__uninitialized_allocator_relocateB8ne190102INS_9allocatorI13jet_render_opEES2_EEvRT_PT0_S7_S7_.cold.1
++ __ZL23getMetalCompareFunction19jet_compare_fuction
++ __ZNK10jet_buffer16get_element_sizeEv
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__113__string_hashIcNS_9allocatorIcEEEclB8ne190102ERKNS_12basic_stringIcNS_11char_traitsIcEES2_EE
++ __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB8ne190102EPKvm
++ __ZNKSt3__16vectorI13jet_render_opNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB8ne190102ERKS6_S9_
++ __ZNKSt9type_infoeqB8ne190102ERKS_
++ __ZNSt12length_errorC1B8ne190102EPKc
++ __ZNSt3__110__function12__value_funcIFvP11jet_contextEEC2B8ne190102ERKS5_
++ __ZNSt3__110__function12__value_funcIFvP11jet_contextEED2B8ne190102Ev
++ __ZNSt3__110__function12__value_funcIFvvEEC2B8ne190102ERKS3_
++ __ZNSt3__110__function12__value_funcIFvvEED2B8ne190102Ev
++ __ZNSt3__110shared_ptrI15jet_fence_MetalEC2B8ne190102IS1_Li0EEEPT_
++ __ZNSt3__112__tuple_lessILm4EEclB8ne190102INS_5tupleIJ14jet_blend_mode18jet_texture_formatS5_S5_jjEEES6_EEbRKT_RKT0_
++ __ZNSt3__112__tuple_lessILm6EEclB8ne190102INS_5tupleIJ14jet_blend_mode18jet_texture_formatS5_S5_jjEEES6_EEbRKT_RKT0_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102ENS_24__uninitialized_size_tagEmRKS4_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102ILi0EEEPKc
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorI13jet_render_opEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__shared_weak_count16__release_sharedB8ne190102Ev
++ __ZNSt3__120__throw_length_errorB8ne190102EPKc
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE18__hash_len_0_to_16B8ne190102EPKcm
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_17_to_32B8ne190102EPKcm
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_33_to_64B8ne190102EPKcm
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEiEEPvEEEEEclB8ne190102EPSB_
++ __ZNSt3__125__throw_bad_function_callB8ne190102Ev
++ __ZNSt3__127__tree_balance_after_insertB8ne190102IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__134__uninitialized_allocator_relocateB8ne190102INS_9allocatorI13jet_render_opEES2_EEvRT_PT0_S7_S7_
++ __ZNSt3__16vectorI13jet_render_opNS_9allocatorIS1_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__19allocatorI13jet_render_opE9constructB8ne190102IS1_JRKS1_EEEvPT_DpOT0_
++ __ZSt28__throw_bad_array_new_lengthB8ne190102v
+- GCC_except_table128
+- GCC_except_table129
+- GCC_except_table151
+- GCC_except_table154
+- GCC_except_table155
+- GCC_except_table162
+- GCC_except_table170
+- GCC_except_table173
+- GCC_except_table174
+- GCC_except_table177
+- GCC_except_table178
+- GCC_except_table181
+- GCC_except_table35
+- GCC_except_table40
+- GCC_except_table43
+- GCC_except_table45
+- GCC_except_table48
+- GCC_except_table51
+- GCC_except_table60
+- GCC_except_table65
+- GCC_except_table73
+- GCC_except_table78
+- GCC_except_table91
+- GCC_except_table94
+- _ZNSt3__110shared_ptrI15jet_fence_MetalEC2B8ne180100IS1_vEEPT_.cold.1
+- _ZNSt3__142__uninitialized_allocator_move_if_noexceptB8ne180100INS_9allocatorI13jet_render_opEENS_16reverse_iteratorIPS2_EES6_S6_EET2_RT_T0_T1_S7_.cold.1
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__113__string_hashIcNS_9allocatorIcEEEclB8ne180100ERKNS_12basic_stringIcNS_11char_traitsIcEES2_EE
+- __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB8ne180100EPKvm
+- __ZNKSt3__16vectorI13jet_render_opNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB8ne180100ERKS6_S9_
+- __ZNKSt9exception4whatEv
+- __ZNKSt9type_infoeqB8ne180100ERKS_
+- __ZNSt12length_errorC1B8ne180100EPKc
+- __ZNSt3__110__function12__value_funcIFvP11jet_contextEEC2B8ne180100ERKS5_
+- __ZNSt3__110__function12__value_funcIFvP11jet_contextEED2B8ne180100Ev
+- __ZNSt3__110__function12__value_funcIFvvEEC2B8ne180100ERKS3_
+- __ZNSt3__110__function12__value_funcIFvvEED2B8ne180100Ev
+- __ZNSt3__110shared_ptrI15jet_fence_MetalEC2B8ne180100IS1_vEEPT_
+- __ZNSt3__112__tuple_lessILm4EEclB8ne180100INS_5tupleIJ14jet_blend_mode18jet_texture_formatS5_S5_jjEEES6_EEbRKT_RKT0_
+- __ZNSt3__112__tuple_lessILm6EEclB8ne180100INS_5tupleIJ14jet_blend_mode18jet_texture_formatS5_S5_jjEEES6_EEbRKT_RKT0_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne180100ENS_24__uninitialized_size_tagEmRKS4_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne180100ILi0EEEPKc
+- __ZNSt3__117bad_function_callD0Ev
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorI13jet_render_opEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__shared_weak_count16__release_sharedB8ne180100Ev
+- __ZNSt3__120__throw_length_errorB8ne180100EPKc
+- __ZNSt3__121__murmur2_or_cityhashImLm64EE18__hash_len_0_to_16B8ne180100EPKcm
+- __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_17_to_32B8ne180100EPKcm
+- __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_33_to_64B8ne180100EPKcm
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEiEEPvEEEEEclB8ne180100EPSB_
+- __ZNSt3__125__throw_bad_function_callB8ne180100Ev
+- __ZNSt3__127__tree_balance_after_insertB8ne180100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__142__uninitialized_allocator_move_if_noexceptB8ne180100INS_9allocatorI13jet_render_opEENS_16reverse_iteratorIPS2_EES6_S6_EET2_RT_T0_T1_S7_
+- __ZNSt3__16vectorI13jet_render_opNS_9allocatorIS1_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorI13jet_render_opNS_9allocatorIS1_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS1_RS3_EE
+- __ZNSt3__19allocatorI13jet_render_opE9constructB8ne180100IS1_JRKS1_EEEvPT_DpOT0_
+- __ZNSt9exceptionD2Ev
+- __ZSt28__throw_bad_array_new_lengthB8ne180100v
+- __ZTISt9exception
+- __ZTSNSt3__117bad_function_callE
+
+```

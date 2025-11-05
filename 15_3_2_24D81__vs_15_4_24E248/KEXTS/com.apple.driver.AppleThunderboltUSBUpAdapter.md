@@ -1,0 +1,117 @@
+## com.apple.driver.AppleThunderboltUSBUpAdapter
+
+> `com.apple.driver.AppleThunderboltUSBUpAdapter`
+
+```diff
+
+-122.0.0.0.0
++124.0.0.0.0
+   __TEXT.__cstring: 0x15cf
+-  __TEXT_EXEC.__text: 0x7310
++  __TEXT.__os_log: 0x1234
++  __TEXT_EXEC.__text: 0x8864
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x1e8
+   __DATA.__common: 0x38
+-  __DATA_CONST.__auth_got: 0xd0
+-  __DATA_CONST.__got: 0x40
++  __DATA_CONST.__auth_got: 0xd8
++  __DATA_CONST.__got: 0x48
+   __DATA_CONST.__mod_init_func: 0x8
+   __DATA_CONST.__mod_term_func: 0x8
+   __DATA_CONST.__const: 0xc40
+   __DATA_CONST.__kalloc_type: 0x40
+-  UUID: 2DDA9B7E-E9BB-3387-96F6-137407195274
++  UUID: 936E0F14-7FA1-39A2-B6BF-4F4C1DE2F027
+   Functions: 55
+-  Symbols:   441
+-  CStrings:  71
++  Symbols:   499
++  CStrings:  127
+ 
+Symbols:
++ __ZZN28AppleThunderboltUSBUpAdapter11createPathsEvE11_os_log_fmt
++ __ZZN28AppleThunderboltUSBUpAdapter11createPathsEvE11_os_log_fmt_0
++ __ZZN28AppleThunderboltUSBUpAdapter11createPathsEvE11_os_log_fmt_1
++ __ZZN28AppleThunderboltUSBUpAdapter11createPathsEvE11_os_log_fmt_2
++ __ZZN28AppleThunderboltUSBUpAdapter11createPathsEvE11_os_log_fmt_3
++ __ZZN28AppleThunderboltUSBUpAdapter11suspendSyncEvE11_os_log_fmt
++ __ZZN28AppleThunderboltUSBUpAdapter12activateSyncEvE11_os_log_fmt
++ __ZZN28AppleThunderboltUSBUpAdapter12destroyPathsEvE11_os_log_fmt
++ __ZZN28AppleThunderboltUSBUpAdapter12suspendAsyncEvE11_os_log_fmt
++ __ZZN28AppleThunderboltUSBUpAdapter13activateAsyncEvE11_os_log_fmt
++ __ZZN28AppleThunderboltUSBUpAdapter13enableAdapterEbE11_os_log_fmt
++ __ZZN28AppleThunderboltUSBUpAdapter13setPowerStateEmP9IOServiceE11_os_log_fmt
++ __ZZN28AppleThunderboltUSBUpAdapter13setPowerStateEmP9IOServiceE11_os_log_fmt_0
++ __ZZN28AppleThunderboltUSBUpAdapter13setPowerStateEmP9IOServiceE11_os_log_fmt_1
++ __ZZN28AppleThunderboltUSBUpAdapter13setPowerStateEmP9IOServiceE11_os_log_fmt_2
++ __ZZN28AppleThunderboltUSBUpAdapter13setPowerStateEmP9IOServiceE11_os_log_fmt_3
++ __ZZN28AppleThunderboltUSBUpAdapter13setPowerStateEmP9IOServiceE11_os_log_fmt_4
++ __ZZN28AppleThunderboltUSBUpAdapter14deactivateSyncEvE11_os_log_fmt
++ __ZZN28AppleThunderboltUSBUpAdapter15createResourcesEvE11_os_log_fmt
++ __ZZN28AppleThunderboltUSBUpAdapter15deactivateAsyncEvE11_os_log_fmt
++ __ZZN28AppleThunderboltUSBUpAdapter15suspendInternalEP28IOThunderboltDispatchContextE11_os_log_fmt
++ __ZZN28AppleThunderboltUSBUpAdapter15suspendInternalEP28IOThunderboltDispatchContextE11_os_log_fmt_0
++ __ZZN28AppleThunderboltUSBUpAdapter15suspendInternalEP28IOThunderboltDispatchContextE11_os_log_fmt_1
++ __ZZN28AppleThunderboltUSBUpAdapter16activateInternalEP28IOThunderboltDispatchContextE11_os_log_fmt
++ __ZZN28AppleThunderboltUSBUpAdapter16activateInternalEP28IOThunderboltDispatchContextE11_os_log_fmt_0
++ __ZZN28AppleThunderboltUSBUpAdapter16activateInternalEP28IOThunderboltDispatchContextE11_os_log_fmt_1
++ __ZZN28AppleThunderboltUSBUpAdapter16activateInternalEP28IOThunderboltDispatchContextE11_os_log_fmt_2
++ __ZZN28AppleThunderboltUSBUpAdapter16activateInternalEP28IOThunderboltDispatchContextE11_os_log_fmt_3
++ __ZZN28AppleThunderboltUSBUpAdapter16activateInternalEP28IOThunderboltDispatchContextE11_os_log_fmt_4
++ __ZZN28AppleThunderboltUSBUpAdapter16activateInternalEP28IOThunderboltDispatchContextE11_os_log_fmt_5
++ __ZZN28AppleThunderboltUSBUpAdapter16requestTerminateEP9IOServicejE11_os_log_fmt
++ __ZZN28AppleThunderboltUSBUpAdapter18deactivateInternalEP28IOThunderboltDispatchContextE11_os_log_fmt
++ __ZZN28AppleThunderboltUSBUpAdapter18deactivateInternalEP28IOThunderboltDispatchContextE11_os_log_fmt_0
++ __ZZN28AppleThunderboltUSBUpAdapter18deactivateInternalEP28IOThunderboltDispatchContextE11_os_log_fmt_1
++ __ZZN28AppleThunderboltUSBUpAdapter18deactivateInternalEP28IOThunderboltDispatchContextE11_os_log_fmt_2
++ __ZZN28AppleThunderboltUSBUpAdapter18deactivateInternalEP28IOThunderboltDispatchContextE11_os_log_fmt_3
++ __ZZN28AppleThunderboltUSBUpAdapter20setupPowerManagementEvE11_os_log_fmt
++ __ZZN28AppleThunderboltUSBUpAdapter22destroyPowerManagementEvE11_os_log_fmt
++ __ZZN28AppleThunderboltUSBUpAdapter4freeEvE11_os_log_fmt
++ __ZZN28AppleThunderboltUSBUpAdapter4wakeEvE11_os_log_fmt
++ __ZZN28AppleThunderboltUSBUpAdapter5sleepEvE11_os_log_fmt
++ __ZZN28AppleThunderboltUSBUpAdapter5startEP9IOServiceE11_os_log_fmt
++ __ZZN28AppleThunderboltUSBUpAdapter5startEP9IOServiceE11_os_log_fmt_0
++ __ZZN28AppleThunderboltUSBUpAdapter5startEP9IOServiceE11_os_log_fmt_1
++ __ZZN28AppleThunderboltUSBUpAdapter5startEP9IOServiceE11_os_log_fmt_2
++ __ZZN28AppleThunderboltUSBUpAdapter5startEP9IOServiceE11_os_log_fmt_3
++ __ZZN28AppleThunderboltUSBUpAdapter5startEP9IOServiceE11_os_log_fmt_4
++ __ZZN28AppleThunderboltUSBUpAdapter5startEP9IOServiceE11_os_log_fmt_5
++ __ZZN28AppleThunderboltUSBUpAdapter5startEP9IOServiceE11_os_log_fmt_6
++ __ZZN28AppleThunderboltUSBUpAdapter5startEP9IOServiceE11_os_log_fmt_7
++ __ZZN28AppleThunderboltUSBUpAdapter5startEP9IOServiceE11_os_log_fmt_8
++ __ZZN28AppleThunderboltUSBUpAdapter5startEP9IOServiceE11_os_log_fmt_9
++ __ZZN28AppleThunderboltUSBUpAdapter8finalizeEjE11_os_log_fmt
++ __ZZN28AppleThunderboltUSBUpAdapter8finalizeEjE11_os_log_fmt_0
++ __ZZN28AppleThunderboltUSBUpAdapter9earlyWakeEvE11_os_log_fmt
++ __ZZN28AppleThunderboltUSBUpAdapter9lateSleepEvE11_os_log_fmt
++ __os_log_default
++ __os_log_internal
+Functions:
+~ __ZN28AppleThunderboltUSBUpAdapter5startEP9IOService : 4516 -> 5632
+~ __ZN28AppleThunderboltUSBUpAdapter16requestTerminateEP9IOServicej : 760 -> 860
+~ __ZN28AppleThunderboltUSBUpAdapter8finalizeEj : 756 -> 964
+~ __ZN28AppleThunderboltUSBUpAdapter4freeEv : 252 -> 336
+~ __ZN28AppleThunderboltUSBUpAdapter15createResourcesEv : 460 -> 528
+~ __ZN28AppleThunderboltUSBUpAdapter13activateAsyncEv : 664 -> 756
+~ __ZN28AppleThunderboltUSBUpAdapter12activateSyncEv : 728 -> 820
+~ __ZN28AppleThunderboltUSBUpAdapter16activateInternalEP28IOThunderboltDispatchContext : 4252 -> 4992
+~ __ZN28AppleThunderboltUSBUpAdapter12suspendAsyncEv : 664 -> 756
+~ __ZN28AppleThunderboltUSBUpAdapter11suspendSyncEv : 728 -> 820
+~ __ZN28AppleThunderboltUSBUpAdapter15suspendInternalEP28IOThunderboltDispatchContext : 808 -> 1096
+~ __ZN28AppleThunderboltUSBUpAdapter15deactivateAsyncEv : 664 -> 756
+~ __ZN28AppleThunderboltUSBUpAdapter14deactivateSyncEv : 728 -> 820
+~ __ZN28AppleThunderboltUSBUpAdapter18deactivateInternalEP28IOThunderboltDispatchContext : 3404 -> 3892
+~ __ZN28AppleThunderboltUSBUpAdapter11createPathsEv : 3740 -> 4256
+~ __ZN28AppleThunderboltUSBUpAdapter12destroyPathsEv : 416 -> 536
+~ __ZN28AppleThunderboltUSBUpAdapter13enableAdapterEb : 564 -> 640
+~ __ZN28AppleThunderboltUSBUpAdapter20setupPowerManagementEv : 452 -> 532
+~ __ZN28AppleThunderboltUSBUpAdapter22destroyPowerManagementEv : 272 -> 352
+~ __ZN28AppleThunderboltUSBUpAdapter13setPowerStateEmP9IOService : 1236 -> 1836
+~ __ZN28AppleThunderboltUSBUpAdapter4wakeEv : 236 -> 320
+~ __ZN28AppleThunderboltUSBUpAdapter5sleepEv : 240 -> 328
+~ __ZN28AppleThunderboltUSBUpAdapter9lateSleepEv : 500 -> 580
+~ __ZN28AppleThunderboltUSBUpAdapter9earlyWakeEv : 796 -> 888
+
+```

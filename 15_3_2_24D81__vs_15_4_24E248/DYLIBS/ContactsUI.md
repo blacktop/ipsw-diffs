@@ -1,0 +1,1588 @@
+## ContactsUI
+
+> `/System/iOSSupport/System/Library/Frameworks/ContactsUI.framework/Versions/A/ContactsUI`
+
+```diff
+
+-1389.400.1.0.0
+-  __TEXT.__text: 0x2675dc
+-  __TEXT.__auth_stubs: 0x3370
+-  __TEXT.__objc_methlist: 0x2c60c
+-  __TEXT.__cstring: 0xf12f
+-  __TEXT.__const: 0x3f40
+-  __TEXT.__constg_swiftt: 0x1a2c
+-  __TEXT.__swift5_typeref: 0x5006
++1389.500.71.1.2
++  __TEXT.__text: 0x2672e4
++  __TEXT.__auth_stubs: 0x3350
++  __TEXT.__objc_methlist: 0x304fc
++  __TEXT.__const: 0x3de8
++  __TEXT.__dlopen_cstrs: 0x744
++  __TEXT.__cstring: 0xed6f
++  __TEXT.__constg_swiftt: 0x1a5c
++  __TEXT.__swift5_typeref: 0x5086
+   __TEXT.__swift5_builtin: 0xf0
+-  __TEXT.__swift5_reflstr: 0x149e
+-  __TEXT.__swift5_fieldmd: 0x13c4
++  __TEXT.__swift5_reflstr: 0x14ae
++  __TEXT.__swift5_fieldmd: 0x13d0
+   __TEXT.__swift5_assocty: 0x550
+   __TEXT.__swift5_proto: 0x1cc
+   __TEXT.__swift5_types: 0x14c
+-  __TEXT.__oslogstring: 0x6b10
++  __TEXT.__oslogstring: 0x6b49
+   __TEXT.__swift5_capture: 0x568
++  __TEXT.__swift_as_entry: 0x44
++  __TEXT.__swift_as_ret: 0x54
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__gcc_except_tab: 0x24e4
++  __TEXT.__gcc_except_tab: 0x24e0
+   __TEXT.__ustring: 0x8d0
+-  __TEXT.__dlopen_cstrs: 0x744
+-  __TEXT.__unwind_info: 0x9da8
+-  __TEXT.__eh_frame: 0xf38
+-  __TEXT.__objc_classname: 0x637e
+-  __TEXT.__objc_methname: 0x670ab
+-  __TEXT.__objc_methtype: 0xdd26
+-  __TEXT.__objc_stubs: 0x42f20
+-  __DATA_CONST.__got: 0x1c90
+-  __DATA_CONST.__const: 0x5010
+-  __DATA_CONST.__objc_classlist: 0x12c8
++  __TEXT.__unwind_info: 0x9d48
++  __TEXT.__eh_frame: 0x1008
++  __TEXT.__objc_classname: 0x639c
++  __TEXT.__objc_methname: 0x67170
++  __TEXT.__objc_methtype: 0xdd81
++  __TEXT.__objc_stubs: 0x42f60
++  __DATA_CONST.__got: 0x1e18
++  __DATA_CONST.__const: 0x50e0
++  __DATA_CONST.__objc_classlist: 0x12d0
+   __DATA_CONST.__objc_catlist: 0x120
+   __DATA_CONST.__objc_protolist: 0x778
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x13f38
++  __DATA_CONST.__objc_selrefs: 0x146e0
+   __DATA_CONST.__objc_protorefs: 0xe0
+   __DATA_CONST.__objc_superrefs: 0xcf8
+   __DATA_CONST.__objc_arraydata: 0x4e8
+-  __AUTH_CONST.__auth_got: 0x19c8
++  __AUTH_CONST.__auth_got: 0x19b8
+   __AUTH_CONST.__const: 0x55c0
+   __AUTH_CONST.__cfstring: 0x9840
+-  __AUTH_CONST.__objc_const: 0x51158
++  __AUTH_CONST.__objc_const: 0x4a3d8
+   __AUTH_CONST.__objc_doubleobj: 0xb0
+   __AUTH_CONST.__objc_intobj: 0x378
+   __AUTH_CONST.__objc_arrayobj: 0x258
+   __AUTH_CONST.__objc_dictobj: 0x78
+-  __AUTH.__objc_data: 0xbc58
+-  __AUTH.__data: 0x1318
+-  __DATA.__objc_ivar: 0x3450
+-  __DATA.__data: 0x6d00
++  __AUTH.__objc_data: 0xbbb8
++  __AUTH.__data: 0x1358
++  __DATA.__objc_ivar: 0x3454
++  __DATA.__data: 0x6d90
+   __DATA.__bss: 0x4b58
+   __DATA.__common: 0x1b0
+   __DATA_DIRTY.__objc_data: 0xa00
+
+   - /System/iOSSupport/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+   - /System/iOSSupport/System/Library/Frameworks/TipKit.framework/Versions/A/TipKit
+   - /System/iOSSupport/System/Library/Frameworks/UIKit.framework/Versions/A/UIKit
++  - /System/iOSSupport/System/Library/Frameworks/_AppIntents_SwiftUI.framework/Versions/A/_AppIntents_SwiftUI
+   - /System/iOSSupport/System/Library/Frameworks/_AppIntents_UIKit.framework/Versions/A/_AppIntents_UIKit
+   - /System/iOSSupport/System/Library/PrivateFrameworks/AppSupportUI.framework/Versions/A/AppSupportUI
+   - /System/iOSSupport/System/Library/PrivateFrameworks/IntlPreferences.framework/Versions/A/IntlPreferences
+
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftFileProvider.dylib
+   - /usr/lib/swift/libswiftIOKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 5BE2BECD-9E04-3097-96FB-9296F3DBF824
+-  Functions: 18015
+-  Symbols:   37134
+-  CStrings:  20529
++  UUID: 1F1F1275-1E62-357E-9164-A341EC5F30D5
++  Functions: 18012
++  Symbols:   37152
++  CStrings:  20519
+ 
+Symbols:
++ -[CNCardGameCenterManager isEligibleForFriendingViaPush]
++ -[CNCardGameCenterManager setIsEligibleForFriendingViaPush:]
++ -[CNPropertyPostalAddressAction performActionForItem:sender:]
++ AvatarKitLibraryCore.frameworkLibrary.20251
++ AvatarKitLibraryCore.frameworkLibrary.27771
++ AvatarKitLibraryCore.frameworkLibrary.29885
++ AvatarKitLibraryCore.frameworkLibrary.45344
++ AvatarKitLibraryCore.frameworkLibrary.48851
++ AvatarUILibrary.20263
++ AvatarUILibrary.29865
++ AvatarUILibrary.37588
++ AvatarUILibrary.47051
++ AvatarUILibraryCore.frameworkLibrary.11856
++ AvatarUILibraryCore.frameworkLibrary.14558
++ AvatarUILibraryCore.frameworkLibrary.20266
++ AvatarUILibraryCore.frameworkLibrary.27788
++ AvatarUILibraryCore.frameworkLibrary.29873
++ AvatarUILibraryCore.frameworkLibrary.30780
++ AvatarUILibraryCore.frameworkLibrary.31305
++ AvatarUILibraryCore.frameworkLibrary.37598
++ AvatarUILibraryCore.frameworkLibrary.47054
++ AvatarUILibraryCore.frameworkLibrary.48827
++ GCC_except_table10115
++ GCC_except_table10135
++ GCC_except_table10140
++ GCC_except_table10353
++ GCC_except_table10379
++ GCC_except_table10498
++ GCC_except_table10558
++ GCC_except_table10620
++ GCC_except_table10621
++ GCC_except_table10631
++ GCC_except_table10632
++ GCC_except_table11540
++ GCC_except_table11667
++ GCC_except_table11878
++ GCC_except_table12044
++ GCC_except_table12428
++ GCC_except_table12431
++ GCC_except_table12536
++ GCC_except_table12797
++ GCC_except_table12955
++ GCC_except_table13022
++ GCC_except_table13086
++ GCC_except_table13093
++ GCC_except_table13099
++ GCC_except_table13118
++ GCC_except_table13278
++ GCC_except_table13413
++ GCC_except_table13507
++ GCC_except_table13806
++ GCC_except_table13821
++ GCC_except_table13833
++ GCC_except_table13838
++ GCC_except_table13839
++ GCC_except_table13859
++ GCC_except_table14239
++ GCC_except_table14241
++ GCC_except_table14250
++ GCC_except_table14341
++ GCC_except_table14404
++ GCC_except_table14428
++ GCC_except_table14822
++ GCC_except_table15208
++ GCC_except_table15257
++ GCC_except_table15302
++ GCC_except_table15321
++ GCC_except_table15348
++ GCC_except_table15349
++ GCC_except_table15356
++ GCC_except_table15357
++ GCC_except_table15382
++ GCC_except_table15507
++ GCC_except_table15531
++ GCC_except_table15533
++ GCC_except_table15577
++ GCC_except_table15749
++ GCC_except_table15933
++ GCC_except_table5719
++ GCC_except_table5725
++ GCC_except_table5951
++ GCC_except_table6194
++ GCC_except_table6329
++ GCC_except_table6405
++ GCC_except_table6531
++ GCC_except_table6764
++ GCC_except_table6829
++ GCC_except_table7224
++ GCC_except_table7258
++ GCC_except_table7368
++ GCC_except_table7409
++ GCC_except_table7811
++ GCC_except_table7876
++ GCC_except_table7882
++ GCC_except_table7974
++ GCC_except_table8014
++ GCC_except_table8037
++ GCC_except_table8513
++ GCC_except_table8521
++ GCC_except_table8590
++ GCC_except_table8593
++ GCC_except_table8688
++ GCC_except_table8728
++ GCC_except_table8744
++ GCC_except_table8749
++ GCC_except_table8784
++ GCC_except_table8862
++ GCC_except_table8868
++ GCC_except_table8959
++ GCC_except_table9082
++ GCC_except_table9520
++ GCC_except_table9692
++ GCC_except_table9698
++ GCC_except_table9750
++ GCC_except_table9943
++ IDSIDQueryControllerFunction.21014
++ IDSIDQueryControllerFunction.44951
++ IDSServiceNameFaceTimeFunction.28230
++ IDSServiceNameFaceTimeFunction.41555
++ IDSServiceNameiMessageFunction.41544
++ IntlPreferencesUILibraryCore.frameworkLibrary.12508
++ IntlPreferencesUILibraryCore.frameworkLibrary.51118
++ LoadAppleAccount.frameworkLibrary.45718
++ LoadAppleAccount.loadPredicate.45711
++ LoadCoreSuggestions.frameworkLibrary.44942
++ LoadCoreSuggestions.loadPredicate.44939
++ LoadIDS.frameworkLibrary.21017
++ LoadIDS.frameworkLibrary.28226
++ LoadIDS.frameworkLibrary.41540
++ LoadIDS.frameworkLibrary.44954
++ LoadIDS.loadPredicate.21011
++ LoadIDS.loadPredicate.28224
++ LoadIDS.loadPredicate.41538
++ LoadIDS.loadPredicate.44948
++ LoadMobileCoreServices.frameworkLibrary.42358
++ LoadMobileCoreServices.frameworkLibrary.50863
++ LoadMobileCoreServices.loadPredicate.42356
++ LoadMobileCoreServices.loadPredicate.50861
++ LoadPhotosUI.frameworkLibrary.40294
++ LoadPhotosUI.loadPredicate.40286
++ LoadSocial.frameworkLibrary.52233
++ LoadSocial.frameworkLibrary.56956
++ LoadSocial.loadPredicate.52227
++ LoadSocial.loadPredicate.56950
++ OBJC_IVAR_$_CNCardGameCenterManager._isEligibleForFriendingViaPush
++ PHPickerViewControllerFunction.40290
++ SLComposeViewControllerFunction.52230
++ SLComposeViewControllerFunction.56953
++ _OBJC_$_PROP_LIST_CNContactListAction.9077
++ _OBJC_CLASS_$_CNPropertyPostalAddressAction
++ _OBJC_METACLASS_$_CNPropertyPostalAddressAction
++ __47-[CNShareLocationController initiateIDSRequest]_block_invoke.85
++ __48-[CNShareLocationController stopSharingLocation]_block_invoke.69
++ __49-[CNShareLocationController startUpdatingFriends]_block_invoke.72
++ __57-[CNShareLocationController shareLocationWithExpiration:]_block_invoke.67
++ __63-[CNShareLocationController actionsMenuProviderWithCompletion:]_block_invoke.30
++ __76-[CNCardGameCenterManager handleResults:forContact:error:completionHandler:]_block_invoke.7
++ __AvatarKitLibraryCore_block_invoke.20252
++ __AvatarKitLibraryCore_block_invoke.27772
++ __AvatarKitLibraryCore_block_invoke.29886
++ __AvatarKitLibraryCore_block_invoke.45345
++ __AvatarKitLibraryCore_block_invoke.48852
++ __AvatarUILibraryCore_block_invoke.11857
++ __AvatarUILibraryCore_block_invoke.14559
++ __AvatarUILibraryCore_block_invoke.20267
++ __AvatarUILibraryCore_block_invoke.27789
++ __AvatarUILibraryCore_block_invoke.29874
++ __AvatarUILibraryCore_block_invoke.30781
++ __AvatarUILibraryCore_block_invoke.31306
++ __AvatarUILibraryCore_block_invoke.37599
++ __AvatarUILibraryCore_block_invoke.47055
++ __AvatarUILibraryCore_block_invoke.48828
++ __Block_byref_object_copy_.12246
++ __Block_byref_object_copy_.13367
++ __Block_byref_object_copy_.14844
++ __Block_byref_object_copy_.15259
++ __Block_byref_object_copy_.19640
++ __Block_byref_object_copy_.20529
++ __Block_byref_object_copy_.21581
++ __Block_byref_object_copy_.22027
++ __Block_byref_object_copy_.24732
++ __Block_byref_object_copy_.27078
++ __Block_byref_object_copy_.28038
++ __Block_byref_object_copy_.29881
++ __Block_byref_object_copy_.30110
++ __Block_byref_object_copy_.31300
++ __Block_byref_object_copy_.39975
++ __Block_byref_object_copy_.43467
++ __Block_byref_object_copy_.45338
++ __Block_byref_object_copy_.46682
++ __Block_byref_object_copy_.48150
++ __Block_byref_object_copy_.49169
++ __Block_byref_object_copy_.50067
++ __Block_byref_object_copy_.52118
++ __Block_byref_object_copy_.54681
++ __Block_byref_object_copy_.56343
++ __Block_byref_object_copy_.56847
++ __Block_byref_object_dispose_.12247
++ __Block_byref_object_dispose_.13368
++ __Block_byref_object_dispose_.14845
++ __Block_byref_object_dispose_.15260
++ __Block_byref_object_dispose_.19641
++ __Block_byref_object_dispose_.20530
++ __Block_byref_object_dispose_.21582
++ __Block_byref_object_dispose_.22028
++ __Block_byref_object_dispose_.24733
++ __Block_byref_object_dispose_.27079
++ __Block_byref_object_dispose_.28039
++ __Block_byref_object_dispose_.29882
++ __Block_byref_object_dispose_.30111
++ __Block_byref_object_dispose_.31301
++ __Block_byref_object_dispose_.39976
++ __Block_byref_object_dispose_.43468
++ __Block_byref_object_dispose_.45339
++ __Block_byref_object_dispose_.46683
++ __Block_byref_object_dispose_.48151
++ __Block_byref_object_dispose_.49170
++ __Block_byref_object_dispose_.50068
++ __Block_byref_object_dispose_.52119
++ __Block_byref_object_dispose_.54682
++ __Block_byref_object_dispose_.56344
++ __Block_byref_object_dispose_.56848
++ __IntlPreferencesUILibraryCore_block_invoke.12509
++ __IntlPreferencesUILibraryCore_block_invoke.51119
++ __LoadAppleAccount_block_invoke.45716
++ __LoadCoreSuggestions_block_invoke.44941
++ __LoadIDS_block_invoke.21016
++ __LoadIDS_block_invoke.28233
++ __LoadIDS_block_invoke.41547
++ __LoadIDS_block_invoke.44953
++ __LoadMobileCoreServices_block_invoke.42362
++ __LoadMobileCoreServices_block_invoke.50870
++ __LoadPhotosUI_block_invoke.40292
++ __LoadSocial_block_invoke.52232
++ __LoadSocial_block_invoke.56955
++ __OBJC_$_INSTANCE_METHODS_CNPropertyPostalAddressAction
++ __OBJC_CLASS_RO_$_CNPropertyPostalAddressAction
++ __OBJC_METACLASS_RO_$_CNPropertyPostalAddressAction
++ ___block_descriptor_64_e8_32s40s48s56bs_e27_v24?0"NSSet"8"NSError"16ls32l8s56l8s40l8s48l8
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ __block_literal_global.10203
++ __block_literal_global.10268
++ __block_literal_global.10360
++ __block_literal_global.10623
++ __block_literal_global.109.22865
++ __block_literal_global.109.57018
++ __block_literal_global.11.56045
++ __block_literal_global.11070
++ __block_literal_global.11847
++ __block_literal_global.12129
++ __block_literal_global.12181
++ __block_literal_global.125.57008
++ __block_literal_global.12529
++ __block_literal_global.132.24789
++ __block_literal_global.1334.20578
++ __block_literal_global.13360
++ __block_literal_global.134.42357
++ __block_literal_global.14.26303
++ __block_literal_global.14.28412
++ __block_literal_global.14.28624
++ __block_literal_global.14.40639
++ __block_literal_global.14.50609
++ __block_literal_global.14226
++ __block_literal_global.1436
++ __block_literal_global.14909
++ __block_literal_global.15.36208
++ __block_literal_global.15085
++ __block_literal_global.152.38850
++ __block_literal_global.15255
++ __block_literal_global.16190
++ __block_literal_global.16783
++ __block_literal_global.177.49397
++ __block_literal_global.177.56985
++ __block_literal_global.18.24295
++ __block_literal_global.18.26304
++ __block_literal_global.18570
++ __block_literal_global.18787
++ __block_literal_global.19.36214
++ __block_literal_global.19.37844
++ __block_literal_global.19001
++ __block_literal_global.19062
++ __block_literal_global.19278
++ __block_literal_global.19560
++ __block_literal_global.19654
++ __block_literal_global.19991
++ __block_literal_global.20.16217
++ __block_literal_global.20.31942
++ __block_literal_global.20.56371
++ __block_literal_global.20683
++ __block_literal_global.21.50605
++ __block_literal_global.21047
++ __block_literal_global.21506
++ __block_literal_global.21937
++ __block_literal_global.22041
++ __block_literal_global.22472
++ __block_literal_global.2265
++ __block_literal_global.22823
++ __block_literal_global.23.36712
++ __block_literal_global.23.40625
++ __block_literal_global.23.55347
++ __block_literal_global.23551
++ __block_literal_global.24.26295
++ __block_literal_global.24.28404
++ __block_literal_global.24063
++ __block_literal_global.24294
++ __block_literal_global.249
++ __block_literal_global.25.55348
++ __block_literal_global.25173
++ __block_literal_global.253
++ __block_literal_global.26.26296
++ __block_literal_global.26098
++ __block_literal_global.26175
++ __block_literal_global.26318
++ __block_literal_global.26827
++ __block_literal_global.26888
++ __block_literal_global.27108
++ __block_literal_global.27502
++ __block_literal_global.28.36223
++ __block_literal_global.28092
++ __block_literal_global.28243
++ __block_literal_global.28422
++ __block_literal_global.28584
++ __block_literal_global.28628
++ __block_literal_global.28854
++ __block_literal_global.28896
++ __block_literal_global.29.28399
++ __block_literal_global.29.40616
++ __block_literal_global.29.43262
++ __block_literal_global.29.55865
++ __block_literal_global.29149
++ __block_literal_global.29441
++ __block_literal_global.296
++ __block_literal_global.2966
++ __block_literal_global.29895
++ __block_literal_global.3.26180
++ __block_literal_global.3.50640
++ __block_literal_global.3.51531
++ __block_literal_global.30159
++ __block_literal_global.30871
++ __block_literal_global.31.26279
++ __block_literal_global.31.36226
++ __block_literal_global.31.51299
++ __block_literal_global.31186
++ __block_literal_global.31322
++ __block_literal_global.315
++ __block_literal_global.31689
++ __block_literal_global.31910
++ __block_literal_global.32034
++ __block_literal_global.32385
++ __block_literal_global.32926
++ __block_literal_global.336
++ __block_literal_global.33649
++ __block_literal_global.33990
++ __block_literal_global.34.28397
++ __block_literal_global.34.36231
++ __block_literal_global.34205
++ __block_literal_global.34330
++ __block_literal_global.34471
++ __block_literal_global.35058
++ __block_literal_global.35922
++ __block_literal_global.35937
++ __block_literal_global.36.26281
++ __block_literal_global.36.30153
++ __block_literal_global.36192
++ __block_literal_global.36440
++ __block_literal_global.36593
++ __block_literal_global.36734
++ __block_literal_global.37.16205
++ __block_literal_global.37.36234
++ __block_literal_global.37480
++ __block_literal_global.37555
++ __block_literal_global.37586
++ __block_literal_global.37854
++ __block_literal_global.38.35055
++ __block_literal_global.38.56355
++ __block_literal_global.38129
++ __block_literal_global.38760
++ __block_literal_global.39141
++ __block_literal_global.39240
++ __block_literal_global.39342
++ __block_literal_global.39752
++ __block_literal_global.39962
++ __block_literal_global.4.28850
++ __block_literal_global.4.33991
++ __block_literal_global.4.41932
++ __block_literal_global.40.36239
++ __block_literal_global.40138
++ __block_literal_global.40304
++ __block_literal_global.40646
++ __block_literal_global.41.21599
++ __block_literal_global.41.27484
++ __block_literal_global.41539
++ __block_literal_global.41934
++ __block_literal_global.42.58658
++ __block_literal_global.42127
++ __block_literal_global.42376
++ __block_literal_global.42793
++ __block_literal_global.43.28225
++ __block_literal_global.43.36242
++ __block_literal_global.43069
++ __block_literal_global.43295
++ __block_literal_global.43632
++ __block_literal_global.43725
++ __block_literal_global.43876
++ __block_literal_global.43924
++ __block_literal_global.43984
++ __block_literal_global.44406
++ __block_literal_global.44957
++ __block_literal_global.45385
++ __block_literal_global.45421
++ __block_literal_global.45529
++ __block_literal_global.45707
++ __block_literal_global.45803
++ __block_literal_global.45818
++ __block_literal_global.45977
++ __block_literal_global.46.36245
++ __block_literal_global.46.49769
++ __block_literal_global.46081
++ __block_literal_global.46689
++ __block_literal_global.46796
++ __block_literal_global.47.43719
++ __block_literal_global.47100
++ __block_literal_global.48149
++ __block_literal_global.48501
++ __block_literal_global.48869
++ __block_literal_global.49.36248
++ __block_literal_global.493
++ __block_literal_global.49407
++ __block_literal_global.49810
++ __block_literal_global.50650
++ __block_literal_global.50862
++ __block_literal_global.51294
++ __block_literal_global.51526
++ __block_literal_global.519
++ __block_literal_global.52284
++ __block_literal_global.53498
++ __block_literal_global.54.45712
++ __block_literal_global.54632
++ __block_literal_global.55361
++ __block_literal_global.55894
++ __block_literal_global.56.53439
++ __block_literal_global.56.58648
++ __block_literal_global.56051
++ __block_literal_global.563
++ __block_literal_global.56381
++ __block_literal_global.57.26263
++ __block_literal_global.57101
++ __block_literal_global.57399
++ __block_literal_global.5761
++ __block_literal_global.57805
++ __block_literal_global.58.28389
++ __block_literal_global.58050
++ __block_literal_global.58266
++ __block_literal_global.58442
++ __block_literal_global.587
++ __block_literal_global.6.15083
++ __block_literal_global.6045
++ __block_literal_global.62.36576
++ __block_literal_global.6441
++ __block_literal_global.645
++ __block_literal_global.6723
++ __block_literal_global.7.26186
++ __block_literal_global.71.22844
++ __block_literal_global.73.52273
++ __block_literal_global.75.25161
++ __block_literal_global.75.39957
++ __block_literal_global.7666
++ __block_literal_global.78.12226
++ __block_literal_global.8.37579
++ __block_literal_global.8.41929
++ __block_literal_global.82
++ __block_literal_global.8486
++ __block_literal_global.8661
++ __block_literal_global.8999
++ __block_literal_global.9.28417
++ __block_literal_global.9.28846
++ __block_literal_global.92.46710
++ __block_literal_global.9333
++ __block_literal_global.9551
++ __getAVTAvatarRecordImageProviderClass_block_invoke.20260
++ __getAVTAvatarRecordImageProviderClass_block_invoke.29862
++ __getAVTAvatarRecordImageProviderClass_block_invoke.47047
++ __getAVTAvatarRecordRenderingClass_block_invoke.27768
++ __getAVTAvatarRecordRenderingClass_block_invoke.48826
++ __getAVTAvatarStoreClass_block_invoke.14572
++ __getAVTAvatarStoreClass_block_invoke.37609
++ __getAVTRenderingScopeClass_block_invoke.20262
++ __getAVTRenderingScopeClass_block_invoke.29864
++ __getAVTRenderingScopeClass_block_invoke.47049
++ __getAVTStickerGeneratorClass_block_invoke.27770
++ __getAVTStickerGeneratorOptionsClass_block_invoke.45341
++ __getAVTViewClass_block_invoke.48848
++ __getIPPronounPickerViewControllerClass_block_invoke.12507
++ __getIPPronounPickerViewControllerClass_block_invoke.51117
++ __swift_FORCE_LOAD_$_swiftCompression
++ __swift_FORCE_LOAD_$_swiftCompression_$_ContactsUI
++ _extensionAuxiliaryHostProtocol.__interface.22839
++ _extensionAuxiliaryHostProtocol.onceToken.22838
++ _extensionAuxiliaryVendorProtocol.__interface.22845
++ _extensionAuxiliaryVendorProtocol.onceToken.22843
++ _objc_msgSend$isEligibleForFriendingViaPush
++ _objc_msgSend$setIsEligibleForFriendingViaPush:
++ _symbolic _____Sg 10AppIntents16EntityIdentifierV
++ _symbolic _____Sg 14ContactsUICore13ContactEntityV
++ _symbolic _____yAAyAAy_____y_____yAAy_____y_____y_____y_____y_____y_____y___________tGG_Qo_G_Qo__SiQo______G_Qo_______Qo______y_____GG_____G_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE22onScrollGeometryChange3for2of6actionQrqd__m_qd__AA0gH0Vcyqd___qd__tctSQRd__lFQO AeAE0fg5PhaseI0yQryAA0gM0O_ANtcFQO AeAE14scrollPosition2id6anchorQrAA7BindingVyqd__SgG_AA9UnitPointVSgtSHRd__lFQO AE012_AppIntents_aB0E19appEntityIdentifieryQr0uV00xY0VSgFQO AA0gE0V AeAE0N12TargetLayout9isEnabledQrSb_tFQO AA10LazyVStackV AA05TupleE0V 08ContactsB0021ContactCardHeaderNameE0V A11_018ContactCardDetailsE0V AA23SafeAreaPaddingModifierV 12CoreGraphics7CGFloatV AA30_EnvironmentKeyWritingModifierV AA11ColorSchemeO AA14_PaddingLayoutV AA20_BackdropGroupEffectV
++ _symbolic _____yAAy_____y_____yAAy_____y_____y_____y_____y_____y_____y___________tGG_Qo_G_Qo__SiQo______G_Qo_______Qo______y_____GG_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE22onScrollGeometryChange3for2of6actionQrqd__m_qd__AA0gH0Vcyqd___qd__tctSQRd__lFQO AeAE0fg5PhaseI0yQryAA0gM0O_ANtcFQO AeAE14scrollPosition2id6anchorQrAA7BindingVyqd__SgG_AA9UnitPointVSgtSHRd__lFQO AE012_AppIntents_aB0E19appEntityIdentifieryQr0uV00xY0VSgFQO AA0gE0V AeAE0N12TargetLayout9isEnabledQrSb_tFQO AA10LazyVStackV AA05TupleE0V 08ContactsB0021ContactCardHeaderNameE0V A11_018ContactCardDetailsE0V AA23SafeAreaPaddingModifierV 12CoreGraphics7CGFloatV AA30_EnvironmentKeyWritingModifierV AA11ColorSchemeO AA14_PaddingLayoutV
++ _symbolic _____y_____y_____yAAy_____y_____y_____y_____y_____y_____y___________tGG_Qo_G_Qo__SiQo______G_Qo_______Qo______y_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE22onScrollGeometryChange3for2of6actionQrqd__m_qd__AA0gH0Vcyqd___qd__tctSQRd__lFQO AeAE0fg5PhaseI0yQryAA0gM0O_ANtcFQO AeAE14scrollPosition2id6anchorQrAA7BindingVyqd__SgG_AA9UnitPointVSgtSHRd__lFQO AE012_AppIntents_aB0E19appEntityIdentifieryQr0uV00xY0VSgFQO AA0gE0V AeAE0N12TargetLayout9isEnabledQrSb_tFQO AA10LazyVStackV AA05TupleE0V 08ContactsB0021ContactCardHeaderNameE0V A11_018ContactCardDetailsE0V AA23SafeAreaPaddingModifierV 12CoreGraphics7CGFloatV AA30_EnvironmentKeyWritingModifierV AA11ColorSchemeO
++ _symbolic _____y_____y_____y_____y_____y___________tGG_Qo_G_Qo_ 7SwiftUI4ViewP012_AppIntents_aB0E19appEntityIdentifieryQr0dE00gH0VSgFQO AA06ScrollC0V AcAE18scrollTargetLayout9isEnabledQrSb_tFQO AA10LazyVStackV AA05TupleC0V 08ContactsB0021ContactCardHeaderNameC0V AR0st7DetailsC0V
++ _symbolic _____y_____y_____y_____y_____y_____y___________tGG_Qo_G_Qo__SiQo_ 7SwiftUI4ViewPAAE14scrollPosition2id6anchorQrAA7BindingVyqd__SgG_AA9UnitPointVSgtSHRd__lFQO AC012_AppIntents_aB0E19appEntityIdentifieryQr0kL00nO0VSgFQO AA06ScrollC0V AcAE0D12TargetLayout9isEnabledQrSb_tFQO AA10LazyVStackV AA05TupleC0V 08ContactsB0021ContactCardHeaderNameC0V A0_0yz7DetailsC0V
++ _symbolic _____y_____y_____y_____y_____y_____y_____y___________tGG_Qo_G_Qo__SiQo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE14scrollPosition2id6anchorQrAA7BindingVyqd__SgG_AA9UnitPointVSgtSHRd__lFQO AE012_AppIntents_aB0E19appEntityIdentifieryQr0mN00pQ0VSgFQO AA06ScrollE0V AeAE0F12TargetLayout9isEnabledQrSb_tFQO AA10LazyVStackV AA05TupleE0V 08ContactsB0021ContactCardHeaderNameE0V A2_018ContactCardDetailsE0V AA23SafeAreaPaddingModifierV
++ _symbolic _____y_____y_____y_____y_____y_____y_____y_____y___________tGG_Qo_G_Qo__SiQo______G_Qo_ 7SwiftUI4ViewPAAE19onScrollPhaseChangeyQryAA0eF0O_AFtcFQO AA15ModifiedContentV AcAE14scrollPosition2id6anchorQrAA7BindingVyqd__SgG_AA9UnitPointVSgtSHRd__lFQO AC012_AppIntents_aB0E19appEntityIdentifieryQr0qR00tU0VSgFQO AA0eC0V AcAE0J12TargetLayout9isEnabledQrSb_tFQO AA10LazyVStackV AA05TupleC0V 08ContactsB0021ContactCardHeaderNameC0V A5_018ContactCardDetailsC0V AA23SafeAreaPaddingModifierV
++ _symbolic _____y_____y_____y_____y_____y_____y_____y_____y_____y___________tGG_Qo_G_Qo__SiQo______G_Qo_______Qo_ 7SwiftUI4ViewPAAE22onScrollGeometryChange3for2of6actionQrqd__m_qd__AA0eF0Vcyqd___qd__tctSQRd__lFQO AcAE0de5PhaseG0yQryAA0eK0O_ALtcFQO AA15ModifiedContentV AcAE14scrollPosition2id6anchorQrAA7BindingVyqd__SgG_AA9UnitPointVSgtSHRd__lFQO AC012_AppIntents_aB0E19appEntityIdentifieryQr0uV00xY0VSgFQO AA0eC0V AcAE0N12TargetLayout9isEnabledQrSb_tFQO AA10LazyVStackV AA05TupleC0V 08ContactsB0021ContactCardHeaderNameC0V A11_018ContactCardDetailsC0V AA23SafeAreaPaddingModifierV 12CoreGraphics7CGFloatV
++ audit_stringAvatarKit.20257
++ audit_stringAvatarKit.27787
++ audit_stringAvatarKit.29890
++ audit_stringAvatarKit.45359
++ audit_stringAvatarKit.48857
++ audit_stringAvatarUI.11860
++ audit_stringAvatarUI.14565
++ audit_stringAvatarUI.20270
++ audit_stringAvatarUI.27794
++ audit_stringAvatarUI.29876
++ audit_stringAvatarUI.30785
++ audit_stringAvatarUI.31315
++ audit_stringAvatarUI.37602
++ audit_stringAvatarUI.47058
++ audit_stringAvatarUI.48843
++ audit_stringIntlPreferencesUI.12514
++ audit_stringIntlPreferencesUI.51135
++ classIDSIDQueryController.21012
++ classIDSIDQueryController.44949
++ classPHPickerViewController.40288
++ classSLComposeViewController.52228
++ classSLComposeViewController.56951
++ constantIDSServiceNameFaceTime.28228
++ constantIDSServiceNameFaceTime.41553
++ constantIDSServiceNameiMessage.41542
++ constantkUTTypeJPEG.50865
++ constantkUTTypePNG.50874
++ defaultServices._services.43925
++ defaultServices.onceToken.43923
++ descriptorForRequiredKeys.cn_once_object_1.16784
++ descriptorForRequiredKeys.cn_once_object_1.29896
++ descriptorForRequiredKeys.cn_once_object_1.32386
++ descriptorForRequiredKeys.cn_once_object_1.38130
++ descriptorForRequiredKeys.cn_once_object_1.39142
++ descriptorForRequiredKeys.cn_once_object_1.42128
++ descriptorForRequiredKeys.cn_once_object_1.43070
++ descriptorForRequiredKeys.cn_once_object_1.43633
++ descriptorForRequiredKeys.cn_once_object_1.44407
++ descriptorForRequiredKeys.cn_once_object_1.47101
++ descriptorForRequiredKeys.cn_once_object_1.5762
++ descriptorForRequiredKeys.cn_once_object_2.14906
++ descriptorForRequiredKeys.cn_once_object_2.28851
++ descriptorForRequiredKeys.cn_once_object_2.40640
++ descriptorForRequiredKeys.cn_once_object_3.30870
++ descriptorForRequiredKeys.cn_once_token_1.16782
++ descriptorForRequiredKeys.cn_once_token_1.29894
++ descriptorForRequiredKeys.cn_once_token_1.32384
++ descriptorForRequiredKeys.cn_once_token_1.38128
++ descriptorForRequiredKeys.cn_once_token_1.39140
++ descriptorForRequiredKeys.cn_once_token_1.42126
++ descriptorForRequiredKeys.cn_once_token_1.43068
++ descriptorForRequiredKeys.cn_once_token_1.43631
++ descriptorForRequiredKeys.cn_once_token_1.44405
++ descriptorForRequiredKeys.cn_once_token_1.47099
++ descriptorForRequiredKeys.cn_once_token_1.5760
++ descriptorForRequiredKeys.cn_once_token_2.14905
++ descriptorForRequiredKeys.cn_once_token_2.28849
++ descriptorForRequiredKeys.cn_once_token_2.40638
++ descriptorForRequiredKeys.cn_once_token_3.30869
++ descriptorForRequiredKeysWithDescription:.cn_once_object_5.52358
++ descriptorForRequiredKeysWithDescription:.cn_once_object_5.57108
++ descriptorForRequiredKeysWithDescription:.cn_once_token_5.52357
++ descriptorForRequiredKeysWithDescription:.cn_once_token_5.57107
++ enablesTransportButtons.s_enableTransportButtons.57102
++ enablesTransportButtons.s_onceToken.57100
++ fullFormatter.39755
++ getAVTAvatarRecordImageProviderClass.softClass.20259
++ getAVTAvatarRecordImageProviderClass.softClass.29861
++ getAVTAvatarRecordImageProviderClass.softClass.47046
++ getAVTAvatarRecordRenderingClass.softClass.27767
++ getAVTAvatarRecordRenderingClass.softClass.48825
++ getAVTAvatarStoreClass.softClass.14571
++ getAVTAvatarStoreClass.softClass.37608
++ getAVTRenderingScopeClass.softClass.20261
++ getAVTRenderingScopeClass.softClass.29863
++ getAVTRenderingScopeClass.softClass.47048
++ getAVTStickerGeneratorClass.softClass.27769
++ getAVTStickerGeneratorOptionsClass.softClass.45340
++ getAVTViewClass.softClass.48847
++ getIDSIDQueryControllerClass.21005
++ getIDSIDQueryControllerClass.44945
++ getIDSServiceNameFaceTime.28221
++ getIDSServiceNameFaceTime.41533
++ getIDSServiceNameiMessage.41535
++ getIPPronounPickerViewControllerClass.softClass.12506
++ getIPPronounPickerViewControllerClass.softClass.51116
++ getPHPickerViewControllerClass.40283
++ getSLComposeViewControllerClass.52222
++ getSLComposeViewControllerClass.56944
++ get_witness_table 7SwiftUI15ModifiedContentVyACyAA6VStackVyAA9TupleViewVyACyACyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA0H9AlignmentOGGAKyAA4FontVSgGGSg_AA6SpacerVAA6HStackVyAGyACyAEyAGyAI_AItGGAA14_PaddingLayoutVG_AWtGGtGGAKyAA5ColorVSgGGA1_GSgAA0G0HpA12_AAA14_HPA11_AAA14_HPA6_AAA14_HPyHC_A10_AA0gL0HPyHCHC_A1_AAA15_HPyHCHC_HC.136
++ get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA4ViewPAAE22onScrollGeometryChange3for2of6actionQrqd__m_qd__AA0gH0Vcyqd___qd__tctSQRd__lFQOyAeAE0fg5PhaseI0yQryAA0gM0O_ANtcFQOyACyAeAE14scrollPosition2id6anchorQrAA7BindingVyqd__SgG_AA9UnitPointVSgtSHRd__lFQOyAE012_AppIntents_aB0E19appEntityIdentifieryQr0uV00xY0VSgFQOyAA0gE0VyAeAE0N12TargetLayout9isEnabledQrSb_tFQOyAA10LazyVStackVyAA05TupleE0Vy08ContactsB0021ContactCardHeaderNameE0V_A11_018ContactCardDetailsE0VtGG_Qo_G_Qo__SiQo_AA23SafeAreaPaddingModifierVG_Qo__12CoreGraphics7CGFloatVQo_AA30_EnvironmentKeyWritingModifierVyAA11ColorSchemeOGGAA14_PaddingLayoutVGAA20_BackdropGroupEffectVGAaDHPA38_AaDHPA35_AaDHPqd0__AaDHD3_A29_HO_A34_AA0E8ModifierHPyHCHC_A37_AAA42_HPyHCHC_A40_AAA42_HPyHCHC.138
++ get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEy08ContactsB014AnswerTemplateVAA25_AppearanceActionModifierVGAA010_TaskValueK0VySo9CNContactCGGAEyAEyAF015ContactCardViewaB0VAJGAPGGAA0Q0HPAqaWHPAkaWHPAhaWHPyHC_AjA0qK0HPyHCHC_ApaXHPyHCHC_AuaWHPAtaWHPAsaWHPyHC_AjaXHPyHCHC_ApaXHPyHCHCHC.77
++ getkUTTypeJPEG.50857
++ getkUTTypePNG.50856
++ initIDSIDQueryController.21010
++ initIDSIDQueryController.44947
++ initIDSServiceNameFaceTime.28223
++ initIDSServiceNameFaceTime.41551
++ initIDSServiceNameiMessage.41537
++ initPHPickerViewController.40285
++ initSLComposeViewController.52226
++ initSLComposeViewController.56949
++ initkUTTypeJPEG.50860
++ initkUTTypePNG.50873
++ kUTTypeJPEGFunction.50867
++ kUTTypePNGFunction.50876
++ log.cn_once_object_1.12182
++ log.cn_once_object_1.14227
++ log.cn_once_object_1.14910
++ log.cn_once_object_1.19561
++ log.cn_once_object_1.19992
++ log.cn_once_object_1.21507
++ log.cn_once_object_1.22042
++ log.cn_once_object_1.23552
++ log.cn_once_object_1.28855
++ log.cn_once_object_1.30160
++ log.cn_once_object_1.31323
++ log.cn_once_object_1.31911
++ log.cn_once_object_1.32927
++ log.cn_once_object_1.34206
++ log.cn_once_object_1.36735
++ log.cn_once_object_1.40647
++ log.cn_once_object_1.43296
++ log.cn_once_object_1.43985
++ log.cn_once_object_1.45386
++ log.cn_once_object_1.45804
++ log.cn_once_object_1.45978
++ log.cn_once_object_1.48870
++ log.cn_once_object_1.53499
++ log.cn_once_object_1.58443
++ log.cn_once_object_1.8487
++ log.cn_once_object_1.9000
++ log.cn_once_object_2.40305
++ log.cn_once_object_2.42794
++ log.cn_once_object_2.45530
++ log.cn_once_object_4.21600
++ log.cn_once_token_1.12180
++ log.cn_once_token_1.14225
++ log.cn_once_token_1.14908
++ log.cn_once_token_1.19559
++ log.cn_once_token_1.19990
++ log.cn_once_token_1.21505
++ log.cn_once_token_1.22040
++ log.cn_once_token_1.23550
++ log.cn_once_token_1.28853
++ log.cn_once_token_1.30158
++ log.cn_once_token_1.31321
++ log.cn_once_token_1.31909
++ log.cn_once_token_1.32925
++ log.cn_once_token_1.34204
++ log.cn_once_token_1.36733
++ log.cn_once_token_1.40645
++ log.cn_once_token_1.43294
++ log.cn_once_token_1.43983
++ log.cn_once_token_1.45384
++ log.cn_once_token_1.45802
++ log.cn_once_token_1.45976
++ log.cn_once_token_1.48868
++ log.cn_once_token_1.53497
++ log.cn_once_token_1.58441
++ log.cn_once_token_1.8485
++ log.cn_once_token_1.8998
++ log.cn_once_token_2.40303
++ log.cn_once_token_2.42792
++ log.cn_once_token_2.45528
++ log.cn_once_token_4.21598
++ os_log.cn_once_object_1.39241
++ os_log.cn_once_object_1.55895
++ os_log.cn_once_object_1.58051
++ os_log.cn_once_object_1.8662
++ os_log.cn_once_object_1.9552
++ os_log.cn_once_token_1.39239
++ os_log.cn_once_token_1.55893
++ os_log.cn_once_token_1.58049
++ os_log.cn_once_token_1.8660
++ os_log.cn_once_token_1.9550
++ supportedPasteboardTypes.cn_once_object_1.45819
++ supportedPasteboardTypes.cn_once_token_1.45817
++ yearlessFormatter.39754
+- AvatarKitLibraryCore.frameworkLibrary.20241
+- AvatarKitLibraryCore.frameworkLibrary.27757
+- AvatarKitLibraryCore.frameworkLibrary.29870
+- AvatarKitLibraryCore.frameworkLibrary.45305
+- AvatarKitLibraryCore.frameworkLibrary.48808
+- AvatarUILibrary.20253
+- AvatarUILibrary.29850
+- AvatarUILibrary.37568
+- AvatarUILibrary.47009
+- AvatarUILibraryCore.frameworkLibrary.11855
+- AvatarUILibraryCore.frameworkLibrary.14556
+- AvatarUILibraryCore.frameworkLibrary.20256
+- AvatarUILibraryCore.frameworkLibrary.27774
+- AvatarUILibraryCore.frameworkLibrary.29858
+- AvatarUILibraryCore.frameworkLibrary.30765
+- AvatarUILibraryCore.frameworkLibrary.31290
+- AvatarUILibraryCore.frameworkLibrary.37578
+- AvatarUILibraryCore.frameworkLibrary.47012
+- AvatarUILibraryCore.frameworkLibrary.48784
+- GCC_except_table10114
+- GCC_except_table10134
+- GCC_except_table10139
+- GCC_except_table10349
+- GCC_except_table10375
+- GCC_except_table10494
+- GCC_except_table10554
+- GCC_except_table10616
+- GCC_except_table10617
+- GCC_except_table10627
+- GCC_except_table10628
+- GCC_except_table11536
+- GCC_except_table11663
+- GCC_except_table11874
+- GCC_except_table12040
+- GCC_except_table12424
+- GCC_except_table12427
+- GCC_except_table12532
+- GCC_except_table12793
+- GCC_except_table12947
+- GCC_except_table13018
+- GCC_except_table13082
+- GCC_except_table13089
+- GCC_except_table13091
+- GCC_except_table13114
+- GCC_except_table13274
+- GCC_except_table13405
+- GCC_except_table13503
+- GCC_except_table13802
+- GCC_except_table13817
+- GCC_except_table13829
+- GCC_except_table13830
+- GCC_except_table13835
+- GCC_except_table13855
+- GCC_except_table14235
+- GCC_except_table14237
+- GCC_except_table14246
+- GCC_except_table14337
+- GCC_except_table14400
+- GCC_except_table14424
+- GCC_except_table14814
+- GCC_except_table15204
+- GCC_except_table15253
+- GCC_except_table15298
+- GCC_except_table15317
+- GCC_except_table15344
+- GCC_except_table15345
+- GCC_except_table15352
+- GCC_except_table15353
+- GCC_except_table15378
+- GCC_except_table15503
+- GCC_except_table15519
+- GCC_except_table15529
+- GCC_except_table15573
+- GCC_except_table15745
+- GCC_except_table15929
+- GCC_except_table5718
+- GCC_except_table5724
+- GCC_except_table5950
+- GCC_except_table6193
+- GCC_except_table6328
+- GCC_except_table6404
+- GCC_except_table6530
+- GCC_except_table6763
+- GCC_except_table6828
+- GCC_except_table7223
+- GCC_except_table7257
+- GCC_except_table7367
+- GCC_except_table7408
+- GCC_except_table7810
+- GCC_except_table7875
+- GCC_except_table7881
+- GCC_except_table7973
+- GCC_except_table8013
+- GCC_except_table8036
+- GCC_except_table8512
+- GCC_except_table8520
+- GCC_except_table8589
+- GCC_except_table8592
+- GCC_except_table8687
+- GCC_except_table8727
+- GCC_except_table8743
+- GCC_except_table8748
+- GCC_except_table8783
+- GCC_except_table8861
+- GCC_except_table8867
+- GCC_except_table8958
+- GCC_except_table9081
+- GCC_except_table9517
+- GCC_except_table9691
+- GCC_except_table9697
+- GCC_except_table9749
+- GCC_except_table9942
+- IDSIDQueryControllerFunction.20992
+- IDSIDQueryControllerFunction.44913
+- IDSServiceNameFaceTimeFunction.28216
+- IDSServiceNameFaceTimeFunction.41517
+- IDSServiceNameiMessageFunction.41506
+- IntlPreferencesUILibraryCore.frameworkLibrary.12507
+- IntlPreferencesUILibraryCore.frameworkLibrary.51074
+- LoadAppleAccount.frameworkLibrary.45679
+- LoadAppleAccount.loadPredicate.45674
+- LoadCoreSuggestions.frameworkLibrary.44905
+- LoadCoreSuggestions.loadPredicate.44901
+- LoadIDS.frameworkLibrary.20995
+- LoadIDS.frameworkLibrary.28212
+- LoadIDS.frameworkLibrary.41502
+- LoadIDS.frameworkLibrary.44916
+- LoadIDS.loadPredicate.20989
+- LoadIDS.loadPredicate.28210
+- LoadIDS.loadPredicate.41500
+- LoadIDS.loadPredicate.44910
+- LoadMobileCoreServices.frameworkLibrary.42320
+- LoadMobileCoreServices.frameworkLibrary.50820
+- LoadMobileCoreServices.loadPredicate.42318
+- LoadMobileCoreServices.loadPredicate.50818
+- LoadPhotosUI.frameworkLibrary.40259
+- LoadPhotosUI.loadPredicate.40251
+- LoadSocial.frameworkLibrary.52190
+- LoadSocial.frameworkLibrary.56912
+- LoadSocial.loadPredicate.52184
+- LoadSocial.loadPredicate.56906
+- PHPickerViewControllerFunction.40255
+- SLComposeViewControllerFunction.52187
+- SLComposeViewControllerFunction.56909
+- _OBJC_$_PROP_LIST_CNContactListAction.9074
+- __47-[CNShareLocationController initiateIDSRequest]_block_invoke.82
+- __48-[CNShareLocationController stopSharingLocation]_block_invoke.66
+- __49-[CNShareLocationController startUpdatingFriends]_block_invoke.69
+- __57-[CNShareLocationController shareLocationWithExpiration:]_block_invoke.64
+- __63-[CNShareLocationController actionsMenuProviderWithCompletion:]_block_invoke.27
+- __AvatarKitLibraryCore_block_invoke.20242
+- __AvatarKitLibraryCore_block_invoke.27758
+- __AvatarKitLibraryCore_block_invoke.29871
+- __AvatarKitLibraryCore_block_invoke.45306
+- __AvatarKitLibraryCore_block_invoke.48809
+- __AvatarUILibraryCore_block_invoke.11856
+- __AvatarUILibraryCore_block_invoke.14557
+- __AvatarUILibraryCore_block_invoke.20257
+- __AvatarUILibraryCore_block_invoke.27775
+- __AvatarUILibraryCore_block_invoke.29859
+- __AvatarUILibraryCore_block_invoke.30766
+- __AvatarUILibraryCore_block_invoke.31291
+- __AvatarUILibraryCore_block_invoke.37579
+- __AvatarUILibraryCore_block_invoke.47013
+- __AvatarUILibraryCore_block_invoke.48785
+- __Block_byref_object_copy_.12245
+- __Block_byref_object_copy_.13366
+- __Block_byref_object_copy_.14842
+- __Block_byref_object_copy_.15257
+- __Block_byref_object_copy_.19639
+- __Block_byref_object_copy_.20508
+- __Block_byref_object_copy_.21560
+- __Block_byref_object_copy_.22006
+- __Block_byref_object_copy_.24717
+- __Block_byref_object_copy_.27066
+- __Block_byref_object_copy_.28024
+- __Block_byref_object_copy_.29866
+- __Block_byref_object_copy_.30095
+- __Block_byref_object_copy_.31285
+- __Block_byref_object_copy_.39941
+- __Block_byref_object_copy_.43429
+- __Block_byref_object_copy_.45299
+- __Block_byref_object_copy_.46643
+- __Block_byref_object_copy_.48107
+- __Block_byref_object_copy_.49126
+- __Block_byref_object_copy_.50024
+- __Block_byref_object_copy_.52078
+- __Block_byref_object_copy_.54624
+- __Block_byref_object_copy_.56286
+- __Block_byref_object_copy_.56795
+- __Block_byref_object_dispose_.12246
+- __Block_byref_object_dispose_.13367
+- __Block_byref_object_dispose_.14843
+- __Block_byref_object_dispose_.15258
+- __Block_byref_object_dispose_.19640
+- __Block_byref_object_dispose_.20509
+- __Block_byref_object_dispose_.21561
+- __Block_byref_object_dispose_.22007
+- __Block_byref_object_dispose_.24718
+- __Block_byref_object_dispose_.27067
+- __Block_byref_object_dispose_.28025
+- __Block_byref_object_dispose_.29867
+- __Block_byref_object_dispose_.30096
+- __Block_byref_object_dispose_.31286
+- __Block_byref_object_dispose_.39942
+- __Block_byref_object_dispose_.43430
+- __Block_byref_object_dispose_.45300
+- __Block_byref_object_dispose_.46644
+- __Block_byref_object_dispose_.48108
+- __Block_byref_object_dispose_.49127
+- __Block_byref_object_dispose_.50025
+- __Block_byref_object_dispose_.52079
+- __Block_byref_object_dispose_.54625
+- __Block_byref_object_dispose_.56287
+- __Block_byref_object_dispose_.56796
+- __IntlPreferencesUILibraryCore_block_invoke.12508
+- __IntlPreferencesUILibraryCore_block_invoke.51075
+- __LoadAppleAccount_block_invoke.45677
+- __LoadCoreSuggestions_block_invoke.44904
+- __LoadIDS_block_invoke.20994
+- __LoadIDS_block_invoke.28219
+- __LoadIDS_block_invoke.41509
+- __LoadIDS_block_invoke.44915
+- __LoadMobileCoreServices_block_invoke.42324
+- __LoadMobileCoreServices_block_invoke.50827
+- __LoadPhotosUI_block_invoke.40257
+- __LoadSocial_block_invoke.52189
+- __LoadSocial_block_invoke.56911
+- __block_literal_global.10202
+- __block_literal_global.10267
+- __block_literal_global.10359
+- __block_literal_global.10622
+- __block_literal_global.109.22841
+- __block_literal_global.109.56975
+- __block_literal_global.11.55988
+- __block_literal_global.11069
+- __block_literal_global.11846
+- __block_literal_global.12128
+- __block_literal_global.12180
+- __block_literal_global.125.56965
+- __block_literal_global.12528
+- __block_literal_global.132.24775
+- __block_literal_global.1332
+- __block_literal_global.13359
+- __block_literal_global.134.42319
+- __block_literal_global.14.26291
+- __block_literal_global.14.28398
+- __block_literal_global.14.28610
+- __block_literal_global.14.40604
+- __block_literal_global.14.50565
+- __block_literal_global.14222
+- __block_literal_global.1434
+- __block_literal_global.14907
+- __block_literal_global.15.36189
+- __block_literal_global.15.37819
+- __block_literal_global.15083
+- __block_literal_global.152.38820
+- __block_literal_global.15253
+- __block_literal_global.16188
+- __block_literal_global.16781
+- __block_literal_global.174.49357
+- __block_literal_global.177.56942
+- __block_literal_global.18.24275
+- __block_literal_global.18.26292
+- __block_literal_global.18569
+- __block_literal_global.18786
+- __block_literal_global.19.36195
+- __block_literal_global.19000
+- __block_literal_global.19061
+- __block_literal_global.19277
+- __block_literal_global.19559
+- __block_literal_global.19653
+- __block_literal_global.19990
+- __block_literal_global.20.16215
+- __block_literal_global.20.31927
+- __block_literal_global.20.56314
+- __block_literal_global.20662
+- __block_literal_global.21.50561
+- __block_literal_global.21025
+- __block_literal_global.21485
+- __block_literal_global.21916
+- __block_literal_global.22020
+- __block_literal_global.22450
+- __block_literal_global.2263
+- __block_literal_global.22799
+- __block_literal_global.23.36692
+- __block_literal_global.23.40590
+- __block_literal_global.23.55290
+- __block_literal_global.23525
+- __block_literal_global.24.26283
+- __block_literal_global.24.28390
+- __block_literal_global.24037
+- __block_literal_global.24274
+- __block_literal_global.246
+- __block_literal_global.25.55291
+- __block_literal_global.250
+- __block_literal_global.25161
+- __block_literal_global.26.26284
+- __block_literal_global.26086
+- __block_literal_global.26163
+- __block_literal_global.26306
+- __block_literal_global.26815
+- __block_literal_global.26876
+- __block_literal_global.27096
+- __block_literal_global.27489
+- __block_literal_global.28.36204
+- __block_literal_global.28078
+- __block_literal_global.28229
+- __block_literal_global.28408
+- __block_literal_global.28570
+- __block_literal_global.28614
+- __block_literal_global.28840
+- __block_literal_global.28882
+- __block_literal_global.29.28385
+- __block_literal_global.29.40581
+- __block_literal_global.29.43224
+- __block_literal_global.29.55808
+- __block_literal_global.29135
+- __block_literal_global.294
+- __block_literal_global.29427
+- __block_literal_global.2965
+- __block_literal_global.29880
+- __block_literal_global.3.26168
+- __block_literal_global.3.50596
+- __block_literal_global.3.51487
+- __block_literal_global.30144
+- __block_literal_global.30856
+- __block_literal_global.31.26267
+- __block_literal_global.31.36207
+- __block_literal_global.31.51255
+- __block_literal_global.31171
+- __block_literal_global.313
+- __block_literal_global.31307
+- __block_literal_global.31674
+- __block_literal_global.31895
+- __block_literal_global.32019
+- __block_literal_global.32370
+- __block_literal_global.32908
+- __block_literal_global.334.52302
+- __block_literal_global.33631
+- __block_literal_global.33972
+- __block_literal_global.34.28383
+- __block_literal_global.34.36212
+- __block_literal_global.34187
+- __block_literal_global.34312
+- __block_literal_global.34453
+- __block_literal_global.35040
+- __block_literal_global.35903
+- __block_literal_global.35918
+- __block_literal_global.36.26269
+- __block_literal_global.36.30138
+- __block_literal_global.36173
+- __block_literal_global.36420
+- __block_literal_global.36573
+- __block_literal_global.36714
+- __block_literal_global.37.16203
+- __block_literal_global.37.36215
+- __block_literal_global.37460
+- __block_literal_global.37535
+- __block_literal_global.37566
+- __block_literal_global.37829
+- __block_literal_global.38.35037
+- __block_literal_global.38.56298
+- __block_literal_global.38102
+- __block_literal_global.38730
+- __block_literal_global.39112
+- __block_literal_global.39211
+- __block_literal_global.39313
+- __block_literal_global.39721
+- __block_literal_global.39928
+- __block_literal_global.4.28836
+- __block_literal_global.4.33973
+- __block_literal_global.4.41894
+- __block_literal_global.40.36220
+- __block_literal_global.40103
+- __block_literal_global.40269
+- __block_literal_global.40611
+- __block_literal_global.41.21578
+- __block_literal_global.41.27471
+- __block_literal_global.41501
+- __block_literal_global.41896
+- __block_literal_global.42.58614
+- __block_literal_global.42089
+- __block_literal_global.42338
+- __block_literal_global.42754
+- __block_literal_global.43.28211
+- __block_literal_global.43.36223
+- __block_literal_global.43031
+- __block_literal_global.43257
+- __block_literal_global.43594
+- __block_literal_global.43687
+- __block_literal_global.43838
+- __block_literal_global.43886
+- __block_literal_global.43946
+- __block_literal_global.44368
+- __block_literal_global.44918
+- __block_literal_global.45348
+- __block_literal_global.45384
+- __block_literal_global.45492
+- __block_literal_global.45670
+- __block_literal_global.45764
+- __block_literal_global.45779
+- __block_literal_global.45938
+- __block_literal_global.46.36226
+- __block_literal_global.46.49726
+- __block_literal_global.46042
+- __block_literal_global.46650
+- __block_literal_global.46757
+- __block_literal_global.47.43681
+- __block_literal_global.47058
+- __block_literal_global.48106
+- __block_literal_global.48458
+- __block_literal_global.48826
+- __block_literal_global.49.36229
+- __block_literal_global.491
+- __block_literal_global.49364
+- __block_literal_global.49767
+- __block_literal_global.50606
+- __block_literal_global.50819
+- __block_literal_global.51
+- __block_literal_global.51250
+- __block_literal_global.51482
+- __block_literal_global.517
+- __block_literal_global.52241
+- __block_literal_global.53441
+- __block_literal_global.54575
+- __block_literal_global.55304
+- __block_literal_global.55837
+- __block_literal_global.55994
+- __block_literal_global.56.53382
+- __block_literal_global.56.58604
+- __block_literal_global.561
+- __block_literal_global.56324
+- __block_literal_global.57.26251
+- __block_literal_global.57059
+- __block_literal_global.57356
+- __block_literal_global.5758
+- __block_literal_global.57762
+- __block_literal_global.58.28375
+- __block_literal_global.58006
+- __block_literal_global.58222
+- __block_literal_global.583
+- __block_literal_global.58398
+- __block_literal_global.6.15081
+- __block_literal_global.6042
+- __block_literal_global.62.36556
+- __block_literal_global.643
+- __block_literal_global.6438
+- __block_literal_global.6720
+- __block_literal_global.7.26174
+- __block_literal_global.71.22820
+- __block_literal_global.72
+- __block_literal_global.73.52230
+- __block_literal_global.75.25149
+- __block_literal_global.7663
+- __block_literal_global.78.12225
+- __block_literal_global.79
+- __block_literal_global.8.37559
+- __block_literal_global.8.41891
+- __block_literal_global.8483
+- __block_literal_global.8658
+- __block_literal_global.8996
+- __block_literal_global.9.28403
+- __block_literal_global.9.28832
+- __block_literal_global.92.46671
+- __block_literal_global.9330
+- __block_literal_global.9548
+- __getAVTAvatarRecordImageProviderClass_block_invoke.20250
+- __getAVTAvatarRecordImageProviderClass_block_invoke.29847
+- __getAVTAvatarRecordImageProviderClass_block_invoke.47005
+- __getAVTAvatarRecordRenderingClass_block_invoke.27754
+- __getAVTAvatarRecordRenderingClass_block_invoke.48783
+- __getAVTAvatarStoreClass_block_invoke.14570
+- __getAVTAvatarStoreClass_block_invoke.37589
+- __getAVTRenderingScopeClass_block_invoke.20252
+- __getAVTRenderingScopeClass_block_invoke.29849
+- __getAVTRenderingScopeClass_block_invoke.47007
+- __getAVTStickerGeneratorClass_block_invoke.27756
+- __getAVTStickerGeneratorOptionsClass_block_invoke.45302
+- __getAVTViewClass_block_invoke.48805
+- __getIPPronounPickerViewControllerClass_block_invoke.12506
+- __getIPPronounPickerViewControllerClass_block_invoke.51073
+- __swift_FORCE_LOAD_$_swiftFileProvider
+- __swift_FORCE_LOAD_$_swiftFileProvider_$_ContactsUI
+- _extensionAuxiliaryHostProtocol.__interface.22815
+- _extensionAuxiliaryHostProtocol.onceToken.22814
+- _extensionAuxiliaryVendorProtocol.__interface.22821
+- _extensionAuxiliaryVendorProtocol.onceToken.22819
+- _symbolic _____yAAyAAy_____y_____yAAy_____y_____y_____y_____y_____y___________tGG_Qo_G_SiQo______G_Qo_______Qo______y_____GG_____G_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE22onScrollGeometryChange3for2of6actionQrqd__m_qd__AA0gH0Vcyqd___qd__tctSQRd__lFQO AeAE0fg5PhaseI0yQryAA0gM0O_ANtcFQO AeAE14scrollPosition2id6anchorQrAA7BindingVyqd__SgG_AA9UnitPointVSgtSHRd__lFQO AA0gE0V AeAE0N12TargetLayout9isEnabledQrSb_tFQO AA10LazyVStackV AA05TupleE0V 08ContactsB0021ContactCardHeaderNameE0V A5_018ContactCardDetailsE0V AA23SafeAreaPaddingModifierV 12CoreGraphics7CGFloatV AA30_EnvironmentKeyWritingModifierV AA11ColorSchemeO AA08_PaddingV0V AA20_BackdropGroupEffectV
+- _symbolic _____yAAy_____y_____yAAy_____y_____y_____y_____y_____y___________tGG_Qo_G_SiQo______G_Qo_______Qo______y_____GG_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE22onScrollGeometryChange3for2of6actionQrqd__m_qd__AA0gH0Vcyqd___qd__tctSQRd__lFQO AeAE0fg5PhaseI0yQryAA0gM0O_ANtcFQO AeAE14scrollPosition2id6anchorQrAA7BindingVyqd__SgG_AA9UnitPointVSgtSHRd__lFQO AA0gE0V AeAE0N12TargetLayout9isEnabledQrSb_tFQO AA10LazyVStackV AA05TupleE0V 08ContactsB0021ContactCardHeaderNameE0V A5_018ContactCardDetailsE0V AA23SafeAreaPaddingModifierV 12CoreGraphics7CGFloatV AA30_EnvironmentKeyWritingModifierV AA11ColorSchemeO AA08_PaddingV0V
+- _symbolic _____ySbGSg 7SwiftUI11AnyLocationC
+- _symbolic _____y_____y_____yAAy_____y_____y_____y_____y_____y___________tGG_Qo_G_SiQo______G_Qo_______Qo______y_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE22onScrollGeometryChange3for2of6actionQrqd__m_qd__AA0gH0Vcyqd___qd__tctSQRd__lFQO AeAE0fg5PhaseI0yQryAA0gM0O_ANtcFQO AeAE14scrollPosition2id6anchorQrAA7BindingVyqd__SgG_AA9UnitPointVSgtSHRd__lFQO AA0gE0V AeAE0N12TargetLayout9isEnabledQrSb_tFQO AA10LazyVStackV AA05TupleE0V 08ContactsB0021ContactCardHeaderNameE0V A5_018ContactCardDetailsE0V AA23SafeAreaPaddingModifierV 12CoreGraphics7CGFloatV AA30_EnvironmentKeyWritingModifierV AA11ColorSchemeO
+- _symbolic _____y_____y_____y_____y_____y___________tGG_Qo_G_SiQo_ 7SwiftUI4ViewPAAE14scrollPosition2id6anchorQrAA7BindingVyqd__SgG_AA9UnitPointVSgtSHRd__lFQO AA06ScrollC0V AcAE0D12TargetLayout9isEnabledQrSb_tFQO AA10LazyVStackV AA05TupleC0V 08ContactsB0021ContactCardHeaderNameC0V AV0tu7DetailsC0V
+- _symbolic _____y_____y_____y_____y_____y_____y___________tGG_Qo_G_SiQo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE14scrollPosition2id6anchorQrAA7BindingVyqd__SgG_AA9UnitPointVSgtSHRd__lFQO AA06ScrollE0V AeAE0F12TargetLayout9isEnabledQrSb_tFQO AA10LazyVStackV AA05TupleE0V 08ContactsB0021ContactCardHeaderNameE0V AX0vw7DetailsE0V AA23SafeAreaPaddingModifierV
+- _symbolic _____y_____y_____y_____y_____y_____y_____y___________tGG_Qo_G_SiQo______G_Qo_ 7SwiftUI4ViewPAAE19onScrollPhaseChangeyQryAA0eF0O_AFtcFQO AA15ModifiedContentV AcAE14scrollPosition2id6anchorQrAA7BindingVyqd__SgG_AA9UnitPointVSgtSHRd__lFQO AA0eC0V AcAE0J12TargetLayout9isEnabledQrSb_tFQO AA10LazyVStackV AA05TupleC0V 08ContactsB0021ContactCardHeaderNameC0V A_0yz7DetailsC0V AA23SafeAreaPaddingModifierV
+- _symbolic _____y_____y_____y_____y_____y_____y_____y_____y___________tGG_Qo_G_SiQo______G_Qo_______Qo_ 7SwiftUI4ViewPAAE22onScrollGeometryChange3for2of6actionQrqd__m_qd__AA0eF0Vcyqd___qd__tctSQRd__lFQO AcAE0de5PhaseG0yQryAA0eK0O_ALtcFQO AA15ModifiedContentV AcAE14scrollPosition2id6anchorQrAA7BindingVyqd__SgG_AA9UnitPointVSgtSHRd__lFQO AA0eC0V AcAE0N12TargetLayout9isEnabledQrSb_tFQO AA10LazyVStackV AA05TupleC0V 08ContactsB0021ContactCardHeaderNameC0V A5_018ContactCardDetailsC0V AA23SafeAreaPaddingModifierV 12CoreGraphics7CGFloatV
+- audit_stringAvatarKit.20247
+- audit_stringAvatarKit.27773
+- audit_stringAvatarKit.29875
+- audit_stringAvatarKit.45322
+- audit_stringAvatarKit.48814
+- audit_stringAvatarUI.11859
+- audit_stringAvatarUI.14563
+- audit_stringAvatarUI.20260
+- audit_stringAvatarUI.27780
+- audit_stringAvatarUI.29861
+- audit_stringAvatarUI.30770
+- audit_stringAvatarUI.31300
+- audit_stringAvatarUI.37582
+- audit_stringAvatarUI.47016
+- audit_stringAvatarUI.48800
+- audit_stringIntlPreferencesUI.12513
+- audit_stringIntlPreferencesUI.51091
+- classIDSIDQueryController.20990
+- classIDSIDQueryController.44911
+- classPHPickerViewController.40253
+- classSLComposeViewController.52185
+- classSLComposeViewController.56907
+- constantIDSServiceNameFaceTime.28214
+- constantIDSServiceNameFaceTime.41515
+- constantIDSServiceNameiMessage.41504
+- constantkUTTypeJPEG.50822
+- constantkUTTypePNG.50833
+- defaultServices._services.43887
+- defaultServices.onceToken.43885
+- descriptorForRequiredKeys.cn_once_object_1.16782
+- descriptorForRequiredKeys.cn_once_object_1.29881
+- descriptorForRequiredKeys.cn_once_object_1.32371
+- descriptorForRequiredKeys.cn_once_object_1.38103
+- descriptorForRequiredKeys.cn_once_object_1.39113
+- descriptorForRequiredKeys.cn_once_object_1.42090
+- descriptorForRequiredKeys.cn_once_object_1.43032
+- descriptorForRequiredKeys.cn_once_object_1.43595
+- descriptorForRequiredKeys.cn_once_object_1.44369
+- descriptorForRequiredKeys.cn_once_object_1.47059
+- descriptorForRequiredKeys.cn_once_object_1.5759
+- descriptorForRequiredKeys.cn_once_object_2.14904
+- descriptorForRequiredKeys.cn_once_object_2.28837
+- descriptorForRequiredKeys.cn_once_object_2.40605
+- descriptorForRequiredKeys.cn_once_object_3.30855
+- descriptorForRequiredKeys.cn_once_token_1.16780
+- descriptorForRequiredKeys.cn_once_token_1.29879
+- descriptorForRequiredKeys.cn_once_token_1.32369
+- descriptorForRequiredKeys.cn_once_token_1.38101
+- descriptorForRequiredKeys.cn_once_token_1.39111
+- descriptorForRequiredKeys.cn_once_token_1.42088
+- descriptorForRequiredKeys.cn_once_token_1.43030
+- descriptorForRequiredKeys.cn_once_token_1.43593
+- descriptorForRequiredKeys.cn_once_token_1.44367
+- descriptorForRequiredKeys.cn_once_token_1.47057
+- descriptorForRequiredKeys.cn_once_token_1.5757
+- descriptorForRequiredKeys.cn_once_token_2.14903
+- descriptorForRequiredKeys.cn_once_token_2.28835
+- descriptorForRequiredKeys.cn_once_token_2.40603
+- descriptorForRequiredKeys.cn_once_token_3.30854
+- descriptorForRequiredKeysWithDescription:.cn_once_object_5.52305
+- descriptorForRequiredKeysWithDescription:.cn_once_object_5.57066
+- descriptorForRequiredKeysWithDescription:.cn_once_token_5.52304
+- descriptorForRequiredKeysWithDescription:.cn_once_token_5.57065
+- enablesTransportButtons.s_enableTransportButtons.57060
+- enablesTransportButtons.s_onceToken.57058
+- fullFormatter.39724
+- getAVTAvatarRecordImageProviderClass.softClass.20249
+- getAVTAvatarRecordImageProviderClass.softClass.29846
+- getAVTAvatarRecordImageProviderClass.softClass.47004
+- getAVTAvatarRecordRenderingClass.softClass.27753
+- getAVTAvatarRecordRenderingClass.softClass.48782
+- getAVTAvatarStoreClass.softClass.14569
+- getAVTAvatarStoreClass.softClass.37588
+- getAVTRenderingScopeClass.softClass.20251
+- getAVTRenderingScopeClass.softClass.29848
+- getAVTRenderingScopeClass.softClass.47006
+- getAVTStickerGeneratorClass.softClass.27755
+- getAVTStickerGeneratorOptionsClass.softClass.45301
+- getAVTViewClass.softClass.48804
+- getIDSIDQueryControllerClass.20983
+- getIDSIDQueryControllerClass.44907
+- getIDSServiceNameFaceTime.28207
+- getIDSServiceNameFaceTime.41495
+- getIDSServiceNameiMessage.41497
+- getIPPronounPickerViewControllerClass.softClass.12505
+- getIPPronounPickerViewControllerClass.softClass.51072
+- getPHPickerViewControllerClass.40248
+- getSLComposeViewControllerClass.52179
+- getSLComposeViewControllerClass.56899
+- get_witness_table 7SwiftUI15ModifiedContentVyACyAA6VStackVyAA9TupleViewVyACyACyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA0H9AlignmentOGGAKyAA4FontVSgGGSg_AA6SpacerVAA6HStackVyAGyACyAEyAGyAI_AItGGAA14_PaddingLayoutVG_AWtGGtGGAKyAA5ColorVSgGGA1_GSgAA0G0HpA12_AAA14_HPA11_AAA14_HPA6_AAA14_HPyHC_A10_AA0gL0HPyHCHC_A1_AAA15_HPyHCHC_HC.126
+- get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA4ViewPAAE22onScrollGeometryChange3for2of6actionQrqd__m_qd__AA0gH0Vcyqd___qd__tctSQRd__lFQOyAeAE0fg5PhaseI0yQryAA0gM0O_ANtcFQOyACyAeAE14scrollPosition2id6anchorQrAA7BindingVyqd__SgG_AA9UnitPointVSgtSHRd__lFQOyAA0gE0VyAeAE0N12TargetLayout9isEnabledQrSb_tFQOyAA10LazyVStackVyAA05TupleE0Vy08ContactsB0021ContactCardHeaderNameE0V_A5_018ContactCardDetailsE0VtGG_Qo_G_SiQo_AA23SafeAreaPaddingModifierVG_Qo__12CoreGraphics7CGFloatVQo_AA30_EnvironmentKeyWritingModifierVyAA11ColorSchemeOGGAA08_PaddingV0VGAA20_BackdropGroupEffectVGAaDHPA31_AaDHPA28_AaDHPqd0__AaDHD3_A22_HO_A27_AA0E8ModifierHPyHCHC_A30_AAA35_HPyHCHC_A33_AAA35_HPyHCHC.128
+- get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEy08ContactsB014AnswerTemplateVAA25_AppearanceActionModifierVGAA010_TaskValueK0VySo9CNContactCGGAEyAEyAF015ContactCardViewaB0VAJGAPGGAA0Q0HPAqaWHPAkaWHPAhaWHPyHC_AjA0qK0HPyHCHC_ApaXHPyHCHC_AuaWHPAtaWHPAsaWHPyHC_AjaXHPyHCHC_ApaXHPyHCHCHC.72
+- getkUTTypeJPEG.50814
+- getkUTTypePNG.50813
+- initIDSIDQueryController.20988
+- initIDSIDQueryController.44909
+- initIDSServiceNameFaceTime.28209
+- initIDSServiceNameFaceTime.41513
+- initIDSServiceNameiMessage.41499
+- initPHPickerViewController.40250
+- initSLComposeViewController.52183
+- initSLComposeViewController.56905
+- initkUTTypeJPEG.50817
+- initkUTTypePNG.50831
+- kUTTypeJPEGFunction.50824
+- kUTTypePNGFunction.50835
+- log.cn_once_object_1.12181
+- log.cn_once_object_1.14223
+- log.cn_once_object_1.14908
+- log.cn_once_object_1.19560
+- log.cn_once_object_1.19991
+- log.cn_once_object_1.21486
+- log.cn_once_object_1.22021
+- log.cn_once_object_1.23526
+- log.cn_once_object_1.28841
+- log.cn_once_object_1.30145
+- log.cn_once_object_1.31308
+- log.cn_once_object_1.31896
+- log.cn_once_object_1.32909
+- log.cn_once_object_1.34188
+- log.cn_once_object_1.36715
+- log.cn_once_object_1.40612
+- log.cn_once_object_1.43258
+- log.cn_once_object_1.43947
+- log.cn_once_object_1.45349
+- log.cn_once_object_1.45765
+- log.cn_once_object_1.45939
+- log.cn_once_object_1.48827
+- log.cn_once_object_1.53442
+- log.cn_once_object_1.58399
+- log.cn_once_object_1.8484
+- log.cn_once_object_1.8997
+- log.cn_once_object_2.40270
+- log.cn_once_object_2.42755
+- log.cn_once_object_2.45493
+- log.cn_once_object_4.21579
+- log.cn_once_token_1.12179
+- log.cn_once_token_1.14221
+- log.cn_once_token_1.14906
+- log.cn_once_token_1.19558
+- log.cn_once_token_1.19989
+- log.cn_once_token_1.21484
+- log.cn_once_token_1.22019
+- log.cn_once_token_1.23524
+- log.cn_once_token_1.28839
+- log.cn_once_token_1.30143
+- log.cn_once_token_1.31306
+- log.cn_once_token_1.31894
+- log.cn_once_token_1.32907
+- log.cn_once_token_1.34186
+- log.cn_once_token_1.36713
+- log.cn_once_token_1.40610
+- log.cn_once_token_1.43256
+- log.cn_once_token_1.43945
+- log.cn_once_token_1.45347
+- log.cn_once_token_1.45763
+- log.cn_once_token_1.45937
+- log.cn_once_token_1.48825
+- log.cn_once_token_1.53440
+- log.cn_once_token_1.58397
+- log.cn_once_token_1.8482
+- log.cn_once_token_1.8995
+- log.cn_once_token_2.40268
+- log.cn_once_token_2.42753
+- log.cn_once_token_2.45491
+- log.cn_once_token_4.21577
+- os_log.cn_once_object_1.39212
+- os_log.cn_once_object_1.55838
+- os_log.cn_once_object_1.58007
+- os_log.cn_once_object_1.8659
+- os_log.cn_once_object_1.9549
+- os_log.cn_once_token_1.39210
+- os_log.cn_once_token_1.55836
+- os_log.cn_once_token_1.58005
+- os_log.cn_once_token_1.8657
+- os_log.cn_once_token_1.9547
+- supportedPasteboardTypes.cn_once_object_1.45780
+- supportedPasteboardTypes.cn_once_token_1.45778
+- yearlessFormatter.39723
+CStrings:
++ "/AppleInternal/Library/BuildRoots/5f17400b-fd8b-11ef-934c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNActionView.m"
++ "/AppleInternal/Library/BuildRoots/5f17400b-fd8b-11ef-934c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNActionsView.m"
++ "/AppleInternal/Library/BuildRoots/5f17400b-fd8b-11ef-934c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNAvatarCardController.m"
++ "/AppleInternal/Library/BuildRoots/5f17400b-fd8b-11ef-934c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNContactAsyncDataSource.m"
++ "/AppleInternal/Library/BuildRoots/5f17400b-fd8b-11ef-934c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNContactDeleteContactAction.m"
++ "/AppleInternal/Library/BuildRoots/5f17400b-fd8b-11ef-934c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNContactIgnoreDonatedInformationAction.m"
++ "/AppleInternal/Library/BuildRoots/5f17400b-fd8b-11ef-934c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNContactInlineActionsViewController.m"
++ "/AppleInternal/Library/BuildRoots/5f17400b-fd8b-11ef-934c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNContactOrbActionsController.m"
++ "/AppleInternal/Library/BuildRoots/5f17400b-fd8b-11ef-934c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNContactPhotoView.m"
++ "/AppleInternal/Library/BuildRoots/5f17400b-fd8b-11ef-934c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNContactPickerHostViewController.m"
++ "/AppleInternal/Library/BuildRoots/5f17400b-fd8b-11ef-934c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNContactPickerServiceViewController.m"
++ "/AppleInternal/Library/BuildRoots/5f17400b-fd8b-11ef-934c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNContactPickerViewController.m"
++ "/AppleInternal/Library/BuildRoots/5f17400b-fd8b-11ef-934c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNContactSuggestionAction.m"
++ "/AppleInternal/Library/BuildRoots/5f17400b-fd8b-11ef-934c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNContactViewController.m"
++ "/AppleInternal/Library/BuildRoots/5f17400b-fd8b-11ef-934c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNContactViewHostViewController.m"
++ "/AppleInternal/Library/BuildRoots/5f17400b-fd8b-11ef-934c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNMonogrammer.m"
++ "/AppleInternal/Library/BuildRoots/5f17400b-fd8b-11ef-934c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNPhotoPickerCapabilities.m"
++ "/AppleInternal/Library/BuildRoots/5f17400b-fd8b-11ef-934c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNPhotoPickerHeaderView.m"
++ "/AppleInternal/Library/BuildRoots/5f17400b-fd8b-11ef-934c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNPropertyAction.m"
++ "/AppleInternal/Library/BuildRoots/5f17400b-fd8b-11ef-934c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNPropertyIDSRequest.m"
++ "/AppleInternal/Library/BuildRoots/5f17400b-fd8b-11ef-934c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNPropertyLinkedCardsAction.m"
++ "/AppleInternal/Library/BuildRoots/5f17400b-fd8b-11ef-934c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNPropertySuggestionAction.m"
++ "/AppleInternal/Library/BuildRoots/5f17400b-fd8b-11ef-934c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNQuickActionsUsageManager.m"
++ "/AppleInternal/Library/BuildRoots/5f17400b-fd8b-11ef-934c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNQuickActionsView.m"
++ "/AppleInternal/Library/BuildRoots/5f17400b-fd8b-11ef-934c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNShareLocationController.m"
++ "/AppleInternal/Library/BuildRoots/5f17400b-fd8b-11ef-934c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNUIFamilyMemberDowntimeContactDataSource.m"
++ "/AppleInternal/Library/BuildRoots/5f17400b-fd8b-11ef-934c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNUIMapTileGenerator.m"
++ "/AppleInternal/Library/BuildRoots/5f17400b-fd8b-11ef-934c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNVCardViewController.m"
++ "/AppleInternal/Library/BuildRoots/5f17400b-fd8b-11ef-934c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/LimitedAccess/CNLimitedAccessPickerSupport.m"
++ "/AppleInternal/Library/BuildRoots/5f17400b-fd8b-11ef-934c-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/OldFramework/Sources/ContactsUI_Internal.m"
++ "CNPropertyPostalAddressAction"
++ "Failed to query eligibility for push-based friending: %@"
++ "TB,N,V_isEligibleForFriendingViaPush"
++ "_contactEntity"
++ "_isEligibleForFriendingViaPush"
++ "isEligibleForFriendingViaPush"
++ "setIsEligibleForFriendingViaPush:"
++ "textField:insertInputSuggestion:"
++ "textView:insertInputSuggestion:"
++ "v32@0:8@\"UITextField\"16@\"UIInputSuggestion\"24"
++ "v32@0:8@\"UITextView\"16@\"UIInputSuggestion\"24"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNActionView.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNActionsView.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNAvatarCardController.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNContactAsyncDataSource.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNContactDeleteContactAction.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNContactIgnoreDonatedInformationAction.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNContactInlineActionsViewController.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNContactOrbActionsController.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNContactPhotoView.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNContactPickerHostViewController.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNContactPickerServiceViewController.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNContactPickerViewController.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNContactSuggestionAction.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNContactViewController.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNContactViewHostViewController.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNMonogrammer.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNPhotoPickerCapabilities.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNPhotoPickerHeaderView.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNPropertyAction.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNPropertyIDSRequest.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNPropertyLinkedCardsAction.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNPropertySuggestionAction.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNQuickActionsUsageManager.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNQuickActionsView.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNShareLocationController.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNUIFamilyMemberDowntimeContactDataSource.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNUIMapTileGenerator.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/CNVCardViewController.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/Framework/LimitedAccess/CNLimitedAccessPickerSupport.m"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ContactsUI_iosmac/OldFramework/Sources/ContactsUI_Internal.m"
+- "Can't construct Array with count < 0"
+- "Division by zero"
+- "Division results in an overflow"
+- "Insufficient space allocated to copy string contents"
+- "Negative value is not representable"
+- "Swift/Array.swift"
+- "Swift/ContiguousArrayBuffer.swift"
+- "Swift/IntegerTypes.swift"
+- "Swift/Integers.swift"
+- "Swift/StringTesting.swift"
+- "Swift/StringUTF8View.swift"
+- "Swift/UnsafeBufferPointer.swift"
+- "Swift/UnsafePointer.swift"
+- "Swift/UnsafeRawPointer.swift"
+- "Unexpectedly found nil while unwrapping an Optional value"
+- "UnsafeMutableBufferPointer with negative count"
+- "UnsafeMutablePointer.initialize overlapping range"
+- "UnsafeMutablePointer.initialize with negative count"
+- "UnsafeMutablePointer.moveInitialize with negative count"
+- "UnsafeMutableRawPointer.initializeMemory overlapping range"
+- "invalid Collection: less than 'count' elements in collection"
+
+```

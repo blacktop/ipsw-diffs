@@ -1,0 +1,508 @@
+## AMDMTLBronzeDriver
+
+> `/System/Library/Extensions/AMDMTLBronzeDriver.bundle/Contents/MacOS/AMDMTLBronzeDriver`
+
+```diff
+
+-6.1.13.0.0
+-  __TEXT.__text: 0x18f244
++7.0.3.0.0
++  __TEXT.__text: 0x18e940
+   __TEXT.__stubs: 0x522
+   __TEXT.__init_offsets: 0x8
+-  __TEXT.__objc_methlist: 0x2844
+-  __TEXT.__cstring: 0xd69f
+-  __TEXT.__const: 0x733d8
+-  __TEXT.__gcc_except_tab: 0x2294
+-  __TEXT.__unwind_info: 0x4090
++  __TEXT.__objc_methlist: 0x6d70
++  __TEXT.__cstring: 0xd652
++  __TEXT.__const: 0x73a98
++  __TEXT.__gcc_except_tab: 0x22a8
++  __TEXT.__unwind_info: 0x4068
+   __TEXT.__eh_frame: 0x58
+   __TEXT.__objc_classname: 0x85e
+-  __TEXT.__objc_methname: 0xdc74
+-  __TEXT.__objc_methtype: 0x20215
++  __TEXT.__objc_methname: 0xdc93
++  __TEXT.__objc_methtype: 0x20223
+   __DATA_CONST.__got: 0xd08
+-  __DATA_CONST.__const: 0x9170
++  __DATA_CONST.__const: 0x9130
+   __DATA_CONST.__cfstring: 0x5360
+   __DATA_CONST.__objc_classlist: 0x120
+   __DATA_CONST.__objc_protolist: 0x190
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x17538
+-  __DATA_CONST.__objc_selrefs: 0x1c48
++  __DATA_CONST.__objc_const: 0xee20
++  __DATA_CONST.__objc_selrefs: 0x33f8
+   __DATA_CONST.__objc_protorefs: 0x18
+   __DATA_CONST.__objc_superrefs: 0x118
+   __DATA_CONST.__objc_arraydata: 0x10
+
+   __DATA.__objc_data: 0xb40
+   __DATA.__data: 0x2bf8
+   __DATA.__thread_vars: 0x48
+-  __DATA.__thread_bss: 0x11
++  __DATA.__thread_bss: 0x18
+   __DATA.__bss: 0x51f0
+   __DATA.__common: 0x28
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2088F4C5-17D9-3CB7-9CEF-E924B8B255D7
+-  Functions: 8119
+-  Symbols:   41230
++  UUID: C580590C-8625-379C-8F68-E60FEC68A6A8
++  Functions: 8137
++  Symbols:   41262
+   CStrings:  5214
+ 
+Symbols:
++ -[BronzeMtlRenderCmdEncoder setDepthTestMinBound:maxBound:]
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_flatbuffer_function_script.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_hash_common.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mem_mgr.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mem_mgr_interface.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_addrlib_interface.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_blit_cmd_encoder.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_buffer.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_cmd_buffer.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_cmd_queue.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_compression_mgr.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_compute_cmd_encoder.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_compute_pipeline_state.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_compute_variant.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_cpu_tiling.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_depth_stencil_state.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_device.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_device_name.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_draw_prims.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_format_info.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_formats.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_gfx_function_variant.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_heap.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_hw.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_hw_cmd_buffer.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_hw_hull_shader.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_hw_perf_counters.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_hw_pixel_shader.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_hw_regs.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_hw_shader_common.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_hw_vertex_shader.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_hw_zpass.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_indirect_argument_buffer_encoder.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_indirect_cmd_buffer.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_indirect_compute_cmd_encoder.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_indirect_render_cmd_encoder.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_internal_dispatch.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_internal_shaders.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_library.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_load_store.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_ls_hs_mgr.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_parallel_render_cmd_encoder.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_profiler.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_render_cmd_encoder.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_render_pipeline_state.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_resource_mgr.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_rgp_trace.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_sample_counter_buffer.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_sampler.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_sqtt_instrumentation.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_statistics.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_surfsync_mgr.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_texture.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_thin_driver_utils.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_thread_trace.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_ubm_interface.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_ubm_internal.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_video_cmd_encoder.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_dev_driver.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_elf.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_formats.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_frame_capture_scope.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_frame_counter.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_frame_layer.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_internal_buffer.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_blit_cmd_encoder.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_buffer.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_capture_manager.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_capture_scope.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_cmd_buffer.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_cmd_queue.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_compute_cmd_encoder.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_device.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_drawable.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_function_constant_values.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_layer.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_library.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_parallel_render_cmd_encoder.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_render_cmd_encoder.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_shared_event.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_texture.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_types.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_library.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_linked_list.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_overlay_calayer.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_overlay_cmd_buffer.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_overlay_layer.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_profiler.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_rgp_trace.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_sqtt_blit_cmd_encoder.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_sqtt_buffer.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_sqtt_calayer.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_sqtt_cmd_buffer.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_sqtt_cmd_queue.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_sqtt_compute_cmd_encoder.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_sqtt_device.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_sqtt_instrumentation.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_sqtt_layer.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_sqtt_library.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_sqtt_parallel_render_cmd_encoder.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_sqtt_render_cmd_encoder.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_sqtt_texture.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_thin_driver_utils.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_thread_trace.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_tokeniser_blit_cmd_encoder.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_tokeniser_cmd_buffer.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_tokeniser_cmd_queue.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_tokeniser_compute_cmd_encoder.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_tokeniser_device.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_tokeniser_layer.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_tokeniser_parallel_render_cmd_encoder.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_tokeniser_render_cmd_encoder.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_virtualrt_blit_cmd_encoder.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_virtualrt_cmd_buffer.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_virtualrt_compute_cmd_encoder.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_virtualrt_device.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_virtualrt_layer.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_virtualrt_render_cmd_encoder.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_virtualrt_texture.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_virtualrt_texture_vm.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_unique_registry.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/cwpack.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/imgui.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/imgui_draw.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/imgui_widget_flamegraph.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/imgui_widgets.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/implot.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/macSysMemory.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/metrohash128.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/metrohash128crc.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/metrohash64.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/stringUtil.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/sysMemory.o
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/Common/GLBuild/ATI/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/bronze/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/common/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/common/AMDMemMgr/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/common/PAL/cwpack/src/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/common/PAL/metrohash/src/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/common/PAL/src/util/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/common/PAL/src/util/mac/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/layers/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/layers/frame/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/layers/overlay/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/layers/overlay/ImGui/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/layers/overlay/imgui-flame-graph/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/layers/overlay/implot/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/layers/sqtt/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/layers/tokeniser/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/layers/virtualrt/
++ /AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/utils/
++ GCC_except_table116
++ GCC_except_table129
++ GCC_except_table131
++ GCC_except_table133
++ GCC_except_table183
++ GCC_except_table43
++ GCC_except_table73
++ GCC_except_table95
++ _ZL11powerStates.rel
++ _ZN12AMDMtlLayers3GetEv.cold.1
++ _ZN18AMDMtlFrameCounter21PresentDrawableCalledEP18BronzeMtlCmdBufferPU22objcproto11MTLDrawable11objc_object.cold.1
++ _ZN29AMD_virtualrt_texture_vm_list9GetVMListEv.cold.1
++ _ZN5ImGui17CloseCurrentPopupEv.cold.2
++ _ZN5ImGui8NewFrameEv.cold.31
++ _ZN5ImGui8NewFrameEv.cold.32
++ _ZN5ImGui8NewFrameEv.cold.33
++ _ZN5ImGui8NewFrameEv.cold.34
++ _ZN5ImGui8NewFrameEv.cold.35
++ _ZN5ImGui8NewFrameEv.cold.36
++ _ZN5ImGui8NewFrameEv.cold.37
++ _ZN6ImPlot11SetColormapEPK6ImVec4i.cold.4
++ _ZN6ImPlot11SetColormapEii.cold.3
++ _ZN6ImPlot11SetColormapEii.cold.4
++ _ZN6ImPlot11SetColormapEii.cold.5
++ _ZN6ImPlot12DrawPieSliceER10ImDrawListRK11ImPlotPointdddj.cold.2
++ _ZN6ImPlot12PixelsToPlotERK6ImVec2i.cold.1
++ _ZN6ImPlot13ImPlotContextC2Ev.cold.1
++ _ZN6ImPlot17SetNextPlotTicksXEddiPPKcb.cold.3
++ _ZN6ImPlot17SetNextPlotTicksYEddiPPKcbi.cold.3
++ _ZN6ImPlot17ShowColormapScaleEddf.cold.6
++ _ZN6ImPlot17ShowColormapScaleEddf.cold.7
++ __Z28amdMtl_Bronze_SetupRegistersRK15BronzeHwInfoRecb
++ __ZL23ParseIntValueForDictKeyP19NSMutableDictionaryP8NSString
++ __ZL23ParseU64ValueForDictKeyP19NSMutableDictionaryP8NSString
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strB8ne190102IS4_EENS_12basic_stringIcS2_T_EERKS8_
++ __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE4viewB8ne190102Ev
++ __ZNKSt3__16vectorI17AMDMTLSymbolEntryNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorI19AMDMtlCmdBufCfgNodeNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorI21AMDMTLRelocationEntryNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorI22AMDMtlCmdBufBasicBlockNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorI25BronzeResourceBindInfoRecNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorI44BronzeIndirectArgumentBufferLayoutMembersRecNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorINS_4pairIP18MTLIOAccelResourcehEENS_9allocatorIS4_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIP14AMD_MTLLibraryNS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIP18MTLIOAccelResourceNS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIU13block_pointerFvPU37objcproto26MTLRenderCommandEncoderSPI11objc_objectmENS_9allocatorIS4_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIyNS_9allocatorIyEEE20__throw_length_errorB8ne190102Ev
++ __ZNSt12length_errorC1B8ne190102EPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102Emc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102ILi0EEEPKc
++ __ZNSt3__116__pad_and_outputB8ne190102IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne190102Ev
++ __ZNSt3__118codecvt_utf8_utf16IDsLm1114111ELNS_12codecvt_modeE0EED0B8ne190102Ev
++ __ZNSt3__118codecvt_utf8_utf16IDsLm1114111ELNS_12codecvt_modeE0EED1B8ne190102Ev
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorI17AMDMTLSymbolEntryEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorI19AMDMtlCmdBufCfgNodeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorI21AMDMTLRelocationEntryEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorI22AMDMtlCmdBufBasicBlockEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorI25BronzeResourceBindInfoRecEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorI44BronzeIndirectArgumentBufferLayoutMembersRecEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_4pairIP18MTLIOAccelResourcehEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIP14AMD_MTLLibraryEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIP18MTLIOAccelResourceEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIU13block_pointerFvPU37objcproto26MTLRenderCommandEncoderSPI11objc_objectmEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIyEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__120__throw_length_errorB8ne190102EPKc
++ __ZNSt3__124__put_character_sequenceB8ne190102IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__16vectorIP14AMD_MTLLibraryNS_9allocatorIS2_EEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorIP14AMD_MTLLibraryNS_9allocatorIS2_EEE18__assign_with_sizeB8ne190102IPS2_S7_EEvT_T0_l
++ __ZSt28__throw_bad_array_new_lengthB8ne190102v
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_flatbuffer_function_script.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_hash_common.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mem_mgr.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mem_mgr_interface.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_addrlib_interface.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_blit_cmd_encoder.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_buffer.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_cmd_buffer.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_cmd_queue.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_compression_mgr.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_compute_cmd_encoder.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_compute_pipeline_state.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_compute_variant.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_cpu_tiling.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_depth_stencil_state.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_device.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_device_name.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_draw_prims.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_format_info.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_formats.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_gfx_function_variant.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_heap.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_hw.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_hw_cmd_buffer.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_hw_hull_shader.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_hw_perf_counters.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_hw_pixel_shader.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_hw_regs.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_hw_shader_common.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_hw_vertex_shader.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_hw_zpass.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_indirect_argument_buffer_encoder.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_indirect_cmd_buffer.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_indirect_compute_cmd_encoder.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_indirect_render_cmd_encoder.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_internal_dispatch.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_internal_shaders.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_library.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_load_store.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_ls_hs_mgr.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_parallel_render_cmd_encoder.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_profiler.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_render_cmd_encoder.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_render_pipeline_state.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_resource_mgr.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_rgp_trace.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_sample_counter_buffer.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_sampler.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_sqtt_instrumentation.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_statistics.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_surfsync_mgr.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_texture.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_thin_driver_utils.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_thread_trace.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_ubm_interface.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_ubm_internal.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_bronze_video_cmd_encoder.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_dev_driver.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_elf.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_formats.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_frame_capture_scope.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_frame_counter.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_frame_layer.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_internal_buffer.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_blit_cmd_encoder.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_buffer.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_capture_manager.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_capture_scope.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_cmd_buffer.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_cmd_queue.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_compute_cmd_encoder.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_device.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_drawable.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_function_constant_values.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_layer.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_library.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_parallel_render_cmd_encoder.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_render_cmd_encoder.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_shared_event.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_texture.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_layer_types.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_library.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_linked_list.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_overlay_calayer.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_overlay_cmd_buffer.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_overlay_layer.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_profiler.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_rgp_trace.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_sqtt_blit_cmd_encoder.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_sqtt_buffer.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_sqtt_calayer.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_sqtt_cmd_buffer.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_sqtt_cmd_queue.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_sqtt_compute_cmd_encoder.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_sqtt_device.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_sqtt_instrumentation.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_sqtt_layer.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_sqtt_library.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_sqtt_parallel_render_cmd_encoder.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_sqtt_render_cmd_encoder.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_sqtt_texture.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_thin_driver_utils.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_thread_trace.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_tokeniser_blit_cmd_encoder.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_tokeniser_cmd_buffer.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_tokeniser_cmd_queue.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_tokeniser_compute_cmd_encoder.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_tokeniser_device.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_tokeniser_layer.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_tokeniser_parallel_render_cmd_encoder.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_tokeniser_render_cmd_encoder.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_virtualrt_blit_cmd_encoder.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_virtualrt_cmd_buffer.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_virtualrt_compute_cmd_encoder.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_virtualrt_device.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_virtualrt_layer.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_virtualrt_render_cmd_encoder.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_virtualrt_texture.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_mtl_virtualrt_texture_vm.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/amd_unique_registry.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/cwpack.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/imgui.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/imgui_draw.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/imgui_widget_flamegraph.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/imgui_widgets.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/implot.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/macSysMemory.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/metrohash128.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/metrohash128crc.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/metrohash64.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/stringUtil.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Binaries/GPUDriversAMD/install/TempContent/Objects/MTLRenderer/release-bronze/MTLRenderer/Release-bronze/Objects-normal/x86_64h/sysMemory.o
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/Common/GLBuild/ATI/
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/bronze/
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/common/
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/common/AMDMemMgr/
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/common/PAL/cwpack/src/
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/common/PAL/metrohash/src/
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/common/PAL/src/util/
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/common/PAL/src/util/mac/
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/layers/
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/layers/frame/
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/layers/overlay/
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/layers/overlay/ImGui/
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/layers/overlay/imgui-flame-graph/
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/layers/overlay/implot/
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/layers/sqtt/
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/layers/tokeniser/
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/layers/virtualrt/
+- /AppleInternal/Library/BuildRoots/cf117d38-cf63-11ef-b315-aabfac210453/Library/Caches/com.apple.xbs/Sources/GPUDriversAMD/MTLRenderer/utils/
+- GCC_except_table117
+- GCC_except_table128
+- GCC_except_table132
+- GCC_except_table134
+- GCC_except_table182
+- GCC_except_table45
+- GCC_except_table62
+- GCC_except_table92
+- GCC_except_table97
+- _ZN19ImGuiInputTextState12OnKeyPressedEi.cold.8
+- _ZN6ImPlot12PixelsToPlotEffi.cold.1
+- _ZN6ImPlot9BeginPlotEPKcS1_S1_RK6ImVec2iiiii.cold.4
+- __ZN4Util7HashMapI14MTLPixelFormatPU33objcproto22MTLRenderPipelineState11objc_objectNS_16GenericAllocatorENS_15DefaultHashFuncENS_16DefaultEqualFuncENS_13HashAllocatorIS4_EELm128EEC2EjPS4_
+- __ZN4Util7HashMapIP11objc_objectS2_NS_16GenericAllocatorENS_15DefaultHashFuncENS_16DefaultEqualFuncENS_13HashAllocatorIS3_EELm128EEC2EjPS3_
+- __ZN4Util7HashMapIPKcNS_3Abi18GenericSymbolEntryENS_16GenericAllocatorENS_21StringJenkinsHashFuncENS_15StringEqualFuncENS_13HashAllocatorIS5_EELm128EEC2EjPS5_
+- __ZN4Util7HashSetIPU21objcproto10MTLTexture11objc_objectNS_16GenericAllocatorENS_15DefaultHashFuncENS_16DefaultEqualFuncENS_13HashAllocatorIS3_EELm128EEC2EjPS3_
+- __ZN6ImPlot12PixelsToPlotEffi
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strB8ne180100IS4_EENS_12basic_stringIcS2_T_EERKS8_
+- __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE4viewB8ne180100Ev
+- __ZNKSt3__16vectorI17AMDMTLSymbolEntryNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorI19AMDMtlCmdBufCfgNodeNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorI21AMDMTLRelocationEntryNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorI22AMDMtlCmdBufBasicBlockNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorI25BronzeResourceBindInfoRecNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorI44BronzeIndirectArgumentBufferLayoutMembersRecNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorINS_4pairIP18MTLIOAccelResourcehEENS_9allocatorIS4_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIP14AMD_MTLLibraryNS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIP18MTLIOAccelResourceNS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIU13block_pointerFvPU37objcproto26MTLRenderCommandEncoderSPI11objc_objectmENS_9allocatorIS4_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIyNS_9allocatorIyEEE20__throw_length_errorB8ne180100Ev
+- __ZNSt12length_errorC1B8ne180100EPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne180100Emc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne180100ILi0EEEPKc
+- __ZNSt3__116__pad_and_outputB8ne180100IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne180100Ev
+- __ZNSt3__118codecvt_utf8_utf16IDsLm1114111ELNS_12codecvt_modeE0EED0B8ne180100Ev
+- __ZNSt3__118codecvt_utf8_utf16IDsLm1114111ELNS_12codecvt_modeE0EED1B8ne180100Ev
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorI17AMDMTLSymbolEntryEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorI19AMDMtlCmdBufCfgNodeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorI21AMDMTLRelocationEntryEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorI22AMDMtlCmdBufBasicBlockEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorI25BronzeResourceBindInfoRecEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorI44BronzeIndirectArgumentBufferLayoutMembersRecEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorINS_4pairIP18MTLIOAccelResourcehEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIP14AMD_MTLLibraryEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIP18MTLIOAccelResourceEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIU13block_pointerFvPU37objcproto26MTLRenderCommandEncoderSPI11objc_objectmEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIyEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__120__throw_length_errorB8ne180100EPKc
+- __ZNSt3__124__put_character_sequenceB8ne180100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__16vectorIP14AMD_MTLLibraryNS_9allocatorIS2_EEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorIP14AMD_MTLLibraryNS_9allocatorIS2_EEE18__assign_with_sizeB8ne180100IPS2_S7_EEvT_T0_l
+- __ZSt28__throw_bad_array_new_lengthB8ne180100v
+- reltable._ZN22AMD_cmd_buffer_overlay8RenderUiEPU19objcproto9MTLDevice11objc_objectaP12CGColorSpace14MTLPixelFormat
+CStrings:
++ "7.0.3"
++ "setDepthTestMinBound:maxBound:"
++ "v24@0:8f16f20"
+- "((char*)(state->undo_rec + state->redo_point + 1) + move_size) <= buf_end"
+- "1"
+- "6.1.13"
+
+```

@@ -1,0 +1,2656 @@
+## SiriOrchestration
+
+> `/System/Library/PrivateFrameworks/SiriOrchestration.framework/Versions/A/SiriOrchestration`
+
+```diff
+
+-3401.3.1.0.0
+-  __TEXT.__text: 0x1a634
+-  __TEXT.__auth_stubs: 0x670
+-  __TEXT.__objc_methlist: 0xe50
+-  __TEXT.__const: 0x140
+-  __TEXT.__cstring: 0x1e08
+-  __TEXT.__gcc_except_tab: 0x424
+-  __TEXT.__oslogstring: 0x1677
+-  __TEXT.__unwind_info: 0x7f0
+-  __TEXT.__objc_classname: 0x17b
+-  __TEXT.__objc_methname: 0x4d92
+-  __TEXT.__objc_methtype: 0xb5f
+-  __TEXT.__objc_stubs: 0x39e0
+-  __DATA_CONST.__got: 0x250
+-  __DATA_CONST.__const: 0x170
+-  __DATA_CONST.__objc_classlist: 0x30
+-  __DATA_CONST.__objc_protolist: 0x40
++3404.2.1.0.0
++  __TEXT.__text: 0xb84
++  __TEXT.__auth_stubs: 0xf0
++  __TEXT.__objc_methlist: 0xb0
++  __TEXT.__const: 0x50
++  __TEXT.__cstring: 0x83
++  __TEXT.__unwind_info: 0xa8
++  __TEXT.__objc_classname: 0x25
++  __TEXT.__objc_methname: 0x287
++  __TEXT.__objc_methtype: 0x50
++  __TEXT.__objc_stubs: 0x300
++  __DATA_CONST.__got: 0x38
++  __DATA_CONST.__objc_classlist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1260
+-  __DATA_CONST.__objc_superrefs: 0x28
+-  __AUTH_CONST.__auth_got: 0x348
+-  __AUTH_CONST.__const: 0xd00
+-  __AUTH_CONST.__cfstring: 0x7a0
+-  __AUTH_CONST.__objc_const: 0x1750
+-  __AUTH.__objc_data: 0x1e0
+-  __DATA.__objc_ivar: 0xf4
+-  __DATA.__data: 0x300
+-  __DATA.__bss: 0xf0
++  __DATA_CONST.__objc_selrefs: 0x100
++  __DATA_CONST.__objc_superrefs: 0x10
++  __AUTH_CONST.__auth_got: 0x80
++  __AUTH_CONST.__const: 0x60
++  __AUTH_CONST.__cfstring: 0x40
++  __AUTH_CONST.__objc_const: 0x1a0
++  __AUTH.__objc_data: 0xa0
++  __DATA.__objc_ivar: 0x8
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+-  - /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/AssistantServices
+   - /System/Library/PrivateFrameworks/SAObjects.framework/Versions/A/SAObjects
+-  - /System/Library/PrivateFrameworks/SiriAnalytics.framework/Versions/A/SiriAnalytics
+-  - /System/Library/PrivateFrameworks/SiriInstrumentation.framework/Versions/A/SiriInstrumentation
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 185B1A83-3A13-3E3D-B8AB-A25E25C8A19A
+-  Functions: 619
+-  Symbols:   1577
+-  CStrings:  1207
++  UUID: 0DC600FD-DCAA-3FA4-A0B0-59F4D6502632
++  Functions: 22
++  Symbols:   90
++  CStrings:  52
+ 
+Symbols:
+- +[NAFConnection assistantIsSupportedForLanguageCode:error:]
+- +[NAFConnection assistantIsSupported]
+- +[NAFConnection beginMonitoringAvailability]
+- +[NAFConnection currentLanguageCode]
+- +[NAFConnection defrost]
+- +[NAFConnection initialize]
+- +[NAFConnection isAvailable]
+- +[NAFConnection isNetworkAvailable]
+- +[NAFConnection outputVoice]
+- +[NAFConnection siriIsSupportedForLanguageCode:deviceProductVersion:error:]
+- +[NAFConnection siriIsSupportedForLanguageCode:productName:productVersion:error:]
+- +[NAFConnection stopMonitoringAvailability]
+- +[NAFConnection(Internal) userDataSyncNeeded]
+- +[NAFNetworkAvailability sharedAvailability]
+- -[NAFConnection .cxx_destruct]
+- -[NAFConnection _aceConnectionWillRetryOnError:]
+- -[NAFConnection _beginInterstitialsForReason:]
+- -[NAFConnection _cancelRequestTimeoutForReason:]
+- -[NAFConnection _checkAndSetIsCapturingSpeech:]
+- -[NAFConnection _clearConnection]
+- -[NAFConnection _completeRequestWithUUID:forReason:error:]
+- -[NAFConnection _connectionFailedWithError:]
+- -[NAFConnection _connectionFailedWithError:].cold.1
+- -[NAFConnection _connection]
+- -[NAFConnection _dispatchCallbackGroupBlock:]
+- -[NAFConnection _dispatchCommand:isInterstitial:interstitialPhase:interstitialDelay:reply:]
+- -[NAFConnection _dispatchCommand:isInterstitial:interstitialPhase:interstitialDelay:reply:].cold.1
+- -[NAFConnection _endInterstitialsForReason:]
+- -[NAFConnection _enqueueInterstitialCommand:]
+- -[NAFConnection _enqueueInterstitialCommand:].cold.1
+- -[NAFConnection _extendExistingRequestTimeoutForReason:]
+- -[NAFConnection _extendExpiringRequestTimeout]
+- -[NAFConnection _extendRequestTimeoutForReason:durationInSeconds:]
+- -[NAFConnection _fetchShouldSpeak:]
+- -[NAFConnection _getActiveSpeechEvent]
+- -[NAFConnection _handleCommand:reply:]
+- -[NAFConnection _handleCommand:reply:].cold.1
+- -[NAFConnection _handleCommand:reply:].cold.2
+- -[NAFConnection _handleInterstitialPhase:fromProvider:displayText:speakableText:expectedDelay:context:completion:]
+- -[NAFConnection _invokeRequestTimeoutForReason:]
+- -[NAFConnection _markIsDucking]
+- -[NAFConnection _markIsDucking].cold.1
+- -[NAFConnection _markIsTwoShot]
+- -[NAFConnection _markIsTwoShot].cold.1
+- -[NAFConnection _markNetworkDidBecomeActive]
+- -[NAFConnection _markSpeechRecognized]
+- -[NAFConnection _markSpeechRecognized].cold.1
+- -[NAFConnection _metricContextValueForUseDeviceSpeakerForTTS:]
+- -[NAFConnection _pauseRequestTimeoutForReason:]
+- -[NAFConnection _requestDidEnd]
+- -[NAFConnection _requestWillBeginWithRequestClass:isSpeechRequest:speechRequestOptions:requestInfo:analyticsEventProvider:]
+- -[NAFConnection _requestWillBeginWithRequestClass:isSpeechRequest:speechRequestOptions:requestInfo:isBackgroundRequest:analyticsEventProvider:]
+- -[NAFConnection _resumeRequestTimeoutForReason:]
+- -[NAFConnection _scheduleRequestTimeoutForReason:durationInSeconds:]
+- -[NAFConnection _scheduleRequestTimeoutForReason:durationInSeconds:].cold.1
+- -[NAFConnection _scheduleRequestTimeoutForReason:durationInSeconds:].cold.2
+- -[NAFConnection _setRecordRoute:]
+- -[NAFConnection _setShouldSpeak:]
+- -[NAFConnection _setShouldSpeak:].cold.1
+- -[NAFConnection _shouldEmitUEIRequestLinkForRequestInfo:speechRequestOptions:]
+- -[NAFConnection _siriClientStateManager]
+- -[NAFConnection _speechRecordingDidFailWithError:]
+- -[NAFConnection _startInputAudioPowerUpdatesWithXPCWrapper:]
+- -[NAFConnection _startRequestMetricSettings]
+- -[NAFConnection _startRequestTimeoutTimerWithTimeInterval:reason:]
+- -[NAFConnection _startRequestWithAceCommand:turnIdentifier:suppressAlert:]
+- -[NAFConnection _startRequestWithInfo:]
+- -[NAFConnection _startUIRequestWithInfo:completion:]
+- -[NAFConnection _startUIRequestWithText:completion:]
+- -[NAFConnection _stopInputAudioPowerUpdates]
+- -[NAFConnection _tellDelegateAudioPlaybackRequestDidStart:]
+- -[NAFConnection _tellDelegateAudioPlaybackRequestDidStop:error:]
+- -[NAFConnection _tellDelegateAudioPlaybackRequestWillStart:]
+- -[NAFConnection _tellDelegateAudioSessionDidBecomeActive:]
+- -[NAFConnection _tellDelegateAudioSessionDidBeginInterruptionWithUserInfo:]
+- -[NAFConnection _tellDelegateAudioSessionDidEndInterruption:userInfo:]
+- -[NAFConnection _tellDelegateAudioSessionWillBecomeActive:]
+- -[NAFConnection _tellDelegateCacheImage:]
+- -[NAFConnection _tellDelegateDidDetectMusic]
+- -[NAFConnection _tellDelegateDidFinishAcousticIDRequestWithSuccess:]
+- -[NAFConnection _tellDelegateExtensionRequestFinishedForApplication:error:]
+- -[NAFConnection _tellDelegateExtensionRequestWillStartForApplication:]
+- -[NAFConnection _tellDelegateFailedToLaunchAppWithBundleIdentifier:]
+- -[NAFConnection _tellDelegateInvalidateCurrentUserActivity]
+- -[NAFConnection _tellDelegateRequestWillStart]
+- -[NAFConnection _tellDelegateSetUserActivityInfo:webpageURL:]
+- -[NAFConnection _tellDelegateShouldSpeakChanged:]
+- -[NAFConnection _tellDelegateStartPlaybackDidFail:]
+- -[NAFConnection _tellDelegateWillProcessAppLaunchWithBundleIdentifier:]
+- -[NAFConnection _tellDelegateWillProcessStartPlayback:intent:completion:]
+- -[NAFConnection _tellDelegateWillStartAcousticIDRequest]
+- -[NAFConnection _tellSpeechDelegateRecognitionDidFail:]
+- -[NAFConnection _tellSpeechDelegateRecognitionUpdateWillBeginForTask:]
+- -[NAFConnection _tellSpeechDelegateRecognizedAdditionalSpeechInterpretation:refId:]
+- -[NAFConnection _tellSpeechDelegateRecordingDidBeginOnAVRecordRoute:]
+- -[NAFConnection _tellSpeechDelegateRecordingDidCancel]
+- -[NAFConnection _tellSpeechDelegateRecordingDidChangeAVRecordRoute:]
+- -[NAFConnection _tellSpeechDelegateRecordingDidDetectStartpoint]
+- -[NAFConnection _tellSpeechDelegateRecordingDidEnd]
+- -[NAFConnection _tellSpeechDelegateRecordingDidFail:]
+- -[NAFConnection _tellSpeechDelegateRecordingDidUpdateRecognitionPhrases:utterances:refId:]
+- -[NAFConnection _tellSpeechDelegateRecordingWillBeginWithInputAudioPowerXPCWrapper:]
+- -[NAFConnection _tellSpeechDelegateSpeechRecognized:]
+- -[NAFConnection _tellSpeechDelegateSpeechRecognizedPartialResult:]
+- -[NAFConnection _tellSpeechDelegateToPerformTwoShotPromptWithType:reply:]
+- -[NAFConnection _updateClientConfiguration]
+- -[NAFConnection _updateSpeechEndHostTime:]
+- -[NAFConnection _updateSpeechEndHostTime:].cold.1
+- -[NAFConnection _updateSpeechEndHostTime:].cold.2
+- -[NAFConnection _updateSpeechEndHostTime:].cold.3
+- -[NAFConnection _updateSpeechEndHostTime:].cold.4
+- -[NAFConnection _updateStateIfNotInSync]
+- -[NAFConnection _updateState]
+- -[NAFConnection _willCancelRequest]
+- -[NAFConnection _willCompleteRequest]
+- -[NAFConnection _willEndSession]
+- -[NAFConnection _willFailRequestWithError:]
+- -[NAFConnection _willFailRequestWithError:].cold.1
+- -[NAFConnection _willFailRequestWithError:].cold.2
+- -[NAFConnection _willFailRequestWithError:].cold.3
+- -[NAFConnection _willPresentUsefulUserResultWithType:]
+- -[NAFConnection _willPresentUsefulUserResultWithType:].cold.1
+- -[NAFConnection _willStartRequestWithSpeech:speechRequestOptions:requestInfo:analyticsEventProvider:]
+- -[NAFConnection _willStartRequestWithSpeech:speechRequestOptions:requestInfo:analyticsEventProvider:].cold.1
+- -[NAFConnection _willStopRecordingWithSignpostID:]
+- -[NAFConnection accessibilityObserver:stateDidChangeFrom:to:]
+- -[NAFConnection acquireAudioSessionWithContext:completion:]
+- -[NAFConnection acquireUserInteractionAssertion]
+- -[NAFConnection adviseSessionArbiterToContinueWithPreviousWinner:]
+- -[NAFConnection audioPowerUpdaterDidUpdate:averagePower:peakPower:]
+- -[NAFConnection averagePower]
+- -[NAFConnection boostedPreheatWithStyle:completion:]
+- -[NAFConnection cancelRequestForReason:]
+- -[NAFConnection cancelRequest]
+- -[NAFConnection cancelSpeech]
+- -[NAFConnection checkLanguageReady:completion:]
+- -[NAFConnection clearContext]
+- -[NAFConnection dealloc]
+- -[NAFConnection delegate]
+- -[NAFConnection deviceRingerObserver:didChangeState:]
+- -[NAFConnection didDismissUI]
+- -[NAFConnection endSession]
+- -[NAFConnection failRequestWithError:]
+- -[NAFConnection failRequestWithError:].cold.1
+- -[NAFConnection fetchAppicationContextForApplicationInfo:supplementalContext:refID:]
+- -[NAFConnection fetchShouldSpeak:]
+- -[NAFConnection forceAudioSessionActiveWithContext:completion:]
+- -[NAFConnection forceAudioSessionActiveWithOptions:completion:]
+- -[NAFConnection forceAudioSessionActiveWithOptions:reason:completion:]
+- -[NAFConnection forceAudioSessionActiveWithOptions:reason:speechRequestOptions:completion:]
+- -[NAFConnection forceAudioSessionActive]
+- -[NAFConnection forceAudioSessionInactiveWithOptions:completion:]
+- -[NAFConnection forceAudioSessionInactive]
+- -[NAFConnection getCachedObjectsWithIdentifiers:completion:]
+- -[NAFConnection getDeferredObjectsWithIdentifiers:completion:]
+- -[NAFConnection getRemoteClockTimerSnapshotWithCompletion:]
+- -[NAFConnection hasActiveRequest]
+- -[NAFConnection initWithTargetQueue:]
+- -[NAFConnection initWithTargetQueue:instanceContext:]
+- -[NAFConnection init]
+- -[NAFConnection interstitialProvider:handlePhase:displayText:speakableText:expectedDelay:context:completion:]
+- -[NAFConnection invalidate]
+- -[NAFConnection isRecording]
+- -[NAFConnection peakPower]
+- -[NAFConnection preheatWithStyle:]
+- -[NAFConnection preheatWithStyle:forOptions:]
+- -[NAFConnection prepareForPhoneCall]
+- -[NAFConnection recordRequestMetric:withTimestamp:]
+- -[NAFConnection recordUIMetrics:]
+- -[NAFConnection reportIssueForError:type:context:]
+- -[NAFConnection reportIssueForError:type:subtype:context:]
+- -[NAFConnection reportIssueForType:subtype:context:]
+- -[NAFConnection requestDidAskForTimeoutExtension:]
+- -[NAFConnection requestDidAskForTimeoutExtension:].cold.1
+- -[NAFConnection resumeInterruptedAudioPlaybackIfNeeded]
+- -[NAFConnection rollbackClearContext]
+- -[NAFConnection rollbackRequest]
+- -[NAFConnection sendGenericAceCommand:]
+- -[NAFConnection sendGenericAceCommand:conflictHandler:]
+- -[NAFConnection sendGenericAceCommand:turnIdentifier:conflictHandler:]
+- -[NAFConnection sendReplyCommand:]
+- -[NAFConnection setAccessibilityState:]
+- -[NAFConnection setAlertContextWithBulletins:]
+- -[NAFConnection setAnnouncementRequestsPermittedByPresentationWhileActive:]
+- -[NAFConnection setApplicationContext:]
+- -[NAFConnection setApplicationContextForApplicationInfos:]
+- -[NAFConnection setApplicationContextForApplicationInfos:withRefId:]
+- -[NAFConnection setCarDNDActive:]
+- -[NAFConnection setConfiguration:]
+- -[NAFConnection setDelegate:]
+- -[NAFConnection setDeviceRingerSwitchState:]
+- -[NAFConnection setIsDeviceInStarkMode:]
+- -[NAFConnection setLockState:screenLocked:]
+- -[NAFConnection setModesConfiguration:]
+- -[NAFConnection setMyriadDecisionResult:]
+- -[NAFConnection setOverriddenApplicationContext:withContext:]
+- -[NAFConnection setShouldWaitForMyriad:]
+- -[NAFConnection setSpeechDelegate:]
+- -[NAFConnection setSupportsCarPlayVehicleData:]
+- -[NAFConnection setVoiceOverIsActive:]
+- -[NAFConnection setWatchAuthenticated:]
+- -[NAFConnection shouldSpeak]
+- -[NAFConnection speechDelegate]
+- -[NAFConnection startAcousticIDRequestWithOptions:]
+- -[NAFConnection startAudioPlaybackRequest:options:completion:]
+- -[NAFConnection startContinuationRequestWithUserInfo:]
+- -[NAFConnection startDirectActionRequestWithString:]
+- -[NAFConnection startRecordingAndGetContinueBlockForPendingSpeechRequestWithOptions:]
+- -[NAFConnection startRecordingForPendingSpeechRequestWithOptions:completion:]
+- -[NAFConnection startRequestWithAceCommand:]
+- -[NAFConnection startRequestWithCorrectedText:forSpeechIdentifier:userSelectionResults:]
+- -[NAFConnection startRequestWithCorrectedText:forSpeechIdentifier:userSelectionResults:turnIdentifier:]
+- -[NAFConnection startRequestWithInfo:]
+- -[NAFConnection startRequestWithInfo:activationEvent:]
+- -[NAFConnection startRequestWithText:]
+- -[NAFConnection startSpeechPronunciationRequestWithOptions:pronunciationContext:]
+- -[NAFConnection startSpeechRequestWithOptions:]
+- -[NAFConnection stopAllAudioPlaybackRequests:]
+- -[NAFConnection stopAudioPlaybackRequest:immediately:]
+- -[NAFConnection stopSpeechWithOptions:]
+- -[NAFConnection stopSpeech]
+- -[NAFConnection telephonyRequestCompleted]
+- -[NAFConnection updateSpeechOptions:]
+- -[NAFConnection updateSpeechSynthesisRecord:]
+- -[NAFConnection usefulUserResultWillPresent]
+- -[NAFConnection willPresentUI]
+- -[NAFConnection willPresentUsefulUserResultWithType:]
+- -[NAFConnection willPresentUsefulUserResultWithType:forCommand:]
+- -[NAFConnection willSetApplicationContextWithRefId:]
+- -[NAFConnection(Internal) _activeRequestUUID]
+- -[NAFConnection(Internal) _barrier]
+- -[NAFConnection(Internal) _cachedBulletins]
+- -[NAFConnection(Internal) _clearAssistantInfoForAccountWithIdentifier:]
+- -[NAFConnection(Internal) _clientConfiguration]
+- -[NAFConnection(Internal) _clientServiceWithErrorHandler:]
+- -[NAFConnection(Internal) _clientService]
+- -[NAFConnection(Internal) startUIRequest]
+- -[NAFConnection(Private) broadcastCommandDictionary:]
+- -[NAFConnection(Private) requestBarrier:]
+- -[NAFConnection(Private) requestBarrierIfNecessary:]
+- -[NAFConnection(Private) sendFeedbackToAppPreferencesPredictorForMetricsContext:selectedBundleId:]
+- -[NAFConnection(Private) startSpeechRequestWithSpeechFileAtURL:]
+- -[NAFConnection(Private) startSpeechRequestWithSpeechFileAtURL:isNarrowBand:]
+- -[NAFConnectionAvailabilityObserver networkAvailability:isAvailable:]
+- -[NAFConnectionClientServiceDelegate .cxx_destruct]
+- -[NAFConnectionClientServiceDelegate _connectionDelegate]
+- -[NAFConnectionClientServiceDelegate aceConnectionWillRetryOnError:]
+- -[NAFConnectionClientServiceDelegate acousticIDRequestDidFinishWithSuccess:]
+- -[NAFConnectionClientServiceDelegate acousticIDRequestWillStart]
+- -[NAFConnectionClientServiceDelegate appLaunchFailedWithBundleIdentifier:]
+- -[NAFConnectionClientServiceDelegate audioPlaybackRequestDidStart:]
+- -[NAFConnectionClientServiceDelegate audioPlaybackRequestDidStop:error:]
+- -[NAFConnectionClientServiceDelegate audioPlaybackRequestWillStart:]
+- -[NAFConnectionClientServiceDelegate audioSessionDidBecomeActive:]
+- -[NAFConnectionClientServiceDelegate audioSessionDidBeginInterruptionWithUserInfo:]
+- -[NAFConnectionClientServiceDelegate audioSessionDidEndInterruption:userInfo:]
+- -[NAFConnectionClientServiceDelegate audioSessionWillBecomeActive:]
+- -[NAFConnectionClientServiceDelegate cacheImage:]
+- -[NAFConnectionClientServiceDelegate extensionRequestFinishedForApplication:error:]
+- -[NAFConnectionClientServiceDelegate extensionRequestWillStartForApplication:]
+- -[NAFConnectionClientServiceDelegate getBulletinContext:]
+- -[NAFConnectionClientServiceDelegate initWithConnection:targetQueue:]
+- -[NAFConnectionClientServiceDelegate invalidateCurrentUserActivity]
+- -[NAFConnectionClientServiceDelegate musicWasDetected]
+- -[NAFConnectionClientServiceDelegate networkDidBecomeActive]
+- -[NAFConnectionClientServiceDelegate quickStopWasHandledWithActions:]
+- -[NAFConnectionClientServiceDelegate requestDidAskForTimeoutExtension:]
+- -[NAFConnectionClientServiceDelegate requestDidReceiveCommand:reply:]
+- -[NAFConnectionClientServiceDelegate requestDidUpdateResponseMode:]
+- -[NAFConnectionClientServiceDelegate requestHandleCommand:reply:]
+- -[NAFConnectionClientServiceDelegate requestRequestedDismissAssistantWithReason:]
+- -[NAFConnectionClientServiceDelegate requestRequestedDismissAssistant]
+- -[NAFConnectionClientServiceDelegate requestRequestedOpenApplicationWithBundleID:URL:reply:]
+- -[NAFConnectionClientServiceDelegate requestRequestedOpenURL:reply:]
+- -[NAFConnectionClientServiceDelegate setUserActivityInfo:webpageURL:]
+- -[NAFConnectionClientServiceDelegate shouldSpeakChanged:]
+- -[NAFConnectionClientServiceDelegate speechRecognitionDidFail:]
+- -[NAFConnectionClientServiceDelegate speechRecognized:]
+- -[NAFConnectionClientServiceDelegate speechRecognizedAdditionalInterpretation:refId:]
+- -[NAFConnectionClientServiceDelegate speechRecognizedPartialResult:]
+- -[NAFConnectionClientServiceDelegate speechRecordingDidBeginOnAVRecordRoute:reply:]
+- -[NAFConnectionClientServiceDelegate speechRecordingDidCancelWithReply:]
+- -[NAFConnectionClientServiceDelegate speechRecordingDidChangeAVRecordRoute:isDucking:isTwoShot:speechEndHostTime:reply:]
+- -[NAFConnectionClientServiceDelegate speechRecordingDidEndWithReply:]
+- -[NAFConnectionClientServiceDelegate speechRecordingDidFail:reply:]
+- -[NAFConnectionClientServiceDelegate speechRecordingDidUpdateRecognitionPhrases:utterances:refId:]
+- -[NAFConnectionClientServiceDelegate speechRecordingPerformTwoShotPromptWithType:reply:]
+- -[NAFConnectionClientServiceDelegate speechRecordingStartpointDetectedWithReply:]
+- -[NAFConnectionClientServiceDelegate speechRecordingWillBeginRecognitionUpdateForTask:]
+- -[NAFConnectionClientServiceDelegate speechRecordingWillBeginWithInputAudioPowerXPCWrapper:reply:]
+- -[NAFConnectionClientServiceDelegate startPlaybackDidFail:]
+- -[NAFConnectionClientServiceDelegate startUIRequestWithInfo:completion:]
+- -[NAFConnectionClientServiceDelegate startUIRequestWithText:completion:]
+- -[NAFConnectionClientServiceDelegate willProcessAppLaunchWithBundleIdentifier:]
+- -[NAFConnectionClientServiceDelegate willProcessStartPlayback:intent:completion:]
+- -[NAFConnectionClientServiceDelegate willStopRecordingWithSignpostID:]
+- -[NAFNetworkAvailability .cxx_destruct]
+- -[NAFNetworkAvailability _availabilityChanged]
+- -[NAFNetworkAvailability _clearState]
+- -[NAFNetworkAvailability _notifyObservers]
+- -[NAFNetworkAvailability _startObservingAvailability]
+- -[NAFNetworkAvailability _stopObservingAvailability]
+- -[NAFNetworkAvailability _updateState]
+- -[NAFNetworkAvailability addObserver:]
+- -[NAFNetworkAvailability init]
+- -[NAFNetworkAvailability isAvailable]
+- -[NAFNetworkAvailability removeObserver:]
+- AssistantServicesLibraryCore.frameworkLibrary
+- GCC_except_table0
+- GCC_except_table11
+- GCC_except_table119
+- GCC_except_table127
+- GCC_except_table13
+- GCC_except_table145
+- GCC_except_table15
+- GCC_except_table17
+- GCC_except_table19
+- GCC_except_table21
+- GCC_except_table23
+- GCC_except_table235
+- GCC_except_table246
+- GCC_except_table25
+- GCC_except_table255
+- GCC_except_table261
+- GCC_except_table29
+- GCC_except_table326
+- GCC_except_table33
+- GCC_except_table36
+- GCC_except_table39
+- GCC_except_table42
+- GCC_except_table45
+- GCC_except_table48
+- GCC_except_table5
+- GCC_except_table51
+- GCC_except_table54
+- GCC_except_table57
+- GCC_except_table60
+- GCC_except_table66
+- GCC_except_table69
+- GCC_except_table7
+- GCC_except_table72
+- GCC_except_table75
+- GCC_except_table9
+- OBJC_IVAR_$_NAFConnection._activePlaybackCount
+- OBJC_IVAR_$_NAFConnection._activeRequestActivationEvent
+- OBJC_IVAR_$_NAFConnection._activeRequestBeginTime
+- OBJC_IVAR_$_NAFConnection._activeRequestHasSpeechRecognition
+- OBJC_IVAR_$_NAFConnection._activeRequestInitialInterstitialBeginTimeInterval
+- OBJC_IVAR_$_NAFConnection._activeRequestIsDucking
+- OBJC_IVAR_$_NAFConnection._activeRequestIsTwoShot
+- OBJC_IVAR_$_NAFConnection._activeRequestNumberOfPresentedInterstitials
+- OBJC_IVAR_$_NAFConnection._activeRequestSpeechEndHostTime
+- OBJC_IVAR_$_NAFConnection._activeRequestSpeechEvent
+- OBJC_IVAR_$_NAFConnection._activeRequestSpeechRecognitionTimeInterval
+- OBJC_IVAR_$_NAFConnection._activeRequestSpeechRecordingEndTimeInterval
+- OBJC_IVAR_$_NAFConnection._activeRequestStartSpeechTimeAPICalled
+- OBJC_IVAR_$_NAFConnection._activeRequestStartSpeechTimeRequested
+- OBJC_IVAR_$_NAFConnection._activeRequestStopSpeechTimeAPICalled
+- OBJC_IVAR_$_NAFConnection._activeRequestStopSpeechTimeRequested
+- OBJC_IVAR_$_NAFConnection._activeRequestType
+- OBJC_IVAR_$_NAFConnection._activeRequestTypeForRequestCategorization
+- OBJC_IVAR_$_NAFConnection._activeRequestUUID
+- OBJC_IVAR_$_NAFConnection._activeRequestUsefulUserResultType
+- OBJC_IVAR_$_NAFConnection._activeTurnIdentifier
+- OBJC_IVAR_$_NAFConnection._analytics
+- OBJC_IVAR_$_NAFConnection._cachedBulletins
+- OBJC_IVAR_$_NAFConnection._clientConfiguration
+- OBJC_IVAR_$_NAFConnection._clientConfigurationIsInSync
+- OBJC_IVAR_$_NAFConnection._clientID
+- OBJC_IVAR_$_NAFConnection._connection
+- OBJC_IVAR_$_NAFConnection._connectionHadActiveNetwork
+- OBJC_IVAR_$_NAFConnection._delegate
+- OBJC_IVAR_$_NAFConnection._hasOutstandingRequest
+- OBJC_IVAR_$_NAFConnection._initiationCallSiteInfo
+- OBJC_IVAR_$_NAFConnection._inputAudioPowerUpdater
+- OBJC_IVAR_$_NAFConnection._instanceContext
+- OBJC_IVAR_$_NAFConnection._interstitialCommandQueue
+- OBJC_IVAR_$_NAFConnection._interstitialProvider
+- OBJC_IVAR_$_NAFConnection._isCapturingSpeech
+- OBJC_IVAR_$_NAFConnection._lastRetryError
+- OBJC_IVAR_$_NAFConnection._outstandingRequestClass
+- OBJC_IVAR_$_NAFConnection._pendingSpeechRequestCounter
+- OBJC_IVAR_$_NAFConnection._playbackRoute
+- OBJC_IVAR_$_NAFConnection._preferences
+- OBJC_IVAR_$_NAFConnection._recordRoute
+- OBJC_IVAR_$_NAFConnection._replyHandlerForAceId
+- OBJC_IVAR_$_NAFConnection._requestCompletion
+- OBJC_IVAR_$_NAFConnection._requestTimeoutTimer
+- OBJC_IVAR_$_NAFConnection._shouldSpeak
+- OBJC_IVAR_$_NAFConnection._siriClientStateManager
+- OBJC_IVAR_$_NAFConnection._speechCallbackGroup
+- OBJC_IVAR_$_NAFConnection._speechDelegate
+- OBJC_IVAR_$_NAFConnection._stateInSync
+- OBJC_IVAR_$_NAFConnection._targetQueue
+- OBJC_IVAR_$_NAFConnection._uufrID
+- OBJC_IVAR_$_NAFConnection._voiceOverIsActive
+- OBJC_IVAR_$_NAFConnectionClientServiceDelegate._connection
+- OBJC_IVAR_$_NAFConnectionClientServiceDelegate._targetQueue
+- OBJC_IVAR_$_NAFNetworkAvailability._notifyToken
+- OBJC_IVAR_$_NAFNetworkAvailability._observers
+- OBJC_IVAR_$_NAFNetworkAvailability._queue
+- OBJC_IVAR_$_NAFNetworkAvailability._state
+- WL_AFAssistantCapable.cold.1
+- WL_AFDeviceSupportsSAE.cold.1
+- WL_AFDeviceSupportsSiriUOD.cold.1
+- WL_AFIsATV.cold.1
+- WL_AFIsHorseman.cold.1
+- WL_AFIsInternalInstall.cold.1
+- WL_AFIsMac.cold.1
+- WL_AFIsNano.cold.1
+- WL_AFIsPad.cold.1
+- WL_AFIsSyncNeeded.cold.1
+- WL_AFIsVision.cold.1
+- WL_AFLogInitIfNeeded.cold.1
+- WL_AFPreferencesTypeToSiriEnabled.cold.1
+- WL_AFProductAndBuildVersion.cold.1
+- _ADCreateRequestLinkInfo
+- _ADEmitRequestLinkEventMessage
+- _AFActivationEventGetDescription
+- _AFAnalyticsContextCreateWithCommand
+- _AFAnalyticsContextCreateWithError
+- _AFAnalyticsContextCreateWithRequestInfo
+- _AFAnalyticsContextCreateWithSpeechRequestOptions
+- _AFAnalyticsContextsMerge
+- _AFAnalyticsEventCreateCurrent
+- _AFAnalyticsTurnContextCreateWithRequestInfo
+- _AFAnalyticsTurnContextCreateWithSpeechRequestOptions
+- _AFClientServiceDelegateXPCInterface
+- _AFClientServiceXPCInterface
+- _AFErrorSetUnderlyingError
+- _AFInterstitialCreateCommand
+- _AFInterstitialIsCommandInterstitial
+- _AFInterstitialPhaseGetName
+- _AFInterstitialSupportsRequestWithEvent
+- _AFIsNano
+- _AFMachAbsoluteTimeGetTimeInterval
+- _AFPlaybackRouteIsHandsFree
+- _AFPreferencesSupportedLanguagesForRemote
+- _AFRecordRouteIsHearst
+- _AFSiriDidLaunchAppNotification
+- _AFSiriLogContextConnection
+- _AFSiriLogContextDaemon
+- _AFSiriLogContextPerformance
+- _AFSiriSpeechErrorDomain
+- _AFSpeechEventGetDescription
+- _AFSpeechEventIsVoiceTrigger
+- _AFTurnIdentifierGetString
+- _AssistantServicesLibrary
+- _AssistantServicesLibraryCore
+- _EmitHomePodLaunchContextTime.cold.1
+- _EmitHomePodLaunchContextTime.cold.2
+- _NAFNetworkAvailabilityDidChangeNotification
+- _NSStringFromClass
+- _NSUnderlyingErrorKey
+- _OBJC_CLASS_$_AFAccessibilityObserver
+- _OBJC_CLASS_$_AFAggregator
+- _OBJC_CLASS_$_AFAnalytics
+- _OBJC_CLASS_$_AFCallSiteInfo
+- _OBJC_CLASS_$_AFDeviceRingerSwitchObserver
+- _OBJC_CLASS_$_AFError
+- _OBJC_CLASS_$_AFInstanceContext
+- _OBJC_CLASS_$_AFMyriadCoordinator
+- _OBJC_CLASS_$_AFPreferences
+- _OBJC_CLASS_$_AFSafetyBlock
+- _OBJC_CLASS_$_AFSetAudioSessionActiveContext
+- _OBJC_CLASS_$_AFSetAudioSessionActiveResult
+- _OBJC_CLASS_$_AFSiriClientStateManager
+- _OBJC_CLASS_$_AFWatchdogTimer
+- _OBJC_CLASS_$_AssistantSiriAnalytics
+- _OBJC_CLASS_$_NAFConnection
+- _OBJC_CLASS_$_NAFConnectionAvailabilityObserver
+- _OBJC_CLASS_$_NAFConnectionClientServiceDelegate
+- _OBJC_CLASS_$_NAFNetworkAvailability
+- _OBJC_CLASS_$_NSArray
+- _OBJC_CLASS_$_NSDate
+- _OBJC_CLASS_$_NSDictionary
+- _OBJC_CLASS_$_NSDistributedNotificationCenter
+- _OBJC_CLASS_$_NSError
+- _OBJC_CLASS_$_NSHashTable
+- _OBJC_CLASS_$_NSMutableDictionary
+- _OBJC_CLASS_$_NSNotificationCenter
+- _OBJC_CLASS_$_NSNumber
+- _OBJC_CLASS_$_NSProcessInfo
+- _OBJC_CLASS_$_NSString
+- _OBJC_CLASS_$_NSUUID
+- _OBJC_CLASS_$_NSUserDefaults
+- _OBJC_CLASS_$_ORCHSchemaORCHAceCommandContext
+- _OBJC_CLASS_$_ORCHSchemaORCHAceCommandEnded
+- _OBJC_CLASS_$_ORCHSchemaORCHAceCommandStarted
+- _OBJC_CLASS_$_ORCHSchemaORCHClientEvent
+- _OBJC_CLASS_$_ORCHSchemaORCHClientEventMetadata
+- _OBJC_CLASS_$_SABackgroundUpdateRequest
+- _OBJC_CLASS_$_SACommandIgnored
+- _OBJC_CLASS_$_SACommandSucceeded
+- _OBJC_CLASS_$_SASendCommands
+- _OBJC_CLASS_$_SAStartLocalRequest
+- _OBJC_CLASS_$_SAStartRequest
+- _OBJC_CLASS_$_SAUIAddDialogs
+- _OBJC_CLASS_$_SAUIAddViews
+- _OBJC_CLASS_$_SAUISayIt
+- _OBJC_CLASS_$_SAUIShowRequestHandlingStatus
+- _OBJC_CLASS_$_SISchemaPNRFatalError
+- _OBJC_CLASS_$_SISchemaPNRFatalErrorInfo
+- _OBJC_CLASS_$_SISchemaTurnMTERequest
+- _OBJC_CLASS_$_SISchemaUEILaunchContext
+- _OBJC_CLASS_$_SISchemaUEILaunchEnded
+- _OBJC_CLASS_$_SISchemaUEILaunchStarted
+- _OBJC_CLASS_$_SISchemaUEIRequestCategorization
+- _OBJC_CLASS_$_SISchemaUEIUUFRReady
+- _OBJC_CLASS_$_SISchemaUUID
+- _OBJC_METACLASS_$_NAFConnection
+- _OBJC_METACLASS_$_NAFConnectionAvailabilityObserver
+- _OBJC_METACLASS_$_NAFConnectionClientServiceDelegate
+- _OBJC_METACLASS_$_NAFNetworkAvailability
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_10
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_9
+- _SAStartLocalRequestClassIdentifier
+- _SAStartRequestClassIdentifier
+- _WL_AFAssistantCapable
+- _WL_AFDeviceSupportsSAE
+- _WL_AFDeviceSupportsSiriUOD
+- _WL_AFIsATV
+- _WL_AFIsHorseman
+- _WL_AFIsInternalInstall
+- _WL_AFIsMac
+- _WL_AFIsNano
+- _WL_AFIsPad
+- _WL_AFIsSyncNeeded
+- _WL_AFIsVision
+- _WL_AFLogInitIfNeeded
+- _WL_AFPreferencesTypeToSiriEnabled
+- _WL_AFProductAndBuildVersion
+- __114-[NAFConnection _handleInterstitialPhase:fromProvider:displayText:speakableText:expectedDelay:context:completion:]_block_invoke.cold.1
+- __28-[NAFConnection _connection]_block_invoke.232
+- __28-[NAFConnection _connection]_block_invoke_2.233
+- __39-[NAFConnection _startRequestWithInfo:]_block_invoke.359
+- __39-[NAFConnection _startRequestWithInfo:]_block_invoke.360
+- __39-[NAFConnection _startRequestWithInfo:]_block_invoke.365
+- __39-[NAFConnection _startRequestWithInfo:]_block_invoke.369
+- __51-[NAFConnection startAcousticIDRequestWithOptions:]_block_invoke.393
+- __51-[NAFConnection startAcousticIDRequestWithOptions:]_block_invoke_2.394
+- __52-[NAFConnection boostedPreheatWithStyle:completion:]_block_invoke.302
+- __59-[NAFConnection acquireAudioSessionWithContext:completion:]_block_invoke.334
+- __59-[NAFConnection acquireAudioSessionWithContext:completion:]_block_invoke.338
+- __62-[NAFConnection startAudioPlaybackRequest:options:completion:]_block_invoke.cold.1
+- __63-[NAFConnection forceAudioSessionActiveWithContext:completion:]_block_invoke.316
+- __63-[NAFConnection forceAudioSessionActiveWithContext:completion:]_block_invoke.323
+- __63-[NAFConnection forceAudioSessionActiveWithContext:completion:]_block_invoke.331
+- __65-[NAFConnection forceAudioSessionInactiveWithOptions:completion:]_block_invoke.343
+- __65-[NAFConnectionClientServiceDelegate requestHandleCommand:reply:]_block_invoke.785
+- __65-[NAFConnectionClientServiceDelegate requestHandleCommand:reply:]_block_invoke.785.cold.1
+- __65-[NAFConnectionClientServiceDelegate requestHandleCommand:reply:]_block_invoke.785.cold.2
+- __65-[NAFConnectionClientServiceDelegate requestHandleCommand:reply:]_block_invoke.cold.1
+- __68-[NAFConnectionClientServiceDelegate requestRequestedOpenURL:reply:]_block_invoke.cold.1
+- __81-[NAFConnection startSpeechPronunciationRequestWithOptions:pronunciationContext:]_block_invoke.391
+- __81-[NAFConnection startSpeechPronunciationRequestWithOptions:pronunciationContext:]_block_invoke_2.392
+- __85-[NAFConnection startRecordingAndGetContinueBlockForPendingSpeechRequestWithOptions:]_block_invoke.382
+- __85-[NAFConnection startRecordingAndGetContinueBlockForPendingSpeechRequestWithOptions:]_block_invoke.387
+- __85-[NAFConnection startRecordingAndGetContinueBlockForPendingSpeechRequestWithOptions:]_block_invoke.388
+- __85-[NAFConnection startRecordingAndGetContinueBlockForPendingSpeechRequestWithOptions:]_block_invoke.388.cold.1
+- __85-[NAFConnection startRecordingAndGetContinueBlockForPendingSpeechRequestWithOptions:]_block_invoke_2.383
+- __91-[NAFConnection _dispatchCommand:isInterstitial:interstitialPhase:interstitialDelay:reply:]_block_invoke.106
+- __91-[NAFConnection _dispatchCommand:isInterstitial:interstitialPhase:interstitialDelay:reply:]_block_invoke.111
+- __91-[NAFConnection _dispatchCommand:isInterstitial:interstitialPhase:interstitialDelay:reply:]_block_invoke.cold.1
+- __91-[NAFConnection _dispatchCommand:isInterstitial:interstitialPhase:interstitialDelay:reply:]_block_invoke.cold.2
+- __91-[NAFConnection _dispatchCommand:isInterstitial:interstitialPhase:interstitialDelay:reply:]_block_invoke_2.cold.1
+- __91-[NAFConnection forceAudioSessionActiveWithOptions:reason:speechRequestOptions:completion:]_block_invoke.309
+- __92-[NAFConnectionClientServiceDelegate requestRequestedOpenApplicationWithBundleID:URL:reply:]_block_invoke.cold.1
+- __AFConnectionGetBucketStringFromTimeIntervals
+- __AFConnectionIsErrorDeallocation
+- __AFPreferencesGetClientCommandDeliveryDelay
+- __AFPreferencesGetForcedInterstitialStyle
+- __Block_object_assign
+- __Block_object_dispose
+- __ConvertIdToSchemaUUID
+- __EmitHomePodLaunchContextTime
+- __ExtractAceViewId
+- __LogUEIRequestCategorization
+- __NSConcreteGlobalBlock
+- __OBJC_$_CLASS_METHODS_NAFConnection(Private|Internal)
+- __OBJC_$_CLASS_METHODS_NAFNetworkAvailability
+- __OBJC_$_INSTANCE_METHODS_NAFConnection(Private|Internal)
+- __OBJC_$_INSTANCE_METHODS_NAFConnectionAvailabilityObserver
+- __OBJC_$_INSTANCE_METHODS_NAFConnectionClientServiceDelegate
+- __OBJC_$_INSTANCE_METHODS_NAFNetworkAvailability
+- __OBJC_$_INSTANCE_VARIABLES_NAFConnection
+- __OBJC_$_INSTANCE_VARIABLES_NAFConnectionClientServiceDelegate
+- __OBJC_$_INSTANCE_VARIABLES_NAFNetworkAvailability
+- __OBJC_$_PROP_LIST_NAFConnection
+- __OBJC_$_PROP_LIST_NAFConnectionAvailabilityObserver
+- __OBJC_$_PROP_LIST_NAFConnectionClientServiceDelegate
+- __OBJC_$_PROP_LIST_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AFAccessibilityListening
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AFAudioPowerUpdaterDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AFClientServiceDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AFDeviceRingerSwitchListening
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AFInterstitialProviderDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NAFNetworkAvailabilityObserver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSXPCListenerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AFAccessibilityListening
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AFAudioPowerUpdaterDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AFClientServiceDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AFDeviceRingerSwitchListening
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AFInterstitialProviderDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NAFNetworkAvailabilityObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSXPCListenerDelegate
+- __OBJC_$_PROTOCOL_REFS_AFAccessibilityListening
+- __OBJC_$_PROTOCOL_REFS_AFAudioPowerUpdaterDelegate
+- __OBJC_$_PROTOCOL_REFS_AFClientServiceDelegate
+- __OBJC_$_PROTOCOL_REFS_AFDeviceRingerSwitchListening
+- __OBJC_$_PROTOCOL_REFS_AFInterstitialProviderDelegate
+- __OBJC_$_PROTOCOL_REFS_NAFNetworkAvailabilityObserver
+- __OBJC_$_PROTOCOL_REFS_NSXPCListenerDelegate
+- __OBJC_CLASS_PROTOCOLS_$_NAFConnection
+- __OBJC_CLASS_PROTOCOLS_$_NAFConnectionAvailabilityObserver
+- __OBJC_CLASS_PROTOCOLS_$_NAFConnectionClientServiceDelegate
+- __OBJC_CLASS_RO_$_NAFConnection
+- __OBJC_CLASS_RO_$_NAFConnectionAvailabilityObserver
+- __OBJC_CLASS_RO_$_NAFConnectionClientServiceDelegate
+- __OBJC_CLASS_RO_$_NAFNetworkAvailability
+- __OBJC_LABEL_PROTOCOL_$_AFAccessibilityListening
+- __OBJC_LABEL_PROTOCOL_$_AFAudioPowerUpdaterDelegate
+- __OBJC_LABEL_PROTOCOL_$_AFClientServiceDelegate
+- __OBJC_LABEL_PROTOCOL_$_AFDeviceRingerSwitchListening
+- __OBJC_LABEL_PROTOCOL_$_AFInterstitialProviderDelegate
+- __OBJC_LABEL_PROTOCOL_$_NAFNetworkAvailabilityObserver
+- __OBJC_LABEL_PROTOCOL_$_NSObject
+- __OBJC_LABEL_PROTOCOL_$_NSXPCListenerDelegate
+- __OBJC_METACLASS_RO_$_NAFConnection
+- __OBJC_METACLASS_RO_$_NAFConnectionAvailabilityObserver
+- __OBJC_METACLASS_RO_$_NAFConnectionClientServiceDelegate
+- __OBJC_METACLASS_RO_$_NAFNetworkAvailability
+- __OBJC_PROTOCOL_$_AFAccessibilityListening
+- __OBJC_PROTOCOL_$_AFAudioPowerUpdaterDelegate
+- __OBJC_PROTOCOL_$_AFClientServiceDelegate
+- __OBJC_PROTOCOL_$_AFDeviceRingerSwitchListening
+- __OBJC_PROTOCOL_$_AFInterstitialProviderDelegate
+- __OBJC_PROTOCOL_$_NAFNetworkAvailabilityObserver
+- __OBJC_PROTOCOL_$_NSObject
+- __OBJC_PROTOCOL_$_NSXPCListenerDelegate
+- __PNRFatalErrorInfo
+- __Unwind_Resume
+- ___109-[NAFConnection interstitialProvider:handlePhase:displayText:speakableText:expectedDelay:context:completion:]_block_invoke
+- ___114-[NAFConnection _handleInterstitialPhase:fromProvider:displayText:speakableText:expectedDelay:context:completion:]_block_invoke
+- ___120-[NAFConnectionClientServiceDelegate speechRecordingDidChangeAVRecordRoute:isDucking:isTwoShot:speechEndHostTime:reply:]_block_invoke
+- ___24+[NAFConnection defrost]_block_invoke
+- ___24+[NAFConnection defrost]_block_invoke_2
+- ___28-[NAFConnection _connection]_block_invoke
+- ___28-[NAFConnection _connection]_block_invoke_2
+- ___29-[NAFConnection _updateState]_block_invoke
+- ___29-[NAFConnection _updateState]_block_invoke_2
+- ___30-[NAFConnection willPresentUI]_block_invoke
+- ___33-[NAFConnection _setShouldSpeak:]_block_invoke
+- ___33-[NAFConnection setCarDNDActive:]_block_invoke
+- ___35-[NAFConnection _fetchShouldSpeak:]_block_invoke
+- ___35-[NAFConnection _fetchShouldSpeak:]_block_invoke_2
+- ___35-[NAFConnection(Internal) _barrier]_block_invoke
+- ___35-[NAFConnection(Internal) _barrier]_block_invoke_2
+- ___37-[NAFNetworkAvailability isAvailable]_block_invoke
+- ___38-[NAFNetworkAvailability addObserver:]_block_invoke
+- ___39-[NAFConnection _startRequestWithInfo:]_block_invoke
+- ___39-[NAFConnection setAccessibilityState:]_block_invoke
+- ___39-[NAFConnection setWatchAuthenticated:]_block_invoke
+- ___40-[NAFConnection setIsDeviceInStarkMode:]_block_invoke
+- ___41-[NAFConnection(Private) requestBarrier:]_block_invoke
+- ___41-[NAFNetworkAvailability removeObserver:]_block_invoke
+- ___42-[NAFConnection _updateSpeechEndHostTime:]_block_invoke
+- ___43-[NAFConnection _willFailRequestWithError:]_block_invoke
+- ___43-[NAFConnection _willFailRequestWithError:]_block_invoke_2
+- ___44+[NAFNetworkAvailability sharedAvailability]_block_invoke
+- ___44-[NAFConnection setDeviceRingerSwitchState:]_block_invoke
+- ___45-[NAFConnection _dispatchCallbackGroupBlock:]_block_invoke
+- ___47-[NAFConnection setSupportsCarPlayVehicleData:]_block_invoke
+- ___49-[NAFConnectionClientServiceDelegate cacheImage:]_block_invoke
+- ___51-[NAFConnection _tellSpeechDelegateRecordingDidEnd]_block_invoke
+- ___51-[NAFConnection startAcousticIDRequestWithOptions:]_block_invoke
+- ___51-[NAFConnection startAcousticIDRequestWithOptions:]_block_invoke_2
+- ___51-[NAFConnection startAcousticIDRequestWithOptions:]_block_invoke_3
+- ___52-[NAFConnection boostedPreheatWithStyle:completion:]_block_invoke
+- ___52-[NAFConnection(Private) requestBarrierIfNecessary:]_block_invoke
+- ___53-[NAFConnection _tellSpeechDelegateRecordingDidFail:]_block_invoke
+- ___53-[NAFConnection _tellSpeechDelegateSpeechRecognized:]_block_invoke
+- ___53-[NAFConnection deviceRingerObserver:didChangeState:]_block_invoke
+- ___53-[NAFConnection initWithTargetQueue:instanceContext:]_block_invoke
+- ___53-[NAFNetworkAvailability _startObservingAvailability]_block_invoke
+- ___54-[NAFConnection _tellSpeechDelegateRecordingDidCancel]_block_invoke
+- ___54-[NAFConnectionClientServiceDelegate musicWasDetected]_block_invoke
+- ___55-[NAFConnection _tellSpeechDelegateRecognitionDidFail:]_block_invoke
+- ___55-[NAFConnection resumeInterruptedAudioPlaybackIfNeeded]_block_invoke
+- ___55-[NAFConnectionClientServiceDelegate speechRecognized:]_block_invoke
+- ___57-[NAFConnectionClientServiceDelegate getBulletinContext:]_block_invoke
+- ___57-[NAFConnectionClientServiceDelegate shouldSpeakChanged:]_block_invoke
+- ___59-[NAFConnection acquireAudioSessionWithContext:completion:]_block_invoke
+- ___59-[NAFConnection getRemoteClockTimerSnapshotWithCompletion:]_block_invoke
+- ___59-[NAFConnection getRemoteClockTimerSnapshotWithCompletion:]_block_invoke_2
+- ___59-[NAFConnectionClientServiceDelegate startPlaybackDidFail:]_block_invoke
+- ___60-[NAFConnection _startInputAudioPowerUpdatesWithXPCWrapper:]_block_invoke
+- ___60-[NAFConnection getCachedObjectsWithIdentifiers:completion:]_block_invoke
+- ___60-[NAFConnectionClientServiceDelegate networkDidBecomeActive]_block_invoke
+- ___61-[NAFConnection accessibilityObserver:stateDidChangeFrom:to:]_block_invoke
+- ___62-[NAFConnection startAudioPlaybackRequest:options:completion:]_block_invoke
+- ___63-[NAFConnection forceAudioSessionActiveWithContext:completion:]_block_invoke
+- ___63-[NAFConnection forceAudioSessionActiveWithContext:completion:]_block_invoke_2
+- ___63-[NAFConnectionClientServiceDelegate speechRecognitionDidFail:]_block_invoke
+- ___64-[NAFConnection _tellSpeechDelegateRecordingDidDetectStartpoint]_block_invoke
+- ___64-[NAFConnectionClientServiceDelegate acousticIDRequestWillStart]_block_invoke
+- ___65-[NAFConnection forceAudioSessionInactiveWithOptions:completion:]_block_invoke
+- ___65-[NAFConnectionClientServiceDelegate requestHandleCommand:reply:]_block_invoke
+- ___66-[NAFConnection _startRequestTimeoutTimerWithTimeInterval:reason:]_block_invoke
+- ___66-[NAFConnection _tellSpeechDelegateSpeechRecognizedPartialResult:]_block_invoke
+- ___66-[NAFConnectionClientServiceDelegate audioSessionDidBecomeActive:]_block_invoke
+- ___67-[NAFConnectionClientServiceDelegate audioPlaybackRequestDidStart:]_block_invoke
+- ___67-[NAFConnectionClientServiceDelegate audioSessionWillBecomeActive:]_block_invoke
+- ___67-[NAFConnectionClientServiceDelegate invalidateCurrentUserActivity]_block_invoke
+- ___67-[NAFConnectionClientServiceDelegate requestDidUpdateResponseMode:]_block_invoke
+- ___67-[NAFConnectionClientServiceDelegate speechRecordingDidFail:reply:]_block_invoke
+- ___68-[NAFConnection _tellSpeechDelegateRecordingDidChangeAVRecordRoute:]_block_invoke
+- ___68-[NAFConnectionClientServiceDelegate aceConnectionWillRetryOnError:]_block_invoke
+- ___68-[NAFConnectionClientServiceDelegate audioPlaybackRequestWillStart:]_block_invoke
+- ___68-[NAFConnectionClientServiceDelegate requestRequestedOpenURL:reply:]_block_invoke
+- ___68-[NAFConnectionClientServiceDelegate speechRecognizedPartialResult:]_block_invoke
+- ___69-[NAFConnection _tellSpeechDelegateRecordingDidBeginOnAVRecordRoute:]_block_invoke
+- ___69-[NAFConnectionAvailabilityObserver networkAvailability:isAvailable:]_block_invoke
+- ___69-[NAFConnectionClientServiceDelegate quickStopWasHandledWithActions:]_block_invoke
+- ___69-[NAFConnectionClientServiceDelegate requestDidReceiveCommand:reply:]_block_invoke
+- ___69-[NAFConnectionClientServiceDelegate requestDidReceiveCommand:reply:]_block_invoke_2
+- ___69-[NAFConnectionClientServiceDelegate setUserActivityInfo:webpageURL:]_block_invoke
+- ___69-[NAFConnectionClientServiceDelegate speechRecordingDidEndWithReply:]_block_invoke
+- ___70-[NAFConnection _tellSpeechDelegateRecognitionUpdateWillBeginForTask:]_block_invoke
+- ___70-[NAFConnection sendGenericAceCommand:turnIdentifier:conflictHandler:]_block_invoke
+- ___70-[NAFConnectionClientServiceDelegate requestRequestedDismissAssistant]_block_invoke
+- ___70-[NAFConnectionClientServiceDelegate willStopRecordingWithSignpostID:]_block_invoke
+- ___71-[NAFConnectionClientServiceDelegate requestDidAskForTimeoutExtension:]_block_invoke
+- ___72-[NAFConnectionClientServiceDelegate audioPlaybackRequestDidStop:error:]_block_invoke
+- ___72-[NAFConnectionClientServiceDelegate speechRecordingDidCancelWithReply:]_block_invoke
+- ___72-[NAFConnectionClientServiceDelegate startUIRequestWithInfo:completion:]_block_invoke
+- ___72-[NAFConnectionClientServiceDelegate startUIRequestWithText:completion:]_block_invoke
+- ___73-[NAFConnection _tellSpeechDelegateToPerformTwoShotPromptWithType:reply:]_block_invoke
+- ___73-[NAFConnection _tellSpeechDelegateToPerformTwoShotPromptWithType:reply:]_block_invoke_2
+- ___74-[NAFConnectionClientServiceDelegate appLaunchFailedWithBundleIdentifier:]_block_invoke
+- ___75-[NAFConnection setAnnouncementRequestsPermittedByPresentationWhileActive:]_block_invoke
+- ___76-[NAFConnectionClientServiceDelegate acousticIDRequestDidFinishWithSuccess:]_block_invoke
+- ___77-[NAFConnection(Private) startSpeechRequestWithSpeechFileAtURL:isNarrowBand:]_block_invoke
+- ___78-[NAFConnectionClientServiceDelegate audioSessionDidEndInterruption:userInfo:]_block_invoke
+- ___78-[NAFConnectionClientServiceDelegate extensionRequestWillStartForApplication:]_block_invoke
+- ___79-[NAFConnectionClientServiceDelegate willProcessAppLaunchWithBundleIdentifier:]_block_invoke
+- ___81-[NAFConnection startSpeechPronunciationRequestWithOptions:pronunciationContext:]_block_invoke
+- ___81-[NAFConnection startSpeechPronunciationRequestWithOptions:pronunciationContext:]_block_invoke_2
+- ___81-[NAFConnection startSpeechPronunciationRequestWithOptions:pronunciationContext:]_block_invoke_3
+- ___81-[NAFConnectionClientServiceDelegate requestRequestedDismissAssistantWithReason:]_block_invoke
+- ___81-[NAFConnectionClientServiceDelegate speechRecordingStartpointDetectedWithReply:]_block_invoke
+- ___81-[NAFConnectionClientServiceDelegate willProcessStartPlayback:intent:completion:]_block_invoke
+- ___83-[NAFConnection _tellSpeechDelegateRecognizedAdditionalSpeechInterpretation:refId:]_block_invoke
+- ___83-[NAFConnectionClientServiceDelegate audioSessionDidBeginInterruptionWithUserInfo:]_block_invoke
+- ___83-[NAFConnectionClientServiceDelegate extensionRequestFinishedForApplication:error:]_block_invoke
+- ___83-[NAFConnectionClientServiceDelegate speechRecordingDidBeginOnAVRecordRoute:reply:]_block_invoke
+- ___84-[NAFConnection _tellSpeechDelegateRecordingWillBeginWithInputAudioPowerXPCWrapper:]_block_invoke
+- ___85-[NAFConnection startRecordingAndGetContinueBlockForPendingSpeechRequestWithOptions:]_block_invoke
+- ___85-[NAFConnection startRecordingAndGetContinueBlockForPendingSpeechRequestWithOptions:]_block_invoke_2
+- ___85-[NAFConnection startRecordingAndGetContinueBlockForPendingSpeechRequestWithOptions:]_block_invoke_3
+- ___85-[NAFConnection startRecordingAndGetContinueBlockForPendingSpeechRequestWithOptions:]_block_invoke_4
+- ___85-[NAFConnectionClientServiceDelegate speechRecognizedAdditionalInterpretation:refId:]_block_invoke
+- ___87-[NAFConnectionClientServiceDelegate speechRecordingWillBeginRecognitionUpdateForTask:]_block_invoke
+- ___88-[NAFConnectionClientServiceDelegate speechRecordingPerformTwoShotPromptWithType:reply:]_block_invoke
+- ___90-[NAFConnection _tellSpeechDelegateRecordingDidUpdateRecognitionPhrases:utterances:refId:]_block_invoke
+- ___91-[NAFConnection _dispatchCommand:isInterstitial:interstitialPhase:interstitialDelay:reply:]_block_invoke
+- ___91-[NAFConnection _dispatchCommand:isInterstitial:interstitialPhase:interstitialDelay:reply:]_block_invoke_2
+- ___91-[NAFConnection forceAudioSessionActiveWithOptions:reason:speechRequestOptions:completion:]_block_invoke
+- ___92-[NAFConnectionClientServiceDelegate requestRequestedOpenApplicationWithBundleID:URL:reply:]_block_invoke
+- ___98-[NAFConnectionClientServiceDelegate speechRecordingDidUpdateRecognitionPhrases:utterances:refId:]_block_invoke
+- ___98-[NAFConnectionClientServiceDelegate speechRecordingWillBeginWithInputAudioPowerXPCWrapper:reply:]_block_invoke
+- ___AssistantServicesLibraryCore_block_invoke
+- ___NSDictionary0__struct
+- ___block_descriptor_32_e17_B16?0"NSError"8l
+- ___block_descriptor_32_e17_v16?0"NSError"8l
+- ___block_descriptor_32_e33_v16?0"NSObject<OS_xpc_object>"8l
+- ___block_descriptor_32_e49_v16?0"<AFSetAudioSessionActiveResultMutating>"8l
+- ___block_descriptor_32_e5_v8?0l
+- ___block_descriptor_33_e41_v16?0"<AFClientConfigurationMutating>"8l
+- ___block_descriptor_40_e41_v16?0"<AFClientConfigurationMutating>"8l
+- ___block_descriptor_40_e8_32bs_e17_v16?0"NSError"8l
+- ___block_descriptor_40_e8_32bs_e22_v16?0"NSDictionary"8l
+- ___block_descriptor_40_e8_32bs_e23_v32?0d8d16"NSError"24l
+- ___block_descriptor_40_e8_32bs_e39_v16?0"AFSetAudioSessionActiveResult"8l
+- ___block_descriptor_40_e8_32bs_e42_v24?0"AFClockTimerSnapshot"8"NSError"16l
+- ___block_descriptor_40_e8_32bs_e45_v24?0"AceObject<SAAceCommand>"8"NSError"16l
+- ___block_descriptor_40_e8_32bs_e5_v8?0l
+- ___block_descriptor_40_e8_32bs_e8_v12?0B8l
+- ___block_descriptor_40_e8_32r_e5_v8?0l
+- ___block_descriptor_40_e8_32s_e14_"NSError"8?0l
+- ___block_descriptor_40_e8_32s_e17_v16?0"NSError"8l
+- ___block_descriptor_40_e8_32s_e29_v16?0"<NAFSpeechDelegate>"8l
+- ___block_descriptor_40_e8_32s_e39_v16?0"AFSetAudioSessionActiveResult"8l
+- ___block_descriptor_40_e8_32s_e41_v16?0"<AFClientConfigurationMutating>"8l
+- ___block_descriptor_40_e8_32s_e49_v16?0"<AFSetAudioSessionActiveResultMutating>"8l
+- ___block_descriptor_40_e8_32s_e5_v8?0l
+- ___block_descriptor_40_e8_32s_e8_v12?0B8l
+- ___block_descriptor_40_e8_32s_e8_v12?0i8l
+- ___block_descriptor_40_e8_32s_e8_v16?0q8l
+- ___block_descriptor_40_e8_32w_e29_v16?0"<NAFSpeechDelegate>"8l
+- ___block_descriptor_40_e8_32w_e5_v8?0l
+- ___block_descriptor_41_e8_32s_e21_{?=i}16?0"NSUUID"8l
+- ___block_descriptor_41_e8_32s_e5_v8?0l
+- ___block_descriptor_48_e8_32bs40w_e5_v8?0l
+- ___block_descriptor_48_e8_32r_e5_v8?0l
+- ___block_descriptor_48_e8_32s40bs_e17_v16?0"NSError"8l
+- ___block_descriptor_48_e8_32s40bs_e39_v16?0"AFSetAudioSessionActiveResult"8l
+- ___block_descriptor_48_e8_32s40bs_e5_v8?0l
+- ___block_descriptor_48_e8_32s40bs_e8_v12?0B8l
+- ___block_descriptor_48_e8_32s40r_e5_v8?0l
+- ___block_descriptor_48_e8_32s40s_e17_v16?0"NSError"8l
+- ___block_descriptor_48_e8_32s40s_e21_{?=i}16?0"NSUUID"8l
+- ___block_descriptor_48_e8_32s40s_e29_v16?0"<NAFSpeechDelegate>"8l
+- ___block_descriptor_48_e8_32s40s_e34_v16?0"<AFCallSiteInfoMutating>"8l
+- ___block_descriptor_48_e8_32s40s_e5_v8?0l
+- ___block_descriptor_48_e8_32s40w_e5_v8?0l
+- ___block_descriptor_48_e8_32s_e29_v16?0"<NAFSpeechDelegate>"8l
+- ___block_descriptor_48_e8_32s_e5_v8?0l
+- ___block_descriptor_48_e8_32w_e5_v8?0l
+- ___block_descriptor_49_e8_32s40bs_e5_v8?0l
+- ___block_descriptor_49_e8_32s40s_e5_v8?0l
+- ___block_descriptor_50_e8_32s40s_e8_v16?0q8l
+- ___block_descriptor_56_e8_32s40bs_e29_v16?0"<NAFSpeechDelegate>"8l
+- ___block_descriptor_56_e8_32s40bs_e5_v8?0l
+- ___block_descriptor_56_e8_32s40s48bs_e5_v8?0l
+- ___block_descriptor_56_e8_32s40s48s_e29_v16?0"<NAFSpeechDelegate>"8l
+- ___block_descriptor_56_e8_32s40s48s_e5_v8?0l
+- ___block_descriptor_56_e8_32s40s_e5_v8?0l
+- ___block_descriptor_56_e8_32s_e50_v16?0"<AFSetAudioSessionActiveContextMutating>"8l
+- ___block_descriptor_64_e8_32s40s48bs_e5_v8?0l
+- ___block_descriptor_64_e8_32s40s48s56bs_e39_v16?0"AFSetAudioSessionActiveResult"8l
+- ___block_descriptor_64_e8_32s40s48s56bs_e5_v8?0l
+- ___block_descriptor_64_e8_32s40s48s56s_e29_v16?0"<NAFSpeechDelegate>"8l
+- ___block_descriptor_64_e8_32s40s48s56s_e5_v8?0l
+- ___block_descriptor_64_e8_32s40s48s_e5_v8?0l
+- ___block_descriptor_66_e8_32s40s48bs_e5_v8?0l
+- ___block_descriptor_72_e8_32s40s48s56bs_e5_v8?0l
+- ___block_descriptor_73_e8_32s40s48bs56bs_e5_v8?0l
+- ___block_descriptor_81_e8_32s40s48s56bs_e33_v16?0"AceObject<SAAceCommand>"8l
+- ___block_descriptor_89_e8_32s40s48s56bs_e5_v8?0l
+- ___block_descriptor_89_e8_32s40s48s56s64bs_e5_v8?0l
+- ___block_descriptor_96_e8_32s40s48s56s64s72bs_e5_v8?0l
+- ___block_literal_global
+- ___copy_helper_block_e8_32b
+- ___copy_helper_block_e8_32b40w
+- ___copy_helper_block_e8_32r
+- ___copy_helper_block_e8_32s40b
+- ___copy_helper_block_e8_32s40r
+- ___copy_helper_block_e8_32s40s
+- ___copy_helper_block_e8_32s40s48b
+- ___copy_helper_block_e8_32s40s48b56b
+- ___copy_helper_block_e8_32s40s48s
+- ___copy_helper_block_e8_32s40s48s56b
+- ___copy_helper_block_e8_32s40s48s56s
+- ___copy_helper_block_e8_32s40s48s56s64b
+- ___copy_helper_block_e8_32s40s48s56s64s72b
+- ___copy_helper_block_e8_32s40w
+- ___copy_helper_block_e8_32w
+- ___destroy_helper_block_e8_32r
+- ___destroy_helper_block_e8_32s40r
+- ___destroy_helper_block_e8_32s40s
+- ___destroy_helper_block_e8_32s40s48s
+- ___destroy_helper_block_e8_32s40s48s56s
+- ___destroy_helper_block_e8_32s40s48s56s64s
+- ___destroy_helper_block_e8_32s40s48s56s64s72s
+- ___destroy_helper_block_e8_32s40w
+- ___destroy_helper_block_e8_32w
+- ___getAFAnalyticsClass_block_invoke
+- ___getAFAssistantCapableSymbolLoc_block_invoke
+- ___getAFAudioPowerUpdaterClass_block_invoke
+- ___getAFAudioPowerXPCProviderClass_block_invoke
+- ___getAFClientConfigurationClass_block_invoke
+- ___getAFDeviceSupportsSAESymbolLoc_block_invoke
+- ___getAFDeviceSupportsSiriUODSymbolLoc_block_invoke
+- ___getAFFeatureFlagsClass_block_invoke
+- ___getAFInstanceContextClass_block_invoke
+- ___getAFInterstitialProviderClass_block_invoke
+- ___getAFIsATVSymbolLoc_block_invoke
+- ___getAFIsHorsemanSymbolLoc_block_invoke
+- ___getAFIsInternalInstallSymbolLoc_block_invoke
+- ___getAFIsMacSymbolLoc_block_invoke
+- ___getAFIsNanoSymbolLoc_block_invoke
+- ___getAFIsPadSymbolLoc_block_invoke
+- ___getAFIsSyncNeededSymbolLoc_block_invoke
+- ___getAFIsVisionSymbolLoc_block_invoke
+- ___getAFLogInitIfNeededSymbolLoc_block_invoke
+- ___getAFOneArgumentSafetyBlockClass_block_invoke
+- ___getAFPreferencesClass_block_invoke
+- ___getAFPreferencesTypeToSiriEnabledSymbolLoc_block_invoke
+- ___getAFProductAndBuildVersionSymbolLoc_block_invoke
+- ___getAFQueueClass_block_invoke
+- ___getAFRequestInfoClass_block_invoke
+- ___getAFSafetyBlockClass_block_invoke
+- ___objc_personality_v0
+- __block_literal_global.272
+- __block_literal_global.295
+- __block_literal_global.304
+- __block_literal_global.319
+- __block_literal_global.345
+- __block_literal_global.347
+- __dispatch_main_q
+- __getAFAnalyticsClass_block_invoke.cold.1
+- __getAFAudioPowerUpdaterClass_block_invoke.cold.1
+- __getAFAudioPowerXPCProviderClass_block_invoke.cold.1
+- __getAFClientConfigurationClass_block_invoke.cold.1
+- __getAFFeatureFlagsClass_block_invoke.cold.1
+- __getAFInstanceContextClass_block_invoke.cold.1
+- __getAFInterstitialProviderClass_block_invoke.cold.1
+- __getAFOneArgumentSafetyBlockClass_block_invoke.cold.1
+- __getAFPreferencesClass_block_invoke.cold.1
+- __getAFQueueClass_block_invoke.cold.1
+- __getAFRequestInfoClass_block_invoke.cold.1
+- __getAFSafetyBlockClass_block_invoke.cold.1
+- __os_log_debug_impl
+- __os_log_error_impl
+- __os_log_impl
+- __os_signpost_emit_with_name_impl
+- __sl_dlopen
+- _abort_report_np
+- _dispatch_after
+- _dispatch_async
+- _dispatch_group_create
+- _dispatch_group_enter
+- _dispatch_group_leave
+- _dispatch_group_notify
+- _dispatch_once
+- _dispatch_queue_attr_make_with_autorelease_frequency
+- _dispatch_queue_attr_make_with_qos_class
+- _dispatch_queue_create
+- _dispatch_semaphore_create
+- _dispatch_semaphore_signal
+- _dispatch_semaphore_wait
+- _dispatch_sync
+- _dispatch_time
+- _dladdr
+- _dlerror
+- _dlsym
+- _free
+- _getAFAnalyticsClass
+- _getAFAssistantCapableSymbolLoc
+- _getAFAudioPowerUpdaterClass
+- _getAFAudioPowerXPCProviderClass
+- _getAFClientConfigurationClass
+- _getAFDeviceSupportsSAESymbolLoc
+- _getAFDeviceSupportsSiriUODSymbolLoc
+- _getAFFeatureFlagsClass
+- _getAFInstanceContextClass
+- _getAFInterstitialProviderClass
+- _getAFIsATVSymbolLoc
+- _getAFIsHorsemanSymbolLoc
+- _getAFIsInternalInstallSymbolLoc
+- _getAFIsMacSymbolLoc
+- _getAFIsNanoSymbolLoc
+- _getAFIsPadSymbolLoc
+- _getAFIsSyncNeededSymbolLoc
+- _getAFIsVisionSymbolLoc
+- _getAFLogInitIfNeededSymbolLoc
+- _getAFOneArgumentSafetyBlockClass
+- _getAFPreferencesClass
+- _getAFPreferencesTypeToSiriEnabledSymbolLoc
+- _getAFProductAndBuildVersionSymbolLoc
+- _getAFQueueClass
+- _getAFRequestInfoClass
+- _getAFSafetyBlockClass
+- _kAFAssistantErrorDomain
+- _kAssistantClientServiceName
+- _kExtendTimeoutReasonOnlyIfExpiring
+- _kRequestIdForMyriadNotificaiton
+- _kRequestSettingCaptionVoiceFeedback
+- _kRequestSettingHideBackgroundContent
+- _kRequestSettingShowRecognizedSpeech
+- _kRequestSettingTypeToSiri
+- _kRequestSettingUseSpeakerForTTS
+- _kRequestSettings
+- _kRequestSiriInputLanguage
+- _kdebug_trace
+- _mach_absolute_time
+- _notify_cancel
+- _notify_register_dispatch
+- _nwi_ifstate_get_flags
+- _nwi_state_copy
+- _nwi_state_get_first_ifstate
+- _nwi_state_get_notify_key
+- _nwi_state_get_reachability_flags
+- _nwi_state_release
+- _objc_alloc_init
+- _objc_copyWeak
+- _objc_getClass
+- _objc_initWeak
+- _objc_msgSend$UEIUUFRReadyDialogPhase
+- _objc_msgSend$UUID
+- _objc_msgSend$UUIDString
+- _objc_msgSend$_aceConnectionWillRetryOnError:
+- _objc_msgSend$_activeRequestUUID
+- _objc_msgSend$_availabilityChanged
+- _objc_msgSend$_barrierWithReply:
+- _objc_msgSend$_beginInterstitialsForReason:
+- _objc_msgSend$_broadcastCommandDictionary:
+- _objc_msgSend$_cachedBulletins
+- _objc_msgSend$_cancelRequestTimeoutForReason:
+- _objc_msgSend$_checkAndSetIsCapturingSpeech:
+- _objc_msgSend$_clearAssistantInfoForAccountIdentifier:
+- _objc_msgSend$_clearConnection
+- _objc_msgSend$_clearState
+- _objc_msgSend$_clientConfiguration
+- _objc_msgSend$_clientService
+- _objc_msgSend$_clientServiceWithErrorHandler:
+- _objc_msgSend$_completeRequestWithUUID:forReason:error:
+- _objc_msgSend$_connection
+- _objc_msgSend$_connectionDelegate
+- _objc_msgSend$_connectionFailedWithError:
+- _objc_msgSend$_dispatchCallbackGroupBlock:
+- _objc_msgSend$_dispatchCommand:isInterstitial:interstitialPhase:interstitialDelay:reply:
+- _objc_msgSend$_endInterstitialsForReason:
+- _objc_msgSend$_enqueueInterstitialCommand:
+- _objc_msgSend$_extendExistingRequestTimeoutForReason:
+- _objc_msgSend$_extendExpiringRequestTimeout
+- _objc_msgSend$_extendRequestTimeoutForReason:durationInSeconds:
+- _objc_msgSend$_fetchShouldSpeak:
+- _objc_msgSend$_handleCommand:reply:
+- _objc_msgSend$_handleInterstitialPhase:fromProvider:displayText:speakableText:expectedDelay:context:completion:
+- _objc_msgSend$_invokeRequestTimeoutForReason:
+- _objc_msgSend$_markIsDucking
+- _objc_msgSend$_markIsTwoShot
+- _objc_msgSend$_markNetworkDidBecomeActive
+- _objc_msgSend$_markSpeechRecognized
+- _objc_msgSend$_metricContextValueForUseDeviceSpeakerForTTS:
+- _objc_msgSend$_notifyObservers
+- _objc_msgSend$_pauseRequestTimeoutForReason:
+- _objc_msgSend$_requestBarrierIfNecessaryWithReply:
+- _objc_msgSend$_requestBarrierWithReply:
+- _objc_msgSend$_requestDidEnd
+- _objc_msgSend$_requestWillBeginWithRequestClass:isSpeechRequest:speechRequestOptions:requestInfo:analyticsEventProvider:
+- _objc_msgSend$_requestWillBeginWithRequestClass:isSpeechRequest:speechRequestOptions:requestInfo:isBackgroundRequest:analyticsEventProvider:
+- _objc_msgSend$_resumeRequestTimeoutForReason:
+- _objc_msgSend$_scheduleRequestTimeoutForReason:durationInSeconds:
+- _objc_msgSend$_setQueue:
+- _objc_msgSend$_setRecordRoute:
+- _objc_msgSend$_setShouldSpeak:
+- _objc_msgSend$_shouldEmitUEIRequestLinkForRequestInfo:speechRequestOptions:
+- _objc_msgSend$_siriClientStateManager
+- _objc_msgSend$_speechRecordingDidFailWithError:
+- _objc_msgSend$_startInputAudioPowerUpdatesWithXPCWrapper:
+- _objc_msgSend$_startObservingAvailability
+- _objc_msgSend$_startRequestMetricSettings
+- _objc_msgSend$_startRequestTimeoutTimerWithTimeInterval:reason:
+- _objc_msgSend$_startRequestWithAceCommand:turnIdentifier:suppressAlert:
+- _objc_msgSend$_startRequestWithInfo:
+- _objc_msgSend$_startSpeechWithURL:isNarrowBand:
+- _objc_msgSend$_startUIRequestWithInfo:completion:
+- _objc_msgSend$_startUIRequestWithText:completion:
+- _objc_msgSend$_stopInputAudioPowerUpdates
+- _objc_msgSend$_stopObservingAvailability
+- _objc_msgSend$_tellDelegateAudioPlaybackRequestDidStart:
+- _objc_msgSend$_tellDelegateAudioPlaybackRequestDidStop:error:
+- _objc_msgSend$_tellDelegateAudioPlaybackRequestWillStart:
+- _objc_msgSend$_tellDelegateAudioSessionDidBecomeActive:
+- _objc_msgSend$_tellDelegateAudioSessionDidBeginInterruptionWithUserInfo:
+- _objc_msgSend$_tellDelegateAudioSessionDidEndInterruption:userInfo:
+- _objc_msgSend$_tellDelegateAudioSessionWillBecomeActive:
+- _objc_msgSend$_tellDelegateCacheImage:
+- _objc_msgSend$_tellDelegateDidDetectMusic
+- _objc_msgSend$_tellDelegateDidFinishAcousticIDRequestWithSuccess:
+- _objc_msgSend$_tellDelegateExtensionRequestFinishedForApplication:error:
+- _objc_msgSend$_tellDelegateExtensionRequestWillStartForApplication:
+- _objc_msgSend$_tellDelegateFailedToLaunchAppWithBundleIdentifier:
+- _objc_msgSend$_tellDelegateInvalidateCurrentUserActivity
+- _objc_msgSend$_tellDelegateRequestWillStart
+- _objc_msgSend$_tellDelegateSetUserActivityInfo:webpageURL:
+- _objc_msgSend$_tellDelegateShouldSpeakChanged:
+- _objc_msgSend$_tellDelegateStartPlaybackDidFail:
+- _objc_msgSend$_tellDelegateWillProcessAppLaunchWithBundleIdentifier:
+- _objc_msgSend$_tellDelegateWillProcessStartPlayback:intent:completion:
+- _objc_msgSend$_tellDelegateWillStartAcousticIDRequest
+- _objc_msgSend$_tellSpeechDelegateRecognitionDidFail:
+- _objc_msgSend$_tellSpeechDelegateRecognitionUpdateWillBeginForTask:
+- _objc_msgSend$_tellSpeechDelegateRecognizedAdditionalSpeechInterpretation:refId:
+- _objc_msgSend$_tellSpeechDelegateRecordingDidBeginOnAVRecordRoute:
+- _objc_msgSend$_tellSpeechDelegateRecordingDidCancel
+- _objc_msgSend$_tellSpeechDelegateRecordingDidChangeAVRecordRoute:
+- _objc_msgSend$_tellSpeechDelegateRecordingDidDetectStartpoint
+- _objc_msgSend$_tellSpeechDelegateRecordingDidEnd
+- _objc_msgSend$_tellSpeechDelegateRecordingDidFail:
+- _objc_msgSend$_tellSpeechDelegateRecordingDidUpdateRecognitionPhrases:utterances:refId:
+- _objc_msgSend$_tellSpeechDelegateRecordingWillBeginWithInputAudioPowerXPCWrapper:
+- _objc_msgSend$_tellSpeechDelegateSpeechRecognized:
+- _objc_msgSend$_tellSpeechDelegateSpeechRecognizedPartialResult:
+- _objc_msgSend$_tellSpeechDelegateToPerformTwoShotPromptWithType:reply:
+- _objc_msgSend$_unsafeAveragePower
+- _objc_msgSend$_unsafePeakPower
+- _objc_msgSend$_updateClientConfiguration
+- _objc_msgSend$_updateSpeechEndHostTime:
+- _objc_msgSend$_updateState
+- _objc_msgSend$_updateStateIfNotInSync
+- _objc_msgSend$_willCancelRequest
+- _objc_msgSend$_willCompleteRequest
+- _objc_msgSend$_willEndSession
+- _objc_msgSend$_willFailRequestWithError:
+- _objc_msgSend$_willPresentUsefulUserResultWithType:
+- _objc_msgSend$_willStartRequestWithSpeech:speechRequestOptions:requestInfo:analyticsEventProvider:
+- _objc_msgSend$_willStopRecordingWithSignpostID:
+- _objc_msgSend$aceId
+- _objc_msgSend$activationEvent
+- _objc_msgSend$activationEventMachAbsoluteTime
+- _objc_msgSend$activationEventTime
+- _objc_msgSend$addListener:
+- _objc_msgSend$addObserver:
+- _objc_msgSend$adviseSessionArbiterToContinueWithPreviousWinner:
+- _objc_msgSend$af_dialogPhase
+- _objc_msgSend$allKeys
+- _objc_msgSend$alwaysObscureBackgroundContentWhenActive
+- _objc_msgSend$alwaysShowRecognizedSpeech
+- _objc_msgSend$arrayWithObjects:count:
+- _objc_msgSend$assistantConnection:appLaunchFailedWithBundleIdentifier:
+- _objc_msgSend$assistantConnection:audioSessionDidBecomeActive:
+- _objc_msgSend$assistantConnection:audioSessionWillBecomeActive:
+- _objc_msgSend$assistantConnection:didFinishAcousticIDRequestWithSuccess:
+- _objc_msgSend$assistantConnection:didHandleQuickStopWithAction:
+- _objc_msgSend$assistantConnection:didStartAudioPlaybackRequest:
+- _objc_msgSend$assistantConnection:didStopAudioPlaybackRequest:error:
+- _objc_msgSend$assistantConnection:didUpdateResponseMode:
+- _objc_msgSend$assistantConnection:dismissAssistantWithReason:
+- _objc_msgSend$assistantConnection:extensionRequestFinishedForApplication:error:
+- _objc_msgSend$assistantConnection:extensionRequestWillStartForApplication:
+- _objc_msgSend$assistantConnection:openApplicationWithBundleID:URL:completion:
+- _objc_msgSend$assistantConnection:openURL:completion:
+- _objc_msgSend$assistantConnection:receivedCommand:completion:
+- _objc_msgSend$assistantConnection:recognitionUpdateWillBeginForTask:
+- _objc_msgSend$assistantConnection:recognitionUpdateWithPhrases:utterances:refId:
+- _objc_msgSend$assistantConnection:recognizedAdditionalSpeechInterpretation:refId:
+- _objc_msgSend$assistantConnection:requestFailedWithError:requestClass:
+- _objc_msgSend$assistantConnection:setUserActivtiyInfoAndMakeCurrent:webpageURL:
+- _objc_msgSend$assistantConnection:shouldSpeak:
+- _objc_msgSend$assistantConnection:speechRecognitionDidFail:
+- _objc_msgSend$assistantConnection:speechRecognized:
+- _objc_msgSend$assistantConnection:speechRecognizedPartialResult:
+- _objc_msgSend$assistantConnection:speechRecordingDidBeginOnAVRecordRoute:
+- _objc_msgSend$assistantConnection:speechRecordingDidChangeAVRecordRoute:
+- _objc_msgSend$assistantConnection:speechRecordingDidFail:
+- _objc_msgSend$assistantConnection:speechRecordingPerformTwoShotPromptWithType:completion:
+- _objc_msgSend$assistantConnection:speechRecordingWillBeginWithInputAudioPowerXPCWrapper:
+- _objc_msgSend$assistantConnection:startPlaybackDidFail:
+- _objc_msgSend$assistantConnection:startUIRequestWithInfo:completion:
+- _objc_msgSend$assistantConnection:startUIRequestWithText:completion:
+- _objc_msgSend$assistantConnection:wantsToCacheImage:
+- _objc_msgSend$assistantConnection:willProcessAppLaunchWithBundleIdentifier:
+- _objc_msgSend$assistantConnection:willProcessStartPlayback:
+- _objc_msgSend$assistantConnection:willProcessStartPlayback:intent:completion:
+- _objc_msgSend$assistantConnection:willStartAudioPlaybackRequest:
+- _objc_msgSend$assistantConnectionAudioSessionDidBeginInterruption:
+- _objc_msgSend$assistantConnectionAudioSessionDidBeginInterruption:userInfo:
+- _objc_msgSend$assistantConnectionAudioSessionDidEndInterruption:shouldResume:
+- _objc_msgSend$assistantConnectionAudioSessionDidEndInterruption:shouldResume:userInfo:
+- _objc_msgSend$assistantConnectionDidChangeAudioRecordingPower:
+- _objc_msgSend$assistantConnectionDidDetectMusic:
+- _objc_msgSend$assistantConnectionDismissAssistant:
+- _objc_msgSend$assistantConnectionInvalidateCurrentUserActivity:
+- _objc_msgSend$assistantConnectionRequestFinished:
+- _objc_msgSend$assistantConnectionRequestWillStart:
+- _objc_msgSend$assistantConnectionSpeechRecordingDidCancel:
+- _objc_msgSend$assistantConnectionSpeechRecordingDidDetectStartpoint:
+- _objc_msgSend$assistantConnectionSpeechRecordingDidEnd:
+- _objc_msgSend$assistantConnectionSpeechRecordingWillBegin:
+- _objc_msgSend$assistantConnectionUpdatedSpeechEndEstimate:speechEndEstimate:
+- _objc_msgSend$assistantConnectionWillStartAcousticIDRequest:
+- _objc_msgSend$beginListeningForClient:
+- _objc_msgSend$beginMonitoringAvailability
+- _objc_msgSend$beginRequestWithUUID:forClient:
+- _objc_msgSend$beginSessionForClient:
+- _objc_msgSend$beginSpeakingForClient:
+- _objc_msgSend$beginTransaction
+- _objc_msgSend$beginUpdate
+- _objc_msgSend$boostedPreheatWithStyle:completion:
+- _objc_msgSend$cancel
+- _objc_msgSend$cancelRequest
+- _objc_msgSend$cancelRequestForReason:
+- _objc_msgSend$cancelRequestForReason:withError:
+- _objc_msgSend$clearContext
+- _objc_msgSend$code
+- _objc_msgSend$combinedRank
+- _objc_msgSend$combinedScore
+- _objc_msgSend$commands
+- _objc_msgSend$containsObject:
+- _objc_msgSend$continuePendingSpeechRequestWithId:fromTimestamp:
+- _objc_msgSend$copy
+- _objc_msgSend$createXPCConnectionWithMachServiceName:options:
+- _objc_msgSend$currentCoordinator
+- _objc_msgSend$currentLanguageCode
+- _objc_msgSend$currentState
+- _objc_msgSend$date
+- _objc_msgSend$defaultCenter
+- _objc_msgSend$defaultContext
+- _objc_msgSend$delegate
+- _objc_msgSend$dequeueObject
+- _objc_msgSend$dictionary
+- _objc_msgSend$dictionaryWithObjects:forKeys:count:
+- _objc_msgSend$didDismissUI
+- _objc_msgSend$domain
+- _objc_msgSend$doubleForKey:
+- _objc_msgSend$emitHomeMetricInvocationEvent
+- _objc_msgSend$emitMessage:
+- _objc_msgSend$encodedClassName
+- _objc_msgSend$endListeningForClient:
+- _objc_msgSend$endRequestWithUUID:forClient:
+- _objc_msgSend$endSession
+- _objc_msgSend$endSessionForClient:
+- _objc_msgSend$endSpeakingForClient:
+- _objc_msgSend$endTask
+- _objc_msgSend$endTransaction
+- _objc_msgSend$endUpdate
+- _objc_msgSend$enqueueObject:
+- _objc_msgSend$error
+- _objc_msgSend$errorWithCode:
+- _objc_msgSend$errorWithCode:description:
+- _objc_msgSend$errorWithCode:description:underlyingError:
+- _objc_msgSend$errorWithDomain:code:userInfo:
+- _objc_msgSend$fetchAppicationContextForApplicationInfo:supplementalContext:refID:
+- _objc_msgSend$forceAudioSessionActiveWithContext:completion:
+- _objc_msgSend$forceAudioSessionActiveWithOptions:completion:
+- _objc_msgSend$forceAudioSessionActiveWithOptions:reason:completion:
+- _objc_msgSend$forceAudioSessionActiveWithOptions:reason:speechRequestOptions:completion:
+- _objc_msgSend$forceAudioSessionInactiveWithOptions:completion:
+- _objc_msgSend$getDeferredObjectsWithIdentifiers:completion:
+- _objc_msgSend$getRemoteClockTimerSnapshotWithCompletion:
+- _objc_msgSend$getSerializedCachedObjectsWithIdentifiers:completion:
+- _objc_msgSend$groupIdentifier
+- _objc_msgSend$initWithAccessibilityState:deviceRingerSwitchState:isDeviceInCarDNDMode:isDeviceInStarkMode:supportsCarPlayVehicleData:isDeviceWatchAuthenticated:areAnnouncementRequestsPermittedByPresentationWhileActive:outputVolume:tapToSiriAudioPlaybackRequest:twoShotAudioPlaybackRequest:deviceSetupFlowBeginDate:deviceSetupFlowEndDate:
+- _objc_msgSend$initWithBlock:
+- _objc_msgSend$initWithBlock:defaultValue:
+- _objc_msgSend$initWithConnection:targetQueue:
+- _objc_msgSend$initWithDictionary:
+- _objc_msgSend$initWithFormat:
+- _objc_msgSend$initWithInstanceContext:
+- _objc_msgSend$initWithNSUUID:
+- _objc_msgSend$initWithOptions:capacity:
+- _objc_msgSend$initWithProvider:queue:frequency:delegate:
+- _objc_msgSend$initWithStyle:recordRoute:isVoiceTrigger:isDucking:isTwoShot:speechEndHostTime:context:preferences:delegate:
+- _objc_msgSend$initWithSuiteName:
+- _objc_msgSend$initWithTargetQueue:
+- _objc_msgSend$initWithTargetQueue:instanceContext:
+- _objc_msgSend$initWithTimeoutInterval:onQueue:timeoutHandler:
+- _objc_msgSend$initWithUTF8String:
+- _objc_msgSend$initWithUUIDString:
+- _objc_msgSend$initWithXPCWrapper:
+- _objc_msgSend$interactionId
+- _objc_msgSend$intuitiveConversationRequestId
+- _objc_msgSend$invalidate
+- _objc_msgSend$invalidateClient:
+- _objc_msgSend$invoke
+- _objc_msgSend$invokeWithSignal:
+- _objc_msgSend$invokeWithValue:
+- _objc_msgSend$isAvailable
+- _objc_msgSend$isDeviceInCarDNDMode
+- _objc_msgSend$isDeviceInStarkMode
+- _objc_msgSend$isEqual:
+- _objc_msgSend$isEqualToString:
+- _objc_msgSend$isLocaleIdentifierNativelySupported:
+- _objc_msgSend$isNetworkAvailable
+- _objc_msgSend$isResponseFrameworkEnabled
+- _objc_msgSend$isSiriUODAvailableForLanguage:
+- _objc_msgSend$isStateFeedbackEnabled
+- _objc_msgSend$languageCode
+- _objc_msgSend$length
+- _objc_msgSend$logEvent:
+- _objc_msgSend$logEventWithType:context:
+- _objc_msgSend$logEventWithType:context:contextNoCopy:
+- _objc_msgSend$logInstrumentation:machAbsoluteTime:turnIdentifier:
+- _objc_msgSend$logSiriInvokedVia:
+- _objc_msgSend$logSiriOtherRequestStarted
+- _objc_msgSend$logSiriRequestCancelled
+- _objc_msgSend$logSiriRequestFailedWithError:
+- _objc_msgSend$logSiriRequestSucceeded
+- _objc_msgSend$logSiriSpeechRequestStarted
+- _objc_msgSend$mutatedCopyWithMutator:
+- _objc_msgSend$networkAvailability:isAvailable:
+- _objc_msgSend$newWithBuilder:
+- _objc_msgSend$numberWithBool:
+- _objc_msgSend$numberWithDouble:
+- _objc_msgSend$numberWithInteger:
+- _objc_msgSend$objectAtIndex:
+- _objc_msgSend$objectForKey:
+- _objc_msgSend$onDeviceUtterancesPresent
+- _objc_msgSend$originalRank
+- _objc_msgSend$originalScore
+- _objc_msgSend$outputVoice
+- _objc_msgSend$pendCallbacksUntilAfterContinuation
+- _objc_msgSend$performGenericAceCommand:interruptOutstandingRequest:reply:
+- _objc_msgSend$postNotificationName:object:
+- _objc_msgSend$postNotificationName:object:userInfo:deliverImmediately:
+- _objc_msgSend$preheatWithStyle:forOptions:
+- _objc_msgSend$prepareForPhoneCall
+- _objc_msgSend$previousUtterance
+- _objc_msgSend$processInfo
+- _objc_msgSend$reason
+- _objc_msgSend$recordAWDSuccessMetrics
+- _objc_msgSend$refId
+- _objc_msgSend$remoteObjectProxy
+- _objc_msgSend$remoteObjectProxyWithErrorHandler:
+- _objc_msgSend$removeListener:
+- _objc_msgSend$removeObject:
+- _objc_msgSend$removeObjectForKey:
+- _objc_msgSend$removeObserver:
+- _objc_msgSend$reportIssueForError:type:context:
+- _objc_msgSend$reportIssueForError:type:subtype:context:
+- _objc_msgSend$reportIssueForType:subtype:context:
+- _objc_msgSend$requestDidAskForTimeoutExtension:
+- _objc_msgSend$requestShouldSpeakStateWithReply:
+- _objc_msgSend$requestStateUpdateWithReply:
+- _objc_msgSend$resume
+- _objc_msgSend$resumeInterruptedAudioPlaybackIfNeeded
+- _objc_msgSend$rollbackClearContext
+- _objc_msgSend$rollbackRequest
+- _objc_msgSend$sendGenericAceCommand:turnIdentifier:conflictHandler:
+- _objc_msgSend$serverCommandId
+- _objc_msgSend$sessionId
+- _objc_msgSend$setAccessibilityState:
+- _objc_msgSend$setAceCommandClass:
+- _objc_msgSend$setAceCommandContext:
+- _objc_msgSend$setAceCommandId:
+- _objc_msgSend$setAceCommandName:
+- _objc_msgSend$setAceCommandType:
+- _objc_msgSend$setAceId:
+- _objc_msgSend$setAceViewId:
+- _objc_msgSend$setActivationEvent:
+- _objc_msgSend$setAlertContextDirty
+- _objc_msgSend$setApplicationContext:
+- _objc_msgSend$setAreAnnouncementRequestsPermittedByPresentationWhileActive:
+- _objc_msgSend$setCombinedRank:
+- _objc_msgSend$setCombinedScore:
+- _objc_msgSend$setConfiguration:
+- _objc_msgSend$setCorrectedSpeech:
+- _objc_msgSend$setCorrectedSpeechContext:
+- _objc_msgSend$setCurrentRequestId:
+- _objc_msgSend$setDeviceRingerSwitchState:
+- _objc_msgSend$setDialogIdentifiers:
+- _objc_msgSend$setDialogPhase:
+- _objc_msgSend$setEnded:
+- _objc_msgSend$setError:
+- _objc_msgSend$setErrorCode:
+- _objc_msgSend$setErrorDomain:
+- _objc_msgSend$setEventMetadata:
+- _objc_msgSend$setExists:
+- _objc_msgSend$setExportedInterface:
+- _objc_msgSend$setExportedObject:
+- _objc_msgSend$setHandoffRequestData:
+- _objc_msgSend$setHasEnded:
+- _objc_msgSend$setHasStartedOrChanged:
+- _objc_msgSend$setImagePath:
+- _objc_msgSend$setInteractionId:
+- _objc_msgSend$setInterruptionHandler:
+- _objc_msgSend$setInvalidationHandler:
+- _objc_msgSend$setIsDeviceInCarDNDMode:
+- _objc_msgSend$setIsDeviceInStarkMode:
+- _objc_msgSend$setIsDeviceWatchAuthenticated:
+- _objc_msgSend$setLegacyDirectActionIdentifier:
+- _objc_msgSend$setLockState:showingLockScreen:
+- _objc_msgSend$setModesConfiguration:
+- _objc_msgSend$setMteRequestId:
+- _objc_msgSend$setObject:forKey:
+- _objc_msgSend$setOnDeviceUtterancesPresent:
+- _objc_msgSend$setOptions:
+- _objc_msgSend$setOriginalRank:
+- _objc_msgSend$setOriginalScore:
+- _objc_msgSend$setOverriddenApplicationContext:withContext:
+- _objc_msgSend$setPreviousUtterance:
+- _objc_msgSend$setReason:
+- _objc_msgSend$setRefId:
+- _objc_msgSend$setRemoteObjectInterface:
+- _objc_msgSend$setRequestId:
+- _objc_msgSend$setRequestStatus:
+- _objc_msgSend$setRequestType:
+- _objc_msgSend$setSessionId:
+- _objc_msgSend$setSpeechRequestOptions:
+- _objc_msgSend$setStartLocalRequest:
+- _objc_msgSend$setStartRequest:
+- _objc_msgSend$setStartedOrChanged:
+- _objc_msgSend$setSupportsCarPlayVehicleData:
+- _objc_msgSend$setSymbolName:
+- _objc_msgSend$setText:
+- _objc_msgSend$setTurnIdentifier:
+- _objc_msgSend$setUnderUnderlyingError:
+- _objc_msgSend$setUnderlyingError:
+- _objc_msgSend$setUtteranceSource:
+- _objc_msgSend$setUufrReadySource:
+- _objc_msgSend$setValue:forKey:
+- _objc_msgSend$sharedAnalytics
+- _objc_msgSend$sharedAvailability
+- _objc_msgSend$sharedManager
+- _objc_msgSend$sharedObserver
+- _objc_msgSend$sharedPreferences
+- _objc_msgSend$sharedStream
+- _objc_msgSend$shouldSpeak
+- _objc_msgSend$siriIsSupportedForLanguageCode:productName:productVersion:error:
+- _objc_msgSend$siriResponseShouldAlwaysPrint
+- _objc_msgSend$speechRequestOptions
+- _objc_msgSend$start
+- _objc_msgSend$startAcousticIDRequestWithOptions:context:completion:
+- _objc_msgSend$startAudioPlaybackRequest:options:reply:
+- _objc_msgSend$startLocalRequest
+- _objc_msgSend$startRecordingAndGetContinueBlockForPendingSpeechRequestWithOptions:
+- _objc_msgSend$startRecordingForPendingSpeechRequestWithOptions:requestId:sessionUUID:completion:
+- _objc_msgSend$startRequest
+- _objc_msgSend$startRequestWithCorrectedText:forSpeechIdentifier:userSelectionResults:turnIdentifier:
+- _objc_msgSend$startRequestWithInfo:completion:
+- _objc_msgSend$startSpeechPronunciationRequestWithOptions:context:completion:
+- _objc_msgSend$startSpeechRequestWithSpeechFileAtURL:isNarrowBand:
+- _objc_msgSend$state
+- _objc_msgSend$stop
+- _objc_msgSend$stopAllAudioPlaybackRequests:
+- _objc_msgSend$stopAudioPlaybackRequest:immediately:
+- _objc_msgSend$stopRecordingHostTime
+- _objc_msgSend$stopSpeechWithOptions:
+- _objc_msgSend$stringValue
+- _objc_msgSend$stringWithFormat:
+- _objc_msgSend$systemUptime
+- _objc_msgSend$telephonyRequestCompleted
+- _objc_msgSend$timeIntervalSince1970
+- _objc_msgSend$timeIntervalSinceReferenceDate
+- _objc_msgSend$timeRemaining
+- _objc_msgSend$turnIdentifier
+- _objc_msgSend$updateSpeechOptions:
+- _objc_msgSend$updateSpeechSynthesisRecord:
+- _objc_msgSend$useDeviceSpeakerForTTS
+- _objc_msgSend$userInfo
+- _objc_msgSend$utteranceSource
+- _objc_msgSend$willPresentUIWithReply:
+- _objc_msgSend$willPresentUsefulUserResultWithType:forCommand:
+- _objc_msgSend$willSetApplicationContextWithRefId:
+- _objc_opt_class
+- _objc_opt_isKindOfClass
+- _objc_retainAutoreleaseReturnValue
+- _objc_retainBlock
+- _objc_unsafeClaimAutoreleasedReturnValue
+- _os_log_type_enabled
+- _os_signpost_enabled
+- _os_signpost_id_generate
+- _sAvailabilityObserver
+- _xpc_connection_cancel
+- _xpc_connection_create_mach_service
+- _xpc_connection_resume
+- _xpc_connection_send_barrier
+- _xpc_connection_send_message
+- _xpc_connection_set_event_handler
+- _xpc_dictionary_create
+- _xpc_dictionary_set_string
+- _xpc_dictionary_set_uint64
+- getAFAnalyticsClass.softClass
+- getAFAssistantCapableSymbolLoc.ptr
+- getAFAudioPowerUpdaterClass.softClass
+- getAFAudioPowerXPCProviderClass.softClass
+- getAFClientConfigurationClass.softClass
+- getAFDeviceSupportsSAESymbolLoc.ptr
+- getAFDeviceSupportsSiriUODSymbolLoc.ptr
+- getAFFeatureFlagsClass.softClass
+- getAFInstanceContextClass.softClass
+- getAFInterstitialProviderClass.softClass
+- getAFIsATVSymbolLoc.ptr
+- getAFIsHorsemanSymbolLoc.ptr
+- getAFIsInternalInstallSymbolLoc.ptr
+- getAFIsMacSymbolLoc.ptr
+- getAFIsNanoSymbolLoc.ptr
+- getAFIsPadSymbolLoc.ptr
+- getAFIsSyncNeededSymbolLoc.ptr
+- getAFIsVisionSymbolLoc.ptr
+- getAFLogInitIfNeededSymbolLoc.ptr
+- getAFOneArgumentSafetyBlockClass.softClass
+- getAFPreferencesClass.softClass
+- getAFPreferencesTypeToSiriEnabledSymbolLoc.ptr
+- getAFProductAndBuildVersionSymbolLoc.ptr
+- getAFQueueClass.softClass
+- getAFRequestInfoClass.softClass
+- getAFSafetyBlockClass.softClass
+- sharedAvailability.onceToken
+- sharedAvailability.sAvailability
+CStrings:
+- ""
+- "#16@0:8"
+- "%@"
+- "%@,%@"
+- "%@.%@"
+- "%s"
+- "%s "
+- "%s #modes %@ Got update to response mode : %@"
+- "%s #modes set modesConfiguration"
+- "%s %@ %@"
+- "%s %@ Got dismiss assistant message"
+- "%s %@ Got dismiss assistant message with reason : %ld"
+- "%s %@ Got quick stop handled message with actions %tu taken."
+- "%s %p"
+- "%s %p %@"
+- "%s %p %@ %d (%@)"
+- "%s %p %ld"
+- "%s %p %ld %@"
+- "%s %p %lu"
+- "%s %p %{public}@"
+- "%s %p (instanceContext = %@, caller = %@)"
+- "%s %p (requestClass = %@, isSpeechRequest = %d (%@), isBackgroundRequest = %d)"
+- "%s %p activeRequestUUID = %@ turnId = %@ %@"
+- "%s %s"
+- "%s Appending additional details to error %@"
+- "%s Begin sending defrost XPC message."
+- "%s Canceling request timeout for reason %{public}@"
+- "%s Complete %@"
+- "%s Connection interrupted"
+- "%s Connection invalidated"
+- "%s Continuing pending speech request %p"
+- "%s Delayed delivery of client command %@ by %f seconds."
+- "%s Delaying delivery of client command %@ by %f seconds..."
+- "%s Dispatching command %@"
+- "%s Drop command %@ because UUFR has been presented."
+- "%s Dropping delayed client command %@ because request already ended."
+- "%s Dropping delegate callback because request is complete"
+- "%s Dropping delegate callback because request is different (_activeRequestUUID = %@, requestUUID = %@, turnId = %@)"
+- "%s Emitting Request link message between turnID: %@ and RequestID: %@"
+- "%s End sending defrost XPC message."
+- "%s Enqueued command %@ because it is an interstitial and active request has not presented UUFR yet."
+- "%s ErrorHandler %{public}@"
+- "%s Extending request timeout to %f seconds as IE is enabled"
+- "%s Extending timeout with time remaining %.2f"
+- "%s Fail to start audio playback request %{public}@ due to error %{public}@."
+- "%s Failed continuing pending speech request %p %{public}@"
+- "%s Ignored command %@ because it is an interstitial but there's no active request or active request has presented UUFR already."
+- "%s Initial interstitial fired %f seconds right before UUFR!"
+- "%s Initial interstitial fired too early!"
+- "%s Invoking request timeout for reason %{public}@"
+- "%s Logging TurnMTE From _willStartRequestWithSpeech"
+- "%s Logging instrumentation for requestUUID = %@ turnId = %@ HomePod launch: (startTime = %llu endTime = %llu)"
+- "%s Logging instrumentation for requestUUID = %@ turnId = %@ error = %@"
+- "%s Logging uufr for phase= %@"
+- "%s Network is available. Evaluating NAFConnection as available."
+- "%s Network is not available and device does not support Understanding On Device. Evaluating NAFConnection as NOT available."
+- "%s Network is not available and language %@ is not supported for Understanding On Device. Evaluating NAFConnection as NOT available."
+- "%s Network is not available but device supports Understanding On Device for %@. Evaluating NAFConnection as available."
+- "%s No interstitial has been presented yet, adjusting timings based on updated speech end host time %llu."
+- "%s Not ending the ongoing request because the active request ID is different than the completed request ID: (_activeRequestUUID = %@, requestUUID = %@, turnId = %@)"
+- "%s Overriding activation event in info %@ %@"
+- "%s Pausing request timeout for reason %{public}@"
+- "%s Performing BackgroundUpdateRequest outside normal request processing flow."
+- "%s Prepared for input audio power updates. Waiting for _speechCallbackGroup..."
+- "%s Received reply."
+- "%s Reporting speech error on connection tear down"
+- "%s Resetting isCapturingSpeech for %@ for reason: %ld"
+- "%s Resuming request timeout for reason %{public}@"
+- "%s Scheduling request timeout for %f seconds for reason %{public}@"
+- "%s Setting IntuitiveConversationRequestId = %@ from AFSpeechRequestOptions"
+- "%s Skipped timing adjustment because %lu interstitials have been presented."
+- "%s Skipped timing adjustment because 1 interstitial has been presented."
+- "%s Started input audio power updates."
+- "%s Stopped input audio power updates."
+- "%s The requestId=%@ is malformed, unable to log SELF command"
+- "%s Unable to create an interstitial command because display text and speakable text are both empty."
+- "%s Unable to mark isDucking because the active request is not a speech request. (_activeRequestType = %zd, _activeRequestUUID = %@)"
+- "%s Unable to mark isTwoShot because the active request is not a speech request. (_activeRequestType = %zd, _activeRequestUUID = %@)"
+- "%s Unable to mark speech recognized because the active request is not a speech request. (_activeRequestType = %ld, _activeRequestUUID = %@)"
+- "%s Unable to update speech end host time. (_activeRequestType = %zd, _activeRequestUUID = %@)"
+- "%s Unexpected nil URL"
+- "%s Unexpected nil bundle ID"
+- "%s Updated internal state. ShouldSpeak %@"
+- "%s Using timeout interval of %f seconds based on UserDefaults"
+- "%s Wrapping up non-siri error in generic error %@"
+- "%s command = %@"
+- "%s command = %@, isInterstitial = %d"
+- "%s durationFromRequestBegin = %f"
+- "%s durationFromSpeechEnd = %f"
+- "%s durationFromSpeechRecognition = %f"
+- "%s durationFromSpeechRecordingEnd = %f"
+- "%s durationInSeconds: %f"
+- "%s error is nil. Instrumentation logging is skipped. requestUUID = %@ turnId = %@"
+- "%s interstitialCommand = %@"
+- "%s interstitialDelay = %f (actual)"
+- "%s interstitialDelay = %f (expected)"
+- "%s interstitialError = %@"
+- "%s interstitialPhase = %@"
+- "%s interstitialReply = %@"
+- "%s no delegate method on %@ to handle command: %@"
+- "%s passed command without ACE ID; inventing one (%@)"
+- "%s phase = %@, displayText = %@, speakableText = %@, expectedDelay = %f, context = %@"
+- "%s reason = %@"
+- "%s reason = %ld"
+- "%s reason = %{public}@"
+- "%s reason = %{public}@, durationInSeconds: %{public}f"
+- "%s recordRoute = %@"
+- "%s requestUUID = %@, turnId = %@, reason %ld, error = %@"
+- "%s shouldSpeak = %d"
+- "%s speechRequestOptions is nil. Instrumentation logging is skipped. requestUUID = %@ turnId = %@"
+- "%s turnId is nil. Instrumentation logging is skipped. requestUUID = %@"
+- "%s turnId is nil. Instrumentation logging is skipped. requestUUID = %@ error = %@"
+- "%s updating speech end host time: %llu"
+- "+[NAFConnection defrost]"
+- "+[NAFConnection defrost]_block_invoke_2"
+- "+[NAFConnection isAvailable]"
+- "-[NAFConnection _beginInterstitialsForReason:]"
+- "-[NAFConnection _cancelRequestTimeoutForReason:]"
+- "-[NAFConnection _completeRequestWithUUID:forReason:error:]"
+- "-[NAFConnection _connectionFailedWithError:]"
+- "-[NAFConnection _connection]_block_invoke_2"
+- "-[NAFConnection _dispatchCommand:isInterstitial:interstitialPhase:interstitialDelay:reply:]"
+- "-[NAFConnection _dispatchCommand:isInterstitial:interstitialPhase:interstitialDelay:reply:]_block_invoke"
+- "-[NAFConnection _endInterstitialsForReason:]"
+- "-[NAFConnection _enqueueInterstitialCommand:]"
+- "-[NAFConnection _extendExistingRequestTimeoutForReason:]"
+- "-[NAFConnection _extendExpiringRequestTimeout]"
+- "-[NAFConnection _extendRequestTimeoutForReason:durationInSeconds:]"
+- "-[NAFConnection _fetchShouldSpeak:]_block_invoke_2"
+- "-[NAFConnection _handleCommand:reply:]"
+- "-[NAFConnection _handleInterstitialPhase:fromProvider:displayText:speakableText:expectedDelay:context:completion:]"
+- "-[NAFConnection _handleInterstitialPhase:fromProvider:displayText:speakableText:expectedDelay:context:completion:]_block_invoke"
+- "-[NAFConnection _invokeRequestTimeoutForReason:]"
+- "-[NAFConnection _markIsDucking]"
+- "-[NAFConnection _markIsTwoShot]"
+- "-[NAFConnection _markSpeechRecognized]"
+- "-[NAFConnection _pauseRequestTimeoutForReason:]"
+- "-[NAFConnection _requestDidEnd]"
+- "-[NAFConnection _requestWillBeginWithRequestClass:isSpeechRequest:speechRequestOptions:requestInfo:isBackgroundRequest:analyticsEventProvider:]"
+- "-[NAFConnection _resumeRequestTimeoutForReason:]"
+- "-[NAFConnection _scheduleRequestTimeoutForReason:durationInSeconds:]"
+- "-[NAFConnection _setRecordRoute:]"
+- "-[NAFConnection _setShouldSpeak:]"
+- "-[NAFConnection _startInputAudioPowerUpdatesWithXPCWrapper:]"
+- "-[NAFConnection _startInputAudioPowerUpdatesWithXPCWrapper:]_block_invoke"
+- "-[NAFConnection _startRequestTimeoutTimerWithTimeInterval:reason:]"
+- "-[NAFConnection _startRequestWithInfo:]"
+- "-[NAFConnection _startRequestWithInfo:]_block_invoke"
+- "-[NAFConnection _stopInputAudioPowerUpdates]"
+- "-[NAFConnection _updateSpeechEndHostTime:]"
+- "-[NAFConnection _updateState]_block_invoke_2"
+- "-[NAFConnection _willCancelRequest]"
+- "-[NAFConnection _willCompleteRequest]"
+- "-[NAFConnection _willEndSession]"
+- "-[NAFConnection _willFailRequestWithError:]"
+- "-[NAFConnection _willPresentUsefulUserResultWithType:]"
+- "-[NAFConnection _willStartRequestWithSpeech:speechRequestOptions:requestInfo:analyticsEventProvider:]"
+- "-[NAFConnection acquireAudioSessionWithContext:completion:]"
+- "-[NAFConnection acquireAudioSessionWithContext:completion:]_block_invoke"
+- "-[NAFConnection boostedPreheatWithStyle:completion:]"
+- "-[NAFConnection cancelRequestForReason:]"
+- "-[NAFConnection cancelRequest]"
+- "-[NAFConnection cancelSpeech]"
+- "-[NAFConnection dealloc]"
+- "-[NAFConnection endSession]"
+- "-[NAFConnection failRequestWithError:]"
+- "-[NAFConnection forceAudioSessionActiveWithContext:completion:]"
+- "-[NAFConnection forceAudioSessionActiveWithContext:completion:]_block_invoke"
+- "-[NAFConnection forceAudioSessionActiveWithContext:completion:]_block_invoke_2"
+- "-[NAFConnection forceAudioSessionInactiveWithOptions:completion:]"
+- "-[NAFConnection forceAudioSessionInactiveWithOptions:completion:]_block_invoke"
+- "-[NAFConnection initWithTargetQueue:instanceContext:]"
+- "-[NAFConnection invalidate]"
+- "-[NAFConnection preheatWithStyle:forOptions:]"
+- "-[NAFConnection requestDidAskForTimeoutExtension:]"
+- "-[NAFConnection resumeInterruptedAudioPlaybackIfNeeded]_block_invoke"
+- "-[NAFConnection sendGenericAceCommand:turnIdentifier:conflictHandler:]"
+- "-[NAFConnection setModesConfiguration:]"
+- "-[NAFConnection setMyriadDecisionResult:]"
+- "-[NAFConnection setShouldWaitForMyriad:]"
+- "-[NAFConnection startAcousticIDRequestWithOptions:]_block_invoke_2"
+- "-[NAFConnection startAudioPlaybackRequest:options:completion:]_block_invoke"
+- "-[NAFConnection startRecordingAndGetContinueBlockForPendingSpeechRequestWithOptions:]"
+- "-[NAFConnection startRecordingAndGetContinueBlockForPendingSpeechRequestWithOptions:]_block_invoke"
+- "-[NAFConnection startRecordingAndGetContinueBlockForPendingSpeechRequestWithOptions:]_block_invoke_2"
+- "-[NAFConnection startRequestWithInfo:activationEvent:]"
+- "-[NAFConnection startSpeechPronunciationRequestWithOptions:pronunciationContext:]"
+- "-[NAFConnection startSpeechPronunciationRequestWithOptions:pronunciationContext:]_block_invoke_2"
+- "-[NAFConnection stopSpeechWithOptions:]"
+- "-[NAFConnection updateSpeechOptions:]"
+- "-[NAFConnection willPresentUI]_block_invoke"
+- "-[NAFConnectionClientServiceDelegate quickStopWasHandledWithActions:]_block_invoke"
+- "-[NAFConnectionClientServiceDelegate requestDidUpdateResponseMode:]_block_invoke"
+- "-[NAFConnectionClientServiceDelegate requestHandleCommand:reply:]_block_invoke"
+- "-[NAFConnectionClientServiceDelegate requestRequestedDismissAssistantWithReason:]_block_invoke"
+- "-[NAFConnectionClientServiceDelegate requestRequestedDismissAssistant]_block_invoke"
+- "-[NAFConnectionClientServiceDelegate requestRequestedOpenApplicationWithBundleID:URL:reply:]_block_invoke"
+- "-[NAFConnectionClientServiceDelegate requestRequestedOpenURL:reply:]_block_invoke"
+- "/AppleInternal/Library/Frameworks/AssistantServices.framework/AssistantServices"
+- "/System/Library/Frameworks/AssistantServices.framework/AssistantServices"
+- "/System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices"
+- "0-100ms"
+- "1-2s"
+- "100-200ms"
+- "15-30s"
+- "2-4s"
+- "200-300ms"
+- "30-60s"
+- "300-400ms"
+- "4-8s"
+- "400-500ms"
+- "500ms-1s"
+- "60s+"
+- "8-15s"
+- "@\"<NAFAssistantUIService>\""
+- "@\"<NAFSpeechDelegate>\""
+- "@\"AFAnalytics\""
+- "@\"AFAudioPowerUpdater\""
+- "@\"AFCallSiteInfo\""
+- "@\"AFClientConfiguration\""
+- "@\"AFInstanceContext\""
+- "@\"AFInterstitialProvider\""
+- "@\"AFOneArgumentSafetyBlock\""
+- "@\"AFPreferences\""
+- "@\"AFQueue\""
+- "@\"AFSiriClientStateManager\""
+- "@\"AFWatchdogTimer\""
+- "@\"NAFConnection\""
+- "@\"NSArray\""
+- "@\"NSError\""
+- "@\"NSError\"8@?0"
+- "@\"NSHashTable\""
+- "@\"NSMutableDictionary\""
+- "@\"NSObject<OS_dispatch_group>\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSUUID\""
+- "@\"NSXPCConnection\""
+- "@24@0:8@?16"
+- "@24@0:8q16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@40@0:8:16@24@32"
+- "@?24@0:8@16"
+- "AFAccessibilityListening"
+- "AFAnalytics"
+- "AFAssistantCapable"
+- "AFAudioPowerUpdater"
+- "AFAudioPowerUpdaterDelegate"
+- "AFAudioPowerXPCProvider"
+- "AFClientConfiguration"
+- "AFClientServiceDelegate"
+- "AFDeviceRingerSwitchListening"
+- "AFDeviceSupportsSAE"
+- "AFDeviceSupportsSiriUOD"
+- "AFFeatureFlags"
+- "AFInstanceContext"
+- "AFInterstitialProvider"
+- "AFInterstitialProviderDelegate"
+- "AFIsATV"
+- "AFIsHorseman"
+- "AFIsInternalInstall"
+- "AFIsMac"
+- "AFIsNano"
+- "AFIsPad"
+- "AFIsSyncNeeded"
+- "AFIsVision"
+- "AFLogInitIfNeeded"
+- "AFNetworkAvailabilityDidChangeNotification"
+- "AFOneArgumentSafetyBlock"
+- "AFPreferences"
+- "AFPreferencesTypeToSiriEnabled"
+- "AFProductAndBuildVersion"
+- "AFQueue"
+- "AFRequestInfo"
+- "AFSafetyBlock"
+- "AFSiriDidLaunchAppNotification"
+- "AQ"
+- "Active request type is %ld and active request UUFR type is %ld, two-shot prompt is ignored."
+- "Always"
+- "B"
+- "B16@0:8"
+- "B16@?0@\"NSError\"8"
+- "B24@0:8#16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B32@0:8@\"NSXPCListener\"16@\"NSXPCConnection\"24"
+- "B32@0:8@16@24"
+- "B32@0:8@16^@24"
+- "B40@0:8@16@24^@32"
+- "B48@0:8@16@24@32^@40"
+- "Data"
+- "Early Fire"
+- "ExtendOnlyIfExpiring"
+- "File"
+- "Internal"
+- "Interstitial"
+- "NAFConnection"
+- "NAFConnectionAvailabilityObserver"
+- "NAFConnectionClientServiceDelegate"
+- "NAFNetworkAvailability"
+- "NAFNetworkAvailabilityObserver"
+- "NSObject"
+- "NSXPCListenerDelegate"
+- "Near Fire before UUFR"
+- "Never"
+- "Private"
+- "Q"
+- "Q16@0:8"
+- "RequestIdForMyriad"
+- "Safety completion of -forceAudioSessionActive is deallocated without invocation."
+- "SiriX"
+- "Speech delegate %@ is incapable of performing two-shot prompt."
+- "SpeechErrorHints[StartStopSpeechDelta:%@]"
+- "T#,R"
+- "T@\"<NAFAssistantUIService>\",W,N,V_delegate"
+- "T@\"<NAFSpeechDelegate>\",W,N,V_speechDelegate"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "TB,R,N"
+- "TQ,R"
+- "UEIUUFRReadyDialogPhase"
+- "UICommandHandle"
+- "UUID"
+- "UUIDString"
+- "Unable to find class %s"
+- "UnlessMuted"
+- "UsefulUserFacingResults"
+- "Vv16@0:8"
+- "Vv20@0:8B16"
+- "Vv24@0:8@\"AFAudioPlaybackRequest\"16"
+- "Vv24@0:8@\"INImage\"16"
+- "Vv24@0:8@\"NSDictionary\"16"
+- "Vv24@0:8@\"NSError\"16"
+- "Vv24@0:8@\"NSString\"16"
+- "Vv24@0:8@\"SASSpeechPartialResult\"16"
+- "Vv24@0:8@\"SASSpeechRecognized\"16"
+- "Vv24@0:8@16"
+- "Vv24@0:8@?16"
+- "Vv24@0:8@?<v@?>16"
+- "Vv24@0:8@?<v@?@\"NSArray\">16"
+- "Vv24@0:8Q16"
+- "Vv24@0:8d16"
+- "Vv24@0:8q16"
+- "Vv28@0:8B16@\"NSDictionary\"20"
+- "Vv28@0:8B16@20"
+- "Vv32@0:8@\"AFAudioPlaybackRequest\"16@\"NSError\"24"
+- "Vv32@0:8@\"AFRequestInfo\"16@?<v@?B>24"
+- "Vv32@0:8@\"AFSpeechInterpretation\"16@\"NSString\"24"
+- "Vv32@0:8@\"AFXPCWrapper\"16@?<v@?>24"
+- "Vv32@0:8@\"AceObject<SAAceCommand>\"16@?<v@?@\"AceObject<SAAceCommand>\"@\"NSError\">24"
+- "Vv32@0:8@\"NSDictionary\"16@\"NSURL\"24"
+- "Vv32@0:8@\"NSError\"16@?<v@?>24"
+- "Vv32@0:8@\"NSString\"16@\"NSError\"24"
+- "Vv32@0:8@\"NSString\"16@?<v@?>24"
+- "Vv32@0:8@\"NSString\"16@?<v@?B>24"
+- "Vv32@0:8@\"NSURL\"16@?<v@?B>24"
+- "Vv32@0:8@16@24"
+- "Vv32@0:8@16@?24"
+- "Vv32@0:8q16@?24"
+- "Vv32@0:8q16@?<v@?dd@\"NSError\">24"
+- "Vv40@0:8@\"NSArray\"16@\"NSArray\"24@\"NSString\"32"
+- "Vv40@0:8@\"NSString\"16@\"NSURL\"24@?<v@?B>32"
+- "Vv40@0:8@16@24@32"
+- "Vv40@0:8@16@24@?32"
+- "Vv40@0:8q16@\"INIntent\"24@?<v@?BB>32"
+- "Vv40@0:8q16@24@?32"
+- "Vv48@0:8@\"NSString\"16B24B28Q32@?<v@?>40"
+- "Vv48@0:8@16B24B28Q32@?40"
+- "XPC connection encountered an error during -forceAudioSessionActive."
+- "^v"
+- "^{_NSZone=}16@0:8"
+- "_EmitAceCommandEndedEvent"
+- "_EmitAceCommandStartedEvent"
+- "_EmitHomePodLaunchContextTime"
+- "_EmitPNRFatalError"
+- "_LogUUFRReadyConditionally"
+- "_aceConnectionWillRetryOnError:"
+- "_activePlaybackCount"
+- "_activeRequestActivationEvent"
+- "_activeRequestBeginTime"
+- "_activeRequestHasSpeechRecognition"
+- "_activeRequestInitialInterstitialBeginTimeInterval"
+- "_activeRequestIsDucking"
+- "_activeRequestIsTwoShot"
+- "_activeRequestNumberOfPresentedInterstitials"
+- "_activeRequestSpeechEndHostTime"
+- "_activeRequestSpeechEvent"
+- "_activeRequestSpeechRecognitionTimeInterval"
+- "_activeRequestSpeechRecordingEndTimeInterval"
+- "_activeRequestStartSpeechTimeAPICalled"
+- "_activeRequestStartSpeechTimeRequested"
+- "_activeRequestStopSpeechTimeAPICalled"
+- "_activeRequestStopSpeechTimeRequested"
+- "_activeRequestType"
+- "_activeRequestTypeForRequestCategorization"
+- "_activeRequestUUID"
+- "_activeRequestUsefulUserResultType"
+- "_activeTurnIdentifier"
+- "_analytics"
+- "_availabilityChanged"
+- "_barrier"
+- "_barrierWithReply:"
+- "_beginInterstitialsForReason:"
+- "_broadcastCommandDictionary:"
+- "_cachedBulletins"
+- "_cancelRequestTimeoutForReason:"
+- "_checkAndSetIsCapturingSpeech:"
+- "_clearAssistantInfoForAccountIdentifier:"
+- "_clearAssistantInfoForAccountWithIdentifier:"
+- "_clearConnection"
+- "_clearState"
+- "_clientConfiguration"
+- "_clientConfigurationIsInSync"
+- "_clientID"
+- "_clientService"
+- "_clientServiceWithErrorHandler:"
+- "_completeRequestWithUUID:forReason:error:"
+- "_connection"
+- "_connectionDelegate"
+- "_connectionFailedWithError:"
+- "_connectionHadActiveNetwork"
+- "_delegate"
+- "_dispatchCallbackGroupBlock:"
+- "_dispatchCommand:isInterstitial:interstitialPhase:interstitialDelay:reply:"
+- "_endInterstitialsForReason:"
+- "_enqueueInterstitialCommand:"
+- "_extendExistingRequestTimeoutForReason:"
+- "_extendExpiringRequestTimeout"
+- "_extendRequestTimeoutForReason:durationInSeconds:"
+- "_fetchShouldSpeak:"
+- "_getActiveSpeechEvent"
+- "_handleCommand:reply:"
+- "_handleInterstitialPhase:fromProvider:displayText:speakableText:expectedDelay:context:completion:"
+- "_hasOutstandingRequest"
+- "_initiationCallSiteInfo"
+- "_inputAudioPowerUpdater"
+- "_instanceContext"
+- "_interstitialCommandQueue"
+- "_interstitialProvider"
+- "_invokeRequestTimeoutForReason:"
+- "_isCapturingSpeech"
+- "_lastRetryError"
+- "_markIsDucking"
+- "_markIsTwoShot"
+- "_markNetworkDidBecomeActive"
+- "_markSpeechRecognized"
+- "_metricContextValueForUseDeviceSpeakerForTTS:"
+- "_notifyObservers"
+- "_notifyToken"
+- "_observers"
+- "_outstandingRequestClass"
+- "_pauseRequestTimeoutForReason:"
+- "_pendingSpeechRequestCounter"
+- "_playbackRoute"
+- "_preferences"
+- "_queue"
+- "_recordRoute"
+- "_replyHandlerForAceId"
+- "_requestBarrierIfNecessaryWithReply:"
+- "_requestBarrierWithReply:"
+- "_requestCompletion"
+- "_requestDidEnd"
+- "_requestTimeoutTimer"
+- "_requestWillBeginWithRequestClass:isSpeechRequest:speechRequestOptions:requestInfo:analyticsEventProvider:"
+- "_requestWillBeginWithRequestClass:isSpeechRequest:speechRequestOptions:requestInfo:isBackgroundRequest:analyticsEventProvider:"
+- "_resumeRequestTimeoutForReason:"
+- "_scheduleRequestTimeoutForReason:durationInSeconds:"
+- "_setQueue:"
+- "_setRecordRoute:"
+- "_setShouldSpeak:"
+- "_shouldEmitUEIRequestLinkForRequestInfo:speechRequestOptions:"
+- "_shouldSpeak"
+- "_siriClientStateManager"
+- "_speechCallbackGroup"
+- "_speechDelegate"
+- "_speechRecordingDidFailWithError:"
+- "_startInputAudioPowerUpdatesWithXPCWrapper:"
+- "_startObservingAvailability"
+- "_startRequestMetricSettings"
+- "_startRequestTimeoutTimerWithTimeInterval:reason:"
+- "_startRequestWithAceCommand:turnIdentifier:suppressAlert:"
+- "_startRequestWithInfo:"
+- "_startSpeechWithURL:isNarrowBand:"
+- "_startUIRequestWithInfo:completion:"
+- "_startUIRequestWithText:completion:"
+- "_state"
+- "_stateInSync"
+- "_stopInputAudioPowerUpdates"
+- "_stopObservingAvailability"
+- "_targetQueue"
+- "_tellDelegateAudioPlaybackRequestDidStart:"
+- "_tellDelegateAudioPlaybackRequestDidStop:error:"
+- "_tellDelegateAudioPlaybackRequestWillStart:"
+- "_tellDelegateAudioSessionDidBecomeActive:"
+- "_tellDelegateAudioSessionDidBeginInterruptionWithUserInfo:"
+- "_tellDelegateAudioSessionDidEndInterruption:userInfo:"
+- "_tellDelegateAudioSessionWillBecomeActive:"
+- "_tellDelegateCacheImage:"
+- "_tellDelegateDidDetectMusic"
+- "_tellDelegateDidFinishAcousticIDRequestWithSuccess:"
+- "_tellDelegateExtensionRequestFinishedForApplication:error:"
+- "_tellDelegateExtensionRequestWillStartForApplication:"
+- "_tellDelegateFailedToLaunchAppWithBundleIdentifier:"
+- "_tellDelegateInvalidateCurrentUserActivity"
+- "_tellDelegateRequestWillStart"
+- "_tellDelegateSetUserActivityInfo:webpageURL:"
+- "_tellDelegateShouldSpeakChanged:"
+- "_tellDelegateStartPlaybackDidFail:"
+- "_tellDelegateWillProcessAppLaunchWithBundleIdentifier:"
+- "_tellDelegateWillProcessStartPlayback:intent:completion:"
+- "_tellDelegateWillStartAcousticIDRequest"
+- "_tellSpeechDelegateRecognitionDidFail:"
+- "_tellSpeechDelegateRecognitionUpdateWillBeginForTask:"
+- "_tellSpeechDelegateRecognizedAdditionalSpeechInterpretation:refId:"
+- "_tellSpeechDelegateRecordingDidBeginOnAVRecordRoute:"
+- "_tellSpeechDelegateRecordingDidCancel"
+- "_tellSpeechDelegateRecordingDidChangeAVRecordRoute:"
+- "_tellSpeechDelegateRecordingDidDetectStartpoint"
+- "_tellSpeechDelegateRecordingDidEnd"
+- "_tellSpeechDelegateRecordingDidFail:"
+- "_tellSpeechDelegateRecordingDidUpdateRecognitionPhrases:utterances:refId:"
+- "_tellSpeechDelegateRecordingWillBeginWithInputAudioPowerXPCWrapper:"
+- "_tellSpeechDelegateSpeechRecognized:"
+- "_tellSpeechDelegateSpeechRecognizedPartialResult:"
+- "_tellSpeechDelegateToPerformTwoShotPromptWithType:reply:"
+- "_unsafeAveragePower"
+- "_unsafePeakPower"
+- "_updateClientConfiguration"
+- "_updateSpeechEndHostTime:"
+- "_updateState"
+- "_updateStateIfNotInSync"
+- "_uufrID"
+- "_voiceOverIsActive"
+- "_willCancelRequest"
+- "_willCompleteRequest"
+- "_willEndSession"
+- "_willFailRequestWithError:"
+- "_willPresentUsefulUserResultWithType:"
+- "_willStartRequestWithSpeech:speechRequestOptions:requestInfo:analyticsEventProvider:"
+- "_willStopRecordingWithSignpostID:"
+- "accessibilityObserver:stateDidChangeFrom:to:"
+- "aceConnectionWillRetryOnError:"
+- "aceId"
+- "acousticIDRequestDidFinishWithSuccess:"
+- "acousticIDRequestWillStart"
+- "acquireAudioSessionWithContext:completion:"
+- "acquireUserInteractionAssertion"
+- "activationEvent"
+- "activationEventMachAbsoluteTime"
+- "activationEventTime"
+- "addListener:"
+- "addObserver:"
+- "adviseSessionArbiterToContinueWithPreviousWinner:"
+- "af_dialogPhase"
+- "allKeys"
+- "alwaysObscureBackgroundContentWhenActive"
+- "alwaysShowRecognizedSpeech"
+- "appLaunchFailedWithBundleIdentifier:"
+- "arrayWithObjects:count:"
+- "assistantConnection:appLaunchFailedWithBundleIdentifier:"
+- "assistantConnection:audioSessionDidBecomeActive:"
+- "assistantConnection:audioSessionWillBecomeActive:"
+- "assistantConnection:didFinishAcousticIDRequestWithSuccess:"
+- "assistantConnection:didHandleQuickStopWithAction:"
+- "assistantConnection:didStartAudioPlaybackRequest:"
+- "assistantConnection:didStopAudioPlaybackRequest:error:"
+- "assistantConnection:didUpdateResponseMode:"
+- "assistantConnection:dismissAssistantWithReason:"
+- "assistantConnection:extensionRequestFinishedForApplication:error:"
+- "assistantConnection:extensionRequestWillStartForApplication:"
+- "assistantConnection:openApplicationWithBundleID:URL:completion:"
+- "assistantConnection:openURL:completion:"
+- "assistantConnection:receivedCommand:completion:"
+- "assistantConnection:recognitionUpdateWillBeginForTask:"
+- "assistantConnection:recognitionUpdateWithPhrases:utterances:refId:"
+- "assistantConnection:recognizedAdditionalSpeechInterpretation:refId:"
+- "assistantConnection:requestFailedWithError:requestClass:"
+- "assistantConnection:setUserActivtiyInfoAndMakeCurrent:webpageURL:"
+- "assistantConnection:shouldSpeak:"
+- "assistantConnection:speechRecognitionDidFail:"
+- "assistantConnection:speechRecognized:"
+- "assistantConnection:speechRecognizedPartialResult:"
+- "assistantConnection:speechRecordingDidBeginOnAVRecordRoute:"
+- "assistantConnection:speechRecordingDidChangeAVRecordRoute:"
+- "assistantConnection:speechRecordingDidFail:"
+- "assistantConnection:speechRecordingPerformTwoShotPromptWithType:completion:"
+- "assistantConnection:speechRecordingWillBeginWithInputAudioPowerXPCWrapper:"
+- "assistantConnection:startPlaybackDidFail:"
+- "assistantConnection:startUIRequestWithInfo:completion:"
+- "assistantConnection:startUIRequestWithText:completion:"
+- "assistantConnection:wantsToCacheImage:"
+- "assistantConnection:willProcessAppLaunchWithBundleIdentifier:"
+- "assistantConnection:willProcessStartPlayback:"
+- "assistantConnection:willProcessStartPlayback:intent:completion:"
+- "assistantConnection:willStartAudioPlaybackRequest:"
+- "assistantConnectionAudioSessionDidBeginInterruption:"
+- "assistantConnectionAudioSessionDidBeginInterruption:userInfo:"
+- "assistantConnectionAudioSessionDidEndInterruption:shouldResume:"
+- "assistantConnectionAudioSessionDidEndInterruption:shouldResume:userInfo:"
+- "assistantConnectionDidChangeAudioRecordingPower:"
+- "assistantConnectionDidDetectMusic:"
+- "assistantConnectionDismissAssistant:"
+- "assistantConnectionInvalidateCurrentUserActivity:"
+- "assistantConnectionRequestFinished:"
+- "assistantConnectionRequestWillStart:"
+- "assistantConnectionSpeechRecordingDidCancel:"
+- "assistantConnectionSpeechRecordingDidDetectStartpoint:"
+- "assistantConnectionSpeechRecordingDidEnd:"
+- "assistantConnectionSpeechRecordingWillBegin:"
+- "assistantConnectionUpdatedSpeechEndEstimate:speechEndEstimate:"
+- "assistantConnectionWillStartAcousticIDRequest:"
+- "assistantIsSupported"
+- "assistantIsSupportedForLanguageCode:error:"
+- "audioPlaybackRequestDidStart:"
+- "audioPlaybackRequestDidStop:error:"
+- "audioPlaybackRequestWillStart:"
+- "audioPowerUpdaterDidUpdate:averagePower:peakPower:"
+- "audioSessionDidBecomeActive:"
+- "audioSessionDidBeginInterruptionWithUserInfo:"
+- "audioSessionDidEndInterruption:userInfo:"
+- "audioSessionWillBecomeActive:"
+- "autorelease"
+- "averagePower"
+- "b1"
+- "beginListeningForClient:"
+- "beginMonitoringAvailability"
+- "beginRequestWithUUID:forClient:"
+- "beginSessionForClient:"
+- "beginSpeakingForClient:"
+- "beginTransaction"
+- "beginUpdate"
+- "boostedPreheatWithStyle:completion:"
+- "broadcastCommandDictionary:"
+- "cacheImage:"
+- "cancel"
+- "cancelRequest"
+- "cancelRequestForReason:"
+- "cancelRequestForReason:withError:"
+- "cancelSpeech"
+- "captionVoiceFeedback"
+- "checkLanguageReady:completion:"
+- "class"
+- "clearContext"
+- "code"
+- "com.apple.ace.assistant.AddViews"
+- "com.apple.assistant"
+- "com.apple.assistant.sync"
+- "com.apple.siri.SiriOrchestration.NAFConnection"
+- "combinedRank"
+- "combinedScore"
+- "commands"
+- "conformsToProtocol:"
+- "containsObject:"
+- "continuePendingSpeechRequestWithId:fromTimestamp:"
+- "copy"
+- "createXPCConnectionWithMachServiceName:options:"
+- "currentCoordinator"
+- "currentLanguageCode"
+- "currentState"
+- "d"
+- "date"
+- "dealloc"
+- "debugDescription"
+- "defaultCenter"
+- "defaultContext"
+- "defaultTimeout"
+- "defrost"
+- "delegate"
+- "dequeueObject"
+- "description"
+- "deviceRingerObserver:didChangeState:"
+- "dialogIdentifiers"
+- "dictionary"
+- "dictionaryWithObjects:forKeys:count:"
+- "didDismissUI"
+- "domain"
+- "doubleForKey:"
+- "emitHomeMetricInvocationEvent"
+- "emitMessage:"
+- "enableTelemetry=YES"
+- "encodedClassName"
+- "endListeningForClient:"
+- "endRequestWithUUID:forClient:"
+- "endSession"
+- "endSessionForClient:"
+- "endSpeakingForClient:"
+- "endTask"
+- "endTransaction"
+- "endUpdate"
+- "enqueueObject:"
+- "error"
+- "errorWithCode:"
+- "errorWithCode:description:"
+- "errorWithCode:description:underlyingError:"
+- "errorWithDomain:code:userInfo:"
+- "extensionRequestFinishedForApplication:error:"
+- "extensionRequestWillStartForApplication:"
+- "f16@0:8"
+- "failRequestWithError:"
+- "fetchAppicationContextForApplicationInfo:supplementalContext:refID:"
+- "fetchShouldSpeak:"
+- "forceAudioSessionActive"
+- "forceAudioSessionActiveWithContext:completion:"
+- "forceAudioSessionActiveWithOptions:completion:"
+- "forceAudioSessionActiveWithOptions:reason:completion:"
+- "forceAudioSessionActiveWithOptions:reason:speechRequestOptions:completion:"
+- "forceAudioSessionInactive"
+- "forceAudioSessionInactiveWithOptions:completion:"
+- "getBulletinContext:"
+- "getCachedObjectsWithIdentifiers:completion:"
+- "getDeferredObjectsWithIdentifiers:completion:"
+- "getRemoteClockTimerSnapshotWithCompletion:"
+- "getSerializedCachedObjectsWithIdentifiers:completion:"
+- "groupIdentifier"
+- "hasActiveRequest"
+- "hash"
+- "hideBackgroundContent"
+- "i"
+- "id"
+- "initWithAccessibilityState:deviceRingerSwitchState:isDeviceInCarDNDMode:isDeviceInStarkMode:supportsCarPlayVehicleData:isDeviceWatchAuthenticated:areAnnouncementRequestsPermittedByPresentationWhileActive:outputVolume:tapToSiriAudioPlaybackRequest:twoShotAudioPlaybackRequest:deviceSetupFlowBeginDate:deviceSetupFlowEndDate:"
+- "initWithBlock:"
+- "initWithBlock:defaultValue:"
+- "initWithConnection:targetQueue:"
+- "initWithDictionary:"
+- "initWithFormat:"
+- "initWithInstanceContext:"
+- "initWithNSUUID:"
+- "initWithOptions:capacity:"
+- "initWithProvider:queue:frequency:delegate:"
+- "initWithStyle:recordRoute:isVoiceTrigger:isDucking:isTwoShot:speechEndHostTime:context:preferences:delegate:"
+- "initWithSuiteName:"
+- "initWithTargetQueue:"
+- "initWithTargetQueue:instanceContext:"
+- "initWithTimeoutInterval:onQueue:timeoutHandler:"
+- "initWithUTF8String:"
+- "initWithUUIDString:"
+- "initWithXPCWrapper:"
+- "initialize"
+- "interactionId"
+- "interstitialProvider:handlePhase:displayText:speakableText:expectedDelay:context:completion:"
+- "intuitiveConversationRequestId"
+- "invalidate"
+- "invalidateClient:"
+- "invalidateCurrentUserActivity"
+- "invoke"
+- "invokeWithSignal:"
+- "invokeWithValue:"
+- "isAvailable"
+- "isDeviceInCarDNDMode"
+- "isDeviceInStarkMode"
+- "isEqual:"
+- "isEqualToString:"
+- "isKindOfClass:"
+- "isLocaleIdentifierNativelySupported:"
+- "isMemberOfClass:"
+- "isNarrowBand"
+- "isNetworkAvailable"
+- "isProxy"
+- "isRecording"
+- "isResponseFrameworkEnabled"
+- "isSiriUODAvailableForLanguage:"
+- "isSpeechRequest"
+- "isStateFeedbackEnabled"
+- "languageCode"
+- "length"
+- "listener:shouldAcceptNewConnection:"
+- "logEvent:"
+- "logEventWithType:context:"
+- "logEventWithType:context:contextNoCopy:"
+- "logInstrumentation:machAbsoluteTime:turnIdentifier:"
+- "logSiriInvokedVia:"
+- "logSiriOtherRequestStarted"
+- "logSiriRequestCancelled"
+- "logSiriRequestFailedWithError:"
+- "logSiriRequestSucceeded"
+- "logSiriSpeechRequestStarted"
+- "mach_time"
+- "musicWasDetected"
+- "mutatedCopyWithMutator:"
+- "name"
+- "networkAvailability:isAvailable:"
+- "networkDidBecomeActive"
+- "newWithBuilder:"
+- "no_start"
+- "no_start_and_stop"
+- "no_stop"
+- "numberWithBool:"
+- "numberWithDouble:"
+- "numberWithInteger:"
+- "objectAtIndex:"
+- "objectForKey:"
+- "onDeviceUtterancesPresent"
+- "originalRank"
+- "originalScore"
+- "outputVoice"
+- "peakPower"
+- "pendCallbacksUntilAfterContinuation"
+- "performGenericAceCommand:interruptOutstandingRequest:reply:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "postNotificationName:object:"
+- "postNotificationName:object:userInfo:deliverImmediately:"
+- "preheatWithStyle:"
+- "preheatWithStyle:forOptions:"
+- "prepareForPhoneCall"
+- "previousUtterance"
+- "processInfo"
+- "q"
+- "q16@0:8"
+- "quickStopWasHandledWithActions:"
+- "reason"
+- "recordAWDSuccessMetrics"
+- "recordRequestMetric:withTimestamp:"
+- "recordUIMetrics:"
+- "refId"
+- "release"
+- "remoteObjectProxy"
+- "remoteObjectProxyWithErrorHandler:"
+- "removeListener:"
+- "removeObject:"
+- "removeObjectForKey:"
+- "removeObserver:"
+- "reportIssueForError:type:context:"
+- "reportIssueForError:type:subtype:context:"
+- "reportIssueForType:subtype:context:"
+- "requestBarrier:"
+- "requestBarrierIfNecessary:"
+- "requestDidAskForTimeoutExtension:"
+- "requestDidReceiveCommand:reply:"
+- "requestDidUpdateResponseMode:"
+- "requestHandleCommand:reply:"
+- "requestId"
+- "requestRequestedDismissAssistant"
+- "requestRequestedDismissAssistantWithReason:"
+- "requestRequestedOpenApplicationWithBundleID:URL:reply:"
+- "requestRequestedOpenURL:reply:"
+- "requestSettings"
+- "requestShouldSpeakStateWithReply:"
+- "requestStateUpdateWithReply:"
+- "resume"
+- "resumeInterruptedAudioPlaybackIfNeeded"
+- "retain"
+- "retainCount"
+- "rollbackClearContext"
+- "rollbackRequest"
+- "self"
+- "sendFeedbackToAppPreferencesPredictorForMetricsContext:selectedBundleId:"
+- "sendGenericAceCommand:"
+- "sendGenericAceCommand:conflictHandler:"
+- "sendGenericAceCommand:turnIdentifier:conflictHandler:"
+- "sendReplyCommand:"
+- "serverCommandId"
+- "sessionId"
+- "setAccessibilityState:"
+- "setAceCommandClass:"
+- "setAceCommandContext:"
+- "setAceCommandId:"
+- "setAceCommandName:"
+- "setAceCommandType:"
+- "setAceId:"
+- "setAceViewId:"
+- "setActivationEvent:"
+- "setAlertContextDirty"
+- "setAlertContextWithBulletins:"
+- "setAnnouncementRequestsPermittedByPresentationWhileActive:"
+- "setApplicationContext:"
+- "setApplicationContextForApplicationInfos:"
+- "setApplicationContextForApplicationInfos:withRefId:"
+- "setAreAnnouncementRequestsPermittedByPresentationWhileActive:"
+- "setCarDNDActive:"
+- "setCombinedRank:"
+- "setCombinedScore:"
+- "setConfiguration:"
+- "setCorrectedSpeech:"
+- "setCorrectedSpeechContext:"
+- "setCurrentRequestId:"
+- "setDelegate:"
+- "setDeviceRingerSwitchState:"
+- "setDialogIdentifiers:"
+- "setDialogPhase:"
+- "setEnded:"
+- "setError:"
+- "setErrorCode:"
+- "setErrorDomain:"
+- "setEventMetadata:"
+- "setExists:"
+- "setExportedInterface:"
+- "setExportedObject:"
+- "setHandoffRequestData:"
+- "setHasEnded:"
+- "setHasStartedOrChanged:"
+- "setImagePath:"
+- "setInteractionId:"
+- "setInterruptionHandler:"
+- "setInvalidationHandler:"
+- "setIsDeviceInCarDNDMode:"
+- "setIsDeviceInStarkMode:"
+- "setIsDeviceWatchAuthenticated:"
+- "setLegacyDirectActionIdentifier:"
+- "setLockState:screenLocked:"
+- "setLockState:showingLockScreen:"
+- "setModesConfiguration:"
+- "setMteRequestId:"
+- "setMyriadDecisionResult:"
+- "setObject:forKey:"
+- "setOnDeviceUtterancesPresent:"
+- "setOptions:"
+- "setOriginalRank:"
+- "setOriginalScore:"
+- "setOverriddenApplicationContext:withContext:"
+- "setPreviousUtterance:"
+- "setReason:"
+- "setRefId:"
+- "setRemoteObjectInterface:"
+- "setRequestId:"
+- "setRequestStatus:"
+- "setRequestType:"
+- "setSessionId:"
+- "setShouldWaitForMyriad:"
+- "setSpeechDelegate:"
+- "setSpeechRequestOptions:"
+- "setStartLocalRequest:"
+- "setStartRequest:"
+- "setStartedOrChanged:"
+- "setSupportsCarPlayVehicleData:"
+- "setSymbolName:"
+- "setText:"
+- "setTurnIdentifier:"
+- "setUnderUnderlyingError:"
+- "setUnderlyingError:"
+- "setUserActivityInfo:webpageURL:"
+- "setUtteranceSource:"
+- "setUufrReadySource:"
+- "setValue:forKey:"
+- "setVoiceOverIsActive:"
+- "setWatchAuthenticated:"
+- "sharedAnalytics"
+- "sharedAvailability"
+- "sharedManager"
+- "sharedObserver"
+- "sharedPreferences"
+- "sharedStream"
+- "shouldSpeak"
+- "shouldSpeakChanged:"
+- "showRecognizedSpeech"
+- "siriInputLanguage"
+- "siriIsSupportedForLanguageCode:deviceProductVersion:error:"
+- "siriIsSupportedForLanguageCode:productName:productVersion:error:"
+- "siriResponseShouldAlwaysPrint"
+- "speechDelegate"
+- "speechEvent"
+- "speechRecognitionDidFail:"
+- "speechRecognized:"
+- "speechRecognizedAdditionalInterpretation:refId:"
+- "speechRecognizedPartialResult:"
+- "speechRecordingDidBeginOnAVRecordRoute:reply:"
+- "speechRecordingDidCancelWithReply:"
+- "speechRecordingDidChangeAVRecordRoute:isDucking:isTwoShot:speechEndHostTime:reply:"
+- "speechRecordingDidEndWithReply:"
+- "speechRecordingDidFail:reply:"
+- "speechRecordingDidUpdateRecognitionPhrases:utterances:refId:"
+- "speechRecordingPerformTwoShotPromptWithType:reply:"
+- "speechRecordingStartpointDetectedWithReply:"
+- "speechRecordingWillBeginRecognitionUpdateForTask:"
+- "speechRecordingWillBeginWithInputAudioPowerXPCWrapper:reply:"
+- "speechRequestOptions"
+- "start"
+- "startAcousticIDRequestWithOptions:"
+- "startAcousticIDRequestWithOptions:context:completion:"
+- "startAudioPlaybackRequest:options:completion:"
+- "startAudioPlaybackRequest:options:reply:"
+- "startContinuationRequestWithUserInfo:"
+- "startDirectActionRequestWithString:"
+- "startLocalRequest"
+- "startPlaybackDidFail:"
+- "startRecordingAndGetContinueBlockForPendingSpeechRequestWithOptions:"
+- "startRecordingForPendingSpeechRequestWithOptions:completion:"
+- "startRecordingForPendingSpeechRequestWithOptions:requestId:sessionUUID:completion:"
+- "startRequest"
+- "startRequestWithAceCommand:"
+- "startRequestWithCorrectedText:forSpeechIdentifier:userSelectionResults:"
+- "startRequestWithCorrectedText:forSpeechIdentifier:userSelectionResults:turnIdentifier:"
+- "startRequestWithInfo:"
+- "startRequestWithInfo:activationEvent:"
+- "startRequestWithInfo:completion:"
+- "startRequestWithText:"
+- "startSpeechPronunciationRequestWithOptions:context:completion:"
+- "startSpeechPronunciationRequestWithOptions:pronunciationContext:"
+- "startSpeechRequestWithOptions:"
+- "startSpeechRequestWithSpeechFileAtURL:"
+- "startSpeechRequestWithSpeechFileAtURL:isNarrowBand:"
+- "startUIRequest"
+- "startUIRequestWithInfo:completion:"
+- "startUIRequestWithText:completion:"
+- "state"
+- "stop"
+- "stopAllAudioPlaybackRequests:"
+- "stopAudioPlaybackRequest:immediately:"
+- "stopMonitoringAvailability"
+- "stopRecordingHostTime"
+- "stopSpeech"
+- "stopSpeechWithOptions:"
+- "stop_before_start"
+- "stringValue"
+- "stringWithFormat:"
+- "success"
+- "superclass"
+- "systemUptime"
+- "systemVersion"
+- "telephonyRequestCompleted"
+- "timeIntervalSince1970"
+- "timeIntervalSinceReferenceDate"
+- "timeRemaining"
+- "turnIdentifier"
+- "typeToSiri"
+- "unixTime"
+- "updateSpeechOptions:"
+- "updateSpeechSynthesisRecord:"
+- "useDeviceSpeakerForTTS"
+- "useSpeakerForTTS"
+- "usefulUserResultWillPresent"
+- "userDataSyncNeeded"
+- "userInfo"
+- "utteranceSource"
+- "v12@?0B8"
+- "v12@?0i8"
+- "v16@?0@\"<AFCallSiteInfoMutating>\"8"
+- "v16@?0@\"<AFClientConfigurationMutating>\"8"
+- "v16@?0@\"<AFSetAudioSessionActiveContextMutating>\"8"
+- "v16@?0@\"<AFSetAudioSessionActiveResultMutating>\"8"
+- "v16@?0@\"<NAFSpeechDelegate>\"8"
+- "v16@?0@\"AFSetAudioSessionActiveResult\"8"
+- "v16@?0@\"AceObject<SAAceCommand>\"8"
+- "v16@?0@\"NSDictionary\"8"
+- "v16@?0@\"NSError\"8"
+- "v16@?0@\"NSObject<OS_xpc_object>\"8"
+- "v16@?0q8"
+- "v20@0:8B16"
+- "v24@0:8@?16"
+- "v24@0:8B16B20"
+- "v24@0:8Q16"
+- "v24@0:8q16"
+- "v24@?0@\"AFClockTimerSnapshot\"8@\"NSError\"16"
+- "v24@?0@\"AceObject<SAAceCommand>\"8@\"NSError\"16"
+- "v28@0:8@\"NAFNetworkAvailability\"16B24"
+- "v28@0:8@16B24"
+- "v28@0:8B16@20"
+- "v32@0:8@\"AFAudioPowerUpdater\"16f24f28"
+- "v32@0:8@\"AFDeviceRingerSwitchObserver\"16q24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8@16d24"
+- "v32@0:8@16f24f28"
+- "v32@0:8@16q24"
+- "v32@0:8Q16@?24"
+- "v32@0:8d16@24"
+- "v32@0:8q16@24"
+- "v32@0:8q16@?24"
+- "v32@?0d8d16@\"NSError\"24"
+- "v36@0:8@16@24B32"
+- "v40@0:8@\"AFAccessibilityObserver\"16@\"AFAccessibilityState\"24@\"AFAccessibilityState\"32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16@24@?32"
+- "v40@0:8@16Q24@?32"
+- "v40@0:8@16q24@32"
+- "v40@0:8Q16q24@?32"
+- "v40@0:8q16@24@?32"
+- "v44@0:8B16@20@28@?36"
+- "v48@0:8@16@24@32@40"
+- "v48@0:8@16q24@32@40"
+- "v48@0:8Q16q24@32@?40"
+- "v52@0:8@16B24@28@36@?44"
+- "v52@0:8@16B24q28d36@?44"
+- "v56@0:8@16B24@28@36B44@?48"
+- "v72@0:8@\"AFInterstitialProvider\"16q24@\"NSString\"32@\"NSString\"40d48@56@?<v@?>64"
+- "v72@0:8@16q24@32@40d48@56@?64"
+- "v72@0:8q16@24@32@40d48@56@?64"
+- "v8@?0"
+- "views"
+- "willPresentUI"
+- "willPresentUIWithReply:"
+- "willPresentUsefulUserResultWithType:"
+- "willPresentUsefulUserResultWithType:forCommand:"
+- "willProcessAppLaunchWithBundleIdentifier:"
+- "willProcessStartPlayback:intent:completion:"
+- "willSetApplicationContextWithRefId:"
+- "willStopRecordingWithSignpostID:"
+- "zone"
+- "{?=@i}16@?0@\"NSUUID\"8"
+- "{AvailabilityState=\"availabilityIsKnown\"b1\"isAvailable\"b1}"
+- "\xf0\xf0\xd2"
+
+```

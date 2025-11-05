@@ -1,0 +1,98 @@
+## swift-backtrace
+
+> `/usr/libexec/swift/swift-backtrace`
+
+```diff
+
+-6.0.3.1.5
+-  __TEXT.__text: 0x1bfb4
+-  __TEXT.__auth_stubs: 0xe40
++6.1.0.110.5
++  __TEXT.__text: 0x1c4f8
++  __TEXT.__auth_stubs: 0xe60
+   __TEXT.__const: 0x4ae
+   __TEXT.__swift5_entry: 0x8
+   __TEXT.__cstring: 0x184c
+   __TEXT.__constg_swiftt: 0x458
+-  __TEXT.__swift5_typeref: 0x380
++  __TEXT.__swift5_typeref: 0x378
+   __TEXT.__swift5_reflstr: 0x182
+   __TEXT.__swift5_fieldmd: 0x41c
+   __TEXT.__swift5_builtin: 0x78
+
+   __TEXT.__swift5_protos: 0x10
+   __TEXT.__swift5_proto: 0x38
+   __TEXT.__swift5_types: 0x38
+-  __TEXT.__unwind_info: 0x2d8
++  __TEXT.__unwind_info: 0x2b8
+   __TEXT.__eh_frame: 0x1f0
+-  __DATA_CONST.__auth_got: 0x720
++  __DATA_CONST.__auth_got: 0x730
+   __DATA_CONST.__got: 0x188
+   __DATA_CONST.__auth_ptr: 0x1c8
+   __DATA_CONST.__const: 0x11e0
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA.__objc_const: 0x1d0
+   __DATA.__objc_data: 0x50
+-  __DATA.__data: 0x538
++  __DATA.__data: 0x530
+   __DATA.__bss: 0x350
+   __DATA.__common: 0x60
+   - /usr/lib/libSystem.B.dylib
+
+   - /usr/lib/swift/libswift_time.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 11EB0EE4-9AFA-3D55-8FEC-3969CCA0EDE2
+-  Functions: 265
+-  Symbols:   975
++  UUID: 1F616645-28AC-3A8B-BCDF-6173AABBEEE5
++  Functions: 260
++  Symbols:   974
+   CStrings:  85
+ 
+Symbols:
++ _$s29swift_backtrace_macosx_arm64e14SwiftBacktraceV12showRegister4name5valueySS_xts17FixedWidthIntegerRzlFZs6UInt64V_Tt1g5
++ _$s29swift_backtrace_macosx_arm64e14SwiftBacktraceV14printableBytes4fromSSx_tSTRzs5UInt8V7ElementRtzlFZSayAGG_Tt0g5
++ _$s29swift_backtrace_macosx_arm64e14SwiftBacktraceV14printableBytes4fromSSx_tSTRzs5UInt8V7ElementRtzlFZs10ArraySliceVyAGG_Tt0g5
++ _$s29swift_backtrace_macosx_arm64e14SwiftBacktraceV8showGPRs_5rangeyx_q_t12_Backtracing7ContextRzSTR_7ElementQy_8RegisterRtzr0_lFZAF05ARM64K0V_SnyAF0nM0OGTt1g5
++ _$s29swift_backtrace_macosx_arm64e14SwiftBacktraceV9parseBoolySbxSyRzlFZSS_Tt0g5
++ _$s29swift_backtrace_macosx_arm64e14SwiftBacktraceV9parseBoolySbxSyRzlFZSs_Tt0g5
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFs15ContiguousArrayVySiG_Tg508$sSTsSL7C45RpzrlE6sortedSayABGyFSbAB_ABtcfu_ShySiG_Tt1G5Tf1cn_n
++ _$sSa13_adoptStorage_5countSayxG_SpyxGts016_ContiguousArrayB0CyxGn_SitFZ12_Backtracing18BacktraceFormatterV9AlignmentO_Tt1g5
++ _$sSa22_allocateUninitializedySayxG_SpyxGtSiFZ12_Backtracing18BacktraceFormatterV8TableRowO_Tt0g5
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSi_Tg560$sSTsSL7ElementRpzrlE6sortedSayABGyFSbAB_ABtcfu_ShySiG_Tt1G5Tf1cn_n
++ _$ss13_parseInteger5ascii5radixq_Sgx_SitSyRzs010FixedWidthB0R_r0_lFSSSiADSSRszsAER_r0_lIetgyr_Tpq5Si_Tg5
++ _$ss13_parseInteger5ascii5radixq_Sgx_SitSyRzs010FixedWidthB0R_r0_lFSS_s6UInt64VTg5
++ _$ss17FixedWidthIntegerPsE_5radixxSgqd___SitcSyRd__lufCs6UInt64V_SSTt2g5
++ _$ss17FixedWidthIntegerPsE_5radixxSgqd___SitcSyRd__lufcADSRys5UInt8VGXEfU_AGSiADs5Error_psAARzSSRsd__r__lIetyyrzo_Tpq5Si_Tg5
++ _$ss17FixedWidthIntegerPsE_5radixxSgqd___SitcSyRd__lufcADSRys5UInt8VGXEfU_s6UInt64V_SSTg5
++ _$ss17FixedWidthIntegerPsEyxSgSScfCSi_Tt1g5
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5
++ _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlFSi_Tg560$sSTsSL7ElementRpzrlE6sortedSayABGyFSbAB_ABtcfu_ShySiG_Tt1G5Tf1nnnnc_n
++ _sigfillset
++ _sigprocmask
+- _$s12_Backtracing13ARM64RegisterOSgMD
+- _$s29swift_backtrace_macosx_arm64e14SwiftBacktraceV12showRegister4name5valueySS_xts17FixedWidthIntegerRzlFZs6UInt64V_Tgm5
+- _$s29swift_backtrace_macosx_arm64e14SwiftBacktraceV14printableBytes4fromSSx_tSTRzs5UInt8V7ElementRtzlFZSayAGG_Tgm5
+- _$s29swift_backtrace_macosx_arm64e14SwiftBacktraceV14printableBytes4fromSSx_tSTRzs5UInt8V7ElementRtzlFZs10ArraySliceVyAGG_Tgm5
+- _$s29swift_backtrace_macosx_arm64e14SwiftBacktraceV8showGPRs_5rangeyx_q_t12_Backtracing7ContextRzSTR_7ElementQy_8RegisterRtzr0_lFZAF05ARM64K0V_SnyAF0nM0OGTgm5
+- _$s29swift_backtrace_macosx_arm64e14SwiftBacktraceV9parseBoolySbxSyRzlFZSS_Tgm5
+- _$s29swift_backtrace_macosx_arm64e14SwiftBacktraceV9parseBoolySbxSyRzlFZSs_Tgm5
+- _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFs15ContiguousArrayVySiG_Tg508$sSTsSL7C44RpzrlE6sortedSayABGyFSbAB_ABtcfu_ShySiG_TGm5Tf1cn_n
+- _$sSa13_adoptStorage_5countSayxG_SpyxGts016_ContiguousArrayB0CyxGn_SitFZ12_Backtracing18BacktraceFormatterV9AlignmentO_Tgm5
+- _$sSa1poiySayxGAB_ABtFZSS_Tgm5
+- _$sSa22_allocateUninitializedySayxG_SpyxGtSiFZ12_Backtracing18BacktraceFormatterV8TableRowO_Tgm5
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSi_Tg559$sSTsSL7ElementRpzrlE6sortedSayABGyFSbAB_ABtcfu_ShySiG_TGm5Tf1cn_n
+- _$ss13_parseInteger5ascii5radixq_Sgx_SitSyRzs010FixedWidthB0R_r0_lFADSRys5UInt8VGXEfU_Ss_SiTg5
+- _$ss13_parseInteger5ascii5radixq_Sgx_SitSyRzs010FixedWidthB0R_r0_lFSSSiADSSRszsAER_r0_lIetgyr_Tpq5Si_Tg5Tm
+- _$ss17FixedWidthIntegerPsE_5radixxSgqd___SitcSyRd__lufCs6UInt64V_SSTgm5
+- _$ss17FixedWidthIntegerPsE_5radixxSgqd___SitcSyRd__lufcADSRys5UInt8VGXEfU_AGSiADs5Error_psAARzSSRsd__r__lIetyyrzo_Tpq5Si_Tg5Tm
+- _$ss17FixedWidthIntegerPsE_5radixxSgqd___SitcSyRd__lufcADSRys5UInt8VGXEfU_s6UInt64V_SSTg5Tm
+- _$ss17FixedWidthIntegerPsEyxSgSScfCSi_Tgm5
+- _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tgmq5
+- _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlFSi_Tg559$sSTsSL7ElementRpzrlE6sortedSayABGyFSbAB_ABtcfu_ShySiG_TGm5Tf1nnnnc_n
+- _symbolic _____Sg 12_Backtracing13ARM64RegisterO
+
+```

@@ -1,0 +1,93 @@
+## com.apple.driver.CoreKDL
+
+> `com.apple.driver.CoreKDL`
+
+```diff
+
+   __TEXT.__const: 0xc8
+   __TEXT.__cstring: 0x62e
+   __TEXT.__os_log: 0x1036
+-  __TEXT_EXEC.__text: 0x35dc
++  __TEXT_EXEC.__text: 0x3e44
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x60
+
+   __DATA_CONST.__mod_term_func: 0x10
+   __DATA_CONST.__const: 0x14a8
+   __DATA_CONST.__kalloc_type: 0x80
+-  UUID: 489B9DA2-CCAA-3051-88BF-171C12AE83BA
+-  Functions: 69
+-  Symbols:   539
++  UUID: 69906113-3972-35BD-B435-8DA2FFA692F0
++  Functions: 127
++  Symbols:   598
+   CStrings:  79
+ 
+Symbols:
++ _OUTLINED_FUNCTION_0
++ _ZN13CoreKDLDriver12freeSKDLDataEP8SKDLData.cold.1
++ _ZN13CoreKDLDriver13setPowerStateEmP9IOService.cold.1
++ _ZN13CoreKDLDriver16writeBytesToIOMDEP18IOMemoryDescriptorPKvmPj.cold.1
++ _ZN13CoreKDLDriver16writeBytesToIOMDEP18IOMemoryDescriptorPKvmPj.cold.2
++ _ZN13CoreKDLDriver16writeBytesToIOMDEP18IOMemoryDescriptorPKvmPj.cold.3
++ _ZN13CoreKDLDriver16writeBytesToIOMDEP18IOMemoryDescriptorPKvmPj.cold.4
++ _ZN13CoreKDLDriver19performCommandGatedEP18IOMemoryDescriptorS1_Pj.cold.1
++ _ZN13CoreKDLDriver19performCommandGatedEP18IOMemoryDescriptorS1_Pj.cold.10
++ _ZN13CoreKDLDriver19performCommandGatedEP18IOMemoryDescriptorS1_Pj.cold.11
++ _ZN13CoreKDLDriver19performCommandGatedEP18IOMemoryDescriptorS1_Pj.cold.12
++ _ZN13CoreKDLDriver19performCommandGatedEP18IOMemoryDescriptorS1_Pj.cold.13
++ _ZN13CoreKDLDriver19performCommandGatedEP18IOMemoryDescriptorS1_Pj.cold.2
++ _ZN13CoreKDLDriver19performCommandGatedEP18IOMemoryDescriptorS1_Pj.cold.3
++ _ZN13CoreKDLDriver19performCommandGatedEP18IOMemoryDescriptorS1_Pj.cold.4
++ _ZN13CoreKDLDriver19performCommandGatedEP18IOMemoryDescriptorS1_Pj.cold.5
++ _ZN13CoreKDLDriver19performCommandGatedEP18IOMemoryDescriptorS1_Pj.cold.6
++ _ZN13CoreKDLDriver19performCommandGatedEP18IOMemoryDescriptorS1_Pj.cold.7
++ _ZN13CoreKDLDriver19performCommandGatedEP18IOMemoryDescriptorS1_Pj.cold.8
++ _ZN13CoreKDLDriver19performCommandGatedEP18IOMemoryDescriptorS1_Pj.cold.9
++ _ZN13CoreKDLDriver20sendKextReceiptToSEPEv.cold.2
++ _ZN13CoreKDLDriver20sendKextReceiptToSEPEv.cold.3
++ _ZN13CoreKDLDriver20sendKextReceiptToSEPEv.cold.4
++ _ZN13CoreKDLDriver22setSKDLProtocolVersionEv.cold.1
++ _ZN13CoreKDLDriver25commandListOffendingKextsEP33SKDLCommandListOffendingKextsInV1mP18IOMemoryDescriptorPj.cold.1
++ _ZN13CoreKDLDriver25commandListOffendingKextsEP33SKDLCommandListOffendingKextsInV1mP18IOMemoryDescriptorPj.cold.2
++ _ZN13CoreKDLDriver25commandListOffendingKextsEP33SKDLCommandListOffendingKextsInV1mP18IOMemoryDescriptorPj.cold.3
++ _ZN13CoreKDLDriver25commandListOffendingKextsEP33SKDLCommandListOffendingKextsInV1mP18IOMemoryDescriptorPj.cold.4
++ _ZN13CoreKDLDriver25commandListOffendingKextsEP33SKDLCommandListOffendingKextsInV1mP18IOMemoryDescriptorPj.cold.5
++ _ZN13CoreKDLDriver25commandListOffendingKextsEP33SKDLCommandListOffendingKextsInV1mP18IOMemoryDescriptorPj.cold.6
++ _ZN13CoreKDLDriver25commandListOffendingKextsEP33SKDLCommandListOffendingKextsInV1mP18IOMemoryDescriptorPj.cold.7
++ _ZN13CoreKDLDriver25commandOffendingKextsInfoEP38KDLDriverCommandOffendingKextsInfoInV1mP18IOMemoryDescriptorPj.cold.1
++ _ZN13CoreKDLDriver25commandOffendingKextsInfoEP38KDLDriverCommandOffendingKextsInfoInV1mP18IOMemoryDescriptorPj.cold.2
++ _ZN13CoreKDLDriver25commandOffendingKextsInfoEP38KDLDriverCommandOffendingKextsInfoInV1mP18IOMemoryDescriptorPj.cold.3
++ _ZN13CoreKDLDriver25commandOffendingKextsInfoEP38KDLDriverCommandOffendingKextsInfoInV1mP18IOMemoryDescriptorPj.cold.4
++ _ZN13CoreKDLDriver25commandOffendingKextsInfoEP38KDLDriverCommandOffendingKextsInfoInV1mP18IOMemoryDescriptorPj.cold.5
++ _ZN13CoreKDLDriver25commandOffendingKextsInfoEP38KDLDriverCommandOffendingKextsInfoInV1mP18IOMemoryDescriptorPj.cold.6
++ _ZN13CoreKDLDriver25commandOffendingKextsInfoEP38KDLDriverCommandOffendingKextsInfoInV1mP18IOMemoryDescriptorPj.cold.7
++ _ZN13CoreKDLDriver25commandOffendingKextsInfoEP38KDLDriverCommandOffendingKextsInfoInV1mP18IOMemoryDescriptorPj.cold.8
++ _ZN13CoreKDLDriver5startEP9IOService.cold.1
++ _ZN13CoreKDLDriver5startEP9IOService.cold.2
++ _ZN13CoreKDLDriver5startEP9IOService.cold.3
++ _ZN13CoreKDLDriver5startEP9IOService.cold.4
++ _ZN13CoreKDLDriver5startEP9IOService.cold.5
++ _ZN13CoreKDLDriver7powerOnEv.cold.1
++ _ZN13CoreKDLDriver7powerOnEv.cold.2
++ _ZN13CoreKDLDriver8initSKDLEv.cold.1
++ _ZN13CoreKDLDriver8initSKDLEv.cold.2
++ _ZN13CoreKDLDriver8powerOffEv.cold.1
++ _ZN17CoreKDLUserClient11clientCloseEv.cold.1
++ _ZN17CoreKDLUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.1
++ _ZN17CoreKDLUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.2
++ _ZN17CoreKDLUserClient12initWithTaskEP4taskPvjP12OSDictionary.cold.3
++ _ZN17CoreKDLUserClient17extPerformCommandEP13CoreKDLDriverPvP25IOExternalMethodArguments.cold.1
++ _ZN17CoreKDLUserClient17extPerformCommandEP13CoreKDLDriverPvP25IOExternalMethodArguments.cold.2
++ _ZN17CoreKDLUserClient17extPerformCommandEP13CoreKDLDriverPvP25IOExternalMethodArguments.cold.3
++ _ZN17CoreKDLUserClient5startEP9IOService.cold.1
++ _ZN17CoreKDLUserClient5startEP9IOService.cold.2
++ ___ZN13CoreKDLDriver17sepMessageHandlerEPvS0__block_invoke.cold.1
+CStrings:
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/CoreKDL_Kernel/CoreKDLDriver/CoreKDLDriver.cpp"
++ "/AppleInternal/Library/BuildRoots/17229e79-0523-11f0-a80c-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/CoreKDL_Kernel/CoreKDLDriver/CoreKDLUserClient.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/CoreKDL_Kernel/CoreKDLDriver/CoreKDLDriver.cpp"
+- "/AppleInternal/Library/BuildRoots/1a84d2b1-c913-11ef-bd9f-d285688f7a47/Library/Caches/com.apple.xbs/Sources/CoreKDL_Kernel/CoreKDLDriver/CoreKDLUserClient.cpp"
+
+```

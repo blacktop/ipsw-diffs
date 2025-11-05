@@ -1,0 +1,1723 @@
+## ProactiveSummarization
+
+> `/System/Library/PrivateFrameworks/ProactiveSummarization.framework/Versions/A/ProactiveSummarization`
+
+```diff
+
+-1271.10.0.0.0
+-  __TEXT.__text: 0x122514
+-  __TEXT.__auth_stubs: 0x3180
+-  __TEXT.__objc_methlist: 0x27c
+-  __TEXT.__const: 0xacb8
+-  __TEXT.__oslogstring: 0x60d0
+-  __TEXT.__swift5_typeref: 0x3554
+-  __TEXT.__swift5_fieldmd: 0x2ea8
+-  __TEXT.__constg_swiftt: 0x2808
+-  __TEXT.__cstring: 0x76b8
+-  __TEXT.__swift5_capture: 0xe9c
+-  __TEXT.__swift5_reflstr: 0x2bbd
+-  __TEXT.__swift5_protos: 0x38
+-  __TEXT.__swift5_proto: 0x9ec
+-  __TEXT.__swift5_types: 0x3f4
+-  __TEXT.__swift5_builtin: 0x104
+-  __TEXT.__swift5_mpenum: 0x4c
+-  __TEXT.__swift5_assocty: 0x240
+-  __TEXT.__gcc_except_tab: 0x100
++1276.10.4.0.0
++  __TEXT.__text: 0x147bd8
++  __TEXT.__auth_stubs: 0x3510
++  __TEXT.__objc_methlist: 0x55c
++  __TEXT.__const: 0xc6a8
+   __TEXT.__dlopen_cstrs: 0x56
+-  __TEXT.__unwind_info: 0x4ff8
+-  __TEXT.__eh_frame: 0xcc50
+-  __TEXT.__objc_classname: 0x18a
+-  __TEXT.__objc_methname: 0x2461
+-  __TEXT.__objc_methtype: 0x3d8
+-  __TEXT.__objc_stubs: 0x6c0
+-  __DATA_CONST.__got: 0xeb0
+-  __DATA_CONST.__const: 0x400
+-  __DATA_CONST.__objc_classlist: 0x120
++  __TEXT.__oslogstring: 0x5f1b
++  __TEXT.__swift5_typeref: 0x3ae8
++  __TEXT.__cstring: 0xa31d
++  __TEXT.__swift5_fieldmd: 0x3618
++  __TEXT.__constg_swiftt: 0x2d4c
++  __TEXT.__swift5_reflstr: 0x340d
++  __TEXT.__swift5_capture: 0x1308
++  __TEXT.__swift5_protos: 0x3c
++  __TEXT.__swift5_proto: 0xb5c
++  __TEXT.__swift5_types: 0x47c
++  __TEXT.__swift_as_entry: 0x4f0
++  __TEXT.__swift_as_ret: 0x6f8
++  __TEXT.__swift5_builtin: 0x118
++  __TEXT.__swift5_mpenum: 0x60
++  __TEXT.__swift5_assocty: 0x2e8
++  __TEXT.__gcc_except_tab: 0x100
++  __TEXT.__unwind_info: 0x5b50
++  __TEXT.__eh_frame: 0xf5a8
++  __TEXT.__objc_classname: 0x19c
++  __TEXT.__objc_methname: 0x285a
++  __TEXT.__objc_methtype: 0x44e
++  __TEXT.__objc_stubs: 0x640
++  __DATA_CONST.__got: 0xfa8
++  __DATA_CONST.__const: 0x220
++  __DATA_CONST.__objc_classlist: 0x130
+   __DATA_CONST.__objc_catlist: 0x8
+-  __DATA_CONST.__objc_protolist: 0xb0
++  __DATA_CONST.__objc_protolist: 0xc0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xaa0
+-  __DATA_CONST.__objc_protorefs: 0x58
+-  __DATA_CONST.__objc_superrefs: 0x18
+-  __AUTH_CONST.__auth_got: 0x18d0
+-  __AUTH_CONST.__const: 0x7148
+-  __AUTH_CONST.__cfstring: 0x80
+-  __AUTH_CONST.__objc_const: 0x2cb8
+-  __AUTH.__objc_data: 0x5b8
+-  __AUTH.__data: 0x18e8
+-  __DATA.__objc_ivar: 0x10
+-  __DATA.__data: 0x2728
+-  __DATA.__bss: 0x14070
+-  __DATA.__common: 0x2f0
++  __DATA_CONST.__objc_selrefs: 0xd00
++  __DATA_CONST.__objc_protorefs: 0x60
++  __DATA_CONST.__objc_superrefs: 0x10
++  __AUTH_CONST.__auth_got: 0x1a98
++  __AUTH_CONST.__const: 0x8e18
++  __AUTH_CONST.__cfstring: 0xa0
++  __AUTH_CONST.__objc_const: 0x2b00
++  __AUTH.__objc_data: 0x4b0
++  __AUTH.__data: 0x1c90
++  __DATA.__objc_ivar: 0xc
++  __DATA.__data: 0x2a98
++  __DATA.__bss: 0x16f40
++  __DATA.__common: 0x348
++  - /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+   - /System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /System/Library/Frameworks/Intents.framework/Versions/A/Intents
++  - /System/Library/Frameworks/NaturalLanguage.framework/Versions/A/NaturalLanguage
+   - /System/Library/Frameworks/Security.framework/Versions/A/Security
+   - /System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
+   - /System/Library/PrivateFrameworks/AppPredictionClient.framework/Versions/A/AppPredictionClient
+
+   - /System/Library/PrivateFrameworks/CollectionsInternal.framework/Versions/A/CollectionsInternal
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+   - /System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/CoreSuggestions
++  - /System/Library/PrivateFrameworks/CoreSuggestionsInternals.framework/Versions/A/CoreSuggestionsInternals
+   - /System/Library/PrivateFrameworks/Email.framework/Versions/A/Email
+   - /System/Library/PrivateFrameworks/EmailCore.framework/Versions/A/EmailCore
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags
+
+   - /System/Library/PrivateFrameworks/GenerativeModels.framework/Versions/A/GenerativeModels
+   - /System/Library/PrivateFrameworks/IntelligencePlatform.framework/Versions/A/IntelligencePlatform
+   - /System/Library/PrivateFrameworks/IntentsCore.framework/Versions/A/IntentsCore
++  - /System/Library/PrivateFrameworks/LinkMetadata.framework/Versions/A/LinkMetadata
++  - /System/Library/PrivateFrameworks/LinkServices.framework/Versions/A/LinkServices
+   - /System/Library/PrivateFrameworks/MailCore.framework/Versions/A/MailCore
+   - /System/Library/PrivateFrameworks/MediaAnalysisServices.framework/Versions/A/MediaAnalysisServices
+   - /System/Library/PrivateFrameworks/ModelManagerServices.framework/Versions/A/ModelManagerServices
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
++  - /usr/lib/swift/libswiftCryptoTokenKit.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftFileProvider.dylib
+   - /usr/lib/swift/libswiftIOKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
++  - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+
+   - /usr/lib/swift/libswiftRegexBuilder.dylib
+   - /usr/lib/swift/libswiftSynchronization.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftWebKit.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: EB1EC7E2-2625-3CBA-8FFD-91E7A52B34C1
+-  Functions: 7080
+-  Symbols:   5162
+-  CStrings:  1539
++  UUID: 1007907B-2AE7-3DA7-A951-007F06C3A17B
++  Functions: 8181
++  Symbols:   5850
++  CStrings:  1813
+ 
+Symbols:
++ -[PSUVIPManager emailVIPAddressesWithCompletion:]
++ _MDItemOwnerIdentifier
++ _MDItemProtectionClass
++ _NLLanguageEnglish
++ _OBJC_CLASS_$_ECMessageBodyParsingUtils
++ _OBJC_CLASS_$_EMCachingContactStore
++ _OBJC_CLASS_$_EMMessage
++ _OBJC_CLASS_$_EMMessageListItemPredicates
++ _OBJC_CLASS_$_EMQuery
++ _OBJC_CLASS_$_LNAssistantDefinedSchemaConformance
++ _OBJC_CLASS_$_LNConfigurableQueryRequest
++ _OBJC_CLASS_$_LNConnectionPolicy
++ _OBJC_CLASS_$_LNEntity
++ _OBJC_CLASS_$_LNEntityIdentifier
++ _OBJC_CLASS_$_LNEntityMetadata
++ _OBJC_CLASS_$_LNMetadataProvider
++ _OBJC_CLASS_$_LNProperty
++ _OBJC_CLASS_$_LNQueryRequestOptions
++ _OBJC_CLASS_$_NLEmbedding
++ _OBJC_CLASS_$_NSSortDescriptor
++ _OBJC_CLASS_$_SGContactsInterface
++ _OBJC_CLASS_$__PASDeviceState
++ _OBJC_CLASS_$__TtC22ProactiveSummarization24UserNotificationSettings
++ _OBJC_METACLASS_$__TtC22ProactiveSummarization24UserNotificationSettings
++ _OUTLINED_FUNCTION_437
++ _OUTLINED_FUNCTION_438
++ _OUTLINED_FUNCTION_439
++ _OUTLINED_FUNCTION_440
++ _OUTLINED_FUNCTION_441
++ _OUTLINED_FUNCTION_442
++ _OUTLINED_FUNCTION_443
++ _OUTLINED_FUNCTION_444
++ _OUTLINED_FUNCTION_445
++ _OUTLINED_FUNCTION_446
++ _OUTLINED_FUNCTION_447
++ _OUTLINED_FUNCTION_448
++ _OUTLINED_FUNCTION_449
++ _OUTLINED_FUNCTION_450
++ _OUTLINED_FUNCTION_451
++ _OUTLINED_FUNCTION_452
++ _OUTLINED_FUNCTION_453
++ _OUTLINED_FUNCTION_454
++ _OUTLINED_FUNCTION_455
++ _OUTLINED_FUNCTION_456
++ _OUTLINED_FUNCTION_457
++ _OUTLINED_FUNCTION_458
++ _OUTLINED_FUNCTION_459
++ _OUTLINED_FUNCTION_460
++ _OUTLINED_FUNCTION_461
++ _OUTLINED_FUNCTION_462
++ _OUTLINED_FUNCTION_463
++ _OUTLINED_FUNCTION_464
++ _OUTLINED_FUNCTION_465
++ _OUTLINED_FUNCTION_466
++ _OUTLINED_FUNCTION_467
++ _OUTLINED_FUNCTION_468
++ _OUTLINED_FUNCTION_469
++ _OUTLINED_FUNCTION_470
++ _OUTLINED_FUNCTION_471
++ _OUTLINED_FUNCTION_472
++ _OUTLINED_FUNCTION_473
++ _OUTLINED_FUNCTION_474
++ _OUTLINED_FUNCTION_475
++ _OUTLINED_FUNCTION_476
++ _OUTLINED_FUNCTION_477
++ _OUTLINED_FUNCTION_478
++ _OUTLINED_FUNCTION_479
++ _OUTLINED_FUNCTION_480
++ _OUTLINED_FUNCTION_481
++ _OUTLINED_FUNCTION_482
++ _OUTLINED_FUNCTION_483
++ _OUTLINED_FUNCTION_484
++ _OUTLINED_FUNCTION_485
++ _OUTLINED_FUNCTION_486
++ _OUTLINED_FUNCTION_487
++ _OUTLINED_FUNCTION_488
++ _OUTLINED_FUNCTION_489
++ _OUTLINED_FUNCTION_490
++ _OUTLINED_FUNCTION_491
++ _OUTLINED_FUNCTION_492
++ _OUTLINED_FUNCTION_493
++ _OUTLINED_FUNCTION_494
++ _OUTLINED_FUNCTION_495
++ _OUTLINED_FUNCTION_496
++ _OUTLINED_FUNCTION_497
++ _OUTLINED_FUNCTION_498
++ _OUTLINED_FUNCTION_499
++ _OUTLINED_FUNCTION_500
++ _OUTLINED_FUNCTION_501
++ _OUTLINED_FUNCTION_502
++ _OUTLINED_FUNCTION_503
++ _OUTLINED_FUNCTION_504
++ _OUTLINED_FUNCTION_505
++ _OUTLINED_FUNCTION_506
++ _OUTLINED_FUNCTION_507
++ _OUTLINED_FUNCTION_508
++ _OUTLINED_FUNCTION_509
++ _OUTLINED_FUNCTION_510
++ _OUTLINED_FUNCTION_511
++ _OUTLINED_FUNCTION_512
++ _OUTLINED_FUNCTION_513
++ _OUTLINED_FUNCTION_514
++ _OUTLINED_FUNCTION_515
++ _PROTOCOLS__TtC22ProactiveSummarization24UserNotificationSettings.2
++ _PROTOCOLS__TtC22ProactiveSummarization29SummarizationPipelineDatabase.879
++ _PSUSpotlightMessageTypeAudio
++ __144-[PSUIntentMessageHistorySearcher recentMessagesSinceDate:conversationIdentifier:appBundleId:incomingMessageID:limit:options:completionHandler:]_block_invoke.10
++ __144-[PSUIntentMessageHistorySearcher recentMessagesSinceDate:conversationIdentifier:appBundleId:incomingMessageID:limit:options:completionHandler:]_block_invoke.12
++ __144-[PSUIntentMessageHistorySearcher recentMessagesSinceDate:conversationIdentifier:appBundleId:incomingMessageID:limit:options:completionHandler:]_block_invoke.9
++ __94-[PSUCurrentActivityManager fetchUserActivityContentIdentifiersForBundleId:completionHandler:]_block_invoke.11
++ __94-[PSUCurrentActivityManager fetchUserActivityContentIdentifiersForBundleId:completionHandler:]_block_invoke.14
++ __DATA_PSUSummarizationPipeline
++ __DATA__TtC22ProactiveSummarization20AppIntentMailFetcher
++ __DATA__TtC22ProactiveSummarization21SummarizationPipeline
++ __DATA__TtC22ProactiveSummarization24ModelInputContentBuilder
++ __DATA__TtC22ProactiveSummarization24UserNotificationSettings
++ __INSTANCE_METHODS_PSUSummarizationPipeline
++ __INSTANCE_METHODS__TtC22ProactiveSummarization24UserNotificationSettings
++ __IVARS_PSUSummarizationPipeline
++ __IVARS__TtC22ProactiveSummarization21SummarizationPipeline
++ __IVARS__TtC22ProactiveSummarization24ModelInputContentBuilder
++ __IVARS__TtC22ProactiveSummarization25EmailFrameworkMailFetcher
++ __IVARS__TtC22ProactiveSummarization28SummarizationFeedbackManager
++ __METACLASS_DATA_PSUSummarizationPipeline
++ __METACLASS_DATA__TtC22ProactiveSummarization20AppIntentMailFetcher
++ __METACLASS_DATA__TtC22ProactiveSummarization21SummarizationPipeline
++ __METACLASS_DATA__TtC22ProactiveSummarization24ModelInputContentBuilder
++ __METACLASS_DATA__TtC22ProactiveSummarization24UserNotificationSettings
++ __OBJC_$_PROP_LIST_ECEmailAddressConvertible
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_ECEmailAddressConvertible
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UNNotificationSettingsCenterObserver
++ __OBJC_$_PROTOCOL_METHOD_TYPES_ECEmailAddressConvertible
++ __OBJC_$_PROTOCOL_METHOD_TYPES_UNNotificationSettingsCenterObserver
++ __OBJC_$_PROTOCOL_REFS_ECEmailAddressConvertible
++ __OBJC_$_PROTOCOL_REFS_UNNotificationSettingsCenterObserver
++ __OBJC_LABEL_PROTOCOL_$_ECEmailAddressConvertible
++ __OBJC_LABEL_PROTOCOL_$_UNNotificationSettingsCenterObserver
++ __OBJC_PROTOCOL_$_ECEmailAddressConvertible
++ __OBJC_PROTOCOL_$_UNNotificationSettingsCenterObserver
++ __PROTOCOLS__TtC22ProactiveSummarization24UserNotificationSettings
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ ___swift_project_boxed_opaque_existential_1Tm
++ __block_literal_global.24
++ __block_literal_global.37
++ __block_literal_global.60
++ __swift_FORCE_LOAD_$_swiftCryptoTokenKit
++ __swift_FORCE_LOAD_$_swiftCryptoTokenKit_$_ProactiveSummarization
++ __swift_FORCE_LOAD_$_swiftMLCompute
++ __swift_FORCE_LOAD_$_swiftMLCompute_$_ProactiveSummarization
++ _associated conformance 22ProactiveSummarization0B9AnalyticsC8StepKindO24InitializationCodingKeys33_D79230A5D231979DEC02012E11A9965ALLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22ProactiveSummarization0B9AnalyticsC8StepKindO24InitializationCodingKeys33_D79230A5D231979DEC02012E11A9965ALLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22ProactiveSummarization0B9AnalyticsC8StepKindO40PriorityFeedbackClassificationCodingKeys33_D79230A5D231979DEC02012E11A9965ALLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22ProactiveSummarization0B9AnalyticsC8StepKindO40PriorityFeedbackClassificationCodingKeys33_D79230A5D231979DEC02012E11A9965ALLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22ProactiveSummarization10EntityKindO25AudioTranscriptCodingKeys33_646E0A0DECFAF2D96434E5D619800EE5LLOSHAASQ
++ _associated conformance 22ProactiveSummarization10EntityKindO25AudioTranscriptCodingKeys33_646E0A0DECFAF2D96434E5D619800EE5LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22ProactiveSummarization10EntityKindO25AudioTranscriptCodingKeys33_646E0A0DECFAF2D96434E5D619800EE5LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22ProactiveSummarization11PowerBudgetC15ComputationTypeOSHAASQ
++ _associated conformance 22ProactiveSummarization11PowerBudgetC15ComputationTypeOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 22ProactiveSummarization12FeatureFlagsO22MailThreadFetchingKindOSHAASQ
++ _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO03PreC30_audioTranscript_oldCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO03PreC30_audioTranscript_oldCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO07UrgencyC39_audioTranscript_notSupportedCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO07UrgencyC39_audioTranscript_notSupportedCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO07UrgencyC70_message_priorityDisabledAndNotInIntelligentBreakthroughModeCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOs0P3KeyAAs23CustomStringConvertible
++ _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO07UrgencyC70_message_priorityDisabledAndNotInIntelligentBreakthroughModeCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOs0P3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO0bC35_audioTranscript_tooShortCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOSHAASQ
++ _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO0bC35_audioTranscript_tooShortCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO0bC35_audioTranscript_tooShortCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO0bC39_notification_missingBundleIdCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO0bC39_notification_missingBundleIdCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO0bC42_notification_ineligibleBundleIdCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOSHAASQ
++ _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO0bC42_notification_ineligibleBundleIdCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO0bC42_notification_ineligibleBundleIdCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO0bC43_audioTranscript_pipelineDisabledCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO0bC43_audioTranscript_pipelineDisabledCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO0bC44_notificationStack_missingBundleIdCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO0bC44_notificationStack_missingBundleIdCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO0bC47_notificationStack_ineligibleBundleIdCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOSHAASQ
++ _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO0bC47_notificationStack_ineligibleBundleIdCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO0bC47_notificationStack_ineligibleBundleIdCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO0bC48_notification_ineligibleItunesCategoryCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOSHAASQ
++ _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO0bC48_notification_ineligibleItunesCategoryCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO0bC48_notification_ineligibleItunesCategoryCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO0bC53_notificationStack_ineligibleItunesCategoryCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOSHAASQ
++ _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO0bC53_notificationStack_ineligibleItunesCategoryCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO0bC53_notificationStack_ineligibleItunesCategoryCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22ProactiveSummarization14DistanceMetricOSHAASQ
++ _associated conformance 22ProactiveSummarization14SearchableItemV4KindOSHAASQ
++ _associated conformance 22ProactiveSummarization16MailFeatureFlagsOSHAASQ
++ _associated conformance 22ProactiveSummarization8ValidityO6ReasonO22Message_readCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22ProactiveSummarization8ValidityO6ReasonO22Message_readCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22ProactiveSummarization8ValidityO6ReasonO37AudioTranscript_missingDateCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22ProactiveSummarization8ValidityO6ReasonO37AudioTranscript_missingDateCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22ProactiveSummarization8ValidityO6ReasonO44AudioTranscript_missingTextContentCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22ProactiveSummarization8ValidityO6ReasonO44AudioTranscript_missingTextContentCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22ProactiveSummarization8ValidityO6ReasonO55AudioTranscript_alreadySummarizedOrIneligibleCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 22ProactiveSummarization8ValidityO6ReasonO55AudioTranscript_alreadySummarizedOrIneligibleCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 28ProactiveSummarizationClient21AudioTranscriptEntityV0aB00B6FilterAD7OptionsAdEP_AD0bgH0
++ _associated conformance So20NSFileProtectionTypeaSHSCSQ
++ _associated conformance So20NSFileProtectionTypeas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So20NSFileProtectionTypeas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _associated conformance So24PSUSummarizationPipelineC22ProactiveSummarizationE0dB12AvailabilityO6ReasonOSHACSQ
++ _flat unique So25ECEmailAddressConvertible_p
++ _sqrt
++ _swift_dynamicCastClass
++ _swift_getAtKeyPath
++ _swift_getKeyPath
++ _swift_isaMask
++ _swift_unknownObjectRetain_n
++ _symbolic $s22ProactiveSummarization20NotificationSettingsP
++ _symbolic $ss21_ObjectiveCBridgeableP
++ _symbolic SaySdG
++ _symbolic SaySo7LNValueCG
++ _symbolic Say_____G 22ProactiveSummarization11PowerBudgetC15ComputationTypeO
++ _symbolic Say_____G 22ProactiveSummarization21UrgencyFeedbackSampleV
++ _symbolic Say_____G 22ProactiveSummarization27UrgencyFeedbackHistoryEntryV
++ _symbolic ScCySaySSG______pG s5ErrorP
++ _symbolic SccySaySo8NSObjectCGSg_____G s5NeverO
++ _symbolic SccySaySo9EMMessageCG______pG s5ErrorP
++ _symbolic SccySaySo9INMessageCG_____G s5NeverO
++ _symbolic SccyShySSG______pG s5ErrorP
++ _symbolic SccySo13LNQueryOutputC______pG s5ErrorP
++ _symbolic SccySo22ATXMailContextResponseC______pG s5ErrorP
++ _symbolic SccySo25ATXMessageContextResponseC______pG s5ErrorP
++ _symbolic SccySo30ATXNotificationContextResponseC______pG s5ErrorP
++ _symbolic Sccyyt______pG s5ErrorP
++ _symbolic ShySSGSg
++ _symbolic ShySSGz_Xx
++ _symbolic So17EMDaemonInterfaceCSg
++ _symbolic So21EMCachingContactStoreC
++ _symbolic So24PSUSummarizationPipelineC
++ _symbolic So8NSStringC
++ _symbolic _____ 22ProactiveSummarization015AudioTranscriptB13FilterOptionsV
++ _symbolic _____ 22ProactiveSummarization0B9AnalyticsC8StepKindO24InitializationCodingKeys33_D79230A5D231979DEC02012E11A9965ALLO
++ _symbolic _____ 22ProactiveSummarization0B9AnalyticsC8StepKindO40PriorityFeedbackClassificationCodingKeys33_D79230A5D231979DEC02012E11A9965ALLO
++ _symbolic _____ 22ProactiveSummarization10EntityKindO25AudioTranscriptCodingKeys33_646E0A0DECFAF2D96434E5D619800EE5LLO
++ _symbolic _____ 22ProactiveSummarization11PowerBudgetC15ComputationTypeO
++ _symbolic _____ 22ProactiveSummarization12FeatureFlagsO22MailThreadFetchingKindO
++ _symbolic _____ 22ProactiveSummarization12FilterResultO6ReasonO03PreC30_audioTranscript_oldCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____ 22ProactiveSummarization12FilterResultO6ReasonO07UrgencyC39_audioTranscript_notSupportedCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____ 22ProactiveSummarization12FilterResultO6ReasonO07UrgencyC70_message_priorityDisabledAndNotInIntelligentBreakthroughModeCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____ 22ProactiveSummarization12FilterResultO6ReasonO0bC35_audioTranscript_tooShortCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____ 22ProactiveSummarization12FilterResultO6ReasonO0bC39_notification_missingBundleIdCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____ 22ProactiveSummarization12FilterResultO6ReasonO0bC42_notification_ineligibleBundleIdCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____ 22ProactiveSummarization12FilterResultO6ReasonO0bC43_audioTranscript_pipelineDisabledCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____ 22ProactiveSummarization12FilterResultO6ReasonO0bC44_notificationStack_missingBundleIdCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____ 22ProactiveSummarization12FilterResultO6ReasonO0bC47_notificationStack_ineligibleBundleIdCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____ 22ProactiveSummarization12FilterResultO6ReasonO0bC48_notification_ineligibleItunesCategoryCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____ 22ProactiveSummarization12FilterResultO6ReasonO0bC53_notificationStack_ineligibleItunesCategoryCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____ 22ProactiveSummarization14DistanceMetricO
++ _symbolic _____ 22ProactiveSummarization14SearchableItemV
++ _symbolic _____ 22ProactiveSummarization14SearchableItemV4KindO
++ _symbolic _____ 22ProactiveSummarization14SpotlightIndexV
++ _symbolic _____ 22ProactiveSummarization16MailFeatureFlagsO
++ _symbolic _____ 22ProactiveSummarization19AvailabilityManagerV
++ _symbolic _____ 22ProactiveSummarization20AppIntentMailFetcherC
++ _symbolic _____ 22ProactiveSummarization21UrgencyFeedbackSampleV
++ _symbolic _____ 22ProactiveSummarization22SecureHasherForLoggingV
++ _symbolic _____ 22ProactiveSummarization24ModelInputContentBuilderC
++ _symbolic _____ 22ProactiveSummarization24ModelInputContentBuilderC20SearchableItemResultO
++ _symbolic _____ 22ProactiveSummarization24UserNotificationSettingsC
++ _symbolic _____ 22ProactiveSummarization27UrgencyFeedbackHistoryEntryV
++ _symbolic _____ 22ProactiveSummarization35UrgencyFeedbackDistanceLabelPairingV
++ _symbolic _____ 22ProactiveSummarization8ValidityO6ReasonO22Message_readCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLO
++ _symbolic _____ 22ProactiveSummarization8ValidityO6ReasonO37AudioTranscript_missingDateCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLO
++ _symbolic _____ 22ProactiveSummarization8ValidityO6ReasonO44AudioTranscript_missingTextContentCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLO
++ _symbolic _____ 22ProactiveSummarization8ValidityO6ReasonO55AudioTranscript_alreadySummarizedOrIneligibleCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLO
++ _symbolic _____ 28ProactiveSummarizationClient21AudioTranscriptEntityV
++ _symbolic _____ So20NSFileProtectionTypea
++ _symbolic _____ So24PSUSummarizationPipelineC22ProactiveSummarizationE0dB12AvailabilityO
++ _symbolic _____ So24PSUSummarizationPipelineC22ProactiveSummarizationE0dB12AvailabilityO6ReasonO
++ _symbolic _____Sg 22ProactiveSummarization0B8PipelineC
++ _symbolic _____Sg 22ProactiveSummarization0B9AnalyticsC8IntervalO8CompleteV
++ _symbolic _____Sg 22ProactiveSummarization14SpotlightIndexV
++ _symbolic _____Sg 22ProactiveSummarization24ModelInputContentBuilderC
++ _symbolic _____Sg 28ProactiveSummarizationClient10MailEntityV0D13ThreadMessageV
++ _symbolic _____Sg 28ProactiveSummarizationClient10MailEntityV6ThreadO
++ _symbolic _____Sg 28ProactiveSummarizationClient21AudioTranscriptEntityV
++ _symbolic ______p 10Foundation15ContiguousBytesP
++ _symbolic ______p 22ProactiveSummarization20NotificationSettingsP
++ _symbolic ______p So25ECEmailAddressConvertibleP
++ _symbolic ______pSg 10Foundation15ContiguousBytesP
++ _symbolic _____ySS_____G 19CollectionsInternal17OrderedDictionaryV 22ProactiveSummarization15SpotlightWriterC23InMemoryMailResultCacheC0L0V
++ _symbolic _____ySdG s23_ContiguousArrayStorageC
++ _symbolic _____y_SSG 4Sage19SummarizationClientC20TextAssistantSummaryV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22ProactiveSummarization0E9AnalyticsC8StepKindO24InitializationCodingKeys33_D79230A5D231979DEC02012E11A9965ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22ProactiveSummarization0E9AnalyticsC8StepKindO40PriorityFeedbackClassificationCodingKeys33_D79230A5D231979DEC02012E11A9965ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22ProactiveSummarization10EntityKindO25AudioTranscriptCodingKeys33_646E0A0DECFAF2D96434E5D619800EE5LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22ProactiveSummarization12FilterResultO6ReasonO03PreF30_audioTranscript_oldCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22ProactiveSummarization12FilterResultO6ReasonO07UrgencyF39_audioTranscript_notSupportedCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22ProactiveSummarization12FilterResultO6ReasonO07UrgencyF70_message_priorityDisabledAndNotInIntelligentBreakthroughModeCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22ProactiveSummarization12FilterResultO6ReasonO0eF35_audioTranscript_tooShortCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22ProactiveSummarization12FilterResultO6ReasonO0eF39_notification_missingBundleIdCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22ProactiveSummarization12FilterResultO6ReasonO0eF42_notification_ineligibleBundleIdCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22ProactiveSummarization12FilterResultO6ReasonO0eF43_audioTranscript_pipelineDisabledCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22ProactiveSummarization12FilterResultO6ReasonO0eF44_notificationStack_missingBundleIdCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22ProactiveSummarization12FilterResultO6ReasonO0eF47_notificationStack_ineligibleBundleIdCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22ProactiveSummarization12FilterResultO6ReasonO0eF48_notification_ineligibleItunesCategoryCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22ProactiveSummarization12FilterResultO6ReasonO0eF53_notificationStack_ineligibleItunesCategoryCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22ProactiveSummarization8ValidityO6ReasonO22Message_readCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22ProactiveSummarization8ValidityO6ReasonO37AudioTranscript_missingDateCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22ProactiveSummarization8ValidityO6ReasonO44AudioTranscript_missingTextContentCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22ProactiveSummarization8ValidityO6ReasonO55AudioTranscript_alreadySummarizedOrIneligibleCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22ProactiveSummarization0E9AnalyticsC8StepKindO24InitializationCodingKeys33_D79230A5D231979DEC02012E11A9965ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22ProactiveSummarization0E9AnalyticsC8StepKindO40PriorityFeedbackClassificationCodingKeys33_D79230A5D231979DEC02012E11A9965ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22ProactiveSummarization10EntityKindO25AudioTranscriptCodingKeys33_646E0A0DECFAF2D96434E5D619800EE5LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22ProactiveSummarization12FilterResultO6ReasonO03PreF30_audioTranscript_oldCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22ProactiveSummarization12FilterResultO6ReasonO07UrgencyF39_audioTranscript_notSupportedCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22ProactiveSummarization12FilterResultO6ReasonO07UrgencyF70_message_priorityDisabledAndNotInIntelligentBreakthroughModeCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22ProactiveSummarization12FilterResultO6ReasonO0eF35_audioTranscript_tooShortCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22ProactiveSummarization12FilterResultO6ReasonO0eF39_notification_missingBundleIdCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22ProactiveSummarization12FilterResultO6ReasonO0eF42_notification_ineligibleBundleIdCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22ProactiveSummarization12FilterResultO6ReasonO0eF43_audioTranscript_pipelineDisabledCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22ProactiveSummarization12FilterResultO6ReasonO0eF44_notificationStack_missingBundleIdCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22ProactiveSummarization12FilterResultO6ReasonO0eF47_notificationStack_ineligibleBundleIdCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22ProactiveSummarization12FilterResultO6ReasonO0eF48_notification_ineligibleItunesCategoryCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22ProactiveSummarization12FilterResultO6ReasonO0eF53_notificationStack_ineligibleItunesCategoryCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22ProactiveSummarization8ValidityO6ReasonO22Message_readCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22ProactiveSummarization8ValidityO6ReasonO37AudioTranscript_missingDateCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22ProactiveSummarization8ValidityO6ReasonO44AudioTranscript_missingTextContentCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22ProactiveSummarization8ValidityO6ReasonO55AudioTranscript_alreadySummarizedOrIneligibleCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22ProactiveSummarization16SummarizerResultV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22ProactiveSummarization21UrgencyFeedbackSampleV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22ProactiveSummarization24ModelInputContentBuilderC20SearchableItemResultO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22ProactiveSummarization27UrgencyFeedbackHistoryEntryV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22ProactiveSummarization35UrgencyFeedbackDistanceLabelPairingV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 28ProactiveSummarizationClient10MailEntityV0G13ThreadMessageV
++ _vDSP_distancesqD
++ _vDSP_dotprD
++ _vDSP_svesqD
++ block_copy_helper.103
++ block_copy_helper.114
++ block_copy_helper.12
++ block_copy_helper.124
++ block_copy_helper.135
++ block_copy_helper.145
++ block_copy_helper.155
++ block_copy_helper.166
++ block_copy_helper.176
++ block_copy_helper.18
++ block_copy_helper.186
++ block_copy_helper.197
++ block_copy_helper.2
++ block_copy_helper.207
++ block_copy_helper.21
++ block_copy_helper.217
++ block_copy_helper.228
++ block_copy_helper.238
++ block_copy_helper.248
++ block_copy_helper.259
++ block_copy_helper.269
++ block_copy_helper.279
++ block_copy_helper.290
++ block_copy_helper.293
++ block_copy_helper.30
++ block_copy_helper.304
++ block_copy_helper.346
++ block_copy_helper.357
++ block_copy_helper.367
++ block_copy_helper.377
++ block_copy_helper.388
++ block_copy_helper.398
++ block_copy_helper.40
++ block_copy_helper.408
++ block_copy_helper.419
++ block_copy_helper.422
++ block_copy_helper.433
++ block_copy_helper.443
++ block_copy_helper.464
++ block_copy_helper.5
++ block_copy_helper.507
++ block_copy_helper.51
++ block_copy_helper.510
++ block_copy_helper.521
++ block_copy_helper.531
++ block_copy_helper.541
++ block_copy_helper.552
++ block_copy_helper.562
++ block_copy_helper.573
++ block_copy_helper.583
++ block_copy_helper.59
++ block_copy_helper.593
++ block_copy_helper.60
++ block_copy_helper.604
++ block_copy_helper.61
++ block_copy_helper.614
++ block_copy_helper.625
++ block_copy_helper.635
++ block_copy_helper.646
++ block_copy_helper.657
++ block_copy_helper.66
++ block_copy_helper.668
++ block_copy_helper.678
++ block_copy_helper.688
++ block_copy_helper.699
++ block_copy_helper.709
++ block_copy_helper.72
++ block_copy_helper.720
++ block_copy_helper.730
++ block_copy_helper.741
++ block_copy_helper.744
++ block_copy_helper.755
++ block_copy_helper.765
++ block_copy_helper.775
++ block_copy_helper.78
++ block_copy_helper.786
++ block_copy_helper.796
++ block_copy_helper.807
++ block_copy_helper.817
++ block_copy_helper.828
++ block_copy_helper.83
++ block_copy_helper.839
++ block_copy_helper.84
++ block_copy_helper.850
++ block_copy_helper.892
++ block_copy_helper.93
++ block_copy_helper.94
++ block_copy_helper.97
++ block_descriptor.105
++ block_descriptor.116
++ block_descriptor.126
++ block_descriptor.137
++ block_descriptor.14
++ block_descriptor.147
++ block_descriptor.157
++ block_descriptor.168
++ block_descriptor.178
++ block_descriptor.188
++ block_descriptor.199
++ block_descriptor.20
++ block_descriptor.209
++ block_descriptor.219
++ block_descriptor.23
++ block_descriptor.230
++ block_descriptor.240
++ block_descriptor.250
++ block_descriptor.261
++ block_descriptor.271
++ block_descriptor.281
++ block_descriptor.292
++ block_descriptor.295
++ block_descriptor.306
++ block_descriptor.32
++ block_descriptor.348
++ block_descriptor.359
++ block_descriptor.369
++ block_descriptor.379
++ block_descriptor.390
++ block_descriptor.4
++ block_descriptor.400
++ block_descriptor.410
++ block_descriptor.421
++ block_descriptor.424
++ block_descriptor.435
++ block_descriptor.445
++ block_descriptor.466
++ block_descriptor.509
++ block_descriptor.512
++ block_descriptor.523
++ block_descriptor.533
++ block_descriptor.543
++ block_descriptor.554
++ block_descriptor.564
++ block_descriptor.575
++ block_descriptor.585
++ block_descriptor.595
++ block_descriptor.606
++ block_descriptor.61
++ block_descriptor.616
++ block_descriptor.62
++ block_descriptor.627
++ block_descriptor.63
++ block_descriptor.637
++ block_descriptor.648
++ block_descriptor.659
++ block_descriptor.670
++ block_descriptor.68
++ block_descriptor.680
++ block_descriptor.690
++ block_descriptor.7
++ block_descriptor.701
++ block_descriptor.711
++ block_descriptor.722
++ block_descriptor.732
++ block_descriptor.74
++ block_descriptor.743
++ block_descriptor.746
++ block_descriptor.757
++ block_descriptor.767
++ block_descriptor.777
++ block_descriptor.788
++ block_descriptor.798
++ block_descriptor.80
++ block_descriptor.809
++ block_descriptor.819
++ block_descriptor.830
++ block_descriptor.841
++ block_descriptor.85
++ block_descriptor.852
++ block_descriptor.86
++ block_descriptor.894
++ block_descriptor.95
++ block_descriptor.96
++ block_descriptor.99
++ block_destroy_helper.104
++ block_destroy_helper.115
++ block_destroy_helper.125
++ block_destroy_helper.13
++ block_destroy_helper.136
++ block_destroy_helper.146
++ block_destroy_helper.156
++ block_destroy_helper.167
++ block_destroy_helper.177
++ block_destroy_helper.187
++ block_destroy_helper.19
++ block_destroy_helper.198
++ block_destroy_helper.208
++ block_destroy_helper.218
++ block_destroy_helper.22
++ block_destroy_helper.229
++ block_destroy_helper.239
++ block_destroy_helper.249
++ block_destroy_helper.260
++ block_destroy_helper.270
++ block_destroy_helper.280
++ block_destroy_helper.291
++ block_destroy_helper.294
++ block_destroy_helper.3
++ block_destroy_helper.305
++ block_destroy_helper.31
++ block_destroy_helper.347
++ block_destroy_helper.358
++ block_destroy_helper.368
++ block_destroy_helper.378
++ block_destroy_helper.389
++ block_destroy_helper.399
++ block_destroy_helper.409
++ block_destroy_helper.41
++ block_destroy_helper.420
++ block_destroy_helper.423
++ block_destroy_helper.434
++ block_destroy_helper.444
++ block_destroy_helper.465
++ block_destroy_helper.508
++ block_destroy_helper.511
++ block_destroy_helper.52
++ block_destroy_helper.522
++ block_destroy_helper.532
++ block_destroy_helper.542
++ block_destroy_helper.553
++ block_destroy_helper.563
++ block_destroy_helper.574
++ block_destroy_helper.584
++ block_destroy_helper.594
++ block_destroy_helper.6
++ block_destroy_helper.60
++ block_destroy_helper.605
++ block_destroy_helper.61
++ block_destroy_helper.615
++ block_destroy_helper.62
++ block_destroy_helper.626
++ block_destroy_helper.636
++ block_destroy_helper.647
++ block_destroy_helper.658
++ block_destroy_helper.669
++ block_destroy_helper.67
++ block_destroy_helper.679
++ block_destroy_helper.689
++ block_destroy_helper.700
++ block_destroy_helper.710
++ block_destroy_helper.721
++ block_destroy_helper.73
++ block_destroy_helper.731
++ block_destroy_helper.742
++ block_destroy_helper.745
++ block_destroy_helper.756
++ block_destroy_helper.766
++ block_destroy_helper.776
++ block_destroy_helper.787
++ block_destroy_helper.79
++ block_destroy_helper.797
++ block_destroy_helper.808
++ block_destroy_helper.818
++ block_destroy_helper.829
++ block_destroy_helper.84
++ block_destroy_helper.840
++ block_destroy_helper.85
++ block_destroy_helper.851
++ block_destroy_helper.893
++ block_destroy_helper.94
++ block_destroy_helper.95
++ block_destroy_helper.98
++ objectdestroy.124Tm
++ objectdestroy.25Tm
++ objectdestroy.525Tm
++ objectdestroy.629Tm
++ objectdestroy.70Tm
+- +[PSUSummarizationPipeline sharedPipelineWithContactStore:incomingBundleId:]
+- -[PSUSummarizationPipeline .cxx_destruct]
+- -[PSUSummarizationPipeline handleDeletionOfItemsWithIdentifiers:bundleIdentifier:]
+- -[PSUSummarizationPipeline initWithContactStore:]
+- -[PSUSummarizationPipeline processSearchableItem:]
+- -[PSUVIPManager emailVIPAddresses]
+- OBJC_IVAR_$_PSUSummarizationPipeline._pipeline
+- _CFCharacterSetGetPredefined
+- _OBJC_CLASS_$_GDKnosisAnswer
+- _OBJC_CLASS_$_GDKnosisRequest
+- _OBJC_CLASS_$__PASLazyPurgeableResult
+- _OBJC_CLASS_$__PSUAvailabilityManager
+- _OBJC_CLASS_$__PSUSummarizationPipeline
+- _OBJC_METACLASS_$__PSUAvailabilityManager
+- _OBJC_METACLASS_$__PSUSummarizationPipeline
+- _PROTOCOLS__TtC22ProactiveSummarization29SummarizationPipelineDatabase.525
+- __144-[PSUIntentMessageHistorySearcher recentMessagesSinceDate:conversationIdentifier:appBundleId:incomingMessageID:limit:options:completionHandler:]_block_invoke.4
+- __144-[PSUIntentMessageHistorySearcher recentMessagesSinceDate:conversationIdentifier:appBundleId:incomingMessageID:limit:options:completionHandler:]_block_invoke.5
+- __144-[PSUIntentMessageHistorySearcher recentMessagesSinceDate:conversationIdentifier:appBundleId:incomingMessageID:limit:options:completionHandler:]_block_invoke.6
+- __94-[PSUCurrentActivityManager fetchUserActivityContentIdentifiersForBundleId:completionHandler:]_block_invoke.10
+- __94-[PSUCurrentActivityManager fetchUserActivityContentIdentifiersForBundleId:completionHandler:]_block_invoke.7
+- __CLASS_METHODS__PSUAvailabilityManager
+- __DATA__PSUAvailabilityManager
+- __DATA__PSUSummarizationPipeline
+- __INSTANCE_METHODS__PSUAvailabilityManager
+- __INSTANCE_METHODS__PSUSummarizationPipeline
+- __IVARS__PSUSummarizationPipeline
+- __METACLASS_DATA__PSUAvailabilityManager
+- __METACLASS_DATA__PSUSummarizationPipeline
+- __OBJC_$_CLASS_METHODS_PSUSummarizationPipeline
+- __OBJC_$_INSTANCE_METHODS_PSUSummarizationPipeline
+- __OBJC_$_INSTANCE_VARIABLES_PSUSummarizationPipeline
+- __OBJC_$_PROP_LIST_PSUVIPManager
+- __OBJC_$_PROTOCOL_REFS_OS_os_transaction
+- __OBJC_CLASS_RO_$_PSUSummarizationPipeline
+- __OBJC_LABEL_PROTOCOL_$_OS_os_transaction
+- __OBJC_METACLASS_RO_$_PSUSummarizationPipeline
+- __OBJC_PROTOCOL_$_OS_os_transaction
+- __PASKeepOnlyCharacterSet
+- ___76+[PSUSummarizationPipeline sharedPipelineWithContactStore:incomingBundleId:]_block_invoke
+- ___block_descriptor_40_e8_32s_e5_v8?0l
+- ___swift_memcpy32_4
+- __block_literal_global.41
+- __block_literal_global.53
+- __block_literal_global.74
+- __swift_FORCE_LOAD_$_swiftFileProvider
+- __swift_FORCE_LOAD_$_swiftFileProvider_$_ProactiveSummarization
+- __swift_FORCE_LOAD_$_swiftWebKit
+- __swift_FORCE_LOAD_$_swiftWebKit_$_ProactiveSummarization
+- _flat unique So17OS_os_transaction_p
+- _objc_msgSend$areGenerativeModelsAvailableFor:
+- _objc_msgSend$handleDeletionOfItemsWithIdentifiers:bundleIdentifier:
+- _objc_msgSend$initWithContactStore:
+- _objc_msgSend$processItem:
+- _swift_lookUpClassMethod
+- _swift_unknownObjectWeakDestroy
+- _swift_unknownObjectWeakInit
+- _swift_unknownObjectWeakLoadStrong
+- _symbolic SS3key_yp5valuetSg
+- _symbolic SSIego_
+- _symbolic SaySo8NSObjectCGSg
+- _symbolic Say_____y______GG 28ProactiveSummarizationClient17ModelContentInputV12EntityStatusO AA04MailG0V
+- _symbolic Si5index______y______G6resultt 28ProactiveSummarizationClient17ModelContentInputV12EntityStatusO AA04MailG0V
+- _symbolic Si5index______y______G6resulttIeAgHr_ 28ProactiveSummarizationClient17ModelContentInputV12EntityStatusO AA04MailG0V
+- _symbolic Si5index______y______G6resulttSg 28ProactiveSummarizationClient17ModelContentInputV12EntityStatusO AA04MailG0V
+- _symbolic Si6offset______y______G7elementt 28ProactiveSummarizationClient17ModelContentInputV12EntityStatusO AA04MailG0V
+- _symbolic Si6offset______y______G7elementtSg 28ProactiveSummarizationClient17ModelContentInputV12EntityStatusO AA04MailG0V
+- _symbolic Si6offset_yp7elementtSg
+- _symbolic So23_PASLazyPurgeableResultCySo5NSSetCG
+- _symbolic _____ 10Foundation4UUIDV
+- _symbolic _____ 22ProactiveSummarization19AvailabilityManagerC
+- _symbolic _____ 22ProactiveSummarization24ModelInputContentBuilderV
+- _symbolic _____ 22ProactiveSummarization24ModelInputContentBuilderV20SearchableItemResultO
+- _symbolic _____ So13audit_token_ta
+- _symbolic _____ s5UInt8V
+- _symbolic _____Sg 10Foundation20PersonNameComponentsV
+- _symbolic _____Sg 22ProactiveSummarization0B9AnalyticsC4KindO
+- _symbolic _____Sg 22ProactiveSummarization24ModelInputContentBuilderV
+- _symbolic _____Sg So13audit_token_ta
+- _symbolic ______A7At s6UInt32V
+- _symbolic ______pSg So17OS_os_transactionP
+- _symbolic _____ySi5index______y______G6resultt_G ScG8IteratorV 28ProactiveSummarizationClient17ModelContentInputV12EntityStatusO AC04MailH0V
+- _symbolic _____y_____G 4Sage18ClassifiableThreadV AA11TextMessageV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 22ProactiveSummarization24ModelInputContentBuilderV20SearchableItemResultO
+- _symbolic _____yySpy_____Gz_SpySo8NSObjectCSgGSgzSpyypGSgztcG s23_ContiguousArrayStorageC s5UInt8V
+- block_copy_helper.110
+- block_copy_helper.120
+- block_copy_helper.131
+- block_copy_helper.142
+- block_copy_helper.153
+- block_copy_helper.156
+- block_copy_helper.167
+- block_copy_helper.17
+- block_copy_helper.177
+- block_copy_helper.187
+- block_copy_helper.198
+- block_copy_helper.208
+- block_copy_helper.219
+- block_copy_helper.229
+- block_copy_helper.239
+- block_copy_helper.250
+- block_copy_helper.26
+- block_copy_helper.260
+- block_copy_helper.271
+- block_copy_helper.281
+- block_copy_helper.292
+- block_copy_helper.303
+- block_copy_helper.314
+- block_copy_helper.324
+- block_copy_helper.334
+- block_copy_helper.345
+- block_copy_helper.355
+- block_copy_helper.36
+- block_copy_helper.366
+- block_copy_helper.376
+- block_copy_helper.387
+- block_copy_helper.390
+- block_copy_helper.401
+- block_copy_helper.411
+- block_copy_helper.421
+- block_copy_helper.432
+- block_copy_helper.442
+- block_copy_helper.463
+- block_copy_helper.47
+- block_copy_helper.506
+- block_copy_helper.517
+- block_copy_helper.538
+- block_copy_helper.57
+- block_copy_helper.63
+- block_copy_helper.68
+- block_copy_helper.69
+- block_copy_helper.73
+- block_copy_helper.79
+- block_copy_helper.82
+- block_copy_helper.89
+- block_copy_helper.9
+- block_copy_helper.91
+- block_copy_helper.99
+- block_descriptor.1
+- block_descriptor.101
+- block_descriptor.11
+- block_descriptor.112
+- block_descriptor.122
+- block_descriptor.13
+- block_descriptor.133
+- block_descriptor.144
+- block_descriptor.15
+- block_descriptor.155
+- block_descriptor.158
+- block_descriptor.169
+- block_descriptor.179
+- block_descriptor.189
+- block_descriptor.19
+- block_descriptor.2
+- block_descriptor.200
+- block_descriptor.210
+- block_descriptor.221
+- block_descriptor.231
+- block_descriptor.241
+- block_descriptor.25
+- block_descriptor.252
+- block_descriptor.262
+- block_descriptor.273
+- block_descriptor.28
+- block_descriptor.283
+- block_descriptor.29
+- block_descriptor.294
+- block_descriptor.30
+- block_descriptor.305
+- block_descriptor.316
+- block_descriptor.326
+- block_descriptor.336
+- block_descriptor.347
+- block_descriptor.357
+- block_descriptor.36
+- block_descriptor.368
+- block_descriptor.378
+- block_descriptor.38
+- block_descriptor.389
+- block_descriptor.39
+- block_descriptor.392
+- block_descriptor.403
+- block_descriptor.41
+- block_descriptor.413
+- block_descriptor.423
+- block_descriptor.434
+- block_descriptor.444
+- block_descriptor.465
+- block_descriptor.49
+- block_descriptor.508
+- block_descriptor.519
+- block_descriptor.540
+- block_descriptor.59
+- block_descriptor.65
+- block_descriptor.70
+- block_descriptor.71
+- block_descriptor.75
+- block_descriptor.81
+- block_descriptor.84
+- block_descriptor.91
+- block_descriptor.92
+- block_descriptor.93
+- block_destroy_helper.10
+- block_destroy_helper.100
+- block_destroy_helper.111
+- block_destroy_helper.121
+- block_destroy_helper.132
+- block_destroy_helper.143
+- block_destroy_helper.154
+- block_destroy_helper.157
+- block_destroy_helper.168
+- block_destroy_helper.178
+- block_destroy_helper.18
+- block_destroy_helper.188
+- block_destroy_helper.199
+- block_destroy_helper.209
+- block_destroy_helper.220
+- block_destroy_helper.230
+- block_destroy_helper.240
+- block_destroy_helper.251
+- block_destroy_helper.261
+- block_destroy_helper.27
+- block_destroy_helper.272
+- block_destroy_helper.282
+- block_destroy_helper.293
+- block_destroy_helper.304
+- block_destroy_helper.315
+- block_destroy_helper.325
+- block_destroy_helper.335
+- block_destroy_helper.346
+- block_destroy_helper.356
+- block_destroy_helper.367
+- block_destroy_helper.37
+- block_destroy_helper.377
+- block_destroy_helper.388
+- block_destroy_helper.391
+- block_destroy_helper.402
+- block_destroy_helper.412
+- block_destroy_helper.422
+- block_destroy_helper.433
+- block_destroy_helper.443
+- block_destroy_helper.464
+- block_destroy_helper.48
+- block_destroy_helper.507
+- block_destroy_helper.518
+- block_destroy_helper.539
+- block_destroy_helper.58
+- block_destroy_helper.64
+- block_destroy_helper.69
+- block_destroy_helper.70
+- block_destroy_helper.74
+- block_destroy_helper.80
+- block_destroy_helper.83
+- block_destroy_helper.90
+- block_destroy_helper.92
+- objectdestroy.171Tm
+- objectdestroy.21Tm
+- objectdestroy.275Tm
+- objectdestroy.51Tm
+- objectdestroy.6Tm
+- objectdestroy.85Tm
+- objectdestroy.89Tm
+- sharedPipelineWithContactStore:incomingBundleId:._pasExprOnceResult
+- sharedPipelineWithContactStore:incomingBundleId:._pasOnceToken2
+CStrings:
++ "$__lazy_storage_$_mailDaemon"
++ "%s Using topic summary style"
++ "%{public}s Analytics: Finished logging"
++ "%{public}s Analytics: Not logging because `total` step didn't run."
++ "%{public}s Analytics: Programming error: Already logged to Core Analytics and/or PowerLog. Not logging again."
++ "%{public}s Analytics: Programming error: Attempting to compute `everythingElseDuration` while a step is still pending: %{public}s"
++ "%{public}s Analytics: Programming error: Attempting to log to core analytics while a step is still pending: %{public}s"
++ "%{public}s Analytics: Programming error: Not logging because `total` started but hasn't finished yet."
++ "%{public}s Analytics: Programming error: Step was already completed. Cannot start again. stepKind: %{public}s requestIdentifier: %s"
++ "%{public}s Analytics: Programming error: Step was already started. Cannot start again. stepKind: %{public}s requestIdentifier: %s"
++ "%{public}s Analytics: Programming error: Tried to end a step that has already been ended. %{public}s requestIdentifier: %s"
++ "%{public}s Analytics: Programming error: Tried to end a step that hasn't start yet. %{public}s requestIdentifier: %s"
++ "%{public}s Analytics: Programming error: `exitReason` nil"
++ "%{public}s App exceeded urgent notifications frequency threshold within lookback period"
++ "%{public}s AppIntentMailFetcher: Error while fetching messages, error: %@"
++ "%{public}s AppIntentMailFetcher: Fetching mail thread from %s"
++ "%{public}s AppIntentMailFetcher: Finished fetching entities"
++ "%{public}s AppIntentMailFetcher: Got identifiers from spotlight, count: %ld"
++ "%{public}s AppIntentMailFetcher: Skipping entity, failed cast"
++ "%{public}s AppIntentMailFetcher: Skipping entity, missing body"
++ "%{public}s AppIntentMailFetcher: Skipping entity, missing date"
++ "%{public}s AppIntentMailFetcher: Skipping entity, missing isRead"
++ "%{public}s AppIntentMailFetcher: Skipping entity, missing sender"
++ "%{public}s AppIntentMailFetcher: Skipping handle, failed cast"
++ "%{public}s AppIntentMailFetcher: Skipping handle, failed to init"
++ "%{public}s AppIntentMailFetcher: Skipping handle, missing inPerson"
++ "%{public}s AppIntentMailFetcher: Skipping property '%s' failed cast"
++ "%{public}s AppIntentMailFetcher: Start fetching entities"
++ "%{public}s AppIntentMailFetcher: Unable to fetch mail thread, failed to fetch spotlight identifiers, error: %@"
++ "%{public}s AppIntentMailFetcher: Unable to fetch mail thread, missing bundleId"
++ "%{public}s AppIntentMailFetcher: Unable to fetch mail thread, missing conversation id"
++ "%{public}s AppIntentMailFetcher: Unable to fetch mail thread, missing entity metadata"
++ "%{public}s AppIntentMailFetcher: Unable to fetch mail thread, missing values from query response"
++ "%{public}s AppIntentMailFetcher: received count entities: %ld"
++ "%{public}s AppIntentMailFetcher: returning count mail thread messages: %ld"
++ "%{public}s Bypassed Urgency Model for QA with urgency: %{bool}d"
++ "%{public}s Bypassing the observation period for urgent notifications"
++ "%{public}s Can't enter pipeline"
++ "%{public}s Cancelling existing %s summarization task with key: %s"
++ "%{public}s Cannot handle mail with missing domain id"
++ "%{public}s Cannot handle mail, body kind: %s cannot be processed"
++ "%{public}s Cannot handle mail, failed fetching body: %s"
++ "%{public}s Cannot open 3rd party Spotlight index"
++ "%{public}s Captioning timed out"
++ "%{public}s Could not access last notification database table: %@"
++ "%{public}s Could not create EntityKind"
++ "%{public}s Could not schedule background retry task with DAS: %@"
++ "%{public}s Encountered %ld attachments in user-initiated summary path for message: %s"
++ "%{public}s Error accessing urgent notification database: %@"
++ "%{public}s Error running KNN for urgency classification: %@"
++ "%{public}s Failed to fetch body, error: %@"
++ "%{public}s Fetched %ld messages for conversation with id: %{sensitive}s"
++ "%{public}s Fetched %ld notifications for stack"
++ "%{public}s Fetching mail thread"
++ "%{public}s Finished processing (%s)"
++ "%{public}s First attempt at HTML parsing failed, falling back to old parsing approach"
++ "%{public}s Found %{public}ld samples in urgency feedback"
++ "%{public}s Ignoring identical request for %s with key: %s"
++ "%{public}s In the observation period for urgent notifications"
++ "%{public}s Ineligible (%s"
++ "%{public}s Ineligible for summarization (%{public}s)"
++ "%{public}s Ineligible for urgency (%s)"
++ "%{public}s Invalid (%s)"
++ "%{public}s Mail has categories: %{public}s; id: %{public}s"
++ "%{public}s Mail message count after filtering: %ld"
++ "%{public}s Mail summarization failed: %@; id: %{public}s"
++ "%{public}s Mail urgency: %{bool}d; with score: %f"
++ "%{public}s Mail was summarized; id: %{public}s"
++ "%{public}s Message urgency: %{bool}d; with score: %f"
++ "%{public}s No mail messages to summarize"
++ "%{public}s Not fetching context for notification"
++ "%{public}s Not scheduling a retry background task because one already exists"
++ "%{public}s Notification urgency: %{bool}d; with score: %f"
++ "%{public}s Overriding urgency model threshold for QA with: %f"
++ "%{public}s Overriding urgency score with exact match on notification body feedback"
++ "%{public}s Overriding urgency score with exact match on notification title feedback"
++ "%{public}s Overriding urgency score with notification body feedback"
++ "%{public}s Overriding urgency score with notification title feedback"
++ "%{public}s Pipeline started"
++ "%{public}s Pipeline unavailable (%{public}s"
++ "%{public}s PowerBudget: Eligible through global and app policies because device is on power so policies are disabled. bundleId: %{public}s"
++ "%{public}s PowerBudget: Failed policy: PowerTracker"
++ "%{public}s PowerBudget: Failed policy: state: %{public}s"
++ "%{public}s PowerBudget: Passed policy: state: %{public}s"
++ "%{public}s PowerBudget: Policies are disabled. Returning eligible. bundleId: %{public}s"
++ "%{public}s Prewarming urgency classifier"
++ "%{public}s Processing"
++ "%{public}s Processing audio transcript"
++ "%{public}s Processing mail"
++ "%{public}s Processing notification stack"
++ "%{public}s Processing notification; communication: %{bool}d"
++ "%{public}s Processing urgency"
++ "%{public}s Promoted VIP mail to priority"
++ "%{public}s Returning a fake summary for QA testing; delay: %fs"
++ "%{public}s Returning mail messages, count: %ld"
++ "%{public}s Skipping message with unique id: %@. Failed to fetch HTML, this may lead to incorrect summaries due to key content missing, error: %@"
++ "%{public}s Skipping message with unique id: %@. Failed to get sender handle, this may lead to incorrect summaries due to key content missing."
++ "%{public}s Skipping message with unique id: %@. Missing unique id, this may lead to incorrect summaries due to key content missing."
++ "%{public}s Skipping recipient, failed to create handle, message id: %@"
++ "%{public}s Successfully fetched emails, count: %ld"
++ "%{public}s Summarization failed: %@"
++ "%{public}s SummarizationKit was not passed required data: %s"
++ "%{public}s SummarizationManager task timed out"
++ "%{public}s Summarized"
++ "%{public}s Summarizing"
++ "%{public}s Truncating notification body content to %ld characters"
++ "%{public}s Unable to create MailEntity, empty"
++ "%{public}s Unable to create MailEntity, missing content snippet"
++ "%{public}s Unable to create MailEntity, missing sender handle"
++ "%{public}s Unable to create MailEntity, no account identifier"
++ "%{public}s Unable to create MailEntity, no date"
++ "%{public}s Unable to create MailEntity, no unique identifier"
++ "%{public}s Unable to create MailEntity, plain text body missing and HTML body either missing or failed to parse"
++ "%{public}s Unable to create MailEntity, plain text body or HTML body not provided"
++ "%{public}s Unable to fetch mail thread messages, conversation id is not int"
++ "%{public}s Unable to fetch mail thread messages, error: %@"
++ "%{public}s Unable to fetch mail thread messages, missing conversation id"
++ "%{public}s Unable to fetch mail thread messages, parent email unexpectedly not in conversation: %lld"
++ "%{public}s Unable to save a retry request to the database: %@; won't retry"
++ "%{public}s Unable to transfer summarization attributes from mail to notification; error: %{public}@"
++ "%{public}s Unable to transfer summarization attributes from message to notification stack; error: %{public}@"
++ "%{public}s Unable to transfer summarization attributes from message to notification; error: %{public}@"
++ "%{public}s Unhandled summarization error: %ld"
++ "%{public}s Updated mail urgency after personalization: %{bool}d; with score: %f"
++ "%{public}s Updated message urgency after personalization: %{bool}d; with score: %f"
++ "%{public}s Updated notification urgency after personalization: %{bool}d; with score: %f"
++ "%{public}s Urgency determination failed with error: %@; for: %s"
++ "%{public}s Urgent notification count %ld exceeds frequency threshold allowed"
++ "%{public}s VIP mail eligible for priority; Mail id: %{public}s"
++ "%{public}sCould not store entity to disk: %@"
++ "%{public}sEnqueued: %s"
++ "%{public}sFinished processing: %s; request type: %s"
++ "%{public}sIn-memory queue is full; writing to on-disk queue: %s"
++ "%{public}sReached the upper bound of %f seconds for a task in the queue for: %s"
++ "%{public}sStarted processing: %s; request type: %s"
++ ":body"
++ ":computationType"
++ ":label"
++ ":sender"
++ ":textContent"
++ ":timestamp"
++ ":title"
++ "@\"ECEmailAddress\"16@0:8"
++ "A recent message with id %s has no content"
++ "ALTER TABLE urgencyFeedback ADD COLUMN textContent TEXT"
++ "ALTER TABLE urgencyFeedback ADD COLUMN title BLOB NOT NULL"
++ "Audio transcript summarization was not enabled"
++ "Audio transcript with id: "
++ "Audio transcripts are not supported when it comes to urgency"
++ "AudioTranscript.Everything"
++ "AudioTranscript.Initialization"
++ "AudioTranscript.PowerBudget"
++ "AudioTranscript.PreWarming"
++ "AudioTranscript.SearchableItemToEntityConversion"
++ "AudioTranscript.SpotlightFiltering"
++ "AudioTranscript.SpotlightIndexing"
++ "AudioTranscript.SummarizationFiltering"
++ "AudioTranscript.SummaryGeneration"
++ "AudioTranscript.Total"
++ "AudioTranscript.WaitingInQueue"
++ "AudioTranscript.Writeback"
++ "Awaiting smart replies task"
++ "CREATE INDEX IF NOT EXISTS notificationContent_bundleId ON notificationContent(bundleId)"
++ "CREATE INDEX IF NOT EXISTS powerBudget_kind_bundleId_computationType ON powerBudget(kind, bundleId, computationType)"
++ "CREATE INDEX IF NOT EXISTS urgencyFeedback_bundleId ON urgencyFeedback(bundleId)"
++ "CREATE INDEX IF NOT EXISTS urgencyFeedback_sender ON urgencyFeedback(sender)"
++ "CREATE TABLE IF NOT EXISTS notificationContent (pk INTEGER PRIMARY KEY AUTOINCREMENT, timestamp REAL NOT NULL, bundleId INTEGER NOT NULL, title INTEGER NOT NULL)"
++ "CREATE TABLE IF NOT EXISTS powerBudget (pk INTEGER PRIMARY KEY AUTOINCREMENT, kind INTEGER NOT NULL, bundleId TEXT NOT NULL, computationType INTEGER NOT NULL, tokenCount REAL NOT NULL, timestampLastReplenished REAL NOT NULL, UNIQUE(kind, bundleId, computationType) ON CONFLICT REPLACE)"
++ "CREATE TABLE IF NOT EXISTS urgencyFeedback (pk INTEGER PRIMARY KEY AUTOINCREMENT, bundleId TEXT NOT NULL, sender TEXT, content BLOB NOT NULL, label INTEGER NOT NULL, timestamp REAL NOT NULL, UNIQUE(bundleId, content) ON CONFLICT REPLACE)"
++ "Cannot handle audio transcript with missing domain id"
++ "Cannot open 3rd party Spotlight index"
++ "ClassCData"
++ "Could not insert notification title: %@"
++ "Could not insert urgency feedback: %@"
++ "Could not load summarization bundleIds deny list plist: %@; proceeding with empty set"
++ "Could not load summarization categories plist: %@; proceeding with empty set"
++ "Could not load topic summary bundleIds plist: %@; proceeding with empty set"
++ "Could not load topic summary categories plist: %@; proceeding with empty set"
++ "Could not retrieve notification title rate from disk: %@"
++ "Could not retrieve urgency feedback history: %@"
++ "Could not retrieve urgency neighbors: %@"
++ "Could not retrieve urgent notifications history: %@"
++ "DELETE FROM notificationContent ORDER BY timestamp DESC LIMIT -1 OFFSET :offset"
++ "DELETE FROM urgencyFeedback ORDER BY timestamp DESC LIMIT -1 OFFSET :offset"
++ "DROP TABLE IF EXISTS powerBudget"
++ "ECEmailAddressConvertible"
++ "Error getting Mail VIPs: %{public}@"
++ "Failed conversion CSSearchableItem to MailEntity; uniqueId: "
++ "Failed conversion CSSearchableItem to MailEntity; uniqueId: %s"
++ "Failed to look up entity in Spotlight for request "
++ "Failed to look up entity in Spotlight for request %{public}s"
++ "FetchMailThreadMessagesFromSource"
++ "Fetching Mail VIPs"
++ "INSERT INTO notificationContent (bundleId, title, timestamp) VALUES (:bundleId, :title, :timestamp)"
++ "INSERT INTO powerBudget (kind, bundleId, computationType, tokenCount, timestampLastReplenished) VALUES (:kind, :bundleId, :computationType, :tokenCount, :timestampLastReplenished)"
++ "INSERT INTO urgencyFeedback (bundleId, sender, title, content, label, timestamp, textContent) VALUES (:bundleId, :sender, :title, :body, :label, :timestamp, :textContent)"
++ "Initializing pipeline"
++ "Mail"
++ "Mail should always have summarizedIdentifiers"
++ "Mail.PriorityFeedbackClassification"
++ "MailMessageEntity"
++ "Message.PriorityFeedbackClassification"
++ "Messages priority disabled and not in intelligent breakthrough focus mode"
++ "Messages priority was disabled and user was not in an intelligent breakthrough focus mode"
++ "Missing body; body.kind: %s; uniqueId: %s"
++ "Missing content snippet in Spotlight; id: %s"
++ "Missing other emails in thread, expected at least: %ld; uniqueId: %s"
++ "ModelInputContentBuilder: Handling request: %s"
++ "No date while creating audio transcript entity"
++ "No unique identifier while creating audio transcript entity"
++ "Not processing, notes item does not have voice audio content type or needs summary flag set"
++ "Not processing, summary/urgency searchable item flags not set for 3rd party bundle: %s"
++ "Not processing, unsupported content type: %s"
++ "Not processing, unsupported notification domain: %s"
++ "Notification stack has no app bundleId"
++ "Notification stack's bundleId is not allowed: "
++ "Notification stack's iTunes category is not allowed: "
++ "Notification title rate: %ld/%ld"
++ "Notification.Initialization"
++ "Notification.PriorityFeedbackClassification"
++ "NotificationStack.Initialization"
++ "NotificationStack.PriorityFeedbackClassification"
++ "Pipeline unavailable (%{public}s"
++ "PriorityFeedback"
++ "ProactiveSummarization.PSUSummarizationPipeline"
++ "Received Mail VIPs"
++ "SELECT COUNT(*) FROM notificationContent WHERE bundleId = :bundleId"
++ "SELECT COUNT(*) FROM notificationContent WHERE bundleId = :bundleId AND title = :title"
++ "SELECT COUNT(*) FROM powerBudget WHERE computationType = :computationType"
++ "SELECT date FROM urgentNotifications WHERE bundleId = :bundleId ORDER BY date ASC"
++ "SELECT textContent, label, timestamp FROM urgencyFeedback WHERE bundleId = :bundleId AND sender = :sender ORDER BY timestamp ASC"
++ "SELECT textContent, label, timestamp FROM urgencyFeedback WHERE bundleId = :bundleId ORDER BY timestamp ASC"
++ "SELECT title, content, label FROM urgencyFeedback WHERE bundleId = :bundleId"
++ "SELECT title, content, label FROM urgencyFeedback WHERE bundleId = :bundleId AND sender = :sender"
++ "SELECT tokenCount, timestampLastReplenished FROM powerBudget WHERE kind = :kind AND bundleId = :bundleId AND computationType = :computationType"
++ "SpotlightReader: Searching spotlight for identifiers: %s index: %s"
++ "SummarizationBundleIdsDenyList"
++ "SummarizationCategoriesDenyList"
++ "SummarizationFeedbackManager: Platform not supported. Not handling priority feedback request"
++ "SummarizationPipeline."
++ "T@\"ECEmailAddress\",R,N"
++ "The summarization bundleIds deny list plist exists but is missing a DeniedBundleIds key"
++ "The summarization categories plist exists but is missing a DeniedCategories key"
++ "The topic summary bundleIds plist exists but is missing a TopicSummaryBundleIds key"
++ "The topic summary categories plist exists but is missing a TopicSummaryCategories key"
++ "This audio transcript is too old (older than 24 hours)"
++ "This audio transcript is too short in content length ("
++ "This notification has no app bundleId"
++ "This notification stack has no app bundleId"
++ "This notification stack's bundleId is not allowed: "
++ "This notification stack's iTunes category is not allowed: "
++ "This notification's bundleId is not allowed: "
++ "This notification's iTunes category is not allowed: "
++ "TopicSummaryBundleIds"
++ "TopicSummaryCategories"
++ "UNNotificationSettingsCenterObserver"
++ "We don't support re-running audio transcript requests"
++ "[PRG ERR] missing exit reason"
++ "[XPC] [Mail] Missing plain text body for id: %s"
++ "_TtC22ProactiveSummarization20AppIntentMailFetcher"
++ "_TtC22ProactiveSummarization21SummarizationPipeline"
++ "_TtC22ProactiveSummarization24ModelInputContentBuilder"
++ "_TtC22ProactiveSummarization24UserNotificationSettings"
++ "ad"
++ "already handled by mail pipeline"
++ "already handled by messages pipeline"
++ "already processed"
++ "appIntentMailFetcher"
++ "assistantDefinedSchemas"
++ "audio transcript already summarized or ineligible"
++ "audio transcript missing date"
++ "audio transcript missing text content"
++ "audioTranscript"
++ "audioTranscript_alreadySummarizedOrIneligible"
++ "audioTranscript_missingDate"
++ "audioTranscript_missingTextContent"
++ "com.apple.Notes"
++ "connectionWithError:"
++ "contentTypeTree"
++ "deleteItemsWithIdentifiers:bundleId:"
++ "deleted"
++ "draft"
++ "emCachingContactStore"
++ "emailAddressValue"
++ "emailVIPAddressesWithCompletion:"
++ "end of summarization manager"
++ "entitiesForBundleIdentifier:error:"
++ "failed to fetch body"
++ "fetchFullContent(indexSet:)"
++ "flags"
++ "getIntegerForColumnName:table:"
++ "getNSStringForColumnName:table:"
++ "getNotificationTitleRate(bundleId:title:)"
++ "getPowerBudgetState(kind:computationType:)"
++ "getPowerBudgetTableRowCount(computationType:)"
++ "getUrgencyFeedbackHistory(bundleId:sender:)"
++ "getUrgencyNeighbors(bundleId:sender:)"
++ "getUrgentNotificationsHistory(bundleId:)"
++ "guardedSummarizationPipeline"
++ "handleExistsInContactStoreForHandle:withHandleType:"
++ "hash-failed-encode"
++ "hash-failed-salt"
++ "identical request"
++ "incorrect body provided"
++ "indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:protectionClass:forBundleID:options:completionHandler:"
++ "ineligible for summarization ("
++ "initWithDomain:code:userInfo:"
++ "initWithName:protectionClass:bundleIdentifier:"
++ "initWithOptions:"
++ "initWithStore:options:"
++ "initWithTargetClass:predicate:sortDescriptors:queryOptions:label:"
++ "initWithTypeIdentifier:instanceIdentifier:"
++ "initializationDuration"
++ "insertNotificationTitle(bundleId:title:timestamp:)"
++ "insertUrgencyFeedback(bundleId:sender:title:body:label:timestamp:textContent:)"
++ "instanceIdentifier"
++ "isClassCLocked"
++ "label"
++ "mail"
++ "mail already summarized or ineligible"
++ "mail attachment or rich link"
++ "mail missing account identifier"
++ "mail missing any content"
++ "mail missing date"
++ "mail missing sender"
++ "mail notification came in for an email that was not processed"
++ "mail summarization disabled"
++ "mail thread empty"
++ "mailFetcher"
++ "mailSpotlightIds(conversationId:bundleId:)"
++ "mailThreadFetchingKind"
++ "maxMailThreadMessagesToFetch"
++ "message"
++ "message already summarized or ineligible"
++ "message attachment domain"
++ "message missing date"
++ "message missing domain"
++ "message missing id"
++ "message missing sender"
++ "message missing text content"
++ "messages summarization disabled"
++ "model error input too short"
++ "model error use case disabled"
++ "name"
++ "needsPriority"
++ "needsSummary"
++ "notes summarization disabled"
++ "notification"
++ "notification already summarized or ineligible"
++ "notification handled by mail pipeline"
++ "notification handled by messages pipeline"
++ "notification ineligible for summarization"
++ "notification missing date"
++ "notification missing id"
++ "notification stack already summarized"
++ "notification stack handled by messages pipeline"
++ "notification stack ineligible for summarization"
++ "notification stack missing id"
++ "notification stack too shallow"
++ "notificationSettings"
++ "ownerIdentifier"
++ "performConfigurableQuery:completionHandler:"
++ "performQuery:limit:completionHandler:"
++ "policyWithEntityMetadata:"
++ "positionInReceivedItems"
++ "powerBudget exceeded app power budget"
++ "powerBudget exceeded global power budget"
++ "powerFilter system is in Low power mode"
++ "powerFilter thermal state is >= fair"
++ "preFilter audio transcript older than 24 hours"
++ "preFilter mail backlog"
++ "preFilter mail junk"
++ "preFilter mail not in inbox"
++ "preFilter mail older than 24 hours"
++ "preFilter mail outgoing"
++ "preFilter mail read"
++ "preFilter message backlog"
++ "preFilter message conversation open"
++ "preFilter message junk"
++ "preFilter message older than 24 hours"
++ "preFilter message outgoing"
++ "preFilter message read"
++ "preFilter message short code"
++ "preFilter message sticker"
++ "preFilter notification older than 24 hours"
++ "preFilter_audioTranscript_old"
++ "predicateForMessagesInConversation:"
++ "priority feedback endpoint unavailable"
++ "priorityFeedbackClassification"
++ "priorityFeedbackClassificationDuration"
++ "priorityFeedbackMaxContentLength"
++ "processItem:receivedDate:positionInReceivedItems:"
++ "properties"
++ "protection"
++ "protectionClass"
++ "pruneNotificationContent()"
++ "pruneUrgencyFeedback()"
++ "public.voice-audio"
++ "read"
++ "receivedDate"
++ "resolveMailFromSource query failed"
++ "resolveMailFromSource, fetchHTML failed"
++ "runBlockWhenDeviceIsClassCUnlocked:"
++ "senderAddress"
++ "sentenceEmbeddingForLanguage:"
++ "simpleAddress"
++ "snippetFromHTMLBody:options:maxLength:preservingQuotedForwardedContent:"
++ "sortDescriptorForDateAscending:"
++ "spotlightIndexSet"
++ "subjectString"
++ "suggestd summarization conversation"
++ "summarization failed"
++ "summarization.notesAudioTranscript"
++ "summarizationFilter audio transcript content too short "
++ "summarizationFilter audio transcript summarization disabled"
++ "summarizationFilter input too short according to GMS"
++ "summarizationFilter mail content too short "
++ "summarizationFilter mail summarization disabled"
++ "summarizationFilter mail two factor code"
++ "summarizationFilter message content combined with context and captions too short "
++ "summarizationFilter message conversation had outgoing messages in last 8 minutes"
++ "summarizationFilter message conversation open"
++ "summarizationFilter message invisible ink"
++ "summarizationFilter message summarization disabled"
++ "summarizationFilter message too short "
++ "summarizationFilter message two factor code"
++ "summarizationFilter notification content combined with context and captions too short "
++ "summarizationFilter notification content too short "
++ "summarizationFilter notification conversation had outgoing messages in last 8 minutes"
++ "summarizationFilter notification not communication"
++ "summarizationFilter notification spans multiple messages, covered by stack summaries"
++ "summarizationFilter notification spans multiple notifications"
++ "summarizationFilter notification stack content too short "
++ "summarizationFilter notification stack depth < 2"
++ "summarizationFilter notification stack summarization disabled"
++ "summarizationFilter notification summarization disabled"
++ "summarizationFilter_audioTranscript_pipelineDisabled"
++ "summarizationFilter_audioTranscript_tooShort"
++ "summarizationFilter_notificationStack_ineligibleBundleId"
++ "summarizationFilter_notificationStack_ineligibleItunesCategory"
++ "summarizationFilter_notificationStack_missingBundleId"
++ "summarizationFilter_notification_ineligibleBundleId"
++ "summarizationFilter_notification_ineligibleItunesCategory"
++ "summarizationFilter_notification_missingBundleId"
++ "task cancelled 1 ("
++ "task cancelled 2 ("
++ "throttled by power budget"
++ "timeout in summarization pipeline"
++ "timestamp"
++ "toList"
++ "transcribedTextContent"
++ "urgencyFeedbackDistanceMetric"
++ "urgencyFeedbackDistanceThreshold"
++ "urgencyFeedbackNNeighbors"
++ "urgencyFilter audio transcript not supported"
++ "urgencyFilter mail no category"
++ "urgencyFilter mail read"
++ "urgencyFilter mail unsupported category"
++ "urgencyFilter mail urgency disabled"
++ "urgencyFilter message conversation open"
++ "urgencyFilter message junk"
++ "urgencyFilter message old"
++ "urgencyFilter message outgoing"
++ "urgencyFilter message read"
++ "urgencyFilter message tapback"
++ "urgencyFilter message urgency disabled"
++ "urgencyFilter notification app exceeded frequency threshold"
++ "urgencyFilter notification bundleId not allowed: "
++ "urgencyFilter notification exceeds frequency threshold"
++ "urgencyFilter notification iTunes category not allowed: "
++ "urgencyFilter notification no bundleId"
++ "urgencyFilter notification observation period"
++ "urgencyFilter notification stack not supported"
++ "urgencyFilter notification too old"
++ "urgencyFilter notification urgency disabled"
++ "urgencyFilter_audioTranscript_notSupported"
++ "urgencyFilter_message_priorityDisabledAndNotInIntelligentBreakthroughMode"
++ "urgencyPowerBudget"
++ "userNotificationSettingsCenter:didUpdateNotificationSourceIdentifiers:"
++ "userNotificationSettingsCenter:didUpdateNotificationSystemSettings:"
++ "v24@0:8@?16"
++ "v24@?0@\"LNQueryOutput\"8@\"NSError\"16"
++ "v32@0:8@\"UNNotificationSettingsCenter\"16@\"NSSet\"24"
++ "v32@0:8@\"UNNotificationSettingsCenter\"16@\"UNNotificationSystemSettings\"24"
++ "v40@0:8@16@24q32"
+- "%{public}s failed to get summarized: %@"
+- "%{public}s notification will be handled via the Mail pipeline"
+- "%{public}s notification will be handled via the Messages pipeline"
+- "@\"_PSUSummarizationPipeline\""
+- "@32@0:8@16@24"
+- "@8@?0"
+- "An unknown bundle did not get filtered out correctly: %s"
+- "Analytics: Finished logging for requestIdentifier: %s"
+- "Analytics: Finished step: %{public}s. duration: %s requestIdentifier: %s"
+- "Analytics: Not logging because `total` started but hasn't finished yet."
+- "Analytics: Not logging because `total` step didn't run."
+- "Analytics: Programmer error: Already logged to Core Analytics and/or PowerLog. Not logging again."
+- "Analytics: Programmer error: Attempting to compute `everythingElseDuration` while a step is still pending: %{public}s"
+- "Analytics: Programmer error: Attempting to log to core analytics while a step is still pending: %{public}s"
+- "Analytics: Programmer error: Step was already completed. Cannot start again. stepKind: %{public}s requestIdentifier: %s"
+- "Analytics: Programmer error: Step was already started. Cannot start again. stepKind: %{public}s requestIdentifier: %s"
+- "Analytics: Programmer error: Tried to end a step that has already been ended. %{public}s requestIdentifier: %s"
+- "Analytics: Programmer error: Tried to end a step that hasn't start yet. %{public}s requestIdentifier: %s"
+- "Analytics: Programmer error: exitReason was unexpectedly nil. It should always be set by the time we get to here. Continuing anyway since it's not fatal, but this needs to be fixed."
+- "Analytics: Programmer error: kind was unexpectedly nil. It should always be set by the time we get to here. Continuing anyway since it's not fatal, but this needs to be fixed."
+- "Analytics: Starting step: %{public}s. requestIdentifier: %s"
+- "Analytics: Unable to track signposts because kind was nil. requestIdentifier: %s"
+- "App exceeded urgent notifications frequency threshold within lookback period"
+- "Awaiting smart replies task for: %s"
+- "Bypassed Urgency Model with urgency: %{bool}d for Mail with id: %{public}s"
+- "Bypassed Urgency Model with urgency: %{bool}d for Notification with id: %{public}s"
+- "Bypassed Urgency Model with urgency: %{bool}d for messages with ids: %{public}s"
+- "Bypassing the observation period for urgent notifications"
+- "Can't construct Array with count < 0"
+- "Cancelling existing %s summarization task with key: %s"
+- "Captioning mail with unique id: %{public}s timed out"
+- "Captioning message with unique id: %{public}s timed out"
+- "Captioning notification with unique id: %{public}s timed out"
+- "Could not access last notification database table: %@"
+- "Could not create entity kind for bundle id: %s"
+- "Could not schedule background retry task with DAS: %@"
+- "Could not store entity to disk: %@"
+- "Division by zero"
+- "Division results in an overflow"
+- "Encountered %ld attachments in user-initiated summary path for message: %s"
+- "Enqueued: %s"
+- "Error accessing urgent notification database: %@"
+- "Failed to look up entity with identifier: "
+- "Failed to resolve sender email address on Knosis. Error: %s"
+- "Fetched %ld notifications for stack with id: %{sensitive}s; bundle: %s; hash: %{public}ld"
+- "Finished processing: %s; request type: %s"
+- "INSERT INTO powerBudget (kind, bundleId, tokenCount, timestampLastReplenished) VALUES (:kind, :bundleId, :tokenCount, :timestampLastReplenished)"
+- "In-memory queue is full; writing to on-disk queue: %s"
+- "Insufficient space allocated to copy string contents"
+- "Mail has categories: %{public}s; id: %{public}s"
+- "Mail not eligible (already processed); id: %{public}s"
+- "Mail not eligible for pipeline (junk); id: %{public}s"
+- "Mail not eligible for pipeline (not in inbox); id: %{public}s"
+- "Mail not eligible for pipeline (outgoing message); id: %{public}s"
+- "Mail not eligible for pipeline (too old); id: %{public}s"
+- "Mail not eligible for summarization (content length of %ld is too short); id: %{public}s"
+- "Mail not eligible for summarization (summarization not enabled); id: %{public}s"
+- "Mail not eligible for summarization (two factor code); id: %{public}s"
+- "Mail not eligible for urgency determination (already read); id: %{public}s"
+- "Mail not eligible for urgency determination (category is not personal or high impact transaction); id: %{public}s"
+- "Mail not eligible for urgency determination (category is not set); id: %{public}s"
+- "Mail not valid for processing (already summarized or ineligible); id: %{public}s"
+- "Mail not valid for processing (attachment or rich link)"
+- "Mail not valid for processing (backlog); id: %{public}s"
+- "Mail not valid for processing (missing account identifier); id: %{public}s"
+- "Mail not valid for processing (missing any content); id: %{public}s"
+- "Mail not valid for processing (missing date); id: %{public}s"
+- "Mail not valid for processing (missing id)"
+- "Mail not valid for processing (missing sender); id: %{public}s"
+- "Mail summarization disabled; ignoring mail with id: %{public}s"
+- "Mail summarization failed: %@; id: %{public}s"
+- "Mail urgency: %{bool}d; with score: %f for id: %{public}s"
+- "Mail was summarized; id: %{public}s"
+- "Mail was summarized; id: %{public}s; duration: %f seconds"
+- "Mail with unique id %s is empty"
+- "Mail with unique id %s is missing a sender handle"
+- "Message not eligible for pipeline (already read); id: %{public}s"
+- "Message not eligible for pipeline (junk); id: %{public}s"
+- "Message not eligible for pipeline (open conversation); id: %{public}s"
+- "Message not eligible for pipeline (outgoing message); id: %{public}s"
+- "Message not eligible for pipeline (short code); id: %{public}s"
+- "Message not eligible for pipeline (sticker); id: %{public}s"
+- "Message not eligible for pipeline (too old); id: %{public}s"
+- "Message not eligible for summarization (content length of %ld is too short); id: %{public}s"
+- "Message not eligible for summarization (invisible ink); id: %{public}s"
+- "Message not eligible for summarization (summarization not enabled); id: %{public}s"
+- "Message not eligible for summarization (two factor code); id: %{public}s"
+- "Message not eligible for summarization (won't summarize a conversation that had outgoing messages in the last 8 minutes); id: %{public}s"
+- "Message not eligible for urgency (tapback); id: %{public}s"
+- "Message not valid for processing (already summarized or ineligible); id: %{public}s"
+- "Message not valid for processing (attachment domain); id: %{public}s"
+- "Message not valid for processing (backlog); id: %{public}s"
+- "Message not valid for processing (missing date); id: %{public}s"
+- "Message not valid for processing (missing domain / conversation id)"
+- "Message not valid for processing (missing id)"
+- "Message not valid for processing (missing sender); id: %{public}s"
+- "Message not valid for processing (missing text content); id: %{public}s"
+- "Message urgency: %{bool}d; with score: %f for ids: %{public}s"
+- "Message was summarized; id: %{public}s; duration: %f seconds"
+- "Messages summarization disabled; ignoring message with id: %{public}s"
+- "No account identifier while creating mail entity"
+- "No date while creating mail entity"
+- "No mail messages to summarize"
+- "No unique identifier while creating mail entity"
+- "Not considering %s for summarization pipeline"
+- "Not fetching context for notification with id: %{public}s; bundle: %s"
+- "Not scheduling a retry background task because one already exists"
+- "Notification not eligible (already processed); id: %{public}s; bundle: %s"
+- "Notification not eligible for pipeline (too old); id: %{public}s"
+- "Notification not eligible for summarization (content length of %ld is too short); id: %{public}s"
+- "Notification not eligible for summarization (not communication); id: %{public}s"
+- "Notification not eligible for summarization (summarization not enabled); id: %{public}s"
+- "Notification not eligible for summarization (won't summarize a conversation that had outgoing messages in the last 8 minutes); id: %{public}s"
+- "Notification not eligible for urgency determination (bundleId not allowed); bundle: %{public}s"
+- "Notification not eligible for urgency determination (iTunes category not allowed); bundle: %{public}s iTunes category: %{public}ld"
+- "Notification not eligible for urgency determination (no bundle): %{public}s"
+- "Notification not eligible for urgency determination (too old); id: %{public}s"
+- "Notification not valid for processing (Mail notifications are handled via Mail pipeline); id: %{public}s; will try transferring mail attributes"
+- "Notification not valid for processing (Messages notifications are handled via Messages pipeline); id: %{public}s; will try transferring message attributes"
+- "Notification not valid for processing (already summarized or ineligible); id: %{public}s"
+- "Notification not valid for processing (missing date); id: %{public}s"
+- "Notification not valid for processing (missing id)"
+- "Notification stack not eligible for summarization (already processed); id: %{sensitive}s; hash: %{public}ld"
+- "Notification stack not eligible for summarization (content length of %ld is too short); id: %{public}s"
+- "Notification stack not eligible for summarization (less than 2 notifications); id: %{sensitive}s; hash: %{public}ld"
+- "Notification stack not eligible for summarization (summmarization not enabled); id: %{public}s"
+- "Notification stack not valid for processing (Messages notification stacks are handled via the Messages pipeline); id: %{public}s; isUpdate: %{bool}d"
+- "Notification stack not valid for processing (already processed for summarization); id: %{sensitive}s; hash: %{public}ld"
+- "Notification stack not valid for processing (less than 2 notifications in it); id: %{sensitive}s; hash: %{public}ld"
+- "Notification stack not valid for processing (missing id)"
+- "Notification stack was summarized; id: %{sensitive}s; hash: %{public}ld; duration: %f seconds"
+- "Notification urgency: %{bool}d; with score: %f for id: %{public}s"
+- "Notification was summarized; id: %{public}s; bundle: %s; duration: %f seconds"
+- "OS_os_transaction"
+- "PowerBudget: Eligible through global and app policies because device is on power so policies are disabled. bundleId: %{public}s"
+- "PowerBudget: Failed policy: PowerTracker"
+- "PowerBudget: Failed policy: state: %{public}s"
+- "PowerBudget: Passed policy: state: %{public}s"
+- "PowerBudget: Policies are disabled. Returning eligible. bundleId: %{public}s"
+- "Prewarming urgency classifier"
+- "ProactiveSummarization.SummarizationPipeline"
+- "Processing notification stack with id: %{sensitive}s; hash: %{public}ld; QoS: %u"
+- "Processing notification with id: %{public}s; bundle: %s; communication: %{bool}d; QoS: %u"
+- "Processing urgency for Mail with id: %{public}s; QoS: %u"
+- "Processing urgency for Notification with id: %{public}s QoS: %u"
+- "Processing urgency for messages with ids: %{public}s; QoS: %u"
+- "Promoted VIP mail to priority; Mail id: %{public}s"
+- "Reached the upper bound of %f seconds for a task in the queue for: %s"
+- "Resolving Sender email address for Mail Urgency context"
+- "Returning a fake summary for QA testing; delay: %fs"
+- "SELECT COUNT(*) FROM "
+- "SELECT tokenCount, timestampLastReplenished FROM powerBudget WHERE kind = :kind AND bundleId = :bundleId"
+- "SpotlightReader: Searching spotlight for identifiers: %s bundleId: %s index: %@"
+- "Started processing: %s; request type: %s"
+- "Summarization task was cancelled for mail with id: %{public}s"
+- "Summarization task was cancelled for message with id: %{public}s"
+- "Summarization task was cancelled for notification stack with id: %{sensitive}s; hash: %{public}ld"
+- "Summarization task was cancelled for notification with id: %{public}s"
+- "SummarizationKit was not passed required data: %s"
+- "Summarizing notification with id: %{public}s; bundle: %s; QoS: %u"
+- "Swift/Array.swift"
+- "Swift/ContiguousArrayBuffer.swift"
+- "Swift/IntegerTypes.swift"
+- "Swift/StringTesting.swift"
+- "Swift/StringUTF8View.swift"
+- "Swift/UnsafeBufferPointer.swift"
+- "Swift/UnsafePointer.swift"
+- "Swift/UnsafeRawPointer.swift"
+- "T@\"NSSet\",R,N"
+- "Unable to save a retry request to the database: %@; won't retry"
+- "Unable to transfer summarization attributes from mail to notification; id: %{public}s; error: %@"
+- "Unable to transfer summarization attributes from message to notification stack; id: %{public}s; error: %@"
+- "Unable to transfer summarization attributes from message to notification; id: %{public}s; error: %@"
+- "Unexpectedly found nil while unwrapping an Optional value"
+- "Unhandled summarization error: %ld"
+- "UnsafeMutableBufferPointer with negative count"
+- "UnsafeMutablePointer.initialize overlapping range"
+- "UnsafeMutablePointer.initialize with negative count"
+- "UnsafeMutablePointer.moveInitialize with negative count"
+- "UnsafeMutableRawPointer.initializeMemory overlapping range"
+- "UnsafeMutableRawPointer.initializeMemory with negative count"
+- "Unsupported notification domain: %s"
+- "Urgency determination failed with error: %@; for: %s"
+- "Urgent notification count exceeds frequency threshold allowed"
+- "Using model threshold override: %f for Urgency; Mail id: %{public}s"
+- "Using model threshold override: %f for Urgency; Notification id: %{public}s"
+- "Using model threshold override: %f for Urgency; message ids: %{public}s"
+- "VIP mail eligible for priority; Mail id: %{public}s"
+- "_PSUAvailabilityManager"
+- "_PSUSummarizationPipeline"
+- "_pipeline"
+- "answers"
+- "areGenerativeModelsAvailableFor:"
+- "authorAddresses"
+- "cachedVIPs"
+- "com.apple.SummarizationPipelineEventV3"
+- "emailVIPAddresses"
+- "executeKGQ:error:"
+- "fetchFullContent(index:)"
+- "getPowerBudgetState(kind:)"
+- "getTableRowCount(tableName:)"
+- "handleDeletionOfItemsWithIdentifiers:bundleIdentifier:"
+- "indexSearchableItems:completionHandler:"
+- "initWithBlock:idleTimeout:"
+- "initWithKGQ:query:limit:offset:"
+- "invalid Collection: less than 'count' elements in collection"
+- "processItem:"
+- "processSearchableItem:"
+- "pvp(PS520, qselect(NIL, pvp(PS406, '%@')))"
+- "result"
+- "resultIfAvailable"
+- "sharedPipelineWithContactStore:incomingBundleId:"
+
+```

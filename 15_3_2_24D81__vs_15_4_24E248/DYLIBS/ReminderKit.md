@@ -1,0 +1,373 @@
+## ReminderKit
+
+> `/System/Library/PrivateFrameworks/ReminderKit.framework/Versions/A/ReminderKit`
+
+```diff
+
+-1205.0.0.0.0
+-  __TEXT.__text: 0x1571f8
++1225.1.0.0.0
++  __TEXT.__text: 0x155dac
+   __TEXT.__auth_stubs: 0xae0
+-  __TEXT.__objc_methlist: 0x13878
+-  __TEXT.__const: 0x16d7
++  __TEXT.__objc_methlist: 0x14ab0
++  __TEXT.__const: 0x16a7
+   __TEXT.__oslogstring: 0x1149d
+   __TEXT.__cstring: 0xdc1c
+-  __TEXT.__gcc_except_tab: 0x83a8
++  __TEXT.__gcc_except_tab: 0x836c
+   __TEXT.__ustring: 0x292
+   __TEXT.__dlopen_cstrs: 0xb4
+-  __TEXT.__unwind_info: 0x6660
+-  __TEXT.__objc_classname: 0x37f5
+-  __TEXT.__objc_methname: 0x2613b
+-  __TEXT.__objc_methtype: 0x41af
++  __TEXT.__unwind_info: 0x6600
++  __TEXT.__objc_classname: 0x37ef
++  __TEXT.__objc_methname: 0x26149
++  __TEXT.__objc_methtype: 0x4197
+   __TEXT.__objc_stubs: 0x15f20
+   __DATA_CONST.__got: 0xea8
+   __DATA_CONST.__const: 0xcd0
+
+   __DATA_CONST.__objc_catlist: 0xa8
+   __DATA_CONST.__objc_protolist: 0x220
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x7458
++  __DATA_CONST.__objc_selrefs: 0x7708
+   __DATA_CONST.__objc_protorefs: 0x60
+   __DATA_CONST.__objc_superrefs: 0x998
+   __DATA_CONST.__objc_arraydata: 0x960
+   __AUTH_CONST.__auth_got: 0x588
+   __AUTH_CONST.__const: 0x4b90
+   __AUTH_CONST.__cfstring: 0xde40
+-  __AUTH_CONST.__objc_const: 0x24a00
++  __AUTH_CONST.__objc_const: 0x228f0
+   __AUTH_CONST.__objc_arrayobj: 0x1c8
+   __AUTH_CONST.__objc_intobj: 0xf0
+   __AUTH_CONST.__objc_dictobj: 0x28
+
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: D961F9FE-2F80-37A3-A615-23287ACB3B8A
+-  Functions: 8447
+-  Symbols:   18294
++  UUID: F979B02A-5908-3B96-8722-ADA5BE78A6A1
++  Functions: 8495
++  Symbols:   18352
+   CStrings:  11102
+ 
+Symbols:
++ +[CRReplica unserialisedIdentifier].cold.1
++ +[NSString(CRDT_REMAdditions_Subset) rem_registerClassAtCRCoderIfNeeded].cold.1
++ +[NSUUID(CRDT_Additions) CR_zero].cold.1
++ +[NSUUID(NSUUIDAdditions) TTZero].cold.1
++ +[REMBaseSectionChangeItem keysToObserve].cold.1
++ +[REMCRMutableAttributedString nonEditableAttributes].cold.1
++ +[REMChangeTracking defaultTransactionAuthorKeysToExclude].cold.1
++ +[REMChangeTracking internalTransactionAuthorKeysToExclude].cold.1
++ +[REMDAChangeTrackingHelper shouldIgnoreChangeOfModelClassProperties:withChangeObject:].cold.1
++ +[REMDispatchQueue storeQueue].cold.1
++ +[REMExporting(ICSExport) _updateICSComponentWithReminder:icsCalendarItem:].cold.7
++ +[REMListSectionChangeItem keysToObserve].cold.1
++ +[REMLog accountPlugin].cold.1
++ +[REMLog account].cold.1
++ +[REMLog alarmEngine].cold.1
++ +[REMLog analytics].cold.1
++ +[REMLog appIntents].cold.1
++ +[REMLog applicationShortcut].cold.1
++ +[REMLog changeTracking].cold.1
++ +[REMLog cloudkitCollaboration].cold.1
++ +[REMLog cloudkit].cold.1
++ +[REMLog crdt].cold.1
++ +[REMLog dataAccess].cold.1
++ +[REMLog editor].cold.1
++ +[REMLog housekeepingingActivityScheduler].cold.1
++ +[REMLog inlineTagAutoConvertEngine].cold.1
++ +[REMLog intelligentGrocery].cold.1
++ +[REMLog migration].cold.1
++ +[REMLog notification].cold.1
++ +[REMLog ppt].cold.1
++ +[REMLog scripting].cold.1
++ +[REMLog search].cold.1
++ +[REMLog siriKit].cold.1
++ +[REMLog suggestedAttributesAutoTrainer].cold.1
++ +[REMLog suggestedAttributes].cold.1
++ +[REMLog templates].cold.1
++ +[REMLog timelineEngine].cold.1
++ +[REMLog ui].cold.1
++ +[REMLog userAction].cold.1
++ +[REMLog utility].cold.1
++ +[REMLog xpc].cold.1
++ +[REMLogStore OVERSIZED].cold.1
++ +[REMLogStore container].cold.1
++ +[REMLogStore read].cold.1
++ +[REMLogStore search].cold.1
++ +[REMLogStore stagedLightweightCoreDataMigration].cold.1
++ +[REMLogStore utility].cold.1
++ +[REMLogStore write].cold.1
++ +[REMLogStore xpc].cold.1
++ +[REMObjectID(CRDT_Additions) rem_registerClassAtCRCoderIfNeeded].cold.1
++ +[REMPaths _legacy_shouldUseCentralizedDataPath].cold.1
++ +[REMPaths dataSeparationEnabled_applicationDocumentsURL].cold.1
++ +[REMPaths legacy_applicationDocumentsURL].cold.1
++ +[REMPaths(UnitTests) unitTest_setLegacyApplicationDocumentsURL:].cold.1
++ +[REMRecurrenceRule iCalendarValueFromWeekday:].cold.1
++ +[REMRecurrenceRuleFormatter shortNaturalLanguageDescriptionForFrequency:interval:daysOfTheWeek:daysOfTheMonth:monthsOfTheYear:setPositions:date:timeZone:lowercase:].cold.1
++ +[REMReplicaIDHelper nonEditingReplicaUUID].cold.1
++ +[REMSignpost database].cold.1
++ +[REMSignpost sync].cold.1
++ +[REMSystemUtilities isInternalInstall].cold.1
++ +[REMUserDefaults daemonUserDefaults].cold.1
++ +[REMXPCChangeTrackingPerformerInterface interface].cold.1
++ +[REMXPCClientInterface interface].cold.1
++ +[REMXPCDaemonInterface interface].cold.1
++ +[REMXPCDebugPerformerInterface interface].cold.1
++ +[REMXPCIndexingPerformerInterface interface].cold.1
++ +[REMXPCStorageClasses remStorageClasses].cold.1
++ +[REMXPCStorePerformerInterface interface].cold.1
++ +[REMXPCSuggestedAttributesPerformerInterface interface].cold.1
++ +[REMXPCSyncInterfacePerformerInterface interface].cold.1
++ +[TTMergeableAttributedString allowlistedTypingAttributes].cold.1
++ +[TTMergeableAttributedString(TTAttributedStringPersistenceAdditions) attributesForRun:].cold.2
++ +[TTMergeableString unserialisedReplicaID].cold.1
++ +[TTParagraphStyle defaultParagraphStyle].cold.1
++ +[_REMChangeUniversalToken universalToken].cold.1
++ -[REMAccountStorage cdKeyToStorageKeyMap].cold.1
++ -[REMAppleAccountUtilities accessQueue].cold.1
++ -[REMChangeSet _filterAndFlattenAndConsolidateChanges].cold.3
++ -[REMChangeSet _filterAndFlattenAndConsolidateChanges].cold.4
++ -[REMChangeSet _filterAndFlattenAndConsolidateChanges].cold.5
++ -[REMChangeTracking(REMAuxiliaryChangeInfoAdditions) fetchAuxiliaryChangeInfosOfType:withChangeObject:error:].cold.2
++ -[REMChangeTracking(REMAuxiliaryChangeInfoAdditions) fetchAuxiliaryChangeInfosOfType:withChangeObject:error:].cold.3
++ -[REMListSectionStorage cdKeyToStorageKeyMap].cold.1
++ -[REMListStorage cdKeyToStorageKeyMap].cold.1
++ -[REMNSPersistentHistoryChange persistentHistoryChangeObjectID]
++ -[REMObjectID(CRDT_Additions) setDocument:].cold.1
++ -[REMReminderStorage cdKeyToStorageKeyMap].cold.1
++ -[REMReminderStorage cdKeyToStorageKeyMap].cold.2
++ -[REMReminderStorage legacyNotificationIdentifier].cold.1
++ -[REMSmartListSectionStorage cdKeyToStorageKeyMap].cold.1
++ -[REMSmartListStorage cdKeyToStorageKeyMap].cold.1
++ -[REMStoreInvocationValueStorage initWithCoder:].cold.1
++ -[REMTemplateSectionStorage cdKeyToStorageKeyMap].cold.1
++ -[REMTemplateStorage cdKeyToStorageKeyMap].cold.1
++ GCC_except_table154
++ GCC_except_table156
++ GCC_except_table165
++ GCC_except_table179
++ GCC_except_table185
++ GCC_except_table217
++ GCC_except_table223
++ GCC_except_table228
++ OBJC_IVAR_$_REMNSPersistentHistoryChange._persistentHistoryChangeObjectID
++ REMBundleGet.cold.1
++ REMInvalidICSAlarmDateComponents.cold.1
++ _NSStringFromMigrationStage
++ __ZNKSt3__111__copy_implINS_17_ClassicAlgPolicyEEclB8ne190102IP11TopoIDRangeS5_S5_EENS_4pairIT_T1_EES7_T0_S8_
++ __ZNKSt3__111__move_implINS_17_ClassicAlgPolicyEEclB8ne190102IPNS_4pairI13minIdPathDataP13TopoSubstringEES9_S9_EENS4_IT_T1_EESA_T0_SB_
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorI8_NSRangeNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEENS_9allocatorIS6_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorINS_4pairI13minIdPathDataP13TopoSubstringEENS_9allocatorIS5_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorINS_4pairI6TopoIDS2_EENS_9allocatorIS3_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIP13TopoSubstringNS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIPFvvENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIPN4CRDT18Document_DocObjectENS_9allocatorIS3_EEE20__throw_length_errorB8ne190102Ev
++ __ZNSt12length_errorC1B8ne190102EPKc
++ __ZNSt3__110unique_ptrINS_11__hash_nodeI6TopoIDPvEENS_22__hash_node_destructorINS_9allocatorIS4_EEEEE5resetB8ne190102EPS4_
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeI6TopoIDNS_4pairIP13TopoSubstringS6_EEEEPvEENS_22__hash_node_destructorINS_9allocatorISA_EEEEE5resetB8ne190102EPSA_
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeI6TopoIDP13TopoSubstringEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEE5resetB8ne190102EPS8_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102ILi0EEEPKc
++ __ZNSt3__114__split_bufferINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEERNS_9allocatorIS6_EEE17__destruct_at_endB8ne190102EPS6_
++ __ZNSt3__114__split_bufferINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEERNS_9allocatorIS6_EEE17__destruct_at_endB8ne190102EPS6_
++ __ZNSt3__114__split_bufferINS_4pairI6TopoIDS2_EERNS_9allocatorIS3_EEE17__destruct_at_endB8ne190102EPS3_
++ __ZNSt3__116__rotate_forwardB8ne190102INS_17_ClassicAlgPolicyENS_11__wrap_iterIPNS_4pairI13minIdPathDataP13TopoSubstringEEEEEET0_SA_SA_SA_
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorI11TopoIDRangeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorI8_NSRangeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_4pairI13minIdPathDataP13TopoSubstringEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_4pairI6TopoIDS3_EEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIP13TopoSubstringEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIPFvvEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIPN4CRDT18Document_DocObjectEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIPP13TopoSubstringEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocator_destroyB8ne190102INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEENS_16reverse_iteratorIPS7_EESB_EEvRT_T0_T1_
++ __ZNSt3__120__throw_length_errorB8ne190102EPKc
++ __ZNSt3__120get_temporary_bufferB8ne190102INS_4pairI13minIdPathDataP13TopoSubstringEEEENS1_IPT_lEEl
++ __ZNSt3__124__copy_move_unwrap_itersB8ne190102INS_11__move_implINS_17_ClassicAlgPolicyEEENS_16reverse_iteratorIPNS_4pairI13minIdPathDataP13TopoSubstringEEEESB_NS4_INS_11__wrap_iterISA_EEEELi0EEENS5_IT0_T2_EESF_T1_SG_
++ __ZNSt3__127__insertion_sort_incompleteB8ne190102INS_17_ClassicAlgPolicyERZ58-[TTMergeableString deleteSubstrings:withCharacterRanges:]E3$_1P8_NSRangeEEbT1_S6_T0_
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEEPS8_EEED2B8ne190102Ev
++ __ZNSt3__135__uninitialized_allocator_copy_implB8ne190102INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEEPS7_S9_S9_EET2_RT_T0_T1_SA_
++ __ZNSt3__14pairI11TopoIDRangeU8__strongP12NSDictionaryEaSB8ne190102ERKS5_
++ __ZNSt3__14pairI13minIdPathDataP13TopoSubstringE4swapB8ne190102ERS4_
++ __ZNSt3__15dequeIP13TopoSubstringNS_9allocatorIS2_EEE25__maybe_remove_back_spareB8ne190102Eb
++ __ZNSt3__15dequeIP13TopoSubstringNS_9allocatorIS2_EEED2B8ne190102Ev
++ __ZNSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE18__assign_with_sizeB8ne190102IPS1_S6_EEvT_T0_l
++ __ZNSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE18__construct_at_endIPS1_S6_EEvT_T0_m
++ __ZNSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE9push_backB8ne190102ERKS1_
++ __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE18__assign_with_sizeB8ne190102IPS6_SB_EEvT_T0_l
++ __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE22__base_destruct_at_endB8ne190102EPS6_
++ __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEENS_9allocatorIS6_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEENS_9allocatorIS6_EEE22__base_destruct_at_endB8ne190102EPS6_
++ __ZNSt3__16vectorINS_4pairI13minIdPathDataP13TopoSubstringEENS_9allocatorIS5_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorINS_4pairI6TopoIDS2_EENS_9allocatorIS3_EEE16__destroy_vectorclB8ne190102Ev
++ __ZNSt3__16vectorINS_4pairI6TopoIDS2_EENS_9allocatorIS3_EEE22__base_destruct_at_endB8ne190102EPS3_
++ __ZNSt3__16vectorIP13TopoSubstringNS_9allocatorIS2_EEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorIP13TopoSubstringNS_9allocatorIS2_EEE18__assign_with_sizeB8ne190102IPKS2_S8_EEvT_T0_l
++ __ZNSt3__16vectorIP13TopoSubstringNS_9allocatorIS2_EEE18__assign_with_sizeB8ne190102IPS2_S7_EEvT_T0_l
++ __ZNSt3__17__sort3B8ne190102INS_17_ClassicAlgPolicyERZ58-[TTMergeableString deleteSubstrings:withCharacterRanges:]E3$_1P8_NSRangeEEjT1_S6_S6_T0_
++ __ZNSt3__17__sort4B8ne190102INS_17_ClassicAlgPolicyERZ58-[TTMergeableString deleteSubstrings:withCharacterRanges:]E3$_1P8_NSRangeEEvT1_S6_S6_S6_T0_
++ __ZSt28__throw_bad_array_new_lengthB8ne190102v
++ _objc_msgSend$persistentHistoryChangeObjectID
++ ckSymbolicColorNameToRGBMapping.cold.1
++ cloudBasedAccountTypes.cold.1
++ cloudKitAccountTypes.cold.1
+- -[REMNSPersistentHistoryChange persistentHistoryChange]
+- GCC_except_table155
+- GCC_except_table157
+- GCC_except_table163
+- GCC_except_table168
+- GCC_except_table180
+- GCC_except_table186
+- GCC_except_table201
+- GCC_except_table206
+- GCC_except_table222
+- GCC_except_table226
+- GCC_except_table233
+- OBJC_IVAR_$_REMNSPersistentHistoryChange._persistentHistoryChange
+- _OUTLINED_FUNCTION_22
+- _OUTLINED_FUNCTION_23
+- _OUTLINED_FUNCTION_24
+- _OUTLINED_FUNCTION_25
+- _OUTLINED_FUNCTION_26
+- __ZNKSt3__111__copy_loopINS_17_ClassicAlgPolicyEEclB8ne180100IP11TopoIDRangeS5_S5_EENS_4pairIT_T1_EES7_T0_S8_
+- __ZNKSt3__111__move_loopINS_17_ClassicAlgPolicyEEclB8ne180100IPNS_4pairI13minIdPathDataP13TopoSubstringEES9_S9_EENS4_IT_T1_EESA_T0_SB_
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEENS_16reverse_iteratorIPS7_EEEclB8ne180100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEEEENS_16reverse_iteratorIPS7_EEEclB8ne180100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_4pairI6TopoIDS3_EEEENS_16reverse_iteratorIPS4_EEEclB8ne180100Ev
+- __ZNKSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorI8_NSRangeNS_9allocatorIS1_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEENS_9allocatorIS6_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorINS_4pairI13minIdPathDataP13TopoSubstringEENS_9allocatorIS5_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorINS_4pairI6TopoIDS2_EENS_9allocatorIS3_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIP13TopoSubstringNS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIPFvvENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIPN4CRDT18Document_DocObjectENS_9allocatorIS3_EEE20__throw_length_errorB8ne180100Ev
+- __ZNSt12length_errorC1B8ne180100EPKc
+- __ZNSt3__112__hash_tableI6TopoIDNS_4hashIS1_EENS_8equal_toIS1_EENS_9allocatorIS1_EEE5eraseENS_21__hash_const_iteratorIPNS_11__hash_nodeIS1_PvEEEE
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne180100ILi0EEEPKc
+- __ZNSt3__114__split_bufferINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEERNS_9allocatorIS6_EEE17__destruct_at_endB8ne180100EPS6_
+- __ZNSt3__114__split_bufferINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEERNS_9allocatorIS6_EEE17__destruct_at_endB8ne180100EPS6_
+- __ZNSt3__114__split_bufferINS_4pairI6TopoIDS2_EERNS_9allocatorIS3_EEE17__destruct_at_endB8ne180100EPS3_
+- __ZNSt3__116__rotate_forwardB8ne180100INS_17_ClassicAlgPolicyENS_11__wrap_iterIPNS_4pairI13minIdPathDataP13TopoSubstringEEEEEET0_SA_SA_SA_
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorI11TopoIDRangeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorI8_NSRangeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorINS_4pairI13minIdPathDataP13TopoSubstringEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorINS_4pairI6TopoIDS3_EEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIP13TopoSubstringEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIPFvvEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIPN4CRDT18Document_DocObjectEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIPP13TopoSubstringEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocator_destroyB8ne180100INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEENS_16reverse_iteratorINS9_IPS7_EEEESC_EEvRT_T0_T1_
+- __ZNSt3__119__allocator_destroyB8ne180100INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEENS_16reverse_iteratorIPS7_EESB_EEvRT_T0_T1_
+- __ZNSt3__119__allocator_destroyB8ne180100INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEEEENS_16reverse_iteratorINS9_IPS7_EEEESC_EEvRT_T0_T1_
+- __ZNSt3__119__allocator_destroyB8ne180100INS_9allocatorINS_4pairI6TopoIDS3_EEEENS_16reverse_iteratorINS6_IPS4_EEEES9_EEvRT_T0_T1_
+- __ZNSt3__120__throw_length_errorB8ne180100EPKc
+- __ZNSt3__120get_temporary_bufferB8ne180100INS_4pairI13minIdPathDataP13TopoSubstringEEEENS1_IPT_lEEl
+- __ZNSt3__121__unwrap_and_dispatchB8ne180100INS_10__overloadINS_11__move_loopINS_17_ClassicAlgPolicyEEENS_14__move_trivialEEENS_16reverse_iteratorIPNS_4pairI13minIdPathDataP13TopoSubstringEEEESE_NS7_INS_11__wrap_iterISD_EEEELi0EEENS8_IT0_T2_EESI_T1_SJ_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeI6TopoIDPvEEEEEclB8ne180100EPS5_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeI6TopoIDNS_4pairIP13TopoSubstringS7_EEEEPvEEEEEclB8ne180100EPSB_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeI6TopoIDP13TopoSubstringEEPvEEEEEclB8ne180100EPS9_
+- __ZNSt3__127__insertion_sort_incompleteB8ne180100INS_17_ClassicAlgPolicyERZ58-[TTMergeableString deleteSubstrings:withCharacterRanges:]E3$_1P8_NSRangeEEbT1_S6_T0_
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEENS_16reverse_iteratorIPS8_EEEEED2B8ne180100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEEPS8_EEED2B8ne180100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEEEENS_16reverse_iteratorIPS8_EEEEED2B8ne180100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_4pairI6TopoIDS4_EEEENS_16reverse_iteratorIPS5_EEEEED2B8ne180100Ev
+- __ZNSt3__130__uninitialized_allocator_copyB8ne180100INS_9allocatorI11TopoIDRangeEEPS2_S4_S4_EET2_RT_T0_T1_S5_
+- __ZNSt3__135__uninitialized_allocator_copy_implB8ne180100INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEEPS7_S9_S9_EET2_RT_T0_T1_SA_
+- __ZNSt3__142__uninitialized_allocator_move_if_noexceptB8ne180100INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEENS_16reverse_iteratorIPS7_EESB_SB_EET2_RT_T0_T1_SC_
+- __ZNSt3__142__uninitialized_allocator_move_if_noexceptB8ne180100INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEEEENS_16reverse_iteratorIPS7_EESB_SB_EET2_RT_T0_T1_SC_
+- __ZNSt3__142__uninitialized_allocator_move_if_noexceptB8ne180100INS_9allocatorINS_4pairI6TopoIDS3_EEEENS_16reverse_iteratorIPS4_EES8_S8_EET2_RT_T0_T1_S9_
+- __ZNSt3__14pairI11TopoIDRangeU8__strongP12NSDictionaryEaSB8ne180100ERKS5_
+- __ZNSt3__14pairI13minIdPathDataP13TopoSubstringE4swapB8ne180100ERS4_
+- __ZNSt3__15dequeIP13TopoSubstringNS_9allocatorIS2_EEE25__maybe_remove_back_spareB8ne180100Eb
+- __ZNSt3__15dequeIP13TopoSubstringNS_9allocatorIS2_EEED2B8ne180100Ev
+- __ZNSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE18__assign_with_sizeB8ne180100IPS1_S6_EEvT_T0_l
+- __ZNSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE21__push_back_slow_pathIRKS1_EEPS1_OT_
+- __ZNSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS1_RS3_EE
+- __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE18__assign_with_sizeB8ne180100IPS6_SB_EEvT_T0_l
+- __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE22__base_destruct_at_endB8ne180100EPS6_
+- __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS6_RS8_EE
+- __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE9push_backB8ne180100EOS6_
+- __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEENS_9allocatorIS6_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEENS_9allocatorIS6_EEE22__base_destruct_at_endB8ne180100EPS6_
+- __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEENS_9allocatorIS6_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS6_RS8_EE
+- __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEENS_9allocatorIS6_EEE9push_backB8ne180100EOS6_
+- __ZNSt3__16vectorINS_4pairI13minIdPathDataP13TopoSubstringEENS_9allocatorIS5_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorINS_4pairI13minIdPathDataP13TopoSubstringEENS_9allocatorIS5_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS5_RS7_EE
+- __ZNSt3__16vectorINS_4pairI13minIdPathDataP13TopoSubstringEENS_9allocatorIS5_EEE9push_backB8ne180100EOS5_
+- __ZNSt3__16vectorINS_4pairI6TopoIDS2_EENS_9allocatorIS3_EEE16__destroy_vectorclB8ne180100Ev
+- __ZNSt3__16vectorINS_4pairI6TopoIDS2_EENS_9allocatorIS3_EEE22__base_destruct_at_endB8ne180100EPS3_
+- __ZNSt3__16vectorINS_4pairI6TopoIDS2_EENS_9allocatorIS3_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS3_RS5_EE
+- __ZNSt3__16vectorINS_4pairI6TopoIDS2_EENS_9allocatorIS3_EEE9push_backB8ne180100EOS3_
+- __ZNSt3__16vectorIP13TopoSubstringNS_9allocatorIS2_EEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorIP13TopoSubstringNS_9allocatorIS2_EEE18__assign_with_sizeB8ne180100IPKS2_S8_EEvT_T0_l
+- __ZNSt3__16vectorIP13TopoSubstringNS_9allocatorIS2_EEE18__assign_with_sizeB8ne180100IPS2_S7_EEvT_T0_l
+- __ZNSt3__16vectorIP13TopoSubstringNS_9allocatorIS2_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS2_RS4_EEPS2_
+- __ZNSt3__17__sort3B8ne180100INS_17_ClassicAlgPolicyERZ58-[TTMergeableString deleteSubstrings:withCharacterRanges:]E3$_1P8_NSRangeEEjT1_S6_S6_T0_
+- __ZNSt3__17__sort4B8ne180100INS_17_ClassicAlgPolicyERZ58-[TTMergeableString deleteSubstrings:withCharacterRanges:]E3$_1P8_NSRangeEEvT1_S6_S6_S6_T0_
+- __ZSt28__throw_bad_array_new_lengthB8ne180100v
+- _objc_msgSend$persistentHistoryChange
+CStrings:
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ReminderKit/CRProtobuf/protobuf-lite/crframework.pb.cc"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ReminderKit/CRProtobuf/protobuf-lite/google/protobuf/io/coded_stream.cc"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ReminderKit/CRProtobuf/protobuf-lite/google/protobuf/io/zero_copy_stream.cc"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ReminderKit/CRProtobuf/protobuf-lite/google/protobuf/io/zero_copy_stream_impl_lite.cc"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ReminderKit/CRProtobuf/protobuf-lite/google/protobuf/message_lite.cc"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ReminderKit/CRProtobuf/protobuf-lite/google/protobuf/repeated_field.h"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ReminderKit/CRProtobuf/protobuf-lite/google/protobuf/stubs/common.cc"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ReminderKit/CRProtobuf/protobuf-lite/google/protobuf/wire_format_lite.cc"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ReminderKit/CRProtobuf/protobuf-lite/replica-manager.pb.cc"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ReminderKit/CRProtobuf/protobuf-lite/topotext.pb.cc"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ReminderKit/CRProtobuf/protobuf-lite/versioned-document.pb.cc"
++ "@\"NSManagedObjectID\""
++ "T@\"NSManagedObjectID\",R,V_persistentHistoryChangeObjectID"
++ "_persistentHistoryChangeObjectID"
++ "persistentHistoryChangeObjectID"
++ "{basic_string<char, std::char_traits<char>, std::allocator<char>>={__compressed_pair<std::basic_string<char>::__rep, std::allocator<char>>=(__rep={__short=[23c][0C]b7b1}{__long=*Qb63b1})}}16@0:8"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ReminderKit/CRProtobuf/protobuf-lite/crframework.pb.cc"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ReminderKit/CRProtobuf/protobuf-lite/google/protobuf/io/coded_stream.cc"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ReminderKit/CRProtobuf/protobuf-lite/google/protobuf/io/zero_copy_stream.cc"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ReminderKit/CRProtobuf/protobuf-lite/google/protobuf/io/zero_copy_stream_impl_lite.cc"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ReminderKit/CRProtobuf/protobuf-lite/google/protobuf/message_lite.cc"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ReminderKit/CRProtobuf/protobuf-lite/google/protobuf/repeated_field.h"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ReminderKit/CRProtobuf/protobuf-lite/google/protobuf/stubs/common.cc"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ReminderKit/CRProtobuf/protobuf-lite/google/protobuf/wire_format_lite.cc"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ReminderKit/CRProtobuf/protobuf-lite/replica-manager.pb.cc"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ReminderKit/CRProtobuf/protobuf-lite/topotext.pb.cc"
+- "/AppleInternal/Library/BuildRoots/b73fa48b-bc8d-11ef-a2a7-aabfac210453/Library/Caches/com.apple.xbs/Sources/ReminderKit/CRProtobuf/protobuf-lite/versioned-document.pb.cc"
+- "@\"NSPersistentHistoryChange\""
+- "T@\"NSPersistentHistoryChange\",R,W,V_persistentHistoryChange"
+- "_persistentHistoryChange"
+- "persistentHistoryChange"
+- "{basic_string<char, std::char_traits<char>, std::allocator<char>>={__compressed_pair<std::basic_string<char>::__rep, std::allocator<char>>={__rep=(?={__short=[23c][0C]b7b1}{__long=*Qb63b1}{__raw=[3Q]})}}}16@0:8"
+
+```

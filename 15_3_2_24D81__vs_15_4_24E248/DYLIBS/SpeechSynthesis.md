@@ -1,0 +1,147 @@
+## SpeechSynthesis
+
+> `/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis`
+
+```diff
+
+-32.1.0.0.0
+-  __TEXT.__text: 0x1f7f0
++32.3.0.0.0
++  __TEXT.__text: 0x1f49c
+   __TEXT.__auth_stubs: 0x1180
+-  __TEXT.__objc_methlist: 0xb68
++  __TEXT.__objc_methlist: 0xd4c
+   __TEXT.__gcc_except_tab: 0x1a60
+   __TEXT.__const: 0x138
+   __TEXT.__cstring: 0x18fc
+   __TEXT.__oslogstring: 0x9d4
+   __TEXT.__dlopen_cstrs: 0x162
+-  __TEXT.__unwind_info: 0xb10
++  __TEXT.__unwind_info: 0xb38
+   __TEXT.__objc_classname: 0x167
+   __TEXT.__objc_methname: 0x2cac
+   __TEXT.__objc_methtype: 0x750
+
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x28
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xbd8
++  __DATA_CONST.__objc_selrefs: 0xc90
+   __DATA_CONST.__objc_protorefs: 0x8
+   __DATA_CONST.__objc_superrefs: 0x50
+   __AUTH_CONST.__auth_got: 0x8d8
+   __AUTH_CONST.__const: 0x940
+   __AUTH_CONST.__cfstring: 0x1bc0
+-  __AUTH_CONST.__objc_const: 0x1c50
++  __AUTH_CONST.__objc_const: 0x18d8
+   __AUTH_CONST.__objc_intobj: 0x60
+   __AUTH_CONST.__objc_doubleobj: 0x10
+   __AUTH_CONST.__objc_floatobj: 0x40
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0576D58F-32E1-3355-89AC-535B891CFFFE
+-  Functions: 750
+-  Symbols:   2057
++  UUID: 9854B64C-665C-36FE-91CA-0891E5C24AFF
++  Functions: 765
++  Symbols:   2121
+   CStrings:  1284
+ 
+Symbols:
++ +[BFConversionUtils sharedInstance].cold.1
++ +[BFRegexCache sharedInstance].cold.1
++ +[BabelFish sharedInstance].cold.1
++ +[SpeechSynthesisApps sharedManager].cold.1
++ -[BFSpeechChannel badStartingCharacterSet].cold.1
++ SendTAMessageNoReply.cold.1
++ TalkingAlertsEnabled.cold.1
++ _Z30ShouldRedirectCallsToBabelfishv.cold.1
++ _ZL14SendSSDMessagePv10SpeechArch.cold.1
++ _ZL19_PerformForAllArchsU13block_pointerFv10SpeechArchPbE.cold.1
++ _ZL19_PerformForAllArchsU13block_pointerFv10SpeechArchPbE.cold.2
++ _ZL19_PerformForAllArchsU13block_pointerFv10SpeechArchPbE.cold.3
++ _ZL21BuildDefaultVoiceListb.cold.1
++ _ZL9IsLoggingv.cold.1
++ _ZN13SpeechGlobals16ArchForVoiceSpecEPK9VoiceSpec.cold.1
++ _ZN13SpeechGlobals16ArchForVoiceSpecEPK9VoiceSpec.cold.2
++ _ZN13SpeechGlobals20PerformOnCorrectArchEPK9VoiceSpecU13block_pointerFv10SpeechArchPbE.cold.1
++ _ZN13SpeechGlobals22ArchForVoiceIdentifierEPK10__CFString.cold.1
++ _ZN13SpeechGlobals22ArchForVoiceIdentifierEPK10__CFString.cold.2
++ _ZN13SpeechGlobals32RecomputeMayHaveNonNativeEnginesEv.cold.1
++ _ZN13SpeechGlobals8InstanceEv.cold.1
++ _ZN13SpeechGlobalsC2Ev.cold.1
++ _ZN14SpeechAPITimer5SetupEv.cold.1
++ _ZN19SpeechChannelHandle10CopyVoicesEPKv.cold.1
++ _ZN19SpeechChannelHandle11FromChannelEP19SpeechChannelRecord.cold.1
++ _ZN19SpeechChannelHandle11SpeakBufferEPKvmx.cold.1
++ _ZN19SpeechChannelHandle11SpeakBufferEPKvmx.cold.2
++ _ZN19SpeechChannelHandle11SpeakBufferEPKvmx.cold.3
++ _ZN19SpeechChannelHandle12OutputToFileEP18OpaqueExtAudioFile.cold.1
++ _ZN19SpeechChannelHandle13SpeakCFStringEPK10__CFStringPK14__CFDictionary.cold.1
++ _ZN19SpeechChannelHandle13SpeakCFStringEPK10__CFStringPK14__CFDictionary.cold.2
++ _ZN19SpeechChannelHandle13SpeakCFStringEPK10__CFStringPK14__CFDictionary.cold.3
++ _ZN19SpeechChannelHandle13TrackPropertyEPKcPv.cold.1
++ _ZN19SpeechChannelHandle14CachedPropertyEPKc.cold.1
++ _ZN19SpeechChannelHandle14ContinueSpeechEv.cold.1
++ _ZN19SpeechChannelHandle14HandleCallbackEPvb.cold.1
++ _ZN19SpeechChannelHandle14RecoverChannelEv.cold.1
++ _ZN19SpeechChannelHandle14TextToPhonemesEPKvmPPvPl.cold.1
++ _ZN19SpeechChannelHandle18CopySpeechPropertyEPK10__CFStringP14SpeechXtndData.cold.1
++ _ZN19SpeechChannelHandle18CopySpeechPropertyEPK10__CFStringP15SpeechErrorInfo.cold.1
++ _ZN19SpeechChannelHandle18CopySpeechPropertyEPK10__CFStringP16SpeechStatusInfo.cold.1
++ _ZN19SpeechChannelHandle18CopySpeechPropertyEPK10__CFStringP17SpeechVersionInfo.cold.1
++ _ZN19SpeechChannelHandle18CopySpeechPropertyEPK10__CFStringP9VoiceSpec.cold.1
++ _ZN19SpeechChannelHandle18CopySpeechPropertyEPK10__CFStringPPKv.cold.1
++ _ZN19SpeechChannelHandle18CopySpeechPropertyEPK10__CFStringPb.cold.1
++ _ZN19SpeechChannelHandle18CopySpeechPropertyEPK10__CFStringPi.cold.1
++ _ZN19SpeechChannelHandle18CopySpeechPropertyEPK10__CFStringPj.cold.1
++ _ZN19SpeechChannelHandle18CopySpeechPropertyEPK10__CFStringPx.cold.1
++ _ZN19SpeechChannelHandle19CopyVoiceAttributesEPK9VoiceSpecPPK14__CFDictionary.cold.1
++ _ZN19SpeechChannelHandle19CopyVoiceBundlePathEPK9VoiceSpecPPK10__CFString.cold.1
++ _ZN19SpeechChannelHandle20CopyPhonemesFromTextEPK10__CFStringPS2_.cold.2
++ _ZN19SpeechChannelHandle20CopyVoiceDescriptionEPK9VoiceSpecP16VoiceDescription.cold.1
++ _ZN19SpeechChannelHandle32CopyIdentifierStringForVoiceSpecEPK9VoiceSpec.cold.1
++ _ZN19SpeechChannelHandle32MakeVoiceSpecForIdentifierStringEPK10__CFStringP9VoiceSpec.cold.1
++ _ZN19SpeechChannelHandleC2Ev.cold.1
++ _ZN19SpeechChannelHandleD2Ev.cold.1
++ _ZN19SpeechChannelHandleD2Ev.cold.2
++ _ZN19SpeechChannelHandleD2Ev.cold.3
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__14lessINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB8ne190102ERKS6_S9_
++ __ZNKSt3__16vectorIP19SpeechChannelHandleNS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB8ne190102Ev
++ __ZNSt12length_errorC1B8ne190102EPKc
++ __ZNSt12out_of_rangeC1B8ne190102EPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102ILi0EEEPKc
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIP19SpeechChannelHandleEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__120__throw_length_errorB8ne190102EPKc
++ __ZNSt3__120__throw_out_of_rangeB8ne190102EPKc
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEE16VoiceDescriptionEEPvEEEEEclB8ne190102EPSC_
++ __ZNSt3__127__tree_balance_after_insertB8ne190102IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorIhNS_9allocatorIhEEEC2B8ne190102Em
++ __ZSt28__throw_bad_array_new_lengthB8ne190102v
++ ___ZN19SpeechChannelHandle10CopyVoicesEPKv_block_invoke.cold.2
++ ___ZN19SpeechChannelHandle14HandleCallbackEPvb_block_invoke.163.cold.1
++ ___ZN19SpeechChannelHandle14HandleCallbackEPvb_block_invoke.cold.1
++ ___ZN19SpeechChannelHandle14RecoverChannelEv_block_invoke_3.cold.1
++ ___ZN19SpeechChannelHandleD2Ev_block_invoke.cold.1
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__14lessINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB8ne180100ERKS6_S9_
+- __ZNKSt3__16vectorIP19SpeechChannelHandleNS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB8ne180100Ev
+- __ZNSt12length_errorC1B8ne180100EPKc
+- __ZNSt12out_of_rangeC1B8ne180100EPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne180100ILi0EEEPKc
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIP19SpeechChannelHandleEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__120__throw_length_errorB8ne180100EPKc
+- __ZNSt3__120__throw_out_of_rangeB8ne180100EPKc
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEE16VoiceDescriptionEEPvEEEEEclB8ne180100EPSC_
+- __ZNSt3__127__tree_balance_after_insertB8ne180100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorIhNS_9allocatorIhEEEC2Em
+- __ZSt28__throw_bad_array_new_lengthB8ne180100v
+
+```

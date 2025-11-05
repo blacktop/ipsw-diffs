@@ -1,0 +1,135 @@
+## sshd
+
+> `/usr/sbin/sshd`
+
+```diff
+
+-342.0.0.0.0
+-  __TEXT.__text: 0x24154
+-  __TEXT.__auth_stubs: 0xee0
+-  __TEXT.__const: 0x1bfe0
+-  __TEXT.__cstring: 0x5d90
+-  __TEXT.__unwind_info: 0x568
+-  __DATA_CONST.__auth_got: 0x770
+-  __DATA_CONST.__got: 0x58
+-  __DATA_CONST.__auth_ptr: 0x20
+-  __DATA_CONST.__const: 0x1b20
++346.0.0.0.0
++  __TEXT.__text: 0x24434
++  __TEXT.__auth_stubs: 0xfd0
++  __TEXT.__const: 0x1bfb0
++  __TEXT.__cstring: 0x5ec6
++  __TEXT.__unwind_info: 0x580
++  __DATA_CONST.__auth_got: 0x7e8
++  __DATA_CONST.__got: 0x50
++  __DATA_CONST.__auth_ptr: 0x28
++  __DATA_CONST.__const: 0x1b60
+   __DATA.__data: 0x258
+   __DATA.__bss: 0x190
+-  __DATA.__common: 0x790
++  __DATA.__common: 0x798
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/Frameworks/Kerberos.framework/Versions/A/Kerberos
+   - /System/Library/Frameworks/OpenDirectory.framework/Versions/A/OpenDirectory
+
+   - /usr/lib/libpam.2.dylib
+   - /usr/lib/libresolv.9.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 449F6DF9-3F46-327F-802F-3821A8C64B63
++  UUID: 82D460F0-8E4C-38E6-8399-4B8F0320A1F2
+   Functions: 434
+-  Symbols:   274
+-  CStrings:  952
++  Symbols:   286
++  CStrings:  960
+ 
+Symbols:
++ _EVP_DigestSignFinal
++ _EVP_DigestSignInit
++ _EVP_DigestVerifyFinal
++ _EVP_DigestVerifyInit
++ _EVP_PKEY_CTX_ctrl
++ _EVP_PKEY_CTX_free
++ _EVP_PKEY_CTX_new_id
++ _EVP_PKEY_bits
++ _EVP_PKEY_cmp
++ _EVP_PKEY_get0_EC_KEY
++ _EVP_PKEY_get0_RSA
++ _EVP_PKEY_keygen
++ _EVP_PKEY_keygen_init
++ _EVP_PKEY_new
++ _EVP_PKEY_set1_EC_KEY
++ _EVP_PKEY_set1_RSA
++ _EVP_PKEY_size
++ _EVP_PKEY_up_ref
++ _RSA_pkey_ctx_ctrl
++ _d2i_ECDSA_SIG
++ _i2d_ECDSA_SIG
++ _mmap
++ _munmap
+- _BN_free
+- _BN_set_word
+- _ECDSA_do_sign
+- _ECDSA_do_verify
+- _EC_KEY_generate_key
+- _EC_KEY_set_asn1_flag
+- _EC_POINT_cmp
+- _RSA_generate_key_ex
+- _RSA_public_decrypt
+- _RSA_sign
+- _RSA_size
+CStrings:
++ " (invalid)"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/OpenSSH/openssh/addrmatch.c"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/OpenSSH/openssh/auth2-methods.c"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/OpenSSH/openssh/authfd.c"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/OpenSSH/openssh/authfile.c"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/OpenSSH/openssh/canohost.c"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/OpenSSH/openssh/entropy.c"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/OpenSSH/openssh/groupaccess.c"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/OpenSSH/openssh/kex-names.c"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/OpenSSH/openssh/misc.c"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/OpenSSH/openssh/msg.c"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/OpenSSH/openssh/servconf.c"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/OpenSSH/openssh/srclimit.c"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/OpenSSH/openssh/ssh-ed25519-sk.c"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/OpenSSH/openssh/ssh-ed25519.c"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/OpenSSH/openssh/sshd.c"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/OpenSSH/openssh/xmalloc.c"
++ "OpenSSH_9.9"
++ "OpenSSH_9.9p1"
++ "checking match for '%s' user %s%s host %s addr %s laddr %s lport %d"
++ "invalid-user"
++ "matched invalid-user at line %d"
++ "mlkem768x25519-sha256"
++ "penalty: connection prohibited by RefuseConnection"
++ "persourcepenalties crash:%d authfail:%d noauth:%d grace-exceeded:%d refuseconnection:%d max:%d min:%d max-sources4:%d max-sources6:%d overflow:%s overflow6:%s\n"
++ "preauth child %ld for %s prohibited byRefuseConnection %s"
++ "refuseconnection"
++ "refuseconnection:"
++ "sntrup761x25519-sha512"
++ "sntrup761x25519-sha512,sntrup761x25519-sha512@openssh.com,mlkem768x25519-sha256,curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256"
+- "*"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/OpenSSH/openssh/addrmatch.c"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/OpenSSH/openssh/auth2-methods.c"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/OpenSSH/openssh/authfd.c"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/OpenSSH/openssh/authfile.c"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/OpenSSH/openssh/canohost.c"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/OpenSSH/openssh/entropy.c"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/OpenSSH/openssh/groupaccess.c"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/OpenSSH/openssh/kex-names.c"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/OpenSSH/openssh/misc.c"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/OpenSSH/openssh/msg.c"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/OpenSSH/openssh/servconf.c"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/OpenSSH/openssh/srclimit.c"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/OpenSSH/openssh/ssh-ed25519-sk.c"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/OpenSSH/openssh/ssh-ed25519.c"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/OpenSSH/openssh/sshd.c"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/OpenSSH/openssh/xmalloc.c"
+- "OpenSSH_9.8"
+- "OpenSSH_9.8p1"
+- "checking match for '%s' user %s host %s addr %s laddr %s lport %d"
+- "persourcepenalties crash:%d authfail:%d noauth:%d grace-exceeded:%d max:%d min:%d max-sources4:%d max-sources6:%d overflow:%s overflow6:%s\n"
+- "sntrup761x25519-sha512@openssh.com,curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256"
+
+```

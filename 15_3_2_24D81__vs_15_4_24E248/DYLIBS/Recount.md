@@ -1,0 +1,531 @@
+## Recount
+
+> `/System/Library/PrivateFrameworks/Recount.framework/Versions/A/Recount`
+
+```diff
+
+-15.0.0.0.0
+-  __TEXT.__text: 0x386f0
+-  __TEXT.__auth_stubs: 0x10b0
+-  __TEXT.__const: 0x2e90
+-  __TEXT.__cstring: 0x1433
+-  __TEXT.__swift5_typeref: 0xd7b
+-  __TEXT.__constg_swiftt: 0xbe0
+-  __TEXT.__swift5_reflstr: 0x978
+-  __TEXT.__swift5_fieldmd: 0x1154
+-  __TEXT.__swift5_builtin: 0xdc
+-  __TEXT.__swift5_mpenum: 0x8c
+-  __TEXT.__swift5_assocty: 0xa8
+-  __TEXT.__swift5_proto: 0x310
+-  __TEXT.__swift5_types: 0x140
++36.0.0.0.0
++  __TEXT.__text: 0x4bbe4
++  __TEXT.__auth_stubs: 0x1160
++  __TEXT.__objc_methlist: 0x104
++  __TEXT.__const: 0x4e52
++  __TEXT.__cstring: 0x14e7
++  __TEXT.__swift5_typeref: 0x133c
++  __TEXT.__constg_swiftt: 0x11a4
++  __TEXT.__swift5_builtin: 0x118
++  __TEXT.__swift5_mpenum: 0xb4
++  __TEXT.__swift5_reflstr: 0xca7
++  __TEXT.__swift5_fieldmd: 0x1a48
++  __TEXT.__swift5_proto: 0x550
++  __TEXT.__swift5_types: 0x1dc
++  __TEXT.__oslogstring: 0x34b
++  __TEXT.__swift5_assocty: 0x138
+   __TEXT.__swift5_protos: 0x8
+   __TEXT.__swift5_capture: 0x94
+-  __TEXT.__oslogstring: 0x35
+-  __TEXT.__unwind_info: 0x1108
+-  __TEXT.__eh_frame: 0x1b40
++  __TEXT.__unwind_info: 0x1790
++  __TEXT.__eh_frame: 0x2b38
+   __TEXT.__objc_classname: 0x35
+-  __TEXT.__objc_methname: 0x1fc
++  __TEXT.__objc_methname: 0x1b9
+   __TEXT.__objc_methtype: 0xad
+-  __DATA_CONST.__got: 0x1e0
++  __DATA_CONST.__got: 0x238
+   __DATA_CONST.__const: 0x88
+-  __DATA_CONST.__objc_classlist: 0x40
++  __DATA_CONST.__objc_classlist: 0x68
+   __DATA_CONST.__objc_protolist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x48
++  __DATA_CONST.__objc_selrefs: 0xe0
+   __DATA_CONST.__objc_protorefs: 0x18
+-  __AUTH_CONST.__auth_got: 0x858
+-  __AUTH_CONST.__const: 0x2f90
+-  __AUTH_CONST.__objc_const: 0xa78
+-  __AUTH.__objc_data: 0xa0
+-  __AUTH.__data: 0x680
+-  __DATA.__data: 0xaa8
+-  __DATA.__bss: 0x6110
++  __AUTH_CONST.__auth_got: 0x8b0
++  __AUTH_CONST.__const: 0x4338
++  __AUTH_CONST.__objc_const: 0x1168
++  __AUTH.__objc_data: 0x50
++  __AUTH.__data: 0xbc0
++  __DATA.__data: 0xf60
++  __DATA.__bss: 0xa910
+   __DATA.__common: 0x98
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/PrivateFrameworks/kperf.framework/Versions/A/kperf
+
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: B15C4E5B-8667-3068-98B9-90BCF54B8178
+-  Functions: 1444
+-  Symbols:   571
+-  CStrings:  221
++  UUID: B01E7611-3624-39E6-B59F-DE126827B54B
++  Functions: 2045
++  Symbols:   748
++  CStrings:  257
+ 
+Symbols:
++ __DATA__TtC7Recount12CountingMode
++ __DATA__TtC7Recount15CounterAnalysis
++ __DATA__TtC7Recount15EventDictionary
++ __DATA__TtC7Recount8Platform
++ __DATA__TtCC7Recount12CountingMode6Metric
++ __DATA__TtCC7Recount12CountingMode9Threshold
++ __IVARS__TtC7Recount12CountingMode
++ __IVARS__TtC7Recount15CounterAnalysis
++ __IVARS__TtC7Recount15EventDictionary
++ __IVARS__TtC7Recount8Platform
++ __IVARS__TtCC7Recount12CountingMode6Metric
++ __IVARS__TtCC7Recount12CountingMode9Threshold
++ __METACLASS_DATA__TtC7Recount12CountingMode
++ __METACLASS_DATA__TtC7Recount15CounterAnalysis
++ __METACLASS_DATA__TtC7Recount15EventDictionary
++ __METACLASS_DATA__TtC7Recount8Platform
++ __METACLASS_DATA__TtCC7Recount12CountingMode6Metric
++ __METACLASS_DATA__TtCC7Recount12CountingMode9Threshold
++ ___swift_destroy_boxed_opaque_existential_0Tm
++ ___swift_memcpy12_4
++ ___swift_memcpy48_8
++ ___swift_memcpy52_8
++ ___swift_memcpy64_8
++ ___swift_memcpy9_8
++ ___swift_mutable_project_boxed_opaque_existential_1
++ _associated conformance 7Recount10MetricSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLOSHAASQ
++ _associated conformance 7Recount10MetricSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 7Recount10MetricSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7Recount11DisplaySpecO0B4KeysOSHAASQ
++ _associated conformance 7Recount11DisplaySpecO0B4KeysOs9CodingKeyAAs23CustomStringConvertible
++ _associated conformance 7Recount11DisplaySpecO0B4KeysOs9CodingKeyAAs28CustomDebugStringConvertible
++ _associated conformance 7Recount11DisplaySpecO14NormalizedAreaV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLOSHAASQ
++ _associated conformance 7Recount11DisplaySpecO14NormalizedAreaV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 7Recount11DisplaySpecO14NormalizedAreaV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7Recount11DisplaySpecO14NormalizedAreaV7ElementV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLOSHAASQ
++ _associated conformance 7Recount11DisplaySpecO14NormalizedAreaV7ElementV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 7Recount11DisplaySpecO14NormalizedAreaV7ElementV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7Recount11DisplaySpecO18NormalizedAreaKeysOSHAASQ
++ _associated conformance 7Recount11DisplaySpecO18NormalizedAreaKeysOs9CodingKeyAAs23CustomStringConvertible
++ _associated conformance 7Recount11DisplaySpecO18NormalizedAreaKeysOs9CodingKeyAAs28CustomDebugStringConvertible
++ _associated conformance 7Recount11DisplaySpecO3BarV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLOSHAASQ
++ _associated conformance 7Recount11DisplaySpecO3BarV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 7Recount11DisplaySpecO3BarV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7Recount11DisplaySpecO7BarKeysOSHAASQ
++ _associated conformance 7Recount11DisplaySpecO7BarKeysOs9CodingKeyAAs23CustomStringConvertible
++ _associated conformance 7Recount11DisplaySpecO7BarKeysOs9CodingKeyAAs28CustomDebugStringConvertible
++ _associated conformance 7Recount11KPCSettingsV8KPCErrorV10Foundation14LocalizedErrorAAs0F0
++ _associated conformance 7Recount12ConstantSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLOSHAASQ
++ _associated conformance 7Recount12ConstantSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 7Recount12ConstantSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7Recount12CountingModeC10CodingKeysOSHAASQ
++ _associated conformance 7Recount12CountingModeC10CodingKeysOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 7Recount12CountingModeC10CodingKeysOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7Recount12CountingModeC6MetricC10CodingKeys33_A5452B309AA9CC987D6ED11BB8571DC9LLOSHAASQ
++ _associated conformance 7Recount12CountingModeC6MetricC10CodingKeys33_A5452B309AA9CC987D6ED11BB8571DC9LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 7Recount12CountingModeC6MetricC10CodingKeys33_A5452B309AA9CC987D6ED11BB8571DC9LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7Recount12CountingModeC6MetricCSHAASQ
++ _associated conformance 7Recount12CountingModeC6RemarkV8SeverityOSHAASQ
++ _associated conformance 7Recount12CountingModeC6RemarkVSHAASQ
++ _associated conformance 7Recount12CountingModeC7DisplayO14NormalizedAreaV7ElementVSHAASQ
++ _associated conformance 7Recount12CountingModeC7DisplayO14NormalizedAreaVSHAASQ
++ _associated conformance 7Recount12CountingModeC7DisplayO3BarVSHAASQ
++ _associated conformance 7Recount12CountingModeC7DisplayO5ColorOSHAASQ
++ _associated conformance 7Recount12CountingModeC7DisplayOSHAASQ
++ _associated conformance 7Recount12CountingModeC8SettingsV10CodingKeys33_B88B794DD4AD156E94ADD9FCBA7768F9LLOSHAASQ
++ _associated conformance 7Recount12CountingModeC8SettingsV10CodingKeys33_B88B794DD4AD156E94ADD9FCBA7768F9LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 7Recount12CountingModeC8SettingsV10CodingKeys33_B88B794DD4AD156E94ADD9FCBA7768F9LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7Recount12CountingModeC8SettingsV10EventErrorO10Foundation09LocalizedF0AAs0F0
++ _associated conformance 7Recount12CountingModeC9ThresholdCSHAASQ
++ _associated conformance 7Recount12CountingModeC9ViolationV8SeverityOSHAASQ
++ _associated conformance 7Recount12CountingModeC9ViolationVSHAASQ
++ _associated conformance 7Recount12CountingModeCSHAASQ
++ _associated conformance 7Recount12EventSamplerVAA9PlaceableAA18FallbackComparableAaDP_SL
++ _associated conformance 7Recount12PlatformSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLOSHAASQ
++ _associated conformance 7Recount12PlatformSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 7Recount12PlatformSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7Recount13ThresholdSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLOSHAASQ
++ _associated conformance 7Recount13ThresholdSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 7Recount13ThresholdSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7Recount15CounterAnalysisC10CodingKeysOSHAASQ
++ _associated conformance 7Recount15CounterAnalysisC10CodingKeysOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 7Recount15CounterAnalysisC10CodingKeysOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7Recount15CounterAnalysisCSHAASQ
++ _associated conformance 7Recount15EventDictionaryC10CodingKeys33_476DDD13DE8C4F12CA7600BFBF32A6F8LLOSHAASQ
++ _associated conformance 7Recount15EventDictionaryC10CodingKeys33_476DDD13DE8C4F12CA7600BFBF32A6F8LLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 7Recount15EventDictionaryC10CodingKeys33_476DDD13DE8C4F12CA7600BFBF32A6F8LLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7Recount15NamedExpressionV10CodingKeys33_DBD159E3E8EB81285CBCD81CD7D7A73ELLOSHAASQ
++ _associated conformance 7Recount15NamedExpressionV10CodingKeys33_DBD159E3E8EB81285CBCD81CD7D7A73ELLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 7Recount15NamedExpressionV10CodingKeys33_DBD159E3E8EB81285CBCD81CD7D7A73ELLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7Recount16KPEPPropertyListV06SystemC0V10CodingKeys33_476DDD13DE8C4F12CA7600BFBF32A6F8LLOSHAASQ
++ _associated conformance 7Recount16KPEPPropertyListV06SystemC0V10CodingKeys33_476DDD13DE8C4F12CA7600BFBF32A6F8LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 7Recount16KPEPPropertyListV06SystemC0V10CodingKeys33_476DDD13DE8C4F12CA7600BFBF32A6F8LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7Recount16KPEPPropertyListV10CodingKeys33_476DDD13DE8C4F12CA7600BFBF32A6F8LLOSHAASQ
++ _associated conformance 7Recount16KPEPPropertyListV10CodingKeys33_476DDD13DE8C4F12CA7600BFBF32A6F8LLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 7Recount16KPEPPropertyListV10CodingKeys33_476DDD13DE8C4F12CA7600BFBF32A6F8LLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7Recount17CountingModeErrorO10Foundation09LocalizedD0AAs0D0
++ _associated conformance 7Recount19CounterAnalysisSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLOSHAASQ
++ _associated conformance 7Recount19CounterAnalysisSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 7Recount19CounterAnalysisSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7Recount20CounterAnalysisErrorO10Foundation09LocalizedD0AAs0D0
++ _associated conformance 7Recount5EventV10CodingKeys33_476DDD13DE8C4F12CA7600BFBF32A6F8LLOSHAASQ
++ _associated conformance 7Recount5EventV10CodingKeys33_476DDD13DE8C4F12CA7600BFBF32A6F8LLOs0C3KeyAAs23CustomStringConvertible
++ _associated conformance 7Recount5EventV10CodingKeys33_476DDD13DE8C4F12CA7600BFBF32A6F8LLOs0C3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7Recount5EventVAA9PlaceableAA18FallbackComparableAaDP_SL
++ _associated conformance 7Recount7SiliconV10CPUTripletV10CodingKeys33_9EEF9C4EA983A066B7DEA9E0F60397F4LLOSHAASQ
++ _associated conformance 7Recount7SiliconV10CPUTripletV10CodingKeys33_9EEF9C4EA983A066B7DEA9E0F60397F4LLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 7Recount7SiliconV10CPUTripletV10CodingKeys33_9EEF9C4EA983A066B7DEA9E0F60397F4LLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7Recount8ModeSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLOSHAASQ
++ _associated conformance 7Recount8ModeSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 7Recount8ModeSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7Recount8PlatformC10CodingKeys33_F978595F3566D9B20701B5A57F34B147LLOSHAASQ
++ _associated conformance 7Recount8PlatformC10CodingKeys33_F978595F3566D9B20701B5A57F34B147LLOs0C3KeyAAs23CustomStringConvertible
++ _associated conformance 7Recount8PlatformC10CodingKeys33_F978595F3566D9B20701B5A57F34B147LLOs0C3KeyAAs28CustomDebugStringConvertible
++ _kdebug_trace
++ _swift_copyKeyPathTrivialIndices
++ _swift_getAtKeyPath
++ _swift_getErrorValue
++ _swift_makeBoxUnique
++ _swift_retain_n
++ _symbolic 18FallbackComparable_____Qz 7Recount9PlaceableP
++ _symbolic SDySS_____G 7Recount12ConstantSpecV
++ _symbolic SS4name_SS8platformt
++ _symbolic SS_SS______pt s5ErrorP
++ _symbolic SS_SbtSg
++ _symbolic SaySbG
++ _symbolic Say_____G 7Recount11DisplaySpecO
++ _symbolic Say_____G 7Recount11DisplaySpecO14NormalizedAreaV7ElementV
++ _symbolic Say_____G 7Recount12CountingModeC6MetricC
++ _symbolic Say_____G 7Recount12CountingModeC6RemarkV
++ _symbolic Say_____G 7Recount12CountingModeC7DisplayO
++ _symbolic Say_____G 7Recount12CountingModeC7DisplayO14NormalizedAreaV7ElementV
++ _symbolic Say_____G 7Recount12CountingModeC9ThresholdC
++ _symbolic Say_____G 7Recount12CountingModeC9ViolationV
++ _symbolic Say_____G 7Recount12PlatformSpecV
++ _symbolic Say_____G 7Recount13ThresholdSpecV
++ _symbolic Say_____G 7Recount15NamedExpressionV
++ _symbolic Say_____G 7Recount8ModeSpecV
++ _symbolic Say_____G 7Recount9EvaluatorC5LimitV
++ _symbolic Say______SStG 7Recount10MetricSpecV
++ _symbolic SdSg
++ _symbolic _____ 7Recount10MetricSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLO
++ _symbolic _____ 7Recount11DisplaySpecO
++ _symbolic _____ 7Recount11DisplaySpecO0B4KeysO
++ _symbolic _____ 7Recount11DisplaySpecO14NormalizedAreaV
++ _symbolic _____ 7Recount11DisplaySpecO14NormalizedAreaV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLO
++ _symbolic _____ 7Recount11DisplaySpecO14NormalizedAreaV7ElementV
++ _symbolic _____ 7Recount11DisplaySpecO14NormalizedAreaV7ElementV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLO
++ _symbolic _____ 7Recount11DisplaySpecO18NormalizedAreaKeysO
++ _symbolic _____ 7Recount11DisplaySpecO3BarV
++ _symbolic _____ 7Recount11DisplaySpecO3BarV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLO
++ _symbolic _____ 7Recount11DisplaySpecO7BarKeysO
++ _symbolic _____ 7Recount11KPCSettingsV8KPCErrorV
++ _symbolic _____ 7Recount12ConstantSpecV
++ _symbolic _____ 7Recount12ConstantSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLO
++ _symbolic _____ 7Recount12CountingModeC
++ _symbolic _____ 7Recount12CountingModeC10CodingKeysO
++ _symbolic _____ 7Recount12CountingModeC10EvaluationV
++ _symbolic _____ 7Recount12CountingModeC6MetricC
++ _symbolic _____ 7Recount12CountingModeC6MetricC10CodingKeys33_A5452B309AA9CC987D6ED11BB8571DC9LLO
++ _symbolic _____ 7Recount12CountingModeC6RemarkV
++ _symbolic _____ 7Recount12CountingModeC6RemarkV8SeverityO
++ _symbolic _____ 7Recount12CountingModeC7DisplayO
++ _symbolic _____ 7Recount12CountingModeC7DisplayO14NormalizedAreaV
++ _symbolic _____ 7Recount12CountingModeC7DisplayO14NormalizedAreaV7ElementV
++ _symbolic _____ 7Recount12CountingModeC7DisplayO3BarV
++ _symbolic _____ 7Recount12CountingModeC7DisplayO5ColorO
++ _symbolic _____ 7Recount12CountingModeC8SettingsV
++ _symbolic _____ 7Recount12CountingModeC8SettingsV10CodingKeys33_B88B794DD4AD156E94ADD9FCBA7768F9LLO
++ _symbolic _____ 7Recount12CountingModeC8SettingsV10EventErrorO
++ _symbolic _____ 7Recount12CountingModeC9ThresholdC
++ _symbolic _____ 7Recount12CountingModeC9ViolationV
++ _symbolic _____ 7Recount12CountingModeC9ViolationV8SeverityO
++ _symbolic _____ 7Recount12PlatformSpecV
++ _symbolic _____ 7Recount12PlatformSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLO
++ _symbolic _____ 7Recount13CounterSampleV
++ _symbolic _____ 7Recount13ThresholdSpecV
++ _symbolic _____ 7Recount13ThresholdSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLO
++ _symbolic _____ 7Recount15CounterAnalysisC
++ _symbolic _____ 7Recount15CounterAnalysisC10CodingKeysO
++ _symbolic _____ 7Recount15EventDictionaryC
++ _symbolic _____ 7Recount15EventDictionaryC10CodingKeys33_476DDD13DE8C4F12CA7600BFBF32A6F8LLO
++ _symbolic _____ 7Recount15NamedExpressionV10CodingKeys33_DBD159E3E8EB81285CBCD81CD7D7A73ELLO
++ _symbolic _____ 7Recount16KPEPPropertyListV06SystemC0V10CodingKeys33_476DDD13DE8C4F12CA7600BFBF32A6F8LLO
++ _symbolic _____ 7Recount16KPEPPropertyListV10CodingKeys33_476DDD13DE8C4F12CA7600BFBF32A6F8LLO
++ _symbolic _____ 7Recount17CountingModeErrorO
++ _symbolic _____ 7Recount19CounterAnalysisSpecV
++ _symbolic _____ 7Recount19CounterAnalysisSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLO
++ _symbolic _____ 7Recount20CounterAnalysisErrorO
++ _symbolic _____ 7Recount5EventV10CodingKeys33_476DDD13DE8C4F12CA7600BFBF32A6F8LLO
++ _symbolic _____ 7Recount7SiliconV10CPUTripletV
++ _symbolic _____ 7Recount7SiliconV10CPUTripletV10CodingKeys33_9EEF9C4EA983A066B7DEA9E0F60397F4LLO
++ _symbolic _____ 7Recount8ModeSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLO
++ _symbolic _____ 7Recount8PlatformC
++ _symbolic _____ 7Recount8PlatformC10CodingKeys33_F978595F3566D9B20701B5A57F34B147LLO
++ _symbolic _____ 7Recount9EvaluatorC5LimitV
++ _symbolic _____Sg 7Recount12CountingModeC
++ _symbolic ______SSt 7Recount10MetricSpecV
++ _symbolic _____ySS_SbtSgG s23_ContiguousArrayStorageC
++ _symbolic _____ySbG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7Recount10MetricSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7Recount11DisplaySpecO0E4KeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7Recount11DisplaySpecO14NormalizedAreaV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7Recount11DisplaySpecO14NormalizedAreaV7ElementV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7Recount11DisplaySpecO3BarV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7Recount12ConstantSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7Recount12CountingModeC10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7Recount12CountingModeC6MetricC10CodingKeys33_A5452B309AA9CC987D6ED11BB8571DC9LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7Recount12CountingModeC8SettingsV10CodingKeys33_B88B794DD4AD156E94ADD9FCBA7768F9LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7Recount12PlatformSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7Recount13ThresholdSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7Recount15CounterAnalysisC10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7Recount15EventDictionaryC10CodingKeys33_476DDD13DE8C4F12CA7600BFBF32A6F8LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7Recount15NamedExpressionV10CodingKeys33_DBD159E3E8EB81285CBCD81CD7D7A73ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7Recount16KPEPPropertyListV06SystemF0V10CodingKeys33_476DDD13DE8C4F12CA7600BFBF32A6F8LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7Recount16KPEPPropertyListV10CodingKeys33_476DDD13DE8C4F12CA7600BFBF32A6F8LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7Recount19CounterAnalysisSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7Recount5EventV10CodingKeys33_476DDD13DE8C4F12CA7600BFBF32A6F8LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7Recount7SiliconV10CPUTripletV10CodingKeys33_9EEF9C4EA983A066B7DEA9E0F60397F4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7Recount8ModeSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7Recount8PlatformC10CodingKeys33_F978595F3566D9B20701B5A57F34B147LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7Recount10MetricSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7Recount11DisplaySpecO14NormalizedAreaV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7Recount11DisplaySpecO14NormalizedAreaV7ElementV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7Recount11DisplaySpecO18NormalizedAreaKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7Recount11DisplaySpecO3BarV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7Recount11DisplaySpecO7BarKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7Recount12ConstantSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7Recount12CountingModeC10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7Recount12CountingModeC6MetricC10CodingKeys33_A5452B309AA9CC987D6ED11BB8571DC9LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7Recount12CountingModeC8SettingsV10CodingKeys33_B88B794DD4AD156E94ADD9FCBA7768F9LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7Recount12PlatformSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7Recount13ThresholdSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7Recount15CounterAnalysisC10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7Recount15EventDictionaryC10CodingKeys33_476DDD13DE8C4F12CA7600BFBF32A6F8LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7Recount15NamedExpressionV10CodingKeys33_DBD159E3E8EB81285CBCD81CD7D7A73ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7Recount19CounterAnalysisSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7Recount5EventV10CodingKeys33_476DDD13DE8C4F12CA7600BFBF32A6F8LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7Recount7SiliconV10CPUTripletV10CodingKeys33_9EEF9C4EA983A066B7DEA9E0F60397F4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7Recount8ModeSpecV10CodingKeys33_56B3ADF9C6D2707AE71249C01103FF9ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7Recount8PlatformC10CodingKeys33_F978595F3566D9B20701B5A57F34B147LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 7Recount12CountingModeC6RemarkV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 7Recount12CountingModeC7DisplayO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 7Recount12CountingModeC7DisplayO14NormalizedAreaV7ElementV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 7Recount12CountingModeC9ViolationV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 7Recount9EvaluatorC5LimitV
++ _symbolic _____y_____SaySSGG 10Foundation15ListFormatStyleV AA06StringD0V
++ _symbolic _____y_____SaySSG_G 10Foundation15ListFormatStyleV0B4TypeO AA06StringD0V
++ _symbolic _____y_____SaySSG_G 10Foundation15ListFormatStyleV5WidthO AA06StringD0V
++ _symbolic _____y______SStG 10Foundation17KeyPathComparatorV 7Recount10MetricSpecV
++ _symbolic _____y______SStG s23_ContiguousArrayStorageC 7Recount10MetricSpecV
++ _symbolic _____yypG s23_ContiguousArrayStorageC
++ block_copy_helper.16
++ block_copy_helper.19
++ block_descriptor.18
++ block_descriptor.21
++ block_destroy_helper.17
++ block_destroy_helper.20
+- __DATA__TtC7Recount10EventStore
+- __IVARS__TtC7Recount10EventStore
+- __METACLASS_DATA__TtC7Recount10EventStore
+- ___swift_memcpy104_8
+- ___swift_memcpy120_8
+- ___swift_memcpy208_8
+- ___swift_memcpy44_8
+- _associated conformance 7Recount10MetricSpecV10CodingKeys33_7176FA1ED17575C57EF44C64EBF0FFD7LLOSHAASQ
+- _associated conformance 7Recount10MetricSpecV10CodingKeys33_7176FA1ED17575C57EF44C64EBF0FFD7LLOs0D3KeyAAs23CustomStringConvertible
+- _associated conformance 7Recount10MetricSpecV10CodingKeys33_7176FA1ED17575C57EF44C64EBF0FFD7LLOs0D3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 7Recount16KPEPPropertyListV06SystemC0V10CodingKeys33_1DA9BE1D32E953290CC0FB8A0227A492LLOSHAASQ
+- _associated conformance 7Recount16KPEPPropertyListV06SystemC0V10CodingKeys33_1DA9BE1D32E953290CC0FB8A0227A492LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 7Recount16KPEPPropertyListV06SystemC0V10CodingKeys33_1DA9BE1D32E953290CC0FB8A0227A492LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 7Recount16KPEPPropertyListV10CodingKeys33_1DA9BE1D32E953290CC0FB8A0227A492LLOSHAASQ
+- _associated conformance 7Recount16KPEPPropertyListV10CodingKeys33_1DA9BE1D32E953290CC0FB8A0227A492LLOs0D3KeyAAs23CustomStringConvertible
+- _associated conformance 7Recount16KPEPPropertyListV10CodingKeys33_1DA9BE1D32E953290CC0FB8A0227A492LLOs0D3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 7Recount4ModeV10CodingKeysOSHAASQ
+- _associated conformance 7Recount4ModeV10CodingKeysOs0C3KeyAAs23CustomStringConvertible
+- _associated conformance 7Recount4ModeV10CodingKeysOs0C3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 7Recount6MetricV10CodingKeys33_A5452B309AA9CC987D6ED11BB8571DC9LLOSHAASQ
+- _associated conformance 7Recount6MetricV10CodingKeys33_A5452B309AA9CC987D6ED11BB8571DC9LLOs0C3KeyAAs23CustomStringConvertible
+- _associated conformance 7Recount6MetricV10CodingKeys33_A5452B309AA9CC987D6ED11BB8571DC9LLOs0C3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 7Recount7SetSpecV10CodingKeys33_BFFF5DDE42B4C4F05D40427EE6A07034LLOSHAASQ
+- _associated conformance 7Recount7SetSpecV10CodingKeys33_BFFF5DDE42B4C4F05D40427EE6A07034LLOs0D3KeyAAs23CustomStringConvertible
+- _associated conformance 7Recount7SetSpecV10CodingKeys33_BFFF5DDE42B4C4F05D40427EE6A07034LLOs0D3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 7Recount8ModeSpecV10CodingKeys33_32A1276F45C0CCAE358DF6317BBCCE12LLOSHAASQ
+- _associated conformance 7Recount8ModeSpecV10CodingKeys33_32A1276F45C0CCAE358DF6317BBCCE12LLOs0D3KeyAAs23CustomStringConvertible
+- _associated conformance 7Recount8ModeSpecV10CodingKeys33_32A1276F45C0CCAE358DF6317BBCCE12LLOs0D3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 7Recount8SettingsV10CodingKeys33_B88B794DD4AD156E94ADD9FCBA7768F9LLOSHAASQ
+- _associated conformance 7Recount8SettingsV10CodingKeys33_B88B794DD4AD156E94ADD9FCBA7768F9LLOs0C3KeyAAs23CustomStringConvertible
+- _associated conformance 7Recount8SettingsV10CodingKeys33_B88B794DD4AD156E94ADD9FCBA7768F9LLOs0C3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 7Recount8SettingsV10EventErrorO10Foundation09LocalizedD0AAs0D0
+- _associated conformance 7Recount9ModeErrorO10Foundation09LocalizedC0AAs0C0
+- _fmod
+- _memset
+- _objc_retain
+- _symbolic SS______tSg 7Recount5EventV
+- _symbolic Say_____G 7Recount4ModeV
+- _symbolic Say_____G 7Recount6MetricV
+- _symbolic Say_____G 7Recount7SetSpecV
+- _symbolic _____ 7Recount10EventStoreC
+- _symbolic _____ 7Recount10MetricSpecV10CodingKeys33_7176FA1ED17575C57EF44C64EBF0FFD7LLO
+- _symbolic _____ 7Recount16KPEPPropertyListV06SystemC0V10CodingKeys33_1DA9BE1D32E953290CC0FB8A0227A492LLO
+- _symbolic _____ 7Recount16KPEPPropertyListV10CodingKeys33_1DA9BE1D32E953290CC0FB8A0227A492LLO
+- _symbolic _____ 7Recount4ModeV
+- _symbolic _____ 7Recount4ModeV10CodingKeysO
+- _symbolic _____ 7Recount6MetricV
+- _symbolic _____ 7Recount6MetricV10CodingKeys33_A5452B309AA9CC987D6ED11BB8571DC9LLO
+- _symbolic _____ 7Recount7SetSpecV
+- _symbolic _____ 7Recount7SetSpecV10CodingKeys33_BFFF5DDE42B4C4F05D40427EE6A07034LLO
+- _symbolic _____ 7Recount8ModeListV
+- _symbolic _____ 7Recount8ModeSpecV10CodingKeys33_32A1276F45C0CCAE358DF6317BBCCE12LLO
+- _symbolic _____ 7Recount8SettingsV
+- _symbolic _____ 7Recount8SettingsV10CodingKeys33_B88B794DD4AD156E94ADD9FCBA7768F9LLO
+- _symbolic _____ 7Recount8SettingsV10EventErrorO
+- _symbolic _____ 7Recount9ModeErrorO
+- _symbolic _____Sg 7Recount4ModeV
+- _symbolic _____ySSSgG s23_ContiguousArrayStorageC
+- _symbolic _____ySiG s23_ContiguousArrayStorageC
+- _symbolic _____y_____G 10Foundation17KeyPathComparatorV 7Recount6MetricV
+- _symbolic _____y_____G s22KeyedDecodingContainerV 7Recount10MetricSpecV10CodingKeys33_7176FA1ED17575C57EF44C64EBF0FFD7LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 7Recount16KPEPPropertyListV06SystemF0V10CodingKeys33_1DA9BE1D32E953290CC0FB8A0227A492LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 7Recount16KPEPPropertyListV10CodingKeys33_1DA9BE1D32E953290CC0FB8A0227A492LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 7Recount4ModeV10CodingKeysO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 7Recount6MetricV10CodingKeys33_A5452B309AA9CC987D6ED11BB8571DC9LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 7Recount7SetSpecV10CodingKeys33_BFFF5DDE42B4C4F05D40427EE6A07034LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 7Recount8ModeSpecV10CodingKeys33_32A1276F45C0CCAE358DF6317BBCCE12LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 7Recount8SettingsV10CodingKeys33_B88B794DD4AD156E94ADD9FCBA7768F9LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 7Recount10MetricSpecV10CodingKeys33_7176FA1ED17575C57EF44C64EBF0FFD7LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 7Recount4ModeV10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 7Recount6MetricV10CodingKeys33_A5452B309AA9CC987D6ED11BB8571DC9LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 7Recount7SetSpecV10CodingKeys33_BFFF5DDE42B4C4F05D40427EE6A07034LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 7Recount8SettingsV10CodingKeys33_B88B794DD4AD156E94ADD9FCBA7768F9LLO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 7Recount4ModeV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 7Recount6MetricV
+- block_copy_helper.17
+- block_copy_helper.20
+- block_descriptor.19
+- block_descriptor.22
+- block_destroy_helper.18
+- block_destroy_helper.21
+CStrings:
++ " across all sets"
++ " and events on counters "
++ " configurable starting at "
++ " is missing a threshold value"
++ " is not a name of an expression for threshold "
++ ") with settings "
++ ", configuration "
++ ", multiplexing period "
++ "/System/AppleInternal/Library/Recount/Analysis/"
++ "0x%08x, 0x%08x, 0x%08x"
++ ": failed to create expression from "
++ ": failed to decode mode: "
++ ": mode is unsupported on "
++ "Awimbo PMC configured sampling on context-switch"
++ "Awimbo PMC configured sampling on timer with period %{public}s"
++ "Awimbo PMC starting KPC configuration with %{public}s"
++ "Awimbo PMI using KPC configuration %{public}s"
++ "Awimbo PMI using events %{public}s, period %{public}s from %{public}s"
++ "CPUCountersProvider"
++ "CounterAnalysis named "
++ "CountingMode named "
++ "CountingMode.Settings for "
++ "KPC settings with config: "
++ "RECOUNT_ANALYSIS_PATH"
++ "_TtC7Recount12CountingMode"
++ "_TtC7Recount15CounterAnalysis"
++ "_TtC7Recount15EventDictionary"
++ "_TtC7Recount8Platform"
++ "_TtCC7Recount12CountingMode6Metric"
++ "_TtCC7Recount12CountingMode9Threshold"
++ "applying %{public}s failed: %{public}s"
++ "commentary"
++ "constants"
++ "could not find CounterAnalysis named %{public}s"
++ "denominator"
++ "displays"
++ "documentation"
++ "elements"
++ "evaluator"
++ "eventDictionary"
++ "expected `normalized-area' or `bar' for display kind, not `"
++ "failed to decode CounterAnalysis from URL %{public}s for %{public}s: %{public}s"
++ "failed to decode CounterAnalysis: %{public}s"
++ "failed to encode %{public}s: %{public}s"
++ "failed to evaluate metric values: %{public}s"
++ "id"
++ "initialModeID"
++ "initialModeName"
++ "initialized %{public}s"
++ "initialized %{public}s with %{public}ld expressions, %{public}ld constants"
++ "isInternal"
++ "isMarked"
++ "kind"
++ "limits"
++ "markedResults"
++ "metric"
++ "namedExpressions"
++ "nextCountingMode"
++ "nextCountingModeID"
++ "nextCountingModeName"
++ "parsing options %{public}s"
++ "platform"
++ "resultCount"
++ "searching in %{public}s for CounterAnalysis specifications"
++ "spec"
++ "suggestedMaximum"
++ "supportedCountingModes"
++ "synopsis"
++ "thresholds"
+- "/AppleInternal/System/Library/Recount/Modes/"
+- "Can't construct Array with count < 0"
+- "Insufficient space allocated to copy string contents"
+- "Must take zero or more splits"
+- "Negative value is not representable"
+- "Placing events at %s"
+- "RECOUNT_MODES_PATH"
+- "Range requires lowerBound <= upperBound"
+- "Swift/Array.swift"
+- "Swift/Collection.swift"
+- "Swift/ContiguousArrayBuffer.swift"
+- "Swift/Integers.swift"
+- "Swift/Range.swift"
+- "Swift/StringTesting.swift"
+- "Swift/StringUTF8View.swift"
+- "Swift/UnsafeBufferPointer.swift"
+- "Swift/UnsafePointer.swift"
+- "Swift/UnsafeRawPointer.swift"
+- "Unexpectedly found nil while unwrapping an Optional value"
+- "UnsafeMutableBufferPointer with negative count"
+- "UnsafeMutablePointer.initialize overlapping range"
+- "UnsafeMutablePointer.initialize with negative count"
+- "UnsafeMutablePointer.moveInitialize with negative count"
+- "UnsafeMutableRawPointer.initializeMemory overlapping range"
+- "_TtC7Recount10EventStore"
+- "configs: %s, samplers: %s"
+- "contentsOfDirectoryAtURL:includingPropertiesForKeys:options:error:"
+- "displayCommentary"
+- "displayDescription"
+- "displayDocumentation"
+- "invalid Collection: less than 'count' elements in collection"
+- "missing expression for "
+- "supportedPlatforms"
+
+```

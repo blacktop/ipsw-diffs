@@ -1,0 +1,198 @@
+## iPodUpdater
+
+> `/System/Library/PrivateFrameworks/iPodUpdater.framework/Versions/A/iPodUpdater`
+
+```diff
+
+ 308.0.0.0.0
+-  __TEXT.__text: 0x4c448
++  __TEXT.__text: 0x4be64
+   __TEXT.__auth_stubs: 0x1420
+   __TEXT.__init_offsets: 0xc
+-  __TEXT.__objc_methlist: 0x15bc
+-  __TEXT.__gcc_except_tab: 0x455c
++  __TEXT.__objc_methlist: 0x1664
++  __TEXT.__gcc_except_tab: 0x4554
+   __TEXT.__cstring: 0x9eb6
+   __TEXT.__const: 0x59f8
+-  __TEXT.__unwind_info: 0x23a0
+-  __TEXT.__eh_frame: 0xd0
++  __TEXT.__unwind_info: 0x2390
++  __TEXT.__eh_frame: 0x80
+   __TEXT.__objc_classname: 0x1a8
+   __TEXT.__objc_methname: 0x2d0d
+   __TEXT.__objc_methtype: 0xcf0
+
+   __DATA_CONST.__objc_catlist: 0x30
+   __DATA_CONST.__objc_protolist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1068
++  __DATA_CONST.__objc_selrefs: 0x1078
+   __DATA_CONST.__objc_protorefs: 0x8
+   __DATA_CONST.__objc_superrefs: 0x90
+   __AUTH_CONST.__auth_got: 0xa28
+   __AUTH_CONST.__const: 0x2080
+   __AUTH_CONST.__cfstring: 0x4200
+-  __AUTH_CONST.__objc_const: 0x1a70
++  __AUTH_CONST.__objc_const: 0x1940
+   __AUTH.__objc_data: 0x690
+   __DATA.__objc_ivar: 0x15c
+   __DATA.__data: 0x620
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F132A491-DCDF-3A21-8C96-2765AF78F6EE
+-  Functions: 1928
+-  Symbols:   4127
++  UUID: 3B2A536A-9600-3708-9046-30FD7B2A4461
++  Functions: 1918
++  Symbols:   4129
+   CStrings:  2576
+ 
+Symbols:
++ FileHasResourceFork.cold.1
++ _OUTLINED_FUNCTION_0
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__14lessINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB8ne190102ERKS6_S9_
++ __ZNKSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB8ne190102Ev
++ __ZNKSt3__16vectorItNS_9allocatorItEEE20__throw_length_errorB8ne190102Ev
++ __ZNSt12length_errorC1B8ne190102EPKc
++ __ZNSt3__110ostrstreamC1B8ne190102Ev
++ __ZNSt3__112__destroy_atB8ne190102INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EELi0EEEvPT_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB8ne190102INS_11__wrap_iterIPKcEESA_EEvT_T0_m
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB8ne190102INS_11__wrap_iterIPcEES9_EEvT_T0_m
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102ENS_24__uninitialized_size_tagEmRKS4_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102Emc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102ILi0EEEPKc
++ __ZNSt3__113__tree_removeB8ne190102IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB8ne190102Ev
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102ERKNS_12basic_stringIcS2_S4_EEj
++ __ZNSt3__116__pad_and_outputB8ne190102IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIPN17CThreadedProgress12ProgressInfoEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorItEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne190102ERKNS_12basic_stringIcS2_S4_EEj
++ __ZNSt3__119basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne190102Ev
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne190102Ev
++ __ZNSt3__120__throw_length_errorB8ne190102EPKc
++ __ZNSt3__121__map_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEES8_EEPvEEEEEclB8ne190102EPSB_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEES8_EEPvEEEEEclB8ne190102EPSB_
++ __ZNSt3__124__put_character_sequenceB8ne190102IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__127__tree_balance_after_insertB8ne190102IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_NS_4lessIS6_EENS4_INS_4pairIKS6_S6_EEEEE6insertB8ne190102INS_20__map_const_iteratorINS_21__tree_const_iteratorINS_12__value_typeIS6_S6_EEPNS_11__tree_nodeISI_PvEElEEEEEEvT_SP_
++ __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_NS_4lessIS6_EENS4_INS_4pairIKS6_S6_EEEEEC2B8ne190102ERKSD_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B8ne190102ERKS8_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B8ne190102IS6_S6_EERKNS0_IT_T0_EE
++ __ZNSt3__14pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B8ne190102ERKS6_S9_
++ __ZNSt3__15dequeIN17CThreadedProgress12ProgressInfoENS_9allocatorIS2_EEE26__maybe_remove_front_spareB8ne190102Eb
++ __ZNSt3__15dequeIN17CThreadedProgress12ProgressInfoENS_9allocatorIS2_EEED2B8ne190102Ev
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorIcNS_9allocatorIcEEEC2B8ne190102Em
++ __ZNSt3__16vectorItNS_9allocatorItEEE11__vallocateB8ne190102Em
++ __ZNSt3__16vectorItNS_9allocatorItEEE16__init_with_sizeB8ne190102INS_11__wrap_iterIPKcEES8_EEvT_T0_m
++ __ZNSt3__17getlineB8ne190102IcNS_11char_traitsIcEENS_9allocatorIcEEEERNS_13basic_istreamIT_T0_EES9_RNS_12basic_stringIS6_S7_T1_EES6_
++ __ZNSt3__19strstreamC1B8ne190102EPcij
++ __ZNSt3__1lsB8ne190102INS_11char_traitsIcEEEERNS_13basic_ostreamIcT_EES6_RKNS_8__iom_t4IcEE
++ __ZNSt3__1plB8ne190102IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EERKS9_SB_
++ __ZSt28__throw_bad_array_new_lengthB8ne190102v
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__14lessINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB8ne180100ERKS6_S9_
+- __ZNKSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB8ne180100Ev
+- __ZNKSt3__16vectorItNS_9allocatorItEEE20__throw_length_errorB8ne180100Ev
+- __ZNSt12length_errorC1B8ne180100EPKc
+- __ZNSt3__110ostrstreamC1B8ne180100Ev
+- __ZNSt3__112__destroy_atB8ne180100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EELi0EEEvPT_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB8ne180100INS_11__wrap_iterIPKcEESA_EEvT_T0_m
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB8ne180100INS_11__wrap_iterIPcEES9_EEvT_T0_m
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne180100ENS_24__uninitialized_size_tagEmRKS4_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne180100Emc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne180100ILi0EEEPKc
+- __ZNSt3__113__tree_removeB8ne180100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB8ne180100Ev
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne180100ERKNS_12basic_stringIcS2_S4_EEj
+- __ZNSt3__116__pad_and_outputB8ne180100IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIPN17CThreadedProgress12ProgressInfoEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorItEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne180100ERKNS_12basic_stringIcS2_S4_EEj
+- __ZNSt3__119basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne180100Ev
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne180100Ev
+- __ZNSt3__120__throw_length_errorB8ne180100EPKc
+- __ZNSt3__121__map_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEES8_EEPvEEEEEclB8ne180100EPSB_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEES8_EEPvEEEEEclB8ne180100EPSB_
+- __ZNSt3__124__put_character_sequenceB8ne180100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__127__tree_balance_after_insertB8ne180100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_NS_4lessIS6_EENS4_INS_4pairIKS6_S6_EEEEE6insertB8ne180100INS_20__map_const_iteratorINS_21__tree_const_iteratorINS_12__value_typeIS6_S6_EEPNS_11__tree_nodeISI_PvEElEEEEEEvT_SP_
+- __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_NS_4lessIS6_EENS4_INS_4pairIKS6_S6_EEEEEC2B8ne180100ERKSD_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B8ne180100ERKS8_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B8ne180100IS6_S6_EERKNS0_IT_T0_EE
+- __ZNSt3__14pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B8ne180100ERKS6_S9_
+- __ZNSt3__15dequeIN17CThreadedProgress12ProgressInfoENS_9allocatorIS2_EEE26__maybe_remove_front_spareB8ne180100Eb
+- __ZNSt3__15dequeIN17CThreadedProgress12ProgressInfoENS_9allocatorIS2_EEED2B8ne180100Ev
+- __ZNSt3__16vectorIcNS_9allocatorIcEEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorIcNS_9allocatorIcEEEC2Em
+- __ZNSt3__16vectorItNS_9allocatorItEEE11__vallocateB8ne180100Em
+- __ZNSt3__16vectorItNS_9allocatorItEEE16__init_with_sizeB8ne180100INS_11__wrap_iterIPKcEES8_EEvT_T0_m
+- __ZNSt3__17getlineB8ne180100IcNS_11char_traitsIcEENS_9allocatorIcEEEERNS_13basic_istreamIT_T0_EES9_RNS_12basic_stringIS6_S7_T1_EES6_
+- __ZNSt3__19strstreamC1B8ne180100EPcij
+- __ZNSt3__1lsB8ne180100INS_11char_traitsIcEEEERNS_13basic_ostreamIcT_EES6_RKNS_8__iom_t4IcEE
+- __ZNSt3__1plB8ne180100IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EERKS9_SB_
+- __ZSt28__throw_bad_array_new_lengthB8ne180100v
+CStrings:
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/CThreadedProgress.cpp"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/CarbonApplicationFramework/CarbonCFDictionary.cpp"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/CarbonApplicationFramework/CarbonCFNumber.cpp"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/CarbonApplicationFramework/CarbonCFObject.h"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/CarbonApplicationFramework/CarbonCFString.cpp"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/CarbonApplicationFramework/CarbonCFURL.cpp"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/CarbonApplicationFramework/CarbonFile.cpp"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/CarbonApplicationFramework/CarbonFileRef.cpp"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/CarbonApplicationFramework/CarbonHash.cpp"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/CarbonApplicationFramework/OSUtilities.cpp"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/CarbonUSB/macosx/CarbonUSB_osx.cpp"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/mscdevlib/stconfiginfo.mm"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/mscdevlib/strecoverydev.cpp"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/mscdevlib/stscsi_maxosx.mm"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/xplib/xpcriticalregion.cpp"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/xplib/xpcriticalregion_carbon.cpp"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/xplib/xpdebug_carbon.cpp"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/xplib/xpevent_carbon.cpp"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/xplib/xpexceptions.cpp"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/xplib/xplocalizedstring_carbon.cpp"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/xplib/xpmemory_carbon.cpp"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/xplib/xpmutex.cpp"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/xplib/xpmutex_carbon.cpp"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/xplib/xpsemaphore_carbon.cpp"
++ "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/xplib/xpthreads_carbon.cpp"
++ "Mar  7 2025"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/CThreadedProgress.cpp"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/CarbonApplicationFramework/CarbonCFDictionary.cpp"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/CarbonApplicationFramework/CarbonCFNumber.cpp"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/CarbonApplicationFramework/CarbonCFObject.h"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/CarbonApplicationFramework/CarbonCFString.cpp"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/CarbonApplicationFramework/CarbonCFURL.cpp"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/CarbonApplicationFramework/CarbonFile.cpp"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/CarbonApplicationFramework/CarbonFileRef.cpp"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/CarbonApplicationFramework/CarbonHash.cpp"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/CarbonApplicationFramework/OSUtilities.cpp"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/CarbonUSB/macosx/CarbonUSB_osx.cpp"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/mscdevlib/stconfiginfo.mm"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/mscdevlib/strecoverydev.cpp"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/mscdevlib/stscsi_maxosx.mm"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/xplib/xpcriticalregion.cpp"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/xplib/xpcriticalregion_carbon.cpp"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/xplib/xpdebug_carbon.cpp"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/xplib/xpevent_carbon.cpp"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/xplib/xpexceptions.cpp"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/xplib/xplocalizedstring_carbon.cpp"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/xplib/xpmemory_carbon.cpp"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/xplib/xpmutex.cpp"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/xplib/xpmutex_carbon.cpp"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/xplib/xpsemaphore_carbon.cpp"
+- "/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Library/Caches/com.apple.xbs/Sources/UpdaterLib/Mac/library/Source/FlashLibrary/xplib/xpthreads_carbon.cpp"
+- "Dec 14 2024"
+
+```
