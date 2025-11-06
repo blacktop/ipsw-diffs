@@ -1,0 +1,185 @@
+## JavaScriptCore
+
+> `/System/Library/Frameworks/JavaScriptCore.framework/JavaScriptCore`
+
+```diff
+
+-621.4.1.10.1
+-  __TEXT.__text: 0x17229b4
++621.5.1.10.7
++  __TEXT.__text: 0x1720be4
+   __TEXT.__jsc_int: 0x7e360
+-  __TEXT.__auth_stubs: 0x2d90
++  __TEXT.__auth_stubs: 0x2da0
+   __TEXT.__objc_methlist: 0xb9c
+-  __TEXT.__const: 0x8b6a8
+-  __TEXT.__cstring: 0xd8219
+-  __TEXT.__gcc_except_tab: 0x2360
+-  __TEXT.__oslogstring: 0x5bd
+-  __TEXT.__unwind_info: 0x2238
++  __TEXT.__const: 0x8b6e8
++  __TEXT.__cstring: 0xd8245
++  __TEXT.__gcc_except_tab: 0x238c
++  __TEXT.__oslogstring: 0x5f8
++  __TEXT.__unwind_info: 0x2248
+   __TEXT.__eh_frame: 0x48
+   __TEXT.__objc_classname: 0xee
+   __TEXT.__objc_methname: 0x1e41
+
+   __DATA_CONST.__objc_protorefs: 0x8
+   __DATA_CONST.__objc_superrefs: 0x40
+   __DATA_CONST.__jsc_ops: 0x3320
+-  __AUTH_CONST.__auth_got: 0x16d8
+-  __AUTH_CONST.__const: 0x3b2f0
++  __AUTH_CONST.__auth_got: 0x16e0
++  __AUTH_CONST.__const: 0x3b320
+   __AUTH_CONST.__cfstring: 0x1000
+   __AUTH_CONST.__objc_const: 0xdf8
+   __AUTH.__objc_data: 0xa0
+   __AUTH.__data: 0xa0
+   __DATA.__objc_ivar: 0x80
+   __DATA.__data: 0x370
+-  __DATA.__bss: 0x13b2
++  __DATA.__bss: 0x13aa
+   __DATA.__common: 0x1dd0
+   __DATA_DIRTY.__objc_ivar: 0x8
+   __DATA_DIRTY.__objc_data: 0x2d0
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E9E1D3A8-E891-3887-BC49-C4F64756D5B8
+-  Functions: 43391
+-  Symbols:   87685
+-  CStrings:  19930
++  UUID: 7D2E3E23-EC12-38E7-BF03-D9364CC9FB37
++  Functions: 43376
++  Symbols:   87690
++  CStrings:  19933
+ 
+Symbols:
++ _CCHmac
++ __ZN3JSC2B310BasicBlock9appendNewINS0_20WasmBoundsCheckValueEJNS0_6OriginENS_14ARM64Registers10RegisterIDEPNS0_5ValueEyEEEPT_RNS0_9ProcedureEDpT0_
++ __ZN3JSC2B310BasicBlock9appendNewINS0_20WasmBoundsCheckValueEJNS0_6OriginEPNS0_5ValueEymEEEPT_RNS0_9ProcedureEDpT0_
++ __ZN3JSC2B320WasmBoundsCheckValueC1ENS0_6OriginENS_14ARM64Registers10RegisterIDEPNS0_5ValueEy
++ __ZN3JSC2B320WasmBoundsCheckValueC1ENS0_6OriginEPNS0_5ValueEym
++ __ZN3JSC2B320WasmBoundsCheckValueC2ENS0_6OriginENS_14ARM64Registers10RegisterIDEPNS0_5ValueEy
++ __ZN3JSC2B320WasmBoundsCheckValueC2ENS0_6OriginEPNS0_5ValueEym
++ __ZN3JSC3DFG8CFAPhase17performForwardCFAEv
++ __ZN3JSC4Wasm14OMGIRGenerator24createTailCallPatchpointEPNS_2B310BasicBlockERKNS0_14TypeDefinitionENS0_15CallInformationES8_RKN3WTF6VectorIPNS2_8VariableELm8ENS9_15CrashOnOverflowELm16ENS9_10FastMallocEEENSA_INS2_16ConstrainedValueELm0ESD_Lm16ESE_EE
++ __ZN3JSC8JSObject27createInitialForValueAndSetERNS_2VMEjNS_7JSValueE
++ __ZN3JSC9Structure21nonPropertyTransitionERNS_2VMEPS0_NS_14TransitionKindEPNS_41DeferredStructureTransitionWatchpointFireE
++ __ZN3JSCL31createArrayStorageButterflyImplERNS_2VMEPNS_8JSObjectEPNS_9StructureEjjPNS_9ButterflyENS_21AllocationFailureModeE
++ __ZN3WTF17SharedTaskFunctorIFvRN3JSC12CCallHelpersERKNS1_2B324StackmapGenerationParamsEEZNS1_4Wasm14OMGIRGenerator24createTailCallPatchpointEPNS4_10BasicBlockERKNS9_14TypeDefinitionENS9_15CallInformationESG_RKNS_6VectorIPNS4_8VariableELm8ENS_15CrashOnOverflowELm16ENS_10FastMallocEEENSH_INS4_16ConstrainedValueELm0ESK_Lm16ESL_EEE3$_0E3runES3_S7_
++ __ZN3WTF17SharedTaskFunctorIFvRN3JSC12CCallHelpersERKNS1_2B324StackmapGenerationParamsEEZNS1_4Wasm14OMGIRGenerator24createTailCallPatchpointEPNS4_10BasicBlockERKNS9_14TypeDefinitionENS9_15CallInformationESG_RKNS_6VectorIPNS4_8VariableELm8ENS_15CrashOnOverflowELm16ENS_10FastMallocEEENSH_INS4_16ConstrainedValueELm0ESK_Lm16ESL_EEE3$_0ED0Ev
++ __ZN3WTF17SharedTaskFunctorIFvRN3JSC12CCallHelpersERKNS1_2B324StackmapGenerationParamsEEZNS1_4Wasm14OMGIRGenerator24createTailCallPatchpointEPNS4_10BasicBlockERKNS9_14TypeDefinitionENS9_15CallInformationESG_RKNS_6VectorIPNS4_8VariableELm8ENS_15CrashOnOverflowELm16ENS_10FastMallocEEENSH_INS4_16ConstrainedValueELm0ESK_Lm16ESL_EEE3$_0ED1Ev
++ __ZN3WTF17auditTokenForSelfEv
++ __ZN3WTF3RefIN3JSC4Wasm6GlobalENS_12RawPtrTraitsIS3_EENS_21DefaultRefDerefTraitsIS3_EEED1Ev
++ __ZN3WTF6RefPtrIN3JSC4Wasm6GlobalENS_12RawPtrTraitsIS3_EENS_21DefaultRefDerefTraitsIS3_EEEaSIS3_EERS8_ONS_3RefIT_NS4_ISC_EENS6_ISC_EEEE
++ __ZN3WTF7dataLogIJA27_cN3JSC3DFG10BasicBlockEA17_cS4_S1_A2_cEEEvDpRKT_
++ __ZN3WTF9HashTableIjNS_12KeyValuePairIjNS_3RefIN3JSC4Wasm6GlobalENS_12RawPtrTraitsIS5_EENS_21DefaultRefDerefTraitsIS5_EEEEEENS_24KeyValuePairKeyExtractorISB_EENS_7IntHashIjEENS_7HashMapIjSA_SF_NS_29UnsignedWithZeroKeyHashTraitsIjEENS_10HashTraitsISA_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE0EE18KeyValuePairTraitsESI_LSM_0EED1Ev
++ __ZN7bmalloc3api16TZoneHeapManager27populateBucketsForSizeClassERNSt3__111scoped_lockIJNS_5MutexEEEEy
++ __ZN7bmalloc3api16TZoneHeapManager7s_stateE
++ __ZN7bmalloc3apiL27requirePerBootPrimodialSeedE
++ __ZNK3WTF20ThreadSafeRefCountedIN3JSC4Wasm6GlobalELNS_17DestructionThreadE0EE5derefEv
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN3JSC4WasmL22prepareForTailCallImplEjRNS2_12CCallHelpersERKNS3_14TypeDefinitionERKNS2_2B324StackmapGenerationParamsENS3_15CallInformationESD_jjiEUlRKT_RKT0_E_PNS_5tupleIJiiNS2_5WidthEEEELb0EEEvT1_SQ_SH_NS_15iterator_traitsISQ_E15difference_typeEb
++ __ZNSt3__124__sort5_maybe_branchlessB8sn190102INS_17_ClassicAlgPolicyERZN3JSC4WasmL22prepareForTailCallImplEjRNS2_12CCallHelpersERKNS3_14TypeDefinitionERKNS2_2B324StackmapGenerationParamsENS3_15CallInformationESD_jjiEUlRKT_RKT0_E_PNS_5tupleIJiiNS2_5WidthEEEELi0EEEvT1_SQ_SQ_SQ_SQ_SH_
++ __ZNSt3__127__insertion_sort_incompleteB8sn190102INS_17_ClassicAlgPolicyERZN3JSC4WasmL22prepareForTailCallImplEjRNS2_12CCallHelpersERKNS3_14TypeDefinitionERKNS2_2B324StackmapGenerationParamsENS3_15CallInformationESD_jjiEUlRKT_RKT0_E_PNS_5tupleIJiiNS2_5WidthEEEEEEbT1_SQ_SH_
++ __ZNSt3__16invokeB8sn190102IZN3JSC4Wasm5TabledlEPS3_St19destroying_delete_tE3$_0JRNS2_19ExternOrAnyRefTableEEEENS_13invoke_resultIT_JDpT0_EE4typeEOSA_DpOSB_
++ __ZNSt3__17__sort3B8sn190102INS_17_ClassicAlgPolicyERZN3JSC4WasmL22prepareForTailCallImplEjRNS2_12CCallHelpersERKNS3_14TypeDefinitionERKNS2_2B324StackmapGenerationParamsENS3_15CallInformationESD_jjiEUlRKT_RKT0_E_PNS_5tupleIJiiNS2_5WidthEEEEEEjT1_SQ_SQ_SH_
++ __ZTVN3WTF17SharedTaskFunctorIFvRN3JSC12CCallHelpersERKNS1_2B324StackmapGenerationParamsEEZNS1_4Wasm14OMGIRGenerator24createTailCallPatchpointEPNS4_10BasicBlockERKNS9_14TypeDefinitionENS9_15CallInformationESG_RKNS_6VectorIPNS4_8VariableELm8ENS_15CrashOnOverflowELm16ENS_10FastMallocEEENSH_INS4_16ConstrainedValueELm0ESK_Lm16ESL_EEE3$_0EE
++ __ZZN3JSC4WasmL22prepareForTailCallImplEjRNS_12CCallHelpersERKNS0_14TypeDefinitionERKNS_2B324StackmapGenerationParamsENS0_15CallInformationESA_jjiENKUliiNS_5WidthEE_clEiiSB_
++ __ZZN7bmalloc3apiL15setNextTypeNameEPcmE13numberOfTypes
++ ___PRETTY_FUNCTION__._ZN3JSC8JSObject27switchToSlowPutArrayStorageERNS_2VME
++ ___PRETTY_FUNCTION__._ZN3JSCL31createArrayStorageButterflyImplERNS_2VMEPNS_8JSObjectEPNS_9StructureEjjPNS_9ButterflyENS_21AllocationFailureModeE
+- __MergedGlobals.34
+- __ZN3JSC2B310BasicBlock9appendNewINS0_20WasmBoundsCheckValueEJNS0_6OriginENS_14ARM64Registers10RegisterIDEPNS0_5ValueEjEEEPT_RNS0_9ProcedureEDpT0_
+- __ZN3JSC2B310BasicBlock9appendNewINS0_20WasmBoundsCheckValueEJNS0_6OriginEPNS0_5ValueEjmEEEPT_RNS0_9ProcedureEDpT0_
+- __ZN3JSC2B320WasmBoundsCheckValueC1ENS0_6OriginENS_14ARM64Registers10RegisterIDEPNS0_5ValueEj
+- __ZN3JSC2B320WasmBoundsCheckValueC1ENS0_6OriginEPNS0_5ValueEjm
+- __ZN3JSC2B320WasmBoundsCheckValueC2ENS0_6OriginENS_14ARM64Registers10RegisterIDEPNS0_5ValueEj
+- __ZN3JSC2B320WasmBoundsCheckValueC2ENS0_6OriginEPNS0_5ValueEjm
+- __ZN3JSC3DFG11PhiChildren30forAllTransitiveIncomingValuesIZNS0_20ConstantFoldingPhase13foldConstantsEPNS0_10BasicBlockEEUlPNS0_4NodeEE_EEvS7_RKT_
+- __ZN3JSC3DFG20ConstantFoldingPhase18emitDeleteByOffsetEjPNS0_4NodeERKNS0_13AbstractValueERKNS_15DeleteByVariantEj
+- __ZN3JSC3DFG4Node23convertToNewArrayBufferEPNS0_11FrozenValueE
+- __ZN3JSC3DFG8CFAPhase15performBlockCFAEPNS0_10BasicBlockE
+- __ZN3JSC4Wasm14OMGIRGenerator24createTailCallPatchpointEPNS_2B310BasicBlockENS0_15CallInformationES5_RKN3WTF6VectorIPNS2_8VariableELm8ENS6_15CrashOnOverflowELm16ENS6_10FastMallocEEENS7_INS2_16ConstrainedValueELm0ESA_Lm16ESB_EE
+- __ZN3JSC8JSObject22allocateSparseIndexMapERNS_2VME
+- __ZN3JSC8JSObject30tryCreateArrayStorageButterflyERNS_2VMEPS0_PNS_9StructureEjjPNS_9ButterflyE
+- __ZN3WTF17SharedTaskFunctorIFvRN3JSC12CCallHelpersERKNS1_2B324StackmapGenerationParamsEEZNS1_4Wasm14OMGIRGenerator24createTailCallPatchpointEPNS4_10BasicBlockENS9_15CallInformationESD_RKNS_6VectorIPNS4_8VariableELm8ENS_15CrashOnOverflowELm16ENS_10FastMallocEEENSE_INS4_16ConstrainedValueELm0ESH_Lm16ESI_EEE3$_0E3runES3_S7_
+- __ZN3WTF17SharedTaskFunctorIFvRN3JSC12CCallHelpersERKNS1_2B324StackmapGenerationParamsEEZNS1_4Wasm14OMGIRGenerator24createTailCallPatchpointEPNS4_10BasicBlockENS9_15CallInformationESD_RKNS_6VectorIPNS4_8VariableELm8ENS_15CrashOnOverflowELm16ENS_10FastMallocEEENSE_INS4_16ConstrainedValueELm0ESH_Lm16ESI_EEE3$_0ED0Ev
+- __ZN3WTF17SharedTaskFunctorIFvRN3JSC12CCallHelpersERKNS1_2B324StackmapGenerationParamsEEZNS1_4Wasm14OMGIRGenerator24createTailCallPatchpointEPNS4_10BasicBlockENS9_15CallInformationESD_RKNS_6VectorIPNS4_8VariableELm8ENS_15CrashOnOverflowELm16ENS_10FastMallocEEENSE_INS4_16ConstrainedValueELm0ESH_Lm16ESI_EEE3$_0ED1Ev
+- __ZN3WTF7HashMapIjNS_3RefIN3JSC4Wasm6GlobalENS_12RawPtrTraitsIS4_EENS_21DefaultRefDerefTraitsIS4_EEEENS_7IntHashIjEENS_29UnsignedWithZeroKeyHashTraitsIjEENS_10HashTraitsIS9_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE0EED1Ev
+- __ZNK3JSC16SparseArrayEntry16getNonSparseModeEv
+- __ZNK3WTF10TinyPtrSetIN3JSC3DFG19RegisteredStructureEE7forEachIZNS2_20ConstantFoldingPhase13foldConstantsEPNS2_10BasicBlockEEUlS3_E1_EEvRKT_
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN3JSC4WasmL22prepareForTailCallImplEjRNS2_12CCallHelpersERKNS2_2B324StackmapGenerationParamsENS3_15CallInformationESA_jjiEUlRKT_RKT0_E_PNS_5tupleIJiiNS2_5WidthEEEELb0EEEvT1_SN_SE_NS_15iterator_traitsISN_E15difference_typeEb
+- __ZNSt3__124__sort5_maybe_branchlessB8sn190102INS_17_ClassicAlgPolicyERZN3JSC4WasmL22prepareForTailCallImplEjRNS2_12CCallHelpersERKNS2_2B324StackmapGenerationParamsENS3_15CallInformationESA_jjiEUlRKT_RKT0_E_PNS_5tupleIJiiNS2_5WidthEEEELi0EEEvT1_SN_SN_SN_SN_SE_
+- __ZNSt3__127__insertion_sort_incompleteB8sn190102INS_17_ClassicAlgPolicyERZN3JSC4WasmL22prepareForTailCallImplEjRNS2_12CCallHelpersERKNS2_2B324StackmapGenerationParamsENS3_15CallInformationESA_jjiEUlRKT_RKT0_E_PNS_5tupleIJiiNS2_5WidthEEEEEEbT1_SN_SE_
+- __ZNSt3__17__sort3B8sn190102INS_17_ClassicAlgPolicyERZN3JSC4WasmL22prepareForTailCallImplEjRNS2_12CCallHelpersERKNS2_2B324StackmapGenerationParamsENS3_15CallInformationESA_jjiEUlRKT_RKT0_E_PNS_5tupleIJiiNS2_5WidthEEEEEEjT1_SN_SN_SE_
+- __ZTVN3WTF17SharedTaskFunctorIFvRN3JSC12CCallHelpersERKNS1_2B324StackmapGenerationParamsEEZNS1_4Wasm14OMGIRGenerator24createTailCallPatchpointEPNS4_10BasicBlockENS9_15CallInformationESD_RKNS_6VectorIPNS4_8VariableELm8ENS_15CrashOnOverflowELm16ENS_10FastMallocEEENSE_INS4_16ConstrainedValueELm0ESH_Lm16ESI_EEE3$_0EE
+- __ZZN3JSC3DFG20ConstantFoldingPhase13foldConstantsEPNS0_10BasicBlockEENKUlRNS0_4EdgeEE_clES5_
+- __ZZN3JSC3DFG20ConstantFoldingPhase13foldConstantsEPNS0_10BasicBlockEENKUlvE_clEv
+- __ZZN3JSC4Wasm5TabledlEPS1_St19destroying_delete_tENK3$_0clINS0_12FuncRefTableEEEDaRT_
+- __ZZN3JSC4WasmL22prepareForTailCallImplEjRNS_12CCallHelpersERKNS_2B324StackmapGenerationParamsENS0_15CallInformationES7_jjiENKUliiNS_5WidthEE_clEiiS8_
+CStrings:
++ " has a non-branch terminal"
++ " since the tail "
++ "/AppleInternal/Library/BuildRoots/4~CBV-ugDAWDPtbHRUfAj_bCtJt4RetjXxA6WB2t8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/Assertions.h"
++ "/AppleInternal/Library/BuildRoots/4~CBV-ugDAWDPtbHRUfAj_bCtJt4RetjXxA6WB2t8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/ConcurrentPtrHashSet.h"
++ "/AppleInternal/Library/BuildRoots/4~CBV-ugDAWDPtbHRUfAj_bCtJt4RetjXxA6WB2t8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/Deque.h"
++ "/AppleInternal/Library/BuildRoots/4~CBV-ugDAWDPtbHRUfAj_bCtJt4RetjXxA6WB2t8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/Dominators.h"
++ "/AppleInternal/Library/BuildRoots/4~CBV-ugDAWDPtbHRUfAj_bCtJt4RetjXxA6WB2t8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/FastBitVector.h"
++ "/AppleInternal/Library/BuildRoots/4~CBV-ugDAWDPtbHRUfAj_bCtJt4RetjXxA6WB2t8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/HashTable.h"
++ "/AppleInternal/Library/BuildRoots/4~CBV-ugDAWDPtbHRUfAj_bCtJt4RetjXxA6WB2t8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/IndexMap.h"
++ "/AppleInternal/Library/BuildRoots/4~CBV-ugDAWDPtbHRUfAj_bCtJt4RetjXxA6WB2t8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/JSONValues.h"
++ "/AppleInternal/Library/BuildRoots/4~CBV-ugDAWDPtbHRUfAj_bCtJt4RetjXxA6WB2t8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/LazyRef.h"
++ "/AppleInternal/Library/BuildRoots/4~CBV-ugDAWDPtbHRUfAj_bCtJt4RetjXxA6WB2t8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/LazyUniqueRef.h"
++ "/AppleInternal/Library/BuildRoots/4~CBV-ugDAWDPtbHRUfAj_bCtJt4RetjXxA6WB2t8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/Liveness.h"
++ "/AppleInternal/Library/BuildRoots/4~CBV-ugDAWDPtbHRUfAj_bCtJt4RetjXxA6WB2t8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/LockAlgorithmInlines.h"
++ "/AppleInternal/Library/BuildRoots/4~CBV-ugDAWDPtbHRUfAj_bCtJt4RetjXxA6WB2t8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/MallocSpan.h"
++ "/AppleInternal/Library/BuildRoots/4~CBV-ugDAWDPtbHRUfAj_bCtJt4RetjXxA6WB2t8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/Markable.h"
++ "/AppleInternal/Library/BuildRoots/4~CBV-ugDAWDPtbHRUfAj_bCtJt4RetjXxA6WB2t8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/NaturalLoops.h"
++ "/AppleInternal/Library/BuildRoots/4~CBV-ugDAWDPtbHRUfAj_bCtJt4RetjXxA6WB2t8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/RedBlackTree.h"
++ "/AppleInternal/Library/BuildRoots/4~CBV-ugDAWDPtbHRUfAj_bCtJt4RetjXxA6WB2t8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/RefCounted.h"
++ "/AppleInternal/Library/BuildRoots/4~CBV-ugDAWDPtbHRUfAj_bCtJt4RetjXxA6WB2t8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/SinglyLinkedListWithTail.h"
++ "/AppleInternal/Library/BuildRoots/4~CBV-ugDAWDPtbHRUfAj_bCtJt4RetjXxA6WB2t8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/StdLibExtras.h"
++ "/AppleInternal/Library/BuildRoots/4~CBV-ugDAWDPtbHRUfAj_bCtJt4RetjXxA6WB2t8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/ThreadSafeWeakHashSet.h"
++ "/AppleInternal/Library/BuildRoots/4~CBV-ugDAWDPtbHRUfAj_bCtJt4RetjXxA6WB2t8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/ThreadSpecific.h"
++ "/AppleInternal/Library/BuildRoots/4~CBV-ugDAWDPtbHRUfAj_bCtJt4RetjXxA6WB2t8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/TrailingArray.h"
++ "/AppleInternal/Library/BuildRoots/4~CBV-ugDAWDPtbHRUfAj_bCtJt4RetjXxA6WB2t8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/WeakPtr.h"
++ "/AppleInternal/Library/BuildRoots/4~CBV-ugDAWDPtbHRUfAj_bCtJt4RetjXxA6WB2t8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/text/StringBuilder.h"
++ "/AppleInternal/Library/BuildRoots/4~CBV-ugDAWDPtbHRUfAj_bCtJt4RetjXxA6WB2t8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/text/StringConcatenate.h"
++ "/AppleInternal/Library/BuildRoots/4~CBV-ugDAWDPtbHRUfAj_bCtJt4RetjXxA6WB2t8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/text/StringImpl.h"
++ "Unable to get audit token for self. Error: %{public}s (%x)"
++ "decltype(auto) JSC::Wasm::Table::visitDerived(Visitor &&) [Visitor = (lambda at ./wasm/WasmTable.cpp:186:18)]"
++ "decltype(auto) JSC::Wasm::Table::visitDerived(Visitor &&) [Visitor = (lambda at ./wasm/WasmTable.cpp:196:18)]"
+- "/AppleInternal/Library/BuildRoots/4~B89qugD3CPxQsRrbSpFKVyzQWk8yJ6w6Ms6DQD0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/Assertions.h"
+- "/AppleInternal/Library/BuildRoots/4~B89qugD3CPxQsRrbSpFKVyzQWk8yJ6w6Ms6DQD0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/ConcurrentPtrHashSet.h"
+- "/AppleInternal/Library/BuildRoots/4~B89qugD3CPxQsRrbSpFKVyzQWk8yJ6w6Ms6DQD0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/Deque.h"
+- "/AppleInternal/Library/BuildRoots/4~B89qugD3CPxQsRrbSpFKVyzQWk8yJ6w6Ms6DQD0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/Dominators.h"
+- "/AppleInternal/Library/BuildRoots/4~B89qugD3CPxQsRrbSpFKVyzQWk8yJ6w6Ms6DQD0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/FastBitVector.h"
+- "/AppleInternal/Library/BuildRoots/4~B89qugD3CPxQsRrbSpFKVyzQWk8yJ6w6Ms6DQD0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/HashTable.h"
+- "/AppleInternal/Library/BuildRoots/4~B89qugD3CPxQsRrbSpFKVyzQWk8yJ6w6Ms6DQD0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/IndexMap.h"
+- "/AppleInternal/Library/BuildRoots/4~B89qugD3CPxQsRrbSpFKVyzQWk8yJ6w6Ms6DQD0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/JSONValues.h"
+- "/AppleInternal/Library/BuildRoots/4~B89qugD3CPxQsRrbSpFKVyzQWk8yJ6w6Ms6DQD0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/LazyRef.h"
+- "/AppleInternal/Library/BuildRoots/4~B89qugD3CPxQsRrbSpFKVyzQWk8yJ6w6Ms6DQD0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/LazyUniqueRef.h"
+- "/AppleInternal/Library/BuildRoots/4~B89qugD3CPxQsRrbSpFKVyzQWk8yJ6w6Ms6DQD0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/Liveness.h"
+- "/AppleInternal/Library/BuildRoots/4~B89qugD3CPxQsRrbSpFKVyzQWk8yJ6w6Ms6DQD0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/LockAlgorithmInlines.h"
+- "/AppleInternal/Library/BuildRoots/4~B89qugD3CPxQsRrbSpFKVyzQWk8yJ6w6Ms6DQD0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/MallocSpan.h"
+- "/AppleInternal/Library/BuildRoots/4~B89qugD3CPxQsRrbSpFKVyzQWk8yJ6w6Ms6DQD0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/Markable.h"
+- "/AppleInternal/Library/BuildRoots/4~B89qugD3CPxQsRrbSpFKVyzQWk8yJ6w6Ms6DQD0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/NaturalLoops.h"
+- "/AppleInternal/Library/BuildRoots/4~B89qugD3CPxQsRrbSpFKVyzQWk8yJ6w6Ms6DQD0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/RedBlackTree.h"
+- "/AppleInternal/Library/BuildRoots/4~B89qugD3CPxQsRrbSpFKVyzQWk8yJ6w6Ms6DQD0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/RefCounted.h"
+- "/AppleInternal/Library/BuildRoots/4~B89qugD3CPxQsRrbSpFKVyzQWk8yJ6w6Ms6DQD0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/SinglyLinkedListWithTail.h"
+- "/AppleInternal/Library/BuildRoots/4~B89qugD3CPxQsRrbSpFKVyzQWk8yJ6w6Ms6DQD0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/StdLibExtras.h"
+- "/AppleInternal/Library/BuildRoots/4~B89qugD3CPxQsRrbSpFKVyzQWk8yJ6w6Ms6DQD0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/ThreadSafeWeakHashSet.h"
+- "/AppleInternal/Library/BuildRoots/4~B89qugD3CPxQsRrbSpFKVyzQWk8yJ6w6Ms6DQD0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/ThreadSpecific.h"
+- "/AppleInternal/Library/BuildRoots/4~B89qugD3CPxQsRrbSpFKVyzQWk8yJ6w6Ms6DQD0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/TrailingArray.h"
+- "/AppleInternal/Library/BuildRoots/4~B89qugD3CPxQsRrbSpFKVyzQWk8yJ6w6Ms6DQD0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/WeakPtr.h"
+- "/AppleInternal/Library/BuildRoots/4~B89qugD3CPxQsRrbSpFKVyzQWk8yJ6w6Ms6DQD0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/text/StringBuilder.h"
+- "/AppleInternal/Library/BuildRoots/4~B89qugD3CPxQsRrbSpFKVyzQWk8yJ6w6Ms6DQD0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/text/StringConcatenate.h"
+- "/AppleInternal/Library/BuildRoots/4~B89qugD3CPxQsRrbSpFKVyzQWk8yJ6w6Ms6DQD0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.7.Internal.sdk/usr/local/include/wtf/text/StringImpl.h"
+- "decltype(auto) JSC::Wasm::Table::visitDerived(Visitor &&) [Visitor = (lambda at ./wasm/WasmTable.cpp:185:18)]"
+- "decltype(auto) JSC::Wasm::Table::visitDerived(Visitor &&) [Visitor = (lambda at ./wasm/WasmTable.cpp:195:18)]"
+
+```

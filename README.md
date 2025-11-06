@@ -11,6 +11,7 @@
 <a href="#ios-26-1-beta">iOS 26.1 beta</a> ·
 <a href="#ios-26-0">iOS 26.0</a> ·
 <a href="#ios-26-0-beta">iOS 26.0 beta</a> ·
+<a href="#ios-18-7">iOS 18.7</a> ·
 <a href="#ios-18-6">iOS 18.6</a> ·
 <a href="#ios-18-5-beta">iOS 18.5 beta</a> ·
 <a href="#ios-18-4">iOS 18.4</a> ·
@@ -82,6 +83,15 @@
 - [26.0 (23A5260u) .vs 26.0 (23A5276f)](26_0_23A5260u__vs_26_0_23A5276f/README.md)
 - [26.0 (23A5260n) .vs 26.0 (23A5260u)](26_0_23A5260n__vs_26_0_23A5260u/README.md)
 - [18.5 (22F76) .vs 26.0 (23A5260n)](18_5_22F76__vs_26_0_23A5260n/README.md)
+
+</details>
+
+<a id="ios-18-7"></a>
+### iOS 18.7
+<details>
+  <summary>View diffs</summary>
+
+- [18.7.1 (22H31) .vs 18.7.2 (22H124)](18_7_1_22H31__vs_18_7_2_22H124/README.md)
 
 </details>
 
