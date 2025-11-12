@@ -1,0 +1,41 @@
+## Media
+
+> `/Applications/Media.app/Media`
+
+```diff
+
+-288.24.1.0.0
+-  __TEXT.__text: 0xb6ca0
++288.26.0.0.0
++  __TEXT.__text: 0xb6ca8
+   __TEXT.__auth_stubs: 0x2dd0
+   __TEXT.__objc_stubs: 0x100
+   __TEXT.__objc_methlist: 0x1a8c
+   __TEXT.__const: 0x7904
+   __TEXT.__gcc_except_tab: 0x2c
+-  __TEXT.__cstring: 0x25f4
++  __TEXT.__cstring: 0x2604
+   __TEXT.__objc_classname: 0x2a5
+   __TEXT.__objc_methname: 0x56f0
+   __TEXT.__oslogstring: 0x3869
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8E8C477D-B508-35B3-A5EB-BD30A4CCF5D9
++  UUID: 9832FD75-BCAE-3EA9-B029-D02A23841C8C
+   Functions: 3123
+   Symbols:   1401
+   CStrings:  1651
+Symbols:
++ _$s5CAFUI23CAFUITileViewControllerC10carSession19prominentCategories9listItems16settingsSections0K5Cache12assetManager014requestContentO025preventVolumeNotification014rightBarButtonJ0ACSo10CARSessionC_SaySo19CAFSettingsCategoryVGSayAA17CAFUIDataListItemCGSayAA29CAFUIAutomakerSettingsSectionVGAA013CAFUISettingsM0VSg13CarAssetUtils015CAUAssetLibraryO0CAA012CAFUIRequestqO0CSgSbSaySo05UIBarW4ItemCGSgtcfCTq
++ _$s5CAFUI23CAFUITileViewControllerC10carSession19prominentCategories9listItems16settingsSections0K5Cache12assetManager014requestContentO025preventVolumeNotification014rightBarButtonJ0ACSo10CARSessionC_SaySo19CAFSettingsCategoryVGSayAA17CAFUIDataListItemCGSayAA29CAFUIAutomakerSettingsSectionVGAA013CAFUISettingsM0VSg13CarAssetUtils015CAUAssetLibraryO0CAA012CAFUIRequestqO0CSgSbSaySo05UIBarW4ItemCGSgtcfc
+- _$s5CAFUI23CAFUITileViewControllerC10carSession19prominentCategories9listItems16settingsSections0K5Cache12assetManager014requestContentO025preventVolumeNotificationACSo10CARSessionC_SaySo19CAFSettingsCategoryVGSayAA17CAFUIDataListItemCGSayAA29CAFUIAutomakerSettingsSectionVGAA013CAFUISettingsM0VSg13CarAssetUtils015CAUAssetLibraryO0CAA012CAFUIRequestqO0CSgSbtcfCTq
+- _$s5CAFUI23CAFUITileViewControllerC10carSession19prominentCategories9listItems16settingsSections0K5Cache12assetManager014requestContentO025preventVolumeNotificationACSo10CARSessionC_SaySo19CAFSettingsCategoryVGSayAA17CAFUIDataListItemCGSayAA29CAFUIAutomakerSettingsSectionVGAA013CAFUISettingsM0VSg13CarAssetUtils015CAUAssetLibraryO0CAA012CAFUIRequestqO0CSgSbtcfc
+Functions:
+~ sub_100082fd8 : 2756 -> 2764
+CStrings:
++ "init(carSession:prominentCategories:listItems:settingsSections:settingsCache:assetManager:requestContentManager:preventVolumeNotification:rightBarButtonItems:)"
+- "init(carSession:prominentCategories:listItems:settingsSections:settingsCache:assetManager:requestContentManager:preventVolumeNotification:)"
+
+```

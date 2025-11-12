@@ -1,0 +1,1195 @@
+## AGXMetalG18P
+
+> `/System/Library/Extensions/AGXMetalG18P.bundle/AGXMetalG18P`
+
+```diff
+
+-341.11.0.0.0
+-  __TEXT.__text: 0x8cd24c
++342.2.0.0.0
++  __TEXT.__text: 0x8cfe88
+   __TEXT.__auth_stubs: 0x1190
+-  __TEXT.__objc_methlist: 0xaa6c
++  __TEXT.__objc_methlist: 0xaa2c
+   __TEXT.__const: 0xe468
+-  __TEXT.__gcc_except_tab: 0xb9b4
+-  __TEXT.__cstring: 0x80f0
++  __TEXT.__gcc_except_tab: 0xc128
++  __TEXT.__cstring: 0x868c
+   __TEXT.__oslogstring: 0x257e
+-  __TEXT.__unwind_info: 0x5d98
++  __TEXT.__unwind_info: 0x5f60
+   __TEXT.__eh_frame: 0x520
+   __TEXT.__objc_classname: 0xf85
+-  __TEXT.__objc_methname: 0x16271
+-  __TEXT.__objc_methtype: 0x1627c
+-  __TEXT.__objc_stubs: 0x91a0
++  __TEXT.__objc_methname: 0x16282
++  __TEXT.__objc_methtype: 0x161eb
++  __TEXT.__objc_stubs: 0x9200
+   __DATA_CONST.__got: 0x678
+   __DATA_CONST.__const: 0x34b0
+   __DATA_CONST.__objc_classlist: 0x240
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x278
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x5128
++  __DATA_CONST.__objc_selrefs: 0x5140
+   __DATA_CONST.__objc_superrefs: 0x1d0
+   __DATA_CONST.__objc_arraydata: 0x58
+   __AUTH_CONST.__auth_got: 0x8d8
+   __AUTH_CONST.__const: 0x54c0
+-  __AUTH_CONST.__cfstring: 0x3b20
+-  __AUTH_CONST.__objc_const: 0xe780
++  __AUTH_CONST.__cfstring: 0x3f60
++  __AUTH_CONST.__objc_const: 0xe758
+   __AUTH_CONST.__objc_intobj: 0x78
+   __AUTH_CONST.__objc_dictobj: 0x50
+   __AUTH_CONST.__objc_arrayobj: 0x18
+   __AUTH.__objc_data: 0x1680
+   __AUTH.__data: 0x28
+-  __DATA.__objc_ivar: 0x324
++  __DATA.__objc_ivar: 0x320
+   __DATA.__data: 0x1dd0
+   __DATA.__bss: 0x34f0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 9640FF38-09C0-371D-BA60-7A29F2EE81A9
+-  Functions: 7728
+-  Symbols:   22498
+-  CStrings:  5667
++  UUID: A7ADB28A-3AB9-34F1-AD03-A2D8F5B7F943
++  Functions: 7727
++  Symbols:   22542
++  CStrings:  5739
+ 
+Symbols:
++ -[AGXG18PFamilyCommandBuffer_mtlnext sampledComputeCommandEncoder]
++ -[AGXG18PFamilyCommandBuffer_mtlnext sampledRenderCommandEncoderWithDescriptor:]
++ -[AGXG18PFamilyComputeContext_mtlnext initWithCommandBuffer:allocator:captureProgramAddressTable:]
++ -[AGXG18PFamilyComputeContext_mtlnext performEndEncoding]
++ -[AGXG18PFamilyRenderContext_mtlnext commandBatchIdOffset]
++ -[AGXG18PFamilyRenderContext_mtlnext commandBatchIdRangeMin:max:]
++ -[AGXG18PFamilyRenderContext_mtlnext filterCounterRangeWithFirstBatch:lastBatch:filterIndex:]
++ -[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]
++ -[AGXG18PFamilySampledComputeContext_mtlnext initWithCommandBuffer:allocator:]
++ -[AGXG18PFamilySampledRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:]
++ GCC_except_table2595
++ GCC_except_table2600
++ GCC_except_table2619
++ GCC_except_table2623
++ GCC_except_table2640
++ GCC_except_table2643
++ GCC_except_table2657
++ GCC_except_table2675
++ GCC_except_table2678
++ GCC_except_table2692
++ GCC_except_table2694
++ GCC_except_table2703
++ GCC_except_table2712
++ GCC_except_table2727
++ GCC_except_table2742
++ GCC_except_table2757
++ GCC_except_table2759
++ GCC_except_table2766
++ GCC_except_table2773
++ GCC_except_table2775
++ GCC_except_table2783
++ GCC_except_table2790
++ GCC_except_table2807
++ GCC_except_table2822
++ GCC_except_table2837
++ GCC_except_table2852
++ GCC_except_table2867
++ GCC_except_table2869
++ GCC_except_table2877
++ GCC_except_table2884
++ GCC_except_table2899
++ GCC_except_table2914
++ GCC_except_table2929
++ GCC_except_table2944
++ GCC_except_table2968
++ GCC_except_table2982
++ GCC_except_table3007
++ GCC_except_table3008
++ GCC_except_table3013
++ GCC_except_table3018
++ GCC_except_table3019
++ GCC_except_table3022
++ GCC_except_table3023
++ GCC_except_table3027
++ GCC_except_table3031
++ GCC_except_table3034
++ GCC_except_table3039
++ GCC_except_table3055
++ GCC_except_table3056
++ GCC_except_table3063
++ GCC_except_table3066
++ GCC_except_table3067
++ GCC_except_table3092
++ GCC_except_table3096
++ GCC_except_table3126
++ GCC_except_table3150
++ GCC_except_table3160
++ GCC_except_table3208
++ GCC_except_table3224
++ GCC_except_table3225
++ GCC_except_table3229
++ GCC_except_table3233
++ GCC_except_table3274
++ GCC_except_table3275
++ GCC_except_table3276
++ GCC_except_table3285
++ GCC_except_table3288
++ GCC_except_table3298
++ GCC_except_table3299
++ GCC_except_table3311
++ GCC_except_table3312
++ GCC_except_table3327
++ GCC_except_table3334
++ GCC_except_table3339
++ GCC_except_table3361
++ GCC_except_table3376
++ GCC_except_table3377
++ GCC_except_table3392
++ GCC_except_table3394
++ GCC_except_table3395
++ GCC_except_table3397
++ GCC_except_table3402
++ GCC_except_table3413
++ GCC_except_table3415
++ GCC_except_table3420
++ GCC_except_table3441
++ GCC_except_table3442
++ GCC_except_table3448
++ GCC_except_table3450
++ GCC_except_table3451
++ GCC_except_table3474
++ GCC_except_table3475
++ GCC_except_table3477
++ GCC_except_table3497
++ GCC_except_table3500
++ GCC_except_table3518
++ GCC_except_table3525
++ GCC_except_table3527
++ GCC_except_table3529
++ GCC_except_table3537
++ GCC_except_table3538
++ GCC_except_table3546
++ GCC_except_table3548
++ GCC_except_table3628
++ GCC_except_table3676
++ GCC_except_table3677
++ GCC_except_table3680
++ GCC_except_table3684
++ GCC_except_table3688
++ GCC_except_table3690
++ GCC_except_table3706
++ GCC_except_table3731
++ GCC_except_table3735
++ GCC_except_table3737
++ GCC_except_table3743
++ GCC_except_table3763
++ GCC_except_table3766
++ GCC_except_table3771
++ GCC_except_table3774
++ GCC_except_table3792
++ GCC_except_table3793
++ GCC_except_table3812
++ GCC_except_table3824
++ GCC_except_table3834
++ GCC_except_table3835
++ GCC_except_table3868
++ GCC_except_table3871
++ GCC_except_table3875
++ GCC_except_table3879
++ GCC_except_table3885
++ GCC_except_table3894
++ GCC_except_table3895
++ GCC_except_table3896
++ GCC_except_table3899
++ GCC_except_table3900
++ GCC_except_table3901
++ GCC_except_table3902
++ GCC_except_table3903
++ GCC_except_table3904
++ GCC_except_table3905
++ GCC_except_table3906
++ GCC_except_table3907
++ GCC_except_table3910
++ GCC_except_table3914
++ GCC_except_table3915
++ GCC_except_table3916
++ GCC_except_table3917
++ GCC_except_table3919
++ GCC_except_table3934
++ GCC_except_table3935
++ GCC_except_table3937
++ GCC_except_table3938
++ GCC_except_table3939
++ GCC_except_table3940
++ GCC_except_table3941
++ GCC_except_table3942
++ GCC_except_table3944
++ GCC_except_table3945
++ GCC_except_table3946
++ GCC_except_table3947
++ GCC_except_table3948
++ GCC_except_table3949
++ GCC_except_table3950
++ GCC_except_table3951
++ GCC_except_table3952
++ GCC_except_table3953
++ GCC_except_table3954
++ GCC_except_table3992
++ GCC_except_table3994
++ GCC_except_table3995
++ GCC_except_table3998
++ GCC_except_table4000
++ GCC_except_table4001
++ GCC_except_table4004
++ GCC_except_table4016
++ GCC_except_table4018
++ GCC_except_table4025
++ GCC_except_table4031
++ GCC_except_table4069
++ GCC_except_table4105
++ GCC_except_table4106
++ GCC_except_table4107
++ GCC_except_table4108
++ GCC_except_table4121
++ GCC_except_table4129
++ GCC_except_table4134
++ GCC_except_table4191
++ GCC_except_table4192
++ GCC_except_table4193
++ GCC_except_table4194
++ GCC_except_table4195
++ GCC_except_table4196
++ GCC_except_table4200
++ GCC_except_table4247
++ GCC_except_table4259
++ GCC_except_table4261
++ GCC_except_table4262
++ GCC_except_table4263
++ GCC_except_table4379
++ GCC_except_table4381
++ GCC_except_table4382
++ GCC_except_table4399
++ GCC_except_table4401
++ GCC_except_table4403
++ GCC_except_table4408
++ GCC_except_table4417
++ GCC_except_table4439
++ GCC_except_table4471
++ GCC_except_table4472
++ GCC_except_table4487
++ GCC_except_table4491
++ GCC_except_table4503
++ GCC_except_table4512
++ GCC_except_table4522
++ GCC_except_table4532
++ GCC_except_table4541
++ GCC_except_table4583
++ GCC_except_table4589
++ GCC_except_table4592
++ GCC_except_table4609
++ GCC_except_table4611
++ GCC_except_table4613
++ GCC_except_table4615
++ GCC_except_table4616
++ GCC_except_table4617
++ GCC_except_table4621
++ GCC_except_table4634
++ GCC_except_table4639
++ GCC_except_table4640
++ GCC_except_table4641
++ GCC_except_table4648
++ GCC_except_table4649
++ GCC_except_table4657
++ GCC_except_table4663
++ GCC_except_table4666
++ GCC_except_table4667
++ GCC_except_table4679
++ GCC_except_table4680
++ GCC_except_table4687
++ GCC_except_table4689
++ GCC_except_table4694
++ GCC_except_table4695
++ GCC_except_table4697
++ GCC_except_table4699
++ GCC_except_table4701
++ GCC_except_table4711
++ GCC_except_table4713
++ GCC_except_table4714
++ GCC_except_table4723
++ GCC_except_table4729
++ GCC_except_table4730
++ GCC_except_table4731
++ GCC_except_table4739
++ GCC_except_table4744
++ GCC_except_table4745
++ GCC_except_table4747
++ GCC_except_table4855
++ GCC_except_table4857
++ GCC_except_table4864
++ GCC_except_table4870
++ GCC_except_table4877
++ GCC_except_table4885
++ GCC_except_table4892
++ GCC_except_table4902
++ GCC_except_table4904
++ GCC_except_table4906
++ GCC_except_table4909
++ GCC_except_table4910
++ GCC_except_table4912
++ GCC_except_table4918
++ GCC_except_table4924
++ GCC_except_table4927
++ GCC_except_table4928
++ GCC_except_table4930
++ GCC_except_table4982
++ GCC_except_table4986
++ GCC_except_table4987
++ GCC_except_table4990
++ GCC_except_table4992
++ GCC_except_table4994
++ GCC_except_table4995
++ GCC_except_table4996
++ GCC_except_table5026
++ GCC_except_table5027
++ GCC_except_table5028
++ GCC_except_table5030
++ GCC_except_table5045
++ GCC_except_table5072
++ GCC_except_table5106
++ GCC_except_table5129
++ GCC_except_table5135
++ GCC_except_table5142
++ GCC_except_table5152
++ GCC_except_table5155
++ GCC_except_table5156
++ GCC_except_table5168
++ GCC_except_table5169
++ GCC_except_table5172
++ GCC_except_table5175
++ GCC_except_table5189
++ GCC_except_table5195
++ GCC_except_table5204
++ GCC_except_table5205
++ GCC_except_table5221
++ GCC_except_table5223
++ GCC_except_table5235
++ GCC_except_table5237
++ GCC_except_table5252
++ GCC_except_table5265
++ GCC_except_table5325
++ GCC_except_table5338
++ GCC_except_table5339
++ GCC_except_table5360
++ GCC_except_table5386
++ GCC_except_table5394
++ GCC_except_table5395
++ GCC_except_table5437
++ GCC_except_table5438
++ GCC_except_table5458
++ GCC_except_table5463
++ GCC_except_table5464
++ GCC_except_table5467
++ GCC_except_table5473
++ GCC_except_table5482
++ GCC_except_table5499
++ GCC_except_table5515
++ GCC_except_table5601
++ GCC_except_table5645
++ GCC_except_table5647
++ GCC_except_table5677
++ GCC_except_table5692
++ GCC_except_table5711
++ GCC_except_table5736
++ GCC_except_table5742
++ GCC_except_table5743
++ GCC_except_table5751
++ GCC_except_table5889
++ GCC_except_table5896
++ GCC_except_table5914
++ GCC_except_table5937
++ GCC_except_table5938
++ GCC_except_table5940
++ GCC_except_table5945
++ GCC_except_table5956
++ GCC_except_table5958
++ GCC_except_table5963
++ GCC_except_table5975
++ GCC_except_table5976
++ GCC_except_table5977
++ GCC_except_table5979
++ GCC_except_table5983
++ GCC_except_table5991
++ GCC_except_table6014
++ GCC_except_table6017
++ GCC_except_table6018
++ GCC_except_table6024
++ GCC_except_table6030
++ GCC_except_table6031
++ GCC_except_table6032
++ GCC_except_table6038
++ GCC_except_table6048
++ GCC_except_table6049
++ GCC_except_table6052
++ GCC_except_table6093
++ GCC_except_table6094
++ GCC_except_table6097
++ GCC_except_table6104
++ GCC_except_table6109
++ GCC_except_table6110
++ GCC_except_table6111
++ GCC_except_table6114
++ GCC_except_table6117
++ GCC_except_table6132
++ GCC_except_table6133
++ GCC_except_table6136
++ GCC_except_table6151
++ GCC_except_table6159
++ GCC_except_table6225
++ GCC_except_table6261
++ GCC_except_table6360
++ GCC_except_table6384
++ GCC_except_table6395
++ GCC_except_table6402
++ GCC_except_table6405
++ GCC_except_table6407
++ GCC_except_table6428
++ GCC_except_table6431
++ GCC_except_table6441
++ GCC_except_table6443
++ GCC_except_table6446
++ GCC_except_table6462
++ GCC_except_table6469
++ GCC_except_table6473
++ GCC_except_table6482
++ GCC_except_table6499
++ GCC_except_table8236
++ GCC_except_table8242
++ GCC_except_table8267
++ GCC_except_table8274
++ GCC_except_table8277
++ GCC_except_table8283
++ GCC_except_table8289
++ GCC_except_table8292
++ GCC_except_table8302
++ GCC_except_table8304
++ GCC_except_table8306
++ GCC_except_table8318
++ GCC_except_table8333
++ GCC_except_table8337
++ GCC_except_table8350
++ GCC_except_table8352
++ GCC_except_table8355
++ GCC_except_table8406
++ GCC_except_table8410
++ GCC_except_table8463
++ GCC_except_table8474
++ _OBJC_IVAR_$_AGXG18PFamilyRenderContext_mtlnext._user_draw_token_offset
++ __ZGVZN3AGX14ComputeContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_15CommandEncodingENS1_28EncoderComputeServiceClassesEE20performEnqueueKernelE19eAGXDataBufferPoolsyjPyE22per_shader_extra_space
++ __ZGVZN3AGX14ComputeContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_15CommandEncodingENS1_28EncoderComputeServiceClassesEE20performEnqueueKernelE19eAGXDataBufferPoolsyjPyE31brk_handler_end_of_shader_alloc
++ __ZGVZN3AGX14ComputeContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_19CommandEncodingNextENS1_32EncoderComputeServiceClassesNextEE20performEnqueueKernelE19eAGXDataBufferPoolsyjPyE22per_shader_extra_space
++ __ZGVZN3AGX14ComputeContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_19CommandEncodingNextENS1_32EncoderComputeServiceClassesNextEE20performEnqueueKernelE19eAGXDataBufferPoolsyjPyE31brk_handler_end_of_shader_alloc
++ __ZL19agxCalcSparseInputsjjjjjjjjjjjjbbjjjjP27AGXSparseTextureConstInputsb.8980
++ __ZL19agxCalcSparseInputsjjjjjjjjjjjjbbjjjjP27AGXSparseTextureConstInputsb.9724
++ __ZL19agxsTwiddleAddressZI21AGXSConverterPassThruILb0ELm2ELj1EL12TwiddleOrder1EEEvNT_13twid_ptr_typeENS3_12lin_ptr_typeEjjjjjjjjmP21agxsTwiddledBlockInfoP14agxsSparseInfo.9728
++ __ZL19agxsTwiddleAddressZI21AGXSConverterPassThruILb1ELm2ELj1EL12TwiddleOrder1EEEvNT_13twid_ptr_typeENS3_12lin_ptr_typeEjjjjjjjjmP21agxsTwiddledBlockInfoP14agxsSparseInfo.9736
++ __ZL28get_level_offset_within_tailjjjjjjjb.9725
++ __ZN3AGX14ComputeContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_15CommandEncodingENS1_28EncoderComputeServiceClassesEE20performEnqueueKernelE19eAGXDataBufferPoolsyjPy
++ __ZN3AGX14ComputeContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_15CommandEncodingENS1_28EncoderComputeServiceClassesEE24duplicateShaderAddressesEv
++ __ZN3AGX14ComputeContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_15CommandEncodingENS1_28EncoderComputeServiceClassesEE26appendProgramAddressTablesEv
++ __ZN3AGX14ComputeContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_19CommandEncodingNextENS1_32EncoderComputeServiceClassesNextEE16UserCommandScopeD1Ev
++ __ZN3AGX14ComputeContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_19CommandEncodingNextENS1_32EncoderComputeServiceClassesNextEE20performEnqueueKernelE19eAGXDataBufferPoolsyjPy
++ __ZN3AGX14ComputeContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_19CommandEncodingNextENS1_32EncoderComputeServiceClassesNextEE24duplicateShaderAddressesEv
++ __ZN3AGX14ComputeContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_19CommandEncodingNextENS1_32EncoderComputeServiceClassesNextEE26appendProgramAddressTablesEv
++ __ZNK3AGX15ComputePipelineINS_6HAL30010ObjClassesENS1_7ClassesENS1_8EncodersEE22getPipelineBinariesMapEP8NSString
++ __ZNK3AGX15ComputePipelineINS_6HAL30010ObjClassesENS1_7ClassesENS1_8EncodersEE26appendProgramAddressTablesEP14NSMutableArrayIPU45objcproto34MTLProgramAddressTableMappedBinary11objc_objectEP8NSString
++ __ZNK3AGX26StateLoaderProgramsTrackerINS_6HAL3006DeviceEE26appendProgramAddressTablesEP14NSMutableArrayIPU45objcproto34MTLProgramAddressTableMappedBinary11objc_objectEP19NSMutableDictionaryIP8NSStringPS4_IPU33objcproto22MTLPipelineStateBinary11objc_objectEESB_
++ __ZNKSt3__110__function6__funcIZ116-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]E4$_11NS_9allocatorIS2_EEFvPN3AGX6HAL30011FramebufferEEE7__cloneEPNS0_6__baseIS9_EE
++ __ZNKSt3__110__function6__funcIZ116-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]E4$_11NS_9allocatorIS2_EEFvPN3AGX6HAL30011FramebufferEEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ116-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]E4$_12NS_9allocatorIS2_EEFvPN3AGX6HAL30011FramebufferEEE7__cloneEPNS0_6__baseIS9_EE
++ __ZNKSt3__110__function6__funcIZ116-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]E4$_12NS_9allocatorIS2_EEFvPN3AGX6HAL30011FramebufferEEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ116-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]E4$_13NS_9allocatorIS2_EEFvPN3AGX6HAL30014RenderContextBEEE7__cloneEPNS0_6__baseIS9_EE
++ __ZNKSt3__110__function6__funcIZ116-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]E4$_13NS_9allocatorIS2_EEFvPN3AGX6HAL30014RenderContextBEEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ116-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]E4$_14NS_9allocatorIS2_EEFvPN3AGX6HAL30014RenderContextBEEE7__cloneEPNS0_6__baseIS9_EE
++ __ZNKSt3__110__function6__funcIZ116-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]E4$_14NS_9allocatorIS2_EEFvPN3AGX6HAL30014RenderContextBEEE7__cloneEv
++ __ZNSt3__110__function6__funcIZ116-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]E4$_11NS_9allocatorIS2_EEFvPN3AGX6HAL30011FramebufferEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ116-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]E4$_11NS_9allocatorIS2_EEFvPN3AGX6HAL30011FramebufferEEE7destroyEv
++ __ZNSt3__110__function6__funcIZ116-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]E4$_11NS_9allocatorIS2_EEFvPN3AGX6HAL30011FramebufferEEED0Ev
++ __ZNSt3__110__function6__funcIZ116-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]E4$_11NS_9allocatorIS2_EEFvPN3AGX6HAL30011FramebufferEEED1Ev
++ __ZNSt3__110__function6__funcIZ116-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]E4$_11NS_9allocatorIS2_EEFvPN3AGX6HAL30011FramebufferEEEclEOS8_
++ __ZNSt3__110__function6__funcIZ116-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]E4$_12NS_9allocatorIS2_EEFvPN3AGX6HAL30011FramebufferEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ116-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]E4$_12NS_9allocatorIS2_EEFvPN3AGX6HAL30011FramebufferEEE7destroyEv
++ __ZNSt3__110__function6__funcIZ116-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]E4$_12NS_9allocatorIS2_EEFvPN3AGX6HAL30011FramebufferEEED0Ev
++ __ZNSt3__110__function6__funcIZ116-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]E4$_12NS_9allocatorIS2_EEFvPN3AGX6HAL30011FramebufferEEED1Ev
++ __ZNSt3__110__function6__funcIZ116-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]E4$_12NS_9allocatorIS2_EEFvPN3AGX6HAL30011FramebufferEEEclEOS8_
++ __ZNSt3__110__function6__funcIZ116-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]E4$_13NS_9allocatorIS2_EEFvPN3AGX6HAL30014RenderContextBEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ116-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]E4$_13NS_9allocatorIS2_EEFvPN3AGX6HAL30014RenderContextBEEE7destroyEv
++ __ZNSt3__110__function6__funcIZ116-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]E4$_13NS_9allocatorIS2_EEFvPN3AGX6HAL30014RenderContextBEEED0Ev
++ __ZNSt3__110__function6__funcIZ116-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]E4$_13NS_9allocatorIS2_EEFvPN3AGX6HAL30014RenderContextBEEED1Ev
++ __ZNSt3__110__function6__funcIZ116-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]E4$_13NS_9allocatorIS2_EEFvPN3AGX6HAL30014RenderContextBEEEclEOS8_
++ __ZNSt3__110__function6__funcIZ116-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]E4$_14NS_9allocatorIS2_EEFvPN3AGX6HAL30014RenderContextBEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ116-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]E4$_14NS_9allocatorIS2_EEFvPN3AGX6HAL30014RenderContextBEEE7destroyEv
++ __ZNSt3__110__function6__funcIZ116-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]E4$_14NS_9allocatorIS2_EEFvPN3AGX6HAL30014RenderContextBEEED0Ev
++ __ZNSt3__110__function6__funcIZ116-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]E4$_14NS_9allocatorIS2_EEFvPN3AGX6HAL30014RenderContextBEEED1Ev
++ __ZNSt3__110__function6__funcIZ116-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]E4$_14NS_9allocatorIS2_EEFvPN3AGX6HAL30014RenderContextBEEEclEOS8_
++ __ZNSt3__112__hash_tableIyNS_4hashIyEENS_8equal_toIyEENS_9allocatorIyEEE25__emplace_unique_key_argsIyJRKyEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIyPvEEEEbEERKT_DpOT0_
++ __ZNSt3__113unordered_setIyNS_4hashIyEENS_8equal_toIyEENS_9allocatorIyEEED1B8nn200100Ev
++ __ZNSt3__16vectorIN3AGX14ComputeContextINS1_6HAL3008EncodersENS3_7ClassesENS3_10ObjClassesENS3_15CommandEncodingENS3_28EncoderComputeServiceClassesEE16VirtualSubstreamENS_9allocatorISA_EEED1B8nn200100Ev
++ __ZNSt3__16vectorIN3AGX14ComputeContextINS1_6HAL3008EncodersENS3_7ClassesENS3_10ObjClassesENS3_19CommandEncodingNextENS3_32EncoderComputeServiceClassesNextEE16VirtualSubstreamENS_9allocatorISA_EEED1B8nn200100Ev
++ __ZTVNSt3__110__function6__funcIZ116-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]E4$_11NS_9allocatorIS2_EEFvPN3AGX6HAL30011FramebufferEEEE
++ __ZTVNSt3__110__function6__funcIZ116-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]E4$_12NS_9allocatorIS2_EEFvPN3AGX6HAL30011FramebufferEEEE
++ __ZTVNSt3__110__function6__funcIZ116-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]E4$_13NS_9allocatorIS2_EEFvPN3AGX6HAL30014RenderContextBEEEE
++ __ZTVNSt3__110__function6__funcIZ116-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:]E4$_14NS_9allocatorIS2_EEFvPN3AGX6HAL30014RenderContextBEEEE
++ __ZZL37agxaBindNullResourceToHardwareCommandP17IOGPUResourceListjE18null_resource_data.7769
++ __ZZL56dispatchTheadgroupDimensionMismatchedWithComputePipelinevENK3$_0clB14[AGX] Crashed.Ev.4889
++ __ZZN3AGX14ComputeContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_15CommandEncodingENS1_28EncoderComputeServiceClassesEE20performEnqueueKernelE19eAGXDataBufferPoolsyjPyE22per_shader_extra_space
++ __ZZN3AGX14ComputeContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_15CommandEncodingENS1_28EncoderComputeServiceClassesEE20performEnqueueKernelE19eAGXDataBufferPoolsyjPyE31brk_handler_end_of_shader_alloc
++ __ZZN3AGX14ComputeContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_19CommandEncodingNextENS1_32EncoderComputeServiceClassesNextEE20performEnqueueKernelE19eAGXDataBufferPoolsyjPyE22per_shader_extra_space
++ __ZZN3AGX14ComputeContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_19CommandEncodingNextENS1_32EncoderComputeServiceClassesNextEE20performEnqueueKernelE19eAGXDataBufferPoolsyjPyE31brk_handler_end_of_shader_alloc
++ ___Block_byref_object_copy_.250
++ ___Block_byref_object_copy_.266
++ ___Block_byref_object_copy_.271
++ ___Block_byref_object_copy_.3089
++ ___Block_byref_object_copy_.3527
++ ___Block_byref_object_copy_.3861
++ ___Block_byref_object_copy_.488
++ ___Block_byref_object_copy_.493
++ ___Block_byref_object_copy_.6366
++ ___Block_byref_object_copy_.7778
++ ___Block_byref_object_copy_.9422
++ ___Block_byref_object_dispose_.251
++ ___Block_byref_object_dispose_.267
++ ___Block_byref_object_dispose_.272
++ ___Block_byref_object_dispose_.3090
++ ___Block_byref_object_dispose_.3528
++ ___Block_byref_object_dispose_.3862
++ ___Block_byref_object_dispose_.489
++ ___Block_byref_object_dispose_.494
++ ___Block_byref_object_dispose_.6367
++ ___Block_byref_object_dispose_.7779
++ ___Block_byref_object_dispose_.9423
++ ____ZN3AGX11BlitContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_15CommandEncodingEE20copyTextureToTextureEP20AGXG18PFamilyTexturejjS8_jjjj_block_invoke.248
++ ____ZN3AGX11BlitContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_15CommandEncodingEE20copyTextureToTextureEP20AGXG18PFamilyTexturejjS8_jjjj_block_invoke.253
++ ____ZN3AGX11BlitContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_15CommandEncodingEE20copyTextureToTextureEP20AGXG18PFamilyTexturejjS8_jjjj_block_invoke_2.249
++ ____ZN3AGX11BlitContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_15CommandEncodingEE20copyTextureToTextureEP20AGXG18PFamilyTexturejjS8_jjjj_block_invoke_2.257
++ ____ZN3AGX11BlitContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_15CommandEncodingEE20copyTextureToTextureEP20AGXG18PFamilyTexturejjS8_jjjj_block_invoke_3.258
++ ____ZN3AGX11BlitContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_19CommandEncodingNextEE20copyTextureToTextureEP20AGXG18PFamilyTexturejjS8_jjjj_block_invoke.491
++ ____ZN3AGX11BlitContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_19CommandEncodingNextEE20copyTextureToTextureEP20AGXG18PFamilyTexturejjS8_jjjj_block_invoke.496
++ ____ZN3AGX11BlitContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_19CommandEncodingNextEE20copyTextureToTextureEP20AGXG18PFamilyTexturejjS8_jjjj_block_invoke_2.492
++ ____ZN3AGX11BlitContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_19CommandEncodingNextEE20copyTextureToTextureEP20AGXG18PFamilyTexturejjS8_jjjj_block_invoke_2.499
++ ____ZN3AGX11BlitContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_19CommandEncodingNextEE20copyTextureToTextureEP20AGXG18PFamilyTexturejjS8_jjjj_block_invoke_3.500
++ ____ZN3AGX17LegacyBlitContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesEE20copyTextureToTextureEP20AGXG18PFamilyTexturejjS7_jjjj_block_invoke.269
++ ____ZN3AGX17LegacyBlitContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesEE20copyTextureToTextureEP20AGXG18PFamilyTexturejjS7_jjjj_block_invoke.274
++ ____ZN3AGX17LegacyBlitContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesEE20copyTextureToTextureEP20AGXG18PFamilyTexturejjS7_jjjj_block_invoke_2.277
++ ____ZN3AGX17LegacyBlitContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesEE20copyTextureToTextureEP20AGXG18PFamilyTexturejjS7_jjjj_block_invoke_3.278
++ ____ZN3AGX23UserCommonShaderFactoryINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesEE23createIntersectionFnSetEP21MTLFunctionDescriptorPU22objcproto11MTLFunction11objc_objectP19AGXG18PFamilyDeviceP26AGXG18PFamilyBinaryArchivePP7NSErrorPU27objcproto16MTL4CompilerTask11objc_objectU13block_pointerFvSF_E_block_invoke.3870
++ ____ZN3AGX23UserCommonShaderFactoryINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesEE31createDynamicLibraryForFunctionEP21MTLFunctionDescriptorPU22objcproto11MTLFunction11objc_objectP19AGXG18PFamilyDeviceP26AGXG18PFamilyBinaryArchivePP7NSErrorPU27objcproto16MTL4CompilerTask11objc_objectU13block_pointerFvSF_E_block_invoke.3867
++ ____ZN3AGX23UserCommonShaderFactoryINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesEE31createDynamicLibraryForFunctionEP21MTLFunctionDescriptorPU22objcproto11MTLFunction11objc_objectP19AGXG18PFamilyDeviceP26AGXG18PFamilyBinaryArchivePP7NSErrorPU27objcproto16MTL4CompilerTask11objc_objectU13block_pointerFvSF_E_block_invoke_2.3868
++ ___block_descriptor_tmp.11017
++ ___block_descriptor_tmp.11422
++ ___block_literal_global.10052
++ ___block_literal_global.10092
++ ___block_literal_global.10520
++ ___block_literal_global.11015
++ ___block_literal_global.11420
++ ___block_literal_global.243
++ ___block_literal_global.263
++ ___block_literal_global.276
++ ___block_literal_global.396
++ ___block_literal_global.415
++ ___block_literal_global.417
++ ___block_literal_global.423
++ ___block_literal_global.485
++ ___block_literal_global.498
++ ___block_literal_global.609
++ ___block_literal_global.7340
++ _objc_msgSend$initWithCommandBuffer:allocator:captureProgramAddressTable:
++ _objc_msgSend$initWithCommandBuffer:allocator:descriptor:options:
++ _objc_msgSend$initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:
++ _objc_msgSend$performEndEncoding
++ _objc_msgSend$sampledComputeCommandEncoder
++ _objc_msgSend$sampledRenderCommandEncoderWithDescriptor:
++ _objc_msgSend$stringByAppendingString:
+- -[AGXG18PFamilyComputeContext_mtlnext initWithCommandBuffer:allocator:enableStateLoaderProgramTracking:]
+- -[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]
+- -[AGXG18PFamilySampledComputeContext_mtlnext dealloc]
+- -[AGXG18PFamilySampledComputeContext_mtlnext destroyImpl]
+- -[AGXG18PFamilySampledComputeContext_mtlnext dispatchThreadgroups:threadsPerThreadgroup:]
+- -[AGXG18PFamilySampledComputeContext_mtlnext dispatchThreadgroupsWithIndirectBuffer:threadsPerThreadgroup:]
+- -[AGXG18PFamilySampledComputeContext_mtlnext dispatchThreads:threadsPerThreadgroup:]
+- -[AGXG18PFamilySampledComputeContext_mtlnext dispatchThreadsWithIndirectBuffer:]
+- -[AGXG18PFamilySampledComputeContext_mtlnext executeCommandsInBuffer:indirectBuffer:]
+- -[AGXG18PFamilySampledComputeContext_mtlnext executeCommandsInBuffer:withRange:]
+- -[AGXG18PFamilySampledComputeContext_mtlnext initWithCommandBuffer:allocator:programInfoBuffer:capacity:]
+- -[AGXG18PFamilySampledRenderContext_mtlnext commandBatchIdOffset]
+- -[AGXG18PFamilySampledRenderContext_mtlnext commandBatchIdRangeMin:max:]
+- -[AGXG18PFamilySampledRenderContext_mtlnext endEncoding]
+- -[AGXG18PFamilySampledRenderContext_mtlnext filterCounterRangeWithFirstBatch:lastBatch:filterIndex:]
+- -[AGXG18PFamilySampledRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:programInfoBuffer:capacity:]
+- GCC_except_table2599
+- GCC_except_table2617
+- GCC_except_table2622
+- GCC_except_table2639
+- GCC_except_table2641
+- GCC_except_table2656
+- GCC_except_table2674
+- GCC_except_table2676
+- GCC_except_table2691
+- GCC_except_table2693
+- GCC_except_table2702
+- GCC_except_table2711
+- GCC_except_table2726
+- GCC_except_table2741
+- GCC_except_table2756
+- GCC_except_table2758
+- GCC_except_table2765
+- GCC_except_table2772
+- GCC_except_table2774
+- GCC_except_table2782
+- GCC_except_table2789
+- GCC_except_table2806
+- GCC_except_table2821
+- GCC_except_table2836
+- GCC_except_table2851
+- GCC_except_table2866
+- GCC_except_table2868
+- GCC_except_table2876
+- GCC_except_table2883
+- GCC_except_table2898
+- GCC_except_table2913
+- GCC_except_table2928
+- GCC_except_table2943
+- GCC_except_table2965
+- GCC_except_table2980
+- GCC_except_table3003
+- GCC_except_table3004
+- GCC_except_table3009
+- GCC_except_table3014
+- GCC_except_table3015
+- GCC_except_table3020
+- GCC_except_table3021
+- GCC_except_table3025
+- GCC_except_table3029
+- GCC_except_table3032
+- GCC_except_table3037
+- GCC_except_table3048
+- GCC_except_table3053
+- GCC_except_table3061
+- GCC_except_table3064
+- GCC_except_table3065
+- GCC_except_table3090
+- GCC_except_table3094
+- GCC_except_table3124
+- GCC_except_table3148
+- GCC_except_table3156
+- GCC_except_table3206
+- GCC_except_table3221
+- GCC_except_table3222
+- GCC_except_table3227
+- GCC_except_table3231
+- GCC_except_table3270
+- GCC_except_table3271
+- GCC_except_table3272
+- GCC_except_table3281
+- GCC_except_table3284
+- GCC_except_table3294
+- GCC_except_table3295
+- GCC_except_table3303
+- GCC_except_table3308
+- GCC_except_table3323
+- GCC_except_table3330
+- GCC_except_table3335
+- GCC_except_table3357
+- GCC_except_table3372
+- GCC_except_table3373
+- GCC_except_table3385
+- GCC_except_table3388
+- GCC_except_table3390
+- GCC_except_table3391
+- GCC_except_table3398
+- GCC_except_table3409
+- GCC_except_table3411
+- GCC_except_table3416
+- GCC_except_table3436
+- GCC_except_table3437
+- GCC_except_table3438
+- GCC_except_table3446
+- GCC_except_table3447
+- GCC_except_table3469
+- GCC_except_table3470
+- GCC_except_table3472
+- GCC_except_table3492
+- GCC_except_table3495
+- GCC_except_table3510
+- GCC_except_table3513
+- GCC_except_table3522
+- GCC_except_table3524
+- GCC_except_table3532
+- GCC_except_table3533
+- GCC_except_table3541
+- GCC_except_table3543
+- GCC_except_table3623
+- GCC_except_table3667
+- GCC_except_table3671
+- GCC_except_table3675
+- GCC_except_table3678
+- GCC_except_table3679
+- GCC_except_table3685
+- GCC_except_table3701
+- GCC_except_table3725
+- GCC_except_table3726
+- GCC_except_table3732
+- GCC_except_table3738
+- GCC_except_table3753
+- GCC_except_table3760
+- GCC_except_table3761
+- GCC_except_table3764
+- GCC_except_table3785
+- GCC_except_table3786
+- GCC_except_table3805
+- GCC_except_table3817
+- GCC_except_table3827
+- GCC_except_table3828
+- GCC_except_table3861
+- GCC_except_table3867
+- GCC_except_table3876
+- GCC_except_table3883
+- GCC_except_table3921
+- GCC_except_table3923
+- GCC_except_table3928
+- GCC_except_table4003
+- GCC_except_table4005
+- GCC_except_table4007
+- GCC_except_table4020
+- GCC_except_table4047
+- GCC_except_table4094
+- GCC_except_table4095
+- GCC_except_table4096
+- GCC_except_table4097
+- GCC_except_table4110
+- GCC_except_table4118
+- GCC_except_table4123
+- GCC_except_table4180
+- GCC_except_table4181
+- GCC_except_table4182
+- GCC_except_table4183
+- GCC_except_table4184
+- GCC_except_table4185
+- GCC_except_table4189
+- GCC_except_table4236
+- GCC_except_table4237
+- GCC_except_table4240
+- GCC_except_table4250
+- GCC_except_table4252
+- GCC_except_table4360
+- GCC_except_table4368
+- GCC_except_table4370
+- GCC_except_table4384
+- GCC_except_table4388
+- GCC_except_table4390
+- GCC_except_table4392
+- GCC_except_table4397
+- GCC_except_table4428
+- GCC_except_table4460
+- GCC_except_table4461
+- GCC_except_table4465
+- GCC_except_table4480
+- GCC_except_table4492
+- GCC_except_table4501
+- GCC_except_table4511
+- GCC_except_table4521
+- GCC_except_table4530
+- GCC_except_table4572
+- GCC_except_table4578
+- GCC_except_table4581
+- GCC_except_table4591
+- GCC_except_table4593
+- GCC_except_table4598
+- GCC_except_table4600
+- GCC_except_table4605
+- GCC_except_table4606
+- GCC_except_table4610
+- GCC_except_table4623
+- GCC_except_table4628
+- GCC_except_table4629
+- GCC_except_table4630
+- GCC_except_table4635
+- GCC_except_table4636
+- GCC_except_table4637
+- GCC_except_table4638
+- GCC_except_table4645
+- GCC_except_table4652
+- GCC_except_table4655
+- GCC_except_table4668
+- GCC_except_table4676
+- GCC_except_table4677
+- GCC_except_table4678
+- GCC_except_table4683
+- GCC_except_table4684
+- GCC_except_table4686
+- GCC_except_table4690
+- GCC_except_table4691
+- GCC_except_table4700
+- GCC_except_table4703
+- GCC_except_table4707
+- GCC_except_table4708
+- GCC_except_table4709
+- GCC_except_table4712
+- GCC_except_table4728
+- GCC_except_table4733
+- GCC_except_table4734
+- GCC_except_table4736
+- GCC_except_table4844
+- GCC_except_table4846
+- GCC_except_table4853
+- GCC_except_table4859
+- GCC_except_table4866
+- GCC_except_table4874
+- GCC_except_table4880
+- GCC_except_table4881
+- GCC_except_table4882
+- GCC_except_table4888
+- GCC_except_table4890
+- GCC_except_table4894
+- GCC_except_table4895
+- GCC_except_table4896
+- GCC_except_table4897
+- GCC_except_table4898
+- GCC_except_table4913
+- GCC_except_table4917
+- GCC_except_table4971
+- GCC_except_table4976
+- GCC_except_table4979
+- GCC_except_table4981
+- GCC_except_table4983
+- GCC_except_table4984
+- GCC_except_table4985
+- GCC_except_table5005
+- GCC_except_table5015
+- GCC_except_table5017
+- GCC_except_table5019
+- GCC_except_table5034
+- GCC_except_table5061
+- GCC_except_table5084
+- GCC_except_table5118
+- GCC_except_table5124
+- GCC_except_table5131
+- GCC_except_table5141
+- GCC_except_table5144
+- GCC_except_table5145
+- GCC_except_table5146
+- GCC_except_table5153
+- GCC_except_table5158
+- GCC_except_table5161
+- GCC_except_table5178
+- GCC_except_table5183
+- GCC_except_table5184
+- GCC_except_table5210
+- GCC_except_table5212
+- GCC_except_table5224
+- GCC_except_table5226
+- GCC_except_table5241
+- GCC_except_table5254
+- GCC_except_table5314
+- GCC_except_table5327
+- GCC_except_table5328
+- GCC_except_table5349
+- GCC_except_table5375
+- GCC_except_table5383
+- GCC_except_table5384
+- GCC_except_table5426
+- GCC_except_table5427
+- GCC_except_table5447
+- GCC_except_table5452
+- GCC_except_table5453
+- GCC_except_table5456
+- GCC_except_table5462
+- GCC_except_table5471
+- GCC_except_table5488
+- GCC_except_table5504
+- GCC_except_table5590
+- GCC_except_table5631
+- GCC_except_table5633
+- GCC_except_table5663
+- GCC_except_table5678
+- GCC_except_table5697
+- GCC_except_table5722
+- GCC_except_table5728
+- GCC_except_table5729
+- GCC_except_table5737
+- GCC_except_table5861
+- GCC_except_table5882
+- GCC_except_table5890
+- GCC_except_table5927
+- GCC_except_table5928
+- GCC_except_table5929
+- GCC_except_table5931
+- GCC_except_table5947
+- GCC_except_table5949
+- GCC_except_table5954
+- GCC_except_table5966
+- GCC_except_table5967
+- GCC_except_table5968
+- GCC_except_table5970
+- GCC_except_table5974
+- GCC_except_table5982
+- GCC_except_table6005
+- GCC_except_table6008
+- GCC_except_table6009
+- GCC_except_table6012
+- GCC_except_table6013
+- GCC_except_table6015
+- GCC_except_table6023
+- GCC_except_table6029
+- GCC_except_table6039
+- GCC_except_table6040
+- GCC_except_table6043
+- GCC_except_table6075
+- GCC_except_table6085
+- GCC_except_table6086
+- GCC_except_table6088
+- GCC_except_table6091
+- GCC_except_table6092
+- GCC_except_table6096
+- GCC_except_table6099
+- GCC_except_table6102
+- GCC_except_table6123
+- GCC_except_table6124
+- GCC_except_table6127
+- GCC_except_table6142
+- GCC_except_table6150
+- GCC_except_table6216
+- GCC_except_table6252
+- GCC_except_table6351
+- GCC_except_table6375
+- GCC_except_table6386
+- GCC_except_table6393
+- GCC_except_table6396
+- GCC_except_table6398
+- GCC_except_table6429
+- GCC_except_table6434
+- GCC_except_table6442
+- GCC_except_table6445
+- GCC_except_table6447
+- GCC_except_table6463
+- GCC_except_table6472
+- GCC_except_table6474
+- GCC_except_table6483
+- GCC_except_table6502
+- GCC_except_table8237
+- GCC_except_table8243
+- GCC_except_table8270
+- GCC_except_table8275
+- GCC_except_table8278
+- GCC_except_table8285
+- GCC_except_table8290
+- GCC_except_table8293
+- GCC_except_table8303
+- GCC_except_table8305
+- GCC_except_table8309
+- GCC_except_table8320
+- GCC_except_table8335
+- GCC_except_table8338
+- GCC_except_table8351
+- GCC_except_table8353
+- GCC_except_table8356
+- GCC_except_table8408
+- GCC_except_table8411
+- GCC_except_table8466
+- GCC_except_table8475
+- _OBJC_IVAR_$_AGXG18PFamilySampledComputeContext_mtlnext._sampled_impl
+- _OBJC_IVAR_$_AGXG18PFamilySampledRenderContext_mtlnext._user_draw_token_offset
+- __OBJC_$_INSTANCE_VARIABLES_AGXG18PFamilySampledComputeContext_mtlnext
+- __ZGVZN3AGX14ComputeContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_15CommandEncodingENS1_28EncoderComputeServiceClassesEE20performEnqueueKernelE19eAGXDataBufferPoolsyPKNS1_15ComputePipelineEjPyE22per_shader_extra_space
+- __ZGVZN3AGX14ComputeContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_15CommandEncodingENS1_28EncoderComputeServiceClassesEE20performEnqueueKernelE19eAGXDataBufferPoolsyPKNS1_15ComputePipelineEjPyE31brk_handler_end_of_shader_alloc
+- __ZGVZN3AGX14ComputeContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_19CommandEncodingNextENS1_32EncoderComputeServiceClassesNextEE20performEnqueueKernelE19eAGXDataBufferPoolsyPKNS1_15ComputePipelineEjPyE22per_shader_extra_space
+- __ZGVZN3AGX14ComputeContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_19CommandEncodingNextENS1_32EncoderComputeServiceClassesNextEE20performEnqueueKernelE19eAGXDataBufferPoolsyPKNS1_15ComputePipelineEjPyE31brk_handler_end_of_shader_alloc
+- __ZL19agxCalcSparseInputsjjjjjjjjjjjjbbjjjjP27AGXSparseTextureConstInputsb.8909
+- __ZL19agxCalcSparseInputsjjjjjjjjjjjjbbjjjjP27AGXSparseTextureConstInputsb.9653
+- __ZL19agxsTwiddleAddressZI21AGXSConverterPassThruILb0ELm2ELj1EL12TwiddleOrder1EEEvNT_13twid_ptr_typeENS3_12lin_ptr_typeEjjjjjjjjmP21agxsTwiddledBlockInfoP14agxsSparseInfo.9657
+- __ZL19agxsTwiddleAddressZI21AGXSConverterPassThruILb1ELm2ELj1EL12TwiddleOrder1EEEvNT_13twid_ptr_typeENS3_12lin_ptr_typeEjjjjjjjjmP21agxsTwiddledBlockInfoP14agxsSparseInfo.9665
+- __ZL28get_level_offset_within_tailjjjjjjjb.9654
+- __ZN3AGX14ComputeContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_15CommandEncodingENS1_28EncoderComputeServiceClassesEE20performEnqueueKernelE19eAGXDataBufferPoolsyPKNS1_15ComputePipelineEjPy
+- __ZN3AGX14ComputeContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_19CommandEncodingNextENS1_32EncoderComputeServiceClassesNextEE20performEnqueueKernelE19eAGXDataBufferPoolsyPKNS1_15ComputePipelineEjPy
+- __ZN3AGX14ComputeContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_19CommandEncodingNextENS1_32EncoderComputeServiceClassesNextEE41executeKernelThreadgroupsIndirectInternalE19eAGXDataBufferPoolsy7MTLSize
+- __ZN3AGX20SampledRenderContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_19CommandEncodingNextEE24duplicateShaderAddressesEv
+- __ZN3AGX21SampledComputeContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_15CommandEncodingENS1_28EncoderComputeServiceClassesEE24duplicateShaderAddressesEv
+- __ZN3AGX21SampledComputeContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_19CommandEncodingNextENS1_32EncoderComputeServiceClassesNextEE24duplicateShaderAddressesEv
+- __ZN3AGX6HAL30013ContextCommonD2Ev
+- __ZNK3AGX15ComputePipelineINS_6HAL30010ObjClassesENS1_7ClassesENS1_8EncodersEE26appendProgramAddressTablesEP14NSMutableArrayIPU45objcproto34MTLProgramAddressTableMappedBinary11objc_objectE
+- __ZNK3AGX26StateLoaderProgramsTrackerINS_6HAL3006DeviceEE26appendProgramAddressTablesEP14NSMutableArrayIPU45objcproto34MTLProgramAddressTableMappedBinary11objc_objectEP19NSMutableDictionaryIP8NSStringPS4_IPU33objcproto22MTLPipelineStateBinary11objc_objectEE
+- __ZNKSt3__110__function6__funcIZ122-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]E4$_11NS_9allocatorIS2_EEFvPN3AGX6HAL30011FramebufferEEE7__cloneEPNS0_6__baseIS9_EE
+- __ZNKSt3__110__function6__funcIZ122-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]E4$_11NS_9allocatorIS2_EEFvPN3AGX6HAL30011FramebufferEEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ122-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]E4$_12NS_9allocatorIS2_EEFvPN3AGX6HAL30011FramebufferEEE7__cloneEPNS0_6__baseIS9_EE
+- __ZNKSt3__110__function6__funcIZ122-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]E4$_12NS_9allocatorIS2_EEFvPN3AGX6HAL30011FramebufferEEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ122-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]E4$_13NS_9allocatorIS2_EEFvPN3AGX6HAL30014RenderContextBEEE7__cloneEPNS0_6__baseIS9_EE
+- __ZNKSt3__110__function6__funcIZ122-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]E4$_13NS_9allocatorIS2_EEFvPN3AGX6HAL30014RenderContextBEEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ122-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]E4$_14NS_9allocatorIS2_EEFvPN3AGX6HAL30014RenderContextBEEE7__cloneEPNS0_6__baseIS9_EE
+- __ZNKSt3__110__function6__funcIZ122-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]E4$_14NS_9allocatorIS2_EEFvPN3AGX6HAL30014RenderContextBEEE7__cloneEv
+- __ZNSt3__110__function6__funcIZ122-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]E4$_11NS_9allocatorIS2_EEFvPN3AGX6HAL30011FramebufferEEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ122-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]E4$_11NS_9allocatorIS2_EEFvPN3AGX6HAL30011FramebufferEEE7destroyEv
+- __ZNSt3__110__function6__funcIZ122-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]E4$_11NS_9allocatorIS2_EEFvPN3AGX6HAL30011FramebufferEEED0Ev
+- __ZNSt3__110__function6__funcIZ122-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]E4$_11NS_9allocatorIS2_EEFvPN3AGX6HAL30011FramebufferEEED1Ev
+- __ZNSt3__110__function6__funcIZ122-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]E4$_11NS_9allocatorIS2_EEFvPN3AGX6HAL30011FramebufferEEEclEOS8_
+- __ZNSt3__110__function6__funcIZ122-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]E4$_12NS_9allocatorIS2_EEFvPN3AGX6HAL30011FramebufferEEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ122-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]E4$_12NS_9allocatorIS2_EEFvPN3AGX6HAL30011FramebufferEEE7destroyEv
+- __ZNSt3__110__function6__funcIZ122-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]E4$_12NS_9allocatorIS2_EEFvPN3AGX6HAL30011FramebufferEEED0Ev
+- __ZNSt3__110__function6__funcIZ122-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]E4$_12NS_9allocatorIS2_EEFvPN3AGX6HAL30011FramebufferEEED1Ev
+- __ZNSt3__110__function6__funcIZ122-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]E4$_12NS_9allocatorIS2_EEFvPN3AGX6HAL30011FramebufferEEEclEOS8_
+- __ZNSt3__110__function6__funcIZ122-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]E4$_13NS_9allocatorIS2_EEFvPN3AGX6HAL30014RenderContextBEEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ122-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]E4$_13NS_9allocatorIS2_EEFvPN3AGX6HAL30014RenderContextBEEE7destroyEv
+- __ZNSt3__110__function6__funcIZ122-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]E4$_13NS_9allocatorIS2_EEFvPN3AGX6HAL30014RenderContextBEEED0Ev
+- __ZNSt3__110__function6__funcIZ122-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]E4$_13NS_9allocatorIS2_EEFvPN3AGX6HAL30014RenderContextBEEED1Ev
+- __ZNSt3__110__function6__funcIZ122-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]E4$_13NS_9allocatorIS2_EEFvPN3AGX6HAL30014RenderContextBEEEclEOS8_
+- __ZNSt3__110__function6__funcIZ122-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]E4$_14NS_9allocatorIS2_EEFvPN3AGX6HAL30014RenderContextBEEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ122-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]E4$_14NS_9allocatorIS2_EEFvPN3AGX6HAL30014RenderContextBEEE7destroyEv
+- __ZNSt3__110__function6__funcIZ122-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]E4$_14NS_9allocatorIS2_EEFvPN3AGX6HAL30014RenderContextBEEED0Ev
+- __ZNSt3__110__function6__funcIZ122-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]E4$_14NS_9allocatorIS2_EEFvPN3AGX6HAL30014RenderContextBEEED1Ev
+- __ZNSt3__110__function6__funcIZ122-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]E4$_14NS_9allocatorIS2_EEFvPN3AGX6HAL30014RenderContextBEEEclEOS8_
+- __ZTVNSt3__110__function6__funcIZ122-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]E4$_11NS_9allocatorIS2_EEFvPN3AGX6HAL30011FramebufferEEEE
+- __ZTVNSt3__110__function6__funcIZ122-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]E4$_12NS_9allocatorIS2_EEFvPN3AGX6HAL30011FramebufferEEEE
+- __ZTVNSt3__110__function6__funcIZ122-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]E4$_13NS_9allocatorIS2_EEFvPN3AGX6HAL30014RenderContextBEEEE
+- __ZTVNSt3__110__function6__funcIZ122-[AGXG18PFamilyRenderContext_mtlnext initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:]E4$_14NS_9allocatorIS2_EEFvPN3AGX6HAL30014RenderContextBEEEE
+- __ZZL37agxaBindNullResourceToHardwareCommandP17IOGPUResourceListjE18null_resource_data.7674
+- __ZZL56dispatchTheadgroupDimensionMismatchedWithComputePipelinevENK3$_0clB14[AGX] Crashed.Ev.4867
+- __ZZN3AGX14ComputeContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_15CommandEncodingENS1_28EncoderComputeServiceClassesEE20performEnqueueKernelE19eAGXDataBufferPoolsyPKNS1_15ComputePipelineEjPyE22per_shader_extra_space
+- __ZZN3AGX14ComputeContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_15CommandEncodingENS1_28EncoderComputeServiceClassesEE20performEnqueueKernelE19eAGXDataBufferPoolsyPKNS1_15ComputePipelineEjPyE31brk_handler_end_of_shader_alloc
+- __ZZN3AGX14ComputeContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_19CommandEncodingNextENS1_32EncoderComputeServiceClassesNextEE20performEnqueueKernelE19eAGXDataBufferPoolsyPKNS1_15ComputePipelineEjPyE22per_shader_extra_space
+- __ZZN3AGX14ComputeContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_19CommandEncodingNextENS1_32EncoderComputeServiceClassesNextEE20performEnqueueKernelE19eAGXDataBufferPoolsyPKNS1_15ComputePipelineEjPyE31brk_handler_end_of_shader_alloc
+- ___Block_byref_object_copy_.243
+- ___Block_byref_object_copy_.259
+- ___Block_byref_object_copy_.264
+- ___Block_byref_object_copy_.3082
+- ___Block_byref_object_copy_.3512
+- ___Block_byref_object_copy_.3844
+- ___Block_byref_object_copy_.433
+- ___Block_byref_object_copy_.438
+- ___Block_byref_object_copy_.6262
+- ___Block_byref_object_copy_.7684
+- ___Block_byref_object_copy_.9351
+- ___Block_byref_object_dispose_.244
+- ___Block_byref_object_dispose_.260
+- ___Block_byref_object_dispose_.265
+- ___Block_byref_object_dispose_.3083
+- ___Block_byref_object_dispose_.3513
+- ___Block_byref_object_dispose_.3845
+- ___Block_byref_object_dispose_.434
+- ___Block_byref_object_dispose_.439
+- ___Block_byref_object_dispose_.6263
+- ___Block_byref_object_dispose_.7685
+- ___Block_byref_object_dispose_.9352
+- ____ZN3AGX11BlitContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_15CommandEncodingEE20copyTextureToTextureEP20AGXG18PFamilyTexturejjS8_jjjj_block_invoke.241
+- ____ZN3AGX11BlitContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_15CommandEncodingEE20copyTextureToTextureEP20AGXG18PFamilyTexturejjS8_jjjj_block_invoke.246
+- ____ZN3AGX11BlitContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_15CommandEncodingEE20copyTextureToTextureEP20AGXG18PFamilyTexturejjS8_jjjj_block_invoke_2.242
+- ____ZN3AGX11BlitContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_15CommandEncodingEE20copyTextureToTextureEP20AGXG18PFamilyTexturejjS8_jjjj_block_invoke_2.250
+- ____ZN3AGX11BlitContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_15CommandEncodingEE20copyTextureToTextureEP20AGXG18PFamilyTexturejjS8_jjjj_block_invoke_3.251
+- ____ZN3AGX11BlitContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_19CommandEncodingNextEE20copyTextureToTextureEP20AGXG18PFamilyTexturejjS8_jjjj_block_invoke.436
+- ____ZN3AGX11BlitContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_19CommandEncodingNextEE20copyTextureToTextureEP20AGXG18PFamilyTexturejjS8_jjjj_block_invoke.441
+- ____ZN3AGX11BlitContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_19CommandEncodingNextEE20copyTextureToTextureEP20AGXG18PFamilyTexturejjS8_jjjj_block_invoke_2.437
+- ____ZN3AGX11BlitContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_19CommandEncodingNextEE20copyTextureToTextureEP20AGXG18PFamilyTexturejjS8_jjjj_block_invoke_2.444
+- ____ZN3AGX11BlitContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesENS1_19CommandEncodingNextEE20copyTextureToTextureEP20AGXG18PFamilyTexturejjS8_jjjj_block_invoke_3.445
+- ____ZN3AGX17LegacyBlitContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesEE20copyTextureToTextureEP20AGXG18PFamilyTexturejjS7_jjjj_block_invoke.262
+- ____ZN3AGX17LegacyBlitContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesEE20copyTextureToTextureEP20AGXG18PFamilyTexturejjS7_jjjj_block_invoke.267
+- ____ZN3AGX17LegacyBlitContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesEE20copyTextureToTextureEP20AGXG18PFamilyTexturejjS7_jjjj_block_invoke_2.263
+- ____ZN3AGX17LegacyBlitContextINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesEE20copyTextureToTextureEP20AGXG18PFamilyTexturejjS7_jjjj_block_invoke_3.271
+- ____ZN3AGX23UserCommonShaderFactoryINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesEE23createIntersectionFnSetEP21MTLFunctionDescriptorPU22objcproto11MTLFunction11objc_objectP19AGXG18PFamilyDeviceP26AGXG18PFamilyBinaryArchivePP7NSErrorPU27objcproto16MTL4CompilerTask11objc_objectU13block_pointerFvSF_E_block_invoke.3853
+- ____ZN3AGX23UserCommonShaderFactoryINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesEE31createDynamicLibraryForFunctionEP21MTLFunctionDescriptorPU22objcproto11MTLFunction11objc_objectP19AGXG18PFamilyDeviceP26AGXG18PFamilyBinaryArchivePP7NSErrorPU27objcproto16MTL4CompilerTask11objc_objectU13block_pointerFvSF_E_block_invoke.3850
+- ____ZN3AGX23UserCommonShaderFactoryINS_6HAL3008EncodersENS1_7ClassesENS1_10ObjClassesEE31createDynamicLibraryForFunctionEP21MTLFunctionDescriptorPU22objcproto11MTLFunction11objc_objectP19AGXG18PFamilyDeviceP26AGXG18PFamilyBinaryArchivePP7NSErrorPU27objcproto16MTL4CompilerTask11objc_objectU13block_pointerFvSF_E_block_invoke_2.3851
+- ___block_descriptor_tmp.10951
+- ___block_descriptor_tmp.11356
+- ___block_literal_global.10021
+- ___block_literal_global.10448
+- ___block_literal_global.10949
+- ___block_literal_global.11354
+- ___block_literal_global.236
+- ___block_literal_global.249
+- ___block_literal_global.269
+- ___block_literal_global.354
+- ___block_literal_global.373
+- ___block_literal_global.375
+- ___block_literal_global.381
+- ___block_literal_global.430
+- ___block_literal_global.443
+- ___block_literal_global.567
+- ___block_literal_global.7253
+- ___block_literal_global.9981
+- _objc_msgSend$initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:
+- _objc_msgSend$initWithCommandBuffer:allocator:descriptor:options:programInfoBuffer:capacity:
+- _objc_msgSend$initWithCommandBuffer:allocator:enableStateLoaderProgramTracking:
+- _objc_msgSend$initWithCommandBuffer:allocator:programInfoBuffer:capacity:
+CStrings:
++ "-[AGXG18PFamilyCommandBuffer_mtlnext sampledComputeCommandEncoder]"
++ "-[AGXG18PFamilyCommandBuffer_mtlnext sampledRenderCommandEncoderWithDescriptor:]"
++ "-dynamic-libraries"
++ "-intersection-functions"
++ "-sl"
++ "@104@0:8{EncoderComputeServiceConfigA=@@@i@iIBi^{DataBufferConfig}BB}16^(?={?=b8b24IQQ}{?=b8b24IQQ})88Q96"
++ "@112@0:8@16{EncoderComputeServiceConfigA=@@@i@iIBi^{DataBufferConfig}BB}24^(?={?=b8b24IQQ}{?=b8b24IQQ})96Q104"
++ "@48@0:8@16@24@32Q40"
++ "@88@0:8{EncoderComputeServiceConfigA=@@@i@iIBi^{DataBufferConfig}BB}16"
++ "@96@0:8@16{EncoderComputeServiceConfigA=@@@i@iIBi^{DataBufferConfig}BB}24"
++ "B96@0:8{EncoderComputeServiceConfigA=@@@i@iIBi^{DataBufferConfig}BB}16#88"
++ "Sampling supports NULL buffer mode only in Metal 4"
++ "driver-build-acceleration-structure"
++ "driver-copy-acceleration-structure"
++ "driver-copy-compact-acceleration-structure"
++ "driver-copy-from-buffer-to-buffer"
++ "driver-copy-from-buffer-to-texture"
++ "driver-copy-from-tensor"
++ "driver-copy-from-texture-to-buffer"
++ "driver-copy-from-texture-to-texture"
++ "driver-copy-indirect-command-buffer"
++ "driver-copy-texture-mappings"
++ "driver-deserialize-instance-acceleration-structure"
++ "driver-deserialize-primitive-acceleration-structure"
++ "driver-fill-buffer"
++ "driver-fill-texture"
++ "driver-generate-mipmaps-for-texture"
++ "driver-optimize-contents-for-cpu-access"
++ "driver-optimize-contents-for-gpu-access"
++ "driver-optimize-indirect-command-buffer"
++ "driver-refit-acceleration-structure"
++ "driver-reset-commands-in-buffer"
++ "driver-serialize-instance-acceleration-structure"
++ "driver-serialize-primitive-acceleration-structure"
++ "driver-tg-opt"
++ "driver-update-texture-mappings"
++ "driver-write-acceleration-structure-traversal-depth"
++ "driver-write-compacted-acceleration-structure-size"
++ "driver-write-deserialized-acceleration-structure-size"
++ "driver-write-generic-bvh-structure-of-acceleration-structure"
++ "driver-write-generic-bvh-structure-sizes-of-acceleration-structure"
++ "driver-write-serialized-acceleration-structure-size"
++ "initWithCommandBuffer:allocator:captureProgramAddressTable:"
++ "initWithCommandBuffer:allocator:descriptor:options:"
++ "initWithCommandBuffer:allocator:descriptor:options:captureProgramAddressTable:"
++ "performEndEncoding"
++ "sampledComputeCommandEncoder"
++ "sampledRenderCommandEncoderWithDescriptor:"
++ "stringByAppendingString:"
++ "{ComputePipeline=\"scs_per_shader_config_table\"{unique_ptr<AGX::HeapBuffer, std::default_delete<AGX::HeapBuffer>>=\"\"{?=\"__ptr_\"^{HeapBuffer}}}\"dora_state_buffer\"@\"AGXG18PFamilyBuffer\"\"compute_variant\"^{ComputeProgramVariant}\"supports_indirect_command_buffers\"B\"requires_binary_linking_bindings\"B\"descendent_pipeline\"B\"ei_state\"{ExecuteIndirectPipelineState=\"pipeline_state_gpu_address\"Q\"allocation\"{Allocation=\"buffer_\"{BufferView<unsigned char>=\"address\"{AddressView<unsigned char>=\"gpu\"Q\"cpu\"*}\"size\"Q}\"resource_\"^{_Resource}\"heap_\"^v\"element_\"{tuple<>=}}}\"resource_indirection_heap_allocation\"{Allocation=\"index\"I\"size\"I\"pool\"^v\"directly_assigned\"B}\"loader_runtime_state\"{RuntimeState=\"got\"{shared_ptr<AGX::HeapBuffer>=\"__ptr_\"^{HeapBuffer}\"__cntrl_\"^{__shared_weak_count}}\"global_constructors\"{shared_ptr<AGX::HeapBuffer>=\"__ptr_\"^{HeapBuffer}\"__cntrl_\"^{__shared_weak_count}}\"builtin_state_buffer\"{shared_ptr<AGX::HeapBuffer>=\"__ptr_\"^{HeapBuffer}\"__cntrl_\"^{__shared_weak_count}}\"max_temporary_register_count\"I\"total_spill_buffer_bytes\"I\"base_spill_buffer_bytes\"I\"entry_function_group_non_main_spill_buffer_bytes\"I\"total_ipr_buffer_bytes\"I\"base_ipr_buffer_bytes\"I\"max_call_stack_depth\"I\"max_spill_per_function_bytes\"I\"max_spill_per_stateless_pso_function_bytes\"I\"max_ipr_per_function_bytes\"I\"tls_alloc_size\"I\"total_tls_size\"I\"global_constructor_count\"I\"ray_payload_size_align\"{RayPayloadSizeAlignImpl<AGX::HAL300::Classes>=\"user_payload_align\"I\"max_traversal_depth\"I\"cached_scs_layout\"{CachedScsLayout=\"scs_layout\"{ScsLayoutGen2=\"traversal_depth\"b16\"max_instance_levels\"b8\"num_cliques\"b8\"per_ray_user_payload_size\"b16\"per_ray_driver_payload_size\"b16}\"scs_section_offsets\"{array<unsigned int, 12UL>=\"__elems_\"[12I]}\"scs_section_sizes\"{array<unsigned int, 12UL>=\"__elems_\"[12I]}\"leaf_ptrs_scs_stride\"I\"total_scs_size\"I}}\"ray_ifb_payload_variants\"I\"has_side_effects\"B\"uses_dpg\"B\"reads_tgsrs\"B\"requires_builtin_state\"B\"has_texture_stores\"B\"got_size\"Q\"max_lm_spill_size\"I\"max_sgpr_lm_size\"I\"entry_spill_buffer_bytes\"I\"entry_ipr_bytes\"I\"max_tptg_from_dylibs\"I\"allocate_from_ei_heap\"B\"global_binding_table_layout\"{GlobalBindingTableLayout=\"sampler_state_registers_count\"I\"global_binding_buffers\"{ArgumentMask<64UL>=\"mask\"Q}\"global_binding_textures\"{ArgumentMask<128UL>=\"mask\"[2Q]}\"global_binding_samplers\"{ArgumentMask<64UL>=\"mask\"Q}\"global_binding_tgbuffers\"{ArgumentMask<64UL>=\"mask\"Q}}}\"dylib_resources\"{PipelineDylibResources<AGX::HAL300::ObjClasses, AGX::HAL300::Classes, AGX::ICBType::Compute>=\"dylibs\"{vector<std::shared_ptr<AGX::HAL300::DynamicLibrary>, std::allocator<std::shared_ptr<AGX::HAL300::DynamicLibrary>>>=\"__begin_\"^v\"__end_\"^v\"\"{?=\"__cap_\"^v}}}\"max_wg_size\"I\"function_handle_map\"{unordered_map<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>, std::hash<id<MTLFunction>>, std::equal_to<id<MTLFunction>>, std::allocator<std::pair<const id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>>>=\"__table_\"{__hash_table<std::__hash_value_type<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>, std::__unordered_map_hasher<id<MTLFunction>, std::__hash_value_type<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>, std::hash<id<MTLFunction>>, std::equal_to<id<MTLFunction>>>, std::__unordered_map_equal<id<MTLFunction>, std::__hash_value_type<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>, std::equal_to<id<MTLFunction>>, std::hash<id<MTLFunction>>>, std::allocator<std::__hash_value_type<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>, void *> *> *>>>=\"\"{?=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>, void *> *> *>>=\"\"{?=\"__size_\"Q}}}}\"\"{?=\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>, void *> *>=\"__next_\"^v}}\"\"{?=\"__size_\"Q}\"\"{?=\"__max_load_factor_\"f}}}\"name_to_function_map\"{unordered_map<std::string, id<MTLFunction>, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, id<MTLFunction>>>>=\"__table_\"{__hash_table<std::__hash_value_type<std::string, id<MTLFunction>>, std::__unordered_map_hasher<std::string, std::__hash_value_type<std::string, id<MTLFunction>>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::__hash_value_type<std::string, id<MTLFunction>>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::__hash_value_type<std::string, id<MTLFunction>>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, id<MTLFunction>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, id<MTLFunction>>, void *> *> *>>>=\"\"{?=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, id<MTLFunction>>, void *> *> *>>=\"\"{?=\"__size_\"Q}}}}\"\"{?=\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, id<MTLFunction>>, void *> *>=\"__next_\"^v}}\"\"{?=\"__size_\"Q}\"\"{?=\"__max_load_factor_\"f}}}\"vft_set\"{shared_ptr<AGX::FunctionTableSet<AGXG18PFamilyVisibleFunctionTable>>=\"__ptr_\"^v\"__cntrl_\"^{__shared_weak_count}}\"clone_visible_function_table_heap\"^{VisibleFunctionTableHeap}\"ift_set\"{shared_ptr<AGX::FunctionTableSet<AGXG18PFamilyUserIntersectionFunctionTable>>=\"__ptr_\"^v\"__cntrl_\"^{__shared_weak_count}}\"intersection_pipeline_sets\"{vector<std::shared_ptr<AGX::HAL300::IntersectionPipelineSet>, std::allocator<std::shared_ptr<AGX::HAL300::IntersectionPipelineSet>>>=\"__begin_\"^v\"__end_\"^v\"\"{?=\"__cap_\"^v}}\"ift_spill_info\"{shared_ptr<AGX::HAL300::SpillInfo>=\"__ptr_\"^{SpillInfo}\"__cntrl_\"^{__shared_weak_count}}}"
++ "{RenderPipeline=\"fragment_variant\"^{FragmentProgramVariant}\"vertex_variant\"^{VertexProgramVariant}\"tile_variant\"^{TileProgramVariant}\"object_variant\"^{ObjectProgramVariant}\"mesh_variant\"^{MeshProgramVariant}\"vertex_spill_params\"{SpillParamsVertex=\"config\"{SpillConfigNonRT=\"dirPages\"[5i]\"minPrivateMemoryPagesNonRT\"i\"idealPrivateMemoryPagesNonRT\"i\"idealPagesRequired\"i}}\"fragment_tile_spill_params\"{SpillParamsFragment=\"clique_plus_coeff_pages_typical\"I\"clique_pages_required_minimal\"I\"clique_xlate_pages_required_minimal\"I\"coeff_pages_required_minimal\"I\"gpsr_dir_pages_minimal\"I\"interface_dir_pages_minimal\"I}\"resource_info\"[26{IOGPUResourceInfo=\"iosurface\"^{__IOSurface}\"resourceSize\"b56\"iosurfaceField\"b8\"resourceID\"I}]\"resource_info_count\"I\"vertex_resource_mask\"I\"fragment_resource_mask\"I\"object_resource_mask\"I\"mesh_resource_mask\"I\"owns_variants\"B\"max_vertex_amplification_count\"I\"sample_coverage\"f\"sample_mask\"I\"sample_count\"I\"rasterization_enabled\"B\"render_tile_pipeline\"B\"tess_winding\"i\"tess_partition_mode\"i\"tess_resource_type\"i\"tess_factor_step_function\"i\"tess_factor_format\"i\"max_tessellation_factor\"I\"tessellation_factor_scale_enabled\"B\"supports_indirect_command_buffers\"B\"requires_binary_linking_bindings\"B\"descendent_pipeline\"B\"explicit_visibility_group_id\"{optional<unsigned int>=\"\"(?=\"__null_state_\"c\"__val_\"I)\"__engaged_\"B}\"isp_state\"{ISPTokenIndirect=\"header\"(_AgxPppStateHeader=\"all\"I\"bytes\"[4C]\"bits\"{?=\"PresHeaderExtension\"b1\"PsoNpsoCtrl\"b1\"RSVD0\"b3\"PresFrgCommonCtl\"b1\"PresFrgFaceCtl\"b1\"PresFrgFaceStencil\"b1\"PresFrgDbiasAddr\"b1\"PresFrgScissorsAddr\"b1\"PresFrgDboundsAddr\"b1\"ViewportStateIs16\"b1\"PresRegionClip\"b1\"PresViewport\"b1\"ViewportCount\"b4\"PresWclamp\"b1\"PresOutselects\"b1\"PresVaryingWords\"b1\"PresMsPrimOutput\"b1\"PresFrgUscOptEsl\"b1\"PresPppctrl\"b1\"PresFrgShaderWords\"b1\"PresFrgVisQueryTagFlush\"b1\"PresVsAmplifyCtrl\"b1\"PresVsOutputSize\"b1\"PresAmplifyVaryingWords\"b1\"LastPipe\"b1\"ContextSwitch\"b1\"Terminate\"b1})\"ctl\"(_AgxPppStateFrgCommonCtl=\"all\"I\"bytes\"[4C]\"bits\"{?=\"FrontFaceDir\"b1\"Cullmode\"b2\"RSVD0\"b4\"InBatchWindow\"b1\"TagsortFlushCtl\"b2\"MrcDependency\"b2\"RSVD1\"b1\"TagsortAccumDisable\"b1\"Visbool\"b1\"Vistest\"b1\"Scenable\"b1\"Dbenable\"b1\"FaceStencilPres\"b1\"TwoSided\"b1\"RectWarpDisable\"b1\"Tagwritedisable\"b1\"TwoPassFbOpa\"b1\"MidRenderCompute\"b1\"Dboenable\"b1\"SampleMaskSelect\"b1\"TriMergeDisable\"b1\"OverlapCheckMode\"b1\"UscEsl2\"b1\"Passtype\"b3})\"fa\"(_AgxPppStateFrgFaceCtlF=\"all\"I\"bytes\"[4C]\"bits\"{?=\"Sref\"b8\"Pointlinewidth\"b10\"FillModeOverride\"b2\"Linefilllastpixel\"b1\"Dwritedisable\"b1\"FsDepthDirQual\"b2\"Dcmpmode\"b3\"RSVD0\"b1\"Objtype\"b4})\"ba\"(_AgxPppStateFrgFaceCtlB=\"all\"I\"bytes\"[4C]\"bits\"{?=\"Sref\"b8\"Pointlinewidth\"b10\"FillModeOverride\"b2\"Linefilllastpixel\"b1\"Dwritedisable\"b1\"FsDepthDirQual\"b2\"Dcmpmode\"b3\"RSVD0\"b1\"Objtype\"b4})\"vis_query_tag_flush\"(_AgxPppStateFrgVisQueryTagFlush=\"all\"I\"bytes\"[4C]\"bits\"{?=\"TagsortFlushData\"b17\"VisQueryIndex\"b15})}\"cull_state\"{CullTokenIndirect=\"header\"(_AgxPppStateHeader=\"all\"I\"bytes\"[4C]\"bits\"{?=\"PresHeaderExtension\"b1\"PsoNpsoCtrl\"b1\"RSVD0\"b3\"PresFrgCommonCtl\"b1\"PresFrgFaceCtl\"b1\"PresFrgFaceStencil\"b1\"PresFrgDbiasAddr\"b1\"PresFrgScissorsAddr\"b1\"PresFrgDboundsAddr\"b1\"ViewportStateIs16\"b1\"PresRegionClip\"b1\"PresViewport\"b1\"ViewportCount\"b4\"PresWclamp\"b1\"PresOutselects\"b1\"PresVaryingWords\"b1\"PresMsPrimOutput\"b1\"PresFrgUscOptEsl\"b1\"PresPppctrl\"b1\"PresFrgShaderWords\"b1\"PresFrgVisQueryTagFlush\"b1\"PresVsAmplifyCtrl\"b1\"PresVsOutputSize\"b1\"PresAmplifyVaryingWords\"b1\"LastPipe\"b1\"ContextSwitch\"b1\"Terminate\"b1})\"w_clamp\"f\"ctl\"(_AgxPppStatePppCtrl=\"all\"I\"bytes\"[4C]\"bits\"{?=\"Cullmode\"b2\"RSVD0\"b2\"Wbuffen\"b1\"Wclampen\"b1\"Pretransform\"b1\"FlatshadeVtx\"b2\"Drawclippededges\"b1\"ClipMode\"b2\"PrimitiveIdPres\"b1\"MsFsBufferNeeded\"b1\"RSVD1\"b1\"PrimMsaa\"b1\"FrontFaceDir\"b1\"RasterizerDiscard\"b1\"RSVD2\"b14})}\"ei_heap_buffer_resource_mask\"{ArgumentMask<128UL>=\"mask\"[2Q]}\"sw_tessellation_pipelines\"[3^{RenderPipeline}]\"geometry_pipeline_state\"{GeometryPipelineState=\"object_tg_dims\"{ComputeSize3D=\"x\"I\"y\"I\"z\"I}\"mesh_tg_dims\"{ComputeSize3D=\"x\"I\"y\"I\"z\"I}\"max_mesh_tgs\"{ComputeSize3D=\"x\"I\"y\"I\"z\"I}\"payload_size\"I\"object_max_threads_per_tg\"I\"mesh_max_threads_per_tg\"I\"vertex_size\"I\"primitive_size\"I\"max_vertices\"I\"max_primitives\"I\"topology\"I}\"ei_state\"{ExecuteIndirectPipelineState=\"pipeline_state_gpu_address\"Q\"allocation\"{Allocation=\"buffer_\"{BufferView<unsigned char>=\"address\"{AddressView<unsigned char>=\"gpu\"Q\"cpu\"*}\"size\"Q}\"resource_\"^{_Resource}\"heap_\"^v\"element_\"{tuple<>=}}}\"resource_indirection_heap_allocation\"{Allocation=\"index\"I\"size\"I\"pool\"^v\"directly_assigned\"B}\"loader_runtime_states\"[5{RuntimeState=\"got\"{shared_ptr<AGX::HeapBuffer>=\"__ptr_\"^{HeapBuffer}\"__cntrl_\"^{__shared_weak_count}}\"global_constructors\"{shared_ptr<AGX::HeapBuffer>=\"__ptr_\"^{HeapBuffer}\"__cntrl_\"^{__shared_weak_count}}\"builtin_state_buffer\"{shared_ptr<AGX::HeapBuffer>=\"__ptr_\"^{HeapBuffer}\"__cntrl_\"^{__shared_weak_count}}\"max_temporary_register_count\"I\"total_spill_buffer_bytes\"I\"base_spill_buffer_bytes\"I\"entry_function_group_non_main_spill_buffer_bytes\"I\"total_ipr_buffer_bytes\"I\"base_ipr_buffer_bytes\"I\"max_call_stack_depth\"I\"max_spill_per_function_bytes\"I\"max_spill_per_stateless_pso_function_bytes\"I\"max_ipr_per_function_bytes\"I\"tls_alloc_size\"I\"total_tls_size\"I\"global_constructor_count\"I\"ray_payload_size_align\"{RayPayloadSizeAlignImpl<AGX::HAL300::Classes>=\"user_payload_align\"I\"max_traversal_depth\"I\"cached_scs_layout\"{CachedScsLayout=\"scs_layout\"{ScsLayoutGen2=\"traversal_depth\"b16\"max_instance_levels\"b8\"num_cliques\"b8\"per_ray_user_payload_size\"b16\"per_ray_driver_payload_size\"b16}\"scs_section_offsets\"{array<unsigned int, 12UL>=\"__elems_\"[12I]}\"scs_section_sizes\"{array<unsigned int, 12UL>=\"__elems_\"[12I]}\"leaf_ptrs_scs_stride\"I\"total_scs_size\"I}}\"ray_ifb_payload_variants\"I\"has_side_effects\"B\"uses_dpg\"B\"reads_tgsrs\"B\"requires_builtin_state\"B\"has_texture_stores\"B\"got_size\"Q\"max_lm_spill_size\"I\"max_sgpr_lm_size\"I\"entry_spill_buffer_bytes\"I\"entry_ipr_bytes\"I\"max_tptg_from_dylibs\"I\"allocate_from_ei_heap\"B\"global_binding_table_layout\"{GlobalBindingTableLayout=\"sampler_state_registers_count\"I\"global_binding_buffers\"{ArgumentMask<64UL>=\"mask\"Q}\"global_binding_textures\"{ArgumentMask<128UL>=\"mask\"[2Q]}\"global_binding_samplers\"{ArgumentMask<64UL>=\"mask\"Q}\"global_binding_tgbuffers\"{ArgumentMask<64UL>=\"mask\"Q}}}]\"dylib_resources\"[5{PipelineDylibResources<AGX::HAL300::ObjClasses, AGX::HAL300::Classes, AGX::ICBType::Render>=\"dylibs\"{vector<std::shared_ptr<AGX::HAL300::DynamicLibrary>, std::allocator<std::shared_ptr<AGX::HAL300::DynamicLibrary>>>=\"__begin_\"^v\"__end_\"^v\"\"{?=\"__cap_\"^v}}}]\"visible_function_handle_maps\"[5{unordered_map<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>, std::hash<id<MTLFunction>>, std::equal_to<id<MTLFunction>>, std::allocator<std::pair<const id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>>>=\"__table_\"{__hash_table<std::__hash_value_type<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>, std::__unordered_map_hasher<id<MTLFunction>, std::__hash_value_type<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>, std::hash<id<MTLFunction>>, std::equal_to<id<MTLFunction>>>, std::__unordered_map_equal<id<MTLFunction>, std::__hash_value_type<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>, std::equal_to<id<MTLFunction>>, std::hash<id<MTLFunction>>>, std::allocator<std::__hash_value_type<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>, void *> *> *>>>=\"\"{?=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>, void *> *> *>>=\"\"{?=\"__size_\"Q}}}}\"\"{?=\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>, void *> *>=\"__next_\"^v}}\"\"{?=\"__size_\"Q}\"\"{?=\"__max_load_factor_\"f}}}]\"name_to_function_maps\"[5{unordered_map<std::string, id<MTLFunction>, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, id<MTLFunction>>>>=\"__table_\"{__hash_table<std::__hash_value_type<std::string, id<MTLFunction>>, std::__unordered_map_hasher<std::string, std::__hash_value_type<std::string, id<MTLFunction>>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::__hash_value_type<std::string, id<MTLFunction>>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::__hash_value_type<std::string, id<MTLFunction>>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, id<MTLFunction>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, id<MTLFunction>>, void *> *> *>>>=\"\"{?=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, id<MTLFunction>>, void *> *> *>>=\"\"{?=\"__size_\"Q}}}}\"\"{?=\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, id<MTLFunction>>, void *> *>=\"__next_\"^v}}\"\"{?=\"__size_\"Q}\"\"{?=\"__max_load_factor_\"f}}}]\"vft_set\"{shared_ptr<AGX::FunctionTableSet<AGXG18PFamilyVisibleFunctionTable>>=\"__ptr_\"^v\"__cntrl_\"^{__shared_weak_count}}\"clone_visible_function_table_heap\"^{VisibleFunctionTableHeap}\"must_derive_mrt_masks_late\"B\"logical_input_mrt_mask\"I\"logical_output_mrt_mask\"I\"ift_set\"{shared_ptr<AGX::FunctionTableSet<AGXG18PFamilyUserIntersectionFunctionTable>>=\"__ptr_\"^v\"__cntrl_\"^{__shared_weak_count}}\"max_gtp_ray_payload_size_align\"{RayPayloadSizeAlignImpl<AGX::HAL300::Classes>=\"user_payload_align\"I\"max_traversal_depth\"I\"cached_scs_layout\"{CachedScsLayout=\"scs_layout\"{ScsLayoutGen2=\"traversal_depth\"b16\"max_instance_levels\"b8\"num_cliques\"b8\"per_ray_user_payload_size\"b16\"per_ray_driver_payload_size\"b16}\"scs_section_offsets\"{array<unsigned int, 12UL>=\"__elems_\"[12I]}\"scs_section_sizes\"{array<unsigned int, 12UL>=\"__elems_\"[12I]}\"leaf_ptrs_scs_stride\"I\"total_scs_size\"I}}\"max_frg_ray_payload_size_align\"{RayPayloadSizeAlignImpl<AGX::HAL300::Classes>=\"user_payload_align\"I\"max_traversal_depth\"I\"cached_scs_layout\"{CachedScsLayout=\"scs_layout\"{ScsLayoutGen2=\"traversal_depth\"b16\"max_instance_levels\"b8\"num_cliques\"b8\"per_ray_user_payload_size\"b16\"per_ray_driver_payload_size\"b16}\"scs_section_offsets\"{array<unsigned int, 12UL>=\"__elems_\"[12I]}\"scs_section_sizes\"{array<unsigned int, 12UL>=\"__elems_\"[12I]}\"leaf_ptrs_scs_stride\"I\"total_scs_size\"I}}\"intersection_pipeline_sets\"[5{vector<std::shared_ptr<AGX::HAL300::IntersectionPipelineSet>, std::allocator<std::shared_ptr<AGX::HAL300::IntersectionPipelineSet>>>=\"__begin_\"^v\"__end_\"^v\"\"{?=\"__cap_\"^v}}]\"ift_spill_info\"[5{shared_ptr<AGX::HAL300::SpillInfo>=\"__ptr_\"^{SpillInfo}\"__cntrl_\"^{__shared_weak_count}}]\"scs_per_shader_config_tables\"[5{unique_ptr<AGX::HeapBuffer, std::default_delete<AGX::HeapBuffer>>=\"\"{?=\"__ptr_\"^{HeapBuffer}}}]\"dora_state_buffer\"@\"AGXG18PFamilyBuffer\"\"scs_per_shader_config_table_mask\"I\"driver_fragment_dependencies\"{vector<AGX::DynamicLoader<AGX::HAL300::Encoders, AGX::HAL300::Classes, AGX::HAL300::ObjClasses>::ModuleInfo, std::allocator<AGX::DynamicLoader<AGX::HAL300::Encoders, AGX::HAL300::Classes, AGX::HAL300::ObjClasses>::ModuleInfo>>=\"__begin_\"^{ModuleInfo}\"__end_\"^{ModuleInfo}\"\"{?=\"__cap_\"^{ModuleInfo}}}\"specializableState\"{unique_ptr<AGX::SpecializableRenderPipelineState, std::default_delete<AGX::SpecializableRenderPipelineState>>=\"\"{?=\"__ptr_\"^{SpecializableRenderPipelineState}}}\"specializableLinkerState\"{unique_ptr<AGX::SpecializableRenderPipelineLinkerState<AGX::HAL300::Classes>, std::default_delete<AGX::SpecializableRenderPipelineLinkerState<AGX::HAL300::Classes>>>=\"\"{?=\"__ptr_\"^v}}\"program_varying_table\"^v}"
+- "@104@0:8{EncoderComputeServiceConfigA=@@@i@iIBiB^{DataBufferConfig}}16^(?={?=b8b24IQQ}{?=b8b24IQQ})88Q96"
+- "@112@0:8@16{EncoderComputeServiceConfigA=@@@i@iIBiB^{DataBufferConfig}}24^(?={?=b8b24IQQ}{?=b8b24IQQ})96Q104"
+- "@48@0:8@16@24^(?={?=b8b24IQQ}{?=b8b24IQQ})32Q40"
+- "@64@0:8@16@24@32Q40^(?={?=b8b24IQQ}{?=b8b24IQQ})48Q56"
+- "@88@0:8{EncoderComputeServiceConfigA=@@@i@iIBiB^{DataBufferConfig}}16"
+- "@96@0:8@16{EncoderComputeServiceConfigA=@@@i@iIBiB^{DataBufferConfig}}24"
+- "B96@0:8{EncoderComputeServiceConfigA=@@@i@iIBiB^{DataBufferConfig}}16#88"
+- "initWithCommandBuffer:allocator:descriptor:options:enableStateLoaderProgramTracking:"
+- "initWithCommandBuffer:allocator:descriptor:options:programInfoBuffer:capacity:"
+- "initWithCommandBuffer:allocator:enableStateLoaderProgramTracking:"
+- "initWithCommandBuffer:allocator:programInfoBuffer:capacity:"
+- "{ComputePipeline=\"scs_per_shader_config_table\"{unique_ptr<AGX::HeapBuffer, std::default_delete<AGX::HeapBuffer>>=\"\"{?=\"__ptr_\"^{HeapBuffer}}}\"dora_state_buffer\"@\"AGXG18PFamilyBuffer\"\"compute_variant\"^{ComputeProgramVariant}\"supports_indirect_command_buffers\"B\"requires_binary_linking_bindings\"B\"descendent_pipeline\"B\"ei_state\"{ExecuteIndirectPipelineState=\"pipeline_state_gpu_address\"Q\"allocation\"{Allocation=\"buffer_\"{BufferView<unsigned char>=\"address\"{AddressView<unsigned char>=\"gpu\"Q\"cpu\"*}\"size\"Q}\"resource_\"^{_Resource}\"heap_\"^v\"element_\"{tuple<>=}}}\"resource_indirection_heap_allocation\"{Allocation=\"index\"I\"size\"I\"pool\"^v\"directly_assigned\"B}\"device_obj\"@\"AGXG18PFamilyDevice\"\"loader_runtime_state\"{RuntimeState=\"got\"{shared_ptr<AGX::HeapBuffer>=\"__ptr_\"^{HeapBuffer}\"__cntrl_\"^{__shared_weak_count}}\"global_constructors\"{shared_ptr<AGX::HeapBuffer>=\"__ptr_\"^{HeapBuffer}\"__cntrl_\"^{__shared_weak_count}}\"builtin_state_buffer\"{shared_ptr<AGX::HeapBuffer>=\"__ptr_\"^{HeapBuffer}\"__cntrl_\"^{__shared_weak_count}}\"max_temporary_register_count\"I\"total_spill_buffer_bytes\"I\"base_spill_buffer_bytes\"I\"entry_function_group_non_main_spill_buffer_bytes\"I\"total_ipr_buffer_bytes\"I\"base_ipr_buffer_bytes\"I\"max_call_stack_depth\"I\"max_spill_per_function_bytes\"I\"max_spill_per_stateless_pso_function_bytes\"I\"max_ipr_per_function_bytes\"I\"tls_alloc_size\"I\"total_tls_size\"I\"global_constructor_count\"I\"ray_payload_size_align\"{RayPayloadSizeAlignImpl<AGX::HAL300::Classes>=\"user_payload_align\"I\"max_traversal_depth\"I\"cached_scs_layout\"{CachedScsLayout=\"scs_layout\"{ScsLayoutGen2=\"traversal_depth\"b16\"max_instance_levels\"b8\"num_cliques\"b8\"per_ray_user_payload_size\"b16\"per_ray_driver_payload_size\"b16}\"scs_section_offsets\"{array<unsigned int, 12UL>=\"__elems_\"[12I]}\"scs_section_sizes\"{array<unsigned int, 12UL>=\"__elems_\"[12I]}\"leaf_ptrs_scs_stride\"I\"total_scs_size\"I}}\"ray_ifb_payload_variants\"I\"has_side_effects\"B\"uses_dpg\"B\"reads_tgsrs\"B\"requires_builtin_state\"B\"has_texture_stores\"B\"got_size\"Q\"max_lm_spill_size\"I\"max_sgpr_lm_size\"I\"entry_spill_buffer_bytes\"I\"entry_ipr_bytes\"I\"max_tptg_from_dylibs\"I\"allocate_from_ei_heap\"B\"global_binding_table_layout\"{GlobalBindingTableLayout=\"sampler_state_registers_count\"I\"global_binding_buffers\"{ArgumentMask<64UL>=\"mask\"Q}\"global_binding_textures\"{ArgumentMask<128UL>=\"mask\"[2Q]}\"global_binding_samplers\"{ArgumentMask<64UL>=\"mask\"Q}\"global_binding_tgbuffers\"{ArgumentMask<64UL>=\"mask\"Q}}}\"dylib_resources\"{PipelineDylibResources<AGX::HAL300::ObjClasses, AGX::HAL300::Classes, AGX::ICBType::Compute>=\"dylibs\"{vector<std::shared_ptr<AGX::HAL300::DynamicLibrary>, std::allocator<std::shared_ptr<AGX::HAL300::DynamicLibrary>>>=\"__begin_\"^v\"__end_\"^v\"\"{?=\"__cap_\"^v}}}\"max_wg_size\"I\"function_handle_map\"{unordered_map<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>, std::hash<id<MTLFunction>>, std::equal_to<id<MTLFunction>>, std::allocator<std::pair<const id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>>>=\"__table_\"{__hash_table<std::__hash_value_type<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>, std::__unordered_map_hasher<id<MTLFunction>, std::__hash_value_type<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>, std::hash<id<MTLFunction>>, std::equal_to<id<MTLFunction>>>, std::__unordered_map_equal<id<MTLFunction>, std::__hash_value_type<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>, std::equal_to<id<MTLFunction>>, std::hash<id<MTLFunction>>>, std::allocator<std::__hash_value_type<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>, void *> *> *>>>=\"\"{?=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>, void *> *> *>>=\"\"{?=\"__size_\"Q}}}}\"\"{?=\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>, void *> *>=\"__next_\"^v}}\"\"{?=\"__size_\"Q}\"\"{?=\"__max_load_factor_\"f}}}\"name_to_function_map\"{unordered_map<std::string, id<MTLFunction>, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, id<MTLFunction>>>>=\"__table_\"{__hash_table<std::__hash_value_type<std::string, id<MTLFunction>>, std::__unordered_map_hasher<std::string, std::__hash_value_type<std::string, id<MTLFunction>>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::__hash_value_type<std::string, id<MTLFunction>>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::__hash_value_type<std::string, id<MTLFunction>>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, id<MTLFunction>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, id<MTLFunction>>, void *> *> *>>>=\"\"{?=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, id<MTLFunction>>, void *> *> *>>=\"\"{?=\"__size_\"Q}}}}\"\"{?=\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, id<MTLFunction>>, void *> *>=\"__next_\"^v}}\"\"{?=\"__size_\"Q}\"\"{?=\"__max_load_factor_\"f}}}\"vft_set\"{shared_ptr<AGX::FunctionTableSet<AGXG18PFamilyVisibleFunctionTable>>=\"__ptr_\"^v\"__cntrl_\"^{__shared_weak_count}}\"clone_visible_function_table_heap\"^{VisibleFunctionTableHeap}\"ift_set\"{shared_ptr<AGX::FunctionTableSet<AGXG18PFamilyUserIntersectionFunctionTable>>=\"__ptr_\"^v\"__cntrl_\"^{__shared_weak_count}}\"intersection_pipeline_sets\"{vector<std::shared_ptr<AGX::HAL300::IntersectionPipelineSet>, std::allocator<std::shared_ptr<AGX::HAL300::IntersectionPipelineSet>>>=\"__begin_\"^v\"__end_\"^v\"\"{?=\"__cap_\"^v}}\"ift_spill_info\"{shared_ptr<AGX::HAL300::SpillInfo>=\"__ptr_\"^{SpillInfo}\"__cntrl_\"^{__shared_weak_count}}}"
+- "{RenderPipeline=\"fragment_variant\"^{FragmentProgramVariant}\"vertex_variant\"^{VertexProgramVariant}\"tile_variant\"^{TileProgramVariant}\"object_variant\"^{ObjectProgramVariant}\"mesh_variant\"^{MeshProgramVariant}\"vertex_spill_params\"{SpillParamsVertex=\"config\"{SpillConfigNonRT=\"dirPages\"[5i]\"minPrivateMemoryPagesNonRT\"i\"idealPrivateMemoryPagesNonRT\"i\"idealPagesRequired\"i}}\"fragment_tile_spill_params\"{SpillParamsFragment=\"clique_plus_coeff_pages_typical\"I\"clique_pages_required_minimal\"I\"clique_xlate_pages_required_minimal\"I\"coeff_pages_required_minimal\"I\"gpsr_dir_pages_minimal\"I\"interface_dir_pages_minimal\"I}\"resource_info\"[26{IOGPUResourceInfo=\"iosurface\"^{__IOSurface}\"resourceSize\"b56\"iosurfaceField\"b8\"resourceID\"I}]\"resource_info_count\"I\"vertex_resource_mask\"I\"fragment_resource_mask\"I\"object_resource_mask\"I\"mesh_resource_mask\"I\"owns_variants\"B\"max_vertex_amplification_count\"I\"sample_coverage\"f\"sample_mask\"I\"sample_count\"I\"rasterization_enabled\"B\"render_tile_pipeline\"B\"tess_winding\"i\"tess_partition_mode\"i\"tess_resource_type\"i\"tess_factor_step_function\"i\"tess_factor_format\"i\"max_tessellation_factor\"I\"tessellation_factor_scale_enabled\"B\"supports_indirect_command_buffers\"B\"requires_binary_linking_bindings\"B\"descendent_pipeline\"B\"explicit_visibility_group_id\"{optional<unsigned int>=\"\"(?=\"__null_state_\"c\"__val_\"I)\"__engaged_\"B}\"isp_state\"{ISPTokenIndirect=\"header\"(_AgxPppStateHeader=\"all\"I\"bytes\"[4C]\"bits\"{?=\"PresHeaderExtension\"b1\"PsoNpsoCtrl\"b1\"RSVD0\"b3\"PresFrgCommonCtl\"b1\"PresFrgFaceCtl\"b1\"PresFrgFaceStencil\"b1\"PresFrgDbiasAddr\"b1\"PresFrgScissorsAddr\"b1\"PresFrgDboundsAddr\"b1\"ViewportStateIs16\"b1\"PresRegionClip\"b1\"PresViewport\"b1\"ViewportCount\"b4\"PresWclamp\"b1\"PresOutselects\"b1\"PresVaryingWords\"b1\"PresMsPrimOutput\"b1\"PresFrgUscOptEsl\"b1\"PresPppctrl\"b1\"PresFrgShaderWords\"b1\"PresFrgVisQueryTagFlush\"b1\"PresVsAmplifyCtrl\"b1\"PresVsOutputSize\"b1\"PresAmplifyVaryingWords\"b1\"LastPipe\"b1\"ContextSwitch\"b1\"Terminate\"b1})\"ctl\"(_AgxPppStateFrgCommonCtl=\"all\"I\"bytes\"[4C]\"bits\"{?=\"FrontFaceDir\"b1\"Cullmode\"b2\"RSVD0\"b4\"InBatchWindow\"b1\"TagsortFlushCtl\"b2\"MrcDependency\"b2\"RSVD1\"b1\"TagsortAccumDisable\"b1\"Visbool\"b1\"Vistest\"b1\"Scenable\"b1\"Dbenable\"b1\"FaceStencilPres\"b1\"TwoSided\"b1\"RectWarpDisable\"b1\"Tagwritedisable\"b1\"TwoPassFbOpa\"b1\"MidRenderCompute\"b1\"Dboenable\"b1\"SampleMaskSelect\"b1\"TriMergeDisable\"b1\"OverlapCheckMode\"b1\"UscEsl2\"b1\"Passtype\"b3})\"fa\"(_AgxPppStateFrgFaceCtlF=\"all\"I\"bytes\"[4C]\"bits\"{?=\"Sref\"b8\"Pointlinewidth\"b10\"FillModeOverride\"b2\"Linefilllastpixel\"b1\"Dwritedisable\"b1\"FsDepthDirQual\"b2\"Dcmpmode\"b3\"RSVD0\"b1\"Objtype\"b4})\"ba\"(_AgxPppStateFrgFaceCtlB=\"all\"I\"bytes\"[4C]\"bits\"{?=\"Sref\"b8\"Pointlinewidth\"b10\"FillModeOverride\"b2\"Linefilllastpixel\"b1\"Dwritedisable\"b1\"FsDepthDirQual\"b2\"Dcmpmode\"b3\"RSVD0\"b1\"Objtype\"b4})\"vis_query_tag_flush\"(_AgxPppStateFrgVisQueryTagFlush=\"all\"I\"bytes\"[4C]\"bits\"{?=\"TagsortFlushData\"b17\"VisQueryIndex\"b15})}\"cull_state\"{CullTokenIndirect=\"header\"(_AgxPppStateHeader=\"all\"I\"bytes\"[4C]\"bits\"{?=\"PresHeaderExtension\"b1\"PsoNpsoCtrl\"b1\"RSVD0\"b3\"PresFrgCommonCtl\"b1\"PresFrgFaceCtl\"b1\"PresFrgFaceStencil\"b1\"PresFrgDbiasAddr\"b1\"PresFrgScissorsAddr\"b1\"PresFrgDboundsAddr\"b1\"ViewportStateIs16\"b1\"PresRegionClip\"b1\"PresViewport\"b1\"ViewportCount\"b4\"PresWclamp\"b1\"PresOutselects\"b1\"PresVaryingWords\"b1\"PresMsPrimOutput\"b1\"PresFrgUscOptEsl\"b1\"PresPppctrl\"b1\"PresFrgShaderWords\"b1\"PresFrgVisQueryTagFlush\"b1\"PresVsAmplifyCtrl\"b1\"PresVsOutputSize\"b1\"PresAmplifyVaryingWords\"b1\"LastPipe\"b1\"ContextSwitch\"b1\"Terminate\"b1})\"w_clamp\"f\"ctl\"(_AgxPppStatePppCtrl=\"all\"I\"bytes\"[4C]\"bits\"{?=\"Cullmode\"b2\"RSVD0\"b2\"Wbuffen\"b1\"Wclampen\"b1\"Pretransform\"b1\"FlatshadeVtx\"b2\"Drawclippededges\"b1\"ClipMode\"b2\"PrimitiveIdPres\"b1\"MsFsBufferNeeded\"b1\"RSVD1\"b1\"PrimMsaa\"b1\"FrontFaceDir\"b1\"RasterizerDiscard\"b1\"RSVD2\"b14})}\"ei_heap_buffer_resource_mask\"{ArgumentMask<128UL>=\"mask\"[2Q]}\"sw_tessellation_pipelines\"[3^{RenderPipeline}]\"geometry_pipeline_state\"{GeometryPipelineState=\"object_tg_dims\"{ComputeSize3D=\"x\"I\"y\"I\"z\"I}\"mesh_tg_dims\"{ComputeSize3D=\"x\"I\"y\"I\"z\"I}\"max_mesh_tgs\"{ComputeSize3D=\"x\"I\"y\"I\"z\"I}\"payload_size\"I\"object_max_threads_per_tg\"I\"mesh_max_threads_per_tg\"I\"vertex_size\"I\"primitive_size\"I\"max_vertices\"I\"max_primitives\"I\"topology\"I}\"ei_state\"{ExecuteIndirectPipelineState=\"pipeline_state_gpu_address\"Q\"allocation\"{Allocation=\"buffer_\"{BufferView<unsigned char>=\"address\"{AddressView<unsigned char>=\"gpu\"Q\"cpu\"*}\"size\"Q}\"resource_\"^{_Resource}\"heap_\"^v\"element_\"{tuple<>=}}}\"resource_indirection_heap_allocation\"{Allocation=\"index\"I\"size\"I\"pool\"^v\"directly_assigned\"B}\"device_obj\"@\"AGXG18PFamilyDevice\"\"loader_runtime_states\"[5{RuntimeState=\"got\"{shared_ptr<AGX::HeapBuffer>=\"__ptr_\"^{HeapBuffer}\"__cntrl_\"^{__shared_weak_count}}\"global_constructors\"{shared_ptr<AGX::HeapBuffer>=\"__ptr_\"^{HeapBuffer}\"__cntrl_\"^{__shared_weak_count}}\"builtin_state_buffer\"{shared_ptr<AGX::HeapBuffer>=\"__ptr_\"^{HeapBuffer}\"__cntrl_\"^{__shared_weak_count}}\"max_temporary_register_count\"I\"total_spill_buffer_bytes\"I\"base_spill_buffer_bytes\"I\"entry_function_group_non_main_spill_buffer_bytes\"I\"total_ipr_buffer_bytes\"I\"base_ipr_buffer_bytes\"I\"max_call_stack_depth\"I\"max_spill_per_function_bytes\"I\"max_spill_per_stateless_pso_function_bytes\"I\"max_ipr_per_function_bytes\"I\"tls_alloc_size\"I\"total_tls_size\"I\"global_constructor_count\"I\"ray_payload_size_align\"{RayPayloadSizeAlignImpl<AGX::HAL300::Classes>=\"user_payload_align\"I\"max_traversal_depth\"I\"cached_scs_layout\"{CachedScsLayout=\"scs_layout\"{ScsLayoutGen2=\"traversal_depth\"b16\"max_instance_levels\"b8\"num_cliques\"b8\"per_ray_user_payload_size\"b16\"per_ray_driver_payload_size\"b16}\"scs_section_offsets\"{array<unsigned int, 12UL>=\"__elems_\"[12I]}\"scs_section_sizes\"{array<unsigned int, 12UL>=\"__elems_\"[12I]}\"leaf_ptrs_scs_stride\"I\"total_scs_size\"I}}\"ray_ifb_payload_variants\"I\"has_side_effects\"B\"uses_dpg\"B\"reads_tgsrs\"B\"requires_builtin_state\"B\"has_texture_stores\"B\"got_size\"Q\"max_lm_spill_size\"I\"max_sgpr_lm_size\"I\"entry_spill_buffer_bytes\"I\"entry_ipr_bytes\"I\"max_tptg_from_dylibs\"I\"allocate_from_ei_heap\"B\"global_binding_table_layout\"{GlobalBindingTableLayout=\"sampler_state_registers_count\"I\"global_binding_buffers\"{ArgumentMask<64UL>=\"mask\"Q}\"global_binding_textures\"{ArgumentMask<128UL>=\"mask\"[2Q]}\"global_binding_samplers\"{ArgumentMask<64UL>=\"mask\"Q}\"global_binding_tgbuffers\"{ArgumentMask<64UL>=\"mask\"Q}}}]\"dylib_resources\"[5{PipelineDylibResources<AGX::HAL300::ObjClasses, AGX::HAL300::Classes, AGX::ICBType::Render>=\"dylibs\"{vector<std::shared_ptr<AGX::HAL300::DynamicLibrary>, std::allocator<std::shared_ptr<AGX::HAL300::DynamicLibrary>>>=\"__begin_\"^v\"__end_\"^v\"\"{?=\"__cap_\"^v}}}]\"visible_function_handle_maps\"[5{unordered_map<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>, std::hash<id<MTLFunction>>, std::equal_to<id<MTLFunction>>, std::allocator<std::pair<const id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>>>=\"__table_\"{__hash_table<std::__hash_value_type<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>, std::__unordered_map_hasher<id<MTLFunction>, std::__hash_value_type<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>, std::hash<id<MTLFunction>>, std::equal_to<id<MTLFunction>>>, std::__unordered_map_equal<id<MTLFunction>, std::__hash_value_type<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>, std::equal_to<id<MTLFunction>>, std::hash<id<MTLFunction>>>, std::allocator<std::__hash_value_type<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>, void *> *> *>>>=\"\"{?=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>, void *> *> *>>=\"\"{?=\"__size_\"Q}}}}\"\"{?=\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<id<MTLFunction>, RetainedObjCPointer<AGXG18PFamilyFunctionHandle *>>, void *> *>=\"__next_\"^v}}\"\"{?=\"__size_\"Q}\"\"{?=\"__max_load_factor_\"f}}}]\"name_to_function_maps\"[5{unordered_map<std::string, id<MTLFunction>, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, id<MTLFunction>>>>=\"__table_\"{__hash_table<std::__hash_value_type<std::string, id<MTLFunction>>, std::__unordered_map_hasher<std::string, std::__hash_value_type<std::string, id<MTLFunction>>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::__hash_value_type<std::string, id<MTLFunction>>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::__hash_value_type<std::string, id<MTLFunction>>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, id<MTLFunction>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, id<MTLFunction>>, void *> *> *>>>=\"\"{?=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, id<MTLFunction>>, void *> *> *>>=\"\"{?=\"__size_\"Q}}}}\"\"{?=\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, id<MTLFunction>>, void *> *>=\"__next_\"^v}}\"\"{?=\"__size_\"Q}\"\"{?=\"__max_load_factor_\"f}}}]\"vft_set\"{shared_ptr<AGX::FunctionTableSet<AGXG18PFamilyVisibleFunctionTable>>=\"__ptr_\"^v\"__cntrl_\"^{__shared_weak_count}}\"clone_visible_function_table_heap\"^{VisibleFunctionTableHeap}\"must_derive_mrt_masks_late\"B\"logical_input_mrt_mask\"I\"logical_output_mrt_mask\"I\"ift_set\"{shared_ptr<AGX::FunctionTableSet<AGXG18PFamilyUserIntersectionFunctionTable>>=\"__ptr_\"^v\"__cntrl_\"^{__shared_weak_count}}\"max_gtp_ray_payload_size_align\"{RayPayloadSizeAlignImpl<AGX::HAL300::Classes>=\"user_payload_align\"I\"max_traversal_depth\"I\"cached_scs_layout\"{CachedScsLayout=\"scs_layout\"{ScsLayoutGen2=\"traversal_depth\"b16\"max_instance_levels\"b8\"num_cliques\"b8\"per_ray_user_payload_size\"b16\"per_ray_driver_payload_size\"b16}\"scs_section_offsets\"{array<unsigned int, 12UL>=\"__elems_\"[12I]}\"scs_section_sizes\"{array<unsigned int, 12UL>=\"__elems_\"[12I]}\"leaf_ptrs_scs_stride\"I\"total_scs_size\"I}}\"max_frg_ray_payload_size_align\"{RayPayloadSizeAlignImpl<AGX::HAL300::Classes>=\"user_payload_align\"I\"max_traversal_depth\"I\"cached_scs_layout\"{CachedScsLayout=\"scs_layout\"{ScsLayoutGen2=\"traversal_depth\"b16\"max_instance_levels\"b8\"num_cliques\"b8\"per_ray_user_payload_size\"b16\"per_ray_driver_payload_size\"b16}\"scs_section_offsets\"{array<unsigned int, 12UL>=\"__elems_\"[12I]}\"scs_section_sizes\"{array<unsigned int, 12UL>=\"__elems_\"[12I]}\"leaf_ptrs_scs_stride\"I\"total_scs_size\"I}}\"intersection_pipeline_sets\"[5{vector<std::shared_ptr<AGX::HAL300::IntersectionPipelineSet>, std::allocator<std::shared_ptr<AGX::HAL300::IntersectionPipelineSet>>>=\"__begin_\"^v\"__end_\"^v\"\"{?=\"__cap_\"^v}}]\"ift_spill_info\"[5{shared_ptr<AGX::HAL300::SpillInfo>=\"__ptr_\"^{SpillInfo}\"__cntrl_\"^{__shared_weak_count}}]\"scs_per_shader_config_tables\"[5{unique_ptr<AGX::HeapBuffer, std::default_delete<AGX::HeapBuffer>>=\"\"{?=\"__ptr_\"^{HeapBuffer}}}]\"dora_state_buffer\"@\"AGXG18PFamilyBuffer\"\"scs_per_shader_config_table_mask\"I\"driver_fragment_dependencies\"{vector<AGX::DynamicLoader<AGX::HAL300::Encoders, AGX::HAL300::Classes, AGX::HAL300::ObjClasses>::ModuleInfo, std::allocator<AGX::DynamicLoader<AGX::HAL300::Encoders, AGX::HAL300::Classes, AGX::HAL300::ObjClasses>::ModuleInfo>>=\"__begin_\"^{ModuleInfo}\"__end_\"^{ModuleInfo}\"\"{?=\"__cap_\"^{ModuleInfo}}}\"specializableState\"{unique_ptr<AGX::SpecializableRenderPipelineState, std::default_delete<AGX::SpecializableRenderPipelineState>>=\"\"{?=\"__ptr_\"^{SpecializableRenderPipelineState}}}\"specializableLinkerState\"{unique_ptr<AGX::SpecializableRenderPipelineLinkerState<AGX::HAL300::Classes>, std::default_delete<AGX::SpecializableRenderPipelineLinkerState<AGX::HAL300::Classes>>>=\"\"{?=\"__ptr_\"^v}}\"program_varying_table\"^v}"
+
+```

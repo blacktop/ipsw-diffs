@@ -1,0 +1,43 @@
+## libCRFSuite.dylib
+
+> `/usr/lib/libCRFSuite.dylib`
+
+```diff
+
+ 55.0.0.0.0
+-  __TEXT.__text: 0x2f054
++  __TEXT.__text: 0x2f09c
+   __TEXT.__auth_stubs: 0x730
+   __TEXT.__cstring: 0x255c
+   __TEXT.__const: 0xa6e
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 72921BFE-5456-3204-A6AA-F574A673998E
++  UUID: A6A6E42C-189E-30E6-9711-EC4BE5746AE8
+   Functions: 883
+   Symbols:   1996
+   CStrings:  364
+Functions:
+~ __ZNSt3__16vectorIdNS_9allocatorIdEEE11__vallocateB8ne200100Em : 60 -> 64
+~ __ZNSt3__16vectorIiNS_9allocatorIiEEE11__vallocateB8ne200100Em : 60 -> 64
+~ __ZN26ME_Efficient_Model_Trainer16init_feature2mefEv : 452 -> 456
+~ __ZNK26ME_Efficient_Model_Trainer10get_labelsERNSt3__16vectorINS0_12basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS5_IS7_EEEE : 456 -> 468
+~ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEiEENS_22__unordered_map_hasherIS7_S8_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_S8_SD_SB_Lb1EEENS5_IS8_EEE4findIS7_EENS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEERKT_ : 252 -> 256
+~ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEiEENS_22__unordered_map_hasherIS7_S8_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_S8_SD_SB_Lb1EEENS5_IS8_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSN_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEERKT_DpOT0_ : 632 -> 636
+~ __ZNSt3__16vectorIN26ME_Efficient_Model_Trainer6SampleENS_9allocatorIS2_EEE11__vallocateB8ne200100Em : 76 -> 80
+~ __ZNSt3__16vectorINS_4pairIidEENS_9allocatorIS2_EEE11__vallocateB8ne200100Em : 60 -> 64
+~ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEiEENS_22__unordered_map_hasherIS7_S8_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_S8_SD_SB_Lb1EEENS5_IS8_EEE25__emplace_unique_key_argsIS7_JRKNS_4pairIKS7_iEEEEENSK_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEERKT_DpOT0_ : 608 -> 612
+~ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE11__vallocateB8ne200100Em : 76 -> 80
+~ __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE11__vallocateB8ne200100Em : 76 -> 80
+~ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE24__emplace_back_slow_pathIJRKS6_EEEPS6_DpOT_ : 320 -> 316
+~ __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE24__emplace_back_slow_pathIJRKS3_EEEPS3_DpOT_ : 304 -> 300
+~ __ZNSt3__16vectorIN26ME_Efficient_Model_Trainer6SampleENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJRKS2_EEEPS2_DpOT_ : 448 -> 452
+~ __ZN9ME_Sample11add_featureERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEd : 388 -> 392
+~ __ZN3nlp15BurstTrieRemoveEPNS_10_BurstTrieEPKhj : 2536 -> 2544
+~ __ZNSt3__16vectorIPN3nlp16_RankedTrieLevelENS_9allocatorIS3_EEE11__vallocateB8ne200100Em : 60 -> 64
+~ __ZNSt3__110__function6__funcIZN3nlpL12reverseBurstIPNS2_16_RankedTrieLevelEPNS2_15_RankedListNodeEEEvPNS2_10_BurstTrieERKNS_6vectorIT_NS_9allocatorISB_EEEEPKhjEUlPvSI_jjfPbE0_NSC_ISL_EEFvSJ_SI_jjfSK_EEclEOSJ_OSI_OjSR_OfOSK_ : 368 -> 372
+~ __ZNSt3__110__function6__funcIZN3nlpL12reverseBurstIPNS2_10_TrieLevelEPNS2_9_ListNodeEEEvPNS2_10_BurstTrieERKNS_6vectorIT_NS_9allocatorISB_EEEEPKhjEUlPvSI_jjfPbE0_NSC_ISL_EEFvSJ_SI_jjfSK_EEclEOSJ_OSI_OjSR_OfOSK_ : 368 -> 372
+
+```

@@ -1,0 +1,63 @@
+## AssistantSettingsSupport
+
+> `/System/Library/PrivateFrameworks/AssistantSettingsSupport.framework/AssistantSettingsSupport`
+
+```diff
+
+-3510.4.2.0.0
+-  __TEXT.__text: 0x52120
+-  __TEXT.__auth_stubs: 0x1be0
++3510.7.1.1.2
++  __TEXT.__text: 0x52064
++  __TEXT.__auth_stubs: 0x1bf0
+   __TEXT.__objc_methlist: 0x2a3c
+   __TEXT.__const: 0x1264
+   __TEXT.__gcc_except_tab: 0x808
+
+   __TEXT.__swift5_protos: 0x18
+   __TEXT.__swift_as_entry: 0x90
+   __TEXT.__swift_as_ret: 0x9c
+-  __TEXT.__unwind_info: 0x1530
++  __TEXT.__unwind_info: 0x1528
+   __TEXT.__eh_frame: 0x11a4
+   __TEXT.__objc_classname: 0x68d
+   __TEXT.__objc_methname: 0x86a4
+
+   __DATA_CONST.__objc_protorefs: 0x28
+   __DATA_CONST.__objc_superrefs: 0xe0
+   __DATA_CONST.__objc_arraydata: 0xa0
+-  __AUTH_CONST.__auth_got: 0xe00
+-  __AUTH_CONST.__const: 0x11f0
++  __AUTH_CONST.__auth_got: 0xe08
++  __AUTH_CONST.__const: 0x1070
+   __AUTH_CONST.__cfstring: 0x3f60
+   __AUTH_CONST.__objc_const: 0x44a0
+   __AUTH_CONST.__objc_dictobj: 0x50
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4D58135E-1358-3F4A-80E1-F0A8F7F755EA
+-  Functions: 1704
++  UUID: F42E0047-B9FF-38CF-886D-3CA54B9AEB0A
++  Functions: 1701
+   Symbols:   4254
+   CStrings:  2968
+ 
+Symbols:
++ __PROTOCOLS__TtC24AssistantSettingsSupport21GMEligibilityProvider.15
++ _block_copy_helper.19
++ _block_descriptor.21
++ _block_destroy_helper.20
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOQr.19
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOqd0__AaBHC.20
++ _get_witness_table 7SwiftUI16SubscriptionViewVySo20NSNotificationCenterC10FoundationE9PublisherVAA15ModifiedContentVyAA0D0P8SettingsE22settingsListAppearanceQryFQOyAlAE15navigationTitleyQrAA4TextVFQOyAA0M0Vys5NeverOAA05TupleD0VyAA7SectionVyAqlAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAlAE12labelsHiddenQryFQOyAlAE11pickerStyleyQrqd__AA11PickerStyleRd__lFQOyAA6PickerVyAQSo24AFUseDeviceSpeakerForTTSVAWyAlAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAQ_A7_Qo__A10_A10_tGG_AA17InlinePickerStyleVQo__Qo__A7_Qo_AQG_AYyAA05EmptyD0VAlAEAZA_A0__Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA6ToggleVyAQG_SbQo_AQGSgA25_AYyAqlAEAZA_A0__Qrqd___Sbyqd___qd__tctSQRd__lFQOyAlAEA1_QryFQOyAlAEA2_yQrqd__AAA3_Rd__lFQOyA5_yAQ09AssistantK7Support13SiriResponsesV13CarAudioRoute33_2BAAB5989ACB17DB76390A92413F198CLLOAWyAlAEA8__A9_Qrqd___SbtSHRd__lFQOyAQ_A32_Qo__A33_SgA33_tGG_A14_Qo__Qo__A32_Qo_AA6VStackVyAWyAQ_AWyAA6SpacerV_AQtGSgtGGGSgtGG_Qo__Qo_AA01_N14ActionModifierVGGAaKHPyHC.12
+- __PROTOCOLS__TtC24AssistantSettingsSupport21GMEligibilityProvider.16
+- _block_copy_helper.20
+- _block_descriptor.22
+- _block_destroy_helper.21
+- _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOQr.27
+- _get_underlying_witness 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOqd0__AaBHC.28
+- _get_witness_table 7SwiftUI16SubscriptionViewVySo20NSNotificationCenterC10FoundationE9PublisherVAA15ModifiedContentVyAA0D0P8SettingsE22settingsListAppearanceQryFQOyAlAE15navigationTitleyQrAA4TextVFQOyAA0M0Vys5NeverOAA05TupleD0VyAA7SectionVyAqlAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAlAE12labelsHiddenQryFQOyAlAE11pickerStyleyQrqd__AA11PickerStyleRd__lFQOyAA6PickerVyAQSo24AFUseDeviceSpeakerForTTSVAWyAlAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAQ_A7_Qo__A10_A10_tGG_AA17InlinePickerStyleVQo__Qo__A7_Qo_AQG_AYyAA05EmptyD0VAlAEAZA_A0__Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA6ToggleVyAQG_SbQo_AQGSgA25_AYyAqlAEAZA_A0__Qrqd___Sbyqd___qd__tctSQRd__lFQOyAlAEA1_QryFQOyAlAEA2_yQrqd__AAA3_Rd__lFQOyA5_yAQ09AssistantK7Support13SiriResponsesV13CarAudioRoute33_2BAAB5989ACB17DB76390A92413F198CLLOAWyAlAEA8__A9_Qrqd___SbtSHRd__lFQOyAQ_A32_Qo__A33_SgA33_tGG_A14_Qo__Qo__A32_Qo_AA6VStackVyAWyAQ_AWyAA6SpacerV_AQtGSgtGGGSgtGG_Qo__Qo_AA01_N14ActionModifierVGGAaKHPyHC.13
+
+```

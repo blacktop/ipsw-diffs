@@ -1,0 +1,245 @@
+## CoreAudio
+
+> `/System/Library/Frameworks/CoreAudio.framework/CoreAudio`
+
+```diff
+
+-411.302.0.0.0
+-  __TEXT.__text: 0x557310
++411.303.0.0.0
++  __TEXT.__text: 0x5575a0
+   __TEXT.__auth_stubs: 0x2a50
+   __TEXT.__delay_stubs: 0x528
+   __TEXT.__delay_helper: 0x148
+   __TEXT.__objc_methlist: 0x15d4
+   __TEXT.__const: 0x52e58
+-  __TEXT.__gcc_except_tab: 0x5d1ec
++  __TEXT.__gcc_except_tab: 0x5d1f8
+   __TEXT.__oslogstring: 0x3ebc3
+   __TEXT.__cstring: 0x2d542
+   __TEXT.__unwind_info: 0x19408
+   __TEXT.__objc_classname: 0x403
+-  __TEXT.__objc_methname: 0x3c2d
+-  __TEXT.__objc_methtype: 0x3dfd
++  __TEXT.__objc_methname: 0x3c39
++  __TEXT.__objc_methtype: 0x3e2b
+   __TEXT.__objc_stubs: 0x20e0
+   __DATA_CONST.__got: 0x430
+   __DATA_CONST.__const: 0x6700
+
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F01D4E97-E6BF-315D-9BEB-207389AB55D9
++  UUID: DF04E4F6-17A0-3B1E-91E0-C30A4E3E258C
+   Functions: 18339
+   Symbols:   53978
+   CStrings:  8100
+Functions:
+~ __ZNK5boost16exception_detail25error_info_container_impl5cloneEv : 716 -> 720
+~ __ZNKSt3__120__shared_ptr_pointerIPN4AMCP5Graph13Meta_TimebaseENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE13__get_deleterERKSt9type_info : 56 -> 60
+~ __ZNSt3__112__hash_tableINS_17__hash_value_typeIN4AMCP6Portal3IPC20shared_buffer_info_tENS_5tupleIJU8__strongPU24objcproto13OS_xpc_object8NSObjectNS_10shared_ptrIN5caulk3ipc13mapped_memoryEEEPvEEEEENS_22__unordered_map_hasherIS5_SI_NS_4hashIS5_EENS_8equal_toIS5_EELb1EEENS_21__unordered_map_equalIS5_SI_SN_SL_Lb1EEENS_9allocatorISI_EEE25__emplace_unique_key_argsIS5_JNS_4pairIS5_SH_EEEEENSV_INS_15__hash_iteratorIPNS_11__hash_nodeISI_SG_EEEEbEERKT_DpOT0_ : 1136 -> 1128
+~ __ZNSt3__16vectorIN4AMCP20Live_Property_TraitsENS_9allocatorIS2_EEE16__init_with_sizeB8ne200100IPKS2_S8_EEvT_T0_m : 312 -> 316
+~ __ZN4AMCP14Implementation39create_vector_of_available_formats_fromIN10applesauce2CF8ArrayRefENSt3__16vectorINS5_5tupleIJN2CA14ValueRangeListENS8_17StreamDescriptionEEEENS5_9allocatorISB_EEEEEENS_5ThingEPKT_ : 6248 -> 6240
+~ __ZNSt3__16vectorINS_5tupleIJN2CA14ValueRangeListENS2_17StreamDescriptionEEEENS_9allocatorIS5_EEE16__init_with_sizeB8ne200100IPS5_SA_EEvT_T0_m : 268 -> 272
+~ -[DSP_HAL_Mock_IOProcessor adaptToConfigurationChange:withCallbacks:error:] : 4180 -> 4184
+~ __ZNSt3__110__function6__funcIZN20DSP_HAL_Bypass_Utils16SimulatedLatencyIfLNS2_16InterleavePolicyE0EE15copy_with_delayERNS2_18AMCP_IOData_HelperILS4_0EEEEUlRN4AMCP11Proc_StreamER11AudioBufferE_NS_9allocatorISE_EEFvSB_SD_EEclESB_SD_ : 1108 -> 1116
+~ __ZNSt3__16vectorINS_10shared_ptrIN14DSP_Host_Types19DeviceConfigurationEEENS_9allocatorIS4_EEE9push_backB8ne200100EOS4_ : 240 -> 248
+~ __ZN4AMCP3DAL12Synchronizer25_sweep_and_remove_sourcesEv : 840 -> 828
+~ __ZNSt3__16vectorI21CAPropertyAddressListNS_9allocatorIS1_EEE9push_backB8ne200100ERKS1_ : 572 -> 580
+~ __ZNSt3__16vectorINS_4pairIjNS0_IjNS_9allocatorIjEEEEEENS2_IS5_EEE7reserveEm : 160 -> 164
+~ __ZNSt3__16vectorINS_4pairIjNS0_IjNS_9allocatorIjEEEEEENS2_IS5_EEE9push_backB8ne200100EOS5_ : 300 -> 308
+~ __ZN4AMCP4Core14Driver_Manager4loadENSt3__110shared_ptrINS0_11System_CoreEEERKNS2_6vectorIN10applesauce2CF9StringRefENS2_9allocatorIS9_EEEESE_ : 22440 -> 22484
+~ __ZN4AMCP3ASP10Loader_ImpINS0_20Simple_Loader_HelperEE11load_driverERKN10applesauce2CF6URLRefEj : 7796 -> 7804
+~ __ZNSt3__16vectorIN10applesauce2CF9StringRefENS_9allocatorIS3_EEE9push_backB8ne200100ERKS3_ : 228 -> 232
+~ __ZNSt3__110__function6__funcIZN26HALS_RemotePlugInRegistrar31CreateExtrinsicDriverEntryPointEvE3$_1NS_9allocatorIS3_EEFiP21NSXPCListenerEndpointP15NSXPCConnectionP5NSURLP8NSStringibNS_8functionIFvvEEEEEclEOU8__strongS7_OU8__strongS9_OU8__strongSB_OU8__strongSD_OiObOSG_ : 2636 -> 2644
+~ __ZNSt3__16vectorIN28HALB_CaptureFile_NameBuilder13ComponentBaseENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJ34HALB_CaptureFile_NameBuilder_LabelRKNS_12basic_stringIcNS_11char_traitsIcEENS3_IcEEEEEEEPS2_DpOT_ : 304 -> 308
+~ __ZN3ADS13ObjectManagerC2Ev : 252 -> 260
+~ __ZN3ADS13ObjectManager9MapObjectEjPNS_10BaseObjectE : 2584 -> 2568
+~ __ZN3ADS13ObjectManager13ReleaseObjectEPNS_10BaseObjectE : 1196 -> 1192
+~ __ZN4AMCP5Graph13Manifest_Task14add_connectionENS1_20Connection_DirectionEmNSt3__110shared_ptrINS0_15Manifest_BufferEEE : 2644 -> 2652
+~ __ZNKSt3__120__shared_ptr_pointerIPN4AMCP3DAL12Fixed_BufferENS_10shared_ptrINS2_10DAL_BufferEE27__shared_ptr_default_deleteIS6_S3_EENS_9allocatorIS3_EEE13__get_deleterERKSt9type_info : 56 -> 60
+~ __ZN4AMCP5Graph13Manifest_Task18set_up_connectionsERKNS0_26Manifest_Execution_ContextERN5caulk2rt6vectorINS_3DAL14Readable_RangeEEERNS7_INS8_14Writable_RangeEEE : 16728 -> 16804
+~ __ZNSt3__16vectorIN4AMCP3DAL18Audio_Samples_DataEN5caulk12rt_allocatorIS3_EEE6resizeEm : 376 -> 380
+~ __ZN32HALS_Device_HostedDSP_ClientInfo4findEP11HALS_Clientb : 1552 -> 1548
+~ __ZNKSt3__120__shared_ptr_pointerIP18HALS_ChannelMapperNS_14default_deleteIS1_EENS_9allocatorIS1_EEE13__get_deleterERKSt9type_info : 56 -> 60
+~ __ZNKSt3__120__shared_ptr_pointerIP19HALS_DelayProcessorNS_14default_deleteIS1_EENS_9allocatorIS1_EEE13__get_deleterERKSt9type_info : 56 -> 60
+~ __ZNKSt3__120__shared_ptr_pointerIP14HALS_ResamplerNS_14default_deleteIS1_EENS_9allocatorIS1_EEE13__get_deleterERKSt9type_info : 56 -> 60
+~ __ZNKSt3__120__shared_ptr_pointerIP20HALS_VolumeProcessorNS_14default_deleteIS1_EENS_9allocatorIS1_EEE13__get_deleterERKSt9type_info : 56 -> 60
+~ __ZNKSt3__120__shared_ptr_pointerIP20HALS_CustomProcessorNS_14default_deleteIS1_EENS_9allocatorIS1_EEE13__get_deleterERKSt9type_info : 56 -> 60
+~ __ZNSt3__16vectorIN14DSP_Host_Types17FormatDescriptionENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJRKS2_EEEPS2_DpOT_ : 320 -> 324
+~ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE9push_backB8ne200100ERKS6_ : 392 -> 400
+~ __ZN8AHAL_DSP17ADMProcessFactory18set_hosting_configERKNSt3__13mapINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES8_NS1_4lessIS8_EENS6_INS1_4pairIKS8_S8_EEEEEE : 616 -> 636
+~ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_S8_NS_4lessIS7_EELb1EEENS5_IS8_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSJ_IJEEEEEENS_4pairINS_15__tree_iteratorIS8_PNS_11__tree_nodeIS8_PvEElEEbEERKT_DpOT0_ : 244 -> 248
+~ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_S8_NS_4lessIS7_EELb1EEENS5_IS8_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENSJ_IJEEEEEENS_4pairINS_15__tree_iteratorIS8_PNS_11__tree_nodeIS8_PvEElEEbEERKT_DpOT0_ : 184 -> 196
+~ __ZNKSt3__120__shared_ptr_pointerIPN7ADM_SPI15AudioDSPManagerENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE13__get_deleterERKSt9type_info : 56 -> 60
+~ __ZNKSt3__120__shared_ptr_pointerIPN8AHAL_DSP13ADMPluginImplENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE13__get_deleterERKSt9type_info : 56 -> 60
+~ __ZN8AHAL_DSP34ADMDict_ConfigurationChangeRequest23add_devices_and_streamsEv : 8056 -> 8060
+~ __ZNSt3__16vectorINS_10shared_ptrIN8AHAL_DSP12IAudioStreamEEENS_9allocatorIS4_EEE9push_backB8ne200100ERKS4_ : 272 -> 280
+~ __ZN8AHAL_DSP13SPIPluginImpl24negotiate_host_modifiersEv : 2912 -> 2916
+~ __ZNKSt3__120__shared_ptr_pointerIPN8AHAL_DSP13SPIPluginImplENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE13__get_deleterERKSt9type_info : 56 -> 60
+~ __ZN4AMCP20add_available_formatERNSt3__16vectorINS0_5tupleIJN2CA14ValueRangeListENS3_17StreamDescriptionEEEENS0_9allocatorIS6_EEEERKNS3_23RangedStreamDescriptionE : 1584 -> 1592
+~ __ZNKSt3__120__shared_ptr_pointerIP22System_Core_Graph_HostNS_10shared_ptrIN4AMCP5Graph10Graph_HostEE27__shared_ptr_default_deleteIS6_S1_EENS_9allocatorIS1_EEE13__get_deleterERKSt9type_info : 56 -> 60
+~ __ZNKSt3__120__shared_ptr_pointerIP26DSP_Host_OffloadDictionaryNS_14default_deleteIS1_EENS_9allocatorIS1_EEE13__get_deleterERKSt9type_info : 56 -> 60
+~ __ZN15HALS_DSPRequest25CreateStreamConfigurationERKNS_12IODeviceInfoEj : 2644 -> 2640
+~ __ZNSt3__110__function6__funcIZN4AMCP8IOAudio26Device34handle_driver_configuration_changeERK20IOAudio2NotificationE3$_0NS_9allocatorIS8_EEFvvEEclEv : 3564 -> 3568
+~ __ZNSt3__16invokeB8ne200100IRZZN4AMCP8IOAudio26Device34handle_driver_configuration_changeERK20IOAudio2NotificationENK3$_0clEvEUlRT_E_JRNS_5tupleIJRNS_6vectorINS_10shared_ptrINS2_6StreamEEENS_9allocatorISG_EEEESK_EEEEEENS_13invoke_resultIS8_JDpT0_EE4typeEOS8_DpOSO_ : 2416 -> 2424
+~ __ZNKSt3__111basic_regexIcNS_12regex_traitsIcEEE16__match_at_startINS_9allocatorINS_9sub_matchIPKcEEEEEEbS8_S8_RNS_13match_resultsIS8_T_EENS_15regex_constants15match_flag_typeEb : 4136 -> 4148
+~ __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEE9push_backEOS2_ : 820 -> 824
+~ __ZNKSt3__120__shared_ptr_pointerIPNS_13__empty_stateIcEENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE13__get_deleterERKSt9type_info : 64 -> 68
+~ __ZNSt3__16__treeINS_12__value_typeIN10applesauce2CF9StringRefEbEENS_19__map_value_compareIS4_S5_NS_4lessIS4_EELb1EEENS_9allocatorIS5_EEE14__assign_multiINS_21__tree_const_iteratorIS5_PNS_11__tree_nodeIS5_PvEElEEEEvT_SK_ : 552 -> 556
+~ __ZN4AMCP5Graph10Wire_Index12add_to_indexERKNS_19Terminal_IdentifierERKNS_15Wire_IdentifierE : 1508 -> 1500
+~ __ZNSt3__16vectorIN4AMCP15Wire_IdentifierENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJRKS2_EEEPS2_DpOT_ : 420 -> 424
+~ __ZNSt3__112__hash_tableIN4AMCP16Wire_DescriptionENS_4hashIS2_EENS_8equal_toIS2_EENS_9allocatorIS2_EEE25__emplace_unique_key_argsIS2_JS2_EEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEERKT_DpOT0_ : 2152 -> 2148
+~ __ZNSt3__113unordered_mapIjNS_5tupleIJjN4AMCP7Utility13Sorted_VectorIjNS3_16Extract_Key_SelfIjEENS_4lessIjEENS_9allocatorIjEEEESB_EEENS_4hashIjEENS_8equal_toIjEENS9_INS_4pairIKjSC_EEEEE16insert_or_assignB8ne200100ISC_EENSH_INS_19__hash_map_iteratorINS_15__hash_iteratorIPNS_11__hash_nodeINS_17__hash_value_typeIjSC_EEPvEEEEEEbEERSI_OT_ : 1256 -> 1248
+~ __ZNSt3__113unordered_mapIjNS0_IN4AMCP7AddressENS1_5ThingENS2_4HashENS2_14Is_Exact_MatchENS_9allocatorINS_4pairIKS2_S3_EEEEEENS_4hashIjEENS_8equal_toIjEENS6_INS7_IKjSB_EEEEE16insert_or_assignB8ne200100ISB_EENS7_INS_19__hash_map_iteratorINS_15__hash_iteratorIPNS_11__hash_nodeINS_17__hash_value_typeIjSB_EEPvEEEEEEbEERSG_OT_ : 792 -> 788
+~ __ZN4AMCP4Core6Broker9make_coreEONS0_13Operation_SetEj : 2536 -> 2532
+~ __ZN4AMCP4Core6Broker12destroy_coreEj : 828 -> 816
+~ __ZN4AMCP7IO_Core19Device_Node_Factory36create_node_descriptions_from_deviceERKNSt3__110shared_ptrINS0_23Device_Timebase_FactoryEEEjRKNS3_INS0_17Device_Node_StateEEE : 14804 -> 14708
+~ __ZNSt3__16vectorIN4AMCP20Terminal_DescriptionENS_9allocatorIS2_EEE9push_backB8ne200100ERKS2_ : 716 -> 732
+~ __ZNSt3__16vectorIN4AMCP16Node_DescriptionENS_9allocatorIS2_EEE18__insert_with_sizeB8ne200100INS_11__wrap_iterIPS2_EES9_EES9_NS7_IPKS2_EET_T0_l : 592 -> 612
+~ __ZNSt3__16vectorIN4AMCP20Terminal_DescriptionENS_9allocatorIS2_EEE18__assign_with_sizeB8ne200100IPS2_S7_EEvT_T0_l : 364 -> 380
+~ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE18__assign_with_sizeB8ne200100IPS6_SA_EEvT_T0_l : 420 -> 424
+~ __ZNSt3__16vectorIN4AMCP16Node_DescriptionENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJRKS2_EEEPS2_DpOT_ : 300 -> 304
+~ __ZNSt3__112__hash_tableINS_17__hash_value_typeIN4AMCP19Terminal_IdentifierENS2_7IO_Core17Stream_ConnectionEEENS_22__unordered_map_hasherIS3_S6_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_S6_SB_S9_Lb1EEENS_9allocatorIS6_EEE25__emplace_unique_key_argsIS3_JNS_4pairIS3_S5_EEEEENSJ_INS_15__hash_iteratorIPNS_11__hash_nodeIS6_PvEEEEbEERKT_DpOT0_ : 1176 -> 1168
+~ __ZN4AMCP7IO_Core13Graph_Manager21modify_graph_internalERKNS_17Graph_DescriptionERKNS_25Modify_Graph_Destroy_ListE : 13716 -> 13712
+~ __ZN4AMCP7IO_Core13Graph_Manager23insert_graph_componentsERKNS_17Graph_DescriptionE : 13240 -> 13056
+~ __ZNSt3__16vectorINS_10shared_ptrIN4AMCP5Graph8TimebaseEEENS_9allocatorIS5_EEE18__insert_with_sizeB8ne200100INS_11__wrap_iterIPS5_EESC_EESC_NSA_IPKS5_EET_T0_l : 512 -> 520
+~ __ZN4AMCP7IO_Core13Graph_Manager32update_graph_after_config_changeEjNSt3__13setIjNS2_4lessIjEENS2_9allocatorIjEEEEjRKNS2_4pairINS2_6vectorIjS7_EENSA_INS2_12basic_stringIcNS2_11char_traitsIcEENS6_IcEEEENS6_ISG_EEEEEE : 8648 -> 8644
+~ __ZNKSt3__120__shared_ptr_pointerIPN4AMCP7IO_Core23Device_Timebase_FactoryENS_14default_deleteIS3_EENS_9allocatorIS3_EEE13__get_deleterERKSt9type_info : 56 -> 60
+~ __ZZN10applesauce8dispatch2v15asyncIRZN22HALS_IOContextReporter19ReportStartHardwareENS3_17StartHardwareDataEE3$_0EEvP16dispatch_queue_sOT_ENUlPvE_8__invokeESB_ : 2552 -> 2548
+~ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_S8_NS_4lessIS7_EELb1EEENS5_IS8_EEE25__emplace_unique_key_argsIS7_JNS_4pairIKS7_S7_EEEEENSG_INS_15__tree_iteratorIS8_PNS_11__tree_nodeIS8_PvEElEEbEERKT_DpOT0_ : 240 -> 252
+~ __ZNSt3__16vectorINS0_IjNS_9allocatorIjEEEENS1_IS3_EEE16__init_with_sizeB8ne200100IPKS3_S8_EEvT_T0_m : 280 -> 284
+~ __ZNSt3__16vectorI21CAPropertyAddressListNS_9allocatorIS1_EEE16__init_with_sizeB8ne200100IPS1_S6_EEvT_T0_m : 288 -> 292
+~ __ZN22HALS_MultiChannelMixer20InitializeGainTablesEv : 2056 -> 2040
+~ __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE6insertENS_11__wrap_iterIPKS3_EEOS3_ : 852 -> 860
+~ __ZNK4AMCP3DAL12Fixed_Buffer23get_direct_write_rangesERKNS0_14DAL_Time_RangeE : 1132 -> 1136
+~ __ZNSt3__16vectorIN4AMCP3DAL22Buffer_Time_Translator17Translation_RangeEN5caulk12rt_allocatorIS4_EEE24__emplace_back_slow_pathIJS4_EEEPS4_DpOT_ : 320 -> 324
+~ __ZN5caulk2rt6vectorIN4AMCP3DAL13Audio_SamplesIhEEE12emplace_backIJS5_EEERS5_DpOT_ : 244 -> 252
+~ __ZN4AMCP3DALL36sample_group_from_packetized_samplesERKN5caulk2rt6vectorINSt3__14pairImNS0_18Audio_Samples_DataEEEEE : 216 -> 220
+~ __ZNKSt3__120__shared_ptr_pointerIPN4AMCP3DAL15PCM_File_WriterENS_10shared_ptrINS2_16DAL_File_HandlerEE27__shared_ptr_default_deleteIS6_S3_EENS_9allocatorIS3_EEE13__get_deleterERKSt9type_info : 56 -> 60
+~ __ZNKSt3__120__shared_ptr_pointerIPN4AMCP3DAL15PCM_File_ReaderENS_10shared_ptrINS2_16DAL_File_HandlerEE27__shared_ptr_default_deleteIS6_S3_EENS_9allocatorIS3_EEE13__get_deleterERKSt9type_info : 56 -> 60
+~ __ZNSt3__16vectorI13HALS_ReleaserI11HALS_ClientENS_9allocatorIS3_EEE18__assign_with_sizeB8ne200100IPS3_S8_EEvT_T0_l : 304 -> 320
+~ __ZN11HALS_System11_DeactivateEv : 904 -> 908
+~ __ZN11HALS_System8ActivateEv : 11924 -> 11932
+~ __ZN11HALS_SystemC2EjNS_20Server_Start_OptionsE : 9436 -> 9312
+~ __ZNSt3__16vectorI13HALS_ReleaserI14HALS_IOContextENS_9allocatorIS3_EEE18__assign_with_sizeB8ne200100IPS3_S8_EEvT_T0_l : 320 -> 336
+~ __ZNSt3__16vectorI13HALS_ReleaserI14HALS_IOContextENS_9allocatorIS3_EEE24__emplace_back_slow_pathIJS3_EEEPS3_DpOT_ : 268 -> 272
+~ __ZN4AMCP3DAL9Container23set_data_handler_formatEjRKNSt3__18functionIFNS2_10shared_ptrINS0_16DAL_Data_HandlerEEERKN2CA17StreamDescriptionENS0_11Sample_TimeEEEE : 1840 -> 1848
+~ __ZNKSt3__120__shared_ptr_pointerIPN4AMCP3DAL23Packetized_Data_HandlerENS_10shared_ptrINS2_16DAL_Data_HandlerEE27__shared_ptr_default_deleteIS6_S3_EENS_9allocatorIS3_EEE13__get_deleterERKSt9type_info : 56 -> 60
+~ __ZNKSt3__120__shared_ptr_pointerIPN4AMCP3DAL24AUParameter_Data_HandlerENS_10shared_ptrINS2_16DAL_Data_HandlerEE27__shared_ptr_default_deleteIS6_S3_EENS_9allocatorIS3_EEE13__get_deleterERKSt9type_info : 56 -> 60
+~ __ZNKSt3__120__shared_ptr_pointerIPN4AMCP3DAL16PCM_Data_HandlerENS_10shared_ptrINS2_16DAL_Data_HandlerEE27__shared_ptr_default_deleteIS6_S3_EENS_9allocatorIS3_EEE13__get_deleterERKSt9type_info : 56 -> 60
+~ __ZN4AMCP5Graph29process_once_across_timebasesEj16Buffer_AlignmentRKN5caulk2rt6vectorINS_3DAL14Readable_RangeEEERKNS4_INS5_14Writable_RangeEEERKNS0_24Cross_Timebase_ProcessorE : 13828 -> 13832
+~ __ZNK25HALS_DefaultDeviceManager19UpdateDefaultDeviceERKNS_9SavedInfoERKNSt3__15arrayIS0_Lm3EEEj : 6416 -> 6424
+~ __ZN4AMCP7IO_Core23Device_Timebase_Factory26demand_timebase_for_deviceERKNSt3__110shared_ptrINS_4Core6EngineEEERKNS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE : 1400 -> 1396
+~ __ZNKSt3__120__shared_ptr_pointerIPN4AMCP7IO_Core15Device_TimebaseENS_10shared_ptrINS1_5Graph8TimebaseEE27__shared_ptr_default_deleteIS7_S3_EENS_9allocatorIS3_EEE13__get_deleterERKSt9type_info : 56 -> 60
+~ __ZNSt3__16vectorINS_10unique_ptrIN4AMCP8IOAudio16StreamENS_14default_deleteIS4_EEEENS_9allocatorIS7_EEE7emplaceIJS7_EEENS_11__wrap_iterIPS7_EENSC_IPKS7_EEDpOT_ : 732 -> 752
+~ __ZN4AMCP4Null16make_object_listENSt3__110shared_ptrINS_4Core11System_CoreEEEjNS2_INS0_6ObjectEEERKN10applesauce2CF8ArrayRefERKNS1_6vectorINS1_5tupleIJjNS0_26Expected_Class_Is_SubclassEEEENS1_9allocatorISG_EEEE : 1472 -> 1484
+~ __ZN4AMCP4Null6Stream13populate_coreEj : 9180 -> 9184
+~ __ZZN4AMCP4Null6Device15do_set_propertyEjRKNS_7AddressERKNS_5ThingEENK3$_1clEv : 7652 -> 7664
+~ __ZNSt3__16vectorIN4AMCP20Terminal_DescriptionENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJS2_EEEPS2_DpOT_ : 376 -> 380
+~ __ZNKSt3__120__shared_ptr_pointerIPN4AMCP5Graph12Timebase_SetENS_14default_deleteIS3_EENS_9allocatorIS3_EEE13__get_deleterERKSt9type_info : 56 -> 60
+~ __ZN4AMCP5Graph18Manifest_Inventory10add_bufferENSt3__110shared_ptrINS0_15Manifest_BufferEEE : 1568 -> 1564
+~ __ZNK4AMCP5Graph18Manifest_Inventory11anchor_timeEjRKNS0_26Manifest_Execution_ContextERKNS_3DAL8DAL_TimeE : 4424 -> 4428
+~ __ZN4AMCP5Graph26Synchronized_Mixer_Manager9get_mixerERKNS_19Terminal_IdentifierERKN2CA17StreamDescriptionERKNS_3DAL14DAL_Time_DeltaE : 3852 -> 3812
+~ __ZNSt3__16vectorINS_10unique_ptrIN10applesauce5iokit13mapped_memoryENS_14default_deleteIS4_EEEENS_9allocatorIS7_EEE7reserveEm : 160 -> 164
+~ __ZNSt3__16vectorINS_10unique_ptrIN10applesauce5iokit13mapped_memoryENS_14default_deleteIS4_EEEENS_9allocatorIS7_EEE9push_backB8ne200100EOS7_ : 248 -> 256
+~ __ZN18Property_Type_Info21add_custom_propertiesEjmPK35AudioServerPlugInCustomPropertyInfo : 1200 -> 1208
+~ __ZN18Property_Type_Info24remove_custom_propertiesEj : 612 -> 616
+~ __ZN18HALS_PlugInManager11LoadPlugInsEv : 3940 -> 3948
+~ __ZNK4AMCP3DAL34AUParameter_Buffer_Time_Translator15translate_rangeERKNS0_14DAL_Time_RangeES4_ : 668 -> 672
+~ __ZN4AMCP3DAL18Synchronized_Mixer10add_sourceERKNS0_9Source_IDE16Buffer_Alignment : 3644 -> 3628
+~ __ZN4AMCP3DAL18Synchronized_MixerC2ERKN2CA17StreamDescriptionERKNS0_14DAL_Time_DeltaERKNSt3__110shared_ptrINS0_12SynchronizerEEE : 732 -> 736
+~ __ZN4AMCP5Graph8ManifestC2ERKNSt3__16vectorINS2_10shared_ptrINS0_4NodeEEENS2_9allocatorIS6_EEEERNS0_10Wire_IndexERKNS4_INS0_8TimebaseEEERKNS4_INS0_18Manifest_InventoryEEERKNS4_INS0_26Synchronized_Mixer_ManagerEEE : 11024 -> 11032
+~ __ZNSt3__113unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4AMCP5Graph4NodeEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_INS_4pairIKS6_SB_EEEEE16insert_or_assignB8ne200100IRKSB_EENSG_INS_19__hash_map_iteratorINS_15__hash_iteratorIPNS_11__hash_nodeINS_17__hash_value_typeIS6_SB_EEPvEEEEEEbEEOS6_OT_ : 732 -> 728
+~ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4AMCP5Graph13Manifest_TaskEEEEENS_22__unordered_map_hasherIS7_SD_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SD_SI_SG_Lb1EEENS5_ISD_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENSS_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISD_PvEEEEbEERKT_DpOT0_ : 644 -> 640
+~ __ZN4AMCP5Graph8Manifest40create_connection_and_intermediate_tasksERKNS0_10Graph_WireENS0_8Node_MapERKNS0_8TerminalENS_19Terminal_IdentifierENSt3__110shared_ptrINS0_13Manifest_TaskEEERNSA_6vectorISD_NSA_9allocatorISD_EEEENSB_INS0_18Manifest_InventoryEEE : 21448 -> 21388
+~ __ZN4AMCP5Graph8Manifest16setup_processingERKNS0_26Manifest_Execution_ContextERKNS0_20Manifest_Start_StateERKNSt3__16atomicIjEE : 10464 -> 10508
+~ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__init_with_sizeB8ne200100IPKS6_SB_EEvT_T0_m : 252 -> 256
+~ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_10shared_ptrIN4AMCP5Graph8TimebaseEEEmEENS_22__unordered_map_hasherIS6_S7_NS_4hashIS6_EENS_8equal_toIS6_EELb1EEENS_21__unordered_map_equalIS6_S7_SC_SA_Lb1EEENS_9allocatorIS7_EEE25__emplace_unique_key_argsIS6_JRKNS_21piecewise_construct_tENS_5tupleIJRKS6_EEENSN_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS7_PvEEEEbEERKT_DpOT0_ : 1108 -> 1112
+~ __ZN4AMCP5Graph5Graph16delete_node_procERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE : 376 -> 372
+~ __ZN4AMCP5Graph5Graph13get_node_procERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE : 1420 -> 1404
+~ __ZN4AMCP5Graph5Graph11delete_nodeERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE : 1672 -> 1660
+~ __ZNSt3__16vectorIN4AMCP15Wire_IdentifierENS_9allocatorIS2_EEE9push_backB8ne200100EOS2_ : 436 -> 444
+~ __ZNSt3__16vectorIN4AMCP15Wire_IdentifierENS_9allocatorIS2_EEE18__insert_with_sizeB8ne200100INS_11__wrap_iterIPS2_EES9_EES9_NS7_IPKS2_EET_T0_l : 728 -> 736
+~ __ZNSt3__16vectorINS_10shared_ptrIN4AMCP5Graph4NodeEEENS_9allocatorIS5_EEE16__init_with_sizeB8ne200100IPKS5_SB_EEvT_T0_m : 220 -> 224
+~ __ZNSt3__16__treeIN4AMCP15Wire_IdentifierENS_4lessIS2_EENS_9allocatorIS2_EEE25__emplace_unique_key_argsIS2_JS2_EEENS_4pairINS_15__tree_iteratorIS2_PNS_11__tree_nodeIS2_PvEElEEbEERKT_DpOT0_ : 248 -> 252
+~ __ZNK4AMCP5Graph5Graph31find_nodes_connected_to_contextERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE : 4812 -> 4808
+~ __ZN4AMCP5Graph5Graph14update_contextERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKNS2_8functionIFNS2_10shared_ptrINS0_8TimebaseEEESA_EEERNS2_6vectorIS8_NS6_IS8_EEEERNS1_15Resource_CountsE : 13576 -> 13660
+~ __ZNSt3__16vectorINS_10shared_ptrIN4AMCP5Graph4NodeEEENS_9allocatorIS5_EEE7reserveEm : 160 -> 164
+~ __ZNSt3__112__hash_tableINS_17__hash_value_typeIN4AMCP19Terminal_IdentifierENS_6vectorINS2_15Wire_IdentifierENS_9allocatorIS5_EEEEEENS_22__unordered_map_hasherIS3_S9_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_S9_SE_SC_Lb1EEENS6_IS9_EEE14__assign_multiINS_21__hash_const_iteratorIPNS_11__hash_nodeIS9_PvEEEEEEvT_SR_ : 772 -> 776
+~ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4AMCP5Graph4NodeEEEEENS_22__unordered_map_hasherIS7_SD_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SD_SI_SG_Lb1EEENS5_ISD_EEE14__assign_multiINS_21__hash_const_iteratorIPNS_11__hash_nodeISD_PvEEEEEEvT_SV_ : 360 -> 364
+~ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4AMCP5Graph4NodeEEEEENS_19__map_value_compareIS7_SD_NS_4lessIS7_EELb1EEENS5_ISD_EEE14__assign_multiINS_21__tree_const_iteratorISD_PNS_11__tree_nodeISD_PvEElEEEEvT_SR_ : 512 -> 524
+~ __ZNK4AMCP3DAL16PCM_Data_Handler8get_dataERKNS0_9ContainerEN5caulk10time_rangeINS0_11Sample_TimeES7_EE : 500 -> 520
+~ __ZN5caulk2rt6vectorIN4AMCP3DAL13Audio_SamplesIfEEE12emplace_backIJS5_EEERS5_DpOT_ : 244 -> 252
+~ __ZNKSt3__120__shared_ptr_pointerIPN4AMCP3DAL21PCM_Operation_ContextENS_10shared_ptrINS2_21DAL_Operation_ContextEE27__shared_ptr_default_deleteIS6_S3_EENS_9allocatorIS3_EEE13__get_deleterERKSt9type_info : 56 -> 60
+~ __ZN4AMCP3DAL25sample_group_from_samplesIfEEN5caulk2rt6vectorINS0_13Audio_SamplesIT_EEEERKNS4_INS0_18Audio_Samples_DataEEE : 224 -> 228
+~ __ZN4AMCP3DAL16PCM_Data_Handler5adoptERKN3gsl4spanISt4byteLln1EEE : 328 -> 332
+~ __ZNSt3__110__function6__funcIZN4AMCP3ASP13make_propertyILj1935892841EEENS_9enable_ifIXntsr15Property_TraitsIXT_EEE17k_may_be_settableENS_10shared_ptrINS2_4Core9OperationEEEE4typeERKNS2_7AddressERKNS6_INS3_6PlugInEEEjEUlvE_NS_9allocatorISJ_EEFNS_6vectorINS_5tupleIJjjN10applesauce2CF9StringRefEEEENSK_ISR_EEEEvEEclEv : 744 -> 756
+~ __ZN4AMCP8IOAudio26Stream27create_from_dictionary_listERNS0_6DeviceENS_9DirectionERKN10applesauce2CF8ArrayRefE : 828 -> 840
+~ __ZNKSt3__120__shared_ptr_pointerIPN4AMCP3DAL22Packetized_File_ReaderENS_10shared_ptrINS2_16DAL_File_HandlerEE27__shared_ptr_default_deleteIS6_S3_EENS_9allocatorIS3_EEE13__get_deleterERKSt9type_info : 56 -> 60
+~ __ZN14HALS_IOContextC2EP11HALS_SystemP11HALS_ClientN4AMCP11Power_StateENSt3__110shared_ptrINS4_7Utility14Dispatch_QueueEEE : 9384 -> 9400
+~ __ZNSt3__16vectorINS_4pairIN4AMCP3DAL22Buffer_Time_Translator17Translation_RangeENS3_9ContainerEEEN5caulk12rt_allocatorIS7_EEE24__emplace_back_slow_pathIJRS5_S6_EEEPS7_DpOT_ : 392 -> 404
+~ __ZNSt3__16vectorINS_4pairI13HALS_ListenerNS0_I26AudioObjectPropertyAddressNS_9allocatorIS3_EEEEEENS4_IS7_EEE9push_backB8ne200100EOS7_ : 560 -> 568
+~ __ZN24HALS_NotificationManager19AddPropertyListenerERK13HALS_ListenerjjPK26AudioObjectPropertyAddressNSt3__18optionalIN4AMCP7Utility14Dispatch_QueueEEE : 2592 -> 2600
+~ __ZNSt3__16vectorIN10applesauce5iokit16io_object_holderENS_9allocatorIS3_EEE9push_backB8ne200100ERKS3_ : 600 -> 608
+~ __ZN14HALS_IOEngine28_StartIOEP14HALS_IOContextN21HALS_IOPrewarmManager11EngineStateERbP28HALS_IOEngine2_IOContextInfo : 4232 -> 4244
+~ ____ZN14HALS_IOEngine216GatherDeviceInfoEv_block_invoke_2 : 2768 -> 2784
+~ __ZN28HALS_IOEngine2_IOContextInfo7StartIOEv : 1212 -> 1208
+~ __ZN26HALS_IOContext_Legacy_Impl6AddTapENSt3__110shared_ptrI13HALS_MultiTapEE : 1656 -> 1660
+~ __ZN5caulk12function_refIFijR23HALS_IOStackDescriptionjjR17HALS_IOStreamInfoEE15functor_invokerIZN26HALS_IOContext_Legacy_Impl14StartTapOutputERNS8_9ActiveTapEE3$_0EEiRKNS_7details15erased_callableIS5_EEjS2_jjS4_ : 940 -> 948
+~ __ZN26HALS_IOContext_Legacy_Impl20ProcessOutputForTapsEjRK16CAAudioTimeStamp : 5620 -> 5588
+~ __ZNKSt3__120__shared_ptr_pointerIP30HALS_IOContext_PowerAssertionsNS_14default_deleteIS1_EENS_9allocatorIS1_EEE13__get_deleterERKSt9type_info : 56 -> 60
+~ __ZN25HALS_IOEngine2_StreamInfo17CreateCaptureFileE17AudioCapturerMode : 1896 -> 1888
+~ __ZNSt3__16vectorIfN27HALB_IOBufferManager_Server9AllocatorIfEEE13shrink_to_fitEv : 204 -> 208
+~ __ZNKSt3__120__shared_ptr_pointerIP16AudioCapturerIfcNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEE13__get_deleterERKSt9type_info : 56 -> 60
+~ __ZN5HALIO19HALIO_Graph_Builder51create_graph_description_from_aggregate_descriptionE15Transport_TokenjRKN10applesauce2CF13DictionaryRefERKNSt3__16vectorIbNS7_9allocatorIbEEEESD_NS7_8functionIFbjEEENS7_5arrayIjLm2EEE : 16428 -> 16476
+~ __ZNSt3__16vectorIN4AMCP16Wire_DescriptionENS_9allocatorIS2_EEE9push_backB8ne200100ERKS2_ : 348 -> 356
+~ __ZN5HALIO19HALIO_Graph_Builder23connect_input_terminalsE15Transport_TokenRKN10applesauce2CF8ArrayRefERKNSt3__16vectorIbNS7_9allocatorIbEEEERN4AMCP16Node_DescriptionERNS8_INSE_16Wire_DescriptionENS9_ISH_EEEERdRKNS7_8functionIFbjEEE : 4708 -> 4716
+~ __ZNSt3__16vectorIN4AMCP16Wire_DescriptionENS_9allocatorIS2_EEE18__assign_with_sizeB8ne200100IPS2_S7_EEvT_T0_l : 348 -> 352
+~ __ZNSt3__16vectorIN4AMCP16Wire_DescriptionENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJRNS_12basic_stringIcNS_11char_traitsIcEENS3_IcEEEERmRKSB_SD_EEEPS2_DpOT_ : 332 -> 344
+~ __ZNSt3__16vectorIN4AMCP16Wire_DescriptionENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJRNS_12basic_stringIcNS_11char_traitsIcEENS3_IcEEEERmRKSB_iEEEPS2_DpOT_ : 332 -> 344
+~ __ZN4AMCP6Portal3IPC11IO_Receiver15register_bufferEPU24objcproto13OS_xpc_object8NSObject : 2644 -> 2684
+~ __ZNSt3__16vectorI28Audio_Sub_Device_DescriptionNS_9allocatorIS1_EEE9push_backB8ne200100ERKS1_ : 324 -> 328
+~ __ZN14DSP_Host_Types14load_list_fromINS_17FormatDescriptionEEEbRNSt3__16vectorINS2_10shared_ptrIT_EENS2_9allocatorIS6_EEEERN10applesauce2CF8ArrayRefE : 644 -> 656
+~ __ZNK4AMCP6System32create_ioc_graph_update_observerERKNSt3__14pairINS1_8functionIFNS2_INS_17Graph_DescriptionENS_25Modify_Graph_Destroy_ListEEEvEEENS3_IFvRKS4_EEEEE : 2396 -> 2400
+~ -[Core_Audio_Driver create_and_start_io_receiver:client_id:nominal_sample_rate:io_buffer_frame_size:work_group_port:io_messenger:] : 7400 -> 7396
+~ __ZNSt3__16vectorINS0_IP18HALS_MetaSubDeviceNS_9allocatorIS2_EEEENS3_IS5_EEE9push_backB8ne200100ERKS5_ : 396 -> 404
+~ __ZNKSt3__120__shared_ptr_pointerIP16HALB_CommandGateNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEE13__get_deleterERKSt9type_info : 56 -> 60
+~ __ZN25HALS_IOContextDescription44SetFromCFRepresentation_ProcessOutputStreamsEPK14__CFDictionary : 3796 -> 3824
+~ __ZN18HALS_IOStreamGroup9push_backER17HALS_IOStreamInfo : 368 -> 376
+~ __ZN32HALS_DSPHostPerClientStreamEdits24get_modifiers_for_clientEjb : 968 -> 976
+~ __ZN4AMCP8IOAudio17Control24create_from_service_listERNS0_6DeviceERKNSt3__16vectorIN10applesauce5iokit16io_object_holderENS4_9allocatorIS8_EEEE : 2068 -> 2080
+~ __ZNKSt3__120__shared_ptr_pointerIPN4AMCP3DAL24Multi_Reader_Ring_BufferENS_14default_deleteIS3_EENS_9allocatorIS3_EEE13__get_deleterERKSt9type_info : 56 -> 60
+~ __ZN4AMCP8IOAudio27Control27create_from_dictionary_listERNS0_6DeviceERKN10applesauce2CF8ArrayRefE : 1620 -> 1632
+~ __ZNSt3__112__hash_tableINS_17__hash_value_typeIjNS_10shared_ptrI26HALS_MultiTap_Reader_StateEEEENS_22__unordered_map_hasherIjS5_NS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE25__emplace_unique_key_argsIjJRKNS_21piecewise_construct_tENS_5tupleIJRKjEEENSL_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_ : 1044 -> 1048
+~ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE24__emplace_back_slow_pathIJPKcEEEPS6_DpOT_ : 284 -> 288
+~ __ZN4AMCP10parse_jsonINS_17Graph_DescriptionEEET_RN8minijson15istream_contextE : 17244 -> 17272
+~ __ZNKSt3__120__shared_ptr_pointerIP33HALS_IOContext_Manager_Graph_HostNS_10shared_ptrIN4AMCP5Graph10Graph_HostEE27__shared_ptr_default_deleteIS6_S1_EENS_9allocatorIS1_EEE13__get_deleterERKSt9type_info : 56 -> 60
+~ __ZN10SincKernelC2Eiidd : 1288 -> 1300
+~ __ZN17MutationItinerary30LoadFromNegotiateResponse_utilERKN14DSP_Host_Types17NegotiateResponseEb : 2080 -> 2060
+~ __ZNSt3__16vectorIN11HALS_Device10ClientInfoENS_9allocatorIS2_EEE6insertENS_11__wrap_iterIPKS2_EEOS2_ : 828 -> 836
+~ __ZNKSt3__120__shared_ptr_pointerIPN4AMCP3DAL18Mixing_Ring_BufferENS_14default_deleteIS3_EENS_9allocatorIS3_EEE13__get_deleterERKSt9type_info : 56 -> 60
+~ __ZNKSt3__120__shared_ptr_pointerIPN4AMCP3DAL11Ring_BufferENS_14default_deleteIS3_EENS_9allocatorIS3_EEE13__get_deleterERKSt9type_info : 56 -> 60
+~ __ZNSt3__16vectorINS_5tupleIJyNS_4pairINS_8functionIFNS2_IN4AMCP17Graph_DescriptionENS4_25Modify_Graph_Destroy_ListEEEvEEENS3_IFvRKS5_EEEEEEEENS_9allocatorISF_EEE6insertENS_11__wrap_iterIPKSF_EERSK_ : 892 -> 900
+~ __ZN4AMCP4Core9Conductor21enqueue_config_changeEjjjRKNSt3__18functionIFvvEEE : 3544 -> 3548
+~ __ZZN10applesauce8dispatch2v15asyncIZN4AMCP4Core9Conductor21enqueue_config_changeEjjjRKNSt3__18functionIFvvEEEE3$_0EEvP16dispatch_queue_sOT_ENUlPvE_8__invokeESH_ : 5744 -> 5752
+~ __ZNSt3__16vectorINS_5tupleIJyNS_8functionIFvjbRKNS1_IJNS0_IjNS_9allocatorIjEEEES5_N5boost9container8flat_mapIjNS1_IJNS8_IN4AMCP7AddressENS9_5ThingENSA_15Is_Exact_BeforeEvEESD_SD_EEENS_4lessIjEEvEEEEEEEEEEENS3_ISN_EEE6insertENS_11__wrap_iterIPKSN_EERSR_ : 824 -> 832
+~ __ZNSt3__16vectorINS_5tupleIJyNS_8functionIFvjbRKNS1_IJNS0_IjNS_9allocatorIjEEEES5_NS_13unordered_mapIjNS1_IJNS6_IN4AMCP7AddressENS7_5ThingENS8_4HashENS8_14Is_Exact_MatchENS3_INS_4pairIKS8_S9_EEEEEESG_SG_SG_EEENS_4hashIjEENS_8equal_toIjEENS3_INSC_IKjSH_EEEEEEEEEEEEEEENS3_ISV_EEE6insertENS_11__wrap_iterIPKSV_EERSZ_ : 824 -> 832
+~ __ZNSt3__124__memberwise_copy_assignB8ne200100INS_5tupleIJjN4AMCP7Utility17Sorted_Vector_MapIyNS_4pairINS_8functionIFNS5_INS2_17Graph_DescriptionENS2_25Modify_Graph_Destroy_ListEEEvEEENS6_IFvRKS7_EEEEENS_4lessIyEENS_9allocatorINS1_IJySG_EEEEEEEEEESN_JLm0ELm1EEEEvRT_RKT0_NS_15__tuple_indicesIJXspT1_EEEE : 388 -> 404
+~ __ZNSt3__16vectorINS_5tupleIJyNS_8functionIFvjEEEEEENS_9allocatorIS5_EEE6insertENS_11__wrap_iterIPKS5_EERSA_ : 824 -> 832
+~ __ZN4AMCP3DAL4File23set_file_handler_formatEjRKNSt3__18functionIFNS2_10shared_ptrINS0_16DAL_File_HandlerEEERKNS0_12DAL_SettingsEEEE : 1840 -> 1848
+~ __ZNKSt3__120__shared_ptr_pointerIPN9HALHealth8ObserverENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE13__get_deleterERKSt9type_info : 56 -> 60
+CStrings:
++ "T{Dispatch_Queue={object=@}{weak_ptr<AMCP::Utility::Dispatch_Queue>=^{Dispatch_Queue}^{__shared_weak_count}}{Workloop={object=@}}{atomic<bool>={__cxx_atomic_impl<bool, std::__cxx_atomic_base_impl<bool>>=AB}}{atomic<bool>={__cxx_atomic_impl<bool, std::__cxx_atomic_base_impl<bool>>=AB}}{vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>>=^{Event_Source}^{Event_Source}{?=^{Event_Source}}}{mutex={_opaque_pthread_mutex_t=q[56c]}}{vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>>=^{Event_Source}^{Event_Source}{?=^{Event_Source}}}{mutex={_opaque_pthread_mutex_t=q[56c]}}{vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>>=^{Event_Source}^{Event_Source}{?=^{Event_Source}}}{mutex={_opaque_pthread_mutex_t=q[56c]}}{atomic<long long>={__cxx_atomic_impl<long long, std::__cxx_atomic_base_impl<long long>>=Aq}}@{optional<applesauce::dispatch::group>=(?=c{group={object=@}})B}},N,V_queue"
++ "v352@0:8{Dispatch_Queue={object=@}{weak_ptr<AMCP::Utility::Dispatch_Queue>=^{Dispatch_Queue}^{__shared_weak_count}}{Workloop={object=@}}{atomic<bool>={__cxx_atomic_impl<bool, std::__cxx_atomic_base_impl<bool>>=AB}}{atomic<bool>={__cxx_atomic_impl<bool, std::__cxx_atomic_base_impl<bool>>=AB}}{vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>>=^{Event_Source}^{Event_Source}{?=^{Event_Source}}}{mutex={_opaque_pthread_mutex_t=q[56c]}}{vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>>=^{Event_Source}^{Event_Source}{?=^{Event_Source}}}{mutex={_opaque_pthread_mutex_t=q[56c]}}{vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>>=^{Event_Source}^{Event_Source}{?=^{Event_Source}}}{mutex={_opaque_pthread_mutex_t=q[56c]}}{atomic<long long>={__cxx_atomic_impl<long long, std::__cxx_atomic_base_impl<long long>>=Aq}}@{optional<applesauce::dispatch::group>=(?=c{group={object=@}})B}}16"
++ "{Dispatch_Queue=\"fObj\"{object=\"fObj\"@\"NSObject<OS_dispatch_object>\"}\"__weak_this_\"{weak_ptr<AMCP::Utility::Dispatch_Queue>=\"__ptr_\"^{Dispatch_Queue}\"__cntrl_\"^{__shared_weak_count}}\"m_workloop\"{Workloop=\"fObj\"{object=\"fObj\"@\"NSObject<OS_dispatch_object>\"}}\"m_flush_started\"{atomic<bool>=\"__a_\"{__cxx_atomic_impl<bool, std::__cxx_atomic_base_impl<bool>>=\"__a_value\"AB}}\"m_something_dispatched_after_flush\"{atomic<bool>=\"__a_\"{__cxx_atomic_impl<bool, std::__cxx_atomic_base_impl<bool>>=\"__a_value\"AB}}\"m_port_death_list\"{vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>>=\"__begin_\"^{Event_Source}\"__end_\"^{Event_Source}\"\"{?=\"__cap_\"^{Event_Source}}}\"m_port_death_list_mutex\"{mutex=\"__m_\"{_opaque_pthread_mutex_t=\"__sig\"q\"__opaque\"[56c]}}\"m_mach_port_receiver_list\"{vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>>=\"__begin_\"^{Event_Source}\"__end_\"^{Event_Source}\"\"{?=\"__cap_\"^{Event_Source}}}\"m_mach_port_receiver_list_mutex\"{mutex=\"__m_\"{_opaque_pthread_mutex_t=\"__sig\"q\"__opaque\"[56c]}}\"m_mig_server_list\"{vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>>=\"__begin_\"^{Event_Source}\"__end_\"^{Event_Source}\"\"{?=\"__cap_\"^{Event_Source}}}\"m_mig_server_list_mutex\"{mutex=\"__m_\"{_opaque_pthread_mutex_t=\"__sig\"q\"__opaque\"[56c]}}\"m_after_count\"{atomic<long long>=\"__a_\"{__cxx_atomic_impl<long long, std::__cxx_atomic_base_impl<long long>>=\"__a_value\"Aq}}\"m_after_count_semaphore\"@\"NSObject<OS_dispatch_semaphore>\"\"m_dispatch_group\"{optional<applesauce::dispatch::group>=\"\"(?=\"__null_state_\"c\"__val_\"{group=\"fObj\"{object=\"fObj\"@\"NSObject<OS_dispatch_object>\"}})\"__engaged_\"B}}"
++ "{Dispatch_Queue={object=@}{weak_ptr<AMCP::Utility::Dispatch_Queue>=^{Dispatch_Queue}^{__shared_weak_count}}{Workloop={object=@}}{atomic<bool>={__cxx_atomic_impl<bool, std::__cxx_atomic_base_impl<bool>>=AB}}{atomic<bool>={__cxx_atomic_impl<bool, std::__cxx_atomic_base_impl<bool>>=AB}}{vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>>=^{Event_Source}^{Event_Source}{?=^{Event_Source}}}{mutex={_opaque_pthread_mutex_t=q[56c]}}{vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>>=^{Event_Source}^{Event_Source}{?=^{Event_Source}}}{mutex={_opaque_pthread_mutex_t=q[56c]}}{vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>>=^{Event_Source}^{Event_Source}{?=^{Event_Source}}}{mutex={_opaque_pthread_mutex_t=q[56c]}}{atomic<long long>={__cxx_atomic_impl<long long, std::__cxx_atomic_base_impl<long long>>=Aq}}@{optional<applesauce::dispatch::group>=(?=c{group={object=@}})B}}16@0:8"
++ "{optional<std::string>=(?=c{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}})B}32@0:8Q16@24"
+- "T{Dispatch_Queue={object=@}{weak_ptr<AMCP::Utility::Dispatch_Queue>=^{Dispatch_Queue}^{__shared_weak_count}}{Workloop={object=@}}{atomic<bool>={__cxx_atomic_impl<bool, std::__cxx_atomic_base_impl<bool>>=AB}}{atomic<bool>={__cxx_atomic_impl<bool, std::__cxx_atomic_base_impl<bool>>=AB}}{vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>>=^{Event_Source}^{Event_Source}^{Event_Source}}{mutex={_opaque_pthread_mutex_t=q[56c]}}{vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>>=^{Event_Source}^{Event_Source}^{Event_Source}}{mutex={_opaque_pthread_mutex_t=q[56c]}}{vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>>=^{Event_Source}^{Event_Source}^{Event_Source}}{mutex={_opaque_pthread_mutex_t=q[56c]}}{atomic<long long>={__cxx_atomic_impl<long long, std::__cxx_atomic_base_impl<long long>>=Aq}}@{optional<applesauce::dispatch::group>=(?=c{group={object=@}})B}},N,V_queue"
+- "v352@0:8{Dispatch_Queue={object=@}{weak_ptr<AMCP::Utility::Dispatch_Queue>=^{Dispatch_Queue}^{__shared_weak_count}}{Workloop={object=@}}{atomic<bool>={__cxx_atomic_impl<bool, std::__cxx_atomic_base_impl<bool>>=AB}}{atomic<bool>={__cxx_atomic_impl<bool, std::__cxx_atomic_base_impl<bool>>=AB}}{vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>>=^{Event_Source}^{Event_Source}^{Event_Source}}{mutex={_opaque_pthread_mutex_t=q[56c]}}{vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>>=^{Event_Source}^{Event_Source}^{Event_Source}}{mutex={_opaque_pthread_mutex_t=q[56c]}}{vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>>=^{Event_Source}^{Event_Source}^{Event_Source}}{mutex={_opaque_pthread_mutex_t=q[56c]}}{atomic<long long>={__cxx_atomic_impl<long long, std::__cxx_atomic_base_impl<long long>>=Aq}}@{optional<applesauce::dispatch::group>=(?=c{group={object=@}})B}}16"
+- "{Dispatch_Queue=\"fObj\"{object=\"fObj\"@\"NSObject<OS_dispatch_object>\"}\"__weak_this_\"{weak_ptr<AMCP::Utility::Dispatch_Queue>=\"__ptr_\"^{Dispatch_Queue}\"__cntrl_\"^{__shared_weak_count}}\"m_workloop\"{Workloop=\"fObj\"{object=\"fObj\"@\"NSObject<OS_dispatch_object>\"}}\"m_flush_started\"{atomic<bool>=\"__a_\"{__cxx_atomic_impl<bool, std::__cxx_atomic_base_impl<bool>>=\"__a_value\"AB}}\"m_something_dispatched_after_flush\"{atomic<bool>=\"__a_\"{__cxx_atomic_impl<bool, std::__cxx_atomic_base_impl<bool>>=\"__a_value\"AB}}\"m_port_death_list\"{vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>>=\"__begin_\"^{Event_Source}\"__end_\"^{Event_Source}\"__cap_\"^{Event_Source}}\"m_port_death_list_mutex\"{mutex=\"__m_\"{_opaque_pthread_mutex_t=\"__sig\"q\"__opaque\"[56c]}}\"m_mach_port_receiver_list\"{vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>>=\"__begin_\"^{Event_Source}\"__end_\"^{Event_Source}\"__cap_\"^{Event_Source}}\"m_mach_port_receiver_list_mutex\"{mutex=\"__m_\"{_opaque_pthread_mutex_t=\"__sig\"q\"__opaque\"[56c]}}\"m_mig_server_list\"{vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>>=\"__begin_\"^{Event_Source}\"__end_\"^{Event_Source}\"__cap_\"^{Event_Source}}\"m_mig_server_list_mutex\"{mutex=\"__m_\"{_opaque_pthread_mutex_t=\"__sig\"q\"__opaque\"[56c]}}\"m_after_count\"{atomic<long long>=\"__a_\"{__cxx_atomic_impl<long long, std::__cxx_atomic_base_impl<long long>>=\"__a_value\"Aq}}\"m_after_count_semaphore\"@\"NSObject<OS_dispatch_semaphore>\"\"m_dispatch_group\"{optional<applesauce::dispatch::group>=\"\"(?=\"__null_state_\"c\"__val_\"{group=\"fObj\"{object=\"fObj\"@\"NSObject<OS_dispatch_object>\"}})\"__engaged_\"B}}"
+- "{Dispatch_Queue={object=@}{weak_ptr<AMCP::Utility::Dispatch_Queue>=^{Dispatch_Queue}^{__shared_weak_count}}{Workloop={object=@}}{atomic<bool>={__cxx_atomic_impl<bool, std::__cxx_atomic_base_impl<bool>>=AB}}{atomic<bool>={__cxx_atomic_impl<bool, std::__cxx_atomic_base_impl<bool>>=AB}}{vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>>=^{Event_Source}^{Event_Source}^{Event_Source}}{mutex={_opaque_pthread_mutex_t=q[56c]}}{vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>>=^{Event_Source}^{Event_Source}^{Event_Source}}{mutex={_opaque_pthread_mutex_t=q[56c]}}{vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>>=^{Event_Source}^{Event_Source}^{Event_Source}}{mutex={_opaque_pthread_mutex_t=q[56c]}}{atomic<long long>={__cxx_atomic_impl<long long, std::__cxx_atomic_base_impl<long long>>=Aq}}@{optional<applesauce::dispatch::group>=(?=c{group={object=@}})B}}16@0:8"
+- "{optional<std::string>=(?=c{basic_string<char, std::char_traits<char>, std::allocator<char>>=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})})B}32@0:8Q16@24"
+
+```

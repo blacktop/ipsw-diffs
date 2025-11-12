@@ -1,0 +1,4926 @@
+## CMPhoto
+
+> `/System/Library/PrivateFrameworks/CMPhoto.framework/CMPhoto`
+
+```diff
+
+-420.60.4.0.0
+-  __TEXT.__text: 0x19361c
+-  __TEXT.__auth_stubs: 0x3b40
+-  __TEXT.__objc_methlist: 0x45c
+-  __TEXT.__const: 0x11496
+-  __TEXT.__cstring: 0x28e25
++420.60.5.0.1
++  __TEXT.__text: 0x191064
++  __TEXT.__auth_stubs: 0x4a30
++  __TEXT.__objc_methlist: 0x6c4
++  __TEXT.__const: 0x10b9b
++  __TEXT.__cstring: 0x2b4fc
+   __TEXT.__oslogstring: 0x916
+-  __TEXT.__gcc_except_tab: 0x877c
+-  __TEXT.__unwind_info: 0x5968
+-  __TEXT.__eh_frame: 0x88
++  __TEXT.__gcc_except_tab: 0x33ec
++  __TEXT.__constg_swiftt: 0x2748
++  __TEXT.__swift5_typeref: 0xcc0
++  __TEXT.__swift5_fieldmd: 0x1580
++  __TEXT.__swift5_types: 0x1e8
++  __TEXT.__swift5_reflstr: 0x118e
++  __TEXT.__swift5_assocty: 0xa8
++  __TEXT.__swift5_proto: 0x1f0
++  __TEXT.__swift5_builtin: 0x64
++  __TEXT.__swift5_mpenum: 0x28
++  __TEXT.__swift5_protos: 0x1c
++  __TEXT.__unwind_info: 0x3dd8
++  __TEXT.__eh_frame: 0x19b4
+   __TEXT.__objc_classname: 0x4d
+-  __TEXT.__objc_methname: 0x222b
++  __TEXT.__objc_methname: 0x2676
+   __TEXT.__objc_methtype: 0xcae
+-  __TEXT.__objc_stubs: 0x2320
+-  __DATA_CONST.__got: 0x18d0
+-  __DATA_CONST.__const: 0xcf20
+-  __DATA_CONST.__objc_classlist: 0x20
++  __TEXT.__objc_stubs: 0x2660
++  __DATA_CONST.__got: 0x1a90
++  __DATA_CONST.__const: 0xcf10
++  __DATA_CONST.__objc_classlist: 0x1e0
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x968
++  __DATA_CONST.__objc_selrefs: 0xb40
+   __DATA_CONST.__objc_superrefs: 0x20
+-  __DATA_CONST.__objc_arraydata: 0x280
+-  __AUTH_CONST.__auth_got: 0x1db8
+-  __AUTH_CONST.__const: 0x5e80
+-  __AUTH_CONST.__cfstring: 0x2fa80
+-  __AUTH_CONST.__objc_const: 0xd28
++  __DATA_CONST.__objc_arraydata: 0x360
++  __AUTH_CONST.__auth_got: 0x2530
++  __AUTH_CONST.__const: 0x3600
++  __AUTH_CONST.__cfstring: 0x2fd40
++  __AUTH_CONST.__objc_const: 0x4a10
+   __AUTH_CONST.__objc_intobj: 0x258
+-  __AUTH_CONST.__objc_arrayobj: 0x198
++  __AUTH_CONST.__objc_arrayobj: 0x228
+   __AUTH_CONST.__objc_dictobj: 0x28
+   __AUTH_CONST.__objc_doubleobj: 0x10
+-  __AUTH.__objc_data: 0x50
+-  __AUTH.__data: 0x1e0
++  __AUTH.__objc_data: 0x1a0
++  __AUTH.__data: 0x67b0
+   __DATA.__objc_ivar: 0x120
+-  __DATA.__data: 0x202
+-  __DATA.__bss: 0x8a0
+-  __DATA.__common: 0x48
++  __DATA.__data: 0x5b8
++  __DATA.__vega_dict: 0xca0eb
++  __DATA.__bss: 0x42f0
++  __DATA.__common: 0x188
+   __DATA_DIRTY.__objc_data: 0xf0
+   __DATA_DIRTY.__data: 0xf10
+-  __DATA_DIRTY.__bss: 0x7f8
++  __DATA_DIRTY.__bss: 0x570
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/ColorSync.framework/ColorSync
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
++  - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9217891B-C6BF-3119-BB65-D75B64CD2603
+-  Functions: 6236
+-  Symbols:   23147
+-  CStrings:  13320
++  UUID: BBAD545A-1C77-3203-9778-B4E1A67EBD69
++  Functions: 5913
++  Symbols:   18307
++  CStrings:  13659
+ 
+Symbols:
++ GCC_except_table101
++ GCC_except_table125
++ GCC_except_table146
++ GCC_except_table223
++ GCC_except_table225
++ GCC_except_table254
++ GCC_except_table262
++ GCC_except_table263
++ GCC_except_table272
++ GCC_except_table273
++ GCC_except_table306
++ GCC_except_table323
++ GCC_except_table326
++ GCC_except_table42
++ GCC_except_table46
++ GCC_except_table70
++ GCC_except_table74
++ GCC_except_table75
++ GCC_except_table97
++ _AppleDicomAddAuxiliaryImageToDataSet_VegaBackend
++ _AppleDicomAddDICOMPropertiesToDataSet_VegaBackend
++ _AppleDicomAddMetadataPayloadsToDataSet_VegaBackend
++ _AppleDicomCopyAppleElementForMask
++ _AppleDicomGetDICOMPropertiesFromDataSet_VegaBackend
++ _AppleDicomGetMetadataPayloadsFromDataSet_VegaBackend
++ _CFStringGetMaximumSizeForEncoding
++ _NSLocalizedDescriptionKey
++ _OBJC_CLASS_$_NSDateFormatter
++ _OBJC_CLASS_$_NSError
++ _OBJC_CLASS_$_NSLock
++ _OBJC_CLASS_$_VegaSwiftDataSet
++ _OBJC_CLASS_$_VegaSwiftElement
++ _OBJC_CLASS_$_VegaSwiftFile
++ _OBJC_CLASS_$__TtCs12_SwiftObject
++ _OBJC_EHTYPE_$_NSException
++ _OBJC_METACLASS_$_VegaSwiftDataSet
++ _OBJC_METACLASS_$_VegaSwiftElement
++ _OBJC_METACLASS_$_VegaSwiftFile
++ _OBJC_METACLASS_$__TtCs12_SwiftObject
++ _VegaDataCopySerializeToData
++ _VegaDataSetAddPixelData
++ _VegaDataSetCreate
++ _VegaDataSetCreate.cold.1
++ _VegaDataSetCreateElement
++ _VegaDataSetCreateElementByName
++ _VegaDataSetCreatePrivateCreatorElement
++ _VegaDataSetCreateSequenceElement
++ _VegaDataSetDeserializeFromData
++ _VegaDataSetDeserializeFromData.cold.1
++ _VegaDataSetGetAllElements
++ _VegaDataSetGetElement
++ _VegaDataSetGetElementByMask
++ _VegaDataSetGetPixelDataFragments
++ _VegaDataSetRelease
++ _VegaDataSetTryGetElementByName
++ _VegaDataSetTryGetElementByName.cold.1
++ _VegaElementGetBinaryData
++ _VegaElementGetDouble
++ _VegaElementGetInteger
++ _VegaElementGetManipulator
++ _VegaElementGetManipulator.cold.1
++ _VegaElementGetSequenceItems
++ _VegaElementGetString
++ _VegaElementGetTagName
++ _VegaElementGetVR
++ _VegaElementGetValueCount
++ _VegaElementRelease
++ _VegaFileCreateForEncoding
++ _VegaFileCreateWithData
++ _VegaFileGetDataSet
++ _VegaFileGetFileMeta
++ _VegaFileMetaGetTransferSyntax
++ _VegaFileRelease
++ _VegaFileSetTransferSyntax
++ _VegaFileWriteToData
++ _VegaGetEmbeddedDictionaryData
++ _VegaManipulatorAppendDouble
++ _VegaManipulatorAppendSignedInteger
++ _VegaManipulatorAppendString
++ _VegaManipulatorAppendUnsignedInteger
++ _VegaManipulatorGetData
++ _VegaManipulatorGetInt64
++ _VegaManipulatorGetString
++ _VegaManipulatorGetUInt16
++ _VegaManipulatorGetUInt64
++ _VegaManipulatorSetData
++ _VegaManipulatorSetString
++ _VegaSequenceAddItem
++ _VegaSequenceCreateItem
++ __DATA_VegaSwiftDataSet
++ __DATA_VegaSwiftElement
++ __DATA_VegaSwiftFile
++ __DATA__TtC7CMPhoto10Anonymizer
++ __DATA__TtC7CMPhoto10Controller
++ __DATA__TtC7CMPhoto10Dictionary
++ __DATA__TtC7CMPhoto10Randomizer
++ __DATA__TtC7CMPhoto11DataElement
++ __DATA__TtC7CMPhoto11RegexString
++ __DATA__TtC7CMPhoto12PrivateOwner
++ __DATA__TtC7CMPhoto12WritingError
++ __DATA__TtC7CMPhoto13VegaException
++ __DATA__TtC7CMPhoto14ImageExtractor
++ __DATA__TtC7CMPhoto14TransferSyntax
++ __DATA__TtC7CMPhoto14URIManipulator
++ __DATA__TtC7CMPhoto15DateManipulator
++ __DATA__TtC7CMPhoto15DicomTextWriter
++ __DATA__TtC7CMPhoto15TimeManipulator
++ __DATA__TtC7CMPhoto17DicomBinaryWriter
++ __DATA__TtC7CMPhoto17PrivateOwnerBlock
++ __DATA__TtC7CMPhoto18PrivateOwnerBlocks
++ __DATA__TtC7CMPhoto19DateTimeManipulator
++ __DATA__TtC7CMPhoto19LongTextManipulator
++ __DATA__TtC7CMPhoto20AgeStringManipulator
++ __DATA__TtC7CMPhoto20BaseValueManipulator
++ __DATA__TtC7CMPhoto20OtherByteManipulator
++ __DATA__TtC7CMPhoto20ShortTextManipulator
++ __DATA__TtC7CMPhoto21CodeStringManipulator
++ __DATA__TtC7CMPhoto21LongStringManipulator
++ __DATA__TtC7CMPhoto21OtherFloatManipulator
++ __DATA__TtC7CMPhoto21PersonNameManipulator
++ __DATA__TtC7CMPhoto21SignedLongManipulator
++ __DATA__TtC7CMPhoto22OtherDoubleManipulator
++ __DATA__TtC7CMPhoto22ShortStringManipulator
++ __DATA__TtC7CMPhoto22SignedShortManipulator
++ __DATA__TtC7CMPhoto22UndefinedLengthRemover
++ __DATA__TtC7CMPhoto23AttributeTagManipulator
++ __DATA__TtC7CMPhoto23SingleStringManipulator
++ __DATA__TtC7CMPhoto23UnsignedLongManipulator
++ __DATA__TtC7CMPhoto24FloatingPointManipulator
++ __DATA__TtC7CMPhoto24IntegerStringManipulator
++ __DATA__TtC7CMPhoto24UnlimitedTextManipulator
++ __DATA__TtC7CMPhoto24UnsignedShortManipulator
++ __DATA__TtC7CMPhoto25GeneralIntegerManipulator
++ __DATA__TtC7CMPhoto25SignedVeryLongManipulator
++ __DATA__TtC7CMPhoto27UniqueIdentifierManipulator
++ __DATA__TtC7CMPhoto27UnsignedVeryLongManipulator
++ __DATA__TtC7CMPhoto28ApplicationEntityManipulator
++ __DATA__TtC7CMPhoto2VM
++ __DATA__TtC7CMPhoto2VR
++ __DATA__TtC7CMPhoto30FloatingPointDoubleManipulator
++ __DATA__TtC7CMPhoto30UnlimitedCharactersManipulator
++ __DATA__TtC7CMPhoto32EncapsulatedPixelDataManipulator
++ __DATA__TtC7CMPhoto3Age
++ __DATA__TtC7CMPhoto3UID
++ __DATA__TtC7CMPhoto4Date
++ __DATA__TtC7CMPhoto4File
++ __DATA__TtC7CMPhoto4Page
++ __DATA__TtC7CMPhoto4Time
++ __DATA__TtC7CMPhoto6Reader
++ __DATA__TtC7CMPhoto6Writer
++ __DATA__TtC7CMPhoto7DataSet
++ __DATA__TtC7CMPhoto7Element
++ __DATA__TtC7CMPhoto7IOState
++ __DATA__TtC7CMPhoto7IStream
++ __DATA__TtC7CMPhoto7MultiVR
++ __DATA__TtC7CMPhoto7OStream
++ __DATA__TtC7CMPhoto7RFC1951
++ __DATA__TtC7CMPhoto7TagMask
++ __DATA__TtC7CMPhoto7Visitor
++ __DATA__TtC7CMPhoto8CVisitor
++ __DATA__TtC7CMPhoto8DateTime
++ __DATA__TtC7CMPhoto8FileMeta
++ __DATA__TtC7CMPhoto8Pathname
++ __DATA__TtC7CMPhoto8Preamble
++ __DATA__TtC7CMPhoto8RawValue
++ __DATA__TtC7CMPhoto8SOPClass
++ __DATA__TtC7CMPhoto9Formatter
++ __DATA__TtC7CMPhoto9RawReader
++ __DATA__TtC7CMPhoto9RawWriter
++ __INSTANCE_METHODS_VegaSwiftDataSet
++ __INSTANCE_METHODS_VegaSwiftElement
++ __INSTANCE_METHODS_VegaSwiftFile
++ __IVARS_VegaSwiftDataSet
++ __IVARS_VegaSwiftElement
++ __IVARS_VegaSwiftFile
++ __IVARS__TtC7CMPhoto10Anonymizer
++ __IVARS__TtC7CMPhoto10Controller
++ __IVARS__TtC7CMPhoto10Dictionary
++ __IVARS__TtC7CMPhoto10Randomizer
++ __IVARS__TtC7CMPhoto11DataElement
++ __IVARS__TtC7CMPhoto11RegexString
++ __IVARS__TtC7CMPhoto12PrivateOwner
++ __IVARS__TtC7CMPhoto12WritingError
++ __IVARS__TtC7CMPhoto13JsonFormatter
++ __IVARS__TtC7CMPhoto13VegaException
++ __IVARS__TtC7CMPhoto14TransferSyntax
++ __IVARS__TtC7CMPhoto15DicomTextWriter
++ __IVARS__TtC7CMPhoto17DicomBinaryWriter
++ __IVARS__TtC7CMPhoto17PrivateOwnerBlock
++ __IVARS__TtC7CMPhoto18PrivateOwnerBlocks
++ __IVARS__TtC7CMPhoto20BaseValueManipulator
++ __IVARS__TtC7CMPhoto23PaddedStringManipulator
++ __IVARS__TtC7CMPhoto23SingleStringManipulator
++ __IVARS__TtC7CMPhoto27FixedSizeElementManipulator
++ __IVARS__TtC7CMPhoto27UniqueIdentifierManipulator
++ __IVARS__TtC7CMPhoto2VM
++ __IVARS__TtC7CMPhoto2VR
++ __IVARS__TtC7CMPhoto32EncapsulatedPixelDataManipulator
++ __IVARS__TtC7CMPhoto3Age
++ __IVARS__TtC7CMPhoto3UID
++ __IVARS__TtC7CMPhoto4Date
++ __IVARS__TtC7CMPhoto4File
++ __IVARS__TtC7CMPhoto4Page
++ __IVARS__TtC7CMPhoto4Time
++ __IVARS__TtC7CMPhoto6Reader
++ __IVARS__TtC7CMPhoto6Writer
++ __IVARS__TtC7CMPhoto7DataSet
++ __IVARS__TtC7CMPhoto7Element
++ __IVARS__TtC7CMPhoto7IOState
++ __IVARS__TtC7CMPhoto7IStream
++ __IVARS__TtC7CMPhoto7MultiVR
++ __IVARS__TtC7CMPhoto7TagMask
++ __IVARS__TtC7CMPhoto7Visitor
++ __IVARS__TtC7CMPhoto8CVisitor
++ __IVARS__TtC7CMPhoto8DateTime
++ __IVARS__TtC7CMPhoto8FileMeta
++ __IVARS__TtC7CMPhoto8Pathname
++ __IVARS__TtC7CMPhoto8Preamble
++ __IVARS__TtC7CMPhoto8RawValue
++ __IVARS__TtC7CMPhoto8SOPClass
++ __IVARS__TtC7CMPhoto9Formatter
++ __IVARS__TtC7CMPhoto9RawReader
++ __IVARS__TtC7CMPhoto9RawWriter
++ __METACLASS_DATA_VegaSwiftDataSet
++ __METACLASS_DATA_VegaSwiftElement
++ __METACLASS_DATA_VegaSwiftFile
++ __METACLASS_DATA__TtC7CMPhoto10Anonymizer
++ __METACLASS_DATA__TtC7CMPhoto10Controller
++ __METACLASS_DATA__TtC7CMPhoto10Dictionary
++ __METACLASS_DATA__TtC7CMPhoto10Randomizer
++ __METACLASS_DATA__TtC7CMPhoto11DataElement
++ __METACLASS_DATA__TtC7CMPhoto11RegexString
++ __METACLASS_DATA__TtC7CMPhoto12PrivateOwner
++ __METACLASS_DATA__TtC7CMPhoto12WritingError
++ __METACLASS_DATA__TtC7CMPhoto13VegaException
++ __METACLASS_DATA__TtC7CMPhoto14ImageExtractor
++ __METACLASS_DATA__TtC7CMPhoto14TransferSyntax
++ __METACLASS_DATA__TtC7CMPhoto14URIManipulator
++ __METACLASS_DATA__TtC7CMPhoto15DateManipulator
++ __METACLASS_DATA__TtC7CMPhoto15DicomTextWriter
++ __METACLASS_DATA__TtC7CMPhoto15TimeManipulator
++ __METACLASS_DATA__TtC7CMPhoto17DicomBinaryWriter
++ __METACLASS_DATA__TtC7CMPhoto17PrivateOwnerBlock
++ __METACLASS_DATA__TtC7CMPhoto18PrivateOwnerBlocks
++ __METACLASS_DATA__TtC7CMPhoto19DateTimeManipulator
++ __METACLASS_DATA__TtC7CMPhoto19LongTextManipulator
++ __METACLASS_DATA__TtC7CMPhoto20AgeStringManipulator
++ __METACLASS_DATA__TtC7CMPhoto20BaseValueManipulator
++ __METACLASS_DATA__TtC7CMPhoto20OtherByteManipulator
++ __METACLASS_DATA__TtC7CMPhoto20ShortTextManipulator
++ __METACLASS_DATA__TtC7CMPhoto21CodeStringManipulator
++ __METACLASS_DATA__TtC7CMPhoto21LongStringManipulator
++ __METACLASS_DATA__TtC7CMPhoto21OtherFloatManipulator
++ __METACLASS_DATA__TtC7CMPhoto21PersonNameManipulator
++ __METACLASS_DATA__TtC7CMPhoto21SignedLongManipulator
++ __METACLASS_DATA__TtC7CMPhoto22OtherDoubleManipulator
++ __METACLASS_DATA__TtC7CMPhoto22ShortStringManipulator
++ __METACLASS_DATA__TtC7CMPhoto22SignedShortManipulator
++ __METACLASS_DATA__TtC7CMPhoto22UndefinedLengthRemover
++ __METACLASS_DATA__TtC7CMPhoto23AttributeTagManipulator
++ __METACLASS_DATA__TtC7CMPhoto23SingleStringManipulator
++ __METACLASS_DATA__TtC7CMPhoto23UnsignedLongManipulator
++ __METACLASS_DATA__TtC7CMPhoto24FloatingPointManipulator
++ __METACLASS_DATA__TtC7CMPhoto24IntegerStringManipulator
++ __METACLASS_DATA__TtC7CMPhoto24UnlimitedTextManipulator
++ __METACLASS_DATA__TtC7CMPhoto24UnsignedShortManipulator
++ __METACLASS_DATA__TtC7CMPhoto25GeneralIntegerManipulator
++ __METACLASS_DATA__TtC7CMPhoto25SignedVeryLongManipulator
++ __METACLASS_DATA__TtC7CMPhoto27UniqueIdentifierManipulator
++ __METACLASS_DATA__TtC7CMPhoto27UnsignedVeryLongManipulator
++ __METACLASS_DATA__TtC7CMPhoto28ApplicationEntityManipulator
++ __METACLASS_DATA__TtC7CMPhoto2VM
++ __METACLASS_DATA__TtC7CMPhoto2VR
++ __METACLASS_DATA__TtC7CMPhoto30FloatingPointDoubleManipulator
++ __METACLASS_DATA__TtC7CMPhoto30UnlimitedCharactersManipulator
++ __METACLASS_DATA__TtC7CMPhoto32EncapsulatedPixelDataManipulator
++ __METACLASS_DATA__TtC7CMPhoto3Age
++ __METACLASS_DATA__TtC7CMPhoto3UID
++ __METACLASS_DATA__TtC7CMPhoto4Date
++ __METACLASS_DATA__TtC7CMPhoto4File
++ __METACLASS_DATA__TtC7CMPhoto4Page
++ __METACLASS_DATA__TtC7CMPhoto4Time
++ __METACLASS_DATA__TtC7CMPhoto6Reader
++ __METACLASS_DATA__TtC7CMPhoto6Writer
++ __METACLASS_DATA__TtC7CMPhoto7DataSet
++ __METACLASS_DATA__TtC7CMPhoto7Element
++ __METACLASS_DATA__TtC7CMPhoto7IOState
++ __METACLASS_DATA__TtC7CMPhoto7IStream
++ __METACLASS_DATA__TtC7CMPhoto7MultiVR
++ __METACLASS_DATA__TtC7CMPhoto7OStream
++ __METACLASS_DATA__TtC7CMPhoto7RFC1951
++ __METACLASS_DATA__TtC7CMPhoto7TagMask
++ __METACLASS_DATA__TtC7CMPhoto7Visitor
++ __METACLASS_DATA__TtC7CMPhoto8CVisitor
++ __METACLASS_DATA__TtC7CMPhoto8DateTime
++ __METACLASS_DATA__TtC7CMPhoto8FileMeta
++ __METACLASS_DATA__TtC7CMPhoto8Pathname
++ __METACLASS_DATA__TtC7CMPhoto8Preamble
++ __METACLASS_DATA__TtC7CMPhoto8RawValue
++ __METACLASS_DATA__TtC7CMPhoto8SOPClass
++ __METACLASS_DATA__TtC7CMPhoto9Formatter
++ __METACLASS_DATA__TtC7CMPhoto9RawReader
++ __METACLASS_DATA__TtC7CMPhoto9RawWriter
++ __PROPERTIES_VegaSwiftElement
++ __ZL13_validateFileP18DicomDecoderStruct
++ __ZL13_validateFileP18DicomDecoderStruct.cold.1
++ __ZL13_validateFileP18DicomDecoderStruct.cold.2
++ __ZL13_validateFileP18DicomDecoderStruct.cold.3
++ __ZL13_validateFileP18DicomDecoderStruct.cold.4
++ __ZL13_validateFileP18DicomDecoderStruct.cold.5
++ __ZL13_validateFileP18DicomDecoderStruct.cold.6
++ __ZL16_getDataTagValueP16VegaSwiftDataSetPK10__CFString
++ __ZL17_getInt64TagValueP16VegaSwiftDataSetPK10__CFString
++ __ZL18_getStringTagValueP16VegaSwiftDataSetPK10__CFString
++ __ZL18_getUInt16TagValueP16VegaSwiftDataSetPK10__CFString
++ __ZL18_getUInt64TagValueP16VegaSwiftDataSetPK10__CFString
++ __ZL19_addUIDIfNotPresentP16VegaSwiftDataSetP12NSDictionaryPK10__CFStringS5_
++ __ZL22_addStringIfNotPresentP16VegaSwiftDataSetP12NSDictionaryPK10__CFStringS5_S5_
++ __ZL22_getInt16ArrayTagValueP16VegaSwiftDataSetPK10__CFString
++ __ZL22_parseFile_VegaBackendPK8__CFDataPK14__CFDictionaryP18DicomDecoderStruct
++ __ZL23_getUInt16ArrayTagValueP16VegaSwiftDataSetPK10__CFString
++ __ZL24_createStringManipulatorPKc
++ __ZL24_createUInt16Manipulatort
++ __ZL24_getOtherWordManipulatorP16VegaSwiftDataSetPK10__CFString
++ __ZL29_parsePaletteLUTs_VegaBackendP18DicomDecoderStructP16VegaSwiftDataSet
++ __ZL30_addArrayToDataSet_VegaBackendP7NSArraytP16VegaSwiftDataSetl
++ __ZL33_addKeyValueToDataSet_VegaBackendP16VegaSwiftDataSetP8NSStringP7NSArray
++ __ZL33_addPropertyToDataSet_VegaBackendP11objc_objecttP16VegaSwiftDataSetl
++ __ZL35_getPropertyFromDataSet_VegaBackendP16VegaSwiftDataSetb
++ __ZL37_addSingleStringToDataSet_VegaBackendP8NSStringtP16VegaSwiftDataSet
++ __ZL37_appendValueToManipulator_VegaBackendP16VegaSwiftElementP8NSNumberP8NSString
++ __ZL37_elementToImageProperties_VegaBackendP16VegaSwiftElementP8NSStringP19NSMutableDictionary
++ __ZL38_registerApplePrivateGroup_VegaBackendP16VegaSwiftDataSetPt
++ __ZN4vega12manipulators23SingleStringManipulatorC2ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
++ __ZN4vega5dicom14TransferSyntaxaSEOS1_
++ __ZNK4vega12manipulators23UnsignedLongManipulator12is_valid_forERKNS_2VRE.cold.1
++ __ZNKSt3__111__copy_implclB8ne200100IPNS_6vectorIN4vega4ByteENS_9allocatorIS4_EEEES8_S8_EENS_4pairIT_T1_EESA_T0_SB_
++ __ZNSt3__111make_sharedB8ne200100IN4vega12manipulators24DecimalStringManipulatorEJELi0EEENS_10shared_ptrIT_EEDpOT0_
++ __ZNSt3__115allocate_sharedB8ne200100IN4vega12manipulators20ShortTextManipulatorENS_9allocatorIS3_EEJNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators20ShortTextManipulatorENS_9allocatorIS3_EEEC2B8ne200100IJNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEES5_Li0EEES5_DpOT_
++ __ZNSt3__16vectorIN4vega13DecimalStringENS_9allocatorIS2_EEE9push_backB8ne200100EOS2_
++ __ZNSt3__16vectorIN4vega4ByteENS_9allocatorIS2_EEE18__assign_with_sizeB8ne200100IPKS2_S8_EEvT_T0_l
++ __ZNSt3__16vectorIN4vega4ByteENS_9allocatorIS2_EEE18__assign_with_sizeB8ne200100IPS2_S7_EEvT_T0_l
++ __ZNSt3__16vectorINS0_IN4vega4ByteENS_9allocatorIS2_EEEENS3_IS5_EEE18__assign_with_sizeB8ne200100IPS5_S9_EEvT_T0_l
++ __ZNSt3__16vectorINS_10shared_ptrIN4vega12manipulators20OtherWordManipulatorEEENS_9allocatorIS5_EEE20__throw_out_of_rangeB8ne200100Ev
++ __ZNSt3__16vectorINS_5arrayIiLm3EEENS_9allocatorIS2_EEE9push_backB8ne200100EOS2_
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE9push_backB8ne200100EOi
++ __ZNSt3__16vectorIsNS_9allocatorIsEEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorIsNS_9allocatorIsEEE16__init_with_sizeB8ne200100IPKsS6_EEvT_T0_m
++ __ZNSt3__16vectorItNS_9allocatorItEEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorItNS_9allocatorItEEE16__init_with_sizeB8ne200100IPKtS6_EEvT_T0_m
++ __ZNSt3__18optionalINS_6vectorINS1_IN4vega4ByteENS_9allocatorIS3_EEEENS4_IS6_EEEEEaSB8ne200100IRS8_vEERS9_OT_
++ ___AppleDicomAddDICOMPropertiesToDataSet_VegaBackend_block_invoke
++ ___block_descriptor_40_ea8_32s_e15_v32?0816^B24ls32l8
++ ___swift_destroy_boxed_opaque_existential_1
++ ___swift_destroy_boxed_opaque_existential_1Tm
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
++ ___swift_instantiateGenericMetadata
++ ___swift_memcpy104_8
++ ___swift_memcpy17_8
++ ___swift_memcpy1_1
++ ___swift_memcpy21_8
++ ___swift_memcpy24_8
++ ___swift_memcpy25_8
++ ___swift_memcpy48_8
++ ___swift_memcpy49_8
++ ___swift_memcpy4_2
++ ___swift_memcpy56_8
++ ___swift_memcpy80_8
++ ___swift_mutable_project_boxed_opaque_existential_1
++ ___swift_noop_void_return
++ ___swift_project_boxed_opaque_existential_1
++ ___swift_project_boxed_opaque_existential_1Tm
++ ___unnamed_1
++ ___unnamed_2
++ __dyld_get_image_header
++ __dyld_get_image_name
++ __dyld_image_count
++ __swiftEmptyArrayStorage
++ __swiftEmptyDictionarySingleton
++ __swiftEmptySetSingleton
++ __swiftImmortalRefCount
++ __swift_FORCE_LOAD_$_swiftCompression
++ __swift_FORCE_LOAD_$_swiftCompression_$_CMPhoto
++ __swift_isClassOrObjCExistentialType
++ __swift_stdlib_malloc_size
++ __swift_stdlib_reportUnimplementedInitializer
++ __swift_stdlib_strtod_clocale
++ _associated conformance 7CMPhoto10ControllerC9Operation33_0A746A8E44FE5357FD3C50D6B5A7D307LLOSHAASQ
++ _associated conformance 7CMPhoto10DicomErrorO10Foundation09LocalizedC0AAs0C0
++ _associated conformance 7CMPhoto11ImageFormatOSHAASQ
++ _associated conformance 7CMPhoto13FileMetaErrorO10Foundation09LocalizedD0AAs0D0
++ _associated conformance 7CMPhoto13VegaExceptionC10Foundation14LocalizedErrorAAs0F0
++ _associated conformance 7CMPhoto15DictionaryErrorO10Foundation09LocalizedC0AAs0C0
++ _associated conformance 7CMPhoto16ManipulatorErrorO10Foundation09LocalizedC0AAs0C0
++ _associated conformance 7CMPhoto20ImageExtractionErrorOSHAASQ
++ _associated conformance 7CMPhoto2VRCSHAASQ
++ _associated conformance 7CMPhoto3AgeC10CodingKeys33_F7F5D0481D2C57DA21F61A38ABED6612LLOSHAASQ
++ _associated conformance 7CMPhoto3AgeC10CodingKeys33_F7F5D0481D2C57DA21F61A38ABED6612LLOs0C3KeyAAs23CustomStringConvertible
++ _associated conformance 7CMPhoto3AgeC10CodingKeys33_F7F5D0481D2C57DA21F61A38ABED6612LLOs0C3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7CMPhoto3AgeC4UnitO10CodingKeys33_F7F5D0481D2C57DA21F61A38ABED6612LLOSHAASQ
++ _associated conformance 7CMPhoto3AgeC4UnitO10CodingKeys33_F7F5D0481D2C57DA21F61A38ABED6612LLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 7CMPhoto3AgeC4UnitO10CodingKeys33_F7F5D0481D2C57DA21F61A38ABED6612LLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7CMPhoto3AgeC4UnitO13DAYCodingKeys33_F7F5D0481D2C57DA21F61A38ABED6612LLOs9CodingKeyAAs23CustomStringConvertible
++ _associated conformance 7CMPhoto3AgeC4UnitO13DAYCodingKeys33_F7F5D0481D2C57DA21F61A38ABED6612LLOs9CodingKeyAAs28CustomDebugStringConvertible
++ _associated conformance 7CMPhoto3AgeC4UnitO14WEEKCodingKeys33_F7F5D0481D2C57DA21F61A38ABED6612LLOs9CodingKeyAAs23CustomStringConvertible
++ _associated conformance 7CMPhoto3AgeC4UnitO14WEEKCodingKeys33_F7F5D0481D2C57DA21F61A38ABED6612LLOs9CodingKeyAAs28CustomDebugStringConvertible
++ _associated conformance 7CMPhoto3AgeC4UnitO14YEARCodingKeys33_F7F5D0481D2C57DA21F61A38ABED6612LLOs9CodingKeyAAs23CustomStringConvertible
++ _associated conformance 7CMPhoto3AgeC4UnitO14YEARCodingKeys33_F7F5D0481D2C57DA21F61A38ABED6612LLOs9CodingKeyAAs28CustomDebugStringConvertible
++ _associated conformance 7CMPhoto3AgeC4UnitO15MONTHCodingKeys33_F7F5D0481D2C57DA21F61A38ABED6612LLOs9CodingKeyAAs23CustomStringConvertible
++ _associated conformance 7CMPhoto3AgeC4UnitO15MONTHCodingKeys33_F7F5D0481D2C57DA21F61A38ABED6612LLOs9CodingKeyAAs28CustomDebugStringConvertible
++ _associated conformance 7CMPhoto3AgeC4UnitOSHAASQ
++ _associated conformance 7CMPhoto3AgeC4UnitOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 7CMPhoto3AgeCs25LosslessStringConvertibleAAs06CustomdE0
++ _associated conformance 7CMPhoto3TagV10CodingKeys33_80B8A607B447DC862AB2A73613553F67LLOSHAASQ
++ _associated conformance 7CMPhoto3TagV10CodingKeys33_80B8A607B447DC862AB2A73613553F67LLOs0C3KeyAAs23CustomStringConvertible
++ _associated conformance 7CMPhoto3TagV10CodingKeys33_80B8A607B447DC862AB2A73613553F67LLOs0C3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7CMPhoto3TagVSHAASQ
++ _associated conformance 7CMPhoto3TagVSLAASQ
++ _associated conformance 7CMPhoto4DateC10CodingKeys33_83F8AA69D338B40FF0F5FCD78D608BE3LLOSHAASQ
++ _associated conformance 7CMPhoto4DateC10CodingKeys33_83F8AA69D338B40FF0F5FCD78D608BE3LLOs0C3KeyAAs23CustomStringConvertible
++ _associated conformance 7CMPhoto4DateC10CodingKeys33_83F8AA69D338B40FF0F5FCD78D608BE3LLOs0C3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7CMPhoto4DateCs25LosslessStringConvertibleAAs06CustomdE0
++ _associated conformance 7CMPhoto4TimeCs25LosslessStringConvertibleAAs06CustomdE0
++ _associated conformance 7CMPhoto6EndianOSHAASQ
++ _associated conformance 7CMPhoto7SeekdirOSHAASQ
++ _associated conformance 7CMPhoto8DateTimeCs25LosslessStringConvertibleAAs06CustomeF0
++ _associated conformance 7CMPhoto8RawValueCs25LosslessStringConvertibleAAs06CustomeF0
++ _associated conformance 7CMPhoto9VegaErrorO10Foundation09LocalizedC0AAs0C0
++ _atof
++ _dladdr
++ _fputs
++ _get_enum_tag_for_layout_string 7CMPhoto10DicomErrorO
++ _get_enum_tag_for_layout_string 7CMPhoto13FileMetaErrorO
++ _get_enum_tag_for_layout_string 7CMPhoto15DictionaryErrorO
++ _get_enum_tag_for_layout_string 7CMPhoto16ManipulatorErrorO
++ _get_enum_tag_for_layout_string 7CMPhoto9VegaErrorO
++ _getsectiondata
++ _malloc
++ _malloc_size
++ _objc_allocWithZone
++ _objc_begin_catch
++ _objc_end_catch
++ _objc_msgSend$addPixelDataWithFrames:error:
++ _objc_msgSend$addSequenceItemAndReturnError:
++ _objc_msgSend$allElements
++ _objc_msgSend$appendDouble:
++ _objc_msgSend$appendInteger:
++ _objc_msgSend$binaryData
++ _objc_msgSend$createElementByName:error:
++ _objc_msgSend$createElementWithTag:vr:creatorName:error:
++ _objc_msgSend$createSequenceElementWithTag:error:
++ _objc_msgSend$dataSet
++ _objc_msgSend$doubleValueAt:
++ _objc_msgSend$elementWithTag:
++ _objc_msgSend$elementWithTag:mask:
++ _objc_msgSend$fileMeta
++ _objc_msgSend$getData
++ _objc_msgSend$getElementByName:error:
++ _objc_msgSend$getInt64
++ _objc_msgSend$getPixelDataFragmentsWithNumFrames:error:
++ _objc_msgSend$getSequenceItemsAndReturnError:
++ _objc_msgSend$getString
++ _objc_msgSend$getUInt16
++ _objc_msgSend$getUInt64
++ _objc_msgSend$initWithData:error:
++ _objc_msgSend$initWithSopClassUID:
++ _objc_msgSend$integerValueAt:
++ _objc_msgSend$isLittleEndian
++ _objc_msgSend$privateOwnerName
++ _objc_msgSend$serializeToDataAndReturnError:
++ _objc_msgSend$setData:
++ _objc_msgSend$setString:
++ _objc_msgSend$setTransferSyntax:error:
++ _objc_msgSend$tagName
++ _objc_msgSend$transferSyntaxUID
++ _objc_msgSend$valueCount
++ _objc_msgSend$vr
++ _objc_msgSend$writeAndReturnError:
++ _objc_opt_self
++ _objc_retainAutoreleasedReturnValue
++ _objc_retain_x24
++ _objc_retain_x25
++ _objc_retain_x27
++ _objc_retain_x28
++ _objc_storeStrong
++ _swift_allocError
++ _swift_allocObject
++ _swift_allocateGenericClassMetadata
++ _swift_arrayDestroy
++ _swift_arrayInitWithCopy
++ _swift_beginAccess
++ _swift_bridgeObjectRelease
++ _swift_bridgeObjectRelease_n
++ _swift_bridgeObjectRetain
++ _swift_bridgeObjectRetain_n
++ _swift_checkMetadataState
++ _swift_coroFrameAlloc
++ _swift_cvw_allocateGenericValueMetadataWithLayoutString
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_enumFn_getEnumTag
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithCopy
++ _swift_cvw_initWithTake
++ _swift_cvw_initializeBufferWithCopyOfBuffer
++ _swift_deallocClassInstance
++ _swift_deallocPartialClassInstance
++ _swift_deletedMethodError
++ _swift_dynamicCast
++ _swift_endAccess
++ _swift_errorRelease
++ _swift_errorRetain
++ _swift_getAssociatedTypeWitness
++ _swift_getErrorValue
++ _swift_getForeignTypeMetadata
++ _swift_getGenericMetadata
++ _swift_getKeyPath
++ _swift_getObjCClassFromMetadata
++ _swift_getObjCClassMetadata
++ _swift_getSingletonMetadata
++ _swift_getTypeByMangledNameInContext2
++ _swift_getTypeByMangledNameInContextInMetadataState2
++ _swift_getWitnessTable
++ _swift_initClassMetadata2
++ _swift_initStackObject
++ _swift_isClassType
++ _swift_isUniquelyReferenced_nonNull_native
++ _swift_makeBoxUnique
++ _swift_once
++ _swift_release
++ _swift_release_n
++ _swift_retain
++ _swift_retain_n
++ _swift_setDeallocating
++ _swift_stdlib_random
++ _swift_unexpectedError
++ _swift_unknownObjectRelease
++ _swift_unknownObjectRetain
++ _swift_weakAssign
++ _swift_weakDestroy
++ _swift_weakInit
++ _swift_willThrow
++ _symbolic $s7CMPhoto13DicomWritableP
++ _symbolic $s7CMPhoto15DicomStreamableP
++ _symbolic $s7CMPhoto15JsonConvertibleP
++ _symbolic $s7CMPhoto16ValueManipulatorP
++ _symbolic $s7CMPhoto20ContainerManipulatorP
++ _symbolic $s7CMPhoto21VegaStringConvertibleP
++ _symbolic $s7CMPhoto24DicomStringRepresentableP
++ _symbolic $sSY
++ _symbolic $ss12CaseIterableP
++ _symbolic SDySSSiG
++ _symbolic SDySS_____G 7CMPhoto12PrivateOwnerC
++ _symbolic SDySS_____G 7CMPhoto4PageC
++ _symbolic SDy_____SDyAA_____GG 7CMPhoto3TagV AA4PageC
++ _symbolic SDy_____SDyAA_____GG s6UInt16V 7CMPhoto17PrivateOwnerBlockC
++ _symbolic SDy_____SDyAA_____GG s6UInt16V 7CMPhoto4PageC
++ _symbolic SDy_____Shy_____GG s6UInt32V 7CMPhoto3TagV
++ _symbolic SDy_____SiG s6UInt16V
++ _symbolic SDy__________G 7CMPhoto3TagV AA11DataElementC
++ _symbolic SJ
++ _symbolic SS
++ _symbolic SS2vr_SS3tagSS4namet
++ _symbolic SS2vr_SS3tagt
++ _symbolic SS4type_SS2vrt
++ _symbolic SS5group_SS7elementt
++ _symbolic SS9nameOrUid_t
++ _symbolic SSSg
++ _symbolic SS_ypt
++ _symbolic SaySSG
++ _symbolic SaySay_____GG s5UInt8V
++ _symbolic Say_____G 7CMPhoto10ControllerC9Operation33_0A746A8E44FE5357FD3C50D6B5A7D307LLO
++ _symbolic Say_____G 7CMPhoto2VRC
++ _symbolic Say_____G 7CMPhoto3AgeC4UnitO
++ _symbolic Say_____G 7CMPhoto3TagV
++ _symbolic Say_____G s5UInt8V
++ _symbolic Say_____G s6UInt32V
++ _symbolic Say_____GSg 7CMPhoto7DataSetC
++ _symbolic SayxG
++ _symbolic Sb
++ _symbolic Sb_____c 7CMPhoto11DataElementC
++ _symbolic Sb_____cSg 7CMPhoto11DataElementC
++ _symbolic Sd
++ _symbolic Si
++ _symbolic Si_SSt
++ _symbolic Si_Sit
++ _symbolic So12NSFileHandleC
++ _symbolic So14NSOutputStreamCSg
++ _symbolic Ss
++ _symbolic Ss_S5st
++ _symbolic Ss_S6st
++ _symbolic _____ 10Foundation4DataV
++ _symbolic _____ 7CMPhoto0A11IntegrationO
++ _symbolic _____ 7CMPhoto10AnonymizerC
++ _symbolic _____ 7CMPhoto10ControllerC
++ _symbolic _____ 7CMPhoto10ControllerC9Operation33_0A746A8E44FE5357FD3C50D6B5A7D307LLO
++ _symbolic _____ 7CMPhoto10DicomErrorO
++ _symbolic _____ 7CMPhoto10DictionaryC
++ _symbolic _____ 7CMPhoto10PersonNameV
++ _symbolic _____ 7CMPhoto10RandomizerC
++ _symbolic _____ 7CMPhoto10RangeValueV
++ _symbolic _____ 7CMPhoto11DataElementC
++ _symbolic _____ 7CMPhoto11DataElementC10PersonNameV
++ _symbolic _____ 7CMPhoto11DataElementC3AgeV
++ _symbolic _____ 7CMPhoto11ImageFormatO
++ _symbolic _____ 7CMPhoto11RegexStringC
++ _symbolic _____ 7CMPhoto12PrivateOwnerC
++ _symbolic _____ 7CMPhoto12WritingErrorC
++ _symbolic _____ 7CMPhoto13FileMetaErrorO
++ _symbolic _____ 7CMPhoto13JsonFormatterC
++ _symbolic _____ 7CMPhoto13VegaExceptionC
++ _symbolic _____ 7CMPhoto14ImageExtractorC
++ _symbolic _____ 7CMPhoto14TransferSyntaxC
++ _symbolic _____ 7CMPhoto14URIManipulatorC
++ _symbolic _____ 7CMPhoto15DateManipulatorC
++ _symbolic _____ 7CMPhoto15DicomTextWriterC
++ _symbolic _____ 7CMPhoto15DictionaryEntryV
++ _symbolic _____ 7CMPhoto15DictionaryErrorO
++ _symbolic _____ 7CMPhoto15Dictionary_dataO
++ _symbolic _____ 7CMPhoto15Dictionary_dataO11GroupLengthO
++ _symbolic _____ 7CMPhoto15Dictionary_dataO14PrivateElementO
++ _symbolic _____ 7CMPhoto15Dictionary_dataO23MediaStorageSOPClassUIDO
++ _symbolic _____ 7CMPhoto15ImageParametersV
++ _symbolic _____ 7CMPhoto15SequenceSummaryV
++ _symbolic _____ 7CMPhoto15TimeManipulatorC
++ _symbolic _____ 7CMPhoto16ManipulatorErrorO
++ _symbolic _____ 7CMPhoto17DataElementHeaderV
++ _symbolic _____ 7CMPhoto17DicomBinaryWriterC
++ _symbolic _____ 7CMPhoto17PrivateOwnerBlockC
++ _symbolic _____ 7CMPhoto18PrivateOwnerBlocksC
++ _symbolic _____ 7CMPhoto19DateTimeManipulatorC
++ _symbolic _____ 7CMPhoto19LongTextManipulatorC
++ _symbolic _____ 7CMPhoto19StandardErrorStreamV
++ _symbolic _____ 7CMPhoto20AgeStringManipulatorC
++ _symbolic _____ 7CMPhoto20BaseValueManipulatorC
++ _symbolic _____ 7CMPhoto20ImageExtractionErrorO
++ _symbolic _____ 7CMPhoto20OtherByteManipulatorC
++ _symbolic _____ 7CMPhoto20ShortTextManipulatorC
++ _symbolic _____ 7CMPhoto20StandardOutputStreamV
++ _symbolic _____ 7CMPhoto21CodeStringManipulatorC
++ _symbolic _____ 7CMPhoto21LongStringManipulatorC
++ _symbolic _____ 7CMPhoto21OtherFloatManipulatorC
++ _symbolic _____ 7CMPhoto21PersonNameManipulatorC
++ _symbolic _____ 7CMPhoto21SignedLongManipulatorC
++ _symbolic _____ 7CMPhoto22FileHandleOutputStreamV
++ _symbolic _____ 7CMPhoto22OtherDoubleManipulatorC
++ _symbolic _____ 7CMPhoto22ShortStringManipulatorC
++ _symbolic _____ 7CMPhoto22SignedShortManipulatorC
++ _symbolic _____ 7CMPhoto22UndefinedLengthRemoverC
++ _symbolic _____ 7CMPhoto23AttributeTagManipulatorC
++ _symbolic _____ 7CMPhoto23PaddedStringManipulatorC
++ _symbolic _____ 7CMPhoto23SingleStringManipulatorC
++ _symbolic _____ 7CMPhoto23UnsignedLongManipulatorC
++ _symbolic _____ 7CMPhoto24FloatingPointManipulatorC
++ _symbolic _____ 7CMPhoto24IntegerStringManipulatorC
++ _symbolic _____ 7CMPhoto24UnlimitedTextManipulatorC
++ _symbolic _____ 7CMPhoto24UnsignedShortManipulatorC
++ _symbolic _____ 7CMPhoto25GeneralIntegerManipulatorC
++ _symbolic _____ 7CMPhoto25SignedVeryLongManipulatorC
++ _symbolic _____ 7CMPhoto27FixedSizeElementManipulatorC
++ _symbolic _____ 7CMPhoto27UniqueIdentifierManipulatorC
++ _symbolic _____ 7CMPhoto27UnsignedVeryLongManipulatorC
++ _symbolic _____ 7CMPhoto28ApplicationEntityManipulatorC
++ _symbolic _____ 7CMPhoto2VMC
++ _symbolic _____ 7CMPhoto2VRC
++ _symbolic _____ 7CMPhoto30FloatingPointDoubleManipulatorC
++ _symbolic _____ 7CMPhoto30UnlimitedCharactersManipulatorC
++ _symbolic _____ 7CMPhoto32EncapsulatedPixelDataManipulatorC
++ _symbolic _____ 7CMPhoto3AgeC
++ _symbolic _____ 7CMPhoto3AgeC10CodingKeys33_F7F5D0481D2C57DA21F61A38ABED6612LLO
++ _symbolic _____ 7CMPhoto3AgeC4UnitO
++ _symbolic _____ 7CMPhoto3AgeC4UnitO10CodingKeys33_F7F5D0481D2C57DA21F61A38ABED6612LLO
++ _symbolic _____ 7CMPhoto3AgeC4UnitO13DAYCodingKeys33_F7F5D0481D2C57DA21F61A38ABED6612LLO
++ _symbolic _____ 7CMPhoto3AgeC4UnitO14WEEKCodingKeys33_F7F5D0481D2C57DA21F61A38ABED6612LLO
++ _symbolic _____ 7CMPhoto3AgeC4UnitO14YEARCodingKeys33_F7F5D0481D2C57DA21F61A38ABED6612LLO
++ _symbolic _____ 7CMPhoto3AgeC4UnitO15MONTHCodingKeys33_F7F5D0481D2C57DA21F61A38ABED6612LLO
++ _symbolic _____ 7CMPhoto3TagV
++ _symbolic _____ 7CMPhoto3TagV10CodingKeys33_80B8A607B447DC862AB2A73613553F67LLO
++ _symbolic _____ 7CMPhoto3UIDC
++ _symbolic _____ 7CMPhoto4DateC
++ _symbolic _____ 7CMPhoto4DateC10CodingKeys33_83F8AA69D338B40FF0F5FCD78D608BE3LLO
++ _symbolic _____ 7CMPhoto4FileC
++ _symbolic _____ 7CMPhoto4JsonO
++ _symbolic _____ 7CMPhoto4MathO
++ _symbolic _____ 7CMPhoto4PageC
++ _symbolic _____ 7CMPhoto4TimeC
++ _symbolic _____ 7CMPhoto6EndianO
++ _symbolic _____ 7CMPhoto6ReaderC
++ _symbolic _____ 7CMPhoto6WriterC
++ _symbolic _____ 7CMPhoto7DataSetC
++ _symbolic _____ 7CMPhoto7DataSetC0bC10ValidationV
++ _symbolic _____ 7CMPhoto7DataSetC0bC17PerformanceResultV
++ _symbolic _____ 7CMPhoto7DataSetC0bC7SummaryV
++ _symbolic _____ 7CMPhoto7ElementC
++ _symbolic _____ 7CMPhoto7IOStateC
++ _symbolic _____ 7CMPhoto7IStreamC
++ _symbolic _____ 7CMPhoto7MultiVRC
++ _symbolic _____ 7CMPhoto7OStreamC
++ _symbolic _____ 7CMPhoto7RFC1951C
++ _symbolic _____ 7CMPhoto7SeekdirO
++ _symbolic _____ 7CMPhoto7TagMaskC
++ _symbolic _____ 7CMPhoto7VisitorC
++ _symbolic _____ 7CMPhoto8CVisitorC
++ _symbolic _____ 7CMPhoto8DateTimeC
++ _symbolic _____ 7CMPhoto8FileMetaC
++ _symbolic _____ 7CMPhoto8PathnameC
++ _symbolic _____ 7CMPhoto8PreambleC
++ _symbolic _____ 7CMPhoto8RawValueC
++ _symbolic _____ 7CMPhoto8SOPClassC
++ _symbolic _____ 7CMPhoto9FormatterC
++ _symbolic _____ 7CMPhoto9RawReaderC
++ _symbolic _____ 7CMPhoto9RawWriterC
++ _symbolic _____ 7CMPhoto9VegaErrorO
++ _symbolic _____ s27SystemRandomNumberGeneratorV
++ _symbolic _____ s5Int64V
++ _symbolic _____ s6UInt16V
++ _symbolic _____ s6UInt32V
++ _symbolic _____3key______5valuet 7CMPhoto3TagV AA4PageC
++ _symbolic _____Sg 10Foundation4DataV
++ _symbolic _____Sg 10Foundation8TimeZoneV
++ _symbolic _____Sg 7CMPhoto12PrivateOwnerC
++ _symbolic _____Sg 7CMPhoto14TransferSyntaxC
++ _symbolic _____Sg 7CMPhoto17DataElementHeaderV
++ _symbolic _____Sg 7CMPhoto18PrivateOwnerBlocksC
++ _symbolic _____Sg 7CMPhoto2VRC
++ _symbolic _____Sg 7CMPhoto3TagV
++ _symbolic _____Sg 7CMPhoto3UIDC
++ _symbolic _____Sg 7CMPhoto4DateC
++ _symbolic _____Sg 7CMPhoto4PageC
++ _symbolic _____Sg 7CMPhoto4TimeC
++ _symbolic _____Sg 7CMPhoto7DataSetC
++ _symbolic _____Sg 7CMPhoto8DateTimeC
++ _symbolic _____Sg 7CMPhoto8FileMetaC
++ _symbolic _____Sg 7CMPhoto8PreambleC
++ _symbolic _____Sg 7CMPhoto8SOPClassC
++ _symbolic _____Sg SS5IndexV
++ _symbolic _____Sg s6UInt32V
++ _symbolic _____SgXw 7CMPhoto11DataElementC
++ _symbolic _____SgXw 7CMPhoto7DataSetC
++ _symbolic ______AAt s6UInt32V
++ _symbolic ______SSt 7CMPhoto3TagV
++ _symbolic ______p 10Foundation15ContiguousBytesP
++ _symbolic ______p 7CMPhoto16ValueManipulatorP
++ _symbolic ______p s16TextOutputStreamP
++ _symbolic ______p s5ErrorP
++ _symbolic ______pSg 10Foundation15ContiguousBytesP
++ _symbolic ______pSg s5ErrorP
++ _symbolic _____yS2SG s18_DictionaryStorageC
++ _symbolic _____ySJG s23_ContiguousArrayStorageC
++ _symbolic _____ySSG 7CMPhoto23PaddedStringManipulatorC
++ _symbolic _____ySSG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 7CMPhoto12PrivateOwnerC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 7CMPhoto3UIDC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 7CMPhoto4PageC
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC 7CMPhoto3UIDC
++ _symbolic _____ySS_yptG s23_ContiguousArrayStorageC
++ _symbolic _____ySSypG s18_DictionaryStorageC
++ _symbolic _____ySWG s18ReversedCollectionV
++ _symbolic _____ySay_____GG s23_ContiguousArrayStorageC s5UInt8V
++ _symbolic _____ySdG 7CMPhoto27FixedSizeElementManipulatorC
++ _symbolic _____ySdG s23_ContiguousArrayStorageC
++ _symbolic _____ySfG 7CMPhoto27FixedSizeElementManipulatorC
++ _symbolic _____ySfG s23_ContiguousArrayStorageC
++ _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
++ _symbolic _____ySsG s23_ContiguousArrayStorageC
++ _symbolic _____ySs_S5stG 17_StringProcessing5RegexV
++ _symbolic _____ySs_S5st_G 17_StringProcessing5RegexV5MatchV
++ _symbolic _____ySs_S5st_GSg 17_StringProcessing5RegexV5MatchV
++ _symbolic _____ySs_S6stG 17_StringProcessing5RegexV
++ _symbolic _____ySs_S6st_G 17_StringProcessing5RegexV5MatchV
++ _symbolic _____ySs_S6st_GSg 17_StringProcessing5RegexV5MatchV
++ _symbolic _____y_____3key______5valuetG s23_ContiguousArrayStorageC 7CMPhoto3TagV AC4PageC
++ _symbolic _____y_____G 7CMPhoto23PaddedStringManipulatorC AA10PersonNameV
++ _symbolic _____y_____G 7CMPhoto23PaddedStringManipulatorC AA3AgeC
++ _symbolic _____y_____G 7CMPhoto23PaddedStringManipulatorC AA4DateC
++ _symbolic _____y_____G 7CMPhoto23PaddedStringManipulatorC AA4TimeC
++ _symbolic _____y_____G 7CMPhoto23PaddedStringManipulatorC AA8DateTimeC
++ _symbolic _____y_____G 7CMPhoto27FixedSizeElementManipulatorC AA3TagV
++ _symbolic _____y_____G 7CMPhoto27FixedSizeElementManipulatorC s5Int16V
++ _symbolic _____y_____G 7CMPhoto27FixedSizeElementManipulatorC s5Int32V
++ _symbolic _____y_____G 7CMPhoto27FixedSizeElementManipulatorC s5Int64V
++ _symbolic _____y_____G 7CMPhoto27FixedSizeElementManipulatorC s5UInt8V
++ _symbolic _____y_____G 7CMPhoto27FixedSizeElementManipulatorC s6UInt16V
++ _symbolic _____y_____G 7CMPhoto27FixedSizeElementManipulatorC s6UInt32V
++ _symbolic _____y_____G 7CMPhoto27FixedSizeElementManipulatorC s6UInt64V
++ _symbolic _____y_____G s11_SetStorageC 7CMPhoto3TagV
++ _symbolic _____y_____G s11_SetStorageC s6UInt32V
++ _symbolic _____y_____G s15CollectionOfOneV s5UInt8V
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7CMPhoto3AgeC10CodingKeys33_F7F5D0481D2C57DA21F61A38ABED6612LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7CMPhoto3AgeC4UnitO10CodingKeys33_F7F5D0481D2C57DA21F61A38ABED6612LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7CMPhoto3AgeC4UnitO13DAYCodingKeys33_F7F5D0481D2C57DA21F61A38ABED6612LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7CMPhoto3AgeC4UnitO14WEEKCodingKeys33_F7F5D0481D2C57DA21F61A38ABED6612LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7CMPhoto3AgeC4UnitO14YEARCodingKeys33_F7F5D0481D2C57DA21F61A38ABED6612LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7CMPhoto3AgeC4UnitO15MONTHCodingKeys33_F7F5D0481D2C57DA21F61A38ABED6612LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7CMPhoto3TagV10CodingKeys33_80B8A607B447DC862AB2A73613553F67LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7CMPhoto4DateC10CodingKeys33_83F8AA69D338B40FF0F5FCD78D608BE3LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7CMPhoto3AgeC10CodingKeys33_F7F5D0481D2C57DA21F61A38ABED6612LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7CMPhoto3AgeC4UnitO10CodingKeys33_F7F5D0481D2C57DA21F61A38ABED6612LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7CMPhoto3AgeC4UnitO13DAYCodingKeys33_F7F5D0481D2C57DA21F61A38ABED6612LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7CMPhoto3AgeC4UnitO14WEEKCodingKeys33_F7F5D0481D2C57DA21F61A38ABED6612LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7CMPhoto3AgeC4UnitO14YEARCodingKeys33_F7F5D0481D2C57DA21F61A38ABED6612LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7CMPhoto3AgeC4UnitO15MONTHCodingKeys33_F7F5D0481D2C57DA21F61A38ABED6612LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7CMPhoto3TagV10CodingKeys33_80B8A607B447DC862AB2A73613553F67LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7CMPhoto4DateC10CodingKeys33_83F8AA69D338B40FF0F5FCD78D608BE3LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation4DataV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 7CMPhoto10ControllerC9Operation33_0A746A8E44FE5357FD3C50D6B5A7D307LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 7CMPhoto15DictionaryEntryV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 7CMPhoto3TagV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5Int16V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5Int32V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5Int64V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s6UInt16V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s6UInt32V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s6UInt64V
++ _symbolic _____y_____SDyAB_____GG s18_DictionaryStorageC 7CMPhoto3TagV AC4PageC
++ _symbolic _____y_____SDyAB_____GG s18_DictionaryStorageC s6UInt16V 7CMPhoto17PrivateOwnerBlockC
++ _symbolic _____y_____SDyAB_____GG s18_DictionaryStorageC s6UInt16V 7CMPhoto4PageC
++ _symbolic _____y_____Shy_____GG s18_DictionaryStorageC s6UInt32V 7CMPhoto3TagV
++ _symbolic _____y__________G s18_DictionaryStorageC 7CMPhoto3TagV AC11DataElementC
++ _symbolic _____y__________G s18_DictionaryStorageC 7CMPhoto3TagV AC4PageC
++ _symbolic _____y__________G s18_DictionaryStorageC s6UInt16V 7CMPhoto17PrivateOwnerBlockC
++ _symbolic _____y__________G s18_DictionaryStorageC s6UInt16V 7CMPhoto4PageC
++ _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
++ _symbolic _____yyXlG s23_ContiguousArrayStorageC
++ _symbolic _____yypG s23_ContiguousArrayStorageC
++ _symbolic x
++ _symbolic xSg
++ _symbolic y_____c 7CMPhoto11DataElementC
++ _symbolic ypXmT______t s13DecodingErrorO7ContextV
++ _type_layout_string 7CMPhoto10DicomErrorO
++ _type_layout_string 7CMPhoto10PersonNameV
++ _type_layout_string 7CMPhoto11DataElementC10PersonNameV
++ _type_layout_string 7CMPhoto11DataElementC3AgeV
++ _type_layout_string 7CMPhoto13FileMetaErrorO
++ _type_layout_string 7CMPhoto15DictionaryEntryV
++ _type_layout_string 7CMPhoto15DictionaryErrorO
++ _type_layout_string 7CMPhoto15ImageParametersV
++ _type_layout_string 7CMPhoto15SequenceSummaryV
++ _type_layout_string 7CMPhoto16ManipulatorErrorO
++ _type_layout_string 7CMPhoto17DataElementHeaderV
++ _type_layout_string 7CMPhoto22FileHandleOutputStreamV
++ _type_layout_string 7CMPhoto3TagV
++ _type_layout_string 7CMPhoto7DataSetC0bC10ValidationV
++ _type_layout_string 7CMPhoto7DataSetC0bC17PerformanceResultV
++ _type_layout_string 7CMPhoto7DataSetC0bC7SummaryV
++ _type_layout_string 7CMPhoto9VegaErrorO
+- GCC_except_table103
+- GCC_except_table104
+- GCC_except_table105
+- GCC_except_table107
+- GCC_except_table108
+- GCC_except_table112
+- GCC_except_table115
+- GCC_except_table117
+- GCC_except_table119
+- GCC_except_table121
+- GCC_except_table124
+- GCC_except_table126
+- GCC_except_table128
+- GCC_except_table129
+- GCC_except_table130
+- GCC_except_table133
+- GCC_except_table136
+- GCC_except_table139
+- GCC_except_table141
+- GCC_except_table142
+- GCC_except_table143
+- GCC_except_table144
+- GCC_except_table145
+- GCC_except_table147
+- GCC_except_table149
+- GCC_except_table150
+- GCC_except_table151
+- GCC_except_table153
+- GCC_except_table154
+- GCC_except_table155
+- GCC_except_table157
+- GCC_except_table160
+- GCC_except_table162
+- GCC_except_table164
+- GCC_except_table165
+- GCC_except_table166
+- GCC_except_table167
+- GCC_except_table169
+- GCC_except_table171
+- GCC_except_table172
+- GCC_except_table174
+- GCC_except_table175
+- GCC_except_table177
+- GCC_except_table178
+- GCC_except_table180
+- GCC_except_table181
+- GCC_except_table183
+- GCC_except_table184
+- GCC_except_table185
+- GCC_except_table186
+- GCC_except_table187
+- GCC_except_table188
+- GCC_except_table189
+- GCC_except_table190
+- GCC_except_table191
+- GCC_except_table192
+- GCC_except_table193
+- GCC_except_table194
+- GCC_except_table195
+- GCC_except_table197
+- GCC_except_table199
+- GCC_except_table202
+- GCC_except_table203
+- GCC_except_table204
+- GCC_except_table205
+- GCC_except_table208
+- GCC_except_table209
+- GCC_except_table210
+- GCC_except_table211
+- GCC_except_table212
+- GCC_except_table213
+- GCC_except_table214
+- GCC_except_table228
+- GCC_except_table230
+- GCC_except_table233
+- GCC_except_table235
+- GCC_except_table236
+- GCC_except_table239
+- GCC_except_table240
+- GCC_except_table241
+- GCC_except_table243
+- GCC_except_table244
+- GCC_except_table245
+- GCC_except_table246
+- GCC_except_table247
+- GCC_except_table249
+- GCC_except_table251
+- GCC_except_table255
+- GCC_except_table256
+- GCC_except_table257
+- GCC_except_table258
+- GCC_except_table260
+- GCC_except_table261
+- GCC_except_table264
+- GCC_except_table265
+- GCC_except_table267
+- GCC_except_table270
+- GCC_except_table271
+- GCC_except_table274
+- GCC_except_table277
+- GCC_except_table278
+- GCC_except_table279
+- GCC_except_table280
+- GCC_except_table281
+- GCC_except_table282
+- GCC_except_table283
+- GCC_except_table284
+- GCC_except_table285
+- GCC_except_table288
+- GCC_except_table289
+- GCC_except_table290
+- GCC_except_table291
+- GCC_except_table292
+- GCC_except_table293
+- GCC_except_table294
+- GCC_except_table295
+- GCC_except_table296
+- GCC_except_table297
+- GCC_except_table298
+- GCC_except_table299
+- GCC_except_table303
+- GCC_except_table305
+- GCC_except_table307
+- GCC_except_table309
+- GCC_except_table312
+- GCC_except_table313
+- GCC_except_table314
+- GCC_except_table315
+- GCC_except_table317
+- GCC_except_table322
+- GCC_except_table334
+- GCC_except_table335
+- GCC_except_table339
+- GCC_except_table341
+- GCC_except_table344
+- GCC_except_table345
+- GCC_except_table346
+- GCC_except_table347
+- GCC_except_table348
+- GCC_except_table349
+- GCC_except_table350
+- GCC_except_table351
+- GCC_except_table352
+- GCC_except_table353
+- GCC_except_table358
+- GCC_except_table359
+- GCC_except_table360
+- GCC_except_table363
+- GCC_except_table364
+- GCC_except_table365
+- GCC_except_table366
+- GCC_except_table367
+- GCC_except_table369
+- GCC_except_table370
+- GCC_except_table371
+- GCC_except_table372
+- GCC_except_table373
+- GCC_except_table374
+- GCC_except_table375
+- GCC_except_table378
+- GCC_except_table379
+- GCC_except_table380
+- GCC_except_table381
+- GCC_except_table382
+- GCC_except_table383
+- GCC_except_table384
+- GCC_except_table385
+- GCC_except_table386
+- GCC_except_table391
+- GCC_except_table395
+- GCC_except_table396
+- GCC_except_table397
+- GCC_except_table398
+- GCC_except_table399
+- GCC_except_table400
+- GCC_except_table404
+- GCC_except_table405
+- GCC_except_table406
+- GCC_except_table408
+- GCC_except_table409
+- GCC_except_table410
+- GCC_except_table414
+- GCC_except_table415
+- GCC_except_table416
+- GCC_except_table419
+- GCC_except_table420
+- GCC_except_table421
+- GCC_except_table422
+- GCC_except_table423
+- GCC_except_table424
+- GCC_except_table426
+- GCC_except_table428
+- GCC_except_table429
+- GCC_except_table430
+- GCC_except_table431
+- GCC_except_table432
+- GCC_except_table435
+- GCC_except_table436
+- GCC_except_table437
+- GCC_except_table438
+- GCC_except_table439
+- GCC_except_table440
+- GCC_except_table442
+- GCC_except_table443
+- GCC_except_table444
+- GCC_except_table445
+- GCC_except_table446
+- GCC_except_table447
+- GCC_except_table448
+- GCC_except_table449
+- GCC_except_table450
+- GCC_except_table451
+- GCC_except_table453
+- GCC_except_table454
+- GCC_except_table455
+- GCC_except_table456
+- GCC_except_table457
+- GCC_except_table458
+- GCC_except_table461
+- GCC_except_table462
+- GCC_except_table463
+- GCC_except_table464
+- GCC_except_table469
+- GCC_except_table47
+- GCC_except_table470
+- GCC_except_table471
+- GCC_except_table472
+- GCC_except_table475
+- GCC_except_table476
+- GCC_except_table477
+- GCC_except_table478
+- GCC_except_table479
+- GCC_except_table48
+- GCC_except_table480
+- GCC_except_table481
+- GCC_except_table482
+- GCC_except_table483
+- GCC_except_table484
+- GCC_except_table485
+- GCC_except_table486
+- GCC_except_table487
+- GCC_except_table488
+- GCC_except_table49
+- GCC_except_table493
+- GCC_except_table494
+- GCC_except_table495
+- GCC_except_table496
+- GCC_except_table501
+- GCC_except_table502
+- GCC_except_table503
+- GCC_except_table504
+- GCC_except_table506
+- GCC_except_table509
+- GCC_except_table51
+- GCC_except_table510
+- GCC_except_table511
+- GCC_except_table512
+- GCC_except_table517
+- GCC_except_table518
+- GCC_except_table519
+- GCC_except_table52
+- GCC_except_table520
+- GCC_except_table525
+- GCC_except_table526
+- GCC_except_table527
+- GCC_except_table528
+- GCC_except_table53
+- GCC_except_table533
+- GCC_except_table534
+- GCC_except_table537
+- GCC_except_table539
+- GCC_except_table54
+- GCC_except_table55
+- GCC_except_table56
+- GCC_except_table561
+- GCC_except_table563
+- GCC_except_table565
+- GCC_except_table566
+- GCC_except_table567
+- GCC_except_table57
+- GCC_except_table571
+- GCC_except_table572
+- GCC_except_table573
+- GCC_except_table574
+- GCC_except_table577
+- GCC_except_table578
+- GCC_except_table579
+- GCC_except_table58
+- GCC_except_table580
+- GCC_except_table585
+- GCC_except_table586
+- GCC_except_table587
+- GCC_except_table589
+- GCC_except_table59
+- GCC_except_table590
+- GCC_except_table603
+- GCC_except_table604
+- GCC_except_table605
+- GCC_except_table61
+- GCC_except_table614
+- GCC_except_table615
+- GCC_except_table617
+- GCC_except_table619
+- GCC_except_table62
+- GCC_except_table620
+- GCC_except_table621
+- GCC_except_table622
+- GCC_except_table624
+- GCC_except_table625
+- GCC_except_table626
+- GCC_except_table628
+- GCC_except_table629
+- GCC_except_table630
+- GCC_except_table631
+- GCC_except_table632
+- GCC_except_table633
+- GCC_except_table634
+- GCC_except_table639
+- GCC_except_table64
+- GCC_except_table640
+- GCC_except_table641
+- GCC_except_table642
+- GCC_except_table647
+- GCC_except_table648
+- GCC_except_table652
+- GCC_except_table653
+- GCC_except_table658
+- GCC_except_table659
+- GCC_except_table664
+- GCC_except_table665
+- GCC_except_table666
+- GCC_except_table67
+- GCC_except_table671
+- GCC_except_table672
+- GCC_except_table673
+- GCC_except_table676
+- GCC_except_table68
+- GCC_except_table700
+- GCC_except_table702
+- GCC_except_table704
+- GCC_except_table705
+- GCC_except_table706
+- GCC_except_table707
+- GCC_except_table708
+- GCC_except_table709
+- GCC_except_table71
+- GCC_except_table710
+- GCC_except_table711
+- GCC_except_table716
+- GCC_except_table717
+- GCC_except_table718
+- GCC_except_table719
+- GCC_except_table724
+- GCC_except_table725
+- GCC_except_table726
+- GCC_except_table727
+- GCC_except_table73
+- GCC_except_table732
+- GCC_except_table733
+- GCC_except_table734
+- GCC_except_table735
+- GCC_except_table740
+- GCC_except_table741
+- GCC_except_table745
+- GCC_except_table746
+- GCC_except_table747
+- GCC_except_table752
+- GCC_except_table756
+- GCC_except_table757
+- GCC_except_table758
+- GCC_except_table763
+- GCC_except_table764
+- GCC_except_table765
+- GCC_except_table766
+- GCC_except_table771
+- GCC_except_table772
+- GCC_except_table773
+- GCC_except_table774
+- GCC_except_table779
+- GCC_except_table780
+- GCC_except_table781
+- GCC_except_table782
+- GCC_except_table787
+- GCC_except_table788
+- GCC_except_table789
+- GCC_except_table790
+- GCC_except_table795
+- GCC_except_table796
+- GCC_except_table797
+- GCC_except_table798
+- GCC_except_table803
+- GCC_except_table804
+- GCC_except_table805
+- GCC_except_table808
+- GCC_except_table82
+- GCC_except_table83
+- GCC_except_table832
+- GCC_except_table834
+- GCC_except_table836
+- GCC_except_table837
+- GCC_except_table838
+- GCC_except_table839
+- GCC_except_table84
+- GCC_except_table845
+- GCC_except_table846
+- GCC_except_table847
+- GCC_except_table85
+- GCC_except_table852
+- GCC_except_table853
+- GCC_except_table854
+- GCC_except_table855
+- GCC_except_table86
+- GCC_except_table860
+- GCC_except_table862
+- GCC_except_table867
+- GCC_except_table87
+- GCC_except_table873
+- GCC_except_table874
+- GCC_except_table875
+- GCC_except_table880
+- GCC_except_table881
+- GCC_except_table89
+- GCC_except_table891
+- GCC_except_table894
+- GCC_except_table895
+- GCC_except_table896
+- GCC_except_table897
+- GCC_except_table899
+- GCC_except_table90
+- GCC_except_table902
+- GCC_except_table903
+- GCC_except_table98
+- GCC_except_table99
+- _AppleDicomAddAuxiliaryImageToDataSet
+- _AppleDicomAddAuxiliaryImageToDataSet.cold.1
+- _AppleDicomAddDICOMPropertiesToDataSet
+- _AppleDicomAddMetadataPayloadsToDataSet
+- _AppleDicomElementHasApplePrivateOwner
+- _AppleDicomGetDICOMPropertiesFromDataSet
+- _AppleDicomGetMetadataPayloadsFromDataSet
+- _CFBundleCopyBundleURL
+- _CFBundleGetBundleWithIdentifier
+- _CFStringGetFileSystemRepresentation
+- _CFStringGetMaximumSizeOfFileSystemRepresentation
+- _CFURLCopyPath
+- _DicomMergeImageComponents.cold.1
+- __ZGVZL21_addKeyValueToDataSetRNSt3__110shared_ptrIN4vega5dicom7DataSetEEEP8NSStringP7NSArrayIP11objc_objectEE5regex
+- __ZGVZN4vega2VM8get_pairERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE5REGEX
+- __ZGVZN4vega2vrL2LOEvE2LO
+- __ZGVZN4vega2vrL2UWEvE2UW
+- __ZGVZN4vega2vrL2XSEvE2XS
+- __ZGVZN4vega2vrL2XWEvE2XW
+- __ZGVZN4vega3UID24IMPLEMENTATION_CLASS_UIDEvE24IMPLEMENTATION_CLASS_UID
+- __ZGVZN4vega3UID4BASEEvE4BASE
+- __ZGVZN4vega4Date11RANGE_REGEXEvE11RANGE_REGEX
+- __ZGVZN4vega4Date12SINGLE_REGEXEvE12SINGLE_REGEX
+- __ZGVZN4vega4Time11RANGE_REGEXEvE11RANGE_REGEX
+- __ZGVZN4vega4Time12SINGLE_REGEXEvE10SING_REGEX
+- __ZGVZN4vega5dicom14TransferSyntax15NAME_TO_UID_MAPEvE15NAME_TO_UID_MAP
+- __ZGVZN4vega5dicom14TransferSyntax22EXPLICIT_VR_BIG_ENDIANEvE22EXPLICIT_VR_BIG_ENDIAN
+- __ZGVZN4vega5dicom14TransferSyntax25EXPLICIT_VR_LITTLE_ENDIANEvE25EXPLICIT_VR_LITTLE_ENDIAN
+- __ZGVZN4vega5dicom14TransferSyntax25IMPLICIT_VR_LITTLE_ENDIANEvE25IMPLICIT_VR_LITTLE_ENDIAN
+- __ZGVZN4vega5dicom14TransferSyntax34DEFLATED_EXPLICIT_VR_LITTLE_ENDIANEvE34DEFLATED_EXPLICIT_VR_LITTLE_ENDIAN
+- __ZGVZN4vega5dicom4File46trial_transfer_syntaxes_when_missing_file_metaEvE1v
+- __ZGVZN4vega5dicom8SOPClass14NAME_UID_PAIRSEvE14NAME_UID_PAIRS
+- __ZGVZN4vega5dicom8SOPClass15NAME_TO_UID_MAPEvE15NAME_TO_UID_MAP
+- __ZGVZN4vega5dicom8SOPClass15UID_TO_NAME_MAPEvE15UID_TO_NAME_MAP
+- __ZL10_parseFilePK8__CFDataPK14__CFDictionaryP18DicomDecoderStruct
+- __ZL12_getTagValueIN4vega10dictionary10BitsStoredEEDaNSt3__110shared_ptrINS0_5dicom7DataSetEEE
+- __ZL12_getTagValueIN4vega10dictionary10ColorSpaceEEDaNSt3__110shared_ptrINS0_5dicom7DataSetEEE
+- __ZL12_getTagValueIN4vega10dictionary10ICCProfileEEDaNSt3__110shared_ptrINS0_5dicom7DataSetEEE
+- __ZL12_getTagValueIN4vega10dictionary13BitsAllocatedEEDaNSt3__110shared_ptrINS0_5dicom7DataSetEEE
+- __ZL12_getTagValueIN4vega10dictionary15SamplesPerPixelEEDaNSt3__110shared_ptrINS0_5dicom7DataSetEEE
+- __ZL12_getTagValueIN4vega10dictionary19PixelRepresentationEEDaNSt3__110shared_ptrINS0_5dicom7DataSetEEE
+- __ZL12_getTagValueIN4vega10dictionary25PhotometricInterpretationEEDaNSt3__110shared_ptrINS0_5dicom7DataSetEEE
+- __ZL12_getTagValueIN4vega10dictionary39RedPaletteColorLookupTableDescriptor_SSEEDaNSt3__110shared_ptrINS0_5dicom7DataSetEEE
+- __ZL12_getTagValueIN4vega10dictionary4RowsEEDaNSt3__110shared_ptrINS0_5dicom7DataSetEEE
+- __ZL12_getTagValueIN4vega10dictionary7ColumnsEEDaNSt3__110shared_ptrINS0_5dicom7DataSetEEE
+- __ZL12_getTagValueIN4vega10dictionary7HighBitEEDaNSt3__110shared_ptrINS0_5dicom7DataSetEEE
+- __ZL18_addArrayToDataSetP7NSArraytNSt3__110shared_ptrIN4vega5dicom7DataSetEEE
+- __ZL21_addKeyValueToDataSetRNSt3__110shared_ptrIN4vega5dicom7DataSetEEEP8NSStringP7NSArrayIP11objc_objectE
+- __ZL21_addKeyValueToDataSetRNSt3__110shared_ptrIN4vega5dicom7DataSetEEEP8NSStringP7NSArrayIP11objc_objectE.cold.1
+- __ZL21_addKeyValueToDataSetRNSt3__110shared_ptrIN4vega5dicom7DataSetEEEP8NSStringP7NSArrayIP11objc_objectE.cold.2
+- __ZL21_addKeyValueToDataSetRNSt3__110shared_ptrIN4vega5dicom7DataSetEEEP8NSStringP7NSArrayIP11objc_objectE.cold.3
+- __ZL21_addKeyValueToDataSetRNSt3__110shared_ptrIN4vega5dicom7DataSetEEEP8NSStringP7NSArrayIP11objc_objectE.cold.4
+- __ZL21_addKeyValueToDataSetRNSt3__110shared_ptrIN4vega5dicom7DataSetEEEP8NSStringP7NSArrayIP11objc_objectE.cold.5
+- __ZL21_addPropertyToDataSetP11objc_objecttNSt3__110shared_ptrIN4vega5dicom7DataSetEEE
+- __ZL21_unbridgeNumericValueIjEsP8NSNumberRT_
+- __ZL21_unbridgeNumericValueIxEsP8NSNumberRT_
+- __ZL21_unbridgeNumericValueIyEsP8NSNumberRT_
+- __ZL23_getPropertyFromDataSetNSt3__110shared_ptrIN4vega5dicom7DataSetEEEb
+- __ZL24_addCompressedDataToFileRNSt3__110shared_ptrIN4vega12manipulators32EncapsulatedPixelDataManipulatorEEEPK8__CFData
+- __ZL25_addSingleStringToDataSetP8NSStringtNSt3__110shared_ptrIN4vega5dicom7DataSetEEE
+- __ZL25_appendValueToManipulatorINSt3__110shared_ptrIN4vega12manipulators16ValueManipulatorEEEEsT_P11objc_object
+- __ZL26_registerApplePrivateGroupNSt3__110shared_ptrIN4vega5dicom7DataSetEEE
+- __ZL29_manipulatorToImagePropertiesNSt3__110shared_ptrIN4vega12manipulators16ValueManipulatorEEEP8NSStringP19NSMutableDictionary
+- __ZL31_getLookupTableDescriptorValuesINSt3__110shared_ptrIN4vega12manipulators22SignedShortManipulatorEEEEvT_RNS0_6vectorINS0_5arrayIiLm3EEENS0_9allocatorIS9_EEEE
+- __ZL31_getLookupTableDescriptorValuesINSt3__110shared_ptrIN4vega12manipulators24UnsignedShortManipulatorEEEEvT_RNS0_6vectorINS0_5arrayIiLm3EEENS0_9allocatorIS9_EEEE
+- __ZL33_getPixelDataFragmentsFromDataSetNSt3__110shared_ptrIN4vega5dicom7DataSetEEENS0_INS1_12manipulators24IntegerStringManipulatorEEE
+- __ZN10imemstreamC1ERNSt3__14spanIcLm18446744073709551615EEE
+- __ZN10imemstreamD0Ev
+- __ZN10imemstreamD1Ev
+- __ZN4vega10dictionary10BitsStored2vrE
+- __ZN4vega10dictionary10BitsStored3tagE
+- __ZN4vega10dictionary10BitsStored4nameE
+- __ZN4vega10dictionary10BitsStored8tag_maskE
+- __ZN4vega10dictionary10ColorSpace2vrE
+- __ZN4vega10dictionary10ColorSpace4nameE
+- __ZN4vega10dictionary10ColorSpace8tag_maskE
+- __ZN4vega10dictionary10Dictionary10singleton_E
+- __ZN4vega10dictionary10Dictionary14set_dictionaryERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+- __ZN4vega10dictionary10Dictionary7factoryERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+- __ZN4vega10dictionary10Dictionary8instanceEb
+- __ZN4vega10dictionary10Dictionary8instanceEb.cold.1
+- __ZN4vega10dictionary10Dictionary9add_pagesERKNSt3__16vectorINS2_10shared_ptrIKNS0_4PageEEENS2_9allocatorIS7_EEEE
+- __ZN4vega10dictionary10DictionaryC2ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+- __ZN4vega10dictionary10ICCProfile2vrE
+- __ZN4vega10dictionary10ICCProfile3tagE
+- __ZN4vega10dictionary10ICCProfile4nameE
+- __ZN4vega10dictionary10ICCProfile8tag_maskE
+- __ZN4vega10dictionary11PatientName2vrE
+- __ZN4vega10dictionary11PatientName3tagE
+- __ZN4vega10dictionary11PatientName4nameE
+- __ZN4vega10dictionary11PatientName8tag_maskE
+- __ZN4vega10dictionary11SOPClassUID2vrE
+- __ZN4vega10dictionary11SOPClassUID3tagE
+- __ZN4vega10dictionary11SOPClassUID8tag_maskE
+- __ZN4vega10dictionary11WindowWidth2vrE
+- __ZN4vega10dictionary11WindowWidth4nameE
+- __ZN4vega10dictionary11WindowWidth8tag_maskE
+- __ZN4vega10dictionary12PixelData_OB2vrE
+- __ZN4vega10dictionary12PixelData_OB3tagE
+- __ZN4vega10dictionary12PixelData_OB8tag_maskE
+- __ZN4vega10dictionary12PrivateOwner8add_pageENSt3__110shared_ptrIKNS0_4PageEEE
+- __ZN4vega10dictionary12PrivateOwnerC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+- __ZN4vega10dictionary12RescaleSlope2vrE
+- __ZN4vega10dictionary12RescaleSlope4nameE
+- __ZN4vega10dictionary12RescaleSlope8tag_maskE
+- __ZN4vega10dictionary12WindowCenter2vrE
+- __ZN4vega10dictionary12WindowCenter4nameE
+- __ZN4vega10dictionary12WindowCenter8tag_maskE
+- __ZN4vega10dictionary13BitsAllocated2vrE
+- __ZN4vega10dictionary13BitsAllocated3tagE
+- __ZN4vega10dictionary13BitsAllocated4nameE
+- __ZN4vega10dictionary13BitsAllocated8tag_maskE
+- __ZN4vega10dictionary14AcquisitionUID2vrE
+- __ZN4vega10dictionary14AcquisitionUID3tagE
+- __ZN4vega10dictionary14AcquisitionUID8tag_maskE
+- __ZN4vega10dictionary14NumberOfFrames2vrE
+- __ZN4vega10dictionary14NumberOfFrames3tagE
+- __ZN4vega10dictionary14NumberOfFrames4nameE
+- __ZN4vega10dictionary14NumberOfFrames8tag_maskE
+- __ZN4vega10dictionary14PrivateElement2vrE
+- __ZN4vega10dictionary14PrivateElement8tag_maskE
+- __ZN4vega10dictionary14SOPInstanceUID2vrE
+- __ZN4vega10dictionary14SOPInstanceUID3tagE
+- __ZN4vega10dictionary14SOPInstanceUID8tag_maskE
+- __ZN4vega10dictionary14VOILUTFunction2vrE
+- __ZN4vega10dictionary14VOILUTFunction4nameE
+- __ZN4vega10dictionary14VOILUTFunction8tag_maskE
+- __ZN4vega10dictionary15SamplesPerPixel2vrE
+- __ZN4vega10dictionary15SamplesPerPixel3tagE
+- __ZN4vega10dictionary15SamplesPerPixel4nameE
+- __ZN4vega10dictionary15SamplesPerPixel8tag_maskE
+- __ZN4vega10dictionary15TypeOfPatientID2vrE
+- __ZN4vega10dictionary15TypeOfPatientID4nameE
+- __ZN4vega10dictionary15TypeOfPatientID8tag_maskE
+- __ZN4vega10dictionary16PixelAspectRatio2vrE
+- __ZN4vega10dictionary16PixelAspectRatio4nameE
+- __ZN4vega10dictionary16PixelAspectRatio8tag_maskE
+- __ZN4vega10dictionary16RescaleIntercept2vrE
+- __ZN4vega10dictionary16RescaleIntercept4nameE
+- __ZN4vega10dictionary16RescaleIntercept8tag_maskE
+- __ZN4vega10dictionary16StudyInstanceUID2vrE
+- __ZN4vega10dictionary16StudyInstanceUID3tagE
+- __ZN4vega10dictionary16StudyInstanceUID8tag_maskE
+- __ZN4vega10dictionary17IssuerOfPatientID2vrE
+- __ZN4vega10dictionary17IssuerOfPatientID4nameE
+- __ZN4vega10dictionary17IssuerOfPatientID8tag_maskE
+- __ZN4vega10dictionary17PrivateOwnerBlockC1ERKNSt3__110shared_ptrINS0_12PrivateOwnerEEEtt
+- __ZN4vega10dictionary17SeriesInstanceUID2vrE
+- __ZN4vega10dictionary17SeriesInstanceUID3tagE
+- __ZN4vega10dictionary17SeriesInstanceUID8tag_maskE
+- __ZN4vega10dictionary17TransferSyntaxUID2vrE
+- __ZN4vega10dictionary17TransferSyntaxUID3tagE
+- __ZN4vega10dictionary17TransferSyntaxUID4nameE
+- __ZN4vega10dictionary17TransferSyntaxUID8tag_maskE
+- __ZN4vega10dictionary18InstanceCreatorUID2vrE
+- __ZN4vega10dictionary18InstanceCreatorUID4nameE
+- __ZN4vega10dictionary18InstanceCreatorUID8tag_maskE
+- __ZN4vega10dictionary18PrivateOwnerBlocks23add_private_owner_blockENSt3__110shared_ptrINS0_17PrivateOwnerBlockEEE
+- __ZN4vega10dictionary18PrivateOwnerBlocksC1Ev
+- __ZN4vega10dictionary19PixelRepresentation2vrE
+- __ZN4vega10dictionary19PixelRepresentation3tagE
+- __ZN4vega10dictionary19PixelRepresentation4nameE
+- __ZN4vega10dictionary19PixelRepresentation8tag_maskE
+- __ZN4vega10dictionary19PlanarConfiguration2vrE
+- __ZN4vega10dictionary19PlanarConfiguration3tagE
+- __ZN4vega10dictionary19PlanarConfiguration4nameE
+- __ZN4vega10dictionary19PlanarConfiguration8tag_maskE
+- __ZN4vega10dictionary20InstanceCreationDate2vrE
+- __ZN4vega10dictionary20InstanceCreationDate4nameE
+- __ZN4vega10dictionary20InstanceCreationDate8tag_maskE
+- __ZN4vega10dictionary20InstanceCreationTime2vrE
+- __ZN4vega10dictionary20InstanceCreationTime4nameE
+- __ZN4vega10dictionary20InstanceCreationTime8tag_maskE
+- __ZN4vega10dictionary20SpecificCharacterSet2vrE
+- __ZN4vega10dictionary20SpecificCharacterSet4nameE
+- __ZN4vega10dictionary20SpecificCharacterSet8tag_maskE
+- __ZN4vega10dictionary21LossyImageCompression2vrE
+- __ZN4vega10dictionary21LossyImageCompression3tagE
+- __ZN4vega10dictionary21LossyImageCompression8tag_maskE
+- __ZN4vega10dictionary25LargestImagePixelValue_SS2vrE
+- __ZN4vega10dictionary25LargestImagePixelValue_SS4nameE
+- __ZN4vega10dictionary25LargestImagePixelValue_SS8tag_maskE
+- __ZN4vega10dictionary25LargestImagePixelValue_US2vrE
+- __ZN4vega10dictionary25LargestImagePixelValue_US4nameE
+- __ZN4vega10dictionary25LargestImagePixelValue_US8tag_maskE
+- __ZN4vega10dictionary25PhotometricInterpretation2vrE
+- __ZN4vega10dictionary25PhotometricInterpretation3tagE
+- __ZN4vega10dictionary25PhotometricInterpretation4nameE
+- __ZN4vega10dictionary25PhotometricInterpretation8tag_maskE
+- __ZN4vega10dictionary26SmallestImagePixelValue_SS2vrE
+- __ZN4vega10dictionary26SmallestImagePixelValue_SS4nameE
+- __ZN4vega10dictionary26SmallestImagePixelValue_SS8tag_maskE
+- __ZN4vega10dictionary26SmallestImagePixelValue_US2vrE
+- __ZN4vega10dictionary26SmallestImagePixelValue_US4nameE
+- __ZN4vega10dictionary26SmallestImagePixelValue_US8tag_maskE
+- __ZN4vega10dictionary30RedPaletteColorLookupTableData2vrE
+- __ZN4vega10dictionary30RedPaletteColorLookupTableData4nameE
+- __ZN4vega10dictionary30RedPaletteColorLookupTableData8tag_maskE
+- __ZN4vega10dictionary31BluePaletteColorLookupTableData2vrE
+- __ZN4vega10dictionary31BluePaletteColorLookupTableData4nameE
+- __ZN4vega10dictionary31BluePaletteColorLookupTableData8tag_maskE
+- __ZN4vega10dictionary32GreenPaletteColorLookupTableData2vrE
+- __ZN4vega10dictionary32GreenPaletteColorLookupTableData4nameE
+- __ZN4vega10dictionary32GreenPaletteColorLookupTableData8tag_maskE
+- __ZN4vega10dictionary39RedPaletteColorLookupTableDescriptor_SS2vrE
+- __ZN4vega10dictionary39RedPaletteColorLookupTableDescriptor_SS4nameE
+- __ZN4vega10dictionary39RedPaletteColorLookupTableDescriptor_SS8tag_maskE
+- __ZN4vega10dictionary39RedPaletteColorLookupTableDescriptor_US2vrE
+- __ZN4vega10dictionary39RedPaletteColorLookupTableDescriptor_US4nameE
+- __ZN4vega10dictionary39RedPaletteColorLookupTableDescriptor_US8tag_maskE
+- __ZN4vega10dictionary40BluePaletteColorLookupTableDescriptor_SS2vrE
+- __ZN4vega10dictionary40BluePaletteColorLookupTableDescriptor_SS4nameE
+- __ZN4vega10dictionary40BluePaletteColorLookupTableDescriptor_SS8tag_maskE
+- __ZN4vega10dictionary40BluePaletteColorLookupTableDescriptor_US2vrE
+- __ZN4vega10dictionary40BluePaletteColorLookupTableDescriptor_US4nameE
+- __ZN4vega10dictionary40BluePaletteColorLookupTableDescriptor_US8tag_maskE
+- __ZN4vega10dictionary41GreenPaletteColorLookupTableDescriptor_SS2vrE
+- __ZN4vega10dictionary41GreenPaletteColorLookupTableDescriptor_SS4nameE
+- __ZN4vega10dictionary41GreenPaletteColorLookupTableDescriptor_SS8tag_maskE
+- __ZN4vega10dictionary41GreenPaletteColorLookupTableDescriptor_US2vrE
+- __ZN4vega10dictionary41GreenPaletteColorLookupTableDescriptor_US4nameE
+- __ZN4vega10dictionary41GreenPaletteColorLookupTableDescriptor_US8tag_maskE
+- __ZN4vega10dictionary4PageC1ENSt3__110shared_ptrIKNS0_12PrivateOwnerEEERKNS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKNS_7TagMaskERKNS_7MultiVRERKNS_2VME
+- __ZN4vega10dictionary4PageC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKNS_7TagMaskERKNS_7MultiVRERKNS_2VME
+- __ZN4vega10dictionary4PageC2ENSt3__110shared_ptrIKNS0_12PrivateOwnerEEERKNS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKNS_7TagMaskERKNS_7MultiVRERKNS_2VME
+- __ZN4vega10dictionary4PageC2ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKNS_7TagMaskERKNS_7MultiVRERKNS_2VME
+- __ZN4vega10dictionary4Rows2vrE
+- __ZN4vega10dictionary4Rows3tagE
+- __ZN4vega10dictionary4Rows4nameE
+- __ZN4vega10dictionary4Rows8tag_maskE
+- __ZN4vega10dictionary7Columns2vrE
+- __ZN4vega10dictionary7Columns3tagE
+- __ZN4vega10dictionary7Columns4nameE
+- __ZN4vega10dictionary7Columns8tag_maskE
+- __ZN4vega10dictionary7HighBit2vrE
+- __ZN4vega10dictionary7HighBit3tagE
+- __ZN4vega10dictionary7HighBit4nameE
+- __ZN4vega10dictionary7HighBit8tag_maskE
+- __ZN4vega10dictionary8Modality2vrE
+- __ZN4vega10dictionary8Modality3tagE
+- __ZN4vega10dictionary8Modality4nameE
+- __ZN4vega10dictionary8Modality8tag_maskE
+- __ZN4vega10dictionary9ImageType2vrE
+- __ZN4vega10dictionary9ImageType3tagE
+- __ZN4vega10dictionary9ImageType4nameE
+- __ZN4vega10dictionary9ImageType8tag_maskE
+- __ZN4vega10dictionary9PatientID2vrE
+- __ZN4vega10dictionary9PatientID4nameE
+- __ZN4vega10dictionary9PatientID8tag_maskE
+- __ZN4vega10range_readINS_4DateEEEvRNSt3__113basic_istreamIcNS2_11char_traitsIcEEEERT_
+- __ZN4vega10range_readINS_4TimeEEEvRNSt3__113basic_istreamIcNS2_11char_traitsIcEEEERT_
+- __ZN4vega10range_readINS_8DateTimeEEEvRNSt3__113basic_istreamIcNS2_11char_traitsIcEEEERT_
+- __ZN4vega11RegexStringC1ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKNS1_10shared_ptrIKNS1_11basic_regexIcNS1_12regex_traitsIcEEEEEE
+- __ZN4vega11RegexStringC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKNS1_10shared_ptrIKNS1_11basic_regexIcNS1_12regex_traitsIcEEEEEE
+- __ZN4vega12manipulators15DateManipulatorD0Ev
+- __ZN4vega12manipulators15DateManipulatorD1Ev
+- __ZN4vega12manipulators15TimeManipulatorD0Ev
+- __ZN4vega12manipulators15TimeManipulatorD1Ev
+- __ZN4vega12manipulators18UnknownManipulatorD0Ev
+- __ZN4vega12manipulators18UnknownManipulatorD1Ev
+- __ZN4vega12manipulators19DateTimeManipulatorD0Ev
+- __ZN4vega12manipulators19DateTimeManipulatorD1Ev
+- __ZN4vega12manipulators19LongTextManipulatorD0Ev
+- __ZN4vega12manipulators19LongTextManipulatorD1Ev
+- __ZN4vega12manipulators20AgeStringManipulator12allowed_sizeEm
+- __ZN4vega12manipulators20AgeStringManipulatorD0Ev
+- __ZN4vega12manipulators20AgeStringManipulatorD1Ev
+- __ZN4vega12manipulators20PixelDataManipulator9allows_vrERKNS_2VRE
+- __ZN4vega12manipulators20PixelDataManipulator9allows_vrERKNS_2VRE.cold.1
+- __ZN4vega12manipulators20PixelDataManipulatorD0Ev
+- __ZN4vega12manipulators20PixelDataManipulatorD1Ev
+- __ZN4vega12manipulators21LongStringManipulatorD0Ev
+- __ZN4vega12manipulators21LongStringManipulatorD1Ev
+- __ZN4vega12manipulators21OtherFloatManipulatorD0Ev
+- __ZN4vega12manipulators21OtherFloatManipulatorD1Ev
+- __ZN4vega12manipulators21PersonNameManipulatorD0Ev
+- __ZN4vega12manipulators21PersonNameManipulatorD1Ev
+- __ZN4vega12manipulators21SignedLongManipulator12allowed_sizeEm
+- __ZN4vega12manipulators21SignedLongManipulatorD0Ev
+- __ZN4vega12manipulators21SignedLongManipulatorD1Ev
+- __ZN4vega12manipulators22OtherDoubleManipulatorD0Ev
+- __ZN4vega12manipulators22OtherDoubleManipulatorD1Ev
+- __ZN4vega12manipulators22ShortStringManipulatorD0Ev
+- __ZN4vega12manipulators22ShortStringManipulatorD1Ev
+- __ZN4vega12manipulators22SignedShortManipulator12allowed_sizeEm
+- __ZN4vega12manipulators22SignedShortManipulatorD0Ev
+- __ZN4vega12manipulators22SignedShortManipulatorD1Ev
+- __ZN4vega12manipulators23AttributeTagManipulator12allowed_sizeEm
+- __ZN4vega12manipulators23AttributeTagManipulatorD0Ev
+- __ZN4vega12manipulators23AttributeTagManipulatorD1Ev
+- __ZN4vega12manipulators23PaddedStringManipulatorINS_13DecimalStringEEC2ENSt3__110shared_ptrINS_5dicom8RawValueEEE
+- __ZN4vega12manipulators23PaddedStringManipulatorINS_13DecimalStringEEC2ERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
+- __ZN4vega12manipulators23PaddedStringManipulatorINS_13DecimalStringEED0Ev
+- __ZN4vega12manipulators23PaddedStringManipulatorINS_13DecimalStringEED1Ev
+- __ZN4vega12manipulators23PaddedStringManipulatorINS_3AgeEE17parse_from_stringERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
+- __ZN4vega12manipulators23PaddedStringManipulatorINS_3AgeEE9from_jsonERNSt3__118basic_stringstreamIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
+- __ZN4vega12manipulators23PaddedStringManipulatorINS_3AgeEE9raw_valueEv
+- __ZN4vega12manipulators23PaddedStringManipulatorINS_3AgeEE9read_fromEPNS_5dicom9RawReaderEm
+- __ZN4vega12manipulators23PaddedStringManipulatorINS_4DateEE17parse_from_stringERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
+- __ZN4vega12manipulators23PaddedStringManipulatorINS_4DateEE9from_jsonERNSt3__118basic_stringstreamIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
+- __ZN4vega12manipulators23PaddedStringManipulatorINS_4DateEE9raw_valueEv
+- __ZN4vega12manipulators23PaddedStringManipulatorINS_4DateEE9read_fromEPNS_5dicom9RawReaderEm
+- __ZN4vega12manipulators23PaddedStringManipulatorINS_4DateEEC2ENSt3__110shared_ptrINS_5dicom8RawValueEEE
+- __ZN4vega12manipulators23PaddedStringManipulatorINS_4DateEEC2ERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
+- __ZN4vega12manipulators23PaddedStringManipulatorINS_4DateEED0Ev
+- __ZN4vega12manipulators23PaddedStringManipulatorINS_4DateEED1Ev
+- __ZN4vega12manipulators23PaddedStringManipulatorINS_4TimeEE17parse_from_stringERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
+- __ZN4vega12manipulators23PaddedStringManipulatorINS_4TimeEE9from_jsonERNSt3__118basic_stringstreamIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
+- __ZN4vega12manipulators23PaddedStringManipulatorINS_4TimeEE9raw_valueEv
+- __ZN4vega12manipulators23PaddedStringManipulatorINS_4TimeEE9read_fromEPNS_5dicom9RawReaderEm
+- __ZN4vega12manipulators23PaddedStringManipulatorINS_4TimeEEC2ENSt3__110shared_ptrINS_5dicom8RawValueEEE
+- __ZN4vega12manipulators23PaddedStringManipulatorINS_4TimeEEC2ERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
+- __ZN4vega12manipulators23PaddedStringManipulatorINS_4TimeEED0Ev
+- __ZN4vega12manipulators23PaddedStringManipulatorINS_4TimeEED1Ev
+- __ZN4vega12manipulators23PaddedStringManipulatorINS_8DateTimeEE17parse_from_stringERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
+- __ZN4vega12manipulators23PaddedStringManipulatorINS_8DateTimeEE9from_jsonERNSt3__118basic_stringstreamIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
+- __ZN4vega12manipulators23PaddedStringManipulatorINS_8DateTimeEE9raw_valueEv
+- __ZN4vega12manipulators23PaddedStringManipulatorINS_8DateTimeEE9read_fromEPNS_5dicom9RawReaderEm
+- __ZN4vega12manipulators23PaddedStringManipulatorINSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEEC2ENS2_10shared_ptrINS_5dicom8RawValueEEE
+- __ZN4vega12manipulators23PaddedStringManipulatorINSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEEC2ERKS8_
+- __ZN4vega12manipulators23PaddedStringManipulatorINSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEED0Ev
+- __ZN4vega12manipulators23PaddedStringManipulatorINSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEED1Ev
+- __ZN4vega12manipulators23PaddedStringManipulatorIiEC2ENSt3__110shared_ptrINS_5dicom8RawValueEEE
+- __ZN4vega12manipulators23PaddedStringManipulatorIiEC2ERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
+- __ZN4vega12manipulators23PaddedStringManipulatorIiED0Ev
+- __ZN4vega12manipulators23PaddedStringManipulatorIiED1Ev
+- __ZN4vega12manipulators23SingleStringManipulatorC2Ev
+- __ZN4vega12manipulators24FloatingPointManipulator12allowed_sizeEm
+- __ZN4vega12manipulators24FloatingPointManipulatorD0Ev
+- __ZN4vega12manipulators24FloatingPointManipulatorD1Ev
+- __ZN4vega12manipulators24UnlimitedTextManipulatorD0Ev
+- __ZN4vega12manipulators24UnlimitedTextManipulatorD1Ev
+- __ZN4vega12manipulators25SignedVeryLongManipulator12allowed_sizeEm
+- __ZN4vega12manipulators25SignedVeryLongManipulatorD0Ev
+- __ZN4vega12manipulators25SignedVeryLongManipulatorD1Ev
+- __ZN4vega12manipulators27FixedSizeElementManipulatorINS_3TagEE9from_jsonERNSt3__118basic_stringstreamIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
+- __ZN4vega12manipulators27FixedSizeElementManipulatorINS_3TagEE9raw_valueEv
+- __ZN4vega12manipulators27FixedSizeElementManipulatorINS_3TagEE9read_fromEPNS_5dicom9RawReaderEm
+- __ZN4vega12manipulators27FixedSizeElementManipulatorINS_4ByteEEC2ENSt3__110shared_ptrINS_5dicom8RawValueEEE
+- __ZN4vega12manipulators27FixedSizeElementManipulatorINS_4ByteEEC2ENSt3__111__wrap_iterIPKS2_EES8_
+- __ZN4vega12manipulators27FixedSizeElementManipulatorINS_4ByteEED0Ev
+- __ZN4vega12manipulators27FixedSizeElementManipulatorINS_4ByteEED1Ev
+- __ZN4vega12manipulators27FixedSizeElementManipulatorINS_4WordEEC2ENSt3__110shared_ptrINS_5dicom8RawValueEEE
+- __ZN4vega12manipulators27FixedSizeElementManipulatorINS_4WordEED0Ev
+- __ZN4vega12manipulators27FixedSizeElementManipulatorINS_4WordEED1Ev
+- __ZN4vega12manipulators27FixedSizeElementManipulatorIdE9from_jsonERNSt3__118basic_stringstreamIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
+- __ZN4vega12manipulators27FixedSizeElementManipulatorIdE9raw_valueEv
+- __ZN4vega12manipulators27FixedSizeElementManipulatorIdE9read_fromEPNS_5dicom9RawReaderEm
+- __ZN4vega12manipulators27FixedSizeElementManipulatorIfE9from_jsonERNSt3__118basic_stringstreamIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
+- __ZN4vega12manipulators27FixedSizeElementManipulatorIfE9raw_valueEv
+- __ZN4vega12manipulators27FixedSizeElementManipulatorIfE9read_fromEPNS_5dicom9RawReaderEm
+- __ZN4vega12manipulators27FixedSizeElementManipulatorIiE9from_jsonERNSt3__118basic_stringstreamIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
+- __ZN4vega12manipulators27FixedSizeElementManipulatorIiE9raw_valueEv
+- __ZN4vega12manipulators27FixedSizeElementManipulatorIiE9read_fromEPNS_5dicom9RawReaderEm
+- __ZN4vega12manipulators27FixedSizeElementManipulatorIjEC2ENSt3__110shared_ptrINS_5dicom8RawValueEEE
+- __ZN4vega12manipulators27FixedSizeElementManipulatorIjED0Ev
+- __ZN4vega12manipulators27FixedSizeElementManipulatorIjED1Ev
+- __ZN4vega12manipulators27FixedSizeElementManipulatorIsE9from_jsonERNSt3__118basic_stringstreamIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
+- __ZN4vega12manipulators27FixedSizeElementManipulatorIsE9raw_valueEv
+- __ZN4vega12manipulators27FixedSizeElementManipulatorIsE9read_fromEPNS_5dicom9RawReaderEm
+- __ZN4vega12manipulators27FixedSizeElementManipulatorIsEC2ENSt3__110shared_ptrINS_5dicom8RawValueEEE
+- __ZN4vega12manipulators27FixedSizeElementManipulatorIsED0Ev
+- __ZN4vega12manipulators27FixedSizeElementManipulatorIsED1Ev
+- __ZN4vega12manipulators27FixedSizeElementManipulatorItEC2ENSt3__110shared_ptrINS_5dicom8RawValueEEE
+- __ZN4vega12manipulators27FixedSizeElementManipulatorItED0Ev
+- __ZN4vega12manipulators27FixedSizeElementManipulatorItED1Ev
+- __ZN4vega12manipulators27FixedSizeElementManipulatorIxE9from_jsonERNSt3__118basic_stringstreamIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
+- __ZN4vega12manipulators27FixedSizeElementManipulatorIxE9raw_valueEv
+- __ZN4vega12manipulators27FixedSizeElementManipulatorIxE9read_fromEPNS_5dicom9RawReaderEm
+- __ZN4vega12manipulators27FixedSizeElementManipulatorIyE9from_jsonERNSt3__118basic_stringstreamIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
+- __ZN4vega12manipulators27FixedSizeElementManipulatorIyE9raw_valueEv
+- __ZN4vega12manipulators27FixedSizeElementManipulatorIyE9read_fromEPNS_5dicom9RawReaderEm
+- __ZN4vega12manipulators27UniqueIdentifierManipulator3uidEv
+- __ZN4vega12manipulators27UniqueIdentifierManipulator9from_jsonERNSt3__118basic_stringstreamIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+- __ZN4vega12manipulators27UniqueIdentifierManipulator9from_jsonERNSt3__118basic_stringstreamIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE.cold.1
+- __ZN4vega12manipulators27UniqueIdentifierManipulator9from_jsonERNSt3__118basic_stringstreamIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE.cold.2
+- __ZN4vega12manipulators27UniqueIdentifierManipulator9raw_valueEv
+- __ZN4vega12manipulators27UniqueIdentifierManipulator9read_fromEPNS_5dicom9RawReaderEm
+- __ZN4vega12manipulators27UniqueIdentifierManipulatorC1ENSt3__110shared_ptrINS_5dicom8RawValueEEE
+- __ZN4vega12manipulators27UniqueIdentifierManipulatorC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+- __ZN4vega12manipulators27UniqueIdentifierManipulatorC1Ev
+- __ZN4vega12manipulators27UniqueIdentifierManipulatorC2ENSt3__110shared_ptrINS_5dicom8RawValueEEE
+- __ZN4vega12manipulators27UniqueIdentifierManipulatorC2ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+- __ZN4vega12manipulators27UniqueIdentifierManipulatorC2Ev
+- __ZN4vega12manipulators27UniqueIdentifierManipulatorD0Ev
+- __ZN4vega12manipulators27UniqueIdentifierManipulatorD1Ev
+- __ZN4vega12manipulators27UnsignedVeryLongManipulator12allowed_sizeEm
+- __ZN4vega12manipulators27UnsignedVeryLongManipulatorD0Ev
+- __ZN4vega12manipulators27UnsignedVeryLongManipulatorD1Ev
+- __ZN4vega12manipulators28ApplicationEntityManipulatorD0Ev
+- __ZN4vega12manipulators28ApplicationEntityManipulatorD1Ev
+- __ZN4vega12manipulators30FloatingPointDoubleManipulator12allowed_sizeEm
+- __ZN4vega12manipulators30FloatingPointDoubleManipulatorD0Ev
+- __ZN4vega12manipulators30FloatingPointDoubleManipulatorD1Ev
+- __ZN4vega12manipulators32EncapsulatedPixelDataManipulator9allows_vrERKNS_2VRE
+- __ZN4vega12manipulators32EncapsulatedPixelDataManipulator9allows_vrERKNS_2VRE.cold.1
+- __ZN4vega12manipulators32EncapsulatedPixelDataManipulator9allows_vrERKNS_2VRE.cold.2
+- __ZN4vega12manipulators32EncapsulatedPixelDataManipulator9from_jsonERNSt3__118basic_stringstreamIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+- __ZN4vega12manipulators32EncapsulatedPixelDataManipulator9raw_valueEv
+- __ZN4vega12manipulators32EncapsulatedPixelDataManipulator9read_fromEPNS_5dicom9RawReaderEm
+- __ZN4vega12manipulators32EncapsulatedPixelDataManipulatorD0Ev
+- __ZN4vega12manipulators32EncapsulatedPixelDataManipulatorD1Ev
+- __ZN4vega15manipulator_forERKNS_5dicom11DataElementE
+- __ZN4vega18get_machine_endianEv
+- __ZN4vega2VM8get_pairERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+- __ZN4vega2VM9MAX_LIMITE
+- __ZN4vega2VMC1ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators15DateManipulatorEEC1ERKS0_
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators15DateManipulatorEEC2ERKS0_
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators15DateManipulatorEED0Ev
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators15DateManipulatorEED1Ev
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators15TimeManipulatorEEC1ERKS0_
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators15TimeManipulatorEEC2ERKS0_
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators15TimeManipulatorEED0Ev
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators15TimeManipulatorEED1Ev
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators20OtherByteManipulatorEEC1ERKS0_
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators20OtherByteManipulatorEEC2ERKS0_
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators20OtherByteManipulatorEED0Ev
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators20OtherByteManipulatorEED1Ev
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators20OtherWordManipulatorEEC1ERKS0_
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators20OtherWordManipulatorEEC2ERKS0_
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators20OtherWordManipulatorEED0Ev
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators20OtherWordManipulatorEED1Ev
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators21CodeStringManipulatorEEC1ERKS0_
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators21CodeStringManipulatorEEC2ERKS0_
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators21CodeStringManipulatorEED0Ev
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators21CodeStringManipulatorEED1Ev
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators21LongStringManipulatorEEC1ERKS0_
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators21LongStringManipulatorEEC2ERKS0_
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators21LongStringManipulatorEED0Ev
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators21LongStringManipulatorEED1Ev
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators21PersonNameManipulatorEEC1ERKS0_
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators21PersonNameManipulatorEEC2ERKS0_
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators21PersonNameManipulatorEED0Ev
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators21PersonNameManipulatorEED1Ev
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators22SignedShortManipulatorEEC1ERKS0_
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators22SignedShortManipulatorEEC2ERKS0_
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators22SignedShortManipulatorEED0Ev
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators22SignedShortManipulatorEED1Ev
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators23UnsignedLongManipulatorEEC1ERKS0_
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators23UnsignedLongManipulatorEEC2ERKS0_
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators23UnsignedLongManipulatorEED0Ev
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators23UnsignedLongManipulatorEED1Ev
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators24DecimalStringManipulatorEEC1ERKS0_
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators24DecimalStringManipulatorEEC2ERKS0_
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators24DecimalStringManipulatorEED0Ev
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators24DecimalStringManipulatorEED1Ev
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators24IntegerStringManipulatorEEC1ERKS0_
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators24IntegerStringManipulatorEEC2ERKS0_
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators24IntegerStringManipulatorEED0Ev
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators24IntegerStringManipulatorEED1Ev
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators24UnsignedShortManipulatorEEC1ERKS0_
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators24UnsignedShortManipulatorEEC2ERKS0_
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators24UnsignedShortManipulatorEED0Ev
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators24UnsignedShortManipulatorEED1Ev
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators27UniqueIdentifierManipulatorEEC1ERKS0_
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators27UniqueIdentifierManipulatorEEC2ERKS0_
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators27UniqueIdentifierManipulatorEED0Ev
+- __ZN4vega2VR23InvalidValueManipulatorINS_12manipulators27UniqueIdentifierManipulatorEED1Ev
+- __ZN4vega2vr15parse_vr_stringENSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+- __ZN4vega2vr15parse_vr_stringENSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE.cold.1
+- __ZN4vega2vr24manipulator_is_valid_forINS_12manipulators15DateManipulatorEEEbt
+- __ZN4vega2vr24manipulator_is_valid_forINS_12manipulators15TimeManipulatorEEEbt
+- __ZN4vega2vr24manipulator_is_valid_forINS_12manipulators20OtherByteManipulatorEEEbt
+- __ZN4vega2vr24manipulator_is_valid_forINS_12manipulators20OtherWordManipulatorEEEbt
+- __ZN4vega2vr24manipulator_is_valid_forINS_12manipulators21CodeStringManipulatorEEEbt
+- __ZN4vega2vr24manipulator_is_valid_forINS_12manipulators21LongStringManipulatorEEEbt
+- __ZN4vega2vr24manipulator_is_valid_forINS_12manipulators21PersonNameManipulatorEEEbt
+- __ZN4vega2vr24manipulator_is_valid_forINS_12manipulators22SignedShortManipulatorEEEbt
+- __ZN4vega2vr24manipulator_is_valid_forINS_12manipulators23UnsignedLongManipulatorEEEbt
+- __ZN4vega2vr24manipulator_is_valid_forINS_12manipulators24DecimalStringManipulatorEEEbt
+- __ZN4vega2vr24manipulator_is_valid_forINS_12manipulators24IntegerStringManipulatorEEEbt
+- __ZN4vega2vr24manipulator_is_valid_forINS_12manipulators24UnsignedShortManipulatorEEEbt
+- __ZN4vega2vr24manipulator_is_valid_forINS_12manipulators27UniqueIdentifierManipulatorEEEbt
+- __ZN4vega2vrL2AEEv
+- __ZN4vega2vrL2AEEv.cold.1
+- __ZN4vega2vrL2ASEv
+- __ZN4vega2vrL2ASEv.cold.1
+- __ZN4vega2vrL2ATEv
+- __ZN4vega2vrL2ATEv.cold.1
+- __ZN4vega2vrL2CSEv
+- __ZN4vega2vrL2CSEv.cold.1
+- __ZN4vega2vrL2DAEv
+- __ZN4vega2vrL2DAEv.cold.1
+- __ZN4vega2vrL2DSEv
+- __ZN4vega2vrL2DSEv.cold.1
+- __ZN4vega2vrL2DTEv
+- __ZN4vega2vrL2DTEv.cold.1
+- __ZN4vega2vrL2FDEv
+- __ZN4vega2vrL2FDEv.cold.1
+- __ZN4vega2vrL2FLEv
+- __ZN4vega2vrL2FLEv.cold.1
+- __ZN4vega2vrL2ISEv
+- __ZN4vega2vrL2ISEv.cold.1
+- __ZN4vega2vrL2LOEv
+- __ZN4vega2vrL2LOEv.cold.1
+- __ZN4vega2vrL2LTEv
+- __ZN4vega2vrL2LTEv.cold.1
+- __ZN4vega2vrL2OBEv
+- __ZN4vega2vrL2OBEv.cold.1
+- __ZN4vega2vrL2ODEv
+- __ZN4vega2vrL2ODEv.cold.1
+- __ZN4vega2vrL2OFEv
+- __ZN4vega2vrL2OFEv.cold.1
+- __ZN4vega2vrL2OWEv
+- __ZN4vega2vrL2OWEv.cold.1
+- __ZN4vega2vrL2PNEv
+- __ZN4vega2vrL2PNEv.cold.1
+- __ZN4vega2vrL2SHEv
+- __ZN4vega2vrL2SHEv.cold.1
+- __ZN4vega2vrL2SLEv
+- __ZN4vega2vrL2SLEv.cold.1
+- __ZN4vega2vrL2SSEv
+- __ZN4vega2vrL2SSEv.cold.1
+- __ZN4vega2vrL2STEv
+- __ZN4vega2vrL2STEv.cold.1
+- __ZN4vega2vrL2SVEv
+- __ZN4vega2vrL2SVEv.cold.1
+- __ZN4vega2vrL2TMEv
+- __ZN4vega2vrL2TMEv.cold.1
+- __ZN4vega2vrL2UIEv
+- __ZN4vega2vrL2UIEv.cold.1
+- __ZN4vega2vrL2ULEv
+- __ZN4vega2vrL2ULEv.cold.1
+- __ZN4vega2vrL2UNEv
+- __ZN4vega2vrL2UNEv.cold.1
+- __ZN4vega2vrL2USEv
+- __ZN4vega2vrL2USEv.cold.1
+- __ZN4vega2vrL2UTEv
+- __ZN4vega2vrL2UTEv.cold.1
+- __ZN4vega2vrL2UVEv
+- __ZN4vega2vrL2UVEv.cold.1
+- __ZN4vega3AgeC1ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+- __ZN4vega3AgeC1Ev
+- __ZN4vega3AgeC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+- __ZN4vega3Tag10PIXEL_DATAE
+- __ZN4vega3Tag16SEQ_DELIMITATIONE
+- __ZN4vega3Tag4ITEME
+- __ZN4vega3Tag5groupEv
+- __ZN4vega3Tag7elementEv
+- __ZN4vega3UID24IMPLEMENTATION_CLASS_UIDEv
+- __ZN4vega3UID4BASEEv
+- __ZN4vega3UID8generateEt
+- __ZN4vega3UID9timestampEv
+- __ZN4vega4Date10set_stringERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+- __ZN4vega4Date11RANGE_REGEXEv
+- __ZN4vega4Date12SINGLE_REGEXEv
+- __ZN4vega4Date23read_single_string_fromERNSt3__113basic_istreamIcNS1_11char_traitsIcEEEE
+- __ZN4vega4DateC1ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+- __ZN4vega4DateC1Ev
+- __ZN4vega4DateC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+- __ZN4vega4DateC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE.cold.1
+- __ZN4vega4DateD1Ev
+- __ZN4vega4Json13value_to_jsonINS_3AgeEEEvRNS_9FormatterERKT_
+- __ZN4vega4Json13value_to_jsonINS_3TagEEEvRNS_9FormatterERKT_
+- __ZN4vega4Json13value_to_jsonINS_4DateEEEvRNS_9FormatterERKT_
+- __ZN4vega4Json13value_to_jsonINS_4TimeEEEvRNS_9FormatterERKT_
+- __ZN4vega4Json13value_to_jsonINS_8DateTimeEEEvRNS_9FormatterERKT_
+- __ZN4vega4Json13value_to_jsonIdEEvRNS_9FormatterERKT_
+- __ZN4vega4Json13value_to_jsonIfEEvRNS_9FormatterERKT_
+- __ZN4vega4Json13value_to_jsonIsEEvRNS_9FormatterERKT_
+- __ZN4vega4Json13value_to_jsonIxEEvRNS_9FormatterERKT_
+- __ZN4vega4Json13value_to_jsonIyEEvRNS_9FormatterERKT_
+- __ZN4vega4Json15value_from_jsonINS_3AgeEEET_RNSt3__118basic_stringstreamIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
+- __ZN4vega4Json15value_from_jsonINS_3AgeEEET_RNSt3__118basic_stringstreamIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE.cold.1
+- __ZN4vega4Json15value_from_jsonINS_3AgeEEET_RNSt3__118basic_stringstreamIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE.cold.2
+- __ZN4vega4Json15value_from_jsonINS_3TagEEET_RNSt3__118basic_stringstreamIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
+- __ZN4vega4Json15value_from_jsonINS_3TagEEET_RNSt3__118basic_stringstreamIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE.cold.1
+- __ZN4vega4Json15value_from_jsonINS_3TagEEET_RNSt3__118basic_stringstreamIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE.cold.2
+- __ZN4vega4Json15value_from_jsonINS_4DateEEET_RNSt3__118basic_stringstreamIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
+- __ZN4vega4Json15value_from_jsonINS_4TimeEEET_RNSt3__118basic_stringstreamIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
+- __ZN4vega4Json15value_from_jsonINS_8DateTimeEEET_RNSt3__118basic_stringstreamIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
+- __ZN4vega4Json15value_from_jsonIdEET_RNSt3__118basic_stringstreamIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
+- __ZN4vega4Json15value_from_jsonIdEET_RNSt3__118basic_stringstreamIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE.cold.1
+- __ZN4vega4Json15value_from_jsonIdEET_RNSt3__118basic_stringstreamIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE.cold.2
+- __ZN4vega4Json15value_from_jsonIfEET_RNSt3__118basic_stringstreamIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
+- __ZN4vega4Json15value_from_jsonIfEET_RNSt3__118basic_stringstreamIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE.cold.1
+- __ZN4vega4Json15value_from_jsonIfEET_RNSt3__118basic_stringstreamIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE.cold.2
+- __ZN4vega4Json15value_from_jsonIsEET_RNSt3__118basic_stringstreamIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
+- __ZN4vega4Json15value_from_jsonIsEET_RNSt3__118basic_stringstreamIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE.cold.1
+- __ZN4vega4Json15value_from_jsonIsEET_RNSt3__118basic_stringstreamIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE.cold.2
+- __ZN4vega4Json15value_from_jsonIxEET_RNSt3__118basic_stringstreamIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
+- __ZN4vega4Json15value_from_jsonIxEET_RNSt3__118basic_stringstreamIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE.cold.1
+- __ZN4vega4Json15value_from_jsonIxEET_RNSt3__118basic_stringstreamIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE.cold.2
+- __ZN4vega4Json15value_from_jsonIyEET_RNSt3__118basic_stringstreamIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
+- __ZN4vega4Json15value_from_jsonIyEET_RNSt3__118basic_stringstreamIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE.cold.1
+- __ZN4vega4Json15value_from_jsonIyEET_RNSt3__118basic_stringstreamIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE.cold.2
+- __ZN4vega4Json7to_jsonINS_12manipulators23PaddedStringManipulatorINS_3AgeEEELPS5_0EEEvRNS_9FormatterERKT_
+- __ZN4vega4Json7to_jsonINS_12manipulators23PaddedStringManipulatorINS_4DateEEELPS5_0EEEvRNS_9FormatterERKT_
+- __ZN4vega4Json7to_jsonINS_12manipulators23PaddedStringManipulatorINS_4TimeEEELPS5_0EEEvRNS_9FormatterERKT_
+- __ZN4vega4Json7to_jsonINS_12manipulators23PaddedStringManipulatorINS_8DateTimeEEELPS5_0EEEvRNS_9FormatterERKT_
+- __ZN4vega4Json7to_jsonINS_12manipulators27FixedSizeElementManipulatorINS_3TagEEELPS5_0EEEvRNS_9FormatterERKT_
+- __ZN4vega4Json7to_jsonINS_12manipulators27FixedSizeElementManipulatorIdEELPS4_0EEEvRNS_9FormatterERKT_
+- __ZN4vega4Json7to_jsonINS_12manipulators27FixedSizeElementManipulatorIfEELPS4_0EEEvRNS_9FormatterERKT_
+- __ZN4vega4Json7to_jsonINS_12manipulators27FixedSizeElementManipulatorIiEELPS4_0EEEvRNS_9FormatterERKT_
+- __ZN4vega4Json7to_jsonINS_12manipulators27FixedSizeElementManipulatorIsEELPS4_0EEEvRNS_9FormatterERKT_
+- __ZN4vega4Json7to_jsonINS_12manipulators27FixedSizeElementManipulatorIxEELPS4_0EEEvRNS_9FormatterERKT_
+- __ZN4vega4Json7to_jsonINS_12manipulators27FixedSizeElementManipulatorIyEELPS4_0EEEvRNS_9FormatterERKT_
+- __ZN4vega4Json9from_jsonIRNS_12manipulators23PaddedStringManipulatorINS_3AgeEEES4_EEvRNSt3__118basic_stringstreamIcNS7_11char_traitsIcEENS7_9allocatorIcEEEERT_
+- __ZN4vega4Json9from_jsonIRNS_12manipulators23PaddedStringManipulatorINS_4DateEEES4_EEvRNSt3__118basic_stringstreamIcNS7_11char_traitsIcEENS7_9allocatorIcEEEERT_
+- __ZN4vega4Json9from_jsonIRNS_12manipulators23PaddedStringManipulatorINS_4TimeEEES4_EEvRNSt3__118basic_stringstreamIcNS7_11char_traitsIcEENS7_9allocatorIcEEEERT_
+- __ZN4vega4Json9from_jsonIRNS_12manipulators23PaddedStringManipulatorINS_8DateTimeEEES4_EEvRNSt3__118basic_stringstreamIcNS7_11char_traitsIcEENS7_9allocatorIcEEEERT_
+- __ZN4vega4Json9from_jsonIRNS_12manipulators27FixedSizeElementManipulatorINS_3TagEEES4_EEvRNSt3__118basic_stringstreamIcNS7_11char_traitsIcEENS7_9allocatorIcEEEERT_
+- __ZN4vega4Json9from_jsonIRNS_12manipulators27FixedSizeElementManipulatorIdEEdEEvRNSt3__118basic_stringstreamIcNS6_11char_traitsIcEENS6_9allocatorIcEEEERT_
+- __ZN4vega4Json9from_jsonIRNS_12manipulators27FixedSizeElementManipulatorIfEEfEEvRNSt3__118basic_stringstreamIcNS6_11char_traitsIcEENS6_9allocatorIcEEEERT_
+- __ZN4vega4Json9from_jsonIRNS_12manipulators27FixedSizeElementManipulatorIiEEiEEvRNSt3__118basic_stringstreamIcNS6_11char_traitsIcEENS6_9allocatorIcEEEERT_
+- __ZN4vega4Json9from_jsonIRNS_12manipulators27FixedSizeElementManipulatorIsEEsEEvRNSt3__118basic_stringstreamIcNS6_11char_traitsIcEENS6_9allocatorIcEEEERT_
+- __ZN4vega4Json9from_jsonIRNS_12manipulators27FixedSizeElementManipulatorIxEExEEvRNSt3__118basic_stringstreamIcNS6_11char_traitsIcEENS6_9allocatorIcEEEERT_
+- __ZN4vega4Json9from_jsonIRNS_12manipulators27FixedSizeElementManipulatorIyEEyEEvRNSt3__118basic_stringstreamIcNS6_11char_traitsIcEENS6_9allocatorIcEEEERT_
+- __ZN4vega4Time10set_stringERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+- __ZN4vega4Time11RANGE_REGEXEv
+- __ZN4vega4Time12SINGLE_REGEXEv
+- __ZN4vega4Time23read_single_string_fromERNSt3__113basic_istreamIcNS1_11char_traitsIcEEEE
+- __ZN4vega4TimeC1ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+- __ZN4vega4TimeC1Ev
+- __ZN4vega4TimeC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+- __ZN4vega4TimeC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE.cold.1
+- __ZN4vega4TimeD1Ev
+- __ZN4vega4math8popcountEy
+- __ZN4vega5dicom11DataElement15get_manipulatorINS_12manipulators15DateManipulatorEEENSt3__110shared_ptrIT_EEv
+- __ZN4vega5dicom11DataElement15get_manipulatorINS_12manipulators15TimeManipulatorEEENSt3__110shared_ptrIT_EEv
+- __ZN4vega5dicom11DataElement15get_manipulatorINS_12manipulators20OtherByteManipulatorEEENSt3__110shared_ptrIT_EEv
+- __ZN4vega5dicom11DataElement15get_manipulatorINS_12manipulators20OtherWordManipulatorEEENSt3__110shared_ptrIT_EEv
+- __ZN4vega5dicom11DataElement15get_manipulatorINS_12manipulators21CodeStringManipulatorEEENSt3__110shared_ptrIT_EEv
+- __ZN4vega5dicom11DataElement15get_manipulatorINS_12manipulators21LongStringManipulatorEEENSt3__110shared_ptrIT_EEv
+- __ZN4vega5dicom11DataElement15get_manipulatorINS_12manipulators21PersonNameManipulatorEEENSt3__110shared_ptrIT_EEv
+- __ZN4vega5dicom11DataElement15get_manipulatorINS_12manipulators22SignedShortManipulatorEEENSt3__110shared_ptrIT_EEv
+- __ZN4vega5dicom11DataElement15get_manipulatorINS_12manipulators23UnsignedLongManipulatorEEENSt3__110shared_ptrIT_EEv
+- __ZN4vega5dicom11DataElement15get_manipulatorINS_12manipulators24DecimalStringManipulatorEEENSt3__110shared_ptrIT_EEv
+- __ZN4vega5dicom11DataElement15get_manipulatorINS_12manipulators24IntegerStringManipulatorEEENSt3__110shared_ptrIT_EEv
+- __ZN4vega5dicom11DataElement15get_manipulatorINS_12manipulators24UnsignedShortManipulatorEEENSt3__110shared_ptrIT_EEv
+- __ZN4vega5dicom11DataElement15get_manipulatorINS_12manipulators27UniqueIdentifierManipulatorEEENSt3__110shared_ptrIT_EEv
+- __ZN4vega5dicom11DataElement15set_manipulatorINS_12manipulators16ValueManipulatorEEEvNSt3__110shared_ptrIT_EE
+- __ZN4vega5dicom11DataElement15set_manipulatorINS_12manipulators20OtherByteManipulatorEEEvNSt3__110shared_ptrIT_EE
+- __ZN4vega5dicom11DataElement15set_manipulatorINS_12manipulators21LongStringManipulatorEEEvNSt3__110shared_ptrIT_EE
+- __ZN4vega5dicom11DataElement15set_manipulatorINS_12manipulators23SingleStringManipulatorEEEvNSt3__110shared_ptrIT_EE
+- __ZN4vega5dicom11DataElement15set_manipulatorINS_12manipulators27UniqueIdentifierManipulatorEEEvNSt3__110shared_ptrIT_EE
+- __ZN4vega5dicom11DataElement15set_manipulatorINS_12manipulators32EncapsulatedPixelDataManipulatorEEEvNSt3__110shared_ptrIT_EE
+- __ZN4vega5dicom11DataElement15set_value_fieldERKNSt3__110shared_ptrINS0_6ReaderEEERKNS2_4fposI11__mbstate_tEE
+- __ZN4vega5dicom11DataElement2vrEv
+- __ZN4vega5dicom11DataElement3tagEv
+- __ZN4vega5dicom11DataElement6lengthEv
+- __ZN4vega5dicom11DataElement9data_setsEv
+- __ZN4vega5dicom11DataElementC1ERKNS_3TagENSt3__110shared_ptrINS0_7DataSetEEEb
+- __ZN4vega5dicom11DataElementC1ERKNS_3TagERKNS_2VRENSt3__110shared_ptrINS0_7DataSetEEE
+- __ZN4vega5dicom11DataElementC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS2_10shared_ptrINS0_7DataSetEEEb
+- __ZN4vega5dicom11DataElementC2ERKNS_3TagENSt3__110shared_ptrINS0_7DataSetEEEb
+- __ZN4vega5dicom11DataElementC2ERKNS_3TagERKNS_2VRENSt3__110shared_ptrINS0_7DataSetEEE
+- __ZN4vega5dicom11DataElementC2ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS2_10shared_ptrINS0_7DataSetEEEb
+- __ZN4vega5dicom14TransferSyntax15NAME_TO_UID_MAPEv
+- __ZN4vega5dicom14TransferSyntax22EXPLICIT_VR_BIG_ENDIANEv
+- __ZN4vega5dicom14TransferSyntax24generate_name_to_uid_mapEv
+- __ZN4vega5dicom14TransferSyntax25EXPLICIT_VR_LITTLE_ENDIANEv
+- __ZN4vega5dicom14TransferSyntax25IMPLICIT_VR_LITTLE_ENDIANEv
+- __ZN4vega5dicom14TransferSyntax34DEFLATED_EXPLICIT_VR_LITTLE_ENDIANEv
+- __ZN4vega5dicom14TransferSyntaxC2ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+- __ZN4vega5dicom17DataElementHeader16UNDEFINED_LENGTHE
+- __ZN4vega5dicom4File46trial_transfer_syntaxes_when_missing_file_metaEv
+- __ZN4vega5dicom4FileC1ENSt3__110shared_ptrINS2_13basic_istreamIcNS2_11char_traitsIcEEEEEEbb
+- __ZN4vega5dicom4FileC1ERKNS0_8SOPClassE
+- __ZN4vega5dicom4FileC2ENSt3__110shared_ptrINS2_13basic_istreamIcNS2_11char_traitsIcEEEEEEbb
+- __ZN4vega5dicom4FileC2ERKNS0_8SOPClassERKNS_3UIDE
+- __ZN4vega5dicom4FileD2Ev
+- __ZN4vega5dicom6Reader10raw_readerEv
+- __ZN4vega5dicom6Reader10seek_deltaENSt3__14fposI11__mbstate_tEE
+- __ZN4vega5dicom6Reader12ReadingErrorD0Ev
+- __ZN4vega5dicom6Reader12ReadingErrorD1Ev
+- __ZN4vega5dicom6Reader13read_data_setENSt3__110shared_ptrINS0_11DataElementEEEi
+- __ZN4vega5dicom6Reader15set_vr_explicitEb
+- __ZN4vega5dicom6Reader17read_data_elementENSt3__110shared_ptrINS0_7DataSetEEEi
+- __ZN4vega5dicom6Reader17read_data_elementENSt3__110shared_ptrINS0_7DataSetEEEi.cold.1
+- __ZN4vega5dicom6Reader20set_dicom_endiannessERKNS_6EndianE
+- __ZN4vega5dicom6Reader29read_data_element_value_fieldENSt3__110shared_ptrINS0_11DataElementEEEi
+- __ZN4vega5dicom6Reader33read_data_element_finite_sequenceENSt3__110shared_ptrINS0_11DataElementEEEi
+- __ZN4vega5dicom6Reader36read_data_element_undefined_sequenceENSt3__110shared_ptrINS0_11DataElementEEEi
+- __ZN4vega5dicom6Reader3eofEv
+- __ZN4vega5dicom6Reader4tellEv
+- __ZN4vega5dicom6Reader6rewindEv
+- __ZN4vega5dicom6Reader8seek_posENSt3__14fposI11__mbstate_tEE
+- __ZN4vega5dicom6ReaderC1ENSt3__110shared_ptrINS2_13basic_istreamIcNS2_11char_traitsIcEEEEEEbb
+- __ZN4vega5dicom6ReaderC2ENSt3__110shared_ptrINS2_13basic_istreamIcNS2_11char_traitsIcEEEEEEbb
+- __ZN4vega5dicom6Writer10raw_writerEv
+- __ZN4vega5dicom6Writer13write_elementENSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom6Writer14write_data_setENSt3__110shared_ptrINS0_7DataSetEEE
+- __ZN4vega5dicom6Writer15set_vr_explicitEb
+- __ZN4vega5dicom6Writer20set_dicom_endiannessERKNS_6EndianE
+- __ZN4vega5dicom6Writer4tellEv
+- __ZN4vega5dicom6Writer8seek_posENSt3__14fposI11__mbstate_tEE
+- __ZN4vega5dicom6WriterC1ENSt3__110shared_ptrINS2_13basic_ostreamIcNS2_11char_traitsIcEEEEEE
+- __ZN4vega5dicom6WriterC2ENSt3__110shared_ptrINS2_13basic_ostreamIcNS2_11char_traitsIcEEEEEE
+- __ZN4vega5dicom7DataSet11new_elementINS_10dictionary10BitsStoredEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet11new_elementINS_10dictionary10ICCProfileEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet11new_elementINS_10dictionary11PatientNameEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet11new_elementINS_10dictionary11SOPClassUIDEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet11new_elementINS_10dictionary12PixelData_OBEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet11new_elementINS_10dictionary13BitsAllocatedEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet11new_elementINS_10dictionary14AcquisitionUIDEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet11new_elementINS_10dictionary14NumberOfFramesEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet11new_elementINS_10dictionary14PrivateElementEEENSt3__110shared_ptrINS0_7ElementIT_EEEERKNS_3TagE
+- __ZN4vega5dicom7DataSet11new_elementINS_10dictionary14SOPInstanceUIDEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet11new_elementINS_10dictionary15SamplesPerPixelEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet11new_elementINS_10dictionary16StudyInstanceUIDEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet11new_elementINS_10dictionary17SeriesInstanceUIDEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet11new_elementINS_10dictionary17TransferSyntaxUIDEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet11new_elementINS_10dictionary19PixelRepresentationEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet11new_elementINS_10dictionary19PlanarConfigurationEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet11new_elementINS_10dictionary21LossyImageCompressionEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet11new_elementINS_10dictionary25PhotometricInterpretationEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet11new_elementINS_10dictionary4RowsEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet11new_elementINS_10dictionary7ColumnsEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet11new_elementINS_10dictionary7HighBitEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet11new_elementINS_10dictionary8ModalityEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet11new_elementINS_10dictionary9ImageTypeEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet12data_elementERKNS_3TagE
+- __ZN4vega5dicom7DataSet12data_elementERKNS_7TagMaskE
+- __ZN4vega5dicom7DataSet12data_elementERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+- __ZN4vega5dicom7DataSet16UNDEFINED_LENGTHE
+- __ZN4vega5dicom7DataSet16add_data_elementENSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7DataSet35add_private_owner_block_if_relevantENSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary10BitsStoredEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary10ColorSpaceEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary10ICCProfileEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary11PatientNameEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary11WindowWidthEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary12RescaleSlopeEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary12WindowCenterEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary13BitsAllocatedEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary14NumberOfFramesEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary14VOILUTFunctionEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary15SamplesPerPixelEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary15TypeOfPatientIDEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary16PixelAspectRatioEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary16RescaleInterceptEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary17IssuerOfPatientIDEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary17TransferSyntaxUIDEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary18InstanceCreatorUIDEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary19PixelRepresentationEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary19PlanarConfigurationEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary20InstanceCreationDateEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary20InstanceCreationTimeEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary20SpecificCharacterSetEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary25LargestImagePixelValue_SSEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary25LargestImagePixelValue_USEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary25PhotometricInterpretationEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary26SmallestImagePixelValue_SSEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary26SmallestImagePixelValue_USEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary30RedPaletteColorLookupTableDataEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary31BluePaletteColorLookupTableDataEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary32GreenPaletteColorLookupTableDataEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary39RedPaletteColorLookupTableDescriptor_SSEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary39RedPaletteColorLookupTableDescriptor_USEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary40BluePaletteColorLookupTableDescriptor_SSEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary40BluePaletteColorLookupTableDescriptor_USEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary41GreenPaletteColorLookupTableDescriptor_SSEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary41GreenPaletteColorLookupTableDescriptor_USEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary4RowsEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary7ColumnsEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary7HighBitEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary8ModalityEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary9ImageTypeEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet7elementINS_10dictionary9PatientIDEEENSt3__110shared_ptrINS0_7ElementIT_EEEEv
+- __ZN4vega5dicom7DataSet8iteratorC1ENSt3__114__map_iteratorINS3_15__tree_iteratorINS3_12__value_typeINS_3TagENS3_10shared_ptrINS0_11DataElementEEEEEPNS3_11__tree_nodeISB_PvEElEEEE
+- __ZN4vega5dicom7DataSet8iteratordeEv
+- __ZN4vega5dicom7DataSet8iteratorppEv
+- __ZN4vega5dicom7DataSetC1ENSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7DataSetC2ENSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary10BitsStoredEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary10BitsStoredEEC2Ev
+- __ZN4vega5dicom7ElementINS_10dictionary10ColorSpaceEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary10ICCProfileEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary10ICCProfileEEC2Ev
+- __ZN4vega5dicom7ElementINS_10dictionary11PatientNameEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary11PatientNameEEC2Ev
+- __ZN4vega5dicom7ElementINS_10dictionary11SOPClassUIDEEC2Ev
+- __ZN4vega5dicom7ElementINS_10dictionary11WindowWidthEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary12PixelData_OBEEC2Ev
+- __ZN4vega5dicom7ElementINS_10dictionary12RescaleSlopeEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary12WindowCenterEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary13BitsAllocatedEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary13BitsAllocatedEEC2Ev
+- __ZN4vega5dicom7ElementINS_10dictionary14AcquisitionUIDEEC2Ev
+- __ZN4vega5dicom7ElementINS_10dictionary14NumberOfFramesEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary14NumberOfFramesEEC2Ev
+- __ZN4vega5dicom7ElementINS_10dictionary14PrivateElementEEC2ERKNS_3TagE
+- __ZN4vega5dicom7ElementINS_10dictionary14SOPInstanceUIDEEC2Ev
+- __ZN4vega5dicom7ElementINS_10dictionary14VOILUTFunctionEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary15SamplesPerPixelEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary15SamplesPerPixelEEC2Ev
+- __ZN4vega5dicom7ElementINS_10dictionary15TypeOfPatientIDEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary16PixelAspectRatioEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary16RescaleInterceptEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary16StudyInstanceUIDEEC2Ev
+- __ZN4vega5dicom7ElementINS_10dictionary17IssuerOfPatientIDEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary17SeriesInstanceUIDEEC2Ev
+- __ZN4vega5dicom7ElementINS_10dictionary17TransferSyntaxUIDEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary17TransferSyntaxUIDEEC2Ev
+- __ZN4vega5dicom7ElementINS_10dictionary18InstanceCreatorUIDEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary19PixelRepresentationEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary19PixelRepresentationEEC2Ev
+- __ZN4vega5dicom7ElementINS_10dictionary19PlanarConfigurationEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary19PlanarConfigurationEEC2Ev
+- __ZN4vega5dicom7ElementINS_10dictionary20InstanceCreationDateEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary20InstanceCreationTimeEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary20SpecificCharacterSetEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary21LossyImageCompressionEEC2Ev
+- __ZN4vega5dicom7ElementINS_10dictionary25LargestImagePixelValue_SSEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary25LargestImagePixelValue_USEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary25PhotometricInterpretationEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary25PhotometricInterpretationEEC2Ev
+- __ZN4vega5dicom7ElementINS_10dictionary26SmallestImagePixelValue_SSEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary26SmallestImagePixelValue_USEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary30RedPaletteColorLookupTableDataEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary31BluePaletteColorLookupTableDataEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary32GreenPaletteColorLookupTableDataEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary39RedPaletteColorLookupTableDescriptor_SSEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary39RedPaletteColorLookupTableDescriptor_USEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary40BluePaletteColorLookupTableDescriptor_SSEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary40BluePaletteColorLookupTableDescriptor_USEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary41GreenPaletteColorLookupTableDescriptor_SSEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary41GreenPaletteColorLookupTableDescriptor_USEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary4RowsEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary4RowsEEC2Ev
+- __ZN4vega5dicom7ElementINS_10dictionary7ColumnsEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary7ColumnsEEC2Ev
+- __ZN4vega5dicom7ElementINS_10dictionary7HighBitEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary7HighBitEEC2Ev
+- __ZN4vega5dicom7ElementINS_10dictionary8ModalityEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary8ModalityEEC2Ev
+- __ZN4vega5dicom7ElementINS_10dictionary9ImageTypeEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7ElementINS_10dictionary9ImageTypeEEC2Ev
+- __ZN4vega5dicom7ElementINS_10dictionary9PatientIDEEC2ERKNSt3__110shared_ptrINS0_11DataElementEEE
+- __ZN4vega5dicom7IOState15set_vr_explicitEb
+- __ZN4vega5dicom7IOState20set_dicom_endiannessERKNS_6EndianE
+- __ZN4vega5dicom7IOStateC1Ev
+- __ZN4vega5dicom8FileMeta13fill_defaultsERKNS0_8SOPClassERKNS_3UIDE
+- __ZN4vega5dicom8FileMeta15InvalidFileMetaD0Ev
+- __ZN4vega5dicom8FileMeta15InvalidFileMetaD1Ev
+- __ZN4vega5dicom8FileMeta17TransferSyntaxUIDE
+- __ZN4vega5dicom8FileMeta19set_transfer_syntaxERKNS0_14TransferSyntaxE
+- __ZN4vega5dicom8FileMeta30FileMetaInformationGroupLengthE
+- __ZN4vega5dicom8FileMeta4readERNS0_6ReaderE
+- __ZN4vega5dicom8FileMeta5writeENSt3__110shared_ptrINS0_6WriterEEE
+- __ZN4vega5dicom8FileMetaC1ERKNS0_8SOPClassERKNS_3UIDE
+- __ZN4vega5dicom8FileMetaC1ERNS0_6ReaderE
+- __ZN4vega5dicom8FileMetaC2ERKNS0_8SOPClassERKNS_3UIDE
+- __ZN4vega5dicom8FileMetaC2ERNS0_6ReaderE
+- __ZN4vega5dicom8Preamble5writeENSt3__110shared_ptrINS0_6WriterEEE
+- __ZN4vega5dicom8PreambleC1ERNS0_6ReaderE
+- __ZN4vega5dicom8PreambleC1Ev
+- __ZN4vega5dicom8PreambleC2ERNS0_6ReaderE
+- __ZN4vega5dicom8RawValue3endEv
+- __ZN4vega5dicom8RawValue5beginEv
+- __ZN4vega5dicom8RawValueC1Em
+- __ZN4vega5dicom8SOPClass14NAME_UID_PAIRSEv
+- __ZN4vega5dicom8SOPClass15NAME_TO_UID_MAPEv
+- __ZN4vega5dicom8SOPClass15UID_TO_NAME_MAPEv
+- __ZN4vega5dicom8SOPClass24generate_name_to_uid_mapEv
+- __ZN4vega5dicom8SOPClass24generate_uid_to_name_mapEv
+- __ZN4vega5dicom8SOPClass3TAGE
+- __ZN4vega5dicom8SOPClassC1ERKNS_3UIDE
+- __ZN4vega5dicom8SOPClassC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+- __ZN4vega5dicom8SOPClassC1Ev
+- __ZN4vega5dicom8SOPClassC2ERKNS_3UIDE
+- __ZN4vega5dicom8SOPClassC2ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+- __ZN4vega5dicom8SOPClassC2Ev
+- __ZN4vega5dicom8SOPClassD1Ev
+- __ZN4vega5dicom8SOPClassD2Ev
+- __ZN4vega5dicom9RawReader10seek_deltaENSt3__14fposI11__mbstate_tEE
+- __ZN4vega5dicom9RawReader15set_vr_explicitEb
+- __ZN4vega5dicom9RawReader20set_dicom_endiannessERKNS_6EndianE
+- __ZN4vega5dicom9RawReader3eofEv
+- __ZN4vega5dicom9RawReader4tellEv
+- __ZN4vega5dicom9RawReader6rewindEv
+- __ZN4vega5dicom9RawReader8seek_posENSt3__14fposI11__mbstate_tEE
+- __ZN4vega5dicom9RawReader9read_intoINS_2VREEEbPT_
+- __ZN4vega5dicom9RawReader9read_intoINS_3TagEEEbPT_
+- __ZN4vega5dicom9RawReader9read_intoIdEEbPT_
+- __ZN4vega5dicom9RawReader9read_intoIfEEbPT_
+- __ZN4vega5dicom9RawReader9read_intoIiEEbPT_
+- __ZN4vega5dicom9RawReader9read_intoIsEEbPT_
+- __ZN4vega5dicom9RawReader9read_intoIxEEbPT_
+- __ZN4vega5dicom9RawReader9read_intoIyEEbPT_
+- __ZN4vega5dicom9RawReaderC1ENSt3__110shared_ptrINS2_13basic_istreamIcNS2_11char_traitsIcEEEEEE
+- __ZN4vega5dicom9RawReaderC2ENSt3__110shared_ptrINS2_13basic_istreamIcNS2_11char_traitsIcEEEEEE
+- __ZN4vega5dicom9RawWriter10write_fromINS_2VREEEmRKT_
+- __ZN4vega5dicom9RawWriter10write_fromINS_3TagEEEmRKT_
+- __ZN4vega5dicom9RawWriter10write_fromINSt3__111__wrap_iterIPKcEEEEmT_S8_
+- __ZN4vega5dicom9RawWriter10write_fromIdEEmRKT_
+- __ZN4vega5dicom9RawWriter10write_fromIfEEmRKT_
+- __ZN4vega5dicom9RawWriter10write_fromIiEEmRKT_
+- __ZN4vega5dicom9RawWriter10write_fromIsEEmRKT_
+- __ZN4vega5dicom9RawWriter10write_fromIxEEmRKT_
+- __ZN4vega5dicom9RawWriter10write_fromIyEEmRKT_
+- __ZN4vega5dicom9RawWriter12WritingErrorD0Ev
+- __ZN4vega5dicom9RawWriter12WritingErrorD1Ev
+- __ZN4vega5dicom9RawWriter15set_vr_explicitEb
+- __ZN4vega5dicom9RawWriter20set_dicom_endiannessERKNS_6EndianE
+- __ZN4vega5dicom9RawWriter4tellEv
+- __ZN4vega5dicom9RawWriter8seek_posENSt3__14fposI11__mbstate_tEE
+- __ZN4vega5dicom9RawWriterC1ENSt3__110shared_ptrINS2_13basic_ostreamIcNS2_11char_traitsIcEEEEEE
+- __ZN4vega5dicom9RawWriterC2ENSt3__110shared_ptrINS2_13basic_ostreamIcNS2_11char_traitsIcEEEEEE
+- __ZN4vega7MultiVR14InvalidMultiVRD0Ev
+- __ZN4vega7MultiVR14InvalidMultiVRD1Ev
+- __ZN4vega7MultiVRC1ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+- __ZN4vega7MultiVRC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+- __ZN4vega7RFC19517deflateERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+- __ZN4vega7RFC19517inflateERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+- __ZN4vega7TagMaskC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_
+- __ZN4vega7to_jsonINS_3AgeEEENSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKT_
+- __ZN4vega7to_jsonINS_3TagEEENSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKT_
+- __ZN4vega7to_jsonINS_4DateEEENSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKT_
+- __ZN4vega7to_jsonINS_4TimeEEENSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKT_
+- __ZN4vega7to_jsonINS_8DateTimeEEENSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKT_
+- __ZN4vega7to_jsonINSt3__118basic_stringstreamIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS_3AgeEEERT_SA_RKT0_
+- __ZN4vega7to_jsonINSt3__118basic_stringstreamIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS_3TagEEERT_SA_RKT0_
+- __ZN4vega7to_jsonINSt3__118basic_stringstreamIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS_4DateEEERT_SA_RKT0_
+- __ZN4vega7to_jsonINSt3__118basic_stringstreamIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS_4TimeEEERT_SA_RKT0_
+- __ZN4vega7to_jsonINSt3__118basic_stringstreamIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS_8DateTimeEEERT_SA_RKT0_
+- __ZN4vega7to_jsonIdEENSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKT_
+- __ZN4vega7to_jsonIfEENSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKT_
+- __ZN4vega7to_jsonIsEENSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKT_
+- __ZN4vega7to_jsonIxEENSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKT_
+- __ZN4vega7to_jsonIyEENSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKT_
+- __ZN4vega8DateTime10set_stringERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+- __ZN4vega8DateTime23read_single_string_fromERNSt3__113basic_istreamIcNS1_11char_traitsIcEEEE
+- __ZN4vega8DateTimeC1ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+- __ZN4vega8DateTimeC1Ev
+- __ZN4vega8DateTimeC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+- __ZN4vega8DateTimeC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE.cold.1
+- __ZN4vega8DateTimeD1Ev
+- __ZN4vega9Formatter6indentEv
+- __ZN4vega9Formatter7newlineEv
+- __ZN4vega9to_stringIdEENSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKT_
+- __ZN4vega9to_stringIfEENSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKT_
+- __ZN4vega9to_stringIsEENSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKT_
+- __ZN4vega9to_stringIxEENSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKT_
+- __ZN4vega9to_stringIyEENSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKT_
+- __ZN4vegalsERNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEERKNS_2VRE
+- __ZN4vegalsERNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEERKNS_3AgeE
+- __ZN4vegalsERNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEERKNS_3TagE
+- __ZN4vegalsERNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEERKNS_4DateE
+- __ZN4vegalsERNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEERKNS_4TimeE
+- __ZN4vegalsERNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEERKNS_4WordE
+- __ZN4vegalsERNSt3__113basic_ostreamIcNS0_11char_traitsIcEEEERKNS_8DateTimeE
+- __ZN4vegalsIA18_cEERNS_9FormatterES3_RKT_
+- __ZN4vegalsIA20_cEERNS_9FormatterES3_RKT_
+- __ZN4vegalsIA24_cEERNS_9FormatterES3_RKT_
+- __ZN4vegalsIA2_cEERNS_9FormatterES3_RKT_
+- __ZN4vegarsERNSt3__113basic_istreamIcNS0_11char_traitsIcEEEERNS_3AgeE
+- __ZN4vegarsERNSt3__113basic_istreamIcNS0_11char_traitsIcEEEERNS_3TagE
+- __ZN4vegarsERNSt3__113basic_istreamIcNS0_11char_traitsIcEEEERNS_3UIDE
+- __ZN4vegarsERNSt3__113basic_istreamIcNS0_11char_traitsIcEEEERNS_4DateE
+- __ZN4vegarsERNSt3__113basic_istreamIcNS0_11char_traitsIcEEEERNS_4TimeE
+- __ZN4vegarsERNSt3__113basic_istreamIcNS0_11char_traitsIcEEEERNS_8DateTimeE
+- __ZN6membuf7seekoffExNSt3__18ios_base7seekdirEj
+- __ZN6membuf7seekposENSt3__14fposI11__mbstate_tEEj
+- __ZNK4vega10dictionary10Dictionary13private_ownerERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+- __ZNK4vega10dictionary10Dictionary8page_forERKNS_3TagE
+- __ZNK4vega10dictionary10Dictionary8page_forERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+- __ZNK4vega10dictionary12PrivateOwner4nameEv
+- __ZNK4vega10dictionary12PrivateOwner9find_pageERKNS_3TagE
+- __ZNK4vega10dictionary17PrivateOwnerBlock12block_numberEv
+- __ZNK4vega10dictionary17PrivateOwnerBlock13private_ownerEv
+- __ZNK4vega10dictionary17PrivateOwnerBlock5groupEv
+- __ZNK4vega10dictionary18PrivateOwnerBlocks10find_blockERKNS_3TagE
+- __ZNK4vega10dictionary4Page13private_ownerEv
+- __ZNK4vega10dictionary4Page21determine_implicit_vrEv
+- __ZNK4vega10dictionary4Page4nameEv
+- __ZNK4vega10dictionary4Page8multi_vrEv
+- __ZNK4vega10dictionary4Page8tag_maskEv
+- __ZNK4vega10dictionary4Page9allows_vrERKNS_2VRE
+- __ZNK4vega11RegexString14validate_regexEv
+- __ZNK4vega11RegexString3strEv
+- __ZNK4vega12manipulators15DateManipulator12is_valid_forERKNS_2VRE
+- __ZNK4vega12manipulators15DateManipulator12is_valid_forERKNS_2VRE.cold.1
+- __ZNK4vega12manipulators15TimeManipulator12is_valid_forERKNS_2VRE
+- __ZNK4vega12manipulators15TimeManipulator12is_valid_forERKNS_2VRE.cold.1
+- __ZNK4vega12manipulators16ValueManipulatoreqERKS1_
+- __ZNK4vega12manipulators16ValueManipulatorneERKS1_
+- __ZNK4vega12manipulators18UnknownManipulator12is_valid_forERKNS_2VRE
+- __ZNK4vega12manipulators19DateTimeManipulator12is_valid_forERKNS_2VRE
+- __ZNK4vega12manipulators19LongTextManipulator12is_valid_forERKNS_2VRE
+- __ZNK4vega12manipulators19LongTextManipulator12is_valid_forERKNS_2VRE.cold.1
+- __ZNK4vega12manipulators20AgeStringManipulator12is_valid_forERKNS_2VRE
+- __ZNK4vega12manipulators20PixelDataManipulator12is_valid_forERKNS_2VRE
+- __ZNK4vega12manipulators21LongStringManipulator12is_valid_forERKNS_2VRE
+- __ZNK4vega12manipulators21LongStringManipulator12is_valid_forERKNS_2VRE.cold.1
+- __ZNK4vega12manipulators21OtherFloatManipulator12is_valid_forERKNS_2VRE
+- __ZNK4vega12manipulators21PersonNameManipulator12is_valid_forERKNS_2VRE
+- __ZNK4vega12manipulators21PersonNameManipulator12is_valid_forERKNS_2VRE.cold.1
+- __ZNK4vega12manipulators21SignedLongManipulator12is_valid_forERKNS_2VRE
+- __ZNK4vega12manipulators22OtherDoubleManipulator12is_valid_forERKNS_2VRE
+- __ZNK4vega12manipulators22ShortStringManipulator12is_valid_forERKNS_2VRE
+- __ZNK4vega12manipulators22SignedShortManipulator12is_valid_forERKNS_2VRE
+- __ZNK4vega12manipulators22SignedShortManipulator12is_valid_forERKNS_2VRE.cold.1
+- __ZNK4vega12manipulators23AttributeTagManipulator12is_valid_forERKNS_2VRE
+- __ZNK4vega12manipulators23PaddedStringManipulatorINS_3AgeEE3strEv
+- __ZNK4vega12manipulators23PaddedStringManipulatorINS_3AgeEE4jsonERNS_9FormatterE
+- __ZNK4vega12manipulators23PaddedStringManipulatorINS_3AgeEE8write_toEPNS_5dicom9RawWriterE
+- __ZNK4vega12manipulators23PaddedStringManipulatorINS_3AgeEEeqERKNS0_16ValueManipulatorE
+- __ZNK4vega12manipulators23PaddedStringManipulatorINS_3AgeEEneERKNS0_16ValueManipulatorE
+- __ZNK4vega12manipulators23PaddedStringManipulatorINS_4DateEE3strEv
+- __ZNK4vega12manipulators23PaddedStringManipulatorINS_4DateEE4jsonERNS_9FormatterE
+- __ZNK4vega12manipulators23PaddedStringManipulatorINS_4DateEE8write_toEPNS_5dicom9RawWriterE
+- __ZNK4vega12manipulators23PaddedStringManipulatorINS_4DateEEeqERKNS0_16ValueManipulatorE
+- __ZNK4vega12manipulators23PaddedStringManipulatorINS_4DateEEneERKNS0_16ValueManipulatorE
+- __ZNK4vega12manipulators23PaddedStringManipulatorINS_4TimeEE3strEv
+- __ZNK4vega12manipulators23PaddedStringManipulatorINS_4TimeEE4jsonERNS_9FormatterE
+- __ZNK4vega12manipulators23PaddedStringManipulatorINS_4TimeEE8write_toEPNS_5dicom9RawWriterE
+- __ZNK4vega12manipulators23PaddedStringManipulatorINS_4TimeEEeqERKNS0_16ValueManipulatorE
+- __ZNK4vega12manipulators23PaddedStringManipulatorINS_4TimeEEneERKNS0_16ValueManipulatorE
+- __ZNK4vega12manipulators23PaddedStringManipulatorINS_8DateTimeEE3strEv
+- __ZNK4vega12manipulators23PaddedStringManipulatorINS_8DateTimeEE4jsonERNS_9FormatterE
+- __ZNK4vega12manipulators23PaddedStringManipulatorINS_8DateTimeEE8write_toEPNS_5dicom9RawWriterE
+- __ZNK4vega12manipulators23PaddedStringManipulatorINS_8DateTimeEEeqERKNS0_16ValueManipulatorE
+- __ZNK4vega12manipulators23PaddedStringManipulatorINS_8DateTimeEEneERKNS0_16ValueManipulatorE
+- __ZNK4vega12manipulators24FloatingPointManipulator12is_valid_forERKNS_2VRE
+- __ZNK4vega12manipulators24UnlimitedTextManipulator12is_valid_forERKNS_2VRE
+- __ZNK4vega12manipulators25SignedVeryLongManipulator12is_valid_forERKNS_2VRE
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorINS_3TagEE3strEv
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorINS_3TagEE4jsonERNS_9FormatterE
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorINS_3TagEE8write_toEPNS_5dicom9RawWriterE
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorINS_3TagEEeqERKNS0_16ValueManipulatorE
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorINS_3TagEEneERKNS0_16ValueManipulatorE
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorIdE3strEv
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorIdE4jsonERNS_9FormatterE
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorIdE8write_toEPNS_5dicom9RawWriterE
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorIdEeqERKNS0_16ValueManipulatorE
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorIdEneERKNS0_16ValueManipulatorE
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorIfE3strEv
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorIfE4jsonERNS_9FormatterE
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorIfE8write_toEPNS_5dicom9RawWriterE
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorIfEeqERKNS0_16ValueManipulatorE
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorIfEneERKNS0_16ValueManipulatorE
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorIiE3strEv
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorIiE4jsonERNS_9FormatterE
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorIiE8write_toEPNS_5dicom9RawWriterE
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorIiEeqERKNS0_16ValueManipulatorE
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorIiEneERKNS0_16ValueManipulatorE
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorIsE3strEv
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorIsE4jsonERNS_9FormatterE
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorIsE8write_toEPNS_5dicom9RawWriterE
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorIsEeqERKNS0_16ValueManipulatorE
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorIsEneERKNS0_16ValueManipulatorE
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorIxE3strEv
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorIxE4jsonERNS_9FormatterE
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorIxE8write_toEPNS_5dicom9RawWriterE
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorIxEeqERKNS0_16ValueManipulatorE
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorIxEneERKNS0_16ValueManipulatorE
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorIyE3strEv
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorIyE4jsonERNS_9FormatterE
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorIyE8write_toEPNS_5dicom9RawWriterE
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorIyEeqERKNS0_16ValueManipulatorE
+- __ZNK4vega12manipulators27FixedSizeElementManipulatorIyEneERKNS0_16ValueManipulatorE
+- __ZNK4vega12manipulators27UniqueIdentifierManipulator12is_valid_forERKNS_2VRE
+- __ZNK4vega12manipulators27UniqueIdentifierManipulator12is_valid_forERKNS_2VRE.cold.1
+- __ZNK4vega12manipulators27UniqueIdentifierManipulator3strEv
+- __ZNK4vega12manipulators27UniqueIdentifierManipulator4jsonERNS_9FormatterE
+- __ZNK4vega12manipulators27UniqueIdentifierManipulator8write_toEPNS_5dicom9RawWriterE
+- __ZNK4vega12manipulators27UnsignedVeryLongManipulator12is_valid_forERKNS_2VRE
+- __ZNK4vega12manipulators28ApplicationEntityManipulator12is_valid_forERKNS_2VRE
+- __ZNK4vega12manipulators30FloatingPointDoubleManipulator12is_valid_forERKNS_2VRE
+- __ZNK4vega12manipulators32EncapsulatedPixelDataManipulator12is_valid_forERKNS_2VRE
+- __ZNK4vega12manipulators32EncapsulatedPixelDataManipulator3strEv
+- __ZNK4vega12manipulators32EncapsulatedPixelDataManipulator4jsonERNS_9FormatterE
+- __ZNK4vega12manipulators32EncapsulatedPixelDataManipulator8write_toEPNS_5dicom9RawWriterE
+- __ZNK4vega12manipulators32EncapsulatedPixelDataManipulatoreqERKNS0_16ValueManipulatorE
+- __ZNK4vega12manipulators32EncapsulatedPixelDataManipulatorneERKNS0_16ValueManipulatorE
+- __ZNK4vega13DecimalStringcvdEv
+- __ZNK4vega2VR11is_sequenceEv
+- __ZNK4vega2VR14is_combined_vrEv
+- __ZNK4vega2VR22needs_two_byte_paddingEv
+- __ZNK4vega2VR26validate_value_manipulatorINS_12manipulators15DateManipulatorEEEvv
+- __ZNK4vega2VR26validate_value_manipulatorINS_12manipulators15TimeManipulatorEEEvv
+- __ZNK4vega2VR26validate_value_manipulatorINS_12manipulators20OtherByteManipulatorEEEvv
+- __ZNK4vega2VR26validate_value_manipulatorINS_12manipulators20OtherWordManipulatorEEEvv
+- __ZNK4vega2VR26validate_value_manipulatorINS_12manipulators21CodeStringManipulatorEEEvv
+- __ZNK4vega2VR26validate_value_manipulatorINS_12manipulators21LongStringManipulatorEEEvv
+- __ZNK4vega2VR26validate_value_manipulatorINS_12manipulators21PersonNameManipulatorEEEvv
+- __ZNK4vega2VR26validate_value_manipulatorINS_12manipulators22SignedShortManipulatorEEEvv
+- __ZNK4vega2VR26validate_value_manipulatorINS_12manipulators23UnsignedLongManipulatorEEEvv
+- __ZNK4vega2VR26validate_value_manipulatorINS_12manipulators24DecimalStringManipulatorEEEvv
+- __ZNK4vega2VR26validate_value_manipulatorINS_12manipulators24IntegerStringManipulatorEEEvv
+- __ZNK4vega2VR26validate_value_manipulatorINS_12manipulators24UnsignedShortManipulatorEEEvv
+- __ZNK4vega2VR26validate_value_manipulatorINS_12manipulators27UniqueIdentifierManipulatorEEEvv
+- __ZNK4vega2VR3strEv
+- __ZNK4vega2VR4nameEv
+- __ZNK4vega2VR5validEv
+- __ZNK4vega2VR8long_strEv
+- __ZNK4vega2VRneERKS0_
+- __ZNK4vega3Age3strEv
+- __ZNK4vega3Tag10is_privateEv
+- __ZNK4vega3Tag11is_item_tagEv
+- __ZNK4vega3Tag12is_file_metaEv
+- __ZNK4vega3Tag16is_private_ownerEv
+- __ZNK4vega3Tag24is_item_delimitation_tagEv
+- __ZNK4vega3Tag28is_sequence_delimitation_tagEv
+- __ZNK4vega3Tag3strEv
+- __ZNK4vega3Tag3tagEv
+- __ZNK4vega3Tag5groupEv
+- __ZNK4vega3Tag7elementEv
+- __ZNK4vega3TageqERKS0_
+- __ZNK4vega3TagltERKS0_
+- __ZNK4vega3TagneERKS0_
+- __ZNK4vega3UIDeqERKS0_
+- __ZNK4vega3UIDneERKS0_
+- __ZNK4vega4Date3strEv
+- __ZNK4vega4Time3strEv
+- __ZNK4vega5dicom11DataElement11is_sequenceEv
+- __ZNK4vega5dicom11DataElement16read_value_fieldERKNSt3__110shared_ptrINS0_6ReaderEEE
+- __ZNK4vega5dicom11DataElement19is_undefined_lengthEv
+- __ZNK4vega5dicom11DataElement20read_finite_sequenceERKNSt3__110shared_ptrINS0_6ReaderEEE
+- __ZNK4vega5dicom11DataElement20validate_manipulatorINS_12manipulators16ValueManipulatorEEEvRKT_
+- __ZNK4vega5dicom11DataElement20validate_manipulatorINS_12manipulators20OtherByteManipulatorEEEvRKT_
+- __ZNK4vega5dicom11DataElement20validate_manipulatorINS_12manipulators21LongStringManipulatorEEEvRKT_
+- __ZNK4vega5dicom11DataElement20validate_manipulatorINS_12manipulators23SingleStringManipulatorEEEvRKT_
+- __ZNK4vega5dicom11DataElement20validate_manipulatorINS_12manipulators27UniqueIdentifierManipulatorEEEvRKT_
+- __ZNK4vega5dicom11DataElement20validate_manipulatorINS_12manipulators32EncapsulatedPixelDataManipulatorEEEvRKT_
+- __ZNK4vega5dicom11DataElement2vrEv
+- __ZNK4vega5dicom11DataElement3strEv
+- __ZNK4vega5dicom11DataElement3tagEv
+- __ZNK4vega5dicom11DataElement4pageEv
+- __ZNK4vega5dicom11DataElement9lazy_loadEv
+- __ZNK4vega5dicom14TransferSyntax10endiannessEv
+- __ZNK4vega5dicom14TransferSyntax10is_deflateEv
+- __ZNK4vega5dicom14TransferSyntax14is_explicit_vrEv
+- __ZNK4vega5dicom14TransferSyntax4nameEv
+- __ZNK4vega5dicom17DataElementHeader19is_undefined_lengthEv
+- __ZNK4vega5dicom4File5writeENSt3__110shared_ptrINS2_13basic_ostreamIcNS2_11char_traitsIcEEEEEE
+- __ZNK4vega5dicom4File8data_setEv
+- __ZNK4vega5dicom4File9file_metaEv
+- __ZNK4vega5dicom6Reader11vr_explicitEv
+- __ZNK4vega5dicom6Reader12dicom_endianEv
+- __ZNK4vega5dicom6Writer11vr_explicitEv
+- __ZNK4vega5dicom6Writer12dicom_endianEv
+- __ZNK4vega5dicom7DataSet19is_undefined_lengthEv
+- __ZNK4vega5dicom7DataSet4sizeEv
+- __ZNK4vega5dicom7DataSet8iteratorneERKS2_
+- __ZNK4vega5dicom7DataSet8page_forERKNS_3TagE
+- __ZNK4vega5dicom7DataSet8page_forERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+- __ZNK4vega5dicom7IOState11vr_explicitEv
+- __ZNK4vega5dicom7IOState12dicom_endianEv
+- __ZNK4vega5dicom8FileMeta15transfer_syntaxEv
+- __ZNK4vega5dicom8FileMeta22transfer_syntax_endianEv
+- __ZNK4vega5dicom8FileMeta27transfer_syntax_vr_explicitEv
+- __ZNK4vega5dicom8FileMeta7presentEv
+- __ZNK4vega5dicom8RawValue3strEv
+- __ZNK4vega5dicom8SOPClass3uidEv
+- __ZNK4vega5dicom9RawReader11vr_explicitEv
+- __ZNK4vega5dicom9RawReader12dicom_endianEv
+- __ZNK4vega5dicom9RawReader7eof_posEv
+- __ZNK4vega5dicom9RawWriter11vr_explicitEv
+- __ZNK4vega5dicom9RawWriter12dicom_endianEv
+- __ZNK4vega7MultiVR12to_single_vrEv
+- __ZNK4vega7MultiVR12to_single_vrEv.cold.1
+- __ZNK4vega7MultiVR3vrsEv
+- __ZNK4vega7MultiVR6singleEv
+- __ZNK4vega7MultiVR8containsERKNS_2VRE
+- __ZNK4vega7TagMask10is_privateEv
+- __ZNK4vega7TagMask12singular_tagEv
+- __ZNK4vega7TagMask8containsERKNS_3TagE
+- __ZNK4vega8DateTime3strEv
+- __ZNKSt3__110__back_refIcE6__execERNS_7__stateIcEE
+- __ZNKSt3__111__alternateIcE12__exec_splitEbRNS_7__stateIcEE
+- __ZNKSt3__111__alternateIcE6__execERNS_7__stateIcEE
+- __ZNKSt3__111__copy_implclB8ne200100IPKN4vega4ByteES5_NS_20back_insert_iteratorINS2_12manipulators27FixedSizeElementManipulatorIS3_EEEEEENS_4pairIT_T1_EESC_T0_SD_
+- __ZNKSt3__111__copy_implclB8ne200100IPKN4vega4WordES5_NS_20back_insert_iteratorINS2_12manipulators27FixedSizeElementManipulatorIS3_EEEEEENS_4pairIT_T1_EESC_T0_SD_
+- __ZNKSt3__111__copy_implclB8ne200100IPKjS3_NS_20back_insert_iteratorIN4vega12manipulators27FixedSizeElementManipulatorIjEEEEEENS_4pairIT_T1_EESB_T0_SC_
+- __ZNKSt3__111__copy_implclB8ne200100IPKsS3_NS_20back_insert_iteratorIN4vega12manipulators27FixedSizeElementManipulatorIsEEEEEENS_4pairIT_T1_EESB_T0_SC_
+- __ZNKSt3__111__copy_implclB8ne200100IPKtS3_NS_20back_insert_iteratorIN4vega12manipulators27FixedSizeElementManipulatorItEEEEEENS_4pairIT_T1_EESB_T0_SC_
+- __ZNKSt3__111__end_stateIcE6__execERNS_7__stateIcEE
+- __ZNKSt3__111__lookaheadIcNS_12regex_traitsIcEEE6__execERNS_7__stateIcEE
+- __ZNKSt3__111__match_anyIcE6__execERNS_7__stateIcEE
+- __ZNKSt3__111basic_regexIcNS_12regex_traitsIcEEE16__match_at_startINS_9allocatorINS_9sub_matchIPKcEEEEEEbS8_S8_RNS_13match_resultsIS8_T_EENS_15regex_constants15match_flag_typeEb
+- __ZNKSt3__111basic_regexIcNS_12regex_traitsIcEEE21__match_at_start_ecmaINS_9allocatorINS_9sub_matchIPKcEEEEEEbS8_S8_RNS_13match_resultsIS8_T_EENS_15regex_constants15match_flag_typeEb
+- __ZNKSt3__111basic_regexIcNS_12regex_traitsIcEEE27__match_at_start_posix_subsINS_9allocatorINS_9sub_matchIPKcEEEEEEbS8_S8_RNS_13match_resultsIS8_T_EENS_15regex_constants15match_flag_typeEb
+- __ZNKSt3__111basic_regexIcNS_12regex_traitsIcEEE29__match_at_start_posix_nosubsINS_9allocatorINS_9sub_matchIPKcEEEEEEbS8_S8_RNS_13match_resultsIS8_T_EENS_15regex_constants15match_flag_typeEb
+- __ZNKSt3__111basic_regexIcNS_12regex_traitsIcEEE8__searchINS_9allocatorINS_9sub_matchIPKcEEEEEEbS8_S8_RNS_13match_resultsIS8_T_EENS_15regex_constants15match_flag_typeE
+- __ZNKSt3__112__match_charIcE6__execERNS_7__stateIcEE
+- __ZNKSt3__112regex_traitsIcE18__lookup_classnameIPKcEEjT_S5_bc
+- __ZNKSt3__112regex_traitsIcE19__transform_primaryINS_11__wrap_iterIPcEEEENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEET_SC_c
+- __ZNKSt3__112regex_traitsIcE19__transform_primaryIPcEENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEET_SA_c
+- __ZNKSt3__112regex_traitsIcE20__lookup_collatenameIPKcEENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEET_SB_c
+- __ZNKSt3__112regex_traitsIcE20__lookup_collatenameIPcEENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEET_SA_c
+- __ZNKSt3__112regex_traitsIcE9transformINS_11__wrap_iterIPcEEEENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEET_SC_
+- __ZNKSt3__112regex_traitsIcE9transformIPcEENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEET_SA_
+- __ZNKSt3__113__empty_stateIcE6__execERNS_7__stateIcEE
+- __ZNKSt3__115__word_boundaryIcNS_12regex_traitsIcEEE6__execERNS_7__stateIcEE
+- __ZNKSt3__116__back_ref_icaseIcNS_12regex_traitsIcEEE6__execERNS_7__stateIcEE
+- __ZNKSt3__117__repeat_one_loopIcE6__execERNS_7__stateIcEE
+- __ZNKSt3__118__back_ref_collateIcNS_12regex_traitsIcEEE6__execERNS_7__stateIcEE
+- __ZNKSt3__118__match_char_icaseIcNS_12regex_traitsIcEEE6__execERNS_7__stateIcEE
+- __ZNKSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE6__execERNS_7__stateIcEE
+- __ZNKSt3__120__l_anchor_multilineIcE6__execERNS_7__stateIcEE
+- __ZNKSt3__120__match_char_collateIcNS_12regex_traitsIcEEE6__execERNS_7__stateIcEE
+- __ZNKSt3__120__r_anchor_multilineIcE6__execERNS_7__stateIcEE
+- __ZNKSt3__120__shared_ptr_pointerIPNS_13__empty_stateIcEENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE13__get_deleterERKSt9type_info
+- __ZNKSt3__121__empty_non_own_stateIcE6__execERNS_7__stateIcEE
+- __ZNKSt3__123__match_any_but_newlineIcE6__execERNS_7__stateIcEE
+- __ZNKSt3__126__end_marked_subexpressionIcE6__execERNS_7__stateIcEE
+- __ZNKSt3__128__begin_marked_subexpressionIcE6__execERNS_7__stateIcEE
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN4vega4DateEEEPS3_EclB8ne200100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN4vega4TimeEEEPS3_EclB8ne200100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN4vega8DateTimeEEEPS3_EclB8ne200100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_10shared_ptrIN4vega5dicom7DataSetEEEEEPS6_EclB8ne200100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPS6_EclB8ne200100Ev
+- __ZNKSt3__16__loopIcE12__exec_splitEbRNS_7__stateIcEE
+- __ZNKSt3__16__loopIcE13__init_repeatB8ne200100ERNS_7__stateIcEE
+- __ZNKSt3__16__loopIcE6__execERNS_7__stateIcEE
+- __ZNKSt3__16__nodeIcE12__exec_splitEbRNS_7__stateIcEE
+- __ZNKSt3__16__nodeIcE6__execERNS_7__stateIcEE
+- __ZNKSt3__16__treeINS_12__value_typeIN4vega3TagENS_10shared_ptrIKNS2_10dictionary4PageEEEEENS_19__map_value_compareIS3_S9_NS_4lessIS3_EELb1EEENS_9allocatorIS9_EEE4findIS3_EENS_21__tree_const_iteratorIS9_PNS_11__tree_nodeIS9_PvEElEERKT_
+- __ZNKSt3__16__treeINS_12__value_typeIN4vega3TagENS_3mapIS3_NS_10shared_ptrIKNS2_10dictionary4PageEEENS_4lessIS3_EENS_9allocatorINS_4pairIKS3_S9_EEEEEEEENS_19__map_value_compareIS3_SI_SB_Lb1EEENSC_ISI_EEE4findIS3_EENS_21__tree_const_iteratorISI_PNS_11__tree_nodeISI_PvEElEERKT_
+- __ZNKSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIKN4vega10dictionary4PageEEEEENS_19__map_value_compareIS7_SE_NS_4lessIS7_EELb1EEENS5_ISE_EEE4findIS7_EENS_21__tree_const_iteratorISE_PNS_11__tree_nodeISE_PvEElEERKT_
+- __ZNKSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4vega10dictionary12PrivateOwnerEEEEENS_19__map_value_compareIS7_SD_NS_4lessIS7_EELb1EEENS5_ISD_EEE4findIS7_EENS_21__tree_const_iteratorISD_PNS_11__tree_nodeISD_PvEElEERKT_
+- __ZNKSt3__16locale4nameEv
+- __ZNKSt9type_infoeqB8ne200100ERKS_
+- __ZNSt13runtime_errorC1EPKc
+- __ZNSt13runtime_errorC2EPKc
+- __ZNSt13runtime_errorD1Ev
+- __ZNSt3__110__back_refIcED0Ev
+- __ZNSt3__110__back_refIcED1Ev
+- __ZNSt3__110shared_ptrIKN4vega5dicom11DataElementEEC2B8ne200100IS3_Li0EEERKNS_8weak_ptrIT_EE
+- __ZNSt3__110shared_ptrIN4vega5dicom11DataElementEE18__enable_weak_thisB8ne200100IS3_S3_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
+- __ZNSt3__110shared_ptrIN4vega5dicom6ReaderEE18__enable_weak_thisB8ne200100IS3_S3_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
+- __ZNSt3__110shared_ptrIN4vega5dicom6ReaderEEC2B8ne200100IS3_Li0EEERKNS_8weak_ptrIT_EE
+- __ZNSt3__110shared_ptrIN4vega5dicom7DataSetEE18__enable_weak_thisB8ne200100IS3_S3_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
+- __ZNSt3__110shared_ptrINS_13__empty_stateIcEEE5resetB8ne200100IS2_Li0EEEvPT_
+- __ZNSt3__110shared_ptrINS_13__empty_stateIcEEEC2B8ne200100IS2_Li0EEEPT_
+- __ZNSt3__110shared_ptrINS_13__empty_stateIcEEEC2B8ne200100IS2_Li0EEEPT_.cold.1
+- __ZNSt3__110unique_ptrIN4vega10dictionary10DictionaryENS_14default_deleteIS3_EEE5resetB8ne200100EPS3_
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4vega3UIDEEEPvEENS_22__tree_node_destructorINS6_ISD_EEEEED1B8ne200100Ev
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIKN4vega10dictionary4PageEEEEEPvEENS_22__tree_node_destructorINS6_ISH_EEEEED1B8ne200100Ev
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4vega10dictionary12PrivateOwnerEEEEEPvEENS_22__tree_node_destructorINS6_ISG_EEEEED1B8ne200100Ev
+- __ZNSt3__111__alternateIcED0Ev
+- __ZNSt3__111__alternateIcED1Ev
+- __ZNSt3__111__end_stateIcED0Ev
+- __ZNSt3__111__end_stateIcED1Ev
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_16reverse_iteratorINS_11__wrap_iterIPjEEEELb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb
+- __ZNSt3__111__lookaheadIcNS_12regex_traitsIcEEEC1B8ne200100ERKNS_11basic_regexIcS2_EEbPNS_6__nodeIcEEj
+- __ZNSt3__111__lookaheadIcNS_12regex_traitsIcEEED0Ev
+- __ZNSt3__111__lookaheadIcNS_12regex_traitsIcEEED1Ev
+- __ZNSt3__111__match_anyIcED0Ev
+- __ZNSt3__111__match_anyIcED1Ev
+- __ZNSt3__111__sift_downB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_16reverse_iteratorINS_11__wrap_iterIPjEEEEEEvT1_OT0_NS_15iterator_traitsISA_E15difference_typeESA_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE11__push_charEc
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE11__push_loopEmmPNS_16__owns_one_stateIcEEmmb
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE12__parse_atomIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE12__parse_grepIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE12__parse_termIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE13__parse_egrepIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE15__push_back_refEi
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE15__push_l_anchorEv
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE15__push_r_anchorEv
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE15__test_back_refEc
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE16__parse_ecma_expIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE16__push_lookaheadERKS3_bj
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE17__parse_DUP_COUNTIPKcEET_S7_S7_Ri
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE17__parse_assertionIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE17__parse_simple_REIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE18__parse_ERE_branchIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE18__parse_awk_escapeIPKcEET_S7_S7_PNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE18__parse_nondupl_REIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE18__push_alternationEPNS_16__owns_one_stateIcEES6_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE19__parse_QUOTED_CHARIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE19__parse_atom_escapeIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE20__parse_ORD_CHAR_EREIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE20__parse_class_escapeIPKcEET_S7_S7_RNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPNS_20__bracket_expressionIcS2_EE
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE20__push_word_boundaryEb
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE21__parse_basic_reg_expIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE21__start_matching_listEb
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE22__parse_ERE_expressionIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE22__parse_RE_dupl_symbolIPKcEET_S7_S7_PNS_16__owns_one_stateIcEEjj
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE22__parse_decimal_escapeIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE23__parse_ERE_dupl_symbolIPKcEET_S7_S7_PNS_16__owns_one_stateIcEEjj
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE23__parse_QUOTED_CHAR_EREIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE23__parse_character_classIPKcEET_S7_S7_PNS_20__bracket_expressionIcS2_EE
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE23__parse_expression_termIPKcEET_S7_S7_PNS_20__bracket_expressionIcS2_EE
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE24__parse_character_escapeIPKcEET_S7_S7_PNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE24__parse_collating_symbolIPKcEET_S7_S7_RNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE24__parse_extended_reg_expIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE25__parse_equivalence_classIPKcEET_S7_S7_PNS_20__bracket_expressionIcS2_EE
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE25__parse_pattern_characterIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE26__parse_bracket_expressionIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE30__parse_character_class_escapeIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE31__push_end_marked_subexpressionEj
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE32__parse_one_char_or_coll_elem_REIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE33__parse_one_char_or_coll_elem_EREIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE33__push_begin_marked_subexpressionEv
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE7__parseIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEEC2B8ne200100EPKcNS_15regex_constants18syntax_option_typeE
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEED1Ev
+- __ZNSt3__111regex_errorC1ENS_15regex_constants10error_typeE
+- __ZNSt3__111regex_errorD1Ev
+- __ZNSt3__111regex_matchB8ne200100INS_11__wrap_iterIPKcEENS_9allocatorINS_9sub_matchIS4_EEEEcNS_12regex_traitsIcEEEEbT_SB_RNS_13match_resultsISB_T0_EERKNS_11basic_regexIT1_T2_EENS_15regex_constants15match_flag_typeE
+- __ZNSt3__112__destroy_atB8ne200100IN4vega10dictionary12PrivateOwnerELi0EEEvPT_
+- __ZNSt3__112__destroy_atB8ne200100IN4vega11RegexStringELi0EEEvPT_
+- __ZNSt3__112__destroy_atB8ne200100IN4vega5dicom14TransferSyntaxELi0EEEvPT_
+- __ZNSt3__112__destroy_atB8ne200100IN4vega5dicom6ReaderELi0EEEvPT_
+- __ZNSt3__112__destroy_atB8ne200100INS_11basic_regexIcNS_12regex_traitsIcEEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB8ne200100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4vega3UIDEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB8ne200100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIKN4vega10dictionary4PageEEEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB8ne200100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4vega10dictionary12PrivateOwnerEEEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB8ne200100INS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EELi0EEEvPT_
+- __ZNSt3__112__destroy_atB8ne200100INS_7__stateIcEELi0EEEvPT_
+- __ZNSt3__112__match_charIcED0Ev
+- __ZNSt3__112__match_charIcED1Ev
+- __ZNSt3__112bad_weak_ptrD1Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB8ne200100INS_11__wrap_iterIPKcEESA_EEvT_T0_m
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB8ne200100INS_11__wrap_iterIPcEES9_EEvT_T0_m
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB8ne200100IPKcS8_EEvT_T0_m
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB8ne200100IPcS7_EEvT_T0_m
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6__initEPKcm
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKcm
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100EPKcm
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne200100ENS_24__uninitialized_size_tagEmRKS4_
+- __ZNSt3__112construct_atB8ne200100IN4vega10dictionary4PageEJRNS_10shared_ptrINS2_12PrivateOwnerEEERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERKNS1_7TagMaskERKNS1_7MultiVRERKNS1_2VMEEPS3_EEPT_SR_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega12manipulators15DateManipulatorEJNS_10shared_ptrINS1_5dicom8RawValueEEEEPS3_EEPT_SA_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega12manipulators15TimeManipulatorEJNS_10shared_ptrINS1_5dicom8RawValueEEEEPS3_EEPT_SA_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega12manipulators20OtherByteManipulatorEJNS_10shared_ptrINS1_5dicom8RawValueEEEEPS3_EEPT_SA_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega12manipulators20OtherWordManipulatorEJNS_10shared_ptrINS1_5dicom8RawValueEEEEPS3_EEPT_SA_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega12manipulators21CodeStringManipulatorEJNS_10shared_ptrINS1_5dicom8RawValueEEEEPS3_EEPT_SA_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega12manipulators21LongStringManipulatorEJNS_10shared_ptrINS1_5dicom8RawValueEEEEPS3_EEPT_SA_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega12manipulators21PersonNameManipulatorEJNS_10shared_ptrINS1_5dicom8RawValueEEEEPS3_EEPT_SA_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega12manipulators22SignedShortManipulatorEJNS_10shared_ptrINS1_5dicom8RawValueEEEEPS3_EEPT_SA_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega12manipulators23UnsignedLongManipulatorEJNS_10shared_ptrINS1_5dicom8RawValueEEEEPS3_EEPT_SA_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega12manipulators24DecimalStringManipulatorEJNS_10shared_ptrINS1_5dicom8RawValueEEEEPS3_EEPT_SA_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega12manipulators24IntegerStringManipulatorEJNS_10shared_ptrINS1_5dicom8RawValueEEEEPS3_EEPT_SA_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega12manipulators24UnsignedShortManipulatorEJNS_10shared_ptrINS1_5dicom8RawValueEEEEPS3_EEPT_SA_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega12manipulators27UniqueIdentifierManipulatorEJNS_10shared_ptrINS1_5dicom8RawValueEEEEPS3_EEPT_SA_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega12manipulators27UniqueIdentifierManipulatorEJRA23_KcEPS3_EEPT_S9_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega5dicom11DataElementEJNS1_3TagENS1_2VREEPS3_EEPT_S8_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega5dicom11DataElementEJNS1_3TagENS1_2VRERNS_10shared_ptrINS2_7DataSetEEEEPS3_EEPT_SC_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega5dicom11DataElementEJRA18_KcEPS3_EEPT_S9_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega5dicom11DataElementEJRA18_KcEPS3_EEPT_S9_DpOT0_.cold.1
+- __ZNSt3__112construct_atB8ne200100IN4vega5dicom11DataElementEJRA23_KcEPS3_EEPT_S9_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega5dicom11DataElementEJRA23_KcEPS3_EEPT_S9_DpOT0_.cold.1
+- __ZNSt3__112construct_atB8ne200100IN4vega5dicom11DataElementEJRA24_KcEPS3_EEPT_S9_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega5dicom11DataElementEJRA24_KcEPS3_EEPT_S9_DpOT0_.cold.1
+- __ZNSt3__112construct_atB8ne200100IN4vega5dicom11DataElementEJRA27_KcEPS3_EEPT_S9_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega5dicom11DataElementEJRA27_KcEPS3_EEPT_S9_DpOT0_.cold.1
+- __ZNSt3__112construct_atB8ne200100IN4vega5dicom11DataElementEJRA31_KcEPS3_EEPT_S9_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega5dicom11DataElementEJRA31_KcEPS3_EEPT_S9_DpOT0_.cold.1
+- __ZNSt3__112construct_atB8ne200100IN4vega5dicom11DataElementEJRKNS1_3TagERKNS1_2VREEPS3_EEPT_SC_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega5dicom11DataElementEJRNS1_3TagERNS1_2VRERNS_10shared_ptrINS2_7DataSetEEEEPS3_EEPT_SE_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega5dicom11DataElementEJRNS1_3TagERNS_10shared_ptrINS2_7DataSetEEEbEPS3_EEPT_SC_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega5dicom11DataElementEJRNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEPS3_EEPT_SD_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega5dicom4FileEJRNS_10shared_ptrI10imemstreamEEbEPS3_EEPT_SA_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega5dicom6ReaderEJRNS_10shared_ptrI10imemstreamEEEPS3_EEPT_SA_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega5dicom6ReaderEJRNS_10shared_ptrINS_13basic_istreamIcNS_11char_traitsIcEEEEEERbSB_EPS3_EEPT_SE_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega5dicom6ReaderEJRNS_10shared_ptrINS_18basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEEPS3_EEPT_SF_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega5dicom6ReaderEJRNS_10shared_ptrINS_19basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEEPS3_EEPT_SF_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega5dicom6WriterEJRNS_10shared_ptrINS_13basic_ostreamIcNS_11char_traitsIcEEEEEEEPS3_EEPT_SD_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega5dicom6WriterEJRNS_10shared_ptrINS_19basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEEPS3_EEPT_SF_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega5dicom7DataSetEJEPS3_EEPT_S6_DpOT0_
+- __ZNSt3__112construct_atB8ne200100IN4vega5dicom7DataSetEJRNS_10shared_ptrINS2_11DataElementEEEEPS3_EEPT_SA_DpOT0_
+- __ZNSt3__112regex_traitsIcEC2Ev
+- __ZNSt3__113__empty_stateIcED0Ev
+- __ZNSt3__113__empty_stateIcED1Ev
+- __ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE4openEPKcj
+- __ZNSt3__113basic_filebufIcNS_11char_traitsIcEEEC1Ev
+- __ZNSt3__113basic_filebufIcNS_11char_traitsIcEEED1Ev
+- __ZNSt3__113basic_istreamIcNS_11char_traitsIcEEE5seekgExNS_8ios_base7seekdirE
+- __ZNSt3__113basic_istreamIcNS_11char_traitsIcEEE5tellgEv
+- __ZNSt3__113basic_istreamIcNS_11char_traitsIcEEED0Ev
+- __ZNSt3__113basic_istreamIcNS_11char_traitsIcEEED1Ev
+- __ZNSt3__113basic_istreamIcNS_11char_traitsIcEEErsERf
+- __ZNSt3__113basic_istreamIcNS_11char_traitsIcEEErsERx
+- __ZNSt3__113basic_istreamIcNS_11char_traitsIcEEErsERy
+- __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE3putEc
+- __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE5flushEv
+- __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEPNS_15basic_streambufIcS2_EE
+- __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEf
+- __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEl
+- __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEm
+- __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEt
+- __ZNSt3__113match_resultsINS_11__wrap_iterIPKcEENS_9allocatorINS_9sub_matchIS4_EEEEE8__assignB8ne200100IS3_NS5_INS6_IS3_EEEEEEvS4_S4_RKNS0_IT_T0_EEb
+- __ZNSt3__113match_resultsIPKcNS_9allocatorINS_9sub_matchIS2_EEEEE6__initEjS2_S2_b
+- __ZNSt3__114__split_bufferIN4vega4DateERNS_9allocatorIS2_EEE17__destruct_at_endB8ne200100EPS2_
+- __ZNSt3__114__split_bufferIN4vega4DateERNS_9allocatorIS2_EEED2Ev
+- __ZNSt3__114__split_bufferIN4vega4TimeERNS_9allocatorIS2_EEE17__destruct_at_endB8ne200100EPS2_
+- __ZNSt3__114__split_bufferIN4vega4TimeERNS_9allocatorIS2_EEED2Ev
+- __ZNSt3__114__split_bufferIN4vega8DateTimeERNS_9allocatorIS2_EEE17__destruct_at_endB8ne200100EPS2_
+- __ZNSt3__114__split_bufferIN4vega8DateTimeERNS_9allocatorIS2_EEED2Ev
+- __ZNSt3__114__split_bufferINS_10shared_ptrIKN4vega10dictionary4PageEEERNS_9allocatorIS6_EEE5clearB8ne200100Ev
+- __ZNSt3__114__split_bufferINS_10shared_ptrIKN4vega10dictionary4PageEEERNS_9allocatorIS6_EEED2Ev
+- __ZNSt3__114__split_bufferINS_10shared_ptrIN4vega5dicom7DataSetEEERNS_9allocatorIS5_EEE5clearB8ne200100Ev
+- __ZNSt3__114__split_bufferINS_10shared_ptrIN4vega5dicom7DataSetEEERNS_9allocatorIS5_EEED2Ev
+- __ZNSt3__114__split_bufferINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EERNS5_IS8_EEED2Ev
+- __ZNSt3__114__split_bufferINS_7__stateIcEERNS_9allocatorIS2_EEED2Ev
+- __ZNSt3__114__split_bufferIPNS_7__stateIcEENS_9allocatorIS3_EEE12emplace_backIJRS3_EEEvDpOT_
+- __ZNSt3__114__split_bufferIPNS_7__stateIcEENS_9allocatorIS3_EEE12emplace_backIJS3_EEEvDpOT_
+- __ZNSt3__114__split_bufferIPNS_7__stateIcEENS_9allocatorIS3_EEE13emplace_frontIJRS3_EEEvDpOT_
+- __ZNSt3__114__split_bufferIPNS_7__stateIcEENS_9allocatorIS3_EEE13emplace_frontIJS3_EEEvDpOT_
+- __ZNSt3__114__split_bufferIPNS_7__stateIcEENS_9allocatorIS3_EEED2Ev
+- __ZNSt3__114__split_bufferIPNS_7__stateIcEERNS_9allocatorIS3_EEE12emplace_backIJRS3_EEEvDpOT_
+- __ZNSt3__114__split_bufferIPNS_7__stateIcEERNS_9allocatorIS3_EEE12emplace_backIJS3_EEEvDpOT_
+- __ZNSt3__114__split_bufferIPNS_7__stateIcEERNS_9allocatorIS3_EEE13emplace_frontIJRS3_EEEvDpOT_
+- __ZNSt3__114basic_ifstreamIcNS_11char_traitsIcEEEC1ERKNS_12basic_stringIcS2_NS_9allocatorIcEEEEj
+- __ZNSt3__114basic_ifstreamIcNS_11char_traitsIcEEED2Ev
+- __ZNSt3__115__get_classnameEPKcb
+- __ZNSt3__115__word_boundaryIcNS_12regex_traitsIcEEED0Ev
+- __ZNSt3__115__word_boundaryIcNS_12regex_traitsIcEEED1Ev
+- __ZNSt3__115allocate_sharedB8ne200100I10imemstreamNS_9allocatorIS1_EEJRNS_4spanIcLm18446744073709551615EEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IKN4vega10dictionary4PageENS_9allocatorIS3_EEJNS_12basic_stringIcNS_11char_traitsIcEENS5_IcEEEENS1_7TagMaskENS1_7MultiVRENS1_2VMEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IKN4vega10dictionary4PageENS_9allocatorIS3_EEJRKNS_12basic_stringIcNS_11char_traitsIcEENS5_IcEEEERKNS1_7TagMaskERKNS1_7MultiVRERKNS1_2VMEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IKN4vega10dictionary4PageENS_9allocatorIS3_EEJRNS_10shared_ptrINS2_12PrivateOwnerEEERKNS_12basic_stringIcNS_11char_traitsIcEENS5_IcEEEERKNS1_7TagMaskERKNS1_7MultiVRERKNS1_2VMEELi0EEENS7_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IKN4vega11RegexStringENS_9allocatorIS2_EEJRKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEKNS_10shared_ptrIKNS_11basic_regexIcNS_12regex_traitsIcEEEEEEELi0EEENSD_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IKN4vega11RegexStringENS_9allocatorIS2_EEJRNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEKNS_10shared_ptrIKNS_11basic_regexIcNS_12regex_traitsIcEEEEEEELi0EEENSC_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IKN4vega4DateENS_9allocatorIS2_EEJRNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IKN4vega4TimeENS_9allocatorIS2_EEJRNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IKN4vega8DateTimeENS_9allocatorIS2_EEJRNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IKNS_11basic_regexIcNS_12regex_traitsIcEEEENS_9allocatorIS4_EEJRA137_KcELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IKNS_11basic_regexIcNS_12regex_traitsIcEEEENS_9allocatorIS4_EEJRA32_KcELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IKNS_11basic_regexIcNS_12regex_traitsIcEEEENS_9allocatorIS4_EEJRA40_KcELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IKNS_11basic_regexIcNS_12regex_traitsIcEEEENS_9allocatorIS4_EEJRA55_KcELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IKNS_11basic_regexIcNS_12regex_traitsIcEEEENS_9allocatorIS4_EEJRA56_KcELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega10dictionary12PrivateOwnerENS_9allocatorIS3_EEJNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega10dictionary17PrivateOwnerBlockENS_9allocatorIS3_EEJRNS_10shared_ptrINS2_12PrivateOwnerEEERtSA_ELi0EEENS6_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega10dictionary18PrivateOwnerBlocksENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega12manipulators15DateManipulatorENS_9allocatorIS3_EEJNS_10shared_ptrINS1_5dicom8RawValueEEEELi0EEENS6_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega12manipulators15TimeManipulatorENS_9allocatorIS3_EEJNS_10shared_ptrINS1_5dicom8RawValueEEEELi0EEENS6_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega12manipulators19LongTextManipulatorENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega12manipulators20OtherByteManipulatorENS_9allocatorIS3_EEJNS_10shared_ptrINS1_5dicom8RawValueEEEELi0EEENS6_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega12manipulators20OtherByteManipulatorENS_9allocatorIS3_EEJNS_11__wrap_iterIPKNS1_4ByteEEESA_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega12manipulators20OtherWordManipulatorENS_9allocatorIS3_EEJNS_10shared_ptrINS1_5dicom8RawValueEEEELi0EEENS6_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega12manipulators20ShortTextManipulatorENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega12manipulators21CodeStringManipulatorENS_9allocatorIS3_EEJNS_10shared_ptrINS1_5dicom8RawValueEEEELi0EEENS6_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega12manipulators21LongStringManipulatorENS_9allocatorIS3_EEJNS_10shared_ptrINS1_5dicom8RawValueEEEELi0EEENS6_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega12manipulators21PersonNameManipulatorENS_9allocatorIS3_EEJNS_10shared_ptrINS1_5dicom8RawValueEEEELi0EEENS6_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega12manipulators22SignedShortManipulatorENS_9allocatorIS3_EEJNS_10shared_ptrINS1_5dicom8RawValueEEEELi0EEENS6_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega12manipulators23UnsignedLongManipulatorENS_9allocatorIS3_EEJNS_10shared_ptrINS1_5dicom8RawValueEEEELi0EEENS6_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega12manipulators24DecimalStringManipulatorENS_9allocatorIS3_EEJNS_10shared_ptrINS1_5dicom8RawValueEEEELi0EEENS6_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega12manipulators24IntegerStringManipulatorENS_9allocatorIS3_EEJNS_10shared_ptrINS1_5dicom8RawValueEEEELi0EEENS6_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega12manipulators24UnlimitedTextManipulatorENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega12manipulators24UnsignedShortManipulatorENS_9allocatorIS3_EEJNS_10shared_ptrINS1_5dicom8RawValueEEEELi0EEENS6_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega12manipulators27UniqueIdentifierManipulatorENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega12manipulators27UniqueIdentifierManipulatorENS_9allocatorIS3_EEJNS_10shared_ptrINS1_5dicom8RawValueEEEELi0EEENS6_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega12manipulators27UniqueIdentifierManipulatorENS_9allocatorIS3_EEJRA23_KcELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom11DataElementENS_9allocatorIS3_EEJNS1_3TagENS1_2VREELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom11DataElementENS_9allocatorIS3_EEJNS1_3TagENS1_2VRERNS_10shared_ptrINS2_7DataSetEEEELi0EEENS8_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom11DataElementENS_9allocatorIS3_EEJRA18_KcELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom11DataElementENS_9allocatorIS3_EEJRA23_KcELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom11DataElementENS_9allocatorIS3_EEJRA24_KcELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom11DataElementENS_9allocatorIS3_EEJRA27_KcELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom11DataElementENS_9allocatorIS3_EEJRA31_KcELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom11DataElementENS_9allocatorIS3_EEJRKNS1_3TagERKNS1_2VREELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom11DataElementENS_9allocatorIS3_EEJRNS1_3TagERNS1_2VRERNS_10shared_ptrINS2_7DataSetEEEELi0EEENSA_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom11DataElementENS_9allocatorIS3_EEJRNS1_3TagERNS_10shared_ptrINS2_7DataSetEEEbELi0EEENS8_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom11DataElementENS_9allocatorIS3_EEJRNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom4FileENS_9allocatorIS3_EEJRNS_10shared_ptrI10imemstreamEEbELi0EEENS6_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom6ReaderENS_9allocatorIS3_EEJRNS_10shared_ptrI10imemstreamEEELi0EEENS6_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom6ReaderENS_9allocatorIS3_EEJRNS_10shared_ptrINS_13basic_istreamIcNS_11char_traitsIcEEEEEERbSD_ELi0EEENS6_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom6ReaderENS_9allocatorIS3_EEJRNS_10shared_ptrINS_18basic_stringstreamIcNS_11char_traitsIcEENS4_IcEEEEEEELi0EEENS6_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom6ReaderENS_9allocatorIS3_EEJRNS_10shared_ptrINS_19basic_istringstreamIcNS_11char_traitsIcEENS4_IcEEEEEEELi0EEENS6_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom6WriterENS_9allocatorIS3_EEJRNS_10shared_ptrINS_13basic_ostreamIcNS_11char_traitsIcEEEEEEELi0EEENS6_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom6WriterENS_9allocatorIS3_EEJRNS_10shared_ptrINS_19basic_ostringstreamIcNS_11char_traitsIcEENS4_IcEEEEEEELi0EEENS6_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7DataSetENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7DataSetENS_9allocatorIS3_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS6_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary10BitsStoredEEENS_9allocatorIS6_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary10BitsStoredEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary10ColorSpaceEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary10ICCProfileEEENS_9allocatorIS6_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary10ICCProfileEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary11PatientNameEEENS_9allocatorIS6_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary11PatientNameEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary11SOPClassUIDEEENS_9allocatorIS6_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary11WindowWidthEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary12PixelData_OBEEENS_9allocatorIS6_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary12RescaleSlopeEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary12WindowCenterEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary13BitsAllocatedEEENS_9allocatorIS6_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary13BitsAllocatedEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary14AcquisitionUIDEEENS_9allocatorIS6_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary14NumberOfFramesEEENS_9allocatorIS6_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary14NumberOfFramesEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary14PrivateElementEEENS_9allocatorIS6_EEJRKNS1_3TagEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary14SOPInstanceUIDEEENS_9allocatorIS6_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary14VOILUTFunctionEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary15SamplesPerPixelEEENS_9allocatorIS6_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary15SamplesPerPixelEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary15TypeOfPatientIDEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary16PixelAspectRatioEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary16RescaleInterceptEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary16StudyInstanceUIDEEENS_9allocatorIS6_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary17IssuerOfPatientIDEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary17SeriesInstanceUIDEEENS_9allocatorIS6_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary17TransferSyntaxUIDEEENS_9allocatorIS6_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary17TransferSyntaxUIDEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary18InstanceCreatorUIDEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary19PixelRepresentationEEENS_9allocatorIS6_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary19PixelRepresentationEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary19PlanarConfigurationEEENS_9allocatorIS6_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary19PlanarConfigurationEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary20InstanceCreationDateEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary20InstanceCreationTimeEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary20SpecificCharacterSetEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary21LossyImageCompressionEEENS_9allocatorIS6_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary25LargestImagePixelValue_SSEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary25LargestImagePixelValue_USEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary25PhotometricInterpretationEEENS_9allocatorIS6_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary25PhotometricInterpretationEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary26SmallestImagePixelValue_SSEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary26SmallestImagePixelValue_USEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary30RedPaletteColorLookupTableDataEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary31BluePaletteColorLookupTableDataEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary32GreenPaletteColorLookupTableDataEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary39RedPaletteColorLookupTableDescriptor_SSEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary39RedPaletteColorLookupTableDescriptor_USEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary40BluePaletteColorLookupTableDescriptor_SSEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary40BluePaletteColorLookupTableDescriptor_USEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary41GreenPaletteColorLookupTableDescriptor_SSEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary41GreenPaletteColorLookupTableDescriptor_USEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary4RowsEEENS_9allocatorIS6_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary4RowsEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary7ColumnsEEENS_9allocatorIS6_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary7ColumnsEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary7HighBitEEENS_9allocatorIS6_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary7HighBitEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary8ModalityEEENS_9allocatorIS6_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary8ModalityEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary9ImageTypeEEENS_9allocatorIS6_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary9ImageTypeEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom7ElementINS1_10dictionary9PatientIDEEENS_9allocatorIS6_EEJRNS_10shared_ptrINS2_11DataElementEEEELi0EEENS9_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom8FileMetaENS_9allocatorIS3_EEJRKNS2_8SOPClassERKNS1_3UIDEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom8FileMetaENS_9allocatorIS3_EEJRNS2_6ReaderEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom8PreambleENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom8PreambleENS_9allocatorIS3_EEJRNS2_6ReaderEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom8RawValueENS_9allocatorIS3_EEJRA2_cPcELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN4vega5dicom8RawValueENS_9allocatorIS3_EEJmELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100INS_18basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100INS_19basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEJRNS_12basic_stringIcS3_S5_EEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100INS_19basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100INS_6vectorIcNS_9allocatorIcEEEENS2_IS4_EEJRmELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE4syncEv
+- __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE5imbueERKNS_6localeE
+- __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE5uflowEv
+- __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE6setbufEPcl
+- __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE6xsgetnEPcl
+- __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE6xsputnEPKcl
+- __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE8overflowEi
+- __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE9pbackfailEi
+- __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE9showmanycEv
+- __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE9underflowEv
+- __ZNSt3__116__back_ref_icaseIcNS_12regex_traitsIcEEED0Ev
+- __ZNSt3__116__back_ref_icaseIcNS_12regex_traitsIcEEED1Ev
+- __ZNSt3__116__owns_one_stateIcED0Ev
+- __ZNSt3__116__owns_one_stateIcED1Ev
+- __ZNSt3__116allocator_traitsINS_9allocatorIN4vega4DateEEEE7destroyB8ne200100IS3_vLi0EEEvRS4_PT_
+- __ZNSt3__116allocator_traitsINS_9allocatorIN4vega4TimeEEEE7destroyB8ne200100IS3_vLi0EEEvRS4_PT_
+- __ZNSt3__116allocator_traitsINS_9allocatorIN4vega8DateTimeEEEE7destroyB8ne200100IS3_vLi0EEEvRS4_PT_
+- __ZNSt3__117__floyd_sift_downB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_16reverse_iteratorINS_11__wrap_iterIPjEEEEEET1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
+- __ZNSt3__117__owns_two_statesIcED0Ev
+- __ZNSt3__117__owns_two_statesIcED1Ev
+- __ZNSt3__117__owns_two_statesIcED2Ev
+- __ZNSt3__117__repeat_one_loopIcED0Ev
+- __ZNSt3__117__repeat_one_loopIcED1Ev
+- __ZNSt3__118__back_ref_collateIcNS_12regex_traitsIcEEED0Ev
+- __ZNSt3__118__back_ref_collateIcNS_12regex_traitsIcEEED1Ev
+- __ZNSt3__118__match_char_icaseIcNS_12regex_traitsIcEEEC2B8ne200100ERKS2_cPNS_6__nodeIcEE
+- __ZNSt3__118__match_char_icaseIcNS_12regex_traitsIcEEEC2B8ne200100ERKS2_cPNS_6__nodeIcEE.cold.1
+- __ZNSt3__118__match_char_icaseIcNS_12regex_traitsIcEEED0Ev
+- __ZNSt3__118__match_char_icaseIcNS_12regex_traitsIcEEED1Ev
+- __ZNSt3__119__partial_sort_implB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_16reverse_iteratorINS_11__wrap_iterIPjEEEES9_EET1_SA_SA_T2_OT0_
+- __ZNSt3__119__shared_weak_count4lockEv
+- __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE11EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE12EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE14EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE15EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE16EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE17EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE1EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE2EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE3EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE4EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE5EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE6EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE7EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE8EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE9EEEvv
+- __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE10__add_charB8ne200100Ec
+- __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE11__add_rangeB8ne200100ENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES9_
+- __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE13__add_digraphB8ne200100Ecc
+- __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE14__add_neg_charB8ne200100Ec
+- __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEEC2B8ne200100ERKS2_PNS_6__nodeIcEEbbb
+- __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEED0Ev
+- __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEED1Ev
+- __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEED2Ev
+- __ZNSt3__120__get_collation_nameEPKc
+- __ZNSt3__120__l_anchor_multilineIcED0Ev
+- __ZNSt3__120__l_anchor_multilineIcED1Ev
+- __ZNSt3__120__match_char_collateIcNS_12regex_traitsIcEEED0Ev
+- __ZNSt3__120__match_char_collateIcNS_12regex_traitsIcEEED1Ev
+- __ZNSt3__120__r_anchor_multilineIcED0Ev
+- __ZNSt3__120__r_anchor_multilineIcED1Ev
+- __ZNSt3__120__shared_ptr_emplaceI10imemstreamNS_9allocatorIS1_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceI10imemstreamNS_9allocatorIS1_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceI10imemstreamNS_9allocatorIS1_EEEC2B8ne200100IJRNS_4spanIcLm18446744073709551615EEEES3_Li0EEES3_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceI10imemstreamNS_9allocatorIS1_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceI10imemstreamNS_9allocatorIS1_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIKN4vega10dictionary4PageENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIKN4vega10dictionary4PageENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIKN4vega10dictionary4PageENS_9allocatorIS3_EEEC2B8ne200100IJNS_12basic_stringIcNS_11char_traitsIcEENS5_IcEEEENS1_7TagMaskENS1_7MultiVRENS1_2VMEES6_Li0EEES6_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIKN4vega10dictionary4PageENS_9allocatorIS3_EEEC2B8ne200100IJRKNS_12basic_stringIcNS_11char_traitsIcEENS5_IcEEEERKNS1_7TagMaskERKNS1_7MultiVRERKNS1_2VMEES6_Li0EEES6_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIKN4vega10dictionary4PageENS_9allocatorIS3_EEEC2B8ne200100IJRNS_10shared_ptrINS2_12PrivateOwnerEEERKNS_12basic_stringIcNS_11char_traitsIcEENS5_IcEEEERKNS1_7TagMaskERKNS1_7MultiVRERKNS1_2VMEES6_Li0EEES6_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIKN4vega10dictionary4PageENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIKN4vega10dictionary4PageENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIKN4vega11RegexStringENS_9allocatorIS2_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIKN4vega11RegexStringENS_9allocatorIS2_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIKN4vega11RegexStringENS_9allocatorIS2_EEEC2B8ne200100IJRKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEKNS_10shared_ptrIKNS_11basic_regexIcNS_12regex_traitsIcEEEEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIKN4vega11RegexStringENS_9allocatorIS2_EEEC2B8ne200100IJRNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEKNS_10shared_ptrIKNS_11basic_regexIcNS_12regex_traitsIcEEEEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIKN4vega11RegexStringENS_9allocatorIS2_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIKN4vega11RegexStringENS_9allocatorIS2_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIKN4vega4DateENS_9allocatorIS2_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIKN4vega4DateENS_9allocatorIS2_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIKN4vega4DateENS_9allocatorIS2_EEEC2B8ne200100IJRNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIKN4vega4DateENS_9allocatorIS2_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIKN4vega4DateENS_9allocatorIS2_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIKN4vega4TimeENS_9allocatorIS2_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIKN4vega4TimeENS_9allocatorIS2_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIKN4vega4TimeENS_9allocatorIS2_EEEC2B8ne200100IJRNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIKN4vega4TimeENS_9allocatorIS2_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIKN4vega4TimeENS_9allocatorIS2_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIKN4vega8DateTimeENS_9allocatorIS2_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIKN4vega8DateTimeENS_9allocatorIS2_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIKN4vega8DateTimeENS_9allocatorIS2_EEEC2B8ne200100IJRNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIKN4vega8DateTimeENS_9allocatorIS2_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIKN4vega8DateTimeENS_9allocatorIS2_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIKNS_11basic_regexIcNS_12regex_traitsIcEEEENS_9allocatorIS4_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIKNS_11basic_regexIcNS_12regex_traitsIcEEEENS_9allocatorIS4_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIKNS_11basic_regexIcNS_12regex_traitsIcEEEENS_9allocatorIS4_EEEC2B8ne200100IJRA137_KcES7_Li0EEES7_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIKNS_11basic_regexIcNS_12regex_traitsIcEEEENS_9allocatorIS4_EEEC2B8ne200100IJRA32_KcES7_Li0EEES7_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIKNS_11basic_regexIcNS_12regex_traitsIcEEEENS_9allocatorIS4_EEEC2B8ne200100IJRA40_KcES7_Li0EEES7_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIKNS_11basic_regexIcNS_12regex_traitsIcEEEENS_9allocatorIS4_EEEC2B8ne200100IJRA55_KcES7_Li0EEES7_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIKNS_11basic_regexIcNS_12regex_traitsIcEEEENS_9allocatorIS4_EEEC2B8ne200100IJRA56_KcES7_Li0EEES7_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIKNS_11basic_regexIcNS_12regex_traitsIcEEEENS_9allocatorIS4_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIKNS_11basic_regexIcNS_12regex_traitsIcEEEENS_9allocatorIS4_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega10dictionary12PrivateOwnerENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega10dictionary12PrivateOwnerENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega10dictionary12PrivateOwnerENS_9allocatorIS3_EEEC2B8ne200100IJNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega10dictionary12PrivateOwnerENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega10dictionary12PrivateOwnerENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega10dictionary17PrivateOwnerBlockENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega10dictionary17PrivateOwnerBlockENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega10dictionary17PrivateOwnerBlockENS_9allocatorIS3_EEEC2B8ne200100IJRNS_10shared_ptrINS2_12PrivateOwnerEEERtSC_ES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega10dictionary17PrivateOwnerBlockENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega10dictionary17PrivateOwnerBlockENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega10dictionary18PrivateOwnerBlocksENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega10dictionary18PrivateOwnerBlocksENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega10dictionary18PrivateOwnerBlocksENS_9allocatorIS3_EEEC2B8ne200100IJES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega10dictionary18PrivateOwnerBlocksENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega10dictionary18PrivateOwnerBlocksENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators15DateManipulatorENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators15DateManipulatorENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators15DateManipulatorENS_9allocatorIS3_EEEC2B8ne200100IJNS_10shared_ptrINS1_5dicom8RawValueEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators15DateManipulatorENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators15DateManipulatorENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators15TimeManipulatorENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators15TimeManipulatorENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators15TimeManipulatorENS_9allocatorIS3_EEEC2B8ne200100IJNS_10shared_ptrINS1_5dicom8RawValueEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators15TimeManipulatorENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators15TimeManipulatorENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators18UnknownManipulatorENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators18UnknownManipulatorENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators18UnknownManipulatorENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators18UnknownManipulatorENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators19DateTimeManipulatorENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators19DateTimeManipulatorENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators19DateTimeManipulatorENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators19DateTimeManipulatorENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators19LongTextManipulatorENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators19LongTextManipulatorENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators19LongTextManipulatorENS_9allocatorIS3_EEEC2B8ne200100IJES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators19LongTextManipulatorENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators19LongTextManipulatorENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators20AgeStringManipulatorENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators20AgeStringManipulatorENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators20AgeStringManipulatorENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators20AgeStringManipulatorENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators20OtherByteManipulatorENS_9allocatorIS3_EEEC2B8ne200100IJNS_10shared_ptrINS1_5dicom8RawValueEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators20OtherByteManipulatorENS_9allocatorIS3_EEEC2B8ne200100IJNS_11__wrap_iterIPKNS1_4ByteEEESC_ES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators20OtherWordManipulatorENS_9allocatorIS3_EEEC2B8ne200100IJNS_10shared_ptrINS1_5dicom8RawValueEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators20PixelDataManipulatorENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators20PixelDataManipulatorENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators20PixelDataManipulatorENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators20PixelDataManipulatorENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators20ShortTextManipulatorENS_9allocatorIS3_EEEC2B8ne200100IJES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators21CodeStringManipulatorENS_9allocatorIS3_EEEC2B8ne200100IJNS_10shared_ptrINS1_5dicom8RawValueEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators21LongStringManipulatorENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators21LongStringManipulatorENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators21LongStringManipulatorENS_9allocatorIS3_EEEC2B8ne200100IJNS_10shared_ptrINS1_5dicom8RawValueEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators21LongStringManipulatorENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators21LongStringManipulatorENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators21OtherFloatManipulatorENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators21OtherFloatManipulatorENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators21OtherFloatManipulatorENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators21OtherFloatManipulatorENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators21PersonNameManipulatorENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators21PersonNameManipulatorENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators21PersonNameManipulatorENS_9allocatorIS3_EEEC2B8ne200100IJNS_10shared_ptrINS1_5dicom8RawValueEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators21PersonNameManipulatorENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators21PersonNameManipulatorENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators21SignedLongManipulatorENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators21SignedLongManipulatorENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators21SignedLongManipulatorENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators21SignedLongManipulatorENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators22OtherDoubleManipulatorENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators22OtherDoubleManipulatorENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators22OtherDoubleManipulatorENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators22OtherDoubleManipulatorENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators22ShortStringManipulatorENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators22ShortStringManipulatorENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators22ShortStringManipulatorENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators22ShortStringManipulatorENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators22SignedShortManipulatorENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators22SignedShortManipulatorENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators22SignedShortManipulatorENS_9allocatorIS3_EEEC2B8ne200100IJNS_10shared_ptrINS1_5dicom8RawValueEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators22SignedShortManipulatorENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators22SignedShortManipulatorENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators23AttributeTagManipulatorENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators23AttributeTagManipulatorENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators23AttributeTagManipulatorENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators23AttributeTagManipulatorENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators23UnsignedLongManipulatorENS_9allocatorIS3_EEEC2B8ne200100IJNS_10shared_ptrINS1_5dicom8RawValueEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators24DecimalStringManipulatorENS_9allocatorIS3_EEEC2B8ne200100IJNS_10shared_ptrINS1_5dicom8RawValueEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators24FloatingPointManipulatorENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators24FloatingPointManipulatorENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators24FloatingPointManipulatorENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators24FloatingPointManipulatorENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators24IntegerStringManipulatorENS_9allocatorIS3_EEEC2B8ne200100IJNS_10shared_ptrINS1_5dicom8RawValueEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators24UnlimitedTextManipulatorENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators24UnlimitedTextManipulatorENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators24UnlimitedTextManipulatorENS_9allocatorIS3_EEEC2B8ne200100IJES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators24UnlimitedTextManipulatorENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators24UnlimitedTextManipulatorENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators24UnsignedShortManipulatorENS_9allocatorIS3_EEEC2B8ne200100IJNS_10shared_ptrINS1_5dicom8RawValueEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators25SignedVeryLongManipulatorENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators25SignedVeryLongManipulatorENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators25SignedVeryLongManipulatorENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators25SignedVeryLongManipulatorENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators27UniqueIdentifierManipulatorENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators27UniqueIdentifierManipulatorENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators27UniqueIdentifierManipulatorENS_9allocatorIS3_EEEC2B8ne200100IJES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators27UniqueIdentifierManipulatorENS_9allocatorIS3_EEEC2B8ne200100IJNS_10shared_ptrINS1_5dicom8RawValueEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators27UniqueIdentifierManipulatorENS_9allocatorIS3_EEEC2B8ne200100IJRA23_KcES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators27UniqueIdentifierManipulatorENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators27UniqueIdentifierManipulatorENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators27UnsignedVeryLongManipulatorENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators27UnsignedVeryLongManipulatorENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators27UnsignedVeryLongManipulatorENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators27UnsignedVeryLongManipulatorENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators28ApplicationEntityManipulatorENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators28ApplicationEntityManipulatorENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators28ApplicationEntityManipulatorENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators28ApplicationEntityManipulatorENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators30FloatingPointDoubleManipulatorENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators30FloatingPointDoubleManipulatorENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators30FloatingPointDoubleManipulatorENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators30FloatingPointDoubleManipulatorENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators32EncapsulatedPixelDataManipulatorENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators32EncapsulatedPixelDataManipulatorENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators32EncapsulatedPixelDataManipulatorENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega12manipulators32EncapsulatedPixelDataManipulatorENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom11DataElementENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom11DataElementENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom11DataElementENS_9allocatorIS3_EEEC2B8ne200100IJNS1_3TagENS1_2VREES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom11DataElementENS_9allocatorIS3_EEEC2B8ne200100IJNS1_3TagENS1_2VRERNS_10shared_ptrINS2_7DataSetEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom11DataElementENS_9allocatorIS3_EEEC2B8ne200100IJRA18_KcES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom11DataElementENS_9allocatorIS3_EEEC2B8ne200100IJRA23_KcES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom11DataElementENS_9allocatorIS3_EEEC2B8ne200100IJRA24_KcES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom11DataElementENS_9allocatorIS3_EEEC2B8ne200100IJRA27_KcES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom11DataElementENS_9allocatorIS3_EEEC2B8ne200100IJRA31_KcES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom11DataElementENS_9allocatorIS3_EEEC2B8ne200100IJRKNS1_3TagERKNS1_2VREES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom11DataElementENS_9allocatorIS3_EEEC2B8ne200100IJRNS1_3TagERNS1_2VRERNS_10shared_ptrINS2_7DataSetEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom11DataElementENS_9allocatorIS3_EEEC2B8ne200100IJRNS1_3TagERNS_10shared_ptrINS2_7DataSetEEEbES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom11DataElementENS_9allocatorIS3_EEEC2B8ne200100IJRNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom11DataElementENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom11DataElementENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom4FileENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom4FileENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom4FileENS_9allocatorIS3_EEEC2B8ne200100IJRNS_10shared_ptrI10imemstreamEEbES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom4FileENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom4FileENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom6ReaderENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom6ReaderENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom6ReaderENS_9allocatorIS3_EEEC2B8ne200100IJRNS_10shared_ptrI10imemstreamEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom6ReaderENS_9allocatorIS3_EEEC2B8ne200100IJRNS_10shared_ptrINS_13basic_istreamIcNS_11char_traitsIcEEEEEERbSF_ES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom6ReaderENS_9allocatorIS3_EEEC2B8ne200100IJRNS_10shared_ptrINS_18basic_stringstreamIcNS_11char_traitsIcEENS4_IcEEEEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom6ReaderENS_9allocatorIS3_EEEC2B8ne200100IJRNS_10shared_ptrINS_19basic_istringstreamIcNS_11char_traitsIcEENS4_IcEEEEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom6ReaderENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom6ReaderENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom6WriterENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom6WriterENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom6WriterENS_9allocatorIS3_EEEC2B8ne200100IJRNS_10shared_ptrINS_13basic_ostreamIcNS_11char_traitsIcEEEEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom6WriterENS_9allocatorIS3_EEEC2B8ne200100IJRNS_10shared_ptrINS_19basic_ostringstreamIcNS_11char_traitsIcEENS4_IcEEEEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom6WriterENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom6WriterENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7DataSetENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7DataSetENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7DataSetENS_9allocatorIS3_EEEC2B8ne200100IJES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7DataSetENS_9allocatorIS3_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7DataSetENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7DataSetENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary10BitsStoredEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary10BitsStoredEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary10BitsStoredEEENS_9allocatorIS6_EEEC2B8ne200100IJES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary10BitsStoredEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary10BitsStoredEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary10BitsStoredEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary10ColorSpaceEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary10ColorSpaceEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary10ColorSpaceEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary10ColorSpaceEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary10ColorSpaceEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary10ICCProfileEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary10ICCProfileEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary10ICCProfileEEENS_9allocatorIS6_EEEC2B8ne200100IJES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary10ICCProfileEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary10ICCProfileEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary10ICCProfileEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary11PatientNameEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary11PatientNameEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary11PatientNameEEENS_9allocatorIS6_EEEC2B8ne200100IJES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary11PatientNameEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary11PatientNameEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary11PatientNameEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary11SOPClassUIDEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary11SOPClassUIDEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary11SOPClassUIDEEENS_9allocatorIS6_EEEC2B8ne200100IJES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary11SOPClassUIDEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary11SOPClassUIDEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary11WindowWidthEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary11WindowWidthEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary11WindowWidthEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary11WindowWidthEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary11WindowWidthEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary12PixelData_OBEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary12PixelData_OBEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary12PixelData_OBEEENS_9allocatorIS6_EEEC2B8ne200100IJES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary12PixelData_OBEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary12PixelData_OBEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary12RescaleSlopeEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary12RescaleSlopeEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary12RescaleSlopeEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary12RescaleSlopeEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary12RescaleSlopeEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary12WindowCenterEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary12WindowCenterEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary12WindowCenterEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary12WindowCenterEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary12WindowCenterEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary13BitsAllocatedEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary13BitsAllocatedEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary13BitsAllocatedEEENS_9allocatorIS6_EEEC2B8ne200100IJES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary13BitsAllocatedEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary13BitsAllocatedEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary13BitsAllocatedEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14AcquisitionUIDEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14AcquisitionUIDEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14AcquisitionUIDEEENS_9allocatorIS6_EEEC2B8ne200100IJES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14AcquisitionUIDEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14AcquisitionUIDEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14NumberOfFramesEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14NumberOfFramesEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14NumberOfFramesEEENS_9allocatorIS6_EEEC2B8ne200100IJES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14NumberOfFramesEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14NumberOfFramesEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14NumberOfFramesEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14PrivateElementEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14PrivateElementEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14PrivateElementEEENS_9allocatorIS6_EEEC2B8ne200100IJRKNS1_3TagEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14PrivateElementEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14PrivateElementEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14SOPInstanceUIDEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14SOPInstanceUIDEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14SOPInstanceUIDEEENS_9allocatorIS6_EEEC2B8ne200100IJES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14SOPInstanceUIDEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14SOPInstanceUIDEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14VOILUTFunctionEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14VOILUTFunctionEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14VOILUTFunctionEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14VOILUTFunctionEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14VOILUTFunctionEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary15SamplesPerPixelEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary15SamplesPerPixelEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary15SamplesPerPixelEEENS_9allocatorIS6_EEEC2B8ne200100IJES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary15SamplesPerPixelEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary15SamplesPerPixelEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary15SamplesPerPixelEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary15TypeOfPatientIDEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary15TypeOfPatientIDEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary15TypeOfPatientIDEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary15TypeOfPatientIDEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary15TypeOfPatientIDEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary16PixelAspectRatioEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary16PixelAspectRatioEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary16PixelAspectRatioEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary16PixelAspectRatioEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary16PixelAspectRatioEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary16RescaleInterceptEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary16RescaleInterceptEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary16RescaleInterceptEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary16RescaleInterceptEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary16RescaleInterceptEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary16StudyInstanceUIDEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary16StudyInstanceUIDEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary16StudyInstanceUIDEEENS_9allocatorIS6_EEEC2B8ne200100IJES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary16StudyInstanceUIDEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary16StudyInstanceUIDEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary17IssuerOfPatientIDEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary17IssuerOfPatientIDEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary17IssuerOfPatientIDEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary17IssuerOfPatientIDEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary17IssuerOfPatientIDEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary17SeriesInstanceUIDEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary17SeriesInstanceUIDEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary17SeriesInstanceUIDEEENS_9allocatorIS6_EEEC2B8ne200100IJES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary17SeriesInstanceUIDEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary17SeriesInstanceUIDEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary17TransferSyntaxUIDEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary17TransferSyntaxUIDEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary17TransferSyntaxUIDEEENS_9allocatorIS6_EEEC2B8ne200100IJES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary17TransferSyntaxUIDEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary17TransferSyntaxUIDEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary17TransferSyntaxUIDEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary18InstanceCreatorUIDEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary18InstanceCreatorUIDEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary18InstanceCreatorUIDEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary18InstanceCreatorUIDEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary18InstanceCreatorUIDEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary19PixelRepresentationEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary19PixelRepresentationEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary19PixelRepresentationEEENS_9allocatorIS6_EEEC2B8ne200100IJES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary19PixelRepresentationEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary19PixelRepresentationEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary19PixelRepresentationEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary19PlanarConfigurationEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary19PlanarConfigurationEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary19PlanarConfigurationEEENS_9allocatorIS6_EEEC2B8ne200100IJES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary19PlanarConfigurationEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary19PlanarConfigurationEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary19PlanarConfigurationEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary20InstanceCreationDateEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary20InstanceCreationDateEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary20InstanceCreationDateEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary20InstanceCreationDateEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary20InstanceCreationDateEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary20InstanceCreationTimeEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary20InstanceCreationTimeEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary20InstanceCreationTimeEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary20InstanceCreationTimeEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary20InstanceCreationTimeEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary20SpecificCharacterSetEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary20SpecificCharacterSetEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary20SpecificCharacterSetEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary20SpecificCharacterSetEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary20SpecificCharacterSetEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary21LossyImageCompressionEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary21LossyImageCompressionEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary21LossyImageCompressionEEENS_9allocatorIS6_EEEC2B8ne200100IJES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary21LossyImageCompressionEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary21LossyImageCompressionEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary25LargestImagePixelValue_SSEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary25LargestImagePixelValue_SSEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary25LargestImagePixelValue_SSEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary25LargestImagePixelValue_SSEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary25LargestImagePixelValue_SSEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary25LargestImagePixelValue_USEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary25LargestImagePixelValue_USEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary25LargestImagePixelValue_USEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary25LargestImagePixelValue_USEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary25LargestImagePixelValue_USEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary25PhotometricInterpretationEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary25PhotometricInterpretationEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary25PhotometricInterpretationEEENS_9allocatorIS6_EEEC2B8ne200100IJES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary25PhotometricInterpretationEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary25PhotometricInterpretationEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary25PhotometricInterpretationEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary26SmallestImagePixelValue_SSEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary26SmallestImagePixelValue_SSEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary26SmallestImagePixelValue_SSEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary26SmallestImagePixelValue_SSEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary26SmallestImagePixelValue_SSEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary26SmallestImagePixelValue_USEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary26SmallestImagePixelValue_USEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary26SmallestImagePixelValue_USEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary26SmallestImagePixelValue_USEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary26SmallestImagePixelValue_USEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary30RedPaletteColorLookupTableDataEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary30RedPaletteColorLookupTableDataEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary30RedPaletteColorLookupTableDataEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary30RedPaletteColorLookupTableDataEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary30RedPaletteColorLookupTableDataEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary31BluePaletteColorLookupTableDataEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary31BluePaletteColorLookupTableDataEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary31BluePaletteColorLookupTableDataEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary31BluePaletteColorLookupTableDataEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary31BluePaletteColorLookupTableDataEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary32GreenPaletteColorLookupTableDataEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary32GreenPaletteColorLookupTableDataEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary32GreenPaletteColorLookupTableDataEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary32GreenPaletteColorLookupTableDataEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary32GreenPaletteColorLookupTableDataEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary39RedPaletteColorLookupTableDescriptor_SSEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary39RedPaletteColorLookupTableDescriptor_SSEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary39RedPaletteColorLookupTableDescriptor_SSEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary39RedPaletteColorLookupTableDescriptor_SSEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary39RedPaletteColorLookupTableDescriptor_SSEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary39RedPaletteColorLookupTableDescriptor_USEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary39RedPaletteColorLookupTableDescriptor_USEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary39RedPaletteColorLookupTableDescriptor_USEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary39RedPaletteColorLookupTableDescriptor_USEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary39RedPaletteColorLookupTableDescriptor_USEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary40BluePaletteColorLookupTableDescriptor_SSEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary40BluePaletteColorLookupTableDescriptor_SSEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary40BluePaletteColorLookupTableDescriptor_SSEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary40BluePaletteColorLookupTableDescriptor_SSEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary40BluePaletteColorLookupTableDescriptor_SSEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary40BluePaletteColorLookupTableDescriptor_USEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary40BluePaletteColorLookupTableDescriptor_USEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary40BluePaletteColorLookupTableDescriptor_USEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary40BluePaletteColorLookupTableDescriptor_USEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary40BluePaletteColorLookupTableDescriptor_USEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary41GreenPaletteColorLookupTableDescriptor_SSEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary41GreenPaletteColorLookupTableDescriptor_SSEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary41GreenPaletteColorLookupTableDescriptor_SSEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary41GreenPaletteColorLookupTableDescriptor_SSEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary41GreenPaletteColorLookupTableDescriptor_SSEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary41GreenPaletteColorLookupTableDescriptor_USEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary41GreenPaletteColorLookupTableDescriptor_USEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary41GreenPaletteColorLookupTableDescriptor_USEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary41GreenPaletteColorLookupTableDescriptor_USEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary41GreenPaletteColorLookupTableDescriptor_USEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary4RowsEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary4RowsEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary4RowsEEENS_9allocatorIS6_EEEC2B8ne200100IJES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary4RowsEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary4RowsEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary4RowsEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary7ColumnsEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary7ColumnsEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary7ColumnsEEENS_9allocatorIS6_EEEC2B8ne200100IJES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary7ColumnsEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary7ColumnsEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary7ColumnsEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary7HighBitEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary7HighBitEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary7HighBitEEENS_9allocatorIS6_EEEC2B8ne200100IJES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary7HighBitEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary7HighBitEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary7HighBitEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary8ModalityEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary8ModalityEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary8ModalityEEENS_9allocatorIS6_EEEC2B8ne200100IJES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary8ModalityEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary8ModalityEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary8ModalityEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary9ImageTypeEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary9ImageTypeEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary9ImageTypeEEENS_9allocatorIS6_EEEC2B8ne200100IJES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary9ImageTypeEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary9ImageTypeEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary9ImageTypeEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary9PatientIDEEENS_9allocatorIS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary9PatientIDEEENS_9allocatorIS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary9PatientIDEEENS_9allocatorIS6_EEEC2B8ne200100IJRNS_10shared_ptrINS2_11DataElementEEEES8_Li0EEES8_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary9PatientIDEEENS_9allocatorIS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary9PatientIDEEENS_9allocatorIS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom8FileMetaENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom8FileMetaENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom8FileMetaENS_9allocatorIS3_EEEC2B8ne200100IJRKNS2_8SOPClassERKNS1_3UIDEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom8FileMetaENS_9allocatorIS3_EEEC2B8ne200100IJRNS2_6ReaderEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom8FileMetaENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom8FileMetaENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom8PreambleENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom8PreambleENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom8PreambleENS_9allocatorIS3_EEEC2B8ne200100IJES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom8PreambleENS_9allocatorIS3_EEEC2B8ne200100IJRNS2_6ReaderEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom8PreambleENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom8PreambleENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom8RawValueENS_9allocatorIS3_EEEC2B8ne200100IJRA2_cPcES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4vega5dicom8RawValueENS_9allocatorIS3_EEEC2B8ne200100IJmES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceINS_18basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceINS_18basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceINS_18basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEC2B8ne200100IJES7_Li0EEES7_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceINS_18basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceINS_18basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceINS_19basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceINS_19basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceINS_19basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEC2B8ne200100IJRNS_12basic_stringIcS3_S5_EEES7_Li0EEES7_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceINS_19basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceINS_19basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceINS_19basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceINS_19basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceINS_19basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEC2B8ne200100IJES7_Li0EEES7_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceINS_19basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceINS_19basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceINS_6vectorIcNS_9allocatorIcEEEENS2_IS4_EEEC2B8ne200100IJRmES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_pointerIPNS_13__empty_stateIcEENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_pointerIPNS_13__empty_stateIcEENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_pointerIPNS_13__empty_stateIcEENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED0Ev
+- __ZNSt3__120__shared_ptr_pointerIPNS_13__empty_stateIcEENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED1Ev
+- __ZNSt3__120__throw_bad_weak_ptrB8ne200100Ev
+- __ZNSt3__120dynamic_pointer_castB8ne200100IN4vega12manipulators20OtherByteManipulatorENS2_16ValueManipulatorEEENS_10shared_ptrIT_EERKNS5_IT0_EE
+- __ZNSt3__120dynamic_pointer_castB8ne200100IN4vega12manipulators21SignedLongManipulatorENS2_16ValueManipulatorEEENS_10shared_ptrIT_EERKNS5_IT0_EE
+- __ZNSt3__120dynamic_pointer_castB8ne200100IN4vega12manipulators22SignedShortManipulatorENS2_16ValueManipulatorEEENS_10shared_ptrIT_EERKNS5_IT0_EE
+- __ZNSt3__120dynamic_pointer_castB8ne200100IN4vega12manipulators23SingleStringManipulatorENS2_16ValueManipulatorEEENS_10shared_ptrIT_EEONS5_IT0_EE
+- __ZNSt3__120dynamic_pointer_castB8ne200100IN4vega12manipulators23UnsignedLongManipulatorENS2_16ValueManipulatorEEENS_10shared_ptrIT_EERKNS5_IT0_EE
+- __ZNSt3__120dynamic_pointer_castB8ne200100IN4vega12manipulators24FloatingPointManipulatorENS2_16ValueManipulatorEEENS_10shared_ptrIT_EERKNS5_IT0_EE
+- __ZNSt3__120dynamic_pointer_castB8ne200100IN4vega12manipulators25SignedVeryLongManipulatorENS2_16ValueManipulatorEEENS_10shared_ptrIT_EERKNS5_IT0_EE
+- __ZNSt3__120dynamic_pointer_castB8ne200100IN4vega12manipulators27FixedSizeElementManipulatorINS1_3TagEEENS2_16ValueManipulatorEEENS_10shared_ptrIT_EERKNS7_IT0_EE
+- __ZNSt3__120dynamic_pointer_castB8ne200100IN4vega12manipulators27FixedSizeElementManipulatorIxEENS2_16ValueManipulatorEEENS_10shared_ptrIT_EERKNS6_IT0_EE
+- __ZNSt3__120dynamic_pointer_castB8ne200100IN4vega12manipulators27FixedSizeElementManipulatorIyEENS2_16ValueManipulatorEEENS_10shared_ptrIT_EERKNS6_IT0_EE
+- __ZNSt3__120dynamic_pointer_castB8ne200100IN4vega12manipulators27UnsignedVeryLongManipulatorENS2_16ValueManipulatorEEENS_10shared_ptrIT_EERKNS5_IT0_EE
+- __ZNSt3__120dynamic_pointer_castB8ne200100IN4vega12manipulators30FloatingPointDoubleManipulatorENS2_16ValueManipulatorEEENS_10shared_ptrIT_EERKNS5_IT0_EE
+- __ZNSt3__121__empty_non_own_stateIcED0Ev
+- __ZNSt3__121__empty_non_own_stateIcED1Ev
+- __ZNSt3__123__match_any_but_newlineIcED0Ev
+- __ZNSt3__123__match_any_but_newlineIcED1Ev
+- __ZNSt3__123__optional_storage_baseINS_6vectorINS1_IN4vega4ByteENS_9allocatorIS3_EEEENS4_IS6_EEEELb0EE13__assign_fromB8ne200100INS_27__optional_move_assign_baseIS8_Lb0EEEEEvOT_
+- __ZNSt3__126__end_marked_subexpressionIcED0Ev
+- __ZNSt3__126__end_marked_subexpressionIcED1Ev
+- __ZNSt3__127__insertion_sort_incompleteB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_16reverse_iteratorINS_11__wrap_iterIPjEEEEEEbT1_SA_T0_
+- __ZNSt3__128__begin_marked_subexpressionIcED0Ev
+- __ZNSt3__128__begin_marked_subexpressionIcED1Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN4vega4DateEEEPS4_EEED2B8ne200100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN4vega4TimeEEEPS4_EEED2B8ne200100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN4vega8DateTimeEEEPS4_EEED2B8ne200100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_10shared_ptrIN4vega5dicom7DataSetEEEEEPS7_EEED2B8ne200100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEEEPS7_EEED2B8ne200100Ev
+- __ZNSt3__131__partition_with_equals_on_leftB8ne200100INS_17_ClassicAlgPolicyENS_16reverse_iteratorINS_11__wrap_iterIPjEEEERNS_6__lessIvvEEEET0_SA_SA_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8ne200100INS_17_ClassicAlgPolicyENS_16reverse_iteratorINS_11__wrap_iterIPjEEEERNS_6__lessIvvEEEENS_4pairIT0_bEESB_SB_T1_
+- __ZNSt3__134__uninitialized_allocator_relocateB8ne200100INS_9allocatorIN4vega4DateEEEPS3_EEvRT_T0_S8_S8_
+- __ZNSt3__134__uninitialized_allocator_relocateB8ne200100INS_9allocatorIN4vega4TimeEEEPS3_EEvRT_T0_S8_S8_
+- __ZNSt3__134__uninitialized_allocator_relocateB8ne200100INS_9allocatorIN4vega8DateTimeEEEPS3_EEvRT_T0_S8_S8_
+- __ZNSt3__134__uninitialized_allocator_relocateB8ne200100INS_9allocatorINS_7__stateIcEEEEPS3_EEvRT_T0_S8_S8_
+- __ZNSt3__135__uninitialized_allocator_copy_implB8ne200100INS_9allocatorIN4vega5dicom14TransferSyntaxEEEPKS4_S7_PS4_EET2_RT_T0_T1_S9_
+- __ZNSt3__135__uninitialized_allocator_copy_implB8ne200100INS_9allocatorINS_10shared_ptrIN4vega5dicom7DataSetEEEEEPS6_S8_S8_EET2_RT_T0_T1_S9_
+- __ZNSt3__135__uninitialized_allocator_copy_implB8ne200100INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPS6_S8_S8_EET2_RT_T0_T1_S9_
+- __ZNSt3__135__uninitialized_allocator_copy_implB8ne200100INS_9allocatorINS_6vectorIN4vega4ByteENS1_IS4_EEEEEEPKS6_S9_PS6_EET2_RT_T0_T1_SB_
+- __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4vega3UIDENS_4lessIS6_EENS4_INS_4pairIKS6_S8_EEEEE6insertB8ne200100INS_20__map_const_iteratorINS_21__tree_const_iteratorINS_12__value_typeIS6_S8_EEPNS_11__tree_nodeISK_PvEElEEEEEEvT_SR_
+- __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4vega3UIDENS_4lessIS6_EENS4_INS_4pairIKS6_S8_EEEEEC2B8ne200100ERKSF_
+- __ZNSt3__14cerrE
+- __ZNSt3__14coutE
+- __ZNSt3__14endlB8ne200100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4vega3UIDEEC2B8ne200100ERKSA_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4vega3UIDEEC2B8ne200100IS6_S9_Li0EEERKNS0_IT_T0_EE
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIKN4vega10dictionary4PageEEEEC2B8ne200100ILb1ELi0EEERS7_RKSD_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4vega10dictionary12PrivateOwnerEEEEC2B8ne200100IRS7_RSC_Li0EEEOT_OT0_
+- __ZNSt3__14pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_ED1Ev
+- __ZNSt3__14stoiERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPmi
+- __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEE10push_frontEOS2_
+- __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEE19__add_back_capacityEv
+- __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEE20__add_front_capacityEv
+- __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEE25__maybe_remove_back_spareB8ne200100Eb
+- __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEE8pop_backEv
+- __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEE9push_backEOS2_
+- __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEED2B8ne200100Ev
+- __ZNSt3__15mutex4lockEv
+- __ZNSt3__15mutex6unlockEv
+- __ZNSt3__15mutexD1Ev
+- __ZNSt3__15stoulERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPmi
+- __ZNSt3__16__loopIcED0Ev
+- __ZNSt3__16__loopIcED1Ev
+- __ZNSt3__16__treeIN4vega3TagENS_4lessIS2_EENS_9allocatorIS2_EEE12__find_equalIS2_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISC_EERKT_
+- __ZNSt3__16__treeIN4vega3TagENS_4lessIS2_EENS_9allocatorIS2_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSC_SC_
+- __ZNSt3__16__treeIN4vega3TagENS_4lessIS2_EENS_9allocatorIS2_EEE25__emplace_unique_key_argsIS2_JRKS2_EEENS_4pairINS_15__tree_iteratorIS2_PNS_11__tree_nodeIS2_PvEElEEbEERKT_DpOT0_
+- __ZNSt3__16__treeIN4vega3TagENS_4lessIS2_EENS_9allocatorIS2_EEE7destroyEPNS_11__tree_nodeIS2_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIN4vega3TagENS_10shared_ptrIKNS2_10dictionary4PageEEEEENS_19__map_value_compareIS3_S9_NS_4lessIS3_EELb1EEENS_9allocatorIS9_EEE12__find_equalIS3_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISL_EERKT_
+- __ZNSt3__16__treeINS_12__value_typeIN4vega3TagENS_10shared_ptrIKNS2_10dictionary4PageEEEEENS_19__map_value_compareIS3_S9_NS_4lessIS3_EELb1EEENS_9allocatorIS9_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSL_SL_
+- __ZNSt3__16__treeINS_12__value_typeIN4vega3TagENS_10shared_ptrIKNS2_10dictionary4PageEEEEENS_19__map_value_compareIS3_S9_NS_4lessIS3_EELb1EEENS_9allocatorIS9_EEE25__emplace_unique_key_argsIS3_JRKS3_RKS8_EEENS_4pairINS_15__tree_iteratorIS9_PNS_11__tree_nodeIS9_PvEElEEbEERKT_DpOT0_
+- __ZNSt3__16__treeINS_12__value_typeIN4vega3TagENS_10shared_ptrIKNS2_10dictionary4PageEEEEENS_19__map_value_compareIS3_S9_NS_4lessIS3_EELb1EEENS_9allocatorIS9_EEE7destroyEPNS_11__tree_nodeIS9_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIN4vega3TagENS_10shared_ptrINS2_5dicom11DataElementEEEEENS_19__map_value_compareIS3_S8_NS_4lessIS3_EELb1EEENS_9allocatorIS8_EEE12__find_equalIS3_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISK_EERKT_
+- __ZNSt3__16__treeINS_12__value_typeIN4vega3TagENS_10shared_ptrINS2_5dicom11DataElementEEEEENS_19__map_value_compareIS3_S8_NS_4lessIS3_EELb1EEENS_9allocatorIS8_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSK_SK_
+- __ZNSt3__16__treeINS_12__value_typeIN4vega3TagENS_10shared_ptrINS2_5dicom11DataElementEEEEENS_19__map_value_compareIS3_S8_NS_4lessIS3_EELb1EEENS_9allocatorIS8_EEE25__emplace_unique_key_argsIS3_JRS3_RS7_EEENS_4pairINS_15__tree_iteratorIS8_PNS_11__tree_nodeIS8_PvEElEEbEERKT_DpOT0_
+- __ZNSt3__16__treeINS_12__value_typeIN4vega3TagENS_10shared_ptrINS2_5dicom11DataElementEEEEENS_19__map_value_compareIS3_S8_NS_4lessIS3_EELb1EEENS_9allocatorIS8_EEE4findIS3_EENS_15__tree_iteratorIS8_PNS_11__tree_nodeIS8_PvEElEERKT_
+- __ZNSt3__16__treeINS_12__value_typeIN4vega3TagENS_10shared_ptrINS2_5dicom11DataElementEEEEENS_19__map_value_compareIS3_S8_NS_4lessIS3_EELb1EEENS_9allocatorIS8_EEE7destroyEPNS_11__tree_nodeIS8_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIN4vega3TagENS_3mapIS3_NS_10shared_ptrIKNS2_10dictionary4PageEEENS_4lessIS3_EENS_9allocatorINS_4pairIKS3_S9_EEEEEEEENS_19__map_value_compareIS3_SI_SB_Lb1EEENSC_ISI_EEE12__find_equalIS3_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISR_EERKT_
+- __ZNSt3__16__treeINS_12__value_typeIN4vega3TagENS_3mapIS3_NS_10shared_ptrIKNS2_10dictionary4PageEEENS_4lessIS3_EENS_9allocatorINS_4pairIKS3_S9_EEEEEEEENS_19__map_value_compareIS3_SI_SB_Lb1EEENSC_ISI_EEE16__construct_nodeIJRSE_SH_EEENS_10unique_ptrINS_11__tree_nodeISI_PvEENS_22__tree_node_destructorINSC_ISS_EEEEEEDpOT_
+- __ZNSt3__16__treeINS_12__value_typeIN4vega3TagENS_3mapIS3_NS_10shared_ptrIKNS2_10dictionary4PageEEENS_4lessIS3_EENS_9allocatorINS_4pairIKS3_S9_EEEEEEEENS_19__map_value_compareIS3_SI_SB_Lb1EEENSC_ISI_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSR_SR_
+- __ZNSt3__16__treeINS_12__value_typeIN4vega3TagENS_3mapIS3_NS_10shared_ptrIKNS2_10dictionary4PageEEENS_4lessIS3_EENS_9allocatorINS_4pairIKS3_S9_EEEEEEEENS_19__map_value_compareIS3_SI_SB_Lb1EEENSC_ISI_EEE25__emplace_unique_key_argsIS3_JRSE_SH_EEENSD_INS_15__tree_iteratorISI_PNS_11__tree_nodeISI_PvEElEEbEERKT_DpOT0_
+- __ZNSt3__16__treeINS_12__value_typeIN4vega3TagENS_3mapIS3_NS_10shared_ptrIKNS2_10dictionary4PageEEENS_4lessIS3_EENS_9allocatorINS_4pairIKS3_S9_EEEEEEEENS_19__map_value_compareIS3_SI_SB_Lb1EEENSC_ISI_EEE4findIS3_EENS_15__tree_iteratorISI_PNS_11__tree_nodeISI_PvEElEERKT_
+- __ZNSt3__16__treeINS_12__value_typeIN4vega3TagENS_3mapIS3_NS_10shared_ptrIKNS2_10dictionary4PageEEENS_4lessIS3_EENS_9allocatorINS_4pairIKS3_S9_EEEEEEEENS_19__map_value_compareIS3_SI_SB_Lb1EEENSC_ISI_EEE7destroyEPNS_11__tree_nodeISI_PvEE
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4vega3UIDEEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS5_ISA_EEE12__find_equalIS7_EERPNS_16__tree_node_baseIPvEENS_21__tree_const_iteratorISA_PNS_11__tree_nodeISA_SJ_EElEERPNS_15__tree_end_nodeISL_EESM_RKT_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4vega3UIDEEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS5_ISA_EEE12__find_equalIS7_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISL_EERKT_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4vega3UIDEEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS5_ISA_EEE16__construct_nodeIJRKNS_4pairIKS7_S9_EEEEENS_10unique_ptrINS_11__tree_nodeISA_PvEENS_22__tree_node_destructorINS5_ISQ_EEEEEEDpOT_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4vega3UIDEEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS5_ISA_EEE16__construct_nodeIJRKNS_4pairIS7_S9_EEEEENS_10unique_ptrINS_11__tree_nodeISA_PvEENS_22__tree_node_destructorINS5_ISP_EEEEEEDpOT_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4vega3UIDEEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS5_ISA_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSL_SL_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4vega3UIDEEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS5_ISA_EEE25__emplace_unique_key_argsIS7_JRKNS_4pairIS7_S9_EEEEENSI_INS_15__tree_iteratorISA_PNS_11__tree_nodeISA_PvEElEEbEERKT_DpOT0_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4vega3UIDEEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS5_ISA_EEE30__emplace_hint_unique_key_argsIS7_JRKNS_4pairIKS7_S9_EEEEENSI_INS_15__tree_iteratorISA_PNS_11__tree_nodeISA_PvEElEEbEENS_21__tree_const_iteratorISA_SR_lEERKT_DpOT0_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4vega3UIDEEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS5_ISA_EEE4findIS7_EENS_15__tree_iteratorISA_PNS_11__tree_nodeISA_PvEElEERKT_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4vega3UIDEEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS5_ISA_EEE7destroyEPNS_11__tree_nodeISA_PvEE
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIKN4vega10dictionary4PageEEEEENS_19__map_value_compareIS7_SE_NS_4lessIS7_EELb1EEENS5_ISE_EEE12__find_equalIS7_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISP_EERKT_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIKN4vega10dictionary4PageEEEEENS_19__map_value_compareIS7_SE_NS_4lessIS7_EELb1EEENS5_ISE_EEE16__construct_nodeIJRKS7_RKSD_EEENS_10unique_ptrINS_11__tree_nodeISE_PvEENS_22__tree_node_destructorINS5_IST_EEEEEEDpOT_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIKN4vega10dictionary4PageEEEEENS_19__map_value_compareIS7_SE_NS_4lessIS7_EELb1EEENS5_ISE_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSP_SP_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIKN4vega10dictionary4PageEEEEENS_19__map_value_compareIS7_SE_NS_4lessIS7_EELb1EEENS5_ISE_EEE25__emplace_unique_key_argsIS7_JRKS7_RKSD_EEENS_4pairINS_15__tree_iteratorISE_PNS_11__tree_nodeISE_PvEElEEbEERKT_DpOT0_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIKN4vega10dictionary4PageEEEEENS_19__map_value_compareIS7_SE_NS_4lessIS7_EELb1EEENS5_ISE_EEE7destroyEPNS_11__tree_nodeISE_PvEE
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4vega10dictionary12PrivateOwnerEEEEENS_19__map_value_compareIS7_SD_NS_4lessIS7_EELb1EEENS5_ISD_EEE12__find_equalIS7_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISO_EERKT_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4vega10dictionary12PrivateOwnerEEEEENS_19__map_value_compareIS7_SD_NS_4lessIS7_EELb1EEENS5_ISD_EEE16__construct_nodeIJRKS7_RSC_EEENS_10unique_ptrINS_11__tree_nodeISD_PvEENS_22__tree_node_destructorINS5_ISR_EEEEEEDpOT_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4vega10dictionary12PrivateOwnerEEEEENS_19__map_value_compareIS7_SD_NS_4lessIS7_EELb1EEENS5_ISD_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSO_SO_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4vega10dictionary12PrivateOwnerEEEEENS_19__map_value_compareIS7_SD_NS_4lessIS7_EELb1EEENS5_ISD_EEE25__emplace_unique_key_argsIS7_JRKS7_RSC_EEENS_4pairINS_15__tree_iteratorISD_PNS_11__tree_nodeISD_PvEElEEbEERKT_DpOT0_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4vega10dictionary12PrivateOwnerEEEEENS_19__map_value_compareIS7_SD_NS_4lessIS7_EELb1EEENS5_ISD_EEE4findIS7_EENS_15__tree_iteratorISD_PNS_11__tree_nodeISD_PvEElEERKT_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4vega10dictionary12PrivateOwnerEEEEENS_19__map_value_compareIS7_SD_NS_4lessIS7_EELb1EEENS5_ISD_EEE7destroyEPNS_11__tree_nodeISD_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIjNS_3setIN4vega3TagENS_4lessIS4_EENS_9allocatorIS4_EEEEEENS_19__map_value_compareIjSA_NS5_IjEELb1EEENS7_ISA_EEE16__construct_nodeIJRjS9_EEENS_10unique_ptrINS_11__tree_nodeISA_PvEENS_22__tree_node_destructorINS7_ISL_EEEEEEDpOT_
+- __ZNSt3__16__treeINS_12__value_typeIjNS_3setIN4vega3TagENS_4lessIS4_EENS_9allocatorIS4_EEEEEENS_19__map_value_compareIjSA_NS5_IjEELb1EEENS7_ISA_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSK_SK_
+- __ZNSt3__16__treeINS_12__value_typeIjNS_3setIN4vega3TagENS_4lessIS4_EENS_9allocatorIS4_EEEEEENS_19__map_value_compareIjSA_NS5_IjEELb1EEENS7_ISA_EEE25__emplace_unique_key_argsIjJRjS9_EEENS_4pairINS_15__tree_iteratorISA_PNS_11__tree_nodeISA_PvEElEEbEERKT_DpOT0_
+- __ZNSt3__16__treeINS_12__value_typeIjNS_3setIN4vega3TagENS_4lessIS4_EENS_9allocatorIS4_EEEEEENS_19__map_value_compareIjSA_NS5_IjEELb1EEENS7_ISA_EEE7destroyEPNS_11__tree_nodeISA_PvEE
+- __ZNSt3__16__treeINS_12__value_typeItNS_10shared_ptrIKN4vega10dictionary4PageEEEEENS_19__map_value_compareItS8_NS_4lessItEELb1EEENS_9allocatorIS8_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSK_SK_
+- __ZNSt3__16__treeINS_12__value_typeItNS_10shared_ptrIKN4vega10dictionary4PageEEEEENS_19__map_value_compareItS8_NS_4lessItEELb1EEENS_9allocatorIS8_EEE25__emplace_unique_key_argsItJRtRS7_EEENS_4pairINS_15__tree_iteratorIS8_PNS_11__tree_nodeIS8_PvEElEEbEERKT_DpOT0_
+- __ZNSt3__16__treeINS_12__value_typeItNS_10shared_ptrIKN4vega10dictionary4PageEEEEENS_19__map_value_compareItS8_NS_4lessItEELb1EEENS_9allocatorIS8_EEE7destroyEPNS_11__tree_nodeIS8_PvEE
+- __ZNSt3__16__treeINS_12__value_typeItNS_10shared_ptrIN4vega10dictionary17PrivateOwnerBlockEEEEENS_19__map_value_compareItS7_NS_4lessItEELb1EEENS_9allocatorIS7_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSJ_SJ_
+- __ZNSt3__16__treeINS_12__value_typeItNS_10shared_ptrIN4vega10dictionary17PrivateOwnerBlockEEEEENS_19__map_value_compareItS7_NS_4lessItEELb1EEENS_9allocatorIS7_EEE25__emplace_unique_key_argsItJRtRS6_EEENS_4pairINS_15__tree_iteratorIS7_PNS_11__tree_nodeIS7_PvEElEEbEERKT_DpOT0_
+- __ZNSt3__16__treeINS_12__value_typeItNS_10shared_ptrIN4vega10dictionary17PrivateOwnerBlockEEEEENS_19__map_value_compareItS7_NS_4lessItEELb1EEENS_9allocatorIS7_EEE7destroyEPNS_11__tree_nodeIS7_PvEE
+- __ZNSt3__16__treeINS_12__value_typeItNS_3mapItNS_10shared_ptrIKN4vega10dictionary4PageEEENS_4lessItEENS_9allocatorINS_4pairIKtS8_EEEEEEEENS_19__map_value_compareItSH_SA_Lb1EEENSB_ISH_EEE16__construct_nodeIJRtSG_EEENS_10unique_ptrINS_11__tree_nodeISH_PvEENS_22__tree_node_destructorINSB_ISR_EEEEEEDpOT_
+- __ZNSt3__16__treeINS_12__value_typeItNS_3mapItNS_10shared_ptrIKN4vega10dictionary4PageEEENS_4lessItEENS_9allocatorINS_4pairIKtS8_EEEEEEEENS_19__map_value_compareItSH_SA_Lb1EEENSB_ISH_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSQ_SQ_
+- __ZNSt3__16__treeINS_12__value_typeItNS_3mapItNS_10shared_ptrIKN4vega10dictionary4PageEEENS_4lessItEENS_9allocatorINS_4pairIKtS8_EEEEEEEENS_19__map_value_compareItSH_SA_Lb1EEENSB_ISH_EEE25__emplace_unique_key_argsItJRtSG_EEENSC_INS_15__tree_iteratorISH_PNS_11__tree_nodeISH_PvEElEEbEERKT_DpOT0_
+- __ZNSt3__16__treeINS_12__value_typeItNS_3mapItNS_10shared_ptrIKN4vega10dictionary4PageEEENS_4lessItEENS_9allocatorINS_4pairIKtS8_EEEEEEEENS_19__map_value_compareItSH_SA_Lb1EEENSB_ISH_EEE7destroyEPNS_11__tree_nodeISH_PvEE
+- __ZNSt3__16__treeINS_12__value_typeItNS_3mapItNS_10shared_ptrIN4vega10dictionary17PrivateOwnerBlockEEENS_4lessItEENS_9allocatorINS_4pairIKtS7_EEEEEEEENS_19__map_value_compareItSG_S9_Lb1EEENSA_ISG_EEE16__construct_nodeIJRtSF_EEENS_10unique_ptrINS_11__tree_nodeISG_PvEENS_22__tree_node_destructorINSA_ISQ_EEEEEEDpOT_
+- __ZNSt3__16__treeINS_12__value_typeItNS_3mapItNS_10shared_ptrIN4vega10dictionary17PrivateOwnerBlockEEENS_4lessItEENS_9allocatorINS_4pairIKtS7_EEEEEEEENS_19__map_value_compareItSG_S9_Lb1EEENSA_ISG_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSP_SP_
+- __ZNSt3__16__treeINS_12__value_typeItNS_3mapItNS_10shared_ptrIN4vega10dictionary17PrivateOwnerBlockEEENS_4lessItEENS_9allocatorINS_4pairIKtS7_EEEEEEEENS_19__map_value_compareItSG_S9_Lb1EEENSA_ISG_EEE25__emplace_unique_key_argsItJRtSF_EEENSB_INS_15__tree_iteratorISG_PNS_11__tree_nodeISG_PvEElEEbEERKT_DpOT0_
+- __ZNSt3__16__treeINS_12__value_typeItNS_3mapItNS_10shared_ptrIN4vega10dictionary17PrivateOwnerBlockEEENS_4lessItEENS_9allocatorINS_4pairIKtS7_EEEEEEEENS_19__map_value_compareItSG_S9_Lb1EEENSA_ISG_EEE7destroyEPNS_11__tree_nodeISG_PvEE
+- __ZNSt3__16__treeIjNS_4lessIjEENS_9allocatorIjEEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSA_SA_
+- __ZNSt3__16__treeIjNS_4lessIjEENS_9allocatorIjEEE25__emplace_unique_key_argsIjJRKjEEENS_4pairINS_15__tree_iteratorIjPNS_11__tree_nodeIjPvEElEEbEERKT_DpOT0_
+- __ZNSt3__16__treeIjNS_4lessIjEENS_9allocatorIjEEE7destroyEPNS_11__tree_nodeIjPvEE
+- __ZNSt3__16localeC1ERKS0_
+- __ZNSt3__16vectorIN4vega2VRENS_9allocatorIS2_EEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorIN4vega2VRENS_9allocatorIS2_EEE16__init_with_sizeB8ne200100IPS2_S7_EEvT_T0_m
+- __ZNSt3__16vectorIN4vega2VRENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN4vega3AgeENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN4vega3AgeENS_9allocatorIS2_EEE7reserveEm
+- __ZNSt3__16vectorIN4vega3TagENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN4vega4ByteENS_9allocatorIS2_EEE16__init_with_sizeB8ne200100INS_11__wrap_iterIPKS2_EESA_EEvT_T0_m
+- __ZNSt3__16vectorIN4vega4ByteENS_9allocatorIS2_EEE18__assign_with_sizeB8ne200100INS_11__wrap_iterIPS2_EES9_EEvT_T0_l
+- __ZNSt3__16vectorIN4vega4ByteENS_9allocatorIS2_EEE8__appendEm
+- __ZNSt3__16vectorIN4vega4ByteENS_9allocatorIS2_EEE9push_backB8ne200100EOS2_
+- __ZNSt3__16vectorIN4vega4DateENS_9allocatorIS2_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorIN4vega4DateENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN4vega4DateENS_9allocatorIS2_EEE22__base_destruct_at_endB8ne200100EPS2_
+- __ZNSt3__16vectorIN4vega4DateENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJS2_EEEPS2_DpOT_
+- __ZNSt3__16vectorIN4vega4DateENS_9allocatorIS2_EEE7reserveEm
+- __ZNSt3__16vectorIN4vega4TimeENS_9allocatorIS2_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorIN4vega4TimeENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN4vega4TimeENS_9allocatorIS2_EEE22__base_destruct_at_endB8ne200100EPS2_
+- __ZNSt3__16vectorIN4vega4TimeENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJS2_EEEPS2_DpOT_
+- __ZNSt3__16vectorIN4vega4TimeENS_9allocatorIS2_EEE7reserveEm
+- __ZNSt3__16vectorIN4vega5dicom14TransferSyntaxENS_9allocatorIS3_EEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorIN4vega5dicom14TransferSyntaxENS_9allocatorIS3_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorIN4vega5dicom14TransferSyntaxENS_9allocatorIS3_EEE16__init_with_sizeB8ne200100IPKS3_S9_EEvT_T0_m
+- __ZNSt3__16vectorIN4vega5dicom14TransferSyntaxENS_9allocatorIS3_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN4vega8DateTimeENS_9allocatorIS2_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorIN4vega8DateTimeENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN4vega8DateTimeENS_9allocatorIS2_EEE22__base_destruct_at_endB8ne200100EPS2_
+- __ZNSt3__16vectorIN4vega8DateTimeENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJS2_EEEPS2_DpOT_
+- __ZNSt3__16vectorIN4vega8DateTimeENS_9allocatorIS2_EEE7reserveEm
+- __ZNSt3__16vectorINS0_IN4vega4ByteENS_9allocatorIS2_EEEENS3_IS5_EEE16__init_with_sizeB8ne200100IPKS5_SA_EEvT_T0_m
+- __ZNSt3__16vectorINS_10shared_ptrIKN4vega10dictionary4PageEEENS_9allocatorIS6_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorINS_10shared_ptrIKN4vega10dictionary4PageEEENS_9allocatorIS6_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS_10shared_ptrIKN4vega10dictionary4PageEEENS_9allocatorIS6_EEE5clearB8ne200100Ev
+- __ZNSt3__16vectorINS_10shared_ptrIKN4vega10dictionary4PageEEENS_9allocatorIS6_EEE9push_backB8ne200100ERKS6_
+- __ZNSt3__16vectorINS_10shared_ptrIN4vega5dicom7DataSetEEENS_9allocatorIS5_EEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorINS_10shared_ptrIN4vega5dicom7DataSetEEENS_9allocatorIS5_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN4vega5dicom7DataSetEEENS_9allocatorIS5_EEE16__init_with_sizeB8ne200100IPS5_SA_EEvT_T0_m
+- __ZNSt3__16vectorINS_10shared_ptrIN4vega5dicom7DataSetEEENS_9allocatorIS5_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN4vega5dicom7DataSetEEENS_9allocatorIS5_EEE5clearB8ne200100Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN4vega5dicom7DataSetEEENS_9allocatorIS5_EEE9push_backB8ne200100ERKS5_
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__init_with_sizeB8ne200100IPS6_SA_EEvT_T0_m
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE22__construct_one_at_endB8ne200100IJRKS6_EEEvDpOT_
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE24__emplace_back_slow_pathIJRKS6_EEEPS6_DpOT_
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE9push_backB8ne200100ERKS6_
+- __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE9push_backB8ne200100EOS8_
+- __ZNSt3__16vectorINS_4pairIccEENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS_4pairIccEENS_9allocatorIS2_EEE9push_backB8ne200100EOS2_
+- __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE16__init_with_sizeB8ne200100IPS4_S9_EEvT_T0_m
+- __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE18__assign_with_sizeB8ne200100IPS4_S9_EEvT_T0_l
+- __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE6resizeEm
+- __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE8__appendEm
+- __ZNSt3__16vectorINS_5arrayIiLm3EEENS_9allocatorIS2_EEE9push_backB8ne200100ERKS2_
+- __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJS2_EEEPS2_DpOT_
+- __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEE9push_backB8ne200100EOS2_
+- __ZNSt3__16vectorINS_9sub_matchINS_11__wrap_iterIPKcEEEENS_9allocatorIS6_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS_9sub_matchINS_11__wrap_iterIPKcEEEENS_9allocatorIS6_EEE6resizeEm
+- __ZNSt3__16vectorINS_9sub_matchINS_11__wrap_iterIPKcEEEENS_9allocatorIS6_EEE8__appendEm
+- __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE16__init_with_sizeB8ne200100IPS4_S9_EEvT_T0_m
+- __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE18__assign_with_sizeB8ne200100IPS4_S9_EEvT_T0_l
+- __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE6assignEmRKS4_
+- __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE6resizeEmRKS4_
+- __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE8__appendEmRKS4_
+- __ZNSt3__16vectorIcNS_9allocatorIcEEE9push_backB8ne200100EOc
+- __ZNSt3__16vectorIcNS_9allocatorIcEEE9push_backB8ne200100ERKc
+- __ZNSt3__16vectorIcNS_9allocatorIcEEEC2B8ne200100Em
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE12emplace_backIJRKiEEERiDpOT_
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE12emplace_backIJRKjEEERjDpOT_
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE6resizeEm
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE8__appendEm
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE9push_backB8ne200100EOj
+- __ZNSt3__16vectorItNS_9allocatorItEEE9push_backB8ne200100EOt
+- __ZNSt3__16vectorItNS_9allocatorItEEE9push_backB8ne200100ERKt
+- __ZNSt3__16vectorIxNS_9allocatorIxEEE12emplace_backIJRKxEEERxDpOT_
+- __ZNSt3__16vectorIxNS_9allocatorIxEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIyNS_9allocatorIyEEE12emplace_backIJRKyEEERyDpOT_
+- __ZNSt3__16vectorIyNS_9allocatorIyEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__17__stateIcED1Ev
+- __ZNSt3__17collateIcE2idE
+- __ZNSt3__19__sift_upB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_16reverse_iteratorINS_11__wrap_iterIPjEEEEEEvT1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
+- __ZNSt3__19allocatorIN4vega2VREE17allocate_at_leastB8ne200100Em
+- __ZNSt3__19allocatorIN4vega3AgeEE17allocate_at_leastB8ne200100Em
+- __ZNSt3__19allocatorIN4vega3TagEE17allocate_at_leastB8ne200100Em
+- __ZNSt3__19allocatorIN4vega4DateEE17allocate_at_leastB8ne200100Em
+- __ZNSt3__19allocatorIN4vega4TimeEE17allocate_at_leastB8ne200100Em
+- __ZNSt3__19allocatorIN4vega5dicom14TransferSyntaxEE17allocate_at_leastB8ne200100Em
+- __ZNSt3__19allocatorIN4vega8DateTimeEE17allocate_at_leastB8ne200100Em
+- __ZNSt3__19allocatorINS_10shared_ptrIKN4vega10dictionary4PageEEEE17allocate_at_leastB8ne200100Em
+- __ZNSt3__19allocatorINS_10shared_ptrIN4vega5dicom7DataSetEEEE17allocate_at_leastB8ne200100Em
+- __ZNSt3__19allocatorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS0_IcEEEES6_EEE17allocate_at_leastB8ne200100Em
+- __ZNSt3__19allocatorINS_4pairIccEEE17allocate_at_leastB8ne200100Em
+- __ZNSt3__19allocatorINS_4pairImPKcEEE17allocate_at_leastB8ne200100Em
+- __ZNSt3__19allocatorINS_7__stateIcEEE17allocate_at_leastB8ne200100Em
+- __ZNSt3__19allocatorINS_9sub_matchINS_11__wrap_iterIPKcEEEEE17allocate_at_leastB8ne200100Em
+- __ZNSt3__19allocatorINS_9sub_matchIPKcEEE17allocate_at_leastB8ne200100Em
+- __ZNSt3__19allocatorIPNS_7__stateIcEEE17allocate_at_leastB8ne200100Em
+- __ZNSt3__19allocatorIdE17allocate_at_leastB8ne200100Em
+- __ZNSt3__19allocatorIfE17allocate_at_leastB8ne200100Em
+- __ZNSt3__19allocatorIxE17allocate_at_leastB8ne200100Em
+- __ZNSt3__19allocatorIyE17allocate_at_leastB8ne200100Em
+- __ZNSt3__19to_stringEm
+- __ZNSt3__19to_stringEx
+- __ZNSt3__19to_stringEy
+- __ZNSt3__1plB8ne200100IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEOS9_PKS6_
+- __ZNSt3__1plB8ne200100IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEPKS6_OS9_
+- __ZNSt3__1plB8ne200100IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EERKS9_PKS6_
+- __ZNSt3__1plIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEPKS6_RKS9_
+- __ZTC10imemstream0_NSt3__113basic_istreamIcNS_11char_traitsIcEEEE
+- __ZTI10imemstream
+- __ZTI6membuf
+- __ZTIN4vega12manipulators15DateManipulatorE
+- __ZTIN4vega12manipulators15TimeManipulatorE
+- __ZTIN4vega12manipulators18UnknownManipulatorE
+- __ZTIN4vega12manipulators19DateTimeManipulatorE
+- __ZTIN4vega12manipulators19LongTextManipulatorE
+- __ZTIN4vega12manipulators20AgeStringManipulatorE
+- __ZTIN4vega12manipulators20PixelDataManipulatorE
+- __ZTIN4vega12manipulators21LongStringManipulatorE
+- __ZTIN4vega12manipulators21OtherFloatManipulatorE
+- __ZTIN4vega12manipulators21PersonNameManipulatorE
+- __ZTIN4vega12manipulators21SignedLongManipulatorE
+- __ZTIN4vega12manipulators22OtherDoubleManipulatorE
+- __ZTIN4vega12manipulators22ShortStringManipulatorE
+- __ZTIN4vega12manipulators22SignedShortManipulatorE
+- __ZTIN4vega12manipulators23AttributeTagManipulatorE
+- __ZTIN4vega12manipulators23PaddedStringManipulatorINS_3AgeEEE
+- __ZTIN4vega12manipulators23PaddedStringManipulatorINS_4DateEEE
+- __ZTIN4vega12manipulators23PaddedStringManipulatorINS_4TimeEEE
+- __ZTIN4vega12manipulators23PaddedStringManipulatorINS_8DateTimeEEE
+- __ZTIN4vega12manipulators24FloatingPointManipulatorE
+- __ZTIN4vega12manipulators24UnlimitedTextManipulatorE
+- __ZTIN4vega12manipulators25SignedVeryLongManipulatorE
+- __ZTIN4vega12manipulators27FixedSizeElementManipulatorINS_3TagEEE
+- __ZTIN4vega12manipulators27FixedSizeElementManipulatorIdEE
+- __ZTIN4vega12manipulators27FixedSizeElementManipulatorIfEE
+- __ZTIN4vega12manipulators27FixedSizeElementManipulatorIiEE
+- __ZTIN4vega12manipulators27FixedSizeElementManipulatorIsEE
+- __ZTIN4vega12manipulators27FixedSizeElementManipulatorIxEE
+- __ZTIN4vega12manipulators27FixedSizeElementManipulatorIyEE
+- __ZTIN4vega12manipulators27UniqueIdentifierManipulatorE
+- __ZTIN4vega12manipulators27UnsignedVeryLongManipulatorE
+- __ZTIN4vega12manipulators28ApplicationEntityManipulatorE
+- __ZTIN4vega12manipulators30FloatingPointDoubleManipulatorE
+- __ZTIN4vega12manipulators32EncapsulatedPixelDataManipulatorE
+- __ZTIN4vega2VR23InvalidValueManipulatorINS_12manipulators15DateManipulatorEEE
+- __ZTIN4vega2VR23InvalidValueManipulatorINS_12manipulators15TimeManipulatorEEE
+- __ZTIN4vega2VR23InvalidValueManipulatorINS_12manipulators20OtherByteManipulatorEEE
+- __ZTIN4vega2VR23InvalidValueManipulatorINS_12manipulators20OtherWordManipulatorEEE
+- __ZTIN4vega2VR23InvalidValueManipulatorINS_12manipulators21CodeStringManipulatorEEE
+- __ZTIN4vega2VR23InvalidValueManipulatorINS_12manipulators21LongStringManipulatorEEE
+- __ZTIN4vega2VR23InvalidValueManipulatorINS_12manipulators21PersonNameManipulatorEEE
+- __ZTIN4vega2VR23InvalidValueManipulatorINS_12manipulators22SignedShortManipulatorEEE
+- __ZTIN4vega2VR23InvalidValueManipulatorINS_12manipulators23UnsignedLongManipulatorEEE
+- __ZTIN4vega2VR23InvalidValueManipulatorINS_12manipulators24DecimalStringManipulatorEEE
+- __ZTIN4vega2VR23InvalidValueManipulatorINS_12manipulators24IntegerStringManipulatorEEE
+- __ZTIN4vega2VR23InvalidValueManipulatorINS_12manipulators24UnsignedShortManipulatorEEE
+- __ZTIN4vega2VR23InvalidValueManipulatorINS_12manipulators27UniqueIdentifierManipulatorEEE
+- __ZTIN4vega5dicom6Reader12ReadingErrorE
+- __ZTIN4vega5dicom8FileMeta15InvalidFileMetaE
+- __ZTIN4vega5dicom9RawWriter12WritingErrorE
+- __ZTIN4vega7MultiVR14InvalidMultiVRE
+- __ZTINSt3__110__back_refIcEE
+- __ZTINSt3__110shared_ptrINS_13__empty_stateIcEEE27__shared_ptr_default_deleteIS2_S2_EE
+- __ZTINSt3__111__alternateIcEE
+- __ZTINSt3__111__end_stateIcEE
+- __ZTINSt3__111__lookaheadIcNS_12regex_traitsIcEEEE
+- __ZTINSt3__111__match_anyIcEE
+- __ZTINSt3__111regex_errorE
+- __ZTINSt3__112__match_charIcEE
+- __ZTINSt3__112bad_weak_ptrE
+- __ZTINSt3__113__empty_stateIcEE
+- __ZTINSt3__113basic_istreamIcNS_11char_traitsIcEEEE
+- __ZTINSt3__114default_deleteINS_13__empty_stateIcEEEE
+- __ZTINSt3__115__has_one_stateIcEE
+- __ZTINSt3__115__word_boundaryIcNS_12regex_traitsIcEEEE
+- __ZTINSt3__115basic_streambufIcNS_11char_traitsIcEEEE
+- __ZTINSt3__116__back_ref_icaseIcNS_12regex_traitsIcEEEE
+- __ZTINSt3__116__owns_one_stateIcEE
+- __ZTINSt3__117__owns_two_statesIcEE
+- __ZTINSt3__117__repeat_one_loopIcEE
+- __ZTINSt3__118__back_ref_collateIcNS_12regex_traitsIcEEEE
+- __ZTINSt3__118__match_char_icaseIcNS_12regex_traitsIcEEEE
+- __ZTINSt3__120__bracket_expressionIcNS_12regex_traitsIcEEEE
+- __ZTINSt3__120__l_anchor_multilineIcEE
+- __ZTINSt3__120__match_char_collateIcNS_12regex_traitsIcEEEE
+- __ZTINSt3__120__r_anchor_multilineIcEE
+- __ZTINSt3__120__shared_ptr_emplaceI10imemstreamNS_9allocatorIS1_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIKN4vega10dictionary4PageENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIKN4vega11RegexStringENS_9allocatorIS2_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIKN4vega4DateENS_9allocatorIS2_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIKN4vega4TimeENS_9allocatorIS2_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIKN4vega8DateTimeENS_9allocatorIS2_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIKNS_11basic_regexIcNS_12regex_traitsIcEEEENS_9allocatorIS4_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega10dictionary12PrivateOwnerENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega10dictionary17PrivateOwnerBlockENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega10dictionary18PrivateOwnerBlocksENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega12manipulators15DateManipulatorENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega12manipulators15TimeManipulatorENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega12manipulators18UnknownManipulatorENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega12manipulators19DateTimeManipulatorENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega12manipulators19LongTextManipulatorENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega12manipulators20AgeStringManipulatorENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega12manipulators20PixelDataManipulatorENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega12manipulators21LongStringManipulatorENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega12manipulators21OtherFloatManipulatorENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega12manipulators21PersonNameManipulatorENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega12manipulators21SignedLongManipulatorENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega12manipulators22OtherDoubleManipulatorENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega12manipulators22ShortStringManipulatorENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega12manipulators22SignedShortManipulatorENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega12manipulators23AttributeTagManipulatorENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega12manipulators24FloatingPointManipulatorENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega12manipulators24UnlimitedTextManipulatorENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega12manipulators25SignedVeryLongManipulatorENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega12manipulators27UniqueIdentifierManipulatorENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega12manipulators27UnsignedVeryLongManipulatorENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega12manipulators28ApplicationEntityManipulatorENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega12manipulators30FloatingPointDoubleManipulatorENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega12manipulators32EncapsulatedPixelDataManipulatorENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom11DataElementENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom4FileENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom6ReaderENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom6WriterENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7DataSetENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary10BitsStoredEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary10ColorSpaceEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary10ICCProfileEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary11PatientNameEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary11SOPClassUIDEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary11WindowWidthEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary12PixelData_OBEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary12RescaleSlopeEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary12WindowCenterEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary13BitsAllocatedEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14AcquisitionUIDEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14NumberOfFramesEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14PrivateElementEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14SOPInstanceUIDEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14VOILUTFunctionEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary15SamplesPerPixelEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary15TypeOfPatientIDEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary16PixelAspectRatioEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary16RescaleInterceptEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary16StudyInstanceUIDEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary17IssuerOfPatientIDEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary17SeriesInstanceUIDEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary17TransferSyntaxUIDEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary18InstanceCreatorUIDEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary19PixelRepresentationEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary19PlanarConfigurationEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary20InstanceCreationDateEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary20InstanceCreationTimeEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary20SpecificCharacterSetEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary21LossyImageCompressionEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary25LargestImagePixelValue_SSEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary25LargestImagePixelValue_USEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary25PhotometricInterpretationEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary26SmallestImagePixelValue_SSEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary26SmallestImagePixelValue_USEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary30RedPaletteColorLookupTableDataEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary31BluePaletteColorLookupTableDataEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary32GreenPaletteColorLookupTableDataEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary39RedPaletteColorLookupTableDescriptor_SSEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary39RedPaletteColorLookupTableDescriptor_USEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary40BluePaletteColorLookupTableDescriptor_SSEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary40BluePaletteColorLookupTableDescriptor_USEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary41GreenPaletteColorLookupTableDescriptor_SSEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary41GreenPaletteColorLookupTableDescriptor_USEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary4RowsEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary7ColumnsEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary7HighBitEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary8ModalityEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary9ImageTypeEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary9PatientIDEEENS_9allocatorIS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom8FileMetaENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4vega5dicom8PreambleENS_9allocatorIS3_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceINS_18basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceINS_19basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE
+- __ZTINSt3__120__shared_ptr_emplaceINS_19basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE
+- __ZTINSt3__120__shared_ptr_pointerIPNS_13__empty_stateIcEENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+- __ZTINSt3__121__empty_non_own_stateIcEE
+- __ZTINSt3__123__match_any_but_newlineIcEE
+- __ZTINSt3__126__end_marked_subexpressionIcEE
+- __ZTINSt3__128__begin_marked_subexpressionIcEE
+- __ZTINSt3__16__loopIcEE
+- __ZTINSt3__16__nodeIcEE
+- __ZTINSt3__16vectorIN4vega3AgeENS_9allocatorIS2_EEEE
+- __ZTINSt3__16vectorIN4vega3TagENS_9allocatorIS2_EEEE
+- __ZTINSt3__16vectorIN4vega4DateENS_9allocatorIS2_EEEE
+- __ZTINSt3__16vectorIN4vega4TimeENS_9allocatorIS2_EEEE
+- __ZTINSt3__16vectorIN4vega8DateTimeENS_9allocatorIS2_EEEE
+- __ZTINSt3__16vectorIdNS_9allocatorIdEEEE
+- __ZTINSt3__16vectorIfNS_9allocatorIfEEEE
+- __ZTINSt3__16vectorIsNS_9allocatorIsEEEE
+- __ZTINSt3__16vectorIxNS_9allocatorIxEEEE
+- __ZTINSt3__16vectorIyNS_9allocatorIyEEEE
+- __ZTS10imemstream
+- __ZTS6membuf
+- __ZTSN4vega12manipulators15DateManipulatorE
+- __ZTSN4vega12manipulators15TimeManipulatorE
+- __ZTSN4vega12manipulators18UnknownManipulatorE
+- __ZTSN4vega12manipulators19DateTimeManipulatorE
+- __ZTSN4vega12manipulators19LongTextManipulatorE
+- __ZTSN4vega12manipulators20AgeStringManipulatorE
+- __ZTSN4vega12manipulators20PixelDataManipulatorE
+- __ZTSN4vega12manipulators21LongStringManipulatorE
+- __ZTSN4vega12manipulators21OtherFloatManipulatorE
+- __ZTSN4vega12manipulators21PersonNameManipulatorE
+- __ZTSN4vega12manipulators21SignedLongManipulatorE
+- __ZTSN4vega12manipulators22OtherDoubleManipulatorE
+- __ZTSN4vega12manipulators22ShortStringManipulatorE
+- __ZTSN4vega12manipulators22SignedShortManipulatorE
+- __ZTSN4vega12manipulators23AttributeTagManipulatorE
+- __ZTSN4vega12manipulators23PaddedStringManipulatorINS_3AgeEEE
+- __ZTSN4vega12manipulators23PaddedStringManipulatorINS_4DateEEE
+- __ZTSN4vega12manipulators23PaddedStringManipulatorINS_4TimeEEE
+- __ZTSN4vega12manipulators23PaddedStringManipulatorINS_8DateTimeEEE
+- __ZTSN4vega12manipulators24FloatingPointManipulatorE
+- __ZTSN4vega12manipulators24UnlimitedTextManipulatorE
+- __ZTSN4vega12manipulators25SignedVeryLongManipulatorE
+- __ZTSN4vega12manipulators27FixedSizeElementManipulatorINS_3TagEEE
+- __ZTSN4vega12manipulators27FixedSizeElementManipulatorIdEE
+- __ZTSN4vega12manipulators27FixedSizeElementManipulatorIfEE
+- __ZTSN4vega12manipulators27FixedSizeElementManipulatorIiEE
+- __ZTSN4vega12manipulators27FixedSizeElementManipulatorIsEE
+- __ZTSN4vega12manipulators27FixedSizeElementManipulatorIxEE
+- __ZTSN4vega12manipulators27FixedSizeElementManipulatorIyEE
+- __ZTSN4vega12manipulators27UniqueIdentifierManipulatorE
+- __ZTSN4vega12manipulators27UnsignedVeryLongManipulatorE
+- __ZTSN4vega12manipulators28ApplicationEntityManipulatorE
+- __ZTSN4vega12manipulators30FloatingPointDoubleManipulatorE
+- __ZTSN4vega12manipulators32EncapsulatedPixelDataManipulatorE
+- __ZTSN4vega2VR23InvalidValueManipulatorINS_12manipulators15DateManipulatorEEE
+- __ZTSN4vega2VR23InvalidValueManipulatorINS_12manipulators15TimeManipulatorEEE
+- __ZTSN4vega2VR23InvalidValueManipulatorINS_12manipulators20OtherByteManipulatorEEE
+- __ZTSN4vega2VR23InvalidValueManipulatorINS_12manipulators20OtherWordManipulatorEEE
+- __ZTSN4vega2VR23InvalidValueManipulatorINS_12manipulators21CodeStringManipulatorEEE
+- __ZTSN4vega2VR23InvalidValueManipulatorINS_12manipulators21LongStringManipulatorEEE
+- __ZTSN4vega2VR23InvalidValueManipulatorINS_12manipulators21PersonNameManipulatorEEE
+- __ZTSN4vega2VR23InvalidValueManipulatorINS_12manipulators22SignedShortManipulatorEEE
+- __ZTSN4vega2VR23InvalidValueManipulatorINS_12manipulators23UnsignedLongManipulatorEEE
+- __ZTSN4vega2VR23InvalidValueManipulatorINS_12manipulators24DecimalStringManipulatorEEE
+- __ZTSN4vega2VR23InvalidValueManipulatorINS_12manipulators24IntegerStringManipulatorEEE
+- __ZTSN4vega2VR23InvalidValueManipulatorINS_12manipulators24UnsignedShortManipulatorEEE
+- __ZTSN4vega2VR23InvalidValueManipulatorINS_12manipulators27UniqueIdentifierManipulatorEEE
+- __ZTSN4vega5dicom6Reader12ReadingErrorE
+- __ZTSN4vega5dicom8FileMeta15InvalidFileMetaE
+- __ZTSN4vega5dicom9RawWriter12WritingErrorE
+- __ZTSN4vega7MultiVR14InvalidMultiVRE
+- __ZTSNSt3__110__back_refIcEE
+- __ZTSNSt3__110shared_ptrINS_13__empty_stateIcEEE27__shared_ptr_default_deleteIS2_S2_EE
+- __ZTSNSt3__111__alternateIcEE
+- __ZTSNSt3__111__end_stateIcEE
+- __ZTSNSt3__111__lookaheadIcNS_12regex_traitsIcEEEE
+- __ZTSNSt3__111__match_anyIcEE
+- __ZTSNSt3__112__match_charIcEE
+- __ZTSNSt3__113__empty_stateIcEE
+- __ZTSNSt3__114default_deleteINS_13__empty_stateIcEEEE
+- __ZTSNSt3__115__has_one_stateIcEE
+- __ZTSNSt3__115__word_boundaryIcNS_12regex_traitsIcEEEE
+- __ZTSNSt3__116__back_ref_icaseIcNS_12regex_traitsIcEEEE
+- __ZTSNSt3__116__owns_one_stateIcEE
+- __ZTSNSt3__117__owns_two_statesIcEE
+- __ZTSNSt3__117__repeat_one_loopIcEE
+- __ZTSNSt3__118__back_ref_collateIcNS_12regex_traitsIcEEEE
+- __ZTSNSt3__118__match_char_icaseIcNS_12regex_traitsIcEEEE
+- __ZTSNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEEE
+- __ZTSNSt3__120__l_anchor_multilineIcEE
+- __ZTSNSt3__120__match_char_collateIcNS_12regex_traitsIcEEEE
+- __ZTSNSt3__120__r_anchor_multilineIcEE
+- __ZTSNSt3__120__shared_ptr_emplaceI10imemstreamNS_9allocatorIS1_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIKN4vega10dictionary4PageENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIKN4vega11RegexStringENS_9allocatorIS2_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIKN4vega4DateENS_9allocatorIS2_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIKN4vega4TimeENS_9allocatorIS2_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIKN4vega8DateTimeENS_9allocatorIS2_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIKNS_11basic_regexIcNS_12regex_traitsIcEEEENS_9allocatorIS4_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega10dictionary12PrivateOwnerENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega10dictionary17PrivateOwnerBlockENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega10dictionary18PrivateOwnerBlocksENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega12manipulators15DateManipulatorENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega12manipulators15TimeManipulatorENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega12manipulators18UnknownManipulatorENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega12manipulators19DateTimeManipulatorENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega12manipulators19LongTextManipulatorENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega12manipulators20AgeStringManipulatorENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega12manipulators20PixelDataManipulatorENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega12manipulators21LongStringManipulatorENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega12manipulators21OtherFloatManipulatorENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega12manipulators21PersonNameManipulatorENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega12manipulators21SignedLongManipulatorENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega12manipulators22OtherDoubleManipulatorENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega12manipulators22ShortStringManipulatorENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega12manipulators22SignedShortManipulatorENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega12manipulators23AttributeTagManipulatorENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega12manipulators24FloatingPointManipulatorENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega12manipulators24UnlimitedTextManipulatorENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega12manipulators25SignedVeryLongManipulatorENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega12manipulators27UniqueIdentifierManipulatorENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega12manipulators27UnsignedVeryLongManipulatorENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega12manipulators28ApplicationEntityManipulatorENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega12manipulators30FloatingPointDoubleManipulatorENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega12manipulators32EncapsulatedPixelDataManipulatorENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom11DataElementENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom4FileENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom6ReaderENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom6WriterENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7DataSetENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary10BitsStoredEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary10ColorSpaceEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary10ICCProfileEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary11PatientNameEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary11SOPClassUIDEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary11WindowWidthEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary12PixelData_OBEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary12RescaleSlopeEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary12WindowCenterEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary13BitsAllocatedEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14AcquisitionUIDEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14NumberOfFramesEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14PrivateElementEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14SOPInstanceUIDEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14VOILUTFunctionEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary15SamplesPerPixelEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary15TypeOfPatientIDEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary16PixelAspectRatioEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary16RescaleInterceptEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary16StudyInstanceUIDEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary17IssuerOfPatientIDEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary17SeriesInstanceUIDEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary17TransferSyntaxUIDEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary18InstanceCreatorUIDEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary19PixelRepresentationEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary19PlanarConfigurationEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary20InstanceCreationDateEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary20InstanceCreationTimeEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary20SpecificCharacterSetEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary21LossyImageCompressionEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary25LargestImagePixelValue_SSEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary25LargestImagePixelValue_USEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary25PhotometricInterpretationEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary26SmallestImagePixelValue_SSEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary26SmallestImagePixelValue_USEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary30RedPaletteColorLookupTableDataEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary31BluePaletteColorLookupTableDataEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary32GreenPaletteColorLookupTableDataEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary39RedPaletteColorLookupTableDescriptor_SSEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary39RedPaletteColorLookupTableDescriptor_USEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary40BluePaletteColorLookupTableDescriptor_SSEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary40BluePaletteColorLookupTableDescriptor_USEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary41GreenPaletteColorLookupTableDescriptor_SSEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary41GreenPaletteColorLookupTableDescriptor_USEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary4RowsEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary7ColumnsEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary7HighBitEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary8ModalityEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary9ImageTypeEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary9PatientIDEEENS_9allocatorIS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom8FileMetaENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4vega5dicom8PreambleENS_9allocatorIS3_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceINS_18basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceINS_19basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE
+- __ZTSNSt3__120__shared_ptr_emplaceINS_19basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE
+- __ZTSNSt3__120__shared_ptr_pointerIPNS_13__empty_stateIcEENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+- __ZTSNSt3__121__empty_non_own_stateIcEE
+- __ZTSNSt3__123__match_any_but_newlineIcEE
+- __ZTSNSt3__126__end_marked_subexpressionIcEE
+- __ZTSNSt3__128__begin_marked_subexpressionIcEE
+- __ZTSNSt3__16__loopIcEE
+- __ZTSNSt3__16__nodeIcEE
+- __ZTSNSt3__16vectorIN4vega3AgeENS_9allocatorIS2_EEEE
+- __ZTSNSt3__16vectorIN4vega3TagENS_9allocatorIS2_EEEE
+- __ZTSNSt3__16vectorIN4vega4DateENS_9allocatorIS2_EEEE
+- __ZTSNSt3__16vectorIN4vega4TimeENS_9allocatorIS2_EEEE
+- __ZTSNSt3__16vectorIN4vega8DateTimeENS_9allocatorIS2_EEEE
+- __ZTSNSt3__16vectorIdNS_9allocatorIdEEEE
+- __ZTSNSt3__16vectorIfNS_9allocatorIfEEEE
+- __ZTSNSt3__16vectorIsNS_9allocatorIsEEEE
+- __ZTSNSt3__16vectorIxNS_9allocatorIxEEEE
+- __ZTSNSt3__16vectorIyNS_9allocatorIyEEEE
+- __ZTT10imemstream
+- __ZTTNSt3__114basic_ifstreamIcNS_11char_traitsIcEEEE
+- __ZTV10imemstream
+- __ZTVN4vega12manipulators15DateManipulatorE
+- __ZTVN4vega12manipulators15TimeManipulatorE
+- __ZTVN4vega12manipulators16ValueManipulatorE
+- __ZTVN4vega12manipulators18UnknownManipulatorE
+- __ZTVN4vega12manipulators19DateTimeManipulatorE
+- __ZTVN4vega12manipulators19LongTextManipulatorE
+- __ZTVN4vega12manipulators20AgeStringManipulatorE
+- __ZTVN4vega12manipulators20PixelDataManipulatorE
+- __ZTVN4vega12manipulators21LongStringManipulatorE
+- __ZTVN4vega12manipulators21OtherFloatManipulatorE
+- __ZTVN4vega12manipulators21PersonNameManipulatorE
+- __ZTVN4vega12manipulators21SignedLongManipulatorE
+- __ZTVN4vega12manipulators22OtherDoubleManipulatorE
+- __ZTVN4vega12manipulators22ShortStringManipulatorE
+- __ZTVN4vega12manipulators22SignedShortManipulatorE
+- __ZTVN4vega12manipulators23AttributeTagManipulatorE
+- __ZTVN4vega12manipulators23PaddedStringManipulatorINS_13DecimalStringEEE
+- __ZTVN4vega12manipulators23PaddedStringManipulatorINS_4DateEEE
+- __ZTVN4vega12manipulators23PaddedStringManipulatorINS_4TimeEEE
+- __ZTVN4vega12manipulators23PaddedStringManipulatorINSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEEE
+- __ZTVN4vega12manipulators23PaddedStringManipulatorIiEE
+- __ZTVN4vega12manipulators24FloatingPointManipulatorE
+- __ZTVN4vega12manipulators24UnlimitedTextManipulatorE
+- __ZTVN4vega12manipulators25SignedVeryLongManipulatorE
+- __ZTVN4vega12manipulators27FixedSizeElementManipulatorINS_4ByteEEE
+- __ZTVN4vega12manipulators27FixedSizeElementManipulatorINS_4WordEEE
+- __ZTVN4vega12manipulators27FixedSizeElementManipulatorIjEE
+- __ZTVN4vega12manipulators27FixedSizeElementManipulatorIsEE
+- __ZTVN4vega12manipulators27FixedSizeElementManipulatorItEE
+- __ZTVN4vega12manipulators27UniqueIdentifierManipulatorE
+- __ZTVN4vega12manipulators27UnsignedVeryLongManipulatorE
+- __ZTVN4vega12manipulators28ApplicationEntityManipulatorE
+- __ZTVN4vega12manipulators30FloatingPointDoubleManipulatorE
+- __ZTVN4vega12manipulators32EncapsulatedPixelDataManipulatorE
+- __ZTVN4vega2VR23InvalidValueManipulatorINS_12manipulators15DateManipulatorEEE
+- __ZTVN4vega2VR23InvalidValueManipulatorINS_12manipulators15TimeManipulatorEEE
+- __ZTVN4vega2VR23InvalidValueManipulatorINS_12manipulators20OtherByteManipulatorEEE
+- __ZTVN4vega2VR23InvalidValueManipulatorINS_12manipulators20OtherWordManipulatorEEE
+- __ZTVN4vega2VR23InvalidValueManipulatorINS_12manipulators21CodeStringManipulatorEEE
+- __ZTVN4vega2VR23InvalidValueManipulatorINS_12manipulators21LongStringManipulatorEEE
+- __ZTVN4vega2VR23InvalidValueManipulatorINS_12manipulators21PersonNameManipulatorEEE
+- __ZTVN4vega2VR23InvalidValueManipulatorINS_12manipulators22SignedShortManipulatorEEE
+- __ZTVN4vega2VR23InvalidValueManipulatorINS_12manipulators23UnsignedLongManipulatorEEE
+- __ZTVN4vega2VR23InvalidValueManipulatorINS_12manipulators24DecimalStringManipulatorEEE
+- __ZTVN4vega2VR23InvalidValueManipulatorINS_12manipulators24IntegerStringManipulatorEEE
+- __ZTVN4vega2VR23InvalidValueManipulatorINS_12manipulators24UnsignedShortManipulatorEEE
+- __ZTVN4vega2VR23InvalidValueManipulatorINS_12manipulators27UniqueIdentifierManipulatorEEE
+- __ZTVN4vega5dicom6Reader12ReadingErrorE
+- __ZTVN4vega5dicom8FileMeta15InvalidFileMetaE
+- __ZTVN4vega5dicom9RawWriter12WritingErrorE
+- __ZTVN4vega7MultiVR14InvalidMultiVRE
+- __ZTVNSt3__110__back_refIcEE
+- __ZTVNSt3__111__alternateIcEE
+- __ZTVNSt3__111__end_stateIcEE
+- __ZTVNSt3__111__lookaheadIcNS_12regex_traitsIcEEEE
+- __ZTVNSt3__111__match_anyIcEE
+- __ZTVNSt3__112__match_charIcEE
+- __ZTVNSt3__112bad_weak_ptrE
+- __ZTVNSt3__113__empty_stateIcEE
+- __ZTVNSt3__114basic_ifstreamIcNS_11char_traitsIcEEEE
+- __ZTVNSt3__115__word_boundaryIcNS_12regex_traitsIcEEEE
+- __ZTVNSt3__116__back_ref_icaseIcNS_12regex_traitsIcEEEE
+- __ZTVNSt3__116__owns_one_stateIcEE
+- __ZTVNSt3__117__owns_two_statesIcEE
+- __ZTVNSt3__117__repeat_one_loopIcEE
+- __ZTVNSt3__118__back_ref_collateIcNS_12regex_traitsIcEEEE
+- __ZTVNSt3__118__match_char_icaseIcNS_12regex_traitsIcEEEE
+- __ZTVNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEEE
+- __ZTVNSt3__120__l_anchor_multilineIcEE
+- __ZTVNSt3__120__match_char_collateIcNS_12regex_traitsIcEEEE
+- __ZTVNSt3__120__r_anchor_multilineIcEE
+- __ZTVNSt3__120__shared_ptr_emplaceI10imemstreamNS_9allocatorIS1_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIKN4vega10dictionary4PageENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIKN4vega11RegexStringENS_9allocatorIS2_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIKN4vega4DateENS_9allocatorIS2_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIKN4vega4TimeENS_9allocatorIS2_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIKN4vega8DateTimeENS_9allocatorIS2_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIKNS_11basic_regexIcNS_12regex_traitsIcEEEENS_9allocatorIS4_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega10dictionary12PrivateOwnerENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega10dictionary17PrivateOwnerBlockENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega10dictionary18PrivateOwnerBlocksENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega12manipulators15DateManipulatorENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega12manipulators15TimeManipulatorENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega12manipulators18UnknownManipulatorENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega12manipulators19DateTimeManipulatorENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega12manipulators19LongTextManipulatorENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega12manipulators20AgeStringManipulatorENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega12manipulators20PixelDataManipulatorENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega12manipulators21LongStringManipulatorENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega12manipulators21OtherFloatManipulatorENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega12manipulators21PersonNameManipulatorENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega12manipulators21SignedLongManipulatorENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega12manipulators22OtherDoubleManipulatorENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega12manipulators22ShortStringManipulatorENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega12manipulators22SignedShortManipulatorENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega12manipulators23AttributeTagManipulatorENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega12manipulators24FloatingPointManipulatorENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega12manipulators24UnlimitedTextManipulatorENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega12manipulators25SignedVeryLongManipulatorENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega12manipulators27UniqueIdentifierManipulatorENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega12manipulators27UnsignedVeryLongManipulatorENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega12manipulators28ApplicationEntityManipulatorENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega12manipulators30FloatingPointDoubleManipulatorENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega12manipulators32EncapsulatedPixelDataManipulatorENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom11DataElementENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom4FileENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom6ReaderENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom6WriterENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7DataSetENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary10BitsStoredEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary10ColorSpaceEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary10ICCProfileEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary11PatientNameEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary11SOPClassUIDEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary11WindowWidthEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary12PixelData_OBEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary12RescaleSlopeEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary12WindowCenterEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary13BitsAllocatedEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14AcquisitionUIDEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14NumberOfFramesEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14PrivateElementEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14SOPInstanceUIDEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary14VOILUTFunctionEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary15SamplesPerPixelEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary15TypeOfPatientIDEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary16PixelAspectRatioEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary16RescaleInterceptEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary16StudyInstanceUIDEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary17IssuerOfPatientIDEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary17SeriesInstanceUIDEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary17TransferSyntaxUIDEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary18InstanceCreatorUIDEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary19PixelRepresentationEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary19PlanarConfigurationEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary20InstanceCreationDateEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary20InstanceCreationTimeEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary20SpecificCharacterSetEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary21LossyImageCompressionEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary25LargestImagePixelValue_SSEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary25LargestImagePixelValue_USEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary25PhotometricInterpretationEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary26SmallestImagePixelValue_SSEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary26SmallestImagePixelValue_USEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary30RedPaletteColorLookupTableDataEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary31BluePaletteColorLookupTableDataEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary32GreenPaletteColorLookupTableDataEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary39RedPaletteColorLookupTableDescriptor_SSEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary39RedPaletteColorLookupTableDescriptor_USEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary40BluePaletteColorLookupTableDescriptor_SSEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary40BluePaletteColorLookupTableDescriptor_USEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary41GreenPaletteColorLookupTableDescriptor_SSEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary41GreenPaletteColorLookupTableDescriptor_USEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary4RowsEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary7ColumnsEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary7HighBitEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary8ModalityEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary9ImageTypeEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom7ElementINS1_10dictionary9PatientIDEEENS_9allocatorIS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom8FileMetaENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4vega5dicom8PreambleENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceINS_18basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceINS_19basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceINS_19basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE
+- __ZTVNSt3__120__shared_ptr_pointerIPNS_13__empty_stateIcEENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+- __ZTVNSt3__121__empty_non_own_stateIcEE
+- __ZTVNSt3__123__match_any_but_newlineIcEE
+- __ZTVNSt3__126__end_marked_subexpressionIcEE
+- __ZTVNSt3__128__begin_marked_subexpressionIcEE
+- __ZTVNSt3__16__loopIcEE
+- __ZTv0_n24_N10imemstreamD0Ev
+- __ZTv0_n24_N10imemstreamD0EvU11__vtptrauthILj0Lb1Lj7144E
+- __ZTv0_n24_N10imemstreamD1Ev
+- __ZTv0_n24_N10imemstreamD1EvU11__vtptrauthILj0Lb1Lj7144E
+- __ZTv0_n24_NSt3__113basic_istreamIcNS_11char_traitsIcEEED0Ev
+- __ZTv0_n24_NSt3__113basic_istreamIcNS_11char_traitsIcEEED1Ev
+- __ZZL21_addKeyValueToDataSetRNSt3__110shared_ptrIN4vega5dicom7DataSetEEEP8NSStringP7NSArrayIP11objc_objectEE5regex
+- __ZZN4vega10dictionary10Dictionary28default_dictionary_file_nameEvE9gFilename
+- __ZZN4vega10dictionary10Dictionary28default_dictionary_file_nameEvE9onceToken
+- __ZZN4vega12manipulators32EncapsulatedPixelDataManipulator9raw_valueEvE6buffer
+- __ZZN4vega2VM8get_pairERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE5REGEX
+- __ZZN4vega2vrL2LOEvE2LO
+- __ZZN4vega2vrL2UWEvE2UW
+- __ZZN4vega2vrL2XSEvE2XS
+- __ZZN4vega2vrL2XWEvE2XW
+- __ZZN4vega3UID24IMPLEMENTATION_CLASS_UIDEvE24IMPLEMENTATION_CLASS_UID
+- __ZZN4vega3UID4BASEEvE4BASE
+- __ZZN4vega4Date11RANGE_REGEXEvE11RANGE_REGEX
+- __ZZN4vega4Date12SINGLE_REGEXEvE12SINGLE_REGEX
+- __ZZN4vega4Time11RANGE_REGEXEvE11RANGE_REGEX
+- __ZZN4vega4Time12SINGLE_REGEXEvE10SING_REGEX
+- __ZZN4vega5dicom14TransferSyntax15NAME_TO_UID_MAPEvE15NAME_TO_UID_MAP
+- __ZZN4vega5dicom14TransferSyntax22EXPLICIT_VR_BIG_ENDIANEvE22EXPLICIT_VR_BIG_ENDIAN
+- __ZZN4vega5dicom14TransferSyntax25EXPLICIT_VR_LITTLE_ENDIANEvE25EXPLICIT_VR_LITTLE_ENDIAN
+- __ZZN4vega5dicom14TransferSyntax25IMPLICIT_VR_LITTLE_ENDIANEvE25IMPLICIT_VR_LITTLE_ENDIAN
+- __ZZN4vega5dicom14TransferSyntax34DEFLATED_EXPLICIT_VR_LITTLE_ENDIANEvE34DEFLATED_EXPLICIT_VR_LITTLE_ENDIAN
+- __ZZN4vega5dicom4File46trial_transfer_syntaxes_when_missing_file_metaEvE1v
+- __ZZN4vega5dicom8SOPClass14NAME_UID_PAIRSEvE14NAME_UID_PAIRS
+- __ZZN4vega5dicom8SOPClass15NAME_TO_UID_MAPEvE15NAME_TO_UID_MAP
+- __ZZN4vega5dicom8SOPClass15UID_TO_NAME_MAPEvE15UID_TO_NAME_MAP
+- ___AppleDicomAddDICOMPropertiesToDataSet_block_invoke
+- ____ZL21_addKeyValueToDataSetRNSt3__110shared_ptrIN4vega5dicom7DataSetEEEP8NSStringP7NSArrayIP11objc_objectE_block_invoke
+- ____ZL21_addKeyValueToDataSetRNSt3__110shared_ptrIN4vega5dicom7DataSetEEEP8NSStringP7NSArrayIP11objc_objectE_block_invoke.73
+- ____ZN4vega10dictionary10Dictionary28default_dictionary_file_nameEv_block_invoke
+- ___block_descriptor_40_e15_v32?0816^B24l
+- ___block_descriptor_48_ea8_32c65_ZTSNSt3__110shared_ptrIN4vega12manipulators16ValueManipulatorEEE_e15_v32?08Q16^B24l
+- ___block_descriptor_48_ea8_32c87_ZTSNSt3__110shared_ptrIN4vega12manipulators27FixedSizeElementManipulatorINS1_3TagEEEEE_e15_v32?08Q16^B24l
+- ___copy_helper_block_ea8_32c65_ZTSNSt3__110shared_ptrIN4vega12manipulators16ValueManipulatorEEE
+- ___copy_helper_block_ea8_32c87_ZTSNSt3__110shared_ptrIN4vega12manipulators27FixedSizeElementManipulatorINS1_3TagEEEEE
+- ___cxa_pure_virtual
+- ___destroy_helper_block_ea8_32c65_ZTSNSt3__110shared_ptrIN4vega12manipulators16ValueManipulatorEEE
+- ___destroy_helper_block_ea8_32c87_ZTSNSt3__110shared_ptrIN4vega12manipulators27FixedSizeElementManipulatorINS1_3TagEEEEE
+- ___tolower
+- _deflate
+- _deflateEnd
+- _deflateInit2_
+- _inflate
+- _inflateEnd
+- _inflateInit2_
+- _objc_msgSend$cStringUsingEncoding:
+- _objc_msgSend$charValue
+- _objc_msgSend$firstObject
+- _objc_msgSend$floatValue
+- _objc_msgSend$matchesInString:options:range:
+- _objc_msgSend$numberWithShort:
+- _objc_msgSend$objCType
+- _objc_msgSend$shortValue
+- _objc_msgSend$unsignedCharValue
+- _objc_msgSend$unsignedLongValue
+- _objc_retain_x7
+CStrings:
++ "\n  DICOM String: \""
++ "\n  Endian Swap: "
++ " for element size "
++ " out of bounds for count "
++ "%s.%s.%s"
++ "' already exists"
++ "' not found in dataset"
++ "' not found in dictionary"
++ "' or non-private-owner tag "
++ "(%04x,%04x)"
++ ") larger than remaining file ("
++ ".cxx_destruct"
++ "/^private\\s+\"(.+)\"\\s+\\(([0-9a-fA-FxX]{4}),([0-9a-fA-FxX]{4})\\)\\s+([a-zA-Z]{2}(?:[\\/_][a-zA-Z]{2})*)\\s+([\\w\\-]+)\\s+\"(.+)\"$/"
++ "/^public\\s+\\(([0-9a-fA-FxX]{4}),([0-9a-fA-FxX]{4})\\)\\s+([a-zA-Z]{2}(?:[\\/_][a-zA-Z]{2})*)\\s+(\\w+)\\s+([1-9]\\d*(?:-(?:[1-9]\\d*)?n?)?)$/"
++ "<<<< VegaBackend >>>>"
++ "@20@0:8I16"
++ "@24@0:8@16"
++ "@24@0:8I16I20"
++ "@24@0:8^@16"
++ "@24@0:8q16"
++ "@28@0:8I16^@20"
++ "@28@0:8i16^@20"
++ "@32@0:8@16^@24"
++ "@44@0:8I16@20@28^@36"
++ "AE"
++ "AT"
++ "Age count must be at most 3 digits"
++ "Age string must be at most 4 characters long"
++ "Ambiguous MultiVR: "
++ "B32@0:8@16^@24"
++ "CMPhoto.AttributeTagManipulator"
++ "CMPhoto.FloatingPointDoubleManipulator"
++ "CMPhoto.FloatingPointManipulator"
++ "CMPhoto.LongStringManipulator"
++ "CMPhoto.OtherByteManipulator"
++ "CMPhoto.PersonNameManipulator"
++ "CMPhoto.ShortStringManipulator"
++ "CMPhoto.SignedShortManipulator"
++ "CMPhoto.UnsignedShortManipulator"
++ "CMPhoto/VegaSwiftBridge.swift"
++ "CMPhoto/date.swift"
++ "CMPhoto/date_time.swift"
++ "CMPhoto/time.swift"
++ "CMPhotoSwift_Internal.VegaSwiftElement"
++ "CMPhotoSwift_Internal.VegaSwiftFile"
++ "CS"
++ "Call set_dictionary() before using dictionary-dependent operations."
++ "Cannot add element that already exists: "
++ "Cannot find dictionary page for tag "
++ "Cannot find dictionary page with name: "
++ "Cannot get singular tag from TagMask: "
++ "Cannot serialize non-existing data set"
++ "Cannot set creatorName for VR '"
++ "Check zlib installation and availability."
++ "Conversion error: "
++ "Corrupted File Meta Information data: "
++ "Could not create TransferSyntax for: "
++ "Could not extract Transfer Syntax UID value"
++ "Could not find VR '"
++ "Could not find transfer syntax: "
++ "Could not open file: "
++ "Could not read FileMeta"
++ "Could not read tag header"
++ "DICOM Data Error: "
++ "DICOM File Error: "
++ "DS"
++ "DT"
++ "DataElement cannot be constructed with multi-VR: "
++ "DataSet is empty - no elements were parsed"
++ "Dictionary file has invalid encoding: "
++ "Dictionary file not found: "
++ "Dictionary lookup error: "
++ "Dictionary parsing error: "
++ "Element does not contain sequence data"
++ "Element is not a sequence (VR != SQ)"
++ "Element with tag "
++ "Embedded dictionary segment not found: "
++ "Encapsulated pixel data error: "
++ "EncapsulatedPixelData("
++ "Ensure the input stream is properly initialized and contains valid data."
++ "Expected item delimiter, got "
++ "Expected item tag, got "
++ "FL"
++ "Failed to read file: "
++ "Failed to read first File Meta element: "
++ "Failed to read tag header"
++ "File Meta parsing error: "
++ "File Meta validation error: "
++ "File does not exist: "
++ "FixedSizeElementManipulator<"
++ "Got 0xFFFFFFFF length for tag "
++ "Got unexpected item tag"
++ "Got unexpected length for delimiter tag"
++ "Got unexpected number of data sets when deserializing: "
++ "Hit maximum recursion depth"
++ "IS"
++ "Incompatible manipulator data: "
++ "Incompatible num_bytes for FixedSizeElementManipulator: "
++ "Incompatible size for FixedSizeElementManipulator: "
++ "Incorrect use of constructor"
++ "Internal error during lazy load: "
++ "Invalid File Meta Group Length: 0"
++ "Invalid File Meta Information Group Length: "
++ "Invalid File Meta Information Version: "
++ "Invalid File Meta Information header: "
++ "Invalid File Meta: "
++ "Invalid JSON data set tag"
++ "Invalid JSON: Could not find starting curly brace '{'"
++ "Invalid JSON: Could not find tag string"
++ "Invalid JSON: No colon ':' after tag "
++ "Invalid JSON: Unexpected comma"
++ "Invalid MultiVR: "
++ "Invalid Transfer Syntax UID: "
++ "Invalid VR for manipulator: "
++ "Invalid VR string: "
++ "Invalid data size: got "
++ "Invalid dictionary format at line "
++ "Invalid encoding for embedded dictionary data"
++ "Invalid input stream: "
++ "Invalid number of keys found, expected one."
++ "Invalid or unsupported Transfer Syntax: "
++ "Invalid private tag: "
++ "Invalid raw value: "
++ "Invalid tag mask: "
++ "Invalid value for VR: "
++ "Manipulator does not support VR: "
++ "Missing required File Meta element: "
++ "Missing required element: TransferSyntaxUID (0002,0010)"
++ "Missing valid TransferSyntax"
++ "Must supply explicit VR: "
++ "No DataSet available"
++ "No dataset available"
++ "No file metadata available"
++ "No valid dictionary entries found"
++ "OW"
++ "PN"
++ "PaddedStringManipulator could not decode ASCII string"
++ "PaddedStringManipulator could not read "
++ "PaddedStringManipulator<"
++ "PixelData element not found"
++ "PixelData has no value"
++ "PixelData item extends beyond data"
++ "Private creator elements need to be created with a specific creatorName"
++ "Private tag group mask must be FFFF, got: "
++ "Private tag group must be >= 9, got: "
++ "Private tag group must be odd, got: "
++ "Provide an explicit VR to resolve the ambiguity."
++ "Reading JSON data element, did not find '"
++ "SH"
++ "SingleStringManipulator could not decode ASCII string"
++ "SingleStringManipulator could not read "
++ "T@\"NSArray\",N,R"
++ "T@\"NSString\",N,R"
++ "TB,N,R"
++ "Tag must agree with type: "
++ "The dictionary.txt must be embedded at build time using -Wl,-sectcreate,__DATA,__vega_dict,<path_to_dictionary.txt>"
++ "Trying to access optional without a value"
++ "UI"
++ "UN"
++ "UNDEFINED_SEQUENCE_RECURSION_LEVEL"
++ "UT"
++ "Unexpected element "
++ "UniqueIdentifierManipulator could not read "
++ "Unknown Vega error"
++ "Unknown age unit: "
++ "VR must agree with type: "
++ "VR not found for tag '"
++ "Validation failed: "
++ "Vega library error"
++ "VegaSwiftDataSet"
++ "VegaSwiftElement"
++ "VegaSwiftFile"
++ "Verify the file path is correct and the file exists."
++ "Verify the transfer syntax name or UID is correct."
++ "[Data size not aligned to Double]"
++ "[Data size not aligned to Float]"
++ "[Data size not aligned to Int16]"
++ "[Data size not aligned to Int32]"
++ "[Data size not aligned to UInt16]"
++ "[Data size not aligned to UInt32]"
++ "[Sequence Data - not parsed]"
++ "[Too small for Double]"
++ "[Too small for Float]"
++ "[Too small for Int16]"
++ "[Too small for Int32]"
++ "[Too small for UInt16]"
++ "[Too small for UInt32]"
++ "^([0-1]\\d|2[0-3])(\\:?[0-5]\\d(\\:?[0-5]\\d(\\.\\d{1,6})?)?)?$"
++ "^\\d{4}((0[1-9]|1[0-2])((0[1-9]|[1-2]\\d|3[0-1])(([0-1]\\d|2[0-4])([0-5]\\d(([0-5]\\d|60)(\\.\\d{1,6})?)?)?)?)?)?([+-](0\\d|1[0-4])([0-5]\\d)?)?$"
++ "^\\d{4}(\\.?(0[1-9]|1[0-2])(\\.?(0[1-9]|[1-2]\\d|3[0-1]))?)?$"
++ "^\\s*([\\+\\-\\.\\d]*)\\s*-\\s*([\\+\\-\\.\\d]*)\\s*$"
++ "^\\s*([\\.\\d:]*)\\s*-\\s*([\\.\\d:]*)\\s*$"
++ "^\\s*([\\.\\d]*)\\s*-\\s*([\\.\\d]*)\\s*$"
++ "_TtC7CMPhoto10Anonymizer"
++ "_TtC7CMPhoto10Controller"
++ "_TtC7CMPhoto10Dictionary"
++ "_TtC7CMPhoto10Randomizer"
++ "_TtC7CMPhoto11DataElement"
++ "_TtC7CMPhoto11RegexString"
++ "_TtC7CMPhoto12PrivateOwner"
++ "_TtC7CMPhoto12WritingError"
++ "_TtC7CMPhoto13VegaException"
++ "_TtC7CMPhoto14ImageExtractor"
++ "_TtC7CMPhoto14TransferSyntax"
++ "_TtC7CMPhoto14URIManipulator"
++ "_TtC7CMPhoto15DateManipulator"
++ "_TtC7CMPhoto15DicomTextWriter"
++ "_TtC7CMPhoto15TimeManipulator"
++ "_TtC7CMPhoto17DicomBinaryWriter"
++ "_TtC7CMPhoto17PrivateOwnerBlock"
++ "_TtC7CMPhoto18PrivateOwnerBlocks"
++ "_TtC7CMPhoto19DateTimeManipulator"
++ "_TtC7CMPhoto19LongTextManipulator"
++ "_TtC7CMPhoto20AgeStringManipulator"
++ "_TtC7CMPhoto20BaseValueManipulator"
++ "_TtC7CMPhoto20OtherByteManipulator"
++ "_TtC7CMPhoto20ShortTextManipulator"
++ "_TtC7CMPhoto21CodeStringManipulator"
++ "_TtC7CMPhoto21LongStringManipulator"
++ "_TtC7CMPhoto21OtherFloatManipulator"
++ "_TtC7CMPhoto21PersonNameManipulator"
++ "_TtC7CMPhoto21SignedLongManipulator"
++ "_TtC7CMPhoto22OtherDoubleManipulator"
++ "_TtC7CMPhoto22ShortStringManipulator"
++ "_TtC7CMPhoto22SignedShortManipulator"
++ "_TtC7CMPhoto22UndefinedLengthRemover"
++ "_TtC7CMPhoto23AttributeTagManipulator"
++ "_TtC7CMPhoto23SingleStringManipulator"
++ "_TtC7CMPhoto23UnsignedLongManipulator"
++ "_TtC7CMPhoto24FloatingPointManipulator"
++ "_TtC7CMPhoto24IntegerStringManipulator"
++ "_TtC7CMPhoto24UnlimitedTextManipulator"
++ "_TtC7CMPhoto24UnsignedShortManipulator"
++ "_TtC7CMPhoto25GeneralIntegerManipulator"
++ "_TtC7CMPhoto25SignedVeryLongManipulator"
++ "_TtC7CMPhoto27UniqueIdentifierManipulator"
++ "_TtC7CMPhoto27UnsignedVeryLongManipulator"
++ "_TtC7CMPhoto28ApplicationEntityManipulator"
++ "_TtC7CMPhoto2VM"
++ "_TtC7CMPhoto2VR"
++ "_TtC7CMPhoto30FloatingPointDoubleManipulator"
++ "_TtC7CMPhoto30UnlimitedCharactersManipulator"
++ "_TtC7CMPhoto32EncapsulatedPixelDataManipulator"
++ "_TtC7CMPhoto3Age"
++ "_TtC7CMPhoto3UID"
++ "_TtC7CMPhoto4Date"
++ "_TtC7CMPhoto4File"
++ "_TtC7CMPhoto4Page"
++ "_TtC7CMPhoto4Time"
++ "_TtC7CMPhoto6Reader"
++ "_TtC7CMPhoto6Writer"
++ "_TtC7CMPhoto7DataSet"
++ "_TtC7CMPhoto7Element"
++ "_TtC7CMPhoto7IOState"
++ "_TtC7CMPhoto7IStream"
++ "_TtC7CMPhoto7MultiVR"
++ "_TtC7CMPhoto7OStream"
++ "_TtC7CMPhoto7RFC1951"
++ "_TtC7CMPhoto7TagMask"
++ "_TtC7CMPhoto7Visitor"
++ "_TtC7CMPhoto8CVisitor"
++ "_TtC7CMPhoto8DateTime"
++ "_TtC7CMPhoto8FileMeta"
++ "_TtC7CMPhoto8Pathname"
++ "_TtC7CMPhoto8Preamble"
++ "_TtC7CMPhoto8RawValue"
++ "_TtC7CMPhoto8SOPClass"
++ "_TtC7CMPhoto9Formatter"
++ "_TtC7CMPhoto9RawReader"
++ "_TtC7CMPhoto9RawWriter"
++ "__DATA"
++ "__vega_dict"
++ "active"
++ "addPixelDataWithFrames:error:"
++ "addSequenceItemAndReturnError:"
++ "allElements"
++ "appendDouble:"
++ "appendInteger:"
++ "binaryData"
++ "compressedDataUsingAlgorithm:error:"
++ "createElementByName:error:"
++ "createElementWithTag:vr:creatorName:error:"
++ "createSequenceElementWithTag:error:"
++ "customAnonymizer"
++ "data"
++ "dataElement"
++ "dataSet"
++ "dataSets"
++ "dateFromString:"
++ "decompressedDataUsingAlgorithm:error:"
++ "doubleValueAt:"
++ "element"
++ "elementWithTag:"
++ "elementWithTag:mask:"
++ "endianSwapNeeded"
++ "endianness"
++ "file"
++ "fileHandleWithStandardInput"
++ "fileHandleWithStandardOutput"
++ "fileMeta"
++ "folder"
++ "full_name_"
++ "function"
++ "gen"
++ "getData"
++ "getElementByName:error:"
++ "getInt64"
++ "getPixelDataFragmentsWithNumFrames:error:"
++ "getSequenceItemsAndReturnError:"
++ "getString"
++ "getUInt16"
++ "getUInt64"
++ "getValueAsArray"
++ "group"
++ "indentLevel"
++ "init()"
++ "init(dicomString:)"
++ "init(singleValue:)"
++ "init(values:)"
++ "initWithBytes:length:"
++ "initWithData:error:"
++ "initWithDomain:code:userInfo:"
++ "initWithDouble:"
++ "initWithElement:error:"
++ "initWithFloat:"
++ "initWithInteger:"
++ "initWithLongLong:"
++ "initWithPattern:options:error:"
++ "initWithSopClassUID:"
++ "initWithString:"
++ "initWithUnsignedInt:"
++ "initWithUnsignedLongLong:"
++ "initWithUnsignedShort:"
++ "inputFile"
++ "integerValueAt:"
++ "isAtEnd"
++ "isLittleEndian"
++ "isModified"
++ "isSequence"
++ "lastError"
++ "lastValidationResult"
++ "last_dot_"
++ "last_slash_"
++ "lock"
++ "lower"
++ "m_allow_any_explicit_vr"
++ "m_block_number"
++ "m_bytes"
++ "m_count"
++ "m_data_set"
++ "m_data_sets"
++ "m_dicom_endian"
++ "m_elements"
++ "m_eof_pos"
++ "m_file_meta"
++ "m_fragments"
++ "m_group"
++ "m_group_to_element_to_block"
++ "m_group_to_element_to_page"
++ "m_header"
++ "m_host_endian"
++ "m_is"
++ "m_lazy_load"
++ "m_limits"
++ "m_lower"
++ "m_machine_endian"
++ "m_mask_tag"
++ "m_mask_tag_to_map_from_value_tag_to_pages"
++ "m_media_storage_instance_uid"
++ "m_multi_vr"
++ "m_multiple"
++ "m_name"
++ "m_name_to_page"
++ "m_name_to_private_owner"
++ "m_offsets"
++ "m_owner"
++ "m_page"
++ "m_parent"
++ "m_popcount_to_tag_masks"
++ "m_popcounts_decreasing"
++ "m_preamble"
++ "m_present"
++ "m_private_owner"
++ "m_private_owner_blocks"
++ "m_raw_reader"
++ "m_raw_writer"
++ "m_should_swap_bytes"
++ "m_sop_class"
++ "m_state"
++ "m_str"
++ "m_swap"
++ "m_tag_mask"
++ "m_transfer_syntax"
++ "m_uid"
++ "m_unit"
++ "m_upper"
++ "m_value"
++ "m_value_data"
++ "m_value_tag"
++ "m_vm"
++ "m_vr_explicit"
++ "m_vrs"
++ "message"
++ "operations"
++ "output"
++ "outputFile"
++ "outputStream"
++ "patientID"
++ "patientId"
++ "position"
++ "privateOwnerName"
++ "randomizer"
++ "readDataToEndOfFile"
++ "remove_undefined_lengths"
++ "separator"
++ "serializeToDataAndReturnError:"
++ "setData:"
++ "setDateFormat:"
++ "setDateStyle:"
++ "setString:"
++ "setTimeStyle:"
++ "setTimeZone:"
++ "setTransferSyntax:error:"
++ "sortedTagList"
++ "stringFromDate:"
++ "suffix"
++ "tag"
++ "tagName"
++ "transferSyntaxUID"
++ "unit"
++ "unlock"
++ "upper"
++ "v24@0:8d16"
++ "v24@0:8q16"
++ "value"
++ "valueCount"
++ "values"
++ "vr"
++ "write:maxLength:"
++ "writeAndReturnError:"
++ "writeData:"
++ "writePosition"
++ "⚠️ Invalid data size "
+- "  "
+- " ("
+- " and "
+- " cur_pos="
+- " eof="
+- " for "
+- " for VR "
+- " for tag "
+- " length="
+- " with tag "
+- "\""
+- "\" does not match expected pattern"
+- "\"encapsulated pixel data\""
+- "' ("
+- "("
+- "([0-1]\\d|2[0-3])(\\:?[0-5]\\d(\\:?[0-5]\\d(\\.\\d{1,6})?)?)?"
+- "([1-9]\\d*)-([1-9]\\d*)?n?"
+- ")"
+- ") does not match allowed length ("
+- ") length="
+- ") of VR ("
+- ","
+- ", "
+- ", tag: "
+- "--END-- of data sets (item delimit)"
+- "--END-- of element (sequence delimit)"
+- ".1"
+- "1.2.12"
+- ": "
+- "Age string must be between 1 and 4 characters long"
+- "Basic Text SR"
+- "Chest CAD SR"
+- "Colon CAD SR"
+- "Could not find transfer syntax with name: "
+- "Could not register private group"
+- "DataElement::set_manipulator, received manipulator does not support VR "
+- "DataSet (delim): "
+- "DataSet item tag: "
+- "DataSet::add_data_element() -- Cannot add new element as it already exists"
+- "DataSet::new_element() -- Cannot create new element as it already exists"
+- "Element<T>(const Tag&): Tag must agree with type T."
+- "Encountered non file-meta DataElement in file meta header"
+- "Enhanced SR"
+- "Error: encountered overflow when trying to write 2 byte length"
+- "Failed to read in file"
+- "In DataElement(Tag), could not find dictionary page with tag = "
+- "In DataElement(Tag, VR), could not find dictionary page with tag = "
+- "Incompatible size for FixedSizeElementManipulator"
+- "Internal error: lazy_load encountered undefined length"
+- "Invalid MultiVR"
+- "Invalid MultiVR string \""
+- "Invalid input stream"
+- "Invalid output stream in RawWriter()"
+- "Invalid type "
+- "L"
+- "Length of tag ("
+- "Must supply explicit VR to DataElement with name = "
+- "Need TransferSyntaxUID element"
+- "Private Page encountered an invalid tag mask: "
+- "Procedure Log"
+- "RT Dose Storage"
+- "RT Plan Storage"
+- "Read past expected end of file meta data"
+- "Reader could not extract valid date from DA tag"
+- "Reader could not extract valid date from DT tag"
+- "Reader encounted length too long to fit in file: tag="
+- "Reader encountered error reading from manipulator: '"
+- "Reader encountered invalid VR2: "
+- "Reader failed to read element in undefined length data set"
+- "Reader failed to read element in well-defined length data set"
+- "Reader failed to read element tag"
+- "Reader failed to read element tag in undefined length data set"
+- "Reader failed to read in data set length"
+- "Reader failed to read in data set tag"
+- "Reader failed to read in explicit VR"
+- "Reader failed to read in explicit VR 2 byte length field"
+- "Reader failed to read in explicit VR 4 byte length field"
+- "Reader failed to read in group length tag"
+- "Reader failed to read in implicit VR 4 byte length field"
+- "Reader failed to read in length of item delimitation tag"
+- "Reader failed to read sequence length in undefined length element"
+- "Reader failed to read sequence tag in undefined length element"
+- "Reader page does not allow VR: "
+- "Reader unexpectedly reached end of read_data_set() method"
+- "Regular length data set"
+- "Returning dataset: "
+- "String \""
+- "Undefined length data set"
+- "Unexpected error reading file meta"
+- "Unhandled VR "
+- "Warning, trying to recover from error with transfer syntax "
+- "\\((....),(....)\\)"
+- "\\d{4}((0[1-9]|1[0-2])((0[1-9]|[1-2]\\d|3[0-1])(([0-1]\\d|2[0-4])([0-5]\\d(([0-5]\\d|60)(\\.\\d{1,6})?)?)?)?)?)?([\\+\\-](0\\d|1[0-4])([0-5]\\d)?)?"
+- "\\d{4}(\\.?(0[1-9]|1[0-2])(\\.?(0[1-9]|[1-2]\\d|3[0-1]))?)?"
+- "\\s*([\\+\\-\\.\\d]*)\\s*-\\s*([\\+\\-\\.\\d]*)\\s*"
+- "\\s*([\\.\\d]*)\\s*-\\s*([\\.\\d]*)\\s*"
+- "^private\\s+\"(.+)\"\\s+\\(([0-9a-fA-FxX]{4}),([0-9a-fA-FxX]{4})\\)\\s+([a-zA-Z]{2}(?:[/_][a-zA-Z]{2})*)\\s+([\\w\\-]+)\\s+\"(.+)\"$"
+- "^public \\(([0-9a-fA-FxX]{4}),([0-9a-fA-FxX]{4})\\)\\s+([a-zA-Z]{2}(?:[/_][a-zA-Z]{2})*)\\s+(\\w+)\\s+([1-9]\\d*(?:-(?:[1-9]\\d*)?n?)?)$"
+- "c == '-'"
+- "cStringUsingEncoding:"
+- "charValue"
+- "com.apple.CMPhoto"
+- "data_element->manipulator()->raw_value()->size() == sizeof(file_meta_bytes)"
+- "data_element->tag() == Tag(0x00020000)"
+- "dictionary.txt"
+- "e"
+- "element is not sequence"
+- "element is sequence has regular length"
+- "element is sequence with undefined length"
+- "f"
+- "file_meta.cpp"
+- "firstObject"
+- "floatValue"
+- "from_json"
+- "l"
+- "matchesInString:options:range:"
+- "must have Tag that agrees with type"
+- "must have VR that agrees with type"
+- "numberWithShort:"
+- "objCType"
+- "parse_vr_string"
+- "range_read"
+- "range_type.h"
+- "read_data_element"
+- "read_data_element() must receive parent DataSet"
+- "read_data_element() recursion level hit. Corrupt file"
+- "read_data_element, returning: "
+- "read_data_element: "
+- "read_data_set"
+- "s.length() == 2"
+- "s.size() > 0"
+- "shortValue"
+- "unique_identifier_manipulator.cpp"
+- "unsignedCharValue"
+- "unsignedLongValue"
+- "vr.cpp"
+- "write"
+
+```

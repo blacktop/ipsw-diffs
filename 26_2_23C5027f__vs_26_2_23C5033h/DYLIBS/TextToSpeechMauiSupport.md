@@ -1,0 +1,102 @@
+## TextToSpeechMauiSupport
+
+> `/System/Library/PrivateFrameworks/TextToSpeechMauiSupport.framework/TextToSpeechMauiSupport`
+
+```diff
+
+ 657.0.0.0.0
+-  __TEXT.__text: 0x530734
++  __TEXT.__text: 0x5307dc
+   __TEXT.__auth_stubs: 0x1710
+   __TEXT.__objc_methlist: 0x680
+   __TEXT.__const: 0xd8ba0
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FF4A50FE-825D-38C0-B64D-19F2C5B39B9F
+-  Functions: 15078
+-  Symbols:   24311
++  UUID: 05FFAF3F-33AC-3227-A76A-94BD2AFAD0A2
++  Functions: 15079
++  Symbols:   24313
+   CStrings:  12899
+ 
+Symbols:
++ _OUTLINED_FUNCTION_4
+Functions:
+~ _OUTLINED_FUNCTION_3 : 12 -> 8
++ _OUTLINED_FUNCTION_4
+~ __ZNKSt3__120__shared_ptr_pointerIP17TronPrepareInputsN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP17LitePrepareInputsN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP16TC2PrepareInputsN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP16PipelineServicesN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP12CJsonWrapperN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP12MelganEngineN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP13HifiganEngineN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP14MelganStreamerN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP15HifiganStreamerN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP10TRONEngineN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP17LightSpeechEngineN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP9TC2EngineN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP23NeonFirstConvMelManagerN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP29MelganFirstConvNeonFP16EngineN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP24NeonFirstBlockMelManagerN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP30MelganFirstBlockNeonFP16EngineN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP25NeonSecondBlockMelManagerN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP31MelganSecondBlockNeonFP16EngineN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP24NeonThirdBlockMelManagerN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP30MelganThirdBlockNeonFP16EngineN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP23NeonPqmfBlockMelManagerN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP18PQMFNeonFP16EngineN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP18NeonConvNetManagerN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP21ConvnetNeonFP16EngineN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP15NeonLSTMManagerN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP18LSTMNeonFP16EngineN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP17NeonMemoryManagerN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP20MemoryNeonFP16EngineN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP18NeonDecoderManagerN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP17DecoderNeonEngineN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP18NeonPostNetManagerN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP17PostnetNeonEngineN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP25TronEncoderNeonFP16EngineN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP23TronStyleNeonFP16EngineN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP27TronPredictorNeonFP16EngineN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP25TronDecoderNeonFP16EngineN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP25TronMixtureNeonFP16EngineN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP25TronPostNetNeonFP16EngineN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP30LightSpeechStyleNeonFP32EngineN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP32LightSpeechEncoderNeonFP32EngineN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP33LightSpeechDurationNeonFP32EngineN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP30LightSpeechPitchNeonFP32EngineN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP32LightSpeechDecoderNeonFP32EngineN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP27HifiganUpsamplingNeonEngineN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP26HifiganIstftNeonFP32EngineN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP20NeonHiFiGan16ManagerN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP20NeonHiFiGan32ManagerN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP17UltraIstftManagerN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP18NeonLSStyleManagerN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP20NeonLSEncoderManagerN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP21NeonLSDurationManagerN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP18NeonLSPitchManagerN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP20NeonLSDecoderManagerN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP11SpinBarrierN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP22NeonTronEncoderManagerN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP20NeonTronStyleManagerN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP24NeonTronPredictorManagerN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP22NeonTronDecoderManagerN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP22NeonTronMixtureManagerN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNKSt3__120__shared_ptr_pointerIP22NeonTronPostNetManagerN5ENTTS7DeleterIS1_EENS3_9AllocatorIS1_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ _op_free : 64 -> 72
+~ _op_raw_total : 124 -> 120
+~ _op_pcm_total : 156 -> 152
+~ _op_raw_seek : 276 -> 264
+~ _op_raw_tell : 28 -> 24
+~ _op_pcm_tell : 360 -> 356
+~ _op_read_native : 784 -> 780
+~ _op_make_decode_ready : 356 -> 336
+~ _opus_tags_parse_impl : 452 -> 440
+~ _op_tags_ensure_capacity : 184 -> 172
+~ _opus_tags_set_binary_suffix : 184 -> 172
+
+```

@@ -1,0 +1,52 @@
+## Transliteration
+
+> `/System/Library/PrivateFrameworks/Transliteration.framework/Transliteration`
+
+```diff
+
+ 43.1.0.0.0
+-  __TEXT.__text: 0x18814
++  __TEXT.__text: 0x1881c
+   __TEXT.__auth_stubs: 0xc30
+   __TEXT.__objc_methlist: 0x26c
+   __TEXT.__const: 0x4b0
+
+   __TEXT.__unwind_info: 0xa78
+   __TEXT.__objc_classname: 0xc3
+   __TEXT.__objc_methname: 0x7eb
+-  __TEXT.__objc_methtype: 0x166
++  __TEXT.__objc_methtype: 0x16c
+   __TEXT.__objc_stubs: 0x840
+   __DATA_CONST.__got: 0x180
+   __DATA_CONST.__const: 0x1c0
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: AED01FB8-37B5-3687-B2B3-E7176F792D91
++  UUID: 860E0177-CEF2-3F3B-8CF9-5C26914DFEF0
+   Functions: 428
+   Symbols:   1567
+   CStrings:  949
+Functions:
+~ -[TLTransliterator generateCandidatesForInputWord:candidateContextStrings:maxCandidatesCount:] : 972 -> 976
+~ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_7variantIJbS7_EEEEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS5_ISA_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENSL_IJEEEEEENS_4pairINS_15__tree_iteratorISA_PNS_11__tree_nodeISA_PvEElEEbEERKT_DpOT0_ : 204 -> 208
+~ __ZNKSt3__120__shared_ptr_pointerIPN2TL12SharedCFType7WrapperENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNSt3__16vectorI34TLCompositeTransliteratorCandidateNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJRKNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEESC_ff29TLTransliteratorCandidateTypebEEEPS1_DpOT_ : 324 -> 320
+~ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8weak_ptrIN2TL12ReadOnlyFileIcEEEEEENS_22__unordered_map_hasherIS7_SD_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SD_SI_SG_Lb1EEENS5_ISD_EEE4findIS7_EENS_15__hash_iteratorIPNS_11__hash_nodeISD_PvEEEERKT_ : 252 -> 256
+~ __ZNKSt3__120__shared_ptr_pointerIPN2TL12ReadOnlyFileIcEENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8weak_ptrIN2TL12ReadOnlyFileIcEEEEEENS_22__unordered_map_hasherIS7_SD_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SD_SI_SG_Lb1EEENS5_ISD_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSS_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISD_PvEEEEbEERKT_DpOT0_ : 628 -> 632
+~ __ZNSt3__16vectorI34TLCompositeTransliteratorCandidateNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJRKNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEPKcdd29TLTransliteratorCandidateTypebEEEPS1_DpOT_ : 316 -> 312
+~ ____ZNK32TLCompositeTransliteratorLexicon25lexiconCandidatesForInputERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE_block_invoke : 432 -> 436
+~ __ZNSt3__16vectorI34TLCompositeTransliteratorCandidateNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJRKNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEERSA_df29TLTransliteratorCandidateTypebEEEPS1_DpOT_ : 320 -> 316
+~ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE24__emplace_back_slow_pathIJRKS6_EEEPS6_DpOT_ : 320 -> 316
+~ __ZNSt3__16vectorI34TLCompositeTransliteratorCandidateNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJRNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEESB_dd29TLTransliteratorCandidateTypeRbEEEPS1_DpOT_ : 316 -> 312
+~ __ZNSt3__16vectorI34TLCompositeTransliteratorCandidateNS_9allocatorIS1_EEE18__insert_with_sizeB8ne200100INS_11__wrap_iterIPS1_EES8_EES8_NS6_IPKS1_EET_T0_l : 464 -> 460
+~ __ZNSt3__16vectorI34TLCompositeTransliteratorCandidateNS_9allocatorIS1_EEE18__assign_with_sizeB8ne200100IPS1_S6_EEvT_T0_l : 364 -> 368
+~ __ZNSt3__16vectorI34TLCompositeTransliteratorCandidateNS_9allocatorIS1_EEE11__vallocateB8ne200100Em : 76 -> 80
+~ __ZNSt3__16vectorI34TLCompositeTransliteratorCandidateNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJRKS1_EEEPS1_DpOT_ : 368 -> 364
+CStrings:
++ "{unique_ptr<TLCompositeTransliterator, std::default_delete<TLCompositeTransliterator>>=\"\"{?=\"__ptr_\"^{TLCompositeTransliterator}}}"
+- "{unique_ptr<TLCompositeTransliterator, std::default_delete<TLCompositeTransliterator>>=\"__ptr_\"^{TLCompositeTransliterator}}"
+
+```

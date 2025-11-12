@@ -1,0 +1,464 @@
+## ScreenTimeSettingsUI
+
+> `/System/Library/PrivateFrameworks/ScreenTimeSettingsUI.framework/ScreenTimeSettingsUI`
+
+```diff
+
+-605.2.3.0.0
+-  __TEXT.__text: 0x11f2c4
+-  __TEXT.__auth_stubs: 0x2e50
+-  __TEXT.__objc_methlist: 0xbd94
+-  __TEXT.__const: 0x3b34
+-  __TEXT.__cstring: 0xe249
+-  __TEXT.__oslogstring: 0x5493
+-  __TEXT.__gcc_except_tab: 0x10e0
++605.2.5.0.0
++  __TEXT.__text: 0x1236a0
++  __TEXT.__auth_stubs: 0x2ed0
++  __TEXT.__objc_methlist: 0xc054
++  __TEXT.__const: 0x3c94
++  __TEXT.__cstring: 0xe719
++  __TEXT.__oslogstring: 0x5763
++  __TEXT.__gcc_except_tab: 0x1184
+   __TEXT.__dlopen_cstrs: 0x5a
+-  __TEXT.__swift5_typeref: 0x3cf4
+-  __TEXT.__constg_swiftt: 0x14d8
+-  __TEXT.__swift5_reflstr: 0xa00
+-  __TEXT.__swift5_fieldmd: 0xbc8
++  __TEXT.__swift5_typeref: 0x4394
++  __TEXT.__constg_swiftt: 0x1504
++  __TEXT.__swift5_reflstr: 0xa10
++  __TEXT.__swift5_fieldmd: 0xbe4
+   __TEXT.__swift5_builtin: 0x8c
+   __TEXT.__swift5_assocty: 0x2d8
+-  __TEXT.__swift5_capture: 0xc8c
++  __TEXT.__swift5_capture: 0xcac
+   __TEXT.__swift5_proto: 0xec
+-  __TEXT.__swift5_types: 0x100
++  __TEXT.__swift5_types: 0x104
+   __TEXT.__swift5_protos: 0x20
+   __TEXT.__swift_as_entry: 0x9c
+   __TEXT.__swift_as_ret: 0x90
+-  __TEXT.__unwind_info: 0x3a58
++  __TEXT.__unwind_info: 0x3b30
+   __TEXT.__eh_frame: 0x20a8
+-  __TEXT.__objc_classname: 0x1d5f
+-  __TEXT.__objc_methname: 0x21a03
+-  __TEXT.__objc_methtype: 0x39bc
+-  __TEXT.__objc_stubs: 0x14c60
+-  __DATA_CONST.__got: 0x13f8
+-  __DATA_CONST.__const: 0x23d8
+-  __DATA_CONST.__objc_classlist: 0x748
++  __TEXT.__objc_classname: 0x1ddd
++  __TEXT.__objc_methname: 0x22088
++  __TEXT.__objc_methtype: 0x3a1b
++  __TEXT.__objc_stubs: 0x14fa0
++  __DATA_CONST.__got: 0x1408
++  __DATA_CONST.__const: 0x24c8
++  __DATA_CONST.__objc_classlist: 0x758
+   __DATA_CONST.__objc_catlist: 0x48
+-  __DATA_CONST.__objc_protolist: 0x1d0
++  __DATA_CONST.__objc_protolist: 0x1f0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x6a40
+-  __DATA_CONST.__objc_protorefs: 0x68
+-  __DATA_CONST.__objc_superrefs: 0x5e8
+-  __DATA_CONST.__objc_arraydata: 0x1c0
+-  __AUTH_CONST.__auth_got: 0x1738
+-  __AUTH_CONST.__const: 0x3158
+-  __AUTH_CONST.__cfstring: 0xa980
+-  __AUTH_CONST.__objc_const: 0x24200
++  __DATA_CONST.__objc_selrefs: 0x6b30
++  __DATA_CONST.__objc_protorefs: 0x70
++  __DATA_CONST.__objc_superrefs: 0x5f0
++  __DATA_CONST.__objc_arraydata: 0x2d8
++  __AUTH_CONST.__auth_got: 0x1778
++  __AUTH_CONST.__const: 0x31e8
++  __AUTH_CONST.__cfstring: 0xaec0
++  __AUTH_CONST.__objc_const: 0x25338
+   __AUTH_CONST.__objc_intobj: 0x840
+-  __AUTH_CONST.__objc_arrayobj: 0xc0
++  __AUTH_CONST.__objc_arrayobj: 0xd8
+   __AUTH_CONST.__objc_doubleobj: 0x10
+   __AUTH_CONST.__objc_dictobj: 0x258
+-  __AUTH.__objc_data: 0x4c88
+-  __AUTH.__data: 0xa00
+-  __DATA.__objc_ivar: 0xc88
+-  __DATA.__data: 0x2498
+-  __DATA.__bss: 0x1e08
++  __AUTH.__objc_data: 0x4d88
++  __AUTH.__data: 0xa30
++  __DATA.__objc_ivar: 0xcb4
++  __DATA.__data: 0x2698
++  __DATA.__bss: 0x1e18
+   __DATA.__common: 0xa0
+   __DATA_DIRTY.__objc_data: 0x9b0
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 67F75814-0EBC-3157-A3CB-74BF29CD831A
+-  Functions: 6034
+-  Symbols:   15901
+-  CStrings:  9019
++  UUID: 6B729078-44F2-3D85-9DBE-1D169A2172E8
++  Functions: 6130
++  Symbols:   16172
++  CStrings:  9168
+ 
+Symbols:
++ +[STConnectToFamilyHelper connectToFamilySpecifierForUserDSID:presentingViewController:promptTitle:promptSubtitle:promptButtonTitle:completion:]
++ -[STCommunicationSafetyListController _authenticateIfNeededForSpecifier:success:failure:]
++ -[STCommunicationSafetyListController _createConnectToFamilySpecifierIfNeeded]
++ -[STCommunicationSafetyListController _regulatoryRegion]
++ -[STCommunicationSafetyListController parentAuthenticationPrompt]
++ -[STCommunicationSafetyListController setParentAuthenticationPrompt:]
++ -[STCommunicationSafetyListController showViewController:animated:]
++ -[STCommunicationSafetyViewModel .cxx_destruct]
++ -[STCommunicationSafetyViewModel isParentSignInRequiredForCommunicationSafetyChange]
++ -[STCommunicationSafetyViewModel regulatoryRegion]
++ -[STCommunicationSafetyViewModel setIsParentSignInRequiredForCommunicationSafetyChange:]
++ -[STCommunicationSafetyViewModel setRegulatoryRegion:]
++ -[STCommunicationSafetyViewModelCoordinator _isParentSignInRequiredForCommunicationSafetyChange]
++ -[STCommunicationSafetyViewModelCoordinator _isParentSignInRequiredForCommunicationSafetyChange].cold.1
++ -[STCommunicationSafetyViewModelCoordinator _regulatoryRegion]
++ -[STCommunicationSafetyViewModelCoordinator _regulatoryRegion].cold.1
++ -[STCommunicationSafetyViewModelCoordinator updateRegulatoryValues:]
++ -[STConnectToFamilyHelper .cxx_destruct]
++ -[STConnectToFamilyHelper completion]
++ -[STConnectToFamilyHelper connectToFamily]
++ -[STConnectToFamilyHelper dsid]
++ -[STConnectToFamilyHelper initWithPresentingViewController:dsid:completion:]
++ -[STConnectToFamilyHelper presentingViewController]
++ -[STConnectToFamilyHelper setCompletion:]
++ -[STConnectToFamilyHelper setDsid:]
++ -[STConnectToFamilyHelper setPresentingViewController:]
++ -[STContentPrivacyAllowedAppsDetailController _authenticateIfNeededThenPerform:]
++ -[STContentPrivacyAllowedAppsDetailController parentAuthenticationPrompt]
++ -[STContentPrivacyAllowedAppsDetailController setParentAuthenticationPrompt:]
++ -[STContentPrivacyAllowedAppsDetailController showViewController:animated:]
++ -[STContentPrivacyViewModel isParentSignInRequiredForWebContentFilterChange]
++ -[STContentPrivacyViewModel regulatoryRegion]
++ -[STContentPrivacyViewModel regulatoryRevokeAccessMode]
++ -[STContentPrivacyViewModel setIsParentSignInRequiredForWebContentFilterChange:]
++ -[STContentPrivacyViewModel setRegulatoryRegion:]
++ -[STContentPrivacyViewModel setRegulatoryRevokeAccessMode:]
++ -[STContentPrivacyViewModelCoordinator _isParentSignInRequiredForWebContentFilterChange]
++ -[STContentPrivacyViewModelCoordinator _isParentSignInRequiredForWebContentFilterChange].cold.1
++ -[STContentPrivacyViewModelCoordinator _regulatoryRegion]
++ -[STContentPrivacyViewModelCoordinator _regulatoryRegion].cold.1
++ -[STContentPrivacyViewModelCoordinator fetchImageGenerationAndRevokeAccessModeForAccountDSID:withCompletion:]
++ -[STContentPrivacyViewModelCoordinator updateRegulatoryValues:]
++ -[STWebFilterDetailController _authenticateIfNeededThenPerform:]
++ -[STWebFilterDetailController _createConnectToFamilySpecifierIfNeeded]
++ -[STWebFilterDetailController parentAuthenticationPrompt]
++ -[STWebFilterDetailController setParentAuthenticationPrompt:]
++ -[STWebFilterDetailController showViewController:animated:]
++ GCC_except_table113
++ GCC_except_table2
++ GCC_except_table36
++ GCC_except_table39
++ GCC_except_table40
++ _OBJC_CLASS_$_STConnectToFamilyHelper
++ _OBJC_CLASS_$_STParentAuthenticationPrompt
++ _OBJC_CLASS_$__TtC20ScreenTimeSettingsUI21STConnectToFamilyCell
++ _OBJC_IVAR_$_STCommunicationSafetyListController._parentAuthenticationPrompt
++ _OBJC_IVAR_$_STCommunicationSafetyViewModel._isParentSignInRequiredForCommunicationSafetyChange
++ _OBJC_IVAR_$_STCommunicationSafetyViewModel._regulatoryRegion
++ _OBJC_IVAR_$_STConnectToFamilyHelper._completion
++ _OBJC_IVAR_$_STConnectToFamilyHelper._dsid
++ _OBJC_IVAR_$_STConnectToFamilyHelper._presentingViewController
++ _OBJC_IVAR_$_STContentPrivacyAllowedAppsDetailController._parentAuthenticationPrompt
++ _OBJC_IVAR_$_STContentPrivacyViewModel._isParentSignInRequiredForWebContentFilterChange
++ _OBJC_IVAR_$_STContentPrivacyViewModel._regulatoryRegion
++ _OBJC_IVAR_$_STContentPrivacyViewModel._regulatoryRevokeAccessMode
++ _OBJC_IVAR_$_STWebFilterDetailController._parentAuthenticationPrompt
++ _OBJC_METACLASS_$_STConnectToFamilyHelper
++ _OBJC_METACLASS_$__TtC20ScreenTimeSettingsUI21STConnectToFamilyCell
++ __DATA__TtC20ScreenTimeSettingsUI21STConnectToFamilyCell
++ __INSTANCE_METHODS__TtC20ScreenTimeSettingsUI21STConnectToFamilyCell
++ __METACLASS_DATA__TtC20ScreenTimeSettingsUI21STConnectToFamilyCell
++ __OBJC_$_CLASS_METHODS_STConnectToFamilyHelper
++ __OBJC_$_INSTANCE_METHODS_STConnectToFamilyHelper
++ __OBJC_$_INSTANCE_VARIABLES_STConnectToFamilyHelper
++ __OBJC_$_PROP_LIST_STCommunicationSafetyViewModelCoordinator.194
++ __OBJC_$_PROP_LIST_STConnectToFamilyHelper
++ __OBJC_$_PROP_LIST_STContentPrivacyViewModelCoordinator.1007
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_AISViewControllerPresentationHandlerProtocol
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_STConnectToFamily
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AISViewControllerPresentationHandlerProtocol
++ __OBJC_$_PROTOCOL_METHOD_TYPES_STConnectToFamily
++ __OBJC_$_PROTOCOL_REFS_AISViewControllerPresentationHandlerProtocol
++ __OBJC_$_PROTOCOL_REFS_STConnectToFamily
++ __OBJC_$_PROTOCOL_REFS_STParentAuthenticationPromptPresenting
++ __OBJC_CLASS_PROTOCOLS_$_STCommunicationSafetyListController
++ __OBJC_CLASS_PROTOCOLS_$_STConnectToFamilyHelper
++ __OBJC_CLASS_PROTOCOLS_$_STWebFilterDetailController
++ __OBJC_CLASS_RO_$_STConnectToFamilyHelper
++ __OBJC_LABEL_PROTOCOL_$_AISViewControllerPresentationHandlerProtocol
++ __OBJC_LABEL_PROTOCOL_$_STConnectToFamily
++ __OBJC_LABEL_PROTOCOL_$_STParentAuthenticationPromptPresenting
++ __OBJC_METACLASS_RO_$_STConnectToFamilyHelper
++ __OBJC_PROTOCOL_$_AISViewControllerPresentationHandlerProtocol
++ __OBJC_PROTOCOL_$_STConnectToFamily
++ __OBJC_PROTOCOL_$_STParentAuthenticationPromptPresenting
++ ___101-[STCommunicationSafetyViewModelCoordinator persistCommunicationSafetySettingsWithCompletionHandler:]_block_invoke.75
++ ___101-[STCommunicationSafetyViewModelCoordinator persistCommunicationSafetySettingsWithCompletionHandler:]_block_invoke.76
++ ___109-[STContentPrivacyViewModelCoordinator fetchImageGenerationAndRevokeAccessModeForAccountDSID:withCompletion:]_block_invoke
++ ___109-[STContentPrivacyViewModelCoordinator fetchImageGenerationAndRevokeAccessModeForAccountDSID:withCompletion:]_block_invoke.817
++ ___109-[STContentPrivacyViewModelCoordinator fetchImageGenerationAndRevokeAccessModeForAccountDSID:withCompletion:]_block_invoke.817.cold.1
++ ___109-[STContentPrivacyViewModelCoordinator fetchImageGenerationAndRevokeAccessModeForAccountDSID:withCompletion:]_block_invoke.cold.1
++ ___143-[STCommunicationSafetyViewModelCoordinator saveCommunicationSafetyReceivingRestricted:communicationSafetySendingRestricted:completionHandler:]_block_invoke.78
++ ___42-[STConnectToFamilyHelper connectToFamily]_block_invoke
++ ___42-[STConnectToFamilyHelper connectToFamily]_block_invoke.cold.1
++ ___59-[STCommunicationSafetyViewModelCoordinator _loadViewModel]_block_invoke.72
++ ___61-[STRootViewController handleURLResourceDictionaryDidChange:]_block_invoke_4
++ ___63-[STContentPrivacyViewModelCoordinator updateRegulatoryValues:]_block_invoke
++ ___63-[STContentPrivacyViewModelCoordinator updateRegulatoryValues:]_block_invoke_2
++ ___64-[STWebFilterDetailController _authenticateIfNeededThenPerform:]_block_invoke
++ ___64-[STWebFilterDetailController _authenticateIfNeededThenPerform:]_block_invoke_2
++ ___68-[STCommunicationSafetyViewModelCoordinator updateRegulatoryValues:]_block_invoke
++ ___68-[STCommunicationSafetyViewModelCoordinator updateRegulatoryValues:]_block_invoke_2
++ ___69-[STCommunicationSafetyListController _setEnableAnalytics:specifier:]_block_invoke_2
++ ___70-[STWebFilterDetailController _createConnectToFamilySpecifierIfNeeded]_block_invoke
++ ___70-[STWebFilterDetailController _createConnectToFamilySpecifierIfNeeded]_block_invoke_2
++ ___70-[STWebFilterDetailController _createConnectToFamilySpecifierIfNeeded]_block_invoke_3
++ ___74-[STCommunicationSafetyListController _setCheckForUnsafePhotos:specifier:]_block_invoke_2
++ ___75-[STContentPrivacyViewModelCoordinator loadViewModelWithCompletionHandler:]_block_invoke.813
++ ___75-[STContentPrivacyViewModelCoordinator loadViewModelWithCompletionHandler:]_block_invoke.813.cold.1
++ ___75-[STContentPrivacyViewModelCoordinator loadViewModelWithCompletionHandler:]_block_invoke.814
++ ___78-[STCommunicationSafetyListController _createConnectToFamilySpecifierIfNeeded]_block_invoke
++ ___78-[STCommunicationSafetyListController _createConnectToFamilySpecifierIfNeeded]_block_invoke_2
++ ___78-[STCommunicationSafetyListController _createConnectToFamilySpecifierIfNeeded]_block_invoke_3
++ ___80-[STContentPrivacyAllowedAppsDetailController _authenticateIfNeededThenPerform:]_block_invoke
++ ___80-[STContentPrivacyAllowedAppsDetailController _authenticateIfNeededThenPerform:]_block_invoke_2
++ ___82-[STContentPrivacyViewModelCoordinator saveCommunicationLimits:completionHandler:]_block_invoke.826
++ ___84-[STContentPrivacyViewModelCoordinator saveContentPrivacyEnabled:completionHandler:]_block_invoke.825
++ ___84-[STContentPrivacyViewModelCoordinator saveValuesForRestrictions:completionHandler:]_block_invoke.837
++ ___89-[STCommunicationSafetyListController _authenticateIfNeededForSpecifier:success:failure:]_block_invoke
++ ___89-[STCommunicationSafetyListController _authenticateIfNeededForSpecifier:success:failure:]_block_invoke_2
++ ___block_descriptor_105_e8_32s40s48s56s64s72s80bs_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s80l8s72l8
++ ___block_descriptor_40_e8_32w_e20_v20?0B8"NSError"12lw32l8
++ ___block_descriptor_40_e8_32w_e34_v24?0"NSDictionary"8"NSError"16lw32l8
++ ___block_descriptor_48_e8_32bs40bs_e8_v12?0B8ls32l8s40l8
++ ___block_descriptor_48_e8_32s40bs_e5_v8?0ls32l8s40l8
++ ___block_descriptor_57_e8_32s40bs48r_e30_v24?0"NSNumber"8"NSError"16lr48l8s40l8s32l8
++ ___block_descriptor_58_e8_32s40s48bs_e5_v8?0ls32l8s40l8s48l8
++ ___block_descriptor_62_e8_32s40s48s_e5_v8?0ls32l8s40l8s48l8
++ ___block_descriptor_95_e8_32s40s48s56s64s72bs_e23_v24?0B8B12"NSError"16ls32l8s40l8s48l8s56l8s64l8s72l8
++ ___block_literal_global.1010
++ ___block_literal_global.122
++ _dispatch_get_global_queue
++ _flat unique So17STConnectToFamily_p
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4FormVyAA9TupleViewVyAA7SectionVyAA4TextVACyAA0G0PAAE11pickerStyleyQrqd__AA06PickerK0Rd__lFQOyAA0L0VyAKSiSgAA7ForEachVySnySiGSiAmAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAK_SiQo_GG_AA04MenulK0VQo_AA32_EnvironmentKeyTransformModifierVySbGGAA05EmptyG0VG_AmAE06buttonK0yQrqd__AA015PrimitiveButtonK0Rd__lFQOyAIyAkTySay018ScreenTimeSettingsB012ExceptionAppVGSSA11_014STAppExceptionG0VGAKG_AA05PlainzK0VQo_SgAIyAkTySayA11_17AboveAgeRatingAppVGSSA11_021STPendingAppExceptionG0VGA7_GSgtGGA4_GAaLHPA32_AaLHPyHC_A4_AA0gV0HPyHCHC.66
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA6HStackVyAA9TupleViewVyACyACyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA12_FrameLayoutVGAA016_ForegroundStyleL0VyAA09TintShapeQ0VGG_ACyAA6VStackVyAGyAA4TextV_ACyA1_AKyAA0U9AlignmentOGGtGGAA05_FlexnO0VGACyACyApUyAA03AnysQ0VGGARGtGGAA08_PaddingO0VGAA011_BackgroundL0VyAA06StrokesG0VyAA16RoundedRectangleVA12_AA05EmptyG0VGGGAA0G0HPA20_AAA32_HPA17_AAA32_HPyHC_A19_AA0gL0HPyHCHC_A30_AAA33_HPyHCHC.53
++ _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA5ImageV_AA15ModifiedContentVyAA6VStackVyAEyAA0E0PAAE4boldyQrSbFQOyAIyAA4TextVAA16_FlexFrameLayoutVG_Qo__AStGGAA08_PaddingN0VGAA6SpacerVAIyAmAE11buttonStyleyQrqd__AA015PrimitiveButtonR0Rd__lFQOyAIyAA0T0VyAPGAA30_EnvironmentKeyWritingModifierVyAA0T11BorderShapeVGG_AA017BorderedProminenttR0VQo_A6_yAA5ColorVSgGGSgtGGAaLHPyHC.85
++ _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA6ButtonVyAA15ModifiedContentVyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGG_AkA6VStackVyAEyAA0E0PAAE4boldyQrSbFQOyAIyAA4TextVAA16_FlexFrameLayoutVG_Qo__A1_tGGAA6SpacerVtGGAaVHPyHC.86
++ _objc_msgSend$_authenticateIfNeededForSpecifier:success:failure:
++ _objc_msgSend$_authenticateIfNeededThenPerform:
++ _objc_msgSend$_createConnectToFamilySpecifierIfNeeded
++ _objc_msgSend$_isParentSignInRequiredForCommunicationSafetyChange
++ _objc_msgSend$_isParentSignInRequiredForWebContentFilterChange
++ _objc_msgSend$_regulatoryRegion
++ _objc_msgSend$completion
++ _objc_msgSend$composeContentViewControllerWithAppExceptionsController:alertPresentingController:specifier:forManagedUser:areRestrictionsEditable:appsRatingEditable:runAfterPinAuthentication:
++ _objc_msgSend$connectToFamilySpecifierForUserDSID:presentingViewController:promptTitle:promptSubtitle:promptButtonTitle:completion:
++ _objc_msgSend$fetchImageGenerationAndRevokeAccessModeForAccountDSID:withCompletion:
++ _objc_msgSend$initWithPresentingViewController:dsid:completion:
++ _objc_msgSend$isCommunicationSafetyForcedToEnabledForPersistenceController:error:
++ _objc_msgSend$isCommunicationSafetyRegulatedForLocalUserAndReturnError:
++ _objc_msgSend$isParentSignInRequiredForCommunicationSafetyChange
++ _objc_msgSend$isParentSignInRequiredForWebContentFilterChange
++ _objc_msgSend$isRevokeAccessModeEnabledForAccountDSID:completionHandler:
++ _objc_msgSend$isWebContentFilterForcedToLimitAdultWebsitesForPersistenceController:error:
++ _objc_msgSend$isWebContentFilterRegulatedForLocalUserAndReturnError:
++ _objc_msgSend$parentAuthenticationPrompt
++ _objc_msgSend$presentFromViewController:completion:
++ _objc_msgSend$presentingViewController
++ _objc_msgSend$regionAndReturnError:
++ _objc_msgSend$regulatoryRegion
++ _objc_msgSend$regulatoryRevokeAccessMode
++ _objc_msgSend$setDSID:
++ _objc_msgSend$setIsParentSignInRequiredForCommunicationSafetyChange:
++ _objc_msgSend$setIsParentSignInRequiredForWebContentFilterChange:
++ _objc_msgSend$setRegulatoryRegion:
++ _objc_msgSend$setRegulatoryRevokeAccessMode:
++ _objc_msgSend$setTeenRequiredToConnectToFamily:
++ _objc_msgSend$updateRegulatoryValues:
++ _objc_retain_x7
++ _symbolic _____ 20ScreenTimeSettingsUI21STConnectToFamilyCellC
++ _symbolic ______p So17STConnectToFamilyP
++ _symbolic _____yAAyAAyAAyAAy__________y_____SgGGACy_____SgGG_____G_____yADGG_____y_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA4FontV AA12_FrameLayoutV AA016_BackgroundStyleI0V AA11_ClipEffectV AA6CircleV
++ _symbolic _____yAAyAAyAAyAAy_____y_____G_____y_____SgGGAEy_____SgGG_____G_____GAPG 7SwiftUI15ModifiedContentV AA6ButtonV AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA4FontV AA16_FlexFrameLayoutV AA08_PaddingO0V
++ _symbolic _____yAAyAAyAAy_____y_____G_____y_____SgGGAEy_____SgGG_____G_____G 7SwiftUI15ModifiedContentV AA6ButtonV AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA4FontV AA16_FlexFrameLayoutV AA08_PaddingO0V
++ _symbolic _____yAAyAAy_____y_____G_____y_____SgGGAEy_____SgGG_____G 7SwiftUI15ModifiedContentV AA6ButtonV AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA4FontV AA16_FlexFrameLayoutV
++ _symbolic _____yAAy_____y_____G_____y_____SgGGAEy_____SgGG 7SwiftUI15ModifiedContentV AA6ButtonV AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA4FontV
++ _symbolic _____yAAy_____y_____yAAyAAyAAyAAyAAy__________y_____SgGGAEy_____SgGG_____G_____yAFGG_____y_____GG______yACy______AAyAxEy_____GGtGG_____tGG_____GA5_G 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA4FontV AA12_FrameLayoutV AA016_BackgroundStyleL0V AA11_ClipEffectV AA6CircleV AA6VStackV AA4TextV AA0W9AlignmentO AA6SpacerV AA08_PaddingP0V
++ _symbolic _____yAAy_____y_____yAAyAAyAAyAAyAAy__________y_____SgGGAEy_____SgGG_____G_____yAFGG_____y_____GG______yACy______AAyAxEy_____GGtGG_____tGG_____GA5_G_AAy_____A5_GAAyAAyAAyAAyAAy_____yAXGAHGALG_____GA5_GA5_Gt 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA4FontV AA12_FrameLayoutV AA016_BackgroundStyleL0V AA11_ClipEffectV AA6CircleV AA6VStackV AA4TextV AA0W9AlignmentO AA6SpacerV AA08_PaddingP0V AA7DividerV AA6ButtonV AA05_FlexoP0V
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA7DividerV AA14_PaddingLayoutV
++ _symbolic _____y___________y_____yADy_____yACyADyADyADyADyADy__________y_____SgGGAGy_____SgGG_____G_____yAHGG_____y_____GG______yACy______ADyAzGy_____GGtGG_____tGG_____GA7_G_ADy_____A7_GADyADyADyADyADy_____yAZGAJGANG_____GA7_GA7_GtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV AA6HStackV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA4FontV AA06_FrameG0V AA016_BackgroundStyleP0V AA11_ClipEffectV AA6CircleV AA0F0V AA4TextV AA0Y9AlignmentO AA6SpacerV AA08_PaddingG0V AA7DividerV AA6ButtonV AA05_FlexsG0V
++ _symbolic _____y__________y_____y_____yABSiSg_____ySnySiGSi_____yAB_SiQo_GG______Qo______ySbGG_____G 7SwiftUI7SectionV AA4TextV AA15ModifiedContentV AA4ViewPAAE11pickerStyleyQrqd__AA06PickerI0Rd__lFQO AA0J0V AA7ForEachV AiAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenujI0V AA32_EnvironmentKeyTransformModifierV AA05EmptyG0V
++ _symbolic _____y__________y_____y_____yABSiSg_____ySnySiGSi_____yAB_SiQo_GG______Qo______ySbGG_____G______yAAyAbFySay_____GSS_____GABG______Qo_SgAAyAbFySay_____GSS_____GAPGSgt 7SwiftUI7SectionV AA4TextV AA15ModifiedContentV AA4ViewPAAE11pickerStyleyQrqd__AA06PickerI0Rd__lFQO AA0J0V AA7ForEachV AiAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenujI0V AA32_EnvironmentKeyTransformModifierV AA05EmptyG0V AiAE06buttonI0yQrqd__AA015PrimitiveButtonI0Rd__lFQO 018ScreenTimeSettingsB012ExceptionAppV AZ014STAppExceptionG0V AA05PlainxI0V AZ17AboveAgeRatingAppV AZ021STPendingAppExceptionG0V
++ _symbolic _____y_____yAByAByAByABy__________y_____SgGGADy_____SgGG_____G_____yAEGG_____y_____GG______yAAy______AByAwDy_____GGtGG_____tG 7SwiftUI9TupleViewV AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA4FontV AA12_FrameLayoutV AA016_BackgroundStyleK0V AA11_ClipEffectV AA6CircleV AA6VStackV AA4TextV AA0V9AlignmentO AA6SpacerV
++ _symbolic _____y_____y_____G_____y_____SgGG 7SwiftUI15ModifiedContentV AA6ButtonV AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ColorV
++ _symbolic _____y_____y___________yAC_____y_____GGtGG 7SwiftUI6VStackV AA9TupleViewV AA4TextV AA15ModifiedContentV AA30_EnvironmentKeyWritingModifierV AA0F9AlignmentO
++ _symbolic _____y_____y__________y_____y_____yACSiSg_____ySnySiGSi_____yAC_SiQo_GG______Qo______ySbGG_____G______yAByAcGySay_____GSS_____GACG______Qo_SgAByAcGySay_____GSS_____GAQGSgtG 7SwiftUI9TupleViewV AA7SectionV AA4TextV AA15ModifiedContentV AA0D0PAAE11pickerStyleyQrqd__AA06PickerJ0Rd__lFQO AA0K0V AA7ForEachV AkAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenukJ0V AA32_EnvironmentKeyTransformModifierV AA05EmptyD0V AkAE06buttonJ0yQrqd__AA015PrimitiveButtonJ0Rd__lFQO 018ScreenTimeSettingsB012ExceptionAppV A0_014STAppExceptionD0V AA05PlainyJ0V A0_17AboveAgeRatingAppV A0_021STPendingAppExceptionD0V
++ _symbolic _____y_____y_____yACy_____yAByACyACyACyACyACy__________y_____SgGGAFy_____SgGG_____G_____yAGGG_____y_____GG_AAyABy______ACyAxFy_____GGtGG_____tGG_____GA5_G_ACy_____A5_GACyACyACyACyACy_____yAXGAIGAMG_____GA5_GA5_GtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA6HStackV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA4FontV AA12_FrameLayoutV AA016_BackgroundStyleM0V AA11_ClipEffectV AA6CircleV AA4TextV AA0W9AlignmentO AA6SpacerV AA08_PaddingQ0V AA7DividerV AA6ButtonV AA05_FlexpQ0V
++ _symbolic _____y_____y_____y_____SiSg_____ySnySiGSi_____yAC_SiQo_GG______Qo______ySbGG 7SwiftUI15ModifiedContentV AA4ViewPAAE11pickerStyleyQrqd__AA06PickerG0Rd__lFQO AA0H0V AA4TextV AA7ForEachV AeAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenuhG0V AA32_EnvironmentKeyTransformModifierV
++ _symbolic _____y_____y_____y__________y_____y_____yADSiSg_____ySnySiGSi_____yAD_SiQo_GG______Qo______ySbGG_____G______yACyAdHySay_____GSS_____GADG______Qo_SgACyAdHySay_____GSS_____GARGSgtGG 7SwiftUI4FormV AA9TupleViewV AA7SectionV AA4TextV AA15ModifiedContentV AA0E0PAAE11pickerStyleyQrqd__AA06PickerK0Rd__lFQO AA0L0V AA7ForEachV AmAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenulK0V AA32_EnvironmentKeyTransformModifierV AA05EmptyE0V AmAE06buttonK0yQrqd__AA015PrimitiveButtonK0Rd__lFQO 018ScreenTimeSettingsB012ExceptionAppV A2_014STAppExceptionE0V AA05PlainzK0V A2_17AboveAgeRatingAppV A2_021STPendingAppExceptionE0V
++ _symbolic _____y_____y_____y_____yADy_____yACyADyADyADyADyADy__________y_____SgGGAGy_____SgGG_____G_____yAHGG_____y_____GG_AByACy______ADyAyGy_____GGtGG_____tGG_____GA6_G_ADy_____A6_GADyADyADyADyADy_____yAYGAJGANG_____GA6_GA6_GtGG_____G 7SwiftUI22UIHostingConfigurationV AA6VStackV AA9TupleViewV AA15ModifiedContentV AA6HStackV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA4FontV AA12_FrameLayoutV AA016_BackgroundStyleO0V AA11_ClipEffectV AA6CircleV AA4TextV AA0Y9AlignmentO AA6SpacerV AA08_PaddingS0V AA7DividerV AA6ButtonV AA05_FlexrS0V AA05EmptyG0V
++ _symbolic _____y_____y_____y_____y_____AAy_____y_____yAESiSg_____ySnySiGSi_____yAE_SiQo_GG______Qo______ySbGG_____G______yADyAeHySay_____GSS_____GAEG______Qo_SgADyAeHySay_____GSS_____GARGSgtGGAPG 7SwiftUI15ModifiedContentV AA4FormV AA9TupleViewV AA7SectionV AA4TextV AA0G0PAAE11pickerStyleyQrqd__AA06PickerK0Rd__lFQO AA0L0V AA7ForEachV AmAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenulK0V AA32_EnvironmentKeyTransformModifierV AA05EmptyG0V AmAE06buttonK0yQrqd__AA015PrimitiveButtonK0Rd__lFQO 018ScreenTimeSettingsB012ExceptionAppV A2_014STAppExceptionG0V AA05PlainzK0V A2_17AboveAgeRatingAppV A2_021STPendingAppExceptionG0V
+- GCC_except_table15
+- GCC_except_table27
+- __OBJC_$_PROP_LIST_STCommunicationSafetyViewModelCoordinator.180
+- __OBJC_$_PROP_LIST_STContentPrivacyViewModelCoordinator.987
+- ___101-[STCommunicationSafetyViewModelCoordinator persistCommunicationSafetySettingsWithCompletionHandler:]_block_invoke.59
+- ___101-[STCommunicationSafetyViewModelCoordinator persistCommunicationSafetySettingsWithCompletionHandler:]_block_invoke.60
+- ___143-[STCommunicationSafetyViewModelCoordinator saveCommunicationSafetyReceivingRestricted:communicationSafetySendingRestricted:completionHandler:]_block_invoke.62
+- ___59-[STCommunicationSafetyViewModelCoordinator _loadViewModel]_block_invoke.56
+- ___75-[STContentPrivacyViewModelCoordinator loadViewModelWithCompletionHandler:]_block_invoke.798
+- ___75-[STContentPrivacyViewModelCoordinator loadViewModelWithCompletionHandler:]_block_invoke.798.cold.1
+- ___75-[STContentPrivacyViewModelCoordinator loadViewModelWithCompletionHandler:]_block_invoke.800
+- ___79-[STContentPrivacyAllowedAppsDetailController setItemSpecifierValue:specifier:]_block_invoke_3
+- ___82-[STContentPrivacyViewModelCoordinator saveCommunicationLimits:completionHandler:]_block_invoke.809
+- ___84-[STContentPrivacyViewModelCoordinator saveContentPrivacyEnabled:completionHandler:]_block_invoke.808
+- ___84-[STContentPrivacyViewModelCoordinator saveValuesForRestrictions:completionHandler:]_block_invoke.820
+- ___block_descriptor_53_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_86_e8_32s40s48s56s64bs_e20_v20?0B8"NSError"12ls32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_95_e8_32s40s48s56s64s72bs_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8
+- ___block_literal_global.990
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4FormVyAA9TupleViewVyAA7SectionVyAA4TextVAA0G0PAAE11pickerStyleyQrqd__AA06PickerK0Rd__lFQOyAA0L0VyAKSiSgAA7ForEachVySnySiGSiAmAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAK_SiQo_GG_AA04MenulK0VQo_AA05EmptyG0VG_AmAE06buttonK0yQrqd__AA015PrimitiveButtonK0Rd__lFQOyAIyAkTySay018ScreenTimeSettingsB012ExceptionAppVGSSA7_05STAppzG0VGAKG_AA05PlainvK0VQo_SgAIyAkTySayA7_17AboveAgeRatingAppVGSSA7_012STPendingAppzG0VGA3_GSgtGGAA32_EnvironmentKeyTransformModifierVySbGGAaLHPA28_AaLHPyHC_A31_AA0G8ModifierHPyHCHC.62
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA6HStackVyAA9TupleViewVyACyACyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA12_FrameLayoutVGAA016_ForegroundStyleL0VyAA09TintShapeQ0VGG_ACyAA6VStackVyAGyAA4TextV_ACyA1_AKyAA0U9AlignmentOGGtGGAA05_FlexnO0VGACyACyApUyAA03AnysQ0VGGARGtGGAA08_PaddingO0VGAA011_BackgroundL0VyAA06StrokesG0VyAA16RoundedRectangleVA12_AA05EmptyG0VGGGAA0G0HPA20_AAA32_HPA17_AAA32_HPyHC_A19_AA0gL0HPyHCHC_A30_AAA33_HPyHCHC.51
+- _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA5ImageV_AA15ModifiedContentVyAA6VStackVyAEyAA0E0PAAE4boldyQrSbFQOyAIyAA4TextVAA16_FlexFrameLayoutVG_Qo__AStGGAA08_PaddingN0VGAA6SpacerVAIyAmAE11buttonStyleyQrqd__AA015PrimitiveButtonR0Rd__lFQOyAIyAA0T0VyAPGAA30_EnvironmentKeyWritingModifierVyAA0T11BorderShapeVGG_AA017BorderedProminenttR0VQo_A6_yAA5ColorVSgGGSgtGGAaLHPyHC.81
+- _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA6ButtonVyAA15ModifiedContentVyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGG_AkA6VStackVyAEyAA0E0PAAE4boldyQrSbFQOyAIyAA4TextVAA16_FlexFrameLayoutVG_Qo__A1_tGGAA6SpacerVtGGAaVHPyHC.82
+- _objc_msgSend$composeContentViewControllerWithAppExceptionsController:alertPresentingController:specifier:forManagedUser:areRestrictionsEditable:runAfterPinAuthentication:
+- _objc_msgSend$isCommunicationSafetyForcedToEnabledAndReturnError:
+- _objc_msgSend$isWebContentFilterForcedToLimitAdultWebsitesAndReturnError:
+- _objc_msgSend$payload
+- _objc_msgSend$prepareHandlingURLForSpecifierID:resourceDictionary:animatePush:withCompletion:
+- _symbolic _____y__________y_____yABSiSg_____ySnySiGSi_____yAB_SiQo_GG______Qo______G 7SwiftUI7SectionV AA4TextV AA4ViewPAAE11pickerStyleyQrqd__AA06PickerG0Rd__lFQO AA0H0V AA7ForEachV AgAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenuhG0V AA05EmptyE0V
+- _symbolic _____y__________y_____yABSiSg_____ySnySiGSi_____yAB_SiQo_GG______Qo______G______yAAyAbEySay_____GSS_____GABG______Qo_SgAAyAbEySay_____GSS_____GALGSgt 7SwiftUI7SectionV AA4TextV AA4ViewPAAE11pickerStyleyQrqd__AA06PickerG0Rd__lFQO AA0H0V AA7ForEachV AgAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenuhG0V AA05EmptyE0V AgAE06buttonG0yQrqd__AA015PrimitiveButtonG0Rd__lFQO 018ScreenTimeSettingsB012ExceptionAppV AV05STAppvE0V AA05PlainrG0V AV014AboveAgeRatingW0V AV09STPendingwvE0V
+- _symbolic _____y_____y_____SiSg_____ySnySiGSi_____yAB_SiQo_GG______Qo_ 7SwiftUI4ViewPAAE11pickerStyleyQrqd__AA06PickerE0Rd__lFQO AA0F0V AA4TextV AA7ForEachV AcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenufE0V
+- _symbolic _____y_____y__________y_____yACSiSg_____ySnySiGSi_____yAC_SiQo_GG______Qo______G______yAByAcFySay_____GSS_____GACG______Qo_SgAByAcFySay_____GSS_____GAMGSgtG 7SwiftUI9TupleViewV AA7SectionV AA4TextV AA0D0PAAE11pickerStyleyQrqd__AA06PickerH0Rd__lFQO AA0I0V AA7ForEachV AiAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenuiH0V AA05EmptyD0V AiAE06buttonH0yQrqd__AA015PrimitiveButtonH0Rd__lFQO 018ScreenTimeSettingsB012ExceptionAppV AX05STAppwD0V AA05PlainsH0V AX014AboveAgeRatingX0V AX09STPendingxwD0V
+- _symbolic _____y_____y_____y__________y_____yADSiSg_____ySnySiGSi_____yAD_SiQo_GG______Qo______G______yACyAdGySay_____GSS_____GADG______Qo_SgACyAdGySay_____GSS_____GANGSgtGG 7SwiftUI4FormV AA9TupleViewV AA7SectionV AA4TextV AA0E0PAAE11pickerStyleyQrqd__AA06PickerI0Rd__lFQO AA0J0V AA7ForEachV AkAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenujI0V AA05EmptyE0V AkAE06buttonI0yQrqd__AA015PrimitiveButtonI0Rd__lFQO 018ScreenTimeSettingsB012ExceptionAppV AZ05STAppxE0V AA05PlaintI0V AZ014AboveAgeRatingY0V AZ09STPendingyxE0V
+- _symbolic _____y_____y_____y_____y__________y_____yAESiSg_____ySnySiGSi_____yAE_SiQo_GG______Qo______G______yADyAeHySay_____GSS_____GAEG______Qo_SgADyAeHySay_____GSS_____GAOGSgtGG_____ySbGG 7SwiftUI15ModifiedContentV AA4FormV AA9TupleViewV AA7SectionV AA4TextV AA0G0PAAE11pickerStyleyQrqd__AA06PickerK0Rd__lFQO AA0L0V AA7ForEachV AmAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenulK0V AA05EmptyG0V AmAE06buttonK0yQrqd__AA015PrimitiveButtonK0Rd__lFQO 018ScreenTimeSettingsB012ExceptionAppV A0_05STAppzG0V AA05PlainvK0V A0_17AboveAgeRatingAppV A0_012STPendingAppzG0V AA32_EnvironmentKeyTransformModifierV
+CStrings:
++ "@\"STParentAuthenticationPrompt\""
++ "@60@0:8@16@24@32B40B44B48@?52"
++ "@64@0:8@16@24@32@40@48@?56"
++ "AISViewControllerPresentationHandlerProtocol"
++ "At least one of expected parameters missing:\nTitle:%@\nSubtitle:%@\nButtonTitle:%@\nConnectToFamilyHelper:%@"
++ "CommunicationSafetyEnabledConnectToFamilyButtonTitle"
++ "CommunicationSafetyEnabledConnectToFamilySubtitle"
++ "CommunicationSafetyEnabledConnectToFamilySubtitle_%@"
++ "CommunicationSafetyEnabledConnectToFamilyTitle"
++ "Connect to family failed with error: %{public}@"
++ "Connect to family succeeded"
++ "Error checking if web content filter is regulated: %{public}@ ; assuming regulated"
++ "Failed to check revoke access mode: %{public}@"
++ "Failed to determine if Communication Safety is regulated: %{public}@ ; assuming regulated"
++ "Failed to determine regulatory region. Error: %{public}@"
++ "Failed to fetch Siri Image Creation restriction: %{public}@. Assuming enabled."
++ "Failed to fetch image generation or revoke access values: %{public}@"
++ "Fetched revokeAccessMode:%d"
++ "Revoke access mode status:%d"
++ "STConnectToFamily"
++ "STConnectToFamilyCell"
++ "STConnectToFamilyHelper"
++ "STConnectToFamilyHelper.connectToFamily initiated"
++ "STParentAuthenticationPromptPresenting"
++ "ScreenTimeSettingsUI.STConnectToFamilyCell"
++ "T@\"NSString\",C,N,V_dsid"
++ "T@\"NSString\",C,N,V_regulatoryRegion"
++ "T@\"STParentAuthenticationPrompt\",&,N,V_parentAuthenticationPrompt"
++ "T@\"UIViewController\",W,N,V_presentingViewController"
++ "T@?,C,N,V_completion"
++ "TB,N,V_isParentSignInRequiredForCommunicationSafetyChange"
++ "TB,N,V_isParentSignInRequiredForWebContentFilterChange"
++ "TB,N,V_regulatoryRevokeAccessMode"
++ "WebContentFilterEnabledConnectToFamilySubtitle"
++ "WebContentFilterEnabledConnectToFamilySubtitle_%@"
++ "WebContentFilterEnabledConnectToFamilyTitle"
++ "WebContentFilterEnabledConnectToFamilyToFamilyButtonTitle"
++ "_TtC20ScreenTimeSettingsUI21STConnectToFamilyCell"
++ "_authenticateIfNeededForSpecifier:success:failure:"
++ "_authenticateIfNeededThenPerform:"
++ "_completion"
++ "_createConnectToFamilySpecifierIfNeeded"
++ "_isParentSignInRequiredForCommunicationSafetyChange"
++ "_isParentSignInRequiredForWebContentFilterChange"
++ "_parentAuthenticationPrompt"
++ "_regulatoryRegion"
++ "_regulatoryRevokeAccessMode"
++ "appsRatingEditable"
++ "com.apple.Bridge"
++ "com.apple.DocumentsApp"
++ "com.apple.GenerativePlaygroundApp"
++ "com.apple.Home"
++ "com.apple.Magnifier"
++ "com.apple.Maps"
++ "com.apple.MobileAddressBook"
++ "com.apple.Music"
++ "com.apple.Passwords"
++ "com.apple.Photo-Booth"
++ "com.apple.Preview"
++ "com.apple.Translate"
++ "com.apple.VoiceMemos"
++ "com.apple.calculator"
++ "com.apple.compass"
++ "com.apple.findmy"
++ "com.apple.freeform"
++ "com.apple.games"
++ "com.apple.journal"
++ "com.apple.measure"
++ "com.apple.mobilenotes"
++ "com.apple.reminders"
++ "com.apple.shortcuts"
++ "com.apple.stocks"
++ "com.apple.tips"
++ "com.apple.tv"
++ "com.apple.visionproapp"
++ "com.apple.weather"
++ "completion"
++ "composeContentViewControllerWithAppExceptionsController:alertPresentingController:specifier:forManagedUser:areRestrictionsEditable:appsRatingEditable:runAfterPinAuthentication:"
++ "connectToFamily"
++ "connectToFamilySpecifierForUserDSID:presentingViewController:promptTitle:promptSubtitle:promptButtonTitle:completion:"
++ "fetchImageGenerationAndRevokeAccessModeForAccountDSID:withCompletion:"
++ "initWithPresentingViewController:dsid:completion:"
++ "isCommunicationSafetyForcedToEnabledForPersistenceController:error:"
++ "isCommunicationSafetyRegulatedForLocalUserAndReturnError:"
++ "isParentSignInRequiredForCommunicationSafetyChange"
++ "isParentSignInRequiredForWebContentFilterChange"
++ "isRevokeAccessModeEnabledForAccountDSID:completionHandler:"
++ "isWebContentFilterForcedToLimitAdultWebsitesForPersistenceController:error:"
++ "isWebContentFilterRegulatedForLocalUserAndReturnError:"
++ "parentAuthenticationPrompt"
++ "presentFromViewController:completion:"
++ "prompt-button-title"
++ "prompt-subtitle"
++ "prompt-title"
++ "regionAndReturnError:"
++ "regulatoryRegion"
++ "regulatoryRevokeAccessMode"
++ "revokeAccessMode is off but access revoked. Adding row for:%@"
++ "setCompletion:"
++ "setDSID:"
++ "setIsParentSignInRequiredForCommunicationSafetyChange:"
++ "setIsParentSignInRequiredForWebContentFilterChange:"
++ "setParentAuthenticationPrompt:"
++ "setRegulatoryRegion:"
++ "setRegulatoryRevokeAccessMode:"
++ "setTeenRequiredToConnectToFamily:"
++ "showViewController:animated:"
++ "updateRegulatoryValues:"
++ "v24@?0@\"NSNumber\"8@\"NSError\"16"
++ "v24@?0B8B12@\"NSError\"16"
++ "v40@0:8@16@?24@?32"
+- "@56@0:8@16@24@32B40B44@?48"
+- "Failed to fetch Siri Image Creation restriction: %{public}@"
+- "composeContentViewControllerWithAppExceptionsController:alertPresentingController:specifier:forManagedUser:areRestrictionsEditable:runAfterPinAuthentication:"
+- "isCommunicationSafetyForcedToEnabledAndReturnError:"
+- "isWebContentFilterForcedToLimitAdultWebsitesAndReturnError:"
+
+```

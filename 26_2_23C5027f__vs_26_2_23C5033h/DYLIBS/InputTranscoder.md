@@ -1,0 +1,53 @@
+## InputTranscoder
+
+> `/System/Library/PrivateFrameworks/InputTranscoder.framework/InputTranscoder`
+
+```diff
+
+ 110.0.0.0.0
+-  __TEXT.__text: 0x2ad68
++  __TEXT.__text: 0x2ae38
+   __TEXT.__auth_stubs: 0xaf0
+   __TEXT.__const: 0x3a3a
+-  __TEXT.__gcc_except_tab: 0x24d8
++  __TEXT.__gcc_except_tab: 0x24d4
+   __TEXT.__cstring: 0xee7
+   __TEXT.__oslogstring: 0x5da
+   __TEXT.__unwind_info: 0x1108
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 11C27B98-3547-38CC-A66C-116B85EA7CF3
++  UUID: 2BCE2B6C-7E07-36FA-8546-A4333650D619
+   Functions: 822
+   Symbols:   2508
+   CStrings:  326
+Functions:
+~ __ZN15InputTranscoder13appendFeatureEj7CGPointjRNSt3__16vectorINS_12InputFeatureENS1_9allocatorIS3_EEEE : 260 -> 264
+~ __ZN15InputTranscoder16LexiconContainer10addLexiconEPK10_LXLexiconNS_11LexiconTypeE : 556 -> 560
+~ __ZNSt3__16vectorIjNS_9allocatorIjEEE11__vallocateB8ne200100Em : 60 -> 64
+~ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE11__vallocateB8ne200100Em : 76 -> 80
+~ __ZNKSt3__120__shared_ptr_pointerIPN15InputTranscoder18TranscoderMediatorENS_14default_deleteIS2_EENS_9allocatorIS2_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZN15InputTranscoder8PathTrie12iterateToVecERNSt3__16vectorIPS0_NS1_9allocatorIS3_EEEE : 368 -> 372
+~ __ZN15InputTranscoder15LexiconPathTrie11getPathTrieEjjbfRKNS_16LexiconContainerE : 996 -> 1012
+~ __ZNK15InputTranscoder26TouchTranscoderSessionImpl34extractCandidatesAndSavePrefixInfoERNSt3__16vectorINS_20CTCSurfaceFormOutputENS1_9allocatorIS3_EEEERjS8_PK14__CFDictionaryPNS_8PathTrieERNS2_INS1_4pairISD_S3_EENS4_ISF_EEEERb : 2800 -> 2832
+~ __ZNK15InputTranscoder26TouchTranscoderSessionImpl29extractCompletionsAndPrefixesERNSt3__16vectorINS_20CTCSurfaceFormOutputENS1_9allocatorIS3_EEEES7_RKNS1_4pairIPNS_8PathTrieES3_EE : 580 -> 584
+~ __ZNSt3__16vectorIN15InputTranscoder10PathSampleENS_9allocatorIS2_EEE11__vallocateB8ne200100Em : 60 -> 64
+~ __ZNSt3__16vectorINS_4pairIPN15InputTranscoder8PathTrieENS2_20CTCSurfaceFormOutputEEENS_9allocatorIS6_EEE9push_backB8ne200100ERKS6_ : 352 -> 360
+~ __ZN15InputTranscoder8LMScorer10setContextERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE : 360 -> 348
+~ __ZN15InputTranscoderL14extractStringsEPK14__CFDictionaryPK10__CFString : 456 -> 460
+~ __ZN15InputTranscoder21generateConfigurationINS_20DecoderConfigurationEEET_P10__CFBundlePK14__CFDictionary12ITTypingMode : 2804 -> 2816
+~ __ZN15InputTranscoder21generateConfigurationINS_23TranscoderConfigurationEEET_P10__CFBundlePK14__CFDictionary12ITTypingMode : 2560 -> 2596
+~ __ZNSt3__112__hash_tableINS_17__hash_value_typeIjNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS_22__unordered_map_hasherIjS8_NS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjS8_SD_SB_Lb1EEENS5_IS8_EEE25__emplace_unique_key_argsIjJRKNS_21piecewise_construct_tENS_5tupleIJRKjEEENSN_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEERKT_DpOT0_ : 1048 -> 1052
+~ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEjEENS_22__unordered_map_hasherIS7_S8_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_S8_SD_SB_Lb1EEENS5_IS8_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSN_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEERKT_DpOT0_ : 1120 -> 1124
+~ __ZNKSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEjEENS_22__unordered_map_hasherIS7_S8_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_S8_SD_SB_Lb1EEENS5_IS8_EEE4findIS7_EENS_21__hash_const_iteratorIPNS_11__hash_nodeIS8_PvEEEERKT_ : 252 -> 256
+~ __ZN15InputTranscoderL25getBaseLayoutInfoAssortedERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE : 4304 -> 4332
+~ __ZNK15InputTranscoder18KeyboardLayoutImpl20enumerateNearestKeysE7CGPointU13block_pointerFv9ITKeyInfoPbE : 1120 -> 1136
+~ __ZNK15InputTranscoder18KeyboardLayoutImpl25keyCandidatesForLastTouchE7CGPoint : 608 -> 612
+~ ____ZNK15InputTranscoder18KeyboardLayoutImpl25keyCandidatesForLastTouchE7CGPoint_block_invoke : 896 -> 900
+~ __ZNSt3__16vectorI9ITKeyInfoNS_9allocatorIS1_EEE11__vallocateB8ne200100Em : 80 -> 84
+~ __ZNKSt3__120__shared_ptr_pointerIPN15InputTranscoder18LayoutInfoAssortedENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE13__get_deleterERKSt9type_info : 60 -> 64
+~ __ZNSt3__16vectorIjNS_9allocatorIjEEE6insertENS_11__wrap_iterIPKjEERS5_ : 504 -> 512
+
+```

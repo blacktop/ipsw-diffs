@@ -1,0 +1,269 @@
+## AppStore
+
+> `/private/var/staged_system_apps/AppStore.app/AppStore`
+
+```diff
+
+-11.2.7.0.0
+-  __TEXT.__text: 0x78d4f4
+-  __TEXT.__auth_stubs: 0x16110
++11.2.12.0.0
++  __TEXT.__text: 0x78f348
++  __TEXT.__auth_stubs: 0x15f60
+   __TEXT.__objc_stubs: 0x19e0
+   __TEXT.__objc_methlist: 0xdc44
+-  __TEXT.__const: 0x342c4
+-  __TEXT.__objc_methname: 0x11ba8
++  __TEXT.__const: 0x33dd4
++  __TEXT.__objc_methname: 0x11bb4
+   __TEXT.__objc_classname: 0x8dd
+   __TEXT.__objc_methtype: 0x5179
+   __TEXT.__gcc_except_tab: 0x98
+-  __TEXT.__cstring: 0x29e77
++  __TEXT.__cstring: 0x299c7
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__constg_swiftt: 0x197c0
+-  __TEXT.__swift5_typeref: 0xf0b6
++  __TEXT.__constg_swiftt: 0x1976c
++  __TEXT.__swift5_typeref: 0xeede
+   __TEXT.__swift5_builtin: 0x424
+-  __TEXT.__swift5_reflstr: 0x16c01
+-  __TEXT.__swift5_fieldmd: 0x11988
+-  __TEXT.__swift5_assocty: 0x20d8
+-  __TEXT.__swift5_proto: 0x1f78
+-  __TEXT.__swift5_types: 0x10dc
+-  __TEXT.__swift5_capture: 0x7a5c
++  __TEXT.__swift5_reflstr: 0x16b71
++  __TEXT.__swift5_fieldmd: 0x11904
++  __TEXT.__swift5_assocty: 0x2068
++  __TEXT.__swift5_proto: 0x1f28
++  __TEXT.__swift5_types: 0x10d0
++  __TEXT.__swift5_capture: 0x7a34
+   __TEXT.__swift5_protos: 0x1d0
+-  __TEXT.__swift_as_entry: 0xac
+-  __TEXT.__swift_as_ret: 0x8c
++  __TEXT.__swift_as_entry: 0xcc
++  __TEXT.__swift_as_ret: 0xd4
+   __TEXT.__swift5_mpenum: 0x2c
+   __TEXT.__oslogstring: 0x87
+-  __TEXT.__unwind_info: 0x118e8
+-  __TEXT.__eh_frame: 0x2634
+-  __DATA_CONST.__auth_got: 0xb098
+-  __DATA_CONST.__got: 0x4c10
+-  __DATA_CONST.__auth_ptr: 0x6a50
+-  __DATA_CONST.__const: 0x23a10
++  __TEXT.__unwind_info: 0x11948
++  __TEXT.__eh_frame: 0x2f9c
++  __DATA_CONST.__auth_got: 0xafc0
++  __DATA_CONST.__got: 0x4bf8
++  __DATA_CONST.__auth_ptr: 0x68d0
++  __DATA_CONST.__const: 0x23888
+   __DATA_CONST.__cfstring: 0x60
+   __DATA_CONST.__objc_classlist: 0x1368
+   __DATA_CONST.__objc_catlist: 0x10
+
+   __DATA.__objc_selrefs: 0x4ca0
+   __DATA.__objc_ivar: 0xb0
+   __DATA.__objc_data: 0x29650
+-  __DATA.__data: 0x29d50
++  __DATA.__data: 0x29c30
+   __DATA.__objc_stublist: 0x198
+-  __DATA.__bss: 0x368a8
+-  __DATA.__common: 0x6ce0
++  __DATA.__bss: 0x35ea8
++  __DATA.__common: 0x6c90
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/AVKit.framework/AVKit
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B3BA24AF-BC6B-34FF-AF42-8437B4C1A7C8
+-  Functions: 26649
+-  Symbols:   9456
+-  CStrings:  7420
++  UUID: 8046C8DB-2053-3E4A-9597-B139973FB736
++  Functions: 26600
++  Symbols:   9386
++  CStrings:  7379
+ 
+Symbols:
++ _$s11AppStoreKit0A15StateControllerPAAE18refreshDataSources3foryAA6AdamIdV_tYaF
++ _$s11AppStoreKit0A15StateControllerPAAE18refreshDataSources3foryAA6AdamIdV_tYaFTu
++ _$s11AppStoreKit14ASKBagContractC17enableSRPNextSlotSbvg
++ _$s11AppStoreKit14PurchaseIntentV6adamIdAA04AdamG0Vvg
++ _$s11AppStoreKit15PageGridCachingP013createContentdE03for12surroundedBy13containerSize08readableH6Insets08safeAreaO011environment8asPartOfAA0dE0V9JetEngine12ReadOnlyLensVyAA5ShelfCG_ASSg8previous_AT4nexttSo6CGSizeVSo06UIEdgeO0VAzA0D11EnvironmentVAN15BaseObjectGraphCtFTq
++ _$s11AppStoreKit15PageGridCachingP019createSupplementarydE03for12surroundedBy13containerSize21readableContentInsets08safeAreaP011environment8asPartOfAA0dE0V9JetEngine12ReadOnlyLensVyAA5ShelfCG_ASSg8previous_AT4nexttSo6CGSizeVSo06UIEdgeP0VAzA0D11EnvironmentVAN15BaseObjectGraphCtFTq
++ _$s11AppStoreKit15PageGridCachingPAAE013supplementarydE03for12surroundedBy13containerSize21readableContentInsets08safeAreaO011environment8asPartOfAA0dE0V9JetEngine12ReadOnlyLensVyAA5ShelfCG_ASSg8previous_AT4nexttSo6CGSizeVSo06UIEdgeO0VAzA0D11EnvironmentVAN15BaseObjectGraphCtF
++ _$s11AppStoreKit15PageGridCachingPAAE07contentdE03for12surroundedBy13containerSize21readableContentInsets08safeAreaO011environment8asPartOfAA0dE0V9JetEngine12ReadOnlyLensVyAA5ShelfCG_ASSg8previous_AT4nexttSo6CGSizeVSo06UIEdgeO0VAzA0D11EnvironmentVAN15BaseObjectGraphCtF
++ _$s11AppStoreKit16PageGridProviderP013supplementarydE03for12surroundedBy13containerSize21readableContentInsets08safeAreaO011environment8asPartOfAA0dE0V9JetEngine12ReadOnlyLensVyAA5ShelfCG_ASSg8previous_AT4nexttSo6CGSizeVSo06UIEdgeO0VAzA0D11EnvironmentVAN15BaseObjectGraphCtFTq
++ _$s11AppStoreKit16PageGridProviderP07contentdE03for12surroundedBy13containerSize21readableContentInsets08safeAreaO011environment8asPartOfAA0dE0V9JetEngine12ReadOnlyLensVyAA5ShelfCG_ASSg8previous_AT4nexttSo6CGSizeVSo06UIEdgeO0VAzA0D11EnvironmentVAN15BaseObjectGraphCtFTq
++ _$s11AppStoreKit18JSIntentDispatcherC8dispatch_11objectGraph10ReturnTypeQzx_9JetEngine010BaseObjectH0CtYaKAH11IntentModelRzlFTjTu
++ _$s11AppStoreKit22OfferDisplayPropertiesC03newdeF8Changing6titles16titleSymbolNames9subtitles5style11environment4tint017isDeletableSystemA00Q4Free0Q8Preorder0Q20RedownloadDisallowed0Q17OpenBundleAllowed15offerLabelStyle11hasDiscount13contentRating26ignoresContentRestrictions10offerToken20subscriptionFamilyId14overrideLocale12useAdsLocale14priceFormatted0Q14StreamlinedBuy15appCapabilitiesACSDyAA0D9TitleTypeOSSGSg_A2_A2_AA0D5StyleOSgAA0D11EnvironmentOSgAA0D4TintOSgSbSgA12_A12_A12_A12_AA0D10LabelStyleOSgA12_SiSgA12_ypSgSSSgA18_A12_A18_A12_SaySSGSgtFTj
++ _$s11AppStoreKit22PurchaseRepresentationV13contentRatings6UInt64VSgvg
++ _$s11AppStoreKit22PurchaseRepresentationV24requiresExceptionRequestSbvg
++ _$s11AppStoreKit22PurchaseRepresentationV8bundleIdSSSgvg
++ _$s11AppStoreKit22PurchaseRepresentationVMa
++ _$s11AppStoreKit24PurchaseDecorationIntentV08purchaseF0AcA0dF0V_tcfC
++ _$s11AppStoreKit24PurchaseDecorationIntentV9JetEngine0F5ModelAAMc
++ _$s11AppStoreKit24PurchaseDecorationIntentVMa
++ _$s11AppStoreKit34ShelfBasedCollectionViewControllerP11objectGraph9JetEngine010BaseObjectJ0CvgTq
++ _$s11AppStoreKit36SeparatorProvidingShelfComponentViewP9separator2in8asPartOfAA0gD0VSgAA17ItemLayoutContextV_9JetEngine15BaseObjectGraphCtFZTj
++ _$s11AppStoreKit36SeparatorProvidingShelfComponentViewP9separator2in8asPartOfAA0gD0VSgAA17ItemLayoutContextV_9JetEngine15BaseObjectGraphCtFZTq
++ _$s9JetEngine20ActionImplementationP11AppStoreKitE7perform6action14processMetrics11objectGraphAA0C7OutcomeOAA0C5Model_p_Sb06ObjectM0QztYaKF
++ _$s9JetEngine20ActionImplementationP11AppStoreKitE7perform6action14processMetrics11objectGraphAA0C7OutcomeOAA0C5Model_p_Sb06ObjectM0QztYaKFTu
++ _$s9JetEngine21IntentDispatchOptionsC11withTimeoutyACXDAA0cdG0OF
++ _$s9JetEngine21IntentDispatchOptionsCMa
++ _$s9JetEngine21IntentDispatchTimeoutO4noneyA2CmFWC
++ _$s9JetEngine21IntentDispatchTimeoutOMa
++ _$s9JetEngine7PromiseC4thenxyYaKF
++ _$s9JetEngine7PromiseC4thenxyYaKFTu
+- _$s10AppIntents010_AssistantB8ProviderMp
+- _$s10AppIntents010_AssistantB8ProviderP14uniqueEntitiesSayAA01_C19UniqueEntityExampleVGvgZTq
+- _$s10AppIntents010_AssistantB8ProviderP15negativePhrasesSayAA01_C6IntentV08NegativecgF0VGvgZTq
+- _$s10AppIntents010_AssistantB8ProviderP7intentsSayAA01_C6IntentVGvgZTq
+- _$s10AppIntents010_AssistantB8ProviderPAAE14uniqueEntitiesSayAA01_C19UniqueEntityExampleVGvgZ
+- _$s10AppIntents0A4EnumMp
+- _$s10AppIntents0A4EnumP8RawValueSY_s25LosslessStringConvertibleTn
+- _$s10AppIntents0A4EnumPAA0A5ValueTb
+- _$s10AppIntents0A4EnumPAA26StaticDisplayRepresentableTb
+- _$s10AppIntents0A4EnumPAAE28defaultResolverSpecificationQrvgZ
+- _$s10AppIntents0A4EnumPAAE28defaultResolverSpecificationQrvpZQOMQ
+- _$s10AppIntents0A4EnumPSYTb
+- _$s10AppIntents10OpenIntentMp
+- _$s10AppIntents10OpenIntentP5ValueAC_AA0aE0Tn
+- _$s10AppIntents10OpenIntentP6target5ValueQzvMTq
+- _$s10AppIntents10OpenIntentP6target5ValueQzvgTq
+- _$s10AppIntents10OpenIntentP6target5ValueQzvsTq
+- _$s10AppIntents10OpenIntentPAA06SystemD0Tb
+- _$s10AppIntents15IntentParameterCA2A0A4Enum9ValueTypeRpzrlE5title11description7default07requestF6Dialog0k14DisambiguationL023inputConnectionBehavior15supportedValuesACyxG10Foundation23LocalizedStringResourceV_AQSg09UnwrappedG0QzSgYtAA0cL0VSgAxA05InputoP0OYtSayAFGtcfC
+- _$s10AppIntents16_AssistantIntentV0D10ProjectionC13dynamicMembers14PartialKeyPathCyxGs0iJ0Cyxqd__G_tcAA01_D5ValueRd__luig
+- _$s10AppIntents16_AssistantIntentV0D10ProjectionC13dynamicMembers7KeyPathCyxqd__GAI_tcAA01_D5ValueRd__luig
+- _$s10AppIntents16_AssistantIntentV11PhraseTokenO15applicationNameyA2EmFWC
+- _$s10AppIntents16_AssistantIntentV11PhraseTokenOMa
+- _$s10AppIntents16_AssistantIntentV13PhraseBuilderO10buildBlockySayAC0E0Vy_xGGAJd_tFZ
+- _$s10AppIntents16_AssistantIntentV13PhraseBuilderO15buildExpressionySayAC0E0Vy_xGGAIFZ
+- _$s10AppIntents16_AssistantIntentV18StringValueBuilderO10buildBlockySaySSGAGd_tFZ
+- _$s10AppIntents16_AssistantIntentV18StringValueBuilderO15buildExpressionySaySSGSSFZ
+- _$s10AppIntents16_AssistantIntentV21ParameterValueBuilderO10buildBlockySayAC0F0VGAId_tFZ
+- _$s10AppIntents16_AssistantIntentV21ParameterValueBuilderO15buildExpressionySayAC0F0VGAHFZ
+- _$s10AppIntents16_AssistantIntentV5ValueV3for7builderAEs14PartialKeyPathCyxG_SaySSGyXEtcAA0aD0RzlufC
+- _$s10AppIntents16_AssistantIntentV5ValueVMa
+- _$s10AppIntents16_AssistantIntentV5ValueVMn
+- _$s10AppIntents16_AssistantIntentV5ValueV_3forAESS_s7KeyPathCyxq_GtcAA0aD0RzAA01_dE0R_r0_lufC
+- _$s10AppIntents16_AssistantIntentV5ValueV_3forAEq__s7KeyPathCyxq_GtcAA0aD0RzAA0A4EnumR_r0_lufC
+- _$s10AppIntents16_AssistantIntentV6PhraseV13stringLiteralAEy_xGSS_tcfC
+- _$s10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV06appendG0yyAC0E5TokenOF
+- _$s10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV06appendG0yys14PartialKeyPathCyxGF
+- _$s10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV13appendLiteralyySSF
+- _$s10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV15literalCapacity18interpolationCountAGy_x_GSi_SitcfC
+- _$s10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationVMn
+- _$s10AppIntents16_AssistantIntentV6PhraseV19stringInterpolationAEy_xGAE06StringG0Vy_x_G_tcfC
+- _$s10AppIntents16_AssistantIntentV6PhraseVMn
+- _$s10AppIntents16_AssistantIntentV7BuilderO10buildBlockySayACGAGd_tFZ
+- _$s10AppIntents16_AssistantIntentV7BuilderO15buildExpressionySayACGACFZ
+- _$s10AppIntents16_AssistantIntentVMa
+- _$s10AppIntents16_AssistantIntentVMn
+- _$s10AppIntents16_AssistantIntentV_7phrases15parameterValuesACx_SayAC6PhraseVy_xGGAC0D10ProjectionCy_xGXESayAC5ValueVGALXEtcAA0aD0RzlufC
+- _$s10AppIntents16_AssistantIntentV_7phrases8implyingACx_SayAC6PhraseVy_xGGAC0D10ProjectionCy_xGXESayAC5ValueVGALXEtcAA0aD0RzlufC
+- _$s10AppIntents20URLRepresentableEnumMp
+- _$s10AppIntents20URLRepresentableEnumP17urlRepresentationAA0D17URLRepresentationVyxGvgZTq
+- _$s10AppIntents20URLRepresentableEnumPAA0aD0Tb
+- _$s10AppIntents20URLRepresentableEnumPAA43CustomURLRepresentationParameterConvertibleTb
+- _$s10AppIntents20URLRepresentableEnumPAAE26urlRepresentationParameterSSSgvg
+- _$s10AppIntents21DisplayRepresentationV5ImageV01_aB6_UIKitE10systemName9tintColor19symbolConfigurationAESgSS_So7UIColorCSgSo013UIImageSymbolL0CSgtcfC
+- _$s10AppIntents21DisplayRepresentationVMa
+- _$s10AppIntents21DisplayRepresentationVMn
+- _$s10AppIntents21EnumURLRepresentationV19StringInterpolationV06appendF0yyAE5TokenOyx__GF
+- _$s10AppIntents21EnumURLRepresentationV19StringInterpolationV13appendLiteralyySSF
+- _$s10AppIntents21EnumURLRepresentationV19StringInterpolationV15literalCapacity18interpolationCountAEyx_GSi_SitcfC
+- _$s10AppIntents21EnumURLRepresentationV19StringInterpolationV5TokenO8rawValueyAGyx__GAImAA0aC0RzlFWC
+- _$s10AppIntents21EnumURLRepresentationV19StringInterpolationV5TokenOMn
+- _$s10AppIntents21EnumURLRepresentationV19StringInterpolationVMn
+- _$s10AppIntents21EnumURLRepresentationV19stringInterpolationACyxGAC06StringF0Vyx_G_tcfC
+- _$s10AppIntents21EnumURLRepresentationVMn
+- _$s10AppIntents22URLRepresentableIntentMp
+- _$s10AppIntents22URLRepresentableIntentP17urlRepresentationAA0D17URLRepresentationVyxGvgZTq
+- _$s10AppIntents22URLRepresentableIntentPA2A04OpenD0RzAA0C4Enum5ValueAaDPRpzrlE17urlRepresentationAA0D17URLRepresentationVyxGvgZ
+- _$s10AppIntents22URLRepresentableIntentPA2A04OpenD0RzAA0C4Enum5ValueAaDPRpzrlE7performs5NeverOyYaKF
+- _$s10AppIntents22URLRepresentableIntentPA2A04OpenD0RzAA0C4Enum5ValueAaDPRpzrlE7performs5NeverOyYaKFTu
+- _$s10AppIntents22URLRepresentableIntentPAA0aD0Tb
+- _$s10AppIntents24CaseDisplayRepresentableMp
+- _$s10AppIntents24CaseDisplayRepresentableP04caseD15RepresentationsSDyxAA0D14RepresentationVGvgZTq
+- _$s10AppIntents24CaseDisplayRepresentableP10Foundation40CustomLocalizedStringResourceConvertibleTb
+- _$s10AppIntents24CaseDisplayRepresentablePAAE23localizedStringResource10Foundation09LocalizedgH0Vvg
+- _$s10AppIntents24CaseDisplayRepresentablePSHTb
+- _$s10AppIntents24CaseDisplayRepresentablePs0C8IterableTb
+- _$s10AppIntents26StaticDisplayRepresentableMp
+- _$s10AppIntents26StaticDisplayRepresentablePAA04CasedE0Tb
+- _$s10AppIntents26StaticDisplayRepresentablePAA04TypedE0Tb
+- _$s10Foundation23LocalizedStringResourceV17BundleDescriptionO4mainyA2EmFWC
+- _$s10Foundation23LocalizedStringResourceV17BundleDescriptionOMa
+- _$s10Foundation23LocalizedStringResourceV_12defaultValue5table6locale6bundle7commentACs06StaticC0V_SSAAE012LocalizationF0VSSSgAA6LocaleVAC17BundleDescriptionOAJSgtcfC
+- _$s11AppStoreKit15PageGridCachingP013createContentdE03for12surroundedBy13containerSize08readableH6Insets08safeAreaO011environmentAA0dE0V9JetEngine12ReadOnlyLensVyAA5ShelfCG_ARSg8previous_AS4nexttSo6CGSizeVSo06UIEdgeO0VAyA0D11EnvironmentVtFTq
+- _$s11AppStoreKit15PageGridCachingP019createSupplementarydE03for12surroundedBy13containerSize21readableContentInsets08safeAreaP011environmentAA0dE0V9JetEngine12ReadOnlyLensVyAA5ShelfCG_ARSg8previous_AS4nexttSo6CGSizeVSo06UIEdgeP0VAyA0D11EnvironmentVtFTq
+- _$s11AppStoreKit15PageGridCachingPAAE013supplementarydE03for12surroundedBy13containerSize21readableContentInsets08safeAreaO011environmentAA0dE0V9JetEngine12ReadOnlyLensVyAA5ShelfCG_ARSg8previous_AS4nexttSo6CGSizeVSo06UIEdgeO0VAyA0D11EnvironmentVtF
+- _$s11AppStoreKit15PageGridCachingPAAE07contentdE03for12surroundedBy13containerSize21readableContentInsets08safeAreaO011environmentAA0dE0V9JetEngine12ReadOnlyLensVyAA5ShelfCG_ARSg8previous_AS4nexttSo6CGSizeVSo06UIEdgeO0VAyA0D11EnvironmentVtF
+- _$s11AppStoreKit16PageGridProviderP013supplementarydE03for12surroundedBy13containerSize21readableContentInsets08safeAreaO011environmentAA0dE0V9JetEngine12ReadOnlyLensVyAA5ShelfCG_ARSg8previous_AS4nexttSo6CGSizeVSo06UIEdgeO0VAyA0D11EnvironmentVtFTq
+- _$s11AppStoreKit16PageGridProviderP07contentdE03for12surroundedBy13containerSize21readableContentInsets08safeAreaO011environmentAA0dE0V9JetEngine12ReadOnlyLensVyAA5ShelfCG_ARSg8previous_AS4nexttSo6CGSizeVSo06UIEdgeO0VAyA0D11EnvironmentVtFTq
+- _$s11AppStoreKit22OfferDisplayPropertiesC03newdeF8Changing6titles16titleSymbolNames9subtitles5style11environment4tint017isDeletableSystemA00Q4Free0Q8Preorder0Q20RedownloadDisallowed0Q17OpenBundleAllowed15offerLabelStyle11hasDiscount13contentRating10offerToken20subscriptionFamilyId14overrideLocale12useAdsLocale14priceFormatted0Q14StreamlinedBuy15appCapabilitiesACSDyAA0D9TitleTypeOSSGSg_A1_A1_AA0D5StyleOSgAA0D11EnvironmentOSgAA0D4TintOSgSbSgA11_A11_A11_A11_AA0D10LabelStyleOSgA11_SiSgypSgSSSgA17_A11_A17_A11_SaySSGSgtFTj
+- _$s11AppStoreKit36SeparatorProvidingShelfComponentViewP9separator2inAA0gD0VSgAA17ItemLayoutContextV_tFZTj
+- _$s11AppStoreKit36SeparatorProvidingShelfComponentViewP9separator2inAA0gD0VSgAA17ItemLayoutContextV_tFZTq
+- _$s5Value10AppIntents10OpenIntentPTl
+- _$s8AllCasess12CaseIterablePTl
+- _$sSS10FoundationE17LocalizationValueV13stringLiteralACSS_tcfC
+- _$sSS10FoundationE17LocalizationValueVMa
+- _$ss12CaseIterableMp
+- _$ss12CaseIterableP8AllCasesAB_SlTn
+- _$ss12CaseIterableP8allCases03AllD0QzvgZTq
+- _$ss5NeverO10AppIntents12IntentResultACMc
+- _OBJC_CLASS_$_ASDSystemAppRequest
+CStrings:
++ "setAgeRatingValue:"
++ "setShouldAskForRatingException:"
+- "Discover new apps"
+- "Discover new games"
+- "Explore new apps"
+- "Explore new games"
+- "Find Arcade games"
+- "Find popular apps"
+- "Find popular games"
+- "Find trending apps"
+- "Find trending games"
+- "Find upcoming apps"
+- "Find upcoming games"
+- "Get Arcade games"
+- "Name of the page to open."
+- "Navigate to the "
+- "Open account settings"
+- "PAGE_NAVIGATION_INTENT_PARAMETER_DESCRIPTION"
+- "PAGE_NAVIGATION_INTENT_PARAMETER_TITLE"
+- "PAGE_NAVIGATION_INTENT_TITLE"
+- "PAGE_TITLE_ACCOUNT"
+- "PAGE_TITLE_APPS"
+- "PAGE_TITLE_SEARCH"
+- "Show Arcade games"
+- "Show me games in Arcade"
+- "Show me my App Store account"
+- "Show me popular Arcade games"
+- "Show me upcoming Arcade games"
+- "Show popular apps"
+- "Show popular games"
+- "Show trending apps"
+- "Show trending games"
+- "Show upcoming apps"
+- "Show upcoming games"
+- "Subscribe to Arcade"
+- "apps"
+- "arcade"
+- "games"
+- "itms-apps://?action="
+- "joystickcontroller"
+- "search"
+- "setStoreItemID:"
+- "startWithErrorHandler:"
+- "today"
+- "updates"
+
+```

@@ -1,0 +1,76 @@
+## EnergyKitService
+
+> `/System/Library/PrivateFrameworks/EnergyKitInternal.framework/XPCServices/EnergyKitService.xpc/EnergyKitService`
+
+```diff
+
+-393.0.0.0.0
+-  __TEXT.__text: 0x9ec94
++393.3.1.0.0
++  __TEXT.__text: 0x9f218
+   __TEXT.__auth_stubs: 0x2530
+   __TEXT.__objc_methlist: 0xa5c
+-  __TEXT.__const: 0x1850
++  __TEXT.__const: 0x1860
+   __TEXT.__cstring: 0x1d42
+   __TEXT.__objc_methname: 0x1d30
+-  __TEXT.__oslogstring: 0x2236
++  __TEXT.__oslogstring: 0x2206
+   __TEXT.__swift5_typeref: 0x968
+   __TEXT.__swift5_entry: 0x8
+   __TEXT.__constg_swiftt: 0xd78
+   __TEXT.__swift5_types: 0x98
+-  __TEXT.__swift_as_entry: 0x20c
++  __TEXT.__swift_as_entry: 0x208
+   __TEXT.__swift5_reflstr: 0x5a2
+   __TEXT.__swift5_fieldmd: 0x6bc
+   __TEXT.__swift5_proto: 0x58
+   __TEXT.__swift5_capture: 0xafc
+   __TEXT.__objc_classname: 0x89
+   __TEXT.__objc_methtype: 0x695
+-  __TEXT.__swift_as_ret: 0x2d0
++  __TEXT.__swift_as_ret: 0x2c8
+   __TEXT.__swift5_assocty: 0x30
+-  __TEXT.__unwind_info: 0x1fa0
+-  __TEXT.__eh_frame: 0x69b4
++  __TEXT.__unwind_info: 0x1f90
++  __TEXT.__eh_frame: 0x699c
+   __DATA_CONST.__auth_got: 0x1298
+   __DATA_CONST.__got: 0x648
+   __DATA_CONST.__auth_ptr: 0x328
+
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C95E9CCB-144A-3A4C-B340-458C55786711
+-  Functions: 2006
+-  Symbols:   13343
+-  CStrings:  702
++  UUID: A86C2597-982A-3064-A937-2972220EE0D0
++  Functions: 2003
++  Symbols:   13324
++  CStrings:  701
+ 
+Symbols:
++ _$s16EnergyKitService14DeviceInsightsC08generatedE05query6siteID06deviceI003appI0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFyyYaKcfU_TQ5_
++ _$s16EnergyKitService14DeviceInsightsC08generatedE05query6siteID06deviceI003appI0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFyyYaKcfU_TY1_
++ _$s16EnergyKitService14DeviceInsightsC08generatedE05query6siteID06deviceI003appI0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFyyYaKcfU_TY4_
++ _$s16EnergyKitService21LoadEventsQueryEngineC6siteID03appI006deviceI05query6streamAC10Foundation4UUIDV_S2S0aB007InsightF7RequestCAA08CoreDataP6StreamCtYaKcfCTY0_
++ _$s16EnergyKitService21LoadEventsQueryEngineC6siteID03appI006deviceI05query6streamAC10Foundation4UUIDV_S2S0aB007InsightF7RequestCAA08CoreDataP6StreamCtYaKcfCTY1_
++ _$s16EnergyKitService21LoadEventsQueryEngineC6siteID03appI006deviceI05query6streamAC10Foundation4UUIDV_S2S0aB007InsightF7RequestCAA08CoreDataP6StreamCtYaKcfCTY2_
++ _$s16EnergyKitService21LoadEventsQueryEngineC6siteID03appI006deviceI05query6streamAC10Foundation4UUIDV_S2S0aB007InsightF7RequestCAA08CoreDataP6StreamCtYaKcfCTY3_
+- _$s16EnergyKitService14DeviceInsightsC08generatedE05query6siteID06deviceI003appI0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFyyYaKcfU_TQ1_
+- _$s16EnergyKitService14DeviceInsightsC08generatedE05query6siteID06deviceI003appI0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFyyYaKcfU_TQ4_
+- _$s16EnergyKitService14DeviceInsightsC08generatedE05query6siteID06deviceI003appI0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFyyYaKcfU_TY5_
+- _$s16EnergyKitService21LoadEventsQueryEngineC6siteID03appI006deviceI05query6streamAC10Foundation4UUIDV_S2S0aB007InsightF7RequestCAA08CoreDataP6StreamCtYaKcfCTQ0_
+- _$s16EnergyKitService21LoadEventsQueryEngineC6siteID03appI006deviceI05query6streamAC10Foundation4UUIDV_S2S0aB007InsightF7RequestCAA08CoreDataP6StreamCtYaKcfCTf4nnnggd_n
+- _$s16EnergyKitService21LoadEventsQueryEngineC6siteID03appI006deviceI05query6streamAC10Foundation4UUIDV_S2S0aB007InsightF7RequestCAA08CoreDataP6StreamCtYaKcfCTf4nnnggd_nTY0_
+- _$s16EnergyKitService21LoadEventsQueryEngineC6siteID03appI006deviceI05query6streamAC10Foundation4UUIDV_S2S0aB007InsightF7RequestCAA08CoreDataP6StreamCtYaKcfCTf4nnnggd_nTY1_
+- _$s16EnergyKitService21LoadEventsQueryEngineC6siteID03appI006deviceI05query6streamAC10Foundation4UUIDV_S2S0aB007InsightF7RequestCAA08CoreDataP6StreamCtYaKcfCTf4nnnggd_nTY2_
+- _$s16EnergyKitService21LoadEventsQueryEngineC6siteID03appI006deviceI05query6streamAC10Foundation4UUIDV_S2S0aB007InsightF7RequestCAA08CoreDataP6StreamCtYaKcfCTf4nnnggd_nTY3_
+- _$s16EnergyKitService21LoadEventsQueryEngineC6siteID03appI006deviceI05query6streamAC10Foundation4UUIDV_S2S0aB007InsightF7RequestCAA08CoreDataP6StreamCtYaKcfCTf4nnnggd_nTu
+- _$s2os23OSSignpostIntervalStateC2id6isOpenAcA0B2IDV_SbtcfcfA0_
+CStrings:
+- "[WholeHomeInsights] Failed to get Grid Guidance"
+
+```

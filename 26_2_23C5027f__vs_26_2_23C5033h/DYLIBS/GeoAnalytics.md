@@ -1,0 +1,277 @@
+## GeoAnalytics
+
+> `/System/Library/PrivateFrameworks/GeoAnalytics.framework/GeoAnalytics`
+
+```diff
+
+-2027.32.10.2.3
+-  __TEXT.__text: 0x8aea8
++2027.32.10.2.4
++  __TEXT.__text: 0x8b584
+   __TEXT.__auth_stubs: 0x8b0
+   __TEXT.__objc_methlist: 0x2014
+   __TEXT.__const: 0x608
+
+   __TEXT.__oslogstring: 0xdfc
+   __TEXT.__unwind_info: 0xdd8
+   __TEXT.__objc_classname: 0x3aa
+-  __TEXT.__objc_methname: 0x12446
+-  __TEXT.__objc_methtype: 0x1a79
++  __TEXT.__objc_methname: 0x1295a
++  __TEXT.__objc_methtype: 0x1b54
+   __TEXT.__objc_stubs: 0xd900
+   __DATA_CONST.__got: 0x658
+   __DATA_CONST.__const: 0x65f0
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3C104434-CCFC-391B-A03E-CAB4121B7C69
++  UUID: A7740875-00B6-314B-AEDC-8BF124B3035D
+   Functions: 1375
+   Symbols:   6220
+-  CStrings:  7545
++  CStrings:  7547
+ 
+Symbols:
++ +[GEOAPPortal captureClientACKeypressWithQuery:queryTokens:entries:keypressStatus:responseStatus:GEOModelMetadata_modelVersion:GEOModelMetadata_rolloutId:GEOModelMetadata_rolloutDeploymentId:GEOModelMetadata_rolloutFactorpackId:GEOModelMetadata_rolloutRampId:GEOExperimentMetadata_experimentId:GEOExperimentMetadata_deploymentId:GEOExperimentMetadata_treatmentId:GEOExperimentMetadata_experimentDescription:]
++ +[GEOAPPortal captureClientACKeypressWithQuery:queryTokens:entries:keypressStatus:responseStatus:GEOModelMetadata_modelVersion:GEOModelMetadata_rolloutId:GEOModelMetadata_rolloutDeploymentId:GEOModelMetadata_rolloutFactorpackId:GEOModelMetadata_rolloutRampId:GEOExperimentMetadata_experimentId:GEOExperimentMetadata_deploymentId:GEOExperimentMetadata_treatmentId:GEOExperimentMetadata_experimentDescription:additionalStates:providedDropRate:completionQueue:completionBlock:]
++ +[GEOAPPortal captureClientACResponseWithQuery:queryTokens:entries:shouldDifferentiateClientAndServerResults:overallLatencyInMs:isRerankerTriggered:isRetainedQuery:responseStatus:GEOModelMetadata_modelVersion:GEOModelMetadata_rolloutId:GEOModelMetadata_rolloutDeploymentId:GEOModelMetadata_rolloutFactorpackId:GEOModelMetadata_rolloutRampId:GEOExperimentMetadata_experimentId:GEOExperimentMetadata_deploymentId:GEOExperimentMetadata_treatmentId:GEOExperimentMetadata_experimentDescription:]
++ +[GEOAPPortal captureClientACResponseWithQuery:queryTokens:entries:shouldDifferentiateClientAndServerResults:overallLatencyInMs:isRerankerTriggered:isRetainedQuery:responseStatus:GEOModelMetadata_modelVersion:GEOModelMetadata_rolloutId:GEOModelMetadata_rolloutDeploymentId:GEOModelMetadata_rolloutFactorpackId:GEOModelMetadata_rolloutRampId:GEOExperimentMetadata_experimentId:GEOExperimentMetadata_deploymentId:GEOExperimentMetadata_treatmentId:GEOExperimentMetadata_experimentDescription:additionalStates:providedDropRate:completionQueue:completionBlock:]
++ ___474+[GEOAPPortal captureClientACKeypressWithQuery:queryTokens:entries:keypressStatus:responseStatus:GEOModelMetadata_modelVersion:GEOModelMetadata_rolloutId:GEOModelMetadata_rolloutDeploymentId:GEOModelMetadata_rolloutFactorpackId:GEOModelMetadata_rolloutRampId:GEOExperimentMetadata_experimentId:GEOExperimentMetadata_deploymentId:GEOExperimentMetadata_treatmentId:GEOExperimentMetadata_experimentDescription:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke
++ ___474+[GEOAPPortal captureClientACKeypressWithQuery:queryTokens:entries:keypressStatus:responseStatus:GEOModelMetadata_modelVersion:GEOModelMetadata_rolloutId:GEOModelMetadata_rolloutDeploymentId:GEOModelMetadata_rolloutFactorpackId:GEOModelMetadata_rolloutRampId:GEOExperimentMetadata_experimentId:GEOExperimentMetadata_deploymentId:GEOExperimentMetadata_treatmentId:GEOExperimentMetadata_experimentDescription:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.31
++ ___556+[GEOAPPortal captureClientACResponseWithQuery:queryTokens:entries:shouldDifferentiateClientAndServerResults:overallLatencyInMs:isRerankerTriggered:isRetainedQuery:responseStatus:GEOModelMetadata_modelVersion:GEOModelMetadata_rolloutId:GEOModelMetadata_rolloutDeploymentId:GEOModelMetadata_rolloutFactorpackId:GEOModelMetadata_rolloutRampId:GEOExperimentMetadata_experimentId:GEOExperimentMetadata_deploymentId:GEOExperimentMetadata_treatmentId:GEOExperimentMetadata_experimentDescription:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke
++ ___556+[GEOAPPortal captureClientACResponseWithQuery:queryTokens:entries:shouldDifferentiateClientAndServerResults:overallLatencyInMs:isRerankerTriggered:isRetainedQuery:responseStatus:GEOModelMetadata_modelVersion:GEOModelMetadata_rolloutId:GEOModelMetadata_rolloutDeploymentId:GEOModelMetadata_rolloutFactorpackId:GEOModelMetadata_rolloutRampId:GEOExperimentMetadata_experimentId:GEOExperimentMetadata_deploymentId:GEOExperimentMetadata_treatmentId:GEOExperimentMetadata_experimentDescription:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.32
++ ___Block_byref_object_copy_.1197
++ ___Block_byref_object_copy_.2365
++ ___Block_byref_object_copy_.3035
++ ___Block_byref_object_copy_.3109
++ ___Block_byref_object_dispose_.1198
++ ___Block_byref_object_dispose_.2366
++ ___Block_byref_object_dispose_.3036
++ ___Block_byref_object_dispose_.3110
++ ___block_literal_global.1034
++ ___block_literal_global.104.1659
++ ___block_literal_global.104.2134
++ ___block_literal_global.109.1666
++ ___block_literal_global.109.2141
++ ___block_literal_global.1127
++ ___block_literal_global.114.1673
++ ___block_literal_global.114.2146
++ ___block_literal_global.119.1680
++ ___block_literal_global.119.2153
++ ___block_literal_global.12.1557
++ ___block_literal_global.12.2056
++ ___block_literal_global.1202
++ ___block_literal_global.124.1687
++ ___block_literal_global.124.2160
++ ___block_literal_global.129.1694
++ ___block_literal_global.129.2167
++ ___block_literal_global.129.3173
++ ___block_literal_global.1310
++ ___block_literal_global.134.2771
++ ___block_literal_global.1356
++ ___block_literal_global.1464
++ ___block_literal_global.1478
++ ___block_literal_global.1547
++ ___block_literal_global.18.1490
++ ___block_literal_global.18.1567
++ ___block_literal_global.194.2351
++ ___block_literal_global.2048
++ ___block_literal_global.2287
++ ___block_literal_global.237.2213
++ ___block_literal_global.2374
++ ___block_literal_global.25.1574
++ ___block_literal_global.257.2568
++ ___block_literal_global.259.2570
++ ___block_literal_global.267.2576
++ ___block_literal_global.279.2584
++ ___block_literal_global.2799
++ ___block_literal_global.289.2588
++ ___block_literal_global.297.2590
++ ___block_literal_global.302.2595
++ ___block_literal_global.304.2599
++ ___block_literal_global.307.2603
++ ___block_literal_global.3077
++ ___block_literal_global.31.1154
++ ___block_literal_global.317.2611
++ ___block_literal_global.319.2615
++ ___block_literal_global.3248
++ ___block_literal_global.327.2625
++ ___block_literal_global.3289
++ ___block_literal_global.329.2627
++ ___block_literal_global.337.2629
++ ___block_literal_global.339.2631
++ ___block_literal_global.344.2636
++ ___block_literal_global.347.2252
++ ___block_literal_global.349.2641
++ ___block_literal_global.354.2646
++ ___block_literal_global.379.2660
++ ___block_literal_global.42.2080
++ ___block_literal_global.421.2676
++ ___block_literal_global.431.2681
++ ___block_literal_global.441.2687
++ ___block_literal_global.453.2697
++ ___block_literal_global.468.2707
++ ___block_literal_global.47.2085
++ ___block_literal_global.488.2713
++ ___block_literal_global.50.1508
++ ___block_literal_global.52.2090
++ ___block_literal_global.57.2095
++ ___block_literal_global.586
++ ___block_literal_global.60.1515
++ ___block_literal_global.62.2323
++ ___block_literal_global.66.2110
++ ___block_literal_global.72.1615
++ ___block_literal_global.724
++ ___block_literal_global.77.1622
++ ___block_literal_global.813
++ ___block_literal_global.82.1629
++ ___block_literal_global.87.1636
++ ___block_literal_global.901
++ ___block_literal_global.92.1643
++ ___block_literal_global.97.1650
++ ___block_literal_global.99.2790
++ __registerStateCaptureCallbacks.1550
++ __registerStateCaptureCallbacks.2051
++ __registerStateCaptureCallbacks.2290
++ __registerStateCaptureCallbacks.2377
++ __stateCaptureCallbackRegistration.1548
++ __stateCaptureCallbackRegistration.2049
++ __stateCaptureCallbackRegistration.2288
++ __stateCaptureCallbackRegistration.2375
++ _objc_msgSend$captureClientACKeypressWithQuery:queryTokens:entries:keypressStatus:responseStatus:GEOModelMetadata_modelVersion:GEOModelMetadata_rolloutId:GEOModelMetadata_rolloutDeploymentId:GEOModelMetadata_rolloutFactorpackId:GEOModelMetadata_rolloutRampId:GEOExperimentMetadata_experimentId:GEOExperimentMetadata_deploymentId:GEOExperimentMetadata_treatmentId:GEOExperimentMetadata_experimentDescription:additionalStates:providedDropRate:completionQueue:completionBlock:
++ _objc_msgSend$captureClientACResponseWithQuery:queryTokens:entries:shouldDifferentiateClientAndServerResults:overallLatencyInMs:isRerankerTriggered:isRetainedQuery:responseStatus:GEOModelMetadata_modelVersion:GEOModelMetadata_rolloutId:GEOModelMetadata_rolloutDeploymentId:GEOModelMetadata_rolloutFactorpackId:GEOModelMetadata_rolloutRampId:GEOExperimentMetadata_experimentId:GEOExperimentMetadata_deploymentId:GEOExperimentMetadata_treatmentId:GEOExperimentMetadata_experimentDescription:additionalStates:providedDropRate:completionQueue:completionBlock:
++ _sharedManager.onceToken.1180
+- +[GEOAPPortal captureClientACKeypressWithQuery:queryTokens:entries:keypressStatus:]
+- +[GEOAPPortal captureClientACKeypressWithQuery:queryTokens:entries:keypressStatus:additionalStates:providedDropRate:completionQueue:completionBlock:]
+- +[GEOAPPortal captureClientACResponseWithQuery:queryTokens:entries:shouldDifferentiateClientAndServerResults:overallLatencyInMs:isRerankerTriggered:isRetainedQuery:]
+- +[GEOAPPortal captureClientACResponseWithQuery:queryTokens:entries:shouldDifferentiateClientAndServerResults:overallLatencyInMs:isRerankerTriggered:isRetainedQuery:additionalStates:providedDropRate:completionQueue:completionBlock:]
+- ___149+[GEOAPPortal captureClientACKeypressWithQuery:queryTokens:entries:keypressStatus:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke
+- ___149+[GEOAPPortal captureClientACKeypressWithQuery:queryTokens:entries:keypressStatus:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.29
+- ___231+[GEOAPPortal captureClientACResponseWithQuery:queryTokens:entries:shouldDifferentiateClientAndServerResults:overallLatencyInMs:isRerankerTriggered:isRetainedQuery:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke
+- ___231+[GEOAPPortal captureClientACResponseWithQuery:queryTokens:entries:shouldDifferentiateClientAndServerResults:overallLatencyInMs:isRerankerTriggered:isRetainedQuery:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.30
+- ___Block_byref_object_copy_.1032
+- ___Block_byref_object_copy_.2261
+- ___Block_byref_object_copy_.2925
+- ___Block_byref_object_copy_.2999
+- ___Block_byref_object_dispose_.1033
+- ___Block_byref_object_dispose_.2262
+- ___Block_byref_object_dispose_.2926
+- ___Block_byref_object_dispose_.3000
+- ___block_literal_global.1037
+- ___block_literal_global.104.1494
+- ___block_literal_global.104.2015
+- ___block_literal_global.109.1501
+- ___block_literal_global.109.2022
+- ___block_literal_global.114.1508
+- ___block_literal_global.114.2027
+- ___block_literal_global.1145
+- ___block_literal_global.119.1515
+- ___block_literal_global.119.2034
+- ___block_literal_global.1191
+- ___block_literal_global.12.1392
+- ___block_literal_global.12.1937
+- ___block_literal_global.124.1522
+- ___block_literal_global.124.2041
+- ___block_literal_global.129.1529
+- ___block_literal_global.129.2048
+- ___block_literal_global.129.3063
+- ___block_literal_global.1299
+- ___block_literal_global.1313
+- ___block_literal_global.134.2666
+- ___block_literal_global.1382
+- ___block_literal_global.18.1325
+- ___block_literal_global.18.1402
+- ___block_literal_global.1929
+- ___block_literal_global.194.2247
+- ___block_literal_global.2183
+- ___block_literal_global.2270
+- ___block_literal_global.237.2094
+- ___block_literal_global.25.1409
+- ___block_literal_global.257.2464
+- ___block_literal_global.259.2466
+- ___block_literal_global.267.2472
+- ___block_literal_global.2694
+- ___block_literal_global.279.2480
+- ___block_literal_global.289.2484
+- ___block_literal_global.2967
+- ___block_literal_global.297.2486
+- ___block_literal_global.302.2491
+- ___block_literal_global.304.2495
+- ___block_literal_global.307.2499
+- ___block_literal_global.31.989
+- ___block_literal_global.3138
+- ___block_literal_global.317.2507
+- ___block_literal_global.3179
+- ___block_literal_global.319.2511
+- ___block_literal_global.327.2521
+- ___block_literal_global.329.2523
+- ___block_literal_global.337.2525
+- ___block_literal_global.339.2527
+- ___block_literal_global.344.2532
+- ___block_literal_global.347.2145
+- ___block_literal_global.349.2537
+- ___block_literal_global.354.2542
+- ___block_literal_global.379.2555
+- ___block_literal_global.416
+- ___block_literal_global.42.1961
+- ___block_literal_global.421.2571
+- ___block_literal_global.431.2576
+- ___block_literal_global.441.2582
+- ___block_literal_global.453.2592
+- ___block_literal_global.468.2602
+- ___block_literal_global.47.1966
+- ___block_literal_global.488.2608
+- ___block_literal_global.50.1343
+- ___block_literal_global.52.1971
+- ___block_literal_global.555.1846
+- ___block_literal_global.57.1976
+- ___block_literal_global.60.1350
+- ___block_literal_global.62.2219
+- ___block_literal_global.644
+- ___block_literal_global.66.1991
+- ___block_literal_global.72.1450
+- ___block_literal_global.732
+- ___block_literal_global.77.1457
+- ___block_literal_global.82.1464
+- ___block_literal_global.865
+- ___block_literal_global.87.1471
+- ___block_literal_global.92.1478
+- ___block_literal_global.962
+- ___block_literal_global.97.1485
+- ___block_literal_global.99.2685
+- __registerStateCaptureCallbacks.1385
+- __registerStateCaptureCallbacks.1932
+- __registerStateCaptureCallbacks.2186
+- __registerStateCaptureCallbacks.2273
+- __stateCaptureCallbackRegistration.1383
+- __stateCaptureCallbackRegistration.1930
+- __stateCaptureCallbackRegistration.2184
+- __stateCaptureCallbackRegistration.2271
+- _objc_msgSend$captureClientACKeypressWithQuery:queryTokens:entries:keypressStatus:additionalStates:providedDropRate:completionQueue:completionBlock:
+- _objc_msgSend$captureClientACResponseWithQuery:queryTokens:entries:shouldDifferentiateClientAndServerResults:overallLatencyInMs:isRerankerTriggered:isRetainedQuery:additionalStates:providedDropRate:completionQueue:completionBlock:
+- _sharedManager.onceToken.1015
+Functions:
+~ +[GEOAPPortal captureClientACResponseWithQuery:queryTokens:entries:shouldDifferentiateClientAndServerResults:overallLatencyInMs:isRerankerTriggered:isRetainedQuery:additionalStates:providedDropRate:completionQueue:completionBlock:] -> +[GEOAPPortal captureClientACResponseWithQuery:queryTokens:entries:shouldDifferentiateClientAndServerResults:overallLatencyInMs:isRerankerTriggered:isRetainedQuery:responseStatus:GEOModelMetadata_modelVersion:GEOModelMetadata_rolloutId:GEOModelMetadata_rolloutDeploymentId:GEOModelMetadata_rolloutFactorpackId:GEOModelMetadata_rolloutRampId:GEOExperimentMetadata_experimentId:GEOExperimentMetadata_deploymentId:GEOExperimentMetadata_treatmentId:GEOExperimentMetadata_experimentDescription:additionalStates:providedDropRate:completionQueue:completionBlock:] : 4844 -> 5668
+~ +[GEOAPPortal captureClientACResponseWithQuery:queryTokens:entries:shouldDifferentiateClientAndServerResults:overallLatencyInMs:isRerankerTriggered:isRetainedQuery:] -> +[GEOAPPortal captureClientACResponseWithQuery:queryTokens:entries:shouldDifferentiateClientAndServerResults:overallLatencyInMs:isRerankerTriggered:isRetainedQuery:responseStatus:GEOModelMetadata_modelVersion:GEOModelMetadata_rolloutId:GEOModelMetadata_rolloutDeploymentId:GEOModelMetadata_rolloutFactorpackId:GEOModelMetadata_rolloutRampId:GEOExperimentMetadata_experimentId:GEOExperimentMetadata_deploymentId:GEOExperimentMetadata_treatmentId:GEOExperimentMetadata_experimentDescription:] : 52 -> 84
+~ +[GEOAPPortal captureClientACKeypressWithQuery:queryTokens:entries:keypressStatus:additionalStates:providedDropRate:completionQueue:completionBlock:] -> +[GEOAPPortal captureClientACKeypressWithQuery:queryTokens:entries:keypressStatus:responseStatus:GEOModelMetadata_modelVersion:GEOModelMetadata_rolloutId:GEOModelMetadata_rolloutDeploymentId:GEOModelMetadata_rolloutFactorpackId:GEOModelMetadata_rolloutRampId:GEOExperimentMetadata_experimentId:GEOExperimentMetadata_deploymentId:GEOExperimentMetadata_treatmentId:GEOExperimentMetadata_experimentDescription:additionalStates:providedDropRate:completionQueue:completionBlock:] : 4560 -> 5392
+~ +[GEOAPPortal captureClientACKeypressWithQuery:queryTokens:entries:keypressStatus:] -> +[GEOAPPortal captureClientACKeypressWithQuery:queryTokens:entries:keypressStatus:responseStatus:GEOModelMetadata_modelVersion:GEOModelMetadata_rolloutId:GEOModelMetadata_rolloutDeploymentId:GEOModelMetadata_rolloutFactorpackId:GEOModelMetadata_rolloutRampId:GEOExperimentMetadata_experimentId:GEOExperimentMetadata_deploymentId:GEOExperimentMetadata_treatmentId:GEOExperimentMetadata_experimentDescription:] : 44 -> 64
+~ +[GEOAPPortal(UserActionCodeGen) captureUserAction:target:value:moduleType:moduleMetadata:classification:richProviderId:additionalStates:completionQueue:completionBlock:] : 51128 -> 51176
+CStrings:
++ "captureClientACKeypressWithQuery:queryTokens:entries:keypressStatus:responseStatus:GEOModelMetadata_modelVersion:GEOModelMetadata_rolloutId:GEOModelMetadata_rolloutDeploymentId:GEOModelMetadata_rolloutFactorpackId:GEOModelMetadata_rolloutRampId:GEOExperimentMetadata_experimentId:GEOExperimentMetadata_deploymentId:GEOExperimentMetadata_treatmentId:GEOExperimentMetadata_experimentDescription:"
++ "captureClientACKeypressWithQuery:queryTokens:entries:keypressStatus:responseStatus:GEOModelMetadata_modelVersion:GEOModelMetadata_rolloutId:GEOModelMetadata_rolloutDeploymentId:GEOModelMetadata_rolloutFactorpackId:GEOModelMetadata_rolloutRampId:GEOExperimentMetadata_experimentId:GEOExperimentMetadata_deploymentId:GEOExperimentMetadata_treatmentId:GEOExperimentMetadata_experimentDescription:additionalStates:providedDropRate:completionQueue:completionBlock:"
++ "captureClientACResponseWithQuery:queryTokens:entries:shouldDifferentiateClientAndServerResults:overallLatencyInMs:isRerankerTriggered:isRetainedQuery:responseStatus:GEOModelMetadata_modelVersion:GEOModelMetadata_rolloutId:GEOModelMetadata_rolloutDeploymentId:GEOModelMetadata_rolloutFactorpackId:GEOModelMetadata_rolloutRampId:GEOExperimentMetadata_experimentId:GEOExperimentMetadata_deploymentId:GEOExperimentMetadata_treatmentId:GEOExperimentMetadata_experimentDescription:"
++ "captureClientACResponseWithQuery:queryTokens:entries:shouldDifferentiateClientAndServerResults:overallLatencyInMs:isRerankerTriggered:isRetainedQuery:responseStatus:GEOModelMetadata_modelVersion:GEOModelMetadata_rolloutId:GEOModelMetadata_rolloutDeploymentId:GEOModelMetadata_rolloutFactorpackId:GEOModelMetadata_rolloutRampId:GEOExperimentMetadata_experimentId:GEOExperimentMetadata_deploymentId:GEOExperimentMetadata_treatmentId:GEOExperimentMetadata_experimentDescription:additionalStates:providedDropRate:completionQueue:completionBlock:"
++ "v120@0:8@16@24@32i40i44@48@56@64@72@80@88@96@104@112"
++ "v148@0:8@16@24@32@40@48@56@64i72@76@84@92@100@108@116@124@132@140"
++ "v152@0:8@16@24@32i40i44@48@56@64@72@80@88@96@104@112@120@128@136@?144"
++ "v180@0:8@16@24@32@40@48@56@64i72@76@84@92@100@108@116@124@132@140@148@156@164@?172"
+- "captureClientACKeypressWithQuery:queryTokens:entries:keypressStatus:"
+- "captureClientACKeypressWithQuery:queryTokens:entries:keypressStatus:additionalStates:providedDropRate:completionQueue:completionBlock:"
+- "captureClientACResponseWithQuery:queryTokens:entries:shouldDifferentiateClientAndServerResults:overallLatencyInMs:isRerankerTriggered:isRetainedQuery:"
+- "captureClientACResponseWithQuery:queryTokens:entries:shouldDifferentiateClientAndServerResults:overallLatencyInMs:isRerankerTriggered:isRetainedQuery:additionalStates:providedDropRate:completionQueue:completionBlock:"
+- "v44@0:8@16@24@32i40"
+- "v76@0:8@16@24@32i40@44@52@60@?68"
+
+```
