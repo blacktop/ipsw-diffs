@@ -1,0 +1,549 @@
+## PhotoLibraryServicesCore
+
+> `/System/Library/PrivateFrameworks/PhotoLibraryServicesCore.framework/PhotoLibraryServicesCore`
+
+```diff
+
+-820.0.170.0.0
+-  __TEXT.__text: 0xc69bc
++822.0.130.0.0
++  __TEXT.__text: 0xc69cc
+   __TEXT.__auth_stubs: 0x1c40
+   __TEXT.__objc_methlist: 0x7e9c
+   __TEXT.__const: 0x23fc
+-  __TEXT.__cstring: 0x149a9
++  __TEXT.__cstring: 0x149b2
+   __TEXT.__dlopen_cstrs: 0x19c
+   __TEXT.__gcc_except_tab: 0x7430
+   __TEXT.__oslogstring: 0x9fd0
+   __TEXT.__ustring: 0x4
+-  __TEXT.__unwind_info: 0x3060
++  __TEXT.__unwind_info: 0x3068
+   __TEXT.__objc_classname: 0x10d1
+   __TEXT.__objc_methname: 0x153c0
+   __TEXT.__objc_methtype: 0x4ad3
+
+   __DATA_CONST.__objc_selrefs: 0x49d8
+   __DATA_CONST.__objc_protorefs: 0xc0
+   __DATA_CONST.__objc_superrefs: 0x268
+-  __DATA_CONST.__objc_arraydata: 0x408
++  __DATA_CONST.__objc_arraydata: 0x420
+   __AUTH_CONST.__auth_got: 0xe30
+   __AUTH_CONST.__const: 0x3338
+-  __AUTH_CONST.__cfstring: 0x112c0
++  __AUTH_CONST.__cfstring: 0x11320
+   __AUTH_CONST.__objc_const: 0xa7e8
+   __AUTH_CONST.__objc_intobj: 0x960
+   __AUTH_CONST.__objc_floatobj: 0x10
+   __AUTH_CONST.__objc_dictobj: 0x50
+-  __AUTH_CONST.__objc_arrayobj: 0x240
++  __AUTH_CONST.__objc_arrayobj: 0x258
+   __AUTH.__objc_data: 0x2f8
+   __DATA.__objc_ivar: 0x658
+   __DATA.__data: 0x1080
+-  __DATA.__bss: 0xb70
++  __DATA.__bss: 0xb80
+   __DATA_DIRTY.__objc_data: 0x2558
+   __DATA_DIRTY.__data: 0x8
+-  __DATA_DIRTY.__bss: 0x528
++  __DATA_DIRTY.__bss: 0x518
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libperfcheck.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 93796E1D-6FD1-3A00-A416-137CB997BB94
+-  Functions: 3756
+-  Symbols:   12895
+-  CStrings:  9398
++  UUID: 3433885D-CCE9-3DF9-8A3F-ACA6F11AD1A0
++  Functions: 3757
++  Symbols:   12896
++  CStrings:  9404
+ 
+Symbols:
++ GCC_except_table2037
++ GCC_except_table2087
++ GCC_except_table2093
++ GCC_except_table2095
++ GCC_except_table2098
++ GCC_except_table2233
++ GCC_except_table2316
++ GCC_except_table2355
++ GCC_except_table2387
++ GCC_except_table2392
++ GCC_except_table2395
++ GCC_except_table2398
++ GCC_except_table2401
++ GCC_except_table2404
++ GCC_except_table2407
++ GCC_except_table2410
++ GCC_except_table2413
++ GCC_except_table2416
++ GCC_except_table2419
++ GCC_except_table2422
++ GCC_except_table2444
++ GCC_except_table2469
++ GCC_except_table2472
++ GCC_except_table2477
++ GCC_except_table2480
++ GCC_except_table2483
++ GCC_except_table2486
++ GCC_except_table2490
++ GCC_except_table2494
++ GCC_except_table2498
++ GCC_except_table2501
++ GCC_except_table2503
++ GCC_except_table2507
++ GCC_except_table2511
++ GCC_except_table2515
++ GCC_except_table2519
++ GCC_except_table2523
++ GCC_except_table2527
++ GCC_except_table2531
++ GCC_except_table2535
++ GCC_except_table2539
++ GCC_except_table2542
++ GCC_except_table2546
++ GCC_except_table2550
++ GCC_except_table2554
++ GCC_except_table2558
++ GCC_except_table2562
++ GCC_except_table2566
++ GCC_except_table2570
++ GCC_except_table2574
++ GCC_except_table2578
++ GCC_except_table2581
++ GCC_except_table2583
++ GCC_except_table2586
++ GCC_except_table2589
++ GCC_except_table2591
++ GCC_except_table2594
++ GCC_except_table2596
++ GCC_except_table2599
++ GCC_except_table2601
++ GCC_except_table2604
++ GCC_except_table2607
++ GCC_except_table2610
++ GCC_except_table2613
++ GCC_except_table2616
++ GCC_except_table2619
++ GCC_except_table2622
++ GCC_except_table2625
++ GCC_except_table2628
++ GCC_except_table2631
++ GCC_except_table2634
++ GCC_except_table2637
++ GCC_except_table2640
++ GCC_except_table2642
++ GCC_except_table2759
++ GCC_except_table2762
++ GCC_except_table2818
++ GCC_except_table2871
++ GCC_except_table2882
++ GCC_except_table2884
++ GCC_except_table2888
++ GCC_except_table2890
++ GCC_except_table2910
++ GCC_except_table2916
++ GCC_except_table3062
++ GCC_except_table3064
++ GCC_except_table3066
++ GCC_except_table3070
++ GCC_except_table3075
++ GCC_except_table3078
++ GCC_except_table3081
++ GCC_except_table3084
++ GCC_except_table3087
++ GCC_except_table3168
++ GCC_except_table3357
++ GCC_except_table3367
++ GCC_except_table3372
++ GCC_except_table3376
++ GCC_except_table3383
++ GCC_except_table3435
++ GCC_except_table3438
++ GCC_except_table3445
++ GCC_except_table3451
++ GCC_except_table3455
++ GCC_except_table3459
++ GCC_except_table3463
++ GCC_except_table3467
++ GCC_except_table3486
++ GCC_except_table3489
++ GCC_except_table3498
++ GCC_except_table3511
++ GCC_except_table3529
++ GCC_except_table3537
++ GCC_except_table3539
++ GCC_except_table3544
++ GCC_except_table3548
++ GCC_except_table3554
++ GCC_except_table3559
++ GCC_except_table3562
++ GCC_except_table3565
++ GCC_except_table3569
++ GCC_except_table3572
++ GCC_except_table3578
++ GCC_except_table3581
++ GCC_except_table3584
++ GCC_except_table3588
++ GCC_except_table3591
++ GCC_except_table3594
++ GCC_except_table3597
++ GCC_except_table3600
++ GCC_except_table3604
++ GCC_except_table3608
++ GCC_except_table3621
++ GCC_except_table3624
++ GCC_except_table3667
++ GCC_except_table3686
++ GCC_except_table3688
++ GCC_except_table3690
++ GCC_except_table3693
++ GCC_except_table3695
++ GCC_except_table3704
++ GCC_except_table3717
++ GCC_except_table3722
++ GCC_except_table3729
++ GCC_except_table3734
++ _PLIsChinaDeviceWithBaseband
++ _PLIsChinaDeviceWithBaseband.isGreenTea
++ _PLIsChinaDeviceWithBaseband.onceToken
++ _PL_gKTXFileIdentifier.11511
++ ___Block_byref_object_copy_.11038
++ ___Block_byref_object_copy_.11579
++ ___Block_byref_object_copy_.11736
++ ___Block_byref_object_copy_.11788
++ ___Block_byref_object_copy_.11835
++ ___Block_byref_object_copy_.11889
++ ___Block_byref_object_copy_.12114
++ ___Block_byref_object_copy_.12802
++ ___Block_byref_object_copy_.12855
++ ___Block_byref_object_copy_.4872
++ ___Block_byref_object_copy_.5495
++ ___Block_byref_object_copy_.5760
++ ___Block_byref_object_copy_.6047
++ ___Block_byref_object_copy_.6378
++ ___Block_byref_object_copy_.6567
++ ___Block_byref_object_copy_.7066
++ ___Block_byref_object_copy_.7926
++ ___Block_byref_object_copy_.8961
++ ___Block_byref_object_dispose_.11039
++ ___Block_byref_object_dispose_.11580
++ ___Block_byref_object_dispose_.11737
++ ___Block_byref_object_dispose_.11789
++ ___Block_byref_object_dispose_.11836
++ ___Block_byref_object_dispose_.11890
++ ___Block_byref_object_dispose_.12115
++ ___Block_byref_object_dispose_.12803
++ ___Block_byref_object_dispose_.12856
++ ___Block_byref_object_dispose_.4873
++ ___Block_byref_object_dispose_.5496
++ ___Block_byref_object_dispose_.5761
++ ___Block_byref_object_dispose_.6048
++ ___Block_byref_object_dispose_.6379
++ ___Block_byref_object_dispose_.6568
++ ___Block_byref_object_dispose_.7067
++ ___Block_byref_object_dispose_.7927
++ ___Block_byref_object_dispose_.8962
++ ___PLIsChinaDeviceWithBaseband_block_invoke
++ ___block_literal_global.10746
++ ___block_literal_global.11044
++ ___block_literal_global.11280
++ ___block_literal_global.11379
++ ___block_literal_global.11491
++ ___block_literal_global.11891
++ ___block_literal_global.12095
++ ___block_literal_global.12481
++ ___block_literal_global.126.6072
++ ___block_literal_global.144.6051
++ ___block_literal_global.148.6049
++ ___block_literal_global.16.6221
++ ___block_literal_global.164.11954
++ ___block_literal_global.188.6461
++ ___block_literal_global.192.6462
++ ___block_literal_global.2.6249
++ ___block_literal_global.20.6217
++ ___block_literal_global.201.6455
++ ___block_literal_global.24.6212
++ ___block_literal_global.24.8934
++ ___block_literal_global.27.11033
++ ___block_literal_global.27.6207
++ ___block_literal_global.30.6201
++ ___block_literal_global.4179
++ ___block_literal_global.42.6178
++ ___block_literal_global.48.6174
++ ___block_literal_global.5051
++ ___block_literal_global.548
++ ___block_literal_global.5706
++ ___block_literal_global.5754
++ ___block_literal_global.6.6625
++ ___block_literal_global.6260
++ ___block_literal_global.6373
++ ___block_literal_global.6495
++ ___block_literal_global.65.12479
++ ___block_literal_global.650
++ ___block_literal_global.6635
++ ___block_literal_global.6723
++ ___block_literal_global.7071
++ ___block_literal_global.73.7681
++ ___block_literal_global.7708
++ ___block_literal_global.7921
++ ___block_literal_global.8570
++ ___block_literal_global.8891
++ ___block_literal_global.8963
++ ___block_literal_global.9.11380
++ ___block_literal_global.9.6626
++ ___block_literal_global.93.6356
++ ___block_literal_global.9593
++ _sharedInstance.onceToken.8890
+- GCC_except_table2036
+- GCC_except_table2086
+- GCC_except_table2091
+- GCC_except_table2094
+- GCC_except_table2097
+- GCC_except_table2232
+- GCC_except_table2315
+- GCC_except_table2354
+- GCC_except_table2386
+- GCC_except_table2391
+- GCC_except_table2394
+- GCC_except_table2397
+- GCC_except_table2400
+- GCC_except_table2403
+- GCC_except_table2406
+- GCC_except_table2409
+- GCC_except_table2412
+- GCC_except_table2415
+- GCC_except_table2418
+- GCC_except_table2421
+- GCC_except_table2443
+- GCC_except_table2468
+- GCC_except_table2471
+- GCC_except_table2476
+- GCC_except_table2479
+- GCC_except_table2482
+- GCC_except_table2485
+- GCC_except_table2489
+- GCC_except_table2493
+- GCC_except_table2497
+- GCC_except_table2500
+- GCC_except_table2502
+- GCC_except_table2506
+- GCC_except_table2510
+- GCC_except_table2514
+- GCC_except_table2518
+- GCC_except_table2522
+- GCC_except_table2526
+- GCC_except_table2530
+- GCC_except_table2534
+- GCC_except_table2538
+- GCC_except_table2541
+- GCC_except_table2545
+- GCC_except_table2549
+- GCC_except_table2553
+- GCC_except_table2557
+- GCC_except_table2561
+- GCC_except_table2565
+- GCC_except_table2569
+- GCC_except_table2573
+- GCC_except_table2577
+- GCC_except_table2580
+- GCC_except_table2582
+- GCC_except_table2585
+- GCC_except_table2587
+- GCC_except_table2590
+- GCC_except_table2593
+- GCC_except_table2595
+- GCC_except_table2598
+- GCC_except_table2600
+- GCC_except_table2603
+- GCC_except_table2606
+- GCC_except_table2609
+- GCC_except_table2612
+- GCC_except_table2615
+- GCC_except_table2618
+- GCC_except_table2621
+- GCC_except_table2624
+- GCC_except_table2627
+- GCC_except_table2630
+- GCC_except_table2633
+- GCC_except_table2636
+- GCC_except_table2639
+- GCC_except_table2641
+- GCC_except_table2758
+- GCC_except_table2761
+- GCC_except_table2817
+- GCC_except_table2870
+- GCC_except_table2881
+- GCC_except_table2883
+- GCC_except_table2887
+- GCC_except_table2889
+- GCC_except_table2909
+- GCC_except_table2915
+- GCC_except_table3061
+- GCC_except_table3063
+- GCC_except_table3065
+- GCC_except_table3069
+- GCC_except_table3074
+- GCC_except_table3077
+- GCC_except_table3080
+- GCC_except_table3083
+- GCC_except_table3086
+- GCC_except_table3167
+- GCC_except_table3356
+- GCC_except_table3366
+- GCC_except_table3371
+- GCC_except_table3375
+- GCC_except_table3382
+- GCC_except_table3434
+- GCC_except_table3437
+- GCC_except_table3444
+- GCC_except_table3450
+- GCC_except_table3454
+- GCC_except_table3458
+- GCC_except_table3462
+- GCC_except_table3466
+- GCC_except_table3485
+- GCC_except_table3488
+- GCC_except_table3497
+- GCC_except_table3510
+- GCC_except_table3528
+- GCC_except_table3536
+- GCC_except_table3538
+- GCC_except_table3543
+- GCC_except_table3547
+- GCC_except_table3553
+- GCC_except_table3558
+- GCC_except_table3561
+- GCC_except_table3564
+- GCC_except_table3568
+- GCC_except_table3571
+- GCC_except_table3577
+- GCC_except_table3580
+- GCC_except_table3583
+- GCC_except_table3587
+- GCC_except_table3590
+- GCC_except_table3593
+- GCC_except_table3596
+- GCC_except_table3599
+- GCC_except_table3603
+- GCC_except_table3607
+- GCC_except_table3620
+- GCC_except_table3623
+- GCC_except_table3666
+- GCC_except_table3683
+- GCC_except_table3687
+- GCC_except_table3689
+- GCC_except_table3691
+- GCC_except_table3694
+- GCC_except_table3703
+- GCC_except_table3716
+- GCC_except_table3721
+- GCC_except_table3728
+- GCC_except_table3733
+- _PLIsChinaSKU.isChinaSKU
+- _PLIsChinaSKU.onceToken
+- _PL_gKTXFileIdentifier.11502
+- ___Block_byref_object_copy_.11029
+- ___Block_byref_object_copy_.11570
+- ___Block_byref_object_copy_.11727
+- ___Block_byref_object_copy_.11779
+- ___Block_byref_object_copy_.11826
+- ___Block_byref_object_copy_.11880
+- ___Block_byref_object_copy_.12105
+- ___Block_byref_object_copy_.12793
+- ___Block_byref_object_copy_.12846
+- ___Block_byref_object_copy_.4869
+- ___Block_byref_object_copy_.5492
+- ___Block_byref_object_copy_.5757
+- ___Block_byref_object_copy_.6044
+- ___Block_byref_object_copy_.6375
+- ___Block_byref_object_copy_.6564
+- ___Block_byref_object_copy_.7063
+- ___Block_byref_object_copy_.7914
+- ___Block_byref_object_copy_.8959
+- ___Block_byref_object_dispose_.11030
+- ___Block_byref_object_dispose_.11571
+- ___Block_byref_object_dispose_.11728
+- ___Block_byref_object_dispose_.11780
+- ___Block_byref_object_dispose_.11827
+- ___Block_byref_object_dispose_.11881
+- ___Block_byref_object_dispose_.12106
+- ___Block_byref_object_dispose_.12794
+- ___Block_byref_object_dispose_.12847
+- ___Block_byref_object_dispose_.4870
+- ___Block_byref_object_dispose_.5493
+- ___Block_byref_object_dispose_.5758
+- ___Block_byref_object_dispose_.6045
+- ___Block_byref_object_dispose_.6376
+- ___Block_byref_object_dispose_.6565
+- ___Block_byref_object_dispose_.7064
+- ___Block_byref_object_dispose_.7915
+- ___Block_byref_object_dispose_.8960
+- ___PLIsChinaSKU_block_invoke
+- ___block_literal_global.10738
+- ___block_literal_global.11035
+- ___block_literal_global.11271
+- ___block_literal_global.11370
+- ___block_literal_global.11482
+- ___block_literal_global.11882
+- ___block_literal_global.12086
+- ___block_literal_global.12472
+- ___block_literal_global.126.6069
+- ___block_literal_global.144.6048
+- ___block_literal_global.148.6046
+- ___block_literal_global.16.6218
+- ___block_literal_global.164.11945
+- ___block_literal_global.188.6458
+- ___block_literal_global.192.6459
+- ___block_literal_global.2.6246
+- ___block_literal_global.20.6214
+- ___block_literal_global.201.6452
+- ___block_literal_global.24.6209
+- ___block_literal_global.24.8932
+- ___block_literal_global.27.11024
+- ___block_literal_global.27.6204
+- ___block_literal_global.30.6198
+- ___block_literal_global.4176
+- ___block_literal_global.42.6175
+- ___block_literal_global.48.6171
+- ___block_literal_global.5048
+- ___block_literal_global.539
+- ___block_literal_global.5703
+- ___block_literal_global.5751
+- ___block_literal_global.6.6622
+- ___block_literal_global.6257
+- ___block_literal_global.6370
+- ___block_literal_global.641
+- ___block_literal_global.6492
+- ___block_literal_global.65.12470
+- ___block_literal_global.6632
+- ___block_literal_global.6720
+- ___block_literal_global.7068
+- ___block_literal_global.73.7669
+- ___block_literal_global.7696
+- ___block_literal_global.7909
+- ___block_literal_global.8568
+- ___block_literal_global.8889
+- ___block_literal_global.8961
+- ___block_literal_global.9.11371
+- ___block_literal_global.9.6623
+- ___block_literal_global.93.6353
+- ___block_literal_global.9591
+- _sharedInstance.onceToken.8888
+Functions:
+~ _PLIsChinaSKU : 72 -> 68
+- ___PLIsChinaSKU_block_invoke
++ ___PLIsChinaDeviceWithBaseband_block_invoke
++ _PLDeviceSupportsASTC
+~ _PLDeviceSupportsEnhancedVisualSearch : 80 -> 28
+CStrings:
++ "CH"
++ "TA"
++ "ZA"
+
+```

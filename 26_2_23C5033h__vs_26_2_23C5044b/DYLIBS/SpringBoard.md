@@ -1,0 +1,789 @@
+## SpringBoard
+
+> `/System/Library/PrivateFrameworks/SpringBoard.framework/SpringBoard`
+
+```diff
+
+-4557.2.5.0.0
+-  __TEXT.__text: 0xa93878
++4557.2.6.103.0
++  __TEXT.__text: 0xa9ad84
+   __TEXT.__auth_stubs: 0x5580
+   __TEXT.__init_offsets: 0x4
+-  __TEXT.__objc_methlist: 0xb8290
+-  __TEXT.__const: 0x12f50
+-  __TEXT.__oslogstring: 0x5e5d8
+-  __TEXT.__cstring: 0x7d451
+-  __TEXT.__gcc_except_tab: 0x19690
++  __TEXT.__objc_methlist: 0xb86b8
++  __TEXT.__const: 0x12ed0
++  __TEXT.__oslogstring: 0x5e79d
++  __TEXT.__cstring: 0x7d712
++  __TEXT.__gcc_except_tab: 0x19b84
+   __TEXT.__ustring: 0xcce
+   __TEXT.__dlopen_cstrs: 0x313
+-  __TEXT.__unwind_info: 0x2c660
++  __TEXT.__unwind_info: 0x2c7e8
+   __TEXT.__eh_frame: 0xb8
+-  __TEXT.__objc_classname: 0x22216
+-  __TEXT.__objc_methname: 0x1d1799
+-  __TEXT.__objc_methtype: 0x4d143
+-  __TEXT.__objc_stubs: 0xf4fe0
+-  __DATA_CONST.__got: 0xa2e0
+-  __DATA_CONST.__const: 0x1cbe8
+-  __DATA_CONST.__objc_classlist: 0x5278
+-  __DATA_CONST.__objc_catlist: 0x368
++  __TEXT.__objc_classname: 0x222c9
++  __TEXT.__objc_methname: 0x1d258d
++  __TEXT.__objc_methtype: 0x4d430
++  __TEXT.__objc_stubs: 0xf5240
++  __DATA_CONST.__got: 0xa318
++  __DATA_CONST.__const: 0x1cc08
++  __DATA_CONST.__objc_classlist: 0x52a0
++  __DATA_CONST.__objc_catlist: 0x358
+   __DATA_CONST.__objc_nlcatlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x2928
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x4afd8
++  __DATA_CONST.__objc_selrefs: 0x4b0c8
+   __DATA_CONST.__objc_protorefs: 0xb0
+-  __DATA_CONST.__objc_superrefs: 0x3fa8
+-  __DATA_CONST.__objc_arraydata: 0x1868
++  __DATA_CONST.__objc_superrefs: 0x3fc0
++  __DATA_CONST.__objc_arraydata: 0x1870
+   __AUTH_CONST.__auth_got: 0x2ad8
+   __AUTH_CONST.__const: 0x10cb8
+-  __AUTH_CONST.__cfstring: 0x6f460
+-  __AUTH_CONST.__objc_const: 0x26b7f0
++  __AUTH_CONST.__cfstring: 0x6f6e0
++  __AUTH_CONST.__objc_const: 0x26c228
+   __AUTH_CONST.__objc_arrayobj: 0x1770
+-  __AUTH_CONST.__objc_doubleobj: 0x770
++  __AUTH_CONST.__objc_doubleobj: 0x790
+   __AUTH_CONST.__objc_intobj: 0x2cb8
+   __AUTH_CONST.__objc_dictobj: 0x320
+-  __AUTH.__objc_data: 0x10770
+-  __DATA.__objc_ivar: 0xf480
++  __AUTH.__objc_data: 0x10900
++  __DATA.__objc_ivar: 0xf544
+   __DATA.__data: 0x1f8b8
+   __DATA.__bss: 0xac0
+   __DATA.__common: 0xa40
+
+   - /System/Library/PrivateFrameworks/GeoServices.framework/GeoServices
+   - /System/Library/PrivateFrameworks/GraphicsServices.framework/GraphicsServices
+   - /System/Library/PrivateFrameworks/IAP.framework/IAP
+-  - /System/Library/PrivateFrameworks/IconRendering.framework/IconRendering
+   - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
+   - /System/Library/PrivateFrameworks/IdleTimerHosting.framework/IdleTimerHosting
+   - /System/Library/PrivateFrameworks/IdleTimerServices.framework/IdleTimerServices
+
+   - /usr/lib/libsp.dylib
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/libutil.dylib
+-  UUID: 628E7FC4-424F-39F3-B3B7-FC408BDD7022
+-  Functions: 70313
+-  Symbols:   237814
+-  CStrings:  104574
++  UUID: 480B2C56-70B8-3117-B918-24EE2D1FB89D
++  Functions: 70415
++  Symbols:   238129
++  CStrings:  104706
+ 
+Symbols:
++ +[SBDragAndDropWorkspaceTransaction prototypeSettingsLeftOrRightTilingActivationRegionWidthPercentage]
++ +[SBDragAndDropWorkspaceTransaction prototypeSettingsPaddingAboveDockToDisallowDropBoundsHeightPercentage]
++ +[SBDragAndDropWorkspaceTransaction prototypeSettingsSlideOverActivationRegionHeightPercentage]
++ +[SBDragAndDropWorkspaceTransaction prototypeSettingsSlideOverActivationRegionWidthPercentage]
++ +[SBSystemGesturesDomain domainGroupName]
++ +[SBSystemGesturesDomain domainName]
++ +[SBSystemGesturesDomain rootSettingsClass]
++ +[SBSystemGesturesDomain rootSettings]
++ +[SBSystemGesturesSettings settingsControllerModule]
++ -[SBAppPlatterDragPreview _setUpShadowViewsIfNecessary]
++ -[SBAppPlatterDragPreview _updateSlideOverTongueView]
++ -[SBAppPlatterDragPreview setSlideOverTongueView:]
++ -[SBAppPlatterDragPreview slideOverTongueView]
++ -[SBAppPlatterDragPreview updateWantsSlideOverTongue:state:direction:cornerRadius:animated:]
++ -[SBApplication isDefaultWebBrowser]
++ -[SBClearParentSceneBackreferenceSwitcherEventResponse .cxx_destruct]
++ -[SBClearParentSceneBackreferenceSwitcherEventResponse displayItems]
++ -[SBClearParentSceneBackreferenceSwitcherEventResponse initWithDisplayItems:]
++ -[SBClearParentSceneBackreferenceSwitcherEventResponse type]
++ -[SBContinuousExposeAppDragAndDropGestureSwitcherModifier _recomputeBlurStateWithCompletion:]
++ -[SBContinuousExposeAppDragAndDropGestureSwitcherModifier cornerRadiiForLayoutRole:inAppLayout:withCornerRadii:]
++ -[SBContinuousExposeAppDragAndDropGestureSwitcherModifier didMoveToParentModifier:]
++ -[SBContinuousExposeAppDragAndDropGestureSwitcherModifier frameForLayoutRole:inAppLayout:withBounds:]
++ -[SBContinuousExposeAppDragAndDropGestureSwitcherModifier frameForSlideOverTongueAppLayout]
++ -[SBContinuousExposeAppDragAndDropGestureSwitcherModifier frameForSplitViewHandleDimmingView:]
++ -[SBContinuousExposeAppDragAndDropGestureSwitcherModifier frameForSplitViewHandleNubView:]
++ -[SBContinuousExposeAppDragAndDropGestureSwitcherModifier handleBlurProgressEvent:]
++ -[SBContinuousExposeAppDragAndDropGestureSwitcherModifier handleResizeProgressEvent:]
++ -[SBContinuousExposeAppDragAndDropGestureSwitcherModifier handleSceneReadyEvent:]
++ -[SBContinuousExposeAppDragAndDropGestureSwitcherModifier isLayoutRoleBlurred:inAppLayout:]
++ -[SBContinuousExposeAppDragAndDropGestureSwitcherModifier occlusionStateForLayoutRole:inAppLayout:]
++ -[SBContinuousExposeAppDragAndDropGestureSwitcherModifier resizeProgressNotificationsForLayoutRole:inAppLayout:]
++ -[SBContinuousExposeAppDragAndDropGestureSwitcherModifier slideOverTongueDirection]
++ -[SBContinuousExposeAppDragAndDropGestureSwitcherModifier slideOverTongueState]
++ -[SBContinuousExposeAppDragAndDropGestureSwitcherModifier topMostLayoutElements]
++ -[SBContinuousExposeAppDragAndDropGestureSwitcherModifier visibleSplitViewHandleDimmingViews]
++ -[SBContinuousExposeAppDragAndDropGestureSwitcherModifier visibleSplitViewHandleNubViews]
++ -[SBContinuousExposeAppDragAndDropGestureSwitcherModifier wantsSlideOverTongue]
++ -[SBContinuousExposeDragAndDropToAppTransitionSwitcherModifier .cxx_destruct]
++ -[SBContinuousExposeDragAndDropToAppTransitionSwitcherModifier cornerRadiiForLayoutRole:inAppLayout:withCornerRadii:]
++ -[SBContinuousExposeDragAndDropToAppTransitionSwitcherModifier fadeInDelayForSplitViewHandles]
++ -[SBContinuousExposeDragAndDropToAppTransitionSwitcherModifier handleTransitionEvent:]
++ -[SBContinuousExposeDragAndDropToAppTransitionSwitcherModifier isLayoutRoleMatchMovedToScene:inAppLayout:]
++ -[SBContinuousExposeDragAndDropToAppTransitionSwitcherModifier opacityForLayoutRole:inAppLayout:atIndex:]
++ -[SBContinuousExposeDragAndDropToAppTransitionSwitcherModifier topMostLayoutElements]
++ -[SBCoverSheetPresentationManager coverSheetSlidingViewControllerIsUnlockCapabilityRestricted:]
++ -[SBCoverSheetSlidingViewController allowsDismissal]
++ -[SBCoverSheetSlidingViewController setAllowsDismissal:]
++ -[SBDashBoardWallpaperProvider takeInSwitcherAssertionWithReason:]
++ -[SBDeviceApplicationSceneHandle parentIdentifier]
++ -[SBDeviceApplicationSceneHandle setParentIdentifier:]
++ -[SBDockToStageZoomWindowingModifier _flexibleAutoLayoutSpaceForZoomingAppLayout]
++ -[SBDragAndDropGestureSwitcherModifierEvent hasPerformedDrop]
++ -[SBDragAndDropGestureSwitcherModifierEvent setPerformedDrop:]
++ -[SBDragAndDropWorkspaceTransaction _defaultMultitaskingLayoutAttributesForLayoutAttributes:]
++ -[SBDragAndDropWorkspaceTransaction _layoutAttributesForArrangingItemsGivenDropAction:]
++ -[SBDragAndDropWorkspaceTransaction _updateSlideOverTongueIfNeeded]
++ -[SBFluidSwitcherViewController _hasActiveDragAndDropTransaction]
++ -[SBFluidSwitcherViewController _performClearParentSceneBackreferenceResponse:]
++ -[SBFluidSwitcherViewController cornerRadiusForSlideOverTongueAppLayout]
++ -[SBHomeScreenController iconManagerAllowsWallpaperEditing:]
++ -[SBIconModel iconForOSMigrationHomeScreenLeafItem:].cold.1
++ -[SBInCallPresentationSession _systemControlsShouldPresentAsEmbeddedForPresentationMode:]
++ -[SBMainDisplayLayoutStateManager _calculateCascadeBoundsForAppLayout:interfaceOrientation:switcherController:windowManagementContext:constrainingBounds:statusBarHeight:]
++ -[SBMainDisplayLayoutStateManager _calculateCascadeTranslationForConstrainingBounds:statusBarHeight:]
++ -[SBMainDisplayLayoutStateManager _cascadedFrameByTranslatingElement:cascadeFromFrame:appLayout:interfaceOrientation:windowScene:displayItemLayoutAttributesCalculator:constrainingBounds:translation:]
++ -[SBMainDisplayLayoutStateManager _cascadedFrameForCascadingElement:cascadeFromFrame:appLayout:interfaceOrientation:windowScene:displayItemLayoutAttributesCalculator:constrainingBounds:statusBarHeight:]
++ -[SBMainDisplayLayoutStateManager _layoutStateByPerformingChainCascadeForElements:elementIdentifiersToLayoutAttributes:layoutState:displayItemLayoutAttributesCalculator:previousLayoutState:switcherController:windowManagementContext:request:displayItemsNeedingPositionSnapping:]
++ -[SBMainDisplayLayoutStateManager _mostRecentAppLayoutForBundleIdentifier:ignoringUniqueIdentifiers:multitaskingSupported:]
++ -[SBMainDisplayLayoutStateManager _mostRecentAppLayoutMatchingAnyUniqueIdentifier:multitaskingSupported:]
++ -[SBMainDisplayPolicyAggregator _allowsCapabilityWallpaperEditingWithExplanation:]
++ -[SBMainDisplaySystemGestureManager _setSystemGesturesDisabled:]
++ -[SBMainDisplaySystemGestureManager setSystemGesturesSettings:]
++ -[SBMainDisplaySystemGestureManager settings:changedValueForKey:]
++ -[SBMainDisplaySystemGestureManager systemGesturesSettings]
++ -[SBMainSwitcherControllerCoordinator genieGlassHighlightForSwitcherContentController:]
++ -[SBMainSwitcherControllerCoordinator switcherContentController:removeParentChildSceneRelationshipsForChildren:]
++ -[SBMedusaSettings draggingPlatterSlideOverActivationRegionBoundsHeightPercentage]
++ -[SBMedusaSettings draggingPlatterSlideOverActivationRegionBoundsWidthPercentage]
++ -[SBMedusaSettings draggingPlatterTileLeftOrRightActivationRegionBoundsWidthPercentage]
++ -[SBMedusaSettings paddingAboveDockToDisallowDropBoundsHeightPercentage]
++ -[SBMedusaSettings setDraggingPlatterSlideOverActivationRegionBoundsHeightPercentage:]
++ -[SBMedusaSettings setDraggingPlatterSlideOverActivationRegionBoundsWidthPercentage:]
++ -[SBMedusaSettings setDraggingPlatterTileLeftOrRightActivationRegionBoundsWidthPercentage:]
++ -[SBMedusaSettings setPaddingAboveDockToDisallowDropBoundsHeightPercentage:]
++ -[SBMinimizeItemFromSplitResizeWindowingModifier .cxx_destruct]
++ -[SBMinimizeItemFromSplitResizeWindowingModifier animationAttributesForItem:]
++ -[SBMinimizeItemFromSplitResizeWindowingModifier cornerRadiiForLayoutRole:inAppLayout:withCornerRadii:]
++ -[SBMinimizeItemFromSplitResizeWindowingModifier frameForItem:]
++ -[SBMinimizeItemFromSplitResizeWindowingModifier frameForLayoutRole:inAppLayout:withBounds:]
++ -[SBMinimizeItemFromSplitResizeWindowingModifier frameForSplitViewHandleNubView:]
++ -[SBMinimizeItemFromSplitResizeWindowingModifier initWithDismissalDirection:autoLayoutSpaceBeforePairResize:initialScreenFrameForMinimizingItem:leftItem:rightItem:displacementForMinimizingItem:]
++ -[SBMinimizeItemFromSplitResizeWindowingModifier isLayoutRoleMatchMovedToScene:inAppLayout:]
++ -[SBMinimizeItemFromSplitResizeWindowingModifier maskedCornersForLayoutRole:inAppLayout:withMaskedCorners:]
++ -[SBMinimizeItemFromSplitResizeWindowingModifier opacityForLayoutRole:inAppLayout:atIndex:]
++ -[SBMinimizeItemFromSplitResizeWindowingModifier shouldInterruptForActivity:]
++ -[SBMinimizeItemFromSplitResizeWindowingModifier shouldUseAnchorPointToPinLayoutRolesToSpace:]
++ -[SBMinimizeItemFromSplitResizeWindowingModifier titleStyleForItem:]
++ -[SBMinimizeItemFromSplitResizeWindowingModifier transitionDidComplete:]
++ -[SBMinimizeItemFromSplitResizeWindowingModifier transitionWillBegin:]
++ -[SBMinimizeItemFromSplitResizeWindowingModifier visibleSplitViewHandleNubViews]
++ -[SBPinDesktopSpaceDisplayItemsSwitcherModifier opacityForLayoutRole:inAppLayout:atIndex:]
++ -[SBRecentAppLayouts _transitionContextRepresentsAmbiguousLaunch:forApplicationSceneEntity:switcherController:outEntities:]
++ -[SBSplitResizeWindowingModifier _displacementForItemToMinimizeUponRelease]
++ -[SBSplitResizeWindowingModifier animationAttributesForItem:]
++ -[SBSplitResizeWindowingModifier opacityForLayoutRole:inAppLayout:atIndex:]
++ -[SBSplitResizeWindowingModifier visibleSplitViewHandleDimmingViews]
++ -[SBSplitResizeWindowingModifier willBegin]
++ -[SBSwitcherController genieGlassHighlightForSwitcherContentController:]
++ -[SBSystemGesturesSettings disableSystemGestures]
++ -[SBSystemGesturesSettings setDefaultValues]
++ -[SBSystemGesturesSettings setDisableSystemGestures:]
++ -[SBTraitsSceneParticipantDelegate isOrientationActuationAnimatable].99
++ -[SBWallpaperController takeInSwitcherAssertionWithReason:]
++ GCC_except_table217
++ GCC_except_table223
++ GCC_except_table261
++ GCC_except_table273
++ GCC_except_table291
++ GCC_except_table323
++ GCC_except_table341
++ GCC_except_table350
++ GCC_except_table396
++ GCC_except_table405
++ GCC_except_table419
++ GCC_except_table473
++ GCC_except_table499
++ GCC_except_table501
++ GCC_except_table522
++ GCC_except_table524
++ GCC_except_table529
++ GCC_except_table531
++ GCC_except_table535
++ GCC_except_table547
++ GCC_except_table551
++ GCC_except_table557
++ GCC_except_table561
++ GCC_except_table586
++ GCC_except_table632
++ GCC_except_table667
++ GCC_except_table740
++ GCC_except_table764
++ GCC_except_table767
++ GCC_except_table808
++ GCC_except_table848
++ GCC_except_table889
++ GCC_except_table900
++ GCC_except_table946
++ _OBJC_CLASS_$_BSBuildVersion
++ _OBJC_CLASS_$_SBClearParentSceneBackreferenceSwitcherEventResponse
++ _OBJC_CLASS_$_SBHLightSourceManager
++ _OBJC_CLASS_$_SBIconOSMigrationMissingAppIcon
++ _OBJC_CLASS_$_SBMinimizeItemFromSplitResizeWindowingModifier
++ _OBJC_CLASS_$_SBSystemGesturesDomain
++ _OBJC_CLASS_$_SBSystemGesturesSettings
++ _OBJC_IVAR_$_SBAppPlatterDragPreview._slideOverTongueView
++ _OBJC_IVAR_$_SBClearParentSceneBackreferenceSwitcherEventResponse._displayItems
++ _OBJC_IVAR_$_SBContinuousExposeAppDragAndDropGestureSwitcherModifier._currentDisplayItemToReplace
++ _OBJC_IVAR_$_SBContinuousExposeAppDragAndDropGestureSwitcherModifier._displayItemThatWouldBeEvictedIfAnyBasedOnZOrder
++ _OBJC_IVAR_$_SBContinuousExposeAppDragAndDropGestureSwitcherModifier._framesForSplitViewHandleDimmingViews
++ _OBJC_IVAR_$_SBContinuousExposeAppDragAndDropGestureSwitcherModifier._framesForSplitViewHandleNubViews
++ _OBJC_IVAR_$_SBContinuousExposeAppDragAndDropGestureSwitcherModifier._fullStageDisplayItem
++ _OBJC_IVAR_$_SBContinuousExposeAppDragAndDropGestureSwitcherModifier._hasResizedEnoughToUnblur
++ _OBJC_IVAR_$_SBContinuousExposeAppDragAndDropGestureSwitcherModifier._initialAppLayoutContainsDraggingItem
++ _OBJC_IVAR_$_SBContinuousExposeAppDragAndDropGestureSwitcherModifier._initialAutoLayoutSpace
++ _OBJC_IVAR_$_SBContinuousExposeAppDragAndDropGestureSwitcherModifier._initialLayoutAttributesMap
++ _OBJC_IVAR_$_SBContinuousExposeAppDragAndDropGestureSwitcherModifier._initialSlideOverItem
++ _OBJC_IVAR_$_SBContinuousExposeAppDragAndDropGestureSwitcherModifier._initialSlideOverItemOnStage
++ _OBJC_IVAR_$_SBContinuousExposeAppDragAndDropGestureSwitcherModifier._initialVisibleSplitViewDimmings
++ _OBJC_IVAR_$_SBContinuousExposeAppDragAndDropGestureSwitcherModifier._initialVisibleSplitViewNubs
++ _OBJC_IVAR_$_SBContinuousExposeAppDragAndDropGestureSwitcherModifier._isActivatingSlideOver
++ _OBJC_IVAR_$_SBContinuousExposeAppDragAndDropGestureSwitcherModifier._isBlurred
++ _OBJC_IVAR_$_SBContinuousExposeAppDragAndDropGestureSwitcherModifier._isResizing
++ _OBJC_IVAR_$_SBContinuousExposeAppDragAndDropGestureSwitcherModifier._minimizingAppLayout
++ _OBJC_IVAR_$_SBContinuousExposeAppDragAndDropGestureSwitcherModifier._needsBlurBecauseFramesWillMismatch
++ _OBJC_IVAR_$_SBContinuousExposeAppDragAndDropGestureSwitcherModifier._performedDrop
++ _OBJC_IVAR_$_SBContinuousExposeDragAndDropToAppTransitionSwitcherModifier._minimizingAppLayout
++ _OBJC_IVAR_$_SBCoverSheetSlidingViewController._allowsDismissal
++ _OBJC_IVAR_$_SBDeviceApplicationSceneHandle._parentIdentifier
++ _OBJC_IVAR_$_SBDragAndDropGestureSwitcherModifierEvent._performedDrop
++ _OBJC_IVAR_$_SBDragAndDropWorkspaceTransaction._currentlyOverExistingSlideOverItem
++ _OBJC_IVAR_$_SBDragAndDropWorkspaceTransaction._draggingDisplayItem
++ _OBJC_IVAR_$_SBDragAndDropWorkspaceTransaction._draggingItemWasInitiallyFullscreen
++ _OBJC_IVAR_$_SBDragAndDropWorkspaceTransaction._inDesignatedSlideOverDropZone
++ _OBJC_IVAR_$_SBDragAndDropWorkspaceTransaction._initialAutoLayoutSpace
++ _OBJC_IVAR_$_SBDragAndDropWorkspaceTransaction._initialDisplayItemLayoutAttributes
++ _OBJC_IVAR_$_SBDragAndDropWorkspaceTransaction._initialSlideOverDisplayItem
++ _OBJC_IVAR_$_SBMainDisplaySystemGestureManager._systemGesturesSettings
++ _OBJC_IVAR_$_SBMedusaSettings._draggingPlatterSlideOverActivationRegionBoundsHeightPercentage
++ _OBJC_IVAR_$_SBMedusaSettings._draggingPlatterSlideOverActivationRegionBoundsWidthPercentage
++ _OBJC_IVAR_$_SBMedusaSettings._draggingPlatterTileLeftOrRightActivationRegionBoundsWidthPercentage
++ _OBJC_IVAR_$_SBMedusaSettings._paddingAboveDockToDisallowDropBoundsHeightPercentage
++ _OBJC_IVAR_$_SBMinimizeItemFromSplitResizeWindowingModifier._autoLayoutSpaceBeforePairResize
++ _OBJC_IVAR_$_SBMinimizeItemFromSplitResizeWindowingModifier._dismissalDirection
++ _OBJC_IVAR_$_SBMinimizeItemFromSplitResizeWindowingModifier._displacementForMinimizingItem
++ _OBJC_IVAR_$_SBMinimizeItemFromSplitResizeWindowingModifier._evictedAppLayout
++ _OBJC_IVAR_$_SBMinimizeItemFromSplitResizeWindowingModifier._evictedDisplayItem
++ _OBJC_IVAR_$_SBMinimizeItemFromSplitResizeWindowingModifier._fromAppLayout
++ _OBJC_IVAR_$_SBMinimizeItemFromSplitResizeWindowingModifier._initialScreenFrameForMinimizingItem
++ _OBJC_IVAR_$_SBMinimizeItemFromSplitResizeWindowingModifier._leftItem
++ _OBJC_IVAR_$_SBMinimizeItemFromSplitResizeWindowingModifier._rightItem
++ _OBJC_IVAR_$_SBMinimizeItemFromSplitResizeWindowingModifier._transitionID
++ _OBJC_IVAR_$_SBSplitResizeWindowingModifier._allowsMinimizing
++ _OBJC_IVAR_$_SBSplitResizeWindowingModifier._initialAutoLayoutSpace
++ _OBJC_IVAR_$_SBSplitResizeWindowingModifier._itemToMinimizeUponRelease
++ _OBJC_IVAR_$_SBSplitResizeWindowingModifier._leftDisplayItem
++ _OBJC_IVAR_$_SBSplitResizeWindowingModifier._progressToMaxDisplacement
++ _OBJC_IVAR_$_SBSplitResizeWindowingModifier._rightDisplayItem
++ _OBJC_IVAR_$_SBSystemGesturesSettings._disableSystemGestures
++ _OBJC_METACLASS_$_SBClearParentSceneBackreferenceSwitcherEventResponse
++ _OBJC_METACLASS_$_SBIconOSMigrationMissingAppIcon
++ _OBJC_METACLASS_$_SBMinimizeItemFromSplitResizeWindowingModifier
++ _OBJC_METACLASS_$_SBSystemGesturesDomain
++ _OBJC_METACLASS_$_SBSystemGesturesSettings
++ _SBSceneDataKeyParentBackreference
++ _SBSlideOverMargin
++ __OBJC_$_CLASS_METHODS_SBSystemGesturesDomain
++ __OBJC_$_CLASS_METHODS_SBSystemGesturesSettings
++ __OBJC_$_INSTANCE_METHODS_SBClearParentSceneBackreferenceSwitcherEventResponse
++ __OBJC_$_INSTANCE_METHODS_SBMinimizeItemFromSplitResizeWindowingModifier
++ __OBJC_$_INSTANCE_METHODS_SBSystemGesturesSettings
++ __OBJC_$_INSTANCE_VARIABLES_SBClearParentSceneBackreferenceSwitcherEventResponse
++ __OBJC_$_INSTANCE_VARIABLES_SBContinuousExposeDragAndDropToAppTransitionSwitcherModifier
++ __OBJC_$_INSTANCE_VARIABLES_SBMinimizeItemFromSplitResizeWindowingModifier
++ __OBJC_$_INSTANCE_VARIABLES_SBSystemGesturesSettings
++ __OBJC_$_PROP_LIST_SBClearParentSceneBackreferenceSwitcherEventResponse
++ __OBJC_$_PROP_LIST_SBSystemGesturesSettings
++ __OBJC_CLASS_RO_$_SBClearParentSceneBackreferenceSwitcherEventResponse
++ __OBJC_CLASS_RO_$_SBIconOSMigrationMissingAppIcon
++ __OBJC_CLASS_RO_$_SBMinimizeItemFromSplitResizeWindowingModifier
++ __OBJC_CLASS_RO_$_SBSystemGesturesDomain
++ __OBJC_CLASS_RO_$_SBSystemGesturesSettings
++ __OBJC_METACLASS_RO_$_SBClearParentSceneBackreferenceSwitcherEventResponse
++ __OBJC_METACLASS_RO_$_SBIconOSMigrationMissingAppIcon
++ __OBJC_METACLASS_RO_$_SBMinimizeItemFromSplitResizeWindowingModifier
++ __OBJC_METACLASS_RO_$_SBSystemGesturesDomain
++ __OBJC_METACLASS_RO_$_SBSystemGesturesSettings
++ ___101-[SBInCallPresentationSession dismissAndFinalizeSceneDestructionAnimated:analyticsSource:completion:]_block_invoke.188
++ ___110-[SBInCallPresentationSession _updateVisibilityInSwitcherForPrefersHiddenWhenDismissedIfNeededForLayoutState:]_block_invoke.247
++ ___113-[SBFluidSwitcherViewController initWithPersonality:liveContentOverlayCoordinator:dataSource:delegate:debugName:]_block_invoke.207
++ ___121-[SBInCallPresentationSession _performSwitcherDismissalTransitionAnimated:shouldDestroyScene:analyticsSource:completion:]_block_invoke.173
++ ___121-[SBInCallPresentationSession _performSwitcherDismissalTransitionAnimated:shouldDestroyScene:analyticsSource:completion:]_block_invoke_2.174
++ ___123-[SBRecentAppLayouts _transitionContextRepresentsAmbiguousLaunch:forApplicationSceneEntity:switcherController:outEntities:]_block_invoke
++ ___129-[SBHomeScreenService swapApplicationIconsInProminentPositionsWithBundleIdentifier:withApplicationIconsWithWithBundleIdentifier:]_block_invoke
++ ___129-[SBHomeScreenService swapApplicationIconsInProminentPositionsWithBundleIdentifier:withApplicationIconsWithWithBundleIdentifier:]_block_invoke.172
++ ___129-[SBHomeScreenService swapApplicationIconsInProminentPositionsWithBundleIdentifier:withApplicationIconsWithWithBundleIdentifier:]_block_invoke_2
++ ___133-[SBInCallPresentationSession _performPresentationWithRequestedPresentationMode:isUserInitiated:animated:analyticsSource:completion:]_block_invoke.181
++ ___53-[SBSplitResizeWindowingModifier gestureDidComplete:]_block_invoke
++ ___54-[SBWallpaperController updatePosterSwitcherSnapshots]_block_invoke.295
++ ___54-[SBWallpaperController updatePosterSwitcherSnapshots]_block_invoke.295.cold.1
++ ___54-[SBWallpaperController updatePosterSwitcherSnapshots]_block_invoke.299
++ ___54-[SBWallpaperController updatePosterSwitcherSnapshots]_block_invoke.300
++ ___54-[SBWallpaperController updatePosterSwitcherSnapshots]_block_invoke.300.cold.1
++ ___54-[SBWallpaperController updatePosterSwitcherSnapshots]_block_invoke.303
++ ___54-[SBWallpaperController updatePosterSwitcherSnapshots]_block_invoke.303.cold.1
++ ___68-[SBSplitResizeWindowingModifier visibleSplitViewHandleDimmingViews]_block_invoke
++ ___70-[SBContinuousExposeWindowDropSwitcherModifier handleTransitionEvent:]_block_invoke_3
++ ___70-[SBContinuousExposeWindowDropSwitcherModifier handleTransitionEvent:]_block_invoke_4
++ ___70-[SBMinimizeItemFromSplitResizeWindowingModifier transitionWillBegin:]_block_invoke
++ ___73-[SBInCallPresentationSession _performSceneUpdateTransactionWithContext:]_block_invoke.221
++ ___73-[SBInCallPresentationSession _performSceneUpdateTransactionWithContext:]_block_invoke_2.222
++ ___78-[SBContinuousExposeAppDragAndDropGestureSwitcherModifier handleGestureEvent:]_block_invoke
++ ___79-[SBMainDisplayLayoutStateManager _layoutStateForApplicationTransitionContext:]_block_invoke.128
++ ___79-[SBMainDisplayLayoutStateManager _layoutStateForApplicationTransitionContext:]_block_invoke.31
++ ___79-[SBMainDisplayLayoutStateManager _layoutStateForApplicationTransitionContext:]_block_invoke_2.130
++ ___79-[SBMainDisplayLayoutStateManager _layoutStateForApplicationTransitionContext:]_block_invoke_2.37
++ ___79-[SBMainDisplayLayoutStateManager _layoutStateForApplicationTransitionContext:]_block_invoke_3.61
++ ___79-[SBMainDisplayLayoutStateManager _layoutStateForApplicationTransitionContext:]_block_invoke_4.64
++ ___79-[SBMainDisplayLayoutStateManager _layoutStateForApplicationTransitionContext:]_block_invoke_5.68
++ ___80-[SBContinuousExposeAppDragAndDropGestureSwitcherModifier topMostLayoutElements]_block_invoke
++ ___80-[SBContinuousExposeAppDragAndDropGestureSwitcherModifier topMostLayoutElements]_block_invoke_2
++ ___81-[SBContinuousExposeAppDragAndDropGestureSwitcherModifier handleSceneReadyEvent:]_block_invoke
++ ___81-[SBContinuousExposeAppDragAndDropGestureSwitcherModifier handleTransitionEvent:]_block_invoke
++ ___83-[SBContinuousExposeAppDragAndDropGestureSwitcherModifier handleBlurProgressEvent:]_block_invoke
++ ___83-[SBContinuousExposeRootSwitcherModifier transitionModifierForMainTransitionEvent:]_block_invoke_8
++ ___83-[SBContinuousExposeRootSwitcherModifier transitionModifierForMainTransitionEvent:]_block_invoke_9
++ ___85-[SBContinuousExposeAppDragAndDropGestureSwitcherModifier handleResizeProgressEvent:]_block_invoke
++ ___86-[SBContinuousExposeDragAndDropToAppTransitionSwitcherModifier handleTransitionEvent:]_block_invoke
++ ___87-[SBDragAndDropWorkspaceTransaction _layoutAttributesForArrangingItemsGivenDropAction:]_block_invoke
++ ___89-[SBContinuousExposeAppDragAndDropGestureSwitcherModifier visibleSplitViewHandleNubViews]_block_invoke
++ ___93-[SBBannerManager _acquireGestureRecognizerPriorityAssertionWithPriority:windowScene:reason:]_block_invoke.229
++ ___93-[SBBannerManager _acquireGestureRecognizerPriorityAssertionWithPriority:windowScene:reason:]_block_invoke_2.230
++ ___93-[SBContinuousExposeAppDragAndDropGestureSwitcherModifier _recomputeBlurStateWithCompletion:]_block_invoke
++ ___93-[SBContinuousExposeAppDragAndDropGestureSwitcherModifier visibleSplitViewHandleDimmingViews]_block_invoke
++ ___95-[SBDragAndDropWorkspaceTransaction _platterSizeForDropAction:proposedDropLayoutState:setDown:]_block_invoke
++ ___99-[SBContinuousExposeAppDragAndDropGestureSwitcherModifier occlusionStateForLayoutRole:inAppLayout:]_block_invoke
++ ___block_descriptor_129_e8_32s40s48s56s_e23_B16?0"SBDisplayItem"8ls32l8s40l8s48l8s56l8
++ ___block_descriptor_185_e8_32s40s48s56s64s_e5_v8?0ls32l8s40l8s48l8s56l8s64l8
++ ___block_descriptor_48_e8_32s_e33_v16?0"FBSMutableSceneSettings"8ls32l8
++ ___block_descriptor_56_e8_32s40s_e11_v16?0B8B12ls32l8s40l8
++ ___block_descriptor_64_e8_32s40s48s56r_e24_v16?0"NSNotification"8lr56l8s32l8s40l8s48l8
++ ___block_descriptor_88_e8_32s40s48s_e23_B16?0"SBDisplayItem"8ls32l8s40l8s48l8
++ ___block_literal_global.180
++ ___block_literal_global.219
++ ___block_literal_global.269
++ ___block_literal_global.294
++ ___block_literal_global.302
++ ___block_literal_global.305
++ ___block_literal_global.570
++ ___block_literal_global.575
++ ___block_literal_global.579
++ _objc_msgSend$_allowsCapabilityWallpaperEditingWithExplanation:
++ _objc_msgSend$_calculateCascadeBoundsForAppLayout:interfaceOrientation:switcherController:windowManagementContext:constrainingBounds:statusBarHeight:
++ _objc_msgSend$_calculateCascadeTranslationForConstrainingBounds:statusBarHeight:
++ _objc_msgSend$_cascadedFrameByTranslatingElement:cascadeFromFrame:appLayout:interfaceOrientation:windowScene:displayItemLayoutAttributesCalculator:constrainingBounds:translation:
++ _objc_msgSend$_cascadedFrameForCascadingElement:cascadeFromFrame:appLayout:interfaceOrientation:windowScene:displayItemLayoutAttributesCalculator:constrainingBounds:statusBarHeight:
++ _objc_msgSend$_defaultMultitaskingLayoutAttributesForLayoutAttributes:
++ _objc_msgSend$_displacementForItemToMinimizeUponRelease
++ _objc_msgSend$_hasActiveDragAndDropTransaction
++ _objc_msgSend$_layoutAttributesForArrangingItemsGivenDropAction:
++ _objc_msgSend$_layoutStateByPerformingChainCascadeForElements:elementIdentifiersToLayoutAttributes:layoutState:displayItemLayoutAttributesCalculator:previousLayoutState:switcherController:windowManagementContext:request:displayItemsNeedingPositionSnapping:
++ _objc_msgSend$_mostRecentAppLayoutForBundleIdentifier:ignoringUniqueIdentifiers:multitaskingSupported:
++ _objc_msgSend$_mostRecentAppLayoutMatchingAnyUniqueIdentifier:multitaskingSupported:
++ _objc_msgSend$_performClearParentSceneBackreferenceResponse:
++ _objc_msgSend$_setSystemGesturesDisabled:
++ _objc_msgSend$_setUpShadowViewsIfNecessary
++ _objc_msgSend$_systemControlsShouldPresentAsEmbeddedForPresentationMode:
++ _objc_msgSend$_transitionContextRepresentsAmbiguousLaunch:forApplicationSceneEntity:switcherController:outEntities:
++ _objc_msgSend$_updateSlideOverTongueIfNeeded
++ _objc_msgSend$_updateSlideOverTongueView
++ _objc_msgSend$allowsDismissal
++ _objc_msgSend$coverSheetSlidingViewControllerIsUnlockCapabilityRestricted:
++ _objc_msgSend$defaultApplicationForCategory:error:
++ _objc_msgSend$disableSystemGestures
++ _objc_msgSend$draggingPlatterSlideOverActivationRegionBoundsHeightPercentage
++ _objc_msgSend$draggingPlatterSlideOverActivationRegionBoundsWidthPercentage
++ _objc_msgSend$draggingPlatterTileLeftOrRightActivationRegionBoundsWidthPercentage
++ _objc_msgSend$effectiveUIRequiresFullScreenValue
++ _objc_msgSend$genieGlassHighlightForSwitcherContentController:
++ _objc_msgSend$hasPerformedDrop
++ _objc_msgSend$initWithDismissalDirection:autoLayoutSpaceBeforePairResize:initialScreenFrameForMinimizingItem:leftItem:rightItem:displacementForMinimizingItem:
++ _objc_msgSend$initWithLeafIdentifier:applicationBundleID:
++ _objc_msgSend$isAfter:withPrecision:
++ _objc_msgSend$isDefaultWebBrowser
++ _objc_msgSend$lastLightDirection
++ _objc_msgSend$lastLightIntensity
++ _objc_msgSend$paddingAboveDockToDisallowDropBoundsHeightPercentage
++ _objc_msgSend$parentIdentifier
++ _objc_msgSend$prototypeSettingsLeftOrRightTilingActivationRegionWidthPercentage
++ _objc_msgSend$prototypeSettingsPaddingAboveDockToDisallowDropBoundsHeightPercentage
++ _objc_msgSend$prototypeSettingsSlideOverActivationRegionHeightPercentage
++ _objc_msgSend$prototypeSettingsSlideOverActivationRegionWidthPercentage
++ _objc_msgSend$setAllowsDismissal:
++ _objc_msgSend$setDisableSystemGestures:
++ _objc_msgSend$setDraggingPlatterSlideOverActivationRegionBoundsHeightPercentage:
++ _objc_msgSend$setDraggingPlatterSlideOverActivationRegionBoundsWidthPercentage:
++ _objc_msgSend$setDraggingPlatterTileLeftOrRightActivationRegionBoundsWidthPercentage:
++ _objc_msgSend$setPaddingAboveDockToDisallowDropBoundsHeightPercentage:
++ _objc_msgSend$setParentIdentifier:
++ _objc_msgSend$setPerformedDrop:
++ _objc_msgSend$switcherContentController:removeParentChildSceneRelationshipsForChildren:
++ _objc_msgSend$takeInSwitcherAssertionWithReason:
++ _objc_msgSend$updateWantsSlideOverTongue:state:direction:cornerRadius:animated:
+- -[CALayer(IsIconLayer) isICRIconLayer]
+- -[ICRIconLayer(IsIconLayer) isICRIconLayer]
+- -[SBContinuousExposeAppDragAndDropGestureSwitcherModifier backgroundOpacityForIndex:]
+- -[SBContinuousExposeAppDragAndDropGestureSwitcherModifier cornerRadiiForIndex:]
+- -[SBContinuousExposeAppDragAndDropGestureSwitcherModifier frameForIndex:]
+- -[SBContinuousExposeAppDragAndDropGestureSwitcherModifier isResizeGrabberVisibleForAppLayout:]
+- -[SBContinuousExposeAppDragAndDropGestureSwitcherModifier topMostLayoutRolesForAppLayout:]
+- -[SBCoverSheetPositionView ignoringPositionChanges]
+- -[SBCoverSheetPositionView resetContentScalingAnimated:]
+- -[SBCoverSheetPositionView resumePositionBasedScaling]
+- -[SBCoverSheetPositionView setIgnoringPositionChanges:]
+- -[SBCoverSheetPresentationManager reenableCoverSheetScalingForPositioning]
+- -[SBCoverSheetSlidingViewController _resetScalingForTransitionIfNeeded]
+- -[SBCoverSheetSlidingViewController resumePositionBasedScaling]
+- -[SBDragAndDropWorkspaceTransaction _commitRecencyModelUpdateForDropContext:]
+- -[SBDragAndDropWorkspaceTransaction _cornerRadiusForSwitcherDragContext:setDown:sourceViewScale:]
+- -[SBDragAndDropWorkspaceTransaction _layoutRoleForDropAction:]
+- -[SBDragAndDropWorkspaceTransaction _noteSwitcherDropAnimationCompletedIfNeededWithContext:]
+- -[SBDragAndDropWorkspaceTransaction _platterScaleForSwitcherDropContext:]
+- -[SBDragAndDropWorkspaceTransaction _platterSizeForSwitcherDropContext:setDown:]
+- -[SBDragAndDropWorkspaceTransaction _shouldFailLayoutStateTransitionForWindowDrag]
+- -[SBDragAndDropWorkspaceTransaction _updatePlatterPreviewWithUpdatedSourceView].cold.2
+- -[SBFluidSwitcherViewController _icrIconLayerIfAnyInLayer:]
+- -[SBInCallPresentationSession _systemControlsShouldPresentAsEmbeddedForLayoutState:]
+- -[SBMainDisplayLayoutStateManager _mostRecentAppLayoutForBundleIdentifier:ignoringUniqueIdentifiers:inMedusaOnStageManagerCapableDevice:multitaskingSupported:]
+- -[SBMainDisplayLayoutStateManager _mostRecentAppLayoutMatchingAnyUniqueIdentifier:inMedusaOnStageManagerCapableDevice:multitaskingSupported:]
+- -[SBRecentAppLayouts _transitionContextRepresentsAmbiguousLaunch:forApplicationSceneEntity:]
+- -[SBSplitResizeWindowingModifier _appLayoutContainsFullScreenDisplayItem:]
+- -[SBSplitResizeWindowingModifier animationAttributesForLayoutElement:]
+- -[SBTraitsSceneParticipantDelegate isOrientationActuationAnimatable].95
+- GCC_except_table307
+- GCC_except_table321
+- GCC_except_table343
+- GCC_except_table349
+- GCC_except_table384
+- GCC_except_table399
+- GCC_except_table403
+- GCC_except_table417
+- GCC_except_table483
+- GCC_except_table517
+- GCC_except_table525
+- GCC_except_table530
+- GCC_except_table532
+- GCC_except_table534
+- GCC_except_table549
+- GCC_except_table553
+- GCC_except_table559
+- GCC_except_table563
+- GCC_except_table588
+- GCC_except_table634
+- GCC_except_table669
+- GCC_except_table742
+- GCC_except_table766
+- GCC_except_table769
+- GCC_except_table810
+- GCC_except_table852
+- GCC_except_table891
+- GCC_except_table901
+- GCC_except_table947
+- GCC_except_table96
+- _OBJC_CLASS_$_ICRIconLayer
+- _OBJC_IVAR_$_SBContinuousExposeAppDragAndDropGestureSwitcherModifier._displayItemThatWouldBeEvictedIfAny
+- _OBJC_IVAR_$_SBCoverSheetPositionView._ignoringPositionChanges
+- _OBJC_IVAR_$_SBDragAndDropWorkspaceTransaction._currentSwitcherDropRegionContext
+- _OBJC_IVAR_$_SBDragAndDropWorkspaceTransaction._needsSwitcherDropAnimationCompletedNotification
+- _OBJC_IVAR_$_SBStripLayoutWindowingModifier._appLayoutsPerformingInitialLayout
+- __OBJC_$_CATEGORY_CALayer_$_IsIconLayer
+- __OBJC_$_CATEGORY_ICRIconLayer_$_IsIconLayer
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_CALayer_$_IsIconLayer
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_ICRIconLayer_$_IsIconLayer
+- ___101-[SBInCallPresentationSession dismissAndFinalizeSceneDestructionAnimated:analyticsSource:completion:]_block_invoke.189
+- ___110-[SBInCallPresentationSession _updateVisibilityInSwitcherForPrefersHiddenWhenDismissedIfNeededForLayoutState:]_block_invoke.248
+- ___113-[SBFluidSwitcherViewController initWithPersonality:liveContentOverlayCoordinator:dataSource:delegate:debugName:]_block_invoke.210
+- ___121-[SBInCallPresentationSession _performSwitcherDismissalTransitionAnimated:shouldDestroyScene:analyticsSource:completion:]_block_invoke.174
+- ___121-[SBInCallPresentationSession _performSwitcherDismissalTransitionAnimated:shouldDestroyScene:analyticsSource:completion:]_block_invoke_2.175
+- ___133-[SBInCallPresentationSession _performPresentationWithRequestedPresentationMode:isUserInitiated:animated:analyticsSource:completion:]_block_invoke.183
+- ___54-[SBWallpaperController updatePosterSwitcherSnapshots]_block_invoke.293
+- ___54-[SBWallpaperController updatePosterSwitcherSnapshots]_block_invoke.293.cold.1
+- ___54-[SBWallpaperController updatePosterSwitcherSnapshots]_block_invoke.297
+- ___54-[SBWallpaperController updatePosterSwitcherSnapshots]_block_invoke.298
+- ___54-[SBWallpaperController updatePosterSwitcherSnapshots]_block_invoke.298.cold.1
+- ___54-[SBWallpaperController updatePosterSwitcherSnapshots]_block_invoke.301
+- ___54-[SBWallpaperController updatePosterSwitcherSnapshots]_block_invoke.301.cold.1
+- ___56-[SBCoverSheetPositionView resetContentScalingAnimated:]_block_invoke
+- ___56-[SBCoverSheetPositionView resetContentScalingAnimated:]_block_invoke_2
+- ___56-[SBCoverSheetPositionView resetContentScalingAnimated:]_block_invoke_3
+- ___69-[SBDragAndDropWorkspaceTransaction _transitionRequestForDropAction:]_block_invoke
+- ___69-[SBDragAndDropWorkspaceTransaction _transitionRequestForDropAction:]_block_invoke_2
+- ___72-[SBDragAndDropWorkspaceTransaction _updateCurrentDropActionForSession:]_block_invoke_2
+- ___72-[SBDragAndDropWorkspaceTransaction _updateCurrentDropActionForSession:]_block_invoke_3
+- ___73-[SBInCallPresentationSession _performSceneUpdateTransactionWithContext:]_block_invoke.222
+- ___73-[SBInCallPresentationSession _performSceneUpdateTransactionWithContext:]_block_invoke_2.223
+- ___79-[SBMainDisplayLayoutStateManager _layoutStateForApplicationTransitionContext:]_block_invoke.131
+- ___79-[SBMainDisplayLayoutStateManager _layoutStateForApplicationTransitionContext:]_block_invoke.36
+- ___79-[SBMainDisplayLayoutStateManager _layoutStateForApplicationTransitionContext:]_block_invoke_2.133
+- ___79-[SBMainDisplayLayoutStateManager _layoutStateForApplicationTransitionContext:]_block_invoke_2.43
+- ___79-[SBMainDisplayLayoutStateManager _layoutStateForApplicationTransitionContext:]_block_invoke_3.63
+- ___79-[SBMainDisplayLayoutStateManager _layoutStateForApplicationTransitionContext:]_block_invoke_4.66
+- ___79-[SBMainDisplayLayoutStateManager _layoutStateForApplicationTransitionContext:]_block_invoke_5.70
+- ___80-[SBDragAndDropWorkspaceTransaction _platterSizeForSwitcherDropContext:setDown:]_block_invoke
+- ___85-[SBDragAndDropWorkspaceTransaction _platterSourceViewScaleForSetDropAction:setDown:]_block_invoke
+- ___93-[SBBannerManager _acquireGestureRecognizerPriorityAssertionWithPriority:windowScene:reason:]_block_invoke.228
+- ___93-[SBBannerManager _acquireGestureRecognizerPriorityAssertionWithPriority:windowScene:reason:]_block_invoke_2.229
+- ___block_descriptor_104_e8_32s_e5_q8?0ls32l8
+- ___block_descriptor_114_e8_32s40s_e5_q8?0ls32l8s40l8
+- ___block_descriptor_184_e8_32s40s48s56s64s_e5_v8?0ls32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_40_e33_v16?0"FBSMutableSceneSettings"8l
+- ___block_descriptor_57_e8_32s_e79_q88?0{CGRect={CGPoint=dd}{CGSize=dd}}8{CGRect={CGPoint=dd}{CGSize=dd}}40d72d80ls32l8
+- ___block_literal_global.185
+- ___block_literal_global.237
+- ___block_literal_global.287
+- ___block_literal_global.290
+- ___block_literal_global.299
+- ___block_literal_global.300
+- ___block_literal_global.303
+- ___block_literal_global.559
+- ___block_literal_global.563
+- _objc_msgSend$_commitRecencyModelUpdateForDropContext:
+- _objc_msgSend$_cornerRadiusForSwitcherDragContext:setDown:sourceViewScale:
+- _objc_msgSend$_icrIconLayerIfAnyInLayer:
+- _objc_msgSend$_layoutRoleForDropAction:
+- _objc_msgSend$_mostRecentAppLayoutForBundleIdentifier:ignoringUniqueIdentifiers:inMedusaOnStageManagerCapableDevice:multitaskingSupported:
+- _objc_msgSend$_mostRecentAppLayoutMatchingAnyUniqueIdentifier:inMedusaOnStageManagerCapableDevice:multitaskingSupported:
+- _objc_msgSend$_noteSwitcherDropAnimationCompletedIfNeededWithContext:
+- _objc_msgSend$_performSwitcherDropWithContext:
+- _objc_msgSend$_platterScaleForSwitcherDropContext:
+- _objc_msgSend$_platterSizeForSwitcherDropContext:setDown:
+- _objc_msgSend$_prefersStripHiddenAndDisabled
+- _objc_msgSend$_resetScalingForTransitionIfNeeded
+- _objc_msgSend$_shouldFailLayoutStateTransitionForWindowDrag
+- _objc_msgSend$_switcherDropRegionContextForDraggingLayoutRole:inAppLayout:atLocation:
+- _objc_msgSend$_systemControlsShouldPresentAsEmbeddedForLayoutState:
+- _objc_msgSend$_transitionContextRepresentsAmbiguousLaunch:forApplicationSceneEntity:
+- _objc_msgSend$cardPlatterScale
+- _objc_msgSend$contentPageViewScaleForAppLayout:
+- _objc_msgSend$floatingCardPlatterScale
+- _objc_msgSend$hasGlass
+- _objc_msgSend$hasTintColor
+- _objc_msgSend$isICRIconLayer
+- _objc_msgSend$lightDirection
+- _objc_msgSend$lightIntensity
+- _objc_msgSend$originRect
+- _objc_msgSend$prototypeSettingsSideActivationGutterSize
+- _objc_msgSend$reenableCoverSheetScalingForPositioning
+- _objc_msgSend$resetContentScalingAnimated:
+- _objc_msgSend$resumePositionBasedScaling
+- _objc_msgSend$scaledFrameForLayoutRole:inAppLayout:
+- _objc_msgSend$scaledIntersectingAppLayoutSize
+- _objc_msgSend$setSwitcherDropRegionContext:
+- _objc_msgSend$targetRect
+CStrings:
++ "@\"SBSystemGesturesSettings\""
++ "@88@0:8@16@24@32@40@48@56@64@72@80"
++ "@88@0:8q16@24{CGRect={CGPoint=dd}{CGSize=dd}}32@64@72d80"
++ "ActivateSlideOverLeft"
++ "ActivateSlideOverRight"
++ "AddToStage"
++ "B48@0:8@16@24@32^@40"
++ "Disable System Gestures"
++ "Finishing presented because unlock capability has been restricted: %@"
++ "Interactive screenshot gesture: Setting session for _activeGestureSessionID %{public}@"
++ "Interactive screenshot gesture: invalidating %{public}@"
++ "ManagedConfiguration policy states: no wallpaper editing"
++ "Medusa Dragging Platter Sizes And Regions"
++ "Padding Above Dock (Screen Height Percentage) to Disallow Drops"
++ "Platter Left/Right Tiling Region Width Percentage"
++ "Platter Slide Over Activation Region Height Percentage"
++ "Platter Slide Over Activation Region Width Percentage"
++ "Re-trying swap application icons in prominent positions because the replacement app showed up (%@ <-> %@)"
++ "RemoveParentChildSceneRelationship"
++ "SBClearParentSceneBackreferenceSwitcherEventResponse"
++ "SBIconOSMigrationMissingAppIcon"
++ "SBMinimizeItemFromSplitResizeWindowingModifier"
++ "SBSystemGesturesDomain"
++ "SBSystemGesturesSettings"
++ "Split Resize Windowing Modifier"
++ "System Gestures"
++ "T@\"SBSystemGesturesSettings\",&,N,V_systemGesturesSettings"
++ "TB,N,GhasPerformedDrop,V_performedDrop"
++ "TB,N,V_allowsDismissal"
++ "TB,R,N,GisDefaultWebBrowser"
++ "TB,V_disableSystemGestures"
++ "Td,N,V_draggingPlatterSlideOverActivationRegionBoundsHeightPercentage"
++ "Td,N,V_draggingPlatterSlideOverActivationRegionBoundsWidthPercentage"
++ "Td,N,V_draggingPlatterTileLeftOrRightActivationRegionBoundsWidthPercentage"
++ "Td,N,V_paddingAboveDockToDisallowDropBoundsHeightPercentage"
++ "UIRequiresFullScreenIgnoredStartingWithVersion"
++ "Unknown app in OS Migration layout: %@"
++ "_allowsCapabilityWallpaperEditingWithExplanation:"
++ "_allowsDismissal"
++ "_allowsMinimizing"
++ "_autoLayoutSpaceBeforePairResize"
++ "_calculateCascadeBoundsForAppLayout:interfaceOrientation:switcherController:windowManagementContext:constrainingBounds:statusBarHeight:"
++ "_calculateCascadeTranslationForConstrainingBounds:statusBarHeight:"
++ "_cascadedFrameByTranslatingElement:cascadeFromFrame:appLayout:interfaceOrientation:windowScene:displayItemLayoutAttributesCalculator:constrainingBounds:translation:"
++ "_cascadedFrameForCascadingElement:cascadeFromFrame:appLayout:interfaceOrientation:windowScene:displayItemLayoutAttributesCalculator:constrainingBounds:statusBarHeight:"
++ "_currentDisplayItemToReplace"
++ "_currentlyOverExistingSlideOverItem"
++ "_defaultMultitaskingLayoutAttributesForLayoutAttributes:"
++ "_disableSystemGestures"
++ "_dismissalDirection"
++ "_displacementForItemToMinimizeUponRelease"
++ "_displacementForMinimizingItem"
++ "_displayItemThatWouldBeEvictedIfAnyBasedOnZOrder"
++ "_draggingDisplayItem"
++ "_draggingItemWasInitiallyFullscreen"
++ "_draggingPlatterSlideOverActivationRegionBoundsHeightPercentage"
++ "_draggingPlatterSlideOverActivationRegionBoundsWidthPercentage"
++ "_draggingPlatterTileLeftOrRightActivationRegionBoundsWidthPercentage"
++ "_evictedDisplayItem"
++ "_framesForSplitViewHandleDimmingViews"
++ "_framesForSplitViewHandleNubViews"
++ "_fullStageDisplayItem"
++ "_hasActiveDragAndDropTransaction"
++ "_inDesignatedSlideOverDropZone"
++ "_initialAppLayoutContainsDraggingItem"
++ "_initialDisplayItemLayoutAttributes"
++ "_initialLayoutAttributesMap"
++ "_initialScreenFrameForMinimizingItem"
++ "_initialSlideOverDisplayItem"
++ "_initialSlideOverItem"
++ "_initialSlideOverItemOnStage"
++ "_initialVisibleSplitViewDimmings"
++ "_initialVisibleSplitViewNubs"
++ "_isActivatingSlideOver"
++ "_itemToMinimizeUponRelease"
++ "_layoutAttributesForArrangingItemsGivenDropAction:"
++ "_layoutStateByPerformingChainCascadeForElements:elementIdentifiersToLayoutAttributes:layoutState:displayItemLayoutAttributesCalculator:previousLayoutState:switcherController:windowManagementContext:request:displayItemsNeedingPositionSnapping:"
++ "_leftDisplayItem"
++ "_leftItem"
++ "_minimizingAppLayout"
++ "_mostRecentAppLayoutForBundleIdentifier:ignoringUniqueIdentifiers:multitaskingSupported:"
++ "_mostRecentAppLayoutMatchingAnyUniqueIdentifier:multitaskingSupported:"
++ "_paddingAboveDockToDisallowDropBoundsHeightPercentage"
++ "_parentIdentifier"
++ "_performClearParentSceneBackreferenceResponse:"
++ "_progressToMaxDisplacement"
++ "_rightDisplayItem"
++ "_rightItem"
++ "_setSystemGesturesDisabled:"
++ "_setUpShadowViewsIfNecessary"
++ "_slideOverTongueView"
++ "_systemControlsShouldPresentAsEmbeddedForPresentationMode:"
++ "_systemGesturesSettings"
++ "_transitionContextRepresentsAmbiguousLaunch:forApplicationSceneEntity:switcherController:outEntities:"
++ "_updateSlideOverTongueIfNeeded"
++ "_updateSlideOverTongueView"
++ "allowsDismissal"
++ "coverSheetSlidingViewControllerIsUnlockCapabilityRestricted:"
++ "defaultApplicationForCategory:error:"
++ "defaultWebBrowser"
++ "disableSystemGestures"
++ "draggingPlatterSlideOverActivationRegionBoundsHeightPercentage"
++ "draggingPlatterSlideOverActivationRegionBoundsWidthPercentage"
++ "draggingPlatterTileLeftOrRightActivationRegionBoundsWidthPercentage"
++ "effectiveUIRequiresFullScreenValue"
++ "exit.slide.over.right"
++ "genieGlassHighlightForSwitcherContentController:"
++ "hasPerformedDrop"
++ "hide.slide.over"
++ "iconManagerAllowsWallpaperEditing:"
++ "initWithDismissalDirection:autoLayoutSpaceBeforePairResize:initialScreenFrameForMinimizingItem:leftItem:rightItem:displacementForMinimizingItem:"
++ "inset.filled.trailingthird.rectangle"
++ "isAfter:withPrecision:"
++ "isDefaultWebBrowser"
++ "lastLightDirection"
++ "lastLightIntensity"
++ "move.to.left"
++ "move.to.right"
++ "paddingAboveDockToDisallowDropBoundsHeightPercentage"
++ "parentBackreference"
++ "parentIdentifier"
++ "performedDrop"
++ "prototypeSettingsLeftOrRightTilingActivationRegionWidthPercentage"
++ "prototypeSettingsPaddingAboveDockToDisallowDropBoundsHeightPercentage"
++ "prototypeSettingsSlideOverActivationRegionHeightPercentage"
++ "prototypeSettingsSlideOverActivationRegionWidthPercentage"
++ "setAllowsDismissal:"
++ "setDisableSystemGestures:"
++ "setDraggingPlatterSlideOverActivationRegionBoundsHeightPercentage:"
++ "setDraggingPlatterSlideOverActivationRegionBoundsWidthPercentage:"
++ "setDraggingPlatterTileLeftOrRightActivationRegionBoundsWidthPercentage:"
++ "setPaddingAboveDockToDisallowDropBoundsHeightPercentage:"
++ "setParentIdentifier:"
++ "setPerformedDrop:"
++ "setSystemGesturesSettings:"
++ "switcherContentController:removeParentChildSceneRelationshipsForChildren:"
++ "systemGesturesDisabledForAccessibility[%{BOOL}u]"
++ "systemGesturesDisabledForPTSettings[%{BOOL}u]"
++ "systemGesturesSettings"
++ "takeInSwitcherAssertionWithReason:"
++ "updateWantsSlideOverTongue:state:direction:cornerRadius:animated:"
++ "v48@0:8B16Q20Q28d36B44"
++ "v64@0:8@16q24@32@40^{CGRect={CGPoint=dd}{CGSize=dd}}48^d56"
++ "{?=\"switcherContentControllerBringAppLayoutToFront\"b1\"switcherContentControllerActivatedBestAppSuggestion\"b1\"updateUserInteractionEnabledForSwitcherContentController\"b1\"updateWindowVisibilityForSwitcherContentController\"b1\"switcherContentControllerSetHomeScreenScaleWithAnimationModeCompletion\"b1\"switcherContentControllerSetHomeScreenAlphaWithAnimationModeCompletion\"b1\"switcherContentControllerSetHomeScreenDimmingAlphaWithSettingsAnimationModeCompletion\"b1\"switcherContentControllerSetHomeScreenBackdropBlurProgressWithAnimationModeCompletion\"b1\"switcherContentControllerSetHomeScreenBackdropBlurType\"b1\"switcherContentControllerSetHomeScreenBackdropBlurMaterialRecipeNameWithAnimationModeCompletion\"b1\"switcherContentControllerControlsWallpaper\"b1\"switcherContentControllerSetWallpaperScaleWithAnimationModeCompletion\"b1\"switcherContentControllerSetWallpaperStyle\"b1\"switcherContentControllerSetInterfaceOrientation\"b1\"switcherContentControllerSetInterfaceOrientationFromUserResizingForDisplayItem\"b1\"switcherContentControllerRequestNewWindowForBundleIdentifier\"b1\"switcherContentControllerSetContainerStatusBarHiddenPartsHiddenAnimationDuration\"b1\"switcherContentControllerWantsToDismissMenuBar\"b1\"switcherContentControllerWantsToPeekMenuBar\"b1\"switcherContentControllerWantsToUpdateMenuBarVisibility\"b1\"switcherContentControllerDemoLayoutAttributesForDisplayItem\"b1\"switcherContentControllerSetPointerInteractionsEnabled\"b1\"switcherContentControllerShouldResignActiveForStartOfTransition\"b1\"switcherContentControllerControlsHomeScreenContents\"b1\"switcherContentControllerSetCacheAsynchronousRenderingSurfaces\"b1\"cancelActiveGestureForSwitcherContentController\"b1\"switcherContentControllerReopenHiddenAppLayoutsWithBundleIdentifier\"b1\"switcherContentControllerLayoutStateTransitionDidEndWithTransitionContext\"b1\"switcherContentControllerTransformForCardUnderSheetForBoundsSize\"b1\"switcherContentControllerMoveDisplayItemFromOtherDisplay\"b1\"presentContinuousExposeStripRevealGrabberTongueImmediatelyForSwitcherContentController\"b1\"tickleContinuousExposeStripRevealGrabberTongueIfVisibleForSwitcherContentController\"b1\"switcherContentControllerDidUpdateVisibleHomeAffordances\"b1\"switcherContentControllerRemoveDisplayItemsFromDesktop\"b1\"switcherContentControllerRequestDismissalForHomeScreenBackgroundTaps\"b1\"switcherContentControllerMoveDisplayItemToSlideOver\"b1\"switcherContentControllerMoveDisplayItemOutOfSlideOver\"b1\"switcherContentControllerRemoveParentChildSceneRelationship\"b1}"
++ "{?=\"switcherGestureManagerForSwitcherContentController\"b1\"sceneRelevancyManagerForSwitcherContentController\"b1\"switcherIconZoomContextProviderForSwitcherContentController\"b1\"homeGestureSettingsForSwitcherContentController\"b1\"maximumNumberOfScenesOnStageForSwitcherContentController\"b1\"activeTransientOverlayPresentedAppLayoutForSwitcherContentController\"b1\"appLayoutForWorkspaceTransientOverlay\"b1\"viewControllerForTransientOverlayAppLayout\"b1\"createWorkspaceTransientOverlayForAppLayout\"b1\"matchingIconViewForIconView\"b1\"prioritizesSortOrderForAppLayout\"b1\"switcherContentControllerFrameForFloatingAppLayoutInInterfaceOrientationFloatingConfiguration\"b1\"switcherContentControllerFrameForCenterItemWithConfigurationInterfaceOrientation\"b1\"homeScreenInterfaceOrientationForContentController\"b1\"backdropInterfaceStyleForContentController\"b1\"switcherContentControllerShouldMorphToPIPForTransitionContext\"b1\"switcherContentControllerShouldMorphFromPIPForTransitionContext\"b1\"isInAppStatusBarRequestedHiddenForSwitcherContentController\"b1\"leadingStatusBarPartFrameForSwitcherContentController\"b1\"trailingStatusBarPartFrameForSwitcherContentController\"b1\"switcherContentControllerVisibleAppLayoutsForBundleIdentifier\"b1\"switcherContentControllerVisibleDisplayItemsForBundleIdentifier\"b1\"switcherContentControllerHiddenAppLayoutsForBundleIdentifier\"b1\"switcherContentControllerReloadsSnapshotsForActiveInterfaceOrientationChange\"b1\"switcherContentControllerHasMultipleDisplays\"b1\"switcherContentControllerSupportsTitleItemsForAppLayout\"b1\"switcherContentControllerSupportsKillingOfAppLayout\"b1\"switcherContentControllerDisplayItemSupportsCenterRole\"b1\"switcherContentControllerIsKeyboardHomeAffordanceAssertionCurrentlyBeingTaken\"b1\"switcherContentControllerDeviceApplicationSceneHandleForDisplayItem\"b1\"isDisplayEmbeddedForSwitcherContentController\"b1\"windowManagementContextForSwitcherContentController\"b1\"draggingAppLayoutsForWindowDragForSwitcherContentController\"b1\"proposedAppLayoutsForWindowDragForSwitcherContentController\"b1\"isSwitcherContentControllerEphemeral\"b1\"displayConfigurationsOfOtherDisplaysForSwitcherContentController\"b1\"guardedForegroundDisplayItemsForSwitcherContentController\"b1\"desktopSpaceItemsForSwitcherContentController\"b1\"slideOverItemForSwitcherContentController\"b1\"windowingConfigurationForSwitcherContentControllerCorrespondingToDisplayOrdinal\"b1\"appLayoutForSwitcherContentControllerCorrespondingToDisplayOrdinal\"b1\"genieGlassHighlightForSwitcherContentController\"b1}"
++ "{CGAffineTransform=dddddd}56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16d48"
++ "{CGRect={CGPoint=dd}{CGSize=dd}}128@0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24@56q64@72@80{CGRect={CGPoint=dd}{CGSize=dd}}88d120"
++ "{CGRect={CGPoint=dd}{CGSize=dd}}168@0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24@56q64@72@80{CGRect={CGPoint=dd}{CGSize=dd}}88{CGAffineTransform=dddddd}120"
++ "{SBSwitcherGenieGlassHighlight=Q{SBSwitcherGenieGlassHighlightDirection=ddd}d}24@0:8@\"<SBSwitcherContentViewControlling>\"16"
+- "@36@0:8@16B24d28"
+- "@40@0:8@16@24B32B36"
+- "Invalid role."
+- "IsIconLayer"
+- "Medusa Dragging Platter Sizes"
+- "SwitcherDrag"
+- "TB,N,V_ignoringPositionChanges"
+- "_appLayoutContainsFullScreenDisplayItem:"
+- "_appLayoutsPerformingInitialLayout"
+- "_commitRecencyModelUpdateForDropContext:"
+- "_cornerRadiusForSwitcherDragContext:setDown:sourceViewScale:"
+- "_currentSwitcherDropRegionContext"
+- "_displayItemThatWouldBeEvictedIfAny"
+- "_icrIconLayerIfAnyInLayer:"
+- "_ignoringPositionChanges"
+- "_layoutRoleForDropAction:"
+- "_mostRecentAppLayoutForBundleIdentifier:ignoringUniqueIdentifiers:inMedusaOnStageManagerCapableDevice:multitaskingSupported:"
+- "_mostRecentAppLayoutMatchingAnyUniqueIdentifier:inMedusaOnStageManagerCapableDevice:multitaskingSupported:"
+- "_needsSwitcherDropAnimationCompletedNotification"
+- "_noteSwitcherDropAnimationCompletedIfNeededWithContext:"
+- "_platterScaleForSwitcherDropContext:"
+- "_platterSizeForSwitcherDropContext:setDown:"
+- "_resetScalingForTransitionIfNeeded"
+- "_shouldFailLayoutStateTransitionForWindowDrag"
+- "_systemControlsShouldPresentAsEmbeddedForLayoutState:"
+- "_transitionContextRepresentsAmbiguousLaunch:forApplicationSceneEntity:"
+- "com.apple.springboard.dragAndDropAppActivationTransaction"
+- "hasGlass"
+- "hasTintColor"
+- "ignoringPositionChanges"
+- "isICRIconLayer"
+- "lightDirection"
+- "lightIntensity"
+- "q88@?0{CGRect={CGPoint=dd}{CGSize=dd}}8{CGRect={CGPoint=dd}{CGSize=dd}}40d72d80"
+- "reenableCoverSheetScalingForPositioning"
+- "resetContentScalingAnimated:"
+- "resumePositionBasedScaling"
+- "setIgnoringPositionChanges:"
+- "{?=\"switcherContentControllerBringAppLayoutToFront\"b1\"switcherContentControllerActivatedBestAppSuggestion\"b1\"updateUserInteractionEnabledForSwitcherContentController\"b1\"updateWindowVisibilityForSwitcherContentController\"b1\"switcherContentControllerSetHomeScreenScaleWithAnimationModeCompletion\"b1\"switcherContentControllerSetHomeScreenAlphaWithAnimationModeCompletion\"b1\"switcherContentControllerSetHomeScreenDimmingAlphaWithSettingsAnimationModeCompletion\"b1\"switcherContentControllerSetHomeScreenBackdropBlurProgressWithAnimationModeCompletion\"b1\"switcherContentControllerSetHomeScreenBackdropBlurType\"b1\"switcherContentControllerSetHomeScreenBackdropBlurMaterialRecipeNameWithAnimationModeCompletion\"b1\"switcherContentControllerControlsWallpaper\"b1\"switcherContentControllerSetWallpaperScaleWithAnimationModeCompletion\"b1\"switcherContentControllerSetWallpaperStyle\"b1\"switcherContentControllerSetInterfaceOrientation\"b1\"switcherContentControllerSetInterfaceOrientationFromUserResizingForDisplayItem\"b1\"switcherContentControllerRequestNewWindowForBundleIdentifier\"b1\"switcherContentControllerSetContainerStatusBarHiddenPartsHiddenAnimationDuration\"b1\"switcherContentControllerWantsToDismissMenuBar\"b1\"switcherContentControllerWantsToPeekMenuBar\"b1\"switcherContentControllerWantsToUpdateMenuBarVisibility\"b1\"switcherContentControllerDemoLayoutAttributesForDisplayItem\"b1\"switcherContentControllerSetPointerInteractionsEnabled\"b1\"switcherContentControllerShouldResignActiveForStartOfTransition\"b1\"switcherContentControllerControlsHomeScreenContents\"b1\"switcherContentControllerSetCacheAsynchronousRenderingSurfaces\"b1\"cancelActiveGestureForSwitcherContentController\"b1\"switcherContentControllerReopenHiddenAppLayoutsWithBundleIdentifier\"b1\"switcherContentControllerLayoutStateTransitionDidEndWithTransitionContext\"b1\"switcherContentControllerTransformForCardUnderSheetForBoundsSize\"b1\"switcherContentControllerMoveDisplayItemFromOtherDisplay\"b1\"presentContinuousExposeStripRevealGrabberTongueImmediatelyForSwitcherContentController\"b1\"tickleContinuousExposeStripRevealGrabberTongueIfVisibleForSwitcherContentController\"b1\"switcherContentControllerDidUpdateVisibleHomeAffordances\"b1\"switcherContentControllerRemoveDisplayItemsFromDesktop\"b1\"switcherContentControllerRequestDismissalForHomeScreenBackgroundTaps\"b1\"switcherContentControllerMoveDisplayItemToSlideOver\"b1\"switcherContentControllerMoveDisplayItemOutOfSlideOver\"b1}"
+- "{?=\"switcherGestureManagerForSwitcherContentController\"b1\"sceneRelevancyManagerForSwitcherContentController\"b1\"switcherIconZoomContextProviderForSwitcherContentController\"b1\"homeGestureSettingsForSwitcherContentController\"b1\"maximumNumberOfScenesOnStageForSwitcherContentController\"b1\"activeTransientOverlayPresentedAppLayoutForSwitcherContentController\"b1\"appLayoutForWorkspaceTransientOverlay\"b1\"viewControllerForTransientOverlayAppLayout\"b1\"createWorkspaceTransientOverlayForAppLayout\"b1\"matchingIconViewForIconView\"b1\"prioritizesSortOrderForAppLayout\"b1\"switcherContentControllerFrameForFloatingAppLayoutInInterfaceOrientationFloatingConfiguration\"b1\"switcherContentControllerFrameForCenterItemWithConfigurationInterfaceOrientation\"b1\"homeScreenInterfaceOrientationForContentController\"b1\"backdropInterfaceStyleForContentController\"b1\"switcherContentControllerShouldMorphToPIPForTransitionContext\"b1\"switcherContentControllerShouldMorphFromPIPForTransitionContext\"b1\"isInAppStatusBarRequestedHiddenForSwitcherContentController\"b1\"leadingStatusBarPartFrameForSwitcherContentController\"b1\"trailingStatusBarPartFrameForSwitcherContentController\"b1\"switcherContentControllerVisibleAppLayoutsForBundleIdentifier\"b1\"switcherContentControllerVisibleDisplayItemsForBundleIdentifier\"b1\"switcherContentControllerHiddenAppLayoutsForBundleIdentifier\"b1\"switcherContentControllerReloadsSnapshotsForActiveInterfaceOrientationChange\"b1\"switcherContentControllerHasMultipleDisplays\"b1\"switcherContentControllerSupportsTitleItemsForAppLayout\"b1\"switcherContentControllerSupportsKillingOfAppLayout\"b1\"switcherContentControllerDisplayItemSupportsCenterRole\"b1\"switcherContentControllerIsKeyboardHomeAffordanceAssertionCurrentlyBeingTaken\"b1\"switcherContentControllerDeviceApplicationSceneHandleForDisplayItem\"b1\"isDisplayEmbeddedForSwitcherContentController\"b1\"windowManagementContextForSwitcherContentController\"b1\"draggingAppLayoutsForWindowDragForSwitcherContentController\"b1\"proposedAppLayoutsForWindowDragForSwitcherContentController\"b1\"isSwitcherContentControllerEphemeral\"b1\"displayConfigurationsOfOtherDisplaysForSwitcherContentController\"b1\"guardedForegroundDisplayItemsForSwitcherContentController\"b1\"desktopSpaceItemsForSwitcherContentController\"b1\"slideOverItemForSwitcherContentController\"b1\"windowingConfigurationForSwitcherContentControllerCorrespondingToDisplayOrdinal\"b1\"appLayoutForSwitcherContentControllerCorrespondingToDisplayOrdinal\"b1}"
+- "{CGSize=dd}28@0:8@16B24"
+
+```

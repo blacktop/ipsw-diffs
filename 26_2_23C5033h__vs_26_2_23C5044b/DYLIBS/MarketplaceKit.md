@@ -1,0 +1,192 @@
+## MarketplaceKit
+
+> `/System/Library/Frameworks/MarketplaceKit.framework/MarketplaceKit`
+
+```diff
+
+-3.2.11.0.0
+-  __TEXT.__text: 0x960b4
+-  __TEXT.__auth_stubs: 0x14a0
++3.2.14.2.10
++  __TEXT.__text: 0x9b860
++  __TEXT.__auth_stubs: 0x14f0
+   __TEXT.__objc_methlist: 0x5cc
+-  __TEXT.__const: 0x12334
+-  __TEXT.__cstring: 0x21fe
+-  __TEXT.__constg_swiftt: 0x2d54
+-  __TEXT.__swift5_typeref: 0x3752
++  __TEXT.__const: 0x130a4
++  __TEXT.__cstring: 0x22ee
++  __TEXT.__constg_swiftt: 0x2f00
++  __TEXT.__swift5_typeref: 0x3962
+   __TEXT.__swift5_builtin: 0xdc
+-  __TEXT.__swift5_fieldmd: 0x389c
+-  __TEXT.__swift5_proto: 0x1088
+-  __TEXT.__swift5_types: 0x4c0
++  __TEXT.__swift5_fieldmd: 0x3be8
++  __TEXT.__swift5_proto: 0x1148
++  __TEXT.__swift5_types: 0x4f4
+   __TEXT.__swift5_capture: 0x628
+   __TEXT.__swift5_protos: 0xc
+-  __TEXT.__swift_as_entry: 0x188
+-  __TEXT.__swift_as_ret: 0x184
+-  __TEXT.__oslogstring: 0x4e3
++  __TEXT.__swift_as_entry: 0x190
++  __TEXT.__swift_as_ret: 0x18c
++  __TEXT.__oslogstring: 0x513
+   __TEXT.__swift5_mpenum: 0x50
+-  __TEXT.__swift5_reflstr: 0x27
+-  __TEXT.__swift5_assocty: 0x78
+-  __TEXT.__unwind_info: 0x31c0
+-  __TEXT.__eh_frame: 0x45d0
++  __TEXT.__swift5_reflstr: 0x30
++  __TEXT.__swift5_assocty: 0x90
++  __TEXT.__unwind_info: 0x3370
++  __TEXT.__eh_frame: 0x4778
+   __TEXT.__objc_classname: 0x3b
+   __TEXT.__objc_methname: 0xc6e
+   __TEXT.__objc_methtype: 0xff
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x3f8
+   __DATA_CONST.__objc_protorefs: 0x38
+-  __AUTH_CONST.__auth_got: 0xa50
+-  __AUTH_CONST.__const: 0x9a98
++  __AUTH_CONST.__auth_got: 0xa78
++  __AUTH_CONST.__const: 0xa168
+   __AUTH_CONST.__objc_const: 0xb80
+   __AUTH.__objc_data: 0x3b8
+   __AUTH.__data: 0xeb0
+-  __DATA.__data: 0x2fa0
+-  __DATA.__bss: 0x1e3f0
+-  __DATA_DIRTY.__data: 0x9d8
++  __DATA.__data: 0x3160
++  __DATA.__bss: 0x1fbf0
++  __DATA_DIRTY.__data: 0x9e8
+   __DATA_DIRTY.__bss: 0x2d80
+   __DATA_DIRTY.__common: 0x8
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 75BD65D4-BB33-3244-8372-45B926F27D83
+-  Functions: 4659
+-  Symbols:   2250
+-  CStrings:  438
++  UUID: FBF99C7A-9E36-3F2C-83E8-D7605705F67C
++  Functions: 4829
++  Symbols:   2312
++  CStrings:  448
+ 
+Symbols:
++ ___swift_memcpy160_8
++ _associated conformance 14MarketplaceKit11AuthContextV10CodingKeys33_F29E26A4D58981DE33E15BE11EA7E909LLOSHAASQ
++ _associated conformance 14MarketplaceKit11AuthContextV10CodingKeys33_F29E26A4D58981DE33E15BE11EA7E909LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 14MarketplaceKit11AuthContextV10CodingKeys33_F29E26A4D58981DE33E15BE11EA7E909LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14MarketplaceKit17FetchDataResponseV0E0O011UsesUpdatedA21InstallFlowCodingKeys33_7F2F38C5CE76A7B2CC957213ECA43CACLLOSHAASQ
++ _associated conformance 14MarketplaceKit17FetchDataResponseV0E0O011UsesUpdatedA21InstallFlowCodingKeys33_7F2F38C5CE76A7B2CC957213ECA43CACLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 14MarketplaceKit17FetchDataResponseV0E0O011UsesUpdatedA21InstallFlowCodingKeys33_7F2F38C5CE76A7B2CC957213ECA43CACLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14MarketplaceKit17FetchDataResponseV0E0O23CatalogRegionCodingKeys33_7F2F38C5CE76A7B2CC957213ECA43CACLLOSHAASQ
++ _associated conformance 14MarketplaceKit17FetchDataResponseV0E0O23CatalogRegionCodingKeys33_7F2F38C5CE76A7B2CC957213ECA43CACLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 14MarketplaceKit17FetchDataResponseV0E0O23CatalogRegionCodingKeys33_7F2F38C5CE76A7B2CC957213ECA43CACLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14MarketplaceKit21AppStoreApprovalErrorOSHAASQ
++ _associated conformance 14MarketplaceKit21ApprovalSheetResponseOSHAASQ
++ _associated conformance 14MarketplaceKit21LaunchAngelXPCRequestV11RequestTypeO38PresentAppStoreApprovalSheetCodingKeys33_E05B89388F5B69A7DA490832AF5F4BBDLLOSHAASQ
++ _associated conformance 14MarketplaceKit21LaunchAngelXPCRequestV11RequestTypeO38PresentAppStoreApprovalSheetCodingKeys33_E05B89388F5B69A7DA490832AF5F4BBDLLOs0M3KeyAAs23CustomStringConvertible
++ _associated conformance 14MarketplaceKit21LaunchAngelXPCRequestV11RequestTypeO38PresentAppStoreApprovalSheetCodingKeys33_E05B89388F5B69A7DA490832AF5F4BBDLLOs0M3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14MarketplaceKit22FetchPublicDataRequestV0F0O23CatalogRegionCodingKeys33_7F2F38C5CE76A7B2CC957213ECA43CACLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 14MarketplaceKit22FetchPublicDataRequestV0F0O23CatalogRegionCodingKeys33_7F2F38C5CE76A7B2CC957213ECA43CACLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14MarketplaceKit22LaunchAngelXPCResponseV12ResponseTypeO31AppStoreApprovalSheetCodingKeys33_E05B89388F5B69A7DA490832AF5F4BBDLLOSHAASQ
++ _associated conformance 14MarketplaceKit22LaunchAngelXPCResponseV12ResponseTypeO31AppStoreApprovalSheetCodingKeys33_E05B89388F5B69A7DA490832AF5F4BBDLLOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 14MarketplaceKit22LaunchAngelXPCResponseV12ResponseTypeO31AppStoreApprovalSheetCodingKeys33_E05B89388F5B69A7DA490832AF5F4BBDLLOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14MarketplaceKit23FetchPrivateDataRequestV0F0O011UsesUpdatedA21InstallFlowCodingKeys33_7F2F38C5CE76A7B2CC957213ECA43CACLLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 14MarketplaceKit23FetchPrivateDataRequestV0F0O011UsesUpdatedA21InstallFlowCodingKeys33_7F2F38C5CE76A7B2CC957213ECA43CACLLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14MarketplaceKit28AppStoreApprovalSheetContextV10CodingKeys33_F29E26A4D58981DE33E15BE11EA7E909LLOSHAASQ
++ _associated conformance 14MarketplaceKit28AppStoreApprovalSheetContextV10CodingKeys33_F29E26A4D58981DE33E15BE11EA7E909LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 14MarketplaceKit28AppStoreApprovalSheetContextV10CodingKeys33_F29E26A4D58981DE33E15BE11EA7E909LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _block_copy_helper.342
++ _block_copy_helper.345
++ _block_copy_helper.348
++ _block_copy_helper.351
++ _block_copy_helper.354
++ _block_copy_helper.71
++ _block_descriptor.344
++ _block_descriptor.347
++ _block_descriptor.350
++ _block_descriptor.353
++ _block_descriptor.356
++ _block_descriptor.73
++ _block_destroy_helper.343
++ _block_destroy_helper.346
++ _block_destroy_helper.349
++ _block_destroy_helper.352
++ _block_destroy_helper.355
++ _block_destroy_helper.72
++ _symbolic _____ 14MarketplaceKit11AuthContextV
++ _symbolic _____ 14MarketplaceKit11AuthContextV10CodingKeys33_F29E26A4D58981DE33E15BE11EA7E909LLO
++ _symbolic _____ 14MarketplaceKit17FetchDataResponseV0E0O011UsesUpdatedA21InstallFlowCodingKeys33_7F2F38C5CE76A7B2CC957213ECA43CACLLO
++ _symbolic _____ 14MarketplaceKit17FetchDataResponseV0E0O23CatalogRegionCodingKeys33_7F2F38C5CE76A7B2CC957213ECA43CACLLO
++ _symbolic _____ 14MarketplaceKit21AppStoreApprovalErrorO
++ _symbolic _____ 14MarketplaceKit21ApprovalSheetResponseO
++ _symbolic _____ 14MarketplaceKit21LaunchAngelXPCRequestV11RequestTypeO38PresentAppStoreApprovalSheetCodingKeys33_E05B89388F5B69A7DA490832AF5F4BBDLLO
++ _symbolic _____ 14MarketplaceKit22FetchPublicDataRequestV0F0O23CatalogRegionCodingKeys33_7F2F38C5CE76A7B2CC957213ECA43CACLLO
++ _symbolic _____ 14MarketplaceKit22LaunchAngelXPCResponseV12ResponseTypeO31AppStoreApprovalSheetCodingKeys33_E05B89388F5B69A7DA490832AF5F4BBDLLO
++ _symbolic _____ 14MarketplaceKit23AppStoreApprovalRequestV
++ _symbolic _____ 14MarketplaceKit23FetchPrivateDataRequestV0F0O011UsesUpdatedA21InstallFlowCodingKeys33_7F2F38C5CE76A7B2CC957213ECA43CACLLO
++ _symbolic _____ 14MarketplaceKit28AppStoreApprovalSheetContextV
++ _symbolic _____ 14MarketplaceKit28AppStoreApprovalSheetContextV10CodingKeys33_F29E26A4D58981DE33E15BE11EA7E909LLO
++ _symbolic _____7context_t 14MarketplaceKit28AppStoreApprovalSheetContextV
++ _symbolic _____8response_t 14MarketplaceKit21ApprovalSheetResponseO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14MarketplaceKit11AuthContextV10CodingKeys33_F29E26A4D58981DE33E15BE11EA7E909LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14MarketplaceKit17FetchDataResponseV0H0O011UsesUpdatedD21InstallFlowCodingKeys33_7F2F38C5CE76A7B2CC957213ECA43CACLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14MarketplaceKit17FetchDataResponseV0H0O23CatalogRegionCodingKeys33_7F2F38C5CE76A7B2CC957213ECA43CACLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14MarketplaceKit21LaunchAngelXPCRequestV11RequestTypeO38PresentAppStoreApprovalSheetCodingKeys33_E05B89388F5B69A7DA490832AF5F4BBDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14MarketplaceKit22FetchPublicDataRequestV0I0O23CatalogRegionCodingKeys33_7F2F38C5CE76A7B2CC957213ECA43CACLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14MarketplaceKit22LaunchAngelXPCResponseV12ResponseTypeO31AppStoreApprovalSheetCodingKeys33_E05B89388F5B69A7DA490832AF5F4BBDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14MarketplaceKit23FetchPrivateDataRequestV0I0O011UsesUpdatedD21InstallFlowCodingKeys33_7F2F38C5CE76A7B2CC957213ECA43CACLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14MarketplaceKit28AppStoreApprovalSheetContextV10CodingKeys33_F29E26A4D58981DE33E15BE11EA7E909LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14MarketplaceKit11AuthContextV10CodingKeys33_F29E26A4D58981DE33E15BE11EA7E909LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14MarketplaceKit17FetchDataResponseV0H0O011UsesUpdatedD21InstallFlowCodingKeys33_7F2F38C5CE76A7B2CC957213ECA43CACLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14MarketplaceKit17FetchDataResponseV0H0O23CatalogRegionCodingKeys33_7F2F38C5CE76A7B2CC957213ECA43CACLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14MarketplaceKit21LaunchAngelXPCRequestV11RequestTypeO38PresentAppStoreApprovalSheetCodingKeys33_E05B89388F5B69A7DA490832AF5F4BBDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14MarketplaceKit22FetchPublicDataRequestV0I0O23CatalogRegionCodingKeys33_7F2F38C5CE76A7B2CC957213ECA43CACLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14MarketplaceKit22LaunchAngelXPCResponseV12ResponseTypeO31AppStoreApprovalSheetCodingKeys33_E05B89388F5B69A7DA490832AF5F4BBDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14MarketplaceKit23FetchPrivateDataRequestV0I0O011UsesUpdatedD21InstallFlowCodingKeys33_7F2F38C5CE76A7B2CC957213ECA43CACLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14MarketplaceKit28AppStoreApprovalSheetContextV10CodingKeys33_F29E26A4D58981DE33E15BE11EA7E909LLO
++ _type_layout_string 14MarketplaceKit11AuthContextV
++ _type_layout_string 14MarketplaceKit23AppStoreApprovalRequestV
++ _type_layout_string 14MarketplaceKit28AppStoreApprovalSheetContextV
+- _block_copy_helper.328
+- _block_copy_helper.331
+- _block_copy_helper.334
+- _block_copy_helper.337
+- _block_copy_helper.340
+- _block_copy_helper.70
+- _block_descriptor.330
+- _block_descriptor.333
+- _block_descriptor.336
+- _block_descriptor.339
+- _block_descriptor.342
+- _block_descriptor.72
+- _block_destroy_helper.329
+- _block_destroy_helper.332
+- _block_destroy_helper.335
+- _block_destroy_helper.338
+- _block_destroy_helper.341
+- _block_destroy_helper.71
+CStrings:
++ "Failed to create Launch Angel connection"
++ "Unexpected connection type: %s"
++ "appStoreApprovalSheet"
++ "approve"
++ "approveButtonTitle"
++ "decline"
++ "declineButtonTitle"
++ "ignore"
++ "isCurrentDistributorAppStore"
++ "presentAppStoreApprovalSheet"
++ "usesUpdatedMarketplaceInstallFlow"
+- "Unexpected connection type"
+
+```

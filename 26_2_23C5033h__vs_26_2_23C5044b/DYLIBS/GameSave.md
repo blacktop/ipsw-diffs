@@ -1,0 +1,234 @@
+## GameSave
+
+> `/System/Library/Frameworks/GameSave.framework/GameSave`
+
+```diff
+
+ 1.0.0.0.0
+-  __TEXT.__text: 0x31cb8
++  __TEXT.__text: 0x31e54
+   __TEXT.__auth_stubs: 0x15f0
+   __TEXT.__objc_methlist: 0x698
+-  __TEXT.__const: 0x19e8
+-  __TEXT.__constg_swiftt: 0xed8
+-  __TEXT.__swift5_typeref: 0x13ca
+-  __TEXT.__swift5_reflstr: 0x74a
+-  __TEXT.__swift5_fieldmd: 0x644
+-  __TEXT.__cstring: 0x1391
++  __TEXT.__const: 0x19f8
++  __TEXT.__constg_swiftt: 0xeb4
++  __TEXT.__swift5_typeref: 0x13d8
++  __TEXT.__swift5_reflstr: 0x75a
++  __TEXT.__swift5_fieldmd: 0x5f8
++  __TEXT.__cstring: 0x13a1
+   __TEXT.__swift5_builtin: 0x50
+   __TEXT.__swift5_assocty: 0x1a0
+   __TEXT.__swift5_proto: 0xb4
+   __TEXT.__swift5_types: 0x68
+   __TEXT.__oslogstring: 0x8c8
+-  __TEXT.__swift5_capture: 0x3f8
++  __TEXT.__swift5_capture: 0x400
+   __TEXT.__swift_as_entry: 0x90
+   __TEXT.__swift_as_ret: 0x80
+   __TEXT.__unwind_info: 0xc88
+   __TEXT.__eh_frame: 0x1598
+   __TEXT.__objc_classname: 0x31
+-  __TEXT.__objc_methname: 0xfd6
++  __TEXT.__objc_methname: 0xfe6
+   __TEXT.__objc_methtype: 0x22a
+   __DATA_CONST.__got: 0x450
+   __DATA_CONST.__const: 0xc8
+   __DATA_CONST.__objc_classlist: 0x78
+   __DATA_CONST.__objc_protolist: 0x48
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x550
++  __DATA_CONST.__objc_selrefs: 0x558
+   __DATA_CONST.__objc_protorefs: 0x28
+   __AUTH_CONST.__auth_got: 0xaf8
+-  __AUTH_CONST.__const: 0xe78
++  __AUTH_CONST.__const: 0xe28
+   __AUTH_CONST.__objc_const: 0x1790
+   __AUTH.__objc_data: 0xa80
+   __AUTH.__data: 0xd70
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 63D5D2F7-493C-3E90-A440-4AEC9A08DB91
+-  Functions: 974
+-  Symbols:   3836
+-  CStrings:  440
++  UUID: A7606D27-02BE-3BF6-B324-7F56D5EBC0AB
++  Functions: 970
++  Symbols:   3827
++  CStrings:  441
+ 
+Symbols:
++ _$s8GameSave0aB15SyncedDirectoryC04sendD13TelemetryLazy33_F22FEAF55C33D8D98858C131D7DCE32CLL4from2to11elapsedTimeyAC5StateO_AJSdtFSDySSSo8NSObjectCGSgycfU_
++ _$s8GameSave0aB15SyncedDirectoryC04sendD13TelemetryLazy33_F22FEAF55C33D8D98858C131D7DCE32CLL4from2to11elapsedTimeyAC5StateO_AJSdtFSDySSSo8NSObjectCGSgycfU_TA
++ _$s8GameSave0aB15SyncedDirectoryC04sendD13TelemetryLazy33_F22FEAF55C33D8D98858C131D7DCE32CLL4from2to11elapsedTimeyAC5StateO_AJSdtFTf4nnnd_n
++ _$s8GameSave0aB15SyncedDirectoryC11drawStateUI6windowySo8UIWindowC_tFyyYaYbScMYccfU_TA.322
++ _$s8GameSave0aB15SyncedDirectoryC11drawStateUI6windowySo8UIWindowC_tFyyYaYbScMYccfU_TA.322TQ0_
++ _$s8GameSave0aB15SyncedDirectoryC11drawStateUI6windowySo8UIWindowC_tFyyYaYbScMYccfU_TA.322Tu
++ _$s8GameSave0aB15SyncedDirectoryC11moveToState33_F22FEAF55C33D8D98858C131D7DCE32CLLyyAC0G0OF
++ _$s8GameSave0aB15SyncedDirectoryC12continuation33_F22FEAF55C33D8D98858C131D7DCE32CLLScCyyts5NeverOGSgvsyyXEfU_TA.257
++ _$s8GameSave0aB15SyncedDirectoryC12continuation33_F22FEAF55C33D8D98858C131D7DCE32CLLScCyyts5NeverOGSgvsyyXEfU_TA.270
++ _$s8GameSave0aB15SyncedDirectoryC12lastResponse33_F22FEAF55C33D8D98858C131D7DCE32CLLAA0acdF0CSgvsyyXEfU_TA.268
++ _$s8GameSave0aB15SyncedDirectoryC13stateObserver33_F22FEAF55C33D8D98858C131D7DCE32CLLAC05StateF0CSgvsyyXEfU_TA.280
++ _$s8GameSave0aB15SyncedDirectoryC13stateObserver33_F22FEAF55C33D8D98858C131D7DCE32CLLAC05StateF0CSgvsyyXEfU_TA.285
++ _$s8GameSave0aB15SyncedDirectoryC13stateObserver33_F22FEAF55C33D8D98858C131D7DCE32CLLAC05StateF0CSgvsyyXEfU_TA.307
++ _$s8GameSave0aB15SyncedDirectoryC19alertPresentedStateAC0G0OSgvsyyXEfU_TA.276
++ _$s8GameSave0aB15SyncedDirectoryC19alertPresentedStateAC0G0OSgvsyyXEfU_TA.279
++ _$s8GameSave0aB15SyncedDirectoryC19alertPresentedStateAC0G0OSgvsyyXEfU_TA.284
++ _$s8GameSave0aB15SyncedDirectoryC19alertPresentedStateAC0G0OSgvsyyXEfU_TA.304
++ _$s8GameSave0aB15SyncedDirectoryC19alertPresentedStateAC0G0OSgvsyyXEfU_TA.306
++ _$s8GameSave0aB15SyncedDirectoryC24accountSigningInObserver33_F22FEAF55C33D8D98858C131D7DCE32CLLSo8NSObject_pSgvsyyXEfU_TA.227
++ _$s8GameSave0aB15SyncedDirectoryC24accountSigningInObserver33_F22FEAF55C33D8D98858C131D7DCE32CLLSo8NSObject_pSgvsyyXEfU_TA.267
++ _$s8GameSave0aB15SyncedDirectoryC33directoryStateTransitionStartTime33_F22FEAF55C33D8D98858C131D7DCE32CLLSdvg
++ _$s8GameSave0aB15SyncedDirectoryC33directoryStateTransitionStartTime33_F22FEAF55C33D8D98858C131D7DCE32CLLSdvgTm
++ _$s8GameSave0aB15SyncedDirectoryC33directoryStateTransitionStartTime33_F22FEAF55C33D8D98858C131D7DCE32CLLSdvpACTKTm
++ _$s8GameSave0aB15SyncedDirectoryC33directoryStateTransitionStartTime33_F22FEAF55C33D8D98858C131D7DCE32CLLSdvs
++ _$s8GameSave0aB15SyncedDirectoryC33directoryStateTransitionStartTime33_F22FEAF55C33D8D98858C131D7DCE32CLLSdvsTm
++ _$s8GameSave0aB15SyncedDirectoryC33directoryStateTransitionStartTime33_F22FEAF55C33D8D98858C131D7DCE32CLLSdvsyyXEfU_TA
++ _$s8GameSave0aB15SyncedDirectoryC33directoryStateTransitionStartTime33_F22FEAF55C33D8D98858C131D7DCE32CLLSdvsyyXEfU_TA.335
++ _$s8GameSave0aB15SyncedDirectoryC34_directoryStateTransitionStartTime33_F22FEAF55C33D8D98858C131D7DCE32CLLSdvpWvd
++ _$s8GameSave0aB15SyncedDirectoryC5alert33_F22FEAF55C33D8D98858C131D7DCE32CLLSo17UIAlertControllerCSgvsyyXEfU_TA.278
++ _$s8GameSave0aB15SyncedDirectoryC5alert33_F22FEAF55C33D8D98858C131D7DCE32CLLSo17UIAlertControllerCSgvsyyXEfU_TA.305
++ _$s8GameSave0aB15SyncedDirectoryC6_state33_F22FEAF55C33D8D98858C131D7DCE32CLLAC5StateOvsyyXEfU_TA.343
++ _$s8GameSave0aB15SyncedDirectoryC6window33_F22FEAF55C33D8D98858C131D7DCE32CLLSo8UIWindowCSgvsyyXEfU_TA.277
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRSb_TG5TA.192
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRSb_TG5TA.192TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRSb_TG5TA.192Tu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.331
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.331TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.331Tu
++ _block_copy_helper.228
++ _block_copy_helper.231
++ _block_copy_helper.234
++ _block_copy_helper.240
++ _block_copy_helper.281
++ _block_copy_helper.286
++ _block_copy_helper.289
++ _block_copy_helper.295
++ _block_copy_helper.301
++ _block_copy_helper.308
++ _block_copy_helper.340
++ _block_descriptor.230
++ _block_descriptor.233
++ _block_descriptor.236
++ _block_descriptor.242
++ _block_descriptor.283
++ _block_descriptor.288
++ _block_descriptor.291
++ _block_descriptor.297
++ _block_descriptor.303
++ _block_descriptor.310
++ _block_descriptor.342
++ _block_destroy_helper.229
++ _block_destroy_helper.232
++ _block_destroy_helper.235
++ _block_destroy_helper.241
++ _block_destroy_helper.282
++ _block_destroy_helper.287
++ _block_destroy_helper.290
++ _block_destroy_helper.296
++ _block_destroy_helper.302
++ _block_destroy_helper.309
++ _block_destroy_helper.341
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx8GameSave0fg7LoadingC8ModifierVGAaBHPxAaBHD1__AgA0cI0HPyHCHC.180
++ _objectdestroy.16Tm
++ _symbolic _____Sg 8GameSave0aB5ErrorO
++ _symbolic _____Sgz_Xx 8GameSave0aB5ErrorO
+- _$s8GameSave0aB15SyncedDirectoryC04sendD13TelemetryLazy33_F22FEAF55C33D8D98858C131D7DCE32CLL4fromyAC5StateO_tF
+- _$s8GameSave0aB15SyncedDirectoryC04sendD13TelemetryLazy33_F22FEAF55C33D8D98858C131D7DCE32CLL4fromyAC5StateO_tFSDySSSo8NSObjectCGSgycfU0_
+- _$s8GameSave0aB15SyncedDirectoryC04sendD13TelemetryLazy33_F22FEAF55C33D8D98858C131D7DCE32CLL4fromyAC5StateO_tFSDySSSo8NSObjectCGSgycfU0_TA
+- _$s8GameSave0aB15SyncedDirectoryC04sendD13TelemetryLazy33_F22FEAF55C33D8D98858C131D7DCE32CLL4fromyAC5StateO_tFSDySSSo8NSObjectCGSgycfU_
+- _$s8GameSave0aB15SyncedDirectoryC04sendD13TelemetryLazy33_F22FEAF55C33D8D98858C131D7DCE32CLL4fromyAC5StateO_tFSDySSSo8NSObjectCGSgycfU_TA
+- _$s8GameSave0aB15SyncedDirectoryC11drawStateUI6windowySo8UIWindowC_tFyyYaYbScMYccfU_TA.321
+- _$s8GameSave0aB15SyncedDirectoryC11drawStateUI6windowySo8UIWindowC_tFyyYaYbScMYccfU_TA.321TQ0_
+- _$s8GameSave0aB15SyncedDirectoryC11drawStateUI6windowySo8UIWindowC_tFyyYaYbScMYccfU_TA.321Tu
+- _$s8GameSave0aB15SyncedDirectoryC12continuation33_F22FEAF55C33D8D98858C131D7DCE32CLLScCyyts5NeverOGSgvsyyXEfU_TA.269
+- _$s8GameSave0aB15SyncedDirectoryC12continuation33_F22FEAF55C33D8D98858C131D7DCE32CLLScCyyts5NeverOGSgvsyyXEfU_TA.346
+- _$s8GameSave0aB15SyncedDirectoryC12lastResponse33_F22FEAF55C33D8D98858C131D7DCE32CLLAA0acdF0CSgvsyyXEfU_TA.267
+- _$s8GameSave0aB15SyncedDirectoryC13stateObserver33_F22FEAF55C33D8D98858C131D7DCE32CLLAC05StateF0CSgvsyyXEfU_TA.279
+- _$s8GameSave0aB15SyncedDirectoryC13stateObserver33_F22FEAF55C33D8D98858C131D7DCE32CLLAC05StateF0CSgvsyyXEfU_TA.284
+- _$s8GameSave0aB15SyncedDirectoryC13stateObserver33_F22FEAF55C33D8D98858C131D7DCE32CLLAC05StateF0CSgvsyyXEfU_TA.306
+- _$s8GameSave0aB15SyncedDirectoryC14StateTelemetry33_F22FEAF55C33D8D98858C131D7DCE32CLLOMF
+- _$s8GameSave0aB15SyncedDirectoryC14StateTelemetry33_F22FEAF55C33D8D98858C131D7DCE32CLLOMXX
+- _$s8GameSave0aB15SyncedDirectoryC14StateTelemetry33_F22FEAF55C33D8D98858C131D7DCE32CLLOMn
+- _$s8GameSave0aB15SyncedDirectoryC19alertPresentedStateAC0G0OSgvsyyXEfU_TA.275
+- _$s8GameSave0aB15SyncedDirectoryC19alertPresentedStateAC0G0OSgvsyyXEfU_TA.278
+- _$s8GameSave0aB15SyncedDirectoryC19alertPresentedStateAC0G0OSgvsyyXEfU_TA.283
+- _$s8GameSave0aB15SyncedDirectoryC19alertPresentedStateAC0G0OSgvsyyXEfU_TA.303
+- _$s8GameSave0aB15SyncedDirectoryC19alertPresentedStateAC0G0OSgvsyyXEfU_TA.305
+- _$s8GameSave0aB15SyncedDirectoryC22directorySyncStartTime33_F22FEAF55C33D8D98858C131D7DCE32CLLSdvg
+- _$s8GameSave0aB15SyncedDirectoryC22directorySyncStartTime33_F22FEAF55C33D8D98858C131D7DCE32CLLSdvgTm
+- _$s8GameSave0aB15SyncedDirectoryC22directorySyncStartTime33_F22FEAF55C33D8D98858C131D7DCE32CLLSdvpACTKTm
+- _$s8GameSave0aB15SyncedDirectoryC22directorySyncStartTime33_F22FEAF55C33D8D98858C131D7DCE32CLLSdvs
+- _$s8GameSave0aB15SyncedDirectoryC22directorySyncStartTime33_F22FEAF55C33D8D98858C131D7DCE32CLLSdvsTm
+- _$s8GameSave0aB15SyncedDirectoryC22directorySyncStartTime33_F22FEAF55C33D8D98858C131D7DCE32CLLSdvsyyXEfU_TA
+- _$s8GameSave0aB15SyncedDirectoryC22directorySyncStartTime33_F22FEAF55C33D8D98858C131D7DCE32CLLSdvsyyXEfU_TA.347
+- _$s8GameSave0aB15SyncedDirectoryC23_directorySyncStartTime33_F22FEAF55C33D8D98858C131D7DCE32CLLSdvpWvd
+- _$s8GameSave0aB15SyncedDirectoryC24accountSigningInObserver33_F22FEAF55C33D8D98858C131D7DCE32CLLSo8NSObject_pSgvsyyXEfU_TA.231
+- _$s8GameSave0aB15SyncedDirectoryC24accountSigningInObserver33_F22FEAF55C33D8D98858C131D7DCE32CLLSo8NSObject_pSgvsyyXEfU_TA.266
+- _$s8GameSave0aB15SyncedDirectoryC5alert33_F22FEAF55C33D8D98858C131D7DCE32CLLSo17UIAlertControllerCSgvsyyXEfU_TA.277
+- _$s8GameSave0aB15SyncedDirectoryC5alert33_F22FEAF55C33D8D98858C131D7DCE32CLLSo17UIAlertControllerCSgvsyyXEfU_TA.304
+- _$s8GameSave0aB15SyncedDirectoryC6_state33_F22FEAF55C33D8D98858C131D7DCE32CLLAC5StateOvsyyXEfU_TA.348
+- _$s8GameSave0aB15SyncedDirectoryC6window33_F22FEAF55C33D8D98858C131D7DCE32CLLSo8UIWindowCSgvsyyXEfU_TA.276
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRSb_TG5TA.196
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRSb_TG5TA.196TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRSb_TG5TA.196Tu
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.330
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.330TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.330Tu
+- _block_copy_helper.232
+- _block_copy_helper.235
+- _block_copy_helper.238
+- _block_copy_helper.244
+- _block_copy_helper.280
+- _block_copy_helper.285
+- _block_copy_helper.288
+- _block_copy_helper.294
+- _block_copy_helper.300
+- _block_copy_helper.307
+- _block_copy_helper.337
+- _block_copy_helper.343
+- _block_descriptor.234
+- _block_descriptor.237
+- _block_descriptor.240
+- _block_descriptor.246
+- _block_descriptor.282
+- _block_descriptor.287
+- _block_descriptor.290
+- _block_descriptor.296
+- _block_descriptor.302
+- _block_descriptor.309
+- _block_descriptor.339
+- _block_descriptor.345
+- _block_destroy_helper.233
+- _block_destroy_helper.236
+- _block_destroy_helper.239
+- _block_destroy_helper.245
+- _block_destroy_helper.281
+- _block_destroy_helper.286
+- _block_destroy_helper.289
+- _block_destroy_helper.295
+- _block_destroy_helper.301
+- _block_destroy_helper.308
+- _block_destroy_helper.338
+- _block_destroy_helper.344
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx8GameSave0fg7LoadingC8ModifierVGAaBHPxAaBHD1__AgA0cI0HPyHCHC.184
+- _objectdestroy.24Tm
+- _symbolic _____ 8GameSave0aB15SyncedDirectoryC14StateTelemetry33_F22FEAF55C33D8D98858C131D7DCE32CLLO
+CStrings:
++ "FromStateToState"
++ "TransitionTimeElapsed"
++ "_directoryStateTransitionStartTime"
++ "com.apple.GameSave.DirectoryStateTransition"
++ "initWithString:"
+- "DirectoryStateAfterSyncing"
+- "_directorySyncStartTime"
+- "com.apple.GameSave.DirectoryState"
+- "com.apple.GameSave.SyncTime"
+
+```

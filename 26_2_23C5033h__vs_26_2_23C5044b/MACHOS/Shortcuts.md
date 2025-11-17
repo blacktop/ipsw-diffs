@@ -1,0 +1,59 @@
+## Shortcuts
+
+> `/private/var/staged_system_apps/Shortcuts.app/Shortcuts`
+
+```diff
+
+-4045.0.0.0.0
+-  __TEXT.__text: 0xb4c08
+-  __TEXT.__auth_stubs: 0x47d0
++4046.0.2.1.101
++  __TEXT.__text: 0xb4da0
++  __TEXT.__auth_stubs: 0x47e0
+   __TEXT.__objc_stubs: 0x1e20
+   __TEXT.__objc_methlist: 0x1ee4
+-  __TEXT.__const: 0x66a8
++  __TEXT.__const: 0x6698
+   __TEXT.__cstring: 0x4269
+-  __TEXT.__swift5_typeref: 0x68a6
++  __TEXT.__swift5_typeref: 0x6918
+   __TEXT.__constg_swiftt: 0x27a0
+   __TEXT.__swift5_builtin: 0x8c
+   __TEXT.__swift5_reflstr: 0x1202
+
+   __TEXT.__gcc_except_tab: 0x38
+   __TEXT.__unwind_info: 0x2b08
+   __TEXT.__eh_frame: 0x2094
+-  __DATA_CONST.__auth_got: 0x23f8
++  __DATA_CONST.__auth_got: 0x2400
+   __DATA_CONST.__got: 0x13e0
+   __DATA_CONST.__auth_ptr: 0x1428
+   __DATA_CONST.__const: 0x37a8
+
+   __DATA.__objc_selrefs: 0x21a0
+   __DATA.__objc_ivar: 0x34
+   __DATA.__objc_data: 0x21e8
+-  __DATA.__data: 0x4218
++  __DATA.__data: 0x4228
+   __DATA.__objc_stublist: 0x10
+   __DATA.__bss: 0x6550
+   __DATA.__common: 0x3f0
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 61AFB929-D536-33EB-89C0-34C12891D7C6
+-  Functions: 4195
+-  Symbols:   2310
++  UUID: 83C5DE49-A06C-3FF7-9129-B25CBB5B9E41
++  Functions: 4196
++  Symbols:   2311
+   CStrings:  2103
+ 
+Symbols:
++ _$s7SwiftUI4ViewPAAE19accessibilityHiddenyAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSbF
+Functions:
+~ sub_10007d5c4 : 5192 -> 5420
++ sub_100082b28
+
+```

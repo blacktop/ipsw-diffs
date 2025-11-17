@@ -1,0 +1,294 @@
+## PassKitUI
+
+> `/System/Library/PrivateFrameworks/PassKitUI.framework/PassKitUI`
+
+```diff
+
+-1642.3.3.0.0
+-  __TEXT.__text: 0x10203dc
++1642.3.5.0.0
++  __TEXT.__text: 0x10215a4
+   __TEXT.__auth_stubs: 0x10cc0
+-  __TEXT.__objc_methlist: 0x58068
+-  __TEXT.__const: 0x66290
+-  __TEXT.__cstring: 0x6e62d
+-  __TEXT.__swift5_typeref: 0xd076e
+-  __TEXT.__constg_swiftt: 0x1e9cc
+-  __TEXT.__swift5_fieldmd: 0x18e84
++  __TEXT.__objc_methlist: 0x580a8
++  __TEXT.__const: 0x66330
++  __TEXT.__cstring: 0x6e759
++  __TEXT.__swift5_typeref: 0xd088e
++  __TEXT.__constg_swiftt: 0x1ea00
++  __TEXT.__swift5_fieldmd: 0x18eb8
+   __TEXT.__swift5_builtin: 0xc30
+   __TEXT.__swift5_reflstr: 0x1c07f
+   __TEXT.__swift5_assocty: 0x6378
+   __TEXT.__oslogstring: 0x242eb
+-  __TEXT.__swift5_capture: 0xf1b0
+-  __TEXT.__swift5_proto: 0x2284
+-  __TEXT.__swift5_types: 0x1948
++  __TEXT.__swift5_capture: 0xf1b4
++  __TEXT.__swift5_proto: 0x228c
++  __TEXT.__swift5_types: 0x194c
+   __TEXT.__swift_as_entry: 0x6e4
+   __TEXT.__swift_as_ret: 0x888
+   __TEXT.__swift5_protos: 0xf0
+   __TEXT.__swift5_mpenum: 0x114
+-  __TEXT.__gcc_except_tab: 0x13ff4
++  __TEXT.__gcc_except_tab: 0x1400c
+   __TEXT.__ustring: 0xcb4
+-  __TEXT.__unwind_info: 0x315b0
+-  __TEXT.__eh_frame: 0x17754
+-  __TEXT.__objc_classname: 0x106e2
+-  __TEXT.__objc_methname: 0xc1f36
++  __TEXT.__unwind_info: 0x315d0
++  __TEXT.__eh_frame: 0x177cc
++  __TEXT.__objc_classname: 0x106e5
++  __TEXT.__objc_methname: 0xc1fcc
+   __TEXT.__objc_methtype: 0x258e3
+-  __TEXT.__objc_stubs: 0x7a640
+-  __DATA_CONST.__got: 0xb540
+-  __DATA_CONST.__const: 0x187a0
++  __TEXT.__objc_stubs: 0x7a720
++  __DATA_CONST.__got: 0xb558
++  __DATA_CONST.__const: 0x187c0
+   __DATA_CONST.__objc_classlist: 0x3590
+   __DATA_CONST.__objc_catlist: 0x1c8
+   __DATA_CONST.__objc_protolist: 0x17b0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x27338
++  __DATA_CONST.__objc_selrefs: 0x27370
+   __DATA_CONST.__objc_protorefs: 0x688
+   __DATA_CONST.__objc_superrefs: 0x2308
+   __DATA_CONST.__objc_arraydata: 0x558
+   __DATA_CONST.__vfx_script_tbl: 0x20
+   __AUTH_CONST.__auth_got: 0x8670
+-  __AUTH_CONST.__const: 0x481a0
+-  __AUTH_CONST.__cfstring: 0x328c0
+-  __AUTH_CONST.__objc_const: 0xbfb20
++  __AUTH_CONST.__const: 0x48230
++  __AUTH_CONST.__cfstring: 0x329e0
++  __AUTH_CONST.__objc_const: 0xbfba8
+   __AUTH_CONST.__objc_doubleobj: 0x1b0
+   __AUTH_CONST.__objc_intobj: 0x14a0
+   __AUTH_CONST.__objc_arrayobj: 0x600
+   __AUTH_CONST.__objc_dictobj: 0x118
+-  __AUTH.__objc_data: 0x2f470
++  __AUTH.__objc_data: 0x2f498
+   __AUTH.__data: 0x187f8
+-  __DATA.__objc_ivar: 0x921c
+-  __DATA.__data: 0x324d8
++  __DATA.__objc_ivar: 0x9220
++  __DATA.__data: 0x32508
+   __DATA.__objc_stublist: 0x10
+-  __DATA.__bss: 0x42b48
++  __DATA.__bss: 0x42c48
+   __DATA.__common: 0xce0
+   __DATA_DIRTY.__objc_data: 0x2608
+   __DATA_DIRTY.__data: 0x28
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FA5B358E-9515-3949-AFC0-B5F5152CE3A9
+-  Functions: 73585
+-  Symbols:   125411
+-  CStrings:  54205
++  UUID: 60476111-819B-3629-93FC-6B6FCF75E6E5
++  Functions: 73600
++  Symbols:   125439
++  CStrings:  54230
+ 
+Symbols:
++ -[PKBoardingPassFaceBucketsFactory footerFields]
++ -[PKBoardingPassSemanticTileSupplier _relevantAirportLocation]
++ -[PKBoardingPassSemanticTileSupplier _relevantAirportNameOrCode]
++ -[PKBoardingPassSemanticTileSupplier standbyListURL]
++ _OBJC_CLASS_$_PKMembershipProgram
++ _PKAccessibilityIdentifierStandby
++ _PKPassSemanticDateKeyCurrentBoardingGateCloseDate
++ _PKPassSemanticDateKeyOriginalBoardingGateCloseDate
++ _PKPassSemanticStringKeyBoardingPosition
++ _PKPassSemanticStringKeyConfirmationNumber
++ __PROTOCOLS__TtC9PassKitUI32DynamicPaymentButtonSlotDelegate.27
++ ___105-[PKPassSemanticTileFactory reloadMapsInformationForDescriptor:contentIdentifier:tileContext:completion:]_block_invoke.341
++ ___110-[PKPassPaymentContainerView _fetchBarcodeForPassUniqueIdentifier:shouldReregisterIfNecessary:withCompletion:]_block_invoke.412
++ ___114-[PKPassPaymentContainerView _retrieveDecryptedBarcodeWithAuthorization:shouldFetchBarcodeIfNecessary:completion:]_block_invoke.410
++ ___57-[PKDashboardPaymentPassDataSource _lostModeButtonTapped]_block_invoke.2048
++ ___63-[PKPassSemanticBoardingPassFaceView flushPassStateFieldValues]_block_invoke_5
++ ___65-[PKDashboardPaymentPassDataSource _addToAMPButtonTappedForPass:]_block_invoke.2080
++ ___65-[PKDashboardPaymentPassDataSource _addToAMPButtonTappedForPass:]_block_invoke_2.2093
++ ___66-[PKDashboardPaymentPassDataSource _fetchAMPEnrollmentEligibility]_block_invoke.2067
++ ___66-[PKDashboardPaymentPassDataSource _fetchAMPEnrollmentEligibility]_block_invoke.2072
++ ___66-[PKDashboardPaymentPassDataSource _fetchAMPEnrollmentEligibility]_block_invoke_2.2073
++ ___81-[PKDashboardPaymentPassDataSource _calculateDiffAndUpdateWithTransactionGroups:]_block_invoke.2213
++ ___81-[PKDashboardPaymentPassDataSource _calculateDiffAndUpdateWithTransactionGroups:]_block_invoke.2214
++ ___82-[PKPassPaymentContainerView _submitSignatureForTransactionIdentifier:completion:]_block_invoke.426
++ ___82-[PKPassPaymentContainerView _submitSignatureForTransactionIdentifier:completion:]_block_invoke.427
++ ___82-[PKPassPaymentContainerView _submitSignatureForTransactionIdentifier:completion:]_block_invoke_2.428
++ ___82-[PKPassPaymentContainerView _submitSignatureForTransactionIdentifier:completion:]_block_invoke_3.429
++ ___82-[PKPassPaymentContainerView passcodeViewController:didGenerateEncryptedPasscode:]_block_invoke.487
++ ___82-[PKPassPaymentContainerView passcodeViewController:didGenerateEncryptedPasscode:]_block_invoke_2.488
++ ___82-[PKPassPaymentContainerView passcodeViewController:didGenerateEncryptedPasscode:]_block_invoke_3.489
++ ___82-[PKPassPaymentContainerView passcodeViewController:didGenerateEncryptedPasscode:]_block_invoke_4.499
++ ___82-[PKPassPaymentContainerView passcodeViewController:didGenerateEncryptedPasscode:]_block_invoke_5.500
++ ___85-[PKDashboardPaymentPassDataSource issuerInstallmentDashboardMessagesWithCompletion:]_block_invoke.2223
++ ___85-[PKDashboardPaymentPassDataSource issuerInstallmentDashboardMessagesWithCompletion:]_block_invoke_2.2224
++ ___85-[PKDashboardPaymentPassDataSource issuerInstallmentDashboardMessagesWithCompletion:]_block_invoke_3.2225
++ ___85-[PKDashboardPaymentPassDataSource issuerInstallmentDashboardMessagesWithCompletion:]_block_invoke_4.2226
++ ___86-[PKDashboardPaymentPassDataSource(BankConnect) _startTransactionsLoadingMessageTimer]_block_invoke.224
++ ___86-[PKPassPaymentContainerView _submitEncryptedPIN:forTransactionIdentifier:completion:]_block_invoke.507
++ ___86-[PKPassPaymentContainerView _submitEncryptedPIN:forTransactionIdentifier:completion:]_block_invoke_2.508
++ ___86-[PKPassPaymentContainerView _submitEncryptedPIN:forTransactionIdentifier:completion:]_block_invoke_3.509
++ ___90-[PKPassPaymentContainerView _collectAndSubmitBarcodeEventMetadataWithAuthenticationType:]_block_invoke.533
++ ___90-[PKPassPaymentContainerView _collectAndSubmitBarcodeEventMetadataWithAuthenticationType:]_block_invoke.538
++ ___90-[PKPassPaymentContainerView _collectAndSubmitBarcodeEventMetadataWithAuthenticationType:]_block_invoke.540
++ ___90-[PKPassPaymentContainerView _collectAndSubmitBarcodeEventMetadataWithAuthenticationType:]_block_invoke_2.534
++ ___90-[PKPassPaymentContainerView _collectAndSubmitBarcodeEventMetadataWithAuthenticationType:]_block_invoke_2.546
++ ___90-[PKPassPaymentContainerView _collectAndSubmitBarcodeEventMetadataWithAuthenticationType:]_block_invoke_3.537
++ ___90-[PKPassPaymentContainerView _collectAndSubmitBarcodeEventMetadataWithAuthenticationType:]_block_invoke_3.547
++ ___90-[PKPassPaymentContainerView _submitUserConfirmation:forTransactionIdentifier:completion:]_block_invoke.480
++ ___90-[PKPassPaymentContainerView _submitUserConfirmation:forTransactionIdentifier:completion:]_block_invoke.481
++ ___90-[PKPassPaymentContainerView _submitUserConfirmation:forTransactionIdentifier:completion:]_block_invoke_2.482
++ ___90-[PKPassPaymentContainerView _submitUserConfirmation:forTransactionIdentifier:completion:]_block_invoke_3.483
++ ___95-[PKPassSessionlessContainerView passTileGroupView:executeSEActionForPass:tile:withCompletion:]_block_invoke.132
++ ___95-[PKPassSessionlessContainerView passTileGroupView:executeSEActionForPass:tile:withCompletion:]_block_invoke_2.133
++ ___95-[PKPassSessionlessContainerView passTileGroupView:executeSEActionForPass:tile:withCompletion:]_block_invoke_3.135
++ ___95-[PKPassSessionlessContainerView passTileGroupView:executeSEActionForPass:tile:withCompletion:]_block_invoke_4.137
++ ___95-[PKPassSessionlessContainerView passTileGroupView:executeSEActionForPass:tile:withCompletion:]_block_invoke_5.138
++ ___99-[PKPassPaymentContainerView _reregisterAuxiliaryCapabilityForPassUniqueIdentifier:withCompletion:]_block_invoke.413
++ ___block_literal_global.1176
++ ___block_literal_global.144
++ ___block_literal_global.2062
++ ___block_literal_global.2140
++ ___block_literal_global.3198
++ ___block_literal_global.3202
++ ___block_literal_global.3257
++ ___block_literal_global.3263
++ ___block_literal_global.3270
++ ___block_literal_global.335
++ ___block_literal_global.528
++ _associated conformance 9PassKitUI07FinanceB26SpendingSummariesGraphViewV11DisplayModeOSHAASQ
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA6HStackVyAA9TupleViewVyACy07PassKitB0024FlightWidgetStatusSymbolG0VAA16_FlexFrameLayoutVGSg_ACyACyAH0jkl7MessageG0VAA21_TraitWritingModifierVyAA0p8PriorityR3KeyVGGALGSgtGGAA012_EnvironmentvsT0Vy12CoreGraphics7CGFloatVGGAA010_FixedSizeP0VGALGAA0G0HPA8_AAA10_HPA5_AAA10_HPAzAA10_HPyHC_A4_AA0gT0HPyHCHC_A7_AAA11_HPyHCHC_AlAA11_HPyHCHC.12
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBP6ChartsE12chartOverlay9alignment7contentQrAA9AlignmentV_qd__AD10ChartProxyVctAaBRd__lFQOyAcDE0E6YScale6domain4typeQrqd___AD9ScaleTypeVSgtAD0O6DomainRd__lFQOyAcDE0E5YAxisAGQrqd__yXE_tAD11AxisContentRd__lFQOyAcDEASyQrAA10VisibilityOFQOyAcDE0E5XAxisAGQrqd__yXE_tAdTRd__lFQOyAcDEAWyQrAVFQOyAcDE0E10BackgroundAfGQrAI_qd__AKctAaBRd__lFQOyAD0J0VyAA7ForEachVySay07PassKitB041FinanceKitDailyCategorySpendingAggregatorV31PerCalendarUnitCategorySpendingVGSiAD0jT0PADE7opacityyQrSdFQOyAD7BarMarkV_Qo_GG_AA14GeometryReaderVyA0_ys18EnumeratedSequenceVyA6_GSiAA08ModifiedT0VyA21_yA21_yAA16RoundedRectangleVAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGAA12_FrameLayoutVGAA15_PositionLayoutVGSgGSgGSgQo__Qo__AD0S5MarksVyAD18BuilderConditionalVyA47_yAD0S4MarkPADE4fontyQrAA4FontVSgFQOyAD0S10ValueLabelVys5NeverOG_Qo_A59_GA59_GGQo__Qo__A45_yA47_yAD12BuilderTupleVyA49_ADE15foregroundStyleyQrqd__AA10ShapeStyleRd__lFQOyAD0S8GridLineV_A27_Qo__A55_yA21_yAA4TextVAA14_PaddingLayoutVGGQPGA71_GGQo__SNySdGQo__A16_yA0_yA19_SiA21_yA21_yAA06_ShapeC0VyAA22UnevenRoundedRectangleVAA10ImagePaintVGA32_GA35_GSgGSgGQo_HO.58
++ _objc_msgSend$_relevantAirportLocation
++ _objc_msgSend$_relevantAirportNameOrCode
++ _objc_msgSend$destinationAirportName
++ _objc_msgSend$footerFields
++ _objc_msgSend$initWithType:style:paymentRequest:buttonSize:interfaceStyle:cornerRadius:action:
++ _objc_msgSend$memberStatus
++ _objc_msgSend$programsFromSemantics:
++ _objc_msgSend$standbyListURL
++ _symbolic SaySNy_____GSgG 12CoreGraphics7CGFloatV
++ _symbolic _____ 9PassKitUI07FinanceB26SpendingSummariesGraphViewV11DisplayModeO
++ _symbolic _____yAAyAAy_____y_____yAAy__________GSg_AAyAAy__________y_____GGAEGSgtGG_____y_____GG_____GAEG 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV 07PassKitB0024FlightWidgetStatusSymbolG0V AA16_FlexFrameLayoutV AH0jkl7MessageG0V AA21_TraitWritingModifierV AA0p8PriorityR3KeyV AA012_EnvironmentvsT0V 12CoreGraphics7CGFloatV AA010_FixedSizeP0V
++ _symbolic _____yAAy__________y_____GG_____G 7SwiftUI15ModifiedContentV 07PassKitB029FlightWidgetStatusMessageViewV AA21_TraitWritingModifierV AA014LayoutPriorityL3KeyV AA010_FlexFrameO0V
++ _symbolic _____yAAy__________y_____GG_____GSg 7SwiftUI15ModifiedContentV 07PassKitB029FlightWidgetStatusMessageViewV AA21_TraitWritingModifierV AA014LayoutPriorityL3KeyV AA010_FlexFrameO0V
++ _symbolic _____yAAy_____y_____yAAy__________GSg_AAyAAy__________y_____GGAEGSgtGG_____y_____GG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV 07PassKitB0024FlightWidgetStatusSymbolG0V AA16_FlexFrameLayoutV AH0jkl7MessageG0V AA21_TraitWritingModifierV AA0p8PriorityR3KeyV AA012_EnvironmentvsT0V 12CoreGraphics7CGFloatV AA010_FixedSizeP0V
++ _symbolic _____ySNy_____GSgG s23_ContiguousArrayStorageC 12CoreGraphics7CGFloatV
++ _symbolic _____y__________GSg 7SwiftUI15ModifiedContentV 07PassKitB028FlightWidgetStatusSymbolViewV AA16_FlexFrameLayoutV
++ _symbolic _____y__________GSg_AAyAAy__________y_____GGACGSgt 7SwiftUI15ModifiedContentV 07PassKitB028FlightWidgetStatusSymbolViewV AA16_FlexFrameLayoutV AD0ghi7MessageK0V AA21_TraitWritingModifierV AA0n8PriorityP3KeyV
++ _symbolic _____y___________y_____y__________GSg_ADyADy__________y_____GGAFGSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA15ModifiedContentV 07PassKitB0024FlightWidgetStatusSymbolD0V AA010_FlexFrameG0V AL0mno7MessageD0V AA21_TraitWritingModifierV AA0g8PriorityT3KeyV
++ _symbolic _____y_____y_____yAAy__________GSg_AAyAAy__________y_____GGAEGSgtGG_____y_____GG 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV 07PassKitB0024FlightWidgetStatusSymbolG0V AA16_FlexFrameLayoutV AH0jkl7MessageG0V AA21_TraitWritingModifierV AA0p8PriorityR3KeyV AA012_EnvironmentvsT0V 12CoreGraphics7CGFloatV
++ _symbolic _____y_____y_____y__________GSg_ACyACy__________y_____GGAEGSgtGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV 07PassKitB0024FlightWidgetStatusSymbolE0V AA16_FlexFrameLayoutV AH0jkl7MessageE0V AA21_TraitWritingModifierV AA0p8PriorityR3KeyV
+- _PKPassSemanticStringKeyMembershipProgramStatus
+- __PROTOCOLS__TtC9PassKitUI32DynamicPaymentButtonSlotDelegate.24
+- ___105-[PKPassSemanticTileFactory reloadMapsInformationForDescriptor:contentIdentifier:tileContext:completion:]_block_invoke.339
+- ___110-[PKPassPaymentContainerView _fetchBarcodeForPassUniqueIdentifier:shouldReregisterIfNecessary:withCompletion:]_block_invoke.415
+- ___114-[PKPassPaymentContainerView _retrieveDecryptedBarcodeWithAuthorization:shouldFetchBarcodeIfNecessary:completion:]_block_invoke.413
+- ___57-[PKDashboardPaymentPassDataSource _lostModeButtonTapped]_block_invoke.2051
+- ___65-[PKDashboardPaymentPassDataSource _addToAMPButtonTappedForPass:]_block_invoke.2083
+- ___65-[PKDashboardPaymentPassDataSource _addToAMPButtonTappedForPass:]_block_invoke_2.2096
+- ___66-[PKDashboardPaymentPassDataSource _fetchAMPEnrollmentEligibility]_block_invoke.2070
+- ___66-[PKDashboardPaymentPassDataSource _fetchAMPEnrollmentEligibility]_block_invoke.2075
+- ___66-[PKDashboardPaymentPassDataSource _fetchAMPEnrollmentEligibility]_block_invoke_2.2076
+- ___81-[PKDashboardPaymentPassDataSource _calculateDiffAndUpdateWithTransactionGroups:]_block_invoke.2216
+- ___81-[PKDashboardPaymentPassDataSource _calculateDiffAndUpdateWithTransactionGroups:]_block_invoke.2217
+- ___82-[PKPassPaymentContainerView _submitSignatureForTransactionIdentifier:completion:]_block_invoke.429
+- ___82-[PKPassPaymentContainerView _submitSignatureForTransactionIdentifier:completion:]_block_invoke.430
+- ___82-[PKPassPaymentContainerView _submitSignatureForTransactionIdentifier:completion:]_block_invoke_2.431
+- ___82-[PKPassPaymentContainerView _submitSignatureForTransactionIdentifier:completion:]_block_invoke_3.432
+- ___82-[PKPassPaymentContainerView passcodeViewController:didGenerateEncryptedPasscode:]_block_invoke.490
+- ___82-[PKPassPaymentContainerView passcodeViewController:didGenerateEncryptedPasscode:]_block_invoke_2.491
+- ___82-[PKPassPaymentContainerView passcodeViewController:didGenerateEncryptedPasscode:]_block_invoke_3.492
+- ___82-[PKPassPaymentContainerView passcodeViewController:didGenerateEncryptedPasscode:]_block_invoke_4.502
+- ___82-[PKPassPaymentContainerView passcodeViewController:didGenerateEncryptedPasscode:]_block_invoke_5.503
+- ___85-[PKDashboardPaymentPassDataSource issuerInstallmentDashboardMessagesWithCompletion:]_block_invoke.2226
+- ___85-[PKDashboardPaymentPassDataSource issuerInstallmentDashboardMessagesWithCompletion:]_block_invoke_2.2227
+- ___85-[PKDashboardPaymentPassDataSource issuerInstallmentDashboardMessagesWithCompletion:]_block_invoke_3.2228
+- ___85-[PKDashboardPaymentPassDataSource issuerInstallmentDashboardMessagesWithCompletion:]_block_invoke_4.2229
+- ___86-[PKDashboardPaymentPassDataSource(BankConnect) _startTransactionsLoadingMessageTimer]_block_invoke.225
+- ___86-[PKPassPaymentContainerView _submitEncryptedPIN:forTransactionIdentifier:completion:]_block_invoke.510
+- ___86-[PKPassPaymentContainerView _submitEncryptedPIN:forTransactionIdentifier:completion:]_block_invoke_2.511
+- ___86-[PKPassPaymentContainerView _submitEncryptedPIN:forTransactionIdentifier:completion:]_block_invoke_3.512
+- ___90-[PKPassPaymentContainerView _collectAndSubmitBarcodeEventMetadataWithAuthenticationType:]_block_invoke.536
+- ___90-[PKPassPaymentContainerView _collectAndSubmitBarcodeEventMetadataWithAuthenticationType:]_block_invoke.541
+- ___90-[PKPassPaymentContainerView _collectAndSubmitBarcodeEventMetadataWithAuthenticationType:]_block_invoke.543
+- ___90-[PKPassPaymentContainerView _collectAndSubmitBarcodeEventMetadataWithAuthenticationType:]_block_invoke_2.537
+- ___90-[PKPassPaymentContainerView _collectAndSubmitBarcodeEventMetadataWithAuthenticationType:]_block_invoke_2.549
+- ___90-[PKPassPaymentContainerView _collectAndSubmitBarcodeEventMetadataWithAuthenticationType:]_block_invoke_3.540
+- ___90-[PKPassPaymentContainerView _collectAndSubmitBarcodeEventMetadataWithAuthenticationType:]_block_invoke_3.550
+- ___90-[PKPassPaymentContainerView _submitUserConfirmation:forTransactionIdentifier:completion:]_block_invoke.483
+- ___90-[PKPassPaymentContainerView _submitUserConfirmation:forTransactionIdentifier:completion:]_block_invoke.484
+- ___90-[PKPassPaymentContainerView _submitUserConfirmation:forTransactionIdentifier:completion:]_block_invoke_2.485
+- ___90-[PKPassPaymentContainerView _submitUserConfirmation:forTransactionIdentifier:completion:]_block_invoke_3.486
+- ___95-[PKPassSessionlessContainerView passTileGroupView:executeSEActionForPass:tile:withCompletion:]_block_invoke.135
+- ___95-[PKPassSessionlessContainerView passTileGroupView:executeSEActionForPass:tile:withCompletion:]_block_invoke_2.136
+- ___95-[PKPassSessionlessContainerView passTileGroupView:executeSEActionForPass:tile:withCompletion:]_block_invoke_3.138
+- ___95-[PKPassSessionlessContainerView passTileGroupView:executeSEActionForPass:tile:withCompletion:]_block_invoke_4.140
+- ___95-[PKPassSessionlessContainerView passTileGroupView:executeSEActionForPass:tile:withCompletion:]_block_invoke_5.141
+- ___99-[PKPassPaymentContainerView _reregisterAuxiliaryCapabilityForPassUniqueIdentifier:withCompletion:]_block_invoke.416
+- ___block_literal_global.1179
+- ___block_literal_global.147
+- ___block_literal_global.2065
+- ___block_literal_global.2143
+- ___block_literal_global.3201
+- ___block_literal_global.3205
+- ___block_literal_global.3260
+- ___block_literal_global.3266
+- ___block_literal_global.3273
+- ___block_literal_global.336
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA6HStackVyAA9TupleViewVy07PassKitB0024FlightWidgetStatusSymbolG0VSg_ACyAH0jkl7MessageG0VAA21_TraitWritingModifierVyAA014LayoutPriorityO3KeyVGGSgtGGAA012_EnvironmenttpQ0Vy12CoreGraphics7CGFloatVGGAA010_FlexFrameR0VGAA0G0HPA1_AAA5_HPAvAA5_HPyHC_A0_AA0gQ0HPyHCHC_A3_AAA6_HPyHCHC.12
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBP6ChartsE12chartOverlay9alignment7contentQrAA9AlignmentV_qd__AD10ChartProxyVctAaBRd__lFQOyAcDE0E6YScale6domain4typeQrqd___AD9ScaleTypeVSgtAD0O6DomainRd__lFQOyAcDE0E5YAxisAGQrqd__yXE_tAD11AxisContentRd__lFQOyAcDEASyQrAA10VisibilityOFQOyAcDE0E5XAxisAGQrqd__yXE_tAdTRd__lFQOyAcDEAWyQrAVFQOyAcDE0E10BackgroundAfGQrAI_qd__AKctAaBRd__lFQOyAD0J0VyAA7ForEachVySay07PassKitB041FinanceKitDailyCategorySpendingAggregatorV31PerCalendarUnitCategorySpendingVGSiAD0jT0PADE7opacityyQrSdFQOyAD7BarMarkV_Qo_GG_AA14GeometryReaderVyA0_ys18EnumeratedSequenceVyA6_GSiAA08ModifiedT0VyA21_yA21_yAA16RoundedRectangleVAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGAA12_FrameLayoutVGAA15_PositionLayoutVGSgGSgGSgQo__Qo__AD0S5MarksVyAD18BuilderConditionalVyA47_yAD0S4MarkPADE4fontyQrAA4FontVSgFQOyAD0S10ValueLabelVys5NeverOG_Qo_A59_GA59_GGQo__Qo__A45_yA47_yAD12BuilderTupleVyA49_ADE15foregroundStyleyQrqd__AA10ShapeStyleRd__lFQOyAD0S8GridLineV_A27_Qo__A55_yA21_yAA4TextVAA14_PaddingLayoutVGGQPGA71_GGQo__SNySdGQo__A16_yA0_yA19_SiA21_yA21_yAA06_ShapeC0VyAA22UnevenRoundedRectangleVAA10ImagePaintVGA32_GA35_GSgGSgGQo_HO.53
+- _objc_msgSend$initWithType:style:paymentRequest:buttonSize:interfaceStyle:action:
+- _symbolic _____ 7SwiftUI10VisibilityO
+- _symbolic _____Sg______y__________y_____GGSgt 9PassKitUI28FlightWidgetStatusSymbolViewV 05SwiftC015ModifiedContentV AA0def7MessageH0V AD21_TraitWritingModifierV AD014LayoutPriorityM3KeyV
+- _symbolic _____yAAy_____y_____y_____Sg_AAy__________y_____GGSgtGG_____y_____GG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV 07PassKitB0024FlightWidgetStatusSymbolG0V AH0jkl7MessageG0V AA21_TraitWritingModifierV AA014LayoutPriorityO3KeyV AA012_EnvironmenttpQ0V 12CoreGraphics7CGFloatV AA010_FlexFrameR0V
+- _symbolic _____y___________y_____Sg______y__________y_____GGSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V 07PassKitB0024FlightWidgetStatusSymbolD0V AA15ModifiedContentV AJ0klm7MessageD0V AA21_TraitWritingModifierV AA0g8PriorityR3KeyV
+- _symbolic _____y__________y_____GGSg 7SwiftUI15ModifiedContentV 07PassKitB029FlightWidgetStatusMessageViewV AA21_TraitWritingModifierV AA014LayoutPriorityL3KeyV
+- _symbolic _____y_____y_____Sg______y__________y_____GGSgtGG 7SwiftUI6HStackV AA9TupleViewV 07PassKitB0024FlightWidgetStatusSymbolE0V AA15ModifiedContentV AF0hij7MessageE0V AA21_TraitWritingModifierV AA014LayoutPriorityO3KeyV
+- _symbolic _____y_____y_____y_____Sg_AAy__________y_____GGSgtGG_____y_____GG 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV 07PassKitB0024FlightWidgetStatusSymbolG0V AH0jkl7MessageG0V AA21_TraitWritingModifierV AA014LayoutPriorityO3KeyV AA012_EnvironmenttpQ0V 12CoreGraphics7CGFloatV
+CStrings:
++ "@80@0:8q16q24@32{CGSize=dd}40q56d64@?72"
++ "FLIGHT_DETAIL_GATE_CLOSES_TIME"
++ "FLIGHT_DETAIL_LABEL_BOARDING_POSITION"
++ "FLIGHT_DETAIL_LABEL_BOARDING_SEQUENCE_NUMBER_BADGE"
++ "PASS_CAPABILITY_BADGE_EXTRA_CARRYON"
++ "PASS_CAPABILITY_BADGE_LAP_INFANT"
++ "PASS_CAPABILITY_BADGE_NO_CARRYON"
++ "PASS_DASHBOARD_DETAILS_TILE_EXTRA_INCLUDED_LABEL"
++ "TILE_ISSUER_ACTION_STANDBY_LIST"
++ "_relevantAirportLocation"
++ "_relevantAirportNameOrCode"
++ "containsValueForKey:"
++ "footerFields"
++ "initWithType:style:paymentRequest:buttonSize:interfaceStyle:cornerRadius:action:"
++ "list.bullet.clipboard.fill"
++ "memberStatus"
++ "membershipProgram.%d"
++ "passengerCapabilities.extracarryon"
++ "passengerCapabilities.lapInfant"
++ "passengerCapabilities.nocarryon"
++ "programsFromSemantics:"
++ "standbyListTile"
++ "standbyListURL"
+- "@72@0:8q16q24@32{CGSize=dd}40q56@?64"
+- "FLIGHT_DETAIL_LABEL_BOARDING_SEQUENCE_NUMBER"
+- "FLIGHT_DETAIL_LABEL_BOARDING_SEQUENCE_NUMBER_ACCESSIBILITY"
+- "PASS_CAPABILITY_BADGE_CARRYON"
+- "initWithType:style:paymentRequest:buttonSize:interfaceStyle:action:"
+- "passengerCapabilities.carryon"
+- "prefs:root=Bluetooth"
+
+```
