@@ -1,0 +1,105 @@
+## AppleAccountUI
+
+> `/System/Library/PrivateFrameworks/AppleAccountUI.framework/AppleAccountUI`
+
+```diff
+
+-553.250.3.0.0
+-  __TEXT.__text: 0x252f00
+-  __TEXT.__auth_stubs: 0x3be0
++553.250.4.2.0
++  __TEXT.__text: 0x2563d0
++  __TEXT.__auth_stubs: 0x3c10
+   __TEXT.__delay_stubs: 0x58
+   __TEXT.__delay_helper: 0x244
+   __TEXT.__objc_methlist: 0xb52c
+   __TEXT.__cstring: 0xa6b9
+-  __TEXT.__const: 0xbeee
++  __TEXT.__const: 0xbe9e
+   __TEXT.__gcc_except_tab: 0x16cc
+   __TEXT.__oslogstring: 0xe81c
+   __TEXT.__dlopen_cstrs: 0x526
+   __TEXT.__ustring: 0x4
+-  __TEXT.__constg_swiftt: 0x4bf8
+-  __TEXT.__swift5_typeref: 0xd68a
+-  __TEXT.__swift5_reflstr: 0x2646
+-  __TEXT.__swift5_fieldmd: 0x2494
++  __TEXT.__constg_swiftt: 0x4c04
++  __TEXT.__swift5_typeref: 0xd6ac
++  __TEXT.__swift5_reflstr: 0x2666
++  __TEXT.__swift5_fieldmd: 0x24a0
+   __TEXT.__swift5_types: 0x454
+   __TEXT.__swift5_capture: 0x2b4c
+   __TEXT.__swift5_assocty: 0xc50
+
+   __TEXT.__swift5_builtin: 0x1cc
+   __TEXT.__swift5_protos: 0x2c
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x56a0
++  __TEXT.__unwind_info: 0x5698
+   __TEXT.__eh_frame: 0x1518
+   __TEXT.__objc_classname: 0x2247
+-  __TEXT.__objc_methname: 0x1b912
++  __TEXT.__objc_methname: 0x1b91f
+   __TEXT.__objc_methtype: 0x5110
+   __TEXT.__objc_stubs: 0x13c40
+-  __DATA_CONST.__got: 0x1c70
++  __DATA_CONST.__got: 0x1c78
+   __DATA_CONST.__const: 0x3288
+   __DATA_CONST.__objc_classlist: 0x7f8
+   __DATA_CONST.__objc_catlist: 0x80
+   __DATA_CONST.__objc_protolist: 0x380
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x68b0
++  __DATA_CONST.__objc_selrefs: 0x68b8
+   __DATA_CONST.__objc_protorefs: 0xd0
+   __DATA_CONST.__objc_superrefs: 0x470
+   __DATA_CONST.__objc_arraydata: 0xd0
+-  __AUTH_CONST.__auth_got: 0x1e10
+-  __AUTH_CONST.__const: 0xa0c0
++  __AUTH_CONST.__auth_got: 0x1e28
++  __AUTH_CONST.__const: 0xa018
+   __AUTH_CONST.__cfstring: 0x4ce0
+   __AUTH_CONST.__objc_const: 0x3d7b0
+   __AUTH_CONST.__objc_intobj: 0x78
+   __AUTH_CONST.__objc_doubleobj: 0x20
+   __AUTH_CONST.__objc_arrayobj: 0xa8
+   __AUTH.__objc_data: 0x6cc0
+-  __AUTH.__data: 0x29b0
++  __AUTH.__data: 0x2a50
+   __DATA.__objc_ivar: 0xbec
+-  __DATA.__data: 0x5640
+-  __DATA.__bss: 0xbfe0
++  __DATA.__data: 0x5690
++  __DATA.__bss: 0xc000
+   __DATA.__common: 0x4c8
+   __DATA_DIRTY.__objc_data: 0x2d0
+   __DATA_DIRTY.__bss: 0x48
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4CB05FD6-509F-3435-AB74-4956FC1DA0B1
+-  Functions: 11675
++  UUID: 4737430C-8B19-34EE-AC0E-93CB8BBCA45E
++  Functions: 11694
+   Symbols:   17598
+-  CStrings:  8177
++  CStrings:  8178
+ 
+Symbols:
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyACyACyACyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA24_ForegroundStyleModifierVyAA5ColorVGGAA023AccessibilityAttachmentN0VG012AppleAccountB010AvatarSizeVGAA11_ClipEffectVyAA6CircleVGG_ACyACyAA0G0PAAE06buttonM0yQrqd__AA015PrimitiveButtonM0Rd__lFQOyACyACyAA6ButtonVyAA4TextVGAA022_EnvironmentKeyWritingN0VyAA07ControlU0OGGAA011_BackgroundmN0VyAPGG_AA014BorderedButtonM0VQo_A_yAA16RoundedRectangleVGGAA08_PaddingK0VGSgAEyAGyA11__A11_SgtGGSgtGGATGAAA4_HPA39_AAA4_HPyHC_AtA0gN0HPyHCHC.26
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA16SubscriptionViewVySo20NSNotificationCenterC10FoundationE9PublisherVAA0F0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAA6ZStackVyAA012_ConditionalD0VyAL012AppleAccountB0E24sharedNameAndPhotoEditor11isPresentedQrAA7BindingVySbG_tFQOyAlAE0K10TapGesture5count7performQrSi_yyctFQOyACyAA6VStackVyAA05TupleF0VyACyACyACyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA24_ForegroundStyleModifierVyAA5ColorVGGAA31AccessibilityAttachmentModifierVGAT10AvatarSizeVGAA11_ClipEffectVyAA6CircleVGG_ACyACyAlAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQOyACyACyAA6ButtonVyAA4TextVGAA30_EnvironmentKeyWritingModifierVyAA11ControlSizeOGGAA24_BackgroundStyleModifierVyA13_GG_AA19BorderedButtonStyleVQo_A23_yAA16RoundedRectangleVGGAA14_PaddingLayoutVGSgA2_yA4_yA33__A33_SgtGGSgtGGA17_G_Qo__Qo_AlAE5sheetAV0K7Dismiss7contentQrAY_yycSgqd__yctAaKRd__lFQOyA63__ACyAT27ContactVisualIdentityPickerVAA25_AppearanceActionModifierVGQo_GG_AH4DataVSgQo_GA72_GA53_GA43_GAaKHPA83_AaKHPA82_AaKHPA81_AaKHPyHC_A72_AA0F8ModifierHPyHCHC_A53_AAA85_HPyHCHC_A43_AAA85_HPyHCHC.27
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA014_ViewModifier_D0Vy012AppleAccountB010AvatarSizeVGAA12_FrameLayoutVGANGSgAA0F0HpAoaQHPAnaQHPAkaQHPyHC_AmA0fG0HPyHCHC_AnaQHPAkaQHPyHC_AmaRHPyHCHCHC_HC.28
++ _symbolic _____ 7SwiftUI34WithCurrentHostingControllerActionV
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV AA34WithCurrentHostingControllerActionV
++ _symbolic _____y______G 7SwiftUI11EnvironmentV7ContentO AA34WithCurrentHostingControllerActionV
+- ___swift_memcpy168_8
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyACyACyACyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA24_ForegroundStyleModifierVyAA5ColorVGGAA023AccessibilityAttachmentN0VG012AppleAccountB010AvatarSizeVGAA11_ClipEffectVyAA6CircleVGG_ACyACyAA0G0PAAE06buttonM0yQrqd__AA015PrimitiveButtonM0Rd__lFQOyACyACyAA6ButtonVyAA4TextVGAA022_EnvironmentKeyWritingN0VyAA07ControlU0OGGAA011_BackgroundmN0VyAPGG_AA014BorderedButtonM0VQo_A_yAA16RoundedRectangleVGGAA08_PaddingK0VGSgAEyAGyA11__A11_SgtGGSgtGGATGAAA4_HPA39_AAA4_HPyHC_AtA0gN0HPyHCHC.25
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA16SubscriptionViewVySo20NSNotificationCenterC10FoundationE9PublisherVAA0F0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAA6ZStackVyAA012_ConditionalD0VyAL012AppleAccountB0E24sharedNameAndPhotoEditor11isPresentedQrAA7BindingVySbG_tFQOyAlAE0K10TapGesture5count7performQrSi_yyctFQOyACyAA6VStackVyAA05TupleF0VyACyACyACyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA24_ForegroundStyleModifierVyAA5ColorVGGAA31AccessibilityAttachmentModifierVGAT10AvatarSizeVGAA11_ClipEffectVyAA6CircleVGG_ACyACyAlAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQOyACyACyAA6ButtonVyAA4TextVGAA30_EnvironmentKeyWritingModifierVyAA11ControlSizeOGGAA24_BackgroundStyleModifierVyA13_GG_AA19BorderedButtonStyleVQo_A23_yAA16RoundedRectangleVGGAA14_PaddingLayoutVGSgA2_yA4_yA33__A33_SgtGGSgtGGA17_G_Qo__Qo_AlAE5sheetAV0K7Dismiss7contentQrAY_yycSgqd__yctAaKRd__lFQOyA63__ACyAT27ContactVisualIdentityPickerVAA25_AppearanceActionModifierVGQo_GG_AH4DataVSgQo_GA72_GA53_GA43_GAaKHPA83_AaKHPA82_AaKHPA81_AaKHPyHC_A72_AA0F8ModifierHPyHCHC_A53_AAA85_HPyHCHC_A43_AAA85_HPyHCHC.26
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA014_ViewModifier_D0Vy012AppleAccountB010AvatarSizeVGAA12_FrameLayoutVGANGSgAA0F0HpAoaQHPAnaQHPAkaQHPyHC_AmA0fG0HPyHCHC_AnaQHPAkaQHPyHC_AmaRHPyHCHCHC_HC.27
+- _type_layout_string 14AppleAccountUI0aB10HeaderViewV
+CStrings:
++ "viewIfLoaded"
+
+```
