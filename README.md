@@ -96,6 +96,7 @@
 <details>
   <summary>View diffs</summary>
 
+- [18.7.2 (22H124) .vs 18.7.3 (22H217)](18_7_2_22H124__vs_18_7_3_22H217/README.md)
 - [18.7.1 (22H31) .vs 18.7.2 (22H124)](18_7_1_22H31__vs_18_7_2_22H124/README.md)
 
 </details>
