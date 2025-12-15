@@ -1,0 +1,456 @@
+## LocalAuthenticationCore
+
+> `/System/Library/PrivateFrameworks/LocalAuthenticationCore.framework/LocalAuthenticationCore`
+
+```diff
+
+-2005.62.1.0.0
+-  __TEXT.__text: 0xfdf24
+-  __TEXT.__auth_stubs: 0x2480
+-  __TEXT.__objc_methlist: 0x9cd8
+-  __TEXT.__const: 0x4f44
++2005.80.9.0.0
++  __TEXT.__text: 0x100b5c
++  __TEXT.__auth_stubs: 0x24a0
++  __TEXT.__objc_methlist: 0x9e20
++  __TEXT.__const: 0x5314
+   __TEXT.__gcc_except_tab: 0x1afc
+-  __TEXT.__oslogstring: 0x6ce1
+-  __TEXT.__cstring: 0xe639
++  __TEXT.__oslogstring: 0x6e51
++  __TEXT.__cstring: 0xe8e9
+   __TEXT.__dlopen_cstrs: 0x4bb
+-  __TEXT.__swift5_typeref: 0x1962
+-  __TEXT.__constg_swiftt: 0xf7c
+-  __TEXT.__swift5_reflstr: 0x85e
+-  __TEXT.__swift5_fieldmd: 0xa4c
+-  __TEXT.__swift5_builtin: 0x104
+-  __TEXT.__swift5_assocty: 0x210
++  __TEXT.__swift5_typeref: 0x1a30
++  __TEXT.__constg_swiftt: 0x102c
++  __TEXT.__swift5_builtin: 0x118
++  __TEXT.__swift5_reflstr: 0x8fe
++  __TEXT.__swift5_fieldmd: 0xaf4
++  __TEXT.__swift5_assocty: 0x240
++  __TEXT.__swift5_proto: 0x18c
++  __TEXT.__swift5_types: 0xe8
+   __TEXT.__swift5_capture: 0xc8c
+-  __TEXT.__swift5_proto: 0x164
+-  __TEXT.__swift5_types: 0xd4
+   __TEXT.__swift_as_entry: 0xd4
+-  __TEXT.__swift5_protos: 0x24
++  __TEXT.__swift5_protos: 0x28
+   __TEXT.__swift_as_ret: 0xd8
+   __TEXT.__swift5_mpenum: 0x1c
+-  __TEXT.__unwind_info: 0x44d8
++  __TEXT.__unwind_info: 0x4548
+   __TEXT.__eh_frame: 0x2450
+-  __TEXT.__objc_classname: 0x22f1
+-  __TEXT.__objc_methname: 0xfe9d
+-  __TEXT.__objc_methtype: 0x499b
+-  __TEXT.__objc_stubs: 0xa8c0
+-  __DATA_CONST.__got: 0xb08
+-  __DATA_CONST.__const: 0x4b10
+-  __DATA_CONST.__objc_classlist: 0x848
+-  __DATA_CONST.__objc_protolist: 0x660
++  __TEXT.__objc_classname: 0x230e
++  __TEXT.__objc_methname: 0xffe8
++  __TEXT.__objc_methtype: 0x49bd
++  __TEXT.__objc_stubs: 0xa8e0
++  __DATA_CONST.__got: 0xb18
++  __DATA_CONST.__const: 0x4b50
++  __DATA_CONST.__objc_classlist: 0x850
++  __DATA_CONST.__objc_protolist: 0x670
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x3c30
+-  __DATA_CONST.__objc_protorefs: 0x278
++  __DATA_CONST.__objc_selrefs: 0x3c60
++  __DATA_CONST.__objc_protorefs: 0x280
+   __DATA_CONST.__objc_superrefs: 0x4e8
+   __DATA_CONST.__objc_arraydata: 0x40
+-  __AUTH_CONST.__auth_got: 0x1250
+-  __AUTH_CONST.__const: 0x3bc8
+-  __AUTH_CONST.__cfstring: 0x6640
+-  __AUTH_CONST.__objc_const: 0x3acc0
++  __AUTH_CONST.__auth_got: 0x1260
++  __AUTH_CONST.__const: 0x3d48
++  __AUTH_CONST.__cfstring: 0x6740
++  __AUTH_CONST.__objc_const: 0x3c430
+   __AUTH_CONST.__objc_intobj: 0x288
+   __AUTH_CONST.__objc_arrayobj: 0x78
+-  __AUTH.__objc_data: 0x3ca8
+-  __AUTH.__data: 0xe90
++  __AUTH.__objc_data: 0x3d68
++  __AUTH.__data: 0xea8
+   __DATA.__objc_ivar: 0x848
+-  __DATA.__data: 0x5190
+-  __DATA.__bss: 0x2ca9
++  __DATA.__data: 0x5250
++  __DATA.__bss: 0x2fa9
+   __DATA.__common: 0xa0
+-  __DATA_DIRTY.__objc_data: 0x1eb0
++  __DATA_DIRTY.__objc_data: 0x1e60
+   __DATA_DIRTY.__data: 0x280
+-  __DATA_DIRTY.__bss: 0x1f0
++  __DATA_DIRTY.__bss: 0x200
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+
+   - /System/Library/PrivateFrameworks/AppleMobileFileIntegrity.framework/AppleMobileFileIntegrity
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+   - /System/Library/PrivateFrameworks/BoardServices.framework/BoardServices
++  - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 20FD3D82-9177-3557-923F-1C29905EC7AE
+-  Functions: 6458
+-  Symbols:   22559
+-  CStrings:  6971
++  UUID: 9229C242-977E-3C1F-BA87-20091D32CA7F
++  Functions: 6522
++  Symbols:   22828
++  CStrings:  7015
+ 
+Symbols:
++ +[LACDTOTelemetryReporter sharedInstance]
++ +[LACDTOTelemetryReporter sharedInstance].cold.1
++ -[LACDTOBiometryWatchdog isPastBarkingPeriod]
++ -[LACDTOBiometryWatchdogPack isPastBarkingPeriod]
++ -[LACDTOTelemetryReporter sendCollapseEvaluationResult:mechanism:]
++ -[LACDTOTelemetryReporter sendEnvironmentUpdateDidFinish]
++ -[LACDTOTelemetryReporter sendEnvironmentUpdateWillStart]
++ -[LACDTOTelemetryReporter sendLocationStatePolicyResult:policy:]
++ -[LACDTOTelemetryReporter sendLocationStatusQueryDidFinish]
++ -[LACDTOTelemetryReporter sendLocationStatusQueryWillStart]
++ -[LACDTOTelemetryReporter sendLostModeQueryDidFinish]
++ -[LACDTOTelemetryReporter sendLostModeQueryWillStart]
++ -[LACDTOTelemetryReporter sendLostModeStateResult:time:]
++ -[LACDTOTelemetryReporter sendRatchetEvaluationResult:ratchetOperationAbandoned:ratchetStateBefore:ratchetStateAfter:]
++ -[LACDTOTelemetryReporter sendRepairStatusQueryDidFinish]
++ -[LACDTOTelemetryReporter sendRepairStatusQueryWillStart]
++ _$s23LocalAuthenticationCore24LACDTOAnalyticsReportingMp
++ _$s23LocalAuthenticationCore24LACDTOAnalyticsReportingP15reportAnalytics3for6result11environmentySo20LACEvaluationRequest_p_So0K6ResultCSo17LACDTOEnvironment_ptFTj
++ _$s23LocalAuthenticationCore24LACDTOAnalyticsReportingP15reportAnalytics3for6result11environmentySo20LACEvaluationRequest_p_So0K6ResultCSo17LACDTOEnvironment_ptFTq
++ _$s23LocalAuthenticationCore24LACDTOAnalyticsReportingTL
++ _$s23LocalAuthenticationCore24LACDTOAnalyticsReporting_pMF
++ _$s23LocalAuthenticationCore24LACDTOAnalyticsReporting_pWOc
++ _$s23LocalAuthenticationCore31LACDTOAnalyticsReporterLostModeV09telemetryE0ACSo24LACDTOTelemetryReporting_p_tcfC
++ _$s23LocalAuthenticationCore31LACDTOAnalyticsReporterLostModeV15reportAnalytics3for6result11environmentySo20LACEvaluationRequest_p_So0M6ResultCSo17LACDTOEnvironment_ptF
++ _$s23LocalAuthenticationCore31LACDTOAnalyticsReporterLostModeV15reportAnalytics3for6result11environmentySo20LACEvaluationRequest_p_So0M6ResultCSo17LACDTOEnvironment_ptFTf4ndnn_n
++ _$s23LocalAuthenticationCore31LACDTOAnalyticsReporterLostModeVAA0D9ReportingA2aDP15reportAnalytics3for6result11environmentySo20LACEvaluationRequest_p_So0N6ResultCSo17LACDTOEnvironment_ptFTW
++ _$s23LocalAuthenticationCore31LACDTOAnalyticsReporterLostModeVAA0D9ReportingAAMc
++ _$s23LocalAuthenticationCore31LACDTOAnalyticsReporterLostModeVAA0D9ReportingAAWP
++ _$s23LocalAuthenticationCore31LACDTOAnalyticsReporterLostModeVMF
++ _$s23LocalAuthenticationCore31LACDTOAnalyticsReporterLostModeVMa
++ _$s23LocalAuthenticationCore31LACDTOAnalyticsReporterLostModeVMf
++ _$s23LocalAuthenticationCore31LACDTOAnalyticsReporterLostModeVMn
++ _$s23LocalAuthenticationCore31LACDTOAnalyticsReporterLostModeVN
++ _$s23LocalAuthenticationCore36LACDTOAnalyticsReporterLocationStateV09telemetryE0ACSo24LACDTOTelemetryReporting_p_tcfC
++ _$s23LocalAuthenticationCore36LACDTOAnalyticsReporterLocationStateV15reportAnalytics3for6result11environmentySo20LACEvaluationRequest_p_So0M6ResultCSo17LACDTOEnvironment_ptF
++ _$s23LocalAuthenticationCore36LACDTOAnalyticsReporterLocationStateVAA0D9ReportingA2aDP15reportAnalytics3for6result11environmentySo20LACEvaluationRequest_p_So0N6ResultCSo17LACDTOEnvironment_ptFTW
++ _$s23LocalAuthenticationCore36LACDTOAnalyticsReporterLocationStateVAA0D9ReportingAAMc
++ _$s23LocalAuthenticationCore36LACDTOAnalyticsReporterLocationStateVAA0D9ReportingAAWP
++ _$s23LocalAuthenticationCore36LACDTOAnalyticsReporterLocationStateVMF
++ _$s23LocalAuthenticationCore36LACDTOAnalyticsReporterLocationStateVMa
++ _$s23LocalAuthenticationCore36LACDTOAnalyticsReporterLocationStateVMf
++ _$s23LocalAuthenticationCore36LACDTOAnalyticsReporterLocationStateVMn
++ _$s23LocalAuthenticationCore36LACDTOAnalyticsReporterLocationStateVN
++ _$s23LocalAuthenticationCore40LACDTOAnalyticsReporterRatchetEvaluationV09telemetryE019ratchetStateMonitorACSo24LACDTOTelemetryReporting_p_So013LACDTORatchetjK0CtcfC
++ _$s23LocalAuthenticationCore40LACDTOAnalyticsReporterRatchetEvaluationV15reportAnalytics3for6result11environmentySo20LACEvaluationRequest_p_So0M6ResultCSo17LACDTOEnvironment_ptF
++ _$s23LocalAuthenticationCore40LACDTOAnalyticsReporterRatchetEvaluationVAA0D9ReportingA2aDP15reportAnalytics3for6result11environmentySo20LACEvaluationRequest_p_So0N6ResultCSo17LACDTOEnvironment_ptFTW
++ _$s23LocalAuthenticationCore40LACDTOAnalyticsReporterRatchetEvaluationVAA0D9ReportingAAMc
++ _$s23LocalAuthenticationCore40LACDTOAnalyticsReporterRatchetEvaluationVAA0D9ReportingAAWP
++ _$s23LocalAuthenticationCore40LACDTOAnalyticsReporterRatchetEvaluationVMF
++ _$s23LocalAuthenticationCore40LACDTOAnalyticsReporterRatchetEvaluationVMa
++ _$s23LocalAuthenticationCore40LACDTOAnalyticsReporterRatchetEvaluationVMf
++ _$s23LocalAuthenticationCore40LACDTOAnalyticsReporterRatchetEvaluationVMn
++ _$s23LocalAuthenticationCore40LACDTOAnalyticsReporterRatchetEvaluationVN
++ _$s23LocalAuthenticationCore40LACDTOAnalyticsReporterRatchetEvaluationVWV
++ _$s23LocalAuthenticationCore40LACDTOAnalyticsReporterRatchetEvaluationVwet
++ _$s23LocalAuthenticationCore40LACDTOAnalyticsReporterRatchetEvaluationVwst
++ _$s23LocalAuthenticationCore41LACDTOAnalyticsReporterCollapseEvaluationV09telemetryE0ACSo24LACDTOTelemetryReporting_p_tcfC
++ _$s23LocalAuthenticationCore41LACDTOAnalyticsReporterCollapseEvaluationV15reportAnalytics3for6result11environmentySo20LACEvaluationRequest_p_So0M6ResultCSo17LACDTOEnvironment_ptF
++ _$s23LocalAuthenticationCore41LACDTOAnalyticsReporterCollapseEvaluationV8watchdog33_0DE24F6C74C7BAA3DC3332A943B749AELL3for11environmentSo22LACDTOBiometryWatchdogCSo20LACEvaluationRequest_p_So17LACDTOEnvironment_ptFTf4nnd_n
++ _$s23LocalAuthenticationCore41LACDTOAnalyticsReporterCollapseEvaluationV9mechanism33_0DE24F6C74C7BAA3DC3332A943B749AELL4from6resultSo0dB9MechanismVSo20LACEvaluationRequest_p_So0U6ResultCtFTf4dnd_n
++ _$s23LocalAuthenticationCore41LACDTOAnalyticsReporterCollapseEvaluationV9timeRange33_0DE24F6C74C7BAA3DC3332A943B749AELL4fromSo0df4TimeI0VSi_tFTf4nd_n
++ _$s23LocalAuthenticationCore41LACDTOAnalyticsReporterCollapseEvaluationVAA0D9ReportingA2aDP15reportAnalytics3for6result11environmentySo20LACEvaluationRequest_p_So0N6ResultCSo17LACDTOEnvironment_ptFTW
++ _$s23LocalAuthenticationCore41LACDTOAnalyticsReporterCollapseEvaluationVAA0D9ReportingAAMc
++ _$s23LocalAuthenticationCore41LACDTOAnalyticsReporterCollapseEvaluationVAA0D9ReportingAAWP
++ _$s23LocalAuthenticationCore41LACDTOAnalyticsReporterCollapseEvaluationVMF
++ _$s23LocalAuthenticationCore41LACDTOAnalyticsReporterCollapseEvaluationVMa
++ _$s23LocalAuthenticationCore41LACDTOAnalyticsReporterCollapseEvaluationVMf
++ _$s23LocalAuthenticationCore41LACDTOAnalyticsReporterCollapseEvaluationVMn
++ _$s23LocalAuthenticationCore41LACDTOAnalyticsReporterCollapseEvaluationVN
++ _$sSo17LACDTOEnvironment_pMR
++ _$sSo17LACDTOEnvironment_pMd
++ _$sSo24LACDTOAnalyticsProcessorC23LocalAuthenticationCoreE14processRequest_13configuration10completionySo013LACEvaluationG0_p_So26LACProcessingConfigurationCySo0J6ResultCctF
++ _$sSo24LACDTOAnalyticsProcessorC23LocalAuthenticationCoreE14processRequest_13configuration10completionySo013LACEvaluationG0_p_So26LACProcessingConfigurationCySo0J6ResultCctFTo
++ _$sSo24LACDTOAnalyticsProcessorC23LocalAuthenticationCoreE17canProcessRequestySbSo013LACEvaluationH0_pF
++ _$sSo24LACDTOAnalyticsProcessorC23LocalAuthenticationCoreE17canProcessRequestySbSo013LACEvaluationH0_pFTo
++ _$sSo24LACDTOAnalyticsProcessorC23LocalAuthenticationCoreE17telemetryReporter19ratchetStateMonitorABSo24LACDTOTelemetryReporting_p_So013LACDTORatchetiJ0CtcfC
++ _$sSo24LACDTOAnalyticsProcessorC23LocalAuthenticationCoreE17telemetryReporter19ratchetStateMonitorABSo24LACDTOTelemetryReporting_p_So013LACDTORatchetiJ0Ctcfc
++ _$sSo24LACDTOAnalyticsProcessorC23LocalAuthenticationCoreE17telemetryReporter19ratchetStateMonitorABSo24LACDTOTelemetryReporting_p_So013LACDTORatchetiJ0CtcfcTo
++ _$sSo24LACDTOAnalyticsProcessorC23LocalAuthenticationCoreE18postProcessRequest_6result10completionySo013LACEvaluationH0_p_So0K6ResultCyAIctF
++ _$sSo24LACDTOAnalyticsProcessorC23LocalAuthenticationCoreE18postProcessRequest_6result10completionySo013LACEvaluationH0_p_So0K6ResultCyAIctF06$sSo19kL16CIeyBy_ABIegg_TRAIIeyBy_Tf1nncn_nTf4nnng_n
++ _$sSo24LACDTOAnalyticsProcessorC23LocalAuthenticationCoreE18postProcessRequest_6result10completionySo013LACEvaluationH0_p_So0K6ResultCyAIctFTo
++ _$sSo24LACDTOAnalyticsProcessorC23LocalAuthenticationCoreE9reporters33_28A4CE7CA6BF5934E504D86288BFB491LLSayAC0A9Reporting_pGvpWvd
++ _$sSo24LACDTOAnalyticsProcessorC23LocalAuthenticationCoreEABycfC
++ _$sSo24LACDTOAnalyticsProcessorC23LocalAuthenticationCoreEABycfc
++ _$sSo24LACDTOAnalyticsProcessorC23LocalAuthenticationCoreEABycfcTo
++ _$sSo24LACDTOAnalyticsProcessorCML
++ _$sSo24LACDTOAnalyticsProcessorCMa
++ _$sSo24LACDTOAnalyticsProcessorCfETo
++ _$sSo26LACDTORatchetStateRawValueVSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo26LACDTORatchetStateRawValueVSYSCSY03rawD00cD0QzvgTW
++ _$sSo27LACDTOLocationStateRawValueaSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo28LACDTOAnalyticsLocationStateV23LocalAuthenticationCoreEyABSo17LACDTOEnvironment_pc33_73590F65EEE80B82841646DA5D3DD1B0LlfCTf4nd_n
++ _$sSo28LACDTOAnalyticsLostModeStateV23LocalAuthenticationCoreE11environment18usingShortCollapseABSo17LACDTOEnvironment_p_Sbtc33_A4830B4EA5077697A0DAAED359436075LlfCTf4nnd_n
++ _$sSo30LACEvaluationRequestPayloadKeyaABSHSCWL
++ _$sSo30LACEvaluationRequestPayloadKeyaABSHSCWlTm
++ _$sSo30LACEvaluationRequestPayloadKeyaABSQSCWL
++ _$sSo30LACEvaluationRequestPayloadKeyaABSYSCWL
++ _$sSo30LACEvaluationRequestPayloadKeyaABs20_SwiftNewtypeWrapperSCWL
++ _$sSo30LACEvaluationRequestPayloadKeyaABs35_HasCustomAnyHashableRepresentationSCWL
++ _$sSo30LACEvaluationRequestPayloadKeyaMB
++ _$sSo30LACEvaluationRequestPayloadKeyaMF
++ _$sSo30LACEvaluationRequestPayloadKeyaML
++ _$sSo30LACEvaluationRequestPayloadKeyaMa
++ _$sSo30LACEvaluationRequestPayloadKeyaMaTm
++ _$sSo30LACEvaluationRequestPayloadKeyaMf
++ _$sSo30LACEvaluationRequestPayloadKeyaMn
++ _$sSo30LACEvaluationRequestPayloadKeyaSHSCMc
++ _$sSo30LACEvaluationRequestPayloadKeyaSHSCMcMK
++ _$sSo30LACEvaluationRequestPayloadKeyaSHSCSH13_rawHashValue4seedS2i_tFTW
++ _$sSo30LACEvaluationRequestPayloadKeyaSHSCSH13_rawHashValue4seedS2i_tFTWTm
++ _$sSo30LACEvaluationRequestPayloadKeyaSHSCSH4hash4intoys6HasherVz_tFTW
++ _$sSo30LACEvaluationRequestPayloadKeyaSHSCSH4hash4intoys6HasherVz_tFTWTm
++ _$sSo30LACEvaluationRequestPayloadKeyaSHSCSH9hashValueSivgTW
++ _$sSo30LACEvaluationRequestPayloadKeyaSHSCSH9hashValueSivgTWTm
++ _$sSo30LACEvaluationRequestPayloadKeyaSHSCSQWb
++ _$sSo30LACEvaluationRequestPayloadKeyaSQSCMc
++ _$sSo30LACEvaluationRequestPayloadKeyaSQSCMcMK
++ _$sSo30LACEvaluationRequestPayloadKeyaSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo30LACEvaluationRequestPayloadKeyaSYSCMA
++ _$sSo30LACEvaluationRequestPayloadKeyaSYSCMc
++ _$sSo30LACEvaluationRequestPayloadKeyaSYSCMcMK
++ _$sSo30LACEvaluationRequestPayloadKeyaSYSCSY8rawValue03RawF0QzvgTW
++ _$sSo30LACEvaluationRequestPayloadKeyaSYSCSY8rawValuexSg03RawF0Qz_tcfCTW
++ _$sSo30LACEvaluationRequestPayloadKeyas20_SwiftNewtypeWrapperSCMc
++ _$sSo30LACEvaluationRequestPayloadKeyas20_SwiftNewtypeWrapperSCMcMK
++ _$sSo30LACEvaluationRequestPayloadKeyas20_SwiftNewtypeWrapperSCSYWb
++ _$sSo30LACEvaluationRequestPayloadKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentationPWb
++ _$sSo30LACEvaluationRequestPayloadKeyas21_ObjectiveCBridgeableSCMA
++ _$sSo30LACEvaluationRequestPayloadKeyas21_ObjectiveCBridgeableSCMc
++ _$sSo30LACEvaluationRequestPayloadKeyas21_ObjectiveCBridgeableSCMcMK
++ _$sSo30LACEvaluationRequestPayloadKeyas21_ObjectiveCBridgeableSCsACP016_forceBridgeFromE1C_6resulty01_E5CTypeQz_xSgztFZTW
++ _$sSo30LACEvaluationRequestPayloadKeyas21_ObjectiveCBridgeableSCsACP016_forceBridgeFromE1C_6resulty01_E5CTypeQz_xSgztFZTWTm
++ _$sSo30LACEvaluationRequestPayloadKeyas21_ObjectiveCBridgeableSCsACP024_conditionallyBridgeFromE1C_6resultSb01_E5CTypeQz_xSgztFZTW
++ _$sSo30LACEvaluationRequestPayloadKeyas21_ObjectiveCBridgeableSCsACP024_conditionallyBridgeFromE1C_6resultSb01_E5CTypeQz_xSgztFZTWTm
++ _$sSo30LACEvaluationRequestPayloadKeyas21_ObjectiveCBridgeableSCsACP026_unconditionallyBridgeFromE1Cyx01_E5CTypeQzSgFZTW
++ _$sSo30LACEvaluationRequestPayloadKeyas21_ObjectiveCBridgeableSCsACP026_unconditionallyBridgeFromE1Cyx01_E5CTypeQzSgFZTWTm
++ _$sSo30LACEvaluationRequestPayloadKeyas21_ObjectiveCBridgeableSCsACP09_bridgeToE1C01_E5CTypeQzyFTW
++ _$sSo30LACEvaluationRequestPayloadKeyas35_HasCustomAnyHashableRepresentationSCMc
++ _$sSo30LACEvaluationRequestPayloadKeyas35_HasCustomAnyHashableRepresentationSCMcMK
++ _$sSo30LACEvaluationRequestPayloadKeyas35_HasCustomAnyHashableRepresentationSCsACP03_tofgH0s0gH0VSgyFTW
++ _$sSo31LACDTOAnalyticsRatchetOperationV23LocalAuthenticationCoreE10identifierABSS_tc33_7405375F345B5813D283132A3058DCBCLlfCTf4nd_n
++ _$sSo31LACDTOAnalyticsRatchetOperationV23LocalAuthenticationCoreEyABSo20LACEvaluationRequest_pc33_7405375F345B5813D283132A3058DCBCLlfCTf4nd_n
++ _$sSo8NSNumberCSo8NSObjectCSH10ObjectiveCWL
++ _$sSo8NSNumberCSo8NSObjectCSH10ObjectiveCWl
++ _$sSo8NSObjectCSH10ObjectiveCMc
++ _$sSy10FoundationE8containsySbqd__SyRd__lF
++ _$ss23_ContiguousArrayStorageCy23LocalAuthenticationCore24LACDTOAnalyticsReporting_pGMR
++ _$ss23_ContiguousArrayStorageCy23LocalAuthenticationCore24LACDTOAnalyticsReporting_pGMd
++ _AnalyticsSendEventLazy
++ _OBJC_CLASS_$_LACDTOAnalyticsProcessor
++ _OBJC_CLASS_$_LACDTOTelemetryReporter
++ _OBJC_METACLASS_$_LACDTOAnalyticsProcessor
++ _OBJC_METACLASS_$_LACDTOTelemetryReporter
++ __DATA_LACDTOAnalyticsProcessor
++ __INSTANCE_METHODS_LACDTOAnalyticsProcessor
++ __IVARS_LACDTOAnalyticsProcessor
++ __METACLASS_DATA_LACDTOAnalyticsProcessor
++ __OBJC_$_CLASS_METHODS_LACDTOTelemetryReporter
++ __OBJC_$_CLASS_PROP_LIST_LACDTOTelemetryReporter
++ __OBJC_$_INSTANCE_METHODS_LACDTOTelemetryReporter
++ __OBJC_$_PROP_LIST_LACDTOTelemetryReporter
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_LACDTOTelemetryReporting
++ __OBJC_$_PROTOCOL_METHOD_TYPES_LACDTOTelemetryReporting
++ __OBJC_$_PROTOCOL_REFS_LACDTOTelemetryReporting
++ __OBJC_CLASS_PROTOCOLS_$_LACDTOTelemetryReporter
++ __OBJC_CLASS_RO_$_LACDTOTelemetryReporter
++ __OBJC_LABEL_PROTOCOL_$_LACDTOTelemetryReporting
++ __OBJC_METACLASS_RO_$_LACDTOTelemetryReporter
++ __OBJC_PROTOCOL_$_LACDTOTelemetryReporting
++ __PROTOCOLS_LACDTOAnalyticsProcessor
++ __PROTOCOLS_LACDTOAnalyticsProcessor.11
++ ___118-[LACDTOTelemetryReporter sendRatchetEvaluationResult:ratchetOperationAbandoned:ratchetStateBefore:ratchetStateAfter:]_block_invoke
++ ___41+[LACDTOTelemetryReporter sharedInstance]_block_invoke
++ ___53-[LACDTOTelemetryReporter sendLostModeQueryDidFinish]_block_invoke
++ ___53-[LACDTOTelemetryReporter sendLostModeQueryDidFinish]_block_invoke_3
++ ___53-[LACDTOTelemetryReporter sendLostModeQueryWillStart]_block_invoke
++ ___53-[LACDTOTelemetryReporter sendLostModeQueryWillStart]_block_invoke_3
++ ___56-[LACDTOTelemetryReporter sendLostModeStateResult:time:]_block_invoke
++ ___56-[LACDTOTelemetryReporter sendLostModeStateResult:time:]_block_invoke_2
++ ___56-[LACDTOTelemetryReporter sendLostModeStateResult:time:]_block_invoke_3
++ ___57-[LACDTOTelemetryReporter sendEnvironmentUpdateDidFinish]_block_invoke
++ ___57-[LACDTOTelemetryReporter sendEnvironmentUpdateDidFinish]_block_invoke_3
++ ___57-[LACDTOTelemetryReporter sendEnvironmentUpdateWillStart]_block_invoke
++ ___57-[LACDTOTelemetryReporter sendEnvironmentUpdateWillStart]_block_invoke_3
++ ___57-[LACDTOTelemetryReporter sendRepairStatusQueryDidFinish]_block_invoke
++ ___57-[LACDTOTelemetryReporter sendRepairStatusQueryDidFinish]_block_invoke_3
++ ___57-[LACDTOTelemetryReporter sendRepairStatusQueryWillStart]_block_invoke
++ ___57-[LACDTOTelemetryReporter sendRepairStatusQueryWillStart]_block_invoke_3
++ ___59-[LACDTOTelemetryReporter sendLocationStatusQueryDidFinish]_block_invoke
++ ___59-[LACDTOTelemetryReporter sendLocationStatusQueryDidFinish]_block_invoke_3
++ ___59-[LACDTOTelemetryReporter sendLocationStatusQueryWillStart]_block_invoke
++ ___59-[LACDTOTelemetryReporter sendLocationStatusQueryWillStart]_block_invoke_3
++ ___64-[LACDTOTelemetryReporter sendLocationStatePolicyResult:policy:]_block_invoke
++ ___64-[LACDTOTelemetryReporter sendLocationStatePolicyResult:policy:]_block_invoke_2
++ ___64-[LACDTOTelemetryReporter sendLocationStatePolicyResult:policy:]_block_invoke_3
++ ___66-[LACDTOTelemetryReporter sendCollapseEvaluationResult:mechanism:]_block_invoke
++ ___block_descriptor_48_e23_"LACSignpostEvent"8?0l
++ ___block_descriptor_48_e5_v8?0l
++ ___block_literal_global.20
++ ___block_literal_global.39
++ ___block_literal_global.45
++ ___block_literal_global.51
++ _associated conformance So30LACEvaluationRequestPayloadKeyaSHSCSQ
++ _associated conformance So30LACEvaluationRequestPayloadKeyas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So30LACEvaluationRequestPayloadKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _flat unique So24LACDTOTelemetryReporting_p
++ _objc_msgSend$isPastBarkingPeriod
++ _objc_msgSend$sendLocationStatusQueryDidFinish
++ _objc_msgSend$sendLocationStatusQueryWillStart
++ _objc_msgSend$sendLostModeQueryDidFinish
++ _objc_msgSend$sendLostModeQueryWillStart
++ _objc_msgSend$sendRepairStatusQueryDidFinish
++ _objc_msgSend$sendRepairStatusQueryWillStart
++ _symbolic $s23LocalAuthenticationCore24LACDTOAnalyticsReportingP
++ _symbolic So25LACDTORatchetStateMonitorC
++ _symbolic _____ 23LocalAuthenticationCore31LACDTOAnalyticsReporterLostModeV
++ _symbolic _____ 23LocalAuthenticationCore36LACDTOAnalyticsReporterLocationStateV
++ _symbolic _____ 23LocalAuthenticationCore40LACDTOAnalyticsReporterRatchetEvaluationV
++ _symbolic _____ 23LocalAuthenticationCore41LACDTOAnalyticsReporterCollapseEvaluationV
++ _symbolic _____ So30LACEvaluationRequestPayloadKeya
++ _symbolic ______p So17LACDTOEnvironmentP
++ _symbolic ______p So24LACDTOTelemetryReportingP
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 23LocalAuthenticationCore24LACDTOAnalyticsReportingP
++ _type_layout_string 23LocalAuthenticationCore31LACDTOAnalyticsReporterLostModeV
++ _type_layout_string 23LocalAuthenticationCore36LACDTOAnalyticsReporterLocationStateV
++ _type_layout_string 23LocalAuthenticationCore40LACDTOAnalyticsReporterRatchetEvaluationV
++ _type_layout_string 23LocalAuthenticationCore41LACDTOAnalyticsReporterCollapseEvaluationV
+- +[LACDTOSignpostEvent environmentUpdateDidFinish]
+- +[LACDTOSignpostEvent environmentUpdateWillStart]
+- +[LACDTOSignpostEvent locationStatusQueryDidFinish]
+- +[LACDTOSignpostEvent locationStatusQueryWillStart]
+- +[LACDTOSignpostEvent lostModeQueryDidFinish]
+- +[LACDTOSignpostEvent lostModeQueryWillStart]
+- +[LACDTOSignpostEvent repairStatusQueryDidFinish]
+- +[LACDTOSignpostEvent repairStatusQueryWillStart]
+- _$s10Foundation4UUIDVACSHAAWlTm
+- _$s23LocalAuthenticationCore25LACOnenessSessionProviderC02isE6Active7Combine12AnyPublisherVySbs5NeverOGvpACTK
+- _$s23LocalAuthenticationCore25LACOnenessSessionProviderC02isE6Active7Combine12AnyPublisherVySbs5NeverOGvpACTk
+- _$sSo13LACStorageKeyaMaTm
+- _$sSo20LACEligibilityDomainaABSYSCWlTm
+- _$sSo20LACEligibilityDomainaSHSCSH13_rawHashValue4seedS2i_tFTWTm
+- _$sSo20LACEligibilityDomainaSHSCSH4hash4intoys6HasherVz_tFTWTm
+- _$sSo20LACEligibilityDomainaSHSCSH9hashValueSivgTWTm
+- _$sSo20LACEligibilityDomainas21_ObjectiveCBridgeableSCsACP016_forceBridgeFromC1C_6resulty01_C5CTypeQz_xSgztFZTWTm
+- _$sSo20LACEligibilityDomainas21_ObjectiveCBridgeableSCsACP024_conditionallyBridgeFromC1C_6resultSb01_C5CTypeQz_xSgztFZTWTm
+- _$sSo20LACEligibilityDomainas21_ObjectiveCBridgeableSCsACP026_unconditionallyBridgeFromC1Cyx01_C5CTypeQzSgFZTWTm
+- _OBJC_CLASS_$_LACDTOSignpostEvent
+- _OBJC_METACLASS_$_LACDTOSignpostEvent
+- __OBJC_$_CLASS_METHODS_LACDTOSignpostEvent
+- __OBJC_$_CLASS_PROP_LIST_LACDTOSignpostEvent
+- __OBJC_CLASS_RO_$_LACDTOSignpostEvent
+- __OBJC_METACLASS_RO_$_LACDTOSignpostEvent
+- ___45+[LACDTOSignpostEvent lostModeQueryDidFinish]_block_invoke
+- ___45+[LACDTOSignpostEvent lostModeQueryDidFinish]_block_invoke_3
+- ___45+[LACDTOSignpostEvent lostModeQueryWillStart]_block_invoke
+- ___45+[LACDTOSignpostEvent lostModeQueryWillStart]_block_invoke_3
+- ___49+[LACDTOSignpostEvent environmentUpdateDidFinish]_block_invoke
+- ___49+[LACDTOSignpostEvent environmentUpdateDidFinish]_block_invoke_3
+- ___49+[LACDTOSignpostEvent environmentUpdateWillStart]_block_invoke
+- ___49+[LACDTOSignpostEvent environmentUpdateWillStart]_block_invoke_3
+- ___49+[LACDTOSignpostEvent repairStatusQueryDidFinish]_block_invoke
+- ___49+[LACDTOSignpostEvent repairStatusQueryDidFinish]_block_invoke_3
+- ___49+[LACDTOSignpostEvent repairStatusQueryWillStart]_block_invoke
+- ___49+[LACDTOSignpostEvent repairStatusQueryWillStart]_block_invoke_3
+- ___51+[LACDTOSignpostEvent locationStatusQueryDidFinish]_block_invoke
+- ___51+[LACDTOSignpostEvent locationStatusQueryDidFinish]_block_invoke_3
+- ___51+[LACDTOSignpostEvent locationStatusQueryWillStart]_block_invoke
+- ___51+[LACDTOSignpostEvent locationStatusQueryWillStart]_block_invoke_3
+- ___block_literal_global.17
+- ___block_literal_global.23
+- ___block_literal_global.29
+- ___block_literal_global.35
+- ___block_literal_global.41
+- _objc_msgSend$locationStatusQueryDidFinish
+- _objc_msgSend$locationStatusQueryWillStart
+- _objc_msgSend$lostModeQueryDidFinish
+- _objc_msgSend$lostModeQueryWillStart
+- _objc_msgSend$repairStatusQueryDidFinish
+- _objc_msgSend$repairStatusQueryWillStart
+CStrings:
++ " enableTelemetry=YES  LocationState=%{public,signpost.telemetry:number1,name=LocationState}d  Policy=%{public,signpost.telemetry:number2,name=Policy}d "
++ " enableTelemetry=YES  rc=%{public,signpost.telemetry:number1,name=rc}d  ts=%{public,signpost.telemetry:number2,name=ts}d "
++ "AKBiometricRatchetIdentifierKey"
++ "BiometricForPasswordAutoFill"
++ "BiometricForWalletAndApplePay"
++ "DTOLocationStatusPolicyResult"
++ "DTOLostModeStateResult"
++ "DowngradeRatchetSecurityToFamiliarLocationsOnly"
++ "LACDTOAnalyticsProcessor"
++ "LACDTOTelemetryReporter"
++ "LACDTOTelemetryReporting"
++ "LocalAuthenticationCore.LACDTOAnalyticsProcessor"
++ "ResetAllSettings"
++ "Sent event: %s, payload: %@"
++ "StolenDeviceProtection"
++ "T@\"LACDTOTelemetryReporter\",R,N"
++ "com.apple.LocalAuthentication.DTO.CollapseEvaluation"
++ "com.apple.LocalAuthentication.DTO.RatchetEvaluation"
++ "com.apple.LocalAuthentication.passcode.change"
++ "com.apple.account.Exchange.add"
++ "com.apple.devicemanagementclient.DMCRatchet"
++ "com.apple.findmydevice.ratchet.turnOff"
++ "initWithTelemetryReporter:ratchetStateMonitor:"
++ "isPastBarkingPeriod"
++ "mechanism"
++ "ratchetOperation"
++ "ratchetOperationAbandoned"
++ "ratchetStateAfter"
++ "ratchetStateBefore"
++ "reporters"
++ "sendCollapseEvaluationResult:mechanism:"
++ "sendEnvironmentUpdateDidFinish"
++ "sendEnvironmentUpdateWillStart"
++ "sendLocationStatePolicyResult:policy:"
++ "sendLocationStatusQueryDidFinish"
++ "sendLocationStatusQueryWillStart"
++ "sendLostModeQueryDidFinish"
++ "sendLostModeQueryWillStart"
++ "sendLostModeStateResult:time:"
++ "sendRatchetEvaluationResult:ratchetOperationAbandoned:ratchetStateBefore:ratchetStateAfter:"
++ "sendRepairStatusQueryDidFinish"
++ "sendRepairStatusQueryWillStart"
++ "v32@0:8q16q24"
++ "v44@0:8q16B24q28q36"
++ "watchdogTimeBucket"
+- "LACDTOSignpostEvent"
+- "environmentUpdateDidFinish"
+- "environmentUpdateWillStart"
+- "locationStatusQueryDidFinish"
+- "locationStatusQueryWillStart"
+- "lostModeQueryDidFinish"
+- "lostModeQueryWillStart"
+- "repairStatusQueryDidFinish"
+- "repairStatusQueryWillStart"
+
+```

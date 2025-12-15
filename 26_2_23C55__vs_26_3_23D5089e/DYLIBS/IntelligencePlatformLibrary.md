@@ -1,0 +1,223 @@
+## IntelligencePlatformLibrary
+
+> `/System/Library/PrivateFrameworks/IntelligencePlatformLibrary.framework/IntelligencePlatformLibrary`
+
+```diff
+
+-246.25.0.0.0
+-  __TEXT.__text: 0x5087f0
++246.31.0.0.0
++  __TEXT.__text: 0x51733c
+   __TEXT.__auth_stubs: 0x1910
+   __TEXT.__objc_methlist: 0x11fec
+-  __TEXT.__const: 0x538d0
+-  __TEXT.__constg_swiftt: 0x9444
+-  __TEXT.__swift5_typeref: 0x98b8
+-  __TEXT.__swift5_fieldmd: 0x14900
+-  __TEXT.__swift5_types: 0x12d0
+-  __TEXT.__swift5_reflstr: 0x12d2f
+-  __TEXT.__swift5_assocty: 0x3b78
+-  __TEXT.__cstring: 0x6a2e0
++  __TEXT.__const: 0x54ba8
++  __TEXT.__constg_swiftt: 0x961c
++  __TEXT.__swift5_typeref: 0x9b12
++  __TEXT.__swift5_fieldmd: 0x14d30
++  __TEXT.__swift5_types: 0x1310
++  __TEXT.__swift5_reflstr: 0x13071
++  __TEXT.__swift5_assocty: 0x3c98
++  __TEXT.__cstring: 0x6ab1d
+   __TEXT.__oslogstring: 0x1cc
+-  __TEXT.__swift5_proto: 0x5ccc
+-  __TEXT.__swift5_capture: 0x35f0
++  __TEXT.__swift5_proto: 0x5e34
++  __TEXT.__swift5_capture: 0x3650
+   __TEXT.__swift5_protos: 0x40
+   __TEXT.__swift5_builtin: 0x604
+   __TEXT.__swift5_mpenum: 0x5cc
+-  __TEXT.__unwind_info: 0x19940
+-  __TEXT.__eh_frame: 0x2084c
++  __TEXT.__unwind_info: 0x19f10
++  __TEXT.__eh_frame: 0x2110c
+   __TEXT.__objc_classname: 0x5b3b
+   __TEXT.__objc_methname: 0x17275
+   __TEXT.__objc_methtype: 0x2f6d
+
+   __DATA_CONST.__objc_protorefs: 0x10
+   __DATA_CONST.__objc_superrefs: 0x60
+   __AUTH_CONST.__auth_got: 0xc90
+-  __AUTH_CONST.__const: 0x3b3e0
++  __AUTH_CONST.__const: 0x3c150
+   __AUTH_CONST.__cfstring: 0xe560
+   __AUTH_CONST.__objc_const: 0x21ad8
+   __AUTH.__objc_data: 0x72d8
+-  __AUTH.__data: 0x2da8
++  __AUTH.__data: 0x2f30
+   __DATA.__objc_ivar: 0x17dc
+-  __DATA.__data: 0x9db0
+-  __DATA.__bss: 0x648a0
+-  __DATA.__common: 0x5db0
++  __DATA.__data: 0xa028
++  __DATA.__bss: 0x66340
++  __DATA.__common: 0x5f00
+   __DATA_DIRTY.__objc_data: 0x7d0
+-  __DATA_DIRTY.__data: 0x5aa8
+-  __DATA_DIRTY.__bss: 0xa5b0
++  __DATA_DIRTY.__data: 0x5ab8
++  __DATA_DIRTY.__bss: 0xa670
+   __DATA_DIRTY.__common: 0x18
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 4C8FB49D-196B-3E31-92D8-7DFB62A94748
+-  Functions: 50198
+-  Symbols:   47703
+-  CStrings:  13601
++  UUID: A34D1038-4B48-39D1-BA02-6F7144926DD5
++  Functions: 50802
++  Symbols:   48168
++  CStrings:  13660
+ 
+Symbols:
++ ___swift_memcpy121_8
++ _associated conformance 27IntelligencePlatformLibrary05AppleA23ReportingMobileAssetLogV0fG14PromotionStateV0J5ScopeOSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary05AppleA23ReportingMobileAssetLogV0fG14PromotionStateV0J5ScopeOs12CaseIterableAA8AllCasessAHP_Sl
++ _associated conformance 27IntelligencePlatformLibrary05AppleA23ReportingMobileAssetLogV0fG14PromotionStateV0J5ScopeOs25LosslessStringConvertibleAAs06CustommN0
++ _associated conformance 27IntelligencePlatformLibrary05AppleA23ReportingMobileAssetLogV0fG14PromotionStateVSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary05AppleA23ReportingMobileAssetLogV0fG18PSUSDetermineStateVSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary05AppleA30ReportingMobileAssetVerboseLogV0fG10AlterStateVSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary05AppleA30ReportingMobileAssetVerboseLogV0fG14EliminateStateV0J4TypeOSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary05AppleA30ReportingMobileAssetVerboseLogV0fG14EliminateStateV0J4TypeOs12CaseIterableAA8AllCasessAHP_Sl
++ _associated conformance 27IntelligencePlatformLibrary05AppleA30ReportingMobileAssetVerboseLogV0fG14EliminateStateV0J4TypeOs25LosslessStringConvertibleAAs06CustomnO0
++ _associated conformance 27IntelligencePlatformLibrary05AppleA30ReportingMobileAssetVerboseLogV0fG14EliminateStateVSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary05AppleA30ReportingMobileAssetVerboseLogV0fG9ScanStateV0J13StartedReasonOSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary05AppleA30ReportingMobileAssetVerboseLogV0fG9ScanStateV0J13StartedReasonOs12CaseIterableAA8AllCasessAHP_Sl
++ _associated conformance 27IntelligencePlatformLibrary05AppleA30ReportingMobileAssetVerboseLogV0fG9ScanStateV0J13StartedReasonOs25LosslessStringConvertibleAAs06CustomoP0
++ _associated conformance 27IntelligencePlatformLibrary05AppleA30ReportingMobileAssetVerboseLogV0fG9ScanStateVSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary05AppleA30ReportingMobileAssetVerboseLogV0fgG8SelectorVSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary05AppleA30ReportingMobileAssetVerboseLogVSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary05AppleA36ReportingSoftwareUpdateControllerLogV0fgH9PSUSStateV0G4TypeOSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary05AppleA36ReportingSoftwareUpdateControllerLogV0fgH9PSUSStateV0G4TypeOs12CaseIterableAA8AllCasessAHP_Sl
++ _associated conformance 27IntelligencePlatformLibrary05AppleA36ReportingSoftwareUpdateControllerLogV0fgH9PSUSStateV0G4TypeOs25LosslessStringConvertibleAAs06CustommN0
++ _associated conformance 27IntelligencePlatformLibrary05AppleA36ReportingSoftwareUpdateControllerLogV0fgH9PSUSStateV13OperationTypeOSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary05AppleA36ReportingSoftwareUpdateControllerLogV0fgH9PSUSStateV13OperationTypeOs12CaseIterableAA8AllCasessAHP_Sl
++ _associated conformance 27IntelligencePlatformLibrary05AppleA36ReportingSoftwareUpdateControllerLogV0fgH9PSUSStateV13OperationTypeOs25LosslessStringConvertibleAAs06CustomnO0
++ _associated conformance 27IntelligencePlatformLibrary05AppleA36ReportingSoftwareUpdateControllerLogV0fgH9PSUSStateVSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary05AppleA36ReportingSoftwareUpdateControllerLogVSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary0C0O7StreamsO05AppleA0O9ReportingO16AssetDeliveryLogO06MobileG7VerboseOAA14StreamResourceAA9EventTypeAaNP_AA0L4Data
++ _associated conformance 27IntelligencePlatformLibrary0C0O7StreamsO05AppleA0O9ReportingO16AssetDeliveryLogO24SoftwareUpdateControllerOAA14StreamResourceAA9EventTypeAaNP_AA0M4Data
++ _symbolic Say_____G 27IntelligencePlatformLibrary05AppleA23ReportingMobileAssetLogV0fG14PromotionStateV0J5ScopeO
++ _symbolic Say_____G 27IntelligencePlatformLibrary05AppleA30ReportingMobileAssetVerboseLogV0fG14EliminateStateV0J4TypeO
++ _symbolic Say_____G 27IntelligencePlatformLibrary05AppleA30ReportingMobileAssetVerboseLogV0fG9ScanStateV0J13StartedReasonO
++ _symbolic Say_____G 27IntelligencePlatformLibrary05AppleA30ReportingMobileAssetVerboseLogV0fgG8SelectorV
++ _symbolic Say_____G 27IntelligencePlatformLibrary05AppleA36ReportingSoftwareUpdateControllerLogV0fgH9PSUSStateV0G4TypeO
++ _symbolic Say_____G 27IntelligencePlatformLibrary05AppleA36ReportingSoftwareUpdateControllerLogV0fgH9PSUSStateV13OperationTypeO
++ _symbolic _____ 27IntelligencePlatformLibrary05AppleA23ReportingMobileAssetLogV0fG14PromotionStateV
++ _symbolic _____ 27IntelligencePlatformLibrary05AppleA23ReportingMobileAssetLogV0fG14PromotionStateV0J5ScopeO
++ _symbolic _____ 27IntelligencePlatformLibrary05AppleA23ReportingMobileAssetLogV0fG18PSUSDetermineStateV
++ _symbolic _____ 27IntelligencePlatformLibrary05AppleA30ReportingMobileAssetVerboseLogV
++ _symbolic _____ 27IntelligencePlatformLibrary05AppleA30ReportingMobileAssetVerboseLogV0fG10AlterStateV
++ _symbolic _____ 27IntelligencePlatformLibrary05AppleA30ReportingMobileAssetVerboseLogV0fG14EliminateStateV
++ _symbolic _____ 27IntelligencePlatformLibrary05AppleA30ReportingMobileAssetVerboseLogV0fG14EliminateStateV0J4TypeO
++ _symbolic _____ 27IntelligencePlatformLibrary05AppleA30ReportingMobileAssetVerboseLogV0fG9ScanStateV
++ _symbolic _____ 27IntelligencePlatformLibrary05AppleA30ReportingMobileAssetVerboseLogV0fG9ScanStateV0J13StartedReasonO
++ _symbolic _____ 27IntelligencePlatformLibrary05AppleA30ReportingMobileAssetVerboseLogV0fgG8SelectorV
++ _symbolic _____ 27IntelligencePlatformLibrary05AppleA36ReportingSoftwareUpdateControllerLogV
++ _symbolic _____ 27IntelligencePlatformLibrary05AppleA36ReportingSoftwareUpdateControllerLogV0fgH9PSUSStateV
++ _symbolic _____ 27IntelligencePlatformLibrary05AppleA36ReportingSoftwareUpdateControllerLogV0fgH9PSUSStateV0G4TypeO
++ _symbolic _____ 27IntelligencePlatformLibrary05AppleA36ReportingSoftwareUpdateControllerLogV0fgH9PSUSStateV13OperationTypeO
++ _symbolic _____ 27IntelligencePlatformLibrary0C0O7StreamsO05AppleA0O9ReportingO16AssetDeliveryLogO06MobileG7VerboseO
++ _symbolic _____ 27IntelligencePlatformLibrary0C0O7StreamsO05AppleA0O9ReportingO16AssetDeliveryLogO24SoftwareUpdateControllerO
++ _symbolic _____Sg 27IntelligencePlatformLibrary05AppleA23ReportingMobileAssetLogV0fG14PromotionStateV
++ _symbolic _____Sg 27IntelligencePlatformLibrary05AppleA23ReportingMobileAssetLogV0fG14PromotionStateV0J5ScopeO
++ _symbolic _____Sg 27IntelligencePlatformLibrary05AppleA23ReportingMobileAssetLogV0fG18PSUSDetermineStateV
++ _symbolic _____Sg 27IntelligencePlatformLibrary05AppleA30ReportingMobileAssetVerboseLogV0fG10AlterStateV
++ _symbolic _____Sg 27IntelligencePlatformLibrary05AppleA30ReportingMobileAssetVerboseLogV0fG14EliminateStateV
++ _symbolic _____Sg 27IntelligencePlatformLibrary05AppleA30ReportingMobileAssetVerboseLogV0fG14EliminateStateV0J4TypeO
++ _symbolic _____Sg 27IntelligencePlatformLibrary05AppleA30ReportingMobileAssetVerboseLogV0fG9ScanStateV
++ _symbolic _____Sg 27IntelligencePlatformLibrary05AppleA30ReportingMobileAssetVerboseLogV0fG9ScanStateV0J13StartedReasonO
++ _symbolic _____Sg 27IntelligencePlatformLibrary05AppleA36ReportingSoftwareUpdateControllerLogV0fgH9PSUSStateV
++ _symbolic _____Sg 27IntelligencePlatformLibrary05AppleA36ReportingSoftwareUpdateControllerLogV0fgH9PSUSStateV0G4TypeO
++ _symbolic _____Sg 27IntelligencePlatformLibrary05AppleA36ReportingSoftwareUpdateControllerLogV0fgH9PSUSStateV13OperationTypeO
++ _symbolic _____Sg_ABt 27IntelligencePlatformLibrary05AppleA23ReportingMobileAssetLogV0fG14PromotionStateV
++ _symbolic _____Sg_ABt 27IntelligencePlatformLibrary05AppleA23ReportingMobileAssetLogV0fG18PSUSDetermineStateV
++ _symbolic _____y_____G 27IntelligencePlatformLibrary12EventWrapperC AA05AppleA30ReportingMobileAssetVerboseLogV
++ _symbolic _____y_____G 27IntelligencePlatformLibrary12EventWrapperC AA05AppleA36ReportingSoftwareUpdateControllerLogV
++ _symbolic _____y_____G 27IntelligencePlatformLibrary25ProtobufMessageSerializerV AA05AppleA30ReportingMobileAssetVerboseLogV
++ _symbolic _____y_____G 27IntelligencePlatformLibrary25ProtobufMessageSerializerV AA05AppleA36ReportingSoftwareUpdateControllerLogV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 27IntelligencePlatformLibrary05AppleD23ReportingMobileAssetLogV0iJ14PromotionStateV0M5ScopeO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 27IntelligencePlatformLibrary05AppleD30ReportingMobileAssetVerboseLogV0iJ14EliminateStateV0M4TypeO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 27IntelligencePlatformLibrary05AppleD30ReportingMobileAssetVerboseLogV0iJ9ScanStateV0M13StartedReasonO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 27IntelligencePlatformLibrary05AppleD36ReportingSoftwareUpdateControllerLogV0ijK9PSUSStateV0J4TypeO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 27IntelligencePlatformLibrary05AppleD36ReportingSoftwareUpdateControllerLogV0ijK9PSUSStateV13OperationTypeO
++ _type_layout_string 27IntelligencePlatformLibrary05AppleA23ReportingMobileAssetLogV0fG14PromotionStateV
++ _type_layout_string 27IntelligencePlatformLibrary05AppleA23ReportingMobileAssetLogV0fG18PSUSDetermineStateV
++ _type_layout_string 27IntelligencePlatformLibrary05AppleA30ReportingMobileAssetVerboseLogV0fG10AlterStateV
++ _type_layout_string 27IntelligencePlatformLibrary05AppleA30ReportingMobileAssetVerboseLogV0fG14EliminateStateV
++ _type_layout_string 27IntelligencePlatformLibrary05AppleA30ReportingMobileAssetVerboseLogV0fG9ScanStateV
++ _type_layout_string 27IntelligencePlatformLibrary05AppleA30ReportingMobileAssetVerboseLogV0fgG8SelectorV
++ _type_layout_string 27IntelligencePlatformLibrary05AppleA36ReportingSoftwareUpdateControllerLogV0fgH9PSUSStateV
+CStrings:
++ "96A4BF43-0656-48FC-B2AB-8D48AF252767"
++ "AppleIntelligence.Reporting.AssetDeliveryLog.MobileAssetVerbose"
++ "AppleIntelligence.Reporting.AssetDeliveryLog.SoftwareUpdateController"
++ "AppleIntelligenceReportingMobileAssetLog.MobileAssetPSUSDetermineState"
++ "AppleIntelligenceReportingMobileAssetLog.MobileAssetPromotionState"
++ "AppleIntelligenceReportingMobileAssetVerboseLog"
++ "AppleIntelligenceReportingMobileAssetVerboseLog.MobileAssetAlterState"
++ "AppleIntelligenceReportingMobileAssetVerboseLog.MobileAssetAssetSelector"
++ "AppleIntelligenceReportingMobileAssetVerboseLog.MobileAssetEliminateState"
++ "AppleIntelligenceReportingMobileAssetVerboseLog.MobileAssetScanState"
++ "AppleIntelligenceReportingSoftwareUpdateControllerLog"
++ "AppleIntelligenceReportingSoftwareUpdateControllerLog.SoftwareUpdateControllerPSUSState"
++ "C494A647-4EA4-441A-81FA-832D894F8BCC"
++ "Client"
++ "CriticalCellular"
++ "Hard"
++ "Library.Streams.AppleIntelligence.Reporting.AssetDeliveryLog.MobileAssetVerbose"
++ "Library.Streams.AppleIntelligence.Reporting.AssetDeliveryLog.SoftwareUpdateController"
++ "OperationTypeOther"
++ "OperationTypePSUSDetermine"
++ "OperationTypePSUSDownload"
++ "Other"
++ "Psus"
++ "Recovery"
++ "Scheduler"
++ "Soft"
++ "StateScopeAssetSet"
++ "StateScopeAssetSpecifier"
++ "StateScopeMobileassetd"
++ "StateScopeOther"
++ "StateScopeUnknown"
++ "UpdateTypeCritical"
++ "UpdateTypeCriticalCellular"
++ "UpdateTypeEmergency"
++ "UpdateTypeFull"
++ "UpdateTypeIncremental"
++ "UpdateTypeNotSpecified"
++ "UpdateTypeOther"
++ "UpdateTypeUnknown"
++ "assetSelectors"
++ "bytesDownloaded"
++ "clientDomain"
++ "isPSUS"
++ "isResponseFromCache"
++ "justification"
++ "lookupAssetAudience"
++ "mobileAssetAlterState"
++ "mobileAssetEliminateState"
++ "mobileAssetPSUSDetermineEventState"
++ "mobileAssetPromotionEventState"
++ "mobileAssetScanState"
++ "operation"
++ "optionalAssetCount"
++ "requiredAssetCount"
++ "softwareUpdateControllerPSUSEvent"
++ "stateScope"
++ "targetBuild"
++ "targetOSVersion"
++ "update"
+
+```

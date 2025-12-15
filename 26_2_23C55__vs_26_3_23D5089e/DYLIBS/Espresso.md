@@ -1,0 +1,121 @@
+## Espresso
+
+> `/System/Library/PrivateFrameworks/Espresso.framework/Espresso`
+
+```diff
+
+-3510.3.1.0.0
+-  __TEXT.__text: 0xcb066c
+-  __TEXT.__auth_stubs: 0x4e30
++3515.2.1.1.1
++  __TEXT.__text: 0xcb5cbc
++  __TEXT.__auth_stubs: 0x4e50
+   __TEXT.__objc_methlist: 0x322c
+-  __TEXT.__const: 0x606f3
+-  __TEXT.__gcc_except_tab: 0xdcd50
+-  __TEXT.__cstring: 0x4f234
+-  __TEXT.__oslogstring: 0x83d9
+-  __TEXT.__unwind_info: 0x2d580
++  __TEXT.__const: 0x60723
++  __TEXT.__gcc_except_tab: 0xdd234
++  __TEXT.__cstring: 0x4f2bc
++  __TEXT.__oslogstring: 0x85e3
++  __TEXT.__unwind_info: 0x2d640
+   __TEXT.__eh_frame: 0x4f8
+   __TEXT.__objc_classname: 0xfbc
+   __TEXT.__objc_methname: 0xa8bf
+   __TEXT.__objc_methtype: 0x8adb
+   __TEXT.__objc_stubs: 0x6cc0
+   __DATA_CONST.__got: 0xb98
+-  __DATA_CONST.__const: 0x2da8
++  __DATA_CONST.__const: 0x2db8
+   __DATA_CONST.__objc_classlist: 0x400
+   __DATA_CONST.__objc_protolist: 0x38
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x24e0
+   __DATA_CONST.__objc_superrefs: 0x170
+   __DATA_CONST.__objc_arraydata: 0x298
+-  __AUTH_CONST.__auth_got: 0x2730
+-  __AUTH_CONST.__const: 0x9f480
++  __AUTH_CONST.__auth_got: 0x2740
++  __AUTH_CONST.__const: 0x9f4c0
+   __AUTH_CONST.__cfstring: 0xa0e0
+   __AUTH_CONST.__objc_const: 0x8b90
+   __AUTH_CONST.__objc_intobj: 0x348
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B5A0FAD0-F010-30EB-938F-A7017165A4AC
+-  Functions: 34242
+-  Symbols:   86965
+-  CStrings:  13962
++  UUID: C3D6A16E-96B7-3C4C-B7E4-8C4D54C14494
++  Functions: 34264
++  Symbols:   87030
++  CStrings:  13970
+ 
+Symbols:
++ __ZN8Espresso3AOT15SegmenterCoarseC1EONS0_15BackendRegistryENSt3__110unique_ptrIKNS0_19MILSegmenterOptionsENS4_14default_deleteIS7_EEEE
++ __ZN8Espresso3AOT15SegmenterCoarseC2EONS0_15BackendRegistryENSt3__110unique_ptrIKNS0_19MILSegmenterOptionsENS4_14default_deleteIS7_EEEE
++ __ZN8Espresso3AOT15SegmenterCoarseD0Ev
++ __ZN8Espresso3AOT15SegmenterCoarseD1Ev
++ __ZN8Espresso3AOT15SegmenterCoarseD2Ev
++ __ZN8Espresso3AOT24EstimatorMILDecisionTreeC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKN8E5Common18PlatformIdentifierEbbb
++ __ZN8Espresso3AOT24EstimatorMILDecisionTreeC2ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKN8E5Common18PlatformIdentifierEbbb
++ __ZN8Espresso3AOT5Utils32IsCoarseSegmenterDefaultPlatformEN4E5RT8PlatformE
++ __ZN8Espresso3AOT6DTrees10convAneFflERKNS1_16CostModelFeatureE
++ __ZN8Espresso3AOT6DTrees10convAneFfmERKNS1_16CostModelFeatureE
++ __ZN8Espresso3AOT6DTrees10convGpuFflERKNS1_16CostModelFeatureE
++ __ZN8Espresso3AOT6DTrees10convGpuFfmERKNS1_16CostModelFeatureE
++ __ZN8Espresso3AOT6DTrees18planarengineAneFflERKNS1_16CostModelFeatureE
++ __ZN8Espresso3AOT6DTrees18planarengineAneFfmERKNS1_16CostModelFeatureE
++ __ZN8Espresso3AOTL16kCoarseSegmenterE
++ __ZNK8Espresso3AOT15SegmenterCoarse14WriteAnalyticsERKN3MIL9IRProgramERKNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEERKNS6_6vectorINS6_10unique_ptrINS0_16ValidationResultENS6_14default_deleteISH_EEEENSA_ISK_EEEERKNSF_ImNSA_ImEEEE
++ __ZNK8Espresso3AOT15SegmenterCoarse15EstimateEndCostEm
++ __ZNK8Espresso3AOT15SegmenterCoarse15EstimateEndCostEm.cold.1
++ __ZNK8Espresso3AOT15SegmenterCoarse18EstimateLaunchCostEm
++ __ZNK8Espresso3AOT15SegmenterCoarse18EstimateLaunchCostEm.cold.1
++ __ZNK8Espresso3AOT15SegmenterCoarse19DetermineOpsBackendERKN3MIL9IRProgramERKNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEE
++ __ZNK8Espresso3AOT15SegmenterCoarse20EstimateTransferCostEmm
++ __ZNK8Espresso3AOT15SegmenterCoarse20EstimateTransferCostEmm.cold.1
++ __ZNK8Espresso3AOT15SegmenterCoarse25CalculateSimpleAssignmentERKNSt3__113unordered_mapImNS3_ImdNS2_4hashImEENS2_8equal_toImEENS2_9allocatorINS2_4pairIKmdEEEEEES5_S7_NS8_INS9_ISA_SD_EEEEEEm
++ __ZNK8Espresso3AOT15SegmenterCoarse25CalculateSimpleAssignmentERKNSt3__113unordered_mapImNS3_ImdNS2_4hashImEENS2_8equal_toImEENS2_9allocatorINS2_4pairIKmdEEEEEES5_S7_NS8_INS9_ISA_SD_EEEEEEm.cold.1
++ __ZNK8Espresso3AOT15SegmenterCoarse25PruneOpCostBasedOnGroupIdERKN3MIL9IRProgramERKNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEERNS6_13unordered_mapImNSF_ImdNS6_4hashImEENS6_8equal_toImEENSA_INS6_4pairIKmdEEEEEESH_SJ_NSA_INSK_ISL_SO_EEEEEE
++ __ZNK8Espresso3AOT15SegmenterCoarse25PruneOpCostBasedOnGroupIdERKN3MIL9IRProgramERKNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEERNS6_13unordered_mapImNSF_ImdNS6_4hashImEENS6_8equal_toImEENSA_INS6_4pairIKmdEEEEEESH_SJ_NSA_INSK_ISL_SO_EEEEEE.cold.1
++ __ZNK8Espresso3AOT15SegmenterCoarse25ValidateAndEstimateOpCostERKN3MIL9IRProgramES5_RKNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEE
++ __ZNK8Espresso3AOT15SegmenterCoarse25ValidateAndEstimateOpCostERKN3MIL9IRProgramES5_RKNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEE.cold.1
++ __ZNK8Espresso3AOT15SegmenterCoarse33PruneOpCostBasedOnIntendedBackendERKN3MIL9IRProgramERKNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEERNS6_13unordered_mapImNSF_ImdNS6_4hashImEENS6_8equal_toImEENSA_INS6_4pairIKmdEEEEEESH_SJ_NSA_INSK_ISL_SO_EEEEEE
++ __ZNK8Espresso3AOT15SegmenterCoarse3RunERKN3MIL9IRProgramERKNSt3__16vectorINS6_12basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEENSB_ISD_EEEE
++ __ZNK8Espresso3AOT16MILCompilerForE519MakeBackendRegistryERKN8E5Common18PlatformIdentifierERKNSt3__16vectorINS0_17BackendIdentifierENS6_9allocatorIS8_EEEERKNS0_19MILSegmenterOptionsERKNS6_12basic_stringIcNS6_11char_traitsIcEENS9_IcEEEE
++ __ZNK8Espresso3AOT16MILCompilerForE519MakeBackendRegistryERKN8E5Common18PlatformIdentifierERKNSt3__16vectorINS0_17BackendIdentifierENS6_9allocatorIS8_EEEERKNS0_19MILSegmenterOptionsERKNS6_12basic_stringIcNS6_11char_traitsIcEENS9_IcEEEE.cold.1
++ __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEb
++ __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS1_ImNS_9allocatorImEEEENS2_IS4_EEE16__destroy_vectorEED2B8ne200100Ev
++ __ZNSt3__16vectorINS0_ImNS_9allocatorImEEEENS1_IS3_EEEC2B8ne200100EmRKS3_
++ __ZTIN8Espresso3AOT15SegmenterCoarseE
++ __ZTSN8Espresso3AOT15SegmenterCoarseE
++ __ZTVN8Espresso3AOT15SegmenterCoarseE
++ ___block_descriptor_tmp.12
++ ___exp10
+- __ZN8Espresso3AOT24EstimatorMILDecisionTreeC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKN8E5Common18PlatformIdentifierEbb
+- __ZN8Espresso3AOT24EstimatorMILDecisionTreeC2ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKN8E5Common18PlatformIdentifierEbb
+- __ZNK8Espresso3AOT16MILCompilerForE519MakeBackendRegistryERKN8E5Common18PlatformIdentifierERKNSt3__16vectorINS0_17BackendIdentifierENS6_9allocatorIS8_EEEERKNS0_19MILSegmenterOptionsE
+- __ZNK8Espresso3AOT16MILCompilerForE519MakeBackendRegistryERKN8E5Common18PlatformIdentifierERKNSt3__16vectorINS0_17BackendIdentifierENS6_9allocatorIS8_EEEERKNS0_19MILSegmenterOptionsE.cold.1
+- ___block_descriptor_tmp.10
+CStrings:
++ ", or "
++ "3515.2.1.1.1"
++ "Operation %zu is not supported on any CPU backend"
++ "Segmenter to use in E5 compiler (linear,graph,coarse)."
++ "[SegmenterCoarse::PruneOpCostBasedOnIntendedBackend] Backend: %s not passed as an option for segmentation or backward compat path in use"
++ "[SegmenterCoarse::PruneOpCostBasedOnIntendedBackend] Prune OpsEstimatedCosts Mapping for function: %s"
++ "[SegmenterCoarse::ValidateAndEstimateOpCost] Finish validating and estimating cost for backend: %s"
++ "[SegmenterCoarse::ValidateAndEstimateOpCost] Skipping backend: %s for entry point: %s"
++ "[SegmenterCoarse::ValidateAndEstimateOpCost] Start validating and estimating cost for backend: %s"
++ "coarse"
++ "is3DConv,"
+- " or "
+- "3510.3.1"
+- "Segmenter to use in E5 compiler (linear,graph)."
+
+```

@@ -1,0 +1,171 @@
+## HomeEnergyUI
+
+> `/System/Library/PrivateFrameworks/HomeEnergyUI.framework/HomeEnergyUI`
+
+```diff
+
+-393.3.2.1.1
+-  __TEXT.__text: 0x1a9d1c
+-  __TEXT.__auth_stubs: 0x44c0
++393.4.4.0.0
++  __TEXT.__text: 0x1afb64
++  __TEXT.__auth_stubs: 0x45a0
+   __TEXT.__objc_methlist: 0x154
+-  __TEXT.__const: 0xacca
+-  __TEXT.__cstring: 0xae7c
+-  __TEXT.__constg_swiftt: 0x2f94
+-  __TEXT.__swift5_typeref: 0x199ae
++  __TEXT.__const: 0xb12a
++  __TEXT.__cstring: 0xb42c
++  __TEXT.__constg_swiftt: 0x315c
++  __TEXT.__swift5_typeref: 0x1a43c
+   __TEXT.__swift5_builtin: 0x8c
+-  __TEXT.__swift5_reflstr: 0x3dd0
+-  __TEXT.__swift5_fieldmd: 0x30c8
+-  __TEXT.__swift5_assocty: 0xb58
+-  __TEXT.__swift5_proto: 0x3ac
+-  __TEXT.__swift5_types: 0x298
+-  __TEXT.__swift5_capture: 0x94c
+-  __TEXT.__oslogstring: 0x3f32
+-  __TEXT.__swift_as_entry: 0x14c
+-  __TEXT.__swift_as_ret: 0x1bc
++  __TEXT.__swift5_reflstr: 0x3f10
++  __TEXT.__swift5_fieldmd: 0x31e0
++  __TEXT.__swift5_assocty: 0xb70
++  __TEXT.__swift5_proto: 0x3b4
++  __TEXT.__swift5_types: 0x2a4
++  __TEXT.__swift5_capture: 0x9d8
++  __TEXT.__oslogstring: 0x3f92
++  __TEXT.__swift_as_entry: 0x160
++  __TEXT.__swift_as_ret: 0x1d0
+   __TEXT.__swift5_protos: 0xc
+   __TEXT.__swift5_mpenum: 0x40
+-  __TEXT.__unwind_info: 0x3808
+-  __TEXT.__eh_frame: 0x5480
++  __TEXT.__unwind_info: 0x3970
++  __TEXT.__eh_frame: 0x5628
+   __TEXT.__objc_classname: 0x3b
+   __TEXT.__objc_methname: 0x8b7
+   __TEXT.__objc_methtype: 0x100
+-  __DATA_CONST.__got: 0x1038
++  __DATA_CONST.__got: 0x1070
+   __DATA_CONST.__const: 0x468
+-  __DATA_CONST.__objc_classlist: 0x58
++  __DATA_CONST.__objc_classlist: 0x60
+   __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x3e0
+   __DATA_CONST.__objc_protorefs: 0x28
+-  __AUTH_CONST.__auth_got: 0x2260
+-  __AUTH_CONST.__const: 0x8e88
+-  __AUTH_CONST.__objc_const: 0xd58
+-  __AUTH.__objc_data: 0xf0
+-  __AUTH.__data: 0x1ad0
+-  __DATA.__data: 0x47a0
+-  __DATA.__bss: 0x4278
++  __AUTH_CONST.__auth_got: 0x22d0
++  __AUTH_CONST.__const: 0x9028
++  __AUTH_CONST.__objc_const: 0xe68
++  __AUTH.__objc_data: 0x140
++  __AUTH.__data: 0x1d20
++  __DATA.__data: 0x4930
++  __DATA.__bss: 0x43d8
+   __DATA.__common: 0x2c8
+   __DATA_DIRTY.__objc_data: 0xf0
+   __DATA_DIRTY.__data: 0x2bb0
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: ACA37DDD-0160-3A9E-A861-C20CDA7AD52A
+-  Functions: 5084
+-  Symbols:   2322
+-  CStrings:  1361
++  UUID: FE0A937F-B066-3B7F-976B-682995C59CC8
++  Functions: 5206
++  Symbols:   2367
++  CStrings:  1396
+ 
+Symbols:
++ __DATA__TtC12HomeEnergyUI23EKAppConfigurationModel
++ __IVARS__TtC12HomeEnergyUI23EKAppConfigurationModel
++ __METACLASS_DATA__TtC12HomeEnergyUI23EKAppConfigurationModel
++ _associated conformance 12HomeEnergyUI22EKAppConfigurationViewV05SwiftC00F0AA4BodyAdEP_AdE
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOQr.219
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOqd0__AaBHC.220
++ _get_witness_table 7SwiftUI4FormVyAA9TupleViewVyAA15ModifiedContentVyAA7SectionVyAA05EmptyE0VAGyAGyAA6ToggleVyAA4TextVGAA32_EnvironmentKeyTransformModifierVySbGGAA023AccessibilityAttachmentO0VGAGyAGyAoA01_lm7WritingO0VyAA0K9AlignmentOGGAVGGAVG_A4_SgAGyAIyAGyAoVGAGyAA6HStackVyAEyAGyAGyAGyAGyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameX0VGAA11_ClipEffectVyAA16RoundedRectangleVGGAVG_AGyAGyAA6VStackVyAEyA6__A6_AA6SpacerVAGyAGyAoYyAO4CaseOSgGGAVGtGGAYyAA4FontVSgGGAA08_PaddingX0VGA27_AA0E0PAAE12onTapGesture5count7performQrSi_yyctFQOyA6__Qo_tGGAVGAKGAVGtGGAAA44_HPyHC.7
++ _objectdestroy.27Tm
++ _swift_deletedAsyncMethodErrorTu
++ _symbolic So7UIImageC
++ _symbolic _____ 12HomeEnergyUI22EKAppConfigurationViewV
++ _symbolic _____ 12HomeEnergyUI22EKAppConfigurationViewV16AppConfigTogglesO
++ _symbolic _____ 12HomeEnergyUI23EKAppConfigurationModelC
++ _symbolic _____ 12HomeEnergyUI9EKAppInfoV
++ _symbolic _____Sg 19EnergyKitFoundation0A13TogglePayloadV
++ _symbolic _____yAAyAAyAAy__________G_____G_____y_____GG_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA11_ClipEffectV AA16RoundedRectangleV AA31AccessibilityAttachmentModifierV
++ _symbolic _____yAAyAAyAAy__________G_____G_____y_____GG_____G_AAyAAy_____y_____yAAy_____AKG_AP_____AAyAAyAO_____y_____SgGGAKGtGGARy_____SgGG_____GAQ_____yAP_Qo_t 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA11_ClipEffectV AA16RoundedRectangleV AA31AccessibilityAttachmentModifierV AA6VStackV AA9TupleViewV AA4TextV AA6SpacerV AA022_EnvironmentKeyWritingP0V AU4CaseO AA4FontV AA08_PaddingH0V AA0S0PAAE12onTapGesture5count7performQrSi_yyctFQO
++ _symbolic _____yAAyAAy__________G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA11_ClipEffectV AA16RoundedRectangleV
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V
++ _symbolic _____yAAy__________y_____GG_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA023AccessibilityAttachmentI0V
++ _symbolic _____yAAy_____y_____G_____ySbGG_____G 7SwiftUI15ModifiedContentV AA6ToggleV AA4TextV AA32_EnvironmentKeyTransformModifierV AA023AccessibilityAttachmentJ0V
++ _symbolic _____yAAy_____y_____yAAy__________G_AF_____AAyAAyAD_____y_____SgGGAEGtGGAHy_____SgGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA31AccessibilityAttachmentModifierV AA6SpacerV AA022_EnvironmentKeyWritingK0V AI4CaseO AA4FontV AA14_PaddingLayoutV
++ _symbolic _____ySbG 7SwiftUI32_EnvironmentKeyTransformModifierV
++ _symbolic _____y_____G 7SwiftUI5StateV 010HomeEnergyB023EKAppConfigurationModelC
++ _symbolic _____y_____G 7SwiftUI6ToggleV AA4TextV
++ _symbolic _____y__________G_AD_____AAyAAyAB_____y_____SgGGACGt 7SwiftUI15ModifiedContentV AA4TextV AA31AccessibilityAttachmentModifierV AA6SpacerV AA022_EnvironmentKeyWritingH0V AE4CaseO
++ _symbolic _____y___________y_____yADyADyADy__________G_____G_____y_____GG_____G_ADyADy_____yACyADy_____ANG_AR_____ADyADyAQ_____y_____SgGGANGtGGATy_____SgGG_____GAS_____yAR_Qo_tGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA15ModifiedContentV AA5ImageV AA012_AspectRatioG0V AA06_FrameG0V AA11_ClipEffectV AA16RoundedRectangleV AA31AccessibilityAttachmentModifierV AA6VStackV AA4TextV AA6SpacerV AA022_EnvironmentKeyWritingU0V A_4CaseO AA4FontV AA08_PaddingG0V AA0D0PAAE12onTapGesture5count7performQrSi_yyctFQO
++ _symbolic _____y___________y_____y__________G_AG_____ADyADyAE_____y_____SgGGAFGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV AA4TextV AA31AccessibilityAttachmentModifierV AA6SpacerV AA022_EnvironmentKeyWritingN0V AM4CaseO
++ _symbolic _____y__________yACy_____y_____G_____ySbGG_____GACyACyAE_____y_____GGAJGG 7SwiftUI7SectionV AA9EmptyViewV AA15ModifiedContentV AA6ToggleV AA4TextV AA32_EnvironmentKeyTransformModifierV AA023AccessibilityAttachmentM0V AA01_jk7WritingM0V AA0I9AlignmentO
++ _symbolic _____y_____yAAy__________GAAy_____y_____yAAyAAyAAyAAy__________G_____G_____y_____GGADG_AAyAAy_____yAGyAE_AE_____AAyAAyAC_____y_____SgGGADGtGGATy_____SgGG_____GAS_____yAE_Qo_tGGADG_____GADG 7SwiftUI15ModifiedContentV AA7SectionV AA4TextV AA31AccessibilityAttachmentModifierV AA6HStackV AA9TupleViewV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameP0V AA11_ClipEffectV AA16RoundedRectangleV AA6VStackV AA6SpacerV AA022_EnvironmentKeyWritingI0V AG4CaseO AA4FontV AA08_PaddingP0V AA0L0PAAE12onTapGesture5count7performQrSi_yyctFQO AA05EmptyL0V
++ _symbolic _____y_____y_____AAyAAy_____y_____G_____ySbGG_____GAAyAAyAE_____y_____GGAJGGAJG 7SwiftUI15ModifiedContentV AA7SectionV AA9EmptyViewV AA6ToggleV AA4TextV AA32_EnvironmentKeyTransformModifierV AA023AccessibilityAttachmentM0V AA01_jk7WritingM0V AA0I9AlignmentO
++ _symbolic _____y_____y_____AAyAAy_____y_____G_____ySbGG_____GAAyAAyAE_____y_____GGAJGGAJGSg 7SwiftUI15ModifiedContentV AA7SectionV AA9EmptyViewV AA6ToggleV AA4TextV AA32_EnvironmentKeyTransformModifierV AA023AccessibilityAttachmentM0V AA01_jk7WritingM0V AA0I9AlignmentO
++ _symbolic _____y_____y_____AAyAAy_____y_____G_____ySbGG_____GAAyAAyAE_____y_____GGAJGGAJG_ARSgAAyAByAAyAeJGAAy_____y_____yAAyAAyAAyAAy__________G_____G_____y_____GGAJG_AAyAAy_____yAVyAT_AT_____AAyAAyAeLy_____SgGGAJGtGGALy_____SgGG_____GA6______yAT_Qo_tGGAJGACGAJGt 7SwiftUI15ModifiedContentV AA7SectionV AA9EmptyViewV AA6ToggleV AA4TextV AA32_EnvironmentKeyTransformModifierV AA023AccessibilityAttachmentM0V AA01_jk7WritingM0V AA0I9AlignmentO AA6HStackV AA05TupleG0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameW0V AA11_ClipEffectV AA16RoundedRectangleV AA6VStackV AA6SpacerV AK4CaseO AA4FontV AA08_PaddingW0V AA0G0PAAE12onTapGesture5count7performQrSi_yyctFQO
++ _symbolic _____y_____y_____G_____ySbGG 7SwiftUI15ModifiedContentV AA6ToggleV AA4TextV AA32_EnvironmentKeyTransformModifierV
++ _symbolic _____y_____y__________GABy_____y_____yAByAByAByABy__________G_____G_____y_____GGADG_AByABy_____yAGyAE_AE_____AByAByAC_____y_____SgGGADGtGGATy_____SgGG_____GAS_____yAE_Qo_tGGADG_____G 7SwiftUI7SectionV AA15ModifiedContentV AA4TextV AA31AccessibilityAttachmentModifierV AA6HStackV AA9TupleViewV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameP0V AA11_ClipEffectV AA16RoundedRectangleV AA6VStackV AA6SpacerV AA022_EnvironmentKeyWritingI0V AG4CaseO AA4FontV AA08_PaddingP0V AA0L0PAAE12onTapGesture5count7performQrSi_yyctFQO AA05EmptyL0V
++ _symbolic _____y_____y__________G_Qo_ 7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA15ModifiedContentV AA4TextV AA31AccessibilityAttachmentModifierV
++ _symbolic _____y_____y_____yAAyAAyAAyAAy__________G_____G_____y_____GG_____G_AAyAAy_____yACyAAy_____AMG_AQ_____AAyAAyAP_____y_____SgGGAMGtGGASy_____SgGG_____GAR_____yAQ_Qo_tGGAMG 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameK0V AA11_ClipEffectV AA16RoundedRectangleV AA31AccessibilityAttachmentModifierV AA6VStackV AA4TextV AA6SpacerV AA022_EnvironmentKeyWritingS0V AW4CaseO AA4FontV AA08_PaddingK0V AA0G0PAAE12onTapGesture5count7performQrSi_yyctFQO
++ _symbolic _____y_____y_____yAAy__________G_AF_____AAyAAyAD_____y_____SgGGAEGtGGAHy_____SgGG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA31AccessibilityAttachmentModifierV AA6SpacerV AA022_EnvironmentKeyWritingK0V AI4CaseO AA4FontV
++ _symbolic _____y_____y_____yACyACyACy__________G_____G_____y_____GG_____G_ACyACy_____yAByACy_____AMG_AQ_____ACyACyAP_____y_____SgGGAMGtGGASy_____SgGG_____GAR_____yAQ_Qo_tGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameK0V AA11_ClipEffectV AA16RoundedRectangleV AA31AccessibilityAttachmentModifierV AA6VStackV AA4TextV AA6SpacerV AA022_EnvironmentKeyWritingS0V AW4CaseO AA4FontV AA08_PaddingK0V AA0E0PAAE12onTapGesture5count7performQrSi_yyctFQO
++ _symbolic _____y_____y_____y_____AByABy_____y_____G_____ySbGG_____GAByAByAF_____y_____GGAKGGAKG_ASSgAByACyAByAfKGABy_____yAAyAByAByAByABy__________G_____G_____y_____GGAKG_AByABy_____yAAyAU_AU_____AByAByAfMy_____SgGGAKGtGGAMy_____SgGG_____GA6______yAU_Qo_tGGAKGADGAKGtG 7SwiftUI9TupleViewV AA15ModifiedContentV AA7SectionV AA05EmptyD0V AA6ToggleV AA4TextV AA32_EnvironmentKeyTransformModifierV AA023AccessibilityAttachmentN0V AA01_kl7WritingN0V AA0J9AlignmentO AA6HStackV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameW0V AA11_ClipEffectV AA16RoundedRectangleV AA6VStackV AA6SpacerV AM4CaseO AA4FontV AA08_PaddingW0V AA0D0PAAE12onTapGesture5count7performQrSi_yyctFQO
++ _symbolic _____y_____y_____y_____y_____ACyACy_____y_____G_____ySbGG_____GACyACyAG_____y_____GGALGGALG_ATSgACyADyACyAgLGACy_____yAByACyACyACyACy__________G_____G_____y_____GGALG_ACyACy_____yAByAV_AV_____ACyACyAgNy_____SgGGALGtGGANy_____SgGG_____GA7______yAV_Qo_tGGALGAEGALGtGG 7SwiftUI4FormV AA9TupleViewV AA15ModifiedContentV AA7SectionV AA05EmptyE0V AA6ToggleV AA4TextV AA32_EnvironmentKeyTransformModifierV AA023AccessibilityAttachmentO0V AA01_lm7WritingO0V AA0K9AlignmentO AA6HStackV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameX0V AA11_ClipEffectV AA16RoundedRectangleV AA6VStackV AA6SpacerV AO4CaseO AA4FontV AA08_PaddingX0V AA0E0PAAE12onTapGesture5count7performQrSi_yyctFQO
++ _type_layout_string 12HomeEnergyUI9EKAppInfoV
+- _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOQr.217
+- _get_underlying_witness 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOqd0__AaBHC.218
+CStrings:
++ " to charge electric vehicles when energy sources are cleaner."
++ " to pause charging when rates are higher, or wait until rates are lower."
++ "Clean Energy Charging"
++ "Description on how an EV app can optimize for cleanliness"
++ "Description on how an EV app can optimize for cost"
++ "EnergyKit.CleanEnergyCharging.Description"
++ "EnergyKit.CleanEnergyCharging.Section"
++ "EnergyKit.CleanEnergyCharging.Toggle"
++ "EnergyKit.ConnectedApp.Container"
++ "EnergyKit.ConnectedApp.Header"
++ "EnergyKit.ConnectedApp.Icon"
++ "EnergyKit.ConnectedApp.InstalledStatus"
++ "EnergyKit.ConnectedApp.Name"
++ "EnergyKit.ConnectedApp.Publisher"
++ "EnergyKit.ConnectedApp.Section"
++ "EnergyKit.ConnectedApp.ViewButton"
++ "EnergyKit.OptimizeCost.Description"
++ "EnergyKit.OptimizeCost.Section"
++ "EnergyKit.OptimizeCost.Toggle"
++ "Failed to load EnergyKit configuration: %@"
++ "Failed to save EnergyKit configuration: %@"
++ "Optimize for Electricity Rates"
++ "The banner to deep link the connected app."
++ "The message indicating the app is installed."
++ "The tappable message to open the EnergyKit connected app."
++ "Title for the Clean Energy Charging toggle"
++ "Title for the Optimize for Electricity Rates toggle"
++ "With Grid Forecast, Home can inform "
++ "With a connected energy account, Home can inform "
++ "_TtC12HomeEnergyUI23EKAppConfigurationModel"
++ "_hasHomeUtilitySubscription"
++ "_isOptimizingForCleanliness"
++ "_isOptimizingForCost"
++ "appBundleID"
++ "homeID"
+
+```

@@ -1,0 +1,523 @@
+## CoreSpeech
+
+> `/System/Library/PrivateFrameworks/CoreSpeech.framework/CoreSpeech`
+
+```diff
+
+-3510.3.1.0.0
+-  __TEXT.__text: 0x152a88
++3515.5.1.0.0
++  __TEXT.__text: 0x152a90
+   __TEXT.__auth_stubs: 0x1b60
+   __TEXT.__objc_methlist: 0x1440c
+   __TEXT.__const: 0x58c
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0BBDCDD2-E001-3A5B-A8CB-375A4C732653
++  UUID: CFA7FBC1-D6A5-373C-B8CD-21F9EC3F92FE
+   Functions: 7926
+   Symbols:   26053
+   CStrings:  15516
+Symbols:
++ _AudioConverterFillComplexBuffer_BlockInvoke.26298
++ ___105-[CSHybridEndpointAnalyzer resetForNewRequestWithSampleRate:recordContext:recordOption:voiceTriggerInfo:]_block_invoke.437
++ ___105-[CSHybridEndpointAnalyzer resetForNewRequestWithSampleRate:recordContext:recordOption:voiceTriggerInfo:]_block_invoke.441
++ ___105-[CSHybridEndpointAnalyzer resetForNewRequestWithSampleRate:recordContext:recordOption:voiceTriggerInfo:]_block_invoke.444
++ ___46-[CSHybridEndpointAnalyzer processTaskString:]_block_invoke.397
++ ___49-[CSAssetController _downloadAsset:withComplete:]_block_invoke.330
++ ___54-[CSAssetController fetchRemoteMetaOfType:allowRetry:]_block_invoke.318
++ ___64-[CSEndpointerAssetManager _registerForAssetUpdateNotifications]_block_invoke.311
++ ___76-[CSHybridEndpointAnalyzer processOSDFeatures:withFrameDurationMs:withMHID:]_block_invoke.402
++ ___76-[CSHybridEndpointAnalyzer processOSDFeatures:withFrameDurationMs:withMHID:]_block_invoke.403
++ ___76-[CSHybridEndpointAnalyzer processOSDFeatures:withFrameDurationMs:withMHID:]_block_invoke.404
++ ___76-[CSHybridEndpointAnalyzer processOSDFeatures:withFrameDurationMs:withMHID:]_block_invoke.406
++ ___76-[CSHybridEndpointAnalyzer processOSDFeatures:withFrameDurationMs:withMHID:]_block_invoke.407
++ ___76-[CSHybridEndpointAnalyzer processOSDFeatures:withFrameDurationMs:withMHID:]_block_invoke.410
++ ___76-[CSHybridEndpointAnalyzer processOSDFeatures:withFrameDurationMs:withMHID:]_block_invoke_2.408
++ ___Block_byref_object_copy_.11859
++ ___Block_byref_object_copy_.13150
++ ___Block_byref_object_copy_.13569
++ ___Block_byref_object_copy_.14629
++ ___Block_byref_object_copy_.14964
++ ___Block_byref_object_copy_.15840
++ ___Block_byref_object_copy_.15953
++ ___Block_byref_object_copy_.17580
++ ___Block_byref_object_copy_.17868
++ ___Block_byref_object_copy_.19029
++ ___Block_byref_object_copy_.20165
++ ___Block_byref_object_copy_.20817
++ ___Block_byref_object_copy_.21429
++ ___Block_byref_object_copy_.21671
++ ___Block_byref_object_copy_.22307
++ ___Block_byref_object_copy_.23966
++ ___Block_byref_object_copy_.24773
++ ___Block_byref_object_copy_.25207
++ ___Block_byref_object_copy_.26044
++ ___Block_byref_object_copy_.26479
++ ___Block_byref_object_copy_.27297
++ ___Block_byref_object_dispose_.11860
++ ___Block_byref_object_dispose_.13151
++ ___Block_byref_object_dispose_.13570
++ ___Block_byref_object_dispose_.14630
++ ___Block_byref_object_dispose_.14965
++ ___Block_byref_object_dispose_.15841
++ ___Block_byref_object_dispose_.15954
++ ___Block_byref_object_dispose_.17581
++ ___Block_byref_object_dispose_.17869
++ ___Block_byref_object_dispose_.19030
++ ___Block_byref_object_dispose_.20166
++ ___Block_byref_object_dispose_.20818
++ ___Block_byref_object_dispose_.21430
++ ___Block_byref_object_dispose_.21672
++ ___Block_byref_object_dispose_.22308
++ ___Block_byref_object_dispose_.23967
++ ___Block_byref_object_dispose_.24774
++ ___Block_byref_object_dispose_.25208
++ ___Block_byref_object_dispose_.26045
++ ___Block_byref_object_dispose_.26480
++ ___Block_byref_object_dispose_.27298
++ ___block_literal_global.10.19559
++ ___block_literal_global.10.21115
++ ___block_literal_global.10.22167
++ ___block_literal_global.11.12139
++ ___block_literal_global.11886
++ ___block_literal_global.12.14123
++ ___block_literal_global.12149
++ ___block_literal_global.12249
++ ___block_literal_global.12371
++ ___block_literal_global.12679
++ ___block_literal_global.12785
++ ___block_literal_global.12841
++ ___block_literal_global.12896
++ ___block_literal_global.13.21116
++ ___block_literal_global.13.21262
++ ___block_literal_global.13.22168
++ ___block_literal_global.13357
++ ___block_literal_global.13473
++ ___block_literal_global.13699
++ ___block_literal_global.14.21187
++ ___block_literal_global.14116
++ ___block_literal_global.14462
++ ___block_literal_global.14519
++ ___block_literal_global.14708
++ ___block_literal_global.14726
++ ___block_literal_global.14837
++ ___block_literal_global.15362
++ ___block_literal_global.15447
++ ___block_literal_global.15940
++ ___block_literal_global.15982
++ ___block_literal_global.16.12129
++ ___block_literal_global.16.13358
++ ___block_literal_global.16.14520
++ ___block_literal_global.16.21117
++ ___block_literal_global.16625
++ ___block_literal_global.17.14463
++ ___block_literal_global.17.21188
++ ___block_literal_global.17099
++ ___block_literal_global.17108
++ ___block_literal_global.17154
++ ___block_literal_global.17188
++ ___block_literal_global.17452
++ ___block_literal_global.17528
++ ___block_literal_global.17637
++ ___block_literal_global.18.14807
++ ___block_literal_global.18.21263
++ ___block_literal_global.18098
++ ___block_literal_global.18167
++ ___block_literal_global.18197
++ ___block_literal_global.18769
++ ___block_literal_global.19049
++ ___block_literal_global.19357
++ ___block_literal_global.19438
++ ___block_literal_global.19576
++ ___block_literal_global.19691
++ ___block_literal_global.19736
++ ___block_literal_global.19752
++ ___block_literal_global.20.13334
++ ___block_literal_global.20.14464
++ ___block_literal_global.20.21189
++ ___block_literal_global.20.25190
++ ___block_literal_global.20030
++ ___block_literal_global.20082
++ ___block_literal_global.20187
++ ___block_literal_global.20263
++ ___block_literal_global.20464
++ ___block_literal_global.20801
++ ___block_literal_global.21.12786
++ ___block_literal_global.21101
++ ___block_literal_global.21114
++ ___block_literal_global.21186
++ ___block_literal_global.21282
++ ___block_literal_global.21332
++ ___block_literal_global.21375
++ ___block_literal_global.21498
++ ___block_literal_global.22.17426
++ ___block_literal_global.22.21118
++ ___block_literal_global.22165
++ ___block_literal_global.23.21190
++ ___block_literal_global.23543
++ ___block_literal_global.23759
++ ___block_literal_global.23843
++ ___block_literal_global.24.12787
++ ___block_literal_global.24223
++ ___block_literal_global.24906
++ ___block_literal_global.25.21119
++ ___block_literal_global.25231
++ ___block_literal_global.25562
++ ___block_literal_global.25852
++ ___block_literal_global.25901
++ ___block_literal_global.26.25179
++ ___block_literal_global.26080
++ ___block_literal_global.26185
++ ___block_literal_global.26415
++ ___block_literal_global.26548
++ ___block_literal_global.27.12788
++ ___block_literal_global.27093
++ ___block_literal_global.27308
++ ___block_literal_global.27582
++ ___block_literal_global.29.21120
++ ___block_literal_global.29.21191
++ ___block_literal_global.30.12789
++ ___block_literal_global.30.13319
++ ___block_literal_global.303
++ ___block_literal_global.306
++ ___block_literal_global.329
++ ___block_literal_global.36.12790
++ ___block_literal_global.40.20779
++ ___block_literal_global.42.12791
++ ___block_literal_global.5.27583
++ ___block_literal_global.6.26075
++ ___block_literal_global.7.22166
++ ___block_literal_global.8.26179
++ ___block_literal_global.8.26549
++ ___block_literal_global.8.27584
++ __compensateChannelDataIfNeeded:receivedNumChannels:.heartbeat.14617
++ __handleAudioChunk:.heartbeat_CORESPEECH_VOICETRIGGER_FIRSTPASS_LPCM_RECORD_BUFFER_AVAILABLE.18695
++ __keywordAnalyzerNDAPI:hasResultAvailable:forChannel:.heartbeat.18686
++ __keywordAnalyzerNDAPI:hasResultAvailable:forChannel:.heartbeat.26779
++ _sharedController.onceToken.11885
++ _sharedController.sharedController.11887
++ _sharedHandler.onceToken.19356
++ _sharedHandler.onceToken.26079
++ _sharedHandler.sharedHandler.19358
++ _sharedHandler.sharedHandler.26081
++ _sharedHandlerDisabledOnDeviceCompilation.onceToken.26074
++ _sharedHandlerDisabledOnDeviceCompilation.sharedHandler.26076
++ _sharedInstance._sharedInstance.12897
++ _sharedInstance._sharedInstance.14838
++ _sharedInstance._sharedInstance.17155
++ _sharedInstance._sharedInstance.17453
++ _sharedInstance._sharedInstance.17529
++ _sharedInstance._sharedInstance.18168
++ _sharedInstance._sharedInstance.19692
++ _sharedInstance._sharedInstance.20031
++ _sharedInstance._sharedInstance.20083
++ _sharedInstance._sharedInstance.20264
++ _sharedInstance._sharedInstance.23544
++ _sharedInstance._sharedInstance.24224
++ _sharedInstance._sharedInstance.25902
++ _sharedInstance._sharedInstance.27309
++ _sharedInstance.onceToken.12840
++ _sharedInstance.onceToken.12895
++ _sharedInstance.onceToken.13472
++ _sharedInstance.onceToken.14836
++ _sharedInstance.onceToken.15361
++ _sharedInstance.onceToken.15446
++ _sharedInstance.onceToken.15939
++ _sharedInstance.onceToken.17153
++ _sharedInstance.onceToken.17451
++ _sharedInstance.onceToken.17527
++ _sharedInstance.onceToken.17636
++ _sharedInstance.onceToken.18097
++ _sharedInstance.onceToken.18166
++ _sharedInstance.onceToken.18196
++ _sharedInstance.onceToken.19575
++ _sharedInstance.onceToken.19690
++ _sharedInstance.onceToken.20029
++ _sharedInstance.onceToken.20081
++ _sharedInstance.onceToken.20262
++ _sharedInstance.onceToken.21100
++ _sharedInstance.onceToken.21281
++ _sharedInstance.onceToken.21374
++ _sharedInstance.onceToken.21497
++ _sharedInstance.onceToken.23542
++ _sharedInstance.onceToken.23842
++ _sharedInstance.onceToken.24222
++ _sharedInstance.onceToken.25561
++ _sharedInstance.onceToken.25900
++ _sharedInstance.onceToken.27092
++ _sharedInstance.onceToken.27307
++ _sharedInstance.sSharedInstance.18198
++ _sharedInstance.sharedInstance.12842
++ _sharedInstance.sharedInstance.13474
++ _sharedInstance.sharedInstance.15448
++ _sharedInstance.sharedInstance.18099
++ _sharedInstance.sharedInstance.19577
++ _sharedInstance.sharedInstance.21102
++ _sharedInstance.sharedInstance.21376
++ _sharedInstance.sharedInstance.27094
++ _sharedInstance.sharedManager.25563
++ _sharedInstance.sharedPolicy.21283
++ _sharedInstance.sharedPolicy.23844
++ _sharedManager.onceToken.17098
++ _sharedManager.onceToken.19048
++ _sharedManager.sharedManager.17100
++ _sharedMonitor.onceToken.20186
++ _sharedMonitor.sharedMonitor.20188
++ _sharedService.onceToken.15981
++ _sharedService.onceToken.25230
++ _sharedService.sharedService.25232
+- _AudioConverterFillComplexBuffer_BlockInvoke.26289
+- ___105-[CSHybridEndpointAnalyzer resetForNewRequestWithSampleRate:recordContext:recordOption:voiceTriggerInfo:]_block_invoke.446
+- ___105-[CSHybridEndpointAnalyzer resetForNewRequestWithSampleRate:recordContext:recordOption:voiceTriggerInfo:]_block_invoke.450
+- ___105-[CSHybridEndpointAnalyzer resetForNewRequestWithSampleRate:recordContext:recordOption:voiceTriggerInfo:]_block_invoke.453
+- ___46-[CSHybridEndpointAnalyzer processTaskString:]_block_invoke.406
+- ___49-[CSAssetController _downloadAsset:withComplete:]_block_invoke.339
+- ___54-[CSAssetController fetchRemoteMetaOfType:allowRetry:]_block_invoke.327
+- ___64-[CSEndpointerAssetManager _registerForAssetUpdateNotifications]_block_invoke.320
+- ___76-[CSHybridEndpointAnalyzer processOSDFeatures:withFrameDurationMs:withMHID:]_block_invoke.411
+- ___76-[CSHybridEndpointAnalyzer processOSDFeatures:withFrameDurationMs:withMHID:]_block_invoke.412
+- ___76-[CSHybridEndpointAnalyzer processOSDFeatures:withFrameDurationMs:withMHID:]_block_invoke.413
+- ___76-[CSHybridEndpointAnalyzer processOSDFeatures:withFrameDurationMs:withMHID:]_block_invoke.416
+- ___76-[CSHybridEndpointAnalyzer processOSDFeatures:withFrameDurationMs:withMHID:]_block_invoke.424
+- ___76-[CSHybridEndpointAnalyzer processOSDFeatures:withFrameDurationMs:withMHID:]_block_invoke.428
+- ___76-[CSHybridEndpointAnalyzer processOSDFeatures:withFrameDurationMs:withMHID:]_block_invoke_2.417
+- ___Block_byref_object_copy_.11857
+- ___Block_byref_object_copy_.13151
+- ___Block_byref_object_copy_.13570
+- ___Block_byref_object_copy_.14630
+- ___Block_byref_object_copy_.14965
+- ___Block_byref_object_copy_.15847
+- ___Block_byref_object_copy_.15964
+- ___Block_byref_object_copy_.17591
+- ___Block_byref_object_copy_.17876
+- ___Block_byref_object_copy_.19037
+- ___Block_byref_object_copy_.20174
+- ___Block_byref_object_copy_.20826
+- ___Block_byref_object_copy_.21437
+- ___Block_byref_object_copy_.21679
+- ___Block_byref_object_copy_.22313
+- ___Block_byref_object_copy_.23960
+- ___Block_byref_object_copy_.24764
+- ___Block_byref_object_copy_.25198
+- ___Block_byref_object_copy_.26035
+- ___Block_byref_object_copy_.26470
+- ___Block_byref_object_copy_.27288
+- ___Block_byref_object_dispose_.11858
+- ___Block_byref_object_dispose_.13152
+- ___Block_byref_object_dispose_.13571
+- ___Block_byref_object_dispose_.14631
+- ___Block_byref_object_dispose_.14966
+- ___Block_byref_object_dispose_.15848
+- ___Block_byref_object_dispose_.15965
+- ___Block_byref_object_dispose_.17592
+- ___Block_byref_object_dispose_.17877
+- ___Block_byref_object_dispose_.19038
+- ___Block_byref_object_dispose_.20175
+- ___Block_byref_object_dispose_.20827
+- ___Block_byref_object_dispose_.21438
+- ___Block_byref_object_dispose_.21680
+- ___Block_byref_object_dispose_.22314
+- ___Block_byref_object_dispose_.23961
+- ___Block_byref_object_dispose_.24765
+- ___Block_byref_object_dispose_.25199
+- ___Block_byref_object_dispose_.26036
+- ___Block_byref_object_dispose_.26471
+- ___Block_byref_object_dispose_.27289
+- ___block_literal_global.10.19568
+- ___block_literal_global.10.21124
+- ___block_literal_global.10.22175
+- ___block_literal_global.11.12140
+- ___block_literal_global.11883
+- ___block_literal_global.12.14124
+- ___block_literal_global.12150
+- ___block_literal_global.12250
+- ___block_literal_global.12372
+- ___block_literal_global.12680
+- ___block_literal_global.12786
+- ___block_literal_global.12842
+- ___block_literal_global.12897
+- ___block_literal_global.13.21125
+- ___block_literal_global.13.21271
+- ___block_literal_global.13.22176
+- ___block_literal_global.13358
+- ___block_literal_global.13474
+- ___block_literal_global.13700
+- ___block_literal_global.14.21196
+- ___block_literal_global.14117
+- ___block_literal_global.14463
+- ___block_literal_global.14520
+- ___block_literal_global.14709
+- ___block_literal_global.14727
+- ___block_literal_global.14838
+- ___block_literal_global.15363
+- ___block_literal_global.15448
+- ___block_literal_global.15951
+- ___block_literal_global.15993
+- ___block_literal_global.16.12130
+- ___block_literal_global.16.13359
+- ___block_literal_global.16.14521
+- ___block_literal_global.16.21126
+- ___block_literal_global.16636
+- ___block_literal_global.17.14464
+- ___block_literal_global.17.21197
+- ___block_literal_global.17110
+- ___block_literal_global.17119
+- ___block_literal_global.17165
+- ___block_literal_global.17199
+- ___block_literal_global.17463
+- ___block_literal_global.17539
+- ___block_literal_global.17648
+- ___block_literal_global.18.14808
+- ___block_literal_global.18.21272
+- ___block_literal_global.18106
+- ___block_literal_global.18175
+- ___block_literal_global.18205
+- ___block_literal_global.18779
+- ___block_literal_global.19057
+- ___block_literal_global.19366
+- ___block_literal_global.19447
+- ___block_literal_global.19585
+- ___block_literal_global.19700
+- ___block_literal_global.19745
+- ___block_literal_global.19761
+- ___block_literal_global.20.13335
+- ___block_literal_global.20.14465
+- ___block_literal_global.20.21198
+- ___block_literal_global.20.25181
+- ___block_literal_global.20039
+- ___block_literal_global.20091
+- ___block_literal_global.20196
+- ___block_literal_global.20272
+- ___block_literal_global.20473
+- ___block_literal_global.20810
+- ___block_literal_global.21.12787
+- ___block_literal_global.21110
+- ___block_literal_global.21123
+- ___block_literal_global.21195
+- ___block_literal_global.21291
+- ___block_literal_global.21341
+- ___block_literal_global.21384
+- ___block_literal_global.21506
+- ___block_literal_global.22.17437
+- ___block_literal_global.22.21127
+- ___block_literal_global.22173
+- ___block_literal_global.23.21199
+- ___block_literal_global.23537
+- ___block_literal_global.23753
+- ___block_literal_global.23837
+- ___block_literal_global.24.12788
+- ___block_literal_global.24217
+- ___block_literal_global.24897
+- ___block_literal_global.25.21128
+- ___block_literal_global.25222
+- ___block_literal_global.25553
+- ___block_literal_global.25843
+- ___block_literal_global.25892
+- ___block_literal_global.26.25170
+- ___block_literal_global.26071
+- ___block_literal_global.26176
+- ___block_literal_global.26406
+- ___block_literal_global.26539
+- ___block_literal_global.27.12789
+- ___block_literal_global.27084
+- ___block_literal_global.27299
+- ___block_literal_global.27573
+- ___block_literal_global.29.21129
+- ___block_literal_global.29.21200
+- ___block_literal_global.30.12790
+- ___block_literal_global.30.13320
+- ___block_literal_global.312
+- ___block_literal_global.315
+- ___block_literal_global.338
+- ___block_literal_global.36.12791
+- ___block_literal_global.40.20788
+- ___block_literal_global.42.12792
+- ___block_literal_global.5.27574
+- ___block_literal_global.6.26066
+- ___block_literal_global.7.22174
+- ___block_literal_global.8.26170
+- ___block_literal_global.8.26540
+- ___block_literal_global.8.27575
+- __compensateChannelDataIfNeeded:receivedNumChannels:.heartbeat.14618
+- __handleAudioChunk:.heartbeat_CORESPEECH_VOICETRIGGER_FIRSTPASS_LPCM_RECORD_BUFFER_AVAILABLE.18705
+- __keywordAnalyzerNDAPI:hasResultAvailable:forChannel:.heartbeat.18696
+- __keywordAnalyzerNDAPI:hasResultAvailable:forChannel:.heartbeat.26770
+- _sharedController.onceToken.11882
+- _sharedController.sharedController.11884
+- _sharedHandler.onceToken.19365
+- _sharedHandler.onceToken.26070
+- _sharedHandler.sharedHandler.19367
+- _sharedHandler.sharedHandler.26072
+- _sharedHandlerDisabledOnDeviceCompilation.onceToken.26065
+- _sharedHandlerDisabledOnDeviceCompilation.sharedHandler.26067
+- _sharedInstance._sharedInstance.12898
+- _sharedInstance._sharedInstance.14839
+- _sharedInstance._sharedInstance.17166
+- _sharedInstance._sharedInstance.17464
+- _sharedInstance._sharedInstance.17540
+- _sharedInstance._sharedInstance.18176
+- _sharedInstance._sharedInstance.19701
+- _sharedInstance._sharedInstance.20040
+- _sharedInstance._sharedInstance.20092
+- _sharedInstance._sharedInstance.20273
+- _sharedInstance._sharedInstance.23538
+- _sharedInstance._sharedInstance.24218
+- _sharedInstance._sharedInstance.25893
+- _sharedInstance._sharedInstance.27300
+- _sharedInstance.onceToken.12841
+- _sharedInstance.onceToken.12896
+- _sharedInstance.onceToken.13473
+- _sharedInstance.onceToken.14837
+- _sharedInstance.onceToken.15362
+- _sharedInstance.onceToken.15447
+- _sharedInstance.onceToken.15950
+- _sharedInstance.onceToken.17164
+- _sharedInstance.onceToken.17462
+- _sharedInstance.onceToken.17538
+- _sharedInstance.onceToken.17647
+- _sharedInstance.onceToken.18105
+- _sharedInstance.onceToken.18174
+- _sharedInstance.onceToken.18204
+- _sharedInstance.onceToken.19584
+- _sharedInstance.onceToken.19699
+- _sharedInstance.onceToken.20038
+- _sharedInstance.onceToken.20090
+- _sharedInstance.onceToken.20271
+- _sharedInstance.onceToken.21109
+- _sharedInstance.onceToken.21290
+- _sharedInstance.onceToken.21383
+- _sharedInstance.onceToken.21505
+- _sharedInstance.onceToken.23536
+- _sharedInstance.onceToken.23836
+- _sharedInstance.onceToken.24216
+- _sharedInstance.onceToken.25552
+- _sharedInstance.onceToken.25891
+- _sharedInstance.onceToken.27083
+- _sharedInstance.onceToken.27298
+- _sharedInstance.sSharedInstance.18206
+- _sharedInstance.sharedInstance.12843
+- _sharedInstance.sharedInstance.13475
+- _sharedInstance.sharedInstance.15449
+- _sharedInstance.sharedInstance.18107
+- _sharedInstance.sharedInstance.19586
+- _sharedInstance.sharedInstance.21111
+- _sharedInstance.sharedInstance.21385
+- _sharedInstance.sharedInstance.27085
+- _sharedInstance.sharedManager.25554
+- _sharedInstance.sharedPolicy.21292
+- _sharedInstance.sharedPolicy.23838
+- _sharedManager.onceToken.17109
+- _sharedManager.onceToken.19056
+- _sharedManager.sharedManager.17111
+- _sharedMonitor.onceToken.20195
+- _sharedMonitor.sharedMonitor.20197
+- _sharedService.onceToken.15992
+- _sharedService.onceToken.25221
+- _sharedService.sharedService.25223
+Functions:
+~ -[CSSpeechController _audioStreamProvider:audioBufferAvailable:] : 2724 -> 2732
+
+```

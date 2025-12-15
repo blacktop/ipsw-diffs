@@ -1,0 +1,400 @@
+## MusicEngagementExtension
+
+> `/System/Library/ExtensionKit/Extensions/MusicEngagementExtension.appex/MusicEngagementExtension`
+
+```diff
+
+-4025.310.5.0.0
+-  __TEXT.__text: 0x4b4014
+-  __TEXT.__auth_stubs: 0x8fb0
++4025.400.3.0.0
++  __TEXT.__text: 0x4b45a8
++  __TEXT.__auth_stubs: 0x8fd0
+   __TEXT.__objc_stubs: 0xe40
+   __TEXT.__objc_methlist: 0x490c
+   __TEXT.__cstring: 0x147c4
+   __TEXT.__swift5_typeref: 0x1a208
+-  __TEXT.__const: 0x288b8
+-  __TEXT.__constg_swiftt: 0x11344
++  __TEXT.__const: 0x288d8
++  __TEXT.__constg_swiftt: 0x1134c
+   __TEXT.__swift5_reflstr: 0xc594
+-  __TEXT.__swift5_fieldmd: 0xdee0
+-  __TEXT.__swift5_proto: 0x17c8
++  __TEXT.__swift5_fieldmd: 0xdf10
++  __TEXT.__swift5_proto: 0x17cc
+   __TEXT.__swift5_types: 0xfa4
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__objc_methname: 0xde7a
++  __TEXT.__objc_methname: 0xdea1
+   __TEXT.__swift5_capture: 0x8124
+-  __TEXT.__oslogstring: 0x8c2a
++  __TEXT.__oslogstring: 0x8daa
+   __TEXT.__objc_classname: 0x5bc
+   __TEXT.__objc_methtype: 0x3aee
+   __TEXT.__swift_as_entry: 0x8bc
+
+   __TEXT.__swift5_protos: 0x12c
+   __TEXT.__swift5_mpenum: 0x184
+   __TEXT.__ustring: 0xec
+-  __TEXT.__unwind_info: 0xfb58
++  __TEXT.__unwind_info: 0xfb50
+   __TEXT.__eh_frame: 0x157b4
+-  __DATA_CONST.__auth_got: 0x47e0
++  __DATA_CONST.__auth_got: 0x47f0
+   __DATA_CONST.__got: 0x32c8
+-  __DATA_CONST.__auth_ptr: 0x2fa8
+-  __DATA_CONST.__const: 0x34e70
++  __DATA_CONST.__auth_ptr: 0x2fb0
++  __DATA_CONST.__const: 0x34e90
+   __DATA_CONST.__cfstring: 0x120
+   __DATA_CONST.__objc_classlist: 0x520
+   __DATA_CONST.__objc_catlist: 0xe0
+
+   __DATA_CONST.__objc_protorefs: 0x218
+   __DATA_CONST.__objc_superrefs: 0x20
+   __DATA_CONST.__objc_doubleobj: 0x20
+-  __DATA.__objc_const: 0x1a270
+-  __DATA.__objc_selrefs: 0x47d0
++  __DATA.__objc_const: 0x1a2b0
++  __DATA.__objc_selrefs: 0x47d8
+   __DATA.__objc_ivar: 0x5c
+-  __DATA.__objc_data: 0x81b0
+-  __DATA.__data: 0x177f0
++  __DATA.__objc_data: 0x81b8
++  __DATA.__data: 0x17800
+   __DATA.__objc_stublist: 0x18
+   __DATA.__bss: 0x27290
+   __DATA.__common: 0x3c88
+
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B4938A79-47DD-35B9-9B9D-CF7E1B2CAAE8
+-  Functions: 22675
+-  Symbols:   167094
+-  CStrings:  5967
++  UUID: AACCD8BB-3315-3B8C-AA98-82D9871E4E8D
++  Functions: 22680
++  Symbols:   167129
++  CStrings:  5970
+ 
+Symbols:
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.126
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.145
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.164
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.183
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.202
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.218
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.237
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.256
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.275
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.294
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.104
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.118
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.133
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.137
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.152
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.156
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.171
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.175
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.190
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.194
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.206
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.210
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.225
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.229
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.244
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.248
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.263
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.267
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.282
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.286
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.122
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.141
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.160
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.179
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.198
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.214
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.233
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.252
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.271
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.290
++ $s7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C11animateBlur33_2B1CF170FA12E5118C57D48B547982CALL2on4from2to8duration5delayySo7CALayerC_12CoreGraphics7CGFloatVASS2dtFySbcfU_TA.343
++ $s7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C11animateBlur33_2B1CF170FA12E5118C57D48B547982CALL2on4from2to8duration5delayySo7CALayerC_12CoreGraphics7CGFloatVASS2dtFySbcfU_TA.369
++ $s7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C11animateBlur33_2B1CF170FA12E5118C57D48B547982CALL2on4from2to8duration5delayySo7CALayerC_12CoreGraphics7CGFloatVASS2dtFySbcfU_TA.389
++ $s9MusicCore5GlissO11CoordinatorC20GestureConfigurationV9isEnabledSbvM.resume.0
++ $sIg_Ieg_TRTA.347
++ $sIg_Ieg_TRTA.376
++ $sIg_Ieg_TRTA.396
++ $sIg_Ieg_TRTA.436
++ $sIg_Ieg_TRTA.458
++ $sIg_Ieg_TRTA.480
++ _$s7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C17renderedDirection33_2B1CF170FA12E5118C57D48B547982CALLAA0A0C0I0OSgvpWvd
++ _$s7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C4text5words8language19translationLanguage015transliterationL0014transliteratedF00N5Words010translatedF05specs4kind9alignment9direction12capabilitiesAGSS_SayAA0A0C4WordVG10Foundation6LocaleV0L0VSgA3_A3_SSSgAYSgA4_AA0baD10ControllerC5SpecsVAG4KindOSo15NSTextAlignmentVAV9DirectionOSayAV10CapabilityOGtcfCTq
++ _$s7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C6update4text5words8language19translationLanguage015transliterationM0014transliteratedF00O5Words010translatedF09alignment9direction12capabilitiesySS_SayAA0A0C4WordVG10Foundation6LocaleV0M0VSgA2_A2_SSSgAXSgA3_So15NSTextAlignmentVAU9DirectionOSayAU10CapabilityOGtFTq
++ _$s7LyricsX06SyncedA8LineViewC8SyllableC7endTimeSdvpWvd
++ _$s7LyricsX06SyncedA8LineViewC8SyllableC9startTimeSdvpWvd
++ _$s7LyricsX06SyncedA8LineViewC8SyllableCAA12TimedElementA2aFP7endTimeSdvgTW
++ _$s7LyricsX06SyncedA8LineViewC8SyllableCAA12TimedElementA2aFP9startTimeSdvgTW
++ _$s7LyricsX06SyncedA8LineViewC8SyllableCAA12TimedElementAAMc
++ _$s7LyricsX06SyncedA8LineViewC8SyllableCAA12TimedElementAAWP
++ _$s9MusicCore5GlissO11CoordinatorC20GestureConfigurationV11hostingView9isEnabled012simultaneousE19RecognizerAllowanceAGy_x_GSo6UIViewC_S2bSo09UIGestureL0CcSgtcfC
++ _$s9MusicCore5GlissO11CoordinatorC20GestureConfigurationV11hostingView9isEnabled7hitRect012simultaneousE19RecognizerAllowanceAGy_x_GSo6UIViewC_SbSo6CGRectVANcSbSo09UIGestureN0CcSgtcfC
++ _$s9MusicCore5GlissO11CoordinatorC20GestureConfigurationV11hostingView9isEnabled7hitRect012simultaneousE19RecognizerAllowanceAGy_x_GSo6UIViewC_SbSo6CGRectVANcSbSo09UIGestureN0CcSgtcfcSayAPGANcfU_
++ _$s9MusicCore5GlissO11CoordinatorC20GestureConfigurationV11hostingView9isEnabled7hitRect012simultaneousE19RecognizerAllowanceAGy_x_GSo6UIViewC_SbSo6CGRectVANcSbSo09UIGestureN0CcSgtcfcSayAPGANcfU_TA
++ _$s9MusicCore5GlissO11CoordinatorC20GestureConfigurationV11hostingView9isEnabled7hitTest012simultaneousE19RecognizerAllowanceAGy_x_GSo6UIViewC_S2bAN_So7CGPointVtcSbSo09UIGestureN0CcSgtcfC
++ _$s9MusicCore5GlissO11CoordinatorC20GestureConfigurationV11hostingView9isEnabled8hitRects012simultaneousE19RecognizerAllowanceAGy_x_GSo6UIViewC_SbSaySo6CGRectVGANcSbSo09UIGestureN0CcSgtcfC
++ _$s9MusicCore5GlissO11CoordinatorC20GestureConfigurationV9isEnabledSbvM
++ _$s9MusicCore5GlissO11CoordinatorC20GestureConfigurationV9isEnabledSbvg
++ _$s9MusicCore5GlissO11CoordinatorC20GestureConfigurationV9isEnabledSbvpMV
++ _$s9MusicCore5GlissO11CoordinatorC20GestureConfigurationV9isEnabledSbvpfi
++ _$s9MusicCore5GlissO11CoordinatorC20GestureConfigurationV9isEnabledSbvs
++ _$sSa15_checkSubscript_20wasNativeTypeCheckeds16_DependenceTokenVSi_SbtF7LyricsX06SyncedI8LineViewC4WordC_Tg5Tm
++ _$sSa15_checkSubscript_20wasNativeTypeCheckeds16_DependenceTokenVSi_SbtF7LyricsX06SyncedI8LineViewC8SyllableC_Tg5
++ _$sSa9_getCountSiyF7LyricsX06SyncedC8LineViewC4WordC_Tg5Tm
++ _$sSa9_getCountSiyF7LyricsX06SyncedC8LineViewC8SyllableC_Tg5
++ _$sSo18NSWritingDirectionVSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo18NSWritingDirectionVSYSCSY8rawValue03RawD0QzvgTW
++ _$sSo9CTLineRefa14MusicUtilitiesE13isRightToLeftSbvg
++ _$sSo9CTLineRefa14MusicUtilitiesE13isRightToLeftSbvpMV
++ _CAFrameRateRangeMake
++ _CTLineIsRightToLeft
++ _objc_msgSend$setPreferredFrameRateRange:
++ block_copy_helper.304
++ block_copy_helper.307
++ block_copy_helper.310
++ block_copy_helper.313
++ block_copy_helper.322
++ block_copy_helper.328
++ block_copy_helper.334
++ block_copy_helper.337
++ block_copy_helper.348
++ block_copy_helper.360
++ block_copy_helper.363
++ block_copy_helper.377
++ block_copy_helper.380
++ block_copy_helper.383
++ block_copy_helper.397
++ block_copy_helper.403
++ block_copy_helper.409
++ block_copy_helper.415
++ block_copy_helper.427
++ block_copy_helper.437
++ block_copy_helper.443
++ block_copy_helper.449
++ block_copy_helper.459
++ block_copy_helper.481
++ block_copy_helper.490
++ block_copy_helper.493
++ block_descriptor.306
++ block_descriptor.309
++ block_descriptor.312
++ block_descriptor.315
++ block_descriptor.324
++ block_descriptor.330
++ block_descriptor.336
++ block_descriptor.339
++ block_descriptor.350
++ block_descriptor.362
++ block_descriptor.365
++ block_descriptor.379
++ block_descriptor.382
++ block_descriptor.385
++ block_descriptor.399
++ block_descriptor.405
++ block_descriptor.411
++ block_descriptor.417
++ block_descriptor.429
++ block_descriptor.439
++ block_descriptor.445
++ block_descriptor.451
++ block_descriptor.461
++ block_descriptor.483
++ block_descriptor.492
++ block_descriptor.495
++ block_destroy_helper.305
++ block_destroy_helper.308
++ block_destroy_helper.311
++ block_destroy_helper.314
++ block_destroy_helper.323
++ block_destroy_helper.329
++ block_destroy_helper.335
++ block_destroy_helper.338
++ block_destroy_helper.349
++ block_destroy_helper.361
++ block_destroy_helper.364
++ block_destroy_helper.378
++ block_destroy_helper.381
++ block_destroy_helper.384
++ block_destroy_helper.398
++ block_destroy_helper.404
++ block_destroy_helper.410
++ block_destroy_helper.416
++ block_destroy_helper.428
++ block_destroy_helper.438
++ block_destroy_helper.444
++ block_destroy_helper.450
++ block_destroy_helper.460
++ block_destroy_helper.482
++ block_destroy_helper.491
++ block_destroy_helper.494
++ objectdestroy.355Tm
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.125
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.144
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.163
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.182
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.201
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.217
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.236
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.255
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.274
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.293
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.103
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.113
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.117
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.132
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.136
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.151
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.155
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.170
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.174
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.189
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.193
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.205
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.209
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.224
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.228
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.243
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.247
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.262
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.266
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.281
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.285
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.121
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.140
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.159
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.178
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.197
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.213
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.232
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.251
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.270
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.289
+- $s7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C11animateBlur33_2B1CF170FA12E5118C57D48B547982CALL2on4from2to8duration5delayySo7CALayerC_12CoreGraphics7CGFloatVASS2dtFySbcfU_TA.342
+- $s7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C11animateBlur33_2B1CF170FA12E5118C57D48B547982CALL2on4from2to8duration5delayySo7CALayerC_12CoreGraphics7CGFloatVASS2dtFySbcfU_TA.368
+- $s7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C11animateBlur33_2B1CF170FA12E5118C57D48B547982CALL2on4from2to8duration5delayySo7CALayerC_12CoreGraphics7CGFloatVASS2dtFySbcfU_TA.388
+- $sIg_Ieg_TRTA.346
+- $sIg_Ieg_TRTA.375
+- $sIg_Ieg_TRTA.395
+- $sIg_Ieg_TRTA.435
+- $sIg_Ieg_TRTA.457
+- $sIg_Ieg_TRTA.479
+- _$s7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C24transliterationDirectionAA0A0C0I0OSgvMTq
+- _$s7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C24transliterationDirectionAA0A0C0I0OSgvgTq
+- _$s7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C24transliterationDirectionAA0A0C0I0OSgvpWvd
+- _$s7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C24transliterationDirectionAA0A0C0I0OSgvsTq
+- _$s7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C4text5words8language19translationLanguage015transliterationL00M9Direction014transliteratedF00O5Words010translatedF05specs4kind9alignment9direction12capabilitiesAGSS_SayAA0A0C4WordVG10Foundation6LocaleV0L0VSgA4_A4_AW0N0OSgSSSgAZSgA8_AA0baD10ControllerC5SpecsVAG4KindOSo15NSTextAlignmentVA6_SayAW10CapabilityOGtcfCTq
+- _$s7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C6update4text5words8language19translationLanguage015transliterationM00N9Direction014transliteratedF00P5Words010translatedF09alignment9direction12capabilitiesySS_SayAA0A0C4WordVG10Foundation6LocaleV0M0VSgA3_A3_AV0O0OSgSSSgAYSgA7_So15NSTextAlignmentVA5_SayAV10CapabilityOGtFTq
+- _$s7LyricsX06SyncedA8LineViewC0C0C15currentSyllable33_0B3F59656FC35EF46AD4080AE9638418LL3forAC0F0CSg0E0_AK4nexttSd_tF
+- _$s7LyricsX06SyncedA8LineViewC4WordC7endTimeSdvg
+- _$s9MusicCore5GlissO11CoordinatorC20GestureConfigurationV11hostingView012simultaneousE19RecognizerAllowanceAGy_x_GSo6UIViewC_SbSo09UIGestureJ0CcSgtcfC
+- _$s9MusicCore5GlissO11CoordinatorC20GestureConfigurationV11hostingView7hitRect012simultaneousE19RecognizerAllowanceAGy_x_GSo6UIViewC_So6CGRectVAMcSbSo09UIGestureL0CcSgtcfC
+- _$s9MusicCore5GlissO11CoordinatorC20GestureConfigurationV11hostingView7hitRect012simultaneousE19RecognizerAllowanceAGy_x_GSo6UIViewC_So6CGRectVAMcSbSo09UIGestureL0CcSgtcfcSayAOGAMcfU_
+- _$s9MusicCore5GlissO11CoordinatorC20GestureConfigurationV11hostingView7hitRect012simultaneousE19RecognizerAllowanceAGy_x_GSo6UIViewC_So6CGRectVAMcSbSo09UIGestureL0CcSgtcfcSayAOGAMcfU_TA
+- _$s9MusicCore5GlissO11CoordinatorC20GestureConfigurationV11hostingView7hitTest012simultaneousE19RecognizerAllowanceAGy_x_GSo6UIViewC_SbAM_So7CGPointVtcSbSo09UIGestureL0CcSgtcfC
+- _$s9MusicCore5GlissO11CoordinatorC20GestureConfigurationV11hostingView8hitRects012simultaneousE19RecognizerAllowanceAGy_x_GSo6UIViewC_SaySo6CGRectVGAMcSbSo09UIGestureL0CcSgtcfC
+- _objc_msgSend$setFrameInterval:
+- block_copy_helper.300
+- block_copy_helper.306
+- block_copy_helper.309
+- block_copy_helper.312
+- block_copy_helper.327
+- block_copy_helper.333
+- block_copy_helper.347
+- block_copy_helper.350
+- block_copy_helper.356
+- block_copy_helper.359
+- block_copy_helper.362
+- block_copy_helper.376
+- block_copy_helper.379
+- block_copy_helper.382
+- block_copy_helper.396
+- block_copy_helper.402
+- block_copy_helper.408
+- block_copy_helper.414
+- block_copy_helper.420
+- block_copy_helper.426
+- block_copy_helper.436
+- block_copy_helper.442
+- block_copy_helper.448
+- block_copy_helper.458
+- block_copy_helper.480
+- block_copy_helper.489
+- block_copy_helper.492
+- block_descriptor.302
+- block_descriptor.308
+- block_descriptor.311
+- block_descriptor.314
+- block_descriptor.329
+- block_descriptor.335
+- block_descriptor.349
+- block_descriptor.352
+- block_descriptor.358
+- block_descriptor.361
+- block_descriptor.364
+- block_descriptor.378
+- block_descriptor.381
+- block_descriptor.384
+- block_descriptor.398
+- block_descriptor.404
+- block_descriptor.410
+- block_descriptor.416
+- block_descriptor.422
+- block_descriptor.428
+- block_descriptor.438
+- block_descriptor.444
+- block_descriptor.450
+- block_descriptor.460
+- block_descriptor.482
+- block_descriptor.491
+- block_descriptor.494
+- block_destroy_helper.301
+- block_destroy_helper.307
+- block_destroy_helper.310
+- block_destroy_helper.313
+- block_destroy_helper.328
+- block_destroy_helper.334
+- block_destroy_helper.348
+- block_destroy_helper.351
+- block_destroy_helper.357
+- block_destroy_helper.360
+- block_destroy_helper.363
+- block_destroy_helper.377
+- block_destroy_helper.380
+- block_destroy_helper.383
+- block_destroy_helper.397
+- block_destroy_helper.403
+- block_destroy_helper.409
+- block_destroy_helper.415
+- block_destroy_helper.421
+- block_destroy_helper.427
+- block_destroy_helper.437
+- block_destroy_helper.443
+- block_destroy_helper.449
+- block_destroy_helper.459
+- block_destroy_helper.481
+- block_destroy_helper.490
+- block_destroy_helper.493
+- objectdestroy.319Tm
+- objectdestroy.354Tm
+CStrings:
++ "[Transliteration] Last transliterated word in this line has more original words to match in the next line, and the next line only contains words that match this transliteration. Since this is the first word in this line, return nil to allow transliteration to be added to the next line."
++ "renderedDirection"
++ "resolvedBaseWritingDirection"
++ "setPreferredFrameRateRange:"
++ "🤏👇 Installing swipe gesture"
+- "setFrameInterval:"
+- "transliterationDirection"
+
+```
