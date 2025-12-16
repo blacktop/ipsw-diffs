@@ -33,7 +33,7 @@
 Functions:
 ~ __ZN18AppleT8130TypeCPhy5startEP9IOService : 8772 -> 8896
 ~ sub_fffffe0009f37aa4 -> sub_fffffe000a01acb0 : 580 -> 628
-~ sub_fffffe0009f3bd50 -> sub_fffffe000a01ef8c : 5272 -> 5264
+~ sub_fffffe0009f3bd50 -> __ZN18AppleT8130TypeCPhy12shutdownACIOEN13AppleTypeCPhy12tACIOPhyModeE : 5272 -> 5264
 ~ __ZN18AppleT8130TypeCPhy13eusb2phy_initEbb : 10564 -> 11320
 ~ sub_fffffe0009f46160 -> sub_fffffe000a029688 : 2540 -> 2624
 ~ sub_fffffe0009f75460 -> sub_fffffe000a0589dc : 684 -> 708

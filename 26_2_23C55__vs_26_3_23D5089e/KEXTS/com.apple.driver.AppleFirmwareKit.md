@@ -24,7 +24,7 @@
    Symbols:   0
    CStrings:  736
 Functions:
-~ sub_fffffe000922ed3c -> sub_fffffe00092fe5bc : 1256 -> 1260
+~ sub_fffffe000922ed3c -> _afk_rtbuddy_tp_create : 1256 -> 1260
 ~ __ZN16AFKRTBuddyHelper18createWithEndpointEP15RTBuddyEndpoint : 164 -> 244
 ~ sub_fffffe000922fdcc -> sub_fffffe00092ff6a0 : 160 -> 32
 ~ sub_fffffe000922fe8c -> sub_fffffe00092ff6e0 : 32 -> 132

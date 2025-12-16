@@ -93,6 +93,10 @@
 
 </details>
 
+### KDKs
+
+- [KDK DIFF](KDK.md)
+
 ## MachO
 
 ### 🆕 NEW (12)
@@ -519,944 +523,944 @@
 <details>
   <summary><i>View NEW</i></summary>
 
-##### `RTKit.bin`
-  - `%s:%d ERR set mmode (%d) %x`
-  - `inductive cl: arcas init`
-  - `%s:%d vtgt %d ilim tgt %d; (0: not set)`
-  - `transient %d (%d to %d)`
-  - `<<<PMU monitor crashlog start>>>`
-  - `%s:%d mmode (%d)`
-  - `inductive cl: reached ramp target (isns:%dmA [tgt:%dmA], vrect:%dmV [tgt:%dmV], power:%dmW)`
-  - `assert_id = %d`
-  - `WLCH: read aperture magic: ret=0x%x, magic=0x%x`
-  - `RS: %s: HLOS booted! notify in %d ms`
-  - `%s:%d disable callisto failed`
-  - `InductiveSetHLOSBooted`
-  - `RXDS: rdsema error %d`
-  - `%s : !quiesce, %d`
-  - `RS: [new: p:%03d m:0x%01x vid:%04x pid:%04x s:%03d c:%03d t:%03d]`
-  - `WLCH: ret=0x%x bufIdx=%d, bufAddr=0x%x, hdr=0x%x`
-  - `RS: dead accessory detected!`
-  - `RS: start dead batt detection; expireTime=%llu currTime=%llu`
-  - `%s:%d ERR process backpower request %x`
-  - `InductiveTarget`
-  - `recieved FW decriptor: base = 0x%llx size = 0x%x flags 0x%x`
-  - `WLCH: read hdr again (2): ret=0x%x, hdr=0x%x`
-  - `%s: unknown key = %d`
-  - `<<<PMU monitor crashlog end>>>`
-  - `ui8InductiveFWCtrl`
-  - `status = 0x%x`
-  - `%s: ignore attempt to set ilim=%d while quiesced`
-  - `InductiveSetManualMode`
-  - `inductive_mailbox_ind_process`
-  - `fw_ver_string = %s`
-  - `ret == RTK_ST_OK`
-  - `%s : quiesce, %d`
-  - `InductiveAccessoryInfoChanged`
-  - `RS: notify HLOS booted! (hlosBootedNotifDelayTimer expired)`
-  - `InductiveUpdateChgIlim`
-  - `Error: could not map NFC Tag Id (0x%x) to VID/PID; ret=%d`
-  - `%s: %s:%d: %s, ret=0x%x; q-size=%d; hdr=0x%x`
-  - `%s:%d fail control %x SerializerMute`
-  - `inductive cl: g3: g3(%d) > 98; pwr_c = %dmW (bounded: %dmW); settle ULTRA`
-  - `inductive_backpower_irq_process`
-  - `%s : quiesce mask, %x`
-  - `smc/inductive/inductive_rx.cpp`
-  - `qInductiveInFwdlRegulation`
-  - `%s:%d ERR process mailbox indication %x`
-  - `inductive cl: pwr contract: none; settle LOW`
-  - `inductive toggle vbus 0x%x`
-  - `RS: %s: InductiveRemoteSoCInd: remote_soc=%d`
-  - `WLCH: read hdr again (1): ret=0x%x, hdr=0x%x`
-  - `RXDS: rmerr queue %d`
-  - `%s:%d err freq denom`
-  - `RS: stop dead batt detection; expireTime:%llu->0; currTime=%llu`
-  - `smc/inductive/inductive_keys.cpp`
-  - `inductive cl: g3: gain3(%d) < 98; settle HIGH; request NPP`
-  - `WLCH: get_rx_buffer_base_addr() failed; (0x%x) (r:%d); state=exception`
-  - `%s : !quiesce mask, %x`
-  - `RS: %s: InductiveRemoteTetherInd: remote_tethered=%d`
-  - `2PP:inductive_data.promotion_to_2pp_state timeoutt`
-  - `running (%d); cannot send tether state (%d) to fw; return`
-  - `RS:  prv: p:%03d m:0x%01x vid:%04x pid:%04x s:%03d c:%03d t:%03d `
-  - `%s:%d set mute %d at %llu time.`
-  - `inductive cl: G4_C1 : %d`
-  - `InductiveFrequency`
-  - `UUID: %02x%02x%02x%02x-%02x%02x-%02x%02x-%02x%02x-%02x%02x%02x%02x%02x%02x`
-  - `inductive cl: G3_C1 : %d`
-  - `2PP:inductive_data.promotion_to_2pp_state = %u`
-  - `%s : nexDBB, tctnRP: %d %d %x`
-  - `%s: ignore attempt to set ilim=%d in DBB (bcm5935x_state=%d); nop`
-  - `inductive cl: %s: start ramp (isns:%dmA, vrect:%dmV, power:%dmW)`
-  - `inductive cl: g4: gain4(%d) < %d; settle LOW`
-  - `%s :rerror: %x %x %x st %x sa %x`
-  - `%s: cps exDBB. np:%d ts:%d ds:%d cf:%d st:%x`
-  - `RS: %s: InductiveSendLocalTetherToFW: send tether (%d) to fw`
-  - `RS: NfcTagInfoChangedInd: cnt=%d tag:[0x%x 0x%x]`
-  - `%s:%d err fsk demod rate`
-  - `%s :nexDBB, disc: %d %d %x`
-  - `%s:%d vtgt fail`
-  - `inductive cl: g4: g4(%d) > %d; pwr_c = %dmW (bounded: %dmW); settle ULTRA`
 ##### `iboot_blob16.bin`
   - `qs9hY&9KYf9J`
-##### `iboot_blob07.bin`
-  - `\8IyVySqVyU}VyI`
-##### `iboot_blob30.bin`
-  - `024679HSkh`
-  - `b0m0b1m1b2l2b3l3b4l4b5l5b6b7l7b8l9MZba9bbblbbclcbd0s1s2s3s4s5s|`
-  - `E1L2L3L1R2R3RXZXmxm0p1p2p3p`
-  - `CRabcdefgj(.`
-  - `0123456789abcdef`
-  - `RA0B2BHBLBrB9CCCLCSCWCrC0K2KHKLKrKHMMMSMVM0NHNLNSNnNrN0PAPBPHPLPSPUPZPaPrPyPzP0SHSLSrS0THTUU0WHW0b2b4b6bHbkb0c7cHcccucDi0kHkkkHmMmSmVmxmHpMpSpmp4r6r0sHsSs0t4t6tHtL`
-  - `nNTP0R1R2R3R4R5R6R7R8R9RMRPR0U0b0c@`
-  - `RKSKUKVKWKSLTL2MCNDNINCOSPiQvQwQCRTRCSESLSTSWSCTETLTMTUTH$`
-  - `1SB2SBTFCAOCATCEPDMPLrAPsDPfNPTPPpSPiWP1bP2bPEPRspd`
-  - `EnmxmFpfpl`
-  - `EABCDEFGHIJabcdefghijyzd`
-  - `ASBSCSDS9N`
-  - `)Ekblbambmytztfxgxhxixjx0y1y2y3y4y5y6y7y8y9yAyByCyDyEyFyGyHyIyJyaybycydyeyfygyhyiyjy`
-  - `OARAoArADCMCOCPCTCLHrH0LLLDMMPmPSRITLTPT1V2V3V4V5V6V7VvdE`
-  - `.0BiB0C1C2CiCjCkCHH0IiI0KiK0LjNsN0PBPCPdPiPjPkPlPmPnPsPzP1R2RjRkR0SiSLTPTiTjT0WiW0XiX0tHtitjtEh`
-  - `General Features CFGs`
-  - `TCAPACDLHDHPNIRNDVPUV0Df0rlilpslp0tvUP`
-  - `Trace Logger Data`
-  - `ABCDFHLMORSTZahjlostuwP`
-  - `PCUC0HHHLHrHyHzHnNaPHpMpSpmp`
-  - `0C1C0IRL0c1c2c3c4c0sD`
-  - `GBD0DD1DDPTD0VECNIVNIXNICRS!`
-  - `DAcKBcSBcSHcOIcDLcTRcSAmBDmCFmLFmCHmSMmEdtl`
-  - ` CAPARASAUAVA0C1C2CKCSCVCCFFOPOROTOUOFPSPFRRRGSLSOSRSSSTSVSRTFVRVE`
-  - `0123456789ABCDEFGHIJK`
-  - `2A4ADAKATS5,`
-  - `0BEBQBaB0C2CCCDFMF0I0KBPSPUPaPdPsPzP1R2RMRPRRRpR0SLTPT0Wsp`
-  - `E0h1h2h3h0m1m2m3m0p1p2p3p0s1s2s3s0u1u2u3u`
-  - `Dynamic Agent`
-  - `RAPCUCuC0H2H9HHHLHrHyHzHVMnNaP0h2h4h6h7hHhShkhyhzhDiVmmp`
-  - `4A7ALBrBLCrCHDMDSDUDcDdDxDLHrHLKrKLNmNrNMPTPmPzPPRTRlRrRyRzRLSrSITyhzhxrP`
-  - `u0PVZ0PTd1PTd2PTd3PTd4PTd5PTd6PTd7PTd8PTb1PTb2PTb3PTb4PTb5PTb6PTb7PTb8PTb9PTbaPTbbPTbcPTbdPTlePTlfPTlgPTlhPTh]`
-  - `0B0D0N0R0Ssb`
-  - `E0t1t2t3t0v1v2v3v0z1z2z3z`
-  - `001020n0CFFF`
-  - `004080C0G0K0`
-  - `40G0K0U0a0p061c1 `
-  - `9A0s0A1A2LAiAEBMBQBRBaB0DADEDGDPDiDzDiEDFLFMFSFiGDMRMxMiPMRNRRRPS1a2a3a4a5a1b2b3b4b5b1c2c3c4c5c1d2d3d4d5d1e2e3e4e5eE `
-  - `OAmCcNEP0SCTMTSTPWiW`
-  - `E1M2M1m2mTC`
-  - `PCUC0HHHLHrHyHzHaP`
-  - `Current Histogram Res`
-  - `BCIKLPRSTUWbc`
-  - `0123456789abcdefgh`
-  - `E0123456789abcd`
-  - `Telemetry CFG`
-  - `0B2BHBLBrB0THT0b2b4b6bHbkbxr0t4t6tHt@`
-  - `BCUCXC0PaPzPLTBcUc,`
-  - `Cortex Global Control`
-  - `RAPCUCuC0H2H9HHHLHrHyHzHnNaP0h2h4h6h7hHhShkhDimp`
-  - `ELRYRlRyR3T3c`
-  - `#E0111213151LTRT0s1s0t1t2t3t4t5t6t7t8t9tatbtctdtetftgthtitjtktltmtntotptX`
-  - `80O0U0g0u0y0cr`
-  - `TTMHTTMTTSTT|`
-  - `80O0U0g0u0y061M1Q1c1o1s152D2X2n2J3V3Z3d3h3l3p364G4J4M4P4`
-  - `PMU FW Health Counter`
-  - `E0123456789abcdp`
-  - ` E0i1i2i3i4i5i6i7i0q1q2q3q4q5q6q7q0s1s2s3s4s5s6s7s0w1w2w3w4w5w6w7wD`
-  - `048CGKagjmpu@`
-  - `COFOROSOTOIS5`
-  - `E6IyI6PyPCiLidimiCpLpdpmp(T`
-  - `EPCUC0iNi0pNp`
-  - `MCBWRBDARDRR2`
-  - `-DIBVRBDICVRCICEVSENEG00P10P20P30P40P50P60P70P80P90P0FPtlPDIUREV00cBCcPCcUCcuCc0HcHHcLHcrHcyHczHc0PcaPcdPcsPczPc0hcHhclhcrhcyhczhc0pcapc\`
-  - `aAcAiAaBcBiBaDcDiEjEmEsEwEaLcLiLaPcPePiPmPnPpPx`
-  - `!B0b0m0u0b1m1b2l2b3l3b4l4b5l5b6b7l7b8l9BSba9bbblbbclcbd0s1s2s3s4s5s`
-  - ` E0123456789abcdefghijklmnopqrstuxh`
-  - `ELDRD0L1L2L3L0T1T2T3T0U1U2U3U8U9U8V9VLdRdx{`
-  - `024679HSkX`
-  - `0123456789`
-  - `DACEACNKDADGBDGCDGSDG1GL2GL4GLFONSGOIMPSMPcMP"`
-  - `Cortex Bootloader & CFG`
-  - `0HHHLHrHyHzH8`
-  - `$M0B1B2B3B4B5B6B7B0C0F0S1S2S3S4S5S6S7S0b1b2b3b4b5b6b7b0c0f0s1s2s3s4s5s6s7s(`
-  - `EKLLLKRLR0b1b3b4babbbcbdbMdmdzd0hHh0t1t3t4tatbtctdtmt`
-  - `0123456789abcd`
-  - `jPAcAuADBIBACDCFCRCSCTCUCXCYCZCbCcCfCiCmCnCrCsCtCvCwCADBDEDIDPDRDpDCEFEpECFSFVFCIDIQIRIAJBJDJEJFJGJIJMJNJPJQJRJSJVJCLGLILRLIMPMVMIPMPRPSPTPdPePiPsPtPIRRRcRpRTSWStSIUCVDVMVRVXVbVdVeVmVnVSWfihiiiminisiglilsodpiprptpY`
-  - `PCUC0HHHLHrHyHzHnNaPmpx`
-  - `3LAMANAOARASATAUAVAXALFNFVMWMCOPOCSKSMS3T6TCTDT0X2X9XAXCXDXHXKXLXNXPXSXTXUXZXbXcXdXhXkXlXmXnXsXtXbxdxsx`
-  - `1dA2dA1kA2kA1tA2tANSECCFDCFPCFSCFTCFPATp`
-  - `2CDEGRSUVW`
-  - `E0L1L0P1P2P3P4P5P6P0W1W2W3W4W5W6W4]`
-  - `000100200300400500600700800900a00b00c00d00e00f000HcHHcyhczhc0HdHHd0Sd1Sd2Sdyhdzhdv0iLHmrHmmNmyhmzhmnNp0bp0up0HsHHsyhszhs00t10t20t30t40t50t60t70t80t90t01t11t21t31t41t51t61t71t81t91t02t12t22t32t42t52t0Dt1Dtxrt0HuHHuLHurHuyHuzHu0hu4hu6huHhuPRx`
-  - `Sec Lock Status`
-  - `E0010203040506001112131415102122232031323330414243405152535061626071727081828384858091929390A1A2A0B1B2B0C1C2C3C0D1D2D3DaD0E1E0F1F1H2H1K2K2P3P4P5PFPRPSPTPjPkPmPnPuPvPwPyPTRKSLSMSNSOSPSQSRSSSTSUSVSWSXS0T1T2T8T9TaTbTcTdTeTfTgThTiTjTkTlTMU0a1a2a0b1b2b3b0c1c2c0d1d2d0e1e2eKeLeMeNeOePeQeReSeTeUeVeWeXe0f1f2f0g1g2g0h1h2h0i1i2i0j1j2j0k1k2k0l1l2l0m1m2m3mambmcm0n1n2n3n0o1o2o0p1p2p3p0q1q2q0r1r2r0s1s2s0t1t2tatbtct0u1u2u0v1v2v0w1w2w0x1x2x8x9xaxbxcxdxexfxgxhxixjxkxlx0y1y2y0z1z2z`
-  - ` E0C1C0R1R2R3R0b1b3b4bbb0c1c0g1glmrmymzm0p1p2p3p4p5p6p7p0t1t3t4tbt`
-  - `E0C1CBCUC1D0T`
-  - `u0LBBCCCFCMCOCPCRCSCTCXCZCADDDEDIDLDPDRDSDTDWDFEKEMEREBFCFDFIFMFQFRFSFVFWF1G2G3G4GTGFHOH1I2I3I4IBICIDIEIFIHILIMIPIRISITIVIZIEKFLILMLRLSLWL0M1M2M3MAMCMDMFMIMOMPMQMVMCNCODOEOFOGOHOIOJOPOROTOVOZOAPBPCPDPLPMPNPPPRPSPTPYPMQSQVQCRDRFRIRLRMRPRSRVRCSFSMSRSSSCTFTLTPTTTVTEUSU1V2V3V4VNVRVCX3`
-  - `0BtIIt0ttHtt`
-  - `%00RAPCUC0H2H9HHHLHrHyHzHSMFNaPLTTU1V2V3V4V5V6V7V0h2h4h6h7hHhShkhyhzhDimptrE`
-  - `E0b1b3b4b0t1t3t4tȊ`
-  - `RCCDDDRMnNROAPRRTR2S0w1w2w3w4w5w6wh`
-  - `E0123456789abcd`
-  - `CODOIOJOPO`
-  - `0HHHLHrHyHzH<`
-  - `*E0A1A2A3A0C1C2C3C0E1E2E3E0H1H2H3H3T0b1b3b4bbb3c0e1e2e3e0h1h2h3h0k1k2k3k0t1t3t4tbtavbvP`
-  - `EABCDEFGHIJabcdefghijklP`
-  - `0RXR1e2e3e4e5e6e7eirxrEĕ`
-  - `E0123456789abcd`
-  - `b0m0b1m1b2l2b3l3b4l4b5l5b6b7l7b8l9ba9bbblbbclcbd0s1s2s3s4s5st`
-  - `!C#C?CRC[<:`
-  - `000200300LH0rH0yH0zH0Lh0rh0yh0zh0mpdmpimpp`
-  - `A0B0C0E0F0H0V0`
-  - `0123456789abcdef`
-  - `PCUC0HHHLHrHyHzHaPH`
-  - `E0C1C2C3C4C5C6C7C8C9CaCcCdCeCgC0P1P2P3P4PMe0p1p2p3p4p`
-  - `Z0d1d2d3d4d5d6d7d80D1D2D3D4D5D6D7D8D9DaDbDcDdDeDfDgDhD`
-  - `Scan Agent ACC`
-  - ` C0T0CATAVARC0DDDCFRHDISIPLCNCPFPIPNPRPVPARMRSRBSSSUSVSWSXSYSZSIU`
-  - `EPCUC0d1d2d3d0p1p2p3pMs`
-  - `Cortex Status Regs`
-  - `VKSPSSTSEW1F`
-  - `CFDFFFIFNFPF0RDRNRSRTRtR`
-  - `Telemetry debug Data`
-  - `PMU Fw Info`
-  - `E0s1s2s3sh`
-  - `CDIMNOPSUV;`
-  - `PARADBCCECBDEDRECFDIGIRIONDSDURVfihiiiminisitpY`
-##### `iboot_blob45.bin`
-  - `@{`
-  - `Rn0e`
-  - `Rn0l`
-  - `av0s`
-  - `av0e`
-  - `Ts`
-  - `#<`
-  - `Cx`
-  - `8\`
-  - `\]`
-  - `L^`
-  - `@s`
-  - `hs`
-  - `0v`
-  - ` B`
-  - `z?`
-  - `tz`
-  - `d}`
-  - `Rn0p`
-  - `rn0s`
-  - `<j`
-  - `Y?`
-  - `av0a`
-  - `tTxEhTTR7x`
-  - `Pc`
-  - `H|`
-  - `HB`
-  - `ff`
-  - `$T`
-  - `8u`
-  - `0{`
-  - `T}`
-  - `F<2(`
-  - ` A`
-  - `th`
-  - `hr`
-  - `0z`
-  - `$z`
-  - `hz`
-  - `\~`
-  - `x4`
-  - `av0g`
-  - `B0QIu0QIu0AQu0QQd0QTj0QTu0QVu1QVl0QVu0AWu0QWDDQV`
-  - `ho`
-  - ` ~`
-  - `av0p`
-  - `\\`
-  - `tp`
-  - ` o`
-  - `Hu`
-  - `<x`
-  - `4w`
-  - `C3C@w`
-  - `Da`
-  - `pv`
-  - `P{`
-  - `$}`
-  - `rn0l`
-  - `@@`
-  - `<U`
-  - `5D]`
-  - `lw`
-  - `t~`
-  - `rn0p`
-  - `Rn0s`
-  - `Rn0v`
-  - `58r`
-  - `,t`
-  - ` A`
-  - `F<2(`
-  - `Y?`
-  - `4h`
-  - `Hk`
-  - `Hr`
-  - `Xu`
-  - `x|`
-  - `E@`
-  - ` A`
-  - `tTDPhTTROx`
-  - `0_`
-  - `(g`
-  - `|z`
-  - `4D`
-  - `Rn0g`
-  - `@?`
-  - `$a`
-  - `Td`
-  - `Tl`
-  - `pt`
-  - `D}`
-  - `in0d`
-  - ` A`
-  - `LS`
-  - `,^`
-  - `T_`
-  - `pg`
-  - `\n`
-  - ` s`
-  - `@t`
-  - `p4`
-  - `Cx`
-  - `|r`
-  - ` v`
-##### `iboot`
-  - `eos-halley-config`
-  - `pmgr_disable_pmp_pmc`
-  - `arm-io/aop-spmi0/stockholm-spmi/stockholm`
-##### `iboot_blob13.bin`
-  - `UMI9CQI9TUI9*`
-##### `iboot_blob36.bin`
-  - `RTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACK`
-##### `iboot_blob46.bin`
-  - `UPCmuNTR-x`
-##### `iboot_blob29.bin`
-  - `;;;;;;;2;;-`
-  - `5-..............NN`
-  - `rrNrBBLBBBD`
-  - `ACAHAVCVIVLVMVNVOVPVQVRV`
-  - `010203040SS`
-  - `CACCSPCTDTNTWTs`
-  - `)CCMFXF0H1H2H3HCIDIMNXNMPXPMQXQCRDRERFRGRHRIRRRSRWRCSDSESFSGSHSATMTOTPTSTVTWTXTYTZT `
-  - `NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNKGGGGGGGGNNNNNNNNNNNNNNNNNNNNN`
-  - `0123456789ABL`
-  - `N-A1F1I1P1S1V1i1p1q1u1v1A2F2I2P2S2V2i2p2q2u2v2`
-  - `C0L0V0CHWHLIARORSRTRISVSATCTITSTAVCVIVLV`
-  - `QAIB1DEDUFVF`
-  - `YNU=ahWtLp;?c6S4\jw`
-  - `[S;?c37KGo`
-  - `M???9M\\"\`
-  - `DD0E0H0J0R0V01A2AIASAIBVBCCECFCRCBDSFCHVHWH1I2IBICIEIFILIMIOISIDKGKHKKKLKMKOKPKQK`
-  - `!B-C-E-F-I-J-M-N-P-Q-R-S-T-U-W-X-PAIBFCPCBDIDLDCEQEPFDIEIMLKPWPtSSV`
-  - `DCADBDNDTDLFCSNS1W2W7`
-  - `\\\\\\\\?\`
-  - `00102030405060708090C0W00111213141W10C1CSOCSSS7`
-  - `=CAIAJAPATAVADBLBACDCHCICJCMCSCTCVC1DCDCFGFHFIFUFVFMH2IDIFIMISIVIPLSMCNDNMNCOVOSPDQSQ1RMRSR1SCSDSESLSRSSSCTETFTITPTiTCUCVDW09`
-  - `N-A1C1P1S1T1`
-  - `A1I1V1A2I2LBACCDDDWD0FPFRFWFLSs`
-  - `\\\\\\\?\\\???\\\\\\\\\\\\\\\\`
-  - `1C2CHFSFELFLVL0SCUDU7`
-  - `LC0D1D2D3D4DVILPCSVSCT^`
-##### `iboot_blob40.bin`
-  - `____9j45xbtzw5`
 ##### `AppleSMCFirmware.bin`
   - `AppleSMCFirmware_H18-6164.80.283.v53.REL`
 ##### `iboot_blob47.bin`
   - `RTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACK`
-##### `iboot_blob31.bin`
-  - `las_tunableh_read`
-  - `charger failed to enable pll sync rc:%d`
-  - `GGFWUPD: kick out of sync`
-  - `%s:%d fail write bootloader loading struct`
-  - `%s:%d fw_ver = 0x%x`
-  - `DCL%02x: 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x`
-  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/maxMinRC.cpp`
-  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/signalStore.cpp`
-  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/signalConvert.cpp`
-  - `lc_transfer_core`
-  - `fail scloak %d`
-  - `%s:%d fail rLPM exit`
-  - `WPY^KLEBohafst}z`
-  - ` a/n*8hcgalf tlf_xehtfoi 8is61is23is46is 8iu61iu23iu46iu*8iutsj{crs{hlc{f1pf`
-  - `charger failed to write SYSTEM_CONFIG_1 FREQ_DITHER rc:%d`
-  - `invalid_builtin`
-  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/delay.cpp`
-  - `charger_drv_communication_page_check`
-  - `TXDS: IND TX: stream=%d status=%d all_data_transmitted=%d`
-  - `jmdc>907"%,+`
-  - `PTD: Enabled push agent (%d) pwcwin=0x%08x push_address_lo=0x%08x`
-  - `shift_out_of_bounds`
-  - `ERROR: ibat max is more than 0xFF (%d)`
-  - `-0123456789abcdef0123456789ABCDEF`
-  - `Read Shelf life- data=%d, return state=%d, rc=%#x`
-  - `inductive sreg %x aRun %x cDet %x fltSve %x errSve %x fwErr %x fwState %x spmi %x st3 %x`
-  - `fail sbpow %d`
-  - `lc_process_fw_backpower_request`
-  - `8?61$#*-pw~ylkbeHOFATSZ]`
-  - `nonnull_return`
-  - `drivers/devices/gapf.cpp`
-  - `no response available fifo_avail 0x%x ext header 0x%x`
-  - `%s: TARGET_VALID=%d, rc:0x%x`
-  - `drivers/devices/aon_ptd.cpp`
-  - `PCB TEMP cDegC: %d`
-  - `d1PTd2PTd3PTd4PTd5PTd6PTd7PTd8PT0LNA`
-  - `type=0x%x, header=0x%x,indication=0x%x, ret = 0x%x`
-  - `builtin_unreachable`
-  - `UBSAN triggered SMC panic: %s`
-  - `Write Shelf life state requested = %d, data=%d, rc = %d, `
-  - `TXDS: IND RX: stream=%d status=%d size=%d buff=0x%08x`
-  - `function_type_mismatch`
-  - `charger failed to enable improvement to CC-ILIM handoff rc:%d`
-  - `%s:%d fwrite fcrcs`
-  - `crashlog: dump from dotara SRAM: %d bytes from 0x%x`
-  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/singlePoleFilter.cpp`
-  - `drivers/gasgauge/veridian/drv_gg_veridian.cpp`
-  - `implicit_conversion`
-  - `charger failed to disable CC loop active clamp rc:%d`
-  - `dotara_spmi_irq_handler`
-  - `fail sreset %d`
-  - `las_tunableh_get_fig() == NULL`
-  - `%s: %s:%d: %s, PTD: PWC quiesce failed data=0x%x (%d)`
-  - `drivers/inductive/bcm59367.cpp`
-  - `retry verify_chip`
-  - `lc_exit_lpm`
-  - `B0GTC0GTH0GTV0GT`
-  - `cfi_check_fail`
-  - `las_tunableh_module_evaluate`
-  - `sub_overflow`
-  - `%s:%d : strt`
-  - `alignment_assumption`
-  - `%s: error setting Waikato page to 0, rc:0x%x`
-  - `lc_read_multiple`
-  - `no response available fifo_avail 0x%x, header 0x%x`
-  - `!las_tunableh_initialized()`
-  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/genericController.cpp`
-  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/utility.cpp`
-  - `%s:%d fail jumpfrmwr, fw_ready = 0x%x, fwStatus = 0x%x, mtpVersion = 0x%x`
-  - `las_tunableh_fig_get_value`
-  - `i2c err: %d : bus=%d i2ca=%#x cmd=%#x : error reading count`
-  - `data size > expected size:: bus=%d i2ca=%#x cmd=%#x`
-  - `magsafe acc`
-  - `float_cast_overflow`
-  - `%s:%d jump addr=0x%x`
-  - `%s:%d fail to apply sysconfig calibration`
-  - `missing_return`
-  - `fail set reset chip dis`
-  - `-\A\/\C\1\E\3\G\`
-  - `magsafe chg`
-  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/booleanLogic.cpp`
-  - `4PCRLFCRNAMSNAMS`
-  - `drivers/charger/waikato/drv_waikato_charger.cpp`
-  - `%s: i2c err %d : bus=%d i2ca=%x  cmd=0x%x count=%d ggI2cFlags=%x`
-  - `%s:%d fw load addr=0x%x size=0x%x`
-  - `chip reset`
-  - `negate_overflow`
-  - `Wrong offset provided to float signalStore`
-  - `op:%u rc:0x%x status:0x%x`
-  - `las_tunableh_write`
-  - `load_invalid_value`
-  - `PTD: Disabled push agent (%d)`
-  - `%s:%d SPMI error: %x`
-  - `charger failed to lock test mode rc:%d`
-  - `nonnull_arg`
-  - `bpic_write: SPMI error: %x`
-  - `las_tunableh_fig_get_mask`
-  - `mul_overflow`
-  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/mux.cpp`
-  - `charger failed to disable DCR chopping rc:%d`
-  - `charger failed to apply VBUS OV mitigation rc:%d`
-  - `drivers/devices/ptd.cpp`
-  - `GGFWUPD: task out of sync`
-  - `vla_bound_not_positive`
-  - `charger failed to read WAIKATO_CC_LOOP_CLAMP_CTRL rc:%d`
-  - `shsn_update_firmware`
-  - `fw status invalid`
-  - `fifo_avail=0x%x, ret = 0x%x`
-  - `Wrong offset provided to int signalStore`
-  - `RxNegoPwr: Ng: %d, Pt: %d, Rs: %d`
-  - `invalid_objc_cast`
-  - `UBSAN triggered SMC panic: unknown`
-  - `%s: error reading Waikato page, rc:0x%x`
-  - `Error Reading %d: %d`
-  - `0000000000WWWWWWWWWWWWWWWWWWWWWWWWWW`
-  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/referenceTargetRC.cpp`
-  - `las_tunableh_fig_get_expression`
-  - `genericController sampling time is 0, which is incorrect`
-  - `%s:%d blank chip loading attempt complete`
-  - `%s:%d fwrite fcrcv`
-  - `las_tunableh_apply`
-  - `%s:%d fwdl addr %x`
-  - `nullability_return`
-  - `drivers/devices/ptd_fwd_eng.cpp`
-  - `type_mismatch`
-  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/acBlock.cpp`
-  - `charger failed to unlock test mode rc:%d OTP:%x HW:%x`
-  - `root@Dec 04 2025@23:13:55~.release`
-  - `vAONPTDTask: woke by unknown semaphore`
-  - `%s:%d fail frmwrdatld`
-  - `tx sreg %x ar %x h %x state %x qpp %d assert %d lpm %d`
-  - `/Library/Caches/com.apple.xbs/Sources/libAppleSilicon/tunableh/v1/tunableh.c`
-  - `dynamic_type_cache_miss`
-  - `divrem_overflow`
-  - `pointer_overflow`
-  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/accumulator.cpp`
-  - `AON PTD Update for Id = %c%c%c%c, msg = 0x%llx, metadata = 0x%llx `
-  - `drivers/devices/awl_bus.cpp`
-  - `%s:%d fail frmwrdat`
-  - `%s:%d fail frmwrdatvr`
-  - `fail set reset chip en`
-  - `SIG ack sem_wait_timeout ret %x, header 0x%x`
-  - `ERROR unsupported aperture read: %x`
-  - `%s:%d error: %x`
-  - `drivers/inductive/drv_bcm59367.cpp`
-  - `fw read zero. retrying: %d`
-  - `las_tunableh_init`
-  - `nullability_arg`
-  - `out_of_bounds`
-  - `charger_drv_set_charger`
-  - `%s: %s:%d: %s, Outbound GAPF error: addr=0x%llx, cmd=%c, valid=%d, id=%d`
-  - `%s:%d upd frmwr`
-  - `!&/(=:34NI@GRU\[vqx`
-  - `genericController was not provided either error or added/subtracted signals`
-  - `Failed to read dc limiter register, rc:%d`
-  - `charger failed to read SYSTEM_CONFIG_1 FREQ_DITHER rc:%d`
-  - `%s: Waikato wrong comm page:%d`
-  - `RxStChg: FW st chg: 0x%02x <- 0x%02x`
-  - `%s:%d iface fw_ready %x, fw_bootctl %x, status %x, wait %u`
-  - `add_overflow`
-  - `AON PTD GAPF start_addr = %llx, size = %llx `
-  - `bcm5935x fexcept %x`
-  - `CHIP TEMP mDegC: %d`
-  - `%s:%d:%s: %s`
-  - `wrong response type:%d, id:0x%x`
+##### `iboot_blob07.bin`
+  - `\8IyVySqVyU}VyI`
+##### `iboot_blob30.bin`
+  - `001020n0CFFF`
+  - `E1L2L3L1R2R3RXZXmxm0p1p2p3p`
+  - `-DIBVRBDICVRCICEVSENEG00P10P20P30P40P50P60P70P80P90P0FPtlPDIUREV00cBCcPCcUCcuCc0HcHHcLHcrHcyHczHc0PcaPcdPcsPczPc0hcHhclhcrhcyhczhc0pcapc\`
+  - `80O0U0g0u0y0cr`
+  - `CDIMNOPSUV;`
+  - `048CGKagjmpu@`
+  - `0HHHLHrHyHzH8`
+  - `E0123456789abcd`
+  - `COFOROSOTOIS5`
+  - `Cortex Status Regs`
+  - `PCUC0HHHLHrHyHzHnNaPHpMpSpmp`
+  - `ABCDFHLMORSTZahjlostuwP`
+  - `#E0111213151LTRT0s1s0t1t2t3t4t5t6t7t8t9tatbtctdtetftgthtitjtktltmtntotptX`
+  - `E0t1t2t3t0v1v2v3v0z1z2z3z`
+  - `Scan Agent ACC`
+  - `40G0K0U0a0p061c1 `
+  - `E0123456789abcd`
+  - `2A4ADAKATS5,`
+  - `1SB2SBTFCAOCATCEPDMPLrAPsDPfNPTPPpSPiWP1bP2bPEPRspd`
+  - `RAPCUCuC0H2H9HHHLHrHyHzHVMnNaP0h2h4h6h7hHhShkhyhzhDiVmmp`
+  - `TCAPACDLHDHPNIRNDVPUV0Df0rlilpslp0tvUP`
+  - `A0B0C0E0F0H0V0`
+  - ` E0123456789abcdefghijklmnopqrstuxh`
+  - `Cortex Global Control`
+  - `Z0d1d2d3d4d5d6d7d80D1D2D3D4D5D6D7D8D9DaDbDcDdDeDfDgDhD`
+  - `E0b1b3b4b0t1t3t4tȊ`
+  - `EnmxmFpfpl`
+  - `RCCDDDRMnNROAPRRTR2S0w1w2w3w4w5w6wh`
+  - `DACEACNKDADGBDGCDGSDG1GL2GL4GLFONSGOIMPSMPcMP"`
+  - `3LAMANAOARASATAUAVAXALFNFVMWMCOPOCSKSMS3T6TCTDT0X2X9XAXCXDXHXKXLXNXPXSXTXUXZXbXcXdXhXkXlXmXnXsXtXbxdxsx`
+  - `000200300LH0rH0yH0zH0Lh0rh0yh0zh0mpdmpimpp`
+  - `0BEBQBaB0C2CCCDFMF0I0KBPSPUPaPdPsPzP1R2RMRPRRRpR0SLTPT0Wsp`
+  - `1dA2dA1kA2kA1tA2tANSECCFDCFPCFSCFTCFPATp`
+  - `0C1C0IRL0c1c2c3c4c0sD`
+  - `0BtIIt0ttHtt`
+  - `b0m0b1m1b2l2b3l3b4l4b5l5b6b7l7b8l9MZba9bbblbbclcbd0s1s2s3s4s5s|`
+  - `CODOIOJOPO`
+  - `*E0A1A2A3A0C1C2C3C0E1E2E3E0H1H2H3H3T0b1b3b4bbb3c0e1e2e3e0h1h2h3h0k1k2k3k0t1t3t4tbtavbvP`
+  - `ELDRD0L1L2L3L0T1T2T3T0U1U2U3U8U9U8V9VLdRdx{`
+  - `PCUC0HHHLHrHyHzHaPH`
+  - `EPCUC0d1d2d3d0p1p2p3pMs`
+  - `EABCDEFGHIJabcdefghijyzd`
+  - `Sec Lock Status`
+  - `OARAoArADCMCOCPCTCLHrH0LLLDMMPmPSRITLTPT1V2V3V4V5V6V7VvdE`
+  - `PMU Fw Info`
+  - `9A0s0A1A2LAiAEBMBQBRBaB0DADEDGDPDiDzDiEDFLFMFSFiGDMRMxMiPMRNRRRPS1a2a3a4a5a1b2b3b4b5b1c2c3c4c5c1d2d3d4d5d1e2e3e4e5eE `
+  - `0RXR1e2e3e4e5e6e7eirxrEĕ`
+  - `CRabcdefgj(.`
+  - `PMU FW Health Counter`
+  - `E0C1CBCUC1D0T`
+  - `ELRYRlRyR3T3c`
+  - `Dynamic Agent`
+  - `u0LBBCCCFCMCOCPCRCSCTCXCZCADDDEDIDLDPDRDSDTDWDFEKEMEREBFCFDFIFMFQFRFSFVFWF1G2G3G4GTGFHOH1I2I3I4IBICIDIEIFIHILIMIPIRISITIVIZIEKFLILMLRLSLWL0M1M2M3MAMCMDMFMIMOMPMQMVMCNCODOEOFOGOHOIOJOPOROTOVOZOAPBPCPDPLPMPNPPPRPSPTPYPMQSQVQCRDRFRIRLRMRPRSRVRCSFSMSRSSSCTFTLTPTTTVTEUSU1V2V3V4VNVRVCX3`
+  - `E0010203040506001112131415102122232031323330414243405152535061626071727081828384858091929390A1A2A0B1B2B0C1C2C3C0D1D2D3DaD0E1E0F1F1H2H1K2K2P3P4P5PFPRPSPTPjPkPmPnPuPvPwPyPTRKSLSMSNSOSPSQSRSSSTSUSVSWSXS0T1T2T8T9TaTbTcTdTeTfTgThTiTjTkTlTMU0a1a2a0b1b2b3b0c1c2c0d1d2d0e1e2eKeLeMeNeOePeQeReSeTeUeVeWeXe0f1f2f0g1g2g0h1h2h0i1i2i0j1j2j0k1k2k0l1l2l0m1m2m3mambmcm0n1n2n3n0o1o2o0p1p2p3p0q1q2q0r1r2r0s1s2s0t1t2tatbtct0u1u2u0v1v2v0w1w2w0x1x2x8x9xaxbxcxdxexfxgxhxixjxkxlx0y1y2y0z1z2z`
+  - `MCBWRBDARDRR2`
+  - `aAcAiAaBcBiBaDcDiEjEmEsEwEaLcLiLaPcPePiPmPnPpPx`
+  - `RA0B2BHBLBrB9CCCLCSCWCrC0K2KHKLKrKHMMMSMVM0NHNLNSNnNrN0PAPBPHPLPSPUPZPaPrPyPzP0SHSLSrS0THTUU0WHW0b2b4b6bHbkb0c7cHcccucDi0kHkkkHmMmSmVmxmHpMpSpmp4r6r0sHsSs0t4t6tHtL`
+  - `E0L1L0P1P2P3P4P5P6P0W1W2W3W4W5W6W4]`
+  - `0123456789abcd`
+  - `VKSPSSTSEW1F`
+  - `E0C1C2C3C4C5C6C7C8C9CaCcCdCeCgC0P1P2P3P4PMe0p1p2p3p4p`
+  - `)Ekblbambmytztfxgxhxixjx0y1y2y3y4y5y6y7y8y9yAyByCyDyEyFyGyHyIyJyaybycydyeyfygyhyiyjy`
+  - `E0h1h2h3h0m1m2m3m0p1p2p3p0s1s2s3s0u1u2u3u`
+  - `004080C0G0K0`
+  - `0B0D0N0R0Ssb`
+  - `E6IyI6PyPCiLidimiCpLpdpmp(T`
+  - `.0BiB0C1C2CiCjCkCHH0IiI0KiK0LjNsN0PBPCPdPiPjPkPlPmPnPsPzP1R2RjRkR0SiSLTPTiTjT0WiW0XiX0tHtitjtEh`
+  - `0123456789abcdef`
+  - `0123456789abcdef`
+  - `0HHHLHrHyHzH<`
+  - `E0s1s2s3sh`
+  - `DAcKBcSBcSHcOIcDLcTRcSAmBDmCFmLFmCHmSMmEdtl`
+  - `!B0b0m0u0b1m1b2l2b3l3b4l4b5l5b6b7l7b8l9BSba9bbblbbclcbd0s1s2s3s4s5s`
+  - `Cortex Bootloader & CFG`
+  - `024679HSkX`
+  - `CFDFFFIFNFPF0RDRNRSRTRtR`
+  - `024679HSkh`
+  - `!C#C?CRC[<:`
+  - `Telemetry CFG`
+  - `E0123456789abcdp`
+  - `EPCUC0iNi0pNp`
+  - `TTMHTTMTTSTT|`
+  - `BCIKLPRSTUWbc`
+  - `BCUCXC0PaPzPLTBcUc,`
+  - `RKSKUKVKWKSLTL2MCNDNINCOSPiQvQwQCRTRCSESLSTSWSCTETLTMTUTH$`
+  - `000100200300400500600700800900a00b00c00d00e00f000HcHHcyhczhc0HdHHd0Sd1Sd2Sdyhdzhdv0iLHmrHmmNmyhmzhmnNp0bp0up0HsHHsyhszhs00t10t20t30t40t50t60t70t80t90t01t11t21t31t41t51t61t71t81t91t02t12t22t32t42t52t0Dt1Dtxrt0HuHHuLHurHuyHuzHu0hu4hu6huHhuPRx`
+  - `u0PVZ0PTd1PTd2PTd3PTd4PTd5PTd6PTd7PTd8PTb1PTb2PTb3PTb4PTb5PTb6PTb7PTb8PTb9PTbaPTbbPTbcPTbdPTlePTlfPTlgPTlhPTh]`
+  - `0123456789abcdefgh`
+  - `0123456789ABCDEFGHIJK`
+  - `Trace Logger Data`
+  - ` CAPARASAUAVA0C1C2CKCSCVCCFFOPOROTOUOFPSPFRRRGSLSOSRSSSTSVSRTFVRVE`
+  - `4A7ALBrBLCrCHDMDSDUDcDdDxDLHrHLKrKLNmNrNMPTPmPzPPRTRlRrRyRzRLSrSITyhzhxrP`
+  - `0B2BHBLBrB0THT0b2b4b6bHbkbxr0t4t6tHt@`
+  - `OAmCcNEP0SCTMTSTPWiW`
+  - `General Features CFGs`
+  - ` E0i1i2i3i4i5i6i7i0q1q2q3q4q5q6q7q0s1s2s3s4s5s6s7s0w1w2w3w4w5w6w7wD`
+  - `PCUC0HHHLHrHyHzHaP`
+  - `ASBSCSDS9N`
+  - `E0123456789abcd`
+  - ` E0C1C0R1R2R3R0b1b3b4bbb0c1c0g1glmrmymzm0p1p2p3p4p5p6p7p0t1t3t4tbt`
+  - `EKLLLKRLR0b1b3b4babbbcbdbMdmdzd0hHh0t1t3t4tatbtctdtmt`
+  - `nNTP0R1R2R3R4R5R6R7R8R9RMRPR0U0b0c@`
+  - `%00RAPCUC0H2H9HHHLHrHyHzHSMFNaPLTTU1V2V3V4V5V6V7V0h2h4h6h7hHhShkhyhzhDimptrE`
+  - `EABCDEFGHIJabcdefghijklP`
+  - `GBD0DD1DDPTD0VECNIVNIXNICRS!`
+  - `$M0B1B2B3B4B5B6B7B0C0F0S1S2S3S4S5S6S7S0b1b2b3b4b5b6b7b0c0f0s1s2s3s4s5s6s7s(`
+  - `RAPCUCuC0H2H9HHHLHrHyHzHnNaP0h2h4h6h7hHhShkhDimp`
+  - `0123456789`
+  - `b0m0b1m1b2l2b3l3b4l4b5l5b6b7l7b8l9ba9bbblbbclcbd0s1s2s3s4s5st`
+  - ` C0T0CATAVARC0DDDCFRHDISIPLCNCPFPIPNPRPVPARMRSRBSSSUSVSWSXSYSZSIU`
+  - `E1M2M1m2mTC`
+  - `PARADBCCECBDEDRECFDIGIRIONDSDURVfihiiiminisitpY`
+  - `jPAcAuADBIBACDCFCRCSCTCUCXCYCZCbCcCfCiCmCnCrCsCtCvCwCADBDEDIDPDRDpDCEFEpECFSFVFCIDIQIRIAJBJDJEJFJGJIJMJNJPJQJRJSJVJCLGLILRLIMPMVMIPMPRPSPTPdPePiPsPtPIRRRcRpRTSWStSIUCVDVMVRVXVbVdVeVmVnVSWfihiiiminisiglilsodpiprptpY`
+  - `Current Histogram Res`
+  - `PCUC0HHHLHrHyHzHnNaPmpx`
+  - `2CDEGRSUVW`
+  - `80O0U0g0u0y061M1Q1c1o1s152D2X2n2J3V3Z3d3h3l3p364G4J4M4P4`
+  - `Telemetry debug Data`
 ##### `iboot_blob32.bin`
-  - `drivers/pmu/v3/drv_pmu_events.cpp`
-  - `dynamic_agent_push`
-  - `%s: failure clearing spmi interrupt vector for idx:0x%x (err: 0x%x).`
-  - `platform/common/platform_tunables.cpp`
-  - `(AWL)  INFO: Start AWL report (%d)`
-  - `inValid Op %d`
-  - `ACSt: OSpend Exp`
-  - `inductive_quiesce_task`
-  - `Notf: A%d JuiceAllocEvt aepp`
-  - `smc/aceUtilEmbedded.cpp`
-  - `RS: TX: RS_EVT_ACCESSORY_ATTACHED`
-  - `Panic forced due to inductive FW crash`
-  - `Failed to read PMU DVC Status`
-  - ` Min Input Curr %dmA, BestPwr Current %dmA, Active contract Current %dmA`
-  - `Notf: A%d New Contract as Src. Role:%d`
-  - `smc/aopComms.cpp`
-  - `(AWL) WARN: Failed to freeze the AWL IP for reporter #%zu`
-  - `Disconnect held off`
-  - `A%d NeedsInitReset setAppLoadedTimer`
-  - `RS: TX: CHC: Pout(%d)<Thrsld(%d) AND Ironbull cloak not available; swapToRxMode`
-  - `(AWL) ERROR: Failed to allocate socd report: %d`
-  - `(SOCD) ERROR:SOCD push buffer header is corrupted - desc.size(%zu bytes) > total space allocated for SOCD push buffer (%d bytes)`
-  - `Error accessing scratchpad key '%s', rc=%d`
-  - `    %*s = %d`
-  - `pfsm_gmadc_scan_agent_callback`
-  - `fury_irq_handler`
-  - `platform/common/platform_mem.cpp`
-  - `RS: RX: RS_EVT_POUT_ABOVE_THRESHOLD; poutTriggerSet`
-  - `filtering_task`
-  - `RS: RX: RS_EVT_DEVICE_TETHERED; invoke poutTriggerSet`
-  - `Err ChgHvEnFail V %d rc=%d`
-  - `RS: RX: RS_EVT_HLOS_BOOTED; invoke poutTriggerSet`
-  - `RS: RX: RS_EVT_WAIKATO_MITIGATION_NOT_READY; invoke poutTriggerSet`
-  - `TXDS: start_xfr: err=%d, stream_id=%d`
-  - `dcp_to_smc`
-  - `DE: Checksum becomes valid SMC %d AP %d`
-  - `smc/crashlog.cpp`
-  - `RS: RX: RS_EVT_ACCESSORY_UNTETHERED; invoke poutTriggerSet`
-  - `RS: TX: RS_EVT_HLOS_BOOTED`
-  - `IND wake fail %d fwr %d st %d wk %u/%d`
-  - `drv_ace_get_irq ui16AceInts=%x`
-  - `xAceCheckEnabledADCChannels: chEnables = 0x%08x`
-  - ` DeadBattFlagStatus 0x%x`
-  - `platform/t8150/device_aon_ptd.cpp`
-  - `platform/t8150/device_forcewakeup.cpp`
-  - `A%d PowerAccumulator or AccumCount close to limits, resetting to 0`
-  - `Elec: ILIM %u->%u Vmin%u Vmax%u psRdy%d`
-  - `ACSt: AC present`
-  - `(AWL) ERROR: Failed to read ace register offset %#x, size %zu`
-  - `RS: RX: RS_EVT_ACCESSORY_ATTACHED`
-  - `RS: %s: %s: acc dead: loadFirmware(TX)`
-  - `RS: error: %s: invalid input=%d`
-  - `%s: %s:%d: %s, DVC_DONE_ERROR/DVC_GROUP_DONE_ERROR (PMU[%d] %d)`
-  - `A%d lock not acquired, timeout was set %d`
-  - `A%d, SMC did not acquire the uvdm Lock %d, uvdm Timer %d`
-  - `(SOCD) ERROR:Failed to allocate socd awl push report: %d`
-  - `adc_logging_task`
-  - `vBMSTaskStop fail`
-  - `ACSt BattTrap: okBootAP_OS: %d, ExitBattPwr: %d, ExitACPwr: %d`
-  - `UpdSS A%d SSPS %d`
-  - `(AWL)  INFO: [%03zx]   %02x%02x%02x`
-  - `fury_irq_handler:%d: FURY_NFC_TO_AP_ACK_TAG_DETECTION_START`
-  - `A%d SSPS%d`
-  - `[OC]AceTaskWrk OverCurr StatusChanged Detected: %d`
-  - `smc/extPwriOS.cpp`
-  - `RS: st_set_local_tether_state failed with ret=0x%x`
-  - `!pmu_ecb.dde_triggered`
-  - `CrashlogData_t ptr = 0x%08lx`
-  - `Notf: A%d ldcmEvent`
-  - `(AWL) ERROR: Failed to read the awl report size: %d`
-  - `iBoot CHI1 = %d ignored`
-  - `%s: charger_set_path_priority failed`
-  - `RS: RX: RS_EVT_DEAD_ACCESSORY_CLEARED; invoke poutTriggerSet`
-  - `RS: st_role_swap_preferred failed with ret=0x%x`
-  - `%s:%d error: %x`
-  - `A%d plugPresent %d`
-  - `A%d PortRejectSRDO`
-  - `Unable to enable interrupt for btLV region: rc = %u`
-  - `%s: %s:%d: %s, Unable to disable interrupt for btLV: %d`
-  - `inductive_adapter_update_published_details`
-  - `platform/common/platform_power.cpp`
-  - `smc/acePoutBudgetManager.cpp`
-  - `Unable to write LVR data to GG: %d`
-  - `RS: TX: RS_EVT_DEVICE_TETHERED: cancel poutUntethered timer (%llu)`
+  - `(AWL) ERROR: Couldn't read register of unsupported access type %d`
   - `%s:%d mpp %llu`
-  - `select_input_power_source`
-  - `RS: TX: RS_EVT_POUT_CAPABLE`
-  - `RS: TX: RS_EVT_DEAD_ACCESSORY_DETECTED;  wait for CHC`
-  - `lc_pout_set_power_limit`
-  - `gmadc_scan_agent_task`
-  - `smc/ace.cpp`
-  - `BattAbvTh inhbtCurBeforeClosingFET`
-  - `pfsm_adc_worker_callback`
-  - `A%d SRDOFail Timeout`
-  - `smc/ap_watchdog_logger.cpp`
-  - `dram_region_assume`
-  - `inductive_adapter_disconnect_debounce`
-  - `(AWL)  INFO: [%03zx] %02x%02x%02x%02x`
-  - `%s: RTK_mc_register_remote returned status %d (!= RTK_ST_OK) `
-  - `RS: %s: poutTrig: pending: (t=%d,os=%d,cap=%d,c=%d) . (ibcs=%d | nch=%d | >minpwr=%d) (Pout:%d)`
-  - `lc_pout_request_tx_initiated_role_swap`
-  - `PMU DVC Status BUCK_DVC_ERROR%d : %02Xh`
-  - `RS: swapToRxTimer timer expired; hard swap; loadFirmware(RX)`
-  - `%s:%d: inductive fw (%d) loaded successfully!`
-  - `TXDS: error in release_buf: embox.error=%d`
-  - `AceInductive: CurrInductiveMask: 0x%x, NewMask: 0x%x`
-  - `(AWL) ERROR: Failed to obtain AWL caps (%d)`
-  - `Shutdown VPMax bounds: floor=%d ceil=%d vpmax_vcut=%d gg_vcut=%d iss=%d.`
-  - `Disconnect re-published`
-  - `systime_ptr 0x%x`
-  - `SLP_WAKE:Ace:%d Sleep Disabled! Cause:ACE_IN_NONRESPONSIVE_MODE.`
-  - `Disconnect %s. fD %llu, pD %llu, cUp %llu`
-  - `host_irq_triggered`
-  - `is Shutdwn needed: Req %d, budV %d isBattbt %d isPT %d`
-  - `smc/ap_watchdog.cpp`
-  - `RS: TX: RS_EVT_TX_CHIME_HONESTY_COMPLETED; Pout=%d; IBCloakAvailable;=%d`
-  - `RS: ERROR: toRoleSwapRspType: invalid input=%d`
-  - `accumulator_task`
-  - `platform/t8150/device_asc.cpp`
-  - `Notf: A%d Usb2PlgEvt`
-  - `Elec: fAceEnableHighVoltage`
-  - `(AWL)  INFO: Collecting data from reporter #%zu`
-  - `(AWL) ERROR: IPA read of size %zu cannot be performed`
-  - `Unable to set handler for btLV region: rc = %u`
   - `vPMUEventTaskStop fail`
-  - `fury_irq_handler:%d: FURY_NFC_TO_AP_ACK_TAG_DETECTION_COMPLETE`
-  - `xAceFindADCResult: vdrHint = %u, vdr = %u`
-  - `Shutdown flags: Battery=%d, PMU=%d, pwrOut=%d Override=%d`
-  - `ACSt: iBoot HP %d Lp %d OS=%d ACSt 0x%02x AC %d GG %d ACPW %d SOC1 %d SMCFixturePresent %d`
-  - `%s:%d arcas %llu`
-  - `RS: poutUntethered timer expired; hard swap; loadFirmware(RX)`
-  - `pbuck_results`
-  - `Not charging:%llx`
-  - `TXDS: error in start_transfer: embox.error=%d`
-  - `(AWL) ERROR: Failed to pad the awl report offset %#zx: %d`
-  - `drivers/pmu/v3/drv_pmu_common_adc.cpp`
-  - `toPoutDSStatusType`
-  - `platform/t8150/device_awl_bus.cpp`
+  - `ACSt: ACpend Exp %d mS `
+  - `RS: TX: RS_EVT_POUT_CAPABLE`
+  - `inductive_adapter_disconnect_debounce`
+  - `duty_cycler_task`
+  - `A%d SRDOFail Reject`
+  - `RS: TX: RS_EVT_POUT_BELOW_THRESHOLD; Ironbull cloak not available; swapToRxMode`
   - `A%d powerAccumErrorCount at UINT16_MAX limit`
-  - `(AWL)  INFO: New AWL Report (Type %d, Version %d, Size %zu)`
-  - `smc/comms.cpp`
-  - `smc/forceKeyAccess.cpp`
-  - `RS: TX: RS_EVT_FW_DOWNLOADED: device untethered; start poutUntethered timer for %llu ms`
-  - `pfsm_interpolation_agent_callback`
-  - `%s: failure clearing spmi WAKE interrupt vector:%d for idx:0x%x (err: 0x%x).`
-  - ` rawADCValue: %d, fAceIPPCableCurrent: %d mA, I_VCONN_SCALING_FACTOR: %d/1000`
-  - `charger_pmu_init`
-  - `%s: Failed to read 'CELD', error ret=%d`
-  - `DCP idle failed (%d)`
-  - `smc/i2c.cpp`
-  - `(AWL) ERROR: Failed to read %d or more PMS registers over AWL`
-  - `smc/bms/battery_low_voltage_residency/battery_low_voltage_residency.cpp`
-  - `adc_sensing_task`
-  - `platform/t8150/device_trigger_interface.cpp`
-  - `Notf: A%d ldcmVbusEvent`
-  - `RESET_WARN false-trigger!`
-  - `Ace: End HostAct %c%c%c%c`
-  - `(SOCD) ERROR:Failed to allocate an empty socd report to log awl push errors: %d`
-  - `smc/bms/dynamic_shutdown/battery_dynamic_shutdown.cpp`
-  - `charger_configure_input_src: ilim=%u, src:%u`
-  - `DE: invalid checksum SMC %d AP %d`
-  - `ACE_SPMI_GET_IRQ_STATE Fail arg %llu aceid %d`
-  - `platform/t8150/device_i2c.cpp`
-  - `ACSt: boot AC`
-  - `TXDS: error in alloc_stream: buf_size (%d) < req_buf_size (%d)`
-  - `smc/aceElec.cpp`
-  - `smc/acePoutExtClientIF.cpp`
-  - `pfsm_fw_health_callback`
-  - `xAceGetRawADCValue retStatus = 0x%x`
-  - `(AWL) ERROR: IPA read failed for register at addr %#llx`
-  - `Get Interrupt Mask Fail OneAceInt 0x%x`
-  - `Elec: ActiveContract Fail Trig1`
-  - `fail to get systime_ptr 0x%x`
-  - `adc_worker_task`
-  - `xAceGetRawADCValue: channel 0x%u, rawValue %u`
-  - `smc/acePowerOut.cpp`
-  - `TXDS: error: %s: invalid input=%d`
-  - `HE-nRCS %d Error Status = 0x%x `
-  - `A%d prevBootSt %x genBootSt %x BFLG %x`
-  - `ACSt: Failed to read SOC1`
-  - `%s:%d connecting %llu`
-  - `smc/inductive/inductive_common.cpp`
-  - `Debug counters: {`
-  - `Thread stats (last %u.%03u ms)`
-  - `InductiveFWDownload`
-  - `%s: error in mbox rsp: embox.error=%d`
-  - `AceInductive: Send Fail Notif, PassNotfPend: %d`
-  - `RS: %s: invoke drv_inductive_hal.role_swap_preferred(%d)`
-  - `%s:%d failed to set backpower`
-  - `PMU Critical Shutdown IRQ %s`
-  - `Ace Wake ISR :: ACE_SPMI_GET_IRQ_STATE Fail arg %llu aceid %d`
-  - `Evt: A%d PLG_INSRT_RMVL`
-  - `%s Ace:%d Port Mode:%d`
-  - `Elec: BestPot A%d %dmW type%d was A%d %dmW`
-  - `Unable to get data from AON PTD rc:%u`
-  - `fPathChange %d`
-  - `HE-nRCS %d Error Count: In = 0x%x, Out = 0x%x, Bus = 0x%x `
-  - `smc/bms/bms_v1/battery.cpp`
-  - `scan_agent_results`
-  - `Elec: Elec Cause 0x%llx`
-  - `wallet_agent_silent_check`
-  - `dynamic_agent_results`
-  - `dram_region_release`
-  - `RS: TX: RS_EVT_DEVICE_UNTETHERED: start poutUntethered timer for %llu ms`
-  - `auth IC communication failure (%x)`
-  - `RS: RX: RS_EVT_WAIKATO_MITIGATION_READY; invoke poutTriggerSet`
-  - `pfsm_pbatt_callback`
-  - `smc/aceCommon.cpp`
-  - `IND wake poll %d fwr %d fws %x ret %x st %d lk %d wk %u/%d`
-  - `interpolation`
-  - `SLP_WAKE: Disable Sleep on Ace:%d cause:%d`
-  - `(AWL)  INFO: [%03zx]     %02x%02x`
-  - `RS: RX: RS_EVT_ROLE_SWAP_REQUEST_SENT; Rcvd PTx Rsp: Accept; loadFirmware(TX)`
-  - `drivers/pmu/v3/drv_t5126_brooklands.cpp`
-  - `Address Remapper %d Error: 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x `
-  - `SLP_WAKE:Failed to Received WAKE ACK cmd from Ace:%d TIMEOUT! WakeTimeoutCount:%d AckExpected:%d`
-  - `ioreporting`
-  - `pd charger`
-  - `%s: %s:%d: %s, Unable to enable interrupt for btLV: %d`
   - `DE: correcting shutdown_threshold from %d to %d`
+  - `IND: CHG: clear charge rate`
+  - `newContractAsSrc ActRDO:0x%x ContractFlags:0x%x RDOPos:%d`
+  - `Notf: A%d PWRST_ADAPTER_STATE_CHANGE elec`
+  - `DE: invalid checksum SMC %d AP %d`
+  - `Unable to set handler for btLV region: rc = %u`
+  - `smc/inductive/inductivePoutPolicy.cpp`
+  - `RS: RX: RS_EVT_ACCESSORY_ATTACHED`
+  - `inductive_update_firmware`
+  - `TXDS: error in start_transfer: embox.error=%d`
+  - `PMU DVC Status GROUP_DVC_ERROR0 : %02Xh`
+  - `(AWL) ERROR: IPA read failed for register at addr %#llx`
+  - `Notf: A%d New Contract as Src. Role:%d`
+  - `pfsm_interpolation_agent_callback`
+  - `platform/t8150/device_watchdog.cpp`
+  - `ACSt: Shdwn 0x%x`
+  - `smc/inductive/inductive_adapter.cpp`
+  - `%s: %s:%d: %s, %u`
+  - `smc/aceUtilEmbedded.cpp`
+  - `%s: iSawAnUPO=%d`
+  - `%s:%d disc %llu`
+  - `RS: st_role_swap_preferred failed with ret=0x%x`
+  - `rail_energy_agent_results`
+  - `current_histogram_task`
+  - `isAckFromAceExpected`
+  - `RS: TX: RS_EVT_DEAD_ACCESSORY_DETECTED;  wait for CHC`
+  - `SLP_WAKE:Ace:%d Sleep Disabled! Cause:ACE_RCHD_MAX_RETRY.`
+  - `xAceGetRawADCValue retStatus = 0x%x`
+  - `platform/t8150/device_gpio.cpp`
+  - `Error getting LVR data from PMU: %d`
+  - `dram_region_map_region`
+  - `dram_region_assume`
+  - `%s:%d: inductive fw (%d) loaded successfully!`
+  - `!pmu_ecb.dde_triggered`
+  - `Scfg Cmd failed for No VBUS Debug logging, %d`
+  - `smc/acePoutBudgetManager.cpp`
+  - `(AWL) ERROR: Unknown PS value %u`
+  - `iOS CHI1 = %d`
+  - `lc_pout_set_power_limit`
+  - `ioreporting`
+  - `Ace: End HostAct %c%c%c%c`
+  - `Batt Cap %dmAh`
+  - `ACSt BattTrap: okBootAP_OS: %d, ExitBattPwr: %d, ExitACPwr: %d`
+  - `TXDS: error in alloc_stream: buf_size (%d) < req_buf_size (%d)`
+  - `base_band_agent_event_start`
   - `Notf: A%d uvdmDone`
-  - `ACSt: boot !AC`
+  - `smc/ap_watchdog.cpp`
+  - `(AWL) ERROR: IPA read of size %zu cannot be performed`
+  - `Failed to %s PMU Critical Shutdown IRQ (%d)`
+  - `SLP_WAKE: Disable Sleep on Ace:%d cause:%d`
+  - `Ace: HostAct %c%c%c%c`
+  - `RS: %s: %s: acc dead: loadFirmware(TX)`
+  - `pending, waiting for debounce`
+  - `Ace Wake ISR :: ACE_SPMI_GET_IRQ_STATE Fail arg %llu aceid %d`
+  - `pfsm_rail_energy_agent_callback`
+  - `Err ChgHvEnFail V %d rc=%d`
+  - `poutTriggerSet`
+  - `Disconnect %s. fD %llu, pD %llu, cUp %llu`
+  - `%s: chip vfy fail`
+  - `pi_control_task`
+  - `platform/common/platform_power.cpp`
+  - `smc/aceCommon.cpp`
+  - `(AWL)  INFO: [%03zx]   %02x%02x%02x`
+  - ` Min Input Curr %dmA, BestPwr Current %dmA, Active contract Current %dmA`
   - `ACSt:okBootAP_OS: %d, BattPwr: %d, ACPwr: %d, FixtureMode: %d`
-  - `swapToRxMode`
-  - `Shamisen chip ID mismatch: 0x%x`
-  - `pbuck_adc_push`
-  - `A%d SRDOFail Cmd didn't complete, TimeOut`
-  - `rc_irq == RTK_ST_OK`
-  - `RS: RX: RS_EVT_DEAD_ACCESSORY_DETECTED; invoke poutTriggerSet`
-  - `RS: TX: RS_EVT_ROLE_SWAP_REQUEST_RECEIVED; FW Sent Rsp: Reject(%d); stay in TX mode`
+  - `RS: RX: RS_EVT_ACCESSORY_DETACHED`
+  - `RS: %s: local tether state %d -> %d`
+  - `smc/adapter/portPowerRoleManager/portPowerRoleManager.cpp`
+  - `smc/aopComms.cpp`
+  - `[OC]AceTaskWrk OverCurr StatusChanged Detected: %d`
+  - `(SOCD) ERROR:Failed to finish awl push errors report: %d`
+  - `(AWL) ERROR: Failed to read %d or more PMS registers over AWL`
   - `RS: TX: RS_EVT_ACCESSORY_DETACHED; loadFirmware(RX)`
-  - `IND: CHG: request charge rate = %d`
-  - `PMU Critical Shutdown Request exit (%02Xh)`
+  - `    %*s = %d`
+  - ` DeadBattFlagStatus 0x%x`
+  - `Elec: BestPot A%d %dmW type%d was A%d %dmW`
+  - `RS: TX: RS_EVT_DEVICE_TETHERED: cancel poutUntethered timer (%llu)`
+  - `(SOCD) ERROR:Failed to allocate socd awl push report: %d`
+  - `Failed to read PMU DVC Status`
+  - `Elec: Elec Cause 0x%llx`
+  - `%s: RTK_mc_release returned != RTK_ST_OK `
+  - `pbuck_adc_push`
+  - `fury_irq_handler:%d: %x`
+  - `A%d plugPresent %d`
+  - `%s:%d connecting %llu`
+  - `dram_region_release`
+  - `RS: %s: fw not `
+  - `scan_agent_push`
+  - `A%d asserted irq`
+  - `xAceCheckEnabledADCChannels: chEnables = 0x%08x`
+  - `Notf: A%d ldcmEvent`
+  - `%s: Failed to read 'CELD', error ret=%d`
+  - `RS: TX: RS_EVT_TX_CHIME_HONESTY_COMPLETED; Pout=%d; IBCloakAvailable;=%d`
+  - `interpolation`
+  - `(AWL) ERROR: Failed to configure the AWL HW (0x%08x)`
   - `TXDS: release_buf failed with ret=%d`
-  - `platform/t8150/device_pmgr.cpp`
+  - `RS: ERROR: toRoleSwapRspType: invalid input=%d`
+  - `adc_sensing_task`
+  - ` VBUS_CH: %d, VBUS_FS: %u/100,  VBUS_Scaling: %u, ADC_Res: %d`
+  - `%s: RTK_mc_assume returned != RTK_ST_OK `
+  - `POP: TXFW: %s: drct: %u (targ) | %u (program)`
+  - `A%d PortRejectSRDO`
+  - `(AWL) ERROR: Failed to write report of size %zu at offset %#zx: %d`
+  - `inValid Op %d`
+  - `RS: TX: RS_EVT_ACCESSORY_ATTACHED`
+  - `TXDS: alloc_stream failed with ret=%d`
+  - `platform/t8150/device_asc.cpp`
+  - `charger_configure_input_src: ilim=%u, src:%u`
+  - `platform/t8150/device_awl_bus.cpp`
+  - `POP: TXFW: %s: ramp: %u (targ) | %lld %+lld => %u (program)`
+  - `baseline arcas`
+  - `drivers/inductive/drv_inductive_hal.cpp`
+  - `pfsm_pbuck_agent_callback`
+  - `drv_ace_pre_init`
+  - `HE-nRCS %d Error Count: In = 0x%x, Out = 0x%x, Bus = 0x%x `
+  - `AceInductive: Send Fail Notif, PassNotfPend: %d`
+  - `%s: %s:%d: %s, Unable to enable interrupt for btLV: %d`
+  - `A%d !HardReset Evt %x`
+  - `(AWL)  INFO: [%03zx]       %02x`
+  - `smc/bms/batterySocFilter/batterySocFilter.cpp`
+  - `%s: (spmi_addr=0x%x)`
+  - `smc/apComms.cpp`
+  - `ACSt: boot AC`
+  - `pmu man1_conv %Xh %Xh %Xh %Xh %Xh`
+  - `accumulator_task`
+  - `RS: TX: RS_EVT_POUT_BELOW_THRESHOLD; Ironbull cloak not available; wait for CHC`
+  - `toPoutProtocolType`
+  - `drivers/pmu/v3/drv_pmu_interface.cpp`
+  - `platform/t8150/device_forcewakeup.cpp`
+  - `Panic forced due to inductive FW crash`
+  - `ACE_REG_MODE: Ace%d Mode=%c%c%c%c`
+  - `smc/acePoutExtClientIF.cpp`
+  - `RS: RX: RS_EVT_HLOS_BOOTED; invoke poutTriggerSet`
+  - `drv_ace_init_allace_sleepwake`
+  - `upo_periodic_action`
+  - `RS: swapToRxTimer timer expired; hard swap; loadFirmware(RX)`
+  - `RESET_WARN false-trigger!`
+  - `A%d HardReset Evt %x`
+  - `smc/bms/battery_low_voltage_residency/battery_low_voltage_residency.cpp`
+  - `%s: upo_state=%d, clearUPOConConnect=%d`
+  - `smc/inductive/inductiveRoleSwap.cpp`
+  - `ACSt: boot !AC`
+  - `fury_irq_handler:%d: FURY_NFC_TO_AP_ACK_TAG_DETECTION_COMPLETE`
+  - ` VDO %d not found`
+  - `A%d SRDOFail Timeout`
   - `SMC HID Event: %02x %02x %02x`
+  - `rc:%d, err:%d`
+  - `BAUTH: kick out of sync`
+  - `Unable to enable interrupt for btLV region: rc = %u`
+  - `adc_logging_task`
+  - `(AWL) ERROR: %d`
+  - `RS: TX: RS_EVT_ROLE_SWAP_REQUEST_RECEIVED; FW Sent Rsp: Accept; loadFirmware(RX)`
+  - `inductive adapter: (%d)->(%d) dt: %llu`
+  - `platform/t8150/device_aop.cpp`
+  - `Unable to get data from AON PTD rc:%u`
+  - `%s: No valid firmware!!!`
+  - `pfsm_gmadc_scan_agent_callback`
+  - `pfsm_dynamic_agent_callback`
+  - `%s: %s:%d: %s, Invalid PMU index %u (max: %d)`
+  - `drivers/pmu/v3/drv_t5126_brooklands.cpp`
+  - `PMU DVC Status BUCK_DVC_ERROR%d : %02Xh`
+  - `RS: error: %s: invalid input=%d`
+  - `A%d prevBootSt %x genBootSt %x BFLG %x`
+  - `(AWL) ERROR: Failed to read APB register 0x%06llx over AWL`
+  - `RS: TX: RS_EVT_WAIKATO_MITIGATION_READY; do nothing`
+  - `platform/t8150/device_spmi.cpp`
+  - `pfsm_scan_agent_callback`
+  - `RS: RX: RS_EVT_FW_DOWNLOADED received; invoke poutTriggerSet`
+  - `smc/extPwriOS.cpp`
+  - `%s:%d arcas %llu`
+  - `pi_engaged`
+  - `xAceGetRawADCValue: channel 0x%u, rawValue %u`
+  - `RS: %s: poutTrig:    pass: (t=%d,os=%d,cap=%d,c=%d) . (ibcs=%d | nch=%d | >minpwr=%d) (Pout:%d)`
+  - `platform/common/platform_tunables.cpp`
+  - `UpdSS A%d SSPS %d`
+  - `smc/forceKeyAccess.cpp`
+  - `inductive_adapter_update_published_details`
+  - `Notf: A%d Usb2WakeEvt`
+  - `drivers/pmu/v3/drv_pmu_common_adc.cpp`
+  - `xAceFindADCResult: vdrHint = %u, vdr = %u`
+  - `Evt: A%d PLG_INSRT_RMVL`
+  - `RS: %s: %s: req-tx-init-rs(ret:0x%08x); start swapToRxModeTimer for %llu ms`
+  - `Ace:%d Port Mode:%d`
+  - `BAUTH: task out of sync`
+  - `smc/bms/dynamic_shutdown/battery_dynamic_shutdown.cpp`
+  - `%02x %02x %02x %02x   %02x %02x %02x %02x   %02x %02x %02x %02x   %02x %02x %02x %02x`
+  - `(AWL) WARN: Failed to receive AWL response (0x%08x)`
+  - `scan_agent_results`
+  - `charger: Failed to set termination voltage to:%umV rc:%d`
+  - `pmu_workloop`
+  - `smc/bms/bms_v1/charger.cpp`
+  - `Shamisen chip ID mismatch: 0x%x`
+  - `drivers/pmu/v3/drv_pmu_events.cpp`
+  - `%s: %s:%d: %s, DVC_DONE_ERROR/DVC_GROUP_DONE_ERROR (PMU[%d] %d)`
+  - `pbuck_results`
+  - `pfsm_adc_worker_callback`
+  - `(AWL) ERROR: Failed to allocate socd report: %d`
+  - `(AWL) ERROR: ASCv1 data descriptor has invalid number of cores`
+  - `TXDS: start_transfer failed with ret=%d`
+  - `fail to get systime_ptr 0x%x`
+  - `RS: RX: RS_EVT_POUT_CAPABLE; invoke poutTriggerSet`
+  - `adc_sensing_results_handler`
+  - `RS: RX: RS_EVT_DEVICE_UNTETHERED; invoke poutTriggerSet`
+  - `%s:%d ironman %llu`
+  - `%s: failure clearing spmi WAKE interrupt vector:%d for idx:0x%x (err: 0x%x).`
+  - `drivers/power/drv_fury.cpp`
+  - `smc/ace.cpp`
+  - `(SOCD) ERROR:Failed to finish awl socd push report: %d`
+  - `RS: TX: RS_EVT_ROLE_SWAP_REQUEST_RECEIVED; FW Sent Rsp: Reject(%d); stay in TX mode`
+  - `RS: TX: RS_EVT_WAIKATO_MITIGATION_NOT_READY; swapToRxMode`
+  - `Disconnect held off`
+  - `%s:%d Unexpected interrupt source: %x`
+  - `(SOCD) ERROR:SOCD push buffer header is corrupted - desc.size(%zu bytes) > total space allocated for SOCD push buffer (%d bytes)`
+  - `(SOCD) ERROR:Failed to write awl socd push report: %d`
+  - `RS: TX: RS_EVT_DEAD_ACCESSORY_DETECTED: Pout(%d)<Thrsld(%d); swapToRxMode`
+  - `scheduler_disable`
+  - `drv_ace_get_irq ui16AceInts=%x`
+  - `SLP_WAKE:Failed to send WAKE cmd to Ace:%d status:%d`
+  - `platform/t8150/device_aon_ptd.cpp`
+  - `A%d lock not acquired, timeout was set %d`
+  - `(AWL)  INFO: Collecting data from reporter #%zu`
+  - `smc/event_buf.cpp`
+  - `Failed to %s PMU MCOM1 IRQ (%d)`
+  - `(AWL) ERROR: Failed to finish awl report: %d`
+  - `(AWL) ERROR: Failed to read ace register offset %#x, size %zu`
+  - `RS: %s: invoke drv_inductive_hal.role_swap_preferred(%d)`
+  - `pfsm_fw_health_callback`
+  - `%s: %s:%d: %s, Unable to disable interrupt for btLV: %d`
+  - `POP: TXFW: pout_set_power_limit failed; ret=%d`
+  - `RS: RX: RS_EVT_WAIKATO_MITIGATION_NOT_READY; invoke poutTriggerSet`
+  - `InductiveFWDownload`
+  - `Debug counters: {`
+  - `thresholding_assert`
+  - `drivers/thermal/ptdCore.cpp`
+  - `DCP idle failed (%d)`
+  - `Get Interrupt Mask Fail OneAceInt 0x%x`
+  - `(AWL)  INFO: [%03zx]     %02x%02x`
+  - `TXDS: error in alloc_stream: embox.error=%d; (sid=%d size=%d)`
+  - `RESET_WARN timer cancelled`
+  - `ACE_REG_DATASTATUS: Ace%d baAceI2cRx[1] = 0x%x,            baAceI2cRx[2]: 0x%x, baAceI2cRx[3]: 0x%x, baAceI2cRx[4]: 0x%x`
+  - `smc/bms/bms_v1/bms.cpp`
+  - `select_input_power_source`
+  - `toPoutDSStatusType`
+  - `platform/common/platform_mem.cpp`
+  - `platform/t8150/device_pmgr.cpp`
+  - `auth IC communication failure (%x)`
+  - `platform/t8150/device_dockchannel.cpp`
+  - `Shutdown flags: Battery=%d, PMU=%d, pwrOut=%d Override=%d`
+  - `host_irq_triggered`
+  - `wallet_agent_sample`
+  - `Elec: A%d SRDO Failed %d`
+  - `inductive_quiesce_task`
+  - `SLP_WAKE:Ace:%d Sleep Disabled! Cause:ACE_IN_NONRESPONSIVE_MODE.`
+  - ` rawADCValue: %d, fAceIPPCableCurrent: %d mA, I_VCONN_SCALING_FACTOR: %d/1000`
+  - `(AWL) ERROR: Register read of size %zu cannot be performed`
+  - `IND wake fail %d fwr %d st %d wk %u/%d`
+  - `(SOCD) ERROR:SOCD push buffer header is corrupted - magic is invalid: expected 0x%x, got 0x%x`
+  - `ACSt: OSpend Exp`
+  - `pd charger`
+  - `A%d PowerAccumulator or AccumCount close to limits, resetting to 0`
+  - `(AWL) WARN: Failed to freeze the AWL IP for reporter #%zu`
+  - `Notf: A%d PlgConnStChg %d`
+  - `BattChgMT %dmAh`
+  - `(AWL) ERROR: Failed to pad the awl report offset %#zx: %d`
+  - `(AWL) ERROR: ASCv1 data descriptor was null`
+  - `FTAB debug word %d, 0x%x`
+  - `RS: TX: RS_EVT_FW_DOWNLOADED: device untethered; start poutUntethered timer for %llu ms`
+  - `interpolation_agent_task`
+  - `A%d NeedsInitReset setAppLoadedTimer`
+  - `smc/acePowerOut.cpp`
+  - `smc/comms.cpp`
+  - `configureTxPout`
+  - `Notf: A%d JuiceAllocEvt %d`
+  - `AceInductive: CurrInductiveMask: 0x%x, NewMask: 0x%x`
+  - `Critical Shutdown Requested`
+  - `iBoot CHI1 = %d ignored`
+  - `%s: error in mbox rsp: embox.error=%d`
+  - `TXDS: error in release_buf: embox.error=%d`
+  - `Elec: ActiveContract Fail Trig1`
+  - `(AWL)  INFO: [%03zx] %02x%02x%02x%02x`
+  - `lc_pout_request_tx_initiated_role_swap`
+  - `IND wake poll %d fwr %d fws %x ret %x st %d lk %d wk %u/%d`
+  - `battery_health_task`
+  - `(AWL) ERROR: Failed to send AWL request (0x%08x)`
+  - `smc/crashlog.cpp`
+  - `PMU Critical Shutdown IRQ %s`
+  - `iop_ringbuffer.h`
+  - `smc/inductive/inductive_common.cpp`
+  - `thresholding_deassert`
+  - `CrashlogData_t ptr = 0x%08lx`
+  - `PMU HCOM1 IRQ %s`
+  - `%s Ace:%d Port Mode:%d`
+  - `RS: RX: RS_EVT_DEAD_ACCESSORY_DETECTED; invoke poutTriggerSet`
   - `RS: TX: RS_EVT_TX_FW_SUSPENDED (Idle); swapToRxMode`
+  - `InductiveFWErrorRecovery`
+  - `dcp_to_smc`
+  - `platform/t8150/device_i2c.cpp`
+  - `LVR init failed: %d`
+  - `Shutdown VPMax bounds: floor=%d ceil=%d vpmax_vcut=%d gg_vcut=%d iss=%d.`
+  - `systime_ptr 0x%x`
+  - `ADC %s GAIN/OFST: %04hX/%04hX, %u/%d`
+  - `pfsm_irq_0`
+  - `Notf: A%d JuiceAllocEvt aepp`
+  - `RS: RX: RS_EVT_ROLE_SWAP_REQUEST_SENT; Rcvd PTx Rsp: Accept; loadFirmware(TX)`
+  - `IND wk%u try%d`
+  - `AceInductive: Send Pass Notif`
+  - `A%d SRDOFail Cmd didn't complete, TimeOut`
+  - `RS: poutUntethered timer expired; hard swap; loadFirmware(RX)`
+  - `RESET_WARN timer started`
+  - `wallet_agent_silent_check`
+  - `is Shutdwn needed: Req %d, budV %d isBattbt %d isPT %d`
+  - `(AWL)  INFO: Skipping AWL reporter #%zu because the AP cores are halted`
+  - `DE: Checksum becomes valid SMC %d AP %d`
+  - `RS: RX: RS_EVT_ROLE_SWAP_REQUEST_SENT; Rcvd PTx Rsp: Reject(%d); stay in RX mode`
+  - `RS: RX: RS_EVT_WAIKATO_MITIGATION_READY; invoke poutTriggerSet`
+  - `%s: failure clearing spmi interrupt vector for idx:0x%x (err: 0x%x).`
+  - `fury_irq_handler:%d: FURY_NFC_TO_AP_ACK_TAG_DETECTION_START`
+  - `A%d SRDOFail NewSrcEvent`
+  - `rc_irq == RTK_ST_OK`
+  - `Not charging:%llx`
+  - `thresholding_task`
+  - `Elec: fAceEnableHighVoltage`
+  - `(AWL) ERROR: Failed to adjust the awl report size: %d`
+  - `smc/bms/battery_auth/battery_authentication.cpp`
+  - `InductiveTask`
+  - `A%d SSPS%d`
+  - `%s : %d, %d`
+  - `ACSt: AC present`
+  - `dynamic_agent_push`
+  - `fPathChange %d`
+  - `smc/ap_watchdog_logger.cpp`
+  - `ACSt: iBoot HP %d Lp %d OS=%d ACSt 0x%02x AC %d GG %d ACPW %d SOC1 %d SMCFixturePresent %d`
+  - `RS: RX: RS_EVT_DEVICE_TETHERED; invoke poutTriggerSet`
+  - `%s:%d inductive fw (%d) download failed`
+  - `pfsm_wallet_agent_callback`
+  - `A%d, SMC did not acquire the uvdm Lock %d, uvdm Timer %d`
+  - `SLP_WAKE:Failed to Received WAKE ACK cmd from Ace:%d TIMEOUT! WakeTimeoutCount:%d AckExpected:%d`
+  - `(SOCD) ERROR:Failed to allocate an empty socd report to log awl push errors: %d`
+  - `smc/i2c.cpp`
+  - `%s:%d error: %x`
+  - `(AWL)  INFO: End AWL report (%zu bytes)`
+  - `(AWL) ERROR: Failed to obtain AWL caps (%d)`
+  - `Found file entry, tag = 0x%x, offset = 0x%x, size = 0x%x, fw_tag = 0x%x`
+  - `Thread stats (last %u.%03u ms)`
+  - `ACSt: Failed to read SOC1`
+  - `inductive_adapter_update_state`
+  - `pfsm_irq_1`
+  - `filtering_task`
+  - `rail_energy_agent_push`
+  - `Unsupported IRQ Number to read PMU DVC Status (%02Xh)`
+  - `swapToRxMode`
   - `d) error in mbox response: embox.error=%d`
   - `scheduler_enable`
-  - `pi_engaged`
-  - `(SOCD) ERROR:SOCD push buffer header is corrupted - magic is invalid: expected 0x%x, got 0x%x`
-  - `pfsm_irq_0`
-  - `pfsm_pbuck_agent_callback`
-  - `%02x %02x %02x %02x   %02x %02x %02x %02x   %02x %02x %02x %02x   %02x %02x %02x %02x`
-  - `Ace:%d Port Mode:%d`
-  - `AceInductive: Send Fail Notif`
-  - `(AWL) ERROR: Failed to write report of size %zu at offset %#zx: %d`
-  - `BAUTH: task out of sync`
-  - `invalid command '%u'`
-  - `pfsm_irq_1`
-  - `Unsupported IRQ Number to read PMU DVC Status (%02Xh)`
-  - `platform/t8150/device_spmi.cpp`
-  - `%s: iSawAnUPO=%d`
-  - `%s:%d inductive fw (%d) download failed`
-  - `iop_ringbuffer.h`
-  - `scheduler_disable`
-  - `current_histogram_task`
-  - `Adapter Policy VBUS Change not required`
-  - `%s: %s:%d: %s, Invalid PMU index %u (max: %d)`
-  - `A%d SRDOFail NewSrcEvent`
-  - `poutTriggerSet`
-  - `gmadc_scan_agent_irq_clr`
-  - `SLP_WAKE:Ace:%d Sleep Disabled! Cause:ACE_RCHD_MAX_RETRY.`
-  - `RS: RX: RS_EVT_DEVICE_UNTETHERED; invoke poutTriggerSet`
-  - `RS: RX: RS_EVT_ACCESSORY_DETACHED`
-  - `Failed to %s PMU Critical Shutdown IRQ (%d)`
-  - `platform/t8150/device_gpio.cpp`
-  - `Notf: A%d JuiceAllocEvt %d`
-  - `smc/bms/bms_v1/bms.cpp`
-  - `%s: RTK_mc_assume returned != RTK_ST_OK `
-  - `InductiveFWErrorRecovery`
-  - `pfsm_scan_agent_callback`
-  - `[OC]A%d detected overcurent event, notify OS`
-  - `Notf: A%d Usb2WakeEvt`
-  - `Elec: A%d SRDO Failed %d`
-  - `(AWL) WARN: Failed to receive AWL response (0x%08x)`
-  - `POP: TXFW: %s: ramp: %u (targ) | %lld %+lld => %u (program)`
-  - `RS: TX: RS_EVT_WAIKATO_MITIGATION_NOT_READY; swapToRxMode`
-  - ` E%d %d %x`
-  - `%s:%d disc %llu`
-  - `thresholding_assert`
-  - `drv_ace_init_allace_sleepwake`
-  - `(AWL) ERROR: Couldn't read register of unsupported access type %d`
-  - `dram_region_map_region`
-  - `RS: TX: RS_EVT_POUT_BELOW_THRESHOLD; Ironbull cloak not available; wait for CHC`
-  - `(AWL) ERROR: Failed to send AWL request (0x%08x)`
-  - `(AWL) ERROR: %d`
-  - `pfsm_dynamic_agent_callback`
-  - `management`
-  - `RS: %s: fw not `
-  - `iOS CHI1 = %d`
-  - `drivers/inductive/drv_inductive_hal.cpp`
-  - `PMU HCOM1 IRQ %s`
-  - `isAckFromAceExpected`
-  - `toPoutProtocolType`
-  - `ACSt: ACpend Exp %d mS `
-  - `configureTxPout`
   - `misc_workloop`
-  - `IND wk%u try%d`
-  - `(SOCD) ERROR:Failed to finish awl socd push report: %d`
-  - `inductive adapter: (%d)->(%d) dt: %llu`
-  - `thresholding_deassert`
-  - `(AWL) ERROR: ASCv1 data descriptor has invalid number of cores`
-  - `smc/inductive/inductivePoutPolicy.cpp`
-  - `%s : %d, %d`
-  - `Critical Shutdown Requested`
-  - `RS: RX: RS_EVT_POUT_CAPABLE; invoke poutTriggerSet`
-  - `Found file entry, tag = 0x%x, offset = 0x%x, size = 0x%x, fw_tag = 0x%x`
-  - `pfsm_rail_energy_agent_callback`
-  - `A%d SRDOFail Reject`
-  - `(AWL) ERROR: Failed to configure the AWL HW (0x%08x)`
-  - `charger: Failed to set termination voltage to:%umV rc:%d`
-  - `baseline arcas`
-  - `SLP_WAKE:Failed to send WAKE cmd to Ace:%d status:%d`
-  - `(SOCD) ERROR:Failed to finish awl push errors report: %d`
-  - `smc/inductive/inductiveRoleSwap.cpp`
+  - `Notf: A%d ldcmVbusEvent`
+  - `PMU Critical Shutdown Request exit (%02Xh)`
   - `PMU Critical Shutdown Request entry (%02Xh)`
-  - `ACE_REG_DATASTATUS: Ace%d baAceI2cRx[1] = 0x%x,            baAceI2cRx[2]: 0x%x, baAceI2cRx[3]: 0x%x, baAceI2cRx[4]: 0x%x`
-  - `RS: TX: RS_EVT_POUT_BELOW_THRESHOLD; Ironbull cloak not available; swapToRxMode`
-  - `pmu man1_conv %Xh %Xh %Xh %Xh %Xh`
-  - `platform/t8150/device_dockchannel.cpp`
-  - `RS: %s: %s: req-tx-init-rs(ret:0x%08x); start swapToRxModeTimer for %llu ms`
-  - `inductive_adapter_update_state`
-  - `TXDS: error in alloc_stream: embox.error=%d; (sid=%d size=%d)`
-  - `scan_agent_push`
-  - ` VDO %d not found`
-  - `RS: RX: RS_EVT_ROLE_SWAP_REQUEST_SENT; Rcvd PTx Rsp: Reject(%d); stay in RX mode`
-  - `smc/inductive/inductive_adapter.cpp`
-  - `%s: No valid firmware!!!`
-  - `InductiveTask`
-  - `upo_periodic_action`
-  - `FTAB debug word %d, 0x%x`
-  - `fury_enable_scan: %d`
-  - `Ace: HostAct %c%c%c%c`
-  - `Batt Cap %dmAh`
-  - `smc/adapter/portPowerRoleManager/portPowerRoleManager.cpp`
-  - `Aborting AOP iop_ringbuffer at %s:%d`
-  - `battery_health_task`
-  - `smc/apComms.cpp`
-  - `RS: %s: local tether state %d -> %d`
-  - `Failed to %s PMU MCOM1 IRQ (%d)`
-  - `BAUTH: kick out of sync`
-  - `%s: upo_state=%d, clearUPOConConnect=%d`
-  - `HE-nRCS %d First Error: Cmd = 0x%x, Timestamp = 0x%x, Status = 0x%x `
-  - `Notf: A%d PlgConnStChg %d`
-  - `Notf: A%d PWRST_ADAPTER_STATE_CHANGE elec`
-  - `pending, waiting for debounce`
-  - `ACSt: Shdwn 0x%x`
-  - `RS: TX: RS_EVT_ROLE_SWAP_REQUEST_RECEIVED; FW Sent Rsp: Accept; loadFirmware(RX)`
-  - `%s: %s:%d: %s, %u`
-  - `platform/t8150/device_aop.cpp`
-  - `ACE_REG_CFVIDSTATUS: baAceI2cRx[%d] = 0x%x and baAceI2cRx[%d] = 0x%x`
-  - `POP: TXFW: pout_set_power_limit failed; ret=%d`
-  - `rail_energy_agent_push`
-  - `TXDS: start_transfer failed with ret=%d`
-  - `RESET_WARN timer cancelled`
-  - `(AWL) ERROR: Failed to finish awl report: %d`
-  - `RS: %s: poutTrig:    pass: (t=%d,os=%d,cap=%d,c=%d) . (ibcs=%d | nch=%d | >minpwr=%d) (Pout:%d)`
-  - `wallet_agent_sample`
+  - `gmadc_scan_agent_task`
   - `PMU DVC Status LDO_DVC_ERROR%d : %02Xh`
-  - `drv_ace_pre_init`
-  - `A%d HardReset Evt %x`
-  - `(SOCD) ERROR:Failed to write awl socd push report: %d`
+  - `AceInductive: Send Fail Notif`
+  - `smc/bms/bms_v1/battery.cpp`
+  - `%s: RTK_mc_register_remote returned status %d (!= RTK_ST_OK) `
+  - `RS: RX: RS_EVT_DEAD_ACCESSORY_CLEARED; invoke poutTriggerSet`
+  - `RS: %s: poutTrig: pending: (t=%d,os=%d,cap=%d,c=%d) . (ibcs=%d | nch=%d | >minpwr=%d) (Pout:%d)`
   - `frc == RTK_ST_OK`
-  - `smc/bms/bms_v1/charger.cpp`
-  - ` rawADCValue: %u, fAceVbusVoltage: %d mV`
-  - `(AWL) ERROR: Failed to adjust the awl report size: %d`
-  - `smc/bms/batterySocFilter/batterySocFilter.cpp`
-  - `%s: RTK_mc_release returned != RTK_ST_OK `
-  - `RS: TX: RS_EVT_DEAD_ACCESSORY_DETECTED: Pout(%d)<Thrsld(%d); swapToRxMode`
-  - `Found FTAB file, valid = %d`
-  - `adc_sensing_results_handler`
-  - `rail_energy_agent_results`
-  - `PMU DVC Status GROUP_DVC_ERROR0 : %02Xh`
-  - `BattChgMT %dmAh`
-  - `%s:%d ironman %llu`
-  - `drivers/thermal/ptdCore.cpp`
-  - `ACE_REG_MODE: Ace%d Mode=%c%c%c%c`
-  - `(AWL)  INFO: Skipping AWL reporter #%zu because the AP cores are halted`
-  - `(AWL) ERROR: Register read of size %zu cannot be performed`
-  - `pmu_workloop`
-  - `%s: chip vfy fail`
-  - `drivers/pmu/v3/drv_pmu_interface.cpp`
-  - `ADC %s GAIN/OFST: %04hX/%04hX, %u/%d`
-  - `fury_irq_handler:%d: %x`
-  - `AceInductive: Send Pass Notif`
-  - `Error getting LVR data from PMU: %d`
-  - `duty_cycler_task`
-  - `rc:%d, err:%d`
-  - `TXDS: alloc_stream failed with ret=%d`
-  - `RESET_WARN timer started`
-  - `(AWL) ERROR: Failed to read APB register 0x%06llx over AWL`
-  - `smc/bms/battery_auth/battery_authentication.cpp`
-  - `IND: CHG: clear charge rate`
-  - `pfsm_adc_sense_callback`
+  - `Error accessing scratchpad key '%s', rc=%d`
+  - `RS: TX: CHC: Pout(%d)<Thrsld(%d) AND Ironbull cloak not available; swapToRxMode`
+  - `Disconnect re-published`
+  - `adc_worker_task`
+  - `ACE_SPMI_GET_IRQ_STATE Fail arg %llu aceid %d`
+  - `fury_enable_scan: %d`
+  - `Elec: ILIM %u->%u Vmin%u Vmax%u psRdy%d`
+  - `Aborting AOP iop_ringbuffer at %s:%d`
+  - `charger_pmu_init`
+  - `RS: RX: RS_EVT_POUT_ABOVE_THRESHOLD; poutTriggerSet`
+  - `dynamic_agent_results`
+  - `smc/aceElec.cpp`
+  - `invalid command '%u'`
+  - `%s: charger_set_path_priority failed`
+  - `RS: TX: RS_EVT_DEVICE_UNTETHERED: start poutUntethered timer for %llu ms`
+  - `IND: CHG: request charge rate = %d`
+  - `ACE_REG_CFVIDSTATUS: baAceI2cRx[%d] = 0x%x and baAceI2cRx[%d] = 0x%x`
+  - ` E%d %d %x`
+  - `(AWL)  INFO: Start AWL report (%d)`
   - `RS: TX: RS_EVT_DEAD_ACCESSORY_DETECTED: Pout(%d)>=Thrsld(%d); stay in TX mode`
-  - `inductive_update_firmware`
-  - `pi_control_task`
-  - `interpolation_agent_task`
-  - `Scfg Cmd failed for No VBUS Debug logging, %d`
-  - `(AWL) ERROR: Unknown PS value %u`
-  - `RS: TX: RS_EVT_WAIKATO_MITIGATION_READY; do nothing`
-  - `drivers/power/drv_fury.cpp`
-  - `platform/t8150/device_watchdog.cpp`
-  - `(AWL)  INFO: [%03zx]       %02x`
-  - `pfsm_wallet_agent_callback`
-  - `%s:%d Unexpected interrupt source: %x`
-  - `pmu_drv_adc_read error ch%d: status=%Xh value=%d (%d)`
-  - `newContractAsSrc ActRDO:0x%x ContractFlags:0x%x RDOPos:%d`
-  - `thresholding_task`
-  - `AONPTDTask`
-  - `LVR init failed: %d`
-  - `base_band_agent_event_start`
+  - `TXDS: start_xfr: err=%d, stream_id=%d`
+  - `Address Remapper %d Error: 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x `
+  - `Adapter Policy VBUS Change not required`
+  - `pfsm_pbatt_callback`
+  - ` rawADCValue: %u, fAceVbusVoltage: %d mV`
+  - `HE-nRCS %d Error Status = 0x%x `
+  - `BattAbvTh inhbtCurBeforeClosingFET`
+  - `[OC]A%d detected overcurent event, notify OS`
+  - `Notf: A%d Usb2PlgEvt`
   - `A%d unable to acquire smc uvdm lock %d`
-  - ` VBUS_CH: %d, VBUS_FS: %u/100,  VBUS_Scaling: %u, ADC_Res: %d`
-  - `(AWL)  INFO: End AWL report (%zu bytes)`
-  - `(AWL) ERROR: ASCv1 data descriptor was null`
-  - `%s: (spmi_addr=0x%x)`
-  - `A%d !HardReset Evt %x`
-  - `POP: TXFW: %s: drct: %u (targ) | %u (program)`
-  - `RS: RX: RS_EVT_FW_DOWNLOADED received; invoke poutTriggerSet`
-  - `smc/event_buf.cpp`
-  - `A%d asserted irq`
+  - `management`
+  - `AONPTDTask`
+  - `(AWL)  INFO: New AWL Report (Type %d, Version %d, Size %zu)`
+  - `RS: RX: RS_EVT_ACCESSORY_UNTETHERED; invoke poutTriggerSet`
+  - `RS: TX: RS_EVT_HLOS_BOOTED`
+  - `Found FTAB file, valid = %d`
+  - `%s:%d failed to set backpower`
+  - `TXDS: error: %s: invalid input=%d`
+  - `gmadc_scan_agent_irq_clr`
+  - `(AWL) ERROR: Failed to read the awl report size: %d`
+  - `vBMSTaskStop fail`
+  - `pmu_drv_adc_read error ch%d: status=%Xh value=%d (%d)`
+  - `pfsm_adc_sense_callback`
+  - `Unable to write LVR data to GG: %d`
+  - `RS: st_set_local_tether_state failed with ret=0x%x`
+  - `fury_irq_handler`
+  - `HE-nRCS %d First Error: Cmd = 0x%x, Timestamp = 0x%x, Status = 0x%x `
+  - `platform/t8150/device_trigger_interface.cpp`
+##### `iboot_blob13.bin`
+  - `UMI9CQI9TUI9*`
+##### `iboot_blob31.bin`
+  - `wrong response type:%d, id:0x%x`
+  - `las_tunableh_fig_get_mask`
+  - `genericController sampling time is 0, which is incorrect`
+  - `GGFWUPD: kick out of sync`
+  - `%s: i2c err %d : bus=%d i2ca=%x  cmd=0x%x count=%d ggI2cFlags=%x`
+  - `WPY^KLEBohafst}z`
+  - `nonnull_return`
+  - `charger_drv_set_charger`
+  - `drivers/inductive/drv_bcm59367.cpp`
+  - `las_tunableh_init`
+  - `las_tunableh_fig_get_value`
+  - `Error Reading %d: %d`
+  - `las_tunableh_read`
+  - `PCB TEMP cDegC: %d`
+  - `d1PTd2PTd3PTd4PTd5PTd6PTd7PTd8PT0LNA`
+  - `fail sbpow %d`
+  - `fail sreset %d`
+  - `RxNegoPwr: Ng: %d, Pt: %d, Rs: %d`
+  - `AON PTD GAPF start_addr = %llx, size = %llx `
+  - `drivers/devices/gapf.cpp`
+  - `%s:%d fw load addr=0x%x size=0x%x`
+  - `8?61$#*-pw~ylkbeHOFATSZ]`
+  - `out_of_bounds`
+  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/maxMinRC.cpp`
+  - `drivers/inductive/bcm59367.cpp`
+  - `%s:%d blank chip loading attempt complete`
+  - `fail set reset chip en`
+  - `PTD: Enabled push agent (%d) pwcwin=0x%08x push_address_lo=0x%08x`
+  - `%s:%d SPMI error: %x`
+  - `%s:%d iface fw_ready %x, fw_bootctl %x, status %x, wait %u`
+  - `lc_exit_lpm`
+  - `missing_return`
+  - `chip reset`
+  - `charger failed to enable pll sync rc:%d`
+  - `%s:%d : strt`
+  - `tx sreg %x ar %x h %x state %x qpp %d assert %d lpm %d`
+  - `cfi_check_fail`
+  - `implicit_conversion`
+  - `charger failed to disable DCR chopping rc:%d`
+  - `op:%u rc:0x%x status:0x%x`
+  - `fail scloak %d`
+  - `bcm5935x fexcept %x`
+  - `%s:%d fw_ver = 0x%x`
+  - `%s:%d error: %x`
+  - `divrem_overflow`
+  - `charger_drv_communication_page_check`
+  - `add_overflow`
+  - `float_cast_overflow`
+  - `vAONPTDTask: woke by unknown semaphore`
+  - `negate_overflow`
+  - `-\A\/\C\1\E\3\G\`
+  - `AON PTD Update for Id = %c%c%c%c, msg = 0x%llx, metadata = 0x%llx `
+  - `shsn_update_firmware`
+  - `%s:%d fail frmwrdat`
+  - `%s:%d fail jumpfrmwr, fw_ready = 0x%x, fwStatus = 0x%x, mtpVersion = 0x%x`
+  - `genericController was not provided either error or added/subtracted signals`
+  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/singlePoleFilter.cpp`
+  - `%s: error reading Waikato page, rc:0x%x`
+  - `%s:%d fwrite fcrcv`
+  - `TXDS: IND RX: stream=%d status=%d size=%d buff=0x%08x`
+  - `PTD: Disabled push agent (%d)`
+  - `!las_tunableh_initialized()`
+  - `las_tunableh_fig_get_expression`
+  - `-0123456789abcdef0123456789ABCDEF`
+  - `root@Dec 04 2025@23:13:55~.release`
+  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/acBlock.cpp`
+  - `charger failed to disable CC loop active clamp rc:%d`
+  - `no response available fifo_avail 0x%x, header 0x%x`
+  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/utility.cpp`
+  - `GGFWUPD: task out of sync`
+  - `%s:%d fail rLPM exit`
+  - `ERROR: ibat max is more than 0xFF (%d)`
+  - `%s: %s:%d: %s, Outbound GAPF error: addr=0x%llx, cmd=%c, valid=%d, id=%d`
+  - `i2c err: %d : bus=%d i2ca=%#x cmd=%#x : error reading count`
+  - `lc_read_multiple`
+  - `DCL%02x: 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x`
+  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/booleanLogic.cpp`
+  - `TXDS: IND TX: stream=%d status=%d all_data_transmitted=%d`
+  - `CHIP TEMP mDegC: %d`
+  - `lc_process_fw_backpower_request`
+  - `4PCRLFCRNAMSNAMS`
+  - `dynamic_type_cache_miss`
+  - `alignment_assumption`
+  - `drivers/devices/awl_bus.cpp`
+  - `jmdc>907"%,+`
+  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/signalConvert.cpp`
+  - `bpic_write: SPMI error: %x`
+  - `inductive sreg %x aRun %x cDet %x fltSve %x errSve %x fwErr %x fwState %x spmi %x st3 %x`
+  - `0000000000WWWWWWWWWWWWWWWWWWWWWWWWWW`
+  - `las_tunableh_apply`
+  - `SIG ack sem_wait_timeout ret %x, header 0x%x`
+  - `no response available fifo_avail 0x%x ext header 0x%x`
+  - `type_mismatch`
+  - `%s: %s:%d: %s, PTD: PWC quiesce failed data=0x%x (%d)`
+  - `%s:%d fwrite fcrcs`
+  - ` a/n*8hcgalf tlf_xehtfoi 8is61is23is46is 8iu61iu23iu46iu*8iutsj{crs{hlc{f1pf`
+  - `%s:%d fail to apply sysconfig calibration`
+  - `charger failed to unlock test mode rc:%d OTP:%x HW:%x`
+  - `/Library/Caches/com.apple.xbs/Sources/libAppleSilicon/tunableh/v1/tunableh.c`
+  - `Wrong offset provided to float signalStore`
+  - `drivers/devices/ptd.cpp`
+  - `las_tunableh_get_fig() == NULL`
+  - `charger failed to apply VBUS OV mitigation rc:%d`
+  - `pointer_overflow`
+  - `%s:%d fwdl addr %x`
+  - `fail set reset chip dis`
+  - `ERROR unsupported aperture read: %x`
+  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/genericController.cpp`
+  - `RxStChg: FW st chg: 0x%02x <- 0x%02x`
+  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/accumulator.cpp`
+  - `drivers/charger/waikato/drv_waikato_charger.cpp`
+  - `%s:%d jump addr=0x%x`
+  - `drivers/gasgauge/veridian/drv_gg_veridian.cpp`
+  - `magsafe chg`
+  - `%s:%d upd frmwr`
+  - `type=0x%x, header=0x%x,indication=0x%x, ret = 0x%x`
+  - `Write Shelf life state requested = %d, data=%d, rc = %d, `
+  - `B0GTC0GTH0GTV0GT`
+  - `!&/(=:34NI@GRU\[vqx`
+  - `nonnull_arg`
+  - `shift_out_of_bounds`
+  - `%s: error setting Waikato page to 0, rc:0x%x`
+  - `drivers/devices/aon_ptd.cpp`
+  - `builtin_unreachable`
+  - `nullability_arg`
+  - `charger failed to write SYSTEM_CONFIG_1 FREQ_DITHER rc:%d`
+  - `fifo_avail=0x%x, ret = 0x%x`
+  - `UBSAN triggered SMC panic: %s`
+  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/mux.cpp`
+  - `lc_transfer_core`
+  - `%s:%d fail write bootloader loading struct`
+  - `fw status invalid`
+  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/referenceTargetRC.cpp`
+  - `charger failed to read SYSTEM_CONFIG_1 FREQ_DITHER rc:%d`
+  - `%s: Waikato wrong comm page:%d`
+  - `drivers/devices/ptd_fwd_eng.cpp`
+  - `load_invalid_value`
+  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/delay.cpp`
+  - `Read Shelf life- data=%d, return state=%d, rc=%#x`
+  - `function_type_mismatch`
+  - `Wrong offset provided to int signalStore`
+  - `charger failed to enable improvement to CC-ILIM handoff rc:%d`
+  - `charger failed to lock test mode rc:%d`
+  - `mul_overflow`
+  - `Failed to read dc limiter register, rc:%d`
+  - `%s:%d fail frmwrdatld`
+  - `retry verify_chip`
+  - `nullability_return`
+  - `invalid_objc_cast`
+  - `UBSAN triggered SMC panic: unknown`
+  - `dotara_spmi_irq_handler`
+  - `%s:%d:%s: %s`
+  - `invalid_builtin`
+  - `vla_bound_not_positive`
+  - `fw read zero. retrying: %d`
+  - `las_tunableh_write`
+  - `charger failed to read WAIKATO_CC_LOOP_CLAMP_CTRL rc:%d`
+  - `crashlog: dump from dotara SRAM: %d bytes from 0x%x`
+  - `magsafe acc`
+  - `%s: TARGET_VALID=%d, rc:0x%x`
+  - `%s:%d fail frmwrdatvr`
+  - `las_tunableh_module_evaluate`
+  - `data size > expected size:: bus=%d i2ca=%#x cmd=%#x`
+  - `sub_overflow`
+  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/signalStore.cpp`
+##### `RTKit.bin`
+  - `WLCH: read hdr again (1): ret=0x%x, hdr=0x%x`
+  - `%s: ignore attempt to set ilim=%d while quiesced`
+  - `RS: %s: InductiveRemoteTetherInd: remote_tethered=%d`
+  - `WLCH: get_rx_buffer_base_addr() failed; (0x%x) (r:%d); state=exception`
+  - `<<<PMU monitor crashlog start>>>`
+  - `%s: %s:%d: %s, ret=0x%x; q-size=%d; hdr=0x%x`
+  - `RXDS: rdsema error %d`
+  - `inductive_mailbox_ind_process`
+  - `inductive toggle vbus 0x%x`
+  - `InductiveSetManualMode`
+  - `inductive_backpower_irq_process`
+  - `%s : quiesce mask, %x`
+  - `inductive cl: arcas init`
+  - `%s:%d vtgt fail`
+  - `%s:%d vtgt %d ilim tgt %d; (0: not set)`
+  - `inductive cl: g4: g4(%d) > %d; pwr_c = %dmW (bounded: %dmW); settle ULTRA`
+  - `%s:%d disable callisto failed`
+  - `InductiveFrequency`
+  - `RS: %s: HLOS booted! notify in %d ms`
+  - `%s:%d ERR process mailbox indication %x`
+  - `%s :rerror: %x %x %x st %x sa %x`
+  - `inductive cl: g3: gain3(%d) < 98; settle HIGH; request NPP`
+  - `smc/inductive/inductive_rx.cpp`
+  - `ret == RTK_ST_OK`
+  - `RS: notify HLOS booted! (hlosBootedNotifDelayTimer expired)`
+  - `%s : !quiesce mask, %x`
+  - `inductive cl: %s: start ramp (isns:%dmA, vrect:%dmV, power:%dmW)`
+  - `UUID: %02x%02x%02x%02x-%02x%02x-%02x%02x-%02x%02x-%02x%02x%02x%02x%02x%02x`
+  - `RS:  prv: p:%03d m:0x%01x vid:%04x pid:%04x s:%03d c:%03d t:%03d `
+  - `InductiveSetHLOSBooted`
+  - `InductiveUpdateChgIlim`
+  - `smc/inductive/inductive_keys.cpp`
+  - `%s:%d fail control %x SerializerMute`
+  - `RS: dead accessory detected!`
+  - `WLCH: ret=0x%x bufIdx=%d, bufAddr=0x%x, hdr=0x%x`
+  - `%s:%d err freq denom`
+  - `status = 0x%x`
+  - `RS: start dead batt detection; expireTime=%llu currTime=%llu`
+  - `%s : !quiesce, %d`
+  - `<<<PMU monitor crashlog end>>>`
+  - `running (%d); cannot send tether state (%d) to fw; return`
+  - `RS: stop dead batt detection; expireTime:%llu->0; currTime=%llu`
+  - `inductive cl: pwr contract: none; settle LOW`
+  - `transient %d (%d to %d)`
+  - `%s: ignore attempt to set ilim=%d in DBB (bcm5935x_state=%d); nop`
+  - `InductiveTarget`
+  - `%s: cps exDBB. np:%d ts:%d ds:%d cf:%d st:%x`
+  - `%s:%d err fsk demod rate`
+  - `qInductiveInFwdlRegulation`
+  - `2PP:inductive_data.promotion_to_2pp_state timeoutt`
+  - `assert_id = %d`
+  - `WLCH: read aperture magic: ret=0x%x, magic=0x%x`
+  - `RS: %s: InductiveRemoteSoCInd: remote_soc=%d`
+  - `inductive cl: g4: gain4(%d) < %d; settle LOW`
+  - `InductiveAccessoryInfoChanged`
+  - `inductive cl: reached ramp target (isns:%dmA [tgt:%dmA], vrect:%dmV [tgt:%dmV], power:%dmW)`
+  - `%s: unknown key = %d`
+  - `RS: [new: p:%03d m:0x%01x vid:%04x pid:%04x s:%03d c:%03d t:%03d]`
+  - `%s:%d set mute %d at %llu time.`
+  - `%s : quiesce, %d`
+  - `%s:%d ERR set mmode (%d) %x`
+  - `inductive cl: G4_C1 : %d`
+  - `Error: could not map NFC Tag Id (0x%x) to VID/PID; ret=%d`
+  - `WLCH: read hdr again (2): ret=0x%x, hdr=0x%x`
+  - `recieved FW decriptor: base = 0x%llx size = 0x%x flags 0x%x`
+  - `%s :nexDBB, disc: %d %d %x`
+  - `RXDS: rmerr queue %d`
+  - `%s : nexDBB, tctnRP: %d %d %x`
+  - `inductive cl: g3: g3(%d) > 98; pwr_c = %dmW (bounded: %dmW); settle ULTRA`
+  - `2PP:inductive_data.promotion_to_2pp_state = %u`
+  - `RS: %s: InductiveSendLocalTetherToFW: send tether (%d) to fw`
+  - `%s:%d ERR process backpower request %x`
+  - `%s:%d mmode (%d)`
+  - `RS: NfcTagInfoChangedInd: cnt=%d tag:[0x%x 0x%x]`
+  - `fw_ver_string = %s`
+  - `ui8InductiveFWCtrl`
+  - `inductive cl: G3_C1 : %d`
+##### `iboot_blob40.bin`
+  - `____9j45xbtzw5`
+##### `iboot_blob45.bin`
+  - `tp`
+  - `hr`
+  - `t~`
+  - `,t`
+  - `8u`
+  - `lw`
+  - `0{`
+  - `$}`
+  - ` A`
+  - `F<2(`
+  - `58r`
+  - `0v`
+  - `0z`
+  - `@{`
+  - `H|`
+  - `T}`
+  - `Y?`
+  - `Pc`
+  - `hs`
+  - `C3C@w`
+  - `rn0l`
+  - ` A`
+  - `x4`
+  - `av0p`
+  - `<U`
+  - `P{`
+  - `rn0p`
+  - `$T`
+  - `T_`
+  - `|r`
+  - `Xu`
+  - `pv`
+  - `\~`
+  - `@?`
+  - `Y?`
+  - `Da`
+  - `th`
+  - `Hk`
+  - `<x`
+  - `|z`
+  - `Rn0p`
+  - `av0g`
+  - `rn0s`
+  - `Cx`
+  - ` A`
+  - `$a`
+  - ` o`
+  - `pt`
+  - `$z`
+  - `Rn0v`
+  - `F<2(`
+  - `z?`
+  - `tTxEhTTR7x`
+  - `Cx`
+  - `\\`
+  - `Ts`
+  - ` ~`
+  - `4D`
+  - `av0a`
+  - `av0e`
+  - `,^`
+  - `pg`
+  - `Hr`
+  - `Hu`
+  - ` v`
+  - `Rn0s`
+  - `E@`
+  - `tTDPhTTROx`
+  - `Tl`
+  - `\n`
+  - `tz`
+  - `Rn0l`
+  - `(g`
+  - `ff`
+  - `5D]`
+  - `0_`
+  - `Td`
+  - `@s`
+  - `in0d`
+  - `av0s`
+  - `#<`
+  - `LS`
+  - `8\`
+  - `D}`
+  - `\]`
+  - `L^`
+  - `ho`
+  - `@t`
+  - `hz`
+  - `x|`
+  - `d}`
+  - `Rn0g`
+  - `p4`
+  - `HB`
+  - ` B`
+  - `4h`
+  - ` s`
+  - `4w`
+  - `Rn0e`
+  - ` A`
+  - `@@`
+  - `B0QIu0QIu0AQu0QQd0QTj0QTu0QVu1QVl0QVu0AWu0QWDDQV`
+  - `<j`
+##### `iboot_blob29.bin`
+  - `0123456789ABL`
+  - `00102030405060708090C0W00111213141W10C1CSOCSSS7`
+  - `ACAHAVCVIVLVMVNVOVPVQVRV`
+  - `010203040SS`
+  - `LC0D1D2D3D4DVILPCSVSCT^`
+  - `NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNKGGGGGGGGNNNNNNNNNNNNNNNNNNNNN`
+  - `[S;?c37KGo`
+  - `QAIB1DEDUFVF`
+  - `)CCMFXF0H1H2H3HCIDIMNXNMPXPMQXQCRDRERFRGRHRIRRRSRWRCSDSESFSGSHSATMTOTPTSTVTWTXTYTZT `
+  - `rrNrBBLBBBD`
+  - `;;;;;;;2;;-`
+  - `N-A1C1P1S1T1`
+  - `M???9M\\"\`
+  - `N-A1F1I1P1S1V1i1p1q1u1v1A2F2I2P2S2V2i2p2q2u2v2`
+  - `!B-C-E-F-I-J-M-N-P-Q-R-S-T-U-W-X-PAIBFCPCBDIDLDCEQEPFDIEIMLKPWPtSSV`
+  - `\\\\\\\\?\`
+  - `A1I1V1A2I2LBACCDDDWD0FPFRFWFLSs`
+  - `\\\\\\\?\\\???\\\\\\\\\\\\\\\\`
+  - `1C2CHFSFELFLVL0SCUDU7`
+  - `DCADBDNDTDLFCSNS1W2W7`
+  - `5-..............NN`
+  - `=CAIAJAPATAVADBLBACDCHCICJCMCSCTCVC1DCDCFGFHFIFUFVFMH2IDIFIMISIVIPLSMCNDNMNCOVOSPDQSQ1RMRSR1SCSDSESLSRSSSCTETFTITPTiTCUCVDW09`
+  - `YNU=ahWtLp;?c6S4\jw`
+  - `CACCSPCTDTNTWTs`
+  - `C0L0V0CHWHLIARORSRTRISVSATCTITSTAVCVIVLV`
+  - `DD0E0H0J0R0V01A2AIASAIBVBCCECFCRCBDSFCHVHWH1I2IBICIEIFILIMIOISIDKGKHKKKLKMKOKPKQK`
+##### `iboot_blob36.bin`
+  - `RTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACK`
+##### `iboot_blob46.bin`
+  - `UPCmuNTR-x`
+##### `iboot`
+  - `eos-halley-config`
+  - `arm-io/aop-spmi0/stockholm-spmi/stockholm`
+  - `pmgr_disable_pmp_pmc`
 
 </details>
 
@@ -1465,628 +1469,628 @@
 <details>
   <summary><i>View Removed</i></summary>
 
+##### `iboot_blob29.bin`
+  - `r"95S/95s/95`
+  - `r!95S.95s.95`
+  - `%9u!%9uA%9ua%9u`
+  - `39u339uS39us395`
+  - `!9ua!9uA!9u`
+  - `9uA$9ua$9u`
+  - ` 9ua 9uA 9u! 9u`
+  - `"9ua"9uA"9u!"9u`
+  - `$95S095s095`
+  - `19u319uS19us19u`
+##### `iboot_blob31.bin`
+  - `QAIB1DEDUFVFɔ`
+  - `95S895s895`
+  - `5-..............NN`
+  - `N-A1F1I1P1S1V1i1p1q1u1v1A2F2I2P2S2V2i2p2q2u2v2`
+  - `)CCMFXF0H1H2H3HCIDIMNXNMPXPMQXQCRDRERFRGRHRIRRRSRWRCSDSESFSGSHSATMTOTPTSTVTWTXTYTZT o`
+  - `95S795s795`
+  - `YNU=ahWtLp;?c6S4\jw`
+  - `PARADBCCECBDEDRECFDIGIRIONDSDURVfihiiiminisitpY`
+  - `!B-C-E-F-I-J-M-N-P-Q-R-S-T-U-W-X-PAIBFCPCBDIDLDCEQEPFDIEIMLKPWPtSSV`
+  - `A1I1V1A2I2LBACCDDDWD0FPFRFWFLSs`
+  - `CRabcdefgj`
+  - `b0m0b1m1b2l2b3l3b4l4b5l5b6b7l7b8l9ba9bbblbbclcbd0s1s2s3s4s5st`
+  - `DCADBDNDTDLFCSNS1W2W7`
+  - `0123456789ABL`
+  - `3LAMANAOARASATAUAVAXALFNFVMWMCOPOCSKSMS3T6TCTDT0X2X9XAXCXDXHXKXLXNXPXSXTXUXZXbXcXdXhXkXlXmXnXsXtXbxdxsx`
+  - `E0C1CBCUC1D0Tt@`
+  - `DACEACNKDADGBDGCDGSDG1GL2GL4GLFONSGOIMPSMPcMP"`
+  - `CDIMNOPSUV;T`
+  - `b0m0b1m1b2l2b3l3b4l4b5l5b6b7l7b8l9MZba9bbblbbclcbd0s1s2s3s4s5s|`
+  - `-DIBVRBDICVRCICEVSENEG00P10P20P30P40P50P60P70P80P90P0FPtlPDIUREV00cBCcPCcUCcuCc0HcHHcLHcrHcyHczHc0PcaPcdPcsPczPc0hcHhclhcrhcyhczhc0pcapc\P`
+  - `MCBWRBDARDRR2l`
+  - `GBD0DD1DDPTD0VECNIVNIXNICRS!`
+  - `VKSPSSTSEW1rC`
+  - `1dA2dA1kA2kA1tA2tANSECCFDCFPCFSCFTCFPATpX`
+  - `7777777.77)`
+  - `1C2CHFSFELFLVL0SCUDU7{`
+  - ` CAPARASAUAVA0C1C2CKCSCVCCFFOPOROTOUOFPSPFRRRGSLSOSRSSSTSVSRTFVRVE`
+  - `[S;?c37KGo`
+  - `LC0D1D2D3D4DVILPCSVSCT^`
+  - `<CAIAJAPATAVADBLBACDCHCICJCMCSCTCVC1DCDCFGFHFIFUFVFMH2IDIFIMISIVIPLSMCNDNMNCOVODQSQ1RMRSR1SCSDSESLSRSSSCTETFTITPTiTCUCVDW0`
+  - `NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNKGGGGGGGGNNNNNNNNNNNNNNNNNNNNN`
+  - `00102030405060708090C0W00111213141W10C1CSOCSSS7`
+  - `rrNrBBLBBBD`
+  - `M???9M\\"\`
+  - `ACAHAVCVIVLVMVNVOVPVQVRV`
+  - `C0L0V0CHWHLIARORSRTRISVSATCTITSTAVCVIVLV`
+  - `\\\\\\\\?\`
+  - `\\\\\\\?\\\???\\\\\\\\\\\\\\\\`
+  - `010203040SSw`
+  - `DD0E0H0J0R0V01A2AIASAIBVBCCECFCRCBDSFCHVHWH1I2IBICIEIFILIMIOISIDKGKHKKKLKMKOKPKQKRKSKUKVKWKSLTL2MCNDNINCOSPiQvQwQCRTRCSESLSTSWSCTETLTMTUTH`
+  - `CACCSPCTDTNTWTs`
+  - `Ef0f1f2f3<@`
+  - `gPAcAuADBIBACDCFCRCSCTCUCXCYCZCbCcCfCiCmCnCrCsCvCwCADBDEDIDPDRDpDCEFEpECFSFVFCIDIQIRIAJBJDJEJFJGJIJMJNJPJQJRJSJVJCLGLILRLIMPMVMIPMPRPSPTPdPiPsPtPIRRRcRpRTSWStSIUCVDVMVRVXVbVdVmVnVSWfihiiiminisiglilsodpiprptpY`
+  - `N-A1C1P1S1T1`
 ##### `iboot_blob38.bin`
   - `RTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACK`
-##### `iboot_blob42.bin`
-  - `____9j45xbtzw5`
-##### `iboot_blob30.bin`
-  - `69u-99uM99um99u`
-  - `69ur89uR89v`
-  - `59U359US59Us59U`
-  - `69U369US69Us69U`
-  - `49u-;9um49uM49u-49u`
-  - `595s595S59ur`
-  - `99U399US99Us99U`
-  - `953295s195`
-  - `295s295S2953`
-  - `*9u3*9uS*9v`
-  - `+9u2+9uR+9v`
-  - `495s495S49`
-  - `"9u2"9uR"9`
-  - `89uM69u-89uM89um89u`
-  - `$953$95S$9u`
-  - `"9us"9uS"96`
-  - `9US29U349U`
-  - `=9u2=95s$95`
-  - `2)9uR)9ur)9vb`
-  - `&953&9US79Us795S&95s&95`
-  - `49u349uS49us49u`
-  - `59US:9Us:9U`
-  - `09u209uR09`
-  - `9US+9Us+9u`
-  - `9US19Us19U`
-  - `$9US49Us495`
-  - `2.9uR.9ur.9`
-  - `%953%95S%95s%9U`
-  - `395s395S39`
-  - `<9u2<9uR<9ur<9u`
-  - `39um39uM39u`
-  - `89U389US89Us89U`
-  - `239uR39ur39`
-  - `69uM79um79u`
-  - `&9u2&9uR&9v`
-  - `9u2!9uR!9ur!9u`
-  - `#953#95S#95s#95`
-  - `)9US&9Us&9v{`
-  - `695s695S69`
-  - `95S 95s 95`
-  - `s%9Us%9US%9uS%9u3%9`
-  - `:9uM59u-59u`
-  - `59u359uS59us59u`
-  - `:9u-:9uM:9u`
-  - ` 9u2 9uR 9ur 9`
-  - `9US,9Us,9u`
 ##### `iboot_blob13.bin`
   - `RSII9UMI9CQI9TUI9j`
 ##### `RTKit.bin`
   - `inductive cl: ironman settle MED g: %d`
   - ` g1g2 (%d)  < 105; settle LOW; g1:%d g2:%d`
   - `inductive cl: ironman settle LOW g: %d`
-##### `iboot_blob29.bin`
-  - `!9ua!9uA!9u`
-  - `"9ua"9uA"9u!"9u`
-  - `%9u!%9uA%9ua%9u`
-  - `$95S095s095`
-  - `19u319uS19us19u`
-  - ` 9ua 9uA 9u! 9u`
-  - `39u339uS39us395`
-  - `9uA$9ua$9u`
-  - `r"95S/95s/95`
-  - `r!95S.95s.95`
-##### `iboot_blob34.bin`
-  - `(AWL) ERROR: Failed to read the awl report size: %d`
-  - `RS: RX: RS_EVT_WAIKATO_MITIGATION_NOT_READY; invoke poutTriggerSet`
-  - `RXDS: rmerr queue %d`
-  - `%s:%d set mute %d at %llu time.`
-  - `isAckFromAceExpected`
-  - `(AWL) ERROR: Failed to write report of size %zu at offset %#zx: %d`
-  - `Panic forced due to inductive FW crash`
-  - `inductive cl: pwr contract: none; settle LOW`
-  - `inductive cl: g3: g3(%d) > 98; pwr_c = %dmW (bounded: %dmW); settle ULTRA`
-  - `inductive cl: g4: gain4(%d) < %d; settle LOW`
-  - `SMC HID Event: %02x %02x %02x`
-  - `smc/forceKeyAccess.cpp`
-  - `baseline arcas`
-  - `fury_irq_handler:%d: FURY_NFC_TO_AP_ACK_TAG_DETECTION_START`
-  - `Unable to write LVR data to GG: %d`
-  - `inductive cl: G3_C1 : %d`
-  - `smc/ace.cpp`
-  - `RS: TX: RS_EVT_WAIKATO_MITIGATION_READY; do nothing`
-  - `RS: %s: %s: req-tx-init-rs(ret:0x%08x); start swapToRxModeTimer for %llu ms`
-  - `(AWL) ERROR: Register read of size %zu cannot be performed`
-  - `RS: RX: RS_EVT_DEVICE_UNTETHERED; invoke poutTriggerSet`
-  - `RS: TX: RS_EVT_FW_DOWNLOADED: device untethered; start poutUntethered timer for %llu ms`
-  - `inductive cl: legacy: g2:`
-  - `drivers/thermal/ptdCore.cpp`
-  - `smc/i2c.cpp`
-  - `RS: notify HLOS booted! (hlosBootedNotifDelayTimer expired)`
-  - `RS: RX: RS_EVT_WAIKATO_MITIGATION_READY; invoke poutTriggerSet`
-  - `Scfg Cmd failed for No VBUS Debug logging, %d`
-  - `ACSt: AC present`
-  - `qInductiveInFwdlRegulation`
-  - `r to read PMU DVC Status (%02Xh)`
-  - `platform/t8150/device_pmgr.cpp`
-  - `DE: invalid checksum SMC %d AP %d`
-  - `[OC]AceTaskWrk OverCurr StatusChanged Detected: %d`
-  - `Not charging:%llx`
-  - `HE-nRCS %d First Error: Cmd = 0x%x, Timestamp = 0x%x, Status = 0x%x `
-  - `A%d powerAccumErrorCount at UINT16_MAX limit`
-  - `RS: RX: RS_EVT_DEVICE_TETHERED; invoke poutTriggerSet`
-  - `platform/t8150/device_forcewakeup.cpp`
-  - `A%d prevBootSt %x genBootSt %x BFLG %x`
-  - `dram_region_map_region`
-  - `RS: TX: RS_EVT_DEVICE_TETHERED: cancel poutUntethered timer (%llu)`
-  - `RS: TX: RS_EVT_ACCESSORY_ATTACHED`
-  - `BattAbvTh inhbtCurBeforeClosingFET`
-  - `Ace: HostAct %c%c%c%c`
-  - `(AWL) ERROR: Failed to read APB register 0x%06llx over AWL`
-  - `RS: RX: RS_EVT_ROLE_SWAP_REQUEST_SENT; Rcvd PTx Rsp: Accept; loadFirmware(TX)`
-  - `Disconnect re-published`
-  - `RXDS: rdsema error %d`
-  - `(AWL) ERROR: IPA read failed for register at addr %#llx`
-  - `ret == RTK_ST_OK`
-  - `(AWL)  INFO: Start AWL report (%d)`
-  - `(AWL)  INFO: [%03zx]       %02x`
-  - `%s: %s:%d: %s, Unable to disable interrupt for btLV: %d`
-  - `fury_irq_handler:%d: %x`
-  - ` rawADCValue: %d, fAceIPPCableCurrent: %d mA, I_VCONN_SCALING_FACTOR: %d/1000`
-  - `%s:%d: inductive fw (%d) loaded successfully!`
-  - `CrashlogData_t ptr = 0x%08lx`
-  - `Evt: A%d PLG_INSRT_RMVL`
-  - `rc_irq == RTK_ST_OK`
-  - `(AWL) ERROR: ASCv1 data descriptor has invalid number of cores`
-  - `(AWL) ERROR: Failed to send AWL request (0x%08x)`
-  - `%s :rerror: %x %x %x st %x sa %x`
-  - `xAceCheckEnabledADCChannels: chEnables = 0x%08x`
-  - `iOS CHI1 = %d`
-  - `RS: TX: RS_EVT_TX_CHIME_HONESTY_COMPLETED; Pout=%d; IBCloakAvailable;=%d`
-  - `WLCH: ret=0x%x bufIdx=%d, bufAddr=0x%x, hdr=0x%x`
-  - `platform/t8150/device_trigger_interface.cpp`
-  - `AONPTDTask`
-  - `%s: RTK_mc_assume returned != RTK_ST_OK `
-  - `RS: %s: poutTrig:    pass: (t=%d,os=%d,cap=%d,c=%d) . (ibcs=%d | nch=%d | >minpwr=%d) (Pout:%d)`
-  - `Failed to %s PMU Critical Shutdown IRQ (%d)`
-  - `(SOCD) ERROR:Failed to allocate an empty socd report to log awl push errors: %d`
-  - `transient %d (%d to %d)`
-  - `(AWL) ERROR: Failed to read ace register offset %#x, size %zu`
-  - `inductive cl: G4_C1 : %d`
-  - `smc/aceCommon.cpp`
-  - `Elec: A%d SRDO Failed %d`
-  - `smc/bms/bms_v1/charger.cpp`
-  - `RS: start dead batt detection; expireTime=%llu currTime=%llu`
-  - `rc:%d, err:%d`
-  - `SLP_WAKE:Failed to send WAKE cmd to Ace:%d status:%d`
-  - `SLP_WAKE:Ace:%d Sleep Disabled! Cause:ACE_RCHD_MAX_RETRY.`
-  - `smc/aceElec.cpp`
-  - `frc == RTK_ST_OK`
-  - `RS: %s: InductiveRemoteSoCInd: remote_soc=%d`
-  - `InductiveSetHLOSBooted`
-  - `(AWL) ERROR: Failed to adjust the awl report size: %d`
-  - `A%d SRDOFail Reject`
-  - `ACSt: iBoot HP %d Lp %d OS=%d ACSt 0x%02x AC %d GG %d ACPW %d SOC1 %d SMCFixturePresent %d`
-  - `inductive_adapter_disconnect_debounce`
-  - `drv_ace_pre_init`
-  - `smc/apComms.cpp`
-  - `%s:%d mmode (%d)`
-  - `A%d !HardReset Evt %x`
-  - `(SOCD) ERROR:Failed to allocate socd awl push report: %d`
-  - `POP: TXFW: %s: drct: %u (targ) | %u (program)`
-  - `inductive_mailbox_ind_process`
-  - `Notf: A%d ldcmEvent`
-  - ` VDO %d not found`
-  - `auth IC communication failure (%x)`
-  - `Disconnect %s. fD %llu, pD %llu, cUp %llu`
-  - `SLP_WAKE:Failed to Received WAKE ACK cmd from Ace:%d TIMEOUT! WakeTimeoutCount:%d AckExpected:%d`
-  - `smc/crashlog.cpp`
-  - `RS: TX: RS_EVT_ACCESSORY_DETACHED; loadFirmware(RX)`
-  - `A%d PowerAccumulator or AccumCount close to limits, resetting to 0`
-  - `(AWL)  INFO: Skipping AWL reporter #%zu because the AP cores are halted`
-  - `(AWL)  INFO: Collecting data from reporter #%zu`
-  - `(SOCD) ERROR:SOCD push buffer header is corrupted - desc.size(%zu bytes) > total space allocated for SOCD push buffer (%d bytes)`
-  - `inductive cl: g3: gain3(%d) < 98; settle HIGH; request NPP`
-  - `smc/acePoutBudgetManager.cpp`
-  - `%s: iSawAnUPO=%d`
-  - `inductive toggle vbus 0x%x`
-  - `xAceGetRawADCValue retStatus = 0x%x`
-  - `platform/t8150/device_aon_ptd.cpp`
-  - `charger_configure_input_src: ilim=%u, src:%u`
-  - `swapToRxMode`
-  - `%s:%d fail control %x SerializerMute`
-  - `platform/t8150/device_spmi.cpp`
-  - `(AWL) WARN: Failed to receive AWL response (0x%08x)`
-  - `smc/extPwriOS.cpp`
-  - `platform/t8150/device_gpio.cpp`
-  - ` Min Input Curr %dmA, BestPwr Current %dmA, Active contract Current %dmA`
-  - `Error accessing scratchpad key '%s', rc=%d`
-  - `inductive_adapter_update_state`
-  - `InductiveSetManualMode`
-  - `invalid command '%u'`
-  - `inductive_adapter_update_published_details`
-  - `xAceGetRawADCValue: channel 0x%u, rawValue %u`
-  - `(AWL) ERROR: Couldn't read register of unsupported access type %d`
-  - `%s:%d err freq denom`
-  - `RS: TX: RS_EVT_DEVICE_UNTETHERED: start poutUntethered timer for %llu ms`
-  - `recieved FW decriptor: base = 0x%llx size = 0x%x flags 0x%x`
-  - `ACE_REG_CFVIDSTATUS: baAceI2cRx[%d] = 0x%x and baAceI2cRx[%d] = 0x%x`
-  - `Notf: A%d uvdmDone`
-  - `A%d PortRejectSRDO`
-  - `smc/inductive/inductiveRoleSwap.cpp`
-  - `RS: TX: RS_EVT_ROLE_SWAP_REQUEST_RECEIVED; FW Sent Rsp: Reject(%d); stay in TX mode`
-  - `fPathChange %d`
-  - `(AWL) WARN: Failed to freeze the AWL IP for reporter #%zu`
-  - `%s: Failed to read 'CELD', error ret=%d`
-  - `smc/inductive/inductive_rx.cpp`
-  - `vBMSTaskStop fail`
-  - `%s:%d err fsk demod rate`
-  - `Get Interrupt Mask Fail OneAceInt 0x%x`
-  - `Elec: Elec Cause 0x%llx`
-  - `RS:  prv: p:%03d m:0x%01x vid:%04x pid:%04x s:%03d c:%03d t:%03d `
-  - `Notf: A%d Usb2PlgEvt`
-  - `SLP_WAKE:Ace:%d Sleep Disabled! Cause:ACE_IN_NONRESPONSIVE_MODE.`
-  - `smc/acePowerOut.cpp`
-  - `platform/t8150/device_i2c.cpp`
-  - `A%d plugPresent %d`
-  - `RS: [new: p:%03d m:0x%01x vid:%04x pid:%04x s:%03d c:%03d t:%03d]`
-  - `%s:%d ERR process mailbox indication %x`
-  - `Batt Cap %dmAh`
-  - `RS: TX: RS_EVT_POUT_CAPABLE`
-  - `%s:%d arcas %llu`
-  - `ui8InductiveFWCtrl`
-  - `%s : quiesce mask, %x`
-  - `fury_enable_scan: %d`
-  - `%s: upo_state=%d, clearUPOConConnect=%d`
-  - `RS: TX: RS_EVT_DEAD_ACCESSORY_DETECTED: Pout(%d)<Thrsld(%d); swapToRxMode`
-  - `AceInductive: CurrInductiveMask: 0x%x, NewMask: 0x%x`
-  - `platform/t8150/device_dockchannel.cpp`
-  - `(SOCD) ERROR:Failed to finish awl socd push report: %d`
-  - `Shutdown flags: Battery=%d, PMU=%d, pwrOut=%d Override=%d`
-  - ` VBUS_CH: %d, VBUS_FS: %u/100,  VBUS_Scaling: %u, ADC_Res: %d`
-  - `HE-nRCS %d Error Count: In = 0x%x, Out = 0x%x, Bus = 0x%x `
-  - `smc/bms/bms_v1/battery.cpp`
-  - `ACE_REG_MODE: Ace%d Mode=%c%c%c%c`
-  - `RS: RX: RS_EVT_FW_DOWNLOADED received; invoke poutTriggerSet`
-  - `RS: TX: RS_EVT_POUT_BELOW_THRESHOLD; Ironbull cloak not available; wait for CHC`
-  - `InductiveAccessoryInfoChanged`
-  - `AceInductive: Send Pass Notif`
-  - `inductive_backpower_irq_process`
-  - `Elec: ILIM %u->%u Vmin%u Vmax%u psRdy%d`
-  - `(AWL) ERROR: Failed to finish awl report: %d`
-  - `RS: TX: RS_EVT_TX_FW_SUSPENDED (Idle); swapToRxMode`
-  - `%s: cps exDBB. np:%d ts:%d ds:%d cf:%d st:%x`
-  - `A%d HardReset Evt %x`
-  - `%s : nexDBB, tctnRP: %d %d %x`
-  - `Notf: A%d JuiceAllocEvt %d`
-  - `platform/common/platform_tunables.cpp`
-  - `platform/t8150/device_watchdog.cpp`
-  - `Elec: fAceEnableHighVoltage`
-  - `BAUTH: kick out of sync`
-  - `Notf: A%d New Contract as Src. Role:%d`
-  - `(AWL)  INFO: End AWL report (%zu bytes)`
-  - `configureTxPout`
-  - `inductive adapter: (%d)->(%d) dt: %llu`
-  - `RS: RX: RS_EVT_ACCESSORY_ATTACHED`
-  - `%s: unknown key = %d`
-  - `inductive cl: %s: start ramp (isns:%dmA, vrect:%dmV, power:%dmW)`
-  - `fury_irq_handler:%d: FURY_NFC_TO_AP_ACK_TAG_DETECTION_COMPLETE`
-  - `UpdSS A%d SSPS %d`
-  - `RS: RX: RS_EVT_POUT_CAPABLE; invoke poutTriggerSet`
-  - `poutTriggerSet`
-  - `SLP_WAKE: Disable Sleep on Ace:%d cause:%d`
-  - `Elec: BestPot A%d %dmW type%d was A%d %dmW`
-  - `%s:%d connecting %llu`
-  - `FTAB debug word %d, 0x%x`
-  - `ACE_SPMI_GET_IRQ_STATE Fail arg %llu aceid %d`
-  - `%s:%d error: %x`
-  - `RS: TX: RS_EVT_DEAD_ACCESSORY_DETECTED: Pout(%d)>=Thrsld(%d); stay in TX mode`
-  - `RS: swapToRxTimer timer expired; hard swap; loadFirmware(RX)`
-  - `Notf: A%d Usb2WakeEvt`
-  - `Adapter Policy VBUS Change not required`
-  - `Elec: ActiveContract Fail Trig1`
-  - `(AWL) ERROR: ASCv1 data descriptor was null`
-  - `smc/inductive/inductive_keys.cpp`
-  - `xAceFindADCResult: vdrHint = %u, vdr = %u`
-  - `BattChgMT %dmAh`
-  - `RS: %s: invoke drv_inductive_hal.role_swap_preferred(%d)`
-  - `InductiveFWDownload`
-  - `InductiveUpdateChgIlim`
-  - `select_input_power_source`
-  - `RS: RX: RS_EVT_DEAD_ACCESSORY_CLEARED; invoke poutTriggerSet`
-  - `Disconnect held off`
-  - `%s : quiesce, %d`
-  - `A%d SRDOFail NewSrcEvent`
-  - `smc/bms/batterySocFilter/batterySocFilter.cpp`
-  - `smc/bms/battery_auth/battery_authentication.cpp`
-  - `RS: NfcTagInfoChangedInd: cnt=%d tag:[0x%x 0x%x]`
-  - `RS: stop dead batt detection; expireTime:%llu->0; currTime=%llu`
-  - `%s Ace:%d Port Mode:%d`
-  - `(AWL) ERROR: Unknown PS value %u`
-  - `ACSt:okBootAP_OS: %d, BattPwr: %d, ACPwr: %d, FixtureMode: %d`
-  - `is Shutdwn needed: Req %d, budV %d isBattbt %d isPT %d`
-  - `(AWL)  INFO: New AWL Report (Type %d, Version %d, Size %zu)`
-  - `ACSt: Shdwn 0x%x`
-  - `InductiveFWErrorRecovery`
-  - `PMU Critical Shutdown IRQ %s`
-  - `smc/aopComms.cpp`
-  - `DE: correcting shutdown_threshold from %d to %d`
-  - `RS: RX: RS_EVT_POUT_ABOVE_THRESHOLD; poutTriggerSet`
-  - `RS: %s: fw not running (%d); cannot send tether state (%d) to fw; return`
-  - `RS: %s: InductiveRemoteTetherInd: remote_tethered=%d`
-  - `[OC]A%d detected overcurent event, notify OS`
-  - `platform/t8150/device_aop.cpp`
-  - `pmu_workloop`
-  - `Thread stats (last %u.%03u ms)`
-  - `charger_pmu_init`
-  - `ACSt: Failed to read SOC1`
-  - `RS: %s: InductiveSendLocalTetherToFW: send tether (%d) to fw`
-  - `RS: %s: HLOS booted! notify in %d ms`
-  - `InductiveTarget`
-  - `%s:%d vtgt %d ilim tgt %d; (0: not set)`
-  - `smc/ap_watchdog.cpp`
-  - `(AWL) ERROR: Failed to pad the awl report offset %#zx: %d`
-  - `upo_periodic_action`
-  - `%s: chip vfy fail`
-  - `WLCH: read aperture magic: ret=0x%x, magic=0x%x`
-  - `A%d SRDOFail Cmd didn't complete, TimeOut`
-  - `(AWL) ERROR: IPA read of size %zu cannot be performed`
-  - `fury_irq_handler`
-  - `(SOCD) ERROR:Failed to finish awl push errors report: %d`
-  - `RS: dead accessory detected!`
-  - `platform/t8150/device_asc.cpp`
-  - `(AWL) ERROR: Failed to configure the AWL HW (0x%08x)`
-  - `misc_workloop`
-  - `smc/event_buf.cpp`
-  - `RS: RX: RS_EVT_DEAD_ACCESSORY_DETECTED; invoke poutTriggerSet`
-  - `RS: %s: %s: acc dead: loadFirmware(TX)`
-  - `Error: could not map NFC Tag Id (0x%x) to VID/PID; ret=%d`
-  - `drivers/power/drv_fury.cpp`
-  - `A%d SRDOFail Timeout`
-  - `(AWL) ERROR: Failed to obtain AWL caps (%d)`
-  - `RS: %s: poutTrig: pending: (t=%d,os=%d,cap=%d,c=%d) . (ibcs=%d | nch=%d | >minpwr=%d) (Pout:%d)`
-  - `%s:%d inductive fw (%d) download failed`
-  - `%s: ignore attempt to set ilim=%d in DBB (bcm5935x_state=%d); nop`
-  - `iBoot CHI1 = %d ignored`
-  - `smc/aceUtilEmbedded.cpp`
-  - `RS: RX: RS_EVT_ROLE_SWAP_REQUEST_SENT; Rcvd PTx Rsp: Reject(%d); stay in RX mode`
-  - `IND: CHG: request charge rate = %d`
-  - `inductive cl: g1 failed; settle LOW`
-  - `AceInductive: Send Fail Notif`
-  - `Notf: A%d PWRST_ADAPTER_STATE_CHANGE elec`
-  - `%s: RTK_mc_release returned != RTK_ST_OK `
-  - `%s :nexDBB, disc: %d %d %x`
-  - `inValid Op %d`
-  - `Notf: A%d ldcmVbusEvent`
-  - `Aborting AOP iop_ringbuffer at %s:%d`
-  - `Critical Shutdown Requested`
-  - `pending, waiting for debounce`
-  - `%s:%d mpp %llu`
-  - `drv_ace_init_allace_sleepwake`
-  - `(AWL)  INFO: [%03zx]     %02x%02x`
-  - `RS: poutUntethered timer expired; hard swap; loadFirmware(RX)`
-  - `WLCH: read hdr again (2): ret=0x%x, hdr=0x%x`
-  - `2PP:inductive_data.promotion_to_2pp_state = %u`
-  - `A%d unable to acquire smc uvdm lock %d`
-  - `(AWL)  INFO: [%03zx] %02x%02x%02x%02x`
-  - `smc/bms/bms_v1/bms.cpp`
-  - `RS: RX: RS_EVT_ACCESSORY_DETACHED`
-  - `inductive cl: reached ramp target (isns:%dmA [tgt:%dmA], vrect:%dmV [tgt:%dmV], power:%dmW)`
-  - `inductive cl: arcas init`
-  - `A%d NeedsInitReset setAppLoadedTimer`
-  - `platform/t8150/device_awl_bus.cpp`
-  - `smc/acePoutExtClientIF.cpp`
-  - `LVR init failed: %d`
-  - `%s: RTK_mc_register_remote returned status %d (!= RTK_ST_OK) `
-  - `InductiveTask`
-  - `%s:%d ERR process backpower request %x`
-  - `%s:%d ERR set mmode (%d) %x`
-  - `RS: RX: RS_EVT_HLOS_BOOTED; invoke poutTriggerSet`
-  - `RS: TX: RS_EVT_DEAD_ACCESSORY_DETECTED;  wait for CHC`
-  - `A%d asserted irq`
-  - `%s:%d Unexpected interrupt source: %x`
-  - `(AWL) ERROR: Failed to read %d or more PMS registers over AWL`
-  - `Unable to set handler for btLV region: rc = %u`
-  - `ACSt: OSpend Exp`
-  - `IND: CHG: clear charge rate`
-  - `%s: %s:%d: %s, %u`
-  - `RS: TX: RS_EVT_HLOS_BOOTED`
-  - `%s:%d ironman %llu`
-  - `%s: No valid firmware!!!`
-  - `%s : !quiesce mask, %x`
-  - ` rawADCValue: %u, fAceVbusVoltage: %d mV`
-  - `InductiveFrequency`
-  - ` E%d %d %x`
-  - `RS: TX: RS_EVT_ROLE_SWAP_REQUEST_RECEIVED; FW Sent Rsp: Accept; loadFirmware(RX)`
-  - `smc/bms/dynamic_shutdown/battery_dynamic_shutdown.cpp`
-  - `RS: TX: RS_EVT_WAIKATO_MITIGATION_NOT_READY; swapToRxMode`
-  - `HE-nRCS %d Error Status = 0x%x `
-  - `BAUTH: task out of sync`
-  - `inductive cl: g4: g4(%d) > %d; pwr_c = %dmW (bounded: %dmW); settle ULTRA`
-  - `management`
-  - `(AWL)  INFO: [%03zx]   %02x%02x%02x`
-  - `ioreporting`
-  - `newContractAsSrc ActRDO:0x%x ContractFlags:0x%x RDOPos:%d`
-  - `Ace: End HostAct %c%c%c%c`
-  - `Notf: A%d PlgConnStChg %d`
-  - `pd charger`
-  - `Err ChgHvEnFail V %d rc=%d`
-  - `(AWL) ERROR: %d`
-  - `%s:%d disc %llu`
-  - `Found file entry, tag = 0x%x, offset = 0x%x, size = 0x%x, fw_tag = 0x%x`
-  - `POP: TXFW: %s: ramp: %u (targ) | %lld %+lld => %u (program)`
-  - `RS: TX: RS_EVT_POUT_BELOW_THRESHOLD; Ironbull cloak not available; swapToRxMode`
-  - `WLCH: get_rx_buffer_base_addr() failed; (0x%x) (r:%d); state=exception`
-  - `%s: failure clearing spmi WAKE interrupt vector:%d for idx:0x%x (err: 0x%x).`
-  - `platform/common/platform_power.cpp`
-  - `RS: TX: CHC: Pout(%d)<Thrsld(%d) AND Ironbull cloak not available; swapToRxMode`
-  - `smc/inductive/inductive_common.cpp`
-  - ` DeadBattFlagStatus 0x%x`
-  - `(AWL) ERROR: Failed to allocate socd report: %d`
-  - `smc/bms/battery_low_voltage_residency/battery_low_voltage_residency.cpp`
-  - `ACSt: ACpend Exp %d mS `
-  - `WLCH: read hdr again (1): ret=0x%x, hdr=0x%x`
-  - `%s:%d vtgt fail`
-  - `Ace Wake ISR :: ACE_SPMI_GET_IRQ_STATE Fail arg %llu aceid %d`
-  - `ACSt BattTrap: okBootAP_OS: %d, ExitBattPwr: %d, ExitACPwr: %d`
-  - `smc/inductive/inductive_adapter.cpp`
-  - `inductive_quiesce_task`
-  - `%s: failure clearing spmi interrupt vector for idx:0x%x (err: 0x%x).`
-  - `DCP idle failed (%d)`
-  - `inductive_update_firmware`
-  - `ACSt: boot AC`
-  - `Notf: A%d JuiceAllocEvt aepp`
-  - `smc/inductive/inductivePoutPolicy.cpp`
-  - `%s: ignore attempt to set ilim=%d while quiesced`
-  - `%s: charger_set_path_priority failed`
-  - `platform/common/platform_mem.cpp`
-  - `ACSt: boot !AC`
-  - `%s:%d disable callisto failed`
-  - `A%d lock not acquired, timeout was set %d`
-  - `POP: TXFW: pout_set_power_limit failed; ret=%d`
-  - `inductive cl: legacy: g2: g1g2 (%d) >= 105; settle HIGH; pwr_c=%dmW (bounded: %dmW); g1:%d g2:%d`
-  - `A%d SSPS%d`
-  - `ACE_REG_DATASTATUS: Ace%d baAceI2cRx[1] = 0x%x,            baAceI2cRx[2]: 0x%x, baAceI2cRx[3]: 0x%x, baAceI2cRx[4]: 0x%x`
-  - `(SOCD) ERROR:Failed to write awl socd push report: %d`
-  - `Found FTAB file, valid = %d`
-  - `RS: %s: local tether state %d -> %d`
-  - `%s: %s:%d: %s, ret=0x%x; q-size=%d; hdr=0x%x`
-  - `AceInductive: Send Fail Notif, PassNotfPend: %d`
-  - `Unable to enable interrupt for btLV region: rc = %u`
-  - `charger: Failed to set termination voltage to:%umV rc:%d`
-  - `inductive cl: g2: start ramp (isns:%dmA, vrect:%dmV, power:%dmW)`
-  - `DE: Checksum becomes valid SMC %d AP %d`
-  - `drv_ace_get_irq ui16AceInts=%x`
-  - `dcp_to_smc`
-  - `Ace:%d Port Mode:%d`
-  - `Error getting LVR data from PMU: %d`
-  - `dram_region_assume`
-  - `dram_region_release`
-  - `RS: RX: RS_EVT_ACCESSORY_UNTETHERED; invoke poutTriggerSet`
-  - `%s : !quiesce, %d`
-  - `Address Remapper %d Error: 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x `
-  - `iop_ringbuffer.h`
-  - `smc/ap_watchdog_logger.cpp`
-  - `Unable to get data from AON PTD rc:%u`
-  - `%s : %d, %d`
-  - `2PP:inductive_data.promotion_to_2pp_state timeoutt`
-  - `%s:%d failed to set backpower`
-  - `A%d, SMC did not acquire the uvdm Lock %d, uvdm Timer %d`
-  - `(SOCD) ERROR:SOCD push buffer header is corrupted - magic is invalid: expected 0x%x, got 0x%x`
-  - `%s: %s:%d: %s, Unable to enable interrupt for btLV: %d`
-  - `Shutdown VPMax bounds: floor=%d ceil=%d vpmax_vcut=%d gg_vcut=%d iss=%d.`
-  - `smc/comms.cpp`
 ##### `AppleSMCFirmware.bin`
   - `AppleSMCFirmware_H18-6164.60.33.v53.REL`
+##### `iboot_blob42.bin`
+  - `____9j45xbtzw5`
+##### `iboot_blob30.bin`
+  - `:9uM59u-59u`
+  - `239uR39ur39`
+  - `295s295S2953`
+  - `69uM79um79u`
+  - `39um39uM39u`
+  - `"9u2"9uR"9`
+  - `<9u2<9uR<9ur<9u`
+  - `953295s195`
+  - `)9US&9Us&9v{`
+  - `495s495S49`
+  - `$9US49Us495`
+  - `9u2!9uR!9ur!9u`
+  - `59US:9Us:9U`
+  - `69u-99uM99um99u`
+  - `9US19Us19U`
+  - `&953&9US79Us795S&95s&95`
+  - `395s395S39`
+  - `695s695S69`
+  - `$953$95S$9u`
+  - `*9u3*9uS*9v`
+  - `09u209uR09`
+  - `"9us"9uS"96`
+  - `9US,9Us,9u`
+  - `69U369US69Us69U`
+  - `2.9uR.9ur.9`
+  - `595s595S59ur`
+  - `89uM69u-89uM89um89u`
+  - `59u359uS59us59u`
+  - `9US+9Us+9u`
+  - `#953#95S#95s#95`
+  - `69ur89uR89v`
+  - `:9u-:9uM:9u`
+  - `%953%95S%95s%9U`
+  - `s%9Us%9US%9uS%9u3%9`
+  - `49u-;9um49uM49u-49u`
+  - `59U359US59Us59U`
+  - `95S 95s 95`
+  - `2)9uR)9ur)9vb`
+  - ` 9u2 9uR 9ur 9`
+  - `&9u2&9uR&9v`
+  - `=9u2=95s$95`
+  - `9US29U349U`
+  - `+9u2+9uR+9v`
+  - `89U389US89Us89U`
+  - `49u349uS49us49u`
+  - `99U399US99Us99U`
+##### `iboot_blob32.bin`
+  - `A0B0C0E0F0H0V0`
+  - `CODOIOJOPO`
+  - `8?61$#*-pw~ylkbeHOFATSZ]`
+  - `0123456789abcd`
+  - `%00RAPCUC0H2H9HHHLHrHyHzHSMFNaPLTTU1V2V3V4V5V6V7V0h2h4h6h7hHhShkhyhzhDimptrE`
+  - `Current Histogram Res`
+  - ` E0i1i2i3i4i5i6i7i0q1q2q3q4q5q6q7q0s1s2s3s4s5s6s7s0w1w2w3w4w5w6w7wt`
+  - `DAcKBcSBcSHcOIcDLcTRcSAmBDmCFmLFmCHmSMmEdtl`
+  - `0123456789abcdefgh`
+  - `TCAPACDLHDHPNIRNDVPUV0rlilpslp0tvUp`
+  - `RA0B2BHBLBrB9CCCLCSCWCrC0K2KHKLKrKHMMMSMVM0NHNLNSNnNrN0PAPBPHPLPSPUPZPaPrPyPzP0SHSLSrS0THTUU0WHW0b2b4b6bHbkb0c7cHcccucDi0kHkkkHmMmSmVmxmHpMpSpmp4r6r0sHsSs0t4t6tHtL`
+  - `0123456789abcdef`
+  - `40G0K0U0a0p061c1 `
+  - `EKLLLKRLR0b1b3b4babbbcbdbMdmdzd0hHh0t1t3t4tatbtctdtmt`
+  - `024679HSkh`
+  - `EABCDEFGHIJabcdefghijklP`
+  - `RCCDDDRMnNROAPRRTR2S0w1w2w3w4w5w6wh`
+  - `E0h1h2h3h0m1m2m3m0p1p2p3p0s1s2s3s0u1u2u3u M`
+  - `EnmxmFpfpl`
+  - `Cortex Global Control`
+  - ` C0T0CATAVARC0DDDCFRHDISIPLCNCPFPIPNPRPVPARMRSRBSSSUSVSWSXSYSZSIU`
+  - `E1L2L3L1R2R3RXZXmxm0p1p2p3p`
+  - `9A0s0A1A2LAiAEBMBQBRBaB0DADEDGDPDiDzDiEDFLFMFSFiGDMRMxMiPMRNRRRPS1a2a3a4a5a1b2b3b4b5b1c2c3c4c5c1d2d3d4d5d1e2e3e4e5eE`
+  - `048CGKagjmpu@`
+  - `jmdc>907"%,+`
+  - `!&/(=:34NI@GRU\[vqx`
+  - `Dynamic Agent`
+  - `General Features CFGs`
+  - `u0PVZ0PTd1PTd2PTd3PTd4PTd5PTd6PTd7PTd8PTb1PTb2PTb3PTb4PTb5PTb6PTb7PTb8PTb9PTbaPTbbPTbcPTbdPTlePTlfPTlgPTlhPTh]`
+  - `001020n0CFFF`
+  - `0123456789abcdef`
+  - `magsafe chg`
+  - `.0BiB0C1C2CiCjCkCHH0IiI0KiK0LjNsN0PBPCPdPiPjPkPlPmPnPsPzP1R2RjRkR0SiSLTPTiTjT0WiW0XiX0tHtitjtE(`
+  - `TTMHTTMTTSTT|`
+  - `2CDEGRSUVW`
+  - `Scan Agent ACC`
+  - `aAcAiAaBcBiBaDcDiEjEmEsEwEaLcLiLaPcPePiPmPnPpPx42`
+  - `E0123456789abcdh`
+  - `0B0D0N0R0Ssb۞`
+  - `0BtIIt0ttHtt`
+  - `PCUC0HHHLHrHyHzHaP`
+  - `004080C0G0K0`
+  - `EABCDEFGHIJabcdefghijyzd`
+  - `RAPCUCuC0H2H9HHHLHrHyHzHnNaP0h2h4h6h7hHhShkhDimp`
+  - `PMU Fw Info`
+  - `)Ekblbambmytztfxgxhxixjx0y1y2y3y4y5y6y7y8y9yAyByCyDyEyFyGyHyIyJyaybycydyeyfygyhyiyjy`
+  - `0B2BHBLBrB0THT0b2b4b6bHbkbxr0t4t6tHt@`
+  - `80O0U0g0u0y061M1Q1c1o1s152D2X2n2J3V3Z3d3h3l3p364G4J4M4P4`
+  - `PCUC0HHHLHrHyHzHaPH`
+  - `PCUC0HHHLHrHyHzHnNaPHpMpSpmp`
+  - `ABCDFHLMORSTZahjlostuwP`
+  - `!B0b0m0u0b1m1b2l2b3l3b4l4b5l5b6b7l7b8l9BSba9bbblbbclcbd0s1s2s3s4s5s`
+  - `E0L1L0P1P2P3P4P5P6P0W1W2W3W4W5W6W`
+  - `Cortex Bootloader & CFG`
+  - `RAPCUCuC0H2H9HHHLHrHyHzHVMnNaP0h2h4h6h7hHhShkhyhzhDiVmmp`
+  - `1SB2SBTFCAOCATCEPDMPLrAPsDPfNPTPPpSPiWP1bP2bPEPRspd`
+  - `0BEBQBaB0C2CCCDFMF0I0KBPSPUPaPdPsPzP1R2RMRPRRRpR0SLTPT0Wsp`
+  - `PCUC0HHHLHrHyHzHnNaPmpx`
+  - `COFOROSOTOIS5`
+  - `E6IyI6PyPCiLidimiCpLpdpmpH`
+  - `024679HSkX`
+  - `Cortex Status Regs`
+  - `0HHHLHrHyHzH<`
+  - `Telemetry debug Data`
+  - `0HHHLHrHyHzH8`
+  - `PMU FW Health Counter`
+  - `magsafe acc`
+  - `0123456789`
+  - `Sec Lock Status`
+  - `OARAoArADCMCOCPCTCLHrH0LLLDMMPmPSRITLTPT1V2V3V4V5V6V7VvdE`
+  - `E0A1A2A3AL`
+  - `Z0d1d2d3d4d5d6d7d80D1D2D3D4D5D6D7D8D9DaDbDcDdDeDfDgDhD`
+  - `E0123456789abcd`
+  - `Trace Logger Data`
+  - `80O0U0g0u0y0cr`
+  - `4A7ALBrBLCrCHDMDSDUDcDdDxDLHrHLKrKLNmNrNMPTPmPzPPRTRlRrRyRzRLSrSITyhzhxrP`
+  - `E0123456789abcd0`
+  - `000100200300400500600700800900a00b00c00d00e00f000HcHHcyhczhc0HdHHd0Sd1Sd2Sdyhdzhdv0iLHmrHmmNmyhmzhmnNp0bp0up0HsHHsyhszhs00t10t20t30t40t50t60t70t80t90t01t11t21t31t41t51t61t71t81t91t02t12t22t32t42t52t0Dt1Dtxrt0HuHHuLHurHuyHuzHu0hu4hu6huHhuPRx`
+  - `*E0A1A2A3A0C1C2C3C0E1E2E3E0H1H2H3H3T0b1b3b4bbb3c0e1e2e3e0h1h2h3h0k1k2k3k0t1t3t4tbtavbvp9`
+  - `0C1C0IRL0c1c2c3c4c0sD`
+  - `E0t1t2t3t0v1v2v3v0z1z2z3zpO`
+  - `E0b1b3b4b0t1t3t4t`
+  - `OAmCcNEP0SCTMTSTPWiW`
+  - `Telemetry CFG`
+  - `2A4ADAKATS5H`
+  - `BCIKLPRSTUWbc`
+  - `ELRYRlRyR3T3ct=`
+  - `0RXR1e2e3e4e5e6e7eirxrE`
+  - `000200300LH0rH0yH0zH0Lh0rh0yh0zh0mpdmpimpp`
+  - `u0LBBCCCFCMCOCPCRCSCTCXCZCADDDEDIDLDPDRDSDTDWDFEKEMEREBFCFDFIFMFQFRFSFVFWF1G2G3G4GTGFHOH1I2I3I4IBICIDIEIFIHILIMIPIRISITIVIZIEKILMLRLWL0M1M2M3MAMCMDMFMIMOMPMQMVMCNCODOEOFOGOHOIOJOPOROTOVOZOAPBPCPDPLPMPNPPPRPSPTPYPMQSQVQCRDRFRIRLRMRPRSRVRCSFSMSRSSSCTFTLTMTPTRTTTVTEUSU1V2V3V4VNVRVCX3h=`
+  - `WPY^KLEBohafst}z`
+  - ` E0123456789abcdefghijklmnopqrstux`
+  - `0123456789ABCDEFGHIJK`
+  - `E0010203040506001112131415102122232031323330414243405152535061626071727081828384858091929390A1A2A0B1B2B0C1C2C3C0D1D2D3DaD0E1E0F1F1H2H1K2K2P3P4P5PFPRPSPTPjPkPmPnPuPvPwPyPTRKSLSMSNSOSPSQSRSSSTSUSVSWSXS0T1T2T8T9TaTbTcTdTeTfTgThTiTjTkTlTMU0a1a2a0b1b2b3b0c1c2c0d1d2d0e1e2eKeLeMeNeOePeQeReSeTeUeVeWeXe0f1f2f0g1g2g0h1h2h0i1i2i0j1j2j0k1k2k0l1l2l0m1m2m3mambmcm0n1n2n3n0o1o2o0p1p2p3p0q1q2q0r1r2r0s1s2s0t1t2tatbtct0u1u2u0v1v2v0w1w2w0x1x2x8x9xaxbxcxdxexfxgxhxixjxkxlx0y1y2y0z1z2z0D`
+  - `B0GTC0GTH0GTV0GT`
+  - `EPCUC0iNi0pNp87`
+  - `nNTP0R1R2R3R4R5R6R7R8R9RMRPR0U0b0c@`
+  - `BCUCXC0PaPzPLTBcUc,`
+  - `E0123456789abcd`
+  - `CFDFFFIFNFPF0RDRNRSRTRtR`
+  - `ELDRD0L1L2L3L0T1T2T3T0U1U2U3U8U9U8V9VLdRd`
+  - `EPCUC0d1d2d3d0p1p2p3pMs<7`
+  - `E0C1C2C3C4C5C6C7C8C9CaCcCdCeCgC0P1P2P3P4PMe0p1p2p3p4p`
+  - ` E0C1C0R1R2R3R0b1b3b4bbb0c1c0g1glmrmymzm0p1p2p3p4p5p6p7p0t1t3t4tbt`
 ##### `iboot_blob46.bin`
   - `B0QIu0QIu0AQu0QQd0QTj0QTu0QVu1QVl0QVu0AWu0QWDDQV`
-##### `iboot_blob31.bin`
-  - `rrNrBBLBBBD`
-  - `)CCMFXF0H1H2H3HCIDIMNXNMPXPMQXQCRDRERFRGRHRIRRRSRWRCSDSESFSGSHSATMTOTPTSTVTWTXTYTZT o`
-  - `LC0D1D2D3D4DVILPCSVSCT^`
-  - `CRabcdefgj`
-  - ` CAPARASAUAVA0C1C2CKCSCVCCFFOPOROTOUOFPSPFRRRGSLSOSRSSSTSVSRTFVRVE`
-  - `Ef0f1f2f3<@`
-  - `!B-C-E-F-I-J-M-N-P-Q-R-S-T-U-W-X-PAIBFCPCBDIDLDCEQEPFDIEIMLKPWPtSSV`
-  - `QAIB1DEDUFVFɔ`
-  - `1C2CHFSFELFLVL0SCUDU7{`
-  - `0123456789ABL`
-  - `MCBWRBDARDRR2l`
-  - `CDIMNOPSUV;T`
-  - `010203040SSw`
-  - `00102030405060708090C0W00111213141W10C1CSOCSSS7`
-  - `3LAMANAOARASATAUAVAXALFNFVMWMCOPOCSKSMS3T6TCTDT0X2X9XAXCXDXHXKXLXNXPXSXTXUXZXbXcXdXhXkXlXmXnXsXtXbxdxsx`
-  - `CACCSPCTDTNTWTs`
-  - `b0m0b1m1b2l2b3l3b4l4b5l5b6b7l7b8l9ba9bbblbbclcbd0s1s2s3s4s5st`
-  - `N-A1C1P1S1T1`
-  - `gPAcAuADBIBACDCFCRCSCTCUCXCYCZCbCcCfCiCmCnCrCsCvCwCADBDEDIDPDRDpDCEFEpECFSFVFCIDIQIRIAJBJDJEJFJGJIJMJNJPJQJRJSJVJCLGLILRLIMPMVMIPMPRPSPTPdPiPsPtPIRRRcRpRTSWStSIUCVDVMVRVXVbVdVmVnVSWfihiiiminisiglilsodpiprptpY`
-  - `95S895s895`
-  - `1dA2dA1kA2kA1tA2tANSECCFDCFPCFSCFTCFPATpX`
-  - `E0C1CBCUC1D0Tt@`
-  - `GBD0DD1DDPTD0VECNIVNIXNICRS!`
-  - `VKSPSSTSEW1rC`
-  - `5-..............NN`
-  - `ACAHAVCVIVLVMVNVOVPVQVRV`
-  - `\\\\\\\?\\\???\\\\\\\\\\\\\\\\`
-  - `NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNKGGGGGGGGNNNNNNNNNNNNNNNNNNNNN`
-  - `DCADBDNDTDLFCSNS1W2W7`
-  - `\\\\\\\\?\`
-  - `DACEACNKDADGBDGCDGSDG1GL2GL4GLFONSGOIMPSMPcMP"`
-  - `<CAIAJAPATAVADBLBACDCHCICJCMCSCTCVC1DCDCFGFHFIFUFVFMH2IDIFIMISIVIPLSMCNDNMNCOVODQSQ1RMRSR1SCSDSESLSRSSSCTETFTITPTiTCUCVDW0`
-  - `N-A1F1I1P1S1V1i1p1q1u1v1A2F2I2P2S2V2i2p2q2u2v2`
-  - `b0m0b1m1b2l2b3l3b4l4b5l5b6b7l7b8l9MZba9bbblbbclcbd0s1s2s3s4s5s|`
-  - `PARADBCCECBDEDRECFDIGIRIONDSDURVfihiiiminisitpY`
-  - `95S795s795`
-  - `YNU=ahWtLp;?c6S4\jw`
-  - `A1I1V1A2I2LBACCDDDWD0FPFRFWFLSs`
-  - `M???9M\\"\`
-  - `7777777.77)`
-  - `-DIBVRBDICVRCICEVSENEG00P10P20P30P40P50P60P70P80P90P0FPtlPDIUREV00cBCcPCcUCcuCc0HcHHcLHcrHcyHczHc0PcaPcdPcsPczPc0hcHhclhcrhcyhczhc0pcapc\P`
-  - `C0L0V0CHWHLIARORSRTRISVSATCTITSTAVCVIVLV`
-  - `DD0E0H0J0R0V01A2AIASAIBVBCCECFCRCBDSFCHVHWH1I2IBICIEIFILIMIOISIDKGKHKKKLKMKOKPKQKRKSKUKVKWKSLTL2MCNDNINCOSPiQvQwQCRTRCSESLSTSWSCTETLTMTUTH`
-  - `[S;?c37KGo`
-##### `iboot_blob32.bin`
-  - `RCCDDDRMnNROAPRRTR2S0w1w2w3w4w5w6wh`
-  - `aAcAiAaBcBiBaDcDiEjEmEsEwEaLcLiLaPcPePiPmPnPpPx42`
-  - `Telemetry CFG`
-  - `0123456789`
-  - `8?61$#*-pw~ylkbeHOFATSZ]`
-  - `0BtIIt0ttHtt`
-  - `E0A1A2A3AL`
-  - `COFOROSOTOIS5`
-  - `General Features CFGs`
-  - `9A0s0A1A2LAiAEBMBQBRBaB0DADEDGDPDiDzDiEDFLFMFSFiGDMRMxMiPMRNRRRPS1a2a3a4a5a1b2b3b4b5b1c2c3c4c5c1d2d3d4d5d1e2e3e4e5eE`
-  - `RA0B2BHBLBrB9CCCLCSCWCrC0K2KHKLKrKHMMMSMVM0NHNLNSNnNrN0PAPBPHPLPSPUPZPaPrPyPzP0SHSLSrS0THTUU0WHW0b2b4b6bHbkb0c7cHcccucDi0kHkkkHmMmSmVmxmHpMpSpmp4r6r0sHsSs0t4t6tHtL`
-  - ` E0i1i2i3i4i5i6i7i0q1q2q3q4q5q6q7q0s1s2s3s4s5s6s7s0w1w2w3w4w5w6w7wt`
-  - `RAPCUCuC0H2H9HHHLHrHyHzHVMnNaP0h2h4h6h7hHhShkhyhzhDiVmmp`
-  - `000200300LH0rH0yH0zH0Lh0rh0yh0zh0mpdmpimpp`
-  - `Dynamic Agent`
-  - `CFDFFFIFNFPF0RDRNRSRTRtR`
-  - `E0010203040506001112131415102122232031323330414243405152535061626071727081828384858091929390A1A2A0B1B2B0C1C2C3C0D1D2D3DaD0E1E0F1F1H2H1K2K2P3P4P5PFPRPSPTPjPkPmPnPuPvPwPyPTRKSLSMSNSOSPSQSRSSSTSUSVSWSXS0T1T2T8T9TaTbTcTdTeTfTgThTiTjTkTlTMU0a1a2a0b1b2b3b0c1c2c0d1d2d0e1e2eKeLeMeNeOePeQeReSeTeUeVeWeXe0f1f2f0g1g2g0h1h2h0i1i2i0j1j2j0k1k2k0l1l2l0m1m2m3mambmcm0n1n2n3n0o1o2o0p1p2p3p0q1q2q0r1r2r0s1s2s0t1t2tatbtct0u1u2u0v1v2v0w1w2w0x1x2x8x9xaxbxcxdxexfxgxhxixjxkxlx0y1y2y0z1z2z0D`
-  - `magsafe chg`
-  - `PCUC0HHHLHrHyHzHaPH`
-  - `E0123456789abcd0`
-  - `E0b1b3b4b0t1t3t4t`
-  - `001020n0CFFF`
-  - `E0L1L0P1P2P3P4P5P6P0W1W2W3W4W5W6W`
-  - `*E0A1A2A3A0C1C2C3C0E1E2E3E0H1H2H3H3T0b1b3b4bbb3c0e1e2e3e0h1h2h3h0k1k2k3k0t1t3t4tbtavbvp9`
-  - `0HHHLHrHyHzH8`
-  - `Sec Lock Status`
-  - `40G0K0U0a0p061c1 `
-  - `nNTP0R1R2R3R4R5R6R7R8R9RMRPR0U0b0c@`
-  - `BCIKLPRSTUWbc`
-  - `0RXR1e2e3e4e5e6e7eirxrE`
-  - `0HHHLHrHyHzH<`
-  - `E1L2L3L1R2R3RXZXmxm0p1p2p3p`
-  - `)Ekblbambmytztfxgxhxixjx0y1y2y3y4y5y6y7y8y9yAyByCyDyEyFyGyHyIyJyaybycydyeyfygyhyiyjy`
-  - `jmdc>907"%,+`
-  - `0BEBQBaB0C2CCCDFMF0I0KBPSPUPaPdPsPzP1R2RMRPRRRpR0SLTPT0Wsp`
-  - `OAmCcNEP0SCTMTSTPWiW`
-  - `Telemetry debug Data`
-  - `E0123456789abcd`
-  - `PMU Fw Info`
-  - `.0BiB0C1C2CiCjCkCHH0IiI0KiK0LjNsN0PBPCPdPiPjPkPlPmPnPsPzP1R2RjRkR0SiSLTPTiTjT0WiW0XiX0tHtitjtE(`
-  - `BCUCXC0PaPzPLTBcUc,`
-  - `E0h1h2h3h0m1m2m3m0p1p2p3p0s1s2s3s0u1u2u3u M`
-  - `Cortex Bootloader & CFG`
-  - `E6IyI6PyPCiLidimiCpLpdpmpH`
-  - `WPY^KLEBohafst}z`
-  - `magsafe acc`
-  - `PCUC0HHHLHrHyHzHnNaPHpMpSpmp`
-  - `Cortex Global Control`
-  - `Trace Logger Data`
-  - `%00RAPCUC0H2H9HHHLHrHyHzHSMFNaPLTTU1V2V3V4V5V6V7V0h2h4h6h7hHhShkhyhzhDimptrE`
-  - `DAcKBcSBcSHcOIcDLcTRcSAmBDmCFmLFmCHmSMmEdtl`
-  - `2A4ADAKATS5H`
-  - `CODOIOJOPO`
-  - `EKLLLKRLR0b1b3b4babbbcbdbMdmdzd0hHh0t1t3t4tatbtctdtmt`
-  - `ABCDFHLMORSTZahjlostuwP`
-  - `Z0d1d2d3d4d5d6d7d80D1D2D3D4D5D6D7D8D9DaDbDcDdDeDfDgDhD`
-  - `0123456789ABCDEFGHIJK`
-  - `TTMHTTMTTSTT|`
-  - `TCAPACDLHDHPNIRNDVPUV0rlilpslp0tvUp`
-  - `004080C0G0K0`
-  - `PCUC0HHHLHrHyHzHnNaPmpx`
-  - `E0123456789abcd`
-  - `Current Histogram Res`
-  - `80O0U0g0u0y0cr`
-  - `!&/(=:34NI@GRU\[vqx`
-  - `80O0U0g0u0y061M1Q1c1o1s152D2X2n2J3V3Z3d3h3l3p364G4J4M4P4`
-  - `0B0D0N0R0Ssb۞`
-  - `4A7ALBrBLCrCHDMDSDUDcDdDxDLHrHLKrKLNmNrNMPTPmPzPPRTRlRrRyRzRLSrSITyhzhxrP`
-  - `1SB2SBTFCAOCATCEPDMPLrAPsDPfNPTPPpSPiWP1bP2bPEPRspd`
-  - `000100200300400500600700800900a00b00c00d00e00f000HcHHcyhczhc0HdHHd0Sd1Sd2Sdyhdzhdv0iLHmrHmmNmyhmzhmnNp0bp0up0HsHHsyhszhs00t10t20t30t40t50t60t70t80t90t01t11t21t31t41t51t61t71t81t91t02t12t22t32t42t52t0Dt1Dtxrt0HuHHuLHurHuyHuzHu0hu4hu6huHhuPRx`
-  - `048CGKagjmpu@`
-  - `024679HSkh`
-  - `EABCDEFGHIJabcdefghijyzd`
-  - `B0GTC0GTH0GTV0GT`
-  - `A0B0C0E0F0H0V0`
-  - `PMU FW Health Counter`
-  - `!B0b0m0u0b1m1b2l2b3l3b4l4b5l5b6b7l7b8l9BSba9bbblbbclcbd0s1s2s3s4s5s`
-  - `E0t1t2t3t0v1v2v3v0z1z2z3zpO`
-  - `0B2BHBLBrB0THT0b2b4b6bHbkbxr0t4t6tHt@`
-  - `u0PVZ0PTd1PTd2PTd3PTd4PTd5PTd6PTd7PTd8PTb1PTb2PTb3PTb4PTb5PTb6PTb7PTb8PTb9PTbaPTbbPTbcPTbdPTlePTlfPTlgPTlhPTh]`
-  - `OARAoArADCMCOCPCTCLHrH0LLLDMMPmPSRITLTPT1V2V3V4V5V6V7VvdE`
-  - `ELDRD0L1L2L3L0T1T2T3T0U1U2U3U8U9U8V9VLdRd`
-  - `E0C1C2C3C4C5C6C7C8C9CaCcCdCeCgC0P1P2P3P4PMe0p1p2p3p4p`
-  - `0C1C0IRL0c1c2c3c4c0sD`
-  - `0123456789abcdef`
-  - `E0123456789abcdh`
-  - `Scan Agent ACC`
-  - ` C0T0CATAVARC0DDDCFRHDISIPLCNCPFPIPNPRPVPARMRSRBSSSUSVSWSXSYSZSIU`
-  - `Cortex Status Regs`
-  - `EPCUC0d1d2d3d0p1p2p3pMs<7`
-  - `RAPCUCuC0H2H9HHHLHrHyHzHnNaP0h2h4h6h7hHhShkhDimp`
-  - `u0LBBCCCFCMCOCPCRCSCTCXCZCADDDEDIDLDPDRDSDTDWDFEKEMEREBFCFDFIFMFQFRFSFVFWF1G2G3G4GTGFHOH1I2I3I4IBICIDIEIFIHILIMIPIRISITIVIZIEKILMLRLWL0M1M2M3MAMCMDMFMIMOMPMQMVMCNCODOEOFOGOHOIOJOPOROTOVOZOAPBPCPDPLPMPNPPPRPSPTPYPMQSQVQCRDRFRIRLRMRPRSRVRCSFSMSRSSSCTFTLTMTPTRTTTVTEUSU1V2V3V4VNVRVCX3h=`
-  - ` E0123456789abcdefghijklmnopqrstux`
-  - `PCUC0HHHLHrHyHzHaP`
-  - `EPCUC0iNi0pNp87`
-  - `024679HSkX`
-  - ` E0C1C0R1R2R3R0b1b3b4bbb0c1c0g1glmrmymzm0p1p2p3p4p5p6p7p0t1t3t4tbt`
-  - `ELRYRlRyR3T3ct=`
-  - `EnmxmFpfpl`
-  - `0123456789abcdef`
-  - `EABCDEFGHIJabcdefghijklP`
-  - `0123456789abcdefgh`
-  - `0123456789abcd`
-  - `2CDEGRSUVW`
+##### `iboot_blob34.bin`
+  - `pmu_workloop`
+  - `(AWL) ERROR: Unknown PS value %u`
+  - `iOS CHI1 = %d`
+  - `ACSt: Failed to read SOC1`
+  - `%s: cps exDBB. np:%d ts:%d ds:%d cf:%d st:%x`
+  - `ACE_REG_DATASTATUS: Ace%d baAceI2cRx[1] = 0x%x,            baAceI2cRx[2]: 0x%x, baAceI2cRx[3]: 0x%x, baAceI2cRx[4]: 0x%x`
+  - `configureTxPout`
+  - `%s : quiesce, %d`
+  - `BattAbvTh inhbtCurBeforeClosingFET`
+  - `Ace: End HostAct %c%c%c%c`
+  - `RS: TX: RS_EVT_POUT_BELOW_THRESHOLD; Ironbull cloak not available; swapToRxMode`
+  - `%s:%d arcas %llu`
+  - `RS: %s: fw not running (%d); cannot send tether state (%d) to fw; return`
+  - `%s:%d Unexpected interrupt source: %x`
+  - `platform/t8150/device_watchdog.cpp`
+  - `(SOCD) ERROR:SOCD push buffer header is corrupted - magic is invalid: expected 0x%x, got 0x%x`
+  - `RS: TX: RS_EVT_ROLE_SWAP_REQUEST_RECEIVED; FW Sent Rsp: Accept; loadFirmware(RX)`
+  - `RS: TX: RS_EVT_ACCESSORY_DETACHED; loadFirmware(RX)`
+  - `InductiveAccessoryInfoChanged`
+  - `(AWL) ERROR: Register read of size %zu cannot be performed`
+  - `RS: TX: CHC: Pout(%d)<Thrsld(%d) AND Ironbull cloak not available; swapToRxMode`
+  - `inductive cl: arcas init`
+  - `inductive cl: g4: g4(%d) > %d; pwr_c = %dmW (bounded: %dmW); settle ULTRA`
+  - `drv_ace_init_allace_sleepwake`
+  - `Evt: A%d PLG_INSRT_RMVL`
+  - `Scfg Cmd failed for No VBUS Debug logging, %d`
+  - `Ace: HostAct %c%c%c%c`
+  - `A%d powerAccumErrorCount at UINT16_MAX limit`
+  - `POP: TXFW: pout_set_power_limit failed; ret=%d`
+  - `inductive_adapter_update_state`
+  - `WLCH: read hdr again (2): ret=0x%x, hdr=0x%x`
+  - `misc_workloop`
+  - `smc/bms/bms_v1/bms.cpp`
+  - `inductive cl: g1 failed; settle LOW`
+  - `fury_irq_handler:%d: FURY_NFC_TO_AP_ACK_TAG_DETECTION_START`
+  - `platform/t8150/device_pmgr.cpp`
+  - `BattChgMT %dmAh`
+  - `rc_irq == RTK_ST_OK`
+  - `Error accessing scratchpad key '%s', rc=%d`
+  - `RS: TX: RS_EVT_WAIKATO_MITIGATION_NOT_READY; swapToRxMode`
+  - `A%d PortRejectSRDO`
+  - `iop_ringbuffer.h`
+  - `SLP_WAKE:Failed to send WAKE cmd to Ace:%d status:%d`
+  - `RS: TX: RS_EVT_FW_DOWNLOADED: device untethered; start poutUntethered timer for %llu ms`
+  - `%s: No valid firmware!!!`
+  - `A%d lock not acquired, timeout was set %d`
+  - `smc/forceKeyAccess.cpp`
+  - `DCP idle failed (%d)`
+  - `smc/bms/bms_v1/charger.cpp`
+  - `RS: poutUntethered timer expired; hard swap; loadFirmware(RX)`
+  - `A%d SRDOFail NewSrcEvent`
+  - `ACSt BattTrap: okBootAP_OS: %d, ExitBattPwr: %d, ExitACPwr: %d`
+  - `swapToRxMode`
+  - `%s:%d err freq denom`
+  - `(SOCD) ERROR:Failed to allocate socd awl push report: %d`
+  - `smc/bms/battery_low_voltage_residency/battery_low_voltage_residency.cpp`
+  - `Unable to get data from AON PTD rc:%u`
+  - `iBoot CHI1 = %d ignored`
+  - `WLCH: ret=0x%x bufIdx=%d, bufAddr=0x%x, hdr=0x%x`
+  - `%s: %s:%d: %s, ret=0x%x; q-size=%d; hdr=0x%x`
+  - `ACE_REG_CFVIDSTATUS: baAceI2cRx[%d] = 0x%x and baAceI2cRx[%d] = 0x%x`
+  - `smc/bms/battery_auth/battery_authentication.cpp`
+  - `(AWL) WARN: Failed to freeze the AWL IP for reporter #%zu`
+  - `(AWL) ERROR: Couldn't read register of unsupported access type %d`
+  - `InductiveTarget`
+  - `%s:%d vtgt fail`
+  - `(AWL)  INFO: [%03zx] %02x%02x%02x%02x`
+  - `RXDS: rdsema error %d`
+  - `platform/t8150/device_dockchannel.cpp`
+  - `qInductiveInFwdlRegulation`
+  - `inductive cl: g3: gain3(%d) < 98; settle HIGH; request NPP`
+  - `(AWL)  INFO: End AWL report (%zu bytes)`
+  - `smc/extPwriOS.cpp`
+  - `Unable to enable interrupt for btLV region: rc = %u`
+  - `dram_region_assume`
+  - `RS: TX: RS_EVT_DEAD_ACCESSORY_DETECTED;  wait for CHC`
+  - `Thread stats (last %u.%03u ms)`
+  - `[OC]A%d detected overcurent event, notify OS`
+  - `platform/t8150/device_aop.cpp`
+  - `RS: TX: RS_EVT_TX_CHIME_HONESTY_COMPLETED; Pout=%d; IBCloakAvailable;=%d`
+  - `%s : quiesce mask, %x`
+  - `A%d, SMC did not acquire the uvdm Lock %d, uvdm Timer %d`
+  - `RS: RX: RS_EVT_DEVICE_TETHERED; invoke poutTriggerSet`
+  - `%s:%d set mute %d at %llu time.`
+  - `AceInductive: Send Fail Notif`
+  - `RS: RX: RS_EVT_POUT_CAPABLE; invoke poutTriggerSet`
+  - `xAceGetRawADCValue: channel 0x%u, rawValue %u`
+  - `RS: dead accessory detected!`
+  - `fury_enable_scan: %d`
+  - `Ace:%d Port Mode:%d`
+  - `(AWL) ERROR: %d`
+  - `inductive cl: pwr contract: none; settle LOW`
+  - ` VDO %d not found`
+  - `(AWL) ERROR: Failed to send AWL request (0x%08x)`
+  - `inductive_adapter_update_published_details`
+  - `platform/t8150/device_i2c.cpp`
+  - `(AWL)  INFO: [%03zx]     %02x%02x`
+  - `POP: TXFW: %s: drct: %u (targ) | %u (program)`
+  - `%s : nexDBB, tctnRP: %d %d %x`
+  - `[OC]AceTaskWrk OverCurr StatusChanged Detected: %d`
+  - `RS: TX: RS_EVT_HLOS_BOOTED`
+  - `inductive_mailbox_ind_process`
+  - `%s: ignore attempt to set ilim=%d while quiesced`
+  - `%s : %d, %d`
+  - `WLCH: read hdr again (1): ret=0x%x, hdr=0x%x`
+  - `r to read PMU DVC Status (%02Xh)`
+  - `A%d plugPresent %d`
+  - `Notf: A%d JuiceAllocEvt %d`
+  - `ACE_REG_MODE: Ace%d Mode=%c%c%c%c`
+  - `Notf: A%d JuiceAllocEvt aepp`
+  - `Batt Cap %dmAh`
+  - `(SOCD) ERROR:Failed to finish awl socd push report: %d`
+  - `ACSt:okBootAP_OS: %d, BattPwr: %d, ACPwr: %d, FixtureMode: %d`
+  - `Notf: A%d Usb2WakeEvt`
+  - `smc/inductive/inductive_adapter.cpp`
+  - `InductiveUpdateChgIlim`
+  - `(SOCD) ERROR:Failed to write awl socd push report: %d`
+  - `inValid Op %d`
+  - `RS: TX: RS_EVT_TX_FW_SUSPENDED (Idle); swapToRxMode`
+  - `RS: %s: InductiveRemoteSoCInd: remote_soc=%d`
+  - `RS: RX: RS_EVT_WAIKATO_MITIGATION_NOT_READY; invoke poutTriggerSet`
+  - `smc/inductive/inductive_rx.cpp`
+  - `fury_irq_handler:%d: %x`
+  - `Not charging:%llx`
+  - `Disconnect held off`
+  - `%s:%d fail control %x SerializerMute`
+  - `RS: RX: RS_EVT_HLOS_BOOTED; invoke poutTriggerSet`
+  - `RS: %s: local tether state %d -> %d`
+  - `%s: RTK_mc_assume returned != RTK_ST_OK `
+  - `Elec: ActiveContract Fail Trig1`
+  - `recieved FW decriptor: base = 0x%llx size = 0x%x flags 0x%x`
+  - `Notf: A%d ldcmVbusEvent`
+  - `charger_configure_input_src: ilim=%u, src:%u`
+  - `RS: %s: InductiveSendLocalTetherToFW: send tether (%d) to fw`
+  - `xAceCheckEnabledADCChannels: chEnables = 0x%08x`
+  - `platform/t8150/device_forcewakeup.cpp`
+  - `RXDS: rmerr queue %d`
+  - `ACE_SPMI_GET_IRQ_STATE Fail arg %llu aceid %d`
+  - `A%d SRDOFail Timeout`
+  - `smc/aopComms.cpp`
+  - `SMC HID Event: %02x %02x %02x`
+  - `(AWL) ERROR: IPA read of size %zu cannot be performed`
+  - `InductiveFWErrorRecovery`
+  - `Error: could not map NFC Tag Id (0x%x) to VID/PID; ret=%d`
+  - `%s : !quiesce, %d`
+  - `%s:%d disable callisto failed`
+  - `select_input_power_source`
+  - `RS: RX: RS_EVT_ACCESSORY_DETACHED`
+  - `RS: TX: RS_EVT_WAIKATO_MITIGATION_READY; do nothing`
+  - `InductiveSetManualMode`
+  - `platform/t8150/device_asc.cpp`
+  - `drv_ace_pre_init`
+  - `AceInductive: Send Fail Notif, PassNotfPend: %d`
+  - `smc/aceUtilEmbedded.cpp`
+  - `smc/apComms.cpp`
+  - `baseline arcas`
+  - `xAceGetRawADCValue retStatus = 0x%x`
+  - `A%d unable to acquire smc uvdm lock %d`
+  - `Shutdown VPMax bounds: floor=%d ceil=%d vpmax_vcut=%d gg_vcut=%d iss=%d.`
+  - `POP: TXFW: %s: ramp: %u (targ) | %lld %+lld => %u (program)`
+  - `RS: TX: RS_EVT_POUT_BELOW_THRESHOLD; Ironbull cloak not available; wait for CHC`
+  - `RS: [new: p:%03d m:0x%01x vid:%04x pid:%04x s:%03d c:%03d t:%03d]`
+  - `Ace Wake ISR :: ACE_SPMI_GET_IRQ_STATE Fail arg %llu aceid %d`
+  - `%s Ace:%d Port Mode:%d`
+  - `(AWL) ERROR: Failed to read ace register offset %#x, size %zu`
+  - `charger: Failed to set termination voltage to:%umV rc:%d`
+  - `%s: upo_state=%d, clearUPOConConnect=%d`
+  - `A%d !HardReset Evt %x`
+  - `isAckFromAceExpected`
+  - `smc/bms/batterySocFilter/batterySocFilter.cpp`
+  - `Disconnect re-published`
+  - `smc/inductive/inductive_keys.cpp`
+  - `%s :rerror: %x %x %x st %x sa %x`
+  - `SLP_WAKE:Failed to Received WAKE ACK cmd from Ace:%d TIMEOUT! WakeTimeoutCount:%d AckExpected:%d`
+  - `drivers/thermal/ptdCore.cpp`
+  - `ACSt: Shdwn 0x%x`
+  - `RS: TX: RS_EVT_POUT_CAPABLE`
+  - `IND: CHG: clear charge rate`
+  - `RS: RX: RS_EVT_DEAD_ACCESSORY_CLEARED; invoke poutTriggerSet`
+  - `%s: RTK_mc_register_remote returned status %d (!= RTK_ST_OK) `
+  - `ACSt: AC present`
+  - `xAceFindADCResult: vdrHint = %u, vdr = %u`
+  - `%s: %s:%d: %s, %u`
+  - `A%d PowerAccumulator or AccumCount close to limits, resetting to 0`
+  - `Elec: fAceEnableHighVoltage`
+  - `(AWL) ERROR: Failed to obtain AWL caps (%d)`
+  - `%s: unknown key = %d`
+  - `inductive toggle vbus 0x%x`
+  - `RS: RX: RS_EVT_ROLE_SWAP_REQUEST_SENT; Rcvd PTx Rsp: Reject(%d); stay in RX mode`
+  - `RS: TX: RS_EVT_DEAD_ACCESSORY_DETECTED: Pout(%d)>=Thrsld(%d); stay in TX mode`
+  - `RS: %s: %s: req-tx-init-rs(ret:0x%08x); start swapToRxModeTimer for %llu ms`
+  - `smc/aceCommon.cpp`
+  - `RS: swapToRxTimer timer expired; hard swap; loadFirmware(RX)`
+  - `%s : !quiesce mask, %x`
+  - `fury_irq_handler`
+  - `Notf: A%d Usb2PlgEvt`
+  - `(AWL) WARN: Failed to receive AWL response (0x%08x)`
+  - `smc/event_buf.cpp`
+  - `is Shutdwn needed: Req %d, budV %d isBattbt %d isPT %d`
+  - `ACSt: ACpend Exp %d mS `
+  - `poutTriggerSet`
+  - `RS: NfcTagInfoChangedInd: cnt=%d tag:[0x%x 0x%x]`
+  - `(AWL)  INFO: Start AWL report (%d)`
+  - `frc == RTK_ST_OK`
+  - `smc/inductive/inductiveRoleSwap.cpp`
+  - `InductiveFrequency`
+  - `Elec: BestPot A%d %dmW type%d was A%d %dmW`
+  - `auth IC communication failure (%x)`
+  - `charger_pmu_init`
+  - `RS: %s: InductiveRemoteTetherInd: remote_tethered=%d`
+  - `Failed to %s PMU Critical Shutdown IRQ (%d)`
+  - `(AWL) ERROR: Failed to pad the awl report offset %#zx: %d`
+  - `Unable to write LVR data to GG: %d`
+  - `InductiveSetHLOSBooted`
+  - `smc/comms.cpp`
+  - `pending, waiting for debounce`
+  - `WLCH: read aperture magic: ret=0x%x, magic=0x%x`
+  - `management`
+  - `(AWL) ERROR: Failed to adjust the awl report size: %d`
+  - `RS: start dead batt detection; expireTime=%llu currTime=%llu`
+  - `%s:%d ERR process mailbox indication %x`
+  - `ACSt: boot !AC`
+  - `RS: TX: RS_EVT_ACCESSORY_ATTACHED`
+  - `A%d asserted irq`
+  - `transient %d (%d to %d)`
+  - `A%d HardReset Evt %x`
+  - `Get Interrupt Mask Fail OneAceInt 0x%x`
+  - `inductive adapter: (%d)->(%d) dt: %llu`
+  - `inductive cl: g4: gain4(%d) < %d; settle LOW`
+  - `CrashlogData_t ptr = 0x%08lx`
+  - `dcp_to_smc`
+  - `Notf: A%d PWRST_ADAPTER_STATE_CHANGE elec`
+  - `%s: failure clearing spmi WAKE interrupt vector:%d for idx:0x%x (err: 0x%x).`
+  - `platform/common/platform_power.cpp`
+  - ` E%d %d %x`
+  - `BAUTH: kick out of sync`
+  - `%s: charger_set_path_priority failed`
+  - `RS: TX: RS_EVT_ROLE_SWAP_REQUEST_RECEIVED; FW Sent Rsp: Reject(%d); stay in TX mode`
+  - `platform/common/platform_mem.cpp`
+  - `Notf: A%d New Contract as Src. Role:%d`
+  - `Err ChgHvEnFail V %d rc=%d`
+  - `Panic forced due to inductive FW crash`
+  - `Notf: A%d ldcmEvent`
+  - `DE: invalid checksum SMC %d AP %d`
+  - `inductive_update_firmware`
+  - `IND: CHG: request charge rate = %d`
+  - ` rawADCValue: %u, fAceVbusVoltage: %d mV`
+  - `%s: %s:%d: %s, Unable to enable interrupt for btLV: %d`
+  - `Shutdown flags: Battery=%d, PMU=%d, pwrOut=%d Override=%d`
+  - `inductive cl: G4_C1 : %d`
+  - `Disconnect %s. fD %llu, pD %llu, cUp %llu`
+  - `2PP:inductive_data.promotion_to_2pp_state = %u`
+  - `A%d SRDOFail Cmd didn't complete, TimeOut`
+  - ` Min Input Curr %dmA, BestPwr Current %dmA, Active contract Current %dmA`
+  - `(SOCD) ERROR:SOCD push buffer header is corrupted - desc.size(%zu bytes) > total space allocated for SOCD push buffer (%d bytes)`
+  - `%s: ignore attempt to set ilim=%d in DBB (bcm5935x_state=%d); nop`
+  - `%s: failure clearing spmi interrupt vector for idx:0x%x (err: 0x%x).`
+  - `drivers/power/drv_fury.cpp`
+  - `smc/ace.cpp`
+  - `%s: %s:%d: %s, Unable to disable interrupt for btLV: %d`
+  - `%s:%d: inductive fw (%d) loaded successfully!`
+  - `%s:%d inductive fw (%d) download failed`
+  - `SLP_WAKE:Ace:%d Sleep Disabled! Cause:ACE_IN_NONRESPONSIVE_MODE.`
+  - `pd charger`
+  - `platform/common/platform_tunables.cpp`
+  - `%s: Failed to read 'CELD', error ret=%d`
+  - `DE: correcting shutdown_threshold from %d to %d`
+  - `smc/ap_watchdog.cpp`
+  - `Critical Shutdown Requested`
+  - `ACSt: iBoot HP %d Lp %d OS=%d ACSt 0x%02x AC %d GG %d ACPW %d SOC1 %d SMCFixturePresent %d`
+  - `InductiveFWDownload`
+  - `AceInductive: CurrInductiveMask: 0x%x, NewMask: 0x%x`
+  - `A%d SRDOFail Reject`
+  - `smc/acePoutExtClientIF.cpp`
+  - `inductive cl: legacy: g2: g1g2 (%d) >= 105; settle HIGH; pwr_c=%dmW (bounded: %dmW); g1:%d g2:%d`
+  - `PMU Critical Shutdown IRQ %s`
+  - `HE-nRCS %d Error Status = 0x%x `
+  - `A%d SSPS%d`
+  - ` DeadBattFlagStatus 0x%x`
+  - `newContractAsSrc ActRDO:0x%x ContractFlags:0x%x RDOPos:%d`
+  - `RS: RX: RS_EVT_WAIKATO_MITIGATION_READY; invoke poutTriggerSet`
+  - `RS: TX: RS_EVT_DEVICE_TETHERED: cancel poutUntethered timer (%llu)`
+  - `(AWL) ERROR: Failed to finish awl report: %d`
+  - `platform/t8150/device_spmi.cpp`
+  - `(AWL) ERROR: Failed to read the awl report size: %d`
+  - `Elec: ILIM %u->%u Vmin%u Vmax%u psRdy%d`
+  - `(AWL) ERROR: ASCv1 data descriptor has invalid number of cores`
+  - `(AWL) ERROR: Failed to read %d or more PMS registers over AWL`
+  - `HE-nRCS %d First Error: Cmd = 0x%x, Timestamp = 0x%x, Status = 0x%x `
+  - `Notf: A%d uvdmDone`
+  - `smc/bms/dynamic_shutdown/battery_dynamic_shutdown.cpp`
+  - `smc/inductive/inductivePoutPolicy.cpp`
+  - `RS: %s: %s: acc dead: loadFirmware(TX)`
+  - `ret == RTK_ST_OK`
+  - `inductive cl: legacy: g2:`
+  - `platform/t8150/device_awl_bus.cpp`
+  - `UpdSS A%d SSPS %d`
+  - `RS: %s: HLOS booted! notify in %d ms`
+  - `inductive cl: reached ramp target (isns:%dmA [tgt:%dmA], vrect:%dmV [tgt:%dmV], power:%dmW)`
+  - `(AWL)  INFO: New AWL Report (Type %d, Version %d, Size %zu)`
+  - `rc:%d, err:%d`
+  - `Error getting LVR data from PMU: %d`
+  - `WLCH: get_rx_buffer_base_addr() failed; (0x%x) (r:%d); state=exception`
+  - `RS: RX: RS_EVT_DEAD_ACCESSORY_DETECTED; invoke poutTriggerSet`
+  - `Elec: Elec Cause 0x%llx`
+  - `Address Remapper %d Error: 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x `
+  - `RS: RX: RS_EVT_POUT_ABOVE_THRESHOLD; poutTriggerSet`
+  - `A%d NeedsInitReset setAppLoadedTimer`
+  - `%s: iSawAnUPO=%d`
+  - `ACSt: OSpend Exp`
+  - `%s: chip vfy fail`
+  - `platform/t8150/device_gpio.cpp`
+  - `(AWL) ERROR: Failed to configure the AWL HW (0x%08x)`
+  - `fury_irq_handler:%d: FURY_NFC_TO_AP_ACK_TAG_DETECTION_COMPLETE`
+  - `(AWL) ERROR: IPA read failed for register at addr %#llx`
+  - `(AWL) ERROR: Failed to write report of size %zu at offset %#zx: %d`
+  - `invalid command '%u'`
+  - `dram_region_release`
+  - `HE-nRCS %d Error Count: In = 0x%x, Out = 0x%x, Bus = 0x%x `
+  - ` rawADCValue: %d, fAceIPPCableCurrent: %d mA, I_VCONN_SCALING_FACTOR: %d/1000`
+  - `(AWL)  INFO: [%03zx]   %02x%02x%02x`
+  - `%s:%d error: %x`
+  - `%s :nexDBB, disc: %d %d %x`
+  - `Elec: A%d SRDO Failed %d`
+  - `smc/acePowerOut.cpp`
+  - `(AWL)  INFO: [%03zx]       %02x`
+  - `inductive_adapter_disconnect_debounce`
+  - `(AWL)  INFO: Collecting data from reporter #%zu`
+  - `RS: RX: RS_EVT_FW_DOWNLOADED received; invoke poutTriggerSet`
+  - `(AWL) ERROR: Failed to allocate socd report: %d`
+  - `RS: %s: invoke drv_inductive_hal.role_swap_preferred(%d)`
+  - `inductive_quiesce_task`
+  - `RS: TX: RS_EVT_DEVICE_UNTETHERED: start poutUntethered timer for %llu ms`
+  - `RS: TX: RS_EVT_DEAD_ACCESSORY_DETECTED: Pout(%d)<Thrsld(%d); swapToRxMode`
+  - `RS: notify HLOS booted! (hlosBootedNotifDelayTimer expired)`
+  - `%s:%d err fsk demod rate`
+  - `platform/t8150/device_trigger_interface.cpp`
+  - `Notf: A%d PlgConnStChg %d`
+  - `upo_periodic_action`
+  - `ACSt: boot AC`
+  - `RS: RX: RS_EVT_ROLE_SWAP_REQUEST_SENT; Rcvd PTx Rsp: Accept; loadFirmware(TX)`
+  - `%s:%d failed to set backpower`
+  - `drv_ace_get_irq ui16AceInts=%x`
+  - `Aborting AOP iop_ringbuffer at %s:%d`
+  - `smc/bms/bms_v1/battery.cpp`
+  - `ui8InductiveFWCtrl`
+  - `Adapter Policy VBUS Change not required`
+  - `%s: RTK_mc_release returned != RTK_ST_OK `
+  - `RS: RX: RS_EVT_DEVICE_UNTETHERED; invoke poutTriggerSet`
+  - `%s:%d mpp %llu`
+  - `inductive cl: G3_C1 : %d`
+  - `smc/acePoutBudgetManager.cpp`
+  - `RS: %s: poutTrig: pending: (t=%d,os=%d,cap=%d,c=%d) . (ibcs=%d | nch=%d | >minpwr=%d) (Pout:%d)`
+  - `Found file entry, tag = 0x%x, offset = 0x%x, size = 0x%x, fw_tag = 0x%x`
+  - `inductive cl: g3: g3(%d) > 98; pwr_c = %dmW (bounded: %dmW); settle ULTRA`
+  - `(AWL)  INFO: Skipping AWL reporter #%zu because the AP cores are halted`
+  - `RS: RX: RS_EVT_ACCESSORY_UNTETHERED; invoke poutTriggerSet`
+  - `%s:%d connecting %llu`
+  - `%s:%d ERR set mmode (%d) %x`
+  - `(SOCD) ERROR:Failed to allocate an empty socd report to log awl push errors: %d`
+  - `RS: stop dead batt detection; expireTime:%llu->0; currTime=%llu`
+  - `SLP_WAKE:Ace:%d Sleep Disabled! Cause:ACE_RCHD_MAX_RETRY.`
+  - `FTAB debug word %d, 0x%x`
+  - `2PP:inductive_data.promotion_to_2pp_state timeoutt`
+  - `inductive cl: %s: start ramp (isns:%dmA, vrect:%dmV, power:%dmW)`
+  - `inductive cl: g2: start ramp (isns:%dmA, vrect:%dmV, power:%dmW)`
+  - `AceInductive: Send Pass Notif`
+  - `A%d prevBootSt %x genBootSt %x BFLG %x`
+  - `RS: RX: RS_EVT_ACCESSORY_ATTACHED`
+  - `platform/t8150/device_aon_ptd.cpp`
+  - ` VBUS_CH: %d, VBUS_FS: %u/100,  VBUS_Scaling: %u, ADC_Res: %d`
+  - `smc/crashlog.cpp`
+  - `ioreporting`
+  - `fPathChange %d`
+  - `smc/ap_watchdog_logger.cpp`
+  - `Unable to set handler for btLV region: rc = %u`
+  - `%s:%d disc %llu`
+  - `(AWL) ERROR: ASCv1 data descriptor was null`
+  - `LVR init failed: %d`
+  - `DE: Checksum becomes valid SMC %d AP %d`
+  - `smc/i2c.cpp`
+  - `%s:%d ironman %llu`
+  - `inductive_backpower_irq_process`
+  - `dram_region_map_region`
+  - `smc/inductive/inductive_common.cpp`
+  - `%s:%d mmode (%d)`
+  - `BAUTH: task out of sync`
+  - `%s:%d ERR process backpower request %x`
+  - `%s:%d vtgt %d ilim tgt %d; (0: not set)`
+  - `InductiveTask`
+  - `(SOCD) ERROR:Failed to finish awl push errors report: %d`
+  - `(AWL) ERROR: Failed to read APB register 0x%06llx over AWL`
+  - `vBMSTaskStop fail`
+  - `SLP_WAKE: Disable Sleep on Ace:%d cause:%d`
+  - `AONPTDTask`
+  - `smc/aceElec.cpp`
+  - `RS: %s: poutTrig:    pass: (t=%d,os=%d,cap=%d,c=%d) . (ibcs=%d | nch=%d | >minpwr=%d) (Pout:%d)`
+  - `Found FTAB file, valid = %d`
+  - `RS:  prv: p:%03d m:0x%01x vid:%04x pid:%04x s:%03d c:%03d t:%03d `
 
 </details>
 
@@ -2701,11 +2705,12 @@
 - `Firmware/Mav25-1.20.03.Release.bbfw`
 - `Firmware/Mav25-1.20.03.Release.plist`
 
-#### filesystem (804)
+#### filesystem (805)
 
 <details>
   <summary><i>View Files</i></summary>
 
+- `/.fseventsd/fseventsd-uuid`
 - `/Applications/AccessoryNotificationsSourceSelection.app/AccessoryNotificationsSourceSelection`
 - `/Applications/AccessoryNotificationsSourceSelection.app/Info.plist`
 - `/Applications/AccessoryNotificationsSourceSelection.app/PkgInfo`

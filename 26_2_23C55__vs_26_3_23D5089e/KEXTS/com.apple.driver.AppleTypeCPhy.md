@@ -34,7 +34,7 @@
 +  CStrings:  241
  
 Functions:
-+ sub_fffffe0009fc8c7c
++ __ZNK13AppleTypeCPhy17copyPhandleDriverEPKcS1_
 CStrings:
 + "%s@%s: %s::%s: failed to build dictionary for %s\n"
 + "%s@%s: %s::%s: failed to find %s for %s\n"

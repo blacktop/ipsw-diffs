@@ -39,13 +39,13 @@ Functions:
 ~ sub_fffffe000ad4f95c -> sub_fffffe000ae50098 : 860 -> 872
 ~ sub_fffffe000ad4fec8 -> sub_fffffe000ae50610 : 496 -> 64
 ~ sub_fffffe000ad500b8 -> sub_fffffe000ae50650 : 492 -> 496
-~ sub_fffffe000ad502a4 -> sub_fffffe000ae50840 : 564 -> 492
+~ sub_fffffe000ad502a4 -> __ZN25IOUSBMassStorageUASDriver17UASDataCompletionEP32IOUSBMassStorageUASDriverCommandij : 564 -> 492
 ~ __ZN25IOUSBMassStorageUASDriver25ExecuteTaskManagementSyncEPhthPi -> sub_fffffe000ae50a2c : 1148 -> 564
 ~ sub_fffffe000ad50954 -> __ZN25IOUSBMassStorageUASDriver25ExecuteTaskManagementSyncEPhthPi : 172 -> 1148
 ~ sub_fffffe000ad50a00 -> sub_fffffe000ae510dc : 252 -> 172
 ~ sub_fffffe000ad50afc -> sub_fffffe000ae51188 : 64 -> 252
 ~ sub_fffffe000ad50d00 -> sub_fffffe000ae51448 : 284 -> 276
-~ sub_fffffe000ad518b0 -> sub_fffffe000ae51ff0 : 440 -> 436
+~ sub_fffffe000ad518b0 -> __ZN25IOUSBMassStorageUASDriver22HandleRequestForStatusEP32IOUSBMassStorageUASDriverCommand.cold.2 : 440 -> 436
 ~ sub_fffffe000ad51dd0 -> sub_fffffe000ae5250c : 340 -> 348
 
 ```
