@@ -1,0 +1,89 @@
+## libswiftPrespecialized.dylib
+
+> `/usr/lib/libswiftPrespecialized.dylib`
+
+```diff
+
+ 0.0.0.0.0
+   __TEXT.__text: 0x0
+   __TEXT.__lldb_no_nlist: 0x0
+-  __DATA_CONST.__const: 0x2cea28
++  __DATA_CONST.__const: 0x2ced20
+   __DATA_CONST.__ptrhashtab: 0x17538
+   __DATA_CONST.__ptrhashtabkey: 0x264f8
+   __AUTH_CONST.__const: 0x50988
+   __AUTH.__data: 0xccef0
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 6C7CF967-62F9-3E60-B196-679C6694E5AF
++  UUID: 0F56644B-A810-3100-A803-AB679621686C
+   Functions: 0
+-  Symbols:   139706
++  Symbols:   139743
+   CStrings:  0
+ 
+Symbols:
++ _$s10MapsDesign27SupportsFocusInteractionKeyVMn
++ _$s11MediaCoreUI13MCUINamespaceVAA05SwiftC04ViewRzlE5toast_9alignment5inset0gF0QrAA12ToastManagerCyqd__G_AD9AlignmentV0B8Graphics7CGFloatVqd_0_qd__cts12IdentifiableRd__AdERd_0_r0_lFQOMQ
++ _$s12GameStoreKit13PrivacyFooterC13deserializing5usingAC9JetEngine10JSONObjectV_AF11JSONContextVtKcfCTq
++ _$s12GameStoreKit45ThreeDimensionalArtworkGradientBackgroundViewC08gradientI5FrameSo6CGRectVvMTq
++ _$s12ModelCatalog17ResourceContainerCN
++ _$s12ModelCatalog24UseCaseIdentifierWrapperCN
++ _$s13CarAssetUtils21CAUAppUIConfigurationV17AppsConfigurationVMn
++ _$s13CarAssetUtils21CAUAppUIConfigurationV17TripConfigurationVMn
++ _$s13CarAssetUtils21CAUAppUIConfigurationV21ClosuresConfigurationVMn
++ _$s13CarAssetUtils21CAUAppUIConfigurationV23DirectTPMSConfigurationVMn
++ _$s13CarAssetUtils21CAUAppUIConfigurationV24ActionSheetConfigurationVMn
++ _$s13CarAssetUtils21CAUAppUIConfigurationV25IndirectTPMSConfigurationVMn
++ _$s14AppleAccountUI27AAUIPrivacyConsentViewModelC23privacyBundleIdentifierSSvgTq
++ _$s14CarPlayAssetUI14VisibilityRuleO019DataIdentifierValueF0VMn
++ _$s14CarPlayAssetUI14VisibilityRuleO020ProgressRangeVisibleF0VMn
++ _$s14CarPlayAssetUI35DriverAssistanceModeDataIdentifiersVMn
++ _$s14CarPlayAssetUI5GlassOMn
++ _$s16CommunicationsUI11AvatarShapeO8squircleyA2CmFWC
++ _$s16CommunicationsUI15ControlGridViewV4bodyQrvpQOMQ
++ _$s16MetricsFramework11BiomeClientCMn
++ _$s16MetricsFramework19BiomeClientProtocolMp
++ _$s17IndexingAnalytics8ItemKindO9hashValueSivpMV
++ _$s18_JetEngine_SwiftUI18PaginatedShelfGridVMn
++ _$s18_JetEngine_SwiftUI24ShelfGridPaginationStateV13LoadingStatusOMn
++ _$s18_JetEngine_SwiftUI24ShelfGridPaginationStateVMn
++ _$s18_JetEngine_SwiftUI31ShelfGridPaginationTriggerEventOMn
++ _$s18_JetEngine_SwiftUI32ShelfGridPaginationConfigurationVMn
++ _$s19UnifiedMessagingKit05StoreC14PurchaseResultVMn
++ _$s19UnifiedMessagingKit05StoreC19PurchaseActionModelVMn
++ _$s19VoiceShortcutClient30RedactedDebugStringConvertibleMp
++ _$s19VoiceShortcutClient30RedactedDebugStringConvertibleP19redactedDescriptionSSvgTq
++ _$s20DeviceRegulatoryInfo0B12AssetLocatorCMn
++ _$s20DeviceRegulatoryInfo0B16AssetUpdateErrorOMn
++ _$s20DeviceRegulatoryInfo0B17AssetUpdateStatusOMn
++ _$s20DeviceRegulatoryInfo0B19AssetUpdateProgressOMn
++ _$s20DeviceRegulatoryInfo21DRIMobileAssetManagerCMn
++ _$s24SecureMessagingAgentCore20DaemonPersisterErrorOMn
++ _$s5CAFUI22CAFUIConfirmationSheetV18ConfirmationActionOMn
++ _$s5CAFUI22CAFUIConfirmationSheetVMn
++ _$s7JetCore17FlowActionOptionsVMn
++ _$s7SwiftUI4ViewP011_JetEngine_aB0E20intentImplementation3for7performQrqd__m_0dE013IntentOutcomeOy10ReturnTypeQyd__Gqd___AH15BaseObjectGraphCtYaYbKctAH0J5ModelRd__SS10StaticKindRtd__lFQOMQ
++ _$s8PriMLETL8SanitizeOMn
++ _$s9CarPlayUI8GridViewC4BaseO0E5ModelC8SubtitleV5StyleOMn
++ _$s9CarPlayUI8GridViewC4BaseO0E5ModelC8SubtitleVMn
++ _$s9ChronoKit17DuplicateKeyIssueOMn
++ _$s9JetEngine17FlowActionOptionsVMn
++ _$s9JetEngine27ShelfGridPaginationResponseMp
++ _$s9JetEngine30ShelfGridPaginationInstructionOMn
++ _$s9JetEngine37ShelfGridNextPaginationIntentProviderMp
++ _OBJC_CLASS_$_StoredPayload
+- _$s12GameStoreKit19ActionPresenterViewP7perform6action6senderyAA0D0C_ypSgtFTq
+- _$s13CarAssetUtils21CAUAppUIConfigurationV11ElementDataOMn
+- _$s13CarAssetUtils21CAUAppUIConfigurationV13ConfigurationVMn
+- _$s13CarAssetUtils21CAUAppUIConfigurationV3AppOMn
+- _$s13CarAssetUtils21CAUAppUIConfigurationV7ElementOMn
+- _$s13CoreIDVShared13StoredPayloadCN
+- _$s16CommunicationsUI28AcceptControlServiceProtocolP07requestC4CallyyFTq
+- _$s16MetricsFramework30AssetEventsBiomeClientProtocolMp
+- _$s17IndexingAnalytics8ItemKindO8allCasesSayACGvpZMV
+- _$s7SwiftUI4ViewP011_JetEngine_aB0E19shelfCollectionSizeyQrSo6CGSizeVFQOMQ
+- _$s8PriMLETL19MorpheusPEExtensionOMn
+- _OBJC_CLASS_$__TtC12ModelCatalog17ResourceContainer
+- _OBJC_CLASS_$__TtC12ModelCatalog24UseCaseIdentifierWrapper
+
+```

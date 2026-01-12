@@ -1,0 +1,232 @@
+## InferenceExtension
+
+> `/System/Library/ExtensionKit/Extensions/InferenceExtension.appex/InferenceExtension`
+
+```diff
+
+-3515.2.1.0.0
+-  __TEXT.__text: 0x310cc
+-  __TEXT.__auth_stubs: 0x1200
++3515.5.1.0.0
++  __TEXT.__text: 0x307e8
++  __TEXT.__auth_stubs: 0x1210
+   __TEXT.__objc_methlist: 0x1ac
+-  __TEXT.__const: 0x1f22
+-  __TEXT.__cstring: 0x3993
++  __TEXT.__const: 0x1f42
++  __TEXT.__cstring: 0x37d3
+   __TEXT.__swift5_typeref: 0x964
+-  __TEXT.__swift5_fieldmd: 0xaac
++  __TEXT.__swift5_fieldmd: 0xa94
+   __TEXT.__constg_swiftt: 0x72c
+   __TEXT.__swift5_builtin: 0x28
+-  __TEXT.__swift5_reflstr: 0xe52
++  __TEXT.__swift5_reflstr: 0xdd2
+   __TEXT.__swift5_assocty: 0x1e0
+   __TEXT.__swift5_protos: 0xc
+   __TEXT.__swift5_proto: 0x13c
+   __TEXT.__swift5_types: 0xa4
+   __TEXT.__objc_classname: 0x38
+-  __TEXT.__objc_methname: 0x61e
++  __TEXT.__objc_methname: 0x616
+   __TEXT.__objc_methtype: 0x13d
+-  __TEXT.__oslogstring: 0xc65
+-  __TEXT.__swift5_capture: 0x4d8
+-  __TEXT.__swift_as_entry: 0xbc
+-  __TEXT.__swift_as_ret: 0xac
++  __TEXT.__oslogstring: 0xd75
++  __TEXT.__swift_as_entry: 0xc0
++  __TEXT.__swift_as_ret: 0xb4
++  __TEXT.__swift5_capture: 0x388
+   __TEXT.__swift5_mpenum: 0x10
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__unwind_info: 0xd78
+-  __TEXT.__eh_frame: 0x1be0
+-  __DATA_CONST.__auth_got: 0x900
+-  __DATA_CONST.__got: 0x2d8
++  __TEXT.__unwind_info: 0xdb0
++  __TEXT.__eh_frame: 0x1c88
++  __DATA_CONST.__auth_got: 0x908
++  __DATA_CONST.__got: 0x2c8
+   __DATA_CONST.__auth_ptr: 0x3f0
+-  __DATA_CONST.__const: 0x2848
++  __DATA_CONST.__const: 0x2360
+   __DATA_CONST.__objc_classlist: 0x38
+   __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EAFE8D7F-B8EF-38EE-BC91-3B21F760A37F
+-  Functions: 1144
+-  Symbols:   8569
+-  CStrings:  369
++  UUID: 69CA181F-8CE3-3805-AE49-62AE2548800F
++  Functions: 1113
++  Symbols:   8449
++  CStrings:  362
+ 
+Symbols:
++ $s18InferenceExtension014UserEngagementaB6ConfigV13promptVersionSSSgvM.resume.0
++ $s18InferenceExtension014UserEngagementaB6ConfigV16promptIdentifierSSSgvM.resume.0
++ _$s18InferenceExtension014UserEngagementaB6ConfigV10maxRecords12systemPrompt13promptVersion0J10Identifier15dynamicTaskName7disableACSiSg_SSSgA3KSbSgtcfC
++ _$s18InferenceExtension014UserEngagementaB6ConfigV13promptVersionSSSgvM
++ _$s18InferenceExtension014UserEngagementaB6ConfigV13promptVersionSSSgvg
++ _$s18InferenceExtension014UserEngagementaB6ConfigV13promptVersionSSSgvpMV
++ _$s18InferenceExtension014UserEngagementaB6ConfigV13promptVersionSSSgvs
++ _$s18InferenceExtension014UserEngagementaB6ConfigV16promptIdentifierSSSgvM
++ _$s18InferenceExtension014UserEngagementaB6ConfigV16promptIdentifierSSSgvg
++ _$s18InferenceExtension014UserEngagementaB6ConfigV16promptIdentifierSSSgvpMV
++ _$s18InferenceExtension014UserEngagementaB6ConfigV16promptIdentifierSSSgvs
++ _$s18InferenceExtension014UserEngagementaB6ConfigVWOc
++ _$s18InferenceExtension014UserEngagementaB6ConfigVWOh
++ _$s18InferenceExtension0aB11UserJourneyOwetTm
++ _$s18InferenceExtension0aB11UserJourneyOwstTm
++ _$s18InferenceExtension12SELFReporterP6report5event6configy1TQz_AA014UserEngagementaB6ConfigVtYaFTj
++ _$s18InferenceExtension12SELFReporterP6report5event6configy1TQz_AA014UserEngagementaB6ConfigVtYaFTjTQ0_
++ _$s18InferenceExtension12SELFReporterP6report5event6configy1TQz_AA014UserEngagementaB6ConfigVtYaFTjTu
++ _$s18InferenceExtension12SELFReporterP6report5event6configy1TQz_AA014UserEngagementaB6ConfigVtYaFTq
++ _$s18InferenceExtension14BiomeStreamingC14applyPSEFilter33_552544C1B9F47ECFAECC414A6BEABA41LL9eventBodySo11BMEventBaseCSgAH_tFTf4nd_n
++ _$s18InferenceExtension26UserAlignmentScoreReporterC08populatecdA8Metadata33_6A53B8D927DDAE96A182F738760CC4EBLL13modelResponseSo014CHSchemaCHUserdaH0CSgAA0cd5ModelR0V_tFTf4xd_n
++ _$s18InferenceExtension26UserAlignmentScoreReporterC18reportWithMetaData8response4data6configSbAA0cD13ModelResponseV_AA07PSEMetaJ0VAA0c10EngagementaB6ConfigVtYaF
++ _$s18InferenceExtension26UserAlignmentScoreReporterC18reportWithMetaData8response4data6configSbAA0cD13ModelResponseV_AA07PSEMetaJ0VAA0c10EngagementaB6ConfigVtYaFTQ0_
++ _$s18InferenceExtension26UserAlignmentScoreReporterC18reportWithMetaData8response4data6configSbAA0cD13ModelResponseV_AA07PSEMetaJ0VAA0c10EngagementaB6ConfigVtYaFTf4nxnnd_nTf4nnnxn_n
++ _$s18InferenceExtension26UserAlignmentScoreReporterC18reportWithMetaData8response4data6configSbAA0cD13ModelResponseV_AA07PSEMetaJ0VAA0c10EngagementaB6ConfigVtYaFTf4nxnnd_nTf4nnnxn_nTY0_
++ _$s18InferenceExtension26UserAlignmentScoreReporterC18reportWithMetaData8response4data6configSbAA0cD13ModelResponseV_AA07PSEMetaJ0VAA0c10EngagementaB6ConfigVtYaFTf4nxnnd_nTf4nnnxn_nTu
++ _$s18InferenceExtension26UserAlignmentScoreReporterC18reportWithMetaData8response4data6configSbAA0cD13ModelResponseV_AA07PSEMetaJ0VAA0c10EngagementaB6ConfigVtYaFTu
++ _$s18InferenceExtension26UserAlignmentScoreReporterC21populateEventMetaData33_6A53B8D927DDAE96A182F738760CC4EBLL4dataSo016CHSchemaCHClientH8MetadataCSgAA07PSEMetaJ0V_tFTf4nd_nTf4x_n
++ _$s18InferenceExtension26UserAlignmentScoreReporterC25populateEvaluatorMetadata33_6A53B8D927DDAE96A182F738760CC4EBLL6configSo019CHSchemaCHEvaluatorI0CSgAA0c10EngagementaB6ConfigV_tFTf4nd_n
++ _$s18InferenceExtension26UserAlignmentScoreReporterC6report5event6configyAA0cD13ModelResponseV_AA0c10EngagementaB6ConfigVtYaF
++ _$s18InferenceExtension26UserAlignmentScoreReporterC6report5event6configyAA0cD13ModelResponseV_AA0c10EngagementaB6ConfigVtYaFTQ0_
++ _$s18InferenceExtension26UserAlignmentScoreReporterC6report5event6configyAA0cD13ModelResponseV_AA0c10EngagementaB6ConfigVtYaFTf4nddd_n
++ _$s18InferenceExtension26UserAlignmentScoreReporterC6report5event6configyAA0cD13ModelResponseV_AA0c10EngagementaB6ConfigVtYaFTf4nddd_nTY0_
++ _$s18InferenceExtension26UserAlignmentScoreReporterC6report5event6configyAA0cD13ModelResponseV_AA0c10EngagementaB6ConfigVtYaFTf4nddd_nTu
++ _$s18InferenceExtension26UserAlignmentScoreReporterC6report5event6configyAA0cD13ModelResponseV_AA0c10EngagementaB6ConfigVtYaFTu
++ _$s18InferenceExtension26UserAlignmentScoreReporterCAA12SELFReporterA2aDP6report5event6configy1TQz_AA0c10EngagementaB6ConfigVtYaFTW
++ _$s18InferenceExtension26UserAlignmentScoreReporterCAA12SELFReporterA2aDP6report5event6configy1TQz_AA0c10EngagementaB6ConfigVtYaFTWTQ0_
++ _$s18InferenceExtension26UserAlignmentScoreReporterCAA12SELFReporterA2aDP6report5event6configy1TQz_AA0c10EngagementaB6ConfigVtYaFTWTY1_
++ _$s18InferenceExtension26UserAlignmentScoreReporterCAA12SELFReporterA2aDP6report5event6configy1TQz_AA0c10EngagementaB6ConfigVtYaFTWTu
++ _$s18InferenceExtension27UserAlignmentScoreEvaluatorC7persist8response6configSbAA0cD25ModelResponseWithMetaDataV_AA0c10EngagementaB6ConfigVtYaF
++ _$s18InferenceExtension27UserAlignmentScoreEvaluatorC7persist8response6configSbAA0cD25ModelResponseWithMetaDataV_AA0c10EngagementaB6ConfigVtYaFTQ0_
++ _$s18InferenceExtension27UserAlignmentScoreEvaluatorC7persist8response6configSbAA0cD25ModelResponseWithMetaDataV_AA0c10EngagementaB6ConfigVtYaFTQ1_
++ _$s18InferenceExtension27UserAlignmentScoreEvaluatorC7persist8response6configSbAA0cD25ModelResponseWithMetaDataV_AA0c10EngagementaB6ConfigVtYaFTY2_
++ _$s18InferenceExtension27UserAlignmentScoreEvaluatorC7persist8response6configSbAA0cD25ModelResponseWithMetaDataV_AA0c10EngagementaB6ConfigVtYaFTj
++ _$s18InferenceExtension27UserAlignmentScoreEvaluatorC7persist8response6configSbAA0cD25ModelResponseWithMetaDataV_AA0c10EngagementaB6ConfigVtYaFTjTQ0_
++ _$s18InferenceExtension27UserAlignmentScoreEvaluatorC7persist8response6configSbAA0cD25ModelResponseWithMetaDataV_AA0c10EngagementaB6ConfigVtYaFTjTu
++ _$s18InferenceExtension27UserAlignmentScoreEvaluatorC7persist8response6configSbAA0cD25ModelResponseWithMetaDataV_AA0c10EngagementaB6ConfigVtYaFTq
++ _$s18InferenceExtension27UserAlignmentScoreEvaluatorC7persist8response6configSbAA0cD25ModelResponseWithMetaDataV_AA0c10EngagementaB6ConfigVtYaFTu
++ _OBJC_CLASS_$_CHSchemaCHClientEvent
++ _OBJC_CLASS_$_CHSchemaCHClientEventMetadata
++ _OBJC_CLASS_$_CHSchemaCHEvaluatorMetadata
++ _OBJC_CLASS_$_CHSchemaCHUserAlignmentInferenceGenerated
++ _OBJC_CLASS_$_CHSchemaCHUserAlignmentInferenceMetadata
++ ___swift_memcpy81_8
++ _swift_dynamicCastUnknownClass
+- $s18InferenceExtension0A20CoreAnalyticsServiceO06submita11ReliabilityD08category6reasonyAA0aG8CategoryO_SStFZSDySSSo8NSObjectCGSgycfU_TA.107
+- $s18InferenceExtension0A20CoreAnalyticsServiceO06submita11ReliabilityD08category6reasonyAA0aG8CategoryO_SStFZSDySSSo8NSObjectCGSgycfU_TA.7
+- _$s18InferenceExtension014UserEngagementaB6ConfigV10maxRecords12systemPrompt15dynamicTaskName7disableACSiSg_SSSgAISbSgtcfC
+- _$s18InferenceExtension12SELFReporterP6report5eventy1TQz_tYaFTj
+- _$s18InferenceExtension12SELFReporterP6report5eventy1TQz_tYaFTjTQ0_
+- _$s18InferenceExtension12SELFReporterP6report5eventy1TQz_tYaFTjTu
+- _$s18InferenceExtension12SELFReporterP6report5eventy1TQz_tYaFTq
+- _$s18InferenceExtension14BiomeStreamingC11applyFilter33_552544C1B9F47ECFAECC414A6BEABA41LL9eventBodySo11BMEventBaseCSgAH_tFTf4nd_n
+- _$s18InferenceExtension26UserAlignmentScoreReporterC16populateMetaData33_6A53B8D927DDAE96A182F738760CC4EBLL6result4dataSo31PSESchemaPSEClientEventMetadataCSgAA0cD6ResultO_AA07PSEMetaI0VtFTf4nnd_nTf4nx_n
+- _$s18InferenceExtension26UserAlignmentScoreReporterC18reportWithMetaData8response4dataSbAA0cD13ModelResponseV_AA07PSEMetaJ0VtYaF
+- _$s18InferenceExtension26UserAlignmentScoreReporterC18reportWithMetaData8response4dataSbAA0cD13ModelResponseV_AA07PSEMetaJ0VtYaFTQ0_
+- _$s18InferenceExtension26UserAlignmentScoreReporterC18reportWithMetaData8response4dataSbAA0cD13ModelResponseV_AA07PSEMetaJ0VtYaFTf4nxnd_n
+- _$s18InferenceExtension26UserAlignmentScoreReporterC18reportWithMetaData8response4dataSbAA0cD13ModelResponseV_AA07PSEMetaJ0VtYaFTf4nxnd_nTY0_
+- _$s18InferenceExtension26UserAlignmentScoreReporterC18reportWithMetaData8response4dataSbAA0cD13ModelResponseV_AA07PSEMetaJ0VtYaFTf4nxnd_nTu
+- _$s18InferenceExtension26UserAlignmentScoreReporterC18reportWithMetaData8response4dataSbAA0cD13ModelResponseV_AA07PSEMetaJ0VtYaFTu
+- _$s18InferenceExtension26UserAlignmentScoreReporterC6report5eventyAA0cD13ModelResponseV_tYaF
+- _$s18InferenceExtension26UserAlignmentScoreReporterC6report5eventyAA0cD13ModelResponseV_tYaFTY0_
+- _$s18InferenceExtension26UserAlignmentScoreReporterC6report5eventyAA0cD13ModelResponseV_tYaFTu
+- _$s18InferenceExtension26UserAlignmentScoreReporterCAA12SELFReporterA2aDP6report5eventy1TQz_tYaFTW
+- _$s18InferenceExtension26UserAlignmentScoreReporterCAA12SELFReporterA2aDP6report5eventy1TQz_tYaFTWTY0_
+- _$s18InferenceExtension26UserAlignmentScoreReporterCAA12SELFReporterA2aDP6report5eventy1TQz_tYaFTWTu
+- _$s18InferenceExtension27UserAlignmentScoreEvaluatorC7persist8responseSbAA0cD25ModelResponseWithMetaDataV_tYaF
+- _$s18InferenceExtension27UserAlignmentScoreEvaluatorC7persist8responseSbAA0cD25ModelResponseWithMetaDataV_tYaFTQ0_
+- _$s18InferenceExtension27UserAlignmentScoreEvaluatorC7persist8responseSbAA0cD25ModelResponseWithMetaDataV_tYaFTQ1_
+- _$s18InferenceExtension27UserAlignmentScoreEvaluatorC7persist8responseSbAA0cD25ModelResponseWithMetaDataV_tYaFTY2_
+- _$s18InferenceExtension27UserAlignmentScoreEvaluatorC7persist8responseSbAA0cD25ModelResponseWithMetaDataV_tYaFTj
+- _$s18InferenceExtension27UserAlignmentScoreEvaluatorC7persist8responseSbAA0cD25ModelResponseWithMetaDataV_tYaFTjTQ0_
+- _$s18InferenceExtension27UserAlignmentScoreEvaluatorC7persist8responseSbAA0cD25ModelResponseWithMetaDataV_tYaFTjTu
+- _$s18InferenceExtension27UserAlignmentScoreEvaluatorC7persist8responseSbAA0cD25ModelResponseWithMetaDataV_tYaFTq
+- _$s18InferenceExtension27UserAlignmentScoreEvaluatorC7persist8responseSbAA0cD25ModelResponseWithMetaDataV_tYaFTu
+- _$sSSSgWOcTm
+- _$sSSSgWOhTm
+- _OBJC_CLASS_$_PSESchemaPSEAlarmSignalGenerated
+- _OBJC_CLASS_$_PSESchemaPSECallSignalGenerated
+- _OBJC_CLASS_$_PSESchemaPSEClientEvent
+- _OBJC_CLASS_$_PSESchemaPSEClientEventMetadata
+- _OBJC_CLASS_$_PSESchemaPSECommonSignal
+- _OBJC_CLASS_$_PSESchemaPSEMapsSignalGenerated
+- _OBJC_CLASS_$_PSESchemaPSEMediaSignalGenerated
+- block_copy_helper.108
+- block_copy_helper.8
+- block_descriptor.10
+- block_descriptor.110
+- block_destroy_helper.109
+- block_destroy_helper.9
+CStrings:
++ "#SELF Logging - Setting Request ID "
++ "#SELF Logging - Setting Task/Session ID "
++ "#SELF Logging - Task/Session ID not available in metadata"
++ "#SELF Logging - cannot create CH event wrapper"
++ "#SELF Logging - cannot create CHClientEventMetadata"
++ "#SELF Logging - cannot create CHEvaluatorMetadata"
++ "#SELF Logging - cannot create CHUserAlignmentInferenceMetadata"
++ "#SELF Logging - cannot create UserAlignmentInference schema"
++ "#SELF Logging - not logging, use reportWithMetaData"
++ "#SELF Logging - userAlignmentInference schema populated"
++ "cannotCreateSELFUserAlignmentInferenceWrapper"
++ "populatedSELFUserAlignmentInference"
++ "promptIdentifier"
++ "sessionIdUnavailable"
++ "setChId:"
++ "setConfidenceScore:"
++ "setDynamicEvaluatorTaskName:"
++ "setEvaluatorMetadata:"
++ "setPromptIdentifier:"
++ "setPromptVersion:"
++ "setRequestId:"
++ "setSessionId:"
++ "setUserAlignmentInferenceGenerated:"
++ "setUserAlignmentInferenceMetadata:"
++ "setUserAlignmentResult:"
++ "validSessionId"
+- "#SELF Logging - Alarm PSE schema populated"
+- "#SELF Logging - Maps PSE schema populated"
+- "#SELF Logging - Media/Music PSE schema populated"
+- "#SELF Logging - PhoneCall PSE schema populated"
+- "#SELF Logging - Setting Last Request ID "
+- "#SELF Logging - Setting Task ID "
+- "#SELF Logging - Task ID not available in metadata"
+- "#SELF Logging - cannot create Alarm PSE schema"
+- "#SELF Logging - cannot create Geo/Maps PSE schema"
+- "#SELF Logging - cannot create Media/Music PSE schema"
+- "#SELF Logging - cannot create PSE event wrapper"
+- "#SELF Logging - cannot create PhoneCall PSE schema"
+- "cannotCreateSELFPSEAlarmWrapper"
+- "cannotCreateSELFPSEMapsWrapper"
+- "cannotCreateSELFPSEMusicWrapper"
+- "cannotCreateSELFPSEPhoneCallWrapper"
+- "populatedSELFPSEAlarm"
+- "populatedSELFPSEMaps"
+- "populatedSELFPSEMusic"
+- "populatedSELFPSEPhoneCall"
+- "setAlarmSignalGenerated:"
+- "setCallSignalGenerated:"
+- "setCommonSignal:"
+- "setEventDonationTimeInSecondsSince2001:"
+- "setMapsSignalGenerated:"
+- "setMediaSignalGenerated:"
+- "setOriginalLastRequestId:"
+- "setPseId:"
+- "setSiriEngagementTaskSuccess:"
+- "setTaskId:"
+- "setTriggerOrigin:"
+- "taskIdUnavailable"
+- "validTaskId"
+
+```

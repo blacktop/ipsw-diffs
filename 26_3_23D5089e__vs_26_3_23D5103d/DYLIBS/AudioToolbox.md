@@ -1,0 +1,44 @@
+## AudioToolbox
+
+> `/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox`
+
+```diff
+
+-1556.414.0.0.0
+-  __TEXT.__text: 0x2aef28
++1556.416.0.0.0
++  __TEXT.__text: 0x2aef08
+   __TEXT.__auth_stubs: 0x3c30
+-  __TEXT.__delay_stubs: 0xb0
++  __TEXT.__delay_stubs: 0x100
+   __TEXT.__delay_helper: 0x148
+   __TEXT.__objc_methlist: 0x203c
+   __TEXT.__const: 0x138c
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 5BD4AEE0-A3A0-3E74-9633-1D619EC01D0F
++  UUID: D4088739-8B5F-30E3-B2B5-672E87CB1B04
+   Functions: 9501
+   Symbols:   26357
+   CStrings:  9726
+Symbols:
++ __ZGVZN2AT13SessionFacadeL34PopulateSourceFormatInfoDictionaryEP14__CFDictionaryPKvRK14AQIONodeClientRN2CA17StreamDescriptionEbbbE10sessionMap
++ __ZN2AT13SessionFacade11ManagerBase31setCurrentlyPlayingSourceFormatEPKvRK14AQIONodeClientRN2CA17StreamDescriptionEbbb
++ __ZN2AT13SessionFacade7Manager31setCurrentlyPlayingSourceFormatEPKvRK14AQIONodeClientRN2CA17StreamDescriptionEbbb
++ __ZNSt3__16__treeINS_12__value_typeIPK14AQIONodeClientZN2AT13SessionFacadeL34PopulateSourceFormatInfoDictionaryEP14__CFDictionaryPKvRS3_RN2CA17StreamDescriptionEbbbE16SourceFormatInfoEENS_19__map_value_compareIS4_SG_NS_4lessIS4_EELb1EEENS_9allocatorISG_EEE7destroyEPNS_11__tree_nodeISG_PvEE
++ __ZZN2AT13SessionFacadeL34PopulateSourceFormatInfoDictionaryEP14__CFDictionaryPKvRK14AQIONodeClientRN2CA17StreamDescriptionEbbbE10sessionMap
+- __ZGVZN2AT13SessionFacadeL34PopulateSourceFormatInfoDictionaryEP14__CFDictionaryPKvRK14AQIONodeClientRN2CA17StreamDescriptionEbbbPS9_E10sessionMap
+- __ZN2AT13SessionFacade11ManagerBase31setCurrentlyPlayingSourceFormatEPKvRK14AQIONodeClientRN2CA17StreamDescriptionEbbbPS8_
+- __ZN2AT13SessionFacade7Manager31setCurrentlyPlayingSourceFormatEPKvRK14AQIONodeClientRN2CA17StreamDescriptionEbbbPS8_
+- __ZNSt3__16__treeINS_12__value_typeIPK14AQIONodeClientZN2AT13SessionFacadeL34PopulateSourceFormatInfoDictionaryEP14__CFDictionaryPKvRS3_RN2CA17StreamDescriptionEbbbPSD_E16SourceFormatInfoEENS_19__map_value_compareIS4_SH_NS_4lessIS4_EELb1EEENS_9allocatorISH_EEE7destroyEPNS_11__tree_nodeISH_PvEE
+- __ZZN2AT13SessionFacadeL34PopulateSourceFormatInfoDictionaryEP14__CFDictionaryPKvRK14AQIONodeClientRN2CA17StreamDescriptionEbbbPS9_E10sessionMap
+Functions:
+~ __ZN14MEMixerChannel22SetSpatialUIFormatInfoEb : 1740 -> 1724
+~ __ZN2AT13SessionFacade7Manager31setCurrentlyPlayingSourceFormatEPKvRK14AQIONodeClientRN2CA17StreamDescriptionEbbbPS8_ -> __ZN2AT13SessionFacade7Manager31setCurrentlyPlayingSourceFormatEPKvRK14AQIONodeClientRN2CA17StreamDescriptionEbbb : 2796 -> 2780
+CStrings:
++ "@@ Strips Jan  4 2026 19:45:02"
+- "@@ Strips Dec  5 2025 01:18:05"
+
+```

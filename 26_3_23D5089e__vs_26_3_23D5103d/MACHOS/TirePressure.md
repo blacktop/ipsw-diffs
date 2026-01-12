@@ -1,0 +1,258 @@
+## TirePressure
+
+> `/Applications/TirePressure.app/TirePressure`
+
+```diff
+
+-288.28.0.0.0
+-  __TEXT.__text: 0x1cb28
+-  __TEXT.__auth_stubs: 0x1420
++288.31.0.0.0
++  __TEXT.__text: 0x18fc8
++  __TEXT.__auth_stubs: 0x12e0
+   __TEXT.__objc_methlist: 0x644
+-  __TEXT.__const: 0x12f4
+-  __TEXT.__cstring: 0x9cc
+-  __TEXT.__objc_methname: 0x135c
+-  __TEXT.__constg_swiftt: 0x738
+-  __TEXT.__swift5_typeref: 0x30da
+-  __TEXT.__swift5_reflstr: 0x3fa
+-  __TEXT.__swift5_fieldmd: 0x4a0
++  __TEXT.__const: 0x11b4
++  __TEXT.__cstring: 0x91c
++  __TEXT.__objc_methname: 0x1337
++  __TEXT.__constg_swiftt: 0x6b4
++  __TEXT.__swift5_typeref: 0x25a6
++  __TEXT.__swift5_reflstr: 0x3ba
++  __TEXT.__swift5_fieldmd: 0x448
+   __TEXT.__swift5_builtin: 0x50
+-  __TEXT.__swift5_assocty: 0x198
+-  __TEXT.__swift5_proto: 0x50
+-  __TEXT.__swift5_types: 0x6c
++  __TEXT.__swift5_assocty: 0x180
++  __TEXT.__swift5_proto: 0x4c
++  __TEXT.__swift5_types: 0x68
+   __TEXT.__objc_classname: 0xd3
+   __TEXT.__objc_methtype: 0xcf1
+-  __TEXT.__swift5_capture: 0xf4
++  __TEXT.__swift5_capture: 0xb4
+   __TEXT.__oslogstring: 0x3
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__unwind_info: 0x5a0
+-  __TEXT.__eh_frame: 0x40
+-  __DATA_CONST.__auth_got: 0xa10
+-  __DATA_CONST.__got: 0x568
+-  __DATA_CONST.__auth_ptr: 0x488
+-  __DATA_CONST.__const: 0x868
++  __TEXT.__unwind_info: 0x508
++  __DATA_CONST.__auth_got: 0x970
++  __DATA_CONST.__got: 0x4d8
++  __DATA_CONST.__auth_ptr: 0x3f8
++  __DATA_CONST.__const: 0x7e8
+   __DATA_CONST.__objc_classlist: 0x38
+   __DATA_CONST.__objc_protolist: 0x90
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x48
+   __DATA.__objc_const: 0x8c8
+-  __DATA.__objc_selrefs: 0x520
++  __DATA.__objc_selrefs: 0x510
+   __DATA.__objc_data: 0x488
+-  __DATA.__data: 0x1538
+-  __DATA.__bss: 0xab0
++  __DATA.__data: 0x12c8
++  __DATA.__bss: 0xa10
+   __DATA.__common: 0x28
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /System/Library/PrivateFrameworks/CarAccessoryFramework.framework/CarAccessoryFramework
+   - /System/Library/PrivateFrameworks/CarAssetUtils.framework/CarAssetUtils
+   - /System/Library/PrivateFrameworks/CarKit.framework/CarKit
+-  - /System/Library/PrivateFrameworks/CarPlayAssetUI.framework/CarPlayAssetUI
+   - /System/Library/PrivateFrameworks/CarPlayUIServices.framework/CarPlayUIServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C5BD4975-9DCC-37B9-BAFC-997BACEC41E1
+-  Functions: 471
+-  Symbols:   650
+-  CStrings:  338
++  UUID: 36DBAE73-E8CD-347D-81D2-87CB81D310AF
++  Functions: 444
++  Symbols:   602
++  CStrings:  333
+ 
+Symbols:
++ _$s10Foundation6LocaleV7currentACvgZ
++ _$s10Foundation6LocaleVMa
++ _$s13CarAssetUtils15CAUAssetLibraryC13configuration4modeAA21CAUAppUIConfigurationV17AppsConfigurationVSgAG4ModeO_tFTj
++ _$s13CarAssetUtils21CAUAppUIConfigurationV11LayoutStyleOMn
++ _$s13CarAssetUtils21CAUAppUIConfigurationV11LayoutStyleOSQAAMc
++ _$s13CarAssetUtils21CAUAppUIConfigurationV17AppsConfigurationV11direct_tpmsAC23DirectTPMSConfigurationVSgvg
++ _$s13CarAssetUtils21CAUAppUIConfigurationV17AppsConfigurationV13indirect_tpmsAC25IndirectTPMSConfigurationVSgvg
++ _$s13CarAssetUtils21CAUAppUIConfigurationV17AppsConfigurationVMa
++ _$s13CarAssetUtils21CAUAppUIConfigurationV17AppsConfigurationVMn
++ _$s13CarAssetUtils21CAUAppUIConfigurationV23DirectTPMSConfigurationV015left_top_label_I8_padding12CoreGraphics7CGFloatVSgvg
++ _$s13CarAssetUtils21CAUAppUIConfigurationV23DirectTPMSConfigurationV016right_top_label_I8_padding12CoreGraphics7CGFloatVSgvg
++ _$s13CarAssetUtils21CAUAppUIConfigurationV23DirectTPMSConfigurationV018left_bottom_label_I8_padding12CoreGraphics7CGFloatVSgvg
++ _$s13CarAssetUtils21CAUAppUIConfigurationV23DirectTPMSConfigurationV019right_bottom_label_I8_padding12CoreGraphics7CGFloatVSgvg
++ _$s13CarAssetUtils21CAUAppUIConfigurationV23DirectTPMSConfigurationV11layoutStyleAC06LayoutI0OSgvg
++ _$s13CarAssetUtils21CAUAppUIConfigurationV23DirectTPMSConfigurationV17dark_mode_opacity12CoreGraphics7CGFloatVSgvg
++ _$s13CarAssetUtils21CAUAppUIConfigurationV23DirectTPMSConfigurationV17image_top_padding12CoreGraphics7CGFloatVSgvg
++ _$s13CarAssetUtils21CAUAppUIConfigurationV23DirectTPMSConfigurationV18light_mode_opacity12CoreGraphics7CGFloatVSgvg
++ _$s13CarAssetUtils21CAUAppUIConfigurationV23DirectTPMSConfigurationV20image_bottom_padding12CoreGraphics7CGFloatVSgvg
++ _$s13CarAssetUtils21CAUAppUIConfigurationV23DirectTPMSConfigurationV24pressure_unit_font_styleAC9FontStyleOSgvg
++ _$s13CarAssetUtils21CAUAppUIConfigurationV23DirectTPMSConfigurationV25pressure_unit_font_weightAC10FontWeightOSgvg
++ _$s13CarAssetUtils21CAUAppUIConfigurationV23DirectTPMSConfigurationV25pressure_value_font_styleAC9FontStyleOSgvg
++ _$s13CarAssetUtils21CAUAppUIConfigurationV23DirectTPMSConfigurationV26pressure_value_font_weightAC10FontWeightOSgvg
++ _$s13CarAssetUtils21CAUAppUIConfigurationV23DirectTPMSConfigurationVMa
++ _$s13CarAssetUtils21CAUAppUIConfigurationV23DirectTPMSConfigurationVMn
++ _$s13CarAssetUtils21CAUAppUIConfigurationV23DirectTPMSConfigurationVSQAAMc
++ _$s13CarAssetUtils21CAUAppUIConfigurationV24ActionSheetConfigurationVMa
++ _$s13CarAssetUtils21CAUAppUIConfigurationV24ActionSheetConfigurationVMn
++ _$s13CarAssetUtils21CAUAppUIConfigurationV25IndirectTPMSConfigurationV11layoutStyleAC06LayoutI0OSgvg
++ _$s13CarAssetUtils21CAUAppUIConfigurationV25IndirectTPMSConfigurationV17dark_mode_opacity12CoreGraphics7CGFloatVSgvg
++ _$s13CarAssetUtils21CAUAppUIConfigurationV25IndirectTPMSConfigurationV17image_top_padding12CoreGraphics7CGFloatVSgvg
++ _$s13CarAssetUtils21CAUAppUIConfigurationV25IndirectTPMSConfigurationV17save_action_sheetAC24ActionSheetConfigurationVSgvg
++ _$s13CarAssetUtils21CAUAppUIConfigurationV25IndirectTPMSConfigurationV18light_mode_opacity12CoreGraphics7CGFloatVSgvg
++ _$s13CarAssetUtils21CAUAppUIConfigurationV25IndirectTPMSConfigurationV20image_bottom_padding12CoreGraphics7CGFloatVSgvg
++ _$s13CarAssetUtils21CAUAppUIConfigurationV25IndirectTPMSConfigurationVMa
++ _$s13CarAssetUtils21CAUAppUIConfigurationV25IndirectTPMSConfigurationVMn
++ _$s13CarAssetUtils21CAUAppUIConfigurationV25IndirectTPMSConfigurationVSQAAMc
++ _$s13CarAssetUtils8CAUAssetO8TireMaskV5StateO9undefinedyA2GmFWC
++ _$s5CAFUI22CAFUIConfirmationSheetV10cancelText012confirmationE00F13IsDestructive14actionSelectedACSS_SSSbyAC18ConfirmationActionOctcfC
++ _$s5CAFUI22CAFUIConfirmationSheetV18ConfirmationActionO2eeoiySbAE_AEtFZ
++ _$s5CAFUI22CAFUIConfirmationSheetV18ConfirmationActionO7confirmyA2EmFWC
++ _$s5CAFUI22CAFUIConfirmationSheetV18ConfirmationActionOMa
++ _$s5CAFUI22CAFUIConfirmationSheetVMa
++ _$s5CAFUI22CAFUIConfirmationSheetVMn
++ _$s7SwiftUI14_OpacityEffectVMn
++ _$s7SwiftUI4ViewP5CAFUIE7applyIf_9transformQrSbyXK_qd__xXEtAaBRd__lF
++ _$s7SwiftUI4ViewP5CAFUIE7applyIf_9transformQrSbyXK_qd__xXEtAaBRd__lFQOMQ
++ _$s7SwiftUI9EmptyViewVAA0D0AAWP
++ _$sSS10FoundationE17LocalizationValueV13stringLiteralACSS_tcfC
++ _$sSS10FoundationE17LocalizationValueVMa
++ _$sSS10FoundationE9localized5table6bundle6locale7commentS2SAAE17LocalizationValueV_SSSgSo8NSBundleCSgAA6LocaleVs12StaticStringVSgtcfC
++ _$sxSgSQsSQRzlMc
++ _objc_retain_x26
++ _objc_retain_x28
+- _$s10Foundation17NSLocalizedString_9tableName6bundle5value7commentS2S_SSSgSo8NSBundleCS2StF
+- _$s12CoreGraphics7CGFloatVN
+- _$s13CarAssetUtils15CAUAssetLibraryC13configuration3app4modeAA21CAUAppUIConfigurationV13ConfigurationVAH3AppO_AH4ModeOtFTj
+- _$s13CarAssetUtils21CAUAppUIConfigurationV10FontWeightOSYAAMc
+- _$s13CarAssetUtils21CAUAppUIConfigurationV11ElementDataO10fontWeightAC04FontI0OSgvg
+- _$s13CarAssetUtils21CAUAppUIConfigurationV11ElementDataO12cgFloatValue12CoreGraphics7CGFloatVSgvg
+- _$s13CarAssetUtils21CAUAppUIConfigurationV11ElementDataO9fontStyleAC04FontI0OSgvg
+- _$s13CarAssetUtils21CAUAppUIConfigurationV11ElementDataOMa
+- _$s13CarAssetUtils21CAUAppUIConfigurationV11ElementDataOMn
+- _$s13CarAssetUtils21CAUAppUIConfigurationV11LayoutStyleO18portraitCompressedyA2EmFWC
+- _$s13CarAssetUtils21CAUAppUIConfigurationV13ConfigurationV11elementDataSDyAC7ElementOAC0iH0OGvg
+- _$s13CarAssetUtils21CAUAppUIConfigurationV13ConfigurationV11layoutStyle11elementDataAeC06LayoutH0O_SDyAC7ElementOAC0lJ0OGtcfC
+- _$s13CarAssetUtils21CAUAppUIConfigurationV13ConfigurationV11layoutStyleAC06LayoutH0Ovg
+- _$s13CarAssetUtils21CAUAppUIConfigurationV13ConfigurationVMa
+- _$s13CarAssetUtils21CAUAppUIConfigurationV13ConfigurationVMn
+- _$s13CarAssetUtils21CAUAppUIConfigurationV13ConfigurationVSQAAMc
+- _$s13CarAssetUtils21CAUAppUIConfigurationV3AppO12tirePressureyA2EmFWC
+- _$s13CarAssetUtils21CAUAppUIConfigurationV3AppOMa
+- _$s13CarAssetUtils21CAUAppUIConfigurationV7ElementO22tpms_image_top_paddingyA2EmFWC
+- _$s13CarAssetUtils21CAUAppUIConfigurationV7ElementO25tpms_image_bottom_paddingyA2EmFWC
+- _$s13CarAssetUtils21CAUAppUIConfigurationV7ElementO28tpms_pressureUnit_font_styleyA2EmFWC
+- _$s13CarAssetUtils21CAUAppUIConfigurationV7ElementO29tpms_pressureUnit_font_weightyA2EmFWC
+- _$s13CarAssetUtils21CAUAppUIConfigurationV7ElementO29tpms_pressureValue_font_styleyA2EmFWC
+- _$s13CarAssetUtils21CAUAppUIConfigurationV7ElementO30tpms_leftTop_label_top_paddingyA2EmFWC
+- _$s13CarAssetUtils21CAUAppUIConfigurationV7ElementO30tpms_pressureValue_font_weightyA2EmFWC
+- _$s13CarAssetUtils21CAUAppUIConfigurationV7ElementO31indirect_tpms_image_top_paddingyA2EmFWC
+- _$s13CarAssetUtils21CAUAppUIConfigurationV7ElementO31tpms_rightTop_label_top_paddingyA2EmFWC
+- _$s13CarAssetUtils21CAUAppUIConfigurationV7ElementO34indirect_tpms_image_bottom_paddingyA2EmFWC
+- _$s13CarAssetUtils21CAUAppUIConfigurationV7ElementO35indirect_tpms_title_to_desc_paddingyA2EmFWC
+- _$s13CarAssetUtils21CAUAppUIConfigurationV7ElementO36indirect_tpms_info_text_left_paddingyA2EmFWC
+- _$s13CarAssetUtils21CAUAppUIConfigurationV7ElementO36tpms_leftBottom_label_bottom_paddingyA2EmFWC
+- _$s13CarAssetUtils21CAUAppUIConfigurationV7ElementO37tpms_rightBottom_label_bottom_paddingyA2EmFWC
+- _$s13CarAssetUtils21CAUAppUIConfigurationV7ElementOMa
+- _$s13CarAssetUtils21CAUAppUIConfigurationV7ElementOMn
+- _$s13CarAssetUtils21CAUAppUIConfigurationV7ElementOSHAAMc
+- _$s13CarAssetUtils21CAUAppUIConfigurationV7ElementOSQAAMc
+- _$s7SwiftUI10ButtonRoleV11destructiveACvgZ
+- _$s7SwiftUI10ButtonRoleV6cancelACvgZ
+- _$s7SwiftUI10ButtonRoleVMa
+- _$s7SwiftUI10ButtonRoleVMn
+- _$s7SwiftUI10TransitionPAAE8combined4withQrqd___tAaBRd__lF
+- _$s7SwiftUI10TransitionPAAE8combined4withQrqd___tAaBRd__lFQOMQ
+- _$s7SwiftUI10_ShapeViewVMn
+- _$s7SwiftUI11StrokeStyleV9lineWidth0E3Cap0E4Join10miterLimit4dash0K5PhaseAC12CoreGraphics7CGFloatV_So06CGLineG0VSo0pH0VALSayALGALtcfC
+- _$s7SwiftUI11_ClipEffectVMn
+- _$s7SwiftUI11_ClipEffectVyxGAA12ViewModifierAAMc
+- _$s7SwiftUI11_MaskEffectVMn
+- _$s7SwiftUI13AnyTransitionVyACxcAA0D0RzlufC
+- _$s7SwiftUI13_StrokedShapeVMn
+- _$s7SwiftUI13withAnimationyxAA0D0VSg_xyKXEtKlF
+- _$s7SwiftUI14MoveTransitionV4edgeAcA4EdgeO_tcfC
+- _$s7SwiftUI14MoveTransitionVAA0D0AAMc
+- _$s7SwiftUI14MoveTransitionVMa
+- _$s7SwiftUI14MoveTransitionVMn
+- _$s7SwiftUI15StrokeShapeViewVMn
+- _$s7SwiftUI16RoundedRectangleVMa
+- _$s7SwiftUI16RoundedRectangleVMn
+- _$s7SwiftUI16_OverlayModifierVMn
+- _$s7SwiftUI17EnvironmentValuesV15foregroundColorAA0F0VSgvg
+- _$s7SwiftUI17EnvironmentValuesV15foregroundColorAA0F0VSgvpMV
+- _$s7SwiftUI17EnvironmentValuesV15foregroundColorAA0F0VSgvs
+- _$s7SwiftUI17EnvironmentValuesV9lineLimitSiSgvg
+- _$s7SwiftUI17EnvironmentValuesV9lineLimitSiSgvpMV
+- _$s7SwiftUI17EnvironmentValuesV9lineLimitSiSgvs
+- _$s7SwiftUI17EnvironmentValuesV9tintColorAA0F0VSgvg
+- _$s7SwiftUI17EnvironmentValuesV9tintColorAA0F0VSgvpMV
+- _$s7SwiftUI17EnvironmentValuesV9tintColorAA0F0VSgvs
+- _$s7SwiftUI17OpacityTransitionVAA0D0AAMc
+- _$s7SwiftUI17OpacityTransitionVACycfC
+- _$s7SwiftUI17OpacityTransitionVMa
+- _$s7SwiftUI17OpacityTransitionVMn
+- _$s7SwiftUI18RoundedCornerStyleO10continuousyA2CmFWC
+- _$s7SwiftUI18RoundedCornerStyleOMa
+- _$s7SwiftUI18TransitionTraitKeyVMn
+- _$s7SwiftUI19_BackgroundModifierVMn
+- _$s7SwiftUI24_BackgroundStyleModifierVMn
+- _$s7SwiftUI28BorderedProminentButtonStyleVAA09PrimitiveeF0AAMc
+- _$s7SwiftUI28BorderedProminentButtonStyleVACycfC
+- _$s7SwiftUI28BorderedProminentButtonStyleVMa
+- _$s7SwiftUI28BorderedProminentButtonStyleVMn
+- _$s7SwiftUI4EdgeO3SetV7leadingAEvgZ
+- _$s7SwiftUI4EdgeO3SetV8rawValueAEs4Int8V_tcfC
+- _$s7SwiftUI4EdgeO3SetV8trailingAEvgZ
+- _$s7SwiftUI4EdgeO3SetVMn
+- _$s7SwiftUI4FontV7calloutACvgZ
+- _$s7SwiftUI4FontV7captionACvgZ
+- _$s7SwiftUI4TextV4boldACyF
+- _$s7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lF
+- _$s7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQOMQ
+- _$s7SwiftUI5ColorV4grayACvgZ
+- _$s7SwiftUI5ColorVN
+- _$s7SwiftUI6ButtonV4role6action5labelACyxGAA0C4RoleVSg_yycxyXEtcfC
+- _$s7SwiftUI6ButtonVMn
+- _$s7SwiftUI6ButtonVyxGAA4ViewAAMc
+- _$s7SwiftUI9AnimationV9easeInOut8durationACSd_tFZ
+- _$sSdN
+- _$sSo8NSObjectCs23CustomStringConvertible10FoundationMc
+- _$sSq14CarPlayAssetUIs23CustomStringConvertibleRzlE11descriptionSSvg
+- _$sytN
+- _OBJC_CLASS_$_CAFTire
+- _swift_getFunctionTypeMetadata0
+CStrings:
++ "TIRE_PRESSURE_SAVE_CANCEL"
++ "TIRE_PRESSURE_SAVE_SAVE"
++ "Vehicle layout information is "
++ "Waiting to intialize."
+- "Compressed Portrait Mode is not yet supported for Indirect TPMS."
+- "Contradictory frame constraints specified."
+- "Showing RedactedCarView."
+- "TIRE_PRESSURE_PRESS_AND_HOLD_TO_SAVE"
+- "TIRE_PRESSURE_RESET_CANCEL"
+- "TIRE_PRESSURE_RESET_RESET"
+- "layout information is "
+- "systemBackgroundColor"
+- "systemRedColor"
+
+```

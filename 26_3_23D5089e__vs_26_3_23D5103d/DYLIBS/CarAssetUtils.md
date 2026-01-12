@@ -1,0 +1,199 @@
+## CarAssetUtils
+
+> `/System/Library/PrivateFrameworks/CarAssetUtils.framework/CarAssetUtils`
+
+```diff
+
+-441.31.0.0.0
+-  __TEXT.__text: 0x2a2cc
+-  __TEXT.__auth_stubs: 0xbd0
++441.35.1.0.0
++  __TEXT.__text: 0x2d4e0
++  __TEXT.__auth_stubs: 0xbb0
+   __TEXT.__objc_methlist: 0x2d4
+-  __TEXT.__const: 0x5e30
+-  __TEXT.__cstring: 0x102a
+-  __TEXT.__swift5_typeref: 0x10d1
+-  __TEXT.__constg_swiftt: 0xe4c
+-  __TEXT.__swift5_reflstr: 0x100b
+-  __TEXT.__swift5_fieldmd: 0x1694
+-  __TEXT.__swift5_builtin: 0x50
+-  __TEXT.__swift5_proto: 0x61c
+-  __TEXT.__swift5_types: 0x194
+-  __TEXT.__swift5_assocty: 0x258
++  __TEXT.__const: 0x62a0
++  __TEXT.__cstring: 0xf8a
++  __TEXT.__swift5_typeref: 0x11ed
++  __TEXT.__constg_swiftt: 0xf38
++  __TEXT.__swift5_reflstr: 0xf7b
++  __TEXT.__swift5_fieldmd: 0x1830
++  __TEXT.__swift5_builtin: 0x3c
++  __TEXT.__swift5_proto: 0x66c
++  __TEXT.__swift5_types: 0x1b0
++  __TEXT.__swift5_assocty: 0x228
+   __TEXT.__oslogstring: 0x3e4
+   __TEXT.__swift5_capture: 0x90
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__swift5_mpenum: 0x20
+-  __TEXT.__unwind_info: 0x10a0
+-  __TEXT.__eh_frame: 0x1668
++  __TEXT.__swift5_mpenum: 0x18
++  __TEXT.__unwind_info: 0x1150
++  __TEXT.__eh_frame: 0x17e8
+   __TEXT.__objc_classname: 0x5d
+   __TEXT.__objc_methname: 0x38b
+   __TEXT.__objc_methtype: 0x1b1
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x1d0
+   __DATA_CONST.__objc_protorefs: 0x30
+-  __AUTH_CONST.__auth_got: 0x5e8
+-  __AUTH_CONST.__const: 0x46a0
++  __AUTH_CONST.__auth_got: 0x5d8
++  __AUTH_CONST.__const: 0x4810
+   __AUTH_CONST.__objc_const: 0x690
+   __AUTH.__objc_data: 0x3d8
+   __AUTH.__data: 0x2a0
+-  __DATA.__data: 0x10c8
+-  __DATA.__bss: 0xbb20
++  __DATA.__data: 0x1170
++  __DATA.__bss: 0xc520
+   __DATA.__common: 0x10
+   __DATA_DIRTY.__objc_data: 0x68
+   __DATA_DIRTY.__data: 0x50
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DAE6F947-9755-3B31-9309-D45DD81357F4
+-  Functions: 1640
+-  Symbols:   718
+-  CStrings:  289
++  UUID: 7E49B458-6BF7-3E25-B741-9C73B69A18A6
++  Functions: 1777
++  Symbols:   763
++  CStrings:  284
+ 
+Symbols:
++ ___swift_memcpy153_8
++ ___swift_memcpy272_8
++ ___swift_memcpy90_8
++ _associated conformance 13CarAssetUtils21CAUAppUIConfigurationV17AppsConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLOSHAASQ
++ _associated conformance 13CarAssetUtils21CAUAppUIConfigurationV17AppsConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13CarAssetUtils21CAUAppUIConfigurationV17AppsConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13CarAssetUtils21CAUAppUIConfigurationV17TripConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLOSHAASQ
++ _associated conformance 13CarAssetUtils21CAUAppUIConfigurationV17TripConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13CarAssetUtils21CAUAppUIConfigurationV17TripConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13CarAssetUtils21CAUAppUIConfigurationV21ClosuresConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLOSHAASQ
++ _associated conformance 13CarAssetUtils21CAUAppUIConfigurationV21ClosuresConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13CarAssetUtils21CAUAppUIConfigurationV21ClosuresConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13CarAssetUtils21CAUAppUIConfigurationV23DirectTPMSConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLOSHAASQ
++ _associated conformance 13CarAssetUtils21CAUAppUIConfigurationV23DirectTPMSConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13CarAssetUtils21CAUAppUIConfigurationV23DirectTPMSConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13CarAssetUtils21CAUAppUIConfigurationV24ActionSheetConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 13CarAssetUtils21CAUAppUIConfigurationV24ActionSheetConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13CarAssetUtils21CAUAppUIConfigurationV25IndirectTPMSConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLOSHAASQ
++ _associated conformance 13CarAssetUtils21CAUAppUIConfigurationV25IndirectTPMSConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13CarAssetUtils21CAUAppUIConfigurationV25IndirectTPMSConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _get_enum_tag_for_layout_string 13CarAssetUtils21CAUAppUIConfigurationV17TripConfigurationVSg
++ _symbolic SDy__________G 13CarAssetUtils21CAUAppUIConfigurationV4ModeO AC17AppsConfigurationV
++ _symbolic SDy__________GSg 13CarAssetUtils21CAUAppUIConfigurationV4ModeO AC17AppsConfigurationV
++ _symbolic SSSg
++ _symbolic _____ 13CarAssetUtils21CAUAppUIConfigurationV17AppsConfigurationV
++ _symbolic _____ 13CarAssetUtils21CAUAppUIConfigurationV17AppsConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLO
++ _symbolic _____ 13CarAssetUtils21CAUAppUIConfigurationV17TripConfigurationV
++ _symbolic _____ 13CarAssetUtils21CAUAppUIConfigurationV17TripConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLO
++ _symbolic _____ 13CarAssetUtils21CAUAppUIConfigurationV21ClosuresConfigurationV
++ _symbolic _____ 13CarAssetUtils21CAUAppUIConfigurationV21ClosuresConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLO
++ _symbolic _____ 13CarAssetUtils21CAUAppUIConfigurationV23DirectTPMSConfigurationV
++ _symbolic _____ 13CarAssetUtils21CAUAppUIConfigurationV23DirectTPMSConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLO
++ _symbolic _____ 13CarAssetUtils21CAUAppUIConfigurationV24ActionSheetConfigurationV
++ _symbolic _____ 13CarAssetUtils21CAUAppUIConfigurationV24ActionSheetConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLO
++ _symbolic _____ 13CarAssetUtils21CAUAppUIConfigurationV25IndirectTPMSConfigurationV
++ _symbolic _____ 13CarAssetUtils21CAUAppUIConfigurationV25IndirectTPMSConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLO
++ _symbolic _____Sg 12CoreGraphics7CGFloatV
++ _symbolic _____Sg 13CarAssetUtils21CAUAppUIConfigurationV10FontWeightO
++ _symbolic _____Sg 13CarAssetUtils21CAUAppUIConfigurationV11LayoutStyleO
++ _symbolic _____Sg 13CarAssetUtils21CAUAppUIConfigurationV17TripConfigurationV
++ _symbolic _____Sg 13CarAssetUtils21CAUAppUIConfigurationV21ClosuresConfigurationV
++ _symbolic _____Sg 13CarAssetUtils21CAUAppUIConfigurationV23DirectTPMSConfigurationV
++ _symbolic _____Sg 13CarAssetUtils21CAUAppUIConfigurationV24ActionSheetConfigurationV
++ _symbolic _____Sg 13CarAssetUtils21CAUAppUIConfigurationV25IndirectTPMSConfigurationV
++ _symbolic _____Sg 13CarAssetUtils21CAUAppUIConfigurationV9FontStyleO
++ _symbolic _____Sg So6CGSizeV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13CarAssetUtils21CAUAppUIConfigurationV17AppsConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13CarAssetUtils21CAUAppUIConfigurationV17TripConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13CarAssetUtils21CAUAppUIConfigurationV21ClosuresConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13CarAssetUtils21CAUAppUIConfigurationV23DirectTPMSConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13CarAssetUtils21CAUAppUIConfigurationV25IndirectTPMSConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13CarAssetUtils21CAUAppUIConfigurationV17AppsConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13CarAssetUtils21CAUAppUIConfigurationV17TripConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13CarAssetUtils21CAUAppUIConfigurationV21ClosuresConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13CarAssetUtils21CAUAppUIConfigurationV23DirectTPMSConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13CarAssetUtils21CAUAppUIConfigurationV24ActionSheetConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13CarAssetUtils21CAUAppUIConfigurationV25IndirectTPMSConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLO
++ _type_layout_string 13CarAssetUtils21CAUAppUIConfigurationV17AppsConfigurationV
++ _type_layout_string 13CarAssetUtils21CAUAppUIConfigurationV17TripConfigurationV
++ _type_layout_string 13CarAssetUtils21CAUAppUIConfigurationV21ClosuresConfigurationV
++ _type_layout_string 13CarAssetUtils21CAUAppUIConfigurationV23DirectTPMSConfigurationV
++ _type_layout_string 13CarAssetUtils21CAUAppUIConfigurationV25IndirectTPMSConfigurationV
+- _associated conformance 13CarAssetUtils21CAUAppUIConfigurationV13ConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLOSHAASQ
+- _associated conformance 13CarAssetUtils21CAUAppUIConfigurationV13ConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 13CarAssetUtils21CAUAppUIConfigurationV13ConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13CarAssetUtils21CAUAppUIConfigurationV3AppOSHAASQ
+- _associated conformance 13CarAssetUtils21CAUAppUIConfigurationV7ElementOSHAASQ
+- _get_enum_tag_for_layout_string 13CarAssetUtils21CAUAppUIConfigurationV11ElementDataO
+- _symbolic SDy_____SDy__________GG 13CarAssetUtils21CAUAppUIConfigurationV3AppO AC4ModeO AC13ConfigurationV
+- _symbolic SDy_____SDy__________GGSg 13CarAssetUtils21CAUAppUIConfigurationV3AppO AC4ModeO AC13ConfigurationV
+- _symbolic SDy__________G 13CarAssetUtils21CAUAppUIConfigurationV4ModeO AC13ConfigurationV
+- _symbolic SDy__________G 13CarAssetUtils21CAUAppUIConfigurationV7ElementO AC0F4DataO
+- _symbolic _____ 13CarAssetUtils21CAUAppUIConfigurationV11ElementDataO
+- _symbolic _____ 13CarAssetUtils21CAUAppUIConfigurationV13ConfigurationV
+- _symbolic _____ 13CarAssetUtils21CAUAppUIConfigurationV13ConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLO
+- _symbolic _____ 13CarAssetUtils21CAUAppUIConfigurationV3AppO
+- _symbolic _____ 13CarAssetUtils21CAUAppUIConfigurationV7ElementO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 13CarAssetUtils21CAUAppUIConfigurationV13ConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13CarAssetUtils21CAUAppUIConfigurationV13ConfigurationV10CodingKeys33_D5FDA1C48E2C80B4F7AE5B490316E771LLO
+- _symbolic _____y__________G s18_DictionaryStorageC 13CarAssetUtils21CAUAppUIConfigurationV7ElementO AE0H4DataO
+- _type_layout_string 13CarAssetUtils21CAUAppUIConfigurationV11ElementDataO
+- _type_layout_string 13CarAssetUtils21CAUAppUIConfigurationV13ConfigurationV
+CStrings:
++ "cluster"
++ "dark_mode_opacity"
++ "image_bottom_padding"
++ "image_top_padding"
++ "left_bottom_label_bottom_padding"
++ "left_top_label_top_padding"
++ "light_mode_opacity"
++ "pressure_unit_font_style"
++ "pressure_unit_font_weight"
++ "pressure_value_font_style"
++ "pressure_value_font_weight"
++ "right_bottom_label_bottom_padding"
++ "right_top_label_top_padding"
++ "save_action_sheet"
++ "undefined"
++ "vehicle_image_size"
+- "Cannot decode ElementData"
+- "charge"
+- "closures"
+- "indirect_tpms_image_bottom_padding"
+- "indirect_tpms_image_top_padding"
+- "indirect_tpms_info_text_left_padding"
+- "indirect_tpms_title_to_desc_padding"
+- "portraitCompressed"
+- "tirePressure"
+- "tpms_image_bottom_padding"
+- "tpms_image_top_padding"
+- "tpms_leftBottom_label_bottom_padding"
+- "tpms_leftTop_label_top_padding"
+- "tpms_pressureUnit_font_style"
+- "tpms_pressureUnit_font_weight"
+- "tpms_pressureValue_font_style"
+- "tpms_pressureValue_font_weight"
+- "tpms_rightBottom_label_bottom_padding"
+- "tpms_rightTop_label_top_padding"
+- "trip"
+- "vehicle_ImageSize"
+
+```
