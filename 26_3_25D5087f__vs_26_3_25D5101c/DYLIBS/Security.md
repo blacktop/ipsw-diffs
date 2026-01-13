@@ -1,0 +1,309 @@
+## Security
+
+> `/System/Library/Frameworks/Security.framework/Versions/A/Security`
+
+```diff
+
+-61901.80.19.0.0
+-  __TEXT.__text: 0x359da0
+-  __TEXT.__auth_stubs: 0x4e40
+-  __TEXT.__delay_helper: 0x1c4
++61901.80.22.0.0
++  __TEXT.__text: 0x359e64
++  __TEXT.__auth_stubs: 0x4e50
++  __TEXT.__delay_helper: 0x264
+   __TEXT.__objc_methlist: 0x6304
+   __TEXT.__const: 0x189c8
+   __TEXT.__dlopen_cstrs: 0x112
+
+   __TEXT.__dof_codesign: 0x2617
+   __TEXT.__dof_syspolicy: 0xc27
+   __TEXT.__dof_security_: 0x516
+-  __TEXT.__unwind_info: 0xe340
++  __TEXT.__unwind_info: 0xe348
+   __TEXT.__objc_classname: 0xb0f
+   __TEXT.__objc_methname: 0xc150
+   __TEXT.__objc_methtype: 0x371e
+
+   __DATA_CONST.__objc_protorefs: 0x58
+   __DATA_CONST.__objc_superrefs: 0x2d0
+   __DATA_CONST.__objc_arraydata: 0x100
+-  __AUTH_CONST.__auth_got: 0x2738
++  __AUTH_CONST.__auth_got: 0x2740
+   __AUTH_CONST.__const: 0x196f8
+   __AUTH_CONST.__cfstring: 0x1b080
+   __AUTH_CONST.__objc_const: 0x9f18
+
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/libxar.1.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 14514731-8959-31D3-B823-BC31F5032E59
+-  Functions: 12565
+-  Symbols:   27105
++  UUID: 1EE5CF1B-F6BF-38F3-BEF5-DEBA13F82FEC
++  Functions: 12566
++  Symbols:   27107
+   CStrings:  16279
+ 
+Symbols:
++ GCC_except_table11460
++ GCC_except_table11463
++ GCC_except_table11468
++ GCC_except_table11484
++ GCC_except_table11490
++ GCC_except_table11494
++ GCC_except_table11547
++ GCC_except_table11552
++ GCC_except_table11559
++ GCC_except_table11568
++ GCC_except_table11576
++ GCC_except_table11582
++ GCC_except_table11595
++ GCC_except_table11599
++ GCC_except_table11606
++ GCC_except_table11625
++ GCC_except_table11628
++ GCC_except_table11681
++ GCC_except_table11693
++ GCC_except_table11710
++ GCC_except_table11719
++ GCC_except_table11723
++ GCC_except_table11727
++ GCC_except_table11731
++ GCC_except_table11763
++ GCC_except_table11771
++ GCC_except_table11773
++ GCC_except_table11794
++ GCC_except_table11832
++ GCC_except_table11834
++ GCC_except_table11836
++ GCC_except_table11840
++ GCC_except_table11859
++ GCC_except_table11863
++ GCC_except_table11866
++ GCC_except_table11874
++ GCC_except_table11880
++ GCC_except_table11883
++ GCC_except_table11885
++ GCC_except_table11896
++ GCC_except_table11910
++ GCC_except_table11919
++ GCC_except_table11922
++ GCC_except_table11929
++ GCC_except_table11936
++ GCC_except_table11940
++ GCC_except_table11942
++ GCC_except_table11950
++ GCC_except_table11954
++ GCC_except_table11960
++ GCC_except_table11963
++ GCC_except_table11965
++ GCC_except_table11968
++ GCC_except_table11970
++ GCC_except_table11974
++ GCC_except_table11979
++ GCC_except_table11985
++ GCC_except_table11988
++ GCC_except_table11992
++ GCC_except_table11995
++ GCC_except_table12002
++ GCC_except_table12014
++ GCC_except_table12028
++ GCC_except_table12032
++ GCC_except_table12037
++ GCC_except_table12039
++ GCC_except_table12043
++ GCC_except_table12049
++ GCC_except_table12054
++ GCC_except_table12062
++ GCC_except_table12066
++ GCC_except_table12078
++ GCC_except_table12084
++ GCC_except_table12092
++ GCC_except_table12096
++ GCC_except_table12098
++ GCC_except_table12110
++ GCC_except_table12113
++ GCC_except_table12117
++ GCC_except_table12120
++ GCC_except_table12128
++ GCC_except_table12132
++ GCC_except_table12139
++ GCC_except_table12151
++ GCC_except_table12155
++ GCC_except_table12184
++ GCC_except_table12189
++ GCC_except_table12206
++ GCC_except_table12214
++ GCC_except_table12217
++ GCC_except_table12221
++ GCC_except_table12227
++ GCC_except_table12233
++ GCC_except_table12236
++ GCC_except_table12238
++ GCC_except_table12246
++ GCC_except_table12252
++ GCC_except_table12258
++ GCC_except_table12260
++ GCC_except_table12263
++ GCC_except_table12265
++ GCC_except_table12270
++ GCC_except_table12273
++ GCC_except_table12285
++ GCC_except_table12293
++ GCC_except_table12295
++ GCC_except_table12299
++ GCC_except_table12301
++ GCC_except_table12366
++ GCC_except_table12368
++ GCC_except_table12377
++ GCC_except_table12382
++ GCC_except_table12384
++ GCC_except_table12388
++ GCC_except_table12394
++ GCC_except_table12399
++ GCC_except_table12404
++ GCC_except_table12407
++ GCC_except_table12414
++ GCC_except_table12423
++ GCC_except_table12425
++ GCC_except_table12439
++ GCC_except_table12441
++ GCC_except_table12444
++ SSLCreateContextWithRecordFuncsAndPath.onceToken
++ _SSLCreateContextWithRecordFuncsAndPath
++ ___SSLCreateContextWithRecordFuncsAndPath_block_invoke
++ _dyld_image_path_containing_address
++ _tls_handshake_create_for_caller
+- GCC_except_table11459
+- GCC_except_table11462
+- GCC_except_table11467
+- GCC_except_table11483
+- GCC_except_table11488
+- GCC_except_table11493
+- GCC_except_table11546
+- GCC_except_table11551
+- GCC_except_table11558
+- GCC_except_table11567
+- GCC_except_table11574
+- GCC_except_table11579
+- GCC_except_table11593
+- GCC_except_table11598
+- GCC_except_table11605
+- GCC_except_table11624
+- GCC_except_table11627
+- GCC_except_table11680
+- GCC_except_table11692
+- GCC_except_table11708
+- GCC_except_table11718
+- GCC_except_table11722
+- GCC_except_table11726
+- GCC_except_table11730
+- GCC_except_table11762
+- GCC_except_table11768
+- GCC_except_table11772
+- GCC_except_table11793
+- GCC_except_table11831
+- GCC_except_table11833
+- GCC_except_table11835
+- GCC_except_table11839
+- GCC_except_table11858
+- GCC_except_table11862
+- GCC_except_table11865
+- GCC_except_table11873
+- GCC_except_table11879
+- GCC_except_table11882
+- GCC_except_table11884
+- GCC_except_table11895
+- GCC_except_table11897
+- GCC_except_table11911
+- GCC_except_table11921
+- GCC_except_table11925
+- GCC_except_table11931
+- GCC_except_table11939
+- GCC_except_table11941
+- GCC_except_table11949
+- GCC_except_table11952
+- GCC_except_table11956
+- GCC_except_table11962
+- GCC_except_table11964
+- GCC_except_table11967
+- GCC_except_table11969
+- GCC_except_table11972
+- GCC_except_table11976
+- GCC_except_table11983
+- GCC_except_table11987
+- GCC_except_table11991
+- GCC_except_table11994
+- GCC_except_table11999
+- GCC_except_table12013
+- GCC_except_table12027
+- GCC_except_table12031
+- GCC_except_table12036
+- GCC_except_table12038
+- GCC_except_table12042
+- GCC_except_table12047
+- GCC_except_table12052
+- GCC_except_table12061
+- GCC_except_table12063
+- GCC_except_table12077
+- GCC_except_table12083
+- GCC_except_table12091
+- GCC_except_table12094
+- GCC_except_table12097
+- GCC_except_table12109
+- GCC_except_table12111
+- GCC_except_table12115
+- GCC_except_table12119
+- GCC_except_table12121
+- GCC_except_table12131
+- GCC_except_table12136
+- GCC_except_table12150
+- GCC_except_table12152
+- GCC_except_table12178
+- GCC_except_table12185
+- GCC_except_table12204
+- GCC_except_table12213
+- GCC_except_table12216
+- GCC_except_table12220
+- GCC_except_table12222
+- GCC_except_table12231
+- GCC_except_table12235
+- GCC_except_table12237
+- GCC_except_table12245
+- GCC_except_table12251
+- GCC_except_table12256
+- GCC_except_table12259
+- GCC_except_table12262
+- GCC_except_table12264
+- GCC_except_table12266
+- GCC_except_table12272
+- GCC_except_table12284
+- GCC_except_table12288
+- GCC_except_table12294
+- GCC_except_table12298
+- GCC_except_table12300
+- GCC_except_table12365
+- GCC_except_table12367
+- GCC_except_table12374
+- GCC_except_table12380
+- GCC_except_table12383
+- GCC_except_table12385
+- GCC_except_table12390
+- GCC_except_table12396
+- GCC_except_table12401
+- GCC_except_table12406
+- GCC_except_table12412
+- GCC_except_table12421
+- GCC_except_table12424
+- GCC_except_table12426
+- GCC_except_table12440
+- GCC_except_table12442
+- SSLCreateContextWithRecordFuncs.onceToken
+- ___SSLCreateContextWithRecordFuncs_block_invoke
+- _tls_handshake_create
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CE8HugAwLsSMipuSnLGt6ecV36VO0k3c_Rj2ag4/Library/Caches/com.apple.xbs/Sources/Security/OSX/libsecurity_transform/lib/SecSignVerifyTransform.c"
+- "/AppleInternal/Library/BuildRoots/4~CDzOugCv_Waznatyg99qZrpr34Owt4BS9br4zzU/Library/Caches/com.apple.xbs/Sources/Security/OSX/libsecurity_transform/lib/SecSignVerifyTransform.c"
+
+```

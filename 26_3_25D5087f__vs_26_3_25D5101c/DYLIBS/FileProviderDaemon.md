@@ -1,0 +1,1043 @@
+## FileProviderDaemon
+
+> `/System/Library/PrivateFrameworks/FileProviderDaemon.framework/Versions/A/FileProviderDaemon`
+
+```diff
+
+-3882.80.11.0.0
+-  __TEXT.__text: 0xa5ae04
++3882.80.13.0.0
++  __TEXT.__text: 0xa5d634
+   __TEXT.__auth_stubs: 0x5e40
+   __TEXT.__objc_methlist: 0xa12c
+   __TEXT.__const: 0x29ba0
+-  __TEXT.__cstring: 0x4539d
++  __TEXT.__cstring: 0x453cd
+   __TEXT.__oslogstring: 0x1ed02
+   __TEXT.__gcc_except_tab: 0xefe8
+   __TEXT.__ustring: 0x171e
+   __TEXT.__dlopen_cstrs: 0xc3
+-  __TEXT.__constg_swiftt: 0x12f50
+-  __TEXT.__swift5_typeref: 0x12520
++  __TEXT.__constg_swiftt: 0x12f68
++  __TEXT.__swift5_typeref: 0x12560
+   __TEXT.__swift5_builtin: 0x898
+   __TEXT.__swift5_mpenum: 0x134
+-  __TEXT.__swift5_reflstr: 0xc55d
+-  __TEXT.__swift5_fieldmd: 0xb1a8
++  __TEXT.__swift5_reflstr: 0xc56d
++  __TEXT.__swift5_fieldmd: 0xb1b4
+   __TEXT.__swift5_assocty: 0x23f8
+-  __TEXT.__swift5_capture: 0x17900
++  __TEXT.__swift5_capture: 0x1796c
+   __TEXT.__swift5_proto: 0x1990
+   __TEXT.__swift5_types: 0xb0c
+   __TEXT.__swift5_types2: 0x4
+   __TEXT.__swift5_protos: 0xa0
+   __TEXT.__swift_as_entry: 0xb4
+   __TEXT.__swift_as_ret: 0xac
+-  __TEXT.__unwind_info: 0x14d10
+-  __TEXT.__eh_frame: 0x27c14
++  __TEXT.__unwind_info: 0x14cf8
++  __TEXT.__eh_frame: 0x27c7c
+   __TEXT.__objc_classname: 0xf23
+   __TEXT.__objc_methname: 0x1e393
+   __TEXT.__objc_methtype: 0x71fe
+
+   __DATA_CONST.__objc_superrefs: 0x298
+   __DATA_CONST.__objc_arraydata: 0x128
+   __AUTH_CONST.__auth_got: 0x2f30
+-  __AUTH_CONST.__const: 0x48aa0
++  __AUTH_CONST.__const: 0x48b68
+   __AUTH_CONST.__cfstring: 0x71c0
+-  __AUTH_CONST.__objc_const: 0x2bee8
++  __AUTH_CONST.__objc_const: 0x2bf08
+   __AUTH_CONST.__objc_arrayobj: 0xd8
+   __AUTH_CONST.__objc_intobj: 0x138
+   __AUTH_CONST.__objc_dictobj: 0xf0
+   __AUTH.__objc_data: 0x23b8
+   __AUTH.__data: 0x2718
+   __DATA.__objc_ivar: 0xb54
+-  __DATA.__data: 0x9be8
++  __DATA.__data: 0x9b68
+   __DATA.__bss: 0x26510
+   __DATA.__common: 0x310
+   __DATA_DIRTY.__objc_data: 0x39a0
+-  __DATA_DIRTY.__data: 0xcd18
++  __DATA_DIRTY.__data: 0xcd38
+   __DATA_DIRTY.__bss: 0xb800
+   __DATA_DIRTY.__common: 0x908
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4554A0C7-D1EF-3E4F-A04E-0692E73C91E7
+-  Functions: 29915
+-  Symbols:   19420
+-  CStrings:  13931
++  UUID: 5A5359CA-8A45-3A32-819C-B826575EE94D
++  Functions: 29920
++  Symbols:   19421
++  CStrings:  13932
+ 
+Symbols:
++ _symbolic ______pSgIegg_AB______pSgIegggn_ s5ErrorP 18FileProviderDaemon25_DatabaseReadOnlyAccessorP
++ _symbolic ______pSg______pSgIeggn_ s5ErrorP 18FileProviderDaemon25_DatabaseReadOnlyAccessorP
++ block_copy_helper.1023
++ block_copy_helper.1026
++ block_copy_helper.1281
++ block_copy_helper.1297
++ block_copy_helper.1304
++ block_copy_helper.1308
++ block_copy_helper.1312
++ block_copy_helper.1316
++ block_copy_helper.1325
++ block_copy_helper.1332
++ block_copy_helper.1352
++ block_copy_helper.1362
++ block_copy_helper.1372
++ block_copy_helper.1383
++ block_copy_helper.1487
++ block_copy_helper.1490
++ block_copy_helper.1552
++ block_copy_helper.1555
++ block_copy_helper.1562
++ block_copy_helper.1619
++ block_copy_helper.1622
++ block_copy_helper.1627
++ block_copy_helper.1632
++ block_copy_helper.1637
++ block_copy_helper.1642
++ block_copy_helper.1647
++ block_copy_helper.1652
++ block_copy_helper.4159
++ block_copy_helper.4212
++ block_copy_helper.4215
++ block_copy_helper.4294
++ block_copy_helper.4297
++ block_copy_helper.4342
++ block_copy_helper.4418
++ block_copy_helper.4469
++ block_copy_helper.4472
++ block_copy_helper.4504
++ block_copy_helper.4516
++ block_copy_helper.4528
++ block_copy_helper.4540
++ block_copy_helper.4546
++ block_copy_helper.4558
++ block_copy_helper.4624
++ block_copy_helper.4640
++ block_copy_helper.4647
++ block_copy_helper.4692
++ block_copy_helper.4765
++ block_copy_helper.4768
++ block_copy_helper.4799
++ block_copy_helper.4865
++ block_copy_helper.4868
++ block_copy_helper.4928
++ block_copy_helper.4931
++ block_copy_helper.4969
++ block_copy_helper.5000
++ block_copy_helper.5003
++ block_copy_helper.5006
++ block_copy_helper.5035
++ block_copy_helper.5038
++ block_copy_helper.5074
++ block_copy_helper.5077
++ block_copy_helper.5080
++ block_copy_helper.5114
++ block_copy_helper.5117
++ block_copy_helper.5143
++ block_copy_helper.5146
++ block_copy_helper.5176
++ block_copy_helper.5179
++ block_copy_helper.5203
++ block_copy_helper.5206
++ block_copy_helper.5239
++ block_copy_helper.5242
++ block_copy_helper.5245
++ block_copy_helper.5260
++ block_copy_helper.5267
++ block_copy_helper.5279
++ block_copy_helper.5288
++ block_copy_helper.5300
++ block_copy_helper.5312
++ block_copy_helper.5324
++ block_copy_helper.5330
++ block_copy_helper.5342
++ block_copy_helper.5369
++ block_copy_helper.5372
++ block_copy_helper.5425
++ block_copy_helper.5457
++ block_copy_helper.5470
++ block_copy_helper.5473
++ block_copy_helper.5479
++ block_copy_helper.5493
++ block_copy_helper.5499
++ block_copy_helper.5511
++ block_copy_helper.5522
++ block_copy_helper.5534
++ block_copy_helper.5543
++ block_copy_helper.5554
++ block_copy_helper.5560
++ block_copy_helper.5572
++ block_copy_helper.5667
++ block_copy_helper.5670
++ block_copy_helper.5806
++ block_copy_helper.5809
++ block_copy_helper.5849
++ block_copy_helper.5852
++ block_copy_helper.5892
++ block_copy_helper.5895
++ block_copy_helper.5906
++ block_copy_helper.5957
++ block_copy_helper.5960
++ block_copy_helper.5969
++ block_copy_helper.5986
++ block_copy_helper.5993
++ block_copy_helper.6011
++ block_copy_helper.6023
++ block_copy_helper.6041
++ block_copy_helper.6053
++ block_copy_helper.6071
++ block_copy_helper.6104
++ block_copy_helper.6107
++ block_copy_helper.6116
++ block_copy_helper.6150
++ block_copy_helper.6153
++ block_copy_helper.6175
++ block_copy_helper.6178
++ block_copy_helper.6196
++ block_copy_helper.6203
++ block_copy_helper.837
++ block_copy_helper.852
++ block_copy_helper.865
++ block_copy_helper.884
++ block_copy_helper.986
++ block_descriptor.1025
++ block_descriptor.1028
++ block_descriptor.1283
++ block_descriptor.1299
++ block_descriptor.1306
++ block_descriptor.1310
++ block_descriptor.1314
++ block_descriptor.1318
++ block_descriptor.1327
++ block_descriptor.1334
++ block_descriptor.1354
++ block_descriptor.1364
++ block_descriptor.1374
++ block_descriptor.1385
++ block_descriptor.1489
++ block_descriptor.1492
++ block_descriptor.1554
++ block_descriptor.1557
++ block_descriptor.1564
++ block_descriptor.1621
++ block_descriptor.1624
++ block_descriptor.1629
++ block_descriptor.1634
++ block_descriptor.1639
++ block_descriptor.1644
++ block_descriptor.1649
++ block_descriptor.1654
++ block_descriptor.4161
++ block_descriptor.4214
++ block_descriptor.4217
++ block_descriptor.4296
++ block_descriptor.4299
++ block_descriptor.4344
++ block_descriptor.4420
++ block_descriptor.4471
++ block_descriptor.4474
++ block_descriptor.4506
++ block_descriptor.4518
++ block_descriptor.4530
++ block_descriptor.4542
++ block_descriptor.4548
++ block_descriptor.4560
++ block_descriptor.4626
++ block_descriptor.4642
++ block_descriptor.4649
++ block_descriptor.4694
++ block_descriptor.4767
++ block_descriptor.4770
++ block_descriptor.4801
++ block_descriptor.4867
++ block_descriptor.4870
++ block_descriptor.4930
++ block_descriptor.4933
++ block_descriptor.4971
++ block_descriptor.5002
++ block_descriptor.5005
++ block_descriptor.5008
++ block_descriptor.5037
++ block_descriptor.5040
++ block_descriptor.5076
++ block_descriptor.5079
++ block_descriptor.5082
++ block_descriptor.5116
++ block_descriptor.5119
++ block_descriptor.5145
++ block_descriptor.5148
++ block_descriptor.5178
++ block_descriptor.5181
++ block_descriptor.5205
++ block_descriptor.5208
++ block_descriptor.5241
++ block_descriptor.5244
++ block_descriptor.5247
++ block_descriptor.5262
++ block_descriptor.5269
++ block_descriptor.5281
++ block_descriptor.5290
++ block_descriptor.5302
++ block_descriptor.5314
++ block_descriptor.5326
++ block_descriptor.5332
++ block_descriptor.5344
++ block_descriptor.5371
++ block_descriptor.5374
++ block_descriptor.5427
++ block_descriptor.5459
++ block_descriptor.5472
++ block_descriptor.5475
++ block_descriptor.5481
++ block_descriptor.5495
++ block_descriptor.5501
++ block_descriptor.5513
++ block_descriptor.5524
++ block_descriptor.5536
++ block_descriptor.5545
++ block_descriptor.5556
++ block_descriptor.5562
++ block_descriptor.5574
++ block_descriptor.5669
++ block_descriptor.5672
++ block_descriptor.5808
++ block_descriptor.5811
++ block_descriptor.5851
++ block_descriptor.5854
++ block_descriptor.5894
++ block_descriptor.5897
++ block_descriptor.5908
++ block_descriptor.5959
++ block_descriptor.5962
++ block_descriptor.5971
++ block_descriptor.5988
++ block_descriptor.5995
++ block_descriptor.6013
++ block_descriptor.6025
++ block_descriptor.6043
++ block_descriptor.6055
++ block_descriptor.6073
++ block_descriptor.6106
++ block_descriptor.6109
++ block_descriptor.6118
++ block_descriptor.6152
++ block_descriptor.6155
++ block_descriptor.6177
++ block_descriptor.6180
++ block_descriptor.6198
++ block_descriptor.6205
++ block_descriptor.839
++ block_descriptor.854
++ block_descriptor.867
++ block_descriptor.886
++ block_descriptor.988
++ block_destroy_helper.1024
++ block_destroy_helper.1027
++ block_destroy_helper.1282
++ block_destroy_helper.1298
++ block_destroy_helper.1305
++ block_destroy_helper.1309
++ block_destroy_helper.1313
++ block_destroy_helper.1317
++ block_destroy_helper.1326
++ block_destroy_helper.1333
++ block_destroy_helper.1353
++ block_destroy_helper.1363
++ block_destroy_helper.1373
++ block_destroy_helper.1384
++ block_destroy_helper.1488
++ block_destroy_helper.1491
++ block_destroy_helper.1553
++ block_destroy_helper.1556
++ block_destroy_helper.1563
++ block_destroy_helper.1620
++ block_destroy_helper.1623
++ block_destroy_helper.1628
++ block_destroy_helper.1633
++ block_destroy_helper.1638
++ block_destroy_helper.1643
++ block_destroy_helper.1648
++ block_destroy_helper.1653
++ block_destroy_helper.4160
++ block_destroy_helper.4213
++ block_destroy_helper.4216
++ block_destroy_helper.4295
++ block_destroy_helper.4298
++ block_destroy_helper.4343
++ block_destroy_helper.4419
++ block_destroy_helper.4470
++ block_destroy_helper.4473
++ block_destroy_helper.4505
++ block_destroy_helper.4517
++ block_destroy_helper.4529
++ block_destroy_helper.4541
++ block_destroy_helper.4547
++ block_destroy_helper.4559
++ block_destroy_helper.4625
++ block_destroy_helper.4641
++ block_destroy_helper.4648
++ block_destroy_helper.4693
++ block_destroy_helper.4766
++ block_destroy_helper.4769
++ block_destroy_helper.4800
++ block_destroy_helper.4866
++ block_destroy_helper.4869
++ block_destroy_helper.4929
++ block_destroy_helper.4932
++ block_destroy_helper.4970
++ block_destroy_helper.5001
++ block_destroy_helper.5004
++ block_destroy_helper.5007
++ block_destroy_helper.5036
++ block_destroy_helper.5039
++ block_destroy_helper.5075
++ block_destroy_helper.5078
++ block_destroy_helper.5081
++ block_destroy_helper.5115
++ block_destroy_helper.5118
++ block_destroy_helper.5144
++ block_destroy_helper.5147
++ block_destroy_helper.5177
++ block_destroy_helper.5180
++ block_destroy_helper.5204
++ block_destroy_helper.5207
++ block_destroy_helper.5240
++ block_destroy_helper.5243
++ block_destroy_helper.5246
++ block_destroy_helper.5261
++ block_destroy_helper.5268
++ block_destroy_helper.5280
++ block_destroy_helper.5289
++ block_destroy_helper.5301
++ block_destroy_helper.5313
++ block_destroy_helper.5325
++ block_destroy_helper.5331
++ block_destroy_helper.5343
++ block_destroy_helper.5370
++ block_destroy_helper.5373
++ block_destroy_helper.5426
++ block_destroy_helper.5458
++ block_destroy_helper.5471
++ block_destroy_helper.5474
++ block_destroy_helper.5480
++ block_destroy_helper.5494
++ block_destroy_helper.5500
++ block_destroy_helper.5512
++ block_destroy_helper.5523
++ block_destroy_helper.5535
++ block_destroy_helper.5544
++ block_destroy_helper.5555
++ block_destroy_helper.5561
++ block_destroy_helper.5573
++ block_destroy_helper.5668
++ block_destroy_helper.5671
++ block_destroy_helper.5807
++ block_destroy_helper.5810
++ block_destroy_helper.5850
++ block_destroy_helper.5853
++ block_destroy_helper.5893
++ block_destroy_helper.5896
++ block_destroy_helper.5907
++ block_destroy_helper.5958
++ block_destroy_helper.5961
++ block_destroy_helper.5970
++ block_destroy_helper.5987
++ block_destroy_helper.5994
++ block_destroy_helper.6012
++ block_destroy_helper.6024
++ block_destroy_helper.6042
++ block_destroy_helper.6054
++ block_destroy_helper.6072
++ block_destroy_helper.6105
++ block_destroy_helper.6108
++ block_destroy_helper.6117
++ block_destroy_helper.6151
++ block_destroy_helper.6154
++ block_destroy_helper.6176
++ block_destroy_helper.6179
++ block_destroy_helper.6197
++ block_destroy_helper.6204
++ block_destroy_helper.838
++ block_destroy_helper.853
++ block_destroy_helper.866
++ block_destroy_helper.885
++ block_destroy_helper.987
++ objectdestroy.1158Tm
++ objectdestroy.1234Tm
++ objectdestroy.1397Tm
++ objectdestroy.1418Tm
++ objectdestroy.1494Tm
++ objectdestroy.1497Tm
++ objectdestroy.1592Tm
++ objectdestroy.4107Tm
++ objectdestroy.4336Tm
++ objectdestroy.4487Tm
++ objectdestroy.4568Tm
++ objectdestroy.4742Tm
++ objectdestroy.4785Tm
++ objectdestroy.4978Tm
++ objectdestroy.5010Tm
++ objectdestroy.5013Tm
++ objectdestroy.5088Tm
++ objectdestroy.5674Tm
++ objectdestroy.5688Tm
++ objectdestroy.682Tm
++ objectdestroy.812Tm
++ objectdestroy.832Tm
++ objectdestroy.835Tm
++ objectdestroy.844Tm
+- _symbolic ______pSgIegg_ABIeggg_ s5ErrorP
+- block_copy_helper.1014
+- block_copy_helper.1017
+- block_copy_helper.1291
+- block_copy_helper.1298
+- block_copy_helper.1302
+- block_copy_helper.1306
+- block_copy_helper.1310
+- block_copy_helper.1319
+- block_copy_helper.1326
+- block_copy_helper.1346
+- block_copy_helper.1356
+- block_copy_helper.1366
+- block_copy_helper.1481
+- block_copy_helper.1484
+- block_copy_helper.1543
+- block_copy_helper.1546
+- block_copy_helper.1556
+- block_copy_helper.1607
+- block_copy_helper.1610
+- block_copy_helper.1621
+- block_copy_helper.1626
+- block_copy_helper.1631
+- block_copy_helper.1636
+- block_copy_helper.1641
+- block_copy_helper.1646
+- block_copy_helper.4149
+- block_copy_helper.4202
+- block_copy_helper.4205
+- block_copy_helper.4284
+- block_copy_helper.4287
+- block_copy_helper.4332
+- block_copy_helper.4408
+- block_copy_helper.4459
+- block_copy_helper.4462
+- block_copy_helper.4494
+- block_copy_helper.4506
+- block_copy_helper.4518
+- block_copy_helper.4530
+- block_copy_helper.4536
+- block_copy_helper.4548
+- block_copy_helper.4614
+- block_copy_helper.4630
+- block_copy_helper.4637
+- block_copy_helper.4682
+- block_copy_helper.4755
+- block_copy_helper.4758
+- block_copy_helper.4789
+- block_copy_helper.4855
+- block_copy_helper.4858
+- block_copy_helper.4918
+- block_copy_helper.4921
+- block_copy_helper.4959
+- block_copy_helper.4990
+- block_copy_helper.4993
+- block_copy_helper.4996
+- block_copy_helper.5025
+- block_copy_helper.5028
+- block_copy_helper.5064
+- block_copy_helper.5067
+- block_copy_helper.5070
+- block_copy_helper.5104
+- block_copy_helper.5107
+- block_copy_helper.5133
+- block_copy_helper.5136
+- block_copy_helper.5166
+- block_copy_helper.5169
+- block_copy_helper.5193
+- block_copy_helper.5196
+- block_copy_helper.5229
+- block_copy_helper.5232
+- block_copy_helper.5235
+- block_copy_helper.5250
+- block_copy_helper.5257
+- block_copy_helper.5269
+- block_copy_helper.5278
+- block_copy_helper.5290
+- block_copy_helper.5302
+- block_copy_helper.5314
+- block_copy_helper.5320
+- block_copy_helper.5332
+- block_copy_helper.5359
+- block_copy_helper.5362
+- block_copy_helper.5415
+- block_copy_helper.5447
+- block_copy_helper.5450
+- block_copy_helper.5463
+- block_copy_helper.5469
+- block_copy_helper.5483
+- block_copy_helper.5489
+- block_copy_helper.5501
+- block_copy_helper.5512
+- block_copy_helper.5524
+- block_copy_helper.5533
+- block_copy_helper.5544
+- block_copy_helper.5550
+- block_copy_helper.5562
+- block_copy_helper.5657
+- block_copy_helper.5660
+- block_copy_helper.5782
+- block_copy_helper.5785
+- block_copy_helper.5825
+- block_copy_helper.5828
+- block_copy_helper.5872
+- block_copy_helper.5875
+- block_copy_helper.5886
+- block_copy_helper.5937
+- block_copy_helper.5940
+- block_copy_helper.5946
+- block_copy_helper.5949
+- block_copy_helper.5973
+- block_copy_helper.5991
+- block_copy_helper.6003
+- block_copy_helper.6021
+- block_copy_helper.6033
+- block_copy_helper.6051
+- block_copy_helper.6084
+- block_copy_helper.6087
+- block_copy_helper.6096
+- block_copy_helper.6130
+- block_copy_helper.6133
+- block_copy_helper.6155
+- block_copy_helper.6158
+- block_copy_helper.6176
+- block_copy_helper.6183
+- block_copy_helper.980
+- block_descriptor.1016
+- block_descriptor.1019
+- block_descriptor.1293
+- block_descriptor.1300
+- block_descriptor.1304
+- block_descriptor.1308
+- block_descriptor.1312
+- block_descriptor.1321
+- block_descriptor.1328
+- block_descriptor.1348
+- block_descriptor.1358
+- block_descriptor.1368
+- block_descriptor.1483
+- block_descriptor.1486
+- block_descriptor.1545
+- block_descriptor.1548
+- block_descriptor.1558
+- block_descriptor.1609
+- block_descriptor.1612
+- block_descriptor.1623
+- block_descriptor.1628
+- block_descriptor.1633
+- block_descriptor.1638
+- block_descriptor.1643
+- block_descriptor.1648
+- block_descriptor.4151
+- block_descriptor.4204
+- block_descriptor.4207
+- block_descriptor.4286
+- block_descriptor.4289
+- block_descriptor.4334
+- block_descriptor.4410
+- block_descriptor.4461
+- block_descriptor.4464
+- block_descriptor.4496
+- block_descriptor.4508
+- block_descriptor.4520
+- block_descriptor.4532
+- block_descriptor.4538
+- block_descriptor.4550
+- block_descriptor.4616
+- block_descriptor.4632
+- block_descriptor.4639
+- block_descriptor.4684
+- block_descriptor.4757
+- block_descriptor.4760
+- block_descriptor.4791
+- block_descriptor.4857
+- block_descriptor.4860
+- block_descriptor.4920
+- block_descriptor.4923
+- block_descriptor.4961
+- block_descriptor.4992
+- block_descriptor.4995
+- block_descriptor.4998
+- block_descriptor.5027
+- block_descriptor.5030
+- block_descriptor.5066
+- block_descriptor.5069
+- block_descriptor.5072
+- block_descriptor.5106
+- block_descriptor.5109
+- block_descriptor.5135
+- block_descriptor.5138
+- block_descriptor.5168
+- block_descriptor.5171
+- block_descriptor.5195
+- block_descriptor.5198
+- block_descriptor.5231
+- block_descriptor.5234
+- block_descriptor.5237
+- block_descriptor.5252
+- block_descriptor.5259
+- block_descriptor.5271
+- block_descriptor.5280
+- block_descriptor.5292
+- block_descriptor.5304
+- block_descriptor.5316
+- block_descriptor.5322
+- block_descriptor.5334
+- block_descriptor.5361
+- block_descriptor.5364
+- block_descriptor.5417
+- block_descriptor.5449
+- block_descriptor.5452
+- block_descriptor.5465
+- block_descriptor.5471
+- block_descriptor.5485
+- block_descriptor.5491
+- block_descriptor.5503
+- block_descriptor.5514
+- block_descriptor.5526
+- block_descriptor.5535
+- block_descriptor.5546
+- block_descriptor.5552
+- block_descriptor.5564
+- block_descriptor.5659
+- block_descriptor.5662
+- block_descriptor.5784
+- block_descriptor.5787
+- block_descriptor.5827
+- block_descriptor.5830
+- block_descriptor.5874
+- block_descriptor.5877
+- block_descriptor.5888
+- block_descriptor.5939
+- block_descriptor.5942
+- block_descriptor.5948
+- block_descriptor.5951
+- block_descriptor.5975
+- block_descriptor.5993
+- block_descriptor.6005
+- block_descriptor.6023
+- block_descriptor.6035
+- block_descriptor.6053
+- block_descriptor.6086
+- block_descriptor.6089
+- block_descriptor.6098
+- block_descriptor.6132
+- block_descriptor.6135
+- block_descriptor.6157
+- block_descriptor.6160
+- block_descriptor.6178
+- block_descriptor.6185
+- block_descriptor.982
+- block_destroy_helper.1015
+- block_destroy_helper.1018
+- block_destroy_helper.1292
+- block_destroy_helper.1299
+- block_destroy_helper.1303
+- block_destroy_helper.1307
+- block_destroy_helper.1311
+- block_destroy_helper.1320
+- block_destroy_helper.1327
+- block_destroy_helper.1347
+- block_destroy_helper.1357
+- block_destroy_helper.1367
+- block_destroy_helper.1482
+- block_destroy_helper.1485
+- block_destroy_helper.1544
+- block_destroy_helper.1547
+- block_destroy_helper.1557
+- block_destroy_helper.1608
+- block_destroy_helper.1611
+- block_destroy_helper.1622
+- block_destroy_helper.1627
+- block_destroy_helper.1632
+- block_destroy_helper.1637
+- block_destroy_helper.1642
+- block_destroy_helper.1647
+- block_destroy_helper.4150
+- block_destroy_helper.4203
+- block_destroy_helper.4206
+- block_destroy_helper.4285
+- block_destroy_helper.4288
+- block_destroy_helper.4333
+- block_destroy_helper.4409
+- block_destroy_helper.4460
+- block_destroy_helper.4463
+- block_destroy_helper.4495
+- block_destroy_helper.4507
+- block_destroy_helper.4519
+- block_destroy_helper.4531
+- block_destroy_helper.4537
+- block_destroy_helper.4549
+- block_destroy_helper.4615
+- block_destroy_helper.4631
+- block_destroy_helper.4638
+- block_destroy_helper.4683
+- block_destroy_helper.4756
+- block_destroy_helper.4759
+- block_destroy_helper.4790
+- block_destroy_helper.4856
+- block_destroy_helper.4859
+- block_destroy_helper.4919
+- block_destroy_helper.4922
+- block_destroy_helper.4960
+- block_destroy_helper.4991
+- block_destroy_helper.4994
+- block_destroy_helper.4997
+- block_destroy_helper.5026
+- block_destroy_helper.5029
+- block_destroy_helper.5065
+- block_destroy_helper.5068
+- block_destroy_helper.5071
+- block_destroy_helper.5105
+- block_destroy_helper.5108
+- block_destroy_helper.5134
+- block_destroy_helper.5137
+- block_destroy_helper.5167
+- block_destroy_helper.5170
+- block_destroy_helper.5194
+- block_destroy_helper.5197
+- block_destroy_helper.5230
+- block_destroy_helper.5233
+- block_destroy_helper.5236
+- block_destroy_helper.5251
+- block_destroy_helper.5258
+- block_destroy_helper.5270
+- block_destroy_helper.5279
+- block_destroy_helper.5291
+- block_destroy_helper.5303
+- block_destroy_helper.5315
+- block_destroy_helper.5321
+- block_destroy_helper.5333
+- block_destroy_helper.5360
+- block_destroy_helper.5363
+- block_destroy_helper.5416
+- block_destroy_helper.5448
+- block_destroy_helper.5451
+- block_destroy_helper.5464
+- block_destroy_helper.5470
+- block_destroy_helper.5484
+- block_destroy_helper.5490
+- block_destroy_helper.5502
+- block_destroy_helper.5513
+- block_destroy_helper.5525
+- block_destroy_helper.5534
+- block_destroy_helper.5545
+- block_destroy_helper.5551
+- block_destroy_helper.5563
+- block_destroy_helper.5658
+- block_destroy_helper.5661
+- block_destroy_helper.5783
+- block_destroy_helper.5786
+- block_destroy_helper.5826
+- block_destroy_helper.5829
+- block_destroy_helper.5873
+- block_destroy_helper.5876
+- block_destroy_helper.5887
+- block_destroy_helper.5938
+- block_destroy_helper.5941
+- block_destroy_helper.5947
+- block_destroy_helper.5950
+- block_destroy_helper.5974
+- block_destroy_helper.5992
+- block_destroy_helper.6004
+- block_destroy_helper.6022
+- block_destroy_helper.6034
+- block_destroy_helper.6052
+- block_destroy_helper.6085
+- block_destroy_helper.6088
+- block_destroy_helper.6097
+- block_destroy_helper.6131
+- block_destroy_helper.6134
+- block_destroy_helper.6156
+- block_destroy_helper.6159
+- block_destroy_helper.6177
+- block_destroy_helper.6184
+- block_destroy_helper.981
+- objectdestroy.1152Tm
+- objectdestroy.1228Tm
+- objectdestroy.1391Tm
+- objectdestroy.1412Tm
+- objectdestroy.1488Tm
+- objectdestroy.1491Tm
+- objectdestroy.1586Tm
+- objectdestroy.4097Tm
+- objectdestroy.4326Tm
+- objectdestroy.4477Tm
+- objectdestroy.4558Tm
+- objectdestroy.4732Tm
+- objectdestroy.4775Tm
+- objectdestroy.4968Tm
+- objectdestroy.5000Tm
+- objectdestroy.5003Tm
+- objectdestroy.5078Tm
+- objectdestroy.5664Tm
+- objectdestroy.5678Tm
+- objectdestroy.5733Tm
+- objectdestroy.676Tm
+- objectdestroy.806Tm
+- objectdestroy.820Tm
+- objectdestroy.838Tm
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/app-library/FPDFetchAppLibraryIconOperation.m"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/FPDAccessRight.m"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/FPDDomain.m"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/FPDDomainExtensionBackend.m"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/FPDDomainIndexer/FPDDomainIndexer.m"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/FPDExtensionManager.m"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/FPDExtensionRequestRecord.m"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/FPDExtensionSession.m"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/FPDFilePresenter.m"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/FPDKnownFolderAlertPresenter.m"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/FPDProcessMonitor.m"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/FPDProvider.m"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/FPDPushConnection.m"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/FPDSharedSystemScheduler.m"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/FPDVolume.m"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/FPDVolumeManager.m"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/FPDXPCServicer.m"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/action operation engine/FPActionOperationLocator+Daemon.m"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/action operation engine/FPDActionOperation.m"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/action operation engine/FPDActionOperationEngine.m"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/action operation engine/FPDItemIterator.m"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/action operation engine/FPDIterator.m"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/action operation engine/download/FPDDownloadManager.m"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/action operation engine/move/FPDMoveReader.m"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/action operation engine/move/FPDMoveWriter.m"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/action operation engine/move/FPDMoveWriterToProvider.m"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/fpfs/FPDDomainFPFSBackend.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/fpfs/FPFSGlobalProgress.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/fpfs/InternalPathsManager.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/fpfs/enumerators/ChangeEnumerator.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/fpck/FPCKReport.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/fpck/PeriodicFPCK.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/implementations/file-system/persistence/BackgroundDownloaderPacer.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/implementations/file-system/persistence/Prequelite+FSSyncAdditions.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/implementations/file-system/persistence/SQLBackgroundDownloader.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/implementations/file-system/persistence/SQLDatabase.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/implementations/file-system/persistence/SQLItemJobRegistry.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/implementations/file-system/persistence/SQLJobRegistry.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/implementations/file-system/persistence/SQLReconciliationTable.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/implementations/file-system/persistence/SQLSnapshot.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/implementations/file-system/persistence/SQLThrottler.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/implementations/file-system/tree/VFSFileTree+DiagnosticCollection.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/implementations/file-system/tree/VFSFileTree+Lookup.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/implementations/file-system/tree/VFSFileTree.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/implementations/file-system/tree/VFSItem.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/implementations/file-system/tree/VFSLookupScope.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/interfaces/file-tree/item/FileItemID.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/interfaces/file-tree/item/types/ItemNonSyncableAttributes.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/interfaces/job/Job.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/interfaces/job/TestingOperation.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/interfaces/persistence/JobRegistry.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/interfaces/persistence/ReconciliationTable.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/interfaces/persistence/SyncStateStore.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/interfaces/persistence/types/ItemReconciliation.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/sync-logic/ConcreteDatabase.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/sync-logic/Database+JobExecution.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/sync-logic/Maintenance.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/sync-logic/Propagation.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/sync-logic/Reconciliation.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/utilities/PausableTimer.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/utilities/Utilities.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/wharf/DocumentWharf.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/tests/units/FSTester/FSTester.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/os-plugins/LocalStorage/LocalContainer.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/os-plugins/LocalStorage/LocalItem.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/os-plugins/LocalStorage/LocalRootEnumerator.swift"
++ "/AppleInternal/Library/BuildRoots/4~CGDDugDU9bwYObWz6-RI07uBHktUkbzpMCpvnks/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/os-plugins/LocalStorage/extension/URL+LocalStorageAdditions.swift"
++ "flushIfJobsWaitingForFlush(flushWaitersInitiated:)"
++ "flushWasOnceStable"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/app-library/FPDFetchAppLibraryIconOperation.m"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/FPDAccessRight.m"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/FPDDomain.m"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/FPDDomainExtensionBackend.m"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/FPDDomainIndexer/FPDDomainIndexer.m"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/FPDExtensionManager.m"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/FPDExtensionRequestRecord.m"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/FPDExtensionSession.m"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/FPDFilePresenter.m"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/FPDKnownFolderAlertPresenter.m"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/FPDProcessMonitor.m"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/FPDProvider.m"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/FPDPushConnection.m"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/FPDSharedSystemScheduler.m"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/FPDVolume.m"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/FPDVolumeManager.m"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/FPDXPCServicer.m"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/action operation engine/FPActionOperationLocator+Daemon.m"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/action operation engine/FPDActionOperation.m"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/action operation engine/FPDActionOperationEngine.m"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/action operation engine/FPDItemIterator.m"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/action operation engine/FPDIterator.m"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/action operation engine/download/FPDDownloadManager.m"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/action operation engine/move/FPDMoveReader.m"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/action operation engine/move/FPDMoveWriter.m"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fileproviderd/action operation engine/move/FPDMoveWriterToProvider.m"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/fpfs/FPDDomainFPFSBackend.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/fpfs/FPFSGlobalProgress.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/fpfs/InternalPathsManager.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/fpfs/enumerators/ChangeEnumerator.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/fpck/FPCKReport.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/fpck/PeriodicFPCK.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/implementations/file-system/persistence/BackgroundDownloaderPacer.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/implementations/file-system/persistence/Prequelite+FSSyncAdditions.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/implementations/file-system/persistence/SQLBackgroundDownloader.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/implementations/file-system/persistence/SQLDatabase.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/implementations/file-system/persistence/SQLItemJobRegistry.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/implementations/file-system/persistence/SQLJobRegistry.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/implementations/file-system/persistence/SQLReconciliationTable.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/implementations/file-system/persistence/SQLSnapshot.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/implementations/file-system/persistence/SQLThrottler.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/implementations/file-system/tree/VFSFileTree+DiagnosticCollection.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/implementations/file-system/tree/VFSFileTree+Lookup.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/implementations/file-system/tree/VFSFileTree.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/implementations/file-system/tree/VFSItem.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/implementations/file-system/tree/VFSLookupScope.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/interfaces/file-tree/item/FileItemID.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/interfaces/file-tree/item/types/ItemNonSyncableAttributes.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/interfaces/job/Job.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/interfaces/job/TestingOperation.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/interfaces/persistence/JobRegistry.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/interfaces/persistence/ReconciliationTable.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/interfaces/persistence/SyncStateStore.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/interfaces/persistence/types/ItemReconciliation.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/sync-logic/ConcreteDatabase.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/sync-logic/Database+JobExecution.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/sync-logic/Maintenance.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/sync-logic/Propagation.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/sync-logic/Reconciliation.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/utilities/PausableTimer.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/utilities/Utilities.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/libfssync/wharf/DocumentWharf.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/fssync/tests/units/FSTester/FSTester.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/os-plugins/LocalStorage/LocalContainer.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/os-plugins/LocalStorage/LocalItem.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/os-plugins/LocalStorage/LocalRootEnumerator.swift"
+- "/AppleInternal/Library/BuildRoots/4~CD3FugAhEDsrAT_nyBqKmRmKGkoqTlaQPq_zZNA/Library/Caches/com.apple.xbs/Sources/FileProvider_executables/os-plugins/LocalStorage/extension/URL+LocalStorageAdditions.swift"
+- "flushIfJobsWaitingForFlush()"
+
+```

@@ -1,0 +1,197 @@
+## com.apple.MobileSoftwareUpdate.CryptegraftService
+
+> `/System/Library/PrivateFrameworks/MobileSoftwareUpdate.framework/Versions/A/XPCServices/com.apple.MobileSoftwareUpdate.CryptegraftService.xpc/Contents/MacOS/com.apple.MobileSoftwareUpdate.CryptegraftService`
+
+```diff
+
+-2422.80.7.0.0
++2422.80.7.0.1
+   __TEXT.__text: 0x65f04
+   __TEXT.__auth_stubs: 0x1b40
+   __TEXT.__objc_stubs: 0x4fe0
+   __TEXT.__objc_methlist: 0x3d24
+   __TEXT.__const: 0x5130
+-  __TEXT.__cstring: 0x15155
++  __TEXT.__cstring: 0x15159
+   __TEXT.__objc_classname: 0xda1
+   __TEXT.__objc_methtype: 0x1329
+   __TEXT.__oslogstring: 0x1a1a
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libpartition2_dynamic.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 41CC185E-D5E3-352C-9819-DD7B28BC45A2
++  UUID: 181E8F0A-0FAB-3DC4-8DFA-6F70F75DB0D8
+   Functions: 2151
+   Symbols:   9725
+   CStrings:  6457
+Symbols:
++ /AppleInternal/Library/BuildRoots/4~CE7sugC1k5rbbeHCJ8PA4hhPNpEd84No_RaHpYA/Library/Caches/com.apple.xbs/Sources/bless_libraries/bless2/libbless2/
++ /AppleInternal/Library/BuildRoots/4~CGCzugDI235-hNkBoe5aJcQNs0auMMjiKikMfNY/Library/Caches/com.apple.xbs/Sources/libauthinstall/
++ /AppleInternal/Library/BuildRoots/4~CGCzugDI235-hNkBoe5aJcQNs0auMMjiKikMfNY/Library/Caches/com.apple.xbs/Sources/libauthinstall/ticket/
++ /AppleInternal/Library/BuildRoots/4~CGCzugDI235-hNkBoe5aJcQNs0auMMjiKikMfNY/Library/Caches/com.apple.xbs/Sources/libauthinstall/tssclient/lib/
++ /AppleInternal/Library/BuildRoots/4~CGCzugDI235-hNkBoe5aJcQNs0auMMjiKikMfNY/Library/Caches/com.apple.xbs/Sources/libauthinstall/vinyl/
++ /AppleInternal/Library/BuildRoots/4~CGHtugBHpKQgKZwdEB50bKqDftQxDha0UjuJi68/Library/Caches/com.apple.xbs/Sources/ramrod/MSUBootFirmwareUpdater/
++ /AppleInternal/Library/BuildRoots/4~CGHtugBHpKQgKZwdEB50bKqDftQxDha0UjuJi68/Library/Caches/com.apple.xbs/Sources/ramrod/libusbrestore/
++ /AppleInternal/Library/BuildRoots/4~CGHtugBHpKQgKZwdEB50bKqDftQxDha0UjuJi68/Library/Caches/com.apple.xbs/Sources/ramrod/ramrod/
++ /AppleInternal/Library/BuildRoots/4~CGHtugBHpKQgKZwdEB50bKqDftQxDha0UjuJi68/Library/Caches/com.apple.xbs/Sources/ramrod/ramrod/macOS/
++ /AppleInternal/Library/BuildRoots/4~CGHtugBHpKQgKZwdEB50bKqDftQxDha0UjuJi68/Library/Caches/com.apple.xbs/Sources/ramrod/restored/AsyncCheckpoint/
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libMSUBootFirmwareUpdater.a(AMRestorePartition.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libMSUBootFirmwareUpdater.a(DevNodeWriter.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libMSUBootFirmwareUpdater.a(IODualSPIWriter.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libMSUBootFirmwareUpdater.a(IOServiceWriter.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libMSUBootFirmwareUpdater.a(MSUBootFirmwareError.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libMSUBootFirmwareUpdater.a(MSUBootFirmwareUpdater.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libMSUBootFirmwareUpdater.a(PCIeNANDBootWriter.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libRamrodUpdateBrain.a(MSUBootObjectCopier.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libRamrodUpdateBrain.a(MSUCheckpointAsyncBlockContext.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libRamrodUpdateBrain.a(MSUCheckpointAsyncContext.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libRamrodUpdateBrain.a(ramrod_checkpoint.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libRamrodUpdateBrain.a(ramrod_error.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libRamrodUpdateBrain.a(ramrod_iokit_helpers.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libRamrodUpdateBrain.a(ramrod_lib.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libRamrodUpdateBrain.a(ramrod_log.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libRamrodUpdateBrain.a(ramrod_nvram.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libRamrodUpdateBrain.a(ramrod_splat.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libRamrodUpdateBrain.a(ramrod_ticket.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libRamrodUpdateBrain.a(ramrod_update.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(AMAuthInstall.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(AMAuthInstallAp.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(AMAuthInstallApImg3.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(AMAuthInstallApImg4.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(AMAuthInstallApImg4Local.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(AMAuthInstallBaseband.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(AMAuthInstallBundle.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(AMAuthInstallCrypto.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(AMAuthInstallHttp.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(AMAuthInstallLock.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(AMAuthInstallLog.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(AMAuthInstallPlatform.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(AMAuthInstallRequest.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(AMAuthInstallSupport.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(AMAuthInstallTag.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(AMAuthInstallVinyl.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(DERDecoder.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(base64.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(error.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(session.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(submit.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libbless2.a(bless2.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libbless2.a(log.o)
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/CSAction.o
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/CSActionInstallDownlevel.o
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/CSActionInvokeCryptexd.o
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/CSActionMountPreboot.o
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/CSActionSubmitBiomeEvent.o
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/CSActionSubmitLocalPolicy.o
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/CSError.o
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/CSEventReporter.o
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/CSRequest.o
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/CSTask.o
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/CSTaskDownlevel.o
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/CSTaskManager.o
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/CSTaskSemiSplat.o
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/CryptegraftService.o
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/MSUTargetController.o
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/MobileSoftwareUpdateConstants.o
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/cache_delete.o
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/clientServerIPC.o
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/common.o
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/log.o
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/restore_log.o
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Library/Caches/com.apple.xbs/Sources/MobileSoftwareUpdate/
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Library/Caches/com.apple.xbs/Sources/MobileSoftwareUpdate/CryptegraftService/
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Library/Caches/com.apple.xbs/Sources/MobileSoftwareUpdate/CryptegraftService/Actions/
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Library/Caches/com.apple.xbs/Sources/MobileSoftwareUpdate/CryptegraftService/CSEventReporter/
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Library/Caches/com.apple.xbs/Sources/MobileSoftwareUpdate/CryptegraftService/CryptexItems/
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Library/Caches/com.apple.xbs/Sources/MobileSoftwareUpdate/CryptegraftService/Tasks/
++ /AppleInternal/Library/BuildRoots/4~CGHuugAdMg-sAV-g-f91vRHyl7Bp1X7Za1sXA1k/Library/Caches/com.apple.xbs/Sources/MobileSoftwareUpdate/UpdateBrainService/
+- /AppleInternal/Library/BuildRoots/4~CDx8ugBdYuR2WMlk1O5ZoM1CbSPWPpaGCot5uwI/Library/Caches/com.apple.xbs/Sources/bless_libraries/bless2/libbless2/
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libMSUBootFirmwareUpdater.a(AMRestorePartition.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libMSUBootFirmwareUpdater.a(DevNodeWriter.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libMSUBootFirmwareUpdater.a(IODualSPIWriter.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libMSUBootFirmwareUpdater.a(IOServiceWriter.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libMSUBootFirmwareUpdater.a(MSUBootFirmwareError.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libMSUBootFirmwareUpdater.a(MSUBootFirmwareUpdater.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libMSUBootFirmwareUpdater.a(PCIeNANDBootWriter.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libRamrodUpdateBrain.a(MSUBootObjectCopier.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libRamrodUpdateBrain.a(MSUCheckpointAsyncBlockContext.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libRamrodUpdateBrain.a(MSUCheckpointAsyncContext.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libRamrodUpdateBrain.a(ramrod_checkpoint.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libRamrodUpdateBrain.a(ramrod_error.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libRamrodUpdateBrain.a(ramrod_iokit_helpers.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libRamrodUpdateBrain.a(ramrod_lib.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libRamrodUpdateBrain.a(ramrod_log.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libRamrodUpdateBrain.a(ramrod_nvram.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libRamrodUpdateBrain.a(ramrod_splat.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libRamrodUpdateBrain.a(ramrod_ticket.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libRamrodUpdateBrain.a(ramrod_update.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(AMAuthInstall.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(AMAuthInstallAp.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(AMAuthInstallApImg3.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(AMAuthInstallApImg4.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(AMAuthInstallApImg4Local.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(AMAuthInstallBaseband.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(AMAuthInstallBundle.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(AMAuthInstallCrypto.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(AMAuthInstallHttp.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(AMAuthInstallLock.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(AMAuthInstallLog.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(AMAuthInstallPlatform.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(AMAuthInstallRequest.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(AMAuthInstallSupport.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(AMAuthInstallTag.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(AMAuthInstallVinyl.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(DERDecoder.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(base64.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(error.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(session.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libauthinstall_static.a(submit.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libbless2.a(bless2.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.3.Internal.sdk/usr/local/lib/libbless2.a(log.o)
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/CSAction.o
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/CSActionInstallDownlevel.o
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/CSActionInvokeCryptexd.o
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/CSActionMountPreboot.o
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/CSActionSubmitBiomeEvent.o
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/CSActionSubmitLocalPolicy.o
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/CSError.o
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/CSEventReporter.o
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/CSRequest.o
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/CSTask.o
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/CSTaskDownlevel.o
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/CSTaskManager.o
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/CSTaskSemiSplat.o
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/CryptegraftService.o
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/MSUTargetController.o
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/MobileSoftwareUpdateConstants.o
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/cache_delete.o
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/clientServerIPC.o
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/common.o
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/log.o
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Library/Caches/com.apple.xbs/Binaries/MobileSoftwareUpdate/install/TempContent/Objects/MobileSoftwareUpdate.build/CryptegraftService.build/Objects-normal/arm64e/restore_log.o
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Library/Caches/com.apple.xbs/Sources/MobileSoftwareUpdate/
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Library/Caches/com.apple.xbs/Sources/MobileSoftwareUpdate/CryptegraftService/
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Library/Caches/com.apple.xbs/Sources/MobileSoftwareUpdate/CryptegraftService/Actions/
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Library/Caches/com.apple.xbs/Sources/MobileSoftwareUpdate/CryptegraftService/CSEventReporter/
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Library/Caches/com.apple.xbs/Sources/MobileSoftwareUpdate/CryptegraftService/CryptexItems/
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Library/Caches/com.apple.xbs/Sources/MobileSoftwareUpdate/CryptegraftService/Tasks/
+- /AppleInternal/Library/BuildRoots/4~CDy1ugCzYXGGLN7Vsbr8AMqVsIkCHPExYZVaiH8/Library/Caches/com.apple.xbs/Sources/MobileSoftwareUpdate/UpdateBrainService/
+- /AppleInternal/Library/BuildRoots/4~CDytugAyAn01TpCixhl606FjkXzMdHyKVHiMqRw/Library/Caches/com.apple.xbs/Sources/ramrod/MSUBootFirmwareUpdater/
+- /AppleInternal/Library/BuildRoots/4~CDytugAyAn01TpCixhl606FjkXzMdHyKVHiMqRw/Library/Caches/com.apple.xbs/Sources/ramrod/libusbrestore/
+- /AppleInternal/Library/BuildRoots/4~CDytugAyAn01TpCixhl606FjkXzMdHyKVHiMqRw/Library/Caches/com.apple.xbs/Sources/ramrod/ramrod/
+- /AppleInternal/Library/BuildRoots/4~CDytugAyAn01TpCixhl606FjkXzMdHyKVHiMqRw/Library/Caches/com.apple.xbs/Sources/ramrod/ramrod/macOS/
+- /AppleInternal/Library/BuildRoots/4~CDytugAyAn01TpCixhl606FjkXzMdHyKVHiMqRw/Library/Caches/com.apple.xbs/Sources/ramrod/restored/AsyncCheckpoint/
+- /AppleInternal/Library/BuildRoots/4~CDywugArNX1bwjGpB-ez57uzMK-xOM8j4OWZw-E/Library/Caches/com.apple.xbs/Sources/libauthinstall/
+- /AppleInternal/Library/BuildRoots/4~CDywugArNX1bwjGpB-ez57uzMK-xOM8j4OWZw-E/Library/Caches/com.apple.xbs/Sources/libauthinstall/ticket/
+- /AppleInternal/Library/BuildRoots/4~CDywugArNX1bwjGpB-ez57uzMK-xOM8j4OWZw-E/Library/Caches/com.apple.xbs/Sources/libauthinstall/tssclient/lib/
+- /AppleInternal/Library/BuildRoots/4~CDywugArNX1bwjGpB-ez57uzMK-xOM8j4OWZw-E/Library/Caches/com.apple.xbs/Sources/libauthinstall/vinyl/
+CStrings:
++ "20:45:46"
++ "2422.80.7.0.1"
++ "Jan  5 2026"
+- "02:24:35"
+- "2422.80.7"
+- "Dec  5 2025"
+
+```

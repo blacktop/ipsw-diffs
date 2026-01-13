@@ -1,0 +1,685 @@
+## CoreSpeechFoundation
+
+> `/System/Library/PrivateFrameworks/CoreSpeechFoundation.framework/Versions/A/CoreSpeechFoundation`
+
+```diff
+
+-3515.5.1.0.0
+-  __TEXT.__text: 0xc5770
+-  __TEXT.__auth_stubs: 0x1d00
++3515.8.1.0.0
++  __TEXT.__text: 0xc5b68
++  __TEXT.__auth_stubs: 0x1cf0
+   __TEXT.__objc_methlist: 0xc438
+   __TEXT.__const: 0x868
+   __TEXT.__dlopen_cstrs: 0x18c
+
+   __TEXT.__swift5_typeref: 0x185
+   __TEXT.__swift5_builtin: 0x28
+   __TEXT.__swift5_types: 0x1c
+-  __TEXT.__cstring: 0x144b3
++  __TEXT.__cstring: 0x144fc
+   __TEXT.__swift5_fieldmd: 0x128
+   __TEXT.__swift5_reflstr: 0x84
+   __TEXT.__swift5_mpenum: 0x8
+   __TEXT.__swift5_proto: 0x8
+   __TEXT.__gcc_except_tab: 0x41b4
+-  __TEXT.__oslogstring: 0xe584
+-  __TEXT.__unwind_info: 0x3630
++  __TEXT.__oslogstring: 0xe5c5
++  __TEXT.__unwind_info: 0x3648
+   __TEXT.__eh_frame: 0xe0
+   __TEXT.__objc_classname: 0x1c1c
+   __TEXT.__objc_methname: 0x20202
+
+   __DATA_CONST.__objc_protorefs: 0x28
+   __DATA_CONST.__objc_superrefs: 0x508
+   __DATA_CONST.__objc_arraydata: 0x1b0
+-  __AUTH_CONST.__auth_got: 0xe98
+-  __AUTH_CONST.__const: 0x3610
++  __AUTH_CONST.__auth_got: 0xe90
++  __AUTH_CONST.__const: 0x3630
+   __AUTH_CONST.__cfstring: 0x8c00
+   __AUTH_CONST.__objc_const: 0x13300
+   __AUTH_CONST.__objc_dictobj: 0x1e0
+
+   __AUTH_CONST.__objc_arrayobj: 0xa8
+   __AUTH_CONST.__objc_floatobj: 0x1a0
+   __AUTH.__objc_data: 0x18e8
++  __AUTH.__data: 0x18
+   __DATA.__objc_ivar: 0xcb0
+   __DATA.__data: 0x1360
+-  __DATA.__bss: 0x8e0
++  __DATA.__bss: 0x8f0
+   __DATA_DIRTY.__objc_data: 0x2d30
+   __DATA_DIRTY.__data: 0x2f8
+-  __DATA_DIRTY.__bss: 0x418
++  __DATA_DIRTY.__bss: 0x428
+   __DATA_DIRTY.__common: 0x68
+   - /System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+   - /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+
+   - /System/Library/Frameworks/IOBluetooth.framework/Versions/A/IOBluetooth
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /System/Library/Frameworks/Security.framework/Versions/A/Security
+-  - /System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+   - /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/AssistantServices
+   - /System/Library/PrivateFrameworks/AudioToolboxCore.framework/Versions/A/AudioToolboxCore
+   - /System/Library/PrivateFrameworks/BiomeLibrary.framework/Versions/A/BiomeLibrary
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 861115C8-9D8D-3834-82CF-590FB4B150C5
+-  Functions: 4824
+-  Symbols:   11511
+-  CStrings:  9904
++  UUID: 24E07E67-8418-31D9-93FA-BEB74118913A
++  Functions: 4830
++  Symbols:   11524
++  CStrings:  9909
+ 
+Symbols:
++ AudioConverterFillComplexBuffer_BlockInvoke.7168
++ CoreGraphicsLibrary.sLib.8835
++ CoreGraphicsLibrary.sOnce.8834
++ GCC_except_table1666
++ GCC_except_table1887
++ GCC_except_table1889
++ GCC_except_table1890
++ GCC_except_table1894
++ GCC_except_table1897
++ GCC_except_table1898
++ GCC_except_table1913
++ GCC_except_table1915
++ GCC_except_table1916
++ GCC_except_table1982
++ GCC_except_table1987
++ GCC_except_table2039
++ GCC_except_table2088
++ GCC_except_table2089
++ GCC_except_table2091
++ GCC_except_table2092
++ GCC_except_table2099
++ GCC_except_table2100
++ GCC_except_table2109
++ GCC_except_table2122
++ GCC_except_table2165
++ GCC_except_table2238
++ GCC_except_table2336
++ GCC_except_table2373
++ GCC_except_table2515
++ GCC_except_table2519
++ GCC_except_table2589
++ GCC_except_table2600
++ GCC_except_table2602
++ GCC_except_table2607
++ GCC_except_table2609
++ GCC_except_table2624
++ GCC_except_table2631
++ GCC_except_table2633
++ GCC_except_table2651
++ GCC_except_table2672
++ GCC_except_table2712
++ GCC_except_table2774
++ GCC_except_table2776
++ GCC_except_table2777
++ GCC_except_table2921
++ GCC_except_table3057
++ GCC_except_table3065
++ GCC_except_table3075
++ GCC_except_table3087
++ GCC_except_table3089
++ GCC_except_table3090
++ GCC_except_table3113
++ GCC_except_table3155
++ GCC_except_table3248
++ GCC_except_table3273
++ GCC_except_table3305
++ GCC_except_table3306
++ GCC_except_table3307
++ GCC_except_table3308
++ GCC_except_table3331
++ GCC_except_table3344
++ GCC_except_table3504
++ GCC_except_table3564
++ GCC_except_table3578
++ GCC_except_table3620
++ GCC_except_table3621
++ GCC_except_table3657
++ GCC_except_table3660
++ GCC_except_table3661
++ GCC_except_table3662
++ GCC_except_table3687
++ GCC_except_table3688
++ GCC_except_table3689
++ GCC_except_table3691
++ GCC_except_table3703
++ GCC_except_table3729
++ GCC_except_table3753
++ GCC_except_table3755
++ GCC_except_table3756
++ GCC_except_table3757
++ GCC_except_table3758
++ GCC_except_table3840
++ GCC_except_table3841
++ GCC_except_table3852
++ GCC_except_table3856
++ GCC_except_table3857
++ GCC_except_table3870
++ GCC_except_table3872
++ GCC_except_table3873
++ GCC_except_table3877
++ GCC_except_table3887
++ GCC_except_table3889
++ GCC_except_table3910
++ GCC_except_table3913
++ GCC_except_table3918
++ GCC_except_table3920
++ GCC_except_table3921
++ GCC_except_table3922
++ GCC_except_table3923
++ GCC_except_table3949
++ GCC_except_table4003
++ GCC_except_table4058
++ GCC_except_table4059
++ GCC_except_table4067
++ GCC_except_table4068
++ GCC_except_table4069
++ GCC_except_table4071
++ GCC_except_table4072
++ GCC_except_table4100
++ GCC_except_table4101
++ GCC_except_table4102
++ GCC_except_table4103
++ GCC_except_table4104
++ GCC_except_table4105
++ GCC_except_table4117
++ GCC_except_table4129
++ GCC_except_table4136
++ GCC_except_table4138
++ GCC_except_table4141
++ GCC_except_table4143
++ GCC_except_table4145
++ GCC_except_table4148
++ GCC_except_table4150
++ GCC_except_table4152
++ GCC_except_table4153
++ GCC_except_table4160
++ GCC_except_table4174
++ GCC_except_table4179
++ GCC_except_table4181
++ GCC_except_table4182
++ GCC_except_table4183
++ GCC_except_table4192
++ GCC_except_table4196
++ GCC_except_table4197
++ GCC_except_table4227
++ GCC_except_table4231
++ GCC_except_table4331
++ GCC_except_table4338
++ GCC_except_table4384
++ GCC_except_table4442
++ GCC_except_table4517
++ GCC_except_table4529
++ GCC_except_table4534
++ GCC_except_table4575
++ GCC_except_table4641
++ __Block_byref_object_copy_.12314
++ __Block_byref_object_copy_.12721
++ __Block_byref_object_copy_.13034
++ __Block_byref_object_copy_.13287
++ __Block_byref_object_copy_.13782
++ __Block_byref_object_copy_.14325
++ __Block_byref_object_copy_.14454
++ __Block_byref_object_copy_.15273
++ __Block_byref_object_copy_.4787
++ __Block_byref_object_copy_.4983
++ __Block_byref_object_copy_.5753
++ __Block_byref_object_copy_.6152
++ __Block_byref_object_copy_.7619
++ __Block_byref_object_copy_.7861
++ __Block_byref_object_copy_.8285
++ __Block_byref_object_copy_.9083
++ __Block_byref_object_dispose_.12315
++ __Block_byref_object_dispose_.12722
++ __Block_byref_object_dispose_.13035
++ __Block_byref_object_dispose_.13288
++ __Block_byref_object_dispose_.13783
++ __Block_byref_object_dispose_.14326
++ __Block_byref_object_dispose_.14455
++ __Block_byref_object_dispose_.15274
++ __Block_byref_object_dispose_.4788
++ __Block_byref_object_dispose_.4984
++ __Block_byref_object_dispose_.5754
++ __Block_byref_object_dispose_.6153
++ __Block_byref_object_dispose_.7620
++ __Block_byref_object_dispose_.7862
++ __Block_byref_object_dispose_.8286
++ __Block_byref_object_dispose_.9084
++ __CoreGraphicsLibrary_block_invoke.8841
++ __block_literal_global.10068
++ __block_literal_global.10944
++ __block_literal_global.11155
++ __block_literal_global.11308
++ __block_literal_global.11438
++ __block_literal_global.11475
++ __block_literal_global.12360
++ __block_literal_global.12846
++ __block_literal_global.13138
++ __block_literal_global.13381
++ __block_literal_global.13687
++ __block_literal_global.14070
++ __block_literal_global.14201
++ __block_literal_global.14349
++ __block_literal_global.14652
++ __block_literal_global.14740
++ __block_literal_global.15060
++ __block_literal_global.15299
++ __block_literal_global.20.12832
++ __block_literal_global.3948
++ __block_literal_global.4161
++ __block_literal_global.4816
++ __block_literal_global.4951
++ __block_literal_global.5002
++ __block_literal_global.5520
++ __block_literal_global.5603
++ __block_literal_global.6361
++ __block_literal_global.6507
++ __block_literal_global.6574
++ __block_literal_global.6629
++ __block_literal_global.67.7363
++ __block_literal_global.6749
++ __block_literal_global.6767
++ __block_literal_global.6929
++ __block_literal_global.6994
++ __block_literal_global.7097
++ __block_literal_global.7133
++ __block_literal_global.7420
++ __block_literal_global.8072
++ __block_literal_global.8113
++ __block_literal_global.8169
++ __block_literal_global.8486
++ __block_literal_global.8599
++ __block_literal_global.8625
++ __block_literal_global.8776
++ __block_literal_global.8857
++ __block_literal_global.9116
++ __block_literal_global.9422
++ __block_literal_global.9548
++ __block_literal_global.9660
++ __block_literal_global.9972
++ _constantValkCGSSessionUserIDKey
++ _getkCGSSessionUserIDKey
++ _initCGSSessionCopyAllSessionProperties
++ _initValkCGSSessionUserIDKey
++ _kCGSSessionUserIDKeyFunction
++ _softLinkCGSSessionCopyAllSessionProperties
++ constantValkCGSSessionOnConsoleKey.8837
++ getkCGSSessionOnConsoleKey.8831
++ initValkCGSSessionOnConsoleKey.8833
++ kCGSSessionOnConsoleKeyFunction.8839
++ sharedHandler.onceToken.12359
++ sharedHandler.sharedHandler.12361
++ sharedInstance._sharedInstance.10069
++ sharedInstance._sharedInstance.10945
++ sharedInstance._sharedInstance.11476
++ sharedInstance._sharedInstance.14202
++ sharedInstance._sharedInstance.14653
++ sharedInstance._sharedInstance.14741
++ sharedInstance._sharedInstance.4162
++ sharedInstance._sharedInstance.4952
++ sharedInstance._sharedInstance.5521
++ sharedInstance._sharedInstance.6362
++ sharedInstance._sharedInstance.7098
++ sharedInstance._sharedInstance.7421
++ sharedInstance.onceToken.10067
++ sharedInstance.onceToken.10943
++ sharedInstance.onceToken.11154
++ sharedInstance.onceToken.11474
++ sharedInstance.onceToken.13137
++ sharedInstance.onceToken.14200
++ sharedInstance.onceToken.14651
++ sharedInstance.onceToken.14739
++ sharedInstance.onceToken.15059
++ sharedInstance.onceToken.15298
++ sharedInstance.onceToken.4160
++ sharedInstance.onceToken.4815
++ sharedInstance.onceToken.4950
++ sharedInstance.onceToken.5001
++ sharedInstance.onceToken.5519
++ sharedInstance.onceToken.6360
++ sharedInstance.onceToken.6506
++ sharedInstance.onceToken.6748
++ sharedInstance.onceToken.7096
++ sharedInstance.onceToken.7419
++ sharedInstance.onceToken.8112
++ sharedInstance.onceToken.8168
++ sharedInstance.onceToken.8485
++ sharedInstance.onceToken.8624
++ sharedInstance.onceToken.8856
++ sharedInstance.onceToken.9421
++ sharedInstance.onceToken.9547
++ sharedInstance.onceToken.9659
++ sharedInstance.sharedInstance.11156
++ sharedInstance.sharedInstance.13139
++ sharedInstance.sharedInstance.15061
++ sharedInstance.sharedInstance.15300
++ sharedInstance.sharedInstance.5003
++ sharedInstance.sharedInstance.6508
++ sharedInstance.sharedInstance.8114
++ sharedInstance.sharedInstance.8487
++ sharedInstance.sharedInstance.8626
++ sharedInstance.sharedInstance.8858
++ sharedInstance.sharedInstance.9549
++ sharedInstance.sharedInstance.9661
++ sharedInstance.sharedManager.6750
++ sharedInstance.sharedManager.8170
++ sharedLogger.onceToken.13686
++ sharedLogger.onceToken.6573
++ sharedLogger.onceToken.6766
++ sharedLogger.shared.13688
++ sharedManager.onceToken.14348
++ sharedManager.sharedManager.14350
++ sharedMonitor.onceToken.5602
++ sharedMonitor.sharedMonitor.5604
++ sharedPreferences.onceToken.8598
+- AudioConverterFillComplexBuffer_BlockInvoke.7159
+- GCC_except_table1660
+- GCC_except_table1881
+- GCC_except_table1882
+- GCC_except_table1883
+- GCC_except_table1884
+- GCC_except_table1891
+- GCC_except_table1892
+- GCC_except_table1895
+- GCC_except_table1909
+- GCC_except_table1910
+- GCC_except_table1976
+- GCC_except_table1981
+- GCC_except_table2033
+- GCC_except_table2082
+- GCC_except_table2083
+- GCC_except_table2085
+- GCC_except_table2086
+- GCC_except_table2093
+- GCC_except_table2094
+- GCC_except_table2103
+- GCC_except_table2116
+- GCC_except_table2159
+- GCC_except_table2232
+- GCC_except_table2330
+- GCC_except_table2367
+- GCC_except_table2509
+- GCC_except_table2513
+- GCC_except_table2583
+- GCC_except_table2594
+- GCC_except_table2596
+- GCC_except_table2601
+- GCC_except_table2603
+- GCC_except_table2618
+- GCC_except_table2625
+- GCC_except_table2627
+- GCC_except_table2645
+- GCC_except_table2666
+- GCC_except_table2706
+- GCC_except_table2768
+- GCC_except_table2770
+- GCC_except_table2771
+- GCC_except_table2915
+- GCC_except_table3051
+- GCC_except_table3059
+- GCC_except_table3069
+- GCC_except_table3078
+- GCC_except_table3081
+- GCC_except_table3083
+- GCC_except_table3107
+- GCC_except_table3149
+- GCC_except_table3242
+- GCC_except_table3267
+- GCC_except_table3299
+- GCC_except_table3300
+- GCC_except_table3301
+- GCC_except_table3302
+- GCC_except_table3325
+- GCC_except_table3338
+- GCC_except_table3498
+- GCC_except_table3558
+- GCC_except_table3572
+- GCC_except_table3614
+- GCC_except_table3615
+- GCC_except_table3648
+- GCC_except_table3649
+- GCC_except_table3651
+- GCC_except_table3656
+- GCC_except_table3676
+- GCC_except_table3679
+- GCC_except_table3681
+- GCC_except_table3683
+- GCC_except_table3697
+- GCC_except_table3723
+- GCC_except_table3747
+- GCC_except_table3749
+- GCC_except_table3750
+- GCC_except_table3751
+- GCC_except_table3752
+- GCC_except_table3834
+- GCC_except_table3835
+- GCC_except_table3846
+- GCC_except_table3848
+- GCC_except_table3849
+- GCC_except_table3850
+- GCC_except_table3851
+- GCC_except_table3858
+- GCC_except_table3859
+- GCC_except_table3868
+- GCC_except_table3881
+- GCC_except_table3883
+- GCC_except_table3885
+- GCC_except_table3901
+- GCC_except_table3908
+- GCC_except_table3911
+- GCC_except_table3912
+- GCC_except_table3916
+- GCC_except_table3943
+- GCC_except_table3991
+- GCC_except_table4052
+- GCC_except_table4053
+- GCC_except_table4060
+- GCC_except_table4061
+- GCC_except_table4062
+- GCC_except_table4063
+- GCC_except_table4065
+- GCC_except_table4088
+- GCC_except_table4089
+- GCC_except_table4090
+- GCC_except_table4092
+- GCC_except_table4093
+- GCC_except_table4097
+- GCC_except_table4111
+- GCC_except_table4120
+- GCC_except_table4122
+- GCC_except_table4123
+- GCC_except_table4124
+- GCC_except_table4125
+- GCC_except_table4127
+- GCC_except_table4135
+- GCC_except_table4142
+- GCC_except_table4144
+- GCC_except_table4147
+- GCC_except_table4154
+- GCC_except_table4167
+- GCC_except_table4168
+- GCC_except_table4170
+- GCC_except_table4171
+- GCC_except_table4175
+- GCC_except_table4184
+- GCC_except_table4186
+- GCC_except_table4191
+- GCC_except_table4221
+- GCC_except_table4225
+- GCC_except_table4325
+- GCC_except_table4332
+- GCC_except_table4378
+- GCC_except_table4436
+- GCC_except_table4511
+- GCC_except_table4523
+- GCC_except_table4528
+- GCC_except_table4569
+- GCC_except_table4635
+- _SCDynamicStoreCopyConsoleUser
+- __Block_byref_object_copy_.12295
+- __Block_byref_object_copy_.12702
+- __Block_byref_object_copy_.13015
+- __Block_byref_object_copy_.13268
+- __Block_byref_object_copy_.13763
+- __Block_byref_object_copy_.14306
+- __Block_byref_object_copy_.14435
+- __Block_byref_object_copy_.15254
+- __Block_byref_object_copy_.4778
+- __Block_byref_object_copy_.4974
+- __Block_byref_object_copy_.5744
+- __Block_byref_object_copy_.6143
+- __Block_byref_object_copy_.7610
+- __Block_byref_object_copy_.7852
+- __Block_byref_object_copy_.8276
+- __Block_byref_object_copy_.9064
+- __Block_byref_object_dispose_.12296
+- __Block_byref_object_dispose_.12703
+- __Block_byref_object_dispose_.13016
+- __Block_byref_object_dispose_.13269
+- __Block_byref_object_dispose_.13764
+- __Block_byref_object_dispose_.14307
+- __Block_byref_object_dispose_.14436
+- __Block_byref_object_dispose_.15255
+- __Block_byref_object_dispose_.4779
+- __Block_byref_object_dispose_.4975
+- __Block_byref_object_dispose_.5745
+- __Block_byref_object_dispose_.6144
+- __Block_byref_object_dispose_.7611
+- __Block_byref_object_dispose_.7853
+- __Block_byref_object_dispose_.8277
+- __Block_byref_object_dispose_.9065
+- __block_literal_global.10049
+- __block_literal_global.10925
+- __block_literal_global.11136
+- __block_literal_global.11289
+- __block_literal_global.11419
+- __block_literal_global.11456
+- __block_literal_global.12341
+- __block_literal_global.12827
+- __block_literal_global.13119
+- __block_literal_global.13362
+- __block_literal_global.13668
+- __block_literal_global.14051
+- __block_literal_global.14182
+- __block_literal_global.14330
+- __block_literal_global.14633
+- __block_literal_global.14721
+- __block_literal_global.15041
+- __block_literal_global.15280
+- __block_literal_global.20.12813
+- __block_literal_global.4152
+- __block_literal_global.4807
+- __block_literal_global.4942
+- __block_literal_global.4993
+- __block_literal_global.5511
+- __block_literal_global.5594
+- __block_literal_global.6352
+- __block_literal_global.6498
+- __block_literal_global.6565
+- __block_literal_global.6620
+- __block_literal_global.67.7354
+- __block_literal_global.6740
+- __block_literal_global.6758
+- __block_literal_global.6920
+- __block_literal_global.6985
+- __block_literal_global.7088
+- __block_literal_global.7124
+- __block_literal_global.7411
+- __block_literal_global.8063
+- __block_literal_global.8104
+- __block_literal_global.8160
+- __block_literal_global.8477
+- __block_literal_global.8590
+- __block_literal_global.8616
+- __block_literal_global.8767
+- __block_literal_global.8838
+- __block_literal_global.9097
+- __block_literal_global.9403
+- __block_literal_global.9529
+- __block_literal_global.9641
+- __block_literal_global.9953
+- sharedHandler.onceToken.12340
+- sharedHandler.sharedHandler.12342
+- sharedInstance._sharedInstance.10050
+- sharedInstance._sharedInstance.10926
+- sharedInstance._sharedInstance.11457
+- sharedInstance._sharedInstance.14183
+- sharedInstance._sharedInstance.14634
+- sharedInstance._sharedInstance.14722
+- sharedInstance._sharedInstance.4153
+- sharedInstance._sharedInstance.4943
+- sharedInstance._sharedInstance.5512
+- sharedInstance._sharedInstance.6353
+- sharedInstance._sharedInstance.7089
+- sharedInstance._sharedInstance.7412
+- sharedInstance.onceToken.10048
+- sharedInstance.onceToken.10924
+- sharedInstance.onceToken.11135
+- sharedInstance.onceToken.11455
+- sharedInstance.onceToken.13118
+- sharedInstance.onceToken.14181
+- sharedInstance.onceToken.14632
+- sharedInstance.onceToken.14720
+- sharedInstance.onceToken.15040
+- sharedInstance.onceToken.15279
+- sharedInstance.onceToken.4151
+- sharedInstance.onceToken.4806
+- sharedInstance.onceToken.4941
+- sharedInstance.onceToken.4992
+- sharedInstance.onceToken.5510
+- sharedInstance.onceToken.6351
+- sharedInstance.onceToken.6497
+- sharedInstance.onceToken.6739
+- sharedInstance.onceToken.7087
+- sharedInstance.onceToken.7410
+- sharedInstance.onceToken.8103
+- sharedInstance.onceToken.8159
+- sharedInstance.onceToken.8476
+- sharedInstance.onceToken.8615
+- sharedInstance.onceToken.8837
+- sharedInstance.onceToken.9402
+- sharedInstance.onceToken.9528
+- sharedInstance.onceToken.9640
+- sharedInstance.sharedInstance.11137
+- sharedInstance.sharedInstance.13120
+- sharedInstance.sharedInstance.15042
+- sharedInstance.sharedInstance.15281
+- sharedInstance.sharedInstance.4994
+- sharedInstance.sharedInstance.6499
+- sharedInstance.sharedInstance.8105
+- sharedInstance.sharedInstance.8478
+- sharedInstance.sharedInstance.8617
+- sharedInstance.sharedInstance.8839
+- sharedInstance.sharedInstance.9530
+- sharedInstance.sharedInstance.9642
+- sharedInstance.sharedManager.6741
+- sharedInstance.sharedManager.8161
+- sharedLogger.onceToken.13667
+- sharedLogger.onceToken.6564
+- sharedLogger.onceToken.6757
+- sharedLogger.shared.13669
+- sharedManager.onceToken.14329
+- sharedManager.sharedManager.14331
+- sharedMonitor.onceToken.5593
+- sharedMonitor.sharedMonitor.5595
+- sharedPreferences.onceToken.8589
+CStrings:
++ "%s The CoreGraphics sessions array is NULL"
++ "%s activeUser UID: %@"
++ "CGSSessionCopyAllSessionProperties"
++ "getActiveUserUID"
++ "kCGSSessionUserIDKey"
+
+```
