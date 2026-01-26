@@ -1,0 +1,180 @@
+## TipsDaemon
+
+> `/System/Library/PrivateFrameworks/TipsDaemon.framework/TipsDaemon`
+
+```diff
+
+-822.3.1.0.0
+-  __TEXT.__text: 0x8ecb0
++822.3.2.0.0
++  __TEXT.__text: 0x8f8c0
+   __TEXT.__auth_stubs: 0x1fc0
+-  __TEXT.__objc_methlist: 0x33d8
++  __TEXT.__objc_methlist: 0x3418
+   __TEXT.__const: 0x2ba8
+-  __TEXT.__oslogstring: 0x205b
++  __TEXT.__oslogstring: 0x215f
+   __TEXT.__cstring: 0x4028
+   __TEXT.__gcc_except_tab: 0x11f4
+   __TEXT.__swift5_typeref: 0xe80
+
+   __TEXT.__swift_as_entry: 0x130
+   __TEXT.__swift_as_ret: 0x1c0
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x2800
++  __TEXT.__unwind_info: 0x2810
+   __TEXT.__eh_frame: 0x47a4
+   __TEXT.__objc_classname: 0xef3
+-  __TEXT.__objc_methname: 0x8fe8
+-  __TEXT.__objc_methtype: 0xb5a
+-  __TEXT.__objc_stubs: 0x7460
+-  __DATA_CONST.__got: 0xc68
+-  __DATA_CONST.__const: 0x1c08
++  __TEXT.__objc_methname: 0x90d7
++  __TEXT.__objc_methtype: 0xb60
++  __TEXT.__objc_stubs: 0x7500
++  __DATA_CONST.__got: 0xc78
++  __DATA_CONST.__const: 0x1c30
+   __DATA_CONST.__objc_classlist: 0x4d8
+   __DATA_CONST.__objc_protolist: 0x78
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x23d8
++  __DATA_CONST.__objc_selrefs: 0x2400
+   __DATA_CONST.__objc_protorefs: 0x18
+   __DATA_CONST.__objc_superrefs: 0x1b8
+   __DATA_CONST.__objc_arraydata: 0x58
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2393AAA8-7EC8-37E4-B8FF-8003BCB6C43A
+-  Functions: 2891
+-  Symbols:   5995
+-  CStrings:  2763
++  UUID: FC966C72-BB12-3D75-8BBE-786662BD252F
++  Functions: 2901
++  Symbols:   6023
++  CStrings:  2772
+ 
+Symbols:
++ -[TPSTipsManager buildCollectionLabelLookupMap:]
++ -[TPSTipsManager contentFromOrigin:systemEducationRequest:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:shouldDeferBlock:limitToCollectionIds:limitToDocumentIds:completionHandler:]
++ -[TPSTipsManager createFilteredPayload:withTipIds:fromTipDeliveryInfoMap:]
++ -[TPSTipsManager extractTipIdsFromCollections:usingLookupMap:]
++ -[TPSTipsManager filteredPayload:forCollectionIds:]
++ -[TPSTipsManager filteredPayload:forCollectionIds:].cold.1
++ -[TPSTipsManager filteredPayload:forCollectionIds:].cold.2
++ -[TPSTipsManager filteredPayload:forDocumentIds:]
++ -[TPSTipsManager filteredPayload:forDocumentIds:].cold.1
++ -[TPSTipsManager filteredPayload:forDocumentIds:].cold.2
++ GCC_except_table104
++ GCC_except_table108
++ GCC_except_table123
++ GCC_except_table40
++ GCC_except_table43
++ GCC_except_table78
++ GCC_except_table90
++ GCC_except_table94
++ GCC_except_table97
++ GCC_except_table99
++ _TPSDocumentDocumentsRootKey
++ _TPSTipDocumentIdKey
++ ___122-[TPSTipsManager requestWithURL:identifier:attributionIdentifier:requestType:priority:shouldDeferBlock:completionHandler:]_block_invoke.151
++ ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke.163
++ ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke.179
++ ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke.188
++ ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke.194
++ ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke.213
++ ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke.219
++ ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_2.164
++ ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_2.183
++ ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_2.189
++ ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_2.195
++ ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_2.215
++ ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_2.215.cold.1
++ ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_3.169
++ ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_3.184
++ ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_3.200
++ ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_4.170
++ ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_4.201
++ ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_5.175
++ ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_5.206
++ ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_6.208
++ ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_6.208.cold.1
++ ___252-[TPSTipsManager contentFromOrigin:systemEducationRequest:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:shouldDeferBlock:limitToCollectionIds:limitToDocumentIds:completionHandler:]_block_invoke
++ ___252-[TPSTipsManager contentFromOrigin:systemEducationRequest:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:shouldDeferBlock:limitToCollectionIds:limitToDocumentIds:completionHandler:]_block_invoke_2
++ ___252-[TPSTipsManager contentFromOrigin:systemEducationRequest:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:shouldDeferBlock:limitToCollectionIds:limitToDocumentIds:completionHandler:]_block_invoke_3
++ ___252-[TPSTipsManager contentFromOrigin:systemEducationRequest:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:shouldDeferBlock:limitToCollectionIds:limitToDocumentIds:completionHandler:]_block_invoke_4
++ ___252-[TPSTipsManager contentFromOrigin:systemEducationRequest:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:shouldDeferBlock:limitToCollectionIds:limitToDocumentIds:completionHandler:]_block_invoke_5
++ ___252-[TPSTipsManager contentFromOrigin:systemEducationRequest:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:shouldDeferBlock:limitToCollectionIds:limitToDocumentIds:completionHandler:]_block_invoke_6
++ ___48-[TPSTipsManager buildCollectionLabelLookupMap:]_block_invoke
++ ___block_descriptor_40_e8_32s_e39_v32?0"NSString"8"NSDictionary"16^B24ls32l8
++ ___block_descriptor_72_e8_32s40s48bs56r64r_e34_v24?0"NSDictionary"8"NSError"16ls32l8r56l8s40l8r64l8s48l8
++ ___block_descriptor_80_e8_32s40s48bs56r64r72r_e24_v16?0?<v?"NSError">8ls32l8r56l8s48l8s40l8r64l8r72l8
++ ___block_descriptor_88_e8_32s40s48bs56r64r72r80r_e24_v16?0?<v?"NSError">8lr56l8r64l8s32l8r72l8s48l8s40l8r80l8
++ _objc_msgSend$buildCollectionLabelLookupMap:
++ _objc_msgSend$contentFromOrigin:systemEducationRequest:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:shouldDeferBlock:limitToCollectionIds:limitToDocumentIds:completionHandler:
++ _objc_msgSend$createFilteredPayload:withTipIds:fromTipDeliveryInfoMap:
++ _objc_msgSend$extractTipIdsFromCollections:usingLookupMap:
++ _objc_msgSend$filteredPayload:forCollectionIds:
++ _objc_msgSend$filteredPayload:forDocumentIds:
+- -[TPSTipsManager contentFromOrigin:systemEducationRequest:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:shouldDeferBlock:completionHandler:]
+- GCC_except_table102
+- GCC_except_table117
+- GCC_except_table33
+- GCC_except_table37
+- GCC_except_table45
+- GCC_except_table72
+- GCC_except_table82
+- GCC_except_table84
+- GCC_except_table91
+- GCC_except_table93
+- GCC_except_table98
+- ___122-[TPSTipsManager requestWithURL:identifier:attributionIdentifier:requestType:priority:shouldDeferBlock:completionHandler:]_block_invoke.146
+- ___212-[TPSTipsManager contentFromOrigin:systemEducationRequest:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:shouldDeferBlock:completionHandler:]_block_invoke
+- ___212-[TPSTipsManager contentFromOrigin:systemEducationRequest:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:shouldDeferBlock:completionHandler:]_block_invoke_2
+- ___212-[TPSTipsManager contentFromOrigin:systemEducationRequest:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:shouldDeferBlock:completionHandler:]_block_invoke_3
+- ___212-[TPSTipsManager contentFromOrigin:systemEducationRequest:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:shouldDeferBlock:completionHandler:]_block_invoke_4
+- ___212-[TPSTipsManager contentFromOrigin:systemEducationRequest:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:shouldDeferBlock:completionHandler:]_block_invoke_5
+- ___212-[TPSTipsManager contentFromOrigin:systemEducationRequest:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:shouldDeferBlock:completionHandler:]_block_invoke_6
+- ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke.158
+- ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke.175
+- ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke.184
+- ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke.191
+- ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke.210
+- ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke.216
+- ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_2.159
+- ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_2.179
+- ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_2.186
+- ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_2.192
+- ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_2.212
+- ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_2.212.cold.1
+- ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_3.164
+- ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_3.180
+- ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_3.197
+- ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_4.165
+- ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_4.198
+- ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_5.171
+- ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_5.203
+- ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_6.205
+- ___221-[TPSTipsManager contentWithMetaDictionary:documentsDictionary:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:userGuideEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_6.205.cold.1
+- ___block_descriptor_56_e8_32bs40r48r_e34_v24?0"NSDictionary"8"NSError"16lr40l8r48l8s32l8
+- ___block_descriptor_72_e8_32s40bs48r56r64r_e24_v16?0?<v?"NSError">8ls32l8r48l8s40l8r56l8r64l8
+- ___block_descriptor_80_e8_32s40bs48r56r64r72r_e24_v16?0?<v?"NSError">8lr48l8r56l8s32l8r64l8s40l8r72l8
+- _objc_msgSend$contentFromOrigin:systemEducationRequest:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:shouldDeferBlock:completionHandler:
+CStrings:
++ "No collections found in payload, skipping payload-filtering"
++ "No documents found in payload, skipping payload-filtering"
++ "Payload-filtering: No relevant tips found for requested collections: %@"
++ "Payload-filtering: No relevant tips found for requested documents: %@"
++ "buildCollectionLabelLookupMap:"
++ "contentFromOrigin:systemEducationRequest:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:shouldDeferBlock:limitToCollectionIds:limitToDocumentIds:completionHandler:"
++ "createFilteredPayload:withTipIds:fromTipDeliveryInfoMap:"
++ "extractTipIdsFromCollections:usingLookupMap:"
++ "filteredPayload:forCollectionIds:"
++ "filteredPayload:forDocumentIds:"
++ "v80@0:8B16B20B24B28B32B36@40@?48@56@64@?72"
+- "contentFromOrigin:systemEducationRequest:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:shouldDeferBlock:completionHandler:"
+- "v64@0:8B16B20B24B28B32B36@40@?48@?56"
+
+```

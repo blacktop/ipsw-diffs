@@ -1,0 +1,171 @@
+## PaperKit
+
+> `/System/Library/Frameworks/PaperKit.framework/PaperKit`
+
+```diff
+
+-344.1.0.0.0
+-  __TEXT.__text: 0x7802f4
++344.1.1.0.0
++  __TEXT.__text: 0x7804ac
+   __TEXT.__auth_stubs: 0x8860
+   __TEXT.__objc_methlist: 0x90a4
+-  __TEXT.__const: 0x29564
++  __TEXT.__const: 0x29524
+   __TEXT.__gcc_except_tab: 0x484
+   __TEXT.__cstring: 0x14ecc
+   __TEXT.__oslogstring: 0x3e9f
+   __TEXT.__dlopen_cstrs: 0x273
+   __TEXT.__constg_swiftt: 0x13708
+-  __TEXT.__swift5_typeref: 0x1478e
++  __TEXT.__swift5_typeref: 0x1479e
+   __TEXT.__swift5_builtin: 0x424
+-  __TEXT.__swift5_reflstr: 0xb735
++  __TEXT.__swift5_reflstr: 0xb745
+   __TEXT.__swift5_fieldmd: 0xb054
+   __TEXT.__swift5_assocty: 0x23e0
+   __TEXT.__swift5_capture: 0x64f0
+
+   __TEXT.__swift_as_ret: 0x5a0
+   __TEXT.__swift5_protos: 0x144
+   __TEXT.__swift5_mpenum: 0x78
+-  __TEXT.__unwind_info: 0x13578
+-  __TEXT.__eh_frame: 0x1bf38
++  __TEXT.__unwind_info: 0x13590
++  __TEXT.__eh_frame: 0x1bf90
+   __TEXT.__objc_classname: 0xc47
+   __TEXT.__objc_methname: 0x1594b
+   __TEXT.__objc_methtype: 0x6808
+
+   __AUTH.__objc_data: 0x7a58
+   __AUTH.__data: 0xb670
+   __DATA.__objc_ivar: 0x210
+-  __DATA.__data: 0xb8d0
++  __DATA.__data: 0xb8f0
+   __DATA.__objc_stublist: 0x90
+   __DATA.__bss: 0x1cae0
+   __DATA.__common: 0x6d0
+   __DATA_DIRTY.__objc_data: 0x77e0
+-  __DATA_DIRTY.__data: 0x9478
++  __DATA_DIRTY.__data: 0x9468
+   __DATA_DIRTY.__bss: 0xce30
+   __DATA_DIRTY.__common: 0x722
+   - /System/Library/Frameworks/Accessibility.framework/Accessibility
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 11D93703-92A7-3A40-9F89-ED519327176B
+-  Functions: 28150
+-  Symbols:   87120
++  UUID: B7FD7786-7720-31A7-B470-951B3D60DC45
++  Functions: 28152
++  Symbols:   87175
+   CStrings:  6966
+ 
+Symbols:
++ _$s2os21OSAllocatedUnfairLockVAAytRszlE04withD0yqd__qd__yYbKXEKs8SendableRd__lFqd__ytz_tYbKXEfU_8PaperKit6PageIdVSg_Tg5TA.609
++ _$s8PaperKit0A12DocumentViewC09calculateC0AA015CanvasCalculateC0_pSgvsyyXEfU_TA.592
++ _$s8PaperKit0A12DocumentViewC10deletePage2atySi_tFTj
++ _$s8PaperKit0A12DocumentViewC19docScanDismissBlock33_8424FDA94F5165E454D761243B26314ALLySo016VNDocumentCameraF0CSgcSgvsyyXEfU_TA.420
++ _$s8PaperKit0A12DocumentViewC19docScanDismissBlock33_8424FDA94F5165E454D761243B26314ALLySo016VNDocumentCameraF0CSgcSgvsyyXEfU_TA.421
++ _$s8PaperKit0A12DocumentViewC19liveStreamMessengerAA0ab4LivefG0_pSgvsyyXEfU_TA.595
++ _$s8PaperKit0A12DocumentViewC20quadEditorControlleryXlSgvsyyXEfU_TA.354
++ _$s8PaperKit0A12DocumentViewC20quadEditorControlleryXlSgvsyyXEfU_TA.355
++ _$s8PaperKit0A12DocumentViewC22textualContextProviderAA0a17AttachmentTextualfG0_pSgvsyyXEfU_TA.596
++ _$s8PaperKit0A12DocumentViewC23_insertingFromFileIndex33_8424FDA94F5165E454D761243B26314ALLSivsyyXEfU_TA.442
++ _$s8PaperKit0A12DocumentViewC23isInCanvasSelectionModeSbvsyyXEfU_TA.390
++ _$s8PaperKit0A12DocumentViewC28participantDetailsDataSourceAA011ParticipantfgH0_pSgvsyyXEfU_TA.594
++ _$s8PaperKit0A12DocumentViewC5apply6filter2toyAA16BasicImageFilterOSg_9Coherence7WeakRefVyAA0I0VGtFytSgyXEfU_TA.387
++ _$s8PaperKit0A12DocumentViewC5apply6filter2toyAA16BasicImageFilterOSg_9Coherence7WeakRefVyAA0I0VGtFytSgyXEfU_TA.388
++ _$s8PaperKit0A12DocumentViewC5apply6filter2toyAA16BasicImageFilterOSg_9Coherence7WeakRefVyAA0I0VGtFytSgyXEfU_TA.389
++ _$s8PaperKit0A12DocumentViewC8undoable9updatePDF0F9PDFOnUndo0F4Page6actionxSb_Sb9Coherence12WeakTagged_3VyAA0naJ0VGSgxyXEtlFSbAA0aB7PDFPageC3key_AA0j7OverlayD0_p5valuet_tXEfU_TA.360
++ _$s8PaperKit0A12DocumentViewC8undoable9updatePDF0F9PDFOnUndo0F4Page6actionxSb_Sb9Coherence12WeakTagged_3VyAA0naJ0VGSgxyXEtlFSbAA0aB7PDFPageC3key_AA0j7OverlayD0_p5valuet_tXEfU_TA.483
++ _$s8PaperKit0A12DocumentViewC8undoable9updatePDF0F9PDFOnUndo0F4Page6actionxSb_Sb9Coherence12WeakTagged_3VyAA0naJ0VGSgxyXEtlFSbAA0aB7PDFPageC3key_AA0j7OverlayD0_p5valuet_tXEfU_TA.502
++ _$s8PaperKit0A12DocumentViewC8undoable9updatePDF0F9PDFOnUndo0F4Page6actionxSb_Sb9Coherence12WeakTagged_3VyAA0naJ0VGSgxyXEtlFSbAA0aB7PDFPageC3key_AA0j7OverlayD0_p5valuet_tXEfU_TA.88
++ _$s8PaperKit0A12DocumentViewC8undoable9updatePDF0F9PDFOnUndo0F4Page6actionxSb_Sb9Coherence12WeakTagged_3VyAA0naJ0VGSgxyXEtlFyACScMYccfU0_TA.359
++ _$s8PaperKit0A12DocumentViewC8undoable9updatePDF0F9PDFOnUndo0F4Page6actionxSb_Sb9Coherence12WeakTagged_3VyAA0naJ0VGSgxyXEtlFyACScMYccfU0_TA.482
++ _$s8PaperKit0A12DocumentViewC8undoable9updatePDF0F9PDFOnUndo0F4Page6actionxSb_Sb9Coherence12WeakTagged_3VyAA0naJ0VGSgxyXEtlFyACScMYccfU0_TA.501
++ _$s8PaperKit0A12DocumentViewC8undoable9updatePDF0F9PDFOnUndo0F4Page6actionxSb_Sb9Coherence12WeakTagged_3VyAA0naJ0VGSgxyXEtlFyACScMYccfU0_TA.87
++ _$s8PaperKit0aB11PDFDocumentC8pageIdAtAA04PageE0VSi_tcigAFSgyYbXEfU_TA.608
++ __PROTOCOLS__TtC8PaperKit17PaperDocumentView.132
++ __PROTOCOLS__TtC8PaperKit21PaperDocumentDelegate.293
++ __PROTOCOLS__TtCC8PaperKit17PaperDocumentViewP33_8424FDA94F5165E454D761243B26314A22PaperDocumentViewProxy.287
++ _block_copy_helper.368
++ _block_copy_helper.446
++ _block_copy_helper.452
++ _block_copy_helper.458
++ _block_copy_helper.490
++ _block_copy_helper.506
++ _block_copy_helper.512
++ _block_descriptor.370
++ _block_descriptor.448
++ _block_descriptor.454
++ _block_descriptor.460
++ _block_descriptor.492
++ _block_descriptor.508
++ _block_descriptor.514
++ _block_destroy_helper.369
++ _block_destroy_helper.447
++ _block_destroy_helper.453
++ _block_destroy_helper.459
++ _block_destroy_helper.491
++ _block_destroy_helper.507
++ _block_destroy_helper.513
++ _keypath_get.104Tm
++ _keypath_set.432Tm
++ _objectdestroy.335Tm
++ _objectdestroy.348Tm
++ _objectdestroy.466Tm
+- _$s2os21OSAllocatedUnfairLockVAAytRszlE04withD0yqd__qd__yYbKXEKs8SendableRd__lFqd__ytz_tYbKXEfU_8PaperKit6PageIdVSg_Tg5TA.598
+- _$s8PaperKit0A12DocumentViewC09calculateC0AA015CanvasCalculateC0_pSgvsyyXEfU_TA.600
+- _$s8PaperKit0A12DocumentViewC19docScanDismissBlock33_8424FDA94F5165E454D761243B26314ALLySo016VNDocumentCameraF0CSgcSgvsyyXEfU_TA.415
+- _$s8PaperKit0A12DocumentViewC19docScanDismissBlock33_8424FDA94F5165E454D761243B26314ALLySo016VNDocumentCameraF0CSgcSgvsyyXEfU_TA.416
+- _$s8PaperKit0A12DocumentViewC19liveStreamMessengerAA0ab4LivefG0_pSgvsyyXEfU_TA.603
+- _$s8PaperKit0A12DocumentViewC20quadEditorControlleryXlSgvsyyXEfU_TA.349
+- _$s8PaperKit0A12DocumentViewC20quadEditorControlleryXlSgvsyyXEfU_TA.350
+- _$s8PaperKit0A12DocumentViewC22textualContextProviderAA0a17AttachmentTextualfG0_pSgvsyyXEfU_TA.604
+- _$s8PaperKit0A12DocumentViewC23_insertingFromFileIndex33_8424FDA94F5165E454D761243B26314ALLSivsyyXEfU_TA.437
+- _$s8PaperKit0A12DocumentViewC23isInCanvasSelectionModeSbvsyyXEfU_TA.385
+- _$s8PaperKit0A12DocumentViewC28participantDetailsDataSourceAA011ParticipantfgH0_pSgvsyyXEfU_TA.602
+- _$s8PaperKit0A12DocumentViewC5apply6filter2toyAA16BasicImageFilterOSg_9Coherence7WeakRefVyAA0I0VGtFytSgyXEfU_TA.382
+- _$s8PaperKit0A12DocumentViewC5apply6filter2toyAA16BasicImageFilterOSg_9Coherence7WeakRefVyAA0I0VGtFytSgyXEfU_TA.383
+- _$s8PaperKit0A12DocumentViewC5apply6filter2toyAA16BasicImageFilterOSg_9Coherence7WeakRefVyAA0I0VGtFytSgyXEfU_TA.384
+- _$s8PaperKit0A12DocumentViewC8undoable9updatePDF0F9PDFOnUndo0F4Page6actionxSb_Sb9Coherence12WeakTagged_3VyAA0naJ0VGSgxyXEtlFSbAA0aB7PDFPageC3key_AA0j7OverlayD0_p5valuet_tXEfU_TA.355
+- _$s8PaperKit0A12DocumentViewC8undoable9updatePDF0F9PDFOnUndo0F4Page6actionxSb_Sb9Coherence12WeakTagged_3VyAA0naJ0VGSgxyXEtlFSbAA0aB7PDFPageC3key_AA0j7OverlayD0_p5valuet_tXEfU_TA.473
+- _$s8PaperKit0A12DocumentViewC8undoable9updatePDF0F9PDFOnUndo0F4Page6actionxSb_Sb9Coherence12WeakTagged_3VyAA0naJ0VGSgxyXEtlFSbAA0aB7PDFPageC3key_AA0j7OverlayD0_p5valuet_tXEfU_TA.492
+- _$s8PaperKit0A12DocumentViewC8undoable9updatePDF0F9PDFOnUndo0F4Page6actionxSb_Sb9Coherence12WeakTagged_3VyAA0naJ0VGSgxyXEtlFSbAA0aB7PDFPageC3key_AA0j7OverlayD0_p5valuet_tXEfU_TA.534
+- _$s8PaperKit0A12DocumentViewC8undoable9updatePDF0F9PDFOnUndo0F4Page6actionxSb_Sb9Coherence12WeakTagged_3VyAA0naJ0VGSgxyXEtlFyACScMYccfU0_TA.354
+- _$s8PaperKit0A12DocumentViewC8undoable9updatePDF0F9PDFOnUndo0F4Page6actionxSb_Sb9Coherence12WeakTagged_3VyAA0naJ0VGSgxyXEtlFyACScMYccfU0_TA.472
+- _$s8PaperKit0A12DocumentViewC8undoable9updatePDF0F9PDFOnUndo0F4Page6actionxSb_Sb9Coherence12WeakTagged_3VyAA0naJ0VGSgxyXEtlFyACScMYccfU0_TA.491
+- _$s8PaperKit0A12DocumentViewC8undoable9updatePDF0F9PDFOnUndo0F4Page6actionxSb_Sb9Coherence12WeakTagged_3VyAA0naJ0VGSgxyXEtlFyACScMYccfU0_TA.533
+- _$s8PaperKit0aB11PDFDocumentC8pageIdAtAA04PageE0VSi_tcigAFSgyYbXEfU_TA.597
+- _$s8PaperKit6PageIdVWObTm
+- __PROTOCOLS__TtC8PaperKit17PaperDocumentView.127
+- __PROTOCOLS__TtC8PaperKit21PaperDocumentDelegate.288
+- __PROTOCOLS__TtCC8PaperKit17PaperDocumentViewP33_8424FDA94F5165E454D761243B26314A22PaperDocumentViewProxy.282
+- _block_copy_helper.363
+- _block_copy_helper.447
+- _block_copy_helper.453
+- _block_copy_helper.485
+- _block_copy_helper.501
+- _block_copy_helper.507
+- _block_descriptor.365
+- _block_descriptor.449
+- _block_descriptor.455
+- _block_descriptor.487
+- _block_descriptor.503
+- _block_descriptor.509
+- _block_destroy_helper.364
+- _block_destroy_helper.448
+- _block_destroy_helper.454
+- _block_destroy_helper.486
+- _block_destroy_helper.502
+- _block_destroy_helper.508
+- _keypath_get.99Tm
+- _keypath_set.427Tm
+- _objectdestroy.330Tm
+- _objectdestroy.343Tm
+- _objectdestroy.461Tm
+
+```

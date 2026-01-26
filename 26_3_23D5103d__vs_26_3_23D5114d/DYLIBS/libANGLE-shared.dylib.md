@@ -1,0 +1,58 @@
+## libANGLE-shared.dylib
+
+> `/System/Library/PrivateFrameworks/WebCore.framework/Frameworks/libANGLE-shared.dylib`
+
+```diff
+
+-623.2.4.0.0
+-  __TEXT.__text: 0x25bc30
++623.2.7.0.0
++  __TEXT.__text: 0x25bbe0
+   __TEXT.__auth_stubs: 0xde0
+   __TEXT.__const: 0x82c40
+   __TEXT.__cstring: 0x41b17
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 6C70725B-C366-3518-A5A3-C171BC9B9A4E
++  UUID: 637F5334-7ECF-3FF6-9EAA-47232FE70E21
+   Functions: 8929
+   Symbols:   25259
+   CStrings:  7172
+Symbols:
++ __ZN2rx3mtl20RenderCommandEncoder15commonSetBufferEN2gl10ShaderTypeEPU19objcproto9MTLBuffer11objc_objectmj
++ __ZN2rx3mtl20RenderCommandEncoder17setBufferForWriteEN2gl10ShaderTypeERKNSt3__110shared_ptrINS0_6BufferEEEmj
++ __ZN2rx3mtl20RenderCommandEncoder9setBufferEN2gl10ShaderTypeERKNSt3__110shared_ptrINS0_6BufferEEEmj
++ __ZN2rx3mtl21ComputeCommandEncoder17setBufferForWriteERKNSt3__110shared_ptrINS0_6BufferEEEmj
++ __ZN2rx3mtl21ComputeCommandEncoder9setBufferERKNSt3__110shared_ptrINS0_6BufferEEEmj
++ __ZNSt3__16vectorINS_4pairINS_10shared_ptrIN2rx3mtl6BufferEEEmEENS_9allocatorIS7_EEE16__destroy_vectorclB8sn200100Ev
++ __ZNSt3__16vectorINS_4pairINS_10shared_ptrIN2rx3mtl6BufferEEEmEENS_9allocatorIS7_EEE20__throw_length_errorB8sn200100Ev
++ __ZNSt3__16vectorINS_4pairINS_10shared_ptrIN2rx3mtl6BufferEEEmEENS_9allocatorIS7_EEE5clearB8sn200100Ev
+- __ZN2rx3mtl20RenderCommandEncoder15commonSetBufferEN2gl10ShaderTypeEPU19objcproto9MTLBuffer11objc_objectjj
+- __ZN2rx3mtl20RenderCommandEncoder17setBufferForWriteEN2gl10ShaderTypeERKNSt3__110shared_ptrINS0_6BufferEEEjj
+- __ZN2rx3mtl20RenderCommandEncoder9setBufferEN2gl10ShaderTypeERKNSt3__110shared_ptrINS0_6BufferEEEjj
+- __ZN2rx3mtl21ComputeCommandEncoder17setBufferForWriteERKNSt3__110shared_ptrINS0_6BufferEEEjj
+- __ZN2rx3mtl21ComputeCommandEncoder9setBufferERKNSt3__110shared_ptrINS0_6BufferEEEjj
+- __ZNSt3__16vectorINS_4pairINS_10shared_ptrIN2rx3mtl6BufferEEEjEENS_9allocatorIS7_EEE16__destroy_vectorclB8sn200100Ev
+- __ZNSt3__16vectorINS_4pairINS_10shared_ptrIN2rx3mtl6BufferEEEjEENS_9allocatorIS7_EEE20__throw_length_errorB8sn200100Ev
+- __ZNSt3__16vectorINS_4pairINS_10shared_ptrIN2rx3mtl6BufferEEEjEENS_9allocatorIS7_EEE5clearB8sn200100Ev
+Functions:
+~ __ZN2rx9BufferMtl25getVertexConversionBufferEPNS_10ContextMtlEN5angle8FormatIDEjm : 368 -> 372
+~ __ZN2rx9BufferMtl24getIndexConversionBufferEPNS_10ContextMtlEN2gl16DrawElementsTypeEbm : 260 -> 268
+~ __ZN2rx9BufferMtl26getUniformConversionBufferEPNS_10ContextMtlENSt3__14pairImmEEm : 256 -> 264
+~ __ZNSt3__16vectorIN2rx26UniformConversionBufferMtlENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJRPNS1_10ContextMtlERNS_4pairImmEERmEEEPS2_DpOT_ : 688 -> 684
+~ __ZN2rx10ContextMtlC2ERKN2gl5StateEPNS1_8ErrorSetERKN3egl12AttributeMapEPNS_10DisplayMtlE : 1364 -> 1396
+~ __ZN2rx10ContextMtl9onDestroyEPKN2gl7ContextE : 180 -> 176
+~ __ZN2rx10ContextMtl16drawElementsImplEPKN2gl7ContextENS1_13PrimitiveModeEiNS1_16DrawElementsTypeEPKviij : 1972 -> 1992
+~ __ZN2rx10ContextMtl9syncStateEPKN2gl7ContextEN5angle7BitSetTILm64EymEES7_NS6_ILm14EjmEES8_NS1_7CommandE : 2056 -> 2048
+~ __ZN2rx3mtl10BufferPool8allocateEPNS_10ContextMtlEmPPhPNSt3__110shared_ptrINS0_6BufferEEEPmPb : 904 -> 900
+~ __ZN2rx3mtl10BufferPool7destroyEPNS_10ContextMtlE : 128 -> 132
+~ __ZN2rx3mtl20RenderCommandEncoderC2EPNS0_13CommandBufferERKNS0_18OcclusionQueryPoolEb : 868 -> 756
+~ __ZN2rx3mtl20RenderCommandEncoder15endEncodingImplEb : 4020 -> 3956
+~ __ZN2rx3mtl20RenderCommandEncoder8setBytesEN2gl10ShaderTypeEPKvmj : 220 -> 216
+~ __ZN2rx20ProgramExecutableMtlC2EPKN2gl17ProgramExecutableE : 664 -> 680
+~ __ZN2rx20ProgramExecutableMtl9setupDrawEPKN2gl7ContextEPNS_3mtl20RenderCommandEncoderERKNS5_18RenderPipelineDescEbbb : 5444 -> 5456
+~ __ZN2rx14VertexArrayMtlC2ERKN2gl16VertexArrayStateERKNSt3__15arrayINS1_14BindingPointerINS1_6BufferEEELm17EEEPNS_10ContextMtlE : 484 -> 500
+
+```
