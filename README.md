@@ -48,6 +48,7 @@
 <details>
   <summary>View diffs</summary>
 
+- [26.2 (23C55) .vs 26.2.1 (23C71)](26_2_23C55__vs_26_2_1_23C71/README.md)
 - [26.2 RC2 (23C54) .vs 26.2 (23C55)](26_2_23C54__vs_26_2_23C55/README.md)
 - [26.2 RC (23C52) .vs 26.2 RC2 (23C54)](26_2_23C52__vs_26_2_23C54/README.md)
 - [26.2 beta 3 (23C5044b) .vs 26.2 RC (23C52)](26_2_23C5044b__vs_26_2_23C52/README.md)
