@@ -27,6 +27,7 @@
 <a href="#ios-18-0-beta">iOS 18.0 beta</a> ·
 <a href="#ipados-17-7">iPadOS 17.7</a> ·
 <a href="#ios-17-6-1">iOS 17.6.1</a> ·
+<a href="#ios-16-7">iOS 16.7</a> ·
 <a href="#ios-12-5">iOS 12.5</a> ·
 <a href="#macos-26-3-beta">macOS 26.3 beta</a> ·
 <a href="#macos-15-5-beta">macOS 15.5 beta</a> ·
@@ -303,6 +304,15 @@
 - [17.6 beta 3 (21G5066d) .vs 17.6 beta 4 (21G5075a)](17_6_21G5066d__vs_17_6_21G5075a/TOC.md)
 - [17.6 beta 2 (21G5061c) .vs 17.6 beta 3 (21G5066d)](17_6_21G5061c__vs_17_6_21G5066d/TOC.md)
 - [17.6 beta 1 (21G5052e) .vs 17.6 beta 2 (21G5061c)](17_6_21G5052e__vs_17_6_21G5061c/TOC.md)
+
+</details>
+
+<a id="ios-16-7"></a>
+### iOS 16.7
+<details>
+  <summary>View diffs</summary>
+
+- [16.7.13 (20H365) .vs 16.7.14 (20H370)](16_7_13_20H365__vs_16_7_14_20H370/README.md)
 
 </details>
 
