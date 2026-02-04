@@ -1,0 +1,808 @@
+## bluetoothaudiod
+
+> `/usr/sbin/bluetoothaudiod`
+
+```diff
+
+ 351.2.0.0.0
+-  __TEXT.__text: 0x5ea74
+-  __TEXT.__auth_stubs: 0x980
+-  __TEXT.__objc_stubs: 0x9f80
+-  __TEXT.__objc_methlist: 0x5988
+-  __TEXT.__const: 0x82c
+-  __TEXT.__objc_methname: 0xe846
+-  __TEXT.__oslogstring: 0x8b65
+-  __TEXT.__cstring: 0x57bc
+-  __TEXT.__objc_classname: 0x459
+-  __TEXT.__objc_methtype: 0x1c54
+-  __TEXT.__gcc_except_tab: 0x928
+-  __TEXT.__unwind_info: 0xf58
+-  __DATA_CONST.__auth_got: 0x4d0
+-  __DATA_CONST.__got: 0x488
++  __TEXT.__text: 0x4a01c
++  __TEXT.__auth_stubs: 0x8c0
++  __TEXT.__objc_stubs: 0x8860
++  __TEXT.__objc_methlist: 0x4a24
++  __TEXT.__const: 0x828
++  __TEXT.__objc_methname: 0xc01d
++  __TEXT.__oslogstring: 0x7165
++  __TEXT.__cstring: 0x45a5
++  __TEXT.__objc_classname: 0x3e8
++  __TEXT.__objc_methtype: 0x1b88
++  __TEXT.__gcc_except_tab: 0x64c
++  __TEXT.__unwind_info: 0xc50
++  __DATA_CONST.__auth_got: 0x470
++  __DATA_CONST.__got: 0x268
+   __DATA_CONST.__auth_ptr: 0x8
+-  __DATA_CONST.__const: 0x1458
+-  __DATA_CONST.__cfstring: 0x4ec0
+-  __DATA_CONST.__objc_classlist: 0x168
++  __DATA_CONST.__const: 0x1008
++  __DATA_CONST.__cfstring: 0x4240
++  __DATA_CONST.__objc_classlist: 0x138
+   __DATA_CONST.__objc_catlist: 0x8
+-  __DATA_CONST.__objc_protolist: 0x68
++  __DATA_CONST.__objc_protolist: 0x60
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x20
+-  __DATA_CONST.__objc_superrefs: 0x138
++  __DATA_CONST.__objc_superrefs: 0x110
+   __DATA_CONST.__objc_arraydata: 0x200
+   __DATA_CONST.__objc_arrayobj: 0x60
+   __DATA_CONST.__objc_intobj: 0x138
+   __DATA_CONST.__objc_dictobj: 0x118
+-  __DATA.__objc_const: 0x9360
+-  __DATA.__objc_selrefs: 0x3180
+-  __DATA.__objc_ivar: 0x64c
+-  __DATA.__objc_data: 0xe10
+-  __DATA.__data: 0x698
++  __DATA.__objc_const: 0x7f48
++  __DATA.__objc_selrefs: 0x2b18
++  __DATA.__objc_ivar: 0x538
++  __DATA.__objc_data: 0xc30
++  __DATA.__data: 0x638
+   __DATA.__common: 0x28
+-  __DATA.__bss: 0xb0
++  __DATA.__bss: 0x88
+   - /System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreTelephony.framework/CoreTelephony
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /System/Library/PrivateFrameworks/CrashReporterSupport.framework/CrashReporterSupport
+-  - /System/Library/PrivateFrameworks/MediaRemote.framework/MediaRemote
+   - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C914CB0F-CE9E-331F-8B71-DD45C1475165
+-  Functions: 2104
+-  Symbols:   307
+-  CStrings:  4868
++  UUID: 590FE2F2-E476-386C-ACBC-C396B4A0A46E
++  Functions: 1725
++  Symbols:   227
++  CStrings:  4125
+ 
+Symbols:
+- _CBCoordinatedSetRSIAdv
+- _CBUUIDActivePresetIndexCharacteristicString
+- _CBUUIDAudioInputControlPointCharacteristicString
+- _CBUUIDAudioInputControlServiceString
+- _CBUUIDAudioInputDescriptionCharacteristicString
+- _CBUUIDAudioInputStateCharacteristicString
+- _CBUUIDAudioInputStatusCharacteristicString
+- _CBUUIDAudioInputTypeCharacteristicString
+- _CBUUIDAudioLocationCharacteristicString
+- _CBUUIDAudioOutputDescriptionCharacteristicString
+- _CBUUIDBearerListCurrentCallsCharacteristicString
+- _CBUUIDBearerProviderNameCharacteristicString
+- _CBUUIDBearerTechnologyCharacteristicString
+- _CBUUIDBearerUciCharacteristicString
+- _CBUUIDBearerUriSchemesSupportedListCharacteristicString
+- _CBUUIDCallControlPointCharacteristicString
+- _CBUUIDCallControlPointOptionalOpcodesCharacteristicString
+- _CBUUIDCallStateCharacteristicString
+- _CBUUIDContentControlIdCharacteristicString
+- _CBUUIDCoordinatedSetIdServiceString
+- _CBUUIDCoordinatedSetSizeCharacteristicString
+- _CBUUIDGainSettingPropertiesCharacteristicString
+- _CBUUIDGenericMediaControlServiceString
+- _CBUUIDGenericTelephoneBearerServiceString
+- _CBUUIDHearingAccessServiceString
+- _CBUUIDHearingAidFeaturesCharacteristicString
+- _CBUUIDHearingAidPresetControlPointCharacteristicString
+- _CBUUIDIncomingCallCharacteristicString
+- _CBUUIDMediaControlPointCharacteristicString
+- _CBUUIDMediaControlPointOpcodesSupportedCharacteristicString
+- _CBUUIDMediaPlayerNameCharacteristicString
+- _CBUUIDMediaStateCharacteristicString
+- _CBUUIDMicrophoneControlServiceString
+- _CBUUIDMuteCharacteristicString
+- _CBUUIDPlayingOrderCharacteristicString
+- _CBUUIDPlayingOrdersSupportedCharacteristicString
+- _CBUUIDSetIdResolvingKeyCharacteristicString
+- _CBUUIDSetMemberLockCharacteristicString
+- _CBUUIDSetMemberRankCharacteristicString
+- _CBUUIDStatusFlagsCharacteristicString
+- _CBUUIDTelephonyMediaAudioServiceString
+- _CBUUIDTerminationReasonCharacteristicString
+- _CBUUIDTrackChangedCharacteristicString
+- _CBUUIDTrackDurationCharacteristicString
+- _CBUUIDTrackPositionCharacteristicString
+- _CBUUIDTrackTitleCharacteristicString
+- _CBUUIDVolumeControlPointCharacteristicString
+- _CBUUIDVolumeControlServiceString
+- _CBUUIDVolumeFlagsCharacteristicString
+- _CBUUIDVolumeOffsetControlPointCharacteristicString
+- _CBUUIDVolumeOffsetControlServiceString
+- _CBUUIDVolumeOffsetStateCharacteristicString
+- _CBUUIDVolumeStateCharacteristicString
+- _CFRetain
+- _MRMediaRemoteCommandInfoGetCommand
+- _MRMediaRemoteGetNowPlayingApplicationPlaybackState
+- _MRMediaRemoteGetNowPlayingClient
+- _MRMediaRemoteGetNowPlayingInfoWithOptionalArtwork
+- _MRMediaRemoteGetSupportedCommands
+- _MRMediaRemoteSendCommand
+- _MRMediaRemoteSetElapsedTime
+- _MRMediaRemoteSetWantsNowPlayingNotifications
+- _MRMediaRemoteSetWantsSupportedCommandsChangedNotifications
+- _MRNowPlayingClientGetDisplayName
+- _MRPlaybackQueueGetContentItemsCount
+- _NSLocalizedDescriptionKey
+- _OBJC_CLASS_$_NSDate
+- _OBJC_CLASS_$_NSError
+- _kMRMediaRemoteNowPlayingApplicationDidChangeNotification
+- _kMRMediaRemoteNowPlayingApplicationPlaybackStateDidChangeNotification
+- _kMRMediaRemoteNowPlayingInfoDidChangeNotification
+- _kMRMediaRemoteNowPlayingInfoDuration
+- _kMRMediaRemoteNowPlayingInfoElapsedTime
+- _kMRMediaRemoteNowPlayingInfoPlaybackRate
+- _kMRMediaRemoteNowPlayingInfoRepeatMode
+- _kMRMediaRemoteNowPlayingInfoShuffleMode
+- _kMRMediaRemoteNowPlayingInfoTimestamp
+- _kMRMediaRemoteNowPlayingInfoTitle
+- _kMRMediaRemoteNowPlayingInfoTrackNumber
+- _kMRMediaRemoteSupportedCommandsDidChangeNotification
+CStrings:
+- "\v"
+- "\f"
+- " %s: Unknown TBS COMMAND"
+- " %s: central %@ is now subscribed to characteristic \"%@\", number of subscribers is now %lu"
+- " %s: central %@ is now unsubscribed to characteristic \"%@\""
+- " index : %u"
+- " isAvailable : %d"
+- " isLast : %d"
+- " name : %@"
+- " writable : %u"
+- "%@"
+- "%s : \"%@\""
+- "%s : \"%@\" didUpdateValueForCharacteristic called for characteristic %@"
+- "%s : \"%@\" not found!"
+- "%s : Accept Call Failed! Call index %u, was in state %@. Was not an incoming call state!"
+- "%s : Bearer Provider Name NSData length = %lu"
+- "%s : Call control point write opcode: %@ | param: %d | total len: %lu"
+- "%s : Call control point write with result %d"
+- "%s : Central \"%@\" is attempting to subscribte to \"%@\" characteristic \"%@\""
+- "%s : Central \"%@\" is attempting to unsubscribe to \"%@\" characteristic \"%@\""
+- "%s : Central \"%@\" tried to subscribe to an unsupported characteristic \"%@\""
+- "%s : Central \"%@\" was not subscribed to characteristic \"%@\""
+- "%s : Characteristic - %@ not found!"
+- "%s : Collecting Call State Data for call ID %@ - Call Index : %u | Call State : %@ | Call Flags : %@"
+- "%s : Could not retrieve now playing client: %@"
+- "%s : ERROR : to update notification state for %@: \"%@\""
+- "%s : ERROR : to update notification state for %@: %@"
+- "%s : Incoming Call Index: %u, call uri %@, uriData %@, incomingCallData %@"
+- "%s : LE Audio Client Doesn't support Telephony Service"
+- "%s : ListItemLength %u, shared call index %u, call state %u, call flags %u, call URI %@"
+- "%s : MCS Service was not created!"
+- "%s : Media Player Name - %s"
+- "%s : Media State Data: %@"
+- "%s : Media information was lost, setting media state to inactive."
+- "%s : MediaRemote rejected the control command!"
+- "%s : New Playback State %@, previous playback state %@"
+- "%s : No subscribers for update to characteristic \"%@\""
+- "%s : Now Playing Client reference is NULL, no application name provdided"
+- "%s : Obtaining playbackstate from MR"
+- "%s : Peripheral is not connected"
+- "%s : Provider name changed passed to TBS: %s"
+- "%s : Received a media control point write That is not supported by media remote"
+- "%s : Received a media control point write while no player was active!"
+- "%s : Received call control point write request opcode %@, peripheralCallIndex %u, for call %@"
+- "%s : Received opcode %@"
+- "%s : Sending Call Control Point Notification to centrals.  Opcode %@, call Index %u, Result %@"
+- "%s : Sending Media Control Point Notification to centrals.  Opcode %@, Result %@"
+- "%s : Service is not discovered"
+- "%s : Started notifying for characteristic \"%@\""
+- "%s : Stopped notifying for characteristic \"%@\""
+- "%s : TBS Service was not created!"
+- "%s : Terminating call %@"
+- "%s : This characteristic \"%@\" is not writable"
+- "%s : Track Duration %u"
+- "%s : Track Info - %@"
+- "%s : Track Title - \"%@\""
+- "%s : URI Scheme %@"
+- "%s : URI Schemes NSData length = %lu"
+- "%s : Unsupported characteristic \"%@\", responding with ATTRIBUTE NOT FOUND"
+- "%s : Write attempt on unsupported characteristic \"%@\". Rejecting request."
+- "%s : bearerUCI Scheme %@"
+- "%s : bearerUCI Scheme %@, phone number = %@"
+- "%s : called for \"%@\""
+- "%s : error cannot convert MCS opcode: %u to MR Command!"
+- "%s : idx %d | state %d | flags %d"
+- "%s : new track - %@, previous track - %@ "
+- "%s : not matching characteristic %@ found!"
+- "%s : notifying peripheral that call on index %u, is termated with reason %@"
+- "%s : opcode %@  parameters first Object is %@"
+- "%s : opcode %d, array %@"
+- "%s : peripheral call index %hhu not found!! Cannot preform write %@"
+- "%s : setting track position to (*10ms): %f"
+- "%s : was called with an invalid central"
+- "%s Now Playing Client Retrieved displayName %@"
+- "%s: No longer any incoming calls, notifying subscribed centrals of change in state"
+- "%s: Unsupported characteristic \"%@\", responding with ATTRIBUTE NOT FOUND"
+- "%s: playback state %@ received from MR"
+- "-[ConnectionManager peripheralManager:central:didSubscribeToCharacteristic:]"
+- "-[ConnectionManager peripheralManager:central:didUnsubscribeFromCharacteristic:]"
+- "-[ConnectionManager peripheralManager:didReceiveReadRequest:]"
+- "-[ConnectionManager peripheralManager:didReceiveWriteRequests:]"
+- "-[ConnectionManager peripheralManagerDidUpdateState:]"
+- "-[HASInterface peripheral:didUpdateNotificationStateForCharacteristic:error:]"
+- "-[HASInterface peripheral:didUpdateValueForCharacteristic:error:]"
+- "-[MCSService attemptToFindNowPlayingApp]_block_invoke"
+- "-[MCSService handleMediaControlPointWrite:]"
+- "-[MCSService handleSubscribersForCharacteristic:withNotificationHandler:]"
+- "-[MCSService handleTrackPositionWrite:]"
+- "-[MCSService infoDidChange:]"
+- "-[MCSService init]_block_invoke_2"
+- "-[MCSService mcsMediaControlOpcodeToMrCommand:]"
+- "-[MCSService mediaControlPointNotification:result:]_block_invoke"
+- "-[MCSService mediaPlayerNameData]"
+- "-[MCSService mediaStateData]"
+- "-[MCSService mrPlaybackStateDidChangeNotification:]_block_invoke"
+- "-[MCSService peripheral:didUpdateNotificationStateForCharacteristic:error:]"
+- "-[MCSService peripheralManager:central:didSubscribeToCharacteristic:]"
+- "-[MCSService peripheralManager:central:didUnsubscribeFromCharacteristic:]"
+- "-[MCSService peripheralManager:didReceiveReadRequest:]"
+- "-[MCSService peripheralManager:didReceiveWriteRequests:]"
+- "-[MCSService playbackStateDidChange:]"
+- "-[MCSService trackDurationData]"
+- "-[MCSService trackPositionData]"
+- "-[MCSService trackTitleData]"
+- "-[ServerCommonAudioProfile handleTelephonyControlRequest:]"
+- "-[TBSInterface didRequestCallControlPointWrite:parameter:]"
+- "-[TBSInterface handleCallControlPointResultUpdate]"
+- "-[TBSInterface handleCallStateUpdate]"
+- "-[TBSInterface peripheral:didDiscoverCharacteristicsForService:error:]"
+- "-[TBSInterface peripheral:didUpdateValueForCharacteristic:error:]"
+- "-[TBSInterface start]"
+- "-[TBSService bearerListCurrentCallsData]"
+- "-[TBSService bearerProviderNameData]"
+- "-[TBSService bearerUniformCallerIdentifierData]"
+- "-[TBSService bearerUriSchemesSupportedListData]"
+- "-[TBSService callControlPointNotification:callIndex:result:]_block_invoke"
+- "-[TBSService callStateData]"
+- "-[TBSService handleCallControlPointWrite:]"
+- "-[TBSService handleSubscribersForCharacteristic:withNotificationHandler:]"
+- "-[TBSService incomingCallData]"
+- "-[TBSService notifyCallTerminationReason:reason:]_block_invoke"
+- "-[TBSService peripheral:didUpdateNotificationStateForCharacteristic:error:]"
+- "-[TBSService peripheralManager:central:didSubscribeToCharacteristic:]"
+- "-[TBSService peripheralManager:central:didUnsubscribeFromCharacteristic:]"
+- "-[TBSService peripheralManager:didReceiveReadRequest:]"
+- "-[TBSService peripheralManager:didReceiveWriteRequests:]"
+- "-[TBSService providerNameChanged:]"
+- "-[VOCSInterface peripheral:didDiscoverCharacteristicsForService:error:]"
+- ":"
+- "@\"MCSInterface\""
+- "@\"NSDictionary\""
+- "@\"TBSInterface\""
+- "@\"TelephonyManager\""
+- "ACCEPT"
+- "Active Preset Index: %d"
+- "Audio Location mismatch, currAudioLocation %d"
+- "B32@?0@8Q16^B24"
+- "Banded Hearing Aid"
+- "Binaural Hearing Aid"
+- "CALL FAILED"
+- "COMMAND CANNOT BE COMPLETED"
+- "CentralManager state is now %@"
+- "Client Characteristic Configuration Descriptor Improperly Configured"
+- "Connecting to CIS with %@"
+- "Connecting to LE Audio device %@"
+- "Did not discover included services on peripheral \"%@\" for service %@"
+- "Disconnecting from CIS with %@"
+- "Discovered Peripheral \"%@\" : %@"
+- "Discovered Unknown Included Service %@"
+- "Dynamic Presets: %d"
+- "E.164"
+- "ENDED BY CLIENT"
+- "ENDED BY REMOTE"
+- "ENDED BY SERVER"
+- "Extracted media state %d"
+- "Extracted player name %@"
+- "Extracted playing order %d"
+- "Extracted playing orders supported %d"
+- "Extracted track position %d"
+- "Extracted track title %@"
+- "FAST FORWARD"
+- "FAST REWIND"
+- "Failed to create CB XPC"
+- "Found MCS Service on LE Audio Client"
+- "Found TBS Service on LE Audio Client"
+- "Found resolved %@"
+- "HAS Preset Record description:"
+- "HASClientService %s notified updated characteristic %@ "
+- "HASClientService %s updated characteristic %@ "
+- "HASPresetRecord"
+- "Hearing Aid Features update: %@"
+- "Hearing Aid Preset Control Point operation result for Hearing Aid \"%@\": %@"
+- "Hearing Aid Preset Control Point update: %@"
+- "Hearing Aid Type: %@"
+- "IMPROPER URI"
+- "INACTIVE"
+- "INTERRUPTED"
+- "INVALID CALL INDEX"
+- "INVALID OUTGOING URI"
+- "Independent Presets: %d"
+- "Initializing CIS Peripheral"
+- "Initializing CISCentral"
+- "Invalid Opcode"
+- "Invalid Parameters Length"
+- "JOIN"
+- "LACK OF RESOURCES"
+- "LE Audio Client Doesn't support Media Server"
+- "LINE BUSY"
+- "LOCAL HOLD"
+- "LOCAL RETRIEVE"
+- "MCS"
+- "MCSService"
+- "MEDIA PLAYER INACTIVE"
+- "Microphone Control Service ATTError: Mute Disabled: %@"
+- "Microphone Control Service ATTError: Value Not Allowed: %@"
+- "Monaural Hearing Aid"
+- "Mute result for member \"%@\": %@"
+- "Mute: %d"
+- "NETWORK CONGESTION"
+- "NEXT TRACK"
+- "NO ANSWER"
+- "NO SERVICE"
+- "No RSI available to be resolved with Sirk"
+- "No connected LE Audio clients, killing self"
+- "No peripherals connected exiting"
+- "OPCODE NOT SUPPORTED"
+- "OPERATION NOT POSSIBLE"
+- "ORIGINATE"
+- "Out of Range"
+- "PAUSE"
+- "PAUSED"
+- "PLAY"
+- "PLAYING"
+- "PREV TRACK"
+- "Parent Interface \"%@\" "
+- "Peripheral \"%@\" supports included service \"%{public}@\". %@"
+- "Preset Operation Not Possible"
+- "Preset Synchronization Not Supported"
+- "Preset Synchronization Support: %d"
+- "Preset added - index: %d name: %@ writable: %d isAvailable: %d isLast: %d prevIndex: %d"
+- "Preset available - index: %d name: %@ writable: %d isAvailable: %d isLast: %d prevIndex: %d"
+- "Preset deleted - index: %d name: %@ writable: %d isAvailable: %d, isLast: %d"
+- "Preset name changed - index: %d name: %@ writable: %d isAvailable: %d isLast: %d prevIndex: %d"
+- "Preset read - index: %d, name: %@, writable: %d, isAvailable: %d, isLast: %d"
+- "Preset unavailable - index: %d name: %@ writable: %d isAvailable: %d isLast: %d prevIndex: %d"
+- "Preset with index %d has become available for peripheral %@"
+- "Preset with index %d has become unavailable for peripheral %@"
+- "Preset with index %d was deleted for peripheral %@"
+- "Procedure Already in Progress"
+- "Received a playbackstate update, with no current player name.  Attempt to find player name."
+- "Retrieved these peripherals %@"
+- "SEEKING"
+- "STATE MISMATCH"
+- "STOP"
+- "STOPPED"
+- "SUCCESS"
+- "Setting up CIG for %@"
+- "Starting included service \"%@\" on peripheral \"%@\""
+- "T@\"CBCharacteristic\",&,N,V_activePresetIndexCharacteristic"
+- "T@\"CBCharacteristic\",&,N,V_bearerListCurrentCallsCharacteristic"
+- "T@\"CBCharacteristic\",&,N,V_bearerProviderNameCharacteristic"
+- "T@\"CBCharacteristic\",&,N,V_bearerTechnologyCharacteristic"
+- "T@\"CBCharacteristic\",&,N,V_bearerUniformCallerIdentifierCharacteristic"
+- "T@\"CBCharacteristic\",&,N,V_bearerUriSchemesSupportedListCharacteristic"
+- "T@\"CBCharacteristic\",&,N,V_callControlPointCharacteristic"
+- "T@\"CBCharacteristic\",&,N,V_callControlPointOptionalOpcodesCharacteristic"
+- "T@\"CBCharacteristic\",&,N,V_callStateCharacteristic"
+- "T@\"CBCharacteristic\",&,N,V_contentControlIdCharacteristic"
+- "T@\"CBCharacteristic\",&,N,V_hearingAidFeaturesCharacteristic"
+- "T@\"CBCharacteristic\",&,N,V_hearingAidPresetControlPointCharacteristic"
+- "T@\"CBCharacteristic\",&,N,V_incomingCallCharacteristic"
+- "T@\"CBCharacteristic\",&,N,V_mediaControlPointCharacteristic"
+- "T@\"CBCharacteristic\",&,N,V_mediaControlPointOpcodesSupportedCharacteristic"
+- "T@\"CBCharacteristic\",&,N,V_mediaPlayerNameCharacteristic"
+- "T@\"CBCharacteristic\",&,N,V_mediaStateCharacteristic"
+- "T@\"CBCharacteristic\",&,N,V_playingOrderCharacteristic"
+- "T@\"CBCharacteristic\",&,N,V_playingOrdersSupportedCharacteristic"
+- "T@\"CBCharacteristic\",&,N,V_statusFlagsCharacteristic"
+- "T@\"CBCharacteristic\",&,N,V_terminationReasonCharacteristic"
+- "T@\"CBCharacteristic\",&,N,V_trackChangedCharacteristic"
+- "T@\"CBCharacteristic\",&,N,V_trackDurationCharacteristic"
+- "T@\"CBCharacteristic\",&,N,V_trackPositionCharacteristic"
+- "T@\"CBCharacteristic\",&,N,V_trackTitleCharacteristic"
+- "T@\"CBMutableCharacteristic\",&,N,V_bearerListCurrentCallsCharacteristic"
+- "T@\"CBMutableCharacteristic\",&,N,V_bearerProviderNameCharacteristic"
+- "T@\"CBMutableCharacteristic\",&,N,V_bearerTechnologyCharacteristic"
+- "T@\"CBMutableCharacteristic\",&,N,V_bearerUniformCallerIdentifierCharacteristic"
+- "T@\"CBMutableCharacteristic\",&,N,V_bearerUriSchemesSupportedListCharacteristic"
+- "T@\"CBMutableCharacteristic\",&,N,V_callControlPointCharacteristic"
+- "T@\"CBMutableCharacteristic\",&,N,V_callControlPointOptionalOpcodesCharacteristic"
+- "T@\"CBMutableCharacteristic\",&,N,V_callStateCharacteristic"
+- "T@\"CBMutableCharacteristic\",&,N,V_contentControlIdCharacteristic"
+- "T@\"CBMutableCharacteristic\",&,N,V_incomingCallCharacteristic"
+- "T@\"CBMutableCharacteristic\",&,N,V_mediaControlPointCharacteristic"
+- "T@\"CBMutableCharacteristic\",&,N,V_mediaControlPointOpcodesSupportedCharacteristic"
+- "T@\"CBMutableCharacteristic\",&,N,V_mediaPlayerNameCharacteristic"
+- "T@\"CBMutableCharacteristic\",&,N,V_mediaStateCharacteristic"
+- "T@\"CBMutableCharacteristic\",&,N,V_playingOrderCharacteristic"
+- "T@\"CBMutableCharacteristic\",&,N,V_playingOrdersSupportedCharacteristic"
+- "T@\"CBMutableCharacteristic\",&,N,V_statusFlagsCharacteristic"
+- "T@\"CBMutableCharacteristic\",&,N,V_terminationReasonCharacteristic"
+- "T@\"CBMutableCharacteristic\",&,N,V_trackChangedCharacteristic"
+- "T@\"CBMutableCharacteristic\",&,N,V_trackDurationCharacteristic"
+- "T@\"CBMutableCharacteristic\",&,N,V_trackPositionCharacteristic"
+- "T@\"CBMutableCharacteristic\",&,N,V_trackTitleCharacteristic"
+- "T@\"MCSInterface\",&,N,V_mcsInterface"
+- "T@\"NSArray\",&,N,V_supportedCommands"
+- "T@\"NSDictionary\",&,N,V_currentTrackInfo"
+- "T@\"NSMutableDictionary\",&,N,V_presets"
+- "T@\"NSMutableDictionary\",&,N,V_subscribedCentrals"
+- "T@\"NSNumber\",&,N,V_playbackQueueCount"
+- "T@\"NSString\",&,N,V_name"
+- "T@\"NSString\",&,N,V_playerName"
+- "T@\"TBSInterface\",&,N,V_tbsInterface"
+- "T@\"TelephonyManager\",&,N,V_telephoneBearer"
+- "TB,N,V_isAvailable"
+- "TB,N,V_isLast"
+- "TB,N,V_writable"
+- "TBS"
+- "TBSService"
+- "TC,N,V_activePresetIndex"
+- "TC,N,V_hearingAidFeatures"
+- "TC,N,V_hearingAidPresetControlPointOpcode"
+- "TC,N,V_index"
+- "TC,N,V_mediaPlaybackState"
+- "TC,N,V_prevMediaPlaybackState"
+- "TERMINATE"
+- "Tearing down CIG for %@"
+- "TelephonyManagerDelegate"
+- "Total number of presets read so far: %lu"
+- "UNKNOWN"
+- "UNKNOWN CALL STATE: %d"
+- "UNKNOWN MCS MEDIA CONTROL RESULT: %u"
+- "UNKNOWN MCS MEDIA PLAYBACK STATE OPCODE: %u"
+- "UNKNOWN MCS MEDIA PLAYBACK STATE: %u"
+- "UNKNOWN MR MEDIA PLAYBACK STATE: %u"
+- "UNKNOWN TBS CALL CONTROL OPCODE: %u"
+- "UNKNOWN TBS CALL CONTROL RESULT CODE: %u"
+- "UNKNOWN TBS TERMINATION REASON: %u"
+- "UNSPECIFIED"
+- "Unknown Application error code"
+- "Unknown Common Profile and Service error code"
+- "Unknown Hearing Aid"
+- "Unrecognized mediaCommand: %@"
+- "Update content control"
+- "Update for media control point"
+- "Verizon"
+- "Writable Presets Support: %d"
+- "Write Name Not Allowed"
+- "WriteRequestRejected"
+- "Writing track position to MCS server: %d"
+- "_activePresetIndex"
+- "_activePresetIndexCharacteristic"
+- "_bearerListCurrentCallsCharacteristic"
+- "_bearerProviderNameCharacteristic"
+- "_bearerTechnologyCharacteristic"
+- "_bearerUniformCallerIdentifierCharacteristic"
+- "_bearerUriSchemesSupportedListCharacteristic"
+- "_callControlPointCharacteristic"
+- "_callControlPointOptionalOpcodesCharacteristic"
+- "_callStateCharacteristic"
+- "_contentControlIdCharacteristic"
+- "_currentTrackInfo"
+- "_hearingAidFeatures"
+- "_hearingAidFeaturesCharacteristic"
+- "_hearingAidPresetControlPointCharacteristic"
+- "_hearingAidPresetControlPointOpcode"
+- "_incomingCallCharacteristic"
+- "_index"
+- "_isAvailable"
+- "_isLast"
+- "_mcsInterface"
+- "_mediaControlPointCharacteristic"
+- "_mediaControlPointOpcodesSupportedCharacteristic"
+- "_mediaPlaybackState"
+- "_mediaPlayerNameCharacteristic"
+- "_mediaStateCharacteristic"
+- "_playbackQueueCount"
+- "_playerName"
+- "_playingOrderCharacteristic"
+- "_playingOrdersSupportedCharacteristic"
+- "_presets"
+- "_prevMediaPlaybackState"
+- "_statusFlagsCharacteristic"
+- "_subscribedCentrals"
+- "_supportedCommands"
+- "_tbsInterface"
+- "_telephoneBearer"
+- "_terminationReasonCharacteristic"
+- "_trackChangedCharacteristic"
+- "_trackDurationCharacteristic"
+- "_trackPositionCharacteristic"
+- "_trackTitleCharacteristic"
+- "_writable"
+- "accept"
+- "activePresetIndex"
+- "activePresetIndexCharacteristic"
+- "applicationDidChange:"
+- "attApplicationErrorCodeToString:"
+- "attCommonProfileAndServiceErrorCodeToString:"
+- "attemptToFindNowPlayingApp"
+- "bearerListCurrentCallsCharacteristic"
+- "bearerListCurrentCallsData"
+- "bearerProviderNameCharacteristic"
+- "bearerProviderNameData"
+- "bearerTechnologyCharacteristic"
+- "bearerTechnologyData"
+- "bearerUniformCallerIdentifierCharacteristic"
+- "bearerUniformCallerIdentifierData"
+- "bearerUriSchemesSupportedListCharacteristic"
+- "bearerUriSchemesSupportedListData"
+- "callControlPointCharacteristic"
+- "callControlPointNotification:callIndex:result:"
+- "callControlPointOptionalOpcodesCharacteristic"
+- "callControlPointOptionalOpcodesData"
+- "callControlResultCodeToString:"
+- "callProviderIdentifierFromTBSURIScheme:"
+- "callStateCharacteristic"
+- "callStateData"
+- "callStateToString:"
+- "com.apple.bluetoothaudiod.cb"
+- "com.apple.coretelephony"
+- "com.apple.telephonyutilities.callservicesd.FaceTimeProvider"
+- "componentsSeparatedByString:"
+- "connectCIS:"
+- "contentControlIdCharacteristic"
+- "contentControlIdData"
+- "currentTrackInfo"
+- "currentTrackInfoItemDifferentFrom:forKey:"
+- "dataUsingEncoding:"
+- "date"
+- "didDiscoverDescriptorsForCharacteristic"
+- "didRequestCallControlPointWrite:parameter:"
+- "didRequestCallListRead"
+- "didRequestCurrentTrackInfoRead"
+- "didRequestMediaControlOpcodesSupportedRead"
+- "didRequestMediaControlPointWrite:"
+- "didRequestMediaPlayerInfoRead"
+- "didRequestMediaPlayerNameRead"
+- "didRequestMediaStateRead"
+- "didRequestTrackDurationRead"
+- "didRequestTrackPositionRead"
+- "didRequestTrackPositionWrite:"
+- "didRequestTrackTitleRead"
+- "didUpdateNotificationStateForCharacteristic"
+- "didUpdateValueForDescriptor"
+- "didWriteValueForCharacteristic"
+- "doubleValue"
+- "elapsedTime: %@, infoTimestamp: %@, playbackRate: %@, timeSinceInfo: %f, trackElapsedTime: %d"
+- "empty media state?"
+- "empty name?"
+- "empty playing order?"
+- "empty track title?"
+- "errorWithDomain:code:userInfo:"
+- "extractMediaControlPointOpcodesSupported"
+- "extractMediaPlayerName"
+- "extractMediaState"
+- "extractPlayingOrder"
+- "extractPlayingOrdersSupported"
+- "extractTrackDuration"
+- "extractTrackPosition"
+- "extractTrackTitle"
+- "fastForward"
+- "fastRewind"
+- "firstGroup"
+- "firstSegment"
+- "firstTrack"
+- "ftime"
+- "getActivePresetIndex"
+- "getCallInfoWithSharedCallIndex:"
+- "getPresetRecord:"
+- "gotoGroup"
+- "gotoSegment"
+- "gotoTrack"
+- "handleActivePresetIndex"
+- "handleCallControlPointResultUpdate"
+- "handleCallControlPointWrite:"
+- "handleCallStateUpdate"
+- "handleGenericUpdate:length:"
+- "handleHearingAidFeaturestUpdate"
+- "handleHearingAidPresetControlPointUpdate"
+- "handleMediaControlPointWrite:"
+- "handleOriginateCallRequest:"
+- "handlePlayingOrderWrite:"
+- "handlePresetChanged for peripheral %@"
+- "handlePresetChanged:length:"
+- "handlePresetRecordUpdate:length:changeId:"
+- "handleReadPresetResponse for peripheral %@"
+- "handleReadPresetResponse:length:"
+- "handleSubscribersForCharacteristic:withNotificationHandler:"
+- "handleTerminationReasonUpdate"
+- "handleTrackPositionWrite:"
+- "hearingAidFeatureSupported:"
+- "hearingAidFeatures"
+- "hearingAidFeaturesCharacteristic"
+- "hearingAidPresetControlPointCharacteristic"
+- "hearingAidPresetControlPointOpcode"
+- "hearingAidTypeToString:"
+- "incoming Connection Request cigID:%@ cisID:%@, accepting..."
+- "incomingCallCharacteristic"
+- "incomingCallData"
+- "infoDidChange:"
+- "initCISCentral"
+- "initCISPeripheral:completion:"
+- "initWithData:encoding:"
+- "isEqualToArray:"
+- "isNotifying"
+- "kCBMsgArgBool"
+- "kCBMsgArgReason"
+- "lastGroup"
+- "lastObject"
+- "lastSegment"
+- "lastTrack"
+- "lengthOfBytesUsingEncoding:"
+- "localizedDescription"
+- "mcsInterface"
+- "mcsMediaControlOpcodeToMrCommand:"
+- "mcsPlayBackStateToString:"
+- "mediaControlOpcodeToString:"
+- "mediaControlPointCharacteristic"
+- "mediaControlPointNotification:result:"
+- "mediaControlPointOpcodesSupportedCharacteristic"
+- "mediaControlPointOpcodesSupportedData"
+- "mediaControlResultToString:"
+- "mediaPlaybackState"
+- "mediaPlayerNameCharacteristic"
+- "mediaPlayerNameData"
+- "mediaStateCharacteristic"
+- "mediaStateData"
+- "moveRelative"
+- "mrApplicationDidChangeNotification:"
+- "mrNowPlayingInfoDidChangeNotification"
+- "mrPlayBackStateToString:"
+- "mrPlaybackStateDidChangeNotification:"
+- "mrPlaybackStateFromMCSMediaControlOpcode:"
+- "mrSupportedCommandsDidChangeNotification"
+- "next"
+- "nextGroup"
+- "nextSegment"
+- "notifyBearerListCurrentCalls"
+- "notifyBearerProviderName"
+- "notifyBearerTechnology"
+- "notifyCallStateChange"
+- "notifyCallTerminationReason:reason:"
+- "notifyMediaControlPointOpcodesSupported"
+- "notifyMediaPlayerName"
+- "notifyMediaState"
+- "notifyPlayingOrder"
+- "notifyTrackChanged"
+- "notifyTrackDuration"
+- "notifyTrackPosition"
+- "notifyTrackTitle"
+- "opcodesToString:"
+- "pause"
+- "play"
+- "playbackQueueCount"
+- "playbackQueueDidChange:"
+- "playbackStateDidChange:"
+- "playbackStateToString:"
+- "playerName"
+- "playingOrderCharacteristic"
+- "playingOrderData"
+- "playingOrdersSupportedCharacteristic"
+- "playingOrdersSupportedData"
+- "presetNameToString:"
+- "prev"
+- "prevGroup"
+- "prevMediaPlaybackState"
+- "prevSegment"
+- "providerNameChanged:"
+- "removeCIG : result:%@ aCigID:%@"
+- "removeCIG:completion:"
+- "respondToCISConnectionRequest:"
+- "setActivePresetIndex:"
+- "setActivePresetIndexCharacteristic:"
+- "setBearerListCurrentCallsCharacteristic:"
+- "setBearerProviderNameCharacteristic:"
+- "setBearerTechnologyCharacteristic:"
+- "setBearerUniformCallerIdentifierCharacteristic:"
+- "setBearerUriSchemesSupportedListCharacteristic:"
+- "setCallControlPointCharacteristic:"
+- "setCallControlPointOptionalOpcodesCharacteristic:"
+- "setCallStateCharacteristic:"
+- "setCisConnectEvent:"
+- "setCisDisconnectEvent:"
+- "setContentControlIdCharacteristic:"
+- "setCurrentTrackInfo:"
+- "setHearingAidFeatures:"
+- "setHearingAidFeaturesCharacteristic:"
+- "setHearingAidPresetControlPointCharacteristic:"
+- "setHearingAidPresetControlPointOpcode:"
+- "setIncomingCallCharacteristic:"
+- "setIndex:"
+- "setIsAvailable:"
+- "setIsLast:"
+- "setMcsInterface:"
+- "setMediaControlPointCharacteristic:"
+- "setMediaControlPointOpcodesSupportedCharacteristic:"
+- "setMediaPlaybackState:"
+- "setMediaPlayerNameCharacteristic:"
+- "setMediaStateCharacteristic:"
+- "setName:"
+- "setPlaybackQueueCount:"
+- "setPlayerName:"
+- "setPlayingOrderCharacteristic:"
+- "setPlayingOrdersSupportedCharacteristic:"
+- "setPresets:"
+- "setPrevMediaPlaybackState:"
+- "setStatusFlagsCharacteristic:"
+- "setSubscribedCentrals:"
+- "setSupportedCommands:"
+- "setTbsInterface:"
+- "setTelephoneBearer:"
+- "setTerminationReasonCharacteristic:"
+- "setTrackChangedCharacteristic:"
+- "setTrackDurationCharacteristic:"
+- "setTrackPositionCharacteristic:"
+- "setTrackTitleCharacteristic:"
+- "setWritable:"
+- "setupCIG:completion:"
+- "sharedInstance"
+- "statusFlagsCharacteristic"
+- "statusFlagsData"
+- "stringByAppendingFormat:"
+- "supported opcodes raw val: %d"
+- "supportedAppUriSchemesChanged:"
+- "supportedCommands"
+- "supportedCommandsDidChange:"
+- "tbsInterface"
+- "tel"
+- "telephoneBearer"
+- "terminate"
+- "terminationReasonCharacteristic"
+- "terminationReasonToString:"
+- "timeIntervalSinceDate:"
+- "trackChangedCharacteristic"
+- "trackDurationCharacteristic"
+- "trackDurationData"
+- "trackPositionCharacteristic"
+- "trackPositionData"
+- "trackTitleCharacteristic"
+- "trackTitleData"
+- "un000"
+- "v12@?0I8"
+- "v16@?0@\"NSArray\"8"
+- "v16@?0^{__CFArray=}8"
+- "v24@0:8@\"NSString\"16"
+- "v24@0:8^@16"
+- "v24@0:8^v16"
+- "v24@0:8^{__CFArray=}16"
+- "v24@?0@\"NSNumber\"8@\"NSNumber\"16"
+- "v24@?0^v8^{__CFError=}16"
+- "v24@?0^{__CFDictionary=}8^v16"
+- "v28@0:8C16C20C24"
+- "v28@0:8C16^@20"
+- "v32@0:8C16C20^@24"
+- "v36@0:8C16@20^@28"
+- "xpc session requested call list read"
+
+```

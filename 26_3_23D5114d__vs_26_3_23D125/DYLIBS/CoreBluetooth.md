@@ -1,0 +1,1038 @@
+## CoreBluetooth
+
+> `/System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth`
+
+```diff
+
+ 193.9.0.0.0
+-  __TEXT.__text: 0xb5154
+-  __TEXT.__auth_stubs: 0x13a0
+-  __TEXT.__objc_methlist: 0xa0b4
+-  __TEXT.__const: 0x2773
+-  __TEXT.__oslogstring: 0x2b1b
+-  __TEXT.__cstring: 0x15275
+-  __TEXT.__gcc_except_tab: 0x2f88
++  __TEXT.__text: 0xae108
++  __TEXT.__auth_stubs: 0x1370
++  __TEXT.__objc_methlist: 0x98a4
++  __TEXT.__const: 0x276b
++  __TEXT.__oslogstring: 0x2678
++  __TEXT.__cstring: 0x143d8
++  __TEXT.__gcc_except_tab: 0x2cf4
+   __TEXT.__ustring: 0x82
+-  __TEXT.__unwind_info: 0x2158
++  __TEXT.__unwind_info: 0x1fb8
+   __TEXT.__eh_frame: 0x98
+-  __TEXT.__objc_classname: 0x805
+-  __TEXT.__objc_methname: 0x16c5f
+-  __TEXT.__objc_methtype: 0x251a
+-  __TEXT.__objc_stubs: 0xb700
+-  __DATA_CONST.__got: 0x3b8
+-  __DATA_CONST.__const: 0x57a8
+-  __DATA_CONST.__objc_classlist: 0x238
++  __TEXT.__objc_classname: 0x728
++  __TEXT.__objc_methname: 0x157e3
++  __TEXT.__objc_methtype: 0x23cb
++  __TEXT.__objc_stubs: 0xb0a0
++  __DATA_CONST.__got: 0x388
++  __DATA_CONST.__const: 0x5368
++  __DATA_CONST.__objc_classlist: 0x1f0
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0xe8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x5028
++  __DATA_CONST.__objc_selrefs: 0x4bf8
+   __DATA_CONST.__objc_protorefs: 0x8
+-  __DATA_CONST.__objc_superrefs: 0x160
++  __DATA_CONST.__objc_superrefs: 0x130
+   __DATA_CONST.__objc_arraydata: 0x130
+-  __AUTH_CONST.__auth_got: 0x9e0
+-  __AUTH_CONST.__const: 0x400
+-  __AUTH_CONST.__cfstring: 0xe0e0
+-  __AUTH_CONST.__objc_const: 0x11e48
++  __AUTH_CONST.__auth_got: 0x9c8
++  __AUTH_CONST.__const: 0x3e0
++  __AUTH_CONST.__cfstring: 0xcb80
++  __AUTH_CONST.__objc_const: 0x10fa8
+   __AUTH_CONST.__objc_intobj: 0x900
+   __AUTH_CONST.__objc_dictobj: 0xf0
+   __AUTH_CONST.__objc_arrayobj: 0x30
+-  __AUTH.__objc_data: 0x5f0
+-  __DATA.__objc_ivar: 0xf70
++  __AUTH.__objc_data: 0x320
++  __DATA.__objc_ivar: 0xeac
+   __DATA.__data: 0xe68
+   __DATA.__common: 0x8
+   __DATA_DIRTY.__objc_data: 0x1040
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 8EAA9F8E-AA1B-3B13-BB35-E4C50AF1383F
+-  Functions: 4253
+-  Symbols:   13842
+-  CStrings:  10535
++  UUID: D421E68F-F76B-32A6-916A-8BF91296C669
++  Functions: 4075
++  Symbols:   13155
++  CStrings:  9893
+ 
+Symbols:
++ -[CBPeripheral isConnectedToSystem].295
++ GCC_except_table27
++ GCC_except_table50
++ GCC_except_table54
++ ___block_literal_global.792
+- -[CBCentralManager _handleLEAudioXpcEvents:]
+- -[CBCentralManager _handleLEAudioXpcEvents:].cold.1
+- -[CBCentralManager _handleLEAudioXpcEvents:].cold.2
+- -[CBCentralManager _handleLEAudioXpcEvents:].cold.3
+- -[CBCentralManager _handleLEAudioXpcEvents:].cold.4
+- -[CBCentralManager audioSessions]
+- -[CBCentralManager changeMicrophoneGainSettingForSession:forAudioInputType:withMicGain:withResponse:]
+- -[CBCentralManager changeVolumeForSession:withVolume:withResponse:]
+- -[CBCentralManager changeVolumeMuteStateForSession:withVolumeMuteState:withResponse:]
+- -[CBCentralManager changeVolumeOffsetForSession:toLocation:withVolumeOffSet:withResponse:]
+- -[CBCentralManager cisConnectEvent]
+- -[CBCentralManager cisDisconnectEvent]
+- -[CBCentralManager connectCIS:]
+- -[CBCentralManager createSessionEvent:withMsg:]
+- -[CBCentralManager createSessionEvent:withMsg:].cold.1
+- -[CBCentralManager createXPCForLEAudio]
+- -[CBCentralManager createXPCForLEAudio].cold.1
+- -[CBCentralManager createXPCForLEAudio].cold.2
+- -[CBCentralManager createXPCForLEAudio].cold.3
+- -[CBCentralManager disconnectCIS:]
+- -[CBCentralManager handleActivePresetUpdated:]
+- -[CBCentralManager handleConnectCISComplete:]
+- -[CBCentralManager handleConnectLEAudioComplete:]
+- -[CBCentralManager handleDisconnectCISComplete:]
+- -[CBCentralManager handleFeaturesUpdated:]
+- -[CBCentralManager handleLEAudioMsg:]
+- -[CBCentralManager handleLEAudioMsg:].cold.1
+- -[CBCentralManager handleLEAudioMsg:].cold.2
+- -[CBCentralManager handleLEAudioMsg:].cold.3
+- -[CBCentralManager handleLEAudioMsg:].cold.4
+- -[CBCentralManager handleLEAudioSessionEvents:]
+- -[CBCentralManager handleLEAudioSessionEvents:].cold.1
+- -[CBCentralManager handleLEAudioXpcInterrupted]
+- -[CBCentralManager handleLEAudioXpcInterrupted].cold.1
+- -[CBCentralManager handleLEAudioXpcInvalid]
+- -[CBCentralManager handleLEAudioXpcInvalid].cold.1
+- -[CBCentralManager handleMicrophoneGainUpdated:]
+- -[CBCentralManager handleMicrophoneMuteUpdated:]
+- -[CBCentralManager handlePresetNameUpdated:]
+- -[CBCentralManager handlePresetsUpdated:]
+- -[CBCentralManager handleRemoveCIGComplete:]
+- -[CBCentralManager handleSessionCompleted:]
+- -[CBCentralManager handleSessionCompleted:].cold.1
+- -[CBCentralManager handleSessionMicrophoneGainUpdated:]
+- -[CBCentralManager handleSessionMicrophoneGainUpdated:].cold.1
+- -[CBCentralManager handleSessionMicrophoneMuteUpdated:]
+- -[CBCentralManager handleSessionMicrophoneMuteUpdated:].cold.1
+- -[CBCentralManager handleSessionVolumeMuteUpdated:]
+- -[CBCentralManager handleSessionVolumeMuteUpdated:].cold.1
+- -[CBCentralManager handleSessionVolumeOffsetUpdated:]
+- -[CBCentralManager handleSessionVolumeOffsetUpdated:].cold.1
+- -[CBCentralManager handleSessionVolumeUpdated:]
+- -[CBCentralManager handleSessionVolumeUpdated:].cold.1
+- -[CBCentralManager handleSetupCIGComplete:]
+- -[CBCentralManager handleSetupCIGComplete:].cold.1
+- -[CBCentralManager handleSetupCIGComplete:].cold.2
+- -[CBCentralManager handleVolumeInputGainUpdated:]
+- -[CBCentralManager handleVolumeMuteUpdated:]
+- -[CBCentralManager handleVolumeOffsetUpdated:]
+- -[CBCentralManager handleVolumeUpdated:]
+- -[CBCentralManager initCISCentral]
+- -[CBCentralManager leAudioEventHandler]
+- -[CBCentralManager registerLEAudioClient]
+- -[CBCentralManager removeCIG:completion:]
+- -[CBCentralManager removeCIGCompletion]
+- -[CBCentralManager sendLEAudioMsg:args:completion:]
+- -[CBCentralManager sendLEAudioMsg:args:completion:].cold.1
+- -[CBCentralManager setCisConnectEvent:]
+- -[CBCentralManager setCisDisconnectEvent:]
+- -[CBCentralManager setLeAudioEventHandler:]
+- -[CBCentralManager setMicrophoneMuteStateForSession:withMicMuteState:withResponse:]
+- -[CBCentralManager setRemoveCIGCompletion:]
+- -[CBCentralManager setSetupCIGCompletion:]
+- -[CBCentralManager setupCIG:completion:]
+- -[CBCentralManager setupCIGCompletion]
+- -[CBCentralManager startLEAudioXPC]
+- -[CBCoordinatedMemberInfo memberRank]
+- -[CBCoordinatedMemberInfo setMemberRank:]
+- -[CBCoordinatedSetInfo .cxx_destruct]
+- -[CBCoordinatedSetInfo connectedIdentifiers]
+- -[CBCoordinatedSetInfo copyWithZone:]
+- -[CBCoordinatedSetInfo initWithInfo:withSize:]
+- -[CBCoordinatedSetInfo setConnectedIdentifiers:]
+- -[CBCoordinatedSetInfo setName]
+- -[CBCoordinatedSetInfo setSetName:]
+- -[CBCoordinatedSetInfo setSetSize:]
+- -[CBCoordinatedSetInfo setSize]
+- -[CBISOReadRequest .cxx_destruct]
+- -[CBISOReadRequest completionHandler]
+- -[CBISOReadRequest data]
+- -[CBISOReadRequest error]
+- -[CBISOReadRequest missedReads]
+- -[CBISOReadRequest setCompletionHandler:]
+- -[CBISOReadRequest setData:]
+- -[CBISOReadRequest setError:]
+- -[CBISOReadRequest setMissedReads:]
+- -[CBISOWriteRequest .cxx_destruct]
+- -[CBISOWriteRequest completionHandler]
+- -[CBISOWriteRequest data]
+- -[CBISOWriteRequest error]
+- -[CBISOWriteRequest setCompletionHandler:]
+- -[CBISOWriteRequest setData:]
+- -[CBISOWriteRequest setError:]
+- -[CBISOWriteRequest setStream:]
+- -[CBISOWriteRequest stream]
+- -[CBLEAudioHearingAidPreset .cxx_destruct]
+- -[CBLEAudioHearingAidPreset initWithValues:withProperty:withName:]
+- -[CBLEAudioHearingAidPreset isAvailable]
+- -[CBLEAudioHearingAidPreset isWritable]
+- -[CBLEAudioHearingAidPreset presetIndex]
+- -[CBLEAudioHearingAidPreset presetName]
+- -[CBLEAudioHearingAidUpdateEvent .cxx_destruct]
+- -[CBLEAudioHearingAidUpdateEvent activePreset]
+- -[CBLEAudioHearingAidUpdateEvent initWithEventType:]
+- -[CBLEAudioHearingAidUpdateEvent initWithValue:withValue:]
+- -[CBLEAudioHearingAidUpdateEvent presetResults]
+- -[CBLEAudioHearingAidUpdateEvent setActivePreset:]
+- -[CBLEAudioHearingAidUpdateEvent setPresetResults:]
+- -[CBLEAudioPeripheralUpdateEvent .cxx_destruct]
+- -[CBLEAudioPeripheralUpdateEvent error]
+- -[CBLEAudioPeripheralUpdateEvent eventType]
+- -[CBLEAudioPeripheralUpdateEvent initWithError:withError:]
+- -[CBLEAudioPeripheralUpdateEvent initWithEventType:]
+- -[CBLEAudioPeripheralUpdateEvent initWithValue:withValue:]
+- -[CBLEAudioPeripheralUpdateEvent updatedValue]
+- -[CBLEAudioSessionEvent .cxx_destruct]
+- -[CBLEAudioSessionEvent error]
+- -[CBLEAudioSessionEvent eventType]
+- -[CBLEAudioSessionEvent initWithEventType:withError:]
+- -[CBLEAudioSessionEvent sessionInfo]
+- -[CBLEAudioSessionEvent setError:]
+- -[CBLEAudioSessionEvent setSessionInfo:]
+- -[CBLEAudioSessionEvent setUpdatedValue:]
+- -[CBLEAudioSessionEvent updatedValue]
+- -[CBLEAudioSessionInfo .cxx_destruct]
+- -[CBLEAudioSessionInfo audioSessionIdentifier]
+- -[CBLEAudioSessionInfo connectedIdentifiers]
+- -[CBLEAudioSessionInfo coordinatedSetInfo]
+- -[CBLEAudioSessionInfo copyWithZone:]
+- -[CBLEAudioSessionInfo initWithInfo:withSessionId:withState:withCoordIds:withLocation:]
+- -[CBLEAudioSessionInfo initWithSession:]
+- -[CBLEAudioSessionInfo locations]
+- -[CBLEAudioSessionInfo retrieveConnectedLEAudioPeripheralIdentifiers]
+- -[CBLEAudioSessionInfo sessionState]
+- -[CBPeripheral deviceType]
+- -[CBPeripheral dynamicPresets]
+- -[CBPeripheral handleLEAudioActivePresetUpdated:]
+- -[CBPeripheral handleLEAudioActivePresetUpdated:].cold.1
+- -[CBPeripheral handleLEAudioConnected:]
+- -[CBPeripheral handleLEAudioConnected:].cold.1
+- -[CBPeripheral handleLEAudioEvents:]
+- -[CBPeripheral handleLEAudioEvents:].cold.1
+- -[CBPeripheral handleLEAudioEvents:].cold.2
+- -[CBPeripheral handleLEAudioEvents:].cold.3
+- -[CBPeripheral handleLEAudioHearingAidFeaturesUpdated:]
+- -[CBPeripheral handleLEAudioHearingAidFeaturesUpdated:].cold.1
+- -[CBPeripheral handleLEAudioMicrophoneGainUpdated:]
+- -[CBPeripheral handleLEAudioMicrophoneGainUpdated:].cold.1
+- -[CBPeripheral handleLEAudioMicrophoneMuteUpdated:]
+- -[CBPeripheral handleLEAudioMicrophoneMuteUpdated:].cold.1
+- -[CBPeripheral handleLEAudioMsg:args:]
+- -[CBPeripheral handleLEAudioMsg:args:].cold.1
+- -[CBPeripheral handleLEAudioMsg:args:].cold.2
+- -[CBPeripheral handleLEAudioPresetNameUpdated:]
+- -[CBPeripheral handleLEAudioPresetNameUpdated:].cold.1
+- -[CBPeripheral handleLEAudioPresetUpdated:]
+- -[CBPeripheral handleLEAudioPresetUpdated:].cold.1
+- -[CBPeripheral handleLEAudioVolumeGainUpdated:]
+- -[CBPeripheral handleLEAudioVolumeGainUpdated:].cold.1
+- -[CBPeripheral handleLEAudioVolumeMuteUpdated:]
+- -[CBPeripheral handleLEAudioVolumeMuteUpdated:].cold.1
+- -[CBPeripheral handleLEAudioVolumeOffsetUpdated:]
+- -[CBPeripheral handleLEAudioVolumeOffsetUpdated:].cold.1
+- -[CBPeripheral handleLEAudioVolumeUpdated:]
+- -[CBPeripheral handleLEAudioVolumeUpdated:].cold.1
+- -[CBPeripheral hearingAidType]
+- -[CBPeripheral independentPresets]
+- -[CBPeripheral isConnectedToSystem].408
+- -[CBPeripheral location]
+- -[CBPeripheral presetSyncSupported]
+- -[CBPeripheral readPresets:]
+- -[CBPeripheral sendLEAudioMsg:args:completion:]
+- -[CBPeripheral setActivePreset:OptionalPresetIndex:withResponse:]
+- -[CBPeripheral setLEAudioDeviceType:]
+- -[CBPeripheral setLEAudioLocation:]
+- -[CBPeripheral setMicrophoneMute:withResponse:]
+- -[CBPeripheral setUpdateHandler:]
+- -[CBPeripheral setVolume:withResponse:]
+- -[CBPeripheral setVolumeMute:withResponse:]
+- -[CBPeripheral setVolumeOffSet:withOffSetValue:withResponse:]
+- -[CBPeripheral updateHandler]
+- -[CBPeripheral writablePresets]
+- -[CBPeripheral writeMicrophoneAudioInput:forAudioInputType:withOptionalGain:withResponse:]
+- -[CBPeripheral writePresetName:withName:withResponse:]
+- -[CBPeripheral writeVolumeAudioInput:forAudioInputType:withOptionalGain:withResponse:]
+- -[CBPeripheralManager cisPeripheralConnectEvent]
+- -[CBPeripheralManager cisPeripheralDisconnectEvent]
+- -[CBPeripheralManager disconnectCISPeripheral:]
+- -[CBPeripheralManager handleConnectCISPeripheralComplete:]
+- -[CBPeripheralManager handleDisconnectCISPeripheralComplete:]
+- -[CBPeripheralManager handleIncomingCISConnectionRequest:]
+- -[CBPeripheralManager handleIncomingCISConnectionRequest:].cold.1
+- -[CBPeripheralManager handleIncomingCISConnectionRequest:].cold.2
+- -[CBPeripheralManager initCISPeripheral:completion:]
+- -[CBPeripheralManager respondToCISConnectionRequest:]
+- -[CBPeripheralManager setCisPeripheralConnectEvent:]
+- -[CBPeripheralManager setCisPeripheralDisconnectEvent:]
+- GCC_except_table174
+- GCC_except_table176
+- GCC_except_table178
+- GCC_except_table179
+- GCC_except_table180
+- GCC_except_table181
+- GCC_except_table182
+- GCC_except_table39
+- GCC_except_table41
+- GCC_except_table57
+- GCC_except_table62
+- GCC_except_table63
+- GCC_except_table66
+- GCC_except_table67
+- GCC_except_table68
+- _CBUUIDActivePresetIndexCharacteristicString
+- _CBUUIDAudioInputControlPointCharacteristicString
+- _CBUUIDAudioInputControlServiceString
+- _CBUUIDAudioInputDescriptionCharacteristicString
+- _CBUUIDAudioInputStateCharacteristicString
+- _CBUUIDAudioInputStatusCharacteristicString
+- _CBUUIDAudioInputTypeCharacteristicString
+- _CBUUIDAudioLocationCharacteristicString
+- _CBUUIDAudioOutputDescriptionCharacteristicString
+- _CBUUIDBearerListCurrentCallsCharacteristicString
+- _CBUUIDBearerProviderNameCharacteristicString
+- _CBUUIDBearerSignalStrengthCharacteristicString
+- _CBUUIDBearerSignalStrengthReportingIntervalCharacteristicString
+- _CBUUIDBearerTechnologyCharacteristicString
+- _CBUUIDBearerUciCharacteristicString
+- _CBUUIDBearerUriSchemesSupportedListCharacteristicString
+- _CBUUIDCallControlPointCharacteristicString
+- _CBUUIDCallControlPointOptionalOpcodesCharacteristicString
+- _CBUUIDCallFriendlyNameCharacteristicString
+- _CBUUIDCallStateCharacteristicString
+- _CBUUIDContentControlIdCharacteristicString
+- _CBUUIDCoordinatedSetIdServiceString
+- _CBUUIDCoordinatedSetSizeCharacteristicString
+- _CBUUIDCurrentGroupObjectIDCharacteristicString
+- _CBUUIDCurrentTrackObjectIDCharacteristicString
+- _CBUUIDCurrentTrackSegmentsObjectIDCharacteristicString
+- _CBUUIDGainSettingPropertiesCharacteristicString
+- _CBUUIDGenericMediaControlServiceString
+- _CBUUIDGenericTelephoneBearerServiceString
+- _CBUUIDHearingAccessServiceString
+- _CBUUIDHearingAidFeaturesCharacteristicString
+- _CBUUIDHearingAidPresetControlPointCharacteristicString
+- _CBUUIDIncomingCallCharacteristicString
+- _CBUUIDIncomingCallTargetBearerUriCharacteristicString
+- _CBUUIDMediaControlPointCharacteristicString
+- _CBUUIDMediaControlPointOpcodesSupportedCharacteristicString
+- _CBUUIDMediaControlServiceString
+- _CBUUIDMediaPlayerIconObjectIDCharacteristicString
+- _CBUUIDMediaPlayerIconURLCharacteristicString
+- _CBUUIDMediaPlayerNameCharacteristicString
+- _CBUUIDMediaStateCharacteristicString
+- _CBUUIDMicrophoneControlServiceString
+- _CBUUIDMuteCharacteristicString
+- _CBUUIDNextTrackObjectIDCharacteristicString
+- _CBUUIDParentGroupObjectIDCharacteristicString
+- _CBUUIDPlaybackSpeedCharacteristicString
+- _CBUUIDPlayingOrderCharacteristicString
+- _CBUUIDPlayingOrdersSupportedCharacteristicString
+- _CBUUIDSearchControlPointCharacteristicString
+- _CBUUIDSearchResultsObjectIDCharacteristicString
+- _CBUUIDSeekingSpeedCharacteristicString
+- _CBUUIDSetIdResolvingKeyCharacteristicString
+- _CBUUIDSetMemberLockCharacteristicString
+- _CBUUIDSetMemberRankCharacteristicString
+- _CBUUIDStatusFlagsCharacteristicString
+- _CBUUIDTMAPRoleCharacteristicString
+- _CBUUIDTelephoneBearerServiceString
+- _CBUUIDTelephonyMediaAudioServiceString
+- _CBUUIDTerminationReasonCharacteristicString
+- _CBUUIDTrackChangedCharacteristicString
+- _CBUUIDTrackDurationCharacteristicString
+- _CBUUIDTrackPositionCharacteristicString
+- _CBUUIDTrackTitleCharacteristicString
+- _CBUUIDVolumeControlPointCharacteristicString
+- _CBUUIDVolumeControlServiceString
+- _CBUUIDVolumeFlagsCharacteristicString
+- _CBUUIDVolumeOffsetControlPointCharacteristicString
+- _CBUUIDVolumeOffsetControlServiceString
+- _CBUUIDVolumeOffsetStateCharacteristicString
+- _CBUUIDVolumeStateCharacteristicString
+- _OBJC_CLASS_$_CBCoordinatedMemberInfo
+- _OBJC_CLASS_$_CBCoordinatedSetInfo
+- _OBJC_CLASS_$_CBISOReadRequest
+- _OBJC_CLASS_$_CBISOWriteRequest
+- _OBJC_CLASS_$_CBLEAudioHearingAidPreset
+- _OBJC_CLASS_$_CBLEAudioHearingAidUpdateEvent
+- _OBJC_CLASS_$_CBLEAudioPeripheralUpdateEvent
+- _OBJC_CLASS_$_CBLEAudioSessionEvent
+- _OBJC_CLASS_$_CBLEAudioSessionInfo
+- _OBJC_IVAR_$_CBCentralManager._audioSessions
+- _OBJC_IVAR_$_CBCentralManager._cisConnectEvent
+- _OBJC_IVAR_$_CBCentralManager._cisDisconnectEvent
+- _OBJC_IVAR_$_CBCentralManager._leAudioDevice
+- _OBJC_IVAR_$_CBCentralManager._leAudioEventHandler
+- _OBJC_IVAR_$_CBCentralManager._leAudioXpcConnection
+- _OBJC_IVAR_$_CBCentralManager._removeCIGCompletion
+- _OBJC_IVAR_$_CBCentralManager._setupCIGCompletion
+- _OBJC_IVAR_$_CBCentralManager._validLeAudioXpcCalled
+- _OBJC_IVAR_$_CBCoordinatedMemberInfo._memberRank
+- _OBJC_IVAR_$_CBCoordinatedSetInfo._connectedIdentifiers
+- _OBJC_IVAR_$_CBCoordinatedSetInfo._setName
+- _OBJC_IVAR_$_CBCoordinatedSetInfo._setSize
+- _OBJC_IVAR_$_CBISOReadRequest._completionHandler
+- _OBJC_IVAR_$_CBISOReadRequest._data
+- _OBJC_IVAR_$_CBISOReadRequest._error
+- _OBJC_IVAR_$_CBISOReadRequest._missedReads
+- _OBJC_IVAR_$_CBISOWriteRequest._completionHandler
+- _OBJC_IVAR_$_CBISOWriteRequest._data
+- _OBJC_IVAR_$_CBISOWriteRequest._error
+- _OBJC_IVAR_$_CBISOWriteRequest._stream
+- _OBJC_IVAR_$_CBLEAudioHearingAidPreset._isAvailable
+- _OBJC_IVAR_$_CBLEAudioHearingAidPreset._isWritable
+- _OBJC_IVAR_$_CBLEAudioHearingAidPreset._presetIndex
+- _OBJC_IVAR_$_CBLEAudioHearingAidPreset._presetName
+- _OBJC_IVAR_$_CBLEAudioHearingAidUpdateEvent._activePreset
+- _OBJC_IVAR_$_CBLEAudioHearingAidUpdateEvent._presetResults
+- _OBJC_IVAR_$_CBLEAudioPeripheralUpdateEvent._error
+- _OBJC_IVAR_$_CBLEAudioPeripheralUpdateEvent._eventType
+- _OBJC_IVAR_$_CBLEAudioPeripheralUpdateEvent._updatedValue
+- _OBJC_IVAR_$_CBLEAudioSessionEvent._error
+- _OBJC_IVAR_$_CBLEAudioSessionEvent._eventType
+- _OBJC_IVAR_$_CBLEAudioSessionEvent._sessionInfo
+- _OBJC_IVAR_$_CBLEAudioSessionEvent._updatedValue
+- _OBJC_IVAR_$_CBLEAudioSessionInfo._audioSessionIdentifier
+- _OBJC_IVAR_$_CBLEAudioSessionInfo._connectedIdentifiers
+- _OBJC_IVAR_$_CBLEAudioSessionInfo._coordinatedSetInfo
+- _OBJC_IVAR_$_CBLEAudioSessionInfo._locations
+- _OBJC_IVAR_$_CBLEAudioSessionInfo._sessionState
+- _OBJC_IVAR_$_CBPeripheral._deviceType
+- _OBJC_IVAR_$_CBPeripheral._dynamicPresets
+- _OBJC_IVAR_$_CBPeripheral._hearingAidType
+- _OBJC_IVAR_$_CBPeripheral._independentPresets
+- _OBJC_IVAR_$_CBPeripheral._location
+- _OBJC_IVAR_$_CBPeripheral._presetSyncSupported
+- _OBJC_IVAR_$_CBPeripheral._updateHandler
+- _OBJC_IVAR_$_CBPeripheral._writablePresets
+- _OBJC_IVAR_$_CBPeripheralManager._cisPeripheralConnectEvent
+- _OBJC_IVAR_$_CBPeripheralManager._cisPeripheralDisconnectEvent
+- _OBJC_METACLASS_$_CBCoordinatedMemberInfo
+- _OBJC_METACLASS_$_CBCoordinatedSetInfo
+- _OBJC_METACLASS_$_CBISOReadRequest
+- _OBJC_METACLASS_$_CBISOWriteRequest
+- _OBJC_METACLASS_$_CBLEAudioHearingAidPreset
+- _OBJC_METACLASS_$_CBLEAudioHearingAidUpdateEvent
+- _OBJC_METACLASS_$_CBLEAudioPeripheralUpdateEvent
+- _OBJC_METACLASS_$_CBLEAudioSessionEvent
+- _OBJC_METACLASS_$_CBLEAudioSessionInfo
+- __OBJC_$_INSTANCE_METHODS_CBCoordinatedMemberInfo
+- __OBJC_$_INSTANCE_METHODS_CBCoordinatedSetInfo
+- __OBJC_$_INSTANCE_METHODS_CBISOReadRequest
+- __OBJC_$_INSTANCE_METHODS_CBISOWriteRequest
+- __OBJC_$_INSTANCE_METHODS_CBLEAudioHearingAidPreset
+- __OBJC_$_INSTANCE_METHODS_CBLEAudioHearingAidUpdateEvent
+- __OBJC_$_INSTANCE_METHODS_CBLEAudioPeripheralUpdateEvent
+- __OBJC_$_INSTANCE_METHODS_CBLEAudioSessionEvent
+- __OBJC_$_INSTANCE_METHODS_CBLEAudioSessionInfo
+- __OBJC_$_INSTANCE_VARIABLES_CBCoordinatedMemberInfo
+- __OBJC_$_INSTANCE_VARIABLES_CBCoordinatedSetInfo
+- __OBJC_$_INSTANCE_VARIABLES_CBISOReadRequest
+- __OBJC_$_INSTANCE_VARIABLES_CBISOWriteRequest
+- __OBJC_$_INSTANCE_VARIABLES_CBLEAudioHearingAidPreset
+- __OBJC_$_INSTANCE_VARIABLES_CBLEAudioHearingAidUpdateEvent
+- __OBJC_$_INSTANCE_VARIABLES_CBLEAudioPeripheralUpdateEvent
+- __OBJC_$_INSTANCE_VARIABLES_CBLEAudioSessionEvent
+- __OBJC_$_INSTANCE_VARIABLES_CBLEAudioSessionInfo
+- __OBJC_$_PROP_LIST_CBCoordinatedMemberInfo
+- __OBJC_$_PROP_LIST_CBCoordinatedSetInfo
+- __OBJC_$_PROP_LIST_CBISOReadRequest
+- __OBJC_$_PROP_LIST_CBISOWriteRequest
+- __OBJC_$_PROP_LIST_CBLEAudioHearingAidPreset
+- __OBJC_$_PROP_LIST_CBLEAudioHearingAidUpdateEvent
+- __OBJC_$_PROP_LIST_CBLEAudioPeripheralUpdateEvent
+- __OBJC_$_PROP_LIST_CBLEAudioSessionEvent
+- __OBJC_$_PROP_LIST_CBLEAudioSessionInfo
+- __OBJC_CLASS_RO_$_CBCoordinatedMemberInfo
+- __OBJC_CLASS_RO_$_CBCoordinatedSetInfo
+- __OBJC_CLASS_RO_$_CBISOReadRequest
+- __OBJC_CLASS_RO_$_CBISOWriteRequest
+- __OBJC_CLASS_RO_$_CBLEAudioHearingAidPreset
+- __OBJC_CLASS_RO_$_CBLEAudioHearingAidUpdateEvent
+- __OBJC_CLASS_RO_$_CBLEAudioPeripheralUpdateEvent
+- __OBJC_CLASS_RO_$_CBLEAudioSessionEvent
+- __OBJC_CLASS_RO_$_CBLEAudioSessionInfo
+- __OBJC_METACLASS_RO_$_CBCoordinatedMemberInfo
+- __OBJC_METACLASS_RO_$_CBCoordinatedSetInfo
+- __OBJC_METACLASS_RO_$_CBISOReadRequest
+- __OBJC_METACLASS_RO_$_CBISOWriteRequest
+- __OBJC_METACLASS_RO_$_CBLEAudioHearingAidPreset
+- __OBJC_METACLASS_RO_$_CBLEAudioHearingAidUpdateEvent
+- __OBJC_METACLASS_RO_$_CBLEAudioPeripheralUpdateEvent
+- __OBJC_METACLASS_RO_$_CBLEAudioSessionEvent
+- __OBJC_METACLASS_RO_$_CBLEAudioSessionInfo
+- ___35-[CBCentralManager startLEAudioXPC]_block_invoke
+- ___39-[CBCentralManager createXPCForLEAudio]_block_invoke
+- ___41-[CBCentralManager handlePresetsUpdated:]_block_invoke
+- ___41-[CBCentralManager handlePresetsUpdated:]_block_invoke_2
+- ___41-[CBCentralManager handlePresetsUpdated:]_block_invoke_3
+- ___41-[CBCentralManager registerLEAudioClient]_block_invoke
+- ___41-[CBCentralManager registerLEAudioClient]_block_invoke.cold.1
+- ___41-[CBCentralManager registerLEAudioClient]_block_invoke.cold.2
+- ___47-[CBCentralManager createSessionEvent:withMsg:]_block_invoke
+- ___51-[CBCentralManager sendLEAudioMsg:args:completion:]_block_invoke
+- ___block_descriptor_32_e17_v16?0"NSError"8l
+- ___block_descriptor_40_e8_32s_e36_B24?0Q8"NSObject<OS_xpc_object>"16ls32l8
+- ___block_literal_global.423
+- ___block_literal_global.832
+- _dispatch_after
+- _objc_msgSend$_handleLEAudioXpcEvents:
+- _objc_msgSend$audioSessionIdentifier
+- _objc_msgSend$createSessionEvent:withMsg:
+- _objc_msgSend$createXPCForLEAudio
+- _objc_msgSend$handleActivePresetUpdated:
+- _objc_msgSend$handleConnectCISComplete:
+- _objc_msgSend$handleConnectCISPeripheralComplete:
+- _objc_msgSend$handleConnectLEAudioComplete:
+- _objc_msgSend$handleDisconnectCISComplete:
+- _objc_msgSend$handleDisconnectCISPeripheralComplete:
+- _objc_msgSend$handleFeaturesUpdated:
+- _objc_msgSend$handleIncomingCISConnectionRequest:
+- _objc_msgSend$handleLEAudioEvents:
+- _objc_msgSend$handleLEAudioMsg:
+- _objc_msgSend$handleLEAudioMsg:args:
+- _objc_msgSend$handleLEAudioSessionEvents:
+- _objc_msgSend$handleLEAudioXpcInterrupted
+- _objc_msgSend$handleLEAudioXpcInvalid
+- _objc_msgSend$handleMicrophoneGainUpdated:
+- _objc_msgSend$handleMicrophoneMuteUpdated:
+- _objc_msgSend$handlePresetNameUpdated:
+- _objc_msgSend$handlePresetsUpdated:
+- _objc_msgSend$handleRemoveCIGComplete:
+- _objc_msgSend$handleSessionCompleted:
+- _objc_msgSend$handleSessionMicrophoneGainUpdated:
+- _objc_msgSend$handleSessionMicrophoneMuteUpdated:
+- _objc_msgSend$handleSessionVolumeMuteUpdated:
+- _objc_msgSend$handleSessionVolumeOffsetUpdated:
+- _objc_msgSend$handleSessionVolumeUpdated:
+- _objc_msgSend$handleSetupCIGComplete:
+- _objc_msgSend$handleVolumeInputGainUpdated:
+- _objc_msgSend$handleVolumeMuteUpdated:
+- _objc_msgSend$handleVolumeOffsetUpdated:
+- _objc_msgSend$handleVolumeUpdated:
+- _objc_msgSend$initWithEventType:
+- _objc_msgSend$initWithEventType:withError:
+- _objc_msgSend$initWithInfo:withSessionId:withState:withCoordIds:withLocation:
+- _objc_msgSend$initWithInfo:withSize:
+- _objc_msgSend$initWithSession:
+- _objc_msgSend$initWithValue:withValue:
+- _objc_msgSend$initWithValues:withProperty:withName:
+- _objc_msgSend$leAudioEventHandler
+- _objc_msgSend$registerLEAudioClient
+- _objc_msgSend$sendLEAudioMsg:args:completion:
+- _objc_msgSend$setLEAudioDeviceType:
+- _objc_msgSend$setPresetResults:
+- _objc_msgSend$setSessionInfo:
+- _objc_msgSend$setUpdatedValue:
+- _objc_msgSend$startLEAudioXPC
+- _objc_msgSend$updateHandler
+- _objc_msgSend$updatedValue
+- _xpc_dictionary_get_uuid
+- _xpc_uint64_create
+CStrings:
++ "'"
++ "A"
++ "\xa1"
++ "\xb4"
+- "1843"
+- "1844"
+- "1845"
+- "1846"
+- "1848"
+- "1849"
+- "184B"
+- "184C"
+- "184D"
+- "1854"
+- "1855"
+- "2B51"
+- "2B77"
+- "2B78"
+- "2B79"
+- "2B7A"
+- "2B7B"
+- "2B7C"
+- "2B7D"
+- "2B7E"
+- "2B7F"
+- "2B80"
+- "2B81"
+- "2B82"
+- "2B83"
+- "2B84"
+- "2B85"
+- "2B86"
+- "2B87"
+- "2B93"
+- "2B94"
+- "2B95"
+- "2B96"
+- "2B97"
+- "2B98"
+- "2B99"
+- "2B9A"
+- "2B9B"
+- "2B9C"
+- "2B9D"
+- "2B9E"
+- "2B9F"
+- "2BA0"
+- "2BA1"
+- "2BA2"
+- "2BA3"
+- "2BA4"
+- "2BA5"
+- "2BA6"
+- "2BA7"
+- "2BB3"
+- "2BB4"
+- "2BB5"
+- "2BB6"
+- "2BB7"
+- "2BB8"
+- "2BB9"
+- "2BBA"
+- "2BBB"
+- "2BBC"
+- "2BBD"
+- "2BBE"
+- "2BBF"
+- "2BC0"
+- "2BC1"
+- "2BC2"
+- "2BC3"
+- "2BDA"
+- "2BDB"
+- "2BDC"
+- "@\"<CBStackISOStream>\""
+- "@\"CBCoordinatedSetInfo\""
+- "@\"CBLEAudioHearingAidPreset\""
+- "@\"CBLEAudioSessionInfo\""
+- "@28@0:8@16C24"
+- "@32@0:8C16C20@24"
+- "@32@0:8q16@24"
+- "@56@0:8@16@24q32@40@48"
+- "Active Preset Index"
+- "Audio Input Control Point"
+- "Audio Input Control Service"
+- "Audio Input Description"
+- "Audio Input State"
+- "Audio Input Status"
+- "Audio Input Type"
+- "Audio Location"
+- "Audio Output Description"
+- "Bearer List Current Calls"
+- "Bearer Provider Name"
+- "Bearer Signal Strength"
+- "Bearer Signal Strength Reporting Interval"
+- "Bearer Technology"
+- "Bearer UCI"
+- "Bearer URI Schemes Supported List"
+- "CBCoordinatedMemberInfo"
+- "CBCoordinatedSetInfo"
+- "CBISOReadRequest"
+- "CBISOWriteRequest"
+- "CBLEAudioHearingAidPreset"
+- "CBLEAudioHearingAidUpdateEvent"
+- "CBLEAudioPeripheralUpdateEvent"
+- "CBLEAudioSessionEvent"
+- "CBLEAudioSessionInfo"
+- "Call Control Point"
+- "Call Control Point Optional Opcodes"
+- "Call Friendly Name"
+- "Call State"
+- "Calling LE audio event handler"
+- "Content Control Id"
+- "Coordinated Set Identification Service"
+- "Coordinated Set Size"
+- "Create LE audio XPC"
+- "Current Group Object ID"
+- "Current Track Object ID"
+- "Current Track Segments Object ID"
+- "Failed to create LE audio XPC"
+- "Failed to send LE audio register message over XPC, %@"
+- "Gain Setting Properties"
+- "Generated event: %@"
+- "Generic Media Control Service"
+- "Generic Telephone Bearer Service"
+- "Hearing Access Service"
+- "Hearing Aid Features"
+- "Hearing Aid Preset Control Point"
+- "Incoming CIS Connection Request Received"
+- "Incoming Call"
+- "Incoming Call Target Bearer URI"
+- "LE audio XPC interrupted"
+- "LE audio XPC invalid"
+- "LE audio message is nil"
+- "LE audio unregistered"
+- "Media Control Point"
+- "Media Control Point Opcodes Supported"
+- "Media Control Service"
+- "Media Player Icon Object ID"
+- "Media Player Icon URL"
+- "Media Player Name"
+- "Media State"
+- "Microphone Control Service"
+- "Mute"
+- "Next Track Object ID"
+- "No LE audio event handher found"
+- "Not LE audio XPC allowed"
+- "Parent Group Object ID"
+- "Playback Speed"
+- "Playing Order"
+- "Playing Orders Supported"
+- "Ready to use LE audio"
+- "Received XPC message for LE audio - %s: %@"
+- "Search Control Point"
+- "Search Results Object ID"
+- "Seeking Speed"
+- "Set Identity Resolving Key"
+- "Set LE Audio device type: %@"
+- "Set Member Lock"
+- "Set Member Rank"
+- "Status Flags"
+- "T@\"<CBStackISOStream>\",&,N,V_stream"
+- "T@\"CBCoordinatedSetInfo\",R,N,V_coordinatedSetInfo"
+- "T@\"CBLEAudioHearingAidPreset\",C,N,V_activePreset"
+- "T@\"CBLEAudioSessionInfo\",C,N,V_sessionInfo"
+- "T@\"NSError\",R,C,N,V_error"
+- "T@\"NSMutableArray\",&,N,V_connectedIdentifiers"
+- "T@\"NSMutableArray\",C,N,V_presetResults"
+- "T@\"NSMutableArray\",R,N,V_audioSessions"
+- "T@\"NSMutableArray\",R,N,V_connectedIdentifiers"
+- "T@\"NSMutableDictionary\",R,N,V_locations"
+- "T@\"NSNumber\",C,N,V_updatedValue"
+- "T@\"NSNumber\",R,C,N,V_updatedValue"
+- "T@\"NSString\",&,N,V_setName"
+- "T@\"NSString\",R,&,N,V_presetName"
+- "T@\"NSUUID\",R,N,V_audioSessionIdentifier"
+- "T@?,C,N,V_cisConnectEvent"
+- "T@?,C,N,V_cisDisconnectEvent"
+- "T@?,C,N,V_cisPeripheralConnectEvent"
+- "T@?,C,N,V_cisPeripheralDisconnectEvent"
+- "T@?,C,N,V_completionHandler"
+- "T@?,C,N,V_leAudioEventHandler"
+- "T@?,C,N,V_removeCIGCompletion"
+- "T@?,C,N,V_setupCIGCompletion"
+- "T@?,C,N,V_updateHandler"
+- "TB,R,N,V_dynamicPresets"
+- "TB,R,N,V_independentPresets"
+- "TB,R,N,V_isAvailable"
+- "TB,R,N,V_isWritable"
+- "TB,R,N,V_presetSyncSupported"
+- "TB,R,N,V_writablePresets"
+- "TC,N,V_memberRank"
+- "TC,N,V_setSize"
+- "TC,R,N,V_hearingAidType"
+- "TC,R,N,V_presetIndex"
+- "TI,N,V_missedReads"
+- "TI,R,N,V_location"
+- "TMAP Role"
+- "Telephone Bearer Service"
+- "Telephony and Media Audio Service"
+- "Termination Reason"
+- "Tq,R,N,V_deviceType"
+- "Tq,R,N,V_eventType"
+- "Tq,R,N,V_sessionState"
+- "Track Changed"
+- "Track Duration"
+- "Track Position"
+- "Track Title"
+- "Unexpected LE audio XPC error: %@"
+- "Unexpected LE audio XPC event: %@"
+- "Unhandled message: %d"
+- "Unsupported message for LE audio"
+- "Volume Control Point"
+- "Volume Control Service"
+- "Volume Flags"
+- "Volume Offset Control Point"
+- "Volume Offset Control Service"
+- "Volume Offset State"
+- "Volume State"
+- "WARNING: No LE audio event handler registered:%@"
+- "_activePreset"
+- "_audioSessionIdentifier"
+- "_audioSessions"
+- "_cisConnectEvent"
+- "_cisDisconnectEvent"
+- "_cisPeripheralConnectEvent"
+- "_cisPeripheralDisconnectEvent"
+- "_completionHandler"
+- "_connectedIdentifiers"
+- "_coordinatedSetInfo"
+- "_dynamicPresets"
+- "_eventType"
+- "_handleLEAudioXpcEvents:"
+- "_hearingAidType"
+- "_independentPresets"
+- "_isAvailable"
+- "_isWritable"
+- "_leAudioDevice"
+- "_leAudioEventHandler"
+- "_leAudioXpcConnection"
+- "_location"
+- "_locations"
+- "_memberRank"
+- "_missedReads"
+- "_presetIndex"
+- "_presetName"
+- "_presetResults"
+- "_presetSyncSupported"
+- "_removeCIGCompletion"
+- "_sessionInfo"
+- "_sessionState"
+- "_setName"
+- "_setSize"
+- "_setupCIGCompletion"
+- "_stream"
+- "_updateHandler"
+- "_updatedValue"
+- "_validLeAudioXpcCalled"
+- "_writablePresets"
+- "activePreset"
+- "audioSessionIdentifier"
+- "audioSessions"
+- "changeMicrophoneGainSettingForSession:forAudioInputType:withMicGain:withResponse:"
+- "changeVolumeForSession:withVolume:withResponse:"
+- "changeVolumeMuteStateForSession:withVolumeMuteState:withResponse:"
+- "changeVolumeOffsetForSession:toLocation:withVolumeOffSet:withResponse:"
+- "cisConnectEvent"
+- "cisDisconnectEvent"
+- "cisPeripheralConnectEvent"
+- "cisPeripheralDisconnectEvent"
+- "com.apple.bluetoothaudiod.cb"
+- "com.apple.bluetoothaudiod.leaudio-extension"
+- "completionHandler"
+- "connectCIS:"
+- "connectedIdentifiers"
+- "coordinatedSetInfo"
+- "createSessionEvent:withMsg:"
+- "createXPCForLEAudio"
+- "disconnectCIS:"
+- "disconnectCISPeripheral:"
+- "dynamicPresets"
+- "eventType"
+- "handleActivePresetUpdated:"
+- "handleConnectCISComplete:"
+- "handleConnectCISPeripheralComplete:"
+- "handleConnectLEAudioComplete:"
+- "handleDisconnectCISComplete:"
+- "handleDisconnectCISPeripheralComplete:"
+- "handleFeaturesUpdated:"
+- "handleIncomingCISConnectionRequest:"
+- "handleLEAudioActivePresetUpdated, %@"
+- "handleLEAudioActivePresetUpdated:"
+- "handleLEAudioConnected:"
+- "handleLEAudioEvents:"
+- "handleLEAudioHearingAidFeaturesUpdated, %@"
+- "handleLEAudioHearingAidFeaturesUpdated:"
+- "handleLEAudioMicrophoneGainUpdated, %@"
+- "handleLEAudioMicrophoneGainUpdated:"
+- "handleLEAudioMicrophoneMuteUpdated, %@"
+- "handleLEAudioMicrophoneMuteUpdated:"
+- "handleLEAudioMsg:"
+- "handleLEAudioMsg:args:"
+- "handleLEAudioPresetNameUpdated:"
+- "handleLEAudioPresetUpdated, size:%d, %@, %@, %@"
+- "handleLEAudioPresetUpdated:"
+- "handleLEAudioSessionEvents:"
+- "handleLEAudioVolumeGainUpdated, %@"
+- "handleLEAudioVolumeGainUpdated:"
+- "handleLEAudioVolumeMuteUpdated, %@"
+- "handleLEAudioVolumeMuteUpdated:"
+- "handleLEAudioVolumeOffsetUpdated, %@"
+- "handleLEAudioVolumeOffsetUpdated:"
+- "handleLEAudioVolumeUpdated, %@"
+- "handleLEAudioVolumeUpdated:"
+- "handleLEAudioXpcInterrupted"
+- "handleLEAudioXpcInvalid"
+- "handleMicrophoneGainUpdated:"
+- "handleMicrophoneMuteUpdated:"
+- "handlePresetNameUpdated:"
+- "handlePresetsUpdated:"
+- "handleRemoveCIGComplete:"
+- "handleSessionCompleted"
+- "handleSessionCompleted:"
+- "handleSessionMicrophoneGainUpdated - %@"
+- "handleSessionMicrophoneGainUpdated:"
+- "handleSessionMicrophoneMuteUpdated - %@"
+- "handleSessionMicrophoneMuteUpdated:"
+- "handleSessionVolumeMuteUpdated - %@"
+- "handleSessionVolumeMuteUpdated:"
+- "handleSessionVolumeOffsetUpdated - %@"
+- "handleSessionVolumeOffsetUpdated:"
+- "handleSessionVolumeUpdated - %@"
+- "handleSessionVolumeUpdated:"
+- "handleSetupCIGComplete"
+- "handleSetupCIGComplete:"
+- "handleVolumeInputGainUpdated:"
+- "handleVolumeMuteUpdated:"
+- "handleVolumeOffsetUpdated:"
+- "handleVolumeUpdated:"
+- "hearingAidType"
+- "independentPresets"
+- "initCISCentral"
+- "initCISPeripheral:completion:"
+- "initWithError:withError:"
+- "initWithEventType:"
+- "initWithEventType:withError:"
+- "initWithInfo:withSessionId:withState:withCoordIds:withLocation:"
+- "initWithInfo:withSize:"
+- "initWithSession:"
+- "initWithValue:withValue:"
+- "initWithValues:withProperty:withName:"
+- "isAvailable"
+- "isWritable"
+- "kCBMsgArgLEAudioAudioInputOpcode"
+- "kCBMsgArgLEAudioAudioInputType"
+- "kCBMsgArgLEAudioClient"
+- "kCBMsgArgLEAudioCoordinatedSetIds"
+- "kCBMsgArgLEAudioCoordinatedSetSize"
+- "kCBMsgArgLEAudioDevicePresetIndexes"
+- "kCBMsgArgLEAudioDevicePresetNames"
+- "kCBMsgArgLEAudioDevicePresetProperties"
+- "kCBMsgArgLEAudioDeviceUUID"
+- "kCBMsgArgLEAudioHearingAidDynamic"
+- "kCBMsgArgLEAudioHearingAidIndependent"
+- "kCBMsgArgLEAudioHearingAidSyncSupported"
+- "kCBMsgArgLEAudioHearingAidType"
+- "kCBMsgArgLEAudioHearingAidWritable"
+- "kCBMsgArgLEAudioLocation"
+- "kCBMsgArgLEAudioMicrophoneGain"
+- "kCBMsgArgLEAudioMicrophoneMuteState"
+- "kCBMsgArgLEAudioPresetIndex"
+- "kCBMsgArgLEAudioPresetName"
+- "kCBMsgArgLEAudioPresetType"
+- "kCBMsgArgLEAudioServiceID"
+- "kCBMsgArgLEAudioSessionID"
+- "kCBMsgArgLEAudioVolume"
+- "kCBMsgArgLEAudioVolumeGain"
+- "kCBMsgArgLEAudioVolumeMuteState"
+- "kCBMsgArgLEAudioVolumeOffset"
+- "kCBMsgChangeSessionMicrophoneGain"
+- "kCBMsgChangeSessionMicrophoneMuteState"
+- "kCBMsgChangeSessionVolume"
+- "kCBMsgChangeSessionVolumeMuteState"
+- "kCBMsgChangeSessionVolumeOffset"
+- "kCBMsgLEAudioActivePresetUpdated"
+- "kCBMsgLEAudioHearingAidFeaturesUpdated"
+- "kCBMsgLEAudioMicrophoneGainUpdated"
+- "kCBMsgLEAudioMicrophoneMuteUpdated"
+- "kCBMsgLEAudioPresetNameUpdated"
+- "kCBMsgLEAudioReadPresetUpdated"
+- "kCBMsgLEAudioRegister"
+- "kCBMsgLEAudioSessionCompleted"
+- "kCBMsgLEAudioSessionMicrophoneGainUpdated"
+- "kCBMsgLEAudioSessionMicrophoneMuteUpdated"
+- "kCBMsgLEAudioSessionVolumeMuteUpdated"
+- "kCBMsgLEAudioSessionVolumeOffsetUpdated"
+- "kCBMsgLEAudioSessionVolumeUpdated"
+- "kCBMsgLEAudioUnregistered"
+- "kCBMsgLEAudioVolumeInputGainUpdated"
+- "kCBMsgLEAudioVolumeMuteUpdated"
+- "kCBMsgLEAudioVolumeOffsetUpdated"
+- "kCBMsgLEAudioVolumeUpdated"
+- "kCBMsgReadPresets"
+- "kCBMsgSetActivePreset"
+- "kCBMsgSetMicrophoneMute"
+- "kCBMsgSetVolume"
+- "kCBMsgSetVolumeMute"
+- "kCBMsgSetVolumeOffSet"
+- "kCBMsgWriteMicrophoneAudioInput"
+- "kCBMsgWritePresetName"
+- "kCBMsgWriteVolumeAudioInput"
+- "leAudioEventHandler"
+- "location"
+- "locations"
+- "memberRank"
+- "missedReads"
+- "presetIndex"
+- "presetName"
+- "presetResults"
+- "presetSyncSupported"
+- "readPresets:"
+- "registerLEAudioClient"
+- "removeCIG:completion:"
+- "removeCIGCompletion"
+- "respondToCISConnectionRequest:"
+- "retrieveConnectedLEAudioPeripheralIdentifiers"
+- "sendLEAudioMsg:args:completion:"
+- "sessionInfo"
+- "sessionState"
+- "setActivePreset:"
+- "setActivePreset:OptionalPresetIndex:withResponse:"
+- "setCisConnectEvent:"
+- "setCisDisconnectEvent:"
+- "setCisPeripheralConnectEvent:"
+- "setCisPeripheralDisconnectEvent:"
+- "setCompletionHandler:"
+- "setConnectedIdentifiers:"
+- "setLEAudioDeviceType:"
+- "setLEAudioLocation:"
+- "setLeAudioEventHandler:"
+- "setMemberRank:"
+- "setMicrophoneMute:withResponse:"
+- "setMicrophoneMuteStateForSession:withMicMuteState:withResponse:"
+- "setMissedReads:"
+- "setName"
+- "setPresetResults:"
+- "setRemoveCIGCompletion:"
+- "setSessionInfo:"
+- "setSetName:"
+- "setSetSize:"
+- "setSetupCIGCompletion:"
+- "setSize"
+- "setStream:"
+- "setUpdateHandler:"
+- "setUpdatedValue:"
+- "setVolume:withResponse:"
+- "setVolumeMute:withResponse:"
+- "setVolumeOffSet:withOffSetValue:withResponse:"
+- "setupCIG:completion:"
+- "setupCIGCompletion"
+- "startLEAudioXPC"
+- "stream"
+- "updateHandler"
+- "updatedValue"
+- "v28@0:8C16@?20"
+- "v32@0:8I16s20@?24"
+- "v36@0:8@16f24@?28"
+- "v36@0:8C16@20@?28"
+- "v36@0:8q16C24@?28"
+- "v40@0:8@16C24c28@?32"
+- "v40@0:8@16I24s28@?32"
+- "v40@0:8@16q24@?32"
+- "v40@0:8q16C24c28@?32"
+- "writablePresets"
+- "writeMicrophoneAudioInput:forAudioInputType:withOptionalGain:withResponse:"
+- "writePresetName:withName:withResponse:"
+- "writeVolumeAudioInput:forAudioInputType:withOptionalGain:withResponse:"
+- "\xc1"
+
+```

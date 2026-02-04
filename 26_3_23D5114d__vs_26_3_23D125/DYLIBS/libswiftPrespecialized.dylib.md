@@ -1,0 +1,74 @@
+## libswiftPrespecialized.dylib
+
+> `/usr/lib/libswiftPrespecialized.dylib`
+
+```diff
+
+ 0.0.0.0.0
+   __TEXT.__text: 0x0
+   __TEXT.__lldb_no_nlist: 0x0
+-  __DATA_CONST.__const: 0x2cefa0
++  __DATA_CONST.__const: 0x2cec80
+   __DATA_CONST.__ptrhashtab: 0x17538
+   __DATA_CONST.__ptrhashtabkey: 0x264f8
+   __AUTH_CONST.__const: 0x50988
+   __AUTH.__data: 0xccef0
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 8A83A684-2AB3-3360-95AA-2E85E431F37A
++  UUID: 6922107C-B48D-35D4-9F14-AC5DDF32A516
+   Functions: 0
+-  Symbols:   139777
++  Symbols:   139737
+   CStrings:  0
+ 
+Symbols:
++ _$s16HeadphoneManager18B698FeatureContentC0A10SettingsUIE18devicePlatformNameSSvpMV
++ _$s21UserNotificationsCore17ToolServiceClientC32simulateNotificationPushResponse4withSSSDys11AnyHashableVypG_tYaKFTq
++ _$s27AccessoryTransportExtension0aB7SessionC19EventHandlerPrivateMp
++ _$s9CoreCDPUI27AdvancedDataProtectionStateO03pdpF7UnknownyA2CmFWC
+- _$s16HeadphoneManager18B698FeatureContentC0A10SettingsUIE013featureFooterF0SSvpMV
+- _$s21UserNotificationsCore17ToolServiceClientC31registerAccessoryWithIdentifieryS2SYaKFTq
+- _$s21UserNotificationsCore21AccessoryIconProviderC013communicationE3For7context16bundleIdentifier10Foundation3URLVSgSo35_UNNotificationCommunicationContextC_SStYaFTq
+- _$s21UserNotificationsCore21AccessoryIconProviderCMn
+- _$s21UserNotificationsCore22AlertCoordinatorClientC018shouldNotificationD0ySbSSKFTq
+- _$s21UserNotificationsCore27AccessoryNotificationHandleMp
+- _$s21UserNotificationsCore27AccessoryNotificationHandleP13eventBehaviorSo014DNDClientEventH0CSgvgTq
+- _$s21UserNotificationsCore30AccessoryNotificationObservingMp
+- _$s21UserNotificationsCore32AccessoryNotificationCoordinatorMp
+- _$s21UserNotificationsCore32AlertCoordinatorBulletinObserverC3add_9withReplyyAA0dE7ContextV_ySbcSgtFTq
+- _$s21UserNotificationsCore39AccessoryNotificationCoordinatorFactoryMp
+- _$s22AccessoryNotifications0A12NotificationV10AttributesVMn
+- _$s22AccessoryNotifications0A12NotificationV10IdentifierVMn
+- _$s22AccessoryNotifications0A12NotificationV11DisplayDateOMn
+- _$s22AccessoryNotifications0A12NotificationV4FileVMn
+- _$s22AccessoryNotifications0A12NotificationV5ImageVMn
+- _$s22AccessoryNotifications0A12NotificationV6ActionV0D4TypeOMn
+- _$s22AccessoryNotifications0A12NotificationV6ActionVMn
+- _$s22AccessoryNotifications0A12NotificationVMn
+- _$s22AccessoryNotifications0A20NotificationManagingMp
+- _$s22AccessoryNotifications0A20SettingsPublicRecordVMn
+- _$s22AccessoryNotifications0A26NotificationManagerFactoryCMn
+- _$s22AccessoryNotifications0A5ErrorOMn
+- _$s22AccessoryNotifications0aB11EligibilityVMn
+- _$s22AccessoryNotifications0aB19ExtensionConnectionC09removeAllB0yyFTq
+- _$s22AccessoryNotifications0aB19ExtensionConnectionCMn
+- _$s22AccessoryNotifications0aB22ExtensionConfigurationMp
+- _$s22AccessoryNotifications0aB6CenterCMn
+- _$s22AccessoryNotifications0aB7ServiceV7RequestOMn
+- _$s22AccessoryNotifications0aB7ServiceV8ResponseOMn
+- _$s22AccessoryNotifications0aB7ServiceVMn
+- _$s22AccessoryNotifications0aB7SessionMp
+- _$s22AccessoryNotifications0aB9ExtensionMp
+- _$s22AccessoryNotifications15AlertingContextVMn
+- _$s22AccessoryNotifications16AlertCoordinatorVMn
+- _$s22AccessoryNotifications17AlertCoordinatingMp
+- _$s22AccessoryNotifications20NotificationResponseVMn
+- _$s22AccessoryNotifications21NotificationResourcesV11ResourceKeyOMn
+- _$s22AccessoryNotifications21NotificationResourcesVMn
+- _$s22AccessoryNotifications21PostNotificationEventOMn
+- _$s22AccessoryNotifications31NotificationSwiftPayloadAdapterC0E0OMn
+- _$s22AccessoryNotifications31NotificationSwiftPayloadAdapterCMn
+- _$s22AccessoryNotifications8DecisionOMn
+- _$s9CoreCDPUI27AdvancedDataProtectionStateO11unavailableyA2CmFWC
+
+```
