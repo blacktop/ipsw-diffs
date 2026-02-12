@@ -40,6 +40,7 @@
 <details open>
   <summary>View diffs</summary>
 
+- [26.3 RC (23D125) .vs 26.3 (23D127)](26_3_23D125__vs_26_3_23D127/README.md)
 - [26.3 beta 3 (23D5114d) .vs 26.3 RC (23D125)](26_3_23D5114d__vs_26_3_23D125/README.md)
 - [26.3 beta 2 (23D5103d) .vs 26.3 beta 3 (23D5114d)](26_3_23D5103d__vs_26_3_23D5114d/README.md)
 - [26.3 beta 1 (23D5089e) .vs 26.3 beta 2 (23D5103d)](26_3_23D5089e__vs_26_3_23D5103d/README.md)
