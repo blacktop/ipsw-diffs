@@ -1,0 +1,681 @@
+## ContactlessReaderUI
+
+> `/System/Library/PrivateFrameworks/ContactlessReaderUI.framework/ContactlessReaderUI`
+
+```diff
+
+-142.1.0.0.0
+-  __TEXT.__text: 0x185608
+-  __TEXT.__auth_stubs: 0x4640
++144.4.0.0.0
++  __TEXT.__text: 0x17c77c
++  __TEXT.__auth_stubs: 0x4630
+   __TEXT.__objc_methlist: 0x1280
+-  __TEXT.__const: 0x12324
+-  __TEXT.__cstring: 0x88b8
+-  __TEXT.__constg_swiftt: 0x7050
+-  __TEXT.__swift5_typeref: 0x329d4
++  __TEXT.__const: 0x123a4
++  __TEXT.__cstring: 0x54e7
++  __TEXT.__constg_swiftt: 0x70b0
++  __TEXT.__swift5_typeref: 0x31140
+   __TEXT.__swift5_fieldmd: 0x48f8
+   __TEXT.__swift5_types: 0x584
+   __TEXT.__oslogstring: 0x342d
+-  __TEXT.__swift5_capture: 0x2370
++  __TEXT.__swift5_capture: 0x2364
+   __TEXT.__swift5_reflstr: 0x44f7
+   __TEXT.__swift5_assocty: 0x12f8
+   __TEXT.__swift5_builtin: 0x1cc
+-  __TEXT.__swift5_proto: 0x720
++  __TEXT.__swift5_proto: 0x738
+   __TEXT.__swift_as_entry: 0x220
+   __TEXT.__swift_as_ret: 0x1a8
+   __TEXT.__swift5_protos: 0x2c
+   __TEXT.__swift5_mpenum: 0x18
+-  __TEXT.__unwind_info: 0x5160
+-  __TEXT.__eh_frame: 0x4d00
+-  __TEXT.__objc_classname: 0x1af
+-  __TEXT.__objc_methname: 0x320c
+-  __TEXT.__objc_methtype: 0xe1c
+-  __TEXT.__objc_stubs: 0x220
+-  __DATA_CONST.__got: 0xf30
++  __TEXT.__unwind_info: 0x5030
++  __TEXT.__eh_frame: 0x4588
++  __TEXT.__objc_classname: 0x1863
++  __TEXT.__objc_methname: 0x4cf9
++  __TEXT.__objc_methtype: 0x1446
++  __TEXT.__objc_stubs: 0x27e0
++  __DATA_CONST.__got: 0xf38
+   __DATA_CONST.__const: 0x160
+   __DATA_CONST.__objc_classlist: 0x290
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x198
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xf70
++  __DATA_CONST.__objc_selrefs: 0xf20
+   __DATA_CONST.__objc_protorefs: 0x100
+   __DATA_CONST.__objc_superrefs: 0x10
+-  __AUTH_CONST.__auth_got: 0x2328
+-  __AUTH_CONST.__const: 0xcbe8
++  __AUTH_CONST.__auth_got: 0x2320
++  __AUTH_CONST.__const: 0xcbb9
+   __AUTH_CONST.__objc_const: 0x6390
+   __AUTH.__objc_data: 0x1fa0
+   __AUTH.__data: 0x61f8
+   __DATA.__objc_ivar: 0x10
+   __DATA.__objc_stublist: 0x18
+-  __DATA.__data: 0x63c8
++  __DATA.__data: 0x6448
+   __DATA.__common: 0x368
+-  __DATA.__bss: 0xe548
++  __DATA.__bss: 0xe848
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4EF81475-EE11-3976-AC68-18EAE0D1AF7C
+-  Functions: 7197
+-  Symbols:   4638
+-  CStrings:  2014
++  UUID: 1907ABDE-598E-3921-BBC0-9A50E8E33DE5
++  Functions: 7160
++  Symbols:   4955
++  CStrings:  1982
+ 
+Symbols:
++ __PROTOCOLS__TtC19ContactlessReaderUI21CoarseRotationManager.20
++ __swift_dead_method_stub
++ _associated conformance So11CFStringRefa14CoreFoundation9_CFObjectSCSH
++ _associated conformance So11CFStringRefaSHSCSQ
++ _block_copy_helper.106
++ _block_copy_helper.108
++ _block_copy_helper.114
++ _block_copy_helper.117
++ _block_copy_helper.12
++ _block_copy_helper.121
++ _block_copy_helper.124
++ _block_copy_helper.134
++ _block_copy_helper.196
++ _block_copy_helper.203
++ _block_copy_helper.24
++ _block_copy_helper.260
++ _block_copy_helper.264
++ _block_copy_helper.40
++ _block_copy_helper.46
++ _block_copy_helper.69
++ _block_copy_helper.70
++ _block_copy_helper.77
++ _block_copy_helper.80
++ _block_copy_helper.83
++ _block_copy_helper.98
++ _block_descriptor.100
++ _block_descriptor.108
++ _block_descriptor.110
++ _block_descriptor.116
++ _block_descriptor.119
++ _block_descriptor.123
++ _block_descriptor.126
++ _block_descriptor.136
++ _block_descriptor.14
++ _block_descriptor.198
++ _block_descriptor.205
++ _block_descriptor.26
++ _block_descriptor.262
++ _block_descriptor.266
++ _block_descriptor.42
++ _block_descriptor.48
++ _block_descriptor.71
++ _block_descriptor.72
++ _block_descriptor.79
++ _block_descriptor.82
++ _block_descriptor.85
++ _block_destroy_helper.107
++ _block_destroy_helper.109
++ _block_destroy_helper.115
++ _block_destroy_helper.118
++ _block_destroy_helper.122
++ _block_destroy_helper.125
++ _block_destroy_helper.13
++ _block_destroy_helper.135
++ _block_destroy_helper.197
++ _block_destroy_helper.204
++ _block_destroy_helper.25
++ _block_destroy_helper.261
++ _block_destroy_helper.265
++ _block_destroy_helper.41
++ _block_destroy_helper.47
++ _block_destroy_helper.70
++ _block_destroy_helper.71
++ _block_destroy_helper.78
++ _block_destroy_helper.81
++ _block_destroy_helper.84
++ _block_destroy_helper.99
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOQr.18
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOqd__AaBHC.19
++ _get_witness_table 19ContactlessReaderUI0A27GlyphAnimationView_PreviewsV0ade7PreviewF033_B0C2D0E8BE7A318083EA513B1EBA0685LLV05SwiftC00F0HPyHC.19
++ _get_witness_table 19ContactlessReaderUI21IdentityView_PreviewsV09ContainerE0V05SwiftC00E0HPyHC.34
++ _get_witness_table 19ContactlessReaderUI41PhoneCardGlyphWhiteAnimationView_PreviewsV0defgh7PreviewI033_3048FF1CF2C3EEDE0604874E9AC9626ELLV05SwiftC00I0HPyHC.19
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6ZStackVyAA9TupleViewVyACyAA5ColorVAA30_SafeAreaRegionsIgnoringLayoutVG_ACyACy017ContactlessReaderB0028PhoneCardGlyphWhiteAnimationG0VAA06_FrameM0VGAA12_ScaleEffectVGAA6VStackVyAGyAA6SpacerV_ACyAA0G0PAAE11pickerStyleyQrqd__AA11PickerStyleRd__lFQOyAA6PickerVyAA4TextVAM0pqrsT5StateOAA7ForEachVySayA7_GSSA_AAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyA5__A7_Qo_GG_AA20SegmentedPickerStyleVQo_AA08_PaddingM0VGACyA_AAEA0_yQrqd__AAA1_Rd__lFQOyA3_yA5_AM0P4TypeOAGyA_AAEA11__A12_Qrqd___SbtSHRd__lFQOyA5__A23_Qo__A24_A24_tGG_A17_Qo_A20_GtGGtGGAA30_EnvironmentKeyWritingModifierVyAA0H6SchemeOGGAaZHPA32_AaZHPyHC_A37_AA0G8ModifierHPyHCHC.28
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6ZStackVyAA9TupleViewVyACyAA5ColorVAA30_SafeAreaRegionsIgnoringLayoutVG_ACyACy017ContactlessReaderB00n14GlyphAnimationG0VAA06_FrameM0VGAA12_ScaleEffectVGAA6VStackVyAGyAA6SpacerV_AA0G0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyACyAA6ToggleVyAA4TextVGAA08_PaddingM0VG_SbQo_ACyA_AAE11pickerStyleyQrqd__AA11PickerStyleRd__lFQOyAA6PickerVyA6_AM0npQ5StateOAA7ForEachVySayA17_GSSA_AAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyA6__A17_Qo_GG_AA20SegmentedPickerStyleVQo_A9_GtGGtGGAA30_EnvironmentKeyWritingModifierVyAA0H6SchemeOGGAaZHPA33_AaZHPyHC_A38_AA0G8ModifierHPyHCHC.26
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA6VStackVyAA9TupleViewVy017ContactlessReaderB0017AdditionalContextG0V_AA6SpacerVAA6ToggleVyAA4TextVGtGGAA16_FlexFrameLayoutVGAA08_PaddingQ0VGAA24_BackgroundStyleModifierVyAA5ColorVGGAA0G0HPAyAA4_HPAvAA4_HPAsAA4_HPyHC_AuA0gU0HPyHCHC_AxAA5_HPyHCHC_A2_AAA5_HPyHCHC.18
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyAA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAeAEAfgH_Qrqd___Sbyqd___qd__tctSQRd__lFQOyACyAA14GeometryReaderVyAA05TupleE0VyACy011ContactlesskB0010BackgroundE0VAA21_TraitWritingModifierVyAA06ZIndexO3KeyVGG_AA012_ConditionalD0VyACyAM015IdentityScannerE0VATGALyACyAM0N8GradientVATG_ACyACyACyACyACyACyACyAM09ParticlesE0VAA16_FlexFrameLayoutVGAA15_RotationEffectVGAA23_SafeAreaIgnoringLayoutVGAA01_n5StyleQ0VyAA5ColorVGGATGAQyAA010TransitionoS0VGGAA023AccessibilityAttachmentQ0VGSgtGSgGACyACyACyACyACyAA6VStackVyALyAWyALyAA6SpacerV_ACyAeME14limitSizeRangeQryFQOyAM0u11InformationE0V_Qo_A25_GtGACyACyACyACyACyAM0k5StateE0VA22_GA25_GAA01_Z6LayoutVGAQyAA014LayoutPriorityoS0VGGAA14_PaddingLayoutVGG_A34_AeMEA35_QryFQOyAM016ButtonsContainerE0V_Qo_tGSgGATGA5_GA53_GA53_GAA30_SafeAreaRegionsIgnoringLayoutVGACyACyACyACyA32_yALyA34__ACyAeMEA35_QryFQOyAM016CentralContainerE0V_Qo_A5_GA34_tGGA53_GA5_GA67_GATGSgACyACyACyACyAeAE20accessibilityFocused_6equalsQrAA23AccessibilityFocusStateV7BindingVyqd___G_qd__tSHRd__lFQOyACyAA06_ShapeE0VyAA9RectangleVA16_GA25_G_AM24AccessibilityFocusRegionOSgQo_A53_GA5_GATGAA017_AppearanceActionQ0VGSgALyACyACyACyACyA90_A11_GAA012_EnvironmentspQ0VyA16_SgGGATGA22_G_ACyACyACyACyA32_yALyA34__ACyACyAeMEA35_QryFQOyAM011BottomErrorE0V_Qo_A53_GA53_GtGGA11_GA22_GATGA101_GtGSgSgtGGAA010_AnimationQ0VyAM11BottomErrorVSgGG_SbQo__AM0X5StateOQo_A101_GA101_GA106_yAM19FineRotationManagerCSgGGA106_yAM0uE5ModelCSgGGAaDHPA145_AaDHPA140_AaDHPA139_AaDHPqd0__AaDHD3_A138_HO_A101_AA0eQ0HPyHCHC_A101_AAA151_HPyHCHC_A144_AAA151_HPyHCHC_A149_AAA151_HPyHCHC.32
++ _get_witness_table 7SwiftUI4ViewRzlAA19_ConditionalContentVyAA6HStackVyAA05TupleC0VyAA6SpacerVSg_AA08ModifiedE0VyAMyAMyxAA12_ScaleEffectVGAA14_PaddingLayoutVGARGAKtGGAMyAMyAFyAHyAMyxAA09_PositionM0VG_AJtGGAA010_FlexFrameM0VGAA19_BackgroundModifierVy017ContactlessReaderB017StatusBarSafeAreaVGGGAaBHPAvaBHPyHC_A9_AaBHPA2_AaBHPA_AaBHPyHC_A1_AA0cR0HPyHCHC_A8_AAA11_HPyHCHCHC.11
++ _get_witness_table 7SwiftUI6ZStackVyAA9TupleViewVyAA06_ShapeE0VyAA9RectangleVAA5ColorVG_AA15ModifiedContentVyAA0E0PAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOy017ContactlessReaderB008IdentityE0V_Qo_AA21_TraitWritingModifierVyAA06ZIndexS3KeyVGGtGGAaOHPyHC.33
++ _objc_msgSend$CGColor
++ _objc_msgSend$CGPath
++ _objc_msgSend$URLForResource:withExtension:
++ _objc_msgSend$_FBSScene
++ _objc_msgSend$_endpoint
++ _objc_msgSend$_ios_meContactWithKeysToFetch:error:
++ _objc_msgSend$_rectTuckedInBoundingPathCorner:withSize:cornerRadii:minimumPadding:
++ _objc_msgSend$_remoteViewControllerProxy
++ _objc_msgSend$_remoteViewControllerProxyWithErrorHandler:
++ _objc_msgSend$_setEndpoint:
++ _objc_msgSend$aa_altDSID
++ _objc_msgSend$acquireAssertionOfType:withReason:completion:
++ _objc_msgSend$activateAssertionWithIdentifier:
++ _objc_msgSend$addAnimations:
++ _objc_msgSend$addArcWithCenter:radius:startAngle:endAngle:clockwise:
++ _objc_msgSend$addChildViewController:
++ _objc_msgSend$addCompletion:
++ _objc_msgSend$addGestureRecognizer:
++ _objc_msgSend$addLineToPoint:
++ _objc_msgSend$addObserver:selector:name:object:
++ _objc_msgSend$addObserverForName:object:queue:usingBlock:
++ _objc_msgSend$addPoint:
++ _objc_msgSend$addSublayer:
++ _objc_msgSend$addSubview:
++ _objc_msgSend$aida_accountForPrimaryiCloudAccount
++ _objc_msgSend$aida_renewCredentialsForAccount:services:force:completion:
++ _objc_msgSend$aida_tokenWithExpiryCheckForService:
++ _objc_msgSend$ak_isUserCancelError
++ _objc_msgSend$appearance
++ _objc_msgSend$applicationState
++ _objc_msgSend$asset
++ _objc_msgSend$authenticateWithContext:completion:
++ _objc_msgSend$availableStates
++ _objc_msgSend$beginConsumingPressesForButtonKind:eventConsumer:priority:
++ _objc_msgSend$biometricMatch
++ _objc_msgSend$biometryType
++ _objc_msgSend$blackColor
++ _objc_msgSend$boolForKey:
++ _objc_msgSend$bounds
++ _objc_msgSend$bundleURL
++ _objc_msgSend$bundleWithIdentifier:
++ _objc_msgSend$canEvaluatePolicy:error:
++ _objc_msgSend$cancel
++ _objc_msgSend$cancelPINCapture
++ _objc_msgSend$cancelRegistration
++ _objc_msgSend$casd
++ _objc_msgSend$clearColor
++ _objc_msgSend$closePath
++ _objc_msgSend$closeUI
++ _objc_msgSend$closeUIImmediate
++ _objc_msgSend$contentSize
++ _objc_msgSend$currentDevice
++ _objc_msgSend$currentDeviceOrientation
++ _objc_msgSend$currentRoute
++ _objc_msgSend$currentStateForPolicy:
++ _objc_msgSend$currentTraitCollection
++ _objc_msgSend$dataTaskWithRequest:completionHandler:
++ _objc_msgSend$decompressedDataUsingAlgorithm:error:
++ _objc_msgSend$defaultCenter
++ _objc_msgSend$didMoveToParentViewController:
++ _objc_msgSend$direction
++ _objc_msgSend$disableUpdateMask
++ _objc_msgSend$dismissViewControllerAnimated:completion:
++ _objc_msgSend$displayCornerRadius
++ _objc_msgSend$effect
++ _objc_msgSend$endStroke
++ _objc_msgSend$enumerateTokensInTopTranscriptionPathWithBlock:
++ _objc_msgSend$errorInDaemonWithError:
++ _objc_msgSend$evaluateRequest:withCompletion:
++ _objc_msgSend$fallbackToSystemPasscodeUI
++ _objc_msgSend$finishDecoding
++ _objc_msgSend$fontDescriptor
++ _objc_msgSend$fontDescriptorWithDesign:
++ _objc_msgSend$fontWithDescriptor:size:
++ _objc_msgSend$frame
++ _objc_msgSend$generatePINBlockAndReturnError:
++ _objc_msgSend$gestureRecognizers
++ _objc_msgSend$getSilentMode
++ _objc_msgSend$gravity
++ _objc_msgSend$hasConnected
++ _objc_msgSend$hasEnded
++ _objc_msgSend$imageForSize:scale:transparent:
++ _objc_msgSend$init
++ _objc_msgSend$initForReadingFromData:error:
++ _objc_msgSend$initWithCoder:
++ _objc_msgSend$initWithContentsOfURL:
++ _objc_msgSend$initWithData:
++ _objc_msgSend$initWithDecimal:
++ _objc_msgSend$initWithDictionary:
++ _objc_msgSend$initWithDigest:pinToken:transactionDataLifetime:
++ _objc_msgSend$initWithDouble:
++ _objc_msgSend$initWithDuration:curve:animations:
++ _objc_msgSend$initWithEffect:
++ _objc_msgSend$initWithFrame:
++ _objc_msgSend$initWithListenerEndpoint:
++ _objc_msgSend$initWithMode:locale:
++ _objc_msgSend$initWithNibName:bundle:
++ _objc_msgSend$initWithPlayerItem:
++ _objc_msgSend$initWithPolicy:
++ _objc_msgSend$initWithRed:green:blue:alpha:
++ _objc_msgSend$initWithString:
++ _objc_msgSend$initWithString:attributes:
++ _objc_msgSend$initWithStyle:
++ _objc_msgSend$initWithSuiteName:
++ _objc_msgSend$initWithTarget:action:
++ _objc_msgSend$initWithType:identifier:
++ _objc_msgSend$initWithURL:
++ _objc_msgSend$interfaceWithProtocol:
++ _objc_msgSend$intrinsicContentSize
++ _objc_msgSend$invalidate
++ _objc_msgSend$invalidateRemoteUI:
++ _objc_msgSend$invokeSuccessFeedback
++ _objc_msgSend$isAssertionValid:completion:
++ _objc_msgSend$isOnHold
++ _objc_msgSend$isOutgoing
++ _objc_msgSend$isPassLibraryAvailable
++ _objc_msgSend$isPinBypass
++ _objc_msgSend$isViewLoaded
++ _objc_msgSend$largeDetent
++ _objc_msgSend$layer
++ _objc_msgSend$layoutSubviews
++ _objc_msgSend$linkWithBundleIdentifier:
++ _objc_msgSend$loadHTMLString:baseURL:
++ _objc_msgSend$mainQueue
++ _objc_msgSend$mainScreen
++ _objc_msgSend$makePINControllerAndReturnError:
++ _objc_msgSend$moveToPoint:
++ _objc_msgSend$navigationType
++ _objc_msgSend$notifyRegUIResultWithResult:
++ _objc_msgSend$notifyUIButtonTapWithButton:
++ _objc_msgSend$objectForKey:
++ _objc_msgSend$outputs
++ _objc_msgSend$overrideOutputAudioPort:error:
++ _objc_msgSend$packageWithContentsOfURL:type:options:error:
++ _objc_msgSend$parentViewController
++ _objc_msgSend$pinAppletAttestationData
++ _objc_msgSend$pinAuthNeeded
++ _objc_msgSend$pinAuthResultWithError:cancelsFlow:
++ _objc_msgSend$pinCipherBlob
++ _objc_msgSend$pinDataReceivedWithPinData:analyticsData:
++ _objc_msgSend$pinKEKHash
++ _objc_msgSend$pinKeyBlob
++ _objc_msgSend$pinValidateSession
++ _objc_msgSend$pinViewLoaded
++ _objc_msgSend$play
++ _objc_msgSend$player
++ _objc_msgSend$playerLooperWithPlayer:templateItem:
++ _objc_msgSend$portType
++ _objc_msgSend$position
++ _objc_msgSend$preciseLocationInView:
++ _objc_msgSend$preferredContentSizeCategory
++ _objc_msgSend$presentViewController:animated:completion:
++ _objc_msgSend$presentingViewController
++ _objc_msgSend$processIdentifier
++ _objc_msgSend$processInfo
++ _objc_msgSend$processName
++ _objc_msgSend$qrCodeScanErrorWithError:
++ _objc_msgSend$qrCodeScanInitiated
++ _objc_msgSend$readDocumentFromScannedQRCodeWithPayload:
++ _objc_msgSend$recognitionScore
++ _objc_msgSend$regUIAccountWithAccount:tosVersion:
++ _objc_msgSend$regUIFinishedWithUserCancelled:regStatus:
++ _objc_msgSend$registerWithCompletion:
++ _objc_msgSend$releaseAssertion:
++ _objc_msgSend$remoteObjectProxyWithErrorHandler:
++ _objc_msgSend$removeFromParentViewController
++ _objc_msgSend$removeFromSuperlayer
++ _objc_msgSend$removeFromSuperview
++ _objc_msgSend$removeLastDigitAndReturnError:
++ _objc_msgSend$removeObserver:
++ _objc_msgSend$reportGuidanceUpdateWithVisible:trigger:
++ _objc_msgSend$reportPINErrorWithError:analyticsData:
++ _objc_msgSend$reportProxEventInRange:inRangeTime:
++ _objc_msgSend$request
++ _objc_msgSend$requestAssertion:error:
++ _objc_msgSend$requestCancelReadWithIsEngagementTransition:
++ _objc_msgSend$requestRestartReadWithTriggeredByMultipleCheck:
++ _objc_msgSend$requireGestureRecognizerToFail:
++ _objc_msgSend$requiresCardPIN:
++ _objc_msgSend$result
++ _objc_msgSend$resume
++ _objc_msgSend$scale
++ _objc_msgSend$scene
++ _objc_msgSend$scheduledTimerWithTimeInterval:repeats:block:
++ _objc_msgSend$scrollView
++ _objc_msgSend$setAccessibilityIdentifier:
++ _objc_msgSend$setAccessibilityLanguage:
++ _objc_msgSend$setActive:withOptions:error:
++ _objc_msgSend$setActiveCharacterSet:
++ _objc_msgSend$setAllowsAlertStacking:
++ _objc_msgSend$setAllowsMenuButtonDismissal:
++ _objc_msgSend$setAssumeUserIntentAvailable:
++ _objc_msgSend$setAttribute:forKey:error:
++ _objc_msgSend$setAuthenticationType:
++ _objc_msgSend$setBackgroundColor:
++ _objc_msgSend$setBounces:
++ _objc_msgSend$setBounds:
++ _objc_msgSend$setCategory:mode:options:error:
++ _objc_msgSend$setCharacterConverter:
++ _objc_msgSend$setDefaultButtonString:
++ _objc_msgSend$setDelegate:
++ _objc_msgSend$setDelegate:queue:
++ _objc_msgSend$setDetents:
++ _objc_msgSend$setDeviceMotionUpdateInterval:
++ _objc_msgSend$setDirection:
++ _objc_msgSend$setDisableUpdateMask:
++ _objc_msgSend$setDisplayIcon:
++ _objc_msgSend$setEdges:
++ _objc_msgSend$setEffect:
++ _objc_msgSend$setExportedInterface:
++ _objc_msgSend$setExportedObject:
++ _objc_msgSend$setFrame:
++ _objc_msgSend$setGestureRecognizers:
++ _objc_msgSend$setIdleTimerDisabled:
++ _objc_msgSend$setIsEphemeral:
++ _objc_msgSend$setLaunchingInterfaceOrientation:
++ _objc_msgSend$setLocale:
++ _objc_msgSend$setMaximumFractionDigits:
++ _objc_msgSend$setMinimumFractionDigits:
++ _objc_msgSend$setModalPresentationStyle:
++ _objc_msgSend$setMultiplier:
++ _objc_msgSend$setNavigationDelegate:
++ _objc_msgSend$setNeedsCredentialRecovery:
++ _objc_msgSend$setNeedsNewAppleID:
++ _objc_msgSend$setNeedsStatusBarAppearanceUpdate
++ _objc_msgSend$setNumberOfTapsRequired:
++ _objc_msgSend$setNumberOfTouchesRequired:
++ _objc_msgSend$setNumberStyle:
++ _objc_msgSend$setOrientationChangedEventsEnabled:
++ _objc_msgSend$setOrientationEventsEnabled:
++ _objc_msgSend$setOverrideUserInterfaceStyle:
++ _objc_msgSend$setPasscodeTitle:
++ _objc_msgSend$setPlayer:
++ _objc_msgSend$setPosition:
++ _objc_msgSend$setPresentingViewController:
++ _objc_msgSend$setPreventsDisplaySleepDuringVideoPlayback:
++ _objc_msgSend$setProperty:forKey:
++ _objc_msgSend$setRate:
++ _objc_msgSend$setReason:
++ _objc_msgSend$setRemoteObjectInterface:
++ _objc_msgSend$setScene:
++ _objc_msgSend$setScrollEnabled:
++ _objc_msgSend$setServiceIdentifiers:
++ _objc_msgSend$setServiceType:
++ _objc_msgSend$setShouldPromptForPasswordOnly:
++ _objc_msgSend$setState:
++ _objc_msgSend$setState:animated:completionHandler:
++ _objc_msgSend$setTitle:
++ _objc_msgSend$setTransfersVerticalScrollingToParent:
++ _objc_msgSend$setTransform:
++ _objc_msgSend$setUIDelegate:
++ _objc_msgSend$setVideoGravity:
++ _objc_msgSend$setVoice:
++ _objc_msgSend$setVoiceOverWithEnabled:
++ _objc_msgSend$shared
++ _objc_msgSend$sharedApplication
++ _objc_msgSend$sharedHardwareManager
++ _objc_msgSend$sharedInstance
++ _objc_msgSend$sharedService
++ _objc_msgSend$sharedSession
++ _objc_msgSend$sheetPresentationController
++ _objc_msgSend$sizeToFit
++ _objc_msgSend$sleepForTimeInterval:
++ _objc_msgSend$speakUtterance:
++ _objc_msgSend$speechString
++ _objc_msgSend$standardUserDefaults
++ _objc_msgSend$startAnimation
++ _objc_msgSend$startDeviceMotionUpdatesToQueue:withHandler:
++ _objc_msgSend$state
++ _objc_msgSend$statusCode
++ _objc_msgSend$stopDeviceMotionUpdates
++ _objc_msgSend$stopSpeakingAtBoundary:
++ _objc_msgSend$stringForKey:
++ _objc_msgSend$stringFromNumber:
++ _objc_msgSend$stroke
++ _objc_msgSend$stylingForWalletCategory:
++ _objc_msgSend$sublayers
++ _objc_msgSend$subviews
++ _objc_msgSend$systemFontOfSize:weight:
++ _objc_msgSend$tapUIRequestingCancel
++ _objc_msgSend$tapUIRequestingRetry
++ _objc_msgSend$termsOfAddress
++ _objc_msgSend$textRecognitionResultForDrawing:options:shouldCancel:
++ _objc_msgSend$timestamp
++ _objc_msgSend$tintColorForScale:
++ _objc_msgSend$topTranscription
++ _objc_msgSend$transitionToStateWithName:
++ _objc_msgSend$uiDidLoad
++ _objc_msgSend$uiFinishedWithExpected:
++ _objc_msgSend$updateAccountSubscription
++ _objc_msgSend$updateClientSettingsWithBlock:
++ _objc_msgSend$updateRasterizationScale:
++ _objc_msgSend$updateRotation
++ _objc_msgSend$updateSessionEventWithSessionEvent:
++ _objc_msgSend$updateUIState:
++ _objc_msgSend$updateWithTransactionEvent:
++ _objc_msgSend$userInfo
++ _objc_msgSend$vasReadSuccessWithMerchantNames:
++ _objc_msgSend$verifyWithPINToken:error:
++ _objc_msgSend$view
++ _objc_msgSend$voiceWithLanguage:
++ _objc_msgSend$xpcEndpoint
++ _objectdestroy.104Tm
++ _objectdestroy.121Tm
++ _objectdestroy.63Tm
++ _objectdestroy.81Tm
++ _objectdestroy.84Tm
++ _symbolic ______ypt s11AnyHashableV
++ _symbolic _____yAAyAAyAAyAAyAAyAAy__________G_____GAEGAEG_____ySbGG_____G_____G 7SwiftUI15ModifiedContentV 017ContactlessReaderB09PINTopBarV AA16_FlexFrameLayoutV AA08_PaddingK0V AA32_EnvironmentKeyTransformModifierV AA14_OpacityEffectV AA017_AppearanceActionP0V
++ _symbolic _____yAAyAAyAAyAAyAAyAAy__________G_____GAEG_____y_____GG_____y_____GG_____GAHy_____GG 7SwiftUI15ModifiedContentV 017ContactlessReaderB025PrivacyAuthenticatorModelC12PasscodeViewV AA23_SafeAreaIgnoringLayoutV AA25_AppearanceActionModifierV AA013_TraitWritingR0V AA010TransitionS3KeyV AA016_BackgroundStyleR0V AA5ColorV AA012_TransactionR0V AA06ZIndexsV0V
++ _symbolic _____yAAyAAyAAyAAyAAyAAy__________G_____G_____GAGG_____G_____y_____GG_____G 7SwiftUI15ModifiedContentV 017ContactlessReaderB032PhoneCardGlyphWhiteAnimationViewV AA12_FrameLayoutV AA15_RotationEffectV AA08_PaddingN0V AA06_ScaleP0V AA21_TraitWritingModifierV AA010TransitionS3KeyV AA017_AppearanceActionU0V
++ _symbolic _____yAAyAAyAAyAAyAAy__________G_____GAEGAEG_____ySbGG_____G 7SwiftUI15ModifiedContentV 017ContactlessReaderB09PINTopBarV AA16_FlexFrameLayoutV AA08_PaddingK0V AA32_EnvironmentKeyTransformModifierV AA14_OpacityEffectV
++ _symbolic _____yAAyAAyAAyAAyAAy__________G_____GAEG_____y_____GG_____y_____GG_____G 7SwiftUI15ModifiedContentV 017ContactlessReaderB025PrivacyAuthenticatorModelC12PasscodeViewV AA23_SafeAreaIgnoringLayoutV AA25_AppearanceActionModifierV AA013_TraitWritingR0V AA010TransitionS3KeyV AA016_BackgroundStyleR0V AA5ColorV AA012_TransactionR0V
++ _symbolic _____yAAyAAyAAyAAyAAy__________G_____G_____GAGG_____G_____y_____GG 7SwiftUI15ModifiedContentV 017ContactlessReaderB032PhoneCardGlyphWhiteAnimationViewV AA12_FrameLayoutV AA15_RotationEffectV AA08_PaddingN0V AA06_ScaleP0V AA21_TraitWritingModifierV AA010TransitionS3KeyV
++ _symbolic _____yAAyAAyAAyAAy__________G_____GAEG_____y_____GG_____y_____GG 7SwiftUI15ModifiedContentV 017ContactlessReaderB025PrivacyAuthenticatorModelC12PasscodeViewV AA23_SafeAreaIgnoringLayoutV AA25_AppearanceActionModifierV AA013_TraitWritingR0V AA010TransitionS3KeyV AA016_BackgroundStyleR0V AA5ColorV
++ _symbolic _____yAAyAAyAAyAAy__________G_____y_____GGAEy_____GG_____G_____ySbGG 7SwiftUI15ModifiedContentV 017ContactlessReaderB014PINGestureViewV AA16_FlexFrameLayoutV AA21_TraitWritingModifierV AA0k8PriorityL3KeyV AA06ZIndexlP0V AA15_RotationEffectV AA012_Environmentp9TransformN0V
++ _symbolic _____yAAyAAyAAyAAy__________G_____y_____SgGGAEy_____SgGG_____yAJGG_____G 7SwiftUI15ModifiedContentV AA5ImageV AA12_ScaleEffectV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA016_ForegroundStyleK0V AA14_PaddingLayoutV
++ _symbolic _____yAAyAAyAAyAAy__________y_____GGACy_____GGACy_____SgGG_____G_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA0E9AlignmentO AA5ColorV AA15_RotationEffectV AA08_OpacityP0V
++ _symbolic _____yAAyAAyAAy__________G_____GAEG_____y_____GG 7SwiftUI15ModifiedContentV 017ContactlessReaderB025PrivacyAuthenticatorModelC12PasscodeViewV AA23_SafeAreaIgnoringLayoutV AA25_AppearanceActionModifierV AA013_TraitWritingR0V AA010TransitionS3KeyV
++ _symbolic _____yAAyAAyAAy__________G_____y_____SgGGAEy_____SgGG_____yAJGG 7SwiftUI15ModifiedContentV AA5ImageV AA12_ScaleEffectV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA016_ForegroundStyleK0V
++ _symbolic _____yAAyAAyAAy__________y_____GGACy_____GGACy_____SgGG_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA0E9AlignmentO AA5ColorV AA15_RotationEffectV
++ _symbolic _____yAAyAAyAAy_____yAAyAAyAAyAAy__________G_____G_____y_____SgGG_____GG_____G_____G_____G_____y_____GG 7SwiftUI15ModifiedContentV 017ContactlessReaderB013SafeNotchViewV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameM0V AA30_EnvironmentKeyWritingModifierV AA4FontV AA023AccessibilityAttachmentR0V AA05_FlexnM0V AA01_g19AreaRegionsIgnoringM0V AA14_OpacityEffectV AA06_TraitqR0V AA011ZIndexTraitP0V
++ _symbolic _____yAAyAAyAAy_____y_____y_____G__________G_____G_____y_____GG_____ySdGG_____G 7SwiftUI15ModifiedContentV AA15StrokeShapeViewV AA08_TrimmedF0V AA6CircleV AA5ColorV AA05EmptyG0V AA15_RotationEffectV AA21_TraitWritingModifierV AA06ZIndexN3KeyV AA010_AnimationP0V AA017_AppearanceActionP0V
++ _symbolic _____yAAyAAy__________G_____GAEG 7SwiftUI15ModifiedContentV 017ContactlessReaderB09PINTopBarV AA16_FlexFrameLayoutV AA08_PaddingK0V
++ _symbolic _____yAAyAAy__________G_____G_____G 7SwiftUI15ModifiedContentV 017ContactlessReaderB013CheckmarkViewV AA12_FrameLayoutV AA15_RotationEffectV AA08_OpacityL0V
++ _symbolic _____yAAyAAy__________G_____y_____SgGGAEy_____SgGG 7SwiftUI15ModifiedContentV AA5ImageV AA12_ScaleEffectV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV
++ _symbolic _____yAAyAAy__________y_____GGACy_____GGACy_____SgGG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA0E9AlignmentO AA5ColorV
++ _symbolic _____yAAyAAy_____yAAyAAyAAyAAy__________G_____G_____y_____SgGG_____GG_____G_____G_____G 7SwiftUI15ModifiedContentV 017ContactlessReaderB013SafeNotchViewV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameM0V AA30_EnvironmentKeyWritingModifierV AA4FontV AA023AccessibilityAttachmentR0V AA05_FlexnM0V AA01_g19AreaRegionsIgnoringM0V AA14_OpacityEffectV
++ _symbolic _____yAAyAAy_____y_____y_____G__________G_____G_____y_____GG_____ySdGG 7SwiftUI15ModifiedContentV AA15StrokeShapeViewV AA08_TrimmedF0V AA6CircleV AA5ColorV AA05EmptyG0V AA15_RotationEffectV AA21_TraitWritingModifierV AA06ZIndexN3KeyV AA010_AnimationP0V
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV 017ContactlessReaderB00F13StateTextViewV AA16_FlexFrameLayoutV AA08_PaddingL0V
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV 017ContactlessReaderB013CheckmarkViewV AA12_FrameLayoutV AA15_RotationEffectV
++ _symbolic _____yAAy__________G_____y_____GG 7SwiftUI15ModifiedContentV 017ContactlessReaderB014PINGestureViewV AA16_FlexFrameLayoutV AA21_TraitWritingModifierV AA0k8PriorityL3KeyV
++ _symbolic _____yAAy__________y_____GG_____G 7SwiftUI15ModifiedContentV 017ContactlessReaderB021AdditionalContextViewV AA21_TraitWritingModifierV AA010TransitionJ3KeyV AA16_FlexFrameLayoutV
++ _symbolic _____yAAy_____yAAy__________y_____GGG_____y_____GG_____G 7SwiftUI15ModifiedContentV AA6HStackV 017ContactlessReaderB013CheckmarkViewV AA21_TraitWritingModifierV AA010TransitionJ3KeyV AA010_AnimationL0V AF0H5StateO AA12_FrameLayoutV
++ _symbolic _____yAAy_____y__________G_____ySbGG_____G 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA9RectangleV AA14LinearGradientV AA18_AnimationModifierV AA16_FlexFrameLayoutV
++ _symbolic _____yAAy_____y_____yAAy__________G______y_____GQo_G_____G_____G 7SwiftUI15ModifiedContentV AA14GeometryReaderV AA4ViewPAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamiciJ0O5BoundRtd__lFQO 011ContactlessfB011PrivacyLinkV AA16_FlexFrameLayoutV s19PartialRangeThroughV AJ AA01_qR0V AA08_PaddingR0V
++ _symbolic _____yAAy_____y_____y_____G__________G_____G_____G 7SwiftUI15ModifiedContentV AA15StrokeShapeViewV AA08_TrimmedF0V 017ContactlessReaderB09CheckmarkV AA5ColorV AA05EmptyG0V AA18_AspectRatioLayoutV AA08_PaddingP0V
++ _symbolic _____yAAy_____y_____y_____G__________G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA15StrokeShapeViewV AA08_TrimmedF0V AA6CircleV AA5ColorV AA05EmptyG0V AA15_RotationEffectV AA21_TraitWritingModifierV AA06ZIndexN3KeyV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 017ContactlessReaderB00F13StateTextViewV AA16_FlexFrameLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 017ContactlessReaderB012IdentityViewV AA14_TaskModifier2V
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 017ContactlessReaderB014PINGestureViewV AA16_FlexFrameLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 017ContactlessReaderB022TransactionDetailsViewV AA16_FlexFrameLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 017ContactlessReaderB09PINTopBarV AA16_FlexFrameLayoutV
++ _symbolic _____y__________G______y_____y______Qo______y_____GGt 7SwiftUI10_ShapeViewV AA9RectangleV AA5ColorV AA15ModifiedContentV AA0D0PAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO 017ContactlessReaderB008IdentityD0V AA21_TraitWritingModifierV AA06ZIndexQ3KeyV
++ _symbolic _____y___________y_____y__________G______y_____y______Qo______y_____GGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA05TupleD0V AA06_ShapeD0V AA9RectangleV AA5ColorV AA15ModifiedContentV AA0D0PAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO 017ContactlessReaderB008IdentityD0V AA21_TraitWritingModifierV AA06ZIndexV3KeyV
++ _symbolic _____y__________y_____GG 7SwiftUI15ModifiedContentV 017ContactlessReaderB017AutoLinebreakTextV AA30_EnvironmentKeyWritingModifierV AA0I9AlignmentO
++ _symbolic _____y__________y_____GG 7SwiftUI15ModifiedContentV 017ContactlessReaderB021AdditionalContextViewV AA21_TraitWritingModifierV AA010TransitionJ3KeyV
++ _symbolic _____y__________y_____GG 7SwiftUI15ModifiedContentV 017ContactlessReaderB07PINViewV AA21_TraitWritingModifierV AA06ZIndexH3KeyV
++ _symbolic _____y______yptG s23_ContiguousArrayStorageC s11AnyHashableV
++ _symbolic _____y_____yAAyAAyAAyAAy__________G_____G_____y_____SgGG_____GG_____G 7SwiftUI15ModifiedContentV 017ContactlessReaderB013SafeNotchViewV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameM0V AA30_EnvironmentKeyWritingModifierV AA4FontV AA023AccessibilityAttachmentR0V AA05_FlexnM0V
++ _symbolic _____y_____yAAyAAyAAy__________G_____GAFGG_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV 017ContactlessReaderB00G13StateTextViewV AA16_FlexFrameLayoutV AA08_PaddingM0V AA21_TraitWritingModifierV AA010TransitionO3KeyV
++ _symbolic _____y_____yAAyAAyAAy__________G_____G_____GSgG_____y_____GG 7SwiftUI15ModifiedContentV AA6ZStackV 017ContactlessReaderB013CheckmarkViewV AA12_FrameLayoutV AA15_RotationEffectV AA08_OpacityM0V AA21_TraitWritingModifierV AA010TransitionO3KeyV
++ _symbolic _____y_____yAAy__________y_____GGG_____y_____GG 7SwiftUI15ModifiedContentV AA6HStackV 017ContactlessReaderB013CheckmarkViewV AA21_TraitWritingModifierV AA010TransitionJ3KeyV AA010_AnimationL0V AF0H5StateO
++ _symbolic _____y_____yAByABy__________G_____GAFGG 7SwiftUI6VStackV AA15ModifiedContentV 017ContactlessReaderB00G13StateTextViewV AA16_FlexFrameLayoutV AA08_PaddingM0V
++ _symbolic _____y_____yAByABy__________G_____G_____GSgG 7SwiftUI6ZStackV AA15ModifiedContentV 017ContactlessReaderB013CheckmarkViewV AA12_FrameLayoutV AA15_RotationEffectV AA08_OpacityM0V
++ _symbolic _____y_____yAByABy_____yABy__________y_____GGG_____y_____GG_____G_____GG 7SwiftUI6ZStackV AA15ModifiedContentV AA6HStackV 017ContactlessReaderB013CheckmarkViewV AA21_TraitWritingModifierV AA010TransitionK3KeyV AA010_AnimationM0V AH0I5StateO AA12_FrameLayoutV AA13_OffsetEffectV
++ _symbolic _____y_____y_____G__________G 7SwiftUI15StrokeShapeViewV AA08_TrimmedD0V 017ContactlessReaderB09CheckmarkV AA5ColorV AA05EmptyE0V
++ _symbolic _____y_____y_____G__________G 7SwiftUI15StrokeShapeViewV AA08_TrimmedD0V AA6CircleV AA5ColorV AA05EmptyE0V
++ _symbolic _____y_____y______Qo______y_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO 017ContactlessReaderB008IdentityE0V AA21_TraitWritingModifierV AA06ZIndexN3KeyV
++ _symbolic _____y_____y__________G_____G 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA9RectangleV AA14LinearGradientV AA16_FlexFrameLayoutV
++ _symbolic _____y_____y__________y_____GGG 7SwiftUI6HStackV AA15ModifiedContentV 017ContactlessReaderB013CheckmarkViewV AA21_TraitWritingModifierV AA010TransitionJ3KeyV
++ _symbolic _____y_____y_____yAByAByABy__________G_____GAGGG_____y_____GGSSG 7SwiftUI6IDViewV AA15ModifiedContentV AA6VStackV 017ContactlessReaderB00H13StateTextViewV AA16_FlexFrameLayoutV AA08_PaddingN0V AA21_TraitWritingModifierV AA010TransitionP3KeyV
++ _symbolic _____y_____y_____y_____G__________G_____G 7SwiftUI15ModifiedContentV AA15StrokeShapeViewV AA08_TrimmedF0V 017ContactlessReaderB09CheckmarkV AA5ColorV AA05EmptyG0V AA18_AspectRatioLayoutV
++ _symbolic _____y_____y_____y_____G__________G_____G 7SwiftUI15ModifiedContentV AA15StrokeShapeViewV AA08_TrimmedF0V AA6CircleV AA5ColorV AA05EmptyG0V AA15_RotationEffectV
++ _symbolic _____y_____y_____y__________G______tGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV 017ContactlessReaderB09PINTopBarV AA14_PaddingLayoutV AA6SpacerV
++ _symbolic _____y_____y_____y__________G______y_____y______Qo______y_____GGtGG 7SwiftUI6ZStackV AA9TupleViewV AA06_ShapeE0V AA9RectangleV AA5ColorV AA15ModifiedContentV AA0E0PAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO 017ContactlessReaderB008IdentityE0V AA21_TraitWritingModifierV AA06ZIndexS3KeyV
+- __PROTOCOLS__TtC19ContactlessReaderUI21CoarseRotationManager.21
+- _block_copy_helper.104
+- _block_copy_helper.107
+- _block_copy_helper.112
+- _block_copy_helper.113
+- _block_copy_helper.126
+- _block_copy_helper.129
+- _block_copy_helper.131
+- _block_copy_helper.16
+- _block_copy_helper.201
+- _block_copy_helper.209
+- _block_copy_helper.259
+- _block_copy_helper.263
+- _block_copy_helper.33
+- _block_copy_helper.39
+- _block_copy_helper.41
+- _block_copy_helper.48
+- _block_copy_helper.71
+- _block_copy_helper.74
+- _block_copy_helper.76
+- _block_copy_helper.84
+- _block_copy_helper.89
+- _block_copy_helper.92
+- _block_descriptor.106
+- _block_descriptor.109
+- _block_descriptor.114
+- _block_descriptor.115
+- _block_descriptor.128
+- _block_descriptor.131
+- _block_descriptor.133
+- _block_descriptor.18
+- _block_descriptor.203
+- _block_descriptor.211
+- _block_descriptor.261
+- _block_descriptor.265
+- _block_descriptor.35
+- _block_descriptor.41
+- _block_descriptor.43
+- _block_descriptor.50
+- _block_descriptor.73
+- _block_descriptor.76
+- _block_descriptor.78
+- _block_descriptor.86
+- _block_descriptor.91
+- _block_descriptor.94
+- _block_destroy_helper.105
+- _block_destroy_helper.108
+- _block_destroy_helper.113
+- _block_destroy_helper.114
+- _block_destroy_helper.127
+- _block_destroy_helper.130
+- _block_destroy_helper.132
+- _block_destroy_helper.17
+- _block_destroy_helper.202
+- _block_destroy_helper.210
+- _block_destroy_helper.260
+- _block_destroy_helper.264
+- _block_destroy_helper.34
+- _block_destroy_helper.40
+- _block_destroy_helper.42
+- _block_destroy_helper.49
+- _block_destroy_helper.72
+- _block_destroy_helper.75
+- _block_destroy_helper.77
+- _block_destroy_helper.85
+- _block_destroy_helper.90
+- _block_destroy_helper.93
+- _get_witness_table 19ContactlessReaderUI0A27GlyphAnimationView_PreviewsV0ade7PreviewF033_B0C2D0E8BE7A318083EA513B1EBA0685LLV05SwiftC00F0HPyHC.21
+- _get_witness_table 19ContactlessReaderUI21IdentityView_PreviewsV09ContainerE0V05SwiftC00E0HPyHC.30
+- _get_witness_table 19ContactlessReaderUI41PhoneCardGlyphWhiteAnimationView_PreviewsV0defgh7PreviewI033_3048FF1CF2C3EEDE0604874E9AC9626ELLV05SwiftC00I0HPyHC.22
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6ZStackVyAA9TupleViewVyACyAA5ColorVAA30_SafeAreaRegionsIgnoringLayoutVG_ACyACy017ContactlessReaderB0028PhoneCardGlyphWhiteAnimationG0VAA06_FrameM0VGAA12_ScaleEffectVGAA6VStackVyAGyAA6SpacerV_ACyAA0G0PAAE11pickerStyleyQrqd__AA11PickerStyleRd__lFQOyAA6PickerVyAA4TextVAM0pqrsT5StateOAA7ForEachVySayA7_GSSA_AAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyA5__A7_Qo_GG_AA20SegmentedPickerStyleVQo_AA08_PaddingM0VGACyA_AAEA0_yQrqd__AAA1_Rd__lFQOyA3_yA5_AM0P4TypeOAGyA_AAEA11__A12_Qrqd___SbtSHRd__lFQOyA5__A23_Qo__A24_A24_tGG_A17_Qo_A20_GtGGtGGAA30_EnvironmentKeyWritingModifierVyAA0H6SchemeOGGAaZHPA32_AaZHPyHC_A37_AA0G8ModifierHPyHCHC.24
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6ZStackVyAA9TupleViewVyACyAA5ColorVAA30_SafeAreaRegionsIgnoringLayoutVG_ACyACy017ContactlessReaderB00n14GlyphAnimationG0VAA06_FrameM0VGAA12_ScaleEffectVGAA6VStackVyAGyAA6SpacerV_AA0G0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyACyAA6ToggleVyAA4TextVGAA08_PaddingM0VG_SbQo_ACyA_AAE11pickerStyleyQrqd__AA11PickerStyleRd__lFQOyAA6PickerVyA6_AM0npQ5StateOAA7ForEachVySayA17_GSSA_AAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyA6__A17_Qo_GG_AA20SegmentedPickerStyleVQo_A9_GtGGtGGAA30_EnvironmentKeyWritingModifierVyAA0H6SchemeOGGAaZHPA33_AaZHPyHC_A38_AA0G8ModifierHPyHCHC.23
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA6VStackVyAA9TupleViewVy017ContactlessReaderB0017AdditionalContextG0V_AA6SpacerVAA6ToggleVyAA4TextVGtGGAA16_FlexFrameLayoutVGAA08_PaddingQ0VGAA24_BackgroundStyleModifierVyAA5ColorVGGAA0G0HPAyAA4_HPAvAA4_HPAsAA4_HPyHC_AuA0gU0HPyHCHC_AxAA5_HPyHCHC_A2_AAA5_HPyHCHC.17
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyAA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAeAEAfgH_Qrqd___Sbyqd___qd__tctSQRd__lFQOyACyAA14GeometryReaderVyAA05TupleE0VyACy011ContactlesskB0010BackgroundE0VAA21_TraitWritingModifierVyAA06ZIndexO3KeyVGG_AA012_ConditionalD0VyACyAM015IdentityScannerE0VATGALyACyAM0N8GradientVATG_ACyACyACyACyACyACyACyAM09ParticlesE0VAA16_FlexFrameLayoutVGAA15_RotationEffectVGAA23_SafeAreaIgnoringLayoutVGAA01_n5StyleQ0VyAA5ColorVGGATGAQyAA010TransitionoS0VGGAA023AccessibilityAttachmentQ0VGSgtGSgGACyACyACyACyACyAA6VStackVyALyAWyALyAA6SpacerV_ACyAeME14limitSizeRangeQryFQOyAM0u11InformationE0V_Qo_A25_GtGACyACyACyACyACyAM0k5StateE0VA22_GA25_GAA01_Z6LayoutVGAQyAA014LayoutPriorityoS0VGGAA14_PaddingLayoutVGG_A34_AeMEA35_QryFQOyAM016ButtonsContainerE0V_Qo_tGSgGATGA5_GA53_GA53_GAA30_SafeAreaRegionsIgnoringLayoutVGACyACyACyACyA32_yALyA34__ACyAeMEA35_QryFQOyAM016CentralContainerE0V_Qo_A5_GA34_tGGA53_GA5_GA67_GATGSgACyACyACyACyAeAE20accessibilityFocused_6equalsQrAA23AccessibilityFocusStateV7BindingVyqd___G_qd__tSHRd__lFQOyACyAA06_ShapeE0VyAA9RectangleVA16_GA25_G_AM24AccessibilityFocusRegionOSgQo_A53_GA5_GATGAA017_AppearanceActionQ0VGSgALyACyACyACyACyA90_A11_GAA012_EnvironmentspQ0VyA16_SgGGATGA22_G_ACyACyACyACyA32_yALyA34__ACyACyAeMEA35_QryFQOyAM011BottomErrorE0V_Qo_A53_GA53_GtGGA11_GA22_GATGA101_GtGSgSgtGGAA010_AnimationQ0VyAM11BottomErrorVSgGG_SbQo__AM0X5StateOQo_A101_GA101_GA106_yAM19FineRotationManagerCSgGGA106_yAM0uE5ModelCSgGGAaDHPA145_AaDHPA140_AaDHPA139_AaDHPqd0__AaDHD3_A138_HO_A101_AA0eQ0HPyHCHC_A101_AAA151_HPyHCHC_A144_AAA151_HPyHCHC_A149_AAA151_HPyHCHC.28
+- _get_witness_table 7SwiftUI4ViewRzlAA19_ConditionalContentVyAA6HStackVyAA05TupleC0VyAA6SpacerVSg_AA08ModifiedE0VyAMyAMyxAA12_ScaleEffectVGAA14_PaddingLayoutVGARGAKtGGAMyAMyAFyAHyAMyxAA09_PositionM0VG_AJtGGAA010_FlexFrameM0VGAA19_BackgroundModifierVy017ContactlessReaderB017StatusBarSafeAreaVGGGAaBHPAvaBHPyHC_A9_AaBHPA2_AaBHPA_AaBHPyHC_A1_AA0cR0HPyHCHC_A8_AAA11_HPyHCHCHC.10
+- _get_witness_table 7SwiftUI6ZStackVyAA9TupleViewVyAA06_ShapeE0VyAA9RectangleVAA5ColorVG_AA15ModifiedContentVyANy017ContactlessReaderB008IdentityE0VAA13_TaskModifierVGAA013_TraitWritingO0VyAA06ZIndexP3KeyVGGtGGAA0E0HPyHC.29
+- _objc_claimAutoreleasedReturnValue
+- _objc_retain_x25
+- _objectdestroy.110Tm
+- _objectdestroy.127Tm
+- _objectdestroy.54Tm
+- _objectdestroy.64Tm
+- _objectdestroy.83Tm
+- _objectdestroy.88Tm
+- _symbolic _____yAAyAAyAAyAAyAAyAAy__________y_____GGACy_____SgGG_____GAKG_____y__________GG_____y_____GG_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA5ColorV AA14_PaddingLayoutV AA026_InsettableBackgroundShapeI0V AA8MaterialV AA16RoundedRectangleV AA11_ClipEffectV AA7CapsuleV AA023AccessibilityAttachmentI0V
+- _symbolic _____yAAy__________G_____y_____GG 7SwiftUI15ModifiedContentV 017ContactlessReaderB012IdentityViewV AA13_TaskModifierV AA013_TraitWritingJ0V AA06ZIndexK3KeyV
+- _symbolic _____y_____G 7SwiftUI6CanvasV AA9EmptyViewV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI4EdgeO3SetV
+- _symbolic _____y______Qo_ 7SwiftUI4ViewP017ContactlessReaderB0E14limitSizeRangeQryFQO AD016CentralContainerC0V
+- _symbolic _____y__________G 7SwiftUI15ModifiedContentV 017ContactlessReaderB012IdentityViewV AA13_TaskModifierV
+- _symbolic _____y__________G______yAEy__________G_____y_____GGt 7SwiftUI10_ShapeViewV AA9RectangleV AA5ColorV AA15ModifiedContentV 017ContactlessReaderB008IdentityD0V AA13_TaskModifierV AA013_TraitWritingM0V AA06ZIndexN3KeyV
+- _symbolic _____y___________y_____GQo_ 7SwiftUI4ViewPAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamiceF0O5BoundRtd__lFQO AA4TextV s19PartialRangeThroughV AF
+- _symbolic _____y___________y_____y__________G______yAHy__________G_____y_____GGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA05TupleD0V AA06_ShapeD0V AA9RectangleV AA5ColorV AA15ModifiedContentV 017ContactlessReaderB008IdentityD0V AA13_TaskModifierV AA013_TraitWritingR0V AA06ZIndexS3KeyV
+- _symbolic _____y__________y_____G_____yAbEGG 7SwiftUI13FillShapeViewV AA9RectangleV AA08_OpacityD5StyleV AA8MaterialV AA01_dE0V
+- _symbolic _____y_____yAAyAAyAAyAAyAAy__________GACG_____G_____G_____y_____GG______SgQo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityFocused_6equalsQrAA23AccessibilityFocusStateV7BindingVyqd___G_qd__tSHRd__lFQO AA4TextV AA14_PaddingLayoutV AA010_FixedSizeO0V AA010_FlexFrameO0V AA30_EnvironmentKeyWritingModifierV AA0M9AlignmentO 017ContactlessReaderB003RegJ6RegionO AA0i10AttachmentW0V
+- _symbolic _____y_____yAAyAAyAAyAAy__________G_____y_____SgGG_____GAJGAEy_____GG______SgQo_ 7SwiftUI4ViewPAAE20accessibilityFocused_6equalsQrAA23AccessibilityFocusStateV7BindingVyqd___G_qd__tSHRd__lFQO AA15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA08_PaddingP0V AA0M9AlignmentO 017ContactlessReaderB003RegH6RegionO
+- _symbolic _____y_____yAAyAAyAAyAAy_____y___________y_____GQo______G_____y_____GGAIy_____SgGG_____GAQG______SgQo_ 7SwiftUI4ViewPAAE20accessibilityFocused_6equalsQrAA23AccessibilityFocusStateV7BindingVyqd___G_qd__tSHRd__lFQO AA15ModifiedContentV AcAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicnO0O5BoundRtd__lFQO AA4TextV s19PartialRangeThroughV AO AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA0R9AlignmentO AA5ColorV AA08_PaddingX0V 017ContactlessReaderB003RegH6RegionO
+- _symbolic _____y_____yAAyAAyAAy__________G_____G_____y_____GGAGy_____GG_Qo_ 7SwiftUI4ViewP017ContactlessReaderB0E9limitSizeQryFQO AA15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA14_OpacityEffectV AA30_EnvironmentKeyWritingModifierV AA0J9AlignmentO 12CoreGraphics7CGFloatV
+- _symbolic _____y_____yAAyAAyAAy__________y_____GGACy_____SgGG_____G_____G______y_____GQo_ 7SwiftUI4ViewPAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamiceF0O5BoundRtd__lFQO AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV 10Foundation6LocaleV AA4FontV AA14_OpacityEffectV AA16_FlexFrameLayoutV s19PartialRangeThroughV AF
+- _symbolic _____y_____yAAyAAyAAy__________y_____GG_____GACySiSgGGACy_____GG______y_____GQo_ 7SwiftUI4ViewPAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamiceF0O5BoundRtd__lFQO AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0K9AlignmentO AA16_FlexFrameLayoutV 12CoreGraphics7CGFloatV s19PartialRangeThroughV AF
+- _symbolic _____y_____yAAyAAyAAy_____yAAyAAyABy_____yAAyAAyAAyAAyAAyAAyAAyAAyAAy__________G_____y_____GG_____y_____GG_____y_____yAL__________GGG_____G_____G_____G_____y_____GGAZG_AAyAAyAAyAAyAAyAAy_____yAAy__________y_____SgGG_Qo_A6_yAHSgGGA6_y_____GGA6_y_____GGA6_ySiSgGGA2_GAZGAAy_____yAAyAAyAAyAAy_____A16_GA19_GA22_GA2_G_Qo_AZGSg_____yAAyAAyAAyAAyAAyA26______GA22_GA16_GA2_GAZGACyA40__AAyA38_AZGSgtGGtGG_____G_____GG_____y_____GGAXG_____GAMG_Qo_ 7SwiftUI4ViewPAAE14materialEffect_2inQrAA8MaterialV_AA9_ShapeSetVtFQO AA15ModifiedContentV AA6VStackV AA05TupleC0V AA5ImageV AA18_AspectRatioLayoutV AA24_BackgroundStyleModifierV AA5ColorV AA05_ClipE0V AA16RoundedRectangleV AA08_OverlayT0V AA06StrokehC0V AG AA05EmptyC0V AA06_FrameQ0V AA08_PaddingQ0V AA023AccessibilityAttachmentT0V AA013_TraitWritingT0V AA18TransitionTraitKeyV AcAE10fontWeightyQrAA4FontV6WeightVSgFQO 017ContactlessReaderB017AutoLinebreakTextV AA022_EnvironmentKeyWritingT0V A18_ 12CoreGraphics7CGFloatV AA13TextAlignmentO ACA22_E9limitSizeQryFQO AA4TextV AA012_ConditionalK0V AA010_BlendModeE0V AA09_RotationE0V AA08_OpacityE0V AA018_PreferenceWritingT0V AA09PreferredU9SchemeKeyV AA010_FlexFrameQ0V
+- _symbolic _____y_____yAAyAAyAAy_____y_____yAAyAAyAAyAAyAAyAAyAAyAAy__________G_____y_____GG_____y_____GG_____y_____yAL__________GGG_____G_____y_____GG_____G_____G______yAAyAAyAAyAAy__________y_____GGA6_y_____GGA6_ySiSgGGA2_GAAyAAyAAyAAyAAy_____yAAy_____A6_y_____SgGG_Qo_A6_yAHSgGGA8_GA11_GA14_GA2_GGAAyAAyAAyA5_A14_GA8_GA2_GtGGAZG_____GA0_GAMG_Qo_ 7SwiftUI4ViewPAAE14materialEffect_2inQrAA8MaterialV_AA9_ShapeSetVtFQO AA15ModifiedContentV AA6VStackV AA05TupleC0V AA5ImageV AA18_AspectRatioLayoutV AA24_BackgroundStyleModifierV AA5ColorV AA05_ClipE0V AA16RoundedRectangleV AA08_OverlayT0V AA06StrokehC0V AG AA05EmptyC0V AA06_FrameQ0V AA013_TraitWritingT0V AA18TransitionTraitKeyV AA08_PaddingQ0V AA023AccessibilityAttachmentT0V AA012_ConditionalK0V AA4TextV AA022_EnvironmentKeyWritingT0V 12CoreGraphics7CGFloatV AA13TextAlignmentO AcAE10fontWeightyQrAA4FontV6WeightVSgFQO 017ContactlessReaderB017AutoLinebreakTextV A29_ AA010_FlexFrameQ0V
+- _symbolic _____y_____yAAyAAy_____yAAy_____yAAyAAyAAy__________y_____GGADySiSgGGADy_____GG_Qo______GG_____G_____G_____y_____GG_Qo_ 7SwiftUI4ViewPAAE14materialEffect_2inQrAA8MaterialV_AA9_ShapeSetVtFQO AA15ModifiedContentV AA6VStackV AC017ContactlessReaderB0E14limitSizeRangeQryFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA0R9AlignmentO 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentV0V AA16_FlexFrameLayoutV AA14_PaddingLayoutV AA05_ClipE0V AA16RoundedRectangleV
+- _symbolic _____y_____yAAyAAy_____y_____yAAyAAyAAyAAyAAyAAyAAyAAy__________G_____G_____y_____SgGGAIy_____SgGG_____y_____GGARy_____GG_____G_____GAAyAAyAAyAAyAAyAAyAAy_____AGG_____G_____G_____GA7_G_____y_____GGA_GGSgG_____G_____GA5_G______SgQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV AA6ZStackV AA012_ConditionalI0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameO0V AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA06_TraitsT0V AA010TransitionwR0V AA06ZIndexwR0V AA08_PaddingO0V AA023AccessibilityAttachmentT0V 017ContactlessReaderB0025ContactlessGlyphAnimationC0V AA12_ScaleEffectV AA14_OpacityEffectV AA017_AppearanceActionT0V AA010_AnimationT0V A7_30ContactlessGlyphAnimationStateO AA05_FlexpO0V AA15_RotationEffectV A7_24ContactlessAnimationTypeO
+- _symbolic _____y_____yAAyAAy_____y_____yAAy_____y_____yAAyAAy__________G_____y_____GG_AAyAAyAF_____y_____GGAGGSgtGG_____GAAyADyAAyAAyAAyAAyAAyAAy__________GAMy_____SgGGAMy_____SgGG_____yA2_GGAGGAGGGAUGGSgG_____ySbGG_____G_____y_____GG_Qo_ 7SwiftUI4ViewPAAE14materialEffect_2inQrAA8MaterialV_AA9_ShapeSetVtFQO AA15ModifiedContentV AA6ButtonV AA012_ConditionalK0V AA6VStackV AA05TupleC0V AA4TextV AA14_PaddingLayoutV AA21_TraitWritingModifierV AA0r8PriorityS3KeyV AA012_EnvironmentwtU0V 12CoreGraphics7CGFloatV AA010_FlexFrameR0V AA5ImageV AA06_ScaleE0V AA4FontV AA5ColorV AA016_ForegroundStyleU0V AA01_xw9TransformU0V AA017_AllowsHitTestingU0V AA05_ClipE0V AA6CircleV
+- _symbolic _____y_____yAAy__________G_____y_____GG______y_____GQo_ 7SwiftUI4ViewPAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamiceF0O5BoundRtd__lFQO AA15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA0K9AlignmentO s19PartialRangeThroughV AF
+- _symbolic _____y_____yAAy__________y_____GGACySiSgGG______y_____GQo_ 7SwiftUI4ViewPAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamiceF0O5BoundRtd__lFQO AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV s19PartialRangeThroughV AF
+- _symbolic _____y_____yAAy_____y_____y_____yAAyAAyAAyAAyAAyAAyAAy__________G_____G_____y_____GG_____G_____G_____GANG_AAyAAyAAyACy_____yAUyADyAAyAAy_____yAAyAAyAAyAAyAAy__________GAWG_____G_____G_____y_____GG______SgQo_ANG_____G_AAyAAyAAyAAyAVA0_GA4_GAWGANGtGADyAAyAAyAAy_____y_____y_____y_____yAAyAvNGAAyAAy_____y_____y_____A20_G______Qo_AHGANGG______y_____GQo__Qo__A7_Qo_AWGAWGA10_G_AAyAAy_____yA13__A29_Qo_AWGANGtGGAAyAAyAAy_____y_____y_____yA17_yA18_AAyAAyAAyAAyAAy_____AFGA2_y_____SgGGA2_y_____SgGGAHGANGG_A29_Qo__Qo__A7_Qo_AWGAWGA10_GGSgGAWGAWG_____yA47_GGtGGG_____y_____GGA0_G_Qo_ 7SwiftUI4ViewPAAE26interactiveDismissDisabledyQrSbFQO AA15ModifiedContentV AA06ScrollC0V AA6VStackV AA05TupleC0V 017ContactlessReaderB0012AVLoopPlayerC0V AA18_AspectRatioLayoutV AA06_FrameR0V AA11_ClipEffectV AA9RectangleV AA31AccessibilityAttachmentModifierV AA017_AllowsHitTestingY0V AA017_SafeAreaIgnoringR0V AA012_ConditionalH0V AcAE20accessibilityFocused_6equalsQrAA0W10FocusStateV7BindingVyqd___G_qd__tSHRd__lFQO AA4TextV AA08_PaddingR0V AA010_FixedSizeR0V AA05_FlexsR0V AA022_EnvironmentKeyWritingY0V AA13TextAlignmentO AM14RegFocusRegionO AA017_AppearanceActionY0V AcAEA4__A5_QrA10__qd__tSHRd__lFQO AcAE20accessibilityElement8childrenQrAA0W13ChildBehaviorV_tFQO AcAE15dynamicTypeSizeyQrqd__SXRd__AA15DynamicTypeSizeO5BoundRtd__lFQO AM12CenteredTextV AcAE08progressC5StyleyQrqd__AA08ProgressC5StyleRd__lFQO AA08ProgressC0V AA05EmptyC0V AA016CircularProgressC5StyleV s19PartialRangeThroughV A33_ AcAEA31_yQrqd__SXRd__A33_A35_RSlFQO AcAEA4__A5_QrA10__qd__tSHRd__lFQO AcAEA27_A28_QrA30__tFQO AcAEA31_yQrqd__SXRd__A33_A35_RSlFQO AA5ImageV AA4FontV AA5ColorV AA016_BackgroundStyleY0V AA013_TraitWritingY0V AA0R16PriorityTraitKeyV
+- _symbolic _____y_____yAAy_____y_____y_____y______Qo__Qo_SgG_____G_____G_Qo_ 7SwiftUI4ViewP017ContactlessReaderB0E13observeHeight4into20updateOnlyOnIncreaseQrAA7BindingVy12CoreGraphics7CGFloatVG_SbtFQO AA15ModifiedContentV AA6ZStackV AcAE18onLongPressGesture15minimumDuration15maximumDistance8pressing7performQrSd_ALySbcSgyyctFQO AcAE0t3TapW05countAVQrSi_yyctFQO AD09TapCenterC0V AA16_FlexFrameLayoutV AA14_PaddingLayoutV
+- _symbolic _____y_____yAByABy__________G_____G_____GG 7SwiftUI6ButtonV AA15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA14_OpacityEffectV AA31AccessibilityAttachmentModifierV
+- _symbolic _____y_____yABy_____yAByAByABy__________G_____G_____y_____GGSSG_____y_____GG_____GG 7SwiftUI6ZStackV AA15ModifiedContentV AA6IDViewV AA4TextV AA15_RotationEffectV AA08_OpacityI0V AA21_TraitWritingModifierV AA010TransitionK3KeyV AA012_EnvironmentolM0V AA0G9AlignmentO AA023AccessibilityAttachmentM0V
+- _symbolic _____y_____y_____ABG______Qo_ 7SwiftUI4ViewPAAE08progressC5StyleyQrqd__AA08ProgresscE0Rd__lFQO AA0fC0V AA05EmptyC0V AA08CircularfcE0V
+- _symbolic _____y_____y__________GABy_____y_____yAByAFyAGyAByAByAByAByAByAByABy__________G_____GAKGAKG_____ySbGG_____G_____GSg_AByAByAByAByAByAByABy_____AIG_____y_____GGAKG_____y_____GG_____G_____G_____y_____GGtGGAIG_AByAFyAAyAGyABy_____yAGyAByAByAByAByABy_____y______y_____G_____ySay_____G__________GGA_GAIGAYy_____GGAYy_____GGA2_y_____GG_AByAByAByAByAByA18_y_A21_A22_yA24_A25______GGA_GAIGA32_GA35_GA38_GtGGAKG______tGAGyA51__AByAByAByAByAByAByAByAByABy_____A2_y_____GGA2_y_____SgGGAKGAKGA4_GA6_GA8_GA32_GA_GtGGGA12_GAByAByAByAByAByAByABy_____yABy_____yABy_____yAByABy_____yAByA53_AIG_Qo_A4_GA_GSSGA8_GGA2_y_____GG______Qo_A2_y_____SgGGAKGAKGAPGARGA_GA8_GtGG_____GGSg 7SwiftUI19_ConditionalContentV AA08ModifiedD0V 017ContactlessReaderB018PINPrivacyLockViewV AA30_SafeAreaRegionsIgnoringLayoutV AA6VStackV AA05TupleJ0V AF9PINTopBarV AA010_FlexFrameO0V AA08_PaddingO0V AA32_EnvironmentKeyTransformModifierV AA14_OpacityEffectV AA017_AppearanceActionZ0V AF09PINPromptJ0V AA013_TraitWritingZ0V AA015TransitionTraitX0V AA01_wx7WritingZ0V 12CoreGraphics7CGFloatV AA017_AllowsHitTestingZ0V AA023AccessibilityAttachmentZ0V AA010_AnimationZ0V AF12PINViewStateC9EntryModeO AA6ZStackV AA09_VariadicJ0O4TreeV AA01_O4RootV AF09PINKeypadO0V AA7ForEachV AF14PINButtonModelC 10Foundation4UUIDV AF09PINButtonJ0V AA0o13PriorityTraitX0V AA011ZIndexTraitX0V AA0O9DirectionO AF015PINActionButtonJ0V AA6SpacerV AA4TextV AA13TextAlignmentO AA5ColorV AA0J0PAAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA6ButtonV AA6IDViewV A56_AFE14limitSizeRangeQryFQO AA17ButtonBorderShapeV AA19BorderedButtonStyleV AA13AnyShapeStyleV AA15_RotationEffectV
+- _symbolic _____y_____y__________G_Qo_ 7SwiftUI4ViewP017ContactlessReaderB0E14limitSizeRangeQryFQO AA15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV
+- _symbolic _____y_____y_____yAAyAAyAAyAAy_____y_____G_____y_____SgGG_____G_____G_____G_____G______SgQo__Say_____GAVSQHPAUSQ12CoreGraphicsyHC_HCg0_Qo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE20accessibilityFocused_6equalsQrAA23AccessibilityFocusStateV7BindingVyqd___G_qd__tSHRd__lFQO AA15ModifiedContentV AA13_StrokedShapeV 017ContactlessReaderB0016CornersHighlightR0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA14_OpacityEffectV AA12_ScaleEffectV AA13_ShadowEffectV AA0k10AttachmentZ0V AR0kL6RegionO So7CGPointV
+- _symbolic _____y_____y_____yAAyAAy_____yAAyAAyAAyAAyABy_____yAAyAAyAAyAAyAAyAAyAAyAAy__________G_____y_____GG_____y_____GG_____y_____yAL__________GGG_____G_____y_____GG_____G_____G______yAAyAAyAAyAAy__________y_____GGA6_y_____GGA6_ySiSgGGA2_GAAyAAyAAyAAyAAy_____yAAy_____A6_y_____SgGG_Qo_A6_yAHSgGGA8_GA11_GA14_GA2_GGAAyAAyAAyA5_A14_GA8_GA2_GtGGAZG_____GA0_GAMG_Qo______y_____yAAyAH_____GGGGA2_GSgGA37_G_Qo_ 7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA15ModifiedContentV AA6VStackV AcAE14materialEffect_2inQrAA8MaterialV_AA9_ShapeSetVtFQO AA05TupleC0V AA5ImageV AA18_AspectRatioLayoutV AA24_BackgroundStyleModifierV AA5ColorV AA05_ClipM0V AA16RoundedRectangleV AA08_OverlayY0V AA06StrokepC0V AN AA05EmptyC0V AA06_FrameV0V AA013_TraitWritingY0V AA18TransitionTraitKeyV AA08_PaddingV0V AA023AccessibilityAttachmentY0V AA012_ConditionalJ0V AA4TextV AA022_EnvironmentKeyWritingY0V 12CoreGraphics7CGFloatV AA13TextAlignmentO AcAE10fontWeightyQrAA4FontV6WeightVSgFQO 017ContactlessReaderB017AutoLinebreakTextV A32_ AA010_FlexFrameV0V AA01_wY0V AA14GeometryReaderV AA017_AppearanceActionY0V
+- _symbolic _____y_____y_____yAAyAAy_____y_____y_____yAAyAAyAAyAAyAAyAAyAAy__________G_____G_____y_____GG_____G_____G_____GANG_AAyAAyAAyACy_____yAUyADyAAyAAy_____yAAyAAyAAyAAyAAy__________GAWG_____G_____G_____y_____GG______SgQo_ANG_____G_AAyAAyAAyAAyAVA0_GA4_GAWGANGtGADyAAyAAyAAy_____y_____y_____y_____yAAyAvNGAAyAAy_____y_____y_____A20_G______Qo_AHGANGG______y_____GQo__Qo__A7_Qo_AWGAWGA10_G_AAyAAy_____yA13__A29_Qo_AWGANGtGGAAyAAyAAy_____y_____y_____yA17_yA18_AAyAAyAAyAAyAAy_____AFGA2_y_____SgGGA2_y_____SgGGAHGANGG_A29_Qo__Qo__A7_Qo_AWGAWGA10_GGSgGAWGAWG_____yA47_GGtGGG_____y_____GGA0_G_Qo_A71_y_____GG______yAAyAAyAAyAAyACyADyAAyAAy_____yAAy_____AHG_A29_Qo_AWGANGSg_AAyAAy_____y______A29_Qo_AWGAWGtGGA0_GAWGAWGAWG_Qo_SgQo_ 7SwiftUI4ViewPAAE11safeAreaBar4edge9alignment7spacing7contentQrAA12VerticalEdgeO_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAaBRd__lFQO AA15ModifiedContentV AcAE26interactiveDismissDisabledyQrSbFQO AA06ScrollC0V AA6VStackV AA05TupleC0V 017ContactlessReaderB0012AVLoopPlayerC0V AA18_AspectRatioLayoutV AA12_FrameLayoutV AA11_ClipEffectV AA9RectangleV AA31AccessibilityAttachmentModifierV AA25_AllowsHitTestingModifierV AA05_SafeE14IgnoringLayoutV AA012_ConditionalS0V AcAE20accessibilityFocused_6equalsQrAA23AccessibilityFocusStateV7BindingVyqd___G_qd__tSHRd__lFQO AA4TextV AA14_PaddingLayoutV AA16_FixedSizeLayoutV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA04TextN0O AZ14RegFocusRegionO AA25_AppearanceActionModifierV AcAEA17__A18_QrA23__qd__tSHRd__lFQO AcAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AcAE15dynamicTypeSizeyQrqd__SXRd__AA15DynamicTypeSizeO5BoundRtd__lFQO AZ12CenteredTextV AcAE08progressC5StyleyQrqd__AA08ProgressC5StyleRd__lFQO AA08ProgressC0V AA05EmptyC0V AA016CircularProgressC5StyleV s19PartialRangeThroughV A46_ AcAEA44_yQrqd__SXRd__A46_A48_RSlFQO AcAEA17__A18_QrA23__qd__tSHRd__lFQO AcAEA40_A41_QrA43__tFQO AcAEA44_yQrqd__SXRd__A46_A48_RSlFQO AA5ImageV AA4FontV AA5ColorV AA24_BackgroundStyleModifierV AA21_TraitWritingModifierV AA22LayoutPriorityTraitKeyV AA18TransitionTraitKeyV AcAE18scrollPocketTag_v15styleQrAA0F16MagicPocketStyleV_tFQO AcAEA44_yQrqd__SXRd__A46_A48_RSlFQO AZ11PrivacyLinkV AcAEA44_yQrqd__SXRd__A46_A48_RSlFQO AZ15TextButtonGlassV
+- _symbolic _____y_____y_____yAAyAAy_____y_____y_____y______AAyAAyAAyACy_____yAFyAFy__________GAFy__________GG_____GG_____GAQG_____y_____GGtGGG_____y_____GG_____GA_y_____GG_Qo_______yAAyAAyAAyAAyACyAFyADyAAyAAy_____y_____yAAy_____A3_G______y_____GQo_G_____GAQGSg______y______A14_Qo_AAyAAyA22_AQGAQGtGADyA22__A24_tGGSgGA3_GAQGAQGAQG_Qo_SgQo_ 7SwiftUI4ViewPAAE11safeAreaBar4edge9alignment7spacing7contentQrAA12VerticalEdgeO_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAaBRd__lFQO AcAE26interactiveDismissDisabledyQrSbFQO AA15ModifiedContentV AA06ScrollC0V AA6VStackV AA05TupleC0V 017ContactlessReaderB015RegMediaDisplayV AA012_ConditionalV0V AZ22RegisteringDescriptionV AZ21RegisteredDescriptionV AZ22SubscribingDescriptionV AA05EmptyC0V AZ33RegistrationNotStartedDescriptionV AA14_PaddingLayoutV AA24_BackgroundStyleModifierV AA5ColorV AA21_TraitWritingModifierV AA22LayoutPriorityTraitKeyV AA16_FlexFrameLayoutV AA18TransitionTraitKeyV AcAE18scrollPocketTag_v15styleQrAA0F16MagicPocketStyleV_tFQO AA14GeometryReaderV AcAE15dynamicTypeSizeyQrqd__SXRd__AA15DynamicTypeSizeO5BoundRtd__lFQO AZ11PrivacyLinkV s19PartialRangeThroughV A35_ AA12_FrameLayoutV AcAEA33_yQrqd__SXRd__A35_A37_RSlFQO AZ15TextButtonGlassV
+- _symbolic _____y_____y_____yACyACyACyACyACyACy__________G_____GAGGAGG_____ySbGG_____G_____GSg_ACyACyACyACyACyACyACy_____AEG_____y_____GGAGG_____y_____GG_____G_____G_____y_____GGtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV 017ContactlessReaderB09PINTopBarV AA16_FlexFrameLayoutV AA08_PaddingN0V AA32_EnvironmentKeyTransformModifierV AA14_OpacityEffectV AA017_AppearanceActionS0V AH09PINPromptE0V AA013_TraitWritingS0V AA010TransitionyQ0V AA01_pqzS0V 12CoreGraphics7CGFloatV AA017_AllowsHitTestingS0V AA023AccessibilityAttachmentS0V AA010_AnimationS0V AH12PINViewStateC9EntryModeO
+- _symbolic _____y_____y_____yACyACy__________G_____GAEG______yACyAAyACyACyACy__________G_____GANGG_____y_____GGSSGSgtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV 017ContactlessReaderB00i10StateGlyphE0V AA31AccessibilityAttachmentModifierV AA12_FrameLayoutV AA6IDViewV AH0ij4TextE0V AA05_FlexoP0V AA08_PaddingP0V AA013_TraitWritingN0V AA010TransitionU3KeyV
+- _symbolic _____y_____y_____y__________GAByABy_____yABy__________y_____SgGG_Qo_AGy_____SgGGADGG_SNy_____GQo_ 7SwiftUI4ViewPAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamiceF0O5BoundRtd__lFQO 017ContactlessReaderB012CenteredTextV AA15ModifiedContentV AA0L0V AA31AccessibilityAttachmentModifierV AcAE10fontWeightyQrAA4FontV0S0VSgFQO AA5ImageV AA022_EnvironmentKeyWritingQ0V AT AA5ColorV AF
+- _symbolic _____y_____y_____y__________G______yAGy__________G_____y_____GGtGG 7SwiftUI6ZStackV AA9TupleViewV AA06_ShapeE0V AA9RectangleV AA5ColorV AA15ModifiedContentV 017ContactlessReaderB008IdentityE0V AA13_TaskModifierV AA013_TraitWritingO0V AA06ZIndexP3KeyV
+- _symbolic _____y_____y_____y________________tGG_Qo_ 7SwiftUI4ViewP017ContactlessReaderB0E9limitSizeQryFQO AA6VStackV AA05TupleC0V AD018TransactionDetailsC0V AD020PhoneAnimationCenterC0V AD09CheckmarknC0V
+- _symbolic _____y_____y_____y_____yAAy_____y_____y_____yAAy__________GSSG_AAyAAy__________G_____GtGGAJG_____G______y______yACy_____yAAyAAy_____AQGALGG______ATyAAyAAyAV_____yAESgGGALGGtGGQo_Qo_______yAAyAAyAAyAAy_____yAAyAAyAAyAAyAuZy_____GGAJGAZySiSgGGAZy_____GG______y_____GQo_AQGAQGAQGALG_Qo_Qo____________Qo_ 7SwiftUI4ViewPAAE5sheet4item9onDismiss7contentQrAA7BindingVyqd__SgG_yycSgqd_0_qd__cts12IdentifiableRd__AaBRd_0_r0_lFQO AcAE11safeAreaBar4edge9alignment7spacingAGQrAA12VerticalEdgeO_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAaBRd__lFQO AcAE7toolbarAGQrqd__yXE_tAA14ToolbarContentRd__lFQO AA08ModifiedZ0V AA06ScrollC0V AA05TupleC0V AA6IDViewV AA5ColorV AA12_FrameLayoutV 017ContactlessReaderB08HTMLViewV AA16_FlexFrameLayoutV AA31AccessibilityAttachmentModifierV AA14_PaddingLayoutV AA0yZ7BuilderV10buildBlockyQrxAAA_RzlFZQO AA0Y9ItemGroupV AA6ButtonV AA4TextV AA6SpacerV AA30_EnvironmentKeyWritingModifierV AcAE18scrollPocketTag_v15styleQrAA0M16MagicPocketStyleV_tFQO AcAE15dynamicTypeSizeyQrqd__SXRd__AA15DynamicTypeSizeO5BoundRtd__lFQO AA04TextT0O AX s19PartialRangeThroughV A40_ A12_03WebZ0V A12_09SafariWebC0V
+- _symbolic _____y_____y_____y_____yAAy_____y_____y_____yAAy__________GSSG______yAAyAAyAAyAAy__________G_____G_____y_____GGAMGANGtGGAKG_____G______y______yACyAAy_____yAAyAAyAAy_____AXG_____GAMGG_____ySbGG______A8_tGGQo_Qo_______yAAyAAy_____yACyAAyAAy_____yAAyAAyAAyAAyA0_AKGA2_GAOy_____GGAOy_____GG_Qo_AXGAMG_AAyAAyAAy_____yAAyAAyAAyAAyA0_AQGAOy_____SgGGA2_GAKG______y_____GQo_AXGAOy_____GGAMGSgtGGAXGAXG_Qo_Qo____________Qo_ 7SwiftUI4ViewPAAE5sheet4item9onDismiss7contentQrAA7BindingVyqd__SgG_yycSgqd_0_qd__cts12IdentifiableRd__AaBRd_0_r0_lFQO AcAE11safeAreaBar4edge9alignment7spacingAGQrAA12VerticalEdgeO_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAaBRd__lFQO AcAE7toolbarAGQrqd__yXE_tAA14ToolbarContentRd__lFQO AA08ModifiedZ0V AA06ScrollC0V AA05TupleC0V AA6IDViewV AA5ColorV AA12_FrameLayoutV AA012_ConditionalZ0V 017ContactlessReaderB08HTMLViewV AA16_FlexFrameLayoutV AA31AccessibilityAttachmentModifierV AA30_EnvironmentKeyWritingModifierV 10Foundation6LocaleV AA14_PaddingLayoutV AA0yZ7BuilderV10buildBlockyQrxAAA_RzlFZQO AA0Y9ItemGroupV AA6ButtonV AA4TextV AA14_OpacityEffectV AA32_EnvironmentKeyTransformModifierV AA6SpacerV AcAE18scrollPocketTag_v15styleQrAA0M16MagicPocketStyleV_tFQO AA6VStackV ACA14_E9limitSizeQryFQO AA04TextT0O AX AcAE15dynamicTypeSizeyQrqd__SXRd__AA15DynamicTypeSizeO5BoundRtd__lFQO AA4FontV s19PartialRangeThroughV A54_ AA13OpenURLActionV A14_03WebZ0V A14_09SafariWebC0V
+- _symbolic _____y_____y_____y_____y_____yAAyAAy_____yAAyAAyAAy__________G_____G_____GSgG_____y_____GGAFG_AAyAAyAAyADyAAyAAy_____yAAyAAyAAy_____AHGAJGAPGSSG_____y_____GG_____GG_____G_____GAPGtGG_Qo_A1_G______SgQo_ 7SwiftUI4ViewPAAE20accessibilityFocused_6equalsQrAA23AccessibilityFocusStateV7BindingVyqd___G_qd__tSHRd__lFQO AA15ModifiedContentV AcAE0D7Element8childrenQrAA0G13ChildBehaviorV_tFQO AA6VStackV AA05TupleC0V AA6ZStackV 017ContactlessReaderB009CheckmarkC0V AA12_FrameLayoutV AA15_RotationEffectV AA08_OpacityZ0V AA21_TraitWritingModifierV AA18TransitionTraitKeyV AA6IDViewV AA4TextV AA30_EnvironmentKeyWritingModifierV AA13TextAlignmentO AA0G18AttachmentModifierV AA05_FlexwX0V AA08_PaddingX0V AW0gH6RegionO
+- _symbolic _____y_____y_____y_____y_____yAAyAAy_____y_____y_____yAAy__________GSSG______yAAyAAyAAyAAy__________G_____G_____y_____GGAMGANGtGGAKG_____G______y______yACyAAy_____yAAyAAyAAy_____AXG_____GAMGG_____ySbGG______A8_tGGQo_Qo_______yAAyAAy_____yACyAAyAAy_____yAAyAAyAAyAAyA0_AKGA2_GAOy_____GGAOy_____GG_Qo_AXGAMG_AAyAAyAAy_____yAAyAAyAAyAAyA0_AQGAOy_____SgGGA2_GAKG______y_____GQo_AXGAOy_____GGAMGSgtGGAXGAXG_Qo_Qo____________Qo______yA49_SgGG_SdQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA15ModifiedContentV AcAE5sheet4item0D7Dismiss7contentQrAA7BindingVyqd__SgG_yycSgqd_0_qd__cts12IdentifiableRd__AaBRd_0_r0_lFQO AcAE11safeAreaBar4edge9alignment7spacingALQrAA12VerticalEdgeO_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAaBRd__lFQO AcAE7toolbarALQrqd__yXE_tAA07ToolbarI0Rd__lFQO AA06ScrollC0V AA05TupleC0V AA6IDViewV AA5ColorV AA12_FrameLayoutV AA012_ConditionalI0V 017ContactlessReaderB08HTMLViewV AA16_FlexFrameLayoutV AA31AccessibilityAttachmentModifierV AA30_EnvironmentKeyWritingModifierV 10Foundation6LocaleV AA14_PaddingLayoutV AA07ToolbarI7BuilderV10buildBlockyQrxAAA4_RzlFZQO AA16ToolbarItemGroupV AA6ButtonV AA4TextV AA14_OpacityEffectV AA32_EnvironmentKeyTransformModifierV AA6SpacerV AcAE18scrollPocketTag_v15styleQrAA0R16MagicPocketStyleV_tFQO AA6VStackV ACA17_E9limitSizeQryFQO AA04TextY0O A1_ AcAE15dynamicTypeSizeyQrqd__SXRd__AA15DynamicTypeSizeO5BoundRtd__lFQO AA4FontV s19PartialRangeThroughV A57_ AA13OpenURLActionV A17_03WebI0V A17_09SafariWebC0V AA18_AnimationModifierV
+- _symbolic _____y_____y_____y_____y_____y_____yAAy_____yAAyAAy_____y_____y_____yAAyAAyAAyAAyAAyAAyAAy__________G_____G_____y_____GG_____G_____G_____GANG_AAyAAyAAyACy_____yAUyADyAAyAAy_____yAAyAAyAAyAAyAAy__________GAWG_____G_____G_____y_____GG______SgQo_ANG_____G_AAyAAyAAyAAyAVA0_GA4_GAWGANGtGADyAAyAAyAAy_____y_____y_____y_____yAAyAvNGAAyAAy_____y_____y_____A20_G______Qo_AHGANGG______y_____GQo__Qo__A7_Qo_AWGAWGA10_G_AAyAAy_____yA13__A29_Qo_AWGANGtGGAAyAAyAAy_____y_____y_____yA17_yA18_AAyAAyAAyAAyAAy_____AFGA2_y_____SgGGA2_y_____SgGGAHGANGG_A29_Qo__Qo__A7_Qo_AWGAWGA10_GGSgGAWGAWG_____yA47_GGtGGG_____y_____GGA0_G_Qo_A71_y_____GG______yAAyAAyAAyAAyACyADyAAyAAy_____yAAy_____AHG_A29_Qo_AWGANGSg_AAyAAy_____y______A29_Qo_AWGAWGtGGA0_GAWGAWGAWG_Qo_SgQo______G_Qo_______y______y______yytAAyAAy_____yA41_GANG_____ySbGGGQo_SgQo_Qo_______y______A47_Qo_Qo__Qo_ 7SwiftUI4ViewPAAE5alert11isPresented7contentQrAA7BindingVySbG_AA5AlertVyXEtFQO AcAE5sheetAE9onDismissAFQrAI_yycSgqd__yctAaBRd__lFQO AcAE7toolbarAFQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE24scrollEdgeEffectDisabledyQrSbFQO AA08ModifiedO0V AcAE11safeAreaBar4edge9alignment7spacingAFQrAA08VerticalQ0O_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAaBRd__lFQO AcAE011interactivelS0yQrSbFQO AA06ScrollC0V AA6VStackV AA05TupleC0V 017ContactlessReaderB0012AVLoopPlayerC0V AA18_AspectRatioLayoutV AA12_FrameLayoutV AA05_ClipR0V AA9RectangleV AA31AccessibilityAttachmentModifierV AA25_AllowsHitTestingModifierV AA05_SafeV14IgnoringLayoutV AA012_ConditionalO0V AcAE20accessibilityFocused_6equalsQrAA23AccessibilityFocusStateVAGVyqd___G_qd__tSHRd__lFQO AA4TextV AA14_PaddingLayoutV AA16_FixedSizeLayoutV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA13TextAlignmentO A11_14RegFocusRegionO AA25_AppearanceActionModifierV AcAEA30__A31_QrA35__qd__tSHRd__lFQO AcAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AcAE15dynamicTypeSizeyQrqd__SXRd__AA15DynamicTypeSizeO5BoundRtd__lFQO A11_12CenteredTextV AcAE08progressC5StyleyQrqd__AA08ProgressC5StyleRd__lFQO AA08ProgressC0V AA05EmptyC0V AA016CircularProgressC5StyleV s19PartialRangeThroughV A58_ AcAEA56_yQrqd__SXRd__A58_A60_RSlFQO AcAEA30__A31_QrA35__qd__tSHRd__lFQO AcAEA52_A53_QrA55__tFQO AcAEA56_yQrqd__SXRd__A58_A60_RSlFQO AA5ImageV AA4FontV AA5ColorV AA24_BackgroundStyleModifierV AA21_TraitWritingModifierV AA22LayoutPriorityTraitKeyV AA18TransitionTraitKeyV AcAE0P12PocketTag_v15styleQrAA0W16MagicPocketStyleV_tFQO AcAEA56_yQrqd__SXRd__A58_A60_RSlFQO A11_11PrivacyLinkV AcAEA56_yQrqd__SXRd__A58_A60_RSlFQO A11_15TextButtonGlassV AA05_SafeV21RegionsIgnoringLayoutV AA0nO7BuilderV10buildBlockyQrxAaPRzlFZQO A98_A99_yQrxAaPRzlFZQO AA0N4ItemV AA6ButtonV AA32_EnvironmentKeyTransformModifierV AcAE22presentationBackgroundyQrqd__AA10ShapeStyleRd__lFQO A11_26IdentityTermsAndConditionsV
+- _symbolic _____y_____y_____y_____y_____y_____yACy__________GACyACy_____yACy__________y_____SgGG_Qo_AIy_____SgGGAFGG_SNy_____GQo______G______yACy_____y_____y_____A0_G______Qo_AXGACyACyACyACy_____y_____ySnySiGSiACyACyACyACyACyACyAhQG_____G_____y_____GGAXGAIy_____GGAFGGGAXG_____GA13_G_____GGSgtGG______Qo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA6VStackV AA05TupleC0V AA15ModifiedContentV AcAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicmN0O5BoundRtd__lFQO 017ContactlessReaderB012CenteredTextV AA0T0V AA31AccessibilityAttachmentModifierV AcAE10fontWeightyQrAA4FontV0Y0VSgFQO AA5ImageV AA022_EnvironmentKeyWritingW0V A_ AA5ColorV AO AA16_FlexFrameLayoutV AA012_ConditionalK0V AcAE08progressC5StyleyQrqd__AA08ProgressC5StyleRd__lFQO AA08ProgressC0V AA05EmptyC0V AA016CircularProgressC5StyleV AA6HStackV AA7ForEachV AA18_AspectRatioLayoutV AA013_TraitWritingW0V AA18TransitionTraitKeyV 12CoreGraphics7CGFloatV AA14_PaddingLayoutV AA14_OpacityEffectV AR12PINViewStateC12CaptureStateO
+- _symbolic _____y_____y_____y_____y_____y_____y_____yAAyAAyAAy_____y_____y_____y______AAyAAyAAyACy_____yAFyAFy__________GAFy__________GG_____GG_____GAQG_____y_____GGtGGG_____y_____GG_____GA_y_____GG_Qo_______yAAyAAyAAyAAyACyAFyADyAAyAAy_____y_____yAAy_____A3_G______y_____GQo_G_____GAQGSg______y______A14_Qo_AAyAAyA22_AQGAQGtGADyA22__A24_tGGSgGA3_GAQGAQGAQG_Qo_SgQo______G_Qo_______y______y______yytAAy_____y_____G_____GGQo_SgQo_Qo__AAy_____yAAy__________y_____SgGG_AUQo______GQo_______Qo_ 7SwiftUI4ViewPAAE5alert4item7contentQrAA7BindingVyqd__SgG_AA5AlertVqd__XEts12IdentifiableRd__lFQO AcAE5sheet11isPresented9onDismissAFQrAHySbG_yycSgqd__yctAaBRd__lFQO AcAE7toolbarAFQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE24scrollEdgeEffectDisabledyQrSbFQO AA08ModifiedQ0V AcAE11safeAreaBar4edge9alignment7spacingAFQrAA08VerticalS0O_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAaBRd__lFQO AcAE011interactivenU0yQrSbFQO AA06ScrollC0V AA6VStackV AA05TupleC0V 017ContactlessReaderB015RegMediaDisplayV AA012_ConditionalQ0V A15_22RegisteringDescriptionV A15_21RegisteredDescriptionV A15_22SubscribingDescriptionV AA05EmptyC0V A15_33RegistrationNotStartedDescriptionV AA14_PaddingLayoutV AA24_BackgroundStyleModifierV AA5ColorV AA21_TraitWritingModifierV AA22LayoutPriorityTraitKeyV AA16_FlexFrameLayoutV AA18TransitionTraitKeyV AcAE0R12PocketTag_v15styleQrAA0Y16MagicPocketStyleV_tFQO AA14GeometryReaderV AcAE15dynamicTypeSizeyQrqd__SXRd__AA15DynamicTypeSizeO5BoundRtd__lFQO A15_11PrivacyLinkV s19PartialRangeThroughV A52_ AA12_FrameLayoutV AcAEA50_yQrqd__SXRd__A52_A54_RSlFQO A15_15TextButtonGlassV AA05_SafeX21RegionsIgnoringLayoutV AA0pQ7BuilderV10buildBlockyQrxAaTRzlFZQO A66_A67_yQrxAaTRzlFZQO AA0P4ItemV AA6ButtonV AA5ImageV AA31AccessibilityAttachmentModifierV AcAE22presentationBackgroundyQrqd__AA10ShapeStyleRd__lFQO A15_19TermsOfServiceSheetV AA30_EnvironmentKeyWritingModifierV A15_012RegistrationC5ModelC AA25_AppearanceActionModifierV A83_13RegisterErrorV
+- _symbolic _____y_____y_____y_____y_____y_____y_____y_____ySnySiGSi_____yAFyAByAByAByAByAByAByACyAByAByAByABy__________G_____y_____GG_____y_____yAK__________GGG_____GG_____G_____G_____G_____G_____G_____GAByAByAByAByACy_____yAByAByABy_____AZG_____GAUG_AByAByAByAByA9______y_____GGA14_y_____SgGGA11_GAUGtGGAZGA4_GA6_GA2_GGAFyA29_A29_GGGG_Qo_AUG______SgQo__Qo_G_Qo_ 7SwiftUI4ViewPAAE20scrollBounceBehavior_4axesQrAA06ScrolleF0V_AA4AxisO3SetVtFQO AA0hC0V AC017ContactlessReaderB0E12onSizeChange0M6UpdateQrySo6CGSizeV_ARtc_tFQO AcAE20accessibilityFocused_6equalsQrAA23AccessibilityFocusStateV7BindingVyqd___G_qd__tSHRd__lFQO AA15ModifiedContentV AcAE0R7Element8childrenQrAA0u5ChildF0V_tFQO AA6VStackV AA7ForEachV AA012_ConditionalZ0V AA5ImageV AA18_AspectRatioLayoutV AA11_ClipEffectV AA16RoundedRectangleV AA16_OverlayModifierV AA011StrokeShapeC0V AA8MaterialV AA05EmptyC0V AA0U18AttachmentModifierV AA12_FrameLayoutV AA14_PaddingLayoutV AA12_ScaleEffectV AA11_BlurEffectV AA14_OpacityEffectV AA13_OffsetEffectV AA05TupleC0V AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA13TextAlignmentO AA5ColorV AN0uV6RegionO
+- _symbolic _____yyp_yptG s23_ContiguousArrayStorageC
+CStrings:
++ "ContactlessReaderUI"
++ "View.task @ ContactlessReaderUI/IdentityView.swift:"
++ "initWithDictionary:"
+- "bundleForClass:"
+- "doubleForKey:"
+- "firstMatchInString:options:range:"
+- "initWithDuration:timingParameters:"
+- "initWithMass:stiffness:damping:initialVelocity:"
+- "initWithPattern:options:error:"
+- "integerForKey:"
+- "setCurrencySymbol:"
+- "setValue:forKey:"
+- "settlingDuration"
+
+```

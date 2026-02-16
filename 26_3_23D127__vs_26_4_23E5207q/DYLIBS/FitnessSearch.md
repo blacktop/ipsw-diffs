@@ -1,0 +1,194 @@
+## FitnessSearch
+
+> `/System/Library/PrivateFrameworks/FitnessSearch.framework/FitnessSearch`
+
+```diff
+
+-2026.3.2.0.0
+-  __TEXT.__text: 0x79fe0
+-  __TEXT.__auth_stubs: 0x1eb0
++2026.4.42.0.0
++  __TEXT.__text: 0x791a8
++  __TEXT.__auth_stubs: 0x1e80
+   __TEXT.__objc_methlist: 0x3cc
+-  __TEXT.__const: 0x9d88
+-  __TEXT.__cstring: 0xa86
+-  __TEXT.__swift5_typeref: 0x4aeb
+-  __TEXT.__swift5_capture: 0x544
++  __TEXT.__const: 0x9d98
++  __TEXT.__swift5_typeref: 0x4a95
++  __TEXT.__swift5_capture: 0x520
+   __TEXT.__swift5_reflstr: 0x11f2
+   __TEXT.__swift5_assocty: 0x288
+   __TEXT.__constg_swiftt: 0x17f4
+   __TEXT.__swift5_fieldmd: 0x1e54
++  __TEXT.__cstring: 0x8d6
+   __TEXT.__swift5_builtin: 0x78
+   __TEXT.__swift5_proto: 0x834
+   __TEXT.__swift5_types: 0x25c
+-  __TEXT.__oslogstring: 0x544
++  __TEXT.__oslogstring: 0x5f8
+   __TEXT.__swift_as_entry: 0x54
+   __TEXT.__swift_as_ret: 0xc0
+   __TEXT.__swift5_mpenum: 0x18
+-  __TEXT.__unwind_info: 0x1f78
+-  __TEXT.__eh_frame: 0x29e8
+-  __TEXT.__objc_classname: 0x65
+-  __TEXT.__objc_methname: 0xcd9
+-  __TEXT.__objc_methtype: 0x3fe
+-  __DATA_CONST.__got: 0x748
++  __TEXT.__unwind_info: 0x1f28
++  __TEXT.__eh_frame: 0x288c
++  __TEXT.__objc_classname: 0x8d
++  __TEXT.__objc_methname: 0xfcb
++  __TEXT.__objc_methtype: 0x497
++  __TEXT.__objc_stubs: 0x9c0
++  __DATA_CONST.__got: 0x750
+   __DATA_CONST.__const: 0xc0
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x470
+   __DATA_CONST.__objc_protorefs: 0x28
+-  __AUTH_CONST.__auth_got: 0xf58
+-  __AUTH_CONST.__const: 0x4a48
++  __AUTH_CONST.__auth_got: 0xf48
++  __AUTH_CONST.__const: 0x49f8
+   __AUTH_CONST.__objc_const: 0x498
+   __AUTH.__data: 0x2c0
+-  __DATA.__data: 0x20f0
+-  __DATA.__bss: 0xfd80
++  __DATA.__data: 0x20a0
++  __DATA.__bss: 0xfd00
+   __DATA.__common: 0x30
+-  __DATA_DIRTY.__data: 0x8f0
+-  __DATA_DIRTY.__bss: 0xa80
++  __DATA_DIRTY.__data: 0x940
++  __DATA_DIRTY.__bss: 0xb00
+   __DATA_DIRTY.__common: 0x10
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FCC00443-7D0D-34A0-9549-CF1464645B5C
+-  Functions: 2746
+-  Symbols:   1312
+-  CStrings:  319
++  UUID: DE046FC9-1082-38FD-A386-904EAACD0CA4
++  Functions: 2723
++  Symbols:   1390
++  CStrings:  318
+ 
+Symbols:
++ _block_copy_helper.23
++ _block_descriptor.25
++ _block_destroy_helper.24
++ _get_witness_table 10Foundation19AttributedStringKeyRzlAA15AttributeScopesO7SwiftUIE0G12UIAttributesV015ForegroundColorE0OAaBHPyHC.12
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA4ViewP011FitnessCoreB0E25fitnessAccessibilityScopeyQrSSd_tFQOyAeAE23scrollDismissesKeyboardyQrAA06ScrolllM4ModeVFQOyAA0nE0VyAA05TupleE0VyAA08ModifiedD0VyAPyAA6HStackVyANyAPyAPyAA4TextVAA16_FlexFrameLayoutVGAA0I18AttachmentModifierVG_AeAE18confirmationDialog_11isPresented15titleVisibility7actions7messageQrAA18LocalizedStringKeyV_AA7BindingVySbGAA10VisibilityOqd__yXEqd_0_yXEtAaDRd__AaDRd_0_r0_lFQOyAPyAeFE0hI10IdentifieryQrSSd_tFQOyAA6ButtonVyATG_Qo_AA022_EnvironmentKeyWritingX0VyAA4FontVSgGG_A14_ATQo_tGGAA08_PaddingV0VGA27_G_AA9LazyVGridVyAA7ForEachVySaySi6offset_0F6Search17SearchHistoryItemV7elementtGSSAeFEA11_yQrSSd_tFQOyA13_yAeAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQOyAPyA35_017SearchHistoryItemE0VAA016_BackgroundStyleX0VyAA5ColorVGG_AA8SolariumVAPyA51_AA11_ClipEffectVyAA16RoundedRectangleVGGA59_Qo_G_Qo_GGtGG_Qo__Qo_A49_GAaDHPqd__AaDHD2_A68_HO_A49_AaDHPyHCHC.27
++ _get_witness_table 7SwiftUI4ViewRzlqd0__AaBHD3_AaBPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAA15ModifiedContentVyAA5GroupVyAA012_ConditionalI0VyALyAA0i11UnavailableC0VyAA4TextVAA05TupleC0VyAP_APSgtGAA6ButtonVyAPGGAA08ProgressC0VyAA05EmptyC0VA0_GGxGGAA25_AppearanceActionModifierVG_SbQo_HO.8
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE10labelStyleyQrqd__AA05LabelE0Rd__lFQOyAcAE04listE0yQrqd__AA04ListE0Rd__lFQOyAA0H0Vys5NeverOAC011FitnessCoreB0E25fitnessAccessibilityScopeyQrSSd_tFQOyAA7ForEachVySay0J6Search0Q4HintVG10Foundation4UUIDVAcLE0lM10IdentifieryQrSSd_tFQOyAA15ModifiedContentVyAcAE0G12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyAYyAC011_JetEngine_aB0E14impressionable_13configuration8position20definesParentContextQr9JetEngine17ImpressionMetricsVSg_A11_21ImpressionsCalculatorC13ConfigurationVSiSgSbtFQOyAYyAA6ButtonVyAA0F0VyAA4TextVAA5ImageVGGAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGG_Qo_AA25_AlignmentWritingModifierVG_Qo_AA14_PaddingLayoutVG_Qo_G_Qo_SgG_AA05InsethE0VQo__AP0q10SuggestionfE0VQo_HO.17
++ _objc_msgSend$CGColor
++ _objc_msgSend$CGContext
++ _objc_msgSend$_preferredFontForTextStyle:variant:
++ _objc_msgSend$_setBottomPalette:
++ _objc_msgSend$_setOverrideContentInsets:forRectEdges:
++ _objc_msgSend$activateConstraints:
++ _objc_msgSend$addChildViewController:
++ _objc_msgSend$addGestureRecognizer:
++ _objc_msgSend$addSubview:
++ _objc_msgSend$addTarget:action:
++ _objc_msgSend$automaticallyShowsCancelButton
++ _objc_msgSend$backgroundImage
++ _objc_msgSend$blackColor
++ _objc_msgSend$bottomAnchor
++ _objc_msgSend$bounds
++ _objc_msgSend$bundleForClass:
++ _objc_msgSend$clearColor
++ _objc_msgSend$colorWithAlphaComponent:
++ _objc_msgSend$configureWithDefaultBackground
++ _objc_msgSend$configureWithTransparentBackground
++ _objc_msgSend$constraintEqualToAnchor:
++ _objc_msgSend$constraintGreaterThanOrEqualToAnchor:
++ _objc_msgSend$didMoveToParentViewController:
++ _objc_msgSend$directionalLayoutMargins
++ _objc_msgSend$effectWithVariableBlurRadius:imageMask:
++ _objc_msgSend$effectiveUserInterfaceLayoutDirection
++ _objc_msgSend$frame
++ _objc_msgSend$heightAnchor
++ _objc_msgSend$imageWithActions:
++ _objc_msgSend$init
++ _objc_msgSend$initWithCoder:
++ _objc_msgSend$initWithNibName:bundle:
++ _objc_msgSend$initWithRed:green:blue:alpha:
++ _objc_msgSend$initWithSearchResultsController:
++ _objc_msgSend$initWithSize:
++ _objc_msgSend$isActive
++ _objc_msgSend$isBeingPresented
++ _objc_msgSend$items
++ _objc_msgSend$layoutMarginsGuide
++ _objc_msgSend$leadingAnchor
++ _objc_msgSend$navigationBar
++ _objc_msgSend$navigationController
++ _objc_msgSend$navigationItem
++ _objc_msgSend$parentViewController
++ _objc_msgSend$searchBar
++ _objc_msgSend$searchController
++ _objc_msgSend$searchTextField
++ _objc_msgSend$setActive:
++ _objc_msgSend$setAutocorrectionType:
++ _objc_msgSend$setAutomaticallyShowsCancelButton:
++ _objc_msgSend$setBackgroundEffects:
++ _objc_msgSend$setBackgroundImage:
++ _objc_msgSend$setBackgroundImageContentMode:
++ _objc_msgSend$setContentScrollView:forEdge:
++ _objc_msgSend$setDelegate:
++ _objc_msgSend$setDirectionalLayoutMargins:
++ _objc_msgSend$setHidesSearchBarWhenScrolling:
++ _objc_msgSend$setPlaceholder:
++ _objc_msgSend$setPreferredSearchBarPlacement:
++ _objc_msgSend$setScrollEdgeAppearance:
++ _objc_msgSend$setSearchController:
++ _objc_msgSend$setShadowColor:
++ _objc_msgSend$setShowsCancelButton:animated:
++ _objc_msgSend$setShowsSearchResultsController:
++ _objc_msgSend$setStandardAppearance:
++ _objc_msgSend$setText:
++ _objc_msgSend$setTitle:
++ _objc_msgSend$setTitleView:
++ _objc_msgSend$setTranslatesAutoresizingMaskIntoConstraints:
++ _objc_msgSend$setUserInteractionEnabled:
++ _objc_msgSend$size
++ _objc_msgSend$standardAppearance
++ _objc_msgSend$systemBackgroundColor
++ _objc_msgSend$topAnchor
++ _objc_msgSend$trailingAnchor
++ _objc_msgSend$view
++ _objc_msgSend$viewControllers
++ _objc_msgSend$widthAnchor
++ _objc_retain_x26
++ _symbolic _____Sg_ABt 13FitnessSearch0B4HintV
++ _symbolic _____yAAyAAyAAy__________G_____y_____GG_____GAEySiSgGG 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA010_FlexFrameG0V
++ _symbolic _____yAAyAAy__________G_____y_____GG_____G 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA010_FlexFrameG0V
++ _symbolic _____yAAy__________G_____y_____GG 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV
+- _block_copy_helper.22
+- _block_descriptor.24
+- _block_destroy_helper.23
+- _get_witness_table 10Foundation19AttributedStringKeyRzlAA15AttributeScopesO7SwiftUIE0G12UIAttributesV015ForegroundColorE0OAaBHPyHC.15
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA4ViewP011FitnessCoreB0E25fitnessAccessibilityScopeyQrSSd_tFQOyAeAE23scrollDismissesKeyboardyQrAA06ScrolllM4ModeVFQOyAA0nE0VyAA05TupleE0VyAA08ModifiedD0VyAPyAA6HStackVyANyAPyAPyAA4TextVAA16_FlexFrameLayoutVGAA0I18AttachmentModifierVG_AeAE18confirmationDialog_11isPresented15titleVisibility7actions7messageQrAA18LocalizedStringKeyV_AA7BindingVySbGAA10VisibilityOqd__yXEqd_0_yXEtAaDRd__AaDRd_0_r0_lFQOyAPyAeFE0hI10IdentifieryQrSSd_tFQOyAA6ButtonVyATG_Qo_AA022_EnvironmentKeyWritingX0VyAA4FontVSgGG_A14_ATQo_tGGAA08_PaddingV0VGA27_G_AA9LazyVGridVyAA7ForEachVySaySi6offset_0F6Search17SearchHistoryItemV7elementtGSSAeFEA11_yQrSSd_tFQOyA13_yAeAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQOyAPyA35_017SearchHistoryItemE0VAA016_BackgroundStyleX0VyAA5ColorVGG_AA8SolariumVAPyA51_AA11_ClipEffectVyAA16RoundedRectangleVGGA59_Qo_G_Qo_GGtGG_Qo__Qo_A49_GAaDHPqd__AaDHD2_A68_HO_A49_AaDHPyHCHC.25
+- _get_witness_table 7SwiftUI4ViewRzlqd0__AaBHD3_AaBPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAA15ModifiedContentVyAA5GroupVyAA012_ConditionalI0VyALyAA0i11UnavailableC0VyAA4TextVAA05TupleC0VyAP_APSgtGAA6ButtonVyAPGGAA08ProgressC0VyAA05EmptyC0VA0_GGxGGAA25_AppearanceActionModifierVG_SbQo_HO.19
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE10labelStyleyQrqd__AA05LabelE0Rd__lFQOyAcAE04listE0yQrqd__AA04ListE0Rd__lFQOyAA0H0Vys5NeverOAC011FitnessCoreB0E25fitnessAccessibilityScopeyQrSSd_tFQOyAA7ForEachVySay0J6Search0Q4HintVG10Foundation4UUIDVAcLE0lM10IdentifieryQrSSd_tFQOyAA15ModifiedContentVyAcAE0G12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyAYyAC011_JetEngine_aB0E14impressionable_13configuration8position20definesParentContextQr9JetEngine17ImpressionMetricsVSg_A11_21ImpressionsCalculatorC13ConfigurationVSiSgSbtFQOyAYyAA6ButtonVyAA0F0VyAA4TextVAA5ImageVGGAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGG_Qo_AA25_AlignmentWritingModifierVG_Qo_AA14_PaddingLayoutVG_Qo_G_Qo_SgG_AA05InsethE0VQo__AP0q10SuggestionfE0VQo_HO.19
+- _objc_retain_x22
+- _objectdestroy.13Tm
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI4EdgeO3SetV
+- _symbolic _____y______Qo_ 7SwiftUI4ViewP011_JetEngine_aB0E14impressionable_13configuration8position20definesParentContextQr0dE017ImpressionMetricsVSg_AI21ImpressionsCalculatorC13ConfigurationVSiSgSbtFQO 13FitnessSearch0R12FilterPickerV
+- _symbolic _____y_____y_____G_Qo_ 7SwiftUI4ViewP011FitnessCoreB0E30fitnessAccessibilityIdentifieryQrSSd_tFQO AA6ButtonV AA4TextV
+- _symbolic _____y_____y_____yAAy_____y_____y__________GG_____y_____SgGG_Qo______G_Qo_ 7SwiftUI4ViewPAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA15ModifiedContentV AC011_JetEngine_aB0E14impressionable_13configuration8position20definesParentContextQr0nO017ImpressionMetricsVSg_AS21ImpressionsCalculatorC13ConfigurationVSiSgSbtFQO AA6ButtonV AA5LabelV AA4TextV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA25_AlignmentWritingModifierV
+- _symbolic _____y_____y_____y_____y_____yACyACyACy_____y___________y_____GQo______GAIG_____G_____y__________GGG_____G_Qo_______Qo_ 7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQO AC011_JetEngine_aB0E14impressionable_13configuration8position20definesParentContextQr0hI017ImpressionMetricsVSg_AK21ImpressionsCalculatorC13ConfigurationVSiSgSbtFQO AA6IDViewV AA0G0V AA15ModifiedContentV AcAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicyZ0O5BoundRtd__lFQO AA4TextV s19PartialRangeThroughV A0_ AA14_PaddingLayoutV AA16_FlexFrameLayoutV AA22_AnchorWritingModifierV So6CGRectV 13FitnessSearch18SearchScopeFiltersV9AnchorKey33_BABB08EF8BA6BE7E5973579C505230E3LLV A15_17SearchResultScopeV AA05PlaingE0V
+CStrings:
++ "[SearchController] searchBarSearchButtonClicked text:%s"
++ "[Text] Changed [%{private,mask.hash}s]: isDuplicate=%{bool}d isSuggestionTerm=%{bool}d isFetching=%{bool}d"
+
+```

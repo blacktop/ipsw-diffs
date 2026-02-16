@@ -1,0 +1,2911 @@
+## VoiceServices
+
+> `/System/Library/PrivateFrameworks/VoiceServices.framework/VoiceServices`
+
+```diff
+
+-3500.5.1.0.0
+-  __TEXT.__text: 0x3fa18
+-  __TEXT.__auth_stubs: 0x1660
+-  __TEXT.__objc_methlist: 0x42ec
+-  __TEXT.__const: 0x668
+-  __TEXT.__dlopen_cstrs: 0x110
+-  __TEXT.__gcc_except_tab: 0xba4
+-  __TEXT.__cstring: 0x31ae
+-  __TEXT.__oslogstring: 0x3209
+-  __TEXT.__unwind_info: 0x1130
+-  __TEXT.__objc_classname: 0x63c
+-  __TEXT.__objc_methname: 0xa3a7
+-  __TEXT.__objc_methtype: 0x1f00
+-  __TEXT.__objc_stubs: 0x7ac0
+-  __DATA_CONST.__got: 0x450
+-  __DATA_CONST.__const: 0xee0
+-  __DATA_CONST.__objc_classlist: 0x1b8
+-  __DATA_CONST.__objc_catlist: 0x28
+-  __DATA_CONST.__objc_protolist: 0x68
++3520.7.1.0.0
++  __TEXT.__text: 0x22bf0
++  __TEXT.__auth_stubs: 0x1230
++  __TEXT.__objc_methlist: 0x27c8
++  __TEXT.__dlopen_cstrs: 0x56
++  __TEXT.__const: 0x1e8
++  __TEXT.__gcc_except_tab: 0x2f0
++  __TEXT.__cstring: 0x1f94
++  __TEXT.__oslogstring: 0x138a
++  __TEXT.__unwind_info: 0xa58
++  __TEXT.__objc_classname: 0x3f8
++  __TEXT.__objc_methname: 0x65fb
++  __TEXT.__objc_methtype: 0xde7
++  __TEXT.__objc_stubs: 0x4fe0
++  __DATA_CONST.__got: 0x378
++  __DATA_CONST.__const: 0x6c0
++  __DATA_CONST.__objc_classlist: 0x128
++  __DATA_CONST.__objc_catlist: 0x18
++  __DATA_CONST.__objc_protolist: 0x38
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x2b90
+-  __DATA_CONST.__objc_protorefs: 0x30
+-  __DATA_CONST.__objc_superrefs: 0x160
+-  __DATA_CONST.__objc_arraydata: 0x508
+-  __AUTH_CONST.__auth_got: 0xb48
+-  __AUTH_CONST.__const: 0x9c0
+-  __AUTH_CONST.__cfstring: 0x41a0
+-  __AUTH_CONST.__objc_const: 0x6150
+-  __AUTH_CONST.__objc_arrayobj: 0x210
+-  __AUTH_CONST.__objc_intobj: 0x90
+-  __AUTH_CONST.__objc_doubleobj: 0x410
+-  __AUTH_CONST.__objc_dictobj: 0x28
+-  __DATA.__objc_ivar: 0x4c0
+-  __DATA.__data: 0x5e8
+-  __DATA.__bss: 0x108
+-  __DATA_DIRTY.__objc_data: 0x1130
++  __DATA_CONST.__objc_selrefs: 0x1cc0
++  __DATA_CONST.__objc_protorefs: 0x18
++  __DATA_CONST.__objc_superrefs: 0x100
++  __DATA_CONST.__objc_arraydata: 0x128
++  __AUTH_CONST.__auth_got: 0x930
++  __AUTH_CONST.__const: 0x4c0
++  __AUTH_CONST.__cfstring: 0x2f00
++  __AUTH_CONST.__objc_const: 0x3d80
++  __AUTH_CONST.__objc_arrayobj: 0x60
++  __AUTH_CONST.__objc_intobj: 0xc0
++  __DATA.__objc_ivar: 0x310
++  __DATA.__data: 0x3a0
++  __DATA.__bss: 0xd8
++  __DATA_DIRTY.__objc_data: 0xb90
+   __DATA_DIRTY.__data: 0xa0
+-  __DATA_DIRTY.__bss: 0x120
++  __DATA_DIRTY.__bss: 0xf0
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+
+   - /System/Library/PrivateFrameworks/AppSupport.framework/AppSupport
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /System/Library/PrivateFrameworks/MobileAsset.framework/MobileAsset
+-  - /System/Library/PrivateFrameworks/SiriAnalytics.framework/SiriAnalytics
+-  - /System/Library/PrivateFrameworks/SiriInstrumentation.framework/SiriInstrumentation
+   - /System/Library/PrivateFrameworks/SiriTTS.framework/SiriTTS
+   - /System/Library/PrivateFrameworks/SiriTTSService.framework/SiriTTSService
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+-  - /System/Library/PrivateFrameworks/Trial.framework/Trial
+-  - /System/Library/PrivateFrameworks/UnifiedAssetFramework.framework/UnifiedAssetFramework
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7B646D87-5DC8-3104-890B-D4B805CD83B1
+-  Functions: 1711
+-  Symbols:   5898
+-  CStrings:  3554
++  UUID: 668618D8-2624-360F-911C-CC400B525249
++  Functions: 1023
++  Symbols:   3644
++  CStrings:  2293
+ 
+Symbols:
++ GCC_except_table1007
++ GCC_except_table1008
++ GCC_except_table1009
++ GCC_except_table1010
++ GCC_except_table1011
++ GCC_except_table1012
++ GCC_except_table1013
++ GCC_except_table144
++ GCC_except_table149
++ GCC_except_table416
++ GCC_except_table570
++ GCC_except_table577
++ GCC_except_table877
++ GCC_except_table936
++ GCC_except_table966
++ _OBJC_CLASS_$_TTSAsset
++ _OBJC_CLASS_$_TTSAssetSource
++ _OBJC_CLASS_$_TTSAssetType
++ __OBJC_$_CATEGORY_INSTANCE_METHODS_NSString_$_VSSpeechService
++ __OBJC_$_CLASS_METHODS_NSString(VSSpeechService|VS4CC)
++ __OBJC_$_CLASS_METHODS_VSVoiceResourceAsset
++ ___57+[VSMobileAssetsManager pickCorrectAssetFromLocalAssets:]_block_invoke.499
++ ___Block_byref_object_copy_.2009
++ ___Block_byref_object_dispose_.2010
++ ___block_descriptor_40_e8_32o_e5_v8?0ls32l8
++ ___block_descriptor_48_e8_32s40r_e5_v8?0ls32l8r40l8
++ ___block_descriptor_56_e8_32o40o48o_e5_v8?0ls32l8s40l8s48l8
++ ___block_literal_global.1012
++ ___block_literal_global.106
++ ___block_literal_global.1457
++ ___block_literal_global.147
++ ___block_literal_global.2029
++ ___block_literal_global.2071
++ ___block_literal_global.2263
++ ___block_literal_global.278
++ ___block_literal_global.437
++ ___block_literal_global.456
++ ___block_literal_global.458
++ ___block_literal_global.466
++ ___block_literal_global.495
++ ___block_literal_global.497
++ ___block_literal_global.502
++ ___block_literal_global.514
++ ___block_literal_global.56
++ ___block_literal_global.649
++ ___kCFBooleanTrue
++ _objc_msgSend$listAssetsOfTypes:matching:
++ _objc_msgSend$mobileAsset
++ _objc_msgSend$stringValue
++ _objc_msgSend$supportedLanguages
++ _objc_msgSend$versionNumber
++ _objc_msgSend$voiceResources
++ _objc_retain_x28
++ _objc_unsafeClaimAutoreleasedReturnValue
++ _sharedInstance.onceToken.2028
+- +[NSAttributedString(VSSpeechAdditions) attributedStringWithFormatAndAttributes:]
+- +[VSAnalytics reportDownloadMetrics:]
+- +[VSAnalytics reportEvent:payload:]
+- +[VSAnalytics reportInstrumentMetrics:]
+- +[VSDownloadMetrics _clockFactor]
+- +[VSFeatureFlags isLowPowerDeviceNeuralEnabled]
+- +[VSFeatureFlags isTrialEnabled]
+- +[VSFeatureFlags useSiriTTSServiceV2]
+- +[VSFeatureFlags useSiriTTSService]
+- +[VSGenericUpdateEndpoint configuredEndpointWithUpdateHandler:withConnection:]
+- +[VSGenericUpdateEndpoint remoteUpdateHanderForEndpoint:]
+- +[VSGenericUpdateEndpoint supportsSecureCoding]
+- +[VSLocalizedString appendRandomizationKey:withCount:]
+- +[VSLocalizedString localizedInterstitialStringForKey:language:]
+- +[VSLocalizedString localizedOOBStringForKey:language:]
+- +[VSLocalizedString localizedOOBStringForKey:language:gender:]
+- +[VSLocalizedString localizedStringForKey:language:table:]
+- +[VSLocalizedString predefinedStringForKey:language:table:]
+- +[VSPhonemeTool generateTTSPhonemes:voicePath:phonemeSystem:error:]
+- +[VSPreferencesInterface dictionaryRepresentationOfVoices:]
+- +[VSSpeechEngine hasPhaticResponses:]
+- +[VSSpeechEngine isUserCancelError:]
+- +[VSSpeechEngine mimeForFileExtension:]
+- +[VSSpeechSynthesizer errorWithReason:]
+- +[VSSpeechSynthesizer playVoicePreviewForLanguageCode:voiceName:previewType:completion:]
+- +[VSSpeechSynthesizer stopPlayingVoicePreview]
+- +[VSSpeechSynthesizer validateAudioCachingRequest:]
+- +[VSSpeechSynthesizer validateAudioRequest:]
+- +[VSSpeechSynthesizer validateRequest:]
+- +[VSSpeechSynthesizerPreference availableLanguages]
+- +[VSSpeechSynthesizerPreference fallbackLanguageForLanguage:]
+- +[VSSpeechWordTimingInfo adjustWordTimingInfo:forContext:]
+- +[VSSpeechWordTimingInfo extraBytesFromUTF8ToUTF16With:totalLength:begin:end:]
+- +[VSSpeechWordTimingInfo utf16TimingInfoWithUTF8Range:withText:]
+- +[VSSpeechWordTimingInfo wordTimingInfoFrom:timestamps:]
+- +[VSTrialService defaultDownloadOptions]
+- +[VSTrialService sharedService]
+- +[VSTrialService versionFactorNameWithFactorName:]
+- +[VSVoiceResourceAsset(Trial) resourceFromTrial:]
+- -[NSMutableAttributedString(VSSpeechAdditions) appendString:withAttributes:]
+- -[NSString(Hash) preinstalledAudioHashForLanguage:name:]
+- -[NSString(Hash) sha256hex]
+- -[NSString(VSSpeechService) vs_convertToSSML]
+- -[NSString(VSSpeechService) vs_hasCJKCharacter]
+- -[NSString(VSSpeechService) vs_insertContextInfo:]
+- -[NSString(VSSpeechService) vs_substituteAudioWithLocalPath]
+- -[VSAudioData .cxx_destruct]
+- -[VSAudioData asbd]
+- -[VSAudioData audioData]
+- -[VSAudioData concatenateWithAudio:]
+- -[VSAudioData duration]
+- -[VSAudioData init]
+- -[VSAudioData mutableAudioData]
+- -[VSAudioData mutableDescription]
+- -[VSAudioData packetCount]
+- -[VSAudioData packetDescriptions]
+- -[VSAudioData setAsbd:]
+- -[VSAudioData setAudioData:]
+- -[VSAudioData setMutableAudioData:]
+- -[VSAudioData setMutableDescription:]
+- -[VSAudioData setPacketCount:]
+- -[VSAudioData setPacketDescriptions:]
+- -[VSAudioData totalFrames]
+- -[VSDownloadMetrics .cxx_destruct]
+- -[VSDownloadMetrics clientBundleIdentifier]
+- -[VSDownloadMetrics description]
+- -[VSDownloadMetrics dictionaryMetrics]
+- -[VSDownloadMetrics discretionary]
+- -[VSDownloadMetrics downloadBeginTimestamp]
+- -[VSDownloadMetrics downloadDuration]
+- -[VSDownloadMetrics downloadEndTimestamp]
+- -[VSDownloadMetrics downloadProgress]
+- -[VSDownloadMetrics downloadSize]
+- -[VSDownloadMetrics endMetrics]
+- -[VSDownloadMetrics errorCode]
+- -[VSDownloadMetrics initWithVoiceName:languageCode:gender:]
+- -[VSDownloadMetrics isCellularAllowed]
+- -[VSDownloadMetrics setClientBundleIdentifier:]
+- -[VSDownloadMetrics setDiscretionary:]
+- -[VSDownloadMetrics setDownloadProgress:]
+- -[VSDownloadMetrics setDownloadSize:]
+- -[VSDownloadMetrics setErrorCode:]
+- -[VSDownloadMetrics setIsCellularAllowed:]
+- -[VSDownloadMetrics setSetupTimeInterval:]
+- -[VSDownloadMetrics setupTimeInterval]
+- -[VSDownloadMetrics voiceDownloadKey]
+- -[VSDurationRequest .cxx_destruct]
+- -[VSDurationRequest completion]
+- -[VSDurationRequest setCompletion:]
+- -[VSFormatArgument dealloc]
+- -[VSGenericBlockHolder .cxx_destruct]
+- -[VSGenericBlockHolder initWithBlock:]
+- -[VSGenericBlockHolder invokeUpdateWithObject:]
+- -[VSGenericUpdateEndpoint .cxx_destruct]
+- -[VSGenericUpdateEndpoint dealloc]
+- -[VSGenericUpdateEndpoint encodeWithCoder:]
+- -[VSGenericUpdateEndpoint endpoint]
+- -[VSGenericUpdateEndpoint handler]
+- -[VSGenericUpdateEndpoint initWithCoder:]
+- -[VSGenericUpdateEndpoint invalidate]
+- -[VSGenericUpdateEndpoint listener:shouldAcceptNewConnection:]
+- -[VSGenericUpdateEndpoint listener]
+- -[VSGenericUpdateEndpoint queue]
+- -[VSGenericUpdateEndpoint setEndpoint:]
+- -[VSGenericUpdateEndpoint setHandler:]
+- -[VSGenericUpdateEndpoint setListener:]
+- -[VSGenericUpdateEndpoint setQueue:]
+- -[VSMappedData .cxx_destruct]
+- -[VSMappedData _appendToFallbackMemory:]
+- -[VSMappedData _appendToMappedMemory:]
+- -[VSMappedData _convertToFallbackMemory]
+- -[VSMappedData appendData:]
+- -[VSMappedData bytesAtOffset:]
+- -[VSMappedData dealloc]
+- -[VSMappedData fallbackInMemoryData]
+- -[VSMappedData filePath]
+- -[VSMappedData initWithFilePath:initialSize:]
+- -[VSMappedData init]
+- -[VSMappedData mappedLength]
+- -[VSMappedData mmappedData]
+- -[VSMappedData setFallbackInMemoryData:]
+- -[VSMappedData setFilePath:]
+- -[VSMappedData setMappedLength:]
+- -[VSMappedData setMmappedData:]
+- -[VSMappedData setShouldCleanFile:]
+- -[VSMappedData setTotalLength:]
+- -[VSMappedData shouldCleanFile]
+- -[VSMappedData totalLength]
+- -[VSMobileAssetsManager _mobileAssetVoiceResourceWithLanguage:]
+- -[VSMobileAssetsManager _removeTrialVoices:completion:]
+- -[VSMobileAssetsManager _trialVoiceResourceWithLanguage:]
+- -[VSMobileAssetsManager _trialVoiceWithLanguage:name:type:footprint:]
+- -[VSMobileAssetsManager activeVoiceAssets]
+- -[VSMobileAssetsManager cancelDownload:completion:]
+- -[VSMobileAssetsManager cancelDownloads:completion:]
+- -[VSMobileAssetsManager candidateToDownloadForVoice:]
+- -[VSMobileAssetsManager cleanMobileAssetVoiceResourcesWithActiveLanguages:]
+- -[VSMobileAssetsManager cleanOldMobileAssetVoiceResources]
+- -[VSMobileAssetsManager cleanUnusedAssets]
+- -[VSMobileAssetsManager definedVoicesForLanguage:voiceName:type:footprint:]
+- -[VSMobileAssetsManager downloadTrialVoiceResource:options:completion:]
+- -[VSMobileAssetsManager downloadVoiceAsset:useBattery:progressUpdateHandler:]
+- -[VSMobileAssetsManager downloadVoiceResource:completion:]
+- -[VSMobileAssetsManager downloadVoiceResource:options:completion:]
+- -[VSMobileAssetsManager downloadVoiceResourceCatalogWithCompletion:]
+- -[VSMobileAssetsManager inactiveVoiceAssets]
+- -[VSMobileAssetsManager installedTrialVoiceResources]
+- -[VSMobileAssetsManager installedTrialVoicesForType:voiceName:language:footprint:]
+- -[VSMobileAssetsManager migrateAssetIfNeededWithAssetType:]
+- -[VSMobileAssetsManager migrateAssetsWithProgress:]
+- -[VSMobileAssetsManager preferredDownloadForVoice:]
+- -[VSMobileAssetsManager removeTrialVoice:completion:]
+- -[VSMobileAssetsManager removeTrialVoiceResource:completion:]
+- -[VSMobileAssetsManager resetCache]
+- -[VSMobileAssetsManager resetResourcesCache]
+- -[VSMobileAssetsManager selectVoiceResourceAssetForLanguage:]
+- -[VSMobileAssetsManager setTrialService:]
+- -[VSMobileAssetsManager shouldDownloadTrialResource:]
+- -[VSMobileAssetsManager shouldDownloadTrialVoice:]
+- -[VSMobileAssetsManager trialService]
+- -[VSMobileAssetsManager voiceAssetsForSubscription:]
+- -[VSPreferencesInterface OOBNeedsToBeMeasured]
+- -[VSPreferencesInterface OOBTriggeredDate]
+- -[VSPreferencesInterface dealloc]
+- -[VSPreferencesInterface deviceUUID]
+- -[VSPreferencesInterface lastTTSRequestDate]
+- -[VSPreferencesInterface lock]
+- -[VSPreferencesInterface migrateDefaults]
+- -[VSPreferencesInterface removeSubscriptionsForAccessory:]
+- -[VSPreferencesInterface setLastTTSRequestDate:]
+- -[VSPreferencesInterface setLock:]
+- -[VSPreferencesInterface setOOBNeedsToBeMeasured:]
+- -[VSPreferencesInterface setOOBTriggeredDate:]
+- -[VSPreferencesInterface setSubscribedVoices:forClientID:accessoryID:]
+- -[VSSpeechConnection .cxx_destruct]
+- -[VSSpeechConnection _connectionInvalidated]
+- -[VSSpeechConnection _remoteObjectSync]
+- -[VSSpeechConnection _remoteObjectWithErrorHandler:]
+- -[VSSpeechConnection _remoteObject]
+- -[VSSpeechConnection availableFootprintsForVoice:languageCode:]
+- -[VSSpeechConnection availableVoicesForLanguageCode:]
+- -[VSSpeechConnection beginAudioPowerUpdateWithReply:]
+- -[VSSpeechConnection cachePresynthesizedAudioRequest:]
+- -[VSSpeechConnection cleanUnusedAssets:]
+- -[VSSpeechConnection continueSpeechRequest:]
+- -[VSSpeechConnection currentAudioRequest]
+- -[VSSpeechConnection currentRequest]
+- -[VSSpeechConnection dealloc]
+- -[VSSpeechConnection delegateWrapper]
+- -[VSSpeechConnection delegate]
+- -[VSSpeechConnection endAudioPowerUpdate]
+- -[VSSpeechConnection estimateDurationWithRequest:reply:]
+- -[VSSpeechConnection forwardStreamObject:]
+- -[VSSpeechConnection getAllVoiceSubscriptionsWithReply:]
+- -[VSSpeechConnection getLocalVoiceAssetsForLanguage:reply:]
+- -[VSSpeechConnection getLocalVoiceResources:]
+- -[VSSpeechConnection getSubscribedVoiceAssetsWithClientID:forAccessoryID:reply:]
+- -[VSSpeechConnection getVoiceInfoForLanguageCode:name:footprint:gender:type:reply:]
+- -[VSSpeechConnection getVoiceResourceForLanguage:reply:]
+- -[VSSpeechConnection identifier]
+- -[VSSpeechConnection init]
+- -[VSSpeechConnection invokeDaemon:]
+- -[VSSpeechConnection isSystemSpeakingOnBehalfOfCurrentConnection]
+- -[VSSpeechConnection isSystemSpeaking]
+- -[VSSpeechConnection keepActive]
+- -[VSSpeechConnection killDaemon]
+- -[VSSpeechConnection pauseSpeechRequest:atMark:]
+- -[VSSpeechConnection prewarmIfNeededWithRequest:reply:]
+- -[VSSpeechConnection queryPhaticCapabilityWithRequest:]
+- -[VSSpeechConnection setDelegate:]
+- -[VSSpeechConnection setDelegateWrapper:]
+- -[VSSpeechConnection setIdentifier:]
+- -[VSSpeechConnection setKeepActive:]
+- -[VSSpeechConnection setSubscribedVoiceAssets:withClientID:forAccessoryID:]
+- -[VSSpeechConnection setThreadSafeQueue:]
+- -[VSSpeechConnection setXpcConnection:]
+- -[VSSpeechConnection startPhonemesRequest:phonemeSystem:reply:]
+- -[VSSpeechConnection startPresynthesizedAudioRequest:]
+- -[VSSpeechConnection startSpeechRequest:]
+- -[VSSpeechConnection startSynthesisRequest:]
+- -[VSSpeechConnection stopPresynthesizedAudioRequest:]
+- -[VSSpeechConnection stopSpeechRequest:atMark:]
+- -[VSSpeechConnection threadSafeQueue]
+- -[VSSpeechConnection triggerCellularDownloadedVoiceAssets:withClientID:]
+- -[VSSpeechConnection updateWithConnectionIdentifier:keepActive:]
+- -[VSSpeechConnection xpcConnection]
+- -[VSSpeechConnectionDelegateWrapper .cxx_destruct]
+- -[VSSpeechConnectionDelegateWrapper audioRequest:didReportInstrumentMetrics:error:]
+- -[VSSpeechConnectionDelegateWrapper audioRequest:didStopAtEnd:error:]
+- -[VSSpeechConnectionDelegateWrapper audioRequestDidStart:]
+- -[VSSpeechConnectionDelegateWrapper audioRequests]
+- -[VSSpeechConnectionDelegateWrapper concurrentSynthesisRequests]
+- -[VSSpeechConnectionDelegateWrapper connection]
+- -[VSSpeechConnectionDelegateWrapper currentAudioRequest]
+- -[VSSpeechConnectionDelegateWrapper currentRequest]
+- -[VSSpeechConnectionDelegateWrapper delegate]
+- -[VSSpeechConnectionDelegateWrapper getLocalAudioRequest:]
+- -[VSSpeechConnectionDelegateWrapper getLocalRequest:]
+- -[VSSpeechConnectionDelegateWrapper init]
+- -[VSSpeechConnectionDelegateWrapper requests]
+- -[VSSpeechConnectionDelegateWrapper setAudioRequests:]
+- -[VSSpeechConnectionDelegateWrapper setConcurrentSynthesisRequests:]
+- -[VSSpeechConnectionDelegateWrapper setConnection:]
+- -[VSSpeechConnectionDelegateWrapper setCurrentAudioRequest:]
+- -[VSSpeechConnectionDelegateWrapper setCurrentRequest:]
+- -[VSSpeechConnectionDelegateWrapper setDelegate:]
+- -[VSSpeechConnectionDelegateWrapper setRequests:]
+- -[VSSpeechConnectionDelegateWrapper speechRequest:didReceiveTimingInfo:]
+- -[VSSpeechConnectionDelegateWrapper speechRequest:didReportInstrumentMetrics:]
+- -[VSSpeechConnectionDelegateWrapper speechRequest:didStartWithMark:forRange:]
+- -[VSSpeechConnectionDelegateWrapper speechRequest:didStopWithSuccess:phonemesSpoken:error:]
+- -[VSSpeechConnectionDelegateWrapper speechRequestDidContinue:]
+- -[VSSpeechConnectionDelegateWrapper speechRequestDidPause:]
+- -[VSSpeechConnectionDelegateWrapper speechRequestDidStart:]
+- -[VSSpeechConnectionDelegateWrapper synthesisRequest:didFinishWithInstrumentMetrics:error:]
+- -[VSSpeechConnectionDelegateWrapper synthesisRequest:didGenerateAudioChunk:]
+- -[VSSpeechConnectionDelegateWrapper synthesisRequest:didReceiveTimingInfo:]
+- -[VSSpeechEngine .cxx_destruct]
+- -[VSSpeechEngine asbd]
+- -[VSSpeechEngine currentCallbackResult]
+- -[VSSpeechEngine dealloc]
+- -[VSSpeechEngine initWithVoicePath:resourcePath:]
+- -[VSSpeechEngine initializeWithResourcePath:]
+- -[VSSpeechEngine loadResource:error:]
+- -[VSSpeechEngine loadResourceAtPath:mimeType:error:]
+- -[VSSpeechEngine pcmBufferSize]
+- -[VSSpeechEngine pitch]
+- -[VSSpeechEngine powerProfile]
+- -[VSSpeechEngine preheat]
+- -[VSSpeechEngine rate]
+- -[VSSpeechEngine setCurrentCallbackResult:]
+- -[VSSpeechEngine setPcmBufferSize:]
+- -[VSSpeechEngine setPitch:]
+- -[VSSpeechEngine setPowerProfile:]
+- -[VSSpeechEngine setRate:]
+- -[VSSpeechEngine setSynthesisLock:]
+- -[VSSpeechEngine setSynthesizer:]
+- -[VSSpeechEngine setVoicePath:]
+- -[VSSpeechEngine setVolume:]
+- -[VSSpeechEngine stopAtMarker:]
+- -[VSSpeechEngine synthesisLock]
+- -[VSSpeechEngine synthesizeText:loggable:callback:]
+- -[VSSpeechEngine synthesizer]
+- -[VSSpeechEngine unloadResource:]
+- -[VSSpeechEngine voicePath]
+- -[VSSpeechEngine volume]
+- -[VSSpeechEngineVoiceResource .cxx_construct]
+- -[VSSpeechEngineVoiceResource .cxx_destruct]
+- -[VSSpeechEngineVoiceResource resource]
+- -[VSSpeechEngineVoiceResource setResource:]
+- -[VSSpeechRequest attributedText]
+- -[VSSpeechRequest setAttributedText:]
+- -[VSSpeechSynthesisCallbackResult .cxx_construct]
+- -[VSSpeechSynthesisCallbackResult .cxx_destruct]
+- -[VSSpeechSynthesisCallbackResult asbd]
+- -[VSSpeechSynthesisCallbackResult callback]
+- -[VSSpeechSynthesisCallbackResult error]
+- -[VSSpeechSynthesisCallbackResult hasAlignmentStall]
+- -[VSSpeechSynthesisCallbackResult hasAudioClick]
+- -[VSSpeechSynthesisCallbackResult initWithCallback:]
+- -[VSSpeechSynthesisCallbackResult lastUTF16Offset]
+- -[VSSpeechSynthesisCallbackResult lastUTF8Offset]
+- -[VSSpeechSynthesisCallbackResult markerBuffer]
+- -[VSSpeechSynthesisCallbackResult mutablePCMData]
+- -[VSSpeechSynthesisCallbackResult neuralDidFallback]
+- -[VSSpeechSynthesisCallbackResult numOfPromptsTriggered]
+- -[VSSpeechSynthesisCallbackResult pcmData]
+- -[VSSpeechSynthesisCallbackResult phonemeBuffer]
+- -[VSSpeechSynthesisCallbackResult phonemes]
+- -[VSSpeechSynthesisCallbackResult processMarkerBuffer]
+- -[VSSpeechSynthesisCallbackResult sampleBuffer]
+- -[VSSpeechSynthesisCallbackResult samplesProcessed]
+- -[VSSpeechSynthesisCallbackResult setAsbd:]
+- -[VSSpeechSynthesisCallbackResult setCallback:]
+- -[VSSpeechSynthesisCallbackResult setError:]
+- -[VSSpeechSynthesisCallbackResult setHasAlignmentStall:]
+- -[VSSpeechSynthesisCallbackResult setHasAudioClick:]
+- -[VSSpeechSynthesisCallbackResult setLastUTF16Offset:]
+- -[VSSpeechSynthesisCallbackResult setLastUTF8Offset:]
+- -[VSSpeechSynthesisCallbackResult setNeuralDidFallback:]
+- -[VSSpeechSynthesisCallbackResult setNumOfPromptsTriggered:]
+- -[VSSpeechSynthesisCallbackResult setSamplesProcessed:]
+- -[VSSpeechSynthesisCallbackResult setState:]
+- -[VSSpeechSynthesisCallbackResult setStopMark:]
+- -[VSSpeechSynthesisCallbackResult setText:]
+- -[VSSpeechSynthesisCallbackResult setWordTimings:]
+- -[VSSpeechSynthesisCallbackResult state]
+- -[VSSpeechSynthesisCallbackResult stopMark]
+- -[VSSpeechSynthesisCallbackResult synthesisCallback:]
+- -[VSSpeechSynthesisCallbackResult text]
+- -[VSSpeechSynthesisCallbackResult utf16OffsetFromUTF8:]
+- -[VSSpeechSynthesisCallbackResult utf8BytesForChar:]
+- -[VSSpeechSynthesisCallbackResult wordTimingInfos]
+- -[VSSpeechSynthesisCallbackResult wordTimings]
+- -[VSSpeechSynthesizer STS_cancelAudioRequest:]
+- -[VSSpeechSynthesizer STS_cancelRequest:]
+- -[VSSpeechSynthesizer STS_estimateDurationOfRequest:completion:]
+- -[VSSpeechSynthesizer STS_getSynthesisVoiceMatching:reply:]
+- -[VSSpeechSynthesizer STS_queryPhaticCapabilityWithRequest:reply:]
+- -[VSSpeechSynthesizer STS_subscribeVoices:]
+- -[VSSpeechSynthesizer STS_subscribedVoices:]
+- -[VSSpeechSynthesizer STS_subscribedVoicesWithClientID:reply:]
+- -[VSSpeechSynthesizer STS_textToPhonemesWithRequest:phonemeSystem:completion:]
+- -[VSSpeechSynthesizer _continueSpeakingRequest]
+- -[VSSpeechSynthesizer _pauseSpeakingRequestAtNextBoundary:synchronously:]
+- -[VSSpeechSynthesizer _stopSpeakingPresynthesizedAudioRequest:synchronously:]
+- -[VSSpeechSynthesizer _stopSpeakingRequest:atNextBoundary:synchronously:]
+- -[VSSpeechSynthesizer accessoryID]
+- -[VSSpeechSynthesizer audioPowerUpdaterQueue]
+- -[VSSpeechSynthesizer audioPowerUpdater]
+- -[VSSpeechSynthesizer availableFootprintsForVoice:languageCode:]
+- -[VSSpeechSynthesizer availableLanguageCodes]
+- -[VSSpeechSynthesizer beginAudioPowerUpdateWithReply:]
+- -[VSSpeechSynthesizer cachePresynthesizedAudioRequest:]
+- -[VSSpeechSynthesizer cancelAudioRequest:]
+- -[VSSpeechSynthesizer cancelRequest:]
+- -[VSSpeechSynthesizer cleanUnusedAssets:]
+- -[VSSpeechSynthesizer connection:invalidatedWithError:]
+- -[VSSpeechSynthesizer connection:presynthesizedAudioRequest:didStopAtEnd:error:]
+- -[VSSpeechSynthesizer connection:presynthesizedAudioRequest:successWithInstrumentMetrics:error:]
+- -[VSSpeechSynthesizer connection:presynthesizedAudioRequestDidStart:]
+- -[VSSpeechSynthesizer connection:speechRequest:didGenerateAudioChunk:]
+- -[VSSpeechSynthesizer connection:speechRequest:didReceiveTimingInfo:]
+- -[VSSpeechSynthesizer connection:speechRequest:didStopAtEnd:phonemesSpoken:error:]
+- -[VSSpeechSynthesizer connection:speechRequest:successWithInstrumentMetrics:]
+- -[VSSpeechSynthesizer connection:speechRequest:willSpeakMark:inRange:]
+- -[VSSpeechSynthesizer connection:speechRequestDidContinue:]
+- -[VSSpeechSynthesizer connection:speechRequestDidPause:]
+- -[VSSpeechSynthesizer connection:speechRequestDidStart:]
+- -[VSSpeechSynthesizer connection:synthesisRequest:didFinishWithInstrumentMetrics:error:]
+- -[VSSpeechSynthesizer continueSpeakingWithError:]
+- -[VSSpeechSynthesizer didEndAccessPower]
+- -[VSSpeechSynthesizer durationRequests]
+- -[VSSpeechSynthesizer endAudioPowerUpdate]
+- -[VSSpeechSynthesizer estimateDurationOfRequest:completion:]
+- -[VSSpeechSynthesizer getAllAutoDownloadedVoiceAssets:]
+- -[VSSpeechSynthesizer getAutoDownloadedVoiceAssets:]
+- -[VSSpeechSynthesizer getAveragePower:andPeakPower:]
+- -[VSSpeechSynthesizer getVoiceInfoForLanguageCode:name:footprint:gender:type:reply:]
+- -[VSSpeechSynthesizer getVoiceInfoForLanguageCode:name:type:footprint:reply:]
+- -[VSSpeechSynthesizer getVoiceResourceForLanguage:reply:]
+- -[VSSpeechSynthesizer initForInputFeedback]
+- -[VSSpeechSynthesizer initWithAccessoryID:]
+- -[VSSpeechSynthesizer invokeDaemon:]
+- -[VSSpeechSynthesizer killDaemon]
+- -[VSSpeechSynthesizer language]
+- -[VSSpeechSynthesizer pauseSpeakingAtNextBoundary:synchronously:error:]
+- -[VSSpeechSynthesizer pitch]
+- -[VSSpeechSynthesizer playVoicePreviewForLanguageCode:voiceName:previewType:completion:]
+- -[VSSpeechSynthesizer queryPhaticCapability:]
+- -[VSSpeechSynthesizer rate]
+- -[VSSpeechSynthesizer setAccessoryID:]
+- -[VSSpeechSynthesizer setAudioPowerUpdater:]
+- -[VSSpeechSynthesizer setAudioPowerUpdaterQueue:]
+- -[VSSpeechSynthesizer setAutoDownloadedVoiceAssets:]
+- -[VSSpeechSynthesizer setDurationRequests:]
+- -[VSSpeechSynthesizer setLanguage:]
+- -[VSSpeechSynthesizer setPitch:]
+- -[VSSpeechSynthesizer setRate:]
+- -[VSSpeechSynthesizer setVoice:]
+- -[VSSpeechSynthesizer setVolume:]
+- -[VSSpeechSynthesizer speechString]
+- -[VSSpeechSynthesizer stopPlayingVoicePreview]
+- -[VSSpeechSynthesizer textToPhonemesWithRequest:phonemeSystem:completion:]
+- -[VSSpeechSynthesizer triggerCellularDownloadedVoiceAssets:]
+- -[VSSpeechSynthesizer voice]
+- -[VSSpeechSynthesizer volume]
+- -[VSSpeechSynthesizer willBeginAccessPower]
+- -[VSTrialService .cxx_destruct]
+- -[VSTrialService _directoryOfFactorName:]
+- -[VSTrialService _downloadFactorName:withOptions:progress:completion:]
+- -[VSTrialService _fileOfFactorName:]
+- -[VSTrialService _removeAssetWithFactorName:completion:]
+- -[VSTrialService cachedResources]
+- -[VSTrialService cachedVoices]
+- -[VSTrialService clientRefreshLock]
+- -[VSTrialService dealloc]
+- -[VSTrialService downloadNamespaceImmediatelyIfNeededWithOption:completion:]
+- -[VSTrialService downloadQueue]
+- -[VSTrialService init]
+- -[VSTrialService refreshTrialClient]
+- -[VSTrialService setCachedResources:]
+- -[VSTrialService setCachedVoices:]
+- -[VSTrialService setClientRefreshLock:]
+- -[VSTrialService setDownloadQueue:]
+- -[VSTrialService setTriClient:]
+- -[VSTrialService setTrialNotificationToken:]
+- -[VSTrialService triClient]
+- -[VSTrialService trialNotificationToken]
+- -[VSTrialService(Voice) _definedVoicesWithLanguage:name:type:footprint:]
+- -[VSTrialService(Voice) definedVoicesWithAssets:]
+- -[VSTrialService(Voice) definedVoicesWithLanguage:name:type:footprint:]
+- -[VSTrialService(Voice) downloadVoice:withOptions:progress:completion:]
+- -[VSTrialService(Voice) removeVoice:completion:]
+- -[VSTrialService(Voice) selectVoiceWithLanguage:name:type:footprint:]
+- -[VSTrialService(VoiceResource) definedVoiceResourcesWithLanguage:]
+- -[VSTrialService(VoiceResource) downloadVoiceResource:withOptions:progress:completion:]
+- -[VSTrialService(VoiceResource) removeVoiceResource:completion:]
+- -[VSTrialService(VoiceResource) selectVoiceResourceWithLanguage:]
+- -[VSTrialVoice .cxx_destruct]
+- -[VSTrialVoice assetSize]
+- -[VSTrialVoice compatibilityVersion]
+- -[VSTrialVoice description]
+- -[VSTrialVoice factorName]
+- -[VSTrialVoice footprint]
+- -[VSTrialVoice gender]
+- -[VSTrialVoice initWithFactorLevel:]
+- -[VSTrialVoice initWithFactorName:]
+- -[VSTrialVoice initWithLanguage:name:]
+- -[VSTrialVoice isLocal]
+- -[VSTrialVoice language]
+- -[VSTrialVoice name]
+- -[VSTrialVoice path]
+- -[VSTrialVoice preferenceScore]
+- -[VSTrialVoice setAssetSize:]
+- -[VSTrialVoice setCompatibilityVersion:]
+- -[VSTrialVoice setFootprint:]
+- -[VSTrialVoice setGender:]
+- -[VSTrialVoice setLanguage:]
+- -[VSTrialVoice setName:]
+- -[VSTrialVoice setPath:]
+- -[VSTrialVoice setType:]
+- -[VSTrialVoice setVersion:]
+- -[VSTrialVoice type]
+- -[VSTrialVoice version]
+- -[VSTrialVoiceResource .cxx_destruct]
+- -[VSTrialVoiceResource factorName]
+- -[VSTrialVoiceResource initWithFactorLevel:]
+- -[VSTrialVoiceResource initWithFactorName:]
+- -[VSTrialVoiceResource initWithLanguage:]
+- -[VSTrialVoiceResource isLocal]
+- -[VSTrialVoiceResource language]
+- -[VSTrialVoiceResource path]
+- -[VSTrialVoiceResource setLanguage:]
+- -[VSTrialVoiceResource setPath:]
+- -[VSTrialVoiceResource setVersion:]
+- -[VSTrialVoiceResource version]
+- -[VSVoiceAsset dictionaryRepresentation]
+- -[VSVoiceAssetSelection initWithTrialVoice:]
+- -[VSVoiceAssetSelection setTrialVoice:]
+- -[VSVoiceAssetSelection trialVoice]
+- -[VSVoiceResourceAsset resourceList]
+- -[VSVoiceResourceAsset resourceMimeTypes]
+- -[VSVoiceResourceAsset setResourceList:]
+- -[VSVoiceResourceAsset setResourceMimeTypes:]
+- -[VSWordTimingService .cxx_destruct]
+- -[VSWordTimingService estimatedTTSWordTimingForText:withLanguage:voiceName:]
+- -[VSWordTimingService setWordTimings:]
+- -[VSWordTimingService timingInfosFrom:withText:]
+- -[VSWordTimingService timingPlistForLanguage:]
+- -[VSWordTimingService wordTimings]
+- GCC_except_table1150
+- GCC_except_table1231
+- GCC_except_table1236
+- GCC_except_table1326
+- GCC_except_table1365
+- GCC_except_table1403
+- GCC_except_table1422
+- GCC_except_table143
+- GCC_except_table1459
+- GCC_except_table1461
+- GCC_except_table1468
+- GCC_except_table1471
+- GCC_except_table1474
+- GCC_except_table1479
+- GCC_except_table1484
+- GCC_except_table1506
+- GCC_except_table152
+- GCC_except_table155
+- GCC_except_table1619
+- GCC_except_table1620
+- GCC_except_table1621
+- GCC_except_table1622
+- GCC_except_table1623
+- GCC_except_table1624
+- GCC_except_table1625
+- GCC_except_table1681
+- GCC_except_table1683
+- GCC_except_table1694
+- GCC_except_table175
+- GCC_except_table200
+- GCC_except_table439
+- GCC_except_table445
+- GCC_except_table510
+- GCC_except_table513
+- GCC_except_table521
+- GCC_except_table525
+- GCC_except_table543
+- GCC_except_table544
+- GCC_except_table545
+- GCC_except_table546
+- GCC_except_table552
+- GCC_except_table599
+- GCC_except_table600
+- GCC_except_table601
+- GCC_except_table606
+- GCC_except_table607
+- GCC_except_table608
+- GCC_except_table609
+- GCC_except_table610
+- GCC_except_table660
+- GCC_except_table820
+- GCC_except_table827
+- _AnalyticsSendEventLazy
+- _AssistantServicesLibraryCore.frameworkLibrary
+- _CC_SHA256
+- _CFAttributedStringCreateMutable
+- _CFAttributedStringGetAttribute
+- _CFAttributedStringGetAttributeAndLongestEffectiveRange
+- _CFAttributedStringGetAttributesAndLongestEffectiveRange
+- _CFAttributedStringGetLength
+- _CFAttributedStringGetString
+- _CFAttributedStringReplaceString
+- _CFAttributedStringSetAttributes
+- _CFDataCreate
+- _CFDataGetBytes
+- _CFDictionaryCreateMutableCopy
+- _CFStringGetCStringPtr
+- _CFStringGetCharacters
+- _CFStringGetCharactersPtr
+- _MAMigrateAssets
+- _MAStringForMAOperationResult
+- _NSLog
+- _NSTemporaryDirectory
+- _OBJC_CLASS_$_AVAudioSession
+- _OBJC_CLASS_$_AssistantSiriAnalytics
+- _OBJC_CLASS_$_NSAttributedString
+- _OBJC_CLASS_$_NSConstantDictionary
+- _OBJC_CLASS_$_NSConstantDoubleNumber
+- _OBJC_CLASS_$_NSException
+- _OBJC_CLASS_$_NSFileHandle
+- _OBJC_CLASS_$_NSMutableAttributedString
+- _OBJC_CLASS_$_NSXPCListener
+- _OBJC_CLASS_$_NSXPCListenerEndpoint
+- _OBJC_CLASS_$_SISchemaUUID
+- _OBJC_CLASS_$_SiriTTSLanguages
+- _OBJC_CLASS_$_SiriTTSPhonemeRequest
+- _OBJC_CLASS_$_SiriTTSPreviewRequest
+- _OBJC_CLASS_$_TRIClient
+- _OBJC_CLASS_$_TRIDownloadOptions
+- _OBJC_CLASS_$_TTSSchemaTTSClientEvent
+- _OBJC_CLASS_$_TTSSchemaTTSClientEventMetadata
+- _OBJC_CLASS_$_TTSSchemaTTSClientSpeechContext
+- _OBJC_CLASS_$_TTSSchemaTTSSpeechFailed
+- _OBJC_CLASS_$_VSAnalytics
+- _OBJC_CLASS_$_VSDownloadMetrics
+- _OBJC_CLASS_$_VSDurationRequest
+- _OBJC_CLASS_$_VSFormatArgument
+- _OBJC_CLASS_$_VSGenericBlockHolder
+- _OBJC_CLASS_$_VSGenericUpdateEndpoint
+- _OBJC_CLASS_$_VSLocalizedString
+- _OBJC_CLASS_$_VSMappedData
+- _OBJC_CLASS_$_VSPhonemeTool
+- _OBJC_CLASS_$_VSSpeechConnection
+- _OBJC_CLASS_$_VSSpeechConnectionDelegateWrapper
+- _OBJC_CLASS_$_VSSpeechEngineVoiceResource
+- _OBJC_CLASS_$_VSSpeechSynthesisCallbackResult
+- _OBJC_CLASS_$_VSSpeechSynthesizerPreference
+- _OBJC_CLASS_$_VSTrialService
+- _OBJC_CLASS_$_VSTrialVoice
+- _OBJC_CLASS_$_VSTrialVoiceResource
+- _OBJC_CLASS_$_VSWordTimingService
+- _OBJC_IVAR_$_VSAudioData._asbd
+- _OBJC_IVAR_$_VSAudioData._mutableAudioData
+- _OBJC_IVAR_$_VSAudioData._mutableDescription
+- _OBJC_IVAR_$_VSAudioData._packetCount
+- _OBJC_IVAR_$_VSDownloadMetrics._clientBundleIdentifier
+- _OBJC_IVAR_$_VSDownloadMetrics._discretionary
+- _OBJC_IVAR_$_VSDownloadMetrics._downloadBeginTimestamp
+- _OBJC_IVAR_$_VSDownloadMetrics._downloadEndTimestamp
+- _OBJC_IVAR_$_VSDownloadMetrics._downloadProgress
+- _OBJC_IVAR_$_VSDownloadMetrics._downloadSize
+- _OBJC_IVAR_$_VSDownloadMetrics._errorCode
+- _OBJC_IVAR_$_VSDownloadMetrics._isCellularAllowed
+- _OBJC_IVAR_$_VSDownloadMetrics._setupTimeInterval
+- _OBJC_IVAR_$_VSDownloadMetrics._voiceDownloadKey
+- _OBJC_IVAR_$_VSDurationRequest._completion
+- _OBJC_IVAR_$_VSFormatArgument.attributes
+- _OBJC_IVAR_$_VSFormatArgument.formatSpecifier
+- _OBJC_IVAR_$_VSFormatArgument.formattedArg
+- _OBJC_IVAR_$_VSGenericBlockHolder._block
+- _OBJC_IVAR_$_VSGenericUpdateEndpoint._endpoint
+- _OBJC_IVAR_$_VSGenericUpdateEndpoint._handler
+- _OBJC_IVAR_$_VSGenericUpdateEndpoint._listener
+- _OBJC_IVAR_$_VSGenericUpdateEndpoint._queue
+- _OBJC_IVAR_$_VSMappedData._fallbackInMemoryData
+- _OBJC_IVAR_$_VSMappedData._filePath
+- _OBJC_IVAR_$_VSMappedData._mappedLength
+- _OBJC_IVAR_$_VSMappedData._mmappedData
+- _OBJC_IVAR_$_VSMappedData._shouldCleanFile
+- _OBJC_IVAR_$_VSMappedData._totalLength
+- _OBJC_IVAR_$_VSMobileAssetsManager._trialService
+- _OBJC_IVAR_$_VSPreferencesInterface._lock
+- _OBJC_IVAR_$_VSSpeechConnection._delegate
+- _OBJC_IVAR_$_VSSpeechConnection._delegateWrapper
+- _OBJC_IVAR_$_VSSpeechConnection._identifier
+- _OBJC_IVAR_$_VSSpeechConnection._keepActive
+- _OBJC_IVAR_$_VSSpeechConnection._threadSafeQueue
+- _OBJC_IVAR_$_VSSpeechConnection._xpcConnection
+- _OBJC_IVAR_$_VSSpeechConnectionDelegateWrapper._audioRequests
+- _OBJC_IVAR_$_VSSpeechConnectionDelegateWrapper._concurrentSynthesisRequests
+- _OBJC_IVAR_$_VSSpeechConnectionDelegateWrapper._connection
+- _OBJC_IVAR_$_VSSpeechConnectionDelegateWrapper._currentAudioRequest
+- _OBJC_IVAR_$_VSSpeechConnectionDelegateWrapper._currentRequest
+- _OBJC_IVAR_$_VSSpeechConnectionDelegateWrapper._delegate
+- _OBJC_IVAR_$_VSSpeechConnectionDelegateWrapper._requests
+- _OBJC_IVAR_$_VSSpeechEngine._asbd
+- _OBJC_IVAR_$_VSSpeechEngine._currentCallbackResult
+- _OBJC_IVAR_$_VSSpeechEngine._pcmBufferSize
+- _OBJC_IVAR_$_VSSpeechEngine._pitch
+- _OBJC_IVAR_$_VSSpeechEngine._powerProfile
+- _OBJC_IVAR_$_VSSpeechEngine._rate
+- _OBJC_IVAR_$_VSSpeechEngine._synthesisLock
+- _OBJC_IVAR_$_VSSpeechEngine._synthesizer
+- _OBJC_IVAR_$_VSSpeechEngine._voicePath
+- _OBJC_IVAR_$_VSSpeechEngine._volume
+- _OBJC_IVAR_$_VSSpeechEngineVoiceResource._resource
+- _OBJC_IVAR_$_VSSpeechRequest._attributedText
+- _OBJC_IVAR_$_VSSpeechSynthesisCallbackResult._asbd
+- _OBJC_IVAR_$_VSSpeechSynthesisCallbackResult._callback
+- _OBJC_IVAR_$_VSSpeechSynthesisCallbackResult._error
+- _OBJC_IVAR_$_VSSpeechSynthesisCallbackResult._hasAlignmentStall
+- _OBJC_IVAR_$_VSSpeechSynthesisCallbackResult._hasAudioClick
+- _OBJC_IVAR_$_VSSpeechSynthesisCallbackResult._lastUTF16Offset
+- _OBJC_IVAR_$_VSSpeechSynthesisCallbackResult._lastUTF8Offset
+- _OBJC_IVAR_$_VSSpeechSynthesisCallbackResult._markers
+- _OBJC_IVAR_$_VSSpeechSynthesisCallbackResult._neuralDidFallback
+- _OBJC_IVAR_$_VSSpeechSynthesisCallbackResult._numOfPromptsTriggered
+- _OBJC_IVAR_$_VSSpeechSynthesisCallbackResult._phonemeBuffer
+- _OBJC_IVAR_$_VSSpeechSynthesisCallbackResult._samples
+- _OBJC_IVAR_$_VSSpeechSynthesisCallbackResult._samplesProcessed
+- _OBJC_IVAR_$_VSSpeechSynthesisCallbackResult._state
+- _OBJC_IVAR_$_VSSpeechSynthesisCallbackResult._stopMark
+- _OBJC_IVAR_$_VSSpeechSynthesisCallbackResult._text
+- _OBJC_IVAR_$_VSSpeechSynthesisCallbackResult._wordTimings
+- _OBJC_IVAR_$_VSSpeechSynthesizer._accessoryID
+- _OBJC_IVAR_$_VSSpeechSynthesizer._audioPowerUpdater
+- _OBJC_IVAR_$_VSSpeechSynthesizer._audioPowerUpdaterQueue
+- _OBJC_IVAR_$_VSSpeechSynthesizer._clientBundleIdentifier
+- _OBJC_IVAR_$_VSSpeechSynthesizer._durationRequests
+- _OBJC_IVAR_$_VSSpeechSynthesizer._identifier
+- _OBJC_IVAR_$_VSSpeechSynthesizer._language
+- _OBJC_IVAR_$_VSSpeechSynthesizer._pitch
+- _OBJC_IVAR_$_VSSpeechSynthesizer._rate
+- _OBJC_IVAR_$_VSSpeechSynthesizer._synthesizerFlags
+- _OBJC_IVAR_$_VSSpeechSynthesizer._voice
+- _OBJC_IVAR_$_VSSpeechSynthesizer._volume
+- _OBJC_IVAR_$_VSSpeechSynthesizer._xpcConnection
+- _OBJC_IVAR_$_VSTrialService._cachedResources
+- _OBJC_IVAR_$_VSTrialService._cachedVoices
+- _OBJC_IVAR_$_VSTrialService._clientRefreshLock
+- _OBJC_IVAR_$_VSTrialService._downloadQueue
+- _OBJC_IVAR_$_VSTrialService._triClient
+- _OBJC_IVAR_$_VSTrialService._trialNotificationToken
+- _OBJC_IVAR_$_VSTrialVoice._assetSize
+- _OBJC_IVAR_$_VSTrialVoice._compatibilityVersion
+- _OBJC_IVAR_$_VSTrialVoice._footprint
+- _OBJC_IVAR_$_VSTrialVoice._gender
+- _OBJC_IVAR_$_VSTrialVoice._language
+- _OBJC_IVAR_$_VSTrialVoice._name
+- _OBJC_IVAR_$_VSTrialVoice._path
+- _OBJC_IVAR_$_VSTrialVoice._type
+- _OBJC_IVAR_$_VSTrialVoice._version
+- _OBJC_IVAR_$_VSTrialVoiceResource._language
+- _OBJC_IVAR_$_VSTrialVoiceResource._path
+- _OBJC_IVAR_$_VSTrialVoiceResource._version
+- _OBJC_IVAR_$_VSVoiceAssetSelection._trialVoice
+- _OBJC_IVAR_$_VSVoiceResourceAsset._resourceList
+- _OBJC_IVAR_$_VSVoiceResourceAsset._resourceMimeTypes
+- _OBJC_IVAR_$_VSWordTimingService._wordTimings
+- _OBJC_METACLASS_$_VSAnalytics
+- _OBJC_METACLASS_$_VSDownloadMetrics
+- _OBJC_METACLASS_$_VSDurationRequest
+- _OBJC_METACLASS_$_VSFormatArgument
+- _OBJC_METACLASS_$_VSGenericBlockHolder
+- _OBJC_METACLASS_$_VSGenericUpdateEndpoint
+- _OBJC_METACLASS_$_VSLocalizedString
+- _OBJC_METACLASS_$_VSMappedData
+- _OBJC_METACLASS_$_VSPhonemeTool
+- _OBJC_METACLASS_$_VSSpeechConnection
+- _OBJC_METACLASS_$_VSSpeechConnectionDelegateWrapper
+- _OBJC_METACLASS_$_VSSpeechEngineVoiceResource
+- _OBJC_METACLASS_$_VSSpeechSynthesisCallbackResult
+- _OBJC_METACLASS_$_VSSpeechSynthesizerPreference
+- _OBJC_METACLASS_$_VSTrialService
+- _OBJC_METACLASS_$_VSTrialVoice
+- _OBJC_METACLASS_$_VSTrialVoiceResource
+- _OBJC_METACLASS_$_VSWordTimingService
+- _SetupAssistantLibraryCore.frameworkLibrary
+- _VSAttributedStringCreateFromSerializedAttributes
+- _VSAttributedStringCreateSerializedAttributes
+- _VSCFAttributedStringCreateStringByBracketingAttributeWithString
+- _VSCFAttributedStringGetAttributeAndLongestEffectiveRange
+- _VSLocalizedStringKeyNetworkStallRetryInterstitial
+- _VSLocalizedStringKeyOOBHeySiriCapabilities
+- _VSLocalizedStringKeyOOBHeySiriClock
+- _VSLocalizedStringKeyOOBHeySiriClockPlankTimer
+- _VSLocalizedStringKeyOOBHeySiriHome
+- _VSLocalizedStringKeyOOBHeySiriMusic
+- _VSLocalizedStringKeyOOBHeySiriNews
+- _VSLocalizedStringKeyOOBHeySiriWeather
+- _VSLocalizedStringKeyOOBHeySiriWeather2
+- _VSLocalizedStringKeyOOBSiriCapabilities
+- _VSLocalizedStringKeyOOBSiriCapabilityClock
+- _VSLocalizedStringKeyOOBSiriCapabilityHome
+- _VSLocalizedStringKeyOOBSiriCapabilityMusic
+- _VSLocalizedStringKeyOOBSiriCapabilityNews
+- _VSLocalizedStringKeyOOBSiriCapabilityWeather
+- _VSLocalizedStringKeyOOBSiriIntro
+- _VSLocalizedStringKeyOOBTrySay0
+- _VSLocalizedStringKeyOOBTrySay1
+- _VSPreferencesCopyDefaultSpokenLanguageIdentifierForUserPreferences
+- _VSPreferencesSetValueForKey
+- _VSSpeechSynthesizerNotificationSynthesisDone
+- _VSTTSEntitlement
+- _VSTTSMachServiceName
+- __OBJC_$_CATEGORY_CLASS_METHODS_NSAttributedString_$_VSSpeechAdditions
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_NSMutableAttributedString_$_VSSpeechAdditions
+- __OBJC_$_CATEGORY_NSAttributedString_$_VSSpeechAdditions
+- __OBJC_$_CATEGORY_NSMutableAttributedString_$_VSSpeechAdditions
+- __OBJC_$_CLASS_METHODS_NSString(VSSpeechService|VS4CC|Hash)
+- __OBJC_$_CLASS_METHODS_VSAnalytics
+- __OBJC_$_CLASS_METHODS_VSDownloadMetrics
+- __OBJC_$_CLASS_METHODS_VSGenericUpdateEndpoint
+- __OBJC_$_CLASS_METHODS_VSLocalizedString
+- __OBJC_$_CLASS_METHODS_VSPhonemeTool
+- __OBJC_$_CLASS_METHODS_VSSpeechSynthesizerPreference
+- __OBJC_$_CLASS_METHODS_VSTrialService
+- __OBJC_$_CLASS_METHODS_VSVoiceResourceAsset(Trial)
+- __OBJC_$_CLASS_PROP_LIST_VSGenericUpdateEndpoint
+- __OBJC_$_CLASS_PROP_LIST_VSTrialService
+- __OBJC_$_INSTANCE_METHODS_NSString(VSSpeechService|VS4CC|Hash)
+- __OBJC_$_INSTANCE_METHODS_VSDownloadMetrics
+- __OBJC_$_INSTANCE_METHODS_VSDurationRequest
+- __OBJC_$_INSTANCE_METHODS_VSFormatArgument
+- __OBJC_$_INSTANCE_METHODS_VSGenericBlockHolder
+- __OBJC_$_INSTANCE_METHODS_VSGenericUpdateEndpoint
+- __OBJC_$_INSTANCE_METHODS_VSMappedData
+- __OBJC_$_INSTANCE_METHODS_VSSpeechConnection
+- __OBJC_$_INSTANCE_METHODS_VSSpeechConnectionDelegateWrapper
+- __OBJC_$_INSTANCE_METHODS_VSSpeechEngine
+- __OBJC_$_INSTANCE_METHODS_VSSpeechEngineVoiceResource
+- __OBJC_$_INSTANCE_METHODS_VSSpeechSynthesisCallbackResult
+- __OBJC_$_INSTANCE_METHODS_VSTrialService(Voice|VoiceResource)
+- __OBJC_$_INSTANCE_METHODS_VSTrialVoice
+- __OBJC_$_INSTANCE_METHODS_VSTrialVoiceResource
+- __OBJC_$_INSTANCE_METHODS_VSWordTimingService
+- __OBJC_$_INSTANCE_VARIABLES_VSAudioData
+- __OBJC_$_INSTANCE_VARIABLES_VSDownloadMetrics
+- __OBJC_$_INSTANCE_VARIABLES_VSDurationRequest
+- __OBJC_$_INSTANCE_VARIABLES_VSFormatArgument
+- __OBJC_$_INSTANCE_VARIABLES_VSGenericBlockHolder
+- __OBJC_$_INSTANCE_VARIABLES_VSGenericUpdateEndpoint
+- __OBJC_$_INSTANCE_VARIABLES_VSMappedData
+- __OBJC_$_INSTANCE_VARIABLES_VSSpeechConnection
+- __OBJC_$_INSTANCE_VARIABLES_VSSpeechConnectionDelegateWrapper
+- __OBJC_$_INSTANCE_VARIABLES_VSSpeechEngine
+- __OBJC_$_INSTANCE_VARIABLES_VSSpeechEngineVoiceResource
+- __OBJC_$_INSTANCE_VARIABLES_VSSpeechSynthesisCallbackResult
+- __OBJC_$_INSTANCE_VARIABLES_VSTrialService
+- __OBJC_$_INSTANCE_VARIABLES_VSTrialVoice
+- __OBJC_$_INSTANCE_VARIABLES_VSTrialVoiceResource
+- __OBJC_$_INSTANCE_VARIABLES_VSWordTimingService
+- __OBJC_$_PROP_LIST_VSAudioData
+- __OBJC_$_PROP_LIST_VSDownloadMetrics
+- __OBJC_$_PROP_LIST_VSDurationRequest
+- __OBJC_$_PROP_LIST_VSGenericBlockHolder
+- __OBJC_$_PROP_LIST_VSGenericUpdateEndpoint
+- __OBJC_$_PROP_LIST_VSMappedData
+- __OBJC_$_PROP_LIST_VSSpeechConnection
+- __OBJC_$_PROP_LIST_VSSpeechConnectionDelegateWrapper
+- __OBJC_$_PROP_LIST_VSSpeechEngine
+- __OBJC_$_PROP_LIST_VSSpeechEngineVoiceResource
+- __OBJC_$_PROP_LIST_VSSpeechSynthesisCallbackResult
+- __OBJC_$_PROP_LIST_VSTrialService
+- __OBJC_$_PROP_LIST_VSTrialVoice
+- __OBJC_$_PROP_LIST_VSTrialVoiceResource
+- __OBJC_$_PROP_LIST_VSWordTimingService
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AFAudioPowerProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSXPCListenerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_VSGenericUpdate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_VSSpeechConnectionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_VSSpeechServiceDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_VSSpeechXPCServiceProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AFAudioPowerProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSXPCListenerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_VSGenericUpdate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_VSSpeechConnectionDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_VSSpeechServiceDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_VSSpeechXPCServiceProtocol
+- __OBJC_$_PROTOCOL_REFS_AFAudioPowerProviding
+- __OBJC_$_PROTOCOL_REFS_NSXPCListenerDelegate
+- __OBJC_$_PROTOCOL_REFS_VSGenericUpdate
+- __OBJC_$_PROTOCOL_REFS_VSSpeechServiceDelegate
+- __OBJC_$_PROTOCOL_REFS_VSSpeechXPCServiceProtocol
+- __OBJC_CLASS_PROTOCOLS_$_VSGenericBlockHolder
+- __OBJC_CLASS_PROTOCOLS_$_VSGenericUpdateEndpoint
+- __OBJC_CLASS_PROTOCOLS_$_VSSpeechConnectionDelegateWrapper
+- __OBJC_CLASS_PROTOCOLS_$_VSSpeechSynthesizer
+- __OBJC_CLASS_RO_$_VSAnalytics
+- __OBJC_CLASS_RO_$_VSDownloadMetrics
+- __OBJC_CLASS_RO_$_VSDurationRequest
+- __OBJC_CLASS_RO_$_VSFormatArgument
+- __OBJC_CLASS_RO_$_VSGenericBlockHolder
+- __OBJC_CLASS_RO_$_VSGenericUpdateEndpoint
+- __OBJC_CLASS_RO_$_VSLocalizedString
+- __OBJC_CLASS_RO_$_VSMappedData
+- __OBJC_CLASS_RO_$_VSPhonemeTool
+- __OBJC_CLASS_RO_$_VSSpeechConnection
+- __OBJC_CLASS_RO_$_VSSpeechConnectionDelegateWrapper
+- __OBJC_CLASS_RO_$_VSSpeechEngineVoiceResource
+- __OBJC_CLASS_RO_$_VSSpeechSynthesisCallbackResult
+- __OBJC_CLASS_RO_$_VSSpeechSynthesizerPreference
+- __OBJC_CLASS_RO_$_VSTrialService
+- __OBJC_CLASS_RO_$_VSTrialVoice
+- __OBJC_CLASS_RO_$_VSTrialVoiceResource
+- __OBJC_CLASS_RO_$_VSWordTimingService
+- __OBJC_LABEL_PROTOCOL_$_AFAudioPowerProviding
+- __OBJC_LABEL_PROTOCOL_$_NSXPCListenerDelegate
+- __OBJC_LABEL_PROTOCOL_$_VSGenericUpdate
+- __OBJC_LABEL_PROTOCOL_$_VSSpeechConnectionDelegate
+- __OBJC_LABEL_PROTOCOL_$_VSSpeechServiceDelegate
+- __OBJC_LABEL_PROTOCOL_$_VSSpeechXPCServiceProtocol
+- __OBJC_METACLASS_RO_$_VSAnalytics
+- __OBJC_METACLASS_RO_$_VSDownloadMetrics
+- __OBJC_METACLASS_RO_$_VSDurationRequest
+- __OBJC_METACLASS_RO_$_VSFormatArgument
+- __OBJC_METACLASS_RO_$_VSGenericBlockHolder
+- __OBJC_METACLASS_RO_$_VSGenericUpdateEndpoint
+- __OBJC_METACLASS_RO_$_VSLocalizedString
+- __OBJC_METACLASS_RO_$_VSMappedData
+- __OBJC_METACLASS_RO_$_VSPhonemeTool
+- __OBJC_METACLASS_RO_$_VSSpeechConnection
+- __OBJC_METACLASS_RO_$_VSSpeechConnectionDelegateWrapper
+- __OBJC_METACLASS_RO_$_VSSpeechEngineVoiceResource
+- __OBJC_METACLASS_RO_$_VSSpeechSynthesisCallbackResult
+- __OBJC_METACLASS_RO_$_VSSpeechSynthesizerPreference
+- __OBJC_METACLASS_RO_$_VSTrialService
+- __OBJC_METACLASS_RO_$_VSTrialVoice
+- __OBJC_METACLASS_RO_$_VSTrialVoiceResource
+- __OBJC_METACLASS_RO_$_VSWordTimingService
+- __OBJC_PROTOCOL_$_AFAudioPowerProviding
+- __OBJC_PROTOCOL_$_NSXPCListenerDelegate
+- __OBJC_PROTOCOL_$_VSGenericUpdate
+- __OBJC_PROTOCOL_$_VSSpeechConnectionDelegate
+- __OBJC_PROTOCOL_$_VSSpeechServiceDelegate
+- __OBJC_PROTOCOL_$_VSSpeechXPCServiceProtocol
+- __OBJC_PROTOCOL_REFERENCE_$_VSGenericUpdate
+- __OBJC_PROTOCOL_REFERENCE_$_VSSpeechServiceDelegate
+- __OBJC_PROTOCOL_REFERENCE_$_VSSpeechXPCServiceProtocol
+- __VSPreferencesCopyDefaultSpokenLanguageIdentifierForUserPreferences
+- __ZN10Observable15remove_observerENSt3__110shared_ptrI8ObserverEE
+- __ZN10Observable8on_eventEPKcNSt3__18functionIFvPKvEEE
+- __ZN14TTSSynthesizer10initializeERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_S8_
+- __ZN14TTSSynthesizer13get_event_busEv
+- __ZN14TTSSynthesizer14stop_synthesisEv
+- __ZN14TTSSynthesizer15set_neural_costENS_19NeuralComputingCostE
+- __ZN14TTSSynthesizer15unload_resourceERKNSt3__110shared_ptrIN7SiriTTS13VoiceResourceEEE
+- __ZN14TTSSynthesizer19load_voice_resourceERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_
+- __ZN14TTSSynthesizer19set_global_propertyENS_14GlobalPropertyEf
+- __ZN14TTSSynthesizer20has_phatic_responsesERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+- __ZN14TTSSynthesizer20set_censor_plaintextEb
+- __ZN14TTSSynthesizer21get_voice_descriptionEv
+- __ZN14TTSSynthesizer34synthesize_text_with_markers_asyncERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEERNS0_6vectorIhNS4_IhEEEERNS9_INS_6MarkerENS4_ISD_EEEENS0_8functionIFiNS_15CallbackMessageEEEE
+- __ZN14TTSSynthesizer7preheatEv
+- __ZN14TTSSynthesizerC1Ev
+- __ZN14TTSSynthesizerD1Ev
+- __ZN7SiriTTS13TextToPhoneme15text_to_phonemeERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+- __ZN7SiriTTS13TextToPhonemeC1ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_
+- __ZN7SiriTTS13TextToPhonemeD2Ev
+- __ZN7SiriTTS16PhonemeSystemLHPE
+- __ZN7SiriTTS19PhonemeSystemXSAMPAE
+- __ZN7SiriTTS22PhonemeSystemNashvilleE
+- __ZNKSt3__110__function6__funcIU8__strongU13block_pointerFiN14TTSSynthesizer15CallbackMessageEENS_9allocatorIS6_EES4_E11target_typeEv
+- __ZNKSt3__110__function6__funcIU8__strongU13block_pointerFiN14TTSSynthesizer15CallbackMessageEENS_9allocatorIS6_EES4_E6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIU8__strongU13block_pointerFiN14TTSSynthesizer15CallbackMessageEENS_9allocatorIS6_EES4_E7__cloneEPNS0_6__baseIS4_EE
+- __ZNKSt3__110__function6__funcIU8__strongU13block_pointerFiN14TTSSynthesizer15CallbackMessageEENS_9allocatorIS6_EES4_E7__cloneEv
+- __ZNKSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_0NS_9allocatorIS2_EEFvPKvEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_0NS_9allocatorIS2_EEFvPKvEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_0NS_9allocatorIS2_EEFvPKvEE7__cloneEPNS0_6__baseIS7_EE
+- __ZNKSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_0NS_9allocatorIS2_EEFvPKvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_1NS_9allocatorIS2_EEFvPKvEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_1NS_9allocatorIS2_EEFvPKvEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_1NS_9allocatorIS2_EEFvPKvEE7__cloneEPNS0_6__baseIS7_EE
+- __ZNKSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_1NS_9allocatorIS2_EEFvPKvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_2NS_9allocatorIS2_EEFvPKvEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_2NS_9allocatorIS2_EEFvPKvEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_2NS_9allocatorIS2_EEFvPKvEE7__cloneEPNS0_6__baseIS7_EE
+- __ZNKSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_2NS_9allocatorIS2_EEFvPKvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_3NS_9allocatorIS2_EEFvPKvEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_3NS_9allocatorIS2_EEFvPKvEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_3NS_9allocatorIS2_EEFvPKvEE7__cloneEPNS0_6__baseIS7_EE
+- __ZNKSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_3NS_9allocatorIS2_EEFvPKvEE7__cloneEv
+- __ZNKSt9type_infoeqB8ne200100ERKS_
+- __ZNSt11logic_errorC2EPKc
+- __ZNSt12length_errorC1B8ne200100EPKc
+- __ZNSt12length_errorD1Ev
+- __ZNSt20bad_array_new_lengthC1Ev
+- __ZNSt20bad_array_new_lengthD1Ev
+- __ZNSt3__110__function12__value_funcIFiN14TTSSynthesizer15CallbackMessageEEED2B8ne200100Ev
+- __ZNSt3__110__function12__value_funcIFvPKvEED2B8ne200100Ev
+- __ZNSt3__110__function6__funcIU8__strongU13block_pointerFiN14TTSSynthesizer15CallbackMessageEENS_9allocatorIS6_EES4_E18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIU8__strongU13block_pointerFiN14TTSSynthesizer15CallbackMessageEENS_9allocatorIS6_EES4_E7destroyEv
+- __ZNSt3__110__function6__funcIU8__strongU13block_pointerFiN14TTSSynthesizer15CallbackMessageEENS_9allocatorIS6_EES4_ED0Ev
+- __ZNSt3__110__function6__funcIU8__strongU13block_pointerFiN14TTSSynthesizer15CallbackMessageEENS_9allocatorIS6_EES4_ED1Ev
+- __ZNSt3__110__function6__funcIU8__strongU13block_pointerFiN14TTSSynthesizer15CallbackMessageEENS_9allocatorIS6_EES4_EclEOS3_
+- __ZNSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_0NS_9allocatorIS2_EEFvPKvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_0NS_9allocatorIS2_EEFvPKvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_0NS_9allocatorIS2_EEFvPKvEED0Ev
+- __ZNSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_0NS_9allocatorIS2_EEFvPKvEED1Ev
+- __ZNSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_0NS_9allocatorIS2_EEFvPKvEEclEOS6_
+- __ZNSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_1NS_9allocatorIS2_EEFvPKvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_1NS_9allocatorIS2_EEFvPKvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_1NS_9allocatorIS2_EEFvPKvEED0Ev
+- __ZNSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_1NS_9allocatorIS2_EEFvPKvEED1Ev
+- __ZNSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_1NS_9allocatorIS2_EEFvPKvEEclEOS6_
+- __ZNSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_2NS_9allocatorIS2_EEFvPKvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_2NS_9allocatorIS2_EEFvPKvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_2NS_9allocatorIS2_EEFvPKvEED0Ev
+- __ZNSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_2NS_9allocatorIS2_EEFvPKvEED1Ev
+- __ZNSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_2NS_9allocatorIS2_EEFvPKvEEclEOS6_
+- __ZNSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_3NS_9allocatorIS2_EEFvPKvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_3NS_9allocatorIS2_EEFvPKvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_3NS_9allocatorIS2_EEFvPKvEED0Ev
+- __ZNSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_3NS_9allocatorIS2_EEFvPKvEED1Ev
+- __ZNSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_3NS_9allocatorIS2_EEFvPKvEEclEOS6_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE25__init_copy_ctor_externalEPKcm
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100ILi0EEEPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSERKS5_
+- __ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEED2Ev
+- __ZNSt3__119__shared_weak_count14__release_weakEv
+- __ZNSt3__119__shared_weak_count16__release_sharedB8ne200100Ev
+- __ZNSt3__120__throw_length_errorB8ne200100EPKc
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEEEPS7_EEED2B8ne200100Ev
+- __ZNSt3__16vectorIN14TTSSynthesizer6MarkerENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN14TTSSynthesizer6MarkerENS_9allocatorIS2_EEE5clearB8ne200100Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE12__move_rangeEPS6_S9_S9_
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB8ne200100Ev
+- __ZSt28__throw_bad_array_new_lengthB8ne200100v
+- __ZSt9terminatev
+- __ZTINSt3__110__function6__baseIFiN14TTSSynthesizer15CallbackMessageEEEE
+- __ZTINSt3__110__function6__baseIFvPKvEEE
+- __ZTINSt3__110__function6__funcIU8__strongU13block_pointerFiN14TTSSynthesizer15CallbackMessageEENS_9allocatorIS6_EES4_EE
+- __ZTINSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_0NS_9allocatorIS2_EEFvPKvEEE
+- __ZTINSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_1NS_9allocatorIS2_EEFvPKvEEE
+- __ZTINSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_2NS_9allocatorIS2_EEFvPKvEEE
+- __ZTINSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_3NS_9allocatorIS2_EEFvPKvEEE
+- __ZTISt12length_error
+- __ZTISt20bad_array_new_length
+- __ZTIU13block_pointerFiN14TTSSynthesizer15CallbackMessageEE
+- __ZTIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_0
+- __ZTIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_1
+- __ZTIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_2
+- __ZTIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_3
+- __ZTSNSt3__110__function6__baseIFiN14TTSSynthesizer15CallbackMessageEEEE
+- __ZTSNSt3__110__function6__baseIFvPKvEEE
+- __ZTSNSt3__110__function6__funcIU8__strongU13block_pointerFiN14TTSSynthesizer15CallbackMessageEENS_9allocatorIS6_EES4_EE
+- __ZTSNSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_0NS_9allocatorIS2_EEFvPKvEEE
+- __ZTSNSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_1NS_9allocatorIS2_EEFvPKvEEE
+- __ZTSNSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_2NS_9allocatorIS2_EEFvPKvEEE
+- __ZTSNSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_3NS_9allocatorIS2_EEFvPKvEEE
+- __ZTSU13block_pointerFiN14TTSSynthesizer15CallbackMessageEE
+- __ZTSZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_0
+- __ZTSZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_1
+- __ZTSZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_2
+- __ZTSZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_3
+- __ZTVN10__cxxabiv117__class_type_infoE
+- __ZTVN10__cxxabiv120__si_class_type_infoE
+- __ZTVN10__cxxabiv123__fundamental_type_infoE
+- __ZTVNSt3__110__function6__funcIU8__strongU13block_pointerFiN14TTSSynthesizer15CallbackMessageEENS_9allocatorIS6_EES4_EE
+- __ZTVNSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_0NS_9allocatorIS2_EEFvPKvEEE
+- __ZTVNSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_1NS_9allocatorIS2_EEFvPKvEEE
+- __ZTVNSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_2NS_9allocatorIS2_EEFvPKvEEE
+- __ZTVNSt3__110__function6__funcIZ51-[VSSpeechEngine synthesizeText:loggable:callback:]E3$_3NS_9allocatorIS2_EEFvPKvEEE
+- __ZTVSt12length_error
+- __ZdlPv
+- __ZdlPvSt19__type_descriptor_t
+- __ZnwmSt19__type_descriptor_t
+- ___22-[VSTrialService init]_block_invoke
+- ___31+[VSTrialService sharedService]_block_invoke
+- ___33+[VSDownloadMetrics _clockFactor]_block_invoke
+- ___33-[VSSpeechSynthesizer isSpeaking]_block_invoke
+- ___35+[VSAnalytics reportEvent:payload:]_block_invoke
+- ___35-[VSSpeechConnection xpcConnection]_block_invoke
+- ___35-[VSSpeechConnection xpcConnection]_block_invoke_2
+- ___35-[VSSpeechConnection xpcConnection]_block_invoke_3
+- ___35-[VSSpeechSynthesizer speechString]_block_invoke
+- ___36-[VSMobileAssetsManager purgeAsset:]_block_invoke
+- ___37-[VSSpeechSynthesizer cancelRequest:]_block_invoke
+- ___38-[VSSpeechConnection isSystemSpeaking]_block_invoke
+- ___38-[VSSpeechConnection isSystemSpeaking]_block_invoke.194
+- ___39-[VSSpeechConnection _remoteObjectSync]_block_invoke
+- ___39-[VSSpeechConnection setXpcConnection:]_block_invoke
+- ___39-[VSSpeechSynthesizer isSystemSpeaking]_block_invoke
+- ___41-[VSSpeechConnection startSpeechRequest:]_block_invoke
+- ___41-[VSSpeechConnection startSpeechRequest:]_block_invoke_2
+- ___42-[VSMobileAssetsManager cleanUnusedAssets]_block_invoke
+- ___42-[VSSpeechConnection forwardStreamObject:]_block_invoke
+- ___42-[VSSpeechSynthesizer cancelAudioRequest:]_block_invoke
+- ___43-[VSSpeechSynthesizer STS_subscribeVoices:]_block_invoke
+- ___44-[VSSpeechConnection _connectionInvalidated]_block_invoke
+- ___44-[VSSpeechConnection _connectionInvalidated]_block_invoke_2
+- ___44-[VSSpeechConnection _connectionInvalidated]_block_invoke_3
+- ___44-[VSSpeechSynthesizer STS_subscribedVoices:]_block_invoke
+- ___44-[VSSpeechSynthesizer startSpeakingRequest:]_block_invoke
+- ___45-[VSSpeechConnection getLocalVoiceResources:]_block_invoke
+- ___45-[VSSpeechSynthesizer queryPhaticCapability:]_block_invoke
+- ___48-[VSSpeechSynthesizer startSynthesizingRequest:]_block_invoke
+- ___49-[VSSpeechSynthesizer continueSpeakingWithError:]_block_invoke
+- ___50-[VSSpeechSynthesizer prewarmIfNeededWithRequest:]_block_invoke
+- ___50-[VSSpeechSynthesizer prewarmIfNeededWithRequest:]_block_invoke.135
+- ___51+[VSSpeechSynthesizerPreference availableLanguages]_block_invoke
+- ___51-[VSMobileAssetsManager cancelDownload:completion:]_block_invoke
+- ___51-[VSSpeechEngine synthesizeText:loggable:callback:]_block_invoke
+- ___52-[VSMobileAssetsManager cancelDownloads:completion:]_block_invoke
+- ___52-[VSMobileAssetsManager voiceAssetsForSubscription:]_block_invoke
+- ___52-[VSSpeechSynthesizer STS_startSynthesizingRequest:]_block_invoke_4
+- ___52-[VSSpeechSynthesizer getAveragePower:andPeakPower:]_block_invoke
+- ___52-[VSSpeechSynthesizer setAutoDownloadedVoiceAssets:]_block_invoke
+- ___53-[VSMobileAssetsManager candidateToDownloadForVoice:]_block_invoke
+- ___53-[VSMobileAssetsManager candidateToDownloadForVoice:]_block_invoke_2
+- ___53-[VSMobileAssetsManager removeTrialVoice:completion:]_block_invoke
+- ___53-[VSSpeechConnection availableVoicesForLanguageCode:]_block_invoke
+- ___53-[VSSpeechConnection availableVoicesForLanguageCode:]_block_invoke.187
+- ___54-[VSSpeechConnection startPresynthesizedAudioRequest:]_block_invoke
+- ___54-[VSSpeechSynthesizer beginAudioPowerUpdateWithReply:]_block_invoke
+- ___55-[VSMobileAssetsManager _removeTrialVoices:completion:]_block_invoke
+- ___55-[VSMobileAssetsManager _removeTrialVoices:completion:]_block_invoke.517
+- ___55-[VSSpeechConnection prewarmIfNeededWithRequest:reply:]_block_invoke
+- ___55-[VSSpeechConnection queryPhaticCapabilityWithRequest:]_block_invoke
+- ___55-[VSSpeechConnection queryPhaticCapabilityWithRequest:]_block_invoke.181
+- ___55-[VSSpeechSynthesizer cachePresynthesizedAudioRequest:]_block_invoke
+- ___56-[VSMobileAssetsManager removeVoiceResource:completion:]_block_invoke
+- ___56-[VSSpeechConnection estimateDurationWithRequest:reply:]_block_invoke
+- ___56-[VSSpeechConnection getAllVoiceSubscriptionsWithReply:]_block_invoke
+- ___56-[VSSpeechConnection getVoiceResourceForLanguage:reply:]_block_invoke
+- ___56-[VSSpeechSynthesizer connection:speechRequestDidPause:]_block_invoke
+- ___56-[VSSpeechSynthesizer connection:speechRequestDidPause:]_block_invoke_2
+- ___56-[VSSpeechSynthesizer connection:speechRequestDidStart:]_block_invoke
+- ___56-[VSSpeechSynthesizer connection:speechRequestDidStart:]_block_invoke_2
+- ___56-[VSTrialService _removeAssetWithFactorName:completion:]_block_invoke
+- ___57+[VSGenericUpdateEndpoint remoteUpdateHanderForEndpoint:]_block_invoke
+- ___57+[VSMobileAssetsManager pickCorrectAssetFromLocalAssets:]_block_invoke.550
+- ___59-[VSMobileAssetsManager migrateAssetIfNeededWithAssetType:]_block_invoke
+- ___59-[VSSpeechConnection getLocalVoiceAssetsForLanguage:reply:]_block_invoke
+- ___59-[VSSpeechSynthesizer STS_getSynthesisVoiceMatching:reply:]_block_invoke
+- ___59-[VSSpeechSynthesizer connection:speechRequestDidContinue:]_block_invoke
+- ___59-[VSSpeechSynthesizer connection:speechRequestDidContinue:]_block_invoke_2
+- ___60-[VSSpeechSynthesizer estimateDurationOfRequest:completion:]_block_invoke
+- ___60-[VSSpeechSynthesizer estimateDurationOfRequest:completion:]_block_invoke.387
+- ___61+[VSSpeechSynthesizerPreference fallbackLanguageForLanguage:]_block_invoke
+- ___62-[VSSpeechSynthesizer STS_subscribedVoicesWithClientID:reply:]_block_invoke
+- ___63-[VSSpeechConnection availableFootprintsForVoice:languageCode:]_block_invoke
+- ___63-[VSSpeechConnection availableFootprintsForVoice:languageCode:]_block_invoke.191
+- ___63-[VSSpeechConnection startPhonemesRequest:phonemeSystem:reply:]_block_invoke
+- ___63-[VSSpeechSynthesizer startSpeakingPresynthesizedAudioRequest:]_block_invoke
+- ___64-[VSSpeechConnection updateWithConnectionIdentifier:keepActive:]_block_invoke
+- ___65-[VSSpeechConnection isSystemSpeakingOnBehalfOfCurrentConnection]_block_invoke
+- ___65-[VSSpeechConnection isSystemSpeakingOnBehalfOfCurrentConnection]_block_invoke.197
+- ___66-[VSSpeechSynthesizer STS_queryPhaticCapabilityWithRequest:reply:]_block_invoke
+- ___69-[VSSpeechSynthesizer connection:presynthesizedAudioRequestDidStart:]_block_invoke
+- ___69-[VSSpeechSynthesizer connection:speechRequest:didReceiveTimingInfo:]_block_invoke
+- ___69-[VSSpeechSynthesizer connection:speechRequest:didReceiveTimingInfo:]_block_invoke_2
+- ___70-[VSSpeechSynthesizer connection:speechRequest:didGenerateAudioChunk:]_block_invoke
+- ___70-[VSSpeechSynthesizer connection:speechRequest:didGenerateAudioChunk:]_block_invoke_2
+- ___70-[VSSpeechSynthesizer connection:speechRequest:willSpeakMark:inRange:]_block_invoke
+- ___70-[VSSpeechSynthesizer connection:speechRequest:willSpeakMark:inRange:]_block_invoke_2
+- ___70-[VSSpeechSynthesizer stopSpeakingAtNextBoundary:synchronously:error:]_block_invoke
+- ___70-[VSTrialService _downloadFactorName:withOptions:progress:completion:]_block_invoke
+- ___70-[VSTrialService _downloadFactorName:withOptions:progress:completion:]_block_invoke_2
+- ___71-[VSMobileAssetsManager downloadTrialVoiceResource:options:completion:]_block_invoke
+- ___71-[VSSpeechSynthesizer pauseSpeakingAtNextBoundary:synchronously:error:]_block_invoke
+- ___73-[VSSpeechSynthesizer _pauseSpeakingRequestAtNextBoundary:synchronously:]_block_invoke
+- ___73-[VSSpeechSynthesizer _stopSpeakingRequest:atNextBoundary:synchronously:]_block_invoke
+- ___74-[VSMobileAssetsManager downloadVoiceAsset:options:progressUpdateHandler:]_block_invoke
+- ___74-[VSMobileAssetsManager downloadVoiceAsset:options:progressUpdateHandler:]_block_invoke.513
+- ___74-[VSMobileAssetsManager downloadVoiceAsset:options:progressUpdateHandler:]_block_invoke.514
+- ___74-[VSMobileAssetsManager downloadVoiceAsset:options:progressUpdateHandler:]_block_invoke_2
+- ___74-[VSSpeechSynthesizer stopSpeakingPresynthesizedAudioSynchronously:error:]_block_invoke
+- ___74-[VSSpeechSynthesizer textToPhonemesWithRequest:phonemeSystem:completion:]_block_invoke
+- ___74-[VSSpeechSynthesizer textToPhonemesWithRequest:phonemeSystem:completion:]_block_invoke.392
+- ___76-[VSTrialService downloadNamespaceImmediatelyIfNeededWithOption:completion:]_block_invoke
+- ___77-[VSSpeechSynthesizer _stopSpeakingPresynthesizedAudioRequest:synchronously:]_block_invoke
+- ___77-[VSSpeechSynthesizer connection:speechRequest:successWithInstrumentMetrics:]_block_invoke
+- ___77-[VSSpeechSynthesizer connection:speechRequest:successWithInstrumentMetrics:]_block_invoke_2
+- ___77-[VSSpeechSynthesizer getVoiceInfoForLanguageCode:name:type:footprint:reply:]_block_invoke
+- ___78-[VSSpeechSynthesizer STS_textToPhonemesWithRequest:phonemeSystem:completion:]_block_invoke
+- ___80-[VSSpeechConnection getSubscribedVoiceAssetsWithClientID:forAccessoryID:reply:]_block_invoke
+- ___80-[VSSpeechSynthesizer connection:presynthesizedAudioRequest:didStopAtEnd:error:]_block_invoke
+- ___82-[VSSpeechSynthesizer connection:speechRequest:didStopAtEnd:phonemesSpoken:error:]_block_invoke
+- ___82-[VSSpeechSynthesizer connection:speechRequest:didStopAtEnd:phonemesSpoken:error:]_block_invoke.393
+- ___83-[VSSpeechConnection getVoiceInfoForLanguageCode:name:footprint:gender:type:reply:]_block_invoke
+- ___84-[VSSpeechSynthesizer getVoiceInfoForLanguageCode:name:footprint:gender:type:reply:]_block_invoke
+- ___88+[VSSpeechSynthesizer playVoicePreviewForLanguageCode:voiceName:previewType:completion:]_block_invoke
+- ___88-[VSSpeechSynthesizer connection:synthesisRequest:didFinishWithInstrumentMetrics:error:]_block_invoke
+- ___88-[VSSpeechSynthesizer connection:synthesisRequest:didFinishWithInstrumentMetrics:error:]_block_invoke.395
+- ___88-[VSSpeechSynthesizer playVoicePreviewForLanguageCode:voiceName:previewType:completion:]_block_invoke
+- ___96-[VSSpeechSynthesizer connection:presynthesizedAudioRequest:successWithInstrumentMetrics:error:]_block_invoke
+- ___AssistantServicesLibraryCore_block_invoke
+- ___Block_byref_object_copy_.2748
+- ___Block_byref_object_copy_.3142
+- ___Block_byref_object_dispose_.2749
+- ___Block_byref_object_dispose_.3143
+- ___SetupAssistantLibraryCore_block_invoke
+- ___assign_helper_atomic_property_
+- ___block_descriptor_32_e17_v16?0"NSError"8l
+- ___block_descriptor_32_e39_B24?0"VSTrialVoice"8"NSDictionary"16l
+- ___block_descriptor_32_e39_q24?0"VSTrialVoice"8"VSTrialVoice"16l
+- ___block_descriptor_40_e8_32bs_e11_v20?0d8B16ls32l8
+- ___block_descriptor_40_e8_32bs_e11_v20?0d8f16ls32l8
+- ___block_descriptor_40_e8_32bs_e17_v16?0"NSError"8ls32l8
+- ___block_descriptor_40_e8_32bs_e22_v16?0"AFXPCWrapper"8ls32l8
+- ___block_descriptor_40_e8_32bs_e22_v16?0"VSVoiceAsset"8ls32l8
+- ___block_descriptor_40_e8_32bs_e30_v24?0"NSString"8"NSError"16ls32l8
+- ___block_descriptor_40_e8_32bs_e34_v24?0"VSVoiceAsset"8"NSError"16ls32l8
+- ___block_descriptor_40_e8_32bs_e43_v24?0"SiriTTSSynthesisVoice"8"NSError"16ls32l8
+- ___block_descriptor_40_e8_32bs_e8_v12?0B8ls32l8
+- ___block_descriptor_40_e8_32bs_e8_v12?0f8ls32l8
+- ___block_descriptor_40_e8_32bs_e8_v16?0Q8ls32l8
+- ___block_descriptor_40_e8_32r_e17_v16?0"NSArray"8lr32l8
+- ___block_descriptor_40_e8_32r_e32_v32?0"VSSpeechRequest"8Q16^B24lr32l8
+- ___block_descriptor_40_e8_32r_e45_v32?0"VSPresynthesizedAudioRequest"8Q16^B24lr32l8
+- ___block_descriptor_40_e8_32s_e19_"NSDictionary"8?0ls32l8
+- ___block_descriptor_40_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_40_e8_32s_e8_v16?08ls32l8
+- ___block_descriptor_40_e8_32w_e38_v16?0"<TRINamespaceUpdateProtocol>"8lw32l8
+- ___block_descriptor_40_ea8_32s_e8_i12?0i8ls32l8
+- ___block_descriptor_48_e8_32s40bs_e17_v16?0"NSError"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e20_v24?0d8"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e30_v24?0"NSString"8"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40r_e5_v8?0lr40l8s32l8
+- ___block_descriptor_48_e8_32s40r_e8_v12?0B8lr40l8s32l8
+- ___block_descriptor_48_e8_32s40s_e26_v16?0"SiriTTSAudioData"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e32_v32?0"VSSpeechRequest"8Q16^B24ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e41_v32?0"NSValue"8"VSSpeechRequest"16^B24ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e45_v32?0"VSPresynthesizedAudioRequest"8Q16^B24ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e8_v16?0q8ls32l8s40l8
+- ___block_descriptor_49_e8_32s40r_e5_v8?0lr40l8s32l8
+- ___block_descriptor_56_e8_32s40bs48r_e5_v8?0ls32l8r48l8s40l8
+- ___block_descriptor_56_e8_32s40bs48w_e20_v20?0B8"NSError"12ls32l8w48l8s40l8
+- ___block_descriptor_56_e8_32s40r48r_e11_v16?0f8f12lr40l8r48l8s32l8
+- ___block_descriptor_56_e8_32s40s48bs_e17_v16?0"NSError"8ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48bs_e5_v8?0ls32l8s48l8s40l8
+- ___block_descriptor_56_e8_32s40s48s_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_57_e8_32s40r_e5_v8?0lr40l8s32l8
+- ___block_descriptor_57_e8_32s40s48s_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48bs_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48s56bs_e20_v20?0B8"NSError"12ls32l8s56l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48s56s_e5_v8?0ls32l8s40l8s48l8s56l8
+- ___block_descriptor_64_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_65_e8_32s40s48s56s_e5_v8?0ls32l8s40l8s48l8s56l8
+- ___block_descriptor_72_e8_32s40s48s56s64s_e5_v8?0ls32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_72_e8_32s40s48s_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_73_e8_32s40s48s56s64s_e5_v8?0ls32l8s40l8s48l8s56l8s64l8
+- ___block_literal_global.115
+- ___block_literal_global.129
+- ___block_literal_global.1312
+- ___block_literal_global.159
+- ___block_literal_global.178
+- ___block_literal_global.180
+- ___block_literal_global.184
+- ___block_literal_global.186
+- ___block_literal_global.190
+- ___block_literal_global.193.3139
+- ___block_literal_global.1949
+- ___block_literal_global.196
+- ___block_literal_global.202
+- ___block_literal_global.204
+- ___block_literal_global.246
+- ___block_literal_global.2822
+- ___block_literal_global.2959
+- ___block_literal_global.3155
+- ___block_literal_global.347
+- ___block_literal_global.3476
+- ___block_literal_global.3941
+- ___block_literal_global.459
+- ___block_literal_global.476
+- ___block_literal_global.478
+- ___block_literal_global.485
+- ___block_literal_global.500
+- ___block_literal_global.506
+- ___block_literal_global.510
+- ___block_literal_global.519
+- ___block_literal_global.521
+- ___block_literal_global.523
+- ___block_literal_global.547
+- ___block_literal_global.549
+- ___block_literal_global.552
+- ___block_literal_global.564
+- ___block_literal_global.66
+- ___block_literal_global.873
+- ___clang_call_terminate
+- ___copy_helper_atomic_property_
+- ___cxa_allocate_exception
+- ___cxa_free_exception
+- ___cxa_throw
+- ___getAFAudioPowerUpdaterClass_block_invoke
+- ___getBYSetupAssistantNeedsToRunSymbolLoc_block_invoke
+- __clockFactor.clockToSeconds.247
+- __clockFactor.onceToken.245
+- _audit_stringAssistantServices
+- _audit_stringSetupAssistant
+- _availableLanguages._availableLanguages
+- _availableLanguages.onceToken
+- _dispatch_group_create
+- _dispatch_group_enter
+- _dispatch_group_leave
+- _dispatch_group_wait
+- _fallbackLanguageForLanguage:.fallbacks
+- _fallbackLanguageForLanguage:.onceToken
+- _ftruncate
+- _getAFAudioPowerUpdaterClass.softClass
+- _getBYSetupAssistantNeedsToRunSymbolLoc.ptr
+- _kVSSpeechTextClassName
+- _kVSSpeechTextClassTitle
+- _kdebug_trace
+- _memmove
+- _mmap
+- _objc_claimAutoreleasedReturnValue
+- _objc_copyCppObjectAtomic
+- _objc_getClass
+- _objc_msgSend$OOBNeedsToBeMeasured
+- _objc_msgSend$OOBTriggeredDate
+- _objc_msgSend$STS_cancelAudioRequest:
+- _objc_msgSend$STS_cancelRequest:
+- _objc_msgSend$STS_estimateDurationOfRequest:completion:
+- _objc_msgSend$STS_getSynthesisVoiceMatching:reply:
+- _objc_msgSend$STS_queryPhaticCapabilityWithRequest:reply:
+- _objc_msgSend$STS_signalInlineStreaming:
+- _objc_msgSend$STS_subscribeVoices:
+- _objc_msgSend$STS_subscribedVoices:
+- _objc_msgSend$STS_subscribedVoicesWithClientID:reply:
+- _objc_msgSend$STS_textToPhonemesWithRequest:phonemeSystem:completion:
+- _objc_msgSend$URLForResource:withExtension:subdirectory:localization:
+- _objc_msgSend$UUID
+- _objc_msgSend$UUIDString
+- _objc_msgSend$_appendToFallbackMemory:
+- _objc_msgSend$_appendToMappedMemory:
+- _objc_msgSend$_connectionInvalidated
+- _objc_msgSend$_continueSpeakingRequest
+- _objc_msgSend$_convertToFallbackMemory
+- _objc_msgSend$_definedVoicesWithLanguage:name:type:footprint:
+- _objc_msgSend$_downloadFactorName:withOptions:progress:completion:
+- _objc_msgSend$_installedVoiceResourceAssetForLanguage:
+- _objc_msgSend$_mobileAssetVoiceResourceWithLanguage:
+- _objc_msgSend$_pauseSpeakingRequestAtNextBoundary:synchronously:
+- _objc_msgSend$_queue
+- _objc_msgSend$_remoteObject
+- _objc_msgSend$_remoteObjectSync
+- _objc_msgSend$_remoteObjectWithErrorHandler:
+- _objc_msgSend$_removeAssetWithFactorName:completion:
+- _objc_msgSend$_removeTrialVoices:completion:
+- _objc_msgSend$_setQueue:
+- _objc_msgSend$_stopSpeakingPresynthesizedAudioRequest:synchronously:
+- _objc_msgSend$_stopSpeakingRequest:atNextBoundary:synchronously:
+- _objc_msgSend$_trialVoiceResourceWithLanguage:
+- _objc_msgSend$_trialVoiceWithLanguage:name:type:footprint:
+- _objc_msgSend$accessoryId
+- _objc_msgSend$activeVoiceAssets
+- _objc_msgSend$addUpdateHandlerForNamespaceName:usingBlock:
+- _objc_msgSend$allowCellularData
+- _objc_msgSend$allowDiscretionary
+- _objc_msgSend$anonymousListener
+- _objc_msgSend$appendRandomizationKey:withCount:
+- _objc_msgSend$appendString:withAttributes:
+- _objc_msgSend$arrayForKey:
+- _objc_msgSend$arrayWithArray:
+- _objc_msgSend$arrayWithContentsOfFile:
+- _objc_msgSend$asbd
+- _objc_msgSend$assetId
+- _objc_msgSend$assetSize
+- _objc_msgSend$attributedText
+- _objc_msgSend$audioRequests
+- _objc_msgSend$availableFootprintsForVoice:languageCode:
+- _objc_msgSend$availableLanguages
+- _objc_msgSend$availableVoicesForLanguageCode:
+- _objc_msgSend$beginAudioPowerUpdateWithReply:
+- _objc_msgSend$beginUpdate
+- _objc_msgSend$bundleIdentifier
+- _objc_msgSend$cachePresynthesizedAudioRequest:
+- _objc_msgSend$cachedMAVoiceResources
+- _objc_msgSend$cachedResources
+- _objc_msgSend$cachedVoices
+- _objc_msgSend$candidateToDownloadForVoice:
+- _objc_msgSend$characterClassCountForUtterance:language:
+- _objc_msgSend$cleanMobileAssetVoiceResourcesWithActiveLanguages:
+- _objc_msgSend$cleanUnusedAssets:
+- _objc_msgSend$clientId
+- _objc_msgSend$clientWithIdentifier:
+- _objc_msgSend$closeFile
+- _objc_msgSend$completion
+- _objc_msgSend$concurrentSynthesisRequests
+- _objc_msgSend$connection:invalidatedWithError:
+- _objc_msgSend$connection:presynthesizedAudioRequest:didStopAtEnd:error:
+- _objc_msgSend$connection:presynthesizedAudioRequest:successWithInstrumentMetrics:error:
+- _objc_msgSend$connection:presynthesizedAudioRequestDidStart:
+- _objc_msgSend$connection:speechRequest:didGenerateAudioChunk:
+- _objc_msgSend$connection:speechRequest:didReceiveTimingInfo:
+- _objc_msgSend$connection:speechRequest:didStopAtEnd:phonemesSpoken:error:
+- _objc_msgSend$connection:speechRequest:successWithInstrumentMetrics:
+- _objc_msgSend$connection:speechRequest:willSpeakMark:inRange:
+- _objc_msgSend$connection:speechRequestDidContinue:
+- _objc_msgSend$connection:speechRequestDidPause:
+- _objc_msgSend$connection:speechRequestDidStart:
+- _objc_msgSend$connection:synthesisRequest:didFinishWithInstrumentMetrics:error:
+- _objc_msgSend$continueSpeechRequest:
+- _objc_msgSend$createFileAtPath:contents:attributes:
+- _objc_msgSend$createNewXPCWrapperWithCompletion:
+- _objc_msgSend$currentAudioRequest
+- _objc_msgSend$currentCallbackResult
+- _objc_msgSend$currentRequest
+- _objc_msgSend$dataWithBytesNoCopy:length:freeWhenDone:
+- _objc_msgSend$decodeBytesForKey:returnedLength:
+- _objc_msgSend$decodePropertyListForKey:
+- _objc_msgSend$defaultDownloadOptions
+- _objc_msgSend$defaultInstance
+- _objc_msgSend$definedVoiceResourcesWithLanguage:
+- _objc_msgSend$definedVoicesWithAssets:
+- _objc_msgSend$definedVoicesWithLanguage:name:type:footprint:
+- _objc_msgSend$delegateWrapper
+- _objc_msgSend$derivedIdentifierForComponentName:fromSourceIdentifier:
+- _objc_msgSend$dictionaryRepresentation
+- _objc_msgSend$dictionaryRepresentationOfVoices:
+- _objc_msgSend$directoryValue
+- _objc_msgSend$disableAssetCleaning
+- _objc_msgSend$domain
+- _objc_msgSend$doubleValue
+- _objc_msgSend$downloadDuration
+- _objc_msgSend$downloadLevelsForFactors:withNamespace:queue:options:progress:completion:
+- _objc_msgSend$downloadNamespaceImmediatelyIfNeededWithOption:completion:
+- _objc_msgSend$downloadOptionsWithBattery:
+- _objc_msgSend$downloadTrialVoiceResource:options:completion:
+- _objc_msgSend$downloadVoice:withOptions:progress:completion:
+- _objc_msgSend$downloadVoiceAsset:options:progressUpdateHandler:
+- _objc_msgSend$downloadVoiceResource:options:completion:
+- _objc_msgSend$downloadVoiceResource:withOptions:progress:completion:
+- _objc_msgSend$durationRequests
+- _objc_msgSend$emitMessage:
+- _objc_msgSend$encodeBytes:length:forKey:
+- _objc_msgSend$endAudioPowerUpdate
+- _objc_msgSend$endMetrics
+- _objc_msgSend$endUpdate
+- _objc_msgSend$endpoint
+- _objc_msgSend$enumerateObjectsUsingBlock:
+- _objc_msgSend$estimateDurationWithRequest:didFinish:
+- _objc_msgSend$estimateDurationWithRequest:reply:
+- _objc_msgSend$eventMetadata
+- _objc_msgSend$extraBytesFromUTF8ToUTF16With:totalLength:begin:end:
+- _objc_msgSend$factor
+- _objc_msgSend$factorLevelsWithNamespaceName:
+- _objc_msgSend$factorName
+- _objc_msgSend$fallbackLanguageForLanguage:
+- _objc_msgSend$fileDescriptor
+- _objc_msgSend$fileHandleForUpdatingAtPath:
+- _objc_msgSend$fileValue
+- _objc_msgSend$forwardStreamObject:
+- _objc_msgSend$getAllVoiceSubscriptionsWithReply:
+- _objc_msgSend$getAudioPower:
+- _objc_msgSend$getFootprintsForVoiceName:languageCode:reply:
+- _objc_msgSend$getLocalAudioRequest:
+- _objc_msgSend$getLocalRequest:
+- _objc_msgSend$getLocalVoiceAssetsForLanguage:reply:
+- _objc_msgSend$getLocalVoiceResources:
+- _objc_msgSend$getLocalVoiceResourcesReply:
+- _objc_msgSend$getLocalVoicesForLanguage:reply:
+- _objc_msgSend$getSpeechIsActiveForConnectionReply:
+- _objc_msgSend$getSpeechIsActiveReply:
+- _objc_msgSend$getSubscribedVoiceAssetsWithClientID:forAccessoryID:reply:
+- _objc_msgSend$getSynthesisVoiceMatching:reply:
+- _objc_msgSend$getVoiceInfoForLanguageCode:name:footprint:gender:type:reply:
+- _objc_msgSend$getVoiceNamesForLanguage:reply:
+- _objc_msgSend$getVoiceResourceForLanguage:reply:
+- _objc_msgSend$hasAsset
+- _objc_msgSend$hasLevel
+- _objc_msgSend$hasPath
+- _objc_msgSend$hasSuffix:
+- _objc_msgSend$hasValidAudio
+- _objc_msgSend$immediateDownloadForNamespaceNames:allowExpensiveNetworking:error:
+- _objc_msgSend$inactiveVoiceAssets
+- _objc_msgSend$initForInputFeedback
+- _objc_msgSend$initWithAccessoryID:
+- _objc_msgSend$initWithAccessoryId:
+- _objc_msgSend$initWithBlock:
+- _objc_msgSend$initWithCallback:
+- _objc_msgSend$initWithFactorLevel:
+- _objc_msgSend$initWithFactorName:
+- _objc_msgSend$initWithFilePath:initialSize:
+- _objc_msgSend$initWithLanguage:
+- _objc_msgSend$initWithListenerEndpoint:
+- _objc_msgSend$initWithNSUUID:
+- _objc_msgSend$initWithProvider:queue:frequency:delegate:
+- _objc_msgSend$initWithString:
+- _objc_msgSend$initWithText:voice:phonemeSystem:
+- _objc_msgSend$initWithTrialVoice:
+- _objc_msgSend$initWithVoice:previewType:
+- _objc_msgSend$initWithVoiceName:languageCode:gender:
+- _objc_msgSend$initializeWithResourcePath:
+- _objc_msgSend$insertObject:atIndex:
+- _objc_msgSend$insertString:atIndex:
+- _objc_msgSend$installedTrialVoiceResources
+- _objc_msgSend$installedTrialVoicesForType:voiceName:language:footprint:
+- _objc_msgSend$invokeDaemon:
+- _objc_msgSend$invokeUpdateWithObject:
+- _objc_msgSend$isHomePod
+- _objc_msgSend$isInstalled
+- _objc_msgSend$isLocal
+- _objc_msgSend$isNeuralTTSPlatform
+- _objc_msgSend$isPlayingPreview
+- _objc_msgSend$isSystemSpeaking
+- _objc_msgSend$isSystemSpeakingOnBehalfOfCurrentConnection
+- _objc_msgSend$killDaemon
+- _objc_msgSend$lastPathComponent
+- _objc_msgSend$lengthOfBytesUsingEncoding:
+- _objc_msgSend$level
+- _objc_msgSend$levelForFactor:withNamespaceName:
+- _objc_msgSend$loadResourceAtPath:mimeType:error:
+- _objc_msgSend$localizedDescription
+- _objc_msgSend$localizedOOBStringForKey:language:
+- _objc_msgSend$localizedStringForKey:language:table:
+- _objc_msgSend$lowInactiveMemory
+- _objc_msgSend$mainBundle
+- _objc_msgSend$markerBuffer
+- _objc_msgSend$metadata
+- _objc_msgSend$migrateAssetIfNeededWithAssetType:
+- _objc_msgSend$migrateDefaults
+- _objc_msgSend$mimeForFileExtension:
+- _objc_msgSend$mutableAudioData
+- _objc_msgSend$mutableDescription
+- _objc_msgSend$now
+- _objc_msgSend$numberWithFloat:
+- _objc_msgSend$objectAtIndexedSubscript:
+- _objc_msgSend$opaqueSessionID
+- _objc_msgSend$pathExtension
+- _objc_msgSend$pathForResource:ofType:
+- _objc_msgSend$pauseHandler
+- _objc_msgSend$pauseSpeechRequest:atMark:
+- _objc_msgSend$phonemeBuffer
+- _objc_msgSend$playVoicePreviewForLanguageCode:voiceName:previewType:completion:
+- _objc_msgSend$pointer
+- _objc_msgSend$predefinedStringForKey:language:table:
+- _objc_msgSend$preferredDownloadForVoice:
+- _objc_msgSend$preferredLocalizations
+- _objc_msgSend$preferredLocalizationsFromArray:forPreferences:
+- _objc_msgSend$prewarmIfNeededWithRequest:reply:
+- _objc_msgSend$processIdentifier
+- _objc_msgSend$processMarkerBuffer
+- _objc_msgSend$processName
+- _objc_msgSend$queryPhaticCapabilityWithRequest:
+- _objc_msgSend$queryPhaticCapabilityWithRequest:reply:
+- _objc_msgSend$queryPhaticCapabilityWithVoice:reply:
+- _objc_msgSend$raise:format:
+- _objc_msgSend$rangeOfString:
+- _objc_msgSend$rangeOfString:options:range:
+- _objc_msgSend$refresh
+- _objc_msgSend$refreshTrialClient
+- _objc_msgSend$remoteObjectProxyWithErrorHandler:
+- _objc_msgSend$removeItemAtPath:error:
+- _objc_msgSend$removeLastObject
+- _objc_msgSend$removeLevelsForFactors:withNamespace:queue:completion:
+- _objc_msgSend$removeTrialVoice:completion:
+- _objc_msgSend$removeTrialVoiceResource:completion:
+- _objc_msgSend$removeUpdateHandlerForToken:
+- _objc_msgSend$removeVoice:completion:
+- _objc_msgSend$removeVoiceResource:completion:
+- _objc_msgSend$reportDownloadMetrics:
+- _objc_msgSend$reportEvent:payload:
+- _objc_msgSend$requests
+- _objc_msgSend$resetCache
+- _objc_msgSend$resource
+- _objc_msgSend$resourceFromTrial:
+- _objc_msgSend$rolloutIdentifiersWithNamespaceName:
+- _objc_msgSend$sampleBuffer
+- _objc_msgSend$selectVoiceForLang:name:type:gender:footprint:
+- _objc_msgSend$selectVoiceResourceWithLanguage:
+- _objc_msgSend$set
+- _objc_msgSend$setAllowCellularData:
+- _objc_msgSend$setAllowDiscretionary:
+- _objc_msgSend$setAttributedText:
+- _objc_msgSend$setAttributes:range:
+- _objc_msgSend$setClasses:forSelector:argumentIndex:ofReply:
+- _objc_msgSend$setConnection:
+- _objc_msgSend$setContextId:
+- _objc_msgSend$setData:
+- _objc_msgSend$setDidGenerateAudio:
+- _objc_msgSend$setDiscretionaryBehavior:
+- _objc_msgSend$setDownloadProgress:
+- _objc_msgSend$setEndpoint:
+- _objc_msgSend$setErrorCodes:
+- _objc_msgSend$setEventMetadata:
+- _objc_msgSend$setExportedInterface:
+- _objc_msgSend$setExportedObject:
+- _objc_msgSend$setFailed:
+- _objc_msgSend$setHandler:
+- _objc_msgSend$setHasAlignmentStall:
+- _objc_msgSend$setHasAudioClick:
+- _objc_msgSend$setIdentifier:
+- _objc_msgSend$setInvalidationHandler:
+- _objc_msgSend$setIsPlayingPreview:
+- _objc_msgSend$setListener:
+- _objc_msgSend$setNeuralDidFallback:
+- _objc_msgSend$setOOBNeedsToBeMeasured:
+- _objc_msgSend$setOOBTriggeredDate:
+- _objc_msgSend$setPacketCount:
+- _objc_msgSend$setPacketDescriptions:
+- _objc_msgSend$setPauseHandler:
+- _objc_msgSend$setQueue:
+- _objc_msgSend$setResource:
+- _objc_msgSend$setSetupTimeInterval:
+- _objc_msgSend$setShouldStreamAudioData:
+- _objc_msgSend$setSpeechContext:
+- _objc_msgSend$setStopHandler:
+- _objc_msgSend$setStopMark:
+- _objc_msgSend$setSubscribedVoiceAssets:withClientID:forAccessoryID:
+- _objc_msgSend$setTtsId:
+- _objc_msgSend$setWithObject:
+- _objc_msgSend$setXpcConnection:
+- _objc_msgSend$sha256hex
+- _objc_msgSend$sharedInstance
+- _objc_msgSend$sharedManager
+- _objc_msgSend$sharedService
+- _objc_msgSend$sharedStream
+- _objc_msgSend$shouldDownloadTrialResource:
+- _objc_msgSend$shouldDownloadTrialVoice:
+- _objc_msgSend$speakWithPreviewRequest:didFinish:
+- _objc_msgSend$speechSynthesizer:daemonDidCrashWithError:
+- _objc_msgSend$speechSynthesizer:didContinueSpeakingRequest:
+- _objc_msgSend$speechSynthesizer:didPauseSpeakingRequest:
+- _objc_msgSend$speechSynthesizer:willSpeakRangeOfSpeechString:forRequest:
+- _objc_msgSend$speechSynthesizer:withSynthesisRequest:didGenerateAudioChunk:
+- _objc_msgSend$startPhonemesRequest:phonemeSystem:reply:
+- _objc_msgSend$startPresynthesizedAudioRequest:
+- _objc_msgSend$startSpeechRequest:
+- _objc_msgSend$startSpeechRequest:reply:
+- _objc_msgSend$startSynthesisRequest:
+- _objc_msgSend$stopHandler
+- _objc_msgSend$stopPlayingVoicePreview
+- _objc_msgSend$stopPresynthesizedAudioRequest:
+- _objc_msgSend$stopSpeechRequest:atMark:
+- _objc_msgSend$stringByAppendingFormat:
+- _objc_msgSend$stringByAppendingString:
+- _objc_msgSend$stringWithCapacity:
+- _objc_msgSend$subscribeWithVoices:reply:
+- _objc_msgSend$subscribedVoicesForClientID:accessoryID:
+- _objc_msgSend$subscribedVoicesWithClientId:reply:
+- _objc_msgSend$subscribedVoicesWithReply:
+- _objc_msgSend$synchronousRemoteObjectProxyWithErrorHandler:
+- _objc_msgSend$synthesisCallback:
+- _objc_msgSend$textToPhonemeWithRequest:didFinish:
+- _objc_msgSend$timingInfosFrom:withText:
+- _objc_msgSend$timingPlistForLanguage:
+- _objc_msgSend$trialService
+- _objc_msgSend$trialVoice
+- _objc_msgSend$triggerCellularDownloadedVoiceAssets:withClientID:
+- _objc_msgSend$unsignedIntegerValue
+- _objc_msgSend$updateWithConnectionIdentifier:keepActive:
+- _objc_msgSend$useSiriTTSService
+- _objc_msgSend$useSiriTTSServiceV2
+- _objc_msgSend$utf16OffsetFromUTF8:
+- _objc_msgSend$utf8BytesForChar:
+- _objc_msgSend$validateAudioCachingRequest:
+- _objc_msgSend$validateAudioRequest:
+- _objc_msgSend$validatePrewarmRequest:
+- _objc_msgSend$validateRequest:
+- _objc_msgSend$valueWithNonretainedObject:
+- _objc_msgSend$version
+- _objc_msgSend$voice
+- _objc_msgSend$voiceAssetsForSubscription:
+- _objc_msgSend$vs_markerStringForContext:
+- _objc_msgSend$whitespaceAndNewlineCharacterSet
+- _objc_msgSend$xpcConnection
+- _objc_retainAutoreleaseReturnValue
+- _objc_retain_x3
+- _objc_retain_x4
+- _objc_retain_x5
+- _objc_retain_x7
+- _objc_retain_x9
+- _rand
+- _sharedInstance.onceToken.2821
+- _sharedService.__sharedService
+- _sharedService.onceToken
+- _soft_BYSetupAssistantNeedsToRun
+- _strcmp
+- _strlen
+CStrings:
++ "!"
++ "#Trial voice download is unsupported"
++ "$"
++ "listAssetsOfTypes:matching:"
++ "mobileAsset"
++ "stringValue"
++ "supportedLanguages"
++ "versionNumber"
++ "voiceResources"
+- "\x1b\\audio="
+- "\x1b\\audio=\"%@\"\\"
+- "\x1b\\tn="
+- "\x1b\\tn=normal\\"
+- "\x1b\\toi=lhp\\"
+- "\x1b\\toi=orth\\"
+- " %@ %@"
+- "!2"
+- "\""
+- "\"></phoneme>"
+- "#EstimateDuration Received duration: %.2f, for text: %@"
+- "#EstimateDuration Request text: %@"
+- "#MobileAsset Cached voice resource is corrupted %@"
+- "#MobileAsset Cleaning voice assets is disabled in internal setting. Skip cleaning..."
+- "#MobileAsset Found cached voice resource %@ for %{public}@"
+- "#MobileAsset Found voice resource %@ for %{public}@"
+- "#MobileAsset Unable to find asset for VoiceResources %{public}@"
+- "#MobileAsset current in-use asset, %@"
+- "#MobileAsset ignore VoiceOver asset, %@"
+- "#MobileAsset migrate '%@', error: %@"
+- "#MobileAsset migrate '%@', success"
+- "#PrewarmRequest %llu from client %{public}@, request: %@"
+- "#RoughEstimateDuration Request utterance: %@"
+- "#RoughEstimateDuration calculated duration: %.2f, using %@ locale, for text: %@"
+- "#TTPRequest %llu Received phonemes: %@, for text: %{public}@"
+- "#Trial Cancelling voice download: %{public}@"
+- "#Trial Cancelling voice downloads: %{public}@"
+- "#Trial Cannot find any Trial resource for language %@"
+- "#Trial Cannot find any Trial resource, skip downloading. Target resource: %@"
+- "#Trial Downloaded asset with factor name: %@"
+- "#Trial Downloading asset with factor name: %@, discretionary:%d, allowCellular:%d"
+- "#Trial Enqueue downloading resource: %@"
+- "#Trial Enqueued downloading: %{public}@"
+- "#Trial Error downloading resource: %@, error: %@"
+- "#Trial Error: Factor has no level. It will be ignored. Factor name: %@"
+- "#Trial Error: resource should be as directory. Factor name: %@"
+- "#Trial Error: voice is not deployed. It will be ignored. Factor name: %@"
+- "#Trial Error: voice should be as directory. Factor name: %@"
+- "#Trial Factor '%@' doesn't seem to be a file."
+- "#Trial Factor '%@' doesn't seem to be directory."
+- "#Trial Factor '%@' is not downloaded yet."
+- "#Trial Finished downloading SIRI_TEXT_TO_SPEECH namespace."
+- "#Trial Found local MobileAsset voice with same or higher version, skip downloading. Target voice: %@"
+- "#Trial Found local resource, skip downloading. Target resource: %@"
+- "#Trial Found local voice, skip downloading. Target voice: %@"
+- "#Trial Found same or newer resource in MobileAsset, skip downloading. Target resource: %@"
+- "#Trial Found suitable voice: %{public}@"
+- "#Trial No MobileAsset resource found, will download Trial resource. Target resource: %@"
+- "#Trial Received namespace 'SIRI_TEXT_TO_SPEECH' update"
+- "#Trial Removed asset with factor name: %@"
+- "#Trial Removed voice: %@"
+- "#Trial Removing asset with factor name: %@"
+- "#Trial Removing voice: %@"
+- "#Trial Search voice asset for lang: %{public}@, name: %{public}@, type: %{public}@, footprint: %{public}@"
+- "#Trial Start downloading SIRI_TEXT_TO_SPEECH namespace."
+- "#Trial Start downloading for: %@"
+- "#Trial Unable to download Trial namespace. Error: %@"
+- "#Trial Unable to download asset with factor name: %@, error: %@"
+- "#Trial Unable to download namespace to download voice: %@, error: %@"
+- "#Trial Unable to find asset for factor name '%@'."
+- "#Trial Unable to find suitable voice to download for voice criteria: %@"
+- "#Trial Unable to remove asset with factor name '%@', error: %@"
+- "#Trial Unable to remove voice %@, error: %@"
+- "#Trial Unexpected resource factor name: %@"
+- "#Trial Unexpected voice factor name: %@"
+- "#Trial current in-use asset, %@"
+- "#Trial no installed voices found for lang: %{public}@, name: %{public}@, type: %{public}@, footprint: %{public}@"
+- "#Trial no suitable installed voices found for lang: %{public}@, name: %{public}@, type: %{public}@, footprint: %{public}@"
+- "#VoiceSubscription, client: %{public}@, accessory: %@, deduped voices: %@"
+- "#VoiceSubscription, client: %{public}@, accessory: %@, requested voices: %@"
+- "%"
+- "%02x"
+- "%@.resource.%@"
+- "%@.voice.%@.%@.%@.%@"
+- "%@:%@:%@:%@"
+- "%@_%d"
+- "%d files under voice path:"
+- "%s, Error: %@"
+- "%s, callback received in framework. %@"
+- "%s, error: %@"
+- "%{public}@ is not TTS language, VSSpeechSynthesizer fallback to %{public}@"
+- "%{public}@ is not TTS language, fallback to %{public}@"
+- "- %@"
+- "-[VSSpeechConnection _remoteObjectSync]_block_invoke"
+- "-[VSSpeechConnection forwardStreamObject:]_block_invoke"
+- "-[VSSpeechConnection isSystemSpeakingOnBehalfOfCurrentConnection]_block_invoke"
+- "-[VSSpeechConnection isSystemSpeaking]_block_invoke"
+- "-[VSSpeechConnection queryPhaticCapabilityWithRequest:]_block_invoke"
+- "-[VSSpeechSynthesizer connection:speechRequest:didStopAtEnd:phonemesSpoken:error:]_block_invoke"
+- "-[VSSpeechSynthesizer connection:synthesisRequest:didFinishWithInstrumentMetrics:error:]_block_invoke"
+- "-[VSSpeechSynthesizer estimateDurationOfRequest:completion:]_block_invoke"
+- ".cxx_construct"
+- ".version"
+- ".wav"
+- "/"
+- "/System/Library/PrivateFrameworks/VoiceServices.framework/TTSResources/Tones/"
+- "1"
+- "</%@>"
+- "</say-as>"
+- "<phoneme alphabet=\"lhp\" ph=\""
+- "<say-as interpret-as=\"%@\">"
+- "<speak>"
+- "@\"<TRINotificationToken>\""
+- "@\"<VSSpeechConnectionDelegate>\""
+- "@\"AFAudioPowerUpdater\""
+- "@\"NSAttributedString\""
+- "@\"NSDictionary\"8@?0"
+- "@\"NSError\""
+- "@\"NSMutableData\""
+- "@\"NSXPCListener\""
+- "@\"NSXPCListenerEndpoint\""
+- "@\"TRIClient\""
+- "@\"VSPresynthesizedAudioRequest\""
+- "@\"VSSpeechConnection\""
+- "@\"VSSpeechConnectionDelegateWrapper\""
+- "@\"VSSpeechRequest\""
+- "@\"VSSpeechSynthesisCallbackResult\""
+- "@\"VSTrialService\""
+- "@\"VSTrialVoice\""
+- "@24@0:8@?16"
+- "@28@0:8@16i24"
+- "@28@0:8q16B24"
+- "@32@0:8@16Q24"
+- "@32@0:8@?16@24"
+- "@36@0:8@16B24@?28"
+- "@36@0:8@16q24B32"
+- "@40@0:8@16@24^@32"
+- "@40@0:8@16@24q32"
+- "@48@0:8@16@24q32^@40"
+- "@48@0:8@16@24q32q40"
+- "@48@0:8q16@24@32q40"
+- "@?24@0:8@16"
+- "AFAudioPowerProviding"
+- "AFAudioPowerUpdater"
+- "AssistantEtiquette.wav"
+- "Audio caching request must be either inline streaming or audio request."
+- "Audio request has invalid audio data."
+- "Auto Downloaded Assets"
+- "B24@0:8@?16"
+- "B24@0:8^@16"
+- "B24@?0@\"VSTrialVoice\"8@\"NSDictionary\"16"
+- "B32@0:8@\"NSXPCListener\"16@\"NSXPCConnection\"24"
+- "B32@0:8@16@24"
+- "B32@0:8^f16^f24"
+- "B48@0:8@16@24q32@?40"
+- "BOOL soft_BYSetupAssistantNeedsToRun(void)"
+- "BYSetupAssistantNeedsToRun"
+- "Cache #PresynthesizedAudioRequest %llu: %@"
+- "Can't get VoiceResource: %@"
+- "Can't get all subscribed voice assets: %@"
+- "Can't get subscribed voice assets: %@"
+- "Can't get voice info: %@"
+- "Can't prewarm: %@"
+- "Can't start PhonemesRequest: %@"
+- "Cancel #PresynthesizedAudioRequest %llu from client %{public}@"
+- "Cancel #PresynthesizedAudioRequest from client %{public}@ was ignored, no request to stop"
+- "Cancel #SpeechRequest %llu from client %{public}@"
+- "Cancel #SpeechRequest from client %{public}@ was ignored, no request to stop"
+- "Class getAFAudioPowerUpdaterClass(void)_block_invoke"
+- "Cleaning unused assets."
+- "Cleaning voice assets is disabled in internal setting."
+- "Closing xpc connection %p"
+- "CoreAnalytics eventName:%@ not sent. Event name must not be in current config"
+- "Current xpc connection %@ does not match %@"
+- "DeviceSetup"
+- "Engine preheating latency: %.3f"
+- "Error #TTPRequest %@"
+- "Error %@ asking for voice footprints"
+- "Error %@ asking for voices"
+- "Error %s, %@"
+- "Error Stop #PresynthesizedAudioRequest %@"
+- "Error Stop #SpeechRequest %@"
+- "Error at %s , %@ "
+- "Error estimateDurationWithRequest:reply: %@"
+- "Error in tn override tag, ignore"
+- "Error setPitch 0x%zx"
+- "Error setRate 0x%zx"
+- "Error setVolume 0x%zx"
+- "Error updateWithConnectionIdentifier: %@"
+- "Exception: %s\n"
+- "Failed siritts_create_text_to_phoneme for voice %@, system %ld, with error: %s\n"
+- "Failed to initialize synthesizer due to missing voice path.\n"
+- "Failed to initialize synthesizer: %s\n"
+- "Failed to initialize synthesizer: %zu\n"
+- "Found prepared word timing info for voice '%@', text: '%@'"
+- "Hash"
+- "Ignore get voice subscription due to null clientId."
+- "Ignore voice subscription due to null clientId."
+- "Initializing engine with voice path: %@"
+- "Interstitials"
+- "Invalid #AudioCachingRequest: %@, error: %@"
+- "Invalid #PresynthesizedAudioRequest: %@, error: %@"
+- "Invalid #PrewarmRequest: %@, error: %@"
+- "Invalid #SpeechRequest: %@, error: %@"
+- "Invalid #SynthesisRequest: %@, error: %@"
+- "Invalid #TTPRequest from client %{public}@: %@, error: %@"
+- "Invalid audio request. Audio is invalid."
+- "Language must be provided for voice download."
+- "Loading resource: %@, mime-type: %@"
+- "Localize for '%@' in '%{public}@'"
+- "Missing text of inline streaming request."
+- "NSXPCListenerDelegate"
+- "Notify daemon crash from: %@"
+- "OOB subscription completion observed with %@ %@"
+- "OOB subscription start observed with %@ %@"
+- "OOBNeedsToBeMeasured"
+- "OOBTriggeredDate"
+- "Out of word boundary: %ld is greater than %ld"
+- "Pause #SpeechRequest %llu from client %{public}@, boundary: %@, synchronously: %{BOOL}d"
+- "Pause #SpeechRequest from client %{public}@ was ignored, no request to pause"
+- "Q20@0:8S16"
+- "Q24@0:8Q16"
+- "Q48@0:8r*16Q24Q32Q40"
+- "Request to download with cellular, client: %{public}@, language: %{public}@, gender: %ld, type: %ld, footprint: %ld, name: %{public}@"
+- "Resume #SpeechRequest %llu from client %{public}@"
+- "Resume #SpeechRequest from client %{public}@ was ignored, no request to resume"
+- "SIRI_TEXT_TO_SPEECH"
+- "SSML error"
+- "STS_cancelAudioRequest:"
+- "STS_cancelRequest:"
+- "STS_estimateDurationOfRequest:completion:"
+- "STS_getSynthesisVoiceMatching:reply:"
+- "STS_queryPhaticCapabilityWithRequest:reply:"
+- "STS_subscribeVoices:"
+- "STS_subscribedVoices:"
+- "STS_subscribedVoicesWithClientID:reply:"
+- "STS_textToPhonemesWithRequest:phonemeSystem:completion:"
+- "Search voices in Trial"
+- "Searching predefined string for '%@' in '%{public}@'"
+- "Skip immediate namespace download due to discretionary download option."
+- "Start #PresynthesizedAudioRequest %llu: %@"
+- "Start #SpeechRequest %llu from client %{public}@, %{public}@"
+- "Start #SynthesisRequest %llu from client %{public}@, %@"
+- "Start #TTPRequest %llu from client %{public}@"
+- "Stop #SpeechPresynthesizedAudioRequest %llu from client %{public}@, synchronously: %{BOOL}d"
+- "Stop #SpeechPresynthesizedAudioRequest from client %{public}@ was ignored, no request to stop"
+- "Stop #SpeechRequest %llu from client %{public}@, boundary: %@, synchronously: %{BOOL}d"
+- "Stop #SpeechRequest from client %{public}@ was ignored, no request to stop"
+- "Successfully reportEvent with domain '%@'"
+- "T@\"<TRINotificationToken>\",&,N,V_trialNotificationToken"
+- "T@\"<VSSpeechConnectionDelegate>\",W,N,V_delegate"
+- "T@\"AFAudioPowerUpdater\",&,N,V_audioPowerUpdater"
+- "T@\"NSArray\",&,N,V_cachedResources"
+- "T@\"NSArray\",&,N,V_cachedVoices"
+- "T@\"NSArray\",C,N,V_resourceList"
+- "T@\"NSAttributedString\",C,N,V_attributedText"
+- "T@\"NSData\",&,N"
+- "T@\"NSDate\",&,N"
+- "T@\"NSDictionary\",&,N,V_wordTimings"
+- "T@\"NSDictionary\",C,N,V_resourceMimeTypes"
+- "T@\"NSError\",&,N,V_error"
+- "T@\"NSLock\",&,N,V_clientRefreshLock"
+- "T@\"NSLock\",&,N,V_synthesisLock"
+- "T@\"NSMutableArray\",&,N,V_audioRequests"
+- "T@\"NSMutableArray\",&,N,V_requests"
+- "T@\"NSMutableArray\",&,N,V_wordTimings"
+- "T@\"NSMutableData\",&,N,V_fallbackInMemoryData"
+- "T@\"NSMutableData\",&,N,V_mutableAudioData"
+- "T@\"NSMutableData\",&,N,V_mutableDescription"
+- "T@\"NSMutableDictionary\",&,N,V_concurrentSynthesisRequests"
+- "T@\"NSMutableDictionary\",&,N,V_durationRequests"
+- "T@\"NSNumber\",C,V_downloadSize"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_audioPowerUpdaterQueue"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_downloadQueue"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_queue"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_threadSafeQueue"
+- "T@\"NSString\",&,N,V_filePath"
+- "T@\"NSString\",&,N,V_path"
+- "T@\"NSString\",&,N,V_voice"
+- "T@\"NSString\",C,N,V_language"
+- "T@\"NSString\",R,N"
+- "T@\"NSString\",R,V_voiceDownloadKey"
+- "T@\"NSXPCConnection\",&,N,V_xpcConnection"
+- "T@\"NSXPCListener\",&,N,V_listener"
+- "T@\"NSXPCListenerEndpoint\",&,N,V_endpoint"
+- "T@\"TRIClient\",&,N,V_triClient"
+- "T@\"VSPresynthesizedAudioRequest\",&,N,V_currentAudioRequest"
+- "T@\"VSSpeechConnection\",W,N,V_connection"
+- "T@\"VSSpeechConnectionDelegateWrapper\",&,N,V_delegateWrapper"
+- "T@\"VSSpeechRequest\",&,N,V_currentRequest"
+- "T@\"VSSpeechSynthesisCallbackResult\",&,N,V_currentCallbackResult"
+- "T@\"VSTrialService\",&,N,V_trialService"
+- "T@\"VSTrialService\",R,N"
+- "T@\"VSTrialVoice\",&,V_trialVoice"
+- "T@?,C,N,V_callback"
+- "T@?,C,N,V_completion"
+- "T@?,C,N,V_handler"
+- "TB,N,V_hasAlignmentStall"
+- "TB,N,V_hasAudioClick"
+- "TB,N,V_keepActive"
+- "TB,N,V_neuralDidFallback"
+- "TB,N,V_shouldCleanFile"
+- "TB,V_discretionary"
+- "TB,V_isCellularAllowed"
+- "TQ,N,V_assetSize"
+- "TQ,N,V_lastUTF16Offset"
+- "TQ,N,V_lastUTF8Offset"
+- "TQ,N,V_mappedLength"
+- "TQ,N,V_numOfPromptsTriggered"
+- "TQ,N,V_pcmBufferSize"
+- "TQ,N,V_samplesProcessed"
+- "TQ,N,V_totalLength"
+- "TQ,N,V_version"
+- "TTSSynthesizer::load_voice_resource"
+- "TTSSynthesizer::synthesize_text_with_markers_async"
+- "TTSWordTimings"
+- "T^v,N,V_mmappedData"
+- "T^v,N,V_synthesizer"
+- "Target voice to download: %@"
+- "Td,V_setupTimeInterval"
+- "Tf,V_downloadProgress"
+- "Tq,N,V_compatibilityVersion"
+- "Tq,N,V_packetCount"
+- "Tq,N,V_state"
+- "Tq,N,V_stopMark"
+- "Tq,R,V_downloadBeginTimestamp"
+- "Tq,R,V_downloadEndTimestamp"
+- "Trial"
+- "T{AudioStreamBasicDescription=dIIIIIIII},N,V_asbd"
+- "T{AudioStreamBasicDescription=dIIIIIIII},R,N,V_asbd"
+- "T{_opaque_pthread_mutex_t=q[56c]},N,V_lock"
+- "T{shared_ptr<SiriTTS::VoiceResource>=^{VoiceResource}^{__shared_weak_count}},V_resource"
+- "URLForResource:withExtension:subdirectory:localization:"
+- "UUID"
+- "UUIDString"
+- "Unable to find '%{public}@' localized string for key '%@', return empty string"
+- "Unable to find '%{public}@' predefined string for key '%@', return default en-US string"
+- "Unable to find '%{public}@' predefined string for key '%@', return empty string"
+- "Unable to find class %s"
+- "Unable to find mime-type for '%@'"
+- "Unable to get synthesis voice, error %@"
+- "Unable to load resource '%@'"
+- "Unable to locate word '%@' in '%@'"
+- "Unable to mmap file, errno: %d, error: %s"
+- "Unable to resize mapped file, errno: %d, error: %s"
+- "Unable to subscribe voice, error %@"
+- "Unexpected multiple resources from Trial."
+- "Unexpected multiple voices."
+- "Unknown voice resource handle to unload: %@"
+- "Url doesn't conform to RFC 1808 '%@'"
+- "VOICE_SERVICES_NETWORK_STALL"
+- "VOICE_SERVICES_OOB_HEY_SIRI_CAPABILITIES"
+- "VOICE_SERVICES_OOB_HEY_SIRI_CLOCK"
+- "VOICE_SERVICES_OOB_HEY_SIRI_CLOCK_PLANK_TIMER"
+- "VOICE_SERVICES_OOB_HEY_SIRI_HOME"
+- "VOICE_SERVICES_OOB_HEY_SIRI_MUSIC"
+- "VOICE_SERVICES_OOB_HEY_SIRI_NEWS"
+- "VOICE_SERVICES_OOB_HEY_SIRI_WEATHER"
+- "VOICE_SERVICES_OOB_HEY_SIRI_WEATHER_2"
+- "VOICE_SERVICES_OOB_SIRI_CAPABILITIES"
+- "VOICE_SERVICES_OOB_SIRI_CAPABILITY_CLOCK"
+- "VOICE_SERVICES_OOB_SIRI_CAPABILITY_HOME"
+- "VOICE_SERVICES_OOB_SIRI_CAPABILITY_MUSIC"
+- "VOICE_SERVICES_OOB_SIRI_CAPABILITY_NEWS"
+- "VOICE_SERVICES_OOB_SIRI_CAPABILITY_WEATHER"
+- "VOICE_SERVICES_OOB_SIRI_INTRO"
+- "VOICE_SERVICES_OOB_TRY_SAY_0"
+- "VOICE_SERVICES_OOB_TRY_SAY_1"
+- "VSAnalytics"
+- "VSAudioPowerUpdateQueue"
+- "VSDownloadMetrics"
+- "VSDurationRequest"
+- "VSFormatArgument"
+- "VSGenericBlockHolder"
+- "VSGenericUpdate"
+- "VSGenericUpdateEndpoint"
+- "VSLocalizedString"
+- "VSMappedData"
+- "VSMappedData%p"
+- "VSPhonemeTool"
+- "VSPreferencesInterface.m"
+- "VSSpeechAdditions"
+- "VSSpeechConnection"
+- "VSSpeechConnectionDelegate"
+- "VSSpeechConnectionDelegateWrapper"
+- "VSSpeechEngine %p finished synthesis."
+- "VSSpeechEngine %p started synthesis."
+- "VSSpeechEngineVoiceResource"
+- "VSSpeechServiceDelegate"
+- "VSSpeechSynthesisCallbackResult"
+- "VSSpeechSynthesizer keepActive must be true before prewarming."
+- "VSSpeechSynthesizer.m"
+- "VSSpeechSynthesizerPreference"
+- "VSSpeechSynthesizer_%p@%@_%d"
+- "VSSpeechXPCServiceProtocol"
+- "VSTrialService"
+- "VSTrialService.downloadQueue"
+- "VSTrialServiceErrorDomain"
+- "VSTrialVoice"
+- "VSTrialVoiceResource"
+- "VSVocalizerEngine"
+- "VSWordTimingService"
+- "Voice"
+- "Voice factor name: %@"
+- "VoiceResource"
+- "Vv24@0:8@\"SATTSSpeechSynthesisStreaming\"16"
+- "Vv24@0:8@\"VSPresynthesizedAudioRequest\"16"
+- "Vv24@0:8@\"VSSpeechRequest\"16"
+- "Vv24@0:8@16"
+- "Vv24@0:8@?16"
+- "Vv24@0:8@?<v@?@\"AFXPCWrapper\">16"
+- "Vv24@0:8@?<v@?@\"NSArray\">16"
+- "Vv24@0:8@?<v@?@\"NSArray\"@\"NSError\">16"
+- "Vv24@0:8@?<v@?@\"NSError\">16"
+- "Vv24@0:8@?<v@?B>16"
+- "Vv24@0:8@?<v@?i>16"
+- "Vv28@0:8@\"NSString\"16B24"
+- "Vv28@0:8@16B24"
+- "Vv32@0:8@\"NSArray\"16@\"NSString\"24"
+- "Vv32@0:8@\"NSString\"16@?<v@?@\"NSArray\">24"
+- "Vv32@0:8@\"NSString\"16@?<v@?@\"NSArray\"@\"NSError\">24"
+- "Vv32@0:8@\"NSString\"16@?<v@?@\"VSVoiceResourceAsset\">24"
+- "Vv32@0:8@\"VSSpeechRequest\"16@\"NSArray\"24"
+- "Vv32@0:8@\"VSSpeechRequest\"16@\"VSAudioData\"24"
+- "Vv32@0:8@\"VSSpeechRequest\"16@\"VSInstrumentMetrics\"24"
+- "Vv32@0:8@\"VSSpeechRequest\"16@?<v@?>24"
+- "Vv32@0:8@\"VSSpeechRequest\"16@?<v@?@\"NSError\">24"
+- "Vv32@0:8@\"VSSpeechRequest\"16@?<v@?B>24"
+- "Vv32@0:8@\"VSSpeechRequest\"16@?<v@?d@\"NSError\">24"
+- "Vv32@0:8@\"VSSpeechRequest\"16q24"
+- "Vv32@0:8@16@24"
+- "Vv32@0:8@16@?24"
+- "Vv32@0:8@16q24"
+- "Vv36@0:8@\"VSPresynthesizedAudioRequest\"16B24@\"NSError\"28"
+- "Vv36@0:8@16B24@28"
+- "Vv40@0:8@\"NSArray\"16@\"NSString\"24@\"NSUUID\"32"
+- "Vv40@0:8@\"NSString\"16@\"NSString\"24@?<v@?@\"NSArray\">32"
+- "Vv40@0:8@\"NSString\"16@\"NSUUID\"24@?<v@?@\"NSArray\">32"
+- "Vv40@0:8@\"VSPresynthesizedAudioRequest\"16@\"VSInstrumentMetrics\"24@\"NSError\"32"
+- "Vv40@0:8@\"VSSpeechRequest\"16@\"VSInstrumentMetrics\"24@\"NSError\"32"
+- "Vv40@0:8@\"VSSpeechRequest\"16q24@?<v@?@\"NSString\"@\"NSError\">32"
+- "Vv40@0:8@16@24@32"
+- "Vv40@0:8@16@24@?32"
+- "Vv40@0:8@16q24@?32"
+- "Vv44@0:8@\"VSSpeechRequest\"16B24@\"NSString\"28@\"NSError\"36"
+- "Vv44@0:8@16B24@28@36"
+- "Vv48@0:8@\"VSSpeechRequest\"16q24{_NSRange=QQ}32"
+- "Vv48@0:8@16q24{_NSRange=QQ}32"
+- "Vv64@0:8@\"NSString\"16@\"NSString\"24q32q40q48@?<v@?@\"VSVoiceAsset\"@\"NSError\">56"
+- "Vv64@0:8@16@24q32q40q48@?56"
+- "\\"
+- "^v16@0:8"
+- "^v24@0:8Q16"
+- "_MALE"
+- "_appendToFallbackMemory:"
+- "_appendToMappedMemory:"
+- "_assetSize"
+- "_attributedText"
+- "_audioPowerUpdater"
+- "_audioPowerUpdaterQueue"
+- "_audioRequests"
+- "_block"
+- "_cachedResources"
+- "_cachedVoices"
+- "_callback"
+- "_clientRefreshLock"
+- "_completion"
+- "_concurrentSynthesisRequests"
+- "_connection"
+- "_connectionInvalidated"
+- "_continueSpeakingRequest"
+- "_convertToFallbackMemory"
+- "_currentAudioRequest"
+- "_currentCallbackResult"
+- "_currentRequest"
+- "_definedVoicesWithLanguage:name:type:footprint:"
+- "_delegateWrapper"
+- "_directoryOfFactorName:"
+- "_discretionary"
+- "_downloadBeginTimestamp"
+- "_downloadEndTimestamp"
+- "_downloadFactorName:withOptions:progress:completion:"
+- "_downloadProgress"
+- "_downloadQueue"
+- "_durationRequests"
+- "_endpoint"
+- "_error"
+- "_fallbackInMemoryData"
+- "_fileOfFactorName:"
+- "_filePath"
+- "_hasAlignmentStall"
+- "_hasAudioClick"
+- "_isCellularAllowed"
+- "_keepActive"
+- "_language"
+- "_lastUTF16Offset"
+- "_lastUTF8Offset"
+- "_listener"
+- "_mappedLength"
+- "_markers"
+- "_mmappedData"
+- "_mobileAssetVoiceResourceWithLanguage:"
+- "_mutableAudioData"
+- "_mutableDescription"
+- "_neuralDidFallback"
+- "_numOfPromptsTriggered"
+- "_packetCount"
+- "_path"
+- "_pauseSpeakingRequestAtNextBoundary:synchronously:"
+- "_pcmBufferSize"
+- "_phonemeBuffer"
+- "_remoteObject"
+- "_remoteObjectSync"
+- "_remoteObjectWithErrorHandler:"
+- "_removeAssetWithFactorName:completion:"
+- "_removeTrialVoices:completion:"
+- "_resource"
+- "_resourceList"
+- "_resourceMimeTypes"
+- "_samples"
+- "_samplesProcessed"
+- "_setQueue:"
+- "_setupTimeInterval"
+- "_shouldCleanFile"
+- "_state"
+- "_stopMark"
+- "_stopSpeakingPresynthesizedAudioRequest:synchronously:"
+- "_stopSpeakingRequest:atNextBoundary:synchronously:"
+- "_synthesisLock"
+- "_synthesizerFlags"
+- "_threadSafeQueue"
+- "_totalLength"
+- "_triClient"
+- "_trialNotificationToken"
+- "_trialService"
+- "_trialVoice"
+- "_trialVoiceResourceWithLanguage:"
+- "_trialVoiceWithLanguage:name:type:footprint:"
+- "_version"
+- "_voiceDownloadKey"
+- "_wordTimings"
+- "_xpcConnection"
+- "accessoryId"
+- "activeVoiceAssets"
+- "addUpdateHandlerForNamespaceName:usingBlock:"
+- "adjustWordTimingInfo:forContext:"
+- "allowing_cellular"
+- "anonymousListener"
+- "appendRandomizationKey:withCount:"
+- "appendString:withAttributes:"
+- "application/edct-bin-dictionary"
+- "application/x-vocalizer-rettt+text"
+- "ar-SA"
+- "arrayForKey:"
+- "arrayWithArray:"
+- "arrayWithContentsOfFile:"
+- "asbd"
+- "assetId"
+- "assetSize"
+- "attributedStringWithFormatAndAttributes:"
+- "attributedText"
+- "audioPowerUpdater"
+- "audioPowerUpdaterQueue"
+- "audioRequest:didReportInstrumentMetrics:error:"
+- "audioRequest:didStopAtEnd:error:"
+- "audioRequestDidStart:"
+- "audioRequests"
+- "autoDownloadedAssets"
+- "availableFootprintsForVoice:languageCode:"
+- "availableLanguageCodes"
+- "availableLanguages"
+- "basic_string"
+- "beginAudioPowerUpdateWithReply:"
+- "beginUpdate"
+- "bytesAtOffset:"
+- "cachePresynthesizedAudioRequest:"
+- "cachedResources"
+- "cachedVoices"
+- "callback"
+- "cancelAudioRequest:"
+- "cancelDownload:completion:"
+- "cancelDownloads:completion:"
+- "cancelRequest:"
+- "candidateToDownloadForVoice:"
+- "cleanMobileAssetVoiceResourcesWithActiveLanguages:"
+- "cleanOldMobileAssetVoiceResources"
+- "cleanUnusedAssets"
+- "cleanUnusedAssets:"
+- "clearing auto-downloaded voice preferences for accessory %@"
+- "clientId"
+- "clientRefreshLock"
+- "clientWithIdentifier:"
+- "closeFile"
+- "com.apple.AssistantServices"
+- "com.apple.accessibility.AccessibilityUIServer"
+- "com.apple.accessibility.axassetsd"
+- "com.apple.assistantd"
+- "com.apple.siri.tts"
+- "com.apple.siri.tts.resource"
+- "com.apple.siri.tts.voice"
+- "com.apple.voiceservices.download"
+- "com.apple.voiceservices.metrics"
+- "com.apple.voiceservices.notification.synthesis-done"
+- "com.apple.voiceservices.notification.voice-purge"
+- "com.apple.voiceservices.notification.voice-update"
+- "com.apple.voiceservices.tts"
+- "com.apple.voiceservices.xpcconnection"
+- "completion"
+- "concatenateWithAudio:"
+- "concurrentSynthesisRequests"
+- "configuredEndpointWithUpdateHandler:withConnection:"
+- "connection"
+- "connection:invalidatedWithError:"
+- "connection:presynthesizedAudioRequest:didStopAtEnd:error:"
+- "connection:presynthesizedAudioRequest:successWithInstrumentMetrics:error:"
+- "connection:presynthesizedAudioRequestDidStart:"
+- "connection:speechRequest:didGenerateAudioChunk:"
+- "connection:speechRequest:didReceiveTimingInfo:"
+- "connection:speechRequest:didStopAtEnd:phonemesSpoken:error:"
+- "connection:speechRequest:successWithInstrumentMetrics:"
+- "connection:speechRequest:willSpeakMark:inRange:"
+- "connection:speechRequestDidContinue:"
+- "connection:speechRequestDidPause:"
+- "connection:speechRequestDidStart:"
+- "connection:synthesisRequest:didFinishWithInstrumentMetrics:error:"
+- "continueSpeakingWithError:"
+- "continueSpeechRequest:"
+- "createFileAtPath:contents:attributes:"
+- "createNewXPCWrapperWithCompletion:"
+- "currentAudioRequest"
+- "currentCallbackResult"
+- "currentRequest"
+- "da-DK"
+- "dataWithBytesNoCopy:length:freeWhenDone:"
+- "dcb"
+- "de"
+- "decodeBytesForKey:returnedLength:"
+- "decodePropertyListForKey:"
+- "defaultDownloadOptions"
+- "definedVoiceResourcesWithLanguage:"
+- "definedVoicesForLanguage:voiceName:type:footprint:"
+- "definedVoicesWithAssets:"
+- "definedVoicesWithLanguage:name:type:footprint:"
+- "delegateWrapper"
+- "derivedIdentifierForComponentName:fromSourceIdentifier:"
+- "deviceID"
+- "deviceUUID"
+- "dictionaryRepresentation"
+- "dictionaryRepresentationOfVoices:"
+- "didEndAccessPower"
+- "directoryValue"
+- "domain"
+- "doubleValue"
+- "downloadBeginTimestamp"
+- "downloadDuration"
+- "downloadEndTimestamp"
+- "downloadLevelsForFactors:withNamespace:queue:options:progress:completion:"
+- "downloadNamespaceImmediatelyIfNeededWithOption:completion:"
+- "downloadProgress"
+- "downloadQueue"
+- "downloadTrialVoiceResource:options:completion:"
+- "downloadVoice:withOptions:progress:completion:"
+- "downloadVoiceAsset:useBattery:progressUpdateHandler:"
+- "downloadVoiceResource:completion:"
+- "downloadVoiceResource:options:completion:"
+- "downloadVoiceResource:withOptions:progress:completion:"
+- "downloadVoiceResourceCatalogWithCompletion:"
+- "download_duration"
+- "download_progress"
+- "download_size"
+- "duration"
+- "durationRequests"
+- "emitMessage:"
+- "en"
+- "en-US"
+- "enableTrial"
+- "encodeBytes:length:forKey:"
+- "endAudioPowerUpdate"
+- "endMetrics"
+- "endUpdate"
+- "endpoint"
+- "enumerateObjectsUsingBlock:"
+- "error"
+- "errorWithReason:"
+- "es"
+- "estimateDurationOfRequest:completion:"
+- "estimateDurationWithRequest:didFinish:"
+- "estimateDurationWithRequest:reply:"
+- "estimatedTTSWordTimingForText:withLanguage:voiceName:"
+- "eventMetadata"
+- "extraBytesFromUTF8ToUTF16With:totalLength:begin:end:"
+- "factor"
+- "factorLevelsWithNamespaceName:"
+- "factorName"
+- "fallbackInMemoryData"
+- "fallbackLanguageForLanguage:"
+- "fileDescriptor"
+- "fileHandleForUpdatingAtPath:"
+- "filePath"
+- "fileValue"
+- "formatSpecifier"
+- "formattedArg"
+- "fr"
+- "generateTTSPhonemes:voicePath:phonemeSystem:error:"
+- "generic"
+- "getAllAutoDownloadedVoiceAssets:"
+- "getAllVoiceSubscriptionsWithReply:"
+- "getAudioPower:"
+- "getAutoDownloadedVoiceAssets:"
+- "getAveragePower:andPeakPower:"
+- "getFootprintsForVoiceName:languageCode:reply:"
+- "getLocalAudioRequest:"
+- "getLocalRequest:"
+- "getLocalVoiceResourcesReply:"
+- "getLocalVoicesForLanguage:reply:"
+- "getSpeechIsActiveForConnectionReply:"
+- "getSpeechIsActiveReply:"
+- "getSubscribedVoiceAssetsWithClientID:forAccessoryID:reply:"
+- "getSynthesisVoiceMatching:reply:"
+- "getVoiceInfoForLanguageCode:name:footprint:gender:type:reply:"
+- "getVoiceInfoForLanguageCode:name:type:footprint:reply:"
+- "getVoiceNamesForLanguage:reply:"
+- "getVoiceResourceForLanguage:reply:"
+- "hasAlignmentStall"
+- "hasAsset"
+- "hasAudioClick"
+- "hasLevel"
+- "hasPath"
+- "hasPhaticResponses:"
+- "hasSuffix:"
+- "i12@?0i8"
+- "i20@0:8i16"
+- "immediateDownloadForNamespaceNames cannot use discretionary download option."
+- "immediateDownloadForNamespaceNames:allowExpensiveNetworking:error:"
+- "inactiveVoiceAssets"
+- "initForInputFeedback"
+- "initWithAccessoryID:"
+- "initWithAccessoryId:"
+- "initWithBlock:"
+- "initWithCallback:"
+- "initWithFactorLevel:"
+- "initWithFactorName:"
+- "initWithFilePath:initialSize:"
+- "initWithListenerEndpoint:"
+- "initWithNSUUID:"
+- "initWithProvider:queue:frequency:delegate:"
+- "initWithString:"
+- "initWithText:voice:phonemeSystem:"
+- "initWithTrialVoice:"
+- "initWithVoice:previewType:"
+- "initWithVoiceName:languageCode:gender:"
+- "initWithVoicePath:resourcePath:"
+- "initializeWithResourcePath:"
+- "insertObject:atIndex:"
+- "insertString:atIndex:"
+- "installedTrialVoiceResources"
+- "installedTrialVoicesForType:voiceName:language:footprint:"
+- "invokeDaemon:"
+- "invokeUpdateWithObject:"
+- "isCellularAllowed"
+- "isLocal"
+- "isLowPowerDeviceNeuralEnabled"
+- "isSystemSpeakingOnBehalfOfCurrentConnection"
+- "isTrialEnabled"
+- "isUserCancelError:"
+- "it-IT"
+- "ja-JP"
+- "killDaemon"
+- "lastPathComponent"
+- "lastTTSRequestDate"
+- "lastUTF16Offset"
+- "lastUTF8Offset"
+- "lengthOfBytesUsingEncoding:"
+- "level"
+- "levelForFactor:withNamespaceName:"
+- "listener"
+- "listener:shouldAcceptNewConnection:"
+- "loadResource:error:"
+- "loadResourceAtPath:mimeType:error:"
+- "localizedDescription"
+- "localizedInterstitialStringForKey:language:"
+- "localizedOOBStringForKey:language:"
+- "localizedOOBStringForKey:language:gender:"
+- "localizedStringForKey:language:table:"
+- "lowPowerDeviceNeural"
+- "mainBundle"
+- "mappedLength"
+- "markerBuffer"
+- "metadata"
+- "migrateAssetIfNeededWithAssetType:"
+- "migrateAssetsWithProgress:"
+- "migrateDefaults"
+- "mimeForFileExtension:"
+- "mimeType"
+- "mmappedData"
+- "mutableAudioData"
+- "mutableDescription"
+- "mutablePCMData"
+- "nb-NO"
+- "neuralDidFallback"
+- "nl-NL"
+- "no"
+- "now"
+- "numOfPromptsTriggered"
+- "numberWithFloat:"
+- "objectAtIndexedSubscript:"
+- "opaqueSessionID"
+- "packetDescription"
+- "pathExtension"
+- "pathForResource:ofType:"
+- "pause request timeout"
+- "pauseSpeakingAtNextBoundary:synchronously:error:"
+- "pauseSpeechRequest:atMark:"
+- "pcmBufferSize"
+- "pcmData"
+- "phoneme"
+- "phonemeBuffer"
+- "phonemes"
+- "playVoicePreviewForLanguageCode:voiceName:previewType:completion:"
+- "predefinedStringForKey:language:table:"
+- "preferredDownloadForVoice:"
+- "preferredLocalizations"
+- "preferredLocalizationsFromArray:forPreferences:"
+- "preheat"
+- "preinstalledAudioHashForLanguage:name:"
+- "prewarmIfNeededWithRequest:reply:"
+- "processIdentifier"
+- "processMarkerBuffer"
+- "processName"
+- "pt"
+- "q24@?0@\"VSTrialVoice\"8@\"VSTrialVoice\"16"
+- "queryPhaticCapability:"
+- "queryPhaticCapabilityWithRequest:"
+- "queryPhaticCapabilityWithRequest:reply:"
+- "queryPhaticCapabilityWithVoice:reply:"
+- "queue"
+- "raise:format:"
+- "range"
+- "rangeOfString:"
+- "rangeOfString:options:range:"
+- "refresh"
+- "refreshTrialClient"
+- "remoteObjectProxyWithErrorHandler:"
+- "remoteUpdateHanderForEndpoint:"
+- "removeItemAtPath:error:"
+- "removeLastObject"
+- "removeLevelsForFactors:withNamespace:queue:completion:"
+- "removeSubscriptionsForAccessory:"
+- "removeTrialVoice:completion:"
+- "removeTrialVoiceResource:completion:"
+- "removeUpdateHandlerForToken:"
+- "removeVoice:completion:"
+- "reportDownloadMetrics:"
+- "reportEvent:payload:"
+- "reportInstrumentMetrics:"
+- "requests"
+- "resetCache"
+- "resetResourcesCache"
+- "resource"
+- "resourceFromTrial:"
+- "resourceList"
+- "resourceMimeTypes"
+- "rolloutIdentifiersWithNamespaceName:"
+- "ru-RU"
+- "sampleBuffer"
+- "samplesProcessed"
+- "say-as"
+- "selectVoiceResourceAssetForLanguage:"
+- "selectVoiceResourceWithLanguage:"
+- "selectVoiceWithLanguage:name:type:footprint:"
+- "set"
+- "setAssetSize:"
+- "setAttributedText:"
+- "setAttributes:range:"
+- "setAudioPowerUpdater:"
+- "setAudioPowerUpdaterQueue:"
+- "setAudioRequests:"
+- "setAutoDownloadedVoiceAssets:"
+- "setCachedResources:"
+- "setCachedVoices:"
+- "setCallback:"
+- "setClasses:forSelector:argumentIndex:ofReply:"
+- "setClientRefreshLock:"
+- "setCompletion:"
+- "setConcurrentSynthesisRequests:"
+- "setConnection:"
+- "setContextId:"
+- "setCurrentAudioRequest:"
+- "setCurrentCallbackResult:"
+- "setCurrentRequest:"
+- "setData:"
+- "setDelegateWrapper:"
+- "setDidGenerateAudio:"
+- "setDiscretionaryBehavior:"
+- "setDownloadProgress:"
+- "setDownloadQueue:"
+- "setDurationRequests:"
+- "setEndpoint:"
+- "setError:"
+- "setErrorCodes:"
+- "setEventMetadata:"
+- "setExportedInterface:"
+- "setExportedObject:"
+- "setFailed:"
+- "setFallbackInMemoryData:"
+- "setFilePath:"
+- "setHandler:"
+- "setHasAlignmentStall:"
+- "setHasAudioClick:"
+- "setInvalidationHandler:"
+- "setIsCellularAllowed:"
+- "setLanguage:"
+- "setLastTTSRequestDate:"
+- "setLastUTF16Offset:"
+- "setLastUTF8Offset:"
+- "setListener:"
+- "setLock:"
+- "setMappedLength:"
+- "setMmappedData:"
+- "setMutableAudioData:"
+- "setMutableDescription:"
+- "setNeuralDidFallback:"
+- "setNumOfPromptsTriggered:"
+- "setOOBNeedsToBeMeasured:"
+- "setOOBTriggeredDate:"
+- "setPacketCount:"
+- "setPacketDescriptions:"
+- "setPath:"
+- "setPcmBufferSize:"
+- "setQueue:"
+- "setRequests:"
+- "setResource:"
+- "setResourceList:"
+- "setResourceMimeTypes:"
+- "setSamplesProcessed:"
+- "setSetupTimeInterval:"
+- "setShouldCleanFile:"
+- "setSpeechContext:"
+- "setState:"
+- "setStopMark:"
+- "setSubscribedVoiceAssets:withClientID:forAccessoryID:"
+- "setSubscribedVoices:forClientID:accessoryID:"
+- "setSynthesisLock:"
+- "setSynthesizer:"
+- "setThreadSafeQueue:"
+- "setTotalLength:"
+- "setTriClient:"
+- "setTrialNotificationToken:"
+- "setTrialService:"
+- "setTrialVoice:"
+- "setTtsId:"
+- "setVersion:"
+- "setWithObject:"
+- "setWordTimings:"
+- "setXpcConnection:"
+- "setupTimeInterval"
+- "setup_duration"
+- "sha256hex"
+- "sharedService"
+- "sharedStream"
+- "shouldCleanFile"
+- "shouldDownloadTrialResource:"
+- "shouldDownloadTrialVoice:"
+- "softlink:o:path:/System/Library/PrivateFrameworks/SetupAssistant.framework/SetupAssistant"
+- "softlink:r:path:/System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices"
+- "speak"
+- "speakWithPreviewRequest:didFinish:"
+- "speechRequest:didReceiveTimingInfo:"
+- "speechRequest:didReportInstrumentMetrics:"
+- "speechRequest:didStartWithMark:forRange:"
+- "speechRequest:didStopWithSuccess:phonemesSpoken:error:"
+- "speechRequestDidContinue:"
+- "speechRequestDidPause:"
+- "speechRequestDidStart:"
+- "speechString"
+- "speechSynthesizer:daemonDidCrashWithError:"
+- "speechSynthesizer:didContinueSpeakingRequest:"
+- "speechSynthesizer:didPauseSpeakingRequest:"
+- "speechSynthesizer:willSpeakRangeOfSpeechString:forRequest:"
+- "speechSynthesizer:withSynthesisRequest:didGenerateAudioChunk:"
+- "startPhonemesRequest:phonemeSystem:reply:"
+- "startPresynthesizedAudioRequest:"
+- "startSpeechRequest:"
+- "startSpeechRequest:reply:"
+- "startSynthesisRequest:"
+- "stop presynthesized request timeout"
+- "stop request timeout"
+- "stopAtMarker:"
+- "stopMark"
+- "stopPlayingVoicePreview"
+- "stopPresynthesizedAudioRequest:"
+- "stopSpeechRequest:atMark:"
+- "stringByAppendingFormat:"
+- "stringByAppendingString:"
+- "stringWithCapacity:"
+- "strings"
+- "subscribeWithVoices:reply:"
+- "subscribedVoicesWithClientId:reply:"
+- "subscribedVoicesWithReply:"
+- "sv-SE"
+- "synchronousRemoteObjectProxyWithErrorHandler:"
+- "synthesisCallback:"
+- "synthesisLock"
+- "synthesisRequest:didFinishWithInstrumentMetrics:error:"
+- "synthesisRequest:didGenerateAudioChunk:"
+- "synthesisRequest:didReceiveTimingInfo:"
+- "synthesizeText:loggable:callback:"
+- "synthesizer"
+- "text is not set."
+- "textForAttributes"
+- "textToPhonemeWithRequest:didFinish:"
+- "textToPhonemesWithRequest:phonemeSystem:completion:"
+- "threadSafeQueue"
+- "timingInfosFrom:withText:"
+- "timingPlistForLanguage:"
+- "title"
+- "totalFrames"
+- "totalLength"
+- "triClient"
+- "trialNotificationToken"
+- "trialService"
+- "trialVoice"
+- "triggerCellularDownloadedVoiceAssets:"
+- "triggerCellularDownloadedVoiceAssets:withClientID:"
+- "tts.feature.phonemes"
+- "tts.metrics.alignment_stall"
+- "tts.metrics.audio_has_click"
+- "tts.neural.use_fallback"
+- "ttsCompatibilityVersion"
+- "ttsContentVersion"
+- "tts_language_fallbacks"
+- "tts_languages"
+- "txt"
+- "unbalanced phoneme tag"
+- "unbalanced say-as tag"
+- "unknown mime-type"
+- "unknown path"
+- "unloadResource:"
+- "unsignedIntegerValue"
+- "updateWithConnectionIdentifier:keepActive:"
+- "url"
+- "useSiriTTSService"
+- "useSiriTTSServiceV2"
+- "use_SiriTTSService"
+- "use_SiriTTSServiceV2"
+- "utf16OffsetFromUTF8:"
+- "utf16TimingInfoWithUTF8Range:withText:"
+- "utf8BytesForChar:"
+- "v12@?0f8"
+- "v16@?0@\"<TRINamespaceUpdateProtocol>\"8"
+- "v16@?0@\"AFXPCWrapper\"8"
+- "v16@?0@\"SiriTTSAudioData\"8"
+- "v16@?0@\"VSVoiceAsset\"8"
+- "v16@?0@8"
+- "v16@?0Q8"
+- "v16@?0f8f12"
+- "v20@?0B8@\"NSError\"12"
+- "v20@?0d8B16"
+- "v20@?0d8f16"
+- "v24@0:8^v16"
+- "v24@?0@\"NSString\"8@\"NSError\"16"
+- "v24@?0@\"SiriTTSSynthesisVoice\"8@\"NSError\"16"
+- "v24@?0@\"VSVoiceAsset\"8@\"NSError\"16"
+- "v24@?0d8@\"NSError\"16"
+- "v28@0:8@16B24"
+- "v32@0:8@\"VSSpeechConnection\"16@\"NSError\"24"
+- "v32@0:8@\"VSSpeechConnection\"16@\"VSPresynthesizedAudioRequest\"24"
+- "v32@0:8@\"VSSpeechConnection\"16@\"VSSpeechRequest\"24"
+- "v32@0:8@16q24"
+- "v32@0:8{shared_ptr<SiriTTS::VoiceResource>=^{VoiceResource}^{__shared_weak_count}}16"
+- "v32@?0@\"NSValue\"8@\"VSSpeechRequest\"16^B24"
+- "v32@?0@\"VSPresynthesizedAudioRequest\"8Q16^B24"
+- "v32@?0@\"VSSpeechRequest\"8Q16^B24"
+- "v36@0:8@16B24@?28"
+- "v40@0:8@\"VSSpeechConnection\"16@\"VSSpeechRequest\"24@\"NSArray\"32"
+- "v40@0:8@\"VSSpeechConnection\"16@\"VSSpeechRequest\"24@\"VSAudioData\"32"
+- "v40@0:8@\"VSSpeechConnection\"16@\"VSSpeechRequest\"24@\"VSInstrumentMetrics\"32"
+- "v40@0:8@16q24@?32"
+- "v44@0:8@\"VSSpeechConnection\"16@\"VSPresynthesizedAudioRequest\"24B32@\"NSError\"36"
+- "v44@0:8@16@24B32@36"
+- "v48@0:8@\"VSSpeechConnection\"16@\"VSPresynthesizedAudioRequest\"24@\"VSInstrumentMetrics\"32@\"NSError\"40"
+- "v48@0:8@\"VSSpeechConnection\"16@\"VSSpeechRequest\"24@\"VSInstrumentMetrics\"32@\"NSError\"40"
+- "v48@0:8@16@24@32@40"
+- "v48@0:8@16@24q32@?40"
+- "v52@0:8@\"VSSpeechConnection\"16@\"VSSpeechRequest\"24B32@\"NSString\"36@\"NSError\"44"
+- "v56@0:8@\"VSSpeechConnection\"16@\"VSSpeechRequest\"24q32{_NSRange=QQ}40"
+- "v56@0:8@16@24q32q40@?48"
+- "v56@0:8@16@24q32{_NSRange=QQ}40"
+- "v56@0:8{AudioStreamBasicDescription=dIIIIIIII}16"
+- "v64@0:8@16@24q32q40q48@?56"
+- "validateAudioCachingRequest:"
+- "validateAudioRequest:"
+- "validateRequest:"
+- "valueWithNonretainedObject:"
+- "vector"
+- "version"
+- "versionFactorNameWithFactorName:"
+- "vocalizer_resource_order"
+- "vocalizer_resources"
+- "voice path '%@', resource path '%@'\n"
+- "voiceAssetsForSubscription:"
+- "voiceDownloadKey"
+- "void *AssistantServicesLibrary(void)"
+- "void *SetupAssistantLibrary(void)"
+- "vs_convertToSSML"
+- "vs_hasCJKCharacter"
+- "vs_insertContextInfo:"
+- "vs_substituteAudioWithLocalPath"
+- "whitespaceAndNewlineCharacterSet"
+- "willBeginAccessPower"
+- "wordTimingInfoFrom:timestamps:"
+- "wordTimingInfos"
+- "wordTimings"
+- "word_timings"
+- "xpcConnection"
+- "zh"
+- "{?=\"delegateStartWithRequest\"b1\"delegateFinishWithPhonemesSpokenWithRequest\"b1\"delegateSuccessWithInstrumentMetrics\"b1\"delegatePauseWithRequest\"b1\"delegateContinueWithRequest\"b1\"delegateWillSpeakWithRequest\"b1\"delegateStreamSynthesisAudioData\"b1\"willUseInput\"b1\"delegateDidStartPreviewRequest\"b1}"
+- "{_NSRange=QQ}24@0:8@16"
+- "{shared_ptr<SiriTTS::VoiceResource>=\"__ptr_\"^{VoiceResource}\"__cntrl_\"^{__shared_weak_count}}"
+- "{shared_ptr<SiriTTS::VoiceResource>=^{VoiceResource}^{__shared_weak_count}}16@0:8"
+- "{vector<TTSSynthesizer::Marker, std::allocator<TTSSynthesizer::Marker>>=\"__begin_\"^{Marker}\"__end_\"^{Marker}\"\"{?=\"__cap_\"^{Marker}}}"
+- "{vector<std::string, std::allocator<std::string>>=\"__begin_\"^v\"__end_\"^v\"\"{?=\"__cap_\"^v}}"
+- "{vector<unsigned char, std::allocator<unsigned char>>=\"__begin_\"*\"__end_\"*\"\"{?=\"__cap_\"*}}"
+
+```

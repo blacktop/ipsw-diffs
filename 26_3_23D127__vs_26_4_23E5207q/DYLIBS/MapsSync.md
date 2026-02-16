@@ -1,0 +1,928 @@
+## MapsSync
+
+> `/System/Library/PrivateFrameworks/MapsSync.framework/MapsSync`
+
+```diff
+
+-165.33.11.13.1
+-  __TEXT.__text: 0x13dfbc
+-  __TEXT.__auth_stubs: 0x1700
++167.34.7.17.5
++  __TEXT.__text: 0x13be2c
++  __TEXT.__auth_stubs: 0x16e0
+   __TEXT.__objc_methlist: 0x3b84
+-  __TEXT.__const: 0x4287
+-  __TEXT.__cstring: 0x5bb5
++  __TEXT.__const: 0x40a8
++  __TEXT.__cstring: 0x1b93
+   __TEXT.__gcc_except_tab: 0x18
+-  __TEXT.__constg_swiftt: 0x5344
+-  __TEXT.__swift5_typeref: 0x1360
++  __TEXT.__constg_swiftt: 0x535c
++  __TEXT.__swift5_typeref: 0x1392
+   __TEXT.__swift5_builtin: 0xc8
+-  __TEXT.__swift5_reflstr: 0x12d4
+-  __TEXT.__swift5_fieldmd: 0x1478
++  __TEXT.__swift5_reflstr: 0x12e4
++  __TEXT.__swift5_fieldmd: 0x1484
+   __TEXT.__swift5_assocty: 0x330
+   __TEXT.__swift5_proto: 0x130
+   __TEXT.__swift5_types: 0x1fc
+   __TEXT.__swift5_capture: 0x5bac
+-  __TEXT.__swift_as_entry: 0x2e0
+-  __TEXT.__swift_as_ret: 0x324
++  __TEXT.__swift_as_entry: 0x2d8
++  __TEXT.__swift_as_ret: 0x31c
+   __TEXT.__swift5_protos: 0x18
+   __TEXT.__oslogstring: 0x14
+-  __TEXT.__unwind_info: 0x5720
+-  __TEXT.__eh_frame: 0x7f10
+-  __TEXT.__objc_classname: 0x1e
+-  __TEXT.__objc_methname: 0x4a02
+-  __TEXT.__objc_methtype: 0xad
+-  __TEXT.__objc_stubs: 0x40
+-  __DATA_CONST.__got: 0x438
++  __TEXT.__unwind_info: 0x59a8
++  __TEXT.__eh_frame: 0x7e48
++  __TEXT.__objc_classname: 0x1007
++  __TEXT.__objc_methname: 0x6a9d
++  __TEXT.__objc_methtype: 0x14be
++  __TEXT.__objc_stubs: 0x3de0
++  __DATA_CONST.__got: 0x430
+   __DATA_CONST.__const: 0x1588
+   __DATA_CONST.__objc_classlist: 0x378
+   __DATA_CONST.__objc_catlist: 0x8
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x1610
+   __DATA_CONST.__objc_protorefs: 0x28
+-  __AUTH_CONST.__auth_got: 0xb90
+-  __AUTH_CONST.__const: 0xdc78
++  __AUTH_CONST.__auth_got: 0xb80
++  __AUTH_CONST.__const: 0xdc48
+   __AUTH_CONST.__cfstring: 0x360
+-  __AUTH_CONST.__objc_const: 0x6d78
++  __AUTH_CONST.__objc_const: 0x6da0
+   __AUTH_CONST.__objc_intobj: 0xc0
+-  __AUTH.__objc_data: 0x7720
+-  __AUTH.__data: 0x860
+-  __DATA.__data: 0xcd8
++  __AUTH.__objc_data: 0x7670
++  __AUTH.__data: 0x858
++  __DATA.__data: 0xc20
+   __DATA.__bss: 0x1d90
+   __DATA.__common: 0x1
+-  __DATA_DIRTY.__objc_data: 0x5c60
+-  __DATA_DIRTY.__data: 0x12d8
++  __DATA_DIRTY.__objc_data: 0x5d30
++  __DATA_DIRTY.__data: 0x1398
+   __DATA_DIRTY.__bss: 0x130
+   __DATA_DIRTY.__common: 0x20
+   - /System/Library/Frameworks/CoreData.framework/CoreData
+
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EE578D6A-3001-3F3A-AF9E-6B985C08EE10
+-  Functions: 8168
+-  Symbols:   2737
+-  CStrings:  1543
++  UUID: 884D5431-D938-3501-BAFB-E0C838C3F0FE
++  Functions: 8387
++  Symbols:   3214
++  CStrings:  1395
+ 
+Symbols:
++ __IVARS__TtC8MapsSync15MapsSyncService
++ ___block_literal_global.107
++ ___block_literal_global.119
++ ___block_literal_global.127
++ ___block_literal_global.133
++ ___block_literal_global.139
++ ___block_literal_global.145
++ ___block_literal_global.153
++ ___block_literal_global.161
++ ___block_literal_global.167
++ ___block_literal_global.173
++ ___block_literal_global.31
++ ___block_literal_global.43
++ ___block_literal_global.57
++ ___block_literal_global.63
++ ___block_literal_global.75
++ ___block_literal_global.81
++ ___block_literal_global.87
++ ___block_literal_global.93
++ ___block_literal_global.99
++ _block_copy_helper.1
++ _block_copy_helper.102
++ _block_copy_helper.103
++ _block_copy_helper.107
++ _block_copy_helper.109
++ _block_copy_helper.114
++ _block_copy_helper.115
++ _block_copy_helper.118
++ _block_copy_helper.12
++ _block_copy_helper.125
++ _block_copy_helper.126
++ _block_copy_helper.132
++ _block_copy_helper.135
++ _block_copy_helper.136
++ _block_copy_helper.137
++ _block_copy_helper.139
++ _block_copy_helper.147
++ _block_copy_helper.148
++ _block_copy_helper.15
++ _block_copy_helper.158
++ _block_copy_helper.166
++ _block_copy_helper.169
++ _block_copy_helper.178
++ _block_copy_helper.187
++ _block_copy_helper.209
++ _block_copy_helper.220
++ _block_copy_helper.230
++ _block_copy_helper.241
++ _block_copy_helper.252
++ _block_copy_helper.35
++ _block_copy_helper.46
++ _block_copy_helper.52
++ _block_copy_helper.79
++ _block_copy_helper.8
++ _block_copy_helper.85
++ _block_descriptor.10
++ _block_descriptor.104
++ _block_descriptor.105
++ _block_descriptor.109
++ _block_descriptor.111
++ _block_descriptor.116
++ _block_descriptor.117
++ _block_descriptor.120
++ _block_descriptor.127
++ _block_descriptor.128
++ _block_descriptor.134
++ _block_descriptor.137
++ _block_descriptor.138
++ _block_descriptor.139
++ _block_descriptor.14
++ _block_descriptor.141
++ _block_descriptor.149
++ _block_descriptor.150
++ _block_descriptor.160
++ _block_descriptor.168
++ _block_descriptor.17
++ _block_descriptor.171
++ _block_descriptor.180
++ _block_descriptor.189
++ _block_descriptor.211
++ _block_descriptor.222
++ _block_descriptor.232
++ _block_descriptor.243
++ _block_descriptor.254
++ _block_descriptor.3
++ _block_descriptor.37
++ _block_descriptor.48
++ _block_descriptor.54
++ _block_descriptor.81
++ _block_descriptor.87
++ _block_destroy_helper.103
++ _block_destroy_helper.104
++ _block_destroy_helper.108
++ _block_destroy_helper.110
++ _block_destroy_helper.115
++ _block_destroy_helper.116
++ _block_destroy_helper.119
++ _block_destroy_helper.126
++ _block_destroy_helper.127
++ _block_destroy_helper.13
++ _block_destroy_helper.133
++ _block_destroy_helper.136
++ _block_destroy_helper.137
++ _block_destroy_helper.138
++ _block_destroy_helper.140
++ _block_destroy_helper.148
++ _block_destroy_helper.149
++ _block_destroy_helper.159
++ _block_destroy_helper.16
++ _block_destroy_helper.167
++ _block_destroy_helper.170
++ _block_destroy_helper.179
++ _block_destroy_helper.188
++ _block_destroy_helper.2
++ _block_destroy_helper.210
++ _block_destroy_helper.221
++ _block_destroy_helper.231
++ _block_destroy_helper.242
++ _block_destroy_helper.253
++ _block_destroy_helper.36
++ _block_destroy_helper.47
++ _block_destroy_helper.53
++ _block_destroy_helper.80
++ _block_destroy_helper.86
++ _block_destroy_helper.9
++ _keypath_get.143Tm
++ _keypath_get.155Tm
++ _keypath_get.188Tm
++ _keypath_get.205Tm
++ _keypath_get.42Tm
++ _keypath_get.72Tm
++ _objc_msgSend$URIRepresentation
++ _objc_msgSend$URL
++ _objc_msgSend$URLForResource:withExtension:
++ _objc_msgSend$__swift_objectForKeyedSubscript:
++ _objc_msgSend$_clientAttributes
++ _objc_msgSend$_hasMUID
++ _objc_msgSend$_identifier
++ _objc_msgSend$_mergeChangesFromRemoteContextSave:intoContexts:
++ _objc_msgSend$_muid
++ _objc_msgSend$_place
++ _objc_msgSend$_placeDisplayType
++ _objc_msgSend$_resultProviderID
++ _objc_msgSend$addCollectionsObject:
++ _objc_msgSend$addContactHandlesObject:
++ _objc_msgSend$addObject:
++ _objc_msgSend$addObserverForName:object:queue:usingBlock:
++ _objc_msgSend$addPlacesObject:
++ _objc_msgSend$addRapRecordsObject:
++ _objc_msgSend$addReviewedPlacesObject:
++ _objc_msgSend$addVisitsObject:
++ _objc_msgSend$addressObject
++ _objc_msgSend$allObjects
++ _objc_msgSend$allowedClasses
++ _objc_msgSend$andPredicateWithSubpredicates:
++ _objc_msgSend$anonymousCredential
++ _objc_msgSend$anonymousId
++ _objc_msgSend$arpStatus
++ _objc_msgSend$arrayForKey:
++ _objc_msgSend$attributeType
++ _objc_msgSend$attributesByName
++ _objc_msgSend$beforeDeleteWithManaged:
++ _objc_msgSend$boolForKey:
++ _objc_msgSend$bundleIdentifier
++ _objc_msgSend$bundleWithIdentifier:
++ _objc_msgSend$cachedModelForPersistentStoreWithURL:options:error:
++ _objc_msgSend$canAccessFilesWithProtection:
++ _objc_msgSend$changedObjectID
++ _objc_msgSend$changes
++ _objc_msgSend$clientRevision
++ _objc_msgSend$cloudKitSyncAllowedWithCompletionHandler:
++ _objc_msgSend$collectionDescription
++ _objc_msgSend$collections
++ _objc_msgSend$colorHex
++ _objc_msgSend$communityID
++ _objc_msgSend$communityIdentifier
++ _objc_msgSend$configuration
++ _objc_msgSend$contactHandles
++ _objc_msgSend$containerURLForSecurityApplicationGroupIdentifier:
++ _objc_msgSend$contentData
++ _objc_msgSend$coordinate
++ _objc_msgSend$copy
++ _objc_msgSend$count
++ _objc_msgSend$countForFetchRequest:error:
++ _objc_msgSend$countryCode
++ _objc_msgSend$createDirectoryAtURL:withIntermediateDirectories:attributes:error:
++ _objc_msgSend$createTime
++ _objc_msgSend$curatedCollectionIdentifier
++ _objc_msgSend$currentVehicleState
++ _objc_msgSend$customName
++ _objc_msgSend$customNote
++ _objc_msgSend$data
++ _objc_msgSend$dataForKey:
++ _objc_msgSend$dateFromString:
++ _objc_msgSend$dateOfVehicleIngestion
++ _objc_msgSend$defaultCenter
++ _objc_msgSend$defaultManager
++ _objc_msgSend$deleteObject:
++ _objc_msgSend$description
++ _objc_msgSend$dictionaryForKey:
++ _objc_msgSend$dictionaryRepresentation
++ _objc_msgSend$displayName
++ _objc_msgSend$doubleForKey:
++ _objc_msgSend$doubleValue
++ _objc_msgSend$droppedPinCoordinate
++ _objc_msgSend$droppedPinFloorOrdinal
++ _objc_msgSend$eastLongitude
++ _objc_msgSend$enclosingRegionIdentifier
++ _objc_msgSend$enclosingRegionMuid
++ _objc_msgSend$enclosingRegionProvider
++ _objc_msgSend$endWaypoint
++ _objc_msgSend$entities
++ _objc_msgSend$entity
++ _objc_msgSend$entityForName:inManagedObjectContext:
++ _objc_msgSend$entityName
++ _objc_msgSend$executeRequest:error:
++ _objc_msgSend$existingObjectWithID:error:
++ _objc_msgSend$expired
++ _objc_msgSend$expiryTime
++ _objc_msgSend$expressionForFunction:arguments:
++ _objc_msgSend$expressionForKeyPath:
++ _objc_msgSend$favoriteType
++ _objc_msgSend$fetchHistoryAfterDate:
++ _objc_msgSend$fetchHistoryAfterToken:
++ _objc_msgSend$fetchRequest
++ _objc_msgSend$findDuplicatesWithContext:
++ _objc_msgSend$firstBusiness
++ _objc_msgSend$floorOrdinal
++ _objc_msgSend$fullAddressWithMultiline:
++ _objc_msgSend$geoMapRegion
++ _objc_msgSend$getLastSyncDateWithCompletionHandler:
++ _objc_msgSend$handle
++ _objc_msgSend$hasUserReviewed
++ _objc_msgSend$hash
++ _objc_msgSend$headUnitBluetoothIdentifier
++ _objc_msgSend$headUnitMacAddress
++ _objc_msgSend$hidden
++ _objc_msgSend$hikeType
++ _objc_msgSend$iapIdentifier
++ _objc_msgSend$identifier
++ _objc_msgSend$image
++ _objc_msgSend$imageUrl
++ _objc_msgSend$init
++ _objc_msgSend$initWithCoder:
++ _objc_msgSend$initWithCollection:
++ _objc_msgSend$initWithConfig:notifyForChanges:callbackQueue:delegate:
++ _objc_msgSend$initWithContainerIdentifier:
++ _objc_msgSend$initWithContentsOfURL:
++ _objc_msgSend$initWithContext:
++ _objc_msgSend$initWithData:
++ _objc_msgSend$initWithDomain:code:userInfo:
++ _objc_msgSend$initWithDouble:
++ _objc_msgSend$initWithEntity:insertIntoManagedObjectContext:
++ _objc_msgSend$initWithEntityName:
++ _objc_msgSend$initWithFetchRequest:
++ _objc_msgSend$initWithInt:
++ _objc_msgSend$initWithInteger:
++ _objc_msgSend$initWithKey:ascending:
++ _objc_msgSend$initWithLongLong:
++ _objc_msgSend$initWithMachServiceName:options:
++ _objc_msgSend$initWithName:managedObjectModel:
++ _objc_msgSend$initWithObject:store:lazyLoad:parent:
++ _objc_msgSend$initWithStore:
++ _objc_msgSend$initWithStore:addressObject:customName:customNote:eastLongitude:hikeType:length:northLatitude:originLatitude:originLongitude:positionIndex:routeGeometry:southLatitude:totalAscent:totalDescent:tourIdentifier:transportType:westLongitude:
++ _objc_msgSend$initWithStore:anonymousId:mapsToken:mapsTokenCreatedAt:mapsTokenTTL:positionIndex:
++ _objc_msgSend$initWithStore:arpStatus:positionIndex:rapStatus:reliabilityStatus:
++ _objc_msgSend$initWithStore:clientRevision:contentData:countryCode:positionIndex:rapResponse:reportId:status:statusLastUpdatedDate:summary:type:
++ _objc_msgSend$initWithStore:collectionDescription:curatedCollectionIdentifier:image:imageUrl:isTombstone:lastFetchedDate:lastSignificantChangeDate:placesCount:positionIndex:publisherAttribution:resultProviderIdentifier:title:titleLocale:
++ _objc_msgSend$initWithStore:collectionDescription:image:imageUrl:positionIndex:title:
++ _objc_msgSend$initWithStore:colorHex:currentVehicleState:dateOfVehicleIngestion:displayName:headUnitBluetoothIdentifier:headUnitMacAddress:iapIdentifier:lastStateUpdateDate:licensePlate:lprPowerType:lprVehicleType:manufacturer:model:pairedAppIdentifier:positionIndex:powerByConnector:preferredChargingNetworks:siriIntentsIdentifier:supportedConnectors:vehicleIdentifier:vehicleType:year:
++ _objc_msgSend$initWithStore:communityIdentifier:expired:positionIndex:usedCount:
++ _objc_msgSend$initWithStore:countryCode:positionIndex:type:
++ _objc_msgSend$initWithStore:curatedCollectionIdentifier:positionIndex:resultProviderIdentifier:
++ _objc_msgSend$initWithStore:curatedCollectionIdentifier:resultProviderIdentifier:
++ _objc_msgSend$initWithStore:customName:droppedPinCoordinate:droppedPinFloorOrdinal:latitude:longitude:mapItemAddress:mapItemCategory:mapItemLastRefreshed:mapItemName:muid:origin:originalIdentifier:placeItemNote:type:
++ _objc_msgSend$initWithStore:customName:floorOrdinal:latitude:longitude:mapItemStorage:muid:
++ _objc_msgSend$initWithStore:customName:hidden:latitude:longitude:mapItemAddress:mapItemCategory:mapItemLastRefreshed:mapItemName:muid:originatingAddressString:positionIndex:shortcutIdentifier:source:type:version:
++ _objc_msgSend$initWithStore:customName:latitude:longitude:mapItemStorage:muid:resultsProvider:
++ _objc_msgSend$initWithStore:data:positionIndex:
++ _objc_msgSend$initWithStore:enclosingRegionMuid:enclosingRegionProvider:hidden:latitude:longitude:mapItemAddress:mapItemCategory:mapItemCity:mapItemIdentifier:mapItemLastRefreshed:mapItemName:mapItemStorage:mapItemTopLevelCategory:muid:
++ _objc_msgSend$initWithStore:endWaypoint:startWaypoint:
++ _objc_msgSend$initWithStore:expiryTime:sharedTripIdentifier:
++ _objc_msgSend$initWithStore:geoMapRegion:language:locationDisplay:query:
++ _objc_msgSend$initWithStore:hasUserReviewed:lastSuggestedReviewDate:latitude:longitude:mapItemIdComparableRepresentation:mapItemLastRefreshed:mapItemStorage:muid:positionIndex:rating:resultProviderIdentifier:uploadedPhotosCount:version:
++ _objc_msgSend$initWithStore:hidden:startDate:visitClassification:
++ _objc_msgSend$initWithStore:latitude:longitude:mapItemLastRefreshed:muid:supersededSearchId:
++ _objc_msgSend$initWithStore:muid:transitLineStorage:
++ _objc_msgSend$initWithStore:navigationInterrupted:requiredCharge:routeProgressWaypointIndex:routeRequestStorage:sharedETAData:type:vehicleIdentifier:
++ _objc_msgSend$initWithStore:navigationInterrupted:routeRequestStorage:sharedETAData:
++ _objc_msgSend$initWithStore:position:positionIndex:
++ _objc_msgSend$initWithStore:positionIndex:
++ _objc_msgSend$initWithStore:requiredCharge:vehicleIdentifier:
++ _objc_msgSend$initWithStoreIdentifier:type:
++ _objc_msgSend$initWithType:subpredicates:
++ _objc_msgSend$initWithURL:
++ _objc_msgSend$initWithUnsignedLongLong:
++ _objc_msgSend$interfaceWithProtocol:
++ _objc_msgSend$inverseRelationship
++ _objc_msgSend$isAbstract
++ _objc_msgSend$isMainThread
++ _objc_msgSend$isToMany
++ _objc_msgSend$isTombstone
++ _objc_msgSend$language
++ _objc_msgSend$lastFetchedDate
++ _objc_msgSend$lastSignificantChangeDate
++ _objc_msgSend$lastStateUpdateDate
++ _objc_msgSend$lastSuggestedReviewDate
++ _objc_msgSend$latestVisitDate
++ _objc_msgSend$latitude
++ _objc_msgSend$length
++ _objc_msgSend$licensePlate
++ _objc_msgSend$loadPersistentStoresWithCompletionHandler:
++ _objc_msgSend$localizedCategories
++ _objc_msgSend$localizedNames
++ _objc_msgSend$location
++ _objc_msgSend$locationDisplay
++ _objc_msgSend$lock
++ _objc_msgSend$longLongForKey:
++ _objc_msgSend$longitude
++ _objc_msgSend$lprPowerType
++ _objc_msgSend$lprVehicleType
++ _objc_msgSend$mainBundle
++ _objc_msgSend$managedObjectClassName
++ _objc_msgSend$managedObjectContext
++ _objc_msgSend$managedObjectIDForURIRepresentation:
++ _objc_msgSend$manufacturer
++ _objc_msgSend$mapItem
++ _objc_msgSend$mapItemAddress
++ _objc_msgSend$mapItemCategory
++ _objc_msgSend$mapItemCity
++ _objc_msgSend$mapItemIdComparableRepresentation
++ _objc_msgSend$mapItemIdentifier
++ _objc_msgSend$mapItemLastRefreshed
++ _objc_msgSend$mapItemName
++ _objc_msgSend$mapItemStorage
++ _objc_msgSend$mapItemStorageForGEOMapItem:clientAttributes:
++ _objc_msgSend$mapItemStorageForGEOMapItem:forUseType:
++ _objc_msgSend$mapItemTopLevelCategory
++ _objc_msgSend$mapsIdentifierString
++ _objc_msgSend$mapsSyncAttributes
++ _objc_msgSend$mapsSyncIdentifier
++ _objc_msgSend$mapsSyncObjectType
++ _objc_msgSend$mapsToken
++ _objc_msgSend$mapsTokenCreatedAt
++ _objc_msgSend$mapsTokenTTL
++ _objc_msgSend$mergeChangesFromRemoteContextSave:intoContexts:
++ _objc_msgSend$mergeWithDuplicates:
++ _objc_msgSend$model
++ _objc_msgSend$modificationTime
++ _objc_msgSend$muid
++ _objc_msgSend$mutableSetValueForKey:
++ _objc_msgSend$name
++ _objc_msgSend$navigationInterrupted
++ _objc_msgSend$newBackgroundContext
++ _objc_msgSend$northLatitude
++ _objc_msgSend$objectForKey:
++ _objc_msgSend$objectID
++ _objc_msgSend$objectIDNotification
++ _objc_msgSend$onFirstSaveWithObject:context:
++ _objc_msgSend$origin
++ _objc_msgSend$originLatitude
++ _objc_msgSend$originLongitude
++ _objc_msgSend$originalIdentifier
++ _objc_msgSend$originatingAddressString
++ _objc_msgSend$pairedAppIdentifier
++ _objc_msgSend$performBlock:
++ _objc_msgSend$performBlockAndWait:
++ _objc_msgSend$persistentStoreCoordinator
++ _objc_msgSend$placeItemNote
++ _objc_msgSend$places
++ _objc_msgSend$placesCount
++ _objc_msgSend$position
++ _objc_msgSend$positionIndex
++ _objc_msgSend$powerByConnector
++ _objc_msgSend$predicateWithFormat:argumentArray:
++ _objc_msgSend$preferredChargingNetworks
++ _objc_msgSend$prepareLibraryWithCompletionHandler:
++ _objc_msgSend$processInfo
++ _objc_msgSend$processName
++ _objc_msgSend$publisherAttribution
++ _objc_msgSend$query
++ _objc_msgSend$rapRecords
++ _objc_msgSend$rapResponse
++ _objc_msgSend$rapStatus
++ _objc_msgSend$rating
++ _objc_msgSend$relationshipsByName
++ _objc_msgSend$reliabilityStatus
++ _objc_msgSend$remoteObjectProxyWithErrorHandler:
++ _objc_msgSend$removeCollectionsObject:
++ _objc_msgSend$removeContactHandlesObject:
++ _objc_msgSend$removeObject:
++ _objc_msgSend$removeObjectForKey:
++ _objc_msgSend$removeObserver:
++ _objc_msgSend$removePlacesObject:
++ _objc_msgSend$removeRapRecordsObject:
++ _objc_msgSend$removeReviewedPlacesObject:
++ _objc_msgSend$removeVisits:
++ _objc_msgSend$removeVisitsObject:
++ _objc_msgSend$reportId
++ _objc_msgSend$requiredCharge
++ _objc_msgSend$result
++ _objc_msgSend$resultProviderID
++ _objc_msgSend$resultProviderIdentifier
++ _objc_msgSend$resultsProvider
++ _objc_msgSend$resume
++ _objc_msgSend$reviewedPlaces
++ _objc_msgSend$routeGeometry
++ _objc_msgSend$routeProgressWaypointIndex
++ _objc_msgSend$routeRequestStorage
++ _objc_msgSend$save:
++ _objc_msgSend$setAddressObject:
++ _objc_msgSend$setAnonymousId:
++ _objc_msgSend$setArpStatus:
++ _objc_msgSend$setArray:forKey:
++ _objc_msgSend$setAutomaticallyMergesChangesFromParent:
++ _objc_msgSend$setBool:forKey:
++ _objc_msgSend$setClientRevision:
++ _objc_msgSend$setCloudKitContainerOptions:
++ _objc_msgSend$setCollectionDescription:
++ _objc_msgSend$setColorHex:
++ _objc_msgSend$setCommunityIdentifier:
++ _objc_msgSend$setConfiguration:
++ _objc_msgSend$setContentData:
++ _objc_msgSend$setCountryCode:
++ _objc_msgSend$setCreateTime:
++ _objc_msgSend$setCuratedCollectionIdentifier:
++ _objc_msgSend$setCurrentVehicleState:
++ _objc_msgSend$setCustomName:
++ _objc_msgSend$setCustomNote:
++ _objc_msgSend$setData:
++ _objc_msgSend$setData:forKey:
++ _objc_msgSend$setDateFormat:
++ _objc_msgSend$setDateOfVehicleIngestion:
++ _objc_msgSend$setDictionary:forKey:
++ _objc_msgSend$setDisplayName:
++ _objc_msgSend$setDouble:forKey:
++ _objc_msgSend$setDroppedPinCoordinate:
++ _objc_msgSend$setDroppedPinFloorOrdinal:
++ _objc_msgSend$setEastLongitude:
++ _objc_msgSend$setEnclosingRegionMuid:
++ _objc_msgSend$setEnclosingRegionProvider:
++ _objc_msgSend$setEndWaypoint:
++ _objc_msgSend$setEntity:
++ _objc_msgSend$setExpired:
++ _objc_msgSend$setExpiryTime:
++ _objc_msgSend$setExpression:
++ _objc_msgSend$setExpressionResultType:
++ _objc_msgSend$setFavoriteType:
++ _objc_msgSend$setFetchBatchSize:
++ _objc_msgSend$setFetchLimit:
++ _objc_msgSend$setFetchOffset:
++ _objc_msgSend$setFloorOrdinal:
++ _objc_msgSend$setGeoMapRegion:
++ _objc_msgSend$setHandle:
++ _objc_msgSend$setHasUserReviewed:
++ _objc_msgSend$setHeadUnitBluetoothIdentifier:
++ _objc_msgSend$setHeadUnitMacAddress:
++ _objc_msgSend$setHidden:
++ _objc_msgSend$setHikeType:
++ _objc_msgSend$setIapIdentifier:
++ _objc_msgSend$setIdentifier:
++ _objc_msgSend$setImage:
++ _objc_msgSend$setImageUrl:
++ _objc_msgSend$setIsTombstone:
++ _objc_msgSend$setLanguage:
++ _objc_msgSend$setLastFetchedDate:
++ _objc_msgSend$setLastSignificantChangeDate:
++ _objc_msgSend$setLastStateUpdateDate:
++ _objc_msgSend$setLastSuggestedReviewDate:
++ _objc_msgSend$setLatitude:
++ _objc_msgSend$setLength:
++ _objc_msgSend$setLicensePlate:
++ _objc_msgSend$setLocation:
++ _objc_msgSend$setLocationDisplay:
++ _objc_msgSend$setLongLong:forKey:
++ _objc_msgSend$setLongitude:
++ _objc_msgSend$setLprPowerType:
++ _objc_msgSend$setLprVehicleType:
++ _objc_msgSend$setManufacturer:
++ _objc_msgSend$setMapItem:
++ _objc_msgSend$setMapItemAddress:
++ _objc_msgSend$setMapItemCategory:
++ _objc_msgSend$setMapItemCity:
++ _objc_msgSend$setMapItemIdComparableRepresentation:
++ _objc_msgSend$setMapItemIdentifier:
++ _objc_msgSend$setMapItemLastRefreshed:
++ _objc_msgSend$setMapItemName:
++ _objc_msgSend$setMapItemStorage:
++ _objc_msgSend$setMapItemTopLevelCategory:
++ _objc_msgSend$setMapsSyncAttributes:
++ _objc_msgSend$setMapsSyncIdentifier:
++ _objc_msgSend$setMapsSyncObjectType:
++ _objc_msgSend$setMapsToken:
++ _objc_msgSend$setMapsTokenCreatedAt:
++ _objc_msgSend$setMapsTokenTTL:
++ _objc_msgSend$setMergePolicy:
++ _objc_msgSend$setModel:
++ _objc_msgSend$setModificationTime:
++ _objc_msgSend$setMuid:
++ _objc_msgSend$setName:
++ _objc_msgSend$setNavigationInterrupted:
++ _objc_msgSend$setNorthLatitude:
++ _objc_msgSend$setObject:forKey:
++ _objc_msgSend$setOption:forKey:
++ _objc_msgSend$setOrigin:
++ _objc_msgSend$setOriginLatitude:
++ _objc_msgSend$setOriginLongitude:
++ _objc_msgSend$setOriginalIdentifier:
++ _objc_msgSend$setOriginatingAddressString:
++ _objc_msgSend$setPairedAppIdentifier:
++ _objc_msgSend$setPersistentStoreDescriptions:
++ _objc_msgSend$setPlaceItemNote:
++ _objc_msgSend$setPlacesCount:
++ _objc_msgSend$setPosition:
++ _objc_msgSend$setPositionIndex:
++ _objc_msgSend$setPowerByConnector:
++ _objc_msgSend$setPredicate:
++ _objc_msgSend$setPreferredChargingNetworks:
++ _objc_msgSend$setPropertiesToFetch:
++ _objc_msgSend$setPropertiesToGroupBy:
++ _objc_msgSend$setPropertiesToUpdate:
++ _objc_msgSend$setPublisherAttribution:
++ _objc_msgSend$setQuery:
++ _objc_msgSend$setRapResponse:
++ _objc_msgSend$setRapStatus:
++ _objc_msgSend$setRating:
++ _objc_msgSend$setReliabilityStatus:
++ _objc_msgSend$setRemoteObjectInterface:
++ _objc_msgSend$setReportId:
++ _objc_msgSend$setRequiredCharge:
++ _objc_msgSend$setResultProviderIdentifier:
++ _objc_msgSend$setResultType:
++ _objc_msgSend$setResultsProvider:
++ _objc_msgSend$setReturnsObjectsAsFaults:
++ _objc_msgSend$setRouteGeometry:
++ _objc_msgSend$setRouteProgressWaypointIndex:
++ _objc_msgSend$setRouteRequestStorage:
++ _objc_msgSend$setSecondaryObjectType:
++ _objc_msgSend$setSharedETAData:
++ _objc_msgSend$setSharedTripIdentifier:
++ _objc_msgSend$setShortcutIdentifier:
++ _objc_msgSend$setSiriIntentsIdentifier:
++ _objc_msgSend$setSortDescriptors:
++ _objc_msgSend$setSource:
++ _objc_msgSend$setSourceType:
++ _objc_msgSend$setSouthLatitude:
++ _objc_msgSend$setStartDate:
++ _objc_msgSend$setStartWaypoint:
++ _objc_msgSend$setStatus:
++ _objc_msgSend$setStatusLastUpdatedDate:
++ _objc_msgSend$setString:forKey:
++ _objc_msgSend$setSummary:
++ _objc_msgSend$setSupersededSearchId:
++ _objc_msgSend$setSupportedConnectors:
++ _objc_msgSend$setTitle:
++ _objc_msgSend$setTitleLocale:
++ _objc_msgSend$setTotalAscent:
++ _objc_msgSend$setTotalDescent:
++ _objc_msgSend$setTourIdentifier:
++ _objc_msgSend$setTransitLineStorage:
++ _objc_msgSend$setTransportType:
++ _objc_msgSend$setType:
++ _objc_msgSend$setURL:
++ _objc_msgSend$setUploadedPhotosCount:
++ _objc_msgSend$setUseDeviceToDeviceEncryption:
++ _objc_msgSend$setUsedCount:
++ _objc_msgSend$setValue:forKey:
++ _objc_msgSend$setVehicleIdentifier:
++ _objc_msgSend$setVehicleType:
++ _objc_msgSend$setVersion:
++ _objc_msgSend$setVisitClassification:
++ _objc_msgSend$setVisits:
++ _objc_msgSend$setWestLongitude:
++ _objc_msgSend$setYear:
++ _objc_msgSend$sharedETAData
++ _objc_msgSend$sharedObject
++ _objc_msgSend$sharedTripIdentifier
++ _objc_msgSend$shortcutIdentifier
++ _objc_msgSend$siriIntentsIdentifier
++ _objc_msgSend$source
++ _objc_msgSend$sourceType
++ _objc_msgSend$southLatitude
++ _objc_msgSend$startDate
++ _objc_msgSend$startWaypoint
++ _objc_msgSend$status
++ _objc_msgSend$statusLastUpdatedDate
++ _objc_msgSend$storeControllerWithDataChanged:
++ _objc_msgSend$storeControllerWithDataTypesChanged:
++ _objc_msgSend$storeControllerWithDidLoad:
++ _objc_msgSend$storeDidChange:
++ _objc_msgSend$storeDidChangeWithTypes:
++ _objc_msgSend$storeSubscriptionTypes
++ _objc_msgSend$stringForKey:
++ _objc_msgSend$stringFromDate:
++ _objc_msgSend$strippedMapItemWith:
++ _objc_msgSend$summary
++ _objc_msgSend$supersededSearchId
++ _objc_msgSend$supportedConnectors
++ _objc_msgSend$synchronize
++ _objc_msgSend$title
++ _objc_msgSend$titleLocale
++ _objc_msgSend$token
++ _objc_msgSend$totalAscent
++ _objc_msgSend$totalDescent
++ _objc_msgSend$tourIdentifier
++ _objc_msgSend$transitLineStorage
++ _objc_msgSend$transportType
++ _objc_msgSend$type
++ _objc_msgSend$unlock
++ _objc_msgSend$uploadedPhotosCount
++ _objc_msgSend$usedCount
++ _objc_msgSend$valueForKey:
++ _objc_msgSend$vehicleIdentifier
++ _objc_msgSend$vehicleType
++ _objc_msgSend$version
++ _objc_msgSend$viewContext
++ _objc_msgSend$visitClassification
++ _objc_msgSend$visits
++ _objc_msgSend$waypointsAtIndex:
++ _objc_msgSend$waypointsCount
++ _objc_msgSend$weakObjectsHashTable
++ _objc_msgSend$westLongitude
++ _objc_msgSend$wrapperClass
++ _objc_msgSend$year
++ _objectdestroy.102Tm
++ _objectdestroy.122Tm
++ _objectdestroy.132Tm
++ _objectdestroy.208Tm
++ _objectdestroy.257Tm
++ _objectdestroy.29Tm
++ _objectdestroy.338Tm
++ _objectdestroy.39Tm
++ _objectdestroy.437Tm
++ _objectdestroy.64Tm
++ _objectdestroy.70Tm
++ _objectdestroy.79Tm
++ _objectdestroy.83Tm
++ _objectdestroy.89Tm
++ _symbolic SS3key_yp5valuet
++ _symbolic So14NSXPCInterfaceC
++ _symbolic _____Sg_ABt 10Foundation4DateV
+- ___block_literal_global.101
+- ___block_literal_global.108
+- ___block_literal_global.118
+- ___block_literal_global.123
+- ___block_literal_global.130
+- ___block_literal_global.137
+- ___block_literal_global.142
+- ___block_literal_global.147
+- ___block_literal_global.20
+- ___block_literal_global.27
+- ___block_literal_global.32
+- ___block_literal_global.42
+- ___block_literal_global.54
+- ___block_literal_global.59
+- ___block_literal_global.64
+- ___block_literal_global.74
+- ___block_literal_global.79
+- ___block_literal_global.84
+- ___block_literal_global.91
+- ___block_literal_global.96
+- _block_copy_helper.106
+- _block_copy_helper.110
+- _block_copy_helper.123
+- _block_copy_helper.129
+- _block_copy_helper.140
+- _block_copy_helper.141
+- _block_copy_helper.142
+- _block_copy_helper.149
+- _block_copy_helper.151
+- _block_copy_helper.159
+- _block_copy_helper.162
+- _block_copy_helper.176
+- _block_copy_helper.181
+- _block_copy_helper.185
+- _block_copy_helper.192
+- _block_copy_helper.201
+- _block_copy_helper.203
+- _block_copy_helper.208
+- _block_copy_helper.221
+- _block_copy_helper.239
+- _block_copy_helper.264
+- _block_copy_helper.275
+- _block_copy_helper.286
+- _block_copy_helper.304
+- _block_copy_helper.314
+- _block_copy_helper.332
+- _block_copy_helper.343
+- _block_copy_helper.54
+- _block_copy_helper.57
+- _block_copy_helper.59
+- _block_copy_helper.61
+- _block_copy_helper.78
+- _block_copy_helper.91
+- _block_copy_helper.93
+- _block_copy_helper.95
+- _block_copy_helper.99
+- _block_descriptor.101
+- _block_descriptor.108
+- _block_descriptor.112
+- _block_descriptor.125
+- _block_descriptor.131
+- _block_descriptor.142
+- _block_descriptor.143
+- _block_descriptor.144
+- _block_descriptor.151
+- _block_descriptor.153
+- _block_descriptor.161
+- _block_descriptor.164
+- _block_descriptor.178
+- _block_descriptor.183
+- _block_descriptor.187
+- _block_descriptor.194
+- _block_descriptor.203
+- _block_descriptor.205
+- _block_descriptor.210
+- _block_descriptor.223
+- _block_descriptor.241
+- _block_descriptor.266
+- _block_descriptor.277
+- _block_descriptor.288
+- _block_descriptor.306
+- _block_descriptor.316
+- _block_descriptor.334
+- _block_descriptor.345
+- _block_descriptor.56
+- _block_descriptor.59
+- _block_descriptor.61
+- _block_descriptor.63
+- _block_descriptor.80
+- _block_descriptor.93
+- _block_descriptor.95
+- _block_descriptor.97
+- _block_destroy_helper.100
+- _block_destroy_helper.107
+- _block_destroy_helper.111
+- _block_destroy_helper.124
+- _block_destroy_helper.130
+- _block_destroy_helper.141
+- _block_destroy_helper.142
+- _block_destroy_helper.143
+- _block_destroy_helper.150
+- _block_destroy_helper.152
+- _block_destroy_helper.160
+- _block_destroy_helper.163
+- _block_destroy_helper.177
+- _block_destroy_helper.182
+- _block_destroy_helper.186
+- _block_destroy_helper.193
+- _block_destroy_helper.202
+- _block_destroy_helper.204
+- _block_destroy_helper.209
+- _block_destroy_helper.222
+- _block_destroy_helper.240
+- _block_destroy_helper.265
+- _block_destroy_helper.276
+- _block_destroy_helper.287
+- _block_destroy_helper.305
+- _block_destroy_helper.315
+- _block_destroy_helper.333
+- _block_destroy_helper.344
+- _block_destroy_helper.55
+- _block_destroy_helper.58
+- _block_destroy_helper.60
+- _block_destroy_helper.62
+- _block_destroy_helper.79
+- _block_destroy_helper.92
+- _block_destroy_helper.94
+- _block_destroy_helper.96
+- _keypath_get.178Tm
+- _keypath_get.190Tm
+- _keypath_get.202Tm
+- _keypath_get.247Tm
+- _keypath_get.49Tm
+- _keypath_get.79Tm
+- _keypath_set.132Tm
+- _keypath_set.197Tm
+- _keypath_set.225Tm
+- _keypath_set.72Tm
+- _keypath_setTm
+- _malloc
+- _objc_claimAutoreleasedReturnValue
+- _objectdestroy.100Tm
+- _objectdestroy.107Tm
+- _objectdestroy.110Tm
+- _objectdestroy.130Tm
+- _objectdestroy.150Tm
+- _objectdestroy.16Tm
+- _objectdestroy.213Tm
+- _objectdestroy.255Tm
+- _objectdestroy.350Tm
+- _objectdestroy.46Tm
+- _objectdestroy.512Tm
+- _objectdestroy.68Tm
+- _objectdestroy.78Tm
+- _objectdestroy.97Tm
+CStrings:
++ "MapsSyncManagedAnalyticsIdentifier"
++ "MapsSyncManagedAnonymousCredential"
++ "MapsSyncManagedCachedCuratedCollection"
++ "MapsSyncManagedCachedMapItemStorage"
++ "MapsSyncManagedCachedUserReview"
++ "MapsSyncManagedCollection"
++ "MapsSyncManagedCollectionItem"
++ "MapsSyncManagedCollectionPlaceItem"
++ "MapsSyncManagedCollectionTransitItem"
++ "MapsSyncManagedCommunityID"
++ "MapsSyncManagedContactHandle"
++ "MapsSyncManagedCuratedCollection"
++ "MapsSyncManagedFavoriteItem"
++ "MapsSyncManagedHistoryCuratedCollection"
++ "MapsSyncManagedHistoryDirectionsItem"
++ "MapsSyncManagedHistoryEvDirectionsItem"
++ "MapsSyncManagedHistoryItem"
++ "MapsSyncManagedHistoryMarkedLocation"
++ "MapsSyncManagedHistoryMultiPointRoute"
++ "MapsSyncManagedHistoryPlaceItem"
++ "MapsSyncManagedHistoryRideShareItem"
++ "MapsSyncManagedHistorySearchItem"
++ "MapsSyncManagedHistoryTransitItem"
++ "MapsSyncManagedIncidentReport"
++ "MapsSyncManagedMixinMapItem"
++ "MapsSyncManagedRAPRecord"
++ "MapsSyncManagedReviewedPlace"
++ "MapsSyncManagedServerEvaluationStatus"
++ "MapsSyncManagedSharedTripBlockedItem"
++ "MapsSyncManagedUserRoute"
++ "MapsSyncManagedVehicle"
++ "MapsSyncManagedVisit"
++ "MapsSyncManagedVisitedLocation"
++ "xpcInterface"
+
+```

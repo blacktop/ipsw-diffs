@@ -1,0 +1,654 @@
+## InformationFlowPlugin
+
+> `/System/Library/Assistant/FlowDelegatePlugins/InformationFlowPlugin.bundle/InformationFlowPlugin`
+
+```diff
+
+-3505.13.1.0.0
+-  __TEXT.__text: 0xb0e70
+-  __TEXT.__auth_stubs: 0x4d90
++3520.63.2.0.0
++  __TEXT.__text: 0xbc95c
++  __TEXT.__auth_stubs: 0x4d80
++  __TEXT.__objc_stubs: 0x2420
+   __TEXT.__objc_methlist: 0x26c
+-  __TEXT.__const: 0x502c
+-  __TEXT.__cstring: 0x44bd
+-  __TEXT.__objc_methname: 0x1636
+-  __TEXT.__swift5_typeref: 0x1890
++  __TEXT.__const: 0x504c
++  __TEXT.__cstring: 0x370d
++  __TEXT.__swift5_typeref: 0x189c
+   __TEXT.__oslogstring: 0x5d63
+   __TEXT.__swift5_reflstr: 0x1588
+   __TEXT.__swift5_assocty: 0x288
++  __TEXT.__objc_classname: 0x890
++  __TEXT.__objc_methname: 0x1d34
++  __TEXT.__objc_methtype: 0x229
+   __TEXT.__constg_swiftt: 0x1c4c
+   __TEXT.__swift5_fieldmd: 0x148c
+   __TEXT.__swift5_builtin: 0xa0
+   __TEXT.__swift5_proto: 0x210
+   __TEXT.__swift5_types: 0x1d0
+-  __TEXT.__objc_classname: 0x9e
+-  __TEXT.__objc_methtype: 0x1a8
+   __TEXT.__swift_as_entry: 0x2a0
+   __TEXT.__swift_as_ret: 0x2a0
+   __TEXT.__swift5_mpenum: 0x3c
+   __TEXT.__swift5_capture: 0x200
+   __TEXT.__swift5_protos: 0x34
+-  __TEXT.__unwind_info: 0x2078
+-  __TEXT.__eh_frame: 0x4fc0
++  __TEXT.__unwind_info: 0x2008
++  __TEXT.__eh_frame: 0x4f40
+   __DATA_CONST.__auth_got: 0x26c8
+-  __DATA_CONST.__got: 0x11b0
+-  __DATA_CONST.__auth_ptr: 0xb08
+-  __DATA_CONST.__const: 0x2698
++  __DATA_CONST.__got: 0x1198
++  __DATA_CONST.__auth_ptr: 0xb18
++  __DATA_CONST.__const: 0x2668
+   __DATA_CONST.__objc_classlist: 0x100
+   __DATA_CONST.__objc_protolist: 0xb0
+   __DATA_CONST.__objc_imageinfo: 0x8
+
+   __DATA.__objc_const: 0x4510
+   __DATA.__objc_selrefs: 0xa10
+   __DATA.__objc_data: 0x458
+-  __DATA.__data: 0x3940
++  __DATA.__data: 0x3948
+   __DATA.__common: 0x118
+   __DATA.__bss: 0x36c0
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftMetalKit.dylib
++  - /usr/lib/swift/libswiftModelIO.dylib
+   - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 44006EB5-B89A-3576-A334-C149BEE44ADE
+-  Functions: 2410
+-  Symbols:   21333
++  UUID: C5CBCC7A-1CB1-3251-8EB1-BBC47268703E
++  Functions: 2391
++  Symbols:   21536
+   CStrings:  1086
+ 
+Symbols:
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/DerivedSources/
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/AppIntentConstants.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/BiomeDonator.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/CarPlaySuggestionsIntentDonator.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/CommandFactory.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/CommandThrottle.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/CommonCATs.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/ContinuationResultSetFlowProvider.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/DetailedResultFlowFactory.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/DetailedResultProvider.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/DirectInvocation+Extensions.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/DisableConfirmRequestsConfirmationStrategy.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/ErrorFlow.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/ExperienceSelector.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/FeatureFlag.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/FlowConstants.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/FlowEntryPoint.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/FlowTrampolining.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/GenericResultSetParamBuilder.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/IdentifiedUserExtension.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/InformationFlowPlugin.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/InformationFlowPlugin.swiftmodule
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/InformationFlowPlugin_vers.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/InformationLog.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/InformationRootFlow.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/InformationRoutingFlow.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/InformationViewFactory.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/InputHelpers.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/KnowledgeFallbackConfirmationStrategy.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/KnowledgeFallbackHelper.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/NavigateToShimFlow.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/OverrideGuardFlowStrategy.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/Parse+NLv4.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/ParsecAlias.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/PatternExecutor.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/PatternFlowProviding+Helper.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/PatternHelper.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/PegasusACEConverters.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/PegasusComponentsParser.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/PegasusFlowEventLogger.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/PegasusPatternFlow.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/PommesFallbackFlow.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/PushOffQueryFlow.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/RFSimpleYesNoPromptFlowStrategy.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/ReadingFlowNL.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/RegionUnavailabilityOutputGenerator.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/RenderComponentFlowFactory.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/RenderPegasusFlow.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/ResponseFlowFactory.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/ResultParamBuilder.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/ResultSetFlowFactory.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/RunPommesRequestFlow.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/SAUIVisualResponseShowNextSnippet+Extensions.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/SearchFlow.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/ShimOverrideFlow.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/SiriInformationDataModels.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/SiriSuggestionProvider.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/SportsIntentDonator.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/SportsParseUtils.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/SportsPersonalizationEntryPoint.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/SportsPersonalizationMetrics.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/SportsPersonalizationSelection.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/SportsProperty+LocalSportSearchIntent.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/String+Base64.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/SuggestionsEntryPoint+Default.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/SuggestionsEntryPoint.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/SuggestionsIntentDonator.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/TapEngagementHandlingFlow.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/VideoSnippetUtils.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/WebSearchPunchoutFlow.o
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Sources/SiriInformationPlugin/InformationFlowPlugin/
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Sources/SiriInformationPlugin/InformationFlowPlugin/Flows/
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Sources/SiriInformationPlugin/InformationFlowPlugin/Flows/Patterns/
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Sources/SiriInformationPlugin/InformationFlowPlugin/Flows/Patterns/Response/
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Sources/SiriInformationPlugin/InformationFlowPlugin/Flows/Patterns/Response/DetailedResult/
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Sources/SiriInformationPlugin/InformationFlowPlugin/Flows/Patterns/Response/ResultSet/
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Sources/SiriInformationPlugin/InformationFlowPlugin/Personalization/
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Sources/SiriInformationPlugin/InformationFlowPlugin/Personalization/Sports/
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Sources/SiriInformationPlugin/InformationFlowPlugin/Personalization/Suggestions/
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Sources/SiriInformationPlugin/InformationFlowPlugin/Rendering/
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Sources/SiriInformationPlugin/InformationFlowPlugin/Utils/
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Sources/SiriInformationPlugin/SiriInformationSearch/Experience/ExperiencesResolver/SportsPersonalization/
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Sources/SiriInformationPlugin/SiriInformationUIPlugin/
++ /Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Sources/SiriInformationPlugin/SiriInformationUIPlugin/Utils/
++ _$s10PegasusAPI13Tvpb_CoverArtV11AspectRatioOAESQAAWL
++ _$s10PegasusAPI13Tvpb_CoverArtV11AspectRatioOSQAAMc
++ _$s10PegasusAPI14Typespb_DomainOACSQAAWL
++ _$s10PegasusAPI14Typespb_DomainOACSQAAWlTm
++ _$s10PegasusAPI14Typespb_DomainOSQAAMc
++ _$s10PegasusAPI17Moviespb_CoverArtV11AspectRatioOAESQAAWL
++ _$s10PegasusAPI17Moviespb_CoverArtV11AspectRatioOAESQAAWlTm
++ _$s10PegasusAPI17Moviespb_CoverArtV11AspectRatioOSQAAMc
++ _$s10PegasusAPI61Apple_Parsec_Siri_V2alpha_RecordLocationActivityBuilderParamsV10SourceTypeOAESQAAWL
++ _$s10PegasusAPI61Apple_Parsec_Siri_V2alpha_RecordLocationActivityBuilderParamsV10SourceTypeOAESQAAWlTm
++ _$s10PegasusAPI61Apple_Parsec_Siri_V2alpha_RecordLocationActivityBuilderParamsV10SourceTypeOSQAAMc
++ _$s10SnippetKit0A11PluginModelP4data10Foundation4DataVSgvgTq
++ _$s10SnippetKit0A11PluginModelPAAE4data10Foundation4DataVSgvg
++ _$s11SiriKitFlow07PatternC9Providing_pWOcTm
++ _$s13SiriInference27SportsPersonalizationEntityVACSQAAWL
++ _$s13SiriInference27SportsPersonalizationEntityVSQAAMc
++ _$s13SiriInference27SportsPersonalizationEntityVSg_ADtMR
++ _$s13SiriInference27SportsPersonalizationEntityVSg_ADtMd
++ _$s13SiriUtilities11InputOriginOACSQAAWL
++ _$s13SiriUtilities11InputOriginOSQAAMc
++ _$s13SiriUtilities12ResponseModeVSgWObTm
++ _$s20SiriInformationTypes18PommesSearchReasonOACSQAAWL
++ _$s20SiriInformationTypes18PommesSearchReasonOSQAAMc
++ _$s21InformationFlowPlugin012PushOffQueryB0C24isClientDrivenExperience33_B283BEFBB451E5695689C97B0B2DB38CLL14pommesResponseSb04SiriA6Search06PommesS0C_tFTf4nd_n
++ _$s21InformationFlowPlugin017WebSearchPunchoutB0C5StateO9hashValueSivgTm
++ _$s21InformationFlowPlugin017WebSearchPunchoutB0C5StateOSHAASH13_rawHashValue4seedS2i_tFTWTm
++ _$s21InformationFlowPlugin017WebSearchPunchoutB0C5StateOSHAASH9hashValueSivgTWTm
++ _$s21InformationFlowPlugin04SiriA10DataModelsO10SnippetKit0gC5ModelAadEP4data10Foundation0E0VSgvgTW
++ _$s21InformationFlowPlugin06SearchB0C24isClientDrivenExperience33_719FC0C4FE6AAB25BFF37273F7DCC9EFLL14pommesResponseSb04SiriaD006PommesR0C_tFTf4nd_n
++ _$s21InformationFlowPlugin0a7RoutingB0C39knowledgeFallbackConfirmationCompletion33_C90D02FE25FC40C99716C34BBAE4219ELL9exitValue10yesStateFn02noS0022disableConfirmRequestssT012isEnablement17pommesCandidateId16sessionRequestIdy07SiriKitB012PromptResultOyAA09KnowledgeG16ResponseProviderVG_AC0S0O16SiriMessageTypes12GenAIPartnerOSgXEA2tXcSgSb04SiriA5Types17PommesCandidateIdOSgSSSgtF04$s21ab9Plugin0a7d23B0C012renderPommesB033_ijklmno82ELLy07SiriKitB015ExecuteResponseV0nA6Search0fQ0CFyAF12PromptResultOyAA021Knowledgeg19Q8ProviderVGcfU_AC5S39O0N12MessageTypes12GenAIPartnerOSgXEfU_SSTf1ncnnnnnn_nTf4nnnnnnng_n
++ _$s21InformationFlowPlugin0a7RoutingB0C39knowledgeFallbackConfirmationCompletion33_C90D02FE25FC40C99716C34BBAE4219ELL9exitValue10yesStateFn02noS0022disableConfirmRequestssT012isEnablement17pommesCandidateId16sessionRequestIdy07SiriKitB012PromptResultOyAA09KnowledgeG16ResponseProviderVG_AC0S0O16SiriMessageTypes12GenAIPartnerOSgXEA2tXcSgSb04SiriA5Types17PommesCandidateIdOSgSSSgtF04$s21ab9Plugin0a7d77B0C7execute07SiriKitB015ExecuteResponseVyYaFyAE12PromptResultOyAA021Knowledgeg20I8ProviderVGcfU3_AC5S39O0F12MessageTypes12GenAIPartnerOSgXEfU_SSTf1ncnnnnnn_nTf4nnnnnnng_n
++ _$s21InformationFlowPlugin15CommandThrottleC10throttlingSbvpfF
++ _$s21InformationFlowPlugin21SuggestionsEntryPointC18suggestionsDonator05biomeH017requestIdProvider06localeL0AcA0d6IntentH0_p_AA05BiomeH0_pSSSgycSSyctcfcTf4eennn_n
++ _$sSD8_VariantV11removeValue6forKeyq_Sgx_tFSS_Se_SEs8SendablepTg5
++ _$sSo23FLOWSchemaFLOWStateTypeVSQSCSQ2eeoiySbx_xtFZTW
++ _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tFSS_Se_SEs8SendablepTg5
++ _$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntFSS_Se_SEs8SendablepTg5
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_Se_SEs8SendablepTg5
++ __swift_FORCE_LOAD_$_swiftMetalKit
++ __swift_FORCE_LOAD_$_swiftMetalKit_$_InformationFlowPlugin
++ __swift_FORCE_LOAD_$_swiftModelIO
++ __swift_FORCE_LOAD_$_swiftModelIO_$_InformationFlowPlugin
++ _objc_msgSend$App
++ _objc_msgSend$Intent
++ _objc_msgSend$JSONObjectWithData:options:error:
++ _objc_msgSend$_className
++ _objc_msgSend$_setLaunchId:
++ _objc_msgSend$aceId
++ _objc_msgSend$archivedDataWithRootObject:requiringSecureCoding:error:
++ _objc_msgSend$backingStore
++ _objc_msgSend$bundleForClass:
++ _objc_msgSend$bundleWithIdentifier:
++ _objc_msgSend$callbacks
++ _objc_msgSend$commands
++ _objc_msgSend$contentRating
++ _objc_msgSend$coordinate
++ _objc_msgSend$currentTaskName
++ _objc_msgSend$currentTaskType
++ _objc_msgSend$currentThread
++ _objc_msgSend$data
++ _objc_msgSend$dateFromString:
++ _objc_msgSend$defaultSearchEngine
++ _objc_msgSend$description
++ _objc_msgSend$detailType
++ _objc_msgSend$domainContexts
++ _objc_msgSend$donateInteractionWithCompletion:
++ _objc_msgSend$doubleValue
++ _objc_msgSend$encodeObject:forKey:
++ _objc_msgSend$encodedData
++ _objc_msgSend$execute:patternId:parameters:globals:options:completion:
++ _objc_msgSend$filename
++ _objc_msgSend$flowState
++ _objc_msgSend$flowStateReason
++ _objc_msgSend$flowStateReasonDescription
++ _objc_msgSend$flowStateType
++ _objc_msgSend$identifier
++ _objc_msgSend$init
++ _objc_msgSend$initRequiringSecureCoding:
++ _objc_msgSend$initWithAbsoluteTimestamp:bundleID:sourceID:intentClass:intentVerb:intentType:handlingStatus:interaction:itemID:donatedBySiri:interactionDirection:groupIdentifier:
++ _objc_msgSend$initWithBool:
++ _objc_msgSend$initWithCallRecordFilter:callRecordToCallBack:audioRoute:destinationType:preferredCallProvider:contacts:ttyType:callCapability:
++ _objc_msgSend$initWithData:
++ _objc_msgSend$initWithDouble:
++ _objc_msgSend$initWithFloat:
++ _objc_msgSend$initWithIdentifier:
++ _objc_msgSend$initWithIntent:response:
++ _objc_msgSend$initWithLongLong:
++ _objc_msgSend$initWithPath:
++ _objc_msgSend$initWithPersonHandle:nameComponents:displayName:image:contactIdentifier:customIdentifier:
++ _objc_msgSend$initWithUnsignedInt:
++ _objc_msgSend$initWithValue:type:
++ _objc_msgSend$intent
++ _objc_msgSend$isSiriLocationServicesPromptingEnabled
++ _objc_msgSend$itemDestination
++ _objc_msgSend$itemSource
++ _objc_msgSend$items
++ _objc_msgSend$label
++ _objc_msgSend$languageCode
++ _objc_msgSend$latitude
++ _objc_msgSend$load:patternId:completion:
++ _objc_msgSend$location
++ _objc_msgSend$longitude
++ _objc_msgSend$mainThread
++ _objc_msgSend$patternType
++ _objc_msgSend$pixelHeight
++ _objc_msgSend$pixelWidth
++ _objc_msgSend$primaryDescriptiveText
++ _objc_msgSend$refId
++ _objc_msgSend$reloadSearchEngines
++ _objc_msgSend$resolvedSlotName
++ _objc_msgSend$runSiriKitExecutorCommandWithContext:payload:
++ _objc_msgSend$searchID
++ _objc_msgSend$searchURLForUserTypedString:
++ _objc_msgSend$sendEvent:
++ _objc_msgSend$setAceId:
++ _objc_msgSend$setActivationEvent:
++ _objc_msgSend$setAddresses:
++ _objc_msgSend$setAppAvailableInStorefront:
++ _objc_msgSend$setAppDisplayName:
++ _objc_msgSend$setAppIcon:
++ _objc_msgSend$setAppIconMap:
++ _objc_msgSend$setAppInstalled:
++ _objc_msgSend$setAppPunchOut:
++ _objc_msgSend$setAppStoreUri:
++ _objc_msgSend$setApplicationBundleIdentifier:
++ _objc_msgSend$setAthleteName:
++ _objc_msgSend$setAthleteQId:
++ _objc_msgSend$setAudioBuffer:
++ _objc_msgSend$setAudioData:
++ _objc_msgSend$setAudioDataUrl:
++ _objc_msgSend$setAvoidHighways:
++ _objc_msgSend$setAvoidTolls:
++ _objc_msgSend$setBitsPerChannel:
++ _objc_msgSend$setBundleId:
++ _objc_msgSend$setBytesPerFrame:
++ _objc_msgSend$setBytesPerPacket:
++ _objc_msgSend$setCallRecipient:
++ _objc_msgSend$setCallbacks:
++ _objc_msgSend$setCanUseServerTTS:
++ _objc_msgSend$setCanonicalId:
++ _objc_msgSend$setCaption:
++ _objc_msgSend$setCarRouteOptions:
++ _objc_msgSend$setCardData:
++ _objc_msgSend$setCardSnippet:
++ _objc_msgSend$setCategory:
++ _objc_msgSend$setChainResultSet:
++ _objc_msgSend$setChannelsPerFrame:
++ _objc_msgSend$setCity:
++ _objc_msgSend$setClientBoundCommands:
++ _objc_msgSend$setCode:
++ _objc_msgSend$setCommands:
++ _objc_msgSend$setCompactSizeCardData:
++ _objc_msgSend$setContentHead:
++ _objc_msgSend$setContentRating:
++ _objc_msgSend$setContentType:
++ _objc_msgSend$setCoordinationOptions:
++ _objc_msgSend$setCountryCode:
++ _objc_msgSend$setData:
++ _objc_msgSend$setDataType:
++ _objc_msgSend$setDateFormat:
++ _objc_msgSend$setDecoderStreamDescription:
++ _objc_msgSend$setDetailType:
++ _objc_msgSend$setDialog:
++ _objc_msgSend$setDialogIdentifier:
++ _objc_msgSend$setDialogPhase:
++ _objc_msgSend$setDirectionRole:
++ _objc_msgSend$setDirectionsType:
++ _objc_msgSend$setDisplayProperties:
++ _objc_msgSend$setDisplayText:
++ _objc_msgSend$setDomainObjects:
++ _objc_msgSend$setDynamicURLImageResourceData:
++ _objc_msgSend$setEventType:
++ _objc_msgSend$setExampleUtterance:
++ _objc_msgSend$setExecutedPegasusDomain:
++ _objc_msgSend$setExtSessionGuid:
++ _objc_msgSend$setExtSessionGuidCreatedTimestamp:
++ _objc_msgSend$setEyesFree:
++ _objc_msgSend$setFailureCommands:
++ _objc_msgSend$setFirstName:
++ _objc_msgSend$setFormat:
++ _objc_msgSend$setFormatFlags:
++ _objc_msgSend$setFormatID:
++ _objc_msgSend$setFramesPerPacket:
++ _objc_msgSend$setFullName:
++ _objc_msgSend$setFullPrint:
++ _objc_msgSend$setFullSpeak:
++ _objc_msgSend$setHandoffPayload:
++ _objc_msgSend$setId:
++ _objc_msgSend$setIdentifier:
++ _objc_msgSend$setImage:
++ _objc_msgSend$setImageData:
++ _objc_msgSend$setImageResource:
++ _objc_msgSend$setImages:
++ _objc_msgSend$setImmersiveExperience:
++ _objc_msgSend$setInformationPluginContext:
++ _objc_msgSend$setInputOrigin:
++ _objc_msgSend$setIsApprovedForGrading:
++ _objc_msgSend$setIsSiriXRequest:
++ _objc_msgSend$setIsTransient:
++ _objc_msgSend$setItemDestination:
++ _objc_msgSend$setItemIndex:
++ _objc_msgSend$setItemSource:
++ _objc_msgSend$setItemType:
++ _objc_msgSend$setItems:
++ _objc_msgSend$setKeyword:
++ _objc_msgSend$setLabel:
++ _objc_msgSend$setLanguage:
++ _objc_msgSend$setLastName:
++ _objc_msgSend$setLatitude:
++ _objc_msgSend$setLeagueName:
++ _objc_msgSend$setLeagueQId:
++ _objc_msgSend$setListenAfterSpeaking:
++ _objc_msgSend$setLoadingText:
++ _objc_msgSend$setLocale:
++ _objc_msgSend$setLocation:
++ _objc_msgSend$setLongitude:
++ _objc_msgSend$setLowScoreThreshold:
++ _objc_msgSend$setMarketplace:
++ _objc_msgSend$setMeetsPersonalRequestThreshold:
++ _objc_msgSend$setMeetsUserSessionThreshold:
++ _objc_msgSend$setMessage:
++ _objc_msgSend$setMiddleName:
++ _objc_msgSend$setModelData:
++ _objc_msgSend$setNickName:
++ _objc_msgSend$setNlFallbackParse:
++ _objc_msgSend$setNlUserParses:
++ _objc_msgSend$setNumber:
++ _objc_msgSend$setObject:
++ _objc_msgSend$setOptions:
++ _objc_msgSend$setPegasusContextTier1:
++ _objc_msgSend$setPersons:
++ _objc_msgSend$setPixelHeight:
++ _objc_msgSend$setPixelWidth:
++ _objc_msgSend$setPlaceData2:
++ _objc_msgSend$setPlayerStreamDescription:
++ _objc_msgSend$setPods:
++ _objc_msgSend$setPointHeight:
++ _objc_msgSend$setPointWidth:
++ _objc_msgSend$setPostalCode:
++ _objc_msgSend$setPreserveResultSpaceIfPossible:
++ _objc_msgSend$setPrimaryDescriptiveText:
++ _objc_msgSend$setProviderCommand:
++ _objc_msgSend$setPunchOut:
++ _objc_msgSend$setPunchOutName:
++ _objc_msgSend$setPunchOutUri:
++ _objc_msgSend$setRawData:
++ _objc_msgSend$setRecognition:
++ _objc_msgSend$setRedactedFullPrint:
++ _objc_msgSend$setRedactedFullSpeak:
++ _objc_msgSend$setRedactedSupportingPrint:
++ _objc_msgSend$setRedactedSupportingSpeak:
++ _objc_msgSend$setRef:
++ _objc_msgSend$setRefId:
++ _objc_msgSend$setReferencedCommands:
++ _objc_msgSend$setRegionOfInterestRadiusInMiles:
++ _objc_msgSend$setRegionType:
++ _objc_msgSend$setRepeatable:
++ _objc_msgSend$setRequestType:
++ _objc_msgSend$setReserved:
++ _objc_msgSend$setResourceUrl:
++ _objc_msgSend$setResponseVariantResult:
++ _objc_msgSend$setResponseViewId:
++ _objc_msgSend$setResultIndex:
++ _objc_msgSend$setSampleRate:
++ _objc_msgSend$setSash:
++ _objc_msgSend$setScaleFactor:
++ _objc_msgSend$setScore:
++ _objc_msgSend$setSearchAlongRoute:
++ _objc_msgSend$setSearchItems:
++ _objc_msgSend$setSearchRegionCenter:
++ _objc_msgSend$setSecondaryText:
++ _objc_msgSend$setSelectedIndex:
++ _objc_msgSend$setSelectedUserAttributes:
++ _objc_msgSend$setSelectionText:
++ _objc_msgSend$setSessionHandoffData:
++ _objc_msgSend$setSharedUserId:
++ _objc_msgSend$setShelves:
++ _objc_msgSend$setShowDirections:
++ _objc_msgSend$setShowTraffic:
++ _objc_msgSend$setSourceType:
++ _objc_msgSend$setSpeakableText:
++ _objc_msgSend$setSpeechRecognizedAceId:
++ _objc_msgSend$setSpokenName:
++ _objc_msgSend$setSpokenOnly:
++ _objc_msgSend$setSportName:
++ _objc_msgSend$setSportQId:
++ _objc_msgSend$setStartLocalRequest:
++ _objc_msgSend$setStateCode:
++ _objc_msgSend$setStreet:
++ _objc_msgSend$setSubThoroughfare:
++ _objc_msgSend$setSubtitle:
++ _objc_msgSend$setSuccessCommands:
++ _objc_msgSend$setSupportingPrint:
++ _objc_msgSend$setSupportingSpeak:
++ _objc_msgSend$setSuppressNavigation:
++ _objc_msgSend$setSystem:
++ _objc_msgSend$setTeamName:
++ _objc_msgSend$setTeamQId:
++ _objc_msgSend$setText:
++ _objc_msgSend$setThoroughfare:
++ _objc_msgSend$setTimeZone:
++ _objc_msgSend$setTimerValue:
++ _objc_msgSend$setTimezoneId:
++ _objc_msgSend$setTitle:
++ _objc_msgSend$setTypedData:
++ _objc_msgSend$setUrl:
++ _objc_msgSend$setUrlFormatString:
++ _objc_msgSend$setUserAgent:
++ _objc_msgSend$setUserCurrentLocation:
++ _objc_msgSend$setUserData:
++ _objc_msgSend$setUserId:
++ _objc_msgSend$setUserIdentityClassification:
++ _objc_msgSend$setUtsId:
++ _objc_msgSend$setUtsSearchUrl:
++ _objc_msgSend$setUtterance:
++ _objc_msgSend$setValue:
++ _objc_msgSend$setViews:
++ _objc_msgSend$setVisualResponse:
++ _objc_msgSend$settings
++ _objc_msgSend$sharedInstance
++ _objc_msgSend$sharedPreferences
++ _objc_msgSend$shelves
++ _objc_msgSend$showDirections
++ _objc_msgSend$source
++ _objc_msgSend$statusReason
++ _objc_msgSend$title
++ _objc_msgSend$typeName
++ _objc_msgSend$urlFormatString
++ _objc_msgSend$userData
++ _objc_msgSend$verb
++ _objc_msgSend$views
++ _objc_release_x9
++ _symbolic _____Sg_ABt 13SiriInference27SportsPersonalizationEntityV
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/DerivedSources/
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/AppIntentConstants.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/BiomeDonator.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/CarPlaySuggestionsIntentDonator.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/CommandFactory.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/CommandThrottle.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/CommonCATs.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/ContinuationResultSetFlowProvider.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/DetailedResultFlowFactory.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/DetailedResultProvider.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/DirectInvocation+Extensions.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/DisableConfirmRequestsConfirmationStrategy.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/ErrorFlow.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/ExperienceSelector.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/FeatureFlag.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/FlowConstants.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/FlowEntryPoint.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/FlowTrampolining.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/GenericResultSetParamBuilder.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/IdentifiedUserExtension.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/InformationFlowPlugin.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/InformationFlowPlugin.swiftmodule
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/InformationFlowPlugin_vers.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/InformationLog.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/InformationRootFlow.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/InformationRoutingFlow.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/InformationViewFactory.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/InputHelpers.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/KnowledgeFallbackConfirmationStrategy.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/KnowledgeFallbackHelper.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/NavigateToShimFlow.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/OverrideGuardFlowStrategy.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/Parse+NLv4.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/ParsecAlias.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/PatternExecutor.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/PatternFlowProviding+Helper.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/PatternHelper.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/PegasusACEConverters.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/PegasusComponentsParser.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/PegasusFlowEventLogger.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/PegasusPatternFlow.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/PommesFallbackFlow.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/PushOffQueryFlow.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/RFSimpleYesNoPromptFlowStrategy.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/ReadingFlowNL.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/RegionUnavailabilityOutputGenerator.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/RenderComponentFlowFactory.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/RenderPegasusFlow.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/ResponseFlowFactory.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/ResultParamBuilder.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/ResultSetFlowFactory.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/RunPommesRequestFlow.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/SAUIVisualResponseShowNextSnippet+Extensions.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/SearchFlow.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/ShimOverrideFlow.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/SiriInformationDataModels.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/SiriSuggestionProvider.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/SportsIntentDonator.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/SportsParseUtils.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/SportsPersonalizationEntryPoint.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/SportsPersonalizationMetrics.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/SportsPersonalizationSelection.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/SportsProperty+LocalSportSearchIntent.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/String+Base64.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/SuggestionsEntryPoint+Default.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/SuggestionsEntryPoint.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/SuggestionsIntentDonator.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/TapEngagementHandlingFlow.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/VideoSnippetUtils.o
+- /Library/Caches/com.apple.xbs/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/InformationFlowPlugin.build/Objects-normal/arm64e/WebSearchPunchoutFlow.o
+- /Library/Caches/com.apple.xbs/Sources/SiriInformationPlugin/InformationFlowPlugin/
+- /Library/Caches/com.apple.xbs/Sources/SiriInformationPlugin/InformationFlowPlugin/Flows/
+- /Library/Caches/com.apple.xbs/Sources/SiriInformationPlugin/InformationFlowPlugin/Flows/Patterns/
+- /Library/Caches/com.apple.xbs/Sources/SiriInformationPlugin/InformationFlowPlugin/Flows/Patterns/Response/
+- /Library/Caches/com.apple.xbs/Sources/SiriInformationPlugin/InformationFlowPlugin/Flows/Patterns/Response/DetailedResult/
+- /Library/Caches/com.apple.xbs/Sources/SiriInformationPlugin/InformationFlowPlugin/Flows/Patterns/Response/ResultSet/
+- /Library/Caches/com.apple.xbs/Sources/SiriInformationPlugin/InformationFlowPlugin/Personalization/
+- /Library/Caches/com.apple.xbs/Sources/SiriInformationPlugin/InformationFlowPlugin/Personalization/Sports/
+- /Library/Caches/com.apple.xbs/Sources/SiriInformationPlugin/InformationFlowPlugin/Personalization/Suggestions/
+- /Library/Caches/com.apple.xbs/Sources/SiriInformationPlugin/InformationFlowPlugin/Rendering/
+- /Library/Caches/com.apple.xbs/Sources/SiriInformationPlugin/InformationFlowPlugin/Utils/
+- /Library/Caches/com.apple.xbs/Sources/SiriInformationPlugin/SiriInformationSearch/Experience/ExperiencesResolver/SportsPersonalization/
+- /Library/Caches/com.apple.xbs/Sources/SiriInformationPlugin/SiriInformationUIPlugin/
+- /Library/Caches/com.apple.xbs/Sources/SiriInformationPlugin/SiriInformationUIPlugin/Utils/
+- _$s10Foundation3URLV21InformationFlowPluginE11setOrAppend10queryItemsACSgSayAA12URLQueryItemVG_tFSbAIXEfU_
+- _$s10Foundation4DateVSgWOb
+- _$s10PegasusAPI13Tvpb_CoverArtV11AspectRatioOAESYAAWL
+- _$s10PegasusAPI13Tvpb_CoverArtV11AspectRatioOSYAAMc
+- _$s10PegasusAPI14Typespb_DomainOACSYAAWL
+- _$s10PegasusAPI14Typespb_DomainOACSYAAWlTm
+- _$s10PegasusAPI14Typespb_DomainOSYAAMc
+- _$s10PegasusAPI17Moviespb_CoverArtV11AspectRatioOAESYAAWL
+- _$s10PegasusAPI17Moviespb_CoverArtV11AspectRatioOAESYAAWlTm
+- _$s10PegasusAPI17Moviespb_CoverArtV11AspectRatioOSYAAMc
+- _$s10PegasusAPI28Searchfoundation_CardSectionVSgWOb
+- _$s10PegasusAPI42Apple_Parsec_Siri_V2alpha_SuggestionIntentOACSYAAWL
+- _$s10PegasusAPI42Apple_Parsec_Siri_V2alpha_SuggestionIntentOSYAAMc
+- _$s10PegasusAPI61Apple_Parsec_Siri_V2alpha_RecordLocationActivityBuilderParamsV10SourceTypeOAESYAAWL
+- _$s10PegasusAPI61Apple_Parsec_Siri_V2alpha_RecordLocationActivityBuilderParamsV10SourceTypeOAESYAAWlTm
+- _$s10PegasusAPI61Apple_Parsec_Siri_V2alpha_RecordLocationActivityBuilderParamsV10SourceTypeOSYAAMc
+- _$s11SiriKitFlow0C0_pWOb
+- _$s11SiriKitFlow0aB12EventSending_pWOb
+- _$s11SiriKitFlow18ResponseGenerating_pWOb
+- _$s11SiriKitFlow22AceServiceInvokerAsync_pWOb
+- _$s11SiriKitFlow6Output_pWOb
+- _$s13SiriUtilities11InputOriginOACSYAAWL
+- _$s13SiriUtilities11InputOriginOSYAAMc
+- _$s20SiriInformationTypes18PommesSearchReasonOACSYAAWL
+- _$s20SiriInformationTypes18PommesSearchReasonOSYAAMc
+- _$s21InformationFlowPlugin0a7RoutingB0C39knowledgeFallbackConfirmationCompletion33_C90D02FE25FC40C99716C34BBAE4219ELL9exitValue10yesStateFn02noS0022disableConfirmRequestssT012isEnablement17pommesCandidateId16sessionRequestIdy07SiriKitB012PromptResultOyAA09KnowledgeG16ResponseProviderVG_AC0S0O16SiriMessageTypes12GenAIPartnerOSgXEA2tXcSgSb04SiriA5Types17PommesCandidateIdOSgSSSgtF04$s21ab9Plugin0a7d77B0C7execute07SiriKitB015ExecuteResponseVyYaFyAE12PromptResultOyAA021Knowledgeg20I8ProviderVGcfU3_AC5S39O0F12MessageTypes12GenAIPartnerOSgXEfU_SSTf1ncnnnnnn_nTf4nnnnnnng_nTm
+- _$s21InformationFlowPlugin10CommonCATsC29knowledgeFallbackConfirmation19contentProviderName07SiriKitB016TemplatingResultVSS_tYaKFTY2_
+- _$s21InformationFlowPlugin10CommonCATsC35knowledgeFallbackEnablementYesLabel19contentProviderName07SiriKitB016TemplatingResultVSS_tYaKFTY2_
+- _$s21InformationFlowPlugin10CommonCATsC37knowledgeFallbackConfirmationYesLabel19contentProviderName07SiriKitB016TemplatingResultVSS_tYaKFTY2_
+- _$s21InformationFlowPlugin10CommonCATsC38disableConfirmRequestsConfirmationText19contentProviderName07SiriKitB016TemplatingResultVSS_tYaKFTY2_
+- _$s21InformationFlowPlugin10CommonCATsC39knowledgeFallbackEnablementConfirmation19contentProviderName12isFullDialog07SiriKitB016TemplatingResultVSS_SbtYaKFTY3_
+- _$s21InformationFlowPlugin10CommonCATsC39knowledgeFallbackEnablementConfirmation19contentProviderName12isFullDialog07SiriKitB016TemplatingResultVSS_SbtYaKFTY4_
+- _$s21InformationFlowPlugin12BiomeDonator_pWOb
+- _$s21InformationFlowPlugin13FeatureToggle_pWOb
+- _$s21InformationFlowPlugin17PegasusExperienceOWOhTm
+- _$s21InformationFlowPlugin20PegasusACEConvertersO17makeSwitchProfile6paramsSo09SAProfileG0C0D3API026Apple_Parsec_Siri_V2alpha_gH13BuilderParamsV_tFZTm
+- _$s21InformationFlowPlugin24SuggestionsIntentDonator_pWOb
+- _$s21InformationFlowPlugin31SportsPersonalizationEntryPointC016makePersonalizedD10Experience33_65CFA3A7C2969752B966336CF3E78843LL6resultAA0dE6ResultV07SiriKitB05ParseO07PegasusR0V_tFSb0S9Inference0dE6EntityV_0V3API013Apple_Parsec_s9_V2alpha_sV8ResponseV0S11InstructionVt_tXEfU2_
+- _$s21InformationFlowPlugin31SportsPersonalizationEntryPointC016makePersonalizedD10Experience33_65CFA3A7C2969752B966336CF3E78843LL6resultAA0dE6ResultV07SiriKitB05ParseO07PegasusR0V_tFSb0S9Inference0dE6EntityV_0V3API013Apple_Parsec_s9_V2alpha_sV8ResponseV0S11InstructionVt_tXEfU2_TA
+- _$s21InformationFlowPlugin32KnowledgeFallbackHelperProviding_pWOb
+- _$s21InformationFlowPlugin42DisableConfirmRequestsConfirmationStrategyC013makePromptForG006itemToE007SiriKitB06Output_pyt_tYaKFTY8_
+- _$s21InformationFlowPlugin42DisableConfirmRequestsConfirmationStrategyC013makePromptForG006itemToE007SiriKitB06Output_pyt_tYaKFTY9_
+- _$s21SiriInformationSearch24PommesEngagementProtocol_pWOb
+- _$s21SiriInformationSearch29PommesServerFallbackDisabling_pWOb
+- _$sSMsE20_halfStablePartition15isSuffixElement5IndexQzSb0F0QzKXE_tKFSay10Foundation12URLQueryItemVG_Tg5079$s10Foundation3URLV21InformationFlowPluginE11setOrAppend10queryItemsACSgSayAA12iJ14VG_tFSbAIXEfU_AJTf1cn_n
+- _$sSTsE5first5where7ElementQzSgSbADKXE_tKFSay13SiriInference27SportsPersonalizationEntityV_10PegasusAPI013Apple_Parsec_d9_V2alpha_dI8ResponseV0D11InstructionVtG_Tg5
+- _$sSTsE8contains5whereS2b7ElementQzKXE_tKFSaySSG_Tg5
+- _$sSTsSQ7ElementRpzrlE8containsySbABFSay21SiriInformationSearch19PommesRenderOptionsC10PromptTypeOG_Tg5
+- _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5
+- _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA
+- _$sSY8rawValue03RawB0QzvgTj
+- _$sSlsE10firstIndex5where0B0QzSgSb7ElementQzKXE_tKFSay10Foundation12URLQueryItemVG_Tg5079$s10Foundation3URLV21InformationFlowPluginE11setOrAppend10queryItemsACSgSayAA12fG14VG_tFSbAIXEfU_AKTf1cn_nTf4ng_n
+- _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSaySo18FLOWSchemaFLOWStepCG_yts5NeverOTg50127$s21InformationFlowPlugin07PegasusB11EventLoggerC03logdb4StepE18FromPommesResponseSSSg8taskType_Sb010isTerminalH6LoggedtyFySo18dE6CXEfU_SSSo0d9FLOWStateV0VSb0hI6Plugin0kimN0CTf1cn_nTf4nnnng_n
+- _$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntFSS_Se_SEs8SendablepTg5Tf4nnen_nSS_Tg5
+- _$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntFSS_Se_SEs8SendablepTg5Tf4nnen_nSd_Tg5
+- _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_Se_SEs8SendablepTg5Tf4ennn_nSS_Tg5
+- _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_Se_SEs8SendablepTg5Tf4ennn_nSd_Tg5
+- _$ss17_NativeDictionaryV9mapValuesyAByxqd__Gqd__q_KXEKlFSS_10PegasusAPI38Apple_Parsec_Siri_Legacy_ImageResourceVSo09SAUIImageL0CTg50105$s21InformationFlowPlugin0A11ViewFactoryC31makeGeneralKnowledgeAppPunchOut06legacyijK0So07SAUIAppjK0CSg10e6API025g1_h1_i1_j13_ijK0V_tFSo17ml16CAI0p1_q1_r1_s6_K8U0VXEfU_0oP6Plugin0osT0CTf1cn_nTf4ng_n
+- ___swift_mutable_project_boxed_opaque_existential_2
+- _malloc
+CStrings:
++ "/Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Sources/SiriInformationPlugin/InformationFlowPlugin/Flows/Patterns/Response/ResultSet/ContinuationResultSetFlowProvider.swift"
++ "/Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Sources/SiriInformationPlugin/InformationFlowPlugin/Rendering/InformationViewFactory.swift"
++ "/Library/Caches/com.apple.xbs/226717D9-4A30-4F25-B10D-1EA204674837/TemporaryDirectory.Oo2eGE/Sources/SiriInformationPlugin/InformationFlowPlugin/Utils/PatternHelper.swift"
+- "/Library/Caches/com.apple.xbs/Sources/SiriInformationPlugin/InformationFlowPlugin/Flows/Patterns/Response/ResultSet/ContinuationResultSetFlowProvider.swift"
+- "/Library/Caches/com.apple.xbs/Sources/SiriInformationPlugin/InformationFlowPlugin/Rendering/InformationViewFactory.swift"
+- "/Library/Caches/com.apple.xbs/Sources/SiriInformationPlugin/InformationFlowPlugin/Utils/PatternHelper.swift"
+
+```

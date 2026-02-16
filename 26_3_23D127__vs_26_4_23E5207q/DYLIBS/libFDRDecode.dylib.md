@@ -1,0 +1,79 @@
+## libFDRDecode.dylib
+
+> `/usr/lib/libFDRDecode.dylib`
+
+```diff
+
+-1499.80.8.0.0
+-  __TEXT.__text: 0xb340
++1499.100.48.0.0
++  __TEXT.__text: 0xafbc
+   __TEXT.__auth_stubs: 0x240
+   __TEXT.__const: 0x8cc
+-  __TEXT.__cstring: 0x4d4b
+-  __TEXT.__unwind_info: 0x1c8
++  __TEXT.__cstring: 0x4d36
++  __TEXT.__unwind_info: 0x1c0
+   __DATA_CONST.__got: 0x10
+   __DATA_CONST.__const: 0x180
+   __AUTH_CONST.__auth_got: 0x120
+
+   __DATA_DIRTY.__bss: 0x8
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libamsupport.dylib
+-  UUID: AC5F9611-3395-370D-AF08-81792DA1DF52
+-  Functions: 206
+-  Symbols:   487
+-  CStrings:  431
++  UUID: A8060167-F0A3-32BD-98AC-F1899B826ED6
++  Functions: 238
++  Symbols:   551
++  CStrings:  430
+ 
+Symbols:
++ _AMFDRDecodeVerifyMultiCombinedDataIntegrity.cold.2
++ _OUTLINED_FUNCTION_24
++ _OUTLINED_FUNCTION_25
++ _OUTLINED_FUNCTION_26
++ _OUTLINED_FUNCTION_27
++ _OUTLINED_FUNCTION_28
++ _OUTLINED_FUNCTION_29
++ _OUTLINED_FUNCTION_30
++ _OUTLINED_FUNCTION_31
++ _OUTLINED_FUNCTION_32
++ _OUTLINED_FUNCTION_33
++ _OUTLINED_FUNCTION_34
++ _OUTLINED_FUNCTION_35
++ _OUTLINED_FUNCTION_36
++ _OUTLINED_FUNCTION_37
++ _OUTLINED_FUNCTION_38
++ _OUTLINED_FUNCTION_39
++ _OUTLINED_FUNCTION_40
++ _OUTLINED_FUNCTION_41
++ _OUTLINED_FUNCTION_42
++ _OUTLINED_FUNCTION_43
++ _OUTLINED_FUNCTION_44
++ _OUTLINED_FUNCTION_45
++ _OUTLINED_FUNCTION_46
++ _OUTLINED_FUNCTION_47
++ _OUTLINED_FUNCTION_48
++ _OUTLINED_FUNCTION_49
++ _OUTLINED_FUNCTION_50
++ _OUTLINED_FUNCTION_51
++ _OUTLINED_FUNCTION_52
++ _OUTLINED_FUNCTION_53
++ _OUTLINED_FUNCTION_54
++ _OUTLINED_FUNCTION_55
++ _OUTLINED_FUNCTION_56
++ _OUTLINED_FUNCTION_57
++ _OUTLINED_FUNCTION_58
++ _OUTLINED_FUNCTION_59
+- __AMFDRDecodeSearchEntryFromPropertyList.cold.3
+- __AMFDRDecodeVerifySignature.cold.4
+- __AMFDRDecodeVerifySignature.cold.5
+- __AMFDRDecodeVerifySignature.cold.6
+- __AMFDRDecodeVerifySignature.cold.7
+CStrings:
+- "%s: outValue is NULL"
+
+```

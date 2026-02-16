@@ -1,0 +1,293 @@
+## PhotosUIEdit
+
+> `/System/Library/PrivateFrameworks/PhotosUIEdit.framework/PhotosUIEdit`
+
+```diff
+
+-832.0.107.0.0
+-  __TEXT.__text: 0x6a1bc
+-  __TEXT.__auth_stubs: 0x2670
++840.1.220.0.0
++  __TEXT.__text: 0x6ca44
++  __TEXT.__auth_stubs: 0x25f0
+   __TEXT.__objc_methlist: 0x322c
+   __TEXT.__dlopen_cstrs: 0x43
+-  __TEXT.__const: 0x2bf0
+-  __TEXT.__swift5_typeref: 0x99de
++  __TEXT.__const: 0x2c30
++  __TEXT.__swift5_typeref: 0x9980
+   __TEXT.__swift5_reflstr: 0xaa3
+   __TEXT.__swift5_assocty: 0x228
+   __TEXT.__constg_swiftt: 0xd40
+
+   __TEXT.__swift5_capture: 0x4e4
+   __TEXT.__swift5_proto: 0xb8
+   __TEXT.__swift5_types: 0xb8
+-  __TEXT.__cstring: 0x4153
++  __TEXT.__cstring: 0x3768
+   __TEXT.__oslogstring: 0x3f38
+   __TEXT.__swift5_protos: 0x4
+   __TEXT.__swift_as_entry: 0x1c
+   __TEXT.__swift_as_ret: 0x1c
+-  __TEXT.__gcc_except_tab: 0x7c0
+-  __TEXT.__unwind_info: 0x19f8
+-  __TEXT.__eh_frame: 0x700
+-  __TEXT.__objc_classname: 0x654
+-  __TEXT.__objc_methname: 0xbd27
+-  __TEXT.__objc_methtype: 0x12fe
+-  __TEXT.__objc_stubs: 0x98a0
+-  __DATA_CONST.__got: 0xe08
++  __TEXT.__gcc_except_tab: 0x760
++  __TEXT.__unwind_info: 0x1ae8
++  __TEXT.__eh_frame: 0x768
++  __TEXT.__objc_classname: 0x9bf
++  __TEXT.__objc_methname: 0xc2f5
++  __TEXT.__objc_methtype: 0x14b4
++  __TEXT.__objc_stubs: 0xa120
++  __DATA_CONST.__got: 0xe00
+   __DATA_CONST.__const: 0x1aa0
+   __DATA_CONST.__objc_classlist: 0x268
+   __DATA_CONST.__objc_catlist: 0x58
+
+   __DATA_CONST.__objc_selrefs: 0x2db0
+   __DATA_CONST.__objc_superrefs: 0x138
+   __DATA_CONST.__objc_arraydata: 0x70
+-  __AUTH_CONST.__auth_got: 0x1348
++  __AUTH_CONST.__auth_got: 0x1308
+   __AUTH_CONST.__const: 0x1d98
+-  __AUTH_CONST.__cfstring: 0x2fc0
++  __AUTH_CONST.__cfstring: 0x3000
+   __AUTH_CONST.__objc_const: 0x6d98
+   __AUTH_CONST.__objc_arrayobj: 0x30
+   __AUTH_CONST.__objc_dictobj: 0x50
+
+   __AUTH.__objc_data: 0xfd8
+   __AUTH.__data: 0xac0
+   __DATA.__objc_ivar: 0x3e4
+-  __DATA.__data: 0x18f8
++  __DATA.__data: 0x1908
+   __DATA.__objc_stublist: 0x8
+   __DATA.__bss: 0x1728
+   __DATA.__common: 0x30
+
+   - /usr/lib/libtailspin.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+-  - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7CD18E3B-9AF8-34A3-ACB6-5AA6CE8A6E3E
+-  Functions: 2780
+-  Symbols:   6004
+-  CStrings:  3416
++  UUID: E751BA9A-AF0D-36E1-9BC8-2738D448060A
++  Functions: 2814
++  Symbols:   6143
++  CStrings:  3387
+ 
+Symbols:
++ _OUTLINED_FUNCTION_63
++ _OUTLINED_FUNCTION_64
++ _OUTLINED_FUNCTION_65
++ _OUTLINED_FUNCTION_66
++ _OUTLINED_FUNCTION_67
++ _OUTLINED_FUNCTION_68
++ _OUTLINED_FUNCTION_69
++ _OUTLINED_FUNCTION_70
++ _OUTLINED_FUNCTION_71
++ _OUTLINED_FUNCTION_72
++ _OUTLINED_FUNCTION_73
++ _OUTLINED_FUNCTION_74
++ _OUTLINED_FUNCTION_75
++ _OUTLINED_FUNCTION_76
++ _OUTLINED_FUNCTION_77
++ _OUTLINED_FUNCTION_78
++ _OUTLINED_FUNCTION_79
++ _OUTLINED_FUNCTION_80
++ _OUTLINED_FUNCTION_81
++ _OUTLINED_FUNCTION_82
++ _OUTLINED_FUNCTION_83
++ _OUTLINED_FUNCTION_84
++ _OUTLINED_FUNCTION_85
++ _OUTLINED_FUNCTION_86
++ _OUTLINED_FUNCTION_87
++ _OUTLINED_FUNCTION_88
++ _OUTLINED_FUNCTION_89
++ _OUTLINED_FUNCTION_90
++ _OUTLINED_FUNCTION_91
++ _OUTLINED_FUNCTION_92
++ _OUTLINED_FUNCTION_93
++ _OUTLINED_FUNCTION_94
++ _PEAdjustmentStraightenMediaTypeErrorKey
++ __MergedGlobals
++ ___Block_byref_object_copy_.1621
++ ___Block_byref_object_copy_.2278
++ ___Block_byref_object_copy_.2469
++ ___Block_byref_object_copy_.2569
++ ___Block_byref_object_copy_.3100
++ ___Block_byref_object_copy_.3152
++ ___Block_byref_object_dispose_.1622
++ ___Block_byref_object_dispose_.2279
++ ___Block_byref_object_dispose_.2470
++ ___Block_byref_object_dispose_.2570
++ ___Block_byref_object_dispose_.3101
++ ___Block_byref_object_dispose_.3153
++ ___block_literal_global.1276
++ ___block_literal_global.1581
++ ___block_literal_global.1819
++ ___block_literal_global.2486
++ ___block_literal_global.2573
++ ___block_literal_global.2910
++ ___block_literal_global.3096
++ ___block_literal_global.313
++ ___block_literal_global.3154
++ ___block_literal_global.424
++ ___block_literal_global.515
++ ___block_literal_global.641
++ ___block_literal_global.726
++ ___swift_destroy_boxed_opaque_existential_1
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA5GroupVyAA012_ConditionalD0VyAA4ViewPAAE15sensoryFeedback_7triggerQrAA07SensoryI0V_qd__tSQRd__lFQOyAiAEAJ_AK9conditionQrAM_qd__Sbqd___qd__tctSQRd__lFQOyAA14GeometryReaderVyACyAA6ZStackVyAA05TupleG0VyATyACyACyACyAA07_ShadowG0VyAA16RoundedRectangleVGAA12_ScaleEffectVGAA08_OpacityU0VGAA07_OffsetU0VG_AA6IDViewVyACyACyACyACyACyACyACyACyACyACyARyATyAGyACyA8_yACyACyACyAA5ImageVAA05_ClipU0VyAA0S0VGGAA18_AspectRatioLayoutVGAA21_TraitWritingModifierVyAA18TransitionTraitKeyVGGSSGA21_yAA22LayoutPriorityTraitKeyVGGATyA8_yACyACyACy12PhotosUIEdit14PhotoStyleDPadV08BackdropY0VA18_GAA011_SaturationU0VGA24_GSo10CGImageRefaSgG_ACyAA5ColorVAA24_BackgroundStyleModifierVyAA8MaterialVGGACyA33_17CompositeGradientVA29_GtGG_ACyAA017StrokeBorderShapeG0VyAXA46_AA05EmptyG0VGAA010_BlendModeU0VGSgtGGAA14_PaddingLayoutVGAA12_FrameLayoutVGA12_yAX6_InsetVGGA38_GAA011_BrightnessU0VGAA05_BlurU0VGA_GA2_GA5_GA24_GA43_GtGSg_AEyATyAiAE8staticIf_4thenQrqd___qd_0_xXEtAA0G14InputPredicateRd__AaHRd_0_r0_lFQOyACyACyACyA78_A21_yAA14ZIndexTraitKeyVGGA2_GA64_G_AA8SolariumVAGyAiAE9animation_4bodyQrAA9AnimationVSg_qd__AA011PlaceholderdG0VyxGXEtAaHRd__lFQOyAiAE06_glassU0_2inQrAA6_GlassV_qd__tAA5ShapeRd__lFQOyA101__AXQo__AiAE06_glassU6HiddenyQrSbFQOyA110_yA117_G_Qo_Qo_A101_GQo__A101_A100_tGGSgAEyAGyACyA33_10SpiderGridVy_AXGA98_GAGyATyACyACyAiAE07drawingE06opaque9colorModeQrSb_AA18ColorRenderingModeOtFQOyACyA33_10DottedGridVA70_G_Qo_A64_GA98_G_ACyAiAEA104__A105_QrA108__qd__A111_XEtAaHRd__lFQOyA139__ACyA110_yA139_GA2_GQo_A98_GtGAGyACyACyACyACyACyA10_A18_GA70_GA70_GA64_GA98_GACyACyA138_A64_GA98_GGGGGAiAE7gesture_9includingQrqd___AA11GestureMaskVtAA7GestureRd__lFQOyACyAEyATyACyACyA8_yACyACyA33_14ValueIndicatorVAA15_PositionLayoutVGA24_GSSGA2_GA98_G_ACyACyACyACyA164_AA19_BackgroundModifierVyARyATyAVyAA6CircleVG_A176_tGGGGA166_GA5_GA98_GtGGAA01_D13ShapeModifierVyA14_GG_AA13_EndedGestureVyAA15_ChangedGestureVyAA15SequenceGestureVyAA16LongPressGestureVAA11DragGestureVGGGQo_tGGA73_GG_So7CGPointVA209_SQ12CoreGraphicsyHCg0_Qo__SbQo_ACyACyACyA212_A_GAA17_Rotation3DEffectVGA215_GGGAA024_LayoutDirectionBehaviorU0VGAA30_EnvironmentKeyWritingModifierVyAA15LayoutDirectionOGGAaHHPA222_AaHHPA219_AaHHPA218_AaHHPqd0__AaHHD3_A212_HO_A217_AaHHPA216_AaHHPA213_AaHHPqd0__AaHHD3_A212_HO_A_AA0G8ModifierHPyHCHC_A215_AAA229_HPyHCHC_A215_AAA229_HPyHCHCHC_HC_A221_AAA229_HPyHCHC_A227_AAA229_HPyHCHC.27
++ _objc_msgSend$activateConstraints:
++ _objc_msgSend$addChildViewController:
++ _objc_msgSend$addSubview:
++ _objc_msgSend$backgroundColor
++ _objc_msgSend$backgroundImage
++ _objc_msgSend$bottomAnchor
++ _objc_msgSend$bounds
++ _objc_msgSend$clearColor
++ _objc_msgSend$colors
++ _objc_msgSend$constraintEqualToAnchor:
++ _objc_msgSend$defaultValue
++ _objc_msgSend$didMoveToParentViewController:
++ _objc_msgSend$gradientCast
++ _objc_msgSend$hidePaletteLabel
++ _objc_msgSend$hideResetButton
++ _objc_msgSend$hideToneAndColorLabels
++ _objc_msgSend$initWithCoder:
++ _objc_msgSend$initWithDomain:code:userInfo:
++ _objc_msgSend$initWithFrame:
++ _objc_msgSend$initWithNibName:bundle:
++ _objc_msgSend$initWithSize:
++ _objc_msgSend$initWithTone:color:palette:
++ _objc_msgSend$initWithValue:
++ _objc_msgSend$intrinsicContentSize
++ _objc_msgSend$isDottedGridAnimated
++ _objc_msgSend$isResetButtonEnabled
++ _objc_msgSend$labelColor
++ _objc_msgSend$leadingAnchor
++ _objc_msgSend$loadAndRegisterInpaintModel:
++ _objc_msgSend$loadAndRegisterRefinementModel:
++ _objc_msgSend$onGestureDidBegin
++ _objc_msgSend$onGestureDidEnd
++ _objc_msgSend$onValueChanged
++ _objc_msgSend$palette
++ _objc_msgSend$pe_bundle
++ _objc_msgSend$pulsingValueIndicator
++ _objc_msgSend$resetAction
++ _objc_msgSend$setBackgroundColor:
++ _objc_msgSend$setBackgroundImage:
++ _objc_msgSend$setBounds:
++ _objc_msgSend$setColors:
++ _objc_msgSend$setDefaultValue:
++ _objc_msgSend$setGradientCast:
++ _objc_msgSend$setHidePaletteLabel:
++ _objc_msgSend$setHideResetButton:
++ _objc_msgSend$setHideToneAndColorLabels:
++ _objc_msgSend$setIsDottedGridAnimated:
++ _objc_msgSend$setIsResetButtonEnabled:
++ _objc_msgSend$setOnGestureDidBegin:
++ _objc_msgSend$setOnGestureDidEnd:
++ _objc_msgSend$setOnValueChanged:
++ _objc_msgSend$setPalette:
++ _objc_msgSend$setPulsingValueIndicator:
++ _objc_msgSend$setResetAction:
++ _objc_msgSend$setSnapIndicatorToGrid:
++ _objc_msgSend$setStaticDottedGridImage:
++ _objc_msgSend$setTranslatesAutoresizingMaskIntoConstraints:
++ _objc_msgSend$setValue:
++ _objc_msgSend$shouldUseFlipAnimationForValuePlatter
++ _objc_msgSend$snapIndicatorToGrid
++ _objc_msgSend$staticDottedGridImage
++ _objc_msgSend$stopNetworkMonitoring
++ _objc_msgSend$systemBackgroundColor
++ _objc_msgSend$topAnchor
++ _objc_msgSend$trailingAnchor
++ _objc_msgSend$value
++ _objc_msgSend$view
++ _objc_msgSend$warmUpResources
++ _objectdestroy.52Tm
++ _objectdestroy.77Tm
++ _symbolic _____yAAyAAy__________G_____G_____y_____GG 7SwiftUI15ModifiedContentV 12PhotosUIEdit14PhotoStyleDPadV13BackdropImageV AA18_AspectRatioLayoutV AA17_SaturationEffectV AA21_TraitWritingModifierV AA010TransitionQ3KeyV
++ _symbolic _____yAAyAAy__________y_____y_____y_____y_____G_AHtGGGG_____G_____G 7SwiftUI15ModifiedContentV 12PhotosUIEdit14PhotoStyleDPadV14ValueIndicatorV AA19_BackgroundModifierV AA6ZStackV AA9TupleViewV AA07_ShadowP0V AA6CircleV AA15_PositionLayoutV AA13_OffsetEffectV
++ _symbolic _____yAAy__________G_____y_____GG 7SwiftUI15ModifiedContentV 12PhotosUIEdit14PhotoStyleDPadV14ValueIndicatorV AA15_PositionLayoutV AA21_TraitWritingModifierV AA010TransitionN3KeyV
++ _symbolic _____yAAy__________y_____y_____y_____y_____G_AHtGGGG_____G 7SwiftUI15ModifiedContentV 12PhotosUIEdit14PhotoStyleDPadV14ValueIndicatorV AA19_BackgroundModifierV AA6ZStackV AA9TupleViewV AA07_ShadowP0V AA6CircleV AA15_PositionLayoutV
++ _symbolic _____y_______________G 7SwiftUI15StrokeShapeViewV 12PhotosUIEdit14PhotoStyleDPadV9GridLinesV AA5ColorV AA05EmptyE0V
++ _symbolic _____y__________y_____y_____y_____y_____G_AHtGGGG 7SwiftUI15ModifiedContentV 12PhotosUIEdit14PhotoStyleDPadV14ValueIndicatorV AA19_BackgroundModifierV AA6ZStackV AA9TupleViewV AA07_ShadowP0V AA6CircleV
++ _symbolic _____y_____yAAyAAy__________G_____y_____GGSSG_____G 7SwiftUI15ModifiedContentV AA6IDViewV 12PhotosUIEdit14PhotoStyleDPadV14ValueIndicatorV AA15_PositionLayoutV AA21_TraitWritingModifierV AA010TransitionO3KeyV AA14_OpacityEffectV
++ _symbolic _____y_____y_____y_____G_AEtGG 7SwiftUI6ZStackV AA9TupleViewV AA07_ShadowE0V AA6CircleV
+- ___Block_byref_object_copy_.1609
+- ___Block_byref_object_copy_.2266
+- ___Block_byref_object_copy_.2457
+- ___Block_byref_object_copy_.2556
+- ___Block_byref_object_copy_.3084
+- ___Block_byref_object_copy_.3136
+- ___Block_byref_object_dispose_.1610
+- ___Block_byref_object_dispose_.2267
+- ___Block_byref_object_dispose_.2458
+- ___Block_byref_object_dispose_.2557
+- ___Block_byref_object_dispose_.3085
+- ___Block_byref_object_dispose_.3137
+- ___block_literal_global.1264
+- ___block_literal_global.1569
+- ___block_literal_global.1807
+- ___block_literal_global.2474
+- ___block_literal_global.2560
+- ___block_literal_global.2900
+- ___block_literal_global.305
+- ___block_literal_global.3080
+- ___block_literal_global.3138
+- ___block_literal_global.415
+- ___block_literal_global.504
+- ___block_literal_global.628
+- ___block_literal_global.713
+- ___swift_coroFrameAllocStub
+- __swift_FORCE_LOAD_$_swiftCompression
+- __swift_FORCE_LOAD_$_swiftCompression_$_PhotosUIEdit
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA5GroupVyAA012_ConditionalD0VyAA4ViewPAAE15sensoryFeedback_7triggerQrAA07SensoryI0V_qd__tSQRd__lFQOyAiAEAJ_AK9conditionQrAM_qd__Sbqd___qd__tctSQRd__lFQOyAA14GeometryReaderVyACyAA6ZStackVyAA05TupleG0VyATyACyACyACyAA07_ShadowG0VyAA16RoundedRectangleVGAA12_ScaleEffectVGAA08_OpacityU0VGAA07_OffsetU0VG_AA6IDViewVyACyACyACyACyACyACyACyACyACyACyARyATyAGyACyA8_yACyACyACyAA5ImageVAA05_ClipU0VyAA0S0VGGAA18_AspectRatioLayoutVGAA21_TraitWritingModifierVyAA18TransitionTraitKeyVGGSSGA21_yAA22LayoutPriorityTraitKeyVGGATyA8_yACyACyACy12PhotosUIEdit14PhotoStyleDPadV08BackdropY0VA18_GAA011_SaturationU0VGA24_GSo10CGImageRefaSgG_ACyAA5ColorVAA24_BackgroundStyleModifierVyAA8MaterialVGGACyA33_17CompositeGradientVA29_GtGG_ACyAA017StrokeBorderShapeG0VyAXA46_AA05EmptyG0VGAA010_BlendModeU0VGSgtGGAA14_PaddingLayoutVGAA12_FrameLayoutVGA12_yAX6_InsetVGGA38_GAA011_BrightnessU0VGAA05_BlurU0VGA_GA2_GA5_GA24_GA43_GtGSg_AEyATyAiAE8staticIf_4thenQrqd___qd_0_xXEtAA0G14InputPredicateRd__AaHRd_0_r0_lFQOyACyACyACyA78_A21_yAA14ZIndexTraitKeyVGGA2_GA64_G_AA8SolariumVAGyAiAE9animation_4bodyQrAA9AnimationVSg_qd__AA011PlaceholderdG0VyxGXEtAaHRd__lFQOyAiAE06_glassU0_2inQrAA6_GlassV_qd__tAA5ShapeRd__lFQOyA101__AXQo__AiAE06_glassU6HiddenyQrSbFQOyA110_yA117_G_Qo_Qo_A101_GQo__A101_A100_tGGSgAEyAGyACyA33_10SpiderGridVy_AXGA98_GAGyATyACyACyAiAE07drawingE06opaque9colorModeQrSb_AA18ColorRenderingModeOtFQOyACyA33_10DottedGridVA70_G_Qo_A64_GA98_G_ACyAiAEA104__A105_QrA108__qd__A111_XEtAaHRd__lFQOyA139__ACyA110_yA139_GA2_GQo_A98_GtGAGyACyACyACyACyACyA10_A18_GA70_GA70_GA64_GA98_GACyACyA138_A64_GA98_GGGGGAiAE7gesture_9includingQrqd___AA11GestureMaskVtAA7GestureRd__lFQOyACyAEyATyACyACyA8_yACyACyA33_14ValueIndicatorVAA15_PositionLayoutVGA24_GSSGA2_GA98_G_ACyACyACyACyA164_AA19_BackgroundModifierVyARyATyAVyAA6CircleVG_A176_tGGGGA166_GA5_GA98_GtGGAA01_D13ShapeModifierVyA14_GG_AA13_EndedGestureVyAA15_ChangedGestureVyAA15SequenceGestureVyAA16LongPressGestureVAA11DragGestureVGGGQo_tGGA73_GG_So7CGPointVA209_SQ12CoreGraphicsyHCg0_Qo__SbQo_ACyACyACyA212_A_GAA17_Rotation3DEffectVGA215_GGGAA024_LayoutDirectionBehaviorU0VGAA30_EnvironmentKeyWritingModifierVyAA15LayoutDirectionOGGAaHHPA222_AaHHPA219_AaHHPA218_AaHHPqd0__AaHHD3_A212_HO_A217_AaHHPA216_AaHHPA213_AaHHPqd0__AaHHD3_A212_HO_A_AA0G8ModifierHPyHCHC_A215_AAA229_HPyHCHC_A215_AAA229_HPyHCHCHC_HC_A221_AAA229_HPyHCHC_A227_AAA229_HPyHCHC.28
+- _keypath_get.1Tm
+- _keypath_set.2Tm
+- _malloc
+- _objc_claimAutoreleasedReturnValue
+- _objc_retainAutoreleaseReturnValue
+- _objc_retain_x3
+- _objc_retain_x4
+- _objc_retain_x5
+- _objc_retain_x6
+- _objc_retain_x9
+- _objectdestroy.51Tm
+- _objectdestroy.78Tm
+- _swift_initStackObject
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI4AxisO3SetV
+- _symbolic _____y______Qo_ 7SwiftUI4ViewPAAE19allowsSecureDrawingQryFQO 12PhotosUIEdit23PhotoStylePaletteSliderV
+- _symbolic _____y_____yAAyAAy_____y_____y_____yAAyAAyAAyAAy_____yADyADy______AFtGSg_AFSgAAy__________y_____GGSgtGG_____y_____GG_____G_____GARy_____GG_A0_A0_tGGSbGAKy_____GG_____GARy_____SgGG_Qo_ 7SwiftUI4ViewPAAE10fontWeightyQrAA4FontV0E0VSgFQO AA15ModifiedContentV AA6IDViewV AA0C8ThatFitsV AA05TupleC0V AA6HStackV 12PhotosUIEdit21PhotoStyleValueLabelsV0R5Label33_5CDC474A5E4048E96FA7A0FF4B3ACE2FLLV AV11ResetButtonAXLLV AA21_TraitWritingModifierV AA14ZIndexTraitKeyV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA18_AspectRatioLayoutV AA14_PaddingLayoutV AV13ConfigurationV AA18TransitionTraitKeyV AA16_FlexFrameLayoutV AF
+- _symbolic _____y_____yABy______ACtGSg_ACSg_____y__________y_____GGSgtGG 7SwiftUI6HStackV AA9TupleViewV 12PhotosUIEdit21PhotoStyleValueLabelsV0J5Label33_5CDC474A5E4048E96FA7A0FF4B3ACE2FLLV AA15ModifiedContentV AH11ResetButtonAJLLV AA21_TraitWritingModifierV AA06ZIndexZ3KeyV
+- _symbolic _____y_____y_____yACyACyACy_____yAByABy______AEtGSg_AESgACy__________y_____GGSgtGG_____y_____GG_____G_____GAQy_____GG_A_A_tGG 7SwiftUI12ViewThatFitsV AA05TupleC0V AA15ModifiedContentV AA6HStackV 12PhotosUIEdit21PhotoStyleValueLabelsV0N5Label33_5CDC474A5E4048E96FA7A0FF4B3ACE2FLLV AL11ResetButtonANLLV AA21_TraitWritingModifierV AA14ZIndexTraitKeyV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA18_AspectRatioLayoutV AA14_PaddingLayoutV AL13ConfigurationV
+- _symbolic _____y_____y_____y__________G_Qo__AAy_____yAEG_____GQo_ 7SwiftUI4ViewPAAE9animation_4bodyQrAA9AnimationVSg_qd__AA018PlaceholderContentC0VyxGXEtAaBRd__lFQO AcAE12drawingGroup6opaque9colorModeQrSb_AA014ColorRenderingM0OtFQO AA08ModifiedH0V 12PhotosUIEdit14PhotoStyleDPadV10DottedGridV AA14_PaddingLayoutV AJ AA14_OpacityEffectV
+CStrings:
++ "/Library/Caches/com.apple.xbs/9126D811-39BA-4488-8E34-533F2F3FD334/TemporaryDirectory.aqq2sl/Sources/Photos_UI/Projects/PhotosUIEdit/PhotosUIEdit/AutoCalculator/PEAutoAdjustmentController.m"
++ "/Library/Caches/com.apple.xbs/9126D811-39BA-4488-8E34-533F2F3FD334/TemporaryDirectory.aqq2sl/Sources/Photos_UI/Projects/PhotosUIEdit/PhotosUIEdit/Loading-Saving/PEResourceLoader.m"
++ "/Library/Caches/com.apple.xbs/9126D811-39BA-4488-8E34-533F2F3FD334/TemporaryDirectory.aqq2sl/Sources/Photos_UI/Projects/PhotosUIEdit/PhotosUIEdit/PEAdjustment/PEAdjustmentFilter.m"
++ "/Library/Caches/com.apple.xbs/9126D811-39BA-4488-8E34-533F2F3FD334/TemporaryDirectory.aqq2sl/Sources/Photos_UI/Projects/PhotosUIEdit/PhotosUIEdit/PELivePortraitBehaviorController.m"
++ "Cannot straighten photo (auto calculator failure)"
++ "PEAdjustmentStraightenMediaTypeErrorKey"
+- "/Library/Caches/com.apple.xbs/Sources/Photos_UI/Projects/PhotosUIEdit/PhotosUIEdit/AutoCalculator/PEAutoAdjustmentController.m"
+- "/Library/Caches/com.apple.xbs/Sources/Photos_UI/Projects/PhotosUIEdit/PhotosUIEdit/Loading-Saving/PEResourceLoader.m"
+- "/Library/Caches/com.apple.xbs/Sources/Photos_UI/Projects/PhotosUIEdit/PhotosUIEdit/PEAdjustment/PEAdjustmentFilter.m"
+- "/Library/Caches/com.apple.xbs/Sources/Photos_UI/Projects/PhotosUIEdit/PhotosUIEdit/PELivePortraitBehaviorController.m"
+
+```

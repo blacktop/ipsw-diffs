@@ -1,0 +1,464 @@
+## mobileassetd
+
+> `/usr/libexec/mobileassetd`
+
+```diff
+
+-1837.80.27.0.1
+-  __TEXT.__text: 0x5a94
+-  __TEXT.__stubs: 0x39c
+-  __TEXT.__objc_stubs: 0xb20
+-  __TEXT.__objc_methlist: 0x1f0
+-  __TEXT.__const: 0xe8
+-  __TEXT.__cstring: 0x5d8
+-  __TEXT.__oslogstring: 0x13b7
+-  __TEXT.__gcc_except_tab: 0x1cc
+-  __TEXT.__objc_methname: 0x746
+-  __TEXT.__objc_classname: 0x29
+-  __TEXT.__objc_methtype: 0xcf
+-  __TEXT.__unwind_info: 0x160
+-  __DATA_CONST.__got: 0x348
+-  __DATA_CONST.__const: 0x160
+-  __DATA_CONST.__cfstring: 0x980
+-  __DATA_CONST.__objc_classlist: 0x10
++1837.100.235.0.0
++  __TEXT.__text: 0xe0
++  __TEXT.__auth_stubs: 0x80
++  __TEXT.__const: 0x50
++  __TEXT.__oslogstring: 0x21
++  __TEXT.__unwind_info: 0x58
++  __DATA_CONST.__auth_got: 0x40
++  __DATA_CONST.__got: 0x18
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_superrefs: 0x8
+-  __DATA_CONST.__objc_intobj: 0x60
+-  __DATA_CONST.__objc_arraydata: 0x10
+-  __DATA_CONST.__objc_arrayobj: 0x18
+-  __DATA.__objc_const: 0x230
+-  __DATA.__objc_selrefs: 0x2f8
+-  __DATA.__objc_ivar: 0x4
+-  __DATA.__objc_data: 0xa0
+-  __DATA.__bss: 0x58
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+-  - /System/Library/PrivateFrameworks/MobileAsset.framework/MobileAsset
+-  - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
++  - /System/Library/PrivateFrameworks/MobileAssetDaemon.framework/MobileAssetDaemon
+   - /System/Library/PrivateFrameworks/SoftwareUpdateCoreSupport.framework/SoftwareUpdateCoreSupport
+-  - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 22D9B88A-39E7-35DC-960E-060DDB67F85F
+-  Functions: 73
+-  Symbols:   114
+-  CStrings:  368
++  UUID: A129BBDE-A79F-387A-89AE-A576BCF20517
++  Functions: 1
++  Symbols:   13
++  CStrings:  1
+ 
+Symbols:
++ _CFBundleGetIdentifier
++ _CFBundleGetMainBundle
++ ___NSDictionary0__struct
++ __os_log_default
++ _mobileassetd_main
+- _CFPreferencesCopyAppValue
+- _MKBGetDeviceLockState
+- _NSDebugDescriptionErrorKey
+- _NSFileGroupOwnerAccountID
+- _NSFileOwnerAccountID
+- _NSFilePosixPermissions
+- _NSPOSIXErrorDomain
+- _NSStringFromClass
+- _NSUnderlyingErrorKey
+- _OBJC_CLASS_$_NSConstantArray
+- _OBJC_CLASS_$_NSConstantIntegerNumber
+- _OBJC_CLASS_$_NSData
+- _OBJC_CLASS_$_NSDate
+- _OBJC_CLASS_$_NSDictionary
+- _OBJC_CLASS_$_NSError
+- _OBJC_CLASS_$_NSFileManager
+- _OBJC_CLASS_$_NSMutableArray
+- _OBJC_CLASS_$_NSMutableDictionary
+- _OBJC_CLASS_$_NSNumber
+- _OBJC_CLASS_$_NSObject
+- _OBJC_CLASS_$_NSPropertyListSerialization
+- _OBJC_CLASS_$_NSSet
+- _OBJC_CLASS_$_NSString
+- _OBJC_CLASS_$_NSURL
+- _OBJC_CLASS_$_NSUUID
+- _OBJC_CLASS_$_SUCore
+- _OBJC_CLASS_$_SUCoreDevice
+- _OBJC_CLASS_$_SUCoreRestoreVersion
+- _OBJC_METACLASS_$_NSObject
+- __Block_object_dispose
+- __NSConcreteGlobalBlock
+- __NSConcreteStackBlock
+- __NSGetMachExecuteHeader
+- __Unwind_Resume
+- ___CFConstantStringClassReference
+- ___MABrainStartupTransaction
+- ___error
+- ___kCFBooleanTrue
+- ___objc_personality_v0
+- ___sandbox_ms
+- __objc_empty_cache
+- _close
+- _dispatch_once
+- _dispatch_queue_create
+- _dispatch_sync
+- _dlclose
+- _dlerror
+- _dlopen
+- _dlsym
+- _free
+- _fsctl
+- _getpid
+- _graftdmg
+- _kMKBUserSessionIDKey
+- _lstat
+- _malloc_type_malloc
+- _objc_alloc
+- _objc_alloc_init
+- _objc_autoreleaseReturnValue
+- _objc_claimAutoreleasedReturnValue
+- _objc_msgSend
+- _objc_msgSendSuper2
+- _objc_opt_class
+- _objc_opt_isKindOfClass
+- _objc_release
+- _objc_release_x1
+- _objc_release_x19
+- _objc_release_x20
+- _objc_release_x21
+- _objc_release_x22
+- _objc_release_x23
+- _objc_release_x24
+- _objc_release_x25
+- _objc_release_x26
+- _objc_release_x27
+- _objc_release_x28
+- _objc_release_x8
+- _objc_release_x9
+- _objc_retain
+- _objc_retainAutorelease
+- _objc_retainAutoreleaseReturnValue
+- _objc_retainBlock
+- _objc_retain_x1
+- _objc_retain_x19
+- _objc_retain_x2
+- _objc_retain_x20
+- _objc_retain_x21
+- _objc_retain_x22
+- _objc_retain_x23
+- _objc_retain_x24
+- _objc_retain_x25
+- _objc_retain_x26
+- _objc_retain_x3
+- _objc_retain_x4
+- _objc_retain_x8
+- _objc_storeStrong
+- _open
+- _os_log_create
+- _os_variant_has_internal_content
+- _rename
+- _strerror
+- _sysctlbyname
+- _ungraftdmg
+- _uuid_clear
+- _uuid_copy
+- _uuid_unparse_lower
+CStrings:
++ "Starting %@ Feb  5 2026 01:57:43"
+- ""
+- "$RC_RELEASE"
+- "$SIDEBUILD_PARENT_TRAIN"
+- "%s"
+- "%{public}s: Atomic write to path failed and failed to remove temp path(%{public}@): %{public}@"
+- "%{public}s: Failed to write item to path %{public}@"
+- "*16@0:8"
+- "-"
+- ".current"
+- ".cxx_destruct"
+- ".graft"
+- ".proposed"
+- "/.nofollow/private/var/run/com.apple.mobileassetd-MobileAssetBrain"
+- "/System/Library/CoreServices/RestoreVersion.plist"
+- "/private/var/MobileAsset/MobileAssetBrain"
+- "/private/var/MobileSoftwareUpdate/MobileAsset/MobileAssetBrain"
+- "/usr/lib/libmobileassetd.dylib"
+- "<unknown>"
+- "@\"NSString\""
+- "@16@0:8"
+- "@24@0:8@16"
+- "AMFI"
+- "Auto"
+- "AutoSet"
+- "AutoStager"
+- "B16@0:8"
+- "B16@?0@\"NSString\"8"
+- "B24@0:8@16"
+- "B24@0:8^@16"
+- "B32@0:8@16@24"
+- "B32@0:8@16^@24"
+- "B32@?0@\"NSString\"8@\"NSString\"16^B24"
+- "B36@0:8B16@20@28"
+- "B44@0:8B16@20@28^B36"
+- "Boot session UUID has an invalid length (%zu)"
+- "Brain"
+- "Could not allocate buffer to copy boot session UUID"
+- "Could not copy boot session UUID: %d (%s)"
+- "Could not look up boot session UUID: %d (%s)"
+- "Current"
+- "DEFAULT"
+- "ExtendedDeviceLockState"
+- "I16@0:8"
+- "Invalid data passed to %{public}s"
+- "Invalid path passed to %{public}s"
+- "KeyManager"
+- "LaunchDate"
+- "LaunchRecords"
+- "LuckD"
+- "MABrainAllowCrossBuildGroup"
+- "MABrainAllowDownloaded"
+- "MABrainAllowUnpersonalized"
+- "MABrainDisableHealthCheck"
+- "MABrainLoader"
+- "Manifest"
+- "MobileAssetBrain.cryptex"
+- "MobileAssetBrain.plist"
+- "MobileAssetBrainErrorDomain"
+- "MobileAssetTrustCache"
+- "PID"
+- "Proposed"
+- "PushNotification"
+- "RestoreLongVersion"
+- "SSO"
+- "SecureMA"
+- "Starting mobileassetd built Jan 21 2026 00:13:16"
+- "T@\"NSDictionary\",R,N"
+- "T@\"NSString\",R,N"
+- "TB,R,N"
+- "UNGRAFTDMG_NOFORCE"
+- "UTF8String"
+- "UUID"
+- "UUIDString"
+- "UpdateResult.plist"
+- "V2"
+- "[MAB] %@ MobileAssetBrain found in bundle %@"
+- "[MAB] %@ MobileAssetBrain not found"
+- "[MAB] %@ does not exist"
+- "[MAB] Allocating bundle failed for %@"
+- "[MAB] Allocating targetPath failed for target %@"
+- "[MAB] Attempting to load MobileAssetBrain at %s"
+- "[MAB] Caller canceled enumeration"
+- "[MAB] Could not create directory enumerator for %@"
+- "[MAB] Could not graft %s to %s"
+- "[MAB] Could not load mobileassetd launch history: %@"
+- "[MAB] Could not lstat %s"
+- "[MAB] Could not serialize launch history: %@"
+- "[MAB] Could not ungraft %s"
+- "[MAB] Could not write launch history: %@"
+- "[MAB] Current MobileAssetBrain bundle %@ is no longer viable"
+- "[MAB] Error de-staging current MobileAssetBrain: %@"
+- "[MAB] Error de-staging proposed MobileAssetBrain: %@"
+- "[MAB] Error grafting MobileAssetBrain bundle %@: %@"
+- "[MAB] Error loading Cryptex1 ticket at %@: %@"
+- "[MAB] Error loading contents of %@: %@"
+- "[MAB] Error loading trust cache at %@: %@"
+- "[MAB] Error re-staging proposed MobileAssetBrain for post reboot: %@"
+- "[MAB] Error re-staging proposed MobileAssetBrain for post unlock: %@"
+- "[MAB] Error reading mobileassetd launch history file metadata: %s"
+- "[MAB] Error removing item %@: %@"
+- "[MAB] Error removing old MobileAssetBrain installation directory: %@"
+- "[MAB] Failed to find MobileAssetBrain entry point: %s"
+- "[MAB] Failed to load MobileAssetBrain: %s"
+- "[MAB] Failed to load trust cache for MobileAssetBrain bundle %@ perhaps due to locked device state: errno=%d (%s)"
+- "[MAB] Failed to load trust cache for MobileAssetBrain bundle %@: errno=%d (%s)"
+- "[MAB] Failed to mark bundle(%@) as current brain."
+- "[MAB] Failed to write stagingName final path component(%@) to proposed path(%@)"
+- "[MAB] Found MA brain ticket: %@"
+- "[MAB] Info dict for builtin brain is %@"
+- "[MAB] Info dict for current brain is %@"
+- "[MAB] Info dict for proposed brain is %@"
+- "[MAB] Invalid %@ field in launch record:\n%@"
+- "[MAB] Invalid target path at %@"
+- "[MAB] MABrain health check is disabled."
+- "[MAB] MobileAssetBrain bundle %@ RestoreVersion string is invalid: %@"
+- "[MAB] MobileAssetBrain bundle %@ RestoreVersion string is nil"
+- "[MAB] MobileAssetBrain bundle %@ RestoreVersion.plist could not be loaded: %@"
+- "[MAB] MobileAssetBrain bundle %@ appears to be healthy."
+- "[MAB] MobileAssetBrain bundle %@ could not be verified"
+- "[MAB] MobileAssetBrain bundle %@ has been relaunched %lu time%s in the last %0.1f seconds."
+- "[MAB] MobileAssetBrain bundle %@ has been relaunched %lu time%s in the last %0.1f seconds. This is unhealthy!"
+- "[MAB] MobileAssetBrain bundle %@ has been relaunched on average %0.1f time%s per hour. This is unhealthy!"
+- "[MAB] MobileAssetBrain bundle %@ is from a different build group than the OS, but cross build group brains are allowed. (%ld -> %ld)"
+- "[MAB] MobileAssetBrain bundle %@ is from a different build group than the OS. (%ld -> %ld)"
+- "[MAB] MobileAssetBrain bundle %@ is not personalized, and unpersonalized brains are not allowed."
+- "[MAB] MobileAssetBrain bundle %@ is not personalized, but unpersonalized brains are allowed."
+- "[MAB] MobileAssetBrain bundle %@ is older than current OS: %@ < %@"
+- "[MAB] MobileAssetBrain bundle %@ is personalized, but unpersonalized brains are also allowed."
+- "[MAB] MobileAssetBrain bundle %@ is personalized."
+- "[MAB] MobileAssetBrain bundle/cryptex %@ could not be loaded"
+- "[MAB] Only preserving the last %d launch records for MobileAssetBrain bundle %@"
+- "[MAB] Only preserving the last %d launch records for built-in MobileAssetBrain"
+- "[MAB] Performing MABrain garbage collection (current=%@)..."
+- "[MAB] Preserving item %@"
+- "[MAB] Preserving item %@ (still grafted)"
+- "[MAB] Proceeding because unpersonalized brains are allowed."
+- "[MAB] Proposed MobileAssetBrain bundle %@ requires a reboot"
+- "[MAB] Successfully grafted %@ onto %@"
+- "[MAB] Successfully loaded trust cache for MobileAssetBrain bundle %@"
+- "[MAB] Successfully removed item %@"
+- "[MAB] Successfully removed old MobileAssetBrain installation directory"
+- "[MAB] Successfully ungrafted %@ from the file system using %@"
+- "[MAB] Successfully updated launch history with new record:\n%@"
+- "[MAB] System RestoreVersion string is invalid: %@"
+- "[MAB] System RestoreVersion string is nil"
+- "[MAB] There are no launch records for MobileAssetBrain bundle %@"
+- "[MAB] Trust cache and/or ticket for MobileAssetBrain bundle %@ are invalid\ntrustCache=%@\nticket=%@"
+- "[MAB] Unable to determine train name"
+- "[MAB] Using GRAFTDMG_CRYPTEX_BOOT"
+- "[MAB] Using GRAFTDMG_CRYPTEX_PDI_NONCE"
+- "[MAB] mobileassetd has no launch history; possible first launch since boot."
+- "[MAB] mobileassetd launch history file is too large; disregarding."
+- "[MAB] mobileassetd launch history successfully loaded"
+- "[MA_PREFS] Read preference from: %{public}@ for: %{public}@ value: `%{public}@` (%{public}@)"
+- "_CompatibilityVersion"
+- "__MABuiltinBrainBundle__"
+- "_bundlePath"
+- "addObject:"
+- "allow-st-extraction-service-privileged"
+- "allow-st-extractor-plugin"
+- "boolValue"
+- "boot-session-uuid"
+- "brainInfo"
+- "brainPath"
+- "buildGroup"
+- "built-in"
+- "bundleId"
+- "bundlePath"
+- "bytes"
+- "com.apple.MobileAsset"
+- "com.apple.MobileAsset.preferencesDomain"
+- "com.apple.mobileassetd"
+- "commit"
+- "compare:"
+- "containsObject:"
+- "count"
+- "createDirectoryAtPath:withIntermediateDirectories:attributes:error:"
+- "cryptex1ticket.%@.der"
+- "cryptex1ticket.der"
+- "cryptexPath"
+- "cryptexPath is nil"
+- "currentBootOnlyTicketPath"
+- "currentTargetPath"
+- "dataWithContentsOfFile:options:error:"
+- "dataWithPropertyList:format:options:error:"
+- "date"
+- "defaultManager"
+- "defaults"
+- "destageCurrent:"
+- "destageProposed:"
+- "dictionary"
+- "dictionaryWithContentsOfFile:"
+- "dictionaryWithContentsOfURL:error:"
+- "dictionaryWithDictionary:"
+- "dictionaryWithObjects:forKeys:count:"
+- "enumeratorAtPath:"
+- "errorWithDomain:code:userInfo:"
+- "fileExistsAtPath:"
+- "fileExistsAtPath:isDirectory:"
+- "fileSystemRepresentation"
+- "fileURLWithPath:"
+- "fsctl()"
+- "garbageCollect"
+- "getTrainName"
+- "graft failed"
+- "graft:"
+- "graftPath"
+- "graftPath is nil"
+- "graftdmg()"
+- "graftdmgType"
+- "hasValidCurrentBootOnlyTicket"
+- "healthCheck:history:"
+- "i"
+- "i28@0:8i16^*20"
+- "i52@0:8i16^*20@28r*36@44"
+- "init"
+- "initWithPath:"
+- "initWithRestoreVersion:"
+- "isComparable:"
+- "isEqualToString:"
+- "isGloballySigned"
+- "isGrafted"
+- "isGraftedPath:"
+- "isPersonalized"
+- "kern.bootsessionuuid"
+- "lastPathComponent"
+- "length"
+- "libmobileassetd-path"
+- "loadCryptex:bundle:bundleName:"
+- "loadHistory"
+- "loadTrustCache:bundle:bundleName:needsUnlock:"
+- "lstat failed"
+- "mobileassetbrain_root_hash"
+- "mobileassetd-trainname"
+- "mobileassetd-uuid"
+- "mobileassetd_main"
+- "mutableCopy"
+- "nextObject"
+- "nil"
+- "numberWithInt:"
+- "objectAtIndexedSubscript:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "open()"
+- "path"
+- "primaryTicketPath"
+- "proposedTargetPath"
+- "recordLaunch:history:"
+- "relaunch-on-unlock"
+- "removeItemAtPath:error:"
+- "removeObjectForKey:"
+- "restoreVersion"
+- "rootHashPath"
+- "run:argv:"
+- "run:argv:info:path:history:"
+- "s"
+- "safeAtomicWriteToPath"
+- "setObject:forKeyedSubscript:"
+- "setWithArray:"
+- "sharedCore"
+- "sharedDevice"
+- "sharedInstance"
+- "skipDescendants"
+- "stageCurrent:"
+- "stageProposed:error:"
+- "stringByAppendingPathComponent:"
+- "stringByDeletingLastPathComponent"
+- "stringByReplacingOccurrencesOfString:withString:"
+- "stringWithCString:encoding:"
+- "stringWithContentsOfFile:encoding:error:"
+- "stringWithFormat:"
+- "stringWithUTF8String:"
+- "supports-graceful-ungraft"
+- "supports-startup-transaction"
+- "syscall"
+- "ticketPath"
+- "timeIntervalSinceDate:"
+- "trustCachePath"
+- "ungraft failed"
+- "ungraft:"
+- "ungraft_param"
+- "ungraftdmg()"
+- "useDomain:"
+- "v16@0:8"
+- "v32@0:8@16@24"
+- "v8@?0"
+- "verify:history:"
+- "writeToFile:atomically:"
+- "writeToFile:options:error:"
+
+```

@@ -1,0 +1,732 @@
+## SafariSharedUI
+
+> `/System/Library/PrivateFrameworks/SafariSharedUI.framework/SafariSharedUI`
+
+```diff
+
+-623.2.7.10.4
+-  __TEXT.__text: 0x1192a4
+-  __TEXT.__auth_stubs: 0x23d0
++624.1.11.10.3
++  __TEXT.__text: 0x124d34
++  __TEXT.__auth_stubs: 0x28c0
+   __TEXT.__delay_stubs: 0x80
+   __TEXT.__delay_helper: 0x14c
+-  __TEXT.__objc_methlist: 0xc8fc
+-  __TEXT.__const: 0x6c370
+-  __TEXT.__gcc_except_tab: 0xf040
+-  __TEXT.__oslogstring: 0x9abd
+-  __TEXT.__cstring: 0x11b46
++  __TEXT.__objc_methlist: 0xc9d4
++  __TEXT.__const: 0x31c90
++  __TEXT.__gcc_except_tab: 0xf104
++  __TEXT.__oslogstring: 0x9c2d
++  __TEXT.__cstring: 0x11839
+   __TEXT.__ustring: 0x1fc2
+-  __TEXT.__dlopen_cstrs: 0x3b5
+-  __TEXT.__constg_swiftt: 0x304
+-  __TEXT.__swift5_typeref: 0x118e
++  __TEXT.__dlopen_cstrs: 0x363
++  __TEXT.__constg_swiftt: 0x57c
++  __TEXT.__swift5_typeref: 0x1c88
+   __TEXT.__swift5_builtin: 0x28
+-  __TEXT.__swift5_reflstr: 0x108
+-  __TEXT.__swift5_assocty: 0x60
+-  __TEXT.__swift5_proto: 0x1c
+-  __TEXT.__swift5_types: 0x24
+-  __TEXT.__swift5_fieldmd: 0xfc
+-  __TEXT.__swift5_capture: 0x38c
+-  __TEXT.__swift_as_entry: 0x80
+-  __TEXT.__swift_as_ret: 0xc0
+-  __TEXT.__unwind_info: 0x7300
+-  __TEXT.__eh_frame: 0x1cf0
+-  __TEXT.__objc_classname: 0x1f34
+-  __TEXT.__objc_methname: 0x2d603
+-  __TEXT.__objc_methtype: 0x5d94
+-  __TEXT.__objc_stubs: 0x1aa40
+-  __DATA_CONST.__got: 0x15b0
+-  __DATA_CONST.__const: 0x7290
+-  __DATA_CONST.__objc_classlist: 0x680
++  __TEXT.__swift5_reflstr: 0x198
++  __TEXT.__swift5_assocty: 0x110
++  __TEXT.__swift5_proto: 0x48
++  __TEXT.__swift5_types: 0x38
++  __TEXT.__swift5_fieldmd: 0x1dc
++  __TEXT.__swift5_capture: 0x3d0
++  __TEXT.__swift_as_entry: 0x84
++  __TEXT.__swift_as_ret: 0xc4
++  __TEXT.__unwind_info: 0x7650
++  __TEXT.__eh_frame: 0x1e44
++  __TEXT.__objc_classname: 0x21b6
++  __TEXT.__objc_methname: 0x2dfcf
++  __TEXT.__objc_methtype: 0x627a
++  __TEXT.__objc_stubs: 0x1b4a0
++  __DATA_CONST.__got: 0x17b0
++  __DATA_CONST.__const: 0x7310
++  __DATA_CONST.__objc_classlist: 0x688
+   __DATA_CONST.__objc_catlist: 0x148
+   __DATA_CONST.__objc_protolist: 0x230
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x8c98
++  __DATA_CONST.__objc_selrefs: 0x8d60
+   __DATA_CONST.__objc_protorefs: 0x40
+-  __DATA_CONST.__objc_superrefs: 0x498
++  __DATA_CONST.__objc_superrefs: 0x4a8
+   __DATA_CONST.__objc_arraydata: 0x19f8
+-  __AUTH_CONST.__auth_got: 0x1210
+-  __AUTH_CONST.__const: 0x23a0
+-  __AUTH_CONST.__cfstring: 0xfe40
+-  __AUTH_CONST.__objc_const: 0x164f0
++  __AUTH_CONST.__auth_got: 0x1488
++  __AUTH_CONST.__const: 0x26a0
++  __AUTH_CONST.__cfstring: 0x10420
++  __AUTH_CONST.__objc_const: 0x16650
+   __AUTH_CONST.__objc_intobj: 0x6a8
+   __AUTH_CONST.__objc_doubleobj: 0x50
+   __AUTH_CONST.__objc_arrayobj: 0x738
+   __AUTH_CONST.__objc_dictobj: 0x1e0
+-  __AUTH.__objc_data: 0x3f60
+-  __AUTH.__data: 0x4b0
+-  __DATA.__objc_ivar: 0xf7c
+-  __DATA.__data: 0x1f2c
+-  __DATA.__bss: 0xa60
++  __AUTH.__objc_data: 0x3fb0
++  __AUTH.__data: 0x4a8
++  __DATA.__objc_ivar: 0xf90
++  __DATA.__data: 0x21ec
++  __DATA.__bss: 0x1010
+   __DATA.__common: 0xa8
+   __DATA_DIRTY.__objc_data: 0x370
+-  __DATA_DIRTY.__bss: 0x20
++  __DATA_DIRTY.__bss: 0x19
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+   - /System/Library/PrivateFrameworks/UserActivity.framework/UserActivity
+   - /System/Library/PrivateFrameworks/VFX.framework/VFX
++  - /System/Library/PrivateFrameworks/WebPrivacy.framework/WebPrivacy
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 56059FF0-E03F-3509-8189-5127CFC1CF3B
+-  Functions: 6361
+-  Symbols:   21752
+-  CStrings:  12031
++  UUID: CF6A5289-B644-3A09-BDAB-7FAA02AC748D
++  Functions: 6549
++  Symbols:   22213
++  CStrings:  12167
+ 
+Symbols:
++ +[WBSASCLockupViewGenerator regularLockupViewGroup]
++ +[WBSASCLockupViewGenerator regularLockupViewGroup].cold.1
++ -[NSURL(WBSUINSURLExtras) safari_originForReferrer]
++ -[WBSASCLockupViewGenerator generateLockupViewsForAvailableApps:lockupViewType:lockupViewSize:maintainRequestedOrderOfApps:completionHandler:]
++ -[WBSAutoFillJavaScriptInjectionController _handleLoadMainScriptRequestMessage:]
++ -[WBSAutoFillJavaScriptInjectionController _handleObservedActionInFormTextField:]
++ -[WBSAutoFillJavaScriptInjectionController _handleObservedActionInFormTextField:].cold.1
++ -[WBSAutoFillJavaScriptInjectionController _injectMainScripts:webView:completionHandler:]
++ -[WBSAutoFillJavaScriptInjectionController _injectMainScriptsIfNeeded:webView:force:completionHandler:]
++ -[WBSAutoFillJavaScriptInjectionController _loadScriptsIfNeededAndCallJavascript:arguments:inFrame:webView:completionHandler:]
++ -[WBSAutoFillJavaScriptInjectionController _processControlDictionaries:frameContainingControl:mainFrame:webView:formDictionary:completionHandler:]
++ -[WBSAutoFillJavaScriptInjectionController addUserScriptsToUserContentController:]
++ -[WBSAutoFillScriptInfo .cxx_destruct]
++ -[WBSAutoFillScriptInfo initWithURL:source:]
++ -[WBSExtensionsController _validateAndLoadExtensionIfNecessary:attemptRetryOnFailure:isExtensionNewlyInstalled:].cold.1
++ -[WBSExtensionsController extraDiscoveredExtensions]
++ -[WBSExtensionsController removeExtension:]
++ -[WBSInjectionStatus .cxx_destruct]
++ -[WBSInjectionStatus addCompletionHandler:]
++ -[WBSInjectionStatus init]
++ -[WBSInjectionStatus injectionStage]
++ -[WBSInjectionStatus resolveCompletionHandlers:]
++ -[WBSWebExtensionsController loadExtension:]
++ -[WBSWebExtensionsController loadUnpackedExtension:]
++ -[WBSWebExtensionsController unpackedExtensionWithIdentifier:]
++ -[WKUserContentController(SafariSharedUIExtras) safari_addReaderViewMessageHandler]
++ GCC_except_table142
++ _ASCLockupViewSizeSmall
++ _CodeButNotOneTimeCodeFieldLabels
++ _OBJC_CLASS_$_WBSAutoFillScriptInfo
++ _OBJC_CLASS_$_WBSInjectionStatus
++ _OBJC_CLASS_$_WPResources
++ _OBJC_CLASS_$__WKJSBuffer
++ _OBJC_IVAR_$_WBSAutoFillJavaScriptInjectionController._documentsInjectionStatus
++ _OBJC_IVAR_$_WBSAutoFillScriptInfo._source
++ _OBJC_IVAR_$_WBSAutoFillScriptInfo._url
++ _OBJC_IVAR_$_WBSInjectionStatus._completionHandlers
++ _OBJC_IVAR_$_WBSInjectionStatus._injectionStage
++ _OBJC_METACLASS_$_WBSAutoFillScriptInfo
++ _OBJC_METACLASS_$_WBSInjectionStatus
++ _OUTLINED_FUNCTION_10
++ _OUTLINED_FUNCTION_11
++ _OUTLINED_FUNCTION_12
++ _OUTLINED_FUNCTION_13
++ _OUTLINED_FUNCTION_14
++ _OUTLINED_FUNCTION_15
++ _OUTLINED_FUNCTION_9
++ _UIFontTextStyleBody
++ _WBSUICGPointCenterAnchorPoint
++ _WPTrackerBlockerRuleListIdentifier
++ _WeakOneTimeCodeFieldLabels
++ __OBJC_$_INSTANCE_METHODS_WBSAutoFillScriptInfo
++ __OBJC_$_INSTANCE_METHODS_WBSInjectionStatus
++ __OBJC_$_INSTANCE_METHODS_WKUserContentController(ScribbleUtilities|SafariSharedUIExtras)
++ __OBJC_$_INSTANCE_VARIABLES_WBSAutoFillScriptInfo
++ __OBJC_$_INSTANCE_VARIABLES_WBSInjectionStatus
++ __OBJC_$_PROP_LIST_NSURL_$_WBSUINSURLExtras
++ __OBJC_$_PROP_LIST_WBSInjectionStatus
++ __OBJC_CLASS_RO_$_WBSAutoFillScriptInfo
++ __OBJC_CLASS_RO_$_WBSInjectionStatus
++ __OBJC_METACLASS_RO_$_WBSAutoFillScriptInfo
++ __OBJC_METACLASS_RO_$_WBSInjectionStatus
++ __ZNSt3__110unique_ptrIN12SafariShared25SuddenTerminationDisablerENS_14default_deleteIS2_EEED1B9sqn210106Ev
++ __ZZ51+[WBSASCLockupViewGenerator regularLockupViewGroup]E5group
++ __ZZ51+[WBSASCLockupViewGenerator regularLockupViewGroup]E9onceToken
++ ___101-[WBSAutoFillJavaScriptInjectionController _handleFormObservedChangeIndicatingFormSubmissionMessage:]_block_invoke.448
++ ___101-[WBSAutoFillJavaScriptInjectionController getEditingStatusFromAllFramesInWebView:completionHandler:]_block_invoke.224
++ ___103-[WBSAutoFillJavaScriptInjectionController _injectMainScriptsIfNeeded:webView:force:completionHandler:]_block_invoke
++ ___103-[WBSAutoFillJavaScriptInjectionController _injectMainScriptsIfNeeded:webView:force:completionHandler:]_block_invoke_2
++ ___103-[WBSAutoFillJavaScriptInjectionController _injectMainScriptsIfNeeded:webView:force:completionHandler:]_block_invoke_3
++ ___105-[WBSAutoFillJavaScriptInjectionController metadataForFormInFrame:webView:requestType:completionHandler:]_block_invoke.233
++ ___105-[WBSAutoFillJavaScriptInjectionController metadataForFormInFrame:webView:requestType:completionHandler:]_block_invoke.233.cold.1
++ ___105-[WBSAutoFillJavaScriptInjectionController metadataForFormInFrame:webView:requestType:completionHandler:]_block_invoke.234
++ ___105-[WBSAutoFillJavaScriptInjectionController metadataForFormInFrame:webView:requestType:completionHandler:]_block_invoke.234.cold.1
++ ___105-[WBSAutoFillJavaScriptInjectionController metadataForFormInFrame:webView:requestType:completionHandler:]_block_invoke.235
++ ___112-[WBSAutoFillJavaScriptInjectionController replaceRange:inControl:withString:inFrame:webView:completionHandler:]_block_invoke.362
++ ___112-[WBSExtensionsController _validateAndLoadExtensionIfNecessary:attemptRetryOnFailure:isExtensionNewlyInstalled:]_block_invoke.cold.1
++ ___114-[WBSAutoFillJavaScriptInjectionController metadataForControl:andContainingFormInFrame:webView:completionHandler:]_block_invoke.247
++ ___126-[WBSAutoFillJavaScriptInjectionController _loadScriptsIfNeededAndCallJavascript:arguments:inFrame:webView:completionHandler:]_block_invoke
++ ___142-[WBSASCLockupViewGenerator generateLockupViewsForAvailableApps:lockupViewType:lockupViewSize:maintainRequestedOrderOfApps:completionHandler:]_block_invoke
++ ___142-[WBSASCLockupViewGenerator generateLockupViewsForAvailableApps:lockupViewType:lockupViewSize:maintainRequestedOrderOfApps:completionHandler:]_block_invoke.33
++ ___142-[WBSASCLockupViewGenerator generateLockupViewsForAvailableApps:lockupViewType:lockupViewSize:maintainRequestedOrderOfApps:completionHandler:]_block_invoke_2
++ ___142-[WBSASCLockupViewGenerator generateLockupViewsForAvailableApps:lockupViewType:lockupViewSize:maintainRequestedOrderOfApps:completionHandler:]_block_invoke_2.cold.1
++ ___146-[WBSAutoFillJavaScriptInjectionController _processControlDictionaries:frameContainingControl:mainFrame:webView:formDictionary:completionHandler:]_block_invoke
++ ___146-[WBSAutoFillJavaScriptInjectionController _processControlDictionaries:frameContainingControl:mainFrame:webView:formDictionary:completionHandler:]_block_invoke_2
++ ___146-[WBSAutoFillJavaScriptInjectionController _processControlDictionaries:frameContainingControl:mainFrame:webView:formDictionary:completionHandler:]_block_invoke_3
++ ___162-[WBSAutoFillJavaScriptInjectionController _formMetadataAndControlMetadataFromJavaScriptDictionary:controlMetadataDictionary:frameInfo:webView:completionHandler:]_block_invoke.451
++ ___203-[WBSAutoFillJavaScriptInjectionController autoFillFormWithValues:focusFieldAfterFilling:fieldToFocus:fieldsToObscure:shouldSubmit:recursivelyClearMetadataAfterFilling:inFrame:webView:completionHandler:]_block_invoke.282
++ ___203-[WBSAutoFillJavaScriptInjectionController autoFillFormWithValues:focusFieldAfterFilling:fieldToFocus:fieldsToObscure:shouldSubmit:recursivelyClearMetadataAfterFilling:inFrame:webView:completionHandler:]_block_invoke.282.cold.1
++ ___203-[WBSAutoFillJavaScriptInjectionController autoFillFormWithValues:focusFieldAfterFilling:fieldToFocus:fieldsToObscure:shouldSubmit:recursivelyClearMetadataAfterFilling:inFrame:webView:completionHandler:]_block_invoke.283
++ ___51+[WBSASCLockupViewGenerator regularLockupViewGroup]_block_invoke
++ ___62-[WBSWebExtensionsController unpackedExtensionWithIdentifier:]_block_invoke
++ ___67-[WBSAutoFillJavaScriptInjectionController _handlePageHideMessage:]_block_invoke
++ ___67-[WBSAutoFillJavaScriptInjectionController _handlePageHideMessage:]_block_invoke_2
++ ___78-[WBSExtensionsController writeExtensionsStateToStorageWithCompletionHandler:]_block_invoke.64
++ ___80-[WBSAutoFillJavaScriptInjectionController _handleLoadMainScriptRequestMessage:]_block_invoke
++ ___81-[WBSAutoFillJavaScriptInjectionController _handleObservedActionInFormTextField:]_block_invoke
++ ___82-[WBSAutoFillJavaScriptInjectionController addUserScriptsToUserContentController:]_block_invoke
++ ___87-[WBSExtensionsController setExtension:isEnabled:dueToUserGesture:skipSavingToStorage:]_block_invoke.69
++ ___89-[WBSAutoFillJavaScriptInjectionController _injectMainScripts:webView:completionHandler:]_block_invoke
++ ___89-[WBSAutoFillJavaScriptInjectionController _injectMainScripts:webView:completionHandler:]_block_invoke.cold.1
++ ___WBSLoadBuiltInContentBlockersWithStore_block_invoke.cold.1
++ ___block_descriptor_48_e8_32s40s_e20_v24?08"NSError"16ls32l8s40l8
++ ___block_descriptor_48_e8_32s40s_e33_v32?0"NSString"8"NSData"16^B24ls32l8s40l8
++ ___block_descriptor_60_e8_32s40s48s_e52_v24?0"WBSFormMetadata"8"WBSFormControlMetadata"16ls32l8s40l8s48l8
++ ___block_descriptor_64_e8_32s40s48s56s_e20_v24?08"NSError"16ls32l8s40l8s48l8s56l8
++ ___block_descriptor_72_e8_32s40s48s56s64bs_e29_v24?0"NSArray"8"NSError"16ls64l8s32l8s40l8s48l8s56l8
++ ___block_descriptor_73_ea8_32s40s48bs_e5_v8?0ls32l8s48l8s40l8
++ ___block_descriptor_80_e8_32s40s48s56s64s72bs_e17_v16?0"NSError"8ls72l8s32l8s40l8s48l8s56l8s64l8
++ ___block_descriptor_88_e8_32s40s48s56s64bs_e29_v24?0"NSArray"8"NSError"16ls64l8s32l8s40l8s48l8s56l8
++ ___block_literal_global.305
++ ___block_literal_global.309
++ ___block_literal_global.326
++ ___block_literal_global.329
++ ___block_literal_global.333
++ ___block_literal_global.337
++ ___block_literal_global.364
++ ___block_literal_global.369
++ ___block_literal_global.435
++ ___block_literal_global.464
++ ___block_literal_global.699
++ ___block_literal_global.702
++ ___isPlatformVersionAtLeast
++ ___isPlatformVersionAtLeast.cold.1
++ ___isPlatformVersionAtLeast.cold.2
++ ___swift_instantiateGenericMetadata
++ ___swift_memcpy0_1
++ ___swift_memcpy40_8
++ ___swift_memcpy48_8
++ ___swift_memcpy64_8
++ ___swift_memcpy8_8
++ ___swift_noop_void_return
++ ___unnamed_2
++ __availability_version_check
++ __initializeAvailabilityCheck
++ __injectMainScripts:webView:completionHandler:.mainScripts
++ _addressBookFieldLabelPatternMatchers0
++ _addressBookFieldLabelPatternMatchers1
++ _addressBookFieldLabelPatternMatchers2
++ _addressBookFieldLabelPatternMatchers3
++ _associated conformance 14SafariSharedUI21WBSAppStoreLockupViewV05SwiftC00G0AA4BodyAdEP_AdE
++ _associated conformance 14SafariSharedUI21WBSAppStoreLockupViewV05SwiftC019UIViewRepresentableAaD0G0
++ _associated conformance 14SafariSharedUI21WBSAppStoreLockupViewVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 14SafariSharedUI25BrowserDataExchangeHeaderVyxG05SwiftC04ViewAA4BodyAeFP_AeF
++ _associated conformance 14SafariSharedUI25SafeAreaBarContentPaddingV05SwiftC012ViewModifierAA4BodyAdEP_AD0J0
++ _associated conformance 14SafariSharedUI28BrowserDataExchangeErrorViewV05SwiftC00H0AA4BodyAdEP_AdE
++ _associated conformance 14SafariSharedUI31BrowserDataExchangeBottomButtonV05SwiftC04ViewAA4BodyAdEP_AdE
++ _associated conformance So10CGImageRefa14CoreFoundation9_CFObjectSCSH
++ _associated conformance So10CGImageRefaSHSCSQ
++ _autoFillBootstrapperSource
++ _autoFillBootstrapperSourceLength
++ _autocompleteTokenMapMatcher
++ _compatibilityInitializeAvailabilityCheck
++ _confirmEmailFieldLabels
++ _confirmPasswordFieldLabels
++ _creditCardCardholderFieldLabels
++ _creditCardCompositeExpirationDateFieldLabels
++ _creditCardNumberFieldLabels
++ _creditCardSecurityCodeFieldLabels
++ _creditCardTypeFieldLabels
++ _dayFieldLabels
++ _dispatch_once_f
++ _emailFieldLabelPatternMatchers
++ _fclose
++ _federatedSignInAffordanceLabels
++ _fieldLabelMapMatcher
++ _fopen
++ _fread
++ _fseek
++ _ftell
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQOQr.1
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQOqd0__AaBHC.2
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA4ViewPAAE16keyboardShortcutyQrAA08KeyboardG0VFQOyAeAE11buttonStyleyQrqd__AA015PrimitiveButtonJ0Rd__lFQOyACyAA0L0VyAA6HStackVyAA05TupleE0VyAA6SpacerV_ACyACyAA08ProgressE0VyAA05EmptyE0VAVGAA16_FlexFrameLayoutVGAA12_ScaleEffectVGSgAA4TextVARtGGGAA30_EnvironmentKeyWritingModifierVyAA11ControlSizeOGG_AA014GlassProminentlJ0VQo__Qo_AYGAA08_PaddingT0VGAA01_xY17TransformModifierVySbGGAaDHPA21_AaDHPA18_AaDHPqd__AaDHD2_A17_HO_AyA0E8ModifierHPyHCHC_A20_AAA26_HPyHCHC_A24_AAA26_HPyHCHC.10
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA014_ViewModifier_D0Vy012SafariSharedB0011SafeAreaBarD7PaddingVGAA01_M6LayoutVGAKGAA0F0HPAnaPHPAkaPHPyHC_AmA0fG0HPyHCHC_AkaPHPyHCHC.5
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyAA6VStackVyAA05TupleC0VyADyAFyAHyAA6SpacerV_ADyADyAA03AnyC0VAA14_PaddingLayoutVGAA31AccessibilityAttachmentModifierVGtGGAA010_FlexFrameK0VG_AFyAHyADyADyADyAA4TextVAVGAA022_EnvironmentKeyWritingN0VyAA0Q9AlignmentOGGAQG_A4_SgtGGtGGANGAaBHPA10_AaBHPyHC_AnA0cN0HPyHCHC.1
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx012SafariSharedB0011SafeAreaBarE7PaddingVGAaBHPxAaBHD1__AgA0C8ModifierHPyHCHC.6
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE11safeAreaBar4edge9alignment7spacing7contentQrAA12VerticalEdgeO_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAaBRd__lFQOyAA06ScrollC0VyAA6VStackVy012SafariSharedB025BrowserDataExchangeHeaderVyAA03AnyC0VGGG_AA15ModifiedContentVyAU0vwX12BottomButtonVAU04SafeeF14ContentPaddingVGQo_HO.2
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQOyAA14GeometryReaderVyAA15ModifiedContentVyAA6VStackVyAA05TupleC0VyAA6SpacerV_ANyANyAA6HStackVyAA7ForEachVySnySiGSiANyANyANyANyANyANyANyANyANyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameW0VGAA12_ScaleEffectVGA7_GAA21_TraitWritingModifierVyAA14ZIndexTraitKeyVGGAA07_OffsetZ0VGAA07_ShadowZ0VGAA18_AnimationModifierVySbGGAA24_ForegroundStyleModifierVyAA5ColorVGGGGA4_GAA08_PaddingW0VGATtGGA4_GG_12CoreGraphics7CGFloatVQo_HO.7
++ _gotLoadHelper_x21$_OBJC_CLASS_$_VFXView
++ _ignoredDataTypeFieldLabels
++ _initializeAvailabilityCheck
++ _keywordsIndicatingLoginFormTypeToScoreForMatching
++ _keywordsIndicatingNewAccountFormTypeToScoreForMatching
++ _makeAutoFillScriptInfo
++ _malloc
++ _monthFieldLabels
++ _nonAccountPasswordSecureTextEntryFieldLabels
++ _nonCreditCardCardNumberFieldLabels
++ _nonEmailFieldLabels
++ _nonUsernameFieldLabels
++ _objc_msgSend$URLWithSize:cropStyle:format:
++ _objc_msgSend$_addBuffer:contentWorld:name:
++ _objc_msgSend$_documentIdentifier
++ _objc_msgSend$_evaluateJavaScript:withSourceURL:inFrame:inContentWorld:completionHandler:
++ _objc_msgSend$_initWithSource:injectionTime:forMainFrameOnly:includeMatchPatternStrings:excludeMatchPatternStrings:associatedURL:contentWorld:
++ _objc_msgSend$_injectMainScripts:webView:completionHandler:
++ _objc_msgSend$_injectMainScriptsIfNeeded:webView:force:completionHandler:
++ _objc_msgSend$_loadScriptsIfNeededAndCallJavascript:arguments:inFrame:webView:completionHandler:
++ _objc_msgSend$_processControlDictionaries:frameContainingControl:mainFrame:webView:formDictionary:completionHandler:
++ _objc_msgSend$_worldWithConfiguration:
++ _objc_msgSend$addCompletionHandler:
++ _objc_msgSend$addScriptMessageHandlerToUserContentController:
++ _objc_msgSend$addUserScript:
++ _objc_msgSend$addUserScriptsToUserContentController:
++ _objc_msgSend$allowUnsignedExtensions
++ _objc_msgSend$articleFinderScript
++ _objc_msgSend$controlID
++ _objc_msgSend$controlIDsToValues
++ _objc_msgSend$defaultSearchEngineMatchesExperiment
++ _objc_msgSend$enumerateFormsAndFramesUsingBlock:
++ _objc_msgSend$extraDiscoveredExtensions
++ _objc_msgSend$formCount
++ _objc_msgSend$formID
++ _objc_msgSend$formMetadata
++ _objc_msgSend$frame
++ _objc_msgSend$frameAssociatedFormMetadata
++ _objc_msgSend$frameHandle
++ _objc_msgSend$generateLockupViewsForAvailableApps:lockupViewType:lockupViewSize:maintainRequestedOrderOfApps:completionHandler:
++ _objc_msgSend$initWithBytesNoCopy:length:freeWhenDone:
++ _objc_msgSend$initWithCGImage:scale:
++ _objc_msgSend$initWithFrameAssociatedFormMetadata:controlIDsToValues:
++ _objc_msgSend$initWithFrameHandle:formID:controlID:
++ _objc_msgSend$initWithFrameHandle:formMetadata:controlMetadata:
++ _objc_msgSend$initWithFrameInfo:formMetadata:
++ _objc_msgSend$initWithImages:
++ _objc_msgSend$initWithSize:scale:
++ _objc_msgSend$initWithURL:source:
++ _objc_msgSend$injectionStage
++ _objc_msgSend$isHistoryClearingEnabled
++ _objc_msgSend$isPrivateBrowsingEnabled
++ _objc_msgSend$isRestrictionsPasscodeSet
++ _objc_msgSend$loadExtension:
++ _objc_msgSend$localizedStringsScriptURL
++ _objc_msgSend$orderedFormsMetadataForCrossFrameFillingIn:originatingInFrame:forForm:with:completionHandler:
++ _objc_msgSend$pageWorld
++ _objc_msgSend$performActionInFormTextFieldWithMetadata:formMetadata:withFrameInfo:actionType:
++ _objc_msgSend$pointSize
++ _objc_msgSend$preferences
++ _objc_msgSend$preferredFontForTextStyle:
++ _objc_msgSend$prepareImageForDescriptor:
++ _objc_msgSend$quickWebsiteSearchJavaScriptInjectionController:receivedDetectedSearchURLString:fromWebView:inFrame:
++ _objc_msgSend$quickWebsiteSearchJavaScriptInjectionController:receivedOpenSearchSchemaURL:fromWebView:
++ _objc_msgSend$readerHTMLSourceURL
++ _objc_msgSend$regularLockupViewGroup
++ _objc_msgSend$removeExtension:
++ _objc_msgSend$resolveCompletionHandlers:
++ _objc_msgSend$respondsToSelector:
++ _objc_msgSend$safari_addReaderViewMessageHandler
++ _objc_msgSend$safari_anyObjectPassingTest:
++ _objc_msgSend$safari_dictionaryOfArraysByMappingObjectsToKeysUsingBlock:
++ _objc_msgSend$safari_enumerateAsynchronouslyOnQueue:enumerationBlock:completionBlock:
++ _objc_msgSend$safari_getAllFrameInfos:
++ _objc_msgSend$safari_hasSameOriginAsURL:relaxingWWW:
++ _objc_msgSend$safari_loadURLRequest:completionHandler:
++ _objc_msgSend$safari_readerUserContentController
++ _objc_msgSend$safari_safariLibraryDirectory
++ _objc_msgSend$safari_stringForListDisplayWithAdditionalSimplificationOptions:
++ _objc_msgSend$setAllowAccessToClosedShadowRoots:
++ _objc_msgSend$setAllowAutofill:
++ _objc_msgSend$setAllowElementUserInfo:
++ _objc_msgSend$setAllowJSHandleCreation:
++ _objc_msgSend$setAllowNodeSerialization:
++ _objc_msgSend$setDisableLegacyBuiltinOverrides:
++ _objc_msgSend$setDrawBorder:
++ _objc_msgSend$setInactiveSchedulingPolicy:
++ _objc_msgSend$setJavaScriptCanOpenWindowsAutomatically:
++ _objc_msgSend$setShape:
++ _objc_msgSend$setUserContentController:
++ _objc_msgSend$sharedScript
++ _objc_msgSend$sharedSession
++ _objc_msgSend$sharedUIScript
++ _objc_msgSend$shouldCollectAllFieldsForAutoFill
++ _objc_msgSend$textFieldDidEndEditingWithFrameInfo:textFieldMetadata:
++ _objc_msgSend$uniqueID
++ _objc_msgSend$userScriptProvider
++ _objc_msgSend$userScriptsInContentWorld:
++ _objc_msgSend$visualOrderComparator
++ _objectdestroy.10Tm
++ _objectdestroy.12Tm
++ _objectdestroy.14Tm
++ _oldPasswordFieldLabels
++ _oneTimeCodeFieldLabels
++ _passwordFieldLabels
++ _rewind
++ _searchFieldLabels
++ _showHideButtonLabels
++ _sscanf
++ _swift_bridgeObjectRelease_n
++ _swift_cvw_allocateGenericValueMetadataWithLayoutString
++ _swift_cvw_instantiateLayoutString
++ _swift_getGenericMetadata
++ _swift_storeEnumTagMultiPayload
++ _swift_task_getMainExecutor
++ _swift_task_isCurrentExecutor
++ _symbolic $s7SwiftUI12ViewModifierP
++ _symbolic $s7SwiftUI19UIViewRepresentableP
++ _symbolic $ss12IdentifiableP
++ _symbolic SO
++ _symbolic SSSg
++ _symbolic Say_____GSg______pIgrzo_ So10CGImageRefa s5ErrorP
++ _symbolic Sb
++ _symbolic So13ASCLockupViewC
++ _symbolic _____ 14SafariSharedUI21WBSAppStoreLockupViewV
++ _symbolic _____ 14SafariSharedUI25BrowserDataExchangeHeaderV
++ _symbolic _____ 14SafariSharedUI25SafeAreaBarContentPaddingV
++ _symbolic _____ 14SafariSharedUI28BrowserDataExchangeErrorViewV
++ _symbolic _____ 14SafariSharedUI31BrowserDataExchangeBottomButtonV
++ _symbolic _____ 7SwiftUI11ControlSizeO
++ _symbolic _____ 7SwiftUI13TextAlignmentO
++ _symbolic _____ s5NeverO
++ _symbolic _____Sg 7SwiftUI19SymbolRenderingModeV
++ _symbolic _____Sg 7SwiftUI4FontV
++ _symbolic _____Sg 7SwiftUI4FontV6DesignO
++ _symbolic ___________yABy__________G_____Gt 7SwiftUI6SpacerV AA15ModifiedContentV AA7AnyViewV AA14_PaddingLayoutV AA31AccessibilityAttachmentModifierV
++ _symbolic ___________yABy_____y_____ADG_____G_____GSg_____AAt 7SwiftUI6SpacerV AA15ModifiedContentV AA12ProgressViewV AA05EmptyG0V AA16_FlexFrameLayoutV AA12_ScaleEffectV AA4TextV
++ _symbolic _____yAAyAAy__________G_____y_____GG_____G 7SwiftUI15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA023AccessibilityAttachmentL0V
++ _symbolic _____yAAyAAy__________G_____y_____GG_____G_AHSgt 7SwiftUI15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA023AccessibilityAttachmentL0V
++ _symbolic _____yAAyAAy_____y_____yAAy_____y_____y_____y______AAyAAy_____y_____AGG_____G_____GSg_____AEtGGG_____y_____GG______Qo__Qo_AIG_____G_____ySbGG 7SwiftUI15ModifiedContentV AA4ViewPAAE16keyboardShortcutyQrAA08KeyboardG0VFQO AeAE11buttonStyleyQrqd__AA015PrimitiveButtonJ0Rd__lFQO AA0L0V AA6HStackV AA05TupleE0V AA6SpacerV AA08ProgressE0V AA05EmptyE0V AA16_FlexFrameLayoutV AA12_ScaleEffectV AA4TextV AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA014GlassProminentlJ0V AA08_PaddingT0V AA01_xY17TransformModifierV
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA7AnyViewV AA14_PaddingLayoutV AA31AccessibilityAttachmentModifierV
++ _symbolic _____yAAy__________G_____y_____GG 7SwiftUI15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO
++ _symbolic _____yAAy__________G_____y_____GGSg 7SwiftUI15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO
++ _symbolic _____yAAy__________y_____SgGG_____y_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleI0V AA5ColorV
++ _symbolic _____yAAy_____y_____ACG_____G_____G 7SwiftUI15ModifiedContentV AA12ProgressViewV AA05EmptyF0V AA16_FlexFrameLayoutV AA12_ScaleEffectV
++ _symbolic _____yAAy_____y_____ACG_____G_____GSg 7SwiftUI15ModifiedContentV AA12ProgressViewV AA05EmptyF0V AA16_FlexFrameLayoutV AA12_ScaleEffectV
++ _symbolic _____yAAy_____y_____yAAy_____y_____y_____y______AAyAAy_____y_____AGG_____G_____GSg_____AEtGGG_____y_____GG______Qo__Qo_AIG_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE16keyboardShortcutyQrAA08KeyboardG0VFQO AeAE11buttonStyleyQrqd__AA015PrimitiveButtonJ0Rd__lFQO AA0L0V AA6HStackV AA05TupleE0V AA6SpacerV AA08ProgressE0V AA05EmptyE0V AA16_FlexFrameLayoutV AA12_ScaleEffectV AA4TextV AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA014GlassProminentlJ0V AA08_PaddingT0V
++ _symbolic _____ySbG 7SwiftUI32_EnvironmentKeyTransformModifierV
++ _symbolic _____y_____G 7SwiftUI19_TaskValueModifier2V 12CoreGraphics7CGFloatV
++ _symbolic _____y_____G 7SwiftUI21_ViewModifier_ContentV 012SafariSharedB0011SafeAreaBarE7PaddingV
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV AA11ControlSizeO
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV AA13TextAlignmentO
++ _symbolic _____y_____SgG 7SwiftUI30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 012SafariSharedB031BrowserDataExchangeBottomButtonV AD011SafeAreaBarD7PaddingV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA7AnyViewV AA14_PaddingLayoutV
++ _symbolic _____y___________y___________yAEy__________G_____GtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA6SpacerV AA15ModifiedContentV AA03AnyD0V AA08_PaddingG0V AA31AccessibilityAttachmentModifierV
++ _symbolic _____y___________y___________yAEy_____y_____AGG_____G_____GSg_____ADtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA6SpacerV AA15ModifiedContentV AA08ProgressD0V AA05EmptyD0V AA010_FlexFrameG0V AA12_ScaleEffectV AA4TextV
++ _symbolic _____y___________y_____yADyADy__________G_____y_____GG_____G_AKSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV AA4TextV AA010_FlexFrameG0V AA30_EnvironmentKeyWritingModifierV AA0K9AlignmentO AA023AccessibilityAttachmentQ0V
++ _symbolic _____y___________y_____y_____yACy______ADyADy__________G_____GtGG_____G_AEyACyADyADyADy_____ANG_____y_____GGAJG_AUSgtGGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV AA0F0V AA6SpacerV AA03AnyD0V AA08_PaddingG0V AA31AccessibilityAttachmentModifierV AA010_FlexFrameG0V AA4TextV AA022_EnvironmentKeyWritingP0V AA0S9AlignmentO
++ _symbolic _____y__________y_____SgGG 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____y_____yAAy_____y_____y______AAyAAy_____y_____ySnySiGSiAAyAAyAAyAAyAAyAAyAAyAAyAAy__________G_____G_____GANG_____y_____GG_____G_____G_____ySbGG_____y_____GGGGALG_____GAEtGGALGG_____y_____GG 7SwiftUI15ModifiedContentV AA14GeometryReaderV AA6VStackV AA9TupleViewV AA6SpacerV AA6HStackV AA7ForEachV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameQ0V AA12_ScaleEffectV AA21_TraitWritingModifierV AA06ZIndexU3KeyV AA07_OffsetT0V AA07_ShadowT0V AA010_AnimationW0V AA016_ForegroundStyleW0V AA5ColorV AA08_PaddingQ0V AA19_TaskValueModifier2V 12CoreGraphics7CGFloatV
++ _symbolic _____y_____y_____ACG_____G 7SwiftUI15ModifiedContentV AA12ProgressViewV AA05EmptyF0V AA16_FlexFrameLayoutV
++ _symbolic _____y_____y_____GG 7SwiftUI6VStackV 012SafariSharedB025BrowserDataExchangeHeaderV AA7AnyViewV
++ _symbolic _____y_____y_____G_____G 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 012SafariSharedB0011SafeAreaBarD7PaddingV AA01_L6LayoutV
++ _symbolic _____y_____y___________yADy_____y_____AFG_____G_____GSg_____ACtGG 7SwiftUI6HStackV AA9TupleViewV AA6SpacerV AA15ModifiedContentV AA08ProgressE0V AA05EmptyE0V AA16_FlexFrameLayoutV AA12_ScaleEffectV AA4TextV
++ _symbolic _____y_____y_____yAAyAByACy______AAyAAy__________G_____GtGG_____G_AByACyAAyAAyAAy_____ALG_____y_____GGAHG_ASSgtGGtGGAFG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA6SpacerV AA03AnyG0V AA14_PaddingLayoutV AA31AccessibilityAttachmentModifierV AA010_FlexFrameK0V AA4TextV AA022_EnvironmentKeyWritingN0V AA0Q9AlignmentO
++ _symbolic _____y_____y_____yAAyABy______ACyACy__________G_____GtGG_____G_AAyAByACyACyACy_____ALG_____y_____GGAHG_ASSgtGGtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA6SpacerV AA03AnyE0V AA14_PaddingLayoutV AA31AccessibilityAttachmentModifierV AA010_FlexFrameK0V AA4TextV AA022_EnvironmentKeyWritingN0V AA0Q9AlignmentO
++ _symbolic _____y_____y_____yAAy_____y_____y_____y______AAyAAy_____y_____AGG_____G_____GSg_____AEtGGG_____y_____GG______Qo__Qo_AIG 7SwiftUI15ModifiedContentV AA4ViewPAAE16keyboardShortcutyQrAA08KeyboardG0VFQO AeAE11buttonStyleyQrqd__AA015PrimitiveButtonJ0Rd__lFQO AA0L0V AA6HStackV AA05TupleE0V AA6SpacerV AA08ProgressE0V AA05EmptyE0V AA16_FlexFrameLayoutV AA12_ScaleEffectV AA4TextV AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA014GlassProminentlJ0V
++ _symbolic _____y_____y_____yACyACy__________G_____y_____GG_____G_AJSgtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA0H9AlignmentO AA023AccessibilityAttachmentO0V
++ _symbolic _____y_____y_____y_____GGG 7SwiftUI10ScrollViewV AA6VStackV 012SafariSharedB025BrowserDataExchangeHeaderV AA03AnyD0V
++ _symbolic _____y_____y_____y_____G_____GAEG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA014_ViewModifier_D0V 012SafariSharedB0011SafeAreaBarD7PaddingV AA01_M6LayoutV
++ _symbolic _____y_____y_____y_____G_____GAE_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA014_ViewModifier_D0V 012SafariSharedB0011SafeAreaBarD7PaddingV AA01_N6LayoutV
++ _symbolic _____y_____y_____y______AAyAAy__________G_____GtGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA6SpacerV AA03AnyG0V AA14_PaddingLayoutV AA31AccessibilityAttachmentModifierV AA010_FlexFrameK0V
++ _symbolic _____y_____y_____y______AAyAAy__________G_____GtGG_____G_AByACyAAyAAyAAy_____ALG_____y_____GGAHG_ASSgtGGt 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA6SpacerV AA03AnyG0V AA14_PaddingLayoutV AA31AccessibilityAttachmentModifierV AA010_FlexFrameK0V AA4TextV AA022_EnvironmentKeyWritingN0V AA0Q9AlignmentO
++ _symbolic _____y_____y_____y___________yAEy_____y_____AGG_____G_____GSg_____ADtGGG 7SwiftUI6ButtonV AA6HStackV AA9TupleViewV AA6SpacerV AA15ModifiedContentV AA08ProgressF0V AA05EmptyF0V AA16_FlexFrameLayoutV AA12_ScaleEffectV AA4TextV
++ _symbolic _____y_____y_____y_____y_____GGG______y__________GQo_ 7SwiftUI4ViewPAAE11safeAreaBar4edge9alignment7spacing7contentQrAA12VerticalEdgeO_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAaBRd__lFQO AA06ScrollC0V AA6VStackV 012SafariSharedB025BrowserDataExchangeHeaderV AA03AnyC0V AA15ModifiedContentV AU0vwX12BottomButtonV AU04SafeeF14ContentPaddingV
++ _symbolic _____y_____y_____y_____y______AAyAAy_____y_____AGG_____G_____GSg_____AEtGGG_____y_____GG 7SwiftUI15ModifiedContentV AA6ButtonV AA6HStackV AA9TupleViewV AA6SpacerV AA08ProgressH0V AA05EmptyH0V AA16_FlexFrameLayoutV AA12_ScaleEffectV AA4TextV AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO
++ _symbolic _____y_____y_____y_____y_____y______AAyAAy_____y_____AGG_____G_____GSg_____AEtGGG_____y_____GG______Qo_ 7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQO AA15ModifiedContentV AA0G0V AA6HStackV AA05TupleC0V AA6SpacerV AA08ProgressC0V AA05EmptyC0V AA16_FlexFrameLayoutV AA12_ScaleEffectV AA4TextV AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA014GlassProminentgE0V
++ _symbolic _____y_____y_____y_____y_____y______AByABy_____y_____ySnySiGSiAByAByAByAByAByAByAByAByABy__________G_____G_____GANG_____y_____GG_____G_____G_____ySbGG_____y_____GGGGALG_____GAEtGGALGG______Qo_ 7SwiftUI4ViewPAAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQO AA14GeometryReaderV AA15ModifiedContentV AA6VStackV AA05TupleC0V AA6SpacerV AA6HStackV AA7ForEachV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameW0V AA12_ScaleEffectV AA21_TraitWritingModifierV AA14ZIndexTraitKeyV AA07_OffsetZ0V AA07_ShadowZ0V AA18_AnimationModifierV AA24_ForegroundStyleModifierV AA5ColorV AA08_PaddingW0V 12CoreGraphics7CGFloatV
++ _symbolic _____yx_____G 7SwiftUI15ModifiedContentV 012SafariSharedB0011SafeAreaBarD7PaddingV
++ _symbolic qd0__
++ _symbolic qd__
++ _symbolic xyc
++ _symbolic yt
++ _symbolic yyc
++ _type_layout_string 14SafariSharedUI21WBSAppStoreLockupViewV
++ _type_layout_string 14SafariSharedUI28BrowserDataExchangeErrorViewV
++ _type_layout_string 14SafariSharedUI31BrowserDataExchangeBottomButtonV
++ _type_layout_string 7SwiftUI4ViewRzl012SafariSharedB025BrowserDataExchangeHeaderVyxG
++ _usernameFieldLabels
++ _yearFieldLabels
+- +[WBSASCLockupViewGenerator cloudLockupViewGroup]
+- +[WBSASCLockupViewGenerator cloudLockupViewGroup].cold.1
+- +[WBSExtensionsController extensionIdentifierToBaseURIMapBundleParameterKey]
+- -[WBSAutoFillJavaScriptInjectionController addScriptMessageHandlerToUserContentController:]
+- -[WBSAutoFillUserScriptProvider userScriptsInContentWorld:]
+- -[WBSExtensionsController _blockExtension:].cold.1
+- -[WBSExtensionsController _removeSafariExtensionDataForExtension:]
+- _OBJC_CLASS_$_WBSAutoFillUserScriptProvider
+- _OBJC_METACLASS_$_WBSAutoFillUserScriptProvider
+- _WBSLoadBuiltInContentBlockersWithStore.canLoadRuleListUsingWebPrivacy
+- _WBSLoadBuiltInContentBlockersWithStore.cold.1
+- _WBSLoadBuiltInContentBlockersWithStore.onceToken
+- _WBSWebExtensionWebProcessPlugInPageGroupIdentifier
+- _WebPrivacyLibraryCore.frameworkLibrary
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_WKUserContentController_$_ScribbleUtilities
+- __OBJC_$_INSTANCE_METHODS_WBSAutoFillUserScriptProvider
+- __OBJC_CLASS_RO_$_WBSAutoFillUserScriptProvider
+- __OBJC_METACLASS_RO_$_WBSAutoFillUserScriptProvider
+- __ZN12SafariShared25TranslatedFileURLProtocol16registerProtocolEPKNS0_12ProtocolInfoE.cold.1
+- __ZN12SafariShared25TranslatedFileURLProtocol16registerProtocolEPKNS0_12ProtocolInfoE.cold.2
+- __ZN3WTF9HashTableIPKN12SafariShared25TranslatedFileURLProtocol12ProtocolInfoES5_NS_17IdentityExtractorENS_11DefaultHashIS5_EENS_10HashTraitsIS5_EESA_NS_10FastMallocEE3addILNS_17ShouldValidateKeyE1EEENS_18HashTableAddResultINS_17HashTableIteratorISC_S5_S5_S6_S8_SA_SA_EEEERKS5_.cold.2
+- __ZNSt3__110unique_ptrIN12SafariShared25SuddenTerminationDisablerENS_14default_deleteIS2_EEED1B8sn200100Ev
+- __ZZ49+[WBSASCLockupViewGenerator cloudLockupViewGroup]E5group
+- __ZZ49+[WBSASCLockupViewGenerator cloudLockupViewGroup]E9onceToken
+- ___101-[WBSAutoFillJavaScriptInjectionController _handleFormObservedChangeIndicatingFormSubmissionMessage:]_block_invoke.255
+- ___101-[WBSAutoFillJavaScriptInjectionController getEditingStatusFromAllFramesInWebView:completionHandler:]_block_invoke.43
+- ___105-[WBSAutoFillJavaScriptInjectionController metadataForFormInFrame:webView:requestType:completionHandler:]_block_invoke.53
+- ___105-[WBSAutoFillJavaScriptInjectionController metadataForFormInFrame:webView:requestType:completionHandler:]_block_invoke.53.cold.1
+- ___105-[WBSAutoFillJavaScriptInjectionController metadataForFormInFrame:webView:requestType:completionHandler:]_block_invoke.54
+- ___105-[WBSAutoFillJavaScriptInjectionController metadataForFormInFrame:webView:requestType:completionHandler:]_block_invoke.54.cold.1
+- ___105-[WBSAutoFillJavaScriptInjectionController metadataForFormInFrame:webView:requestType:completionHandler:]_block_invoke.55
+- ___112-[WBSAutoFillJavaScriptInjectionController replaceRange:inControl:withString:inFrame:webView:completionHandler:]_block_invoke.185
+- ___114-[WBSAutoFillJavaScriptInjectionController metadataForControl:andContainingFormInFrame:webView:completionHandler:]_block_invoke.67
+- ___127-[WBSASCLockupViewGenerator generateLockupViewsForAvailableApps:lockupViewType:maintainRequestedOrderOfApps:completionHandler:]_block_invoke
+- ___127-[WBSASCLockupViewGenerator generateLockupViewsForAvailableApps:lockupViewType:maintainRequestedOrderOfApps:completionHandler:]_block_invoke.33
+- ___127-[WBSASCLockupViewGenerator generateLockupViewsForAvailableApps:lockupViewType:maintainRequestedOrderOfApps:completionHandler:]_block_invoke_2
+- ___127-[WBSASCLockupViewGenerator generateLockupViewsForAvailableApps:lockupViewType:maintainRequestedOrderOfApps:completionHandler:]_block_invoke_2.cold.1
+- ___138-[WBSAutoFillJavaScriptInjectionController _formMetadataFromJavaScriptDictionary:frameContainingForm:mainFrame:webView:completionHandler:]_block_invoke
+- ___138-[WBSAutoFillJavaScriptInjectionController _formMetadataFromJavaScriptDictionary:frameContainingForm:mainFrame:webView:completionHandler:]_block_invoke_2
+- ___138-[WBSAutoFillJavaScriptInjectionController _formMetadataFromJavaScriptDictionary:frameContainingForm:mainFrame:webView:completionHandler:]_block_invoke_3
+- ___162-[WBSAutoFillJavaScriptInjectionController _formMetadataAndControlMetadataFromJavaScriptDictionary:controlMetadataDictionary:frameInfo:webView:completionHandler:]_block_invoke.259
+- ___203-[WBSAutoFillJavaScriptInjectionController autoFillFormWithValues:focusFieldAfterFilling:fieldToFocus:fieldsToObscure:shouldSubmit:recursivelyClearMetadataAfterFilling:inFrame:webView:completionHandler:]_block_invoke.102
+- ___203-[WBSAutoFillJavaScriptInjectionController autoFillFormWithValues:focusFieldAfterFilling:fieldToFocus:fieldsToObscure:shouldSubmit:recursivelyClearMetadataAfterFilling:inFrame:webView:completionHandler:]_block_invoke.102.cold.1
+- ___203-[WBSAutoFillJavaScriptInjectionController autoFillFormWithValues:focusFieldAfterFilling:fieldToFocus:fieldsToObscure:shouldSubmit:recursivelyClearMetadataAfterFilling:inFrame:webView:completionHandler:]_block_invoke.106
+- ___49+[WBSASCLockupViewGenerator cloudLockupViewGroup]_block_invoke
+- ___59-[WBSAutoFillUserScriptProvider userScriptsInContentWorld:]_block_invoke
+- ___78-[WBSExtensionsController writeExtensionsStateToStorageWithCompletionHandler:]_block_invoke.63
+- ___87-[WBSExtensionsController setExtension:isEnabled:dueToUserGesture:skipSavingToStorage:]_block_invoke.68
+- ___WBSLoadBuiltInContentBlockersWithStore_block_invoke_2
+- ___WBSLoadBuiltInContentBlockersWithStore_block_invoke_2.cold.1
+- ___WebPrivacyLibraryCore_block_invoke
+- ___block_descriptor_40_e8_32s_e32_"WKUserScript"16?0"NSString"8ls32l8
+- ___block_descriptor_65_ea8_32s40s48bs_e5_v8?0ls32l8s48l8s40l8
+- ___block_descriptor_72_e8_32s40s48s56s64bs_e29_v24?0"NSArray"8"NSError"16ls32l8s64l8s40l8s48l8s56l8
+- ___block_descriptor_88_e8_32s40s48s56s64bs_e29_v24?0"NSArray"8"NSError"16ls32l8s64l8s40l8s48l8s56l8
+- ___block_literal_global.188
+- ___block_literal_global.272
+- ___block_literal_global.306
+- ___block_literal_global.310
+- ___block_literal_global.327
+- ___block_literal_global.330
+- ___block_literal_global.334
+- ___block_literal_global.338
+- ___block_literal_global.370
+- ___block_literal_global.700
+- ___block_literal_global.703
+- ___getWPResourcesClass_block_invoke
+- _audit_stringWebPrivacy
+- _getWPResourcesClass
+- _getWPResourcesClass.softClass
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA14GeometryReaderVyACyAA6VStackVyAA9TupleViewVyAA6SpacerV_ACyACyAA6HStackVyAA7ForEachVySnySiGSiACyACyACyACyACyACyACyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameQ0VGAA12_ScaleEffectVGAZGAA21_TraitWritingModifierVyAA06ZIndexU3KeyVGGAA07_OffsetT0VGAA07_ShadowT0VGAA010_AnimationW0VySbGGAA016_ForegroundStyleW0VyAA5ColorVGGGGAWGAA08_PaddingQ0VGAKtGGAWGGAA010_TaskValueW0Vy12CoreGraphics7CGFloatVGGAA0I0HPA32_AAA40_HPyHC_A38_AA0iW0HPyHCHC.6
+- _gotLoadHelper_x22$_OBJC_CLASS_$_VFXView
+- _objc_claimAutoreleasedReturnValue
+- _objc_msgSend$_removeSafariExtensionDataForExtension:
+- _objc_msgSend$cloudLockupViewGroup
+- _objc_msgSend$dataWithBytesNoCopy:length:freeWhenDone:
+- _objc_msgSend$extensionBaseURIMapChangedForExtensionsController:
+- _objc_retain_x10
+- _objc_retain_x5
+- _objc_retain_x6
+- _objc_retain_x7
+- _objectdestroy.11Tm
+- _objectdestroy.13Tm
+- _objectdestroy.9Tm
+- _symbolic Si6offset______7elementtSg 10Foundation3URLV
+- _symbolic _____y_____G 7SwiftUI18_TaskValueModifierV 12CoreGraphics7CGFloatV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI4EdgeO3SetV
+- _symbolic _____y_____yAAy_____y_____y______AAyAAy_____y_____ySnySiGSiAAyAAyAAyAAyAAyAAyAAyAAyAAy__________G_____G_____GANG_____y_____GG_____G_____G_____ySbGG_____y_____GGGGALG_____GAEtGGALGG_____y_____GG 7SwiftUI15ModifiedContentV AA14GeometryReaderV AA6VStackV AA9TupleViewV AA6SpacerV AA6HStackV AA7ForEachV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameQ0V AA12_ScaleEffectV AA21_TraitWritingModifierV AA06ZIndexU3KeyV AA07_OffsetT0V AA07_ShadowT0V AA010_AnimationW0V AA016_ForegroundStyleW0V AA5ColorV AA08_PaddingQ0V AA010_TaskValueW0V 12CoreGraphics7CGFloatV
+CStrings:
++ "!!document.querySelector('input, textarea, select, form');"
++ "%@/"
++ "%d.%d.%d"
++ "-[WBSExtensionsController _validateAndLoadExtensionIfNecessary:attemptRetryOnFailure:isExtensionNewlyInstalled:]_block_invoke"
++ "/AppleInternal/Library/BuildRoots/4~CIZZugDqT1cIDvyW2z_9w6q_qIYzfvDagtdHlUw/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/include/wtf/HashTable.h"
++ "/Library/Caches/com.apple.xbs/6724AA18-E1EB-4374-B49B-E928493B9BC1/TemporaryDirectory.gS9enP/Sources/SafariSharedUI/SafariShared/SafariSharedUI/Extensions/WBSExtensionsController.mm"
++ "/Library/Caches/com.apple.xbs/6724AA18-E1EB-4374-B49B-E928493B9BC1/TemporaryDirectory.gS9enP/Sources/SafariSharedUI/SafariShared/SafariSharedUI/FrequentlyVisitedSites/WBSFrequentlyVisitedSitesController.mm"
++ "/System/Library/CoreServices/SystemVersion.plist"
++ "AutoFillBootstrapper.js"
++ "AutofillConfig.js"
++ "AutomaticPasswords.js"
++ "CFDataCreateWithBytesNoCopy"
++ "CFDictionaryGetValue"
++ "CFGetTypeID"
++ "CFPropertyListCreateFromXMLData"
++ "CFPropertyListCreateWithData"
++ "CFRelease"
++ "CFStringCreateWithCStringNoCopy"
++ "CFStringGetCString"
++ "CFStringGetTypeID"
++ "CodeButNotOneTimeCodeFieldLabels"
++ "Contradictory frame constraints specified."
++ "Discovered these extra extensions: %@"
++ "Discovered these unpacked extensions: %@"
++ "Error loading script %@: %@"
++ "Extension with identifier %@ does not have a code signature"
++ "Fatal error"
++ "FormMetadata.js"
++ "FormMetadataClassification.js"
++ "FormMetadataContactsAutoFillMappings.js"
++ "FormMetadataJSController.js"
++ "FormMetadataUtilities.js"
++ "Incorrect actor executor assumption; Expected same executor as "
++ "Loading extension %{private}@"
++ "Loading unpacked extension %{private}@"
++ "NodePath.js"
++ "Not loading temporary extension since it already exists."
++ "ProductVersion"
++ "Removing extension with identifier: %@"
++ "SafariSharedUI/WBSExtensionsOnboardingIconView.swift"
++ "SafariSharingLinkExtractor"
++ "Tq,R,N,V_injectionStage"
++ "Unexpected action value: %@"
++ "View.task @ SafariSharedUI/WBSExtensionsOnboardingIconView.swift:"
++ "WBSAutoFillScriptInfo"
++ "WBSInjectionStatus"
++ "WBSUIArticleFinder"
++ "WBSUIArticleRenderer"
++ "WBSUIReaderViewMessageHandler"
++ "WeakOneTimeCodeFieldLabels"
++ "_addBuffer:contentWorld:name:"
++ "_documentsInjectionStatus"
++ "_evaluateJavaScript:withSourceURL:inFrame:inContentWorld:completionHandler:"
++ "_handleLoadMainScriptRequestMessage:"
++ "_handleObservedActionInFormTextField:"
++ "_initWithSource:injectionTime:forMainFrameOnly:includeMatchPatternStrings:excludeMatchPatternStrings:associatedURL:contentWorld:"
++ "_injectMainScripts:webView:completionHandler:"
++ "_injectMainScriptsIfNeeded:webView:force:completionHandler:"
++ "_injectionStage"
++ "_loadScriptsIfNeededAndCallJavascript:arguments:inFrame:webView:completionHandler:"
++ "_processControlDictionaries:frameContainingControl:mainFrame:webView:formDictionary:completionHandler:"
++ "addCompletionHandler:"
++ "addressBookFieldLabelPatternMatchers0"
++ "addressBookFieldLabelPatternMatchers1"
++ "addressBookFieldLabelPatternMatchers2"
++ "addressBookFieldLabelPatternMatchers3"
++ "autocompleteTokenMapMatcher"
++ "collectAllFields"
++ "confirmEmailFieldLabels"
++ "confirmPasswordFieldLabels"
++ "const AutoFillControllerConfig = %@; 0;"
++ "creditCardCardholderFieldLabels"
++ "creditCardCompositeExpirationDateFieldLabels"
++ "creditCardNumberFieldLabels"
++ "creditCardSecurityCodeFieldLabels"
++ "creditCardTypeFieldLabels"
++ "dayFieldLabels"
++ "defaultSearchEngineMatchesExperiment"
++ "emailFieldLabelPatternMatchers"
++ "exclamationmark.triangle"
++ "extraDiscoveredExtensions"
++ "federatedSignInAffordanceLabels"
++ "fieldLabelMapMatcher"
++ "generateLockupViewsForAvailableApps:lockupViewType:lockupViewSize:maintainRequestedOrderOfApps:completionHandler:"
++ "ignoredDataTypeFieldLabels"
++ "initWithBytesNoCopy:length:freeWhenDone:"
++ "initWithURL:source:"
++ "injectionStage"
++ "kCFAllocatorNull"
++ "keywordsIndicatingLoginFormTypeToScoreForMatching"
++ "keywordsIndicatingNewAccountFormTypeToScoreForMatching"
++ "loadExtension:"
++ "loadMainScriptRequest"
++ "loadUnpackedExtension:"
++ "monthFieldLabels"
++ "nonAccountPasswordSecureTextEntryFieldLabels"
++ "nonCreditCardCardNumberFieldLabels"
++ "nonEmailFieldLabels"
++ "nonUsernameFieldLabels"
++ "observedActionInFormTextField"
++ "oldPasswordFieldLabels"
++ "oneTimeCodeFieldLabels"
++ "passwordFieldLabels"
++ "passwordRulesParserJS.js"
++ "performActionInFormTextFieldWithMetadata:formMetadata:withFrameInfo:actionType:"
++ "pointSize"
++ "preferredFontForTextStyle:"
++ "regularLockupViewGroup"
++ "removeExtension:"
++ "resolveCompletionHandlers:"
++ "safari://%@"
++ "safari_addReaderViewMessageHandler"
++ "safari_anyObjectPassingTest:"
++ "safari_originForReferrer"
++ "safari_sharingLinkExtractorContentWorld"
++ "searchFieldLabels"
++ "setAllowJSHandleCreation:"
++ "shouldCollectAllFieldsForAutoFill"
++ "showHideButtonLabels"
++ "textFieldDidEndEditingWithFrameInfo:textFieldMetadata:"
++ "unpackedExtensionWithIdentifier:"
++ "usernameFieldLabels"
++ "v32@?0@\"NSString\"8@\"NSData\"16^B24"
++ "v52@0:8@16q24q32B40@?44"
++ "v64@0:8@16@24@32@40@48@?56"
++ "void WTF::HashTable<const SafariShared::TranslatedFileURLProtocol::ProtocolInfo *, const SafariShared::TranslatedFileURLProtocol::ProtocolInfo *, WTF::IdentityExtractor, WTF::DefaultHash<const SafariShared::TranslatedFileURLProtocol::ProtocolInfo *>, WTF::HashTraits<const SafariShared::TranslatedFileURLProtocol::ProtocolInfo *>, WTF::HashTraits<const SafariShared::TranslatedFileURLProtocol::ProtocolInfo *>>::validateKey(const ValueType &) [Key = const SafariShared::TranslatedFileURLProtocol::ProtocolInfo *, Value = const SafariShared::TranslatedFileURLProtocol::ProtocolInfo *, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<const SafariShared::TranslatedFileURLProtocol::ProtocolInfo *>, Traits = WTF::HashTraits<const SafariShared::TranslatedFileURLProtocol::ProtocolInfo *>, KeyTraits = WTF::HashTraits<const SafariShared::TranslatedFileURLProtocol::ProtocolInfo *>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes]"
++ "yearFieldLabels"
+- "/AppleInternal/Library/BuildRoots/4~CIK6ugBorNPO-0yHo7gXulBhUu6BX3PrzLPqwvI/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.3.Internal.sdk/usr/local/include/wtf/HashTable.h"
+- "/Library/Caches/com.apple.xbs/Sources/SafariSharedUI/SafariShared/SafariSharedUI/FrequentlyVisitedSites/WBSFrequentlyVisitedSitesController.mm"
+- "@\"WKUserScript\"16@?0@\"NSString\"8"
+- "T@\"NSSet\",N,C"
+- "WBSAutoFillUserScriptProvider"
+- "WPResources"
+- "_removeSafariExtensionDataForExtension:"
+- "cloudLockupViewGroup"
+- "com.apple.Safari.WebExtensionPageGroupIdentifier"
+- "com.apple.WebPrivacy.TrackingResourceRequestContentBlocker"
+- "configuredUserContentControllers"
+- "const AutoFillControllerConfig = %@"
+- "dataWithBytesNoCopy:length:freeWhenDone:"
+- "extensionBaseURIMapChangedForExtensionsController:"
+- "extensionIdentifierToBaseURIMapBundleParameterKey"
+- "setConfiguredUserContentControllers:"
+- "softlink:o:path:/System/Library/PrivateFrameworks/WebPrivacy.framework/WebPrivacy"
+- "void WTF::checkHashTableKey(const T &) [Key = const SafariShared::TranslatedFileURLProtocol::ProtocolInfo *, Value = const SafariShared::TranslatedFileURLProtocol::ProtocolInfo *, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<const SafariShared::TranslatedFileURLProtocol::ProtocolInfo *>, Traits = WTF::HashTraits<const SafariShared::TranslatedFileURLProtocol::ProtocolInfo *>, KeyTraits = WTF::HashTraits<const SafariShared::TranslatedFileURLProtocol::ProtocolInfo *>, HashTranslator = WTF::IdentityHashTranslator<WTF::HashTraits<const SafariShared::TranslatedFileURLProtocol::ProtocolInfo *>, WTF::DefaultHash<const SafariShared::TranslatedFileURLProtocol::ProtocolInfo *>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = const SafariShared::TranslatedFileURLProtocol::ProtocolInfo *]"
+
+```

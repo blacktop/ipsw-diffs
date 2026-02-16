@@ -1,0 +1,913 @@
+## AppleMediaServicesUI
+
+> `/System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/AppleMediaServicesUI`
+
+```diff
+
+-7.3.5.2.1
+-  __TEXT.__text: 0x1c70d0
+-  __TEXT.__auth_stubs: 0x4580
+-  __TEXT.__objc_methlist: 0x1053c
+-  __TEXT.__const: 0xc814
+-  __TEXT.__gcc_except_tab: 0x1c38
+-  __TEXT.__oslogstring: 0x9df2
+-  __TEXT.__cstring: 0xeaa9
++7.4.15.0.0
++  __TEXT.__text: 0x1dfe74
++  __TEXT.__auth_stubs: 0x44c0
++  __TEXT.__objc_methlist: 0x10634
++  __TEXT.__const: 0xcde4
++  __TEXT.__gcc_except_tab: 0x19e4
++  __TEXT.__oslogstring: 0x9e8c
++  __TEXT.__cstring: 0xcf6d
+   __TEXT.__dlopen_cstrs: 0xe35
+-  __TEXT.__swift5_typeref: 0xeef0
+-  __TEXT.__constg_swiftt: 0x4c50
+-  __TEXT.__swift5_reflstr: 0x24d5
+-  __TEXT.__swift5_assocty: 0xfe8
+-  __TEXT.__swift5_fieldmd: 0x293c
+-  __TEXT.__swift5_builtin: 0x168
+-  __TEXT.__swift5_capture: 0x11a8
+-  __TEXT.__swift5_proto: 0x4c0
+-  __TEXT.__swift5_types: 0x374
++  __TEXT.__ustring: 0x13a
++  __TEXT.__swift5_typeref: 0xf230
++  __TEXT.__constg_swiftt: 0x4f08
++  __TEXT.__swift5_reflstr: 0x2595
++  __TEXT.__swift5_assocty: 0x1048
++  __TEXT.__swift5_fieldmd: 0x2a94
++  __TEXT.__swift5_builtin: 0x1a4
++  __TEXT.__swift5_capture: 0x1320
++  __TEXT.__swift5_proto: 0x4e8
++  __TEXT.__swift5_types: 0x3a8
+   __TEXT.__swift5_protos: 0x2c
+-  __TEXT.__swift_as_entry: 0x148
+-  __TEXT.__swift_as_ret: 0x178
++  __TEXT.__swift_as_entry: 0x19c
++  __TEXT.__swift_as_ret: 0x1c8
+   __TEXT.__swift5_mpenum: 0x40
+-  __TEXT.__unwind_info: 0x77f8
+-  __TEXT.__eh_frame: 0x5174
+-  __TEXT.__objc_classname: 0x2482
+-  __TEXT.__objc_methname: 0x25af1
+-  __TEXT.__objc_methtype: 0x7858
+-  __TEXT.__objc_stubs: 0x1aa60
+-  __DATA_CONST.__got: 0x19f8
+-  __DATA_CONST.__const: 0x3c38
+-  __DATA_CONST.__objc_classlist: 0x9d0
++  __TEXT.__unwind_info: 0x8af0
++  __TEXT.__eh_frame: 0x5b58
++  __TEXT.__objc_classname: 0x3654
++  __TEXT.__objc_methname: 0x26cbf
++  __TEXT.__objc_methtype: 0x81c5
++  __TEXT.__objc_stubs: 0x1bc20
++  __DATA_CONST.__got: 0x1a00
++  __DATA_CONST.__const: 0x3cd8
++  __DATA_CONST.__objc_classlist: 0x9f0
+   __DATA_CONST.__objc_catlist: 0xa0
+-  __DATA_CONST.__objc_protolist: 0x388
++  __DATA_CONST.__objc_protolist: 0x390
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x8bf8
+-  __DATA_CONST.__objc_protorefs: 0xf8
++  __DATA_CONST.__objc_selrefs: 0x8c68
++  __DATA_CONST.__objc_protorefs: 0x100
+   __DATA_CONST.__objc_superrefs: 0x680
+   __DATA_CONST.__objc_arraydata: 0x330
+-  __AUTH_CONST.__auth_got: 0x22d0
+-  __AUTH_CONST.__const: 0x7768
+-  __AUTH_CONST.__cfstring: 0xad40
+-  __AUTH_CONST.__objc_const: 0x1f738
++  __AUTH_CONST.__auth_got: 0x2270
++  __AUTH_CONST.__const: 0x8028
++  __AUTH_CONST.__cfstring: 0xaf40
++  __AUTH_CONST.__objc_const: 0x1f960
+   __AUTH_CONST.__objc_intobj: 0x3d8
+   __AUTH_CONST.__objc_dictobj: 0x230
+   __AUTH_CONST.__objc_doubleobj: 0x60
+   __AUTH_CONST.__objc_arrayobj: 0x108
+-  __AUTH.__objc_data: 0x6c60
+-  __AUTH.__data: 0x4db8
+-  __DATA.__objc_ivar: 0x10ac
+-  __DATA.__data: 0x60f0
++  __AUTH.__objc_data: 0x6fd8
++  __AUTH.__data: 0x4de8
++  __DATA.__objc_ivar: 0x10b0
++  __DATA.__data: 0x6340
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__bss: 0xa130
++  __DATA.__bss: 0xa530
+   __DATA.__common: 0x248
+   __DATA_DIRTY.__objc_data: 0xea8
+   __DATA_DIRTY.__data: 0x88
+
+   - /System/Library/PrivateFrameworks/AppleIDSSOAuthentication.framework/AppleIDSSOAuthentication
+   - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
+   - /System/Library/PrivateFrameworks/AuthKit.framework/AuthKit
++  - /System/Library/PrivateFrameworks/AuthKitUI.framework/AuthKitUI
++  - /System/Library/PrivateFrameworks/CoreIDV.framework/CoreIDV
+   - /System/Library/PrivateFrameworks/CoreRecognition.framework/CoreRecognition
+   - /System/Library/PrivateFrameworks/HSAAuthentication.framework/HSAAuthentication
+   - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 47650CCF-DD80-340F-92B1-3B943A454FCE
+-  Functions: 12844
+-  Symbols:   24337
+-  CStrings:  11329
++  UUID: 6D4D9EFC-5B56-35E8-B4B2-CB945294EC1E
++  Functions: 13355
++  Symbols:   25719
++  CStrings:  11383
+ 
+Symbols:
++ -[AMSUILoadingView hidesWhenStopped:]
++ -[AMSUIWebCameraReaderPageModel pageStyle]
++ -[AMSUIWebCameraReaderPageModel setPageStyle:]
++ -[AMSUIWebClientContext _passwordSettingsForAccount:]
++ -[AMSUIWebDiagnosticsPageModel countryCode]
++ -[AMSUIWebDiagnosticsPageModel passcode]
++ -[AMSUIWebDiagnosticsPageModel setCountryCode:]
++ -[AMSUIWebDiagnosticsPageModel setPasscode:]
++ _CFDateCompare
++ _OBJC_CLASS_$_AKAppleIDAuthenticationInAppContext
++ _OBJC_CLASS_$_AMSPageRenderMetricsPresenter
++ _OBJC_CLASS_$_AMSUIWebDocumentUploadAction
++ _OBJC_CLASS_$_AMSUIWebFetchQRCPETAction
++ _OBJC_CLASS_$_AMSUIWebPasscodePurchaseAvailableAction
++ _OBJC_CLASS_$_AMSUIWebPasscodePurchaseEnabledAction
++ _OBJC_CLASS_$_AMSUIWebUpdatePasswordSettingsAction
++ _OBJC_CLASS_$_DIDocUploadSession
++ _OBJC_CLASS_$_DIDocUploadSettings
++ _OBJC_CLASS_$_DIUploadAsset
++ _OBJC_CLASS_$__TtC20AppleMediaServicesUI41AgeVerificationInfoViewControllerProvider
++ _OBJC_IVAR_$_AMSUIWebCameraReaderPageModel._pageStyle
++ _OBJC_IVAR_$_AMSUIWebDiagnosticsPageModel._countryCode
++ _OBJC_IVAR_$_AMSUIWebDiagnosticsPageModel._passcode
++ _OBJC_METACLASS_$_AMSUIWebDocumentUploadAction
++ _OBJC_METACLASS_$_AMSUIWebFetchQRCPETAction
++ _OBJC_METACLASS_$_AMSUIWebPasscodePurchaseAvailableAction
++ _OBJC_METACLASS_$_AMSUIWebPasscodePurchaseEnabledAction
++ _OBJC_METACLASS_$_AMSUIWebUpdatePasswordSettingsAction
++ _OBJC_METACLASS_$__TtC20AppleMediaServicesUI41AgeVerificationInfoViewControllerProvider
++ _OUTLINED_FUNCTION_105
++ _OUTLINED_FUNCTION_106
++ _OUTLINED_FUNCTION_107
++ _OUTLINED_FUNCTION_108
++ _OUTLINED_FUNCTION_109
++ _OUTLINED_FUNCTION_110
++ _OUTLINED_FUNCTION_111
++ _OUTLINED_FUNCTION_112
++ _OUTLINED_FUNCTION_113
++ _OUTLINED_FUNCTION_114
++ _OUTLINED_FUNCTION_115
++ _OUTLINED_FUNCTION_116
++ _OUTLINED_FUNCTION_117
++ _OUTLINED_FUNCTION_118
++ _OUTLINED_FUNCTION_119
++ _OUTLINED_FUNCTION_120
++ _OUTLINED_FUNCTION_121
++ _OUTLINED_FUNCTION_122
++ _OUTLINED_FUNCTION_123
++ _OUTLINED_FUNCTION_124
++ _OUTLINED_FUNCTION_125
++ _OUTLINED_FUNCTION_126
++ _OUTLINED_FUNCTION_127
++ _OUTLINED_FUNCTION_128
++ _OUTLINED_FUNCTION_129
++ _OUTLINED_FUNCTION_130
++ _OUTLINED_FUNCTION_131
++ _OUTLINED_FUNCTION_132
++ _OUTLINED_FUNCTION_133
++ _OUTLINED_FUNCTION_134
++ _OUTLINED_FUNCTION_135
++ _OUTLINED_FUNCTION_136
++ _OUTLINED_FUNCTION_137
++ _OUTLINED_FUNCTION_138
++ _OUTLINED_FUNCTION_139
++ _OUTLINED_FUNCTION_140
++ _OUTLINED_FUNCTION_141
++ _SecCertificateCopyNotValidAfterDate
++ _SecCertificateCopyNotValidBeforeDate
++ _SecCertificateCreateWithData
++ _SecPolicyCreateApplePinned
++ _SecTrustCreateWithCertificates
++ _SecTrustEvaluateWithError
++ __CLASS_METHODS__TtC20AppleMediaServicesUI41AgeVerificationInfoViewControllerProvider
++ __DATA_AMSUIWebDocumentUploadAction
++ __DATA_AMSUIWebFetchQRCPETAction
++ __DATA_AMSUIWebPasscodePurchaseAvailableAction
++ __DATA_AMSUIWebPasscodePurchaseEnabledAction
++ __DATA_AMSUIWebUpdatePasswordSettingsAction
++ __DATA__TtC20AppleMediaServicesUI41AgeVerificationInfoViewControllerProvider
++ __INSTANCE_METHODS_AMSUIWebDocumentUploadAction
++ __INSTANCE_METHODS_AMSUIWebFetchQRCPETAction
++ __INSTANCE_METHODS_AMSUIWebPasscodePurchaseAvailableAction
++ __INSTANCE_METHODS_AMSUIWebPasscodePurchaseEnabledAction
++ __INSTANCE_METHODS__TtC20AppleMediaServicesUI41AgeVerificationInfoViewControllerProvider
++ __IVARS_AMSUIWebDocumentUploadAction
++ __IVARS_AMSUIWebFetchQRCPETAction
++ __IVARS_AMSUIWebPasscodePurchaseAvailableAction
++ __IVARS_AMSUIWebPasscodePurchaseEnabledAction
++ __IVARS_AMSUIWebUpdatePasswordSettingsAction
++ __METACLASS_DATA_AMSUIWebDocumentUploadAction
++ __METACLASS_DATA_AMSUIWebFetchQRCPETAction
++ __METACLASS_DATA_AMSUIWebPasscodePurchaseAvailableAction
++ __METACLASS_DATA_AMSUIWebPasscodePurchaseEnabledAction
++ __METACLASS_DATA_AMSUIWebUpdatePasswordSettingsAction
++ __METACLASS_DATA__TtC20AppleMediaServicesUI41AgeVerificationInfoViewControllerProvider
++ __OBJC_$_INSTANCE_METHODS_AMSUIEngagementTask(AppleMediaServicesUI|AppleMediaServicesUI1)
++ __OBJC_$_INSTANCE_METHODS_AMSUIWebUpdatePasswordSettingsAction(AppleMediaServicesUI|AppleMediaServicesUI1)
++ __OBJC_CLASS_PROTOCOLS_$_AMSUIWebUpdatePasswordSettingsAction(AppleMediaServicesUI|AppleMediaServicesUI1)
++ __PROTOCOLS_AMSUIRegulatoryAgeVerificationTask.24
++ ___31-[AMSUIAlertDialogTask present]_block_invoke.22
++ ___31-[AMSUIAlertDialogTask present]_block_invoke_3
++ ___46-[AMSUIWebViewController _applyMappingsToURL:]_block_invoke.82
++ ___46-[AMSUIWebViewController _applyMappingsToURL:]_block_invoke.87
++ ___49-[AMSUIWebViewController _lazyPromiseForPageLoad]_block_invoke.172
++ ___52-[AMSUIWebWalletPassAction _attemptLynxProvisioning]_block_invoke.81
++ ___53-[AMSUIWebWalletPassAction _lookupPassForIdentifier:]_block_invoke.82
++ ___54-[AMSUIBubbleTipViewController updateInlineAnchorInfo]_block_invoke.38
++ ___55-[AMSUIWebViewController _lazyPromiseForLoadingSession]_block_invoke.167
++ ___59-[AMSUIEngagementTask _presentViewController:dismissBlock:]_block_invoke.118
++ ___59-[AMSUIEngagementTask _presentViewController:dismissBlock:]_block_invoke_2.119
++ ___59-[AMSUIEngagementTask _presentViewController:dismissBlock:]_block_invoke_3
++ ___59-[AMSUIEngagementTask _presentViewController:dismissBlock:]_block_invoke_4
++ ___59-[AMSUIEngagementTask _presentViewController:dismissBlock:]_block_invoke_5
++ ___61-[AMSUIWebViewController _handleDialogRequest:pauseTimeouts:]_block_invoke.149
++ ___65-[AMSUIWebViewController _handleEngagementRequest:pauseTimeouts:]_block_invoke.158
++ ___65-[AMSUIWebViewController _lazyPromiseForLoadingRequest:bagValue:]_block_invoke.164
++ ___67-[AMSUIWebViewController _handleAuthenticateRequest:pauseTimeouts:]_block_invoke.106
++ ___67-[AMSUIWebViewController _handleAuthenticateRequest:pauseTimeouts:]_block_invoke.108
++ ___67-[AMSUIWebViewController _handleAuthenticateRequest:pauseTimeouts:]_block_invoke.112
++ ___67-[AMSUIWebViewController _handleAuthenticateRequest:pauseTimeouts:]_block_invoke.125
++ ___67-[AMSUIWebViewController _handleAuthenticateRequest:pauseTimeouts:]_block_invoke.127
++ ___67-[AMSUIWebViewController _handleAuthenticateRequest:pauseTimeouts:]_block_invoke.135
++ ___67-[AMSUIWebViewController _handleAuthenticateRequest:pauseTimeouts:]_block_invoke.137
++ ___71-[AMSUIAlertDialogTask _createIOSViewControllerFromRequest:completion:]_block_invoke.35
++ ___98-[AMSUIWebContainerViewController replaceContentWithViewController:animated:pageModel:completion:]_block_invoke.23
++ ___98-[AMSUIWebContainerViewController replaceContentWithViewController:animated:pageModel:completion:]_block_invoke.26
++ ___98-[AMSUIWebContainerViewController replaceContentWithViewController:animated:pageModel:completion:]_block_invoke_2.27
++ ___block_descriptor_56_e8_32s40s48s_e8_v16?0q8ls32l8s40l8s48l8
++ ___block_descriptor_64_e8_32s40s48s_e5_v8?0ls32l8s40l8s48l8
++ ___block_descriptor_72_e8_32s40s48s56s64bs_e8_v16?0q8ls32l8s40l8s48l8s64l8s56l8
++ ___block_descriptor_80_e8_32s40s48s56s64bs_e5_v8?0ls32l8s40l8s48l8s64l8s56l8
++ _associated conformance 20AppleMediaServicesUI20DocumentUploadActionC0E4Type33_E9CCB351472E629AB41BD54CC25FD906LLOSHAASQ
++ _associated conformance 20AppleMediaServicesUI23AgeVerificationInfoViewV05SwiftD00H0AA4BodyAdEP_AdE
++ _associated conformance 20AppleMediaServicesUI37NotificationSettingsViewRepresentableV05SwiftD0016UIViewControllerH0AaD0G0
++ _associated conformance 20AppleMediaServicesUI37NotificationSettingsViewRepresentableV05SwiftD00G0AA4BodyAdEP_AdE
++ _associated conformance 20AppleMediaServicesUI37NotificationSettingsViewRepresentableVAA0gH8ProviderAA1TAaDP_AaD
++ _associated conformance So10CFErrorRefa14CoreFoundation9_CFObjectSCSH
++ _associated conformance So10CFErrorRefaSHSCSQ
++ _block_copy_helper.11
++ _block_copy_helper.112
++ _block_copy_helper.118
++ _block_copy_helper.124
++ _block_copy_helper.132
++ _block_copy_helper.138
++ _block_copy_helper.16
++ _block_copy_helper.28
++ _block_copy_helper.30
++ _block_copy_helper.34
++ _block_copy_helper.37
++ _block_copy_helper.40
++ _block_copy_helper.46
++ _block_copy_helper.49
++ _block_copy_helper.5
++ _block_copy_helper.50
++ _block_copy_helper.55
++ _block_copy_helper.60
++ _block_copy_helper.68
++ _block_copy_helper.77
++ _block_copy_helper.83
++ _block_copy_helper.87
++ _block_copy_helper.97
++ _block_descriptor.114
++ _block_descriptor.120
++ _block_descriptor.126
++ _block_descriptor.13
++ _block_descriptor.134
++ _block_descriptor.140
++ _block_descriptor.18
++ _block_descriptor.30
++ _block_descriptor.32
++ _block_descriptor.36
++ _block_descriptor.39
++ _block_descriptor.42
++ _block_descriptor.48
++ _block_descriptor.51
++ _block_descriptor.52
++ _block_descriptor.57
++ _block_descriptor.62
++ _block_descriptor.7
++ _block_descriptor.70
++ _block_descriptor.79
++ _block_descriptor.85
++ _block_descriptor.89
++ _block_descriptor.99
++ _block_destroy_helper.113
++ _block_destroy_helper.119
++ _block_destroy_helper.12
++ _block_destroy_helper.125
++ _block_destroy_helper.133
++ _block_destroy_helper.139
++ _block_destroy_helper.17
++ _block_destroy_helper.29
++ _block_destroy_helper.31
++ _block_destroy_helper.35
++ _block_destroy_helper.38
++ _block_destroy_helper.41
++ _block_destroy_helper.47
++ _block_destroy_helper.50
++ _block_destroy_helper.51
++ _block_destroy_helper.56
++ _block_destroy_helper.6
++ _block_destroy_helper.61
++ _block_destroy_helper.69
++ _block_destroy_helper.78
++ _block_destroy_helper.84
++ _block_destroy_helper.88
++ _block_destroy_helper.98
++ _flat unique So22AMSUIWebActionRunnable_p
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOQr.13
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQOQr.11
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOQr.9
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOqd0__AaBHC.14
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQOqd0__AaBHC.12
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOqd__AaBHC.10
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy018AppleMediaServicesB0017AuthenticateSheeteF0VGAA08_OverlayF0VyAF0jK8ProviderVSgGGAA0E0HPAiaQHPyHC_AoA0eF0HPyHCHC.89
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy018AppleMediaServicesB0028AuthenticateSheetWithAccounteF0VGAA08_OverlayF0VyAF0jK8ProviderVSgGGAA0E0HPAiaQHPyHC_AoA0eF0HPyHCHC.92
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy018AppleMediaServicesB0028AuthenticateSheetWithRequesteF0VGAA08_OverlayF0VyAF0jK8ProviderVSgGGAA0E0HPAiaQHPyHC_AoA0eF0HPyHCHC.91
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy018AppleMediaServicesB0028AuthenticateSheetWithResultseF0VGAA08_OverlayF0VyAF0jK8ProviderVSgGGAA0E0HPAiaQHPyHC_AoA0eF0HPyHCHC.90
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy018AppleMediaServicesB0030AuthenticateSheetWithSpecifiereF0VGAA08_OverlayF0VyAF0jK8ProviderVSgGGAA0E0HPAiaQHPyHC_AoA0eF0HPyHCHC.93
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA6VStackVyAA9TupleViewVyACyAA4TextVAA16_FixedSizeLayoutVG_AlA6ButtonVyAIGSgAA6SpacerVtGGAA010_FlexFrameK0VGAA24_BackgroundStyleModifierVyAA5ColorVGGAA08_PaddingK0VGAA0G0HPA1_AAA5_HPAwAA5_HPAtAA5_HPyHC_AvA0gR0HPyHCHC_A0_AAA6_HPyHCHC_A3_AAA6_HPyHCHC.3
++ _get_witness_table 7SwiftUI15NavigationStackVyAA0C4PathVAA4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQOyAA6VStackVyAA012_ConditionalJ0VyANyAA05TupleF0VyAA6SpacerV_AgAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAA08ModifiedJ0VyAA08ProgressF0VyAA05EmptyF0VA2_GAA30_EnvironmentKeyWritingModifierVyAA11ControlSizeOGG_Qo_A2RtG018AppleMediaServicesB008InfoListF0VGAPyAR_APyAZyAA4TextVAA14_PaddingLayoutVG_AA6ButtonVyA17_GtGA2RtGGG_AA0miJ0VyAA0I4ItemVyytA17_G_A31_yytAZyA22_yAA5ImageVGA5_yAA5ColorVSgGGGtGQo_GAaFHPyHC.3
++ _get_witness_table 7SwiftUI16SubscriptionViewVy7Combine9PublishedV9PublisherVys6ResultOySDys11AnyHashableVypGSgs5Error_pGSg_GAA0D0PAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOy018AppleMediaServicesB003WebD0V_Qo_GAaSHPyHC.25
++ _get_witness_table 7SwiftUI4ViewRzlqd0__AaBHD3_AaBPAAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQOyx_So13AMSURLRequestCSgQo_HO.3
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE15navigationTitleyQrqd__SyRd__lFQOyAA15ModifiedContentVy018AppleMediaServicesB0020NotificationSettingsC13RepresentableVAA23_SafeAreaIgnoringLayoutVG_SSQo_HO.2
++ _objc_msgSend$URLCache
++ _objc_msgSend$URLWithSize:
++ _objc_msgSend$__swift_objectForKeyedSubscript:
++ _objc_msgSend$_modalPresentationStyle:
++ _objc_msgSend$_passwordSettingsForAccount:
++ _objc_msgSend$_setPassword:
++ _objc_msgSend$activationState
++ _objc_msgSend$ak_redactedCopy
++ _objc_msgSend$ams_accountID
++ _objc_msgSend$ams_biometricsState
++ _objc_msgSend$ams_fetchActiveiCloudAccount
++ _objc_msgSend$ams_fetchAgeAreaComplianceIDWithTimeout:returningStaleData:
++ _objc_msgSend$ams_fetchIsAccountEligibleForAgeAssuranceWithTimeout:returningStaleData:
++ _objc_msgSend$ams_fetchIsAgeVerifiedAdultWithTimeout:returningStaleData:
++ _objc_msgSend$ams_fetchIsConnectedToAgeVerifiedAdultWithTimeout:returningStaleData:
++ _objc_msgSend$ams_fetchMethodOfVerificationWithTimeout:returningStaleData:
++ _objc_msgSend$ams_freePasswordPromptSetting
++ _objc_msgSend$ams_installCDPUIWithPresentingViewController:
++ _objc_msgSend$ams_mediaType
++ _objc_msgSend$ams_paidPasswordPromptSetting
++ _objc_msgSend$authenticateWithContext:completion:
++ _objc_msgSend$biometricState
++ _objc_msgSend$blue
++ _objc_msgSend$blueColor
++ _objc_msgSend$cachedResponseForRequest:
++ _objc_msgSend$canPerformAuthorization
++ _objc_msgSend$cardArtworkData
++ _objc_msgSend$configurationWithPointSize:weight:
++ _objc_msgSend$constraintEqualToAnchor:multiplier:
++ _objc_msgSend$createContentFromData:keys:error:
++ _objc_msgSend$createControllerWithPrimaryLabel:secondaryLabel:linkTitle:linkAction:
++ _objc_msgSend$dataTaskPromiseWithRequestPromise:
++ _objc_msgSend$declaredAgeRangeOverrides
++ _objc_msgSend$defaultSession
++ _objc_msgSend$defaultSessionConfiguration
++ _objc_msgSend$descriptionShort
++ _objc_msgSend$deviceIsMac
++ _objc_msgSend$deviceIsRealityDevice
++ _objc_msgSend$dismissWithData:error:
++ _objc_msgSend$enablementBagKey
++ _objc_msgSend$encodeInteger:forKey:
++ _objc_msgSend$endWithActivity:pageMetrics:
++ _objc_msgSend$enqueueEvent
++ _objc_msgSend$grayTheme
++ _objc_msgSend$green
++ _objc_msgSend$hash
++ _objc_msgSend$hidesWhenStopped:
++ _objc_msgSend$initWithAccount:accountParameters:bag:
++ _objc_msgSend$initWithAccountParameters:bag:
++ _objc_msgSend$initWithAnchorRect:
++ _objc_msgSend$initWithBag:metrics:
++ _objc_msgSend$initWithButtonType:
++ _objc_msgSend$initWithCertificateChain:recipient:encryptionVersion:
++ _objc_msgSend$initWithCoder:
++ _objc_msgSend$initWithColor:
++ _objc_msgSend$initWithContentView:
++ _objc_msgSend$initWithData:
++ _objc_msgSend$initWithData:assetType:
++ _objc_msgSend$initWithID:kind:context:
++ _objc_msgSend$initWithJSONDictionary:
++ _objc_msgSend$initWithJSONDictionary:presentingViewController:
++ _objc_msgSend$initWithOAuthURL:customScheme:presentingViewController:
++ _objc_msgSend$initWithOAuthURL:host:path:presentingViewController:
++ _objc_msgSend$initWithPassTypeIdentifier:passSerialNumber:
++ _objc_msgSend$initWithProxiedClientContext:
++ _objc_msgSend$initWithResponse:data:
++ _objc_msgSend$initWithServiceType:placement:account:bag:
++ _objc_msgSend$initWithServiceType:placement:bag:account:context:
++ _objc_msgSend$initWithStringValue:
++ _objc_msgSend$initWithTitleBackgroundColor:titleTextColor:subtitleTextColor:iconTintColor:progressColor:
++ _objc_msgSend$isAvailableForAccount:
++ _objc_msgSend$isKeyWindow
++ _objc_msgSend$isPasscodePurchaseEnabled
++ _objc_msgSend$keyWindow
++ _objc_msgSend$layoutMargins
++ _objc_msgSend$layoutMarginsGuide
++ _objc_msgSend$loadController
++ _objc_msgSend$loadViewIfNeeded
++ _objc_msgSend$loadWith:bagProfile:bagProfileVersion:
++ _objc_msgSend$makeXPCConnectionWithError:
++ _objc_msgSend$minimalSession
++ _objc_msgSend$modelForClass:error:
++ _objc_msgSend$openSensitiveURL:withOptions:
++ _objc_msgSend$pageStyle
++ _objc_msgSend$passcode
++ _objc_msgSend$performAuthorizationWithContext:completion:
++ _objc_msgSend$performPostSignInTasksInDaemonForAccount:credentialSource:
++ _objc_msgSend$popToViewController:animated:
++ _objc_msgSend$presentationConfigFor:completionHandler:
++ _objc_msgSend$progressColor
++ _objc_msgSend$pushViewController:animated:
++ _objc_msgSend$red
++ _objc_msgSend$remoteObjectProxy
++ _objc_msgSend$remoteObjectProxyWithErrorHandler:
++ _objc_msgSend$requestViewControllerWithHostBundleID:flow:handler:
++ _objc_msgSend$requestWithMethod:URL:parameters:
++ _objc_msgSend$requestWithMethod:bagURL:parameters:
++ _objc_msgSend$responseDataItems
++ _objc_msgSend$reviewComposerDemoMode
++ _objc_msgSend$safeAreaLayoutGuide
++ _objc_msgSend$selectedViewController
++ _objc_msgSend$sendCUINoDelegateCallbackEventWithResolveData:className:
++ _objc_msgSend$setAdditionalPlatforms:
++ _objc_msgSend$setAllowMultiplePresentations:
++ _objc_msgSend$setAllowedStatusCodes:
++ _objc_msgSend$setAltDSID:
++ _objc_msgSend$setAnchorPoint:
++ _objc_msgSend$setAppProvidedContext:
++ _objc_msgSend$setAppProvidedData:
++ _objc_msgSend$setAutomaticallyGeneratesAppearMetrics:
++ _objc_msgSend$setAutomaticallyPresentsProductDetails:
++ _objc_msgSend$setBundleID:
++ _objc_msgSend$setClass:forSelector:argumentIndex:ofReply:
++ _objc_msgSend$setClientData:
++ _objc_msgSend$setCornerRadius:
++ _objc_msgSend$setCredentialRequests:
++ _objc_msgSend$setCustomHTTPHeaders:
++ _objc_msgSend$setDeclaredAgeRangeOverrides:
++ _objc_msgSend$setEngagementImpressionsReportingFrequency:
++ _objc_msgSend$setExportedInterface:
++ _objc_msgSend$setExportedObject:
++ _objc_msgSend$setFirstTimeLogin:
++ _objc_msgSend$setInsetsLayoutMarginsFromSafeArea:
++ _objc_msgSend$setIsUsernameEditable:
++ _objc_msgSend$setLayoutMargins:
++ _objc_msgSend$setMinimumHeight:
++ _objc_msgSend$setOfferTheme:
++ _objc_msgSend$setPasscode:
++ _objc_msgSend$setPasscodePurchaseEnabled:
++ _objc_msgSend$setPreferredHeight:
++ _objc_msgSend$setProperty:forBodyKey:
++ _objc_msgSend$setRemoteObjectInterface:
++ _objc_msgSend$setRemotePresentation:
++ _objc_msgSend$setRequest:
++ _objc_msgSend$setRequestedScopes:
++ _objc_msgSend$setRightBarButtonItem:animated:
++ _objc_msgSend$setSeed:
++ _objc_msgSend$setSession:
++ _objc_msgSend$setShouldAllowAppleIDCreation:
++ _objc_msgSend$setStoreSheetHostBundleID:
++ _objc_msgSend$setTarget:
++ _objc_msgSend$setTeamID:
++ _objc_msgSend$set_shouldShowAdditionalCTA:
++ _objc_msgSend$sharedSession
++ _objc_msgSend$sharedURLCache
++ _objc_msgSend$showSkipButton
++ _objc_msgSend$signInToServices:usingContext:completion:
++ _objc_msgSend$startWithActivity:
++ _objc_msgSend$statusCode
++ _objc_msgSend$storeCachedResponse:forRequest:
++ _objc_msgSend$suffix
++ _objc_msgSend$updateEffectiveRequest:
++ _objc_msgSend$uploadDocData:uploadSettings:completion:
++ _objc_msgSend$webContextWithCombining:userInfo:accountParameters:account:completionHandler:
++ _objectdestroy.16Tm
++ _objectdestroy.21Tm
++ _objectdestroy.35Tm
++ _objectdestroy.48Tm
++ _objectdestroy.4Tm
++ _objectdestroy.91Tm
++ _objectdestroy.95Tm
++ _swift_getOpaqueTypeMetadata2
++ _symbolic SDySS___________pG So14NSSecureCodingP So8NSObjectP
++ _symbolic SaySDyS2SGG
++ _symbolic Say_____G 20AppleMediaServicesUI20DocumentUploadActionC0E033_E9CCB351472E629AB41BD54CC25FD906LLV
++ _symbolic SbSg
++ _symbolic SccySo29AMSSyncPasswordSettingsResultC______pG s5ErrorP
++ _symbolic Sccy_____Sg______pG 18AppleMediaServices18PresentationConfigC s5ErrorP
++ _symbolic Sccy___________pG 10Foundation4DataV s5ErrorP
++ _symbolic So27AMSSyncPasswordSettingsTaskC
++ _symbolic So5NSURLC
++ _symbolic _____ 18AppleMediaServices3LogV
++ _symbolic _____ 20AppleMediaServicesUI17FetchQRCPETActionC
++ _symbolic _____ 20AppleMediaServicesUI20DocumentUploadActionC
++ _symbolic _____ 20AppleMediaServicesUI20DocumentUploadActionC0E033_E9CCB351472E629AB41BD54CC25FD906LLV
++ _symbolic _____ 20AppleMediaServicesUI20DocumentUploadActionC0E4Type33_E9CCB351472E629AB41BD54CC25FD906LLO
++ _symbolic _____ 20AppleMediaServicesUI20UserReviewNetworkingO
++ _symbolic _____ 20AppleMediaServicesUI23AgeVerificationInfoViewV
++ _symbolic _____ 20AppleMediaServicesUI28UpdatePasswordSettingsActionC
++ _symbolic _____ 20AppleMediaServicesUI29PasscodePurchaseEnabledActionC
++ _symbolic _____ 20AppleMediaServicesUI31PasscodePurchaseAvailableActionC
++ _symbolic _____ 20AppleMediaServicesUI37NotificationSettingsViewRepresentableV
++ _symbolic _____ 20AppleMediaServicesUI41AgeVerificationInfoViewControllerProviderC
++ _symbolic _____ So24UIModalPresentationStyleV
++ _symbolic _____ So27AKAppleIDAuthenticationTypeV
++ _symbolic _____ So37AMSEngagementRequestPresentationStyleV
++ _symbolic _____IeyBy_ So24UIModalPresentationStyleV
++ _symbolic _____Sg 20AppleMediaServicesUI25AuthenticateSheetProviderV
++ _symbolic _____SgSo7NSErrorCSgIeyByy_ 18AppleMediaServices18PresentationConfigC
++ _symbolic ___________y_____y_____y_____ADG_____y_____GG_Qo_A2At 7SwiftUI6SpacerV AA4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA15ModifiedContentV AA08ProgressD0V AA05EmptyD0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO
++ _symbolic ______p So22AMSUIWebActionRunnableP
++ _symbolic ______pSg So22AMSUIWebActionRunnableP
++ _symbolic _____yAAyAAyAAy__________G_____y_____GG_____y_____SgGG_____G 7SwiftUI15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA24_ForegroundStyleModifierV AA5ColorV AA022_EnvironmentKeyWritingK0V AA4FontV AA08_PaddingH0V
++ _symbolic _____yAAyAAy__________G_____G_____y_____SgGG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA08_PaddingH0V AA30_EnvironmentKeyWritingModifierV AA5ColorV
++ _symbolic _____yAAyAAy__________G_____y_____GG_____y_____SgGG 7SwiftUI15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA24_ForegroundStyleModifierV AA5ColorV AA022_EnvironmentKeyWritingK0V AA4FontV
++ _symbolic _____yAAyAAy__________G_____y_____SgGGAEy_____SgGG 7SwiftUI15ModifiedContentV AA5ImageV AA15_RotationEffectV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV
++ _symbolic _____yAAyAAy_____y_____yAAy__________G_AF_____yADGSg_____tGG_____G_____y_____GG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA16_FixedSizeLayoutV AA6ButtonV AA6SpacerV AA010_FlexFrameK0V AA24_BackgroundStyleModifierV AA5ColorV AA08_PaddingK0V
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA08_PaddingH0V
++ _symbolic _____yAAy__________G_____y_____GG 7SwiftUI15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA24_ForegroundStyleModifierV AA5ColorV
++ _symbolic _____yAAy__________y_____GGACy_____SgGG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA5ColorV
++ _symbolic _____yAAy_____y_____ACG_____y_____GG_____G 7SwiftUI15ModifiedContentV AA12ProgressViewV AA05EmptyF0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA14_TaskModifier2V
++ _symbolic _____yAAy_____y_____yAAy__________G_AF_____yADGSg_____tGG_____G_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA16_FixedSizeLayoutV AA6ButtonV AA6SpacerV AA010_FlexFrameK0V AA24_BackgroundStyleModifierV AA5ColorV
++ _symbolic _____ySS_SSSgtG s23_ContiguousArrayStorageC
++ _symbolic _____ySS___________pG s18_DictionaryStorageC So14NSSecureCodingP So8NSObjectP
++ _symbolic _____ySo21AMSAuthenticateResultC______pG s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____y_____G 7SwiftUI19UIHostingControllerC 018AppleMediaServicesB023AgeVerificationInfoViewV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation4DataV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 20AppleMediaServicesUI20DocumentUploadActionC0H033_E9CCB351472E629AB41BD54CC25FD906LLV
++ _symbolic _____y_____GSg 7SwiftUI6ButtonV AA4TextV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 018AppleMediaServicesB037NotificationSettingsViewRepresentableV AA23_SafeAreaIgnoringLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 018AppleMediaServicesB07WebViewV AA14_TaskModifier2V
++ _symbolic _____y__________G_AD_____yABGSg_____t 7SwiftUI15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV AA6ButtonV AA6SpacerV
++ _symbolic _____y___________yACy_____y___________y_____y_____y_____AHG_____y_____GG_Qo_A2EtG_____GADyAE_ADyAFy__________G______yARGtGA2EtGGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA19_ConditionalContentV AA05TupleD0V AA6SpacerV AA0D0PAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA08ModifiedI0V AA08ProgressD0V AA05EmptyD0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO 018AppleMediaServicesB008InfoListD0V AA4TextV AA08_PaddingG0V AA6ButtonV
++ _symbolic _____y___________y_____y__________G_AG_____yAEGSg_____tGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV AA4TextV AA010_FixedSizeG0V AA6ButtonV AA6SpacerV
++ _symbolic _____y___________y_____y_____y_____AEG_____y_____GG_Qo_A2BtG 7SwiftUI9TupleViewV AA6SpacerV AA0D0PAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA15ModifiedContentV AA08ProgressD0V AA05EmptyD0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO
++ _symbolic _____y__________y_______________yAdEGGG 7SwiftUI19_ConditionalContentV AA5ImageV AA15StrokeShapeViewV AA6CircleV AA5ColorV AA01_gH0V
++ _symbolic _____y__________y_____y_____yADy_____y___________y_____y_____y_____AIG_____y_____GG_Qo_A2FtG_____GAEyAF_AEyAGy__________G______yASGtGA2FtGGG______y_____yytASG_A1_yytAGyAVy_____GAKy_____SgGGGtGQo_G 7SwiftUI15NavigationStackV AA0C4PathV AA4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AA6VStackV AA012_ConditionalJ0V AA05TupleF0V AA6SpacerV AgAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA08ModifiedJ0V AA08ProgressF0V AA05EmptyF0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO 018AppleMediaServicesB008InfoListF0V AA4TextV AA14_PaddingLayoutV AA6ButtonV AA0miJ0V AA0I4ItemV AA5ImageV AA5ColorV
++ _symbolic _____y_____yABy_____y___________y_____y_____y_____AGG_____y_____GG_Qo_A2DtG_____GACyAD_ACyAEy__________G______yAQGtGA2DtGGG 7SwiftUI6VStackV AA19_ConditionalContentV AA9TupleViewV AA6SpacerV AA0G0PAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA08ModifiedE0V AA08ProgressG0V AA05EmptyG0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO 018AppleMediaServicesB008InfoListG0V AA4TextV AA14_PaddingLayoutV AA6ButtonV
++ _symbolic _____y_____y__________G_SSQo_ 7SwiftUI4ViewPAAE15navigationTitleyQrqd__SyRd__lFQO AA15ModifiedContentV 018AppleMediaServicesB0020NotificationSettingsC13RepresentableV AA23_SafeAreaIgnoringLayoutV
++ _symbolic _____y_____y___________y_____y_____y_____AFG_____y_____GG_Qo_A2CtG_____G 7SwiftUI19_ConditionalContentV AA9TupleViewV AA6SpacerV AA0F0PAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA08ModifiedD0V AA08ProgressF0V AA05EmptyF0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO 018AppleMediaServicesB008InfoListF0V
++ _symbolic _____y_____y___________y_____y_____y_____AFG_____y_____GG_Qo_A2CtG______G 7SwiftUI19_ConditionalContentV7StorageO AA9TupleViewV AA6SpacerV AA0G0PAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA08ModifiedD0V AA08ProgressG0V AA05EmptyG0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO 018AppleMediaServicesB008InfoListG0V
++ _symbolic _____y_____y_____yAAy__________G_AF_____yADGSg_____tGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA16_FixedSizeLayoutV AA6ButtonV AA6SpacerV AA010_FlexFrameK0V
++ _symbolic _____y_____y_____yABy_____y___________y_____y_____y_____AGG_____y_____GG_Qo_A2DtG_____GACyAD_ACyAEy__________G______yAQGtGA2DtGGG______y_____yytAQG_A_yytAEyATy_____GAIy_____SgGGGtGQo_ 7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AA6VStackV AA012_ConditionalG0V AA05TupleC0V AA6SpacerV AcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA08ModifiedG0V AA08ProgressC0V AA05EmptyC0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO 018AppleMediaServicesB008InfoListC0V AA4TextV AA14_PaddingLayoutV AA6ButtonV AA0jfG0V AA0F4ItemV AA5ImageV AA5ColorV
++ _symbolic _____y_____y_____ySDy_____ypGSg______pGSg_G_____y______Qo_G 7SwiftUI16SubscriptionViewV 7Combine9PublishedV9PublisherV s6ResultOsRi_zRi0_zrlE s11AnyHashableV s5ErrorP AA0D0PAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO 018AppleMediaServicesB003WebD0V
++ _symbolic _____y_____y_____y_____ACG_____y_____GG_Qo_ 7SwiftUI4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA15ModifiedContentV AA08ProgressC0V AA05EmptyC0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO
++ _symbolic _____y_____y_____y__________G_AF_____yADGSg_____tGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV AA6ButtonV AA6SpacerV
++ _symbolic _____y_____y_____y___________y_____y_____y_____AGG_____y_____GG_Qo_A2DtG_____GACyAD_ACyAEy__________G______yAQGtGA2DtG_G 7SwiftUI19_ConditionalContentV7StorageO AC AA9TupleViewV AA6SpacerV AA0G0PAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA08ModifiedD0V AA08ProgressG0V AA05EmptyG0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO 018AppleMediaServicesB008InfoListG0V AA4TextV AA14_PaddingLayoutV AA6ButtonV
++ _symbolic _____yx_So13AMSURLRequestCSgQo_ 7SwiftUI4ViewPAAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQO
++ _type_layout_string 20AppleMediaServicesUI20DocumentUploadActionC0E033_E9CCB351472E629AB41BD54CC25FD906LLV
++ _type_layout_string 20AppleMediaServicesUI23AgeVerificationInfoViewV
++ _type_layout_string 20AppleMediaServicesUI37NotificationSettingsViewRepresentableV
++ _updateInlineAnchorInfo.logOnceToken__COUNTER__.37
+- -[AMSUIEngagementTask _modalPresentationStyle]
+- -[AMSUIWebContainerViewController pageAppearTime]
+- -[AMSUIWebContainerViewController setPageAppearTime:]
+- -[AMSUIWebPageViewController htmlRequestResult]
+- -[AMSUIWebPageViewController setHtmlRequestResult:]
+- _OBJC_CLASS_$_AMSUIWebPageRenderMetricsPresenterWrapper
+- _OBJC_IVAR_$_AMSUIWebContainerViewController._pageAppearTime
+- _OBJC_IVAR_$_AMSUIWebPageViewController._htmlRequestResult
+- _OBJC_METACLASS_$_AMSUIWebPageRenderMetricsPresenterWrapper
+- __DATA_AMSUIWebPageRenderMetricsPresenterWrapper
+- __DATA__TtC20AppleMediaServicesUI28AMSUIWebMetricsEventRecorder
+- __INSTANCE_METHODS_AMSUIWebPageRenderMetricsPresenterWrapper
+- __IVARS_AMSUIWebPageRenderMetricsPresenterWrapper
+- __IVARS__TtC20AppleMediaServicesUI28AMSUIWebMetricsEventRecorder
+- __METACLASS_DATA_AMSUIWebPageRenderMetricsPresenterWrapper
+- __METACLASS_DATA__TtC20AppleMediaServicesUI28AMSUIWebMetricsEventRecorder
+- __OBJC_$_INSTANCE_METHODS_AMSUIEngagementTask
+- __PROTOCOLS_AMSUIRegulatoryAgeVerificationTask.23
+- ___46-[AMSUIWebViewController _applyMappingsToURL:]_block_invoke.81
+- ___46-[AMSUIWebViewController _applyMappingsToURL:]_block_invoke.86
+- ___49-[AMSUIWebViewController _lazyPromiseForPageLoad]_block_invoke.171
+- ___52-[AMSUIWebWalletPassAction _attemptLynxProvisioning]_block_invoke.78
+- ___53-[AMSUIWebWalletPassAction _lookupPassForIdentifier:]_block_invoke.79
+- ___54-[AMSUIBubbleTipViewController updateInlineAnchorInfo]_block_invoke.40
+- ___55-[AMSUIWebViewController _lazyPromiseForLoadingSession]_block_invoke.166
+- ___59-[AMSUIEngagementTask _presentViewController:dismissBlock:]_block_invoke.125
+- ___61-[AMSUIWebViewController _handleDialogRequest:pauseTimeouts:]_block_invoke.148
+- ___65-[AMSUIWebViewController _handleEngagementRequest:pauseTimeouts:]_block_invoke.157
+- ___65-[AMSUIWebViewController _lazyPromiseForLoadingRequest:bagValue:]_block_invoke.162
+- ___67-[AMSUIWebViewController _handleAuthenticateRequest:pauseTimeouts:]_block_invoke.105
+- ___67-[AMSUIWebViewController _handleAuthenticateRequest:pauseTimeouts:]_block_invoke.107
+- ___67-[AMSUIWebViewController _handleAuthenticateRequest:pauseTimeouts:]_block_invoke.111
+- ___67-[AMSUIWebViewController _handleAuthenticateRequest:pauseTimeouts:]_block_invoke.124
+- ___67-[AMSUIWebViewController _handleAuthenticateRequest:pauseTimeouts:]_block_invoke.126
+- ___67-[AMSUIWebViewController _handleAuthenticateRequest:pauseTimeouts:]_block_invoke.134
+- ___67-[AMSUIWebViewController _handleAuthenticateRequest:pauseTimeouts:]_block_invoke.136
+- ___71-[AMSUIAlertDialogTask _createIOSViewControllerFromRequest:completion:]_block_invoke.14
+- ___98-[AMSUIWebContainerViewController replaceContentWithViewController:animated:pageModel:completion:]_block_invoke.32
+- ___98-[AMSUIWebContainerViewController replaceContentWithViewController:animated:pageModel:completion:]_block_invoke.35
+- ___98-[AMSUIWebContainerViewController replaceContentWithViewController:animated:pageModel:completion:]_block_invoke_2.36
+- ___swift_allocate_boxed_opaque_existential_1Tm
+- ___swift_coroFrameAllocStub
+- _associated conformance 20AppleMediaServicesUI24NotificationSettingsViewV05SwiftD029UIViewControllerRepresentableAaD0G0
+- _associated conformance 20AppleMediaServicesUI24NotificationSettingsViewVAA0G21RepresentableProviderAA1TAaDP_AaD
+- _block_copy_helper.110
+- _block_copy_helper.116
+- _block_copy_helper.122
+- _block_copy_helper.13
+- _block_copy_helper.130
+- _block_copy_helper.136
+- _block_copy_helper.15
+- _block_copy_helper.26
+- _block_copy_helper.29
+- _block_copy_helper.36
+- _block_copy_helper.42
+- _block_copy_helper.61
+- _block_copy_helper.66
+- _block_copy_helper.7
+- _block_copy_helper.71
+- _block_copy_helper.85
+- _block_copy_helper.95
+- _block_descriptor.112
+- _block_descriptor.118
+- _block_descriptor.124
+- _block_descriptor.132
+- _block_descriptor.138
+- _block_descriptor.15
+- _block_descriptor.17
+- _block_descriptor.28
+- _block_descriptor.31
+- _block_descriptor.38
+- _block_descriptor.44
+- _block_descriptor.63
+- _block_descriptor.68
+- _block_descriptor.73
+- _block_descriptor.87
+- _block_descriptor.9
+- _block_descriptor.97
+- _block_destroy_helper.111
+- _block_destroy_helper.117
+- _block_destroy_helper.123
+- _block_destroy_helper.131
+- _block_destroy_helper.137
+- _block_destroy_helper.14
+- _block_destroy_helper.16
+- _block_destroy_helper.27
+- _block_destroy_helper.30
+- _block_destroy_helper.37
+- _block_destroy_helper.43
+- _block_destroy_helper.62
+- _block_destroy_helper.67
+- _block_destroy_helper.72
+- _block_destroy_helper.8
+- _block_destroy_helper.86
+- _block_destroy_helper.96
+- _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOQr.25
+- _get_underlying_witness 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOqd0__AaBHC.26
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy018AppleMediaServicesB0017AuthenticateSheeteF0VGAA08_OverlayF0VyAF0jK8ProviderVSgGGAA0E0HPAiaQHPyHC_AoA0eF0HPyHCHC.59
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy018AppleMediaServicesB0028AuthenticateSheetWithAccounteF0VGAA08_OverlayF0VyAF0jK8ProviderVSgGGAA0E0HPAiaQHPyHC_AoA0eF0HPyHCHC.62
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy018AppleMediaServicesB0028AuthenticateSheetWithRequesteF0VGAA08_OverlayF0VyAF0jK8ProviderVSgGGAA0E0HPAiaQHPyHC_AoA0eF0HPyHCHC.61
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy018AppleMediaServicesB0028AuthenticateSheetWithResultseF0VGAA08_OverlayF0VyAF0jK8ProviderVSgGGAA0E0HPAiaQHPyHC_AoA0eF0HPyHCHC.60
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy018AppleMediaServicesB0030AuthenticateSheetWithSpecifiereF0VGAA08_OverlayF0VyAF0jK8ProviderVSgGGAA0E0HPAiaQHPyHC_AoA0eF0HPyHCHC.63
+- _get_witness_table 7SwiftUI15NavigationStackVyAA0C4PathVAA4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQOyAA6VStackVyAA012_ConditionalJ0VyANyAA05TupleF0VyAA6SpacerV_AA08ModifiedJ0VyATyAA08ProgressF0VyAA05EmptyF0VAXGAA30_EnvironmentKeyWritingModifierVyAA11ControlSizeOGGAA05_TaskU0VGA2RtG018AppleMediaServicesB008InfoListF0VGAPyAR_APyATyAA4TextVAA14_PaddingLayoutVG_AA6ButtonVyA13_GtGA2RtGGG_AA0miJ0VyAA0I4ItemVyytA13_G_A27_yytATyA18_yAA5ImageVGA_yAA5ColorVSgGGGtGQo_GAaFHPyHC.3
+- _get_witness_table 7SwiftUI16SubscriptionViewVy7Combine9PublishedV9PublisherVys6ResultOySDys11AnyHashableVypGSgs5Error_pGSg_GAA15ModifiedContentVy018AppleMediaServicesB003WebD0VAA13_TaskModifierVGGAA0D0HPyHC.25
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA18_TaskValueModifierVySo13AMSURLRequestCSgGGAaBHPxAaBHD1__AjA0cH0HPyHCHC.2
+- _objc_claimAutoreleasedReturnValue
+- _objc_msgSend$endPrimaryDataFetchWithPageFields:
+- _objc_msgSend$htmlRequestResult
+- _objc_msgSend$importNetworkTimingsWithResult:
+- _objc_msgSend$initWithOperationID:bag:metricsOverlay:
+- _objc_msgSend$invalidateIntrinsicContentSize
+- _objc_msgSend$pageAppearTime
+- _objc_msgSend$requestViewControllerWithConnectionHandler:
+- _objc_msgSend$serverTimeFromDate:
+- _objc_msgSend$setHtmlRequestResult:
+- _objc_msgSend$setPageAppearTime:
+- _objc_msgSend$setStartingFlow:
+- _objc_msgSend$startPrimaryDataFetchWithUI:
+- _objc_retainAutoreleaseReturnValue
+- _objc_retain_x10
+- _objc_retain_x5
+- _objc_retain_x6
+- _objc_retain_x7
+- _objectdestroy.18Tm
+- _objectdestroy.20Tm
+- _objectdestroy.42Tm
+- _objectdestroy.65Tm
+- _objectdestroy.6Tm
+- _objectdestroy.89Tm
+- _objectdestroy.9Tm
+- _symbolic SS3key_yp5valuet
+- _symbolic So10AMSMetricsC
+- _symbolic _____ 20AppleMediaServicesUI26AMSUIWebMetricsEventLinterV
+- _symbolic _____ 20AppleMediaServicesUI28AMSUIWebMetricsEventRecorderC
+- _symbolic _____ 20AppleMediaServicesUI41AMSUIWebPageRenderMetricsPresenterWrapperC
+- _symbolic _____ 9JetEngine26PageRenderMetricsPresenterC
+- _symbolic ___________yABy_____y_____ADG_____y_____GG_____GA2At 7SwiftUI6SpacerV AA15ModifiedContentV AA12ProgressViewV AA05EmptyG0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA05_TaskL0V
+- _symbolic _____yAAy_____y_____ACG_____y_____GG_____G 7SwiftUI15ModifiedContentV AA12ProgressViewV AA05EmptyF0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA05_TaskK0V
+- _symbolic _____ySSypSgG s18_DictionaryStorageC
+- _symbolic _____ySbGSg 7SwiftUI11AnyLocationC
+- _symbolic _____ySo13AMSURLRequestCSgG 7SwiftUI18_TaskValueModifierV
+- _symbolic _____ySo8NSNumberCG 9JetEngine7PromiseC
+- _symbolic _____y_____G 9JetEngine7PromiseC AA18LintedMetricsEventV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI4EdgeO3SetV
+- _symbolic _____y__________ABG 7SwiftUI7SectionV AA9EmptyViewV 018AppleMediaServicesB0010ListHeaderE0V
+- _symbolic _____y__________G 7SwiftUI15ModifiedContentV 018AppleMediaServicesB07WebViewV AA13_TaskModifierV
+- _symbolic _____y___________yACy_____y_____AEG_____y_____GG_____GA2BtG 7SwiftUI9TupleViewV AA6SpacerV AA15ModifiedContentV AA08ProgressD0V AA05EmptyD0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA05_TaskM0V
+- _symbolic _____y___________yACy_____y___________yAFy_____y_____AHG_____y_____GG_____GA2EtG_____GADyAE_ADyAFy__________G______yASGtGA2EtGGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA19_ConditionalContentV AA05TupleD0V AA6SpacerV AA08ModifiedI0V AA08ProgressD0V AA05EmptyD0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA05_TaskR0V 018AppleMediaServicesB008InfoListD0V AA4TextV AA08_PaddingG0V AA6ButtonV
+- _symbolic _____y__________y_____y_____yADy_____y___________yAGy_____y_____AIG_____y_____GG_____GA2FtG_____GAEyAF_AEyAGy__________G______yATGtGA2FtGGG______y_____yytATG_A2_yytAGyAWy_____GAKy_____SgGGGtGQo_G 7SwiftUI15NavigationStackV AA0C4PathV AA4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AA6VStackV AA012_ConditionalJ0V AA05TupleF0V AA6SpacerV AA08ModifiedJ0V AA08ProgressF0V AA05EmptyF0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA05_TaskU0V 018AppleMediaServicesB008InfoListF0V AA4TextV AA14_PaddingLayoutV AA6ButtonV AA0miJ0V AA0I4ItemV AA5ImageV AA5ColorV
+- _symbolic _____y______pG s23_ContiguousArrayStorageC 9JetEngine20MetricsEventRecorderP
+- _symbolic _____y_____yABy_____y___________yAEy_____y_____AGG_____y_____GG_____GA2DtG_____GACyAD_ACyAEy__________G______yARGtGA2DtGGG 7SwiftUI6VStackV AA19_ConditionalContentV AA9TupleViewV AA6SpacerV AA08ModifiedE0V AA08ProgressG0V AA05EmptyG0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA05_TaskO0V 018AppleMediaServicesB008InfoListG0V AA4TextV AA14_PaddingLayoutV AA6ButtonV
+- _symbolic _____y_____y___________yADy_____y_____AFG_____y_____GG_____GA2CtG_____G 7SwiftUI19_ConditionalContentV AA9TupleViewV AA6SpacerV AA08ModifiedD0V AA08ProgressF0V AA05EmptyF0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA05_TaskN0V 018AppleMediaServicesB008InfoListF0V
+- _symbolic _____y_____y___________yADy_____y_____AFG_____y_____GG_____GA2CtG______G 7SwiftUI19_ConditionalContentV7StorageO AA9TupleViewV AA6SpacerV AA08ModifiedD0V AA08ProgressG0V AA05EmptyG0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA05_TaskO0V 018AppleMediaServicesB008InfoListG0V
+- _symbolic _____y_____y_____yABy_____y___________yAEy_____y_____AGG_____y_____GG_____GA2DtG_____GACyAD_ACyAEy__________G______yARGtGA2DtGGG______y_____yytARG_A0_yytAEyAUy_____GAIy_____SgGGGtGQo_ 7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AA6VStackV AA012_ConditionalG0V AA05TupleC0V AA6SpacerV AA08ModifiedG0V AA08ProgressC0V AA05EmptyC0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA05_TaskR0V 018AppleMediaServicesB008InfoListC0V AA4TextV AA14_PaddingLayoutV AA6ButtonV AA0jfG0V AA0F4ItemV AA5ImageV AA5ColorV
+- _symbolic _____y_____y_____ySDy_____ypGSg______pGSg_G_____y__________GG 7SwiftUI16SubscriptionViewV 7Combine9PublishedV9PublisherV s6ResultOsRi_zRi0_zrlE s11AnyHashableV s5ErrorP AA15ModifiedContentV 018AppleMediaServicesB003WebD0V AA13_TaskModifierV
+- _symbolic _____y_____y_____ySNySiGSi_____y_____yAEy__________y_____GG_____y_____SgGG_Qo_G______tGG 7SwiftUI6HStackV AA9TupleViewV AA7ForEachV AA0E0PAAE10fontWeightyQrAA4FontV0I0VSgFQO AA15ModifiedContentV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA022_EnvironmentKeyWritingP0V AL AA6SpacerV
+- _symbolic _____y_____y_____y___________yAEy_____y_____AGG_____y_____GG_____GA2DtG_____GACyAD_ACyAEy__________G______yARGtGA2DtG_G 7SwiftUI19_ConditionalContentV7StorageO AC AA9TupleViewV AA6SpacerV AA08ModifiedD0V AA08ProgressG0V AA05EmptyG0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA05_TaskO0V 018AppleMediaServicesB008InfoListG0V AA4TextV AA14_PaddingLayoutV AA6ButtonV
+- _symbolic _____y_____y_____y_____yACy_____y_____yADy__________ySiSgGGAFy_____SgGG_Qo_______yACy______ADyADy__________G_____GAPtGGtGSg______ADyADyADyADyADyAE_____G_____y_____GGALGARGARGtGGG_Qo_ 7SwiftUI4ViewPAAE20scrollBounceBehavior_4axesQrAA06ScrolleF0V_AA4AxisO3SetVtFQO AA0hC0V AA6VStackV AA05TupleC0V AcAE10fontWeightyQrAA4FontV0N0VSgFQO AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AT AA6HStackV AA6SpacerV 018AppleMediaServicesB0028ReviewComposerNicknameSampleC0V AA14_PaddingLayoutV AA023AccessibilityAttachmentV0V A6_027ReviewComposerNicknameInputC0V AA16_FlexFrameLayoutV AA016_ForegroundStyleV0V AA5ColorV
+- _symbolic _____y_____y_____y_____y__________y_____y_____yAByADG_____y_____SgGG_AGy_____ALG_____tGGGGG______Qo_ 7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQO AA0G0V AA5GroupV AA19_ConditionalContentV AA4TextV AA6HStackV AA05TupleC0V AA08ModifiedJ0V AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ImageV AA6SpacerV AA05PlaingE0V
+- _symbolic _____yx_____ySo13AMSURLRequestCSgGG 7SwiftUI15ModifiedContentV AA18_TaskValueModifierV
+- _symbolic ypSgSg
+- _type_layout_string 20AppleMediaServicesUI26AMSUIWebMetricsEventLinterV
+- _updateInlineAnchorInfo.logOnceToken__COUNTER__.39
+CStrings:
++ "\f"
++ "%{public}@: [%{public}@] Recognized object of type: %@"
++ "%{public}@alert controller presented"
++ "%{public}@completion handler deallocated without being called"
++ "1.2.840.113635.100.6.2.14"
++ "1.2.840.113635.100.6.64.8"
++ "@\"AMSPageRenderMetricsPresenter\""
++ "AMSDocumentUploadTask"
++ "AMSFetchQRCPETAction"
++ "AMSPasscodePurchaseAvailableAction"
++ "AMSPasscodePurchaseEnabledAction"
++ "AMSUIWebDocumentUploadAction"
++ "AMSUIWebFetchQRCPETAction"
++ "AMSUIWebPasscodePurchaseAvailableAction"
++ "AMSUIWebPasscodePurchaseEnabledAction"
++ "AMSUIWebUpdatePasswordSettingsAction"
++ "AMSUpdatePasswordSettingsAction"
++ "Action completed successfully"
++ "Action failed with error: "
++ "Alert Presentation Failed"
++ "An error occurred trying to fetch the QRCPET."
++ "AppleMediaServicesUI.DocumentUploadAction"
++ "AppleMediaServicesUI.FetchQRCPETAction"
++ "AppleMediaServicesUI.PasscodePurchaseAvailableAction"
++ "AppleMediaServicesUI.PasscodePurchaseEnabledAction"
++ "AppleMediaServicesUI.UpdatePasswordSettingsAction"
++ "AppleMediaServicesUI/CachedAsyncImage.swift"
++ "Can’t present an alert on a view controller that’s already presenting another view controller."
++ "Can’t present an alert on a view controller without a window."
++ "Certificate is expired"
++ "Certificate is not valid yet"
++ "Checking Passcode Purchase Fallback Availability for Bag Profile: "
++ "Completion handler deallocated without being called."
++ "Could not convert result string to data"
++ "Could not create certificate from data"
++ "Could not create data from base64 encoded string"
++ "Could not create trust"
++ "Creating authentication context."
++ "Creating authentication controller."
++ "Did not find a view controller."
++ "Did not receive 2 certificates"
++ "Encountered error:"
++ "Failed to Create Authentication Controller"
++ "Failed to create document from JS Object: "
++ "Failed to load bag"
++ "Failed to update password settings: "
++ "Getting presenting view controller from current container."
++ "IDV certificate fetch response was not in correct format"
++ "IDV response did not contain certificates"
++ "Missing Authentication Results"
++ "No View Controller"
++ "No account provided. jsObject:"
++ "Passcode Purchase Fallback Available: "
++ "Received authentication results:"
++ "Required parameters not found"
++ "Returning QRCPET:"
++ "Returning view controller:"
++ "Starting authentication using context:"
++ "Successfully updated password settings"
++ "T@\"AMSPageRenderMetricsPresenter\",&,N,V_pageRenderPresenter"
++ "T@\"NSString\",&,N,V_passcode"
++ "The authentication succeeded, but returned no authentication results."
++ "The authentication succeeded, but the authentication results did not contain a QRCPET."
++ "The navigation title of the notification settings page"
++ "There were no documents to upload"
++ "Tq,N,V_pageStyle"
++ "Trust creation failed with status code "
++ "Trust isn't valid"
++ "Trying to create an authentication controller returned nil."
++ "Unable to Fetch QRCPET"
++ "Using app-provided data:"
++ "Using authentication type:"
++ "View.task @ AppleMediaServicesUI/AMSUIPaymentSheetExpandableInfoView.swift:"
++ "View.task @ AppleMediaServicesUI/AddPaymentView.swift:"
++ "_TtC20AppleMediaServicesUI41AgeVerificationInfoViewControllerProvider"
++ "_modalPresentationStyle:"
++ "_pageStyle"
++ "_passcode"
++ "_passwordSettingsForAccount:"
++ "ams_biometricsState"
++ "appProvidedData"
++ "biometricState"
++ "constraintEqualToAnchor:multiplier:"
++ "createControllerWithPrimaryLabel:secondaryLabel:linkTitle:linkAction:"
++ "defaultSession"
++ "documents"
++ "endWithActivity:pageMetrics:"
++ "engagement:requestDismissIdentifier:dismissAction:placement:serviceType:"
++ "enqueueEvent"
++ "free"
++ "freePasswordSetting"
++ "hidesWhenStopped:"
++ "idCardBack"
++ "idCardFront"
++ "initWithBag:metrics:"
++ "initWithCertificateChain:recipient:encryptionVersion:"
++ "initWithData:assetType:"
++ "isPasscodePurchaseEnabled"
++ "log"
++ "never"
++ "pageStyle"
++ "paid"
++ "paidPasswordSetting"
++ "passcode"
++ "passwordSettings"
++ "presentationConfigFor:completionHandler:"
++ "requestViewControllerWithHostBundleID:flow:handler:"
++ "requestWithMethod:bagURL:parameters:"
++ "safeAreaLayoutGuide"
++ "sendCUINoDelegateCallbackEventWithResolveData:className:"
++ "setAltDSID:"
++ "setAppProvidedContext:"
++ "setAppProvidedData:"
++ "setPageStyle:"
++ "setPasscode:"
++ "setPasscodePurchaseEnabled:"
++ "setShouldAllowAppleIDCreation:"
++ "sometimes"
++ "startWithActivity:"
++ "thirdPartyDeviceAuth"
++ "thirdPartyDeviceData"
++ "uploadDocData:uploadSettings:completion:"
++ "v24@0:8@?<v@?q>16"
++ "v24@?0@\"AMSPresentationConfig\"8@\"NSError\"16"
++ "v32@0:8@\"NSURL\"16@?<v@?@\"AMSPresentationConfig\"@\"NSError\">24"
++ "v56@0:8@\"AMSEngagement\"16@\"NSString\"24q32@\"NSString\"40@\"NSString\"48"
++ "\xd1"
+- "@\"AMSUIWebPageRenderMetricsPresenterWrapper\""
+- "@\"AMSURLResult\""
+- "AppleMediaServicesUI.AMSUIWebPageRenderMetricsPresenterWrapper"
+- "Attempting to record a metrics event with no topic"
+- "Failed to flush metrics. Error:"
+- "Flushing metrics"
+- "Importing network timings from JS object: "
+- "Importing timings from JS object."
+- "T@\"AMSUIWebPageRenderMetricsPresenterWrapper\",&,N,V_pageRenderPresenter"
+- "T@\"AMSURLResult\",&,N,V_htmlRequestResult"
+- "T@\"NSNumber\",&,V_pageAppearTime"
+- "WebUI"
+- "_TtC20AppleMediaServicesUI28AMSUIWebMetricsEventRecorder"
+- "_htmlRequestResult"
+- "_pageAppearTime"
+- "customer"
+- "endPrimaryDataFetchWithPageFields:"
+- "endResourceDataFetchOnScreen:"
+- "htmlRequestResult"
+- "importNetworkTimingsWithResult:"
+- "initWithOperationID:bag:metricsOverlay:"
+- "invalidateIntrinsicContentSize"
+- "metricsEventRecorder"
+- "metricsFields"
+- "overlayTopic"
+- "p2-application-user-write-review"
+- "pageAppearTime"
+- "requestViewControllerWithConnectionHandler:"
+- "serverTimeFromDate:"
+- "setHtmlRequestResult:"
+- "setPageAppearTime:"
+- "setStartingFlow:"
+- "startPrimaryDataFetchWithUI:"
+- "startResourceDataFetchOnScreen:"
+- "version-to-review"
+- "viewDidDisappear"
+- "viewDidReceiveMemoryWarning"
+- "viewWillDisappear"
+- "\xc1"
+
+```

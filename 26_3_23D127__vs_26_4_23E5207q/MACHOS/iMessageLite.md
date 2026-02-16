@@ -1,0 +1,526 @@
+## iMessageLite
+
+> `/System/Library/Messages/PlugIns/iMessageLite.imservice/iMessageLite`
+
+```diff
+
+-1450.400.42.2.1
+-  __TEXT.__text: 0x50f68
+-  __TEXT.__auth_stubs: 0x16b0
+-  __TEXT.__objc_stubs: 0x7a0
++1450.500.178.2.5
++  __TEXT.__text: 0x500bc
++  __TEXT.__auth_stubs: 0x1650
++  __TEXT.__objc_stubs: 0x2540
+   __TEXT.__objc_methlist: 0x404
+-  __TEXT.__const: 0x28d8
+-  __TEXT.__gcc_except_tab: 0x20c
+-  __TEXT.__cstring: 0x1667
++  __TEXT.__const: 0x28e8
++  __TEXT.__gcc_except_tab: 0x1fc
++  __TEXT.__cstring: 0x1187
+   __TEXT.__oslogstring: 0x2594
+-  __TEXT.__objc_classname: 0x128
+-  __TEXT.__objc_methname: 0x2510
+-  __TEXT.__objc_methtype: 0x40f
++  __TEXT.__objc_classname: 0x1ed
++  __TEXT.__objc_methtype: 0x7c6
++  __TEXT.__objc_methname: 0x266c
+   __TEXT.__dlopen_cstrs: 0x44
+-  __TEXT.__swift5_typeref: 0xbcc
++  __TEXT.__swift5_typeref: 0xbd8
+   __TEXT.__constg_swiftt: 0x7b8
+   __TEXT.__swift5_builtin: 0xdc
+   __TEXT.__swift5_mpenum: 0x28
+
+   __TEXT.__swift_as_ret: 0xe8
+   __TEXT.__swift5_assocty: 0x130
+   __TEXT.__swift5_protos: 0xc
+-  __TEXT.__unwind_info: 0x12e8
+-  __TEXT.__eh_frame: 0x3128
+-  __DATA_CONST.__auth_got: 0xb68
++  __TEXT.__unwind_info: 0x12c0
++  __TEXT.__eh_frame: 0x3108
++  __DATA_CONST.__auth_got: 0xb38
+   __DATA_CONST.__got: 0x638
+-  __DATA_CONST.__auth_ptr: 0x510
++  __DATA_CONST.__auth_ptr: 0x508
+   __DATA_CONST.__const: 0x27c0
+   __DATA_CONST.__cfstring: 0x80
+   __DATA_CONST.__objc_classlist: 0x18
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F359E7BA-C1F6-3258-8661-E10A55317B71
+-  Functions: 1278
+-  Symbols:   10284
+-  CStrings:  725
++  UUID: E58D1A60-34ED-30A3-8400-7A6CE1C492A8
++  Functions: 1268
++  Symbols:   10477
++  CStrings:  720
+ 
+Symbols:
++ $sSo25LiteMessageServiceSessionC01ibA0E09sendRelayB033_4B2298B3AA0C6AF99CEFB0F94E835066LL_6toChat5style7commandySo13IMMessageItemC_SSSo11IMChatStyleVSo12IDSCommandIDVtFyyYaYbcfU_TA.73
++ $sSo25LiteMessageServiceSessionC01ibA0E09sendRelayB033_4B2298B3AA0C6AF99CEFB0F94E835066LL_6toChat5style7commandySo13IMMessageItemC_SSSo11IMChatStyleVSo12IDSCommandIDVtFyyYaYbcfU_TA.73TQ0_
++ $sSo25LiteMessageServiceSessionC01ibA0E09sendRelayB033_4B2298B3AA0C6AF99CEFB0F94E835066LL_6toChat5style7commandySo13IMMessageItemC_SSSo11IMChatStyleVSo12IDSCommandIDVtFyyYaYbcfU_TA.73Tu
++ $sSo25LiteMessageServiceSessionC01ibA0E21calculateReachability4with15responseHandlerySo09IMServiceF7RequestC_So0jf8ResponseI0_ptFyyYacfU_TA.13
++ $sSo25LiteMessageServiceSessionC01ibA0E21calculateReachability4with15responseHandlerySo09IMServiceF7RequestC_So0jf8ResponseI0_ptFyyYacfU_TA.13TQ0_
++ $sSo25LiteMessageServiceSessionC01ibA0E21calculateReachability4with15responseHandlerySo09IMServiceF7RequestC_So0jf8ResponseI0_ptFyyYacfU_TA.13Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.22
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.22TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.22Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.61
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.61TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.61Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tgq5TA.45
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tgq5TA.45TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tgq5TA.45Tu
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/Symbols/BuiltProducts/libiMessageLiteCore.a(BitCollection+MessageContent.o)
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/Symbols/BuiltProducts/libiMessageLiteCore.a(BitCollection.o)
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/Symbols/BuiltProducts/libiMessageLiteCore.a(BitMessage+MessageContent.o)
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/Symbols/BuiltProducts/libiMessageLiteCore.a(BitMessage.o)
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/Symbols/BuiltProducts/libiMessageLiteCore.a(BitMessagePackable.o)
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/Symbols/BuiltProducts/libiMessageLiteCore.a(Data+Lite.o)
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/DerivedSources/
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/BitCollection+ChatIdentifier.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/IDSOffGridEncryptedMessage+Consolidation.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/IDSOffGridMessageContext+Lite.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/IMDChat+Lite.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/IMDService+Lite.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/IMIDSOffGrid.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/IMMessageItem+Lite.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/IMMessageItem+LiteBlastDoor.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/IMMessageItem+LiteRelaySerialization.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/IMMessageItem+LiteSerialization.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/IMMessageItem+MessageSummaryInfo.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessage.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageAcknowledgement.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageContent.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageContext.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageEffect.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageHeader.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageReceiveError.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageSegmentStore.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageSegmentStoreMigrationPlan.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageSegmentStoreSchemaV1.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageSendError.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+Blocking.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+Chats.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+Connectivity.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+Continuity.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+Donations.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+Downgrade.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+Fetch.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+FirstUnlock.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+IDSOffGridMessengerDelegate.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+LiteDeliveryReceipt.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+Logging.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+Messages.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+Receiving.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+RelayReceiving.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+RelaySending.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+Sending.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+ServiceForSending.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageType.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteOutgoingMessageContext.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteRelayMessage.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteRelayMessageContent.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteRelayMessageHeader.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteRelayMessageType.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteTopic.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/Logger+iMessageLite.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/NSAttributedString+MessageBody.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/String+LiteSerialization.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/TimeInterval+Downgrade.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/iMessageLite.swiftmodule
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/iMessageLite_vers.o
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLiteCore.build/Objects-normal/arm64e/iMessageLiteCore.swiftmodule
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Sources/MessagesCore/IMServices/Satellite/
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Sources/MessagesCore/IMServices/Satellite/Relay/
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Sources/MessagesCore/IMServices/Satellite/iMessageLiteCore/Extensions/
++ /Library/Caches/com.apple.xbs/C59F1F7E-B63D-4392-8655-00BC45C2C68C/TemporaryDirectory.NA0Fpt/Sources/MessagesCore/IMServices/Satellite/iMessageLiteCore/Types/
++ _$s10Foundation4UUIDVACSQAAWL
++ _$s10Foundation4UUIDVACSQAAWl
++ _$s10Foundation4UUIDVSQAAMc
++ _$s10Foundation4UUIDVSgWOc
++ _$s10Foundation4UUIDVSg_ADtMR
++ _$s10Foundation4UUIDVSg_ADtMd
++ _$sSo10IMDAccountCMaTm
++ _$sSo25LiteMessageServiceSessionC01ibA0E09sendRelayB033_4B2298B3AA0C6AF99CEFB0F94E835066LL_6toChat5style7commandySo13IMMessageItemC_SSSo11IMChatStyleVSo12IDSCommandIDVtFyyYaYbcfU_TQ0_
++ _$sSo25LiteMessageServiceSessionC01ibA0E09sendRelayB033_4B2298B3AA0C6AF99CEFB0F94E835066LL_6toChat5style7commandySo13IMMessageItemC_SSSo11IMChatStyleVSo12IDSCommandIDVtFyyYaYbcfU_TY1_
++ _$sSr13_mergeTopRuns_6buffer2bySbSaySnySiGGz_SpyxGSbx_xtKXEtKFSo7IMDChatC_Tg505$sSo7F54C12iMessageLiteE17bestSendingHandleSSSgvgSbAB_ABtXEfU_Tf1nncn_n
++ _$ss15ContiguousArrayV28_allocateBufferUninitialized15minimumCapacitys01_abD0VyxGSi_tFZ
++ _$ss5SliceV32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlFSRyxGq_s5Error_pRi_zRi0_zRi__Ri0__r0_lys5UInt8Vqd__Isgyrzo_ABySS8UTF8ViewVGADsAI_pAMRszr__lIetMggrzo_Tpq5s6UInt64VSg_Tg5061$ss17FixedWidthIntegerPsE_5radixxSgqd___SitcSyRd__lufcADSRys5i9VGXEfU_s6L21V_SsTG5SiTf3nnpSi10_nTf1cn_n
++ _$ss5SliceV32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlFqd__AGKXEfU_SRys5UInt8VGABySS8UTF8ViewVGSRyxGq_s5Error_pRi_zRi0_zRi__Ri0__r0_lyAIqd__Isgyrzo_qd__sAO_pALRszr__lIetyggrzo_Tpq5s6UInt64VSg_Tg5061$ss17FixedWidthIntegerPsE_5radixxSgqd___SitcSyRd__lufcADSRys5h9VGXEfU_s6L21V_SsTG5SiTf3nnpSi10_nTf1nnc_nTf4xn_n
++ _OUTLINED_FUNCTION_0
++ ___swift_assign_boxed_opaque_existential_1
++ _objc_msgSend$CNContactID
++ _objc_msgSend$ID
++ _objc_msgSend$_FTCopyGzippedData
++ _objc_msgSend$__im_donateHandlesForMessagingKeys:fromURI:priority:isInitial:completion:
++ _objc_msgSend$__im_encryptionKeyID
++ _objc_msgSend$__im_sendRelayDeliveryReceiptForMessageID:senderURI:options:topLevelFields:completion:
++ _objc_msgSend$__im_sendServiceUpdateMessageWithPreferredService:recipientURI:fromURI:options:completion:
++ _objc_msgSend$__im_subscriptionContextForPhoneNumber:
++ _objc_msgSend$__im_underlyingCommand
++ _objc_msgSend$__swift_objectForKeyedSubscript:
++ _objc_msgSend$_markFromStorageIfNeeded:messageGUID:
++ _objc_msgSend$_stripFZIDPrefix
++ _objc_msgSend$account
++ _objc_msgSend$account:chat:style:messageUpdated:suppressNotification:
++ _objc_msgSend$accountID
++ _objc_msgSend$accountsForService:
++ _objc_msgSend$addListener:
++ _objc_msgSend$addObserver:
++ _objc_msgSend$addObserver:selector:name:object:
++ _objc_msgSend$aliases
++ _objc_msgSend$allChatsWithIdentifier:style:serviceNames:
++ _objc_msgSend$allExistingChatsWithIdentifier:
++ _objc_msgSend$anySessionForServiceName:
++ _objc_msgSend$appendString:
++ _objc_msgSend$archivedDataWithRootObject:requiringSecureCoding:error:
++ _objc_msgSend$associatedMessageGUID
++ _objc_msgSend$balloonBundleID
++ _objc_msgSend$batchShareOffGridModeToHandleIDs:fromHandleID:isContact:completion:
++ _objc_msgSend$bestGuessTransportType
++ _objc_msgSend$bodyData
++ _objc_msgSend$boolValue
++ _objc_msgSend$broadcasterForChatListeners
++ _objc_msgSend$bundleForClass:
++ _objc_msgSend$bytesSavedWithTextCompression
++ _objc_msgSend$cachedChats
++ _objc_msgSend$cachedOffGridMode
++ _objc_msgSend$cachedOffGridModeAndLastPublisherWithCompletion:
++ _objc_msgSend$canonicalFormOfID:
++ _objc_msgSend$chatForChatIdentifier:style:
++ _objc_msgSend$chatForChatIdentifier:style:updatingAccount:
++ _objc_msgSend$chatForItemWithGUID:
++ _objc_msgSend$chatProperties
++ _objc_msgSend$clearDowngradeRequestForHandleID:
++ _objc_msgSend$cloudKitChatID
++ _objc_msgSend$code
++ _objc_msgSend$context
++ _objc_msgSend$copyWithFlags:
++ _objc_msgSend$ctSubscriptionInfo
++ _objc_msgSend$data
++ _objc_msgSend$date
++ _objc_msgSend$decryptOffGridMessage:completion:
++ _objc_msgSend$defaultCenter
++ _objc_msgSend$defaultManager
++ _objc_msgSend$deleteExistingMessageAwaitingReplacementWithFallbackHash:chatIdentifier:
++ _objc_msgSend$deleteMessageGUIDs:
++ _objc_msgSend$description
++ _objc_msgSend$destinationCallerID
++ _objc_msgSend$didJoinChat:style:displayName:groupID:lastAddressedHandle:lastAddressedSIMID:handleInfo:
++ _objc_msgSend$didReceiveMessage:forChat:style:fromIDSID:
++ _objc_msgSend$didReceiveMessageDeliveryReceiptForMessageID:date:
++ _objc_msgSend$didSendMessage:forChat:style:
++ _objc_msgSend$didSendMessage:forChat:style:forceDate:
++ _objc_msgSend$doubleValue
++ _objc_msgSend$downgradeRequestedForHandleID:expirationDate:preferredService:
++ _objc_msgSend$emergencyContactHandles
++ _objc_msgSend$encryptOffGridMessage:completion:
++ _objc_msgSend$encryptionProperties
++ _objc_msgSend$errorCode
++ _objc_msgSend$existingChatWithGUID:
++ _objc_msgSend$existingiMessageChatForID:
++ _objc_msgSend$expirationDate
++ _objc_msgSend$expressiveSendStyleID
++ _objc_msgSend$fallbackHash
++ _objc_msgSend$familyHandlesWithCompletion:
++ _objc_msgSend$fetchDataForKey:completionHandler:
++ _objc_msgSend$fileTransferGUIDs
++ _objc_msgSend$flags
++ _objc_msgSend$forceAutoBugCaptureWithSubType:errorPayload:
++ _objc_msgSend$forceAutoBugCaptureWithSubType:errorPayload:type:context:metadata:
++ _objc_msgSend$getBoolFromDomain:forKey:
++ _objc_msgSend$guid
++ _objc_msgSend$handle
++ _objc_msgSend$handleIDs
++ _objc_msgSend$hasUsableSenderKey
++ _objc_msgSend$identifier
++ _objc_msgSend$immediatelyReachable
++ _objc_msgSend$init
++ _objc_msgSend$initForReadingFromData:error:
++ _objc_msgSend$initWithAccount:service:replicatingForSession:
++ _objc_msgSend$initWithContent:
++ _objc_msgSend$initWithHandleID:service:isReachable:supportsEncryption:
++ _objc_msgSend$initWithLimit:timeLimit:
++ _objc_msgSend$initWithMessage:senderURI:recipientURI:
++ _objc_msgSend$initWithMessageItem:
++ _objc_msgSend$initWithPrefixedURI:
++ _objc_msgSend$initWithSegments:
++ _objc_msgSend$initWithService:error:handleResults:isFinal:allAreReachable:allSupportEncryption:didCheckServer:
++ _objc_msgSend$initWithServiceType:queue:error:
++ _objc_msgSend$initWithUnprefixedURI:
++ _objc_msgSend$integerValue
++ _objc_msgSend$internalName
++ _objc_msgSend$isAssociatedMessageItem
++ _objc_msgSend$isDelivered
++ _objc_msgSend$isEmergencyNumber
++ _objc_msgSend$isFromMe
++ _objc_msgSend$isInternalInstall
++ _objc_msgSend$isLiteMessageActiveOverSatellite
++ _objc_msgSend$isNewerThan:
++ _objc_msgSend$isOffGridModeWithCompletion:
++ _objc_msgSend$isOneChatEnabled
++ _objc_msgSend$isReply
++ _objc_msgSend$isSatelliteConnectionActive
++ _objc_msgSend$isSatelliteContinuityEnabled
++ _objc_msgSend$isSatelliteMessageRetry
++ _objc_msgSend$isSetupComplete
++ _objc_msgSend$isUnderFirstDataProtectionLock
++ _objc_msgSend$itemWithGUID:
++ _objc_msgSend$joinChat:handleInfo:style:groupID:joinProperties:
++ _objc_msgSend$joinChat:handleInfo:style:groupID:lastAddressedHandle:lastAddressedSIMID:joinProperties:
++ _objc_msgSend$labelID
++ _objc_msgSend$lastAddressedLocalHandle
++ _objc_msgSend$lastAddressedSIMID
++ _objc_msgSend$lastMessage
++ _objc_msgSend$lastMessageForChatWithRowID:
++ _objc_msgSend$lastMessageWithHandles:onServices:
++ _objc_msgSend$legacyMetricSubmissionsDisabled
++ _objc_msgSend$loginID
++ _objc_msgSend$longLongValue
++ _objc_msgSend$markItemForOffGridRelay:inChat:
++ _objc_msgSend$message
++ _objc_msgSend$messageItemWithLiteIdentifier:liteData:senderID:date:error:
++ _objc_msgSend$messageItemWithLiteRelayIdentifier:liteRelayData:date:error:
++ _objc_msgSend$messenger:incomingMessage:context:clientErrorAcknowledgementBlock:
++ _objc_msgSend$myCTPhoneNumber
++ _objc_msgSend$networkMonitor
++ _objc_msgSend$noteItem:
++ _objc_msgSend$notifyDidSendMessageID:account:shouldNotify:
++ _objc_msgSend$objectForKey:
++ _objc_msgSend$offGridStateManager
++ _objc_msgSend$originalServiceName
++ _objc_msgSend$participants
++ _objc_msgSend$payloadData
++ _objc_msgSend$pendingCount
++ _objc_msgSend$pendingCounts
++ _objc_msgSend$pendingIncomingSatelliteMessageCount
++ _objc_msgSend$pendingTotalCount
++ _objc_msgSend$pluginBundleID
++ _objc_msgSend$preferredServiceType
++ _objc_msgSend$prefixedURI
++ _objc_msgSend$processMessageForSending:toChat:style:allowWatchdog:completionBlock:
++ _objc_msgSend$publishStatus
++ _objc_msgSend$ratchetCounter
++ _objc_msgSend$reachabilityRequest:updatedWithResult:
++ _objc_msgSend$reassignIdentifierForExistingMessageWithGUID:toNewGUID:
++ _objc_msgSend$recipient
++ _objc_msgSend$recipientURI
++ _objc_msgSend$registeredSIMIDs
++ _objc_msgSend$relayLegacySatelliteMessage:toChat:localWatchOnly:
++ _objc_msgSend$removeItemAtPath:error:
++ _objc_msgSend$respondsToSelector:
++ _objc_msgSend$resultsForDestinationURIs:senderURI:options:completion:
++ _objc_msgSend$rowID
++ _objc_msgSend$scheduleType
++ _objc_msgSend$segmentNumber
++ _objc_msgSend$sendCrossServiceAssociationMessageWithReplacementGUID:messageGUID:callerID:toID:
++ _objc_msgSend$sendDataToPeers:forcedCallerID:shouldFilterRecepients:requestProxySend:dontSendTo:
++ _objc_msgSend$sendEncryptedOffGridMessage:options:completion:
++ _objc_msgSend$sendFetchRequestForHandles:completions:
++ _objc_msgSend$sendMessage:toChat:style:
++ _objc_msgSend$sendRelayDeliveryReceiptForMessageID:toChat:
++ _objc_msgSend$senderLastAddressedHandle
++ _objc_msgSend$senderURI
++ _objc_msgSend$sentDowngradeRequestToHandleID:fromID:
++ _objc_msgSend$service
++ _objc_msgSend$serviceName
++ _objc_msgSend$serviceProperties
++ _objc_msgSend$serviceSwitchRequestReceivedForChatWithIdentifier:
++ _objc_msgSend$serviceType
++ _objc_msgSend$session
++ _objc_msgSend$setAccountID:
++ _objc_msgSend$setBytesSavedWithTextCompression:
++ _objc_msgSend$setCommand:
++ _objc_msgSend$setDelegate:
++ _objc_msgSend$setDestinationCallerID:
++ _objc_msgSend$setErrorCode:
++ _objc_msgSend$setFallbackHash:
++ _objc_msgSend$setFlags:
++ _objc_msgSend$setGuid:
++ _objc_msgSend$setIsPendingSatelliteSend:
++ _objc_msgSend$setMessageErrorDescription:
++ _objc_msgSend$setMessageLatency:
++ _objc_msgSend$setNeedsRelay:
++ _objc_msgSend$setOffGridMode:options:completion:
++ _objc_msgSend$setOriginalGUID:
++ _objc_msgSend$setSender:
++ _objc_msgSend$setTextCompressionCodecID:
++ _objc_msgSend$setTransportType:
++ _objc_msgSend$setWasDowngradedToLiteMessage:
++ _objc_msgSend$sharedCompressor
++ _objc_msgSend$sharedController
++ _objc_msgSend$sharedDaemon
++ _objc_msgSend$sharedFeatureFlags
++ _objc_msgSend$sharedInstanceForBagType:
++ _objc_msgSend$sharedManager
++ _objc_msgSend$splitMessageIntoMessagesThatFit
++ _objc_msgSend$status
++ _objc_msgSend$storeChat:
++ _objc_msgSend$storeData:forKey:
++ _objc_msgSend$storeMessage:forceReplace:modifyError:modifyFlags:flagMask:
++ _objc_msgSend$string
++ _objc_msgSend$stringForFZErrorType:
++ _objc_msgSend$style
++ _objc_msgSend$submit
++ _objc_msgSend$synchronousDatabase
++ _objc_msgSend$textCompressionCodecID
++ _objc_msgSend$threadIdentifier
++ _objc_msgSend$time
++ _objc_msgSend$totalPendingMessagesCount
++ _objc_msgSend$totalSegments
++ _objc_msgSend$trackEvent:withDictionary:
++ _objc_msgSend$trackSentMessageEventOfType:subtype:originalServiceName:messageSize:sendDuration:receiverType:receiverGroupType:wasSuccessful:isEmergencyNumber:isPartiallyActiveSIM:error:
++ _objc_msgSend$transportType
++ _objc_msgSend$type
++ _objc_msgSend$underLimitForItem:
++ _objc_msgSend$unifiedMetricForIncomingMessage:inChat:transportType:
++ _objc_msgSend$unifiedMetricForOutgoingMessage:inChat:transportType:
++ _objc_msgSend$unprefixedURI
++ _objc_msgSend$updateBadgeForPendingSatelliteMessagesIfNeeded:onService:
++ _objc_msgSend$updateIsDownloadingPendingSatelliteMessages:
++ _objc_msgSend$updateLastAddressedHandle:forceUpdate:
++ _objc_msgSend$updateLastAddressedSIMID:
++ _objc_msgSend$updatePendingIncomingSatelliteMessageCount:
++ _objc_msgSend$updateProperties:
++ _objc_msgSend$updateProperties:shouldBroadcast:
++ _objc_msgSend$url
++ _objc_msgSend$wasDowngradedToLiteMessage
++ _objc_msgSend$writeDataPayloadToDisk:fileName:
++ _symbolic _____Sg_ABt 10Foundation4UUIDV
++ block_copy_helper.13
++ block_copy_helper.32
++ block_copy_helper.39
++ block_copy_helper.64
++ block_descriptor.15
++ block_descriptor.34
++ block_descriptor.41
++ block_descriptor.66
++ block_destroy_helper.14
++ block_destroy_helper.33
++ block_destroy_helper.40
++ block_destroy_helper.65
++ objectdestroy.31Tm
+- $sSo25LiteMessageServiceSessionC01ibA0E09sendRelayB033_4B2298B3AA0C6AF99CEFB0F94E835066LL_6toChat5style7commandySo13IMMessageItemC_SSSo11IMChatStyleVSo12IDSCommandIDVtFyyYaYbcfU_TA.72
+- $sSo25LiteMessageServiceSessionC01ibA0E09sendRelayB033_4B2298B3AA0C6AF99CEFB0F94E835066LL_6toChat5style7commandySo13IMMessageItemC_SSSo11IMChatStyleVSo12IDSCommandIDVtFyyYaYbcfU_TA.72TQ0_
+- $sSo25LiteMessageServiceSessionC01ibA0E09sendRelayB033_4B2298B3AA0C6AF99CEFB0F94E835066LL_6toChat5style7commandySo13IMMessageItemC_SSSo11IMChatStyleVSo12IDSCommandIDVtFyyYaYbcfU_TA.72Tu
+- $sSo25LiteMessageServiceSessionC01ibA0E21calculateReachability4with15responseHandlerySo09IMServiceF7RequestC_So0jf8ResponseI0_ptFyyYacfU_TA.12
+- $sSo25LiteMessageServiceSessionC01ibA0E21calculateReachability4with15responseHandlerySo09IMServiceF7RequestC_So0jf8ResponseI0_ptFyyYacfU_TA.12TQ0_
+- $sSo25LiteMessageServiceSessionC01ibA0E21calculateReachability4with15responseHandlerySo09IMServiceF7RequestC_So0jf8ResponseI0_ptFyyYacfU_TA.12Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.21
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.21TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.21Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.60
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.60TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.60Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tgq5TA.44
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tgq5TA.44TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tgq5TA.44Tu
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/Symbols/BuiltProducts/libiMessageLiteCore.a(BitCollection+MessageContent.o)
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/Symbols/BuiltProducts/libiMessageLiteCore.a(BitCollection.o)
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/Symbols/BuiltProducts/libiMessageLiteCore.a(BitMessage+MessageContent.o)
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/Symbols/BuiltProducts/libiMessageLiteCore.a(BitMessage.o)
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/Symbols/BuiltProducts/libiMessageLiteCore.a(BitMessagePackable.o)
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/Symbols/BuiltProducts/libiMessageLiteCore.a(Data+Lite.o)
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/DerivedSources/
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/BitCollection+ChatIdentifier.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/IDSOffGridEncryptedMessage+Consolidation.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/IDSOffGridMessageContext+Lite.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/IMDChat+Lite.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/IMDService+Lite.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/IMIDSOffGrid.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/IMMessageItem+Lite.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/IMMessageItem+LiteBlastDoor.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/IMMessageItem+LiteRelaySerialization.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/IMMessageItem+LiteSerialization.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/IMMessageItem+MessageSummaryInfo.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessage.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageAcknowledgement.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageContent.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageContext.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageEffect.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageHeader.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageReceiveError.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageSegmentStore.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageSegmentStoreMigrationPlan.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageSegmentStoreSchemaV1.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageSendError.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+Blocking.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+Chats.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+Connectivity.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+Continuity.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+Donations.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+Downgrade.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+Fetch.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+FirstUnlock.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+IDSOffGridMessengerDelegate.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+LiteDeliveryReceipt.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+Logging.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+Messages.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+Receiving.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+RelayReceiving.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+RelaySending.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+Sending.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession+ServiceForSending.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageServiceSession.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteMessageType.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteOutgoingMessageContext.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteRelayMessage.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteRelayMessageContent.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteRelayMessageHeader.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteRelayMessageType.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/LiteTopic.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/Logger+iMessageLite.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/NSAttributedString+MessageBody.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/String+LiteSerialization.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/TimeInterval+Downgrade.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/iMessageLite.swiftmodule
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLite.build/Objects-normal/arm64e/iMessageLite_vers.o
+- /Library/Caches/com.apple.xbs/Binaries/MessagesCore/install/TempContent/Objects/iMessageLite.build/iMessageLiteCore.build/Objects-normal/arm64e/iMessageLiteCore.swiftmodule
+- /Library/Caches/com.apple.xbs/Sources/MessagesCore/IMServices/Satellite/
+- /Library/Caches/com.apple.xbs/Sources/MessagesCore/IMServices/Satellite/Relay/
+- /Library/Caches/com.apple.xbs/Sources/MessagesCore/IMServices/Satellite/iMessageLiteCore/Extensions/
+- /Library/Caches/com.apple.xbs/Sources/MessagesCore/IMServices/Satellite/iMessageLiteCore/Types/
+- _$s12iMessageLite0bA15AcknowledgementOACSYAAWL
+- _$s12iMessageLite0bA15AcknowledgementOACSYAAWl
+- _$s9SwiftData07BackingB0_p12iMessageLite0eD20SegmentStoreSchemaV1O0edF0C5ModelAaBPRts_XPWOb
+- _$sSTsE8contains5whereS2b7ElementQzKXE_tKFSaySSG_Tg5
+- _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA
+- _$sSY8rawValue03RawB0QzvgTj
+- _$sSa22_copyToContiguousArrays0cD0VyxGyFSo7IMDChatC_Tg5
+- _$sSa28_allocateBufferUninitialized15minimumCapacitys06_ArrayB0VyxGSi_tFZ
+- _$sSo25IMCTSubscriptionUtilitiesC12iMessageLiteE5simID016_32D7E54AC8E5E75J15D598DED3A81AB4FLL3forSSSgSS_tF
+- _$sSo25LiteMessageServiceSessionC01ibA0E09sendRelayB033_4B2298B3AA0C6AF99CEFB0F94E835066LL_6toChat5style7commandySo13IMMessageItemC_SSSo11IMChatStyleVSo12IDSCommandIDVtFyyYaYbcfU_TQ1_
+- _$sSo25LiteMessageServiceSessionC01ibA0E09sendRelayB033_4B2298B3AA0C6AF99CEFB0F94E835066LL_6toChat5style7commandySo13IMMessageItemC_SSSo11IMChatStyleVSo12IDSCommandIDVtFyyYaYbcfU_TY0_
+- _$sSo25LiteMessageServiceSessionC01ibA0E09sendRelayB033_4B2298B3AA0C6AF99CEFB0F94E835066LL_6toChat5style7commandySo13IMMessageItemC_SSSo11IMChatStyleVSo12IDSCommandIDVtFyyYaYbcfU_TY3_
+- _$sSo25LiteMessageServiceSessionC01ibA0E27isSatelliteConnectionActiveSbvgTm
+- _$sSo26IDSOffGridEncryptedMessageC01iD4LiteE07pendingD14CountForHandleSivgTm
+- _$sSo26IDSOffGridEncryptedMessageC01iD4LiteE13segmentNumberSivgTm
+- _$sSo26IDSOffGridEncryptedMessageCMaTm
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSnySiG_Tg5
+- _$ss5SliceV32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlFSRyxGq_s5Error_pRi_zRi0_zRi__Ri0__r0_lys5UInt8Vqd__Isgyrzo_ABySS8UTF8ViewVGADsAI_pAMRszr__lIetMggrzo_Tpq5s6UInt64VSg_Tg5061$ss17FixedWidthIntegerPsE_5radixxSgqd___SitcSyRd__lufcADSRys5i9VGXEfU_s6L7V_SsTG5SiTf1cn_n
+- _$ss5SliceV32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlFqd__AGKXEfU_SRys5UInt8VGABySS8UTF8ViewVGSRyxGq_s5Error_pRi_zRi0_zRi__Ri0__r0_lyAIqd__Isgyrzo_qd__sAO_pALRszr__lIetyggrzo_Tpq5s6UInt64VSg_Tg5061$ss17FixedWidthIntegerPsE_5radixxSgqd___SitcSyRd__lufcADSRys5h9VGXEfU_s6L7V_SsTG5SiTf1nnc_nTf4xnn_n
+- _malloc
+- _objc_claimAutoreleasedReturnValue
+- _objc_retainAutorelease
+- _objc_retain_x1
+- _objc_retain_x3
+- block_copy_helper.31
+- block_copy_helper.38
+- block_copy_helper.63
+- block_descriptor.33
+- block_descriptor.40
+- block_descriptor.65
+- block_destroy_helper.32
+- block_destroy_helper.39
+- block_destroy_helper.64
+- objectdestroy.30Tm
+
+```

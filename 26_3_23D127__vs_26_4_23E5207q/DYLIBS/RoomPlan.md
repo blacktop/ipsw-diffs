@@ -1,0 +1,823 @@
+## RoomPlan
+
+> `/System/Library/Frameworks/RoomPlan.framework/RoomPlan`
+
+```diff
+
+-2.16.0.0.0
+-  __TEXT.__text: 0x155600
+-  __TEXT.__auth_stubs: 0x3230
++2.16.2.0.0
++  __TEXT.__text: 0x150e4c
++  __TEXT.__auth_stubs: 0x3240
+   __TEXT.__objc_methlist: 0x2090
+-  __TEXT.__const: 0xbd34
++  __TEXT.__const: 0xbe24
+   __TEXT.__gcc_except_tab: 0xac
+-  __TEXT.__cstring: 0x8077
+-  __TEXT.__constg_swiftt: 0x8d60
+-  __TEXT.__swift5_typeref: 0x372a
++  __TEXT.__cstring: 0x42b5
++  __TEXT.__constg_swiftt: 0x8d6c
++  __TEXT.__swift5_typeref: 0x36b6
+   __TEXT.__swift5_reflstr: 0x51ac
+   __TEXT.__swift5_fieldmd: 0x5388
+   __TEXT.__swift5_builtin: 0x1f4
+   __TEXT.__swift5_assocty: 0x7b0
+-  __TEXT.__swift5_proto: 0x81c
++  __TEXT.__swift5_proto: 0x838
+   __TEXT.__swift5_types: 0x48c
+-  __TEXT.__swift5_capture: 0xa4c
++  __TEXT.__swift5_capture: 0xa54
+   __TEXT.__oslogstring: 0xdb8
+   __TEXT.__swift5_protos: 0x84
+   __TEXT.__swift5_mpenum: 0x20
+   __TEXT.__swift_as_entry: 0x10
+   __TEXT.__swift_as_ret: 0x10
+-  __TEXT.__unwind_info: 0x36b0
+-  __TEXT.__eh_frame: 0x3044
+-  __TEXT.__objc_classname: 0x1da
+-  __TEXT.__objc_methname: 0x552d
+-  __TEXT.__objc_methtype: 0x2a55
+-  __TEXT.__objc_stubs: 0x180
+-  __DATA_CONST.__got: 0xa48
+-  __DATA_CONST.__const: 0x6a8
++  __TEXT.__unwind_info: 0x3580
++  __TEXT.__eh_frame: 0x2c60
++  __TEXT.__objc_classname: 0x1687
++  __TEXT.__objc_methname: 0xa265
++  __TEXT.__objc_methtype: 0x2f3f
++  __TEXT.__objc_stubs: 0x3ae0
++  __DATA_CONST.__got: 0xa68
++  __DATA_CONST.__const: 0x688
+   __DATA_CONST.__objc_classlist: 0x3c0
+   __DATA_CONST.__objc_protolist: 0x1b0
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x1a58
+   __DATA_CONST.__objc_protorefs: 0xd8
+   __DATA_CONST.__objc_superrefs: 0x18
+-  __AUTH_CONST.__auth_got: 0x1928
+-  __AUTH_CONST.__const: 0x8a88
++  __AUTH_CONST.__auth_got: 0x1930
++  __AUTH_CONST.__const: 0x8670
+   __AUTH_CONST.__objc_const: 0x1e130
+   __AUTH.__objc_data: 0x2710
+-  __AUTH.__data: 0x9430
++  __AUTH.__data: 0x9420
+   __DATA.__objc_ivar: 0x48
+-  __DATA.__data: 0x3500
+-  __DATA.__bss: 0xec10
+-  __DATA.__common: 0x768
++  __DATA.__data: 0x3510
++  __DATA.__bss: 0xef90
++  __DATA.__common: 0x770
+   - /System/Library/Frameworks/ARKit.framework/ARKit
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/ObjectUnderstanding.framework/ObjectUnderstanding
+   - /System/Library/PrivateFrameworks/RoomScanCore.framework/RoomScanCore
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+-  - /System/Library/PrivateFrameworks/USDKit.framework/USDKit
++  - /System/Library/PrivateFrameworks/USDObjCKit.framework/USDObjCKit
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+
+   - /usr/lib/swift/libswiftARKit.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+-  - /usr/lib/swift/libswiftAppleArchive.dylib
+   - /usr/lib/swift/libswiftCallKit.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+-  - /usr/lib/swift/libswiftCoreAudio_Private.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+
+   - /usr/lib/swift/libswiftGLKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+-  - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftMetalKit.dylib
+   - /usr/lib/swift/libswiftModelIO.dylib
+-  - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftPassKit.dylib
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D528B42D-352A-3808-8143-5DE6FA7F52CB
+-  Functions: 5809
+-  Symbols:   3729
+-  CStrings:  2521
++  UUID: C7A24E1E-4BEE-38A7-AD91-3B26CEF1B150
++  Functions: 5745
++  Symbols:   4185
++  CStrings:  2495
+ 
+Symbols:
++ _RECustomMatrixCameraComponentSetRenderProjectionMatrix
++ __ZNSt12length_errorC1B9foe210106EPKc
++ __ZNSt3__111__sift_downB9foe210106INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEvT1_OT0_NS_15iterator_traitsISH_E15difference_typeESH_
++ __ZNSt3__113__tree_removeB9foe210106IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__115__adjacent_findB9foe210106INS_11__wrap_iterIPN5boost7polygon6detail10site_eventIiEEEES8_NS_10__equal_toENS_10__identityEEET_SB_T0_RT1_RT2_
++ __ZNSt3__116__insertion_sortB9foe210106INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEvT1_SH_T0_
++ __ZNSt3__117__floyd_sift_downB9foe210106INS_17_ClassicAlgPolicyERN5boost7polygon15voronoi_builderIiNS3_6detail20voronoi_ctype_traitsIiEENS5_18voronoi_predicatesIS7_EEE20end_point_comparisonENS_11__wrap_iterIPNS_4pairINS5_8point_2dIiEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS5_19beach_line_node_keyINS5_10site_eventIiEEEENS5_20beach_line_node_dataIvNS5_12circle_eventIdEEEEEEPNS_11__tree_nodeISS_PvEElEEEEEEEEEET1_S12_OT0_NS_15iterator_traitsIS12_E15difference_typeE
++ __ZNSt3__117__floyd_sift_downB9foe210106INS_17_ClassicAlgPolicyERN5boost7polygon6detail13ordered_queueINS_4pairINS4_12circle_eventIdEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS4_19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvS8_EEEEPNS_11__tree_nodeISI_PvEElEEEEEENS3_15voronoi_builderIiNS4_20voronoi_ctype_traitsIiEENS4_18voronoi_predicatesISS_EEE21event_comparison_typeEE10comparisonENS_11__wrap_iterIPNS_15__list_iteratorISP_SK_EEEEEET1_S15_OT0_NS_15iterator_traitsIS15_E15difference_typeE
++ __ZNSt3__117__floyd_sift_downB9foe210106INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EET1_SH_OT0_NS_15iterator_traitsISH_E15difference_typeE
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorI10PointInt64EEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN5boost7polygon12voronoi_cellIdEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN5boost7polygon12voronoi_edgeIdEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN5boost7polygon14voronoi_vertexIdEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN5boost7polygon6detail10site_eventIiEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_15__list_iteratorINS_4pairIN5boost7polygon6detail12circle_eventIdEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS6_19beach_line_node_keyINS6_10site_eventIiEEEENS6_20beach_line_node_dataIvS8_EEEEPNS_11__tree_nodeISI_PvEElEEEEEESK_EEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSU_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_4pairIN5boost7polygon6detail8point_2dIiEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS5_19beach_line_node_keyINS5_10site_eventIiEEEENS5_20beach_line_node_dataIvNS5_12circle_eventIdEEEEEEPNS_11__tree_nodeISJ_PvEElEEEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSU_m
++ __ZNSt3__119__partial_sort_implB9foe210106INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_SG_EET1_SH_SH_T2_OT0_
++ __ZNSt3__120__throw_length_errorB9foe210106EPKc
++ __ZNSt3__126__insertion_sort_unguardedB9foe210106INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEvT1_SH_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9foe210106INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEbT1_SH_T0_
++ __ZNSt3__127__tree_balance_after_insertB9foe210106IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__131__partition_with_equals_on_leftB9foe210106INS_17_ClassicAlgPolicyEPN5boost7polygon6detail10site_eventIiEERNS4_18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateIS6_NS4_12circle_eventIdEEEEEET0_SH_SH_T1_
++ __ZNSt3__132__internal_log_hardening_failureEPKc
++ __ZNSt3__132__partition_with_equals_on_rightB9foe210106INS_17_ClassicAlgPolicyEPN5boost7polygon6detail10site_eventIiEERNS4_18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateIS6_NS4_12circle_eventIdEEEEEENS_4pairIT0_bEESI_SI_T1_
++ __ZNSt3__14listINS_4pairIN5boost7polygon6detail12circle_eventIdEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS4_19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvS6_EEEEPNS_11__tree_nodeISG_PvEElEEEEEENS_9allocatorISN_EEE5eraseENS_21__list_const_iteratorISN_SI_EE
++ __ZNSt3__16__treeINS_12__value_typeIN5boost7polygon6detail19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvNS4_12circle_eventIdEEEEEENS_19__map_value_compareIS8_NS_4pairIKS8_SC_EENS4_18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE25node_comparison_predicateIS8_EELb0EEENS_9allocatorISH_EEE12__find_equalIS8_EERPNS_16__tree_node_baseIPvEENS_21__tree_const_iteratorISD_PNS_11__tree_nodeISD_SU_EElEERPNS_15__tree_end_nodeISW_EESX_RKT_
++ __ZNSt3__16__treeINS_12__value_typeIN5boost7polygon6detail19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvNS4_12circle_eventIdEEEEEENS_19__map_value_compareIS8_NS_4pairIKS8_SC_EENS4_18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE25node_comparison_predicateIS8_EELb0EEENS_9allocatorISH_EEE12__find_equalIS8_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISW_EERKT_
++ __ZNSt3__16__treeINS_12__value_typeIN5boost7polygon6detail19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvNS4_12circle_eventIdEEEEEENS_19__map_value_compareIS8_NS_4pairIKS8_SC_EENS4_18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE25node_comparison_predicateIS8_EELb0EEENS_9allocatorISH_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSW_SW_
++ __ZNSt3__16__treeINS_12__value_typeIN5boost7polygon6detail19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvNS4_12circle_eventIdEEEEEENS_19__map_value_compareIS8_NS_4pairIKS8_SC_EENS4_18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE25node_comparison_predicateIS8_EELb0EEENS_9allocatorISH_EEE21__remove_node_pointerEPNS_11__tree_nodeISD_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIN5boost7polygon6detail19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvNS4_12circle_eventIdEEEEEENS_19__map_value_compareIS8_NS_4pairIKS8_SC_EENS4_18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE25node_comparison_predicateIS8_EELb0EEENS_9allocatorISH_EEE30__emplace_hint_unique_key_argsIS8_JNSF_IS8_SC_EEEEENSF_INS_15__tree_iteratorISD_PNS_11__tree_nodeISD_PvEElEEbEENS_21__tree_const_iteratorISD_SY_lEERKT_DpOT0_
++ __ZNSt3__16__treeINS_12__value_typeIN5boost7polygon6detail19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvNS4_12circle_eventIdEEEEEENS_19__map_value_compareIS8_NS_4pairIKS8_SC_EENS4_18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE25node_comparison_predicateIS8_EELb0EEENS_9allocatorISH_EEE30__emplace_hint_unique_key_argsIS8_JSH_EEENSF_INS_15__tree_iteratorISD_PNS_11__tree_nodeISD_PvEElEEbEENS_21__tree_const_iteratorISD_SX_lEERKT_DpOT0_
++ __ZNSt3__16__treeINS_12__value_typeIN5boost7polygon6detail19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvNS4_12circle_eventIdEEEEEENS_19__map_value_compareIS8_NS_4pairIKS8_SC_EENS4_18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE25node_comparison_predicateIS8_EELb0EEENS_9allocatorISH_EEE7destroyEPNS_11__tree_nodeISD_PvEE
++ __ZNSt3__16vectorI10PointInt64NS_9allocatorIS1_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN5boost7polygon12voronoi_cellIdEENS_9allocatorIS4_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN5boost7polygon12voronoi_cellIdEENS_9allocatorIS4_EEE9push_backB9foe210106EOS4_
++ __ZNSt3__16vectorIN5boost7polygon12voronoi_edgeIdEENS_9allocatorIS4_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN5boost7polygon12voronoi_edgeIdEENS_9allocatorIS4_EEE5eraseENS_11__wrap_iterIPKS4_EESB_
++ __ZNSt3__16vectorIN5boost7polygon12voronoi_edgeIdEENS_9allocatorIS4_EEE9push_backB9foe210106EOS4_
++ __ZNSt3__16vectorIN5boost7polygon14voronoi_vertexIdEENS_9allocatorIS4_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN5boost7polygon14voronoi_vertexIdEENS_9allocatorIS4_EEE5eraseENS_11__wrap_iterIPKS4_EESB_
++ __ZNSt3__16vectorIN5boost7polygon6detail10site_eventIiEENS_9allocatorIS5_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN5boost7polygon6detail10site_eventIiEENS_9allocatorIS5_EEE5eraseENS_11__wrap_iterIPKS5_EESC_
++ __ZNSt3__16vectorINS_15__list_iteratorINS_4pairIN5boost7polygon6detail12circle_eventIdEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS5_19beach_line_node_keyINS5_10site_eventIiEEEENS5_20beach_line_node_dataIvS7_EEEEPNS_11__tree_nodeISH_PvEElEEEEEESJ_EENS_9allocatorISP_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorINS_4pairIN5boost7polygon6detail8point_2dIiEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS4_19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvNS4_12circle_eventIdEEEEEEPNS_11__tree_nodeISI_PvEElEEEEEENS_9allocatorISP_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__17__sort4B9foe210106INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_Li0EEEvT1_SH_SH_SH_T0_
++ __ZNSt3__18__uniqueB9foe210106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPN5boost7polygon6detail10site_eventIiEEEES9_RNS_10__equal_toEEENS_4pairIT0_SD_EESD_T1_OT2_
++ __ZNSt3__19__sift_upB9foe210106INS_17_ClassicAlgPolicyERN5boost7polygon15voronoi_builderIiNS3_6detail20voronoi_ctype_traitsIiEENS5_18voronoi_predicatesIS7_EEE20end_point_comparisonENS_11__wrap_iterIPNS_4pairINS5_8point_2dIiEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS5_19beach_line_node_keyINS5_10site_eventIiEEEENS5_20beach_line_node_dataIvNS5_12circle_eventIdEEEEEEPNS_11__tree_nodeISS_PvEElEEEEEEEEEEvT1_S12_OT0_NS_15iterator_traitsIS12_E15difference_typeE
++ __ZNSt3__19__sift_upB9foe210106INS_17_ClassicAlgPolicyERN5boost7polygon6detail13ordered_queueINS_4pairINS4_12circle_eventIdEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS4_19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvS8_EEEEPNS_11__tree_nodeISI_PvEElEEEEEENS3_15voronoi_builderIiNS4_20voronoi_ctype_traitsIiEENS4_18voronoi_predicatesISS_EEE21event_comparison_typeEE10comparisonENS_11__wrap_iterIPNS_15__list_iteratorISP_SK_EEEEEEvT1_S15_OT0_NS_15iterator_traitsIS15_E15difference_typeE
++ __ZNSt3__19__sift_upB9foe210106INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEvT1_SH_OT0_NS_15iterator_traitsISH_E15difference_typeE
++ __ZSt28__throw_bad_array_new_lengthB9foe210106v
++ _associated conformance So11CVBufferRefa14CoreFoundation9_CFObjectSCSH
++ _associated conformance So11CVBufferRefaSHSCSQ
++ _associated conformance So20CVPixelBufferPoolRefa14CoreFoundation9_CFObjectSCSH
++ _associated conformance So20CVPixelBufferPoolRefaSHSCSQ
++ _block_copy_helper.206
++ _block_copy_helper.216
++ _block_copy_helper.226
++ _block_copy_helper.275
++ _block_copy_helper.281
++ _block_copy_helper.287
++ _block_copy_helper.290
++ _block_copy_helper.293
++ _block_copy_helper.296
++ _block_copy_helper.299
++ _block_copy_helper.45
++ _block_copy_helper.49
++ _block_copy_helper.59
++ _block_descriptor.208
++ _block_descriptor.218
++ _block_descriptor.228
++ _block_descriptor.277
++ _block_descriptor.283
++ _block_descriptor.289
++ _block_descriptor.292
++ _block_descriptor.295
++ _block_descriptor.298
++ _block_descriptor.301
++ _block_descriptor.47
++ _block_descriptor.51
++ _block_descriptor.61
++ _block_destroy_helper.207
++ _block_destroy_helper.217
++ _block_destroy_helper.227
++ _block_destroy_helper.276
++ _block_destroy_helper.282
++ _block_destroy_helper.288
++ _block_destroy_helper.291
++ _block_destroy_helper.294
++ _block_destroy_helper.297
++ _block_destroy_helper.300
++ _block_destroy_helper.46
++ _block_destroy_helper.50
++ _block_destroy_helper.60
++ _objc_msgSend$CGColor
++ _objc_msgSend$CGImage
++ _objc_msgSend$__swift_objectForKeyedSubscript:
++ _objc_msgSend$__swift_setObject:forKeyedSubscript:
++ _objc_msgSend$_addObserver:
++ _objc_msgSend$activateConstraints:
++ _objc_msgSend$activeVideoMaxFrameDuration
++ _objc_msgSend$activeVideoMinFrameDuration
++ _objc_msgSend$addGestureRecognizer:
++ _objc_msgSend$addObserver:selector:name:object:
++ _objc_msgSend$addReferenceWithPath:nodePath:
++ _objc_msgSend$addSublayer:
++ _objc_msgSend$addSubview:
++ _objc_msgSend$addToRunLoop:forMode:
++ _objc_msgSend$alignment
++ _objc_msgSend$anchor
++ _objc_msgSend$animateKeyframesWithDuration:delay:options:animations:completion:
++ _objc_msgSend$animateWithDuration:animations:
++ _objc_msgSend$animateWithDuration:animations:completion:
++ _objc_msgSend$animateWithDuration:delay:options:animations:completion:
++ _objc_msgSend$archivedDataWithRootObject:requiringSecureCoding:error:
++ _objc_msgSend$attributes
++ _objc_msgSend$beautified_parts
++ _objc_msgSend$blackColor
++ _objc_msgSend$blitCommandEncoder
++ _objc_msgSend$blueColor
++ _objc_msgSend$boolValue
++ _objc_msgSend$bottomAnchor
++ _objc_msgSend$boundingBox
++ _objc_msgSend$bounds
++ _objc_msgSend$bundleForClass:
++ _objc_msgSend$bundleIdentifier
++ _objc_msgSend$camera
++ _objc_msgSend$cameraPose
++ _objc_msgSend$captureDevicePosition
++ _objc_msgSend$captureDeviceType
++ _objc_msgSend$capturedImage
++ _objc_msgSend$ceilingHeight
++ _objc_msgSend$centerXAnchor
++ _objc_msgSend$centerYAnchor
++ _objc_msgSend$circleCenter
++ _objc_msgSend$clearColor
++ _objc_msgSend$code
++ _objc_msgSend$color
++ _objc_msgSend$colorAttachments
++ _objc_msgSend$colorWithAlphaComponent:
++ _objc_msgSend$colors
++ _objc_msgSend$commandBuffer
++ _objc_msgSend$commit
++ _objc_msgSend$computeCommandEncoder
++ _objc_msgSend$computeTriangulation:
++ _objc_msgSend$confidence
++ _objc_msgSend$confidenceMap
++ _objc_msgSend$configurableCaptureDeviceForPrimaryCamera
++ _objc_msgSend$configuration
++ _objc_msgSend$constraintEqualToAnchor:
++ _objc_msgSend$constraintEqualToAnchor:constant:
++ _objc_msgSend$constraintEqualToConstant:
++ _objc_msgSend$constraintGreaterThanOrEqualToAnchor:
++ _objc_msgSend$constraintLessThanOrEqualToAnchor:
++ _objc_msgSend$constraints
++ _objc_msgSend$contentScaleFactor
++ _objc_msgSend$contents
++ _objc_msgSend$contentsScale
++ _objc_msgSend$copyFromTexture:toTexture:
++ _objc_msgSend$copyItemAtURL:toURL:error:
++ _objc_msgSend$corners_status
++ _objc_msgSend$count
++ _objc_msgSend$createDirectoryAtPath:withIntermediateDirectories:attributes:error:
++ _objc_msgSend$createDirectoryAtURL:withIntermediateDirectories:attributes:error:
++ _objc_msgSend$currentDevice
++ _objc_msgSend$currentFrame
++ _objc_msgSend$curvedDoors
++ _objc_msgSend$curvedWalls
++ _objc_msgSend$curvedWindows
++ _objc_msgSend$cyanColor
++ _objc_msgSend$dataWithPropertyList:format:options:error:
++ _objc_msgSend$decelerationDelta
++ _objc_msgSend$decodeBoolForKey:
++ _objc_msgSend$decodeObjectForKey:
++ _objc_msgSend$defaultCenter
++ _objc_msgSend$defaultManager
++ _objc_msgSend$degrees
++ _objc_msgSend$depthBuffer
++ _objc_msgSend$depthConfidenceBuffer
++ _objc_msgSend$depthMap
++ _objc_msgSend$device
++ _objc_msgSend$deviceOrientation
++ _objc_msgSend$dictionaryRepresentation
++ _objc_msgSend$dimensions
++ _objc_msgSend$dispatchThreadgroups:threadsPerThreadgroup:
++ _objc_msgSend$dispatchThreads:threadsPerThreadgroup:
++ _objc_msgSend$displayLinkWithTarget:selector:
++ _objc_msgSend$displayTransformForOrientation:viewportSize:
++ _objc_msgSend$doors
++ _objc_msgSend$drawIndexedPatches:patchStart:patchCount:patchIndexBuffer:patchIndexBufferOffset:controlPointIndexBuffer:controlPointIndexBufferOffset:instanceCount:baseInstance:
++ _objc_msgSend$drawPrimitives:vertexStart:vertexCount:
++ _objc_msgSend$edgeStates
++ _objc_msgSend$encodeBool:forKey:
++ _objc_msgSend$encodeObject:forKey:
++ _objc_msgSend$encodeReconstructionToCommandBuffer:guidanceTexture:coefficientsTexture:destinationTexture:
++ _objc_msgSend$encodeRegressionToCommandBuffer:sourceTexture:guidanceTexture:weightsTexture:destinationCoefficientsTexture:
++ _objc_msgSend$encodeToCommandBuffer:primaryTexture:inPlaceSecondaryTexture:fallbackCopyAllocator:
++ _objc_msgSend$encodeToCommandBuffer:sourceTexture:destinationTexture:
++ _objc_msgSend$endEncoding
++ _objc_msgSend$endOrientation
++ _objc_msgSend$fileExistsAtPath:
++ _objc_msgSend$finishRecordingWithHandler:
++ _objc_msgSend$first
++ _objc_msgSend$firstItem
++ _objc_msgSend$floatForKey:
++ _objc_msgSend$floorHeight
++ _objc_msgSend$floorPlan
++ _objc_msgSend$floors
++ _objc_msgSend$frame
++ _objc_msgSend$frameSemantics
++ _objc_msgSend$framesPerSecond
++ _objc_msgSend$generateOfflineObjects:onlineObjects:block:
++ _objc_msgSend$getDebugInfo
++ _objc_msgSend$getDimension:dim:
++ _objc_msgSend$getTransform:transform:
++ _objc_msgSend$greenColor
++ _objc_msgSend$hasDifferentColorAppearanceComparedToTraitCollection:
++ _objc_msgSend$height
++ _objc_msgSend$heightAnchor
++ _objc_msgSend$identifier
++ _objc_msgSend$imageNamed:inBundle:withConfiguration:
++ _objc_msgSend$imageResolution
++ _objc_msgSend$individualUpdate
++ _objc_msgSend$init
++ _objc_msgSend$init:
++ _objc_msgSend$initWithBaseConfiguration:fileURL:
++ _objc_msgSend$initWithBaseConfiguration:fileURL:replayMode:outError:
++ _objc_msgSend$initWithCoder:
++ _objc_msgSend$initWithConfiguration:
++ _objc_msgSend$initWithDevice:
++ _objc_msgSend$initWithDevice:kernelDiameter:
++ _objc_msgSend$initWithDevice:sigma:
++ _objc_msgSend$initWithDictionaryRepresentation:
++ _objc_msgSend$initWithDouble:
++ _objc_msgSend$initWithFrame:
++ _objc_msgSend$initWithInteger:
++ _objc_msgSend$initWithOrigin:direction:allowingTarget:alignment:
++ _objc_msgSend$initWithRed:green:blue:alpha:
++ _objc_msgSend$initWithResourcePath:
++ _objc_msgSend$initWithRubberBandFactor:minOffset:maxOffset:overshoot:
++ _objc_msgSend$initWithString:
++ _objc_msgSend$initWithString:attributes:
++ _objc_msgSend$initWithTarget:action:
++ _objc_msgSend$initWithToken:
++ _objc_msgSend$initWithURL:
++ _objc_msgSend$initWithVelocity:minEndDelta:decelerationRate:
++ _objc_msgSend$initWithVelocity:minEndDelta:startingOffset:decelerationRate:rubberBand:
++ _objc_msgSend$initWithVelocity:minEndDelta:startingOffset:minOffset:maxOffset:
++ _objc_msgSend$initWithframerate:enable3DOR:rgbRefinemnt:mlRefinement:
++ _objc_msgSend$insertSublayer:atIndex:
++ _objc_msgSend$insertSubview:atIndex:
++ _objc_msgSend$interfaceOrientation
++ _objc_msgSend$intrinsics
++ _objc_msgSend$invalidate
++ _objc_msgSend$label
++ _objc_msgSend$layer
++ _objc_msgSend$layoutIfNeeded
++ _objc_msgSend$layouts
++ _objc_msgSend$leadingAnchor
++ _objc_msgSend$leftAnchor
++ _objc_msgSend$length
++ _objc_msgSend$localTransform
++ _objc_msgSend$locationInView:
++ _objc_msgSend$lockForConfiguration:
++ _objc_msgSend$magentaColor
++ _objc_msgSend$mainBundle
++ _objc_msgSend$mainRunLoop
++ _objc_msgSend$mainScreen
++ _objc_msgSend$markers
++ _objc_msgSend$maxOffset
++ _objc_msgSend$maxTotalThreadsPerThreadgroup
++ _objc_msgSend$metadataWithKey:
++ _objc_msgSend$minOffset
++ _objc_msgSend$model
++ _objc_msgSend$name
++ _objc_msgSend$newBufferWithBytes:length:options:
++ _objc_msgSend$newBufferWithLength:options:
++ _objc_msgSend$newCommandQueue
++ _objc_msgSend$newComputePipelineStateWithFunction:error:
++ _objc_msgSend$newDefaultLibraryWithBundle:error:
++ _objc_msgSend$newFunctionWithName:
++ _objc_msgSend$newNodeAtPath:type:
++ _objc_msgSend$newNodeAtPath:type:specifier:
++ _objc_msgSend$newPropertyWithName:type:role:
++ _objc_msgSend$newRenderPipelineStateWithDescriptor:error:
++ _objc_msgSend$newSceneWithURL:
++ _objc_msgSend$newTextureWithDescriptor:
++ _objc_msgSend$nextDrawable
++ _objc_msgSend$objectForKey:
++ _objc_msgSend$objects
++ _objc_msgSend$offsetIsWithinRubberBandedRange:
++ _objc_msgSend$opendoors
++ _objc_msgSend$openings
++ _objc_msgSend$optInApple
++ _objc_msgSend$parameters
++ _objc_msgSend$parentIdentifier
++ _objc_msgSend$parent_id
++ _objc_msgSend$parts
++ _objc_msgSend$path
++ _objc_msgSend$pathForResource:ofType:
++ _objc_msgSend$pathWithComponents:
++ _objc_msgSend$pause
++ _objc_msgSend$pixelFormat
++ _objc_msgSend$points
++ _objc_msgSend$pointsToWorld
++ _objc_msgSend$polygon
++ _objc_msgSend$polygonEdgeSides
++ _objc_msgSend$polygonSize
++ _objc_msgSend$popDebugGroup
++ _objc_msgSend$powerUsage
++ _objc_msgSend$preferredFontForTextStyle:
++ _objc_msgSend$present
++ _objc_msgSend$processMultiLevelWithMultiFloorPlan:withKeyframes:completionHandlerWithError:
++ _objc_msgSend$processWithKeyframes:initialAsset:completionHandlerWithError:
++ _objc_msgSend$projectionMatrixForOrientation:viewportSize:zNear:zFar:
++ _objc_msgSend$pushDebugGroup:
++ _objc_msgSend$quad
++ _objc_msgSend$radians
++ _objc_msgSend$radius
++ _objc_msgSend$rawFeaturePoints
++ _objc_msgSend$rawSceneUnderstandingData
++ _objc_msgSend$raycast:
++ _objc_msgSend$redColor
++ _objc_msgSend$referenceOriginTransform
++ _objc_msgSend$removeConstraint:
++ _objc_msgSend$removeConstraints:
++ _objc_msgSend$removeFromSuperview
++ _objc_msgSend$removeItemAtPath:error:
++ _objc_msgSend$removeItemAtURL:error:
++ _objc_msgSend$renderCommandEncoderWithDescriptor:
++ _objc_msgSend$renderFramesPerSecond
++ _objc_msgSend$replaceRegion:mipmapLevel:withBytes:bytesPerRow:
++ _objc_msgSend$rightAnchor
++ _objc_msgSend$roomTypes
++ _objc_msgSend$rootNode
++ _objc_msgSend$rubberBandFactor
++ _objc_msgSend$rubberBandOffsetForOffset:
++ _objc_msgSend$runWithConfiguration:
++ _objc_msgSend$runWithConfiguration:options:
++ _objc_msgSend$save
++ _objc_msgSend$saveAndCreateUSDZPackageWithURL:
++ _objc_msgSend$scale
++ _objc_msgSend$sceneDepth
++ _objc_msgSend$sceneReconstruction
++ _objc_msgSend$score
++ _objc_msgSend$second
++ _objc_msgSend$secondItem
++ _objc_msgSend$semanticLabels
++ _objc_msgSend$semanticSegmentationBufferSampledForDepth
++ _objc_msgSend$semanticSegmentationConfidenceBufferSampledForDepth
++ _objc_msgSend$semanticVotes
++ _objc_msgSend$setAccessibilityFrame:
++ _objc_msgSend$setAccessibilityLabel:
++ _objc_msgSend$setActive:
++ _objc_msgSend$setActiveVideoMaxFrameDuration:
++ _objc_msgSend$setActiveVideoMinFrameDuration:
++ _objc_msgSend$setAdjustsFontSizeToFitWidth:
++ _objc_msgSend$setAffineTransform:
++ _objc_msgSend$setAllowsEdgeAntialiasing:
++ _objc_msgSend$setAllowsGroupBlending:
++ _objc_msgSend$setAlpha:
++ _objc_msgSend$setAlphaBlendOperation:
++ _objc_msgSend$setBackgroundColor:
++ _objc_msgSend$setBayWindowRecessedAreaEnabled:
++ _objc_msgSend$setBlendingEnabled:
++ _objc_msgSend$setBorderColor:
++ _objc_msgSend$setBorderWidth:
++ _objc_msgSend$setBoundaryRefinementEnabled:
++ _objc_msgSend$setBounds:
++ _objc_msgSend$setBuffer:offset:atIndex:
++ _objc_msgSend$setBufferIndex:
++ _objc_msgSend$setBytes:length:atIndex:
++ _objc_msgSend$setClearColor:
++ _objc_msgSend$setColors:
++ _objc_msgSend$setCompositingFilter:
++ _objc_msgSend$setComputePipelineState:
++ _objc_msgSend$setConnectionWithTargetPaths:
++ _objc_msgSend$setContentScaleFactor:
++ _objc_msgSend$setContents:
++ _objc_msgSend$setContentsScale:
++ _objc_msgSend$setCornerCurve:
++ _objc_msgSend$setCornerRadius:
++ _objc_msgSend$setCurveEnabled:
++ _objc_msgSend$setCustomMetadata:value:
++ _objc_msgSend$setDateFormat:
++ _objc_msgSend$setDelegate:
++ _objc_msgSend$setDestinationAlphaBlendFactor:
++ _objc_msgSend$setDestinationRGBBlendFactor:
++ _objc_msgSend$setDevice:
++ _objc_msgSend$setDictionaryMetadataWithKey:dictionaryKey:value:
++ _objc_msgSend$setDisableActions:
++ _objc_msgSend$setDouble3Value:
++ _objc_msgSend$setDouble4x4Value:
++ _objc_msgSend$setDoubleValue:
++ _objc_msgSend$setDrawableSize:
++ _objc_msgSend$setEpsilon:
++ _objc_msgSend$setFloat3Array:count:
++ _objc_msgSend$setFloat3Value:
++ _objc_msgSend$setFloatValue:
++ _objc_msgSend$setFont:
++ _objc_msgSend$setForceAddSceneReconstructionKeyframePointCloudWithColor:
++ _objc_msgSend$setFormat:
++ _objc_msgSend$setFragmentBuffer:offset:atIndex:
++ _objc_msgSend$setFragmentFunction:
++ _objc_msgSend$setFrame:
++ _objc_msgSend$setFrameSemantics:
++ _objc_msgSend$setHeight:
++ _objc_msgSend$setHidden:
++ _objc_msgSend$setIntArray:count:
++ _objc_msgSend$setIsAccessibilityElement:
++ _objc_msgSend$setLabel:
++ _objc_msgSend$setLightEstimationEnabled:
++ _objc_msgSend$setLineBreakMode:
++ _objc_msgSend$setLiveResultEnabled:
++ _objc_msgSend$setLoadAction:
++ _objc_msgSend$setMask:
++ _objc_msgSend$setMasksToBounds:
++ _objc_msgSend$setMaxTessellationFactor:
++ _objc_msgSend$setMetadataWithKey:value:
++ _objc_msgSend$setMinimumPressDuration:
++ _objc_msgSend$setNonUniformHeightEnabled:
++ _objc_msgSend$setNumberOfLines:
++ _objc_msgSend$setNumberStyle:
++ _objc_msgSend$setObjectBeautificationEnabled:
++ _objc_msgSend$setObjectPath:
++ _objc_msgSend$setOffset:
++ _objc_msgSend$setOnboardingEnabled:
++ _objc_msgSend$setOpacity:
++ _objc_msgSend$setOpaque:
++ _objc_msgSend$setParameters:
++ _objc_msgSend$setPixelFormat:
++ _objc_msgSend$setPosition:
++ _objc_msgSend$setPreferredFramesPerSecond:
++ _objc_msgSend$setPresentsWithTransaction:
++ _objc_msgSend$setRasterSampleCount:
++ _objc_msgSend$setRenderPipelineState:
++ _objc_msgSend$setResolveTexture:
++ _objc_msgSend$setRgbBlendOperation:
++ _objc_msgSend$setSampleCount:
++ _objc_msgSend$setScale:
++ _objc_msgSend$setSceneReconstruction:
++ _objc_msgSend$setSlamConfiguration:
++ _objc_msgSend$setSourceAlphaBlendFactor:
++ _objc_msgSend$setSourceRGBBlendFactor:
++ _objc_msgSend$setStepFunction:
++ _objc_msgSend$setStepRate:
++ _objc_msgSend$setStorageMode:
++ _objc_msgSend$setStoreAction:
++ _objc_msgSend$setStride:
++ _objc_msgSend$setTarget:
++ _objc_msgSend$setTessellationControlPointIndexType:
++ _objc_msgSend$setTessellationFactorBuffer:offset:instanceStride:
++ _objc_msgSend$setTessellationFactorFormat:
++ _objc_msgSend$setTessellationFactorScaleEnabled:
++ _objc_msgSend$setTessellationFactorStepFunction:
++ _objc_msgSend$setTessellationOutputWindingOrder:
++ _objc_msgSend$setTessellationPartitionMode:
++ _objc_msgSend$setText:
++ _objc_msgSend$setTextAlignment:
++ _objc_msgSend$setTextCoachingEnabled:
++ _objc_msgSend$setTextColor:
++ _objc_msgSend$setTexture:
++ _objc_msgSend$setTexture:atIndex:
++ _objc_msgSend$setTextureType:
++ _objc_msgSend$setTokenArray:
++ _objc_msgSend$setTokenValue:
++ _objc_msgSend$setTransform:
++ _objc_msgSend$setTranslatesAutoresizingMaskIntoConstraints:
++ _objc_msgSend$setUpInternalDumpWithLogDir:enable:
++ _objc_msgSend$setUsage:
++ _objc_msgSend$setValue:
++ _objc_msgSend$setVelocity:
++ _objc_msgSend$setVertexBuffer:offset:atIndex:
++ _objc_msgSend$setVertexBytes:length:atIndex:
++ _objc_msgSend$setVertexDescriptor:
++ _objc_msgSend$setVertexFunction:
++ _objc_msgSend$setVideoFormat:
++ _objc_msgSend$setWidth:
++ _objc_msgSend$setWindowDoorDetectionEnabled:
++ _objc_msgSend$setWorldOrigin:
++ _objc_msgSend$setupOfflineDumpWithLogDir:
++ _objc_msgSend$shared
++ _objc_msgSend$sharedInstance
++ _objc_msgSend$size
++ _objc_msgSend$smoothedSceneDepth
++ _objc_msgSend$startOrientation
++ _objc_msgSend$startRecording
++ _objc_msgSend$state
++ _objc_msgSend$step:
++ _objc_msgSend$stop
++ _objc_msgSend$storyLevel
++ _objc_msgSend$stringFromDate:
++ _objc_msgSend$stringFromInteger:
++ _objc_msgSend$stringValue
++ _objc_msgSend$sublayers
++ _objc_msgSend$superview
++ _objc_msgSend$supportedVideoFormats
++ _objc_msgSend$supportsTextureSampleCount:
++ _objc_msgSend$systemBlueColor
++ _objc_msgSend$systemBrownColor
++ _objc_msgSend$systemFontOfSize:
++ _objc_msgSend$systemFontSize
++ _objc_msgSend$systemGreenColor
++ _objc_msgSend$systemMintColor
++ _objc_msgSend$systemName
++ _objc_msgSend$systemOrangeColor
++ _objc_msgSend$systemPurpleColor
++ _objc_msgSend$systemRedColor
++ _objc_msgSend$systemVersion
++ _objc_msgSend$systemYellowColor
++ _objc_msgSend$target
++ _objc_msgSend$targetAlignment
++ _objc_msgSend$templateConfiguration
++ _objc_msgSend$temporaryDirectory
++ _objc_msgSend$text
++ _objc_msgSend$texture
++ _objc_msgSend$texture2DDescriptorWithPixelFormat:width:height:mipmapped:
++ _objc_msgSend$third
++ _objc_msgSend$threadExecutionWidth
++ _objc_msgSend$timestamp
++ _objc_msgSend$topAnchor
++ _objc_msgSend$trailingAnchor
++ _objc_msgSend$traitCollection
++ _objc_msgSend$transform
++ _objc_msgSend$translationInView:
++ _objc_msgSend$type
++ _objc_msgSend$unlockForConfiguration
++ _objc_msgSend$updateObjects:
++ _objc_msgSend$updateWithFrame:
++ _objc_msgSend$updateWithKeyframes:
++ _objc_msgSend$updateWithKeyframes:ouframe:
++ _objc_msgSend$updateWithObjects:
++ _objc_msgSend$usage
++ _objc_msgSend$userInterfaceIdiom
++ _objc_msgSend$userInterfaceStyle
++ _objc_msgSend$velocityInView:
++ _objc_msgSend$videoFormat
++ _objc_msgSend$view
++ _objc_msgSend$viewMatrixForOrientation:
++ _objc_msgSend$vioTrackingState
++ _objc_msgSend$waitUntilScheduled
++ _objc_msgSend$walls
++ _objc_msgSend$whiteColor
++ _objc_msgSend$wideCamera
++ _objc_msgSend$width
++ _objc_msgSend$widthAnchor
++ _objc_msgSend$window
++ _objc_msgSend$windowScene
++ _objc_msgSend$windows
++ _objc_msgSend$worldAlignment
++ _objc_msgSend$worldTrackingState
++ _objc_msgSend$worldTransform
++ _objc_msgSend$writeToURL:error:
++ _objc_retain_x27
++ _objc_retain_x28
++ _objectdestroy.273Tm
++ _objectdestroy.53Tm
++ _objectdestroy.57Tm
++ _swift_willThrowTypedImpl
++ _symbolic _____Sg_ABt 10Foundation4DateV
++ _symbolic _____ySbG s23_ContiguousArrayStorageC
+- _RECustomMatrixCameraComponentSetProjectionFromMatrix
+- __ZNSt12length_errorC1B8ne200100EPKc
+- __ZNSt3__111__sift_downB8ne200100INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEvT1_OT0_NS_15iterator_traitsISH_E15difference_typeESH_
+- __ZNSt3__113__tree_removeB8ne200100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__115__adjacent_findB8ne200100INS_11__wrap_iterIPN5boost7polygon6detail10site_eventIiEEEES8_NS_10__equal_toENS_10__identityEEET_SB_T0_RT1_RT2_
+- __ZNSt3__116__insertion_sortB8ne200100INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEvT1_SH_T0_
+- __ZNSt3__117__floyd_sift_downB8ne200100INS_17_ClassicAlgPolicyERN5boost7polygon15voronoi_builderIiNS3_6detail20voronoi_ctype_traitsIiEENS5_18voronoi_predicatesIS7_EEE20end_point_comparisonENS_11__wrap_iterIPNS_4pairINS5_8point_2dIiEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS5_19beach_line_node_keyINS5_10site_eventIiEEEENS5_20beach_line_node_dataIvNS5_12circle_eventIdEEEEEEPNS_11__tree_nodeISS_PvEElEEEEEEEEEET1_S12_OT0_NS_15iterator_traitsIS12_E15difference_typeE
+- __ZNSt3__117__floyd_sift_downB8ne200100INS_17_ClassicAlgPolicyERN5boost7polygon6detail13ordered_queueINS_4pairINS4_12circle_eventIdEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS4_19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvS8_EEEEPNS_11__tree_nodeISI_PvEElEEEEEENS3_15voronoi_builderIiNS4_20voronoi_ctype_traitsIiEENS4_18voronoi_predicatesISS_EEE21event_comparison_typeEE10comparisonENS_11__wrap_iterIPNS_15__list_iteratorISP_SK_EEEEEET1_S15_OT0_NS_15iterator_traitsIS15_E15difference_typeE
+- __ZNSt3__117__floyd_sift_downB8ne200100INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EET1_SH_OT0_NS_15iterator_traitsISH_E15difference_typeE
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorI10PointInt64EEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN5boost7polygon12voronoi_cellIdEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN5boost7polygon12voronoi_edgeIdEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN5boost7polygon14voronoi_vertexIdEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN5boost7polygon6detail10site_eventIiEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_15__list_iteratorINS_4pairIN5boost7polygon6detail12circle_eventIdEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS6_19beach_line_node_keyINS6_10site_eventIiEEEENS6_20beach_line_node_dataIvS8_EEEEPNS_11__tree_nodeISI_PvEElEEEEEESK_EEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSU_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_4pairIN5boost7polygon6detail8point_2dIiEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS5_19beach_line_node_keyINS5_10site_eventIiEEEENS5_20beach_line_node_dataIvNS5_12circle_eventIdEEEEEEPNS_11__tree_nodeISJ_PvEElEEEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSU_m
+- __ZNSt3__119__partial_sort_implB8ne200100INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_SG_EET1_SH_SH_T2_OT0_
+- __ZNSt3__120__throw_length_errorB8ne200100EPKc
+- __ZNSt3__126__insertion_sort_unguardedB8ne200100INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEvT1_SH_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8ne200100INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEbT1_SH_T0_
+- __ZNSt3__127__tree_balance_after_insertB8ne200100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__131__partition_with_equals_on_leftB8ne200100INS_17_ClassicAlgPolicyEPN5boost7polygon6detail10site_eventIiEERNS4_18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateIS6_NS4_12circle_eventIdEEEEEET0_SH_SH_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8ne200100INS_17_ClassicAlgPolicyEPN5boost7polygon6detail10site_eventIiEERNS4_18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateIS6_NS4_12circle_eventIdEEEEEENS_4pairIT0_bEESI_SI_T1_
+- __ZNSt3__16__treeINS_12__value_typeIN5boost7polygon6detail19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvNS4_12circle_eventIdEEEEEENS_19__map_value_compareIS8_SD_NS4_18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE25node_comparison_predicateIS8_EELb0EEENS_9allocatorISD_EEE12__find_equalIS8_EERPNS_16__tree_node_baseIPvEENS_21__tree_const_iteratorISD_PNS_11__tree_nodeISD_SR_EElEERPNS_15__tree_end_nodeIST_EESU_RKT_
+- __ZNSt3__16__treeINS_12__value_typeIN5boost7polygon6detail19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvNS4_12circle_eventIdEEEEEENS_19__map_value_compareIS8_SD_NS4_18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE25node_comparison_predicateIS8_EELb0EEENS_9allocatorISD_EEE12__find_equalIS8_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeIST_EERKT_
+- __ZNSt3__16__treeINS_12__value_typeIN5boost7polygon6detail19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvNS4_12circle_eventIdEEEEEENS_19__map_value_compareIS8_SD_NS4_18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE25node_comparison_predicateIS8_EELb0EEENS_9allocatorISD_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERST_ST_
+- __ZNSt3__16__treeINS_12__value_typeIN5boost7polygon6detail19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvNS4_12circle_eventIdEEEEEENS_19__map_value_compareIS8_SD_NS4_18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE25node_comparison_predicateIS8_EELb0EEENS_9allocatorISD_EEE21__remove_node_pointerEPNS_11__tree_nodeISD_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIN5boost7polygon6detail19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvNS4_12circle_eventIdEEEEEENS_19__map_value_compareIS8_SD_NS4_18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE25node_comparison_predicateIS8_EELb0EEENS_9allocatorISD_EEE30__emplace_hint_unique_key_argsIS8_JNS_4pairIKS8_SC_EEEEENSQ_INS_15__tree_iteratorISD_PNS_11__tree_nodeISD_PvEElEEbEENS_21__tree_const_iteratorISD_SX_lEERKT_DpOT0_
+- __ZNSt3__16__treeINS_12__value_typeIN5boost7polygon6detail19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvNS4_12circle_eventIdEEEEEENS_19__map_value_compareIS8_SD_NS4_18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE25node_comparison_predicateIS8_EELb0EEENS_9allocatorISD_EEE30__emplace_hint_unique_key_argsIS8_JNS_4pairIS8_SC_EEEEENSQ_INS_15__tree_iteratorISD_PNS_11__tree_nodeISD_PvEElEEbEENS_21__tree_const_iteratorISD_SW_lEERKT_DpOT0_
+- __ZNSt3__16__treeINS_12__value_typeIN5boost7polygon6detail19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvNS4_12circle_eventIdEEEEEENS_19__map_value_compareIS8_SD_NS4_18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE25node_comparison_predicateIS8_EELb0EEENS_9allocatorISD_EEE7destroyEPNS_11__tree_nodeISD_PvEE
+- __ZNSt3__16vectorI10PointInt64NS_9allocatorIS1_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN5boost7polygon12voronoi_cellIdEENS_9allocatorIS4_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN5boost7polygon12voronoi_cellIdEENS_9allocatorIS4_EEE9push_backB8ne200100EOS4_
+- __ZNSt3__16vectorIN5boost7polygon12voronoi_edgeIdEENS_9allocatorIS4_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN5boost7polygon12voronoi_edgeIdEENS_9allocatorIS4_EEE9push_backB8ne200100EOS4_
+- __ZNSt3__16vectorIN5boost7polygon14voronoi_vertexIdEENS_9allocatorIS4_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN5boost7polygon6detail10site_eventIiEENS_9allocatorIS5_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS_15__list_iteratorINS_4pairIN5boost7polygon6detail12circle_eventIdEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS5_19beach_line_node_keyINS5_10site_eventIiEEEENS5_20beach_line_node_dataIvS7_EEEEPNS_11__tree_nodeISH_PvEElEEEEEESJ_EENS_9allocatorISP_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS_4pairIN5boost7polygon6detail8point_2dIiEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS4_19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvNS4_12circle_eventIdEEEEEEPNS_11__tree_nodeISI_PvEElEEEEEENS_9allocatorISP_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__17__sort4B8ne200100INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_Li0EEEvT1_SH_SH_SH_T0_
+- __ZNSt3__18__uniqueB8ne200100INS_17_ClassicAlgPolicyENS_11__wrap_iterIPN5boost7polygon6detail10site_eventIiEEEES9_RNS_10__equal_toEEENS_4pairIT0_SD_EESD_T1_OT2_
+- __ZNSt3__19__sift_upB8ne200100INS_17_ClassicAlgPolicyERN5boost7polygon15voronoi_builderIiNS3_6detail20voronoi_ctype_traitsIiEENS5_18voronoi_predicatesIS7_EEE20end_point_comparisonENS_11__wrap_iterIPNS_4pairINS5_8point_2dIiEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS5_19beach_line_node_keyINS5_10site_eventIiEEEENS5_20beach_line_node_dataIvNS5_12circle_eventIdEEEEEEPNS_11__tree_nodeISS_PvEElEEEEEEEEEEvT1_S12_OT0_NS_15iterator_traitsIS12_E15difference_typeE
+- __ZNSt3__19__sift_upB8ne200100INS_17_ClassicAlgPolicyERN5boost7polygon6detail13ordered_queueINS_4pairINS4_12circle_eventIdEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS4_19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvS8_EEEEPNS_11__tree_nodeISI_PvEElEEEEEENS3_15voronoi_builderIiNS4_20voronoi_ctype_traitsIiEENS4_18voronoi_predicatesISS_EEE21event_comparison_typeEE10comparisonENS_11__wrap_iterIPNS_15__list_iteratorISP_SK_EEEEEEvT1_S15_OT0_NS_15iterator_traitsIS15_E15difference_typeE
+- __ZNSt3__19__sift_upB8ne200100INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEvT1_SH_OT0_NS_15iterator_traitsISH_E15difference_typeE
+- __ZSt28__throw_bad_array_new_lengthB8ne200100v
+- __swift_FORCE_LOAD_$_swiftAppleArchive
+- __swift_FORCE_LOAD_$_swiftAppleArchive_$_RoomPlan
+- __swift_FORCE_LOAD_$_swiftCoreAudio_Private
+- __swift_FORCE_LOAD_$_swiftCoreAudio_Private_$_RoomPlan
+- __swift_FORCE_LOAD_$_swiftMapKit
+- __swift_FORCE_LOAD_$_swiftMapKit_$_RoomPlan
+- __swift_FORCE_LOAD_$_swiftNaturalLanguage
+- __swift_FORCE_LOAD_$_swiftNaturalLanguage_$_RoomPlan
+- _block_copy_helper.215
+- _block_copy_helper.225
+- _block_copy_helper.232
+- _block_copy_helper.238
+- _block_copy_helper.250
+- _block_copy_helper.256
+- _block_copy_helper.262
+- _block_copy_helper.268
+- _block_copy_helper.274
+- _block_copy_helper.280
+- _block_copy_helper.286
+- _block_copy_helper.289
+- _block_copy_helper.292
+- _block_copy_helper.295
+- _block_copy_helper.298
+- _block_copy_helper.44
+- _block_copy_helper.48
+- _block_copy_helper.58
+- _block_descriptor.217
+- _block_descriptor.227
+- _block_descriptor.234
+- _block_descriptor.240
+- _block_descriptor.252
+- _block_descriptor.258
+- _block_descriptor.264
+- _block_descriptor.270
+- _block_descriptor.276
+- _block_descriptor.282
+- _block_descriptor.288
+- _block_descriptor.291
+- _block_descriptor.294
+- _block_descriptor.297
+- _block_descriptor.300
+- _block_descriptor.46
+- _block_descriptor.50
+- _block_descriptor.60
+- _block_destroy_helper.216
+- _block_destroy_helper.226
+- _block_destroy_helper.233
+- _block_destroy_helper.239
+- _block_destroy_helper.251
+- _block_destroy_helper.257
+- _block_destroy_helper.263
+- _block_destroy_helper.269
+- _block_destroy_helper.275
+- _block_destroy_helper.281
+- _block_destroy_helper.287
+- _block_destroy_helper.290
+- _block_destroy_helper.293
+- _block_destroy_helper.296
+- _block_destroy_helper.299
+- _block_destroy_helper.45
+- _block_destroy_helper.49
+- _block_destroy_helper.59
+- _keypath_get.144Tm
+- _keypath_set.125Tm
+- _malloc
+- _memset_pattern16
+- _objc_claimAutoreleasedReturnValue
+- _objectdestroy.272Tm
+- _objectdestroy.56Tm
+- _symbolic Sb8inserted______17memberAfterInsertt 10RealityKit6ARViewC12DebugOptionsV
+- _symbolic Sb8inserted______17memberAfterInsertt 10RealityKit6ARViewC13RenderOptionsV
+- _symbolic Si6offset______7elementtSg 8RoomPlan08CapturedA0V7SurfaceV
+- _symbolic Si_SaySiGt
+- _symbolic _____ySS_SDySS______pGtG s23_ContiguousArrayStorageC 8RoomPlan08CapturedD9AttributeP
+- _symbolic _____y_____y_____G______tG s23_ContiguousArrayStorageC s5SIMD2V s5Int32V 8RoomPlan08CapturedF0V7SurfaceV4EdgeO
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CHrLugD1jaMiVrEArI7OqZOmtGgt1RTZnerdpfk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:293: libc++ Hardening assertion __k != __leftmost failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CHrLugD1jaMiVrEArI7OqZOmtGgt1RTZnerdpfk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:603: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CHrLugD1jaMiVrEArI7OqZOmtGgt1RTZnerdpfk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:615: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CHrLugD1jaMiVrEArI7OqZOmtGgt1RTZnerdpfk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:633: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CHrLugD1jaMiVrEArI7OqZOmtGgt1RTZnerdpfk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:638: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CHrLugD1jaMiVrEArI7OqZOmtGgt1RTZnerdpfk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:669: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CHrLugD1jaMiVrEArI7OqZOmtGgt1RTZnerdpfk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:682: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CHrLugD1jaMiVrEArI7OqZOmtGgt1RTZnerdpfk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:692: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CHrLugD1jaMiVrEArI7OqZOmtGgt1RTZnerdpfk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:697: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CHrLugD1jaMiVrEArI7OqZOmtGgt1RTZnerdpfk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:1172: libc++ Hardening assertion __first <= __last failed: vector::erase(first, last) called with invalid range\n"
++ "/AppleInternal/Library/BuildRoots/4~CHrLugD1jaMiVrEArI7OqZOmtGgt1RTZnerdpfk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CHrLugD1jaMiVrEArI7OqZOmtGgt1RTZnerdpfk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:429: libc++ Hardening assertion !empty() failed: front() called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/4~CHrLugD1jaMiVrEArI7OqZOmtGgt1RTZnerdpfk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:433: libc++ Hardening assertion !empty() failed: back() called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/4~CHrLugD1jaMiVrEArI7OqZOmtGgt1RTZnerdpfk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:486: libc++ Hardening assertion !empty() failed: vector::pop_back called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/4~CHrLugD1jaMiVrEArI7OqZOmtGgt1RTZnerdpfk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/list:1420: libc++ Hardening assertion __p != end() failed: list::erase(iterator) called with a non-dereferenceable iterator\n"
++ "/AppleInternal/Library/BuildRoots/4~CHrLugD1jaMiVrEArI7OqZOmtGgt1RTZnerdpfk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/list:828: libc++ Hardening assertion !empty() failed: list::front called on empty list\n"
+
+```

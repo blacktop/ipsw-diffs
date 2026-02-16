@@ -1,0 +1,119 @@
+## ExposureNotificationDaemon
+
+> `/System/Library/PrivateFrameworks/ExposureNotificationDaemon.framework/ExposureNotificationDaemon`
+
+```diff
+
+-193.9.0.0.0
+-  __TEXT.__text: 0x916d0
+-  __TEXT.__auth_stubs: 0x1500
++194.22.1.1.1
++  __TEXT.__text: 0x9478c
++  __TEXT.__auth_stubs: 0x1490
+   __TEXT.__objc_methlist: 0x57cc
+   __TEXT.__const: 0x3a0
+   __TEXT.__cstring: 0x1fc51
+-  __TEXT.__gcc_except_tab: 0x50b8
++  __TEXT.__gcc_except_tab: 0x51a8
+   __TEXT.__oslogstring: 0x1a
+   __TEXT.__dlopen_cstrs: 0xb8
+-  __TEXT.__unwind_info: 0x2220
++  __TEXT.__unwind_info: 0x2480
+   __TEXT.__objc_classname: 0x826
+   __TEXT.__objc_methname: 0x133dc
+   __TEXT.__objc_methtype: 0x25b9
+
+   __DATA_CONST.__objc_selrefs: 0x42c0
+   __DATA_CONST.__objc_superrefs: 0x178
+   __DATA_CONST.__objc_arraydata: 0x198
+-  __AUTH_CONST.__auth_got: 0xa90
++  __AUTH_CONST.__auth_got: 0xa58
+   __AUTH_CONST.__const: 0x2c0
+   __AUTH_CONST.__cfstring: 0x45c0
+   __AUTH_CONST.__objc_const: 0x8420
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 043DA14A-AE07-32DF-8BDE-DA78D2AF0EF1
+-  Functions: 3083
+-  Symbols:   10090
++  UUID: 81A21C61-6AD5-36F8-8DD8-98FB8A3EAA45
++  Functions: 3247
++  Symbols:   10427
+   CStrings:  7114
+ 
+Symbols:
++ _OUTLINED_FUNCTION_11
++ _OUTLINED_FUNCTION_12
++ _OUTLINED_FUNCTION_13
++ _OUTLINED_FUNCTION_14
++ _OUTLINED_FUNCTION_15
++ _OUTLINED_FUNCTION_16
++ _OUTLINED_FUNCTION_17
++ _OUTLINED_FUNCTION_18
++ _OUTLINED_FUNCTION_19
++ _OUTLINED_FUNCTION_20
++ _OUTLINED_FUNCTION_21
++ _OUTLINED_FUNCTION_22
++ _OUTLINED_FUNCTION_23
++ _OUTLINED_FUNCTION_24
++ _OUTLINED_FUNCTION_25
++ _OUTLINED_FUNCTION_26
++ _OUTLINED_FUNCTION_27
++ _OUTLINED_FUNCTION_28
++ _OUTLINED_FUNCTION_29
++ _OUTLINED_FUNCTION_30
++ _OUTLINED_FUNCTION_31
++ _OUTLINED_FUNCTION_32
++ _OUTLINED_FUNCTION_33
++ _OUTLINED_FUNCTION_34
++ _OUTLINED_FUNCTION_35
++ _OUTLINED_FUNCTION_36
++ _OUTLINED_FUNCTION_37
++ _OUTLINED_FUNCTION_38
++ _OUTLINED_FUNCTION_39
++ _OUTLINED_FUNCTION_40
++ _OUTLINED_FUNCTION_41
++ _OUTLINED_FUNCTION_42
++ _OUTLINED_FUNCTION_43
++ _OUTLINED_FUNCTION_44
++ _OUTLINED_FUNCTION_45
++ _OUTLINED_FUNCTION_46
++ _OUTLINED_FUNCTION_47
++ _OUTLINED_FUNCTION_48
++ _OUTLINED_FUNCTION_49
++ _OUTLINED_FUNCTION_50
++ _OUTLINED_FUNCTION_51
++ _OUTLINED_FUNCTION_52
++ _OUTLINED_FUNCTION_53
++ _OUTLINED_FUNCTION_54
++ _OUTLINED_FUNCTION_55
++ _OUTLINED_FUNCTION_56
++ _OUTLINED_FUNCTION_57
++ _OUTLINED_FUNCTION_58
++ _OUTLINED_FUNCTION_59
++ _OUTLINED_FUNCTION_60
++ _OUTLINED_FUNCTION_61
++ _OUTLINED_FUNCTION_62
++ _OUTLINED_FUNCTION_63
++ _OUTLINED_FUNCTION_64
++ _OUTLINED_FUNCTION_65
++ _OUTLINED_FUNCTION_66
++ _OUTLINED_FUNCTION_67
++ _OUTLINED_FUNCTION_68
++ _OUTLINED_FUNCTION_69
++ _OUTLINED_FUNCTION_70
++ _OUTLINED_FUNCTION_71
++ _OUTLINED_FUNCTION_72
++ _OUTLINED_FUNCTION_73
++ _OUTLINED_FUNCTION_74
+- _objc_claimAutoreleasedReturnValue
+- _objc_retainAutoreleaseReturnValue
+- _objc_retain_x4
+- _objc_retain_x5
+- _objc_retain_x6
+- _objc_retain_x7
+- _objc_retain_x9
+
+```

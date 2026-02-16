@@ -1,0 +1,693 @@
+## PodcastsTranscripts
+
+> `/private/var/staged_system_apps/Podcasts.app/Frameworks/PodcastsTranscripts.framework/PodcastsTranscripts`
+
+```diff
+
+-4025.400.1.0.0
+-  __TEXT.__text: 0xa2aa4
+-  __TEXT.__auth_stubs: 0x3890
+-  __TEXT.__objc_methlist: 0x9b4
+-  __TEXT.__const: 0x7828
+-  __TEXT.__objc_classname: 0xb1
+-  __TEXT.__objc_methname: 0x29a7
+-  __TEXT.__cstring: 0x2d42
+-  __TEXT.__swift5_typeref: 0x5a76
+-  __TEXT.__constg_swiftt: 0x1f38
+-  __TEXT.__swift5_builtin: 0x140
+-  __TEXT.__swift5_reflstr: 0x1ce3
+-  __TEXT.__swift5_fieldmd: 0x1c6c
+-  __TEXT.__swift5_assocty: 0x528
++4025.510.51.1.0
++  __TEXT.__text: 0x99494
++  __TEXT.__auth_stubs: 0x36d0
++  __TEXT.__objc_stubs: 0x2560
++  __TEXT.__objc_methlist: 0x924
++  __TEXT.__const: 0x75e8
++  __TEXT.__objc_classname: 0x9ba
++  __TEXT.__objc_methname: 0x3bdf
++  __TEXT.__swift5_typeref: 0x52e2
++  __TEXT.__constg_swiftt: 0x1dc8
++  __TEXT.__swift5_builtin: 0x12c
++  __TEXT.__swift5_reflstr: 0x1b73
++  __TEXT.__swift5_fieldmd: 0x1a78
++  __TEXT.__swift5_assocty: 0x558
+   __TEXT.__swift5_proto: 0x2cc
+-  __TEXT.__swift5_types: 0x1d4
+-  __TEXT.__swift5_protos: 0x50
+-  __TEXT.__swift5_capture: 0xd8c
+-  __TEXT.__oslogstring: 0xa41
++  __TEXT.__swift5_types: 0x1c4
++  __TEXT.__swift5_protos: 0x4c
++  __TEXT.__swift5_capture: 0xc8c
++  __TEXT.__oslogstring: 0x9b1
+   __TEXT.__swift_as_entry: 0x54
+   __TEXT.__swift_as_ret: 0x60
+-  __TEXT.__objc_methtype: 0xb98
++  __TEXT.__objc_methtype: 0x100c
++  __TEXT.__cstring: 0xf22
+   __TEXT.__swift5_mpenum: 0x34
+-  __TEXT.__unwind_info: 0x2338
+-  __TEXT.__eh_frame: 0x17a0
+-  __DATA_CONST.__auth_got: 0x1c48
+-  __DATA_CONST.__got: 0xe48
+-  __DATA_CONST.__auth_ptr: 0xf58
+-  __DATA_CONST.__const: 0x43c8
+-  __DATA_CONST.__objc_classlist: 0x128
++  __TEXT.__unwind_info: 0x2168
++  __TEXT.__eh_frame: 0x1608
++  __DATA_CONST.__auth_got: 0x1b70
++  __DATA_CONST.__got: 0xe18
++  __DATA_CONST.__auth_ptr: 0xec0
++  __DATA_CONST.__const: 0x40e8
++  __DATA_CONST.__objc_classlist: 0x108
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x78
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x40
+-  __DATA.__objc_const: 0x3460
+-  __DATA.__objc_selrefs: 0xcd8
+-  __DATA.__objc_data: 0x14a8
+-  __DATA.__data: 0x4488
+-  __DATA.__bss: 0x5368
+-  __DATA.__common: 0xe0
++  __DATA.__objc_const: 0x3088
++  __DATA.__objc_selrefs: 0xce0
++  __DATA.__objc_data: 0x11b8
++  __DATA.__data: 0x40b8
++  __DATA.__bss: 0x53e8
++  __DATA.__common: 0xb8
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - @rpath/PodcastsActions.framework/PodcastsActions
+   - @rpath/PodcastsPlayback.framework/PodcastsPlayback
+   - @rpath/ShelfKit.framework/ShelfKit
+-  UUID: 25C8CED8-6805-3253-9F9B-F3DE163C8A26
+-  Functions: 3252
+-  Symbols:   1737
+-  CStrings:  880
++  UUID: 197C5B14-2308-3624-8350-EDE44D02F1E9
++  Functions: 3144
++  Symbols:   1957
++  CStrings:  831
+ 
+Symbols:
++ _associated conformance 19PodcastsTranscripts15FooterTextStyle33_A778AF436787D96AC62C5085B7AFEED3LLV7SwiftUI12ViewModifierAA4BodyAeFP_AE0O0
++ _associated conformance 19PodcastsTranscripts15TextContentViewV010TranscriptD4FontV7SwiftUI0E8ModifierAA4BodyAfGP_AF0E0
++ _objc_msgSend$CGColor
++ _objc_msgSend$URL
++ _objc_msgSend$_accessibilityShowContextMenuForElement:targetPointValue:
++ _objc_msgSend$_applePodcastsFoundationSharedUserDefaults
++ _objc_msgSend$_contentMargin
++ _objc_msgSend$_isScrubbing
++ _objc_msgSend$_preferredFontForTextStyle:design:weight:
++ _objc_msgSend$_scrollToItemAtIndexPath:atScrollPosition:additionalInsets:animated:
++ _objc_msgSend$_setOverrideUserInterfaceRenderingMode:
++ _objc_msgSend$_setOverrideVibrancyTrait:
++ _objc_msgSend$_systemImageNamed:withConfiguration:
++ _objc_msgSend$accessibilityContrast
++ _objc_msgSend$activateConstraints:
++ _objc_msgSend$addAction:forControlEvents:
++ _objc_msgSend$addAnimations:
++ _objc_msgSend$addAttribute:value:range:
++ _objc_msgSend$addFinishBlock:
++ _objc_msgSend$addGestureRecognizer:
++ _objc_msgSend$addInteraction:
++ _objc_msgSend$addLayoutManager:
++ _objc_msgSend$addSubview:
++ _objc_msgSend$addTextContainer:
++ _objc_msgSend$addTimer:forMode:
++ _objc_msgSend$addToRunLoop:forMode:
++ _objc_msgSend$alpha
++ _objc_msgSend$animateWithDuration:animations:
++ _objc_msgSend$animateWithDuration:delay:options:animations:completion:
++ _objc_msgSend$appendAttributedString:
++ _objc_msgSend$areChaptersGenerated
++ _objc_msgSend$asyncValuePromiseOnQueue:
++ _objc_msgSend$attribute:atIndex:effectiveRange:
++ _objc_msgSend$attributedStringWithAttachment:attributes:
++ _objc_msgSend$attributedSubstringFromRange:
++ _objc_msgSend$attributedText
++ _objc_msgSend$author
++ _objc_msgSend$becomeFirstResponder
++ _objc_msgSend$begin
++ _objc_msgSend$beginningOfDocument
++ _objc_msgSend$boolForKey:
++ _objc_msgSend$bottomAnchor
++ _objc_msgSend$boundarySupplementaryItems
++ _objc_msgSend$boundingRectForGlyphRange:inTextContainer:
++ _objc_msgSend$bounds
++ _objc_msgSend$cellForItemAtIndexPath:
++ _objc_msgSend$centerYAnchor
++ _objc_msgSend$channel
++ _objc_msgSend$characterIndexForPoint:inTextContainer:fractionOfDistanceBetweenInsertionPoints:
++ _objc_msgSend$characterRangeForGlyphRange:actualGlyphRange:
++ _objc_msgSend$clearColor
++ _objc_msgSend$colorWithAlphaComponent:
++ _objc_msgSend$commit
++ _objc_msgSend$configurationWithFont:scale:
++ _objc_msgSend$configurationWithIdentifier:previewProvider:actionProvider:
++ _objc_msgSend$constraintEqualToAnchor:
++ _objc_msgSend$constraintEqualToAnchor:constant:
++ _objc_msgSend$constraintEqualToConstant:
++ _objc_msgSend$constraintGreaterThanOrEqualToConstant:
++ _objc_msgSend$contentInset
++ _objc_msgSend$contentOffset
++ _objc_msgSend$contentView
++ _objc_msgSend$contents
++ _objc_msgSend$convertRect:toCoordinateSpace:
++ _objc_msgSend$coordinateSpace
++ _objc_msgSend$currentDevice
++ _objc_msgSend$currentRunLoop
++ _objc_msgSend$currentTraitCollection
++ _objc_msgSend$damping
++ _objc_msgSend$defaultCenter
++ _objc_msgSend$description
++ _objc_msgSend$dismissFindNavigator
++ _objc_msgSend$doubleForKey:
++ _objc_msgSend$duration
++ _objc_msgSend$edited:range:changeInLength:
++ _objc_msgSend$effectForBlurEffect:
++ _objc_msgSend$effectWithStyle:
++ _objc_msgSend$effectiveUserInterfaceLayoutDirection
++ _objc_msgSend$elementKind
++ _objc_msgSend$end
++ _objc_msgSend$enumerateAttribute:inRange:options:usingBlock:
++ _objc_msgSend$enumerateAttributesInRange:options:usingBlock:
++ _objc_msgSend$enumerateLineFragmentsForGlyphRange:usingBlock:
++ _objc_msgSend$enumerateSubstringsInRange:options:usingBlock:
++ _objc_msgSend$episodeForUuid:
++ _objc_msgSend$feedbackGeneratorForView:
++ _objc_msgSend$font
++ _objc_msgSend$fontDescriptor
++ _objc_msgSend$fontDescriptorByAddingAttributes:
++ _objc_msgSend$fontDescriptorWithDesign:
++ _objc_msgSend$fontDescriptorWithSymbolicTraits:
++ _objc_msgSend$fontWithDescriptor:size:
++ _objc_msgSend$fontWithName:size:
++ _objc_msgSend$frame
++ _objc_msgSend$glyphRangeForCharacterRange:actualCharacterRange:
++ _objc_msgSend$heightAnchor
++ _objc_msgSend$hitTestInsets
++ _objc_msgSend$identifier
++ _objc_msgSend$imageView
++ _objc_msgSend$impactOccurred
++ _objc_msgSend$indexPathForItemAtPoint:
++ _objc_msgSend$indexPathsForVisibleItems
++ _objc_msgSend$init
++ _objc_msgSend$initForTextStyle:
++ _objc_msgSend$initWithAttributedString:
++ _objc_msgSend$initWithControlPoints::::
++ _objc_msgSend$initWithData:
++ _objc_msgSend$initWithDuration:curve:animations:
++ _objc_msgSend$initWithDuration:timingParameters:
++ _objc_msgSend$initWithDynamicProvider:
++ _objc_msgSend$initWithEffect:
++ _objc_msgSend$initWithFloat:
++ _objc_msgSend$initWithFrame:
++ _objc_msgSend$initWithFrame:primaryAction:
++ _objc_msgSend$initWithFrame:textContainer:
++ _objc_msgSend$initWithMass:stiffness:damping:initialVelocity:
++ _objc_msgSend$initWithName:actionHandler:
++ _objc_msgSend$initWithNibName:bundle:
++ _objc_msgSend$initWithSectionProvider:
++ _objc_msgSend$initWithSessionDelegate:
++ _objc_msgSend$initWithSize:
++ _objc_msgSend$initWithString:
++ _objc_msgSend$initWithString:attributes:
++ _objc_msgSend$initWithStyle:
++ _objc_msgSend$initWithTarget:action:
++ _objc_msgSend$initWithTextAttachment:parentView:textLayoutManager:location:
++ _objc_msgSend$initWithURL:options:
++ _objc_msgSend$insertSubview:atIndex:
++ _objc_msgSend$intrinsicContentSize
++ _objc_msgSend$invalidate
++ _objc_msgSend$isDecelerating
++ _objc_msgSend$isDragging
++ _objc_msgSend$isFindNavigatorVisible
++ _objc_msgSend$isSearching
++ _objc_msgSend$isThinJetApp
++ _objc_msgSend$isViewLoaded
++ _objc_msgSend$keyCommandWithInput:modifierFlags:action:
++ _objc_msgSend$labelColor
++ _objc_msgSend$language
++ _objc_msgSend$layer
++ _objc_msgSend$layoutAttributesForItemAtIndexPath:
++ _objc_msgSend$layoutManager
++ _objc_msgSend$leadingAnchor
++ _objc_msgSend$length
++ _objc_msgSend$lineFragmentPadding
++ _objc_msgSend$lineHeight
++ _objc_msgSend$mainBundle
++ _objc_msgSend$mainRunLoop
++ _objc_msgSend$mass
++ _objc_msgSend$matchedBeginning
++ _objc_msgSend$matchedEnd
++ _objc_msgSend$menu
++ _objc_msgSend$monospacedDigitSystemFontOfSize:weight:
++ _objc_msgSend$mutableCopy
++ _objc_msgSend$name
++ _objc_msgSend$numberOfGlyphs
++ _objc_msgSend$offsetFromPosition:toPosition:
++ _objc_msgSend$openURL:withCompletionHandler:
++ _objc_msgSend$panGestureRecognizer
++ _objc_msgSend$paragraphSpacing
++ _objc_msgSend$parentViewController
++ _objc_msgSend$performBlock:
++ _objc_msgSend$performEditingTransactionUsingBlock:
++ _objc_msgSend$performPrimaryAction
++ _objc_msgSend$performWithoutAnimation:
++ _objc_msgSend$pf_localizedStringByFoldingWithOptions:
++ _objc_msgSend$playerEndTime
++ _objc_msgSend$playerStartTime
++ _objc_msgSend$podcast
++ _objc_msgSend$pointSize
++ _objc_msgSend$positionFromPosition:offset:
++ _objc_msgSend$preferredFontDescriptorWithTextStyle:
++ _objc_msgSend$preferredFontForTextStyle:
++ _objc_msgSend$presentFindNavigatorShowingReplace:
++ _objc_msgSend$priceType
++ _objc_msgSend$privateQueueContext
++ _objc_msgSend$quaternarySystemFillColor
++ _objc_msgSend$rect
++ _objc_msgSend$referenceEndTime
++ _objc_msgSend$referenceStartTime
++ _objc_msgSend$registerTextAttachmentViewProviderClass:forFileType:
++ _objc_msgSend$removeFromSuperview
++ _objc_msgSend$removeTimeObserver:
++ _objc_msgSend$resignFirstResponder
++ _objc_msgSend$respondsToSelector:
++ _objc_msgSend$safeAreaLayoutGuide
++ _objc_msgSend$scaledFontForFont:
++ _objc_msgSend$searchText
++ _objc_msgSend$secondaryLabelColor
++ _objc_msgSend$selectionChanged
++ _objc_msgSend$selectionRectsForRange:
++ _objc_msgSend$setAccessibilityCustomActionsBlock:
++ _objc_msgSend$setAccessibilityIdentifier:
++ _objc_msgSend$setActive:
++ _objc_msgSend$setAllowsNonContiguousLayout:
++ _objc_msgSend$setAlpha:
++ _objc_msgSend$setAlwaysBounceVertical:
++ _objc_msgSend$setAnchorPoint:
++ _objc_msgSend$setAutocorrectionType:
++ _objc_msgSend$setAutoresizingMask:
++ _objc_msgSend$setBackgroundColor:
++ _objc_msgSend$setBackgroundView:
++ _objc_msgSend$setClipsToBounds:
++ _objc_msgSend$setColors:
++ _objc_msgSend$setConfigurationUpdateHandler:
++ _objc_msgSend$setContentInset:
++ _objc_msgSend$setContentOffset:
++ _objc_msgSend$setCornerCurve:
++ _objc_msgSend$setCornerRadius:
++ _objc_msgSend$setDamping:
++ _objc_msgSend$setDataDetectorTypes:
++ _objc_msgSend$setDelegate:
++ _objc_msgSend$setDisableActions:
++ _objc_msgSend$setDuration:
++ _objc_msgSend$setEditable:
++ _objc_msgSend$setEntitledTranscriptProvider:
++ _objc_msgSend$setFindInteractionEnabled:
++ _objc_msgSend$setFont:
++ _objc_msgSend$setFrame:
++ _objc_msgSend$setFreeTranscriptProvider:
++ _objc_msgSend$setGroupName:
++ _objc_msgSend$setHidden:
++ _objc_msgSend$setInitialVelocity:
++ _objc_msgSend$setIsSearching:
++ _objc_msgSend$setLineFragmentPadding:
++ _objc_msgSend$setLineSpacing:
++ _objc_msgSend$setLocations:
++ _objc_msgSend$setMask:
++ _objc_msgSend$setMass:
++ _objc_msgSend$setMenu:
++ _objc_msgSend$setNeedsLayout
++ _objc_msgSend$setNeedsUpdateContentUnavailableConfiguration
++ _objc_msgSend$setParagraphSpacing:
++ _objc_msgSend$setPaused:
++ _objc_msgSend$setPinToVisibleBounds:
++ _objc_msgSend$setPreferredFrameRateRange:
++ _objc_msgSend$setSearchText:
++ _objc_msgSend$setSelectable:
++ _objc_msgSend$setShowsMenuAsPrimaryAction:
++ _objc_msgSend$setShowsMenuFromSource:
++ _objc_msgSend$setStiffness:
++ _objc_msgSend$setText:
++ _objc_msgSend$setTextColor:
++ _objc_msgSend$setTextContainerInset:
++ _objc_msgSend$setTimingFunction:
++ _objc_msgSend$setTranscriptIdentifier:
++ _objc_msgSend$setTransform:
++ _objc_msgSend$setTranslatesAutoresizingMaskIntoConstraints:
++ _objc_msgSend$setUserInteractionEnabled:
++ _objc_msgSend$setValue:forKey:
++ _objc_msgSend$setVerticalScrollIndicatorInsets:
++ _objc_msgSend$setView:
++ _objc_msgSend$setVoice:
++ _objc_msgSend$setWritingToolsBehavior:
++ _objc_msgSend$settlingDuration
++ _objc_msgSend$sharedApplication
++ _objc_msgSend$sharedInstance
++ _objc_msgSend$speakUtterance:
++ _objc_msgSend$speechVoices
++ _objc_msgSend$springTimingParameters
++ _objc_msgSend$start
++ _objc_msgSend$startAnimation
++ _objc_msgSend$state
++ _objc_msgSend$stiffness
++ _objc_msgSend$stopSpeakingAtBoundary:
++ _objc_msgSend$storeTrackId
++ _objc_msgSend$streamURL
++ _objc_msgSend$string
++ _objc_msgSend$stringCompareOptions
++ _objc_msgSend$subscriptionActive
++ _objc_msgSend$subviews
++ _objc_msgSend$superview
++ _objc_msgSend$supplementaryViewForElementKind:atIndexPath:
++ _objc_msgSend$systemFontOfSize:
++ _objc_msgSend$systemFontSize
++ _objc_msgSend$systemLayoutSizeFittingSize:withHorizontalFittingPriority:verticalFittingPriority:
++ _objc_msgSend$systemYellowColor
++ _objc_msgSend$text
++ _objc_msgSend$textAttachment
++ _objc_msgSend$textContainer
++ _objc_msgSend$textContainerInset
++ _objc_msgSend$textContentManager
++ _objc_msgSend$textLayoutManager
++ _objc_msgSend$textRangeFromPosition:toPosition:
++ _objc_msgSend$textStorage
++ _objc_msgSend$timerWithTimeInterval:repeats:block:
++ _objc_msgSend$tintColor
++ _objc_msgSend$topAnchor
++ _objc_msgSend$trailingAnchor
++ _objc_msgSend$traitCollection
++ _objc_msgSend$transcriptCensorWords
++ _objc_msgSend$transcriptIdentifier
++ _objc_msgSend$transcriptSource
++ _objc_msgSend$userInterfaceIdiom
++ _objc_msgSend$userInterfaceStyle
++ _objc_msgSend$velocityInView:
++ _objc_msgSend$verticalScrollIndicatorInsets
++ _objc_msgSend$view
++ _objc_msgSend$whiteColor
++ _objc_msgSend$widthAnchor
++ _objc_msgSend$window
++ _objc_release_x9
++ _objc_retain_x3
++ _symbolic _____ 19PodcastsTranscripts15FooterTextStyle33_A778AF436787D96AC62C5085B7AFEED3LLV
++ _symbolic _____ 19PodcastsTranscripts15TextContentViewV010TranscriptD4FontV
++ _symbolic _____Sg 18PodcastsFoundation15TranscriptModelV8SentenceV10SplitStyleO
++ _symbolic _____Sg_ABt 18PodcastsFoundation7ChapterV7ArtworkO
++ _symbolic _____yAAyAAy__________G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA4TextV 19PodcastsTranscripts0eD4ViewV010TranscriptD4FontV AA16_BlendModeEffectV AA24_ForegroundStyleModifierV AA08AnyShapeO0V
++ _symbolic _____yAAyAAy_____y_____G_____y_____GG_____G_____G 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 19PodcastsTranscripts15FooterTextStyle33_A778AF436787D96AC62C5085B7AFEED3LLV AA022_EnvironmentKeyWritingF0V AA0J9AlignmentO AA16_FlexFrameLayoutV AA08_PaddingY0V
++ _symbolic _____yAAyAAy_____y_____yAAyAAy__________y_____GG_____G_AAy__________GSgAN_____SgtGG_____y_____SgGG_____y_____GGAIG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA7DividerV AA21_OverlayStyleModifierV AA017HierarchicalShapeJ0V AA14_PaddingLayoutV AA4TextV 19PodcastsTranscripts06FooterpJ033_A778AF436787D96AC62C5085B7AFEED3LLV AR19ReportConcernButtonATLLV AA022_EnvironmentKeyWritingK0V AA4FontV AA011_ForegroundjK0V AA03AnymJ0V
++ _symbolic _____yAAyAAy_____y_____y__________yAAyAAyAD_____G_____y_____GG_AKtGGG_____G_____ySny_____GSgGG_____y_____GG 7SwiftUI15ModifiedContentV AA6ZStackV AA012_ConditionalD0V AA4TextV AA9TupleViewV AA16_BlendModeEffectV AA01_g8RendererI8ModifierV 19PodcastsTranscripts010TranscriptgdM0V AP0gdI0V0qD4FontV AA010_AnimationN0V SS5IndexV AA017_PreferenceActionN0V AI9LayoutKeyV
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA4TextV 19PodcastsTranscripts0eD4ViewV010TranscriptD4FontV AA16_BlendModeEffectV
++ _symbolic _____yAAy__________y_____GG_____G_AAy__________GSgAL_____Sgt 7SwiftUI15ModifiedContentV AA7DividerV AA21_OverlayStyleModifierV AA017HierarchicalShapeG0V AA14_PaddingLayoutV AA4TextV 19PodcastsTranscripts06FootermG033_A778AF436787D96AC62C5085B7AFEED3LLV AN19ReportConcernButtonAPLLV
++ _symbolic _____yAAy_____y_____G_____y_____GG_____G 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 19PodcastsTranscripts15FooterTextStyle33_A778AF436787D96AC62C5085B7AFEED3LLV AA022_EnvironmentKeyWritingF0V AA0J9AlignmentO AA16_FlexFrameLayoutV
++ _symbolic _____yAAy_____y_____yAAyAAy__________y_____GG_____G_AAy__________GSgAN_____SgtGG_____y_____SgGG_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA7DividerV AA21_OverlayStyleModifierV AA017HierarchicalShapeJ0V AA14_PaddingLayoutV AA4TextV 19PodcastsTranscripts06FooterpJ033_A778AF436787D96AC62C5085B7AFEED3LLV AR19ReportConcernButtonATLLV AA022_EnvironmentKeyWritingK0V AA4FontV AA011_ForegroundjK0V AA03AnymJ0V
++ _symbolic _____yAAy_____y_____y__________yAAyAAyAD_____G_____y_____GG_AKtGGG_____G_____ySny_____GSgGG 7SwiftUI15ModifiedContentV AA6ZStackV AA012_ConditionalD0V AA4TextV AA9TupleViewV AA16_BlendModeEffectV AA01_g8RendererI8ModifierV 19PodcastsTranscripts010TranscriptgdM0V AP0gdI0V0qD4FontV AA010_AnimationN0V SS5IndexV
++ _symbolic _____y_____G 7SwiftUI21_ViewModifier_ContentV 19PodcastsTranscripts04TexteC0V010TranscriptE4FontV
++ _symbolic _____y_____G 7SwiftUI21_ViewModifier_ContentV 19PodcastsTranscripts15FooterTextStyle33_A778AF436787D96AC62C5085B7AFEED3LLV
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV AA13TextAlignmentO
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA4TextV 19PodcastsTranscripts0eD4ViewV010TranscriptD4FontV
++ _symbolic _____y___________y_____yADy__________y_____GG_____G_ADy__________GSgAO_____SgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV AA7DividerV AA21_OverlayStyleModifierV AA017HierarchicalShapeM0V AA08_PaddingG0V AA4TextV 19PodcastsTranscripts06FooterrM033_A778AF436787D96AC62C5085B7AFEED3LLV AV19ReportConcernButtonAXLLV
++ _symbolic _____y______ySo21MPModelPodcastEpisodeCSg_GSbG 7Combine10PublishersO3MapV AA9PublishedV9PublisherV
++ _symbolic _____y______y______ySo21MPModelPodcastEpisodeCSg_GSbGG 7Combine10PublishersO16RemoveDuplicatesV AC3MapV AA9PublishedV9PublisherV
++ _symbolic _____y______y______y______ySo21MPModelPodcastEpisodeCSg_GSbGGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC16RemoveDuplicatesV AC3MapV AA9PublishedV9PublisherV
++ _symbolic _____y_____y_____G_____y_____GG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 19PodcastsTranscripts15FooterTextStyle33_A778AF436787D96AC62C5085B7AFEED3LLV AA022_EnvironmentKeyWritingF0V AA0J9AlignmentO
++ _symbolic _____y_____y_____G_____y_____SgGG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 19PodcastsTranscripts04TextdE0V010TranscriptD4FontV AA022_EnvironmentKeyWritingF0V AA0K0V
++ _symbolic _____y_____y_____yAAyAAy__________y_____GG_____G_AAy__________GSgAN_____SgtGG_____y_____SgGG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA7DividerV AA21_OverlayStyleModifierV AA017HierarchicalShapeJ0V AA14_PaddingLayoutV AA4TextV 19PodcastsTranscripts06FooterpJ033_A778AF436787D96AC62C5085B7AFEED3LLV AR19ReportConcernButtonATLLV AA022_EnvironmentKeyWritingK0V AA4FontV
++ _symbolic _____y_____y_____yACy__________y_____GG_____G_ACy__________GSgAN_____SgtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA7DividerV AA21_OverlayStyleModifierV AA017HierarchicalShapeJ0V AA14_PaddingLayoutV AA4TextV 19PodcastsTranscripts06FooterpJ033_A778AF436787D96AC62C5085B7AFEED3LLV AR19ReportConcernButtonATLLV
++ _symbolic _____y_____y_____y__________yAAyAAyAD_____G_____y_____GG_AKtGGG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA012_ConditionalD0V AA4TextV AA9TupleViewV AA16_BlendModeEffectV AA01_g8RendererI8ModifierV 19PodcastsTranscripts010TranscriptgdM0V AP0gdI0V0qD4FontV
++ _type_layout_string 19PodcastsTranscripts15TextContentViewV010TranscriptD4FontV
++ _type_layout_string So7CGPointV
++ block_copy_helper.112
++ block_copy_helper.12
++ block_copy_helper.146
++ block_copy_helper.21
++ block_copy_helper.221
++ block_copy_helper.34
++ block_copy_helper.47
++ block_copy_helper.51
++ block_copy_helper.55
++ block_copy_helper.57
++ block_copy_helper.59
++ block_copy_helper.63
++ block_copy_helper.66
++ block_copy_helper.76
++ block_copy_helper.81
++ block_copy_helper.89
++ block_descriptor.114
++ block_descriptor.14
++ block_descriptor.148
++ block_descriptor.223
++ block_descriptor.23
++ block_descriptor.36
++ block_descriptor.49
++ block_descriptor.53
++ block_descriptor.57
++ block_descriptor.59
++ block_descriptor.61
++ block_descriptor.65
++ block_descriptor.68
++ block_descriptor.78
++ block_descriptor.83
++ block_descriptor.91
++ block_destroy_helper.113
++ block_destroy_helper.13
++ block_destroy_helper.147
++ block_destroy_helper.22
++ block_destroy_helper.222
++ block_destroy_helper.35
++ block_destroy_helper.48
++ block_destroy_helper.52
++ block_destroy_helper.56
++ block_destroy_helper.58
++ block_destroy_helper.60
++ block_destroy_helper.64
++ block_destroy_helper.67
++ block_destroy_helper.77
++ block_destroy_helper.82
++ block_destroy_helper.90
++ get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy19PodcastsTranscripts04TextdE0V010TranscriptD4FontVGAA022_EnvironmentKeyWritingF0VyAA0K0VSgGGAA0E0HPAkaSHPyHC_AqA0eF0HPyHCHC.43
++ get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA014_ViewModifier_D0Vy19PodcastsTranscripts15FooterTextStyle33_A778AF436787D96AC62C5085B7AFEED3LLVGAA022_EnvironmentKeyWritingF0VyAA0J9AlignmentOGGAA16_FlexFrameLayoutVGAA08_PaddingY0VGAA0E0HPAsaWHPApaWHPAjaWHPyHC_AoA0eF0HPyHCHC_AraXHPyHCHC_AuaXHPyHCHC.27
++ get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA4TextV19PodcastsTranscripts0eD4ViewV010TranscriptD4FontVGAA16_BlendModeEffectVGAA24_ForegroundStyleModifierVyAA08AnyShapeO0VGGAA0H0HPAnaUHPAkaUHPAeaUHPyHC_AjA0hP0HPyHCHC_AmaVHPyHCHC_AsaVHPyHCHC.7
++ get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA6VStackVyAA9TupleViewVyACyACyAA7DividerVAA21_OverlayStyleModifierVyAA017HierarchicalShapeJ0VGGAA14_PaddingLayoutVG_ACyAA4TextV19PodcastsTranscripts06FooterpJ033_A778AF436787D96AC62C5085B7AFEED3LLVGSgAzU19ReportConcernButtonAWLLVSgtGGAA022_EnvironmentKeyWritingK0VyAA4FontVSgGGAA011_ForegroundjK0VyAA03AnymJ0VGGAQGAA0G0HPA16_AAA18_HPA10_AAA18_HPA3_AAA18_HPyHC_A9_AA0gK0HPyHCHC_A15_AAA19_HPyHCHC_AqAA19_HPyHCHC.21
++ get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA6ZStackVyAA012_ConditionalD0VyAA4TextVAA9TupleViewVyACyACyAiA16_BlendModeEffectVGAA01_g8RendererI8ModifierVy19PodcastsTranscripts010TranscriptgdM0VGG_AUtGGGAQ0gdI0V0qD4FontVGAA010_AnimationN0VySnySS5IndexVGSgGGAA017_PreferenceActionN0VyAI9LayoutKeyVGGAA0I0HPA9_AAA16_HPA1_AAA16_HPAxAA16_HPyHC_A0_AA0iN0HPyHCHC_A8_AAA17_HPyHCHC_A14_AAA17_HPyHCHC.17
++ get_witness_table 7SwiftUI19_ConditionalContentVyACyACy19PodcastsTranscripts04TextD4ViewVAD04LinkdH0VGACyAD06SilentdH0VAD07SpeakerdH0VGGAD012ChapterTitleH0VGAA0H0HPAoaSHPAiaSHPAfaSHPyHC_AhaSHPyHCHC_AnaSHPAkaSHPyHC_AmaSHPyHCHCHC_AqaSHPyHCHC.251
++ objectdestroy.237Tm
++ objectdestroy.61Tm
+- _CGRectGetMidX
+- _CGRectIntersectsRect
+- _MPCPlayerItemDurationSnapshotGetElapsedTimeForCurrentTime
+- _OBJC_CLASS_$_PFCoreAnalyticsChannel
+- _OBJC_CLASS_$__TtC19PodcastsTranscripts15PassthroughView
+- _OBJC_CLASS_$__TtC19PodcastsTranscripts29PinnedActiveLinkContainerView
+- _OBJC_METACLASS_$__TtC19PodcastsTranscripts15PassthroughView
+- _OBJC_METACLASS_$__TtC19PodcastsTranscripts29PinnedActiveLinkContainerView
+- _OBJC_METACLASS_$__TtC19PodcastsTranscriptsP33_9705985A43AC9D9DC7CF5D9A39E12EF411HostingView
+- _UIViewIgnoresTouchEvents
+- __DATA__TtC19PodcastsTranscripts15PassthroughView
+- __DATA__TtC19PodcastsTranscripts29PinnedActiveLinkContainerView
+- __DATA__TtC19PodcastsTranscriptsP33_9705985A43AC9D9DC7CF5D9A39E12EF411HostingView
+- __DATA__TtCC19PodcastsTranscripts30NowPlayingAlignmentCoordinator23TimelineAlignerProvider
+- __INSTANCE_METHODS__TtC19PodcastsTranscripts15PassthroughView
+- __INSTANCE_METHODS__TtC19PodcastsTranscripts29PinnedActiveLinkContainerView
+- __INSTANCE_METHODS__TtC19PodcastsTranscriptsP33_9705985A43AC9D9DC7CF5D9A39E12EF411HostingView
+- __IVARS__TtC19PodcastsTranscripts29PinnedActiveLinkContainerView
+- __IVARS__TtC19PodcastsTranscriptsP33_9705985A43AC9D9DC7CF5D9A39E12EF411HostingView
+- __IVARS__TtCC19PodcastsTranscripts30NowPlayingAlignmentCoordinator23TimelineAlignerProvider
+- __METACLASS_DATA__TtC19PodcastsTranscripts15PassthroughView
+- __METACLASS_DATA__TtC19PodcastsTranscripts29PinnedActiveLinkContainerView
+- __METACLASS_DATA__TtC19PodcastsTranscriptsP33_9705985A43AC9D9DC7CF5D9A39E12EF411HostingView
+- __METACLASS_DATA__TtCC19PodcastsTranscripts30NowPlayingAlignmentCoordinator23TimelineAlignerProvider
+- ___swift_memcpy105_8
+- _malloc
+- _swift_deallocPartialClassInstance
+- _symbolic $s19PodcastsTranscripts37PinnedActiveLinkContainerViewDelegateP
+- _symbolic SDy__________G 19PodcastsTranscripts26TranscriptContentViewModelC2IDO AA07HostingE0022_9705985A43AC9D9DC7CF5K9A39E12EF4LLC
+- _symbolic SS______t 19PodcastsTranscripts26TextAttachmentViewProviderC0E4Data33_A444BD30B6F07B6696FBD161E1434929LLV
+- _symbolic Say_____G 19PodcastsTranscripts26TranscriptContentViewModelC2IDO
+- _symbolic SbSdc
+- _symbolic Sf
+- _symbolic Si6offset______7elementtSg 18PodcastsFoundation15TranscriptModelV4WordV
+- _symbolic So9SHCatalogCSg
+- _symbolic _____ 10ObjectiveC8ObjCBoolV
+- _symbolic _____ 10PodcastsUI21NowPlayingPlayerStyleO
+- _symbolic _____ 19PodcastsTranscripts11HostingView022_9705985A43AC9D9DC7CF5G9A39E12EF4LLC
+- _symbolic _____ 19PodcastsTranscripts11HostingView022_9705985A43AC9D9DC7CF5G9A39E12EF4LLC7ContextV
+- _symbolic _____ 19PodcastsTranscripts15PassthroughViewC
+- _symbolic _____ 19PodcastsTranscripts29PinnedActiveLinkContainerViewC
+- _symbolic _____ 19PodcastsTranscripts30NowPlayingAlignmentCoordinatorC23TimelineAlignerProviderC
+- _symbolic _____ So29MPCPlayerItemDurationSnapshota
+- _symbolic _____Sg 19PodcastsTranscripts29PinnedActiveLinkContainerViewC
+- _symbolic _____Sg 19PodcastsTranscripts30NowPlayingAlignmentCoordinatorC23TimelineAlignerProviderC
+- _symbolic _____Sg So29MPCPlayerItemDurationSnapshota
+- _symbolic _____SgXw 19PodcastsTranscripts29PinnedActiveLinkContainerViewC
+- _symbolic _____SgXw 19PodcastsTranscripts30NowPlayingAlignmentCoordinatorC23TimelineAlignerProviderC
+- _symbolic _____XDXMT 19PodcastsTranscripts30NowPlayingAlignmentCoordinatorC
+- _symbolic ______p 18PodcastsFoundation15TimelineAlignerP
+- _symbolic ______pSg 18PodcastsFoundation15TimelineAlignerP
+- _symbolic ______pSgXw 19PodcastsTranscripts37PinnedActiveLinkContainerViewDelegateP
+- _symbolic _____yAAyAAy__________y_____GG_____G_____GSg 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA16_FlexFrameLayoutV AA08_PaddingM0V
+- _symbolic _____yAAyAAy_____y_____yAAyAAy__________y_____GG_____G_AAyAAyAAy__________y_____GG_____GAIGSg_____SgtGGALy_____SgGG_____y_____GGAIG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA7DividerV AA21_OverlayStyleModifierV AA017HierarchicalShapeJ0V AA14_PaddingLayoutV AA4TextV AA022_EnvironmentKeyWritingK0V AA0P9AlignmentO AA010_FlexFrameO0V 19PodcastsTranscripts19ReportConcernButton33_A778AF436787D96AC62C5085B7AFEED3LLV AA4FontV AA011_ForegroundjK0V AA03AnymJ0V
+- _symbolic _____yAAyAAy_____y_____y__________yAAyAAyAD_____G_____y_____GG_AKtGGG_____y_____SgGG_____ySny_____GSgGG_____y_____GG 7SwiftUI15ModifiedContentV AA6ZStackV AA012_ConditionalD0V AA4TextV AA9TupleViewV AA16_BlendModeEffectV AA01_g8RendererI8ModifierV 19PodcastsTranscripts010TranscriptgdM0V AA022_EnvironmentKeyWritingN0V AA4FontV AA010_AnimationN0V SS5IndexV AA017_PreferenceActionN0V AI06LayoutS0V
+- _symbolic _____yAAy__________y_____GG_____G_AAyAAyAAy__________y_____GG_____GAGGSg_____Sgt 7SwiftUI15ModifiedContentV AA7DividerV AA21_OverlayStyleModifierV AA017HierarchicalShapeG0V AA14_PaddingLayoutV AA4TextV AA022_EnvironmentKeyWritingH0V AA0M9AlignmentO AA010_FlexFrameL0V 19PodcastsTranscripts19ReportConcernButton33_A778AF436787D96AC62C5085B7AFEED3LLV
+- _symbolic _____yAAy_____y_____yAAyAAy__________y_____GG_____G_AAyAAyAAy__________y_____GG_____GAIGSg_____SgtGGALy_____SgGG_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA7DividerV AA21_OverlayStyleModifierV AA017HierarchicalShapeJ0V AA14_PaddingLayoutV AA4TextV AA022_EnvironmentKeyWritingK0V AA0P9AlignmentO AA010_FlexFrameO0V 19PodcastsTranscripts19ReportConcernButton33_A778AF436787D96AC62C5085B7AFEED3LLV AA4FontV AA011_ForegroundjK0V AA03AnymJ0V
+- _symbolic _____yAAy_____y_____y__________yAAyAAyAD_____G_____y_____GG_AKtGGG_____y_____SgGG_____ySny_____GSgGG 7SwiftUI15ModifiedContentV AA6ZStackV AA012_ConditionalD0V AA4TextV AA9TupleViewV AA16_BlendModeEffectV AA01_g8RendererI8ModifierV 19PodcastsTranscripts010TranscriptgdM0V AA022_EnvironmentKeyWritingN0V AA4FontV AA010_AnimationN0V SS5IndexV
+- _symbolic _____y_____G 18PodcastsFoundation11CacheDomainV AA16AlignmentRequestV
+- _symbolic _____y_____Sg_G 7Combine9PublishedV9PublisherV So29MPCPlayerItemDurationSnapshota
+- _symbolic _____y______G 18PodcastsFoundation11CacheDomainV10DiskCachesV AA16AlignmentRequestV
+- _symbolic _____y__________G 18PodcastsFoundation13AnyAssetCacheV AA16AlignmentRequestV AA0d14ReaderTimelineF0C
+- _symbolic _____y__________G 18PodcastsFoundation14DiskAssetCacheC AA16AlignmentRequestV AA0d14ReaderTimelineF0C
+- _symbolic _____y__________G 7Combine19CurrentValueSubjectC 18PodcastsFoundation26AssetReaderTimelineAlignerC s5NeverO
+- _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA4TextV AA14_OpacityEffectV
+- _symbolic _____y__________G s18_DictionaryStorageC 19PodcastsTranscripts26TranscriptContentViewModelC2IDO AC07HostingG0022_9705985A43AC9D9DC7CF5M9A39E12EF4LLC
+- _symbolic _____y__________GSg 7Combine19CurrentValueSubjectC 18PodcastsFoundation26AssetReaderTimelineAlignerC s5NeverO
+- _symbolic _____y___________y_____yADy__________y_____GG_____G_ADyADyADy__________y_____GG_____GAJGSg_____SgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV AA7DividerV AA21_OverlayStyleModifierV AA017HierarchicalShapeM0V AA08_PaddingG0V AA4TextV AA022_EnvironmentKeyWritingN0V AA0R9AlignmentO AA010_FlexFrameG0V 19PodcastsTranscripts19ReportConcernButton33_A778AF436787D96AC62C5085B7AFEED3LLV
+- _symbolic _____y______pSgG 7Combine4JustV 18PodcastsFoundation15TimelineAlignerP
+- _symbolic _____y______pSgG 7Combine4JustV 18PodcastsFoundation17TimelineAlignmentP
+- _symbolic _____y______pSgG 7Combine9PublishedV 18PodcastsFoundation15TimelineAlignerP
+- _symbolic _____y______pSg_G 7Combine9PublishedV9PublisherV 18PodcastsFoundation15TimelineAlignerP
+- _symbolic _____y______p______pG 7Combine12AnyPublisherV 18PodcastsFoundation17TimelineAlignmentP s5ErrorP
+- _symbolic _____y______y_____Sg_GG 7Combine10PublishersO16RemoveDuplicatesV AA9PublishedV9PublisherV So29MPCPlayerItemDurationSnapshota
+- _symbolic _____y______y______pSg_GAC_pG 7Combine10PublishersO10CompactMapV AA9PublishedV9PublisherV 18PodcastsFoundation15TimelineAlignerP
+- _symbolic _____y______y______p______pG_____y______y______y______pSg_GAI_pGAD_pGG 7Combine10PublishersO7FlatMapV AA12AnyPublisherV 18PodcastsFoundation17TimelineAlignmentP s5ErrorP AC14SetFailureTypeV AC07CompactD0V AA9PublishedV0F0V AH0I7AlignerP
+- _symbolic _____y______y______y__________G______pG_____y______y______y_____y______y_____AG_pGG_Qo_So9SHCatalogCGGG 7Combine10PublishersO7FlatMapV AC14SetFailureTypeV AA19CurrentValueSubjectC 18PodcastsFoundation26AssetReaderTimelineAlignerC s5NeverO s5ErrorP AC6OutputV AC07CompactD0V AA9PublisherPAJE26replayingBufferedMulticastQryFQO AC12HandleEventsV AA03AnyU0V AJ14TranscriptDataO
+- _symbolic _____y______y______y______p______pG_____y______y______y______pSg_GAJ_pGAE_pGGAD_pSgG 7Combine10PublishersO3MapV AC04FlatC0V AA12AnyPublisherV 18PodcastsFoundation17TimelineAlignmentP s5ErrorP AC14SetFailureTypeV AC07CompactC0V AA9PublishedV0F0V AJ0I7AlignerP
+- _symbolic _____y______y______y______y__________G______pG_____y______y______y_____y______y_____AH_pGG_Qo_So9SHCatalogCGGG______pSgG 7Combine10PublishersO3MapV AC04FlatC0V AC14SetFailureTypeV AA19CurrentValueSubjectC 18PodcastsFoundation26AssetReaderTimelineAlignerC s5NeverO s5ErrorP AC6OutputV AC07CompactC0V AA9PublisherPALE26replayingBufferedMulticastQryFQO AC12HandleEventsV AA03AnyU0V AL14TranscriptDataO AL0oP0P
+- _symbolic _____y______y______y______y______p______pG_____y______y______y______pSg_GAK_pGAF_pGGAE_pSgG_____yAQGG 7Combine10PublishersO5CatchV AC3MapV AC04FlatD0V AA12AnyPublisherV 18PodcastsFoundation17TimelineAlignmentP s5ErrorP AC14SetFailureTypeV AC07CompactD0V AA9PublishedV0G0V AL0J7AlignerP AA4JustV
+- _symbolic _____y______y______y______y______y__________G______pG_____y______y______y_____y______y_____AI_pGG_Qo_So9SHCatalogCGGG______pSgG_____yAYGG 7Combine10PublishersO5CatchV AC3MapV AC04FlatD0V AC14SetFailureTypeV AA19CurrentValueSubjectC 18PodcastsFoundation26AssetReaderTimelineAlignerC s5NeverO s5ErrorP AC6OutputV AC07CompactD0V AA9PublisherPANE26replayingBufferedMulticastQryFQO AC12HandleEventsV AA03AnyV0V AN14TranscriptDataO AN0pQ0P AA4JustV
+- _symbolic _____y______y______y______y______y______p______pG_____y______y______y______pSg_GAL_pGAG_pGGAF_pSgG_____yARGGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC5CatchV AC3MapV AC04FlatF0V AA12AnyPublisherV 18PodcastsFoundation17TimelineAlignmentP s5ErrorP AC14SetFailureTypeV AC07CompactF0V AA9PublishedV0I0V AN0L7AlignerP AA4JustV
+- _symbolic _____y______y______y______y______y______y__________G______pG_____y______y______y_____y______y_____AJ_pGG_Qo_So9SHCatalogCGGG______pSgG_____yAZGGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC5CatchV AC3MapV AC04FlatF0V AC14SetFailureTypeV AA19CurrentValueSubjectC 18PodcastsFoundation26AssetReaderTimelineAlignerC s5NeverO s5ErrorP AC6OutputV AC07CompactF0V AA9PublisherPAPE26replayingBufferedMulticastQryFQO AC12HandleEventsV AA03AnyX0V AP14TranscriptDataO AP0rS0P AA4JustV
+- _symbolic _____y______y______y______y______y______y_____y______y___________pGG_Qo_So9SHCatalogCGG______pSgG_____yARGGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC5CatchV AC3MapV AC6OutputV AC07CompactF0V AA9PublisherP18PodcastsFoundationE26replayingBufferedMulticastQryFQO AC12HandleEventsV AA03AnyI0V AP14TranscriptDataO s5ErrorP AP15ScoutingAlignerP AA4JustV
+- _symbolic _____y______y______y______y______y_____y______y___________pGG_Qo_So9SHCatalogCGG______pSgG_____yAQGG 7Combine10PublishersO5CatchV AC3MapV AC6OutputV AC07CompactD0V AA9PublisherP18PodcastsFoundationE26replayingBufferedMulticastQryFQO AC12HandleEventsV AA03AnyG0V AN14TranscriptDataO s5ErrorP AN15ScoutingAlignerP AA4JustV
+- _symbolic _____y______y______y______y______y_____y______y___________pGG_Qo______SgGG_____yAMGGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC5CatchV AC6OutputV AC10CompactMapV AA9PublisherP18PodcastsFoundationE26replayingBufferedMulticastQryFQO AC12HandleEventsV AA03AnyI0V AN14TranscriptDataO s5ErrorP AN0R5ModelV AA4JustV
+- _symbolic _____y______y______y______y_____y______y___________pGG_Qo_So9SHCatalogCGG______pSgG 7Combine10PublishersO3MapV AC6OutputV AC07CompactC0V AA9PublisherP18PodcastsFoundationE26replayingBufferedMulticastQryFQO AC12HandleEventsV AA03AnyF0V AL14TranscriptDataO s5ErrorP AL15ScoutingAlignerP
+- _symbolic _____y______y______y______y_____y______y___________pGG_Qo______SgGG_____yALGG 7Combine10PublishersO5CatchV AC6OutputV AC10CompactMapV AA9PublisherP18PodcastsFoundationE26replayingBufferedMulticastQryFQO AC12HandleEventsV AA03AnyG0V AL14TranscriptDataO s5ErrorP AL0P5ModelV AA4JustV
+- _symbolic _____y______y______y_____y______y___________pGG_Qo_So9SHCatalogCGG 7Combine10PublishersO6OutputV AC10CompactMapV AA9PublisherP18PodcastsFoundationE26replayingBufferedMulticastQryFQO AC12HandleEventsV AA03AnyF0V AJ14TranscriptDataO s5ErrorP
+- _symbolic _____y______y______y_____y______y___________pGG_Qo______SgGG 7Combine10PublishersO6OutputV AC10CompactMapV AA9PublisherP18PodcastsFoundationE26replayingBufferedMulticastQryFQO AC12HandleEventsV AA03AnyF0V AJ14TranscriptDataO s5ErrorP AJ0O5ModelV
+- _symbolic _____y______y_____y______y___________pGG_Qo_So9SHCatalogCG 7Combine10PublishersO10CompactMapV AA9PublisherP18PodcastsFoundationE26replayingBufferedMulticastQryFQO AC12HandleEventsV AA03AnyE0V AH14TranscriptDataO s5ErrorP
+- _symbolic _____y______y_____y______y___________pGG_Qo______SgG 7Combine10PublishersO10CompactMapV AA9PublisherP18PodcastsFoundationE26replayingBufferedMulticastQryFQO AC12HandleEventsV AA03AnyE0V AH14TranscriptDataO s5ErrorP AH0N5ModelV
+- _symbolic _____y_____y______y___________pGG_Qo_ 7Combine9PublisherP18PodcastsFoundationE26replayingBufferedMulticastQryFQO AA10PublishersO12HandleEventsV AA03AnyB0V AD14TranscriptDataO s5ErrorP
+- _symbolic _____y_____y_____yAAyAAy__________y_____GG_____G_AAyAAyAAy__________y_____GG_____GAIGSg_____SgtGGALy_____SgGG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA7DividerV AA21_OverlayStyleModifierV AA017HierarchicalShapeJ0V AA14_PaddingLayoutV AA4TextV AA022_EnvironmentKeyWritingK0V AA0P9AlignmentO AA010_FlexFrameO0V 19PodcastsTranscripts19ReportConcernButton33_A778AF436787D96AC62C5085B7AFEED3LLV AA4FontV
+- _symbolic _____y_____y_____yACy__________y_____GG_____G_ACyACyACy__________y_____GG_____GAIGSg_____SgtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA7DividerV AA21_OverlayStyleModifierV AA017HierarchicalShapeJ0V AA14_PaddingLayoutV AA4TextV AA022_EnvironmentKeyWritingK0V AA0P9AlignmentO AA010_FlexFrameO0V 19PodcastsTranscripts19ReportConcernButton33_A778AF436787D96AC62C5085B7AFEED3LLV
+- _symbolic _____y_____y_____y__________yAAyAAyAD_____G_____y_____GG_AKtGGG_____y_____SgGG 7SwiftUI15ModifiedContentV AA6ZStackV AA012_ConditionalD0V AA4TextV AA9TupleViewV AA16_BlendModeEffectV AA01_g8RendererI8ModifierV 19PodcastsTranscripts010TranscriptgdM0V AA022_EnvironmentKeyWritingN0V AA4FontV
+- _type_layout_string 19PodcastsTranscripts11HostingView022_9705985A43AC9D9DC7CF5G9A39E12EF4LLC7ContextV
+- _type_layout_string So29MPCPlayerItemDurationSnapshota
+- _type_layout_string So6CGSizeV
+- block_copy_helper.10
+- block_copy_helper.110
+- block_copy_helper.153
+- block_copy_helper.16
+- block_copy_helper.20
+- block_copy_helper.224
+- block_copy_helper.33
+- block_copy_helper.46
+- block_copy_helper.50
+- block_copy_helper.54
+- block_copy_helper.56
+- block_copy_helper.58
+- block_copy_helper.62
+- block_copy_helper.65
+- block_copy_helper.75
+- block_copy_helper.80
+- block_copy_helper.87
+- block_copy_helper.91
+- block_descriptor.112
+- block_descriptor.12
+- block_descriptor.155
+- block_descriptor.18
+- block_descriptor.22
+- block_descriptor.226
+- block_descriptor.35
+- block_descriptor.48
+- block_descriptor.52
+- block_descriptor.56
+- block_descriptor.58
+- block_descriptor.60
+- block_descriptor.64
+- block_descriptor.67
+- block_descriptor.77
+- block_descriptor.82
+- block_descriptor.89
+- block_descriptor.93
+- block_destroy_helper.11
+- block_destroy_helper.111
+- block_destroy_helper.154
+- block_destroy_helper.17
+- block_destroy_helper.21
+- block_destroy_helper.225
+- block_destroy_helper.34
+- block_destroy_helper.47
+- block_destroy_helper.51
+- block_destroy_helper.55
+- block_destroy_helper.57
+- block_destroy_helper.59
+- block_destroy_helper.63
+- block_destroy_helper.66
+- block_destroy_helper.76
+- block_destroy_helper.81
+- block_destroy_helper.88
+- block_destroy_helper.92
+- get_witness_table 7SwiftUI15ModifiedContentVyACyAA4TextVAA14_OpacityEffectVGAA010_BlendModeG0VGAA4ViewHPAhaLHPAeaLHPyHC_AgA0J8ModifierHPyHCHC_AjaMHPyHCHC.2
+- get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA6VStackVyAA9TupleViewVyACyACyAA7DividerVAA21_OverlayStyleModifierVyAA017HierarchicalShapeJ0VGGAA14_PaddingLayoutVG_ACyACyACyAA4TextVAA022_EnvironmentKeyWritingK0VyAA0P9AlignmentOGGAA010_FlexFrameO0VGAQGSg19PodcastsTranscripts19ReportConcernButton33_A778AF436787D96AC62C5085B7AFEED3LLVSgtGGAVyAA4FontVSgGGAA011_ForegroundjK0VyAA03AnymJ0VGGAQGAA0G0HPA21_AAA23_HPA15_AAA23_HPA10_AAA23_HPyHC_A14_AA0gK0HPyHCHC_A20_AAA24_HPyHCHC_AqAA24_HPyHCHC.25
+- get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA6ZStackVyAA012_ConditionalD0VyAA4TextVAA9TupleViewVyACyACyAiA16_BlendModeEffectVGAA01_g8RendererI8ModifierVy19PodcastsTranscripts010TranscriptgdM0VGG_AUtGGGAA022_EnvironmentKeyWritingN0VyAA4FontVSgGGAA010_AnimationN0VySnySS5IndexVGSgGGAA017_PreferenceActionN0VyAI06LayoutS0VGGAA0I0HPA11_AAA18_HPA3_AAA18_HPAxAA18_HPyHC_A2_AA0iN0HPyHCHC_A10_AAA19_HPyHCHC_A16_AAA19_HPyHCHC.21
+- get_witness_table 7SwiftUI19_ConditionalContentVyACyACy19PodcastsTranscripts04TextD4ViewVAD04LinkdH0VGACyAD06SilentdH0VAD07SpeakerdH0VGGAD012ChapterTitleH0VGAA0H0HPAoaSHPAiaSHPAfaSHPyHC_AhaSHPyHCHC_AnaSHPAkaSHPyHC_AmaSHPyHCHCHC_AqaSHPyHCHC.252
+- objectdestroy.190Tm
+- objectdestroy.240Tm
+- objectdestroy.60Tm
+- objectdestroy.87Tm
+CStrings:
++ "Disclaimer added to the footer in the podcasts player transcript view when using a static transcript instead of a live transcript."
++ "PodcastsTranscripts"
++ "TRANSCRIPT_FOOTER_DISCLAIMER"
++ "_liveTranscriptSupported"
++ "fontWithName:size:"
++ "liveTranscriptSupported"
++ "podcasts.nowPlaying.transcriptCell.chapter"
++ "podcasts.nowPlaying.transcriptCell.link"
++ "podcasts.nowPlaying.transcriptCell.silence"
++ "podcasts.nowPlaying.transcriptCell.speaker"
++ "podcasts.nowPlaying.transcriptCell.text"
++ "podcasts.nowPlaying.transcriptCollectionView"
++ "podcasts.nowPlaying.transcriptContainer"
++ "scoutingSupported"
++ "setAccessibilityIdentifier:"
++ "streamURL"
+- "$__lazy_storage_$_pinnedActiveLinkView"
+- "Failed alignment: %s"
+- "Failed to construct timeline aligner: %s"
+- "PodcastsTranscripts.HostingView"
+- "PodcastsTranscripts.PinnedActiveLinkContainerView"
+- "PodcastsTranscripts/PinnedActiveLinkContainerView+PassthroughView.swift"
+- "PodcastsTranscripts/PinnedActiveLinkContainerView.swift"
+- "[%s] Finished creating timeline aligner. Starting alignment"
+- "_TtC19PodcastsTranscripts15PassthroughView"
+- "_TtC19PodcastsTranscripts29PinnedActiveLinkContainerView"
+- "_TtC19PodcastsTranscriptsP33_9705985A43AC9D9DC7CF5D9A39E12EF411HostingView"
+- "_TtCC19PodcastsTranscripts30NowPlayingAlignmentCoordinator23TimelineAlignerProvider"
+- "_fullTimelineAligner"
+- "alignmentCache"
+- "cache"
+- "catalog"
+- "controlsTopOriginY"
+- "episodeID"
+- "fullTimelineAligner"
+- "lastKnownBounds"
+- "linkViewIDs"
+- "linkViews"
+- "mainScreen"
+- "pinnedLinkID"
+- "playerStyle"
+- "shouldResetAlignment"
+- "snapshot"
+- "supportsBlueMoon"
+- "timelineAlignerProvider"
+- "underlyingView"
+
+```

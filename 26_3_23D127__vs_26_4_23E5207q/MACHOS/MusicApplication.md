@@ -1,0 +1,4823 @@
+## MusicApplication
+
+> `/private/var/staged_system_apps/Music.app/Frameworks/MusicApplication.framework/MusicApplication`
+
+```diff
+
+-4025.400.9.0.0
+-  __TEXT.__text: 0xab0c54
+-  __TEXT.__auth_stubs: 0xaa40
+-  __TEXT.__objc_stubs: 0x2d80
+-  __TEXT.__objc_methlist: 0x10b3c
+-  __TEXT.__objc_classname: 0xd8c
+-  __TEXT.__objc_methname: 0x1c84a
+-  __TEXT.__objc_methtype: 0x6e21
+-  __TEXT.__const: 0x52862
+-  __TEXT.__cstring: 0x7749a
++4025.510.51.2.0
++  __TEXT.__text: 0xab7230
++  __TEXT.__auth_stubs: 0xada0
++  __TEXT.__objc_stubs: 0x17200
++  __TEXT.__objc_methlist: 0x10cb4
++  __TEXT.__objc_classname: 0xc205
++  __TEXT.__objc_methname: 0x31745
++  __TEXT.__const: 0x551a2
++  __TEXT.__cstring: 0x5778e
+   __TEXT.__ustring: 0x2a2
+-  __TEXT.__gcc_except_tab: 0x23c
+-  __TEXT.__oslogstring: 0xdcba
+-  __TEXT.__swift5_typeref: 0x33294
+-  __TEXT.__constg_swiftt: 0x32c64
+-  __TEXT.__swift5_builtin: 0x13d8
+-  __TEXT.__swift5_reflstr: 0x29a05
+-  __TEXT.__swift5_fieldmd: 0x237b4
+-  __TEXT.__swift5_assocty: 0x4b48
+-  __TEXT.__swift5_proto: 0x3188
+-  __TEXT.__swift5_types: 0x2248
+-  __TEXT.__swift5_capture: 0x14e28
+-  __TEXT.__swift5_protos: 0x3bc
++  __TEXT.__objc_methtype: 0x8e48
++  __TEXT.__gcc_except_tab: 0x238
++  __TEXT.__oslogstring: 0xdd5a
++  __TEXT.__swift5_typeref: 0x33e78
++  __TEXT.__constg_swiftt: 0x337c8
++  __TEXT.__swift5_builtin: 0x1414
++  __TEXT.__swift5_reflstr: 0x2a185
++  __TEXT.__swift5_fieldmd: 0x241e4
++  __TEXT.__swift5_assocty: 0x4d60
++  __TEXT.__swift5_proto: 0x3370
++  __TEXT.__swift5_types: 0x2300
++  __TEXT.__swift5_capture: 0x15300
++  __TEXT.__swift5_protos: 0x3cc
+   __TEXT.__swift_as_entry: 0x9b0
+-  __TEXT.__swift_as_ret: 0x834
+-  __TEXT.__swift5_mpenum: 0x398
+-  __TEXT.__unwind_info: 0x21c60
+-  __TEXT.__eh_frame: 0x1ab0c
+-  __DATA_CONST.__auth_got: 0x5530
+-  __DATA_CONST.__got: 0x4728
+-  __DATA_CONST.__auth_ptr: 0x52b8
+-  __DATA_CONST.__const: 0x6d628
++  __TEXT.__swift_as_ret: 0x810
++  __TEXT.__swift5_mpenum: 0x3b8
++  __TEXT.__unwind_info: 0x21d78
++  __TEXT.__eh_frame: 0x1a5a8
++  __DATA_CONST.__auth_got: 0x56e0
++  __DATA_CONST.__got: 0x4890
++  __DATA_CONST.__auth_ptr: 0x5548
++  __DATA_CONST.__const: 0x6e9e0
+   __DATA_CONST.__cfstring: 0xcc0
+-  __DATA_CONST.__objc_classlist: 0x16e0
+-  __DATA_CONST.__objc_catlist: 0x140
++  __DATA_CONST.__objc_classlist: 0x16f8
++  __DATA_CONST.__objc_catlist: 0x130
+   __DATA_CONST.__objc_protolist: 0x8d8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x468
+   __DATA_CONST.__objc_superrefs: 0x58
+   __DATA_CONST.__objc_doubleobj: 0x20
+-  __DATA.__objc_const: 0x3dba8
+-  __DATA.__objc_selrefs: 0x83d0
++  __DATA.__objc_const: 0x3e050
++  __DATA.__objc_selrefs: 0x83d8
+   __DATA.__objc_ivar: 0x104
+-  __DATA.__objc_data: 0x40560
+-  __DATA.__data: 0x43198
+-  __DATA.__objc_stublist: 0x160
+-  __DATA.__bss: 0x47728
+-  __DATA.__common: 0x5230
++  __DATA.__objc_data: 0x40988
++  __DATA.__data: 0x43c60
++  __DATA.__objc_stublist: 0x158
++  __DATA.__bss: 0x4b270
++  __DATA.__common: 0x56b8
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+
+   - /System/Library/PrivateFrameworks/CarPlayServices.framework/CarPlayServices
+   - /System/Library/PrivateFrameworks/CarPlayUI.framework/CarPlayUI
+   - /System/Library/PrivateFrameworks/Celestial.framework/Celestial
+-  - /System/Library/PrivateFrameworks/CollectionsInternal.framework/CollectionsInternal
+   - /System/Library/PrivateFrameworks/ControlCenterServices.framework/ControlCenterServices
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /System/Library/PrivateFrameworks/CoreBrightness.framework/CoreBrightness
+
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftAppleArchive.dylib
++  - /usr/lib/swift/libswiftCallKit.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0D6DD0B3-8C25-3DB8-A66A-A6BEC19CC551
+-  Functions: 50475
+-  Symbols:   22964
+-  CStrings:  13247
++  UUID: CE8B9663-1CCF-3640-8D82-164954DDEF24
++  Functions: 51246
++  Symbols:   25612
++  CStrings:  12969
+ 
+Symbols:
++ _CGColorCreateCopyByMatchingToColorSpace
++ _CGColorCreateCopyWithAlpha
++ _CGColorCreateGenericGray
++ _CGColorCreateGenericRGB
++ _CGColorGetAlpha
++ _CGColorSpaceCreateWithName
++ _CGContextAddEllipseInRect
++ _CTFontGetAscent
++ _CTFontGetDescent
++ _CTFontGetLeading
++ _OBJC_CLASS_$_MusicDespacitoContentLayer
++ _OBJC_CLASS_$_MusicInstrumentalContentLayer
++ _OBJC_CLASS_$_MusicSBS_TextContentLayer
++ _OBJC_CLASS_$_MusicTextContentLayer
++ _OBJC_CLASS_$__TtC7LyricsX12TextKitLabel
++ _OBJC_CLASS_$__TtC7LyricsX16NoAnimationLayer
++ _OBJC_CLASS_$__TtC7LyricsX21SyncedLyricsLineLayer
++ _OBJC_CLASS_$__TtC7LyricsX25LineProgressGradientLayer
++ _OBJC_CLASS_$__TtC7LyricsX36SyncedLyricsLineAccessibilityElement
++ _OBJC_CLASS_$__TtCCC7LyricsX21SyncedLyricsLineLayer13TextContainer18TextContainerLayer
++ _OBJC_CLASS_$__TtCCC7LyricsX21SyncedLyricsLineLayer20SBS_TextContentLayer9TextLayer
++ _OBJC_CLASS_$__TtCCC7LyricsX21SyncedLyricsLineLayer4Line9LineLayer
++ _OBJC_CLASS_$__TtCCC7LyricsX21SyncedLyricsLineLayer4Word9WordLayer
++ _OBJC_CLASS_$__TtCCC7LyricsX21SyncedLyricsLineLayer5Glyph10GlyphLayer
++ _OBJC_CLASS_$__TtCCC7LyricsX21SyncedLyricsLineLayer8Syllable13SyllableLayer
++ _OBJC_CLASS_$__TtCCC7LyricsX21SyncedLyricsLineLayer8Syllable22SyllableContainerLayer
++ _OBJC_CLASS_$__TtCE14MusicUtilitiesaSo8CTRunRef15PartialRunLayer
++ _OBJC_METACLASS_$_CAGradientLayer
++ _OBJC_METACLASS_$_MusicDespacitoContentLayer
++ _OBJC_METACLASS_$_MusicInstrumentalContentLayer
++ _OBJC_METACLASS_$_MusicSBS_TextContentLayer
++ _OBJC_METACLASS_$_MusicTextContentLayer
++ _OBJC_METACLASS_$__TtC7LyricsX12TextKitLabel
++ _OBJC_METACLASS_$__TtC7LyricsX16NoAnimationLayer
++ _OBJC_METACLASS_$__TtC7LyricsX21SyncedLyricsLineLayer
++ _OBJC_METACLASS_$__TtC7LyricsX25LineProgressGradientLayer
++ _OBJC_METACLASS_$__TtC7LyricsX36SyncedLyricsLineAccessibilityElement
++ _OBJC_METACLASS_$__TtCC7LyricsX25LineProgressGradientLayerP33_9D7C40643C469448EA951CEB9521562F24NoAnimationGradientLayer
++ _OBJC_METACLASS_$__TtCC7LyricsX26SyncedLyricsViewControllerP33_9CF5ACAE7175CE2250D4BE588FAFDE9510ScrollView
++ _OBJC_METACLASS_$__TtCCC7LyricsX21SyncedLyricsLineLayer13TextContainer18TextContainerLayer
++ _OBJC_METACLASS_$__TtCCC7LyricsX21SyncedLyricsLineLayer20SBS_TextContentLayer9TextLayer
++ _OBJC_METACLASS_$__TtCCC7LyricsX21SyncedLyricsLineLayer4Line9LineLayer
++ _OBJC_METACLASS_$__TtCCC7LyricsX21SyncedLyricsLineLayer4Word9WordLayer
++ _OBJC_METACLASS_$__TtCCC7LyricsX21SyncedLyricsLineLayer5Glyph10GlyphLayer
++ _OBJC_METACLASS_$__TtCCC7LyricsX21SyncedLyricsLineLayer8Syllable13SyllableLayer
++ _OBJC_METACLASS_$__TtCCC7LyricsX21SyncedLyricsLineLayer8Syllable22SyllableContainerLayer
++ _OBJC_METACLASS_$__TtCE14MusicUtilitiesaSo8CTRunRef15PartialRunLayer
++ _PROTOCOLS__TtC11MusicJSCore26JSApplicationMessageTarget.1
++ _PROTOCOLS__TtC14MusicUtilities28CAAnimationCompletionHandler.16
++ _PROTOCOLS__TtC16MusicApplication30BrowseCollectionViewController.34
++ _PROTOCOLS__TtC17ShaderFallbackKit14ShaderFallback.11
++ _PROTOCOLS__TtC9MusicCore18PlaybackController.31
++ _PROTOCOLS__TtCC16MusicApplication23LibrarySearchControllerP33_74DC0E8E86C2700EAF59346E7D7979E311BarDelegate.35
++ _PROTOCOLS__TtCC16MusicApplication24ArtistListViewControllerP33_14F7FC81E58897F8EFD0C8B2396AB6B410DataSource.27
++ _PROTOCOLS__TtCC9MusicCore22GroupActivitiesManagerP33_4D3C9D6548BB3147DD0F1D268040B2BF23ArtworkCachingReference.90
++ _PROTOCOLS__TtCC9MusicCore30ExplicitRestrictionsControllerP33_49A4F392108DD8BCF77701E27C86571422AgeVerificationWrapper.36
++ _PROTOCOLS__TtCO9MusicCore14PlaylistCovers17ArtworkDataSource.31
++ _PROTOCOLS__TtCVE16MusicApplicationCSo13MPModelArtist17ListConfiguration4View.30
++ __DATA_MusicDespacitoContentLayer
++ __DATA_MusicInstrumentalContentLayer
++ __DATA_MusicSBS_TextContentLayer
++ __DATA_MusicTextContentLayer
++ __DATA__TtC7LyricsX12TextKitLabel
++ __DATA__TtC7LyricsX16NoAnimationLayer
++ __DATA__TtC7LyricsX21LayerPropertyAnimator
++ __DATA__TtC7LyricsX21SyncedLyricsLineLayer
++ __DATA__TtC7LyricsX25LineProgressGradientLayer
++ __DATA__TtC7LyricsX35SyncedLyricsVisualExperienceManager
++ __DATA__TtC7LyricsX36SyncedLyricsLineAccessibilityElement
++ __DATA__TtCC7LyricsX21SyncedLyricsLineLayer13TextContainer
++ __DATA__TtCC7LyricsX21SyncedLyricsLineLayer4Line
++ __DATA__TtCC7LyricsX21SyncedLyricsLineLayer4Word
++ __DATA__TtCC7LyricsX21SyncedLyricsLineLayer5Glyph
++ __DATA__TtCC7LyricsX21SyncedLyricsLineLayer8Syllable
++ __DATA__TtCC7LyricsX25LineProgressGradientLayerP33_9D7C40643C469448EA951CEB9521562F24NoAnimationGradientLayer
++ __DATA__TtCC7LyricsX26SyncedLyricsViewControllerP33_9CF5ACAE7175CE2250D4BE588FAFDE9510ScrollView
++ __DATA__TtCC7LyricsX35SyncedLyricsVisualExperienceManagerP33_D5BD2FE79A3A51CE2128A532331EB9EA20StaticTimingProvider
++ __DATA__TtCCC7LyricsX21SyncedLyricsLineLayer13TextContainer18TextContainerLayer
++ __DATA__TtCCC7LyricsX21SyncedLyricsLineLayer20SBS_TextContentLayer9TextLayer
++ __DATA__TtCCC7LyricsX21SyncedLyricsLineLayer4Line9LineLayer
++ __DATA__TtCCC7LyricsX21SyncedLyricsLineLayer4Word9WordLayer
++ __DATA__TtCCC7LyricsX21SyncedLyricsLineLayer5Glyph10GlyphLayer
++ __DATA__TtCCC7LyricsX21SyncedLyricsLineLayer8Syllable13SyllableLayer
++ __DATA__TtCCC7LyricsX21SyncedLyricsLineLayer8Syllable22SyllableContainerLayer
++ __DATA__TtCE14MusicUtilitiesaSo8CTRunRef15PartialRunLayer
++ __DATA__TtCV21MusicSwiftCollections10_HashTable7Storage
++ __INSTANCE_METHODS_MusicDespacitoContentLayer
++ __INSTANCE_METHODS_MusicInstrumentalContentLayer
++ __INSTANCE_METHODS_MusicSBS_TextContentLayer
++ __INSTANCE_METHODS_MusicTextContentLayer
++ __INSTANCE_METHODS__TtC7LyricsX12TextKitLabel
++ __INSTANCE_METHODS__TtC7LyricsX16NoAnimationLayer
++ __INSTANCE_METHODS__TtC7LyricsX21SyncedLyricsLineLayer
++ __INSTANCE_METHODS__TtC7LyricsX25LineProgressGradientLayer
++ __INSTANCE_METHODS__TtC7LyricsX36SyncedLyricsLineAccessibilityElement
++ __INSTANCE_METHODS__TtCC7LyricsX25LineProgressGradientLayerP33_9D7C40643C469448EA951CEB9521562F24NoAnimationGradientLayer
++ __INSTANCE_METHODS__TtCC7LyricsX26SyncedLyricsViewControllerP33_9CF5ACAE7175CE2250D4BE588FAFDE9510ScrollView
++ __INSTANCE_METHODS__TtCCC7LyricsX21SyncedLyricsLineLayer13TextContainer18TextContainerLayer
++ __INSTANCE_METHODS__TtCCC7LyricsX21SyncedLyricsLineLayer20SBS_TextContentLayer9TextLayer
++ __INSTANCE_METHODS__TtCCC7LyricsX21SyncedLyricsLineLayer4Line9LineLayer
++ __INSTANCE_METHODS__TtCCC7LyricsX21SyncedLyricsLineLayer4Word9WordLayer
++ __INSTANCE_METHODS__TtCCC7LyricsX21SyncedLyricsLineLayer5Glyph10GlyphLayer
++ __INSTANCE_METHODS__TtCCC7LyricsX21SyncedLyricsLineLayer8Syllable13SyllableLayer
++ __INSTANCE_METHODS__TtCCC7LyricsX21SyncedLyricsLineLayer8Syllable22SyllableContainerLayer
++ __INSTANCE_METHODS__TtCE14MusicUtilitiesaSo8CTRunRef15PartialRunLayer
++ __IVARS_MusicDespacitoContentLayer
++ __IVARS_MusicInstrumentalContentLayer
++ __IVARS_MusicSBS_TextContentLayer
++ __IVARS_MusicTextContentLayer
++ __IVARS__TtC7LyricsX12TextKitLabel
++ __IVARS__TtC7LyricsX21LayerPropertyAnimator
++ __IVARS__TtC7LyricsX21SyncedLyricsLineLayer
++ __IVARS__TtC7LyricsX25LineProgressGradientLayer
++ __IVARS__TtC7LyricsX35SyncedLyricsVisualExperienceManager
++ __IVARS__TtC7LyricsX36SyncedLyricsLineAccessibilityElement
++ __IVARS__TtCC7LyricsX21SyncedLyricsLineLayer13TextContainer
++ __IVARS__TtCC7LyricsX21SyncedLyricsLineLayer4Line
++ __IVARS__TtCC7LyricsX21SyncedLyricsLineLayer4Word
++ __IVARS__TtCC7LyricsX21SyncedLyricsLineLayer5Glyph
++ __IVARS__TtCC7LyricsX21SyncedLyricsLineLayer8Syllable
++ __IVARS__TtCC7LyricsX35SyncedLyricsVisualExperienceManagerP33_D5BD2FE79A3A51CE2128A532331EB9EA20StaticTimingProvider
++ __IVARS__TtCCC7LyricsX21SyncedLyricsLineLayer20SBS_TextContentLayer9TextLayer
++ __IVARS__TtCCC7LyricsX21SyncedLyricsLineLayer4Line9LineLayer
++ __IVARS__TtCCC7LyricsX21SyncedLyricsLineLayer5Glyph10GlyphLayer
++ __IVARS__TtCCC7LyricsX21SyncedLyricsLineLayer8Syllable22SyllableContainerLayer
++ __IVARS__TtCE14MusicUtilitiesaSo8CTRunRef15PartialRunLayer
++ __METACLASS_DATA_MusicDespacitoContentLayer
++ __METACLASS_DATA_MusicInstrumentalContentLayer
++ __METACLASS_DATA_MusicSBS_TextContentLayer
++ __METACLASS_DATA_MusicTextContentLayer
++ __METACLASS_DATA__TtC7LyricsX12TextKitLabel
++ __METACLASS_DATA__TtC7LyricsX16NoAnimationLayer
++ __METACLASS_DATA__TtC7LyricsX21LayerPropertyAnimator
++ __METACLASS_DATA__TtC7LyricsX21SyncedLyricsLineLayer
++ __METACLASS_DATA__TtC7LyricsX25LineProgressGradientLayer
++ __METACLASS_DATA__TtC7LyricsX35SyncedLyricsVisualExperienceManager
++ __METACLASS_DATA__TtC7LyricsX36SyncedLyricsLineAccessibilityElement
++ __METACLASS_DATA__TtCC7LyricsX21SyncedLyricsLineLayer13TextContainer
++ __METACLASS_DATA__TtCC7LyricsX21SyncedLyricsLineLayer4Line
++ __METACLASS_DATA__TtCC7LyricsX21SyncedLyricsLineLayer4Word
++ __METACLASS_DATA__TtCC7LyricsX21SyncedLyricsLineLayer5Glyph
++ __METACLASS_DATA__TtCC7LyricsX21SyncedLyricsLineLayer8Syllable
++ __METACLASS_DATA__TtCC7LyricsX25LineProgressGradientLayerP33_9D7C40643C469448EA951CEB9521562F24NoAnimationGradientLayer
++ __METACLASS_DATA__TtCC7LyricsX26SyncedLyricsViewControllerP33_9CF5ACAE7175CE2250D4BE588FAFDE9510ScrollView
++ __METACLASS_DATA__TtCC7LyricsX35SyncedLyricsVisualExperienceManagerP33_D5BD2FE79A3A51CE2128A532331EB9EA20StaticTimingProvider
++ __METACLASS_DATA__TtCCC7LyricsX21SyncedLyricsLineLayer13TextContainer18TextContainerLayer
++ __METACLASS_DATA__TtCCC7LyricsX21SyncedLyricsLineLayer20SBS_TextContentLayer9TextLayer
++ __METACLASS_DATA__TtCCC7LyricsX21SyncedLyricsLineLayer4Line9LineLayer
++ __METACLASS_DATA__TtCCC7LyricsX21SyncedLyricsLineLayer4Word9WordLayer
++ __METACLASS_DATA__TtCCC7LyricsX21SyncedLyricsLineLayer5Glyph10GlyphLayer
++ __METACLASS_DATA__TtCCC7LyricsX21SyncedLyricsLineLayer8Syllable13SyllableLayer
++ __METACLASS_DATA__TtCCC7LyricsX21SyncedLyricsLineLayer8Syllable22SyllableContainerLayer
++ __METACLASS_DATA__TtCE14MusicUtilitiesaSo8CTRunRef15PartialRunLayer
++ __METACLASS_DATA__TtCV21MusicSwiftCollections10_HashTable7Storage
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_CAAnimatableValue
++ __OBJC_$_PROTOCOL_METHOD_TYPES_CAAnimatableValue
++ __OBJC_$_PROTOCOL_REFS_CAAnimatableValue
++ __OBJC_LABEL_PROTOCOL_$_CAAnimatableValue
++ __OBJC_PROTOCOL_$_CAAnimatableValue
++ __PROPERTIES_MusicDespacitoContentLayer
++ __PROPERTIES__TtCC7LyricsX26SyncedLyricsViewControllerP33_9CF5ACAE7175CE2250D4BE588FAFDE9510ScrollView
++ ___sincos_stret
++ ___swift_memcpy880_8
++ ___unnamed_12
++ ___unnamed_38
++ ___unnamed_39
++ __swift_FORCE_LOAD_$_swiftAccelerate_$_MusicSiriDonations
++ __swift_FORCE_LOAD_$_swiftCallKit
++ __swift_FORCE_LOAD_$_swiftCallKit_$_MusicApplication
++ __swift_FORCE_LOAD_$_swiftCoreFoundation_$_MusicSiriCore
++ __swift_FORCE_LOAD_$_swiftCoreFoundation_$_MusicSiriDonations
++ __swift_FORCE_LOAD_$_swiftCoreImage_$_MusicSiriDonations
++ __swift_FORCE_LOAD_$_swiftCoreLocation_$_MusicSiriDonations
++ __swift_FORCE_LOAD_$_swiftDispatch_$_MusicSiriCore
++ __swift_FORCE_LOAD_$_swiftDispatch_$_MusicSiriDonations
++ __swift_FORCE_LOAD_$_swiftFoundation_$_MusicSiriCore
++ __swift_FORCE_LOAD_$_swiftFoundation_$_MusicSiriDonations
++ __swift_FORCE_LOAD_$_swiftIntents_$_MusicSiriDonations
++ __swift_FORCE_LOAD_$_swiftMetal_$_MusicSiriDonations
++ __swift_FORCE_LOAD_$_swiftOSLog_$_MusicSiriCore
++ __swift_FORCE_LOAD_$_swiftOSLog_$_MusicSiriDonations
++ __swift_FORCE_LOAD_$_swiftObjectiveC_$_MusicSiriCore
++ __swift_FORCE_LOAD_$_swiftObjectiveC_$_MusicSiriDonations
++ __swift_FORCE_LOAD_$_swiftQuartzCore_$_MusicSiriDonations
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_MusicSiriDonations
++ __swift_FORCE_LOAD_$_swiftXPC_$_MusicSiriCore
++ __swift_FORCE_LOAD_$_swiftXPC_$_MusicSiriDonations
++ __swift_FORCE_LOAD_$_swift_Builtin_float_$_MusicSiriCore
++ __swift_FORCE_LOAD_$_swift_Builtin_float_$_MusicSiriDonations
++ __swift_FORCE_LOAD_$_swiftos_$_MusicSiriCore
++ __swift_FORCE_LOAD_$_swiftos_$_MusicSiriDonations
++ __swift_FORCE_LOAD_$_swiftsimd_$_MusicSiriDonations
++ __swift_get_extra_inhabitant_index.61Tm
++ __swift_store_extra_inhabitant_index.62Tm
++ _arc4random_uniform
++ _associated conformance 11MusicCoreUI11CornerShapeV05SwiftC0010InsettableE0AA05InsetE0AdEP_AdE
++ _associated conformance 11MusicCoreUI11CornerShapeV05SwiftC0010InsettableE0AaD0E0
++ _associated conformance 11MusicCoreUI11CornerShapeV05SwiftC00E0AaD10Animatable
++ _associated conformance 11MusicCoreUI11CornerShapeV05SwiftC00E0AaD4View
++ _associated conformance 11MusicCoreUI11CornerShapeV05SwiftC010AnimatableAA0G4DataAdEP_AD16VectorArithmetic
++ _associated conformance 11MusicCoreUI11CornerShapeV05SwiftC04ViewAA4BodyAdEP_AdE
++ _associated conformance 11MusicCoreUI11ImagePickerV10SourceTypeOs12IdentifiableAA2IDsAFP_SH
++ _associated conformance 11MusicCoreUI23JiggleAnimationModifierV05SwiftC004ViewF0AA4BodyAdEP_AD0H0
++ _associated conformance 14MusicUtilities12CodableImageV10CodingKeys33_734AD650B4D91A7D23B0DE0A13674DF9LLOSHAASQ
++ _associated conformance 14MusicUtilities12CodableImageV10CodingKeys33_734AD650B4D91A7D23B0DE0A13674DF9LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 14MusicUtilities12CodableImageV10CodingKeys33_734AD650B4D91A7D23B0DE0A13674DF9LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14MusicUtilities5CurveO8ModifierOSHAASQ
++ _associated conformance 14MusicUtilities7FeatureO0A4CoreE6AnthemV5Force33_7A3383EBD475E02A83D8E4084BC19377LLOSHADSQ
++ _associated conformance 18MusicSiriDonations015OpenDestinationB6ActionV0E0OSHAASQ
++ _associated conformance 18MusicSiriDonations018UpdateItemAffinityB6ActionV5StateOSHAASQ
++ _associated conformance 18MusicSiriDonations08PlayItemB6ActionV13QueueLocationOSHAASQ
++ _associated conformance 18MusicSiriDonations08PlayItemB6ActionV17PlaybackAttributeOSHAASQ
++ _associated conformance 21MusicSwiftCollections10OrderedSetV11SubSequenceVyx_GSHAASQ
++ _associated conformance 21MusicSwiftCollections10OrderedSetV11SubSequenceVyx_GSKAA7IndicesSl_SK
++ _associated conformance 21MusicSwiftCollections10OrderedSetV11SubSequenceVyx_GSKAASl
++ _associated conformance 21MusicSwiftCollections10OrderedSetV11SubSequenceVyx_GSKAaDSl_SK
++ _associated conformance 21MusicSwiftCollections10OrderedSetV11SubSequenceVyx_GSTAA8IteratorST_St
++ _associated conformance 21MusicSwiftCollections10OrderedSetV11SubSequenceVyx_GSkAA7IndicesSl_Sk
++ _associated conformance 21MusicSwiftCollections10OrderedSetV11SubSequenceVyx_GSkAASK
++ _associated conformance 21MusicSwiftCollections10OrderedSetV11SubSequenceVyx_GSkAaDSl_Sk
++ _associated conformance 21MusicSwiftCollections10OrderedSetV11SubSequenceVyx_GSlAA5IndexSl_SL
++ _associated conformance 21MusicSwiftCollections10OrderedSetV11SubSequenceVyx_GSlAA7IndicesSl_Sl
++ _associated conformance 21MusicSwiftCollections10OrderedSetV11SubSequenceVyx_GSlAAST
++ _associated conformance 21MusicSwiftCollections10OrderedSetV11SubSequenceVyx_GSlAaDSl_Sl
++ _associated conformance 21MusicSwiftCollections10OrderedSetV13UnorderedViewVyx_GSHAASQ
++ _associated conformance 21MusicSwiftCollections10OrderedSetV13UnorderedViewVyx_Gs0E7AlgebraAASQ
++ _associated conformance 21MusicSwiftCollections10OrderedSetV13UnorderedViewVyx_Gs0E7AlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 21MusicSwiftCollections10OrderedSetVyxGSHAASQ
++ _associated conformance 21MusicSwiftCollections10OrderedSetVyxGSKAA11SubSequenceSl_SK
++ _associated conformance 21MusicSwiftCollections10OrderedSetVyxGSKAA7IndicesSl_SK
++ _associated conformance 21MusicSwiftCollections10OrderedSetVyxGSKAASl
++ _associated conformance 21MusicSwiftCollections10OrderedSetVyxGSTAA8IteratorST_St
++ _associated conformance 21MusicSwiftCollections10OrderedSetVyxGSkAA11SubSequenceSl_Sk
++ _associated conformance 21MusicSwiftCollections10OrderedSetVyxGSkAA7IndicesSl_Sk
++ _associated conformance 21MusicSwiftCollections10OrderedSetVyxGSkAASK
++ _associated conformance 21MusicSwiftCollections10OrderedSetVyxGSlAA11SubSequenceSl_Sl
++ _associated conformance 21MusicSwiftCollections10OrderedSetVyxGSlAA5IndexSl_SL
++ _associated conformance 21MusicSwiftCollections10OrderedSetVyxGSlAA7IndicesSl_Sl
++ _associated conformance 21MusicSwiftCollections10OrderedSetVyxGSlAAST
++ _associated conformance 28InternalCollectionsUtilities13_UnsafeBitSetV5IndexVSHAASQ
++ _associated conformance 28InternalCollectionsUtilities13_UnsafeBitSetV5IndexVSLAASQ
++ _associated conformance 28InternalCollectionsUtilities13_UnsafeBitSetV5_WordVSHAASQ
++ _associated conformance 28InternalCollectionsUtilities13_UnsafeBitSetV5_WordVSTAA8IteratorST_St
++ _associated conformance 28InternalCollectionsUtilities13_UnsafeBitSetVSKAA11SubSequenceSl_SK
++ _associated conformance 28InternalCollectionsUtilities13_UnsafeBitSetVSKAA7IndicesSl_SK
++ _associated conformance 28InternalCollectionsUtilities13_UnsafeBitSetVSKAASl
++ _associated conformance 28InternalCollectionsUtilities13_UnsafeBitSetVSTAA8IteratorST_St
++ _associated conformance 28InternalCollectionsUtilities13_UnsafeBitSetVSlAA11SubSequenceSl_Sl
++ _associated conformance 28InternalCollectionsUtilities13_UnsafeBitSetVSlAA5IndexSl_SL
++ _associated conformance 28InternalCollectionsUtilities13_UnsafeBitSetVSlAA7IndicesSl_Sl
++ _associated conformance 28InternalCollectionsUtilities13_UnsafeBitSetVSlAAST
++ _associated conformance 7LyricsX06SyncedA4ModeOSHAASQ
++ _associated conformance 7LyricsX06SyncedA9LineLayerC011TextContentD0C6Change33_B229919BBD5F146C93EF2B251B0B2826LLOSHAASQ
++ _associated conformance 7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C4KindOSHAASQ
++ _associated conformance 7LyricsX06SyncedA9LineLayerC016DespacitoContentD0C0D6Update33_B229919BBD5F146C93EF2B251B0B2826LLOSHAASQ
++ _associated conformance 7LyricsX06SyncedA9LineLayerC0C0C13AnimationKindOSHAASQ
++ _associated conformance 7LyricsX06SyncedA9LineLayerC0C0CSHAASQ
++ _associated conformance 7LyricsX06SyncedA9LineLayerC24BackgroundVocalsPositionOSHAASQ
++ _associated conformance 7LyricsX06SyncedA9LineLayerC4WordCSHAASQ
++ _associated conformance 7LyricsX0A5SpecsV10FocusStyleOSHAASQ
++ _associated conformance 7LyricsX0A5SpecsV13RenderingModeOSHAASQ
++ _associated conformance 7LyricsX21LayerPropertyAnimatorC5StateOSHAASQ
++ _associated conformance 7LyricsX21LayerPropertyAnimatorCSHAASQ
++ _associated conformance 7LyricsX25LineProgressGradientLayerC9DirectionOSHAASQ
++ _associated conformance 9MusicCore12ActionResultOSHAASQ
++ _associated conformance 9MusicCore14PlaylistCoversO10ExpressionO4KindOSHAASQ
++ _associated conformance 9MusicCore14PlaylistCoversO12RecipeColorsV09CompositeF0OSHAASQ
++ _associated conformance 9MusicCore14PlaylistCoversO12RecipeColorsV09CompositeF0Os12CaseIterableAA8AllCasessAHP_Sl
++ _associated conformance 9MusicCore16PlayActivityDataVSHAASQ
++ _associated conformance 9MusicCore19PlayActivityDataKey33_A88C29B753482D63A90CF11BFD1FCA5DLLV7SwiftUI025UITraitBridgedEnvironmentF0AaE0sF0
++ _associated conformance 9MusicCore19PlayActivityFeatureVSHAASQ
++ _associated conformance So9CTFontRefa14CoreFoundation9_CFObjectSCSH
++ _associated conformance So9CTFontRefaSHSCSQ
++ _atan2
++ _cos
++ _exp2
++ _flat unique So17CAAnimatableValue_p
++ _get_enum_tag_for_layout_string 7LyricsX06SyncedA9LineLayerC011TextContentD0C0F033_B229919BBD5F146C93EF2B251B0B2826LLO
++ _get_enum_tag_for_layout_string 7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C21TransliterationResult33_6199ED2C84AF6C925E1487713AA44194LLO
++ _get_enum_tag_for_layout_string 7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C22TranslationLabelUpdateO
++ _get_enum_tag_for_layout_string 7LyricsX0A15AnimationStatusO
++ _hypot
++ _kCAContentsFormatGray8Uint
++ _kCAMediaTimingFunctionEaseIn
++ _kCAMediaTimingFunctionEaseOut
++ _kCGColorSpaceSRGB
++ _memset
++ _objc_msgSend$CA_addValue:multipliedBy:
++ _objc_msgSend$CGContext
++ _objc_msgSend$CGImage
++ _objc_msgSend$CGPath
++ _objc_msgSend$CGRectValue
++ _objc_msgSend$DSID
++ _objc_msgSend$DSIDForAccount:service:
++ _objc_msgSend$JSGlobalContextRef
++ _objc_msgSend$JSONObjectWithData:options:error:
++ _objc_msgSend$MIMEType
++ _objc_msgSend$PDFDataWithActions:
++ _objc_msgSend$QRCodeGenerator
++ _objc_msgSend$Topic
++ _objc_msgSend$URLForDirectory:inDomain:appropriateForURL:create:error:
++ _objc_msgSend$URLForResource:withExtension:
++ _objc_msgSend$URLOverrideForURL:
++ _objc_msgSend$URLString
++ _objc_msgSend$UUIDString
++ _objc_msgSend$_actionWithContentViewController:style:handler:
++ _objc_msgSend$_addContentSubview:atBack:
++ _objc_msgSend$_allowsMultipleSelectionDuringEditing
++ _objc_msgSend$_animateUsingSpringWithDuration:delay:options:mass:stiffness:damping:initialVelocity:animations:completion:
++ _objc_msgSend$_backgroundView
++ _objc_msgSend$_baselineOffsetFromBottom
++ _objc_msgSend$_bezierPathWithPillRect:cornerRadius:
++ _objc_msgSend$_bodyLeading
++ _objc_msgSend$_bridgedConfigurationState
++ _objc_msgSend$_bridgedUpdateConfigurationUsingState:
++ _objc_msgSend$_collectionView
++ _objc_msgSend$_colorBlendedWithColor:
++ _objc_msgSend$_colorBlendedWithColor:compositingFilter:
++ _objc_msgSend$_containsEmoji
++ _objc_msgSend$_cornerRadius
++ _objc_msgSend$_currentTouch
++ _objc_msgSend$_decorateITMLEvents
++ _objc_msgSend$_effectWithVariableBlurRadius:imageMask:scale:
++ _objc_msgSend$_firstBaselineOffsetFromTop
++ _objc_msgSend$_firstLineBaseline
++ _objc_msgSend$_firstLineBaselineOffsetFromBoundsTop
++ _objc_msgSend$_fontAdjustedForCurrentContentSizeCategory
++ _objc_msgSend$_imageWithCGPDFPage:
++ _objc_msgSend$_indexPathsForPreparedItems
++ _objc_msgSend$_initWithSourceImageData:cropRect:
++ _objc_msgSend$_invalidate
++ _objc_msgSend$_ios_meContactWithKeysToFetch:error:
++ _objc_msgSend$_isAutomaticContentOffsetAdjustmentEnabled
++ _objc_msgSend$_isHorizontalBouncing
++ _objc_msgSend$_isInAWindow
++ _objc_msgSend$_isInAnimationBlockWithAnimationsEnabled
++ _objc_msgSend$_isInPopoverPresentation
++ _objc_msgSend$_isNaturallyRTL
++ _objc_msgSend$_isVerticalBouncing
++ _objc_msgSend$_luminance
++ _objc_msgSend$_monochromaticTreatment
++ _objc_msgSend$_moveContentSubview:toBack:
++ _objc_msgSend$_music_setParentTraitEnvironmentOverride:
++ _objc_msgSend$_performBlockAfterCATransactionCommits:
++ _objc_msgSend$_properties
++ _objc_msgSend$_reloadSectionIndexTitles
++ _objc_msgSend$_scaledValueForValue:
++ _objc_msgSend$_scrollToTopIfPossible:
++ _objc_msgSend$_setAllowsGroupFiltering:
++ _objc_msgSend$_setAllowsSelectionDuringEditing:
++ _objc_msgSend$_setAnimatesContents:
++ _objc_msgSend$_setAutoScrollEdgeTransitionDistance:
++ _objc_msgSend$_setAutoScrollEnabled:
++ _objc_msgSend$_setAutomaticContentOffsetAdjustmentEnabled:
++ _objc_msgSend$_setAutomaticallyDismissesAfterCompletion:
++ _objc_msgSend$_setCanPanVertically:
++ _objc_msgSend$_setContinuousCornerRadius:
++ _objc_msgSend$_setDebuggerRunLoop:
++ _objc_msgSend$_setDrawsSeparatorAtBottomOfSection:
++ _objc_msgSend$_setDrawsSeparatorAtTopOfSection:
++ _objc_msgSend$_setDrawsTopSeparatorDuringReordering:
++ _objc_msgSend$_setEnabledTopics:
++ _objc_msgSend$_setFloatingElementKinds:
++ _objc_msgSend$_setGroupName:
++ _objc_msgSend$_setHiddenPocketEdges:
++ _objc_msgSend$_setHyphenationFactor:
++ _objc_msgSend$_setIgnoreBackdropViewsWhenHiding:
++ _objc_msgSend$_setImagePickerSavingOptions:
++ _objc_msgSend$_setLargeTitleAccessoryView:alignToBaseline:
++ _objc_msgSend$_setLocalOverrideTraitCollection:
++ _objc_msgSend$_setManualScrollEdgeAppearanceEnabled:
++ _objc_msgSend$_setManualScrollEdgeAppearanceProgress:
++ _objc_msgSend$_setMonochromaticTreatment:
++ _objc_msgSend$_setNonLargeBackground:
++ _objc_msgSend$_setOverrideContentInsets:forRectEdges:
++ _objc_msgSend$_setPocketsEnabled:
++ _objc_msgSend$_setPrefersNoPlatter:
++ _objc_msgSend$_setProperties:
++ _objc_msgSend$_setRequiresSystemGesturesToFail:
++ _objc_msgSend$_setShouldHaveFullLengthTopSeparator:
++ _objc_msgSend$_setShouldPrefetchCellsWhenPerformingReloadData:
++ _objc_msgSend$_setShowsAdditionalSeparators:
++ _objc_msgSend$_setSupportsTwoLineLargeTitles:
++ _objc_msgSend$_setSuppressesAudioRendering:
++ _objc_msgSend$_setTextAlignmentFollowsWritingDirection:
++ _objc_msgSend$_setTextColorFollowsTintColor:
++ _objc_msgSend$_setTitle:animated:
++ _objc_msgSend$_setTitleControlHidden:
++ _objc_msgSend$_setTitleOpacity:
++ _objc_msgSend$_setWantsContentAwareTypesettingLanguage:
++ _objc_msgSend$_simulateLaunchForTaskWithIdentifier:
++ _objc_msgSend$_solveForInput:
++ _objc_msgSend$_symbolImageForRoute:
++ _objc_msgSend$_systemImageNamed:
++ _objc_msgSend$_systemImageNamed:withConfiguration:
++ _objc_msgSend$_traitCollectionWithValue:forTraitNamed:
++ _objc_msgSend$_updateSnapshotForBackgroundApplication:
++ _objc_msgSend$_valueForTraitNamed:
++ _objc_msgSend$absoluteDimension:
++ _objc_msgSend$absoluteString
++ _objc_msgSend$acceptAllFollowRequestsWithCompletion:
++ _objc_msgSend$acceptFollowRequestFromPerson:completion:
++ _objc_msgSend$accessibilityContrast
++ _objc_msgSend$accessibilityIdentifier
++ _objc_msgSend$accessibilityLabel
++ _objc_msgSend$accessibilityTraits
++ _objc_msgSend$accessibilityUpdateForHeaderItemChange
++ _objc_msgSend$accessibilityUpdateProfileHeader
++ _objc_msgSend$accessibilityUpdateSymbolButton
++ _objc_msgSend$accessorySocialPersons
++ _objc_msgSend$accessoryType
++ _objc_msgSend$accessoryView
++ _objc_msgSend$accessoryViewAtEdge:
++ _objc_msgSend$accountForService:
++ _objc_msgSend$acquireWithError:
++ _objc_msgSend$action
++ _objc_msgSend$actionAtQueueEndCommand
++ _objc_msgSend$actionParameters
++ _objc_msgSend$actions
++ _objc_msgSend$activateConstraints:
++ _objc_msgSend$activateVocalsControl:
++ _objc_msgSend$activationState
++ _objc_msgSend$activeDownloadsCount
++ _objc_msgSend$activeUserState
++ _objc_msgSend$adamID
++ _objc_msgSend$addAction:forControlEvents:
++ _objc_msgSend$addAnimations:
++ _objc_msgSend$addArcWithCenter:radius:startAngle:endAngle:clockwise:
++ _objc_msgSend$addArrangedSubview:
++ _objc_msgSend$addAttribute:value:range:
++ _objc_msgSend$addAttributes:range:
++ _objc_msgSend$addChildViewController:
++ _objc_msgSend$addCompletedHandler:
++ _objc_msgSend$addCompletion:
++ _objc_msgSend$addDependency:
++ _objc_msgSend$addFrequencyBand:
++ _objc_msgSend$addGestureRecognizer:
++ _objc_msgSend$addInteraction:
++ _objc_msgSend$addKeyCommand:
++ _objc_msgSend$addKeyframeWithRelativeStartTime:relativeDuration:animations:
++ _objc_msgSend$addLayoutGuide:
++ _objc_msgSend$addLineToPoint:
++ _objc_msgSend$addObserver:placements:serviceType:
++ _objc_msgSend$addObserverForName:object:queue:usingBlock:
++ _objc_msgSend$addOperation:
++ _objc_msgSend$addOperationWithBlock:
++ _objc_msgSend$addOutput:
++ _objc_msgSend$addPropertiesWithDictionary:
++ _objc_msgSend$addSegmentWithTitle:
++ _objc_msgSend$addSessionObserver:
++ _objc_msgSend$addSuccessBlock:
++ _objc_msgSend$addTarget:action:
++ _objc_msgSend$addTarget:action:forControlEvents:
++ _objc_msgSend$addTextLayoutManager:
++ _objc_msgSend$addTimer:forMode:
++ _objc_msgSend$addToRunLoop:forMode:
++ _objc_msgSend$addValue:forReferenceMetric:
++ _objc_msgSend$addedContent
++ _objc_msgSend$additionalSafeAreaInsets
++ _objc_msgSend$adjustedContentInset
++ _objc_msgSend$advance
++ _objc_msgSend$ageVerificationState
++ _objc_msgSend$agent
++ _objc_msgSend$album
++ _objc_msgSend$alertSetting
++ _objc_msgSend$alignment
++ _objc_msgSend$allItems
++ _objc_msgSend$allMediaDownloadLibraryIdentifiers
++ _objc_msgSend$allSections
++ _objc_msgSend$allowAccountModifications
++ _objc_msgSend$allowsDeletion
++ _objc_msgSend$allowsExplicitContent
++ _objc_msgSend$allowsMultipleSelection
++ _objc_msgSend$allowsMusicSubscription
++ _objc_msgSend$allowsMusicVideos
++ _objc_msgSend$allowsNonContiguousLayout
++ _objc_msgSend$allowsPickingMultipleItems
++ _objc_msgSend$alpha
++ _objc_msgSend$alphaComponent
++ _objc_msgSend$altDSIDForAccount:service:
++ _objc_msgSend$alwaysShowSearchBarInLibrary
++ _objc_msgSend$amplitudes
++ _objc_msgSend$ams_DSID
++ _objc_msgSend$ams_activeiTunesAccount
++ _objc_msgSend$ams_sharedAccountStore
++ _objc_msgSend$anchorPoint
++ _objc_msgSend$animateAlongsideTransition:completion:
++ _objc_msgSend$animateKeyframesWithDuration:delay:options:animations:completion:
++ _objc_msgSend$animateWithDuration:animations:
++ _objc_msgSend$animateWithDuration:animations:completion:
++ _objc_msgSend$animateWithDuration:delay:options:animations:completion:
++ _objc_msgSend$animateWithDuration:delay:usingSpringWithDamping:initialSpringVelocity:options:animations:completion:
++ _objc_msgSend$animationDuration
++ _objc_msgSend$animationKeys
++ _objc_msgSend$animations
++ _objc_msgSend$annotatedPayload
++ _objc_msgSend$anyObject
++ _objc_msgSend$appendAttributedString:
++ _objc_msgSend$appendItems:
++ _objc_msgSend$appendPropertiesToBody:
++ _objc_msgSend$appleTimingApp
++ _objc_msgSend$applicationState
++ _objc_msgSend$approvePendingParticipant:completion:
++ _objc_msgSend$archivedDataWithRootObject:requiringSecureCoding:error:
++ _objc_msgSend$areAnimationsEnabled
++ _objc_msgSend$arrangedSubviews
++ _objc_msgSend$arrayForBagKey:
++ _objc_msgSend$artist
++ _objc_msgSend$artistID
++ _objc_msgSend$artworkCatalog
++ _objc_msgSend$artworkInfo
++ _objc_msgSend$ascender
++ _objc_msgSend$assertSessionManagementScreenVisible
++ _objc_msgSend$asset
++ _objc_msgSend$attachPalette:isPinned:
++ _objc_msgSend$attribute:atIndex:effectiveRange:
++ _objc_msgSend$attributeWithDomain:name:
++ _objc_msgSend$attributedString
++ _objc_msgSend$attributedStringWithAttachment:
++ _objc_msgSend$attributedStringWithAttachment:attributes:
++ _objc_msgSend$attributedText
++ _objc_msgSend$attributedTitleForState:
++ _objc_msgSend$attributes
++ _objc_msgSend$attributesOfItemAtPath:error:
++ _objc_msgSend$attributionLabel
++ _objc_msgSend$audioAnalyzer
++ _objc_msgSend$audioAttributes
++ _objc_msgSend$authenticateWithContext:completion:
++ _objc_msgSend$authorizationStatus
++ _objc_msgSend$automaticallyDrillsToLibrary
++ _objc_msgSend$auxiliarySession
++ _objc_msgSend$available
++ _objc_msgSend$averagePowerOfFrequencyBandAtIndex:frequencyBand:
++ _objc_msgSend$backgroundColor
++ _objc_msgSend$backgroundEffects
++ _objc_msgSend$backgroundVocals
++ _objc_msgSend$badgeSetting
++ _objc_msgSend$bagForProfile:profileVersion:
++ _objc_msgSend$bagForProfile:profileVersion:processInfo:
++ _objc_msgSend$bagKeySet
++ _objc_msgSend$bagProfile
++ _objc_msgSend$bagProfileVersion
++ _objc_msgSend$barButtonItems
++ _objc_msgSend$baselineOffset
++ _objc_msgSend$baselineOffsetForGlyphAtIndex:
++ _objc_msgSend$becomeActive
++ _objc_msgSend$becomeFirstResponder
++ _objc_msgSend$begin
++ _objc_msgSend$beginAppearanceTransition:animated:
++ _objc_msgSend$beginAutomaticResponseLoading
++ _objc_msgSend$beginObservingPrivacyAcknowledgementForIdentifier:handler:
++ _objc_msgSend$beginObservingTriggerEvent:withHandler:
++ _objc_msgSend$beginPage
++ _objc_msgSend$beginSeekWithDirection:
++ _objc_msgSend$beginningOfDocument
++ _objc_msgSend$bezierPathWithArcCenter:radius:startAngle:endAngle:clockwise:
++ _objc_msgSend$bezierPathWithRect:
++ _objc_msgSend$bezierPathWithRoundedRect:byRoundingCorners:cornerRadii:
++ _objc_msgSend$bezierPathWithRoundedRect:cornerRadius:
++ _objc_msgSend$biography
++ _objc_msgSend$bitDepth
++ _objc_msgSend$blackColor
++ _objc_msgSend$blitCommandEncoder
++ _objc_msgSend$blockOperationWithBlock:
++ _objc_msgSend$body
++ _objc_msgSend$bodyData
++ _objc_msgSend$boldSystemFontOfSize:
++ _objc_msgSend$bookmarkTime
++ _objc_msgSend$bookmarkTimestamp
++ _objc_msgSend$boolForKey:
++ _objc_msgSend$boolValueForBagKey:
++ _objc_msgSend$borderColor
++ _objc_msgSend$borderWidth
++ _objc_msgSend$bottomAnchor
++ _objc_msgSend$boundaryEdge
++ _objc_msgSend$boundarySupplementaryItemWithLayoutSize:elementKind:alignment:
++ _objc_msgSend$boundarySupplementaryItemWithLayoutSize:elementKind:alignment:absoluteOffset:
++ _objc_msgSend$boundarySupplementaryItems
++ _objc_msgSend$boundingRectWithSize:options:attributes:context:
++ _objc_msgSend$boundingRectWithSize:options:context:
++ _objc_msgSend$boundsWithType:options:
++ _objc_msgSend$brandLogoArtworkCatalog
++ _objc_msgSend$brickEditorialArtworkRequestToken
++ _objc_msgSend$brightness
++ _objc_msgSend$buildSharedSessionIntentWithIntent:identity:extendedStatusCompletion:
++ _objc_msgSend$buildVersion
++ _objc_msgSend$bundleForClass:
++ _objc_msgSend$bundleID
++ _objc_msgSend$bundleIdentifier
++ _objc_msgSend$bundlePath
++ _objc_msgSend$bundleURL
++ _objc_msgSend$bundleWithIdentifier:
++ _objc_msgSend$buttonWithType:
++ _objc_msgSend$buttons
++ _objc_msgSend$cacheBytecodeWithError:
++ _objc_msgSend$cachedAccountNotificationsShowInLibrarySwitch
++ _objc_msgSend$cachedResponse
++ _objc_msgSend$cachedValuesForKeys:observationToken:updateHandler:
++ _objc_msgSend$canBecomeFirstResponder
++ _objc_msgSend$canHandleJoinRequests
++ _objc_msgSend$canManageParticipants
++ _objc_msgSend$canModifyGroupMembership
++ _objc_msgSend$canOpenURL:
++ _objc_msgSend$canPresentViewControllers
++ _objc_msgSend$canResignFirstResponder
++ _objc_msgSend$canShowCloudDownloadButtons
++ _objc_msgSend$cancelAllOperations
++ _objc_msgSend$cancelDownloads:
++ _objc_msgSend$cancelFollowRequestOnPerson:completion:
++ _objc_msgSend$cancelRequest:
++ _objc_msgSend$cancelTaskRequestWithIdentifier:
++ _objc_msgSend$cancelTrackingWithEvent:
++ _objc_msgSend$capHeight
++ _objc_msgSend$capabilities
++ _objc_msgSend$carrierBundlingStatusType
++ _objc_msgSend$cellForItemAtIndexPath:
++ _objc_msgSend$cellForRowAtIndexPath:
++ _objc_msgSend$center
++ _objc_msgSend$centerXAnchor
++ _objc_msgSend$centerYAnchor
++ _objc_msgSend$cgColor
++ _objc_msgSend$changeItemCommand
++ _objc_msgSend$changePositionToElapsedInterval:
++ _objc_msgSend$changeToItem:
++ _objc_msgSend$changeValue:
++ _objc_msgSend$characterIndexForPoint:inTextContainer:fractionOfDistanceBetweenInsertionPoints:
++ _objc_msgSend$characterRange
++ _objc_msgSend$characterRangeForGlyphRange:actualGlyphRange:
++ _objc_msgSend$characterSetWithCharactersInString:
++ _objc_msgSend$childStoreItemMetadatas
++ _objc_msgSend$childStorePlatformDictionaryForStoreID:
++ _objc_msgSend$childViewControllers
++ _objc_msgSend$children
++ _objc_msgSend$childrenStoreIDs
++ _objc_msgSend$chineseJapaneseCharactersAnalysis
++ _objc_msgSend$classForCoder
++ _objc_msgSend$classicalMovement
++ _objc_msgSend$classicalMovementCount
++ _objc_msgSend$classicalMovementNumber
++ _objc_msgSend$classicalWork
++ _objc_msgSend$clear
++ _objc_msgSend$clearArtworkCatalogs
++ _objc_msgSend$clearUpNextItems
++ _objc_msgSend$clientInfoForMusicKitRequestWithClientIdentifier:clientVersion:
++ _objc_msgSend$clipToRect:
++ _objc_msgSend$clipsToBounds
++ _objc_msgSend$closePath
++ _objc_msgSend$cloudID
++ _objc_msgSend$cloudServiceSetupViewControllerDidDismiss:
++ _objc_msgSend$cloudStatus
++ _objc_msgSend$cloudUniversalLibraryID
++ _objc_msgSend$codec
++ _objc_msgSend$collaborationAllowed
++ _objc_msgSend$collaboratorStatus
++ _objc_msgSend$collectionView
++ _objc_msgSend$collectionView:heightForGlobalFooterIn:
++ _objc_msgSend$collectionView:heightForGlobalHeaderIn:
++ _objc_msgSend$collectionView:shouldSelectItemAtIndexPath:
++ _objc_msgSend$color
++ _objc_msgSend$colorAttachments
++ _objc_msgSend$colorEffectSaturate:
++ _objc_msgSend$colorPixelFormat
++ _objc_msgSend$colorWithAlphaComponent:
++ _objc_msgSend$combinedPlayActivityFeatureName
++ _objc_msgSend$commandBuffer
++ _objc_msgSend$commandRequest
++ _objc_msgSend$comment
++ _objc_msgSend$commentURL
++ _objc_msgSend$commit
++ _objc_msgSend$completePlayActivityFeatureNames
++ _objc_msgSend$composer
++ _objc_msgSend$compoundStringWithElements:
++ _objc_msgSend$configuration
++ _objc_msgSend$configurationByApplyingConfiguration:
++ _objc_msgSend$configurationPreferringMonochrome
++ _objc_msgSend$configurationWithFont:
++ _objc_msgSend$configurationWithFont:scale:
++ _objc_msgSend$configurationWithHierarchicalColor:
++ _objc_msgSend$configurationWithIdentifier:previewProvider:actionProvider:
++ _objc_msgSend$configurationWithPointSize:
++ _objc_msgSend$configurationWithPointSize:weight:
++ _objc_msgSend$configurationWithPointSize:weight:scale:
++ _objc_msgSend$configurationWithScale:
++ _objc_msgSend$configurationWithTextStyle:
++ _objc_msgSend$configurationWithTextStyle:scale:
++ _objc_msgSend$configurationWithWeight:
++ _objc_msgSend$configureWithModelObject:
++ _objc_msgSend$connectedScenes
++ _objc_msgSend$connection
++ _objc_msgSend$connectionEndTime
++ _objc_msgSend$connectionReused
++ _objc_msgSend$connectionStartTime
++ _objc_msgSend$connectionType
++ _objc_msgSend$constant
++ _objc_msgSend$constrainToSafeAreaOf:padding:
++ _objc_msgSend$constraintEqualToAnchor:
++ _objc_msgSend$constraintEqualToAnchor:constant:
++ _objc_msgSend$constraintEqualToConstant:
++ _objc_msgSend$constraintGreaterThanOrEqualToAnchor:
++ _objc_msgSend$constraintGreaterThanOrEqualToAnchor:constant:
++ _objc_msgSend$constraintGreaterThanOrEqualToConstant:
++ _objc_msgSend$constraintLessThanOrEqualToAnchor:
++ _objc_msgSend$constraintLessThanOrEqualToConstant:
++ _objc_msgSend$constraintWithItem:attribute:relatedBy:toItem:attribute:multiplier:constant:
++ _objc_msgSend$contactWithDisplayName:handleStrings:
++ _objc_msgSend$container
++ _objc_msgSend$containerURLForSecurityApplicationGroupIdentifier:
++ _objc_msgSend$containerView
++ _objc_msgSend$containsPropertySet:
++ _objc_msgSend$contentCompressionResistancePriorityForAxis:
++ _objc_msgSend$contentEndingRectForCell:forNewEditingState:
++ _objc_msgSend$contentHorizontalAlignment
++ _objc_msgSend$contentInset
++ _objc_msgSend$contentItemIdentifier
++ _objc_msgSend$contentMode
++ _objc_msgSend$contentPages
++ _objc_msgSend$contentParameters
++ _objc_msgSend$contentRectForBounds:
++ _objc_msgSend$contentScrollView
++ _objc_msgSend$contentScrollViewForEdge:
++ _objc_msgSend$contentSize
++ _objc_msgSend$contentUpdatedMessage
++ _objc_msgSend$contentVerticalAlignment
++ _objc_msgSend$contentsAtPath:
++ _objc_msgSend$contentsOfDirectoryAtPath:error:
++ _objc_msgSend$contextualActionWithStyle:title:handler:
++ _objc_msgSend$convertPoint:fromCoordinateSpace:
++ _objc_msgSend$convertPoint:toCoordinateSpace:
++ _objc_msgSend$convertRect:fromCoordinateSpace:
++ _objc_msgSend$convertRect:fromView:
++ _objc_msgSend$convertRect:toCoordinateSpace:
++ _objc_msgSend$convertRect:toView:
++ _objc_msgSend$cookies
++ _objc_msgSend$coordinateAccess:
++ _objc_msgSend$coordinateSpace
++ _objc_msgSend$copyColorWithKind:
++ _objc_msgSend$copyFromTexture:toTexture:
++ _objc_msgSend$copyPixelBufferForItemTime:itemTimeForDisplay:
++ _objc_msgSend$copyWithZone:
++ _objc_msgSend$copyWithoutInsignificantPrefixAndCharacters
++ _objc_msgSend$copyrightText
++ _objc_msgSend$cornerRadius
++ _objc_msgSend$coverArtworkRecipe
++ _objc_msgSend$createCGImage:fromRect:
++ _objc_msgSend$createDirectoryAtURL:withIntermediateDirectories:attributes:error:
++ _objc_msgSend$createSharedSessionWithIdentity:intentHandler:
++ _objc_msgSend$creditsArtist
++ _objc_msgSend$cropStyle
++ _objc_msgSend$curator
++ _objc_msgSend$curatorKind
++ _objc_msgSend$curatorSubKind
++ _objc_msgSend$currentConnectionTypeHeader
++ _objc_msgSend$currentDevice
++ _objc_msgSend$currentDeviceInfo
++ _objc_msgSend$currentDrawable
++ _objc_msgSend$currentImage
++ _objc_msgSend$currentItem
++ _objc_msgSend$currentNotificationCenter
++ _objc_msgSend$currentPage
++ _objc_msgSend$currentPoint
++ _objc_msgSend$currentProcess
++ _objc_msgSend$currentRenderPassDescriptor
++ _objc_msgSend$currentRunLoop
++ _objc_msgSend$currentSession
++ _objc_msgSend$currentStatus
++ _objc_msgSend$currentThermalLevel
++ _objc_msgSend$currentThread
++ _objc_msgSend$currentTraitCollection
++ _objc_msgSend$customView
++ _objc_msgSend$damping
++ _objc_msgSend$darkGrayColor
++ _objc_msgSend$dataSource
++ _objc_msgSend$dataTaskWithRequest:completionHandler:
++ _objc_msgSend$dateFormatFromTemplate:options:locale:
++ _objc_msgSend$dateFromString:
++ _objc_msgSend$deactivateConstraints:
++ _objc_msgSend$debugDescription
++ _objc_msgSend$declineFollowRequestFromPerson:completion:
++ _objc_msgSend$deepLink
++ _objc_msgSend$default
++ _objc_msgSend$defaultController
++ _objc_msgSend$defaultHeightForMetrics:
++ _objc_msgSend$defaultInfo
++ _objc_msgSend$defaultManager
++ _objc_msgSend$defaultMetrics
++ _objc_msgSend$defaultParagraphStyle
++ _objc_msgSend$defaultSizeForOrientation:
++ _objc_msgSend$defaultStore
++ _objc_msgSend$defaultWorkspace
++ _objc_msgSend$deleteItemsAtIndexPaths:
++ _objc_msgSend$deleteRowsAtIndexPaths:withRowAnimation:
++ _objc_msgSend$deleteSections:
++ _objc_msgSend$deletedItemIndexPaths
++ _objc_msgSend$deletedSections
++ _objc_msgSend$denyPendingParticipant:completion:
++ _objc_msgSend$depthAttachment
++ _objc_msgSend$dequeueReusableCellWithIdentifier:forIndexPath:
++ _objc_msgSend$dequeueReusableCellWithReuseIdentifier:forIndexPath:
++ _objc_msgSend$dequeueReusableSupplementaryViewOfKind:withReuseIdentifier:forIndexPath:
++ _objc_msgSend$descender
++ _objc_msgSend$description
++ _objc_msgSend$descriptionTitleText
++ _objc_msgSend$descriptorForRequiredKeysForStyle:
++ _objc_msgSend$deselectAssetsWithIdentifiers:
++ _objc_msgSend$deselectItemAtIndexPath:animated:
++ _objc_msgSend$detachPalette:
++ _objc_msgSend$device
++ _objc_msgSend$deviceClass
++ _objc_msgSend$deviceClassName
++ _objc_msgSend$deviceGUID
++ _objc_msgSend$deviceInfo
++ _objc_msgSend$deviceMediaLibrary
++ _objc_msgSend$deviceOffersContainType:
++ _objc_msgSend$dialog
++ _objc_msgSend$dialogRequest
++ _objc_msgSend$dictionaryForBagKey:
++ _objc_msgSend$dictionaryForKey:
++ _objc_msgSend$didAttemptPromptReview
++ _objc_msgSend$didMoveToParentViewController:
++ _objc_msgSend$directionalLayoutMargins
++ _objc_msgSend$disappearingViewController
++ _objc_msgSend$disarm
++ _objc_msgSend$discCount
++ _objc_msgSend$discNumber
++ _objc_msgSend$displayLinkWithTarget:selector:
++ _objc_msgSend$displayName
++ _objc_msgSend$displayStyle
++ _objc_msgSend$displayText
++ _objc_msgSend$displayType
++ _objc_msgSend$documentRange
++ _objc_msgSend$domainLookupEndTime
++ _objc_msgSend$domainLookupStartTime
++ _objc_msgSend$dominantLanguageForString:
++ _objc_msgSend$doubleValue
++ _objc_msgSend$downloadPausedReason
++ _objc_msgSend$drawAtPoint:
++ _objc_msgSend$drawAtPoint:inContext:
++ _objc_msgSend$drawInMTKView:
++ _objc_msgSend$drawInRect:
++ _objc_msgSend$drawInRect:blendMode:alpha:
++ _objc_msgSend$drawIndexedPrimitives:indexCount:indexType:indexBuffer:indexBufferOffset:instanceCount:
++ _objc_msgSend$drawPrimitives:vertexStart:vertexCount:
++ _objc_msgSend$drawViewHierarchyInRect:afterScreenUpdates:
++ _objc_msgSend$drawWithRect:options:attributes:context:
++ _objc_msgSend$drawWithRect:options:context:
++ _objc_msgSend$duration
++ _objc_msgSend$easyTouchDefaultHitRectInsets
++ _objc_msgSend$edgeNodeCacheStatus
++ _objc_msgSend$editorNotes
++ _objc_msgSend$effectForBlurEffect:
++ _objc_msgSend$effectForBlurEffect:style:
++ _objc_msgSend$effectWithBlurRadius:
++ _objc_msgSend$effectWithRoundedRect:cornerRadius:curve:
++ _objc_msgSend$effectWithStyle:
++ _objc_msgSend$effectiveBoolValueForSetting:
++ _objc_msgSend$effectiveGeometry
++ _objc_msgSend$effectiveStorePlatformDictionary
++ _objc_msgSend$elementWithProvider:
++ _objc_msgSend$elementWithUncachedProvider:
++ _objc_msgSend$emailAddresses
++ _objc_msgSend$emptyIdentifierSet
++ _objc_msgSend$enableAutomaticDownloadsForPinnedLibraryEntities
++ _objc_msgSend$enableAutomaticDownloadsWithCompletionHandler:
++ _objc_msgSend$enableCloudLibraryWithOptions:completionHandler:
++ _objc_msgSend$enableSetNeedsDisplay
++ _objc_msgSend$encodeObject:forKey:
++ _objc_msgSend$encodeToCommandBuffer:inPlaceTexture:fallbackCopyAllocator:
++ _objc_msgSend$encodeToCommandBuffer:sourceTexture:destinationTexture:
++ _objc_msgSend$endAppearanceTransition
++ _objc_msgSend$endAutomaticResponseLoading
++ _objc_msgSend$endEditing:
++ _objc_msgSend$endEncoding
++ _objc_msgSend$endObservingPrivacyAcknowledgementForIdentifier:withToken:
++ _objc_msgSend$endSeek
++ _objc_msgSend$endTime
++ _objc_msgSend$endpointObject
++ _objc_msgSend$endpointType
++ _objc_msgSend$engagementRequestForFullSheet
++ _objc_msgSend$enqueueData:
++ _objc_msgSend$enqueueDataRequest:withCompletionHandler:
++ _objc_msgSend$enqueueMessageEvent:
++ _objc_msgSend$enqueueUploadRequest:withCompletionHandler:
++ _objc_msgSend$ensureGlyphsForGlyphRange:
++ _objc_msgSend$ensureLayoutForBoundingRect:inTextContainer:
++ _objc_msgSend$ensureLayoutForTextContainer:
++ _objc_msgSend$enumerateAttribute:inRange:options:usingBlock:
++ _objc_msgSend$enumerateAttributesInRange:options:usingBlock:
++ _objc_msgSend$enumerateContactsWithFetchRequest:error:usingBlock:
++ _objc_msgSend$enumerateItemIdentifiersInSectionAtIndex:usingBlock:
++ _objc_msgSend$enumerateItemIdentifiersUsingBlock:
++ _objc_msgSend$enumerateItemMovesUsingBlock:
++ _objc_msgSend$enumerateItemsInSectionAtIndex:usingBlock:
++ _objc_msgSend$enumerateItemsUsingBlock:
++ _objc_msgSend$enumerateLineFragmentsForGlyphRange:usingBlock:
++ _objc_msgSend$enumerateSectionIdentifiersUsingBlock:
++ _objc_msgSend$enumerateSectionMovesUsingBlock:
++ _objc_msgSend$enumerateSectionsUsingBlock:
++ _objc_msgSend$enumerateTextLayoutFragmentsFromLocation:options:usingBlock:
++ _objc_msgSend$environment
++ _objc_msgSend$environmentDataCenter
++ _objc_msgSend$episode
++ _objc_msgSend$episodeInformationItems
++ _objc_msgSend$episodeNumber
++ _objc_msgSend$episodesCount
++ _objc_msgSend$establishGroup
++ _objc_msgSend$estimatedDimension:
++ _objc_msgSend$evaluateJSScript:
++ _objc_msgSend$evaluateScript:
++ _objc_msgSend$evaluateScript:withSourceURL:
++ _objc_msgSend$eventFields
++ _objc_msgSend$eventType
++ _objc_msgSend$executableURL
++ _objc_msgSend$existingColorAnalysisWithAlgorithm:
++ _objc_msgSend$existingPaletteForEdge:
++ _objc_msgSend$expirationDate
++ _objc_msgSend$expiresDate
++ _objc_msgSend$explanation
++ _objc_msgSend$explicitRating
++ _objc_msgSend$extent
++ _objc_msgSend$externalDevice
++ _objc_msgSend$externalIdentifier
++ _objc_msgSend$faceAtIndex:
++ _objc_msgSend$faceCount
++ _objc_msgSend$fallbackPlaybackIntent
++ _objc_msgSend$feedbackForHighlight:withType:completionBlock:
++ _objc_msgSend$feedbackGeneratorForView:
++ _objc_msgSend$feedbackGeneratorWithStyle:forView:
++ _objc_msgSend$fetchHighlightsWithLimit:completionBlock:
++ _objc_msgSend$fetchStartTime
++ _objc_msgSend$fileExistsAtPath:
++ _objc_msgSend$fileExistsAtPath:isDirectory:
++ _objc_msgSend$fill
++ _objc_msgSend$fillRect:
++ _objc_msgSend$fillRect:blendMode:
++ _objc_msgSend$filterAvailableContentGroups:withOptions:
++ _objc_msgSend$filterString
++ _objc_msgSend$filterText
++ _objc_msgSend$filteringOptions
++ _objc_msgSend$finish
++ _objc_msgSend$finishAnimationAtPosition:
++ _objc_msgSend$finishWithError:
++ _objc_msgSend$firstBaselineAnchor
++ _objc_msgSend$firstBaselineOffset
++ _objc_msgSend$firstItem
++ _objc_msgSend$firstResponder
++ _objc_msgSend$firstSection
++ _objc_msgSend$fixAttributesInRange:
++ _objc_msgSend$fixedCoordinateSpace
++ _objc_msgSend$fixedSpaceItemOfWidth:
++ _objc_msgSend$flattenedGenericObject
++ _objc_msgSend$flattenedImageWithColor:
++ _objc_msgSend$floatValue
++ _objc_msgSend$floating
++ _objc_msgSend$flowcaseEditorialArtworkRequestToken
++ _objc_msgSend$flushUnreportedEventsWithCompletionHandler:
++ _objc_msgSend$followPerson:completion:
++ _objc_msgSend$font
++ _objc_msgSend$fontAttributes
++ _objc_msgSend$fontDescriptor
++ _objc_msgSend$fontDescriptorByAddingAttributes:
++ _objc_msgSend$fontDescriptorWithSymbolicTraits:
++ _objc_msgSend$fontWithDescriptor:size:
++ _objc_msgSend$format
++ _objc_msgSend$fractionalWidthDimension:
++ _objc_msgSend$genre
++ _objc_msgSend$getActiveRouteWithTimeout:completion:
++ _objc_msgSend$getAgeVerificationStateWithCompletion:
++ _objc_msgSend$getArchiveWithConfiguration:completion:
++ _objc_msgSend$getBagForRequestContext:forceRefetch:withCompletionHandler:
++ _objc_msgSend$getBagForRequestContext:withCompletionHandler:
++ _objc_msgSend$getChangeDetailsFromPreviousResponse:completion:
++ _objc_msgSend$getCookiesForURL:userIdentifier:
++ _objc_msgSend$getEnabledStateOfModuleWithIdentifier:completionHandler:
++ _objc_msgSend$getHue:saturation:brightness:alpha:
++ _objc_msgSend$getNotificationSettingsWithCompletionHandler:
++ _objc_msgSend$getPropertiesForUserIdentity:completionHandler:
++ _objc_msgSend$getPropertiesForUserIdentity:error:
++ _objc_msgSend$getRed:green:blue:alpha:
++ _objc_msgSend$getRepresentativeObjectWithProperties:completion:
++ _objc_msgSend$getStoreItemMetadataForRequest:responseHandler:
++ _objc_msgSend$getSubscriptionStatusWithCompletionHandler:
++ _objc_msgSend$getTokenForcingRefresh:completion:
++ _objc_msgSend$globalIndexForIndexPath:
++ _objc_msgSend$globalPlaylistID
++ _objc_msgSend$glyphRangeForBoundingRect:inTextContainer:
++ _objc_msgSend$glyphRangeForTextContainer:
++ _objc_msgSend$gradient
++ _objc_msgSend$grayColor
++ _objc_msgSend$groupLeader
++ _objc_msgSend$groupSessionInfo
++ _objc_msgSend$grouping
++ _objc_msgSend$handle
++ _objc_msgSend$handleButtonAction:usingRequestContext:withCompletionHandler:
++ _objc_msgSend$handler
++ _objc_msgSend$hasActiveDownloads
++ _objc_msgSend$hasAddedToLibraryAppleMusicContent
++ _objc_msgSend$hasBackgroundVocal
++ _objc_msgSend$hasBeenCommitted
++ _objc_msgSend$hasBeenPlayed
++ _objc_msgSend$hasBeenPreviouslyToggled
++ _objc_msgSend$hasBiography
++ _objc_msgSend$hasExplicitContent
++ _objc_msgSend$hasFamily
++ _objc_msgSend$hasFamilyGreaterThanOneMember
++ _objc_msgSend$hasHeadlineText
++ _objc_msgSend$hasLightweightProfile
++ _objc_msgSend$hasLoadedSubscriptionAvailability
++ _objc_msgSend$hasLoadedValueForKey:
++ _objc_msgSend$hasLoadedValuesForPropertySet:
++ _objc_msgSend$hasNewPixelBufferForItemTime:
++ _objc_msgSend$hasOfflinePlaybackKeys
++ _objc_msgSend$hasProperNetworkConditionsToShowCloudMedia
++ _objc_msgSend$hasSetPreferenceForAutomaticDownloads
++ _objc_msgSend$hasSocialPosts
++ _objc_msgSend$hasStoreLyrics
++ _objc_msgSend$hasSubtitleText
++ _objc_msgSend$hasTimeSyncedLyrics
++ _objc_msgSend$hasTitle
++ _objc_msgSend$hasUserPlaylistsContainingAppleMusicContent
++ _objc_msgSend$hasVideo
++ _objc_msgSend$hasVideoArtwork
++ _objc_msgSend$height
++ _objc_msgSend$heightAnchor
++ _objc_msgSend$heightClass
++ _objc_msgSend$heightTracksTextView
++ _objc_msgSend$hidesNavigationBarDuringPresentation
++ _objc_msgSend$hidesSearchBarWhenScrolling
++ _objc_msgSend$highPrioritySession
++ _objc_msgSend$hitRect
++ _objc_msgSend$hitRectInsets
++ _objc_msgSend$hitTest:withEvent:
++ _objc_msgSend$homeSharingAsset
++ _objc_msgSend$horizontalScrollDecelerationFactor
++ _objc_msgSend$horizontalSizeClass
++ _objc_msgSend$hostInfo
++ _objc_msgSend$humanDescription
++ _objc_msgSend$identifier
++ _objc_msgSend$identifierType
++ _objc_msgSend$identifiersForItemAtIndexPath:
++ _objc_msgSend$identifiersForSectionAtIndex:
++ _objc_msgSend$identifyingModelObject
++ _objc_msgSend$identity
++ _objc_msgSend$identityKind
++ _objc_msgSend$identityStore
++ _objc_msgSend$image
++ _objc_msgSend$imageArtworkInfo
++ _objc_msgSend$imageAttachments
++ _objc_msgSend$imageByApplyingGaussianBlurWithSigma:
++ _objc_msgSend$imageByApplyingSymbolConfiguration:
++ _objc_msgSend$imageByClampingToExtent
++ _objc_msgSend$imageByCroppingToRect:
++ _objc_msgSend$imageFlippedForRightToLeftLayoutDirection
++ _objc_msgSend$imageForState:
++ _objc_msgSend$imageNamed:
++ _objc_msgSend$imageNamed:inBundle:
++ _objc_msgSend$imageNamed:inBundle:compatibleWithTraitCollection:
++ _objc_msgSend$imageOrientation
++ _objc_msgSend$imageRepresentation
++ _objc_msgSend$imageView
++ _objc_msgSend$imageWithActions:
++ _objc_msgSend$imageWithConfiguration:
++ _objc_msgSend$imageWithRenderingMode:
++ _objc_msgSend$imageWithSymbolConfiguration:
++ _objc_msgSend$imageWithTintColor:
++ _objc_msgSend$images
++ _objc_msgSend$impactOccurred
++ _objc_msgSend$impactOccurredAtLocation:
++ _objc_msgSend$impactOccurredWithIntensity:atLocation:
++ _objc_msgSend$importObjectsFromRequest:options:error:
++ _objc_msgSend$indexOfSectionForSectionIndexTitleAtIndex:
++ _objc_msgSend$indexPath
++ _objc_msgSend$indexPathAfterUpdate
++ _objc_msgSend$indexPathBeforeUpdate
++ _objc_msgSend$indexPathForCell:
++ _objc_msgSend$indexPathForItemWithIdentifiersIntersectingSet:
++ _objc_msgSend$indexPathForSelectedRow
++ _objc_msgSend$indexPathsForSelectedItems
++ _objc_msgSend$indexPathsForVisibleItems
++ _objc_msgSend$indexPathsForVisibleSupplementaryElementsOfKind:
++ _objc_msgSend$infoDictionary
++ _objc_msgSend$initForOpeningContentTypes:asCopy:
++ _objc_msgSend$initForTextStyle:
++ _objc_msgSend$initWithAccount:options:
++ _objc_msgSend$initWithAccountStore:
++ _objc_msgSend$initWithActivityItemsConfiguration:
++ _objc_msgSend$initWithAdditionalPresentationHandler:
++ _objc_msgSend$initWithAnimationCurve:
++ _objc_msgSend$initWithAppearanceStyle:layoutEnvironment:
++ _objc_msgSend$initWithArtworkResponseDictionary:
++ _objc_msgSend$initWithArtworkURL:
++ _objc_msgSend$initWithAsset:audioSession:
++ _objc_msgSend$initWithAttributedString:
++ _objc_msgSend$initWithAuthURL:redirectURL:
++ _objc_msgSend$initWithBag:
++ _objc_msgSend$initWithBag:URL:
++ _objc_msgSend$initWithBag:account:clientInfo:
++ _objc_msgSend$initWithBarButtonItems:representativeItem:
++ _objc_msgSend$initWithBodyDictionary:
++ _objc_msgSend$initWithBool:
++ _objc_msgSend$initWithBounds:
++ _objc_msgSend$initWithBounds:format:
++ _objc_msgSend$initWithBundleIdentifier:
++ _objc_msgSend$initWithBundleIdentifier:allowPlaceholder:error:
++ _objc_msgSend$initWithBundleIdentifier:options:
++ _objc_msgSend$initWithCGColor:
++ _objc_msgSend$initWithCGImage:
++ _objc_msgSend$initWithCGImage:scale:orientation:
++ _objc_msgSend$initWithCIImage:
++ _objc_msgSend$initWithCoder:
++ _objc_msgSend$initWithCommandRequests:
++ _objc_msgSend$initWithConfiguration:
++ _objc_msgSend$initWithConfiguration:layoutEnvironment:
++ _objc_msgSend$initWithContentsOfFile:
++ _objc_msgSend$initWithContentsOfURL:
++ _objc_msgSend$initWithControlPoint1:controlPoint2:
++ _objc_msgSend$initWithControlPoints::::
++ _objc_msgSend$initWithDampingRatio:initialVelocity:
++ _objc_msgSend$initWithData:
++ _objc_msgSend$initWithData:scale:
++ _objc_msgSend$initWithDataSource:name:
++ _objc_msgSend$initWithDelegate:
++ _objc_msgSend$initWithDevice:
++ _objc_msgSend$initWithDevice:sigma:
++ _objc_msgSend$initWithDomain:code:userInfo:
++ _objc_msgSend$initWithDouble:
++ _objc_msgSend$initWithDownloadAssetDictionary:
++ _objc_msgSend$initWithDuration:bounce:
++ _objc_msgSend$initWithDuration:curve:animations:
++ _objc_msgSend$initWithDuration:timingParameters:
++ _objc_msgSend$initWithDynamicProvider:
++ _objc_msgSend$initWithEffect:
++ _objc_msgSend$initWithEnvironmentName:namedDelegatePort:queue:
++ _objc_msgSend$initWithExplanation:target:attributes:
++ _objc_msgSend$initWithFigaroEventProperties:
++ _objc_msgSend$initWithFireDate:interval:target:selector:userInfo:repeats:
++ _objc_msgSend$initWithFrame:collectionViewLayout:
++ _objc_msgSend$initWithFrame:device:
++ _objc_msgSend$initWithFrame:title:style:
++ _objc_msgSend$initWithGlobalConfiguration:
++ _objc_msgSend$initWithGroupRoute:outputDeviceRoute:
++ _objc_msgSend$initWithHighlight:
++ _objc_msgSend$initWithHue:saturation:brightness:alpha:
++ _objc_msgSend$initWithIdentifier:
++ _objc_msgSend$initWithIdentifiers:
++ _objc_msgSend$initWithIdentity:
++ _objc_msgSend$initWithIdentity:clientInfo:
++ _objc_msgSend$initWithImage:
++ _objc_msgSend$initWithInteger:
++ _objc_msgSend$initWithItemKind:name:properties:
++ _objc_msgSend$initWithItemProvider:properties:placeholderImage:
++ _objc_msgSend$initWithItemProviders:
++ _objc_msgSend$initWithKey:ascending:
++ _objc_msgSend$initWithKeyOptions:valueOptions:capacity:
++ _objc_msgSend$initWithKeysToFetch:
++ _objc_msgSend$initWithLayer:
++ _objc_msgSend$initWithLongLong:
++ _objc_msgSend$initWithLookupDictionary:
++ _objc_msgSend$initWithMass:stiffness:damping:initialVelocity:
++ _objc_msgSend$initWithMinimumIntervalBetweenPresentations:forPresentationPolicyGroup:
++ _objc_msgSend$initWithModel:personalizationStyle:
++ _objc_msgSend$initWithModelKind:block:
++ _objc_msgSend$initWithName:
++ _objc_msgSend$initWithNavigationBarClass:toolbarClass:
++ _objc_msgSend$initWithNibName:bundle:
++ _objc_msgSend$initWithNotificationName:handler:
++ _objc_msgSend$initWithOptions:
++ _objc_msgSend$initWithOptions:capacity:
++ _objc_msgSend$initWithPath:
++ _objc_msgSend$initWithPattern:options:error:
++ _objc_msgSend$initWithPayload:
++ _objc_msgSend$initWithPixelBufferAttributes:
++ _objc_msgSend$initWithPlatformImage:
++ _objc_msgSend$initWithPlayerID:
++ _objc_msgSend$initWithPlaylist:inMediaLibrary:andEntriesToRemove:
++ _objc_msgSend$initWithProgressViewStyle:
++ _objc_msgSend$initWithProperties:
++ _objc_msgSend$initWithPurchase:bag:
++ _objc_msgSend$initWithPurchaseType:buyParams:
++ _objc_msgSend$initWithRed:green:blue:alpha:
++ _objc_msgSend$initWithRefreshRate:delegate:
++ _objc_msgSend$initWithRequest:bag:
++ _objc_msgSend$initWithRequest:bag:presentingViewController:
++ _objc_msgSend$initWithRequestContext:
++ _objc_msgSend$initWithResponseDictionary:
++ _objc_msgSend$initWithScrollView:changeHandler:
++ _objc_msgSend$initWithSearchResultsController:
++ _objc_msgSend$initWithSectionProvider:
++ _objc_msgSend$initWithSectionProvider:configuration:
++ _objc_msgSend$initWithServiceName:
++ _objc_msgSend$initWithServiceType:placements:
++ _objc_msgSend$initWithSize:
++ _objc_msgSend$initWithSize:format:
++ _objc_msgSend$initWithSource:modelKind:block:
++ _objc_msgSend$initWithSourceView:
++ _objc_msgSend$initWithStartLocalRequest:requestOptions:
++ _objc_msgSend$initWithStartRequest:requestOptions:
++ _objc_msgSend$initWithStoreMusicAPIDictionary:
++ _objc_msgSend$initWithStoreMusicAPIDictionary:storePlatformDictionary:
++ _objc_msgSend$initWithStorePlatformDictionary:
++ _objc_msgSend$initWithStorePlatformDictionary:expirationDate:
++ _objc_msgSend$initWithStorePlatformDictionary:parentStoreItemMetadata:
++ _objc_msgSend$initWithStorePlatformDictionary:parentStoreItemMetadata:expirationDate:
++ _objc_msgSend$initWithStoreRequestContext:
++ _objc_msgSend$initWithString:
++ _objc_msgSend$initWithString:attributes:
++ _objc_msgSend$initWithStyle:
++ _objc_msgSend$initWithSuiteName:
++ _objc_msgSend$initWithSystemApplicationType:
++ _objc_msgSend$initWithTTMLData:
++ _objc_msgSend$initWithTarget:action:
++ _objc_msgSend$initWithTarget:selector:object:
++ _objc_msgSend$initWithTimeout:interruptionHandler:
++ _objc_msgSend$initWithToken:dataSource:
++ _objc_msgSend$initWithType:
++ _objc_msgSend$initWithURL:requestContext:
++ _objc_msgSend$initWithURLRequest:requestContext:
++ _objc_msgSend$initWithURLResponse:urlRequest:bodyData:performanceMetrics:
++ _objc_msgSend$initWithUnit:
++ _objc_msgSend$initWithUnpersonalizedRequest:unpersonalizedContentDescriptors:
++ _objc_msgSend$initWithUnsignedInteger:
++ _objc_msgSend$initWithUnsignedLongLong:
++ _objc_msgSend$initWithUserInteractionLevel:
++ _objc_msgSend$initWithVertexCount:vertices:faceCount:faces:depthNormalization:
++ _objc_msgSend$initWithVideoArtworkResponseDictionary:
++ _objc_msgSend$initWithView:
++ _objc_msgSend$initWithWhite:alpha:
++ _objc_msgSend$initWithWindowScene:
++ _objc_msgSend$innermostModelObject
++ _objc_msgSend$input
++ _objc_msgSend$insertAfterLastSection
++ _objc_msgSend$insertAfterPlayingItemWithPlaybackIntent:
++ _objc_msgSend$insertAtEndOfTracklistWithPlaybackIntent:
++ _objc_msgSend$insertAtEndOfUpNextWithPlaybackIntent:
++ _objc_msgSend$insertCommand
++ _objc_msgSend$insertEvent:withCompletionHandler:
++ _objc_msgSend$insertItemsAtIndexPaths:
++ _objc_msgSend$insertPlaybackIntent:afterItem:
++ _objc_msgSend$insertRowsAtIndexPaths:withRowAnimation:
++ _objc_msgSend$insertSections:
++ _objc_msgSend$insertSegmentWithTitle:atIndex:animated:
++ _objc_msgSend$insertString:atIndex:
++ _objc_msgSend$insertSublayer:atIndex:
++ _objc_msgSend$insertSubview:above:
++ _objc_msgSend$insertSubview:aboveSubview:
++ _objc_msgSend$insertSubview:atIndex:
++ _objc_msgSend$insertSubview:below:
++ _objc_msgSend$insertSubview:belowSubview:
++ _objc_msgSend$insertWithPlaybackIntent:
++ _objc_msgSend$insertedItemIndexPaths
++ _objc_msgSend$insertedSections
++ _objc_msgSend$instanceMethodForSelector:
++ _objc_msgSend$intValue
++ _objc_msgSend$interfaceWithProtocol:
++ _objc_msgSend$invalidate
++ _objc_msgSend$invalidateDataSourceCounts
++ _objc_msgSend$invalidateEverything
++ _objc_msgSend$invalidateLayout
++ _objc_msgSend$invalidateLayoutForRange:
++ _objc_msgSend$invalidateLayoutWithContext:
++ _objc_msgSend$invalidateSupplementaryElementsOfKind:atIndexPaths:
++ _objc_msgSend$invalidatedItemIndexPaths
++ _objc_msgSend$invalidatedSupplementaryIndexPaths
++ _objc_msgSend$invalidationContextClass
++ _objc_msgSend$invokeMethod:withArguments:
++ _objc_msgSend$isActive
++ _objc_msgSend$isAppleTVRoute
++ _objc_msgSend$isArtistUploadedContent
++ _objc_msgSend$isArtworkVisuallyIdenticalToCatalog:
++ _objc_msgSend$isAudioAnalyzerEnabled
++ _objc_msgSend$isAutomaticDownloadsEnabled
++ _objc_msgSend$isAutomaticDownloadsEnabledForPinnedLibraryEntities
++ _objc_msgSend$isAutomaticallyCreated
++ _objc_msgSend$isAvailable
++ _objc_msgSend$isBackgroundColorLight
++ _objc_msgSend$isBackgroundVocal
++ _objc_msgSend$isBeats1
++ _objc_msgSend$isBeingPresented
++ _objc_msgSend$isBestRepresentationForKind:
++ _objc_msgSend$isBoolSettingLockedDownByRestrictions:
++ _objc_msgSend$isCloudLibraryEnabled
++ _objc_msgSend$isCompilation
++ _objc_msgSend$isContextMenuInteractionEnabled
++ _objc_msgSend$isCuratorPlaylist
++ _objc_msgSend$isDecelerating
++ _objc_msgSend$isDescendantOfView:
++ _objc_msgSend$isDeviceRoute
++ _objc_msgSend$isDisabled
++ _objc_msgSend$isDiscoveryModeEligible
++ _objc_msgSend$isDisliked
++ _objc_msgSend$isDragging
++ _objc_msgSend$isDrawableAvailable
++ _objc_msgSend$isEditing
++ _objc_msgSend$isEligibleForHostingGroupSessionExcludingAcknowledgements
++ _objc_msgSend$isEmpty
++ _objc_msgSend$isEqualToAttributedString:
++ _objc_msgSend$isEqualToDictionary:
++ _objc_msgSend$isExplicitContentAllowed
++ _objc_msgSend$isExplicitSong
++ _objc_msgSend$isFeatured
++ _objc_msgSend$isFirstResponder
++ _objc_msgSend$isGeometryFlipped
++ _objc_msgSend$isGuest
++ _objc_msgSend$isHeadOfHousehold
++ _objc_msgSend$isHidden
++ _objc_msgSend$isHighlighted
++ _objc_msgSend$isHomePodRoute
++ _objc_msgSend$isHomeSharingLibrary
++ _objc_msgSend$isHosted
++ _objc_msgSend$isIPad
++ _objc_msgSend$isImagePrepared
++ _objc_msgSend$isInitialImport
++ _objc_msgSend$isInvalidated
++ _objc_msgSend$isKindOfClass:
++ _objc_msgSend$isLibraryAddEligible
++ _objc_msgSend$isLibraryAdded
++ _objc_msgSend$isLowPowerModeEnabled
++ _objc_msgSend$isManagedAppleID
++ _objc_msgSend$isMinorAccountHolder
++ _objc_msgSend$isMovingFromParentViewController
++ _objc_msgSend$isMusicCellularDownloadingAllowed
++ _objc_msgSend$isMusicCellularStreamingAllowed
++ _objc_msgSend$isNavigationBarHidden
++ _objc_msgSend$isNetworkConstrained
++ _objc_msgSend$isNonPurgeable
++ _objc_msgSend$isOn
++ _objc_msgSend$isOpaque
++ _objc_msgSend$isOwner
++ _objc_msgSend$isPending
++ _objc_msgSend$isPictureInPictureSupported
++ _objc_msgSend$isPinned
++ _objc_msgSend$isPlaceholder
++ _objc_msgSend$isPrefetchingEnabled
++ _objc_msgSend$isPreorder
++ _objc_msgSend$isPrivate
++ _objc_msgSend$isProtectedDataAvailable
++ _objc_msgSend$isRadioAvailable
++ _objc_msgSend$isRankedList
++ _objc_msgSend$isReadyForDisplay
++ _objc_msgSend$isRedownloadable
++ _objc_msgSend$isRemoteServerLikelyReachable
++ _objc_msgSend$isRemoteServerReachable
++ _objc_msgSend$isRunningInStoreDemoMode
++ _objc_msgSend$isSelected
++ _objc_msgSend$isSharedListeningSession
++ _objc_msgSend$isSourceTypeAvailable:
++ _objc_msgSend$isSpatialRole
++ _objc_msgSend$isStateRestorationSupported
++ _objc_msgSend$isStatusBarHidden
++ _objc_msgSend$isSubclassOfClass:
++ _objc_msgSend$isSubscribed
++ _objc_msgSend$isSubscriptionAvailable
++ _objc_msgSend$isSubscriptionRequired
++ _objc_msgSend$isSystemMusicApplication
++ _objc_msgSend$isSystemMusicPath
++ _objc_msgSend$isToggled
++ _objc_msgSend$isTracking
++ _objc_msgSend$isU18MinorAccount
++ _objc_msgSend$isUpdateInProgress
++ _objc_msgSend$isUserInteractionEnabled
++ _objc_msgSend$isUsingBytecodeCache
++ _objc_msgSend$isValid
++ _objc_msgSend$isValidEnvironment:
++ _objc_msgSend$isValidGlyphIndex:
++ _objc_msgSend$isVerified
++ _objc_msgSend$isVideoCellularStreamingAllowed
++ _objc_msgSend$isVideoSupported
++ _objc_msgSend$isVisiblePlaylist
++ _objc_msgSend$item
++ _objc_msgSend$itemAtIndexPath:
++ _objc_msgSend$itemKind
++ _objc_msgSend$itemTimeForHostTime:
++ _objc_msgSend$itemType
++ _objc_msgSend$itemWithLayoutSize:
++ _objc_msgSend$items
++ _objc_msgSend$itemsInSectionAtIndex:
++ _objc_msgSend$joinToken
++ _objc_msgSend$joinURLString
++ _objc_msgSend$jumpByInterval:
++ _objc_msgSend$keepLocalManagedStatus
++ _objc_msgSend$keyCommandWithInput:modifierFlags:action:
++ _objc_msgSend$keyEnumerator
++ _objc_msgSend$keyPath
++ _objc_msgSend$kind
++ _objc_msgSend$kindWithAlbumKind:
++ _objc_msgSend$kindWithEpisodeKind:
++ _objc_msgSend$kindWithKinds:
++ _objc_msgSend$kindWithModelClass:
++ _objc_msgSend$kindWithPlaylistEntryKind:options:
++ _objc_msgSend$kindWithRelationshipKinds:
++ _objc_msgSend$kindWithSeasonKind:
++ _objc_msgSend$kindWithSongKind:
++ _objc_msgSend$kindWithVariants:
++ _objc_msgSend$kindWithVariants:playlistEntryKind:options:
++ _objc_msgSend$kindWithVariants:songKind:
++ _objc_msgSend$kitImageNamed:
++ _objc_msgSend$label
++ _objc_msgSend$labelColor
++ _objc_msgSend$language
++ _objc_msgSend$largeTitleDisplayMode
++ _objc_msgSend$lastBaselineAnchor
++ _objc_msgSend$lastKnownSubscriptionFairPlayKeyStatus
++ _objc_msgSend$lastModifiedDateComponents
++ _objc_msgSend$launchedToTest
++ _objc_msgSend$layerClass
++ _objc_msgSend$layoutAttributesClass
++ _objc_msgSend$layoutAttributesForCellWithIndexPath:
++ _objc_msgSend$layoutAttributesForItemAtIndexPath:
++ _objc_msgSend$layoutAttributesForSupplementaryViewOfKind:atIndexPath:
++ _objc_msgSend$layoutAttributesForSupplementaryViewOfKind:withIndexPath:
++ _objc_msgSend$layoutDirection
++ _objc_msgSend$layoutFragmentFrame
++ _objc_msgSend$layoutIfNeeded
++ _objc_msgSend$layoutManager
++ _objc_msgSend$layoutMargins
++ _objc_msgSend$layoutMarginsGuide
++ _objc_msgSend$layoutSubviews
++ _objc_msgSend$layouts
++ _objc_msgSend$leading
++ _objc_msgSend$leadingAnchor
++ _objc_msgSend$leadingSilence
++ _objc_msgSend$leaveSession
++ _objc_msgSend$leftAnchor
++ _objc_msgSend$leftBarButtonItems
++ _objc_msgSend$leftView
++ _objc_msgSend$legacyPreferredTracklistSortDescriptors
++ _objc_msgSend$library
++ _objc_msgSend$libraryAddStatusObserverConfiguration
++ _objc_msgSend$libraryRemovalSupportedOptions
++ _objc_msgSend$lightGrayColor
++ _objc_msgSend$likeCommand
++ _objc_msgSend$lineFragmentPadding
++ _objc_msgSend$lineFragmentRectForGlyphAtIndex:effectiveRange:
++ _objc_msgSend$lineHeight
++ _objc_msgSend$lineIndex
++ _objc_msgSend$lineRef
++ _objc_msgSend$lineSpacing
++ _objc_msgSend$lines
++ _objc_msgSend$linesMap
++ _objc_msgSend$linkWithBundleIdentifier:
++ _objc_msgSend$loadCloudMusicLibraryUpdateProgressWithCompletionHandler:
++ _objc_msgSend$loadLastKnownEnableICMLErrorStatusWithCompletionHander:
++ _objc_msgSend$loadProductWithParameters:completionBlock:
++ _objc_msgSend$loadPromise
++ _objc_msgSend$loadURL:
++ _objc_msgSend$localFileAsset
++ _objc_msgSend$localizedDescription
++ _objc_msgSend$localizedInfoDictionary
++ _objc_msgSend$localizedMessage
++ _objc_msgSend$localizedSessionName
++ _objc_msgSend$localizedStringByJoiningStrings:
++ _objc_msgSend$localizedTitle
++ _objc_msgSend$locateActionWithIdentifier:
++ _objc_msgSend$locationInView:
++ _objc_msgSend$logCameraAccess
++ _objc_msgSend$logPhotoAccess
++ _objc_msgSend$lyrics
++ _objc_msgSend$lyricsID
++ _objc_msgSend$lyricsLines
++ _objc_msgSend$lyricsOffset
++ _objc_msgSend$lyricsSections
++ _objc_msgSend$lyricsText
++ _objc_msgSend$mainQueue
++ _objc_msgSend$mainRunLoop
++ _objc_msgSend$makeDialogRequest
++ _objc_msgSend$makeKeyAndVisible
++ _objc_msgSend$mask
++ _objc_msgSend$mass
++ _objc_msgSend$matchesInString:options:range:
++ _objc_msgSend$maximumItemTrackNumber
++ _objc_msgSend$mediaClip
++ _objc_msgSend$mediaClipWithStoreItemMetadata:storeItemMovieClip:
++ _objc_msgSend$mediaLibrary
++ _objc_msgSend$mediaSelectionGroupForMediaCharacteristic:
++ _objc_msgSend$mediaType
++ _objc_msgSend$mediaTypes
++ _objc_msgSend$members
++ _objc_msgSend$menu
++ _objc_msgSend$menuRepresentation
++ _objc_msgSend$menuWithJSMenu:
++ _objc_msgSend$message
++ _objc_msgSend$messageActions
++ _objc_msgSend$metadataObject
++ _objc_msgSend$methodForSelector:
++ _objc_msgSend$modalPresentationStyle
++ _objc_msgSend$modelClass
++ _objc_msgSend$modelGenericObject
++ _objc_msgSend$modelKind
++ _objc_msgSend$modelObjectMatchingIdentifierSet:propertySet:
++ _objc_msgSend$modelObjectWithStoreItemMetadata:sourceModelObject:userIdentity:
++ _objc_msgSend$modelPlayEvent
++ _objc_msgSend$modelSong
++ _objc_msgSend$moveItem:afterItem:
++ _objc_msgSend$moveItem:beforeItem:
++ _objc_msgSend$moveItemAtIndexPath:toIndexPath:
++ _objc_msgSend$moveItemAtURL:toURL:error:
++ _objc_msgSend$moveRowAtIndexPath:toIndexPath:
++ _objc_msgSend$moveSection:toSection:
++ _objc_msgSend$movie
++ _objc_msgSend$msv_errorByUnwrappingDomain:
++ _objc_msgSend$mtkView:drawableSizeWillChange:
++ _objc_msgSend$music
++ _objc_msgSend$musicTypeIdentifier
++ _objc_msgSend$music_defaultLayoutInsetsInView:
++ _objc_msgSend$name
++ _objc_msgSend$navigateTo:from:animated:
++ _objc_msgSend$navigationBar
++ _objc_msgSend$navigationHandlerForItemAt:sourceViewController:
++ _objc_msgSend$needsUserUpload
++ _objc_msgSend$networkType
++ _objc_msgSend$newBufferWithBytes:length:options:
++ _objc_msgSend$newCommandQueue
++ _objc_msgSend$newDefaultLibraryWithBundle:error:
++ _objc_msgSend$newFunctionWithName:
++ _objc_msgSend$newKeepLocalStatusObserverConfiguration
++ _objc_msgSend$newOperationForDetailedKeepLocalStatusConfigurationForSectionAtIndex:responseHandler:
++ _objc_msgSend$newOperationWithResponseHandler:
++ _objc_msgSend$newRenderPipelineStateWithDescriptor:error:
++ _objc_msgSend$newTextureWithCGImage:options:completionHandler:
++ _objc_msgSend$newTextureWithCGImage:options:error:
++ _objc_msgSend$newTextureWithDescriptor:
++ _objc_msgSend$nextChapter
++ _objc_msgSend$nextFocusedItem
++ _objc_msgSend$nextItem
++ _objc_msgSend$nextObject
++ _objc_msgSend$nextSection
++ _objc_msgSend$notificationOccurred:
++ _objc_msgSend$notificationOccurred:atLocation:
++ _objc_msgSend$number
++ _objc_msgSend$numberForBagKey:
++ _objc_msgSend$numberOfBands
++ _objc_msgSend$numberOfGlyphs
++ _objc_msgSend$numberOfLineFragments
++ _objc_msgSend$numberOfLines
++ _objc_msgSend$numberOfPages
++ _objc_msgSend$objectAtIndexedSubscript:
++ _objc_msgSend$objectForInfoDictionaryKey:
++ _objc_msgSend$offset
++ _objc_msgSend$opacity
++ _objc_msgSend$openApplicationWithBundleIdentifier:configuration:completionHandler:
++ _objc_msgSend$openSensitiveURL:withOptions:
++ _objc_msgSend$openSessions
++ _objc_msgSend$openURL:options:completionHandler:
++ _objc_msgSend$operationCount
++ _objc_msgSend$operations
++ _objc_msgSend$originalIdentifierSet
++ _objc_msgSend$originalRequest
++ _objc_msgSend$originalSize
++ _objc_msgSend$orphanMusicVideo
++ _objc_msgSend$outputDevices
++ _objc_msgSend$outputImage
++ _objc_msgSend$outputs
++ _objc_msgSend$overrideTraitCollectionForChildViewController:
++ _objc_msgSend$ownerName
++ _objc_msgSend$owningView
++ _objc_msgSend$packageWithData:type:options:error:
++ _objc_msgSend$paletteForEdge:size:
++ _objc_msgSend$panGestureRecognizer
++ _objc_msgSend$parameters
++ _objc_msgSend$parentViewController
++ _objc_msgSend$parseWithCompletion:
++ _objc_msgSend$parsedBody
++ _objc_msgSend$parsedBodyArray
++ _objc_msgSend$parsedBodyDictionary
++ _objc_msgSend$participant
++ _objc_msgSend$participantForIdentifier:
++ _objc_msgSend$participantIdentifier
++ _objc_msgSend$participants
++ _objc_msgSend$pathWithComponents:
++ _objc_msgSend$pathWithRoute:bundleID:playerID:
++ _objc_msgSend$pause
++ _objc_msgSend$pauseScenes
++ _objc_msgSend$pendingParticipantForIdentifier:
++ _objc_msgSend$pendingParticipants
++ _objc_msgSend$pendingRequestsCount
++ _objc_msgSend$performBatchUpdates:completion:
++ _objc_msgSend$performDeleteEntityChangeRequest:withRelatedModelObjects:completion:
++ _objc_msgSend$performKeepLocalChangeRequest:withRelatedModelObjects:
++ _objc_msgSend$performLibraryImportChangeRequest:withRelatedModelObjects:completion:
++ _objc_msgSend$performPurchase
++ _objc_msgSend$performRequest:completion:
++ _objc_msgSend$performRequestWithCompletion:
++ _objc_msgSend$performSelector:
++ _objc_msgSend$performSubscriptionStatusRequest:withCompletionHandler:
++ _objc_msgSend$performSubscriptionStatusRequest:withStatusHandler:
++ _objc_msgSend$performWithCompletion:
++ _objc_msgSend$performWithExtendedStatusCompletion:
++ _objc_msgSend$performWithResponseHandler:
++ _objc_msgSend$performWithoutAnimation:
++ _objc_msgSend$performanceMetrics
++ _objc_msgSend$persistentID
++ _objc_msgSend$personalizedStore
++ _objc_msgSend$phoneNumbers
++ _objc_msgSend$pickableObjectFor:
++ _objc_msgSend$pickingForExternalPlayer
++ _objc_msgSend$picksSingleCollectionEntity
++ _objc_msgSend$pixelFormat
++ _objc_msgSend$placeholderTextColor
++ _objc_msgSend$placementsMap
++ _objc_msgSend$play
++ _objc_msgSend$playActivityFeatureName
++ _objc_msgSend$playActivityFeatureNameSourceViewController
++ _objc_msgSend$playActivityFeatureNamesWithSourceChildViewController:
++ _objc_msgSend$playActivityForwardedRecommendationData
++ _objc_msgSend$playActivityRecommendationData
++ _objc_msgSend$playScenes
++ _objc_msgSend$playbackAlertControllerForItem:contentType:error:dismissalBlock:
++ _objc_msgSend$playbackArchiveConfiguration
++ _objc_msgSend$playbackEvent
++ _objc_msgSend$playbackIntentFor:itemKind:itemProperties:
++ _objc_msgSend$playbackIntentWithStartItemIdentifiers:
++ _objc_msgSend$playbackPosition
++ _objc_msgSend$playbackPositionForLocalEntityIdentifiers:
++ _objc_msgSend$playedNowContent
++ _objc_msgSend$player
++ _objc_msgSend$playerID
++ _objc_msgSend$playerPath
++ _objc_msgSend$playingItem
++ _objc_msgSend$playingItemIndexPath
++ _objc_msgSend$playingItemProperties
++ _objc_msgSend$playlist
++ _objc_msgSend$playlistEntry
++ _objc_msgSend$podcast
++ _objc_msgSend$podcastEpisode
++ _objc_msgSend$pointInside:withEvent:
++ _objc_msgSend$pointSize
++ _objc_msgSend$pointerAtIndex:
++ _objc_msgSend$popToViewController:animated:
++ _objc_msgSend$popViewControllerAnimated:
++ _objc_msgSend$popoverPresentationController
++ _objc_msgSend$popularity
++ _objc_msgSend$portList
++ _objc_msgSend$position
++ _objc_msgSend$positionFromPosition:offset:
++ _objc_msgSend$postNotification:
++ _objc_msgSend$postNotificationName:object:
++ _objc_msgSend$postNotificationName:object:userInfo:
++ _objc_msgSend$powerLevel
++ _objc_msgSend$predicateForContactsWithIdentifiers:
++ _objc_msgSend$preferredArtworkAspectRatio
++ _objc_msgSend$preferredBackwardJumpIntervals
++ _objc_msgSend$preferredContentSize
++ _objc_msgSend$preferredContentSizeCategory
++ _objc_msgSend$preferredFontDescriptorWithTextStyle:compatibleWithTraitCollection:
++ _objc_msgSend$preferredFontForTextStyle:compatibleWithTraitCollection:
++ _objc_msgSend$preferredFormat
++ _objc_msgSend$preferredForwardJumpIntervals
++ _objc_msgSend$preferredNavigationBarTintColor
++ _objc_msgSend$preferredQueue
++ _objc_msgSend$preferredStatusBarStyle
++ _objc_msgSend$preferredStyle
++ _objc_msgSend$preferredSymbolConfiguration
++ _objc_msgSend$prefersEnqueuingUsingAirPlay
++ _objc_msgSend$prefersSpatialDownloads
++ _objc_msgSend$prefetchDataSource
++ _objc_msgSend$prepare
++ _objc_msgSend$prepareForDisplayWithCompletionHandler:
++ _objc_msgSend$prepareInViewController:completion:
++ _objc_msgSend$prepareLayoutWithMaxWidth:
++ _objc_msgSend$prepareVocalsControlCommand
++ _objc_msgSend$present
++ _objc_msgSend$presentDrawable:
++ _objc_msgSend$presentEngagement
++ _objc_msgSend$presentsWithTransaction
++ _objc_msgSend$previewArtworkCatalog
++ _objc_msgSend$previousChapter
++ _objc_msgSend$previousItem
++ _objc_msgSend$previousSection
++ _objc_msgSend$previouslyFocusedItem
++ _objc_msgSend$primaryAction
++ _objc_msgSend$primaryVocalText
++ _objc_msgSend$privacyAcknowledgementRequiredForMusic
++ _objc_msgSend$processInfo
++ _objc_msgSend$productVersion
++ _objc_msgSend$profile
++ _objc_msgSend$profileVersion
++ _objc_msgSend$prompt
++ _objc_msgSend$properties
++ _objc_msgSend$propertiesWithSessionIdentifier:sessionKey:
++ _objc_msgSend$propertyForBodyKey:
++ _objc_msgSend$propertyListWithData:options:format:error:
++ _objc_msgSend$propertySetByCombiningWithPropertySet:
++ _objc_msgSend$propertySetWithProperties:
++ _objc_msgSend$protectionType
++ _objc_msgSend$providerName
++ _objc_msgSend$publishedObjectNames
++ _objc_msgSend$publishedObjectWithName:
++ _objc_msgSend$purchasedAdamID
++ _objc_msgSend$pushViewController:animated:
++ _objc_msgSend$pushViewController:overrideTraitCollection:animated:
++ _objc_msgSend$quaternaryLabelColor
++ _objc_msgSend$quaternarySystemFillColor
++ _objc_msgSend$queueEvent
++ _objc_msgSend$queueItemIdentifier
++ _objc_msgSend$queueSectionProperties
++ _objc_msgSend$radio
++ _objc_msgSend$radioPlaybackIntentFromSong:
++ _objc_msgSend$radioPlaybackIntentWithStation:
++ _objc_msgSend$radioStation
++ _objc_msgSend$range
++ _objc_msgSend$rangeInElement
++ _objc_msgSend$rangeOfFirstMatchInString:options:range:
++ _objc_msgSend$rangeOfString:
++ _objc_msgSend$rangeOfString:options:
++ _objc_msgSend$rate
++ _objc_msgSend$reaction
++ _objc_msgSend$reactionEvent
++ _objc_msgSend$reactionIdentifier
++ _objc_msgSend$reasonForWaitingToPlay
++ _objc_msgSend$reasonType
++ _objc_msgSend$receiveEvent:
++ _objc_msgSend$reconfigureItemsAtIndexPaths:
++ _objc_msgSend$recordLabel
++ _objc_msgSend$recordLyricsViewEvent:
++ _objc_msgSend$redirectCount
++ _objc_msgSend$refreshUserStatesWithOptions:completion:
++ _objc_msgSend$registerBagKeySet:forProfile:profileVersion:
++ _objc_msgSend$registerClass:forCellReuseIdentifier:
++ _objc_msgSend$registerClass:forCellWithReuseIdentifier:
++ _objc_msgSend$registerClass:forSupplementaryViewOfKind:withReuseIdentifier:
++ _objc_msgSend$registerForTaskWithIdentifier:usingQueue:launchHandler:
++ _objc_msgSend$registerItemForTypeIdentifier:loadHandler:
++ _objc_msgSend$registerMessageTarget:
++ _objc_msgSend$registerObserver:
++ _objc_msgSend$releaseDate
++ _objc_msgSend$releaseDateComponents
++ _objc_msgSend$reloadData
++ _objc_msgSend$reloadItemsAtIndexPaths:
++ _objc_msgSend$reloadRowsAtIndexPaths:withRowAnimation:
++ _objc_msgSend$reloadSections:
++ _objc_msgSend$reloadWithContext:
++ _objc_msgSend$remoteControlGroupSessionWithIdentifier:delegate:
++ _objc_msgSend$remoteObjectProxy
++ _objc_msgSend$removeAction:forControlEvents:
++ _objc_msgSend$removeAllAnimations
++ _objc_msgSend$removeAllObjects
++ _objc_msgSend$removeAllParticipantsWithCompletion:
++ _objc_msgSend$removeAllSegments
++ _objc_msgSend$removeAttribute:range:
++ _objc_msgSend$removeCookiesWithProperties:
++ _objc_msgSend$removeFollower:completion:
++ _objc_msgSend$removeFromParentViewController
++ _objc_msgSend$removeGestureRecognizer:
++ _objc_msgSend$removeItemAtURL:error:
++ _objc_msgSend$removeKeyCommand:
++ _objc_msgSend$removeObject:
++ _objc_msgSend$removeObjectForKey:
++ _objc_msgSend$removeObserver:
++ _objc_msgSend$removeObserver:name:object:
++ _objc_msgSend$removeObserverWithToken:
++ _objc_msgSend$removeParticipant:completion:
++ _objc_msgSend$removePointerAtIndex:
++ _objc_msgSend$removeTarget:action:
++ _objc_msgSend$removeTarget:action:forControlEvents:
++ _objc_msgSend$removeViewController:animated:
++ _objc_msgSend$renderCommandEncoderWithDescriptor:
++ _objc_msgSend$renderHint
++ _objc_msgSend$renderInContext:
++ _objc_msgSend$renderingSurfaceBounds
++ _objc_msgSend$reorderCommand
++ _objc_msgSend$repeatCommand
++ _objc_msgSend$repeatMode
++ _objc_msgSend$replaceCharactersInRange:withAttributedString:
++ _objc_msgSend$replaceCharactersInRange:withString:
++ _objc_msgSend$replaceRegion:mipmapLevel:withBytes:bytesPerRow:
++ _objc_msgSend$replaceWithPlaybackIntent:replaceIntent:
++ _objc_msgSend$reportApplicationContextPropertiesDidChange:
++ _objc_msgSend$reportMessageDidAppearWithIdentifier:fromTargetWithIdentifier:
++ _objc_msgSend$reportMessageDidDisappearWithIdentifier:fromTargetWithIdentifier:
++ _objc_msgSend$reportMessageWithIdentifier:actionWasPerformedWithIdentifier:fromTargetWithIdentifier:
++ _objc_msgSend$reportModalMessagePresentationFailedWithIdentifier:
++ _objc_msgSend$reportModalMessageWasDismissedWithIdentifier:
++ _objc_msgSend$reportModalMessageWasPresentedWithIdentifier:
++ _objc_msgSend$reportModalMessageWithIdentifier:actionWasPerformedWithIdentifier:
++ _objc_msgSend$representativeItem
++ _objc_msgSend$representativeSong
++ _objc_msgSend$representativeTitle
++ _objc_msgSend$representedBundleDisplayName
++ _objc_msgSend$representedBundleID
++ _objc_msgSend$representedElementCategory
++ _objc_msgSend$representedElementKind
++ _objc_msgSend$representedObjectResults
++ _objc_msgSend$requestAuthorization
++ _objc_msgSend$requestAuthorizationWithOptions:completionHandler:
++ _objc_msgSend$requestContext
++ _objc_msgSend$requestEnableModuleWithIdentifier:completionHandler:
++ _objc_msgSend$requestFollowPerson:completion:
++ _objc_msgSend$requestGroupSessionWithQueue:completion:
++ _objc_msgSend$requestImageWithCompletion:
++ _objc_msgSend$requestMessageSize
++ _objc_msgSend$requestNotificationOfMediaDataChangeWithAdvanceInterval:
++ _objc_msgSend$requestReviewInScene:
++ _objc_msgSend$requestStartTime
++ _objc_msgSend$requestUrl
++ _objc_msgSend$requiredKeepLocalStatusObservationProperties
++ _objc_msgSend$requiredLibraryAddStatusObservationProperties
++ _objc_msgSend$requiredLibraryNavigationHandlerProperties
++ _objc_msgSend$requiredLibraryRemovalProperties
++ _objc_msgSend$requiredPropertiesForStaticMediaClips
++ _objc_msgSend$requiredStoreNavigationHandlerProperties
++ _objc_msgSend$requiresDelegate
++ _objc_msgSend$resetCommand
++ _objc_msgSend$resignFirstResponder
++ _objc_msgSend$resignKeyWindow
++ _objc_msgSend$resolvableIdentityWithIdentifier:displayName:
++ _objc_msgSend$resolvedBaseWritingDirection
++ _objc_msgSend$resolvedColorWithTraitCollection:
++ _objc_msgSend$resolvedIPAddress
++ _objc_msgSend$resourceURL
++ _objc_msgSend$respondsToSelector:
++ _objc_msgSend$response
++ _objc_msgSend$responseDate
++ _objc_msgSend$responseDictionary
++ _objc_msgSend$responseEndTime
++ _objc_msgSend$responseMessageSize
++ _objc_msgSend$responseStartTime
++ _objc_msgSend$restartScenes
++ _objc_msgSend$restoreStateWithCompletion:
++ _objc_msgSend$resume
++ _objc_msgSend$rightAnchor
++ _objc_msgSend$rightBarButtonItem
++ _objc_msgSend$rightBarButtonItems
++ _objc_msgSend$rightView
++ _objc_msgSend$role
++ _objc_msgSend$rootLayer
++ _objc_msgSend$route
++ _objc_msgSend$routeName
++ _objc_msgSend$routeType
++ _objc_msgSend$rowHeight
++ _objc_msgSend$runSiriKitExecutorCommandWithContext:payload:
++ _objc_msgSend$safeAreaInsets
++ _objc_msgSend$sampleRate
++ _objc_msgSend$saveCookies:forURL:userIdentifier:
++ _objc_msgSend$scaledFittingSize
++ _objc_msgSend$scaledFontForFont:
++ _objc_msgSend$scaledValueForValue:
++ _objc_msgSend$scaledValueForValue:compatibleWithTraitCollection:
++ _objc_msgSend$scene
++ _objc_msgSend$scheduledTimerWithTimeInterval:repeats:block:
++ _objc_msgSend$scheduledTimerWithTimeInterval:target:selector:userInfo:repeats:
++ _objc_msgSend$scopedContainers
++ _objc_msgSend$screen
++ _objc_msgSend$scriptOfType:withSource:andSourceURL:andBytecodeCache:inVirtualMachine:error:
++ _objc_msgSend$scrollEdgeAppearance
++ _objc_msgSend$scrollRectToVisible:animated:
++ _objc_msgSend$scrollToItemAtIndexPath:atScrollPosition:animated:
++ _objc_msgSend$searchBar
++ _objc_msgSend$searchBar:textDidChange:
++ _objc_msgSend$searchController
++ _objc_msgSend$searchField
++ _objc_msgSend$searchTextField
++ _objc_msgSend$season
++ _objc_msgSend$secondaryLabelColor
++ _objc_msgSend$secondarySystemBackgroundColor
++ _objc_msgSend$secondarySystemFillColor
++ _objc_msgSend$section
++ _objc_msgSend$sectionAtIndex:
++ _objc_msgSend$sectionIndexTitles
++ _objc_msgSend$sectionInset
++ _objc_msgSend$sectionKind
++ _objc_msgSend$sectionWithGroup:
++ _objc_msgSend$secureConnectionStartTime
++ _objc_msgSend$seekCommand
++ _objc_msgSend$selectAll:
++ _objc_msgSend$selectItemAtIndexPath:animated:scrollPosition:
++ _objc_msgSend$selectMediaOption:inMediaSelectionGroup:
++ _objc_msgSend$selectRoute:operation:completion:
++ _objc_msgSend$selectRowAtIndexPath:animated:scrollPosition:
++ _objc_msgSend$selectedActionIdentifier
++ _objc_msgSend$selectedSegmentIndex
++ _objc_msgSend$selectionMode
++ _objc_msgSend$semanticContentAttribute
++ _objc_msgSend$sendActionsForControlEvents:
++ _objc_msgSend$sendSubviewToBack:
++ _objc_msgSend$sender
++ _objc_msgSend$separatorColor
++ _objc_msgSend$separatorInset
++ _objc_msgSend$serverTimeFromDate:
++ _objc_msgSend$serverTimeFromTimeInterval:
++ _objc_msgSend$serviceType
++ _objc_msgSend$session
++ _objc_msgSend$sessionEvent
++ _objc_msgSend$sessionIdentifier
++ _objc_msgSend$sessionKey
++ _objc_msgSend$setAccessibilityIdentifier:
++ _objc_msgSend$setAccessibilityIgnoresInvertColors:
++ _objc_msgSend$setAccessibilityLabel:
++ _objc_msgSend$setAccessibilityTraits:
++ _objc_msgSend$setAccessibilityValue:
++ _objc_msgSend$setAccessoryButtonTitleText:
++ _objc_msgSend$setAccessorySocialPersons:
++ _objc_msgSend$setAccessoryType:
++ _objc_msgSend$setAccessoryView:
++ _objc_msgSend$setAccount:
++ _objc_msgSend$setAccountIdentifier:
++ _objc_msgSend$setAccountNotificationsArtistContentFeature:withCompletionHandler:
++ _objc_msgSend$setActionAfterQueueLoad:
++ _objc_msgSend$setActionDetails:
++ _objc_msgSend$setActionType:
++ _objc_msgSend$setActive:
++ _objc_msgSend$setActiveAccountWithDSID:completionHandler:
++ _objc_msgSend$setActiveDataSource:
++ _objc_msgSend$setActiveRoute:completion:
++ _objc_msgSend$setAdamID:
++ _objc_msgSend$setAdditionalSafeAreaInsets:
++ _objc_msgSend$setAdditive:
++ _objc_msgSend$setAdjustsFontForContentSizeCategory:
++ _objc_msgSend$setAdjustsFontSizeToFitWidth:
++ _objc_msgSend$setAdjustsImageSizeForAccessibilityContentSizeCategory:
++ _objc_msgSend$setAdjustsImageWhenHighlighted:
++ _objc_msgSend$setAffineTransform:
++ _objc_msgSend$setAlbum:
++ _objc_msgSend$setAlbumAppData:
++ _objc_msgSend$setAlignment:
++ _objc_msgSend$setAllowedItemIdentifiers:
++ _objc_msgSend$setAllowedPressTypes:
++ _objc_msgSend$setAllowedScrollTypesMask:
++ _objc_msgSend$setAllowedSectionIdentifiers:
++ _objc_msgSend$setAllowedUnits:
++ _objc_msgSend$setAllowsCustomPresentationStyle:
++ _objc_msgSend$setAllowsDisplayCompositing:
++ _objc_msgSend$setAllowsEdgeAntialiasing:
++ _objc_msgSend$setAllowsEditing:
++ _objc_msgSend$setAllowsExpiredBags:
++ _objc_msgSend$setAllowsExternalPlayback:
++ _objc_msgSend$setAllowsFallbackToExpiredStatus:
++ _objc_msgSend$setAllowsFallbackToStatusNeedingReload:
++ _objc_msgSend$setAllowsFocus:
++ _objc_msgSend$setAllowsGroupBlending:
++ _objc_msgSend$setAllowsGroupOpacity:
++ _objc_msgSend$setAllowsMultipleSelection:
++ _objc_msgSend$setAllowsMultipleSelectionDuringEditing:
++ _objc_msgSend$setAllowsProminentActivity:
++ _objc_msgSend$setAllowsSelectionDuringEditing:
++ _objc_msgSend$setAlpha:
++ _objc_msgSend$setAltDSID:
++ _objc_msgSend$setAlwaysBounceHorizontal:
++ _objc_msgSend$setAlwaysBounceVertical:
++ _objc_msgSend$setAnchorPoint:
++ _objc_msgSend$setAnimationDirection:
++ _objc_msgSend$setAnimationReferenceView:
++ _objc_msgSend$setAnimationTimingFunction:
++ _objc_msgSend$setAnimations:
++ _objc_msgSend$setAppleTimingApp:
++ _objc_msgSend$setApplicationIdentifier:
++ _objc_msgSend$setApplicationVersion:
++ _objc_msgSend$setArtist:
++ _objc_msgSend$setArtwork:
++ _objc_msgSend$setArtworkCatalogBlock:
++ _objc_msgSend$setAttributedPlaceholder:
++ _objc_msgSend$setAttributedString:
++ _objc_msgSend$setAttributedText:
++ _objc_msgSend$setAttributedTitle:forState:
++ _objc_msgSend$setAttributes:ofItemAtPath:error:
++ _objc_msgSend$setAttributes:range:
++ _objc_msgSend$setAudioAnalyzerEnabled:
++ _objc_msgSend$setAuthenticationProvider:
++ _objc_msgSend$setAutomaticallyWaitsToMinimizeStalling:
++ _objc_msgSend$setAutoresizingMask:
++ _objc_msgSend$setAxis:
++ _objc_msgSend$setBackButtonTitle:
++ _objc_msgSend$setBackgroundArtworkCatalogBlock:
++ _objc_msgSend$setBackgroundEffects:
++ _objc_msgSend$setBackgroundImage:forState:
++ _objc_msgSend$setBackgroundView:
++ _objc_msgSend$setBagProfileVersion:
++ _objc_msgSend$setBarButtonItem:
++ _objc_msgSend$setBaselineRelativeArrangement:
++ _objc_msgSend$setBiography:
++ _objc_msgSend$setBlendingEnabled:
++ _objc_msgSend$setBoolValue:forSetting:
++ _objc_msgSend$setBorderColor:
++ _objc_msgSend$setBorderWidth:
++ _objc_msgSend$setBounces:
++ _objc_msgSend$setBoundaryStyle:
++ _objc_msgSend$setBoundarySupplementaryItems:
++ _objc_msgSend$setBufferIndex:
++ _objc_msgSend$setButtonAction:
++ _objc_msgSend$setButtonText:
++ _objc_msgSend$setButtonTitle:
++ _objc_msgSend$setCacheIdentifier:forCacheReference:
++ _objc_msgSend$setCacheLimit:forCacheIdentifier:cacheReference:
++ _objc_msgSend$setCachedAccountNotificationsShowInLibraryEnabled:
++ _objc_msgSend$setCachedResponse:
++ _objc_msgSend$setCachesLayout:
++ _objc_msgSend$setCancelOnHTTPErrors:
++ _objc_msgSend$setCancelsTouchesInView:
++ _objc_msgSend$setCarrierBundleProvisioningStyle:
++ _objc_msgSend$setCategory:error:
++ _objc_msgSend$setCenter:
++ _objc_msgSend$setClearColor:
++ _objc_msgSend$setClientInfo:
++ _objc_msgSend$setClientOptions:
++ _objc_msgSend$setCloudAlbumID:
++ _objc_msgSend$setCloudID:
++ _objc_msgSend$setCloudServiceSetupURL:
++ _objc_msgSend$setCollectionViewLayout:
++ _objc_msgSend$setCollectionViewLayout:animated:
++ _objc_msgSend$setColor:
++ _objc_msgSend$setColorPixelFormat:
++ _objc_msgSend$setCommandOptionValue:forKey:
++ _objc_msgSend$setConfiguration:
++ _objc_msgSend$setConfiguration:identifyingModelObject:
++ _objc_msgSend$setConnection:
++ _objc_msgSend$setConnectionEndTime:
++ _objc_msgSend$setConnectionReused:
++ _objc_msgSend$setConnectionStartTime:
++ _objc_msgSend$setConnectionType:
++ _objc_msgSend$setConstant:
++ _objc_msgSend$setContacts:
++ _objc_msgSend$setContentCompressionResistancePriority:forAxis:
++ _objc_msgSend$setContentEdgeInsets:
++ _objc_msgSend$setContentEffects:
++ _objc_msgSend$setContentGap:
++ _objc_msgSend$setContentHorizontalAlignment:
++ _objc_msgSend$setContentInset:
++ _objc_msgSend$setContentInsetAdjustmentBehavior:
++ _objc_msgSend$setContentInsets:
++ _objc_msgSend$setContentMode:
++ _objc_msgSend$setContentOffset:
++ _objc_msgSend$setContentOffset:animated:
++ _objc_msgSend$setContentRange:
++ _objc_msgSend$setContentVerticalAlignment:
++ _objc_msgSend$setContentViewController:
++ _objc_msgSend$setContentsFormat:
++ _objc_msgSend$setContentsScale:
++ _objc_msgSend$setContextMenuInteractionEnabled:
++ _objc_msgSend$setCornerCurve:
++ _objc_msgSend$setCornerRadius:
++ _objc_msgSend$setCountLimit:
++ _objc_msgSend$setCropStyle:
++ _objc_msgSend$setCurator:
++ _objc_msgSend$setCurrentPage:
++ _objc_msgSend$setCurrentPageIndicatorTintColor:
++ _objc_msgSend$setCustomSpacing:afterView:
++ _objc_msgSend$setDSID:
++ _objc_msgSend$setDamping:
++ _objc_msgSend$setDataSource:
++ _objc_msgSend$setDateFormat:
++ _objc_msgSend$setDateStyle:
++ _objc_msgSend$setDateTemplate:
++ _objc_msgSend$setDefinesPresentationContext:
++ _objc_msgSend$setDelaysContentTouches:
++ _objc_msgSend$setDelegate:queue:
++ _objc_msgSend$setDeletedItemIndexPaths:
++ _objc_msgSend$setDeletedSections:
++ _objc_msgSend$setDeliversTouchesForGesturesToSuperview:
++ _objc_msgSend$setDescriptionText:
++ _objc_msgSend$setDescriptionTitleText:
++ _objc_msgSend$setDestination:configurationBlock:
++ _objc_msgSend$setDestination:forRepresentationKinds:configurationBlock:
++ _objc_msgSend$setDestinationScale:
++ _objc_msgSend$setDetents:
++ _objc_msgSend$setDevice:
++ _objc_msgSend$setDialogId:
++ _objc_msgSend$setDialogType:
++ _objc_msgSend$setDisableEventDecoration:
++ _objc_msgSend$setDisplayStyle:
++ _objc_msgSend$setDisplayTranslationEnabled:
++ _objc_msgSend$setDisplayTransliterationEnabled:
++ _objc_msgSend$setDisplayType:
++ _objc_msgSend$setDistribution:
++ _objc_msgSend$setDomainLookupEndTime:
++ _objc_msgSend$setDomainLookupStartTime:
++ _objc_msgSend$setDragInteractionEnabled:
++ _objc_msgSend$setDrawMode:
++ _objc_msgSend$setEarliestBeginDate:
++ _objc_msgSend$setEdgeMode:
++ _objc_msgSend$setEdgeNodeCacheStatus:
++ _objc_msgSend$setEditing:
++ _objc_msgSend$setEditing:animated:
++ _objc_msgSend$setEditorialArtworkCatalogBlock:
++ _objc_msgSend$setEffect:
++ _objc_msgSend$setEnableSetNeedsDisplay:
++ _objc_msgSend$setEnableState:
++ _objc_msgSend$setEndTime:
++ _objc_msgSend$setEpisode:
++ _objc_msgSend$setEpisodeInformationItems:
++ _objc_msgSend$setEstimatedRowHeight:
++ _objc_msgSend$setEventType:
++ _objc_msgSend$setEventVersion:
++ _objc_msgSend$setExceptionHandler:
++ _objc_msgSend$setExclusionPaths:
++ _objc_msgSend$setExclusiveTouch:
++ _objc_msgSend$setExpirationDate:
++ _objc_msgSend$setExternalIdentifier:
++ _objc_msgSend$setEyesFree:
++ _objc_msgSend$setFadeEdgeInsets:
++ _objc_msgSend$setFallbackPlaybackIntent:
++ _objc_msgSend$setFeatureName:
++ _objc_msgSend$setFeatured:
++ _objc_msgSend$setFetchStartTime:
++ _objc_msgSend$setFill
++ _objc_msgSend$setFillColor:
++ _objc_msgSend$setFillMode:
++ _objc_msgSend$setFillRule:
++ _objc_msgSend$setFilterText:
++ _objc_msgSend$setFilteringOptions:
++ _objc_msgSend$setFilters:
++ _objc_msgSend$setFittingSize:
++ _objc_msgSend$setFlushTimerEnabled:
++ _objc_msgSend$setFocusEffect:
++ _objc_msgSend$setFormat:
++ _objc_msgSend$setFragmentBytes:length:atIndex:
++ _objc_msgSend$setFragmentFunction:
++ _objc_msgSend$setFragmentTexture:atIndex:
++ _objc_msgSend$setFromValue:
++ _objc_msgSend$setGeometryFlipped:
++ _objc_msgSend$setGlobalConfiguration:
++ _objc_msgSend$setGlobalPlaylistID:
++ _objc_msgSend$setHandle:
++ _objc_msgSend$setHasHeadlineText:
++ _objc_msgSend$setHasLightweightProfile:
++ _objc_msgSend$setHasSubtitleText:
++ _objc_msgSend$setHeaderSubtitleText:
++ _objc_msgSend$setHeaderTitleText:
++ _objc_msgSend$setHeadlineColor:
++ _objc_msgSend$setHeadlineText:
++ _objc_msgSend$setHeightClass:
++ _objc_msgSend$setHeightTracksTextView:
++ _objc_msgSend$setHidesBackButton:animated:
++ _objc_msgSend$setHidesSearchBarWhenScrolling:
++ _objc_msgSend$setHighFrameRateReason:
++ _objc_msgSend$setHighlighted:
++ _objc_msgSend$setHighlightedImage:
++ _objc_msgSend$setHitRectInsets:
++ _objc_msgSend$setHorizontalScrollDecelerationFactor:
++ _objc_msgSend$setHoverStyle:
++ _objc_msgSend$setHyphenationFactor:
++ _objc_msgSend$setIdentity:
++ _objc_msgSend$setIdentityStore:
++ _objc_msgSend$setImage:
++ _objc_msgSend$setImage:forState:
++ _objc_msgSend$setImage:forStates:
++ _objc_msgSend$setImageEdgeInsets:
++ _objc_msgSend$setImplicitDuration:
++ _objc_msgSend$setImpressions:
++ _objc_msgSend$setInGroupSession:
++ _objc_msgSend$setIndicatorImage:forPage:
++ _objc_msgSend$setIndicatorStyle:
++ _objc_msgSend$setInformalStaticAssetID:
++ _objc_msgSend$setInitialVelocity:
++ _objc_msgSend$setInputOrigin:
++ _objc_msgSend$setInsertedSections:
++ _objc_msgSend$setInsetsLayoutMarginsFromSafeArea:
++ _objc_msgSend$setInterGroupSpacing:
++ _objc_msgSend$setInteractionType:
++ _objc_msgSend$setInterpolations:
++ _objc_msgSend$setInterruptionHandler:
++ _objc_msgSend$setInvalidateFlowLayoutAttributes:
++ _objc_msgSend$setInvalidateFlowLayoutDelegateMetrics:
++ _objc_msgSend$setInvalidateTableLayoutDelegateMetrics:
++ _objc_msgSend$setInvalidationHandler:
++ _objc_msgSend$setIsAccessibilityElement:
++ _objc_msgSend$setIsFeatured:
++ _objc_msgSend$setIsUsernameEditable:
++ _objc_msgSend$setItemIdentifiers:
++ _objc_msgSend$setItemKind:
++ _objc_msgSend$setItemProperties:
++ _objc_msgSend$setItemSize:
++ _objc_msgSend$setItemSortDescriptors:
++ _objc_msgSend$setItemType:
++ _objc_msgSend$setKeyPath:
++ _objc_msgSend$setKeyboardDismissMode:
++ _objc_msgSend$setLabel:
++ _objc_msgSend$setLanguage:
++ _objc_msgSend$setLargeContentImage:
++ _objc_msgSend$setLargeContentTitle:
++ _objc_msgSend$setLargeTitleDisplayMode:
++ _objc_msgSend$setLayoutMargins:
++ _objc_msgSend$setLayoutMarginsRelativeArrangement:
++ _objc_msgSend$setLeftBarButtonItems:
++ _objc_msgSend$setLeftBarButtonItems:animated:
++ _objc_msgSend$setLibraryIdentifiersWithDatabaseID:block:
++ _objc_msgSend$setLineBreakMode:
++ _objc_msgSend$setLineBreakStrategy:
++ _objc_msgSend$setLineCap:
++ _objc_msgSend$setLineDashPattern:
++ _objc_msgSend$setLineDashPhase:
++ _objc_msgSend$setLineFragmentPadding:
++ _objc_msgSend$setLineSpacing:
++ _objc_msgSend$setLineWidth:
++ _objc_msgSend$setLoadAction:
++ _objc_msgSend$setLocale:
++ _objc_msgSend$setLocalizedDateFormatFromTemplate:
++ _objc_msgSend$setLogUUID:
++ _objc_msgSend$setMagnificationFilter:
++ _objc_msgSend$setMask:
++ _objc_msgSend$setMaskedCorners:
++ _objc_msgSend$setMasksToBounds:
++ _objc_msgSend$setMass:
++ _objc_msgSend$setMaxConcurrentOperationCount:
++ _objc_msgSend$setMaxRetryCount:
++ _objc_msgSend$setMaximumContentSizeCategory:
++ _objc_msgSend$setMaximumLineHeight:
++ _objc_msgSend$setMaximumMovieRatingForAgeGate:
++ _objc_msgSend$setMaximumNumberOfLines:
++ _objc_msgSend$setMaximumTVShowRatingForAgeGate:
++ _objc_msgSend$setMediaClientIdentifier:
++ _objc_msgSend$setMediaClip:
++ _objc_msgSend$setMediaLibrary:
++ _objc_msgSend$setMediaTypes:
++ _objc_msgSend$setMenu:
++ _objc_msgSend$setMenuRepresentation:
++ _objc_msgSend$setMessage:
++ _objc_msgSend$setMetricsDelegate:
++ _objc_msgSend$setMetricsOverlay:
++ _objc_msgSend$setMinificationFilter:
++ _objc_msgSend$setMinimumContentSizeCategory:
++ _objc_msgSend$setMinimumInteritemSpacing:
++ _objc_msgSend$setMinimumLineHeight:
++ _objc_msgSend$setMinimumLineSpacing:
++ _objc_msgSend$setMinimumPressDuration:
++ _objc_msgSend$setMinimumScaleFactor:
++ _objc_msgSend$setModalInPresentation:
++ _objc_msgSend$setModalPresentationCapturesStatusBarAppearance:
++ _objc_msgSend$setModelObject:
++ _objc_msgSend$setModelObjects:
++ _objc_msgSend$setModelPlayEvent:
++ _objc_msgSend$setMovie:
++ _objc_msgSend$setMultipleTouchEnabled:
++ _objc_msgSend$setMusicCellularDownloadingAllowed:
++ _objc_msgSend$setMusicCellularStreamingAllowed:
++ _objc_msgSend$setMuted:
++ _objc_msgSend$setName:
++ _objc_msgSend$setNavigationBarHidden:animated:
++ _objc_msgSend$setNeedsDisplay
++ _objc_msgSend$setNeedsDisplayOnBoundsChange:
++ _objc_msgSend$setNeedsReload
++ _objc_msgSend$setNeedsReloadForSignificantRequestChange
++ _objc_msgSend$setNeedsStatusBarAppearanceUpdate
++ _objc_msgSend$setNeedsUpdateConfiguration
++ _objc_msgSend$setNeedsUpdateConstraints
++ _objc_msgSend$setNumberOfLines:
++ _objc_msgSend$setNumberOfPages:
++ _objc_msgSend$setObject:forKey:cost:
++ _objc_msgSend$setObject:forKeyedSubscript:
++ _objc_msgSend$setObscuresBackgroundDuringPresentation:
++ _objc_msgSend$setOffers:
++ _objc_msgSend$setOffset:
++ _objc_msgSend$setOn:
++ _objc_msgSend$setOn:animated:
++ _objc_msgSend$setOnUpdate:
++ _objc_msgSend$setOpacity:
++ _objc_msgSend$setOpaque:
++ _objc_msgSend$setOptions:
++ _objc_msgSend$setOriginalApp:
++ _objc_msgSend$setOriginalURL:
++ _objc_msgSend$setOrthogonalScrollingBehavior:
++ _objc_msgSend$setOverlaySubtitleText:
++ _objc_msgSend$setOverlayTitleText:
++ _objc_msgSend$setOverrideTraitCollection:
++ _objc_msgSend$setOverrideTraitCollection:forChildViewController:
++ _objc_msgSend$setPageContext:
++ _objc_msgSend$setPageDescription:
++ _objc_msgSend$setPageIndicatorTintColor:
++ _objc_msgSend$setPageType:
++ _objc_msgSend$setPageURL:
++ _objc_msgSend$setParticipatesInNowPlayingAppPolicy:error:
++ _objc_msgSend$setPassword:
++ _objc_msgSend$setPath:
++ _objc_msgSend$setPaused:
++ _objc_msgSend$setPendingRequestsCount:
++ _objc_msgSend$setPerItemMetadataProvider:
++ _objc_msgSend$setPermittedArrowDirections:
++ _objc_msgSend$setPersistentID:
++ _objc_msgSend$setPersonalStoreIdentifiersWithPersonID:block:
++ _objc_msgSend$setPersonalizationStyle:
++ _objc_msgSend$setPictureInPictureSupported:
++ _objc_msgSend$setPinToVisibleBounds:
++ _objc_msgSend$setPinned:
++ _objc_msgSend$setPixelFormat:
++ _objc_msgSend$setPlaceholder:
++ _objc_msgSend$setPlatform:
++ _objc_msgSend$setPlayActivityFeatureName:
++ _objc_msgSend$setPlayActivityFeatureNameSourceViewController:
++ _objc_msgSend$setPlayActivityForwardedRecommendationData:
++ _objc_msgSend$setPlayActivityRecommendationData:
++ _objc_msgSend$setPlayer:
++ _objc_msgSend$setPlayerPath:
++ _objc_msgSend$setPlayingItemProperties:
++ _objc_msgSend$setPlaylist:
++ _objc_msgSend$setPreferredAction:
++ _objc_msgSend$setPreferredCommitStyle:
++ _objc_msgSend$setPreferredContentSize:
++ _objc_msgSend$setPreferredFramesPerSecond:
++ _objc_msgSend$setPreferredMaxLayoutWidth:
++ _objc_msgSend$setPreferredMenuElementOrder:
++ _objc_msgSend$setPreferredMinimumResolution:
++ _objc_msgSend$setPreferredNavigationBarTintColor:
++ _objc_msgSend$setPreferredRange:
++ _objc_msgSend$setPreferredSearchBarPlacement:
++ _objc_msgSend$setPreferredStyle:
++ _objc_msgSend$setPreferredSymbolConfiguration:
++ _objc_msgSend$setPrefersEnqueuingUsingAirPlay:
++ _objc_msgSend$setPrefersLargeTitles:
++ _objc_msgSend$setPrefersSpatialDownloads:
++ _objc_msgSend$setPrefetchDataSource:
++ _objc_msgSend$setPrefetchingEnabled:
++ _objc_msgSend$setPresentingViewController:
++ _objc_msgSend$setPresentsWithTransaction:
++ _objc_msgSend$setPreservesSuperviewLayoutMargins:
++ _objc_msgSend$setPreventStoreItemMetadataCaching:
++ _objc_msgSend$setPreventsDisplaySleepDuringVideoPlayback:
++ _objc_msgSend$setPreviewURL:
++ _objc_msgSend$setPrimaryAction:
++ _objc_msgSend$setPrioritize:
++ _objc_msgSend$setPriority:
++ _objc_msgSend$setPrivatePerson:
++ _objc_msgSend$setProgress:
++ _objc_msgSend$setPrompt:
++ _objc_msgSend$setProperty:forBodyKey:
++ _objc_msgSend$setProperty:forKey:
++ _objc_msgSend$setPurchasedAdamID:
++ _objc_msgSend$setQualityOfService:
++ _objc_msgSend$setQueueEndAction:
++ _objc_msgSend$setQueueItemProperties:
++ _objc_msgSend$setQueueSectionProperties:
++ _objc_msgSend$setRadioIdentifiersWithBlock:
++ _objc_msgSend$setRadioStation:
++ _objc_msgSend$setRankedList:
++ _objc_msgSend$setRasterizationScale:
++ _objc_msgSend$setReason:
++ _objc_msgSend$setRecordLabel:
++ _objc_msgSend$setRedirectCount:
++ _objc_msgSend$setReferralObject:
++ _objc_msgSend$setReferrerURL:
++ _objc_msgSend$setRemembersLastFocusedIndexPath:
++ _objc_msgSend$setRemoteObjectInterface:
++ _objc_msgSend$setRemovedOnCompletion:
++ _objc_msgSend$setRenderHint:
++ _objc_msgSend$setRenderPipelineState:
++ _objc_msgSend$setRepeatCount:
++ _objc_msgSend$setRepeatMode:
++ _objc_msgSend$setRepeatType:
++ _objc_msgSend$setRepresentedObjects:
++ _objc_msgSend$setRequest:
++ _objc_msgSend$setRequestMessageSize:
++ _objc_msgSend$setRequestStartTime:
++ _objc_msgSend$setRequestURL:
++ _objc_msgSend$setRequiresAccount:
++ _objc_msgSend$setRequiresNoAudioResources:error:
++ _objc_msgSend$setResolvedIPAddress:
++ _objc_msgSend$setResponseDate:
++ _objc_msgSend$setResponseEndTime:
++ _objc_msgSend$setResponseMessageSize:
++ _objc_msgSend$setResponseStartTime:
++ _objc_msgSend$setRestorationClass:
++ _objc_msgSend$setRestorationIdentifier:
++ _objc_msgSend$setResult:
++ _objc_msgSend$setReturnKeyType:
++ _objc_msgSend$setRightBarButtonItems:
++ _objc_msgSend$setRightBarButtonItems:animated:
++ _objc_msgSend$setRootViewController:
++ _objc_msgSend$setRowHeight:
++ _objc_msgSend$setScale:
++ _objc_msgSend$setScalesLargeContentImage:
++ _objc_msgSend$setScopedContainers:
++ _objc_msgSend$setScopes:
++ _objc_msgSend$setScrollDirection:
++ _objc_msgSend$setScrollEdgeAppearance:
++ _objc_msgSend$setScrollIndicatorInsets:
++ _objc_msgSend$setSearchController:
++ _objc_msgSend$setSearchResultsUpdater:
++ _objc_msgSend$setSearchString:
++ _objc_msgSend$setSearchTerm:
++ _objc_msgSend$setSeason:
++ _objc_msgSend$setSectionHeaderHeight:
++ _objc_msgSend$setSectionHeadersPinToVisibleBounds:
++ _objc_msgSend$setSectionInset:
++ _objc_msgSend$setSectionKind:
++ _objc_msgSend$setSectionProperties:
++ _objc_msgSend$setSectionSortDescriptors:
++ _objc_msgSend$setSectionedModelObjects:
++ _objc_msgSend$setSecureConnectionStartTime:
++ _objc_msgSend$setSecureTextEntry:
++ _objc_msgSend$setSelected:
++ _objc_msgSend$setSelectedBackgroundView:
++ _objc_msgSend$setSelectedSegment:
++ _objc_msgSend$setSelectedSegmentIndex:
++ _objc_msgSend$setSelectedTextRange:
++ _objc_msgSend$setSelectionMode:
++ _objc_msgSend$setSelectionStyle:
++ _objc_msgSend$setSelectionTintColor:
++ _objc_msgSend$setSeparatorInset:
++ _objc_msgSend$setSeparatorStyle:
++ _objc_msgSend$setServiceType:
++ _objc_msgSend$setShadowColor:
++ _objc_msgSend$setShadowOffset:
++ _objc_msgSend$setShadowOpacity:
++ _objc_msgSend$setShadowPath:
++ _objc_msgSend$setShadowPathIsBounds:
++ _objc_msgSend$setShadowRadius:
++ _objc_msgSend$setShortMonthSymbols:
++ _objc_msgSend$setShortWeekdaySymbols:
++ _objc_msgSend$setShouldAllowAppleIDCreation:
++ _objc_msgSend$setShouldIgnoreCache:
++ _objc_msgSend$setShouldLibraryAdd:
++ _objc_msgSend$setShouldRasterize:
++ _objc_msgSend$setShouldReturnLastKnownStatusOnly:
++ _objc_msgSend$setShouldSuppressDSIDHeader:
++ _objc_msgSend$setShouldSuppressUserInfo:
++ _objc_msgSend$setShouldUseMescalSigning:
++ _objc_msgSend$setShouldUsePlaylistEntry:
++ _objc_msgSend$setShow:
++ _objc_msgSend$setShowNameText:
++ _objc_msgSend$setShowsCatalogContent:
++ _objc_msgSend$setShowsHorizontalScrollIndicator:
++ _objc_msgSend$setShowsLargeContentViewer:
++ _objc_msgSend$setShowsMenuAsPrimaryAction:
++ _objc_msgSend$setShowsMenuFromSource:
++ _objc_msgSend$setShowsReorderControl:
++ _objc_msgSend$setShowsScopeBar:animated:
++ _objc_msgSend$setShowsSearchResultsController:
++ _objc_msgSend$setShowsVerticalScrollIndicator:
++ _objc_msgSend$setShuffleMode:
++ _objc_msgSend$setShuffleType:
++ _objc_msgSend$setSize:
++ _objc_msgSend$setSizingRule:
++ _objc_msgSend$setSocialContributor:
++ _objc_msgSend$setSocialPerson:
++ _objc_msgSend$setSocialProfileID:
++ _objc_msgSend$setSong:
++ _objc_msgSend$setSongPopularity:forAdamID:
++ _objc_msgSend$setSourceApplicationBundleIdentifier:
++ _objc_msgSend$setSourceItem:
++ _objc_msgSend$setSourceRect:
++ _objc_msgSend$setSourceType:
++ _objc_msgSend$setSourceView:
++ _objc_msgSend$setSpecialization:
++ _objc_msgSend$setStandardAppearance:
++ _objc_msgSend$setStandardPropertiesWith:completionHandler:
++ _objc_msgSend$setStartItemIdentifiers:
++ _objc_msgSend$setStartTime:
++ _objc_msgSend$setState:
++ _objc_msgSend$setState:ofLayer:transitionSpeed:
++ _objc_msgSend$setStateRestorationSupported:
++ _objc_msgSend$setStaticResponse:
++ _objc_msgSend$setStationHash:
++ _objc_msgSend$setStationID:
++ _objc_msgSend$setStationStringID:
++ _objc_msgSend$setStatusBlock:
++ _objc_msgSend$setStatusCode:
++ _objc_msgSend$setStiffness:
++ _objc_msgSend$setStorageMode:
++ _objc_msgSend$setStoreAction:
++ _objc_msgSend$setStoreDialogResponseHandler:
++ _objc_msgSend$setStoreIDs:
++ _objc_msgSend$setStoreIdentifier:
++ _objc_msgSend$setStride:
++ _objc_msgSend$setString:
++ _objc_msgSend$setString:forKey:
++ _objc_msgSend$setStroke
++ _objc_msgSend$setStrokeColor:
++ _objc_msgSend$setStrokeEnd:
++ _objc_msgSend$setStrokeStart:
++ _objc_msgSend$setStyle:
++ _objc_msgSend$setSubmenu:
++ _objc_msgSend$setSubscriptionAdamID:
++ _objc_msgSend$setSubtitleText:
++ _objc_msgSend$setSupportsUnavailableContent:
++ _objc_msgSend$setSystemMusicApplication:
++ _objc_msgSend$setTableViewStyle:
++ _objc_msgSend$setTag:
++ _objc_msgSend$setTargetId:
++ _objc_msgSend$setTargetIdentifier:
++ _objc_msgSend$setTargetType:
++ _objc_msgSend$setTargetURL:
++ _objc_msgSend$setTargetsFinanceApplication:
++ _objc_msgSend$setTaskCompletedWithSuccess:
++ _objc_msgSend$setTextAlignment:
++ _objc_msgSend$setTextColor:
++ _objc_msgSend$setTextContainer:
++ _objc_msgSend$setTextContainerInset:
++ _objc_msgSend$setTextFieldDelegate:
++ _objc_msgSend$setTextFieldEnabled:
++ _objc_msgSend$setTextToSpeechEnabled:
++ _objc_msgSend$setTexture:
++ _objc_msgSend$setThumbnailArtworkCatalogBlock:
++ _objc_msgSend$setThumbnailHorizontalAlignment:
++ _objc_msgSend$setTimeStyle:
++ _objc_msgSend$setTimeZone:
++ _objc_msgSend$setTimeoutInterval:
++ _objc_msgSend$setTintColor:
++ _objc_msgSend$setTitle:forState:
++ _objc_msgSend$setTitleColor:forState:
++ _objc_msgSend$setTitleColor:forStates:
++ _objc_msgSend$setTitleEdgeInsets:
++ _objc_msgSend$setTitleText:
++ _objc_msgSend$setTitleView:
++ _objc_msgSend$setToValue:
++ _objc_msgSend$setTopic:
++ _objc_msgSend$setTotalCostLimit:
++ _objc_msgSend$setTrackTintColor:
++ _objc_msgSend$setTracklistRange:
++ _objc_msgSend$setTracklistSource:
++ _objc_msgSend$setTracklistToken:
++ _objc_msgSend$setTransform3D:
++ _objc_msgSend$setTransform:
++ _objc_msgSend$setTranslatesAutoresizingMaskIntoConstraints:
++ _objc_msgSend$setType:
++ _objc_msgSend$setTypeIdentifiers:
++ _objc_msgSend$setTypingAttributes:
++ _objc_msgSend$setURL:
++ _objc_msgSend$setUncensoredName:
++ _objc_msgSend$setUniformCellType:
++ _objc_msgSend$setUnitsStyle:
++ _objc_msgSend$setUniversalCloudLibraryID:
++ _objc_msgSend$setUniversalStoreIdentifiersWithBlock:
++ _objc_msgSend$setUpdatedItemIndexPaths:
++ _objc_msgSend$setUsage:
++ _objc_msgSend$setUserActions:
++ _objc_msgSend$setUserAgent:
++ _objc_msgSend$setUserData:
++ _objc_msgSend$setUserIdentity:
++ _objc_msgSend$setUserInfo:
++ _objc_msgSend$setUserInitiated:
++ _objc_msgSend$setUserInteractionEnabled:
++ _objc_msgSend$setUserPreferenceSyllable:
++ _objc_msgSend$setUsername:
++ _objc_msgSend$setUsesFontLeading:
++ _objc_msgSend$setUtterance:
++ _objc_msgSend$setValue:forKeyPath:
++ _objc_msgSend$setVerified:
++ _objc_msgSend$setVertexBuffer:offset:atIndex:
++ _objc_msgSend$setVertexBytes:length:atIndex:
++ _objc_msgSend$setVertexDescriptor:
++ _objc_msgSend$setVertexFunction:
++ _objc_msgSend$setVideoBackgroundArtworkCatalogBlock:
++ _objc_msgSend$setVideoCacheStoragePolicy:
++ _objc_msgSend$setVideoCellularStreamingAllowed:
++ _objc_msgSend$setVideoGravity:
++ _objc_msgSend$setVideoSupported:
++ _objc_msgSend$setView:
++ _objc_msgSend$setViewBackgroundColor:
++ _objc_msgSend$setViewControllers:
++ _objc_msgSend$setViewControllers:animated:
++ _objc_msgSend$setViewForContentSize:
++ _objc_msgSend$setViewRespectsSystemMinimumLayoutMargins:
++ _objc_msgSend$setVisibleDuration:
++ _objc_msgSend$setVocalsLevel:
++ _objc_msgSend$setVoiceTriggerEnabled:
++ _objc_msgSend$setWantsBaselineOffset:
++ _objc_msgSend$setWantsDetailedKeepLocalRequestableResponse:
++ _objc_msgSend$setWantsNumberOfLineFragments:
++ _objc_msgSend$setWantsPriorityOverSystemBehavior:
++ _objc_msgSend$setWidthFollowsPreferredContentSizeWhenEdgeAttached:
++ _objc_msgSend$setWidthTracksTextView:
++ _objc_msgSend$setWindowLevel:
++ _objc_msgSend$setWrapsForTruncationMode:
++ _objc_msgSend$setXPSamplingForced:
++ _objc_msgSend$setXPSamplingPercentageCachedResponses:
++ _objc_msgSend$setXPSamplingPercentageUsers:
++ _objc_msgSend$setXPSessionDuration:
++ _objc_msgSend$setZPosition:
++ _objc_msgSend$setZeroFormattingBehavior:
++ _objc_msgSend$settlingDuration
++ _objc_msgSend$shadowColor
++ _objc_msgSend$shadowOffset
++ _objc_msgSend$shadowOpacity
++ _objc_msgSend$shadowPathIsBounds
++ _objc_msgSend$shadowRadius
++ _objc_msgSend$shareShortURL
++ _objc_msgSend$shareURL
++ _objc_msgSend$shared
++ _objc_msgSend$sharedBagProvider
++ _objc_msgSend$sharedCloudController
++ _objc_msgSend$sharedConnection
++ _objc_msgSend$sharedCookieStore
++ _objc_msgSend$sharedDeviceLibraryController
++ _objc_msgSend$sharedInstance
++ _objc_msgSend$sharedListeningProperties
++ _objc_msgSend$sharedManager
++ _objc_msgSend$sharedMonitor
++ _objc_msgSend$sharedMonogramArtworkDataSource
++ _objc_msgSend$sharedNetworkObserver
++ _objc_msgSend$sharedPhotoLibrary
++ _objc_msgSend$sharedPrivacyInfo
++ _objc_msgSend$sharedProvider
++ _objc_msgSend$sharedRestrictionsMonitor
++ _objc_msgSend$sharedScheduler
++ _objc_msgSend$sharedServerObjectDatabase
++ _objc_msgSend$sharedSession
++ _objc_msgSend$sharedSessionIntentWithProperties:identity:
++ _objc_msgSend$sharedStoreArtworkDataSource
++ _objc_msgSend$sharedUbiquitousPlaybackPositionController
++ _objc_msgSend$sheetPresentationController
++ _objc_msgSend$shortDescription
++ _objc_msgSend$shortEditorNotes
++ _objc_msgSend$shortMonthSymbols
++ _objc_msgSend$shortName
++ _objc_msgSend$shortTitle
++ _objc_msgSend$shortWeekdaySymbols
++ _objc_msgSend$shouldAttemptPromptReview
++ _objc_msgSend$shouldCollectTimingDataWithSessionDuration:samplingPercentage:
++ _objc_msgSend$shouldProhibitMusicActionForCurrentNetworkConditions
++ _objc_msgSend$shouldReportCachedEventWithSamplingPercentage:
++ _objc_msgSend$shouldShowComposer
++ _objc_msgSend$shouldVisuallyDisableFor:
++ _objc_msgSend$show
++ _objc_msgSend$showCreator
++ _objc_msgSend$showNameText
++ _objc_msgSend$showViewController:sender:
++ _objc_msgSend$showingDeleteConfirmation
++ _objc_msgSend$showsCatalogContent
++ _objc_msgSend$showsCloudItems
++ _objc_msgSend$showsItemsWithProtectedAssets
++ _objc_msgSend$showsLibraryContent
++ _objc_msgSend$showsMenuAsPrimaryAction
++ _objc_msgSend$showsReorderControl
++ _objc_msgSend$showsScopeBar
++ _objc_msgSend$showsVerticalScrollIndicator
++ _objc_msgSend$shuffleCommand
++ _objc_msgSend$shuffleMode
++ _objc_msgSend$shutdown
++ _objc_msgSend$sigma
++ _objc_msgSend$size
++ _objc_msgSend$sizeWithWidthDimension:heightDimension:
++ _objc_msgSend$snapshotWithDomain:type:subType:context:triggerThresholdValues:events:completion:
++ _objc_msgSend$socialContributor
++ _objc_msgSend$socialPerson
++ _objc_msgSend$socialProfileID
++ _objc_msgSend$song
++ _objc_msgSend$songKind
++ _objc_msgSend$songPopularityForIdentifiers:
++ _objc_msgSend$songwriters
++ _objc_msgSend$sortDescriptorWithKeyPath:ascending:
++ _objc_msgSend$sortDescriptorWithRelatedProperties:ascending:
++ _objc_msgSend$sortStorageKeyDomain
++ _objc_msgSend$soundSetting
++ _objc_msgSend$sourceItem
++ _objc_msgSend$sourceRect
++ _objc_msgSend$sourceView
++ _objc_msgSend$spatialAudioPreference
++ _objc_msgSend$specialization
++ _objc_msgSend$springDamping
++ _objc_msgSend$standardAppearance
++ _objc_msgSend$standardUserDefaults
++ _objc_msgSend$startAnimation
++ _objc_msgSend$startAnimationAfterDelay:
++ _objc_msgSend$startAuthentication
++ _objc_msgSend$startEngagement
++ _objc_msgSend$startItem
++ _objc_msgSend$startTime
++ _objc_msgSend$startingAirDate
++ _objc_msgSend$state
++ _objc_msgSend$stateReasonDialog
++ _objc_msgSend$stateWithName:
++ _objc_msgSend$staticArtworkCatalogWithImage:
++ _objc_msgSend$staticAssets
++ _objc_msgSend$stationHash
++ _objc_msgSend$stationID
++ _objc_msgSend$stationName
++ _objc_msgSend$stationStringID
++ _objc_msgSend$status
++ _objc_msgSend$statusBarFrame
++ _objc_msgSend$statusBarManager
++ _objc_msgSend$statusType
++ _objc_msgSend$stencilAttachment
++ _objc_msgSend$stiffness
++ _objc_msgSend$stop
++ _objc_msgSend$stopAnimation:
++ _objc_msgSend$stops
++ _objc_msgSend$storeAsset
++ _objc_msgSend$storeContentItemObject
++ _objc_msgSend$storeContentItemObjectPropertiesFor:
++ _objc_msgSend$storeID
++ _objc_msgSend$storeRequestContext
++ _objc_msgSend$storeServerCalendar
++ _objc_msgSend$storefrontIdentifier
++ _objc_msgSend$stretchableImageWithLeftCapWidth:topCapHeight:
++ _objc_msgSend$string
++ _objc_msgSend$stringByAppendingPathExtension:
++ _objc_msgSend$stringByReplacingCharactersInRange:withString:
++ _objc_msgSend$stringByReplacingMatchesInString:options:range:withTemplate:
++ _objc_msgSend$stringByReplacingOccurrencesOfString:withString:options:range:
++ _objc_msgSend$stringForBagKey:
++ _objc_msgSend$stringForKey:
++ _objc_msgSend$stringFromContact:style:
++ _objc_msgSend$stringFromDate:
++ _objc_msgSend$stringFromDate:toDate:
++ _objc_msgSend$stringFromDateComponents:
++ _objc_msgSend$stringFromSeconds:
++ _objc_msgSend$stringFromTimeInterval:
++ _objc_msgSend$stringRepresentation
++ _objc_msgSend$stringValue
++ _objc_msgSend$stroke
++ _objc_msgSend$style
++ _objc_msgSend$subdividedMesh:
++ _objc_msgSend$submenu
++ _objc_msgSend$submitTaskRequest:error:
++ _objc_msgSend$subscriptionAdamID
++ _objc_msgSend$subscriptionStatus
++ _objc_msgSend$substringWithRange:
++ _objc_msgSend$subtitle
++ _objc_msgSend$subtype
++ _objc_msgSend$subwords
++ _objc_msgSend$superlayer
++ _objc_msgSend$supplementaryViewForElementKind:atIndexPath:
++ _objc_msgSend$supportsFamily:
++ _objc_msgSend$supportsKeepLocalStatusObservation
++ _objc_msgSend$supportsLibraryAddStatusObservation
++ _objc_msgSend$supportsRemoteControl
++ _objc_msgSend$supportsUnavailableContent
++ _objc_msgSend$symbolNameForOutputDevices:
++ _objc_msgSend$synchronizeWithCompletionHandler:
++ _objc_msgSend$systemBlackColor
++ _objc_msgSend$systemBlueColor
++ _objc_msgSend$systemFillColor
++ _objc_msgSend$systemFontOfSize:weight:
++ _objc_msgSend$systemGray3Color
++ _objc_msgSend$systemGrayColor
++ _objc_msgSend$systemGreenColor
++ _objc_msgSend$systemGroupedBackgroundColor
++ _objc_msgSend$systemImageNamed:
++ _objc_msgSend$systemImageNamed:withConfiguration:
++ _objc_msgSend$systemLayoutSizeFittingSize:
++ _objc_msgSend$systemLayoutSizeFittingSize:withHorizontalFittingPriority:verticalFittingPriority:
++ _objc_msgSend$systemLightGrayColor
++ _objc_msgSend$systemMusicPathWithRoute:playerID:
++ _objc_msgSend$systemRedColor
++ _objc_msgSend$systemRoute
++ _objc_msgSend$systemVersion
++ _objc_msgSend$systemWhiteColor
++ _objc_msgSend$tableView
++ _objc_msgSend$tableViewCell
++ _objc_msgSend$tag
++ _objc_msgSend$tagline
++ _objc_msgSend$takeAssertionPreventingResourceReclamationWithReason:
++ _objc_msgSend$target
++ _objc_msgSend$targetIdentifier
++ _objc_msgSend$targetsFinanceApplication
++ _objc_msgSend$telephonyOperatorName
++ _objc_msgSend$tertiaryLabelColor
++ _objc_msgSend$tertiarySystemBackgroundColor
++ _objc_msgSend$tertiarySystemFillColor
++ _objc_msgSend$textAttachmentWithImage:
++ _objc_msgSend$textColor
++ _objc_msgSend$textContainer
++ _objc_msgSend$textContainerInset
++ _objc_msgSend$textLineFragments
++ _objc_msgSend$textRangeFromPosition:toPosition:
++ _objc_msgSend$textStorage
++ _objc_msgSend$textViewUsingTextLayoutManager:
++ _objc_msgSend$texture2DDescriptorWithPixelFormat:width:height:mipmapped:
++ _objc_msgSend$thermalState
++ _objc_msgSend$threadDictionary
++ _objc_msgSend$thumbnailArtworkCatalog
++ _objc_msgSend$thumbnailHorizontalAlignment
++ _objc_msgSend$thumbnailImageData
++ _objc_msgSend$timeControlStatus
++ _objc_msgSend$timeInterval
++ _objc_msgSend$timerWithTimeInterval:repeats:block:
++ _objc_msgSend$timestamp
++ _objc_msgSend$tintColor
++ _objc_msgSend$title
++ _objc_msgSend$titleForState:
++ _objc_msgSend$titleLabel
++ _objc_msgSend$titleRectForContentRect:
++ _objc_msgSend$titleView
++ _objc_msgSend$toArray
++ _objc_msgSend$toValue
++ _objc_msgSend$tokenWithImageArtworkInfo:
++ _objc_msgSend$tokenWithVideoArtworkInfo:
++ _objc_msgSend$topAnchor
++ _objc_msgSend$topViewController
++ _objc_msgSend$totalItemCount
++ _objc_msgSend$trackCount
++ _objc_msgSend$trackNumber
++ _objc_msgSend$tracklist
++ _objc_msgSend$tracklistRange
++ _objc_msgSend$tracklistSource
++ _objc_msgSend$tracklistToken
++ _objc_msgSend$tracksTiledArtworkCatalogWithRows:columns:
++ _objc_msgSend$trailingAnchor
++ _objc_msgSend$trailingItemGroups
++ _objc_msgSend$traitCollectionWithHorizontalSizeClass:
++ _objc_msgSend$traitCollectionWithPreferredContentSizeCategory:
++ _objc_msgSend$traitCollectionWithTraitsFromCollections:
++ _objc_msgSend$traits
++ _objc_msgSend$transform
++ _objc_msgSend$transientFollowPendingRequestStateForPerson:
++ _objc_msgSend$transientFollowStateForPerson:
++ _objc_msgSend$transitionCoordinator
++ _objc_msgSend$transitionStyleForUserWithCatalogPlaybackCapability:
++ _objc_msgSend$translationInView:
++ _objc_msgSend$translationKey
++ _objc_msgSend$translations
++ _objc_msgSend$transliterations
++ _objc_msgSend$transportType
++ _objc_msgSend$treatment
++ _objc_msgSend$triggerPresentationForMessageWithIdentifier:completionHandler:
++ _objc_msgSend$truncatedGlyphRangeInLineFragmentForGlyphAtIndex:
++ _objc_msgSend$tvEpisode
++ _objc_msgSend$tvShowArtworkRequestToken
++ _objc_msgSend$typeForURL:
++ _objc_msgSend$typeIdentifiers
++ _objc_msgSend$typographicBounds
++ _objc_msgSend$ubiquitousIdentifier
++ _objc_msgSend$unblockPerson:completion:
++ _objc_msgSend$uncensoredName
++ _objc_msgSend$unfollowPerson:completion:
++ _objc_msgSend$unformattedInternationalStringValue
++ _objc_msgSend$unifiedContactsMatchingPredicate:keysToFetch:error:
++ _objc_msgSend$uniformCellType
++ _objc_msgSend$uninitializedToken
++ _objc_msgSend$unionSet:
++ _objc_msgSend$uniqueIdentifier
++ _objc_msgSend$universalStore
++ _objc_msgSend$unregisterMessageTarget:
++ _objc_msgSend$unregisterObserver:
++ _objc_msgSend$unsignedIntegerValue
++ _objc_msgSend$unsignedLongLongValue
++ _objc_msgSend$updateAction
++ _objc_msgSend$updateAlbumLibraryDataIfNeededWithModelAlbum:containerDetailViewModel:
++ _objc_msgSend$updateAlignment:
++ _objc_msgSend$updateBytecodeCacheOfScriptAt:version:withReply:
++ _objc_msgSend$updateConstraintsIfNeeded
++ _objc_msgSend$updatePinnedSubscribedPlaylistsWithCompletion:
++ _objc_msgSend$updateSubscribedPlaylistWithSagaID:ignoreMinRefreshInterval:completionHandler:
++ _objc_msgSend$updateTraitsIfNeeded
++ _objc_msgSend$updatedItemIndexPaths
++ _objc_msgSend$updatedSections
++ _objc_msgSend$url
++ _objc_msgSend$urlForBagKey:
++ _objc_msgSend$urlResponse
++ _objc_msgSend$usageBoundsForTextContainer
++ _objc_msgSend$useAMSBag
++ _objc_msgSend$userAgent
++ _objc_msgSend$userEditableComponents
++ _objc_msgSend$userInteractionStarted
++ _objc_msgSend$userInterfaceIdiom
++ _objc_msgSend$userInterfaceLayoutDirection
++ _objc_msgSend$userInterfaceStyle
++ _objc_msgSend$userPlayCount
++ _objc_msgSend$userProfile
++ _objc_msgSend$username
++ _objc_msgSend$value
++ _objc_msgSend$valueForBagKey:
++ _objc_msgSend$valueForConfigurationKey:
++ _objc_msgSend$valueForKeyPath:
++ _objc_msgSend$valueForReferenceMetric:
++ _objc_msgSend$valueWithWeakObject:
++ _objc_msgSend$values
++ _objc_msgSend$variants
++ _objc_msgSend$velocityInView:
++ _objc_msgSend$verificationURL
++ _objc_msgSend$vertexAtIndex:
++ _objc_msgSend$vertexCount
++ _objc_msgSend$verticalGroupWithLayoutSize:subitem:count:
++ _objc_msgSend$verticalScrollIndicatorInsets
++ _objc_msgSend$video
++ _objc_msgSend$videoBounds
++ _objc_msgSend$videoOutput
++ _objc_msgSend$videoRepresentation
++ _objc_msgSend$viewBackgroundColor
++ _objc_msgSend$viewControllers
++ _objc_msgSend$viewWithTag:
++ _objc_msgSend$virtualMachine
++ _objc_msgSend$visibleBounds
++ _objc_msgSend$visibleCells
++ _objc_msgSend$visibleDuration
++ _objc_msgSend$visualContentInsets
++ _objc_msgSend$vocalsControlCommand
++ _objc_msgSend$waitUntilScheduled
++ _objc_msgSend$weakObjectValue
++ _objc_msgSend$width
++ _objc_msgSend$widthAnchor
++ _objc_msgSend$widthTracksTextView
++ _objc_msgSend$willMoveToParentViewController:
++ _objc_msgSend$windowHeight
++ _objc_msgSend$windowWidth
++ _objc_msgSend$windows
++ _objc_msgSend$withPriority:
++ _objc_msgSend$words
++ _objc_msgSend$wrapCommandInStartLocalRequest:
++ _objc_msgSend$xpSamplingForced
++ _objc_msgSend$xpSamplingPercentageCachedResponses
++ _objc_msgSend$xpSamplingPercentageUsers
++ _objc_msgSend$xpSessionDuration
++ _objc_msgSend$y1
++ _objc_msgSend$y2
++ _objc_msgSend$year
++ _objc_msgSend$zero
++ _symbolic $s18MusicSiriDonations0B20ActionImplementationP
++ _symbolic $s18MusicSiriDonations0B6ActionP
++ _symbolic $s28InternalCollectionsUtilities17_SortedCollectionP
++ _symbolic $s28InternalCollectionsUtilities17_UniqueCollectionP
++ _symbolic $s7LyricsX021LayerPropertyAnimatorB8ProviderP
++ _symbolic $s7LyricsX06SyncedA16LineContentLayerP
++ _symbolic $s7LyricsX06SyncedA31VisualExperienceManagerDelegateP
++ _symbolic $s9MusicCore21PlayActivityProvidingP
++ _symbolic $sSK
++ _symbolic $sSk
++ _symbolic SDySSyXlGSg
++ _symbolic SDySo7CALayerCSaySSGG
++ _symbolic SDy_____Shy_____GG 7LyricsX06SyncedA9LineLayerC0C0C AC4WordC
++ _symbolic SDy__________G 7LyricsX06SyncedA9LineLayerC0C0C So6CGRectV
++ _symbolic SIy_____G 28InternalCollectionsUtilities13_UnsafeBitSetV
++ _symbolic SRy_____G 28InternalCollectionsUtilities13_UnsafeBitSetV5_WordV
++ _symbolic SayScTyyt______pGG s5ErrorP
++ _symbolic SaySiSgG
++ _symbolic SaySo7CALayerCG
++ _symbolic Say_____G 7LyricsX06SyncedA23VisualExperienceManagerC17LinesUpdateResultV0G0V
++ _symbolic Say_____G 7LyricsX06SyncedA24LineAccessibilityElementC
++ _symbolic Say_____G 7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C21TransliterationResult33_6199ED2C84AF6C925E1487713AA44194LLO8MetadataV0C0V
++ _symbolic Say_____G 7LyricsX06SyncedA9LineLayerC0C0C
++ _symbolic Say_____G 7LyricsX06SyncedA9LineLayerC4WordC
++ _symbolic Say_____G 7LyricsX06SyncedA9LineLayerC5GlyphC
++ _symbolic Say_____G 7LyricsX06SyncedA9LineLayerC8SyllableC
++ _symbolic Say_____G 7LyricsX16NoAnimationLayerC
++ _symbolic Say_____G 7LyricsX21LayerPropertyAnimatorC
++ _symbolic Say_____G 9MusicCore14PlaylistCoversO12RecipeColorsV09CompositeF0O
++ _symbolic Say_____G 9MusicCore14PlaylistCoversO5CoverV
++ _symbolic Say_____G 9MusicCore19PlayActivityFeatureV
++ _symbolic Say_____GSg 7LyricsX06SyncedA9LineLayerC0C0C0cD0C
++ _symbolic Sb7success_Si3endt
++ _symbolic ScTyyt______pG s5ErrorP
++ _symbolic Shy_____G 18MusicSiriDonations08PlayItemB6ActionV17PlaybackAttributeO
++ _symbolic Shy_____G 7LyricsX21LayerPropertyAnimatorC
++ _symbolic Si13playlistCount_Si04songB0t
++ _symbolic SiSg5index______6buckett 21MusicSwiftCollections10_HashTableV6BucketV
++ _symbolic Si__________yAByAByAByAByABy_____y_____y______yAByABy__________y_____GG_____G_____yAJGGQo__Qo______GAIG_____y_____GG_____G_____G_____y_____GGIegynr_ 11MusicCoreUI16PlaylistCuratorsO7CuratorV 05SwiftC015ModifiedContentV AF4ViewP01_a12KitInternal_gC0E22artworkLoadingObserveryQry0aK07ArtworkVSg_So6CGSizeVAoKE0N6StatusOtcFQO 01_ak1_gC00P5ImageVAKE0M11PlaceholderyQrxAP_ArF5ColorVtcAfIRzlFQO AF012_ConditionalI0V AwAE0T0OAIV AF26_PreferenceWritingModifierV AA016RadiosityEnabledW3KeyV AF12_FrameLayoutV AF14GeometryReaderV AA0t5StyleY0V AF016_BackgroundStyleY0V AZ AA012CornerRadiusY033_F5ED3014321945F1E2BE58A044A15282LLV AA06BorderjY0A17_LLV AF06_TraitxY0V AF14ZIndexTraitKeyV
++ _symbolic So22UIViewPropertyAnimatorC8animator_Say_____G15animatedUpdatestSg 7LyricsX06SyncedA23VisualExperienceManagerC17LinesUpdateResultV0G0V
++ _symbolic So22UIViewPropertyAnimatorCz_Xx
++ _symbolic Spy_____G 21MusicSwiftCollections10_HashTableV6HeaderV
++ _symbolic Spy_____G s6UInt64V
++ _symbolic _____ 11MusicCoreUI11CornerShapeV
++ _symbolic _____ 11MusicCoreUI23JiggleAnimationModifierV
++ _symbolic _____ 14MusicUtilities12CodableImageV
++ _symbolic _____ 14MusicUtilities12CodableImageV10CodingKeys33_734AD650B4D91A7D23B0DE0A13674DF9LLO
++ _symbolic _____ 14MusicUtilities4HCLAV
++ _symbolic _____ 14MusicUtilities5CurveO
++ _symbolic _____ 14MusicUtilities5CurveO8FunctionO
++ _symbolic _____ 14MusicUtilities5CurveO8ModifierO
++ _symbolic _____ 14MusicUtilities7FeatureO0A4CoreE6AnthemV
++ _symbolic _____ 14MusicUtilities7FeatureO0A4CoreE6AnthemV5Force33_7A3383EBD475E02A83D8E4084BC19377LLO
++ _symbolic _____ 18MusicSiriDonations015OpenDestinationB6ActionV
++ _symbolic _____ 18MusicSiriDonations015OpenDestinationB6ActionV0E0O
++ _symbolic _____ 18MusicSiriDonations016AddItemToLibraryB6ActionV
++ _symbolic _____ 18MusicSiriDonations018AddItemsToPlaylistB6ActionV
++ _symbolic _____ 18MusicSiriDonations018UpdateItemAffinityB6ActionV
++ _symbolic _____ 18MusicSiriDonations018UpdateItemAffinityB6ActionV5StateO
++ _symbolic _____ 18MusicSiriDonations06SearchaB6ActionV
++ _symbolic _____ 18MusicSiriDonations08OpenItemB6ActionV
++ _symbolic _____ 18MusicSiriDonations08PlayItemB6ActionV
++ _symbolic _____ 18MusicSiriDonations08PlayItemB6ActionV13QueueLocationO
++ _symbolic _____ 18MusicSiriDonations08PlayItemB6ActionV17PlaybackAttributeO
++ _symbolic _____ 18MusicSiriDonations0B13ActionDonatorO
++ _symbolic _____ 21MusicSwiftCollections10OrderedSetV
++ _symbolic _____ 21MusicSwiftCollections10OrderedSetV11SubSequenceV
++ _symbolic _____ 21MusicSwiftCollections10OrderedSetV13UnorderedViewV
++ _symbolic _____ 21MusicSwiftCollections10OrderedSetV18_UnstableInternalsV
++ _symbolic _____ 21MusicSwiftCollections10_HashTableV
++ _symbolic _____ 21MusicSwiftCollections10_HashTableV12UnsafeHandleV
++ _symbolic _____ 21MusicSwiftCollections10_HashTableV14BucketIteratorV
++ _symbolic _____ 21MusicSwiftCollections10_HashTableV6BucketV
++ _symbolic _____ 21MusicSwiftCollections10_HashTableV6HeaderV
++ _symbolic _____ 21MusicSwiftCollections10_HashTableV7StorageC
++ _symbolic _____ 28InternalCollectionsUtilities13_UnsafeBitSetV
++ _symbolic _____ 28InternalCollectionsUtilities13_UnsafeBitSetV5IndexV
++ _symbolic _____ 28InternalCollectionsUtilities13_UnsafeBitSetV5_WordV
++ _symbolic _____ 28InternalCollectionsUtilities13_UnsafeBitSetV8IteratorV
++ _symbolic _____ 7LyricsX06SyncedA14ViewControllerC06ScrollC033_9CF5ACAE7175CE2250D4BE588FAFDE95LLC
++ _symbolic _____ 7LyricsX06SyncedA23VisualExperienceManagerC
++ _symbolic _____ 7LyricsX06SyncedA23VisualExperienceManagerC17LinesUpdateResultV
++ _symbolic _____ 7LyricsX06SyncedA23VisualExperienceManagerC17LinesUpdateResultV0G0V
++ _symbolic _____ 7LyricsX06SyncedA23VisualExperienceManagerC19AnimationDescriptorV
++ _symbolic _____ 7LyricsX06SyncedA23VisualExperienceManagerC20StaticTimingProvider33_D5BD2FE79A3A51CE2128A532331EB9EALLC
++ _symbolic _____ 7LyricsX06SyncedA23VisualExperienceManagerC31LinePositionAnimationDescriptorV
++ _symbolic _____ 7LyricsX06SyncedA24LineAccessibilityElementC
++ _symbolic _____ 7LyricsX06SyncedA4ModeO
++ _symbolic _____ 7LyricsX06SyncedA9LineLayerC
++ _symbolic _____ 7LyricsX06SyncedA9LineLayerC011TextContentD0C
++ _symbolic _____ 7LyricsX06SyncedA9LineLayerC011TextContentD0C0F033_B229919BBD5F146C93EF2B251B0B2826LLO
++ _symbolic _____ 7LyricsX06SyncedA9LineLayerC011TextContentD0C6Change33_B229919BBD5F146C93EF2B251B0B2826LLO
++ _symbolic _____ 7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C
++ _symbolic _____ 7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C
++ _symbolic _____ 7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C0F18LayoutDiffMetadataV
++ _symbolic _____ 7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C21TransliterationResult33_6199ED2C84AF6C925E1487713AA44194LLO
++ _symbolic _____ 7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C21TransliterationResult33_6199ED2C84AF6C925E1487713AA44194LLO8MetadataV
++ _symbolic _____ 7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C21TransliterationResult33_6199ED2C84AF6C925E1487713AA44194LLO8MetadataV0C0V
++ _symbolic _____ 7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C22TranslationLabelUpdateO
++ _symbolic _____ 7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C4KindO
++ _symbolic _____ 7LyricsX06SyncedA9LineLayerC016DespacitoContentD0C
++ _symbolic _____ 7LyricsX06SyncedA9LineLayerC016DespacitoContentD0C0D6Update33_B229919BBD5F146C93EF2B251B0B2826LLO
++ _symbolic _____ 7LyricsX06SyncedA9LineLayerC019InstrumentalContentD0C
++ _symbolic _____ 7LyricsX06SyncedA9LineLayerC0C0C
++ _symbolic _____ 7LyricsX06SyncedA9LineLayerC0C0C0cD0C
++ _symbolic _____ 7LyricsX06SyncedA9LineLayerC0C0C13AnimationKindO
++ _symbolic _____ 7LyricsX06SyncedA9LineLayerC13TextContainerC
++ _symbolic _____ 7LyricsX06SyncedA9LineLayerC13TextContainerC0efD0C
++ _symbolic _____ 7LyricsX06SyncedA9LineLayerC24BackgroundVocalsPositionO
++ _symbolic _____ 7LyricsX06SyncedA9LineLayerC4WordC
++ _symbolic _____ 7LyricsX06SyncedA9LineLayerC4WordC0eD0C
++ _symbolic _____ 7LyricsX06SyncedA9LineLayerC4WordC28CrossfadeAnimationParametersV
++ _symbolic _____ 7LyricsX06SyncedA9LineLayerC5GlyphC
++ _symbolic _____ 7LyricsX06SyncedA9LineLayerC5GlyphC0eD0C
++ _symbolic _____ 7LyricsX06SyncedA9LineLayerC8SyllableC
++ _symbolic _____ 7LyricsX06SyncedA9LineLayerC8SyllableC0e9ContainerD0C
++ _symbolic _____ 7LyricsX06SyncedA9LineLayerC8SyllableC0eD0C
++ _symbolic _____ 7LyricsX0A15AnimationStatusO
++ _symbolic _____ 7LyricsX0A5SpecsV
++ _symbolic _____ 7LyricsX0A5SpecsV10FocusStyleO
++ _symbolic _____ 7LyricsX0A5SpecsV13RenderingModeO
++ _symbolic _____ 7LyricsX0A5SpecsV20SelectedLinePositionO
++ _symbolic _____ 7LyricsX0A5SpecsV22SpringTimingParameters33_5067A819181B1AC81C76F520E8B635DDLLV
++ _symbolic _____ 7LyricsX12TextKitLabelC
++ _symbolic _____ 7LyricsX16NoAnimationLayerC
++ _symbolic _____ 7LyricsX21LayerPropertyAnimatorC
++ _symbolic _____ 7LyricsX21LayerPropertyAnimatorC14AnimationCurveO
++ _symbolic _____ 7LyricsX21LayerPropertyAnimatorC5StateO
++ _symbolic _____ 7LyricsX25LineProgressGradientLayerC
++ _symbolic _____ 7LyricsX25LineProgressGradientLayerC011NoAnimationdE033_9D7C40643C469448EA951CEB9521562FLLC
++ _symbolic _____ 7LyricsX25LineProgressGradientLayerC9DirectionO
++ _symbolic _____ 7LyricsX25SpringAnimationParametersV
++ _symbolic _____ 7LyricsX8LineDataV
++ _symbolic _____ 9MusicCore12ActionResultO
++ _symbolic _____ 9MusicCore14PlaylistCoversO10ExpressionO4KindO
++ _symbolic _____ 9MusicCore14PlaylistCoversO12RecipeColorsV09CompositeF0O
++ _symbolic _____ 9MusicCore16PlayActivityDataV
++ _symbolic _____ 9MusicCore19PlayActivityDataKey33_A88C29B753482D63A90CF11BFD1FCA5DLLV
++ _symbolic _____ 9MusicCore19PlayActivityFeatureV
++ _symbolic _____ So8CTRunRefa14MusicUtilitiesE15PartialRunLayerC
++ _symbolic _____ So9CTFontRefa
++ _symbolic _____6point1_AA6point2Sd8durationt So7CGPointV
++ _symbolic _____Sg 18MusicSiriDonations08PlayItemB6ActionV13QueueLocationO
++ _symbolic _____Sg 21MusicSwiftCollections10_HashTableV7StorageC
++ _symbolic _____Sg 7LyricsX06SyncedA23VisualExperienceManagerC
++ _symbolic _____Sg 7LyricsX06SyncedA23VisualExperienceManagerC19AnimationDescriptorV
++ _symbolic _____Sg 7LyricsX06SyncedA9LineLayerC011TextContentD0C
++ _symbolic _____Sg 7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C
++ _symbolic _____Sg 7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C0F18LayoutDiffMetadataV
++ _symbolic _____Sg 7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C21TransliterationResult33_6199ED2C84AF6C925E1487713AA44194LLO
++ _symbolic _____Sg 7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C22TranslationLabelUpdateO
++ _symbolic _____Sg 7LyricsX06SyncedA9LineLayerC016DespacitoContentD0C
++ _symbolic _____Sg 7LyricsX06SyncedA9LineLayerC016DespacitoContentD0C0D6Update33_B229919BBD5F146C93EF2B251B0B2826LLO
++ _symbolic _____Sg 7LyricsX06SyncedA9LineLayerC0C0C0cD0C
++ _symbolic _____Sg 7LyricsX06SyncedA9LineLayerC13TextContainerC
++ _symbolic _____Sg 7LyricsX06SyncedA9LineLayerC24BackgroundVocalsPositionO
++ _symbolic _____Sg 7LyricsX06SyncedA9LineLayerC4WordC28CrossfadeAnimationParametersV
++ _symbolic _____Sg 7LyricsX06SyncedA9LineLayerC5GlyphC0eD0C
++ _symbolic _____Sg 7LyricsX06SyncedA9LineLayerC8SyllableC
++ _symbolic _____Sg 7LyricsX06SyncedA9LineLayerC8SyllableC0eD0C
++ _symbolic _____Sg 7LyricsX0A5SpecsV
++ _symbolic _____Sg 7LyricsX12TextKitLabelC
++ _symbolic _____Sg 7LyricsX16NoAnimationLayerC
++ _symbolic _____Sg 7LyricsX21LayerPropertyAnimatorC
++ _symbolic _____Sg 7LyricsX25LineProgressGradientLayerC
++ _symbolic _____Sg 9MusicCore12ActionResultO
++ _symbolic _____Sg 9MusicCore16PlayActivityDataV
++ _symbolic _____Sg So10CGColorRefa
++ _symbolic _____Sg So9CTFontRefa
++ _symbolic _____Sg s6MirrorV12DisplayStyleO
++ _symbolic _____SgXw 7LyricsX06SyncedA23VisualExperienceManagerC
++ _symbolic _____SgXw 7LyricsX06SyncedA9LineLayerC
++ _symbolic _____SgXw 7LyricsX06SyncedA9LineLayerC011TextContentD0C
++ _symbolic _____SgXw 7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C
++ _symbolic _____SgXw 7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C
++ _symbolic _____SgXw 7LyricsX06SyncedA9LineLayerC016DespacitoContentD0C
++ _symbolic _____SgXw 7LyricsX06SyncedA9LineLayerC0C0C
++ _symbolic _____SgXw 7LyricsX06SyncedA9LineLayerC5GlyphC0eD0C
++ _symbolic _____SgXw 7LyricsX21LayerPropertyAnimatorC
++ _symbolic _____SgXwz_Xx 7LyricsX06SyncedA9LineLayerC
++ _symbolic _____SgXwz_Xx 7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C
++ _symbolic _____SgXwz_Xx 7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C
++ _symbolic _____SgXwz_Xx 7LyricsX06SyncedA9LineLayerC016DespacitoContentD0C
++ _symbolic _____SgXwz_Xx 7LyricsX21LayerPropertyAnimatorC
++ _symbolic _____Sg_ABt 10Foundation6LocaleV6ScriptV
++ _symbolic _____Sg_ABt 11MusicCoreUI7ArtworkV0A11ApplicationE9ComponentC7Content33_D3E2C4694A53E203D54C2C75409DDB7BLLO
++ _symbolic _____Sg_ABt 16MusicKitInternal07GenericA4ItemO
++ _symbolic _____Sg_ABt 16MusicKitInternal13CatalogLyricsV
++ _symbolic _____Sg_ABt 7LyricsX0A0C11TranslationV
++ _symbolic _____Sg_ABt 7LyricsX0A0C15TransliterationV
++ _symbolic _____Sg_ABt 7LyricsX0A0C8TextLineV16BackgroundVocalsV
++ _symbolic _____Sg_ABt 8MusicKit0A14PropertySourceO
++ _symbolic _____Sg_ABt 8MusicKit8PlaylistV5EntryV
++ _symbolic _____Sg_ABt 9MusicCore24PlaybackIntentDescriptorV0D4TypeO
++ _symbolic _____Sg_ABt s11AnyHashableV
++ _symbolic _____SgyYaYbKc 9MusicCore12ActionResultO
++ _symbolic _____XDXMT 7LyricsX06SyncedA9LineLayerC
++ _symbolic ______So7CALayerCXcSg 7LyricsX06SyncedA16LineContentLayerP
++ _symbolic ___________t 9MusicCore14PlaylistCoversO10ExpressionO AC5CoverV
++ _symbolic ___________tIeAgHr_ 9MusicCore14PlaylistCoversO10ExpressionO AC5CoverV
++ _symbolic ___________tSg 9MusicCore14PlaylistCoversO10ExpressionO AC5CoverV
++ _symbolic ______p 18MusicSiriDonations0B20ActionImplementationP
++ _symbolic ______p 18MusicSiriDonations0B6ActionP
++ _symbolic ______p 28InternalCollectionsUtilities17_UniqueCollectionP
++ _symbolic ______p 7LyricsX021LayerPropertyAnimatorB8ProviderP
++ _symbolic ______p 7LyricsX06SyncedA31VisualExperienceManagerDelegateP
++ _symbolic ______p So17CAAnimatableValueP
++ _symbolic ______pSg 18MusicSiriDonations0B20ActionImplementationP
++ _symbolic ______pSg 7LyricsX021LayerPropertyAnimatorB8ProviderP
++ _symbolic ______pSgXw 7LyricsX06SyncedA31VisualExperienceManagerDelegateP
++ _symbolic _____m 18MusicSiriDonations0B13ActionDonatorO
++ _symbolic _____yAAyAAyAAyAAyAAyAAy__________G_____G_____y_____GG_____y_____GGAGy_____SgGG_____GASG 7SwiftUI15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV AA010_FlexFrameH0V AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA016_ForegroundStyleN0V AA017HierarchicalShapeQ0V AA4FontV AA08_PaddingH0V
++ _symbolic _____yAAyAAyAAyAAyAAy__________G_____G_____ySiSgGGAGy_____SgGGAGy_____SgGGAGy_____GG 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA010_FixedSizeG0V AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA0E9AlignmentO
++ _symbolic _____yAAyAAyAAyAAyAAy__________G_____G_____y_____GG_____y_____GGAGy_____SgGG_____G 7SwiftUI15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV AA010_FlexFrameH0V AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA016_ForegroundStyleN0V AA017HierarchicalShapeQ0V AA4FontV AA08_PaddingH0V
++ _symbolic _____yAAyAAyAAyAAyAAy__________G_____y_____GG_____G_____y_____GGAKy_____GG_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA20_MaskAlignmentEffectV AA6CircleV 09MusicCoreB018BorderViewModifier33_F5ED3014321945F1E2BE58A044A15282LLV AA013_TraitWritingQ0V AA06ZIndexY3KeyV AA010TransitionY3KeyV AA06_FrameH0V
++ _symbolic _____yAAyAAyAAyAAyAAy_____y_____y______yAAyAAy__________y_____GG_____G_____yAIGGQo__Qo______GAHG_____y_____GG_____G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA4ViewP018_MusicKitInternal_aB0E22artworkLoadingObserveryQry0fG07ArtworkVSg_So6CGSizeVAjFE0J6StatusOtcFQO 01_fg1_aB00L5ImageVAFE0I11PlaceholderyQrxAK_AmA5ColorVtcAaDRzlFQO AA012_ConditionalD0V AR0f4CoreB0E0P0OADV AA26_PreferenceWritingModifierV AX016RadiosityEnabledT3KeyV AA12_FrameLayoutV AA14GeometryReaderV AX0p5StyleV0V AA016_BackgroundStyleV0V AU AX012CornerRadiusV033_F5ED3014321945F1E2BE58A044A15282LLV AX06BordereV0A13_LLV AA06_TraituV0V AA011ZIndexTraitY0V
++ _symbolic _____yAAyAAyAAyAAy__________G_____G_____ySiSgGGAGy_____SgGGAGy_____SgGG 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA010_FixedSizeG0V AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV
++ _symbolic _____yAAyAAyAAyAAy__________G_____G_____y_____GG_____y_____GGAGy_____SgGG 7SwiftUI15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV AA010_FlexFrameH0V AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA016_ForegroundStyleN0V AA017HierarchicalShapeQ0V AA4FontV
++ _symbolic _____yAAyAAyAAyAAy__________G_____G_____y_____SgGG_____yAAyAAy_____y_____AHGAEG_____GGG_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA011_BackgroundM0V AA10_ShapeViewV AA6CircleV AA13_ShadowEffectV AA08_PaddingH0V
++ _symbolic _____yAAyAAyAAyAAy__________G_____y_____GGAEy_____SgGGAEy_____SgGG_____G 7SwiftUI15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA4FontV AA5ColorV AA08_PaddingH0V
++ _symbolic _____yAAyAAyAAyAAy__________G_____y_____GG_____G_____y_____GGAKy_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA20_MaskAlignmentEffectV AA6CircleV 09MusicCoreB018BorderViewModifier33_F5ED3014321945F1E2BE58A044A15282LLV AA013_TraitWritingQ0V AA06ZIndexY3KeyV AA010TransitionY3KeyV
++ _symbolic _____yAAyAAyAAyAAy__________G_____y_____SgGGAEy_____GGAEy_____SgGG_____G 7SwiftUI15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV AA30_EnvironmentKeyWritingModifierV AA4FontV AA0E9AlignmentO AA5ColorV AA08_PaddingH0V
++ _symbolic _____yAAyAAyAAyAAy_____y_____y______yAAyAAy__________y_____GG_____G_____yAIGGQo__Qo______GAHG_____y_____GG_____G_____G 7SwiftUI15ModifiedContentV AA4ViewP018_MusicKitInternal_aB0E22artworkLoadingObserveryQry0fG07ArtworkVSg_So6CGSizeVAjFE0J6StatusOtcFQO 01_fg1_aB00L5ImageVAFE0I11PlaceholderyQrxAK_AmA5ColorVtcAaDRzlFQO AA012_ConditionalD0V AR0f4CoreB0E0P0OADV AA26_PreferenceWritingModifierV AX016RadiosityEnabledT3KeyV AA12_FrameLayoutV AA14GeometryReaderV AX0p5StyleV0V AA016_BackgroundStyleV0V AU AX012CornerRadiusV033_F5ED3014321945F1E2BE58A044A15282LLV AX06BordereV0A13_LLV
++ _symbolic _____yAAyAAyAAy__________G_____G_____ySiSgGGAGy_____SgGG 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA010_FixedSizeG0V AA30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____yAAyAAyAAy__________G_____G_____y_____GG_____y_____GG 7SwiftUI15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV AA010_FlexFrameH0V AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA016_ForegroundStyleN0V AA017HierarchicalShapeQ0V
++ _symbolic _____yAAyAAyAAy__________G_____G_____y_____SgGG_____yAAyAAy_____y_____AHGAEG_____GGG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA011_BackgroundM0V AA10_ShapeViewV AA6CircleV AA13_ShadowEffectV
++ _symbolic _____yAAyAAyAAy__________G_____ySiSgGGAEy_____SgGGAEy_____SgGG 7SwiftUI15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV
++ _symbolic _____yAAyAAyAAy__________G_____y_____GGAEy_____SgGGAEy_____SgGG 7SwiftUI15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA4FontV AA5ColorV
++ _symbolic _____yAAyAAyAAy__________G_____y_____GG_____G_____y_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA20_MaskAlignmentEffectV AA6CircleV 09MusicCoreB018BorderViewModifier33_F5ED3014321945F1E2BE58A044A15282LLV AA013_TraitWritingQ0V AA06ZIndexY3KeyV
++ _symbolic _____yAAyAAyAAy__________G_____y_____SgGGAEy_____GGAEy_____SgGG 7SwiftUI15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV AA30_EnvironmentKeyWritingModifierV AA4FontV AA0E9AlignmentO AA5ColorV
++ _symbolic _____yAAyAAyAAy__________G_____y_____SgGGAEy_____SgGG_____G 7SwiftUI15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA08_PaddingH0V
++ _symbolic _____yAAyAAyAAy__________ySiSgGG_____GACy_____SgGGACy_____GG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA16_FixedSizeLayoutV AA5ColorV AA0E9AlignmentO
++ _symbolic _____yAAyAAyAAy__________y_____GG_____GAGGAGG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA14_PaddingLayoutV
++ _symbolic _____yAAyAAyAAy_____y_____y______yAAyAAy__________y_____GG_____G_____yAIGGQo__Qo______GAHG_____y_____GG_____G 7SwiftUI15ModifiedContentV AA4ViewP018_MusicKitInternal_aB0E22artworkLoadingObserveryQry0fG07ArtworkVSg_So6CGSizeVAjFE0J6StatusOtcFQO 01_fg1_aB00L5ImageVAFE0I11PlaceholderyQrxAK_AmA5ColorVtcAaDRzlFQO AA012_ConditionalD0V AR0f4CoreB0E0P0OADV AA26_PreferenceWritingModifierV AX016RadiosityEnabledT3KeyV AA12_FrameLayoutV AA14GeometryReaderV AX0p5StyleV0V AA016_BackgroundStyleV0V AU AX012CornerRadiusV033_F5ED3014321945F1E2BE58A044A15282LLV
++ _symbolic _____yAAyAAy__________G_____G_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA08_PaddingH0V
++ _symbolic _____yAAyAAy__________G_____G_____ySiSgGG 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA010_FixedSizeG0V AA30_EnvironmentKeyWritingModifierV
++ _symbolic _____yAAyAAy__________G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV AA010_FlexFrameH0V AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO
++ _symbolic _____yAAyAAy__________G_____G_____y_____SgGG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA30_EnvironmentKeyWritingModifierV AA5ColorV
++ _symbolic _____yAAyAAy__________G_____y_____GGAEy_____SgGG 7SwiftUI15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA4FontV
++ _symbolic _____yAAyAAy__________G_____y_____GG_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA20_MaskAlignmentEffectV AA6CircleV 09MusicCoreB018BorderViewModifier33_F5ED3014321945F1E2BE58A044A15282LLV
++ _symbolic _____yAAyAAy__________G_____y_____SgGGAEy_____GG 7SwiftUI15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV AA30_EnvironmentKeyWritingModifierV AA4FontV AA0E9AlignmentO
++ _symbolic _____yAAyAAy__________G_____y_____SgGGAEy_____SgGG 7SwiftUI15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV
++ _symbolic _____yAAyAAy__________ySiSgGG_____GACy_____SgGG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA16_FixedSizeLayoutV AA5ColorV
++ _symbolic _____yAAyAAy__________y_____GGACy_____SgGG_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA5ColorV AA14_PaddingLayoutV
++ _symbolic _____yAAyAAy__________y_____GG_____GACy_____SgGG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA16_FixedSizeLayoutV AA4FontV
++ _symbolic _____yAAyAAy__________y_____GG_____GAGG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA14_PaddingLayoutV
++ _symbolic _____yAAyAAy_____y_____y______yAAyAAy__________y_____GG_____G_____yAIGGQo__Qo______GAHG_____y_____GG 7SwiftUI15ModifiedContentV AA4ViewP018_MusicKitInternal_aB0E22artworkLoadingObserveryQry0fG07ArtworkVSg_So6CGSizeVAjFE0J6StatusOtcFQO 01_fg1_aB00L5ImageVAFE0I11PlaceholderyQrxAK_AmA5ColorVtcAaDRzlFQO AA012_ConditionalD0V AR0f4CoreB0E0P0OADV AA26_PreferenceWritingModifierV AX016RadiosityEnabledT3KeyV AA12_FrameLayoutV AA14GeometryReaderV AX0p5StyleV0V AA016_BackgroundStyleV0V AU
++ _symbolic _____yAAy__________GACG 7SwiftUI15ModifiedContentV 16MusicApplication22RecordLabelsDetailView33_DFFB545A04BDF8CFD1631A9374555FAELLC0ghJ0V AA14_PaddingLayoutV
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA010_FixedSizeG0V
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV AA010_FlexFrameH0V
++ _symbolic _____yAAy__________G_____y_____GG 7SwiftUI15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO
++ _symbolic _____yAAy__________G_____y_____SgGG 7SwiftUI15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____yAAy__________ySiSgGG_____G 7SwiftUI15ModifiedContentV 16MusicApplication15DescriptionText33_B90BA6543340C30087EC01D228CE8DDALLV AA30_EnvironmentKeyWritingModifierV AA14_PaddingLayoutV
++ _symbolic _____yAAy__________y_____GGACy_____SgGG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA5ColorV
++ _symbolic _____yAAy__________y_____GG_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA14_PaddingLayoutV
++ _symbolic _____yAAy__________y_____GG_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA16_FixedSizeLayoutV
++ _symbolic _____yAAy__________y_____SgGG_____G 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA12_FrameLayoutV
++ _symbolic _____yAAy_____y_____G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 09MusicCoreB0012CornerRadiusF033_F5ED3014321945F1E2BE58A044A15282LLV AA23_CompositingGroupEffectV AA05_ClipT0V AF0I5ShapeV
++ _symbolic _____yAAy_____y__________G_____G_____G 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA6CircleV AA5ColorV AA12_FrameLayoutV AA13_ShadowEffectV
++ _symbolic _____yAAy_____y_____yAAy_____y_____G_____y_____GGAAyAAy__________y_____GG_____y_____SgGGGGASG_____G 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V AA14_AnimationViewV AA4TextV AA21_TraitWritingModifierV AA010TransitionJ3KeyV AA5ImageV AA016_ForegroundStyleL0V AA5ColorV AA012_EnvironmentnkL0V AA4FontV AA12_FrameLayoutV
++ _symbolic _____ySSG 21MusicSwiftCollections10OrderedSetV
++ _symbolic _____ySSGIegr_ 21MusicSwiftCollections10OrderedSetV
++ _symbolic _____ySS______pG s18_DictionaryStorageC So17CAAnimatableValueP
++ _symbolic _____ySaySiSgGSSG s15LazyMapSequenceV
++ _symbolic _____yScTyyt______pGG s23_ContiguousArrayStorageC s5ErrorP
++ _symbolic _____ySiG s16PartialRangeFromV
++ _symbolic _____ySiSgG s23_ContiguousArrayStorageC
++ _symbolic _____ySo22UIViewPropertyAnimatorCG 21MusicSwiftCollections10OrderedSetV
++ _symbolic _____ySo7CALayerCG 21MusicSwiftCollections10OrderedSetV
++ _symbolic _____ySo7CALayerCSDySS______pGG s18_DictionaryStorageC So17CAAnimatableValueP
++ _symbolic _____ySo7CALayerCSaySSGG s18_DictionaryStorageC
++ _symbolic _____ySuG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G 21MusicSwiftCollections10OrderedSetV 10Foundation9IndexPathV
++ _symbolic _____y_____G 21MusicSwiftCollections10OrderedSetV 7LyricsX06SyncedF9LineLayerC0H0C
++ _symbolic _____y_____G 21MusicSwiftCollections10OrderedSetV 7LyricsX0F0C4WordV
++ _symbolic _____y_____G 7SwiftUI11_ClipEffectV 09MusicCoreB011CornerShapeV
++ _symbolic _____y_____G 7SwiftUI11_ShadowViewV 09MusicCoreB011CornerShapeV
++ _symbolic _____y_____G 7SwiftUI19_BackgroundModifierV 09MusicCoreB019WindowSceneResolverV
++ _symbolic _____y_____G 7SwiftUI21_ViewModifier_ContentV 09MusicCoreB0015JiggleAnimationD0V
++ _symbolic _____y_____G 7SwiftUI25_ContentShapeKindModifierV 09MusicCoreB006CornerD0V
++ _symbolic _____y_____G s11_SetStorageC 7LyricsX06SyncedC9LineLayerC011TextContentF0C6Change33_B229919BBD5F146C93EF2B251B0B2826LLO
++ _symbolic _____y_____G s11_SetStorageC 7LyricsX06SyncedC9LineLayerC4WordC
++ _symbolic _____y_____G s11_SetStorageC 7LyricsX21LayerPropertyAnimatorC
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14MusicUtilities12CodableImageV10CodingKeys33_734AD650B4D91A7D23B0DE0A13674DF9LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14MusicUtilities12CodableImageV10CodingKeys33_734AD650B4D91A7D23B0DE0A13674DF9LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 11MusicCoreUI11ImagePickerV10SourceTypeO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 7LyricsX06SyncedD23VisualExperienceManagerC17LinesUpdateResultV0J0V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 7LyricsX06SyncedD23VisualExperienceManagerC19AnimationDescriptorV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 7LyricsX06SyncedD23VisualExperienceManagerC31LinePositionAnimationDescriptorV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 7LyricsX06SyncedD9LineLayerC015SBS_TextContentG0C0iG0C21TransliterationResult33_6199ED2C84AF6C925E1487713AA44194LLO8MetadataV0F0V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9MusicCore14PlaylistCoversO10ExpressionO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9MusicCore14PlaylistCoversO5CoverV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9MusicCore19PlayActivityFeatureV
++ _symbolic _____y_____G s5SliceV 28InternalCollectionsUtilities13_UnsafeBitSetV
++ _symbolic _____y_____Gz_Xx 21MusicSwiftCollections10OrderedSetV 10Foundation9IndexPathV
++ _symbolic _____y_____Say_____GG s18_DictionaryStorageC 7LyricsX0C0C4WordV AC06SyncedC9LineLayerCAFC
++ _symbolic _____y_____Shy_____GG s18_DictionaryStorageC 7LyricsX06SyncedC9LineLayerC0E0C AE4WordC
++ _symbolic _____y______G 8MusicKit0A7LibraryC0aB8InternalE15SupportedStatusO AcDE19AddToPlaylistActionV
++ _symbolic _____y__________G 7SwiftUI10_ShapeViewV 09MusicCoreB006CornerC0V AA15ForegroundStyleV
++ _symbolic _____y__________G 7SwiftUI10_ShapeViewV AA4PathV AA5ColorV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 09MusicCoreB011CornerShapeV AA16_BlendModeEffectV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 16MusicApplication22RecordLabelsDetailView33_DFFB545A04BDF8CFD1631A9374555FAELLC0ghJ0V AA14_PaddingLayoutV
++ _symbolic _____y__________G s13ManagedBufferCsRi__rlE 21MusicSwiftCollections10_HashTableV6HeaderV s6UInt64V
++ _symbolic _____y__________G s18_DictionaryStorageC 7LyricsX06SyncedC9LineLayerC0E0C So6CGRectV
++ _symbolic _____y__________G s18_DictionaryStorageC 9MusicCore14PlaylistCoversO10ExpressionO AE5CoverV
++ _symbolic _____y___________t_G ScG8IteratorV 9MusicCore14PlaylistCoversO10ExpressionO AE5CoverV
++ _symbolic _____y___________ySaySi6offset______7elementtGSi_____yAHyAHyAHyAHyAHy_____y_____y______yAHyAHy__________y_____GG_____G_____yAPGGQo__Qo______GAOG_____y_____GG_____G_____G_____y_____GGGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA7ForEachV 09MusicCoreB016PlaylistCuratorsO7CuratorV AA15ModifiedContentV AA0D0P01_j12KitInternal_aB0E22artworkLoadingObserveryQry0jQ07ArtworkVSg_So6CGSizeVAwSE0T6StatusOtcFQO 01_jq1_aB00V5ImageVASE0S11PlaceholderyQrxAX_AzA5ColorVtcAaQRzlFQO AA012_ConditionalP0V A3_AJE0Z0OAQV AA26_PreferenceWritingModifierV AJ29RadiosityEnabledPreferenceKeyV AA06_FrameG0V AA14GeometryReaderV AJ0Z13StyleModifierV AA24_BackgroundStyleModifierV A6_ AJ20CornerRadiusModifier33_F5ED3014321945F1E2BE58A044A15282LLV AJ06BorderD8ModifierA25_LLV AA21_TraitWritingModifierV AA14ZIndexTraitKeyV
++ _symbolic _____y___________y_____y_____yACyADyAEy_____ySaySi6offset______7elementtGSiADyADyADyADyADyADy_____y_____y______yADyADy__________y_____GG_____G_____yARGGQo__Qo______GAQG_____y_____GG_____G_____G_____y_____GGGG_____G_ADyADyADy_____y______Qo______ySiSgGGA17_y_____GGA17_y_____SgGGtGG_____G______SgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA15ModifiedContentV AA0F0V AA7ForEachV 09MusicCoreB016PlaylistCuratorsO7CuratorV AA0D0P01_m12KitInternal_aB0E22artworkLoadingObserveryQry0mR07ArtworkVSg_So6CGSizeVA_AWE0U6StatusOtcFQO 01_mr1_aB00W5ImageVAWE0T11PlaceholderyQrxA0__A2_AA5ColorVtcAaURzlFQO AA012_ConditionalJ0V A7_APE11PlaceholderOAUV AA26_PreferenceWritingModifierV AP29RadiosityEnabledPreferenceKeyV AA06_FrameG0V AA14GeometryReaderV AP24PlaceholderStyleModifierV AA24_BackgroundStyleModifierV A10_ AP20CornerRadiusModifier33_F5ED3014321945F1E2BE58A044A15282LLV AP06BorderD8ModifierA29_LLV AA21_TraitWritingModifierV AA14ZIndexTraitKeyV AA23_CompositingGroupEffectV AvAE10textSuffixyQrAA4TextV6SuffixVFQO A41_ AA30_EnvironmentKeyWritingModifierV AA0Z0V5ScaleO AA4FontV AP05HoverD8ModifierA29_LLV AA6SpacerV
++ _symbolic _____y___________y_____y_____y_____G_____G_ADyAF_____GtGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA05TupleD0V AA15ModifiedContentV AA07_ShadowD0V 09MusicCoreB011CornerShapeV AA08_PaddingG0V AA16_BlendModeEffectV
++ _symbolic _____y___________y_____y_____y_____ySaySi6offset______7elementtGSiADyADyADyADyADyADy_____y_____y______yADyADy__________y_____GG_____G_____yARGGQo__Qo______GAQG_____y_____GG_____G_____G_____y_____GGGG_____G_ADyADyADy_____y______Qo______ySiSgGGA17_y_____GGA17_y_____SgGGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA15ModifiedContentV AA0F0V AA7ForEachV 09MusicCoreB016PlaylistCuratorsO7CuratorV AA0D0P01_m12KitInternal_aB0E22artworkLoadingObserveryQry0mR07ArtworkVSg_So6CGSizeVA_AWE0U6StatusOtcFQO 01_mr1_aB00W5ImageVAWE0T11PlaceholderyQrxA0__A2_AA5ColorVtcAaURzlFQO AA012_ConditionalJ0V A7_APE11PlaceholderOAUV AA26_PreferenceWritingModifierV AP29RadiosityEnabledPreferenceKeyV AA06_FrameG0V AA14GeometryReaderV AP24PlaceholderStyleModifierV AA24_BackgroundStyleModifierV A10_ AP20CornerRadiusModifier33_F5ED3014321945F1E2BE58A044A15282LLV AP06BorderD8ModifierA29_LLV AA21_TraitWritingModifierV AA14ZIndexTraitKeyV AA23_CompositingGroupEffectV AvAE10textSuffixyQrAA4TextV6SuffixVFQO A41_ AA30_EnvironmentKeyWritingModifierV AA0Z0V5ScaleO AA4FontV
++ _symbolic _____y__________y_____GG 7SwiftUI15ModifiedContentV 09MusicCoreB010StrokeViewV AD20GradientMaskModifierV AD04GlowK0V06StaticI10Properties33_D2284C9348FF36AA381FDC545CBE5EACLLV
++ _symbolic _____y_____yAAy_____yAAy_____yAAy_____y_____G_____G_AAyAByAGGAFGQo______G_AAyAByALGAKGQo_AKGGAKG 7SwiftUI15ModifiedContentV AA011PlaceholderD4ViewV AA0F0PAAE9animation_4bodyQrAA9AnimationVSg_qd__AEyxGXEtAaFRd__lFQO AgAEAH_AIQrAL_qd__AMXEtAaFRd__lFQO AA01_f9Modifier_D0V 09MusicCoreB006JiggleiJ0V AA15_RotationEffectV AA07_OffsetO0V
++ _symbolic _____y_____yAAy_____yAAy_____yAAy_____y_____G_____G_AAy_____yAFGAEGQo______G_AAyAGyALGAKGQo_AKG_AAyAGyAPGAKGQo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE9animation_4bodyQrAA9AnimationVSg_qd__AA011PlaceholderdE0VyxGXEtAaDRd__lFQO AeAEAF_AGQrAJ_qd__AMXEtAaDRd__lFQO AeAEAF_AGQrAJ_qd__AMXEtAaDRd__lFQO AA01_e9Modifier_D0V 09MusicCoreB006JigglehJ0V AA15_RotationEffectV AL AA07_OffsetO0V AA012_TransactionJ0V
++ _symbolic _____y_____yAAy_____yAAy_____y_____G_____G_AAyAByAGGAFGQo______GGAKG 7SwiftUI15ModifiedContentV AA011PlaceholderD4ViewV AA0F0PAAE9animation_4bodyQrAA9AnimationVSg_qd__AEyxGXEtAaFRd__lFQO AA01_f9Modifier_D0V 09MusicCoreB006JiggleiJ0V AA15_RotationEffectV AA07_OffsetO0V
++ _symbolic _____y_____yAAy_____yAAy_____y_____G_____G_AAy_____yAFGAEGQo______G_AAyAGyALGAKGQo_AKG 7SwiftUI15ModifiedContentV AA4ViewPAAE9animation_4bodyQrAA9AnimationVSg_qd__AA011PlaceholderdE0VyxGXEtAaDRd__lFQO AeAEAF_AGQrAJ_qd__AMXEtAaDRd__lFQO AA01_e9Modifier_D0V 09MusicCoreB006JigglehJ0V AA15_RotationEffectV AL AA07_OffsetO0V
++ _symbolic _____y_____yAAy_____y_____G_____GGAFG 7SwiftUI15ModifiedContentV AA011PlaceholderD4ViewV AA01_f9Modifier_D0V 09MusicCoreB0015JiggleAnimationG0V AA15_RotationEffectV
++ _symbolic _____y_____yAAy_____y_____G_____G_AAy_____yAFGAEGQo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE9animation_4bodyQrAA9AnimationVSg_qd__AA011PlaceholderdE0VyxGXEtAaDRd__lFQO AA01_e9Modifier_D0V 09MusicCoreB006JigglehJ0V AA15_RotationEffectV AL AA07_OffsetO0V
++ _symbolic _____y_____y_____G_____G 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 09MusicCoreB0015JiggleAnimationF0V AA15_RotationEffectV
++ _symbolic _____y_____y_____G_____G 7SwiftUI15ModifiedContentV AA11_ShadowViewV 09MusicCoreB011CornerShapeV AA14_PaddingLayoutV
++ _symbolic _____y_____y_____G_____G_AAyAC_____Gt 7SwiftUI15ModifiedContentV AA11_ShadowViewV 09MusicCoreB011CornerShapeV AA14_PaddingLayoutV AA16_BlendModeEffectV
++ _symbolic _____y_____y_____G_____yAAy_____y_____yAAy_____y_____G_____G_AAyAI_____GtGG_____GGG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 09MusicCoreB006ShadoweF033_F5ED3014321945F1E2BE58A044A15282LLV AA011_BackgroundF0V AA6ZStackV AA05TupleE0V AA01_iE0V AF11CornerShapeV AA14_PaddingLayoutV AA16_BlendModeEffectV AA017_CompositingGroupZ0V
++ _symbolic _____y_____y_____G_____y_____GG 7SwiftUI10_ShapeViewV AA08_StrokedC0V 09MusicCoreB006CornerC0V AA010_BlendModeC5StyleV AA5ColorV
++ _symbolic _____y_____y_____G_____y_____GG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 09MusicCoreB005HovereF033_F5ED3014321945F1E2BE58A044A15282LLV AA01_d9ShapeKindF0V AF06CornerQ0V
++ _symbolic _____y_____y_____G_____y_____y__________y_____G_____GGG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 09MusicCoreB006BordereF033_F5ED3014321945F1E2BE58A044A15282LLV AA08_OverlayF0V AA011StrokeShapeE0V AF06CornerS0V AA010_BlendModeS5StyleV AA5ColorV AA05EmptyE0V
++ _symbolic _____y_____y__________G_____G 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA6CircleV AA5ColorV AA12_FrameLayoutV
++ _symbolic _____y_____y__________y_____G_____GG 7SwiftUI16_OverlayModifierV AA15StrokeShapeViewV 09MusicCoreB006CornerF0V AA010_BlendModeF5StyleV AA5ColorV AA05EmptyG0V
++ _symbolic _____y_____y_____yAAyAByACyAAy_____ySaySi6offset______7elementtGSiACyACyACyACyACyACy_____y_____y______yACyACy__________y_____GG_____G_____yAPGGQo__Qo______GAOG_____y_____GG_____G_____G_____y_____GGGG_____G_ACyACyACy_____y______Qo______ySiSgGGA15_y_____GGA15_y_____SgGGtGG_____G______SgtGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV AA7ForEachV 09MusicCoreB016PlaylistCuratorsO7CuratorV AA0E0P01_j12KitInternal_aB0E22artworkLoadingObserveryQry0jO07ArtworkVSg_So6CGSizeVAuQE0R6StatusOtcFQO 01_jo1_aB00T5ImageVAQE0Q11PlaceholderyQrxAV_AxA5ColorVtcAaORzlFQO AA012_ConditionalG0V A1_AJE0X0OAOV AA26_PreferenceWritingModifierV AJ29RadiosityEnabledPreferenceKeyV AA12_FrameLayoutV AA14GeometryReaderV AJ0X13StyleModifierV AA24_BackgroundStyleModifierV A4_ AJ20CornerRadiusModifier33_F5ED3014321945F1E2BE58A044A15282LLV AJ06BorderE8ModifierA23_LLV AA21_TraitWritingModifierV AA14ZIndexTraitKeyV AA23_CompositingGroupEffectV ApAE10textSuffixyQrAA4TextV6SuffixVFQO A35_ AA30_EnvironmentKeyWritingModifierV AA0W0V5ScaleO AA4FontV AJ05HoverE8ModifierA23_LLV AA6SpacerV
++ _symbolic _____y_____y_____yAAyABy_____ySaySi6offset______7elementtGSiAAyAAyAAyAAyAAyAAy_____y_____y______yAAyAAy__________y_____GG_____G_____yAPGGQo__Qo______GAOG_____y_____GG_____G_____G_____y_____GGGG_____G_AAyAAyAAy_____y______Qo______ySiSgGGA15_y_____GGA15_y_____SgGGtGG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA7ForEachV 09MusicCoreB016PlaylistCuratorsO7CuratorV AA0G0P01_j12KitInternal_aB0E22artworkLoadingObserveryQry0jO07ArtworkVSg_So6CGSizeVAuQE0R6StatusOtcFQO 01_jo1_aB00T5ImageVAQE0Q11PlaceholderyQrxAV_AxA5ColorVtcAaORzlFQO AA012_ConditionalD0V A1_AJE0X0OAOV AA26_PreferenceWritingModifierV AJ29RadiosityEnabledPreferenceKeyV AA12_FrameLayoutV AA14GeometryReaderV AJ0X13StyleModifierV AA24_BackgroundStyleModifierV A4_ AJ20CornerRadiusModifier33_F5ED3014321945F1E2BE58A044A15282LLV AJ06BorderG8ModifierA23_LLV AA21_TraitWritingModifierV AA14ZIndexTraitKeyV AA23_CompositingGroupEffectV ApAE10textSuffixyQrAA4TextV6SuffixVFQO A35_ AA30_EnvironmentKeyWritingModifierV AA0W0V5ScaleO AA4FontV AJ05HoverG8ModifierA23_LLV
++ _symbolic _____y_____y_____yAAyABy_____ySaySi6offset______7elementtGSiAAyAAyAAyAAyAAyAAy_____y_____y______yAAyAAy__________y_____GG_____G_____yAPGGQo__Qo______GAOG_____y_____GG_____G_____G_____y_____GGGG_____G_AAyAAyAAy_____y______Qo______ySiSgGGA15_y_____GGA15_y_____SgGGtGG_____G______Sgt 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA7ForEachV 09MusicCoreB016PlaylistCuratorsO7CuratorV AA0G0P01_j12KitInternal_aB0E22artworkLoadingObserveryQry0jO07ArtworkVSg_So6CGSizeVAuQE0R6StatusOtcFQO 01_jo1_aB00T5ImageVAQE0Q11PlaceholderyQrxAV_AxA5ColorVtcAaORzlFQO AA012_ConditionalD0V A1_AJE0X0OAOV AA26_PreferenceWritingModifierV AJ29RadiosityEnabledPreferenceKeyV AA12_FrameLayoutV AA14GeometryReaderV AJ0X13StyleModifierV AA24_BackgroundStyleModifierV A4_ AJ20CornerRadiusModifier33_F5ED3014321945F1E2BE58A044A15282LLV AJ06BorderG8ModifierA23_LLV AA21_TraitWritingModifierV AA14ZIndexTraitKeyV AA23_CompositingGroupEffectV ApAE10textSuffixyQrAA4TextV6SuffixVFQO A35_ AA30_EnvironmentKeyWritingModifierV AA0W0V5ScaleO AA4FontV AJ05HoverG8ModifierA23_LLV AA6SpacerV
++ _symbolic _____y_____y_____yAAy_____y_____G_____y_____GGAAyAAy__________y_____GG_____y_____SgGGGGASG 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V AA14_AnimationViewV AA4TextV AA21_TraitWritingModifierV AA010TransitionJ3KeyV AA5ImageV AA016_ForegroundStyleL0V AA5ColorV AA012_EnvironmentnkL0V AA4FontV
++ _symbolic _____y_____y_____yABy_____yABy_____y_____G_____G_AByAAyAGGAFGQo______G_AByAAyALGAKGQo_AKGG 7SwiftUI22PlaceholderContentViewV AA08ModifiedD0V AA0E0PAAE9animation_4bodyQrAA9AnimationVSg_qd__ACyxGXEtAaFRd__lFQO AgAEAH_AIQrAL_qd__AMXEtAaFRd__lFQO AA01_e9Modifier_D0V 09MusicCoreB006JiggleiJ0V AA15_RotationEffectV AA07_OffsetO0V
++ _symbolic _____y_____y_____yABy_____y_____G_____G_AByAAyAGGAFGQo______GG 7SwiftUI22PlaceholderContentViewV AA08ModifiedD0V AA0E0PAAE9animation_4bodyQrAA9AnimationVSg_qd__ACyxGXEtAaFRd__lFQO AA01_e9Modifier_D0V 09MusicCoreB006JiggleiJ0V AA15_RotationEffectV AA07_OffsetO0V
++ _symbolic _____y_____y_____ySaySi6offset______7elementtGSiAAyAAyAAyAAyAAyAAy_____y_____y______yAAyAAy__________y_____GG_____G_____yAOGGQo__Qo______GANG_____y_____GG_____G_____G_____y_____GGGG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA7ForEachV 09MusicCoreB016PlaylistCuratorsO7CuratorV AA4ViewP01_h12KitInternal_aB0E22artworkLoadingObserveryQry0hN07ArtworkVSg_So6CGSizeVAsOE0Q6StatusOtcFQO 01_hn1_aB00S5ImageVAOE0P11PlaceholderyQrxAT_AvA5ColorVtcAaMRzlFQO AA012_ConditionalD0V A_AHE0W0OAMV AA26_PreferenceWritingModifierV AH016RadiosityEnabledZ3KeyV AA12_FrameLayoutV AA14GeometryReaderV AH0W13StyleModifierV AA24_BackgroundStyleModifierV A2_ AH20CornerRadiusModifier33_F5ED3014321945F1E2BE58A044A15282LLV AH06BorderM8ModifierA21_LLV AA21_TraitWritingModifierV AA14ZIndexTraitKeyV AA23_CompositingGroupEffectV
++ _symbolic _____y_____y_____ySaySi6offset______7elementtGSiAAyAAyAAyAAyAAyAAy_____y_____y______yAAyAAy__________y_____GG_____G_____yAOGGQo__Qo______GANG_____y_____GG_____G_____G_____y_____GGGG_____G_AAyAAyAAy_____y______Qo______ySiSgGGA14_y_____GGA14_y_____SgGGt 7SwiftUI15ModifiedContentV AA6HStackV AA7ForEachV 09MusicCoreB016PlaylistCuratorsO7CuratorV AA4ViewP01_h12KitInternal_aB0E22artworkLoadingObserveryQry0hN07ArtworkVSg_So6CGSizeVAsOE0Q6StatusOtcFQO 01_hn1_aB00S5ImageVAOE0P11PlaceholderyQrxAT_AvA5ColorVtcAaMRzlFQO AA012_ConditionalD0V A_AHE0W0OAMV AA26_PreferenceWritingModifierV AH016RadiosityEnabledZ3KeyV AA12_FrameLayoutV AA14GeometryReaderV AH0W13StyleModifierV AA24_BackgroundStyleModifierV A2_ AH20CornerRadiusModifier33_F5ED3014321945F1E2BE58A044A15282LLV AH06BorderM8ModifierA21_LLV AA21_TraitWritingModifierV AA14ZIndexTraitKeyV AA23_CompositingGroupEffectV AnAE10textSuffixyQrAA4TextV6SuffixVFQO A33_ AA30_EnvironmentKeyWritingModifierV AA0V0V5ScaleO AA4FontV
++ _symbolic _____y_____y_____y_____G_____GG 7SwiftUI22PlaceholderContentViewV AA08ModifiedD0V AA01_e9Modifier_D0V 09MusicCoreB0015JiggleAnimationG0V AA15_RotationEffectV
++ _symbolic _____y_____y_____y_____G_____y_____GG______Qo_ 7SwiftUI4ViewPAAE11hoverEffect_9isEnabledQrqd___SbtAA011CustomHoverE0Rd__lFQO AA15ModifiedContentV AA01_c9Modifier_K0V 09MusicCoreB00icL033_F5ED3014321945F1E2BE58A044A15282LLV AA01_k9ShapeKindL0V AK06CornerV0V AA09HighlightiE0V
++ _symbolic _____y_____y_____y_____G_____y_____GG_____y_____GG 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA08_StrokedE0V 09MusicCoreB006CornerE0V AA010_BlendModeE5StyleV AA5ColorV AA19_BackgroundModifierV AA05EmptyF0V
++ _symbolic _____y_____y_____y______AAy__________GAAy_____AFGAAy__________y_____SgGGtGGAFG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV 16MusicApplication12HeadlineText33_B90BA6543340C30087EC01D228CE8DDALLV AH011DescriptionK0AJLLV AA14_PaddingLayoutV AH13PrimaryButtonAJLLV AH09AccessoryW0AJLLV AA30_EnvironmentKeyWritingModifierV AH0Y0AJLLC
++ _symbolic _____y_____y_____y__________G______tGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV AA14LinearGradientV AA12_FrameLayoutV AA5ColorV
++ _symbolic _____y_____y_____y_____yAAyAByACyAAy_____ySaySi6offset______7elementtGSiACyACyACyACyACyACy_____y_____y______yACyACy__________y_____GG_____G_____yAPGGQo__Qo______GAOG_____y_____GG_____G_____G_____y_____GGGG_____G_ACyACyACy_____y______Qo______ySiSgGGA15_y_____GGA15_y_____SgGGtGG_____G______SgtGG_Qo_ 7SwiftUI4ViewP018_MusicKitInternal_aB0E14artworkCaching2id5limitQrSS_SiSgtFQO AA6HStackV AA05TupleC0V AA15ModifiedContentV AA7ForEachV 0d4CoreB016PlaylistCuratorsO7CuratorV AcDE0G15LoadingObserveryQry0dE07ArtworkVSg_So6CGSizeVAyDE0U6StatusOtcFQO 01_de1_aB00W5ImageVADE0G11PlaceholderyQrxAZ_A0_AA5ColorVtcAaBRzlFQO AA012_ConditionalN0V A5_AQE11PlaceholderOABV AA26_PreferenceWritingModifierV AQ29RadiosityEnabledPreferenceKeyV AA12_FrameLayoutV AA14GeometryReaderV AQ24PlaceholderStyleModifierV AA24_BackgroundStyleModifierV A8_ AQ20CornerRadiusModifier33_F5ED3014321945F1E2BE58A044A15282LLV AQ06BorderC8ModifierA27_LLV AA21_TraitWritingModifierV AA14ZIndexTraitKeyV AA23_CompositingGroupEffectV AcAE10textSuffixyQrAA4TextV6SuffixVFQO A39_ AA30_EnvironmentKeyWritingModifierV AA0Z0V5ScaleO AA4FontV AQ05HoverC8ModifierA27_LLV AA6SpacerV
++ _symbolic _____y_____y_____y_____yAAy_____y_____y_____y_____yAAyAAy_____y_____y_____y_____y_____y_____ySayxGG2ID_____QzAAy_____yq__Qo______GGG_Qo_G_Qo______G_____y_____AXSQ12CoreGraphicsyHCg_GG______Qo__Qo__Qo__Qo_ANG_AAy_____yxGANGSgtGG_____G______Qo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV AA6VStackV AA05TupleC0V AcAE14scrollDisabledyQrSbFQO AcAE0l4ClipM0yQrSbFQO AcAE0L10Indicators_4axesQrAA25ScrollIndicatorVisibilityV_AA4AxisO3SetVtFQO AcAE0L14TargetBehavioryQrqd__AA0qvW0Rd__lFQO AcAE0L8Position_6anchorQrAA7BindingVyAA0qX0VG_AA9UnitPointVSgtFQO AA0qC0V AcAE0lV6Layout9isEnabledQrSb_tFQO AA10LazyHStackV AA7ForEachV A0_ s12IdentifiableP AcAE0D10TapGesture5count7performQrSi_yyctFQO AA12_FrameLayoutV AA23SafeAreaPaddingModifierV AA23_GeometryActionModifierV So6CGSizeV AA0c7AlignedqvW0V 09MusicCoreB011PageControl33_80921D5A503420729A6900A3E96756A5LLV AA25_AppearanceActionModifierV A2_
++ _symbolic _____y_____y_____y_____yABy_____y_____G_____G_AByAF_____GtGG_____GG 7SwiftUI19_BackgroundModifierV AA15ModifiedContentV AA6ZStackV AA9TupleViewV AA07_ShadowI0V 09MusicCoreB011CornerShapeV AA14_PaddingLayoutV AA16_BlendModeEffectV AA017_CompositingGroupS0V
++ _symbolic _____y_____yxGG s16IndexingIteratorV 21MusicSwiftCollections10OrderedSetV
++ _symbolic _____y_____yx_GG s16IndexingIteratorV 21MusicSwiftCollections10OrderedSetV11SubSequenceV
++ _symbolic _____y_xG 8MusicKit0A7LibraryC0A4CoreE25ActionableStateControllerC
++ _symbolic _____yc So6CGRectV
++ _symbolic _____yxG 21MusicSwiftCollections10OrderedSetV
++ _symbolic _____yxG 7SwiftUI7BindingV
++ _symbolic _____yxG s15ContiguousArrayV
++ _symbolic _____yx_G 21MusicSwiftCollections10OrderedSetV11SubSequenceV
++ _symbolic _____yx_____G 7SwiftUI15ModifiedContentV 09MusicCoreB023JiggleAnimationModifierV
++ _symbolic _____yx_____y_____GG 7SwiftUI15ModifiedContentV AA19_BackgroundModifierV 09MusicCoreB019WindowSceneResolverV
++ _symbolic q______yxGc 7SwiftUI7BindingV
++ _symbolic qd__7ElementSciQz______pIegHgnzo_ s5ErrorP
++ _symbolic qd__SgXwz_x_qd__SciRzRld__Cr__lXX
++ _symbolic y_____SgYaYbKc 9MusicCore12ActionResultO
++ _type_layout_string 11MusicCoreUI11CornerShapeV
++ _type_layout_string 11MusicCoreUI23JiggleAnimationModifierV
++ _type_layout_string 14MusicUtilities12CodableImageV
++ _type_layout_string 14MusicUtilities4HCLAV
++ _type_layout_string 18MusicSiriDonations015OpenDestinationB6ActionV
++ _type_layout_string 18MusicSiriDonations016AddItemToLibraryB6ActionV
++ _type_layout_string 18MusicSiriDonations018UpdateItemAffinityB6ActionV
++ _type_layout_string 18MusicSiriDonations06SearchaB6ActionV
++ _type_layout_string 18MusicSiriDonations08OpenItemB6ActionV
++ _type_layout_string 18MusicSiriDonations08PlayItemB6ActionV
++ _type_layout_string 21MusicSwiftCollections10_HashTableV
++ _type_layout_string 21MusicSwiftCollections10_HashTableV12UnsafeHandleV
++ _type_layout_string 21MusicSwiftCollections10_HashTableV14BucketIteratorV
++ _type_layout_string 21MusicSwiftCollections10_HashTableV6BucketV
++ _type_layout_string 21MusicSwiftCollections10_HashTableV6HeaderV
++ _type_layout_string 28InternalCollectionsUtilities13_UnsafeBitSetV
++ _type_layout_string 28InternalCollectionsUtilities13_UnsafeBitSetV5IndexV
++ _type_layout_string 28InternalCollectionsUtilities13_UnsafeBitSetV5_WordV
++ _type_layout_string 28InternalCollectionsUtilities13_UnsafeBitSetV8IteratorV
++ _type_layout_string 7LyricsX06SyncedA23VisualExperienceManagerC17LinesUpdateResultV
++ _type_layout_string 7LyricsX06SyncedA23VisualExperienceManagerC17LinesUpdateResultV0G0V
++ _type_layout_string 7LyricsX06SyncedA23VisualExperienceManagerC19AnimationDescriptorV
++ _type_layout_string 7LyricsX06SyncedA23VisualExperienceManagerC31LinePositionAnimationDescriptorV
++ _type_layout_string 7LyricsX06SyncedA9LineLayerC011TextContentD0C0F033_B229919BBD5F146C93EF2B251B0B2826LLO
++ _type_layout_string 7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C0F18LayoutDiffMetadataV
++ _type_layout_string 7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C21TransliterationResult33_6199ED2C84AF6C925E1487713AA44194LLO
++ _type_layout_string 7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C21TransliterationResult33_6199ED2C84AF6C925E1487713AA44194LLO8MetadataV
++ _type_layout_string 7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C21TransliterationResult33_6199ED2C84AF6C925E1487713AA44194LLO8MetadataV0C0V
++ _type_layout_string 7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C22TranslationLabelUpdateO
++ _type_layout_string 7LyricsX06SyncedA9LineLayerC4WordC28CrossfadeAnimationParametersV
++ _type_layout_string 7LyricsX0A15AnimationStatusO
++ _type_layout_string 7LyricsX0A5SpecsV
++ _type_layout_string 7LyricsX0A5SpecsV22SpringTimingParameters33_5067A819181B1AC81C76F520E8B635DDLLV
++ _type_layout_string 7LyricsX25SpringAnimationParametersV
++ _type_layout_string 9MusicCore16PlayActivityDataV
++ _type_layout_string 9MusicCore19PlayActivityFeatureV
++ _type_layout_string SHRzl21MusicSwiftCollections10OrderedSetV11SubSequenceVyx_G
++ _type_layout_string SHRzl21MusicSwiftCollections10OrderedSetV13UnorderedViewVyx_G
++ _type_layout_string SHRzl21MusicSwiftCollections10OrderedSetV18_UnstableInternalsVyx_G
++ _type_layout_string SHRzl21MusicSwiftCollections10OrderedSetVyxG
++ block_copy_helper.108
++ block_copy_helper.122
++ block_copy_helper.184
++ block_copy_helper.185
++ block_copy_helper.196
++ block_copy_helper.197
++ block_copy_helper.203
++ block_copy_helper.216
++ block_copy_helper.218
++ block_copy_helper.220
++ block_copy_helper.226
++ block_copy_helper.236
++ block_copy_helper.239
++ block_copy_helper.246
++ block_copy_helper.247
++ block_copy_helper.249
++ block_copy_helper.252
++ block_copy_helper.256
++ block_copy_helper.258
++ block_copy_helper.269
++ block_copy_helper.274
++ block_copy_helper.283
++ block_copy_helper.284
++ block_copy_helper.289
++ block_copy_helper.294
++ block_copy_helper.298
++ block_copy_helper.320
++ block_copy_helper.326
++ block_copy_helper.330
++ block_copy_helper.347
++ block_copy_helper.352
++ block_copy_helper.355
++ block_copy_helper.362
++ block_copy_helper.365
++ block_copy_helper.368
++ block_copy_helper.369
++ block_copy_helper.373
++ block_copy_helper.385
++ block_copy_helper.388
++ block_copy_helper.389
++ block_copy_helper.395
++ block_copy_helper.414
++ block_copy_helper.417
++ block_copy_helper.430
++ block_copy_helper.432
++ block_copy_helper.438
++ block_copy_helper.440
++ block_copy_helper.450
++ block_copy_helper.453
++ block_copy_helper.455
++ block_copy_helper.456
++ block_copy_helper.460
++ block_copy_helper.463
++ block_copy_helper.466
++ block_copy_helper.473
++ block_copy_helper.476
++ block_copy_helper.480
++ block_copy_helper.483
++ block_copy_helper.495
++ block_copy_helper.505
++ block_copy_helper.516
++ block_copy_helper.528
++ block_copy_helper.549
++ block_copy_helper.561
++ block_copy_helper.595
++ block_descriptor.110
++ block_descriptor.124
++ block_descriptor.186
++ block_descriptor.187
++ block_descriptor.198
++ block_descriptor.199
++ block_descriptor.205
++ block_descriptor.218
++ block_descriptor.220
++ block_descriptor.222
++ block_descriptor.228
++ block_descriptor.238
++ block_descriptor.241
++ block_descriptor.248
++ block_descriptor.249
++ block_descriptor.251
++ block_descriptor.254
++ block_descriptor.258
++ block_descriptor.260
++ block_descriptor.271
++ block_descriptor.276
++ block_descriptor.285
++ block_descriptor.286
++ block_descriptor.291
++ block_descriptor.296
++ block_descriptor.300
++ block_descriptor.322
++ block_descriptor.328
++ block_descriptor.332
++ block_descriptor.349
++ block_descriptor.354
++ block_descriptor.357
++ block_descriptor.364
++ block_descriptor.367
++ block_descriptor.370
++ block_descriptor.371
++ block_descriptor.375
++ block_descriptor.387
++ block_descriptor.390
++ block_descriptor.391
++ block_descriptor.397
++ block_descriptor.416
++ block_descriptor.419
++ block_descriptor.432
++ block_descriptor.434
++ block_descriptor.440
++ block_descriptor.442
++ block_descriptor.452
++ block_descriptor.455
++ block_descriptor.457
++ block_descriptor.458
++ block_descriptor.462
++ block_descriptor.465
++ block_descriptor.468
++ block_descriptor.475
++ block_descriptor.478
++ block_descriptor.482
++ block_descriptor.485
++ block_descriptor.497
++ block_descriptor.507
++ block_descriptor.518
++ block_descriptor.530
++ block_descriptor.551
++ block_descriptor.563
++ block_descriptor.597
++ block_destroy_helper.109
++ block_destroy_helper.123
++ block_destroy_helper.185
++ block_destroy_helper.186
++ block_destroy_helper.197
++ block_destroy_helper.198
++ block_destroy_helper.204
++ block_destroy_helper.217
++ block_destroy_helper.219
++ block_destroy_helper.221
++ block_destroy_helper.227
++ block_destroy_helper.237
++ block_destroy_helper.240
++ block_destroy_helper.247
++ block_destroy_helper.248
++ block_destroy_helper.250
++ block_destroy_helper.253
++ block_destroy_helper.257
++ block_destroy_helper.259
++ block_destroy_helper.270
++ block_destroy_helper.275
++ block_destroy_helper.284
++ block_destroy_helper.285
++ block_destroy_helper.290
++ block_destroy_helper.295
++ block_destroy_helper.299
++ block_destroy_helper.321
++ block_destroy_helper.327
++ block_destroy_helper.331
++ block_destroy_helper.348
++ block_destroy_helper.353
++ block_destroy_helper.356
++ block_destroy_helper.363
++ block_destroy_helper.366
++ block_destroy_helper.369
++ block_destroy_helper.370
++ block_destroy_helper.374
++ block_destroy_helper.386
++ block_destroy_helper.389
++ block_destroy_helper.390
++ block_destroy_helper.396
++ block_destroy_helper.415
++ block_destroy_helper.418
++ block_destroy_helper.431
++ block_destroy_helper.433
++ block_destroy_helper.439
++ block_destroy_helper.441
++ block_destroy_helper.451
++ block_destroy_helper.454
++ block_destroy_helper.456
++ block_destroy_helper.457
++ block_destroy_helper.461
++ block_destroy_helper.464
++ block_destroy_helper.467
++ block_destroy_helper.474
++ block_destroy_helper.477
++ block_destroy_helper.481
++ block_destroy_helper.484
++ block_destroy_helper.496
++ block_destroy_helper.506
++ block_destroy_helper.517
++ block_destroy_helper.529
++ block_destroy_helper.550
++ block_destroy_helper.562
++ block_destroy_helper.596
++ get_witness_table 11MusicCoreUI22PageIndicatorProvidingRzSHRzs12IdentifiableRz05SwiftC04ViewR_r0_lqd0__AdEHD3_AdEPADE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAD15ModifiedContentVyAD6VStackVyAD05TupleI0VyAKyAfDE14scrollDisabledyQrSbFQOyAfDE0r4ClipS0yQrSbFQOyAfDE0R10Indicators_4axesQrAD06ScrollE10VisibilityV_AD4AxisO3SetVtFQOyAfDE0R14TargetBehavioryQrqd__AD0W14TargetBehaviorRd__lFQOyAKyAKyAfDE0R8Position_6anchorQrAD7BindingVyAD0W8PositionVG_AD9UnitPointVSgtFQOyAD0wI0VyAfDE0R12TargetLayout9isEnabledQrSb_tFQOyAD10LazyHStackVyAD7ForEachVyA3_ySayxGG2IDsACPQzAKyAfDE0J10TapGesture5count7performQrSi_yyctFQOyq__Qo_AD12_FrameLayoutVGGG_Qo_G_Qo_AD23SafeAreaPaddingModifierVGAD23_GeometryActionModifierVySo6CGSizeVA41_SQ0B8GraphicsyHCg_GG_AD0i7AlignedW14TargetBehaviorVQo__Qo__Qo__Qo_A28_G_AKyAA0D7Control33_80921D5A503420729A6900A3E96756A5LLVyxGA28_GSgtGGAD25_AppearanceActionModifierVG_A5_Qo_HO.12
++ get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy09MusicCoreB006BordereF033_F5ED3014321945F1E2BE58A044A15282LLVGAA08_OverlayF0VyAA011StrokeShapeE0VyAF06CornerS0VAA010_BlendModeS5StyleVyAA5ColorVGAA05EmptyE0VGGGAA0E0HPAjAA_HPyHC_AyA0eF0HPyHCHC.51
++ get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy09MusicCoreB006ShadoweF033_F5ED3014321945F1E2BE58A044A15282LLVGAA011_BackgroundF0VyACyAA6ZStackVyAA05TupleE0VyACyAA01_iE0VyAF11CornerShapeVGAA14_PaddingLayoutVG_ACyAtA16_BlendModeEffectVGtGGAA017_CompositingGroupZ0VGGGAA0E0HPAjAA7_HPyHC_A5_AA0eF0HPyHCHC.52
++ get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE4boldyQrSbFQOyACyACyACyACyAA6ButtonVyAA012_ConditionalD0VyACyAA08ProgressE0VyAA05EmptyE0VANGAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGACyAA4TextVAA16_FlexFrameLayoutVGGGAA01_kl9TransformN0VySbGGAZGAUGAZG_Qo_AA011_BackgroundN0VyAA06_ShapeE0VyAA16RoundedRectangleVASGGGAaDHPqd__AaDHD2_A9_HO_A17_AA0eN0HPyHCHC.134
++ get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE9animation_4bodyQrAA9AnimationVSg_qd__AA011PlaceholderdE0VyxGXEtAaDRd__lFQOyACyAeAEAF_AGQrAJ_qd__AMXEtAaDRd__lFQOyACyAeAEAF_AGQrAJ_qd__AMXEtAaDRd__lFQOyACyAA01_e9Modifier_D0Vy09MusicCoreB006JigglehJ0VGAA15_RotationEffectVG_ACyALyAVGAUGQo_AA07_OffsetO0VG_ACyALyA0_GA_GQo_A_G_ACyALyA4_GA_GQo_AA012_TransactionJ0VGAaDHPqd0__AaDHD3_A7_HO_A9_AA0eJ0HPyHCHC.7
++ get_witness_table 7SwiftUI15ModifiedContentVyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGAA4ViewHPAeaMHPyHC_AkA0kI0HPyHCHC.136
++ get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyACyAA6SpacerVAA12_FrameLayoutVG_ACyACyACyACyACy09MusicCoreB006NoticeG0VAA08_PaddingJ0VGAQGAQGAA21_TraitWritingModifierVyAA010TransitionO3KeyVGGAA012_EnvironmentspQ0VyAM0M9DismissalVSgGGSgALtGGAA05_FlexiJ0VGAA0G0HPA8_AAA12_HPyHC_A10_AA0gQ0HPyHCHC.104
++ get_witness_table 7SwiftUI15ModifiedContentVyACyAA014_ViewModifier_D0Vy09MusicCoreB0012CornerRadiusF033_F5ED3014321945F1E2BE58A044A15282LLVGAA23_CompositingGroupEffectVGAA05_ClipT0VyAF0I5ShapeVGGAA0E0HPAmaTHPAjaTHPyHC_AlA0eF0HPyHCHC_AraUHPyHCHC.50
++ get_witness_table 7SwiftUI15ModifiedContentVyACyAA12ViewThatFitsVyAA05TupleE0VyAA6VStackVyAGyAIyAGyACyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA0J9AlignmentOGG_AQtGG_AA6SpacerVAA5ImageVAuA0E0PAAE11buttonStyleyQrqd__AA015PrimitiveButtonS0Rd__lFQOyAA0U0VyACyACyAkA14_PaddingLayoutVGAA010_FlexFrameW0VGG_AA017BorderedProminentuS0VQo_tGG_AIyAGyAS_AuCyA11_A3_GtGGAIyAGyAA06ScrollE0VyASG_AUA14_tGGtGGA3_GA3_GAaXHPA24_AaXHPA23_AaXHPyHC_A3_AA0eN0HPyHCHC_A3_AAA26_HPyHCHC.158
++ get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx09MusicCoreB005HoverC8Modifier33_F5ED3014321945F1E2BE58A044A15282LLVGAaBHPxAaBHD1__AhA0cI0HPyHCHC.24
++ get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx09MusicCoreB006BorderC8Modifier33_F5ED3014321945F1E2BE58A044A15282LLVGAaBHPxAaBHD1__AhA0cI0HPyHCHC.22
++ get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx09MusicCoreB006ShadowC8Modifier33_F5ED3014321945F1E2BE58A044A15282LLVGAaBHPxAaBHD1__AhA0cI0HPyHCHC.23
++ get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx09MusicCoreB020CornerRadiusModifier33_F5ED3014321945F1E2BE58A044A15282LLVGAaBHPxAaBHD1__AhA0cJ0HPyHCHC.21
++ get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx09MusicCoreB023JiggleAnimationModifierVGAaBHPxAaBHD1__AgA0cJ0HPyHCHC.1
++ get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA19_BackgroundModifierVy09MusicCoreB019WindowSceneResolverVGGAaBHPxAaBHD1__AjA0cG0HPyHCHC.1
++ get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA15ModifiedContentVyAGyAGyAGyAGyAA4TextVAA30_EnvironmentKeyWritingModifierVyAI4CaseOSgGGAKyAA4FontVSgGGAKyAA5ColorVSgGGAA16_FlexFrameLayoutVGAA08_PaddingR0VGSg_09MusicCoreB0020InlineProfileEditingE0VAGyAGyAGyAGyAGyAiA010_FixedSizeR0VGAKyAA0H9AlignmentOGGATGAYGA3_GSgtGGAA0E0HPyHC.135
++ get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE11hoverEffect_9isEnabledQrqd___SbtAA011CustomHoverE0Rd__lFQOyAA15ModifiedContentVyAA01_c9Modifier_K0Vy09MusicCoreB00icL033_F5ED3014321945F1E2BE58A044A15282LLVGAA01_k9ShapeKindL0VyAK06CornerV0VGG_AA09HighlightiE0VQo_HO.54
++ get_witness_table qd__7SwiftUI4ViewHD2_AaBP018_MusicKitInternal_aB0E14artworkCaching2id5limitQrSS_SiSgtFQOyAA6HStackVyAA05TupleC0VyAA15ModifiedContentVyAJyALyANyAJyAA7ForEachVySaySi6offset_0d4CoreB016PlaylistCuratorsO7CuratorV7elementtGSiANyANyANyANyANyANyAcDE0G15LoadingObserveryQry0dE07ArtworkVSg_So6CGSizeVA0_ADE0W6StatusOtcFQOy01_de1_aB00Y5ImageVADE0G11PlaceholderyQrxA1__A3_AA5ColorVtcAaBRzlFQOy_AA012_ConditionalN0VyANyANyA8_ARE11PlaceholderOABVAA26_PreferenceWritingModifierVyAR29RadiosityEnabledPreferenceKeyVGGAA12_FrameLayoutVGAA14GeometryReaderVyA25_GGQo__Qo_AR24PlaceholderStyleModifierVGA24_GAA24_BackgroundStyleModifierVyA11_GGAR20CornerRadiusModifier33_F5ED3014321945F1E2BE58A044A15282LLVGAR06BorderC8ModifierA41_LLVGAA21_TraitWritingModifierVyAA14ZIndexTraitKeyVGGGGAA23_CompositingGroupEffectVG_ANyANyANyAcAE10textSuffixyQrAA4TextV6SuffixVFQOyA60__Qo_AA30_EnvironmentKeyWritingModifierVyAHGGA65_yAA5ImageV5ScaleOGGA65_yAA4FontVSgGGtGGAR05HoverC8ModifierA41_LLVG_AA6SpacerVSgtGG_Qo_HO.108
++ keypath_get.28Tm
++ keypath_get.2Tm
++ keypath_get.30Tm
++ keypath_set.3Tm
++ objectdestroy.102Tm
++ objectdestroy.105Tm
++ objectdestroy.107Tm
++ objectdestroy.114Tm
++ objectdestroy.128Tm
++ objectdestroy.132Tm
++ objectdestroy.133Tm
++ objectdestroy.134Tm
++ objectdestroy.145Tm
++ objectdestroy.148Tm
++ objectdestroy.162Tm
++ objectdestroy.169Tm
++ objectdestroy.173Tm
++ objectdestroy.174Tm
++ objectdestroy.179Tm
++ objectdestroy.187Tm
++ objectdestroy.203Tm
++ objectdestroy.205Tm
++ objectdestroy.207Tm
++ objectdestroy.215Tm
++ objectdestroy.22Tm
++ objectdestroy.232Tm
++ objectdestroy.242Tm
++ objectdestroy.248Tm
++ objectdestroy.269Tm
++ objectdestroy.272Tm
++ objectdestroy.278Tm
++ objectdestroy.284Tm
++ objectdestroy.307Tm
++ objectdestroy.318Tm
++ objectdestroy.337Tm
++ objectdestroy.350Tm
++ objectdestroy.37Tm
++ objectdestroy.390Tm
++ objectdestroy.402Tm
++ objectdestroy.440Tm
++ objectdestroy.443Tm
++ objectdestroy.58Tm
++ objectdestroy.72Tm
++ objectdestroy.88Tm
++ objectdestroy.89Tm
++ objectdestroy.93Tm
++ objectdestroy.96Tm
++ objectdestroy.97Tm
+- _CGSizeEqualToSize
+- _OBJC_CLASS_$_MusicDespacitoContentView
+- _OBJC_CLASS_$_MusicInstrumentalContentView
+- _OBJC_CLASS_$_MusicSBS_TextContentView
+- _OBJC_CLASS_$_MusicTextContentView
+- _OBJC_CLASS_$_UITab
+- _OBJC_CLASS_$_UITabBarController
+- _OBJC_CLASS_$__TtCCC7LyricsX20SyncedLyricsLineView13TextContainer17TextContainerView
+- _OBJC_CLASS_$__TtCCC7LyricsX20SyncedLyricsLineView19SBS_TextContentView8TextView
+- _OBJC_CLASS_$__TtCCC7LyricsX20SyncedLyricsLineView4Line8LineView
+- _OBJC_CLASS_$__TtCCC7LyricsX20SyncedLyricsLineView4Word17WordContainerView
+- _OBJC_CLASS_$__TtCCC7LyricsX20SyncedLyricsLineView4Word8WordView
+- _OBJC_CLASS_$__TtCCC7LyricsX20SyncedLyricsLineView5Glyph18GlyphContainerView
+- _OBJC_CLASS_$__TtCCC7LyricsX20SyncedLyricsLineView5Glyph9GlyphView
+- _OBJC_CLASS_$__TtCCC7LyricsX20SyncedLyricsLineView8Syllable12SyllableView
+- _OBJC_CLASS_$__TtCCC7LyricsX20SyncedLyricsLineView8Syllable21SyllableContainerView
+- _OBJC_CLASS_$__TtCE14MusicUtilitiesaSo8CTRunRef14PartialRunView
+- _OBJC_METACLASS_$_MusicDespacitoContentView
+- _OBJC_METACLASS_$_MusicInstrumentalContentView
+- _OBJC_METACLASS_$_MusicSBS_TextContentView
+- _OBJC_METACLASS_$_MusicTextContentView
+- _OBJC_METACLASS_$__TtCC7LyricsX26SyncedLyricsViewControllerP33_02FB2ED49F3FD1C2D63F6922676AEE0410ScrollView
+- _OBJC_METACLASS_$__TtCCC7LyricsX20SyncedLyricsLineView13TextContainer17TextContainerView
+- _OBJC_METACLASS_$__TtCCC7LyricsX20SyncedLyricsLineView19SBS_TextContentView8TextView
+- _OBJC_METACLASS_$__TtCCC7LyricsX20SyncedLyricsLineView4Line8LineView
+- _OBJC_METACLASS_$__TtCCC7LyricsX20SyncedLyricsLineView4Word17WordContainerView
+- _OBJC_METACLASS_$__TtCCC7LyricsX20SyncedLyricsLineView4Word8WordView
+- _OBJC_METACLASS_$__TtCCC7LyricsX20SyncedLyricsLineView5Glyph18GlyphContainerView
+- _OBJC_METACLASS_$__TtCCC7LyricsX20SyncedLyricsLineView5Glyph9GlyphView
+- _OBJC_METACLASS_$__TtCCC7LyricsX20SyncedLyricsLineView8Syllable12SyllableView
+- _OBJC_METACLASS_$__TtCCC7LyricsX20SyncedLyricsLineView8Syllable21SyllableContainerView
+- _OBJC_METACLASS_$__TtCE14MusicUtilitiesaSo8CTRunRef14PartialRunView
+- _OBJC_METACLASS_$__TtCO16MusicApplication13ReportConcern14ViewController
+- _OBJC_METACLASS_$__TtCVC7LyricsX26SyncedLyricsViewController5SpecsP33_721F05E5229E32246B486C601D4C7EC827CustomCurveAnimationFactory
+- _PROTOCOLS__TtC11MusicJSCore26JSApplicationMessageTarget.92
+- _PROTOCOLS__TtC14MusicUtilities28CAAnimationCompletionHandler.12
+- _PROTOCOLS__TtC16MusicApplication30BrowseCollectionViewController.33
+- _PROTOCOLS__TtC17ShaderFallbackKit14ShaderFallback.20
+- _PROTOCOLS__TtC9MusicCore18PlaybackController.28
+- _PROTOCOLS__TtCC16MusicApplication23LibrarySearchControllerP33_74DC0E8E86C2700EAF59346E7D7979E311BarDelegate.34
+- _PROTOCOLS__TtCC16MusicApplication24ArtistListViewControllerP33_14F7FC81E58897F8EFD0C8B2396AB6B410DataSource.26
+- _PROTOCOLS__TtCC9MusicCore22GroupActivitiesManagerP33_4D3C9D6548BB3147DD0F1D268040B2BF23ArtworkCachingReference.94
+- _PROTOCOLS__TtCC9MusicCore30ExplicitRestrictionsControllerP33_49A4F392108DD8BCF77701E27C86571422AgeVerificationWrapper.33
+- _PROTOCOLS__TtCO9MusicCore14PlaylistCovers17ArtworkDataSource.30
+- _PROTOCOLS__TtCVC7LyricsX26SyncedLyricsViewController5SpecsP33_721F05E5229E32246B486C601D4C7EC827CustomCurveAnimationFactory.62
+- _PROTOCOLS__TtCVE16MusicApplicationCSo13MPModelArtist17ListConfiguration4View.29
+- __CATEGORY_INSTANCE_METHODS_UITabBarController_$_MusicCore
+- __CATEGORY_INSTANCE_METHODS_UITab_$_MusicCore
+- __CATEGORY_PROPERTIES_UITab_$_MusicCore
+- __CATEGORY_UITabBarController_$_MusicCore
+- __CATEGORY_UITab_$_MusicCore
+- __DATA_MusicDespacitoContentView
+- __DATA_MusicInstrumentalContentView
+- __DATA_MusicSBS_TextContentView
+- __DATA_MusicTextContentView
+- __DATA__TtCC7LyricsX20SyncedLyricsLineView13TextContainer
+- __DATA__TtCC7LyricsX20SyncedLyricsLineView4Line
+- __DATA__TtCC7LyricsX20SyncedLyricsLineView4Word
+- __DATA__TtCC7LyricsX20SyncedLyricsLineView5Glyph
+- __DATA__TtCC7LyricsX20SyncedLyricsLineView8Syllable
+- __DATA__TtCC7LyricsX26SyncedLyricsViewControllerP33_02FB2ED49F3FD1C2D63F6922676AEE0410ScrollView
+- __DATA__TtCC7LyricsX26SyncedLyricsViewControllerP33_02FB2ED49F3FD1C2D63F6922676AEE0420StaticTimingProvider
+- __DATA__TtCCC7LyricsX20SyncedLyricsLineView13TextContainer17TextContainerView
+- __DATA__TtCCC7LyricsX20SyncedLyricsLineView19SBS_TextContentView8TextView
+- __DATA__TtCCC7LyricsX20SyncedLyricsLineView4Line8LineView
+- __DATA__TtCCC7LyricsX20SyncedLyricsLineView4Word17WordContainerView
+- __DATA__TtCCC7LyricsX20SyncedLyricsLineView4Word8WordView
+- __DATA__TtCCC7LyricsX20SyncedLyricsLineView5Glyph18GlyphContainerView
+- __DATA__TtCCC7LyricsX20SyncedLyricsLineView5Glyph9GlyphView
+- __DATA__TtCCC7LyricsX20SyncedLyricsLineView8Syllable12SyllableView
+- __DATA__TtCCC7LyricsX20SyncedLyricsLineView8Syllable21SyllableContainerView
+- __DATA__TtCE14MusicUtilitiesaSo8CTRunRef14PartialRunView
+- __DATA__TtCE16MusicApplicationC7MusicUI19MusicStackAuthority17NavigationHandler
+- __DATA__TtCO16MusicApplication13ReportConcern14ViewController
+- __DATA__TtCO16MusicApplication13ReportConcern9ViewModel
+- __DATA__TtCVC7LyricsX26SyncedLyricsViewController5SpecsP33_721F05E5229E32246B486C601D4C7EC827CustomCurveAnimationFactory
+- __INSTANCE_METHODS_MusicDespacitoContentView
+- __INSTANCE_METHODS_MusicInstrumentalContentView
+- __INSTANCE_METHODS_MusicSBS_TextContentView
+- __INSTANCE_METHODS_MusicTextContentView
+- __INSTANCE_METHODS__TtCC7LyricsX26SyncedLyricsViewControllerP33_02FB2ED49F3FD1C2D63F6922676AEE0410ScrollView
+- __INSTANCE_METHODS__TtCCC7LyricsX20SyncedLyricsLineView13TextContainer17TextContainerView
+- __INSTANCE_METHODS__TtCCC7LyricsX20SyncedLyricsLineView19SBS_TextContentView8TextView
+- __INSTANCE_METHODS__TtCCC7LyricsX20SyncedLyricsLineView4Line8LineView
+- __INSTANCE_METHODS__TtCCC7LyricsX20SyncedLyricsLineView4Word17WordContainerView
+- __INSTANCE_METHODS__TtCCC7LyricsX20SyncedLyricsLineView4Word8WordView
+- __INSTANCE_METHODS__TtCCC7LyricsX20SyncedLyricsLineView5Glyph18GlyphContainerView
+- __INSTANCE_METHODS__TtCCC7LyricsX20SyncedLyricsLineView5Glyph9GlyphView
+- __INSTANCE_METHODS__TtCCC7LyricsX20SyncedLyricsLineView8Syllable12SyllableView
+- __INSTANCE_METHODS__TtCCC7LyricsX20SyncedLyricsLineView8Syllable21SyllableContainerView
+- __INSTANCE_METHODS__TtCE14MusicUtilitiesaSo8CTRunRef14PartialRunView
+- __INSTANCE_METHODS__TtCO16MusicApplication13ReportConcern14ViewController
+- __INSTANCE_METHODS__TtCVC7LyricsX26SyncedLyricsViewController5SpecsP33_721F05E5229E32246B486C601D4C7EC827CustomCurveAnimationFactory
+- __IVARS_MusicDespacitoContentView
+- __IVARS_MusicInstrumentalContentView
+- __IVARS_MusicSBS_TextContentView
+- __IVARS_MusicTextContentView
+- __IVARS__TtCC7LyricsX20SyncedLyricsLineView13TextContainer
+- __IVARS__TtCC7LyricsX20SyncedLyricsLineView4Line
+- __IVARS__TtCC7LyricsX20SyncedLyricsLineView4Word
+- __IVARS__TtCC7LyricsX20SyncedLyricsLineView5Glyph
+- __IVARS__TtCC7LyricsX20SyncedLyricsLineView8Syllable
+- __IVARS__TtCC7LyricsX26SyncedLyricsViewControllerP33_02FB2ED49F3FD1C2D63F6922676AEE0420StaticTimingProvider
+- __IVARS__TtCCC7LyricsX20SyncedLyricsLineView19SBS_TextContentView8TextView
+- __IVARS__TtCCC7LyricsX20SyncedLyricsLineView4Line8LineView
+- __IVARS__TtCCC7LyricsX20SyncedLyricsLineView4Word17WordContainerView
+- __IVARS__TtCCC7LyricsX20SyncedLyricsLineView5Glyph18GlyphContainerView
+- __IVARS__TtCCC7LyricsX20SyncedLyricsLineView8Syllable21SyllableContainerView
+- __IVARS__TtCE14MusicUtilitiesaSo8CTRunRef14PartialRunView
+- __IVARS__TtCE16MusicApplicationC7MusicUI19MusicStackAuthority17NavigationHandler
+- __IVARS__TtCO16MusicApplication13ReportConcern14ViewController
+- __IVARS__TtCO16MusicApplication13ReportConcern9ViewModel
+- __IVARS__TtCVC7LyricsX26SyncedLyricsViewController5SpecsP33_721F05E5229E32246B486C601D4C7EC827CustomCurveAnimationFactory
+- __METACLASS_DATA_MusicDespacitoContentView
+- __METACLASS_DATA_MusicInstrumentalContentView
+- __METACLASS_DATA_MusicSBS_TextContentView
+- __METACLASS_DATA_MusicTextContentView
+- __METACLASS_DATA__TtCC7LyricsX20SyncedLyricsLineView13TextContainer
+- __METACLASS_DATA__TtCC7LyricsX20SyncedLyricsLineView4Line
+- __METACLASS_DATA__TtCC7LyricsX20SyncedLyricsLineView4Word
+- __METACLASS_DATA__TtCC7LyricsX20SyncedLyricsLineView5Glyph
+- __METACLASS_DATA__TtCC7LyricsX20SyncedLyricsLineView8Syllable
+- __METACLASS_DATA__TtCC7LyricsX26SyncedLyricsViewControllerP33_02FB2ED49F3FD1C2D63F6922676AEE0410ScrollView
+- __METACLASS_DATA__TtCC7LyricsX26SyncedLyricsViewControllerP33_02FB2ED49F3FD1C2D63F6922676AEE0420StaticTimingProvider
+- __METACLASS_DATA__TtCCC7LyricsX20SyncedLyricsLineView13TextContainer17TextContainerView
+- __METACLASS_DATA__TtCCC7LyricsX20SyncedLyricsLineView19SBS_TextContentView8TextView
+- __METACLASS_DATA__TtCCC7LyricsX20SyncedLyricsLineView4Line8LineView
+- __METACLASS_DATA__TtCCC7LyricsX20SyncedLyricsLineView4Word17WordContainerView
+- __METACLASS_DATA__TtCCC7LyricsX20SyncedLyricsLineView4Word8WordView
+- __METACLASS_DATA__TtCCC7LyricsX20SyncedLyricsLineView5Glyph18GlyphContainerView
+- __METACLASS_DATA__TtCCC7LyricsX20SyncedLyricsLineView5Glyph9GlyphView
+- __METACLASS_DATA__TtCCC7LyricsX20SyncedLyricsLineView8Syllable12SyllableView
+- __METACLASS_DATA__TtCCC7LyricsX20SyncedLyricsLineView8Syllable21SyllableContainerView
+- __METACLASS_DATA__TtCE14MusicUtilitiesaSo8CTRunRef14PartialRunView
+- __METACLASS_DATA__TtCE16MusicApplicationC7MusicUI19MusicStackAuthority17NavigationHandler
+- __METACLASS_DATA__TtCO16MusicApplication13ReportConcern14ViewController
+- __METACLASS_DATA__TtCO16MusicApplication13ReportConcern9ViewModel
+- __METACLASS_DATA__TtCVC7LyricsX26SyncedLyricsViewController5SpecsP33_721F05E5229E32246B486C601D4C7EC827CustomCurveAnimationFactory
+- __MergedGlobals
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT__UIBasicAnimationFactory
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS__UIBasicAnimationFactory
+- __OBJC_$_PROTOCOL_METHOD_TYPES__UIBasicAnimationFactory
+- __OBJC_$_PROTOCOL_REFS__UIBasicAnimationFactory
+- __OBJC_LABEL_PROTOCOL_$__UIBasicAnimationFactory
+- __OBJC_PROTOCOL_$__UIBasicAnimationFactory
+- __PROPERTIES_MusicDespacitoContentView
+- __PROPERTIES_MusicSBS_TextContentView
+- __PROPERTIES_MusicTextContentView
+- __PROPERTIES__TtCC7LyricsX26SyncedLyricsViewControllerP33_02FB2ED49F3FD1C2D63F6922676AEE0410ScrollView
+- __PROTOCOLS__TtCVC7LyricsX26SyncedLyricsViewController5SpecsP33_721F05E5229E32246B486C601D4C7EC827CustomCurveAnimationFactory
+- ___isPlatformVersionAtLeast
+- ___swift_memcpy688_8
+- ___unnamed_27
+- ___unnamed_32
+- ___unnamed_36
+- ___unnamed_8
+- __availability_version_check
+- __initializeAvailabilityCheck
+- __isPlatformVersionAtLeast.cold.1
+- __isPlatformVersionAtLeast.cold.2
+- __swift_FORCE_LOAD_$_swiftCompression_$_LyricsX
+- __swift_FORCE_LOAD_$_swiftCompression_$_MusicUtilities
+- __swift_FORCE_LOAD_$_swiftCoreAudio_Private_$_LyricsX
+- __swift_FORCE_LOAD_$_swiftCoreAudio_Private_$_MusicCore
+- __swift_FORCE_LOAD_$_swiftCoreAudio_Private_$_MusicJSCore
+- __swift_FORCE_LOAD_$_swiftCoreAudio_Private_$_MusicUtilities
+- __swift_FORCE_LOAD_$_swiftCoreAudio_Private_$_ShaderFallbackKit
+- __swift_FORCE_LOAD_$_swiftMLCompute_$_LyricsX
+- __swift_FORCE_LOAD_$_swiftMLCompute_$_MusicCore
+- __swift_FORCE_LOAD_$_swiftMLCompute_$_MusicJSCore
+- __swift_FORCE_LOAD_$_swiftMLCompute_$_MusicUtilities
+- __swift_FORCE_LOAD_$_swiftMLCompute_$_ShaderFallbackKit
+- __swift_FORCE_LOAD_$_swiftNaturalLanguage_$_MusicCore
+- __swift_FORCE_LOAD_$_swiftNaturalLanguage_$_MusicJSCore
+- __swift_FORCE_LOAD_$_swiftNaturalLanguage_$_MusicUtilities
+- __swift_FORCE_LOAD_$_swiftNaturalLanguage_$_ShaderFallbackKit
+- __swift_get_extra_inhabitant_index.199Tm
+- __swift_store_extra_inhabitant_index.200Tm
+- _associated conformance 11MusicCoreUI11CornerShape33_F5ED3014321945F1E2BE58A044A15282LLV05SwiftC0010InsettableE0AA05InsetE0AeFP_AeF
+- _associated conformance 11MusicCoreUI11CornerShape33_F5ED3014321945F1E2BE58A044A15282LLV05SwiftC0010InsettableE0AaE0E0
+- _associated conformance 11MusicCoreUI11CornerShape33_F5ED3014321945F1E2BE58A044A15282LLV05SwiftC00E0AaE10Animatable
+- _associated conformance 11MusicCoreUI11CornerShape33_F5ED3014321945F1E2BE58A044A15282LLV05SwiftC00E0AaE4View
+- _associated conformance 11MusicCoreUI11CornerShape33_F5ED3014321945F1E2BE58A044A15282LLV05SwiftC010AnimatableAA0N4DataAeFP_AE16VectorArithmetic
+- _associated conformance 11MusicCoreUI11CornerShape33_F5ED3014321945F1E2BE58A044A15282LLV05SwiftC04ViewAA4BodyAeFP_AeF
+- _associated conformance 16MusicApplication13ReportConcernO0D4ItemV0E4TypeOSHAASQ
+- _associated conformance 16MusicApplication13ReportConcernO0D4ItemVSHAASQ
+- _associated conformance 16MusicApplication13ReportConcernO11ContentViewV7SwiftUI0F0AA4BodyAfGP_AfG
+- _associated conformance 7LyricsX06SyncedA14ViewControllerC4ModeOSHAASQ
+- _associated conformance 7LyricsX06SyncedA14ViewControllerC5SpecsV13RenderingModeOSHAASQ
+- _associated conformance 7LyricsX06SyncedA8LineViewC011TextContentD0C6Change33_328E32CB8485E005C40C2FB54DA07A72LLOSHAASQ
+- _associated conformance 7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C4KindOSHAASQ
+- _associated conformance 7LyricsX06SyncedA8LineViewC016DespacitoContentD0C0D6Update33_328E32CB8485E005C40C2FB54DA07A72LLOSHAASQ
+- _associated conformance 7LyricsX06SyncedA8LineViewC0C0C13AnimationKindOSHAASQ
+- _associated conformance 7LyricsX06SyncedA8LineViewC0C0CAA29ContainerVisualRepresentationAA09ContainedfG4TypeAaFP_AA0fG0
+- _associated conformance 7LyricsX06SyncedA8LineViewC0C0CSHAASQ
+- _associated conformance 7LyricsX06SyncedA8LineViewC13TextContainerCAA0F20VisualRepresentationAA09ContainedgH4TypeAaFP_AA0gH0
+- _associated conformance 7LyricsX06SyncedA8LineViewC24BackgroundVocalsPositionOSHAASQ
+- _associated conformance 7LyricsX06SyncedA8LineViewC4WordCAA29ContainerVisualRepresentationAA09ContainedgH4TypeAaFP_AA0gH0
+- _associated conformance 7LyricsX06SyncedA8LineViewC4WordCSHAASQ
+- _associated conformance 7LyricsX06SyncedA8LineViewC8SyllableCAA29ContainerVisualRepresentationAA09ContainedgH4TypeAaFP_AA0gH0
+- _associated conformance 9MusicCore29PlayActivityFeatureIdentifierOSHAASQ
+- _associated conformance 9MusicCore29PlayActivityFeatureIdentifierOs12IdentifiableAA2IDsADP_SH
+- _compatibilityInitializeAvailabilityCheck
+- _copysign
+- _dispatch_once_f
+- _dlsym
+- _fclose
+- _fopen
+- _fread
+- _fseek
+- _ftell
+- _get_enum_tag_for_layout_string 7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C21TransliterationResult33_2B1CF170FA12E5118C57D48B547982CALLO
+- _get_enum_tag_for_layout_string 7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C22TranslationLabelUpdateO
+- _get_enum_tag_for_layout_string 7LyricsX15AnimationStatusO
+- _initializeAvailabilityCheck
+- _malloc
+- _objc_claimAutoreleasedReturnValue
+- _rewind
+- _sscanf
+- _swift_unownedRelease
+- _swift_unownedRetain
+- _swift_unownedRetainStrong
+- _symbolic $s16MusicApplication24AppearanceTransitionableP
+- _symbolic $s7LyricsX06SyncedA15LineContentViewP
+- _symbolic $s7LyricsX20VisualRepresentationP
+- _symbolic $s7LyricsX29ContainerVisualRepresentationP
+- _symbolic 33ContainedVisualRepresentationType_____Qz 7LyricsX29ContainerVisualRepresentationP
+- _symbolic 8ViewType_____Qz 7LyricsX20VisualRepresentationP
+- _symbolic SDy_____Shy_____GG 7LyricsX06SyncedA8LineViewC0C0C AC4WordC
+- _symbolic SDy__________G 7LyricsX06SyncedA8LineViewC0C0C So6CGRectV
+- _symbolic SS______Sgt 10Foundation6LocaleV8LanguageV
+- _symbolic SaySo13UIMenuElementCG
+- _symbolic Say_____G 16MusicApplication13ReportConcernO0D4ItemV
+- _symbolic Say_____G 7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C21TransliterationResult33_2B1CF170FA12E5118C57D48B547982CALLO8MetadataV0C0V
+- _symbolic Say_____G 7LyricsX06SyncedA8LineViewC0C0C
+- _symbolic Say_____G 7LyricsX06SyncedA8LineViewC4WordC
+- _symbolic Say_____G 7LyricsX06SyncedA8LineViewC5GlyphC
+- _symbolic Say_____G 7LyricsX06SyncedA8LineViewC8SyllableC
+- _symbolic Say_____G 8MusicKit8PlaylistV5EntryV
+- _symbolic Say_____Gz_Xx 7LyricsX06SyncedA8LineViewC4WordC
+- _symbolic ShySo14MSVLyricsAgentCG
+- _symbolic Shy_____G 8MusicKit0A6ItemIDV
+- _symbolic Si6offset______7elementtSg 8MusicKit5TrackO
+- _symbolic Si__________yAByAByAByABy_____y_____y______yAByABy__________y_____GG_____G_____yAJGGQo__Qo______GAIG_____G_____G_____y_____GGIegynr_ 11MusicCoreUI16PlaylistCuratorsO7CuratorV 05SwiftC015ModifiedContentV AF4ViewP01_a12KitInternal_gC0E22artworkLoadingObserveryQry0aK07ArtworkVSg_So6CGSizeVAoKE0N6StatusOtcFQO 01_ak1_gC00P5ImageVAKE0M11PlaceholderyQrxAP_ArF5ColorVtcAfIRzlFQO AF012_ConditionalI0V AwAE0T0OAIV AF26_PreferenceWritingModifierV AA016RadiosityEnabledW3KeyV AF12_FrameLayoutV AF14GeometryReaderV AA0t5StyleY0V AA012CornerRadiusY033_F5ED3014321945F1E2BE58A044A15282LLV AA06BorderjY0A15_LLV AF06_TraitxY0V AF14ZIndexTraitKeyV
+- _symbolic So14MSVLyricsAgentCSg
+- _symbolic So22UINavigationControllerCSgyc
+- _symbolic So22UIViewPropertyAnimatorCSg
+- _symbolic So9CNContactCSg
+- _symbolic _____ 11MusicCoreUI11CornerShape33_F5ED3014321945F1E2BE58A044A15282LLV
+- _symbolic _____ 16MusicApplication13ReportConcernO
+- _symbolic _____ 16MusicApplication13ReportConcernO0D4ItemV
+- _symbolic _____ 16MusicApplication13ReportConcernO0D4ItemV0E4TypeO
+- _symbolic _____ 16MusicApplication13ReportConcernO11ContentViewV
+- _symbolic _____ 16MusicApplication13ReportConcernO14ViewControllerC
+- _symbolic _____ 16MusicApplication13ReportConcernO15ContentReporter33_A42CB8B3206839F30574C2DC47C0C3B2LLV
+- _symbolic _____ 16MusicApplication13ReportConcernO9ViewModelC
+- _symbolic _____ 7LyricsX06SyncedA14ViewControllerC06ScrollC033_02FB2ED49F3FD1C2D63F6922676AEE04LLC
+- _symbolic _____ 7LyricsX06SyncedA14ViewControllerC20StaticTimingProvider33_02FB2ED49F3FD1C2D63F6922676AEE04LLC
+- _symbolic _____ 7LyricsX06SyncedA14ViewControllerC4ModeO
+- _symbolic _____ 7LyricsX06SyncedA14ViewControllerC5SpecsV
+- _symbolic _____ 7LyricsX06SyncedA14ViewControllerC5SpecsV13RenderingModeO
+- _symbolic _____ 7LyricsX06SyncedA14ViewControllerC5SpecsV20SelectedLinePositionO
+- _symbolic _____ 7LyricsX06SyncedA14ViewControllerC5SpecsV22SpringTimingParameters33_721F05E5229E32246B486C601D4C7EC8LLV
+- _symbolic _____ 7LyricsX06SyncedA14ViewControllerC5SpecsV27CustomCurveAnimationFactory33_721F05E5229E32246B486C601D4C7EC8LLC
+- _symbolic _____ 7LyricsX06SyncedA14ViewControllerC8LineData33_02FB2ED49F3FD1C2D63F6922676AEE04LLV
+- _symbolic _____ 7LyricsX06SyncedA8LineViewC011TextContentD0C
+- _symbolic _____ 7LyricsX06SyncedA8LineViewC011TextContentD0C0F033_328E32CB8485E005C40C2FB54DA07A72LLO
+- _symbolic _____ 7LyricsX06SyncedA8LineViewC011TextContentD0C6Change33_328E32CB8485E005C40C2FB54DA07A72LLO
+- _symbolic _____ 7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C
+- _symbolic _____ 7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C
+- _symbolic _____ 7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C0F18LayoutDiffMetadataV
+- _symbolic _____ 7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C21TransliterationResult33_2B1CF170FA12E5118C57D48B547982CALLO
+- _symbolic _____ 7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C21TransliterationResult33_2B1CF170FA12E5118C57D48B547982CALLO8MetadataV
+- _symbolic _____ 7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C21TransliterationResult33_2B1CF170FA12E5118C57D48B547982CALLO8MetadataV0C0V
+- _symbolic _____ 7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C22TranslationLabelUpdateO
+- _symbolic _____ 7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C4KindO
+- _symbolic _____ 7LyricsX06SyncedA8LineViewC016DespacitoContentD0C
+- _symbolic _____ 7LyricsX06SyncedA8LineViewC016DespacitoContentD0C0D6Update33_328E32CB8485E005C40C2FB54DA07A72LLO
+- _symbolic _____ 7LyricsX06SyncedA8LineViewC019InstrumentalContentD0C
+- _symbolic _____ 7LyricsX06SyncedA8LineViewC0C0C
+- _symbolic _____ 7LyricsX06SyncedA8LineViewC0C0C0cD0C
+- _symbolic _____ 7LyricsX06SyncedA8LineViewC0C0C13AnimationKindO
+- _symbolic _____ 7LyricsX06SyncedA8LineViewC13TextContainerC
+- _symbolic _____ 7LyricsX06SyncedA8LineViewC13TextContainerC0efD0C
+- _symbolic _____ 7LyricsX06SyncedA8LineViewC24BackgroundVocalsPositionO
+- _symbolic _____ 7LyricsX06SyncedA8LineViewC4WordC
+- _symbolic _____ 7LyricsX06SyncedA8LineViewC4WordC0e9ContainerD0C
+- _symbolic _____ 7LyricsX06SyncedA8LineViewC4WordC0eD0C
+- _symbolic _____ 7LyricsX06SyncedA8LineViewC4WordC28CrossfadeAnimationParametersV
+- _symbolic _____ 7LyricsX06SyncedA8LineViewC5GlyphC
+- _symbolic _____ 7LyricsX06SyncedA8LineViewC5GlyphC0e9ContainerD0C
+- _symbolic _____ 7LyricsX06SyncedA8LineViewC5GlyphC0eD0C
+- _symbolic _____ 7LyricsX06SyncedA8LineViewC8SyllableC
+- _symbolic _____ 7LyricsX06SyncedA8LineViewC8SyllableC0e9ContainerD0C
+- _symbolic _____ 7LyricsX06SyncedA8LineViewC8SyllableC0eD0C
+- _symbolic _____ 7LyricsX15AnimationStatusO
+- _symbolic _____ 7MusicUI0A14StackAuthorityC
+- _symbolic _____ 7MusicUI0A14StackAuthorityC0A11ApplicationE17NavigationHandlerC
+- _symbolic _____ 9MusicCore29PlayActivityFeatureIdentifierO
+- _symbolic _____ So17MPCPlaybackIntentC9MusicCoreE23PlayActivityInformationV
+- _symbolic _____ So20NSNotificationCenterC10FoundationE13NotificationsC
+- _symbolic _____ So8CTRunRefa14MusicUtilitiesE14PartialRunViewC
+- _symbolic _____Sg 10Foundation12NotificationV
+- _symbolic _____Sg 16MusicApplication13ReportConcernO0D4ItemV
+- _symbolic _____Sg 16MusicApplication25SocialContactsCoordinatorC7ContactV
+- _symbolic _____Sg 7LyricsX06SyncedA8LineViewC011TextContentD0C
+- _symbolic _____Sg 7LyricsX06SyncedA8LineViewC011TextContentD0C0F033_328E32CB8485E005C40C2FB54DA07A72LLO
+- _symbolic _____Sg 7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C
+- _symbolic _____Sg 7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C0F18LayoutDiffMetadataV
+- _symbolic _____Sg 7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C21TransliterationResult33_2B1CF170FA12E5118C57D48B547982CALLO
+- _symbolic _____Sg 7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C22TranslationLabelUpdateO
+- _symbolic _____Sg 7LyricsX06SyncedA8LineViewC016DespacitoContentD0C
+- _symbolic _____Sg 7LyricsX06SyncedA8LineViewC016DespacitoContentD0C0D6Update33_328E32CB8485E005C40C2FB54DA07A72LLO
+- _symbolic _____Sg 7LyricsX06SyncedA8LineViewC0C0C0cD0C
+- _symbolic _____Sg 7LyricsX06SyncedA8LineViewC13TextContainerC
+- _symbolic _____Sg 7LyricsX06SyncedA8LineViewC13TextContainerC0efD0C
+- _symbolic _____Sg 7LyricsX06SyncedA8LineViewC24BackgroundVocalsPositionO
+- _symbolic _____Sg 7LyricsX06SyncedA8LineViewC4WordC0e9ContainerD0C
+- _symbolic _____Sg 7LyricsX06SyncedA8LineViewC4WordC28CrossfadeAnimationParametersV
+- _symbolic _____Sg 7LyricsX06SyncedA8LineViewC5GlyphC0e9ContainerD0C
+- _symbolic _____Sg 7LyricsX06SyncedA8LineViewC8SyllableC
+- _symbolic _____Sg 7LyricsX06SyncedA8LineViewC8SyllableC0e9ContainerD0C
+- _symbolic _____Sg 7LyricsX24LineProgressGradientViewC
+- _symbolic _____Sg 9MusicCore9AnyActionV
+- _symbolic _____Sg So17MPCPlaybackIntentC9MusicCoreE23PlayActivityInformationV
+- _symbolic _____SgXw 7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C
+- _symbolic _____SgXw 7LyricsX06SyncedA8LineViewC016DespacitoContentD0C
+- _symbolic _____SgXw 7LyricsX06SyncedA8LineViewC0C0C
+- _symbolic _____SgXw 7LyricsX06SyncedA8LineViewC4WordC
+- _symbolic _____SgXw 7LyricsX06SyncedA8LineViewC5GlyphC0e9ContainerD0C
+- _symbolic _____SgXwz_Xx 7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C
+- _symbolic _____SgXwz_Xx 7LyricsX06SyncedA8LineViewC016DespacitoContentD0C
+- _symbolic _____SgXwz_Xx 7LyricsX06SyncedA8LineViewC4WordC
+- _symbolic _____Sg_ABt 16MusicApplication13ReportConcernO0D4ItemV
+- _symbolic _____Xo 9MusicCore20PlaybackTimeObserverC
+- _symbolic ______So6UIViewCXcSg 7LyricsX06SyncedA15LineContentViewP
+- _symbolic ___________4size______5scalettSg 8MusicKit7ArtworkV So6CGSizeV 12CoreGraphics7CGFloatV
+- _symbolic ___________p 8MusicKit0A15PlaylistAddableP 0aB8Internal0A17LibraryActionableP
+- _symbolic ___________pSg 8MusicKit0A15PlaylistAddableP 0aB8Internal0A17LibraryActionableP
+- _symbolic ___________t 11MusicJSCore16JSStoreFlowSegueC AC0A11ApplicationE05StoreD7Context33_ACDED154BD7D27D1EDCE9CE66AA9990CLLV
+- _symbolic ___________t 11MusicJSCore27JSSubscriptionPurchaseSegueC AC0A11ApplicationE0D7Context023_543D0BF795EFE266FB57B3lH6F0DB2ELLV
+- _symbolic ___________t 11MusicJSCore36JSUserNotificationAuthorizationSegueC AC0A11ApplicationE04UserdE7Context33_B0C60D98019CD6B165733FBEEAC411CBLLV
+- _symbolic _____yAAyAAyAAyAAy_____y_____y______yAAyAAy__________y_____GG_____G_____yAIGGQo__Qo______GAHG_____G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA4ViewP018_MusicKitInternal_aB0E22artworkLoadingObserveryQry0fG07ArtworkVSg_So6CGSizeVAjFE0J6StatusOtcFQO 01_fg1_aB00L5ImageVAFE0I11PlaceholderyQrxAK_AmA5ColorVtcAaDRzlFQO AA012_ConditionalD0V AR0f4CoreB0E0P0OADV AA26_PreferenceWritingModifierV AX016RadiosityEnabledT3KeyV AA12_FrameLayoutV AA14GeometryReaderV AX0p5StyleV0V AX012CornerRadiusV033_F5ED3014321945F1E2BE58A044A15282LLV AX06BordereV0A11_LLV AA06_TraituV0V AA011ZIndexTraitY0V
+- _symbolic _____yAAyAAyAAy_____y_____y______yAAyAAy__________y_____GG_____G_____yAIGGQo__Qo______GAHG_____G_____G 7SwiftUI15ModifiedContentV AA4ViewP018_MusicKitInternal_aB0E22artworkLoadingObserveryQry0fG07ArtworkVSg_So6CGSizeVAjFE0J6StatusOtcFQO 01_fg1_aB00L5ImageVAFE0I11PlaceholderyQrxAK_AmA5ColorVtcAaDRzlFQO AA012_ConditionalD0V AR0f4CoreB0E0P0OADV AA26_PreferenceWritingModifierV AX016RadiosityEnabledT3KeyV AA12_FrameLayoutV AA14GeometryReaderV AX0p5StyleV0V AX012CornerRadiusV033_F5ED3014321945F1E2BE58A044A15282LLV AX06BordereV0A11_LLV
+- _symbolic _____yAAyAAy_____y_____y______yAAyAAy__________y_____GG_____G_____yAIGGQo__Qo______GAHG_____G 7SwiftUI15ModifiedContentV AA4ViewP018_MusicKitInternal_aB0E22artworkLoadingObserveryQry0fG07ArtworkVSg_So6CGSizeVAjFE0J6StatusOtcFQO 01_fg1_aB00L5ImageVAFE0I11PlaceholderyQrxAK_AmA5ColorVtcAaDRzlFQO AA012_ConditionalD0V AR0f4CoreB0E0P0OADV AA26_PreferenceWritingModifierV AX016RadiosityEnabledT3KeyV AA12_FrameLayoutV AA14GeometryReaderV AX0p5StyleV0V AX012CornerRadiusV033_F5ED3014321945F1E2BE58A044A15282LLV
+- _symbolic _____yAAy_____y_____G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 09MusicCoreB0012CornerRadiusF033_F5ED3014321945F1E2BE58A044A15282LLV AA23_CompositingGroupEffectV AA05_ClipT0V AF0I5ShapeAHLLV
+- _symbolic _____ySSG 19CollectionsInternal10OrderedSetV
+- _symbolic _____ySSGIegr_ 19CollectionsInternal10OrderedSetV
+- _symbolic _____ySay_____GSS_____y_____y__________G_ABSgQo_G 7SwiftUI7ForEachV 16MusicApplication13ReportConcernO0H4ItemV AA4ViewPAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA15ModifiedContentV AA4TextV AA14_PaddingLayoutV
+- _symbolic _____y_____G 19CollectionsInternal10OrderedSetV 10Foundation9IndexPathV
+- _symbolic _____y_____G 19CollectionsInternal10OrderedSetV 7LyricsX06SyncedE8LineViewC0G0C
+- _symbolic _____y_____G 19CollectionsInternal10OrderedSetV 7LyricsX0E0C4WordV
+- _symbolic _____y_____G 7SwiftUI11_ClipEffectV 09MusicCoreB011CornerShape33_F5ED3014321945F1E2BE58A044A15282LLV
+- _symbolic _____y_____G 7SwiftUI19UIHostingControllerC 16MusicApplication13ReportConcernO11ContentViewV
+- _symbolic _____y_____G 7SwiftUI25_ContentShapeKindModifierV 09MusicCoreB006CornerD033_F5ED3014321945F1E2BE58A044A15282LLV
+- _symbolic _____y_____G 7SwiftUI8BindableV 16MusicApplication13ReportConcernO9ViewModelC
+- _symbolic _____y_____G s11_SetStorageC 7LyricsX06SyncedC8LineViewC011TextContentF0C6Change33_328E32CB8485E005C40C2FB54DA07A72LLO
+- _symbolic _____y_____G s11_SetStorageC 7LyricsX06SyncedC8LineViewC4WordC
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 7LyricsX06SyncedD8LineViewC015SBS_TextContentG0C0iG0C21TransliterationResult33_2B1CF170FA12E5118C57D48B547982CALLO8MetadataV0F0V
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 7MusicUI0D18PlayActivityFieldsV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI4AxisO3SetV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI4EdgeO3SetV
+- _symbolic _____y_____Gz_Xx 19CollectionsInternal10OrderedSetV 10Foundation9IndexPathV
+- _symbolic _____y_____Say_____GG s18_DictionaryStorageC 7LyricsX0C0C4WordV AC06SyncedC8LineViewCAFC
+- _symbolic _____y_____SgG 7SwiftUI24_TagTraitWritingModifierV 16MusicApplication13ReportConcernO0J4ItemV
+- _symbolic _____y_____Shy_____GG s18_DictionaryStorageC 7LyricsX06SyncedC8LineViewC0E0C AE4WordC
+- _symbolic _____y_____So13UIWindowSceneC_G s23AsyncCompactMapSequenceV8IteratorV So20NSNotificationCenterC10FoundationE13NotificationsC
+- _symbolic _____y______GSg 8MusicKit0A7LibraryC0aB8InternalE15SupportedStatusO AcDE9AddActionV
+- _symbolic _____y______Qo_ 7SwiftUI4ViewPAAE15bodyHeadOutdentyQr12CoreGraphics7CGFloatVFQO AA4TextV
+- _symbolic _____y_______G 15GroupActivities0A7SessionC8SessionsV8IteratorV 9MusicCore0aB7ManagerC8ActivityV
+- _symbolic _____y__________G 7SwiftUI10_ShapeViewV 09MusicCoreB006CornerC033_F5ED3014321945F1E2BE58A044A15282LLV AA15ForegroundStyleV
+- _symbolic _____y__________G 7SwiftUI15ModifiedContentV 09MusicCoreB011CornerShape33_F5ED3014321945F1E2BE58A044A15282LLV AA16_BlendModeEffectV
+- _symbolic _____y__________G s18_DictionaryStorageC 7LyricsX06SyncedC8LineViewC0E0C So6CGRectV
+- _symbolic _____y___________Sb_____y_____yAAG_____yABGG_____yABSd_____ySd______ySdG_____ySdGQo_GQo_ 7SwiftUI4ViewPAAE16keyframeAnimator12initialValue7trigger7content9keyframesQrqd___qd_0_qd_1_AA018PlaceholderContentC0VyxG_qd__tYbcqd_2_qd__ct0G0Qyd_2_Rsd__SQRd_0_AaBRd_1_AA9KeyframesRd_2_r2_lFQO 09MusicCoreB006StrokeC0V AO20AnimatedGlowModifierV0Q18GradientPropertiesV AA08ModifiedL0V AJ AO0t4MaskS0V AA13KeyframeTrackV AA0xyL7BuilderV17buildPartialBlock11accumulated4nextQrqd___qd_0_tALQyd__RszAA0xyL0Rd__AAA6_Rd_0_ALQyd_0_A5_RSr0_lFZQO AA04MoveX0V AA06SpringX0V
+- _symbolic _____y___________ySaySi6offset______7elementtGSi_____yAHyAHyAHyAHy_____y_____y______yAHyAHy__________y_____GG_____G_____yAPGGQo__Qo______GAOG_____G_____G_____y_____GGGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA7ForEachV 09MusicCoreB016PlaylistCuratorsO7CuratorV AA15ModifiedContentV AA0D0P01_j12KitInternal_aB0E22artworkLoadingObserveryQry0jQ07ArtworkVSg_So6CGSizeVAwSE0T6StatusOtcFQO 01_jq1_aB00V5ImageVASE0S11PlaceholderyQrxAX_AzA5ColorVtcAaQRzlFQO AA012_ConditionalP0V A3_AJE0Z0OAQV AA26_PreferenceWritingModifierV AJ29RadiosityEnabledPreferenceKeyV AA06_FrameG0V AA14GeometryReaderV AJ0Z13StyleModifierV AJ20CornerRadiusModifier33_F5ED3014321945F1E2BE58A044A15282LLV AJ06BorderD8ModifierA23_LLV AA21_TraitWritingModifierV AA14ZIndexTraitKeyV
+- _symbolic _____y___________y_____y_____yACyAEy_____ySaySi6offset______7elementtGSiADyADyADyADyADy_____y_____y______yADyADy__________y_____GG_____G_____yARGGQo__Qo______GAQG_____G_____G_____y_____GGGG_ADyADyADy_____y______Qo______ySiSgGGA11_y_____GGA11_y_____SgGGtGG_____G______SgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA15ModifiedContentV AA0F0V AA7ForEachV 09MusicCoreB016PlaylistCuratorsO7CuratorV AA0D0P01_m12KitInternal_aB0E22artworkLoadingObserveryQry0mR07ArtworkVSg_So6CGSizeVA_AWE0U6StatusOtcFQO 01_mr1_aB00W5ImageVAWE0T11PlaceholderyQrxA0__A2_AA5ColorVtcAaURzlFQO AA012_ConditionalJ0V A7_APE11PlaceholderOAUV AA26_PreferenceWritingModifierV AP29RadiosityEnabledPreferenceKeyV AA06_FrameG0V AA14GeometryReaderV AP24PlaceholderStyleModifierV AP20CornerRadiusModifier33_F5ED3014321945F1E2BE58A044A15282LLV AP06BorderD8ModifierA27_LLV AA21_TraitWritingModifierV AA14ZIndexTraitKeyV AvAE10textSuffixyQrAA4TextV6SuffixVFQO A37_ AA30_EnvironmentKeyWritingModifierV AA0Z0V5ScaleO AA4FontV AP05HoverD8ModifierA27_LLV AA6SpacerV
+- _symbolic _____y___________y_____y_____ySaySi6offset______7elementtGSi_____yAJyAJyAJyAJy_____y_____y______yAJyAJy__________y_____GG_____G_____yARGGQo__Qo______GAQG_____G_____G_____y_____GGGG_AJyAJyAJy_____y______Qo______ySiSgGGA11_y_____GGA11_y_____SgGGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA0F0V AA7ForEachV 09MusicCoreB016PlaylistCuratorsO7CuratorV AA15ModifiedContentV AA0D0P01_k12KitInternal_aB0E22artworkLoadingObserveryQry0kR07ArtworkVSg_So6CGSizeVA_AWE0U6StatusOtcFQO 01_kr1_aB00W5ImageVAWE0T11PlaceholderyQrxA0__A2_AA5ColorVtcAaURzlFQO AA012_ConditionalQ0V A7_ANE11PlaceholderOAUV AA26_PreferenceWritingModifierV AN29RadiosityEnabledPreferenceKeyV AA06_FrameG0V AA14GeometryReaderV AN24PlaceholderStyleModifierV AN20CornerRadiusModifier33_F5ED3014321945F1E2BE58A044A15282LLV AN06BorderD8ModifierA27_LLV AA21_TraitWritingModifierV AA14ZIndexTraitKeyV AvAE10textSuffixyQrAA4TextV6SuffixVFQO A37_ AA30_EnvironmentKeyWritingModifierV AA0Z0V5ScaleO AA4FontV
+- _symbolic _____y___________y_____y_____y_____G_____G_ADyAF_____GtGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA05TupleD0V AA15ModifiedContentV AA07_ShadowD0V 09MusicCoreB011CornerShape33_F5ED3014321945F1E2BE58A044A15282LLV AA08_PaddingG0V AA16_BlendModeEffectV
+- _symbolic _____y_____yAAyAAyAAy_____y_____yAAy_____y_____AEG_____y_____SgGGAAy__________GGG_____ySbGGAMGAJGAMG_Qo_ 7SwiftUI4ViewPAAE4boldyQrSbFQO AA15ModifiedContentV AA6ButtonV AA012_ConditionalF0V AA08ProgressC0V AA05EmptyC0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA4TextV AA16_FlexFrameLayoutV AA01_kl9TransformN0V
+- _symbolic _____y_____yAAyAAyAAy_____y_____y_____yAAyAAyAAy__________G_____y_____GG_____GAAyAAyAAy_____y_____y______Qo__Qo_AFGAJGALGG_ADy_____AAy_____yAUG_____y_____SgGGG_____AAyAAyAAyAwLGAXySiSgGG_____y_____GGSgtGG_____yAYGG_____GA17_GAHy_____GG_SSACyAW_A2WSgAWtGQo_ 7SwiftUI4ViewPAAE18confirmationDialog_11isPresented15titleVisibility7actionsQrqd___AA7BindingVySbGAA0I0Oqd_0_yXEtSyRd__AaBRd_0_r0_lFQO AA15ModifiedContentV AA6HStackV AA05TupleC0V AA012_ConditionalM0V AA5ImageV AA12_FrameLayoutV AA11_ClipEffectV AA6CircleV AA08_PaddingS0V AC018_MusicKitInternal_aB0E22artworkLoadingObserveryQry0xY07ArtworkVSg_So6CGSizeVA7_A3_E13LoadingStatusOtcFQO 01_xy1_aB007ArtworkQ0VA3_E18artworkPlaceholderyQrxA8__A10_AA5ColorVtcAaBRzlFQO 0x4CoreB0015CNSwiftUIAvatarC0V AA4TextV AA6ButtonV AA30_EnvironmentKeyWritingModifierV A18_ AA6SpacerV AA21_TraitWritingModifierV AA0S16PriorityTraitKeyV AA24_BackgroundStyleModifierV AA05_FlexrS0V AA16RoundedRectangleV
+- _symbolic _____y_____yAAyAAy__________y_____GG_____y_____SgGG_Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE10fontWeightyQrAA4FontV0G0VSgFQO AA5ImageV AA24_ForegroundStyleModifierV AA08AnyShapeK0V AA022_EnvironmentKeyWritingL0V AH AA023AccessibilityAttachmentL0V
+- _symbolic _____y_____yAAy_____ySaySi6offset______7elementtGSi_____yAHyAHyAHyAHy_____y_____y______yAHyAHy__________y_____GG_____G_____yAPGGQo__Qo______GAOG_____G_____G_____y_____GGGG_AHyAHyAHy_____y______Qo______ySiSgGGA9_y_____GGA9_y_____SgGGtGG 7SwiftUI6HStackV AA9TupleViewV AA7ForEachV 09MusicCoreB016PlaylistCuratorsO7CuratorV AA15ModifiedContentV AA0E0P01_h12KitInternal_aB0E22artworkLoadingObserveryQry0hO07ArtworkVSg_So6CGSizeVAuQE0R6StatusOtcFQO 01_ho1_aB00T5ImageVAQE0Q11PlaceholderyQrxAV_AxA5ColorVtcAaORzlFQO AA012_ConditionalN0V A1_AHE0X0OAOV AA26_PreferenceWritingModifierV AH29RadiosityEnabledPreferenceKeyV AA12_FrameLayoutV AA14GeometryReaderV AH0X13StyleModifierV AH20CornerRadiusModifier33_F5ED3014321945F1E2BE58A044A15282LLV AH06BorderE8ModifierA21_LLV AA21_TraitWritingModifierV AA14ZIndexTraitKeyV ApAE10textSuffixyQrAA4TextV6SuffixVFQO A31_ AA30_EnvironmentKeyWritingModifierV AA0W0V5ScaleO AA4FontV
+- _symbolic _____y_____yAAy_____y_____yAAy__________y_____SgGG_AAyAAy_____yACyAAyAAy_____AEySiSgGGAHG_AAyAAyAAy_____AMG_____GAHGAAyAAy_____ARGAHGAAy_____AHGtGGARG_____GtGG_____G_____y_____GG_Qo_ 7SwiftUI4ViewP09MusicCoreB0E6corneryQrAD6CornerOFQO AA15ModifiedContentV AA6HStackV AA05TupleC0V 0D11Application0D7Artwork33_B90BA6543340C30087EC01D228CE8DDALLV AA30_EnvironmentKeyWritingModifierV AN0U0APLLC AA6VStackV AN12HeadlineTextAPLLV AN15DescriptionTextAPLLV AA14_PaddingLayoutV AN13PrimaryButtonAPLLV AN15AccessoryButtonAPLLV AA16_FlexFrameLayoutV AA12_FrameLayoutV AA016_BackgroundStyleX0V AA5ColorV
+- _symbolic _____y_____yAAy_____y_____y_____yACyAAy__________G_AAyAAyADyACy______AAy__________GAAy_____AJGAAy__________y_____SgGGtGGAJG_____GtGG_AAyAAy_____AJGARGSgtGG_____G_____y_____GG_Qo_ 7SwiftUI4ViewP09MusicCoreB0E6corneryQrAD6CornerOFQO AA15ModifiedContentV AA6ZStackV AA05TupleC0V AA6VStackV 0D11Application0D7Artwork33_B90BA6543340C30087EC01D228CE8DDALLV AA12_FrameLayoutV AP12HeadlineTextARLLV AP011DescriptionY0ARLLV AA08_PaddingW0V AP13PrimaryButtonARLLV AP15AccessoryButtonARLLV AA30_EnvironmentKeyWritingModifierV AP11EnvironmentARLLC AA010_FixedSizeW0V AP11CloseButtonARLLV AA012_AspectRatioW0V AA24_BackgroundStyleModifierV AA5ColorV
+- _symbolic _____y_____yABy__________y_____SgGGADy_____SgGG_____Sg_____ySayAMGSS_____yAByAC_____G_ANQo_GG 7SwiftUI6PickerV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AG4CaseO AA4FontV 16MusicApplication13ReportConcernO0P4ItemV AA7ForEachV AA4ViewPAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA14_PaddingLayoutV
+- _symbolic _____y_____yABy_____y_____yAByAByAByABy_____yAByAByABy__________ySiSgGG_____GAFy_____SgGG_Qo_AFy_____SgGGAFy_____GG_____G_____G______ySay_____GSOABy_____AZGGtGGAZGAZGG 7SwiftUI10ScrollViewV AA15ModifiedContentV AA6VStackV AA05TupleD0V AA0D0PAAE10fontWeightyQrAA4FontV0J0VSgFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA16_FixedSizeLayoutV AN AA5ColorV AA0L9AlignmentO AA06_FrameS0V AA08_PaddingS0V AA7ForEachV 11MusicJSCore022JSWhatsNewFeaturedItemD5ModelC 0Z11Application08WhatsNewD0V020WhatsNewFeaturedItemD0V
+- _symbolic _____y_____ySaySi6offset______7elementtGSi_____yAGyAGyAGyAGy_____y_____y______yAGyAGy__________y_____GG_____G_____yAOGGQo__Qo______GANG_____G_____G_____y_____GGGG 7SwiftUI6HStackV AA7ForEachV 09MusicCoreB016PlaylistCuratorsO7CuratorV AA15ModifiedContentV AA4ViewP01_f12KitInternal_aB0E22artworkLoadingObserveryQry0fN07ArtworkVSg_So6CGSizeVAsOE0Q6StatusOtcFQO 01_fn1_aB00S5ImageVAOE0P11PlaceholderyQrxAT_AvA5ColorVtcAaMRzlFQO AA012_ConditionalL0V A_AFE0W0OAMV AA26_PreferenceWritingModifierV AF016RadiosityEnabledZ3KeyV AA12_FrameLayoutV AA14GeometryReaderV AF0W13StyleModifierV AF20CornerRadiusModifier33_F5ED3014321945F1E2BE58A044A15282LLV AF06BorderM8ModifierA19_LLV AA21_TraitWritingModifierV AA14ZIndexTraitKeyV
+- _symbolic _____y_____ySaySi6offset______7elementtGSi_____yAGyAGyAGyAGy_____y_____y______yAGyAGy__________y_____GG_____G_____yAOGGQo__Qo______GANG_____G_____G_____y_____GGGG_AGyAGyAGy_____y______Qo______ySiSgGGA8_y_____GGA8_y_____SgGGt 7SwiftUI6HStackV AA7ForEachV 09MusicCoreB016PlaylistCuratorsO7CuratorV AA15ModifiedContentV AA4ViewP01_f12KitInternal_aB0E22artworkLoadingObserveryQry0fN07ArtworkVSg_So6CGSizeVAsOE0Q6StatusOtcFQO 01_fn1_aB00S5ImageVAOE0P11PlaceholderyQrxAT_AvA5ColorVtcAaMRzlFQO AA012_ConditionalL0V A_AFE0W0OAMV AA26_PreferenceWritingModifierV AF016RadiosityEnabledZ3KeyV AA12_FrameLayoutV AA14GeometryReaderV AF0W13StyleModifierV AF20CornerRadiusModifier33_F5ED3014321945F1E2BE58A044A15282LLV AF06BorderM8ModifierA19_LLV AA21_TraitWritingModifierV AA14ZIndexTraitKeyV AnAE10textSuffixyQrAA4TextV6SuffixVFQO A29_ AA30_EnvironmentKeyWritingModifierV AA0V0V5ScaleO AA4FontV
+- _symbolic _____y_____ySay_____G__________GG 7SwiftUI9LazyVGridV AA7ForEachV 010_MusicKit_aB012ArtworkImageV0g4CoreB0E11GridPreviewO4ItemV 0gH00gN2IDV AK0L4View33_629ADA528219B6880875FC4697374C36LLV0nP0V
+- _symbolic _____y_____y_____G_SSQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA9TextFieldV AA0H0V
+- _symbolic _____y_____y_____G_____G 7SwiftUI15ModifiedContentV AA11_ShadowViewV 09MusicCoreB011CornerShape33_F5ED3014321945F1E2BE58A044A15282LLV AA14_PaddingLayoutV
+- _symbolic _____y_____y_____G_____G_AAyAC_____Gt 7SwiftUI15ModifiedContentV AA11_ShadowViewV 09MusicCoreB011CornerShape33_F5ED3014321945F1E2BE58A044A15282LLV AA14_PaddingLayoutV AA16_BlendModeEffectV
+- _symbolic _____y_____y_____G_____yAAy_____y_____yAAy_____y_____G_____G_AAyAI_____GtGG_____GGG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 09MusicCoreB006ShadoweF033_F5ED3014321945F1E2BE58A044A15282LLV AA011_BackgroundF0V AA6ZStackV AA05TupleE0V AA01_iE0V AF11CornerShapeAHLLV AA14_PaddingLayoutV AA16_BlendModeEffectV AA017_CompositingGroupZ0V
+- _symbolic _____y_____y_____G_____y_____GG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 09MusicCoreB005HovereF033_F5ED3014321945F1E2BE58A044A15282LLV AA01_d9ShapeKindF0V AF06CornerQ0AHLLV
+- _symbolic _____y_____y_____G_____y_____y_______________GGG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 09MusicCoreB006BordereF033_F5ED3014321945F1E2BE58A044A15282LLV AA08_OverlayF0V AA011StrokeShapeE0V AF06CornerS0AHLLV AA5ColorV AA05EmptyE0V
+- _symbolic _____y_____y__________G______Qo_ 7SwiftUI4ViewPAAE10labelStyleyQrqd__AA05LabelE0Rd__lFQO AA15ModifiedContentV AA06ButtonE13ConfigurationV0F0V AA12_ScaleEffectV AA08IconOnlyfE0V
+- _symbolic _____y_____y__________G______SgQo_ 7SwiftUI4ViewPAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA15ModifiedContentV AA4TextV AA14_PaddingLayoutV 16MusicApplication13ReportConcernO0O4ItemV
+- _symbolic _____y_____y_______________GG 7SwiftUI16_OverlayModifierV AA15StrokeShapeViewV 09MusicCoreB006CornerF033_F5ED3014321945F1E2BE58A044A15282LLV AA5ColorV AA05EmptyG0V
+- _symbolic _____y_____y_____yAAyAAyAAyAAy__________G_____y_____GG_____G_____G_____ySbGG______y_____y_____SbG_____y_____GGQo_______Qo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE7gesture_9includingQrqd___AA11GestureMaskVtAA0J0Rd__lFQO AA15ModifiedContentV 09MusicCoreB006NoticeC0V0M033_1E0EE3996FA6F48DA9B8EAD4E8F15418LLV AA16_FlexFrameLayoutV AA24_BackgroundStyleModifierV AA8MaterialV AN20CornerRadiusModifier33_F5ED3014321945F1E2BE58A044A15282LLV AA14_OpacityEffectV AA18_AnimationModifierV AA08SequenceJ0V AA0j5StateJ0V AA04DragJ0V AA06_EndedJ0V AA03TapJ0V 0nO00P0V
+- _symbolic _____y_____y_____yAAyAAy_____y_____yAAy__________y_____SgGG_AAyAAy_____yACyAAyAAy_____AEySiSgGGAHG_AAyAAyAAy_____AMG_____GAHGAAyAAy_____ARGAHGAAy_____AHGtGGARG_____GtGG_____G_____y_____GG_Qo______G_Qo_ 7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA15ModifiedContentV AC09MusicCoreB0E6corneryQrAI6CornerOFQO AA6HStackV AA05TupleC0V 0K11Application0K7Artwork33_B90BA6543340C30087EC01D228CE8DDALLV AA30_EnvironmentKeyWritingModifierV AQ0Z0ASLLC AA6VStackV AQ12HeadlineTextASLLV AQ15DescriptionTextASLLV AA14_PaddingLayoutV AQ13PrimaryButtonASLLV AQ15AccessoryButtonASLLV AA16_FlexFrameLayoutV AA12_FrameLayoutV AA24_BackgroundStyleModifierV AA5ColorV AA13_ShadowEffectV
+- _symbolic _____y_____y_____yAAyAAy_____y_____y_____yACyAAy__________G_AAyAAyADyACy______AAy__________GAAy_____AJGAAy__________y_____SgGGtGGAJG_____GtGG_AAyAAy_____AJGARGSgtGG_____G_____y_____GG_Qo______G_Qo_ 7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA15ModifiedContentV AC09MusicCoreB0E6corneryQrAI6CornerOFQO AA6ZStackV AA05TupleC0V AA6VStackV 0K11Application0K7Artwork33_B90BA6543340C30087EC01D228CE8DDALLV AA12_FrameLayoutV AS12HeadlineTextAULLV AS15DescriptionTextAULLV AA14_PaddingLayoutV AS13PrimaryButtonAULLV AS15AccessoryButtonAULLV AA30_EnvironmentKeyWritingModifierV AS11EnvironmentAULLC AA16_FixedSizeLayoutV AS11CloseButtonAULLV AA18_AspectRatioLayoutV AA24_BackgroundStyleModifierV AA5ColorV AA13_ShadowEffectV
+- _symbolic _____y_____y_____yAAyAByAAy_____ySaySi6offset______7elementtGSiACyACyACyACyACy_____y_____y______yACyACy__________y_____GG_____G_____yAPGGQo__Qo______GAOG_____G_____G_____y_____GGGG_ACyACyACy_____y______Qo______ySiSgGGA9_y_____GGA9_y_____SgGGtGG_____G______SgtGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV AA7ForEachV 09MusicCoreB016PlaylistCuratorsO7CuratorV AA0E0P01_j12KitInternal_aB0E22artworkLoadingObserveryQry0jO07ArtworkVSg_So6CGSizeVAuQE0R6StatusOtcFQO 01_jo1_aB00T5ImageVAQE0Q11PlaceholderyQrxAV_AxA5ColorVtcAaORzlFQO AA012_ConditionalG0V A1_AJE0X0OAOV AA26_PreferenceWritingModifierV AJ29RadiosityEnabledPreferenceKeyV AA12_FrameLayoutV AA14GeometryReaderV AJ0X13StyleModifierV AJ20CornerRadiusModifier33_F5ED3014321945F1E2BE58A044A15282LLV AJ06BorderE8ModifierA21_LLV AA21_TraitWritingModifierV AA14ZIndexTraitKeyV ApAE10textSuffixyQrAA4TextV6SuffixVFQO A31_ AA30_EnvironmentKeyWritingModifierV AA0W0V5ScaleO AA4FontV AJ05HoverE8ModifierA21_LLV AA6SpacerV
+- _symbolic _____y_____y_____yAAy_____y_Qo______G_____G_Qo__Qo_ 7SwiftUI4ViewP09MusicCoreB0E6border_6cornerQrAD6BorderV_AD6CornerOtFQO AcDEAFyQrAJFQO AA15ModifiedContentV 01_d4Kit_aB012ArtworkImageVADE4with_11placeholder4size11reusePolicy8observerQrAoDE0C5ModelVSg_AoDE11PlaceholderOAoDE4SizeVAO01_dl9Internal_aB0E05ReuseS0Oy0dL00M0VSg_A5_A0_E13LoadingStatusOtcSgtFZQO AA12_FrameLayoutV AA18_AspectRatioLayoutV
+- _symbolic _____y_____y_____yABy__________y_____SgGGADy_____SgGG_____Sg_____ySayAMGSS_____yAByAC_____G_ANQo_GG______Qo_ 7SwiftUI4ViewPAAE11pickerStyleyQrqd__AA06PickerE0Rd__lFQO AA0F0V AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AK4CaseO AA4FontV 16MusicApplication13ReportConcernO0S4ItemV AA7ForEachV AcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA14_PaddingLayoutV AA06InlinefE0V
+- _symbolic _____y_____y_____yABy__________y_____SgGGADy_____SgGG_____Sg_____ySayAMGSS_____yAByAC_____G_ANQo_GG______Qo_______y_____y_____yACG_SSQo__Qo_Sgt 7SwiftUI4ViewPAAE11pickerStyleyQrqd__AA06PickerE0Rd__lFQO AA0F0V AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AK4CaseO AA4FontV 16MusicApplication13ReportConcernO0S4ItemV AA7ForEachV AcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA14_PaddingLayoutV AA06InlinefE0V AcAE9lineLimityQrs16PartialRangeFromVySiGFQO AcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA0I5FieldV
+- _symbolic _____y_____y_____yABy_____ySaySi6offset______7elementtGSiAAyAAyAAyAAyAAy_____y_____y______yAAyAAy__________y_____GG_____G_____yAPGGQo__Qo______GAOG_____G_____G_____y_____GGGG_AAyAAyAAy_____y______Qo______ySiSgGGA9_y_____GGA9_y_____SgGGtGG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA7ForEachV 09MusicCoreB016PlaylistCuratorsO7CuratorV AA0G0P01_j12KitInternal_aB0E22artworkLoadingObserveryQry0jO07ArtworkVSg_So6CGSizeVAuQE0R6StatusOtcFQO 01_jo1_aB00T5ImageVAQE0Q11PlaceholderyQrxAV_AxA5ColorVtcAaORzlFQO AA012_ConditionalD0V A1_AJE0X0OAOV AA26_PreferenceWritingModifierV AJ29RadiosityEnabledPreferenceKeyV AA12_FrameLayoutV AA14GeometryReaderV AJ0X13StyleModifierV AJ20CornerRadiusModifier33_F5ED3014321945F1E2BE58A044A15282LLV AJ06BorderG8ModifierA21_LLV AA21_TraitWritingModifierV AA14ZIndexTraitKeyV ApAE10textSuffixyQrAA4TextV6SuffixVFQO A31_ AA30_EnvironmentKeyWritingModifierV AA0W0V5ScaleO AA4FontV AJ05HoverG8ModifierA21_LLV
+- _symbolic _____y_____y_____yABy_____ySaySi6offset______7elementtGSiAAyAAyAAyAAyAAy_____y_____y______yAAyAAy__________y_____GG_____G_____yAPGGQo__Qo______GAOG_____G_____G_____y_____GGGG_AAyAAyAAy_____y______Qo______ySiSgGGA9_y_____GGA9_y_____SgGGtGG_____G______Sgt 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA7ForEachV 09MusicCoreB016PlaylistCuratorsO7CuratorV AA0G0P01_j12KitInternal_aB0E22artworkLoadingObserveryQry0jO07ArtworkVSg_So6CGSizeVAuQE0R6StatusOtcFQO 01_jo1_aB00T5ImageVAQE0Q11PlaceholderyQrxAV_AxA5ColorVtcAaORzlFQO AA012_ConditionalD0V A1_AJE0X0OAOV AA26_PreferenceWritingModifierV AJ29RadiosityEnabledPreferenceKeyV AA12_FrameLayoutV AA14GeometryReaderV AJ0X13StyleModifierV AJ20CornerRadiusModifier33_F5ED3014321945F1E2BE58A044A15282LLV AJ06BorderG8ModifierA21_LLV AA21_TraitWritingModifierV AA14ZIndexTraitKeyV ApAE10textSuffixyQrAA4TextV6SuffixVFQO A31_ AA30_EnvironmentKeyWritingModifierV AA0W0V5ScaleO AA4FontV AJ05HoverG8ModifierA21_LLV AA6SpacerV
+- _symbolic _____y_____y_____yACyACyACy__________y_____GG_____GAEy_____SgGGAEy_____SgGG_ACy__________GAruCyACyACyACy_____yADG_____GAXG_____yAOGG_____y_____GGtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0H9AlignmentO AA16_FixedSizeLayoutV AA4FontV AA5ColorV AA6SpacerV AA06_FrameP0V AA6ButtonV AA08_PaddingP0V AA016_BackgroundStyleL0V AA11_ClipEffectV AA16RoundedRectangleV
+- _symbolic _____y_____y_____y_____G_SSQo__Qo_ 7SwiftUI4ViewPAAE9lineLimityQrs16PartialRangeFromVySiGFQO AcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA9TextFieldV AA0M0V
+- _symbolic _____y_____y_____y_____G_SSQo__Qo_Sg 7SwiftUI4ViewPAAE9lineLimityQrs16PartialRangeFromVySiGFQO AcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA9TextFieldV AA0M0V
+- _symbolic _____y_____y_____y_____G_____y_____GG______Qo_ 7SwiftUI4ViewPAAE11hoverEffect_9isEnabledQrqd___SbtAA011CustomHoverE0Rd__lFQO AA15ModifiedContentV AA01_c9Modifier_K0V 09MusicCoreB00icL033_F5ED3014321945F1E2BE58A044A15282LLV AA01_k9ShapeKindL0V AK06CornerV0AMLLV AA09HighlightiE0V
+- _symbolic _____y_____y_____y_____yAAyAByAAy_____ySaySi6offset______7elementtGSiACyACyACyACyACy_____y_____y______yACyACy__________y_____GG_____G_____yAPGGQo__Qo______GAOG_____G_____G_____y_____GGGG_ACyACyACy_____y______Qo______ySiSgGGA9_y_____GGA9_y_____SgGGtGG_____G______SgtGG_Qo_ 7SwiftUI4ViewP018_MusicKitInternal_aB0E14artworkCaching2id5limitQrSS_SiSgtFQO AA6HStackV AA05TupleC0V AA15ModifiedContentV AA7ForEachV 0d4CoreB016PlaylistCuratorsO7CuratorV AcDE0G15LoadingObserveryQry0dE07ArtworkVSg_So6CGSizeVAyDE0U6StatusOtcFQO 01_de1_aB00W5ImageVADE0G11PlaceholderyQrxAZ_A0_AA5ColorVtcAaBRzlFQO AA012_ConditionalN0V A5_AQE11PlaceholderOABV AA26_PreferenceWritingModifierV AQ29RadiosityEnabledPreferenceKeyV AA12_FrameLayoutV AA14GeometryReaderV AQ24PlaceholderStyleModifierV AQ20CornerRadiusModifier33_F5ED3014321945F1E2BE58A044A15282LLV AQ06BorderC8ModifierA25_LLV AA21_TraitWritingModifierV AA14ZIndexTraitKeyV AcAE10textSuffixyQrAA4TextV6SuffixVFQO A35_ AA30_EnvironmentKeyWritingModifierV AA0Z0V5ScaleO AA4FontV AQ05HoverC8ModifierA25_LLV AA6SpacerV
+- _symbolic _____y_____y_____y_____yAAy_____y_____y_____y_____yAAyAAy_____y_____y_____y_____y_____ySayxG2ID_____QzAAy_____yq__Qo______GGG_Qo_G_Qo______G_____y_____AVSQ12CoreGraphicsyHCg_GG______Qo__Qo__Qo__Qo_ALG_AAy_____yxGALGSgtGG_____G______Qo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV AA6VStackV AA05TupleC0V AcAE14scrollDisabledyQrSbFQO AcAE0l4ClipM0yQrSbFQO AcAE0L10Indicators_4axesQrAA25ScrollIndicatorVisibilityV_AA4AxisO3SetVtFQO AcAE0L14TargetBehavioryQrqd__AA0qvW0Rd__lFQO AcAE0L8Position_6anchorQrAA7BindingVyAA0qX0VG_AA9UnitPointVSgtFQO AA0qC0V AcAE0lV6Layout9isEnabledQrSb_tFQO AA10LazyHStackV AA7ForEachV s12IdentifiableP AcAE0D10TapGesture5count7performQrSi_yyctFQO AA12_FrameLayoutV AA23SafeAreaPaddingModifierV AA23_GeometryActionModifierV So6CGSizeV AA0c7AlignedqvW0V 09MusicCoreB011PageControl33_80921D5A503420729A6900A3E96756A5LLV AA25_AppearanceActionModifierV A2_
+- _symbolic _____y_____y_____y_____yABy_____y_____G_____G_AByAF_____GtGG_____GG 7SwiftUI19_BackgroundModifierV AA15ModifiedContentV AA6ZStackV AA9TupleViewV AA07_ShadowI0V 09MusicCoreB011CornerShape33_F5ED3014321945F1E2BE58A044A15282LLV AA14_PaddingLayoutV AA16_BlendModeEffectV AA017_CompositingGroupZ0V
+- _symbolic _____y_____y_____y_____yACy_____ADGADGG_____y_____SgGG_Qo_ 7SwiftUI4ViewPAAE15bodyHeadOutdentyQr12CoreGraphics7CGFloatVFQO AA15ModifiedContentV AA5GroupV AA012_ConditionalK0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV
+- _symbolic _____y_____y_____y_____yACy__________y_____SgGGAEy_____SgGG_____Sg_____ySayANGSS_____yACyAD_____G_AOQo_GG______Qo_______y_____y_____yADG_SSQo__Qo_SgtG 7SwiftUI9TupleViewV AA0D0PAAE11pickerStyleyQrqd__AA06PickerF0Rd__lFQO AA0G0V AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AM4CaseO AA4FontV 16MusicApplication13ReportConcernO0T4ItemV AA7ForEachV AeAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA14_PaddingLayoutV AA06InlinegF0V AeAE9lineLimityQrs16PartialRangeFromVySiGFQO AeAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA0J5FieldV
+- _symbolic _____y_____y_____y_____y_____yADy__________y_____SgGGAFy_____SgGG_____Sg_____ySayAOGSS_____yADyAE_____G_APQo_GG______Qo_______y_____y_____yAEG_SSQo__Qo_SgtGG 7SwiftUI4FormV AA9TupleViewV AA0E0PAAE11pickerStyleyQrqd__AA06PickerG0Rd__lFQO AA0H0V AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AO4CaseO AA4FontV 16MusicApplication13ReportConcernO0U4ItemV AA7ForEachV AgAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA14_PaddingLayoutV AA06InlinehG0V AgAE9lineLimityQrs16PartialRangeFromVySiGFQO AgAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA0K5FieldV
+- _symbolic _____y_____y_____y_____y_____y_____AEGSg______y_____AIGtGG_____y_____SgGG_Qo_ 7SwiftUI4ViewPAAE4boldyQrSbFQO AA15ModifiedContentV AA6HStackV AA05TupleC0V AA08ProgressC0V AA05EmptyC0V AA012_ConditionalF0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV
+- _symbolic _____y_____y_____y_____y_____y_____AFG______tGG_____yAKyAH_____y_____SgGGALy_____GGGSgG 7SwiftUI5GroupV AA19_ConditionalContentV AA6HStackV AA9TupleViewV AA08ProgressH0V AA05EmptyH0V AA4TextV AA08ModifiedE0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA13OpenURLActionV
+- _symbolic _____y_____ytG 9MusicCore6ActionV AA7ActionsO13AddToPlaylistO7ContextV
+- _symbolic q_xc
+- _symbolic xSgXwz_So16UIViewControllerC_ACRbzlXX
+- _type_layout_string 11MusicCoreUI11CornerShape33_F5ED3014321945F1E2BE58A044A15282LLV
+- _type_layout_string 11MusicCoreUI18BorderViewModifier33_F5ED3014321945F1E2BE58A044A15282LLV
+- _type_layout_string 11MusicCoreUI6BorderV
+- _type_layout_string 16MusicApplication13ReportConcernO0D4ItemV
+- _type_layout_string 16MusicApplication13ReportConcernO15ContentReporter33_A42CB8B3206839F30574C2DC47C0C3B2LLV
+- _type_layout_string 7LyricsX06SyncedA14ViewControllerC5SpecsV
+- _type_layout_string 7LyricsX06SyncedA14ViewControllerC5SpecsV22SpringTimingParameters33_721F05E5229E32246B486C601D4C7EC8LLV
+- _type_layout_string 7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C0F18LayoutDiffMetadataV
+- _type_layout_string 7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C21TransliterationResult33_2B1CF170FA12E5118C57D48B547982CALLO
+- _type_layout_string 7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C21TransliterationResult33_2B1CF170FA12E5118C57D48B547982CALLO8MetadataV
+- _type_layout_string 7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C21TransliterationResult33_2B1CF170FA12E5118C57D48B547982CALLO8MetadataV0C0V
+- _type_layout_string 7LyricsX06SyncedA8LineViewC015SBS_TextContentD0C0fD0C22TranslationLabelUpdateO
+- _type_layout_string 7LyricsX06SyncedA8LineViewC4WordC28CrossfadeAnimationParametersV
+- _type_layout_string 7LyricsX15AnimationStatusO
+- _type_layout_string 9MusicCore7ActionsO11SuggestLessO7ContextV
+- _type_layout_string So17MPCPlaybackIntentC9MusicCoreE23PlayActivityInformationV
+- block_copy_helper.145
+- block_copy_helper.189
+- block_copy_helper.190
+- block_copy_helper.202
+- block_copy_helper.208
+- block_copy_helper.213
+- block_copy_helper.219
+- block_copy_helper.227
+- block_copy_helper.232
+- block_copy_helper.233
+- block_copy_helper.238
+- block_copy_helper.242
+- block_copy_helper.248
+- block_copy_helper.250
+- block_copy_helper.253
+- block_copy_helper.260
+- block_copy_helper.266
+- block_copy_helper.270
+- block_copy_helper.276
+- block_copy_helper.279
+- block_copy_helper.280
+- block_copy_helper.286
+- block_copy_helper.290
+- block_copy_helper.293
+- block_copy_helper.295
+- block_copy_helper.300
+- block_copy_helper.303
+- block_copy_helper.304
+- block_copy_helper.306
+- block_copy_helper.309
+- block_copy_helper.312
+- block_copy_helper.314
+- block_copy_helper.317
+- block_copy_helper.318
+- block_copy_helper.328
+- block_copy_helper.329
+- block_copy_helper.336
+- block_copy_helper.337
+- block_copy_helper.338
+- block_copy_helper.346
+- block_copy_helper.348
+- block_copy_helper.357
+- block_copy_helper.36
+- block_copy_helper.360
+- block_copy_helper.363
+- block_copy_helper.364
+- block_copy_helper.367
+- block_copy_helper.370
+- block_copy_helper.374
+- block_copy_helper.377
+- block_copy_helper.383
+- block_copy_helper.384
+- block_copy_helper.386
+- block_copy_helper.387
+- block_copy_helper.390
+- block_copy_helper.397
+- block_copy_helper.399
+- block_copy_helper.403
+- block_copy_helper.407
+- block_copy_helper.409
+- block_copy_helper.413
+- block_copy_helper.416
+- block_copy_helper.420
+- block_copy_helper.423
+- block_copy_helper.426
+- block_copy_helper.436
+- block_copy_helper.437
+- block_copy_helper.439
+- block_copy_helper.442
+- block_copy_helper.447
+- block_copy_helper.448
+- block_copy_helper.452
+- block_copy_helper.454
+- block_copy_helper.459
+- block_copy_helper.462
+- block_copy_helper.465
+- block_copy_helper.468
+- block_copy_helper.470
+- block_copy_helper.472
+- block_copy_helper.475
+- block_copy_helper.479
+- block_copy_helper.481
+- block_copy_helper.482
+- block_copy_helper.489
+- block_copy_helper.493
+- block_copy_helper.504
+- block_copy_helper.507
+- block_copy_helper.529
+- block_copy_helper.541
+- block_copy_helper.563
+- block_copy_helper.575
+- block_copy_helper.611
+- block_copy_helper.66
+- block_copy_helper.86
+- block_copy_helper.98
+- block_descriptor.100
+- block_descriptor.147
+- block_descriptor.191
+- block_descriptor.192
+- block_descriptor.204
+- block_descriptor.210
+- block_descriptor.215
+- block_descriptor.221
+- block_descriptor.229
+- block_descriptor.234
+- block_descriptor.235
+- block_descriptor.240
+- block_descriptor.244
+- block_descriptor.250
+- block_descriptor.252
+- block_descriptor.255
+- block_descriptor.262
+- block_descriptor.268
+- block_descriptor.272
+- block_descriptor.278
+- block_descriptor.281
+- block_descriptor.282
+- block_descriptor.288
+- block_descriptor.292
+- block_descriptor.295
+- block_descriptor.297
+- block_descriptor.302
+- block_descriptor.305
+- block_descriptor.306
+- block_descriptor.308
+- block_descriptor.311
+- block_descriptor.314
+- block_descriptor.316
+- block_descriptor.319
+- block_descriptor.320
+- block_descriptor.330
+- block_descriptor.331
+- block_descriptor.338
+- block_descriptor.339
+- block_descriptor.340
+- block_descriptor.348
+- block_descriptor.350
+- block_descriptor.359
+- block_descriptor.362
+- block_descriptor.365
+- block_descriptor.366
+- block_descriptor.369
+- block_descriptor.372
+- block_descriptor.376
+- block_descriptor.379
+- block_descriptor.38
+- block_descriptor.385
+- block_descriptor.386
+- block_descriptor.388
+- block_descriptor.389
+- block_descriptor.392
+- block_descriptor.399
+- block_descriptor.401
+- block_descriptor.405
+- block_descriptor.409
+- block_descriptor.411
+- block_descriptor.415
+- block_descriptor.418
+- block_descriptor.422
+- block_descriptor.425
+- block_descriptor.428
+- block_descriptor.438
+- block_descriptor.439
+- block_descriptor.441
+- block_descriptor.444
+- block_descriptor.449
+- block_descriptor.450
+- block_descriptor.454
+- block_descriptor.456
+- block_descriptor.461
+- block_descriptor.464
+- block_descriptor.467
+- block_descriptor.470
+- block_descriptor.472
+- block_descriptor.474
+- block_descriptor.477
+- block_descriptor.481
+- block_descriptor.483
+- block_descriptor.484
+- block_descriptor.491
+- block_descriptor.495
+- block_descriptor.506
+- block_descriptor.509
+- block_descriptor.531
+- block_descriptor.543
+- block_descriptor.565
+- block_descriptor.577
+- block_descriptor.613
+- block_descriptor.68
+- block_descriptor.88
+- block_destroy_helper.146
+- block_destroy_helper.190
+- block_destroy_helper.191
+- block_destroy_helper.203
+- block_destroy_helper.209
+- block_destroy_helper.214
+- block_destroy_helper.220
+- block_destroy_helper.228
+- block_destroy_helper.233
+- block_destroy_helper.234
+- block_destroy_helper.239
+- block_destroy_helper.243
+- block_destroy_helper.249
+- block_destroy_helper.251
+- block_destroy_helper.254
+- block_destroy_helper.261
+- block_destroy_helper.267
+- block_destroy_helper.271
+- block_destroy_helper.277
+- block_destroy_helper.280
+- block_destroy_helper.281
+- block_destroy_helper.287
+- block_destroy_helper.291
+- block_destroy_helper.294
+- block_destroy_helper.296
+- block_destroy_helper.301
+- block_destroy_helper.304
+- block_destroy_helper.305
+- block_destroy_helper.307
+- block_destroy_helper.310
+- block_destroy_helper.313
+- block_destroy_helper.315
+- block_destroy_helper.318
+- block_destroy_helper.319
+- block_destroy_helper.329
+- block_destroy_helper.330
+- block_destroy_helper.337
+- block_destroy_helper.338
+- block_destroy_helper.339
+- block_destroy_helper.347
+- block_destroy_helper.349
+- block_destroy_helper.358
+- block_destroy_helper.361
+- block_destroy_helper.364
+- block_destroy_helper.365
+- block_destroy_helper.368
+- block_destroy_helper.37
+- block_destroy_helper.371
+- block_destroy_helper.375
+- block_destroy_helper.378
+- block_destroy_helper.384
+- block_destroy_helper.385
+- block_destroy_helper.387
+- block_destroy_helper.388
+- block_destroy_helper.391
+- block_destroy_helper.398
+- block_destroy_helper.400
+- block_destroy_helper.404
+- block_destroy_helper.408
+- block_destroy_helper.410
+- block_destroy_helper.414
+- block_destroy_helper.417
+- block_destroy_helper.421
+- block_destroy_helper.424
+- block_destroy_helper.427
+- block_destroy_helper.437
+- block_destroy_helper.438
+- block_destroy_helper.440
+- block_destroy_helper.443
+- block_destroy_helper.448
+- block_destroy_helper.449
+- block_destroy_helper.453
+- block_destroy_helper.455
+- block_destroy_helper.460
+- block_destroy_helper.463
+- block_destroy_helper.466
+- block_destroy_helper.469
+- block_destroy_helper.471
+- block_destroy_helper.473
+- block_destroy_helper.476
+- block_destroy_helper.480
+- block_destroy_helper.482
+- block_destroy_helper.483
+- block_destroy_helper.490
+- block_destroy_helper.494
+- block_destroy_helper.505
+- block_destroy_helper.508
+- block_destroy_helper.530
+- block_destroy_helper.542
+- block_destroy_helper.564
+- block_destroy_helper.576
+- block_destroy_helper.612
+- block_destroy_helper.67
+- block_destroy_helper.87
+- block_destroy_helper.99
+- get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOQr.142
+- get_underlying_witness 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOqd0__AaBHC.143
+- get_witness_table 11MusicCoreUI22PageIndicatorProvidingRzSHRzs12IdentifiableRz05SwiftC04ViewR_r0_lqd0__AdEHD3_AdEPADE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAD15ModifiedContentVyAD6VStackVyAD05TupleI0VyAKyAfDE14scrollDisabledyQrSbFQOyAfDE0r4ClipS0yQrSbFQOyAfDE0R10Indicators_4axesQrAD06ScrollE10VisibilityV_AD4AxisO3SetVtFQOyAfDE0R14TargetBehavioryQrqd__AD0W14TargetBehaviorRd__lFQOyAKyAKyAfDE0R8Position_6anchorQrAD7BindingVyAD0W8PositionVG_AD9UnitPointVSgtFQOyAD0wI0VyAfDE0R12TargetLayout9isEnabledQrSb_tFQOyAD10LazyHStackVyAD7ForEachVySayxG2IDsACPQzAKyAfDE0J10TapGesture5count7performQrSi_yyctFQOyq__Qo_AD12_FrameLayoutVGGG_Qo_G_Qo_AD23SafeAreaPaddingModifierVGAD23_GeometryActionModifierVySo6CGSizeVA40_SQ0B8GraphicsyHCg_GG_AD0i7AlignedW14TargetBehaviorVQo__Qo__Qo__Qo_A27_G_AKyAA0D7Control33_80921D5A503420729A6900A3E96756A5LLVyxGA27_GSgtGGAD25_AppearanceActionModifierVG_A5_Qo_HO.12
+- get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy09MusicCoreB006BordereF033_F5ED3014321945F1E2BE58A044A15282LLVGAA08_OverlayF0VyAA011StrokeShapeE0VyAF06CornerS0AHLLVAA5ColorVAA05EmptyE0VGGGAA0E0HPAjaXHPyHC_AvA0eF0HPyHCHC.47
+- get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy09MusicCoreB006ShadoweF033_F5ED3014321945F1E2BE58A044A15282LLVGAA011_BackgroundF0VyACyAA6ZStackVyAA05TupleE0VyACyAA01_iE0VyAF11CornerShapeAHLLVGAA14_PaddingLayoutVG_ACyAtA16_BlendModeEffectVGtGGAA017_CompositingGroupZ0VGGGAA0E0HPAjAA7_HPyHC_A5_AA0eF0HPyHCHC.48
+- get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE4boldyQrSbFQOyACyACyACyACyAA6ButtonVyAA012_ConditionalD0VyACyAA08ProgressE0VyAA05EmptyE0VANGAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGACyAA4TextVAA16_FlexFrameLayoutVGGGAA01_kl9TransformN0VySbGGAZGAUGAZG_Qo_AA011_BackgroundN0VyAA06_ShapeE0VyAA16RoundedRectangleVASGGGAaDHPqd__AaDHD2_A9_HO_A17_AA0eN0HPyHCHC.128
+- get_witness_table 7SwiftUI15ModifiedContentVyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGAA4ViewHPAeaMHPyHC_AkA0kI0HPyHCHC.130
+- get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyACyAA6SpacerVAA12_FrameLayoutVG_ACyACyACyACyACy09MusicCoreB006NoticeG0VAA08_PaddingJ0VGAQGAQGAA21_TraitWritingModifierVyAA010TransitionO3KeyVGGAA012_EnvironmentspQ0VyAM0M9DismissalVSgGGSgALtGGAA05_FlexiJ0VGAA0G0HPA8_AAA12_HPyHC_A10_AA0gQ0HPyHCHC.103
+- get_witness_table 7SwiftUI15ModifiedContentVyACyAA014_ViewModifier_D0Vy09MusicCoreB0012CornerRadiusF033_F5ED3014321945F1E2BE58A044A15282LLVGAA23_CompositingGroupEffectVGAA05_ClipT0VyAF0I5ShapeAHLLVGGAA0E0HPAmaTHPAjaTHPyHC_AlA0eF0HPyHCHC_AraUHPyHCHC.46
+- get_witness_table 7SwiftUI15ModifiedContentVyACyAA12ViewThatFitsVyAA05TupleE0VyAA6VStackVyAGyAIyAGyACyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA0J9AlignmentOGG_AQtGG_AA6SpacerVAA5ImageVAuA0E0PAAE11buttonStyleyQrqd__AA015PrimitiveButtonS0Rd__lFQOyAA0U0VyACyACyAkA14_PaddingLayoutVGAA010_FlexFrameW0VGG_AA017BorderedProminentuS0VQo_tGG_AIyAGyAS_AuCyA11_A3_GtGGAIyAGyAA06ScrollE0VyASG_AUA14_tGGtGGA3_GA3_GAaXHPA24_AaXHPA23_AaXHPyHC_A3_AA0eN0HPyHCHC_A3_AAA26_HPyHCHC.171
+- get_witness_table 7SwiftUI4FormVyAA9TupleViewVyAA0E0PAAE11pickerStyleyQrqd__AA06PickerG0Rd__lFQOyAA0H0VyAA15ModifiedContentVyAMyAA4TextVAA30_EnvironmentKeyWritingModifierVyAO4CaseOSgGGAQyAA4FontVSgGG16MusicApplication13ReportConcernO0U4ItemVSgAA7ForEachVySayA4_GSSAgAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAMyAoA14_PaddingLayoutVG_A5_Qo_GG_AA06InlinehG0VQo__AgAE9lineLimityQrs16PartialRangeFromVySiGFQOyAgAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA0K5FieldVyAOG_SSQo__Qo_SgtGGAaFHPyHC.56
+- get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx09MusicCoreB005HoverC8Modifier33_F5ED3014321945F1E2BE58A044A15282LLVGAaBHPxAaBHD1__AhA0cI0HPyHCHC.19
+- get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx09MusicCoreB006BorderC8Modifier33_F5ED3014321945F1E2BE58A044A15282LLVGAaBHPxAaBHD1__AhA0cI0HPyHCHC.17
+- get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx09MusicCoreB006ShadowC8Modifier33_F5ED3014321945F1E2BE58A044A15282LLVGAaBHPxAaBHD1__AhA0cI0HPyHCHC.18
+- get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx09MusicCoreB020CornerRadiusModifier33_F5ED3014321945F1E2BE58A044A15282LLVGAaBHPxAaBHD1__AhA0cJ0HPyHCHC.16
+- get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA15ModifiedContentVyAGyAGyAGyAGyAA4TextVAA30_EnvironmentKeyWritingModifierVyAI4CaseOSgGGAKyAA4FontVSgGGAKyAA5ColorVSgGGAA16_FlexFrameLayoutVGAA08_PaddingR0VGSg_09MusicCoreB0020InlineProfileEditingE0VAGyAGyAGyAGyAGyAiA010_FixedSizeR0VGAKyAA0H9AlignmentOGGATGAYGA3_GSgtGGAA0E0HPyHC.129
+- get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE11hoverEffect_9isEnabledQrqd___SbtAA011CustomHoverE0Rd__lFQOyAA15ModifiedContentVyAA01_c9Modifier_K0Vy09MusicCoreB00icL033_F5ED3014321945F1E2BE58A044A15282LLVGAA01_k9ShapeKindL0VyAK06CornerV0AMLLVGG_AA09HighlightiE0VQo_HO.50
+- get_witness_table qd__7SwiftUI4ViewHD2_AaBP018_MusicKitInternal_aB0E14artworkCaching2id5limitQrSS_SiSgtFQOyAA6HStackVyAA05TupleC0VyAA15ModifiedContentVyAJyALyAJyAA7ForEachVySaySi6offset_0d4CoreB016PlaylistCuratorsO7CuratorV7elementtGSiANyANyANyANyANyAcDE0G15LoadingObserveryQry0dE07ArtworkVSg_So6CGSizeVA0_ADE0W6StatusOtcFQOy01_de1_aB00Y5ImageVADE0G11PlaceholderyQrxA1__A3_AA5ColorVtcAaBRzlFQOy_AA012_ConditionalN0VyANyANyA8_ARE11PlaceholderOABVAA26_PreferenceWritingModifierVyAR29RadiosityEnabledPreferenceKeyVGGAA12_FrameLayoutVGAA14GeometryReaderVyA25_GGQo__Qo_AR24PlaceholderStyleModifierVGA24_GAR20CornerRadiusModifier33_F5ED3014321945F1E2BE58A044A15282LLVGAR06BorderC8ModifierA37_LLVGAA21_TraitWritingModifierVyAA14ZIndexTraitKeyVGGGG_ANyANyANyAcAE10textSuffixyQrAA4TextV6SuffixVFQOyA53__Qo_AA30_EnvironmentKeyWritingModifierVyAHGGA58_yAA5ImageV5ScaleOGGA58_yAA4FontVSgGGtGGAR05HoverC8ModifierA37_LLVG_AA6SpacerVSgtGG_Qo_HO.108
+- keypath_get.27Tm
+- keypath_get.29Tm
+- objectdestroy.100Tm
+- objectdestroy.104Tm
+- objectdestroy.117Tm
+- objectdestroy.11Tm
+- objectdestroy.136Tm
+- objectdestroy.141Tm
+- objectdestroy.158Tm
+- objectdestroy.163Tm
+- objectdestroy.166Tm
+- objectdestroy.16Tm
+- objectdestroy.172Tm
+- objectdestroy.177Tm
+- objectdestroy.186Tm
+- objectdestroy.201Tm
+- objectdestroy.225Tm
+- objectdestroy.226Tm
+- objectdestroy.252Tm
+- objectdestroy.258Tm
+- objectdestroy.263Tm
+- objectdestroy.266Tm
+- objectdestroy.270Tm
+- objectdestroy.276Tm
+- objectdestroy.27Tm
+- objectdestroy.292Tm
+- objectdestroy.305Tm
+- objectdestroy.317Tm
+- objectdestroy.320Tm
+- objectdestroy.33Tm
+- objectdestroy.349Tm
+- objectdestroy.355Tm
+- objectdestroy.369Tm
+- objectdestroy.382Tm
+- objectdestroy.399Tm
+- objectdestroy.439Tm
+- objectdestroy.442Tm
+- objectdestroy.45Tm
+- objectdestroy.47Tm
+- objectdestroy.54Tm
+- objectdestroy.57Tm
+- objectdestroy.59Tm
+- objectdestroy.60Tm
+- objectdestroy.66Tm
+- objectdestroy.69Tm
+- objectdestroy.75Tm
+- objectdestroy.82Tm
+- objectdestroy.86Tm
+- objectdestroy.95Tm
+CStrings:
++ "\n  load factor: "
++ "   Adjusted Translation=%{public}s, privacy: .public)"
++ "   Hosting View Width=%{public}s"
++ "   Total Time=%fs, privacy: .public)"
++ " ,:;"
++ " song(s) added to "
++ "\" must conform to SiriActionImplementation."
++ "\"shouldSkipBagControl\" User defaults is "
++ "$__lazy_storage_$_manager"
++ "%{public}s – donations disabled on this platform"
++ ", reservedScale: "
++ "/Library/Caches/com.apple.xbs/2F75CADE-00A9-43E6-B01E-2096F5AFB71E/TemporaryDirectory.GnP8Yg/Sources/Music/Apps/Legacy/Library/Sorting/SortOptionsController.swift"
++ "@\"MusicTextContentLayer\""
++ "@28@0:8@16f24"
++ "@28@0:8@16i24"
++ "ASE Music Recommendations"
++ "Althem is enabled"
++ "BucketIterator(scale: "
++ "CAAnimatableValue"
++ "CA_addValue:multipliedBy:"
++ "CA_distanceToValue:"
++ "CA_interpolateValue:byFraction:"
++ "CA_roundToIntegerFromValue:"
++ "Can't initialize with different type of layer "
++ "ContainerDetail.ShareButton"
++ "Decoded elements aren't unique (first duplicate at offset "
++ "DeviceCapabilities"
++ "Display Link invalidated"
++ "Failed to retrieve UIImage from data."
++ "Hash table has no unoccupied buckets"
++ "LyricsX"
++ "LyricsX.DespacitoContentLayer"
++ "LyricsX.InstrumentalContentLayer"
++ "LyricsX.LineLayer"
++ "LyricsX.LineProgressGradientLayer"
++ "LyricsX.SBS_TextContentLayer"
++ "LyricsX.SyllableContainerLayer"
++ "LyricsX.SyncedLyricsLineAccessibilityElement"
++ "LyricsX.SyncedLyricsLineLayer"
++ "LyricsX.TextContentLayer"
++ "LyricsX.TextLayer"
++ "LyricsX/LyricsTextLayer.swift"
++ "LyricsX/SBS_SyncedLyricsLineLayer+Text.swift"
++ "LyricsX/SyncedLyricsLineLayer+Instrumental.swift"
++ "LyricsX/SyncedLyricsLineLayer+Text.swift"
++ "LyricsX/SyncedLyricsLineLayer.swift"
++ "LyricsX/SyncedLyricsLineView_UIKit.swift"
++ "LyricsX/TextKitLabel.swift"
++ "MusicCoreUI.ContainerView"
++ "MusicDespacitoContentLayer"
++ "MusicInstrumentalContentLayer"
++ "MusicKit"
++ "MusicSBS_TextContentLayer"
++ "MusicSiriDonations/SiriActionDonator.swift"
++ "MusicSwiftCollections/_HashTable+BucketIterator.swift"
++ "MusicTextContentLayer"
++ "MusicUtilities"
++ "MusicUtilities.PartialRunLayer"
++ "PlayIntentButton.singShuffle"
++ "Playlist track list not editable"
++ "PlaylistEditor.Metadata.Artwork.UserUpload"
++ "ReportAConcernActionTitle"
++ "ShaderFallbackKit"
++ "State has remained none through delay. Updating now."
++ "T@\"MusicTextContentLayer\",N,&,VmainLineLayer"
++ "T@\"MusicTextContentLayer\",N,&,VtranslationLineLayer"
++ "TB,R,N,GisExternalPlaybackActive"
++ "Unexpected state. Will update after delay."
++ "Unknown supported status"
++ "Unknown unsupported reason"
++ "User-Uploaded Image"
++ "WordOverlayLayer "
++ "[SyncedLyricsVisualExperienceManager] New lyrics matches current lyrics, returning"
++ "_HashTable.Header"
++ "_HashTable.Storage"
++ "_HashTable.UnsafeHandle"
++ "_TtC7LyricsX12TextKitLabel"
++ "_TtC7LyricsX16NoAnimationLayer"
++ "_TtC7LyricsX21LayerPropertyAnimator"
++ "_TtC7LyricsX21SyncedLyricsLineLayer"
++ "_TtC7LyricsX25LineProgressGradientLayer"
++ "_TtC7LyricsX35SyncedLyricsVisualExperienceManager"
++ "_TtC7LyricsX36SyncedLyricsLineAccessibilityElement"
++ "_TtCC7LyricsX21SyncedLyricsLineLayer13TextContainer"
++ "_TtCC7LyricsX21SyncedLyricsLineLayer4Line"
++ "_TtCC7LyricsX21SyncedLyricsLineLayer4Word"
++ "_TtCC7LyricsX21SyncedLyricsLineLayer5Glyph"
++ "_TtCC7LyricsX21SyncedLyricsLineLayer8Syllable"
++ "_TtCC7LyricsX25LineProgressGradientLayerP33_9D7C40643C469448EA951CEB9521562F24NoAnimationGradientLayer"
++ "_TtCC7LyricsX26SyncedLyricsViewControllerP33_9CF5ACAE7175CE2250D4BE588FAFDE9510ScrollView"
++ "_TtCC7LyricsX35SyncedLyricsVisualExperienceManagerP33_D5BD2FE79A3A51CE2128A532331EB9EA20StaticTimingProvider"
++ "_TtCCC7LyricsX21SyncedLyricsLineLayer13TextContainer18TextContainerLayer"
++ "_TtCCC7LyricsX21SyncedLyricsLineLayer20SBS_TextContentLayer9TextLayer"
++ "_TtCCC7LyricsX21SyncedLyricsLineLayer4Line9LineLayer"
++ "_TtCCC7LyricsX21SyncedLyricsLineLayer4Word9WordLayer"
++ "_TtCCC7LyricsX21SyncedLyricsLineLayer5Glyph10GlyphLayer"
++ "_TtCCC7LyricsX21SyncedLyricsLineLayer8Syllable13SyllableLayer"
++ "_TtCCC7LyricsX21SyncedLyricsLineLayer8Syllable22SyllableContainerLayer"
++ "_TtCE14MusicUtilitiesaSo8CTRunRef15PartialRunLayer"
++ "_TtCV21MusicSwiftCollections10_HashTable7Storage"
++ "_catalogLyrics"
++ "actionForKey:"
++ "addedToPlaylists"
++ "althem"
++ "animationCurve"
++ "anthem"
++ "available"
++ "backgroundLayer"
++ "backgroundTextLayer"
++ "backgroundVocalsLayer"
++ "camera"
++ "canStartPictureInPictureAutomaticallyFromInline"
++ "color1"
++ "color2"
++ "color3"
++ "color4"
++ "completionCount"
++ "containerLayer"
++ "contentLayer"
++ "d24@0:8@16"
++ "deglowAnimator"
++ "delayedUpdateTimer"
++ "disable"
++ "displayLinkFired"
++ "enable"
++ "engagement:requestDismissIdentifier:dismissAction:placement:serviceType:"
++ "exitsFullScreenWhenPlaybackEnds"
++ "externalPlaybackActive"
++ "extraKeyPaths"
++ "files"
++ "fillLayer"
++ "force_anthem_unsupported_storefront"
++ "frameProvider"
++ "hidesVideoPlayerBackground"
++ "horizontalPaddingLayer"
++ "imagePlayground"
++ "initWithData:scale:"
++ "insertSublayer:atIndex:"
++ "intelligence bag is: "
++ "isExternalPlaybackActive"
++ "isUpdatingText"
++ "jagr"
++ "jake"
++ "joe"
++ "jordan"
++ "layerAnimationMap"
++ "layers"
++ "layoutAnimator"
++ "layoutSublayers"
++ "lineAccessibilityElements"
++ "lineLayer"
++ "lineUpdateAnimationData"
++ "lower upper "
++ "mainLineLayer"
++ "mask"
++ "monet"
++ "opacity"
++ "pendingTranslationLayerUpdate"
++ "pendingTransliterationLayerUpdate"
++ "photoLibrary"
++ "playlistCount songCount "
++ "playlistEditAvailable"
++ "playlistGeneration"
++ "setAdditive:"
++ "setAffineTransform:"
++ "setAttributes:range:"
++ "setCanStartPictureInPictureAutomaticallyFromInline:"
++ "setContentsFormat:"
++ "setExitsFullScreenWhenPlaybackEnds:"
++ "setHidesVideoPlayerBackground:"
++ "setHighFrameRateReason:"
++ "setMainLineLayer:"
++ "setNeedsDisplayOnBoundsChange:"
++ "setTranslationLineLayer:"
++ "setVideoEnabled:"
++ "setVideoEnabled:reason:"
++ "skipAnthemBagControl"
++ "supportsPlacementSparse"
++ "syllableLayer"
++ "textLayer"
++ "totalAnimations"
++ "transitionSafeStartDownbeat"
++ "translationLineLayer"
++ "transliterationLineLayer"
++ "v56@0:8@\"AMSEngagement\"16@\"NSString\"24q32@\"NSString\"40@\"NSString\"48"
++ "videoEnabled"
++ "| descriptor=%{public}s"
++ "| intent=%{public}s"
++ "| playActivityFeatureName=%{public}s"
++ "| playActivityRecommendationData=%{public}s"
++ "╭ ➕ Adding new playback intent with ID=%{public}s"
++ "╭ ⤵️ Inserting new intent with ID=%{public}s"
++ "╰ ✅ Successfully added intent with ID=%{public}s"
++ "╰ ✅ Successfully inserted intent with ID=%{public}s"
++ "╰ ❌ Insert failed for intent with ID=%{public}s, error=%{public}s"
++ "╰ ❌ Intent id=%{public}s) — Could not playback, subscription needed"
++ "╰ ❌ Intent id=%{public}s) — Could not present alertKind=%{public}s"
++ "╰ ❌ Intent id=%{public}s) — Could not produce playback commands=%{public}s"
++ "╰ ❌ Intent id=%{public}s) — Failed to add with error=%{public}s"
++ "╰ ❌ Intent id=%{public}s) — Missing player"
++ "╰ ❌ Intent id=%{public}s) — User cancelled"
+- "$__lazy_storage_$_backgroundView"
+- "%d.%d.%d"
+- "/Library/Caches/com.apple.xbs/Sources/Music/Apps/Legacy/Library/Sorting/SortOptionsController.swift"
+- "/System/Library/CoreServices/SystemVersion.plist"
+- "@\"CABasicAnimation\"32@0:8@\"UIView\"16@\"NSString\"24"
+- "@\"CAMediaTimingFunction\"16@0:8"
+- "@\"CAMediaTimingFunction\"32@0:8@\"UIView\"16@\"NSString\"24"
+- "@\"MusicTextContentView\""
+- "B32@0:8@\"UIView\"16@\"NSString\"24"
+- "CFDataCreateWithBytesNoCopy"
+- "CFDictionaryGetValue"
+- "CFGetTypeID"
+- "CFPropertyListCreateFromXMLData"
+- "CFPropertyListCreateWithData"
+- "CFRelease"
+- "CFStringCreateWithCStringNoCopy"
+- "CFStringGetCString"
+- "CFStringGetTypeID"
+- "Failed to pop navigation"
+- "Failed to pop to root"
+- "Failed to push to viewController=%{public}s with playActivityFields=%{public}s"
+- "JSApplicationMessageTarget"
+- "LyricsX.CustomCurveAnimationFactory"
+- "LyricsX.DespacitoContentView"
+- "LyricsX.GlyphContainerView"
+- "LyricsX.InstrumentalContentView"
+- "LyricsX.LineView"
+- "LyricsX.SBS_TextContentView"
+- "LyricsX.SyllableContainerView"
+- "LyricsX.TextContentView"
+- "LyricsX.TextView"
+- "LyricsX.WordContainerView"
+- "LyricsX/Glyph.swift"
+- "LyricsX/LyricsTextView.swift"
+- "LyricsX/SBS_SyncedLyricsLineView+Text.swift"
+- "LyricsX/SyncedLyricsLineView+Instrumental.swift"
+- "LyricsX/SyncedLyricsLineView+Text.swift"
+- "LyricsX/SyncedLyricsLineView.swift"
+- "LyricsX/Word.swift"
+- "MusicApplication/ReportConcernViewController.swift"
+- "MusicDespacitoContentView"
+- "MusicInstrumentalContentView"
+- "MusicSBS_TextContentView"
+- "MusicTextContentView"
+- "MusicUtilities.PartialRunView"
+- "Not the device library"
+- "Performing pop onto navigation controller=%{public}s"
+- "Performing pop to root onto navigation controller=%{public}s"
+- "Please describe your concern…"
+- "ProductVersion"
+- "Pushing to viewController=%{public}s with playActivityFields=%{public}s onto navigation controller=%{public}s"
+- "Referenced UIViewController has been deallocated — Unable to resolve presented view controllers states."
+- "Report a Concern"
+- "ShaderFallbackKit/VertexMap+UniqueMeshes.swift"
+- "T@\"MusicTextContentView\",N,&,VmainLineView"
+- "T@\"MusicTextContentView\",N,&,VtranslationLineView"
+- "What’s your concern with this content?"
+- "[SyncedLyricsDebug] setupUI: scrolling to "
+- "[SyncedLyricsDebug] updateInsets: scrolling to "
+- "_TtCC7LyricsX20SyncedLyricsLineView13TextContainer"
+- "_TtCC7LyricsX20SyncedLyricsLineView4Line"
+- "_TtCC7LyricsX20SyncedLyricsLineView4Word"
+- "_TtCC7LyricsX20SyncedLyricsLineView5Glyph"
+- "_TtCC7LyricsX20SyncedLyricsLineView8Syllable"
+- "_TtCC7LyricsX26SyncedLyricsViewControllerP33_02FB2ED49F3FD1C2D63F6922676AEE0410ScrollView"
+- "_TtCC7LyricsX26SyncedLyricsViewControllerP33_02FB2ED49F3FD1C2D63F6922676AEE0420StaticTimingProvider"
+- "_TtCCC7LyricsX20SyncedLyricsLineView13TextContainer17TextContainerView"
+- "_TtCCC7LyricsX20SyncedLyricsLineView19SBS_TextContentView8TextView"
+- "_TtCCC7LyricsX20SyncedLyricsLineView4Line8LineView"
+- "_TtCCC7LyricsX20SyncedLyricsLineView4Word17WordContainerView"
+- "_TtCCC7LyricsX20SyncedLyricsLineView4Word8WordView"
+- "_TtCCC7LyricsX20SyncedLyricsLineView5Glyph18GlyphContainerView"
+- "_TtCCC7LyricsX20SyncedLyricsLineView5Glyph9GlyphView"
+- "_TtCCC7LyricsX20SyncedLyricsLineView8Syllable12SyllableView"
+- "_TtCCC7LyricsX20SyncedLyricsLineView8Syllable21SyllableContainerView"
+- "_TtCE14MusicUtilitiesaSo8CTRunRef14PartialRunView"
+- "_TtCE16MusicApplicationC7MusicUI19MusicStackAuthority17NavigationHandler"
+- "_TtCO16MusicApplication13ReportConcern14ViewController"
+- "_TtCO16MusicApplication13ReportConcern9ViewModel"
+- "_TtCVC7LyricsX26SyncedLyricsViewController5SpecsP33_721F05E5229E32246B486C601D4C7EC827CustomCurveAnimationFactory"
+- "_UIBasicAnimationFactory"
+- "_animateWithDuration:delay:options:factory:animations:completion:"
+- "_basicAnimationForView:withKeyPath:"
+- "_commentText"
+- "_concerns"
+- "_selectedConcern"
+- "_shouldAnimateAdditivelyForView:withKeyPath:"
+- "_timingFunctionForAnimation"
+- "_timingFunctionForAnimationInView:withKeyPath:"
+- "accessibilityMainTextView"
+- "accessibilityTranslationLabel"
+- "album_detail"
+- "backgroundTextView"
+- "backgroundVocalsView"
+- "blueColor"
+- "catalogLyrics"
+- "contentReporter"
+- "controlPoint1"
+- "controlPoint2"
+- "cubicTimingParameters"
+- "currentAccessibilityLabel"
+- "deglowTask"
+- "displayLinkFired:"
+- "episodes"
+- "glyphView"
+- "greenColor"
+- "initWithDuration:controlPoint1:controlPoint2:animations:"
+- "ipad_motion_background"
+- "kCFAllocatorNull"
+- "library_artist"
+- "lineUpdateAnimator"
+- "lucky_roll"
+- "made_for_you"
+- "mainLineView"
+- "managingNavigationController"
+- "managingTabGroup"
+- "maskView"
+- "mini_player"
+- "movies"
+- "music_videos"
+- "navigationControllerProvider"
+- "now_playing"
+- "overlayView"
+- "parent"
+- "pendingTranslationViewUpdate"
+- "pendingTransliterationViewUpdate"
+- "pins"
+- "playlist_detail"
+- "playlist_folder"
+- "popToRootViewControllerAnimated:"
+- "powerStateObserver"
+- "r"
+- "recently_added"
+- "redColor"
+- "reduceMotionObserver"
+- "selectedTab"
+- "selectionChanged"
+- "setMainLineView:"
+- "setMaskView:"
+- "setSelected:animator:"
+- "setTranslationLineView:"
+- "shows"
+- "snapshotViewAfterScreenUpdates:"
+- "syllableView"
+- "tab"
+- "thermalLevelObserver"
+- "timingParameters"
+- "transitionStartValue"
+- "translationLineView"
+- "transliterationLineView"
+- "wordView"
+- "yellowColor"
+- "✅ Successfully added intent with ID=%{public}s"
+- "✅ Successfully inserted intent with ID=%{public}s"
+- "❌ Insert failed for intent with ID=%{public}s, error=%{public}s"
+- "❌ Intent id=%{public}s) — Could not playback, subscription needed"
+- "❌ Intent id=%{public}s) — Could not present alertKind=%{public}s"
+- "❌ Intent id=%{public}s) — Could not produce playback commands=%{public}s"
+- "❌ Intent id=%{public}s) — Failed to add with error=%{public}s"
+- "❌ Intent id=%{public}s) — Missing player"
+- "❌ Intent id=%{public}s) — User cancelled"
+- "➕ Adding new playback intent with ID=%{public}s, descriptor=%{public}s"
+- "⤵️ Inserting new intent with ID=%{public}s, intent=%{public}s"
+
+```

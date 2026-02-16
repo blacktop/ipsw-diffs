@@ -1,0 +1,113 @@
+## FitnessActions
+
+> `/System/Library/PrivateFrameworks/FitnessActions.framework/FitnessActions`
+
+```diff
+
+-2026.3.2.0.0
+-  __TEXT.__text: 0xa0974
+-  __TEXT.__auth_stubs: 0x18b0
+-  __TEXT.__const: 0xf940
+-  __TEXT.__cstring: 0x1382
+-  __TEXT.__swift5_typeref: 0x6c9b
+-  __TEXT.__swift5_capture: 0xda0
++2026.4.42.0.0
++  __TEXT.__text: 0x9fd28
++  __TEXT.__auth_stubs: 0x1870
++  __TEXT.__const: 0xf910
++  __TEXT.__swift5_typeref: 0x6aff
++  __TEXT.__swift5_capture: 0xd70
+   __TEXT.__swift5_reflstr: 0x1f60
+   __TEXT.__swift5_assocty: 0x518
+   __TEXT.__constg_swiftt: 0x334c
+   __TEXT.__swift5_fieldmd: 0x2998
+   __TEXT.__swift5_proto: 0xc14
+   __TEXT.__swift5_types: 0x3d8
++  __TEXT.__cstring: 0x1292
+   __TEXT.__swift5_protos: 0x10
+   __TEXT.__oslogstring: 0x10e
+   __TEXT.__swift_as_entry: 0xb0
+   __TEXT.__swift_as_ret: 0x11c
+   __TEXT.__swift5_builtin: 0x8c
+   __TEXT.__swift5_mpenum: 0x40
+-  __TEXT.__unwind_info: 0x2c28
+-  __TEXT.__eh_frame: 0x3430
+-  __TEXT.__objc_methname: 0x45
+-  __DATA_CONST.__got: 0x590
++  __TEXT.__unwind_info: 0x2be8
++  __TEXT.__eh_frame: 0x34d8
++  __TEXT.__objc_classname: 0x69
++  __TEXT.__objc_methname: 0x9a
++  __TEXT.__objc_methtype: 0x1
++  __TEXT.__objc_stubs: 0xa0
++  __DATA_CONST.__got: 0x578
+   __DATA_CONST.__const: 0xb0
+   __DATA_CONST.__objc_classlist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x28
+-  __AUTH_CONST.__auth_got: 0xc58
+-  __AUTH_CONST.__const: 0x7528
++  __AUTH_CONST.__auth_got: 0xc40
++  __AUTH_CONST.__const: 0x74b0
+   __AUTH_CONST.__objc_const: 0x160
+   __AUTH.__data: 0x238
+-  __DATA.__data: 0x2dd0
+-  __DATA.__bss: 0x12e40
++  __DATA.__data: 0x2c08
++  __DATA.__bss: 0x12c40
+   __DATA.__common: 0x18
+   __DATA_DIRTY.__objc_data: 0x50
+-  __DATA_DIRTY.__data: 0x1920
+-  __DATA_DIRTY.__bss: 0x5700
++  __DATA_DIRTY.__data: 0x1ad0
++  __DATA_DIRTY.__bss: 0x5900
+   __DATA_DIRTY.__common: 0x8
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CD0E9723-F534-3B10-B650-73CE527C6AAF
+-  Functions: 3982
+-  Symbols:   1899
+-  CStrings:  144
++  UUID: A763C31C-4168-3FB5-BE51-3A870831AD2A
++  Functions: 3969
++  Symbols:   1901
++  CStrings:  143
+ 
+Symbols:
++ _get_witness_table 14FitnessActions29LibraryItemIdentifierProtocolRzl7SwiftUI19_ConditionalContentVyAC08ModifiedJ0VyAGyAC6ButtonVyAC5LabelVyAC4TextVAC4ViewPACE15dynamicTypeSizeyQrqd__SXRd__AC07DynamicqR0O5BoundRtd__lFQOyAC5ImageV_s19PartialRangeThroughVyARGQo_GGAC32_EnvironmentKeyTransformModifierVySbGGAC25_AppearanceActionModifierVGAEyAEyAEyA7_AEyA7_A4_SgGSgGAEyAIyAKyAmC6ZStackVyAC05TupleO0VyAoCE8staticIf_4thenQrqd___qd_0_xXEtAC0O14InputPredicateRd__AcNRd_0_r0_lFQOyAC08ProgressO0VyAC05EmptyO0VA22_G_AC8SolariumVAGyA23_AC12_FrameLayoutVGQo__AGyAVA27_GtGGGGAIyAKyAMA30_GGGGAIyAKyAmVGGGGAcNHPA7_AcNHPA4_AcNHPA0_AcNHPyHC_A3_AC0O8ModifierHPyHCHC_A6_ACA43_HPyHCHC_A41_AcNHPA38_AcNHPA11_AcNHPA7_AcNHPA4_AcNHPA0_AcNHPyHC_A3_ACA43_HPyHCHC_A6_ACA43_HPyHCHC_A10_AcNHpA9_AcNHPA7_AcNHPA4_AcNHPA0_AcNHPyHC_A3_ACA43_HPyHCHC_A6_ACA43_HPyHCHC_A8_AcNHpA4_AcNHPA0_AcNHPyHC_A3_ACA43_HPyHCHC_HCHC_HCHC_A37_AcNHPA34_AcNHPyHC_A36_AcNHPyHCHCHC_A40_AcNHPyHCHCHC.9
++ _objc_msgSend$bundleForClass:
++ _objc_msgSend$code
++ _objc_msgSend$domain
++ _objc_msgSend$initWithRed:green:blue:alpha:
++ _objc_msgSend$mainBundle
++ _objc_release_x25
++ _objc_retain_x24
++ _objc_retain_x28
++ _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 8DataFlow10SideEffectO 14FitnessActions19PreviewButtonActionO
++ _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 8DataFlow10SideEffectO 14FitnessActions19SharingButtonActionO
++ _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 8DataFlow10SideEffectO 14FitnessActions20BookmarkButtonActionO
++ _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 8DataFlow10SideEffectO 14FitnessActions20DownloadButtonActionO
++ _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 8DataFlow10SideEffectO 14FitnessActions23RemoveLibraryItemActionO
++ _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 8DataFlow10SideEffectO 14FitnessActions26DynamicLibraryButtonActionO
+- _get_witness_table 14FitnessActions29LibraryItemIdentifierProtocolRzl7SwiftUI19_ConditionalContentVyAC08ModifiedJ0VyAGyAC6ButtonVyAC5LabelVyAC4TextVAC4ViewPACE15dynamicTypeSizeyQrqd__SXRd__AC07DynamicqR0O5BoundRtd__lFQOyAC5ImageV_s19PartialRangeThroughVyARGQo_GGAC32_EnvironmentKeyTransformModifierVySbGGAC25_AppearanceActionModifierVGAEyAEyAEyA7_AEyA7_A4_SgGSgGAEyAIyAKyAmC6ZStackVyAC05TupleO0VyAoCE8staticIf_4thenQrqd___qd_0_xXEtAC0O14InputPredicateRd__AcNRd_0_r0_lFQOyAC08ProgressO0VyAC05EmptyO0VA22_G_AC8SolariumVAGyA23_AC12_FrameLayoutVGQo__AGyAVA27_GtGGGGAIyAKyAMA30_GGGGAIyAKyAmVGGGGAcNHPA7_AcNHPA4_AcNHPA0_AcNHPyHC_A3_AC0O8ModifierHPyHCHC_A6_ACA43_HPyHCHC_A41_AcNHPA38_AcNHPA11_AcNHPA7_AcNHPA4_AcNHPA0_AcNHPyHC_A3_ACA43_HPyHCHC_A6_ACA43_HPyHCHC_A10_AcNHpA9_AcNHPA7_AcNHPA4_AcNHPA0_AcNHPyHC_A3_ACA43_HPyHCHC_A6_ACA43_HPyHCHC_A8_AcNHpA4_AcNHPA0_AcNHPyHC_A3_ACA43_HPyHCHC_HCHC_HCHC_A37_AcNHPA34_AcNHPyHC_A36_AcNHPyHCHCHC_A40_AcNHPyHCHCHC.14
+- _malloc
+- _objc_release_x24
+- _objc_release_x26
+- _objectdestroy.9Tm
+- _symbolic Say_____y_____GG 8DataFlow10SideEffectO 14FitnessActions19PreviewButtonActionO
+- _symbolic Say_____y_____GG 8DataFlow10SideEffectO 14FitnessActions19SharingButtonActionO
+- _symbolic Say_____y_____GG 8DataFlow10SideEffectO 14FitnessActions20BookmarkButtonActionO
+- _symbolic Say_____y_____GG 8DataFlow10SideEffectO 14FitnessActions20DownloadButtonActionO
+- _symbolic Say_____y_____GG 8DataFlow10SideEffectO 14FitnessActions23RemoveLibraryItemActionO
+- _symbolic Say_____y_____GG 8DataFlow10SideEffectO 14FitnessActions26DynamicLibraryButtonActionO
+- _symbolic _____y_____y_____yAAy_____yAAy__________y_____SgGG______y_____GQo______GG_____G______Qo_ 7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQO AA15ModifiedContentV AA0G0V AcAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamickL0O5BoundRtd__lFQO AA0fgE13ConfigurationV5LabelV AA30_EnvironmentKeyWritingModifierV AA4FontV s19PartialRangeThroughV AL AA14_PaddingLayoutV AA010_FlexFrameZ0V AA017BorderedProminentgE0V
+- _symbolic _____y_____y_____yAAy_____yAAy_____yAAy__________y_____SgGG______y_____GQo______GG_____G______Qo______y_____SgGG______AAyAX_____y_____GGAAyAxZy_____GGQo_ 7SwiftUI4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0C14InputPredicateRd__AaBRd_0_AaBRd_1_r1_lFQO AA15ModifiedContentV AcAE11buttonStyleyQrqd__AA015PrimitiveButtonM0Rd__lFQO AA0O0V AcAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicqR0O5BoundRtd__lFQO AA0noM13ConfigurationV5LabelV AA30_EnvironmentKeyWritingModifierV AA4FontV s19PartialRangeThroughV AP AA14_PaddingLayoutV AA16_FlexFrameLayoutV AA017BorderedProminentoM0V AA011_BackgroundZ0V AA5ColorV AA8SolariumV AA11_ClipEffectV AA7CapsuleV AA16RoundedRectangleV
+- _symbolic _____y_____y_____y_____y_____y__________GGABy_____y______y_____G_____ySaySi6offset_Su7elementtGSu_____y_____yAH_Qo__Qo_GGASGSgGG______Qo_ 7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQO AA5GroupV AA19_ConditionalContentV AA0G0V AA5LabelV AA4TextV AA5ImageV AA09_VariadicC0O4TreeV AA11_LayoutRootV AA03AnyP0V AA7ForEachV AC011_JetEngine_aB0E14impressionable_13configuration8position20definesParentContextQr0uV017ImpressionMetricsVSg_A5_21ImpressionsCalculatorC13ConfigurationVSiSgSbtFQO AC011FitnessCoreB0E30fitnessAccessibilityIdentifieryQrSSd_tFQO 14FitnessActions018StartWorkoutActionE0V
+CStrings:
+- "Contradictory frame constraints specified."
+
+```

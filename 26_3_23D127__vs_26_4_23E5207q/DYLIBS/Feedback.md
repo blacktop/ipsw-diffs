@@ -1,0 +1,685 @@
+## Feedback
+
+> `/System/Library/PrivateFrameworks/Feedback.framework/Feedback`
+
+```diff
+
+-191.13.0.0.0
+-  __TEXT.__text: 0x10261c
+-  __TEXT.__auth_stubs: 0x3400
++208.2.0.0.0
++  __TEXT.__text: 0x113648
++  __TEXT.__auth_stubs: 0x3480
+   __TEXT.__objc_methlist: 0xa08
+-  __TEXT.__const: 0xb354
+-  __TEXT.__cstring: 0x583c
+-  __TEXT.__constg_swiftt: 0x394c
+-  __TEXT.__swift5_typeref: 0xba36
++  __TEXT.__const: 0xb184
++  __TEXT.__constg_swiftt: 0x399c
++  __TEXT.__swift5_typeref: 0xbe1e
+   __TEXT.__swift5_builtin: 0x154
+-  __TEXT.__swift5_reflstr: 0x23ea
+-  __TEXT.__swift5_fieldmd: 0x2744
+-  __TEXT.__swift5_assocty: 0x8b8
+-  __TEXT.__swift5_capture: 0x1034
+-  __TEXT.__swift5_proto: 0x56c
+-  __TEXT.__swift5_types: 0x310
+-  __TEXT.__oslogstring: 0x39ea
++  __TEXT.__swift5_reflstr: 0x239a
++  __TEXT.__swift5_fieldmd: 0x2704
++  __TEXT.__swift5_assocty: 0x858
++  __TEXT.__cstring: 0x41c6
++  __TEXT.__swift5_capture: 0x1324
++  __TEXT.__swift5_proto: 0x550
++  __TEXT.__swift5_types: 0x30c
++  __TEXT.__oslogstring: 0x3d0a
+   __TEXT.__swift5_mpenum: 0x40
+   __TEXT.__swift_as_entry: 0x9c
+   __TEXT.__swift_as_ret: 0xe4
+   __TEXT.__swift5_protos: 0x18
+-  __TEXT.__unwind_info: 0x3340
+-  __TEXT.__eh_frame: 0x2e1c
+-  __TEXT.__objc_classname: 0x116
+-  __TEXT.__objc_methname: 0x2295
+-  __TEXT.__objc_methtype: 0x915
+-  __DATA_CONST.__got: 0xee0
++  __TEXT.__unwind_info: 0x32d0
++  __TEXT.__eh_frame: 0x2e34
++  __TEXT.__objc_classname: 0x817
++  __TEXT.__objc_methname: 0x30f9
++  __TEXT.__objc_methtype: 0xf04
++  __TEXT.__objc_stubs: 0x20e0
++  __DATA_CONST.__got: 0xf38
+   __DATA_CONST.__const: 0x508
+   __DATA_CONST.__objc_classlist: 0xe8
+   __DATA_CONST.__objc_protolist: 0xc8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0xb08
+   __DATA_CONST.__objc_protorefs: 0x70
+-  __AUTH_CONST.__auth_got: 0x1a00
+-  __AUTH_CONST.__const: 0x6aa8
+-  __AUTH_CONST.__objc_const: 0x34b8
+-  __AUTH.__objc_data: 0x1528
+-  __AUTH.__data: 0x26f8
+-  __DATA.__data: 0x3810
++  __AUTH_CONST.__auth_got: 0x1a48
++  __AUTH_CONST.__const: 0x6e28
++  __AUTH_CONST.__objc_const: 0x34d8
++  __AUTH.__objc_data: 0x1538
++  __AUTH.__data: 0x2708
++  __DATA.__data: 0x3808
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__bss: 0xad48
++  __DATA.__bss: 0xa8b8
+   __DATA.__common: 0x130
+   __DATA_DIRTY.__objc_data: 0x720
+-  __DATA_DIRTY.__data: 0x2a8
+-  __DATA_DIRTY.__bss: 0x500
++  __DATA_DIRTY.__data: 0x2f0
+   __DATA_DIRTY.__common: 0x20
++  __DATA_DIRTY.__bss: 0x600
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 124E7F51-39D1-3F78-8968-BF37EA1EEDD7
+-  Functions: 5161
+-  Symbols:   2698
+-  CStrings:  1290
++  UUID: 889163BB-7E35-3C58-B348-9C8CC3A114D3
++  Functions: 5184
++  Symbols:   3007
++  CStrings:  1299
+ 
+Symbols:
++ __PROTOCOLS__TtC8FeedbackP33_EE21497D76FC0771846C2AC1D57947B534FBK_EXQueryObserverDelegateWrapper.64
++ __PROTOCOLS__TtC8FeedbackP33_EE21497D76FC0771846C2AC1D57947B539FBK_EXHostViewControllerDelegateWrapper.53
++ _block_copy_helper.109
++ _block_copy_helper.119
++ _block_copy_helper.125
++ _block_copy_helper.129
++ _block_copy_helper.139
++ _block_copy_helper.14
++ _block_copy_helper.140
++ _block_copy_helper.146
++ _block_copy_helper.153
++ _block_copy_helper.164
++ _block_copy_helper.170
++ _block_copy_helper.172
++ _block_copy_helper.173
++ _block_copy_helper.176
++ _block_copy_helper.185
++ _block_copy_helper.201
++ _block_copy_helper.214
++ _block_copy_helper.217
++ _block_copy_helper.221
++ _block_copy_helper.227
++ _block_copy_helper.236
++ _block_copy_helper.245
++ _block_copy_helper.251
++ _block_copy_helper.257
++ _block_copy_helper.276
++ _block_copy_helper.37
++ _block_copy_helper.39
++ _block_copy_helper.45
++ _block_copy_helper.52
++ _block_copy_helper.86
++ _block_copy_helper.92
++ _block_descriptor.111
++ _block_descriptor.121
++ _block_descriptor.127
++ _block_descriptor.131
++ _block_descriptor.141
++ _block_descriptor.142
++ _block_descriptor.148
++ _block_descriptor.155
++ _block_descriptor.16
++ _block_descriptor.166
++ _block_descriptor.172
++ _block_descriptor.174
++ _block_descriptor.175
++ _block_descriptor.178
++ _block_descriptor.187
++ _block_descriptor.203
++ _block_descriptor.216
++ _block_descriptor.219
++ _block_descriptor.223
++ _block_descriptor.229
++ _block_descriptor.238
++ _block_descriptor.247
++ _block_descriptor.253
++ _block_descriptor.259
++ _block_descriptor.278
++ _block_descriptor.39
++ _block_descriptor.41
++ _block_descriptor.47
++ _block_descriptor.54
++ _block_descriptor.88
++ _block_descriptor.94
++ _block_destroy_helper.110
++ _block_destroy_helper.120
++ _block_destroy_helper.126
++ _block_destroy_helper.130
++ _block_destroy_helper.140
++ _block_destroy_helper.141
++ _block_destroy_helper.147
++ _block_destroy_helper.15
++ _block_destroy_helper.154
++ _block_destroy_helper.165
++ _block_destroy_helper.171
++ _block_destroy_helper.173
++ _block_destroy_helper.174
++ _block_destroy_helper.177
++ _block_destroy_helper.186
++ _block_destroy_helper.202
++ _block_destroy_helper.215
++ _block_destroy_helper.218
++ _block_destroy_helper.222
++ _block_destroy_helper.228
++ _block_destroy_helper.237
++ _block_destroy_helper.246
++ _block_destroy_helper.252
++ _block_destroy_helper.258
++ _block_destroy_helper.277
++ _block_destroy_helper.38
++ _block_destroy_helper.40
++ _block_destroy_helper.46
++ _block_destroy_helper.53
++ _block_destroy_helper.87
++ _block_destroy_helper.93
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOQr.4
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentH0OAA0J0OSgqd__yctAaBRd__lFQOQr.1
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOqd__AaBHC.5
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentH0OAA0J0OSgqd__yctAaBRd__lFQOqd0__AaBHC.2
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA6VStackVyAA9TupleViewVyAA6SpacerV_ACyAA0G0PAAE10fontWeightyQrAA4FontV0J0VSgFQOyACyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA0L9AlignmentOGG_Qo_AA14_PaddingLayoutVGAkAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQOyAA06ScrollG0VyAEyAA012_ConditionalD0VyAEyAGyAY_AItGGAGy8Feedback3Row33_DAC8BD4B02283985EBB63480AE1FAE38LLV_A14_A14_tGGGG_AA0fvD0VyAA0vD7BuilderV10buildBlockyQrxAAA4_RzlFZQOy_AA0V4ItemVyytAA6ButtonVyASGGQo_Sg_A25_yytAIGA29_tGQo_tGGA0_GAA010_FlexFrameS0VGAaJHPA37_AaJHPA36_AaJHPyHC_A0_AA0gP0HPyHCHC_A39_AAA41_HPyHCHC.34
++ _get_witness_table 7SwiftUI19_ConditionalContentVyACyAA15NavigationStackVyAA0E4PathV8Feedback019BatchEvaluationViewD0VGAJGAA6VStackVyAA05TupleK0VyAA5ImageV_AA4TextVtGGGAA0K0HPAlaXHPAkaXHPyHC_AjaXHPyHCHC_AvaXHPyHCHC.51
++ _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA15ModifiedContentVyAGyAA5ImageVAA24_ForegroundStyleModifierVyAA5ColorVGGAA022_EnvironmentKeyWritingK0VyAA4FontVSgGG_AA6VStackVyAEyACyAEyAA4TextV_AA6SpacerVtGG_AZtGGtGGAA0E0HPyHC.39
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAA15ModifiedContentVyAcAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQOyAcAEAOyQrAPRld__CAqRRd__lFQOyAcAEAOyQrAPRld__CAqRRd__lFQOyAcAEAOyQrAPRld__CAqRRd__lFQOyAcAEAOyQrAPRld__CAqRRd__lFQOyAcAEAOyQrAPRld__CAqRRd__lFQOyAcAE5sheet11isPresented0D7Dismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOyAcAEAstuVQrAY_AZqd__yctAaBRd__lFQOyAcAE7toolbarAVQrqd__yXE_tAA07ToolbarN0Rd__lFQOyAA6ZStackVyAA012_ConditionalN0VyAcAE011interactiveU8DisabledyQrSbFQOy8Feedback015BatchOnboardingC0V_Qo_AA05TupleC0VyA4_yA4_yA4_yA6_9CardStackVANyA6_013BatchLoadMoreC0VAA14_PaddingLayoutVGGA4_yANyA6_010BatchEmptyC0VA17_GANyA6_012BatchLoadingC0VA17_GGGANyA6_011BatchStatusC0VA17_GG_A6_11DebugWindowVSgtGGG_AA05TupleyN0VyAA0yN7BuilderV10buildBlockyQrxAAA0_RzlFZQOy_AA0Y4ItemVyytAA6ButtonVyAA5ImageVGGQo_Sg_A52_A41_A42_yQrxAAA0_RzlFZQOy_A44_yytAcAE7popoverAT16attachmentAnchor9arrowEdgeAVQrAY_AA23PopoverAttachmentAnchorOAA4EdgeOSgqd__yctAaBRd__lFQOyAcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQOyA46_yANyANyA6_14ScoreIndicatorVAA01_N13ShapeModifierVyAA9RectangleVGGA17_GG_AA16PlainButtonStyleVQo__A6_11ScoreDetailVQo_GQo_SgtGQo__A6_10DebugSheetVQo__A6_12ScoreLevelUpVQo__A6_15BatchControllerCQo__A6_18DonationControllerCQo__A6_15ScoreControllerCQo__A6_15StateControllerCQo__A6_20OnboardingControllerCQo__A6_15DebugControllerCQo_AA30_EnvironmentKeyWritingModifierVyAA13AnyShapeStyleVSgGG_Qo__AA10ScenePhaseOQo_HO.53
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAA15ModifiedContentVyAKyAKyAKyAcAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQOy8Feedback4CardVyAA14GeometryReaderVyAKyAA6VStackVyAA05TupleC0VyAA6HStackVyAXyAKyAP07AppMetaC0VAA25_AllowsHitTestingModifierVG_AA6SpacerVAP10SkipButtonVtGG_AKyAZyAXyAKyAKyAA4TextVAA022_EnvironmentKeyWritingZ0VySiSgGGA13_y12CoreGraphics7CGFloatVGG_A5_tGGA2_GAA012_ConditionalJ0VyAP9PreviewerVAXyA28__AA7DividerVA28_tGGA5_AZyA26_yAXyAP12ActionButtonV_A34_tGAA05EmptyC0VGGtGGA20_GGG_AP23FBKEvaluationControllerCQo_A13_yAA5ColorVSgGGAA013_TraitWritingZ0VyAA18TransitionTraitKeyVGGAA16_FlexFrameLayoutVGAP013FBKEvaluationcZ033_6141CC318CFD22D4662C8620F73FEFB3LLVG_Qo_HO.43
++ _keypath_set.14Tm
++ _objc_msgSend$CGImage
++ _objc_msgSend$ID
++ _objc_msgSend$JSONObjectWithData:options:error:
++ _objc_msgSend$_deleteCurrentDraftWithCompletion:
++ _objc_msgSend$_setColorFilterEnabled:
++ _objc_msgSend$_setDrawsBackground:
++ _objc_msgSend$abortAllSessions
++ _objc_msgSend$actionWithTitle:style:handler:
++ _objc_msgSend$activateConstraints:
++ _objc_msgSend$addAction:
++ _objc_msgSend$addChildViewController:
++ _objc_msgSend$addSubview:
++ _objc_msgSend$agreeButtonText
++ _objc_msgSend$alertControllerWithTitle:message:preferredStyle:
++ _objc_msgSend$allChoices
++ _objc_msgSend$allVisibleAnswers
++ _objc_msgSend$animateChanges:
++ _objc_msgSend$answerType
++ _objc_msgSend$answers
++ _objc_msgSend$appendAttributedString:
++ _objc_msgSend$archivedDataWithRootObject:requiringSecureCoding:error:
++ _objc_msgSend$authenticateWithContext:completion:
++ _objc_msgSend$authenticationContextForUsername:
++ _objc_msgSend$autoGathersDiagnosticExtensions
++ _objc_msgSend$autoLoginWithCompletion:
++ _objc_msgSend$bodyText
++ _objc_msgSend$boolForKey:
++ _objc_msgSend$boolValue
++ _objc_msgSend$bottomAnchor
++ _objc_msgSend$boundingRectWithSize:options:attributes:context:
++ _objc_msgSend$bugForm
++ _objc_msgSend$bugFormStubs
++ _objc_msgSend$bundleForClass:
++ _objc_msgSend$bundleIdentifier
++ _objc_msgSend$centerXAnchor
++ _objc_msgSend$centerYAnchor
++ _objc_msgSend$closeDraftAndDelete:completion:
++ _objc_msgSend$code
++ _objc_msgSend$constraintEqualToAnchor:
++ _objc_msgSend$contentItem
++ _objc_msgSend$copyItemAtURL:toURL:error:
++ _objc_msgSend$createDirectoryAtURL:withIntermediateDirectories:attributes:error:
++ _objc_msgSend$currentDevice
++ _objc_msgSend$currentUser
++ _objc_msgSend$declineButtonText
++ _objc_msgSend$decodeBoolForKey:
++ _objc_msgSend$decodeIntegerForKey:
++ _objc_msgSend$defaultManager
++ _objc_msgSend$defaultTeam
++ _objc_msgSend$deleteDraftFromContentItem:completion:
++ _objc_msgSend$description
++ _objc_msgSend$devicesController
++ _objc_msgSend$didFailSubmissionWithError:
++ _objc_msgSend$didRequestViewDismissalWithSaved:
++ _objc_msgSend$didRequestViewFullScreen
++ _objc_msgSend$dismissViewControllerAnimated:completion:
++ _objc_msgSend$domain
++ _objc_msgSend$draftingController
++ _objc_msgSend$encodeBool:forKey:
++ _objc_msgSend$encodeInteger:forKey:
++ _objc_msgSend$encodeObject:forKey:
++ _objc_msgSend$enumeratorWithOptions:
++ _objc_msgSend$evaluateJavaScript:completionHandler:
++ _objc_msgSend$extensionPointIdentifierQuery:
++ _objc_msgSend$extensions
++ _objc_msgSend$feedbackDidCompleteWithResponseType:responseID:completedForm:
++ _objc_msgSend$feedbackDidFailToAttachURL:nsError:
++ _objc_msgSend$feedbackDraftViewController:didCompleteWithFeedbackID:
++ _objc_msgSend$feedbackDraftViewController:didCompleteWithResponseType:responseID:
++ _objc_msgSend$feedbackDraftViewController:didFailToAttachURL:error:
++ _objc_msgSend$feedbackDraftViewController:didFailToStartWithError:
++ _objc_msgSend$feedbackDraftViewController:didFailToSubmitFeedback:
++ _objc_msgSend$feedbackDraftViewControllerDidCancel:
++ _objc_msgSend$feedbackDraftViewControllerDidLoadForm:
++ _objc_msgSend$feedbackFrameworkLoadDataWithFormTat:orFormID:completion:
++ _objc_msgSend$fileExistsAtPath:
++ _objc_msgSend$fileURL
++ _objc_msgSend$formResponse
++ _objc_msgSend$hasSignedInSystemAccount
++ _objc_msgSend$horizontalSizeClass
++ _objc_msgSend$imageByApplyingTransform:
++ _objc_msgSend$init
++ _objc_msgSend$initWithArray:
++ _objc_msgSend$initWithAttributedString:
++ _objc_msgSend$initWithBundleIdentifier:
++ _objc_msgSend$initWithCGImage:
++ _objc_msgSend$initWithCIImage:
++ _objc_msgSend$initWithCoder:
++ _objc_msgSend$initWithConfiguration:
++ _objc_msgSend$initWithData:
++ _objc_msgSend$initWithDescription:URL:
++ _objc_msgSend$initWithDescription:diagnosticExtensionIdentifier:
++ _objc_msgSend$initWithDomain:code:userInfo:
++ _objc_msgSend$initWithFrame:configuration:
++ _objc_msgSend$initWithNibName:bundle:
++ _objc_msgSend$initWithQueries:delegate:
++ _objc_msgSend$initWithRootViewController:
++ _objc_msgSend$initWithSize:scale:
++ _objc_msgSend$initWithString:
++ _objc_msgSend$initWithString:attributes:
++ _objc_msgSend$initWithURL:resolvingAgainstBaseURL:
++ _objc_msgSend$initWithUnsignedInteger:
++ _objc_msgSend$integerForKey:
++ _objc_msgSend$integerValue
++ _objc_msgSend$interactiveStartupUsingSystemAccount:completion:
++ _objc_msgSend$interfaceWithProtocol:
++ _objc_msgSend$invalidate
++ _objc_msgSend$isAnswered
++ _objc_msgSend$isAppleConnectUser
++ _objc_msgSend$isBeingDismissed
++ _objc_msgSend$isBeingDismissedBySelf
++ _objc_msgSend$isMainThread
++ _objc_msgSend$isPIPLConsent
++ _objc_msgSend$isRequired
++ _objc_msgSend$isSystemAccount
++ _objc_msgSend$isUnauthenticatedUser
++ _objc_msgSend$largeDetent
++ _objc_msgSend$largeTitleIcon
++ _objc_msgSend$leadingAnchor
++ _objc_msgSend$learnMoreURL
++ _objc_msgSend$loadHTMLString:baseURL:
++ _objc_msgSend$loadNewResponseForBugFormStub:forTeam:completion:
++ _objc_msgSend$loadRequest:
++ _objc_msgSend$localizedName
++ _objc_msgSend$localizedStringForDate:relativeToDate:
++ _objc_msgSend$logOutIfNeededAndRun:
++ _objc_msgSend$loginAsUnauthenticatedUserWithCompletion:
++ _objc_msgSend$loginManager
++ _objc_msgSend$loginState
++ _objc_msgSend$loginWithAppleConnectToken:completion:
++ _objc_msgSend$loginWithSystemAccountWithCompletion:
++ _objc_msgSend$loginWithUsername:authenticationResults:completion:
++ _objc_msgSend$mainBundle
++ _objc_msgSend$makeContentViewController
++ _objc_msgSend$makeXPCConnectionWithError:
++ _objc_msgSend$nextResponder
++ _objc_msgSend$originalLocalFileURL
++ _objc_msgSend$overrideEnvironment:host:
++ _objc_msgSend$pendingConsents
++ _objc_msgSend$pendingQandA
++ _objc_msgSend$platform
++ _objc_msgSend$predicateForAllStubs
++ _objc_msgSend$preferredFontForTextStyle:
++ _objc_msgSend$prepareImageForDescriptor:
++ _objc_msgSend$presentViewController:animated:completion:
++ _objc_msgSend$presentationController
++ _objc_msgSend$presentedViewController
++ _objc_msgSend$presentingViewController
++ _objc_msgSend$queryItems
++ _objc_msgSend$question
++ _objc_msgSend$questionID
++ _objc_msgSend$recordConsentResponseForConsent:response:completionWithError:
++ _objc_msgSend$remoteObjectProxyWithErrorHandler:
++ _objc_msgSend$removeFromParentViewController
++ _objc_msgSend$removeFromSuperview
++ _objc_msgSend$removeItemAtURL:error:
++ _objc_msgSend$resetContentAndFormItems
++ _objc_msgSend$resume
++ _objc_msgSend$role
++ _objc_msgSend$saveDraftWithIsClosing:completion:
++ _objc_msgSend$scrollView
++ _objc_msgSend$selectedDetentIdentifier
++ _objc_msgSend$serviceName
++ _objc_msgSend$setActivityIndicatorViewStyle:
++ _objc_msgSend$setAllowsAttachmentDragAndDrop:
++ _objc_msgSend$setAlternateImagePreviewEnabled:
++ _objc_msgSend$setAlwaysDeletesDrafts:
++ _objc_msgSend$setAppToken:
++ _objc_msgSend$setAutoGathersDiagnosticExtensions:
++ _objc_msgSend$setBackgroundColor:
++ _objc_msgSend$setBouncesVertically:
++ _objc_msgSend$setCanShowTeamPicker:
++ _objc_msgSend$setCanShowTopicPicker:
++ _objc_msgSend$setCandidateFormStubsPredicate:
++ _objc_msgSend$setClasses:forSelector:argumentIndex:ofReply:
++ _objc_msgSend$setDateFormat:
++ _objc_msgSend$setDateStyle:
++ _objc_msgSend$setDateTimeStyle:
++ _objc_msgSend$setDelegate:
++ _objc_msgSend$setDetents:
++ _objc_msgSend$setDisableAccountSwitching:
++ _objc_msgSend$setExportedInterface:
++ _objc_msgSend$setExportedObject:
++ _objc_msgSend$setExtension:
++ _objc_msgSend$setFeedbackForm:reply:
++ _objc_msgSend$setInterruptionHandler:
++ _objc_msgSend$setInvalidationHandler:
++ _objc_msgSend$setIsAppleConnectUser:
++ _objc_msgSend$setIsUsernameEditable:
++ _objc_msgSend$setLargeTitleIcon:
++ _objc_msgSend$setLargestUndimmedDetentIdentifier:
++ _objc_msgSend$setLocalizedAttachmentLegalText:
++ _objc_msgSend$setLocalizedAttributedLegalString:
++ _objc_msgSend$setModalInPresentation:
++ _objc_msgSend$setModalPresentationStyle:
++ _objc_msgSend$setNavigationDelegate:
++ _objc_msgSend$setObject:forKey:
++ _objc_msgSend$setOnBoardingKitIdentifier:
++ _objc_msgSend$setPendingAttachments:
++ _objc_msgSend$setPendingQandA:
++ _objc_msgSend$setPendingStub:
++ _objc_msgSend$setPrefersGrabberVisible:
++ _objc_msgSend$setPresentingViewController:
++ _objc_msgSend$setReAuthHandler:
++ _objc_msgSend$setReason:
++ _objc_msgSend$setRemoteObjectInterface:
++ _objc_msgSend$setRequestedPlugIns:
++ _objc_msgSend$setSelectedDetentIdentifier:
++ _objc_msgSend$setShouldAllowAppleIDCreation:
++ _objc_msgSend$setShouldShowAttachmentButton:
++ _objc_msgSend$setShouldShowUserSwitcherInForm:
++ _objc_msgSend$setShowInlineUserInfo:
++ _objc_msgSend$setShowUserSwitcherLast:
++ _objc_msgSend$setShowsCompletionPage:
++ _objc_msgSend$setSubmissionStyle:
++ _objc_msgSend$setTimeStyle:
++ _objc_msgSend$setTitle:
++ _objc_msgSend$setTranslatesAutoresizingMaskIntoConstraints:
++ _objc_msgSend$setUnitsStyle:
++ _objc_msgSend$setUseInlineChoices:
++ _objc_msgSend$setUserInteractionEnabled:
++ _objc_msgSend$setUsername:
++ _objc_msgSend$setView:
++ _objc_msgSend$sharedApplication
++ _objc_msgSend$sharedInstance
++ _objc_msgSend$sharedSession
++ _objc_msgSend$sharedUserDefaults
++ _objc_msgSend$sheetPresentationController
++ _objc_msgSend$shouldShowAttachmentButton
++ _objc_msgSend$shouldShowUserSwitcherInForm
++ _objc_msgSend$showInlineUserInfo
++ _objc_msgSend$showUserSwitcherLast
++ _objc_msgSend$sizeWithAttributes:
++ _objc_msgSend$standardUserDefaults
++ _objc_msgSend$startAnimating
++ _objc_msgSend$stringForKey:
++ _objc_msgSend$stringFromDate:
++ _objc_msgSend$stringValue
++ _objc_msgSend$suspend
++ _objc_msgSend$symbolImageName
++ _objc_msgSend$systemBackgroundColor
++ _objc_msgSend$systemFontOfSize:
++ _objc_msgSend$tat
++ _objc_msgSend$text
++ _objc_msgSend$title
++ _objc_msgSend$topAnchor
++ _objc_msgSend$touchesBegan:withEvent:
++ _objc_msgSend$touchesCancelled:withEvent:
++ _objc_msgSend$touchesEnded:withEvent:
++ _objc_msgSend$touchesMoved:withEvent:
++ _objc_msgSend$trailingAnchor
++ _objc_msgSend$traitCollection
++ _objc_msgSend$unsignedIntegerValue
++ _objc_msgSend$userInfo
++ _objc_msgSend$userInterfaceIdiom
++ _objc_msgSend$username
++ _objc_msgSend$value
++ _objc_msgSend$valueForEntitlement:
++ _objc_msgSend$values
++ _objc_msgSend$view
++ _objc_msgSend$visible
++ _objc_msgSend$willMoveToParentViewController:
++ _objc_msgSend$window
++ _objc_retain_x10
++ _objectdestroy.127Tm
++ _objectdestroy.212Tm
++ _objectdestroy.240Tm
++ _objectdestroy.31Tm
++ _objectdestroy.42Tm
++ _objectdestroy.50Tm
++ _objectdestroy.63Tm
++ _objectdestroy.66Tm
++ _objectdestroy.72Tm
++ _objectdestroy.79Tm
++ _swift_bridgeObjectRelease_n
++ _swift_bridgeObjectRetain_n
++ _symbolic So17UIAlertControllerC
++ _symbolic _____Sg 12FeedbackCore19AuthenticationErrorO
++ _symbolic _____Sg 15FeedbackService15FBKSInteractionC15StructuredValueO
++ _symbolic _____SgXwz_Xx 8Feedback31DraftingExtensionViewControllerC
++ _symbolic _____Sg_ABt 15FeedbackService14FBKSEvaluationC12FormResponseV
++ _symbolic _____Sg_ABt 15FeedbackService15FBKSInteractionC16AnnotatedContentV
++ _symbolic _____Sg_ABt 15FeedbackService15FBKSInteractionC7ContentO
++ _symbolic _____yAAyAAyAAyAAy_____y_____y_____yAAy_____y_____y_____yAEyAAy__________G___________tGG_AAyAFyAEyAAyAAy__________ySiSgGGAOy_____GG_AJtGGAHG_____y_____AEyAZ______AZtGGAjFyAYyAEy______A2_tG_____GGtGGATGGG______Qo_AOy_____SgGG_____y_____GG_____G_____G_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO 8Feedback4CardV AA14GeometryReaderV AA6VStackV AA05TupleE0V AA6HStackV AJ07AppMetaE0V AA25_AllowsHitTestingModifierV AA6SpacerV AJ10SkipButtonV AA4TextV AA022_EnvironmentKeyWritingU0V 12CoreGraphics7CGFloatV AA012_ConditionalD0V AJ9PreviewerV AA7DividerV AJ06ActionX0V AA05EmptyE0V AJ23FBKEvaluationControllerC AA5ColorV AA013_TraitWritingU0V AA18TransitionTraitKeyV AA16_FlexFrameLayoutV AJ013FBKEvaluationeU033_6141CC318CFD22D4662C8620F73FEFB3LLV AA14_TaskModifier2V
++ _symbolic _____yAAy__________y_____GGACy_____SgGG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA4FontV
++ _symbolic _____yAAy_____y_____y_____y_____y_____y_____y_____y_____y_____y_____y_____y_____y______Qo______yACyACyACy_____AAy__________GGACyAAy_____AIGAAy_____AIGGGAAy_____AIGG______SgtGGG______y_____y______yyt_____y_____GGQo_Sg_A5______y_A_yyt_____y_____yA0_yAAyAAy__________y_____GGAIGG______Qo_______Qo_GQo_SgtGQo_______Qo_______Qo_______Qo_______Qo_______Qo_______Qo_______Qo_______Qo______y_____SgGG_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO AeAEAFyQrAGRld__CAhIRd__lFQO AeAEAFyQrAGRld__CAhIRd__lFQO AeAEAFyQrAGRld__CAhIRd__lFQO AeAEAFyQrAGRld__CAhIRd__lFQO AeAEAFyQrAGRld__CAhIRd__lFQO AeAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaDRd__lFQO AeAEAjklMQrAP_AQqd__yctAaDRd__lFQO AeAE7toolbarAMQrqd__yXE_tAA07ToolbarD0Rd__lFQO AA6ZStackV AA012_ConditionalD0V AeAE011interactiveM8DisabledyQrSbFQO 8Feedback015BatchOnboardingE0V AA05TupleE0V AY9CardStackV AY0w8LoadMoreE0V AA14_PaddingLayoutV AY0w5EmptyE0V AY0w7LoadingE0V AY0w6StatusE0V AY11DebugWindowV AA0yqD0V AA0qD7BuilderV10buildBlockyQrxAaSRzlFZQO AA0Q4ItemV AA6ButtonV AA5ImageV A19_A20_yQrxAaSRzlFZQO AeAE7popoverAK16attachmentAnchor9arrowEdgeAMQrAP_AA23PopoverAttachmentAnchorOAA4EdgeOSgqd__yctAaDRd__lFQO AeAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AY14ScoreIndicatorV AA01_D13ShapeModifierV AA9RectangleV AA16PlainButtonStyleV AY11ScoreDetailV AY10DebugSheetV AY12ScoreLevelUpV AY0W10ControllerC AY18DonationControllerC AY15ScoreControllerC AY15StateControllerC AY0X10ControllerC AY15DebugControllerC AA30_EnvironmentKeyWritingModifierV AA13AnyShapeStyleV AA14_TaskModifier2V
++ _symbolic _____ySo14FBKBugFormStubC_____G s6ResultOsRi_zRi0_zrlE 8Feedback13FBKDraftErrorO
++ _symbolic _____y_____yAAyAAyAAy_____y_____y_____yAAy_____y_____y_____yAEyAAy__________G___________tGG_AAyAFyAEyAAyAAy__________ySiSgGGAOy_____GG_AJtGGAHG_____y_____AEyAZ______AZtGGAjFyAYyAEy______A2_tG_____GGtGGATGGG______Qo_AOy_____SgGG_____y_____GG_____G_____G_Qo_ 7SwiftUI4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA15ModifiedContentV AcAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO 8Feedback4CardV AA14GeometryReaderV AA6VStackV AA05TupleC0V AA6HStackV AP07AppMetaC0V AA25_AllowsHitTestingModifierV AA6SpacerV AP10SkipButtonV AA4TextV AA022_EnvironmentKeyWritingZ0V 12CoreGraphics7CGFloatV AA012_ConditionalJ0V AP9PreviewerV AA7DividerV AP12ActionButtonV AA05EmptyC0V AP23FBKEvaluationControllerC AA5ColorV AA013_TraitWritingZ0V AA18TransitionTraitKeyV AA16_FlexFrameLayoutV AP013FBKEvaluationcZ033_6141CC318CFD22D4662C8620F73FEFB3LLV
++ _symbolic _____y_____y_____yABy_____yADy__________y_____GG_____G______tGG_AL_____tGG 7SwiftUI6VStackV AA9TupleViewV AA6ZStackV AA15ModifiedContentV AA6CircleV AA24_ForegroundStyleModifierV AA5ColorV AA12_FrameLayoutV AA4TextV AA6SpacerV
++ _symbolic _____y_____y_____yACy__________ySiSgGGAEy_____GG______tGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA6SpacerV
++ _symbolic _____y_____y_____yACy__________y_____GG_____y_____SgGG___________tGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA022_EnvironmentKeyWritingK0V AA4FontV AA4TextV AA6SpacerV
++ _symbolic _____y_____y_____y_____GG__________G 7SwiftUI15StrokeShapeViewV AA07RotatedD0V AA08_TrimmedD0V AA6CircleV AA5ColorV AA05EmptyE0V
++ _symbolic _____y_____y_____y_____yAAyAAy__________y_____GG_____y_____SgGG___________tGGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA6HStackV AA9TupleViewV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA022_EnvironmentKeyWritingL0V AA4FontV AA4TextV AA6SpacerV AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y_____yADy__________y_____GG_____y_____SgGG___________tGGG 7SwiftUI6VStackV AA6HStackV AA9TupleViewV AA15ModifiedContentV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA022_EnvironmentKeyWritingL0V AA4FontV AA4TextV AA6SpacerV
++ _symbolic _____y_____y_____y_____y_____GG__________G_____G 7SwiftUI15ModifiedContentV AA15StrokeShapeViewV AA07RotatedF0V AA08_TrimmedF0V AA6CircleV AA5ColorV AA05EmptyG0V AA12_FrameLayoutV
++ _symbolic _____y_____y_____y_____y_____y_____y_____y_____y_____y_____y_____y_____y_____y_____y______Qo______yACyACyACy_____AAy__________GGACyAAy_____AIGAAy_____AIGGGAAy_____AIGG______SgtGGG______y_____y______yyt_____y_____GGQo_Sg_A5______y_A_yyt_____y_____yA0_yAAyAAy__________y_____GGAIGG______Qo_______Qo_GQo_SgtGQo_______Qo_______Qo_______Qo_______Qo_______Qo_______Qo_______Qo_______Qo______y_____SgGG_Qo_ 7SwiftUI4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA15ModifiedContentV AcAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO AcAEALyQrAMRld__CAnORd__lFQO AcAEALyQrAMRld__CAnORd__lFQO AcAEALyQrAMRld__CAnORd__lFQO AcAEALyQrAMRld__CAnORd__lFQO AcAEALyQrAMRld__CAnORd__lFQO AcAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO AcAEApqrSQrAV_AWqd__yctAaBRd__lFQO AcAE7toolbarASQrqd__yXE_tAA07ToolbarJ0Rd__lFQO AA6ZStackV AA012_ConditionalJ0V AcAE011interactiveR8DisabledyQrSbFQO 8Feedback015BatchOnboardingC0V AA05TupleC0V A3_9CardStackV A3_013BatchLoadMoreC0V AA14_PaddingLayoutV A3_010BatchEmptyC0V A3_012BatchLoadingC0V A3_011BatchStatusC0V A3_11DebugWindowV AA05TuplevJ0V AA0vJ7BuilderV10buildBlockyQrxAaYRzlFZQO AA0V4ItemV AA6ButtonV AA5ImageV A25_A26_yQrxAaYRzlFZQO AcAE7popoverAQ16attachmentAnchor9arrowEdgeASQrAV_AA23PopoverAttachmentAnchorOAA4EdgeOSgqd__yctAaBRd__lFQO AcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO A3_14ScoreIndicatorV AA01_J13ShapeModifierV AA9RectangleV AA16PlainButtonStyleV A3_11ScoreDetailV A3_10DebugSheetV A3_12ScoreLevelUpV A3_15BatchControllerC A3_18DonationControllerC A3_15ScoreControllerC A3_15StateControllerC A3_20OnboardingControllerC A3_15DebugControllerC AA30_EnvironmentKeyWritingModifierV AA13AnyShapeStyleV
++ _symbolic _____y_____y_____y_____y_____y_____y_____y_____y_____y_____y_____y_____y_____y_____y_____y______Qo______yACyACyACy_____AAy__________GGACyAAy_____AIGAAy_____AIGGGAAy_____AIGG______SgtGGG______y_____y______yyt_____y_____GGQo_Sg_A5______y_A_yyt_____y_____yA0_yAAyAAy__________y_____GGAIGG______Qo_______Qo_GQo_SgtGQo_______Qo_______Qo_______Qo_______Qo_______Qo_______Qo_______Qo_______Qo______y_____SgGG_Qo_______Qo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA15ModifiedContentV AcAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO AcAEAOyQrAPRld__CAqRRd__lFQO AcAEAOyQrAPRld__CAqRRd__lFQO AcAEAOyQrAPRld__CAqRRd__lFQO AcAEAOyQrAPRld__CAqRRd__lFQO AcAEAOyQrAPRld__CAqRRd__lFQO AcAE5sheet11isPresented0D7Dismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO AcAEAstuVQrAY_AZqd__yctAaBRd__lFQO AcAE7toolbarAVQrqd__yXE_tAA07ToolbarN0Rd__lFQO AA6ZStackV AA012_ConditionalN0V AcAE011interactiveU8DisabledyQrSbFQO 8Feedback015BatchOnboardingC0V AA05TupleC0V A6_9CardStackV A6_013BatchLoadMoreC0V AA14_PaddingLayoutV A6_010BatchEmptyC0V A6_012BatchLoadingC0V A6_011BatchStatusC0V A6_11DebugWindowV AA05TupleyN0V AA0yN7BuilderV10buildBlockyQrxAAA0_RzlFZQO AA0Y4ItemV AA6ButtonV AA5ImageV A28_A29_yQrxAAA0_RzlFZQO AcAE7popoverAT16attachmentAnchor9arrowEdgeAVQrAY_AA23PopoverAttachmentAnchorOAA4EdgeOSgqd__yctAaBRd__lFQO AcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO A6_14ScoreIndicatorV AA01_N13ShapeModifierV AA9RectangleV AA16PlainButtonStyleV A6_11ScoreDetailV A6_10DebugSheetV A6_12ScoreLevelUpV A6_15BatchControllerC A6_18DonationControllerC A6_15ScoreControllerC A6_15StateControllerC A6_20OnboardingControllerC A6_15DebugControllerC AA30_EnvironmentKeyWritingModifierV AA13AnyShapeStyleV AA10ScenePhaseO
+- __PROTOCOLS__TtC8FeedbackP33_EE21497D76FC0771846C2AC1D57947B534FBK_EXQueryObserverDelegateWrapper.63
+- __PROTOCOLS__TtC8FeedbackP33_EE21497D76FC0771846C2AC1D57947B539FBK_EXHostViewControllerDelegateWrapper.52
+- ___swift_destroy_boxed_opaque_existential_1Tm
+- _associated conformance 8Feedback14AuthenticationC0B5ErrorOSHAASQ
+- _associated conformance So17FBKStartupFailureVs10SetAlgebraSCSQ
+- _associated conformance So17FBKStartupFailureVs10SetAlgebraSCs25ExpressibleByArrayLiteral
+- _associated conformance So17FBKStartupFailureVs9OptionSetSCSY
+- _associated conformance So17FBKStartupFailureVs9OptionSetSCs0D7Algebra
+- _block_copy_helper.101
+- _block_copy_helper.103
+- _block_copy_helper.111
+- _block_copy_helper.121
+- _block_copy_helper.127
+- _block_copy_helper.128
+- _block_copy_helper.135
+- _block_copy_helper.142
+- _block_copy_helper.149
+- _block_copy_helper.155
+- _block_copy_helper.168
+- _block_copy_helper.171
+- _block_copy_helper.174
+- _block_copy_helper.213
+- _block_copy_helper.220
+- _block_copy_helper.226
+- _block_copy_helper.235
+- _block_copy_helper.244
+- _block_copy_helper.250
+- _block_copy_helper.256
+- _block_copy_helper.274
+- _block_copy_helper.34
+- _block_copy_helper.58
+- _block_copy_helper.73
+- _block_copy_helper.77
+- _block_copy_helper.79
+- _block_copy_helper.82
+- _block_copy_helper.83
+- _block_copy_helper.88
+- _block_copy_helper.89
+- _block_copy_helper.94
+- _block_copy_helper.95
+- _block_copy_helper.98
+- _block_descriptor.100
+- _block_descriptor.103
+- _block_descriptor.105
+- _block_descriptor.113
+- _block_descriptor.123
+- _block_descriptor.129
+- _block_descriptor.130
+- _block_descriptor.137
+- _block_descriptor.144
+- _block_descriptor.151
+- _block_descriptor.157
+- _block_descriptor.170
+- _block_descriptor.173
+- _block_descriptor.176
+- _block_descriptor.215
+- _block_descriptor.222
+- _block_descriptor.228
+- _block_descriptor.237
+- _block_descriptor.246
+- _block_descriptor.252
+- _block_descriptor.258
+- _block_descriptor.276
+- _block_descriptor.36
+- _block_descriptor.60
+- _block_descriptor.75
+- _block_descriptor.79
+- _block_descriptor.81
+- _block_descriptor.84
+- _block_descriptor.85
+- _block_descriptor.90
+- _block_descriptor.91
+- _block_descriptor.96
+- _block_descriptor.97
+- _block_destroy_helper.102
+- _block_destroy_helper.104
+- _block_destroy_helper.112
+- _block_destroy_helper.122
+- _block_destroy_helper.128
+- _block_destroy_helper.129
+- _block_destroy_helper.136
+- _block_destroy_helper.143
+- _block_destroy_helper.150
+- _block_destroy_helper.156
+- _block_destroy_helper.169
+- _block_destroy_helper.172
+- _block_destroy_helper.175
+- _block_destroy_helper.214
+- _block_destroy_helper.221
+- _block_destroy_helper.227
+- _block_destroy_helper.236
+- _block_destroy_helper.245
+- _block_destroy_helper.251
+- _block_destroy_helper.257
+- _block_destroy_helper.275
+- _block_destroy_helper.35
+- _block_destroy_helper.59
+- _block_destroy_helper.74
+- _block_destroy_helper.78
+- _block_destroy_helper.80
+- _block_destroy_helper.83
+- _block_destroy_helper.84
+- _block_destroy_helper.89
+- _block_destroy_helper.90
+- _block_destroy_helper.95
+- _block_destroy_helper.96
+- _block_destroy_helper.99
+- _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentH0OAA0J0OSgqd__yctAaBRd__lFQOQr.12
+- _get_underlying_witness 7SwiftUI4ViewPAAEAcAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentH0OAA0J0OSgqd__yctAaBRd__lFQOqd0__AaBHC.13
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA6VStackVyAA9TupleViewVyAA6SpacerV_ACyAA0G0PAAE10fontWeightyQrAA4FontV0J0VSgFQOyACyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA0L9AlignmentOGG_Qo_AA14_PaddingLayoutVGAkAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQOyAA06ScrollG0VyAEyAA012_ConditionalD0VyAEyAGyAY_AItGGAGy8Feedback3Row33_DAC8BD4B02283985EBB63480AE1FAE38LLV_A14_A14_tGGGG_AA0fvD0VyAA0vD7BuilderV10buildBlockyQrxAAA4_RzlFZQOy_AA0V4ItemVyytAA6ButtonVyASGGQo_Sg_A25_yytAIGA29_tGQo_tGGA0_GAA010_FlexFrameS0VGAaJHPA37_AaJHPA36_AaJHPyHC_A0_AA0gP0HPyHCHC_A39_AAA41_HPyHCHC.43
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyAA4ViewPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQOy8Feedback4CardVyAA14GeometryReaderVyACyAA6VStackVyAA05TupleE0VyAA6HStackVyARyACyAJ07AppMetaE0VAA25_AllowsHitTestingModifierVG_AA6SpacerVAJ10SkipButtonVtGG_ACyATyARyACyACyAA4TextVAA022_EnvironmentKeyWritingU0VySiSgGGA7_y12CoreGraphics7CGFloatVGG_A_tGGAXGAA012_ConditionalD0VyAJ9PreviewerVARyA22__AA7DividerVA22_tGGA_ATyA20_yARyAJ06ActionX0V_A28_tGAA05EmptyE0VGGtGGA14_GGG_AJ23FBKEvaluationControllerCQo_A7_yAA5ColorVSgGGAA013_TraitWritingU0VyAA18TransitionTraitKeyVGGAA16_FlexFrameLayoutVGAJ013FBKEvaluationeU033_6141CC318CFD22D4662C8620F73FEFB3LLVGAA05_TaskU0VGAaDHPA59_AaDHPA55_AaDHPA52_AaDHPA46_AaDHPqd0__AaDHD3_A41_HO_A45_AA0eU0HPyHCHC_A51_AAA63_HPyHCHC_A54_AAA63_HPyHCHC_A58_AAA63_HPyHCHC_A61_AAA63_HPyHCHC.42
+- _get_witness_table 7SwiftUI19_ConditionalContentVyACyAA15NavigationStackVyAA0E4PathV8Feedback019BatchEvaluationViewD0VGAJGAA6VStackVyAA05TupleK0VyAA5ImageV_AA4TextVtGGGAA0K0HPAlaXHPAkaXHPyHC_AjaXHPyHCHC_AvaXHPyHCHC.50
+- _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA15ModifiedContentVyAGyAA5ImageVAA24_ForegroundStyleModifierVyAA5ColorVGGAA022_EnvironmentKeyWritingK0VyAA4FontVSgGG_AA6VStackVyAEyACyAEyAA4TextV_AA6SpacerVtGG_AZtGGtGGAA0E0HPyHC.48
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA15ModifiedContentVyAHyAcAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQOyAcAEAIyQrAJRld__CAkLRd__lFQOyAcAEAIyQrAJRld__CAkLRd__lFQOyAcAEAIyQrAJRld__CAkLRd__lFQOyAcAEAIyQrAJRld__CAkLRd__lFQOyAcAEAIyQrAJRld__CAkLRd__lFQOyAcAE5sheet11isPresented0D7Dismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOyAcAEAmnoPQrAS_ATqd__yctAaBRd__lFQOyAcAE7toolbarAPQrqd__yXE_tAA07ToolbarI0Rd__lFQOyAA6ZStackVyAA012_ConditionalI0VyAcAE011interactiveP8DisabledyQrSbFQOy8Feedback015BatchOnboardingC0V_Qo_AA05TupleC0VyAZyAZyAZyA0_9CardStackVAHyA0_0z8LoadMoreC0VAA14_PaddingLayoutVGGAZyAHyA0_0z5EmptyC0VA11_GAHyA0_0z7LoadingC0VA11_GGGAHyA0_0z6StatusC0VA11_GG_A0_11DebugWindowVSgtGGG_AA05TupletI0VyAA0tI7BuilderV10buildBlockyQrxAaVRzlFZQOy_AA0T4ItemVyytAA6ButtonVyAA5ImageVGGQo_Sg_A46_A35_A36_yQrxAaVRzlFZQOy_A38_yytAcAE7popoverAN16attachmentAnchor9arrowEdgeAPQrAS_AA23PopoverAttachmentAnchorOAA4EdgeOSgqd__yctAaBRd__lFQOyAcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQOyA40_yAHyAHyA0_14ScoreIndicatorVAA01_I13ShapeModifierVyAA9RectangleVGGA11_GG_AA16PlainButtonStyleVQo__A0_11ScoreDetailVQo_GQo_SgtGQo__A0_10DebugSheetVQo__A0_12ScoreLevelUpVQo__A0_0Z10ControllerCQo__A0_18DonationControllerCQo__A0_15ScoreControllerCQo__A0_15StateControllerCQo__A0_20OnboardingControllerCQo__A0_15DebugControllerCQo_AA30_EnvironmentKeyWritingModifierVyAA13AnyShapeStyleVSgGGAA13_TaskModifierVG_AA10ScenePhaseOQo_HO.52
+- _keypath_set.46Tm
+- _objectdestroy.211Tm
+- _objectdestroy.239Tm
+- _objectdestroy.28Tm
+- _objectdestroy.47Tm
+- _objectdestroy.62Tm
+- _sqrt
+- _symbolic _____ 8Feedback14AuthenticationC0B5ErrorO
+- _symbolic _____yAAyAAyAAyAAy_____y_____y_____yAAy_____y_____y_____yAEyAAy__________G___________tGG_AAyAFyAEyAAyAAy__________ySiSgGGAOy_____GG_AJtGGAHG_____y_____AEyAZ______AZtGGAjFyAYyAEy______A2_tG_____GGtGGATGGG______Qo_AOy_____SgGG_____y_____GG_____G_____G_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO 8Feedback4CardV AA14GeometryReaderV AA6VStackV AA05TupleE0V AA6HStackV AJ07AppMetaE0V AA25_AllowsHitTestingModifierV AA6SpacerV AJ10SkipButtonV AA4TextV AA022_EnvironmentKeyWritingU0V 12CoreGraphics7CGFloatV AA012_ConditionalD0V AJ9PreviewerV AA7DividerV AJ06ActionX0V AA05EmptyE0V AJ23FBKEvaluationControllerC AA5ColorV AA013_TraitWritingU0V AA18TransitionTraitKeyV AA16_FlexFrameLayoutV AJ013FBKEvaluationeU033_6141CC318CFD22D4662C8620F73FEFB3LLV AA05_TaskU0V
+- _symbolic _____yAAy_____y_____y_____y_____y_____y_____y_____y_____y_____y_____y_____y_____y______Qo______yACyACyACy_____AAy__________GGACyAAy_____AIGAAy_____AIGGGAAy_____AIGG______SgtGGG______y_____y______yyt_____y_____GGQo_Sg_A5______y_A_yyt_____y_____yA0_yAAyAAy__________y_____GGAIGG______Qo_______Qo_GQo_SgtGQo_______Qo_______Qo_______Qo_______Qo_______Qo_______Qo_______Qo_______Qo______y_____SgGG_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO AeAEAFyQrAGRld__CAhIRd__lFQO AeAEAFyQrAGRld__CAhIRd__lFQO AeAEAFyQrAGRld__CAhIRd__lFQO AeAEAFyQrAGRld__CAhIRd__lFQO AeAEAFyQrAGRld__CAhIRd__lFQO AeAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaDRd__lFQO AeAEAjklMQrAP_AQqd__yctAaDRd__lFQO AeAE7toolbarAMQrqd__yXE_tAA07ToolbarD0Rd__lFQO AA6ZStackV AA012_ConditionalD0V AeAE011interactiveM8DisabledyQrSbFQO 8Feedback015BatchOnboardingE0V AA05TupleE0V AY9CardStackV AY0w8LoadMoreE0V AA14_PaddingLayoutV AY0w5EmptyE0V AY0w7LoadingE0V AY0w6StatusE0V AY11DebugWindowV AA0yqD0V AA0qD7BuilderV10buildBlockyQrxAaSRzlFZQO AA0Q4ItemV AA6ButtonV AA5ImageV A19_A20_yQrxAaSRzlFZQO AeAE7popoverAK16attachmentAnchor9arrowEdgeAMQrAP_AA23PopoverAttachmentAnchorOAA4EdgeOSgqd__yctAaDRd__lFQO AeAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AY14ScoreIndicatorV AA01_D13ShapeModifierV AA9RectangleV AA16PlainButtonStyleV AY11ScoreDetailV AY10DebugSheetV AY12ScoreLevelUpV AY0W10ControllerC AY18DonationControllerC AY15ScoreControllerC AY15StateControllerC AY0X10ControllerC AY15DebugControllerC AA30_EnvironmentKeyWritingModifierV AA13AnyShapeStyleV AA13_TaskModifierV
+- _symbolic _____ySbGSg 7SwiftUI11AnyLocationC
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI4AxisO3SetV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI4EdgeO3SetV
+- _symbolic _____y_______________G 7SwiftUI15StrokeShapeViewV AA16RoundedRectangleV AA5ColorV AA05EmptyE0V
+- _symbolic _____y_____yAAy_____y_____y_____y_____y_____y_____y_____y_____y_____y_____y_____y_____y______Qo______yACyACyACy_____AAy__________GGACyAAy_____AIGAAy_____AIGGGAAy_____AIGG______SgtGGG______y_____y______yyt_____y_____GGQo_Sg_A5______y_A_yyt_____y_____yA0_yAAyAAy__________y_____GGAIGG______Qo_______Qo_GQo_SgtGQo_______Qo_______Qo_______Qo_______Qo_______Qo_______Qo_______Qo_______Qo______y_____SgGG_____G______Qo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV AcAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO AcAEAIyQrAJRld__CAkLRd__lFQO AcAEAIyQrAJRld__CAkLRd__lFQO AcAEAIyQrAJRld__CAkLRd__lFQO AcAEAIyQrAJRld__CAkLRd__lFQO AcAEAIyQrAJRld__CAkLRd__lFQO AcAE5sheet11isPresented0D7Dismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO AcAEAmnoPQrAS_ATqd__yctAaBRd__lFQO AcAE7toolbarAPQrqd__yXE_tAA07ToolbarI0Rd__lFQO AA6ZStackV AA012_ConditionalI0V AcAE011interactiveP8DisabledyQrSbFQO 8Feedback015BatchOnboardingC0V AA05TupleC0V A0_9CardStackV A0_0z8LoadMoreC0V AA14_PaddingLayoutV A0_0z5EmptyC0V A0_0z7LoadingC0V A0_0z6StatusC0V A0_11DebugWindowV AA05TupletI0V AA0tI7BuilderV10buildBlockyQrxAaVRzlFZQO AA0T4ItemV AA6ButtonV AA5ImageV A22_A23_yQrxAaVRzlFZQO AcAE7popoverAN16attachmentAnchor9arrowEdgeAPQrAS_AA23PopoverAttachmentAnchorOAA4EdgeOSgqd__yctAaBRd__lFQO AcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO A0_14ScoreIndicatorV AA01_I13ShapeModifierV AA9RectangleV AA16PlainButtonStyleV A0_11ScoreDetailV A0_10DebugSheetV A0_12ScoreLevelUpV A0_0Z10ControllerC A0_18DonationControllerC A0_15ScoreControllerC A0_15StateControllerC A0_20OnboardingControllerC A0_15DebugControllerC AA30_EnvironmentKeyWritingModifierV AA13AnyShapeStyleV AA13_TaskModifierV AA10ScenePhaseO
+- _symbolic _____y_____y_____y_____yAAy_____y_____y__________y_____y______Qo_______ySay_____GAH_____GtGG______Qo______GAPG_Qo__SbQo__Qo_ 7SwiftUI4ViewPAAE16scrollIndicators_4axesQrAA25ScrollIndicatorVisibilityV_AA4AxisO3SetVtFQO AcAE0dE5Flash7triggerQrqd___tSQRd__lFQO AcAE0D17ContentBackgroundyQrAA0I0OFQO AA08ModifiedN0V AcAE9listStyleyQrqd__AA04ListR0Rd__lFQO AA0S0V s5NeverO AA05TupleC0V AcAE0Q12RowSeparator_5edgesQrAP_AA12VerticalEdgeOAJVtFQO 8Feedback16ImageWithPreviewV AA7ForEachV A4_0S9PreviewerV0N0V7SectionV A4_0S7SectionV AA05PlainsR0V AA14_PaddingLayoutV
+- _symbolic _____y_____y_____y_____yABy__________GADG_Qo_G______Qo_ 7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQO AA0G0V AcAE10fontWeightyQrAA4FontV0I0VSgFQO AA15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA017BorderedProminentgE0V
+CStrings:
++ "Button that allows user to retry after resolving network issue"
++ "Button that dismisses the authentication required alert and cancels filing"
++ "Button that dismisses the network error alert and cancels the operation"
++ "Calling self.beginHostingExtension(result)"
++ "Cleared _evaluationCompletionHandler after evaluation completion"
++ "ExtensionController"
++ "Failed to convert FBKSEvaluation to FBKEvaluation.Response. Deprecated delegate method will not be called."
++ "Failed to load form data with error %s"
++ "Failed to record consent with error %s"
++ "Failed to start feedback session with error: %{public}s"
++ "Feedback"
++ "Informative text of alert shown when a network issue is detected"
++ "Maximum retry attempts (%ld) reached"
++ "Network error after user cancelled retry - dismissing"
++ "Network error detected (attempt %ld of %ld), showing retry alert"
++ "Not ready to initialize Feedback UI"
++ "Parent view controller is nil, cannot show network error alert"
++ "SwiftUI"
++ "Title of alert shown when a network issue is detected"
++ "Unknown authentication error: %{public}s"
++ "User cancelled form data load retry"
++ "User tapped Cancel on 'No Internet Connection' alert"
++ "User tapped Retry, retrying operation (attempt %ld of %ld)"
++ "View.task @ Feedback/BatchEvaluationView.swift:"
++ "View.task @ Feedback/EvaluationCard.swift:"
++ "beginHostingExtension(_:)"
++ "isBeginningHosting"
++ "observerDidUpdate called but already beginning hosting. Ignoring duplicate call."
++ "observerDidUpdate called but hostViewController already set. Ignoring duplicate call."
++ "recordConsentResponseForConsent:response:completionWithError:"
+- "BatchUI disabled"
+- "Button that allows user to retry filing a feedback after they have resolved their network issue."
+- "Failed to authenticate"
+- "Failed to convert FBKSEvaluation to FBKEvaluation.Response.  Deprecated delegate method will not be called."
+- "Finished evaluation with UIKit API with nil _evaluationCompletionHandler"
+- "Informative text of alert shown when a network issue is detected while starting a Feedback draft"
+- "Not ready to initialize views"
+- "Showing no network alert"
+- "Title of alert shown when a network issue is detected while starting a Feedback draft"
+- "User can click this button if they don't want to continue. Clicking this button aborts Feedback filing."
+- "User gave up"
+- "User wants to retry"
+- "recordConsentResponseForConsent:response:completion:"
+
+```

@@ -1,0 +1,542 @@
+## HeadphoneCommonUIKit
+
+> `/System/Library/PrivateFrameworks/HeadphoneCommonUIKit.framework/HeadphoneCommonUIKit`
+
+```diff
+
+-33.1.0.0.0
+-  __TEXT.__text: 0x70720
+-  __TEXT.__auth_stubs: 0x1dd0
+-  __TEXT.__objc_methlist: 0xe4c
+-  __TEXT.__const: 0x2534
+-  __TEXT.__gcc_except_tab: 0x44
+-  __TEXT.__cstring: 0x2d04
++34.25.1.1.1
++  __TEXT.__text: 0x7bb34
++  __TEXT.__auth_stubs: 0x1fa0
++  __TEXT.__objc_methlist: 0xf74
++  __TEXT.__const: 0x2f44
++  __TEXT.__gcc_except_tab: 0x134
++  __TEXT.__cstring: 0x2504
+   __TEXT.__oslogstring: 0x655
+   __TEXT.__ustring: 0x1a6
+-  __TEXT.__swift5_typeref: 0x2136
+-  __TEXT.__swift5_reflstr: 0x535
+-  __TEXT.__swift5_assocty: 0x260
+-  __TEXT.__constg_swiftt: 0x152c
+-  __TEXT.__swift5_fieldmd: 0x88c
++  __TEXT.__swift5_typeref: 0x2c84
++  __TEXT.__swift5_reflstr: 0x745
++  __TEXT.__swift5_assocty: 0x318
++  __TEXT.__constg_swiftt: 0x1a38
++  __TEXT.__swift5_fieldmd: 0xab4
+   __TEXT.__swift5_builtin: 0x154
+-  __TEXT.__swift5_proto: 0xc4
+-  __TEXT.__swift5_types: 0x100
++  __TEXT.__swift5_proto: 0xf0
++  __TEXT.__swift5_types: 0x138
+   __TEXT.__swift5_protos: 0x20
+-  __TEXT.__swift5_capture: 0x1168
++  __TEXT.__swift5_capture: 0x11c8
+   __TEXT.__swift5_mpenum: 0x20
+   __TEXT.__swift_as_entry: 0x18
+   __TEXT.__swift_as_ret: 0x14
+-  __TEXT.__unwind_info: 0xcd0
+-  __TEXT.__eh_frame: 0x580
+-  __TEXT.__objc_classname: 0x131
+-  __TEXT.__objc_methname: 0x30e3
+-  __TEXT.__objc_methtype: 0xacc
+-  __TEXT.__objc_stubs: 0x21c0
+-  __DATA_CONST.__got: 0x808
++  __TEXT.__unwind_info: 0xf58
++  __TEXT.__eh_frame: 0x6a8
++  __TEXT.__objc_classname: 0x554
++  __TEXT.__objc_methname: 0x37f9
++  __TEXT.__objc_methtype: 0xe17
++  __TEXT.__objc_stubs: 0x3100
++  __DATA_CONST.__got: 0x858
+   __DATA_CONST.__const: 0x2c0
+-  __DATA_CONST.__objc_classlist: 0xa0
++  __DATA_CONST.__objc_classlist: 0xb8
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x58
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x10a0
++  __DATA_CONST.__objc_selrefs: 0x10b8
+   __DATA_CONST.__objc_protorefs: 0x28
+   __DATA_CONST.__objc_superrefs: 0x38
+-  __AUTH_CONST.__auth_got: 0xef8
+-  __AUTH_CONST.__const: 0x3ab0
+-  __AUTH_CONST.__cfstring: 0xd40
+-  __AUTH_CONST.__objc_const: 0x2530
++  __AUTH_CONST.__auth_got: 0xfe0
++  __AUTH_CONST.__const: 0x3e70
++  __AUTH_CONST.__cfstring: 0xd00
++  __AUTH_CONST.__objc_const: 0x2790
+   __AUTH_CONST.__objc_intobj: 0x18
+-  __AUTH.__objc_data: 0xd58
+-  __AUTH.__data: 0x318
+-  __DATA.__objc_ivar: 0xd4
+-  __DATA.__data: 0x15a8
++  __AUTH.__objc_data: 0xfe8
++  __AUTH.__data: 0x5e8
++  __DATA.__objc_ivar: 0xa8
++  __DATA.__data: 0x1918
+   __DATA.__common: 0x200
+-  __DATA.__bss: 0x1620
++  __DATA.__bss: 0x1bd0
+   __DATA_DIRTY.__objc_data: 0xa0
+   __DATA_DIRTY.__data: 0x8
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: AA7387FF-B752-342F-A1E0-D60DF7FEAE3D
+-  Functions: 1993
+-  Symbols:   1556
+-  CStrings:  1218
++  UUID: 9AE5E862-6163-3B1F-B52E-3B82C269DBD2
++  Functions: 2345
++  Symbols:   1766
++  CStrings:  1213
+ 
+Symbols:
++ +[HPCUIFitTestController getSubTitle:]
++ -[HPCUIFitTestController contentController]
++ -[HPCUIFitTestController headerHeightConstraint]
++ -[HPCUIFitTestController scrollToBottom]
++ -[HPCUIFitTestController setContentController:]
++ -[HPCUIFitTestController setHeaderHeightConstraint:]
++ -[HPCUIFitTestController traitCollectionDidChange:]
++ GCC_except_table0
++ _OBJC_CLASS_$__TtC20HeadphoneCommonUIKit29HPCUIFitTestContentController
++ _OBJC_IVAR_$_HPCUIFitTestController._contentController
++ _OBJC_IVAR_$_HPCUIFitTestController._headerHeightConstraint
++ _OBJC_METACLASS_$_OBWelcomeController
++ _OBJC_METACLASS_$__TtC20HeadphoneCommonUIKit29HPCUIFitTestContentController
++ _OBJC_METACLASS_$__TtC20HeadphoneCommonUIKitP33_A0F33FA59B8259C88466EAC04DC9916D13UIKitMicaView
++ _OUTLINED_FUNCTION_0
++ __DATA__TtC20HeadphoneCommonUIKit16FitTestViewModel
++ __DATA__TtC20HeadphoneCommonUIKit29HPCUIFitTestContentController
++ __DATA__TtC20HeadphoneCommonUIKitP33_A0F33FA59B8259C88466EAC04DC9916D13UIKitMicaView
++ __INSTANCE_METHODS__TtC20HeadphoneCommonUIKit29HPCUIFitTestContentController
++ __INSTANCE_METHODS__TtC20HeadphoneCommonUIKitP33_A0F33FA59B8259C88466EAC04DC9916D13UIKitMicaView
++ __IVARS__TtC20HeadphoneCommonUIKit14SwiftUIKitCell
++ __IVARS__TtC20HeadphoneCommonUIKit16FitTestViewModel
++ __IVARS__TtC20HeadphoneCommonUIKit29HPCUIFitTestContentController
++ __IVARS__TtC20HeadphoneCommonUIKitP33_A0F33FA59B8259C88466EAC04DC9916D13UIKitMicaView
++ __METACLASS_DATA__TtC20HeadphoneCommonUIKit16FitTestViewModel
++ __METACLASS_DATA__TtC20HeadphoneCommonUIKit29HPCUIFitTestContentController
++ __METACLASS_DATA__TtC20HeadphoneCommonUIKitP33_A0F33FA59B8259C88466EAC04DC9916D13UIKitMicaView
++ __OBJC_$_CLASS_METHODS_HPCUIFitTestController
++ __PROPERTIES__TtC20HeadphoneCommonUIKit29HPCUIFitTestContentController
++ __PROTOCOLS__TtC20HeadphoneCommonUIKit23MultiLinkableFooterView.23
++ ___50-[HPCUIFitTestController initWithDevice:provider:]_block_invoke
++ ___50-[HPCUIFitTestController initWithDevice:provider:]_block_invoke_2
++ ___block_descriptor_52_e8_32s40w_e18_"UIImageView"8?0ls32l8w40l8
++ ___block_literal_global.163
++ ___swift_memcpy72_8
++ ___swift_memcpy8_4
++ _associated conformance 20HeadphoneCommonUIKit15SwiftUIMicaViewV0D2UI0F0AA4BodyAdEP_AdE
++ _associated conformance 20HeadphoneCommonUIKit15SwiftUIMicaViewV0D2UI19UIViewRepresentableAaD0F0
++ _associated conformance 20HeadphoneCommonUIKit17FilteredImageViewV7SwiftUI0F0AA4BodyAdEP_AdE
++ _associated conformance 20HeadphoneCommonUIKit17FilteredImageViewV7SwiftUI19UIViewRepresentableAaD0F0
++ _associated conformance 20HeadphoneCommonUIKit18FitContentViewImplV7SwiftUI0F0AA4BodyAdEP_AdE
++ _associated conformance 20HeadphoneCommonUIKit19ColorMatrixModifierV7SwiftUI04ViewF0AA4BodyAdEP_AD0I0
++ _associated conformance 20HeadphoneCommonUIKit42CheckMarkSelectableSingleSectionInlineViewVyxG7SwiftUI0J0AA4BodyAeFP_AeF
++ _get_enum_tag_for_layout_string 7SwiftUI11EnvironmentV7ContentOy20HeadphoneCommonUIKit16FitTestViewModelC_G
++ _get_witness_table 20HeadphoneCommonUIKit27CheckmarkItemDatasourceTypeRzl7SwiftUI15ModifiedContentVyAC4ViewPACE20accessibilityElement8childrenQrAC26AccessibilityChildBehaviorV_tFQOyAgCE12onTapGesture5count7performQrSi_yyctFQOyAEyAEyAC6HStackVyAC05TupleL0VyAEyAEyAEyAEyAEy0N0_11ImageResultQZAC30_EnvironmentKeyWritingModifierVyAC4FontVSgGGAWyAC5ColorVSgGGAC18_AspectRatioLayoutVGAC12_FrameLayoutVGAC14_PaddingLayoutVG_AC6VStackVyARyAC4TextV_AEyAEyAS_6ResultQZA_GA4_GtGGAC6SpacerVAEyAEyAC0Z0VA4_GA4_GSgtGGAC01_K13ShapeModifierVyAC9RectangleVGGAC16_FlexFrameLayoutVG_Qo__Qo_AC0P18AttachmentModifierVGAcFHPqd__AcFHD2_A44_HO_A46_AC0L8ModifierHPyHCHC.32
++ _get_witness_table 20HeadphoneCommonUIKit27CheckmarkItemDatasourceTypeRzl7SwiftUI6VStackVyAC7ForEachVySaySi6offset_AA019CheckMarkSelectableE0Cy7ElementQzG7elementtGSiAC9TupleViewVyAC15ModifiedContentVyAA0noP12SelectionRowVyxGAC14_PaddingLayoutVG_ASyAC06_ShapeT0VyAC9RectangleVAC5ColorVGAC06_FrameZ0VGSgtGGGAC0T0HPyHC.30
++ _get_witness_table 20HeadphoneCommonUIKit27CheckmarkItemDatasourceTypeRzlqd0__7SwiftUI4ViewHD3_AcDPACE15navigationTitleyQrqd__SyRd__lFQOyAE8SettingsE22settingsListAppearanceQryFQOyAC0O0Vys5NeverOAC7ForEachVySnySiGSiAC7SectionVy06HeaderJ0QzANySayAA019CheckMarkSelectableE0Cy7ElementQzGG10Foundation4UUIDVAA0vwX12SelectionRowVyxGG06FooterJ0QzGGG_Qo__SSQo_HO.31
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA014_ViewModifier_D0Vy20HeadphoneCommonUIKit011ColorMatrixF0VGAA15_ContrastEffectVGAA011_BrightnessM0VGAA0E0HPAlaPHPAiaPHPyHC_AkA0eF0HPyHCHC_AnaQHPyHCHC.17
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA6VStackVyAA9TupleViewVyACyAA6HStackVyAGyAA0G0PAAE12scenePaddingyQrAA4EdgeO3SetVFQOyACyAA03AnyG0VAA12_FrameLayoutVG_Qo__AkAEALyQrAPFQOyACyAEyAGyAA4TextV_AXtGGAA05_FlexnO0VG_Qo_ACyACyAEyAGyAA6ButtonVyACyACyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA25_ForegroundStyleModifier2VyAA5ColorVA17_GGATGG_AA6SpacerVtGGA0_GAA01_jO0VGtGGA28_G_ACyA4_yAXG20HeadphoneCommonUIKit018SolariumOvalTintedR0VGtGGAA011_BackgroundzW0VyA17_GGAA11_ClipEffectVyAA16RoundedRectangleVGGAaJHPA43_AaJHPA39_AaJHPyHC_A42_AA0gW0HPyHCHC_A48_AAA50_HPyHCHC.35
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyADyADyADyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA0F9AlignmentOGGAHyAA4FontVSgGGAA16_FlexFrameLayoutVGAA08_PaddingO0VGAaBHPAtaBHPAqaBHPAlaBHPAfaBHPyHC_AkA0cJ0HPyHCHC_ApaXHPyHCHC_AsaXHPyHCHC_AvaXHPyHCHC.27
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx20HeadphoneCommonUIKit19ColorMatrixModifierVGAaBHPxAaBHD1__AgA0cK0HPyHCHC.16
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx20HeadphoneCommonUIKit24SolariumOvalTintedButtonVGAaBHPxAaBHD1__AgA0C8ModifierHPyHCHC.16
++ _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA15ModifiedContentVyAGyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA25_ForegroundStyleModifier2VyAA5ColorVATGG_AGyAA4TextVAKyAA0R9AlignmentOGGtGGAA0E0HPyHC.15
++ _get_witness_table 7SwiftUI6IDViewVyAA15ModifiedContentVyAA6HStackVyAA9TupleViewVyAEyAA6VStackVyAIyAEyAEyAEyAEy20HeadphoneCommonUIKit013FilteredImageH0VAA12_FrameLayoutVGAA010_FixedSizeP0VGAA21_TraitWritingModifierVyAA0p8PriorityS3KeyVGGAA08_PaddingP0VG_AKyAIyAEyAEyAEyAEyAEyAA0N0VAA012_AspectRatioP0VGAPGAA012_EnvironmentwtU0VyAA5ColorVSgGGA0_GA0_G_AEyAEyAEyAA4TextVA9_yAA13TextAlignmentOGGAA016_ForegroundStyleU0VyA11_GGASGSgtGGtGGAPG_A33_tGGAA05_FlexoP0VGSSGAA0H0HPyHC.37
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE12onTapGesture5count7performQrSi_yyctFQOyAA15ModifiedContentVyAHy20HeadphoneCommonUIKit18SplitContainerPairVyAA6VStackVyAA05TupleC0VyAA03AnyC0V_AA4TextVSgtGGAQSgGAA01_J13ShapeModifierVyAA9RectangleVGGAA16_FlexFrameLayoutVG_Qo_HO.33
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE12scenePaddingyQrAA4EdgeO3SetVFQOyAA15ModifiedContentVyAJyAcAE11buttonStyleyQrqd__AA015PrimitiveButtonK0Rd__lFQOyAJyAA01_c9Modifier_I0Vy20HeadphoneCommonUIKit018SolariumOvalTintedM0VGAA022_EnvironmentKeyWritingN0VyAA4FontVSgGG_AA08BorderedmK0VQo_ATyAA08AnyShapeK0VSgGGATyAA11ControlSizeOGG_Qo_HO.15
++ _objc_msgSend$__swift_objectForKeyedSubscript:
++ _objc_msgSend$_accessibilityHigherContrastTintColorForColor:
++ _objc_msgSend$_maxTrackView
++ _objc_msgSend$_minTrackView
++ _objc_msgSend$_preferredFontForTextStyle:weight:
++ _objc_msgSend$_setBadgeFont:
++ _objc_msgSend$_setBadgeText:
++ _objc_msgSend$_setInteractiveTextSelectionDisabled:
++ _objc_msgSend$_setSliderConfiguration:
++ _objc_msgSend$_systemImageNamed:withConfiguration:
++ _objc_msgSend$addAttributes:range:
++ _objc_msgSend$addSublayer:
++ _objc_msgSend$altTextColor
++ _objc_msgSend$appearance
++ _objc_msgSend$appendAttributedString:
++ _objc_msgSend$attributedStringWithAttachment:
++ _objc_msgSend$backgroundColor
++ _objc_msgSend$bezierPathWithRoundedRect:cornerRadius:
++ _objc_msgSend$colorNamed:inBundle:compatibleWithTraitCollection:
++ _objc_msgSend$configurationWithPointSize:weight:
++ _objc_msgSend$connectedScenes
++ _objc_msgSend$contentController
++ _objc_msgSend$contentSize
++ _objc_msgSend$copy
++ _objc_msgSend$didMoveToParentViewController:
++ _objc_msgSend$drawInRect:withAttributes:
++ _objc_msgSend$fill
++ _objc_msgSend$footerHyperlinkColor
++ _objc_msgSend$frame
++ _objc_msgSend$fullyCharged
++ _objc_msgSend$getSubTitle:
++ _objc_msgSend$groupSpecifierWithID:name:
++ _objc_msgSend$headerHeightConstraint
++ _objc_msgSend$image
++ _objc_msgSend$imageNamed:inBundle:compatibleWithTraitCollection:
++ _objc_msgSend$imageWithActions:
++ _objc_msgSend$init
++ _objc_msgSend$initForTextStyle:
++ _objc_msgSend$initWithBool:
++ _objc_msgSend$initWithCoder:
++ _objc_msgSend$initWithDouble:
++ _objc_msgSend$initWithLBudImage:rBudImage:bakePadding:
++ _objc_msgSend$initWithName:target:set:get:detail:cell:edit:
++ _objc_msgSend$initWithNibName:bundle:
++ _objc_msgSend$initWithNumberOfTicks:behavior:
++ _objc_msgSend$initWithPackageName:inBundle:
++ _objc_msgSend$initWithPlayerItem:
++ _objc_msgSend$initWithProductID:
++ _objc_msgSend$initWithRed:green:blue:alpha:
++ _objc_msgSend$initWithReuseIdentifier:
++ _objc_msgSend$initWithSize:
++ _objc_msgSend$initWithString:
++ _objc_msgSend$initWithStyle:reuseIdentifier:
++ _objc_msgSend$initWithStyle:reuseIdentifier:specifier:
++ _objc_msgSend$initWithURL:
++ _objc_msgSend$intrinsicContentSize
++ _objc_msgSend$isChargingPaused
++ _objc_msgSend$isKeyWindow
++ _objc_msgSend$isLow
++ _objc_msgSend$labelColor
++ _objc_msgSend$layoutDirection
++ _objc_msgSend$layoutMarginsGuide
++ _objc_msgSend$length
++ _objc_msgSend$level
++ _objc_msgSend$mainRunLoop
++ _objc_msgSend$maximumValue
++ _objc_msgSend$minimumValue
++ _objc_msgSend$nonretainedObjectValue
++ _objc_msgSend$playImmediatelyAtRate:
++ _objc_msgSend$playerLayerWithPlayer:
++ _objc_msgSend$playerLooperWithPlayer:templateItem:
++ _objc_msgSend$pointSize
++ _objc_msgSend$preferenceSpecifierNamed:target:set:get:detail:cell:edit:
++ _objc_msgSend$preferredFontDescriptorWithTextStyle:compatibleWithTraitCollection:
++ _objc_msgSend$propertyForKey:
++ _objc_msgSend$publishedObjectWithName:
++ _objc_msgSend$quaternaryLabelColor
++ _objc_msgSend$resetUI
++ _objc_msgSend$scaledFontForFont:maximumPointSize:compatibleWithTraitCollection:
++ _objc_msgSend$scrollRectToVisible:animated:
++ _objc_msgSend$scrollToBottom
++ _objc_msgSend$scrollView
++ _objc_msgSend$secondaryLabelColor
++ _objc_msgSend$seekToTime:
++ _objc_msgSend$selectionStyle
++ _objc_msgSend$separatorColor
++ _objc_msgSend$set
++ _objc_msgSend$setAccessoryType:
++ _objc_msgSend$setAllowsExternalPlayback:
++ _objc_msgSend$setAttributedText:
++ _objc_msgSend$setBounds:
++ _objc_msgSend$setCategory:withOptions:error:
++ _objc_msgSend$setConstant:
++ _objc_msgSend$setContentCompressionResistancePriority:forAxis:
++ _objc_msgSend$setCornerRadius:
++ _objc_msgSend$setDelegate:
++ _objc_msgSend$setEditable:
++ _objc_msgSend$setFill
++ _objc_msgSend$setHeaderHeightConstraint:
++ _objc_msgSend$setHoverStyle:
++ _objc_msgSend$setIdentifier:
++ _objc_msgSend$setLineFragmentPadding:
++ _objc_msgSend$setLinkTextAttributes:
++ _objc_msgSend$setMaximumValue:
++ _objc_msgSend$setMaximumValueImage:
++ _objc_msgSend$setMinimumValue:
++ _objc_msgSend$setMinimumValueImage:
++ _objc_msgSend$setMuted:
++ _objc_msgSend$setNeedsDisplay
++ _objc_msgSend$setOpacity:
++ _objc_msgSend$setPlayer:
++ _objc_msgSend$setPosition:
++ _objc_msgSend$setProperty:forKey:
++ _objc_msgSend$setScrollEnabled:
++ _objc_msgSend$setSelectable:
++ _objc_msgSend$setSelectionStyle:
++ _objc_msgSend$setShowsVerticalScrollIndicator:
++ _objc_msgSend$setSpacing:
++ _objc_msgSend$setState:animated:
++ _objc_msgSend$setStrokeEnd:
++ _objc_msgSend$setStrokeStart:
++ _objc_msgSend$setTextContainerInset:
++ _objc_msgSend$setUserInfo:
++ _objc_msgSend$setValue:
++ _objc_msgSend$setVideoGravity:
++ _objc_msgSend$sizeWithAttributes:
++ _objc_msgSend$specifier
++ _objc_msgSend$state
++ _objc_msgSend$superview
++ _objc_msgSend$supportsDigitalEngraving
++ _objc_msgSend$systemBlueColor
++ _objc_msgSend$systemFillColor
++ _objc_msgSend$systemFontOfSize:
++ _objc_msgSend$systemFontOfSize:weight:
++ _objc_msgSend$systemGray4Color
++ _objc_msgSend$systemRedColor
++ _objc_msgSend$tertiaryLabelColor
++ _objc_msgSend$textContainer
++ _objc_msgSend$textLabel
++ _objc_msgSend$trackRectForBounds:
++ _objc_msgSend$traitCollectionWithPreferredContentSizeCategory:
++ _objc_msgSend$type
++ _objc_msgSend$updateLeftResultsWithColor:leftText:shouldShow:
++ _objc_msgSend$updateRightResultsWithColor:rightText:shouldShow:
++ _objc_msgSend$value
++ _objc_msgSend$valueWithNonretainedObject:
++ _objc_msgSend$windows
++ _objc_retain_x19
++ _objc_retain_x24
++ _objc_retain_x26
++ _objc_retain_x27
++ _symbolic $s7SwiftUI19UIViewRepresentableP
++ _symbolic SS5light_SS4darkt
++ _symbolic Si6offset______y7Element_____QzG7elementt 20HeadphoneCommonUIKit23CheckMarkSelectableItemC AA09CheckmarkG14DatasourceTypeP
++ _symbolic Si_____y7Element_____QzG_____y_____y_____yxG_____G_AGy_____y__________G_____GSgtGIegygr_ 20HeadphoneCommonUIKit23CheckMarkSelectableItemC AA09CheckmarkG14DatasourceTypeP 7SwiftUI9TupleViewV AF15ModifiedContentV AA0deF12SelectionRowV AF14_PaddingLayoutV AF06_ShapeN0V AF9RectangleV AF5ColorV AF06_FrameT0V
++ _symbolic So11UIImageViewC
++ _symbolic So11UIImageViewCIeyBa_
++ _symbolic So11UIImageViewCyc
++ _symbolic So17BSUICAPackageViewCSg
++ _symbolic So8NSBundleC
++ _symbolic So8NSObjectC
++ _symbolic _____ 20HeadphoneCommonUIKit0C8MicaView33_A0F33FA59B8259C88466EAC04DC9916DLLC
++ _symbolic _____ 20HeadphoneCommonUIKit15SwiftUIMicaViewV
++ _symbolic _____ 20HeadphoneCommonUIKit16FitTestViewModelC
++ _symbolic _____ 20HeadphoneCommonUIKit17FilteredImageViewV
++ _symbolic _____ 20HeadphoneCommonUIKit18FitContentViewImplV
++ _symbolic _____ 20HeadphoneCommonUIKit18FitContentViewImplV15LayoutConstantsV
++ _symbolic _____ 20HeadphoneCommonUIKit19ColorMatrixModifierV
++ _symbolic _____ 20HeadphoneCommonUIKit29HPCUIFitTestContentControllerC
++ _symbolic _____ 20HeadphoneCommonUIKit42CheckMarkSelectableSingleSectionInlineViewV
++ _symbolic _____XDXMT 20HeadphoneCommonUIKit0C8MicaView33_A0F33FA59B8259C88466EAC04DC9916DLLC
++ _symbolic ______pXp 5UIKit17UITraitDefinitionP
++ _symbolic _____yAAyAAyAAyAAy__________G_____G_____y_____SgGG_____GALG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA08_PaddingH0V
++ _symbolic _____yAAyAAyAAy__________G_____G_____y_____GG_____G 7SwiftUI15ModifiedContentV 20HeadphoneCommonUIKit17FilteredImageViewV AA12_FrameLayoutV AA010_FixedSizeL0V AA21_TraitWritingModifierV AA0l8PriorityO3KeyV AA08_PaddingL0V
++ _symbolic _____yAAyAAyAAy__________G_____G_____y_____SgGG_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA08_PaddingH0V
++ _symbolic _____yAAyAAy__________G_____G_____y_____GG 7SwiftUI15ModifiedContentV 20HeadphoneCommonUIKit17FilteredImageViewV AA12_FrameLayoutV AA010_FixedSizeL0V AA21_TraitWritingModifierV AA0l8PriorityO3KeyV
++ _symbolic _____yAAyAAy__________G_____G_____y_____SgGG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA30_EnvironmentKeyWritingModifierV AA5ColorV
++ _symbolic _____yAAyAAy__________y_____GG_____y_____GG_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA016_ForegroundStyleI0V AA5ColorV AA16_FixedSizeLayoutV
++ _symbolic _____yAAyAAy__________y_____GG_____y_____GG_____GSg 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA016_ForegroundStyleI0V AA5ColorV AA16_FixedSizeLayoutV
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV 20HeadphoneCommonUIKit17FilteredImageViewV AA12_FrameLayoutV AA010_FixedSizeL0V
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V
++ _symbolic _____yAAy__________y_____GG_____y_____GG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA016_ForegroundStyleI0V AA5ColorV
++ _symbolic _____yAAy_____y_____G_____G_____G 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 20HeadphoneCommonUIKit011ColorMatrixF0V AA15_ContrastEffectV AA011_BrightnessM0V
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV 20HeadphoneCommonUIKit16FitTestViewModelC
++ _symbolic _____y_____G 7SwiftUI21_TraitWritingModifierV AA014LayoutPriorityC3KeyV
++ _symbolic _____y_____G 7SwiftUI21_ViewModifier_ContentV 20HeadphoneCommonUIKit011ColorMatrixD0V
++ _symbolic _____y_____G 7SwiftUI24_ForegroundStyleModifierV AA5ColorV
++ _symbolic _____y_____GSg 7SwiftUI19UIHostingControllerC AA7AnyViewV
++ _symbolic _____y__________G 7SwiftUI10_ShapeViewV AA9RectangleV AA5ColorV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 20HeadphoneCommonUIKit17FilteredImageViewV AA12_FrameLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV
++ _symbolic _____y___________Qo_ 7SwiftUI4ViewPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO 20HeadphoneCommonUIKit010FitContentC4ImplV AH0j4TestC5ModelC
++ _symbolic _____y_____yAByAByAByABy__________G_____G_____y_____SgGG_____GAMG_AByAByABy_____AHy_____GG_____yAIGG_____GSgtG 7SwiftUI9TupleViewV AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameJ0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA08_PaddingJ0V AA4TextV AA0R9AlignmentO AA016_ForegroundStyleO0V AA010_FixedSizeJ0V
++ _symbolic _____y_____yAByAByABy__________G_____G_____y_____GG_____G______yAAyAByAByAByAByABy__________GADG_____y_____SgGGALGALG_AByAByABy_____ASy_____GG_____yATGGAFGSgtGGtG 7SwiftUI9TupleViewV AA15ModifiedContentV 20HeadphoneCommonUIKit013FilteredImageD0V AA12_FrameLayoutV AA010_FixedSizeM0V AA21_TraitWritingModifierV AA0m8PriorityP3KeyV AA08_PaddingM0V AA6VStackV AA0K0V AA012_AspectRatioM0V AA012_EnvironmenttqR0V AA5ColorV AA4TextV AA13TextAlignmentO AA016_ForegroundStyleR0V
++ _symbolic _____y_____ySaySi6offset______y7Element_____QzG7elementtGSi_____y_____y_____yxG_____G_ALy_____y__________G_____GSgtGGG 7SwiftUI6VStackV AA7ForEachV 20HeadphoneCommonUIKit23CheckMarkSelectableItemC AF09CheckmarkL14DatasourceTypeP AA9TupleViewV AA15ModifiedContentV AF0ijK12SelectionRowV AA14_PaddingLayoutV AA06_ShapeQ0V AA9RectangleV AA5ColorV AA06_FrameW0V
++ _symbolic _____y_____y_____G_____G 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 20HeadphoneCommonUIKit011ColorMatrixF0V AA15_ContrastEffectV
++ _symbolic _____y_____y__________G_____G 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV
++ _symbolic _____y_____y__________G_____GSg 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV
++ _symbolic _____y_____y_____yAAyAAyAAyAAy__________G_____G_____y_____GG_____G_AByACyAAyAAyAAyAAyAAy__________GAEG_____y_____SgGGAMGAMG_AAyAAyAAy_____ASy_____GG_____yATGGAGGSgtGGtGGAEG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV 20HeadphoneCommonUIKit013FilteredImageG0V AA12_FrameLayoutV AA010_FixedSizeN0V AA21_TraitWritingModifierV AA0n8PriorityQ3KeyV AA08_PaddingN0V AA0L0V AA012_AspectRatioN0V AA012_EnvironmenturS0V AA5ColorV AA4TextV AA13TextAlignmentO AA016_ForegroundStyleS0V
++ _symbolic _____y_____y_____yAAyAByAByAByABy__________G_____G_____y_____GG_____G_ACyAAyAByAByAByAByABy__________GAEG_____y_____SgGGAMGAMG_AByAByABy_____ASy_____GG_____yATGGAGGSgtGGtGGAEG_A11_tG 7SwiftUI9TupleViewV AA15ModifiedContentV AA6VStackV 20HeadphoneCommonUIKit013FilteredImageD0V AA12_FrameLayoutV AA010_FixedSizeN0V AA21_TraitWritingModifierV AA0n8PriorityQ3KeyV AA08_PaddingN0V AA0L0V AA012_AspectRatioN0V AA012_EnvironmenturS0V AA5ColorV AA4TextV AA13TextAlignmentO AA016_ForegroundStyleS0V
++ _symbolic _____y_____y_____yAAy_____yACyAAyAAyAAyAAy__________G_____G_____y_____GG_____G_ADyACyAAyAAyAAyAAyAAy__________GAFG_____y_____SgGGANGANG_AAyAAyAAy_____ATy_____GG_____yAUGGAHGSgtGGtGGAFG_A12_tGG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA6VStackV 20HeadphoneCommonUIKit013FilteredImageG0V AA12_FrameLayoutV AA010_FixedSizeO0V AA21_TraitWritingModifierV AA0o8PriorityR3KeyV AA08_PaddingO0V AA0M0V AA012_AspectRatioO0V AA012_EnvironmentvsT0V AA5ColorV AA4TextV AA13TextAlignmentO AA016_ForegroundStyleT0V AA05_FlexnO0V
++ _symbolic _____y_____y_____yACyACyACyACy__________G_____G_____y_____SgGG_____GANG_ACyACyACy_____AIy_____GG_____yAJGG_____GSgtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameK0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA08_PaddingK0V AA4TextV AA0S9AlignmentO AA016_ForegroundStyleP0V AA010_FixedSizeK0V
++ _symbolic _____y_____y_____yACyACyACy__________G_____G_____y_____GG_____G_AAyAByACyACyACyACyACy__________GAEG_____y_____SgGGAMGAMG_ACyACyACy_____ASy_____GG_____yATGGAGGSgtGGtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV 20HeadphoneCommonUIKit013FilteredImageE0V AA12_FrameLayoutV AA010_FixedSizeN0V AA21_TraitWritingModifierV AA0n8PriorityQ3KeyV AA08_PaddingN0V AA0L0V AA012_AspectRatioN0V AA012_EnvironmenturS0V AA5ColorV AA4TextV AA13TextAlignmentO AA016_ForegroundStyleS0V
++ _symbolic _____y_____y_____y_____yAByACyACyACyACy__________G_____G_____y_____GG_____G_ADyAByACyACyACyACyACy__________GAFG_____y_____SgGGANGANG_ACyACyACy_____ATy_____GG_____yAUGGAHGSgtGGtGGAFG_A12_tGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV AA6VStackV 20HeadphoneCommonUIKit013FilteredImageE0V AA12_FrameLayoutV AA010_FixedSizeO0V AA21_TraitWritingModifierV AA0o8PriorityR3KeyV AA08_PaddingO0V AA0M0V AA012_AspectRatioO0V AA012_EnvironmentvsT0V AA5ColorV AA4TextV AA13TextAlignmentO AA016_ForegroundStyleT0V
++ _symbolic _____y_____y_____y_____yABy_____yADyAByAByAByABy__________G_____G_____y_____GG_____G_AEyADyAByAByAByAByABy__________GAGG_____y_____SgGGAOGAOG_AByAByABy_____AUy_____GG_____yAVGGAIGSgtGGtGGAGG_A13_tGG_____GSSG 7SwiftUI6IDViewV AA15ModifiedContentV AA6HStackV AA9TupleViewV AA6VStackV 20HeadphoneCommonUIKit013FilteredImageH0V AA12_FrameLayoutV AA010_FixedSizeP0V AA21_TraitWritingModifierV AA0p8PriorityS3KeyV AA08_PaddingP0V AA0N0V AA012_AspectRatioP0V AA012_EnvironmentwtU0V AA5ColorV AA4TextV AA13TextAlignmentO AA016_ForegroundStyleU0V AA05_FlexoP0V
++ _symbolic _____yxG 20HeadphoneCommonUIKit42CheckMarkSelectableSingleSectionInlineViewV
++ _symbolic _____yx_____G 7SwiftUI15ModifiedContentV 20HeadphoneCommonUIKit19ColorMatrixModifierV
++ _symbolic yt
++ _type_layout_string 20HeadphoneCommonUIKit15SwiftUIMicaViewV
++ _type_layout_string 20HeadphoneCommonUIKit17FilteredImageViewV
++ _type_layout_string 20HeadphoneCommonUIKit18FitContentViewImplV
++ _type_layout_string 20HeadphoneCommonUIKit18FitContentViewImplV15LayoutConstantsV
++ _type_layout_string 20HeadphoneCommonUIKit19ColorMatrixModifierV
++ _type_layout_string 20HeadphoneCommonUIKit27CheckmarkItemDatasourceTypeRzlAA42CheckMarkSelectableSingleSectionInlineViewVyxG
+- -[HPCUIFitTestController setupConstraints]
+- _CGRectZero
+- _OBJC_CLASS_$_UIViewController
+- _OBJC_IVAR_$_HPCUIFitTestController._buttonImage
+- _OBJC_IVAR_$_HPCUIFitTestController._fitTestContentView
+- _OBJC_IVAR_$_HPCUIFitTestController._fitTestController
+- _OBJC_IVAR_$_HPCUIFitTestController._leftBudLabel
+- _OBJC_IVAR_$_HPCUIFitTestController._leftBudLabelImageView
+- _OBJC_IVAR_$_HPCUIFitTestController._leftBudResultLabel
+- _OBJC_IVAR_$_HPCUIFitTestController._leftImView
+- _OBJC_IVAR_$_HPCUIFitTestController._resultDetailLabel
+- _OBJC_IVAR_$_HPCUIFitTestController._rightBudLabel
+- _OBJC_IVAR_$_HPCUIFitTestController._rightBudLabelImageView
+- _OBJC_IVAR_$_HPCUIFitTestController._rightBudResultLabel
+- _OBJC_IVAR_$_HPCUIFitTestController._rightImView
+- _OBJC_IVAR_$_HPCUIFitTestController._stackViewImages
+- _OBJC_METACLASS_$_UIViewController
+- _UIContentSizeCategoryIsAccessibilityCategory
+- _UILayoutPriorityRequired
+- __PROTOCOLS__TtC20HeadphoneCommonUIKit23MultiLinkableFooterView.17
+- ___43-[HPCUIFitTestController sealValueChanged:]_block_invoke
+- ___43-[HPCUIFitTestController sealValueChanged:]_block_invoke_2
+- ___43-[HPCUIFitTestController sealValueChanged:]_block_invoke_3
+- ___43-[HPCUIFitTestController sealValueChanged:]_block_invoke_4
+- ___43-[HPCUIFitTestController sealValueChanged:]_block_invoke_5
+- ___block_descriptor_56_e8_32s_e5_v8?0ls32l8
+- ___block_literal_global.171
+- ___swift_coroFrameAllocStub
+- _get_witness_table 20HeadphoneCommonUIKit27CheckmarkItemDatasourceTypeRzl7SwiftUI15ModifiedContentVyAC4ViewPACE20accessibilityElement8childrenQrAC26AccessibilityChildBehaviorV_tFQOyAgCE12onTapGesture5count7performQrSi_yyctFQOyAEyAEyAC6HStackVyAC05TupleL0VyAEyAEyAEyAEyAEy0N0_11ImageResultQZAC30_EnvironmentKeyWritingModifierVyAC4FontVSgGGAWyAC5ColorVSgGGAC18_AspectRatioLayoutVGAC12_FrameLayoutVGAC14_PaddingLayoutVG_AC6VStackVyARyAC4TextV_AEyAEyAS_6ResultQZA_GA4_GtGGAC6SpacerVAEyAEyAC0Z0VA4_GA4_GSgtGGAC01_K13ShapeModifierVyAC9RectangleVGGAC16_FlexFrameLayoutVG_Qo__Qo_AC0P18AttachmentModifierVGAcFHPqd__AcFHD2_A44_HO_A46_AC0L8ModifierHPyHCHC.25
+- _get_witness_table 20HeadphoneCommonUIKit27CheckmarkItemDatasourceTypeRzlqd0__7SwiftUI4ViewHD3_AcDPACE15navigationTitleyQrqd__SyRd__lFQOyAE8SettingsE22settingsListAppearanceQryFQOyAC0O0Vys5NeverOAC7ForEachVySnySiGSiAC7SectionVy06HeaderJ0QzANySayAA019CheckMarkSelectableE0Cy7ElementQzGG10Foundation4UUIDVAA0vwX12SelectionRowVyxGG06FooterJ0QzGGG_Qo__SSQo_HO.24
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA6VStackVyAA9TupleViewVyACyAA6HStackVyAGyAA0G0PAAE12scenePaddingyQrAA4EdgeO3SetVFQOyACyAA03AnyG0VAA12_FrameLayoutVG_Qo__AkAEALyQrAPFQOyACyAEyAGyAA4TextV_AXtGGAA05_FlexnO0VG_Qo_ACyACyAEyAGyAA6ButtonVyACyACyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA25_ForegroundStyleModifier2VyAA5ColorVA17_GGATGG_AA6SpacerVtGGA0_GAA01_jO0VGtGGA28_G_ACyA4_yAXG20HeadphoneCommonUIKit018SolariumOvalTintedR0VGtGGAA011_BackgroundzW0VyA17_GGAA11_ClipEffectVyAA16RoundedRectangleVGGAaJHPA43_AaJHPA39_AaJHPyHC_A42_AA0gW0HPyHCHC_A48_AAA50_HPyHCHC.31
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyADyADyADyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA0F9AlignmentOGGAHyAA4FontVSgGGAA16_FlexFrameLayoutVGAA08_PaddingO0VGAaBHPAtaBHPAqaBHPAlaBHPAfaBHPyHC_AkA0cJ0HPyHCHC_ApaXHPyHCHC_AsaXHPyHCHC_AvaXHPyHCHC.21
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx20HeadphoneCommonUIKit24SolariumOvalTintedButtonVGAaBHPxAaBHD1__AgA0C8ModifierHPyHCHC.15
+- _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA15ModifiedContentVyAGyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA25_ForegroundStyleModifier2VyAA5ColorVATGG_AGyAA4TextVAKyAA0R9AlignmentOGGtGGAA0E0HPyHC.1
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE12onTapGesture5count7performQrSi_yyctFQOyAA15ModifiedContentVyAHy20HeadphoneCommonUIKit18SplitContainerPairVyAA6VStackVyAA05TupleC0VyAA03AnyC0V_AA4TextVSgtGGAQSgGAA01_J13ShapeModifierVyAA9RectangleVGGAA16_FlexFrameLayoutVG_Qo_HO.26
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE12scenePaddingyQrAA4EdgeO3SetVFQOyAA15ModifiedContentVyAJyAcAE11buttonStyleyQrqd__AA015PrimitiveButtonK0Rd__lFQOyAJyAA01_c9Modifier_I0Vy20HeadphoneCommonUIKit018SolariumOvalTintedM0VGAA022_EnvironmentKeyWritingN0VyAA4FontVSgGG_AA08BorderedmK0VQo_ATyAA08AnyShapeK0VSgGGATyAA11ControlSizeOGG_Qo_HO.14
+- _malloc
+- _objc_claimAutoreleasedReturnValue
+- _objc_msgSend$_setContinuousCornerRadius:
+- _objc_msgSend$bringSubviewToFront:
+- _objc_msgSend$center
+- _objc_msgSend$constraintGreaterThanOrEqualToAnchor:constant:
+- _objc_msgSend$constraintGreaterThanOrEqualToConstant:
+- _objc_msgSend$constraintLessThanOrEqualToConstant:
+- _objc_msgSend$deviceColor
+- _objc_msgSend$imageWithTintColor:renderingMode:
+- _objc_msgSend$initWithTitle:detailText:icon:contentLayout:
+- _objc_msgSend$isPreferredLanguageEnglish
+- _objc_msgSend$isSmallScreenDevice
+- _objc_msgSend$isiPad
+- _objc_msgSend$preferredFontForTextStyle:
+- _objc_msgSend$rightAnchor
+- _objc_msgSend$setAutoresizingMask:
+- _objc_msgSend$setCenter:
+- _objc_msgSend$setContentHuggingPriority:forAxis:
+- _objc_msgSend$setLineBreakMode:
+- _objc_msgSend$setNumberOfLines:
+- _objc_msgSend$setSize:
+- _objc_msgSend$setString:
+- _objc_msgSend$setTextAlignment:
+- _objc_msgSend$setTextColor:
+- _objc_msgSend$setupConstraints
+- _objc_msgSend$sizeToFit
+- _objc_opt_new
+- _objc_retain_x1
+- _objc_retain_x25
+- _swift_errorRetain
+CStrings:
++ "$__lazy_storage_$_micaView"
++ "/Library/Caches/com.apple.xbs/0DA1AB01-BA3D-4E0E-ADEC-B30192FBD1ED/TemporaryDirectory.Ws1KPh/Sources/ConnectedAudio_UI/HeadphoneSettings/HeadphoneCommonUIKit/BadgedTitleProvider.swift"
++ "@\"UIImageView\"8@?0"
++ "@\"_TtC20HeadphoneCommonUIKit29HPCUIFitTestContentController\""
++ "@36@0:8@?16@?24B32"
++ "Fit Test: HPCUIFitTestContentController called"
++ "Good Fit"
++ "HeadphoneCommonUIKit.HPCUIFitTestContentController"
++ "HeadphoneCommonUIKit.UIKitMicaView"
++ "HeadphoneCommonUIKit/HPCUIFitTestContentView.swift"
++ "HeadphoneCommonUIKit/SwiftUIHelpers.swift"
++ "StaticString should have Unicode scalar representation"
++ "T@\"NSLayoutConstraint\",&,N,V_headerHeightConstraint"
++ "T@\"_TtC20HeadphoneCommonUIKit29HPCUIFitTestContentController\",&,N,V_contentController"
++ "_TtC20HeadphoneCommonUIKit16FitTestViewModel"
++ "_TtC20HeadphoneCommonUIKit29HPCUIFitTestContentController"
++ "_TtC20HeadphoneCommonUIKitP33_A0F33FA59B8259C88466EAC04DC9916D13UIKitMicaView"
++ "_contentController"
++ "_headerHeightConstraint"
++ "_leftColor"
++ "_leftText"
++ "_rightColor"
++ "_rightText"
++ "_showResultsLeft"
++ "_showResultsRight"
++ "backgroundOpaque"
++ "backgroundOpaqueKey"
++ "bundle"
++ "contentController"
++ "contentSize"
++ "copy"
++ "defaultPadding"
++ "fittestModel"
++ "getSubTitle:"
++ "headerHeightConstraint"
++ "hostingController"
++ "identifier"
++ "identifierKey"
++ "image"
++ "initWithLBudImage:rBudImage:bakePadding:"
++ "lightDarkState"
++ "offset element "
++ "prepareForReuse"
++ "resetUI"
++ "scrollRectToVisible:animated:"
++ "scrollToBottom"
++ "scrollView"
++ "selectableKey"
++ "separatorColor"
++ "setContentController:"
++ "setHeaderHeightConstraint:"
++ "showDisclosureIndicatorKey"
++ "superview"
++ "updateLeftResultsWithColor:leftText:shouldShow:"
++ "updateRightResultsWithColor:rightText:shouldShow:"
++ "v36@0:8@16@24B32"
++ "verticalMarginsOnlyKey"
++ "\xc1"
+- "\nLeft Seal : %.2f  Confidence : %.2f\nRight Seal : %.2f  Confidence : %.2f"
+- "/Library/Caches/com.apple.xbs/Sources/ConnectedAudio_UI/HeadphoneSettings/HeadphoneCommonUIKit/BadgedTitleProvider.swift"
+- "@\"OBWelcomeController\""
+- "@\"UIImage\""
+- "@\"UIStackView\""
+- "_buttonImage"
+- "_fitTestContentView"
+- "_fitTestController"
+- "_leftBudLabel"
+- "_leftBudLabelImageView"
+- "_leftBudResultLabel"
+- "_leftImView"
+- "_resultDetailLabel"
+- "_rightBudLabel"
+- "_rightBudLabelImageView"
+- "_rightBudResultLabel"
+- "_rightImView"
+- "_setContinuousCornerRadius:"
+- "_stackViewImages"
+- "bringSubviewToFront:"
+- "center"
+- "constraintGreaterThanOrEqualToAnchor:constant:"
+- "constraintGreaterThanOrEqualToConstant:"
+- "constraintLessThanOrEqualToConstant:"
+- "imageWithTintColor:renderingMode:"
+- "preferredFontForTextStyle:"
+- "rightAnchor"
+- "self must be a properly aligned pointer for types Pointee and T"
+- "setAutoresizingMask:"
+- "setCenter:"
+- "setContentHuggingPriority:forAxis:"
+- "setLineBreakMode:"
+- "setNumberOfLines:"
+- "setSize:"
+- "setString:"
+- "setTextAlignment:"
+- "setTextColor:"
+- "setupConstraints"
+- "sizeToFit"
+- "\xf0\xa1"
+
+```

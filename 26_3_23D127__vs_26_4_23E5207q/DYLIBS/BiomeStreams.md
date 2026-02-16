@@ -1,0 +1,479 @@
+## BiomeStreams
+
+> `/System/Library/PrivateFrameworks/BiomeStreams.framework/BiomeStreams`
+
+```diff
+
+-200.6.0.0.0
+-  __TEXT.__text: 0x41fe94
+-  __TEXT.__auth_stubs: 0x23f0
++209.12.1.0.0
++  __TEXT.__text: 0x43ad14
++  __TEXT.__auth_stubs: 0x2370
+   __TEXT.__objc_methlist: 0x15124
+-  __TEXT.__const: 0xad0d4
+-  __TEXT.__cstring: 0x35169
+-  __TEXT.__gcc_except_tab: 0x1520
+-  __TEXT.__oslogstring: 0xbce0
++  __TEXT.__const: 0xad154
++  __TEXT.__cstring: 0x30d49
++  __TEXT.__gcc_except_tab: 0x1474
++  __TEXT.__oslogstring: 0xbd70
+   __TEXT.__dlopen_cstrs: 0x632
+   __TEXT.__constg_swiftt: 0xb2b8
+-  __TEXT.__swift5_typeref: 0x55b2
++  __TEXT.__swift5_typeref: 0x5576
+   __TEXT.__swift5_builtin: 0xf0
+   __TEXT.__swift5_reflstr: 0x6e41
+   __TEXT.__swift5_fieldmd: 0xbb70
+-  __TEXT.__swift5_capture: 0x1b4
++  __TEXT.__swift5_capture: 0x1a4
+   __TEXT.__swift5_assocty: 0xbf8
+   __TEXT.__swift5_proto: 0x1f68
+   __TEXT.__swift5_types: 0x844
+   __TEXT.__swift5_mpenum: 0x44
+   __TEXT.__swift5_protos: 0x40
+-  __TEXT.__unwind_info: 0xc2b8
+-  __TEXT.__eh_frame: 0xde30
+-  __TEXT.__objc_classname: 0x26cd
+-  __TEXT.__objc_methname: 0x1cfa5
+-  __TEXT.__objc_methtype: 0x3c9c
+-  __TEXT.__objc_stubs: 0x117e0
++  __TEXT.__unwind_info: 0xcfb0
++  __TEXT.__eh_frame: 0xdbc8
++  __TEXT.__objc_classname: 0x5436
++  __TEXT.__objc_methname: 0x1f1ff
++  __TEXT.__objc_methtype: 0x3d9c
++  __TEXT.__objc_stubs: 0x11940
+   __DATA_CONST.__got: 0x10a8
+-  __DATA_CONST.__const: 0x2a7f8
++  __DATA_CONST.__const: 0x2a838
+   __DATA_CONST.__objc_classlist: 0xea0
+   __DATA_CONST.__objc_catlist: 0x28
+   __DATA_CONST.__objc_protolist: 0x1c0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x6068
++  __DATA_CONST.__objc_selrefs: 0x6058
+   __DATA_CONST.__objc_protorefs: 0x80
+   __DATA_CONST.__objc_superrefs: 0x990
+   __DATA_CONST.__objc_arraydata: 0x38
+-  __AUTH_CONST.__auth_got: 0x1208
+-  __AUTH_CONST.__const: 0x12b50
+-  __AUTH_CONST.__cfstring: 0x90e0
++  __AUTH_CONST.__auth_got: 0x11c8
++  __AUTH_CONST.__const: 0x12ad0
++  __AUTH_CONST.__cfstring: 0x9160
+   __AUTH_CONST.__objc_const: 0x4de88
+   __AUTH_CONST.__objc_intobj: 0x78
+   __AUTH_CONST.__objc_arrayobj: 0x30
+   __AUTH_CONST.__objc_dictobj: 0x28
+   __AUTH.__objc_data: 0x5e08
+-  __AUTH.__data: 0x13480
++  __AUTH.__data: 0x134a0
+   __AUTH.__thread_vars: 0x348
+   __AUTH.__thread_data: 0xf4
+   __AUTH.__thread_bss: 0x458
+   __DATA.__objc_ivar: 0x1874
+-  __DATA.__data: 0x9d08
+-  __DATA.__bss: 0x3db30
++  __DATA.__data: 0x9d20
++  __DATA.__bss: 0x3daa0
+   __DATA.__common: 0x1c10
+   __DATA_DIRTY.__objc_data: 0x34e8
+-  __DATA_DIRTY.__data: 0x1b8
+-  __DATA_DIRTY.__bss: 0x250
++  __DATA_DIRTY.__data: 0x1d8
++  __DATA_DIRTY.__bss: 0x2d0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Security.framework/Security
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 50DC01CB-1F1C-3C5A-9C52-1BF2C94985BB
+-  Functions: 21853
+-  Symbols:   75387
+-  CStrings:  16602
++  UUID: C5A5F9CE-66E8-3736-A892-CEDF80D4F40C
++  Functions: 21998
++  Symbols:   76018
++  CStrings:  16587
+ 
+Symbols:
++ +[BMDaemon registerXPCActivitiesWithTaskScheduler:]
++ +[BMDaemon(Pruning) _registerSpaceAttributionWithDomain:completion:]
++ +[BMDaemon(Pruning) pruneFeatureStoreWithShouldDefer:]
++ +[BMDaemon(Pruning) pruneFeatureStoreWithShouldDefer:].cold.1
++ +[BMDaemon(Pruning) prunePrivateStreamDirectory:maxAge:maxStreamSize:shouldDefer:]
++ +[BMDaemon(Pruning) prunePrivateStreamDirectory:maxAge:maxStreamSize:shouldDefer:].cold.1
++ +[BMDaemon(Pruning) prunePublicStreams]
++ +[BMDaemon(Pruning) pruneRestrictedStreamsInDomain:account:protectionClass:shouldDefer:]
++ +[BMDaemon(Pruning) pruneRestrictedStreamsInDomain:account:protectionClass:shouldDefer:].cold.1
++ +[BMDaemon(Pruning) pruneRestrictedStreamsWithProtectionClass:shouldDefer:]
++ +[BMDaemon(Pruning) registerSpaceAttributionWithCompletion:]
++ GCC_except_table28
++ GCC_except_table30
++ _$s10Foundation4DateVACSQAAWL
++ _$s10Foundation4DateVSQAAMc
++ _$s10Foundation4DateVSg_ADtMR
++ _$s10Foundation4DateVSg_ADtMd
++ _$s12BiomeStreams13StorableValueO10CodingKeys33_69E06497FCCD36C7847396967BD3AC6FLLO04hashD0SivgTm
++ _$s12BiomeStreams13StorableValueO10CodingKeys33_69E06497FCCD36C7847396967BD3AC6FLLOSHAASH08_rawHashD04seedS2i_tFTWTm
++ _$s12BiomeStreams19DataProtectionClassO9hashValueSivgTm
++ _$s12BiomeStreams19DataProtectionClassOSHAASH13_rawHashValue4seedS2i_tFTWTm
++ _$s12BiomeStreams22SelectCorePhysicalPlanVWObTm
++ _$s12BiomeStreams5group33_69E06497FCCD36C7847396967BD3AC6FLL7changes2by8metadata20aggregationFunctions13resultColumns6having19expressionEvaluatorSayAA12ChangeRecordVGAM_Say0A9SQLParser13SQLExpressionVGAA20QueryPlannerMetadataCSayAN19AggregationFunctionVGSayAN12ResultColumnVGAPSgAA0vR0CtKFyAA14GroupedChangesACLLVz_ALtKXEfU0_12passesHavingL_7payloadSbSDySSAA13StorableValueOG_tKFTf0nnnsn_n
++ _$s14BiomeSQLParser11SQLDataTypeOSgMR
++ _$s14BiomeSQLParser11SQLDataTypeOSgMd
++ _$s14BiomeSQLParser12PgQuery_NodeVSgWOb
++ _$s14BiomeSQLParser13SQLExpressionV2eeoiySbAC_ACtFZTf4nnd_n
++ _$s14BiomeSQLParser14PgQuery_A_ExprV8hasLexprSbvg
++ _$s14BiomeSQLParser18PgQuery_SelectStmtV14hasWhereClauseSbvg
++ _$s14BiomeSQLParser18PgQuery_SelectStmtV14hasWhereClauseSbvgTm
++ _$s14BiomeSQLParser18PgQuery_SelectStmtV15hasHavingClauseSbvg
++ _$s14BiomeSQLParser26PgQuery_DropTableSpaceStmtV21InternalSwiftProtobuf7MessageAadEPxycfCTWTm
++ _$s14BiomeSQLParser28PgQuery_DropSubscriptionStmtV21InternalSwiftProtobuf7MessageAadEPxycfCTWTm
++ _$sSD8endIndexSD0B0Vyxq__GvgSS_12BiomeStreams13DatabaseValueOTg5
++ _$sSS3key_12BiomeStreams13StorableValueO5valuetWObTm
++ _$sSS3key_14BiomeSQLParser11SQLDataTypeO5valuetSgWObTm
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lF14BiomeSQLParser13SQLExpressionV_SayAGGTg5
++ _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSDySay12BiomeStreams13StorableValueOGSDySSAHGG_AF12ChangeRecordVs5NeverOTg504$s12d83Streams14GroupedChanges33_69E06497FCCD36C7847396967BD3AC6FLLV13changeRecordsSayAA12hi13VGyFAGSayAA13fG29OG3key_SDySSAJG5valuet_tXEfU_Tf1cn_nTm
++ _$sSlsE5first7ElementQzSgvgSay14BiomeSQLParser7BindingVG_Tg5
++ _$sSr13_mergeTopRuns_6buffer2bySbSaySnySiGGz_SpyxGSbx_xtKXEtKF14BiomeSQLParser13SQLExpressionV_Tg504$s12f139Streams29KeyedAggregationMetadataCacheV16materializedView8database9cacheSizeAC0A9SQLParser012MaterializedH0V_s13OpaquePointerVSitKcfcSbAG13H10V_AMtXEfU_Tf1nncn_nTm
++ _$sSr13_mergeTopRuns_6buffer2bySbSaySnySiGGz_SpyxGSbx_xtKXEtKF14BiomeSQLParser19AggregationFunctionV_Tg504$s12f66Streams33selectAndHavingAggregateFunctions0C4CoreSay0A9SQLParser19hI32VGAD06SelectH0V_tFSbAF_AFtXEfU0_Tf1nncn_nTm
++ _$sSr13_mergeTopRuns_6buffer2bySbSaySnySiGGz_SpyxGSbx_xtKXEtKFSS3key_14BiomeSQLParser11SQLDataTypeO5valuet_Tg504$s12g105Streams12DBViewWriterV8database9tableName6schema14createTableSQLACs13OpaquePointerV_SSSDySS0A9SQLParser11iJ45OGSSSgtKcfcSbSS3key_AL5valuet_SSAO_AlPttXEfU_Tf1nncn_n
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF12BiomeStreams15LibraryArtifactO04DataR0_pXp_Tg5
++ _$ss15ContiguousArrayV15reserveCapacityyySiFSay14BiomeSQLParser19AggregationFunctionVG_Tg5Tm
++ _$ss15ContiguousArrayV28_allocateBufferUninitialized15minimumCapacitys01_abD0VyxGSi_tFZ
++ _$ss5ErrorWS
++ _$ss6ResultOys17_NativeDictionaryVySSSiGs5Error_pGWOe
++ _OUTLINED_FUNCTION_213
++ _OUTLINED_FUNCTION_214
++ _OUTLINED_FUNCTION_215
++ _OUTLINED_FUNCTION_216
++ _OUTLINED_FUNCTION_217
++ _OUTLINED_FUNCTION_218
++ _OUTLINED_FUNCTION_219
++ _OUTLINED_FUNCTION_220
++ _OUTLINED_FUNCTION_221
++ _OUTLINED_FUNCTION_222
++ _OUTLINED_FUNCTION_223
++ _OUTLINED_FUNCTION_224
++ _OUTLINED_FUNCTION_225
++ ___51+[BMDaemon registerXPCActivitiesWithTaskScheduler:]_block_invoke
++ ___51+[BMDaemon registerXPCActivitiesWithTaskScheduler:]_block_invoke.68
++ ___51+[BMDaemon registerXPCActivitiesWithTaskScheduler:]_block_invoke.74
++ ___51+[BMDaemon registerXPCActivitiesWithTaskScheduler:]_block_invoke.80
++ ___60+[BMDaemon(Pruning) registerSpaceAttributionWithCompletion:]_block_invoke
++ ___68+[BMDaemon(Pruning) _registerSpaceAttributionWithDomain:completion:]_block_invoke
++ ___68+[BMDaemon(Pruning) _registerSpaceAttributionWithDomain:completion:]_block_invoke.cold.1
++ ___68+[BMDaemon(Pruning) _registerSpaceAttributionWithDomain:completion:]_block_invoke.cold.2
++ ___82+[BMDaemon(Pruning) prunePrivateStreamDirectory:maxAge:maxStreamSize:shouldDefer:]_block_invoke
++ ___block_descriptor_32_e14_v16?0?<B?>8l
++ ___block_descriptor_32_e14_v16?0?<v?>8l
++ ___block_descriptor_48_e8_32bs_e5_v8?0ls32l8
++ ___block_literal_global.60
++ ___block_literal_global.70
++ ___block_literal_global.83
++ ___block_literal_global.88
++ ___swift_get_extra_inhabitant_index.3271Tm
++ ___swift_get_extra_inhabitant_index.3310Tm
++ ___swift_get_extra_inhabitant_index.3340Tm
++ ___swift_get_extra_inhabitant_index.3466Tm
++ ___swift_get_extra_inhabitant_index.3563Tm
++ ___swift_get_extra_inhabitant_index.3599Tm
++ ___swift_get_extra_inhabitant_index.3626Tm
++ ___swift_get_extra_inhabitant_index.3644Tm
++ ___swift_get_extra_inhabitant_index.3653Tm
++ ___swift_get_extra_inhabitant_index.3905Tm
++ ___swift_get_extra_inhabitant_index.3959Tm
++ ___swift_get_extra_inhabitant_index.4058Tm
++ ___swift_get_extra_inhabitant_index.4100Tm
++ ___swift_get_extra_inhabitant_index.4226Tm
++ ___swift_get_extra_inhabitant_index.4295Tm
++ ___swift_get_extra_inhabitant_index.4340Tm
++ ___swift_get_extra_inhabitant_index.4391Tm
++ ___swift_get_extra_inhabitant_index.4535Tm
++ ___swift_get_extra_inhabitant_index.4553Tm
++ ___swift_get_extra_inhabitant_index.4730Tm
++ ___swift_store_extra_inhabitant_index.3272Tm
++ ___swift_store_extra_inhabitant_index.3311Tm
++ ___swift_store_extra_inhabitant_index.3341Tm
++ ___swift_store_extra_inhabitant_index.3467Tm
++ ___swift_store_extra_inhabitant_index.3564Tm
++ ___swift_store_extra_inhabitant_index.3600Tm
++ ___swift_store_extra_inhabitant_index.3627Tm
++ ___swift_store_extra_inhabitant_index.3645Tm
++ ___swift_store_extra_inhabitant_index.3906Tm
++ ___swift_store_extra_inhabitant_index.3960Tm
++ ___swift_store_extra_inhabitant_index.4059Tm
++ ___swift_store_extra_inhabitant_index.4101Tm
++ ___swift_store_extra_inhabitant_index.4227Tm
++ ___swift_store_extra_inhabitant_index.4242Tm
++ ___swift_store_extra_inhabitant_index.4296Tm
++ ___swift_store_extra_inhabitant_index.4341Tm
++ ___swift_store_extra_inhabitant_index.4392Tm
++ ___swift_store_extra_inhabitant_index.4536Tm
++ ___swift_store_extra_inhabitant_index.4554Tm
++ ___swift_store_extra_inhabitant_index.4731Tm
++ ___swift_store_extra_inhabitant_index.5505Tm
++ _block_copy_helper.32
++ _block_descriptor.34
++ _block_destroy_helper.33
++ _errstart.cold.2
++ _objc_msgSend$_registerSpaceAttributionWithDomain:completion:
++ _objc_msgSend$attachDatabaseWithResourceIdentifier:useCase:error:
++ _objc_msgSend$drivableSinkWithBookmark:completion:shouldContinue:
++ _objc_msgSend$fileExistsAtPath:
++ _objc_msgSend$initWithCString:encoding:
++ _objc_msgSend$initWithJSONDictionary:error:
++ _objc_msgSend$initWithPrivateStreamIdentifier:storeConfig:
++ _objc_msgSend$initWithRestrictedStreamIdentifier:
++ _objc_msgSend$openContainerForResource:mode:error:
++ _objc_msgSend$pathForResource:inContainer:
++ _objc_msgSend$pruneFeatureStoreWithShouldDefer:
++ _objc_msgSend$prunePrivateStreamDirectory:maxAge:maxStreamSize:shouldDefer:
++ _objc_msgSend$prunePublicStreams
++ _objc_msgSend$pruneRestrictedStreamsInDomain:account:protectionClass:shouldDefer:
++ _objc_msgSend$pruneRestrictedStreamsWithProtectionClass:shouldDefer:
++ _objc_msgSend$registerNoDeferralTaskWithIdentifier:asyncWorkHandler:
++ _objc_msgSend$registerSpaceAttributionWithCompletion:
++ _objc_msgSend$registerTaskWithIdentifier:workHandler:
++ _objc_msgSend$setLegacyStreamNameMappingCallback:
++ _objc_msgSend$setLegacyViewResourceMappingCallback:
++ _objc_msgSend$setUUIDStreamNameMappingCallback:
++ _objc_msgSend$sharedInstance
++ _swift_release_n
++ _swift_unknownObjectRelease_n
++ _swift_willThrowTypedImpl
++ _symbolic _____Sg 14BiomeSQLParser11SQLDataTypeO
++ _symbolic _____Sg_ABt 10Foundation4DateV
+- +[BMDaemon registerXPCActivities]
+- +[BMDaemon(Pruning) _registerWithSpaceAttributionWithActivity:domain:completion:]
+- +[BMDaemon(Pruning) pruneFeatureStoreWithActivity:]
+- +[BMDaemon(Pruning) pruneFeatureStoreWithActivity:].cold.1
+- +[BMDaemon(Pruning) prunePrivateStreamDirectory:maxAge:maxStreamSize:activity:]
+- +[BMDaemon(Pruning) prunePrivateStreamDirectory:maxAge:maxStreamSize:activity:].cold.1
+- +[BMDaemon(Pruning) prunePublicStreamsWithActivity:]
+- +[BMDaemon(Pruning) pruneRestrictedStreamsInDomain:account:activity:protectionClass:]
+- +[BMDaemon(Pruning) pruneRestrictedStreamsInDomain:account:activity:protectionClass:].cold.1
+- +[BMDaemon(Pruning) pruneRestrictedStreamsWithActivity:protectionClass:]
+- +[BMDaemon(Pruning) registerWithSpaceAttributionWithActivity:completion:]
+- _$s12BiomeStreams13StorableValueO04DataD10CodingKeys33_69E06497FCCD36C7847396967BD3AC6FLLO4hash4intoys6HasherVz_tF
+- _$s12BiomeStreams13StorableValueO04DateD10CodingKeys33_69E06497FCCD36C7847396967BD3AC6FLLO4hash4intoys6HasherVz_tF
+- _$s12BiomeStreams13StorableValueO10CodingKeys33_69E06497FCCD36C7847396967BD3AC6FLLO04hashD0Sivg
+- _$s12BiomeStreams13StorableValueO10CodingKeys33_69E06497FCCD36C7847396967BD3AC6FLLO4hash4intoys6HasherVz_tF
+- _$s12BiomeStreams13StorableValueOACSHAAWl
+- _$s12BiomeStreams16DatabaseResourcePAAE4view3forAA24IntelligencePlatformView_pXpSgSS_tFZSbAaF_pXpXEfU_
+- _$s12BiomeStreams16DatabaseResourcePAAE4view3forAA24IntelligencePlatformView_pXpSgSS_tFZSbAaF_pXpXEfU_TA
+- _$s12BiomeStreams22IncrementalViewManagerCACycfcAA012MaterializedD12PhysicalPlanVSgAA8DataflowVKXEfU_
+- _$s12BiomeStreams22IncrementalViewManagerCACycfcAA012MaterializedD12PhysicalPlanVSgAA8DataflowVKXEfU_TA
+- _$s12BiomeStreams28MaterializedViewPhysicalPlanVWObTm
+- _$s12BiomeStreams5group33_69E06497FCCD36C7847396967BD3AC6FLL7changes2by8metadata20aggregationFunctions13resultColumns6having19expressionEvaluatorSayAA12ChangeRecordVGAM_Say0A9SQLParser13SQLExpressionVGAA20QueryPlannerMetadataCSayAN19AggregationFunctionVGSayAN12ResultColumnVGAPSgAA0vR0CtKFyAA14GroupedChangesACLLVz_ALtKXEfU0_12passesHavingL_7payloadSbSDySSAA13StorableValueOG_tKF
+- _$s12BiomeStreams5group33_69E06497FCCD36C7847396967BD3AC6FLL7changes2by8metadata20aggregationFunctions13resultColumns6having19expressionEvaluatorSayAA12ChangeRecordVGAM_Say0A9SQLParser13SQLExpressionVGAA20QueryPlannerMetadataCSayAN19AggregationFunctionVGSayAN12ResultColumnVGAPSgAA0vR0CtKFyAA14GroupedChangesACLLVz_ALtKXEfU0_TA
+- _$s14BiomeSQLParser10SelectCoreV6select9resourcesAcA08PgQuery_C4StmtV_AA13PlanResourcesVtKcfcAA12ResultColumnVAA0gH5_NodeVKXEfU_
+- _$s14BiomeSQLParser10SelectCoreV6select9resourcesAcA08PgQuery_C4StmtV_AA13PlanResourcesVtKcfcAA12ResultColumnVAA0gH5_NodeVKXEfU_TA
+- _$s14BiomeSQLParser10SelectCoreV6select9resourcesAcA08PgQuery_C4StmtV_AA13PlanResourcesVtKcfcAA13SQLExpressionVAA0gH5_NodeVKXEfU1_
+- _$s14BiomeSQLParser10SelectCoreV6select9resourcesAcA08PgQuery_C4StmtV_AA13PlanResourcesVtKcfcAA13SQLExpressionVAA0gH5_NodeVKXEfU1_TA
+- _$s14BiomeSQLParser12ResultColumnV10CodingKeys33_53FFB03555E1B5F278E35EF6B4945B73LLOSHAASH13_rawHashValue4seedS2i_tFTWTm
+- _$s14BiomeSQLParser12ResultColumnV10CodingKeys33_53FFB03555E1B5F278E35EF6B4945B73LLOSHAASH9hashValueSivgTWTm
+- _$s14BiomeSQLParser12ResultColumnV4node7schemas16tokenInformationAcA12PgQuery_NodeV_SayAA6SchemaVGAA08SQLTokenH0VtKcfcSbAA0iJ10_ScanTokenVXEfU_TA
+- _$s14BiomeSQLParser14SQLRawDataTypeOACSYAAWL
+- _$s14BiomeSQLParser14SQLRawDataTypeOACSYAAWlTm
+- _$s14BiomeSQLParser18SQLExpressionAExpr33_B787555787B9EFBBEFB0C9C5225A4FB7LLV19inferExprReturnType01lnO001rnO02opAA07SQLDataO0OAJSg_AJSStKFZTv2_r
+- _$s14BiomeSQLParser18SQLExpressionAExpr33_B787555787B9EFBBEFB0C9C5225A4FB7LLV19inferExprReturnType01lnO001rnO02opAA07SQLDataO0OAJSg_AJSStKFZTv3_r
+- _$s14BiomeSQLParser18SQLExpressionAExpr33_B787555787B9EFBBEFB0C9C5225A4FB7LLV19inferExprReturnType01lnO001rnO02opAA07SQLDataO0OAJSg_AJSStKFZTv5_r
+- _$s14BiomeSQLParser20SQLExpressioBoolExpr33_B787555787B9EFBBEFB0C9C5225A4FB7LLV04boolE07schemas14columnResolver16tokenInformationAdA08PgQuery_dE0V_SayAA6SchemaVGAA06ColumnP0ACLLVAA08SQLTokenR0VtKcfcAA17SQLExpressionNodeACLL_pAA0st1_Y0VKXEfU_TA
+- _$s14BiomeSQLParser21SQLExpressionFuncCall33_B787555787B9EFBBEFB0C9C5225A4FB7LLV8function7schemas14columnResolver16tokenInformationAdA08PgQuery_dE0V_SayAA6SchemaVGAA06ColumnP0ACLLVAA08SQLTokenR0VtKcfcAA0C4NodeACLL_pAA0st1_X0VKXEfU_TA
+- _$s14BiomeSQLParser21SQLExpressionFuncCall33_B787555787B9EFBBEFB0C9C5225A4FB7LLV8function7schemas14columnResolver16tokenInformationAdA08PgQuery_dE0V_SayAA6SchemaVGAA06ColumnP0ACLLVAA08SQLTokenR0VtKcfcAA0C4NodeACLL_pAA0st1_X0VKXEfU_TATm
+- _$s14BiomeSQLParser24SQLExpressionConstString33_B787555787B9EFBBEFB0C9C5225A4FB7LLV010expressionE0SSvg
+- _$s14BiomeSQLParser7BindingV10CodingKeys33_B787555787B9EFBBEFB0C9C5225A4FB7LLOSHAASH13_rawHashValue4seedS2i_tFTWTm
+- _$s14BiomeSQLParser7BindingV10CodingKeys33_B787555787B9EFBBEFB0C9C5225A4FB7LLOSHAASH9hashValueSivgTWTm
+- _$sSD8_VariantV11updateValue_6forKeyq_Sgq_n_xtFSS_12BiomeStreams08StorableC0OTg5
+- _$sSS3key_14BiomeSQLParser11SQLDataTypeO5valuetWObTm
+- _$sSTsE10compactMapySayqd__Gqd__Sg7ElementQzKXEKlFSay12BiomeStreams8DataflowVG_AF28MaterializedViewPhysicalPlanVTg5
+- _$sSTsE5first5where7ElementQzSgSbADKXE_tKFSay12BiomeStreams24IntelligencePlatformView_pXpG_Tg5
+- _$sSTsE6reduce4into_qd__qd__n_yqd__z_7ElementQztKXEtKlFSay12BiomeStreams12ChangeRecordVG_AE14GroupedChanges33_69E06497FCCD36C7847396967BD3AC6FLLVTg5
+- _$sSTsE8contains5whereS2b7ElementQzKXE_tKFSaySSG_Tg5
+- _$sSTsSQ7ElementRpzrlE8containsySbABFSay14BiomeSQLParser11SQLDataTypeOG_TB5
+- _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA
+- _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA.118
+- _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA.120
+- _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA.122
+- _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TATm
+- _$sSY8rawValue03RawB0QzvgTj
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ14BiomeSQLParser11SQLDataTypeO_Tt1g5
+- _$sSi6offset_12BiomeStreams13StorableValueO7elementtSgMR
+- _$sSi6offset_12BiomeStreams13StorableValueO7elementtSgMd
+- _$sSi6offset_12BiomeStreams13StorableValueO7elementtWObTm
+- _$sSi6offset_SS10columnName_14BiomeSQLParser11SQLDataTypeO04dataG0t7elementtSgMR
+- _$sSi6offset_SS10columnName_14BiomeSQLParser11SQLDataTypeO04dataG0t7elementtSgMd
+- _$sSi6offset_SS10columnName_14BiomeSQLParser11SQLDataTypeO04dataG0t7elementtWObTm
+- _$sSlsE10firstIndex5where0B0QzSgSb7ElementQzKXE_tKFSay14BiomeSQLParser17PgQuery_ScanTokenVG_Tg5
+- _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSay14BiomeSQLParser12PgQuery_NodeVG_AF013SQLExpressionH033_B787555787B9EFBBEFB0C9C5225A4FB7LL_psAE_pTg5
+- _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSay14BiomeSQLParser12PgQuery_NodeVG_AF12ResultColumnVsAE_pTg5
+- _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSay14BiomeSQLParser12PgQuery_NodeVG_AF13SQLExpressionVsAE_pTg5
+- _$sSlsE5first7ElementQzSgvgSDySS12BiomeStreams13DatabaseValueOG_Tg5
+- _$sSlsE5first7ElementQzSgvgSay14BiomeSQLParser11LogicalPlanVG_Tg5
+- _$sSlsE5first7ElementQzSgvgSay14BiomeSQLParser6SchemaVG_Tg5
+- _$sSlsE5split9maxSplits25omittingEmptySubsequences14whereSeparatorSay11SubSequenceQzGSi_S2b7ElementQzKXEtKFSS_Tg5
+- _$sSlsSQ7ElementRpzrlE5split9separator9maxSplits25omittingEmptySubsequencesSay11SubSequenceQzGAB_SiSbtFSbABXEfU_SS_TG5TA
+- _$sSlsSQ7ElementRpzrlE5split9separator9maxSplits25omittingEmptySubsequencesSay11SubSequenceQzGAB_SiSbtFSbABXEfU_SS_TG5TA.119
+- _$sSlsSQ7ElementRpzrlE5split9separator9maxSplits25omittingEmptySubsequencesSay11SubSequenceQzGAB_SiSbtFSbABXEfU_SS_TG5TATm
+- _$sSo18BMStreamIdentifieraSo0A4BaseCs5Error_pIeggozo_SgWOy
+- _$sSr13_finalizeRuns_6buffer2bySbSaySnySiGGz_SpyxGSbx_xtKXEtKF14BiomeSQLParser13SQLExpressionV_Tg504$s12e139Streams29KeyedAggregationMetadataCacheV16materializedView8database9cacheSizeAC0A9SQLParser012MaterializedH0V_s13OpaquePointerVSitKcfcSbAG13G10V_AMtXEfU_Tf1nncn_nTm
+- _$sSr13_finalizeRuns_6buffer2bySbSaySnySiGGz_SpyxGSbx_xtKXEtKF14BiomeSQLParser19AggregationFunctionV_Tg504$s12e66Streams33selectAndHavingAggregateFunctions0C4CoreSay0A9SQLParser19gH32VGAD06SelectH0V_tFSbAF_AFtXEfU0_Tf1nncn_nTm
+- _$sSr13_finalizeRuns_6buffer2bySbSaySnySiGGz_SpyxGSbx_xtKXEtKFSS3key_14BiomeSQLParser11SQLDataTypeO5valuet_Tg504$s12f105Streams12DBViewWriterV8database9tableName6schema14createTableSQLACs13OpaquePointerV_SSSDySS0A9SQLParser11hI45OGSSSgtKcfcSbSS3key_AL5valuet_SSAO_AlPttXEfU_Tf1nncn_n
+- _$ss10_HashTableV14occupiedBucket5afterAB0D0VAF_tF
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSnySiG_Tg5
+- _$ss15ContiguousArrayV15reserveCapacityyySiFSay14BiomeSQLParser19AggregationFunctionVG_Tg5
+- _$ss17_NativeDictionaryV5index5afterSD5IndexVyxq__GAG_tFSS_14BiomeSQLParser11SQLDataTypeOTg5
+- _$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntFSS_12BiomeStreams13StorableValueOTg5
+- _$ss18EnumeratedSequenceV8IteratorV4nextSi6offset_7ElementQz7elementtSgyFs10ArraySliceVy14BiomeSQLParser17PgQuery_ScanTokenVG_Tg5
+- _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF14BiomeSQLParser11SQLDataTypeO_TB5
+- _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF14BiomeSQLParser11SQLDataTypeO_Tg5
+- _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF14BiomeSQLParser11SQLDataTypeO_Tg5Tm
+- _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF14BiomeSQLParser14SQLRawDataTypeO_TB5
+- _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF14BiomeSQLParser14SQLRawDataTypeO_Tg5
+- _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF14BiomeSQLParser15PgQuery_CmdTypeO_Tg5
+- _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF14BiomeSQLParser15PgQuery_RTEKindO_Tg5
+- _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF14BiomeSQLParser16PgQuery_JoinTypeO_Tg5
+- _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF14BiomeSQLParser17PgQuery_XmlExprOpO_Tg5
+- _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF14BiomeSQLParser18PgQuery_ConstrTypeO_Tg5
+- _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF14BiomeSQLParser19PgQuery_A_Expr_KindO_Tg5
+- _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF14BiomeSQLParser19PgQuery_SubLinkTypeO_Tg5
+- _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF14BiomeSQLParser20PgQuery_BoolTestTypeO_Tg5
+- _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF14BiomeSQLParser22PgQuery_RowCompareTypeO_Tg5
+- _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF14BiomeSQLParser23PgQuery_TableLikeOptionO_Tg5
+- _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF14BiomeSQLParser23PgQuery_VariableSetKindO_Tg5
+- _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF14BiomeSQLParser26PgQuery_SQLValueFunctionOpO_Tg5
+- _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF14BiomeSQLParser27PgQuery_TransactionStmtKindO_Tg5
+- _$sxRi_zRi0_zlyST_pSo12BMStreamBaseC7ElementSTRts_XPIsegr_SgWOe
+- _$sxRi_zRi0_zlyST_pSo12BMStreamBaseC7ElementSTRts_XPIsegr_SgWOy
+- _$sxq_s5Error_pRi_zRi0_zRi__Ri0__r0_lySo18BMStreamIdentifieraSo0B4BaseCIsegnrzo_SgWOe
+- _OBJC_CLASS_$_BMXPCActivity
+- _XPC_ACTIVITY_CHECK_IN
+- ___33+[BMDaemon registerXPCActivities]_block_invoke
+- ___33+[BMDaemon registerXPCActivities]_block_invoke.66
+- ___33+[BMDaemon registerXPCActivities]_block_invoke.71
+- ___33+[BMDaemon registerXPCActivities]_block_invoke.75
+- ___33+[BMDaemon registerXPCActivities]_block_invoke_2
+- ___33+[BMDaemon registerXPCActivities]_block_invoke_2.69
+- ___33+[BMDaemon registerXPCActivities]_block_invoke_2.74
+- ___33+[BMDaemon registerXPCActivities]_block_invoke_2.76
+- ___73+[BMDaemon(Pruning) registerWithSpaceAttributionWithActivity:completion:]_block_invoke
+- ___79+[BMDaemon(Pruning) prunePrivateStreamDirectory:maxAge:maxStreamSize:activity:]_block_invoke
+- ___81+[BMDaemon(Pruning) _registerWithSpaceAttributionWithActivity:domain:completion:]_block_invoke
+- ___81+[BMDaemon(Pruning) _registerWithSpaceAttributionWithActivity:domain:completion:]_block_invoke.cold.1
+- ___81+[BMDaemon(Pruning) _registerWithSpaceAttributionWithActivity:domain:completion:]_block_invoke.cold.2
+- ___block_descriptor_56_e8_32s40bs_e5_v8?0ls32l8s40l8
+- ___block_literal_global.57
+- ___block_literal_global.68
+- ___block_literal_global.73
+- ___block_literal_global.80
+- ___swift_get_extra_inhabitant_index.3395Tm
+- ___swift_get_extra_inhabitant_index.3434Tm
+- ___swift_get_extra_inhabitant_index.3464Tm
+- ___swift_get_extra_inhabitant_index.3687Tm
+- ___swift_get_extra_inhabitant_index.3714Tm
+- ___swift_get_extra_inhabitant_index.3723Tm
+- ___swift_get_extra_inhabitant_index.3750Tm
+- ___swift_get_extra_inhabitant_index.3768Tm
+- ___swift_get_extra_inhabitant_index.3777Tm
+- ___swift_get_extra_inhabitant_index.4029Tm
+- ___swift_get_extra_inhabitant_index.4083Tm
+- ___swift_get_extra_inhabitant_index.4182Tm
+- ___swift_get_extra_inhabitant_index.4224Tm
+- ___swift_get_extra_inhabitant_index.4350Tm
+- ___swift_get_extra_inhabitant_index.4419Tm
+- ___swift_get_extra_inhabitant_index.4464Tm
+- ___swift_get_extra_inhabitant_index.4515Tm
+- ___swift_get_extra_inhabitant_index.4659Tm
+- ___swift_get_extra_inhabitant_index.4677Tm
+- ___swift_get_extra_inhabitant_index.4854Tm
+- ___swift_store_extra_inhabitant_index.3396Tm
+- ___swift_store_extra_inhabitant_index.3435Tm
+- ___swift_store_extra_inhabitant_index.3465Tm
+- ___swift_store_extra_inhabitant_index.3688Tm
+- ___swift_store_extra_inhabitant_index.3715Tm
+- ___swift_store_extra_inhabitant_index.3724Tm
+- ___swift_store_extra_inhabitant_index.3751Tm
+- ___swift_store_extra_inhabitant_index.3769Tm
+- ___swift_store_extra_inhabitant_index.4030Tm
+- ___swift_store_extra_inhabitant_index.4084Tm
+- ___swift_store_extra_inhabitant_index.4183Tm
+- ___swift_store_extra_inhabitant_index.4225Tm
+- ___swift_store_extra_inhabitant_index.4351Tm
+- ___swift_store_extra_inhabitant_index.4366Tm
+- ___swift_store_extra_inhabitant_index.4420Tm
+- ___swift_store_extra_inhabitant_index.4465Tm
+- ___swift_store_extra_inhabitant_index.4516Tm
+- ___swift_store_extra_inhabitant_index.4660Tm
+- ___swift_store_extra_inhabitant_index.4678Tm
+- ___swift_store_extra_inhabitant_index.4855Tm
+- ___swift_store_extra_inhabitant_index.5629Tm
+- _block_copy_helper.34
+- _block_descriptor.36
+- _block_destroy_helper.35
+- _objc_claimAutoreleasedReturnValue
+- _objc_msgSend$_registerWithSpaceAttributionWithActivity:domain:completion:
+- _objc_msgSend$didDefer
+- _objc_msgSend$initWithActivity:activityName:
+- _objc_msgSend$pruneFeatureStoreWithActivity:
+- _objc_msgSend$prunePrivateStreamDirectory:maxAge:maxStreamSize:activity:
+- _objc_msgSend$prunePublicStreamsWithActivity:
+- _objc_msgSend$pruneRestrictedStreamsInDomain:account:activity:protectionClass:
+- _objc_msgSend$pruneRestrictedStreamsWithActivity:protectionClass:
+- _objc_msgSend$registerWithSpaceAttributionWithActivity:completion:
+- _objc_msgSend$setContinue
+- _objc_msgSend$setDone
+- _objc_retainAutoreleaseReturnValue
+- _objc_retain_x1
+- _objc_retain_x4
+- _objc_retain_x5
+- _objc_retain_x6
+- _swift_retain_n
+- _symbolic Si6offset_SS10columnName______8dataTypet7elementtSg 14BiomeSQLParser11SQLDataTypeO
+- _symbolic Si6offset______7elementtSg 12BiomeStreams13StorableValueO
+- _xpc_activity_get_state
+- _xpc_activity_register
+CStrings:
++ "%{public}@ deleting event with body %@ with substitution variables %@"
++ "Pausing pruning of private streams in directory: %{public}@ due to deferral"
++ "Pausing pruning of restricted streams due to deferral"
++ "_registerSpaceAttributionWithDomain:completion:"
++ "com.apple.biome.space-attribution-update"
++ "pruneFeatureStoreWithShouldDefer:"
++ "prunePrivateStreamDirectory:maxAge:maxStreamSize:shouldDefer:"
++ "prunePublicStreams"
++ "pruneRestrictedStreamsInDomain:account:protectionClass:shouldDefer:"
++ "pruneRestrictedStreamsWithProtectionClass:shouldDefer:"
++ "registerNoDeferralTaskWithIdentifier:asyncWorkHandler:"
++ "registerSpaceAttributionWithCompletion:"
++ "registerTaskWithIdentifier:workHandler:"
++ "registerXPCActivitiesWithTaskScheduler:"
++ "running activity \"com.apple.biome.space-attribution-update\""
++ "v16@?0@?<B@?>8"
++ "v16@?0@?<v@?>8"
++ "v48@0:8@16d24Q32@?40"
++ "v48@0:8Q16@24Q32@?40"
+- "Pausing pruning of private streams in directory: %{public}@ due to xpc activity deferral"
+- "Pausing pruning of restricted streams due to xpc activity deferral"
+- "_registerWithSpaceAttributionWithActivity:domain:completion:"
+- "didDefer"
+- "initWithActivity:activityName:"
+- "pruneFeatureStoreWithActivity:"
+- "prunePrivateStreamDirectory:maxAge:maxStreamSize:activity:"
+- "prunePublicStreamsWithActivity:"
+- "pruneRestrictedStreamsInDomain:account:activity:protectionClass:"
+- "pruneRestrictedStreamsWithActivity:protectionClass:"
+- "registerWithSpaceAttributionWithActivity:completion:"
+- "registerXPCActivities"
+- "setContinue"
+- "setDone"
+- "v40@0:8@16Q24@?32"
+- "v48@0:8@16d24Q32@40"
+- "v48@0:8Q16@24@32Q40"
+
+```

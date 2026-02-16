@@ -1,0 +1,1144 @@
+## ProactiveSummarization
+
+> `/System/Library/PrivateFrameworks/ProactiveSummarization.framework/ProactiveSummarization`
+
+```diff
+
+-1303.10.0.0.0
+-  __TEXT.__text: 0x160b68
+-  __TEXT.__auth_stubs: 0x39e0
++1311.4.1.0.0
++  __TEXT.__text: 0x15ce98
++  __TEXT.__auth_stubs: 0x39a0
+   __TEXT.__objc_methlist: 0x5cc
+-  __TEXT.__const: 0x10478
++  __TEXT.__const: 0x10498
+   __TEXT.__dlopen_cstrs: 0x56
+   __TEXT.__oslogstring: 0x67eb
+-  __TEXT.__swift5_typeref: 0x3e2e
+-  __TEXT.__cstring: 0xb3f0
++  __TEXT.__swift5_typeref: 0x3dca
++  __TEXT.__cstring: 0x9fbe
+   __TEXT.__swift5_fieldmd: 0x3914
+-  __TEXT.__constg_swiftt: 0x3078
+-  __TEXT.__swift5_reflstr: 0x373d
+-  __TEXT.__swift5_capture: 0x14f0
++  __TEXT.__constg_swiftt: 0x3060
++  __TEXT.__swift5_reflstr: 0x372d
++  __TEXT.__swift5_capture: 0x14e0
+   __TEXT.__swift5_protos: 0x3c
+   __TEXT.__swift5_proto: 0xb8c
+   __TEXT.__swift5_types: 0x4b4
+
+   __TEXT.__swift5_builtin: 0x12c
+   __TEXT.__swift5_mpenum: 0x60
+   __TEXT.__swift5_assocty: 0x318
+-  __TEXT.__gcc_except_tab: 0xfc
+-  __TEXT.__unwind_info: 0x59c8
+-  __TEXT.__eh_frame: 0xfa34
+-  __TEXT.__objc_classname: 0x1a8
+-  __TEXT.__objc_methname: 0x2ae3
+-  __TEXT.__objc_methtype: 0x475
+-  __TEXT.__objc_stubs: 0x6c0
+-  __DATA_CONST.__got: 0x10a8
++  __TEXT.__gcc_except_tab: 0x108
++  __TEXT.__unwind_info: 0x57b0
++  __TEXT.__eh_frame: 0xf4c0
++  __TEXT.__objc_classname: 0xa41
++  __TEXT.__objc_methname: 0x369f
++  __TEXT.__objc_methtype: 0x883
++  __TEXT.__objc_stubs: 0x2fa0
++  __DATA_CONST.__got: 0x10c8
+   __DATA_CONST.__const: 0x3a8
+   __DATA_CONST.__objc_classlist: 0x148
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0xc0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xde0
++  __DATA_CONST.__objc_selrefs: 0xdd0
+   __DATA_CONST.__objc_protorefs: 0x60
+   __DATA_CONST.__objc_superrefs: 0x10
+-  __AUTH_CONST.__auth_got: 0x1d00
+-  __AUTH_CONST.__const: 0x9720
++  __AUTH_CONST.__auth_got: 0x1ce0
++  __AUTH_CONST.__const: 0x96f8
+   __AUTH_CONST.__cfstring: 0xc0
+   __AUTH_CONST.__objc_const: 0x2f48
+-  __AUTH.__objc_data: 0x218
++  __AUTH.__objc_data: 0x168
+   __AUTH.__data: 0x1d8
+   __DATA.__objc_ivar: 0x10
+-  __DATA.__data: 0x1b58
++  __DATA.__data: 0x1720
+   __DATA.__bss: 0x162f0
+   __DATA.__common: 0x40
+-  __DATA_DIRTY.__objc_data: 0x2d8
+-  __DATA_DIRTY.__data: 0x22a0
+-  __DATA_DIRTY.__bss: 0x13f0
++  __DATA_DIRTY.__objc_data: 0x388
++  __DATA_DIRTY.__data: 0x26e0
++  __DATA_DIRTY.__bss: 0x1400
+   __DATA_DIRTY.__common: 0x310
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 28302BF8-2351-3C3B-A404-015704F92C04
+-  Functions: 8419
+-  Symbols:   9772
+-  CStrings:  1949
++  UUID: 51921413-6365-38FD-B773-2642614E4B6B
++  Functions: 8914
++  Symbols:   11494
++  CStrings:  1953
+ 
+Symbols:
++ _OUTLINED_FUNCTION_541
++ _OUTLINED_FUNCTION_542
++ _OUTLINED_FUNCTION_543
++ _OUTLINED_FUNCTION_544
++ _OUTLINED_FUNCTION_545
++ _OUTLINED_FUNCTION_546
++ _OUTLINED_FUNCTION_547
++ _OUTLINED_FUNCTION_548
++ _OUTLINED_FUNCTION_549
++ _OUTLINED_FUNCTION_550
++ _OUTLINED_FUNCTION_551
++ _OUTLINED_FUNCTION_552
++ _OUTLINED_FUNCTION_553
++ _OUTLINED_FUNCTION_554
++ _OUTLINED_FUNCTION_555
++ _OUTLINED_FUNCTION_556
++ _OUTLINED_FUNCTION_557
++ _OUTLINED_FUNCTION_558
++ _OUTLINED_FUNCTION_559
++ _OUTLINED_FUNCTION_560
++ _OUTLINED_FUNCTION_561
++ _OUTLINED_FUNCTION_562
++ _OUTLINED_FUNCTION_563
++ _OUTLINED_FUNCTION_564
++ _OUTLINED_FUNCTION_565
++ _OUTLINED_FUNCTION_566
++ _OUTLINED_FUNCTION_567
++ _OUTLINED_FUNCTION_568
++ _OUTLINED_FUNCTION_569
++ _OUTLINED_FUNCTION_570
++ _OUTLINED_FUNCTION_571
++ _OUTLINED_FUNCTION_572
++ _OUTLINED_FUNCTION_573
++ _OUTLINED_FUNCTION_574
++ _OUTLINED_FUNCTION_575
++ _OUTLINED_FUNCTION_576
++ _OUTLINED_FUNCTION_577
++ _OUTLINED_FUNCTION_578
++ _OUTLINED_FUNCTION_579
++ _OUTLINED_FUNCTION_580
++ _OUTLINED_FUNCTION_581
++ _OUTLINED_FUNCTION_582
++ _OUTLINED_FUNCTION_583
++ _OUTLINED_FUNCTION_584
++ _OUTLINED_FUNCTION_585
++ _OUTLINED_FUNCTION_586
++ _OUTLINED_FUNCTION_587
++ _OUTLINED_FUNCTION_588
++ _OUTLINED_FUNCTION_589
++ _OUTLINED_FUNCTION_590
++ _OUTLINED_FUNCTION_591
++ _OUTLINED_FUNCTION_592
++ _OUTLINED_FUNCTION_593
++ _OUTLINED_FUNCTION_594
++ _OUTLINED_FUNCTION_595
++ _OUTLINED_FUNCTION_596
++ _OUTLINED_FUNCTION_597
++ _OUTLINED_FUNCTION_598
++ _OUTLINED_FUNCTION_599
++ _OUTLINED_FUNCTION_600
++ _OUTLINED_FUNCTION_601
++ _OUTLINED_FUNCTION_602
++ _OUTLINED_FUNCTION_603
++ _OUTLINED_FUNCTION_604
++ _OUTLINED_FUNCTION_605
++ _OUTLINED_FUNCTION_606
++ _OUTLINED_FUNCTION_607
++ _OUTLINED_FUNCTION_608
++ _OUTLINED_FUNCTION_609
++ _OUTLINED_FUNCTION_610
++ _OUTLINED_FUNCTION_611
++ _OUTLINED_FUNCTION_612
++ _OUTLINED_FUNCTION_613
++ _OUTLINED_FUNCTION_614
++ _OUTLINED_FUNCTION_615
++ _OUTLINED_FUNCTION_616
++ _OUTLINED_FUNCTION_617
++ _OUTLINED_FUNCTION_618
++ _OUTLINED_FUNCTION_619
++ _OUTLINED_FUNCTION_620
++ _OUTLINED_FUNCTION_621
++ _OUTLINED_FUNCTION_622
++ _OUTLINED_FUNCTION_623
++ _OUTLINED_FUNCTION_624
++ _OUTLINED_FUNCTION_625
++ _OUTLINED_FUNCTION_626
++ _OUTLINED_FUNCTION_627
++ _OUTLINED_FUNCTION_628
++ _OUTLINED_FUNCTION_629
++ _OUTLINED_FUNCTION_630
++ _OUTLINED_FUNCTION_631
++ _OUTLINED_FUNCTION_632
++ __PROTOCOLS__TtC22ProactiveSummarization29SummarizationPipelineDatabase.957
++ _block_copy_helper.103
++ _block_copy_helper.11
++ _block_copy_helper.114
++ _block_copy_helper.125
++ _block_copy_helper.135
++ _block_copy_helper.146
++ _block_copy_helper.156
++ _block_copy_helper.167
++ _block_copy_helper.17
++ _block_copy_helper.177
++ _block_copy_helper.187
++ _block_copy_helper.198
++ _block_copy_helper.208
++ _block_copy_helper.218
++ _block_copy_helper.22
++ _block_copy_helper.229
++ _block_copy_helper.239
++ _block_copy_helper.249
++ _block_copy_helper.260
++ _block_copy_helper.270
++ _block_copy_helper.280
++ _block_copy_helper.291
++ _block_copy_helper.301
++ _block_copy_helper.31
++ _block_copy_helper.312
++ _block_copy_helper.323
++ _block_copy_helper.333
++ _block_copy_helper.344
++ _block_copy_helper.354
++ _block_copy_helper.365
++ _block_copy_helper.375
++ _block_copy_helper.385
++ _block_copy_helper.396
++ _block_copy_helper.406
++ _block_copy_helper.41
++ _block_copy_helper.416
++ _block_copy_helper.427
++ _block_copy_helper.437
++ _block_copy_helper.447
++ _block_copy_helper.458
++ _block_copy_helper.468
++ _block_copy_helper.479
++ _block_copy_helper.489
++ _block_copy_helper.500
++ _block_copy_helper.510
++ _block_copy_helper.52
++ _block_copy_helper.521
++ _block_copy_helper.531
++ _block_copy_helper.541
++ _block_copy_helper.552
++ _block_copy_helper.562
++ _block_copy_helper.572
++ _block_copy_helper.583
++ _block_copy_helper.593
++ _block_copy_helper.604
++ _block_copy_helper.614
++ _block_copy_helper.62
++ _block_copy_helper.624
++ _block_copy_helper.635
++ _block_copy_helper.645
++ _block_copy_helper.656
++ _block_copy_helper.666
++ _block_copy_helper.677
++ _block_copy_helper.687
++ _block_copy_helper.69
++ _block_copy_helper.698
++ _block_copy_helper.708
++ _block_copy_helper.719
++ _block_copy_helper.729
++ _block_copy_helper.73
++ _block_copy_helper.739
++ _block_copy_helper.75
++ _block_copy_helper.750
++ _block_copy_helper.760
++ _block_copy_helper.771
++ _block_copy_helper.781
++ _block_copy_helper.792
++ _block_copy_helper.802
++ _block_copy_helper.81
++ _block_copy_helper.813
++ _block_copy_helper.823
++ _block_copy_helper.83
++ _block_copy_helper.833
++ _block_copy_helper.844
++ _block_copy_helper.854
++ _block_copy_helper.865
++ _block_copy_helper.87
++ _block_copy_helper.875
++ _block_copy_helper.886
++ _block_copy_helper.896
++ _block_copy_helper.907
++ _block_copy_helper.917
++ _block_copy_helper.928
++ _block_copy_helper.93
++ _block_copy_helper.938
++ _block_copy_helper.949
++ _block_copy_helper.97
++ _block_descriptor.105
++ _block_descriptor.116
++ _block_descriptor.127
++ _block_descriptor.13
++ _block_descriptor.137
++ _block_descriptor.148
++ _block_descriptor.158
++ _block_descriptor.169
++ _block_descriptor.179
++ _block_descriptor.189
++ _block_descriptor.19
++ _block_descriptor.200
++ _block_descriptor.210
++ _block_descriptor.220
++ _block_descriptor.231
++ _block_descriptor.24
++ _block_descriptor.241
++ _block_descriptor.251
++ _block_descriptor.262
++ _block_descriptor.272
++ _block_descriptor.282
++ _block_descriptor.293
++ _block_descriptor.303
++ _block_descriptor.314
++ _block_descriptor.325
++ _block_descriptor.33
++ _block_descriptor.335
++ _block_descriptor.346
++ _block_descriptor.356
++ _block_descriptor.367
++ _block_descriptor.377
++ _block_descriptor.387
++ _block_descriptor.398
++ _block_descriptor.408
++ _block_descriptor.418
++ _block_descriptor.429
++ _block_descriptor.43
++ _block_descriptor.439
++ _block_descriptor.449
++ _block_descriptor.460
++ _block_descriptor.470
++ _block_descriptor.481
++ _block_descriptor.491
++ _block_descriptor.502
++ _block_descriptor.512
++ _block_descriptor.523
++ _block_descriptor.533
++ _block_descriptor.54
++ _block_descriptor.543
++ _block_descriptor.554
++ _block_descriptor.564
++ _block_descriptor.574
++ _block_descriptor.585
++ _block_descriptor.595
++ _block_descriptor.606
++ _block_descriptor.616
++ _block_descriptor.626
++ _block_descriptor.637
++ _block_descriptor.64
++ _block_descriptor.647
++ _block_descriptor.658
++ _block_descriptor.668
++ _block_descriptor.679
++ _block_descriptor.689
++ _block_descriptor.700
++ _block_descriptor.71
++ _block_descriptor.710
++ _block_descriptor.721
++ _block_descriptor.731
++ _block_descriptor.741
++ _block_descriptor.75
++ _block_descriptor.752
++ _block_descriptor.762
++ _block_descriptor.77
++ _block_descriptor.773
++ _block_descriptor.783
++ _block_descriptor.794
++ _block_descriptor.804
++ _block_descriptor.815
++ _block_descriptor.825
++ _block_descriptor.83
++ _block_descriptor.835
++ _block_descriptor.846
++ _block_descriptor.85
++ _block_descriptor.856
++ _block_descriptor.867
++ _block_descriptor.877
++ _block_descriptor.888
++ _block_descriptor.89
++ _block_descriptor.898
++ _block_descriptor.909
++ _block_descriptor.919
++ _block_descriptor.930
++ _block_descriptor.940
++ _block_descriptor.95
++ _block_descriptor.951
++ _block_descriptor.99
++ _block_destroy_helper.104
++ _block_destroy_helper.115
++ _block_destroy_helper.12
++ _block_destroy_helper.126
++ _block_destroy_helper.136
++ _block_destroy_helper.147
++ _block_destroy_helper.157
++ _block_destroy_helper.168
++ _block_destroy_helper.178
++ _block_destroy_helper.18
++ _block_destroy_helper.188
++ _block_destroy_helper.199
++ _block_destroy_helper.209
++ _block_destroy_helper.219
++ _block_destroy_helper.23
++ _block_destroy_helper.230
++ _block_destroy_helper.240
++ _block_destroy_helper.250
++ _block_destroy_helper.261
++ _block_destroy_helper.271
++ _block_destroy_helper.281
++ _block_destroy_helper.292
++ _block_destroy_helper.302
++ _block_destroy_helper.313
++ _block_destroy_helper.32
++ _block_destroy_helper.324
++ _block_destroy_helper.334
++ _block_destroy_helper.345
++ _block_destroy_helper.355
++ _block_destroy_helper.366
++ _block_destroy_helper.376
++ _block_destroy_helper.386
++ _block_destroy_helper.397
++ _block_destroy_helper.407
++ _block_destroy_helper.417
++ _block_destroy_helper.42
++ _block_destroy_helper.428
++ _block_destroy_helper.438
++ _block_destroy_helper.448
++ _block_destroy_helper.459
++ _block_destroy_helper.469
++ _block_destroy_helper.480
++ _block_destroy_helper.490
++ _block_destroy_helper.501
++ _block_destroy_helper.511
++ _block_destroy_helper.522
++ _block_destroy_helper.53
++ _block_destroy_helper.532
++ _block_destroy_helper.542
++ _block_destroy_helper.553
++ _block_destroy_helper.563
++ _block_destroy_helper.573
++ _block_destroy_helper.584
++ _block_destroy_helper.594
++ _block_destroy_helper.605
++ _block_destroy_helper.615
++ _block_destroy_helper.625
++ _block_destroy_helper.63
++ _block_destroy_helper.636
++ _block_destroy_helper.646
++ _block_destroy_helper.657
++ _block_destroy_helper.667
++ _block_destroy_helper.678
++ _block_destroy_helper.688
++ _block_destroy_helper.699
++ _block_destroy_helper.70
++ _block_destroy_helper.709
++ _block_destroy_helper.720
++ _block_destroy_helper.730
++ _block_destroy_helper.74
++ _block_destroy_helper.740
++ _block_destroy_helper.751
++ _block_destroy_helper.76
++ _block_destroy_helper.761
++ _block_destroy_helper.772
++ _block_destroy_helper.782
++ _block_destroy_helper.793
++ _block_destroy_helper.803
++ _block_destroy_helper.814
++ _block_destroy_helper.82
++ _block_destroy_helper.824
++ _block_destroy_helper.834
++ _block_destroy_helper.84
++ _block_destroy_helper.845
++ _block_destroy_helper.855
++ _block_destroy_helper.866
++ _block_destroy_helper.876
++ _block_destroy_helper.88
++ _block_destroy_helper.887
++ _block_destroy_helper.897
++ _block_destroy_helper.908
++ _block_destroy_helper.918
++ _block_destroy_helper.929
++ _block_destroy_helper.939
++ _block_destroy_helper.94
++ _block_destroy_helper.950
++ _block_destroy_helper.98
++ _get_type_metadata 15Synchronization5MutexVy19CollectionsInternal17OrderedDictionaryVySS22ProactiveSummarization15SpotlightWriterC23InMemoryMailResultCacheC0N0VGG noncopyable.6
++ _get_type_metadata 15Synchronization5MutexVy19CollectionsInternal17OrderedDictionaryVySS22ProactiveSummarization24InMemoryContactNameCacheC6ResultVGG noncopyable.2
++ _get_type_metadata 15Synchronization5MutexVy22ProactiveSummarization24UserNotificationSettingsC5State33_E0EA9813609006BE40C9CB1DA82C46C1LLVG noncopyable.3
++ _get_type_metadata 15Synchronization5MutexVySDySaySSG22ProactiveSummarization19AvailabilityManagerC6Result33_E9FAF68AD61679E6FD6B32D14203C1CBLLVGG noncopyable.2
++ _objc_autorelease
++ _objc_msgSend$App
++ _objc_msgSend$CarPlay
++ _objc_msgSend$ComputedMode
++ _objc_msgSend$Connected
++ _objc_msgSend$HTMLContentDataNoCopy
++ _objc_msgSend$Intent
++ _objc_msgSend$URLForResource:withExtension:
++ _objc_msgSend$UserFocus
++ _objc_msgSend$_crossPlatformUnifiedMeContactWithKeysToFetch:error:
++ _objc_msgSend$aa_fullName
++ _objc_msgSend$aa_primaryAppleAccount
++ _objc_msgSend$accountHandles
++ _objc_msgSend$accountIdentifier
++ _objc_msgSend$accumulatedString
++ _objc_msgSend$actionsResponse
++ _objc_msgSend$addEntry:
++ _objc_msgSend$addObserver:
++ _objc_msgSend$addSubparser:
++ _objc_msgSend$addTextEntry:timestamp:senderIdentifier:entryIdentifier:
++ _objc_msgSend$andPredicateWithSubpredicates:
++ _objc_msgSend$appendCustomEntityWithTag:stringRepresentation:
++ _objc_msgSend$appendInnerTextWithConsumableNode:
++ _objc_msgSend$assistantDefinedSchemas
++ _objc_msgSend$attachmentCaptions
++ _objc_msgSend$attachmentFiles
++ _objc_msgSend$attachmentNames
++ _objc_msgSend$attachmentPaths
++ _objc_msgSend$attachmentTypes
++ _objc_msgSend$attributeForKey:
++ _objc_msgSend$attributeSet
++ _objc_msgSend$authors
++ _objc_msgSend$bindNamedParam:toDouble:
++ _objc_msgSend$bindNamedParam:toInteger:
++ _objc_msgSend$bindNamedParam:toNSArray:
++ _objc_msgSend$bindNamedParam:toNSData:
++ _objc_msgSend$bindNamedParam:toNSString:
++ _objc_msgSend$boolForKey:
++ _objc_msgSend$boolValue
++ _objc_msgSend$bundleForClass:
++ _objc_msgSend$bundleID
++ _objc_msgSend$cancelRequestID:
++ _objc_msgSend$caption
++ _objc_msgSend$clientWithIdentifier:
++ _objc_msgSend$closePermanently
++ _objc_msgSend$connectionWithError:
++ _objc_msgSend$contactIdentifier
++ _objc_msgSend$containerIdentifier
++ _objc_msgSend$containerURLForSecurityApplicationGroupIdentifier:
++ _objc_msgSend$content
++ _objc_msgSend$contentCreationDate
++ _objc_msgSend$contentSnippet
++ _objc_msgSend$contentTypeTree
++ _objc_msgSend$contentURL
++ _objc_msgSend$conversationIdentifier
++ _objc_msgSend$creator
++ _objc_msgSend$currentNotificationSettingsCenter
++ _objc_msgSend$date
++ _objc_msgSend$dateSent
++ _objc_msgSend$defaultManager
++ _objc_msgSend$defaultStore
++ _objc_msgSend$deleted
++ _objc_msgSend$descriptorForRequiredKeysForStyle:
++ _objc_msgSend$displayName
++ _objc_msgSend$doesModeHaveIntelligentBreakthroughEnabled:
++ _objc_msgSend$domain
++ _objc_msgSend$domainIdentifier
++ _objc_msgSend$doubleValue
++ _objc_msgSend$draft
++ _objc_msgSend$emailAddressValue
++ _objc_msgSend$emailAddresses
++ _objc_msgSend$emailVIPAddressesWithCompletion:
++ _objc_msgSend$entitiesForBundleIdentifier:error:
++ _objc_msgSend$error
++ _objc_msgSend$eventBody
++ _objc_msgSend$extraData
++ _objc_msgSend$fetchContextForMailWithRequest:completion:
++ _objc_msgSend$fetchContextForMessageWithRequest:completion:
++ _objc_msgSend$fetchContextForNotificationWithRequest:completion:
++ _objc_msgSend$fetchUserActivityContentIdentifiersForBundleId:completionHandler:
++ _objc_msgSend$fileExistsAtPath:
++ _objc_msgSend$fileValue
++ _objc_msgSend$filename:subdirectory:
++ _objc_msgSend$flags
++ _objc_msgSend$floatValue
++ _objc_msgSend$genreIdentifier
++ _objc_msgSend$getDoubleForColumnName:table:
++ _objc_msgSend$getInt64ForColumnName:table:
++ _objc_msgSend$getIntegerForColumn:
++ _objc_msgSend$getIntegerForColumnName:table:
++ _objc_msgSend$getNSDataForColumnName:table:
++ _objc_msgSend$getNSStringForColumnName:table:
++ _objc_msgSend$groupIdentifier
++ _objc_msgSend$iTunesMetadata
++ _objc_msgSend$importanceConfidenceScore
++ _objc_msgSend$indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:protectionClass:forBundleID:options:completionHandler:
++ _objc_msgSend$information
++ _objc_msgSend$init
++ _objc_msgSend$initFromNotificationData:timestamp:title:subtitle:body:badge:userInfo:bundleID:threadID:categoryID:sectionID:contactIDs:isGroupMessage:derivedData:
++ _objc_msgSend$initWithAttributes:
++ _objc_msgSend$initWithBool:
++ _objc_msgSend$initWithBuilder:
++ _objc_msgSend$initWithBundleIdentifier:allowPlaceholder:error:
++ _objc_msgSend$initWithContentType:
++ _objc_msgSend$initWithData:encoding:
++ _objc_msgSend$initWithDomain:code:userInfo:
++ _objc_msgSend$initWithDouble:
++ _objc_msgSend$initWithEntityID:
++ _objc_msgSend$initWithHTML:
++ _objc_msgSend$initWithIdentifier:
++ _objc_msgSend$initWithInteger:
++ _objc_msgSend$initWithKeyName:
++ _objc_msgSend$initWithMailID:bundleID:dateReceived:sender:recipients:subject:body:
++ _objc_msgSend$initWithMailMessage:additionalContextSignals:
++ _objc_msgSend$initWithMessageID:bundleID:dateReceived:threadID:sender:recipients:subject:body:
++ _objc_msgSend$initWithMigrationObjects:
++ _objc_msgSend$initWithModelType:safetyType:
++ _objc_msgSend$initWithName:handle:contactIdentifier:handleType:
++ _objc_msgSend$initWithName:protectionClass:bundleIdentifier:
++ _objc_msgSend$initWithOptions:
++ _objc_msgSend$initWithQueryString:queryContext:
++ _objc_msgSend$initWithQueue:operation:
++ _objc_msgSend$initWithResponseText:isRichSmartReply:
++ _objc_msgSend$initWithResponseTexts:
++ _objc_msgSend$initWithResponses:
++ _objc_msgSend$initWithStartDate:endDate:maxEvents:lastN:reversed:
++ _objc_msgSend$initWithStore:options:
++ _objc_msgSend$initWithString:
++ _objc_msgSend$initWithSuiteName:
++ _objc_msgSend$initWithTIInputContextHistory:
++ _objc_msgSend$initWithTargetClass:predicate:sortDescriptors:queryOptions:label:
++ _objc_msgSend$initWithTextMessage:additionalContextSignals:
++ _objc_msgSend$initWithThreadIdentifier:participantsIDtoNamesMap:firstPersonIDs:primaryRecipients:secondaryRecipients:infoDict:
++ _objc_msgSend$initWithTypeIdentifier:instanceIdentifier:
++ _objc_msgSend$initWithUniqueIdentifier:domainIdentifier:attributeSet:
++ _objc_msgSend$initWithUserNotification:additionalContextSignals:
++ _objc_msgSend$instanceIdentifier
++ _objc_msgSend$integerValue
++ _objc_msgSend$intentClass
++ _objc_msgSend$interactionDirection
++ _objc_msgSend$isClassCLocked
++ _objc_msgSend$isCommunicationNotification
++ _objc_msgSend$isDNUEnabled
++ _objc_msgSend$isFromMe
++ _objc_msgSend$isGroupThread
++ _objc_msgSend$isInternalBuild
++ _objc_msgSend$isLikelyJunk
++ _objc_msgSend$isLowPowerModeEnabled
++ _objc_msgSend$isMe
++ _objc_msgSend$isMessageFromKnownSender
++ _objc_msgSend$isNew
++ _objc_msgSend$isPartiallyDownloaded
++ _objc_msgSend$isRichSmartReply
++ _objc_msgSend$isTwoFactorCode
++ _objc_msgSend$isUpdate
++ _objc_msgSend$isUrgent
++ _objc_msgSend$levelForFactor:withNamespaceName:
++ _objc_msgSend$linkType
++ _objc_msgSend$mailCategories
++ _objc_msgSend$mailConversationID
++ _objc_msgSend$mailDateReceived
++ _objc_msgSend$mailFlagged
++ _objc_msgSend$mailRead
++ _objc_msgSend$mailSenderImportance
++ _objc_msgSend$mailVIP
++ _objc_msgSend$mailboxIdentifiers
++ _objc_msgSend$messageForSearchableItemIdentifier:
++ _objc_msgSend$messagePinned
++ _objc_msgSend$messageRead
++ _objc_msgSend$messageRepository
++ _objc_msgSend$messageSenderImportance
++ _objc_msgSend$messageService
++ _objc_msgSend$messageTapbackType
++ _objc_msgSend$messageType
++ _objc_msgSend$migrateDatabases
++ _objc_msgSend$name
++ _objc_msgSend$namespaceNameFromId:
++ _objc_msgSend$needsPriority
++ _objc_msgSend$needsSummary
++ _objc_msgSend$newStringAccumulatorWithOptions:lengthLimit:
++ _objc_msgSend$nextToken
++ _objc_msgSend$notificationCritical
++ _objc_msgSend$notificationSenderImportance
++ _objc_msgSend$notificationSettings
++ _objc_msgSend$notificationSourceWithIdentifier:
++ _objc_msgSend$notificationSystemSettings
++ _objc_msgSend$notificationTimeSensitive
++ _objc_msgSend$numberOfAttachments
++ _objc_msgSend$objectForKey:
++ _objc_msgSend$openApplication:withOptions:completion:
++ _objc_msgSend$optionsWithDictionary:
++ _objc_msgSend$ownerIdentifier
++ _objc_msgSend$parse
++ _objc_msgSend$path
++ _objc_msgSend$performConfigurableQuery:completionHandler:
++ _objc_msgSend$performQuery:limit:completionHandler:
++ _objc_msgSend$performRequests:onImageURL:withIdentifier:completionHandler:
++ _objc_msgSend$personHandle
++ _objc_msgSend$personNameComponentsFromString:
++ _objc_msgSend$phoneNumbers
++ _objc_msgSend$policyWithEntityMetadata:
++ _objc_msgSend$predicateForContactsMatchingHandleStrings:
++ _objc_msgSend$predicateForContactsWithIdentifiers:
++ _objc_msgSend$predicateForExcludingMessagesInMailboxesWithTypes:
++ _objc_msgSend$predicateForMessagesInConversation:
++ _objc_msgSend$prepAndRunQuery:onPrep:onRow:onError:
++ _objc_msgSend$prewarm
++ _objc_msgSend$prioritizationSetting
++ _objc_msgSend$processInfo
++ _objc_msgSend$properties
++ _objc_msgSend$propertyListWithData:options:format:error:
++ _objc_msgSend$protection
++ _objc_msgSend$protectionClass
++ _objc_msgSend$provideDataForBundle:identifier:type:completionHandler:
++ _objc_msgSend$providerDataTypeIdentifiers
++ _objc_msgSend$psu_criticalIndexWithName:protectionClass:bundleIdentifier:
++ _objc_msgSend$publisherWithOptions:
++ _objc_msgSend$publisherWithUseCase:options:
++ _objc_msgSend$quotedRegions
++ _objc_msgSend$reaction
++ _objc_msgSend$reactionType
++ _objc_msgSend$read
++ _objc_msgSend$recentMessagesSinceDate:conversationIdentifier:appBundleId:incomingMessageID:limit:options:completionHandler:
++ _objc_msgSend$recipients
++ _objc_msgSend$referencedMessage
++ _objc_msgSend$registerForTaskWithIdentifier:usingQueue:launchHandler:
++ _objc_msgSend$removeObjectForKey:
++ _objc_msgSend$repliesResponse
++ _objc_msgSend$requestRepresentationWithOptions:completionHandler:
++ _objc_msgSend$requiresFollowUp
++ _objc_msgSend$requiresProtectionClass
++ _objc_msgSend$responseText
++ _objc_msgSend$responses
++ _objc_msgSend$resultWithTimeout:error:
++ _objc_msgSend$results
++ _objc_msgSend$runAfterDelaySeconds:coalescingBehavior:
++ _objc_msgSend$runBlockWhenDeviceIsClassCUnlocked:
++ _objc_msgSend$searchableMessageID
++ _objc_msgSend$senderAddress
++ _objc_msgSend$sentenceEmbeddingForLanguage:
++ _objc_msgSend$service
++ _objc_msgSend$serviceName
++ _objc_msgSend$serviceWithDefaultShellEndpoint
++ _objc_msgSend$setAttachmentCaptions:
++ _objc_msgSend$setAttribute:forKey:
++ _objc_msgSend$setBundleIDs:
++ _objc_msgSend$setCompletionHandler:
++ _objc_msgSend$setCreator:
++ _objc_msgSend$setDuration:
++ _objc_msgSend$setEntryIdentifier:
++ _objc_msgSend$setFetchAttributes:
++ _objc_msgSend$setFoundItemsHandler:
++ _objc_msgSend$setFoundMessageBodyElementBlock:
++ _objc_msgSend$setFoundTextBlock:
++ _objc_msgSend$setFoundWhitespaceBlock:
++ _objc_msgSend$setInformation:
++ _objc_msgSend$setIsUpdate:
++ _objc_msgSend$setIsUrgent:
++ _objc_msgSend$setNetworkUsage:
++ _objc_msgSend$setObject:forKey:
++ _objc_msgSend$setPrimaryRecipientIdentifiers:
++ _objc_msgSend$setPriority:
++ _objc_msgSend$setProviderDataTypeIdentifiers:
++ _objc_msgSend$setReason:
++ _objc_msgSend$setRequestedRepresentation:
++ _objc_msgSend$setRequiresExternalPower:
++ _objc_msgSend$setRequiresProtectionClass:
++ _objc_msgSend$setResourceIntensive:
++ _objc_msgSend$setResources:
++ _objc_msgSend$setScheduleAfter:
++ _objc_msgSend$setSecondaryRecipientIdentifiers:
++ _objc_msgSend$setSenderIdentifier:
++ _objc_msgSend$setSmartRepliesResponse:
++ _objc_msgSend$setSmartRepliesStatus:
++ _objc_msgSend$setSummarizationContentSynopsis:
++ _objc_msgSend$setSummarizationContentTopLine:
++ _objc_msgSend$setSummarizationContentTopic:
++ _objc_msgSend$setSummarizationStatus:
++ _objc_msgSend$setSummarizedIdentifiers:
++ _objc_msgSend$setTaskCompleted
++ _objc_msgSend$setText:
++ _objc_msgSend$setThreadIdentifier:
++ _objc_msgSend$setTimestamp:
++ _objc_msgSend$setTrySchedulingBefore:
++ _objc_msgSend$setUrgencyStatus:
++ _objc_msgSend$sharedInstance
++ _objc_msgSend$sharedPreferencesController
++ _objc_msgSend$sharedScheduler
++ _objc_msgSend$simpleAddress
++ _objc_msgSend$sinkWithCompletion:receiveInput:
++ _objc_msgSend$sinkWithCompletion:shouldContinue:
++ _objc_msgSend$slowFetchAttributes:protectionClass:bundleID:identifiers:completionHandler:
++ _objc_msgSend$snippetFromHTMLBody:options:maxLength:preservingQuotedForwardedContent:
++ _objc_msgSend$sortDescriptorForDateAscending:
++ _objc_msgSend$sourceSettings
++ _objc_msgSend$sqliteDatabaseWithFilename:contentProtection:errorHandler:error:
++ _objc_msgSend$start
++ _objc_msgSend$starting
++ _objc_msgSend$stringFromContact:style:
++ _objc_msgSend$stringValue
++ _objc_msgSend$subject
++ _objc_msgSend$subjectString
++ _objc_msgSend$submitTaskRequest:error:
++ _objc_msgSend$subtitle
++ _objc_msgSend$summarizationContentSynopsis
++ _objc_msgSend$summarizationContentTopLine
++ _objc_msgSend$summarizationContentTopic
++ _objc_msgSend$summarizationStatus
++ _objc_msgSend$summarizedIdentifiers
++ _objc_msgSend$tapbackAssociatedMessageID
++ _objc_msgSend$taskRequestForIdentifier:
++ _objc_msgSend$textContent
++ _objc_msgSend$textContentNoCopy
++ _objc_msgSend$thermalState
++ _objc_msgSend$threadIdentifier
++ _objc_msgSend$title
++ _objc_msgSend$toList
++ _objc_msgSend$transcribedTextContent
++ _objc_msgSend$type
++ _objc_msgSend$unformattedInternationalStringValue
++ _objc_msgSend$unifiedContactsMatchingPredicate:keysToFetch:error:
++ _objc_msgSend$uniqueIdentifier
++ _objc_msgSend$updateTaskRequest:error:
++ _objc_msgSend$urgencyStatus
++ _objc_msgSend$username
++ _objc_msgSend$value
++ _objc_msgSend$valueForAttributes:
++ _objc_msgSend$valueForCustomKey:
++ _objectdestroy.154Tm
++ _objectdestroy.26Tm
++ _objectdestroy.556Tm
++ _objectdestroy.660Tm
++ _objectdestroy.77Tm
++ _objectdestroy.79Tm
++ _swift_willThrowTypedImpl
++ _symbolic So17EMDaemonInterfaceC
++ _symbolic _____Sg 10Foundation20PersonNameComponentsV
++ _symbolic _____Sg_ABt 10Foundation16AttributedStringV
++ _symbolic _____Sg_ABt 10Foundation3URLV
++ _symbolic _____Sg_ABt 10Foundation4DateV
++ _symbolic _____Sg_ABt 28ProactiveSummarizationClient12EntityHandleV
+- _OUTLINED_FUNCTION_513
+- __PROTOCOLS__TtC22ProactiveSummarization29SummarizationPipelineDatabase.958
+- _block_copy_helper.105
+- _block_copy_helper.115
+- _block_copy_helper.12
+- _block_copy_helper.126
+- _block_copy_helper.136
+- _block_copy_helper.147
+- _block_copy_helper.157
+- _block_copy_helper.168
+- _block_copy_helper.178
+- _block_copy_helper.18
+- _block_copy_helper.188
+- _block_copy_helper.199
+- _block_copy_helper.209
+- _block_copy_helper.219
+- _block_copy_helper.23
+- _block_copy_helper.230
+- _block_copy_helper.240
+- _block_copy_helper.250
+- _block_copy_helper.261
+- _block_copy_helper.271
+- _block_copy_helper.281
+- _block_copy_helper.292
+- _block_copy_helper.302
+- _block_copy_helper.313
+- _block_copy_helper.32
+- _block_copy_helper.324
+- _block_copy_helper.334
+- _block_copy_helper.345
+- _block_copy_helper.355
+- _block_copy_helper.366
+- _block_copy_helper.376
+- _block_copy_helper.386
+- _block_copy_helper.397
+- _block_copy_helper.407
+- _block_copy_helper.417
+- _block_copy_helper.42
+- _block_copy_helper.428
+- _block_copy_helper.438
+- _block_copy_helper.448
+- _block_copy_helper.459
+- _block_copy_helper.469
+- _block_copy_helper.480
+- _block_copy_helper.490
+- _block_copy_helper.501
+- _block_copy_helper.511
+- _block_copy_helper.522
+- _block_copy_helper.53
+- _block_copy_helper.532
+- _block_copy_helper.542
+- _block_copy_helper.553
+- _block_copy_helper.563
+- _block_copy_helper.573
+- _block_copy_helper.584
+- _block_copy_helper.594
+- _block_copy_helper.605
+- _block_copy_helper.615
+- _block_copy_helper.625
+- _block_copy_helper.63
+- _block_copy_helper.636
+- _block_copy_helper.646
+- _block_copy_helper.657
+- _block_copy_helper.667
+- _block_copy_helper.678
+- _block_copy_helper.688
+- _block_copy_helper.699
+- _block_copy_helper.70
+- _block_copy_helper.709
+- _block_copy_helper.720
+- _block_copy_helper.730
+- _block_copy_helper.74
+- _block_copy_helper.740
+- _block_copy_helper.751
+- _block_copy_helper.76
+- _block_copy_helper.761
+- _block_copy_helper.772
+- _block_copy_helper.782
+- _block_copy_helper.793
+- _block_copy_helper.803
+- _block_copy_helper.814
+- _block_copy_helper.824
+- _block_copy_helper.834
+- _block_copy_helper.84
+- _block_copy_helper.845
+- _block_copy_helper.855
+- _block_copy_helper.866
+- _block_copy_helper.876
+- _block_copy_helper.88
+- _block_copy_helper.887
+- _block_copy_helper.897
+- _block_copy_helper.908
+- _block_copy_helper.918
+- _block_copy_helper.929
+- _block_copy_helper.939
+- _block_copy_helper.95
+- _block_copy_helper.950
+- _block_copy_helper.98
+- _block_descriptor.100
+- _block_descriptor.107
+- _block_descriptor.117
+- _block_descriptor.128
+- _block_descriptor.138
+- _block_descriptor.14
+- _block_descriptor.149
+- _block_descriptor.159
+- _block_descriptor.170
+- _block_descriptor.180
+- _block_descriptor.190
+- _block_descriptor.20
+- _block_descriptor.201
+- _block_descriptor.211
+- _block_descriptor.221
+- _block_descriptor.232
+- _block_descriptor.242
+- _block_descriptor.25
+- _block_descriptor.252
+- _block_descriptor.263
+- _block_descriptor.273
+- _block_descriptor.283
+- _block_descriptor.294
+- _block_descriptor.304
+- _block_descriptor.315
+- _block_descriptor.326
+- _block_descriptor.336
+- _block_descriptor.34
+- _block_descriptor.347
+- _block_descriptor.357
+- _block_descriptor.368
+- _block_descriptor.378
+- _block_descriptor.388
+- _block_descriptor.399
+- _block_descriptor.409
+- _block_descriptor.419
+- _block_descriptor.430
+- _block_descriptor.44
+- _block_descriptor.440
+- _block_descriptor.450
+- _block_descriptor.461
+- _block_descriptor.471
+- _block_descriptor.482
+- _block_descriptor.492
+- _block_descriptor.503
+- _block_descriptor.513
+- _block_descriptor.524
+- _block_descriptor.534
+- _block_descriptor.544
+- _block_descriptor.55
+- _block_descriptor.555
+- _block_descriptor.565
+- _block_descriptor.575
+- _block_descriptor.586
+- _block_descriptor.596
+- _block_descriptor.607
+- _block_descriptor.617
+- _block_descriptor.627
+- _block_descriptor.638
+- _block_descriptor.648
+- _block_descriptor.65
+- _block_descriptor.659
+- _block_descriptor.669
+- _block_descriptor.680
+- _block_descriptor.690
+- _block_descriptor.701
+- _block_descriptor.711
+- _block_descriptor.72
+- _block_descriptor.722
+- _block_descriptor.732
+- _block_descriptor.742
+- _block_descriptor.753
+- _block_descriptor.76
+- _block_descriptor.763
+- _block_descriptor.774
+- _block_descriptor.78
+- _block_descriptor.784
+- _block_descriptor.795
+- _block_descriptor.805
+- _block_descriptor.816
+- _block_descriptor.826
+- _block_descriptor.836
+- _block_descriptor.847
+- _block_descriptor.857
+- _block_descriptor.86
+- _block_descriptor.868
+- _block_descriptor.878
+- _block_descriptor.889
+- _block_descriptor.899
+- _block_descriptor.90
+- _block_descriptor.910
+- _block_descriptor.920
+- _block_descriptor.931
+- _block_descriptor.941
+- _block_descriptor.952
+- _block_descriptor.97
+- _block_destroy_helper.106
+- _block_destroy_helper.116
+- _block_destroy_helper.127
+- _block_destroy_helper.13
+- _block_destroy_helper.137
+- _block_destroy_helper.148
+- _block_destroy_helper.158
+- _block_destroy_helper.169
+- _block_destroy_helper.179
+- _block_destroy_helper.189
+- _block_destroy_helper.19
+- _block_destroy_helper.200
+- _block_destroy_helper.210
+- _block_destroy_helper.220
+- _block_destroy_helper.231
+- _block_destroy_helper.24
+- _block_destroy_helper.241
+- _block_destroy_helper.251
+- _block_destroy_helper.262
+- _block_destroy_helper.272
+- _block_destroy_helper.282
+- _block_destroy_helper.293
+- _block_destroy_helper.303
+- _block_destroy_helper.314
+- _block_destroy_helper.325
+- _block_destroy_helper.33
+- _block_destroy_helper.335
+- _block_destroy_helper.346
+- _block_destroy_helper.356
+- _block_destroy_helper.367
+- _block_destroy_helper.377
+- _block_destroy_helper.387
+- _block_destroy_helper.398
+- _block_destroy_helper.408
+- _block_destroy_helper.418
+- _block_destroy_helper.429
+- _block_destroy_helper.43
+- _block_destroy_helper.439
+- _block_destroy_helper.449
+- _block_destroy_helper.460
+- _block_destroy_helper.470
+- _block_destroy_helper.481
+- _block_destroy_helper.491
+- _block_destroy_helper.502
+- _block_destroy_helper.512
+- _block_destroy_helper.523
+- _block_destroy_helper.533
+- _block_destroy_helper.54
+- _block_destroy_helper.543
+- _block_destroy_helper.554
+- _block_destroy_helper.564
+- _block_destroy_helper.574
+- _block_destroy_helper.585
+- _block_destroy_helper.595
+- _block_destroy_helper.606
+- _block_destroy_helper.616
+- _block_destroy_helper.626
+- _block_destroy_helper.637
+- _block_destroy_helper.64
+- _block_destroy_helper.647
+- _block_destroy_helper.658
+- _block_destroy_helper.668
+- _block_destroy_helper.679
+- _block_destroy_helper.689
+- _block_destroy_helper.700
+- _block_destroy_helper.71
+- _block_destroy_helper.710
+- _block_destroy_helper.721
+- _block_destroy_helper.731
+- _block_destroy_helper.741
+- _block_destroy_helper.75
+- _block_destroy_helper.752
+- _block_destroy_helper.762
+- _block_destroy_helper.77
+- _block_destroy_helper.773
+- _block_destroy_helper.783
+- _block_destroy_helper.794
+- _block_destroy_helper.804
+- _block_destroy_helper.815
+- _block_destroy_helper.825
+- _block_destroy_helper.835
+- _block_destroy_helper.846
+- _block_destroy_helper.85
+- _block_destroy_helper.856
+- _block_destroy_helper.867
+- _block_destroy_helper.877
+- _block_destroy_helper.888
+- _block_destroy_helper.89
+- _block_destroy_helper.898
+- _block_destroy_helper.909
+- _block_destroy_helper.919
+- _block_destroy_helper.930
+- _block_destroy_helper.940
+- _block_destroy_helper.951
+- _block_destroy_helper.96
+- _block_destroy_helper.99
+- _get_type_metadata 15Synchronization5MutexVy19CollectionsInternal17OrderedDictionaryVySS22ProactiveSummarization15SpotlightWriterC23InMemoryMailResultCacheC0N0VGG.6
+- _get_type_metadata 15Synchronization5MutexVy19CollectionsInternal17OrderedDictionaryVySS22ProactiveSummarization24InMemoryContactNameCacheC6ResultVGG.2
+- _get_type_metadata 15Synchronization5MutexVy22ProactiveSummarization24UserNotificationSettingsC5State33_E0EA9813609006BE40C9CB1DA82C46C1LLVG.3
+- _get_type_metadata 15Synchronization5MutexVySDySaySSG22ProactiveSummarization19AvailabilityManagerC6Result33_E9FAF68AD61679E6FD6B32D14203C1CBLLVGG.9
+- _objc_claimAutoreleasedReturnValue
+- _objc_retainAutorelease
+- _objc_retainAutoreleaseReturnValue
+- _objc_retain_x4
+- _objectdestroy.155Tm
+- _objectdestroy.27Tm
+- _objectdestroy.557Tm
+- _objectdestroy.661Tm
+- _objectdestroy.78Tm
+- _objectdestroy.80Tm
+- _sqrt
+- _symbolic SS3key______5valuetSg 22ProactiveSummarization15SpotlightWriterC23InMemoryMailResultCacheC0H0V
+- _symbolic SS3key______5valuetSg 22ProactiveSummarization24InMemoryContactNameCacheC6ResultV
+- _symbolic Sb8inserted______17memberAfterInsertt 4Sage16UserNotificationV0C4TypeV
+- _symbolic Si6offset______7elementtSg 28ProactiveSummarizationClient10MailEntityV
+- _symbolic Si6offset______y______G7elementtSg 28ProactiveSummarizationClient17ModelContentInputV12EntityStatusO AA07MessageG0V
+- _symbolic So17EMDaemonInterfaceCSg
+CStrings:
++ "mailDaemon"
+- "$__lazy_storage_$_mailDaemon"
+- "handleIdentifier"
+- "handles"
+
+```

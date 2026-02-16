@@ -1,0 +1,2482 @@
+## ShazamKit
+
+> `/System/Library/Frameworks/ShazamKit.framework/ShazamKit`
+
+```diff
+
+-426.1.3.0.0
+-  __TEXT.__text: 0x873e0
+-  __TEXT.__auth_stubs: 0x1c30
+-  __TEXT.__objc_methlist: 0x4880
+-  __TEXT.__const: 0x216ba
+-  __TEXT.__gcc_except_tab: 0x38ac
+-  __TEXT.__cstring: 0x3b02
+-  __TEXT.__oslogstring: 0x1091
+-  __TEXT.__constg_swiftt: 0x4d8
+-  __TEXT.__swift5_typeref: 0xaaa
+-  __TEXT.__swift5_reflstr: 0x39c
+-  __TEXT.__swift5_fieldmd: 0x4e8
++426.4.31.0.0
++  __TEXT.__text: 0x97368
++  __TEXT.__auth_stubs: 0x1cb0
++  __TEXT.__objc_methlist: 0x5028
++  __TEXT.__const: 0x21887
++  __TEXT.__cstring: 0x5dd4
++  __TEXT.__gcc_except_tab: 0x3ba4
++  __TEXT.__oslogstring: 0x152b
++  __TEXT.__constg_swiftt: 0x5f0
++  __TEXT.__swift5_typeref: 0xbd6
+   __TEXT.__swift5_builtin: 0xa0
++  __TEXT.__swift5_reflstr: 0x3e2
++  __TEXT.__swift5_fieldmd: 0x580
+   __TEXT.__swift5_assocty: 0x230
+-  __TEXT.__swift5_capture: 0x280
+-  __TEXT.__swift5_proto: 0xdc
+-  __TEXT.__swift5_types: 0x70
+-  __TEXT.__swift_as_entry: 0x78
+-  __TEXT.__swift_as_ret: 0x88
++  __TEXT.__swift5_proto: 0xe4
++  __TEXT.__swift5_types: 0x84
++  __TEXT.__swift_as_entry: 0xa8
++  __TEXT.__swift_as_ret: 0xc0
+   __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__unwind_info: 0x2ef8
+-  __TEXT.__eh_frame: 0x1760
+-  __TEXT.__objc_classname: 0xad8
+-  __TEXT.__objc_methname: 0x9b10
+-  __TEXT.__objc_methtype: 0x1d6d
+-  __TEXT.__objc_stubs: 0x72c0
+-  __DATA_CONST.__got: 0x6d8
+-  __DATA_CONST.__const: 0x8a8
+-  __DATA_CONST.__objc_classlist: 0x318
++  __TEXT.__swift5_capture: 0x280
++  __TEXT.__unwind_info: 0x3330
++  __TEXT.__eh_frame: 0x1b48
++  __TEXT.__objc_classname: 0xe06
++  __TEXT.__objc_methname: 0xa893
++  __TEXT.__objc_methtype: 0x207d
++  __TEXT.__objc_stubs: 0x7ca0
++  __DATA_CONST.__got: 0x720
++  __DATA_CONST.__const: 0x8c0
++  __DATA_CONST.__objc_classlist: 0x370
+   __DATA_CONST.__objc_catlist: 0x18
+-  __DATA_CONST.__objc_protolist: 0x130
++  __DATA_CONST.__objc_protolist: 0x150
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x2250
++  __DATA_CONST.__objc_selrefs: 0x2478
+   __DATA_CONST.__objc_protorefs: 0x60
+-  __DATA_CONST.__objc_superrefs: 0x210
+-  __AUTH_CONST.__auth_got: 0xe30
+-  __AUTH_CONST.__const: 0x1ab0
+-  __AUTH_CONST.__cfstring: 0x2520
+-  __AUTH_CONST.__objc_const: 0x8dc8
+-  __AUTH_CONST.__objc_doubleobj: 0x10
++  __DATA_CONST.__objc_superrefs: 0x240
++  __AUTH_CONST.__auth_got: 0xe70
++  __AUTH_CONST.__const: 0x1c90
++  __AUTH_CONST.__cfstring: 0x27a0
++  __AUTH_CONST.__objc_const: 0x9ca0
++  __AUTH_CONST.__objc_doubleobj: 0x20
+   __AUTH_CONST.__objc_intobj: 0x18
+-  __AUTH.__objc_data: 0x988
+-  __AUTH.__data: 0x658
+-  __DATA.__objc_ivar: 0x450
+-  __DATA.__data: 0x1b2160
++  __AUTH.__objc_data: 0x9d8
++  __AUTH.__data: 0x798
++  __DATA.__objc_ivar: 0x4c0
++  __DATA.__data: 0x1b24e0
++  __DATA.__bss: 0x1de8
+   __DATA.__common: 0x1c8
+-  __DATA.__bss: 0x1d60
+-  __DATA_DIRTY.__objc_data: 0x1680
+-  __DATA_DIRTY.__data: 0x10
+-  __DATA_DIRTY.__bss: 0x80
++  __DATA_DIRTY.__objc_data: 0x1900
++  __DATA_DIRTY.__data: 0x8
++  __DATA_DIRTY.__bss: 0xa8
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 709BDB11-4AE5-3977-9152-655130BCF00F
+-  Functions: 3150
+-  Symbols:   8425
+-  CStrings:  2885
++  UUID: E919F4EE-2B12-31C0-98B3-1B575719313D
++  Functions: 3383
++  Symbols:   9223
++  CStrings:  3105
+ 
+Symbols:
++ +[SHArtwork urlWithURLTemplate:width:height:cropStyle:format:]
++ +[SHMatcherResponse errorResponseForRequest:error:]
++ +[SHMediaItemSerialization transformLocationCoordinateValue:shouldSerialize:]
++ +[SHRecordRequest requestWithDeadline:]
++ +[SHRecordRequest requestWithID:notifications:]
++ +[SHRecordRequest request]
++ +[SHRecordRequest supportsSecureCoding]
++ +[SHRotatingInstallationID defaultCachedInstallationID]
++ +[SHSession fetchPendingRematchSignaturesWithCompletionHandler:]
++ +[SHSession rematchedResultsWithCompletionHandler:]
++ +[SHSession removeRematchedResults:completionHandler:]
++ +[SHSession scheduleRematchNotificationWithResults:completionHandler:]
++ +[SHSessionResult supportsSecureCoding]
++ +[SHSessionStoreDaemonConnection fetchPendingRematchSignaturesWithCompletionHandler:]
++ +[SHSessionStoreDaemonConnection fetchRematchedResultsWithCompletionHandler:]
++ +[SHSessionStoreDaemonConnection removeRematchedResults:completionHandler:]
++ +[SHSessionStoreDaemonConnection scheduleRematchNotificationWithResults:completionHandler:]
++ +[SHSessionStoreDaemonConnection serverConnection]
++ +[SHSessionStoreDaemonConnection serverConnection].cold.1
++ +[SHSessionStoreDaemonConnection uiServiceConnection]
++ +[SHSessionStoreDaemonConnection uiServiceConnection].cold.1
++ +[SHShazamCatalogConfiguration supportsSecureCoding]
++ +[SHSignatureGenerationRequest supportsSecureCoding]
++ +[SHSignatureMatchRequest supportsSecureCoding]
++ +[SigVerificationSweep ConvertException:toError:]
++ +[SigVerificationSweep ConvertSystemError:toError:]
++ +[SigVerificationSweep FillUnknownError:]
++ +[SigVerificationSweep sweepDatabaseSignature:QuerySignature:sweepLength:initialOffset:timeSkew:frequencySkew:thresholdMultiplier:boundingBox:error:]
++ +[SignatureAlignmentTracker compareQuerySignature:withReferenceSignature:trackerBucketSeconds:trackerThreshold:trackerBoundingBox:forwardPassOnly:singlePassOnly:thinReferenceSignature:refineStartEnd:error:]
++ -[MRE initWithSignatures:density:algorithm:databasePeakDensity:bufferSize:skipPrefixTable:error:]
++ -[MRE search:multipleResults:scorePenalties:threshold:skewMin:skewMax:error:]
++ -[NSError(SHError) sh_containsInternetConnectionError]
++ -[SHArtwork URLWithWidth:height:cropStyle:format:]
++ -[SHArtwork aspectRatioPreservingURLWithWidth:height:]
++ -[SHArtwork hash]
++ -[SHArtwork isEqual:]
++ -[SHArtwork isEqualArtwork:]
++ -[SHArtwork targetArtworkImageSizeFromTargetWidth:height:aspectRatio:]
++ -[SHCatalogConfiguration setStoreSignatureOnNoMatch:]
++ -[SHCatalogConfiguration storeSignatureOnNoMatch]
++ -[SHCustomCatalog referenceMatchForSignatureWithID:]
++ -[SHCustomCatalog removeReferenceSignatureWithID:error:]
++ -[SHCustomCatalogConfiguration mreBufferSizeIsDefault]
++ -[SHCustomCatalogConfiguration mreSkipPrefixTable]
++ -[SHCustomCatalogConfiguration multipleResults]
++ -[SHCustomCatalogConfiguration scorePenalties]
++ -[SHCustomCatalogConfiguration setMreBufferSizeIsDefault:]
++ -[SHCustomCatalogConfiguration setMreSkipPrefixTable:]
++ -[SHCustomCatalogConfiguration setMultipleResults:]
++ -[SHCustomCatalogConfiguration setScorePenalties:]
++ -[SHCustomCatalogConfiguration setSkewMax:]
++ -[SHCustomCatalogConfiguration setSkewMin:]
++ -[SHCustomCatalogConfiguration setSupportsVerificationSweep:]
++ -[SHCustomCatalogConfiguration setThinReferenceSignature:]
++ -[SHCustomCatalogConfiguration setThreshold:]
++ -[SHCustomCatalogConfiguration setTrackerBoundingBox:]
++ -[SHCustomCatalogConfiguration setTrackerBucketSeconds:]
++ -[SHCustomCatalogConfiguration setTrackerThreshold:]
++ -[SHCustomCatalogConfiguration skewMax]
++ -[SHCustomCatalogConfiguration skewMin]
++ -[SHCustomCatalogConfiguration supportsVerificationSweep]
++ -[SHCustomCatalogConfiguration thinReferenceSignature]
++ -[SHCustomCatalogConfiguration threshold]
++ -[SHCustomCatalogConfiguration trackerBoundingBox]
++ -[SHCustomCatalogConfiguration trackerBucketSeconds]
++ -[SHCustomCatalogConfiguration trackerThreshold]
++ -[SHCustomCatalogMatcher startSignatureMatchRequest:]
++ -[SHCustomCatalogMemoryContainer referenceSignatureForID:]
++ -[SHCustomCatalogMemoryContainer removeSignatureWithID:error:]
++ -[SHCustomCatalogMemoryStorage referenceSignatureForID:]
++ -[SHCustomCatalogMemoryStorage removeSignatureWithID:error:]
++ -[SHCustomCatalogTrackerMatcher startSignatureMatchRequest:]
++ -[SHJSONLCustomCatalogContainer referenceSignatureForID:]
++ -[SHJSONLCustomCatalogContainer removeSignatureWithID:error:]
++ -[SHManagedSession shouldUseLiveActivity]
++ -[SHManagedSessionCustomCatalogMatcher startSignatureMatchRequest:]
++ -[SHMatcherRequest initWithStopCondition:requestType:requestID:installationID:]
++ -[SHMatcherRequest startRequestWithMatcher:]
++ -[SHMediaLibraryInfo appleAccountUserDefaults]
++ -[SHMediaLibraryInfo isSyncingAllowed]
++ -[SHMediaTimelineCustomCatalogMatcher startSignatureMatchRequest:]
++ -[SHRecordRequest .cxx_destruct]
++ -[SHRecordRequest deadline]
++ -[SHRecordRequest enableLiveActivity]
++ -[SHRecordRequest encodeWithCoder:]
++ -[SHRecordRequest hasHitDeadline]
++ -[SHRecordRequest initWithCoder:]
++ -[SHRecordRequest initWithRequestID:notifications:deadline:storeSignatureOnNoMatch:enableLiveActivity:]
++ -[SHRecordRequest sendNotifications]
++ -[SHRecordRequest startRequestWithMatcher:]
++ -[SHRecordRequest storeSignatureOnNoMatch]
++ -[SHRecordRequest watchdogTimeout]
++ -[SHSession _shouldAddSignatureForMatching:]
++ -[SHSession _shouldNotifySessionFinishedForResponse:]
++ -[SHSession _shouldRejectSignature:]
++ -[SHSession matchSignatures:]
++ -[SHSession setSignatureBatchMatcher:]
++ -[SHSession signatureBatchMatcher]
++ -[SHSessionResult .cxx_destruct]
++ -[SHSessionResult encodeWithCoder:]
++ -[SHSessionResult error]
++ -[SHSessionResult initWithCoder:]
++ -[SHSessionResult initWithSignature:match:error:]
++ -[SHSessionResult match]
++ -[SHSessionResult signature]
++ -[SHShazamCatalog initWithConfiguration:error:]
++ -[SHShazamKitServiceConnection fetchPendingRematchSignaturesWithCompletionHandler:]
++ -[SHShazamKitServiceConnection fetchRematchedResultsWithCompletionHandler:]
++ -[SHShazamKitServiceConnection removeRematchedResults:completionHandler:]
++ -[SHShazamKitServiceConnection signatureForRequest:]
++ -[SHShazamKitUIServiceConnection scheduleRematchNotificationWithResults:completionHandler:]
++ -[SHSignatureBatchMatcher .cxx_destruct]
++ -[SHSignatureBatchMatcher childMatcher]
++ -[SHSignatureBatchMatcher currentInstallationID]
++ -[SHSignatureBatchMatcher currentRequestID]
++ -[SHSignatureBatchMatcher delegate]
++ -[SHSignatureBatchMatcher initWithChildMatcher:]
++ -[SHSignatureBatchMatcher matcher:didProduceResponse:]
++ -[SHSignatureBatchMatcher pendingSignatures]
++ -[SHSignatureBatchMatcher processNextSignature]
++ -[SHSignatureBatchMatcher setChildMatcher:]
++ -[SHSignatureBatchMatcher setCurrentInstallationID:]
++ -[SHSignatureBatchMatcher setCurrentRequestID:]
++ -[SHSignatureBatchMatcher setDelegate:]
++ -[SHSignatureBatchMatcher setPendingSignatures:]
++ -[SHSignatureBatchMatcher startSignatureMatchRequest:]
++ -[SHSignatureBatchMatcher stopRecognitionForRequestID:]
++ -[SHSignatureBatchMatcher stopRecognition]
++ -[SHSignatureBuffer initWithMinimumSignatureDuration:maximumSignatureDuration:bufferDuration:]
++ -[SHSignatureGenerationRequest .cxx_destruct]
++ -[SHSignatureGenerationRequest deadline]
++ -[SHSignatureGenerationRequest encodeWithCoder:]
++ -[SHSignatureGenerationRequest hasHitDeadline]
++ -[SHSignatureGenerationRequest initOneTimeRequestWithRequestID:]
++ -[SHSignatureGenerationRequest initOneTimeRequest]
++ -[SHSignatureGenerationRequest initWithCoder:]
++ -[SHSignatureGenerationRequest initWithDeadline:]
++ -[SHSignatureGenerationRequest initWithDeadline:requestID:]
++ -[SHSignatureGenerationRequest startRequestWithMatcher:]
++ -[SHSignatureMatchRequest .cxx_destruct]
++ -[SHSignatureMatchRequest deadline]
++ -[SHSignatureMatchRequest encodeWithCoder:]
++ -[SHSignatureMatchRequest hasHitDeadline]
++ -[SHSignatureMatchRequest initWithCoder:]
++ -[SHSignatureMatchRequest initWithSignature:installationID:]
++ -[SHSignatureMatchRequest initWithSignature:installationID:deadline:requestID:]
++ -[SHSignatureMatchRequest initWithSignatures:installationID:]
++ -[SHSignatureMatchRequest initWithSignatures:installationID:deadline:requestID:]
++ -[SHSignatureMatchRequest signature]
++ -[SHSignatureMatchRequest signatures]
++ -[SHSignatureMatchRequest startRequestWithMatcher:]
++ -[SHStreamingSessionDriver initWithMinimumSignatureDuration:maximumSignatureDuration:bufferDuration:]
++ -[SHVerificationSweepMatcher .cxx_destruct]
++ -[SHVerificationSweepMatcher customCatalog]
++ -[SHVerificationSweepMatcher delegate]
++ -[SHVerificationSweepMatcher initWithCustomCatalog:]
++ -[SHVerificationSweepMatcher matchFromMREResults:signature:]
++ -[SHVerificationSweepMatcher matchSignature:]
++ -[SHVerificationSweepMatcher matcherResponseFrom:querySignature:error:]
++ -[SHVerificationSweepMatcher referenceMatch]
++ -[SHVerificationSweepMatcher setDelegate:]
++ -[SHVerificationSweepMatcher startSignatureMatchRequest:]
++ -[SHVerificationSweepMatcher stopRecognitionForRequestID:]
++ -[SHVerificationSweepMatcher stopRecognition]
++ GCC_except_table102
++ GCC_except_table107
++ GCC_except_table111
++ GCC_except_table113
++ GCC_except_table116
++ GCC_except_table120
++ GCC_except_table126
++ GCC_except_table130
++ GCC_except_table133
++ GCC_except_table134
++ GCC_except_table136
++ GCC_except_table139
++ GCC_except_table141
++ GCC_except_table146
++ GCC_except_table148
++ GCC_except_table151
++ GCC_except_table162
++ GCC_except_table168
++ GCC_except_table185
++ GCC_except_table21
++ GCC_except_table27
++ GCC_except_table52
++ GCC_except_table73
++ GCC_except_table74
++ GCC_except_table75
++ GCC_except_table79
++ GCC_except_table82
++ GCC_except_table84
++ GCC_except_table85
++ GCC_except_table86
++ GCC_except_table89
++ GCC_except_table91
++ GCC_except_table92
++ GCC_except_table95
++ GCC_except_table97
++ _NSStringFromClass
++ _OBJC_CLASS_$_SHRecordRequest
++ _OBJC_CLASS_$_SHSessionResult
++ _OBJC_CLASS_$_SHSessionStoreDaemonConnection
++ _OBJC_CLASS_$_SHShazamCatalogConfiguration
++ _OBJC_CLASS_$_SHSignatureBatchMatcher
++ _OBJC_CLASS_$_SHSignatureGenerationRequest
++ _OBJC_CLASS_$_SHSignatureMatchRequest
++ _OBJC_CLASS_$_SHVerificationSweepMatcher
++ _OBJC_CLASS_$_SigVerificationSweep
++ _OBJC_IVAR_$_SHCatalogConfiguration._storeSignatureOnNoMatch
++ _OBJC_IVAR_$_SHCustomCatalogConfiguration._mreBufferSizeIsDefault
++ _OBJC_IVAR_$_SHCustomCatalogConfiguration._mreSkipPrefixTable
++ _OBJC_IVAR_$_SHCustomCatalogConfiguration._multipleResults
++ _OBJC_IVAR_$_SHCustomCatalogConfiguration._scorePenalties
++ _OBJC_IVAR_$_SHCustomCatalogConfiguration._skewMax
++ _OBJC_IVAR_$_SHCustomCatalogConfiguration._skewMin
++ _OBJC_IVAR_$_SHCustomCatalogConfiguration._supportsVerificationSweep
++ _OBJC_IVAR_$_SHCustomCatalogConfiguration._thinReferenceSignature
++ _OBJC_IVAR_$_SHCustomCatalogConfiguration._threshold
++ _OBJC_IVAR_$_SHCustomCatalogConfiguration._trackerBoundingBox
++ _OBJC_IVAR_$_SHCustomCatalogConfiguration._trackerBucketSeconds
++ _OBJC_IVAR_$_SHCustomCatalogConfiguration._trackerThreshold
++ _OBJC_IVAR_$_SHMediaLibraryInfo._appleAccountUserDefaults
++ _OBJC_IVAR_$_SHRecordRequest._deadline
++ _OBJC_IVAR_$_SHRecordRequest._enableLiveActivity
++ _OBJC_IVAR_$_SHRecordRequest._sendNotifications
++ _OBJC_IVAR_$_SHRecordRequest._storeSignatureOnNoMatch
++ _OBJC_IVAR_$_SHSession._signatureBatchMatcher
++ _OBJC_IVAR_$_SHSessionResult._error
++ _OBJC_IVAR_$_SHSessionResult._match
++ _OBJC_IVAR_$_SHSessionResult._signature
++ _OBJC_IVAR_$_SHSignatureBatchMatcher._childMatcher
++ _OBJC_IVAR_$_SHSignatureBatchMatcher._currentInstallationID
++ _OBJC_IVAR_$_SHSignatureBatchMatcher._currentRequestID
++ _OBJC_IVAR_$_SHSignatureBatchMatcher._delegate
++ _OBJC_IVAR_$_SHSignatureBatchMatcher._pendingSignatures
++ _OBJC_IVAR_$_SHSignatureGenerationRequest._deadline
++ _OBJC_IVAR_$_SHSignatureMatchRequest._deadline
++ _OBJC_IVAR_$_SHSignatureMatchRequest._hasHitDeadline
++ _OBJC_IVAR_$_SHSignatureMatchRequest._signatures
++ _OBJC_IVAR_$_SHVerificationSweepMatcher._customCatalog
++ _OBJC_IVAR_$_SHVerificationSweepMatcher._delegate
++ _OBJC_IVAR_$_SHVerificationSweepMatcher._referenceMatch
++ _OBJC_METACLASS_$_SHRecordRequest
++ _OBJC_METACLASS_$_SHSessionResult
++ _OBJC_METACLASS_$_SHSessionStoreDaemonConnection
++ _OBJC_METACLASS_$_SHShazamCatalogConfiguration
++ _OBJC_METACLASS_$_SHSignatureBatchMatcher
++ _OBJC_METACLASS_$_SHSignatureGenerationRequest
++ _OBJC_METACLASS_$_SHSignatureMatchRequest
++ _OBJC_METACLASS_$_SHVerificationSweepMatcher
++ _OBJC_METACLASS_$_SigVerificationSweep
++ _OUTLINED_FUNCTION_0
++ _OUTLINED_FUNCTION_1
++ _SHArtworkCropBoundedBox
++ _SHArtworkImageHeic
++ _SHMediaItemArtwork
++ _SHRematchDataStoreDidChangeNotification
++ __DATA__TtC9ShazamKitP33_2F6BC5861FE4C579328143AC9DE19FB019ResourceBundleClass
++ __DATA__TtC9ShazamKitP33_51DA407C08E019BDCEC762F125F5B9D219ResourceBundleClass
++ __METACLASS_DATA__TtC9ShazamKitP33_2F6BC5861FE4C579328143AC9DE19FB019ResourceBundleClass
++ __METACLASS_DATA__TtC9ShazamKitP33_51DA407C08E019BDCEC762F125F5B9D219ResourceBundleClass
++ __OBJC_$_CLASS_METHODS_SHRecordRequest
++ __OBJC_$_CLASS_METHODS_SHSession
++ __OBJC_$_CLASS_METHODS_SHSessionResult
++ __OBJC_$_CLASS_METHODS_SHSessionStoreDaemonConnection
++ __OBJC_$_CLASS_METHODS_SHShazamCatalogConfiguration
++ __OBJC_$_CLASS_METHODS_SHSignatureGenerationRequest
++ __OBJC_$_CLASS_METHODS_SHSignatureMatchRequest
++ __OBJC_$_CLASS_METHODS_SigVerificationSweep
++ __OBJC_$_CLASS_PROP_LIST_SHSessionResult
++ __OBJC_$_INSTANCE_METHODS_SHRecordRequest
++ __OBJC_$_INSTANCE_METHODS_SHSessionResult
++ __OBJC_$_INSTANCE_METHODS_SHSignatureBatchMatcher
++ __OBJC_$_INSTANCE_METHODS_SHSignatureGenerationRequest
++ __OBJC_$_INSTANCE_METHODS_SHSignatureMatchRequest
++ __OBJC_$_INSTANCE_METHODS_SHVerificationSweepMatcher
++ __OBJC_$_INSTANCE_VARIABLES_SHRecordRequest
++ __OBJC_$_INSTANCE_VARIABLES_SHSessionResult
++ __OBJC_$_INSTANCE_VARIABLES_SHSignatureBatchMatcher
++ __OBJC_$_INSTANCE_VARIABLES_SHSignatureGenerationRequest
++ __OBJC_$_INSTANCE_VARIABLES_SHSignatureMatchRequest
++ __OBJC_$_INSTANCE_VARIABLES_SHVerificationSweepMatcher
++ __OBJC_$_PROP_LIST_SHMatcherRequestProtocol
++ __OBJC_$_PROP_LIST_SHParentMatcher
++ __OBJC_$_PROP_LIST_SHRecordRequest
++ __OBJC_$_PROP_LIST_SHSessionResult
++ __OBJC_$_PROP_LIST_SHSignatureBatchMatcher
++ __OBJC_$_PROP_LIST_SHSignatureGenerationRequest
++ __OBJC_$_PROP_LIST_SHSignatureMatchRequest
++ __OBJC_$_PROP_LIST_SHVerificationSweepMatcher
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SHMatcher
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SHMatcherRequestProtocol
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SHNotificationPresentation
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SHParentMatcher
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SHSessionStoreManaging
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SHMatcherRequestProtocol
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SHNotificationPresentation
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SHParentMatcher
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SHSessionStoreManaging
++ __OBJC_$_PROTOCOL_REFS_SHMatcherRequestProtocol
++ __OBJC_$_PROTOCOL_REFS_SHNotificationPresentation
++ __OBJC_$_PROTOCOL_REFS_SHParentMatcher
++ __OBJC_$_PROTOCOL_REFS_SHSessionStoreManaging
++ __OBJC_CLASS_PROTOCOLS_$_SHSessionResult
++ __OBJC_CLASS_PROTOCOLS_$_SHSignatureBatchMatcher
++ __OBJC_CLASS_PROTOCOLS_$_SHVerificationSweepMatcher
++ __OBJC_CLASS_RO_$_SHRecordRequest
++ __OBJC_CLASS_RO_$_SHSessionResult
++ __OBJC_CLASS_RO_$_SHSessionStoreDaemonConnection
++ __OBJC_CLASS_RO_$_SHShazamCatalogConfiguration
++ __OBJC_CLASS_RO_$_SHSignatureBatchMatcher
++ __OBJC_CLASS_RO_$_SHSignatureGenerationRequest
++ __OBJC_CLASS_RO_$_SHSignatureMatchRequest
++ __OBJC_CLASS_RO_$_SHVerificationSweepMatcher
++ __OBJC_CLASS_RO_$_SigVerificationSweep
++ __OBJC_LABEL_PROTOCOL_$_SHMatcherRequestProtocol
++ __OBJC_LABEL_PROTOCOL_$_SHNotificationPresentation
++ __OBJC_LABEL_PROTOCOL_$_SHParentMatcher
++ __OBJC_LABEL_PROTOCOL_$_SHSessionStoreManaging
++ __OBJC_METACLASS_RO_$_SHRecordRequest
++ __OBJC_METACLASS_RO_$_SHSessionResult
++ __OBJC_METACLASS_RO_$_SHSessionStoreDaemonConnection
++ __OBJC_METACLASS_RO_$_SHShazamCatalogConfiguration
++ __OBJC_METACLASS_RO_$_SHSignatureBatchMatcher
++ __OBJC_METACLASS_RO_$_SHSignatureGenerationRequest
++ __OBJC_METACLASS_RO_$_SHSignatureMatchRequest
++ __OBJC_METACLASS_RO_$_SHVerificationSweepMatcher
++ __OBJC_METACLASS_RO_$_SigVerificationSweep
++ __OBJC_PROTOCOL_$_SHMatcherRequestProtocol
++ __OBJC_PROTOCOL_$_SHNotificationPresentation
++ __OBJC_PROTOCOL_$_SHParentMatcher
++ __OBJC_PROTOCOL_$_SHSessionStoreManaging
++ __Z10preProcessRKNSt3__14spanIKfLm18446744073709551615EEE
++ __Z23find_sparsity_thresholdNSt3__14spanIfLm18446744073709551615EEEf
++ __Z26octave_frequencies_lengthsNSt3__14spanIfLm18446744073709551615EEEtf
++ __Z28helium_vecmatmul_513x36_loopILj1ELj512ELj513EEvRKNSt3__14spanINS0_7complexIfEELm18446744073709551615EEES6_RNS0_6vectorIS3_NS0_9allocatorIS3_EEEE
++ __Z28helium_vecmatmul_513x36_loopILj8ELj0ELj512EEvRKNSt3__14spanINS0_7complexIfEELm18446744073709551615EEES6_RNS0_6vectorIS3_NS0_9allocatorIS3_EEEE
++ __Z7sum_absNSt3__14spanINS_7complexIfEELm18446744073709551615EEE
++ __ZN12_GLOBAL__N_112decode_peaksEPKN6shazam23spectral_peak_compact_tEmNS0_17signature_densityENSt3__16chrono8durationIhNS5_5ratioILl1ELl125EEEEERNS5_6vectorINS0_15spectral_peak_tENS5_9allocatorISC_EEEE
++ __ZN12_GLOBAL__N_116lmfp_data_writerclIL8AlgoType12EEEDaRKN6shazam10SearchPlanERNSt3__16vectorIcNS8_9allocatorIcEEEENS4_20basic_signature_viewILNS4_17signature_densityE2147483647EEERKNS8_6chrono8durationIyNS8_5ratioILl1ELl125EEEEE
++ __ZN12_GLOBAL__N_116lmfp_data_writerclIL8AlgoType1EEEDaRKN6shazam10SearchPlanERNSt3__16vectorIcNS8_9allocatorIcEEEENS4_20basic_signature_viewILNS4_17signature_densityE2147483647EEERKNS8_6chrono8durationIyNS8_5ratioILl1ELl125EEEEE
++ __ZN12_GLOBAL__N_119type_from_magic_keyENSt3__14spanIKcLm18446744073709551615EEE
++ __ZN12_GLOBAL__N_119type_from_magic_keyENSt3__14spanIKcLm18446744073709551615EEE.cold.1
++ __ZN12_GLOBAL__N_120find_packed_sig_typeENSt3__14spanIKcLm18446744073709551615EEE
++ __ZN12_GLOBAL__N_120find_packed_sig_typeENSt3__14spanIKcLm18446744073709551615EEE.cold.1
++ __ZN12_GLOBAL__N_128inflate_basic_sumo_peak_dataENSt3__14spanIKcLm18446744073709551615EEEN6shazam17signature_densityENS0_6chrono8durationIhNS0_5ratioILl1ELl125EEEEE
++ __ZN18CoreMLFeatureModel12runInferenceENSt3__14spanIKfLm18446744073709551615EEE
++ __ZN18CoreMLFeatureModel12runInferenceENSt3__14spanIKfLm18446744073709551615EEE.cold.1
++ __ZN21BNNSGraphFeatureModel12runInferenceENSt3__14spanIKfLm18446744073709551615EEE
++ __ZN3gsl12final_actionIZN6shazam18sig_extractor_pipeINS1_15spectral_peak_tEE14getWindowedSigERNSt3__16vectorIcNS5_9allocatorIcEEEENS1_17signature_densityEEUlvE_ED2Ev
++ __ZN3gsl12final_actionIZN6shazam18sig_extractor_pipeINS1_15spectral_peak_tEE17getProgressiveSigERNSt3__16vectorIcNS5_9allocatorIcEEEENS1_17signature_densityEEUlvE_ED2Ev
++ __ZN3gsl12final_actionIZN6shazam2io4packERNSt3__16vectorIcNS3_9allocatorIcEEEERKNS1_17basic_signature_tEE3$_1ED1Ev
++ __ZN6shazam10SearchPlanC1E8AlgoTypeRKNS_19link_matrix_optionsERKNS_14linker_optionsERKNS_14one_pt_optionsE
++ __ZN6shazam10bin_tracksINS_11xpair_groupIJNS_12xpair_fieldsEEEEEEvRKNSt3__14spanIKjLm18446744073709551615EEERNS5_IT_Lm18446744073709551615EEERNS4_6vectorINS_10SongOffsetENS4_9allocatorISE_EEEE
++ __ZN6shazam10cull_phaseIL8AlgoType12ENS_11xpair_groupIJNS_12xpair_fieldsEEEELm2ELPv0EEEvRNSt3__16vectorINS_6ResultENS6_9allocatorIS8_EEEES8_RNS7_INS_11regresspairENS9_ISD_EEEERKNS6_4spanIT0_Lm18446744073709551615EEE
++ __ZN6shazam10cull_phaseIL8AlgoType1ENS_11xpair_groupIJNS_12xpair_fieldsEEEELm2ELPv0EEEvRNSt3__16vectorINS_6ResultENS6_9allocatorIS8_EEEES8_RNS7_INS_11regresspairENS9_ISD_EEEERKNS6_4spanIT0_Lm18446744073709551615EEE
++ __ZN6shazam10toAntiproxERKNSt3__16vectorINS_15spectral_peak_tENS0_9allocatorIS2_EEEE
++ __ZN6shazam11get_siginfoERKNS_21packed_signature_viewE.cold.1
++ __ZN6shazam11get_versionERKNS_21packed_signature_viewE.cold.1
++ __ZN6shazam11match_peaksENSt3__14spanIKNS_7peak_tfELm18446744073709551615EEERKNS0_6vectorIS2_NS0_9allocatorIS2_EEEEffiRNS5_INS_7tfmatchENS6_ISB_EEEEh
++ __ZN6shazam11score_matchERKNSt3__16vectorINS_7tfmatchENS0_9allocatorIS2_EEEEb
++ __ZN6shazam11shearfactorIL8AlgoType12ENS_11xpair_groupIJNS_12xpair_fieldsEEEELPv0EEEvRKNSt3__14spanIT0_Lm18446744073709551615EEERfSC_
++ __ZN6shazam11shearfactorIL8AlgoType1ENS_11xpair_groupIJNS_12xpair_fieldsEEEELPv0EEEvRKNSt3__14spanIT0_Lm18446744073709551615EEERfSC_
++ __ZN6shazam11unpack_timeERNS_2io6readerE.cold.1
++ __ZN6shazam11unpack_timeERNS_2io6readerE.cold.2
++ __ZN6shazam12_GLOBAL__N_122VerificationSweepSetupD1Ev
++ __ZN6shazam12getLandmarksIL8AlgoType12EEENSt3__16vectorIjNS2_9allocatorIjEEEERKNS2_4spanINS_4lmfpIXsr4algoIXT_EEE6fpTypeEEELm18446744073709551615EEE
++ __ZN6shazam12getLandmarksIL8AlgoType1EEENSt3__16vectorIjNS2_9allocatorIjEEEERKNS2_4spanINS_4lmfpIXsr4algoIXT_EEE6fpTypeEEELm18446744073709551615EEE
++ __ZN6shazam13lookup_prefixIL8AlgoType12ELNS_7fp_typeE7EEEvRKNSt3__16vectorIjNS3_9allocatorIjEEEERKNS_9LmfpRangeIXT0_EEEmRlSE_SE_
++ __ZN6shazam13lookup_prefixIL8AlgoType1ELNS_7fp_typeE0EEEvRKNSt3__16vectorIjNS3_9allocatorIjEEEERKNS_9LmfpRangeIXT0_EEEmRlSE_SE_
++ __ZN6shazam13onePointQueryD1Ev
++ __ZN6shazam13onePointQueryD2Ev
++ __ZN6shazam13string_formatIJPKcEEENSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEES2_DpT_
++ __ZN6shazam13string_formatIJPKcEEENSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEES2_DpT_.cold.1
++ __ZN6shazam13virtual_arrayIcE7reserveEm
++ __ZN6shazam14SpectralOutput6enableEjjRKNSt3__18functionIFvPKfmEEE
++ __ZN6shazam14SpectralOutput6enableEjjRKNSt3__18functionIFvPKfmEEE.cold.1
++ __ZN6shazam14SpectralOutput6enableEjjRKNSt3__18functionIFvPKfmEEE.cold.2
++ __ZN6shazam14focus_multipleILl2ENS_11xpair_groupIJNS_12xpair_fieldsEEEEPDoFfRKS3_EZNS_11CPUSearcher6searchIL8AlgoType12ES3_EEvRKNS_12SongDataBaseERKNS_16CPUOnePtDatabaseERKNS_15CPULMFPDataBaseERKNS_5QueryIXT_ENSt3__16vectorINS_4lmfpIXsr4algoIXT_EEE6fpTypeEEENSL_9allocatorISO_EEEEEERKNS_11QueryConfigEmNSL_6chrono10time_pointINSY_12steady_clockENSY_8durationIxNSL_5ratioILl1ELl1000000000EEEEEEERKNSL_8functionIFvRKNS_14SearchResponseEEEEEUlRKT_E_EEvNSL_4spanIT0_Lm18446744073709551615EEExT1_T2_
++ __ZN6shazam14focus_multipleILl2ENS_11xpair_groupIJNS_12xpair_fieldsEEEEPDoFfRKS3_EZNS_11CPUSearcher6searchIL8AlgoType1ES3_EEvRKNS_12SongDataBaseERKNS_16CPUOnePtDatabaseERKNS_15CPULMFPDataBaseERKNS_5QueryIXT_ENSt3__16vectorINS_4lmfpIXsr4algoIXT_EEE6fpTypeEEENSL_9allocatorISO_EEEEEERKNS_11QueryConfigEmNSL_6chrono10time_pointINSY_12steady_clockENSY_8durationIxNSL_5ratioILl1ELl1000000000EEEEEEERKNSL_8functionIFvRKNS_14SearchResponseEEEEEUlRKT_E_EEvNSL_4spanIT0_Lm18446744073709551615EEExT1_T2_
++ __ZN6shazam14genPrefixTableIL8AlgoType12EEENSt3__16vectorIjNS2_9allocatorIjEEEERKNS2_4spanINS_4lmfpIXsr4algoIXT_EEE6fpTypeEEELm18446744073709551615EEE
++ __ZN6shazam14genPrefixTableIL8AlgoType1EEENSt3__16vectorIjNS2_9allocatorIjEEEERKNS2_4spanINS_4lmfpIXsr4algoIXT_EEE6fpTypeEEELm18446744073709551615EEE
++ __ZN6shazam15CPULMFPDataBaseC2ERKNS_10SearchPlanENSt3__14spanIcLm18446744073709551615EEE
++ __ZN6shazam15ShazamKitHeader3popENSt3__14spanIKcLm18446744073709551615EEE
++ __ZN6shazam15ShazamKitHeader8validateENSt3__14spanIKcLm18446744073709551615EEE
++ __ZN6shazam15ShazamKitHeader8validateENSt3__14spanIKcLm18446744073709551615EEE.cold.1
++ __ZN6shazam15ShazamKitHeader8validateENSt3__14spanIKcLm18446744073709551615EEE.cold.2
++ __ZN6shazam15getChunkOffsetsEm
++ __ZN6shazam15getLMFPSuffixesIL8AlgoType12EEENSt3__16vectorIcNS2_9allocatorIcEEEERKNS2_4spanINS_4lmfpIXsr4algoIXT_EEE6fpTypeEEELm18446744073709551615EEE
++ __ZN6shazam15getLMFPSuffixesIL8AlgoType1EEENSt3__16vectorIcNS2_9allocatorIcEEEERKNS2_4spanINS_4lmfpIXsr4algoIXT_EEE6fpTypeEEELm18446744073709551615EEE
++ __ZN6shazam15iterate_headersINS_25fp_data_header_extern_newEEEvNSt3__14spanIKcLm18446744073709551615EEERKNS2_8functionIFvNS_16signature_headerEEEE
++ __ZN6shazam15iterate_headersINS_25fp_data_header_extern_newEEEvNSt3__14spanIKcLm18446744073709551615EEERKNS2_8functionIFvNS_16signature_headerEEEE.cold.1
++ __ZN6shazam15iterate_headersINS_25fp_data_header_extern_newEEEvNSt3__14spanIKcLm18446744073709551615EEERKNS2_8functionIFvNS_16signature_headerEEEE.cold.2
++ __ZN6shazam15iterate_headersINS_25fp_data_header_extern_newEEEvNSt3__14spanIKcLm18446744073709551615EEERKNS2_8functionIFvNS_16signature_headerEEEE.cold.3
++ __ZN6shazam15iterate_headersINS_25fp_data_header_extern_newEEEvNSt3__14spanIKcLm18446744073709551615EEERKNS2_8functionIFvNS_16signature_headerEEEE.cold.4
++ __ZN6shazam15iterate_headersINS_25fp_data_header_extern_newEEEvNSt3__14spanIKcLm18446744073709551615EEERKNS2_8functionIFvNS_16signature_headerEEEE.cold.5
++ __ZN6shazam15iterate_headersINS_25fp_data_header_extern_newEEEvNSt3__14spanIKcLm18446744073709551615EEERKNS2_8functionIFvNS_16signature_headerEEEE.cold.6
++ __ZN6shazam15iterate_headersINS_25fp_data_header_extern_newEEEvNSt3__14spanIKcLm18446744073709551615EEERKNS2_8functionIFvNS_16signature_headerEEEE.cold.7
++ __ZN6shazam15iterate_headersINS_28fp_data_header_extern_legacyEEEvNSt3__14spanIKcLm18446744073709551615EEERKNS2_8functionIFvNS_16signature_headerEEEE
++ __ZN6shazam15iterate_headersINS_28fp_data_header_extern_legacyEEEvNSt3__14spanIKcLm18446744073709551615EEERKNS2_8functionIFvNS_16signature_headerEEEE.cold.1
++ __ZN6shazam15iterate_headersINS_28fp_data_header_extern_legacyEEEvNSt3__14spanIKcLm18446744073709551615EEERKNS2_8functionIFvNS_16signature_headerEEEE.cold.2
++ __ZN6shazam15iterate_headersINS_28fp_data_header_extern_legacyEEEvNSt3__14spanIKcLm18446744073709551615EEERKNS2_8functionIFvNS_16signature_headerEEEE.cold.3
++ __ZN6shazam15iterate_headersINS_28fp_data_header_extern_legacyEEEvNSt3__14spanIKcLm18446744073709551615EEERKNS2_8functionIFvNS_16signature_headerEEEE.cold.4
++ __ZN6shazam15iterate_headersINS_28fp_data_header_extern_legacyEEEvNSt3__14spanIKcLm18446744073709551615EEERKNS2_8functionIFvNS_16signature_headerEEEE.cold.5
++ __ZN6shazam15iterate_headersINS_28fp_data_header_extern_legacyEEEvNSt3__14spanIKcLm18446744073709551615EEERKNS2_8functionIFvNS_16signature_headerEEEE.cold.6
++ __ZN6shazam15iterate_headersINS_28fp_data_header_extern_legacyEEEvNSt3__14spanIKcLm18446744073709551615EEERKNS2_8functionIFvNS_16signature_headerEEEE.cold.7
++ __ZN6shazam15unwrap_or_throwINS_15resample_streamENS_10sigx_errorEvEEOT_ON2tl8expectedIS3_T0_EE.cold.1
++ __ZN6shazam15unwrap_or_throwINS_26static_aligned_dual_bufferIfEENS_10sigx_errorEvEEOT_ON2tl8expectedIS4_T0_EE.cold.1
++ __ZN6shazam15unwrap_or_throwINSt3__110unique_ptrINS_15resample_streamENS1_14default_deleteIS3_EEEENS_10sigx_errorEvEEOT_ON2tl8expectedIS8_T0_EE.cold.1
++ __ZN6shazam16unpack_signatureINS_18freebird_signatureEEET_RKNS_21packed_signature_viewE.cold.1
++ __ZN6shazam16unpack_signatureINSt3__15tupleIJNS_15basic_signatureILNS_17signature_densityE2147483647EEENS_18freebird_signatureEEEEEET_RKNS_21packed_signature_viewE.cold.1
++ __ZN6shazam17FatHeaderIteratorENSt3__14spanIKcLm18446744073709551615EEERKNS0_8functionIFvNS_16signature_headerEEEE
++ __ZN6shazam17FatHeaderIteratorENSt3__14spanIKcLm18446744073709551615EEERKNS0_8functionIFvNS_16signature_headerEEEE.cold.1
++ __ZN6shazam17FatHeaderIteratorENSt3__14spanIKcLm18446744073709551615EEERKNS0_8functionIFvNS_16signature_headerEEEE.cold.2
++ __ZN6shazam17FatHeaderIteratorENSt3__14spanIKcLm18446744073709551615EEERKNS0_8functionIFvNS_16signature_headerEEEE.cold.3
++ __ZN6shazam17SearchPlanBuilder5buildEv
++ __ZN6shazam17StaticCPUSearcher6searchERKNSt3__16vectorINS_15basic_signatureILNS_17signature_densityE24EEENS1_9allocatorIS5_EEEEmmRKNS_19QueryConfigProviderERKNS1_8functionIFvRKNS_14SearchResponseEEEE
++ __ZN6shazam17VerificationSetup19setupFromSignaturesERKNS_15basic_signatureILNS_17signature_densityE2147483647EEES5_NSt3__16chrono8durationIfNS6_5ratioILl1ELl1EEEEEff
++ __ZN6shazam17VerificationSetupC1ENSt3__14spanIKcLm18446744073709551615EEES4_NS1_6chrono8durationIfNS1_5ratioILl1ELl1EEEEEff
++ __ZN6shazam17VerificationSetupC2ENSt3__14spanIKcLm18446744073709551615EEES4_NS1_6chrono8durationIfNS1_5ratioILl1ELl1EEEEEff
++ __ZN6shazam17VerificationSetupD2Ev
++ __ZN6shazam17VerificationSweepERKNS_13onePointQueryERKNS_12CPUDatabasesENSt3__16chrono8durationIiNS6_5ratioILl1ELl125EEEEERKNS_14queryAlignmentEfh
++ __ZN6shazam17match_single_peakENSt3__14spanIKNS_7peak_tfELm18446744073709551615EEEfiihhRm
++ __ZN6shazam17reinterpret_saferIPKNS_11SumoSigInfoELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE
++ __ZN6shazam17reinterpret_saferIPKNS_11SumoSigInfoELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE.cold.1
++ __ZN6shazam17reinterpret_saferIPKNS_11SumoSigInfoELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE.cold.2
++ __ZN6shazam17reinterpret_saferIPKNS_13ClusterCmdPktELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE
++ __ZN6shazam17reinterpret_saferIPKNS_13ClusterCmdPktELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE.cold.1
++ __ZN6shazam17reinterpret_saferIPKNS_13ClusterCmdPktELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE.cold.2
++ __ZN6shazam17reinterpret_saferIPKNS_13multisig_infoELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE
++ __ZN6shazam17reinterpret_saferIPKNS_13multisig_infoELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE.cold.1
++ __ZN6shazam17reinterpret_saferIPKNS_13multisig_infoELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE.cold.2
++ __ZN6shazam17reinterpret_saferIPKNS_15ShazamKitHeaderELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE
++ __ZN6shazam17reinterpret_saferIPKNS_15ShazamKitHeaderELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE.cold.1
++ __ZN6shazam17reinterpret_saferIPKNS_15ShazamKitHeaderELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE.cold.2
++ __ZN6shazam17reinterpret_saferIPKNS_15freebird_headerELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE
++ __ZN6shazam17reinterpret_saferIPKNS_15freebird_headerELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE.cold.1
++ __ZN6shazam17reinterpret_saferIPKNS_15freebird_headerELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE.cold.2
++ __ZN6shazam17reinterpret_saferIPKNS_15legacy_sig_infoELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE
++ __ZN6shazam17reinterpret_saferIPKNS_15legacy_sig_infoELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE.cold.1
++ __ZN6shazam17reinterpret_saferIPKNS_15legacy_sig_infoELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE.cold.2
++ __ZN6shazam17reinterpret_saferIPKNS_15spectral_peak_tELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE
++ __ZN6shazam17reinterpret_saferIPKNS_15spectral_peak_tELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE.cold.1
++ __ZN6shazam17reinterpret_saferIPKNS_15spectral_peak_tELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE.cold.2
++ __ZN6shazam17reinterpret_saferIPKNS_16LegacyFatSigInfoELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE
++ __ZN6shazam17reinterpret_saferIPKNS_16LegacyFatSigInfoELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE.cold.1
++ __ZN6shazam17reinterpret_saferIPKNS_16LegacyFatSigInfoELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE.cold.2
++ __ZN6shazam17reinterpret_saferIPKNS_23spectral_peak_compact_tELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE
++ __ZN6shazam17reinterpret_saferIPKNS_23spectral_peak_compact_tELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE.cold.1
++ __ZN6shazam17reinterpret_saferIPKNS_23spectral_peak_compact_tELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE.cold.2
++ __ZN6shazam17reinterpret_saferIPKNS_24ancient_dead_sig_point_tELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE
++ __ZN6shazam17reinterpret_saferIPKNS_24ancient_dead_sig_point_tELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE.cold.1
++ __ZN6shazam17reinterpret_saferIPKNS_24ancient_dead_sig_point_tELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE.cold.2
++ __ZN6shazam17reinterpret_saferIPKNS_25fp_data_header_extern_newELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE
++ __ZN6shazam17reinterpret_saferIPKNS_25fp_data_header_extern_newELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE.cold.1
++ __ZN6shazam17reinterpret_saferIPKNS_25fp_data_header_extern_newELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE.cold.2
++ __ZN6shazam17reinterpret_saferIPKNS_28fp_data_header_extern_legacyELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE
++ __ZN6shazam17reinterpret_saferIPKNS_28fp_data_header_extern_legacyELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE.cold.1
++ __ZN6shazam17reinterpret_saferIPKNS_28fp_data_header_extern_legacyELi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE.cold.2
++ __ZN6shazam17reinterpret_saferIPKjLi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE
++ __ZN6shazam17reinterpret_saferIPKjLi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE.cold.1
++ __ZN6shazam17reinterpret_saferIPKjLi0EEET_RKNSt3__14spanIKcLm18446744073709551615EEE.cold.2
++ __ZN6shazam18CPUDatabaseBuilder13addSigSegmentERKNS_15basic_signatureILNS_17signature_densityE16EEEyNSt3__16chrono8durationIfNS6_5ratioILl1ELl1EEEEENS8_IxNS9_ILl1ELl1000EEEEE.cold.1
++ __ZN6shazam18CPUDatabaseBuilder13addSigSegmentILNS_17signature_densityE24EEEvRKNS_15basic_signatureIXT_EEEyNSt3__16chrono8durationIfNS7_5ratioILl1ELl1EEEEENS9_IxNSA_ILl1ELl1000EEEEE
++ __ZN6shazam18CPUDatabaseBuilder13addSigSegmentILNS_17signature_densityE24EEEvRKNS_15basic_signatureIXT_EEEyNSt3__16chrono8durationIfNS7_5ratioILl1ELl1EEEEENS9_IxNSA_ILl1ELl1000EEEEE.cold.1
++ __ZN6shazam18SumoHeaderIteratorENSt3__14spanIKcLm18446744073709551615EEERKNS0_8functionIFvNS_16signature_headerEEEE
++ __ZN6shazam18SumoHeaderIteratorENSt3__14spanIKcLm18446744073709551615EEERKNS0_8functionIFvNS_16signature_headerEEEE.cold.1
++ __ZN6shazam18SumoHeaderIteratorENSt3__14spanIKcLm18446744073709551615EEERKNS0_8functionIFvNS_16signature_headerEEEE.cold.2
++ __ZN6shazam18SumoHeaderIteratorENSt3__14spanIKcLm18446744073709551615EEERKNS0_8functionIFvNS_16signature_headerEEEE.cold.3
++ __ZN6shazam18SumoHeaderIteratorENSt3__14spanIKcLm18446744073709551615EEERKNS0_8functionIFvNS_16signature_headerEEEE.cold.4
++ __ZN6shazam18SumoHeaderIteratorENSt3__14spanIKcLm18446744073709551615EEERKNS0_8functionIFvNS_16signature_headerEEEE.cold.5
++ __ZN6shazam18SumoHeaderIteratorENSt3__14spanIKcLm18446744073709551615EEERKNS0_8functionIFvNS_16signature_headerEEEE.cold.6
++ __ZN6shazam18buildOnePointQueryENS_20basic_signature_viewILNS_17signature_densityE2147483647EEEj
++ __ZN6shazam19buildReferenceSpansERKNS_12CPUDatabasesEm
++ __ZN6shazam19parse_ancient_peaksERKNSt3__16vectorINS_21signature_header_typeENS0_9allocatorIS2_EEEERKNS1_INS1_INS_24ancient_dead_sig_point_tENS3_IS8_EEEENS3_ISA_EEEENS_17signature_densityENS0_6chrono8durationIhNS0_5ratioILl1ELl125EEEEE.cold.1
++ __ZN6shazam19parse_ancient_peaksERKNSt3__16vectorINS_21signature_header_typeENS0_9allocatorIS2_EEEERKNS1_INS1_INS_24ancient_dead_sig_point_tENS3_IS8_EEEENS3_ISA_EEEENS_17signature_densityENS0_6chrono8durationIhNS0_5ratioILl1ELl125EEEEE.cold.2
++ __ZN6shazam19search_fingerprintsIL8AlgoType12ENS_11xpair_groupIJNS_12xpair_fieldsEEEEEENSt3__14spanIT0_Lm18446744073709551615EEENS6_IKNS_9fp_suffixIXT_EEELm18446744073709551615EEERKNS5_6vectorIjNS5_9allocatorIjEEEENS6_IKNS_4lmfpIXsr4algoIXT_EEE6fpTypeEEELm18446744073709551615EEESI_ffNS_13virtual_arrayIS7_EE
++ __ZN6shazam19search_fingerprintsIL8AlgoType1ENS_11xpair_groupIJNS_12xpair_fieldsEEEEEENSt3__14spanIT0_Lm18446744073709551615EEENS6_IKNS_9fp_suffixIXT_EEELm18446744073709551615EEERKNS5_6vectorIjNS5_9allocatorIjEEEENS6_IKNS_4lmfpIXsr4algoIXT_EEE6fpTypeEEELm18446744073709551615EEESI_ffNS_13virtual_arrayIS7_EE
++ __ZN6shazam21ClusterCmdPktIteratorENSt3__14spanIKcLm18446744073709551615EEERKNS0_8functionIFvNS_16signature_headerEEEE
++ __ZN6shazam21packed_signature_viewC1ENSt3__14spanIKcLm18446744073709551615EEE
++ __ZN6shazam22FreebirdHeaderIteratorENSt3__14spanIKcLm18446744073709551615EEERKNS0_8functionIFvNS_16signature_headerEEEE
++ __ZN6shazam22FreebirdHeaderIteratorENSt3__14spanIKcLm18446744073709551615EEERKNS0_8functionIFvNS_16signature_headerEEEE.cold.1
++ __ZN6shazam22FreebirdHeaderIteratorENSt3__14spanIKcLm18446744073709551615EEERKNS0_8functionIFvNS_16signature_headerEEEE.cold.2
++ __ZN6shazam22FreebirdHeaderIteratorENSt3__14spanIKcLm18446744073709551615EEERKNS0_8functionIFvNS_16signature_headerEEEE.cold.3
++ __ZN6shazam22FreebirdHeaderIteratorENSt3__14spanIKcLm18446744073709551615EEERKNS0_8functionIFvNS_16signature_headerEEEE.cold.4
++ __ZN6shazam22MultiSigHeaderIteratorENSt3__14spanIKcLm18446744073709551615EEERKNS0_8functionIFvNS_16signature_headerEEEE
++ __ZN6shazam22MultiSigHeaderIteratorENSt3__14spanIKcLm18446744073709551615EEERKNS0_8functionIFvNS_16signature_headerEEEE.cold.1
++ __ZN6shazam22MultiSigHeaderIteratorENSt3__14spanIKcLm18446744073709551615EEERKNS0_8functionIFvNS_16signature_headerEEEE.cold.2
++ __ZN6shazam22MultiSigHeaderIteratorENSt3__14spanIKcLm18446744073709551615EEERKNS0_8functionIFvNS_16signature_headerEEEE.cold.3
++ __ZN6shazam22MultiSigHeaderIteratorENSt3__14spanIKcLm18446744073709551615EEERKNS0_8functionIFvNS_16signature_headerEEEE.cold.4
++ __ZN6shazam22xpairs_to_regresspairsINS_11xpair_groupIJNS_12xpair_fieldsEEEEEEvNSt3__14spanIT_Lm18446744073709551615EEEfRNS4_6vectorINS_11regresspairENS4_9allocatorIS9_EEEE
++ __ZN6shazam23ShazamKitHeaderIteratorENSt3__14spanIKcLm18446744073709551615EEERKNS0_8functionIFvNS_16signature_headerEEEE
++ __ZN6shazam23getLMFPFullFingerprintsIL8AlgoType12EEENSt3__16vectorIcNS2_9allocatorIcEEEERKNS2_4spanINS_4lmfpIXsr4algoIXT_EEE6fpTypeEEELm18446744073709551615EEE
++ __ZN6shazam23getLMFPFullFingerprintsIL8AlgoType1EEENSt3__16vectorIcNS2_9allocatorIcEEEERKNS2_4spanINS_4lmfpIXsr4algoIXT_EEE6fpTypeEEELm18446744073709551615EEE
++ __ZN6shazam24FFT_implementation_apple5fftriERKNSt3__14spanINS1_7complexIfEELm18446744073709551615EEENS2_IfLm18446744073709551615EEE
++ __ZN6shazam24search_full_fingerprintsIL8AlgoType12ENS_11xpair_groupIJNS_12xpair_fieldsEEEEEENSt3__14spanIT0_Lm18446744073709551615EEENS6_IKNS_2fpIXsr4algoIXT_EEE6fpTypeEEELm18446744073709551615EEERKNS5_6vectorIjNS5_9allocatorIjEEEENS6_IKNS_4lmfpIXsr4algoIXT_EEE6fpTypeEEELm18446744073709551615EEEffNS_13virtual_arrayIS7_EE
++ __ZN6shazam24search_full_fingerprintsIL8AlgoType1ENS_11xpair_groupIJNS_12xpair_fieldsEEEEEENSt3__14spanIT0_Lm18446744073709551615EEENS6_IKNS_2fpIXsr4algoIXT_EEE6fpTypeEEELm18446744073709551615EEERKNS5_6vectorIjNS5_9allocatorIjEEEENS6_IKNS_4lmfpIXsr4algoIXT_EEE6fpTypeEEELm18446744073709551615EEEffNS_13virtual_arrayIS7_EE
++ __ZN6shazam25binary_fingerprint_searchIL8AlgoType12EEElNSt3__14spanIKNS_9fp_suffixIXT_EEELm18446744073709551615EEEllmRS6_
++ __ZN6shazam25binary_fingerprint_searchIL8AlgoType1EEElNSt3__14spanIKNS_9fp_suffixIXT_EEELm18446744073709551615EEEllmRS6_
++ __ZN6shazam2io14read_unalignedItLi0EEET_RNS0_6readerE.cold.1
++ __ZN6shazam36BuildOnePointDatabaseForVerificationENS_20basic_signature_viewILNS_17signature_densityE2147483647EEERKNS_10SearchPlanE
++ __ZN6shazam3ccp16validateChecksumEPKNS_13ClusterCmdPktEPKcS5_.cold.1
++ __ZN6shazam3ccp16validateChecksumEPKNS_13ClusterCmdPktEPKcS5_.cold.2
++ __ZN6shazam3ccp16validateChecksumEPKNS_13ClusterCmdPktEPKcS5_.cold.3
++ __ZN6shazam3ccp25validateNextClusterCmdPktERKNSt3__14spanIKcLm18446744073709551615EEEPKNS_13ClusterCmdPktEmm
++ __ZN6shazam3ccp25validateNextClusterCmdPktERKNSt3__14spanIKcLm18446744073709551615EEEPKNS_13ClusterCmdPktEmm.cold.1
++ __ZN6shazam3ccp25validateNextClusterCmdPktERKNSt3__14spanIKcLm18446744073709551615EEEPKNS_13ClusterCmdPktEmm.cold.2
++ __ZN6shazam3ccp25validateNextClusterCmdPktERKNSt3__14spanIKcLm18446744073709551615EEEPKNS_13ClusterCmdPktEmm.cold.3
++ __ZN6shazam3ccp26validateFirstClusterCmdPktERKNSt3__14spanIKcLm18446744073709551615EEE
++ __ZN6shazam3ccp26validateFirstClusterCmdPktERKNSt3__14spanIKcLm18446744073709551615EEE.cold.1
++ __ZN6shazam3ccp26validateFirstClusterCmdPktERKNSt3__14spanIKcLm18446744073709551615EEE.cold.2
++ __ZN6shazam3ccp26validateFirstClusterCmdPktERKNSt3__14spanIKcLm18446744073709551615EEE.cold.3
++ __ZN6shazam3ccp26validateFirstClusterCmdPktERKNSt3__14spanIKcLm18446744073709551615EEE.cold.4
++ __ZN6shazam3ccp26validateFirstClusterCmdPktERKNSt3__14spanIKcLm18446744073709551615EEE.cold.5
++ __ZN6shazam3ccp26validateFirstClusterCmdPktERKNSt3__14spanIKcLm18446744073709551615EEE.cold.6
++ __ZN6shazam3ccp8checksumEPKvm.cold.1
++ __ZN6shazam3dsp11CrepeFramer4flowENSt3__14spanIfLm18446744073709551615EEE
++ __ZN6shazam3dsp11CrepeFramer4flowENSt3__14spanIfLm18446744073709551615EEE.cold.1
++ __ZN6shazam3dsp11build_basisENSt3__14spanIfLm18446744073709551615EEEtffRmRNS1_6vectorINS1_7complexIfEENS1_9allocatorIS7_EEEE
++ __ZN6shazam3dsp11build_basisENSt3__14spanIfLm18446744073709551615EEEtffRmRNS1_6vectorINS1_7complexIfEENS1_9allocatorIS7_EEEE.cold.1
++ __ZN6shazam3dsp11cascade_buf4flowENSt3__14spanIfLm18446744073709551615EEE
++ __ZN6shazam3dsp11vDSP_matmulERKNSt3__14spanINS1_7complexIfEELm18446744073709551615EEES7_mRNS1_6vectorIS4_NS1_9allocatorIS4_EEEEmm
++ __ZN6shazam3dsp16FeatureExtractor4flowENSt3__14spanIfLm18446744073709551615EEE
++ __ZN6shazam3dsp16FeatureExtractor4flowENSt3__14spanIsLm18446744073709551615EEE
++ __ZN6shazam3dsp16FeatureExtractor7subflowENSt3__14spanIfLm18446744073709551615EEE
++ __ZN6shazam3dsp16vecmatmul_513x36ERKNSt3__14spanINS1_7complexIfEELm18446744073709551615EEES7_RNS1_6vectorIS4_NS1_9allocatorIS4_EEEE
++ __ZN6shazam3dsp4HCQTILj2ELj6EE11scale_to_dbENSt3__14spanIKNS2_9timeframeELm18446744073709551615EEERfRNS3_6vectorIS5_NS3_9allocatorIS5_EEEE
++ __ZN6shazam3dsp4HCQTILj2ELj6EE4flowENSt3__14spanIfLm18446744073709551615EEE
++ __ZN6shazam3dsp6matmulERKNSt3__14spanINS1_7complexIfEELm18446744073709551615EEES7_mRNS1_6vectorIS4_NS1_9allocatorIS4_EEEE
++ __ZN6shazam3dsp6matmulERKNSt3__14spanINS1_7complexIfEELm18446744073709551615EEES7_mRNS1_6vectorIS4_NS1_9allocatorIS4_EEEE.cold.1
++ __ZN6shazam3dsp6matmulERKNSt3__14spanINS1_7complexIfEELm18446744073709551615EEES7_mRNS1_6vectorIS4_NS1_9allocatorIS4_EEEE.cold.2
++ __ZN6shazam5QueryIL8AlgoType12ENSt3__16vectorINS_4lmfpILNS_7fp_typeE7EEENS2_9allocatorIS6_EEEEEC2ERKNS_15basic_signatureILNS_17signature_densityE24EEERKNS_9SkewRangeEOS9_
++ __ZN6shazam5QueryIL8AlgoType12ENSt3__16vectorINS_4lmfpILNS_7fp_typeE7EEENS2_9allocatorIS6_EEEEED2Ev
++ __ZN6shazam5focusILl2ENS_11regresspairEPDoFfRKS1_EZZNS_10cull_phaseIL8AlgoType12ENS_11xpair_groupIJNS_12xpair_fieldsEEEELm2ELPv0EEEvRNSt3__16vectorINS_6ResultENSC_9allocatorISE_EEEESE_RNSD_IS1_NSF_IS1_EEEERKNSC_4spanIT0_Lm18446744073709551615EEEENKUlT_E_clINSM_ISA_Lm18446744073709551615EEEEEDaSR_EUlSR_E_EEvSO_xT1_T2_
++ __ZN6shazam5focusILl2ENS_11regresspairEPDoFfRKS1_EZZNS_10cull_phaseIL8AlgoType1ENS_11xpair_groupIJNS_12xpair_fieldsEEEELm2ELPv0EEEvRNSt3__16vectorINS_6ResultENSC_9allocatorISE_EEEESE_RNSD_IS1_NSF_IS1_EEEERKNSC_4spanIT0_Lm18446744073709551615EEEENKUlT_E_clINSM_ISA_Lm18446744073709551615EEEEEDaSR_EUlSR_E_EEvSO_xT1_T2_
++ __ZN6shazam5focusILl2ENS_11xpair_groupIJNS_12xpair_fieldsEEEEPDoFfRKS3_EZNS_11CPUSearcher6searchIL8AlgoType12ES3_EEvRKNS_12SongDataBaseERKNS_16CPUOnePtDatabaseERKNS_15CPULMFPDataBaseERKNS_5QueryIXT_ENSt3__16vectorINS_4lmfpIXsr4algoIXT_EEE6fpTypeEEENSL_9allocatorISO_EEEEEERKNS_11QueryConfigEmNSL_6chrono10time_pointINSY_12steady_clockENSY_8durationIxNSL_5ratioILl1ELl1000000000EEEEEEERKNSL_8functionIFvRKNS_14SearchResponseEEEEEUlRKT_E_EEvNSL_4spanIT0_Lm18446744073709551615EEExT1_T2_
++ __ZN6shazam5focusILl2ENS_11xpair_groupIJNS_12xpair_fieldsEEEEPDoFfRKS3_EZNS_11CPUSearcher6searchIL8AlgoType1ES3_EEvRKNS_12SongDataBaseERKNS_16CPUOnePtDatabaseERKNS_15CPULMFPDataBaseERKNS_5QueryIXT_ENSt3__16vectorINS_4lmfpIXsr4algoIXT_EEE6fpTypeEEENSL_9allocatorISO_EEEEEERKNS_11QueryConfigEmNSL_6chrono10time_pointINSY_12steady_clockENSY_8durationIxNSL_5ratioILl1ELl1000000000EEEEEEERKNSL_8functionIFvRKNS_14SearchResponseEEEEEUlRKT_E_EEvNSL_4spanIT0_Lm18446744073709551615EEExT1_T2_
++ __ZN6shazam5focusILl2ENS_11xpair_groupIJNS_12xpair_fieldsEEEEPDoFiRKS3_EZNS_10cull_phaseIL8AlgoType12ES3_Lm2ELPv0EEEvRNSt3__16vectorINS_6ResultENSB_9allocatorISD_EEEESD_RNSC_INS_11regresspairENSE_ISI_EEEERKNSB_4spanIT0_Lm18446744073709551615EEEEUlT_E_EEvSO_xT1_T2_
++ __ZN6shazam5focusILl2ENS_11xpair_groupIJNS_12xpair_fieldsEEEEPDoFiRKS3_EZNS_10cull_phaseIL8AlgoType1ES3_Lm2ELPv0EEEvRNSt3__16vectorINS_6ResultENSB_9allocatorISD_EEEESD_RNSC_INS_11regresspairENSE_ISI_EEEERKNSB_4spanIT0_Lm18446744073709551615EEEEUlT_E_EEvSO_xT1_T2_
++ __ZN6shazam5visitIN12_GLOBAL__N_116lmfp_data_writerEJRNS_10SearchPlanERNSt3__16vectorIcNS5_9allocatorIcEEEERKNS_15basic_signatureILNS_17signature_densityE16EEERNS5_6chrono8durationIyNS5_5ratioILl1ELl125EEEEEEEEDa8AlgoTypeOT_DpOT0_
++ __ZN6shazam5visitINS_15CPULMFPDataBase11ptable_initEJRNSt3__14spanIcLm18446744073709551615EEEEEEDa8AlgoTypeOT_DpOT0_
++ __ZN6shazam5visitINS_15CPULMFPDataBase12prefix_stripEJRNSt3__14spanIcLm18446744073709551615EEEEEEDa8AlgoTypeOT_DpOT0_
++ __ZN6shazam5visitINS_15CPULMFPDataBase14landmarks_initEJRNSt3__14spanIcLm18446744073709551615EEEEEEDa8AlgoTypeOT_DpOT0_
++ __ZN6shazam6kvsortINSt3__14spanINS_4lmfpILNS_7fp_typeE0EEELm18446744073709551615EEEEEvRT_S8_
++ __ZN6shazam6kvsortINSt3__14spanINS_4lmfpILNS_7fp_typeE7EEELm18446744073709551615EEEEEvRT_S8_
++ __ZN6shazam6kvsortINSt3__16vectorINS_4lmfpILNS_7fp_typeE7EEENS1_9allocatorIS5_EEEEEEvRT_SA_
++ __ZN6shazam7Tracker11check_queueEv.cold.1
++ __ZN6shazam7regressIKNS_7tfmatchENS_8extractXIS2_EENS_8extractYIS2_EEEENSt3__18optionalINS_12regress_lineEEERKNS7_4spanIT_Lm18446744073709551615EEET0_T1_
++ __ZN6shazam7regressINS_11regresspairENS_8extractXIS1_EENS_8extractYIS1_EEEENSt3__18optionalINS_12regress_lineEEERKNS6_4spanIT_Lm18446744073709551615EEET0_T1_
++ __ZN6shazam9crop_bandINS_15spectral_peak_tEEEvNSt3__14spanIKT_Lm18446744073709551615EEERNS2_6vectorIS4_NS2_9allocatorIS4_EEEENS2_6chrono8durationIjNS2_5ratioILl1ELl125EEEEESG_
++ __ZN6shazam9xpairsortINS_11xpair_groupIJNS_12xpair_fieldsEEEEEEvRNSt3__14spanIT_Lm18446744073709551615EEES8_
++ __ZNK18CoreMLFeatureModel7versionEv.cold.1
++ __ZNK21BNNSGraphFeatureModel7versionEv.cold.1
++ __ZNK6shazam10QueryRangeILNS_7fp_typeE7EE25ConstructFingerprintRangeERKNS_4lmfpILS1_7EEE
++ __ZNK6shazam10SearchPlan11assertValidEv.cold.1
++ __ZNK6shazam10SearchPlan11assertValidEv.cold.2
++ __ZNK6shazam10SearchPlan11assertValidEv.cold.3
++ __ZNK6shazam10SearchPlan11assertValidEv.cold.4
++ __ZNK6shazam10SearchPlan11assertValidEv.cold.5
++ __ZNK6shazam15CPULMFPDataBase12prefix_stripclIL8AlgoType12EEEDaNSt3__14spanIcLm18446744073709551615EEE
++ __ZNK6shazam15CPULMFPDataBase12prefix_stripclIL8AlgoType1EEEDaNSt3__14spanIcLm18446744073709551615EEE
++ __ZNK6shazam15resample_stream29get_samples_for_sigx_fft_stepEv.cold.1
++ __ZNK6shazam17VerificationSetup20runVerificationSweepENSt3__16chrono8durationIiNS1_5ratioILl1ELl125EEEEEfh
++ __ZNK6shazam21packed_signature_view7headersERKNSt3__18functionIFvNS_16signature_headerEEEE.cold.1
++ __ZNK6shazam3dsp11cascade_buf5flushIZNS0_4HCQTILj2ELj6EE8generateEvEUlNSt3__14spanIKfLm18446744073709551615EEEmmE_EEvmjRKT_
++ __ZNK6shazam3dsp11cascade_buf9get_frameIZNS0_4HCQTILj2ELj6EE4flowENSt3__14spanIfLm18446744073709551615EEEEUlNS6_IKfLm18446744073709551615EEEmmE_EEvjjRKT_
++ __ZNK6shazam3dsp11cascade_buf9get_frameIZNS0_4HCQTILj2ELj6EE4flowENSt3__14spanIfLm18446744073709551615EEEEUlNS6_IKfLm18446744073709551615EEEmmE_EEvjjRKT_.cold.1
++ __ZNKRSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEE3strB9foe210106Ev
++ __ZNKSt3__110__function6__funcIN6shazam14SpectralOutput8callbackMUlPKfmE_EFvS5_mEE11target_typeEv
++ __ZNKSt3__110__function6__funcIN6shazam14SpectralOutput8callbackMUlPKfmE_EFvS5_mEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIN6shazam14SpectralOutput8callbackMUlPKfmE_EFvS5_mEE7__cloneEPNS0_6__baseIS7_EE
++ __ZNKSt3__110__function6__funcIN6shazam14SpectralOutput8callbackMUlPKfmE_EFvS5_mEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ77-[MRE search:multipleResults:scorePenalties:threshold:skewMin:skewMax:error:]E3$_1FvRKN6shazam14SearchResponseEEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ77-[MRE search:multipleResults:scorePenalties:threshold:skewMin:skewMax:error:]E3$_1FvRKN6shazam14SearchResponseEEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ77-[MRE search:multipleResults:scorePenalties:threshold:skewMin:skewMax:error:]E3$_1FvRKN6shazam14SearchResponseEEE7__cloneEPNS0_6__baseIS7_EE
++ __ZNKSt3__110__function6__funcIZ77-[MRE search:multipleResults:scorePenalties:threshold:skewMin:skewMax:error:]E3$_1FvRKN6shazam14SearchResponseEEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0FvPKfmEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0FvPKfmEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0FvPKfmEE7__cloneEPNS0_6__baseIS5_EE
++ __ZNKSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0FvPKfmEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EE11target_typeEv
++ __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EE7__cloneEPNS0_6__baseISF_EE
++ __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EE7__cloneEv
++ __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EE11target_typeEv
++ __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EE7__cloneEPNS0_6__baseISF_EE
++ __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EE7__cloneEv
++ __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EE11target_typeEv
++ __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EE7__cloneEPNS0_6__baseISF_EE
++ __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EE7__cloneEv
++ __ZNKSt3__110__function6__funcIZN6shazam11get_siginfoERKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZN6shazam11get_siginfoERKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZN6shazam11get_siginfoERKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEE7__cloneEPNS0_6__baseIS8_EE
++ __ZNKSt3__110__function6__funcIZN6shazam11get_siginfoERKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZN6shazam11get_versionERKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZN6shazam11get_versionERKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZN6shazam11get_versionERKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEE7__cloneEPNS0_6__baseIS8_EE
++ __ZNKSt3__110__function6__funcIZN6shazam11get_versionERKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZN6shazam14SpectralOutput7disableEvE3$_0FvPKfmEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZN6shazam14SpectralOutput7disableEvE3$_0FvPKfmEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZN6shazam14SpectralOutput7disableEvE3$_0FvPKfmEE7__cloneEPNS0_6__baseIS7_EE
++ __ZNKSt3__110__function6__funcIZN6shazam14SpectralOutput7disableEvE3$_0FvPKfmEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEE7__cloneEPNS0_6__baseISB_EE
++ __ZNKSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEE7__cloneEPNS0_6__baseISG_EE
++ __ZNKSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZN6shazam8pairwise16audioscanCompareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_RKNS_8functionIFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEEERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0FvRKNS2_14SearchResponseEEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZN6shazam8pairwise16audioscanCompareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_RKNS_8functionIFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEEERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0FvRKNS2_14SearchResponseEEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZN6shazam8pairwise16audioscanCompareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_RKNS_8functionIFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEEERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0FvRKNS2_14SearchResponseEEE7__cloneEPNS0_6__baseISY_EE
++ __ZNKSt3__110__function6__funcIZN6shazam8pairwise16audioscanCompareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_RKNS_8functionIFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEEERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0FvRKNS2_14SearchResponseEEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZN6shazam8pairwise7compareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_NS3_9MergeModeERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0FvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZN6shazam8pairwise7compareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_NS3_9MergeModeERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0FvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZN6shazam8pairwise7compareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_NS3_9MergeModeERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0FvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEE7__cloneEPNS0_6__baseISR_EE
++ __ZNKSt3__110__function6__funcIZN6shazam8pairwise7compareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_NS3_9MergeModeERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0FvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEE7__cloneEv
++ __ZNKSt3__112__hash_tableINS_17__hash_value_typeIiN6shazam14target_zone_2dEEENS_22__unordered_map_hasherIiNS_4pairIKiS3_EENS_4hashIiEENS_8equal_toIiEELb1EEENS_21__unordered_map_equalIiS8_SC_SA_Lb1EEENS_9allocatorIS8_EEE4findIiEENS_21__hash_const_iteratorIPNS_11__hash_nodeIS4_PvEEEERKT_
++ __ZNKSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyNS_4pairIKymEENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE4findIyEENS_21__hash_const_iteratorIPNS_11__hash_nodeIS2_PvEEEERKT_
++ __ZNKSt3__114default_deleteI11MREInstanceEclB9foe210106EPS1_
++ __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE4viewB9foe210106Ev
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam14density_filterINS2_15spectral_peak_tEEEEEPS5_EclB9foe210106Ev
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam15CPULMFPDataBaseEEEPS3_EclB9foe210106Ev
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam15basic_signatureILNS2_17signature_densityE24EEEEEPS5_EclB9foe210106Ev
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam15freebird_tensorEEEPS3_EclB9foe210106Ev
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam6ResultEEEPS3_EclB9foe210106Ev
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIN6shazam15spectral_peak_tENS1_IS4_EEEEEEPS6_EclB9foe210106Ev
++ __ZNKSt3__14spanIKcLm18446744073709551615EE7subspanB9foe210106Emm
++ __ZNKSt3__14spanIN6shazam11regresspairELm18446744073709551615EE7subspanB9foe210106Emm
++ __ZNKSt3__14spanIN6shazam11xpair_groupIJNS1_12xpair_fieldsEEEELm18446744073709551615EE7subspanB9foe210106Emm
++ __ZNKSt3__14spanIfLm18446744073709551615EE7subspanB9foe210106Emm
++ __ZNKSt9type_infoeqB9foe210106ERKS_
++ __ZNSt11range_errorC1B9foe210106EPKc
++ __ZNSt12length_errorC1B9foe210106EPKc
++ __ZNSt12out_of_rangeC1B9foe210106EPKc
++ __ZNSt16invalid_argumentC1B9foe210106EPKc
++ __ZNSt3__110__function12__value_funcIFvN6shazam16signature_headerEEED2B9foe210106Ev
++ __ZNSt3__110__function12__value_funcIFvPKfmEE4swapB9foe210106ERS5_
++ __ZNSt3__110__function12__value_funcIFvPKfmEEC2B9foe210106EOS5_
++ __ZNSt3__110__function12__value_funcIFvPKfmEEC2B9foe210106ERKS5_
++ __ZNSt3__110__function12__value_funcIFvPKfmEED2B9foe210106Ev
++ __ZNSt3__110__function12__value_funcIFvRKN6shazam14SearchResponseEEED2B9foe210106Ev
++ __ZNSt3__110__function12__value_funcIFvRKN6shazam14TrackingResultERKNS2_13sig_alignmentEEED2B9foe210106Ev
++ __ZNSt3__110__function6__funcIN6shazam14SpectralOutput8callbackMUlPKfmE_EFvS5_mEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIN6shazam14SpectralOutput8callbackMUlPKfmE_EFvS5_mEE7destroyEv
++ __ZNSt3__110__function6__funcIN6shazam14SpectralOutput8callbackMUlPKfmE_EFvS5_mEED0Ev
++ __ZNSt3__110__function6__funcIN6shazam14SpectralOutput8callbackMUlPKfmE_EFvS5_mEED1Ev
++ __ZNSt3__110__function6__funcIN6shazam14SpectralOutput8callbackMUlPKfmE_EFvS5_mEEclEOS5_Om
++ __ZNSt3__110__function6__funcIZ77-[MRE search:multipleResults:scorePenalties:threshold:skewMin:skewMax:error:]E3$_1FvRKN6shazam14SearchResponseEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ77-[MRE search:multipleResults:scorePenalties:threshold:skewMin:skewMax:error:]E3$_1FvRKN6shazam14SearchResponseEEE7destroyEv
++ __ZNSt3__110__function6__funcIZ77-[MRE search:multipleResults:scorePenalties:threshold:skewMin:skewMax:error:]E3$_1FvRKN6shazam14SearchResponseEEED0Ev
++ __ZNSt3__110__function6__funcIZ77-[MRE search:multipleResults:scorePenalties:threshold:skewMin:skewMax:error:]E3$_1FvRKN6shazam14SearchResponseEEED1Ev
++ __ZNSt3__110__function6__funcIZ77-[MRE search:multipleResults:scorePenalties:threshold:skewMin:skewMax:error:]E3$_1FvRKN6shazam14SearchResponseEEEclES6_
++ __ZNSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0FvPKfmEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0FvPKfmEE7destroyEv
++ __ZNSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0FvPKfmEED0Ev
++ __ZNSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0FvPKfmEED1Ev
++ __ZNSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0FvPKfmEEclEOS4_Om
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EE7destroyEv
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EED0Ev
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EED1Ev
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EEclEOSB_
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EEclEOSB_.cold.1
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EEclEOSB_.cold.2
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EE7destroyEv
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EED0Ev
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EED1Ev
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EEclEOSB_
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EEclEOSB_.cold.1
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EEclEOSB_.cold.2
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EE7destroyEv
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EED0Ev
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EED1Ev
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EEclEOSB_
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EEclEOSB_.cold.1
++ __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EEclEOSB_.cold.2
++ __ZNSt3__110__function6__funcIZN6shazam11get_siginfoERKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN6shazam11get_siginfoERKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEE7destroyEv
++ __ZNSt3__110__function6__funcIZN6shazam11get_siginfoERKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEED0Ev
++ __ZNSt3__110__function6__funcIZN6shazam11get_siginfoERKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEED1Ev
++ __ZNSt3__110__function6__funcIZN6shazam11get_siginfoERKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEEclEOS7_
++ __ZNSt3__110__function6__funcIZN6shazam11get_siginfoERKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEEclEOS7_.cold.1
++ __ZNSt3__110__function6__funcIZN6shazam11get_siginfoERKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEEclEOS7_.cold.2
++ __ZNSt3__110__function6__funcIZN6shazam11get_siginfoERKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEEclEOS7_.cold.3
++ __ZNSt3__110__function6__funcIZN6shazam11get_versionERKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN6shazam11get_versionERKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEE7destroyEv
++ __ZNSt3__110__function6__funcIZN6shazam11get_versionERKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEED0Ev
++ __ZNSt3__110__function6__funcIZN6shazam11get_versionERKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEED1Ev
++ __ZNSt3__110__function6__funcIZN6shazam11get_versionERKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEEclEOS7_
++ __ZNSt3__110__function6__funcIZN6shazam14SpectralOutput7disableEvE3$_0FvPKfmEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN6shazam14SpectralOutput7disableEvE3$_0FvPKfmEE7destroyEv
++ __ZNSt3__110__function6__funcIZN6shazam14SpectralOutput7disableEvE3$_0FvPKfmEED0Ev
++ __ZNSt3__110__function6__funcIZN6shazam14SpectralOutput7disableEvE3$_0FvPKfmEED1Ev
++ __ZNSt3__110__function6__funcIZN6shazam14SpectralOutput7disableEvE3$_0FvPKfmEEclEOS6_Om
++ __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEE7destroyEv
++ __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEED0Ev
++ __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEED1Ev
++ __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEEclEOSA_
++ __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEEclEOSA_.cold.1
++ __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEEclEOSA_.cold.2
++ __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEEclEOSA_.cold.3
++ __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEEclEOSA_.cold.4
++ __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEEclEOSA_.cold.5
++ __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEE7destroyEv
++ __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEED0Ev
++ __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEED1Ev
++ __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEEclEOSF_
++ __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEEclEOSF_.cold.1
++ __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEEclEOSF_.cold.2
++ __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEEclEOSF_.cold.3
++ __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEEclEOSF_.cold.4
++ __ZNSt3__110__function6__funcIZN6shazam8pairwise16audioscanCompareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_RKNS_8functionIFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEEERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0FvRKNS2_14SearchResponseEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN6shazam8pairwise16audioscanCompareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_RKNS_8functionIFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEEERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0FvRKNS2_14SearchResponseEEE7destroyEv
++ __ZNSt3__110__function6__funcIZN6shazam8pairwise16audioscanCompareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_RKNS_8functionIFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEEERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0FvRKNS2_14SearchResponseEEED0Ev
++ __ZNSt3__110__function6__funcIZN6shazam8pairwise16audioscanCompareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_RKNS_8functionIFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEEERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0FvRKNS2_14SearchResponseEEED1Ev
++ __ZNSt3__110__function6__funcIZN6shazam8pairwise16audioscanCompareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_RKNS_8functionIFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEEERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0FvRKNS2_14SearchResponseEEEclESX_
++ __ZNSt3__110__function6__funcIZN6shazam8pairwise7compareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_NS3_9MergeModeERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0FvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN6shazam8pairwise7compareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_NS3_9MergeModeERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0FvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEE7destroyEv
++ __ZNSt3__110__function6__funcIZN6shazam8pairwise7compareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_NS3_9MergeModeERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0FvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEED0Ev
++ __ZNSt3__110__function6__funcIZN6shazam8pairwise7compareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_NS3_9MergeModeERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0FvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEED1Ev
++ __ZNSt3__110__function6__funcIZN6shazam8pairwise7compareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_NS3_9MergeModeERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0FvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEEclESN_SQ_
++ __ZNSt3__110__pop_heapB9foe210106INS_17_ClassicAlgPolicyENS_7greaterIvEEPN6shazam6ResultEEEvT1_S7_RT0_NS_15iterator_traitsIS7_E15difference_typeE
++ __ZNSt3__110unique_ptrI18CoreMLFeatureModelNS_14default_deleteIS1_EEED1B9foe210106Ev
++ __ZNSt3__110unique_ptrI21BNNSGraphFeatureModelNS_14default_deleteIS1_EEED1B9foe210106Ev
++ __ZNSt3__110unique_ptrIN6shazam15resample_streamENS_14default_deleteIS2_EEE5resetB9foe210106EPS2_
++ __ZNSt3__110unique_ptrIN6shazam15resample_streamENS_14default_deleteIS2_EEED1B9foe210106Ev
++ __ZNSt3__110unique_ptrIN6shazam3dsp11CrepeFramerENS_14default_deleteIS3_EEE5resetB9foe210106EPS3_
++ __ZNSt3__110unique_ptrIN6shazam3dsp11cascade_bufENS_14default_deleteIS3_EEE5resetB9foe210106EPS3_
++ __ZNSt3__110unique_ptrIN6shazam3dsp11cascade_bufENS_14default_deleteIS3_EEED1B9foe210106Ev
++ __ZNSt3__110unique_ptrIN6shazam3dsp16FeatureExtractorENS_14default_deleteIS3_EEE5resetB9foe210106EPS3_
++ __ZNSt3__110unique_ptrIN6shazam3dsp4HCQTILj2ELj6EEENS_14default_deleteIS4_EEE5resetB9foe210106EPS4_
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERPDoFbRKN6shazam11xpair_groupIJNS2_12xpair_fieldsEEEES7_EPS5_Lb0EEEvT1_SC_T0_NS_15iterator_traitsISC_E15difference_typeEb
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN6shazam17VerificationSweepERKNS2_13onePointQueryERKNS2_12CPUDatabasesENS_6chrono8durationIiNS_5ratioILl1ELl125EEEEERKNS2_14queryAlignmentEfhE3$_0PNS2_12verifyResultELb0EEEvT1_SL_T0_NS_15iterator_traitsISL_E15difference_typeEb
++ __ZNSt3__111__sift_downB9foe210106INS_17_ClassicAlgPolicyERN6shazam3$_1EPNS2_15spectral_peak_tEEEvT1_OT0_NS_15iterator_traitsIS7_E15difference_typeES7_
++ __ZNSt3__111__sift_downB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam11regresspairEEEvT1_OT0_NS_15iterator_traitsIS8_E15difference_typeES8_
++ __ZNSt3__111__sift_downB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam15spectral_peak_tEEEvT1_OT0_NS_15iterator_traitsIS8_E15difference_typeES8_
++ __ZNSt3__111__sift_downB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam7peak_tfEEEvT1_OT0_NS_15iterator_traitsIS8_E15difference_typeES8_
++ __ZNSt3__111__sift_downB9foe210106INS_17_ClassicAlgPolicyERNS_7greaterIvEEPN6shazam6ResultEEEvT1_OT0_NS_15iterator_traitsIS8_E15difference_typeES8_
++ __ZNSt3__111__sift_downB9foe210106INS_17_ClassicAlgPolicyERNS_7greaterIvEEPmEEvT1_OT0_NS_15iterator_traitsIS6_E15difference_typeES6_
++ __ZNSt3__111__sift_downB9foe210106INS_17_ClassicAlgPolicyERPDoFbRKN6shazam11xpair_groupIJNS2_12xpair_fieldsEEEES7_EPS5_EEvT1_OT0_NS_15iterator_traitsISC_E15difference_typeESC_
++ __ZNSt3__111make_uniqueB9foe210106IN6shazam17StaticCPUSearcherEJRKNS1_12CPUDatabasesERKNS1_5TimerERKmSA_RKbELi0EEENS_10unique_ptrIT_NS_14default_deleteISE_EEEEDpOT0_
++ __ZNSt3__112__destroy_atB9foe210106IN6shazam16CPUOnePtDatabaseELi0EEEvPT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIN6shazam12feature_typeENS_10unique_ptrINS2_3dsp12FeatureModelENS_14default_deleteIS6_EEEEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S9_EENS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_SE_SI_SG_Lb1EEENS_9allocatorISE_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIN6shazam12feature_typeENS_10unique_ptrINS2_3dsp12FeatureModelENS_14default_deleteIS6_EEEEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S9_EENS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_SE_SI_SG_Lb1EEENS_9allocatorISE_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeISA_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIN6shazam12feature_typeENS_10unique_ptrINS2_3dsp12FeatureModelENS_14default_deleteIS6_EEEEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S9_EENS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_SE_SI_SG_Lb1EEENS_9allocatorISE_EEE25__emplace_unique_key_argsIS3_JRKNS_21piecewise_construct_tENS_5tupleIJOS3_EEENST_IJEEEEEENSC_INS_15__hash_iteratorIPNS_11__hash_nodeISA_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIN6shazam12feature_typeENS_10unique_ptrINS2_3dsp12FeatureModelENS_14default_deleteIS6_EEEEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S9_EENS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_SE_SI_SG_Lb1EEENS_9allocatorISE_EEE4findIS3_EENS_15__hash_iteratorIPNS_11__hash_nodeISA_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIN6shazam12feature_typeENS_10unique_ptrINS2_3dsp12FeatureModelENS_14default_deleteIS6_EEEEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S9_EENS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_SE_SI_SG_Lb1EEENS_9allocatorISE_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIN6shazam12feature_typeENS_10unique_ptrINS2_3dsp12FeatureModelENS_14default_deleteIS6_EEEEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S9_EENS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_SE_SI_SG_Lb1EEENS_9allocatorISE_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIiN6shazam14target_zone_2dEEENS_22__unordered_map_hasherIiNS_4pairIKiS3_EENS_4hashIiEENS_8equal_toIiEELb1EEENS_21__unordered_map_equalIiS8_SC_SA_Lb1EEENS_9allocatorIS8_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIiN6shazam14target_zone_2dEEENS_22__unordered_map_hasherIiNS_4pairIKiS3_EENS_4hashIiEENS_8equal_toIiEELb1EEENS_21__unordered_map_equalIiS8_SC_SA_Lb1EEENS_9allocatorIS8_EEE25__emplace_unique_key_argsIiJRKS8_EEENS6_INS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIiN6shazam14target_zone_2dEEENS_22__unordered_map_hasherIiNS_4pairIKiS3_EENS_4hashIiEENS_8equal_toIiEELb1EEENS_21__unordered_map_equalIiS8_SC_SA_Lb1EEENS_9allocatorIS8_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIiN6shazam14target_zone_2dEEENS_22__unordered_map_hasherIiNS_4pairIKiS3_EENS_4hashIiEENS_8equal_toIiEELb1EEENS_21__unordered_map_equalIiS8_SC_SA_Lb1EEENS_9allocatorIS8_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyNS_4pairIKymEENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyNS_4pairIKymEENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE25__emplace_unique_key_argsIyJRKNS_21piecewise_construct_tENS_5tupleIJRS5_EEENSL_IJEEEEEENS4_INS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyNS_4pairIKymEENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE5clearEv
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyNS_4pairIKymEENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyNS_4pairIKymEENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEED2Ev
++ __ZNSt3__112__rotate_gcdB9foe210106INS_17_ClassicAlgPolicyENS_16reverse_iteratorINS_11__wrap_iterIPcEEEEEET0_S7_S7_S7_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7reserveEm
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106ILi0EEEPKc
++ __ZNSt3__113unordered_mapIiN6shazam14target_zone_2dENS_4hashIiEENS_8equal_toIiEENS_9allocatorINS_4pairIKiS2_EEEEED1B9foe210106Ev
++ __ZNSt3__114__split_bufferIN6shazam14density_filterINS1_15spectral_peak_tEEERNS_9allocatorIS4_EEE17__destruct_at_endB9foe210106EPS4_
++ __ZNSt3__114__split_bufferIN6shazam15CPULMFPDataBaseERNS_9allocatorIS2_EEE17__destruct_at_endB9foe210106EPS2_
++ __ZNSt3__114__split_bufferIN6shazam15basic_signatureILNS1_17signature_densityE24EEERNS_9allocatorIS4_EEE5clearB9foe210106Ev
++ __ZNSt3__114__split_bufferIN6shazam15freebird_tensorERNS_9allocatorIS2_EEE17__destruct_at_endB9foe210106EPS2_
++ __ZNSt3__114__split_bufferIN6shazam26static_aligned_dual_bufferIfEERNS_9allocatorIS3_EEE17__destruct_at_endB9foe210106EPS3_
++ __ZNSt3__114__split_bufferIN6shazam6ResultERNS_9allocatorIS2_EEE17__destruct_at_endB9foe210106EPS2_
++ __ZNSt3__114__split_bufferINS_10unique_ptrIN6shazam15resample_streamENS_14default_deleteIS3_EEEERNS_9allocatorIS6_EEE17__destruct_at_endB9foe210106EPS6_
++ __ZNSt3__114__split_bufferINS_6vectorIN6shazam15spectral_peak_tENS_9allocatorIS3_EEEERNS4_IS6_EEE17__destruct_at_endB9foe210106EPS6_
++ __ZNSt3__114__split_bufferINS_6vectorIN6shazam24ancient_dead_sig_point_tENS_9allocatorIS3_EEEERNS4_IS6_EEE17__destruct_at_endB9foe210106EPS6_
++ __ZNSt3__114__split_bufferINS_6vectorIN6shazam7peak_tfENS_9allocatorIS3_EEEERNS4_IS6_EEE17__destruct_at_endB9foe210106EPS6_
++ __ZNSt3__114__split_bufferINS_6vectorIN6shazam7peak_tfENS_9allocatorIS3_EEEERNS4_IS6_EEED2Ev
++ __ZNSt3__115allocate_sharedB9foe210106IN6shazam12SongDataBaseENS_9allocatorIS2_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9foe210106IN6shazam16CPUOnePtDatabaseENS_9allocatorIS2_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9foe210106Ev
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9foe210106EONS_12basic_stringIcS2_S4_EEj
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9foe210106Ej
++ __ZNSt3__116__insertion_sortB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam11regresspairEEEvT1_S8_T0_
++ __ZNSt3__116__insertion_sortB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam15spectral_peak_tEEEvT1_S8_T0_
++ __ZNSt3__116__insertion_sortB9foe210106INS_17_ClassicAlgPolicyERNS_7greaterIvEEPN6shazam6ResultEEEvT1_S8_T0_
++ __ZNSt3__116__insertion_sortB9foe210106INS_17_ClassicAlgPolicyERPDoFbRKN6shazam11xpair_groupIJNS2_12xpair_fieldsEEEES7_EPS5_EEvT1_SC_T0_
++ __ZNSt3__116__pad_and_outputB9foe210106IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__116allocator_traitsINS_9allocatorIN6shazam15CPULMFPDataBaseEEEE7destroyB9foe210106IS3_Li0EEEvRS4_PT_
++ __ZNSt3__116allocator_traitsINS_9allocatorINS_10unique_ptrIN6shazam15resample_streamENS_14default_deleteIS4_EEEEEEE7destroyB9foe210106IS7_Li0EEEvRS8_PT_
++ __ZNSt3__117__floyd_sift_downB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam15spectral_peak_tEEET1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
++ __ZNSt3__117__floyd_sift_downB9foe210106INS_17_ClassicAlgPolicyERNS_7greaterIvEEPN6shazam6ResultEEET1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
++ __ZNSt3__118__bitset_partitionB9foe210106INS_17_ClassicAlgPolicyEPmRNS_7greaterIvEEEENS_4pairIT0_bEES7_S7_T1_
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorI21bnns_graph_argument_tEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN6shazam10SearchPlanEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN6shazam10SongOffsetEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN6shazam11regresspairEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN6shazam12verifyResultEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN6shazam13sig_alignmentEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN6shazam14TrackingResultEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN6shazam14density_filterINS2_15spectral_peak_tEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN6shazam15CPULMFPDataBaseEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN6shazam15basic_signatureILNS2_17signature_densityE24EEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN6shazam15freebird_tensorEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN6shazam15spectral_peak_tEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN6shazam21signature_header_typeEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN6shazam23spectral_peak_compact_tEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN6shazam24ancient_dead_sig_point_tEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN6shazam26static_aligned_dual_bufferIfEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN6shazam2fpILNS2_7fp_typeE0EEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN6shazam2fpILNS2_7fp_typeE7EEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN6shazam3dsp11CrepeFramer9timeframeEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN6shazam3dsp4HCQTILj2ELj6EE9timeframeEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN6shazam4lmfpILNS2_7fp_typeE0EEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN6shazam4lmfpILNS2_7fp_typeE7EEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN6shazam6ResultEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN6shazam7peak_tfEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN6shazam7tfmatchEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN6shazam9PeakMatchEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN6shazam9fp_suffixIL8AlgoType12EEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN6shazam9fp_suffixIL8AlgoType1EEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN6shazam9time_freqEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_10unique_ptrIN6shazam15resample_streamENS_14default_deleteIS4_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_4spanIKN6shazam7peak_tfELm18446744073709551615EEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_6chrono8durationIfNS_5ratioILl1ELl1EEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_6chrono8durationIjNS_5ratioILl1ELl125EEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_6chrono8durationIxNS_5ratioILl1ELl1000EEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_6vectorIN6shazam15spectral_peak_tENS1_IS4_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_6vectorIN6shazam24ancient_dead_sig_point_tENS1_IS4_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_6vectorIN6shazam7peak_tfENS1_IS4_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_6vectorIcNS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_7complexIfEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorImEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIsEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIyEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocator_destroyB9foe210106INS_9allocatorIN6shazam14density_filterINS2_15spectral_peak_tEEEEEPS5_S7_EEvRT_T0_T1_
++ __ZNSt3__119__allocator_destroyB9foe210106INS_9allocatorIN6shazam26static_aligned_dual_bufferIfEEEENS_16reverse_iteratorIPS4_EES8_EEvRT_T0_T1_
++ __ZNSt3__119__allocator_destroyB9foe210106INS_9allocatorIN6shazam26static_aligned_dual_bufferIfEEEEPS4_S6_EEvRT_T0_T1_
++ __ZNSt3__119__partial_sort_implB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam11regresspairES7_EET1_S8_S8_T2_OT0_
++ __ZNSt3__119__partial_sort_implB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam15spectral_peak_tES7_EET1_S8_S8_T2_OT0_
++ __ZNSt3__119__partial_sort_implB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam7peak_tfES7_EET1_S8_S8_T2_OT0_
++ __ZNSt3__119__partial_sort_implB9foe210106INS_17_ClassicAlgPolicyERNS_7greaterIvEEPN6shazam6ResultES7_EET1_S8_S8_T2_OT0_
++ __ZNSt3__119__partial_sort_implB9foe210106INS_17_ClassicAlgPolicyERNS_7greaterIvEEPmS5_EET1_S6_S6_T2_OT0_
++ __ZNSt3__119__partial_sort_implB9foe210106INS_17_ClassicAlgPolicyERPDoFbRKN6shazam11xpair_groupIJNS2_12xpair_fieldsEEEES7_EPS5_SB_EET1_SC_SC_T2_OT0_
++ __ZNSt3__119__shared_weak_count16__release_sharedB9foe210106Ev
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106EONS_12basic_stringIcS2_S4_EEj
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106Ev
++ __ZNSt3__120__shared_ptr_emplaceIN6shazam12SongDataBaseENS_9allocatorIS2_EEEC2B9foe210106IJES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN6shazam16CPUOnePtDatabaseENS_9allocatorIS2_EEEC2B9foe210106IJES4_Li0EEES4_DpOT_
++ __ZNSt3__120__throw_length_errorB9foe210106EPKc
++ __ZNSt3__120__throw_out_of_rangeB9foe210106EPKc
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIN6shazam12feature_typeENS_10unique_ptrINS4_3dsp12FeatureModelENS_14default_deleteIS8_EEEEEEPvEEEEEclB9foe210106EPSE_
++ __ZNSt3__124__put_character_sequenceB9foe210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__125__throw_bad_function_callB9foe210106Ev
++ __ZNSt3__126__insertion_sort_unguardedB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam11regresspairEEEvT1_S8_T0_
++ __ZNSt3__126__insertion_sort_unguardedB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam15spectral_peak_tEEEvT1_S8_T0_
++ __ZNSt3__126__insertion_sort_unguardedB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam7peak_tfEEEvT1_S8_T0_
++ __ZNSt3__126__insertion_sort_unguardedB9foe210106INS_17_ClassicAlgPolicyERNS_7greaterIvEEPN6shazam6ResultEEEvT1_S8_T0_
++ __ZNSt3__126__insertion_sort_unguardedB9foe210106INS_17_ClassicAlgPolicyERNS_7greaterIvEEPmEEvT1_S6_T0_
++ __ZNSt3__126__insertion_sort_unguardedB9foe210106INS_17_ClassicAlgPolicyERPDoFbRKN6shazam11xpair_groupIJNS2_12xpair_fieldsEEEES7_EPS5_EEvT1_SC_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9foe210106INS_17_ClassicAlgPolicyERN6shazam3$_0EPNS2_15spectral_peak_tEEEbT1_S7_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam11regresspairEEEbT1_S8_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam15spectral_peak_tEEEbT1_S8_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam7peak_tfEEEbT1_S8_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9foe210106INS_17_ClassicAlgPolicyERNS_7greaterIvEEPN6shazam6ResultEEEbT1_S8_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9foe210106INS_17_ClassicAlgPolicyERNS_7greaterIvEEPmEEbT1_S6_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9foe210106INS_17_ClassicAlgPolicyERPDoFbRKN6shazam11xpair_groupIJNS2_12xpair_fieldsEEEES7_EPS5_EEbT1_SC_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9foe210106INS_17_ClassicAlgPolicyERZN6shazam17VerificationSweepERKNS2_13onePointQueryERKNS2_12CPUDatabasesENS_6chrono8durationIiNS_5ratioILl1ELl125EEEEERKNS2_14queryAlignmentEfhE3$_0PNS2_12verifyResultEEEbT1_SL_T0_
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam14density_filterINS3_15spectral_peak_tEEEEEPS6_EEED2B9foe210106Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam15CPULMFPDataBaseEEEPS4_EEED2B9foe210106Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam15basic_signatureILNS3_17signature_densityE24EEEEEPS6_EEED2B9foe210106Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam15freebird_tensorEEEPS4_EEED2B9foe210106Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam26static_aligned_dual_bufferIfEEEEPS5_EEED2B9foe210106Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam6ResultEEEPS4_EEED2B9foe210106Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIN6shazam15spectral_peak_tENS2_IS5_EEEEEEPS7_EEED2B9foe210106Ev
++ __ZNSt3__131__partition_with_equals_on_leftB9foe210106INS_17_ClassicAlgPolicyEPN6shazam11regresspairERNS_6__lessIvvEEEET0_S8_S8_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB9foe210106INS_17_ClassicAlgPolicyEPN6shazam11xpair_groupIJNS2_12xpair_fieldsEEEERPDoFbRKS5_S8_EEET0_SC_SC_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB9foe210106INS_17_ClassicAlgPolicyEPN6shazam15spectral_peak_tERNS_6__lessIvvEEEET0_S8_S8_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB9foe210106INS_17_ClassicAlgPolicyEPN6shazam6ResultERNS_7greaterIvEEEET0_S8_S8_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB9foe210106INS_17_ClassicAlgPolicyEPN6shazam7peak_tfERNS_6__lessIvvEEEET0_S8_S8_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB9foe210106INS_17_ClassicAlgPolicyEPmRNS_7greaterIvEEEET0_S6_S6_T1_
++ __ZNSt3__132__internal_log_hardening_failureEPKc
++ __ZNSt3__132__partition_with_equals_on_rightB9foe210106INS_17_ClassicAlgPolicyEPN6shazam11regresspairERNS_6__lessIvvEEEENS_4pairIT0_bEES9_S9_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB9foe210106INS_17_ClassicAlgPolicyEPN6shazam11xpair_groupIJNS2_12xpair_fieldsEEEERPDoFbRKS5_S8_EEENS_4pairIT0_bEESD_SD_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB9foe210106INS_17_ClassicAlgPolicyEPN6shazam15spectral_peak_tERNS_6__lessIvvEEEENS_4pairIT0_bEES9_S9_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB9foe210106INS_17_ClassicAlgPolicyEPN6shazam6ResultERNS_7greaterIvEEEENS_4pairIT0_bEES9_S9_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB9foe210106INS_17_ClassicAlgPolicyEPN6shazam7peak_tfERNS_6__lessIvvEEEENS_4pairIT0_bEES9_S9_T1_
++ __ZNSt3__134__uninitialized_allocator_relocateB9foe210106INS_9allocatorIN6shazam14density_filterINS2_15spectral_peak_tEEEEEPS5_EEvRT_T0_SA_SA_
++ __ZNSt3__134__uninitialized_allocator_relocateB9foe210106INS_9allocatorIN6shazam15CPULMFPDataBaseEEEPS3_EEvRT_T0_S8_S8_
++ __ZNSt3__134__uninitialized_allocator_relocateB9foe210106INS_9allocatorIN6shazam15basic_signatureILNS2_17signature_densityE24EEEEEPS5_EEvRT_T0_SA_SA_
++ __ZNSt3__134__uninitialized_allocator_relocateB9foe210106INS_9allocatorIN6shazam15freebird_tensorEEEPS3_EEvRT_T0_S8_S8_
++ __ZNSt3__134__uninitialized_allocator_relocateB9foe210106INS_9allocatorIN6shazam26static_aligned_dual_bufferIfEEEEPS4_EEvRT_T0_S9_S9_
++ __ZNSt3__134__uninitialized_allocator_relocateB9foe210106INS_9allocatorIN6shazam6ResultEEEPS3_EEvRT_T0_S8_S8_
++ __ZNSt3__135__uninitialized_allocator_copy_implB9foe210106INS_9allocatorIN6shazam6ResultEEEPS3_S5_S5_EET2_RT_T0_T1_S6_
++ __ZNSt3__135__uninitialized_allocator_copy_implB9foe210106INS_9allocatorINS_6vectorIN6shazam15spectral_peak_tENS1_IS4_EEEEEEPS6_S8_S8_EET2_RT_T0_T1_S9_
++ __ZNSt3__16vectorI21bnns_graph_argument_tNS_9allocatorIS1_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorI21bnns_graph_argument_tNS_9allocatorIS1_EEE20__throw_out_of_rangeB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam10SearchPlanENS_9allocatorIS2_EEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorIN6shazam10SearchPlanENS_9allocatorIS2_EEE16__init_with_sizeB9foe210106IPKS2_S8_EEvT_T0_m
++ __ZNSt3__16vectorIN6shazam10SearchPlanENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam10SongOffsetENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam11regresspairENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam12_GLOBAL__N_115compacted_peaksENS_9allocatorIS3_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam12_GLOBAL__N_115compacted_peaksENS_9allocatorIS3_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam12verifyResultENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam12verifyResultENS_9allocatorIS2_EEE7reserveEm
++ __ZNSt3__16vectorIN6shazam13sig_alignmentENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam14TrackingResultENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam14TrackingResultENS_9allocatorIS2_EEE9push_backB9foe210106ERKS2_
++ __ZNSt3__16vectorIN6shazam14density_filterINS1_15spectral_peak_tEEENS_9allocatorIS4_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam14density_filterINS1_15spectral_peak_tEEENS_9allocatorIS4_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam14density_filterINS1_15spectral_peak_tEEENS_9allocatorIS4_EEE22__base_destruct_at_endB9foe210106EPS4_
++ __ZNSt3__16vectorIN6shazam15CPULMFPDataBaseENS_9allocatorIS2_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam15CPULMFPDataBaseENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam15CPULMFPDataBaseENS_9allocatorIS2_EEE22__base_destruct_at_endB9foe210106EPS2_
++ __ZNSt3__16vectorIN6shazam15CPULMFPDataBaseENS_9allocatorIS2_EEE30__emplace_back_assume_capacityB9foe210106IJRNS1_10SearchPlanERNS0_IcNS3_IcEEEEEEEvDpOT_
++ __ZNSt3__16vectorIN6shazam15basic_signatureILNS1_17signature_densityE24EEENS_9allocatorIS4_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam15basic_signatureILNS1_17signature_densityE24EEENS_9allocatorIS4_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam15basic_signatureILNS1_17signature_densityE24EEENS_9allocatorIS4_EEE9push_backB9foe210106EOS4_
++ __ZNSt3__16vectorIN6shazam15freebird_tensorENS_9allocatorIS2_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam15freebird_tensorENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam15freebird_tensorENS_9allocatorIS2_EEE30__emplace_back_assume_capacityB9foe210106IJRKS2_EEEvDpOT_
++ __ZNSt3__16vectorIN6shazam15freebird_tensorENS_9allocatorIS2_EEE5clearB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam15freebird_tensorENS_9allocatorIS2_EEE9push_backB9foe210106ERKS2_
++ __ZNSt3__16vectorIN6shazam15spectral_peak_tENS_9allocatorIS2_EEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorIN6shazam15spectral_peak_tENS_9allocatorIS2_EEE16__init_with_sizeB9foe210106INS_11__wrap_iterIPS2_EES9_EEvT_T0_m
++ __ZNSt3__16vectorIN6shazam15spectral_peak_tENS_9allocatorIS2_EEE16__init_with_sizeB9foe210106IPS2_S7_EEvT_T0_m
++ __ZNSt3__16vectorIN6shazam15spectral_peak_tENS_9allocatorIS2_EEE18__assign_with_sizeB9foe210106IPKS2_S8_EEvT_T0_l
++ __ZNSt3__16vectorIN6shazam15spectral_peak_tENS_9allocatorIS2_EEE18__insert_with_sizeB9foe210106INS_11__wrap_iterIPKS2_EESA_EENS7_IPS2_EESA_T_T0_l
++ __ZNSt3__16vectorIN6shazam15spectral_peak_tENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam15spectral_peak_tENS_9allocatorIS2_EEE5eraseENS_11__wrap_iterIPKS2_EES9_
++ __ZNSt3__16vectorIN6shazam21signature_header_typeENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam23spectral_peak_compact_tENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam24ancient_dead_sig_point_tENS_9allocatorIS2_EEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorIN6shazam24ancient_dead_sig_point_tENS_9allocatorIS2_EEE18__assign_with_sizeB9foe210106IPKS2_S8_EEvT_T0_l
++ __ZNSt3__16vectorIN6shazam24ancient_dead_sig_point_tENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam26static_aligned_dual_bufferIfEENS_9allocatorIS3_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam26static_aligned_dual_bufferIfEENS_9allocatorIS3_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam26static_aligned_dual_bufferIfEENS_9allocatorIS3_EEE20__throw_out_of_rangeB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam26static_aligned_dual_bufferIfEENS_9allocatorIS3_EEE22__base_destruct_at_endB9foe210106EPS3_
++ __ZNSt3__16vectorIN6shazam2fpILNS1_7fp_typeE0EEENS_9allocatorIS4_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam2fpILNS1_7fp_typeE0EEENS_9allocatorIS4_EEE6resizeEm
++ __ZNSt3__16vectorIN6shazam2fpILNS1_7fp_typeE0EEENS_9allocatorIS4_EEE8__appendEm
++ __ZNSt3__16vectorIN6shazam2fpILNS1_7fp_typeE7EEENS_9allocatorIS4_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam2fpILNS1_7fp_typeE7EEENS_9allocatorIS4_EEE6resizeEm
++ __ZNSt3__16vectorIN6shazam2fpILNS1_7fp_typeE7EEENS_9allocatorIS4_EEE8__appendEm
++ __ZNSt3__16vectorIN6shazam3dsp11CrepeFramer9timeframeENS_9allocatorIS4_EEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorIN6shazam3dsp11CrepeFramer9timeframeENS_9allocatorIS4_EEE16__init_with_sizeB9foe210106INS_11__wrap_iterIPKS4_EESC_EEvT_T0_m
++ __ZNSt3__16vectorIN6shazam3dsp11CrepeFramer9timeframeENS_9allocatorIS4_EEE18__insert_with_sizeB9foe210106INS_11__wrap_iterIPKS4_EESC_EENS9_IPS4_EESC_T_T0_l
++ __ZNSt3__16vectorIN6shazam3dsp11CrepeFramer9timeframeENS_9allocatorIS4_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam3dsp11CrepeFramer9timeframeENS_9allocatorIS4_EEE9push_backB9foe210106ERKS4_
++ __ZNSt3__16vectorIN6shazam3dsp4HCQTILj2ELj6EE9timeframeENS_9allocatorIS5_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam4lmfpILNS1_7fp_typeE0EEENS_9allocatorIS4_EEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorIN6shazam4lmfpILNS1_7fp_typeE0EEENS_9allocatorIS4_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam4lmfpILNS1_7fp_typeE0EEENS_9allocatorIS4_EEEC2B9foe210106Em
++ __ZNSt3__16vectorIN6shazam4lmfpILNS1_7fp_typeE7EEENS_9allocatorIS4_EEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorIN6shazam4lmfpILNS1_7fp_typeE7EEENS_9allocatorIS4_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam4lmfpILNS1_7fp_typeE7EEENS_9allocatorIS4_EEE7reserveEm
++ __ZNSt3__16vectorIN6shazam4lmfpILNS1_7fp_typeE7EEENS_9allocatorIS4_EEEC2B9foe210106Em
++ __ZNSt3__16vectorIN6shazam6ResultENS_9allocatorIS2_EEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorIN6shazam6ResultENS_9allocatorIS2_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam6ResultENS_9allocatorIS2_EEE16__init_with_sizeB9foe210106IPS2_S7_EEvT_T0_m
++ __ZNSt3__16vectorIN6shazam6ResultENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam6ResultENS_9allocatorIS2_EEE30__emplace_back_assume_capacityB9foe210106IJRKS2_EEEvDpOT_
++ __ZNSt3__16vectorIN6shazam6ResultENS_9allocatorIS2_EEE5clearB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam6ResultENS_9allocatorIS2_EEE9push_backB9foe210106ERKS2_
++ __ZNSt3__16vectorIN6shazam7peak_tfENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam7tfmatchENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam7tfmatchENS_9allocatorIS2_EEE7reserveEm
++ __ZNSt3__16vectorIN6shazam9PeakMatchENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam9PeakMatchENS_9allocatorIS2_EEE9push_backB9foe210106ERKS2_
++ __ZNSt3__16vectorIN6shazam9fp_suffixIL8AlgoType12EEENS_9allocatorIS4_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam9fp_suffixIL8AlgoType1EEENS_9allocatorIS4_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN6shazam9time_freqENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorINS0_IN6shazam15spectral_peak_tENS_9allocatorIS2_EEEENS3_IS5_EEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorINS0_IN6shazam15spectral_peak_tENS_9allocatorIS2_EEEENS3_IS5_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorINS0_IN6shazam15spectral_peak_tENS_9allocatorIS2_EEEENS3_IS5_EEE16__init_with_sizeB9foe210106IPS5_S9_EEvT_T0_m
++ __ZNSt3__16vectorINS0_IN6shazam15spectral_peak_tENS_9allocatorIS2_EEEENS3_IS5_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorINS0_IN6shazam15spectral_peak_tENS_9allocatorIS2_EEEENS3_IS5_EEE5clearB9foe210106Ev
++ __ZNSt3__16vectorINS0_IN6shazam15spectral_peak_tENS_9allocatorIS2_EEEENS3_IS5_EEEC2B9foe210106Em
++ __ZNSt3__16vectorINS0_IN6shazam24ancient_dead_sig_point_tENS_9allocatorIS2_EEEENS3_IS5_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorINS0_IN6shazam24ancient_dead_sig_point_tENS_9allocatorIS2_EEEENS3_IS5_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorINS0_IN6shazam24ancient_dead_sig_point_tENS_9allocatorIS2_EEEENS3_IS5_EEE5clearB9foe210106Ev
++ __ZNSt3__16vectorINS0_IN6shazam7peak_tfENS_9allocatorIS2_EEEENS3_IS5_EEE13__vdeallocateEv
++ __ZNSt3__16vectorINS0_IN6shazam7peak_tfENS_9allocatorIS2_EEEENS3_IS5_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorINS0_IN6shazam7peak_tfENS_9allocatorIS2_EEEENS3_IS5_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorINS0_IN6shazam7peak_tfENS_9allocatorIS2_EEEENS3_IS5_EEE5clearB9foe210106Ev
++ __ZNSt3__16vectorINS0_IcNS_9allocatorIcEEEENS1_IS3_EEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorINS0_IcNS_9allocatorIcEEEENS1_IS3_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorINS0_IcNS_9allocatorIcEEEENS1_IS3_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorINS0_IcNS_9allocatorIcEEEENS1_IS3_EEE5clearB9foe210106Ev
++ __ZNSt3__16vectorINS0_IcNS_9allocatorIcEEEENS1_IS3_EEEC2B9foe210106Em
++ __ZNSt3__16vectorINS_10unique_ptrIN6shazam15resample_streamENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN6shazam15resample_streamENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN6shazam15resample_streamENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE22__base_destruct_at_endB9foe210106EPS6_
++ __ZNSt3__16vectorINS_4spanIKN6shazam7peak_tfELm18446744073709551615EEENS_9allocatorIS5_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorINS_6chrono8durationIfNS_5ratioILl1ELl1EEEEENS_9allocatorIS5_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorINS_6chrono8durationIjNS_5ratioILl1ELl125EEEEENS_9allocatorIS5_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorINS_6chrono8durationIxNS_5ratioILl1ELl1000EEEEENS_9allocatorIS5_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorINS_7complexIfEENS_9allocatorIS2_EEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorINS_7complexIfEENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorINS_7complexIfEENS_9allocatorIS2_EEEC2B9foe210106Em
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIcNS_9allocatorIcEEEC2B9foe210106Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE16__init_with_sizeB9foe210106INS_11__wrap_iterIPKfEES8_EEvT_T0_m
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE16__init_with_sizeB9foe210106INS_11__wrap_iterIPfEES7_EEvT_T0_m
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE16__init_with_sizeB9foe210106IPfS5_EEvT_T0_m
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE18__insert_with_sizeB9foe210106IPKfS6_EENS_11__wrap_iterIPfEENS7_IS6_EET_T0_l
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_out_of_rangeB9foe210106Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE9push_backB9foe210106ERKf
++ __ZNSt3__16vectorIfNS_9allocatorIfEEEC2B9foe210106Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEEC2B9foe210106EmRKf
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE9push_backB9foe210106EOh
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE16__init_with_sizeB9foe210106IPKjS6_EEvT_T0_m
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE9push_backB9foe210106EOj
++ __ZNSt3__16vectorIjNS_9allocatorIjEEEC2B9foe210106Em
++ __ZNSt3__16vectorImNS_9allocatorImEEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorImNS_9allocatorImEEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorImNS_9allocatorImEEE20__throw_out_of_rangeB9foe210106Ev
++ __ZNSt3__16vectorImNS_9allocatorImEEEC2B9foe210106EmRKm
++ __ZNSt3__16vectorIsNS_9allocatorIsEEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorIsNS_9allocatorIsEEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIsNS_9allocatorIsEEEC2B9foe210106Em
++ __ZNSt3__16vectorIyNS_9allocatorIyEEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__17__sort3B9foe210106INS_17_ClassicAlgPolicyERNS_7greaterIvEEPN6shazam6ResultELi0EEEbT1_S8_S8_T0_
++ __ZNSt3__17__sort4B9foe210106INS_17_ClassicAlgPolicyERN6shazam3$_0EPNS2_15spectral_peak_tELi0EEEvT1_S7_S7_S7_T0_
++ __ZNSt3__17__sort4B9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam15spectral_peak_tELi0EEEvT1_S8_S8_S8_T0_
++ __ZNSt3__17__sort5B9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam11regresspairELi0EEEvT1_S8_S8_S8_S8_T0_
++ __ZNSt3__17__sort5B9foe210106INS_17_ClassicAlgPolicyERNS_7greaterIvEEPN6shazam6ResultELi0EEEvT1_S8_S8_S8_S8_T0_
++ __ZNSt3__17__sort5B9foe210106INS_17_ClassicAlgPolicyERPDoFbRKN6shazam11xpair_groupIJNS2_12xpair_fieldsEEEES7_EPS5_Li0EEEvT1_SC_SC_SC_SC_T0_
++ __ZNSt3__17__sort5B9foe210106INS_17_ClassicAlgPolicyERZN6shazam17VerificationSweepERKNS2_13onePointQueryERKNS2_12CPUDatabasesENS_6chrono8durationIiNS_5ratioILl1ELl125EEEEERKNS2_14queryAlignmentEfhE3$_0PNS2_12verifyResultELi0EEEvT1_SL_SL_SL_SL_T0_
++ __ZNSt3__18__rotateB9foe210106INS_17_ClassicAlgPolicyENS_16reverse_iteratorINS_11__wrap_iterIPcEEEES6_EENS_4pairIT0_S8_EES8_S8_T1_
++ __ZNSt3__19__sift_upB9foe210106INS_17_ClassicAlgPolicyERN6shazam7Tracker20ComparePeakMatchLessENS_11__wrap_iterIPNS2_9PeakMatchEEEEEvT1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
++ __ZNSt3__19__sift_upB9foe210106INS_17_ClassicAlgPolicyERN6shazam7Tracker23ComparePeakMatchGreaterENS_11__wrap_iterIPNS2_9PeakMatchEEEEEvT1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
++ __ZNSt3__19__sift_upB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam11regresspairEEEvT1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
++ __ZNSt3__19__sift_upB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam15spectral_peak_tEEEvT1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
++ __ZNSt3__19__sift_upB9foe210106INS_17_ClassicAlgPolicyERNS_7greaterIvEEPN6shazam6ResultEEEvT1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
++ __ZNSt3__19__sift_upB9foe210106INS_17_ClassicAlgPolicyERPDoFbRKN6shazam11xpair_groupIJNS2_12xpair_fieldsEEEES7_EPS5_EEvT1_SC_OT0_NS_15iterator_traitsISC_E15difference_typeE
++ __ZNSt3__1plB9foe210106IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEOS9_PKS6_
++ __ZSt28__throw_bad_array_new_lengthB9foe210106v
++ __ZTINSt3__110__function6__funcIN6shazam14SpectralOutput8callbackMUlPKfmE_EFvS5_mEEE
++ __ZTINSt3__110__function6__funcIZ77-[MRE search:multipleResults:scorePenalties:threshold:skewMin:skewMax:error:]E3$_1FvRKN6shazam14SearchResponseEEEE
++ __ZTINSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0FvPKfmEEE
++ __ZTINSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EEE
++ __ZTINSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EEE
++ __ZTINSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EEE
++ __ZTINSt3__110__function6__funcIZN6shazam11get_siginfoERKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEEE
++ __ZTINSt3__110__function6__funcIZN6shazam11get_versionERKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEEE
++ __ZTINSt3__110__function6__funcIZN6shazam14SpectralOutput7disableEvE3$_0FvPKfmEEE
++ __ZTINSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEEE
++ __ZTINSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEEE
++ __ZTINSt3__110__function6__funcIZN6shazam8pairwise16audioscanCompareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_RKNS_8functionIFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEEERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0FvRKNS2_14SearchResponseEEEE
++ __ZTINSt3__110__function6__funcIZN6shazam8pairwise7compareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_NS3_9MergeModeERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0FvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEEE
++ __ZTIZ77-[MRE search:multipleResults:scorePenalties:threshold:skewMin:skewMax:error:]E3$_1
++ __ZTSNSt3__110__function6__funcIN6shazam14SpectralOutput8callbackMUlPKfmE_EFvS5_mEEE
++ __ZTSNSt3__110__function6__funcIZ77-[MRE search:multipleResults:scorePenalties:threshold:skewMin:skewMax:error:]E3$_1FvRKN6shazam14SearchResponseEEEE
++ __ZTSNSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0FvPKfmEEE
++ __ZTSNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EEE
++ __ZTSNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EEE
++ __ZTSNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EEE
++ __ZTSNSt3__110__function6__funcIZN6shazam11get_siginfoERKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEEE
++ __ZTSNSt3__110__function6__funcIZN6shazam11get_versionERKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEEE
++ __ZTSNSt3__110__function6__funcIZN6shazam14SpectralOutput7disableEvE3$_0FvPKfmEEE
++ __ZTSNSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEEE
++ __ZTSNSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEEE
++ __ZTSNSt3__110__function6__funcIZN6shazam8pairwise16audioscanCompareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_RKNS_8functionIFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEEERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0FvRKNS2_14SearchResponseEEEE
++ __ZTSNSt3__110__function6__funcIZN6shazam8pairwise7compareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_NS3_9MergeModeERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0FvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEEE
++ __ZTSZ77-[MRE search:multipleResults:scorePenalties:threshold:skewMin:skewMax:error:]E3$_1
++ __ZTVNSt3__110__function6__funcIN6shazam14SpectralOutput8callbackMUlPKfmE_EFvS5_mEEE
++ __ZTVNSt3__110__function6__funcIZ77-[MRE search:multipleResults:scorePenalties:threshold:skewMin:skewMax:error:]E3$_1FvRKN6shazam14SearchResponseEEEE
++ __ZTVNSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0FvPKfmEEE
++ __ZTVNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EEE
++ __ZTVNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EEE
++ __ZTVNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_FvSB_EEE
++ __ZTVNSt3__110__function6__funcIZN6shazam11get_siginfoERKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEEE
++ __ZTVNSt3__110__function6__funcIZN6shazam11get_versionERKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEEE
++ __ZTVNSt3__110__function6__funcIZN6shazam14SpectralOutput7disableEvE3$_0FvPKfmEEE
++ __ZTVNSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEEE
++ __ZTVNSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0FvNS2_16signature_headerEEEE
++ __ZTVNSt3__110__function6__funcIZN6shazam8pairwise16audioscanCompareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_RKNS_8functionIFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEEERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0FvRKNS2_14SearchResponseEEEE
++ __ZTVNSt3__110__function6__funcIZN6shazam8pairwise7compareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_NS3_9MergeModeERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0FvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEEE
++ __ZZN6shazam10cull_phaseIL8AlgoType12ENS_11xpair_groupIJNS_12xpair_fieldsEEEELm2ELPv0EEEvRNSt3__16vectorINS_6ResultENS6_9allocatorIS8_EEEES8_RNS7_INS_11regresspairENS9_ISD_EEEERKNS6_4spanIT0_Lm18446744073709551615EEEENKUlT_E_clINSH_IS4_Lm18446744073709551615EEEEEDaSM_
++ __ZZN6shazam10cull_phaseIL8AlgoType1ENS_11xpair_groupIJNS_12xpair_fieldsEEEELm2ELPv0EEEvRNSt3__16vectorINS_6ResultENS6_9allocatorIS8_EEEES8_RNS7_INS_11regresspairENS9_ISD_EEEERKNS6_4spanIT0_Lm18446744073709551615EEEENKUlT_E_clINSH_IS4_Lm18446744073709551615EEEEEDaSM_
++ ___50+[SHSessionStoreDaemonConnection serverConnection]_block_invoke
++ ___53+[SHSessionStoreDaemonConnection uiServiceConnection]_block_invoke
++ ___73-[SHShazamKitServiceConnection removeRematchedResults:completionHandler:]_block_invoke
++ ___75-[SHShazamKitServiceConnection fetchRematchedResultsWithCompletionHandler:]_block_invoke
++ ___83-[SHShazamKitServiceConnection fetchPendingRematchSignaturesWithCompletionHandler:]_block_invoke
++ ___91-[SHShazamKitUIServiceConnection scheduleRematchNotificationWithResults:completionHandler:]_block_invoke
++ ___block_literal_global.127
++ ___block_literal_global.62
++ ___block_literal_global.70
++ ___swift_allocate_boxed_opaque_existential_0
++ ___swift_instantiateGenericMetadata
++ ___unnamed_6
++ __swift_stdlib_bridgeErrorToNSError
++ _associated conformance 9ShazamKit9SHArtworkVSHAASQ
++ _block_copy_helper.1
++ _block_copy_helper.10
++ _block_copy_helper.14
++ _block_copy_helper.16
++ _block_copy_helper.7
++ _block_descriptor.12
++ _block_descriptor.16
++ _block_descriptor.18
++ _block_descriptor.3
++ _block_descriptor.9
++ _block_destroy_helper.11
++ _block_destroy_helper.15
++ _block_destroy_helper.17
++ _block_destroy_helper.2
++ _block_destroy_helper.8
++ _malloc_type_malloc
++ _objc_msgSend$JSONObjectWithData:options:error:
++ _objc_msgSend$URLWithWidth:height:cropStyle:format:
++ _objc_msgSend$_localizedAttributionForLibraryItem:
++ _objc_msgSend$_shouldAddSignatureForMatching:
++ _objc_msgSend$_shouldNotifySessionFinishedForResponse:
++ _objc_msgSend$_shouldRejectSignature:
++ _objc_msgSend$addReferenceSignature:representingMediaItems:error:
++ _objc_msgSend$appleAccountUserDefaults
++ _objc_msgSend$artwork
++ _objc_msgSend$cancel
++ _objc_msgSend$childMatcher
++ _objc_msgSend$compareQuerySignature:withReferenceSignature:trackerBucketSeconds:trackerThreshold:trackerBoundingBox:forwardPassOnly:singlePassOnly:thinReferenceSignature:refineStartEnd:error:
++ _objc_msgSend$currentInstallationID
++ _objc_msgSend$dataWithJSONObject:options:error:
++ _objc_msgSend$defaultCachedInstallationID
++ _objc_msgSend$fetchPendingRematchSignaturesWithCompletionHandler:
++ _objc_msgSend$fetchRawSongResponseData
++ _objc_msgSend$fetchRematchedResultsWithCompletionHandler:
++ _objc_msgSend$initOneTimeRequestWithRequestID:
++ _objc_msgSend$initWithChildMatcher:
++ _objc_msgSend$initWithDeadline:requestID:
++ _objc_msgSend$initWithMinimumSignatureDuration:maximumSignatureDuration:bufferDuration:
++ _objc_msgSend$initWithMinimumSignatureDuration:maximumSignatureDuration:bufferDuration:signatureGenerator:
++ _objc_msgSend$initWithRequestID:notifications:deadline:storeSignatureOnNoMatch:enableLiveActivity:
++ _objc_msgSend$initWithResultsLimit:filterOptions:ascending:shouldUpdate:excludeCloudMetadata:
++ _objc_msgSend$initWithSignature:installationID:deadline:requestID:
++ _objc_msgSend$initWithSignature:match:error:
++ _objc_msgSend$initWithSignatures:density:algorithm:databasePeakDensity:bufferSize:skipPrefixTable:error:
++ _objc_msgSend$initWithSignatures:installationID:
++ _objc_msgSend$initWithSignatures:installationID:deadline:requestID:
++ _objc_msgSend$initWithStopCondition:requestType:requestID:installationID:
++ _objc_msgSend$initWithSuiteName:
++ _objc_msgSend$isEqualArtwork:
++ _objc_msgSend$isLiveActivityAvailable
++ _objc_msgSend$isMatching
++ _objc_msgSend$matchSignatures:
++ _objc_msgSend$matchWithCallback:
++ _objc_msgSend$mediaItemValue
++ _objc_msgSend$mreBufferSizeIsDefault
++ _objc_msgSend$mreSkipPrefixTable
++ _objc_msgSend$multipleResults
++ _objc_msgSend$newBackgroundColor
++ _objc_msgSend$newPrimaryTextColor
++ _objc_msgSend$newQuarternaryTextColor
++ _objc_msgSend$newSecondaryTextColor
++ _objc_msgSend$newTertiaryTextColor
++ _objc_msgSend$pendingSignatures
++ _objc_msgSend$prepareWithCompletionHandler:
++ _objc_msgSend$processNextSignature
++ _objc_msgSend$referenceMatch
++ _objc_msgSend$referenceSignatureForID:
++ _objc_msgSend$rematchedResultsWithCompletionHandler:
++ _objc_msgSend$removeItem:
++ _objc_msgSend$removeLastObject
++ _objc_msgSend$removeRematchedResults:completionHandler:
++ _objc_msgSend$removeSignatureWithID:error:
++ _objc_msgSend$reverseObjectEnumerator
++ _objc_msgSend$scheduleRematchNotificationWithResults:completionHandler:
++ _objc_msgSend$scorePenalties
++ _objc_msgSend$search:multipleResults:scorePenalties:threshold:skewMin:skewMax:error:
++ _objc_msgSend$setCurrentInstallationID:
++ _objc_msgSend$setCurrentRequestID:
++ _objc_msgSend$setEnableLiveActivity:
++ _objc_msgSend$setMreBufferSizeIsDefault:
++ _objc_msgSend$setMreSkipPrefixTable:
++ _objc_msgSend$setMultipleResults:
++ _objc_msgSend$setPendingSignatures:
++ _objc_msgSend$setRefineStartEnd:
++ _objc_msgSend$setScorePenalties:
++ _objc_msgSend$setSendNotifications:
++ _objc_msgSend$setSessionResponseCallback:
++ _objc_msgSend$setSignatureBatchMatcher:
++ _objc_msgSend$setSkewMax:
++ _objc_msgSend$setSkewMin:
++ _objc_msgSend$setStoreSignatureOnNoMatch:
++ _objc_msgSend$setSupportsVerificationSweep:
++ _objc_msgSend$setThinReferenceSignature:
++ _objc_msgSend$setThreshold:
++ _objc_msgSend$sh_containsInternetConnectionError
++ _objc_msgSend$shouldUseLiveActivity
++ _objc_msgSend$signatureBatchMatcher
++ _objc_msgSend$signatureForRequest:
++ _objc_msgSend$singleMatchWithCompletionHandler:
++ _objc_msgSend$skewMax
++ _objc_msgSend$skewMin
++ _objc_msgSend$startRecordRequest:
++ _objc_msgSend$startRequestWithMatcher:
++ _objc_msgSend$startSignatureGenerationRequest:
++ _objc_msgSend$startSignatureMatchRequest:
++ _objc_msgSend$storeSignatureOnNoMatch
++ _objc_msgSend$stringByRemovingPercentEncoding
++ _objc_msgSend$supportsVerificationSweep
++ _objc_msgSend$sweepDatabaseSignature:QuerySignature:sweepLength:initialOffset:timeSkew:frequencySkew:thresholdMultiplier:boundingBox:error:
++ _objc_msgSend$targetArtworkImageSizeFromTargetWidth:height:aspectRatio:
++ _objc_msgSend$thinReferenceSignature
++ _objc_msgSend$threshold
++ _objc_msgSend$trackChanges
++ _objc_msgSend$trackerBoundingBox
++ _objc_msgSend$trackerBucketSeconds
++ _objc_msgSend$trackerThreshold
++ _objc_msgSend$transformLocationCoordinateValue:shouldSerialize:
++ _objc_msgSend$uiServiceConnection
++ _objc_msgSend$underlyingErrors
++ _objc_msgSend$urlWithURLTemplate:width:height:cropStyle:format:
++ _snprintf
++ _swift_allocBox
++ _swift_checkMetadataState
++ _swift_cvw_allocateGenericValueMetadataWithLayoutString
++ _swift_cvw_instantiateLayoutString
++ _swift_getGenericMetadata
++ _swift_release_n
++ _swift_task_isCurrentExecutor
++ _swift_task_reportUnexpectedExecutor
++ _symbolic SaySo11SHSignatureCG
++ _symbolic SaySo15SHSessionResultCG
++ _symbolic Say_____y_x_GG So11SHSignatureC9ShazamKitE10ComparisonO10ComparableV
++ _symbolic ScCySaySo11SHSignatureCG______pG s5ErrorP
++ _symbolic ScCySaySo15SHSessionResultCG______pG s5ErrorP
++ _symbolic ScCySb______pG s5ErrorP
++ _symbolic So8NSObjectCSg
++ _symbolic _____ 9ShazamKit19ResourceBundleClass33_2F6BC5861FE4C579328143AC9DE19FB0LLC
++ _symbolic _____ 9ShazamKit19ResourceBundleClass33_51DA407C08E019BDCEC762F125F5B9D2LLC
++ _symbolic _____ So11SHSignatureC9ShazamKitE10ComparisonO
++ _symbolic _____ So11SHSignatureC9ShazamKitE10ComparisonO10ComparableV
++ _symbolic _____ So11SHSignatureC9ShazamKitE12CompareQueryV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So9SHSessionC9ShazamKitE6ResultO
++ _symbolic _____y_____y_Sd_GG s23_ContiguousArrayStorageC So11SHSignatureC9ShazamKitE10ComparisonO10ComparableV
++ _symbolic _____y_____y_SnySdG_GG s23_ContiguousArrayStorageC So11SHSignatureC9ShazamKitE10ComparisonO10ComparableV
++ _symbolic _____y_xGSo11SHSignatureC_ADtYaKc So11SHSignatureC9ShazamKitE10ComparisonO
++ _symbolic x
++ _type_layout_string s8SendableRzlSo11SHSignatureC9ShazamKitE10ComparisonOy_xG
++ _type_layout_string s8SendableRzlSo11SHSignatureC9ShazamKitE12CompareQueryVy_xG
++ _uiServiceConnection.onceToken
++ _uiServiceConnection.uiServiceConnection
+- +[SHArtwork urlWithURLTemplate:width:height:]
+- +[SHContinuityTracker trackQuerySignature:inReferenceSignature:usingMergePolicy:configuration:error:]
+- +[SHMatcherRequest requestOnceWithAppIntentForRequestID:]
+- +[SHMatcherRequest requestOnceWithNotifications:]
+- +[SHMatcherRequest requestOnceWithNotifications:forRequestID:]
+- +[SHMatcherRequest requestSignatureGenerationOnceForRequestID:]
+- +[SHMatcherRequest requestSignatureGenerationOnce]
+- +[SHMatcherRequest requestSignatureGenerationUntilDeadline:]
+- +[SHMatcherRequest requestSignatureGenerationUntilDeadline:forRequestID:]
+- +[SHMatcherRequest requestToMatchSignature:installationID:sendNotifications:]
+- +[SHMatcherRequest requestToMatchSignature:installationID:sendNotifications:forRequestID:]
+- +[SHMatcherRequest requestToMatchUntilDeadline:sendNotifications:]
+- +[SHMatcherRequest requestToMatchUntilDeadline:sendNotifications:forRequestID:]
+- +[SHMatcherRequest requestUntilMatchWithNotifications:]
+- +[SHMatcherRequest requestUntilMatchWithNotifications:forRequestID:]
+- +[SignatureAlignmentTracker compareQuerySignature:withReferenceSignature:mergeMode:numHistogramBuckets:scoreThreshold:boundingBox:frequencyPenaltyMultiplier:forwardPassOnly:singlePassOnly:refineStartEnd:queryThreshold:error:]
+- -[MRE search:error:].cold.1
+- -[MRE search:error:].cold.2
+- -[SHCustomCatalog removeReferenceSignatureWithID:]
+- -[SHCustomCatalogMatcher startRecognitionForRequest:]
+- -[SHCustomCatalogMemoryContainer removeSignatureWithID:]
+- -[SHCustomCatalogMemoryStorage removeSignatureWithID:]
+- -[SHCustomCatalogTrackerMatcher startRecognitionForRequest:]
+- -[SHJSONLCustomCatalogContainer removeSignatureWithID:]
+- -[SHManagedSessionCustomCatalogMatcher startRecognitionForRequest:]
+- -[SHMatcherRequest deadline]
+- -[SHMatcherRequest hasHitDeadline]
+- -[SHMatcherRequest initWithSignature:deadline:installationID:sendNotifications:stopCondition:requestType:requestID:]
+- -[SHMatcherRequest initWithSignature:deadline:sendNotifications:stopCondition:requestType:requestID:]
+- -[SHMatcherRequest sendNotifications]
+- -[SHMatcherRequest signature]
+- -[SHMediaItem artworkDictionary]
+- -[SHMediaItem artworkURLForSize:]
+- -[SHMediaItem targetArtworkImageSizeFromTargetSize:aspectRatio:]
+- -[SHMediaTimelineCustomCatalogMatcher startRecognitionForRequest:]
+- GCC_except_table115
+- GCC_except_table123
+- GCC_except_table125
+- GCC_except_table129
+- GCC_except_table135
+- GCC_except_table143
+- GCC_except_table150
+- GCC_except_table155
+- GCC_except_table157
+- GCC_except_table158
+- GCC_except_table159
+- GCC_except_table160
+- GCC_except_table165
+- GCC_except_table171
+- GCC_except_table172
+- GCC_except_table174
+- GCC_except_table190
+- GCC_except_table33
+- GCC_except_table34
+- GCC_except_table35
+- GCC_except_table36
+- GCC_except_table39
+- GCC_except_table40
+- GCC_except_table43
+- GCC_except_table58
+- GCC_except_table59
+- GCC_except_table61
+- GCC_except_table64
+- GCC_except_table66
+- GCC_except_table68
+- GCC_except_table70
+- GCC_except_table72
+- GCC_except_table76
+- GCC_except_table78
+- GCC_except_table80
+- GCC_except_table88
+- GCC_except_table93
+- _OBJC_IVAR_$_SHCustomCatalogConfiguration._boundingBox
+- _OBJC_IVAR_$_SHCustomCatalogConfiguration._numHistogramBuckets
+- _OBJC_IVAR_$_SHCustomCatalogConfiguration._scoreThreshold
+- _OBJC_IVAR_$_SHMatcherRequest._deadline
+- _OBJC_IVAR_$_SHMatcherRequest._sendNotifications
+- _OBJC_IVAR_$_SHMatcherRequest._signature
+- _SHMediaItemArtworkDictionary
+- __Z10preProcessRKN3gsl4spanIKfLm18446744073709551615EEE
+- __Z23find_sparsity_thresholdN3gsl4spanIfLm18446744073709551615EEEf
+- __Z26octave_frequencies_lengthsN3gsl4spanIfLm18446744073709551615EEEtf
+- __Z7sum_absN3gsl4spanINSt3__17complexIfEELm18446744073709551615EEE
+- __ZGVZN6shazam12get_os_timerEvE9_os_timer
+- __ZN12_GLOBAL__N_112decode_peaksEPKN6shazam23spectral_peak_compact_tEmNS0_17signature_densityENSt3__16chrono8durationIhNS5_5ratioILl1ELl125EEEEE
+- __ZN12_GLOBAL__N_119type_from_magic_keyEN3gsl4spanIKcLm18446744073709551615EEE
+- __ZN12_GLOBAL__N_120find_packed_sig_typeEN3gsl4spanIKcLm18446744073709551615EEE
+- __ZN12_GLOBAL__N_128inflate_basic_sumo_peak_dataEN3gsl4spanIKcLm18446744073709551615EEEN6shazam17signature_densityENSt3__16chrono8durationIhNS6_5ratioILl1ELl125EEEEE
+- __ZN18CoreMLFeatureModel12runInferenceEN3gsl4spanIKfLm18446744073709551615EEE
+- __ZN21BNNSGraphFeatureModel12runInferenceEN3gsl4spanIKfLm18446744073709551615EEE
+- __ZN3gsl12final_actionIZN6shazam2io4packERNSt3__16vectorIcNS3_9allocatorIcEEEERKNS1_17basic_signature_tEE3$_0ED1Ev
+- __ZN3gsl4spanIKN6shazam15spectral_peak_tELm18446744073709551615EE12storage_typeINS_7details11extent_typeILm18446744073709551615EEEEC2ImEEPS3_T_
+- __ZN3gsl4spanIKN6shazam15spectral_peak_tELm18446744073709551615EEC1ILm18446744073709551615ENSt3__16vectorIS2_NS6_9allocatorIS2_EEEELi0EEERKT0_
+- __ZN3gsl4spanIKN6shazam15spectral_peak_tELm18446744073709551615EEC2ILm18446744073709551615ELi0EEEPS3_S6_
+- __ZN3gsl4spanIKN6shazam7peak_tfELm18446744073709551615EE12storage_typeINS_7details11extent_typeILm18446744073709551615EEEEC2ImEEPS3_T_
+- __ZN3gsl4spanIKN6shazam7peak_tfELm18446744073709551615EEC2ILm18446744073709551615ELi0EEEPS3_S6_
+- __ZN3gsl4spanIfLm18446744073709551615EE12storage_typeINS_7details11extent_typeILm18446744073709551615EEEEC2ImEEPfT_
+- __ZN3gsl4spanIfLm18446744073709551615EEC1ILm18446744073709551615ENSt3__16vectorIfNS3_9allocatorIfEEEELi0EEERT0_
+- __ZN3gsl7details13span_iteratorIKN6shazam15spectral_peak_tEEpLEl
+- __ZN3gsl7details13span_iteratorIKN6shazam15spectral_peak_tEEppEv
+- __ZN3gsl7details13span_iteratorIKN6shazam23spectral_peak_compact_tEEppEv
+- __ZN3gsl7details13span_iteratorIKN6shazam3dsp4HCQTILj2ELj6EE9timeframeEEppEv
+- __ZN3gsl7details13span_iteratorIKN6shazam4lmfpILNS2_7fp_typeE0EEEEppEv
+- __ZN3gsl7details13span_iteratorIKN6shazam7tfmatchEEppEv
+- __ZN3gsl7details13span_iteratorIKfEppEv
+- __ZN3gsl7details13span_iteratorIN6shazam11regresspairEEppEv
+- __ZN3gsl7details13span_iteratorIN6shazam11xpair_groupIJNS2_12xpair_fieldsEEEEEmIEl
+- __ZN3gsl7details13span_iteratorIN6shazam11xpair_groupIJNS2_12xpair_fieldsEEEEEmmEv
+- __ZN3gsl7details13span_iteratorIN6shazam11xpair_groupIJNS2_12xpair_fieldsEEEEEpLEl
+- __ZN3gsl7details13span_iteratorIN6shazam11xpair_groupIJNS2_12xpair_fieldsEEEEEppEv
+- __ZN3gsl7details13span_iteratorIN6shazam4lmfpILNS2_7fp_typeE0EEEEppEv
+- __ZN3gsl7details13span_iteratorINSt3__17complexIfEEEppEv
+- __ZN3gsl7details13span_iteratorIfEppEv
+- __ZN3gsl7details9terminateEv
+- __ZN3gsl9make_spanIKN6shazam23spectral_peak_compact_tEEENS_4spanIT_Lm18446744073709551615EEEPS5_NS6_9size_typeE
+- __ZN3gsl9make_spanIKcEENS_4spanIT_Lm18446744073709551615EEEPS3_NS4_9size_typeE
+- __ZN3gsl9make_spanIKfEENS_4spanIT_Lm18446744073709551615EEEPS3_NS4_9size_typeE
+- __ZN3gsl9make_spanINSt3__16vectorIN6shazam11regresspairENS1_9allocatorIS4_EEEEEENS_4spanINT_10value_typeELm18446744073709551615EEERS9_
+- __ZN3gsl9make_spanINSt3__16vectorIN6shazam15spectral_peak_tENS1_9allocatorIS4_EEEEEENS_4spanIKNT_10value_typeELm18446744073709551615EEERKS9_
+- __ZN3gsl9make_spanINSt3__16vectorIN6shazam4lmfpILNS3_7fp_typeE0EEENS1_9allocatorIS6_EEEEEENS_4spanIKNT_10value_typeELm18446744073709551615EEERKSB_
+- __ZN3gsl9make_spanINSt3__16vectorIN6shazam7tfmatchENS1_9allocatorIS4_EEEEEENS_4spanIKNT_10value_typeELm18446744073709551615EEERKS9_
+- __ZN3gsl9make_spanINSt3__16vectorINS1_7complexIfEENS1_9allocatorIS4_EEEEEENS_4spanINT_10value_typeELm18446744073709551615EEERS9_
+- __ZN3gsl9make_spanINSt3__16vectorIjNS1_9allocatorIjEEEEEENS_4spanIKNT_10value_typeELm18446744073709551615EEERKS7_
+- __ZN3gsl9make_spanINSt3__17complexIfEEEENS_4spanIT_Lm18446744073709551615EEEPS5_NS6_9size_typeE
+- __ZN3gsl9make_spanIcEENS_4spanIT_Lm18446744073709551615EEEPS2_NS3_9size_typeE
+- __ZN3gsl9make_spanIfEENS_4spanIT_Lm18446744073709551615EEEPS2_NS3_9size_typeE
+- __ZN3gsl9make_spanIsEENS_4spanIT_Lm18446744073709551615EEEPS2_NS3_9size_typeE
+- __ZN6shazam10bin_tracksINS_11xpair_groupIJNS_12xpair_fieldsEEEEEEvRKN3gsl4spanIKjLm18446744073709551615EEERNS5_IT_Lm18446744073709551615EEERNSt3__16vectorINS_10SongOffsetENSD_9allocatorISF_EEEE
+- __ZN6shazam10cull_phaseIL8AlgoType12ENS_11xpair_groupIJNS_12xpair_fieldsEEEELm2ELPv0EEEvRNSt3__16vectorINS_6ResultENS6_9allocatorIS8_EEEES8_RNS7_INS_11regresspairENS9_ISD_EEEERKN3gsl4spanIT0_Lm18446744073709551615EEE
+- __ZN6shazam10cull_phaseIL8AlgoType1ENS_11xpair_groupIJNS_12xpair_fieldsEEEELm2ELPv0EEEvRNSt3__16vectorINS_6ResultENS6_9allocatorIS8_EEEES8_RNS7_INS_11regresspairENS9_ISD_EEEERKN3gsl4spanIT0_Lm18446744073709551615EEE
+- __ZN6shazam10element_opINSt3__17complexIfEEZNS_3dsp4HCQTILj2ELj6EEC1EjfbEUlRT_E_EEvN3gsl4spanIS7_Lm18446744073709551615EEERKT0_
+- __ZN6shazam10element_opIfZNS_3dsp4HCQTILj2ELj6EEC1EjfbEUlRT_E0_EEvN3gsl4spanIS4_Lm18446744073709551615EEERKT0_
+- __ZN6shazam11match_peaksEN3gsl4spanIKNS_7peak_tfELm18446744073709551615EEERKNSt3__16vectorIS2_NS5_9allocatorIS2_EEEEffiRNS6_INS_7tfmatchENS7_ISC_EEEEh
+- __ZN6shazam11score_matchERKNSt3__16vectorINS_7tfmatchENS0_9allocatorIS2_EEEE
+- __ZN6shazam11shearfactorIL8AlgoType12ENS_11xpair_groupIJNS_12xpair_fieldsEEEELPv0EEEvRKN3gsl4spanIT0_Lm18446744073709551615EEERfSC_
+- __ZN6shazam11shearfactorIL8AlgoType1ENS_11xpair_groupIJNS_12xpair_fieldsEEEELPv0EEEvRKN3gsl4spanIT0_Lm18446744073709551615EEERfSC_
+- __ZN6shazam12getLandmarksIL8AlgoType12EEENSt3__16vectorIjNS2_9allocatorIjEEEERKN3gsl4spanINS_4lmfpIXsr4algoIXT_EEE6fpTypeEEELm18446744073709551615EEE
+- __ZN6shazam12getLandmarksIL8AlgoType1EEENSt3__16vectorIjNS2_9allocatorIjEEEERKN3gsl4spanINS_4lmfpIXsr4algoIXT_EEE6fpTypeEEELm18446744073709551615EEE
+- __ZN6shazam12get_os_timerEv.cold.1
+- __ZN6shazam14SpectralOutput6enableEiiRKNSt3__18functionIFvPKfmEEE
+- __ZN6shazam14focus_multipleILl2ENS_11xpair_groupIJNS_12xpair_fieldsEEEEPDoFfRKS3_EZNS_11CPUSearcher6searchIL8AlgoType12ES3_EEvRKNS_12SongDataBaseERKNS_16CPUOnePtDatabaseERKNS_15CPULMFPDataBaseERKNS_5QueryIXT_ENSt3__16vectorINS_4lmfpIXsr4algoIXT_EEE6fpTypeEEENSL_9allocatorISO_EEEEEERKNS_11QueryConfigEmNSL_6chrono10time_pointINSY_12steady_clockENSY_8durationIxNSL_5ratioILl1ELl1000000000EEEEEEERKNSL_8functionIFvRKNS_14SearchResponseEEEEEUlRKT_E_EEvN3gsl4spanIT0_Lm18446744073709551615EEExT1_T2_
+- __ZN6shazam14focus_multipleILl2ENS_11xpair_groupIJNS_12xpair_fieldsEEEEPDoFfRKS3_EZNS_11CPUSearcher6searchIL8AlgoType1ES3_EEvRKNS_12SongDataBaseERKNS_16CPUOnePtDatabaseERKNS_15CPULMFPDataBaseERKNS_5QueryIXT_ENSt3__16vectorINS_4lmfpIXsr4algoIXT_EEE6fpTypeEEENSL_9allocatorISO_EEEEEERKNS_11QueryConfigEmNSL_6chrono10time_pointINSY_12steady_clockENSY_8durationIxNSL_5ratioILl1ELl1000000000EEEEEEERKNSL_8functionIFvRKNS_14SearchResponseEEEEEUlRKT_E_EEvN3gsl4spanIT0_Lm18446744073709551615EEExT1_T2_
+- __ZN6shazam14genPrefixTableIL8AlgoType12EEENSt3__16vectorIjNS2_9allocatorIjEEEERKN3gsl4spanINS_4lmfpIXsr4algoIXT_EEE6fpTypeEEELm18446744073709551615EEE
+- __ZN6shazam14genPrefixTableIL8AlgoType1EEENSt3__16vectorIjNS2_9allocatorIjEEEERKN3gsl4spanINS_4lmfpIXsr4algoIXT_EEE6fpTypeEEELm18446744073709551615EEE
+- __ZN6shazam15CPULMFPDataBaseC2ERKNS_10SearchPlanEN3gsl4spanIcLm18446744073709551615EEE
+- __ZN6shazam15ShazamKitHeader3popEN3gsl4spanIKcLm18446744073709551615EEE
+- __ZN6shazam15ShazamKitHeader8validateEN3gsl4spanIKcLm18446744073709551615EEE
+- __ZN6shazam15getLMFPSuffixesIL8AlgoType12EEENSt3__16vectorIcNS2_9allocatorIcEEEERKN3gsl4spanINS_4lmfpIXsr4algoIXT_EEE6fpTypeEEELm18446744073709551615EEE
+- __ZN6shazam15getLMFPSuffixesIL8AlgoType1EEENSt3__16vectorIcNS2_9allocatorIcEEEERKN3gsl4spanINS_4lmfpIXsr4algoIXT_EEE6fpTypeEEELm18446744073709551615EEE
+- __ZN6shazam15iterate_headersINS_25fp_data_header_extern_newEEEvN3gsl4spanIKcLm18446744073709551615EEERKNSt3__18functionIFvNS_16signature_headerEEEE
+- __ZN6shazam15iterate_headersINS_28fp_data_header_extern_legacyEEEvN3gsl4spanIKcLm18446744073709551615EEERKNSt3__18functionIFvNS_16signature_headerEEEE
+- __ZN6shazam17FatHeaderIteratorEN3gsl4spanIKcLm18446744073709551615EEERKNSt3__18functionIFvNS_16signature_headerEEEE
+- __ZN6shazam17StaticCPUSearcher6searchERKNSt3__16vectorINS_15basic_signatureILNS_17signature_densityE24EEENS1_9allocatorIS5_EEEEmmRKNS_19QueryConfigProviderENS1_8functionIFvRKNS_14SearchResponseEEEE
+- __ZN6shazam17match_single_peakEN3gsl4spanIKNS_7peak_tfELm18446744073709551615EEERS3_ffihhRm
+- __ZN6shazam17reinterpret_saferIPKNS_11SumoSigInfoELi0EEET_RKN3gsl4spanIKcLm18446744073709551615EEE
+- __ZN6shazam17reinterpret_saferIPKNS_13ClusterCmdPktELi0EEET_RKN3gsl4spanIKcLm18446744073709551615EEE
+- __ZN6shazam17reinterpret_saferIPKNS_13multisig_infoELi0EEET_RKN3gsl4spanIKcLm18446744073709551615EEE
+- __ZN6shazam17reinterpret_saferIPKNS_15ShazamKitHeaderELi0EEET_RKN3gsl4spanIKcLm18446744073709551615EEE
+- __ZN6shazam17reinterpret_saferIPKNS_15freebird_headerELi0EEET_RKN3gsl4spanIKcLm18446744073709551615EEE
+- __ZN6shazam17reinterpret_saferIPKNS_15legacy_sig_infoELi0EEET_RKN3gsl4spanIKcLm18446744073709551615EEE
+- __ZN6shazam17reinterpret_saferIPKNS_15spectral_peak_tELi0EEET_RKN3gsl4spanIKcLm18446744073709551615EEE
+- __ZN6shazam17reinterpret_saferIPKNS_16LegacyFatSigInfoELi0EEET_RKN3gsl4spanIKcLm18446744073709551615EEE
+- __ZN6shazam17reinterpret_saferIPKNS_23spectral_peak_compact_tELi0EEET_RKN3gsl4spanIKcLm18446744073709551615EEE
+- __ZN6shazam17reinterpret_saferIPKNS_24ancient_dead_sig_point_tELi0EEET_RKN3gsl4spanIKcLm18446744073709551615EEE
+- __ZN6shazam17reinterpret_saferIPKNS_25fp_data_header_extern_newELi0EEET_RKN3gsl4spanIKcLm18446744073709551615EEE
+- __ZN6shazam17reinterpret_saferIPKNS_28fp_data_header_extern_legacyELi0EEET_RKN3gsl4spanIKcLm18446744073709551615EEE
+- __ZN6shazam17reinterpret_saferIPKjLi0EEET_RKN3gsl4spanIKcLm18446744073709551615EEE
+- __ZN6shazam18SumoHeaderIteratorEN3gsl4spanIKcLm18446744073709551615EEERKNSt3__18functionIFvNS_16signature_headerEEEE
+- __ZN6shazam19search_fingerprintsIL8AlgoType12ENS_11xpair_groupIJNS_12xpair_fieldsEEEEEEN3gsl4spanIT0_Lm18446744073709551615EEENS6_IKNS_9fp_suffixIXT_EEELm18446744073709551615EEERKNSt3__16vectorIjNSD_9allocatorIjEEEENS6_IKNS_4lmfpIXsr4algoIXT_EEE6fpTypeEEELm18446744073709551615EEESJ_ffNS_13virtual_arrayIS7_EE
+- __ZN6shazam19search_fingerprintsIL8AlgoType1ENS_11xpair_groupIJNS_12xpair_fieldsEEEEEEN3gsl4spanIT0_Lm18446744073709551615EEENS6_IKNS_9fp_suffixIXT_EEELm18446744073709551615EEERKNSt3__16vectorIjNSD_9allocatorIjEEEENS6_IKNS_4lmfpIXsr4algoIXT_EEE6fpTypeEEELm18446744073709551615EEESJ_ffNS_13virtual_arrayIS7_EE
+- __ZN6shazam21ClusterCmdPktIteratorEN3gsl4spanIKcLm18446744073709551615EEERKNSt3__18functionIFvNS_16signature_headerEEEE
+- __ZN6shazam21packed_signature_viewC1EN3gsl4spanIKcLm18446744073709551615EEE
+- __ZN6shazam22FreebirdHeaderIteratorEN3gsl4spanIKcLm18446744073709551615EEERKNSt3__18functionIFvNS_16signature_headerEEEE
+- __ZN6shazam22MultiSigHeaderIteratorEN3gsl4spanIKcLm18446744073709551615EEERKNSt3__18functionIFvNS_16signature_headerEEEE
+- __ZN6shazam22xpairs_to_regresspairsINS_11xpair_groupIJNS_12xpair_fieldsEEEEEEvN3gsl4spanIT_Lm18446744073709551615EEEfRNSt3__16vectorINS_11regresspairENS8_9allocatorISA_EEEE
+- __ZN6shazam23ShazamKitHeaderIteratorEN3gsl4spanIKcLm18446744073709551615EEERKNSt3__18functionIFvNS_16signature_headerEEEE
+- __ZN6shazam24FFT_implementation_apple5fftriERKN3gsl4spanINSt3__17complexIfEELm18446744073709551615EEENS2_IfLm18446744073709551615EEE
+- __ZN6shazam25binary_fingerprint_searchIL8AlgoType12EEElN3gsl4spanIKNS_9fp_suffixIXT_EEELm18446744073709551615EEEllmRS6_
+- __ZN6shazam25binary_fingerprint_searchIL8AlgoType1EEElN3gsl4spanIKNS_9fp_suffixIXT_EEELm18446744073709551615EEEllmRS6_
+- __ZN6shazam3ccp25validateNextClusterCmdPktERKN3gsl4spanIKcLm18446744073709551615EEEPKNS_13ClusterCmdPktEmm
+- __ZN6shazam3ccp26validateFirstClusterCmdPktERKN3gsl4spanIKcLm18446744073709551615EEE
+- __ZN6shazam3dsp11CrepeFramer4flowEN3gsl4spanIfLm18446744073709551615EEE
+- __ZN6shazam3dsp11build_basisEN3gsl4spanIfLm18446744073709551615EEEtffRmRNSt3__16vectorINS5_7complexIfEENS5_9allocatorIS8_EEEE
+- __ZN6shazam3dsp11cascade_buf4flowEN3gsl4spanIfLm18446744073709551615EEE
+- __ZN6shazam3dsp11vDSP_matmulERKN3gsl4spanINSt3__17complexIfEELm18446744073709551615EEES8_mRNS3_6vectorIS5_NS3_9allocatorIS5_EEEEmm
+- __ZN6shazam3dsp16FeatureExtractor4flowEN3gsl4spanIfLm18446744073709551615EEE
+- __ZN6shazam3dsp16FeatureExtractor4flowEN3gsl4spanIsLm18446744073709551615EEE
+- __ZN6shazam3dsp16FeatureExtractor7subflowEN3gsl4spanIfLm18446744073709551615EEE
+- __ZN6shazam3dsp4HCQTILj2ELj6EE11scale_to_dbEN3gsl4spanIKNS2_9timeframeELm18446744073709551615EEERfRNSt3__16vectorIS5_NS9_9allocatorIS5_EEEE
+- __ZN6shazam3dsp4HCQTILj2ELj6EE4flowEN3gsl4spanIfLm18446744073709551615EEE
+- __ZN6shazam3dsp6matmulERKN3gsl4spanINSt3__17complexIfEELm18446744073709551615EEES8_mRNS3_6vectorIS5_NS3_9allocatorIS5_EEEE
+- __ZN6shazam5QueryIL8AlgoType12ENSt3__16vectorINS_4lmfpILNS_7fp_typeE0EEENS2_9allocatorIS6_EEEEEC2ERKNS_15basic_signatureILNS_17signature_densityE24EEERKNS_9SkewRangeEOS9_
+- __ZN6shazam5QueryIL8AlgoType12ENSt3__16vectorINS_4lmfpILNS_7fp_typeE0EEENS2_9allocatorIS6_EEEEED2Ev
+- __ZN6shazam5audio7downMixIfEEvPT_mm
+- __ZN6shazam5focusILl2ENS_11regresspairEPDoFfRKS1_EZZNS_10cull_phaseIL8AlgoType12ENS_11xpair_groupIJNS_12xpair_fieldsEEEELm2ELPv0EEEvRNSt3__16vectorINS_6ResultENSC_9allocatorISE_EEEESE_RNSD_IS1_NSF_IS1_EEEERKN3gsl4spanIT0_Lm18446744073709551615EEEENKUlT_E_clINSN_ISA_Lm18446744073709551615EEEEEDaSS_EUlSS_E_EEvSP_xT1_T2_
+- __ZN6shazam5focusILl2ENS_11regresspairEPDoFfRKS1_EZZNS_10cull_phaseIL8AlgoType1ENS_11xpair_groupIJNS_12xpair_fieldsEEEELm2ELPv0EEEvRNSt3__16vectorINS_6ResultENSC_9allocatorISE_EEEESE_RNSD_IS1_NSF_IS1_EEEERKN3gsl4spanIT0_Lm18446744073709551615EEEENKUlT_E_clINSN_ISA_Lm18446744073709551615EEEEEDaSS_EUlSS_E_EEvSP_xT1_T2_
+- __ZN6shazam5focusILl2ENS_11xpair_groupIJNS_12xpair_fieldsEEEEPDoFfRKS3_EZNS_11CPUSearcher6searchIL8AlgoType12ES3_EEvRKNS_12SongDataBaseERKNS_16CPUOnePtDatabaseERKNS_15CPULMFPDataBaseERKNS_5QueryIXT_ENSt3__16vectorINS_4lmfpIXsr4algoIXT_EEE6fpTypeEEENSL_9allocatorISO_EEEEEERKNS_11QueryConfigEmNSL_6chrono10time_pointINSY_12steady_clockENSY_8durationIxNSL_5ratioILl1ELl1000000000EEEEEEERKNSL_8functionIFvRKNS_14SearchResponseEEEEEUlRKT_E_EEvN3gsl4spanIT0_Lm18446744073709551615EEExT1_T2_
+- __ZN6shazam5focusILl2ENS_11xpair_groupIJNS_12xpair_fieldsEEEEPDoFfRKS3_EZNS_11CPUSearcher6searchIL8AlgoType1ES3_EEvRKNS_12SongDataBaseERKNS_16CPUOnePtDatabaseERKNS_15CPULMFPDataBaseERKNS_5QueryIXT_ENSt3__16vectorINS_4lmfpIXsr4algoIXT_EEE6fpTypeEEENSL_9allocatorISO_EEEEEERKNS_11QueryConfigEmNSL_6chrono10time_pointINSY_12steady_clockENSY_8durationIxNSL_5ratioILl1ELl1000000000EEEEEEERKNSL_8functionIFvRKNS_14SearchResponseEEEEEUlRKT_E_EEvN3gsl4spanIT0_Lm18446744073709551615EEExT1_T2_
+- __ZN6shazam5focusILl2ENS_11xpair_groupIJNS_12xpair_fieldsEEEEPDoFiRKS3_EZNS_10cull_phaseIL8AlgoType12ES3_Lm2ELPv0EEEvRNSt3__16vectorINS_6ResultENSB_9allocatorISD_EEEESD_RNSC_INS_11regresspairENSE_ISI_EEEERKN3gsl4spanIT0_Lm18446744073709551615EEEEUlT_E_EEvSP_xT1_T2_
+- __ZN6shazam5focusILl2ENS_11xpair_groupIJNS_12xpair_fieldsEEEEPDoFiRKS3_EZNS_10cull_phaseIL8AlgoType1ES3_Lm2ELPv0EEEvRNSt3__16vectorINS_6ResultENSB_9allocatorISD_EEEESD_RNSC_INS_11regresspairENSE_ISI_EEEERKN3gsl4spanIT0_Lm18446744073709551615EEEEUlT_E_EEvSP_xT1_T2_
+- __ZN6shazam5visitINS_15CPULMFPDataBase11ptable_initEJRN3gsl4spanIcLm18446744073709551615EEEEEEDa8AlgoTypeOT_DpOT0_
+- __ZN6shazam5visitINS_15CPULMFPDataBase12prefix_stripEJRN3gsl4spanIcLm18446744073709551615EEEEEEDa8AlgoTypeOT_DpOT0_
+- __ZN6shazam5visitINS_15CPULMFPDataBase14landmarks_initEJRN3gsl4spanIcLm18446744073709551615EEEEEEDa8AlgoTypeOT_DpOT0_
+- __ZN6shazam6kvsortIN3gsl4spanINS_4lmfpILNS_7fp_typeE0EEELm18446744073709551615EEEEEvRT_S8_
+- __ZN6shazam7regressIKNS_7tfmatchENS_8extractXIS2_EENS_8extractYIS2_EEEENSt3__18optionalINS_12regress_lineEEERKN3gsl4spanIT_Lm18446744073709551615EEET0_T1_
+- __ZN6shazam7regressINS_11regresspairENS_8extractXIS1_EENS_8extractYIS1_EEEENSt3__18optionalINS_12regress_lineEEERKN3gsl4spanIT_Lm18446744073709551615EEET0_T1_
+- __ZN6shazam9crop_bandINS_15spectral_peak_tEEEvN3gsl4spanIKT_Lm18446744073709551615EEERNSt3__16vectorIS4_NS7_9allocatorIS4_EEEENS7_6chrono8durationIjNS7_5ratioILl1ELl125EEEEESH_
+- __ZN6shazam9xpairsortINS_11xpair_groupIJNS_12xpair_fieldsEEEEEEvRN3gsl4spanIT_Lm18446744073709551615EEES8_
+- __ZNK3gsl4spanIKcLm18446744073709551615EE12make_subspanEmmNS2_16subspan_selectorILm18446744073709551615EEE
+- __ZNK3gsl4spanIKfLm18446744073709551615EE12make_subspanEmmNS2_16subspan_selectorILm18446744073709551615EEE
+- __ZNK3gsl4spanIN6shazam11regresspairELm18446744073709551615EE12make_subspanEmmNS3_16subspan_selectorILm18446744073709551615EEE
+- __ZNK3gsl4spanIN6shazam11xpair_groupIJNS1_12xpair_fieldsEEEELm18446744073709551615EE12make_subspanEmmNS5_16subspan_selectorILm18446744073709551615EEE
+- __ZNK3gsl4spanIfLm18446744073709551615EE12make_subspanEmmNS1_16subspan_selectorILm18446744073709551615EEE
+- __ZNK3gsl7details13span_iteratorIKN6shazam15spectral_peak_tEEdeEv
+- __ZNK3gsl7details13span_iteratorIKN6shazam23spectral_peak_compact_tEEdeEv
+- __ZNK3gsl7details13span_iteratorIKN6shazam3dsp4HCQTILj2ELj6EE9timeframeEEdeEv
+- __ZNK3gsl7details13span_iteratorIKN6shazam4lmfpILNS2_7fp_typeE0EEEEdeEv
+- __ZNK3gsl7details13span_iteratorIKN6shazam7tfmatchEEdeEv
+- __ZNK3gsl7details13span_iteratorIKfEdeEv
+- __ZNK3gsl7details13span_iteratorIN6shazam11regresspairEEdeEv
+- __ZNK3gsl7details13span_iteratorIN6shazam11xpair_groupIJNS2_12xpair_fieldsEEEEEdeEv
+- __ZNK3gsl7details13span_iteratorIN6shazam11xpair_groupIJNS2_12xpair_fieldsEEEEEmiIS5_Li0EEElRKNS1_IT_EE
+- __ZNK3gsl7details13span_iteratorIN6shazam4lmfpILNS2_7fp_typeE0EEEEdeEv
+- __ZNK3gsl7details13span_iteratorINSt3__17complexIfEEEdeEv
+- __ZNK3gsl7details13span_iteratorIfEdeEv
+- __ZNK6shazam15CPULMFPDataBase11ptable_initclIL8AlgoType12EEEDaN3gsl4spanIcLm18446744073709551615EEE
+- __ZNK6shazam15CPULMFPDataBase11ptable_initclIL8AlgoType1EEEDaN3gsl4spanIcLm18446744073709551615EEE
+- __ZNK6shazam15CPULMFPDataBase12prefix_stripclIL8AlgoType12EEEDaN3gsl4spanIcLm18446744073709551615EEE
+- __ZNK6shazam15CPULMFPDataBase12prefix_stripclIL8AlgoType1EEEDaN3gsl4spanIcLm18446744073709551615EEE
+- __ZNK6shazam15CPULMFPDataBase14landmarks_initclIL8AlgoType12EEEDaN3gsl4spanIcLm18446744073709551615EEE
+- __ZNK6shazam15CPULMFPDataBase14landmarks_initclIL8AlgoType1EEEDaN3gsl4spanIcLm18446744073709551615EEE
+- __ZNK6shazam3dsp11cascade_buf5flushIZNS0_4HCQTILj2ELj6EE8generateEvEUlN3gsl4spanIKfLm18446744073709551615EEEmmE_EEvmjRKT_
+- __ZNK6shazam3dsp11cascade_buf9get_frameIZNS0_4HCQTILj2ELj6EE4flowEN3gsl4spanIfLm18446744073709551615EEEEUlNS6_IKfLm18446744073709551615EEEmmE_EEvjjRKT_
+- __ZNKSt3__110__function6__funcIN6shazam14SpectralOutput8callbackMUlPKfmE_ENS_9allocatorIS6_EEFvS5_mEE11target_typeEv
+- __ZNKSt3__110__function6__funcIN6shazam14SpectralOutput8callbackMUlPKfmE_ENS_9allocatorIS6_EEFvS5_mEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIN6shazam14SpectralOutput8callbackMUlPKfmE_ENS_9allocatorIS6_EEFvS5_mEE7__cloneEPNS0_6__baseIS9_EE
+- __ZNKSt3__110__function6__funcIN6shazam14SpectralOutput8callbackMUlPKfmE_ENS_9allocatorIS6_EEFvS5_mEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ20-[MRE search:error:]E3$_0NS_9allocatorIS2_EEFvRKN6shazam14SearchResponseEEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ20-[MRE search:error:]E3$_0NS_9allocatorIS2_EEFvRKN6shazam14SearchResponseEEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ20-[MRE search:error:]E3$_0NS_9allocatorIS2_EEFvRKN6shazam14SearchResponseEEE7__cloneEPNS0_6__baseIS9_EE
+- __ZNKSt3__110__function6__funcIZ20-[MRE search:error:]E3$_0NS_9allocatorIS2_EEFvRKN6shazam14SearchResponseEEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEE7__cloneEPNS0_6__baseIS7_EE
+- __ZNKSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE11target_typeEv
+- __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE7__cloneEPNS0_6__baseISH_EE
+- __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE7__cloneEv
+- __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE11target_typeEv
+- __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE7__cloneEPNS0_6__baseISH_EE
+- __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE7__cloneEv
+- __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE11target_typeEv
+- __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE7__cloneEPNS0_6__baseISH_EE
+- __ZNKSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE7__cloneEv
+- __ZNKSt3__110__function6__funcIZN6shazam11get_siginfoERKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS6_EEFvNS2_16signature_headerEEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZN6shazam11get_siginfoERKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS6_EEFvNS2_16signature_headerEEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZN6shazam11get_siginfoERKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS6_EEFvNS2_16signature_headerEEE7__cloneEPNS0_6__baseISA_EE
+- __ZNKSt3__110__function6__funcIZN6shazam11get_siginfoERKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS6_EEFvNS2_16signature_headerEEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZN6shazam11get_versionERKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS6_EEFvNS2_16signature_headerEEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZN6shazam11get_versionERKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS6_EEFvNS2_16signature_headerEEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZN6shazam11get_versionERKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS6_EEFvNS2_16signature_headerEEE7__cloneEPNS0_6__baseISA_EE
+- __ZNKSt3__110__function6__funcIZN6shazam11get_versionERKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS6_EEFvNS2_16signature_headerEEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZN6shazam14SpectralOutput7disableEvE3$_0NS_9allocatorIS4_EEFvPKfmEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZN6shazam14SpectralOutput7disableEvE3$_0NS_9allocatorIS4_EEFvPKfmEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZN6shazam14SpectralOutput7disableEvE3$_0NS_9allocatorIS4_EEFvPKfmEE7__cloneEPNS0_6__baseIS9_EE
+- __ZNKSt3__110__function6__funcIZN6shazam14SpectralOutput7disableEvE3$_0NS_9allocatorIS4_EEFvPKfmEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS9_EEFvNS2_16signature_headerEEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS9_EEFvNS2_16signature_headerEEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS9_EEFvNS2_16signature_headerEEE7__cloneEPNS0_6__baseISD_EE
+- __ZNKSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS9_EEFvNS2_16signature_headerEEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorISE_EEFvNS2_16signature_headerEEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorISE_EEFvNS2_16signature_headerEEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorISE_EEFvNS2_16signature_headerEEE7__cloneEPNS0_6__baseISI_EE
+- __ZNKSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorISE_EEFvNS2_16signature_headerEEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZN6shazam8pairwise16audioscanCompareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_RKNS_8functionIFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEEERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0NS_9allocatorISU_EEFvRKNS2_14SearchResponseEEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZN6shazam8pairwise16audioscanCompareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_RKNS_8functionIFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEEERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0NS_9allocatorISU_EEFvRKNS2_14SearchResponseEEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZN6shazam8pairwise16audioscanCompareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_RKNS_8functionIFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEEERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0NS_9allocatorISU_EEFvRKNS2_14SearchResponseEEE7__cloneEPNS0_6__baseIS10_EE
+- __ZNKSt3__110__function6__funcIZN6shazam8pairwise16audioscanCompareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_RKNS_8functionIFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEEERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0NS_9allocatorISU_EEFvRKNS2_14SearchResponseEEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZN6shazam8pairwise7compareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_NS3_9MergeModeERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0NS_9allocatorISK_EEFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZN6shazam8pairwise7compareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_NS3_9MergeModeERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0NS_9allocatorISK_EEFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZN6shazam8pairwise7compareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_NS3_9MergeModeERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0NS_9allocatorISK_EEFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEE7__cloneEPNS0_6__baseIST_EE
+- __ZNKSt3__110__function6__funcIZN6shazam8pairwise7compareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_NS3_9MergeModeERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0NS_9allocatorISK_EEFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEE7__cloneEv
+- __ZNKSt3__112__hash_tableINS_17__hash_value_typeIiN6shazam14target_zone_2dEEENS_22__unordered_map_hasherIiS4_NS_4hashIiEENS_8equal_toIiEELb1EEENS_21__unordered_map_equalIiS4_S9_S7_Lb1EEENS_9allocatorIS4_EEE4findIiEENS_21__hash_const_iteratorIPNS_11__hash_nodeIS4_PvEEEERKT_
+- __ZNKSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyS2_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE4findIyEENS_21__hash_const_iteratorIPNS_11__hash_nodeIS2_PvEEEERKT_
+- __ZNKSt3__114default_deleteI11MREInstanceEclB8ne200100EPS1_
+- __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strEv
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam14density_filterINS2_15spectral_peak_tEEEEEPS5_EclB8ne200100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam15CPULMFPDataBaseEEEPS3_EclB8ne200100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam15basic_signatureILNS2_17signature_densityE24EEEEEPS5_EclB8ne200100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam15freebird_tensorEEEPS3_EclB8ne200100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam6ResultEEEPS3_EclB8ne200100Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIN6shazam15spectral_peak_tENS1_IS4_EEEEEEPS6_EclB8ne200100Ev
+- __ZNKSt9type_infoeqB8ne200100ERKS_
+- __ZNSt11range_errorC1B8ne200100EPKc
+- __ZNSt12length_errorC1B8ne200100EPKc
+- __ZNSt12out_of_rangeC1B8ne200100EPKc
+- __ZNSt16invalid_argumentC1B8ne200100EPKc
+- __ZNSt3__110__function12__value_funcIFvN6shazam16signature_headerEEED2B8ne200100Ev
+- __ZNSt3__110__function12__value_funcIFvPKfmEE4swapB8ne200100ERS5_
+- __ZNSt3__110__function12__value_funcIFvPKfmEEC2B8ne200100EOS5_
+- __ZNSt3__110__function12__value_funcIFvPKfmEEC2B8ne200100ERKS5_
+- __ZNSt3__110__function12__value_funcIFvPKfmEED2B8ne200100Ev
+- __ZNSt3__110__function12__value_funcIFvRKN6shazam14SearchResponseEEED2B8ne200100Ev
+- __ZNSt3__110__function12__value_funcIFvRKN6shazam14TrackingResultERKNS2_13sig_alignmentEEED2B8ne200100Ev
+- __ZNSt3__110__function6__funcIN6shazam14SpectralOutput8callbackMUlPKfmE_ENS_9allocatorIS6_EEFvS5_mEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIN6shazam14SpectralOutput8callbackMUlPKfmE_ENS_9allocatorIS6_EEFvS5_mEE7destroyEv
+- __ZNSt3__110__function6__funcIN6shazam14SpectralOutput8callbackMUlPKfmE_ENS_9allocatorIS6_EEFvS5_mEED0Ev
+- __ZNSt3__110__function6__funcIN6shazam14SpectralOutput8callbackMUlPKfmE_ENS_9allocatorIS6_EEFvS5_mEED1Ev
+- __ZNSt3__110__function6__funcIN6shazam14SpectralOutput8callbackMUlPKfmE_ENS_9allocatorIS6_EEFvS5_mEEclEOS5_Om
+- __ZNSt3__110__function6__funcIZ20-[MRE search:error:]E3$_0NS_9allocatorIS2_EEFvRKN6shazam14SearchResponseEEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ20-[MRE search:error:]E3$_0NS_9allocatorIS2_EEFvRKN6shazam14SearchResponseEEE7destroyEv
+- __ZNSt3__110__function6__funcIZ20-[MRE search:error:]E3$_0NS_9allocatorIS2_EEFvRKN6shazam14SearchResponseEEED0Ev
+- __ZNSt3__110__function6__funcIZ20-[MRE search:error:]E3$_0NS_9allocatorIS2_EEFvRKN6shazam14SearchResponseEEED1Ev
+- __ZNSt3__110__function6__funcIZ20-[MRE search:error:]E3$_0NS_9allocatorIS2_EEFvRKN6shazam14SearchResponseEEEclES8_
+- __ZNSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEE7destroyEv
+- __ZNSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEED0Ev
+- __ZNSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEED1Ev
+- __ZNSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEEclEOS6_Om
+- __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE7destroyEv
+- __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EED0Ev
+- __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EED1Ev
+- __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EEclEOSB_
+- __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE7destroyEv
+- __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EED0Ev
+- __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EED1Ev
+- __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EEclEOSB_
+- __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EE7destroyEv
+- __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EED0Ev
+- __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EED1Ev
+- __ZNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EEclEOSB_
+- __ZNSt3__110__function6__funcIZN6shazam11get_siginfoERKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS6_EEFvNS2_16signature_headerEEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZN6shazam11get_siginfoERKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS6_EEFvNS2_16signature_headerEEE7destroyEv
+- __ZNSt3__110__function6__funcIZN6shazam11get_siginfoERKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS6_EEFvNS2_16signature_headerEEED0Ev
+- __ZNSt3__110__function6__funcIZN6shazam11get_siginfoERKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS6_EEFvNS2_16signature_headerEEED1Ev
+- __ZNSt3__110__function6__funcIZN6shazam11get_siginfoERKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS6_EEFvNS2_16signature_headerEEEclEOS9_
+- __ZNSt3__110__function6__funcIZN6shazam11get_versionERKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS6_EEFvNS2_16signature_headerEEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZN6shazam11get_versionERKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS6_EEFvNS2_16signature_headerEEE7destroyEv
+- __ZNSt3__110__function6__funcIZN6shazam11get_versionERKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS6_EEFvNS2_16signature_headerEEED0Ev
+- __ZNSt3__110__function6__funcIZN6shazam11get_versionERKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS6_EEFvNS2_16signature_headerEEED1Ev
+- __ZNSt3__110__function6__funcIZN6shazam11get_versionERKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS6_EEFvNS2_16signature_headerEEEclEOS9_
+- __ZNSt3__110__function6__funcIZN6shazam14SpectralOutput7disableEvE3$_0NS_9allocatorIS4_EEFvPKfmEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZN6shazam14SpectralOutput7disableEvE3$_0NS_9allocatorIS4_EEFvPKfmEE7destroyEv
+- __ZNSt3__110__function6__funcIZN6shazam14SpectralOutput7disableEvE3$_0NS_9allocatorIS4_EEFvPKfmEED0Ev
+- __ZNSt3__110__function6__funcIZN6shazam14SpectralOutput7disableEvE3$_0NS_9allocatorIS4_EEFvPKfmEED1Ev
+- __ZNSt3__110__function6__funcIZN6shazam14SpectralOutput7disableEvE3$_0NS_9allocatorIS4_EEFvPKfmEEclEOS8_Om
+- __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS9_EEFvNS2_16signature_headerEEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS9_EEFvNS2_16signature_headerEEE7destroyEv
+- __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS9_EEFvNS2_16signature_headerEEED0Ev
+- __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS9_EEFvNS2_16signature_headerEEED1Ev
+- __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS9_EEFvNS2_16signature_headerEEEclEOSC_
+- __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorISE_EEFvNS2_16signature_headerEEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorISE_EEFvNS2_16signature_headerEEE7destroyEv
+- __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorISE_EEFvNS2_16signature_headerEEED0Ev
+- __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorISE_EEFvNS2_16signature_headerEEED1Ev
+- __ZNSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorISE_EEFvNS2_16signature_headerEEEclEOSH_
+- __ZNSt3__110__function6__funcIZN6shazam8pairwise16audioscanCompareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_RKNS_8functionIFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEEERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0NS_9allocatorISU_EEFvRKNS2_14SearchResponseEEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZN6shazam8pairwise16audioscanCompareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_RKNS_8functionIFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEEERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0NS_9allocatorISU_EEFvRKNS2_14SearchResponseEEE7destroyEv
+- __ZNSt3__110__function6__funcIZN6shazam8pairwise16audioscanCompareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_RKNS_8functionIFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEEERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0NS_9allocatorISU_EEFvRKNS2_14SearchResponseEEED0Ev
+- __ZNSt3__110__function6__funcIZN6shazam8pairwise16audioscanCompareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_RKNS_8functionIFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEEERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0NS_9allocatorISU_EEFvRKNS2_14SearchResponseEEED1Ev
+- __ZNSt3__110__function6__funcIZN6shazam8pairwise16audioscanCompareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_RKNS_8functionIFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEEERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0NS_9allocatorISU_EEFvRKNS2_14SearchResponseEEEclESZ_
+- __ZNSt3__110__function6__funcIZN6shazam8pairwise7compareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_NS3_9MergeModeERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0NS_9allocatorISK_EEFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZN6shazam8pairwise7compareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_NS3_9MergeModeERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0NS_9allocatorISK_EEFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEE7destroyEv
+- __ZNSt3__110__function6__funcIZN6shazam8pairwise7compareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_NS3_9MergeModeERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0NS_9allocatorISK_EEFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEED0Ev
+- __ZNSt3__110__function6__funcIZN6shazam8pairwise7compareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_NS3_9MergeModeERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0NS_9allocatorISK_EEFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEED1Ev
+- __ZNSt3__110__function6__funcIZN6shazam8pairwise7compareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_NS3_9MergeModeERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0NS_9allocatorISK_EEFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEEclESP_SS_
+- __ZNSt3__110__pop_heapB8ne200100INS_17_ClassicAlgPolicyENS_7greaterIvEEPN6shazam6ResultEEEvT1_S7_RT0_NS_15iterator_traitsIS7_E15difference_typeE
+- __ZNSt3__110__pop_heapB8ne200100INS_17_ClassicAlgPolicyEPDoFbRKN6shazam11xpair_groupIJNS2_12xpair_fieldsEEEES7_EN3gsl7details13span_iteratorIS5_EEEEvT1_SE_RT0_NS_15iterator_traitsISE_E15difference_typeE
+- __ZNSt3__110unique_ptrI18CoreMLFeatureModelNS_14default_deleteIS1_EEED1B8ne200100Ev
+- __ZNSt3__110unique_ptrI21BNNSGraphFeatureModelNS_14default_deleteIS1_EEED1B8ne200100Ev
+- __ZNSt3__110unique_ptrIN6shazam15resample_streamENS_14default_deleteIS2_EEE5resetB8ne200100EPS2_
+- __ZNSt3__110unique_ptrIN6shazam15resample_streamENS_14default_deleteIS2_EEED1B8ne200100Ev
+- __ZNSt3__110unique_ptrIN6shazam3dsp11CrepeFramerENS_14default_deleteIS3_EEE5resetB8ne200100EPS3_
+- __ZNSt3__110unique_ptrIN6shazam3dsp11cascade_bufENS_14default_deleteIS3_EEE5resetB8ne200100EPS3_
+- __ZNSt3__110unique_ptrIN6shazam3dsp11cascade_bufENS_14default_deleteIS3_EEED1B8ne200100Ev
+- __ZNSt3__110unique_ptrIN6shazam3dsp16FeatureExtractorENS_14default_deleteIS3_EEE5resetB8ne200100EPS3_
+- __ZNSt3__110unique_ptrIN6shazam3dsp4HCQTILj2ELj6EEENS_14default_deleteIS4_EEE5resetB8ne200100EPS4_
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERN6shazam3$_1EPNS2_15spectral_peak_tELb0EEEvT1_S7_T0_NS_15iterator_traitsIS7_E15difference_typeEb
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERN6shazam3$_3EPNS2_15spectral_peak_tELb0EEEvT1_S7_T0_NS_15iterator_traitsIS7_E15difference_typeEb
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERPDoFbRKN6shazam11xpair_groupIJNS2_12xpair_fieldsEEEES7_EN3gsl7details13span_iteratorIS5_EELb0EEEvT1_SF_T0_NS_15iterator_traitsISF_E15difference_typeEb
+- __ZNSt3__111__sift_downB8ne200100INS_17_ClassicAlgPolicyERN6shazam3$_1EPNS2_15spectral_peak_tEEEvT1_OT0_NS_15iterator_traitsIS7_E15difference_typeES7_
+- __ZNSt3__111__sift_downB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam11regresspairEEEvT1_OT0_NS_15iterator_traitsIS8_E15difference_typeES8_
+- __ZNSt3__111__sift_downB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam15spectral_peak_tEEEvT1_OT0_NS_15iterator_traitsIS8_E15difference_typeES8_
+- __ZNSt3__111__sift_downB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam7peak_tfEEEvT1_OT0_NS_15iterator_traitsIS8_E15difference_typeES8_
+- __ZNSt3__111__sift_downB8ne200100INS_17_ClassicAlgPolicyERNS_7greaterIvEEPN6shazam6ResultEEEvT1_OT0_NS_15iterator_traitsIS8_E15difference_typeES8_
+- __ZNSt3__111__sift_downB8ne200100INS_17_ClassicAlgPolicyERNS_7greaterIvEEPmEEvT1_OT0_NS_15iterator_traitsIS6_E15difference_typeES6_
+- __ZNSt3__111__sift_downB8ne200100INS_17_ClassicAlgPolicyERPDoFbRKN6shazam11xpair_groupIJNS2_12xpair_fieldsEEEES7_EN3gsl7details13span_iteratorIS5_EEEEvT1_OT0_NS_15iterator_traitsISF_E15difference_typeESF_
+- __ZNSt3__111make_uniqueB8ne200100IN6shazam17StaticCPUSearcherEJRKNS1_12CPUDatabasesERKNS1_5TimerERKmSA_RKbELi0EEENS_10unique_ptrIT_NS_14default_deleteISE_EEEEDpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN6shazam12feature_typeENS_10unique_ptrINS2_3dsp12FeatureModelENS_14default_deleteIS6_EEEEEENS_22__unordered_map_hasherIS3_SA_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_SA_SF_SD_Lb1EEENS_9allocatorISA_EEE11__do_rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN6shazam12feature_typeENS_10unique_ptrINS2_3dsp12FeatureModelENS_14default_deleteIS6_EEEEEENS_22__unordered_map_hasherIS3_SA_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_SA_SF_SD_Lb1EEENS_9allocatorISA_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeISA_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN6shazam12feature_typeENS_10unique_ptrINS2_3dsp12FeatureModelENS_14default_deleteIS6_EEEEEENS_22__unordered_map_hasherIS3_SA_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_SA_SF_SD_Lb1EEENS_9allocatorISA_EEE25__emplace_unique_key_argsIS3_JRKNS_21piecewise_construct_tENS_5tupleIJOS3_EEENSQ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISA_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN6shazam12feature_typeENS_10unique_ptrINS2_3dsp12FeatureModelENS_14default_deleteIS6_EEEEEENS_22__unordered_map_hasherIS3_SA_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_SA_SF_SD_Lb1EEENS_9allocatorISA_EEE4findIS3_EENS_15__hash_iteratorIPNS_11__hash_nodeISA_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN6shazam12feature_typeENS_10unique_ptrINS2_3dsp12FeatureModelENS_14default_deleteIS6_EEEEEENS_22__unordered_map_hasherIS3_SA_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_SA_SF_SD_Lb1EEENS_9allocatorISA_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN6shazam12feature_typeENS_10unique_ptrINS2_3dsp12FeatureModelENS_14default_deleteIS6_EEEEEENS_22__unordered_map_hasherIS3_SA_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_SA_SF_SD_Lb1EEENS_9allocatorISA_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIiN6shazam14target_zone_2dEEENS_22__unordered_map_hasherIiS4_NS_4hashIiEENS_8equal_toIiEELb1EEENS_21__unordered_map_equalIiS4_S9_S7_Lb1EEENS_9allocatorIS4_EEE11__do_rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIiN6shazam14target_zone_2dEEENS_22__unordered_map_hasherIiS4_NS_4hashIiEENS_8equal_toIiEELb1EEENS_21__unordered_map_equalIiS4_S9_S7_Lb1EEENS_9allocatorIS4_EEE25__emplace_unique_key_argsIiJRKNS_4pairIKiS3_EEEEENSH_INS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIiN6shazam14target_zone_2dEEENS_22__unordered_map_hasherIiS4_NS_4hashIiEENS_8equal_toIiEELb1EEENS_21__unordered_map_equalIiS4_S9_S7_Lb1EEENS_9allocatorIS4_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIiN6shazam14target_zone_2dEEENS_22__unordered_map_hasherIiS4_NS_4hashIiEENS_8equal_toIiEELb1EEENS_21__unordered_map_equalIiS4_S9_S7_Lb1EEENS_9allocatorIS4_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyS2_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE11__do_rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyS2_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE25__emplace_unique_key_argsIyJRKNS_21piecewise_construct_tENS_5tupleIJRKyEEENSI_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyS2_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE5clearEv
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyS2_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyS2_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS2_S7_S5_Lb1EEENS_9allocatorIS2_EEED2Ev
+- __ZNSt3__112__rotate_gcdB8ne200100INS_17_ClassicAlgPolicyENS_16reverse_iteratorINS_11__wrap_iterIPcEEEEEET0_S7_S7_S7_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100ILi0EEEPKc
+- __ZNSt3__113__upper_boundB8ne200100INS_17_ClassicAlgPolicyEZN6shazam9crop_bandINS2_15spectral_peak_tEEEvN3gsl4spanIKT_Lm18446744073709551615EEERNS_6vectorIS7_NS_9allocatorIS7_EEEENS_6chrono8durationIjNS_5ratioILl1ELl125EEEEESJ_EUlRS8_RKT0_E0_NS5_7details13span_iteratorIKS4_EESS_SJ_NS_10__identityEEET1_SU_T2_RKT3_OSL_OT4_
+- __ZNSt3__113unordered_mapIiN6shazam14target_zone_2dENS_4hashIiEENS_8equal_toIiEENS_9allocatorINS_4pairIKiS2_EEEEED1B8ne200100Ev
+- __ZNSt3__114__partial_sortB8ne200100INS_17_ClassicAlgPolicyERPDoFbRKN6shazam11xpair_groupIJNS2_12xpair_fieldsEEEES7_EN3gsl7details13span_iteratorIS5_EESE_EET1_SF_SF_T2_RT0_
+- __ZNSt3__114__split_bufferIN6shazam14density_filterINS1_15spectral_peak_tEEERNS_9allocatorIS4_EEE17__destruct_at_endB8ne200100EPS4_
+- __ZNSt3__114__split_bufferIN6shazam15CPULMFPDataBaseERNS_9allocatorIS2_EEE17__destruct_at_endB8ne200100EPS2_
+- __ZNSt3__114__split_bufferIN6shazam15basic_signatureILNS1_17signature_densityE24EEERNS_9allocatorIS4_EEE5clearB8ne200100Ev
+- __ZNSt3__114__split_bufferIN6shazam15freebird_tensorERNS_9allocatorIS2_EEE17__destruct_at_endB8ne200100EPS2_
+- __ZNSt3__114__split_bufferIN6shazam26static_aligned_dual_bufferIfEERNS_9allocatorIS3_EEE17__destruct_at_endB8ne200100EPS3_
+- __ZNSt3__114__split_bufferIN6shazam6ResultERNS_9allocatorIS2_EEE17__destruct_at_endB8ne200100EPS2_
+- __ZNSt3__114__split_bufferINS_10unique_ptrIN6shazam15resample_streamENS_14default_deleteIS3_EEEERNS_9allocatorIS6_EEE17__destruct_at_endB8ne200100EPS6_
+- __ZNSt3__114__split_bufferINS_6vectorIN6shazam15spectral_peak_tENS_9allocatorIS3_EEEERNS4_IS6_EEE17__destruct_at_endB8ne200100EPS6_
+- __ZNSt3__114__split_bufferINS_6vectorIN6shazam24ancient_dead_sig_point_tENS_9allocatorIS3_EEEERNS4_IS6_EEE17__destruct_at_endB8ne200100EPS6_
+- __ZNSt3__115__sort_dispatchB8ne200100INS_17_ClassicAlgPolicyEN3gsl7details13span_iteratorIN6shazam11xpair_groupIJNS5_12xpair_fieldsEEEEEEPDoFbRKS8_SB_EEEvT0_SE_RT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN6shazam12SongDataBaseENS_9allocatorIS2_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100IN6shazam16CPUOnePtDatabaseENS_9allocatorIS2_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB8ne200100Ev
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne200100ERKNS_12basic_stringIcS2_S4_EEj
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne200100Ej
+- __ZNSt3__116__insertion_sortB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam11regresspairEEEvT1_S8_T0_
+- __ZNSt3__116__insertion_sortB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam15spectral_peak_tEEEvT1_S8_T0_
+- __ZNSt3__116__insertion_sortB8ne200100INS_17_ClassicAlgPolicyERNS_7greaterIvEEPN6shazam6ResultEEEvT1_S8_T0_
+- __ZNSt3__116__insertion_sortB8ne200100INS_17_ClassicAlgPolicyERPDoFbRKN6shazam11xpair_groupIJNS2_12xpair_fieldsEEEES7_EN3gsl7details13span_iteratorIS5_EEEEvT1_SF_T0_
+- __ZNSt3__116__pad_and_outputB8ne200100IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__116allocator_traitsINS_9allocatorIN6shazam15CPULMFPDataBaseEEEE7destroyB8ne200100IS3_Li0EEEvRS4_PT_
+- __ZNSt3__116allocator_traitsINS_9allocatorINS_10unique_ptrIN6shazam15resample_streamENS_14default_deleteIS4_EEEEEEE7destroyB8ne200100IS7_Li0EEEvRS8_PT_
+- __ZNSt3__117__floyd_sift_downB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam15spectral_peak_tEEET1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
+- __ZNSt3__117__floyd_sift_downB8ne200100INS_17_ClassicAlgPolicyERNS_7greaterIvEEPN6shazam6ResultEEET1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
+- __ZNSt3__117__floyd_sift_downB8ne200100INS_17_ClassicAlgPolicyERPDoFbRKN6shazam11xpair_groupIJNS2_12xpair_fieldsEEEES7_EN3gsl7details13span_iteratorIS5_EEEET1_SF_OT0_NS_15iterator_traitsISF_E15difference_typeE
+- __ZNSt3__118__bitset_partitionB8ne200100INS_17_ClassicAlgPolicyEPmRNS_7greaterIvEEEENS_4pairIT0_bEES7_S7_T1_
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorI21bnns_graph_argument_tEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN6shazam10SearchPlanEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN6shazam10SongOffsetEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN6shazam11regresspairEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN6shazam13sig_alignmentEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN6shazam14TrackingResultEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN6shazam14density_filterINS2_15spectral_peak_tEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN6shazam15CPULMFPDataBaseEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN6shazam15basic_signatureILNS2_17signature_densityE24EEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN6shazam15freebird_tensorEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN6shazam15spectral_peak_tEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN6shazam21signature_header_typeEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN6shazam23spectral_peak_compact_tEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN6shazam24ancient_dead_sig_point_tEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN6shazam26static_aligned_dual_bufferIfEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN6shazam3dsp11CrepeFramer9timeframeEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN6shazam3dsp4HCQTILj2ELj6EE9timeframeEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN6shazam4lmfpILNS2_7fp_typeE0EEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN6shazam6ResultEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN6shazam7peak_tfEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN6shazam7tfmatchEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN6shazam9PeakMatchEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN6shazam9fp_suffixIL8AlgoType12EEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN6shazam9fp_suffixIL8AlgoType1EEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN6shazam9time_freqEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_10unique_ptrIN6shazam15resample_streamENS_14default_deleteIS4_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_6chrono8durationIfNS_5ratioILl1ELl1EEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_6chrono8durationIxNS_5ratioILl1ELl1000EEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_6vectorIN6shazam15spectral_peak_tENS1_IS4_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_6vectorIN6shazam24ancient_dead_sig_point_tENS1_IS4_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_6vectorIcNS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_7complexIfEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorImEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIsEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIyEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocator_destroyB8ne200100INS_9allocatorIN6shazam14density_filterINS2_15spectral_peak_tEEEEEPS5_S7_EEvRT_T0_T1_
+- __ZNSt3__119__allocator_destroyB8ne200100INS_9allocatorIN6shazam26static_aligned_dual_bufferIfEEEENS_16reverse_iteratorIPS4_EES8_EEvRT_T0_T1_
+- __ZNSt3__119__allocator_destroyB8ne200100INS_9allocatorIN6shazam26static_aligned_dual_bufferIfEEEEPS4_S6_EEvRT_T0_T1_
+- __ZNSt3__119__partial_sort_implB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam11regresspairES7_EET1_S8_S8_T2_OT0_
+- __ZNSt3__119__partial_sort_implB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam15spectral_peak_tES7_EET1_S8_S8_T2_OT0_
+- __ZNSt3__119__partial_sort_implB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam7peak_tfES7_EET1_S8_S8_T2_OT0_
+- __ZNSt3__119__partial_sort_implB8ne200100INS_17_ClassicAlgPolicyERNS_7greaterIvEEPN6shazam6ResultES7_EET1_S8_S8_T2_OT0_
+- __ZNSt3__119__partial_sort_implB8ne200100INS_17_ClassicAlgPolicyERNS_7greaterIvEEPmS5_EET1_S6_S6_T2_OT0_
+- __ZNSt3__119__partial_sort_implB8ne200100INS_17_ClassicAlgPolicyERPDoFbRKN6shazam11xpair_groupIJNS2_12xpair_fieldsEEEES7_EN3gsl7details13span_iteratorIS5_EESE_EET1_SF_SF_T2_OT0_
+- __ZNSt3__119__shared_weak_count16__release_sharedB8ne200100Ev
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100ERKNS_12basic_stringIcS2_S4_EEj
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100Ev
+- __ZNSt3__120__shared_ptr_emplaceIN6shazam12SongDataBaseENS_9allocatorIS2_EEEC2B8ne200100IJES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN6shazam16CPUOnePtDatabaseENS_9allocatorIS2_EEEC2B8ne200100IJES4_Li0EEES4_DpOT_
+- __ZNSt3__120__throw_length_errorB8ne200100EPKc
+- __ZNSt3__120__throw_out_of_rangeB8ne200100EPKc
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIN6shazam12feature_typeENS_10unique_ptrINS4_3dsp12FeatureModelENS_14default_deleteIS8_EEEEEEPvEEEEEclB8ne200100EPSE_
+- __ZNSt3__123__lower_bound_bisectingB8ne200100INS_17_ClassicAlgPolicyEN3gsl7details13span_iteratorIKN6shazam15spectral_peak_tEEENS_6chrono8durationIjNS_5ratioILl1ELl125EEEEENS_10__identityEZNS5_9crop_bandIS6_EEvNS2_4spanIKT_Lm18446744073709551615EEERNS_6vectorISH_NS_9allocatorISH_EEEESD_SD_EUlRSI_RKT0_E_EESQ_SQ_RKT1_NS_15iterator_traitsISQ_E15difference_typeERT3_RT2_
+- __ZNSt3__124__put_character_sequenceB8ne200100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__125__throw_bad_function_callB8ne200100Ev
+- __ZNSt3__126__insertion_sort_unguardedB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam15spectral_peak_tEEEvT1_S8_T0_
+- __ZNSt3__126__insertion_sort_unguardedB8ne200100INS_17_ClassicAlgPolicyERNS_7greaterIvEEPN6shazam6ResultEEEvT1_S8_T0_
+- __ZNSt3__126__insertion_sort_unguardedB8ne200100INS_17_ClassicAlgPolicyERPDoFbRKN6shazam11xpair_groupIJNS2_12xpair_fieldsEEEES7_EN3gsl7details13span_iteratorIS5_EEEEvT1_SF_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8ne200100INS_17_ClassicAlgPolicyERN6shazam3$_0EPNS2_15spectral_peak_tEEEbT1_S7_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8ne200100INS_17_ClassicAlgPolicyERN6shazam3$_1EPNS2_15spectral_peak_tEEEbT1_S7_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8ne200100INS_17_ClassicAlgPolicyERN6shazam3$_3EPNS2_15spectral_peak_tEEEbT1_S7_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam11regresspairEEEbT1_S8_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam15spectral_peak_tEEEbT1_S8_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam7peak_tfEEEbT1_S8_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8ne200100INS_17_ClassicAlgPolicyERNS_7greaterIvEEPN6shazam6ResultEEEbT1_S8_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8ne200100INS_17_ClassicAlgPolicyERNS_7greaterIvEEPmEEbT1_S6_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8ne200100INS_17_ClassicAlgPolicyERPDoFbRKN6shazam11xpair_groupIJNS2_12xpair_fieldsEEEES7_EN3gsl7details13span_iteratorIS5_EEEEbT1_SF_T0_
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam14density_filterINS3_15spectral_peak_tEEEEEPS6_EEED2B8ne200100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam15CPULMFPDataBaseEEEPS4_EEED2B8ne200100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam15basic_signatureILNS3_17signature_densityE24EEEEEPS6_EEED2B8ne200100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam15freebird_tensorEEEPS4_EEED2B8ne200100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam26static_aligned_dual_bufferIfEEEEPS5_EEED2B8ne200100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN6shazam6ResultEEEPS4_EEED2B8ne200100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIN6shazam15spectral_peak_tENS2_IS5_EEEEEEPS7_EEED2B8ne200100Ev
+- __ZNSt3__131__partition_with_equals_on_leftB8ne200100INS_17_ClassicAlgPolicyEN3gsl7details13span_iteratorIN6shazam11xpair_groupIJNS5_12xpair_fieldsEEEEEERPDoFbRKS8_SB_EEET0_SF_SF_T1_
+- __ZNSt3__131__partition_with_equals_on_leftB8ne200100INS_17_ClassicAlgPolicyEPN6shazam11regresspairERNS_6__lessIvvEEEET0_S8_S8_T1_
+- __ZNSt3__131__partition_with_equals_on_leftB8ne200100INS_17_ClassicAlgPolicyEPN6shazam15spectral_peak_tERNS_6__lessIvvEEEET0_S8_S8_T1_
+- __ZNSt3__131__partition_with_equals_on_leftB8ne200100INS_17_ClassicAlgPolicyEPN6shazam6ResultERNS_7greaterIvEEEET0_S8_S8_T1_
+- __ZNSt3__131__partition_with_equals_on_leftB8ne200100INS_17_ClassicAlgPolicyEPN6shazam7peak_tfERNS_6__lessIvvEEEET0_S8_S8_T1_
+- __ZNSt3__131__partition_with_equals_on_leftB8ne200100INS_17_ClassicAlgPolicyEPmRNS_7greaterIvEEEET0_S6_S6_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8ne200100INS_17_ClassicAlgPolicyEN3gsl7details13span_iteratorIN6shazam11xpair_groupIJNS5_12xpair_fieldsEEEEEERPDoFbRKS8_SB_EEENS_4pairIT0_bEESG_SG_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8ne200100INS_17_ClassicAlgPolicyEPN6shazam11regresspairERNS_6__lessIvvEEEENS_4pairIT0_bEES9_S9_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8ne200100INS_17_ClassicAlgPolicyEPN6shazam15spectral_peak_tERNS_6__lessIvvEEEENS_4pairIT0_bEES9_S9_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8ne200100INS_17_ClassicAlgPolicyEPN6shazam6ResultERNS_7greaterIvEEEENS_4pairIT0_bEES9_S9_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8ne200100INS_17_ClassicAlgPolicyEPN6shazam7peak_tfERNS_6__lessIvvEEEENS_4pairIT0_bEES9_S9_T1_
+- __ZNSt3__134__uninitialized_allocator_relocateB8ne200100INS_9allocatorIN6shazam14density_filterINS2_15spectral_peak_tEEEEEPS5_EEvRT_T0_SA_SA_
+- __ZNSt3__134__uninitialized_allocator_relocateB8ne200100INS_9allocatorIN6shazam15CPULMFPDataBaseEEEPS3_EEvRT_T0_S8_S8_
+- __ZNSt3__134__uninitialized_allocator_relocateB8ne200100INS_9allocatorIN6shazam15basic_signatureILNS2_17signature_densityE24EEEEEPS5_EEvRT_T0_SA_SA_
+- __ZNSt3__134__uninitialized_allocator_relocateB8ne200100INS_9allocatorIN6shazam15freebird_tensorEEEPS3_EEvRT_T0_S8_S8_
+- __ZNSt3__134__uninitialized_allocator_relocateB8ne200100INS_9allocatorIN6shazam26static_aligned_dual_bufferIfEEEEPS4_EEvRT_T0_S9_S9_
+- __ZNSt3__134__uninitialized_allocator_relocateB8ne200100INS_9allocatorIN6shazam6ResultEEEPS3_EEvRT_T0_S8_S8_
+- __ZNSt3__135__uninitialized_allocator_copy_implB8ne200100INS_9allocatorIN6shazam6ResultEEEPS3_S5_S5_EET2_RT_T0_T1_S6_
+- __ZNSt3__135__uninitialized_allocator_copy_implB8ne200100INS_9allocatorINS_6vectorIN6shazam15spectral_peak_tENS1_IS4_EEEEEEPS6_S8_S8_EET2_RT_T0_T1_S9_
+- __ZNSt3__135__uninitialized_allocator_copy_implB8ne200100INS_9allocatorIfEEN3gsl7details13span_iteratorIKfEES7_PfEET2_RT_T0_T1_S9_
+- __ZNSt3__135__uninitialized_allocator_copy_implB8ne200100INS_9allocatorIfEEN3gsl7details13span_iteratorIfEES6_PfEET2_RT_T0_T1_S8_
+- __ZNSt3__16vectorI21bnns_graph_argument_tNS_9allocatorIS1_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorI21bnns_graph_argument_tNS_9allocatorIS1_EEE20__throw_out_of_rangeB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam10SearchPlanENS_9allocatorIS2_EEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorIN6shazam10SearchPlanENS_9allocatorIS2_EEE16__init_with_sizeB8ne200100IPKS2_S8_EEvT_T0_m
+- __ZNSt3__16vectorIN6shazam10SearchPlanENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam10SongOffsetENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam11regresspairENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam12_GLOBAL__N_115compacted_peaksENS_9allocatorIS3_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam12_GLOBAL__N_115compacted_peaksENS_9allocatorIS3_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam13sig_alignmentENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam14TrackingResultENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam14TrackingResultENS_9allocatorIS2_EEE9push_backB8ne200100ERKS2_
+- __ZNSt3__16vectorIN6shazam14density_filterINS1_15spectral_peak_tEEENS_9allocatorIS4_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam14density_filterINS1_15spectral_peak_tEEENS_9allocatorIS4_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam14density_filterINS1_15spectral_peak_tEEENS_9allocatorIS4_EEE22__base_destruct_at_endB8ne200100EPS4_
+- __ZNSt3__16vectorIN6shazam15CPULMFPDataBaseENS_9allocatorIS2_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam15CPULMFPDataBaseENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam15CPULMFPDataBaseENS_9allocatorIS2_EEE22__base_destruct_at_endB8ne200100EPS2_
+- __ZNSt3__16vectorIN6shazam15basic_signatureILNS1_17signature_densityE24EEENS_9allocatorIS4_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam15basic_signatureILNS1_17signature_densityE24EEENS_9allocatorIS4_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam15basic_signatureILNS1_17signature_densityE24EEENS_9allocatorIS4_EEE9push_backB8ne200100EOS4_
+- __ZNSt3__16vectorIN6shazam15freebird_tensorENS_9allocatorIS2_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam15freebird_tensorENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam15freebird_tensorENS_9allocatorIS2_EEE22__construct_one_at_endB8ne200100IJRKS2_EEEvDpOT_
+- __ZNSt3__16vectorIN6shazam15freebird_tensorENS_9allocatorIS2_EEE5clearB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam15freebird_tensorENS_9allocatorIS2_EEE9push_backB8ne200100ERKS2_
+- __ZNSt3__16vectorIN6shazam15spectral_peak_tENS_9allocatorIS2_EEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorIN6shazam15spectral_peak_tENS_9allocatorIS2_EEE16__init_with_sizeB8ne200100INS_11__wrap_iterIPS2_EES9_EEvT_T0_m
+- __ZNSt3__16vectorIN6shazam15spectral_peak_tENS_9allocatorIS2_EEE16__init_with_sizeB8ne200100IPS2_S7_EEvT_T0_m
+- __ZNSt3__16vectorIN6shazam15spectral_peak_tENS_9allocatorIS2_EEE18__assign_with_sizeB8ne200100IPKS2_S8_EEvT_T0_l
+- __ZNSt3__16vectorIN6shazam15spectral_peak_tENS_9allocatorIS2_EEE18__insert_with_sizeB8ne200100INS_11__wrap_iterIPKS2_EESA_EENS7_IPS2_EESA_T_T0_l
+- __ZNSt3__16vectorIN6shazam15spectral_peak_tENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam21signature_header_typeENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam23spectral_peak_compact_tENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam24ancient_dead_sig_point_tENS_9allocatorIS2_EEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorIN6shazam24ancient_dead_sig_point_tENS_9allocatorIS2_EEE18__assign_with_sizeB8ne200100IPKS2_S8_EEvT_T0_l
+- __ZNSt3__16vectorIN6shazam24ancient_dead_sig_point_tENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam26static_aligned_dual_bufferIfEENS_9allocatorIS3_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam26static_aligned_dual_bufferIfEENS_9allocatorIS3_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam26static_aligned_dual_bufferIfEENS_9allocatorIS3_EEE20__throw_out_of_rangeB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam26static_aligned_dual_bufferIfEENS_9allocatorIS3_EEE22__base_destruct_at_endB8ne200100EPS3_
+- __ZNSt3__16vectorIN6shazam3dsp11CrepeFramer9timeframeENS_9allocatorIS4_EEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorIN6shazam3dsp11CrepeFramer9timeframeENS_9allocatorIS4_EEE16__init_with_sizeB8ne200100INS_11__wrap_iterIPKS4_EESC_EEvT_T0_m
+- __ZNSt3__16vectorIN6shazam3dsp11CrepeFramer9timeframeENS_9allocatorIS4_EEE18__insert_with_sizeB8ne200100INS_11__wrap_iterIPKS4_EESC_EENS9_IPS4_EESC_T_T0_l
+- __ZNSt3__16vectorIN6shazam3dsp11CrepeFramer9timeframeENS_9allocatorIS4_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam3dsp11CrepeFramer9timeframeENS_9allocatorIS4_EEE9push_backB8ne200100ERKS4_
+- __ZNSt3__16vectorIN6shazam3dsp4HCQTILj2ELj6EE9timeframeENS_9allocatorIS5_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam4lmfpILNS1_7fp_typeE0EEENS_9allocatorIS4_EEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorIN6shazam4lmfpILNS1_7fp_typeE0EEENS_9allocatorIS4_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam4lmfpILNS1_7fp_typeE0EEENS_9allocatorIS4_EEE9push_backB8ne200100ERKS4_
+- __ZNSt3__16vectorIN6shazam4lmfpILNS1_7fp_typeE0EEENS_9allocatorIS4_EEEC2B8ne200100Em
+- __ZNSt3__16vectorIN6shazam6ResultENS_9allocatorIS2_EEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorIN6shazam6ResultENS_9allocatorIS2_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam6ResultENS_9allocatorIS2_EEE16__init_with_sizeB8ne200100IPS2_S7_EEvT_T0_m
+- __ZNSt3__16vectorIN6shazam6ResultENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam6ResultENS_9allocatorIS2_EEE22__construct_one_at_endB8ne200100IJRKS2_EEEvDpOT_
+- __ZNSt3__16vectorIN6shazam6ResultENS_9allocatorIS2_EEE5clearB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam6ResultENS_9allocatorIS2_EEE9push_backB8ne200100ERKS2_
+- __ZNSt3__16vectorIN6shazam7peak_tfENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam7tfmatchENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam9PeakMatchENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam9PeakMatchENS_9allocatorIS2_EEE9push_backB8ne200100ERKS2_
+- __ZNSt3__16vectorIN6shazam9fp_suffixIL8AlgoType12EEENS_9allocatorIS4_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam9fp_suffixIL8AlgoType1EEENS_9allocatorIS4_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN6shazam9time_freqENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS0_IN6shazam15spectral_peak_tENS_9allocatorIS2_EEEENS3_IS5_EEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorINS0_IN6shazam15spectral_peak_tENS_9allocatorIS2_EEEENS3_IS5_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorINS0_IN6shazam15spectral_peak_tENS_9allocatorIS2_EEEENS3_IS5_EEE16__init_with_sizeB8ne200100IPS5_S9_EEvT_T0_m
+- __ZNSt3__16vectorINS0_IN6shazam15spectral_peak_tENS_9allocatorIS2_EEEENS3_IS5_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS0_IN6shazam15spectral_peak_tENS_9allocatorIS2_EEEENS3_IS5_EEE5clearB8ne200100Ev
+- __ZNSt3__16vectorINS0_IN6shazam15spectral_peak_tENS_9allocatorIS2_EEEENS3_IS5_EEEC2B8ne200100Em
+- __ZNSt3__16vectorINS0_IN6shazam24ancient_dead_sig_point_tENS_9allocatorIS2_EEEENS3_IS5_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorINS0_IN6shazam24ancient_dead_sig_point_tENS_9allocatorIS2_EEEENS3_IS5_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS0_IN6shazam24ancient_dead_sig_point_tENS_9allocatorIS2_EEEENS3_IS5_EEE5clearB8ne200100Ev
+- __ZNSt3__16vectorINS0_IcNS_9allocatorIcEEEENS1_IS3_EEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorINS0_IcNS_9allocatorIcEEEENS1_IS3_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorINS0_IcNS_9allocatorIcEEEENS1_IS3_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS0_IcNS_9allocatorIcEEEENS1_IS3_EEE5clearB8ne200100Ev
+- __ZNSt3__16vectorINS0_IcNS_9allocatorIcEEEENS1_IS3_EEEC2B8ne200100Em
+- __ZNSt3__16vectorINS_10unique_ptrIN6shazam15resample_streamENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN6shazam15resample_streamENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN6shazam15resample_streamENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE22__base_destruct_at_endB8ne200100EPS6_
+- __ZNSt3__16vectorINS_6chrono8durationIfNS_5ratioILl1ELl1EEEEENS_9allocatorIS5_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS_6chrono8durationIxNS_5ratioILl1ELl1000EEEEENS_9allocatorIS5_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS_7complexIfEENS_9allocatorIS2_EEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorINS_7complexIfEENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS_7complexIfEENS_9allocatorIS2_EEE7reserveEm
+- __ZNSt3__16vectorINS_7complexIfEENS_9allocatorIS2_EEEC2B8ne200100Em
+- __ZNSt3__16vectorIcNS_9allocatorIcEEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIcNS_9allocatorIcEEEC2B8ne200100Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE16__init_with_sizeB8ne200100IN3gsl7details13span_iteratorIKfEES9_EEvT_T0_m
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE16__init_with_sizeB8ne200100IN3gsl7details13span_iteratorIfEES8_EEvT_T0_m
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE16__init_with_sizeB8ne200100IPfS5_EEvT_T0_m
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE18__construct_at_endIN3gsl7details13span_iteratorIKfEES9_EEvT_T0_m
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE18__construct_at_endIN3gsl7details13span_iteratorIfEES8_EEvT_T0_m
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE18__insert_with_sizeB8ne200100IPKfS6_EENS_11__wrap_iterIPfEENS7_IS6_EET_T0_l
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_out_of_rangeB8ne200100Ev
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE9push_backB8ne200100ERKf
+- __ZNSt3__16vectorIfNS_9allocatorIfEEEC2B8ne200100Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEEC2B8ne200100EmRKf
+- __ZNSt3__16vectorIfNS_9allocatorIfEEEC2B8ne200100IN3gsl7details13span_iteratorIKfEELi0EEET_SA_
+- __ZNSt3__16vectorIfNS_9allocatorIfEEEC2B8ne200100IN3gsl7details13span_iteratorIfEELi0EEET_S9_
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE16__init_with_sizeB8ne200100IPKjS6_EEvT_T0_m
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE9push_backB8ne200100EOj
+- __ZNSt3__16vectorImNS_9allocatorImEEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorImNS_9allocatorImEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorImNS_9allocatorImEEE20__throw_out_of_rangeB8ne200100Ev
+- __ZNSt3__16vectorImNS_9allocatorImEEEC2B8ne200100EmRKm
+- __ZNSt3__16vectorIsNS_9allocatorIsEEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorIsNS_9allocatorIsEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIsNS_9allocatorIsEEEC2B8ne200100Em
+- __ZNSt3__16vectorIyNS_9allocatorIyEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__17__sort3B8ne200100INS_17_ClassicAlgPolicyERNS_7greaterIvEEPN6shazam6ResultELi0EEEbT1_S8_S8_T0_
+- __ZNSt3__17__sort3B8ne200100INS_17_ClassicAlgPolicyERPDoFbRKN6shazam11xpair_groupIJNS2_12xpair_fieldsEEEES7_EN3gsl7details13span_iteratorIS5_EELi0EEEbT1_SF_SF_T0_
+- __ZNSt3__17__sort4B8ne200100INS_17_ClassicAlgPolicyERN6shazam3$_0EPNS2_15spectral_peak_tELi0EEEvT1_S7_S7_S7_T0_
+- __ZNSt3__17__sort4B8ne200100INS_17_ClassicAlgPolicyERN6shazam3$_1EPNS2_15spectral_peak_tELi0EEEvT1_S7_S7_S7_T0_
+- __ZNSt3__17__sort4B8ne200100INS_17_ClassicAlgPolicyERN6shazam3$_3EPNS2_15spectral_peak_tELi0EEEvT1_S7_S7_S7_T0_
+- __ZNSt3__17__sort4B8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam15spectral_peak_tELi0EEEvT1_S8_S8_S8_T0_
+- __ZNSt3__17__sort4B8ne200100INS_17_ClassicAlgPolicyERPDoFbRKN6shazam11xpair_groupIJNS2_12xpair_fieldsEEEES7_EN3gsl7details13span_iteratorIS5_EELi0EEEvT1_SF_SF_SF_T0_
+- __ZNSt3__17__sort5B8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam11regresspairELi0EEEvT1_S8_S8_S8_S8_T0_
+- __ZNSt3__17__sort5B8ne200100INS_17_ClassicAlgPolicyERNS_7greaterIvEEPN6shazam6ResultELi0EEEvT1_S8_S8_S8_S8_T0_
+- __ZNSt3__17__sort5B8ne200100INS_17_ClassicAlgPolicyERPDoFbRKN6shazam11xpair_groupIJNS2_12xpair_fieldsEEEES7_EN3gsl7details13span_iteratorIS5_EELi0EEEvT1_SF_SF_SF_SF_T0_
+- __ZNSt3__18__rotateB8ne200100INS_17_ClassicAlgPolicyENS_16reverse_iteratorINS_11__wrap_iterIPcEEEES6_EENS_4pairIT0_S8_EES8_S8_T1_
+- __ZNSt3__19__sift_upB8ne200100INS_17_ClassicAlgPolicyERN6shazam7Tracker20ComparePeakMatchLessENS_11__wrap_iterIPNS2_9PeakMatchEEEEEvT1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
+- __ZNSt3__19__sift_upB8ne200100INS_17_ClassicAlgPolicyERN6shazam7Tracker23ComparePeakMatchGreaterENS_11__wrap_iterIPNS2_9PeakMatchEEEEEvT1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
+- __ZNSt3__19__sift_upB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam11regresspairEEEvT1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
+- __ZNSt3__19__sift_upB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN6shazam15spectral_peak_tEEEvT1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
+- __ZNSt3__19__sift_upB8ne200100INS_17_ClassicAlgPolicyERNS_7greaterIvEEPN6shazam6ResultEEEvT1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
+- __ZNSt3__19__sift_upB8ne200100INS_17_ClassicAlgPolicyERPDoFbRKN6shazam11xpair_groupIJNS2_12xpair_fieldsEEEES7_EN3gsl7details13span_iteratorIS5_EEEEvT1_SF_OT0_NS_15iterator_traitsISF_E15difference_typeE
+- __ZNSt3__19allocatorIN6shazam15CPULMFPDataBaseEE9constructB8ne200100IS2_JRNS1_10SearchPlanERNS_6vectorIcNS0_IcEEEEEEEvPT_DpOT0_
+- __ZNSt3__19allocatorIN6shazam16CPUOnePtDatabaseEE7destroyB8ne200100EPS2_
+- __ZSt28__throw_bad_array_new_lengthB8ne200100v
+- __ZTINSt3__110__function6__funcIN6shazam14SpectralOutput8callbackMUlPKfmE_ENS_9allocatorIS6_EEFvS5_mEEE
+- __ZTINSt3__110__function6__funcIZ20-[MRE search:error:]E3$_0NS_9allocatorIS2_EEFvRKN6shazam14SearchResponseEEEE
+- __ZTINSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEEE
+- __ZTINSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EEE
+- __ZTINSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EEE
+- __ZTINSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EEE
+- __ZTINSt3__110__function6__funcIZN6shazam11get_siginfoERKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS6_EEFvNS2_16signature_headerEEEE
+- __ZTINSt3__110__function6__funcIZN6shazam11get_versionERKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS6_EEFvNS2_16signature_headerEEEE
+- __ZTINSt3__110__function6__funcIZN6shazam14SpectralOutput7disableEvE3$_0NS_9allocatorIS4_EEFvPKfmEEE
+- __ZTINSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS9_EEFvNS2_16signature_headerEEEE
+- __ZTINSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorISE_EEFvNS2_16signature_headerEEEE
+- __ZTINSt3__110__function6__funcIZN6shazam8pairwise16audioscanCompareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_RKNS_8functionIFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEEERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0NS_9allocatorISU_EEFvRKNS2_14SearchResponseEEEE
+- __ZTINSt3__110__function6__funcIZN6shazam8pairwise7compareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_NS3_9MergeModeERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0NS_9allocatorISK_EEFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEEE
+- __ZTIZ20-[MRE search:error:]E3$_0
+- __ZTSNSt3__110__function6__funcIN6shazam14SpectralOutput8callbackMUlPKfmE_ENS_9allocatorIS6_EEFvS5_mEEE
+- __ZTSNSt3__110__function6__funcIZ20-[MRE search:error:]E3$_0NS_9allocatorIS2_EEFvRKN6shazam14SearchResponseEEEE
+- __ZTSNSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEEE
+- __ZTSNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EEE
+- __ZTSNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EEE
+- __ZTSNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EEE
+- __ZTSNSt3__110__function6__funcIZN6shazam11get_siginfoERKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS6_EEFvNS2_16signature_headerEEEE
+- __ZTSNSt3__110__function6__funcIZN6shazam11get_versionERKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS6_EEFvNS2_16signature_headerEEEE
+- __ZTSNSt3__110__function6__funcIZN6shazam14SpectralOutput7disableEvE3$_0NS_9allocatorIS4_EEFvPKfmEEE
+- __ZTSNSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS9_EEFvNS2_16signature_headerEEEE
+- __ZTSNSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorISE_EEFvNS2_16signature_headerEEEE
+- __ZTSNSt3__110__function6__funcIZN6shazam8pairwise16audioscanCompareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_RKNS_8functionIFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEEERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0NS_9allocatorISU_EEFvRKNS2_14SearchResponseEEEE
+- __ZTSNSt3__110__function6__funcIZN6shazam8pairwise7compareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_NS3_9MergeModeERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0NS_9allocatorISK_EEFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEEE
+- __ZTSZ20-[MRE search:error:]E3$_0
+- __ZTVNSt3__110__function6__funcIN6shazam14SpectralOutput8callbackMUlPKfmE_ENS_9allocatorIS6_EEFvS5_mEEE
+- __ZTVNSt3__110__function6__funcIZ20-[MRE search:error:]E3$_0NS_9allocatorIS2_EEFvRKN6shazam14SearchResponseEEEE
+- __ZTVNSt3__110__function6__funcIZ91-[SHSigX enableSpectralOutputForNumberOfFrequencyBins:callbackFrequency:completionHandler:]E3$_0NS_9allocatorIS2_EEFvPKfmEEE
+- __ZTVNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE16EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EEE
+- __ZTVNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE2147483647EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EEE
+- __ZTVNSt3__110__function6__funcIZN12_GLOBAL__N_15parseILN6shazam17signature_densityE24EEENS4_15basic_signatureIXT_EEERKNS4_21packed_signature_viewEEUlRKNS4_16signature_headerEE_NS_9allocatorISE_EEFvSB_EEE
+- __ZTVNSt3__110__function6__funcIZN6shazam11get_siginfoERKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS6_EEFvNS2_16signature_headerEEEE
+- __ZTVNSt3__110__function6__funcIZN6shazam11get_versionERKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS6_EEFvNS2_16signature_headerEEEE
+- __ZTVNSt3__110__function6__funcIZN6shazam14SpectralOutput7disableEvE3$_0NS_9allocatorIS4_EEFvPKfmEEE
+- __ZTVNSt3__110__function6__funcIZN6shazam16unpack_signatureINS2_18freebird_signatureEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorIS9_EEFvNS2_16signature_headerEEEE
+- __ZTVNSt3__110__function6__funcIZN6shazam16unpack_signatureINS_5tupleIJNS2_15basic_signatureILNS2_17signature_densityE2147483647EEENS2_18freebird_signatureEEEEEET_RKNS2_21packed_signature_viewEE3$_0NS_9allocatorISE_EEFvNS2_16signature_headerEEEE
+- __ZTVNSt3__110__function6__funcIZN6shazam8pairwise16audioscanCompareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_RKNS_8functionIFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEEERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0NS_9allocatorISU_EEFvRKNS2_14SearchResponseEEEE
+- __ZTVNSt3__110__function6__funcIZN6shazam8pairwise7compareENS2_20basic_signature_viewILNS2_17signature_densityE2147483647EEES6_NS3_9MergeModeERKNS2_16sig_chunk_configERKNS2_11QueryConfigERKNS2_10SearchPlanERKNS2_13TrackerConfigEE3$_0NS_9allocatorISK_EEFvRKNS2_14TrackingResultERKNS2_13sig_alignmentEEEE
+- __ZZN6shazam10cull_phaseIL8AlgoType12ENS_11xpair_groupIJNS_12xpair_fieldsEEEELm2ELPv0EEEvRNSt3__16vectorINS_6ResultENS6_9allocatorIS8_EEEES8_RNS7_INS_11regresspairENS9_ISD_EEEERKN3gsl4spanIT0_Lm18446744073709551615EEEENKUlT_E_clINSI_IS4_Lm18446744073709551615EEEEEDaSN_
+- __ZZN6shazam10cull_phaseIL8AlgoType1ENS_11xpair_groupIJNS_12xpair_fieldsEEEELm2ELPv0EEEvRNSt3__16vectorINS_6ResultENS6_9allocatorIS8_EEEES8_RNS7_INS_11regresspairENS9_ISD_EEEERKN3gsl4spanIT0_Lm18446744073709551615EEEENKUlT_E_clINSI_IS4_Lm18446744073709551615EEEEEDaSN_
+- ___block_literal_global.110
+- ___block_literal_global.56
+- ___block_literal_global.69
+- _block_copy_helper.18
+- _block_copy_helper.4
+- _block_descriptor.20
+- _block_descriptor.6
+- _block_destroy_helper.19
+- _block_destroy_helper.5
+- _keypath_get.8Tm
+- _keypath_set.9Tm
+- _objc_claimAutoreleasedReturnValue
+- _objc_msgSend$artworkURLForSize:
+- _objc_msgSend$boundingBox
+- _objc_msgSend$compareQuerySignature:withReferenceSignature:mergeMode:numHistogramBuckets:scoreThreshold:boundingBox:frequencyPenaltyMultiplier:forwardPassOnly:singlePassOnly:refineStartEnd:queryThreshold:error:
+- _objc_msgSend$frequencyPenaltyMultiplier
+- _objc_msgSend$initWithSignature:deadline:installationID:sendNotifications:stopCondition:requestType:requestID:
+- _objc_msgSend$initWithSignature:deadline:sendNotifications:stopCondition:requestType:requestID:
+- _objc_msgSend$initWithSignatures:density:algorithm:error:
+- _objc_msgSend$numHistogramBuckets
+- _objc_msgSend$numberWithInteger:
+- _objc_msgSend$queryThreshold
+- _objc_msgSend$removeSignatureWithID:
+- _objc_msgSend$requestOnceWithAppIntentForRequestID:
+- _objc_msgSend$requestOnceWithNotifications:forRequestID:
+- _objc_msgSend$requestSignatureGenerationOnceForRequestID:
+- _objc_msgSend$requestSignatureGenerationUntilDeadline:forRequestID:
+- _objc_msgSend$requestToMatchSignature:installationID:sendNotifications:
+- _objc_msgSend$requestToMatchSignature:installationID:sendNotifications:forRequestID:
+- _objc_msgSend$requestToMatchUntilDeadline:sendNotifications:forRequestID:
+- _objc_msgSend$requestUntilMatchWithNotifications:forRequestID:
+- _objc_msgSend$scoreThreshold
+- _objc_msgSend$search:error:
+- _objc_msgSend$subarrayWithRange:
+- _objc_msgSend$targetArtworkImageSizeFromTargetSize:aspectRatio:
+- _objc_msgSend$trackQuerySignature:inReferenceSignature:usingMergePolicy:configuration:error:
+- _objc_msgSend$urlWithURLTemplate:width:height:
+- _objc_retainAutoreleaseReturnValue
+- _objc_retain_x1
+- _objc_retain_x4
+- _objc_retain_x5
+- _objc_retain_x6
+CStrings:
++ " allocation failed for "
++ " bytes"
++ "/AppleInternal/Library/BuildRoots/4~CH9SugCg_kgY2DAXn5027t4NmA6Bdi8H-Xg9Kpw/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:293: libc++ Hardening assertion __k != __leftmost failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CH9SugCg_kgY2DAXn5027t4NmA6Bdi8H-Xg9Kpw/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:512: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CH9SugCg_kgY2DAXn5027t4NmA6Bdi8H-Xg9Kpw/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:525: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CH9SugCg_kgY2DAXn5027t4NmA6Bdi8H-Xg9Kpw/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:603: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CH9SugCg_kgY2DAXn5027t4NmA6Bdi8H-Xg9Kpw/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:615: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CH9SugCg_kgY2DAXn5027t4NmA6Bdi8H-Xg9Kpw/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:633: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CH9SugCg_kgY2DAXn5027t4NmA6Bdi8H-Xg9Kpw/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:638: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CH9SugCg_kgY2DAXn5027t4NmA6Bdi8H-Xg9Kpw/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:669: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CH9SugCg_kgY2DAXn5027t4NmA6Bdi8H-Xg9Kpw/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:682: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CH9SugCg_kgY2DAXn5027t4NmA6Bdi8H-Xg9Kpw/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:692: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CH9SugCg_kgY2DAXn5027t4NmA6Bdi8H-Xg9Kpw/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:697: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CH9SugCg_kgY2DAXn5027t4NmA6Bdi8H-Xg9Kpw/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:1162: libc++ Hardening assertion __position != end() failed: vector::erase(iterator) called with a non-dereferenceable iterator\n"
++ "/AppleInternal/Library/BuildRoots/4~CH9SugCg_kgY2DAXn5027t4NmA6Bdi8H-Xg9Kpw/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:1172: libc++ Hardening assertion __first <= __last failed: vector::erase(first, last) called with invalid range\n"
++ "/AppleInternal/Library/BuildRoots/4~CH9SugCg_kgY2DAXn5027t4NmA6Bdi8H-Xg9Kpw/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CH9SugCg_kgY2DAXn5027t4NmA6Bdi8H-Xg9Kpw/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:410: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CH9SugCg_kgY2DAXn5027t4NmA6Bdi8H-Xg9Kpw/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:433: libc++ Hardening assertion !empty() failed: back() called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/4~CH9SugCg_kgY2DAXn5027t4NmA6Bdi8H-Xg9Kpw/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:437: libc++ Hardening assertion !empty() failed: back() called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/4~CH9SugCg_kgY2DAXn5027t4NmA6Bdi8H-Xg9Kpw/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:486: libc++ Hardening assertion !empty() failed: vector::pop_back called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/4~CH9SugCg_kgY2DAXn5027t4NmA6Bdi8H-Xg9Kpw/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/array:271: libc++ Hardening assertion __n < _Size failed: out-of-bounds access in std::array<T, N>\n"
++ "/AppleInternal/Library/BuildRoots/4~CH9SugCg_kgY2DAXn5027t4NmA6Bdi8H-Xg9Kpw/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/array:275: libc++ Hardening assertion __n < _Size failed: out-of-bounds access in std::array<T, N>\n"
++ "/AppleInternal/Library/BuildRoots/4~CH9SugCg_kgY2DAXn5027t4NmA6Bdi8H-Xg9Kpw/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/optional:801: libc++ Hardening assertion this->has_value() failed: optional operator-> called on a disengaged value\n"
++ "/AppleInternal/Library/BuildRoots/4~CH9SugCg_kgY2DAXn5027t4NmA6Bdi8H-Xg9Kpw/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/optional:806: libc++ Hardening assertion this->has_value() failed: optional operator* called on a disengaged value\n"
++ "/AppleInternal/Library/BuildRoots/4~CH9SugCg_kgY2DAXn5027t4NmA6Bdi8H-Xg9Kpw/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/span:457: libc++ Hardening assertion __last - __first >= 0 failed: invalid range in span's constructor (iterator, sentinel)\n"
++ "/AppleInternal/Library/BuildRoots/4~CH9SugCg_kgY2DAXn5027t4NmA6Bdi8H-Xg9Kpw/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/span:512: libc++ Hardening assertion __offset <= size() failed: span<T>::subspan(offset, count): offset out of range\n"
++ "/AppleInternal/Library/BuildRoots/4~CH9SugCg_kgY2DAXn5027t4NmA6Bdi8H-Xg9Kpw/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/span:516: libc++ Hardening assertion __count <= size() - __offset failed: span<T>::subspan(offset, count): offset + count out of range\n"
++ "/AppleInternal/Library/BuildRoots/4~CH9SugCg_kgY2DAXn5027t4NmA6Bdi8H-Xg9Kpw/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/span:525: libc++ Hardening assertion __idx < size() failed: span<T>::operator[](index): index out of range\n"
++ "/AppleInternal/Library/BuildRoots/4~CH9SugCg_kgY2DAXn5027t4NmA6Bdi8H-Xg9Kpw/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/string_view:341: libc++ Hardening assertion (__end - __begin) >= 0 failed: std::string_view::string_view(iterator, sentinel) received invalid range\n"
++ "25.12.2 (compilation mode 'release', built on 'OS X')"
++ "@\"<SHMatcher>\"16@0:8"
++ "@\"NSUserDefaults\""
++ "@\"SHReferenceMatch\""
++ "@\"SHReferenceSignature\"24@0:8@\"NSString\"16"
++ "@\"SHSignatureBatchMatcher\""
++ "@40@0:8d16d24d32"
++ "@44@0:8@16B24@28B36B40"
++ "@48@0:8q16q24@32@40"
++ "@52@0:8@16B24B28f32f36f40^@44"
++ "@56@0:8@16q24q32@40@48"
++ "@68@0:8@16@24I32f36I40B44B48B52B56^@60"
++ "@68@0:8@16q24q32q40q48B56^@60"
++ "@72@0:8@16@24d32d40f48f52f56C60^@64"
++ "Attempt to fetch rematched results failed with error: %@"
++ "B32@0:8@\"NSString\"16^@24"
++ "Batch progress: %@ (%lu remaining) - Signature: %@ | Request: %@"
++ "Cannot build verification database: signature contains no peaks"
++ "Cannot process next signature, batch processing has been stopped"
++ "Cannot start new batch request %@ while request %@ is still running. Call stopRecognition first."
++ "Density Coeff not support for Algo Type %s"
++ "DisabledDataclasses"
++ "Exclude Stopwords not support for Algo Type %s"
++ "Failed to get audio from asset, OSStatus: %d"
++ "Invalid - Leftover bytes smaller than expected"
++ "Invalid - Unable to dump research sig"
++ "Matcher %@ does not implement %@, falling back to default implementation for request %@"
++ "Matcher of class %@ does not implement required methods. Expected a specialized method or %@"
++ "Matching %lu signatures"
++ "Matching signature using verification sweeping"
++ "Missing maximum height for image, using default, this will cause the image to be mis-sized"
++ "Missing maximum width for image, using default, this will cause the image to be mis-sized"
++ "No more signatures to process in batch queue"
++ "No rematched results available for client."
++ "No user defaults suite for apple account. Syncing allowed."
++ "No valid signatures to match after filtering %lu signatures"
++ "No verification data to search against."
++ "Passing <= 0 as the maximum size is unsupported, instead do not pass a maximum value"
++ "Processing next signature: %@ (%lu remaining) - Request: %@"
++ "Received rematched results for client but could not remove them from store. Discarding results to prevent duplicates; Client will receive them on retry."
++ "SHCatalogConfigurationStoreSignatureOnNoMatchKey"
++ "SHHapticItemErrorKey"
++ "SHMatcherRequestProtocol"
++ "SHNotificationPresentation"
++ "SHParentMatcher"
++ "SHRecordRequest"
++ "SHRematchDataStoreDidChangeNotification"
++ "SHSessionResult"
++ "SHSessionStoreDaemonConnection"
++ "SHSessionStoreManaging"
++ "SHShazamCatalogConfiguration"
++ "SHSignatureBatchMatcher"
++ "SHSignatureGenerationRequest"
++ "SHSignatureMatchRequest"
++ "SHVerificationSweepMatcher"
++ "ShazamKit/AlignmentComparator.swift"
++ "ShazamKit/SHLibrary.swift"
++ "ShazamKit/TimeSkewShortComparator.swift"
++ "ShazamKit/VerificationSweepComparator.swift"
++ "SigVerificationSweep"
++ "Signature with identifier '%@' could not be removed as it does not exist in the custom catalog."
++ "Starting batch signature matching %lu signatures for request %@"
++ "Stop called for unknown request ID: %@"
++ "Stopping batch recognition for request: %@ (%lu signatures remaining, %@ in-flight)"
++ "Successfully delivered %ld rematched results to client."
++ "T@\"<SHMatcher>\",&,N"
++ "T@\"<SHMatcher>\",&,N,V_childMatcher"
++ "T@\"NSArray\",R,C,N,V_signatures"
++ "T@\"NSMutableArray\",&,N,V_pendingSignatures"
++ "T@\"NSString\",&,N,V_currentInstallationID"
++ "T@\"NSUUID\",&,N,V_currentRequestID"
++ "T@\"NSUserDefaults\",R,N,V_appleAccountUserDefaults"
++ "T@\"SHReferenceMatch\",R,N,V_referenceMatch"
++ "T@\"SHSignature\",R,C,N"
++ "T@\"SHSignatureBatchMatcher\",&,N,V_signatureBatchMatcher"
++ "TB,N,V_mreBufferSizeIsDefault"
++ "TB,N,V_mreSkipPrefixTable"
++ "TB,N,V_multipleResults"
++ "TB,N,V_scorePenalties"
++ "TB,N,V_storeSignatureOnNoMatch"
++ "TB,N,V_supportsVerificationSweep"
++ "TB,N,V_thinReferenceSignature"
++ "TB,R,N,V_enableLiveActivity"
++ "TB,R,N,V_hasHitDeadline"
++ "TB,R,N,V_storeSignatureOnNoMatch"
++ "Tf,N"
++ "Tf,N,V_skewMax"
++ "Tf,N,V_skewMin"
++ "Tf,N,V_threshold"
++ "Tf,N,V_trackerThreshold"
++ "The total duration of signatures must be less that "
++ "There should not be zero media items, we have a configuration error"
++ "There should only be one media item, we have a configuration error"
++ "Tq,N"
++ "Tq,N,V_trackerBoundingBox"
++ "Tq,N,V_trackerBucketSeconds"
++ "TwoPoint"
++ "URLWithWidth:height:cropStyle:format:"
++ "_TtC9ShazamKitP33_2F6BC5861FE4C579328143AC9DE19FB019ResourceBundleClass"
++ "_TtC9ShazamKitP33_51DA407C08E019BDCEC762F125F5B9D219ResourceBundleClass"
++ "_appleAccountUserDefaults"
++ "_childMatcher"
++ "_createCheckedThrowingContinuation(_:)"
++ "_currentInstallationID"
++ "_hasHitDeadline"
++ "_mreBufferSizeIsDefault"
++ "_mreSkipPrefixTable"
++ "_multipleResults"
++ "_pendingSignatures"
++ "_referenceMatch"
++ "_scorePenalties"
++ "_shouldAddSignatureForMatching:"
++ "_shouldNotifySessionFinishedForResponse:"
++ "_shouldRejectSignature:"
++ "_signatureBatchMatcher"
++ "_skewMax"
++ "_skewMin"
++ "_storeSignatureOnNoMatch"
++ "_supportsVerificationSweep"
++ "_thinReferenceSignature"
++ "_threshold"
++ "_trackerBoundingBox"
++ "_trackerBucketSeconds"
++ "_trackerThreshold"
++ "appleAccountUserDefaults"
++ "aspectRatioPreservingURLWithWidth:height:"
++ "bb"
++ "bins_per_octave must be greater than zero"
++ "childMatcher"
++ "com.apple.Dataclass.MusicRecognition"
++ "com.apple.appleaccount"
++ "com.apple.shazam.ShazamKitOverlay"
++ "com.shazam.sigverification"
++ "compareQuerySignature:withReferenceSignature:trackerBucketSeconds:trackerThreshold:trackerBoundingBox:forwardPassOnly:singlePassOnly:thinReferenceSignature:refineStartEnd:error:"
++ "completed"
++ "currentInstallationID"
++ "defaultCachedInstallationID"
++ "errorResponseForRequest:error:"
++ "failed to format string!"
++ "fetchPendingRematchSignaturesWithCompletionHandler:"
++ "fetchRematchedResultsWithCompletionHandler:"
++ "heap"
++ "heic"
++ "initOneTimeRequest"
++ "initOneTimeRequestWithRequestID:"
++ "initWithChildMatcher:"
++ "initWithDeadline:"
++ "initWithDeadline:requestID:"
++ "initWithMinimumSignatureDuration:maximumSignatureDuration:bufferDuration:"
++ "initWithRequestID:notifications:deadline:storeSignatureOnNoMatch:enableLiveActivity:"
++ "initWithSignature:installationID:"
++ "initWithSignature:installationID:deadline:requestID:"
++ "initWithSignature:match:error:"
++ "initWithSignatures:density:algorithm:databasePeakDensity:bufferSize:skipPrefixTable:error:"
++ "initWithSignatures:installationID:"
++ "initWithSignatures:installationID:deadline:requestID:"
++ "initWithStopCondition:requestType:requestID:installationID:"
++ "initWithSuiteName:"
++ "isEqualArtwork:"
++ "isSyncingAllowed"
++ "latitude"
++ "longitude"
++ "matchSignatures:"
++ "mreBufferSizeIsDefault"
++ "mreSkipPrefixTable"
++ "multipleResults"
++ "none"
++ "ongoing"
++ "pendingSignatures"
++ "processNextSignature"
++ "referenceMatch"
++ "referenceMatchForSignatureWithID:"
++ "referenceSignatureForID:"
++ "rematchedResultsWithCompletionHandler:"
++ "removeLastObject"
++ "removeReferenceSignatureWithID:error:"
++ "removeRematchedResults:completionHandler:"
++ "removeSignatureWithID:error:"
++ "request"
++ "requestWithDeadline:"
++ "requestWithID:notifications:"
++ "reverseObjectEnumerator"
++ "s when using timeSkewShort"
++ "scheduleRematchNotificationWithResults:completionHandler:"
++ "scorePenalties"
++ "search:multipleResults:scorePenalties:threshold:skewMin:skewMax:error:"
++ "setChildMatcher:"
++ "setCurrentInstallationID:"
++ "setCurrentRequestID:"
++ "setMreBufferSizeIsDefault:"
++ "setMreSkipPrefixTable:"
++ "setMultipleResults:"
++ "setPendingSignatures:"
++ "setScorePenalties:"
++ "setSignatureBatchMatcher:"
++ "setSkewMax:"
++ "setSkewMin:"
++ "setStoreSignatureOnNoMatch:"
++ "setSupportsVerificationSweep:"
++ "setThinReferenceSignature:"
++ "setThreshold:"
++ "setTrackerBoundingBox:"
++ "setTrackerBucketSeconds:"
++ "setTrackerThreshold:"
++ "sh_artwork"
++ "sh_containsInternetConnectionError"
++ "shouldUseLiveActivity"
++ "signatureBatchMatcher"
++ "signatureForRequest:"
++ "skewMax"
++ "skewMin"
++ "startRecordRequest:"
++ "startRequestWithMatcher:"
++ "startSignatureGenerationRequest:"
++ "startSignatureMatchRequest:"
++ "storeSignatureOnNoMatch"
++ "stringByRemovingPercentEncoding"
++ "supportsVerificationSweep"
++ "sweepDatabaseSignature:QuerySignature:sweepLength:initialOffset:timeSkew:frequencySkew:thresholdMultiplier:boundingBox:error:"
++ "targetArtworkImageSizeFromTargetWidth:height:aspectRatio:"
++ "thinReferenceSignature"
++ "threshold"
++ "timeskew_short"
++ "trackerBoundingBox"
++ "trackerBucketSeconds"
++ "trackerThreshold"
++ "transformLocationCoordinateValue:shouldSerialize:"
++ "uiServiceConnection"
++ "underlyingErrors"
++ "urlWithURLTemplate:width:height:cropStyle:format:"
++ "v20@?0B8@\"NSError\"12"
++ "v24@0:8@\"<SHMatcher>\"16"
++ "v24@0:8@\"SHRecordRequest\"16"
++ "v24@0:8@\"SHSignatureGenerationRequest\"16"
++ "v24@0:8@\"SHSignatureMatchRequest\"16"
++ "v24@0:8@?<v@?@\"NSArray\"@\"NSError\">16"
++ "v32@0:8@\"NSArray\"16@?<v@?@\"NSError\">24"
++ "v32@0:8@\"NSArray\"16@?<v@?B@\"NSError\">24"
++ "virtual memory"
++ "{CGSize=dd}40@0:8q16q24d32"
++ "{c}"
+- "0.0.0"
+- "25.5.4 (compilation mode 'release', built on 'OS X')"
+- "@28@0:8B16@20"
+- "@32@0:8{CGSize=dd}16"
+- "@36@0:8@16B24@28"
+- "@40@0:8@16q24q32"
+- "@44@0:8@16@24B32@36"
+- "@56@0:8@16@24q32@40^@48"
+- "@60@0:8@16@24B32q36q44@52"
+- "@68@0:8@16@24@32B40q44q52@60"
+- "@80@0:8@16@24q32I40f44I48f52B56B60B64f68^@72"
+- "Error when calculating time curvature: negative value"
+- "Error when decoding sumo peaks: sumo peak too small"
+- "Error when filling sumo patch: patch size must be 5"
+- "Failed to get audio from URL passed to buffersFromAssetURL"
+- "Invalid - Can only extract sumo peaks from a sumo signature"
+- "Invalid - Duplicate peak found"
+- "Invalid - Error decompressing signature, could not get header of each band"
+- "Invalid - First peak and last peak less than 0.5 seconds apart"
+- "Invalid - Leftover bytes smaller than EXT_HEADER_TYPE"
+- "Invalid - Legacy sig info missing"
+- "Invalid - No audio in signature"
+- "Invalid - No peaks in signature"
+- "Invalid - Number of Bands not equal between rv and bands"
+- "Invalid - Out of order peaks"
+- "Invalid - Payload type of sumo doesn't match sig header"
+- "Invalid - Peak Density is too high"
+- "Invalid - Sumo sig info block has the wrong size"
+- "Invalid - Unable to dump sumo sig"
+- "Invalid - Unpacked sig has no header to extract peaks from"
+- "Invalid - Zero byte sig"
+- "Invalid - no header to extract sumo peaks from"
+- "Matching signature with duration %f"
+- "Passing <= 0 maximum size is unsupported, instead do not pass maximum value"
+- "Requested "
+- "Tf,N,V_scoreThreshold"
+- "Tq,N,V_boundingBox"
+- "Tq,N,V_numHistogramBuckets"
+- "_boundingBox"
+- "_numHistogramBuckets"
+- "_scoreThreshold"
+- "artworkURLForSize:"
+- "bytes."
+- "compareQuerySignature:withReferenceSignature:mergeMode:numHistogramBuckets:scoreThreshold:boundingBox:frequencyPenaltyMultiplier:forwardPassOnly:singlePassOnly:refineStartEnd:queryThreshold:error:"
+- "initWithSignature:deadline:installationID:sendNotifications:stopCondition:requestType:requestID:"
+- "initWithSignature:deadline:sendNotifications:stopCondition:requestType:requestID:"
+- "jpg"
+- "mmap failed! "
+- "numberWithInteger:"
+- "removeReferenceSignatureWithID:"
+- "removeSignatureWithID:"
+- "requestOnceWithAppIntentForRequestID:"
+- "requestOnceWithNotifications:"
+- "requestOnceWithNotifications:forRequestID:"
+- "requestSignatureGenerationOnce"
+- "requestSignatureGenerationOnceForRequestID:"
+- "requestSignatureGenerationUntilDeadline:"
+- "requestSignatureGenerationUntilDeadline:forRequestID:"
+- "requestToMatchSignature:installationID:sendNotifications:"
+- "requestToMatchSignature:installationID:sendNotifications:forRequestID:"
+- "requestToMatchUntilDeadline:sendNotifications:"
+- "requestToMatchUntilDeadline:sendNotifications:forRequestID:"
+- "requestUntilMatchWithNotifications:"
+- "requestUntilMatchWithNotifications:forRequestID:"
+- "sh_artworkDictionary"
+- "subarrayWithRange:"
+- "targetArtworkImageSizeFromTargetSize:aspectRatio:"
+- "trackQuerySignature:inReferenceSignature:usingMergePolicy:configuration:error:"
+- "urlWithURLTemplate:width:height:"
+- "v24@0:8@\"NSString\"16"
+- "{CGSize=dd}40@0:8{CGSize=dd}16d32"
+
+```

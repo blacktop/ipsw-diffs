@@ -1,0 +1,435 @@
+## EmojiPosterFramework
+
+> `/System/Library/PrivateFrameworks/EmojiPosterFramework.framework/EmojiPosterFramework`
+
+```diff
+
+-67.0.0.0.0
+-  __TEXT.__text: 0x564e4
+-  __TEXT.__auth_stubs: 0x1610
++68.0.0.0.0
++  __TEXT.__text: 0x53c20
++  __TEXT.__auth_stubs: 0x15f0
+   __TEXT.__objc_methlist: 0xc50
+   __TEXT.__const: 0x52e4
+   __TEXT.__gcc_except_tab: 0x944
+-  __TEXT.__cstring: 0x1dd4
+-  __TEXT.__swift5_typeref: 0x1206
++  __TEXT.__cstring: 0x1703
++  __TEXT.__swift5_typeref: 0x1212
+   __TEXT.__constg_swiftt: 0x2408
+   __TEXT.__swift5_reflstr: 0x1136
+   __TEXT.__swift5_fieldmd: 0x148c
+
+   __TEXT.__swift5_proto: 0x2b8
+   __TEXT.__swift5_types: 0x170
+   __TEXT.__swift5_capture: 0x320
+-  __TEXT.__oslogstring: 0x27d
++  __TEXT.__oslogstring: 0x272
+   __TEXT.__swift5_protos: 0x20
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x17d8
+-  __TEXT.__eh_frame: 0x7f8
+-  __TEXT.__objc_classname: 0xf7
+-  __TEXT.__objc_methname: 0x206f
+-  __TEXT.__objc_methtype: 0x919
+-  __TEXT.__objc_stubs: 0x3a0
+-  __DATA_CONST.__got: 0x438
++  __TEXT.__unwind_info: 0x17c8
++  __TEXT.__eh_frame: 0x7c8
++  __TEXT.__objc_classname: 0x914
++  __TEXT.__objc_methname: 0x2ed9
++  __TEXT.__objc_methtype: 0xc26
++  __TEXT.__objc_stubs: 0x1de0
++  __DATA_CONST.__got: 0x440
+   __DATA_CONST.__const: 0x328
+   __DATA_CONST.__objc_classlist: 0x138
+   __DATA_CONST.__objc_catlist: 0x10
+
+   __DATA_CONST.__objc_selrefs: 0xb50
+   __DATA_CONST.__objc_protorefs: 0x30
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __AUTH_CONST.__auth_got: 0xb18
+-  __AUTH_CONST.__const: 0x3530
++  __AUTH_CONST.__auth_got: 0xb08
++  __AUTH_CONST.__const: 0x3590
+   __AUTH_CONST.__cfstring: 0x160
+   __AUTH_CONST.__objc_const: 0x3548
+-  __AUTH.__objc_data: 0x23c8
+-  __AUTH.__data: 0x10c8
++  __AUTH.__objc_data: 0x1d98
++  __AUTH.__data: 0x8a8
+   __DATA.__objc_ivar: 0x8
+-  __DATA.__data: 0x1100
+-  __DATA.__bss: 0x50d0
+-  __DATA.__common: 0x178
++  __DATA.__data: 0xbc8
++  __DATA.__bss: 0x2da0
++  __DATA.__common: 0xe0
++  __DATA_DIRTY.__objc_data: 0x630
++  __DATA_DIRTY.__data: 0xd70
++  __DATA_DIRTY.__bss: 0x2340
++  __DATA_DIRTY.__common: 0x98
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreText.framework/CoreText
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D98D7DD5-776B-33F0-B19A-7A179102ACCE
+-  Functions: 2095
+-  Symbols:   1545
+-  CStrings:  725
++  UUID: 6AF62E34-D57D-3F87-9859-5B6CAD7384AD
++  Functions: 2091
++  Symbols:   1756
++  CStrings:  719
+ 
+Symbols:
++ GCC_except_table60
++ __ZNKSt3__110__function6__funcINS_6__bindIM15JCImageAnalyzerFv7CGPointR10JCHSVColorjEJPS3_RKNS_12placeholders4__phILi1EEERKNSB_ILi2EEERKNSB_ILi3EEEEEEFvS4_S6_jEE11target_typeEv
++ __ZNKSt3__110__function6__funcINS_6__bindIM15JCImageAnalyzerFv7CGPointR10JCHSVColorjEJPS3_RKNS_12placeholders4__phILi1EEERKNSB_ILi2EEERKNSB_ILi3EEEEEEFvS4_S6_jEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcINS_6__bindIM15JCImageAnalyzerFv7CGPointR10JCHSVColorjEJPS3_RKNS_12placeholders4__phILi1EEERKNSB_ILi2EEERKNSB_ILi3EEEEEEFvS4_S6_jEE7__cloneEPNS0_6__baseISM_EE
++ __ZNKSt3__110__function6__funcINS_6__bindIM15JCImageAnalyzerFv7CGPointR10JCHSVColorjEJPS3_RKNS_12placeholders4__phILi1EEERKNSB_ILi2EEERKNSB_ILi3EEEEEEFvS4_S6_jEE7__cloneEv
++ __ZNKSt9type_infoeqB9foe210106ERKS_
++ __ZNSt12length_errorC1B9foe210106EPKc
++ __ZNSt3__110__function12__value_funcIFv7CGPointR10JCHSVColorjEED2B9foe210106Ev
++ __ZNSt3__110__function6__funcINS_6__bindIM15JCImageAnalyzerFv7CGPointR10JCHSVColorjEJPS3_RKNS_12placeholders4__phILi1EEERKNSB_ILi2EEERKNSB_ILi3EEEEEEFvS4_S6_jEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcINS_6__bindIM15JCImageAnalyzerFv7CGPointR10JCHSVColorjEJPS3_RKNS_12placeholders4__phILi1EEERKNSB_ILi2EEERKNSB_ILi3EEEEEEFvS4_S6_jEE7destroyEv
++ __ZNSt3__110__function6__funcINS_6__bindIM15JCImageAnalyzerFv7CGPointR10JCHSVColorjEJPS3_RKNS_12placeholders4__phILi1EEERKNSB_ILi2EEERKNSB_ILi3EEEEEEFvS4_S6_jEED0Ev
++ __ZNSt3__110__function6__funcINS_6__bindIM15JCImageAnalyzerFv7CGPointR10JCHSVColorjEJPS3_RKNS_12placeholders4__phILi1EEERKNSB_ILi2EEERKNSB_ILi3EEEEEEFvS4_S6_jEED1Ev
++ __ZNSt3__110__function6__funcINS_6__bindIM15JCImageAnalyzerFv7CGPointR10JCHSVColorjEJPS3_RKNS_12placeholders4__phILi1EEERKNSB_ILi2EEERKNSB_ILi3EEEEEEFvS4_S6_jEEclEOS4_S6_Oj
++ __ZNSt3__110__pop_heapB9foe210106INS_17_ClassicAlgPolicyEPFb14sortColorEntryS2_EPS2_EEvT1_S6_RT0_NS_15iterator_traitsIS6_E15difference_typeE
++ __ZNSt3__111__sift_downB9foe210106INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEvT1_OT0_NS_15iterator_traitsIS7_E15difference_typeES7_
++ __ZNSt3__111__sift_downB9foe210106INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_OT0_NS_15iterator_traitsIS7_E15difference_typeES7_
++ __ZNSt3__116__insertion_sortB9foe210106INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEvT1_S7_T0_
++ __ZNSt3__116__insertion_sortB9foe210106INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_S7_T0_
++ __ZNSt3__117__floyd_sift_downB9foe210106INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EET1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
++ __ZNSt3__117__floyd_sift_downB9foe210106INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EET1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorI12sortHueEntryEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorI14sortColorEntryEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorI7JCColorEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__partial_sort_implB9foe210106INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_S6_EET1_S7_S7_T2_OT0_
++ __ZNSt3__119__partial_sort_implB9foe210106INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_S6_EET1_S7_S7_T2_OT0_
++ __ZNSt3__120__throw_length_errorB9foe210106EPKc
++ __ZNSt3__125__throw_bad_function_callB9foe210106Ev
++ __ZNSt3__126__insertion_sort_unguardedB9foe210106INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEvT1_S7_T0_
++ __ZNSt3__126__insertion_sort_unguardedB9foe210106INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_S7_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9foe210106INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEbT1_S7_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9foe210106INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEbT1_S7_T0_
++ __ZNSt3__131__partition_with_equals_on_leftB9foe210106INS_17_ClassicAlgPolicyEP12sortHueEntryRPFbS2_S2_EEET0_S7_S7_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB9foe210106INS_17_ClassicAlgPolicyEP14sortColorEntryRPFbS2_S2_EEET0_S7_S7_T1_
++ __ZNSt3__132__internal_log_hardening_failureEPKc
++ __ZNSt3__132__partition_with_equals_on_rightB9foe210106INS_17_ClassicAlgPolicyEP12sortHueEntryRPFbS2_S2_EEENS_4pairIT0_bEES8_S8_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB9foe210106INS_17_ClassicAlgPolicyEP14sortColorEntryRPFbS2_S2_EEENS_4pairIT0_bEES8_S8_T1_
++ __ZNSt3__134__uninitialized_allocator_relocateB9foe210106INS_9allocatorI14sortColorEntryEEPS2_EEvRT_T0_S7_S7_
++ __ZNSt3__134__uninitialized_allocator_relocateB9foe210106INS_9allocatorI7JCColorEEPS2_EEvRT_T0_S7_S7_
++ __ZNSt3__16__bindIM15JCImageAnalyzerFv7CGPointR10JCHSVColorjEJPS1_RKNS_12placeholders4__phILi1EEERKNS9_ILi2EEERKNS9_ILi3EEEEEclB9foe210106IJS2_S4_jEEENS_13__bind_returnIS6_NS_5tupleIJS7_SA_SD_SG_EEENSM_IJDpOT_EEEXsr22__is_valid_bind_returnIS6_SN_SR_EE5valueEE4typeESQ_
++ __ZNSt3__16vectorI12sortHueEntryNS_9allocatorIS1_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorI14sortColorEntryNS_9allocatorIS1_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorI14sortColorEntryNS_9allocatorIS1_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorI14sortColorEntryNS_9allocatorIS1_EEE9push_backB9foe210106ERKS1_
++ __ZNSt3__16vectorI7JCColorNS_9allocatorIS1_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorI7JCColorNS_9allocatorIS1_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__17__sort3B9foe210106INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_Li0EEEbT1_S7_S7_T0_
++ __ZNSt3__17__sort4B9foe210106INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_Li0EEEvT1_S7_S7_S7_T0_
++ __ZNSt3__17__sort4B9foe210106INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_Li0EEEvT1_S7_S7_S7_T0_
++ __ZNSt3__17__sort5B9foe210106INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_Li0EEEvT1_S7_S7_S7_S7_T0_
++ __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB9foe210106IRP14sortColorEntryS6_EEvOT_OT0_
++ __ZNSt3__19__sift_upB9foe210106INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEvT1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
++ __ZNSt3__19__sift_upB9foe210106INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
++ __ZSt28__throw_bad_array_new_lengthB9foe210106v
++ __ZTINSt3__110__function6__funcINS_6__bindIM15JCImageAnalyzerFv7CGPointR10JCHSVColorjEJPS3_RKNS_12placeholders4__phILi1EEERKNSB_ILi2EEERKNSB_ILi3EEEEEEFvS4_S6_jEEE
++ __ZTSNSt3__110__function6__funcINS_6__bindIM15JCImageAnalyzerFv7CGPointR10JCHSVColorjEJPS3_RKNS_12placeholders4__phILi1EEERKNSB_ILi2EEERKNSB_ILi3EEEEEEFvS4_S6_jEEE
++ __ZTVNSt3__110__function6__funcINS_6__bindIM15JCImageAnalyzerFv7CGPointR10JCHSVColorjEJPS3_RKNS_12placeholders4__phILi1EEERKNSB_ILi2EEERKNSB_ILi3EEEEEEFvS4_S6_jEEE
++ _block_copy_helper.18
++ _block_descriptor.20
++ _block_destroy_helper.19
++ _objc_msgSend$CGContext
++ _objc_msgSend$URLForResource:withExtension:
++ _objc_msgSend$_solveForInput:
++ _objc_msgSend$activateConstraints:
++ _objc_msgSend$addArrangedSubview:
++ _objc_msgSend$addAttribute:value:range:
++ _objc_msgSend$addChild:
++ _objc_msgSend$addChildViewController:
++ _objc_msgSend$addGestureRecognizer:
++ _objc_msgSend$addSublayer:
++ _objc_msgSend$addSubview:
++ _objc_msgSend$addTarget:action:
++ _objc_msgSend$addTarget:action:forControlEvents:
++ _objc_msgSend$animateAlongsideTransition:completion:
++ _objc_msgSend$appendAttributedString:
++ _objc_msgSend$attributedStringWithAdaptiveImageGlyph:attributes:
++ _objc_msgSend$attributedText
++ _objc_msgSend$becomeFirstResponder
++ _objc_msgSend$begin
++ _objc_msgSend$bottomAnchor
++ _objc_msgSend$bounds
++ _objc_msgSend$bringSubviewToFront:
++ _objc_msgSend$bundleForClass:
++ _objc_msgSend$center
++ _objc_msgSend$clearColor
++ _objc_msgSend$collectionView
++ _objc_msgSend$collectionViewLayout
++ _objc_msgSend$colorNamed:inBundle:compatibleWithTraitCollection:
++ _objc_msgSend$commit
++ _objc_msgSend$constraintEqualToAnchor:
++ _objc_msgSend$constraintEqualToAnchor:constant:
++ _objc_msgSend$constraintEqualToConstant:
++ _objc_msgSend$constraintGreaterThanOrEqualToConstant:
++ _objc_msgSend$contentView
++ _objc_msgSend$contentsAtPath:
++ _objc_msgSend$createKeyboardViewController
++ _objc_msgSend$currentDevice
++ _objc_msgSend$customActionWithDuration:actionBlock:
++ _objc_msgSend$deleteCharactersInRange:
++ _objc_msgSend$didMoveToParentViewController:
++ _objc_msgSend$doubleValue
++ _objc_msgSend$drawAtPoint:
++ _objc_msgSend$drawInRect:
++ _objc_msgSend$drawInRect:withAttributes:
++ _objc_msgSend$effectWithStyle:
++ _objc_msgSend$em_setBackgroundHidden:
++ _objc_msgSend$enumerateAttribute:inRange:options:usingBlock:
++ _objc_msgSend$enumerateChildNodesWithName:usingBlock:
++ _objc_msgSend$extendedPalette
++ _objc_msgSend$fillRect:
++ _objc_msgSend$filterInterestingColorsUsingBlock:
++ _objc_msgSend$firstObject
++ _objc_msgSend$font
++ _objc_msgSend$fontWithDescriptor:size:
++ _objc_msgSend$frame
++ _objc_msgSend$getRed:green:blue:alpha:
++ _objc_msgSend$grayColor
++ _objc_msgSend$heightAnchor
++ _objc_msgSend$imageByPreparingThumbnailOfSize:
++ _objc_msgSend$imageContent
++ _objc_msgSend$imageWithActions:
++ _objc_msgSend$init
++ _objc_msgSend$initWithAttributedString:
++ _objc_msgSend$initWithBarButtonSystemItem:target:action:
++ _objc_msgSend$initWithCoder:
++ _objc_msgSend$initWithCollectionViewLayout:
++ _objc_msgSend$initWithColor:
++ _objc_msgSend$initWithColors:localizedName:showsColorWell:
++ _objc_msgSend$initWithControlPoints::::
++ _objc_msgSend$initWithCustomView:
++ _objc_msgSend$initWithData:
++ _objc_msgSend$initWithEffect:
++ _objc_msgSend$initWithFrame:
++ _objc_msgSend$initWithImage:
++ _objc_msgSend$initWithImage:style:target:action:
++ _objc_msgSend$initWithImageContent:
++ _objc_msgSend$initWithMachName:
++ _objc_msgSend$initWithNibName:bundle:
++ _objc_msgSend$initWithRed:green:blue:alpha:
++ _objc_msgSend$initWithSize:
++ _objc_msgSend$initWithSize:format:
++ _objc_msgSend$initWithString:
++ _objc_msgSend$initWithString:attributes:
++ _objc_msgSend$initWithSuiteName:
++ _objc_msgSend$initWithTexture:
++ _objc_msgSend$insertArrangedSubview:atIndex:
++ _objc_msgSend$insertSegmentWithAction:atIndex:animated:
++ _objc_msgSend$insertSubview:atIndex:
++ _objc_msgSend$interestingColors
++ _objc_msgSend$invalidateLayout
++ _objc_msgSend$isFirstResponder
++ _objc_msgSend$isKeyWindow
++ _objc_msgSend$isViewLoaded
++ _objc_msgSend$keyboardLayoutGuide
++ _objc_msgSend$keyboardSizeForOrientation:
++ _objc_msgSend$labelColor
++ _objc_msgSend$layer
++ _objc_msgSend$layoutAttributesForCellWithIndexPath:
++ _objc_msgSend$layoutAttributesForItemAtIndexPath:
++ _objc_msgSend$layoutIfNeeded
++ _objc_msgSend$leadingAnchor
++ _objc_msgSend$length
++ _objc_msgSend$lightGrayColor
++ _objc_msgSend$lineHeight
++ _objc_msgSend$mainScreen
++ _objc_msgSend$makeKeyAndVisible
++ _objc_msgSend$mutableString
++ _objc_msgSend$navigationItem
++ _objc_msgSend$numberOfItemsInSection:
++ _objc_msgSend$numberOfSections
++ _objc_msgSend$objectForKey:
++ _objc_msgSend$pathForResource:ofType:
++ _objc_msgSend$performWithoutAnimation:
++ _objc_msgSend$preferredFontDescriptorWithTextStyle:
++ _objc_msgSend$presentScene:
++ _objc_msgSend$propertyListWithData:options:format:error:
++ _objc_msgSend$rangeOfComposedCharacterSequenceAtIndex:
++ _objc_msgSend$readEmojiDefaults
++ _objc_msgSend$recentEmojis
++ _objc_msgSend$reloadData
++ _objc_msgSend$removeAllChildren
++ _objc_msgSend$removeAllObjects
++ _objc_msgSend$removeFromParentViewController
++ _objc_msgSend$removeFromSuperview
++ _objc_msgSend$removeMenuForIdentifier:
++ _objc_msgSend$resignFirstResponder
++ _objc_msgSend$runAction:
++ _objc_msgSend$scale
++ _objc_msgSend$scaleToSize:
++ _objc_msgSend$scene
++ _objc_msgSend$set
++ _objc_msgSend$setAlpha:
++ _objc_msgSend$setAttributedText:
++ _objc_msgSend$setAxis:
++ _objc_msgSend$setBackgroundColor:
++ _objc_msgSend$setBorderColor:
++ _objc_msgSend$setBorderWidth:
++ _objc_msgSend$setBounds:
++ _objc_msgSend$setCenter:
++ _objc_msgSend$setClipsToBounds:
++ _objc_msgSend$setColors:
++ _objc_msgSend$setContentMode:
++ _objc_msgSend$setContents:
++ _objc_msgSend$setCornerCurve:
++ _objc_msgSend$setCornerRadius:
++ _objc_msgSend$setCountLimit:
++ _objc_msgSend$setDataSource:
++ _objc_msgSend$setDelegate:
++ _objc_msgSend$setDisableActions:
++ _objc_msgSend$setDistribution:
++ _objc_msgSend$setEndPoint:
++ _objc_msgSend$setFill
++ _objc_msgSend$setFont:
++ _objc_msgSend$setForceDisableDictation:
++ _objc_msgSend$setFrame:
++ _objc_msgSend$setHidden:
++ _objc_msgSend$setImage:
++ _objc_msgSend$setInstanceCount:
++ _objc_msgSend$setInstanceTransform:
++ _objc_msgSend$setItems:animated:
++ _objc_msgSend$setKeyboardAppearance:
++ _objc_msgSend$setKeyboardType:
++ _objc_msgSend$setLayoutMarginsRelativeArrangement:
++ _objc_msgSend$setLeftBarButtonItem:
++ _objc_msgSend$setMaximumValue:
++ _objc_msgSend$setMinimumValue:
++ _objc_msgSend$setName:
++ _objc_msgSend$setObject:forKey:
++ _objc_msgSend$setOpacity:
++ _objc_msgSend$setOpaque:
++ _objc_msgSend$setPosition:
++ _objc_msgSend$setRightBarButtonItems:
++ _objc_msgSend$setScaleMode:
++ _objc_msgSend$setSelectedColor:
++ _objc_msgSend$setSelectedSegmentIndex:
++ _objc_msgSend$setSize:
++ _objc_msgSend$setSpacing:
++ _objc_msgSend$setStartPoint:
++ _objc_msgSend$setSupportsAdaptiveImageGlyph:
++ _objc_msgSend$setText:
++ _objc_msgSend$setTextAlignment:
++ _objc_msgSend$setTextInputView:
++ _objc_msgSend$setTimingMode:
++ _objc_msgSend$setTintColor:
++ _objc_msgSend$setTransform:
++ _objc_msgSend$setTranslatesAutoresizingMaskIntoConstraints:
++ _objc_msgSend$setValue:
++ _objc_msgSend$setView:
++ _objc_msgSend$setZRotation:
++ _objc_msgSend$shouldSkipUnlockAnimationForCurrentDevice
++ _objc_msgSend$size
++ _objc_msgSend$sizeToFit
++ _objc_msgSend$sizeWithAttributes:
++ _objc_msgSend$state
++ _objc_msgSend$string
++ _objc_msgSend$stringByReplacingCharactersInRange:withString:
++ _objc_msgSend$superview
++ _objc_msgSend$systemFontOfSize:
++ _objc_msgSend$systemImageNamed:
++ _objc_msgSend$text
++ _objc_msgSend$textureWithImage:
++ _objc_msgSend$topAnchor
++ _objc_msgSend$trailingAnchor
++ _objc_msgSend$translationInView:
++ _objc_msgSend$value
++ _objc_msgSend$view
++ _objc_msgSend$viewIfLoaded
++ _objc_msgSend$widthAnchor
++ _objc_msgSend$willMoveToParentViewController:
++ _objc_msgSend$window
++ _objc_retain_x28
++ _swift_bridgeObjectRelease_n
++ _symbolic _____Sg_ABt 20EmojiPosterFramework0aB13ConfigurationV
+- GCC_except_table61
+- __ZNKSt3__110__function6__funcINS_6__bindIM15JCImageAnalyzerFv7CGPointR10JCHSVColorjEJPS3_RKNS_12placeholders4__phILi1EEERKNSB_ILi2EEERKNSB_ILi3EEEEEENS_9allocatorISL_EEFvS4_S6_jEE11target_typeEv
+- __ZNKSt3__110__function6__funcINS_6__bindIM15JCImageAnalyzerFv7CGPointR10JCHSVColorjEJPS3_RKNS_12placeholders4__phILi1EEERKNSB_ILi2EEERKNSB_ILi3EEEEEENS_9allocatorISL_EEFvS4_S6_jEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcINS_6__bindIM15JCImageAnalyzerFv7CGPointR10JCHSVColorjEJPS3_RKNS_12placeholders4__phILi1EEERKNSB_ILi2EEERKNSB_ILi3EEEEEENS_9allocatorISL_EEFvS4_S6_jEE7__cloneEPNS0_6__baseISO_EE
+- __ZNKSt3__110__function6__funcINS_6__bindIM15JCImageAnalyzerFv7CGPointR10JCHSVColorjEJPS3_RKNS_12placeholders4__phILi1EEERKNSB_ILi2EEERKNSB_ILi3EEEEEENS_9allocatorISL_EEFvS4_S6_jEE7__cloneEv
+- __ZNKSt9type_infoeqB8ne200100ERKS_
+- __ZNSt12length_errorC1B8ne200100EPKc
+- __ZNSt3__110__function12__value_funcIFv7CGPointR10JCHSVColorjEED2B8ne200100Ev
+- __ZNSt3__110__function6__funcINS_6__bindIM15JCImageAnalyzerFv7CGPointR10JCHSVColorjEJPS3_RKNS_12placeholders4__phILi1EEERKNSB_ILi2EEERKNSB_ILi3EEEEEENS_9allocatorISL_EEFvS4_S6_jEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcINS_6__bindIM15JCImageAnalyzerFv7CGPointR10JCHSVColorjEJPS3_RKNS_12placeholders4__phILi1EEERKNSB_ILi2EEERKNSB_ILi3EEEEEENS_9allocatorISL_EEFvS4_S6_jEE7destroyEv
+- __ZNSt3__110__function6__funcINS_6__bindIM15JCImageAnalyzerFv7CGPointR10JCHSVColorjEJPS3_RKNS_12placeholders4__phILi1EEERKNSB_ILi2EEERKNSB_ILi3EEEEEENS_9allocatorISL_EEFvS4_S6_jEED0Ev
+- __ZNSt3__110__function6__funcINS_6__bindIM15JCImageAnalyzerFv7CGPointR10JCHSVColorjEJPS3_RKNS_12placeholders4__phILi1EEERKNSB_ILi2EEERKNSB_ILi3EEEEEENS_9allocatorISL_EEFvS4_S6_jEED1Ev
+- __ZNSt3__110__function6__funcINS_6__bindIM15JCImageAnalyzerFv7CGPointR10JCHSVColorjEJPS3_RKNS_12placeholders4__phILi1EEERKNSB_ILi2EEERKNSB_ILi3EEEEEENS_9allocatorISL_EEFvS4_S6_jEEclEOS4_S6_Oj
+- __ZNSt3__110__pop_heapB8ne200100INS_17_ClassicAlgPolicyEPFb14sortColorEntryS2_EPS2_EEvT1_S6_RT0_NS_15iterator_traitsIS6_E15difference_typeE
+- __ZNSt3__111__sift_downB8ne200100INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEvT1_OT0_NS_15iterator_traitsIS7_E15difference_typeES7_
+- __ZNSt3__111__sift_downB8ne200100INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_OT0_NS_15iterator_traitsIS7_E15difference_typeES7_
+- __ZNSt3__116__insertion_sortB8ne200100INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEvT1_S7_T0_
+- __ZNSt3__116__insertion_sortB8ne200100INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_S7_T0_
+- __ZNSt3__117__floyd_sift_downB8ne200100INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EET1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
+- __ZNSt3__117__floyd_sift_downB8ne200100INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EET1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorI12sortHueEntryEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorI14sortColorEntryEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorI7JCColorEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__partial_sort_implB8ne200100INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_S6_EET1_S7_S7_T2_OT0_
+- __ZNSt3__119__partial_sort_implB8ne200100INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_S6_EET1_S7_S7_T2_OT0_
+- __ZNSt3__120__throw_length_errorB8ne200100EPKc
+- __ZNSt3__125__throw_bad_function_callB8ne200100Ev
+- __ZNSt3__126__insertion_sort_unguardedB8ne200100INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEvT1_S7_T0_
+- __ZNSt3__126__insertion_sort_unguardedB8ne200100INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_S7_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8ne200100INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEbT1_S7_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8ne200100INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEbT1_S7_T0_
+- __ZNSt3__131__partition_with_equals_on_leftB8ne200100INS_17_ClassicAlgPolicyEP12sortHueEntryRPFbS2_S2_EEET0_S7_S7_T1_
+- __ZNSt3__131__partition_with_equals_on_leftB8ne200100INS_17_ClassicAlgPolicyEP14sortColorEntryRPFbS2_S2_EEET0_S7_S7_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8ne200100INS_17_ClassicAlgPolicyEP12sortHueEntryRPFbS2_S2_EEENS_4pairIT0_bEES8_S8_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8ne200100INS_17_ClassicAlgPolicyEP14sortColorEntryRPFbS2_S2_EEENS_4pairIT0_bEES8_S8_T1_
+- __ZNSt3__134__uninitialized_allocator_relocateB8ne200100INS_9allocatorI14sortColorEntryEEPS2_EEvRT_T0_S7_S7_
+- __ZNSt3__134__uninitialized_allocator_relocateB8ne200100INS_9allocatorI7JCColorEEPS2_EEvRT_T0_S7_S7_
+- __ZNSt3__16__bindIM15JCImageAnalyzerFv7CGPointR10JCHSVColorjEJPS1_RKNS_12placeholders4__phILi1EEERKNS9_ILi2EEERKNS9_ILi3EEEEEclB8ne200100IJS2_S4_jEEENS_13__bind_returnIS6_NS_5tupleIJS7_SA_SD_SG_EEENSM_IJDpOT_EEEXsr22__is_valid_bind_returnIS6_SN_SR_EE5valueEE4typeESQ_
+- __ZNSt3__16vectorI12sortHueEntryNS_9allocatorIS1_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorI14sortColorEntryNS_9allocatorIS1_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorI14sortColorEntryNS_9allocatorIS1_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorI14sortColorEntryNS_9allocatorIS1_EEE9push_backB8ne200100ERKS1_
+- __ZNSt3__16vectorI7JCColorNS_9allocatorIS1_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorI7JCColorNS_9allocatorIS1_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__17__sort3B8ne200100INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_Li0EEEbT1_S7_S7_T0_
+- __ZNSt3__17__sort4B8ne200100INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_Li0EEEvT1_S7_S7_S7_T0_
+- __ZNSt3__17__sort4B8ne200100INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_Li0EEEvT1_S7_S7_S7_T0_
+- __ZNSt3__17__sort5B8ne200100INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_Li0EEEvT1_S7_S7_S7_S7_T0_
+- __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB8ne200100IRP14sortColorEntryS6_EEvOT_OT0_
+- __ZNSt3__19__sift_upB8ne200100INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEvT1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
+- __ZNSt3__19__sift_upB8ne200100INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
+- __ZSt28__throw_bad_array_new_lengthB8ne200100v
+- __ZTINSt3__110__function6__funcINS_6__bindIM15JCImageAnalyzerFv7CGPointR10JCHSVColorjEJPS3_RKNS_12placeholders4__phILi1EEERKNSB_ILi2EEERKNSB_ILi3EEEEEENS_9allocatorISL_EEFvS4_S6_jEEE
+- __ZTSNSt3__110__function6__funcINS_6__bindIM15JCImageAnalyzerFv7CGPointR10JCHSVColorjEJPS3_RKNS_12placeholders4__phILi1EEERKNSB_ILi2EEERKNSB_ILi3EEEEEENS_9allocatorISL_EEFvS4_S6_jEEE
+- __ZTVNSt3__110__function6__funcINS_6__bindIM15JCImageAnalyzerFv7CGPointR10JCHSVColorjEJPS3_RKNS_12placeholders4__phILi1EEERKNSB_ILi2EEERKNSB_ILi3EEEEEENS_9allocatorISL_EEFvS4_S6_jEEE
+- _block_copy_helper.17
+- _block_descriptor.19
+- _block_destroy_helper.18
+- _malloc
+- _objc_claimAutoreleasedReturnValue
+- _sqrt
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CHp2ugDoLsHS3mdhu4mFe8izOsiA5dvuJ2vt5E8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:293: libc++ Hardening assertion __k != __leftmost failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CHp2ugDoLsHS3mdhu4mFe8izOsiA5dvuJ2vt5E8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:603: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CHp2ugDoLsHS3mdhu4mFe8izOsiA5dvuJ2vt5E8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:615: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CHp2ugDoLsHS3mdhu4mFe8izOsiA5dvuJ2vt5E8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:633: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CHp2ugDoLsHS3mdhu4mFe8izOsiA5dvuJ2vt5E8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:638: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CHp2ugDoLsHS3mdhu4mFe8izOsiA5dvuJ2vt5E8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:669: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CHp2ugDoLsHS3mdhu4mFe8izOsiA5dvuJ2vt5E8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:682: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CHp2ugDoLsHS3mdhu4mFe8izOsiA5dvuJ2vt5E8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:692: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CHp2ugDoLsHS3mdhu4mFe8izOsiA5dvuJ2vt5E8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:697: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CHp2ugDoLsHS3mdhu4mFe8izOsiA5dvuJ2vt5E8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+
+```

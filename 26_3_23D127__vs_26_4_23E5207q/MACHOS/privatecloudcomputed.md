@@ -1,0 +1,1563 @@
+## privatecloudcomputed
+
+> `/System/Library/PrivateFrameworks/PrivateCloudCompute.framework/privatecloudcomputed.app/privatecloudcomputed`
+
+```diff
+
+-2300.130.0.0.0
+-  __TEXT.__text: 0x1cd198
+-  __TEXT.__auth_stubs: 0x39e0
+-  __TEXT.__objc_methlist: 0x388
+-  __TEXT.__const: 0xee78
+-  __TEXT.__cstring: 0x5e82
+-  __TEXT.__swift5_typeref: 0x50dd
+-  __TEXT.__constg_swiftt: 0x4304
+-  __TEXT.__swift5_reflstr: 0x49b8
+-  __TEXT.__swift5_fieldmd: 0x4534
+-  __TEXT.__swift5_builtin: 0x104
+-  __TEXT.__oslogstring: 0x515e
+-  __TEXT.__swift5_assocty: 0x678
+-  __TEXT.__swift5_proto: 0x9a4
+-  __TEXT.__swift5_types: 0x3e4
+-  __TEXT.__swift_as_entry: 0x434
+-  __TEXT.__swift_as_ret: 0x4fc
+-  __TEXT.__swift5_capture: 0xcfc
+-  __TEXT.__objc_methname: 0xaf3
+-  __TEXT.__swift5_protos: 0x74
+-  __TEXT.__swift5_mpenum: 0x98
+-  __TEXT.__swift5_types2: 0x4
++2364.100.84.0.0
++  __TEXT.__text: 0xd0c
++  __TEXT.__auth_stubs: 0x250
++  __TEXT.__const: 0x52
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__objc_classname: 0x1f
+-  __TEXT.__objc_methtype: 0xe9
+-  __TEXT.__unwind_info: 0x5b18
+-  __TEXT.__eh_frame: 0xe7f0
+-  __DATA_CONST.__auth_got: 0x1cf0
+-  __DATA_CONST.__got: 0xd60
+-  __DATA_CONST.__auth_ptr: 0xe58
+-  __DATA_CONST.__const: 0x7eb0
+-  __DATA_CONST.__objc_classlist: 0x98
+-  __DATA_CONST.__objc_protolist: 0x30
++  __TEXT.__swift5_typeref: 0x2e
++  __TEXT.__cstring: 0xa8
++  __TEXT.__swift_as_entry: 0x8
++  __TEXT.__swift_as_ret: 0x8
++  __TEXT.__swift5_fieldmd: 0x10
++  __TEXT.__constg_swiftt: 0x24
++  __TEXT.__swift5_protos: 0x4
++  __TEXT.__unwind_info: 0xa8
++  __TEXT.__eh_frame: 0x158
++  __DATA_CONST.__auth_got: 0x128
++  __DATA_CONST.__got: 0x20
++  __DATA_CONST.__auth_ptr: 0x8
++  __DATA_CONST.__const: 0x70
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x20
+-  __DATA.__objc_const: 0x2db8
+-  __DATA.__objc_selrefs: 0x310
+-  __DATA.__objc_data: 0x5d0
+-  __DATA.__data: 0x8e00
+-  __DATA.__bss: 0x128b0
+-  __DATA.__common: 0x8d0
+-  - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+-  - /System/Library/Frameworks/CoreServices.framework/CoreServices
+-  - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
++  __DATA.__data: 0x8
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+-  - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+-  - /System/Library/Frameworks/Network.framework/Network
+-  - /System/Library/Frameworks/Security.framework/Security
+-  - /System/Library/Frameworks/SwiftData.framework/SwiftData
+-  - /System/Library/PrivateFrameworks/AppSupport.framework/AppSupport
+-  - /System/Library/PrivateFrameworks/BackgroundSystemTasks.framework/BackgroundSystemTasks
+   - /System/Library/PrivateFrameworks/CloudAttestation.framework/CloudAttestation
+   - /System/Library/PrivateFrameworks/CloudSubscriptionFeatures.framework/CloudSubscriptionFeatures
+   - /System/Library/PrivateFrameworks/CloudTelemetry.framework/CloudTelemetry
+-  - /System/Library/PrivateFrameworks/CollectionsInternal.framework/CollectionsInternal
+-  - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+-  - /System/Library/PrivateFrameworks/GenerativeFunctionsInstrumentation.framework/GenerativeFunctionsInstrumentation
+-  - /System/Library/PrivateFrameworks/IntelligencePlatformLibrary.framework/IntelligencePlatformLibrary
+   - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf
+-  - /System/Library/PrivateFrameworks/NetworkServiceProxy.framework/NetworkServiceProxy
+-  - /System/Library/PrivateFrameworks/OSAnalytics.framework/OSAnalytics
+   - /System/Library/PrivateFrameworks/PrivateCloudCompute.framework/PrivateCloudCompute
++  - /System/Library/PrivateFrameworks/PrivateCloudComputeDaemon.framework/PrivateCloudComputeDaemon
+   - /System/Library/PrivateFrameworks/RegulatoryDomain.framework/RegulatoryDomain
+-  - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+-  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+-  - /usr/lib/swift/libswiftCoreImage.dylib
+-  - /usr/lib/swift/libswiftCoreLocation.dylib
+-  - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+-  - /usr/lib/swift/libswiftObservation.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+-  - /usr/lib/swift/libswiftSynchronization.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D064FE2C-FE3A-33FC-A928-AD2B18ED0A70
+-  Functions: 6780
+-  Symbols:   238
+-  CStrings:  1244
++  UUID: 851A1624-26CE-3B51-8347-1A5EEC87654C
++  Functions: 14
++  Symbols:   38
++  CStrings:  5
+ 
+Symbols:
+- _CPCopyBundleIdentifierAndTeamFromAuditToken
+- _IOPMAssertionCreateWithDescription
+- _IOPMAssertionRelease
+- _MobileGestalt_copy_buildVersion_obj
+- _MobileGestalt_copy_marketingDeviceFamilyName_obj
+- _MobileGestalt_copy_marketingProductName_obj
+- _MobileGestalt_copy_productName_obj
+- _MobileGestalt_copy_productType_obj
+- _MobileGestalt_copy_productVersion_obj
+- _MobileGestalt_copy_uniqueDeviceID_obj
+- _MobileGestalt_get_current_device
+- _NSFileModificationDate
+- _OBJC_CLASS_$_BGSystemTaskScheduler
+- _OBJC_CLASS_$_LSApplicationWorkspace
+- _OBJC_CLASS_$_NSBundle
+- _OBJC_CLASS_$_NSFileHandle
+- _OBJC_CLASS_$_NSFileManager
+- _OBJC_CLASS_$_NSObject
+- _OBJC_CLASS_$_NSPPrivateAccessTokenChallenge
+- _OBJC_CLASS_$_NSPPrivateAccessTokenFetcher
+- _OBJC_CLASS_$_NSURLSession
+- _OBJC_CLASS_$_NSURLSessionConfiguration
+- _OBJC_CLASS_$_NSUserDefaults
+- _OBJC_CLASS_$_NSXPCListener
+- _OBJC_CLASS_$_OSASystemConfiguration
+- _OBJC_CLASS_$_OS_dispatch_queue
+- _OBJC_CLASS_$_OS_dispatch_queue_serial
+- _OBJC_CLASS_$_RDEstimate
+- _OBJC_CLASS_$__TtCs12_SwiftObject
+- _OBJC_METACLASS_$_NSObject
+- _OBJC_METACLASS_$__TtCs12_SwiftObject
+- _SecRandomCopyBytes
+- __Block_copy
+- __Block_release
+- __NSConcreteStackBlock
+- ___chkstk_darwin
+- ___exp10
+- __objc_empty_cache
+- __os_log_impl
+- __os_signpost_emit_with_name_impl
+- __swiftEmptyArrayStorage
+- __swiftEmptyDictionarySingleton
+- __swiftEmptySetSingleton
+- __swiftImmortalRefCount
+- __swift_FORCE_LOAD_$_swiftAVFoundation
+- __swift_FORCE_LOAD_$_swiftCoreAudio
+- __swift_FORCE_LOAD_$_swiftCoreImage
+- __swift_FORCE_LOAD_$_swiftCoreLocation
+- __swift_FORCE_LOAD_$_swiftCoreMIDI
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_stdlib_bridgeErrorToNSError
+- __swift_stdlib_reportUnimplementedInitializer
+- __swift_stdlib_strtod_clocale
+- _free
+- _kSecRandomDefault
+- _log10
+- _malloc
+- _malloc_size
+- _memcmp
+- _memcpy
+- _memmove
+- _memset
+- _nw_parameters_set_privacy_proxy_fail_closed
+- _objc_allocWithZone
+- _objc_msgSend
+- _objc_msgSendSuper2
+- _objc_opt_self
+- _objc_release
+- _objc_release_x19
+- _objc_release_x20
+- _objc_release_x22
+- _objc_release_x23
+- _objc_release_x24
+- _objc_release_x25
+- _objc_release_x26
+- _objc_release_x27
+- _objc_release_x28
+- _objc_release_x8
+- _objc_retain
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x1
+- _objc_retain_x10
+- _objc_retain_x19
+- _objc_retain_x2
+- _objc_retain_x20
+- _objc_retain_x21
+- _objc_retain_x22
+- _objc_retain_x23
+- _objc_retain_x24
+- _objc_retain_x25
+- _objc_retain_x26
+- _objc_retain_x27
+- _objc_retain_x28
+- _objc_retain_x8
+- _os_log_type_enabled
+- _os_transaction_create
+- _os_unfair_lock_lock
+- _os_unfair_lock_unlock
+- _os_variant_allows_internal_security_policies
+- _os_variant_has_internal_content
+- _sec_protocol_options_set_verify_block
+- _strerror
+- _swift_allocBox
+- _swift_allocError
+- _swift_allocateGenericClassMetadata
+- _swift_arrayDestroy
+- _swift_arrayInitWithCopy
+- _swift_arrayInitWithTakeBackToFront
+- _swift_arrayInitWithTakeFrontToBack
+- _swift_asyncLet_begin
+- _swift_asyncLet_finish
+- _swift_asyncLet_get
+- _swift_asyncLet_get_throwing
+- _swift_beginAccess
+- _swift_bridgeObjectRelease_n
+- _swift_bridgeObjectRetain
+- _swift_bridgeObjectRetain_n
+- _swift_checkMetadataState
+- _swift_continuation_await
+- _swift_continuation_init
+- _swift_coroFrameAlloc
+- _swift_cvw_allocateGenericValueMetadataWithLayoutString
+- _swift_cvw_assignWithCopy
+- _swift_cvw_assignWithTake
+- _swift_cvw_destroy
+- _swift_cvw_enumFn_getEnumTag
+- _swift_cvw_initEnumMetadataMultiPayloadWithLayoutString
+- _swift_cvw_initEnumMetadataSingleCaseWithLayoutString
+- _swift_cvw_initEnumMetadataSinglePayloadWithLayoutString
+- _swift_cvw_initStructMetadataWithLayoutString
+- _swift_cvw_initWithCopy
+- _swift_cvw_initWithTake
+- _swift_cvw_initializeBufferWithCopyOfBuffer
+- _swift_cvw_instantiateLayoutString
+- _swift_cvw_multiPayloadEnumGeneric_destructiveInjectEnumTag
+- _swift_cvw_multiPayloadEnumGeneric_getEnumTag
+- _swift_cvw_singlePayloadEnumGeneric_destructiveInjectEnumTag
+- _swift_cvw_singlePayloadEnumGeneric_getEnumTag
+- _swift_deallocClassInstance
+- _swift_deallocObject
+- _swift_defaultActor_deallocate
+- _swift_defaultActor_destroy
+- _swift_defaultActor_initialize
+- _swift_deletedAsyncMethodErrorTu
+- _swift_deletedMethodError
+- _swift_dynamicCast
+- _swift_dynamicCastClass
+- _swift_endAccess
+- _swift_errorRelease
+- _swift_errorRetain
+- _swift_getAssociatedConformanceWitness
+- _swift_getAssociatedTypeWitness
+- _swift_getDynamicType
+- _swift_getEnumCaseMultiPayload
+- _swift_getEnumTagSinglePayloadGeneric
+- _swift_getErrorValue
+- _swift_getExistentialTypeMetadata
+- _swift_getForeignTypeMetadata
+- _swift_getFunctionTypeMetadata0
+- _swift_getGenericMetadata
+- _swift_getKeyPath
+- _swift_getMetatypeMetadata
+- _swift_getObjCClassFromMetadata
+- _swift_getObjCClassMetadata
+- _swift_getObjectType
+- _swift_getOpaqueTypeConformance2
+- _swift_getSingletonMetadata
+- _swift_getTupleTypeMetadata
+- _swift_getTupleTypeMetadata2
+- _swift_getTupleTypeMetadata3
+- _swift_getTypeByMangledNameInContextInMetadataState2
+- _swift_getWitnessTable
+- _swift_initClassMetadata2
+- _swift_initStackObject
+- _swift_isEscapingClosureAtFileLocation
+- _swift_isUniquelyReferenced_nonNull_bridgeObject
+- _swift_isaMask
+- _swift_makeBoxUnique
+- _swift_once
+- _swift_retain_n
+- _swift_runtimeSupportsNoncopyableTypes
+- _swift_setDeallocating
+- _swift_slowAlloc
+- _swift_slowDealloc
+- _swift_stdlib_isStackAllocationSafe
+- _swift_stdlib_random
+- _swift_storeEnumTagMultiPayload
+- _swift_storeEnumTagSinglePayloadGeneric
+- _swift_task_isCurrentExecutor
+- _swift_task_reportUnexpectedExecutor
+- _swift_unknownObjectRelease
+- _swift_unknownObjectRelease_n
+- _swift_unknownObjectRetain
+- _swift_unknownObjectWeakDestroy
+- _swift_unknownObjectWeakInit
+- _swift_unknownObjectWeakLoadStrong
+- _swift_updateClassMetadata2
+- _swift_willThrow
+- _swift_willThrowTypedImpl
+- _sysctlbyname
+CStrings:
+- "\n\n    bundleID: "
+- "\n\n    ignoreCertificateErrors: "
+- "\n\n    isServerDrivenConfigurationOutdated: "
+- "\n\n    overrideCellID: "
+- "\n\n    rateLimiterMaximumRateLimitDuration: "
+- "\n\n    testSignalHeader: "
+- "\n\n    useTrustedProxy: "
+- "\n    attestationExpiry: "
+- "\n    cloudOSVersion: "
+- "\n    endpointURL: "
+- "\n    enforceWorkloadParametersFiltering: "
+- "\n    environment: "
+- "\n    featureID: "
+- "\n    forceOHTTP: "
+- "\n    maxInlineAttestations: "
+- "\n    maxTotalAttestations: "
+- "\n    originatingBundleID: "
+- "\n    rateLimiterDefaultJitterFactor: "
+- "\n    rateLimiterMaximumRateLimitTTL: "
+- "\n    routingGroupAlias: "
+- "\n    serverQoS: "
+- "\n    sessionID: "
+- "\n    testOptionsHeader: "
+- "\n    trustedProxyRoutingGroupAlias: "
+- "\n    trustedRequestHostname: "
+- "\n    trustedRequestPath: "
+- "    {\n        \"DefaultTotalAttestations\": 26,\n        \"MaxCachedAttestations\": 12,\n        \"MaxPrefetchedAttestations\": 12,\n        \"MaxPrefetchWorkloadAgeSeconds\": 691200,\n        \"MaxPrefetchWorkloadCount\": 10,\n        \"TotalAttestationsByRegion\": {\n            \"AU\": 38,\n            \"UK\": 32,\n            \"US\": 26\n        },\n        \"TrustedProxyDefaultTotalAttestations\": 4,\n        \"TrustedProxyMaxCachedAttestations\": 2,\n        \"TrustedProxyMaxPrefetchedAttestations\": 12\n    }"
+- "  unblockUpstream "
+- " finished  "
+- " ohttpContext "
+- " pipelineArguments: "
+- " waiterID "
+- "#16@0:8"
+- "$defaultActor"
+- "%s"
+- "%s %s"
+- "%s %s saved: %{bool}d"
+- "%s All %ld node substreams have finished"
+- "%s Cancelling main task group"
+- "%s Configuration: %s"
+- "%s Connection metrics reporting finished"
+- "%s Creating node stream subtask for node: %s cloudOSVersion:%s"
+- "%s Data substream task failed. Error: %@"
+- "%s Data substream task finished successfully"
+- "%s Didn't receive final request execution log entry nodeID=%s"
+- "%s Finished root connection subtask"
+- "%s Finished sending all user data"
+- "%s First key sent to node."
+- "%s Leaving node stream subtask for node: %s"
+- "%s Leaving runNodesStreams"
+- "%s Leaving runNodesStreams taskGroup. Success: %{bool}d"
+- "%s No response bypass context received from any node"
+- "%s Node has received data, cancelling all other node streams. nodeID=%s udid=%s"
+- "%s Node stream subtask has been cancelled for node: %s"
+- "%s Node substream task finished. Remaining: %ld"
+- "%s Node substreams task failed. error: %@"
+- "%s Node substreams task finished successfully"
+- "%s Not expecting more attestations. Running with %ld attestations"
+- "%s ROPES response indicates a failure\nstatus: %{public}s\nreceivedErrorCode: %{public}s\ntrailers:\n%s"
+- "%s Ready for more chunks received"
+- "%s Received all messages in node stream: %s"
+- "%s Received all messages on response bypass"
+- "%s Received all messages on ropes stream"
+- "%s Received message from node %s: %s"
+- "%s Received message on response bypass: %s"
+- "%s Received payload %ld bytes from node"
+- "%s Received payload %ld bytes on response bypass"
+- "%s Received request execution log entry: %s"
+- "%s Received responseSummary on response bypass responseSummary=%s"
+- "%s Received responseUuid on response bypass. Ignoring. uuidData=%s"
+- "%s Received responseUuid. Ignoring. uuidData=%s"
+- "%s Received user data to forward to server"
+- "%s Request Log: Attestation: %s %s <%s %s: %s>"
+- "%s Request Log: Proxied Attestation: %s %s <%s %s: %s>"
+- "%s Request Log: TransparencyReport is not enabled"
+- "%s Request Log: workload parameters: %s"
+- "%s Request Log: workload type: %s"
+- "%s Request: %s RequestIDForReporting: %s"
+- "%s RequestIDForEventReporting: %s"
+- "%s Response bypass substream task failed. Error: %@"
+- "%s Response bypass substream task finished successfully"
+- "%s Response summary: %s"
+- "%s Ropes invoke request sent"
+- "%s Ropes invoke response head received"
+- "%s Ropes request failed. Error: %@"
+- "%s Ropes request finished successfully"
+- "%s Sending auth message on data stream. Remaining budget before ready for more chunks: %ld"
+- "%s Sending message on data stream (%ld bytes), above initial budget: %ld bytes"
+- "%s Sending message on data stream, ready for more chunks received"
+- "%s Sending message on data stream, within initial budget: %ld"
+- "%s Sent auth message on data stream"
+- "%s Total cached attestations from store: %ld maxCachedAttestations: %ld proxy: %{bool}d"
+- "%s Trusted proxy request did not expect response on node stream"
+- "%s Unexpected requestExecutionLogEntry on response bypass entry=%s"
+- "%s Waiting on ready for more chunks signal"
+- "%s adding prefetched attestation for node: %s ohttpContext: %u"
+- "%s already have a node with identifier %s, conflict"
+- "%s attestation failure with error %@"
+- "%s attestation ohttpContext=%u"
+- "%s attestation received"
+- "%s attestation response unexpected: %s"
+- "%s attestation success with package key %s, validationExpiration: %s"
+- "%s attestation validation did not return a unique device id for attestation: %s"
+- "%s attestation validation failed for node: %s with error: %@"
+- "%s attestation validation returned too long expiration for attestation: %s; expiry: %s"
+- "%s attestations saved: %ld duplicates: %ld"
+- "%s base64 bag decoded, pushing update of utf8jsonBag=%s"
+- "%s cancel"
+- "%s cancelled node stream %s"
+- "%s configuration: maxPrefetchedAttestations: %ld, clientCacheSize: %ld, maxPrefetchRequests: %ld, maxPrefetchBatches: %ld, prewarmAttestationsAvailability: %ld"
+- "%s creating verified node with identifier: %s, ohttpcontext: %ld, kind: %s"
+- "%s decoded ratelimit response configuration count %ld"
+- "%s did update obliviousHTTPConnection"
+- "%s executing batch of prefetch requests, prewarm=%{bool}d"
+- "%s executing configbag request"
+- "%s executing prefetch request"
+- "%s executing ratelimit request"
+- "%s failed to fetch batch error: %@"
+- "%s failed to save attestation for node: %s"
+- "%s fetchTime: %s"
+- "%s finished batch of prefetch requests"
+- "%s finished configbag request"
+- "%s finished prefetch request"
+- "%s finished ratelimit request"
+- "%s found workload parameter not in allow list: %s"
+- "%s ignoring node %s; already have %ld attestations out of %ld max"
+- "%s invalid set of parameters for prefetching"
+- "%s model decoded, model=%s"
+- "%s no session identifier on request"
+- "%s node exists in store for attestation %s %s"
+- "%s node id does not match attestation bundle calculated=%s fromServer=%s bundleSize=%ld bytes"
+- "%s not prefetching, attestations exist for workload"
+- "%s not prefetching, missing bundleIdentifier"
+- "%s not prefetching, missing featureIdentifier"
+- "%s parameters=%s"
+- "%s performing scheduled task"
+- "%s proxied attestation failure with error %@"
+- "%s proxied attestation success with package key %s, validationExpiration: %s"
+- "%s readyForMoreChunks received"
+- "%s receive"
+- "%s receive cancelled"
+- "%s receive finished data.count=%ld isComplete=%{bool}d error=%@"
+- "%s received %ld rate limit configurations"
+- "%s received AEAD for response bypass contextID=%u"
+- "%s received content: %s, contentContextPresent: %{bool}d, isComplete: %{bool}d"
+- "%s received expired attestation message for parameters  %s. Will refresh attestations out of band"
+- "%s received headers\n%s"
+- "%s received message: %s"
+- "%s received no trailers"
+- "%s received rate limit configuration count %ld"
+- "%s received response %ld"
+- "%s received trailers\n%s"
+- "%s request denial: reason=%{public}s"
+- "%s request denial: reason=%{public}s, featureID=%{public}s"
+- "%s request denial: reason=%{public}s, type=%s, parameters=%s"
+- "%s request ready, request=%s"
+- "%s request task cancelled reason=%s"
+- "%s response complete"
+- "%s response completed"
+- "%s response failed: %s"
+- "%s response head received: %s"
+- "%s response returning, response=%@ data=%s"
+- "%s response throwing, error=%@"
+- "%s running session async"
+- "%s scheduled task finished"
+- "%s scheduled task has been canceled and can't be scheduled for retry error=%@"
+- "%s scheduled task has been canceled retryAfter=%f"
+- "%s scheduled task has been canceled with no retry"
+- "%s scheduled task is being expired reason=%lu"
+- "%s scheduled task skipped"
+- "%s send cancelled"
+- "%s send content.count=%ld context=%s isComplete=%{bool}d"
+- "%s send failed error=%@"
+- "%s send finished"
+- "%s sendRopesRequest pccError=%@ from error=%@"
+- "%s sending headers\n%s"
+- "%s sending request %s"
+- "%s sending request with parameters: %s"
+- "%s sending request: %s with parameters: %s"
+- "%s session ready, session=%@"
+- "%s start"
+- "%s starting node stream to %s; creating request..."
+- "%s starting response bypass context=%ld"
+- "%s state change to unexpected state=%{public}s"
+- "%s state changed to cancelled"
+- "%s state changed to failed error=%@"
+- "%s state changed to preparing"
+- "%s state changed to ready"
+- "%s state changed to setup"
+- "%s state changed to waiting error=%@"
+- "%s successfully saved attestation for node: %s"
+- "%s trusted proxy node selected ohttpContext=%u"
+- "%s unable to access attestation store"
+- "%s unable to check the unique id of the attestation and hence skipping validation: %s"
+- "%s unable to decode base64 bag"
+- "%s unable to decode json response data, error=%@"
+- "%s unable to process rate limit configuration %s"
+- "%s unique identifier for attestation %s missing"
+- "%s updating obliviousHTTPConnection aeadNonce.count=%ld, aeadKey.count=%ld"
+- "%s updating rate limiter with attribution\nbundleID: %s\noriginatingBundleID: %s\nclientBundleID: %s\nfeatureID: %s\nsessionID: %s\n\nworkloadType: %s\nworkloadTags: \n%s"
+- "%s using session identifier %s with progress %lu"
+- "%s verifying attestation"
+- "%s waiting for response"
+- "%s xpc.cancel received"
+- "%s xpc.close received (no-op)"
+- "%s xpc.next received callID=%ld"
+- "%s xpc.next responding callID=%ld count=%ld"
+- "%s xpc.next responding callID=%ld error=%@"
+- "%s xpc.send received data.count=%ld isComplete=%{bool}d"
+- "%{public}s withUnstructuredTaskAndLeakyTaskCancellation: cancelled counter=%ld"
+- "%{public}s withUnstructuredTaskAndLeakyTaskCancellation: end after being cancelled counter=%ld"
+- "%{public}s withUnstructuredTaskAndLeakyTaskCancellation: start"
+- "&Classification=Serious Bug&Description="
+- "&ComponentVersion="
+- "&Reproducibility=I Didn't Try"
+- ",\n    ensembleID: "
+- ",\n    validatedCellID: "
+- ",    cloudOSReleaseType: "
+- ", unvalidatedCellID: "
+- ". Auth token must be sent first!"
+- ".AttestationMapping"
+- ".ExpiredAttestationList"
+- ".NoFurtherAttestations"
+- ".PostResponseActions"
+- ".ReadyForMoreChunks"
+- ".ResponseSummary"
+- ".RevokedAttestation"
+- ".RevokedAttestationList"
+- ".RoutingParamValue"
+- ".TrustedProxyNodeSelected"
+- ".cxx_destruct"
+- "<TrustedRequestConfiguration\n    maxCachedAttestations: "
+- "@\"NSString\"16@0:8"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@32@0:8:16@24"
+- "@40@0:8:16@24@32"
+- "APPLICATION_ERROR"
+- "Attesta20240228005454"
+- "AttestationBundle.init failed: %@"
+- "AttestationKindMismatch"
+- "Attestationdistrbtion"
+- "Attestations received"
+- "AttestationsReceivedFromRopes"
+- "Attestatnveriftnerror"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B32@0:8@\"NSXPCListener\"16@\"NSXPCConnection\"24"
+- "B32@0:8@16@24"
+- "BROTLI"
+- "BinaryDecodingError_UnrecognizedCase"
+- "BinaryDecodingError_internalExtensionError"
+- "BinaryDecodingError_invalidUTF8"
+- "BinaryDecodingError_malformedProtobuf"
+- "BinaryDecodingError_messageDepthLimit"
+- "BinaryDecodingError_missingRequiredFields"
+- "BinaryDecodingError_trailingGarbage"
+- "BinaryDecodingError_truncated"
+- "BinaryEncodingError_UnrecognizedCase"
+- "BinaryEncodingError_anyTranscodeFailure"
+- "BinaryEncodingError_missingRequiredFields"
+- "Biome event logging failed, error=%@"
+- "BlockedBundleIds"
+- "CLIENT_RATE_LIMIT_THROTTLED"
+- "CONCURRENT_RESOURCE_MODIFICATION"
+- "CONTAINS"
+- "CRYPTO_ERROR"
+- "Cannot encode histogram to JSON, error=%@"
+- "CloudAttestationError_UnrecognizedCase"
+- "CloudAttestationError_attestError"
+- "CloudAttestationError_emptyCertificateChain"
+- "CloudAttestationError_expired"
+- "CloudAttestationError_invalidNonce"
+- "CloudAttestationError_malformedSecureConfig"
+- "CloudAttestationError_missingAttestingKey"
+- "CloudAttestationError_missingSealedHash"
+- "CloudAttestationError_unexpected"
+- "CloudAttestationError_unexpected_notImplemented"
+- "CloudAttestationError_unexpected_unknownPublicKeyType"
+- "CloudAttestationError_untrustedAppData"
+- "CloudAttestationError_validateError"
+- "Configuration agrees with current boot's selection, environment=%{public}s"
+- "Configuration defaults absent, no environment configured"
+- "Configuration defaults=%{public}s unrecognized, no environment configured"
+- "Configuration does not see bootFixedLiveOnEnvironment"
+- "Configuration does not see proposedEnvironment"
+- "Configuration moving to proposed environment=%{public}s"
+- "Configuration saw bootFixedLiveOnEnvironment from previous boot, ignoring"
+- "Configuration saw bootFixedLiveOnEnvironment with id=%s, environment=%{public}s"
+- "Configuration saw bootFixedLiveOnEnvironment with invalid environment, ignoring"
+- "Configuration saw invalid bootFixedLiveOnEnvironment=%s"
+- "Configuration saw invalid proposed environment=%{public}s, ignoring"
+- "Configuration selected configured environment=%{public}s from defaults"
+- "Configuration selected environment=%{public}s"
+- "Connected (remaining budget: "
+- "Continuing iteration on NW connection that previously completed"
+- "Could not get Library path for user error="
+- "DENIED_BAA"
+- "DefaultConfiguration deleted %s %s"
+- "DefaultConfiguration wrote %s %s = %s"
+- "DefaultTotalAttestations"
+- "EQUALS"
+- "EXPIRED_SUBSCRIPTION_TOKEN"
+- "Entered main task group"
+- "ExpectedResponseOnBypass"
+- "FEATUREID_BLOCKED"
+- "FEATURE_ID_BLOCKED: %s"
+- "Failed to TTR, error: %@"
+- "Failed to calculate start of yesterday startOfTodayInUTC=%s"
+- "Failed to parse line: %s"
+- "Failed to read from temp file: %@"
+- "Failed to report metric %s"
+- "Failed to setup CloudTelemetry"
+- "Failed to write back: %@"
+- "Failed to write to file: %@"
+- "Failed writing to file: %@"
+- "FailedToLoadKeyData"
+- "FailedToValidateAllAttestations"
+- "Failure to create directory at "
+- "FeatureUsageSummary"
+- "FetchOTT"
+- "Finished featureUsageAnalyzer activity"
+- "Finished fetchServerDrivenConfig activity"
+- "Finished nodeDistributionReport activity"
+- "Finished prefetchAttestations activity"
+- "Firstinvokerequstsend"
+- "FullTrustedRequest"
+- "Generating node distribution reports for %s with %ld batches and %ld total nodes"
+- "INCORRECT_SUBSCRIPTION_TOKEN"
+- "INTERNAL_ERROR"
+- "INTERNAL_SERVER_ERROR_CASSANDRA"
+- "INTERNAL_SERVER_ERROR_FEATURE_ENABLEMENT_STATUS_CHECK"
+- "INTERNAL_SERVER_ERROR_SUBSCRIPTION_TOKEN"
+- "INVALID_AUTH_TOKEN"
+- "INVALID_AUTH_TOKEN_KEY"
+- "INVALID_BAA"
+- "INVALID_REPUTATION"
+- "INVALID_REQUEST"
+- "INVALID_SUBSCRIPTION_TOKEN"
+- "INVALID_TEST_OPTIONS"
+- "INVOKE"
+- "Ignoring TTR indication due to rate limit (1 per 24 hours), last report time %s."
+- "IncomingUserDataReader can not be finished and have a unblock continuation at the same time"
+- "IncomingUserDataReader does not support multiple forward calls at the same time"
+- "IncomingUserDataReader does not support multiple next calls at the same time"
+- "IncomingUserDataReader has already finished"
+- "IncomingUserDataReader only supports sequential data forwarding"
+- "InvalidAttestationBundle"
+- "Invoker20240228005931"
+- "Kdatase20240228005310"
+- "Linking %s to ..."
+- "Listener done"
+- "Listener start"
+- "LiveOnProdSpillover2"
+- "LoadAttestationsFromCache"
+- "Logged metric %s\n%s"
+- "MALFORMED_AUTH_TOKEN"
+- "MISSING_BAA_AUTHENTICATION"
+- "MISSING_SUBSCRIPTION_TOKEN"
+- "MISSING_TOKEN_AUTHENTICATION"
+- "MaxCachedAttestations"
+- "MaxPrefetchBatches"
+- "MaxPrefetchWorkloadAgeSeconds"
+- "MaxPrefetchWorkloadCount"
+- "MaxPrefetchedAttestations"
+- "MissingAttestationBundle"
+- "MissingResponseBypassContext"
+- "NONE"
+- "NSObject"
+- "NSPServerErrorReason"
+- "NSXPCListenerDelegate"
+- "NWError_UnrecognizedCase"
+- "NWError_wifiAware_"
+- "NodeResponse"
+- "Not running featureUsageAnalyzer activity because the feature flag is disabled"
+- "OK"
+- "OTTSent"
+- "PREFETCH"
+- "PROXY_FIND_WORKER_ERROR"
+- "PROXY_WORKER_VALIDATION_ERROR"
+- "PreventUserIdleSystemSleep"
+- "PrewarmAttestationsValidityInSeconds"
+- "PrivacyProxyFailed"
+- "PrivacyProxyFeatureDisabled"
+- "PrivacyProxyInvalidAuthentication"
+- "PrivacyProxyInvalidConfigData"
+- "PrivacyProxyInvalidConfigDataSign"
+- "PrivacyProxyInvalidConfigDates"
+- "PrivacyProxyInvalidParam"
+- "PrivacyProxyInvalidRequest"
+- "PrivacyProxyInvalidResponse"
+- "PrivacyProxyInvalidUserTier"
+- "PrivacyProxyIpcFailed"
+- "PrivacyProxyNetworkFailure"
+- "PrivacyProxyPermissionDenied"
+- "PrivacyProxyRateLimited"
+- "PrivacyProxyServerFailure"
+- "PrivacyProxyTDMFailure"
+- "PrivacyProxyTransparencyFailure"
+- "Private Cloud Compute"
+- "PrivateCloudCompute"
+- "PrivateToken token=\""
+- "Q16@0:8"
+- "RATELIMIT_CONFIG"
+- "REQUIRES_FRAUD_SCORE_UPDATE"
+- "REVOKED_AUTH_TOKEN"
+- "ReadyForMoreChunks"
+- "Received unexpected validated attestation nodeID: %s"
+- "ReceivedOutgoingUserDataChunk"
+- "Receiving nodes %s from %s"
+- "ReceivingResponse"
+- "Register feature usage analyzer task"
+- "Register fetch config bag task"
+- "Register node distribution report task"
+- "Register prefetch task"
+- "Rejecting connection because it doesn't have any of the required entitlements: %s"
+- "Request succeeded featureId=%s"
+- "Response head received"
+- "ResponseSummaryIndicatesFailure"
+- "ResponseSummaryIndicatesInternalError"
+- "ResponseSummaryIndicatesInvalidRequest"
+- "ResponseSummaryIndicatesProxyFindWorkerError"
+- "ResponseSummaryIndicatesProxyWorkerValidationError"
+- "ResponseSummaryIndicatesUnauthenticated"
+- "Resumed"
+- "RopesInvokeRequestSent"
+- "RopesResponseHeadReceived"
+- "RoutingHint mismatch detected for attestation=%s"
+- "RoutingHintMismatch"
+- "Running TrustedRequest"
+- "Running featureUsageAnalyzer activity"
+- "Running fetchServerDrivenConfig activity"
+- "Running nodeDistributionReport activity"
+- "Running prefetchAttestations activity"
+- "SERVER_RATE_LIMIT_THROTTLED"
+- "SOFTWARE_BLOCKED"
+- "STARTS_WITH"
+- "SUBSCRIPTION_TOKEN_DEVICE_ID_MISMATCH"
+- "SUBSCRIPTION_TOKEN_FEATURE_ENABLEMENT_STATUS_INACTIVE"
+- "Sending data after the stream was marked as finished."
+- "SentKey"
+- "SentKeyToNode"
+- "Server driven configuration is outdated, scheduling a fetch"
+- "Setting up CloudTelemetry xpc service activities."
+- "Skip generating empty node distribution reports for %s"
+- "Starting daemon run loop..."
+- "Starting daemon. tc2OSInfo: %s"
+- "SwiftData.Schema.Index"
+- "T#,R"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "TENANT_BLOCKED"
+- "TQ,R"
+- "TTR: %s"
+- "Thimble trying to connect: checking entitlements"
+- "TotalAttestationsByRegion"
+- "TransparencyLogError_UnrecognizedCase"
+- "TransparencyLogError_clientError"
+- "TransparencyLogError_expired"
+- "TransparencyLogError_httpError_"
+- "TransparencyLogError_insertFailed"
+- "TransparencyLogError_internalError"
+- "TransparencyLogError_invalidProof"
+- "TransparencyLogError_invalidRequest"
+- "TransparencyLogError_mutationPending"
+- "TransparencyLogError_notFound"
+- "TransparencyLogError_pendingExpiration"
+- "TransparencyLogError_unknown"
+- "TransparencyLogError_unknownStatus"
+- "TransparencyLogError_unrecognized_"
+- "TransparencyPolicyError_UnrecognizedCase"
+- "TransparencyPolicyError_expired"
+- "TransparencyPolicyError_malformedRelease_"
+- "TransparencyPolicyError_missingProofs"
+- "TransparencyPolicyError_notIncluded"
+- "TransparencyPolicyError_unknown_"
+- "Tried to create more than one iterator"
+- "Trusted20240215235354"
+- "Trusted20240228005617"
+- "TrustedProxyDefaultTotalAttestations"
+- "TrustedProxyMaxCachedAttestations"
+- "TrustedProxyMaxPrefetchBatches"
+- "TrustedProxyMaxPrefetchedAttestations"
+- "TrustedProxyRollout2Fall2025"
+- "TrustedRequestError_"
+- "UNABLE_TO_DETERMINE_HARDWARE"
+- "UNAUTHENTICATED"
+- "UNDEFINED"
+- "UNSUPPORTED_HARDWARE"
+- "URLForDirectory:inDomain:appropriateForURL:create:error:"
+- "Unexpected error given by _next"
+- "Unexpected error given by _send"
+- "UnexpectedAttestationKind"
+- "UnexpectedlyReceivedResponseBypassContext"
+- "Unknown public key type"
+- "UpdateServerDrivenConfigurationRequest send succeeded"
+- "VerifyAttestation"
+- "Vv16@0:8"
+- "WORKLOAD_BLOCKED"
+- "Waiting for Node"
+- "Waiting for ROPES OHTTP Connection"
+- "Waiting for data on NW connection"
+- "Waiting to send first key"
+- "With device_p=%f, spillover=%f, proposed environment=%s"
+- "With no spillover, deleted environment proposal"
+- "XPC connection interrupted"
+- "XPC connection invalidated"
+- "ZSTD"
+- "[Error] Interval already ended"
+- "^{_NSZone=}16@0:8"
+- "_$backingData"
+- "_$observationRegistrar"
+- "_TtC20privatecloudcomputed11RateLimiter"
+- "_TtC20privatecloudcomputed15PrefetchTracker"
+- "_TtC20privatecloudcomputed16AttestationStore"
+- "_TtC20privatecloudcomputed16PreferencesStore"
+- "_TtC20privatecloudcomputed19NWConnectionWrapper"
+- "_TtC20privatecloudcomputed20NodeStreamController"
+- "_TtC20privatecloudcomputed22IncomingUserDataReader"
+- "_TtC20privatecloudcomputed22OutgoingUserDataWriter"
+- "_TtC20privatecloudcomputed22TrustedRequestXPCProxy"
+- "_TtC20privatecloudcomputed25ServerDrivenConfiguration"
+- "_TtC20privatecloudcomputed31FeatureUsageAnalyzerStoreHelper"
+- "_TtC20privatecloudcomputed35NodeDistributionAnalyzerStoreHelper"
+- "_TtC20privatecloudcomputed9TC2Daemon"
+- "_TtCE20privatecloudcomputedCSo12NSFileHandle27FileHandle_UTF8OutputStream"
+- "_TtCOC20privatecloudcomputed16AttestationStore8SchemaV14Node"
+- "_TtCOC20privatecloudcomputed16AttestationStore8SchemaV18Workload"
+- "_TtCOC20privatecloudcomputed16AttestationStore8SchemaV24Node"
+- "_TtCOC20privatecloudcomputed16AttestationStore8SchemaV28Workload"
+- "_TtCVV20privatecloudcomputed10RequestLog7ElementP33_3EF234C30B8A7533C7D23125939868FC7Storage"
+- "_TtP19PrivateCloudCompute17TC2DaemonProtocol_"
+- "_TtP19PrivateCloudCompute28TC2XPCTrustedRequestProtocol_"
+- "_adapter"
+- "_attestationBundle"
+- "_attestationExpiry"
+- "_batchId"
+- "_cellID"
+- "_cloudOSReleaseType"
+- "_cloudOSVersion"
+- "_createCheckedThrowingContinuation(_:)"
+- "_ensembleID"
+- "_fetchTime"
+- "_inferenceId"
+- "_isPrefetched"
+- "_jsonModel"
+- "_model"
+- "_nodeUdids"
+- "_publicKey"
+- "_rawKind"
+- "_ropesNodeIdentifier"
+- "_type"
+- "_udid"
+- "_usedByTrustedRequestWithId"
+- "`nextOutgoingElement` can not be called multiple times at once"
+- "acquirePowerAssertion"
+- "addRateLimitWithBundleIdentifier:featureIdentifier:workloadType:count:duration:ttl:jitter:completion:"
+- "aead_id"
+- "aead_key"
+- "aead_nonce"
+- "ageOfOldestCachedWorkloadInDays"
+- "allowBundleIdentifierOverride"
+- "appended bypass: %s"
+- "apple-automateddevicegroup"
+- "apple-clientinfo"
+- "apple-request-uuid"
+- "apple-routing-group-alias"
+- "apple-server-build-version"
+- "apple-server-hint"
+- "apple-server-hint-for-real"
+- "apple-session-progress"
+- "apple-test-options"
+- "apple-test-signal"
+- "apple-trusted-proxy"
+- "apple-trusted-proxy-request-bypass"
+- "apple-trusted-proxy-routing-group-alias"
+- "apple-workload-parameters"
+- "appleBundleid"
+- "appleClientInfo"
+- "appleFeatureID"
+- "appleFeatureid"
+- "appleLocale"
+- "applebundleid"
+- "appleclientinfo"
+- "applefeatureid"
+- "applelocale"
+- "application/json"
+- "application/protobuf"
+- "application/x-protobuf"
+- "application_payload"
+- "attempt to set bundleIdentifierOverride without entitlement rejected"
+- "attestation"
+- "attestation kind can't be determined from attestationType=%s"
+- "attestation kind can't be determined from attestationType=nil"
+- "attestation store path: %s"
+- "attestation store unavailable"
+- "attestationBundle"
+- "attestationDistribution"
+- "attestationExpiry"
+- "attestationSource"
+- "attestationStore"
+- "attestationVerificationError"
+- "attestationVerificationNodeId"
+- "attestationVerificationSuccess"
+- "attestationVerifier"
+- "attestation_bundle"
+- "attestation_list"
+- "attestation_mappings"
+- "attestation_store_v0.2.sqlite"
+- "attestation_streaming"
+- "attestationfetchtimems"
+- "attestations exist for workload"
+- "attestationsExist workloadType=%s inferenceId=%s clientCacheSize=%ld fetchTime=%s"
+- "attestationstore_v2.sqlite"
+- "attestationverificationtimems"
+- "attributesOfItemAtPath:error:"
+- "auditToken"
+- "authTokenFetchError"
+- "authTokenFetchSuccess"
+- "authTokenSendError"
+- "authTokenSendSuccess"
+- "auth_token"
+- "authtokenfetchtimems"
+- "authtokensendtimems"
+- "automatedDeviceGroup"
+- "automated_device_group"
+- "autorelease"
+- "background"
+- "backgroundActivity.prefetchRequest"
+- "bag"
+- "batchUUID"
+- "biomeReporter"
+- "blockedBundleIds: %s"
+- "bucketCount"
+- "bundle missing for attestation: %s"
+- "bundle.jsonString failed: %@"
+- "bundleID"
+- "bundleId blocked by server, exiting trusted request with blockedBundleIds=%s, bundleId=%s, originatingBundleId=%s), clientBundleIdentifier=%s"
+- "bundleIdentifier"
+- "bundle_id"
+- "bundle_version"
+- "cachedAttestationCount"
+- "calendar"
+- "callIDs"
+- "can not read attributes of persisted server driven configuration, file=%s, error=%@"
+- "can not read modificationDate of persisted server driven configuration, file=%s"
+- "cancelWithCompletion:"
+- "cancellationObserver"
+- "cancellationReason"
+- "capabilities"
+- "cell_id"
+- "challengeData"
+- "class"
+- "client not allowed to override %s with %s. Need entitlement %s"
+- "clientBundleIdentifier"
+- "clientInfo"
+- "clientRequestID"
+- "clientRequestId"
+- "client_info"
+- "client_requested_attestation_count"
+- "clientrequestid"
+- "clock"
+- "closeAndReturnError:"
+- "closeWithCompletion:"
+- "cloudOSReleaseType"
+- "cloudos_release_type"
+- "cloudos_version"
+- "code"
+- "com.apple.privatecloudcompute"
+- "com.apple.privatecloudcompute.admin"
+- "com.apple.privatecloudcompute.api.v1.AuthToken"
+- "com.apple.privatecloudcompute.api.v1.FinalMessage"
+- "com.apple.privatecloudcompute.api.v1.PrivateCloudComputeRequest"
+- "com.apple.privatecloudcompute.api.v1.PrivateCloudComputeResponse"
+- "com.apple.privatecloudcompute.api.v1.RequestExecutionLogEntry"
+- "com.apple.privatecloudcompute.api.v1.ResponseContext"
+- "com.apple.privatecloudcompute.blockingio"
+- "com.apple.privatecloudcompute.bundleIdentifierOverride"
+- "com.apple.privatecloudcompute.featureUsageAnalyzer"
+- "com.apple.privatecloudcompute.featureusageanalyzer.blockingio"
+- "com.apple.privatecloudcompute.fetchServerDrivenConfig"
+- "com.apple.privatecloudcompute.knownRateLimits"
+- "com.apple.privatecloudcompute.nodeDistributionReport"
+- "com.apple.privatecloudcompute.nodedistributionanalyzer.blockingio"
+- "com.apple.privatecloudcompute.prefetchAttestations"
+- "com.apple.privatecloudcompute.prefetchRequest"
+- "com.apple.privatecloudcompute.requests"
+- "com.apple.privatecloudcompute.serverEnvironment"
+- "com.apple.privatecloudcomputed.TC2TrustedRequest"
+- "com.apple.privatecloudcomputed.prefetch"
+- "com.apple.privatecloudcomputed.prewarm"
+- "com.apple.ropes.common.v1.Attestation"
+- "com.apple.ropes.common.v1.AttestationList"
+- "com.apple.ropes.common.v1.Capabilities"
+- "com.apple.ropes.common.v1.Chunk"
+- "com.apple.ropes.common.v1.ClientTerminate"
+- "com.apple.ropes.common.v1.CompressedAttestationList"
+- "com.apple.ropes.common.v1.DecryptionKey"
+- "com.apple.ropes.common.v1.DiagnosticInformation"
+- "com.apple.ropes.common.v1.TenantInfo"
+- "com.apple.ropes.common.v1.Workload"
+- "com.apple.ropes.ratelimit.v1.RateLimitConfigRequest"
+- "com.apple.ropes.ratelimit.v1.RateLimitConfiguration"
+- "com.apple.ropes.ratelimit.v1.RateLimitConfigurationList"
+- "com.apple.ropes.ratelimit.v1.Values"
+- "com.apple.ropes.service.http.v1.AdminApiResponse"
+- "com.apple.ropes.service.http.v1.ConfigRequest"
+- "com.apple.ropes.service.http.v1.ConfigResponse"
+- "com.apple.ropes.service.http.v1.InvokeRequest"
+- "com.apple.ropes.service.http.v1.InvokeResponse"
+- "com.apple.ropes.service.http.v1.PrefetchRequest"
+- "com.apple.ropes.service.http.v1.PrefetchResponse"
+- "com.apple.ropes.service.http.v1.PrefetchUnaryResponse"
+- "compressed_attestation_list"
+- "compressed_bytes"
+- "compression_algorithm"
+- "config"
+- "configuration"
+- "conformsToProtocol:"
+- "connection"
+- "connectionEstablishReport"
+- "connectionEstablishmentReportDurationTimeMs"
+- "connectionFactory"
+- "contentsOfDirectoryAtURL:includingPropertiesForKeys:options:error:"
+- "context_id"
+- "could not get client bundle identifier"
+- "could not retain client bundle identifier"
+- "count"
+- "countryCode"
+- "createDirectoryAtURL:withIntermediateDirectories:attributes:error:"
+- "createFileAtPath:contents:attributes:"
+- "createNewParamsEntry workloadType=%s inferenceId=%s"
+- "creating a prefetch request as response to expired attestations"
+- "current environment=%{public}s"
+- "currentEnvironmentWithCompletion:"
+- "currentEstimates"
+- "daemonDir=%s"
+- "dailyActiveUserReporter"
+- "dealloc"
+- "debugDescription"
+- "declining to persist lrucache without location"
+- "decoder"
+- "defaultManager"
+- "defaultWorkspace"
+- "delegate"
+- "deleteAllAttestationStoreEntries"
+- "deleteAttestationsUsedForTrustedRequest: %s"
+- "deleteEntries workloadType=%s inferenceId=%s batchId=%lu"
+- "deleteEntriesWithExpiredAttestationBundles"
+- "deleteEntryForNode: %s"
+- "deleted migration source=%s"
+- "deleting batch: %lu used by request: %s"
+- "deleting file url=%s"
+- "deletion failed error=%@"
+- "deny_reason"
+- "description"
+- "device-csf-bypass=true"
+- "diagnostic_information"
+- "distributionByNodeID"
+- "doThrowingBlockingIOWork(onQueue:_:)"
+- "domain"
+- "duration"
+- "echo: %s"
+- "echoWithText:completion:"
+- "encoder"
+- "encrypted_payload"
+- "encrypted_request_ohttp_context"
+- "ensemble_id"
+- "entitlement is wrong type: %s = %s"
+- "entitlement not present: %s"
+- "entitlement observed: %s = %{bool}d"
+- "env"
+- "environment"
+- "ephemeralSessionConfiguration"
+- "error obtaining contents of stores directory error=%@"
+- "event stream prewarm workloadType=%s workloadParameters=%s"
+- "eventState"
+- "eventStreamContinuation"
+- "eventTime"
+- "eventtime"
+- "expiration_time"
+- "expired_attestation_list"
+- "extended_params"
+- "failed destination migration check error=%@"
+- "failed prefetch attestations: %@"
+- "failed prefetch request as response to expired attestations. error: %@"
+- "failed source migration check error=%@"
+- "failed to archive LRUCache: %@"
+- "failed to create assertion for trusted request"
+- "failed to delete all entries: %@"
+- "failed to delete archive"
+- "failed to delete entries: %@"
+- "failed to delete entry for node with ropes identifier: %s with error: %@"
+- "failed to delete expired attestations: %@"
+- "failed to fetch entries from prefetch store: %@"
+- "failed to init attestation store, error=%@"
+- "failed to insert entry: %@"
+- "failed to prefetch attestations as store is not initialized"
+- "failed to query attestations error: %@"
+- "failed to query entries: %@"
+- "failed to query nodes, error: %@"
+- "failed to query nodes: %@"
+- "failed to query unexpired attestations: %@"
+- "failed to send prefetch request: %@"
+- "failed to unarchive LRUCache: %@"
+- "failed to write migrationSemaphoreFile=%s, error=%@"
+- "failure decoding request parameters"
+- "failure retrieving request from factory"
+- "failure to encode server driven config for display, error=%@"
+- "failure to process TC2RateLimitRequest send, error=%@"
+- "failure to process UpdateServerDrivenConfigurationRequest send, error=%@"
+- "featureFlagChecker"
+- "featureID"
+- "featureIdentifier"
+- "featureUsageAnalyzer"
+- "featureUsageAnalyzerScheduledActivity"
+- "featureUsage_v1.log"
+- "feature_id"
+- "fetch failed with error=%@"
+- "fetchLinkedTokenPairWithQueue:completionHandler:"
+- "fetchParamsEntry workloadType=%s inferenceId=%s"
+- "fetchServerDrivenConfig activity could not update, error=%@"
+- "fetchServerDrivenConfigurationValve"
+- "fetchServerDrivenConfigurationWithCompletion:"
+- "fetchType"
+- "fetched ltt=%s, ott=%s; salt=%s"
+- "fetcherProvider"
+- "fetching attestations for pipeline: %s args: %s"
+- "fetching attestations has been canceled"
+- "fetching with lttIssuer=%s, ottIssuer=%s"
+- "file"
+- "fileExistsAtPath:"
+- "fileFormat"
+- "fileHandle"
+- "fileHandleForWritingToURL:error:"
+- "final"
+- "final_message"
+- "firing prefetch request as response to expired attestations"
+- "firstChunkSendWithinBudget"
+- "firstInvokeRequestSendMetricReportTime"
+- "firstPrefetchReqSend"
+- "firstchunksendtimems"
+- "firstresponsereceivedtimems"
+- "frequency"
+- "fullRequestInterval"
+- "getAttestationBundlesUsedByTrustedRequest: %s"
+- "getAttestationsForRequest %s returned batch: %lu nodes count: %ld"
+- "getAttestationsForRequest id=%s nodeKind=%s"
+- "hasCachedAttestations"
+- "hash"
+- "heuristic-input-token-count-interval-end-open"
+- "heuristic-input-token-count-interval-start-closed"
+- "high"
+- "identifier"
+- "incomingUserDataReader"
+- "infoDictionary"
+- "init"
+- "init()"
+- "initForKnownIssuerWithLongLivedTokenChallenge:oneTimeTokenChallenge:"
+- "initRSABlindSignatureChallengeWithIssuerName:redemptionNonce:originNames:"
+- "initWithMachServiceName:"
+- "initialized featureusageanalyzerstore, file=%s"
+- "initialized nodedistributionanalyzerstore, file=%s"
+- "initialized ratelimiter, file=%s"
+- "initialized server driven configuration, file=%s"
+- "initialized workloadcache, file=%s"
+- "input-token-count-interval-end-open"
+- "input-token-count-interval-start-closed"
+- "integerForKey:"
+- "invalid parameter set for prefetching"
+- "invokeRequestSendError"
+- "invokeRequestSendSuccess"
+- "invokeResponseError"
+- "invokeResponseSuccess"
+- "invokerequestsendtimems"
+- "isEqual:"
+- "isFirstAttestationFetch"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "is_final"
+- "isprefetchedattestation"
+- "jitter"
+- "jsonEncoder"
+- "kdataSendCount"
+- "kdataSendError"
+- "kdataSendNodeId"
+- "kdataSendSuccess"
+- "kdatasendtimems"
+- "kern.bootsessionuuid"
+- "key"
+- "key value "
+- "key_id"
+- "knownRateLimitsWithBundleIdentifier:featureIdentifier:skipFetch:completion:"
+- "last"
+- "lastInvokeReportedAt"
+- "lastInvokeRequestReportedAtBeginningOfDayInUTC"
+- "lastPrefetchReportedAt"
+- "lastPrefetchReportedAtBeginningOfDayInUTC"
+- "lastTTRFiredTime"
+- "lastTapToRadarTime"
+- "lastTimeScheduledTaskHasBeenRequestedToReRun"
+- "latency issue: fetchLinkedTokenPair is taking longer than expected, delay=%s"
+- "latency issue: validate is taking longer than expected, delay=%s"
+- "listRateLimitsWithBundleIdentifier:featureIdentifier:fetch:completion:"
+- "listServerDrivenConfigurationWithCompletion:"
+- "listener:shouldAcceptNewConnection:"
+- "liveOnProdSpillover: %s"
+- "locale"
+- "localizedDescription"
+- "logPrefix"
+- "logger"
+- "low"
+- "mainBundle"
+- "mandatory_keys"
+- "max-allowed-output-tokens-interval-end-open"
+- "max-allowed-output-tokens-interval-start-closed"
+- "maxAge"
+- "maxCachedAttestations: %s"
+- "maxCount"
+- "maxPrefetchBatches: %s"
+- "maxPrefetchWorkloadAgeSeconds: %s"
+- "maxPrefetchWorkloadCount: %s"
+- "maxPrefetchedAttestations: %s"
+- "message/ropes-req"
+- "metrics"
+- "migrateFrom=%s"
+- "migrating file source=%s destination=%s"
+- "migration failed error=%@"
+- "missing bundleIdentifier"
+- "missing client bundle identifier"
+- "missing entitlements"
+- "missing featureIdentifier"
+- "missing validatedAttestation.attestation.attestationBundle"
+- "missing validatedAttestation.udid"
+- "missing validatedAttestation.validatedCellID"
+- "model"
+- "modelContainer"
+- "modelExecutor"
+- "moveItemAtURL:toURL:error:"
+- "need to prefetch attestations for this workload"
+- "nextWithCompletion:"
+- "no rate limit applied from among matching configurations with count=%ld"
+- "no_further_attestations"
+- "node kind mismatch expectedNodeKind=%{public}s, validatedNodeKind=%{public}s"
+- "nodeDistributionAnalyzer"
+- "nodeDistributionReportActivity"
+- "nodeExists: checking if %s node exists"
+- "nodeExistsInBatch workloadType=%s inferenceId=%s"
+- "node_identifier"
+- "nodesReceived.log"
+- "nodeselectedtimems"
+- "not appending csf bypass because no eligibility bypass"
+- "not verifying certificate %s"
+- "numberOfCachedWorkloads"
+- "ohttpConnectionEstablishmentError"
+- "ohttpConnectionEstablishmentSuccess"
+- "ohttpProxyVendor"
+- "ohttp_context"
+- "ohttpconnectionestablishementtimems"
+- "openURL:configuration:error:"
+- "originatingBundleID"
+- "ott_salt"
+- "outgoingUserDataWriter"
+- "param"
+- "parameters"
+- "parametersCache"
+- "params"
+- "parse_type"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "periodStart"
+- "persistence does not yet exist, or unable to read persisted ratelimiter, file=%s, error=%@"
+- "persistence does not yet exist, or unable to read persisted server driven configuration, file=%s, error=%@"
+- "post_response_actions"
+- "preferencesStore"
+- "prefetch"
+- "prefetch returned empty response"
+- "prefetch workloadType=%s workloadParameters=%s"
+- "prefetch/prewarm already running for the given parameter set"
+- "prefetchActivity"
+- "prefetchCacheResetWithCompletion:"
+- "prefetchCacheWithCompletion:"
+- "prefetchParametersCacheSavedStateWithCompletion:"
+- "prefetchParametersCacheWithCompletion:"
+- "prefetchRequestWithWorkloadType:workloadParameters:completion:"
+- "prefetchTracker"
+- "prewarm"
+- "prewarm workloadType=%s workloadParameters=%s"
+- "prewarmAttestationsValidityInSeconds: %s"
+- "prewarmRequestWithWorkloadType:workloadParameters:bundleIdentifier:featureIdentifier:runOnEventStream:completion:"
+- "priority"
+- "privacyProxyErrorDomain"
+- "privatecloudcomputed"
+- "privatecloudcomputed request"
+- "privatecloudcomputed.TC2Daemon"
+- "privatecloudcomputed.TC2DaemonHost"
+- "privatecloudcomputed/BatchedPrefetch.swift"
+- "privatecloudcomputed/FeatureUsageAnalyzer.swift"
+- "privatecloudcomputed/FileUtils.swift"
+- "privatecloudcomputed/IncomingUserDataReader.swift"
+- "privatecloudcomputed/NWAsyncConnection.swift"
+- "privatecloudcomputed/OutgoingUserDataWriter.swift"
+- "privatecloudcomputed/PrefetchTracker.swift"
+- "privatecloudcomputed/RateLimiter.swift"
+- "privatecloudcomputed/RequestMetrics.swift"
+- "privatecloudcomputed/SystemInfo.swift"
+- "privatecloudcomputed/TC2DaemonHost.swift"
+- "privatecloudcomputed/TrustedRequestXPCProxy.swift"
+- "public_api_endpoints"
+- "qos"
+- "queue"
+- "rate"
+- "rate limit applied for rate with count=%lu, duration=%f"
+- "rate limit applied for rate with count=%lu, duration=%f, sessionProgress=%lu"
+- "rate limit applied for rate with count=0"
+- "rate limit applied from cached denials"
+- "rate limit discovered for rate with count=%lu, duration=%f"
+- "rate limit softened for rate with count=%lu, duration=%f, sessionProgress=%lu"
+- "rateLimitConfigurations"
+- "rateLimitUnmatchedRequestStorageTimeout"
+- "rateLimitValve"
+- "rateLimiter"
+- "rate_limit_config_request"
+- "rate_limit_configuration"
+- "rate_limit_configuration_list"
+- "ratelimiter is being reset"
+- "ratelimiter remembering completed request"
+- "ratelimiter undergoing trim"
+- "ratelimitmodel_v3.plist"
+- "readyEvent"
+- "ready_for_more_chunks"
+- "reason"
+- "received a request to fetch server driven configuration but it is too soon"
+- "registerForTaskWithIdentifier:usingQueue:launchHandler:"
+- "registerNodeStream(nodeID:)"
+- "release"
+- "releasePowerAssertion"
+- "remainingchunksendtimems"
+- "removeItemAtPath:error:"
+- "removeItemAtURL:error:"
+- "removeObjectForKey:"
+- "request"
+- "requestID"
+- "requestID environment "
+- "requestIDForEventReporting"
+- "requestMetadata"
+- "requestMetadataWithCompletion:"
+- "requestMetrics"
+- "requestOHTTPContext"
+- "requestProxies"
+- "request_diagnostics"
+- "request_execution_log_entry"
+- "request_type"
+- "resetRateLimitsWithCompletion:"
+- "respondsToSelector:"
+- "responseBypass, "
+- "response_context"
+- "response_payload"
+- "response_status"
+- "response_summary"
+- "response_uuid"
+- "resume"
+- "retain"
+- "retainCount"
+- "revocation"
+- "revoked_attestation"
+- "revoked_attestation_list"
+- "ropesNodeIdentifier"
+- "routing_parameters"
+- "running discardUsedAttestationsAndPrefetchBatch"
+- "running prefetchAttestationsForNewWorkload"
+- "running prewarmAttestations: %s %s"
+- "running token fetch during prewarm"
+- "samplingUUID"
+- "saveTokenToCache:"
+- "saveValidatedAttestation: %s batch: %lu prefetched: %{bool}d fetchTime: %s cloudOSVersion: %s"
+- "saved ott=%s"
+- "self"
+- "sendWithData:isComplete:completion:"
+- "server id=%s set for request against client id=%s"
+- "serverDrivenConfig"
+- "serverDrivenConfiguration"
+- "serverRequestID"
+- "serverRequestID parameters "
+- "serverdrivenconfiguration.json"
+- "sessionID"
+- "sessionWithConfiguration:"
+- "setDelegate:"
+- "setExpirationHandlerWithReason:"
+- "setExportedInterface:"
+- "setExportedObject:"
+- "setInterruptionHandler:"
+- "setInvalidationHandler:"
+- "setObject:forKey:"
+- "setServerDrivenConfigurationWithJson:completion:"
+- "setSystemClient:"
+- "setTaskCompleted"
+- "setTaskExpiredWithRetryAfter:error:"
+- "setUsesClassicLoadingMode:"
+- "setValue:forKey:"
+- "setup_request"
+- "sharedScheduler"
+- "should_clear_cache"
+- "signpostID"
+- "signposter"
+- "skipping migration due to destinationContents=%s"
+- "skipping migration due to sourceContents=%s"
+- "standardUserDefaults"
+- "startDate"
+- "startInstant"
+- "startTrustedRequest.Task"
+- "state"
+- "stateLock"
+- "store"
+- "store unavailable"
+- "storeHelper"
+- "storeURL"
+- "structuredRequestFactoriesBySetup"
+- "succeeded prefetch request as response to expired attestations"
+- "superclass"
+- "supported_workloads"
+- "sysctlbyname() for key="
+- "sysctlbyname() returned "
+- "systemInfo"
+- "tap-to-radar://new?Title="
+- "tapToRadarController"
+- "task"
+- "terminate"
+- "thimbledEventContinuation"
+- "thimbledEventStream"
+- "token fetch prewarm failed, error=%@"
+- "tokenProvider"
+- "token_granting_token"
+- "totalAttestations for region=%s: %ld (regional)"
+- "totalAttestations for region=%s: %s (default)"
+- "totalNumberOfAttestations"
+- "trackNodeForParameters: checking if %s node tracks params"
+- "trimming archive, count=%ld, maxCount=%ld"
+- "trustedEndpointResponseError"
+- "trustedEndpointResponseNodeId"
+- "trustedEndpointResponseSuccess"
+- "trustedProxy"
+- "trustedProxyDefaultTotalAttestations: %s"
+- "trustedProxyMaxCachedAttestations: %s"
+- "trustedProxyMaxPrefetchBatches: %s"
+- "trustedProxyMaxPrefetchedAttestations: %s"
+- "trustedProxyResponseBypassOhttpContext"
+- "trustedProxyRollout: %s"
+- "trustedRequestError"
+- "trustedRequestSuccess"
+- "trustedRequestSuccessCount"
+- "trustedRequestWithParameters:requestID:bundleIdentifier:originatingBundleIdentifier:featureIdentifier:sessionIdentifier:completion:"
+- "trusted_proxy_duplicate_first_request_chunk"
+- "trusted_proxy_node_selected"
+- "trusted_proxy_request_nack"
+- "trusted_proxy_request_payload"
+- "trusted_proxy_response_bypass_ohttp_contexts"
+- "trustedrequesttotaltimems"
+- "ttl"
+- "type"
+- "udids fromSource "
+- "unable to decode persisted ratelimiter, error=%@"
+- "unable to decode server driven configuration, error=%@"
+- "unable to delete migration source error=%@"
+- "unable to encode and log request"
+- "unable to encode persisted ratelimiter, error=%@"
+- "unable to update persisted server driven configuration, error=%@"
+- "unable to verify attestation, environment=%{public}s error=%@"
+- "unable to write persisted ratelimiter, file=%s, error=%@"
+- "unable to write persisted server driven configuration, file=%s, error=%@"
+- "uncompressed_length_hint"
+- "underlying"
+- "unexpected node kind override, ignoring, overrideNodeKind=%{public}s"
+- "uniqueDeviceIDPercentile failed to understand uniqueDeviceID utf8"
+- "updateServerDrivenConfigurationActivity"
+- "url"
+- "useTrustedProxy"
+- "usedByTrustedRequestWithId"
+- "userDefaults"
+- "userInfo"
+- "utcCalendar"
+- "utilization"
+- "v16@0:8"
+- "v16@?0@\"BGSystemTask\"8"
+- "v16@?0Q8"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?>16"
+- "v24@0:8@?<v@?@\"NSArray\">16"
+- "v24@0:8@?<v@?@\"NSData\">16"
+- "v24@0:8@?<v@?@\"NSData\"@\"NSData\">16"
+- "v24@0:8@?<v@?@\"NSString\">16"
+- "v24@0:8@?<v@?B>16"
+- "v32@0:8@\"NSData\"16@?<v@?@\"NSData\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSString\">24"
+- "v32@0:8@16@?24"
+- "v32@?0@\"<OS_sec_protocol_metadata>\"8@\"<OS_sec_trust>\"16@?<v@?B>24"
+- "v36@0:8@\"NSData\"16B24@?<v@?@\"NSData\">28"
+- "v36@0:8@16B24@?28"
+- "v40@0:8@\"NSString\"16@\"NSDictionary\"24@?<v@?@\"NSData\">32"
+- "v40@0:8@16@24@?32"
+- "v40@?0@\"NSData\"8@\"NSData\"16@\"NSData\"24@\"NSError\"32"
+- "v44@0:8@\"NSString\"16@\"NSString\"24B32@?<v@?@\"NSData\">36"
+- "v44@0:8@16@24B32@?36"
+- "v60@0:8@\"NSString\"16@\"NSDictionary\"24@\"NSString\"32@\"NSString\"40B48@?<v@?>52"
+- "v60@0:8@16@24@32@40B48@?52"
+- "v72@0:8@\"NSData\"16@\"NSUUID\"24@\"NSString\"32@\"NSString\"40@\"NSString\"48@\"NSUUID\"56@?<v@?@\"<_TtP19PrivateCloudCompute28TC2XPCTrustedRequestProtocol_>\"@\"NSData\">64"
+- "v72@0:8@16@24@32@40@48@56@?64"
+- "v80@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32Q40d48d56d64@?<v@?>72"
+- "v80@0:8@16@24@32Q40d48d56d64@?72"
+- "v8@?0"
+- "validating attestation using direct node validator"
+- "validating attestation using mux validator"
+- "value"
+- "valueForEntitlement:"
+- "valueForKey:"
+- "verified attestation bundle environment=%{public}s publicKey=%s keyExpiration=%s attestationExpiry=%s"
+- "verifiedattestationcount"
+- "waiterIDGenerator"
+- "winnerNodeID continuation "
+- "withNextOutgoingElement(_:)"
+- "work"
+- "workloadType workloadParameters bundleIdentifier featureIdentifier "
+- "workload_type"
+- "workloadcache_v2.plist"
+- "write(content:contentContext:isComplete:)"
+- "write(data:isComplete:)"
+- "wrote migrationSemaphoreFile=%s"
+- "wrote persisted ratelimiter, file=%s"
+- "wrote persisted server driven configuration, file=%s"
+- "zone"
+
+```

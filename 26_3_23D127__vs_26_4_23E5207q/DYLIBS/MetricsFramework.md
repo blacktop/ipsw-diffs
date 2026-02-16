@@ -1,0 +1,1266 @@
+## MetricsFramework
+
+> `/System/Library/PrivateFrameworks/MetricsFramework.framework/MetricsFramework`
+
+```diff
+
+-3515.9.1.0.0
+-  __TEXT.__text: 0x12cf00
+-  __TEXT.__auth_stubs: 0x1ff0
+-  __TEXT.__objc_methlist: 0x44
+-  __TEXT.__const: 0xcd50
+-  __TEXT.__cstring: 0x8961
+-  __TEXT.__swift5_typeref: 0x30ec
+-  __TEXT.__swift5_capture: 0x588
+-  __TEXT.__oslogstring: 0x68ec
+-  __TEXT.__swift5_reflstr: 0x5268
+-  __TEXT.__swift5_assocty: 0xe80
+-  __TEXT.__constg_swiftt: 0x5238
+-  __TEXT.__swift5_fieldmd: 0x485c
+-  __TEXT.__swift5_builtin: 0x1f4
+-  __TEXT.__swift5_proto: 0x7e4
+-  __TEXT.__swift5_types: 0x46c
+-  __TEXT.__swift_as_entry: 0x498
+-  __TEXT.__swift_as_ret: 0x444
+-  __TEXT.__swift5_protos: 0x64
+-  __TEXT.__unwind_info: 0x3e98
+-  __TEXT.__eh_frame: 0x8218
+-  __TEXT.__objc_classname: 0xa
+-  __TEXT.__objc_methname: 0x29f2
+-  __TEXT.__objc_methtype: 0x15
+-  __TEXT.__objc_stubs: 0x20
+-  __DATA_CONST.__got: 0x7e8
+-  __DATA_CONST.__const: 0x1d8
+-  __DATA_CONST.__objc_classlist: 0x3a8
+-  __DATA_CONST.__objc_catlist: 0x10
+-  __DATA_CONST.__objc_protolist: 0x10
++3520.52.5.1.3
++  __TEXT.__text: 0x11a418
++  __TEXT.__auth_stubs: 0x2130
++  __TEXT.__objc_methlist: 0x14
++  __TEXT.__const: 0xd060
++  __TEXT.__swift5_typeref: 0x32a0
++  __TEXT.__swift5_capture: 0x400
++  __TEXT.__oslogstring: 0x695c
++  __TEXT.__swift5_reflstr: 0x5608
++  __TEXT.__swift5_assocty: 0xdc8
++  __TEXT.__constg_swiftt: 0x545c
++  __TEXT.__swift5_fieldmd: 0x4d3c
++  __TEXT.__swift5_builtin: 0x230
++  __TEXT.__cstring: 0x6a00
++  __TEXT.__swift5_proto: 0x830
++  __TEXT.__swift5_types: 0x47c
++  __TEXT.__swift_as_entry: 0x428
++  __TEXT.__swift_as_ret: 0x3e8
++  __TEXT.__swift5_protos: 0x78
++  __TEXT.__unwind_info: 0x3bb8
++  __TEXT.__eh_frame: 0x7ba8
++  __TEXT.__objc_classname: 0x1921
++  __TEXT.__objc_methname: 0x3620
++  __TEXT.__objc_methtype: 0x171
++  __TEXT.__objc_stubs: 0x2ee0
++  __DATA_CONST.__got: 0x8b8
++  __DATA_CONST.__const: 0x1c0
++  __DATA_CONST.__objc_classlist: 0x350
++  __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xaf0
+-  __DATA_CONST.__objc_protorefs: 0x8
+-  __AUTH_CONST.__auth_got: 0x1000
+-  __AUTH_CONST.__const: 0x83e0
+-  __AUTH_CONST.__cfstring: 0x3c40
+-  __AUTH_CONST.__objc_const: 0x5e20
+-  __AUTH.__objc_data: 0x10e0
+-  __AUTH.__data: 0x5e30
+-  __DATA.__data: 0x26a8
+-  __DATA.__common: 0x280
+-  __DATA.__bss: 0xd780
+-  __DATA_DIRTY.__objc_data: 0x7d0
+-  __DATA_DIRTY.__data: 0x15d0
+-  __DATA_DIRTY.__common: 0xd0
+-  __DATA_DIRTY.__bss: 0x1600
++  __DATA_CONST.__objc_selrefs: 0xbc8
++  __AUTH_CONST.__auth_got: 0x10a0
++  __AUTH_CONST.__const: 0x86d0
++  __AUTH_CONST.__cfstring: 0x3fa0
++  __AUTH_CONST.__objc_const: 0x58f0
++  __AUTH.__objc_data: 0x1208
++  __AUTH.__data: 0x6260
++  __DATA.__data: 0x2918
++  __DATA.__common: 0x288
++  __DATA.__bss: 0xe480
++  __DATA_DIRTY.__objc_data: 0x550
++  __DATA_DIRTY.__data: 0x10c0
++  __DATA_DIRTY.__common: 0x80
++  __DATA_DIRTY.__bss: 0x1280
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 28868019-36A0-30F7-894E-12DC0AFBE1E4
+-  Functions: 5021
+-  Symbols:   2224
+-  CStrings:  2391
++  UUID: 3D0E1DD1-2C67-3509-A705-70B9040851A4
++  Functions: 4923
++  Symbols:   2570
++  CStrings:  2529
+ 
+Symbols:
++ _OBJC_CLASS_$_BMMetadata
++ _OBJC_CLASS_$_BMScoreItem
++ _OBJC_CLASS_$_BMSiriThirdPartyGenAiEngagementInference
++ _OBJC_CLASS_$_ODDSiriSchemaODDAssetBringUpDigestsReported
++ _OBJC_CLASS_$_ODDSiriSchemaODDAssetBringUpStatus
++ _OBJC_CLASS_$_ODDSiriSchemaODDAssistantThirdPartyGenAICounts
++ _OBJC_CLASS_$_ODDSiriSchemaODDAssistantThirdPartyGenAIDigest
++ _OBJC_CLASS_$_ODDSiriSchemaODDAssistantThirdPartyGenAIDigestReported
++ _OBJC_CLASS_$_ODDSiriSchemaODDAssistantThirdPartyGenAIDimensions
++ __DATA__TtC16MetricsFramework10GenAiQuery
++ __DATA__TtC16MetricsFramework19AssetBringUpMetrics
++ __DATA__TtC16MetricsFramework20AssetBringUpReporter
++ __DATA__TtC16MetricsFramework22AssetBringUpCalculator
++ __DATA__TtC16MetricsFramework23GenAIMetricsBuilderImpl
++ __DATA__TtC16MetricsFramework23ODDIMetricsRowConverter
++ __DATA__TtC16MetricsFramework24AssetBringUpDataProvider
++ __DATA__TtC16MetricsFramework24AssetBringUpSELFReporter
++ __DATA__TtC16MetricsFramework28ODDIGenAIMetricsRowConverter
++ __DATA__TtC16MetricsFramework28ODDIGenAIMetricsSELFReporter
++ __DATA__TtC16MetricsFramework31ODDIExperimentationRowConverter
++ __IVARS__TtC16MetricsFramework10GenAiQuery
++ __IVARS__TtC16MetricsFramework16RowConverterBase
++ __IVARS__TtC16MetricsFramework19AssetBringUpMetrics
++ __IVARS__TtC16MetricsFramework22AssetBringUpCalculator
++ __IVARS__TtC16MetricsFramework23GenAIMetricsBuilderImpl
++ __IVARS__TtC16MetricsFramework24AssetBringUpDataProvider
++ __IVARS__TtC16MetricsFramework24AssetBringUpSELFReporter
++ __IVARS__TtC16MetricsFramework28ODDIGenAIMetricsSELFReporter
++ __METACLASS_DATA__TtC16MetricsFramework10GenAiQuery
++ __METACLASS_DATA__TtC16MetricsFramework19AssetBringUpMetrics
++ __METACLASS_DATA__TtC16MetricsFramework20AssetBringUpReporter
++ __METACLASS_DATA__TtC16MetricsFramework22AssetBringUpCalculator
++ __METACLASS_DATA__TtC16MetricsFramework23GenAIMetricsBuilderImpl
++ __METACLASS_DATA__TtC16MetricsFramework23ODDIMetricsRowConverter
++ __METACLASS_DATA__TtC16MetricsFramework24AssetBringUpDataProvider
++ __METACLASS_DATA__TtC16MetricsFramework24AssetBringUpSELFReporter
++ __METACLASS_DATA__TtC16MetricsFramework28ODDIGenAIMetricsRowConverter
++ __METACLASS_DATA__TtC16MetricsFramework28ODDIGenAIMetricsSELFReporter
++ __METACLASS_DATA__TtC16MetricsFramework31ODDIExperimentationRowConverter
++ ___swift_memcpy153_8
++ ___swift_memcpy48_8
++ ___swift_memcpy545_8
++ ___swift_memcpy873_8
++ ___swift_project_boxed_opaque_existential_1Tm
++ ___unnamed_13
++ ___unnamed_8
++ __swift_stdlib_strtod_clocale
++ _associated conformance 16MetricsFramework012AssetBringUpA0C18lighthouse_runtime12DataProviderAA0H10RecordTypeAdEP_AD0hJ0
++ _associated conformance 16MetricsFramework012AssetBringUpA0C18lighthouse_runtime16LighthousePluginAaD12DataProvider
++ _associated conformance 16MetricsFramework012AssetBringUpA0C18lighthouse_runtime16LighthousePluginAaD6Worker
++ _associated conformance 16MetricsFramework012AssetBringUpA0C18lighthouse_runtime16LighthousePluginAaD8Reporter
++ _associated conformance 16MetricsFramework012AssetBringUpA0C18lighthouse_runtime6WorkerAA10ResultTypeAdEP_AD0I0
++ _associated conformance 16MetricsFramework012AssetBringUpA0C18lighthouse_runtime6WorkerAA14DataRecordTypeAdEP_AD0iJ0
++ _associated conformance 16MetricsFramework012AssetBringUpA0C18lighthouse_runtime8ReporterAA10ResultTypeAdEP_AD0I0
++ _associated conformance 16MetricsFramework16AssetBringUpDataV10CodingKeysOSHAASQ
++ _associated conformance 16MetricsFramework16AssetBringUpDataV10CodingKeysOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 16MetricsFramework16AssetBringUpDataV10CodingKeysOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16MetricsFramework16AssetBringUpDataV10CodingKeysOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 16MetricsFramework16RowConverterBaseCyxGAA0cD0AA10ResultTypeAaEP_AA014ODDIBookmarkedF0
++ _associated conformance 16MetricsFramework18AssetBringUpStatusV10CodingKeysOSHAASQ
++ _associated conformance 16MetricsFramework18AssetBringUpStatusV10CodingKeysOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 16MetricsFramework18AssetBringUpStatusV10CodingKeysOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16MetricsFramework19AssetBringUpResultsV11DeepThought16BookmarkedResultAA18lighthouse_runtime0J0
++ _associated conformance 16MetricsFramework20AssetBringUpReporterC18lighthouse_runtime0F0AA10ResultTypeAdEP_AD0I0
++ _associated conformance 16MetricsFramework22AssetBringUpCalculatorC18lighthouse_runtime6WorkerAA10ResultTypeAdEP_AD0J0
++ _associated conformance 16MetricsFramework22AssetBringUpCalculatorC18lighthouse_runtime6WorkerAA14DataRecordTypeAdEP_AD0jK0
++ _associated conformance 16MetricsFramework23ODDIGenAIMetricsResultsV11DeepThought16BookmarkedResultAA18lighthouse_runtime0I0
++ _associated conformance 16MetricsFramework24AssetBringUpDataProviderC18lighthouse_runtime0fG0AA0F10RecordTypeAdEP_AD0fJ0
++ _associated conformance 16MetricsFramework28ODDIGenAIMetricsSELFReporterC18lighthouse_runtime8ReporterAA10ResultTypeAdEP_AD0I0
++ _associated conformance 16MetricsFramework30ThirdPartyGenAiInferenceResultV10CodingKeys33_D0F7A9FBB69195146951456F804E8A73LLOSHAASQ
++ _associated conformance 16MetricsFramework30ThirdPartyGenAiInferenceResultV10CodingKeys33_D0F7A9FBB69195146951456F804E8A73LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 16MetricsFramework30ThirdPartyGenAiInferenceResultV10CodingKeys33_D0F7A9FBB69195146951456F804E8A73LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16MetricsFramework8MetadataV10CodingKeys33_D0F7A9FBB69195146951456F804E8A73LLOSHAASQ
++ _associated conformance 16MetricsFramework8MetadataV10CodingKeys33_D0F7A9FBB69195146951456F804E8A73LLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 16MetricsFramework8MetadataV10CodingKeys33_D0F7A9FBB69195146951456F804E8A73LLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16MetricsFramework9ScoreItemV10CodingKeys33_D0F7A9FBB69195146951456F804E8A73LLOSHAASQ
++ _associated conformance 16MetricsFramework9ScoreItemV10CodingKeys33_D0F7A9FBB69195146951456F804E8A73LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 16MetricsFramework9ScoreItemV10CodingKeys33_D0F7A9FBB69195146951456F804E8A73LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _block_copy_helper.17
++ _block_copy_helper.19
++ _block_copy_helper.23
++ _block_copy_helper.35
++ _block_copy_helper.41
++ _block_copy_helper.47
++ _block_copy_helper.53
++ _block_copy_helper.59
++ _block_copy_helper.65
++ _block_copy_helper.71
++ _block_copy_helper.77
++ _block_descriptor.19
++ _block_descriptor.21
++ _block_descriptor.25
++ _block_descriptor.37
++ _block_descriptor.43
++ _block_descriptor.49
++ _block_descriptor.55
++ _block_descriptor.61
++ _block_descriptor.67
++ _block_descriptor.73
++ _block_descriptor.79
++ _block_destroy_helper.18
++ _block_destroy_helper.20
++ _block_destroy_helper.24
++ _block_destroy_helper.36
++ _block_destroy_helper.42
++ _block_destroy_helper.48
++ _block_destroy_helper.54
++ _block_destroy_helper.60
++ _block_destroy_helper.66
++ _block_destroy_helper.72
++ _block_destroy_helper.78
++ _objc_msgSend$AssetDelivery
++ _objc_msgSend$BootSession
++ _objc_msgSend$DailyStatus
++ _objc_msgSend$Device
++ _objc_msgSend$JSONObjectWithData:options:error:
++ _objc_msgSend$KeybagLocked
++ _objc_msgSend$Metrics
++ _objc_msgSend$ODDI
++ _objc_msgSend$OnDeviceAnalytics
++ _objc_msgSend$OnDeviceDigestSegmentsCohorts
++ _objc_msgSend$ScorecardMetrics
++ _objc_msgSend$Siri
++ _objc_msgSend$SpeakerIdSampling
++ _objc_msgSend$ThirdPartyGenAiEngagementInference
++ _objc_msgSend$UAF
++ _objc_msgSend$URLForResource:withExtension:
++ _objc_msgSend$__swift_objectForKeyedSubscript:
++ _objc_msgSend$addCohorts:
++ _objc_msgSend$addDigests:
++ _objc_msgSend$addOdsampleIds:
++ _objc_msgSend$addRouting:
++ _objc_msgSend$addSegments:
++ _objc_msgSend$addTurnIds:
++ _objc_msgSend$allKeys
++ _objc_msgSend$anyEventType
++ _objc_msgSend$assetFailureReasons
++ _objc_msgSend$assistantId
++ _objc_msgSend$assistantIdentifier
++ _objc_msgSend$assistantIsEnabled
++ _objc_msgSend$boolForKey:
++ _objc_msgSend$bundleForClass:
++ _objc_msgSend$cleanUpAudioOnAndBeforeDate:error:
++ _objc_msgSend$code
++ _objc_msgSend$columns
++ _objc_msgSend$convertCountryCodeToSchemaCountryCode:
++ _objc_msgSend$copy
++ _objc_msgSend$count
++ _objc_msgSend$countryCode
++ _objc_msgSend$data
++ _objc_msgSend$dateFromString:
++ _objc_msgSend$defaultMessageStream
++ _objc_msgSend$deleteWithPolicy:eventsPassingTest:
++ _objc_msgSend$deviceAggregationId
++ _objc_msgSend$dictationIsEnabled
++ _objc_msgSend$dictionaryRepresentation
++ _objc_msgSend$digests
++ _objc_msgSend$dimensions
++ _objc_msgSend$domain
++ _objc_msgSend$donationId
++ _objc_msgSend$doubleValue
++ _objc_msgSend$emitMessage:isolatedStreamUUID:
++ _objc_msgSend$enrollmentIdentifier
++ _objc_msgSend$eventBody
++ _objc_msgSend$eventMetadata
++ _objc_msgSend$fetchActiveAccount:
++ _objc_msgSend$getActiveRequestIdsForLocale:date:error:
++ _objc_msgSend$getAudioIdWithRequestId:languageCode:date:error:
++ _objc_msgSend$getDonationDataWithEnrollmentId:error:
++ _objc_msgSend$getDonationIdsWithEnrollmentId:error:
++ _objc_msgSend$getEnrollmentDateWithLocale:error:
++ _objc_msgSend$getEnrollmentIdWithLocale:error:
++ _objc_msgSend$getEnrollmentSelectionStatusWithLocale:error:
++ _objc_msgSend$getODDDeviceAggregationId:
++ _objc_msgSend$getODDDeviceProperties:
++ _objc_msgSend$getSiriLanguageWithFallback:
++ _objc_msgSend$identifier
++ _objc_msgSend$init
++ _objc_msgSend$initWithData:
++ _objc_msgSend$initWithDomain:code:userInfo:
++ _objc_msgSend$initWithDouble:
++ _objc_msgSend$initWithEventMetadata:deviceSegmentsReported:deviceCohortsReported:
++ _objc_msgSend$initWithEventMetadata:deviceType:programCode:productId:systemBuild:dataSharingOptInStatus:viewInterface:audioInterfaceVendorId:audioInterfaceProductId:asrLocation:nlLocation:siriInputLocale:dictationLocale:subDomain:totalTurnCount:validTurnCount:siriTasksStarted:siriTasksCompleted:flowTasksStarted:flowTasksCompleted:reliabilityRequestCount:reliabilityTurnCount:clientErrorCount:undesiredResponseCount:fatalResponseCount:failureResponseCount:siriUnavailableResponseCount:siriResponseId:responseCategory:isIntelligenceEngineRequest:intelligenceEngineRouting:invocationSource:
++ _objc_msgSend$initWithEventTime:turnId:version:usecase:scores:metadata:
++ _objc_msgSend$initWithExplanation:isFollowup:
++ _objc_msgSend$initWithInt:
++ _objc_msgSend$initWithLanguageCode:countryCode:
++ _objc_msgSend$initWithLaunchTimeInMs:endpointDelayInMs:siriResponseTimeInMs:timeToUufrInMs:timeToFirstWordInMs:
++ _objc_msgSend$initWithNSUUID:
++ _objc_msgSend$initWithOddId:deviceAggregationId:userAggregationId:eventTimestampInMSSince1970:timeInterval:userAggregationIdRotationTimestampInMs:userAggregationIdExpirationTimestampInMs:eventOrigin:isLongLivedIDUploadDisabled:
++ _objc_msgSend$initWithOddIdUUID:deviceAggregationId:userAggregationId:eventTimestampInMSSince1970:timeInterval:userAggregationIdRotationTimestampInMs:userAggregationIdExpirationTimestampInMs:
++ _objc_msgSend$initWithPattern:options:error:
++ _objc_msgSend$initWithSchema:publisherBlockWithOptions:acceptPublisherOptions:
++ _objc_msgSend$initWithSegmentType:segmentDataAvailabilityState:daysWithTwoValidAssistantTurnsPerWeek:daysWithTwoAssistantSpeechRequestsPerWeek:
++ _objc_msgSend$initWithStartDate:endDate:maxEvents:lastN:reversed:
++ _objc_msgSend$initWithStartTimestampInSecondsSince1970:numberOfSeconds:
++ _objc_msgSend$initWithSuiteName:
++ _objc_msgSend$initWithSystemBuild:dataSharingOptInStatus:viewInterface:audioInterfaceVendorId:audioInterfaceProductId:asrLocation:nlLocation:siriInputLocale:subDomain:responseCategory:experimentAllocationStatus:isTriggered:isFirstTriggerOrAfterFirstTrigger:codePathIdUUID:totalTurnCount:validTurnCount:siriTasksStarted:siriTasksCompleted:flowTasksStarted:flowTasksCompleted:reliabilityRequestCount:reliabilityTurnCount:clientErrorCount:undesiredResponseCount:fatalResponseCount:failureResponseCount:siriUnavailableResponseCount:usdxSessionCount:tuples:
++ _objc_msgSend$initWithTableName:columns:
++ _objc_msgSend$initWithTimeInterval:cohortType:cohortDataAvailabilityState:
++ _objc_msgSend$initWithTimeIntervalSince1970:
++ _objc_msgSend$initWithTimestamp:onDeviceSampleIdentifiers:enrollmentIdentifier:
++ _objc_msgSend$initWithType:value:
++ _objc_msgSend$initWithUnsignedInteger:
++ _objc_msgSend$languageCode
++ _objc_msgSend$locale
++ _objc_msgSend$longLivedIdentifierUploadingEnabled
++ _objc_msgSend$numberOfSeconds
++ _objc_msgSend$objectAtIndexedSubscript:
++ _objc_msgSend$objectForKey:
++ _objc_msgSend$onDeviceSampleIdentifiers
++ _objc_msgSend$pruner
++ _objc_msgSend$publisher
++ _objc_msgSend$publisherWithUseCase:options:
++ _objc_msgSend$removeMappingOnAndBefore:completion:
++ _objc_msgSend$reportSiriInstrumentationEvent:forBundleID:completion:
++ _objc_msgSend$respondsToSelector:
++ _objc_msgSend$schema
++ _objc_msgSend$setAggregationInterval:
++ _objc_msgSend$setAliasName:
++ _objc_msgSend$setAliasValue:
++ _objc_msgSend$setAlteredAssetSets:
++ _objc_msgSend$setAppleIntelligenceLocale:
++ _objc_msgSend$setAsrLocation:
++ _objc_msgSend$setAsrTask:
++ _objc_msgSend$setAssetAvailabilityFromBootDigestReported:
++ _objc_msgSend$setAssetBringUpDigestsReported:
++ _objc_msgSend$setAssetBringUpErrorCode:
++ _objc_msgSend$setAssetBringUpErrorDescription:
++ _objc_msgSend$setAssetBringUpErrorDomain:
++ _objc_msgSend$setAssetBringUpState:
++ _objc_msgSend$setAssetBringUpType:
++ _objc_msgSend$setAssetDownloadSizeInBytes:
++ _objc_msgSend$setAssetFailureReasons:
++ _objc_msgSend$setAssetLocale:
++ _objc_msgSend$setAssetName:
++ _objc_msgSend$setAssetPath:
++ _objc_msgSend$setAssetSetId:
++ _objc_msgSend$setAssetSetIdentifier:
++ _objc_msgSend$setAssetSetIndices:
++ _objc_msgSend$setAssetSetName:
++ _objc_msgSend$setAssetSetStatus:
++ _objc_msgSend$setAssetSetStatusDigestReported:
++ _objc_msgSend$setAssetSetStatusEventTimestampInSecondsSince1970:
++ _objc_msgSend$setAssetSetUsages:
++ _objc_msgSend$setAssetSource:
++ _objc_msgSend$setAssetSpecifier:
++ _objc_msgSend$setAssetUnarchivedSizeInBytes:
++ _objc_msgSend$setAssetVersion:
++ _objc_msgSend$setAssets:
++ _objc_msgSend$setAssistantDeviceDigestReported:
++ _objc_msgSend$setAssistantDimensions:
++ _objc_msgSend$setAssistantExperimentDigestReported:
++ _objc_msgSend$setAssistantId:
++ _objc_msgSend$setAssistantThirdPartyGenAIDigestReported:
++ _objc_msgSend$setAudienceId:
++ _objc_msgSend$setAudioCodec:
++ _objc_msgSend$setAudioId:
++ _objc_msgSend$setAudioInterfaceProductId:
++ _objc_msgSend$setAudioInterfaceVendorId:
++ _objc_msgSend$setAudioSkippedNumSamples:
++ _objc_msgSend$setAudioSource:
++ _objc_msgSend$setAvailabilityStatus:
++ _objc_msgSend$setBootToAssetDeliveryInMs:
++ _objc_msgSend$setBuddyStatus:
++ _objc_msgSend$setBuildInstallationTimestampInSecondsSince1970:
++ _objc_msgSend$setBuildVersionPriorToSoftwareUpdate:
++ _objc_msgSend$setClientErrorCount:
++ _objc_msgSend$setClientProcessAssetAvailabilityStatus:
++ _objc_msgSend$setCodePathId:
++ _objc_msgSend$setCohortDataAvailabilityState:
++ _objc_msgSend$setCohortInterval:
++ _objc_msgSend$setCohortType:
++ _objc_msgSend$setCollectionStatus:
++ _objc_msgSend$setCoreDimensions:
++ _objc_msgSend$setCountFactoryAssetInBytes:
++ _objc_msgSend$setCountFactoryAssets:
++ _objc_msgSend$setCountOfAssetsInAssetSet:
++ _objc_msgSend$setCountOfPSUSAssetsPromotedInCurrentOS:
++ _objc_msgSend$setCountPSUSAssetsMobileAsset:
++ _objc_msgSend$setCountryCode:
++ _objc_msgSend$setCounts:
++ _objc_msgSend$setCurrentMode:
++ _objc_msgSend$setCurrentStatus:
++ _objc_msgSend$setDataSharingOptInStatus:
++ _objc_msgSend$setDateFormat:
++ _objc_msgSend$setDaysWithTwoAssistantSpeechRequestsPerWeek:
++ _objc_msgSend$setDaysWithTwoValidAssistantTurnsPerWeek:
++ _objc_msgSend$setDeploymentId:
++ _objc_msgSend$setDeviceAggregationId:
++ _objc_msgSend$setDeviceCohortsReported:
++ _objc_msgSend$setDeviceSegmentsReported:
++ _objc_msgSend$setDeviceType:
++ _objc_msgSend$setDictationDeviceDigestReported:
++ _objc_msgSend$setDictationDimensions:
++ _objc_msgSend$setDictationExperimentDigestsReported:
++ _objc_msgSend$setDictationLocale:
++ _objc_msgSend$setDigestType:
++ _objc_msgSend$setDigests:
++ _objc_msgSend$setDimensions:
++ _objc_msgSend$setDownloadState:
++ _objc_msgSend$setDurationFromBootToFirstRequestSeconds:
++ _objc_msgSend$setDurationFromClassCUnlockToFirstRequestSeconds:
++ _objc_msgSend$setDurationFromSoftwareUpdateToFirstRequestSeconds:
++ _objc_msgSend$setEliminatedAssetSets:
++ _objc_msgSend$setEndpointDelayInMs:
++ _objc_msgSend$setEnrollmentMode:
++ _objc_msgSend$setEnrollmentOutcome:
++ _objc_msgSend$setEventMetadata:
++ _objc_msgSend$setEventOrigin:
++ _objc_msgSend$setEventTimestampInMsSince1970:
++ _objc_msgSend$setEventType:
++ _objc_msgSend$setExecutionMetadataReported:
++ _objc_msgSend$setExecutionStatus:
++ _objc_msgSend$setExpensiveCellularDownloadRequested:
++ _objc_msgSend$setExperimentAllocationStatus:
++ _objc_msgSend$setExperimentFixedDimensions:
++ _objc_msgSend$setExperimentId:
++ _objc_msgSend$setExtensionName:
++ _objc_msgSend$setFailureResponseCount:
++ _objc_msgSend$setFatalResponseCount:
++ _objc_msgSend$setFirstPartyAudioInterfaceProductId:
++ _objc_msgSend$setFixedDimensions:
++ _objc_msgSend$setFlowTasksCompleted:
++ _objc_msgSend$setFlowTasksStarted:
++ _objc_msgSend$setFromPreSoftwareUpdateStaging:
++ _objc_msgSend$setGmsAssetAvailabilityStatus:
++ _objc_msgSend$setHasCurrentMode:
++ _objc_msgSend$setHasModelCatalogSubscriptionHashChangedFromLastStatus:
++ _objc_msgSend$setHasPreviousStatus:
++ _objc_msgSend$setIntelligenceFeatureAvailabilityStatusChangesReported:
++ _objc_msgSend$setInvocationSource:
++ _objc_msgSend$setInvocationsCountWhileAvailable:
++ _objc_msgSend$setInvocationsCountWhileNotAvailable:
++ _objc_msgSend$setIsAmbiguousRequest:
++ _objc_msgSend$setIsAppleIntelligenceAllowedThroughWaitlist:
++ _objc_msgSend$setIsAppleIntelligenceEligible:
++ _objc_msgSend$setIsAppleIntelligenceToggled:
++ _objc_msgSend$setIsAssetPathValid:
++ _objc_msgSend$setIsDeviceHandHeld:
++ _objc_msgSend$setIsDeviceSelected:
++ _objc_msgSend$setIsEnrollmentSample:
++ _objc_msgSend$setIsExplicitGenAIRequest:
++ _objc_msgSend$setIsFirstTriggerOrAfterFirstTrigger:
++ _objc_msgSend$setIsGenAIAware:
++ _objc_msgSend$setIsIntelligenceEngineRequest:
++ _objc_msgSend$setIsLongLivedIDUploadDisabled:
++ _objc_msgSend$setIsMediaPlaying:
++ _objc_msgSend$setIsSuitableForGenAI:
++ _objc_msgSend$setIsWakeFromSleep:
++ _objc_msgSend$setIsfromFactory:
++ _objc_msgSend$setLanguageCode:
++ _objc_msgSend$setLastMobileAssetDownloadAttemptErrorUnderlyingCode:
++ _objc_msgSend$setLastMobileAssetDownloadAttemptErrorUnderlyingDomain:
++ _objc_msgSend$setLatitude:
++ _objc_msgSend$setLaunchTimeInMs:
++ _objc_msgSend$setLocale:
++ _objc_msgSend$setLocation:
++ _objc_msgSend$setLongitude:
++ _objc_msgSend$setMobileAssetDownloadErrorCode:
++ _objc_msgSend$setMobileAssetDownloadErrorCodeFrequencys:
++ _objc_msgSend$setMotionActivity:
++ _objc_msgSend$setNlLocation:
++ _objc_msgSend$setNumberOfMobileAssetAlters:
++ _objc_msgSend$setNumberOfMobileAssetEliminates:
++ _objc_msgSend$setNumberOfMobileAssetScans:
++ _objc_msgSend$setNumberOfSeconds:
++ _objc_msgSend$setOdbatchDataReported:
++ _objc_msgSend$setOdbatchId:
++ _objc_msgSend$setOddId:
++ _objc_msgSend$setOdfunnelId:
++ _objc_msgSend$setOdsampleId:
++ _objc_msgSend$setOrchCancelledReason:
++ _objc_msgSend$setOriginalClockId:
++ _objc_msgSend$setPageNumberCompleted:
++ _objc_msgSend$setPostItn1Best:
++ _objc_msgSend$setPreviousBuildVersion:
++ _objc_msgSend$setPreviousStatus:
++ _objc_msgSend$setPreviousSystemBuild:
++ _objc_msgSend$setProgramCode:
++ _objc_msgSend$setPromotedOSBuild:
++ _objc_msgSend$setReliabilityCounts:
++ _objc_msgSend$setReliabilityRequestCount:
++ _objc_msgSend$setReliabilityTurnCount:
++ _objc_msgSend$setRequestId:
++ _objc_msgSend$setRequestStatus:
++ _objc_msgSend$setRequestType:
++ _objc_msgSend$setRequestsMissingAssetsCount:
++ _objc_msgSend$setRequestsRequiringAssetsCount:
++ _objc_msgSend$setRequestsWithFailuresCount:
++ _objc_msgSend$setRequestsWithoutAssetsDigestReported:
++ _objc_msgSend$setResponseCategory:
++ _objc_msgSend$setSampledErrorAsset:
++ _objc_msgSend$setSegmentDataAvailabilityState:
++ _objc_msgSend$setSegmentType:
++ _objc_msgSend$setSessionCounts:
++ _objc_msgSend$setSiriAccountInformation:
++ _objc_msgSend$setSiriInputLocale:
++ _objc_msgSend$setSiriResponseTimeInMs:
++ _objc_msgSend$setSiriTasksCompleted:
++ _objc_msgSend$setSiriTasksStarted:
++ _objc_msgSend$setSiriUnavailableResponseCount:
++ _objc_msgSend$setSizeInBytesPSUSAssets:
++ _objc_msgSend$setSourceOSBuild:
++ _objc_msgSend$setSpeakerIdModelDeviceSelected:
++ _objc_msgSend$setSpeakerIdModelSampleManifestReported:
++ _objc_msgSend$setSpeakerIdModelSampleReported:
++ _objc_msgSend$setSpeakerIdSampleToRequestMap:
++ _objc_msgSend$setStartDatestampInDaysSince1970:
++ _objc_msgSend$setStartTimestampInSecondsSince1970:
++ _objc_msgSend$setStatusMessage:
++ _objc_msgSend$setStatusReason:
++ _objc_msgSend$setSubDomain:
++ _objc_msgSend$setSubscriberName:
++ _objc_msgSend$setSubscriptionDownloadStatus:
++ _objc_msgSend$setSubscriptionName:
++ _objc_msgSend$setSubscriptions:
++ _objc_msgSend$setSystemBuild:
++ _objc_msgSend$setTaskCounts:
++ _objc_msgSend$setThirdPartyGenAIAgent:
++ _objc_msgSend$setTimeInSecondsSinceSoftwareUpdate:
++ _objc_msgSend$setTimeSinceLastAppleIntelligenceToggleInSeconds:
++ _objc_msgSend$setTimeSinceLastAvailabilityChangeInSeconds:
++ _objc_msgSend$setTimeSinceLastBootInSeconds:
++ _objc_msgSend$setTimeSinceLastEligibleChangeInSeconds:
++ _objc_msgSend$setTimeSinceLastMobileAssetDownloadAttemptInSeconds:
++ _objc_msgSend$setTimeSinceLastMobileAssetDownloadErrorInSeconds:
++ _objc_msgSend$setTimeSinceLastModelCatalogSubscriptionHashChangeInSeconds:
++ _objc_msgSend$setTimeSinceLastSoftwareUpdateInSeconds:
++ _objc_msgSend$setTimeSinceLastStatusChangeInSeconds:
++ _objc_msgSend$setTimeSinceLastWaitlistChangeInSeconds:
++ _objc_msgSend$setTimeSinceSampledErrorInSeconds:
++ _objc_msgSend$setTimeSinceSubscriptionDownloadStatusCompleteInSeconds:
++ _objc_msgSend$setTimeToFirstWordInMs:
++ _objc_msgSend$setTimeToUufrInMs:
++ _objc_msgSend$setTimeZone:
++ _objc_msgSend$setTimesOccurred:
++ _objc_msgSend$setTimestampInSecondsSince1970:
++ _objc_msgSend$setTotalBytesDownloaded:
++ _objc_msgSend$setTotalNumberOfBytesDownloaded:
++ _objc_msgSend$setTotalSizeOfAssetsInAssetSet:
++ _objc_msgSend$setTotalTurnCount:
++ _objc_msgSend$setTrainingOutcome:
++ _objc_msgSend$setTreatmentId:
++ _objc_msgSend$setTriggerPhrase:
++ _objc_msgSend$setTuples:
++ _objc_msgSend$setTurnCounts:
++ _objc_msgSend$setUafAssetSets:
++ _objc_msgSend$setUafAssetSubscriptions:
++ _objc_msgSend$setUndesiredResponseCount:
++ _objc_msgSend$setUsageAliases:
++ _objc_msgSend$setUsageName:
++ _objc_msgSend$setUsageValue:
++ _objc_msgSend$setUsdxSessionCount:
++ _objc_msgSend$setUseCase:
++ _objc_msgSend$setUserAggregationId:
++ _objc_msgSend$setUserAggregationIdExpirationTimestampMs:
++ _objc_msgSend$setUserAggregationIdRotationTimestampMs:
++ _objc_msgSend$setUserSamplingId:
++ _objc_msgSend$setValidTurnCount:
++ _objc_msgSend$setValue:forKey:
++ _objc_msgSend$setViewInterface:
++ _objc_msgSend$setVoiceTriggerEnrollmentFunnelReported:
++ _objc_msgSend$setVoiceTriggerType:
++ _objc_msgSend$sharedAnalytics
++ _objc_msgSend$sharedLoggerWithPersistenceConfiguration:
++ _objc_msgSend$sharedManager
++ _objc_msgSend$sharedPreferences
++ _objc_msgSend$sinkWithCompletion:receiveInput:
++ _objc_msgSend$siriAccountInformation
++ _objc_msgSend$siriDataSharingOptInStatus
++ _objc_msgSend$source
++ _objc_msgSend$standardUserDefaults
++ _objc_msgSend$startTimestampInSecondsSince1970
++ _objc_msgSend$stringByReplacingMatchesInString:options:range:withTemplate:
++ _objc_msgSend$stringForKey:
++ _objc_msgSend$stringFromDate:
++ _objc_msgSend$triggerPhrase
++ _objc_msgSend$turnIdsCount
++ _objc_msgSend$unsignedLongLongValue
++ _objc_msgSend$updateStatus:languageCode:completion:
++ _objc_msgSend$uploadAudioFileWithRequestId:audioId:date:completion:
++ _objc_msgSend$userAggregationId
++ _objc_msgSend$whichEvent_Type
++ _objc_msgSend$wrapAsAnyEvent
++ _objc_retain_x10
++ _swift_cvw_instantiateLayoutString
++ _swift_getDynamicType
++ _symbolic $s16MetricsFramework12RowConverterP
++ _symbolic $s16MetricsFramework14TimestampedRowP
++ _symbolic $s16MetricsFramework15SQLRowDecodableP
++ _symbolic $s16MetricsFramework19GenAIMetricsBuilderP
++ _symbolic $s16MetricsFramework20ODDIBookmarkedResultP
++ _symbolic 10ResultType_____Qz 16MetricsFramework12RowConverterP
++ _symbolic G0R0_
++ _symbolic SDySS_____G 12PoirotBlocks15AnyDatasetValueV
++ _symbolic SDySSypG
++ _symbolic SS______t 12PoirotBlocks15AnyDatasetValueV
++ _symbolic SaySaySSGG
++ _symbolic Say_____G 10Foundation11JSONEncoderC16OutputFormattingV
++ _symbolic Say_____G 16MetricsFramework12GenAIMetricsV
++ _symbolic Say_____G 16MetricsFramework16AssetBringUpDataV
++ _symbolic Say_____G 16MetricsFramework16AssetBringUpDataV10CodingKeysO
++ _symbolic Say_____G 16MetricsFramework18AssetBringUpStatusV
++ _symbolic Say_____G 16MetricsFramework24CombinedAssetBringUpDataV
++ _symbolic Say_____G 16MetricsFramework9ScoreItemV
++ _symbolic Say_____GSg 16MetricsFramework18AssetBringUpStatusV
++ _symbolic Sd
++ _symbolic _____ 13ODDIFramework16ODBatchInferenceC
++ _symbolic _____ 16MetricsFramework012AssetBringUpA0C
++ _symbolic _____ 16MetricsFramework10GenAiQueryC
++ _symbolic _____ 16MetricsFramework12GenAIMetricsV
++ _symbolic _____ 16MetricsFramework16AssetBringUpDataV
++ _symbolic _____ 16MetricsFramework16AssetBringUpDataV10CodingKeysO
++ _symbolic _____ 16MetricsFramework16RowConverterBaseC
++ _symbolic _____ 16MetricsFramework16RowConverterBaseC11ErrorCountsV
++ _symbolic _____ 16MetricsFramework18AssetBringUpStatusV
++ _symbolic _____ 16MetricsFramework18AssetBringUpStatusV10CodingKeysO
++ _symbolic _____ 16MetricsFramework18BookmarkGuardUtilsO
++ _symbolic _____ 16MetricsFramework19AssetBringUpResultsV
++ _symbolic _____ 16MetricsFramework20AssetBringUpReporterC
++ _symbolic _____ 16MetricsFramework22AssetBringUpCalculatorC
++ _symbolic _____ 16MetricsFramework22AssetBringUpDataRecordV
++ _symbolic _____ 16MetricsFramework23GenAIMetricsBuilderImplC
++ _symbolic _____ 16MetricsFramework23ODDIGenAIMetricsResultsV
++ _symbolic _____ 16MetricsFramework23ODDIMetricsRowConverterC
++ _symbolic _____ 16MetricsFramework24AssetBringUpDataProviderC
++ _symbolic _____ 16MetricsFramework24AssetBringUpSELFReporterC
++ _symbolic _____ 16MetricsFramework24CombinedAssetBringUpDataV
++ _symbolic _____ 16MetricsFramework28ODDIGenAIMetricsRowConverterC
++ _symbolic _____ 16MetricsFramework28ODDIGenAIMetricsSELFReporterC
++ _symbolic _____ 16MetricsFramework30ThirdPartyGenAiInferenceResultV
++ _symbolic _____ 16MetricsFramework30ThirdPartyGenAiInferenceResultV10CodingKeys33_D0F7A9FBB69195146951456F804E8A73LLO
++ _symbolic _____ 16MetricsFramework31ODDIExperimentationRowConverterC
++ _symbolic _____ 16MetricsFramework8MetadataV
++ _symbolic _____ 16MetricsFramework8MetadataV10CodingKeys33_D0F7A9FBB69195146951456F804E8A73LLO
++ _symbolic _____ 16MetricsFramework9ScoreItemV
++ _symbolic _____ 16MetricsFramework9ScoreItemV10CodingKeys33_D0F7A9FBB69195146951456F804E8A73LLO
++ _symbolic _____ So18SISchemaGenAIAgentV
++ _symbolic _____ So42ODDSiriSchemaODDThirdPartyGenAIRequestTypeV
++ _symbolic _____ So44ODDSiriSchemaODDThirdPartyGenAIRequestStatusV
++ _symbolic _____3key_So31ODDSiriSchemaODDFixedDimensionsC3dim_SaySo0bC33ODDAssistantThirdPartyGenAIDigestCG7digestst5valuet 16MetricsFramework13EventMetadataV
++ _symbolic _____3key_So31ODDSiriSchemaODDFixedDimensionsC3dim_SaySo0bC33ODDAssistantThirdPartyGenAIDigestCG7digestst5valuetSg 16MetricsFramework13EventMetadataV
++ _symbolic _____Sg 16MetricsFramework011DeviceUsageA0V
++ _symbolic _____Sg 16MetricsFramework16AssetBringUpDataV
++ _symbolic _____Sg 16MetricsFramework18AIRAssetStatusDataV
++ _symbolic _____Sg 16MetricsFramework30ThirdPartyGenAiInferenceResultV
++ _symbolic _____Sg So18SISchemaGenAIAgentV
++ _symbolic _____Sg So42ODDSiriSchemaODDThirdPartyGenAIRequestTypeV
++ _symbolic _____Sg So44ODDSiriSchemaODDThirdPartyGenAIRequestStatusV
++ _symbolic _____Sg_ABt 10Foundation3URLV
++ _symbolic _____Sg_ABt 10Foundation4DateV
++ _symbolic _____ySDySS_____GG s23_ContiguousArrayStorageC 12PoirotBlocks15AnyDatasetValueV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 12PoirotBlocks15AnyDatasetValueV
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC 12PoirotBlocks15AnyDatasetValueV
++ _symbolic _____ySaySSGG s23_ContiguousArrayStorageC
++ _symbolic _____ySaySaySSGGG s23_ContiguousArrayStorageC
++ _symbolic _____ySo40BMSiriThirdPartyGenAiEngagementInferenceCG 11DeepThought12BiomeDonatorC
++ _symbolic _____ySsG s10ArraySliceV
++ _symbolic _____y_____G 11DeepThought13BatchReporterC 16MetricsFramework012AssetBringUpD0C
++ _symbolic _____y_____G 16MetricsFramework16RowConverterBaseC AA18ODDIMetricsResultsV
++ _symbolic _____y_____G 16MetricsFramework16RowConverterBaseC AA23ODDIGenAIMetricsResultsV
++ _symbolic _____y_____G 16MetricsFramework16RowConverterBaseC AA26ODDIExperimentationResultsV
++ _symbolic _____y_____G 18lighthouse_runtime26LighthouseRuntimeProcessorC 16MetricsFramework012AssetBringUpF0C
++ _symbolic _____y_____G s18EnumeratedSequenceV 12PoirotBlocks12DatasetTableV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16MetricsFramework16AssetBringUpDataV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16MetricsFramework18AssetBringUpStatusV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16MetricsFramework30ThirdPartyGenAiInferenceResultV10CodingKeys33_D0F7A9FBB69195146951456F804E8A73LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16MetricsFramework8MetadataV10CodingKeys33_D0F7A9FBB69195146951456F804E8A73LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16MetricsFramework9ScoreItemV10CodingKeys33_D0F7A9FBB69195146951456F804E8A73LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16MetricsFramework16AssetBringUpDataV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16MetricsFramework18AssetBringUpStatusV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16MetricsFramework30ThirdPartyGenAiInferenceResultV10CodingKeys33_D0F7A9FBB69195146951456F804E8A73LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16MetricsFramework8MetadataV10CodingKeys33_D0F7A9FBB69195146951456F804E8A73LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16MetricsFramework9ScoreItemV10CodingKeys33_D0F7A9FBB69195146951456F804E8A73LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation11JSONEncoderC16OutputFormattingV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 16MetricsFramework16AssetBringUpDataV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 16MetricsFramework24CombinedAssetBringUpDataV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 16MetricsFramework30ThirdPartyGenAiInferenceResultV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 16MetricsFramework9ScoreItemV
++ _symbolic _____y_____So31ODDSiriSchemaODDFixedDimensionsC3dim_SaySo0aB33ODDAssistantThirdPartyGenAIDigestCG7digeststG s18_DictionaryStorageC 16MetricsFramework13EventMetadataV
++ _symbolic _____y______G s18EnumeratedSequenceV8IteratorV 12PoirotBlocks12DatasetTableV
++ _symbolic _____y_____y_____GG 11DeepThought18BookmarkedReporterC AA05BatchD0C 16MetricsFramework012AssetBringUpD0C
++ _symbolic _____yxG 16MetricsFramework16RowConverterBaseC
++ _symbolic _____yx_G 16MetricsFramework16RowConverterBaseC11ErrorCountsV
++ _type_layout_string 16MetricsFramework16AssetBringUpDataV
++ _type_layout_string 16MetricsFramework18AssetBringUpStatusV
++ _type_layout_string 16MetricsFramework19AssetBringUpResultsV
++ _type_layout_string 16MetricsFramework20ODDIBookmarkedResultRzlAA16RowConverterBaseC11ErrorCountsVyx_G
++ _type_layout_string 16MetricsFramework23ODDIGenAIMetricsResultsV
++ _type_layout_string 16MetricsFramework8MetadataV
++ _type_layout_string 16MetricsFramework9ScoreItemV
+- _OBJC_CLASS_$_BMSiriOnDeviceDigestExperimentMetrics
+- _OBJC_CLASS_$_BMSiriOnDeviceDigestUsageMetrics
+- __CATEGORY_INSTANCE_METHODS__TtC26DeepThoughtBiomeFoundation15StreamsBookmark_$_MetricsFramework
+- __CATEGORY_PROTOCOLS__TtC26DeepThoughtBiomeFoundation15StreamsBookmark_$_MetricsFramework
+- __CATEGORY__TtC26DeepThoughtBiomeFoundation15StreamsBookmark_$_MetricsFramework
+- __DATA__TtC16MetricsFramework17SiriDigestMetrics
+- __DATA__TtC16MetricsFramework21NoActionBookmarkStore
+- __DATA__TtC16MetricsFramework23ODDIPoirotMetricsPlugin
+- __DATA__TtC16MetricsFramework25ExperimentMetricsExecutor
+- __DATA__TtC16MetricsFramework25SiriDigestMetricsReporter
+- __DATA__TtC16MetricsFramework27SiriDigestMetricsCalculator
+- __DATA__TtC16MetricsFramework28SiriDigestMetricsSELFAdapter
+- __DATA__TtC16MetricsFramework29ODDIPoirotMetricsTaskExecutor
+- __DATA__TtC16MetricsFramework29SiriDigestMetricsDataProvider
+- __DATA__TtC16MetricsFramework29SiriDigestMetricsSELFReporter
+- __DATA__TtC16MetricsFramework30SiriDigestMetricsBiomeReporter
+- __DATA__TtC16MetricsFramework32AssistantDeviceExperimentMetrics
+- __DATA__TtC16MetricsFramework32DictationDeviceExperimentMetrics
+- __DATA__TtC16MetricsFramework35SiriDeviceExperimentMetricsReporter
+- __DATA__TtC16MetricsFramework39SiriDeviceExperimentMetricsDataProvider
+- __DATA__TtC16MetricsFramework39SiriDeviceExperimentMetricsSELFReporter
+- __DATA__TtC16MetricsFramework40SiriDeviceExperimentMetricsBiomeReporter
+- __DATA__TtC16MetricsFramework42AssistantDeviceExperimentMetricsCalculator
+- __DATA__TtC16MetricsFramework42DictationDeviceExperimentMetricsCalculator
+- __IVARS__TtC16MetricsFramework17SiriDigestMetrics
+- __IVARS__TtC16MetricsFramework21NoActionBookmarkStore
+- __IVARS__TtC16MetricsFramework23ODDIPoirotMetricsPlugin
+- __IVARS__TtC16MetricsFramework27SiriDigestMetricsCalculator
+- __IVARS__TtC16MetricsFramework29ODDIPoirotMetricsTaskExecutor
+- __IVARS__TtC16MetricsFramework29SiriDigestMetricsDataProvider
+- __IVARS__TtC16MetricsFramework29SiriDigestMetricsSELFReporter
+- __IVARS__TtC16MetricsFramework30SiriDigestMetricsBiomeReporter
+- __IVARS__TtC16MetricsFramework32AssistantDeviceExperimentMetrics
+- __IVARS__TtC16MetricsFramework32DictationDeviceExperimentMetrics
+- __IVARS__TtC16MetricsFramework39SiriDeviceExperimentMetricsDataProvider
+- __IVARS__TtC16MetricsFramework39SiriDeviceExperimentMetricsSELFReporter
+- __IVARS__TtC16MetricsFramework40SiriDeviceExperimentMetricsBiomeReporter
+- __IVARS__TtC16MetricsFramework42AssistantDeviceExperimentMetricsCalculator
+- __IVARS__TtC16MetricsFramework42DictationDeviceExperimentMetricsCalculator
+- __METACLASS_DATA__TtC16MetricsFramework17SiriDigestMetrics
+- __METACLASS_DATA__TtC16MetricsFramework21NoActionBookmarkStore
+- __METACLASS_DATA__TtC16MetricsFramework23ODDIPoirotMetricsPlugin
+- __METACLASS_DATA__TtC16MetricsFramework25ExperimentMetricsExecutor
+- __METACLASS_DATA__TtC16MetricsFramework25SiriDigestMetricsReporter
+- __METACLASS_DATA__TtC16MetricsFramework27SiriDigestMetricsCalculator
+- __METACLASS_DATA__TtC16MetricsFramework28SiriDigestMetricsSELFAdapter
+- __METACLASS_DATA__TtC16MetricsFramework29ODDIPoirotMetricsTaskExecutor
+- __METACLASS_DATA__TtC16MetricsFramework29SiriDigestMetricsDataProvider
+- __METACLASS_DATA__TtC16MetricsFramework29SiriDigestMetricsSELFReporter
+- __METACLASS_DATA__TtC16MetricsFramework30SiriDigestMetricsBiomeReporter
+- __METACLASS_DATA__TtC16MetricsFramework32AssistantDeviceExperimentMetrics
+- __METACLASS_DATA__TtC16MetricsFramework32DictationDeviceExperimentMetrics
+- __METACLASS_DATA__TtC16MetricsFramework35SiriDeviceExperimentMetricsReporter
+- __METACLASS_DATA__TtC16MetricsFramework39SiriDeviceExperimentMetricsDataProvider
+- __METACLASS_DATA__TtC16MetricsFramework39SiriDeviceExperimentMetricsSELFReporter
+- __METACLASS_DATA__TtC16MetricsFramework40SiriDeviceExperimentMetricsBiomeReporter
+- __METACLASS_DATA__TtC16MetricsFramework42AssistantDeviceExperimentMetricsCalculator
+- __METACLASS_DATA__TtC16MetricsFramework42DictationDeviceExperimentMetricsCalculator
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+- __OBJC_LABEL_PROTOCOL_$_NSCopying
+- __OBJC_PROTOCOL_$_NSCopying
+- ___swift_memcpy457_8
+- ___swift_memcpy785_8
+- _associated conformance 16MetricsFramework010ODDIPoirotA12TaskExecutorC7SubtaskOSHAASQ
+- _associated conformance 16MetricsFramework010ODDIPoirotA12TaskExecutorCAA011ODDIMetricsdE4BaseAA7SubtaskAaDP_8RawValueSYSy
+- _associated conformance 16MetricsFramework010ODDIPoirotA12TaskExecutorCAA011ODDIMetricsdE4BaseAA7SubtaskAaDP_SY
+- _associated conformance 16MetricsFramework010ODDIPoirotA6PluginC18lighthouse_runtime010LighthouseD0AaD12DataProvider
+- _associated conformance 16MetricsFramework010ODDIPoirotA6PluginC18lighthouse_runtime010LighthouseD0AaD6Worker
+- _associated conformance 16MetricsFramework010ODDIPoirotA6PluginC18lighthouse_runtime010LighthouseD0AaD8Reporter
+- _associated conformance 16MetricsFramework010ODDIPoirotA6PluginC18lighthouse_runtime12DataProviderAA0G10RecordTypeAdEP_AD0gI0
+- _associated conformance 16MetricsFramework010ODDIPoirotA6PluginC18lighthouse_runtime6WorkerAA10ResultTypeAdEP_AD0H0
+- _associated conformance 16MetricsFramework010ODDIPoirotA6PluginC18lighthouse_runtime6WorkerAA14DataRecordTypeAdEP_AD0hI0
+- _associated conformance 16MetricsFramework010ODDIPoirotA6PluginC18lighthouse_runtime8ReporterAA10ResultTypeAdEP_AD0H0
+- _associated conformance 16MetricsFramework010SiriDigestA0C18lighthouse_runtime12DataProviderAA0G10RecordTypeAdEP_AD0gI0
+- _associated conformance 16MetricsFramework010SiriDigestA0C18lighthouse_runtime16LighthousePluginAaD12DataProvider
+- _associated conformance 16MetricsFramework010SiriDigestA0C18lighthouse_runtime16LighthousePluginAaD6Worker
+- _associated conformance 16MetricsFramework010SiriDigestA0C18lighthouse_runtime16LighthousePluginAaD8Reporter
+- _associated conformance 16MetricsFramework010SiriDigestA0C18lighthouse_runtime6WorkerAA10ResultTypeAdEP_AD0H0
+- _associated conformance 16MetricsFramework010SiriDigestA0C18lighthouse_runtime6WorkerAA14DataRecordTypeAdEP_AD0hI0
+- _associated conformance 16MetricsFramework010SiriDigestA0C18lighthouse_runtime8ReporterAA10ResultTypeAdEP_AD0H0
+- _associated conformance 16MetricsFramework010SiriDigestA10CalculatorC18lighthouse_runtime6WorkerAA10ResultTypeAdEP_AD0I0
+- _associated conformance 16MetricsFramework010SiriDigestA10CalculatorC18lighthouse_runtime6WorkerAA14DataRecordTypeAdEP_AD0iJ0
+- _associated conformance 16MetricsFramework010SiriDigestA12DataProviderC18lighthouse_runtime0eF0AA0E10RecordTypeAdEP_AD0eI0
+- _associated conformance 16MetricsFramework010SiriDigestA7ResultsV11DeepThought16BookmarkedResultAA18lighthouse_runtime0I0
+- _associated conformance 16MetricsFramework010SiriDigestA8ReporterC18lighthouse_runtime0E0AA10ResultTypeAdEP_AD0H0
+- _associated conformance 16MetricsFramework020SiriDeviceExperimentA12DataProviderC18lighthouse_runtime0fG0AA0F10RecordTypeAdEP_AD0fJ0
+- _associated conformance 16MetricsFramework020SiriDeviceExperimentA7ResultsV11DeepThought16BookmarkedResultAA18lighthouse_runtime0J0
+- _associated conformance 16MetricsFramework020SiriDeviceExperimentA8ReporterC18lighthouse_runtime0F0AA10ResultTypeAdEP_AD0I0
+- _associated conformance 16MetricsFramework025AssistantDeviceExperimentA0C18lighthouse_runtime12DataProviderAA0H10RecordTypeAdEP_AD0hJ0
+- _associated conformance 16MetricsFramework025AssistantDeviceExperimentA0C18lighthouse_runtime16LighthousePluginAaD12DataProvider
+- _associated conformance 16MetricsFramework025AssistantDeviceExperimentA0C18lighthouse_runtime16LighthousePluginAaD6Worker
+- _associated conformance 16MetricsFramework025AssistantDeviceExperimentA0C18lighthouse_runtime16LighthousePluginAaD8Reporter
+- _associated conformance 16MetricsFramework025AssistantDeviceExperimentA0C18lighthouse_runtime6WorkerAA10ResultTypeAdEP_AD0I0
+- _associated conformance 16MetricsFramework025AssistantDeviceExperimentA0C18lighthouse_runtime6WorkerAA14DataRecordTypeAdEP_AD0iJ0
+- _associated conformance 16MetricsFramework025AssistantDeviceExperimentA0C18lighthouse_runtime8ReporterAA10ResultTypeAdEP_AD0I0
+- _associated conformance 16MetricsFramework025AssistantDeviceExperimentA10CalculatorC18lighthouse_runtime6WorkerAA10ResultTypeAdEP_AD0J0
+- _associated conformance 16MetricsFramework025AssistantDeviceExperimentA10CalculatorC18lighthouse_runtime6WorkerAA14DataRecordTypeAdEP_AD0jK0
+- _associated conformance 16MetricsFramework025DictationDeviceExperimentA0C18lighthouse_runtime12DataProviderAA0H10RecordTypeAdEP_AD0hJ0
+- _associated conformance 16MetricsFramework025DictationDeviceExperimentA0C18lighthouse_runtime16LighthousePluginAaD12DataProvider
+- _associated conformance 16MetricsFramework025DictationDeviceExperimentA0C18lighthouse_runtime16LighthousePluginAaD6Worker
+- _associated conformance 16MetricsFramework025DictationDeviceExperimentA0C18lighthouse_runtime16LighthousePluginAaD8Reporter
+- _associated conformance 16MetricsFramework025DictationDeviceExperimentA0C18lighthouse_runtime6WorkerAA10ResultTypeAdEP_AD0I0
+- _associated conformance 16MetricsFramework025DictationDeviceExperimentA0C18lighthouse_runtime6WorkerAA14DataRecordTypeAdEP_AD0iJ0
+- _associated conformance 16MetricsFramework025DictationDeviceExperimentA0C18lighthouse_runtime8ReporterAA10ResultTypeAdEP_AD0I0
+- _associated conformance 16MetricsFramework025DictationDeviceExperimentA10CalculatorC18lighthouse_runtime6WorkerAA10ResultTypeAdEP_AD0J0
+- _associated conformance 16MetricsFramework025DictationDeviceExperimentA10CalculatorC18lighthouse_runtime6WorkerAA14DataRecordTypeAdEP_AD0jK0
+- _block_copy_helper.18
+- _block_copy_helper.20
+- _block_copy_helper.26
+- _block_copy_helper.32
+- _block_copy_helper.37
+- _block_copy_helper.38
+- _block_copy_helper.40
+- _block_copy_helper.44
+- _block_copy_helper.46
+- _block_copy_helper.50
+- _block_copy_helper.56
+- _block_copy_helper.62
+- _block_copy_helper.68
+- _block_copy_helper.74
+- _block_copy_helper.80
+- _block_copy_helper.86
+- _block_copy_helper.92
+- _block_copy_helper.98
+- _block_descriptor.100
+- _block_descriptor.20
+- _block_descriptor.22
+- _block_descriptor.28
+- _block_descriptor.34
+- _block_descriptor.39
+- _block_descriptor.40
+- _block_descriptor.42
+- _block_descriptor.46
+- _block_descriptor.48
+- _block_descriptor.52
+- _block_descriptor.58
+- _block_descriptor.64
+- _block_descriptor.70
+- _block_descriptor.76
+- _block_descriptor.82
+- _block_descriptor.88
+- _block_descriptor.94
+- _block_destroy_helper.19
+- _block_destroy_helper.21
+- _block_destroy_helper.27
+- _block_destroy_helper.33
+- _block_destroy_helper.38
+- _block_destroy_helper.39
+- _block_destroy_helper.41
+- _block_destroy_helper.45
+- _block_destroy_helper.47
+- _block_destroy_helper.51
+- _block_destroy_helper.57
+- _block_destroy_helper.63
+- _block_destroy_helper.69
+- _block_destroy_helper.75
+- _block_destroy_helper.81
+- _block_destroy_helper.87
+- _block_destroy_helper.93
+- _block_destroy_helper.99
+- _malloc
+- _objc_release_x1
+- _symbolic G0R1_
+- _symbolic SDySS_____G 26DeepThoughtBiomeFoundation15StreamsBookmarkC
+- _symbolic SDy_____ypG______pIeggzo_ s11AnyHashableV s5ErrorP
+- _symbolic SaySo013ODDSiriSchemaA11ClientEventCG_____c 16MetricsFramework016DeviceExperimentA0V
+- _symbolic SaySo013ODDSiriSchemaA11ClientEventCSgG
+- _symbolic SayypGSAySo7NSErrorCSgGSgypIeggyr_
+- _symbolic Si______t 22SiriMetricsBugReporter019AssistantExperimentB24CalculatorSubTypeContextO
+- _symbolic Si______t 22SiriMetricsBugReporter019DictationExperimentB24CalculatorSubTypeContextO
+- _symbolic Siz_Xx
+- _symbolic So31ODDSiriSchemaODDFixedDimensionsCSaySo0aB18ODDAssistantDigestCGIgoo_
+- _symbolic So31ODDSiriSchemaODDFixedDimensionsCSaySo0aB18ODDDictationDigestCGIgoo_
+- _symbolic _____ 16MetricsFramework010ExperimentA6WorkerV
+- _symbolic _____ 16MetricsFramework010ExperimentA8ExecutorC
+- _symbolic _____ 16MetricsFramework010ODDIPoirotA12TaskExecutorC
+- _symbolic _____ 16MetricsFramework010ODDIPoirotA12TaskExecutorC7SubtaskO
+- _symbolic _____ 16MetricsFramework010ODDIPoirotA19WorkerConfigurationV
+- _symbolic _____ 16MetricsFramework010ODDIPoirotA6PluginC
+- _symbolic _____ 16MetricsFramework010SiriDigestA0C
+- _symbolic _____ 16MetricsFramework010SiriDigestA10CalculatorC
+- _symbolic _____ 16MetricsFramework010SiriDigestA10DataRecordV
+- _symbolic _____ 16MetricsFramework010SiriDigestA11SELFAdapterC
+- _symbolic _____ 16MetricsFramework010SiriDigestA12DataProviderC
+- _symbolic _____ 16MetricsFramework010SiriDigestA12SELFReporterC
+- _symbolic _____ 16MetricsFramework010SiriDigestA13BiomeReporterC
+- _symbolic _____ 16MetricsFramework010SiriDigestA7ResultsV
+- _symbolic _____ 16MetricsFramework010SiriDigestA8ReporterC
+- _symbolic _____ 16MetricsFramework020SiriDeviceExperimentA10DataRecordV
+- _symbolic _____ 16MetricsFramework020SiriDeviceExperimentA12DataProviderC
+- _symbolic _____ 16MetricsFramework020SiriDeviceExperimentA12SELFReporterC
+- _symbolic _____ 16MetricsFramework020SiriDeviceExperimentA13BiomeReporterC
+- _symbolic _____ 16MetricsFramework020SiriDeviceExperimentA7ResultsV
+- _symbolic _____ 16MetricsFramework020SiriDeviceExperimentA8ReporterC
+- _symbolic _____ 16MetricsFramework025AssistantDeviceExperimentA0C
+- _symbolic _____ 16MetricsFramework025AssistantDeviceExperimentA10CalculatorC
+- _symbolic _____ 16MetricsFramework025DictationDeviceExperimentA0C
+- _symbolic _____ 16MetricsFramework025DictationDeviceExperimentA10CalculatorC
+- _symbolic _____ 16MetricsFramework18AIRAssetStatusDataV14AIRDecodeErrorO
+- _symbolic _____ 16MetricsFramework21NoActionBookmarkStoreC
+- _symbolic _____ 16MetricsFramework26PoirotODDIMetricsConcluderV
+- _symbolic _____3key_Say_____G5valuet 16MetricsFramework13EventMetadataV AA011DeviceUsageA0V
+- _symbolic _____3key_Say_____G5valuetSg 16MetricsFramework13EventMetadataV AA011DeviceUsageA0V
+- _symbolic _____Sg 12PoirotBlocks0A21DefaultTaskParametersV
+- _symbolic _____Sg 12PoirotBlocks14DatabaseConfigV
+- _symbolic _____ySS_____G s18_DictionaryStorageC 26DeepThoughtBiomeFoundation15StreamsBookmarkC
+- _symbolic _____ySi______tG s23_ContiguousArrayStorageC 22SiriMetricsBugReporter019AssistantExperimentE24CalculatorSubTypeContextO
+- _symbolic _____ySi______tG s23_ContiguousArrayStorageC 22SiriMetricsBugReporter019DictationExperimentE24CalculatorSubTypeContextO
+- _symbolic _____ySo32BMSiriOnDeviceDigestUsageMetricsCG 11DeepThought12BiomeDonatorC
+- _symbolic _____ySo37BMSiriOnDeviceDigestExperimentMetricsCG 11DeepThought12BiomeDonatorC
+- _symbolic _____y_____G 11DeepThought13BatchReporterC 16MetricsFramework010SiriDigesteD0C
+- _symbolic _____y_____G 11DeepThought13BatchReporterC 16MetricsFramework020SiriDeviceExperimenteD0C
+- _symbolic _____y_____G 12PoirotBlocks0A4TaskC AA21DefaultHostControllerC
+- _symbolic _____y_____G 16MetricsFramework21ODDIMetricsCalculatorC AA06PoirotC9ConcluderV
+- _symbolic _____y_____G 18lighthouse_runtime26LighthouseRuntimeProcessorC 16MetricsFramework010ODDIPoirotF6PluginC
+- _symbolic _____y_____G 18lighthouse_runtime26LighthouseRuntimeProcessorC 16MetricsFramework010SiriDigestF0C
+- _symbolic _____y_____G 18lighthouse_runtime26LighthouseRuntimeProcessorC 16MetricsFramework025AssistantDeviceExperimentF0C
+- _symbolic _____y_____G 18lighthouse_runtime26LighthouseRuntimeProcessorC 16MetricsFramework025DictationDeviceExperimentF0C
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 12PoirotBlocks10DataSourceV
+- _symbolic _____y_____Say_____GG s18_DictionaryStorageC 16MetricsFramework13EventMetadataV AC011DeviceUsageC0V
+- _symbolic _____y_____y_____GG 11DeepThought18BookmarkedReporterC AA05BatchD0C 16MetricsFramework010SiriDigestfD0C
+- _symbolic _____y_____y_____GG 11DeepThought18BookmarkedReporterC AA05BatchD0C 16MetricsFramework020SiriDeviceExperimentfD0C
+- _symbolic _____y_____ypG s18_DictionaryStorageC s11AnyHashableV
+- _symbolic _____yxG 16MetricsFramework21ODDIMetricsCalculatorC
+- _type_layout_string 16MetricsFramework010SiriDigestA7ResultsV
+- _type_layout_string 16MetricsFramework020SiriDeviceExperimentA7ResultsV
+- _type_layout_string 16MetricsFramework18AIRAssetStatusDataV14AIRDecodeErrorO
+CStrings:
++ " AggregationInterval start timestamp was zero"
++ " Missing aggregation interval"
++ " nil deviceAggregationId"
++ " nil userAggregationId"
++ "#%s: value of the unexpected type casting to UInt32: %s"
++ "#%s: value of the unexpected type casting to UInt64: %s"
++ "#ODDIExperimentationSELFReporter: Reporter invoked"
++ "#ODDIExperimentationSELFReporter: Results Data %s"
++ "#ODDIExperimentationSELFReporter: Total Results Count %ld"
++ "#ODDIGenAIMetricsSELFReporter: Failed to generate client event"
++ "#ODDIGenAIMetricsSELFReporter: Finished Emitting GenAIMetrics SELF events"
++ "#ODDIGenAIMetricsSELFReporter: GenAI Events Count: %ld"
++ "#ODDIGenAIMetricsSELFReporter: Missing event metadata"
++ "#ODDIGenAIMetricsSELFReporter: Reporter invoked"
++ "#ODDIGenAIMetricsSELFReporter: Results Data %s"
++ "#ODDIGenAIMetricsSELFReporter: Total Results Count %ld"
++ "#ODDIGenAIMetricsSELFReporter: Unable to report GenAIMetrics SELF events."
++ "#ODDIMetricsRowConverter: No ieRouting found."
++ "#SiriAttentionAndInvocationSamplingCalculator: All data collection types failed"
++ "#SiriAttentionAndInvocationSamplingCalculator: error for collection type: %s - %@"
++ "#SiriAttentionAndInvocationSamplingCalculator: get dataCollectionType result: %s - %{bool}d"
++ "$__lazy_storage_$_className"
++ "%s IncludeCurrentDate override ON. BookmarkStart=%s, overrideStart=%s"
++ "%s IncludeCurrentDate override: failed to apply"
++ "%s extract: failed to decode row"
++ "%s filtered=%ld behind bookmark; start=%s, min=%s"
++ "AIRAssetStatusData"
++ "AssetBringUp"
++ "AssetBringUp reporter results: parsed=%ld"
++ "AssetBringUp staged bookmark endTime (exclusive): %s"
++ "AssetBringUp: failed to report event: %@"
++ "AssetBringUp: skipping row without timestamp"
++ "AssetBringUpCalculator query yielded %ld rows"
++ "AssetBringUpData"
++ "AssetBringUpDebugLogs"
++ "AssetBringUpSELFReporter event_types=%ld"
++ "Converting to DeviceExperimentMetrics from row data: %s"
++ "Could not process data for : %s"
++ "Could not process scores."
++ "Couldn't package provisional event in AnyEvent wrapper."
++ "Derived turnIndex: %s"
++ "Error process scores datasets."
++ "Error processing with ODInference: %@"
++ "EvaluationPrompts"
++ "Extracted all the utterance columns: %s"
++ "Extracting all the rows: %ld"
++ "FBF reporter: store provisional event %s"
++ "Failed to extract metadata from result: %s"
++ "Failed to extract metadata. Values are not compatible."
++ "Failed to extract scores from result: %s"
++ "Failed to load prompt: %@"
++ "Failed to store provisional event to FBF"
++ "FetchUnifiedSiriTurnBlock"
++ "GENAIAGENT_AGENT_PLACEHOLDER_1"
++ "GENAIAGENT_AGENT_PLACEHOLDER_2"
++ "GENAIAGENT_AGENT_PLACEHOLDER_3"
++ "GENAIAGENT_CHAT_GPT"
++ "GENAIAGENT_NONE"
++ "GENAIAGENT_UNKNOWN"
++ "GenAIMetrics row data: %s"
++ "Getting all the utterances..."
++ "Input received: %s"
++ "JSONDecode: %s failed to convert string to data"
++ "JSONDecode: failed to decode %s: %@, raw=%s"
++ "Mapped index %ld to actual turnId: %s"
++ "Mapped results: %s"
++ "MetricsFramework"
++ "MetricsFramework/AssetBringUpReporter.swift"
++ "MetricsFramework/ODDIMetricsRowConverter.swift"
++ "MetricsFramework/RowConverter.swift"
++ "Model availability: %{bool}d"
++ "Model is not avaialble on the Device. Skipping..."
++ "No mapping found for index: %ld"
++ "No turnId found in result: %s"
++ "No turnId mapping found for index: %ld"
++ "No valid AssetBringUp event timestamps for bookmark update."
++ "Nothing to process."
++ "ODDTHIRDPARTYGENAIREQUESTSTATUS_ACTION_CONFIRMATION"
++ "ODDTHIRDPARTYGENAIREQUESTSTATUS_IFREQUESTID_NOT_PRESENT"
++ "ODDTHIRDPARTYGENAIREQUESTSTATUS_NON_SYSTEM_FAILURE"
++ "ODDTHIRDPARTYGENAIREQUESTSTATUS_OTHER"
++ "ODDTHIRDPARTYGENAIREQUESTSTATUS_PARAMETER_NEEDS_VALUE"
++ "ODDTHIRDPARTYGENAIREQUESTSTATUS_PARAMETER_NOT_ALLOWED"
++ "ODDTHIRDPARTYGENAIREQUESTSTATUS_SUCCESS"
++ "ODDTHIRDPARTYGENAIREQUESTSTATUS_SYSTEM_FAILURE"
++ "ODDTHIRDPARTYGENAIREQUESTSTATUS_UNKNOWN"
++ "ODDTHIRDPARTYGENAIREQUESTSTATUS_USER_ABANDONED"
++ "ODDTHIRDPARTYGENAIREQUESTSTATUS_USER_CANCELLED"
++ "ODDTHIRDPARTYGENAIREQUESTSTATUS_WEB_SEARCH"
++ "ODDTHIRDPARTYGENAIREQUESTTYPE_GENERATE_KNOWLEDGE_RESPONSE_INTENT"
++ "ODDTHIRDPARTYGENAIREQUESTTYPE_GENERATE_RICH_CONTENT_FROM_MEDIA_INTENT"
++ "ODDTHIRDPARTYGENAIREQUESTTYPE_GENERATE_RICH_CONTENT_INTENT"
++ "ODDTHIRDPARTYGENAIREQUESTTYPE_UNKNOWN"
++ "Processed turnId: %s"
++ "Processing %ld entries"
++ "Processing and extracting scores"
++ "Processing individual result: %s"
++ "Processing turnId: %s, %s"
++ "Prompt Instruction : %s"
++ "Prompt loaded: %s"
++ "Prompt outputColumns : %s"
++ "Prompt usecase : %s"
++ "Prompt version : %s"
++ "Result from the inference call: %s"
++ "SADASSETBRINGUPTYPE_FACTORY"
++ "SADASSETBRINGUPTYPE_OTA"
++ "SADASSETBRINGUPTYPE_OTHER"
++ "SADASSETBRINGUPTYPE_PSUS"
++ "SADASSETBRINGUPTYPE_UNKNOWN"
++ "SQL calculator invoked: AssetBringUpCalculator %s"
++ "SiriAttentionAndInvocationSamplingCalculator: multi data collection types failed"
++ "ThirdPartyGenAiEngagementInference"
++ "Total rows in the table: %ld"
++ "Truncating long utterance to fit in the context window to a max of %ld tokens"
++ "UUIDStringConversionFailed"
++ "Unknown response category: "
++ "Will write %ld to Biome"
++ "Writing to Biome..."
++ "_TtC16MetricsFramework10GenAiQuery"
++ "_TtC16MetricsFramework19AssetBringUpMetrics"
++ "_TtC16MetricsFramework20AssetBringUpReporter"
++ "_TtC16MetricsFramework22AssetBringUpCalculator"
++ "_TtC16MetricsFramework23GenAIMetricsBuilderImpl"
++ "_TtC16MetricsFramework23ODDIMetricsRowConverter"
++ "_TtC16MetricsFramework24AssetBringUpDataProvider"
++ "_TtC16MetricsFramework24AssetBringUpSELFReporter"
++ "_TtC16MetricsFramework28ODDIGenAIMetricsRowConverter"
++ "_TtC16MetricsFramework28ODDIGenAIMetricsSELFReporter"
++ "_TtC16MetricsFramework31ODDIExperimentationRowConverter"
++ "aduioCacheEnumatorFailed"
++ "allDataCollectionTypeFailure"
++ "assetBringUpErrorCode"
++ "assetBringUpErrorDescription"
++ "assetBringUpErrorDomain"
++ "assetBringUpState"
++ "assetBringUpType"
++ "assetSetIdentifier"
++ "assetType"
++ "assistantThirdPartyGenAIDigestReported"
++ "audioFilePathsNotFound"
++ "audioUploadFailed"
++ "batchInference"
++ "calculatorType"
++ "countFactoryAssetInBytes"
++ "countFactoryAssets"
++ "countOfAssetsInAssetSet"
++ "countOfPSUSAssetsPromotedInCurrentOS"
++ "countPSUSAssetsMobileAsset"
++ "errorCounts"
++ "eventOrigin"
++ "includeCurrentDateKey"
++ "inferenceColumns"
++ "initWithEventTime:turnId:version:usecase:scores:metadata:"
++ "initWithExplanation:isFollowup:"
++ "initWithType:value:"
++ "instruction"
++ "invocationsCountWhileAvailable"
++ "isAmbiguousRequest"
++ "isExplicitGenAIRequest"
++ "isGenAIAware"
++ "isSuitableForGenAI"
++ "metadataManagerNotFound"
++ "multiDataCollectionTypeFailure"
++ "nearMissMetadataLoadingFailed"
++ "no-op provider invoked: AssetBringUpDataProvider"
++ "numberOfMobileAssetAlters"
++ "numberOfMobileAssetEliminates"
++ "numberOfMobileAssetScans"
++ "outputColumns"
++ "previousBuildVersion"
++ "requestStatus"
++ "setAssetBringUpDigestsReported:"
++ "setAssetBringUpErrorCode:"
++ "setAssetBringUpErrorDescription:"
++ "setAssetBringUpErrorDomain:"
++ "setAssetBringUpState:"
++ "setAssetBringUpType:"
++ "setAssetSetIdentifier:"
++ "setAssistantThirdPartyGenAIDigestReported:"
++ "setCountFactoryAssetInBytes:"
++ "setCountFactoryAssets:"
++ "setCountOfAssetsInAssetSet:"
++ "setCountOfPSUSAssetsPromotedInCurrentOS:"
++ "setCountPSUSAssetsMobileAsset:"
++ "setInvocationsCountWhileAvailable:"
++ "setIsAmbiguousRequest:"
++ "setIsExplicitGenAIRequest:"
++ "setIsGenAIAware:"
++ "setIsSuitableForGenAI:"
++ "setNumberOfMobileAssetAlters:"
++ "setNumberOfMobileAssetEliminates:"
++ "setNumberOfMobileAssetScans:"
++ "setPreviousBuildVersion:"
++ "setRequestStatus:"
++ "setRequestType:"
++ "setSizeInBytesPSUSAssets:"
++ "setThirdPartyGenAIAgent:"
++ "setTimeInSecondsSinceSoftwareUpdate:"
++ "setTotalBytesDownloaded:"
++ "setTotalNumberOfBytesDownloaded:"
++ "setTotalSizeOfAssetsInAssetSet:"
++ "sizeInBytesPSUSAssets"
++ "thirdPartyGenAIAgent"
++ "timeInSecondsSinceSoftwareUpdate"
++ "totalBytesDownloaded"
++ "totalNumberOfBytesDownloaded"
++ "totalSizeOfAssetsInAssetSet"
++ "turnCounts"
++ "usecase"
++ "userDefaultsCreationFailed"
++ "userInteractionBooleanClassification"
++ "version"
++ "voiceProfileIdNotMatch"
++ "voiceProfileNotFound"
++ "🤖 Processing utterances with ODInference..."
+- "#MetricsSELFReporter: Added %ld turnIds to ODDAssistantDigest."
+- "#MetricsSELFReporter: Added %ld turnIds to ODDDictationDigest."
+- "#MetricsSELFReporter: Unable to compose ODDSiriSchemaODDAssistantDigest SELF Event"
+- "#MetricsSELFReporter: oddAssistantDimensions.IERouting count is %ld"
+- "#ODDIMetricsCalculator: No ieRouting found."
+- "#ODDIMetricsCalculator: value of the unexpected type casting to UInt32: %s"
+- "#ODDIMetricsCalculator: value of the unexpected type casting to UInt64: %s"
+- "#ODDIPoirotMetricsTaskExecutor: Call Poirot ODDIMetrics"
+- "#SiriAttentionAndInvocationSamplingCalcultor: error processing CoreSpeechDataAnalytics controller: %@"
+- "#SiriDigestMetricsSELFReporter: Emitting extension execution metadata event"
+- "#SiriDigestMetricsSELFReporter: Start Emitting extension execution metadata event"
+- "@24@0:8^v16"
+- "@24@0:8^{_NSZone=}16"
+- "@24@?0@\"NSArray\"8^@16"
+- "AIR IncludeCurrentDate override ON. existing BookmarkStart=%s, overrideStart=%s"
+- "AIR IncludeCurrentDate override: failed to apply override start to existing bookmark"
+- "AIR IncludeCurrentDate override: failed to copy bookmark for override"
+- "AIR guard filtered=%ld behind bookmark; savedStart ms=%llu time=%s, minReturned ms=%s time=%s"
+- "AIRAssetStatusData extract: failed to decode row"
+- "Adding Assistant Experiment Digest to ODDSiriSchemaODDSiriClientEvent"
+- "Adding Dictation Experiment Digest to ODDSiriSchemaODDSiriClientEvent"
+- "Assistant Device Digest Metrics is empty. Unable to compose ODDSiriSchemaODDAssistantDeviceDigestsReported SELF Event"
+- "AssistantDeviceExperimentMetrics row data: %s"
+- "AssistantDeviceExperimentMetricsCalculator query yielded %ld results"
+- "AssistantDeviceExperimentMetricsCalculatorSP"
+- "AssistantExperimentMetrics"
+- "Cannot find recipe Scorecard.Daily.poirotRecipe"
+- "DictationDeviceExperimentMetrics row data: %s"
+- "DictationDeviceExperimentMetricsCalculator query yielded %ld results"
+- "DictationDeviceExperimentMetricsCalculatorSP"
+- "ExperimentationExtensionIncludeCurrentDate"
+- "MetricsFramework/ODDIPoirotMetricsPlugin.swift"
+- "MetricsFramework/SiriDeviceExperimentMetricsReporter.swift"
+- "MetricsFramework/SiriDigestMetricsReporter.swift"
+- "NSCopying"
+- "No On-Device Digest metrics available"
+- "No ieRouting found."
+- "ODDI nil userAggregationId"
+- "ODDIMetricsQuery yielded %ld rows)"
+- "ODDIPoirotMetricsExtension"
+- "ODDIPoirotMetricsExtensionIncludeCurrentDate"
+- "ODDIPoirotMetricsWorker"
+- "OnDeviceDigestExperimentMetrics"
+- "OnDeviceDigestUsageMetrics"
+- "Poirot does not need sql file"
+- "Received empty DeviceUsageMetrics. Not going to compose ODDSiriSchemaODDDictationDeviceDigestsReported SELF Event"
+- "Reporter invoked: SiriDeviceExperimentMetricsReporter"
+- "SQL calculator invoked: AssistantDeviceExperimentMetricsCalculator"
+- "SQL calculator invoked: DictationDeviceExperimentMetricsCalculator"
+- "SQL calculator invoked: SiriDigestMetricsCalculator"
+- "Scorecard.Daily.poirotRecipe"
+- "SiriDigestMetrics row data: %s"
+- "SiriDigestMetricsCalculator query yielded %ld results"
+- "SiriDigestMetricsCalculatorSP"
+- "SiriExperimentMetrics"
+- "Unable to compose ODDSiriSchemaODDAssistantCounts SELF Event"
+- "Unable to compose ODDSiriSchemaODDAssistantDeviceDigestsReported SELF Event"
+- "Unable to compose ODDSiriSchemaODDAssistantDimensions SELF Event"
+- "Unable to compose ODDSiriSchemaODDDictationCounts SELF Event"
+- "Unable to compose ODDSiriSchemaODDDictationDeviceDigestsReported SELF Event"
+- "Unable to compose ODDSiriSchemaODDDictationDigest SELF Event"
+- "Unable to compose ODDSiriSchemaODDDictationDimensions SELF Event"
+- "Unable to compose ODDSiriSchemaODDFixedDimensions SELF Event"
+- "Unable to compose ODDSiriSchemaODDReliabilityCounts SELF Event"
+- "Unable to compose ODDSiriSchemaODDTaskCounts SELF Event"
+- "Unable to compose ODDSiriSchemaODDTurnCounts SELF Event"
+- "Unable to create execution metadata event"
+- "_TtC16MetricsFramework17SiriDigestMetrics"
+- "_TtC16MetricsFramework21NoActionBookmarkStore"
+- "_TtC16MetricsFramework23ODDIPoirotMetricsPlugin"
+- "_TtC16MetricsFramework25ExperimentMetricsExecutor"
+- "_TtC16MetricsFramework25SiriDigestMetricsReporter"
+- "_TtC16MetricsFramework27SiriDigestMetricsCalculator"
+- "_TtC16MetricsFramework28SiriDigestMetricsSELFAdapter"
+- "_TtC16MetricsFramework29ODDIPoirotMetricsTaskExecutor"
+- "_TtC16MetricsFramework29SiriDigestMetricsDataProvider"
+- "_TtC16MetricsFramework29SiriDigestMetricsSELFReporter"
+- "_TtC16MetricsFramework30SiriDigestMetricsBiomeReporter"
+- "_TtC16MetricsFramework32AssistantDeviceExperimentMetrics"
+- "_TtC16MetricsFramework32DictationDeviceExperimentMetrics"
+- "_TtC16MetricsFramework35SiriDeviceExperimentMetricsReporter"
+- "_TtC16MetricsFramework39SiriDeviceExperimentMetricsDataProvider"
+- "_TtC16MetricsFramework39SiriDeviceExperimentMetricsSELFReporter"
+- "_TtC16MetricsFramework40SiriDeviceExperimentMetricsBiomeReporter"
+- "_TtC16MetricsFramework42AssistantDeviceExperimentMetricsCalculator"
+- "_TtC16MetricsFramework42DictationDeviceExperimentMetricsCalculator"
+- "assistantDeviceExperimentMetricsCalculator"
+- "assistantdeviceexperimentmetrics"
+- "bookmarks"
+- "com.apple.SiriExperimentMetricsWorker"
+- "com.apple.siri.ODDI.PoirotMetricsWorker"
+- "com.apple.siri.ODDIPoirotMetricsExtension"
+- "com.apple.siri.metrics.ExperimentExtension.assistant"
+- "com.apple.siri.metrics.ExperimentExtension.dictation"
+- "dictationDeviceExperimentMetricsCalculator"
+- "dictationdeviceexperimentmetrics"
+- "initWithEventMetadata:deviceType:programCode:productId:systemBuild:dataSharingOptInStatus:viewInterface:audioInterfaceVendorId:audioInterfaceProductId:asrLocation:nlLocation:siriInputLocale:dictationLocale:subDomain:totalTurnCount:validTurnCount:siriTasksStarted:siriTasksCompleted:flowTasksStarted:flowTasksCompleted:reliabilityRequestCount:reliabilityTurnCount:clientErrorCount:undesiredResponseCount:fatalResponseCount:failureResponseCount:siriUnavailableResponseCount:asrTurnCount:siriResponseId:responseCategory:isIntelligenceEngineRequest:intelligenceEngineRouting:"
+- "initWithEventMetadata:digestType:experimentId:treatmentIdUUID:deploymentId:deviceType:programCode:digests:"
+- "no-op data provider invoked: SiriDeviceExperimentMetricsDataProvider"
+- "no-op data provider invoked: SiriDigestMetricsDataProvider"
+- "oddSiriClientEvents"
+- "productId of ASSISTANT is only supported from this extension - skipping row with productId: %s"
+- "productId of DICTATION is only supported from this extension - skipping row with productId: %s"
+- "raw_siri_response_id"
+- "registerFunctionWithName:numArgs:function:error:"
+- "resourceURL"
+- "routingCount"
+- "row does not have product Id"
+- "selfConversion"
+- "siriDeviceExperimentMetricsDataProvider"
+- "siriDeviceExperimentMetricsReporter"
+- "siriDigestMetricsCalculator"
+- "siriDigestMetricsDataProvider"
+- "siriDigestMetricsReporter"
+- "siridigestmetrics"
+- "taskParams"
+
+```

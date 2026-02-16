@@ -1,0 +1,330 @@
+## TelephonyMessagingKit
+
+> `/System/Library/Frameworks/TelephonyMessagingKit.framework/TelephonyMessagingKit`
+
+```diff
+
+-13149.12.0.0.0
+-  __TEXT.__text: 0x11ad9c
+-  __TEXT.__auth_stubs: 0x1930
+-  __TEXT.__cstring: 0x1713
+-  __TEXT.__swift5_typeref: 0x7653
+-  __TEXT.__const: 0x203b0
+-  __TEXT.__swift5_reflstr: 0x2ca8
+-  __TEXT.__swift5_assocty: 0xbf8
+-  __TEXT.__constg_swiftt: 0x599c
+-  __TEXT.__swift5_fieldmd: 0x6140
++13169.2.1.2.0
++  __TEXT.__text: 0x12ac78
++  __TEXT.__auth_stubs: 0x19b0
++  __TEXT.__swift5_typeref: 0x79ef
++  __TEXT.__const: 0x212e0
++  __TEXT.__swift5_reflstr: 0x2fa7
++  __TEXT.__swift5_assocty: 0xc48
++  __TEXT.__constg_swiftt: 0x5d04
++  __TEXT.__swift5_fieldmd: 0x67b4
+   __TEXT.__swift5_builtin: 0xb4
+-  __TEXT.__swift5_proto: 0x1ff8
+-  __TEXT.__swift5_types: 0x91c
+-  __TEXT.__swift5_protos: 0x50
+-  __TEXT.__swift5_mpenum: 0x40
+-  __TEXT.__oslogstring: 0x16f0
+-  __TEXT.__swift5_capture: 0xe10
+-  __TEXT.__swift_as_entry: 0x190
+-  __TEXT.__swift_as_ret: 0x1ac
+-  __TEXT.__unwind_info: 0x5d80
+-  __TEXT.__eh_frame: 0x9b10
+-  __TEXT.__objc_methname: 0x57
+-  __DATA_CONST.__got: 0x3f0
++  __TEXT.__swift5_proto: 0x20d4
++  __TEXT.__swift5_types: 0x96c
++  __TEXT.__cstring: 0x10d3
++  __TEXT.__swift5_protos: 0x5c
++  __TEXT.__swift5_mpenum: 0xe0
++  __TEXT.__swift5_capture: 0xe28
++  __TEXT.__oslogstring: 0x17b0
++  __TEXT.__swift_as_entry: 0x198
++  __TEXT.__swift_as_ret: 0x1bc
++  __TEXT.__unwind_info: 0x6010
++  __TEXT.__eh_frame: 0xa3a8
++  __TEXT.__objc_classname: 0x288
++  __TEXT.__objc_methname: 0x622
++  __TEXT.__objc_methtype: 0x3d
++  __TEXT.__objc_stubs: 0x160
++  __DATA_CONST.__got: 0x428
+   __DATA_CONST.__const: 0xa8
+-  __DATA_CONST.__objc_classlist: 0x58
++  __DATA_CONST.__objc_classlist: 0x60
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x28
+-  __AUTH_CONST.__auth_got: 0xc98
+-  __AUTH_CONST.__const: 0xf618
+-  __AUTH_CONST.__objc_const: 0xe78
++  __DATA_CONST.__objc_selrefs: 0x58
++  __AUTH_CONST.__auth_got: 0xce0
++  __AUTH_CONST.__const: 0xfc08
++  __AUTH_CONST.__objc_const: 0xf68
+   __AUTH.__objc_data: 0xa0
+-  __AUTH.__data: 0x2b58
+-  __DATA.__data: 0x5a60
+-  __DATA.__bss: 0x3c610
+-  __DATA.__common: 0x68
+-  __DATA_DIRTY.__data: 0x15e0
++  __AUTH.__data: 0x3060
++  __DATA.__data: 0x5d10
++  __DATA.__bss: 0x3e090
++  __DATA.__common: 0x80
++  __DATA_DIRTY.__data: 0x1648
+   __DATA_DIRTY.__bss: 0x3300
+   __DATA_DIRTY.__common: 0x38
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/Frameworks/CoreTelephony.framework/CoreTelephony
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Security.framework/Security
++  - /System/Library/PrivateFrameworks/CTBlastDoorSupport.framework/CTBlastDoorSupport
+   - /System/Library/PrivateFrameworks/CTLazuliSupport.framework/CTLazuliSupport
+-  - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
++  - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libbsm.0.dylib
++  - /usr/lib/libmis.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F5BBA892-B94B-35B3-ACCE-876B803C5AC3
+-  Functions: 8527
+-  Symbols:   3385
+-  CStrings:  307
++  UUID: B450899A-BC31-3519-8131-122F52E29D9B
++  Functions: 8754
++  Symbols:   3507
++  CStrings:  328
+ 
+Symbols:
++ _AnalyticsSendEventLazy
++ _OBJC_CLASS_$_LSApplicationRecord
++ _OBJC_CLASS_$_MISLaunchWarningDatabase
++ _OBJC_CLASS_$_NSNumber
++ _OBJC_CLASS_$_NSObject
++ __DATA__TtC21TelephonyMessagingKit24TMKLaunchWarningDatabase
++ __METACLASS_DATA__TtC21TelephonyMessagingKit24TMKLaunchWarningDatabase
++ ___swift_get_extra_inhabitant_index.8Tm
++ ___swift_memcpy104_8
++ ___swift_memcpy168_8
++ ___swift_memcpy240_8
++ ___swift_memcpy49_8
++ ___swift_memcpy66_8
++ ___swift_memcpy73_8
++ ___swift_memcpy81_8
++ ___swift_store_extra_inhabitant_index.9Tm
++ _associated conformance 21TelephonyMessagingKit0B0O9MessageIDO26SendEncryptedRCSCodingKeys33_CBDA42683D0DE76B9B5D99C34DDECF70LLOs9CodingKeyAAs23CustomStringConvertible
++ _associated conformance 21TelephonyMessagingKit0B0O9MessageIDO26SendEncryptedRCSCodingKeys33_CBDA42683D0DE76B9B5D99C34DDECF70LLOs9CodingKeyAAs28CustomDebugStringConvertible
++ _associated conformance 21TelephonyMessagingKit10RCSMessageV11DispositionO46DeliveryFailedDueToDecryptionFailureCodingKeys33_54D59AF77DE98F5ACEAB5AEAE798531FLLOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 21TelephonyMessagingKit10RCSMessageV11DispositionO46DeliveryFailedDueToDecryptionFailureCodingKeys33_54D59AF77DE98F5ACEAB5AEAE798531FLLOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21TelephonyMessagingKit10RCSMessageV17SecureSendReceiptV10CodingKeys33_1889DD1DEC721EAFCDA7EC2268707427LLOSHAASQ
++ _associated conformance 21TelephonyMessagingKit10RCSMessageV17SecureSendReceiptV10CodingKeys33_1889DD1DEC721EAFCDA7EC2268707427LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 21TelephonyMessagingKit10RCSMessageV17SecureSendReceiptV10CodingKeys33_1889DD1DEC721EAFCDA7EC2268707427LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21TelephonyMessagingKit10RCSMessageV17SecureSendReceiptV7PayloadO10CodingKeys33_1889DD1DEC721EAFCDA7EC2268707427LLOSHAASQ
++ _associated conformance 21TelephonyMessagingKit10RCSMessageV17SecureSendReceiptV7PayloadO10CodingKeys33_1889DD1DEC721EAFCDA7EC2268707427LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 21TelephonyMessagingKit10RCSMessageV17SecureSendReceiptV7PayloadO10CodingKeys33_1889DD1DEC721EAFCDA7EC2268707427LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21TelephonyMessagingKit10RCSMessageV17SecureSendReceiptV7PayloadO12V1CodingKeys33_1889DD1DEC721EAFCDA7EC2268707427LLOSHAASQ
++ _associated conformance 21TelephonyMessagingKit10RCSMessageV17SecureSendReceiptV7PayloadO12V1CodingKeys33_1889DD1DEC721EAFCDA7EC2268707427LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 21TelephonyMessagingKit10RCSMessageV17SecureSendReceiptV7PayloadO12V1CodingKeys33_1889DD1DEC721EAFCDA7EC2268707427LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21TelephonyMessagingKit10RCSMessageV17SecureSendReceiptV9PayloadV1V10CodingKeys33_1889DD1DEC721EAFCDA7EC2268707427LLOSHAASQ
++ _associated conformance 21TelephonyMessagingKit10RCSMessageV17SecureSendReceiptV9PayloadV1V10CodingKeys33_1889DD1DEC721EAFCDA7EC2268707427LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 21TelephonyMessagingKit10RCSMessageV17SecureSendReceiptV9PayloadV1V10CodingKeys33_1889DD1DEC721EAFCDA7EC2268707427LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21TelephonyMessagingKit10RCSMessageV17SecureSendReceiptVs12IdentifiableAA2IDsAFP_SH
++ _associated conformance 21TelephonyMessagingKit10RCSServiceC5ErrorO05EndToF32EncryptionNotSupportedCodingKeys33_EE567D3EDACA66F7955B890C2348B40ALLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 21TelephonyMessagingKit10RCSServiceC5ErrorO05EndToF32EncryptionNotSupportedCodingKeys33_EE567D3EDACA66F7955B890C2348B40ALLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21TelephonyMessagingKit21TMKLaunchWarningStateOSHAASQ
++ _associated conformance 21TelephonyMessagingKit23RCSEncryptedSendRequestV10CodingKeys33_4E51154488BA7AEA6DD100424DB7C26ALLOSHAASQ
++ _associated conformance 21TelephonyMessagingKit23RCSEncryptedSendRequestV10CodingKeys33_4E51154488BA7AEA6DD100424DB7C26ALLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 21TelephonyMessagingKit23RCSEncryptedSendRequestV10CodingKeys33_4E51154488BA7AEA6DD100424DB7C26ALLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21TelephonyMessagingKit23RCSEncryptedSendRequestVAA10XPCMessageAA5ReplyAaDP_SE
++ _associated conformance 21TelephonyMessagingKit23RCSEncryptedSendRequestVAA10XPCMessageAA5ReplyAaDP_Se
++ _associated conformance 21TelephonyMessagingKit23RCSEncryptedSendRequestVAA10XPCMessageAA9MessageIDAaDP_AA0gI0
++ _associated conformance 21TelephonyMessagingKit24TMKAppRequestDeniedEventV6ReasonOSHAASQ
++ _associated conformance 21TelephonyMessagingKit24TMKLaunchWarningDatabaseC5ErrorOSHAASQ
++ _block_copy_helper.64
++ _block_descriptor.66
++ _block_destroy_helper.65
++ _get_witness_table ScSy21TelephonyMessagingKit10MMSServiceC21ViabilityNotificationVGSciHPyHC.32
++ _get_witness_table ScSy21TelephonyMessagingKit10MMSServiceC27IncomingMessageNotificationVGSciHPyHC.33
++ _get_witness_table ScSy21TelephonyMessagingKit10RCSServiceC14GroupChatEventOGSciHPyHC.186
++ _get_witness_table ScSy21TelephonyMessagingKit10RCSServiceC18RemoteHandleUpdateVGSciHPyHC.184
++ _get_witness_table ScSy21TelephonyMessagingKit10RCSServiceC21ViabilityNotificationVGSciHPyHC.183
++ _get_witness_table ScSy21TelephonyMessagingKit10RCSServiceC27IncomingMessageNotificationVGSciHPyHC.185
++ _get_witness_table ScSy21TelephonyMessagingKit10SMSServiceC21ViabilityNotificationVGSciHPyHC.39
++ _get_witness_table ScSy21TelephonyMessagingKit10SMSServiceC27IncomingMessageNotificationVGSciHPyHC.40
++ _get_witness_table ScSy21TelephonyMessagingKit10SMSServiceC32CriticalMessageStateNotificationVGSciHPyHC.41
++ _objc_allocWithZone
++ _objc_autoreleaseReturnValue
++ _objc_msgSend$bundleIdentifier
++ _objc_msgSend$bytes
++ _objc_msgSend$defaultApplicationForCategory:error:
++ _objc_msgSend$defaultWorkspace
++ _objc_msgSend$executableURL
++ _objc_msgSend$init
++ _objc_msgSend$initWithBundleIdentifier:allowPlaceholder:error:
++ _objc_msgSend$initWithInteger:
++ _objc_msgSend$kilobytes
++ _objc_msgSend$queryForExecutableURL:withError:
++ _objc_msgSend$warningState
++ _objc_retain_x22
++ _objc_retain_x26
++ _objectdestroy.112Tm
++ _objectdestroy.12Tm
++ _objectdestroy.13Tm
++ _objectdestroy.212Tm
++ _objectdestroy.23Tm
++ _objectdestroy.339Tm
++ _objectdestroy.57Tm
++ _swift_cvw_initEnumMetadataSingleCaseWithLayoutString
++ _symbolic $s21TelephonyMessagingKit17TMKAnalyticsEventP
++ _symbolic $s21TelephonyMessagingKit19TMKAppInfoProvidingP
++ _symbolic $s21TelephonyMessagingKit21TMKAnalyticsProvidingP
++ _symbolic $s21TelephonyMessagingKit32TMKLaunchWarningDatabaseProtocolP
++ _symbolic SS_So8NSObjectCt
++ _symbolic ScCy_____Sg______pG 21TelephonyMessagingKit10RCSMessageV17SecureSendReceiptV s5ErrorP
++ _symbolic ScCy_____Sg______pGSg 21TelephonyMessagingKit10RCSMessageV17SecureSendReceiptV s5ErrorP
++ _symbolic _____ 21TelephonyMessagingKit0B0O9MessageIDO26SendEncryptedRCSCodingKeys33_CBDA42683D0DE76B9B5D99C34DDECF70LLO
++ _symbolic _____ 21TelephonyMessagingKit10RCSMessageV11DispositionO46DeliveryFailedDueToDecryptionFailureCodingKeys33_54D59AF77DE98F5ACEAB5AEAE798531FLLO
++ _symbolic _____ 21TelephonyMessagingKit10RCSMessageV17SecureSendReceiptV
++ _symbolic _____ 21TelephonyMessagingKit10RCSMessageV17SecureSendReceiptV10CodingKeys33_1889DD1DEC721EAFCDA7EC2268707427LLO
++ _symbolic _____ 21TelephonyMessagingKit10RCSMessageV17SecureSendReceiptV7PayloadO
++ _symbolic _____ 21TelephonyMessagingKit10RCSMessageV17SecureSendReceiptV7PayloadO10CodingKeys33_1889DD1DEC721EAFCDA7EC2268707427LLO
++ _symbolic _____ 21TelephonyMessagingKit10RCSMessageV17SecureSendReceiptV7PayloadO12V1CodingKeys33_1889DD1DEC721EAFCDA7EC2268707427LLO
++ _symbolic _____ 21TelephonyMessagingKit10RCSMessageV17SecureSendReceiptV9PayloadV1V
++ _symbolic _____ 21TelephonyMessagingKit10RCSMessageV17SecureSendReceiptV9PayloadV1V10CodingKeys33_1889DD1DEC721EAFCDA7EC2268707427LLO
++ _symbolic _____ 21TelephonyMessagingKit10RCSServiceC27SendEncryptedMessageRequestV
++ _symbolic _____ 21TelephonyMessagingKit10RCSServiceC27SendEncryptedMessageRequestV6ResultV
++ _symbolic _____ 21TelephonyMessagingKit10RCSServiceC5ErrorO05EndToF32EncryptionNotSupportedCodingKeys33_EE567D3EDACA66F7955B890C2348B40ALLO
++ _symbolic _____ 21TelephonyMessagingKit12TMKAppRecordV
++ _symbolic _____ 21TelephonyMessagingKit15TransferServiceO6ServerC13ConfigurationV
++ _symbolic _____ 21TelephonyMessagingKit18TMKAppInfoProviderV
++ _symbolic _____ 21TelephonyMessagingKit20TMKAnalyticsProviderV
++ _symbolic _____ 21TelephonyMessagingKit21TMKLaunchWarningStateO
++ _symbolic _____ 21TelephonyMessagingKit23RCSEncryptedSendRequestV
++ _symbolic _____ 21TelephonyMessagingKit23RCSEncryptedSendRequestV10CodingKeys33_4E51154488BA7AEA6DD100424DB7C26ALLO
++ _symbolic _____ 21TelephonyMessagingKit24TMKAppRequestDeniedEventV
++ _symbolic _____ 21TelephonyMessagingKit24TMKAppRequestDeniedEventV6ReasonO
++ _symbolic _____ 21TelephonyMessagingKit24TMKLaunchWarningDatabaseC
++ _symbolic _____ 21TelephonyMessagingKit24TMKLaunchWarningDatabaseC5ErrorO
++ _symbolic _____ s5Int64V
++ _symbolic _____Sg 18CTBlastDoorSupport18FileCryptoMaterialV
++ _symbolic _____Sg 21TelephonyMessagingKit10RCSMessageV17SecureSendReceiptV
++ _symbolic _____Sg 21TelephonyMessagingKit12RCSMessageIDV
++ _symbolic _____Sg 21TelephonyMessagingKit12TMKAppRecordV
++ _symbolic _____Sg 21TelephonyMessagingKit21RCSResultNotificationV
++ _symbolic _____Sg_ABt 18CTBlastDoorSupport18FileCryptoMaterialV
++ _symbolic ______AAt 21TelephonyMessagingKit10RCSMessageV17SecureSendReceiptV7PayloadO
++ _symbolic ______p 21TelephonyMessagingKit19TMKAppInfoProvidingP
++ _symbolic ______p 21TelephonyMessagingKit21TMKAnalyticsProvidingP
++ _symbolic ______p 21TelephonyMessagingKit32TMKLaunchWarningDatabaseProtocolP
++ _symbolic _____ySDy_____ScCy_____Sg______pGG_____G s13ManagedBufferCsRi__rlE 21TelephonyMessagingKit12RCSMessageIDV AC0F0V17SecureSendReceiptV s5ErrorP So16os_unfair_lock_sV
++ _symbolic _____ySSSo8NSObjectCG s18_DictionaryStorageC
++ _symbolic _____ySS_So8NSObjectCtG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G 21TelephonyMessagingKit14XPCPeerMessageV AA21RCSResultNotificationV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21TelephonyMessagingKit0E0O9MessageIDO26SendEncryptedRCSCodingKeys33_CBDA42683D0DE76B9B5D99C34DDECF70LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21TelephonyMessagingKit10RCSMessageV11DispositionO46DeliveryFailedDueToDecryptionFailureCodingKeys33_54D59AF77DE98F5ACEAB5AEAE798531FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21TelephonyMessagingKit10RCSMessageV17SecureSendReceiptV10CodingKeys33_1889DD1DEC721EAFCDA7EC2268707427LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21TelephonyMessagingKit10RCSMessageV17SecureSendReceiptV7PayloadO10CodingKeys33_1889DD1DEC721EAFCDA7EC2268707427LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21TelephonyMessagingKit10RCSMessageV17SecureSendReceiptV7PayloadO12V1CodingKeys33_1889DD1DEC721EAFCDA7EC2268707427LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21TelephonyMessagingKit10RCSMessageV17SecureSendReceiptV9PayloadV1V10CodingKeys33_1889DD1DEC721EAFCDA7EC2268707427LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21TelephonyMessagingKit10RCSServiceC5ErrorO05EndToI32EncryptionNotSupportedCodingKeys33_EE567D3EDACA66F7955B890C2348B40ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21TelephonyMessagingKit23RCSEncryptedSendRequestV10CodingKeys33_4E51154488BA7AEA6DD100424DB7C26ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21TelephonyMessagingKit0E0O9MessageIDO26SendEncryptedRCSCodingKeys33_CBDA42683D0DE76B9B5D99C34DDECF70LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21TelephonyMessagingKit10RCSMessageV11DispositionO46DeliveryFailedDueToDecryptionFailureCodingKeys33_54D59AF77DE98F5ACEAB5AEAE798531FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21TelephonyMessagingKit10RCSMessageV17SecureSendReceiptV10CodingKeys33_1889DD1DEC721EAFCDA7EC2268707427LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21TelephonyMessagingKit10RCSMessageV17SecureSendReceiptV7PayloadO10CodingKeys33_1889DD1DEC721EAFCDA7EC2268707427LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21TelephonyMessagingKit10RCSMessageV17SecureSendReceiptV7PayloadO12V1CodingKeys33_1889DD1DEC721EAFCDA7EC2268707427LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21TelephonyMessagingKit10RCSMessageV17SecureSendReceiptV9PayloadV1V10CodingKeys33_1889DD1DEC721EAFCDA7EC2268707427LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21TelephonyMessagingKit10RCSServiceC5ErrorO05EndToI32EncryptionNotSupportedCodingKeys33_EE567D3EDACA66F7955B890C2348B40ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21TelephonyMessagingKit23RCSEncryptedSendRequestV10CodingKeys33_4E51154488BA7AEA6DD100424DB7C26ALLO
++ _symbolic _____y_____ScCy_____Sg______pGG s18_DictionaryStorageC 21TelephonyMessagingKit12RCSMessageIDV AC0F0V17SecureSendReceiptV s5ErrorP
++ _symbolic _____y__________SgG 21TelephonyMessagingKit16OperationTrackerC AA12RCSMessageIDV AA0F0V17SecureSendReceiptV
++ _type_layout_string 21TelephonyMessagingKit10RCSMessageV4TextV
++ _type_layout_string 21TelephonyMessagingKit15TransferServiceO6ServerC13ConfigurationV
++ _type_layout_string 21TelephonyMessagingKit24TMKAppRequestDeniedEventV
+- ___swift_memcpy160_8
+- ___swift_memcpy96_8
+- _associated conformance 21TelephonyMessagingKit04CoreA11FeatureFlagOSHAASQ
+- _block_copy_helper.62
+- _block_descriptor.64
+- _block_destroy_helper.63
+- _get_witness_table ScSy21TelephonyMessagingKit10MMSServiceC21ViabilityNotificationVGSciHPyHC.31
+- _get_witness_table ScSy21TelephonyMessagingKit10MMSServiceC27IncomingMessageNotificationVGSciHPyHC.32
+- _get_witness_table ScSy21TelephonyMessagingKit10RCSServiceC14GroupChatEventOGSciHPyHC.154
+- _get_witness_table ScSy21TelephonyMessagingKit10RCSServiceC18RemoteHandleUpdateVGSciHPyHC.152
+- _get_witness_table ScSy21TelephonyMessagingKit10RCSServiceC21ViabilityNotificationVGSciHPyHC.151
+- _get_witness_table ScSy21TelephonyMessagingKit10RCSServiceC27IncomingMessageNotificationVGSciHPyHC.153
+- _get_witness_table ScSy21TelephonyMessagingKit10SMSServiceC21ViabilityNotificationVGSciHPyHC.38
+- _get_witness_table ScSy21TelephonyMessagingKit10SMSServiceC27IncomingMessageNotificationVGSciHPyHC.39
+- _get_witness_table ScSy21TelephonyMessagingKit10SMSServiceC32CriticalMessageStateNotificationVGSciHPyHC.40
+- _malloc
+- _objc_release
+- _objectdestroy.10Tm
+- _objectdestroy.11Tm
+- _objectdestroy.179Tm
+- _objectdestroy.20Tm
+- _objectdestroy.277Tm
+- _objectdestroy.56Tm
+- _objectdestroy.78Tm
+- _swift_endAccess
+- _symbolic $s21TelephonyMessagingKit23DefaultAppInfoProvidingP
+- _symbolic _____ 21TelephonyMessagingKit04CoreA11FeatureFlagO
+- _symbolic _____ 21TelephonyMessagingKit19FeatureFlagProviderV
+- _symbolic _____ 21TelephonyMessagingKit22DefaultAppInfoProviderV
+- _symbolic ______p 21TelephonyMessagingKit20FeatureFlagProvidingP
+- _symbolic ______p 21TelephonyMessagingKit23DefaultAppInfoProvidingP
+- _symbolic _____ySDy_____ScCyyt______pGG_____G s13ManagedBufferCsRi__rlE 21TelephonyMessagingKit12RCSMessageIDV s5ErrorP So16os_unfair_lock_sV
+- _symbolic _____y_____ScCyyt______pGG s18_DictionaryStorageC 21TelephonyMessagingKit12RCSMessageIDV s5ErrorP
+- _symbolic _____y_____ytG 21TelephonyMessagingKit16OperationTrackerC AA12RCSMessageIDV
+- _type_layout_string 21TelephonyMessagingKit21RCSResultNotificationV
+CStrings:
++ "%s appeared in block list, denying session request"
++ "%s appeared in block list, dropping incoming message"
++ "@\"NSDictionary\"8@?0"
++ "Dropping message since %s appears in blocklist"
++ "Dropping message since %s is not a valid app"
++ "Got launch warning: %s"
++ "Sending event (lazily): %s"
++ "_TtC21TelephonyMessagingKit24TMKLaunchWarningDatabase"
++ "analyticsProvider"
++ "appInfoProvider"
++ "com.apple.Telephony.MessagingKitAppRequestDenied"
++ "deliveryFailedDueToDecryptionFailure"
++ "endToEndEncryptionNotSupported"
++ "executableURL"
++ "init"
++ "initWithBundleIdentifier:allowPlaceholder:error:"
++ "initWithInteger:"
++ "isEndToEndEncrypted"
++ "launchWarningDatabase"
++ "originalMessageID"
++ "queryForExecutableURL:withError:"
++ "secureSendReceipt"
++ "sendEncryptedRCS"
++ "supportsEndToEndEncryption"
++ "warningState"
+- "CoreTelephony"
+- "Feature is disabled"
+- "MessagingAPI"
+- "Rejecting incoming request due to feature being disabled"
+- "defaultAppInfoProvider"
+- "featureFlagProvider"
+
+```

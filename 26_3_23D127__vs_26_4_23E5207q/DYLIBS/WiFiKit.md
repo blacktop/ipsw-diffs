@@ -1,0 +1,1179 @@
+## WiFiKit
+
+> `/System/Library/PrivateFrameworks/WiFiKit.framework/WiFiKit`
+
+```diff
+
+-1163.3.0.0.0
+-  __TEXT.__text: 0x9bd9c
+-  __TEXT.__auth_stubs: 0x1610
+-  __TEXT.__objc_methlist: 0x96d8
+-  __TEXT.__const: 0x283
+-  __TEXT.__oslogstring: 0xb0ae
+-  __TEXT.__cstring: 0xb599
+-  __TEXT.__gcc_except_tab: 0x2c74
++1175.14.0.0.0
++  __TEXT.__text: 0xaf81c
++  __TEXT.__auth_stubs: 0x1a50
++  __TEXT.__objc_methlist: 0x989c
++  __TEXT.__const: 0x783
++  __TEXT.__oslogstring: 0xb4b6
++  __TEXT.__cstring: 0xbecb
++  __TEXT.__gcc_except_tab: 0x29a8
+   __TEXT.__dlopen_cstrs: 0xac
+   __TEXT.__ustring: 0x44
+-  __TEXT.__unwind_info: 0x1ca0
+-  __TEXT.__objc_classname: 0xe54
+-  __TEXT.__objc_methname: 0x159b2
+-  __TEXT.__objc_methtype: 0x2fd0
+-  __TEXT.__objc_stubs: 0xe760
+-  __DATA_CONST.__got: 0xbf8
+-  __DATA_CONST.__const: 0x2638
+-  __DATA_CONST.__objc_classlist: 0x348
++  __TEXT.__swift5_typeref: 0x1f1
++  __TEXT.__swift5_capture: 0x1f4
++  __TEXT.__swift5_reflstr: 0x12f
++  __TEXT.__swift5_assocty: 0xc0
++  __TEXT.__swift5_fieldmd: 0x160
++  __TEXT.__constg_swiftt: 0x25c
++  __TEXT.__swift5_builtin: 0x14
++  __TEXT.__swift5_proto: 0x30
++  __TEXT.__swift5_types: 0x18
++  __TEXT.__unwind_info: 0x2538
++  __TEXT.__eh_frame: 0x38
++  __TEXT.__objc_classname: 0xeea
++  __TEXT.__objc_methname: 0x15cac
++  __TEXT.__objc_methtype: 0x30cc
++  __TEXT.__objc_stubs: 0xe8e0
++  __DATA_CONST.__got: 0xcf0
++  __DATA_CONST.__const: 0x26f0
++  __DATA_CONST.__objc_classlist: 0x360
+   __DATA_CONST.__objc_catlist: 0x70
+-  __DATA_CONST.__objc_protolist: 0x158
++  __DATA_CONST.__objc_protolist: 0x160
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x4d88
+-  __DATA_CONST.__objc_protorefs: 0x18
++  __DATA_CONST.__objc_selrefs: 0x4df8
++  __DATA_CONST.__objc_protorefs: 0x20
+   __DATA_CONST.__objc_superrefs: 0x298
+   __DATA_CONST.__objc_arraydata: 0x1a0
+-  __AUTH_CONST.__auth_got: 0xb18
+-  __AUTH_CONST.__const: 0x540
+-  __AUTH_CONST.__cfstring: 0x6f00
+-  __AUTH_CONST.__objc_const: 0x18e70
+-  __AUTH_CONST.__objc_intobj: 0x660
++  __AUTH_CONST.__auth_got: 0xd38
++  __AUTH_CONST.__const: 0xdf0
++  __AUTH_CONST.__cfstring: 0x6f20
++  __AUTH_CONST.__objc_const: 0x192a0
++  __AUTH_CONST.__objc_intobj: 0x6a8
+   __AUTH_CONST.__objc_arrayobj: 0x1e0
+-  __AUTH.__objc_data: 0x1630
+-  __DATA.__objc_ivar: 0xbbc
+-  __DATA.__data: 0x13c0
+-  __DATA.__bss: 0x108
++  __AUTH.__objc_data: 0x1a08
++  __AUTH.__data: 0x78
++  __DATA.__objc_ivar: 0xbc4
++  __DATA.__data: 0x1520
++  __DATA.__bss: 0x710
+   __DATA_DIRTY.__objc_data: 0xaa0
+   __DATA_DIRTY.__bss: 0x91
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libSystemHealth.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2D971C90-0D8A-301F-AA70-6F02D641D386
+-  Functions: 3423
+-  Symbols:   12070
+-  CStrings:  7701
++  - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftCoreImage.dylib
++  - /usr/lib/swift/libswiftDispatch.dylib
++  - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftOSLog.dylib
++  - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
++  - /usr/lib/swift/libswiftXPC.dylib
++  - /usr/lib/swift/libswift_Builtin_float.dylib
++  - /usr/lib/swift/libswiftos.dylib
++  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 96DFCB7F-B0EA-3D7A-8EB6-066D7CADC519
++  Functions: 3792
++  Symbols:   13207
++  CStrings:  7817
+ 
+Symbols:
++ -[WFControlCenterStateMonitor _performActionWithStateMonitor:]
++ -[WFProxyKeychainOperation start].cold.8
++ -[WFWiFiStateMonitor _convertStateMonitorStateToWFWiFiState:]
++ -[WFWiFiStateMonitor isPowerModificationDisabled]
++ -[WFWiFiStateMonitor setStateMonitor:]
++ -[WFWiFiStateMonitor setUseStateMonitor:]
++ -[WFWiFiStateMonitor stateMonitor]
++ -[WFWiFiStateMonitor useStateMonitor]
++ GCC_except_table103
++ GCC_except_table110
++ GCC_except_table113
++ GCC_except_table118
++ GCC_except_table126
++ GCC_except_table130
++ GCC_except_table147
++ GCC_except_table157
++ GCC_except_table161
++ GCC_except_table172
++ GCC_except_table174
++ GCC_except_table176
++ GCC_except_table200
++ GCC_except_table212
++ GCC_except_table215
++ GCC_except_table23
++ GCC_except_table250
++ GCC_except_table257
++ GCC_except_table29
++ GCC_except_table69
++ GCC_except_table71
++ GCC_except_table73
++ GCC_except_table76
++ GCC_except_table80
++ GCC_except_table87
++ GCC_except_table90
++ GCC_except_table92
++ GCC_except_table95
++ GCC_except_table99
++ _$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF
++ _$s10ObjectiveC8ObjCBoolVIeyBy_SbIegy_TRTA
++ _$s10ObjectiveC8ObjCBoolVMn
++ _$s19ArrayLiteralElements013ExpressibleByaB0PTl
++ _$s2os0A4_log_3dso0B04type_ys12StaticStringV_SVSgSo03OS_a1_B0CSo0a1_b1_D2_tas7CVarArg_pdtF
++ _$s7Elements10SetAlgebraPTl
++ _$s7WiFiKit0aB5StateV10associatedACvgZ
++ _$s7WiFiKit0aB5StateV10associatedACvpZMV
++ _$s7WiFiKit0aB5StateV11unavailableACvgZ
++ _$s7WiFiKit0aB5StateV11unavailableACvpZMV
++ _$s7WiFiKit0aB5StateV15cellularOutrankACvgZ
++ _$s7WiFiKit0aB5StateV15cellularOutrankACvpZMV
++ _$s7WiFiKit0aB5StateV15internetSharingACvgZ
++ _$s7WiFiKit0aB5StateV15internetSharingACvpZMV
++ _$s7WiFiKit0aB5StateV16userDisconnectedACvgZ
++ _$s7WiFiKit0aB5StateV16userDisconnectedACvpZMV
++ _$s7WiFiKit0aB5StateV7powerOnACvgZ
++ _$s7WiFiKit0aB5StateV7powerOnACvpZMV
++ _$s7WiFiKit0aB5StateV8powerOffACvgZ
++ _$s7WiFiKit0aB5StateV8powerOffACvpZMV
++ _$s7WiFiKit0aB5StateV8rawValueACSi_tcfC
++ _$s7WiFiKit0aB5StateV8rawValueSivg
++ _$s7WiFiKit0aB5StateV8rawValueSivpMV
++ _$s7WiFiKit0aB5StateVACIegnn_SgWOe
++ _$s7WiFiKit0aB5StateVACIegnn_SgWOy
++ _$s7WiFiKit0aB5StateVACSQAAWL
++ _$s7WiFiKit0aB5StateVACSQAAWl
++ _$s7WiFiKit0aB5StateVACSYAAWL
++ _$s7WiFiKit0aB5StateVACSYAAWl
++ _$s7WiFiKit0aB5StateVACs10SetAlgebraAAWL
++ _$s7WiFiKit0aB5StateVACs10SetAlgebraAAWl
++ _$s7WiFiKit0aB5StateVACs25ExpressibleByArrayLiteralAAWL
++ _$s7WiFiKit0aB5StateVACs25ExpressibleByArrayLiteralAAWl
++ _$s7WiFiKit0aB5StateVMF
++ _$s7WiFiKit0aB5StateVMa
++ _$s7WiFiKit0aB5StateVMf
++ _$s7WiFiKit0aB5StateVMn
++ _$s7WiFiKit0aB5StateVN
++ _$s7WiFiKit0aB5StateVSQAAMc
++ _$s7WiFiKit0aB5StateVSQAAMcMK
++ _$s7WiFiKit0aB5StateVSQAASQ2eeoiySbx_xtFZTW
++ _$s7WiFiKit0aB5StateVSYAAMA
++ _$s7WiFiKit0aB5StateVSYAAMc
++ _$s7WiFiKit0aB5StateVSYAAMcMK
++ _$s7WiFiKit0aB5StateVSYAASY8rawValue03RawF0QzvgTW
++ _$s7WiFiKit0aB5StateVSYAASY8rawValuexSg03RawF0Qz_tcfCTW
++ _$s7WiFiKit0aB5StateVWV
++ _$s7WiFiKit0aB5StateVs10SetAlgebraAAMA
++ _$s7WiFiKit0aB5StateVs10SetAlgebraAAMc
++ _$s7WiFiKit0aB5StateVs10SetAlgebraAAMcMK
++ _$s7WiFiKit0aB5StateVs10SetAlgebraAASQWb
++ _$s7WiFiKit0aB5StateVs10SetAlgebraAAs25ExpressibleByArrayLiteralPWb
++ _$s7WiFiKit0aB5StateVs10SetAlgebraAAsADP10isDisjoint4withSbx_tFTW
++ _$s7WiFiKit0aB5StateVs10SetAlgebraAAsADP10isSuperset2ofSbx_tFTW
++ _$s7WiFiKit0aB5StateVs10SetAlgebraAAsADP11subtractingyxxFTW
++ _$s7WiFiKit0aB5StateVs10SetAlgebraAAsADP12intersectionyxxFTW
++ _$s7WiFiKit0aB5StateVs10SetAlgebraAAsADP16formIntersectionyyxFTW
++ _$s7WiFiKit0aB5StateVs10SetAlgebraAAsADP19symmetricDifferenceyxxnFTW
++ _$s7WiFiKit0aB5StateVs10SetAlgebraAAsADP23formSymmetricDifferenceyyxnFTW
++ _$s7WiFiKit0aB5StateVs10SetAlgebraAAsADP5unionyxxnFTW
++ _$s7WiFiKit0aB5StateVs10SetAlgebraAAsADP6insertySb8inserted_7ElementQz17memberAfterInserttAInFTW
++ _$s7WiFiKit0aB5StateVs10SetAlgebraAAsADP6removey7ElementQzSgAHFTW
++ _$s7WiFiKit0aB5StateVs10SetAlgebraAAsADP6update4with7ElementQzSgAIn_tFTW
++ _$s7WiFiKit0aB5StateVs10SetAlgebraAAsADP7isEmptySbvgTW
++ _$s7WiFiKit0aB5StateVs10SetAlgebraAAsADP8containsySb7ElementQzFTW
++ _$s7WiFiKit0aB5StateVs10SetAlgebraAAsADP8isSubset2ofSbx_tFTW
++ _$s7WiFiKit0aB5StateVs10SetAlgebraAAsADP8subtractyyxFTW
++ _$s7WiFiKit0aB5StateVs10SetAlgebraAAsADP9formUnionyyxnFTW
++ _$s7WiFiKit0aB5StateVs10SetAlgebraAAsADPxycfCTW
++ _$s7WiFiKit0aB5StateVs10SetAlgebraAAsADPyxqd__ncSTRd__7ElementQyd__AFRtzlufCTW
++ _$s7WiFiKit0aB5StateVs25ExpressibleByArrayLiteralAAMA
++ _$s7WiFiKit0aB5StateVs25ExpressibleByArrayLiteralAAMc
++ _$s7WiFiKit0aB5StateVs25ExpressibleByArrayLiteralAAMcMK
++ _$s7WiFiKit0aB5StateVs25ExpressibleByArrayLiteralAAsADP05arrayH0x0gH7ElementQzd_tcfCTW
++ _$s7WiFiKit0aB5StateVs9OptionSetAAMA
++ _$s7WiFiKit0aB5StateVs9OptionSetAAMc
++ _$s7WiFiKit0aB5StateVs9OptionSetAAMcMK
++ _$s7WiFiKit0aB5StateVs9OptionSetAASYWb
++ _$s7WiFiKit0aB5StateVs9OptionSetAAs0F7AlgebraPWb
++ _$s7WiFiKit0aB5StateVs9OptionSetAAsADP8rawValuex03RawH0Qz_tcfCTW
++ _$s7WiFiKit0aB5StateVwet
++ _$s7WiFiKit0aB5StateVwst
++ _$s7WiFiKit11LinkQualityC02todE0So06WFLinkE0CyF
++ _$s7WiFiKit11LinkQualityC02todE0So06WFLinkE0CyFTj
++ _$s7WiFiKit11LinkQualityC02todE0So06WFLinkE0CyFTo
++ _$s7WiFiKit11LinkQualityC02todE0So06WFLinkE0CyFTq
++ _$s7WiFiKit11LinkQualityC10scaledRssiSfvM
++ _$s7WiFiKit11LinkQualityC10scaledRssiSfvM.resume.0
++ _$s7WiFiKit11LinkQualityC10scaledRssiSfvMTj
++ _$s7WiFiKit11LinkQualityC10scaledRssiSfvMTq
++ _$s7WiFiKit11LinkQualityC10scaledRssiSfvg
++ _$s7WiFiKit11LinkQualityC10scaledRssiSfvgTj
++ _$s7WiFiKit11LinkQualityC10scaledRssiSfvgTq
++ _$s7WiFiKit11LinkQualityC10scaledRssiSfvpMV
++ _$s7WiFiKit11LinkQualityC10scaledRssiSfvpWvd
++ _$s7WiFiKit11LinkQualityC10scaledRssiSfvs
++ _$s7WiFiKit11LinkQualityC10scaledRssiSfvsTj
++ _$s7WiFiKit11LinkQualityC10scaledRssiSfvsTq
++ _$s7WiFiKit11LinkQualityC11descriptionSSvg
++ _$s7WiFiKit11LinkQualityC11descriptionSSvgTo
++ _$s7WiFiKit11LinkQualityC4fromACSo06WFLinkE0C_tcfC
++ _$s7WiFiKit11LinkQualityC4rssiSivg
++ _$s7WiFiKit11LinkQualityC4rssiSivpMV
++ _$s7WiFiKit11LinkQualityC4rssiSivpWvd
++ _$s7WiFiKit11LinkQualityC4ssid4rssi10scaledRssiACSS_SiSftcfC
++ _$s7WiFiKit11LinkQualityC4ssid4rssi10scaledRssiACSS_SiSftcfCTj
++ _$s7WiFiKit11LinkQualityC4ssid4rssi10scaledRssiACSS_SiSftcfCTq
++ _$s7WiFiKit11LinkQualityC4ssid4rssi10scaledRssiACSS_SiSftcfc
++ _$s7WiFiKit11LinkQualityC4ssid4rssi10scaledRssiACSS_SiSftcfcTo
++ _$s7WiFiKit11LinkQualityC4ssidSSvg
++ _$s7WiFiKit11LinkQualityC4ssidSSvpMV
++ _$s7WiFiKit11LinkQualityC4ssidSSvpWvd
++ _$s7WiFiKit11LinkQualityC7isEqualySbypSgF
++ _$s7WiFiKit11LinkQualityC7isEqualySbypSgFTo
++ _$s7WiFiKit11LinkQualityCACycfC
++ _$s7WiFiKit11LinkQualityCACycfc
++ _$s7WiFiKit11LinkQualityCACycfcTo
++ _$s7WiFiKit11LinkQualityCMF
++ _$s7WiFiKit11LinkQualityCMa
++ _$s7WiFiKit11LinkQualityCMf
++ _$s7WiFiKit11LinkQualityCMn
++ _$s7WiFiKit11LinkQualityCMo
++ _$s7WiFiKit11LinkQualityCMu
++ _$s7WiFiKit11LinkQualityCN
++ _$s7WiFiKit11LinkQualityCSgMR
++ _$s7WiFiKit11LinkQualityCSgMd
++ _$s7WiFiKit11LinkQualityCfD
++ _$s7WiFiKit11LinkQualityCfETo
++ _$s7WiFiKit12StateMonitorC015setUserAutoJoinD0_10completionySb_yyctF
++ _$s7WiFiKit12StateMonitorC015setUserAutoJoinD0_10completionySb_yyctFTj
++ _$s7WiFiKit12StateMonitorC015setUserAutoJoinD0_10completionySb_yyctFTo
++ _$s7WiFiKit12StateMonitorC015setUserAutoJoinD0_10completionySb_yyctFTq
++ _$s7WiFiKit12StateMonitorC015setUserAutoJoinD0_10completionySb_yyctFyyYbcfU_
++ _$s7WiFiKit12StateMonitorC015setUserAutoJoinD0_10completionySb_yyctFyyYbcfU_TA
++ _$s7WiFiKit12StateMonitorC015setUserAutoJoinD0_10completionySb_yyctFyyYbcfU_yyScMYccfU_TA
++ _$s7WiFiKit12StateMonitorC06updateD0030_B542A56A8B03689553E6E32AAC8B3L0LL03newD0ySo05CWFWiB12UIStateFlagsVSg_tF
++ _$s7WiFiKit12StateMonitorC06updateD0030_B542A56A8B03689553E6E32AAC8B3L0LL03newD0ySo05CWFWiB12UIStateFlagsVSg_tFyyYbcfU_Tf2nin_n
++ _$s7WiFiKit12StateMonitorC06updateD0030_B542A56A8B03689553E6E32AAC8B3L0LL03newD0ySo05CWFWiB12UIStateFlagsVSg_tFyyYbcfU_Tf2nin_nTA
++ _$s7WiFiKit12StateMonitorC06updateD0030_B542A56A8B03689553E6E32AAC8B3L0LL03newD0ySo05CWFWiB12UIStateFlagsVSg_tFyyYbcfU_yyScMYccfU_Tf2nni_n
++ _$s7WiFiKit12StateMonitorC06updateD0030_B542A56A8B03689553E6E32AAC8B3L0LL03newD0ySo05CWFWiB12UIStateFlagsVSg_tFyyYbcfU_yyScMYccfU_Tf2nni_nTA
++ _$s7WiFiKit12StateMonitorC10stateQueue030_B542A56A8B03689553E6E32AAC8B3M0LLSo17OS_dispatch_queueCvpWvd
++ _$s7WiFiKit12StateMonitorC11linkQualityAA04LinkG0CSgvg
++ _$s7WiFiKit12StateMonitorC11linkQualityAA04LinkG0CSgvgAGyXEfU_TA
++ _$s7WiFiKit12StateMonitorC11linkQualityAA04LinkG0CSgvgAGyXEfU_TA.80
++ _$s7WiFiKit12StateMonitorC11linkQualityAA04LinkG0CSgvgTj
++ _$s7WiFiKit12StateMonitorC11linkQualityAA04LinkG0CSgvgTo
++ _$s7WiFiKit12StateMonitorC11linkQualityAA04LinkG0CSgvgTq
++ _$s7WiFiKit12StateMonitorC11linkQualityAA04LinkG0CSgvpMV
++ _$s7WiFiKit12StateMonitorC12_linkQuality030_B542A56A8B03689553E6E32AAC8B3M0LLAA04LinkG0CSgvpWvd
++ _$s7WiFiKit12StateMonitorC12disassociateyyyycF
++ _$s7WiFiKit12StateMonitorC12disassociateyyyycFTj
++ _$s7WiFiKit12StateMonitorC12disassociateyyyycFTo
++ _$s7WiFiKit12StateMonitorC12disassociateyyyycFTq
++ _$s7WiFiKit12StateMonitorC12disassociateyyyycFyyYbcfU_
++ _$s7WiFiKit12StateMonitorC12disassociateyyyycFyyYbcfU_TA
++ _$s7WiFiKit12StateMonitorC12disassociateyyyycFyyYbcfU_yyScMYccfU_TA
++ _$s7WiFiKit12StateMonitorC13stateRawValueSivg
++ _$s7WiFiKit12StateMonitorC13stateRawValueSivgSiyXEfU_TA
++ _$s7WiFiKit12StateMonitorC13stateRawValueSivgSiyXEfU_TA.81
++ _$s7WiFiKit12StateMonitorC13stateRawValueSivgTj
++ _$s7WiFiKit12StateMonitorC13stateRawValueSivgTo
++ _$s7WiFiKit12StateMonitorC13stateRawValueSivgTq
++ _$s7WiFiKit12StateMonitorC13stateRawValueSivpMV
++ _$s7WiFiKit12StateMonitorC14setPowerToggle_10completionySb_ySbctF
++ _$s7WiFiKit12StateMonitorC14setPowerToggle_10completionySb_ySbctFTj
++ _$s7WiFiKit12StateMonitorC14setPowerToggle_10completionySb_ySbctFTo
++ _$s7WiFiKit12StateMonitorC14setPowerToggle_10completionySb_ySbctFToTm
++ _$s7WiFiKit12StateMonitorC14setPowerToggle_10completionySb_ySbctFTq
++ _$s7WiFiKit12StateMonitorC14setPowerToggle_10completionySb_ySbctFyyYbcfU_
++ _$s7WiFiKit12StateMonitorC14setPowerToggle_10completionySb_ySbctFyyYbcfU_TA
++ _$s7WiFiKit12StateMonitorC14setPowerToggle_10completionySb_ySbctFyyYbcfU_yyScMYccfU_TA
++ _$s7WiFiKit12StateMonitorC15cellularOutrank030_B542A56A8B03689553E6E32AAC8B3M0LLAA08CellularG0CvpWvd
++ _$s7WiFiKit12StateMonitorC15startMonitoring030_B542A56A8B03689553E6E32AAC8B3M0LLyyF
++ _$s7WiFiKit12StateMonitorC15startMonitoring030_B542A56A8B03689553E6E32AAC8B3M0LLyyFySo8CWFEventCcfU0_
++ _$s7WiFiKit12StateMonitorC15startMonitoring030_B542A56A8B03689553E6E32AAC8B3M0LLyyFySo8CWFEventCcfU0_TA
++ _$s7WiFiKit12StateMonitorC15startMonitoring030_B542A56A8B03689553E6E32AAC8B3M0LLyyFyycfU_
++ _$s7WiFiKit12StateMonitorC15startMonitoring030_B542A56A8B03689553E6E32AAC8B3M0LLyyFyycfU_TA
++ _$s7WiFiKit12StateMonitorC16stateDescriptionSSyF
++ _$s7WiFiKit12StateMonitorC16stateDescriptionSSyFTj
++ _$s7WiFiKit12StateMonitorC16stateDescriptionSSyFTo
++ _$s7WiFiKit12StateMonitorC16stateDescriptionSSyFTq
++ _$s7WiFiKit12StateMonitorC22disableCellularOutrankyyyycF
++ _$s7WiFiKit12StateMonitorC22disableCellularOutrankyyyycFTj
++ _$s7WiFiKit12StateMonitorC22disableCellularOutrankyyyycFTo
++ _$s7WiFiKit12StateMonitorC22disableCellularOutrankyyyycFTq
++ _$s7WiFiKit12StateMonitorC22disableCellularOutrankyyyycFyyYbcfU_
++ _$s7WiFiKit12StateMonitorC22disableCellularOutrankyyyycFyyYbcfU_TA
++ _$s7WiFiKit12StateMonitorC22disableCellularOutrankyyyycFyyYbcfU_ys5Error_pSgYbcfU0_
++ _$s7WiFiKit12StateMonitorC22disableCellularOutrankyyyycFyyYbcfU_ys5Error_pSgYbcfU0_TA
++ _$s7WiFiKit12StateMonitorC22disableCellularOutrankyyyycFyyYbcfU_ys5Error_pSgYbcfU0_yyScMYccfU_TA
++ _$s7WiFiKit12StateMonitorC22disableCellularOutrankyyyycFyyYbcfU_yyScMYccfU_TA
++ _$s7WiFiKit12StateMonitorC25updateLinkQualityIfNeeded030_B542A56A8B03689553E6E32AAC8B3P0LLyyF
++ _$s7WiFiKit12StateMonitorC25updateLinkQualityIfNeeded030_B542A56A8B03689553E6E32AAC8B3P0LLyySo07CWFLinkH6MetricCFTf4dn_n
++ _$s7WiFiKit12StateMonitorC27disableMISStateAndDiscoveryyyyycF
++ _$s7WiFiKit12StateMonitorC27disableMISStateAndDiscoveryyyyycFTj
++ _$s7WiFiKit12StateMonitorC27disableMISStateAndDiscoveryyyyycFTo
++ _$s7WiFiKit12StateMonitorC27disableMISStateAndDiscoveryyyyycFToTm
++ _$s7WiFiKit12StateMonitorC27disableMISStateAndDiscoveryyyyycFTq
++ _$s7WiFiKit12StateMonitorC27disableMISStateAndDiscoveryyyyycFyyYbcfU_
++ _$s7WiFiKit12StateMonitorC27disableMISStateAndDiscoveryyyyycFyyYbcfU_TA
++ _$s7WiFiKit12StateMonitorC27disableMISStateAndDiscoveryyyyycFyyYbcfU_yyScMYccfU0_TA
++ _$s7WiFiKit12StateMonitorC27disableMISStateAndDiscoveryyyyycFyyYbcfU_yyScMYccfU_TA
++ _$s7WiFiKit12StateMonitorC27isPowerModificationDisabledSbyF
++ _$s7WiFiKit12StateMonitorC27isPowerModificationDisabledSbyFTj
++ _$s7WiFiKit12StateMonitorC27isPowerModificationDisabledSbyFTo
++ _$s7WiFiKit12StateMonitorC27isPowerModificationDisabledSbyFTq
++ _$s7WiFiKit12StateMonitorC5stateAA0abD0Vvg
++ _$s7WiFiKit12StateMonitorC5stateAA0abD0VvgAFyXEfU_TA
++ _$s7WiFiKit12StateMonitorC5stateAA0abD0VvgTj
++ _$s7WiFiKit12StateMonitorC5stateAA0abD0VvgTq
++ _$s7WiFiKit12StateMonitorC5stateAA0abD0VvpMV
++ _$s7WiFiKit12StateMonitorC6_state030_B542A56A8B03689553E6E32AAC8B3L0LLAA0abD0VvpWvd
++ _$s7WiFiKit12StateMonitorC6logger030_B542A56A8B03689553E6E32AAC8B3L0LLSo9OS_os_logCvpWvd
++ _$s7WiFiKit12StateMonitorC7handler030_B542A56A8B03689553E6E32AAC8B3L0LLyAA0abD0V_AGtcSgvpWvd
++ _$s7WiFiKit12StateMonitorC7handlerACyAA0abD0V_AFtcSg_tcfC
++ _$s7WiFiKit12StateMonitorC7handlerACyAA0abD0V_AFtcSg_tcfCTj
++ _$s7WiFiKit12StateMonitorC7handlerACyAA0abD0V_AFtcSg_tcfCTq
++ _$s7WiFiKit12StateMonitorC7handlerACyAA0abD0V_AFtcSg_tcfc
++ _$s7WiFiKit12StateMonitorC7handlerACySi_Sitc_tcfC
++ _$s7WiFiKit12StateMonitorC7handlerACySi_Sitc_tcfCTj
++ _$s7WiFiKit12StateMonitorC7handlerACySi_Sitc_tcfCTq
++ _$s7WiFiKit12StateMonitorC7handlerACySi_Sitc_tcfc
++ _$s7WiFiKit12StateMonitorC7handlerACySi_Sitc_tcfcTo
++ _$s7WiFiKit12StateMonitorC7handlerACySi_Sitc_tcfcyAA0abD0V_AFtcfU_TA
++ _$s7WiFiKit12StateMonitorC9interface030_B542A56A8B03689553E6E32AAC8B3L0LLSo12CWFInterfaceCvpWvd
++ _$s7WiFiKit12StateMonitorCACycfC
++ _$s7WiFiKit12StateMonitorCACycfc
++ _$s7WiFiKit12StateMonitorCACycfcTo
++ _$s7WiFiKit12StateMonitorCMF
++ _$s7WiFiKit12StateMonitorCMa
++ _$s7WiFiKit12StateMonitorCMf
++ _$s7WiFiKit12StateMonitorCMn
++ _$s7WiFiKit12StateMonitorCMo
++ _$s7WiFiKit12StateMonitorCMu
++ _$s7WiFiKit12StateMonitorCN
++ _$s7WiFiKit12StateMonitorCfD
++ _$s7WiFiKit12StateMonitorCfDTo
++ _$s7WiFiKit12StateMonitorCfETo
++ _$s7WiFiKit15CellularOutrankC06updatedE5State33_EA870EDA62F4FFE3D14B18EBB3A95BA3LLyyF
++ _$s7WiFiKit15CellularOutrankC06updatedE5State33_EA870EDA62F4FFE3D14B18EBB3A95BA3LLyyFyyYbcfU_
++ _$s7WiFiKit15CellularOutrankC06updatedE5State33_EA870EDA62F4FFE3D14B18EBB3A95BA3LLyyFyyYbcfU_TA
++ _$s7WiFiKit15CellularOutrankC08cellulareaB13SymptomsState33_EA870EDA62F4FFE3D14B18EBB3A95BA3LLs6UInt64VvpWvd
++ _$s7WiFiKit15CellularOutrankC08cellulareaB17NotificationToken33_EA870EDA62F4FFE3D14B18EBB3A95BA3LLs5Int32VvpWvd
++ _$s7WiFiKit15CellularOutrankC10stateQueue33_EA870EDA62F4FFE3D14B18EBB3A95BA3LLSo17OS_dispatch_queueCvpWvd
++ _$s7WiFiKit15CellularOutrankC24registerForNotifications33_EA870EDA62F4FFE3D14B18EBB3A95BA3LLyyF
++ _$s7WiFiKit15CellularOutrankC24registerForNotifications33_EA870EDA62F4FFE3D14B18EBB3A95BA3LLyyFys5Int32VcfU_
++ _$s7WiFiKit15CellularOutrankC24registerForNotifications33_EA870EDA62F4FFE3D14B18EBB3A95BA3LLyyFys5Int32VcfU_TA
++ _$s7WiFiKit15CellularOutrankC5stateAA0dE5StateOvg
++ _$s7WiFiKit15CellularOutrankC5stateAA0dE5StateOvgAFyXEfU_TA
++ _$s7WiFiKit15CellularOutrankC5stateAA0dE5StateOvgTj
++ _$s7WiFiKit15CellularOutrankC5stateAA0dE5StateOvgTq
++ _$s7WiFiKit15CellularOutrankC5stateAA0dE5StateOvpMV
++ _$s7WiFiKit15CellularOutrankC6_state33_EA870EDA62F4FFE3D14B18EBB3A95BA3LLAA0dE5StateOvpWvd
++ _$s7WiFiKit15CellularOutrankC6logger33_EA870EDA62F4FFE3D14B18EBB3A95BA3LLSo9OS_os_logCvpWvd
++ _$s7WiFiKit15CellularOutrankCACycfC
++ _$s7WiFiKit15CellularOutrankCACycfc
++ _$s7WiFiKit15CellularOutrankCACycfcTo
++ _$s7WiFiKit15CellularOutrankCMF
++ _$s7WiFiKit15CellularOutrankCMa
++ _$s7WiFiKit15CellularOutrankCMf
++ _$s7WiFiKit15CellularOutrankCMn
++ _$s7WiFiKit15CellularOutrankCMo
++ _$s7WiFiKit15CellularOutrankCMu
++ _$s7WiFiKit15CellularOutrankCN
++ _$s7WiFiKit15CellularOutrankCfD
++ _$s7WiFiKit15CellularOutrankCfDTo
++ _$s7WiFiKit15CellularOutrankCfETo
++ _$s7WiFiKit20CellularOutrankStateO14privateNetworkyA2CmFWC
++ _$s7WiFiKit20CellularOutrankStateO2eeoiySbAC_ACtFZ
++ _$s7WiFiKit20CellularOutrankStateO4hash4intoys6HasherVz_tF
++ _$s7WiFiKit20CellularOutrankStateO4noneyA2CmFWC
++ _$s7WiFiKit20CellularOutrankStateO7enabledyA2CmFWC
++ _$s7WiFiKit20CellularOutrankStateO9hashValueSivg
++ _$s7WiFiKit20CellularOutrankStateO9hashValueSivpMV
++ _$s7WiFiKit20CellularOutrankStateOACSQAAWL
++ _$s7WiFiKit20CellularOutrankStateOACSQAAWl
++ _$s7WiFiKit20CellularOutrankStateOMF
++ _$s7WiFiKit20CellularOutrankStateOMa
++ _$s7WiFiKit20CellularOutrankStateOMf
++ _$s7WiFiKit20CellularOutrankStateOMn
++ _$s7WiFiKit20CellularOutrankStateON
++ _$s7WiFiKit20CellularOutrankStateOSHAAMc
++ _$s7WiFiKit20CellularOutrankStateOSHAAMcMK
++ _$s7WiFiKit20CellularOutrankStateOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s7WiFiKit20CellularOutrankStateOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s7WiFiKit20CellularOutrankStateOSHAASH9hashValueSivgTW
++ _$s7WiFiKit20CellularOutrankStateOSHAASQWb
++ _$s7WiFiKit20CellularOutrankStateOSQAAMc
++ _$s7WiFiKit20CellularOutrankStateOSQAAMcMK
++ _$s7WiFiKit20CellularOutrankStateOSQAASQ2eeoiySbx_xtFZTW
++ _$s7WiFiKit20CellularOutrankStateOWV
++ _$s7WiFiKit20CellularOutrankStateOwet
++ _$s7WiFiKit20CellularOutrankStateOwst
++ _$s7WiFiKit20CellularOutrankStateOwug
++ _$s7WiFiKit20CellularOutrankStateOwui
++ _$s7WiFiKit20CellularOutrankStateOwup
++ _$s7WiFiKit21StateMonitorInterface_pMF
++ _$s7WiFiKitMXM
++ _$s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWL
++ _$s8Dispatch0A13WorkItemFlagsVMa
++ _$s8Dispatch0A13WorkItemFlagsVMn
++ _$s8Dispatch0A13WorkItemFlagsVs10SetAlgebraAAMc
++ _$s8Dispatch0A3QoSV0B6SClassO7defaultyA2EmFWC
++ _$s8Dispatch0A3QoSV0B6SClassOMa
++ _$s8Dispatch0A3QoSV11unspecifiedACvgZ
++ _$s8Dispatch0A3QoSV15userInteractiveACvgZ
++ _$s8Dispatch0A3QoSV7defaultACvgZ
++ _$s8Dispatch0A3QoSVMa
++ _$s8RawValueSYTl
++ _$sBOWV
++ _$sBi64_WV
++ _$sIeg_IeyB_TR
++ _$sIeg_IeyB_TRTm
++ _$sIegh_IeyBh_TR
++ _$sIeyB_Ieg_TRTA
++ _$sIeyB_Ieg_TRTA.65
++ _$sIeyB_Ieg_TRTA.69
++ _$sIeyB_Ieg_TRTA.73
++ _$sS2Ss7CVarArg10FoundationWL
++ _$sS2Ss7CVarArg10FoundationWl
++ _$sS2iIeyByy_S2iIegyy_TRTA
++ _$sSD10FoundationE36_unconditionallyBridgeFromObjectiveCySDyxq_GSo12NSDictionaryCSgFZ
++ _$sSH13_rawHashValue4seedS2i_tFTq
++ _$sSH4hash4intoys6HasherVz_tFTq
++ _$sSH9hashValueSivgTq
++ _$sSHMp
++ _$sSHSQTb
++ _$sSKsSS7ElementRtzrlE6joined9separatorS2S_tF
++ _$sSQ2eeoiySbx_xtFZTq
++ _$sSQMp
++ _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF
++ _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ
++ _$sSS10FoundationE6format_S2Sh_s7CVarArg_pdtcfC
++ _$sSS10describingSSx_tclufC
++ _$sSS11utf8CStrings15ContiguousArrayVys4Int8VGvg
++ _$sSS4hash4intoys6HasherVz_tF
++ _$sSS6appendyySSF
++ _$sSSN
++ _$sSSSHsWP
++ _$sSSs7CVarArg10FoundationMc
++ _$sSY8rawValue03RawB0QzvgTq
++ _$sSY8rawValuexSg03RawB0Qz_tcfCTq
++ _$sSYMp
++ _$sSay8Dispatch0A13WorkItemFlagsVGMR
++ _$sSay8Dispatch0A13WorkItemFlagsVGMd
++ _$sSay8Dispatch0A13WorkItemFlagsVGSayxGSTsWL
++ _$sSaySSGMR
++ _$sSaySSGMd
++ _$sSaySSGSayxGSKsWL
++ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMR
++ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMd
++ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGSayxGSTsWL
++ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGSayxGSTsWlTm
++ _$sSayxGSKsMc
++ _$sSayxGSTsMc
++ _$sSf5write2toyxz_ts16TextOutputStreamRzlF
++ _$sSfN
++ _$sSfs7CVarArgsWP
++ _$sSi7WiFiKitE10scaledRSSISfyF
++ _$sSiN
++ _$sSis23CustomStringConvertiblesWP
++ _$sSo13os_log_type_ta0A0E4infoABvgZ
++ _$sSo13os_log_type_ta0A0E5debugABvgZ
++ _$sSo13os_log_type_ta0A0E5errorABvgZ
++ _$sSo17CWFNetworkProfileC7WiFiKitE19displayFriendlyNameSSSgvg
++ _$sSo17CWFNetworkProfileC7WiFiKitE19displayFriendlyNameSSSgvpMV
++ _$sSo17OS_dispatch_queueC8DispatchE10AttributesVAEs10SetAlgebraACWL
++ _$sSo17OS_dispatch_queueC8DispatchE10AttributesVAEs10SetAlgebraACWlTm
++ _$sSo17OS_dispatch_queueC8DispatchE10AttributesVMa
++ _$sSo17OS_dispatch_queueC8DispatchE10AttributesVMn
++ _$sSo17OS_dispatch_queueC8DispatchE10AttributesVs10SetAlgebraACMc
++ _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyO7inherityA2EmFWC
++ _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyOMa
++ _$sSo17OS_dispatch_queueC8DispatchE4mainABvgZ
++ _$sSo17OS_dispatch_queueC8DispatchE4sync7executexxyKXE_tKlF
++ _$sSo17OS_dispatch_queueC8DispatchE5async5group3qos5flags7executeySo0a1_b1_F0CSg_AC0D3QoSVAC0D13WorkItemFlagsVyyXBtF
++ _$sSo17OS_dispatch_queueC8DispatchE5label3qos10attributes20autoreleaseFrequency6targetABSS_AC0D3QoSVAbCE10AttributesVAbCE011AutoreleaseI0OABSgtcfC
++ _$sSo17OS_dispatch_queueC8DispatchE6global3qosAbC0D3QoSV0G6SClassO_tFZ
++ _$sSo17OS_dispatch_queueCML
++ _$sSo17OS_dispatch_queueCMaTm
++ _$sSo19CWFWiFiUIStateFlagsVABSQSCWL
++ _$sSo19CWFWiFiUIStateFlagsVABSYSCWL
++ _$sSo19CWFWiFiUIStateFlagsVABs10SetAlgebraSCWL
++ _$sSo19CWFWiFiUIStateFlagsVABs25ExpressibleByArrayLiteralSCWL
++ _$sSo19CWFWiFiUIStateFlagsVMB
++ _$sSo19CWFWiFiUIStateFlagsVMF
++ _$sSo19CWFWiFiUIStateFlagsVML
++ _$sSo19CWFWiFiUIStateFlagsVMa
++ _$sSo19CWFWiFiUIStateFlagsVMf
++ _$sSo19CWFWiFiUIStateFlagsVMn
++ _$sSo19CWFWiFiUIStateFlagsVSQSCMc
++ _$sSo19CWFWiFiUIStateFlagsVSQSCMcMK
++ _$sSo19CWFWiFiUIStateFlagsVSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo19CWFWiFiUIStateFlagsVSYSCMA
++ _$sSo19CWFWiFiUIStateFlagsVSYSCMc
++ _$sSo19CWFWiFiUIStateFlagsVSYSCMcMK
++ _$sSo19CWFWiFiUIStateFlagsVSYSCSY8rawValue03RawF0QzvgTW
++ _$sSo19CWFWiFiUIStateFlagsVSYSCSY8rawValuexSg03RawF0Qz_tcfCTW
++ _$sSo19CWFWiFiUIStateFlagsVs10SetAlgebraSCMA
++ _$sSo19CWFWiFiUIStateFlagsVs10SetAlgebraSCMc
++ _$sSo19CWFWiFiUIStateFlagsVs10SetAlgebraSCMcMK
++ _$sSo19CWFWiFiUIStateFlagsVs10SetAlgebraSCSQWb
++ _$sSo19CWFWiFiUIStateFlagsVs10SetAlgebraSCs25ExpressibleByArrayLiteralPWb
++ _$sSo19CWFWiFiUIStateFlagsVs10SetAlgebraSCsACP10isDisjoint4withSbx_tFTW
++ _$sSo19CWFWiFiUIStateFlagsVs10SetAlgebraSCsACP10isSuperset2ofSbx_tFTW
++ _$sSo19CWFWiFiUIStateFlagsVs10SetAlgebraSCsACP11subtractingyxxFTW
++ _$sSo19CWFWiFiUIStateFlagsVs10SetAlgebraSCsACP12intersectionyxxFTW
++ _$sSo19CWFWiFiUIStateFlagsVs10SetAlgebraSCsACP16formIntersectionyyxFTW
++ _$sSo19CWFWiFiUIStateFlagsVs10SetAlgebraSCsACP19symmetricDifferenceyxxnFTW
++ _$sSo19CWFWiFiUIStateFlagsVs10SetAlgebraSCsACP23formSymmetricDifferenceyyxnFTW
++ _$sSo19CWFWiFiUIStateFlagsVs10SetAlgebraSCsACP5unionyxxnFTW
++ _$sSo19CWFWiFiUIStateFlagsVs10SetAlgebraSCsACP6insertySb8inserted_7ElementQz17memberAfterInserttAHnFTW
++ _$sSo19CWFWiFiUIStateFlagsVs10SetAlgebraSCsACP6removey7ElementQzSgAGFTW
++ _$sSo19CWFWiFiUIStateFlagsVs10SetAlgebraSCsACP6update4with7ElementQzSgAHn_tFTW
++ _$sSo19CWFWiFiUIStateFlagsVs10SetAlgebraSCsACP7isEmptySbvgTW
++ _$sSo19CWFWiFiUIStateFlagsVs10SetAlgebraSCsACP8containsySb7ElementQzFTW
++ _$sSo19CWFWiFiUIStateFlagsVs10SetAlgebraSCsACP8isSubset2ofSbx_tFTW
++ _$sSo19CWFWiFiUIStateFlagsVs10SetAlgebraSCsACP8subtractyyxFTW
++ _$sSo19CWFWiFiUIStateFlagsVs10SetAlgebraSCsACP9formUnionyyxnFTW
++ _$sSo19CWFWiFiUIStateFlagsVs10SetAlgebraSCsACPxycfCTW
++ _$sSo19CWFWiFiUIStateFlagsVs10SetAlgebraSCsACPyxqd__ncSTRd__7ElementQyd__AERtzlufCTW
++ _$sSo19CWFWiFiUIStateFlagsVs25ExpressibleByArrayLiteralSCMA
++ _$sSo19CWFWiFiUIStateFlagsVs25ExpressibleByArrayLiteralSCMc
++ _$sSo19CWFWiFiUIStateFlagsVs25ExpressibleByArrayLiteralSCMcMK
++ _$sSo19CWFWiFiUIStateFlagsVs25ExpressibleByArrayLiteralSCsACP05arrayH0x0gH7ElementQzd_tcfCTW
++ _$sSo19CWFWiFiUIStateFlagsVs9OptionSetSCMA
++ _$sSo19CWFWiFiUIStateFlagsVs9OptionSetSCMc
++ _$sSo19CWFWiFiUIStateFlagsVs9OptionSetSCMcMK
++ _$sSo19CWFWiFiUIStateFlagsVs9OptionSetSCSYWb
++ _$sSo19CWFWiFiUIStateFlagsVs9OptionSetSCs0F7AlgebraPWb
++ _$sSo19CWFWiFiUIStateFlagsVs9OptionSetSCsACP8rawValuex03RawH0Qz_tcfCTW
++ _$sSo20CWFLinkQualityMetricCML
++ _$sSo8CWFEventCIegg_ABIeyBy_TR
++ _$sSo8CWFEventCML
++ _$sSo8CWFEventCSo8NSObjectCs7CVarArg10ObjectiveCWL
++ _$sSo8CWFEventCSo8NSObjectCs7CVarArg10ObjectiveCWl
++ _$sSo8NSObjectCs7CVarArg10ObjectiveCMc
++ _$sSo9OS_os_logC0B0E8disabledABvgZ
++ _$sSo9OS_os_logC0B0E9subsystem8categoryABSS_SStcfC
++ _$sSo9OS_os_logCML
++ _$sSo9OS_os_logCMaTm
++ _$sSoMXM
++ _$ss018_bridgeAnyObjectToB0yypyXlSgF
++ _$ss10SetAlgebraMp
++ _$ss10SetAlgebraP10isDisjoint4withSbx_tFTq
++ _$ss10SetAlgebraP10isSuperset2ofSbx_tFTq
++ _$ss10SetAlgebraP11subtractingyxxFTq
++ _$ss10SetAlgebraP12intersectionyxxFTq
++ _$ss10SetAlgebraP16formIntersectionyyxFTq
++ _$ss10SetAlgebraP19symmetricDifferenceyxxnFTq
++ _$ss10SetAlgebraP23formSymmetricDifferenceyyxnFTq
++ _$ss10SetAlgebraP5unionyxxnFTq
++ _$ss10SetAlgebraP6insertySb8inserted_7ElementQz17memberAfterInserttAFnFTq
++ _$ss10SetAlgebraP6removey7ElementQzSgAEFTq
++ _$ss10SetAlgebraP6update4with7ElementQzSgAFn_tFTq
++ _$ss10SetAlgebraP7isEmptySbvgTq
++ _$ss10SetAlgebraP8containsySb7ElementQzFTq
++ _$ss10SetAlgebraP8isSubset2ofSbx_tFTq
++ _$ss10SetAlgebraP8subtractyyxFTq
++ _$ss10SetAlgebraP9formUnionyyxnFTq
++ _$ss10SetAlgebraPSQTb
++ _$ss10SetAlgebraPs25ExpressibleByArrayLiteralTb
++ _$ss10SetAlgebraPs7ElementQz012ArrayLiteralC0RtzrlE05arrayE0xAFd_tcfC7WiFiKit0gH5StateV_Tg5
++ _$ss10SetAlgebraPsEyxqd__ncSTRd__7ElementQyd__ACRtzlufC
++ _$ss10SetAlgebraPxycfCTq
++ _$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTj
++ _$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTq
++ _$ss11AnyHashableV13_rawHashValue4seedS2i_tF
++ _$ss11AnyHashableV2eeoiySbAB_ABtFZ
++ _$ss11AnyHashableVN
++ _$ss11AnyHashableVSHsWP
++ _$ss11AnyHashableVWOc
++ _$ss11AnyHashableVWOh
++ _$ss11AnyHashableVyABxcSHRzlufC
++ _$ss11_StringGutsV4growyySiF
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5
++ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5
++ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFs11AnyHashableV_Tg5
++ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5
++ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFs11AnyHashableV_Tg5
++ _$ss23CustomStringConvertibleP11descriptionSSvgTj
++ _$ss23_ContiguousArrayStorageCMn
++ _$ss23_ContiguousArrayStorageCySSGMR
++ _$ss23_ContiguousArrayStorageCySSGMd
++ _$ss23_ContiguousArrayStorageCys7CVarArg_pGMR
++ _$ss23_ContiguousArrayStorageCys7CVarArg_pGMd
++ _$ss23_ContiguousArrayStorageCyypGMR
++ _$ss23_ContiguousArrayStorageCyypGMd
++ _$ss25ExpressibleByArrayLiteralMp
++ _$ss25ExpressibleByArrayLiteralP05arrayD0x0cD7ElementQzd_tcfCTq
++ _$ss26DefaultStringInterpolationVN
++ _$ss26DefaultStringInterpolationVs16TextOutputStreamsWP
++ _$ss27_stringCompareWithSmolCheck__9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
++ _$ss5ErrorP10FoundationE20localizedDescriptionSSvg
++ _$ss5Error_pSgIeghg_So7NSErrorCSgIeyBhy_TR
++ _$ss5Int32VIegy_ABIeyBy_TR
++ _$ss5Int32VMn
++ _$ss5Int32VN
++ _$ss5Int32Vs7CVarArgsWP
++ _$ss5print_9separator10terminatoryypd_S2StF
++ _$ss6HasherV5_seedABSi_tcfC
++ _$ss6HasherV8_combineyySuF
++ _$ss6HasherV9_finalizeSiyF
++ _$ss6UInt64VMn
++ _$ss6UInt64VN
++ _$ss6UInt64Vs7CVarArgsWP
++ _$ss7CVarArgMp
++ _$ss9OptionSetMp
++ _$ss9OptionSetP8rawValuex03RawD0Qz_tcfCTq
++ _$ss9OptionSetPSYTb
++ _$ss9OptionSetPs0B7AlgebraTb
++ _$sypN
++ _$sypSgMR
++ _$sypSgMd
++ _$sypSgWOc
++ _$sypSgWOh
++ _$sypWOc
++ _OBJC_CLASS_$_CWFEvent
++ _OBJC_CLASS_$_CWFLinkQualityMetric
++ _OBJC_CLASS_$_OS_dispatch_queue
++ _OBJC_CLASS_$_OS_os_log
++ _OBJC_CLASS_$__TtC7WiFiKit11LinkQuality
++ _OBJC_CLASS_$__TtC7WiFiKit12StateMonitor
++ _OBJC_CLASS_$__TtC7WiFiKit15CellularOutrank
++ _OBJC_IVAR_$_WFWiFiStateMonitor._stateMonitor
++ _OBJC_IVAR_$_WFWiFiStateMonitor._useStateMonitor
++ _OBJC_METACLASS_$__TtC7WiFiKit11LinkQuality
++ _OBJC_METACLASS_$__TtC7WiFiKit12StateMonitor
++ _OBJC_METACLASS_$__TtC7WiFiKit15CellularOutrank
++ _OUTLINED_FUNCTION_12
++ _OUTLINED_FUNCTION_13
++ _OUTLINED_FUNCTION_14
++ _OUTLINED_FUNCTION_15
++ _OUTLINED_FUNCTION_16
++ _OUTLINED_FUNCTION_17
++ _OUTLINED_FUNCTION_18
++ _OUTLINED_FUNCTION_19
++ _OUTLINED_FUNCTION_20
++ _OUTLINED_FUNCTION_21
++ _OUTLINED_FUNCTION_22
++ _WFWiFiStateFromWiFiStateRawValue
++ __DATA__TtC7WiFiKit11LinkQuality
++ __DATA__TtC7WiFiKit12StateMonitor
++ __DATA__TtC7WiFiKit15CellularOutrank
++ __INSTANCE_METHODS__TtC7WiFiKit11LinkQuality
++ __INSTANCE_METHODS__TtC7WiFiKit12StateMonitor
++ __INSTANCE_METHODS__TtC7WiFiKit15CellularOutrank
++ __IVARS__TtC7WiFiKit11LinkQuality
++ __IVARS__TtC7WiFiKit12StateMonitor
++ __IVARS__TtC7WiFiKit15CellularOutrank
++ __METACLASS_DATA__TtC7WiFiKit11LinkQuality
++ __METACLASS_DATA__TtC7WiFiKit12StateMonitor
++ __METACLASS_DATA__TtC7WiFiKit15CellularOutrank
++ __PROPERTIES__TtC7WiFiKit11LinkQuality
++ __PROPERTIES__TtC7WiFiKit12StateMonitor
++ __PROTOCOLS__TtC7WiFiKit12StateMonitor
++ __PROTOCOLS__TtC7WiFiKit12StateMonitor.33
++ __PROTOCOL_INSTANCE_METHODS__TtP7WiFiKit21StateMonitorInterface_
++ __PROTOCOL_METHOD_TYPES__TtP7WiFiKit21StateMonitorInterface_
++ __PROTOCOL__TtP7WiFiKit21StateMonitorInterface_
++ ___112-[WFNetworkListController networkListViewController:showSettingsForNetwork:context:scrollToCellType:controller:]_block_invoke.419
++ ___112-[WFNetworkListController networkListViewController:showSettingsForNetwork:context:scrollToCellType:controller:]_block_invoke.421
++ ___112-[WFNetworkListController networkListViewController:showSettingsForNetwork:context:scrollToCellType:controller:]_block_invoke.472
++ ___112-[WFNetworkListController networkListViewController:showSettingsForNetwork:context:scrollToCellType:controller:]_block_invoke.473
++ ___112-[WFNetworkListController networkListViewController:showSettingsForNetwork:context:scrollToCellType:controller:]_block_invoke.474
++ ___112-[WFNetworkListController networkListViewController:showSettingsForNetwork:context:scrollToCellType:controller:]_block_invoke.475
++ ___112-[WFNetworkListController networkListViewController:showSettingsForNetwork:context:scrollToCellType:controller:]_block_invoke.476
++ ___112-[WFNetworkListController networkListViewController:showSettingsForNetwork:context:scrollToCellType:controller:]_block_invoke.478
++ ___112-[WFNetworkListController networkListViewController:showSettingsForNetwork:context:scrollToCellType:controller:]_block_invoke.480
++ ___112-[WFNetworkListController networkListViewController:showSettingsForNetwork:context:scrollToCellType:controller:]_block_invoke.482
++ ___35-[WFWiFiStateMonitor _updateState:]_block_invoke.45
++ ___35-[WFWiFiStateMonitor _updateState:]_block_invoke.46
++ ___37-[WFWiFiStateMonitor startMonitoring]_block_invoke.19
++ ___41-[WFWiFiStateMonitor _updateWiFiUIState:]_block_invoke.51
++ ___41-[WFWiFiStateMonitor _updateWiFiUIState:]_block_invoke.52
++ ___44-[WFNetworkListController _updatePowerState]_block_invoke.189
++ ___44-[WFNetworkListController _updatePowerState]_block_invoke.190
++ ___45-[WFWiFiStateMonitor initWithClient:handler:]_block_invoke
++ ___46-[WFControlCenterStateMonitor _performAction:]_block_invoke.7
++ ___46-[WFControlCenterStateMonitor _performAction:]_block_invoke.8
++ ___46-[WFControlCenterStateMonitor _performAction:]_block_invoke_2.6
++ ___53-[WFNetworkListController _associateToHotspotDevice:]_block_invoke.247
++ ___53-[WFNetworkListController _associateToHotspotDevice:]_block_invoke.251
++ ___53-[WFNetworkListController _associateToHotspotDevice:]_block_invoke.252
++ ___53-[WFNetworkListController _associateToHotspotDevice:]_block_invoke.255
++ ___53-[WFNetworkListController _associateToHotspotDevice:]_block_invoke.256
++ ___56-[WFNetworkListController _updateCurrentNetworkIPState:]_block_invoke.347
++ ___57-[WFNetworkListController _canStartAssociationToNetwork:]_block_invoke.333
++ ___57-[WFNetworkListController _canStartAssociationToNetwork:]_block_invoke.334
++ ___57-[WFNetworkListController _canStartAssociationToNetwork:]_block_invoke.335
++ ___58-[WFNetworkListController _applicationDidEnterBackground:]_block_invoke.175
++ ___59-[WFNetworkListController _associateToUserSuppliedNetwork:]_block_invoke.303
++ ___59-[WFNetworkListController _associateToUserSuppliedNetwork:]_block_invoke.305
++ ___59-[WFNetworkListController _updateViewControllerScanResults]_block_invoke.206
++ ___59-[WFNetworkListController _updateViewControllerScanResults]_block_invoke.217
++ ___59-[WFNetworkListController _updateViewControllerScanResults]_block_invoke.219
++ ___60-[WFNetworkListController _updatePrivacyProxyFeatureEnabled]_block_invoke.638
++ ___60-[WFNetworkListController _updatePrivacyProxyFeatureEnabled]_block_invoke.641
++ ___60-[WFNetworkListController _updatePrivacyProxyFeatureEnabled]_block_invoke_2.639
++ ___62-[WFControlCenterStateMonitor _performActionWithStateMonitor:]_block_invoke
++ ___62-[WFControlCenterStateMonitor _performActionWithStateMonitor:]_block_invoke.10
++ ___62-[WFControlCenterStateMonitor _performActionWithStateMonitor:]_block_invoke.13
++ ___62-[WFControlCenterStateMonitor _performActionWithStateMonitor:]_block_invoke.16
++ ___62-[WFControlCenterStateMonitor _performActionWithStateMonitor:]_block_invoke.19
++ ___62-[WFControlCenterStateMonitor _performActionWithStateMonitor:]_block_invoke.22
++ ___62-[WFNetworkListController _scanNetworkForAssociation:profile:]_block_invoke.343
++ ___63-[WFNetworkListController _associationDidFinish:error:network:]_block_invoke.340
++ ___63-[WFNetworkListController _refreshKnownHiddenNetworkNamesCache]_block_invoke.648
++ ___64-[WFNetworkListController _promptCredentialsForNetwork:profile:]_block_invoke.322
++ ___64-[WFNetworkListController _promptCredentialsForNetwork:profile:]_block_invoke.323
++ ___64-[WFNetworkListController _promptCredentialsForNetwork:profile:]_block_invoke.329
++ ___69-[WFNetworkListController _canStartAssociationToUserSuppliedNetwork:]_block_invoke.337
++ ___71-[WFNetworkListController networkListViewControllerDidTapOtherNetwork:]_block_invoke.386
++ ___71-[WFNetworkListController networkListViewControllerDidTapOtherNetwork:]_block_invoke.387
++ ___74-[WFNetworkListController _associateToUserSuppliedNetworkHelper:networks:]_block_invoke.308
++ ___99-[WFNetworkListController _handleAssociationError:network:profile:securityMode:associationContext:]_block_invoke.311
++ ___99-[WFNetworkListController _handleAssociationError:network:profile:securityMode:associationContext:]_block_invoke.313
++ ___99-[WFNetworkListController _handleAssociationError:network:profile:securityMode:associationContext:]_block_invoke_2.312
++ ___99-[WFNetworkListController _handleAssociationError:network:profile:securityMode:associationContext:]_block_invoke_2.315
++ ___block_descriptor_56_e8_32s40s48s_e30_v32?0"WFScanChannel"8Q16^B24ls32l8s40l8s48l8
++ ___block_literal_global.12
++ ___block_literal_global.15
++ ___block_literal_global.18
++ ___block_literal_global.193
++ ___block_literal_global.21
++ ___block_literal_global.24
++ ___block_literal_global.318
++ ___block_literal_global.407
++ ___block_literal_global.543
++ ___block_literal_global.630
++ ___block_literal_global.636
++ ___chkstk_darwin
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
++ ___swift_memcpy1_1
++ ___swift_memcpy8_8
++ ___swift_noop_void_return
++ ___swift_reflection_version
++ __swiftEmptyArrayStorage
++ __swift_FORCE_LOAD_$_swiftCoreFoundation
++ __swift_FORCE_LOAD_$_swiftCoreFoundation_$_WiFiKit
++ __swift_FORCE_LOAD_$_swiftCoreImage
++ __swift_FORCE_LOAD_$_swiftCoreImage_$_WiFiKit
++ __swift_FORCE_LOAD_$_swiftDispatch
++ __swift_FORCE_LOAD_$_swiftDispatch_$_WiFiKit
++ __swift_FORCE_LOAD_$_swiftFoundation
++ __swift_FORCE_LOAD_$_swiftFoundation_$_WiFiKit
++ __swift_FORCE_LOAD_$_swiftMetal
++ __swift_FORCE_LOAD_$_swiftMetal_$_WiFiKit
++ __swift_FORCE_LOAD_$_swiftOSLog
++ __swift_FORCE_LOAD_$_swiftOSLog_$_WiFiKit
++ __swift_FORCE_LOAD_$_swiftObjectiveC
++ __swift_FORCE_LOAD_$_swiftObjectiveC_$_WiFiKit
++ __swift_FORCE_LOAD_$_swiftQuartzCore
++ __swift_FORCE_LOAD_$_swiftQuartzCore_$_WiFiKit
++ __swift_FORCE_LOAD_$_swiftUIKit
++ __swift_FORCE_LOAD_$_swiftUIKit_$_WiFiKit
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_WiFiKit
++ __swift_FORCE_LOAD_$_swiftXPC
++ __swift_FORCE_LOAD_$_swiftXPC_$_WiFiKit
++ __swift_FORCE_LOAD_$_swift_Builtin_float
++ __swift_FORCE_LOAD_$_swift_Builtin_float_$_WiFiKit
++ __swift_FORCE_LOAD_$_swiftos
++ __swift_FORCE_LOAD_$_swiftos_$_WiFiKit
++ __swift_FORCE_LOAD_$_swiftsimd
++ __swift_FORCE_LOAD_$_swiftsimd_$_WiFiKit
++ __swift_stdlib_malloc_size
++ __swift_stdlib_reportUnimplementedInitializer
++ _associated conformance 7WiFiKit0aB5StateVs10SetAlgebraAASQ
++ _associated conformance 7WiFiKit0aB5StateVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 7WiFiKit0aB5StateVs9OptionSetAASY
++ _associated conformance 7WiFiKit0aB5StateVs9OptionSetAAs0F7Algebra
++ _associated conformance 7WiFiKit20CellularOutrankStateOSHAASQ
++ _associated conformance So19CWFWiFiUIStateFlagsVs10SetAlgebraSCSQ
++ _associated conformance So19CWFWiFiUIStateFlagsVs10SetAlgebraSCs25ExpressibleByArrayLiteral
++ _associated conformance So19CWFWiFiUIStateFlagsVs9OptionSetSCSY
++ _associated conformance So19CWFWiFiUIStateFlagsVs9OptionSetSCs0F7Algebra
++ _block_copy_helper
++ _block_copy_helper.104
++ _block_copy_helper.110
++ _block_copy_helper.116
++ _block_copy_helper.122
++ _block_copy_helper.128
++ _block_copy_helper.13
++ _block_copy_helper.132
++ _block_copy_helper.136
++ _block_copy_helper.16
++ _block_copy_helper.19
++ _block_copy_helper.25
++ _block_copy_helper.50
++ _block_copy_helper.56
++ _block_copy_helper.7
++ _block_copy_helper.85
++ _block_copy_helper.92
++ _block_copy_helper.98
++ _block_descriptor
++ _block_descriptor.100
++ _block_descriptor.106
++ _block_descriptor.112
++ _block_descriptor.118
++ _block_descriptor.124
++ _block_descriptor.130
++ _block_descriptor.134
++ _block_descriptor.138
++ _block_descriptor.15
++ _block_descriptor.18
++ _block_descriptor.21
++ _block_descriptor.27
++ _block_descriptor.52
++ _block_descriptor.58
++ _block_descriptor.87
++ _block_descriptor.9
++ _block_descriptor.94
++ _block_destroy_helper
++ _block_destroy_helper.105
++ _block_destroy_helper.111
++ _block_destroy_helper.117
++ _block_destroy_helper.123
++ _block_destroy_helper.129
++ _block_destroy_helper.133
++ _block_destroy_helper.137
++ _block_destroy_helper.14
++ _block_destroy_helper.17
++ _block_destroy_helper.20
++ _block_destroy_helper.26
++ _block_destroy_helper.51
++ _block_destroy_helper.57
++ _block_destroy_helper.8
++ _block_destroy_helper.86
++ _block_destroy_helper.93
++ _block_destroy_helper.99
++ _malloc_size
++ _memmove
++ _objc_allocWithZone
++ _objc_msgSend$_convertStateMonitorStateToWFWiFiState:
++ _objc_msgSend$_performActionWithStateMonitor:
++ _objc_msgSend$arrayWithCapacity:
++ _objc_msgSend$disableCellularOutrank:
++ _objc_msgSend$disableMISStateAndDiscovery:
++ _objc_msgSend$disassociate:
++ _objc_msgSend$setPowerToggle:completion:
++ _objc_msgSend$stateMonitor
++ _objc_msgSend$stateRawValue
++ _objc_msgSend$stopMonitoringEventType:
++ _objc_msgSend$toLinkQuality
++ _objc_msgSend$useStateMonitor
++ _objc_opt_self
++ _objectdestroy.11Tm
++ _objectdestroy.2Tm
++ _swift_allocObject
++ _swift_arrayInitWithCopy
++ _swift_beginAccess
++ _swift_bridgeObjectRelease
++ _swift_bridgeObjectRetain
++ _swift_deallocObject
++ _swift_deletedMethodError
++ _swift_dynamicCast
++ _swift_endAccess
++ _swift_errorRelease
++ _swift_errorRetain
++ _swift_getErrorValue
++ _swift_getForeignTypeMetadata
++ _swift_getObjCClassMetadata
++ _swift_getTypeByMangledNameInContext2
++ _swift_getTypeByMangledNameInContextInMetadataState2
++ _swift_getWitnessTable
++ _swift_isUniquelyReferenced_nonNull_native
++ _swift_isaMask
++ _swift_lookUpClassMethod
++ _swift_release
++ _swift_retain
++ _swift_unknownObjectRelease
++ _swift_unknownObjectRetain
++ _swift_unknownObjectWeakDestroy
++ _swift_unknownObjectWeakInit
++ _swift_unknownObjectWeakLoadStrong
++ _swift_willThrow
++ _symbolic $s7WiFiKit21StateMonitorInterfaceP
++ _symbolic $sSY
++ _symbolic $ss10SetAlgebraP
++ _symbolic $ss25ExpressibleByArrayLiteralP
++ _symbolic $ss9OptionSetP
++ _symbolic Ieg_
++ _symbolic IeyB_
++ _symbolic S2iIegyy_
++ _symbolic S2iIeyByy_
++ _symbolic SS
++ _symbolic SaySSG
++ _symbolic Say_____G 8Dispatch0A13WorkItemFlagsV
++ _symbolic Say_____G So17OS_dispatch_queueC8DispatchE10AttributesV
++ _symbolic Sb
++ _symbolic SbIegy_
++ _symbolic Sf
++ _symbolic Si
++ _symbolic So12CWFInterfaceC
++ _symbolic So17OS_dispatch_queueC
++ _symbolic So8NSObjectC
++ _symbolic So9OS_os_logC
++ _symbolic Su
++ _symbolic _____ 7WiFiKit0aB5StateV
++ _symbolic _____ 7WiFiKit11LinkQualityC
++ _symbolic _____ 7WiFiKit12StateMonitorC
++ _symbolic _____ 7WiFiKit15CellularOutrankC
++ _symbolic _____ 7WiFiKit20CellularOutrankStateO
++ _symbolic _____ So19CWFWiFiUIStateFlagsV
++ _symbolic _____ s5Int32V
++ _symbolic _____ s6UInt64V
++ _symbolic _____IeyBy_ 10ObjectiveC8ObjCBoolV
++ _symbolic _____Sg 7WiFiKit11LinkQualityC
++ _symbolic _____SgXw 7WiFiKit12StateMonitorC
++ _symbolic _____SgXw 7WiFiKit15CellularOutrankC
++ _symbolic _____SgXwz_Xx 7WiFiKit12StateMonitorC
++ _symbolic _____ySSG s23_ContiguousArrayStorageC
++ _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
++ _symbolic _____yypG s23_ContiguousArrayStorageC
++ _symbolic y______AAtcSg 7WiFiKit0aB5StateV
++ _symbolic ypSg
++ _type_layout_string 7WiFiKit0aB5StateV
+- -[WFClient initWithCallbackRunLoop:].cold.3
+- GCC_except_table10
+- GCC_except_table102
+- GCC_except_table109
+- GCC_except_table112
+- GCC_except_table117
+- GCC_except_table125
+- GCC_except_table129
+- GCC_except_table14
+- GCC_except_table146
+- GCC_except_table155
+- GCC_except_table160
+- GCC_except_table171
+- GCC_except_table173
+- GCC_except_table175
+- GCC_except_table199
+- GCC_except_table211
+- GCC_except_table214
+- GCC_except_table249
+- GCC_except_table256
+- GCC_except_table68
+- GCC_except_table70
+- GCC_except_table72
+- GCC_except_table75
+- GCC_except_table79
+- GCC_except_table85
+- GCC_except_table89
+- GCC_except_table91
+- GCC_except_table94
+- GCC_except_table98
+- __WFControlCenterActionStringForAction
+- ___112-[WFNetworkListController networkListViewController:showSettingsForNetwork:context:scrollToCellType:controller:]_block_invoke.335
+- ___112-[WFNetworkListController networkListViewController:showSettingsForNetwork:context:scrollToCellType:controller:]_block_invoke.337
+- ___112-[WFNetworkListController networkListViewController:showSettingsForNetwork:context:scrollToCellType:controller:]_block_invoke.388
+- ___112-[WFNetworkListController networkListViewController:showSettingsForNetwork:context:scrollToCellType:controller:]_block_invoke.389
+- ___112-[WFNetworkListController networkListViewController:showSettingsForNetwork:context:scrollToCellType:controller:]_block_invoke.390
+- ___112-[WFNetworkListController networkListViewController:showSettingsForNetwork:context:scrollToCellType:controller:]_block_invoke.391
+- ___112-[WFNetworkListController networkListViewController:showSettingsForNetwork:context:scrollToCellType:controller:]_block_invoke.392
+- ___112-[WFNetworkListController networkListViewController:showSettingsForNetwork:context:scrollToCellType:controller:]_block_invoke.394
+- ___112-[WFNetworkListController networkListViewController:showSettingsForNetwork:context:scrollToCellType:controller:]_block_invoke.396
+- ___112-[WFNetworkListController networkListViewController:showSettingsForNetwork:context:scrollToCellType:controller:]_block_invoke.398
+- ___35-[WFWiFiStateMonitor _updateState:]_block_invoke.41
+- ___35-[WFWiFiStateMonitor _updateState:]_block_invoke.44
+- ___37-[WFWiFiStateMonitor startMonitoring]_block_invoke.15
+- ___41-[WFWiFiStateMonitor _updateWiFiUIState:]_block_invoke.47
+- ___41-[WFWiFiStateMonitor _updateWiFiUIState:]_block_invoke.48
+- ___44-[WFNetworkListController _updatePowerState]_block_invoke.114
+- ___44-[WFNetworkListController _updatePowerState]_block_invoke.115
+- ___46-[WFControlCenterStateMonitor _performAction:]_block_invoke.1
+- ___46-[WFControlCenterStateMonitor _performAction:]_block_invoke.6
+- ___46-[WFControlCenterStateMonitor _performAction:]_block_invoke_2.4
+- ___53-[WFNetworkListController _associateToHotspotDevice:]_block_invoke.167
+- ___53-[WFNetworkListController _associateToHotspotDevice:]_block_invoke.168
+- ___53-[WFNetworkListController _associateToHotspotDevice:]_block_invoke.172
+- ___53-[WFNetworkListController _associateToHotspotDevice:]_block_invoke.173
+- ___56-[WFNetworkListController _updateCurrentNetworkIPState:]_block_invoke.265
+- ___57-[WFNetworkListController _canStartAssociationToNetwork:]_block_invoke.251
+- ___57-[WFNetworkListController _canStartAssociationToNetwork:]_block_invoke.252
+- ___57-[WFNetworkListController _canStartAssociationToNetwork:]_block_invoke.253
+- ___58-[WFNetworkListController _applicationDidEnterBackground:]_block_invoke.100
+- ___59-[WFNetworkListController _associateToUserSuppliedNetwork:]_block_invoke.221
+- ___59-[WFNetworkListController _associateToUserSuppliedNetwork:]_block_invoke.223
+- ___59-[WFNetworkListController _updateViewControllerScanResults]_block_invoke.131
+- ___59-[WFNetworkListController _updateViewControllerScanResults]_block_invoke.142
+- ___59-[WFNetworkListController _updateViewControllerScanResults]_block_invoke.144
+- ___60-[WFNetworkListController _updatePrivacyProxyFeatureEnabled]_block_invoke.552
+- ___60-[WFNetworkListController _updatePrivacyProxyFeatureEnabled]_block_invoke.555
+- ___60-[WFNetworkListController _updatePrivacyProxyFeatureEnabled]_block_invoke_2.553
+- ___62-[WFNetworkListController _scanNetworkForAssociation:profile:]_block_invoke.261
+- ___63-[WFNetworkListController _associationDidFinish:error:network:]_block_invoke.258
+- ___63-[WFNetworkListController _refreshKnownHiddenNetworkNamesCache]_block_invoke.562
+- ___64-[WFNetworkListController _promptCredentialsForNetwork:profile:]_block_invoke.240
+- ___64-[WFNetworkListController _promptCredentialsForNetwork:profile:]_block_invoke.241
+- ___64-[WFNetworkListController _promptCredentialsForNetwork:profile:]_block_invoke.247
+- ___69-[WFNetworkListController _canStartAssociationToUserSuppliedNetwork:]_block_invoke.255
+- ___71-[WFNetworkListController networkListViewControllerDidTapOtherNetwork:]_block_invoke.302
+- ___71-[WFNetworkListController networkListViewControllerDidTapOtherNetwork:]_block_invoke.303
+- ___74-[WFNetworkListController _associateToUserSuppliedNetworkHelper:networks:]_block_invoke.226
+- ___99-[WFNetworkListController _handleAssociationError:network:profile:securityMode:associationContext:]_block_invoke.229
+- ___99-[WFNetworkListController _handleAssociationError:network:profile:securityMode:associationContext:]_block_invoke.231
+- ___99-[WFNetworkListController _handleAssociationError:network:profile:securityMode:associationContext:]_block_invoke_2.230
+- ___99-[WFNetworkListController _handleAssociationError:network:profile:securityMode:associationContext:]_block_invoke_2.233
+- ___block_literal_global.118
+- ___block_literal_global.236
+- ___block_literal_global.323
+- ___block_literal_global.457
+- ___block_literal_global.544
+- ___block_literal_global.550
+- _objc_claimAutoreleasedReturnValue
+- _objc_retainAutoreleaseReturnValue
+- _objc_retain_x3
+- _objc_retain_x4
+- _objc_retain_x5
+- _objc_retain_x6
+- _objc_retain_x7
+CStrings:
++ "%s: StateMonitor CarPlay disable completed"
++ "%s: StateMonitor MIS disabled"
++ "%s: StateMonitor cellular outrank disable completed"
++ "%s: StateMonitor disable CarPlay"
++ "%s: StateMonitor disable MIS"
++ "%s: StateMonitor disabling cellular outrank"
++ "%s: StateMonitor disabling user autojoin"
++ "%s: StateMonitor enabling user autojoin"
++ "%s: StateMonitor power toggle handler called, powered=%d"
++ "%s: StateMonitor prompting to disable CarPlay"
++ "%s: StateMonitor prompting to disable MIS"
++ "%s: StateMonitor prompting to disable cellular outrank"
++ "%s: StateMonitor user autojoin disabled"
++ "%s: StateMonitor user autojoin enabled"
++ "-[WFControlCenterStateMonitor _performActionWithStateMonitor:]"
++ "-[WFControlCenterStateMonitor _performActionWithStateMonitor:]_block_invoke"
++ "<%@ : %p identifier='%@' StateMonitor='%@>"
++ "@\"_TtC7WiFiKit12StateMonitor\""
++ "Adding cellularOutrank flag due to state: %@"
++ "CWFEventWiFiUIStateFlagsKey"
++ "Calling original handler with states: %@ -> %@"
++ "Cellular outrank state changed from %@ to %@"
++ "Cellular outrank state unchanged: %@"
++ "Cellular outrank symptoms state: %llu"
++ "CellularOutrank deinit"
++ "CellularOutrank init"
++ "CellularOutrank-Queue"
++ "Cleared linkQuality"
++ "Converted states: old=%@ (%d), new=%@ (%d)"
++ "Creating LinkQuality for network: %@"
++ "Failed to associate for cellular outrank disable: %@"
++ "Failed to create WiFiManagerClient"
++ "Failed to disable MIS discovery state, result: %d"
++ "Failed to disable MIS state, result: %d"
++ "Failed to get cellular outrank state from notify"
++ "Failed to start monitoring WiFi UI state flags: %@"
++ "Link quality event missing metric data"
++ "LinkQuality(ssid: "
++ "No current scan result available for cellular outrank disable"
++ "No original handler to call"
++ "Received WiFi UI state flags changed event"
++ "Received cellular outrank notification"
++ "Registering for cellular outrank notifications"
++ "Starting WiFi UI state monitoring"
++ "State changed from %@ to %@"
++ "State unchanged: %@"
++ "StateMonitor deinit"
++ "StateMonitor handler called: oldState=0x%lx, newState=0x%lx"
++ "StateMonitor init"
++ "StateMonitor(state: ["
++ "StateMonitor-Queue"
++ "Successfully associated for cellular outrank disable"
++ "Successfully disabled MIS discovery state"
++ "Successfully disabled MIS state"
++ "Successfully disassociated with user initiated reason"
++ "Successfully started monitoring WiFi events"
++ "T@\"NSString\",N,R"
++ "T@\"StateMonitor\",&,D,N"
++ "T@\"_TtC7WiFiKit11LinkQuality\",N,R"
++ "T@\"_TtC7WiFiKit12StateMonitor\",&,N,V_stateMonitor"
++ "TB,V_useStateMonitor"
++ "Ti,N,V_phyMode"
++ "Tq,N,R"
++ "Unable to get current network name for LinkQuality"
++ "Unable to get current network name for LinkQuality update"
++ "Unhandled event type: %@"
++ "Updated linkQuality: %@"
++ "Updating state with WiFi UI flags: %@, cellular outrank: %@"
++ "Using StateMonitor for WiFi state monitoring"
++ "Using legacy WFWiFiStateMonitor implementation"
++ "WiFiKit.LinkQuality"
++ "WiFiKit.StateMonitor"
++ "_TtC7WiFiKit11LinkQuality"
++ "_TtC7WiFiKit12StateMonitor"
++ "_TtC7WiFiKit15CellularOutrank"
++ "_TtP7WiFiKit21StateMonitorInterface_"
++ "_convertStateMonitorStateToWFWiFiState:"
++ "_performActionWithStateMonitor:"
++ "_useStateMonitor"
++ "arrayWithCapacity:"
++ "cellularOutrank"
++ "cellularOutrankWiFiSymptomsState"
++ "connected"
++ "current network state set to %s"
++ "current network state set to unconnected"
++ "disableCellularOutrank called"
++ "disableCellularOutrank:"
++ "disableMISStateAndDiscovery"
++ "disableMISStateAndDiscovery:"
++ "disassociate called"
++ "disassociate:"
++ "failed to set power to "
++ "failed to set user auto join to "
++ "init()"
++ "initWithSsid:rssi:scaledRssi:"
++ "logger"
++ "publisher:getKeysBlobForMulticastSession:"
++ "setPowerToggle called: %@"
++ "setPowerToggle:completion:"
++ "setUseStateMonitor:"
++ "setUserAutoJoinState called: %@"
++ "stateQueue"
++ "stateRawValue"
++ "stopMonitoringEventType:"
++ "toLinkQuality"
++ "useStateMonitor"
++ "userDisconnected"
++ "v28@0:8B16@?<v@?>20"
++ "v28@0:8B16@?<v@?B>20"
++ "v32@0:8@\"WiFiAwarePublisher\"16@\"NSData\"24"
++ "v32@?0@\"WFScanChannel\"8Q16^B24"
++ "waiting for IP"
++ "{ACTION-} StateMonitor performing action='%{public}@'"
+- "I"
+- "TI,N,V_phyMode"
+
+```

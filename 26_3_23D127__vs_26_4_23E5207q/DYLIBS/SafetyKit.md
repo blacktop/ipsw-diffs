@@ -1,0 +1,94 @@
+## SafetyKit
+
+> `/System/Library/Frameworks/SafetyKit.framework/SafetyKit`
+
+```diff
+
+-147.0.4.0.0
+-  __TEXT.__text: 0x10ec4
+-  __TEXT.__auth_stubs: 0x7d0
++150.0.2.0.0
++  __TEXT.__text: 0x10c70
++  __TEXT.__auth_stubs: 0x7a0
+   __TEXT.__objc_methlist: 0xe44
+   __TEXT.__const: 0xe0
+   __TEXT.__cstring: 0x1955
+   __TEXT.__oslogstring: 0x1ddd
+-  __TEXT.__gcc_except_tab: 0x7b4
+-  __TEXT.__unwind_info: 0x5f8
++  __TEXT.__gcc_except_tab: 0x7b8
++  __TEXT.__unwind_info: 0x628
+   __TEXT.__objc_classname: 0x2da
+   __TEXT.__objc_methname: 0x2adb
+   __TEXT.__objc_methtype: 0xaee
+
+   __DATA_CONST.__objc_selrefs: 0xb30
+   __DATA_CONST.__objc_protorefs: 0x10
+   __DATA_CONST.__objc_superrefs: 0x68
+-  __AUTH_CONST.__auth_got: 0x400
++  __AUTH_CONST.__auth_got: 0x3e8
+   __AUTH_CONST.__const: 0x1b0
+   __AUTH_CONST.__cfstring: 0xa40
+   __AUTH_CONST.__objc_const: 0x2680
+   __AUTH_CONST.__objc_intobj: 0x18
+   __AUTH.__objc_data: 0x3c0
+   __DATA.__objc_ivar: 0xc4
+-  __DATA.__data: 0x828
++  __DATA.__data: 0x838
+   __DATA.__bss: 0x20
+   __DATA_DIRTY.__objc_data: 0x1e0
+   __DATA_DIRTY.__bss: 0x50
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C38CC888-1EAF-3D94-9301-072CD9DEC430
+-  Functions: 420
+-  Symbols:   1863
++  UUID: 675B9D69-4A4C-3F76-B4D2-A0B4B705C2A8
++  Functions: 434
++  Symbols:   1912
+   CStrings:  991
+ 
+Symbols:
++ _OUTLINED_FUNCTION_10
++ _OUTLINED_FUNCTION_11
++ _OUTLINED_FUNCTION_12
++ _OUTLINED_FUNCTION_13
++ _OUTLINED_FUNCTION_8
++ _OUTLINED_FUNCTION_9
++ __ZNSt12length_errorC1B9foe210106EPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106ILi0EEEPKc
++ __ZNSt3__115allocate_sharedB9foe210106I19CLConnectionMessageNS_9allocatorIS1_EEJNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9foe210106I19CLConnectionMessageNS_9allocatorIS1_EEJNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEERU8__strongP12NSDictionaryELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9foe210106I19CLConnectionMessageNS_9allocatorIS1_EEJNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEERU8__strongP12NSDictionaryIP8NSStringP11objc_objectEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9foe210106I19CLConnectionMessageNS_9allocatorIS1_EEJNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEU8__strongP8NSNumberELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__119__shared_weak_count16__release_sharedB9foe210106Ev
++ __ZNSt3__120__shared_ptr_emplaceI19CLConnectionMessageNS_9allocatorIS1_EEEC2B9foe210106IJNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEES3_Li0EEES3_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceI19CLConnectionMessageNS_9allocatorIS1_EEEC2B9foe210106IJNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEERU8__strongP12NSDictionaryES3_Li0EEES3_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceI19CLConnectionMessageNS_9allocatorIS1_EEEC2B9foe210106IJNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEERU8__strongP12NSDictionaryIP8NSStringP11objc_objectEES3_Li0EEES3_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceI19CLConnectionMessageNS_9allocatorIS1_EEEC2B9foe210106IJNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEU8__strongP8NSNumberES3_Li0EEES3_DpOT_
++ __ZNSt3__120__throw_length_errorB9foe210106EPKc
++ _logObject_StudiesSubmitterIgneous_Default
++ _objc_retain_x28
++ _onceToken_StudiesSubmitterIgneous_Default
+- __ZNSt12length_errorC1B8ne200100EPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100ILi0EEEPKc
+- __ZNSt3__115allocate_sharedB8ne200100I19CLConnectionMessageNS_9allocatorIS1_EEJNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100I19CLConnectionMessageNS_9allocatorIS1_EEJNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEERU8__strongP12NSDictionaryELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100I19CLConnectionMessageNS_9allocatorIS1_EEJNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEERU8__strongP12NSDictionaryIP8NSStringP11objc_objectEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100I19CLConnectionMessageNS_9allocatorIS1_EEJNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEU8__strongP8NSNumberELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__119__shared_weak_count16__release_sharedB8ne200100Ev
+- __ZNSt3__120__shared_ptr_emplaceI19CLConnectionMessageNS_9allocatorIS1_EEEC2B8ne200100IJNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEES3_Li0EEES3_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceI19CLConnectionMessageNS_9allocatorIS1_EEEC2B8ne200100IJNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEERU8__strongP12NSDictionaryES3_Li0EEES3_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceI19CLConnectionMessageNS_9allocatorIS1_EEEC2B8ne200100IJNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEERU8__strongP12NSDictionaryIP8NSStringP11objc_objectEES3_Li0EEES3_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceI19CLConnectionMessageNS_9allocatorIS1_EEEC2B8ne200100IJNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEU8__strongP8NSNumberES3_Li0EEES3_DpOT_
+- __ZNSt3__120__throw_length_errorB8ne200100EPKc
+- _objc_claimAutoreleasedReturnValue
+- _objc_retainAutoreleaseReturnValue
+- _objc_retain_x1
+- _objc_retain_x8
+
+```

@@ -1,0 +1,1205 @@
+## StickerKit
+
+> `/System/Library/Frameworks/StickerKit.framework/StickerKit`
+
+```diff
+
+-103.3.104.0.0
+-  __TEXT.__text: 0x1b8ff4
++103.4.3.0.0
++  __TEXT.__text: 0x1c3758
+   __TEXT.__auth_stubs: 0x4c90
+-  __TEXT.__objc_methlist: 0x7488
+-  __TEXT.__const: 0xfd14
+-  __TEXT.__cstring: 0xaf43
++  __TEXT.__objc_methlist: 0x74a0
++  __TEXT.__const: 0xfdf4
++  __TEXT.__cstring: 0x36b3
+   __TEXT.__oslogstring: 0x3a0e
+-  __TEXT.__gcc_except_tab: 0x134
++  __TEXT.__gcc_except_tab: 0x13c
+   __TEXT.__dlopen_cstrs: 0xbd
+-  __TEXT.__constg_swiftt: 0x95c0
+-  __TEXT.__swift5_typeref: 0xc7c2
++  __TEXT.__constg_swiftt: 0x95cc
++  __TEXT.__swift5_typeref: 0xc4c0
+   __TEXT.__swift5_builtin: 0x2e4
+   __TEXT.__swift5_reflstr: 0x5528
+   __TEXT.__swift5_fieldmd: 0x52e0
+   __TEXT.__swift5_assocty: 0xb28
+-  __TEXT.__swift5_proto: 0x780
++  __TEXT.__swift5_proto: 0x794
+   __TEXT.__swift5_types: 0x548
+-  __TEXT.__swift5_capture: 0x2e8c
++  __TEXT.__swift5_capture: 0x2e3c
+   __TEXT.__swift_as_entry: 0x310
+   __TEXT.__swift5_protos: 0xac
+   __TEXT.__swift_as_ret: 0x274
+   __TEXT.__swift5_mpenum: 0x4c
+-  __TEXT.__unwind_info: 0x6738
+-  __TEXT.__eh_frame: 0x986c
+-  __TEXT.__objc_classname: 0x625
+-  __TEXT.__objc_methname: 0x1076d
+-  __TEXT.__objc_methtype: 0x5413
+-  __TEXT.__objc_stubs: 0x21e0
+-  __DATA_CONST.__got: 0x1580
+-  __DATA_CONST.__const: 0x7d8
++  __TEXT.__unwind_info: 0x6698
++  __TEXT.__eh_frame: 0x984c
++  __TEXT.__objc_classname: 0x2c8a
++  __TEXT.__objc_methname: 0x16865
++  __TEXT.__objc_methtype: 0x6946
++  __TEXT.__objc_stubs: 0x81c0
++  __DATA_CONST.__got: 0x1568
++  __DATA_CONST.__const: 0x848
+   __DATA_CONST.__objc_classlist: 0x5c8
+   __DATA_CONST.__objc_catlist: 0x20
+   __DATA_CONST.__objc_protolist: 0x320
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x4760
++  __DATA_CONST.__objc_selrefs: 0x4778
+   __DATA_CONST.__objc_protorefs: 0x1a8
+   __DATA_CONST.__objc_superrefs: 0x28
+   __DATA_CONST.__objc_arraydata: 0x8
+   __AUTH_CONST.__auth_got: 0x2660
+-  __AUTH_CONST.__const: 0xb4b8
++  __AUTH_CONST.__const: 0xb398
+   __AUTH_CONST.__cfstring: 0x8c0
+-  __AUTH_CONST.__objc_const: 0x2a3f0
++  __AUTH_CONST.__objc_const: 0x2a8d0
+   __AUTH_CONST.__objc_intobj: 0xa8
+   __AUTH_CONST.__objc_arrayobj: 0x18
+   __AUTH_CONST.__objc_doubleobj: 0x40
+-  __AUTH.__objc_data: 0x89f0
+-  __AUTH.__data: 0x5138
++  __AUTH.__objc_data: 0x8650
++  __AUTH.__data: 0x5170
+   __DATA.__objc_ivar: 0xac
+-  __DATA.__data: 0x6198
++  __DATA.__data: 0x61b8
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__bss: 0xcfe0
+-  __DATA.__common: 0x380
+-  __DATA_DIRTY.__objc_data: 0x1a38
+-  __DATA_DIRTY.__data: 0x1a88
++  __DATA.__bss: 0xd260
++  __DATA.__common: 0x310
++  __DATA_DIRTY.__objc_data: 0x1dd8
++  __DATA_DIRTY.__data: 0x1a68
+   __DATA_DIRTY.__bss: 0xa90
+   __DATA_DIRTY.__common: 0xc0
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E3CCCFA4-59F8-30BE-BFC2-64443E88FCA7
+-  Functions: 9079
+-  Symbols:   6407
+-  CStrings:  4836
++  UUID: 1096811D-B8A8-3241-A26C-46F165961E63
++  Functions: 8993
++  Symbols:   7176
++  CStrings:  4681
+ 
+Symbols:
++ _OUTLINED_FUNCTION_0
++ __PROTOCOLS_STKEmojiAndStickerCollectionViewConfiguration.26
++ _associated conformance So15CGColorSpaceRefa14CoreFoundation9_CFObjectSCSH
++ _associated conformance So15CGColorSpaceRefaSHSCSQ
++ _block_copy_helper.100
++ _block_copy_helper.102
++ _block_copy_helper.105
++ _block_copy_helper.109
++ _block_copy_helper.117
++ _block_copy_helper.121
++ _block_copy_helper.123
++ _block_copy_helper.125
++ _block_copy_helper.129
++ _block_copy_helper.131
++ _block_copy_helper.134
++ _block_copy_helper.139
++ _block_copy_helper.142
++ _block_copy_helper.148
++ _block_copy_helper.161
++ _block_copy_helper.168
++ _block_copy_helper.172
++ _block_copy_helper.175
++ _block_copy_helper.201
++ _block_copy_helper.208
++ _block_copy_helper.211
++ _block_copy_helper.27
++ _block_copy_helper.305
++ _block_copy_helper.33
++ _block_copy_helper.40
++ _block_copy_helper.43
++ _block_copy_helper.46
++ _block_copy_helper.51
++ _block_copy_helper.57
++ _block_copy_helper.61
++ _block_copy_helper.64
++ _block_copy_helper.67
++ _block_copy_helper.74
++ _block_copy_helper.76
++ _block_copy_helper.82
++ _block_copy_helper.86
++ _block_copy_helper.90
++ _block_copy_helper.94
++ _block_copy_helper.96
++ _block_descriptor.102
++ _block_descriptor.104
++ _block_descriptor.107
++ _block_descriptor.111
++ _block_descriptor.119
++ _block_descriptor.123
++ _block_descriptor.125
++ _block_descriptor.127
++ _block_descriptor.131
++ _block_descriptor.133
++ _block_descriptor.136
++ _block_descriptor.141
++ _block_descriptor.144
++ _block_descriptor.150
++ _block_descriptor.163
++ _block_descriptor.170
++ _block_descriptor.174
++ _block_descriptor.177
++ _block_descriptor.203
++ _block_descriptor.210
++ _block_descriptor.213
++ _block_descriptor.29
++ _block_descriptor.307
++ _block_descriptor.35
++ _block_descriptor.42
++ _block_descriptor.45
++ _block_descriptor.48
++ _block_descriptor.53
++ _block_descriptor.59
++ _block_descriptor.63
++ _block_descriptor.66
++ _block_descriptor.69
++ _block_descriptor.76
++ _block_descriptor.78
++ _block_descriptor.84
++ _block_descriptor.88
++ _block_descriptor.92
++ _block_descriptor.96
++ _block_descriptor.98
++ _block_destroy_helper.101
++ _block_destroy_helper.103
++ _block_destroy_helper.106
++ _block_destroy_helper.110
++ _block_destroy_helper.118
++ _block_destroy_helper.122
++ _block_destroy_helper.124
++ _block_destroy_helper.126
++ _block_destroy_helper.130
++ _block_destroy_helper.132
++ _block_destroy_helper.135
++ _block_destroy_helper.140
++ _block_destroy_helper.143
++ _block_destroy_helper.149
++ _block_destroy_helper.162
++ _block_destroy_helper.169
++ _block_destroy_helper.173
++ _block_destroy_helper.176
++ _block_destroy_helper.202
++ _block_destroy_helper.209
++ _block_destroy_helper.212
++ _block_destroy_helper.28
++ _block_destroy_helper.306
++ _block_destroy_helper.34
++ _block_destroy_helper.41
++ _block_destroy_helper.44
++ _block_destroy_helper.47
++ _block_destroy_helper.52
++ _block_destroy_helper.58
++ _block_destroy_helper.62
++ _block_destroy_helper.65
++ _block_destroy_helper.68
++ _block_destroy_helper.75
++ _block_destroy_helper.77
++ _block_destroy_helper.83
++ _block_destroy_helper.87
++ _block_destroy_helper.91
++ _block_destroy_helper.95
++ _block_destroy_helper.97
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE11buttonStyleyQrqd__AA06ButtonG0Rd__lFQOyAA6VStackVyAA05TupleE0VyACyAA7ForEachVySaySi6offset_SaySSG7elementtGSiACyACyAA6HStackVyAMySaySiAN_SSAPtGSiAKyAA0H0VyACyACyAeAE13phaseAnimator_7trigger7content9animationQrqd_0__qd_1_qd_2_AA011PlaceholderdE0VyxG_qd__tcAA9AnimationVSgqd__ctSQRd__7ElementQyd_0_Rsd__STRd_0_SQRd_1_AaDRd_2_r2_lFQOyACy10StickerKit17NonDraggableLabelVAA12_FrameLayoutVG_SbSaySbGSiACyA0_yA12_GAA12_ScaleEffectVGQo_AA19_BackgroundModifierVyACyACyAA16RoundedRectangleV6_InsetVAA011_ForegroundG8ModifierVyAA5ColorVGGA11_GSgGGAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGG_AA6SpacerVSgtGGGA11_GAA14_PaddingLayoutVGGA51_G_ACyACyAA7DividerVA11_GA51_GACyASyAKyA44__AVyACyACyA7_14DraggableLabelVA33_GA11_GGA44_A63_A44_tGGA40_GtGSgG_A7_05EmojihG033_4A925D5F998020444AE9B080E0E4210DLLVQo_A11_GAaDHPqd0__AaDHD3_A73_HO_A11_AA0E8ModifierHPyHCHC.115
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA14GeometryReaderVyAA6ZStackVyAA9TupleViewVyACyAA0I0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOy10StickerKit14DraggableLabelV_AO9DragStateOQo_AA12_FrameLayoutVG_ACyAkAEAlmN_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAO05PopupI0VyACyACyACyAO021FamilyVariantSelectorI0VAA30_EnvironmentKeyWritingModifierVyAA0U9DirectionOGGAVGAA13_OffsetEffectVGG_AO5EmojiVQo_AA25_AppearanceActionModifierVGSgtGGGAA08_PaddingU0VGAVGAaJHPA23_AaJHPA20_AaJHPyHC_A22_AA0I8ModifierHPyHCHC_AvAA25_HPyHCHC.70
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA014_ViewModifier_D0Vy10StickerKit017DelayedTransitionG033_7DAC5D701512A91D2193BC271035D2BELLVGAA013_TraitWritingG0VyAA0kS3KeyVGGALGAA0F0HPAraTHPAlaTHPyHC_AqA0fG0HPyHCHC_AlaTHPyHCHC.278
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAA014_ViewModifier_D0Vy10StickerKit23IntelligenceLightEffectVGAA08_OpacityL0VGAA011_BackgroundG0VyAEyAA6ZStackVyAA05TupleF0VyAEyAA9RectangleVAA012_Environmentn5StyleG0VyAA017HierarchicalShapeS0VGGSg_AEyAEyAEyAEyAEyAEyAA5ImageVAA18_AspectRatioLayoutVGAA09_RotationL0VGAA010_AnimationG0VySbGGAA017_AppearanceActionG0VGAA010_BlendModeL0VGAA023AccessibilityAttachmentG0VGtGGAA05_MaskL0VyAKGGGGAKGAA0F0HPA30_AAA32_HPAnAA32_HPAkAA32_HPyHC_AmA0fG0HPyHCHC_A29_AAA33_HPyHCHC_AkAA32_HPyHCHC.279
++ _get_witness_table 7SwiftUI19_ConditionalContentVyACyAA6SpacerVAA08ModifiedD0VyAGyAA6HStackVyAA9TupleViewVyAE_ACyAGyAGy10StickerKit12CreateButton33_7DAC5D701512A91D2193BC271035D2BELLVAA25_AppearanceActionModifierVGAQGAGyAGyAA4TextVAA16_FlexFrameLayoutVGAA016_ForegroundStyleW0VyAA5ColorVGGGAEtGGAA01_Z6LayoutVGAA15_PositionLayoutVGGAGyAGyAGyAA06ScrollI0VyAA06ScrollI6ReaderVyAA012SubscriptionI0Vy7Combine9PublishedV9PublisherVySi_GAIyAKyAA6IDViewVyAGyAEA7_GAA9NamespaceV2IDVG_AA7ForEachVys10ArraySliceVySi6offset_AL06SearchI5ModelANLLC06SearchI9ModelItemV7elementtGSiAGyA26_yAGyAGyACyAL9EmojiCellVAA0I0PAAE18onLongPressGesture15minimumDuration15maximumDistance8pressing7performQrSd_12CoreGraphics7CGFloatVySbcSgyyctFQOyA47_AAE12onTapGesture5countA52_QrSi_yyctFQOyAGyAL0J4CellVAA022_EnvironmentKeyWritingW0VySSSgGG_Qo__Qo_GA62_yAA4FontVSgGGAA14_PaddingLayoutVGSSGAL017DelayedTransitionW0ANLLVGGAA9LazyHGridVyA34_yA43_SiA76_GGA27_tGGGGGA7_GA10_GAA20_MaskAlignmentEffectVyAGyAGyAA14LinearGradientVA7_GA10_GGGGAAA46_HPA12_AAA46_HPAeAA46_HPyHC_A11_AAA46_HPA8_AAA46_HPA5_AAA46_HPyHC_A7_AA0iW0HPyHCHC_A10_AAA102_HPyHCHCHC_A100_AAA46_HPA92_AAA46_HPA91_AAA46_HPA90_AAA46_HPyHC_A7_AAA102_HPyHCHC_A10_AAA102_HPyHCHC_A99_AAA102_HPyHCHCHC.257
++ _get_witness_table 7SwiftUI24ButtonStyleConfigurationV5LabelVAA4ViewHPyHC.116
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE11buttonStyleyQrqd__AA06ButtonE0Rd__lFQOyAA15ModifiedContentVyAA0F0VyAGyAGyAA6HStackVyAA6ZStackVyAA05TupleC0VyAGyAGyAA16RoundedRectangleVAA011_ForegroundE8ModifierVyAA5ColorVGGAA14_OpacityEffectVG_AKyAOyAGyAGyAA7DividerVAA12_FrameLayoutVGAYG_AA6SpacerVAGyAGyAGyAA4TextV10StickerKit017IntelligenceLightR0VGAA011_BrightnessR0VGAA022_EnvironmentKeyWritingO0VyAA5ImageV12DynamicRangeVSgGGA6_A4_tGGtGGGAA01_h5ShapeO0VyAA0M0VGGAA08_PaddingU0VGGAA05_FlextU0VG_A9_06CreateF033_7DAC5D701512A91D2193BC271035D2BELLV07PressedfE0VQo_HO.277
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA24ButtonStyleConfigurationV5LabelV_SbQo_HO.284
++ _memcmp
++ _objc_msgSend$CGPath
++ _objc_msgSend$CGPointValue
++ _objc_msgSend$CGRectValue
++ _objc_msgSend$CMTimeRangeValue
++ _objc_msgSend$__animateLiftCancellationAlongsideAnimator:completion:
++ _objc_msgSend$_addBoundingPathChangeObserver:
++ _objc_msgSend$_addRoundedCornerWithTrueCorner:radius:corner:clockwise:
++ _objc_msgSend$_addScrollViewScrollObserver:
++ _objc_msgSend$_baseStringForEmojiString:
++ _objc_msgSend$_coupleSkinToneChooserVariantsForString:
++ _objc_msgSend$_emojiSetForIdentifier:
++ _objc_msgSend$_eventDeferringComponent
++ _objc_msgSend$_flatImageWithColor:
++ _objc_msgSend$_horizontalVelocity
++ _objc_msgSend$_hostedWindowScene
++ _objc_msgSend$_immediatelyBeginDragWithTouch:completion:
++ _objc_msgSend$_inheritedRenderConfig
++ _objc_msgSend$_isCoupleMultiSkinToneEmoji:
++ _objc_msgSend$_multiPersonStringForString:skinToneVariantSpecifier:
++ _objc_msgSend$_removeBoundingPathChangeObserver:
++ _objc_msgSend$_removeScrollViewScrollObserver:
++ _objc_msgSend$_responderWindow
++ _objc_msgSend$_rootSheetPresentationController
++ _objc_msgSend$_setContinuousCornerRadius:
++ _objc_msgSend$_setKeyCode:
++ _objc_msgSend$_setModifiedInput:
++ _objc_msgSend$_setModifierFlags:
++ _objc_msgSend$_setPagingOrigin:
++ _objc_msgSend$_setPreviewContainer:
++ _objc_msgSend$_setShadowProperties:
++ _objc_msgSend$_setShouldScaleDownBehindDescendantSheets:
++ _objc_msgSend$_setUnmodifiedInput:
++ _objc_msgSend$_shouldHighlightEmoji
++ _objc_msgSend$_skinToneSpecifiersForString:
++ _objc_msgSend$_solveForInput:
++ _objc_msgSend$_synchronizedDrawingFence
++ _objc_msgSend$_systemImageNamed:
++ _objc_msgSend$_verticalVelocity
++ _objc_msgSend$absoluteDimension:
++ _objc_msgSend$accessibilityLabel
++ _objc_msgSend$accessibilityName
++ _objc_msgSend$accessibilityTextForItem:
++ _objc_msgSend$actionForStickerPickerSceneDidRequestDismissal
++ _objc_msgSend$actionOccurred:
++ _objc_msgSend$actionWithTitle:style:handler:
++ _objc_msgSend$activateWithCompletionBlock:
++ _objc_msgSend$adaptiveImageGlyph
++ _objc_msgSend$addAction:
++ _objc_msgSend$addBoundaryTimeObserverForTimes:queue:usingBlock:
++ _objc_msgSend$addCompletedHandler:
++ _objc_msgSend$addCompletion:
++ _objc_msgSend$addCurveToPoint:controlPoint1:controlPoint2:
++ _objc_msgSend$addGestureRecognizer:
++ _objc_msgSend$addInteraction:
++ _objc_msgSend$addLayoutGuide:
++ _objc_msgSend$addLineToPoint:
++ _objc_msgSend$addObserver:forKeyPath:options:context:
++ _objc_msgSend$addObserver:selector:name:object:
++ _objc_msgSend$addObserverForName:object:queue:usingBlock:
++ _objc_msgSend$addTarget:action:forControlEvents:
++ _objc_msgSend$addToRunLoop:forMode:
++ _objc_msgSend$additionalInsets
++ _objc_msgSend$alertControllerWithTitle:message:preferredStyle:
++ _objc_msgSend$allObjects
++ _objc_msgSend$allSubjectIndexes
++ _objc_msgSend$animateWithDuration:animations:
++ _objc_msgSend$animateWithDuration:animations:completion:
++ _objc_msgSend$animatedBackground
++ _objc_msgSend$archivedDataWithRootObject:requiringSecureCoding:error:
++ _objc_msgSend$array
++ _objc_msgSend$assetResourcesForLivePhoto:
++ _objc_msgSend$attitude
++ _objc_msgSend$attributeDictionary
++ _objc_msgSend$attributeSet
++ _objc_msgSend$attributeWithDomain:name:
++ _objc_msgSend$attributedStringWithAdaptiveImageGlyph:attributes:
++ _objc_msgSend$attributesAtIndex:effectiveRange:
++ _objc_msgSend$attributionInfo
++ _objc_msgSend$availableStickerNamesForAnimojiNamed:inStickerPack:
++ _objc_msgSend$availableStickerNamesForMemojiInStickerPack:
++ _objc_msgSend$avatarPickerView
++ _objc_msgSend$avatarsForFetchRequest:error:
++ _objc_msgSend$bakedInRep
++ _objc_msgSend$becomeFirstResponder
++ _objc_msgSend$beginImageSubjectAnalysisIfNecessary
++ _objc_msgSend$beginInteractiveMovementForItemAtIndexPath:
++ _objc_msgSend$bezierPathWithRoundedRect:byRoundingCorners:cornerRadii:
++ _objc_msgSend$blendWithAlphaMaskFilter
++ _objc_msgSend$boolForPreferenceKey:
++ _objc_msgSend$bringSubviewToFront:
++ _objc_msgSend$bundleIdentifier
++ _objc_msgSend$buttonWithType:
++ _objc_msgSend$canLoadObjectOfClass:
++ _objc_msgSend$cancel
++ _objc_msgSend$cancelInteractiveMovement
++ _objc_msgSend$categories
++ _objc_msgSend$categoryForType:
++ _objc_msgSend$categoryIdentifierList
++ _objc_msgSend$categoryIndexForCategoryType:
++ _objc_msgSend$categoryIndexForIndexPath:
++ _objc_msgSend$categoryType
++ _objc_msgSend$categoryTypeForCategoryIndex:
++ _objc_msgSend$categoryWithIdentifier:
++ _objc_msgSend$cellForItemAtIndexPath:
++ _objc_msgSend$centerXAnchor
++ _objc_msgSend$centerYAnchor
++ _objc_msgSend$clearActiveKBForwardingInputDelegateAndResign:
++ _objc_msgSend$clearColor
++ _objc_msgSend$closePath
++ _objc_msgSend$collectionView
++ _objc_msgSend$collectionViewLayout
++ _objc_msgSend$colorAttachments
++ _objc_msgSend$colorWithAlphaComponent:
++ _objc_msgSend$commandBuffer
++ _objc_msgSend$compositionTime
++ _objc_msgSend$configuration
++ _objc_msgSend$configurationWithHierarchicalColor:
++ _objc_msgSend$configurationWithPointSize:weight:scale:
++ _objc_msgSend$configureWith:
++ _objc_msgSend$constraintEqualToAnchor:constant:
++ _objc_msgSend$constraintEqualToAnchor:multiplier:
++ _objc_msgSend$constraintEqualToConstant:
++ _objc_msgSend$constraintEqualToSystemSpacingAfterAnchor:multiplier:
++ _objc_msgSend$constraintEqualToSystemSpacingBelowAnchor:multiplier:
++ _objc_msgSend$constraintGreaterThanOrEqualToSystemSpacingBelowAnchor:multiplier:
++ _objc_msgSend$containsObject:
++ _objc_msgSend$contentMode
++ _objc_msgSend$contentOffset
++ _objc_msgSend$contentView
++ _objc_msgSend$contentsOfDirectoryAtPath:error:
++ _objc_msgSend$contentsScale
++ _objc_msgSend$contextWithIdentity:
++ _objc_msgSend$controller
++ _objc_msgSend$convertPoint:toCoordinateSpace:
++ _objc_msgSend$convertPoint:toLayer:
++ _objc_msgSend$convertPoint:toView:
++ _objc_msgSend$convertRect:fromCoordinateSpace:
++ _objc_msgSend$convertRect:toCoordinateSpace:
++ _objc_msgSend$convertRect:toLayer:
++ _objc_msgSend$convertRect:toView:
++ _objc_msgSend$coordinateSpace
++ _objc_msgSend$createCGImage:fromRect:format:colorSpace:
++ _objc_msgSend$createDirectoryAtPath:withIntermediateDirectories:attributes:error:
++ _objc_msgSend$createEmojiStrikeWithImage:metadata:
++ _objc_msgSend$createStickerRepresentationsAtIndexSet:type:stickerIDs:progress:completion:
++ _objc_msgSend$currentDevice
++ _objc_msgSend$currentTime
++ _objc_msgSend$customView
++ _objc_msgSend$dataForKey:
++ _objc_msgSend$deactivate
++ _objc_msgSend$decodeBoolForKey:
++ _objc_msgSend$decodeDoubleForKey:
++ _objc_msgSend$decodeInt64ForKey:
++ _objc_msgSend$decodeObjectOfClass:forKey:
++ _objc_msgSend$defaultManager
++ _objc_msgSend$deleteItem:completionHandler:
++ _objc_msgSend$depthAttachment
++ _objc_msgSend$deselectAssetsWithIdentifiers:
++ _objc_msgSend$deselectItemAtIndexPath:animated:
++ _objc_msgSend$deviceMotion
++ _objc_msgSend$didBeingDrag:
++ _objc_msgSend$didDisplaySkinToneHelp
++ _objc_msgSend$didPinch:
++ _objc_msgSend$didRequestEmojiCreationWithSearchString:
++ _objc_msgSend$didSelectCreate:queryString:
++ _objc_msgSend$didSelectEditWithStickerIdentifer:sourceRect:
++ _objc_msgSend$didSelectEmoji:
++ _objc_msgSend$didSelectEmoji:dismiss:
++ _objc_msgSend$didSelectEmoji:indexPath:
++ _objc_msgSend$didSelectPresentPicker
++ _objc_msgSend$didSelectShareWithSticker:sourceRect:
++ _objc_msgSend$didSelectSticker:
++ _objc_msgSend$didSelectSticker:dismiss:
++ _objc_msgSend$didSelectSticker:indexPath:
++ _objc_msgSend$didSelectUnicodeCharacter:
++ _objc_msgSend$didVisitIndexPath:withSender:
++ _objc_msgSend$dismissViewControllerAnimated:completion:
++ _objc_msgSend$displayLinkWithTarget:selector:
++ _objc_msgSend$distributionIsRestricted
++ _objc_msgSend$downSampledHeicsDataFromData:maxLength:
++ _objc_msgSend$drawAtPoint:withAttributes:
++ _objc_msgSend$drawInRect:
++ _objc_msgSend$drawPrimitives:vertexStart:vertexCount:
++ _objc_msgSend$drawableSize
++ _objc_msgSend$durationsWithMaxCount:
++ _objc_msgSend$effectType
++ _objc_msgSend$effectWithStyle:
++ _objc_msgSend$effectiveUserInterfaceLayoutDirection
++ _objc_msgSend$emojiCategoryStringForCategoryType:
++ _objc_msgSend$emojiCategoryTypeForCategoryString:
++ _objc_msgSend$emojiGenerationRemoteController:didGenerateEmoji:shouldInsert:
++ _objc_msgSend$emojiGenerationRemoteControllerDidCancel:
++ _objc_msgSend$emojiKeyManager
++ _objc_msgSend$emojiLocaleDataWithLocaleIdentifier:
++ _objc_msgSend$emojiTokenWithString:localeData:
++ _objc_msgSend$emojiTokensForLocaleData:
++ _objc_msgSend$emojiTokensForText:phoneticReading:options:searchType:includePrefixMatches:
++ _objc_msgSend$emojiUsed:language:
++ _objc_msgSend$emojiWithString:withVariantMask:
++ _objc_msgSend$emptySuggestion
++ _objc_msgSend$encodeBool:forKey:
++ _objc_msgSend$encodeDouble:forKey:
++ _objc_msgSend$encodeInt64:forKey:
++ _objc_msgSend$encodeObject:forKey:
++ _objc_msgSend$encodeToCommandBuffer:primaryTexture:secondaryTexture:destinationTexture:
++ _objc_msgSend$encodeToCommandBuffer:sourceTexture:destinationTexture:
++ _objc_msgSend$endEncoding
++ _objc_msgSend$endInteractiveMovement
++ _objc_msgSend$error
++ _objc_msgSend$execute:assertion:error:
++ _objc_msgSend$extent
++ _objc_msgSend$externalURI
++ _objc_msgSend$feedbackGeneratorWithView:
++ _objc_msgSend$fileURLWithPath:
++ _objc_msgSend$finishWithImage:context:
++ _objc_msgSend$fontDescriptorByAddingAttributes:
++ _objc_msgSend$fontWithDescriptor:size:
++ _objc_msgSend$fontWithName:size:
++ _objc_msgSend$fontWithSize:
++ _objc_msgSend$functionWithName:
++ _objc_msgSend$gestureRecognizers
++ _objc_msgSend$getRed:green:blue:alpha:
++ _objc_msgSend$glyphType
++ _objc_msgSend$handBias
++ _objc_msgSend$handleKeyEvent:
++ _objc_msgSend$hasDisplayedSkinToneHelp
++ _objc_msgSend$hasLastUsedVariantForEmojiString:
++ _objc_msgSend$height
++ _objc_msgSend$heightAnchor
++ _objc_msgSend$highlightSubjectAtIndexSet:showCallout:showBurst:burstPoint:animated:
++ _objc_msgSend$hitTest:withEvent:
++ _objc_msgSend$horizontalGroupWithLayoutSize:repeatingSubitem:count:
++ _objc_msgSend$horizontalSizeClass
++ _objc_msgSend$imageAtIndexPath:completionHandler:
++ _objc_msgSend$imageByApplyingCGOrientation:
++ _objc_msgSend$imageByApplyingSymbolConfiguration:
++ _objc_msgSend$imageByApplyingTransform:
++ _objc_msgSend$imageByCompositingOverImage:
++ _objc_msgSend$imageByCroppingToRect:
++ _objc_msgSend$imageData
++ _objc_msgSend$imageForAvatarRecord:poseName:completionHandler:
++ _objc_msgSend$imageForDate:playbackStartDate:
++ _objc_msgSend$imageForImageGlyph:completionHandler:
++ _objc_msgSend$imageNamed:
++ _objc_msgSend$imageOrientation
++ _objc_msgSend$imageSubjectBoundsWithIndexes:
++ _objc_msgSend$imageView
++ _objc_msgSend$imageWithSymbolConfiguration:
++ _objc_msgSend$indexPath
++ _objc_msgSend$indexPathAfterUpdate
++ _objc_msgSend$indexPathBeforeUpdate
++ _objc_msgSend$indexPathForCategory:
++ _objc_msgSend$indexPathForCell:
++ _objc_msgSend$indexPathForIdentifier:ofType:
++ _objc_msgSend$indexPathForItem:
++ _objc_msgSend$indexPathForItemAtIndex:
++ _objc_msgSend$indexPathForItemAtPoint:
++ _objc_msgSend$indexPathsForSelectedItems
++ _objc_msgSend$indexPathsForVisibleItems
++ _objc_msgSend$init
++ _objc_msgSend$initWithActivityIndicatorStyle:
++ _objc_msgSend$initWithActivityItems:applicationActivities:
++ _objc_msgSend$initWithAsset:
++ _objc_msgSend$initWithBarButtonSystemItem:target:action:
++ _objc_msgSend$initWithCGColor:
++ _objc_msgSend$initWithCGImage:
++ _objc_msgSend$initWithCoder:
++ _objc_msgSend$initWithColor:
++ _objc_msgSend$initWithContainer:center:transform:
++ _objc_msgSend$initWithContentIdentifier:shortDescription:strikeImages:
++ _objc_msgSend$initWithContext:
++ _objc_msgSend$initWithCustomView:
++ _objc_msgSend$initWithData:maxCount:maxDimension:identifier:
++ _objc_msgSend$initWithData:scale:
++ _objc_msgSend$initWithDelegate:
++ _objc_msgSend$initWithDelegate:allowAddItem:allowEditing:interItemSpacing:shouldReverseNaturalLayout:
++ _objc_msgSend$initWithDevice:
++ _objc_msgSend$initWithDevice:sigma:
++ _objc_msgSend$initWithDomain:code:userInfo:
++ _objc_msgSend$initWithDuration:curve:animations:
++ _objc_msgSend$initWithDuration:timingParameters:
++ _objc_msgSend$initWithFontAttributes:
++ _objc_msgSend$initWithFrame:
++ _objc_msgSend$initWithFrame:collectionViewLayout:
++ _objc_msgSend$initWithImage:
++ _objc_msgSend$initWithImage:requestType:
++ _objc_msgSend$initWithImageContent:
++ _objc_msgSend$initWithImages:durations:
++ _objc_msgSend$initWithImages:durations:identifier:
++ _objc_msgSend$initWithInfo:timeout:forResponseOnQueue:withHandler:
++ _objc_msgSend$initWithInteger:
++ _objc_msgSend$initWithIsDropAnimation:
++ _objc_msgSend$initWithItemProvider:
++ _objc_msgSend$initWithLocalIdentifier:photoLibraryURL:imageSize:requestType:
++ _objc_msgSend$initWithMTLTexture:options:
++ _objc_msgSend$initWithMachName:
++ _objc_msgSend$initWithMass:stiffness:damping:initialVelocity:
++ _objc_msgSend$initWithNibName:bundle:
++ _objc_msgSend$initWithOptions:
++ _objc_msgSend$initWithPhotoLibraryURL:
++ _objc_msgSend$initWithPlayerItem:
++ _objc_msgSend$initWithQueryString:queryContext:
++ _objc_msgSend$initWithRed:green:blue:alpha:
++ _objc_msgSend$initWithRootViewController:
++ _objc_msgSend$initWithScaledImageWidth:scaledImageHeight:
++ _objc_msgSend$initWithSection:
++ _objc_msgSend$initWithSection:configuration:
++ _objc_msgSend$initWithSectionProvider:
++ _objc_msgSend$initWithSectionProvider:configuration:
++ _objc_msgSend$initWithSticker:
++ _objc_msgSend$initWithStickerIdentifier:representations:stickerName:effectType:externalURI:localizedDescription:metadata:attributionInfo:
++ _objc_msgSend$initWithString:
++ _objc_msgSend$initWithTarget:action:
++ _objc_msgSend$initWithType:
++ _objc_msgSend$initWithUUIDString:
++ _objc_msgSend$initWithUserQueryString:userQueryContext:
++ _objc_msgSend$initWithView:parameters:target:
++ _objc_msgSend$initWithWindowScene:
++ _objc_msgSend$initWithXPCDictionary:
++ _objc_msgSend$inputAccessoryView
++ _objc_msgSend$inputAccessoryViewController
++ _objc_msgSend$insertSubview:aboveSubview:
++ _objc_msgSend$insertSubview:atIndex:
++ _objc_msgSend$insertSubview:belowSubview:
++ _objc_msgSend$intrinsicContentSize
++ _objc_msgSend$invalidate
++ _objc_msgSend$invalidateIntrinsicContentSize
++ _objc_msgSend$invalidateLayout
++ _objc_msgSend$isActive
++ _objc_msgSend$isDescendantOfView:
++ _objc_msgSend$isDeviceMotionActive
++ _objc_msgSend$isDrawableAvailable
++ _objc_msgSend$isEnabled
++ _objc_msgSend$isEqual:
++ _objc_msgSend$isFloating
++ _objc_msgSend$isHidden
++ _objc_msgSend$isInHardwareKeyboardMode
++ _objc_msgSend$isInternalBuild
++ _objc_msgSend$isMainThread
++ _objc_msgSend$isMultiLibraryModeEnabled
++ _objc_msgSend$isReady
++ _objc_msgSend$isRestrictedImageGlyph:
++ _objc_msgSend$isScrollAnimating
++ _objc_msgSend$isSelected
++ _objc_msgSend$isSubjectHighlightAvailable
++ _objc_msgSend$itemAtIndexPath:
++ _objc_msgSend$itemWithLayoutSize:
++ _objc_msgSend$itk_HEICData
++ _objc_msgSend$itk_PNGData
++ _objc_msgSend$itk_backingScaleFactor
++ _objc_msgSend$itk_bounds
++ _objc_msgSend$itk_cgImageGeneratingIfNecessary
++ _objc_msgSend$itk_configureToFillSuperView
++ _objc_msgSend$itk_decodeInBackground
++ _objc_msgSend$itk_displayLinkWithTarget:selector:
++ _objc_msgSend$itk_imageOrientation
++ _objc_msgSend$itk_imageWithCGImage:
++ _objc_msgSend$itk_imageWithCIImage:
++ _objc_msgSend$itk_imageWithData:
++ _objc_msgSend$itk_layer
++ _objc_msgSend$itk_scale
++ _objc_msgSend$itk_scaledImageMaxDimension:scale:
++ _objc_msgSend$itk_setNeedsLayout
++ _objc_msgSend$itk_squareStickerImageWithEdgeLength:
++ _objc_msgSend$itk_valueWithPoint:
++ _objc_msgSend$keepInteractionAliveWithInteraction:
++ _objc_msgSend$keyCode
++ _objc_msgSend$keyWindow
++ _objc_msgSend$keyboardSuppressionController
++ _objc_msgSend$labelColor
++ _objc_msgSend$lastPathComponent
++ _objc_msgSend$lastUsedInputModeForCurrentContext
++ _objc_msgSend$lastUsedVariantEmojiForEmojiString:
++ _objc_msgSend$lastVisibleFirstEmojiIndex
++ _objc_msgSend$lastVisibleFirstEmojiIndexforCategory:
++ _objc_msgSend$layoutAttributesForCellWithIndexPath:
++ _objc_msgSend$layoutAttributesForElementsInRect:
++ _objc_msgSend$layoutAttributesForItemAtIndexPath:
++ _objc_msgSend$layoutAttributesForSupplementaryViewOfKind:withIndexPath:
++ _objc_msgSend$layoutDirection
++ _objc_msgSend$layoutIfNeeded
++ _objc_msgSend$leftAnchor
++ _objc_msgSend$livePhoto
++ _objc_msgSend$loadImageSubjectWithIndexes:completion:
++ _objc_msgSend$loadObjectOfClass:completionHandler:
++ _objc_msgSend$loadTracksWithMediaType:completionHandler:
++ _objc_msgSend$loadedTimeRanges
++ _objc_msgSend$localeIdentifier
++ _objc_msgSend$localizedName
++ _objc_msgSend$localizedSkinToneEmojiDescription
++ _objc_msgSend$locationInView:
++ _objc_msgSend$mainBundle
++ _objc_msgSend$mainQueue
++ _objc_msgSend$mainRunLoop
++ _objc_msgSend$makeKeyAndVisible
++ _objc_msgSend$mapTableWithKeyOptions:valueOptions:
++ _objc_msgSend$metadata
++ _objc_msgSend$modifiedInput
++ _objc_msgSend$modifierFlags
++ _objc_msgSend$moveItemFromIndex:toIndex:completionHandler:
++ _objc_msgSend$moveItemFromIndexPath:toIndexPath:completionHandler:
++ _objc_msgSend$moveToPoint:
++ _objc_msgSend$name
++ _objc_msgSend$navigationController
++ _objc_msgSend$navigationItem
++ _objc_msgSend$needsUpdateConstraints
++ _objc_msgSend$newBufferWithBytes:length:options:
++ _objc_msgSend$newCommandQueue
++ _objc_msgSend$newDefaultLibraryWithBundle:error:
++ _objc_msgSend$newDepthStencilStateWithDescriptor:
++ _objc_msgSend$newFunctionWithName:
++ _objc_msgSend$newFunctionWithName:constantValues:error:
++ _objc_msgSend$newInstanceWithConfiguration:
++ _objc_msgSend$newPipelineLibraryWithFilePath:error:
++ _objc_msgSend$newRenderPipelineStateWithDescriptor:error:
++ _objc_msgSend$newTextureWithDescriptor:
++ _objc_msgSend$nextDrawable
++ _objc_msgSend$numberOfItems
++ _objc_msgSend$numberOfItemsInCategory:
++ _objc_msgSend$numberOfItemsInSection:
++ _objc_msgSend$numberOfRowsInSection:
++ _objc_msgSend$numberOfSections
++ _objc_msgSend$outputImage
++ _objc_msgSend$panGestureRecognizer
++ _objc_msgSend$parentViewController
++ _objc_msgSend$pathForResource:ofType:
++ _objc_msgSend$pause
++ _objc_msgSend$performRequests:onPixelBuffer:withOrientation:andIdentifier:completionHandler:
++ _objc_msgSend$performSelector:withObject:
++ _objc_msgSend$pixelFormat
++ _objc_msgSend$play
++ _objc_msgSend$pointInside:withEvent:
++ _objc_msgSend$pointSize
++ _objc_msgSend$popoverPresentationController
++ _objc_msgSend$postEmojiSearchViewButtonConfigurationWillChangeNotification:
++ _objc_msgSend$postNotification:
++ _objc_msgSend$postNotificationName:object:
++ _objc_msgSend$preferencesActions
++ _objc_msgSend$preferredFontDescriptorWithTextStyle:
++ _objc_msgSend$present
++ _objc_msgSend$presentActionsForSelectedAvatar
++ _objc_msgSend$presentEditMenuWithConfiguration:
++ _objc_msgSend$presentViewController:animated:completion:
++ _objc_msgSend$presentationController
++ _objc_msgSend$presentedViewController
++ _objc_msgSend$primaryLanguage
++ _objc_msgSend$processRequest:progressHandler:completionHandler:
++ _objc_msgSend$quaternion
++ _objc_msgSend$recentEmojis
++ _objc_msgSend$refresh
++ _objc_msgSend$registerDataRepresentationForTypeIdentifier:visibility:loadHandler:
++ _objc_msgSend$registerObjectOfClass:visibility:loadHandler:
++ _objc_msgSend$registeredTypeIdentifiers
++ _objc_msgSend$reloadCategoryForIndexPath:withSender:
++ _objc_msgSend$reloadCategoryForOffsetPercentage:withSender:
++ _objc_msgSend$reloadData
++ _objc_msgSend$reloadForCategory:withSender:
++ _objc_msgSend$removeAllAnimations
++ _objc_msgSend$removeFromRunLoop:forMode:
++ _objc_msgSend$removeFromSuperview
++ _objc_msgSend$removeGestureRecognizer:
++ _objc_msgSend$removeInteraction:
++ _objc_msgSend$removeItemAtPath:error:
++ _objc_msgSend$removeObject:
++ _objc_msgSend$removeObserver:
++ _objc_msgSend$removeTimeObserver:
++ _objc_msgSend$renderCommandEncoderWithDescriptor:
++ _objc_msgSend$renderSize
++ _objc_msgSend$representations
++ _objc_msgSend$requestDataForAssetResource:options:dataReceivedHandler:completionHandler:
++ _objc_msgSend$requestForCustomAvatars
++ _objc_msgSend$requestForPredefinedAvatars
++ _objc_msgSend$requestForStorePrimaryAvatar
++ _objc_msgSend$resignFirstResponder
++ _objc_msgSend$resignKeyWindow
++ _objc_msgSend$resolvedColorWithTraitCollection:
++ _objc_msgSend$respondsToSelector:
++ _objc_msgSend$results
++ _objc_msgSend$rightAnchor
++ _objc_msgSend$role
++ _objc_msgSend$rootViewController
++ _objc_msgSend$safeAreaLayoutGuide
++ _objc_msgSend$sanitizedPrompt
++ _objc_msgSend$sceneView
++ _objc_msgSend$screen
++ _objc_msgSend$scrollDirection
++ _objc_msgSend$scrollRectToVisible:animated:
++ _objc_msgSend$scrollToItemAtIndexPath:atScrollPosition:animated:
++ _objc_msgSend$searchText
++ _objc_msgSend$secondaryLabelColor
++ _objc_msgSend$secondarySystemBackgroundColor
++ _objc_msgSend$sectionLayoutForSectionIndex:environment:
++ _objc_msgSend$sectionWithGroup:
++ _objc_msgSend$seekToTime:
++ _objc_msgSend$seekToTime:toleranceBefore:toleranceAfter:completionHandler:
++ _objc_msgSend$selectAvatarRecordWithIdentifier:animated:
++ _objc_msgSend$selectItemAtIndexPath:animated:scrollPosition:
++ _objc_msgSend$selectedSubjectIndexes
++ _objc_msgSend$selectionChanged
++ _objc_msgSend$sendAction:
++ _objc_msgSend$sendSignal:toChannel:withPayload:
++ _objc_msgSend$sendSubviewToBack:
++ _objc_msgSend$separatorColor
++ _objc_msgSend$service
++ _objc_msgSend$setAccessibilityIdentifier:
++ _objc_msgSend$setAccessibilityLabel:
++ _objc_msgSend$setAccessibilityName:
++ _objc_msgSend$setAccessibilityTraits:
++ _objc_msgSend$setActionAtItemEnd:
++ _objc_msgSend$setActivationController:
++ _objc_msgSend$setActiveInteractionTypes:
++ _objc_msgSend$setAdjustsFontForContentSizeCategory:
++ _objc_msgSend$setAdjustsFontSizeToFitWidth:
++ _objc_msgSend$setAlphaBlendOperation:
++ _objc_msgSend$setAnalysis:
++ _objc_msgSend$setAnimationFence:
++ _objc_msgSend$setAnimationsEnabled:
++ _objc_msgSend$setAttributedText:
++ _objc_msgSend$setAttributes:
++ _objc_msgSend$setAttributionInfo:
++ _objc_msgSend$setAutomaticallyUpdatesConfiguration:
++ _objc_msgSend$setAutoresizingMask:
++ _objc_msgSend$setAutoreverses:
++ _objc_msgSend$setBackgroundColor:
++ _objc_msgSend$setBackgroundImage:
++ _objc_msgSend$setBakedInRep:
++ _objc_msgSend$setBlendingEnabled:
++ _objc_msgSend$setBundleIDs:
++ _objc_msgSend$setBundleId:
++ _objc_msgSend$setCancelsTouchesInView:
++ _objc_msgSend$setCategory:mode:options:error:
++ _objc_msgSend$setCenter:
++ _objc_msgSend$setClearColor:
++ _objc_msgSend$setClearDepth:
++ _objc_msgSend$setCompletionHandler:
++ _objc_msgSend$setConfigurationUpdateHandler:
++ _objc_msgSend$setConstant:
++ _objc_msgSend$setConstantValue:type:atIndex:
++ _objc_msgSend$setContentInset:
++ _objc_msgSend$setContentMode:
++ _objc_msgSend$setContentOffset:
++ _objc_msgSend$setContentOffset:animated:
++ _objc_msgSend$setContentsScale:
++ _objc_msgSend$setCornerCurve:
++ _objc_msgSend$setCornerRadius:
++ _objc_msgSend$setDelaysTouchesBegan:
++ _objc_msgSend$setDepthAttachmentPixelFormat:
++ _objc_msgSend$setDepthCompareFunction:
++ _objc_msgSend$setDepthStencilState:
++ _objc_msgSend$setDepthWriteEnabled:
++ _objc_msgSend$setDestinationAlphaBlendFactor:
++ _objc_msgSend$setDestinationRGBBlendFactor:
++ _objc_msgSend$setDevice:
++ _objc_msgSend$setDeviceMotionUpdateInterval:
++ _objc_msgSend$setDisableActions:
++ _objc_msgSend$setDisplayType:
++ _objc_msgSend$setDoesDimBackground:
++ _objc_msgSend$setDoesShowStickers:
++ _objc_msgSend$setDrawableSize:
++ _objc_msgSend$setEdgeMode:
++ _objc_msgSend$setEffectType:
++ _objc_msgSend$setEnabled:
++ _objc_msgSend$setExcludedActivityTypes:
++ _objc_msgSend$setExclusiveTouch:
++ _objc_msgSend$setExternalURI:
++ _objc_msgSend$setFailsPastMaxTouches:
++ _objc_msgSend$setFetchAttributes:
++ _objc_msgSend$setFilterQueries:
++ _objc_msgSend$setFilters:
++ _objc_msgSend$setFloating:positionedAtDefaultOffsetAnimated:
++ _objc_msgSend$setFont:
++ _objc_msgSend$setFoundItemsHandler:
++ _objc_msgSend$setFragmentBytes:length:atIndex:
++ _objc_msgSend$setFragmentFunction:
++ _objc_msgSend$setFragmentTexture:atIndex:
++ _objc_msgSend$setFramebufferOnly:
++ _objc_msgSend$setHidden:
++ _objc_msgSend$setHidesBackButton:
++ _objc_msgSend$setHitTestsAsOpaque:
++ _objc_msgSend$setIdentifier:
++ _objc_msgSend$setImage:
++ _objc_msgSend$setInitialFrameIndex:
++ _objc_msgSend$setInputImage:
++ _objc_msgSend$setInteger:forKey:
++ _objc_msgSend$setIsAccessibilityElement:
++ _objc_msgSend$setItk_backgroundColor:
++ _objc_msgSend$setKeyPath:
++ _objc_msgSend$setKeyboardLanguage:
++ _objc_msgSend$setLargeContentTitle:
++ _objc_msgSend$setLastViewedCategory:
++ _objc_msgSend$setLastVisibleFirstEmojiIndex:
++ _objc_msgSend$setLeftBarButtonItem:
++ _objc_msgSend$setLoadAction:
++ _objc_msgSend$setLoopTimeRange:
++ _objc_msgSend$setMaintainHostFirstResponderWhenClientWantsKeyboard:
++ _objc_msgSend$setMaskImage:
++ _objc_msgSend$setMasksToBounds:
++ _objc_msgSend$setMaximumContentSizeCategory:
++ _objc_msgSend$setMaximumNumberOfTouches:
++ _objc_msgSend$setMetadata:
++ _objc_msgSend$setMinimumNumberOfTouches:
++ _objc_msgSend$setModalPresentationStyle:
++ _objc_msgSend$setMuted:
++ _objc_msgSend$setName:
++ _objc_msgSend$setNeedsLayout
++ _objc_msgSend$setNeedsUpdateConfiguration
++ _objc_msgSend$setNumberOfLines:
++ _objc_msgSend$setObject:forKey:
++ _objc_msgSend$setOpaque:
++ _objc_msgSend$setPagingEnabled:
++ _objc_msgSend$setPassthroughViews:
++ _objc_msgSend$setPaused:
++ _objc_msgSend$setPermittedArrowDirections:
++ _objc_msgSend$setPipelineLibrary:
++ _objc_msgSend$setPixelFormat:
++ _objc_msgSend$setPlayer:
++ _objc_msgSend$setPreferredContentSize:
++ _objc_msgSend$setPreferredFrameRateRange:
++ _objc_msgSend$setPrefetchingEnabled:
++ _objc_msgSend$setPresentsWithTransaction:
++ _objc_msgSend$setRenderPipelineState:
++ _objc_msgSend$setRepeatCount:
++ _objc_msgSend$setRepresentations:
++ _objc_msgSend$setRgbBlendOperation:
++ _objc_msgSend$setRightBarButtonItem:
++ _objc_msgSend$setRole:
++ _objc_msgSend$setRootViewController:
++ _objc_msgSend$setSanitizedPrompt:
++ _objc_msgSend$setScrollDirection:
++ _objc_msgSend$setSearchResults:
++ _objc_msgSend$setSearchText:
++ _objc_msgSend$setSelected:
++ _objc_msgSend$setShadowPath:
++ _objc_msgSend$setShowsHorizontalScrollIndicator:
++ _objc_msgSend$setShowsLargeContentViewer:
++ _objc_msgSend$setShowsVerticalScrollIndicator:
++ _objc_msgSend$setSize:
++ _objc_msgSend$setSourceAlphaBlendFactor:
++ _objc_msgSend$setSourceFrame:
++ _objc_msgSend$setSourceRGBBlendFactor:
++ _objc_msgSend$setSourceRect:
++ _objc_msgSend$setSourceView:
++ _objc_msgSend$setStorageMode:
++ _objc_msgSend$setSubjectViewUserInteractionDisabled:
++ _objc_msgSend$setText:
++ _objc_msgSend$setTextAlignment:
++ _objc_msgSend$setTextColor:
++ _objc_msgSend$setTexture:
++ _objc_msgSend$setTintColor:
++ _objc_msgSend$setTitle:
++ _objc_msgSend$setToolbarHidden:
++ _objc_msgSend$setToolbarItems:
++ _objc_msgSend$setType:
++ _objc_msgSend$setUsage:
++ _objc_msgSend$setUseEmojiKeyboardMeshTransform:
++ _objc_msgSend$setUserInteractionEnabled:
++ _objc_msgSend$setUsesLightDimmingViewInLightMode:
++ _objc_msgSend$setValue:forKey:
++ _objc_msgSend$setVertexBuffer:offset:atIndex:
++ _objc_msgSend$setVertexBytes:length:atIndex:
++ _objc_msgSend$setVertexFunction:
++ _objc_msgSend$setVideoComposition:
++ _objc_msgSend$setViewControllers:
++ _objc_msgSend$setWidthFollowsPreferredContentSizeWhenEdgeAttached:
++ _objc_msgSend$setWindowLevel:
++ _objc_msgSend$set_ignoresKeyboardAvoidance:
++ _objc_msgSend$set_maximumResizableSize:
++ _objc_msgSend$set_minimumResizableSize:
++ _objc_msgSend$set_photosImageForRemoveBackground:
++ _objc_msgSend$set_resizable:
++ _objc_msgSend$set_rotatable:
++ _objc_msgSend$set_wantsElasticEffects:
++ _objc_msgSend$settlingDuration
++ _objc_msgSend$shadowPropertiesForDrag
++ _objc_msgSend$sharedApplication
++ _objc_msgSend$sharedInputModeController
++ _objc_msgSend$sharedPhotoLibrary
++ _objc_msgSend$sharedPreferencesController
++ _objc_msgSend$sheetPresentationController
++ _objc_msgSend$sizeWithAttributes:
++ _objc_msgSend$sizeWithWidthDimension:heightDimension:
++ _objc_msgSend$skinToneVariants
++ _objc_msgSend$snapshotIdentifiersInSection:
++ _objc_msgSend$sourceImage
++ _objc_msgSend$standardUserDefaults
++ _objc_msgSend$startAnimating
++ _objc_msgSend$startAnimation
++ _objc_msgSend$startAnimationAfterDelay:
++ _objc_msgSend$startDeviceMotionUpdatesToQueue:withHandler:
++ _objc_msgSend$state
++ _objc_msgSend$status
++ _objc_msgSend$stickerAtIndexPath:completionHandler:
++ _objc_msgSend$stickerConfigurationForAnimojiNamed:inStickerPack:stickerName:
++ _objc_msgSend$stickerConfigurationForMemojiInStickerPack:stickerName:
++ _objc_msgSend$stickerEffectEditorViewControllerControllerDidTapDone
++ _objc_msgSend$stickerForImageGlyph:completionHandler:
++ _objc_msgSend$stickerPhotosViewControllerShouldDismiss
++ _objc_msgSend$stickerPhotosViewControllerWithDidCreate:isLive:sourceFrame:
++ _objc_msgSend$stickerPhotosViewControllerWithDidCreate:sourceFrame:
++ _objc_msgSend$stiffness
++ _objc_msgSend$stk_performRippleAnimationAtIndexPath:delay:
++ _objc_msgSend$stopAnimating
++ _objc_msgSend$stopAnimation:
++ _objc_msgSend$stopDeviceMotionUpdates
++ _objc_msgSend$string
++ _objc_msgSend$stringByDeletingPathExtension
++ _objc_msgSend$subjectIndexAtPoint:
++ _objc_msgSend$subviews
++ _objc_msgSend$superview
++ _objc_msgSend$supportsFamily:
++ _objc_msgSend$supportsSkinToneVariants
++ _objc_msgSend$suppressKeyboardFocusRequestsForReason:
++ _objc_msgSend$systemBackgroundColor
++ _objc_msgSend$systemBlueColor
++ _objc_msgSend$systemFontOfSize:
++ _objc_msgSend$systemGrayColor
++ _objc_msgSend$systemImageNamed:
++ _objc_msgSend$systemImageNamed:withConfiguration:
++ _objc_msgSend$systemLayoutSizeFittingSize:withHorizontalFittingPriority:verticalFittingPriority:
++ _objc_msgSend$systemPhotoLibraryURL
++ _objc_msgSend$systemWhiteColor
++ _objc_msgSend$targetContentOffsetForProposedContentOffset:
++ _objc_msgSend$targetContentOffsetForProposedContentOffset:withScrollingVelocity:
++ _objc_msgSend$targetPreviewTransform
++ _objc_msgSend$targetTimestamp
++ _objc_msgSend$tertiaryLabelColor
++ _objc_msgSend$tertiarySystemFillColor
++ _objc_msgSend$text
++ _objc_msgSend$texture
++ _objc_msgSend$texture2DDescriptorWithPixelFormat:width:height:mipmapped:
++ _objc_msgSend$thumbnailScope
++ _objc_msgSend$thumbnailsFitToSize:maxCount:
++ _objc_msgSend$timestamp
++ _objc_msgSend$tintColor
++ _objc_msgSend$toggleGlow:
++ _objc_msgSend$traitCollection
++ _objc_msgSend$traitCollectionWithUserInterfaceStyle:
++ _objc_msgSend$type
++ _objc_msgSend$unmodifiedInput
++ _objc_msgSend$updateAction
++ _objc_msgSend$updateEmojiKeyManagerWithKey:withKeyView:
++ _objc_msgSend$updateInteractiveMovementTargetPosition:
++ _objc_msgSend$updateSkinToneBaseKey:variantUsed:
++ _objc_msgSend$userInteractionEnded
++ _objc_msgSend$userInteractionStarted
++ _objc_msgSend$userInterfaceIdiom
++ _objc_msgSend$userInterfaceStyle
++ _objc_msgSend$userQueryContextWithCurrentSuggestion:
++ _objc_msgSend$valueForKey:
++ _objc_msgSend$valueWithCAColorMatrix:
++ _objc_msgSend$valueWithCMTime:
++ _objc_msgSend$valueWithSize:
++ _objc_msgSend$verticalGroupWithLayoutSize:repeatingSubitem:count:
++ _objc_msgSend$videoAsset
++ _objc_msgSend$videoCompositionWithAsset:applyingCIFiltersWithHandler:
++ _objc_msgSend$videoPreviewNormalizedCropRect
++ _objc_msgSend$videoPreviewSubjectMatteAtCompositionTime:
++ _objc_msgSend$videoPreviewTimeRange
++ _objc_msgSend$viewControllers
++ _objc_msgSend$visibleCells
++ _objc_msgSend$waitUntilScheduled
++ _objc_msgSend$weakObjectsHashTable
++ _objc_msgSend$width
++ _objc_msgSend$widthAnchor
++ _objc_msgSend$window
++ _objc_msgSend$windowScene
++ _objc_msgSend$writeEmojiDefaults
++ _objectdestroy.104Tm
++ _objectdestroy.107Tm
++ _objectdestroy.115Tm
++ _objectdestroy.13Tm
++ _objectdestroy.163Tm
++ _objectdestroy.166Tm
++ _objectdestroy.182Tm
++ _objectdestroy.19Tm
++ _objectdestroy.221Tm
++ _objectdestroy.235Tm
++ _objectdestroy.23Tm
++ _objectdestroy.29Tm
++ _objectdestroy.41Tm
++ _objectdestroy.77Tm
++ _objectdestroy.85Tm
++ _objectdestroy.87Tm
++ _objectdestroy.97Tm
++ _symbolic _____yAAyAAy__________G_____G_____G 7SwiftUI15ModifiedContentV 10StickerKit9EmojiCellV AA14_PaddingLayoutV AA25_AllowsHitTestingModifierV AA12_ScaleEffectV
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV 10StickerKit9EmojiCellV AA14_PaddingLayoutV AA25_AllowsHitTestingModifierV
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA14LinearGradientV AA12_FrameLayoutV AA09_PositionH0V
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV AA15_RotationEffectV
++ _symbolic _____yAAy__________y_____SgGG_____G 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA14_PaddingLayoutV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So6CGSizeV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 10StickerKit9EmojiCellV AA14_PaddingLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA14LinearGradientV AA12_FrameLayoutV
++ _symbolic _____y_______________G 7SwiftUI15StrokeShapeViewV AA4PathV AA04FillD5StyleV AA05EmptyE0V
++ _symbolic _____y__________yAAyAAyAAy__________G_____G_____GGG 7SwiftUI15ModifiedContentV AA6SpacerV AA16_OverlayModifierV 10StickerKit9EmojiCellV AA14_PaddingLayoutV AA017_AllowsHitTestingG0V AA12_ScaleEffectV
+- __PROTOCOLS_STKEmojiAndStickerCollectionViewConfiguration.25
+- _block_copy_helper.101
+- _block_copy_helper.104
+- _block_copy_helper.107
+- _block_copy_helper.114
+- _block_copy_helper.120
+- _block_copy_helper.122
+- _block_copy_helper.124
+- _block_copy_helper.128
+- _block_copy_helper.130
+- _block_copy_helper.133
+- _block_copy_helper.137
+- _block_copy_helper.141
+- _block_copy_helper.143
+- _block_copy_helper.147
+- _block_copy_helper.15
+- _block_copy_helper.160
+- _block_copy_helper.167
+- _block_copy_helper.171
+- _block_copy_helper.174
+- _block_copy_helper.200
+- _block_copy_helper.207
+- _block_copy_helper.21
+- _block_copy_helper.210
+- _block_copy_helper.23
+- _block_copy_helper.30
+- _block_copy_helper.306
+- _block_copy_helper.32
+- _block_copy_helper.36
+- _block_copy_helper.49
+- _block_copy_helper.58
+- _block_copy_helper.60
+- _block_copy_helper.63
+- _block_copy_helper.66
+- _block_copy_helper.75
+- _block_copy_helper.81
+- _block_copy_helper.85
+- _block_copy_helper.89
+- _block_copy_helper.92
+- _block_copy_helper.95
+- _block_descriptor.103
+- _block_descriptor.106
+- _block_descriptor.109
+- _block_descriptor.116
+- _block_descriptor.122
+- _block_descriptor.124
+- _block_descriptor.126
+- _block_descriptor.130
+- _block_descriptor.132
+- _block_descriptor.135
+- _block_descriptor.139
+- _block_descriptor.143
+- _block_descriptor.145
+- _block_descriptor.149
+- _block_descriptor.162
+- _block_descriptor.169
+- _block_descriptor.17
+- _block_descriptor.173
+- _block_descriptor.176
+- _block_descriptor.202
+- _block_descriptor.209
+- _block_descriptor.212
+- _block_descriptor.23
+- _block_descriptor.25
+- _block_descriptor.308
+- _block_descriptor.32
+- _block_descriptor.34
+- _block_descriptor.38
+- _block_descriptor.51
+- _block_descriptor.60
+- _block_descriptor.62
+- _block_descriptor.65
+- _block_descriptor.68
+- _block_descriptor.77
+- _block_descriptor.83
+- _block_descriptor.87
+- _block_descriptor.91
+- _block_descriptor.94
+- _block_descriptor.97
+- _block_destroy_helper.102
+- _block_destroy_helper.105
+- _block_destroy_helper.108
+- _block_destroy_helper.115
+- _block_destroy_helper.121
+- _block_destroy_helper.123
+- _block_destroy_helper.125
+- _block_destroy_helper.129
+- _block_destroy_helper.131
+- _block_destroy_helper.134
+- _block_destroy_helper.138
+- _block_destroy_helper.142
+- _block_destroy_helper.144
+- _block_destroy_helper.148
+- _block_destroy_helper.16
+- _block_destroy_helper.161
+- _block_destroy_helper.168
+- _block_destroy_helper.172
+- _block_destroy_helper.175
+- _block_destroy_helper.201
+- _block_destroy_helper.208
+- _block_destroy_helper.211
+- _block_destroy_helper.22
+- _block_destroy_helper.24
+- _block_destroy_helper.307
+- _block_destroy_helper.31
+- _block_destroy_helper.33
+- _block_destroy_helper.37
+- _block_destroy_helper.50
+- _block_destroy_helper.59
+- _block_destroy_helper.61
+- _block_destroy_helper.64
+- _block_destroy_helper.67
+- _block_destroy_helper.76
+- _block_destroy_helper.82
+- _block_destroy_helper.86
+- _block_destroy_helper.90
+- _block_destroy_helper.93
+- _block_destroy_helper.96
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE11buttonStyleyQrqd__AA06ButtonG0Rd__lFQOyAA6VStackVyAA05TupleE0VyACyAA7ForEachVySaySi6offset_SaySSG7elementtGSiACyACyAA6HStackVyAMySaySiAN_SSAPtGSiAKyAA0H0VyACyACyAeAE13phaseAnimator_7trigger7content9animationQrqd_0__qd_1_qd_2_AA011PlaceholderdE0VyxG_qd__tcAA9AnimationVSgqd__ctSQRd__7ElementQyd_0_Rsd__STRd_0_SQRd_1_AaDRd_2_r2_lFQOyACy10StickerKit17NonDraggableLabelVAA12_FrameLayoutVG_SbSaySbGSiACyA0_yA12_GAA12_ScaleEffectVGQo_AA19_BackgroundModifierVyACyACyAA16RoundedRectangleV6_InsetVAA011_ForegroundG8ModifierVyAA5ColorVGGA11_GSgGGAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGG_AA6SpacerVSgtGGGA11_GAA14_PaddingLayoutVGGA51_G_ACyACyAA7DividerVA11_GA51_GACyASyAKyA44__AVyACyACyA7_14DraggableLabelVA33_GA11_GGA44_A63_A44_tGGA40_GtGSgG_A7_05EmojihG033_4A925D5F998020444AE9B080E0E4210DLLVQo_A11_GAaDHPqd0__AaDHD3_A73_HO_A11_AA0E8ModifierHPyHCHC.112
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA14GeometryReaderVyAA6ZStackVyAA9TupleViewVyACyAA0I0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOy10StickerKit14DraggableLabelV_AO9DragStateOQo_AA12_FrameLayoutVG_ACyAkAEAlmN_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAO05PopupI0VyACyACyACyAO021FamilyVariantSelectorI0VAA30_EnvironmentKeyWritingModifierVyAA0U9DirectionOGGAVGAA13_OffsetEffectVGG_AO5EmojiVQo_AA25_AppearanceActionModifierVGSgtGGGAA08_PaddingU0VGAVGAaJHPA23_AaJHPA20_AaJHPyHC_A22_AA0I8ModifierHPyHCHC_AvAA25_HPyHCHC.69
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA014_ViewModifier_D0Vy10StickerKit017DelayedTransitionG033_7DAC5D701512A91D2193BC271035D2BELLVGAA013_TraitWritingG0VyAA0kS3KeyVGGALGAA0F0HPAraTHPAlaTHPyHC_AqA0fG0HPyHCHC_AlaTHPyHCHC.281
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAA014_ViewModifier_D0Vy10StickerKit23IntelligenceLightEffectVGAA08_OpacityL0VGAA011_BackgroundG0VyAEyAA6ZStackVyAA05TupleF0VyAEyAA9RectangleVAA012_Environmentn5StyleG0VyAA017HierarchicalShapeS0VGGSg_AEyAEyAEyAEyAEyAEyAA5ImageVAA18_AspectRatioLayoutVGAA09_RotationL0VGAA010_AnimationG0VySbGGAA017_AppearanceActionG0VGAA010_BlendModeL0VGAA023AccessibilityAttachmentG0VGtGGAA05_MaskL0VyAKGGGGAKGAA0F0HPA30_AAA32_HPAnAA32_HPAkAA32_HPyHC_AmA0fG0HPyHCHC_A29_AAA33_HPyHCHC_AkAA32_HPyHCHC.282
+- _get_witness_table 7SwiftUI19_ConditionalContentVyACyAA6SpacerVAA08ModifiedD0VyAGyAA6HStackVyAA9TupleViewVyAE_ACyAGyAGy10StickerKit12CreateButton33_7DAC5D701512A91D2193BC271035D2BELLVAA25_AppearanceActionModifierVGAQGAGyAGyAA4TextVAA16_FlexFrameLayoutVGAA016_ForegroundStyleW0VyAA5ColorVGGGAEtGGAA01_Z6LayoutVGAA15_PositionLayoutVGGAGyAGyAGyAA06ScrollI0VyAA06ScrollI6ReaderVyAA012SubscriptionI0Vy7Combine9PublishedV9PublisherVySi_GAIyAKyAA6IDViewVyAGyAEA7_GAA9NamespaceV2IDVG_AA7ForEachVys10ArraySliceVySi6offset_AL06SearchI5ModelANLLC06SearchI9ModelItemV7elementtGSiAGyA26_yAGyAGyACyAL9EmojiCellVAA0I0PAAE18onLongPressGesture15minimumDuration15maximumDistance8pressing7performQrSd_12CoreGraphics7CGFloatVySbcSgyyctFQOyA47_AAE12onTapGesture5countA52_QrSi_yyctFQOyAGyAL0J4CellVAA022_EnvironmentKeyWritingW0VySSSgGG_Qo__Qo_GA62_yAA4FontVSgGGAA14_PaddingLayoutVGSSGAL017DelayedTransitionW0ANLLVGGAA9LazyHGridVyA34_yA43_SiA76_GGA27_tGGGGGA7_GA10_GAA20_MaskAlignmentEffectVyAGyAGyAA14LinearGradientVA7_GA10_GGGGAAA46_HPA12_AAA46_HPAeAA46_HPyHC_A11_AAA46_HPA8_AAA46_HPA5_AAA46_HPyHC_A7_AA0iW0HPyHCHC_A10_AAA102_HPyHCHCHC_A100_AAA46_HPA92_AAA46_HPA91_AAA46_HPA90_AAA46_HPyHC_A7_AAA102_HPyHCHC_A10_AAA102_HPyHCHC_A99_AAA102_HPyHCHCHC.260
+- _get_witness_table 7SwiftUI24ButtonStyleConfigurationV5LabelVAA4ViewHPyHC.113
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE11buttonStyleyQrqd__AA06ButtonE0Rd__lFQOyAA15ModifiedContentVyAA0F0VyAGyAGyAA6HStackVyAA6ZStackVyAA05TupleC0VyAGyAGyAA16RoundedRectangleVAA011_ForegroundE8ModifierVyAA5ColorVGGAA14_OpacityEffectVG_AKyAOyAGyAGyAA7DividerVAA12_FrameLayoutVGAYG_AA6SpacerVAGyAGyAGyAA4TextV10StickerKit017IntelligenceLightR0VGAA011_BrightnessR0VGAA022_EnvironmentKeyWritingO0VyAA5ImageV12DynamicRangeVSgGGA6_A4_tGGtGGGAA01_h5ShapeO0VyAA0M0VGGAA08_PaddingU0VGGAA05_FlextU0VG_A9_06CreateF033_7DAC5D701512A91D2193BC271035D2BELLV07PressedfE0VQo_HO.280
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA24ButtonStyleConfigurationV5LabelV_SbQo_HO.287
+- _malloc
+- _objc_claimAutoreleasedReturnValue
+- _objc_retain_x4
+- _objectdestroy.102Tm
+- _objectdestroy.106Tm
+- _objectdestroy.114Tm
+- _objectdestroy.161Tm
+- _objectdestroy.165Tm
+- _objectdestroy.181Tm
+- _objectdestroy.18Tm
+- _objectdestroy.219Tm
+- _objectdestroy.21Tm
+- _objectdestroy.233Tm
+- _objectdestroy.28Tm
+- _objectdestroy.30Tm
+- _objectdestroy.43Tm
+- _objectdestroy.45Tm
+- _objectdestroy.76Tm
+- _objectdestroy.84Tm
+- _objectdestroy.86Tm
+- _objectdestroy.88Tm
+- _objectdestroy.96Tm
+- _sqrt
+- _symbolic Si6offset______7elementt 10StickerKit16SearchResultItemO
+- _symbolic _____XDXMT 10StickerKit33UnifiedRecentImageGlyphDataSourceC
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI4AxisO3SetV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI4EdgeO3SetV
+- _symbolic _____y______Qo_ 7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO 10StickerKit07VariantC033_28365C8DB176DC835E70E398F731BCCDLLV
+- _symbolic _____y___________Qo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO 10StickerKit14DraggableLabelV AG9DragStateO
+- _symbolic _____y_____yAAyAAy__________ySiSgGG_____GACy_____SgGG_SNy_____GQo_ 7SwiftUI4ViewPAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamiceF0O5BoundRtd__lFQO AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA06_FixedF6LayoutV AA4FontV AF
+- _symbolic _____y_____y__________G_SbSaySbGSiAAy_____yADG_____GQo_ 7SwiftUI4ViewPAAE13phaseAnimator_7trigger7content9animationQrqd_0__qd_1_qd_2_AA018PlaceholderContentC0VyxG_qd__tcAA9AnimationVSgqd__ctSQRd__7ElementQyd_0_Rsd__STRd_0_SQRd_1_AaBRd_2_r2_lFQO AA08ModifiedJ0V 10StickerKit17NonDraggableLabelV AA12_FrameLayoutV AI AA12_ScaleEffectV
+- _symbolic _____y_____y_____yAByABy__________y_____GG_____G_____GG______Qo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO 10StickerKit05PopupC0V AA15ModifiedContentV AG021FamilyVariantSelectorC0V AA30_EnvironmentKeyWritingModifierV AA15LayoutDirectionO AA06_FrameT0V AA13_OffsetEffectV AG5EmojiV
+- _symbolic _____y_____y_____yAByABy_____yAByAByABy_____y_____yAByAByAByAByAByABy__________G_____y_____SgGG_____y_____GG_____G_____G_____G_AByACyAEyAByABy_____yAByAByABy_____AIySiSgGG_____GALG_SNy_____GQo______GATG_A7_tGGA6_GtGGA6_GATGATGGATGATGA6_GG_Qo_ 7SwiftUI4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6ZStackV AA15ModifiedContentV AA6VStackV AA6HStackV AA05TupleC0V AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleW0V AA5ColorV AA06_FrameS0V AA08_PaddingS0V AA0g10AttachmentW0V AcAE15dynamicTypeSizeyQrqd__SXRd__AA15DynamicTypeSizeO5BoundRtd__lFQO AA4TextV AA010_FixedSizeS0V A10_ AA010_FlexFrameS0V
+- _symbolic _____y_____y_____yACyACyACyACyACy__________G_____y_____SgGG_____y_____GG_____G_____G_____G_ACy_____yAByACyACy_____yACyACyACy_____AGySiSgGG_____GAJG_SNy_____GQo______GARG_A6_tGGA5_GtGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleO0V AA5ColorV AA06_FrameK0V AA08_PaddingK0V AA023AccessibilityAttachmentO0V AA6VStackV AA0E0PAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicZ4SizeO5BoundRtd__lFQO AA4TextV AA010_FixedSizeK0V A4_ AA05_FlextK0V
+- _symbolic _____y_____y_____yACy_____yACyACyACy__________ySiSgGG_____GAEy_____SgGG_SNy_____GQo______G_____G_AStGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA0E0PAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamiciJ0O5BoundRtd__lFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA06_FixedJ6LayoutV AA4FontV AL AA010_FlexFrameS0V AA08_PaddingS0V
+- _symbolic _____y_____y_____y_____y__________G______ySaySi6offset______7elementtGSiAByACy_____yACy_____yACyACyACy__________y_____SgGG_____GANy_____SgGGGAEG_Qo______G_ACyACyACy_____y_____y_____GGAEG_____G_____y_____GGSgtGGAFtGG______y_____y_____GGSgQo_ 7SwiftUI4ViewPAAE7gesture_9includingQrqd___AA11GestureMaskVtAA0F0Rd__lFQO AA6HStackV AA05TupleC0V AA15ModifiedContentV AA6SpacerV AA12_FrameLayoutV AA7ForEachV 10StickerKit18ImageGlyphCategoryC AcAE05onTapF05count7performQrSi_yyctFQO AA0C8ThatFitsV AA0S0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA08_PaddingN0V AA4FontV AA31AccessibilityAttachmentModifierV AA6VStackV AU18DrillDownContainerV AU12MemojiPickerV AA13_OffsetEffectV AA21_TraitWritingModifierV AA18TransitionTraitKeyV AA06_EndedF0V AA08_ChangedF0V AA04DragF0V
+CStrings:
++ "@\"MTLDeviceFeatureQueries\"16@0:8"
++ "JumpAndSlamAnimationHelper"
++ "STKGenerativeModelsAvailability"
++ "StickerKit"
++ "StickerPhotosViewController"
++ "T@\"MTLDeviceFeatureQueries\",R"
++ "_STKSearchObjCFacade"
++ "_STKSearchResult"
++ "featureQueries"
++ "indexPathAfterUpdate"
++ "supportsPlacementSparse"
+
+```

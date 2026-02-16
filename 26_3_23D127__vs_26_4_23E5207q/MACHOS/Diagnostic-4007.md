@@ -1,0 +1,49 @@
+## Diagnostic-4007
+
+> `/Applications/DiagnosticsService.app/PlugIns/Diagnostic-4007.appex/Diagnostic-4007`
+
+```diff
+
+-1066.80.3.0.0
+-  __TEXT.__text: 0x1888
+-  __TEXT.__auth_stubs: 0x380
++1066.100.26.0.0
++  __TEXT.__text: 0x19e8
++  __TEXT.__auth_stubs: 0x360
+   __TEXT.__objc_stubs: 0x5c0
+   __TEXT.__objc_methlist: 0x28c
+   __TEXT.__const: 0x18
+-  __TEXT.__gcc_except_tab: 0x74
++  __TEXT.__gcc_except_tab: 0x84
+   __TEXT.__cstring: 0x92
+   __TEXT.__objc_methname: 0x634
+   __TEXT.__oslogstring: 0x14d
+   __TEXT.__objc_classname: 0x52
+   __TEXT.__objc_methtype: 0x1e6
+-  __TEXT.__unwind_info: 0xd8
+-  __DATA_CONST.__auth_got: 0x1d0
++  __TEXT.__unwind_info: 0xf8
++  __DATA_CONST.__auth_got: 0x1c0
+   __DATA_CONST.__got: 0x58
+   __DATA_CONST.__const: 0x90
+   __DATA_CONST.__cfstring: 0xe0
+
+   - /System/Library/PrivateFrameworks/DiagnosticsSupport.framework/DiagnosticsSupport
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 34C5A967-B9DA-3111-B856-E352C00B7A9B
++  UUID: 9B10DE55-85AB-3ABC-8E00-0A55C305A2BD
+   Functions: 44
+-  Symbols:   84
++  Symbols:   82
+   CStrings:  151
+ 
+Symbols:
++ _objc_release_x24
++ _objc_retainAutoreleasedReturnValue
+- _objc_claimAutoreleasedReturnValue
+- _objc_retain
+- _objc_retainAutoreleaseReturnValue
+- _objc_retain_x2
+
+```

@@ -1,0 +1,978 @@
+## TextToSpeechVoiceBankingSupport
+
+> `/System/Library/PrivateFrameworks/TextToSpeechVoiceBankingSupport.framework/TextToSpeechVoiceBankingSupport`
+
+```diff
+
+-679.3.15.0.0
+-  __TEXT.__text: 0x1814b8
+-  __TEXT.__auth_stubs: 0x2c60
++679.14.0.0.0
++  __TEXT.__text: 0x17b264
++  __TEXT.__auth_stubs: 0x2bf0
+   __TEXT.__objc_methlist: 0xc28
+-  __TEXT.__const: 0x13f10
++  __TEXT.__const: 0x13f18
+   __TEXT.__gcc_except_tab: 0x58
+-  __TEXT.__cstring: 0xbd3b
++  __TEXT.__cstring: 0xa062
+   __TEXT.__dlopen_cstrs: 0x170
+   __TEXT.__oslogstring: 0x3d5f
+-  __TEXT.__swift5_typeref: 0x4586
++  __TEXT.__swift5_typeref: 0x44ea
+   __TEXT.__constg_swiftt: 0x3894
+   __TEXT.__swift5_reflstr: 0x28f2
+   __TEXT.__swift5_fieldmd: 0x380c
+-  __TEXT.__swift5_types: 0x4d8
++  __TEXT.__swift5_types: 0x4d4
+   __TEXT.__swift5_capture: 0x1748
+   __TEXT.__swift5_builtin: 0x1f4
+   __TEXT.__swift5_protos: 0x14
+   __TEXT.__swift5_assocty: 0x828
+-  __TEXT.__swift5_proto: 0x1240
++  __TEXT.__swift5_proto: 0x123c
+   __TEXT.__swift_as_entry: 0x2dc
+   __TEXT.__swift_as_ret: 0x2e8
+   __TEXT.__swift5_mpenum: 0x18
+-  __TEXT.__unwind_info: 0x5418
+-  __TEXT.__eh_frame: 0x7e10
+-  __TEXT.__objc_classname: 0x119
+-  __TEXT.__objc_methname: 0x30a6
+-  __TEXT.__objc_methtype: 0x334
+-  __TEXT.__objc_stubs: 0xb40
+-  __DATA_CONST.__got: 0x988
++  __TEXT.__unwind_info: 0x5388
++  __TEXT.__eh_frame: 0x7a68
++  __TEXT.__objc_classname: 0x797
++  __TEXT.__objc_methname: 0x4081
++  __TEXT.__objc_methtype: 0xd3b
++  __TEXT.__objc_stubs: 0x3c20
++  __DATA_CONST.__got: 0x990
+   __DATA_CONST.__const: 0xd20
+   __DATA_CONST.__objc_classlist: 0xf0
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x60
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1180
++  __DATA_CONST.__objc_selrefs: 0x1160
+   __DATA_CONST.__objc_protorefs: 0x38
+   __DATA_CONST.__objc_superrefs: 0x20
+-  __DATA_CONST.__objc_arraydata: 0x28
+-  __AUTH_CONST.__auth_got: 0x1640
+-  __AUTH_CONST.__const: 0xb258
+-  __AUTH_CONST.__cfstring: 0x480
++  __AUTH_CONST.__auth_got: 0x1608
++  __AUTH_CONST.__const: 0xb288
++  __AUTH_CONST.__cfstring: 0x420
+   __AUTH_CONST.__objc_const: 0x2858
+-  __AUTH_CONST.__objc_arrayobj: 0x30
+   __AUTH.__objc_data: 0xbe0
+   __AUTH.__data: 0x1e70
+   __DATA.__objc_ivar: 0x18
+-  __DATA.__data: 0x24a8
+-  __DATA.__bss: 0x24c00
++  __DATA.__data: 0x2348
++  __DATA.__bss: 0x24c70
+   __DATA.__common: 0x3c0
+   __DATA_DIRTY.__objc_data: 0x798
+-  __DATA_DIRTY.__data: 0xc50
++  __DATA_DIRTY.__data: 0xd78
+   __DATA_DIRTY.__bss: 0x7f0
+   __DATA_DIRTY.__common: 0x8
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 65C5A8E7-1C27-3484-94B9-980BD66993B9
+-  Functions: 7619
+-  Symbols:   3850
+-  CStrings:  2183
++  UUID: A2AEFB3D-D7A9-391A-A5B9-781BFE6149EA
++  Functions: 7531
++  Symbols:   4232
++  CStrings:  2123
+ 
+Symbols:
++ _OUTLINED_FUNCTION_0
++ _OUTLINED_FUNCTION_1
++ ___63-[TTSVBSiriTTSTrainerSession installAsset:progress:completion:]_block_invoke.18
++ ___63-[TTSVBSiriTTSTrainerSession installAsset:progress:completion:]_block_invoke.18.cold.1
++ ___68-[TTSVBSiriTTSTrainerSession getAllTasksReplyOnQueue:statusHandler:]_block_invoke.31
++ ___69-[TTSVBSiriTTSTrainerSession getTaskByID:replyOnQueue:statusHandler:]_block_invoke.26
++ ___72-[TTSVBSiriTTSTrainerSession cancelTask:replyOnQueue:completionHandler:]_block_invoke.34
++ ___80-[TTSVBSiriTTSTrainerSession startTraining:replyOnQueue:trainingStartedHandler:]_block_invoke.23
++ ___81-[TTSVBSiriTTSTrainerSession discardTrainingTasksReplyOnQueue:completionHandler:]_block_invoke.33
++ ___98-[TTSVBSiriTTSTrainerSession fetchTrainingScriptsWithLocaleID:scriptType:replyOnQueue:completion:]_block_invoke.20
++ _block_copy_helper.10
++ _block_copy_helper.109
++ _block_copy_helper.134
++ _block_copy_helper.140
++ _block_copy_helper.146
++ _block_copy_helper.16
++ _block_copy_helper.186
++ _block_copy_helper.2
++ _block_copy_helper.211
++ _block_copy_helper.213
++ _block_copy_helper.22
++ _block_copy_helper.220
++ _block_copy_helper.233
++ _block_copy_helper.238
++ _block_copy_helper.256
++ _block_copy_helper.268
++ _block_copy_helper.28
++ _block_copy_helper.287
++ _block_copy_helper.297
++ _block_copy_helper.311
++ _block_copy_helper.317
++ _block_copy_helper.327
++ _block_copy_helper.343
++ _block_copy_helper.349
++ _block_copy_helper.359
++ _block_copy_helper.365
++ _block_copy_helper.374
++ _block_copy_helper.382
++ _block_copy_helper.40
++ _block_copy_helper.424
++ _block_copy_helper.432
++ _block_copy_helper.441
++ _block_copy_helper.46
++ _block_copy_helper.466
++ _block_copy_helper.472
++ _block_copy_helper.481
++ _block_copy_helper.487
++ _block_copy_helper.493
++ _block_copy_helper.496
++ _block_copy_helper.502
++ _block_copy_helper.512
++ _block_copy_helper.536
++ _block_copy_helper.542
++ _block_copy_helper.548
++ _block_copy_helper.554
++ _block_copy_helper.560
++ _block_copy_helper.566
++ _block_copy_helper.572
++ _block_copy_helper.578
++ _block_copy_helper.584
++ _block_copy_helper.590
++ _block_copy_helper.596
++ _block_copy_helper.6
++ _block_copy_helper.602
++ _block_copy_helper.608
++ _block_copy_helper.614
++ _block_copy_helper.65
++ _block_copy_helper.67
++ _block_copy_helper.71
++ _block_copy_helper.86
++ _block_copy_helper.89
++ _block_copy_helper.97
++ _block_descriptor.111
++ _block_descriptor.12
++ _block_descriptor.136
++ _block_descriptor.142
++ _block_descriptor.148
++ _block_descriptor.18
++ _block_descriptor.188
++ _block_descriptor.213
++ _block_descriptor.215
++ _block_descriptor.222
++ _block_descriptor.235
++ _block_descriptor.24
++ _block_descriptor.240
++ _block_descriptor.258
++ _block_descriptor.270
++ _block_descriptor.289
++ _block_descriptor.299
++ _block_descriptor.30
++ _block_descriptor.313
++ _block_descriptor.319
++ _block_descriptor.329
++ _block_descriptor.345
++ _block_descriptor.351
++ _block_descriptor.361
++ _block_descriptor.367
++ _block_descriptor.376
++ _block_descriptor.384
++ _block_descriptor.4
++ _block_descriptor.42
++ _block_descriptor.426
++ _block_descriptor.434
++ _block_descriptor.443
++ _block_descriptor.468
++ _block_descriptor.474
++ _block_descriptor.48
++ _block_descriptor.483
++ _block_descriptor.489
++ _block_descriptor.495
++ _block_descriptor.498
++ _block_descriptor.504
++ _block_descriptor.514
++ _block_descriptor.538
++ _block_descriptor.544
++ _block_descriptor.550
++ _block_descriptor.556
++ _block_descriptor.562
++ _block_descriptor.568
++ _block_descriptor.574
++ _block_descriptor.580
++ _block_descriptor.586
++ _block_descriptor.592
++ _block_descriptor.598
++ _block_descriptor.604
++ _block_descriptor.610
++ _block_descriptor.616
++ _block_descriptor.67
++ _block_descriptor.69
++ _block_descriptor.73
++ _block_descriptor.8
++ _block_descriptor.88
++ _block_descriptor.91
++ _block_descriptor.99
++ _block_destroy_helper.11
++ _block_destroy_helper.110
++ _block_destroy_helper.135
++ _block_destroy_helper.141
++ _block_destroy_helper.147
++ _block_destroy_helper.17
++ _block_destroy_helper.187
++ _block_destroy_helper.212
++ _block_destroy_helper.214
++ _block_destroy_helper.221
++ _block_destroy_helper.23
++ _block_destroy_helper.234
++ _block_destroy_helper.239
++ _block_destroy_helper.257
++ _block_destroy_helper.269
++ _block_destroy_helper.288
++ _block_destroy_helper.29
++ _block_destroy_helper.298
++ _block_destroy_helper.3
++ _block_destroy_helper.312
++ _block_destroy_helper.318
++ _block_destroy_helper.328
++ _block_destroy_helper.344
++ _block_destroy_helper.350
++ _block_destroy_helper.360
++ _block_destroy_helper.366
++ _block_destroy_helper.375
++ _block_destroy_helper.383
++ _block_destroy_helper.41
++ _block_destroy_helper.425
++ _block_destroy_helper.433
++ _block_destroy_helper.442
++ _block_destroy_helper.467
++ _block_destroy_helper.47
++ _block_destroy_helper.473
++ _block_destroy_helper.482
++ _block_destroy_helper.488
++ _block_destroy_helper.494
++ _block_destroy_helper.497
++ _block_destroy_helper.503
++ _block_destroy_helper.513
++ _block_destroy_helper.537
++ _block_destroy_helper.543
++ _block_destroy_helper.549
++ _block_destroy_helper.555
++ _block_destroy_helper.561
++ _block_destroy_helper.567
++ _block_destroy_helper.573
++ _block_destroy_helper.579
++ _block_destroy_helper.585
++ _block_destroy_helper.591
++ _block_destroy_helper.597
++ _block_destroy_helper.603
++ _block_destroy_helper.609
++ _block_destroy_helper.615
++ _block_destroy_helper.66
++ _block_destroy_helper.68
++ _block_destroy_helper.7
++ _block_destroy_helper.72
++ _block_destroy_helper.87
++ _block_destroy_helper.90
++ _block_destroy_helper.98
++ _get_witness_table SyRzlSsSyHPyHC.3
++ _objc_msgSend$AUAudioUnit
++ _objc_msgSend$JSONObjectWithData:options:error:
++ _objc_msgSend$URL
++ _objc_msgSend$URLForResource:withExtension:
++ _objc_msgSend$_fetchSupportedForcedOfflineLocalesWithCompletion:
++ _objc_msgSend$_speechVoicesIncludingSiriAndSuperCompact
++ _objc_msgSend$aa_firstName
++ _objc_msgSend$aa_isManagedAppleID
++ _objc_msgSend$aa_isUsingiCloud
++ _objc_msgSend$aa_primaryAppleAccount
++ _objc_msgSend$addModels:
++ _objc_msgSend$addObserver:forKeyPath:options:context:
++ _objc_msgSend$addObserver:selector:name:object:
++ _objc_msgSend$addSamples:
++ _objc_msgSend$afterDelay:processBlock:
++ _objc_msgSend$allObjects
++ _objc_msgSend$apiVersion
++ _objc_msgSend$appendAudioPCMBuffer:
++ _objc_msgSend$archivedDataWithRootObject:requiringSecureCoding:error:
++ _objc_msgSend$assessAudioForBuffers:
++ _objc_msgSend$attachNode:
++ _objc_msgSend$attributesByName
++ _objc_msgSend$attributesOfFileSystemForPath:error:
++ _objc_msgSend$audioFuture
++ _objc_msgSend$availableInputs
++ _objc_msgSend$bestTranscription
++ _objc_msgSend$bookTitle
++ _objc_msgSend$boolValue
++ _objc_msgSend$bundlePath
++ _objc_msgSend$cancel
++ _objc_msgSend$cancelTaskWithID:replyOnQueue:completionHandler:
++ _objc_msgSend$cancelTrainingTaskWithTaskID:reply:
++ _objc_msgSend$category
++ _objc_msgSend$categoryID
++ _objc_msgSend$categoryOptions
++ _objc_msgSend$changedValues
++ _objc_msgSend$channelCount
++ _objc_msgSend$closeFile
++ _objc_msgSend$code
++ _objc_msgSend$committedValuesForKeys:
++ _objc_msgSend$commonFormat
++ _objc_msgSend$connect:to:format:
++ _objc_msgSend$containerURLForSecurityApplicationGroupIdentifier:
++ _objc_msgSend$contentsEqualAtPath:andPath:
++ _objc_msgSend$contentsOfDirectoryAtURL:includingPropertiesForKeys:options:error:
++ _objc_msgSend$convertToBuffer:error:withInputFromBlock:
++ _objc_msgSend$coordinateAccessWithIntents:queue:byAccessor:
++ _objc_msgSend$copyItemAtURL:toURL:error:
++ _objc_msgSend$countForFetchRequest:error:
++ _objc_msgSend$createDirectoryAtURL:withIntermediateDirectories:attributes:error:
++ _objc_msgSend$createFileAtPath:contents:attributes:
++ _objc_msgSend$createFutureForFileAtURL:
++ _objc_msgSend$createSupplementaryModelForVoiceWithVoiceID:sourceVersion:targetVersion:reply:
++ _objc_msgSend$createVoiceWithNamed:localeID:reply:
++ _objc_msgSend$creationDate
++ _objc_msgSend$creationDeviceModel
++ _objc_msgSend$creationDeviceName
++ _objc_msgSend$creationDeviceUDID
++ _objc_msgSend$creationOSBuild
++ _objc_msgSend$currentItem
++ _objc_msgSend$currentRoute
++ _objc_msgSend$dataSourceName
++ _objc_msgSend$dataSources
++ _objc_msgSend$debugDescription
++ _objc_msgSend$defaultCenter
++ _objc_msgSend$defaultManager
++ _objc_msgSend$defaultWorkspace
++ _objc_msgSend$deleteCategoryWithID:
++ _objc_msgSend$deleteHistoryBeforeDate:
++ _objc_msgSend$deleteModelWithModelID:reply:
++ _objc_msgSend$deleteObject:
++ _objc_msgSend$deletePhrase:error:
++ _objc_msgSend$deleteVoiceWithVoiceID:reply:
++ _objc_msgSend$description
++ _objc_msgSend$devices
++ _objc_msgSend$dictionaryForKey:
++ _objc_msgSend$discardTrainingTasksReplyOnQueue:completionHandler:
++ _objc_msgSend$discardTrainingTasksWithReply:
++ _objc_msgSend$domain
++ _objc_msgSend$encodeObject:forKey:
++ _objc_msgSend$endAudio
++ _objc_msgSend$endDate
++ _objc_msgSend$entities
++ _objc_msgSend$entitiesByName
++ _objc_msgSend$entity
++ _objc_msgSend$entityName
++ _objc_msgSend$error
++ _objc_msgSend$estimatedDuration
++ _objc_msgSend$evaluatePolicy:localizedReason:reply:
++ _objc_msgSend$evaluateWithObject:
++ _objc_msgSend$executeRequest:error:
++ _objc_msgSend$exportTrainingDataWithVoiceID:shouldCompressResult:includeEntireScript:reply:
++ _objc_msgSend$favoritePhrases
++ _objc_msgSend$fetchAssetWithConfig:clientIdentifier:progress:completion:
++ _objc_msgSend$fetchHistoryAfterDate:
++ _objc_msgSend$fetchInstalledVoiceModelsWithCompletion:
++ _objc_msgSend$fetchPersonalVoiceSystemRepresentationWithCompletion:
++ _objc_msgSend$fetchTrainingMetadataWithVoiceID:completion:
++ _objc_msgSend$fetchTrainingScriptsWithLocaleID:scriptType:replyOnQueue:completion:
++ _objc_msgSend$fetchVoiceModelsWithCompletion:
++ _objc_msgSend$fetchVoicesWithCompletion:
++ _objc_msgSend$fileExistsAtPath:
++ _objc_msgSend$fileExistsAtPath:isDirectory:
++ _objc_msgSend$fileFormat
++ _objc_msgSend$fileFuture
++ _objc_msgSend$fileHandleForWritingToURL:error:
++ _objc_msgSend$fileURL
++ _objc_msgSend$files
++ _objc_msgSend$finish
++ _objc_msgSend$flags_
++ _objc_msgSend$floatChannelData
++ _objc_msgSend$format
++ _objc_msgSend$formattedString
++ _objc_msgSend$frameCapacity
++ _objc_msgSend$frameLength
++ _objc_msgSend$getAllAvailableLocalesForTrainingVersion:
++ _objc_msgSend$getAllTasksReplyOnQueue:statusHandler:
++ _objc_msgSend$getTasksByIDs:replyOnQueue:statusHandler:
++ _objc_msgSend$hasPersistentChangedValues
++ _objc_msgSend$hostTime
++ _objc_msgSend$identifier
++ _objc_msgSend$importModelFromDirectory:overrideLocaleID:addingToVoice:reply:
++ _objc_msgSend$importTrainingDataFromDirectory:creatingVoiceName:localeID:reply:
++ _objc_msgSend$init
++ _objc_msgSend$initForReading:error:
++ _objc_msgSend$initForWriting:settings:commonFormat:interleaved:error:
++ _objc_msgSend$initFromFormat:toFormat:
++ _objc_msgSend$initWithAccount:
++ _objc_msgSend$initWithAccountTypes:delegate:
++ _objc_msgSend$initWithAsset:
++ _objc_msgSend$initWithBundleIdentifier:allowPlaceholder:error:
++ _objc_msgSend$initWithCommonFormat:sampleRate:channels:interleaved:
++ _objc_msgSend$initWithContainerIdentifier:
++ _objc_msgSend$initWithContentsOfURL:
++ _objc_msgSend$initWithContext:
++ _objc_msgSend$initWithDomain:code:userInfo:
++ _objc_msgSend$initWithEntity:insertIntoManagedObjectContext:
++ _objc_msgSend$initWithEntityName:
++ _objc_msgSend$initWithFetchRequest:
++ _objc_msgSend$initWithLanguage:assetType:
++ _objc_msgSend$initWithLocale:
++ _objc_msgSend$initWithMachServiceName:options:
++ _objc_msgSend$initWithName:managedObjectModel:
++ _objc_msgSend$initWithOptions:
++ _objc_msgSend$initWithPCMFormat:frameCapacity:
++ _objc_msgSend$initWithPath:
++ _objc_msgSend$initWithTargetSerialQueue:
++ _objc_msgSend$initWithTaskID:localeID:trainingAssetURL:dataAssetURL:inferenceAssetURL:trainingMode:startImmediately:
++ _objc_msgSend$initWithURL:
++ _objc_msgSend$initWithURL:options:
++ _objc_msgSend$initWithVoice:
++ _objc_msgSend$initWithVoiceAsset:resourceAsset:
++ _objc_msgSend$initializeCloudKitSchemaWithOptions:error:
++ _objc_msgSend$initializeCloudKitSchemaWithReply:
++ _objc_msgSend$inputFormat
++ _objc_msgSend$inputFormatForBus:
++ _objc_msgSend$inputGain
++ _objc_msgSend$inputID
++ _objc_msgSend$inputNode
++ _objc_msgSend$inputs
++ _objc_msgSend$insertNewObjectForEntityForName:inManagedObjectContext:
++ _objc_msgSend$installAsset:progress:completion:
++ _objc_msgSend$installTapOnBus:bufferSize:format:block:
++ _objc_msgSend$installableTrainingAssetsForLocaleID:name:type:
++ _objc_msgSend$installedLanguagesForTaskHint:completion:
++ _objc_msgSend$installedTrainingAssetsForLocaleID:name:type:
++ _objc_msgSend$integerForKey:
++ _objc_msgSend$interfaceWithProtocol:
++ _objc_msgSend$invalidate
++ _objc_msgSend$isBeneficiaryForAccount:
++ _objc_msgSend$isDefault
++ _objc_msgSend$isDownloaded
++ _objc_msgSend$isFault
++ _objc_msgSend$isFinal
++ _objc_msgSend$isInputAvailable
++ _objc_msgSend$isInputGainSettable
++ _objc_msgSend$isInterleaved
++ _objc_msgSend$isPasscodeSet
++ _objc_msgSend$isPlaying
++ _objc_msgSend$isRecents
++ _objc_msgSend$isRunning
++ _objc_msgSend$isSaved
++ _objc_msgSend$isStandard
++ _objc_msgSend$isUnfinishedOrPending
++ _objc_msgSend$length
++ _objc_msgSend$liveSpeechCategories
++ _objc_msgSend$liveSpeechMaxRecentsCount
++ _objc_msgSend$liveSpeechPhrases
++ _objc_msgSend$load:
++ _objc_msgSend$locale
++ _objc_msgSend$localeID
++ _objc_msgSend$localizedDescription
++ _objc_msgSend$localizedFailureReason
++ _objc_msgSend$localizedName
++ _objc_msgSend$mainQueue
++ _objc_msgSend$managedObjectContext
++ _objc_msgSend$managedObjectModel
++ _objc_msgSend$maxPreferredPhraseCount
++ _objc_msgSend$mergeByPropertyObjectTrumpMergePolicy
++ _objc_msgSend$mergeChangesFromContextDidSaveNotification:
++ _objc_msgSend$mode
++ _objc_msgSend$model
++ _objc_msgSend$modelDisplayName
++ _objc_msgSend$modelID
++ _objc_msgSend$models
++ _objc_msgSend$moveItemAtURL:toURL:error:
++ _objc_msgSend$newBackgroundContext
++ _objc_msgSend$object
++ _objc_msgSend$objectForKey:
++ _objc_msgSend$objectIDNotification
++ _objc_msgSend$openSensitiveURL:withOptions:
++ _objc_msgSend$operatingSystemVersionString
++ _objc_msgSend$outputFormat
++ _objc_msgSend$outputNode
++ _objc_msgSend$outputs
++ _objc_msgSend$paragraphIndex
++ _objc_msgSend$performBlock:
++ _objc_msgSend$performBlockAndWait:
++ _objc_msgSend$performRequestWithHandler:
++ _objc_msgSend$persistentStoreCoordinator
++ _objc_msgSend$phonemes
++ _objc_msgSend$phrase
++ _objc_msgSend$phrases
++ _objc_msgSend$play
++ _objc_msgSend$portName
++ _objc_msgSend$portType
++ _objc_msgSend$postNotificationName:object:
++ _objc_msgSend$preferredInput
++ _objc_msgSend$processInfo
++ _objc_msgSend$processName
++ _objc_msgSend$processingFormat
++ _objc_msgSend$quality
++ _objc_msgSend$rate
++ _objc_msgSend$rawTranscriptions
++ _objc_msgSend$readIntoBuffer:error:
++ _objc_msgSend$readingIntentWithURL:options:
++ _objc_msgSend$recognitionTaskWithRequest:delegate:
++ _objc_msgSend$recognitionTaskWithRequest:resultHandler:
++ _objc_msgSend$recordingDate
++ _objc_msgSend$recordingDuration
++ _objc_msgSend$refreshAllObjects
++ _objc_msgSend$refreshObject:mergeChanges:
++ _objc_msgSend$registerWithCompletion:
++ _objc_msgSend$registeredObjects
++ _objc_msgSend$relativePath
++ _objc_msgSend$remoteObjectProxyWithErrorHandler:
++ _objc_msgSend$removeItemAtURL:error:
++ _objc_msgSend$removeTapOnBus:
++ _objc_msgSend$repairDatastoreFromFilesystemWithReply:
++ _objc_msgSend$replaceCurrentItemWithPlayerItem:
++ _objc_msgSend$requestVoiceCacheRebuildIfNeeded
++ _objc_msgSend$respondsToSelector:
++ _objc_msgSend$result
++ _objc_msgSend$resume
++ _objc_msgSend$rollback
++ _objc_msgSend$sampleID
++ _objc_msgSend$sampleRate
++ _objc_msgSend$samples
++ _objc_msgSend$save:
++ _objc_msgSend$scheduleBuffer:atTime:options:completionCallbackType:completionHandler:
++ _objc_msgSend$seekToTime:
++ _objc_msgSend$sendMockUserNotification
++ _objc_msgSend$sentenceIndex
++ _objc_msgSend$setActive:error:
++ _objc_msgSend$setApiVersion:
++ _objc_msgSend$setApsConnectionMachServiceName:
++ _objc_msgSend$setAttributes:ofItemAtPath:error:
++ _objc_msgSend$setAudioFuture:
++ _objc_msgSend$setAutomaticallyCancelPendingBlockUponSchedulingNewBlock:
++ _objc_msgSend$setAutomaticallyDownloadFileBackedFutures:
++ _objc_msgSend$setAutomaticallyMergesChangesFromParent:
++ _objc_msgSend$setAutomaticallyScheduleImportAndExportOperations:
++ _objc_msgSend$setBookTitle:
++ _objc_msgSend$setCategory:mode:options:error:
++ _objc_msgSend$setClasses:forSelector:argumentIndex:ofReply:
++ _objc_msgSend$setConfiguration:
++ _objc_msgSend$setCreationDate:
++ _objc_msgSend$setCreationDeviceModel:
++ _objc_msgSend$setCreationDeviceName:
++ _objc_msgSend$setCreationDeviceUDID:
++ _objc_msgSend$setCreationOSBuild:
++ _objc_msgSend$setDateFormat:
++ _objc_msgSend$setDetectMultipleUtterances:
++ _objc_msgSend$setEstimatedDuration:
++ _objc_msgSend$setExportedInterface:
++ _objc_msgSend$setFavoritePhrases:
++ _objc_msgSend$setFetchLimit:
++ _objc_msgSend$setFileFuture:
++ _objc_msgSend$setFiles:
++ _objc_msgSend$setFlags_:
++ _objc_msgSend$setFrameLength:
++ _objc_msgSend$setInterruptionHandler:
++ _objc_msgSend$setInvalidationHandler:
++ _objc_msgSend$setIsDownloaded:
++ _objc_msgSend$setLiveSpeechCategories:
++ _objc_msgSend$setLiveSpeechMaxRecentsCount:
++ _objc_msgSend$setLiveSpeechPhrases:
++ _objc_msgSend$setLocale:
++ _objc_msgSend$setLocaleID:
++ _objc_msgSend$setMaxPreferredPhraseCount:
++ _objc_msgSend$setMergePolicy:
++ _objc_msgSend$setMirroringDelegate:
++ _objc_msgSend$setModel:
++ _objc_msgSend$setModelID:
++ _objc_msgSend$setModels:
++ _objc_msgSend$setName:
++ _objc_msgSend$setObject:forKey:
++ _objc_msgSend$setOption:forKey:
++ _objc_msgSend$setParagraphIndex:
++ _objc_msgSend$setPersistentStoreDescriptions:
++ _objc_msgSend$setPhonemes:
++ _objc_msgSend$setPhrase:
++ _objc_msgSend$setPredicate:
++ _objc_msgSend$setPreferredDataSource:error:
++ _objc_msgSend$setPreferredInput:error:
++ _objc_msgSend$setPreferredPolarPattern:error:
++ _objc_msgSend$setPropertiesToFetch:
++ _objc_msgSend$setRecordingDate:
++ _objc_msgSend$setRecordingDuration:
++ _objc_msgSend$setRelativePath:
++ _objc_msgSend$setRemoteObjectInterface:
++ _objc_msgSend$setRequiresOnDeviceRecognition:
++ _objc_msgSend$setResultType:
++ _objc_msgSend$setReturnsObjectsAsFaults:
++ _objc_msgSend$setSampleID:
++ _objc_msgSend$setSamples:
++ _objc_msgSend$setSentenceIndex:
++ _objc_msgSend$setShouldReportPartialResults:
++ _objc_msgSend$setSolutionType:
++ _objc_msgSend$setSortDescriptors:
++ _objc_msgSend$setStatus_:
++ _objc_msgSend$setText:
++ _objc_msgSend$setTrainingFinishedDate:
++ _objc_msgSend$setTrainingLocaleID:
++ _objc_msgSend$setTrainingMode:
++ _objc_msgSend$setTrainingStatus_:
++ _objc_msgSend$setTrainingTaskProgress:
++ _objc_msgSend$setTranscript:
++ _objc_msgSend$setType:
++ _objc_msgSend$setUseCache:
++ _objc_msgSend$setUseDeviceToDeviceEncryption:
++ _objc_msgSend$setUserPhrase:
++ _objc_msgSend$setUserScore:
++ _objc_msgSend$setValue:forKey:
++ _objc_msgSend$setVersion:
++ _objc_msgSend$setVoice:
++ _objc_msgSend$setVoiceID:
++ _objc_msgSend$settings
++ _objc_msgSend$sharedConnection
++ _objc_msgSend$sharedInstance
++ _objc_msgSend$snr
++ _objc_msgSend$snrThreshold
++ _objc_msgSend$spl
++ _objc_msgSend$splThreshold
++ _objc_msgSend$startAndReturnError:
++ _objc_msgSend$startTaskWithRequest:completion:
++ _objc_msgSend$startTraining:replyOnQueue:trainingStartedHandler:
++ _objc_msgSend$status_
++ _objc_msgSend$stop
++ _objc_msgSend$stride
++ _objc_msgSend$stringForKey:
++ _objc_msgSend$stringFromDate:
++ _objc_msgSend$succeeded
++ _objc_msgSend$supportedLocales
++ _objc_msgSend$supportedPolarPatterns
++ _objc_msgSend$synchronizeModelFuturesWithModelID:reply:
++ _objc_msgSend$synthesizeAudioSamplesForVoiceWithID:reply:
++ _objc_msgSend$text
++ _objc_msgSend$timestamp
++ _objc_msgSend$trainModelWithVoiceID:mode:startImmediately:skipValidation:overrideMinimumPhraseCount:useUserRecordingsForTraining:reply:
++ _objc_msgSend$trainingFinishedDate
++ _objc_msgSend$trainingLocaleID
++ _objc_msgSend$trainingMode
++ _objc_msgSend$trainingStatus_
++ _objc_msgSend$trainingTaskProgress
++ _objc_msgSend$transcript
++ _objc_msgSend$type
++ _objc_msgSend$underlyingErrors
++ _objc_msgSend$unsignedIntValue
++ _objc_msgSend$unsignedIntegerValue
++ _objc_msgSend$updateTCCCloudKitAccessWithAllowed:reply:
++ _objc_msgSend$url
++ _objc_msgSend$userInfo
++ _objc_msgSend$userPhrase
++ _objc_msgSend$userScore
++ _objc_msgSend$version
++ _objc_msgSend$viewContext
++ _objc_msgSend$voice
++ _objc_msgSend$voiceID
++ _objc_msgSend$writeData:
++ _objc_msgSend$writeFromBuffer:error:
++ _objectdestroy.11Tm
++ _objectdestroy.122Tm
++ _objectdestroy.132Tm
++ _objectdestroy.144Tm
++ _objectdestroy.146Tm
++ _objectdestroy.167Tm
++ _objectdestroy.266Tm
++ _objectdestroy.303Tm
++ _objectdestroy.403Tm
++ _objectdestroy.406Tm
++ _objectdestroy.430Tm
++ _objectdestroy.5Tm
++ _objectdestroy.606Tm
++ _swift_willThrowTypedImpl
++ _symbolic _____Sg_ABt 31TextToSpeechVoiceBankingSupport15TTSVBVoiceModelV
+- _OBJC_CLASS_$_NSConstantArray
+- ___63-[TTSVBSiriTTSTrainerSession installAsset:progress:completion:]_block_invoke.32
+- ___63-[TTSVBSiriTTSTrainerSession installAsset:progress:completion:]_block_invoke.32.cold.1
+- ___68-[TTSVBSiriTTSTrainerSession getAllTasksReplyOnQueue:statusHandler:]_block_invoke.45
+- ___69-[TTSVBSiriTTSTrainerSession getTaskByID:replyOnQueue:statusHandler:]_block_invoke.40
+- ___72-[TTSVBSiriTTSTrainerSession cancelTask:replyOnQueue:completionHandler:]_block_invoke.48
+- ___80-[TTSVBSiriTTSTrainerSession startTraining:replyOnQueue:trainingStartedHandler:]_block_invoke.37
+- ___81-[TTSVBSiriTTSTrainerSession discardTrainingTasksReplyOnQueue:completionHandler:]_block_invoke.47
+- ___98-[TTSVBSiriTTSTrainerSession fetchTrainingScriptsWithLocaleID:scriptType:replyOnQueue:completion:]_block_invoke.34
+- _block_copy_helper.113
+- _block_copy_helper.119
+- _block_copy_helper.138
+- _block_copy_helper.144
+- _block_copy_helper.150
+- _block_copy_helper.17
+- _block_copy_helper.173
+- _block_copy_helper.19
+- _block_copy_helper.190
+- _block_copy_helper.197
+- _block_copy_helper.210
+- _block_copy_helper.219
+- _block_copy_helper.225
+- _block_copy_helper.23
+- _block_copy_helper.236
+- _block_copy_helper.237
+- _block_copy_helper.249
+- _block_copy_helper.25
+- _block_copy_helper.255
+- _block_copy_helper.261
+- _block_copy_helper.267
+- _block_copy_helper.285
+- _block_copy_helper.29
+- _block_copy_helper.291
+- _block_copy_helper.301
+- _block_copy_helper.315
+- _block_copy_helper.324
+- _block_copy_helper.334
+- _block_copy_helper.35
+- _block_copy_helper.350
+- _block_copy_helper.356
+- _block_copy_helper.366
+- _block_copy_helper.37
+- _block_copy_helper.372
+- _block_copy_helper.38
+- _block_copy_helper.381
+- _block_copy_helper.396
+- _block_copy_helper.430
+- _block_copy_helper.438
+- _block_copy_helper.465
+- _block_copy_helper.471
+- _block_copy_helper.477
+- _block_copy_helper.486
+- _block_copy_helper.49
+- _block_copy_helper.492
+- _block_copy_helper.498
+- _block_copy_helper.5
+- _block_copy_helper.501
+- _block_copy_helper.507
+- _block_copy_helper.517
+- _block_copy_helper.540
+- _block_copy_helper.546
+- _block_copy_helper.552
+- _block_copy_helper.558
+- _block_copy_helper.56
+- _block_copy_helper.564
+- _block_copy_helper.570
+- _block_copy_helper.576
+- _block_copy_helper.582
+- _block_copy_helper.588
+- _block_copy_helper.594
+- _block_copy_helper.600
+- _block_copy_helper.606
+- _block_copy_helper.612
+- _block_copy_helper.618
+- _block_copy_helper.62
+- _block_copy_helper.68
+- _block_copy_helper.69
+- _block_copy_helper.7
+- _block_copy_helper.75
+- _block_copy_helper.81
+- _block_copy_helper.85
+- _block_copy_helper.87
+- _block_copy_helper.93
+- _block_descriptor.115
+- _block_descriptor.121
+- _block_descriptor.140
+- _block_descriptor.146
+- _block_descriptor.152
+- _block_descriptor.175
+- _block_descriptor.19
+- _block_descriptor.192
+- _block_descriptor.199
+- _block_descriptor.21
+- _block_descriptor.212
+- _block_descriptor.221
+- _block_descriptor.227
+- _block_descriptor.238
+- _block_descriptor.239
+- _block_descriptor.25
+- _block_descriptor.251
+- _block_descriptor.257
+- _block_descriptor.263
+- _block_descriptor.269
+- _block_descriptor.27
+- _block_descriptor.287
+- _block_descriptor.293
+- _block_descriptor.303
+- _block_descriptor.31
+- _block_descriptor.317
+- _block_descriptor.326
+- _block_descriptor.336
+- _block_descriptor.352
+- _block_descriptor.358
+- _block_descriptor.368
+- _block_descriptor.37
+- _block_descriptor.374
+- _block_descriptor.383
+- _block_descriptor.39
+- _block_descriptor.398
+- _block_descriptor.40
+- _block_descriptor.432
+- _block_descriptor.440
+- _block_descriptor.467
+- _block_descriptor.473
+- _block_descriptor.479
+- _block_descriptor.488
+- _block_descriptor.494
+- _block_descriptor.500
+- _block_descriptor.503
+- _block_descriptor.509
+- _block_descriptor.51
+- _block_descriptor.519
+- _block_descriptor.542
+- _block_descriptor.548
+- _block_descriptor.554
+- _block_descriptor.560
+- _block_descriptor.566
+- _block_descriptor.572
+- _block_descriptor.578
+- _block_descriptor.58
+- _block_descriptor.584
+- _block_descriptor.590
+- _block_descriptor.596
+- _block_descriptor.602
+- _block_descriptor.608
+- _block_descriptor.614
+- _block_descriptor.620
+- _block_descriptor.64
+- _block_descriptor.7
+- _block_descriptor.70
+- _block_descriptor.71
+- _block_descriptor.77
+- _block_descriptor.83
+- _block_descriptor.87
+- _block_descriptor.89
+- _block_descriptor.9
+- _block_descriptor.95
+- _block_destroy_helper.114
+- _block_destroy_helper.120
+- _block_destroy_helper.139
+- _block_destroy_helper.145
+- _block_destroy_helper.151
+- _block_destroy_helper.174
+- _block_destroy_helper.18
+- _block_destroy_helper.191
+- _block_destroy_helper.198
+- _block_destroy_helper.20
+- _block_destroy_helper.211
+- _block_destroy_helper.220
+- _block_destroy_helper.226
+- _block_destroy_helper.237
+- _block_destroy_helper.238
+- _block_destroy_helper.24
+- _block_destroy_helper.250
+- _block_destroy_helper.256
+- _block_destroy_helper.26
+- _block_destroy_helper.262
+- _block_destroy_helper.268
+- _block_destroy_helper.286
+- _block_destroy_helper.292
+- _block_destroy_helper.30
+- _block_destroy_helper.302
+- _block_destroy_helper.316
+- _block_destroy_helper.325
+- _block_destroy_helper.335
+- _block_destroy_helper.351
+- _block_destroy_helper.357
+- _block_destroy_helper.36
+- _block_destroy_helper.367
+- _block_destroy_helper.373
+- _block_destroy_helper.38
+- _block_destroy_helper.382
+- _block_destroy_helper.39
+- _block_destroy_helper.397
+- _block_destroy_helper.431
+- _block_destroy_helper.439
+- _block_destroy_helper.466
+- _block_destroy_helper.472
+- _block_destroy_helper.478
+- _block_destroy_helper.487
+- _block_destroy_helper.493
+- _block_destroy_helper.499
+- _block_destroy_helper.50
+- _block_destroy_helper.502
+- _block_destroy_helper.508
+- _block_destroy_helper.518
+- _block_destroy_helper.541
+- _block_destroy_helper.547
+- _block_destroy_helper.553
+- _block_destroy_helper.559
+- _block_destroy_helper.565
+- _block_destroy_helper.57
+- _block_destroy_helper.571
+- _block_destroy_helper.577
+- _block_destroy_helper.583
+- _block_destroy_helper.589
+- _block_destroy_helper.595
+- _block_destroy_helper.6
+- _block_destroy_helper.601
+- _block_destroy_helper.607
+- _block_destroy_helper.613
+- _block_destroy_helper.619
+- _block_destroy_helper.63
+- _block_destroy_helper.69
+- _block_destroy_helper.70
+- _block_destroy_helper.76
+- _block_destroy_helper.8
+- _block_destroy_helper.82
+- _block_destroy_helper.86
+- _block_destroy_helper.88
+- _block_destroy_helper.94
+- _get_witness_table SyRzlSsSyHPyHC.6
+- _malloc
+- _objc_claimAutoreleasedReturnValue
+- _objc_opt_respondsToSelector
+- _objc_retainAutorelease
+- _objc_retainAutoreleaseReturnValue
+- _objc_retain_x1
+- _objc_retain_x3
+- _objectdestroy.126Tm
+- _objectdestroy.136Tm
+- _objectdestroy.145Tm
+- _objectdestroy.148Tm
+- _objectdestroy.14Tm
+- _objectdestroy.15Tm
+- _objectdestroy.171Tm
+- _objectdestroy.269Tm
+- _objectdestroy.307Tm
+- _objectdestroy.410Tm
+- _objectdestroy.413Tm
+- _objectdestroy.436Tm
+- _objectdestroy.610Tm
+- _objectdestroy.9Tm
+- _symbolic Si6offset______7elementt 31TextToSpeechVoiceBankingSupport23TTSVBTrainingScriptItemV
+- _symbolic Si6offset______7elementtSg 10Foundation3URLV
+- _symbolic Si6offset______7elementtSg 31TextToSpeechVoiceBankingSupport013TTSVBPersonalD20SystemRepresentationV
+- _symbolic Si6offset______7elementtSg 31TextToSpeechVoiceBankingSupport014TTSVBInstalledD5ModelV
+- _symbolic Si6offset______7elementtSg 31TextToSpeechVoiceBankingSupport10TTSVBVoiceV
+- _symbolic _____Sg 31TextToSpeechVoiceBankingSupport014TTSVBInstalledD5ModelV
+- _symbolic _____y_____Say_____GG s18_DictionaryStorageC So24TTSVBSiriTrainingVersiona 31TextToSpeechVoiceBankingSupport15TTSVBLocaleInfoV
+CStrings:
++ "LiveSpeechCategory"
++ "TTSVBCloudVoiceMO"
++ "TTSVBCloudVoiceModelFileMO"
++ "TTSVBCloudVoiceModelMO"
++ "TTSVBCloudVoiceSampleMO"
++ "TTSVBLocalVoiceMO"
++ "TTSVBLocalVoiceModelMO"
++ "TTSVBLocalVoiceSampleMO"
++ "TextToSpeechVoiceBankingSupport"
+- "cmn-CN"
+- "en-US"
+- "es-MX"
+- "location"
+- "orientation"
+- "selectedPolarPattern"
+- "setPreferredInputOrientation:error:"
+
+```

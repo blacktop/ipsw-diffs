@@ -1,0 +1,528 @@
+## libswiftAVFoundation.dylib
+
+> `/usr/lib/swift/libswiftAVFoundation.dylib`
+
+```diff
+
+-2405.7.1.0.0
+-  __TEXT.__text: 0x364c4
+-  __TEXT.__auth_stubs: 0x1060
++2410.19.1.0.0
++  __TEXT.__text: 0x36198
++  __TEXT.__auth_stubs: 0x10c0
+   __TEXT.__objc_methlist: 0x21c
+-  __TEXT.__const: 0x2b94
+-  __TEXT.__cstring: 0xebd
+-  __TEXT.__constg_swiftt: 0x1124
+-  __TEXT.__swift5_typeref: 0x13a6
++  __TEXT.__const: 0x2d24
++  __TEXT.__swift5_typeref: 0x1452
++  __TEXT.__swift5_reflstr: 0x784
++  __TEXT.__swift5_assocty: 0x440
++  __TEXT.__constg_swiftt: 0x114c
++  __TEXT.__swift5_fieldmd: 0xb34
+   __TEXT.__swift5_builtin: 0x1cc
+-  __TEXT.__swift5_reflstr: 0x754
+-  __TEXT.__swift5_fieldmd: 0xb0c
+-  __TEXT.__swift5_assocty: 0x428
+-  __TEXT.__swift5_proto: 0x148
+-  __TEXT.__swift5_types: 0x12c
++  __TEXT.__swift5_proto: 0x14c
++  __TEXT.__swift5_types: 0x130
+   __TEXT.__swift5_capture: 0x21c
++  __TEXT.__cstring: 0x888
+   __TEXT.__swift5_protos: 0x4
+   __TEXT.__swift_as_entry: 0xf0
+   __TEXT.__swift_as_ret: 0xec
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x10e8
+-  __TEXT.__eh_frame: 0x1ec8
+-  __TEXT.__objc_classname: 0xb1
+-  __TEXT.__objc_methname: 0x1c5f
+-  __TEXT.__objc_methtype: 0x195
+-  __DATA_CONST.__got: 0x320
+-  __DATA_CONST.__const: 0x240
++  __TEXT.__unwind_info: 0x1048
++  __TEXT.__eh_frame: 0x1e28
++  __TEXT.__objc_classname: 0x34b
++  __TEXT.__objc_methname: 0x1ea4
++  __TEXT.__objc_methtype: 0x3ad
++  __TEXT.__objc_stubs: 0x1e00
++  __DATA_CONST.__got: 0x350
++  __DATA_CONST.__const: 0x230
+   __DATA_CONST.__objc_classlist: 0x48
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x70
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x858
+   __DATA_CONST.__objc_protorefs: 0x38
+-  __AUTH_CONST.__auth_got: 0x830
+-  __AUTH_CONST.__const: 0x1f70
++  __AUTH_CONST.__auth_got: 0x868
++  __AUTH_CONST.__const: 0x1ff0
+   __AUTH_CONST.__objc_const: 0x1688
+   __AUTH.__data: 0x330
+-  __DATA.__data: 0xdb0
+-  __DATA.__bss: 0x2320
++  __DATA.__data: 0xd98
++  __DATA.__bss: 0x23a0
+   __DATA.__common: 0x9
+-  __DATA_DIRTY.__data: 0xbc0
++  __DATA_DIRTY.__data: 0xc10
+   __DATA_DIRTY.__bss: 0x480
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /System/Library/PrivateFrameworks/AVFCore.framework/AVFCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+-  - /usr/lib/swift/libswiftCoreAudio_Private.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B48F415E-F104-3642-9333-EC935A9B4A60
+-  Functions: 1477
+-  Symbols:   4846
+-  CStrings:  409
++  UUID: 129AF767-2553-3CAE-9642-1240BFDC8639
++  Functions: 1466
++  Symbols:   5113
++  CStrings:  407
+ 
+Symbols:
++ _$s10Foundation12NotificationV4name6object8userInfoACSo18NSNotificationNamea_ypSgSDys11AnyHashableVypGSgtcfC
++ _$s10Foundation12NotificationV8userInfoSDys11AnyHashableVypGSgvg
++ _$s10Foundation4DataVACSHAAWL
++ _$s10Foundation4DataVACSHAAWl
++ _$s10Foundation4DataVN
++ _$s10Foundation4DataVSHAAMc
++ _$s12AVFoundation26untilReadyForMoreMediaData3forySo18AVAssetWriterInputC_tYaFTQ0_
++ _$s12AVFoundation26untilReadyForMoreMediaData3forySo18AVAssetWriterInputC_tYaFTY1_
++ _$s7SubjectSo20NSNotificationCenterC10FoundationE12AsyncMessagePTl
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_s11AnyHashableVTt0g5Tf4g_n
++ _$sSD8_VariantV11removeValue6forKeyq_Sgx_tFSS_s11AnyHashableVTg5
++ _$sSS_s11AnyHashableVtMR
++ _$sSS_s11AnyHashableVtMd
++ _$sSS_s11AnyHashableVtWOc
++ _$sSo12AVPlayerItemCMaTm
++ _$sSo18AVAssetWriterInputC12AVFoundationE15CaptionReceiverC6appendyySo14AVCaptionGroupCYaKFTQ0_
++ _$sSo18AVAssetWriterInputC12AVFoundationE15CaptionReceiverC6appendyySo9AVCaptionCYaKFTQ0_
++ _$sSo18AVAssetWriterInputC12AVFoundationE16MetadataReceiverC6appendyySo07AVTimedE5GroupCYaKFTQ0_
++ _$sSo18AVAssetWriterInputC12AVFoundationE19PixelBufferReceiverC6append_4withy9CoreVideo010CVReadOnlyeF0C_So6CMTimeatYaKFTQ0_
++ _$sSo18AVAssetWriterInputC12AVFoundationE20SampleBufferReceiverC6appendyy9CoreMedia07CMReadyeF0VySo08CMSampleF3RefaAGE14DynamicContentOGYaKFTQ0_
++ _$sSo18AVAssetWriterInputC12AVFoundationE30TaggedPixelBufferGroupReceiverC6append_4withySay9CoreMedia015CMTaggedDynamicG0VG_So6CMTimeatYaKFTQ0_
++ _$sSo18AVVideoCompositionC12AVFoundationE13ConfigurationV14colorPrimariesSSSgvpAETK
++ _$sSo18AVVideoCompositionC12AVFoundationE13ConfigurationV16colorYCbCrMatrixSSSgvpAETK
++ _$sSo18AVVideoCompositionC12AVFoundationE13ConfigurationV21colorTransferFunctionSSSgvpAETK
++ _$sSo18AVVideoCompositionC12AVFoundationE13ConfigurationV27sourceTrackIDForFrameTimings5Int32VvpAETk
++ _$sSo18AVVideoCompositionC12AVFoundationE13ConfigurationV3for20prototypeInstructionAESo7AVAssetC_So0abG0CSgtYaKcfCTQ0_
++ _$sSo18AVVideoCompositionC12AVFoundationE13ConfigurationV3for20prototypeInstructionAESo7AVAssetC_So0abG0CSgtYaKcfCTY2_
++ _$sSo18AVVideoCompositionC12AVFoundationE17applyingFiltersTo7applierABSo7AVAssetC_AC24AVCIImageFilteringResultVAC0iJ10ParametersVYaYbKctYaKcfCTQ0_
++ _$sSo18AVVideoCompositionC12AVFoundationE17applyingFiltersTo7applierABSo7AVAssetC_AC24AVCIImageFilteringResultVAC0iJ10ParametersVYaYbKctYaKcfCTY1_
++ _$sSo19AVAssetReaderOutputC12AVFoundationE8ProviderC4nextxSgyYaKFTQ0_
++ _$sSo19AVAssetReaderOutputC12AVFoundationE8ProviderC4nextxSgyYaKFTY1_
++ _$sSo20AVAssetExportSessionC12AVFoundationE14ProgressStates33_D1D93B46B4622E2FDA3EC9B1BC7A64BDLLV8IteratorV13StateInternalO06publicS0AbCE0S0OSgvg
++ _$sSo20NSNotificationCenterC10FoundationE12AsyncMessageMp
++ _$sSo20NSNotificationCenterC10FoundationE12AsyncMessageP04makeE0yxSgAC12NotificationVFZTq
++ _$sSo20NSNotificationCenterC10FoundationE12AsyncMessageP16makeNotificationyAC0G0VxFZTq
++ _$sSo20NSNotificationCenterC10FoundationE12AsyncMessageP4nameSo0A4NameavgZTq
++ _$sSo27AVMetadataExtraAttributeKeyaABs20_SwiftNewtypeWrapperSCWlTm
++ _$sSo32AVPlayerInterstitialEventMonitorC12AVFoundationE24ScheduleRequestCompletedV11makeMessageyAESg10Foundation12NotificationVFZ
++ _$sSo32AVPlayerInterstitialEventMonitorC12AVFoundationE24ScheduleRequestCompletedV16makeNotificationy10Foundation0J0VAEFZ
++ _$sSo32AVPlayerInterstitialEventMonitorC12AVFoundationE24ScheduleRequestCompletedV18scheduleIdentifierSSvg
++ _$sSo32AVPlayerInterstitialEventMonitorC12AVFoundationE24ScheduleRequestCompletedV18scheduleIdentifierSSvpMV
++ _$sSo32AVPlayerInterstitialEventMonitorC12AVFoundationE24ScheduleRequestCompletedV4nameSo18NSNotificationNameavgZ
++ _$sSo32AVPlayerInterstitialEventMonitorC12AVFoundationE24ScheduleRequestCompletedV4nameSo18NSNotificationNameavpZMV
++ _$sSo32AVPlayerInterstitialEventMonitorC12AVFoundationE24ScheduleRequestCompletedV6results6ResultOy10Foundation4DataVs5Error_pGvg
++ _$sSo32AVPlayerInterstitialEventMonitorC12AVFoundationE24ScheduleRequestCompletedV6results6ResultOy10Foundation4DataVs5Error_pGvpMV
++ _$sSo32AVPlayerInterstitialEventMonitorC12AVFoundationE24ScheduleRequestCompletedVMF
++ _$sSo32AVPlayerInterstitialEventMonitorC12AVFoundationE24ScheduleRequestCompletedVMa
++ _$sSo32AVPlayerInterstitialEventMonitorC12AVFoundationE24ScheduleRequestCompletedVMf
++ _$sSo32AVPlayerInterstitialEventMonitorC12AVFoundationE24ScheduleRequestCompletedVMn
++ _$sSo32AVPlayerInterstitialEventMonitorC12AVFoundationE24ScheduleRequestCompletedVN
++ _$sSo32AVPlayerInterstitialEventMonitorC12AVFoundationE24ScheduleRequestCompletedVSo20NSNotificationCenterC10FoundationE12AsyncMessageACMA
++ _$sSo32AVPlayerInterstitialEventMonitorC12AVFoundationE24ScheduleRequestCompletedVSo20NSNotificationCenterC10FoundationE12AsyncMessageACMc
++ _$sSo32AVPlayerInterstitialEventMonitorC12AVFoundationE24ScheduleRequestCompletedVSo20NSNotificationCenterC10FoundationE12AsyncMessageACMcMK
++ _$sSo32AVPlayerInterstitialEventMonitorC12AVFoundationE24ScheduleRequestCompletedVSo20NSNotificationCenterC10FoundationE12AsyncMessageAcgHEAIP04makeM0yxSgAH12NotificationVFZTW
++ _$sSo32AVPlayerInterstitialEventMonitorC12AVFoundationE24ScheduleRequestCompletedVSo20NSNotificationCenterC10FoundationE12AsyncMessageAcgHEAIP16makeNotificationyAH0O0VxFZTW
++ _$sSo32AVPlayerInterstitialEventMonitorC12AVFoundationE24ScheduleRequestCompletedVSo20NSNotificationCenterC10FoundationE12AsyncMessageAcgHEAIP4nameSo0I4NameavgZTW
++ _$sSo32AVPlayerInterstitialEventMonitorC12AVFoundationE24ScheduleRequestCompletedVWV
++ _$sSo32AVPlayerInterstitialEventMonitorC12AVFoundationE24ScheduleRequestCompletedVwet
++ _$sSo32AVPlayerInterstitialEventMonitorC12AVFoundationE24ScheduleRequestCompletedVwst
++ _$sSo32AVPlayerInterstitialEventMonitorC12AVFoundationEMXE
++ _$sSo34AVVideoCompositionLayerInstructionC12AVFoundationE13ConfigurationV7trackIDs5Int32VvpAETk
++ _$sSo7NSErrorCSo8NSObjectCSH10ObjectiveCWL
++ _$sSo7NSErrorCSo8NSObjectCSH10ObjectiveCWl
++ _$sSo8NSObjectCSH10ObjectiveCMc
++ _$ss10_HashTableV12previousHole6beforeAB6BucketVAF_tF
++ _$ss11AnyHashableVSgMR
++ _$ss11AnyHashableVSgMd
++ _$ss11AnyHashableVWOd
++ _$ss11AnyHashableVyABxcSHRzlufC
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_s11AnyHashableVTg5
++ _$ss17_NativeDictionaryV4copyyyFSS_s11AnyHashableVTg5
++ _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tFSS_s11AnyHashableVTg5
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_s11AnyHashableVTg5
++ _$ss17_dictionaryUpCastySDyq0_q1_GSDyxq_GSHRzSHR0_r2_lFSS_s11AnyHashableVAEypTg5
++ _$ss18_DictionaryStorageC4copy8originalAByxq_Gs05__RawaB0C_tFZ
++ _$ss18_DictionaryStorageC6resize8original8capacity4moveAByxq_Gs05__RawaB0C_SiSbtFZ
++ _$ss18_DictionaryStorageCySSs11AnyHashableVGMR
++ _$ss18_DictionaryStorageCySSs11AnyHashableVGMd
++ _$ss23_ContiguousArrayStorageCySS_s11AnyHashableVtGMR
++ _$ss23_ContiguousArrayStorageCySS_s11AnyHashableVtGMd
++ _$ss27_diagnoseUnexpectedEnumCase4types5NeverOxm_tlF
++ _$ss53KEY_TYPE_OF_DICTIONARY_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
++ _$ss6ResultOMn
++ _$ss6ResultOy10Foundation4DataVs5Error_pGMR
++ _$ss6ResultOy10Foundation4DataVs5Error_pGMd
++ _$ss6ResultOy10Foundation4DataVs5Error_pGWOe
++ _$ss6ResultOy10Foundation4DataVs5Error_pGWOy
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.100
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.100TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.100Tu
++ _$sypSgWOhTm
++ _$sypWOcTm
++ _AVPlayerInterstitialEventMonitorScheduleRequestCompletedNotification
++ _AVPlayerInterstitialEventMonitorScheduleRequestErrorKey
++ _AVPlayerInterstitialEventMonitorScheduleRequestIdentifierKey
++ _AVPlayerInterstitialEventMonitorScheduleRequestResponseKey
++ ___swift_memcpy33_8
++ _get_enum_tag_for_layout_string s6ResultOy10Foundation4DataVs5Error_pG
++ _objc_msgSend$CMTimeMappingValue
++ _objc_msgSend$CMTimeRangeValue
++ _objc_msgSend$CMTimeValue
++ _objc_msgSend$CMVideoDimensionsValue
++ _objc_msgSend$_sourceSampleDataTrackIDs
++ _objc_msgSend$addBoundaryTimeObserverForSegment:offsetsIntoSegment:queue:usingBlock:
++ _objc_msgSend$addInput:
++ _objc_msgSend$addOutput:
++ _objc_msgSend$addPeriodicTimeObserverForInterval:queue:usingBlock:
++ _objc_msgSend$addPublisher:
++ _objc_msgSend$animationTool
++ _objc_msgSend$appendCaption:
++ _objc_msgSend$appendCaptionGroup:
++ _objc_msgSend$appendPixelBuffer:withPresentationTime:
++ _objc_msgSend$appendSampleBuffer:
++ _objc_msgSend$appendSampleBuffer:decodeTime:presentationTime:error:
++ _objc_msgSend$appendTaggedPixelBufferGroup:withPresentationTime:
++ _objc_msgSend$appendTimedMetadataGroup:
++ _objc_msgSend$attachSpatialVideoConfiguration:toPixelBuffer:
++ _objc_msgSend$availablePhotoPixelFormatTypes
++ _objc_msgSend$availablePreviewPhotoPixelFormatTypes
++ _objc_msgSend$availableRawPhotoPixelFormatTypes
++ _objc_msgSend$availableVideoCVPixelFormatTypes
++ _objc_msgSend$averageBitRate
++ _objc_msgSend$backgroundColorAtIndex:range:
++ _objc_msgSend$cameraCalibrationDataLensCollection
++ _objc_msgSend$cameraSystemBaseline
++ _objc_msgSend$canPerformMultiplePasses
++ _objc_msgSend$cancelExport
++ _objc_msgSend$captionsNotPresentInPreviousGroupsInCaptionGroup:
++ _objc_msgSend$channelCount
++ _objc_msgSend$codecTypes
++ _objc_msgSend$colorPrimaries
++ _objc_msgSend$colorTransferFunction
++ _objc_msgSend$colorYCbCrMatrix
++ _objc_msgSend$compositionTime
++ _objc_msgSend$copyDisplayedPixelBuffer
++ _objc_msgSend$copyNextSampleBuffer
++ _objc_msgSend$copyPixelBufferForItemTime:itemTimeForDisplay:
++ _objc_msgSend$copyTaggedBufferGroupForHostTime:presentationTimeStamp:activeConfiguration:
++ _objc_msgSend$corners
++ _objc_msgSend$cryptorForFormatDescription:error:
++ _objc_msgSend$currentPassDescription
++ _objc_msgSend$currentTime
++ _objc_msgSend$customVideoCompositorClass
++ _objc_msgSend$dataChannelDescriptions
++ _objc_msgSend$decorationAtIndex:range:
++ _objc_msgSend$description
++ _objc_msgSend$disparityAdjustment
++ _objc_msgSend$error
++ _objc_msgSend$eventStream
++ _objc_msgSend$expectMinimumUpcomingSampleBufferPresentationTime:
++ _objc_msgSend$expectMonotonicallyIncreasingUpcomingSampleBufferPresentationTimes
++ _objc_msgSend$exportAsynchronouslyWithCompletionHandler:
++ _objc_msgSend$finishWithComposedTaggedBufferGroup:
++ _objc_msgSend$finishWithComposedVideoFrame:
++ _objc_msgSend$finishWithError:
++ _objc_msgSend$finishWithImage:context:
++ _objc_msgSend$floatValue
++ _objc_msgSend$fontStyleAtIndex:range:
++ _objc_msgSend$fontWeightAtIndex:range:
++ _objc_msgSend$formatIDs
++ _objc_msgSend$frameDuration
++ _objc_msgSend$generateCGImageAsynchronouslyForTime:completionHandler:
++ _objc_msgSend$generateCGImagesAsynchronouslyForTimes:completionHandler:
++ _objc_msgSend$getCropRectangleRampForTime:startCropRectangle:endCropRectangle:timeRange:
++ _objc_msgSend$getJSONData:representationBinaryDataBindings:
++ _objc_msgSend$getOpacityRampForTime:startOpacity:endOpacity:timeRange:
++ _objc_msgSend$getTransformRampForTime:startTransform:endTransform:timeRange:
++ _objc_msgSend$hasProvider
++ _objc_msgSend$hasReceiver
++ _objc_msgSend$horizontalFieldOfView
++ _objc_msgSend$init
++ _objc_msgSend$initWithAsset:automaticallyLoadedAssetKeys:
++ _objc_msgSend$initWithAssetReaderTrackOutput:
++ _objc_msgSend$initWithAssetWriterInput:
++ _objc_msgSend$initWithAssetWriterInput:sourcePixelBufferAttributes:
++ _objc_msgSend$initWithFloat:
++ _objc_msgSend$initWithFormatDescription:
++ _objc_msgSend$initWithInt:
++ _objc_msgSend$initWithJSONData:representationBinaryDataBindings:error:
++ _objc_msgSend$initWithLocalizedTitle:symbolName:minValue:maxValue:
++ _objc_msgSend$initWithLocalizedTitle:symbolName:minValue:maxValue:step:
++ _objc_msgSend$initWithLocalizedTitle:symbolName:values:
++ _objc_msgSend$initWithPaths:
++ _objc_msgSend$initWithPixelBufferAttributes:
++ _objc_msgSend$initWithSampleBuffer:
++ _objc_msgSend$initWithTagCollections:
++ _objc_msgSend$initWithUnsignedInt:
++ _objc_msgSend$insertTimeRange:ofAsset:atTime:error:
++ _objc_msgSend$instructions
++ _objc_msgSend$intValue
++ _objc_msgSend$integerValue
++ _objc_msgSend$interstitialEventWithPrimaryItem:identifier:date:templateItems:restrictions:resumptionOffset:playoutLimit:userDefinedAttributes:
++ _objc_msgSend$interstitialEventWithPrimaryItem:identifier:time:templateItems:restrictions:resumptionOffset:playoutLimit:userDefinedAttributes:
++ _objc_msgSend$isReadyForMoreMediaData
++ _objc_msgSend$loadChapterMetadataGroupsWithTitleLocale:containingItemsWithCommonKeys:completionHandler:
++ _objc_msgSend$loadValuesAsynchronouslyForKeys:completionHandler:
++ _objc_msgSend$loadedTimeRanges
++ _objc_msgSend$markAsFinished
++ _objc_msgSend$markConfigurationAsFinal
++ _objc_msgSend$markCurrentPassAsFinished
++ _objc_msgSend$maxExposureBias
++ _objc_msgSend$maxZoomFactor
++ _objc_msgSend$minExposureBias
++ _objc_msgSend$minZoomFactor
++ _objc_msgSend$mutableCopy
++ _objc_msgSend$newPixelBuffer
++ _objc_msgSend$nextCaptionGroup
++ _objc_msgSend$nextTimedMetadataGroup
++ _objc_msgSend$nominalFrameRate
++ _objc_msgSend$objCType
++ _objc_msgSend$outputBufferDescription
++ _objc_msgSend$outputURL
++ _objc_msgSend$paths
++ _objc_msgSend$peakBitRate
++ _objc_msgSend$perFrameHDRDisplayMetadataPolicy
++ _objc_msgSend$pixelBuffer
++ _objc_msgSend$pixelBufferPool
++ _objc_msgSend$preferredTagCollections
++ _objc_msgSend$progress
++ _objc_msgSend$progressWithTotalUnitCount:
++ _objc_msgSend$prominentValues
++ _objc_msgSend$recommendedPixelBufferAttributes
++ _objc_msgSend$removeBackgroundColorInRange:
++ _objc_msgSend$removeDecorationInRange:
++ _objc_msgSend$removeFontStyleInRange:
++ _objc_msgSend$removeFontWeightInRange:
++ _objc_msgSend$removeRubyInRange:
++ _objc_msgSend$removeTextColorInRange:
++ _objc_msgSend$removeTextCombineInRange:
++ _objc_msgSend$removeTimeObserver:
++ _objc_msgSend$renderScale
++ _objc_msgSend$renderSize
++ _objc_msgSend$resetForReadingTimeRanges:
++ _objc_msgSend$resetUpcomingSampleBufferPresentationTimeExpectations
++ _objc_msgSend$respondToEachPassDescriptionOnQueue:usingBlock:
++ _objc_msgSend$rubyAtIndex:range:
++ _objc_msgSend$secondaryNativeResolutionZoomFactors
++ _objc_msgSend$seekToDate:completionHandler:
++ _objc_msgSend$setActionQueue:action:
++ _objc_msgSend$setAlwaysCopiesSampleData:
++ _objc_msgSend$setAnimationTool:
++ _objc_msgSend$setBackgroundColor:
++ _objc_msgSend$setBackgroundColor:inRange:
++ _objc_msgSend$setCameraCalibrationDataLensCollection:
++ _objc_msgSend$setCameraSystemBaseline:
++ _objc_msgSend$setCancellable:
++ _objc_msgSend$setCancellationHandler:
++ _objc_msgSend$setColorPrimaries:
++ _objc_msgSend$setColorTransferFunction:
++ _objc_msgSend$setColorYCbCrMatrix:
++ _objc_msgSend$setCompletedUnitCount:
++ _objc_msgSend$setCropRectangle:atTime:
++ _objc_msgSend$setCropRectangleRampFromStartCropRectangle:toEndCropRectangle:timeRange:
++ _objc_msgSend$setCustomVideoCompositorClass:
++ _objc_msgSend$setDecoration:inRange:
++ _objc_msgSend$setDisparityAdjustment:
++ _objc_msgSend$setEnablePostProcessing:
++ _objc_msgSend$setFileURL:
++ _objc_msgSend$setFontStyle:inRange:
++ _objc_msgSend$setFontWeight:inRange:
++ _objc_msgSend$setFrameDuration:
++ _objc_msgSend$setHasProvider:
++ _objc_msgSend$setHasReceiver:
++ _objc_msgSend$setHorizontalFieldOfView:
++ _objc_msgSend$setInstructions:
++ _objc_msgSend$setKind:
++ _objc_msgSend$setLayerInstructions:
++ _objc_msgSend$setOpacity:atTime:
++ _objc_msgSend$setOpacityRampFromStartOpacity:toEndOpacity:timeRange:
++ _objc_msgSend$setOutputBufferDescription:
++ _objc_msgSend$setOutputFileType:
++ _objc_msgSend$setOutputPixelBufferAttributes:forTagCollection:
++ _objc_msgSend$setOutputSettings:forTagCollection:
++ _objc_msgSend$setOutputURL:
++ _objc_msgSend$setPaths:
++ _objc_msgSend$setPausable:
++ _objc_msgSend$setPerFrameHDRDisplayMetadataPolicy:
++ _objc_msgSend$setPerformsMultiPassEncodingIfSupported:
++ _objc_msgSend$setProminentValues:
++ _objc_msgSend$setRenderScale:
++ _objc_msgSend$setRenderSize:
++ _objc_msgSend$setRequiredSourceSampleDataTrackIDs:
++ _objc_msgSend$setRuby:inRange:
++ _objc_msgSend$setSourceSampleDataTrackIDs:
++ _objc_msgSend$setSourceTrackIDForFrameTiming:
++ _objc_msgSend$setSpatialVideoConfigurations:
++ _objc_msgSend$setSpeedRamp:
++ _objc_msgSend$setSubscriber:queue:
++ _objc_msgSend$setSupportsRandomAccess:
++ _objc_msgSend$setTextColor:inRange:
++ _objc_msgSend$setTextCombine:inRange:
++ _objc_msgSend$setTimeRange:
++ _objc_msgSend$setTrackID:
++ _objc_msgSend$setTransform:atTime:
++ _objc_msgSend$setTransformRampFromStartTransform:toEndTransform:timeRange:
++ _objc_msgSend$setValidationDelegate:
++ _objc_msgSend$set_sourceSampleDataTrackIDs:
++ _objc_msgSend$sourceFrameByTrackID:
++ _objc_msgSend$sourceImage
++ _objc_msgSend$sourcePixelBufferAttributes
++ _objc_msgSend$sourceSampleBufferByTrackID:
++ _objc_msgSend$sourceSampleDataTrackIDs
++ _objc_msgSend$sourceTaggedBufferGroupByTrackID:
++ _objc_msgSend$sourceTrackIDForFrameTiming
++ _objc_msgSend$spatialVideoConfigurations
++ _objc_msgSend$speedRamp
++ _objc_msgSend$startReading
++ _objc_msgSend$startWriting
++ _objc_msgSend$status
++ _objc_msgSend$statusOfValueForKey:error:
++ _objc_msgSend$subscribeToAllMetricEvents
++ _objc_msgSend$subscribeToMetricEvent:
++ _objc_msgSend$supportedColorSpaces
++ _objc_msgSend$supportedFlashModes
++ _objc_msgSend$supportedMaxPhotoDimensions
++ _objc_msgSend$supportedVideoZoomFactorsForDepthDataDelivery
++ _objc_msgSend$supportedVideoZoomRangesForDepthDataDelivery
++ _objc_msgSend$synchronizedDataForCaptureOutput:
++ _objc_msgSend$systemRecommendedExposureBiasRange
++ _objc_msgSend$systemRecommendedVideoZoomRange
++ _objc_msgSend$text
++ _objc_msgSend$textColorAtIndex:range:
++ _objc_msgSend$textCombineAtIndex:range:
++ _objc_msgSend$totalUnitCount
++ _objc_msgSend$trackID
++ _objc_msgSend$unsignedIntValue
++ _objc_msgSend$valueForKey:
++ _objc_msgSend$valueWithCMTime:
++ _objc_msgSend$valueWithCMTimeMapping:
++ _objc_msgSend$valueWithCMTimeRange:
++ _objc_msgSend$videoCompositionCoreAnimationToolWithPostProcessingAsVideoLayers:inLayer:
++ _objc_msgSend$videoCompositionInstructionWithInstruction:
++ _objc_msgSend$videoCompositionLayerInstructionWithAssetTrack:
++ _objc_msgSend$videoCompositionLayerInstructionWithLayerInstruction:
++ _objc_msgSend$videoCompositionWithAsset:applyingCIFiltersWithHandler:completionHandler:
++ _objc_msgSend$videoCompositionWithPropertiesOfAsset:completionHandler:
++ _objc_msgSend$videoCompositionWithPropertiesOfAsset:prototypeInstruction:completionHandler:
++ _objc_msgSend$videoCompositionWithVideoComposition:
++ _objc_retain_x23
++ _objc_retain_x24
++ _symbolic $sSo20NSNotificationCenterC10FoundationE12AsyncMessageP
++ _symbolic SS______t s11AnyHashableV
++ _symbolic So32AVPlayerInterstitialEventMonitorC
++ _symbolic _____ So32AVPlayerInterstitialEventMonitorC12AVFoundationE24ScheduleRequestCompletedV
++ _symbolic _____Sg s11AnyHashableV
++ _symbolic _____ySS_____G s18_DictionaryStorageC s11AnyHashableV
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC s11AnyHashableV
++ _symbolic _____y___________pG s6ResultOsRi_zRi0_zrlE 10Foundation4DataV s5ErrorP
++ _type_layout_string Snys5Int32VG
++ _type_layout_string So32AVPlayerInterstitialEventMonitorC12AVFoundationE24ScheduleRequestCompletedV
+- _$s12AVFoundation22AVPartialAsyncPropertyC15backDeployedKeySSvgTf4n_g
+- _$s12AVFoundation22AVPartialAsyncPropertyC19usableFromInlineKeySSvgTf4n_g
+- _$s12AVFoundation26untilReadyForMoreMediaData3forySo18AVAssetWriterInputC_tYaFTQ1_
+- _$s12AVFoundation26untilReadyForMoreMediaData3forySo18AVAssetWriterInputC_tYaFTY0_
+- _$s12AVFoundation26untilReadyForMoreMediaData3forySo18AVAssetWriterInputC_tYaFTY2_
+- _$s6Darwin5noErrs5Int32Vvg
+- _$sSo12AVPlayerItemCMa
+- _$sSo14AVAssetVariantC12AVFoundationE11peakBitRateSdSgvgTm
+- _$sSo18AVAssetWriterInputC12AVFoundationE15CaptionReceiverC17appendImmediatelyySbSo9AVCaptionCKFTm
+- _$sSo18AVAssetWriterInputC12AVFoundationE15CaptionReceiverC6appendyySo14AVCaptionGroupCYaKFTQ1_
+- _$sSo18AVAssetWriterInputC12AVFoundationE15CaptionReceiverC6appendyySo14AVCaptionGroupCYaKFTY0_
+- _$sSo18AVAssetWriterInputC12AVFoundationE15CaptionReceiverC6appendyySo14AVCaptionGroupCYaKFTY2_
+- _$sSo18AVAssetWriterInputC12AVFoundationE15CaptionReceiverC6appendyySo9AVCaptionCYaKFTQ1_
+- _$sSo18AVAssetWriterInputC12AVFoundationE15CaptionReceiverC6appendyySo9AVCaptionCYaKFTY0_
+- _$sSo18AVAssetWriterInputC12AVFoundationE15CaptionReceiverC6appendyySo9AVCaptionCYaKFTY2_
+- _$sSo18AVAssetWriterInputC12AVFoundationE16MetadataReceiverC6appendyySo07AVTimedE5GroupCYaKFTQ1_
+- _$sSo18AVAssetWriterInputC12AVFoundationE16MetadataReceiverC6appendyySo07AVTimedE5GroupCYaKFTY0_
+- _$sSo18AVAssetWriterInputC12AVFoundationE16MetadataReceiverC6appendyySo07AVTimedE5GroupCYaKFTY2_
+- _$sSo18AVAssetWriterInputC12AVFoundationE16PassDescriptions33_0DBEBA44EF5A78124CEEE30A91094244LLV8IteratorVScIACScI4next7ElementQzSgyYaKFTWTY2_
+- _$sSo18AVAssetWriterInputC12AVFoundationE19PixelBufferReceiverC6append_4withy9CoreVideo010CVReadOnlyeF0C_So6CMTimeatYaKFTQ1_
+- _$sSo18AVAssetWriterInputC12AVFoundationE19PixelBufferReceiverC6append_4withy9CoreVideo010CVReadOnlyeF0C_So6CMTimeatYaKFTY0_
+- _$sSo18AVAssetWriterInputC12AVFoundationE19PixelBufferReceiverC6append_4withy9CoreVideo010CVReadOnlyeF0C_So6CMTimeatYaKFTY2_
+- _$sSo18AVAssetWriterInputC12AVFoundationE20SampleBufferReceiverC6appendyy9CoreMedia07CMReadyeF0VySo08CMSampleF3RefaAGE14DynamicContentOGYaKFTQ1_
+- _$sSo18AVAssetWriterInputC12AVFoundationE20SampleBufferReceiverC6appendyy9CoreMedia07CMReadyeF0VySo08CMSampleF3RefaAGE14DynamicContentOGYaKFTY0_
+- _$sSo18AVAssetWriterInputC12AVFoundationE20SampleBufferReceiverC6appendyy9CoreMedia07CMReadyeF0VySo08CMSampleF3RefaAGE14DynamicContentOGYaKFTY2_
+- _$sSo18AVAssetWriterInputC12AVFoundationE30TaggedPixelBufferGroupReceiverC6append_4withySay9CoreMedia015CMTaggedDynamicG0VG_So6CMTimeatYaKFTQ1_
+- _$sSo18AVAssetWriterInputC12AVFoundationE30TaggedPixelBufferGroupReceiverC6append_4withySay9CoreMedia015CMTaggedDynamicG0VG_So6CMTimeatYaKFTY0_
+- _$sSo18AVAssetWriterInputC12AVFoundationE30TaggedPixelBufferGroupReceiverC6append_4withySay9CoreMedia015CMTaggedDynamicG0VG_So6CMTimeatYaKFTY2_
+- _$sSo18AVVideoCompositionC12AVFoundationE13ConfigurationV14colorPrimariesSSSgvgTm
+- _$sSo18AVVideoCompositionC12AVFoundationE13ConfigurationV14colorPrimariesSSSgvpAETKTm
+- _$sSo18AVVideoCompositionC12AVFoundationE13ConfigurationV14colorPrimariesSSSgvsTm
+- _$sSo18AVVideoCompositionC12AVFoundationE13ConfigurationV27sourceTrackIDForFrameTimings5Int32VvM.resume.0Tm
+- _$sSo18AVVideoCompositionC12AVFoundationE13ConfigurationV27sourceTrackIDForFrameTimings5Int32VvpAETkTm
+- _$sSo18AVVideoCompositionC12AVFoundationE13ConfigurationV27sourceTrackIDForFrameTimings5Int32VvsTm
+- _$sSo18AVVideoCompositionC12AVFoundationE13ConfigurationV3for20prototypeInstructionAESo7AVAssetC_So0abG0CSgtYaKcfCTQ2_
+- _$sSo18AVVideoCompositionC12AVFoundationE13ConfigurationV3for20prototypeInstructionAESo7AVAssetC_So0abG0CSgtYaKcfCTY0_
+- _$sSo18AVVideoCompositionC12AVFoundationE13ConfigurationV3for20prototypeInstructionAESo7AVAssetC_So0abG0CSgtYaKcfCTY6_
+- _$sSo18AVVideoCompositionC12AVFoundationE17applyingFiltersTo7applierABSo7AVAssetC_AC24AVCIImageFilteringResultVAC0iJ10ParametersVYaYbKctYaKcfCTQ1_
+- _$sSo18AVVideoCompositionC12AVFoundationE17applyingFiltersTo7applierABSo7AVAssetC_AC24AVCIImageFilteringResultVAC0iJ10ParametersVYaYbKctYaKcfCTY0_
+- _$sSo18AVVideoCompositionC12AVFoundationE17applyingFiltersTo7applierABSo7AVAssetC_AC24AVCIImageFilteringResultVAC0iJ10ParametersVYaYbKctYaKcfCTY3_
+- _$sSo19AVAssetReaderOutputC12AVFoundationE8ProviderC4nextxSgyYaKFTQ1_
+- _$sSo19AVAssetReaderOutputC12AVFoundationE8ProviderC4nextxSgyYaKFTY0_
+- _$sSo19AVAssetReaderOutputC12AVFoundationE8ProviderC4nextxSgyYaKFTY3_
+- _$sSo20AVCapturePhotoOutputC12AVFoundationE09availableB16PixelFormatTypesSays6UInt32VGvgTm
+- _$sSo20AVMutableCompositionC12AVFoundationE15insertTimeRange_2of2at9isolationySo06CMTimeF0a_So7AVAssetCSo0J0aScA_pSgYitYaKFTY5_
+- _$sSo21AVAssetImageGeneratorC12AVFoundationE6ImagesVScIACScI4next7ElementQzSgyYaKFTWTY1_
+- _$sSo21AVCaptureDeviceFormatC12AVFoundationE36secondaryNativeResolutionZoomFactorsSay12CoreGraphics7CGFloatVGvgTm
+- _$sSo26AVVideoOutputSpecificationC12AVFoundationE23preferredTagCollectionsSaySay9CoreMedia5CMTagCGGvgTm
+- _$sSo26NSKeyValueObservingOptionsVs10SetAlgebraSCsACP12intersectionyxxFTW
+- _$sSo26NSKeyValueObservingOptionsVs10SetAlgebraSCsACP16formIntersectionyyxFTW
+- _$sSo26NSKeyValueObservingOptionsVs10SetAlgebraSCsACP6insertySb8inserted_7ElementQz17memberAfterInserttAHnFTW
+- _$sSo26NSKeyValueObservingOptionsVs10SetAlgebraSCsACP9formUnionyyxnFTW
+- _$sSo27AVMetadataExtraAttributeKeyaABSYSCWlTm
+- _$sSo29AVAssetVariantVideoAttributesC12AVFoundationE10codecTypesSays6UInt32VGvgTm
+- _$sSo30AVPlayerItemIntegratedTimelineC12AVFoundationE13BoundaryTimesV8IteratorVScIACScI4next7ElementQzSgyYaKFTWTY1_
+- _$sSo30AVPlayerItemIntegratedTimelineC12AVFoundationE13PeriodicTimesV8IteratorVScIACScI4next7ElementQzSgyYaKFTWTY1_
+- _$sSo9AVCaptionC12AVFoundationE10fontWeight2atSo0a4FontD0V_SnySS5IndexVGtAI_tFTm
+- _$sSo9AVCaptionC12AVFoundationE9textColor2atSo10CGColorRefaSg_SnySS5IndexVGtAJ_tFTm
+- _$ss8Sendable_pWOb
+- _$ss8Sendable_pWOcTm
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.99
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.99TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.99Tu
+- __swift_FORCE_LOAD_$_swiftAccelerate
+- __swift_FORCE_LOAD_$_swiftAccelerate_$_AVFoundation
+- __swift_FORCE_LOAD_$_swiftCoreAudio_Private
+- __swift_FORCE_LOAD_$_swiftCoreAudio_Private_$_AVFoundation
+- _malloc
+- _objc_retain_x25
+- _type_layout_string So17CMVideoDimensionsa
+CStrings:
++ "AVFoundation"
+
+```

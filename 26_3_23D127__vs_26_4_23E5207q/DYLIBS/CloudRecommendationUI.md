@@ -1,0 +1,496 @@
+## CloudRecommendationUI
+
+> `/System/Library/PrivateFrameworks/CloudRecommendationUI.framework/CloudRecommendationUI`
+
+```diff
+
+-301.23.1.2.0
+-  __TEXT.__text: 0xa36dc
+-  __TEXT.__auth_stubs: 0x2a90
++301.23.4.2.0
++  __TEXT.__text: 0xa8ea0
++  __TEXT.__auth_stubs: 0x2b40
+   __TEXT.__objc_methlist: 0x8b4
+-  __TEXT.__const: 0x7284
++  __TEXT.__const: 0x72b4
+   __TEXT.__gcc_except_tab: 0x64
+-  __TEXT.__cstring: 0x3525
++  __TEXT.__cstring: 0x20a5
+   __TEXT.__dlopen_cstrs: 0x15c
+-  __TEXT.__constg_swiftt: 0x26bc
+-  __TEXT.__swift5_typeref: 0x9192
++  __TEXT.__constg_swiftt: 0x27ac
++  __TEXT.__swift5_typeref: 0x8e2a
+   __TEXT.__swift5_reflstr: 0x1b84
+   __TEXT.__swift5_fieldmd: 0x19fc
+   __TEXT.__swift5_builtin: 0x78
+   __TEXT.__swift5_assocty: 0x558
+   __TEXT.__oslogstring: 0x2862
+-  __TEXT.__swift5_capture: 0x1040
+-  __TEXT.__swift5_proto: 0x32c
++  __TEXT.__swift5_capture: 0xfb8
++  __TEXT.__swift5_proto: 0x330
+   __TEXT.__swift5_types: 0x1ac
+   __TEXT.__swift_as_entry: 0x1e8
+   __TEXT.__swift_as_ret: 0x1fc
+   __TEXT.__swift5_protos: 0x8
+   __TEXT.__swift5_mpenum: 0x14
+-  __TEXT.__unwind_info: 0x2650
+-  __TEXT.__eh_frame: 0x46d0
+-  __TEXT.__objc_classname: 0x1e2
+-  __TEXT.__objc_methname: 0x224f
+-  __TEXT.__objc_methtype: 0x7d0
+-  __TEXT.__objc_stubs: 0x320
+-  __DATA_CONST.__got: 0xb20
+-  __DATA_CONST.__const: 0x1c8
++  __TEXT.__unwind_info: 0x25f8
++  __TEXT.__eh_frame: 0x4840
++  __TEXT.__objc_classname: 0xc05
++  __TEXT.__objc_methname: 0x2e75
++  __TEXT.__objc_methtype: 0xb1e
++  __TEXT.__objc_stubs: 0x25c0
++  __DATA_CONST.__got: 0xb38
++  __DATA_CONST.__const: 0x1d8
+   __DATA_CONST.__objc_classlist: 0x178
+   __DATA_CONST.__objc_protolist: 0xb0
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0xb90
+   __DATA_CONST.__objc_protorefs: 0x58
+   __DATA_CONST.__objc_superrefs: 0x18
+-  __AUTH_CONST.__auth_got: 0x1558
+-  __AUTH_CONST.__const: 0x4418
++  __AUTH_CONST.__auth_got: 0x15b0
++  __AUTH_CONST.__const: 0x4340
+   __AUTH_CONST.__objc_const: 0x4f48
+   __AUTH.__objc_data: 0x1260
+   __AUTH.__data: 0x2c28
+   __DATA.__objc_ivar: 0x20
+   __DATA.__data: 0x24a0
+-  __DATA.__bss: 0x67c0
++  __DATA.__bss: 0x6868
+   __DATA.__common: 0x138
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
++  - /usr/lib/swift/libswiftGLKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMapKit.dylib
+
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftSceneKit.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftVideoToolbox.dylib
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8840999B-A827-32F8-88C7-696B74224862
+-  Functions: 3028
+-  Symbols:   2083
+-  CStrings:  1035
++  UUID: EBBE4ADE-A239-361B-87A5-21748C3F339D
++  Functions: 3001
++  Symbols:   2401
++  CStrings:  1049
+ 
+Symbols:
++ _OUTLINED_FUNCTION_0
++ __MergedGlobals
++ ___isOSVersionAtLeast
++ ___isOSVersionAtLeast.cold.1
++ ___isPlatformVersionAtLeast
++ ___isPlatformVersionAtLeast.cold.1
++ ___isPlatformVersionAtLeast.cold.2
++ __availability_version_check
++ __initializeAvailabilityCheck
++ __swift_FORCE_LOAD_$_swiftGLKit
++ __swift_FORCE_LOAD_$_swiftGLKit_$_CloudRecommendationUI
++ __swift_FORCE_LOAD_$_swiftSceneKit
++ __swift_FORCE_LOAD_$_swiftSceneKit_$_CloudRecommendationUI
++ _block_copy_helper.77
++ _block_copy_helper.84
++ _block_descriptor.79
++ _block_descriptor.86
++ _block_destroy_helper.78
++ _block_destroy_helper.85
++ _compatibilityInitializeAvailabilityCheck
++ _dispatch_once_f
++ _dlsym
++ _fclose
++ _fopen
++ _fread
++ _fseek
++ _ftell
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQOQr.1
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOQr.3
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQOqd0__AaBHC.2
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOqd__AaBHC.4
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA9EmptyViewVAA0F0PAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyAA7SectionVyAA4TextVSgAA7ForEachVySaySo16CERecommendationCGAxgAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAgAE5sheet4item9onDismiss7contentQrAA7BindingVyqd__SgG_yycSgqd_0_qd__cts12IdentifiableRd__AaFRd_0_r0_lFQOyAA08ModifiedD0Vy019CloudRecommendationB04CardVAA14_PaddingLayoutVG_AXA15_yA16_18RecommendationFlowVAA30_SafeAreaRegionsIgnoringLayoutVGQo__Qo_GAEG_Qo_GAaFHPAeaFHPyHC_qd__AaFHD2_A31_HOHC.52
++ _get_witness_table 7SwiftUI4ViewRzlqd0__AaBHD3_AaBPAAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQOyx_10Foundation10URLRequestVSgQo_HO.10
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAA15ModifiedContentVyAA08ProgressC0VyAA05EmptyC0VAOGAA14_OpacityEffectVG_Qo_HO.14
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAA5ColorV_Qo_HO.5
++ _initializeAvailabilityCheck
++ _objc_autorelease
++ _objc_msgSend$URL1x
++ _objc_msgSend$URL2x
++ _objc_msgSend$URL3x
++ _objc_msgSend$URLCache
++ _objc_msgSend$aa_addBasicAuthorizationHeaderWithAccount:preferUsingPassword:
++ _objc_msgSend$aa_addClientInfoHeaders
++ _objc_msgSend$aa_addContentTypeHeaders:
++ _objc_msgSend$aa_addDeviceIDHeader
++ _objc_msgSend$aa_addMultiUserDeviceHeaderIfEnabled
++ _objc_msgSend$aa_altDSID
++ _objc_msgSend$aa_authKitAccountForAltDSID:
++ _objc_msgSend$aa_needsEmailConfiguration
++ _objc_msgSend$aa_personID
++ _objc_msgSend$aa_primaryAppleAccount
++ _objc_msgSend$aa_primaryAppleAccountWithCompletion:
++ _objc_msgSend$aa_primaryEmail
++ _objc_msgSend$accountStore
++ _objc_msgSend$accountType
++ _objc_msgSend$accounts
++ _objc_msgSend$actionTitle
++ _objc_msgSend$actionTitleTemplateForKey:
++ _objc_msgSend$actionType
++ _objc_msgSend$actionURL
++ _objc_msgSend$actions
++ _objc_msgSend$activateConstraints:
++ _objc_msgSend$addChildViewController:
++ _objc_msgSend$addObserver:selector:name:object:
++ _objc_msgSend$addSubview:
++ _objc_msgSend$ak_addAnisetteHeaders
++ _objc_msgSend$ak_addDeviceUDIDHeader
++ _objc_msgSend$ams_DSID
++ _objc_msgSend$ams_activeiTunesAccount
++ _objc_msgSend$ams_sharedAccountStore
++ _objc_msgSend$appStoreID
++ _objc_msgSend$applicationIsInstalled:
++ _objc_msgSend$applicationWithBundleIdentifier:
++ _objc_msgSend$authenticateForSubject:completion:
++ _objc_msgSend$backgroundSystemColorName
++ _objc_msgSend$backupDeviceUUID
++ _objc_msgSend$bagForProfile:profileVersion:
++ _objc_msgSend$beginAppleOneUpgradeFlowWithPresenter:url:
++ _objc_msgSend$beginLiftUIUpgradeFlowWithPresenter:url:
++ _objc_msgSend$beginRemoteUIUpgradeFlowWithPresenter:url:
++ _objc_msgSend$boolForKey:
++ _objc_msgSend$bottomAnchor
++ _objc_msgSend$buildRecommendationFlowControllerWithAction:
++ _objc_msgSend$bundleForClass:
++ _objc_msgSend$bundleID
++ _objc_msgSend$bundleIdentifier
++ _objc_msgSend$bytes
++ _objc_msgSend$cachedResponseForRequest:
++ _objc_msgSend$calculateExtraQuotaNeededToSyncIsAccountFull:completion:
++ _objc_msgSend$canAutoEnableDataclass:forAccount:
++ _objc_msgSend$canUse
++ _objc_msgSend$category
++ _objc_msgSend$clearLastDismissed:
++ _objc_msgSend$code
++ _objc_msgSend$completed
++ _objc_msgSend$configuration
++ _objc_msgSend$constraintEqualToAnchor:
++ _objc_msgSend$context
++ _objc_msgSend$copy
++ _objc_msgSend$criteria
++ _objc_msgSend$currentDevice
++ _objc_msgSend$currentProcess
++ _objc_msgSend$currentStorageOnDeviceWithReply:
++ _objc_msgSend$darkGrayColor
++ _objc_msgSend$data
++ _objc_msgSend$dataclasses
++ _objc_msgSend$dateFormat
++ _objc_msgSend$defaultCenter
++ _objc_msgSend$defaultSessionConfiguration
++ _objc_msgSend$defaultStore
++ _objc_msgSend$defaultWorkspace
++ _objc_msgSend$description
++ _objc_msgSend$didMoveToParentViewController:
++ _objc_msgSend$dismissViewControllerAnimated:completion:
++ _objc_msgSend$domain
++ _objc_msgSend$doubleValue
++ _objc_msgSend$dsid
++ _objc_msgSend$error
++ _objc_msgSend$fetchAAURLConfigurationWithCompletion:
++ _objc_msgSend$fetchActiveLibraryScopeWithOptions:
++ _objc_msgSend$fetchCloudStorageInfo:completion:
++ _objc_msgSend$fetchEligibilityWithError:
++ _objc_msgSend$firstObject
++ _objc_msgSend$floatValue
++ _objc_msgSend$foregroundSystemColorName
++ _objc_msgSend$getUserTierExtended:completionHandler:
++ _objc_msgSend$gibibytes
++ _objc_msgSend$gigabytes
++ _objc_msgSend$icon
++ _objc_msgSend$identifier
++ _objc_msgSend$imageNamed:inBundle:
++ _objc_msgSend$init
++ _objc_msgSend$initWithAccount:
++ _objc_msgSend$initWithAccountStore:
++ _objc_msgSend$initWithAccountStore:appleAccount:presenter:
++ _objc_msgSend$initWithAltDSID:
++ _objc_msgSend$initWithAppleAccount:urlString:
++ _objc_msgSend$initWithBundleIdentifier:
++ _objc_msgSend$initWithContext:
++ _objc_msgSend$initWithData:
++ _objc_msgSend$initWithDouble:
++ _objc_msgSend$initWithEventType:
++ _objc_msgSend$initWithInteger:
++ _objc_msgSend$initWithPhotoLibraryURL:
++ _objc_msgSend$initWithPresenter:
++ _objc_msgSend$initWithPropertyName:bundleID:
++ _objc_msgSend$initWithResponse:data:
++ _objc_msgSend$initWithSuiteName:
++ _objc_msgSend$initWithSymbolName:configuration:
++ _objc_msgSend$initWithType:
++ _objc_msgSend$initWithURL:cachePolicy:timeoutInterval:
++ _objc_msgSend$integerValue
++ _objc_msgSend$isCloudPhotoLibraryEnabled
++ _objc_msgSend$isCloudPrivateRelayAllowed
++ _objc_msgSend$isEnabledForDataclass:
++ _objc_msgSend$isMultiLibraryModeEnabled
++ _objc_msgSend$isUserVisibleKeychainSyncEnabled
++ _objc_msgSend$labelColor
++ _objc_msgSend$lastDismissedTimestamp:
++ _objc_msgSend$leadingAnchor
++ _objc_msgSend$lightGrayColor
++ _objc_msgSend$loadProductWithParameters:completionBlock:
++ _objc_msgSend$localizedDescription
++ _objc_msgSend$localizedTextForDataclass:
++ _objc_msgSend$magentaColor
++ _objc_msgSend$mainBundle
++ _objc_msgSend$mainScreen
++ _objc_msgSend$max
++ _objc_msgSend$maxRecommendationsToShow
++ _objc_msgSend$me
++ _objc_msgSend$megabytes
++ _objc_msgSend$members
++ _objc_msgSend$message
++ _objc_msgSend$messageTemplateForKey:
++ _objc_msgSend$min
++ _objc_msgSend$mutableCopy
++ _objc_msgSend$name
++ _objc_msgSend$navigationController
++ _objc_msgSend$numberFromString:
++ _objc_msgSend$openPhotoLibraryWithWellKnownIdentifier:error:
++ _objc_msgSend$openSensitiveURL:withOptions:
++ _objc_msgSend$page
++ _objc_msgSend$parentViewController
++ _objc_msgSend$path
++ _objc_msgSend$pendingMembers
++ _objc_msgSend$performDeviceToDeviceEncryptionStateRepairWithCompletion:
++ _objc_msgSend$performRequestWithHandler:
++ _objc_msgSend$performWithContext:completion:
++ _objc_msgSend$presentViewController:animated:completion:
++ _objc_msgSend$presentWithAlert:completionHandler:
++ _objc_msgSend$presentationController
++ _objc_msgSend$primaryAccountAltDSID
++ _objc_msgSend$provisionedDataclasses
++ _objc_msgSend$quaternaryLabelColor
++ _objc_msgSend$rankingHint
++ _objc_msgSend$recommendationID
++ _objc_msgSend$recommendationInfo
++ _objc_msgSend$recommendationRules
++ _objc_msgSend$recommendationSpecifierTitle
++ _objc_msgSend$recommendations
++ _objc_msgSend$refresh
++ _objc_msgSend$removeObserver:
++ _objc_msgSend$renewCredentialsWithCompletion:
++ _objc_msgSend$requestFeatureWithId:completion:
++ _objc_msgSend$ruleset
++ _objc_msgSend$saveAccount:withCompletionHandler:
++ _objc_msgSend$scale
++ _objc_msgSend$secondaryLabelColor
++ _objc_msgSend$secondarySystemGroupedBackgroundColor
++ _objc_msgSend$sectionHeader
++ _objc_msgSend$sectionID
++ _objc_msgSend$sections
++ _objc_msgSend$securityLevelForAccount:
++ _objc_msgSend$sendRecommendationStatus:configuration:recommendationIdentifiers:storageRecovered:context:completion:
++ _objc_msgSend$services
++ _objc_msgSend$sessionWithConfiguration:
++ _objc_msgSend$setActionTitle:
++ _objc_msgSend$setActions:
++ _objc_msgSend$setAdditionalParameters:
++ _objc_msgSend$setBackgroundColor:
++ _objc_msgSend$setCachePolicy:
++ _objc_msgSend$setClientBundleID:
++ _objc_msgSend$setClientName:
++ _objc_msgSend$setCloudRecommendationsDelegate:
++ _objc_msgSend$setCompleted:
++ _objc_msgSend$setDateStyle:
++ _objc_msgSend$setDeviceToDeviceEncryptionUpgradeType:
++ _objc_msgSend$setDeviceToDeviceEncryptionUpgradeUIStyle:
++ _objc_msgSend$setEnabled:forDataclass:
++ _objc_msgSend$setEnclosureColors:
++ _objc_msgSend$setFeatureName:
++ _objc_msgSend$setMaximumFractionDigits:
++ _objc_msgSend$setMessage:
++ _objc_msgSend$setNavigationBarHidden:animated:
++ _objc_msgSend$setPhotoLibrary:
++ _objc_msgSend$setPresentingViewController:
++ _objc_msgSend$setRecommendationInfo:
++ _objc_msgSend$setShowsStoreButton:
++ _objc_msgSend$setStatus:
++ _objc_msgSend$setStorageRecoverable:
++ _objc_msgSend$setSubTitle:
++ _objc_msgSend$setSymbolColors:
++ _objc_msgSend$setTimeStyle:
++ _objc_msgSend$setTitle:
++ _objc_msgSend$setTranslatesAutoresizingMaskIntoConstraints:
++ _objc_msgSend$setURL1x:
++ _objc_msgSend$setURL2x:
++ _objc_msgSend$setURL3x:
++ _objc_msgSend$setURLCache:
++ _objc_msgSend$setUnitStyle:
++ _objc_msgSend$setUserTier:queue:completionHandler:
++ _objc_msgSend$setUserVisibleKeychainSyncEnabled:withCompletion:
++ _objc_msgSend$setValue:forHTTPHeaderField:
++ _objc_msgSend$setValue:forKey:
++ _objc_msgSend$sharedConnection
++ _objc_msgSend$sharedGuard
++ _objc_msgSend$sharedInstance
++ _objc_msgSend$sharedManager
++ _objc_msgSend$sharedPhotoLibrary
++ _objc_msgSend$sharedSession
++ _objc_msgSend$sharedURLCache
++ _objc_msgSend$shouldUseISIcon
++ _objc_msgSend$sortRecommendationRulesUsingComparator:
++ _objc_msgSend$standardUserDefaults
++ _objc_msgSend$startRequestWithCompletionHandler:
++ _objc_msgSend$status
++ _objc_msgSend$statusCode
++ _objc_msgSend$storageRecoverable
++ _objc_msgSend$storeCachedResponse:forRequest:
++ _objc_msgSend$stringFromDate:
++ _objc_msgSend$stringFromNumber:
++ _objc_msgSend$stringFromUnit:
++ _objc_msgSend$stringValue
++ _objc_msgSend$subTitle
++ _objc_msgSend$subTitleTemplateForKey:
++ _objc_msgSend$subscriberDSIDs
++ _objc_msgSend$subtitleTemplates
++ _objc_msgSend$systemBackgroundColor
++ _objc_msgSend$systemBlueColor
++ _objc_msgSend$systemBrownColor
++ _objc_msgSend$systemColorName
++ _objc_msgSend$systemCyanColor
++ _objc_msgSend$systemGray2Color
++ _objc_msgSend$systemGray3Color
++ _objc_msgSend$systemGray4Color
++ _objc_msgSend$systemGray5Color
++ _objc_msgSend$systemGray6Color
++ _objc_msgSend$systemGrayColor
++ _objc_msgSend$systemGreenColor
++ _objc_msgSend$systemGroupedBackgroundColor
++ _objc_msgSend$systemIndigoColor
++ _objc_msgSend$systemMintColor
++ _objc_msgSend$systemOrangeColor
++ _objc_msgSend$systemPhotoLibraryURL
++ _objc_msgSend$systemPinkColor
++ _objc_msgSend$systemPurpleColor
++ _objc_msgSend$systemRedColor
++ _objc_msgSend$systemTealColor
++ _objc_msgSend$systemYellowColor
++ _objc_msgSend$templates
++ _objc_msgSend$tertiaryLabelColor
++ _objc_msgSend$title
++ _objc_msgSend$titleTemplateForKey:
++ _objc_msgSend$topAnchor
++ _objc_msgSend$trackActionCompletedForRecommendation:
++ _objc_msgSend$trackActionDismissedForRecommendation:
++ _objc_msgSend$trailingAnchor
++ _objc_msgSend$unsignedLongLongValue
++ _objc_msgSend$urlForEndpoint:
++ _objc_msgSend$userInterfaceIdiom
++ _objc_msgSend$username
++ _objc_msgSend$valueWithNewObjectInContext:
++ _objc_msgSend$valueWithObject:inContext:
++ _objc_msgSend$view
++ _objectdestroy.27Tm
++ _rewind
++ _sscanf
++ _swift_willThrowTypedImpl
++ _symbolic _____Sg_ABt 10Foundation4DateV
++ _symbolic _____yAAyAAy__________G_____G_____ySiSgGG 7SwiftUI15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA08_PaddingH0V AA30_EnvironmentKeyWritingModifierV
++ _symbolic _____yAAy__________GACG 7SwiftUI15ModifiedContentV 019CloudRecommendationB024CompletedAndDismissedRowV AA14_PaddingLayoutV
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA010_FlexFrameG0V
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA08_PaddingH0V
++ _symbolic _____yAAy_____y_____ACG_____G_____G 7SwiftUI15ModifiedContentV AA12ProgressViewV AA05EmptyF0V AA14_OpacityEffectV AA14_TaskModifier2V
++ _symbolic _____ySaySo16CERecommendationCGAC_____y_____y_____y__________G_AcEy__________GQo__Qo_G 7SwiftUI7ForEachV AA4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AeAE5sheet4item9onDismiss7contentQrAA7BindingVyqd__SgG_yycSgqd_0_qd__cts12IdentifiableRd__AaDRd_0_r0_lFQO AA15ModifiedContentV 019CloudRecommendationB04CardV AA14_PaddingLayoutV AX0U4FlowV AA024_SafeAreaRegionsIgnoringX0V
++ _symbolic _____y_____Sg_____ySaySo16CERecommendationCGAF_____y_____y_____y__________G_AfHy__________GQo__Qo_G_____G 7SwiftUI7SectionV AA4TextV AA7ForEachV AA4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AiAE5sheet4item9onDismiss7contentQrAA7BindingVyqd__SgG_yycSgqd_0_qd__cts12IdentifiableRd__AaHRd_0_r0_lFQO AA15ModifiedContentV 019CloudRecommendationB04CardV AA14_PaddingLayoutV A0_0W4FlowV AA024_SafeAreaRegionsIgnoringZ0V AA05EmptyG0V
++ _symbolic _____y______Qo_ 7SwiftUI4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA5ColorV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 019CloudRecommendationB024CompletedAndDismissedRowV AA14_PaddingLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA5ColorV AA14_TaskModifier2V
++ _symbolic _____y__________y_____y_____Sg_____ySaySo16CERecommendationCGAH_____y_____y_____y__________G_AhJy__________GQo__Qo_GABG_Qo_G 7SwiftUI19_ConditionalContentV AA9EmptyViewV AA0F0PAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA7SectionV AA4TextV AA7ForEachV AgAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AgAE5sheet4item9onDismiss7contentQrAA7BindingVyqd__SgG_yycSgqd_0_qd__cts12IdentifiableRd__AaFRd_0_r0_lFQO AA08ModifiedD0V 019CloudRecommendationB04CardV AA14_PaddingLayoutV A12_18RecommendationFlowV AA30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic _____y__________y_____y_____Sg_____ySaySo16CERecommendationCGAH_____y_____y_____y__________G_AhJy__________GQo__Qo_GABG_Qo__G 7SwiftUI19_ConditionalContentV7StorageO AA9EmptyViewV AA0G0PAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA7SectionV AA4TextV AA7ForEachV AiAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AiAE5sheet4item9onDismiss7contentQrAA7BindingVyqd__SgG_yycSgqd_0_qd__cts12IdentifiableRd__AaHRd_0_r0_lFQO AA08ModifiedD0V 019CloudRecommendationB04CardV AA14_PaddingLayoutV A14_18RecommendationFlowV AA30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic _____y_____yAAy__________G_So16CERecommendationCAAy__________GQo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE5sheet4item9onDismiss7contentQrAA7BindingVyqd__SgG_yycSgqd_0_qd__cts12IdentifiableRd__AaDRd_0_r0_lFQO 019CloudRecommendationB04CardV AA14_PaddingLayoutV AP0N4FlowV AA024_SafeAreaRegionsIgnoringQ0V AA14_TaskModifier2V
++ _symbolic _____y_____y_____Sg_____ySaySo16CERecommendationCGAF_____y_____y_____y__________G_AfHy__________GQo__Qo_G_____G_Qo_ 7SwiftUI4ViewPAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA7SectionV AA4TextV AA7ForEachV AcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AcAE5sheet4item9onDismiss7contentQrAA7BindingVyqd__SgG_yycSgqd_0_qd__cts12IdentifiableRd__AaBRd_0_r0_lFQO AA15ModifiedContentV 019CloudRecommendationB04CardV AA14_PaddingLayoutV A8_18RecommendationFlowV AA30_SafeAreaRegionsIgnoringLayoutV AA05EmptyC0V
++ _symbolic _____y_____y__________G_So16CERecommendationCAAy__________GQo_ 7SwiftUI4ViewPAAE5sheet4item9onDismiss7contentQrAA7BindingVyqd__SgG_yycSgqd_0_qd__cts12IdentifiableRd__AaBRd_0_r0_lFQO AA15ModifiedContentV 019CloudRecommendationB04CardV AA14_PaddingLayoutV AP0N4FlowV AA024_SafeAreaRegionsIgnoringQ0V
++ _symbolic _____y_____y_____y_____ACG_____G_Qo_ 7SwiftUI4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA15ModifiedContentV AA08ProgressC0V AA05EmptyC0V AA14_OpacityEffectV
++ _symbolic _____y_____y_____y__________G_So16CERecommendationCAAy__________GQo__Qo_ 7SwiftUI4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AcAE5sheet4item9onDismiss7contentQrAA7BindingVyqd__SgG_yycSgqd_0_qd__cts12IdentifiableRd__AaBRd_0_r0_lFQO AA15ModifiedContentV 019CloudRecommendationB04CardV AA14_PaddingLayoutV AV0S4FlowV AA024_SafeAreaRegionsIgnoringV0V
++ _symbolic _____yx______SgQo_ 7SwiftUI4ViewPAAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQO 10Foundation10URLRequestV
++ _symbolic qd0__
+- _block_copy_helper.101
+- _block_copy_helper.94
+- _block_descriptor.103
+- _block_descriptor.96
+- _block_destroy_helper.102
+- _block_destroy_helper.95
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA5ColorVAA13_TaskModifierVGAA4ViewHPAeaIHPyHC_AgA0hG0HPyHCHC.4
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA12ProgressViewVyAA05EmptyF0VAGGAA14_OpacityEffectVGAA13_TaskModifierVGAA0F0HPAkaOHPAhaOHPyHC_AjA0fK0HPyHCHC_AmaPHPyHCHC.13
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA9EmptyViewVAA0F0PAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyAA7SectionVyAA4TextVSgAA7ForEachVySaySo16CERecommendationCGAxA08ModifiedD0VyAgAE5sheet4item9onDismiss7contentQrAA7BindingVyqd__SgG_yycSgqd_0_qd__cts12IdentifiableRd__AaFRd_0_r0_lFQOyA_y019CloudRecommendationB04CardVAA14_PaddingLayoutVG_AXA_yA10_18RecommendationFlowVAA30_SafeAreaRegionsIgnoringLayoutVGQo_AA13_TaskModifierVGGAEG_Qo_GAaFHPAeaFHPyHC_qd__AaFHD2_A27_HOHC.50
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA18_TaskValueModifierVy10Foundation10URLRequestVSgGGAaBHPxAaBHD1__AkA0cH0HPyHCHC.9
+- _objc_claimAutoreleasedReturnValue
+- _objc_retainAutorelease
+- _objc_retain_x1
+- _objc_retain_x3
+- _objc_retain_x4
+- _objectdestroy.26Tm
+- _symbolic Si6offset______7elementt 21CloudRecommendationUI17RecommendedBackupV
+- _symbolic _____yAAy_____y_____ACG_____G_____G 7SwiftUI15ModifiedContentV AA12ProgressViewV AA05EmptyF0V AA14_OpacityEffectV AA13_TaskModifierV
+- _symbolic _____ySaySo16CERecommendationCGAC_____y_____yAEy__________G_AcEy__________GQo______GG 7SwiftUI7ForEachV AA15ModifiedContentV AA4ViewPAAE5sheet4item9onDismiss7contentQrAA7BindingVyqd__SgG_yycSgqd_0_qd__cts12IdentifiableRd__AaFRd_0_r0_lFQO 019CloudRecommendationB04CardV AA14_PaddingLayoutV AR0P4FlowV AA024_SafeAreaRegionsIgnoringS0V AA13_TaskModifierV
+- _symbolic _____y_____SgG 7SwiftUI18_TaskValueModifierV 10Foundation10URLRequestV
+- _symbolic _____y_____Sg_____ySaySo16CERecommendationCGAF_____y_____yAHy__________G_AfHy__________GQo______GG_____G 7SwiftUI7SectionV AA4TextV AA7ForEachV AA15ModifiedContentV AA4ViewPAAE5sheet4item9onDismiss7contentQrAA7BindingVyqd__SgG_yycSgqd_0_qd__cts12IdentifiableRd__AaJRd_0_r0_lFQO 019CloudRecommendationB04CardV AA14_PaddingLayoutV AV0R4FlowV AA024_SafeAreaRegionsIgnoringU0V AA13_TaskModifierV AA05EmptyI0V
+- _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA5ColorV AA13_TaskModifierV
+- _symbolic _____y__________y_____y_____Sg_____ySaySo16CERecommendationCGAH_____y_____yAJy__________G_AhJy__________GQo______GGABG_Qo_G 7SwiftUI19_ConditionalContentV AA9EmptyViewV AA0F0PAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA7SectionV AA4TextV AA7ForEachV AA08ModifiedD0V AgAE5sheet4item9onDismiss7contentQrAA7BindingVyqd__SgG_yycSgqd_0_qd__cts12IdentifiableRd__AaFRd_0_r0_lFQO 019CloudRecommendationB04CardV AA14_PaddingLayoutV A6_18RecommendationFlowV AA30_SafeAreaRegionsIgnoringLayoutV AA13_TaskModifierV
+- _symbolic _____y__________y_____y_____Sg_____ySaySo16CERecommendationCGAH_____y_____yAJy__________G_AhJy__________GQo______GGABG_Qo__G 7SwiftUI19_ConditionalContentV7StorageO AA9EmptyViewV AA0G0PAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA7SectionV AA4TextV AA7ForEachV AA08ModifiedD0V AiAE5sheet4item9onDismiss7contentQrAA7BindingVyqd__SgG_yycSgqd_0_qd__cts12IdentifiableRd__AaHRd_0_r0_lFQO 019CloudRecommendationB04CardV AA14_PaddingLayoutV A8_18RecommendationFlowV AA30_SafeAreaRegionsIgnoringLayoutV AA13_TaskModifierV
+- _symbolic _____y_____yAAyAAyAAy_____y_____y_____yAAy__________G______yADyACyADyAHyADyAAyAAyAAyAAyAAy__________ySbGG_____GAJy_____SgGGAFG_____G_AAy_____y_____yAAyAAyAAy_____yAL_Qo_AQGAMGATGAAyAAy_____AJy_____SgGG_____yAOGGG______Qo_AFGSgAAyAAyAAyAAyAiMGAQGAFGATGtGG______yAAyAAyA3_AQGAFG_____y_____y_____y_____y_____yAAyAAyAByA19_GAFGATG_Qo__Qo__Qo__ADyAByAIG_A27_tGA18_yA2IGQo_______Qo_GSgtGG_ADyAAy_____AFG______ySaySo22CERecommendationActionCGSSAAy_____y_____y_____y_____y_____yAByAAyAAyAiJy_____GGATGG_A31_Qo_G_Qo__Qo__Qo_AFGGtGSgtGGtGGGAMG_____yAOGG_____y_____GG_____y_____GG_Qo_ 7SwiftUI4ViewP011_JetEngine_aB0E28optOutFromMetricsValidationsQryFQO AA15ModifiedContentV AA6ButtonV AA6HStackV AA05TupleC0V 019CloudRecommendationB00q5ImageC0V AA14_PaddingLayoutV AA6VStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA010_FlexFrameT0V AA5ColorV AA023AccessibilityAttachmentZ0V AcAE10labelStyleyQrqd__AA10LabelStyleRd__lFQO AA5LabelV AcAE10fontWeightyQrAA4FontV6WeightVSgFQO AA0R0V A9_ AA016_ForegroundStyleZ0V AN17AlignedLabelStyle33_92AAD4F1D2358D4C53B613838A89C2E7LLV AA012_ConditionalL0V AcAE11buttonStyleyQrqd__AA09PrimitiveM5StyleRd__lFQO AcAE5alert_11isPresented7actions7messageQrAV_AA7BindingVySbGqd__yXEqd_0_yXEtAaBRd__AaBRd_0_r0_lFQO AcDEAEQryFQO AcDE14impressionable_13configuration8position20definesParentContextQr0dE0010ImpressionI0VSg_A35_21ImpressionsCalculatorC13ConfigurationVSiSgSbtFQO AcDEAEQryFQO AA010BorderlessM5StyleV AA7DividerV AA7ForEachV AcDEAEQryFQO AcDEA31__A32_A33_A34_QrA38__A42_A43_SbtFQO AcDEAEQryFQO AA6ZStackV AcAEA22_yQrqd__AAA23_Rd__lFQO AA0V9AlignmentO AA016_BackgroundStyleZ0V AA06_TraityZ0V AA022ListRowBackgroundTraitX0V AA11_ClipEffectV AA16RoundedRectangleV
+- _symbolic _____y_____yAAy__________G_So16CERecommendationCAAy__________GQo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE5sheet4item9onDismiss7contentQrAA7BindingVyqd__SgG_yycSgqd_0_qd__cts12IdentifiableRd__AaDRd_0_r0_lFQO 019CloudRecommendationB04CardV AA14_PaddingLayoutV AP0N4FlowV AA024_SafeAreaRegionsIgnoringQ0V AA13_TaskModifierV
+- _symbolic _____y_____y_____Sg_____ySaySo16CERecommendationCGAF_____y_____yAHy__________G_AfHy__________GQo______GG_____G_Qo_ 7SwiftUI4ViewPAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA7SectionV AA4TextV AA7ForEachV AA15ModifiedContentV AcAE5sheet4item9onDismiss7contentQrAA7BindingVyqd__SgG_yycSgqd_0_qd__cts12IdentifiableRd__AaBRd_0_r0_lFQO 019CloudRecommendationB04CardV AA14_PaddingLayoutV A2_0Z4FlowV AA30_SafeAreaRegionsIgnoringLayoutV AA13_TaskModifierV AA05EmptyC0V
+- _symbolic _____y_____y__________y_____GG_Qo_ 7SwiftUI4ViewP011_JetEngine_aB0E28optOutFromMetricsValidationsQryFQO AA15ModifiedContentV 019CloudRecommendationB04CardV AA21_TraitWritingModifierV AA013ListRowInsetsP3KeyV
+- _symbolic _____y_____y__________y_____GG_Qo_ 7SwiftUI4ViewPAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA15ModifiedContentV 019CloudRecommendationB010HeaderCardV AA21_TraitWritingModifierV AA04Liste6InsetsR3KeyV
+- _symbolic _____y_____y_____y__________G_____G_Qo_ 7SwiftUI4ViewPAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA15ModifiedContentV AA14NavigationLinkV AA4TextV 019CloudRecommendationB028CompletedRecommendationsListV AA14_PaddingLayoutV
+- _symbolic _____y_____y_____y_____y_____y_____y__________G______yAByAAyAByAGyAByACyACyACyACyACy__________ySbGG_____GAIy_____SgGGAEG_____G_ACy_____y_____yACyACyACy_____yAK_Qo_APGALGASGACyACy_____AIy_____SgGG_____yANGGG______Qo_AEGSgACyACyACyACyAhLGAPGAEGASGtGG______yACyACyA2_APGAEG_____y_____y_____y_____y_____yACyACy_____yA18_GAEGASG_Qo__Qo__Qo__AByA20_yAHG_A27_tGA17_yA2HGQo_______Qo_GSgtGG_AByACy_____AEG______ySaySo22CERecommendationActionCGSSACy_____y_____y_____y_____y_____yA20_yACyACyAhIy_____GGASGG_A31_Qo_G_Qo__Qo__Qo_AEGGtGSgtGGtGG_Qo__Qo__Qo_ 7SwiftUI4ViewP011_JetEngine_aB0E28optOutFromMetricsValidationsQryFQO AcDE14impressionable_13configuration8position20definesParentContextQr0dE0010ImpressionI0VSg_AJ21ImpressionsCalculatorC13ConfigurationVSiSgSbtFQO AcDEAEQryFQO AA6HStackV AA05TupleC0V AA15ModifiedContentV 019CloudRecommendationB00z5ImageC0V AA14_PaddingLayoutV AA6VStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA16_FlexFrameLayoutV AA5ColorV AA31AccessibilityAttachmentModifierV AcAE10labelStyleyQrqd__AA10LabelStyleRd__lFQO AA5LabelV AcAE10fontWeightyQrAA4FontV6WeightVSgFQO AA5ImageV A20_ AA24_ForegroundStyleModifierV AY17AlignedLabelStyle33_92AAD4F1D2358D4C53B613838A89C2E7LLV AA012_ConditionalX0V AcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AcAE5alert_11isPresented7actions7messageQrA5__AA7BindingVySbGqd__yXEqd_0_yXEtAaBRd__AaBRd_0_r0_lFQO AcDEAEQryFQO AcDEAF_AghIQrAM_AqRSbtFQO AcDEAEQryFQO AA6ButtonV AA21BorderlessButtonStyleV AA7DividerV AA7ForEachV AcDEAEQryFQO AcDEAF_AghIQrAM_AqRSbtFQO AcDEAEQryFQO AA6ZStackV AcAEA33_yQrqd__AAA34_Rd__lFQO AA13TextAlignmentO
+- _symbolic _____yx_____y_____SgGG 7SwiftUI15ModifiedContentV AA18_TaskValueModifierV 10Foundation10URLRequestV
+CStrings:
++ "%d.%d.%d"
++ "/System/Library/CoreServices/SystemVersion.plist"
++ "CFDataCreateWithBytesNoCopy"
++ "CFDictionaryGetValue"
++ "CFGetTypeID"
++ "CFPropertyListCreateFromXMLData"
++ "CFPropertyListCreateWithData"
++ "CFRelease"
++ "CFStringCreateWithCStringNoCopy"
++ "CFStringGetCString"
++ "CFStringGetTypeID"
++ "CloudRecommendationUI"
++ "CloudRecommendationUI/CachedAsyncImage.swift"
++ "ProductVersion"
++ "View.task @ CloudRecommendationUI/ContextualRecommendation.swift:"
++ "View.task @ CloudRecommendationUI/DelayedSpinner.swift:"
++ "View.task @ CloudRecommendationUI/EmailAddressInjector.swift:"
++ "kCFAllocatorNull"
++ "r"
+
+```

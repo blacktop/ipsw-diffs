@@ -1,0 +1,313 @@
+## OnDeviceStorageCore
+
+> `/System/Library/PrivateFrameworks/OnDeviceStorageCore.framework/OnDeviceStorageCore`
+
+```diff
+
+-2.2.7.0.0
+-  __TEXT.__text: 0x190e18
+-  __TEXT.__auth_stubs: 0x21b0
+-  __TEXT.__const: 0x14a90
+-  __TEXT.__cstring: 0x6b6e
+-  __TEXT.__constg_swiftt: 0x3908
+-  __TEXT.__swift5_typeref: 0x43a0
+-  __TEXT.__swift5_reflstr: 0x1cde
+-  __TEXT.__swift5_fieldmd: 0x3d4c
+-  __TEXT.__swift5_builtin: 0x190
+-  __TEXT.__swift5_assocty: 0xa38
+-  __TEXT.__swift5_proto: 0x12c8
+-  __TEXT.__swift5_types: 0x504
++2.4.5.0.0
++  __TEXT.__text: 0x16f140
++  __TEXT.__auth_stubs: 0x2220
++  __TEXT.__const: 0x15bc0
++  __TEXT.__cstring: 0x6c5e
++  __TEXT.__constg_swiftt: 0x3b30
++  __TEXT.__swift5_typeref: 0x46e8
++  __TEXT.__swift5_reflstr: 0x1dee
++  __TEXT.__swift5_fieldmd: 0x4020
++  __TEXT.__swift5_builtin: 0x1b8
++  __TEXT.__swift5_assocty: 0xa80
++  __TEXT.__swift5_proto: 0x13cc
++  __TEXT.__swift5_types: 0x544
+   __TEXT.__swift5_capture: 0xa2c
+   __TEXT.__swift5_mpenum: 0x9c
+   __TEXT.__swift5_protos: 0x58
+   __TEXT.__oslogstring: 0x34
+-  __TEXT.__unwind_info: 0x47d0
+-  __TEXT.__eh_frame: 0x7b60
+-  __TEXT.__objc_methname: 0x298
+-  __DATA_CONST.__got: 0x620
++  __TEXT.__unwind_info: 0x48f8
++  __TEXT.__eh_frame: 0x7ae8
++  __TEXT.__objc_classname: 0x308
++  __TEXT.__objc_methname: 0x5ea
++  __TEXT.__objc_methtype: 0x75
++  __TEXT.__objc_stubs: 0x3e0
++  __DATA_CONST.__got: 0x630
+   __DATA_CONST.__const: 0xa8
+   __DATA_CONST.__objc_classlist: 0x70
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0xf8
+-  __AUTH_CONST.__auth_got: 0x10d8
+-  __AUTH_CONST.__const: 0xc3b8
++  __AUTH_CONST.__auth_got: 0x1118
++  __AUTH_CONST.__const: 0xca18
+   __AUTH_CONST.__objc_const: 0xfd8
+-  __AUTH.__data: 0x1250
+-  __DATA.__data: 0x2b58
+-  __DATA.__bss: 0x18520
+-  __DATA.__common: 0x48
+-  __DATA_DIRTY.__data: 0x1df8
+-  __DATA_DIRTY.__bss: 0xc580
++  __AUTH.__data: 0x1190
++  __DATA.__data: 0x25a8
++  __DATA.__bss: 0x1a2a0
++  __DATA.__common: 0x18
++  __DATA_DIRTY.__data: 0x2778
++  __DATA_DIRTY.__bss: 0xc880
+   __DATA_DIRTY.__common: 0x58
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: DDD1B72B-29BC-3183-87FA-3FA8B30AAE6B
+-  Functions: 6769
+-  Symbols:   2227
+-  CStrings:  739
++  UUID: 19443B1B-171D-3757-A2F3-58E4D5BFF299
++  Functions: 6904
++  Symbols:   2346
++  CStrings:  777
+ 
+Symbols:
++ _NSURLFileSizeKey
++ _NSURLIsDirectoryKey
++ ___unnamed_14
++ ___unnamed_17
++ ___unnamed_36
++ ___unnamed_37
++ _associated conformance 19OnDeviceStorageCore11DaemonErrorO011UnavailableC20EnumeratorCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 19OnDeviceStorageCore11DaemonErrorO011UnavailableC20EnumeratorCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19OnDeviceStorageCore11DaemonErrorO21NoSuchTableCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLOSHAASQ
++ _associated conformance 19OnDeviceStorageCore11DaemonErrorO21NoSuchTableCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 19OnDeviceStorageCore11DaemonErrorO21NoSuchTableCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19OnDeviceStorageCore11DaemonErrorO24InvalidRequestCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLOSHAASQ
++ _associated conformance 19OnDeviceStorageCore11DaemonErrorO24InvalidRequestCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 19OnDeviceStorageCore11DaemonErrorO24InvalidRequestCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19OnDeviceStorageCore11DaemonErrorO26DatabaseNotFoundCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLOSHAASQ
++ _associated conformance 19OnDeviceStorageCore11DaemonErrorO26DatabaseNotFoundCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 19OnDeviceStorageCore11DaemonErrorO26DatabaseNotFoundCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19OnDeviceStorageCore11DaemonErrorO26InvalidBuildTypeCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLOSHAASQ
++ _associated conformance 19OnDeviceStorageCore11DaemonErrorO26InvalidBuildTypeCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 19OnDeviceStorageCore11DaemonErrorO26InvalidBuildTypeCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19OnDeviceStorageCore11DaemonErrorO28UserFolderNotFoundCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLOSHAASQ
++ _associated conformance 19OnDeviceStorageCore11DaemonErrorO28UserFolderNotFoundCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 19OnDeviceStorageCore11DaemonErrorO28UserFolderNotFoundCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19OnDeviceStorageCore11DaemonErrorO29AmbiguousUserFolderCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLOSHAASQ
++ _associated conformance 19OnDeviceStorageCore11DaemonErrorO29AmbiguousUserFolderCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 19OnDeviceStorageCore11DaemonErrorO29AmbiguousUserFolderCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19OnDeviceStorageCore11DaemonErrorO37UnavailableListFilesCommandCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 19OnDeviceStorageCore11DaemonErrorO37UnavailableListFilesCommandCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19OnDeviceStorageCore13ClientMessageO19ListFilesCodingKeys33_D156FB191C98E06ECC6F6771B7D5547FLLOSHAASQ
++ _associated conformance 19OnDeviceStorageCore13ClientMessageO19ListFilesCodingKeys33_D156FB191C98E06ECC6F6771B7D5547FLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 19OnDeviceStorageCore13ClientMessageO19ListFilesCodingKeys33_D156FB191C98E06ECC6F6771B7D5547FLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19OnDeviceStorageCore16ListFilesCommandO10CodingKeys33_D156FB191C98E06ECC6F6771B7D5547FLLOSHAASQ
++ _associated conformance 19OnDeviceStorageCore16ListFilesCommandO10CodingKeys33_D156FB191C98E06ECC6F6771B7D5547FLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 19OnDeviceStorageCore16ListFilesCommandO10CodingKeys33_D156FB191C98E06ECC6F6771B7D5547FLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19OnDeviceStorageCore16ListFilesCommandO14PathCodingKeys33_D156FB191C98E06ECC6F6771B7D5547FLLOSHAASQ
++ _associated conformance 19OnDeviceStorageCore16ListFilesCommandO14PathCodingKeys33_D156FB191C98E06ECC6F6771B7D5547FLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 19OnDeviceStorageCore16ListFilesCommandO14PathCodingKeys33_D156FB191C98E06ECC6F6771B7D5547FLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19OnDeviceStorageCore16ListFilesRequestV10CodingKeys33_D156FB191C98E06ECC6F6771B7D5547FLLOSHAASQ
++ _associated conformance 19OnDeviceStorageCore16ListFilesRequestV10CodingKeys33_D156FB191C98E06ECC6F6771B7D5547FLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 19OnDeviceStorageCore16ListFilesRequestV10CodingKeys33_D156FB191C98E06ECC6F6771B7D5547FLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19OnDeviceStorageCore16ListFilesRequestVAA0G4TypeAA08ResponseH0AaDP_SE
++ _associated conformance 19OnDeviceStorageCore16ListFilesRequestVAA0G4TypeAA08ResponseH0AaDP_Se
++ _associated conformance So16NSURLResourceKeyaSHSCSQ
++ _associated conformance So16NSURLResourceKeyas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So16NSURLResourceKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _block_copy_helper.12
++ _block_copy_helper.18
++ _block_copy_helper.24
++ _block_copy_helper.30
++ _block_copy_helper.6
++ _block_copy_helper.64
++ _block_descriptor.14
++ _block_descriptor.20
++ _block_descriptor.26
++ _block_descriptor.32
++ _block_descriptor.66
++ _block_descriptor.8
++ _block_destroy_helper.13
++ _block_destroy_helper.19
++ _block_destroy_helper.25
++ _block_destroy_helper.31
++ _block_destroy_helper.65
++ _block_destroy_helper.7
++ _objc_msgSend$JSONObjectWithData:options:error:
++ _objc_msgSend$attributesOfItemAtPath:error:
++ _objc_msgSend$code
++ _objc_msgSend$containerURLForSecurityApplicationGroupIdentifier:
++ _objc_msgSend$contentsOfDirectoryAtURL:includingPropertiesForKeys:options:error:
++ _objc_msgSend$dataWithJSONObject:options:error:
++ _objc_msgSend$dateFromString:
++ _objc_msgSend$defaultManager
++ _objc_msgSend$description
++ _objc_msgSend$domain
++ _objc_msgSend$environment
++ _objc_msgSend$fileExistsAtPath:
++ _objc_msgSend$firstMatchInString:options:range:
++ _objc_msgSend$init
++ _objc_msgSend$initWithBool:
++ _objc_msgSend$initWithPattern:options:error:
++ _objc_msgSend$initWithString:
++ _objc_msgSend$length
++ _objc_msgSend$matchesInString:options:range:
++ _objc_msgSend$operatingSystemVersion
++ _objc_msgSend$processIdentifier
++ _objc_msgSend$processInfo
++ _objc_msgSend$rangeAtIndex:
++ _objc_msgSend$removeItemAtURL:error:
++ _objc_msgSend$replaceMatchesInString:options:range:withTemplate:
++ _objc_msgSend$setDateFormat:
++ _objc_msgSend$setLocale:
++ _objc_msgSend$setTimeZone:
++ _objc_msgSend$stringFromDate:
++ _objc_msgSend$substringWithRange:
++ _objc_msgSend$userInfo
++ _objc_retain_x9
++ _objectdestroy.292Tm
++ _symbolic SS3key_______pSg5valuetSg 19OnDeviceStorageCore5ValueP
++ _symbolic SS7context_SS8expectedt
++ _symbolic SS_SS7matchest
++ _symbolic SS_Sb13includeHiddent
++ _symbolic SaySDyS2SGG
++ _symbolic _____ 19OnDeviceStorageCore10ConnectionC12SQLiteLogger33_3DAF89C1B7206AA2FC7DB619A4A149F0LLV
++ _symbolic _____ 19OnDeviceStorageCore11DaemonErrorO011UnavailableC20EnumeratorCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLO
++ _symbolic _____ 19OnDeviceStorageCore11DaemonErrorO21NoSuchTableCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLO
++ _symbolic _____ 19OnDeviceStorageCore11DaemonErrorO24InvalidRequestCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLO
++ _symbolic _____ 19OnDeviceStorageCore11DaemonErrorO26DatabaseNotFoundCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLO
++ _symbolic _____ 19OnDeviceStorageCore11DaemonErrorO26InvalidBuildTypeCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLO
++ _symbolic _____ 19OnDeviceStorageCore11DaemonErrorO28UserFolderNotFoundCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLO
++ _symbolic _____ 19OnDeviceStorageCore11DaemonErrorO29AmbiguousUserFolderCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLO
++ _symbolic _____ 19OnDeviceStorageCore11DaemonErrorO37UnavailableListFilesCommandCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLO
++ _symbolic _____ 19OnDeviceStorageCore13ClientMessageO19ListFilesCodingKeys33_D156FB191C98E06ECC6F6771B7D5547FLLO
++ _symbolic _____ 19OnDeviceStorageCore16ListFilesCommandO
++ _symbolic _____ 19OnDeviceStorageCore16ListFilesCommandO10CodingKeys33_D156FB191C98E06ECC6F6771B7D5547FLLO
++ _symbolic _____ 19OnDeviceStorageCore16ListFilesCommandO14PathCodingKeys33_D156FB191C98E06ECC6F6771B7D5547FLLO
++ _symbolic _____ 19OnDeviceStorageCore16ListFilesRequestV
++ _symbolic _____ 19OnDeviceStorageCore16ListFilesRequestV10CodingKeys33_D156FB191C98E06ECC6F6771B7D5547FLLO
++ _symbolic _____ So16NSURLResourceKeya
++ _symbolic _____ So22NSStringCompareOptionsV
++ _symbolic _____Sg 10Foundation17URLResourceValuesV
++ _symbolic ______pSg 19OnDeviceStorageCore12QueryRequestP
++ _symbolic _____y_____G s11_SetStorageC So16NSURLResourceKeya
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19OnDeviceStorageCore11DaemonErrorO011UnavailableF20EnumeratorCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19OnDeviceStorageCore11DaemonErrorO21NoSuchTableCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19OnDeviceStorageCore11DaemonErrorO24InvalidRequestCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19OnDeviceStorageCore11DaemonErrorO26DatabaseNotFoundCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19OnDeviceStorageCore11DaemonErrorO26InvalidBuildTypeCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19OnDeviceStorageCore11DaemonErrorO28UserFolderNotFoundCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19OnDeviceStorageCore11DaemonErrorO29AmbiguousUserFolderCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19OnDeviceStorageCore11DaemonErrorO37UnavailableListFilesCommandCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19OnDeviceStorageCore13ClientMessageO19ListFilesCodingKeys33_D156FB191C98E06ECC6F6771B7D5547FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19OnDeviceStorageCore16ListFilesCommandO10CodingKeys33_D156FB191C98E06ECC6F6771B7D5547FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19OnDeviceStorageCore16ListFilesCommandO14PathCodingKeys33_D156FB191C98E06ECC6F6771B7D5547FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19OnDeviceStorageCore16ListFilesRequestV10CodingKeys33_D156FB191C98E06ECC6F6771B7D5547FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19OnDeviceStorageCore11DaemonErrorO011UnavailableF20EnumeratorCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19OnDeviceStorageCore11DaemonErrorO21NoSuchTableCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19OnDeviceStorageCore11DaemonErrorO24InvalidRequestCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19OnDeviceStorageCore11DaemonErrorO26DatabaseNotFoundCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19OnDeviceStorageCore11DaemonErrorO26InvalidBuildTypeCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19OnDeviceStorageCore11DaemonErrorO28UserFolderNotFoundCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19OnDeviceStorageCore11DaemonErrorO29AmbiguousUserFolderCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19OnDeviceStorageCore11DaemonErrorO37UnavailableListFilesCommandCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19OnDeviceStorageCore13ClientMessageO19ListFilesCodingKeys33_D156FB191C98E06ECC6F6771B7D5547FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19OnDeviceStorageCore16ListFilesCommandO10CodingKeys33_D156FB191C98E06ECC6F6771B7D5547FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19OnDeviceStorageCore16ListFilesCommandO14PathCodingKeys33_D156FB191C98E06ECC6F6771B7D5547FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19OnDeviceStorageCore16ListFilesRequestV10CodingKeys33_D156FB191C98E06ECC6F6771B7D5547FLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So16NSURLResourceKeya
++ _symbolic _____y_____Sg_____G s13ManagedBufferCsRi__rlE 19OnDeviceStorageCore10ConnectionC12SQLiteLogger33_3DAF89C1B7206AA2FC7DB619A4A149F0LLV So16os_unfair_lock_sV
++ _type_layout_string 19OnDeviceStorageCore16ListFilesCommandO
++ _type_layout_string 19OnDeviceStorageCore16ListFilesRequestV
++ _type_layout_string So22NSStringCompareOptionsV
+- ___unnamed_13
+- ___unnamed_16
+- ___unnamed_34
+- ___unnamed_35
+- _associated conformance 19OnDeviceStorageCore11DaemonErrorO17NoTableCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLOSHAASQ
+- _associated conformance 19OnDeviceStorageCore11DaemonErrorO17NoTableCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 19OnDeviceStorageCore11DaemonErrorO17NoTableCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _block_copy_helper.11
+- _block_copy_helper.17
+- _block_copy_helper.23
+- _block_copy_helper.29
+- _block_copy_helper.5
+- _block_copy_helper.55
+- _block_descriptor.13
+- _block_descriptor.19
+- _block_descriptor.25
+- _block_descriptor.31
+- _block_descriptor.57
+- _block_descriptor.7
+- _block_destroy_helper.12
+- _block_destroy_helper.18
+- _block_destroy_helper.24
+- _block_destroy_helper.30
+- _block_destroy_helper.56
+- _block_destroy_helper.6
+- _malloc
+- _objectdestroy.251Tm
+- _symbolic _____ 19OnDeviceStorageCore11DaemonErrorO17NoTableCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLO
+- _symbolic _____ySDySSypSgGG s23_ContiguousArrayStorageC
+- _symbolic _____y_____G s22KeyedDecodingContainerV 19OnDeviceStorageCore11DaemonErrorO17NoTableCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 19OnDeviceStorageCore11DaemonErrorO17NoTableCodingKeys33_2EC86B0C67D2C3FF02A82C2CBEEE1165LLO
+CStrings:
++ ", expected non-nil value of type: "
++ ", includeHidden: "
++ ". Multiple matches: "
++ "Ambiguous user folder match"
++ "Ambiguous user folder match for partial hash or userId: "
++ "Check that client binary has all the required entitlements"
++ "Check that client binary has all the required entitlements for XPC communication (https://docs.apple.com/documentation/ondevicestorage)"
++ "Database file not found at the specified path"
++ "Database not found"
++ "Database not found at path: "
++ "Examples: received nil value for a non-nullable column, etc."
++ "Failed to infer value type: "
++ "Feature supported for internal builds only: "
++ "Indicates that XPC communication to storage daemon has failed"
++ "Invalid build type"
++ "Invalid request: "
++ "List files commands are supported for internal builds only"
++ "List files request: dataRoot (includeHidden: "
++ "List files request: path("
++ "Multiple user folders match the provided partial hash or userId"
++ "No user folder found matching the provided partial hash"
++ "OnDeviceStorageCore/Cipher.swift"
++ "OnDeviceStorageCore/Statement.swift"
++ "Potentially missing entitlements for XPC communication with the On Device Storage service"
++ "Raise a radar to out component with sysdiagnose attached if you run into this error"
++ "Storage enumerator not available. List files commands are supported for internal builds only"
++ "The request sent by client is invalid or malformed"
++ "This functionality is supported for internal builds only"
++ "Try providing a longer hash"
++ "Unavailable list files command"
++ "Unavailable storage enumerator"
++ "Unexpected nil value"
++ "User folder not found"
++ "User folder not found for partial hash or userId: "
++ "ambiguousUserFolder"
++ "databaseNotFound"
++ "https://docs.apple.com/documentation/ondevicestorage"
++ "invalidBuildType"
++ "unavailableListFilesCommand"
++ "unavailableStorageEnumerator"
++ "userFolderNotFound"
+- "OnDeviceStorageCore/Cipher.swift:"
+- "OnDeviceStorageCore/Connection.swift:"
+- "OnDeviceStorageCore/Statement.swift:"
+
+```

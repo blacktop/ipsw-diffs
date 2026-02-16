@@ -1,0 +1,2977 @@
+## MusicLibrary
+
+> `/System/Library/PrivateFrameworks/MusicLibrary.framework/MusicLibrary`
+
+```diff
+
+-4025.400.4.0.0
+-  __TEXT.__text: 0x29f11c
+-  __TEXT.__auth_stubs: 0x1fa0
+-  __TEXT.__objc_methlist: 0xe55c
+-  __TEXT.__const: 0x266e4
+-  __TEXT.__dlopen_cstrs: 0x277
+-  __TEXT.__gcc_except_tab: 0x146b0
+-  __TEXT.__cstring: 0x6b8d0
+-  __TEXT.__oslogstring: 0x1c275
++4025.500.40.0.0
++  __TEXT.__text: 0x2ce02c
++  __TEXT.__auth_stubs: 0x1fc0
++  __TEXT.__objc_methlist: 0xe6bc
++  __TEXT.__const: 0x2752c
++  __TEXT.__dlopen_cstrs: 0x2d1
++  __TEXT.__gcc_except_tab: 0x14810
++  __TEXT.__cstring: 0x7d250
++  __TEXT.__oslogstring: 0x1c60c
+   __TEXT.__ustring: 0x210
+-  __TEXT.__unwind_info: 0x7190
+-  __TEXT.__eh_frame: 0x90
+-  __TEXT.__objc_classname: 0x1995
+-  __TEXT.__objc_methname: 0x1f904
+-  __TEXT.__objc_methtype: 0x4c60
+-  __TEXT.__objc_stubs: 0x15220
+-  __DATA_CONST.__got: 0xb28
+-  __DATA_CONST.__const: 0x9660
+-  __DATA_CONST.__objc_classlist: 0x708
++  __TEXT.__unwind_info: 0x7700
++  __TEXT.__eh_frame: 0x100
++  __TEXT.__objc_classname: 0x19ac
++  __TEXT.__objc_methname: 0x1ff3b
++  __TEXT.__objc_methtype: 0x4c94
++  __TEXT.__objc_stubs: 0x155e0
++  __DATA_CONST.__got: 0xb38
++  __DATA_CONST.__const: 0x9920
++  __DATA_CONST.__objc_classlist: 0x710
+   __DATA_CONST.__objc_catlist: 0x50
+   __DATA_CONST.__objc_protolist: 0xa8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x6e78
++  __DATA_CONST.__objc_selrefs: 0x6f90
+   __DATA_CONST.__objc_protorefs: 0x30
+   __DATA_CONST.__objc_superrefs: 0x528
+-  __DATA_CONST.__objc_arraydata: 0x11a8
+-  __AUTH_CONST.__auth_got: 0xfe8
+-  __AUTH_CONST.__const: 0x13390
+-  __AUTH_CONST.__cfstring: 0x26620
+-  __AUTH_CONST.__objc_const: 0x157d0
+-  __AUTH_CONST.__objc_arrayobj: 0x2190
+-  __AUTH_CONST.__objc_intobj: 0x1ef0
+-  __AUTH_CONST.__objc_dictobj: 0xc8
++  __DATA_CONST.__objc_arraydata: 0x1388
++  __AUTH_CONST.__auth_got: 0xff8
++  __AUTH_CONST.__const: 0x13b60
++  __AUTH_CONST.__cfstring: 0x27a20
++  __AUTH_CONST.__objc_const: 0x15a78
++  __AUTH_CONST.__objc_arrayobj: 0x2220
++  __AUTH_CONST.__objc_intobj: 0x2088
++  __AUTH_CONST.__objc_dictobj: 0xf0
+   __AUTH_CONST.__objc_doubleobj: 0x10
+-  __AUTH.__objc_data: 0x2c10
++  __AUTH.__objc_data: 0x2c60
+   __AUTH.__data: 0x118
+-  __DATA.__objc_ivar: 0xefc
+-  __DATA.__data: 0xf88
+-  __DATA.__bss: 0xd18
+-  __DATA.__common: 0x1438
++  __DATA.__objc_ivar: 0xf28
++  __DATA.__data: 0x1410
++  __DATA.__bss: 0xd78
++  __DATA.__common: 0x143c
+   __DATA_DIRTY.__objc_data: 0x1a40
+   __DATA_DIRTY.__data: 0x80
+-  __DATA_DIRTY.__bss: 0x1158
++  __DATA_DIRTY.__bss: 0x1160
+   __DATA_DIRTY.__common: 0x38
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: BB94D780-4D83-3A11-90E3-775165E9FB23
+-  Functions: 8328
+-  Symbols:   25339
+-  CStrings:  17814
++  UUID: A4614C76-73C7-3489-9478-68287805DE16
++  Functions: 8361
++  Symbols:   25551
++  CStrings:  18211
+ 
+Symbols:
++ -[MIPAlbum artworkSourceType]
++ -[MIPAlbum hasArtworkSourceType]
++ -[MIPAlbum setArtworkSourceType:]
++ -[MIPAlbum setHasArtworkSourceType:]
++ -[MIPMediaItem artworkSourceType]
++ -[MIPMediaItem hasArtworkSourceType]
++ -[MIPMediaItem setArtworkSourceType:]
++ -[MIPMediaItem setHasArtworkSourceType:]
++ -[ML3ArtworkColorAnalysis gradientColorEndPosition]
++ -[ML3ArtworkColorAnalysis gradientColorStartPosition]
++ -[ML3ArtworkColorAnalysis gradientColor]
++ -[ML3ArtworkColorAnalysis gradientTextColors]
++ -[ML3ArtworkColorAnalysis quaternaryTextColor]
++ -[ML3ItemStateTable .cxx_destruct]
++ -[ML3ItemStateTable columns]
++ -[ML3ItemStateTable name]
++ -[ML3ItemStateTable uniqueConstraints]
++ -[ML3MusicLibrary _colorInformationDictionaryUsingConnection:query:parameters:]
++ -[ML3MusicLibrary _retrieveBestArtworkTokensAndColorInfoForEntityPersistentID:entityType:artworkType:variantType:retrievalTime:completionHandler:]
++ -[ML3MusicLibrary artworkColorInfoForEntityPersistentID:entityType:artworkType:variantType:token:]
++ -[ML3MusicLibrary artworkColorInfoForToken:artworkType:variantType:]
++ -[ML3MusicLibrary notifyCacheAvailabilityDidChange]
++ -[ML3MusicLibrary retrieveBestArtworkTokensAndColorInfoForEntityPersistentID:entityType:artworkType:variantType:retrievalTime:completionHandler:]
++ -[ML3PersistentIDGenerator _entityIDFromTableName:]
++ -[ML3ProcessDownloadedAssetsOperation _processAlbumAsset:forSource:withError:]
++ -[ML3UpdateSiriIndexOperation .cxx_destruct]
++ -[ML3UpdateSiriIndexOperation setUpdatedValidityRevisionNumber:]
++ -[ML3UpdateSiriIndexOperation updatedValidityRevisionNumber]
++ GCC_except_table103
++ GCC_except_table108
++ GCC_except_table1107
++ GCC_except_table1118
++ GCC_except_table1133
++ GCC_except_table1135
++ GCC_except_table1141
++ GCC_except_table1148
++ GCC_except_table1162
++ GCC_except_table1169
++ GCC_except_table1171
++ GCC_except_table1176
++ GCC_except_table118
++ GCC_except_table1183
++ GCC_except_table122
++ GCC_except_table126
++ GCC_except_table1264
++ GCC_except_table1292
++ GCC_except_table133
++ GCC_except_table1345
++ GCC_except_table1366
++ GCC_except_table137
++ GCC_except_table1404
++ GCC_except_table142
++ GCC_except_table147
++ GCC_except_table1497
++ GCC_except_table1506
++ GCC_except_table1512
++ GCC_except_table152
++ GCC_except_table1522
++ GCC_except_table1537
++ GCC_except_table1541
++ GCC_except_table1548
++ GCC_except_table1553
++ GCC_except_table156
++ GCC_except_table1574
++ GCC_except_table1576
++ GCC_except_table1578
++ GCC_except_table1588
++ GCC_except_table1590
++ GCC_except_table1592
++ GCC_except_table1594
++ GCC_except_table1596
++ GCC_except_table1598
++ GCC_except_table160
++ GCC_except_table1600
++ GCC_except_table1606
++ GCC_except_table1609
++ GCC_except_table1613
++ GCC_except_table1632
++ GCC_except_table1637
++ GCC_except_table1641
++ GCC_except_table1649
++ GCC_except_table1674
++ GCC_except_table1689
++ GCC_except_table1691
++ GCC_except_table1693
++ GCC_except_table1712
++ GCC_except_table1716
++ GCC_except_table1719
++ GCC_except_table1722
++ GCC_except_table1725
++ GCC_except_table1727
++ GCC_except_table1753
++ GCC_except_table1755
++ GCC_except_table1765
++ GCC_except_table1767
++ GCC_except_table1774
++ GCC_except_table1776
++ GCC_except_table1777
++ GCC_except_table1778
++ GCC_except_table1780
++ GCC_except_table1787
++ GCC_except_table1819
++ GCC_except_table1824
++ GCC_except_table1832
++ GCC_except_table1834
++ GCC_except_table1839
++ GCC_except_table1848
++ GCC_except_table1855
++ GCC_except_table1895
++ GCC_except_table1902
++ GCC_except_table1904
++ GCC_except_table1924
++ GCC_except_table1928
++ GCC_except_table1936
++ GCC_except_table1940
++ GCC_except_table1950
++ GCC_except_table1951
++ GCC_except_table1966
++ GCC_except_table1975
++ GCC_except_table1977
++ GCC_except_table2011
++ GCC_except_table2041
++ GCC_except_table2048
++ GCC_except_table2049
++ GCC_except_table2050
++ GCC_except_table2071
++ GCC_except_table2075
++ GCC_except_table2079
++ GCC_except_table2080
++ GCC_except_table2081
++ GCC_except_table2082
++ GCC_except_table2083
++ GCC_except_table2095
++ GCC_except_table2103
++ GCC_except_table2107
++ GCC_except_table2108
++ GCC_except_table2109
++ GCC_except_table2119
++ GCC_except_table2121
++ GCC_except_table2127
++ GCC_except_table2128
++ GCC_except_table2129
++ GCC_except_table2132
++ GCC_except_table2133
++ GCC_except_table2134
++ GCC_except_table2139
++ GCC_except_table2140
++ GCC_except_table2143
++ GCC_except_table2147
++ GCC_except_table2148
++ GCC_except_table2152
++ GCC_except_table2153
++ GCC_except_table2154
++ GCC_except_table2155
++ GCC_except_table2158
++ GCC_except_table2177
++ GCC_except_table2178
++ GCC_except_table2179
++ GCC_except_table2180
++ GCC_except_table2184
++ GCC_except_table2185
++ GCC_except_table2187
++ GCC_except_table2188
++ GCC_except_table2190
++ GCC_except_table2203
++ GCC_except_table2209
++ GCC_except_table2210
++ GCC_except_table2215
++ GCC_except_table2219
++ GCC_except_table2223
++ GCC_except_table2238
++ GCC_except_table2241
++ GCC_except_table2242
++ GCC_except_table2261
++ GCC_except_table2262
++ GCC_except_table2263
++ GCC_except_table2264
++ GCC_except_table2265
++ GCC_except_table2266
++ GCC_except_table2267
++ GCC_except_table2268
++ GCC_except_table2269
++ GCC_except_table2270
++ GCC_except_table2271
++ GCC_except_table2275
++ GCC_except_table2277
++ GCC_except_table2304
++ GCC_except_table2305
++ GCC_except_table2306
++ GCC_except_table2307
++ GCC_except_table2308
++ GCC_except_table2310
++ GCC_except_table2311
++ GCC_except_table2317
++ GCC_except_table2318
++ GCC_except_table2451
++ GCC_except_table2473
++ GCC_except_table2477
++ GCC_except_table2536
++ GCC_except_table2565
++ GCC_except_table2570
++ GCC_except_table2575
++ GCC_except_table2582
++ GCC_except_table2585
++ GCC_except_table2596
++ GCC_except_table2598
++ GCC_except_table2602
++ GCC_except_table2604
++ GCC_except_table2609
++ GCC_except_table2617
++ GCC_except_table2623
++ GCC_except_table2629
++ GCC_except_table2630
++ GCC_except_table2631
++ GCC_except_table2853
++ GCC_except_table2902
++ GCC_except_table2905
++ GCC_except_table2910
++ GCC_except_table2933
++ GCC_except_table2973
++ GCC_except_table2977
++ GCC_except_table2989
++ GCC_except_table2996
++ GCC_except_table2998
++ GCC_except_table3000
++ GCC_except_table3003
++ GCC_except_table3006
++ GCC_except_table3022
++ GCC_except_table3042
++ GCC_except_table3045
++ GCC_except_table3055
++ GCC_except_table3057
++ GCC_except_table3058
++ GCC_except_table3066
++ GCC_except_table3121
++ GCC_except_table3128
++ GCC_except_table3157
++ GCC_except_table3158
++ GCC_except_table3164
++ GCC_except_table3165
++ GCC_except_table3166
++ GCC_except_table3167
++ GCC_except_table3168
++ GCC_except_table3169
++ GCC_except_table3170
++ GCC_except_table3178
++ GCC_except_table3179
++ GCC_except_table3180
++ GCC_except_table3218
++ GCC_except_table3221
++ GCC_except_table3224
++ GCC_except_table3231
++ GCC_except_table3233
++ GCC_except_table3244
++ GCC_except_table3245
++ GCC_except_table3246
++ GCC_except_table3248
++ GCC_except_table3253
++ GCC_except_table3254
++ GCC_except_table3264
++ GCC_except_table3268
++ GCC_except_table3271
++ GCC_except_table3275
++ GCC_except_table3317
++ GCC_except_table3341
++ GCC_except_table3367
++ GCC_except_table3374
++ GCC_except_table3379
++ GCC_except_table3380
++ GCC_except_table3392
++ GCC_except_table3403
++ GCC_except_table3404
++ GCC_except_table3405
++ GCC_except_table3406
++ GCC_except_table3407
++ GCC_except_table3409
++ GCC_except_table3414
++ GCC_except_table3415
++ GCC_except_table3416
++ GCC_except_table3417
++ GCC_except_table3418
++ GCC_except_table3420
++ GCC_except_table3421
++ GCC_except_table3430
++ GCC_except_table3439
++ GCC_except_table3448
++ GCC_except_table3451
++ GCC_except_table3452
++ GCC_except_table3453
++ GCC_except_table3454
++ GCC_except_table3455
++ GCC_except_table3456
++ GCC_except_table3461
++ GCC_except_table3462
++ GCC_except_table3463
++ GCC_except_table3464
++ GCC_except_table3465
++ GCC_except_table3479
++ GCC_except_table3504
++ GCC_except_table3540
++ GCC_except_table381
++ GCC_except_table383
++ GCC_except_table3840
++ GCC_except_table3850
++ GCC_except_table3852
++ GCC_except_table3875
++ GCC_except_table3877
++ GCC_except_table3887
++ GCC_except_table390
++ GCC_except_table402
++ GCC_except_table4046
++ GCC_except_table4058
++ GCC_except_table406
++ GCC_except_table4061
++ GCC_except_table4070
++ GCC_except_table4073
++ GCC_except_table4074
++ GCC_except_table4075
++ GCC_except_table4080
++ GCC_except_table4088
++ GCC_except_table4099
++ GCC_except_table411
++ GCC_except_table4123
++ GCC_except_table4128
++ GCC_except_table4131
++ GCC_except_table4134
++ GCC_except_table4138
++ GCC_except_table4142
++ GCC_except_table4146
++ GCC_except_table4149
++ GCC_except_table4152
++ GCC_except_table421
++ GCC_except_table4231
++ GCC_except_table4234
++ GCC_except_table4335
++ GCC_except_table434
++ GCC_except_table4351
++ GCC_except_table4353
++ GCC_except_table4354
++ GCC_except_table4355
++ GCC_except_table4358
++ GCC_except_table4364
++ GCC_except_table4369
++ GCC_except_table4373
++ GCC_except_table4392
++ GCC_except_table4394
++ GCC_except_table444
++ GCC_except_table446
++ GCC_except_table4576
++ GCC_except_table4583
++ GCC_except_table459
++ GCC_except_table4590
++ GCC_except_table4591
++ GCC_except_table4592
++ GCC_except_table4598
++ GCC_except_table465
++ GCC_except_table4665
++ GCC_except_table4666
++ GCC_except_table4667
++ GCC_except_table4668
++ GCC_except_table4672
++ GCC_except_table4682
++ GCC_except_table4685
++ GCC_except_table4699
++ GCC_except_table4704
++ GCC_except_table4718
++ GCC_except_table4719
++ GCC_except_table4720
++ GCC_except_table4825
++ GCC_except_table4832
++ GCC_except_table4835
++ GCC_except_table4853
++ GCC_except_table4854
++ GCC_except_table4855
++ GCC_except_table4856
++ GCC_except_table4972
++ GCC_except_table4974
++ GCC_except_table4978
++ GCC_except_table4980
++ GCC_except_table4982
++ GCC_except_table4983
++ GCC_except_table4984
++ GCC_except_table499
++ GCC_except_table506
++ GCC_except_table5076
++ GCC_except_table508
++ GCC_except_table5085
++ GCC_except_table5104
++ GCC_except_table5116
++ GCC_except_table5117
++ GCC_except_table5118
++ GCC_except_table5119
++ GCC_except_table5120
++ GCC_except_table5122
++ GCC_except_table5126
++ GCC_except_table5128
++ GCC_except_table5131
++ GCC_except_table5133
++ GCC_except_table5135
++ GCC_except_table5136
++ GCC_except_table5138
++ GCC_except_table5139
++ GCC_except_table5141
++ GCC_except_table5142
++ GCC_except_table5143
++ GCC_except_table5152
++ GCC_except_table5157
++ GCC_except_table5164
++ GCC_except_table5169
++ GCC_except_table5207
++ GCC_except_table5211
++ GCC_except_table5215
++ GCC_except_table5217
++ GCC_except_table5222
++ GCC_except_table5225
++ GCC_except_table5227
++ GCC_except_table5231
++ GCC_except_table5233
++ GCC_except_table5240
++ GCC_except_table5245
++ GCC_except_table5252
++ GCC_except_table5268
++ GCC_except_table5273
++ GCC_except_table5278
++ GCC_except_table5287
++ GCC_except_table5288
++ GCC_except_table5289
++ GCC_except_table5291
++ GCC_except_table5296
++ GCC_except_table5302
++ GCC_except_table5369
++ GCC_except_table5372
++ GCC_except_table5375
++ GCC_except_table5376
++ GCC_except_table5378
++ GCC_except_table5380
++ GCC_except_table5382
++ GCC_except_table5383
++ GCC_except_table547
++ GCC_except_table5470
++ GCC_except_table5473
++ GCC_except_table5494
++ GCC_except_table5495
++ GCC_except_table5496
++ GCC_except_table5507
++ GCC_except_table5509
++ GCC_except_table5511
++ GCC_except_table5512
++ GCC_except_table5513
++ GCC_except_table5514
++ GCC_except_table5518
++ GCC_except_table5519
++ GCC_except_table552
++ GCC_except_table5533
++ GCC_except_table556
++ GCC_except_table5569
++ GCC_except_table5578
++ GCC_except_table5583
++ GCC_except_table563
++ GCC_except_table5678
++ GCC_except_table568
++ GCC_except_table5684
++ GCC_except_table5690
++ GCC_except_table5696
++ GCC_except_table5702
++ GCC_except_table5708
++ GCC_except_table5714
++ GCC_except_table572
++ GCC_except_table5721
++ GCC_except_table5722
++ GCC_except_table5728
++ GCC_except_table5729
++ GCC_except_table5735
++ GCC_except_table5741
++ GCC_except_table5746
++ GCC_except_table5747
++ GCC_except_table5755
++ GCC_except_table5768
++ GCC_except_table5771
++ GCC_except_table5797
++ GCC_except_table580
++ GCC_except_table5825
++ GCC_except_table5833
++ GCC_except_table5846
++ GCC_except_table5854
++ GCC_except_table587
++ GCC_except_table5882
++ GCC_except_table5927
++ GCC_except_table593
++ GCC_except_table5945
++ GCC_except_table595
++ GCC_except_table5963
++ GCC_except_table5966
++ GCC_except_table5977
++ GCC_except_table5979
++ GCC_except_table599
++ GCC_except_table6006
++ GCC_except_table6007
++ GCC_except_table6008
++ GCC_except_table6013
++ GCC_except_table6014
++ GCC_except_table6066
++ GCC_except_table6067
++ GCC_except_table6069
++ GCC_except_table6070
++ GCC_except_table6071
++ GCC_except_table6072
++ GCC_except_table6073
++ GCC_except_table6074
++ GCC_except_table6075
++ GCC_except_table6077
++ GCC_except_table6079
++ GCC_except_table608
++ GCC_except_table6081
++ GCC_except_table6084
++ GCC_except_table6086
++ GCC_except_table6087
++ GCC_except_table6133
++ GCC_except_table616
++ GCC_except_table618
++ GCC_except_table6180
++ GCC_except_table6181
++ GCC_except_table6207
++ GCC_except_table6208
++ GCC_except_table621
++ GCC_except_table6213
++ GCC_except_table6217
++ GCC_except_table6222
++ GCC_except_table6227
++ GCC_except_table6228
++ GCC_except_table6230
++ GCC_except_table6238
++ GCC_except_table6241
++ GCC_except_table6242
++ GCC_except_table6244
++ GCC_except_table6248
++ GCC_except_table6249
++ GCC_except_table625
++ GCC_except_table6250
++ GCC_except_table6254
++ GCC_except_table6255
++ GCC_except_table6256
++ GCC_except_table6257
++ GCC_except_table6260
++ GCC_except_table6261
++ GCC_except_table6263
++ GCC_except_table6264
++ GCC_except_table6265
++ GCC_except_table6268
++ GCC_except_table6270
++ GCC_except_table6271
++ GCC_except_table6281
++ GCC_except_table6284
++ GCC_except_table6285
++ GCC_except_table6311
++ GCC_except_table6314
++ GCC_except_table6317
++ GCC_except_table6319
++ GCC_except_table632
++ GCC_except_table6321
++ GCC_except_table6323
++ GCC_except_table6325
++ GCC_except_table6332
++ GCC_except_table6356
++ GCC_except_table6359
++ GCC_except_table636
++ GCC_except_table6383
++ GCC_except_table6384
++ GCC_except_table641
++ GCC_except_table6433
++ GCC_except_table6435
++ GCC_except_table6443
++ GCC_except_table6445
++ GCC_except_table6447
++ GCC_except_table6448
++ GCC_except_table6457
++ GCC_except_table6459
++ GCC_except_table646
++ GCC_except_table6460
++ GCC_except_table6461
++ GCC_except_table6463
++ GCC_except_table6469
++ GCC_except_table6471
++ GCC_except_table6472
++ GCC_except_table6485
++ GCC_except_table6491
++ GCC_except_table6497
++ GCC_except_table6505
++ GCC_except_table6515
++ GCC_except_table6519
++ GCC_except_table6526
++ GCC_except_table6527
++ GCC_except_table6536
++ GCC_except_table6537
++ GCC_except_table6540
++ GCC_except_table6541
++ GCC_except_table6542
++ GCC_except_table6543
++ GCC_except_table655
++ GCC_except_table6551
++ GCC_except_table6557
++ GCC_except_table6559
++ GCC_except_table6560
++ GCC_except_table6562
++ GCC_except_table6568
++ GCC_except_table6569
++ GCC_except_table6570
++ GCC_except_table6571
++ GCC_except_table6572
++ GCC_except_table6573
++ GCC_except_table6574
++ GCC_except_table6575
++ GCC_except_table6581
++ GCC_except_table6584
++ GCC_except_table6595
++ GCC_except_table6596
++ GCC_except_table6599
++ GCC_except_table6600
++ GCC_except_table6605
++ GCC_except_table6606
++ GCC_except_table663
++ GCC_except_table6638
++ GCC_except_table6639
++ GCC_except_table6646
++ GCC_except_table6647
++ GCC_except_table6649
++ GCC_except_table6651
++ GCC_except_table6652
++ GCC_except_table6653
++ GCC_except_table6655
++ GCC_except_table666
++ GCC_except_table6665
++ GCC_except_table6668
++ GCC_except_table6670
++ GCC_except_table6671
++ GCC_except_table6672
++ GCC_except_table6680
++ GCC_except_table6684
++ GCC_except_table669
++ GCC_except_table6690
++ GCC_except_table6694
++ GCC_except_table6701
++ GCC_except_table6702
++ GCC_except_table6703
++ GCC_except_table6711
++ GCC_except_table6715
++ GCC_except_table6717
++ GCC_except_table6719
++ GCC_except_table6721
++ GCC_except_table6736
++ GCC_except_table6737
++ GCC_except_table6738
++ GCC_except_table6740
++ GCC_except_table6742
++ GCC_except_table6744
++ GCC_except_table6746
++ GCC_except_table6748
++ GCC_except_table6750
++ GCC_except_table6752
++ GCC_except_table6754
++ GCC_except_table6756
++ GCC_except_table6758
++ GCC_except_table6759
++ GCC_except_table6884
++ GCC_except_table6889
++ GCC_except_table6899
++ GCC_except_table6900
++ GCC_except_table6901
++ GCC_except_table6904
++ GCC_except_table6905
++ GCC_except_table6907
++ GCC_except_table6922
++ GCC_except_table6935
++ GCC_except_table6976
++ GCC_except_table6985
++ GCC_except_table6987
++ GCC_except_table6988
++ GCC_except_table6989
++ GCC_except_table6998
++ GCC_except_table6999
++ GCC_except_table7000
++ GCC_except_table7001
++ GCC_except_table7002
++ GCC_except_table7008
++ GCC_except_table7009
++ GCC_except_table7010
++ GCC_except_table7021
++ GCC_except_table7022
++ GCC_except_table7023
++ GCC_except_table7024
++ GCC_except_table7025
++ GCC_except_table7026
++ GCC_except_table7027
++ GCC_except_table7028
++ GCC_except_table7029
++ GCC_except_table7030
++ GCC_except_table7035
++ GCC_except_table7036
++ GCC_except_table7042
++ GCC_except_table7043
++ GCC_except_table7044
++ GCC_except_table7045
++ GCC_except_table7047
++ GCC_except_table7051
++ GCC_except_table7052
++ GCC_except_table7054
++ GCC_except_table7058
++ GCC_except_table7078
++ GCC_except_table7100
++ GCC_except_table7122
++ GCC_except_table7131
++ GCC_except_table7138
++ GCC_except_table7162
++ GCC_except_table7185
++ GCC_except_table7187
++ GCC_except_table7210
++ GCC_except_table7215
++ GCC_except_table7218
++ GCC_except_table7242
++ GCC_except_table7247
++ GCC_except_table7325
++ GCC_except_table7370
++ GCC_except_table7390
++ GCC_except_table7480
++ GCC_except_table7581
++ GCC_except_table7650
++ GCC_except_table7657
++ GCC_except_table7663
++ GCC_except_table7669
++ GCC_except_table7670
++ GCC_except_table7671
++ GCC_except_table7686
++ GCC_except_table7690
++ GCC_except_table7736
++ GCC_except_table7742
++ GCC_except_table7746
++ GCC_except_table8053
++ GCC_except_table8054
++ GCC_except_table8055
++ GCC_except_table8061
++ GCC_except_table8063
++ GCC_except_table8064
++ GCC_except_table8067
++ GCC_except_table84
++ GCC_except_table89
++ GCC_except_table91
++ GCC_except_table96
++ OBJC_IVAR_$_MIPAlbum._artworkSourceType
++ OBJC_IVAR_$_MIPMediaItem._artworkSourceType
++ _ML3AlbumPropertyArtworkToken
++ _ML3AlbumPropertyDiscCount
++ _ML3AlbumPropertyFetchableArtworkSourceType
++ _ML3AlbumPropertyFetchableArtworkToken
++ _ML3AlbumPropertyTrackCount
++ _ML3ImportCreateItemStatePopulateSQL
++ _ML3MigrationFunction2320030to2340000
++ _ML3MigrationFunction2340000to2340010
++ _ML3MigrationFunction2340010to2340020
++ _ML3MigrationFunction2340020to2340030
++ _ML3MigrationFunction2340030to2340040
++ _ML3MusicLibraryCachingAvailabilityDidChangeNotification
++ _MLDatabaseOperationAttributeDownloadedAssetArtworkTypeKey
++ _MSVFastHexStringFromBytes.hexCharacters.28884
++ _OBJC_CLASS_$_ML3ItemStateTable
++ _OBJC_CLASS_$_MSVArtworkColorAnalysis
++ _OBJC_IVAR_$_ML3ArtworkColorAnalysis._gradientColor
++ _OBJC_IVAR_$_ML3ArtworkColorAnalysis._gradientColorEndPosition
++ _OBJC_IVAR_$_ML3ArtworkColorAnalysis._gradientColorStartPosition
++ _OBJC_IVAR_$_ML3ArtworkColorAnalysis._gradientTextColors
++ _OBJC_IVAR_$_ML3ArtworkColorAnalysis._quaternaryTextColor
++ _OBJC_IVAR_$_ML3ItemStateTable._columns
++ _OBJC_IVAR_$_ML3MediaLibraryWriter._updateSiriRevisionIndexQueue
++ _OBJC_IVAR_$_ML3PersistentIDGenerator._entityType
++ _OBJC_IVAR_$_ML3PersistentIDGenerator._maxPersistentID
++ _OBJC_IVAR_$_ML3PersistentIDGenerator._minPersistentID
++ _OBJC_IVAR_$_ML3UpdateSiriIndexOperation._updatedValidityRevisionNumber
++ _OBJC_METACLASS_$_ML3ItemStateTable
++ _SetupAssistantLibraryCore.frameworkLibrary
++ __MSV_XXH_XXH32_update.28875
++ __MSV_XXH_XXH64_digest.28880
++ __MSV_XXH_XXH64_update.28876
++ __NSIsNSArray
++ __OBJC_$_INSTANCE_METHODS_ML3ItemStateTable
++ __OBJC_$_INSTANCE_VARIABLES_ML3ItemStateTable
++ __OBJC_$_INSTANCE_VARIABLES_ML3UpdateSiriIndexOperation
++ __OBJC_$_PROP_LIST_ML3UpdateSiriIndexOperation
++ __OBJC_CLASS_RO_$_ML3ItemStateTable
++ __OBJC_METACLASS_RO_$_ML3ItemStateTable
++ __ZN16ML3ImportSession20_prepareArtworkTokenEx14ML3ImportValueINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE20ML3ArtworkSourceType13ML3EntityType14ML3ArtworkType21ML3ArtworkVariantType23ArtworkColorInfoForTypeRKS7_
++ __ZN16ML3ImportSession21_newAlbumPersistentIDENSt3__110shared_ptrI13ML3ImportItemEE
++ __ZN16ML3ImportSession26_newItemArtistPersistentIDENSt3__110shared_ptrI13ML3ImportItemEE
++ __ZN16ML3ImportSession26_prepareAlbumArtistArtworkENSt3__110shared_ptrI13ML3ImportItemEE
++ __ZN16ML3ImportSession27_newAlbumArtistPersistentIDENSt3__110shared_ptrI13ML3ImportItemEE
++ __ZN25ML3ArtworkTokenImportItemC1ENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES6_S6_S6_S6_S6_S6_ffS6_x13ML3EntityType20ML3ArtworkSourceType14ML3ArtworkType21ML3ArtworkVariantType
++ __ZN6ML3CPP7Element19childElementAtIndexEm
++ __ZNK25ML3ArtworkTokenImportItem13getFloatValueEj
++ __ZNK28ML3ITunesSyncTrackImportItem23_getTrackArtworkCacheIdEv
++ __ZNKSt3__111__copy_implclB9foe210106IPKNS_10shared_ptrI27ML3DatabaseImportDataSourceEES6_PS4_EENS_4pairIT_T1_EES9_T0_SA_
++ __ZNKSt3__111__copy_implclB9foe210106IPNS_10shared_ptrI13ML3ImportItemEES5_S5_EENS_4pairIT_T1_EES7_T0_S8_
++ __ZNKSt3__113__string_hashIcNS_9allocatorIcEEEclB9foe210106ERKNS_12basic_stringIcNS_11char_traitsIcEES2_EE
++ __ZNKSt3__114default_deleteIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS_10shared_ptrI13ML3ImportItemEEE26_ContainerItemReactionInfoEclB9foe210106EPS5_
++ __ZNKSt3__16__treeINS_12__value_typeIjNS_10shared_ptrIN6ML3CPP7ElementEEEEENS_19__map_value_compareIjNS_4pairIKjS5_EENS_4lessIjEELb1EEENS_9allocatorISA_EEE13__count_multiIjEEmRKT_
++ __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB9foe210106ERKS6_S9_
++ __ZNSt11range_errorC1B9foe210106EPKc
++ __ZNSt12length_errorC1B9foe210106EPKc
++ __ZNSt12out_of_rangeC1B9foe210106EPKc
++ __ZNSt3__110shared_ptrI10ML3CPPDataEC2B9foe210106IS1_Li0EEEPT_
++ __ZNSt3__110shared_ptrI12ML3AlbumDataED1B9foe210106Ev
++ __ZNSt3__110shared_ptrI12ML3GenreDataED1B9foe210106Ev
++ __ZNSt3__110shared_ptrI13ML3ArtistDataED1B9foe210106Ev
++ __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9foe210106I25ML3SubscriptionImportItemLi0EEEPT_
++ __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9foe210106I26ML3ContainerItemImportItemLi0EEEPT_
++ __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9foe210106I27ML3ProtoSyncAlbumImportItemLi0EEEPT_
++ __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9foe210106I27ML3ProtoSyncTrackImportItemLi0EEEPT_
++ __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9foe210106I28ML3ContainerAuthorImportItemLi0EEEPT_
++ __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9foe210106I28ML3ITunesSyncAlbumImportItemLi0EEEPT_
++ __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9foe210106I28ML3ITunesSyncTrackImportItemLi0EEEPT_
++ __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9foe210106I28ML3ProtoSyncArtistImportItemLi0EEEPT_
++ __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9foe210106I28ML3ProtoSyncDeleteImportItemLi0EEEPT_
++ __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9foe210106I29ML3ITunesSyncArtistImportItemLi0EEEPT_
++ __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9foe210106I31ML3ProtoSyncContainerImportItemLi0EEEPT_
++ __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9foe210106I32ML3ITunesSyncContainerImportItemLi0EEEPT_
++ __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9foe210106I34ML3ContainerItemReactionImportItemLi0EEEPT_
++ __ZNSt3__110shared_ptrI15ML3ComposerDataED1B9foe210106Ev
++ __ZNSt3__110shared_ptrI27ML3DatabaseImportDataSourceEC2B9foe210106I36ML3ItemStoreDatabaseImportDataSourceLi0EEEPT_
++ __ZNSt3__110shared_ptrIN6ML3CPP7ElementEE18__enable_weak_thisB9foe210106IS2_S2_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3AlbumDataEEEEPvEENS_22__hash_node_destructorINS6_ISE_EEEEED1B9foe210106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3GenreDataEEEEPvEENS_22__hash_node_destructorINS6_ISE_EEEEED1B9foe210106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI13ML3ArtistDataEEEEPvEENS_22__hash_node_destructorINS6_ISE_EEEEED1B9foe210106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI15ML3ComposerDataEEEEPvEENS_22__hash_node_destructorINS6_ISE_EEEEED1B9foe210106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES8_EEPvEENS_22__hash_node_destructorINS6_ISB_EEEEED1B9foe210106Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS9_I13ML3ImportItemEEE26_ContainerItemReactionInfoEEEEPvEENS_22__tree_node_destructorINS6_ISH_EEEEED1B9foe210106Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES8_EEPvEENS_22__tree_node_destructorINS6_ISB_EEEEED1B9foe210106Ev
++ __ZNSt3__112__destroy_atB9foe210106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3AlbumDataEEEELi0EEEvPT_
++ __ZNSt3__112__destroy_atB9foe210106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3GenreDataEEEELi0EEEvPT_
++ __ZNSt3__112__destroy_atB9foe210106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI13ML3ArtistDataEEEELi0EEEvPT_
++ __ZNSt3__112__destroy_atB9foe210106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI15ML3ComposerDataEEEELi0EEEvPT_
++ __ZNSt3__112__destroy_atB9foe210106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EELi0EEEvPT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3AlbumDataEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SF_SJ_SH_Lb1EEENS5_ISF_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeISB_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3AlbumDataEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SF_SJ_SH_Lb1EEENS5_ISF_EEE25__emplace_unique_key_argsIS7_JSF_EEENSD_INS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3AlbumDataEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SF_SJ_SH_Lb1EEENS5_ISF_EEE4findIS7_EENS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3AlbumDataEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SF_SJ_SH_Lb1EEENS5_ISF_EEE5clearEv
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3AlbumDataEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SF_SJ_SH_Lb1EEENS5_ISF_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3GenreDataEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SF_SJ_SH_Lb1EEENS5_ISF_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeISB_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3GenreDataEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SF_SJ_SH_Lb1EEENS5_ISF_EEE5clearEv
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3GenreDataEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SF_SJ_SH_Lb1EEENS5_ISF_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3GenreDataEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SF_SJ_SH_Lb1EEENS5_ISF_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI13ML3ArtistDataEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SF_SJ_SH_Lb1EEENS5_ISF_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeISB_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI13ML3ArtistDataEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SF_SJ_SH_Lb1EEENS5_ISF_EEE25__emplace_unique_key_argsIS7_JSF_EEENSD_INS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI13ML3ArtistDataEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SF_SJ_SH_Lb1EEENS5_ISF_EEE4findIS7_EENS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI13ML3ArtistDataEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SF_SJ_SH_Lb1EEENS5_ISF_EEE5clearEv
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI13ML3ArtistDataEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SF_SJ_SH_Lb1EEENS5_ISF_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI15ML3ComposerDataEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SF_SJ_SH_Lb1EEENS5_ISF_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeISB_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI15ML3ComposerDataEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SF_SJ_SH_Lb1EEENS5_ISF_EEE25__emplace_unique_key_argsIS7_JSF_EEENSD_INS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI15ML3ComposerDataEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SF_SJ_SH_Lb1EEENS5_ISF_EEE5clearEv
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI15ML3ComposerDataEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SF_SJ_SH_Lb1EEENS5_ISF_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENSQ_IJEEEEEENSA_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEbEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_bEENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRSB_EEENSQ_IJEEEEEENSA_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEbEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_bEENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEExEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_xEENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENSQ_IJEEEEEENSA_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEExEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_xEENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRSB_EEENSQ_IJEEEEEENSA_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEExEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_xEENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEE4findIS7_EENS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEExEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_xEENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEExEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_xEENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIj14ML3ImportValueINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEENS_22__unordered_map_hasherIjNS_4pairIKjS9_EENS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjSE_SI_SG_Lb1EEENS6_ISE_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIjbEENS_22__unordered_map_hasherIjNS_4pairIKjbEENS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjS6_SA_S8_Lb1EEENS_9allocatorIS6_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIjxEENS_22__unordered_map_hasherIjNS_4pairIKjxEENS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjS6_SA_S8_Lb1EEENS_9allocatorIS6_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIx12ML3NameOrderEENS_22__unordered_map_hasherIxNS_4pairIKxS2_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE25__emplace_unique_key_argsIxJRKNS_21piecewise_construct_tENS_5tupleIJOxEEENSM_IJEEEEEENS5_INS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIx12ML3NameOrderEENS_22__unordered_map_hasherIxNS_4pairIKxS2_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE25__emplace_unique_key_argsIxJRKNS_21piecewise_construct_tENS_5tupleIJRS6_EEENSM_IJEEEEEENS5_INS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIx12ML3NameOrderEENS_22__unordered_map_hasherIxNS_4pairIKxS2_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE4findIxEENS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIx12ML3NameOrderEENS_22__unordered_map_hasherIxNS_4pairIKxS2_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE5clearEv
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIx12ML3NameOrderEENS_22__unordered_map_hasherIxNS_4pairIKxS2_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIx12ML3NameOrderEENS_22__unordered_map_hasherIxNS_4pairIKxS2_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS7_SB_S9_Lb1EEENS_9allocatorIS7_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIx20ML3CollectionInfoSetEENS_22__unordered_map_hasherIxNS_4pairIKxS2_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS3_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIx20ML3CollectionInfoSetEENS_22__unordered_map_hasherIxNS_4pairIKxS2_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE25__emplace_unique_key_argsIxJRKNS_21piecewise_construct_tENS_5tupleIJRS6_EEENSM_IJEEEEEENS5_INS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIx20ML3CollectionInfoSetEENS_22__unordered_map_hasherIxNS_4pairIKxS2_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE4findIxEENS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIx20ML3CollectionInfoSetEENS_22__unordered_map_hasherIxNS_4pairIKxS2_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS7_SB_S9_Lb1EEENS_9allocatorIS7_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI12ML3AlbumDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI12ML3AlbumDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE25__emplace_unique_key_argsIxJS9_EEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI12ML3AlbumDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE4findIxEENS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI12ML3AlbumDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE5clearEv
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI12ML3AlbumDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI12ML3GenreDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI12ML3GenreDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE5clearEv
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI12ML3GenreDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ArtistDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ArtistDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE25__emplace_unique_key_argsIxJS9_EEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ArtistDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE4findIxEENS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ArtistDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE5clearEv
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ArtistDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ImportItemEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ImportItemEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE25__emplace_unique_key_argsIxJS9_EEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ImportItemEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE4findIxEENS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ImportItemEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE5clearEv
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ImportItemEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI15ML3ComposerDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI15ML3ComposerDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE5clearEv
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI15ML3ComposerDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI18ML3LibraryPinsDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI18ML3LibraryPinsDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE25__emplace_unique_key_argsIxJNS7_IxS4_EEEEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI18ML3LibraryPinsDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE5clearEv
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI18ML3LibraryPinsDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_6vectorINS_4pairIxxEENS_9allocatorIS4_EEEEEENS_22__unordered_map_hasherIxNS3_IKxS7_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxSB_SF_SD_Lb1EEENS5_ISB_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxNS_4pairIKxxEENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE25__emplace_unique_key_argsIxJRKNS_21piecewise_construct_tENS_5tupleIJRS5_EEENSL_IJEEEEEENS4_INS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxNS_4pairIKxxEENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE4findIxEENS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxNS_4pairIKxxEENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxNS_4pairIKxxEENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS6_SA_S8_Lb1EEENS_9allocatorIS6_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxyEENS_22__unordered_map_hasherIxNS_4pairIKxyEENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE25__emplace_unique_key_argsIxJRKNS_21piecewise_construct_tENS_5tupleIJRS5_EEENSL_IJEEEEEENS4_INS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxyEENS_22__unordered_map_hasherIxNS_4pairIKxyEENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS6_SA_S8_Lb1EEENS_9allocatorIS6_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIyNS_10shared_ptrI13ML3ImportItemEEEENS_22__unordered_map_hasherIyNS_4pairIKyS4_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE25__emplace_unique_key_argsIyJRKNS_21piecewise_construct_tENS_5tupleIJOyEEENSO_IJEEEEEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIyNS_10shared_ptrI13ML3ImportItemEEEENS_22__unordered_map_hasherIyNS_4pairIKyS4_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS9_SD_SB_Lb1EEENS_9allocatorIS9_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIyP6_trackEENS_22__unordered_map_hasherIyNS_4pairIKyS3_EE15echo_hash_shiftIyENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS8_SC_SA_Lb1EEENS_9allocatorIS8_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIyPNS_13unordered_setIy15echo_hash_shiftIyENS_8equal_toIyEENS_9allocatorIyEEEEEENS_22__unordered_map_hasherIyNS_4pairIKySA_EES4_S6_Lb1EEENS_21__unordered_map_equalIySF_S6_S4_Lb1EEENS7_ISF_EEE4findIyEENS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIyjEENS_22__unordered_map_hasherIyNS_4pairIKyjEE15echo_hash_shiftIyENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE4findIyEENS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIyxEENS_22__unordered_map_hasherIyNS_4pairIKyxEENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE25__emplace_unique_key_argsIyJRKNS_21piecewise_construct_tENS_5tupleIJOyEEENSL_IJEEEEEENS4_INS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIyxEENS_22__unordered_map_hasherIyNS_4pairIKyxEENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE4findIyEENS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIyxEENS_22__unordered_map_hasherIyNS_4pairIKyxEENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIyxEENS_22__unordered_map_hasherIyNS_4pairIKyxEENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEED2Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5eraseEmm
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106EPKcm
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106ILi0EEEPKc
++ __ZNSt3__112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__115allocate_sharedB9foe210106I12ML3AlbumDataNS_9allocatorIS1_EEJRxRNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEESA_SA_RiSB_SB_SB_R12ML3NameOrderSB_S4_S4_SA_SB_RbS4_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9foe210106I13ML3ArtistDataNS_9allocatorIS1_EEJRxRNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEESA_S9_S9_S4_R12ML3NameOrderSC_S4_SA_RbRiS4_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9foe210106I13ML3ArtistDataNS_9allocatorIS1_EEJRxRNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEESA_SA_SA_S4_R12ML3NameOrderSC_S4_S9_RbiiELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9foe210106I18ML3AlbumImportItemNS_9allocatorIS1_EEJRNS_10shared_ptrI12ML3AlbumDataEERNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEERbRU8__strongP6NSDataxRxSJ_SE_ELi0EEENS4_IT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9foe210106I18ML3LibraryPinsDataNS_9allocatorIS1_EEJRxS4_13ML3EntityTypeS4_S4_S4_RA1_KcRNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9foe210106I18ML3LibraryPinsDataNS_9allocatorIS1_EEJRxS4_13ML3EntityTypeS4_S4_S4_RNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEESB_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9foe210106I19ML3ArtistImportItemNS_9allocatorIS1_EEJRNS_10shared_ptrI13ML3ArtistDataEERU8__strongP6NSDataRxELi0EEENS4_IT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9foe210106I24ML3AlbumArtistImportItemNS_9allocatorIS1_EEJRNS_10shared_ptrI13ML3ArtistDataEERU8__strongP6NSDataRxELi0EEENS4_IT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9foe210106I24ML3AlbumArtistImportItemNS_9allocatorIS1_EEJRNS_10shared_ptrI13ML3ArtistDataEERU8__strongP6NSDataxELi0EEENS4_IT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9foe210106I29ML3SetCloudIDArtistImportItemNS_9allocatorIS1_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0EEE10__dispatchB9foe210106IONS1_9__variant15__value_visitorIR26ML3StatementBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0EEE10__dispatchB9foe210106IONS1_9__variant15__value_visitorIR29ML3VirtualTableBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0EEE10__dispatchB9foe210106IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB9foe210106INS0_18__move_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSP_E_JONS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSO_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0EEE10__dispatchB9foe210106IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB9foe210106IRKNS0_18__copy_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSR_E_JRKNS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSQ_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0EEE10__dispatchB9foe210106IOZNS0_6__dtorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEELNS0_6_TraitE1EE9__destroyB9foe210106EvEUlRT_E_JRNS0_6__baseILSI_1EJxfbSD_SG_EEEEEEDcSK_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1EEE10__dispatchB9foe210106IONS1_9__variant15__value_visitorIR26ML3StatementBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1EEE10__dispatchB9foe210106IONS1_9__variant15__value_visitorIR29ML3VirtualTableBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1EEE10__dispatchB9foe210106IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB9foe210106INS0_18__move_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSP_E_JONS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSO_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1EEE10__dispatchB9foe210106IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB9foe210106IRKNS0_18__copy_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSR_E_JRKNS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSQ_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1EEE10__dispatchB9foe210106IOZNS0_6__dtorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEELNS0_6_TraitE1EE9__destroyB9foe210106EvEUlRT_E_JRNS0_6__baseILSI_1EJxfbSD_SG_EEEEEEDcSK_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm2EEE10__dispatchB9foe210106IONS1_9__variant15__value_visitorIR26ML3StatementBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm2EEE10__dispatchB9foe210106IONS1_9__variant15__value_visitorIR29ML3VirtualTableBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm2EEE10__dispatchB9foe210106IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB9foe210106INS0_18__move_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSP_E_JONS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSO_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm2EEE10__dispatchB9foe210106IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB9foe210106IRKNS0_18__copy_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSR_E_JRKNS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSQ_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm2EEE10__dispatchB9foe210106IOZNS0_6__dtorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEELNS0_6_TraitE1EE9__destroyB9foe210106EvEUlRT_E_JRNS0_6__baseILSI_1EJxfbSD_SG_EEEEEEDcSK_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm3EEE10__dispatchB9foe210106IONS1_9__variant15__value_visitorIR26ML3StatementBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm3EEE10__dispatchB9foe210106IONS1_9__variant15__value_visitorIR29ML3VirtualTableBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm3EEE10__dispatchB9foe210106IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB9foe210106INS0_18__move_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSP_E_JONS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSO_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm3EEE10__dispatchB9foe210106IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB9foe210106IRKNS0_18__copy_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSR_E_JRKNS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSQ_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm3EEE10__dispatchB9foe210106IOZNS0_6__dtorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEELNS0_6_TraitE1EE9__destroyB9foe210106EvEUlRT_E_JRNS0_6__baseILSI_1EJxfbSD_SG_EEEEEEDcSK_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm4EEE10__dispatchB9foe210106IONS1_9__variant15__value_visitorIR26ML3StatementBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm4EEE10__dispatchB9foe210106IONS1_9__variant15__value_visitorIR29ML3VirtualTableBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm4EEE10__dispatchB9foe210106IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB9foe210106INS0_18__move_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSP_E_JONS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSO_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm4EEE10__dispatchB9foe210106IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB9foe210106IRKNS0_18__copy_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSR_E_JRKNS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSQ_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm4EEE10__dispatchB9foe210106IOZNS0_6__dtorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEELNS0_6_TraitE1EE9__destroyB9foe210106EvEUlRT_E_JRNS0_6__baseILSI_1EJxfbSD_SG_EEEEEEDcSK_DpT0_
++ __ZNSt3__116__variant_detail6__dtorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEELNS0_6_TraitE1EE9__destroyB9foe210106Ev
++ __ZNSt3__116allocator_traitsINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS9_I13ML3ImportItemEEE26_ContainerItemReactionInfoEEEEPvEEEEE7destroyB9foe210106INS_4pairIKS8_SE_EELi0EEEvRSI_PT_
++ __ZNSt3__118codecvt_utf8_utf16IwLm1114111ELNS_12codecvt_modeE0EED0B9foe210106Ev
++ __ZNSt3__118codecvt_utf8_utf16IwLm1114111ELNS_12codecvt_modeE0EED1B9foe210106Ev
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_10shared_ptrI13ML3ImportItemEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_10shared_ptrIN6ML3CPP7ElementEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_13unordered_setINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEENS_4hashIS7_EENS_8equal_toIS7_EENS1_IS7_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSH_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIPNS_10shared_ptrIN6ML3CPP6Parser15ParserContainerEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIxEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIyEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__shared_weak_count16__release_sharedB9foe210106Ev
++ __ZNSt3__119__throw_range_errorB9foe210106EPKc
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106Ev
++ __ZNSt3__120__optional_copy_baseINS_7variantIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEELb0EEC2B9foe210106ERKSC_
++ __ZNSt3__120__throw_bad_weak_ptrB9foe210106Ev
++ __ZNSt3__120__throw_length_errorB9foe210106EPKc
++ __ZNSt3__120__throw_out_of_rangeB9foe210106EPKc
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEPvEEEEEclB9foe210106EPS9_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEbEEPvEEEEEclB9foe210106EPSB_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEExEEPvEEEEEclB9foe210106EPSB_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIj14ML3ImportValueINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEPvEEEEEclB9foe210106EPSD_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIx20ML3CollectionInfoSetEEPvEEEEEclB9foe210106EPS7_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_10shared_ptrI12ML3AlbumDataEEEEPvEEEEEclB9foe210106EPS9_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_10shared_ptrI12ML3GenreDataEEEEPvEEEEEclB9foe210106EPS9_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ArtistDataEEEEPvEEEEEclB9foe210106EPS9_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ImportItemEEEEPvEEEEEclB9foe210106EPS9_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_10shared_ptrI15ML3ComposerDataEEEEPvEEEEEclB9foe210106EPS9_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_10shared_ptrI18ML3LibraryPinsDataEEEEPvEEEEEclB9foe210106EPS9_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPvEEEEEclB9foe210106EPSB_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_6vectorINS_4pairIxxEENS1_IS6_EEEEEEPvEEEEEclB9foe210106EPSB_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIyNS_10shared_ptrI13ML3ImportItemEEEEPvEEEEEclB9foe210106EPS9_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEExEEPvEEEEEclB9foe210106EPSB_
++ __ZNSt3__124__put_character_sequenceB9foe210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__126__throw_bad_variant_accessB9foe210106Ev
++ __ZNSt3__127__tree_balance_after_insertB9foe210106IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEEEPS7_EEED2B9foe210106Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_8optionalINS_7variantIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEEPSE_EEED2B9foe210106Ev
++ __ZNSt3__132__internal_log_hardening_failureEPKc
++ __ZNSt3__135__uninitialized_allocator_copy_implB9foe210106INS_9allocatorINS_10shared_ptrI13ML3ImportItemEEEEPS4_S6_S6_EET2_RT_T0_T1_S7_
++ __ZNSt3__135__uninitialized_allocator_copy_implB9foe210106INS_9allocatorINS_10shared_ptrI27ML3DatabaseImportDataSourceEEEEPKS4_S7_PS4_EET2_RT_T0_T1_S9_
++ __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS7_I13ML3ImportItemEEE26_ContainerItemReactionInfoEENS_4lessIS6_EENS4_INS_4pairIKS6_SC_EEEEEC1B9foe210106ERKSJ_
++ __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS7_I13ML3ImportItemEEE26_ContainerItemReactionInfoEENS_4lessIS6_EENS4_INS_4pairIKS6_SC_EEEEEaSB9foe210106ERKSJ_
++ __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_NS_4lessIS6_EENS4_INS_4pairIKS6_S6_EEEEEC2B9foe210106ERKSD_
++ __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEExNS_4lessIS6_EENS4_INS_4pairIKS6_xEEEEED1B9foe210106Ev
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_ED1Ev
++ __ZNSt3__14stofERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPm
++ __ZNSt3__15stackINS_10shared_ptrIN6ML3CPP6Parser15ParserContainerEEENS_5dequeIS5_NS_9allocatorIS5_EEEEE3topB9foe210106Ev
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS8_I13ML3ImportItemEEE26_ContainerItemReactionInfoEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SD_EENS_4lessIS7_EELb1EEENS5_ISI_EEE12__find_equalIS7_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISS_EERKT_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS8_I13ML3ImportItemEEE26_ContainerItemReactionInfoEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SD_EENS_4lessIS7_EELb1EEENS5_ISI_EEE16__construct_nodeIJRKSI_EEENS_10unique_ptrINS_11__tree_nodeISE_PvEENS_22__tree_node_destructorINS5_ISU_EEEEEEDpOT_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS8_I13ML3ImportItemEEE26_ContainerItemReactionInfoEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SD_EENS_4lessIS7_EELb1EEENS5_ISI_EEE16__find_leaf_highERPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERKSI_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS8_I13ML3ImportItemEEE26_ContainerItemReactionInfoEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SD_EENS_4lessIS7_EELb1EEENS5_ISI_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSS_SS_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS8_I13ML3ImportItemEEE26_ContainerItemReactionInfoEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SD_EENS_4lessIS7_EELb1EEENS5_ISI_EEE18_DetachedTreeCache9__advanceB9foe210106Ev
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS8_I13ML3ImportItemEEE26_ContainerItemReactionInfoEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SD_EENS_4lessIS7_EELb1EEENS5_ISI_EEE18_DetachedTreeCacheD1B9foe210106Ev
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS8_I13ML3ImportItemEEE26_ContainerItemReactionInfoEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SD_EENS_4lessIS7_EELb1EEENS5_ISI_EEE4findIS7_EENS_15__tree_iteratorISE_PNS_11__tree_nodeISE_PvEElEERKT_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS8_I13ML3ImportItemEEE26_ContainerItemReactionInfoEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SD_EENS_4lessIS7_EELb1EEENS5_ISI_EEE7destroyEPNS_11__tree_nodeISE_PvEE
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_NS_4pairIKS7_S7_EENS_4lessIS7_EELb1EEENS5_ISC_EEE12__find_equalIS7_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISM_EERKT_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_NS_4pairIKS7_S7_EENS_4lessIS7_EELb1EEENS5_ISC_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSM_SM_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_NS_4pairIKS7_S7_EENS_4lessIS7_EELb1EEENS5_ISC_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENSM_IJEEEEEENSA_INS_15__tree_iteratorIS8_PNS_11__tree_nodeIS8_PvEElEEbEERKT_DpOT0_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_NS_4pairIKS7_S7_EENS_4lessIS7_EELb1EEENS5_ISC_EEE25__emplace_unique_key_argsIS7_JSC_EEENSA_INS_15__tree_iteratorIS8_PNS_11__tree_nodeIS8_PvEElEEbEERKT_DpOT0_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_NS_4pairIKS7_S7_EENS_4lessIS7_EELb1EEENS5_ISC_EEE4findIS7_EENS_15__tree_iteratorIS8_PNS_11__tree_nodeIS8_PvEElEERKT_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_NS_4pairIKS7_S7_EENS_4lessIS7_EELb1EEENS5_ISC_EEE7destroyEPNS_11__tree_nodeIS8_PvEE
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEExEENS_19__map_value_compareIS7_NS_4pairIKS7_xEENS_4lessIS7_EELb1EEENS5_ISC_EEE12__find_equalIS7_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISM_EERKT_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEExEENS_19__map_value_compareIS7_NS_4pairIKS7_xEENS_4lessIS7_EELb1EEENS5_ISC_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSM_SM_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEExEENS_19__map_value_compareIS7_NS_4pairIKS7_xEENS_4lessIS7_EELb1EEENS5_ISC_EEE18_DetachedTreeCache13__detach_nextEPNS_11__tree_nodeIS8_PvEE
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEExEENS_19__map_value_compareIS7_NS_4pairIKS7_xEENS_4lessIS7_EELb1EEENS5_ISC_EEE18_DetachedTreeCacheD2B9foe210106Ev
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEExEENS_19__map_value_compareIS7_NS_4pairIKS7_xEENS_4lessIS7_EELb1EEENS5_ISC_EEE7destroyEPNS_11__tree_nodeIS8_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIjNS_10shared_ptrIN6ML3CPP7ElementEEEEENS_19__map_value_compareIjNS_4pairIKjS5_EENS_4lessIjEELb1EEENS_9allocatorISA_EEE7destroyEPNS_11__tree_nodeIS6_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIjmEENS_19__map_value_compareIjNS_4pairIKjmEENS_4lessIjEELb1EEENS_9allocatorIS6_EEE7destroyEPNS_11__tree_nodeIS2_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIxNS_3mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS9_I13ML3ImportItemEEE26_ContainerItemReactionInfoEENS_4lessIS8_EENS6_INS_4pairIKS8_SE_EEEEEEEENS_19__map_value_compareIxNSH_IKxSL_EENSF_IxEELb1EEENS6_ISP_EEE7destroyEPNS_11__tree_nodeISM_PvEE
++ __ZNSt3__16vectorI21ML3VirtualTableColumnNS_9allocatorIS1_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorI21ML3VirtualTableColumnNS_9allocatorIS1_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorINS_10shared_ptrI13ML3ImportItemEENS_9allocatorIS3_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorINS_10shared_ptrI13ML3ImportItemEENS_9allocatorIS3_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorINS_10shared_ptrI13ML3ImportItemEENS_9allocatorIS3_EEE5clearB9foe210106Ev
++ __ZNSt3__16vectorINS_10shared_ptrI13ML3ImportItemEENS_9allocatorIS3_EEE9push_backB9foe210106EOS3_
++ __ZNSt3__16vectorINS_10shared_ptrI13ML3ImportItemEENS_9allocatorIS3_EEE9push_backB9foe210106ERKS3_
++ __ZNSt3__16vectorINS_10shared_ptrI27ML3DatabaseImportDataSourceEENS_9allocatorIS3_EEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorINS_10shared_ptrI27ML3DatabaseImportDataSourceEENS_9allocatorIS3_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorINS_10shared_ptrI27ML3DatabaseImportDataSourceEENS_9allocatorIS3_EEE16__init_with_sizeB9foe210106IPKS3_S9_EEvT_T0_m
++ __ZNSt3__16vectorINS_10shared_ptrI27ML3DatabaseImportDataSourceEENS_9allocatorIS3_EEE18__assign_with_sizeB9foe210106IPKS3_S9_EEvT_T0_l
++ __ZNSt3__16vectorINS_10shared_ptrI27ML3DatabaseImportDataSourceEENS_9allocatorIS3_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorINS_10shared_ptrI27ML3DatabaseImportDataSourceEENS_9allocatorIS3_EEE5clearB9foe210106Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN6ML3CPP7ElementEEENS_9allocatorIS4_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN6ML3CPP7ElementEEENS_9allocatorIS4_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__init_with_sizeB9foe210106IPKS6_SB_EEvT_T0_m
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__init_with_sizeB9foe210106IPS6_SA_EEvT_T0_m
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorINS_13unordered_mapIxyNS_4hashIxEENS_8equal_toIxEENS_9allocatorINS_4pairIKxyEEEEEENS6_ISB_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorINS_13unordered_mapIyxNS_4hashIyEENS_8equal_toIyEENS_9allocatorINS_4pairIKyxEEEEEENS6_ISB_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorINS_13unordered_setINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS7_EENS_8equal_toIS7_EENS5_IS7_EEEENS5_ISD_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorINS_13unordered_setINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS7_EENS_8equal_toIS7_EENS5_IS7_EEEENS5_ISD_EEE16__init_with_sizeB9foe210106IPSD_SH_EEvT_T0_m
++ __ZNSt3__16vectorINS_13unordered_setINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS7_EENS_8equal_toIS7_EENS5_IS7_EEEENS5_ISD_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorINS_4pairIxxEENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorINS_8optionalINS_7variantIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEENS6_ISD_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorINS_8optionalINS_7variantIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEENS6_ISD_EEE16__init_with_sizeB9foe210106IPKSD_SI_EEvT_T0_m
++ __ZNSt3__16vectorIP11_constraintNS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIP17_constraint_stateNS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIbNS_9allocatorIbEEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE9push_backB9foe210106ERKh
++ __ZNSt3__16vectorIxNS_9allocatorIxEEE16__init_with_sizeB9foe210106IPxS5_EEvT_T0_m
++ __ZNSt3__16vectorIxNS_9allocatorIxEEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIxNS_9allocatorIxEEE9push_backB9foe210106EOx
++ __ZNSt3__16vectorIxNS_9allocatorIxEEE9push_backB9foe210106ERKx
++ __ZNSt3__16vectorIxNS_9allocatorIxEEEC2B9foe210106Em
++ __ZNSt3__16vectorIyNS_9allocatorIyEEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIyNS_9allocatorIyEEE9push_backB9foe210106ERKy
++ __ZNSt3__18optionalINS_7variantIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEaSB9foe210106IS7_Li0EEERSC_OT_
++ __ZNSt3__19allocatorI18DAAPParserDelegateE9constructB9foe210106IS1_JRU8__strongKP22ML3DAAPImportOperationRNS_10shared_ptrIN6ML3CPP6ParserEEER32ML3DAAPImportOperationEntityTypebEEEvPT_DpOT0_
++ __ZNSt3__19to_stringEf
++ __ZSt28__throw_bad_array_new_lengthB9foe210106v
++ __ZZL37ML3LibraryPinDefaultActionDescriptionxE38__pinnedEntityDefaultActionDescription.23887
++ __ZZL37ML3LibraryPinDefaultActionDescriptionxE38__pinnedEntityDefaultActionDescription.5046
++ __ZZL37ML3LibraryPinDefaultActionDescriptionxE9onceToken.23886
++ __ZZL37ML3LibraryPinDefaultActionDescriptionxE9onceToken.5045
++ __ZZL37ML3LibraryPinnedEntityTypeDescription13ML3EntityTypeE29__pinnedEntityTypeDescription.23885
++ __ZZL37ML3LibraryPinnedEntityTypeDescription13ML3EntityTypeE29__pinnedEntityTypeDescription.5044
++ __ZZL37ML3LibraryPinnedEntityTypeDescription13ML3EntityTypeE9onceToken.23884
++ __ZZL37ML3LibraryPinnedEntityTypeDescription13ML3EntityTypeE9onceToken.5042
++ __ZZN16ML3ImportSession23_getDefaultJoeColorKeysEvE11__joeColors
++ __ZZN16ML3ImportSession23_getDefaultJoeColorKeysEvE9onceToken
++ ___104+[ML3Entity deleteFromLibrary:deletionType:canonicalizeCollections:persistentIDs:count:usingConnection:]_block_invoke.229
++ ___112-[ML3MediaLibraryWriter performDatabaseOperation:onLibrary:withAttributes:options:fromClient:completionHandler:]_block_invoke.118
++ ___136-[ML3MusicLibrary enumeratePersistentIDsAfterRevision:revisionTrackingCode:maximumRevisionType:forMediaTypes:inUsersLibrary:usingBlock:]_block_invoke.637
++ ___141-[ML3MusicLibrary importOriginalArtworkFromFileURL:withArtworkToken:artworkType:sourceType:mediaType:variantType:shouldPerformColorAnalysis:]_block_invoke.693
++ ___143-[ML3MusicLibrary importOriginalArtworkFromImageData:withArtworkToken:artworkType:sourceType:mediaType:variantType:shouldPerformColorAnalysis:]_block_invoke.704
++ ___145-[ML3MusicLibrary retrieveBestArtworkTokensAndColorInfoForEntityPersistentID:entityType:artworkType:variantType:retrievalTime:completionHandler:]_block_invoke
++ ___146-[ML3MusicLibrary _retrieveBestArtworkTokensAndColorInfoForEntityPersistentID:entityType:artworkType:variantType:retrievalTime:completionHandler:]_block_invoke
++ ___146-[ML3MusicLibrary _retrieveBestArtworkTokensAndColorInfoForEntityPersistentID:entityType:artworkType:variantType:retrievalTime:completionHandler:]_block_invoke_2
++ ___152-[ML3MusicLibrary importOriginalArtworkFromFileURL:withArtworkToken:artworkType:sourceType:mediaType:variantType:shouldPerformColorAnalysis:completion:]_block_invoke.700
++ ___38-[ML3MusicLibrary connectionDidClose:]_block_invoke.224
++ ___43-[MLMediaLibraryService _serviceConnection]_block_invoke.280
++ ___46-[ML3Artwork _onSerialQueue_faultInProperties]_block_invoke.22
++ ___51-[ML3PersistentIDGenerator _entityIDFromTableName:]_block_invoke
++ ___52-[ML3MusicLibrary removeOrphanedTracksOnlyInCaches:]_block_invoke.783
++ ___58-[ML3MusicLibrary _closeAndLockCurrentDatabaseConnections]_block_invoke.1018
++ ___59-[ML3MusicLibrary savePlaylistsSinceRevision:withGrappaID:]_block_invoke.500
++ ___59-[ML3MusicLibrary savePlaylistsSinceRevision:withGrappaID:]_block_invoke.529
++ ___59-[ML3MusicLibrary savePlaylistsSinceRevision:withGrappaID:]_block_invoke_2.508
++ ___63-[ML3MusicLibrary _removeOrphanedArtworkAssetsUsingConnection:]_block_invoke.984
++ ___65-[ML3MusicLibrary _removeOrphanedArtworkMetadataUsingConnection:]_block_invoke.973
++ ___68-[ML3MusicLibrary artworkColorInfoForToken:artworkType:variantType:]_block_invoke
++ ___75+[ML3Container updateBuiltInSmartPlaylistNamesForCurrentLanguageInLibrary:]_block_invoke.497
++ ___76-[ML3MusicLibrary sanitizeSortMapContentsUsingConnection:didSortMapEntries:]_block_invoke.926
++ ___77-[ML3MusicLibrary migrateExistingArtworkToken:newArtworkToken:newSourceType:]_block_invoke.723
++ ___78-[ML3Container initWithDictionary:inLibrary:cachedNameOrders:usingConnection:]_block_invoke
++ ___79-[ML3MusicLibrary _colorInformationDictionaryUsingConnection:query:parameters:]_block_invoke
++ ___94-[ML3MusicLibrary performColorAnalysisForArtworkWithConnection:shouldRegenerateColorAnalysis:]_block_invoke.690
++ ___95-[_ML3DatabaseConnectionSubPool closeConnectionsForOwningPoolClosed:andWaitForBusyConnections:]_block_invoke_2
++ ___98-[ML3MusicLibrary artworkColorInfoForEntityPersistentID:entityType:artworkType:variantType:token:]_block_invoke
++ ___99-[ML3MusicLibrary enumerateArtworkRelativePathsWithConnection:matchingRelativePathContainer:block:]_block_invoke.677
++ ___Block_byref_object_copy_.11194
++ ___Block_byref_object_copy_.12017
++ ___Block_byref_object_copy_.12120
++ ___Block_byref_object_copy_.12985
++ ___Block_byref_object_copy_.13140
++ ___Block_byref_object_copy_.13541
++ ___Block_byref_object_copy_.14004
++ ___Block_byref_object_copy_.15277
++ ___Block_byref_object_copy_.1587
++ ___Block_byref_object_copy_.17917
++ ___Block_byref_object_copy_.18274
++ ___Block_byref_object_copy_.18818
++ ___Block_byref_object_copy_.18947
++ ___Block_byref_object_copy_.19657
++ ___Block_byref_object_copy_.20091
++ ___Block_byref_object_copy_.20344
++ ___Block_byref_object_copy_.21291
++ ___Block_byref_object_copy_.21648
++ ___Block_byref_object_copy_.2256
++ ___Block_byref_object_copy_.23570
++ ___Block_byref_object_copy_.24005
++ ___Block_byref_object_copy_.25867
++ ___Block_byref_object_copy_.2592
++ ___Block_byref_object_copy_.25944
++ ___Block_byref_object_copy_.26046
++ ___Block_byref_object_copy_.26246
++ ___Block_byref_object_copy_.26557
++ ___Block_byref_object_copy_.26952
++ ___Block_byref_object_copy_.29017
++ ___Block_byref_object_copy_.29842
++ ___Block_byref_object_copy_.3959
++ ___Block_byref_object_copy_.432
++ ___Block_byref_object_copy_.435
++ ___Block_byref_object_copy_.437
++ ___Block_byref_object_copy_.504
++ ___Block_byref_object_copy_.5231
++ ___Block_byref_object_copy_.534
++ ___Block_byref_object_copy_.5417
++ ___Block_byref_object_copy_.555
++ ___Block_byref_object_copy_.619
++ ___Block_byref_object_copy_.6645
++ ___Block_byref_object_copy_.747
++ ___Block_byref_object_copy_.753
++ ___Block_byref_object_copy_.760
++ ___Block_byref_object_copy_.764
++ ___Block_byref_object_copy_.771
++ ___Block_byref_object_copy_.776
++ ___Block_byref_object_copy_.7854
++ ___Block_byref_object_copy_.7945
++ ___Block_byref_object_copy_.839
++ ___Block_byref_object_copy_.8545
++ ___Block_byref_object_copy_.9143
++ ___Block_byref_object_copy_.9638
++ ___Block_byref_object_copy_.9761
++ ___Block_byref_object_copy_.9864
++ ___Block_byref_object_dispose_.11195
++ ___Block_byref_object_dispose_.12018
++ ___Block_byref_object_dispose_.12121
++ ___Block_byref_object_dispose_.12986
++ ___Block_byref_object_dispose_.13141
++ ___Block_byref_object_dispose_.13542
++ ___Block_byref_object_dispose_.14005
++ ___Block_byref_object_dispose_.15278
++ ___Block_byref_object_dispose_.1588
++ ___Block_byref_object_dispose_.17918
++ ___Block_byref_object_dispose_.18275
++ ___Block_byref_object_dispose_.18819
++ ___Block_byref_object_dispose_.18948
++ ___Block_byref_object_dispose_.19658
++ ___Block_byref_object_dispose_.20092
++ ___Block_byref_object_dispose_.20345
++ ___Block_byref_object_dispose_.21292
++ ___Block_byref_object_dispose_.21649
++ ___Block_byref_object_dispose_.2257
++ ___Block_byref_object_dispose_.23571
++ ___Block_byref_object_dispose_.24006
++ ___Block_byref_object_dispose_.25868
++ ___Block_byref_object_dispose_.2593
++ ___Block_byref_object_dispose_.25945
++ ___Block_byref_object_dispose_.26047
++ ___Block_byref_object_dispose_.26247
++ ___Block_byref_object_dispose_.26558
++ ___Block_byref_object_dispose_.26953
++ ___Block_byref_object_dispose_.29018
++ ___Block_byref_object_dispose_.29843
++ ___Block_byref_object_dispose_.3960
++ ___Block_byref_object_dispose_.433
++ ___Block_byref_object_dispose_.436
++ ___Block_byref_object_dispose_.438
++ ___Block_byref_object_dispose_.505
++ ___Block_byref_object_dispose_.5232
++ ___Block_byref_object_dispose_.535
++ ___Block_byref_object_dispose_.5418
++ ___Block_byref_object_dispose_.556
++ ___Block_byref_object_dispose_.620
++ ___Block_byref_object_dispose_.6646
++ ___Block_byref_object_dispose_.748
++ ___Block_byref_object_dispose_.754
++ ___Block_byref_object_dispose_.761
++ ___Block_byref_object_dispose_.765
++ ___Block_byref_object_dispose_.772
++ ___Block_byref_object_dispose_.777
++ ___Block_byref_object_dispose_.7855
++ ___Block_byref_object_dispose_.7946
++ ___Block_byref_object_dispose_.840
++ ___Block_byref_object_dispose_.8546
++ ___Block_byref_object_dispose_.9144
++ ___Block_byref_object_dispose_.9639
++ ___Block_byref_object_dispose_.9762
++ ___Block_byref_object_dispose_.9865
++ ___ML3MigrationFunction2340030to2340040_block_invoke
++ ___ML3MigrationFunction2340030to2340040_block_invoke_2
++ ___SetupAssistantLibraryCore_block_invoke
++ ____ZL37ML3LibraryPinDefaultActionDescriptionx_block_invoke.23929
++ ____ZL37ML3LibraryPinDefaultActionDescriptionx_block_invoke.5053
++ ____ZL37ML3LibraryPinnedEntityTypeDescription13ML3EntityType_block_invoke.23931
++ ____ZL37ML3LibraryPinnedEntityTypeDescription13ML3EntityType_block_invoke.5060
++ ____ZN16ML3ImportSession13_finishImportEv_block_invoke.287
++ ____ZN16ML3ImportSession13_finishImportEv_block_invoke.294
++ ____ZN16ML3ImportSession13_finishImportEv_block_invoke.310
++ ____ZN16ML3ImportSession13_finishImportEv_block_invoke_2.308
++ ____ZN16ML3ImportSession13_finishImportEv_block_invoke_2.314
++ ____ZN16ML3ImportSession23_getDefaultJoeColorKeysEv_block_invoke
++ ____ZN16ML3ImportSession34_prepareContainerAuthorImportItemsENSt3__110shared_ptrI13ML3ImportItemEE_block_invoke.774
++ ____ZN16ML3ImportSession38_prepareContainerItemPersonImportItemsENSt3__110shared_ptrI13ML3ImportItemEE_block_invoke.759
++ ____ZN16ML3ImportSession48_joeColorForArtworkTypeFromVariantInfoDictionaryE23ArtworkColorInfoForTypeP12NSDictionary_block_invoke
++ ____ZN16ML3ImportSession57_textGradientColorForArtworkTypeFromVariantInfoDictionaryE23ArtworkColorInfoForTypeP12NSDictionary_block_invoke
++ ____ZN16ML3ImportSession5flushEb_block_invoke.185
++ ___block_descriptor_40_ea8_32r_e15_v32?08Q16^B24lr32l8
++ ___block_descriptor_48_ea8_32s40r_e25_v32?0"NSString"8Q16^B24ls32l8r40l8
++ ___block_descriptor_72_e8_32s40s48r_e35_v24?0"CCSetDonation"8"NSError"16ls32l8s40l8r48l8
++ ___block_descriptor_80_e8_32s40s48r_e31_v16?0"ML3DatabaseConnection"8lr48l8s32l8s40l8
++ ___block_descriptor_80_e8_32s40s48s56r_e8_v12?0B8ls32l8s40l8s48l8r56l8
++ ___block_descriptor_80_e8_32s40s48s56s64s72r_e5_B8?0ls32l8s40l8s48l8s56l8s64l8r72l8
++ ___block_descriptor_96_e8_32s40bs48r56r_e34_v32?0"NSString"8"NSString"16q24lr48l8s32l8r56l8s40l8
++ ___block_literal_global.1008
++ ___block_literal_global.1020
++ ___block_literal_global.10262
++ ___block_literal_global.11219
++ ___block_literal_global.11272
++ ___block_literal_global.119
++ ___block_literal_global.12037
++ ___block_literal_global.1240
++ ___block_literal_global.12466
++ ___block_literal_global.138
++ ___block_literal_global.13972
++ ___block_literal_global.14155
++ ___block_literal_global.145
++ ___block_literal_global.1461
++ ___block_literal_global.15104
++ ___block_literal_global.16056
++ ___block_literal_global.16883
++ ___block_literal_global.17218
++ ___block_literal_global.17972
++ ___block_literal_global.19137
++ ___block_literal_global.198
++ ___block_literal_global.20090
++ ___block_literal_global.20365
++ ___block_literal_global.20531
++ ___block_literal_global.20648
++ ___block_literal_global.20679
++ ___block_literal_global.20867
++ ___block_literal_global.21403
++ ___block_literal_global.21866
++ ___block_literal_global.22166
++ ___block_literal_global.22293
++ ___block_literal_global.2260
++ ___block_literal_global.22833
++ ___block_literal_global.23669
++ ___block_literal_global.25306
++ ___block_literal_global.25968
++ ___block_literal_global.26098
++ ___block_literal_global.26962
++ ___block_literal_global.27287
++ ___block_literal_global.28217
++ ___block_literal_global.3182
++ ___block_literal_global.4488
++ ___block_literal_global.4650
++ ___block_literal_global.5043
++ ___block_literal_global.5230
++ ___block_literal_global.5399
++ ___block_literal_global.561
++ ___block_literal_global.567
++ ___block_literal_global.568
++ ___block_literal_global.6056
++ ___block_literal_global.6197
++ ___block_literal_global.6611
++ ___block_literal_global.692
++ ___block_literal_global.7039
++ ___block_literal_global.7113
++ ___block_literal_global.770
++ ___block_literal_global.7831
++ ___block_literal_global.788
++ ___block_literal_global.795
++ ___block_literal_global.807
++ ___block_literal_global.823
++ ___block_literal_global.83.6257
++ ___block_literal_global.834.8708
++ ___block_literal_global.8711
++ ___block_literal_global.8810
++ ___block_literal_global.9136
++ ___block_literal_global.928
++ ___block_literal_global.9390
++ ___block_literal_global.940
++ ___block_literal_global.9617
++ ___block_literal_global.9747
++ ___block_literal_global.978
++ ___block_literal_global.992
++ ___getBYSetupAssistantNeedsToRunSymbolLoc_block_invoke
++ ___getICStoreArtworkInfoCropStyleSquareCenterCropSymbolLoc_block_invoke.18581
++ ___getICStoreArtworkInfoImageFormatJPEGSymbolLoc_block_invoke.18564
++ ___getICStorePlatformMetadataKindPlaylistSymbolLoc_block_invoke.18593
++ ___iTunesCloudLibraryCore_block_invoke.18576
++ __entityIDFromTableName:.__once
++ __entityIDFromTableName:.__tableNameToEntityIDMapping
++ _arc4random_uniform
++ _audit_stringSetupAssistant
++ _audit_stringiTunesCloud.18579
++ _getBYSetupAssistantNeedsToRunSymbolLoc.ptr
++ _getICStoreArtworkInfoCropStyleSquareCenterCropSymbolLoc.ptr.18580
++ _getICStoreArtworkInfoImageFormatJPEGSymbolLoc.ptr.18563
++ _getICStorePlatformMetadataKindPlaylistSymbolLoc.ptr.18592
++ _iTunesCloudLibrary.18565
++ _iTunesCloudLibraryCore.frameworkLibrary.18575
++ _objc_msgSend$_colorInformationDictionaryUsingConnection:query:parameters:
++ _objc_msgSend$_entityIDFromTableName:
++ _objc_msgSend$_processAlbumAsset:forSource:withError:
++ _objc_msgSend$_retrieveBestArtworkTokensAndColorInfoForEntityPersistentID:entityType:artworkType:variantType:retrievalTime:completionHandler:
++ _objc_msgSend$addDependency:
++ _objc_msgSend$artworkColorInfoForEntityPersistentID:entityType:artworkType:variantType:token:
++ _objc_msgSend$artworkColorInfoForToken:artworkType:variantType:
++ _objc_msgSend$artworkSourceType
++ _objc_msgSend$gradientColor
++ _objc_msgSend$gradientColorEndPosition
++ _objc_msgSend$gradientColorHex
++ _objc_msgSend$gradientColorStartPosition
++ _objc_msgSend$gradientTextColorHex
++ _objc_msgSend$gradientTextColors
++ _objc_msgSend$hasArtworkSourceType
++ _objc_msgSend$qualityOfService
++ _objc_msgSend$quaternaryTextColor
++ _objc_msgSend$quaternaryTextColorHex
++ _objc_msgSend$setArtworkSourceType:
++ _objc_msgSend$setBackgroundColorHex:
++ _objc_msgSend$setGradientColorEndPosition:
++ _objc_msgSend$setGradientColorHex:
++ _objc_msgSend$setGradientColorStartPosition:
++ _objc_msgSend$setGradientTextColorHex:
++ _objc_msgSend$setPrimaryTextColorHex:
++ _objc_msgSend$setQuaternaryTextColorHex:
++ _objc_msgSend$setSecondaryTextColorHex:
++ _objc_msgSend$setTertiaryTextColorHex:
++ _objc_msgSend$setTimeout:
++ _objc_msgSend$updatedValidityRevisionNumber
++ _propertiesForGroupingKey.onceToken.6055
++ _propertiesForGroupingKey.onceToken.7830
++ _propertiesForGroupingKey.onceToken.9616
++ _propertiesForGroupingKey.onceToken.9746
++ _propertiesForGroupingKey.propertiesForGroupingKey.6057
++ _propertiesForGroupingKey.propertiesForGroupingKey.7832
++ _propertiesForGroupingKey.propertiesForGroupingKey.9618
++ _propertiesForGroupingKey.propertiesForGroupingKey.9748
+- GCC_except_table104
+- GCC_except_table110
+- GCC_except_table1175
+- GCC_except_table120
+- GCC_except_table1212
+- GCC_except_table1232
+- GCC_except_table124
+- GCC_except_table1288
+- GCC_except_table131
+- GCC_except_table1315
+- GCC_except_table135
+- GCC_except_table139
+- GCC_except_table1396
+- GCC_except_table1403
+- GCC_except_table1410
+- GCC_except_table1412
+- GCC_except_table1419
+- GCC_except_table1432
+- GCC_except_table1439
+- GCC_except_table144
+- GCC_except_table1445
+- GCC_except_table1447
+- GCC_except_table1460
+- GCC_except_table148
+- GCC_except_table1483
+- GCC_except_table1499
+- GCC_except_table1505
+- GCC_except_table1528
+- GCC_except_table1532
+- GCC_except_table1539
+- GCC_except_table154
+- GCC_except_table1544
+- GCC_except_table1565
+- GCC_except_table1567
+- GCC_except_table1569
+- GCC_except_table1579
+- GCC_except_table1581
+- GCC_except_table1583
+- GCC_except_table1585
+- GCC_except_table1587
+- GCC_except_table159
+- GCC_except_table1593
+- GCC_except_table1597
+- GCC_except_table161
+- GCC_except_table1616
+- GCC_except_table1621
+- GCC_except_table1625
+- GCC_except_table1633
+- GCC_except_table1642
+- GCC_except_table1673
+- GCC_except_table1675
+- GCC_except_table1677
+- GCC_except_table1696
+- GCC_except_table1700
+- GCC_except_table1703
+- GCC_except_table1706
+- GCC_except_table1709
+- GCC_except_table1711
+- GCC_except_table1731
+- GCC_except_table1733
+- GCC_except_table1736
+- GCC_except_table1738
+- GCC_except_table1740
+- GCC_except_table1746
+- GCC_except_table1759
+- GCC_except_table1760
+- GCC_except_table1761
+- GCC_except_table1770
+- GCC_except_table1802
+- GCC_except_table1807
+- GCC_except_table1815
+- GCC_except_table1817
+- GCC_except_table1822
+- GCC_except_table1831
+- GCC_except_table1838
+- GCC_except_table1878
+- GCC_except_table1885
+- GCC_except_table1887
+- GCC_except_table1907
+- GCC_except_table1911
+- GCC_except_table1919
+- GCC_except_table1923
+- GCC_except_table1933
+- GCC_except_table1934
+- GCC_except_table1949
+- GCC_except_table1958
+- GCC_except_table1960
+- GCC_except_table1994
+- GCC_except_table2024
+- GCC_except_table2030
+- GCC_except_table2031
+- GCC_except_table2032
+- GCC_except_table2033
+- GCC_except_table2054
+- GCC_except_table2058
+- GCC_except_table2059
+- GCC_except_table2060
+- GCC_except_table2061
+- GCC_except_table2062
+- GCC_except_table2063
+- GCC_except_table2065
+- GCC_except_table2066
+- GCC_except_table2067
+- GCC_except_table2086
+- GCC_except_table2087
+- GCC_except_table2090
+- GCC_except_table2091
+- GCC_except_table2092
+- GCC_except_table2100
+- GCC_except_table2102
+- GCC_except_table2112
+- GCC_except_table2113
+- GCC_except_table2114
+- GCC_except_table2115
+- GCC_except_table2116
+- GCC_except_table2122
+- GCC_except_table2123
+- GCC_except_table2126
+- GCC_except_table2136
+- GCC_except_table2137
+- GCC_except_table2138
+- GCC_except_table2141
+- GCC_except_table2159
+- GCC_except_table2160
+- GCC_except_table2161
+- GCC_except_table2162
+- GCC_except_table2163
+- GCC_except_table2167
+- GCC_except_table2168
+- GCC_except_table2169
+- GCC_except_table2170
+- GCC_except_table2171
+- GCC_except_table2172
+- GCC_except_table2173
+- GCC_except_table2174
+- GCC_except_table2175
+- GCC_except_table2194
+- GCC_except_table2198
+- GCC_except_table2200
+- GCC_except_table2202
+- GCC_except_table2204
+- GCC_except_table2212
+- GCC_except_table2213
+- GCC_except_table2214
+- GCC_except_table2216
+- GCC_except_table2224
+- GCC_except_table2227
+- GCC_except_table2232
+- GCC_except_table2235
+- GCC_except_table2236
+- GCC_except_table2237
+- GCC_except_table2258
+- GCC_except_table2259
+- GCC_except_table2260
+- GCC_except_table2284
+- GCC_except_table2287
+- GCC_except_table2288
+- GCC_except_table2289
+- GCC_except_table2290
+- GCC_except_table2291
+- GCC_except_table2294
+- GCC_except_table2300
+- GCC_except_table2433
+- GCC_except_table2455
+- GCC_except_table2459
+- GCC_except_table2518
+- GCC_except_table2534
+- GCC_except_table2547
+- GCC_except_table2557
+- GCC_except_table2564
+- GCC_except_table2567
+- GCC_except_table2578
+- GCC_except_table2580
+- GCC_except_table2584
+- GCC_except_table2586
+- GCC_except_table2591
+- GCC_except_table2595
+- GCC_except_table2599
+- GCC_except_table2605
+- GCC_except_table2611
+- GCC_except_table2612
+- GCC_except_table2835
+- GCC_except_table2884
+- GCC_except_table2887
+- GCC_except_table2892
+- GCC_except_table2915
+- GCC_except_table2944
+- GCC_except_table2955
+- GCC_except_table2959
+- GCC_except_table2971
+- GCC_except_table2978
+- GCC_except_table2982
+- GCC_except_table2985
+- GCC_except_table2988
+- GCC_except_table3023
+- GCC_except_table3026
+- GCC_except_table3036
+- GCC_except_table3038
+- GCC_except_table3039
+- GCC_except_table3047
+- GCC_except_table3102
+- GCC_except_table3109
+- GCC_except_table3112
+- GCC_except_table3129
+- GCC_except_table3130
+- GCC_except_table3132
+- GCC_except_table3138
+- GCC_except_table3139
+- GCC_except_table3145
+- GCC_except_table3146
+- GCC_except_table3147
+- GCC_except_table3159
+- GCC_except_table3160
+- GCC_except_table3161
+- GCC_except_table3186
+- GCC_except_table3193
+- GCC_except_table3199
+- GCC_except_table3202
+- GCC_except_table3208
+- GCC_except_table3214
+- GCC_except_table3225
+- GCC_except_table3226
+- GCC_except_table3229
+- GCC_except_table3236
+- GCC_except_table3237
+- GCC_except_table3247
+- GCC_except_table3249
+- GCC_except_table3252
+- GCC_except_table3256
+- GCC_except_table3298
+- GCC_except_table3303
+- GCC_except_table3348
+- GCC_except_table3349
+- GCC_except_table3355
+- GCC_except_table3360
+- GCC_except_table3361
+- GCC_except_table3362
+- GCC_except_table3363
+- GCC_except_table3370
+- GCC_except_table3371
+- GCC_except_table3373
+- GCC_except_table3375
+- GCC_except_table3376
+- GCC_except_table3377
+- GCC_except_table3378
+- GCC_except_table3383
+- GCC_except_table3384
+- GCC_except_table3385
+- GCC_except_table3386
+- GCC_except_table3388
+- GCC_except_table3398
+- GCC_except_table3399
+- GCC_except_table3411
+- GCC_except_table3423
+- GCC_except_table3432
+- GCC_except_table3433
+- GCC_except_table3434
+- GCC_except_table3435
+- GCC_except_table3436
+- GCC_except_table3441
+- GCC_except_table3444
+- GCC_except_table3445
+- GCC_except_table3459
+- GCC_except_table3484
+- GCC_except_table3520
+- GCC_except_table382
+- GCC_except_table3820
+- GCC_except_table3830
+- GCC_except_table3832
+- GCC_except_table3855
+- GCC_except_table3857
+- GCC_except_table3867
+- GCC_except_table388
+- GCC_except_table397
+- GCC_except_table4026
+- GCC_except_table4030
+- GCC_except_table4035
+- GCC_except_table4038
+- GCC_except_table4041
+- GCC_except_table405
+- GCC_except_table4053
+- GCC_except_table4054
+- GCC_except_table4060
+- GCC_except_table4068
+- GCC_except_table407
+- GCC_except_table4079
+- GCC_except_table4103
+- GCC_except_table4108
+- GCC_except_table4111
+- GCC_except_table4114
+- GCC_except_table4118
+- GCC_except_table4122
+- GCC_except_table4126
+- GCC_except_table4129
+- GCC_except_table4132
+- GCC_except_table416
+- GCC_except_table4211
+- GCC_except_table4214
+- GCC_except_table430
+- GCC_except_table4311
+- GCC_except_table4325
+- GCC_except_table4327
+- GCC_except_table4329
+- GCC_except_table4330
+- GCC_except_table4331
+- GCC_except_table4334
+- GCC_except_table4340
+- GCC_except_table4345
+- GCC_except_table435
+- GCC_except_table4368
+- GCC_except_table4370
+- GCC_except_table445
+- GCC_except_table447
+- GCC_except_table4552
+- GCC_except_table4559
+- GCC_except_table4566
+- GCC_except_table4567
+- GCC_except_table4568
+- GCC_except_table4574
+- GCC_except_table460
+- GCC_except_table4641
+- GCC_except_table4642
+- GCC_except_table4643
+- GCC_except_table4644
+- GCC_except_table4648
+- GCC_except_table4655
+- GCC_except_table4658
+- GCC_except_table466
+- GCC_except_table4660
+- GCC_except_table4670
+- GCC_except_table4674
+- GCC_except_table4693
+- GCC_except_table4694
+- GCC_except_table4800
+- GCC_except_table4803
+- GCC_except_table4807
+- GCC_except_table4810
+- GCC_except_table4829
+- GCC_except_table4830
+- GCC_except_table4831
+- GCC_except_table4947
+- GCC_except_table4949
+- GCC_except_table4953
+- GCC_except_table4955
+- GCC_except_table4957
+- GCC_except_table4958
+- GCC_except_table4959
+- GCC_except_table501
+- GCC_except_table5046
+- GCC_except_table5051
+- GCC_except_table5055
+- GCC_except_table5058
+- GCC_except_table5059
+- GCC_except_table507
+- GCC_except_table5073
+- GCC_except_table5074
+- GCC_except_table5078
+- GCC_except_table5083
+- GCC_except_table5086
+- GCC_except_table5087
+- GCC_except_table5090
+- GCC_except_table5091
+- GCC_except_table5092
+- GCC_except_table5096
+- GCC_except_table5098
+- GCC_except_table510
+- GCC_except_table5101
+- GCC_except_table5105
+- GCC_except_table5106
+- GCC_except_table5107
+- GCC_except_table5109
+- GCC_except_table5112
+- GCC_except_table5132
+- GCC_except_table5175
+- GCC_except_table5179
+- GCC_except_table5181
+- GCC_except_table5183
+- GCC_except_table5185
+- GCC_except_table5188
+- GCC_except_table5190
+- GCC_except_table5193
+- GCC_except_table5195
+- GCC_except_table5199
+- GCC_except_table5201
+- GCC_except_table5208
+- GCC_except_table5236
+- GCC_except_table5241
+- GCC_except_table5246
+- GCC_except_table5255
+- GCC_except_table5256
+- GCC_except_table5257
+- GCC_except_table5259
+- GCC_except_table5264
+- GCC_except_table5270
+- GCC_except_table5337
+- GCC_except_table5340
+- GCC_except_table5342
+- GCC_except_table5343
+- GCC_except_table5345
+- GCC_except_table5347
+- GCC_except_table5349
+- GCC_except_table5350
+- GCC_except_table5437
+- GCC_except_table5440
+- GCC_except_table5441
+- GCC_except_table5445
+- GCC_except_table5446
+- GCC_except_table5447
+- GCC_except_table5461
+- GCC_except_table5462
+- GCC_except_table5463
+- GCC_except_table5467
+- GCC_except_table5476
+- GCC_except_table5481
+- GCC_except_table5485
+- GCC_except_table5486
+- GCC_except_table550
+- GCC_except_table553
+- GCC_except_table5536
+- GCC_except_table5545
+- GCC_except_table5550
+- GCC_except_table559
+- GCC_except_table564
+- GCC_except_table5643
+- GCC_except_table5649
+- GCC_except_table5655
+- GCC_except_table5661
+- GCC_except_table5667
+- GCC_except_table5673
+- GCC_except_table5679
+- GCC_except_table5685
+- GCC_except_table5686
+- GCC_except_table5687
+- GCC_except_table5693
+- GCC_except_table5694
+- GCC_except_table570
+- GCC_except_table5700
+- GCC_except_table5706
+- GCC_except_table5711
+- GCC_except_table5712
+- GCC_except_table5727
+- GCC_except_table573
+- GCC_except_table5733
+- GCC_except_table5736
+- GCC_except_table5790
+- GCC_except_table5798
+- GCC_except_table581
+- GCC_except_table5811
+- GCC_except_table5819
+- GCC_except_table5847
+- GCC_except_table588
+- GCC_except_table5892
+- GCC_except_table5896
+- GCC_except_table5903
+- GCC_except_table5906
+- GCC_except_table5910
+- GCC_except_table5925
+- GCC_except_table5928
+- GCC_except_table5939
+- GCC_except_table594
+- GCC_except_table596
+- GCC_except_table5967
+- GCC_except_table5968
+- GCC_except_table5970
+- GCC_except_table5975
+- GCC_except_table600
+- GCC_except_table6028
+- GCC_except_table6029
+- GCC_except_table6031
+- GCC_except_table6032
+- GCC_except_table6033
+- GCC_except_table6034
+- GCC_except_table6035
+- GCC_except_table6036
+- GCC_except_table6037
+- GCC_except_table6039
+- GCC_except_table6041
+- GCC_except_table6046
+- GCC_except_table6048
+- GCC_except_table6049
+- GCC_except_table6090
+- GCC_except_table610
+- GCC_except_table6136
+- GCC_except_table6137
+- GCC_except_table6138
+- GCC_except_table6164
+- GCC_except_table6165
+- GCC_except_table6167
+- GCC_except_table6168
+- GCC_except_table617
+- GCC_except_table6170
+- GCC_except_table6172
+- GCC_except_table6173
+- GCC_except_table6174
+- GCC_except_table6175
+- GCC_except_table6177
+- GCC_except_table6178
+- GCC_except_table6182
+- GCC_except_table6183
+- GCC_except_table6184
+- GCC_except_table6185
+- GCC_except_table6187
+- GCC_except_table619
+- GCC_except_table6192
+- GCC_except_table6195
+- GCC_except_table6196
+- GCC_except_table6197
+- GCC_except_table6198
+- GCC_except_table6199
+- GCC_except_table6201
+- GCC_except_table6203
+- GCC_except_table6204
+- GCC_except_table6205
+- GCC_except_table6209
+- GCC_except_table6212
+- GCC_except_table6219
+- GCC_except_table6223
+- GCC_except_table6224
+- GCC_except_table623
+- GCC_except_table6236
+- GCC_except_table626
+- GCC_except_table6272
+- GCC_except_table6274
+- GCC_except_table6276
+- GCC_except_table6278
+- GCC_except_table6286
+- GCC_except_table6310
+- GCC_except_table6313
+- GCC_except_table6337
+- GCC_except_table6338
+- GCC_except_table634
+- GCC_except_table637
+- GCC_except_table6387
+- GCC_except_table6389
+- GCC_except_table6390
+- GCC_except_table6397
+- GCC_except_table6398
+- GCC_except_table6399
+- GCC_except_table6400
+- GCC_except_table6401
+- GCC_except_table6402
+- GCC_except_table6403
+- GCC_except_table6411
+- GCC_except_table6413
+- GCC_except_table6414
+- GCC_except_table6415
+- GCC_except_table6417
+- GCC_except_table6418
+- GCC_except_table642
+- GCC_except_table6420
+- GCC_except_table6421
+- GCC_except_table6423
+- GCC_except_table6424
+- GCC_except_table6425
+- GCC_except_table6426
+- GCC_except_table6427
+- GCC_except_table6450
+- GCC_except_table6451
+- GCC_except_table6452
+- GCC_except_table6454
+- GCC_except_table6458
+- GCC_except_table6465
+- GCC_except_table6474
+- GCC_except_table6475
+- GCC_except_table6476
+- GCC_except_table6477
+- GCC_except_table6478
+- GCC_except_table6481
+- GCC_except_table6483
+- GCC_except_table6490
+- GCC_except_table6496
+- GCC_except_table6498
+- GCC_except_table6499
+- GCC_except_table6501
+- GCC_except_table6508
+- GCC_except_table6509
+- GCC_except_table651
+- GCC_except_table6514
+- GCC_except_table6520
+- GCC_except_table6523
+- GCC_except_table6524
+- GCC_except_table6529
+- GCC_except_table6531
+- GCC_except_table6539
+- GCC_except_table6544
+- GCC_except_table6548
+- GCC_except_table6549
+- GCC_except_table6567
+- GCC_except_table6577
+- GCC_except_table6578
+- GCC_except_table6588
+- GCC_except_table6591
+- GCC_except_table6593
+- GCC_except_table6604
+- GCC_except_table6607
+- GCC_except_table661
+- GCC_except_table6611
+- GCC_except_table6618
+- GCC_except_table6619
+- GCC_except_table6620
+- GCC_except_table6622
+- GCC_except_table6623
+- GCC_except_table6624
+- GCC_except_table6626
+- GCC_except_table6629
+- GCC_except_table6630
+- GCC_except_table6632
+- GCC_except_table6633
+- GCC_except_table6634
+- GCC_except_table6637
+- GCC_except_table664
+- GCC_except_table6640
+- GCC_except_table6641
+- GCC_except_table6642
+- GCC_except_table6656
+- GCC_except_table6658
+- GCC_except_table6660
+- GCC_except_table667
+- GCC_except_table6675
+- GCC_except_table6676
+- GCC_except_table6677
+- GCC_except_table6697
+- GCC_except_table670
+- GCC_except_table6823
+- GCC_except_table6828
+- GCC_except_table6838
+- GCC_except_table6839
+- GCC_except_table6840
+- GCC_except_table6843
+- GCC_except_table6844
+- GCC_except_table6846
+- GCC_except_table6861
+- GCC_except_table6862
+- GCC_except_table6863
+- GCC_except_table6869
+- GCC_except_table6874
+- GCC_except_table6875
+- GCC_except_table6876
+- GCC_except_table6914
+- GCC_except_table6915
+- GCC_except_table6921
+- GCC_except_table6925
+- GCC_except_table6926
+- GCC_except_table6927
+- GCC_except_table6928
+- GCC_except_table6929
+- GCC_except_table6938
+- GCC_except_table6939
+- GCC_except_table6940
+- GCC_except_table6941
+- GCC_except_table6947
+- GCC_except_table6948
+- GCC_except_table6949
+- GCC_except_table6960
+- GCC_except_table6961
+- GCC_except_table6962
+- GCC_except_table6963
+- GCC_except_table6964
+- GCC_except_table6965
+- GCC_except_table6966
+- GCC_except_table6967
+- GCC_except_table6968
+- GCC_except_table6969
+- GCC_except_table6974
+- GCC_except_table6981
+- GCC_except_table6983
+- GCC_except_table6993
+- GCC_except_table7017
+- GCC_except_table7039
+- GCC_except_table7061
+- GCC_except_table7070
+- GCC_except_table7077
+- GCC_except_table7101
+- GCC_except_table7124
+- GCC_except_table7125
+- GCC_except_table7126
+- GCC_except_table7149
+- GCC_except_table7154
+- GCC_except_table7157
+- GCC_except_table7181
+- GCC_except_table7264
+- GCC_except_table7309
+- GCC_except_table7329
+- GCC_except_table7419
+- GCC_except_table7520
+- GCC_except_table7589
+- GCC_except_table7596
+- GCC_except_table7602
+- GCC_except_table7608
+- GCC_except_table7609
+- GCC_except_table7610
+- GCC_except_table7625
+- GCC_except_table7629
+- GCC_except_table7675
+- GCC_except_table7681
+- GCC_except_table7685
+- GCC_except_table7988
+- GCC_except_table7989
+- GCC_except_table7990
+- GCC_except_table7996
+- GCC_except_table7998
+- GCC_except_table7999
+- GCC_except_table8002
+- GCC_except_table85
+- GCC_except_table90
+- GCC_except_table93
+- GCC_except_table99
+- _MSVFastHexStringFromBytes.hexCharacters.28366
+- _OBJC_IVAR_$_ML3PersistentIDGenerator._nextUsedPersistentIdSQL
+- _OBJC_IVAR_$_ML3PersistentIDGenerator._validateStartingPersistentIdSQL
+- __MSV_XXH_XXH32_update.28357
+- __MSV_XXH_XXH64_digest.28362
+- __MSV_XXH_XXH64_update.28358
+- __ZN16ML3ImportSession20_prepareArtworkTokenEx14ML3ImportValueINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE20ML3ArtworkSourceType13ML3EntityType14ML3ArtworkType21ML3ArtworkVariantType
+- __ZNKSt3__111__copy_implclB8ne200100IPKNS_10shared_ptrI27ML3DatabaseImportDataSourceEES6_PS4_EENS_4pairIT_T1_EES9_T0_SA_
+- __ZNKSt3__111__copy_implclB8ne200100IPNS_10shared_ptrI13ML3ImportItemEES5_S5_EENS_4pairIT_T1_EES7_T0_S8_
+- __ZNKSt3__113__string_hashIcNS_9allocatorIcEEEclB8ne200100ERKNS_12basic_stringIcNS_11char_traitsIcEES2_EE
+- __ZNKSt3__114default_deleteIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS_10shared_ptrI13ML3ImportItemEEE26_ContainerItemReactionInfoEclB8ne200100EPS5_
+- __ZNKSt3__16__treeINS_12__value_typeIjNS_10shared_ptrIN6ML3CPP7ElementEEEEENS_19__map_value_compareIjS6_NS_4lessIjEELb1EEENS_9allocatorIS6_EEE13__count_multiIjEEmRKT_
+- __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB8ne200100ERKS6_S9_
+- __ZNKSt9type_infoeqB8ne200100ERKS_
+- __ZNSt11range_errorC1B8ne200100EPKc
+- __ZNSt12length_errorC1B8ne200100EPKc
+- __ZNSt12out_of_rangeC1B8ne200100EPKc
+- __ZNSt3__110shared_ptrI10ML3CPPDataEC2B8ne200100IS1_Li0EEEPT_
+- __ZNSt3__110shared_ptrI12ML3AlbumDataED1B8ne200100Ev
+- __ZNSt3__110shared_ptrI12ML3GenreDataED1B8ne200100Ev
+- __ZNSt3__110shared_ptrI13ML3ArtistDataED1B8ne200100Ev
+- __ZNSt3__110shared_ptrI13ML3ImportItemEC2B8ne200100I25ML3SubscriptionImportItemLi0EEEPT_
+- __ZNSt3__110shared_ptrI13ML3ImportItemEC2B8ne200100I26ML3ContainerItemImportItemLi0EEEPT_
+- __ZNSt3__110shared_ptrI13ML3ImportItemEC2B8ne200100I27ML3ProtoSyncAlbumImportItemLi0EEEPT_
+- __ZNSt3__110shared_ptrI13ML3ImportItemEC2B8ne200100I27ML3ProtoSyncTrackImportItemLi0EEEPT_
+- __ZNSt3__110shared_ptrI13ML3ImportItemEC2B8ne200100I28ML3ContainerAuthorImportItemLi0EEEPT_
+- __ZNSt3__110shared_ptrI13ML3ImportItemEC2B8ne200100I28ML3ITunesSyncAlbumImportItemLi0EEEPT_
+- __ZNSt3__110shared_ptrI13ML3ImportItemEC2B8ne200100I28ML3ITunesSyncTrackImportItemLi0EEEPT_
+- __ZNSt3__110shared_ptrI13ML3ImportItemEC2B8ne200100I28ML3ProtoSyncArtistImportItemLi0EEEPT_
+- __ZNSt3__110shared_ptrI13ML3ImportItemEC2B8ne200100I28ML3ProtoSyncDeleteImportItemLi0EEEPT_
+- __ZNSt3__110shared_ptrI13ML3ImportItemEC2B8ne200100I29ML3ITunesSyncArtistImportItemLi0EEEPT_
+- __ZNSt3__110shared_ptrI13ML3ImportItemEC2B8ne200100I31ML3ProtoSyncContainerImportItemLi0EEEPT_
+- __ZNSt3__110shared_ptrI13ML3ImportItemEC2B8ne200100I32ML3ITunesSyncContainerImportItemLi0EEEPT_
+- __ZNSt3__110shared_ptrI13ML3ImportItemEC2B8ne200100I34ML3ContainerItemReactionImportItemLi0EEEPT_
+- __ZNSt3__110shared_ptrI15ML3ComposerDataED1B8ne200100Ev
+- __ZNSt3__110shared_ptrI27ML3DatabaseImportDataSourceEC2B8ne200100I36ML3ItemStoreDatabaseImportDataSourceLi0EEEPT_
+- __ZNSt3__110shared_ptrIN6ML3CPP7ElementEE18__enable_weak_thisB8ne200100IS2_S2_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3AlbumDataEEEEPvEENS_22__hash_node_destructorINS6_ISE_EEEEED1B8ne200100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3GenreDataEEEEPvEENS_22__hash_node_destructorINS6_ISE_EEEEED1B8ne200100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI13ML3ArtistDataEEEEPvEENS_22__hash_node_destructorINS6_ISE_EEEEED1B8ne200100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI15ML3ComposerDataEEEEPvEENS_22__hash_node_destructorINS6_ISE_EEEEED1B8ne200100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES8_EEPvEENS_22__hash_node_destructorINS6_ISB_EEEEED1B8ne200100Ev
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS9_I13ML3ImportItemEEE26_ContainerItemReactionInfoEEEEPvEENS_22__tree_node_destructorINS6_ISH_EEEEED1B8ne200100Ev
+- __ZNSt3__112__destroy_atB8ne200100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3AlbumDataEEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB8ne200100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3GenreDataEEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB8ne200100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI13ML3ArtistDataEEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB8ne200100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI15ML3ComposerDataEEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB8ne200100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EELi0EEEvPT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3AlbumDataEEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeISB_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3AlbumDataEEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JNS_4pairIKS7_SA_EEEEENSN_INS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3AlbumDataEEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE4findIS7_EENS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3AlbumDataEEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE5clearEv
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3AlbumDataEEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3GenreDataEEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeISB_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3GenreDataEEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE5clearEv
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3GenreDataEEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3GenreDataEEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI13ML3ArtistDataEEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeISB_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI13ML3ArtistDataEEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JNS_4pairIKS7_SA_EEEEENSN_INS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI13ML3ArtistDataEEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE4findIS7_EENS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI13ML3ArtistDataEEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE5clearEv
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI13ML3ArtistDataEEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI15ML3ComposerDataEEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeISB_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI15ML3ComposerDataEEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JNS_4pairIKS7_SA_EEEEENSN_INS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI15ML3ComposerDataEEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE5clearEv
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI15ML3ComposerDataEEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_S8_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_S8_SD_SB_Lb1EEENS5_IS8_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENSN_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_S8_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_S8_SD_SB_Lb1EEENS5_IS8_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_S8_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_S8_SD_SB_Lb1EEENS5_IS8_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEbEENS_22__unordered_map_hasherIS7_S8_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_S8_SD_SB_Lb1EEENS5_IS8_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSN_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEbEENS_22__unordered_map_hasherIS7_S8_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_S8_SD_SB_Lb1EEENS5_IS8_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEExEENS_22__unordered_map_hasherIS7_S8_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_S8_SD_SB_Lb1EEENS5_IS8_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENSN_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEExEENS_22__unordered_map_hasherIS7_S8_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_S8_SD_SB_Lb1EEENS5_IS8_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSN_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEExEENS_22__unordered_map_hasherIS7_S8_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_S8_SD_SB_Lb1EEENS5_IS8_EEE4findIS7_EENS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEExEENS_22__unordered_map_hasherIS7_S8_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_S8_SD_SB_Lb1EEENS5_IS8_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEExEENS_22__unordered_map_hasherIS7_S8_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_S8_SD_SB_Lb1EEENS5_IS8_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIj14ML3ImportValueINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEENS_22__unordered_map_hasherIjSA_NS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjSA_SF_SD_Lb1EEENS6_ISA_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIjbEENS_22__unordered_map_hasherIjS2_NS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjS2_S7_S5_Lb1EEENS_9allocatorIS2_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIjxEENS_22__unordered_map_hasherIjS2_NS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjS2_S7_S5_Lb1EEENS_9allocatorIS2_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIx12ML3NameOrderEENS_22__unordered_map_hasherIxS3_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS3_S8_S6_Lb1EEENS_9allocatorIS3_EEE25__emplace_unique_key_argsIxJRKNS_21piecewise_construct_tENS_5tupleIJOxEEENSJ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIx12ML3NameOrderEENS_22__unordered_map_hasherIxS3_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS3_S8_S6_Lb1EEENS_9allocatorIS3_EEE25__emplace_unique_key_argsIxJRKNS_21piecewise_construct_tENS_5tupleIJRKxEEENSJ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIx12ML3NameOrderEENS_22__unordered_map_hasherIxS3_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS3_S8_S6_Lb1EEENS_9allocatorIS3_EEE4findIxEENS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIx12ML3NameOrderEENS_22__unordered_map_hasherIxS3_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS3_S8_S6_Lb1EEENS_9allocatorIS3_EEE5clearEv
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIx12ML3NameOrderEENS_22__unordered_map_hasherIxS3_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS3_S8_S6_Lb1EEENS_9allocatorIS3_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIx12ML3NameOrderEENS_22__unordered_map_hasherIxS3_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS3_S8_S6_Lb1EEENS_9allocatorIS3_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIx20ML3CollectionInfoSetEENS_22__unordered_map_hasherIxS3_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS3_S8_S6_Lb1EEENS_9allocatorIS3_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS3_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIx20ML3CollectionInfoSetEENS_22__unordered_map_hasherIxS3_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS3_S8_S6_Lb1EEENS_9allocatorIS3_EEE25__emplace_unique_key_argsIxJRKNS_21piecewise_construct_tENS_5tupleIJRKxEEENSJ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIx20ML3CollectionInfoSetEENS_22__unordered_map_hasherIxS3_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS3_S8_S6_Lb1EEENS_9allocatorIS3_EEE4findIxEENS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIx20ML3CollectionInfoSetEENS_22__unordered_map_hasherIxS3_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS3_S8_S6_Lb1EEENS_9allocatorIS3_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI12ML3AlbumDataEEEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI12ML3AlbumDataEEEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE25__emplace_unique_key_argsIxJNS_4pairIKxS4_EEEEENSI_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI12ML3AlbumDataEEEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE4findIxEENS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI12ML3AlbumDataEEEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE5clearEv
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI12ML3AlbumDataEEEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI12ML3GenreDataEEEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI12ML3GenreDataEEEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE5clearEv
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI12ML3GenreDataEEEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ArtistDataEEEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ArtistDataEEEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE25__emplace_unique_key_argsIxJNS_4pairIKxS4_EEEEENSI_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ArtistDataEEEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE4findIxEENS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ArtistDataEEEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE5clearEv
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ArtistDataEEEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ImportItemEEEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ImportItemEEEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE25__emplace_unique_key_argsIxJNS_4pairIKxS4_EEEEENSI_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ImportItemEEEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE4findIxEENS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ImportItemEEEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE5clearEv
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ImportItemEEEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI15ML3ComposerDataEEEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI15ML3ComposerDataEEEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE5clearEv
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI15ML3ComposerDataEEEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI18ML3LibraryPinsDataEEEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI18ML3LibraryPinsDataEEEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE25__emplace_unique_key_argsIxJNS_4pairIxS4_EEEEENSI_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI18ML3LibraryPinsDataEEEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE5clearEv
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI18ML3LibraryPinsDataEEEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_6vectorINS_4pairIxxEENS_9allocatorIS4_EEEEEENS_22__unordered_map_hasherIxS8_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS8_SD_SB_Lb1EEENS5_IS8_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxS2_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE25__emplace_unique_key_argsIxJRKNS_21piecewise_construct_tENS_5tupleIJRKxEEENSI_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxS2_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE4findIxEENS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxS2_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxS2_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS2_S7_S5_Lb1EEENS_9allocatorIS2_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxyEENS_22__unordered_map_hasherIxS2_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE25__emplace_unique_key_argsIxJRKNS_21piecewise_construct_tENS_5tupleIJRKxEEENSI_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxyEENS_22__unordered_map_hasherIxS2_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS2_S7_S5_Lb1EEENS_9allocatorIS2_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIyNS_10shared_ptrI13ML3ImportItemEEEENS_22__unordered_map_hasherIyS5_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE25__emplace_unique_key_argsIyJRKNS_21piecewise_construct_tENS_5tupleIJOyEEENSL_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIyNS_10shared_ptrI13ML3ImportItemEEEENS_22__unordered_map_hasherIyS5_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS5_SA_S8_Lb1EEENS_9allocatorIS5_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIyP6_trackEENS_22__unordered_map_hasherIyS4_15echo_hash_shiftIyENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS4_S9_S7_Lb1EEENS_9allocatorIS4_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIyPNS_13unordered_setIy15echo_hash_shiftIyENS_8equal_toIyEENS_9allocatorIyEEEEEENS_22__unordered_map_hasherIySB_S4_S6_Lb1EEENS_21__unordered_map_equalIySB_S6_S4_Lb1EEENS7_ISB_EEE4findIyEENS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIyjEENS_22__unordered_map_hasherIyS2_15echo_hash_shiftIyENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE4findIyEENS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIyxEENS_22__unordered_map_hasherIyS2_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE25__emplace_unique_key_argsIyJRKNS_21piecewise_construct_tENS_5tupleIJOyEEENSI_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIyxEENS_22__unordered_map_hasherIyS2_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE4findIyEENS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIyxEENS_22__unordered_map_hasherIyS2_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIyxEENS_22__unordered_map_hasherIyS2_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS2_S7_S5_Lb1EEENS_9allocatorIS2_EEED2Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100EPKcm
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100ILi0EEEPKc
+- __ZNSt3__112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE25__init_copy_ctor_externalEPKwm
+- __ZNSt3__115allocate_sharedB8ne200100I12ML3AlbumDataNS_9allocatorIS1_EEJRxRNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEESA_SA_RiSB_SB_SB_R12ML3NameOrderSB_S4_S4_SA_SB_RbS4_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100I13ML3ArtistDataNS_9allocatorIS1_EEJRxRNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEESA_S9_S9_S4_R12ML3NameOrderSC_S4_SA_RbRiS4_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100I13ML3ArtistDataNS_9allocatorIS1_EEJRxRNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEESA_SA_SA_S4_R12ML3NameOrderSC_S4_S9_RbiiELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100I18ML3AlbumImportItemNS_9allocatorIS1_EEJRNS_10shared_ptrI12ML3AlbumDataEERNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEERbRU8__strongP6NSDataxRxSJ_SE_ELi0EEENS4_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100I18ML3LibraryPinsDataNS_9allocatorIS1_EEJRxS4_13ML3EntityTypeS4_S4_S4_RA1_KcRNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100I18ML3LibraryPinsDataNS_9allocatorIS1_EEJRxS4_13ML3EntityTypeS4_S4_S4_RNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEESB_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100I19ML3ArtistImportItemNS_9allocatorIS1_EEJRNS_10shared_ptrI13ML3ArtistDataEERU8__strongP6NSDataRxELi0EEENS4_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100I24ML3AlbumArtistImportItemNS_9allocatorIS1_EEJRNS_10shared_ptrI13ML3ArtistDataEERU8__strongP6NSDataRxELi0EEENS4_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100I24ML3AlbumArtistImportItemNS_9allocatorIS1_EEJRNS_10shared_ptrI13ML3ArtistDataEERU8__strongP6NSDataxELi0EEENS4_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100I25ML3ArtworkTokenImportItemNS_9allocatorIS1_EEJR14ML3ImportValueINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEERxR13ML3EntityTypeR20ML3ArtworkSourceTypeR14ML3ArtworkTypeR21ML3ArtworkVariantTypeELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne200100I29ML3SetCloudIDArtistImportItemNS_9allocatorIS1_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0EEE10__dispatchB8ne200100IONS1_9__variant15__value_visitorIR26ML3StatementBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0EEE10__dispatchB8ne200100IONS1_9__variant15__value_visitorIR29ML3VirtualTableBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0EEE10__dispatchB8ne200100IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB8ne200100INS0_18__move_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSP_E_JONS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSO_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0EEE10__dispatchB8ne200100IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB8ne200100IRKNS0_18__copy_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSR_E_JRKNS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSQ_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0EEE10__dispatchB8ne200100IOZNS0_6__dtorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEELNS0_6_TraitE1EE9__destroyB8ne200100EvEUlRT_E_JRNS0_6__baseILSI_1EJxfbSD_SG_EEEEEEDcSK_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1EEE10__dispatchB8ne200100IONS1_9__variant15__value_visitorIR26ML3StatementBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1EEE10__dispatchB8ne200100IONS1_9__variant15__value_visitorIR29ML3VirtualTableBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1EEE10__dispatchB8ne200100IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB8ne200100INS0_18__move_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSP_E_JONS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSO_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1EEE10__dispatchB8ne200100IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB8ne200100IRKNS0_18__copy_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSR_E_JRKNS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSQ_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1EEE10__dispatchB8ne200100IOZNS0_6__dtorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEELNS0_6_TraitE1EE9__destroyB8ne200100EvEUlRT_E_JRNS0_6__baseILSI_1EJxfbSD_SG_EEEEEEDcSK_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm2EEE10__dispatchB8ne200100IONS1_9__variant15__value_visitorIR26ML3StatementBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm2EEE10__dispatchB8ne200100IONS1_9__variant15__value_visitorIR29ML3VirtualTableBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm2EEE10__dispatchB8ne200100IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB8ne200100INS0_18__move_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSP_E_JONS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSO_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm2EEE10__dispatchB8ne200100IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB8ne200100IRKNS0_18__copy_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSR_E_JRKNS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSQ_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm2EEE10__dispatchB8ne200100IOZNS0_6__dtorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEELNS0_6_TraitE1EE9__destroyB8ne200100EvEUlRT_E_JRNS0_6__baseILSI_1EJxfbSD_SG_EEEEEEDcSK_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm3EEE10__dispatchB8ne200100IONS1_9__variant15__value_visitorIR26ML3StatementBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm3EEE10__dispatchB8ne200100IONS1_9__variant15__value_visitorIR29ML3VirtualTableBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm3EEE10__dispatchB8ne200100IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB8ne200100INS0_18__move_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSP_E_JONS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSO_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm3EEE10__dispatchB8ne200100IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB8ne200100IRKNS0_18__copy_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSR_E_JRKNS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSQ_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm3EEE10__dispatchB8ne200100IOZNS0_6__dtorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEELNS0_6_TraitE1EE9__destroyB8ne200100EvEUlRT_E_JRNS0_6__baseILSI_1EJxfbSD_SG_EEEEEEDcSK_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm4EEE10__dispatchB8ne200100IONS1_9__variant15__value_visitorIR26ML3StatementBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm4EEE10__dispatchB8ne200100IONS1_9__variant15__value_visitorIR29ML3VirtualTableBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm4EEE10__dispatchB8ne200100IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB8ne200100INS0_18__move_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSP_E_JONS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSO_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm4EEE10__dispatchB8ne200100IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB8ne200100IRKNS0_18__copy_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSR_E_JRKNS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSQ_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm4EEE10__dispatchB8ne200100IOZNS0_6__dtorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEELNS0_6_TraitE1EE9__destroyB8ne200100EvEUlRT_E_JRNS0_6__baseILSI_1EJxfbSD_SG_EEEEEEDcSK_DpT0_
+- __ZNSt3__116__variant_detail6__dtorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEELNS0_6_TraitE1EE9__destroyB8ne200100Ev
+- __ZNSt3__116allocator_traitsINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS9_I13ML3ImportItemEEE26_ContainerItemReactionInfoEEEEPvEEEEE7destroyB8ne200100INS_4pairIKS8_SE_EEvLi0EEEvRSI_PT_
+- __ZNSt3__118codecvt_utf8_utf16IwLm1114111ELNS_12codecvt_modeE0EED0B8ne200100Ev
+- __ZNSt3__118codecvt_utf8_utf16IwLm1114111ELNS_12codecvt_modeE0EED1B8ne200100Ev
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_10shared_ptrI13ML3ImportItemEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_10shared_ptrIN6ML3CPP7ElementEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_13unordered_setINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEENS_4hashIS7_EENS_8equal_toIS7_EENS1_IS7_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSH_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIPNS_10shared_ptrIN6ML3CPP6Parser15ParserContainerEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIwEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIxEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIyEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__shared_weak_count16__release_sharedB8ne200100Ev
+- __ZNSt3__119__throw_range_errorB8ne200100EPKc
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100Ev
+- __ZNSt3__120__optional_copy_baseINS_7variantIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEELb0EEC2B8ne200100ERKSC_
+- __ZNSt3__120__throw_bad_weak_ptrB8ne200100Ev
+- __ZNSt3__120__throw_length_errorB8ne200100EPKc
+- __ZNSt3__120__throw_out_of_rangeB8ne200100EPKc
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEPvEEEEEclB8ne200100EPS9_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEbEEPvEEEEEclB8ne200100EPSB_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEExEEPvEEEEEclB8ne200100EPSB_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIj14ML3ImportValueINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEPvEEEEEclB8ne200100EPSD_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIx20ML3CollectionInfoSetEEPvEEEEEclB8ne200100EPS7_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_10shared_ptrI12ML3AlbumDataEEEEPvEEEEEclB8ne200100EPS9_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_10shared_ptrI12ML3GenreDataEEEEPvEEEEEclB8ne200100EPS9_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ArtistDataEEEEPvEEEEEclB8ne200100EPS9_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ImportItemEEEEPvEEEEEclB8ne200100EPS9_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_10shared_ptrI15ML3ComposerDataEEEEPvEEEEEclB8ne200100EPS9_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_10shared_ptrI18ML3LibraryPinsDataEEEEPvEEEEEclB8ne200100EPS9_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPvEEEEEclB8ne200100EPSB_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_6vectorINS_4pairIxxEENS1_IS6_EEEEEEPvEEEEEclB8ne200100EPSB_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIyNS_10shared_ptrI13ML3ImportItemEEEEPvEEEEEclB8ne200100EPS9_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEExEEPvEEEEEclB8ne200100EPSB_
+- __ZNSt3__124__put_character_sequenceB8ne200100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__126__throw_bad_variant_accessB8ne200100Ev
+- __ZNSt3__127__tree_balance_after_insertB8ne200100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEEEPS7_EEED2B8ne200100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_8optionalINS_7variantIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEEPSE_EEED2B8ne200100Ev
+- __ZNSt3__135__uninitialized_allocator_copy_implB8ne200100INS_9allocatorINS_10shared_ptrI13ML3ImportItemEEEEPS4_S6_S6_EET2_RT_T0_T1_S7_
+- __ZNSt3__135__uninitialized_allocator_copy_implB8ne200100INS_9allocatorINS_10shared_ptrI27ML3DatabaseImportDataSourceEEEEPKS4_S7_PS4_EET2_RT_T0_T1_S9_
+- __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS7_I13ML3ImportItemEEE26_ContainerItemReactionInfoEENS_4lessIS6_EENS4_INS_4pairIKS6_SC_EEEEEC1B8ne200100ERKSJ_
+- __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS7_I13ML3ImportItemEEE26_ContainerItemReactionInfoEENS_4lessIS6_EENS4_INS_4pairIKS6_SC_EEEEEaSB8ne200100ERKSJ_
+- __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEExNS_4lessIS6_EENS4_INS_4pairIKS6_xEEEEED1B8ne200100Ev
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS8_I13ML3ImportItemEEE26_ContainerItemReactionInfoEEEENS_19__map_value_compareIS7_SE_NS_4lessIS7_EELb1EEENS5_ISE_EEE12__find_equalIS7_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISP_EERKT_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS8_I13ML3ImportItemEEE26_ContainerItemReactionInfoEEEENS_19__map_value_compareIS7_SE_NS_4lessIS7_EELb1EEENS5_ISE_EEE16__construct_nodeIJRKNS_4pairIKS7_SD_EEEEENS_10unique_ptrINS_11__tree_nodeISE_PvEENS_22__tree_node_destructorINS5_ISU_EEEEEEDpOT_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS8_I13ML3ImportItemEEE26_ContainerItemReactionInfoEEEENS_19__map_value_compareIS7_SE_NS_4lessIS7_EELb1EEENS5_ISE_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSP_SP_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS8_I13ML3ImportItemEEE26_ContainerItemReactionInfoEEEENS_19__map_value_compareIS7_SE_NS_4lessIS7_EELb1EEENS5_ISE_EEE18_DetachedTreeCache9__advanceB8ne200100Ev
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS8_I13ML3ImportItemEEE26_ContainerItemReactionInfoEEEENS_19__map_value_compareIS7_SE_NS_4lessIS7_EELb1EEENS5_ISE_EEE18_DetachedTreeCacheD1B8ne200100Ev
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS8_I13ML3ImportItemEEE26_ContainerItemReactionInfoEEEENS_19__map_value_compareIS7_SE_NS_4lessIS7_EELb1EEENS5_ISE_EEE4findIS7_EENS_15__tree_iteratorISE_PNS_11__tree_nodeISE_PvEElEERKT_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS8_I13ML3ImportItemEEE26_ContainerItemReactionInfoEEEENS_19__map_value_compareIS7_SE_NS_4lessIS7_EELb1EEENS5_ISE_EEE7destroyEPNS_11__tree_nodeISE_PvEE
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEExEENS_19__map_value_compareIS7_S8_NS_4lessIS7_EELb1EEENS5_IS8_EEE12__find_equalIS7_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISJ_EERKT_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEExEENS_19__map_value_compareIS7_S8_NS_4lessIS7_EELb1EEENS5_IS8_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSJ_SJ_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEExEENS_19__map_value_compareIS7_S8_NS_4lessIS7_EELb1EEENS5_IS8_EEE18_DetachedTreeCache13__detach_nextEPNS_11__tree_nodeIS8_PvEE
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEExEENS_19__map_value_compareIS7_S8_NS_4lessIS7_EELb1EEENS5_IS8_EEE18_DetachedTreeCacheD2B8ne200100Ev
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEExEENS_19__map_value_compareIS7_S8_NS_4lessIS7_EELb1EEENS5_IS8_EEE7destroyEPNS_11__tree_nodeIS8_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIjNS_10shared_ptrIN6ML3CPP7ElementEEEEENS_19__map_value_compareIjS6_NS_4lessIjEELb1EEENS_9allocatorIS6_EEE7destroyEPNS_11__tree_nodeIS6_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIjmEENS_19__map_value_compareIjS2_NS_4lessIjEELb1EEENS_9allocatorIS2_EEE7destroyEPNS_11__tree_nodeIS2_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIxNS_3mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS9_I13ML3ImportItemEEE26_ContainerItemReactionInfoEENS_4lessIS8_EENS6_INS_4pairIKS8_SE_EEEEEEEENS_19__map_value_compareIxSM_NSF_IxEELb1EEENS6_ISM_EEE7destroyEPNS_11__tree_nodeISM_PvEE
+- __ZNSt3__16vectorI21ML3VirtualTableColumnNS_9allocatorIS1_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorI21ML3VirtualTableColumnNS_9allocatorIS1_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS_10shared_ptrI13ML3ImportItemEENS_9allocatorIS3_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorINS_10shared_ptrI13ML3ImportItemEENS_9allocatorIS3_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS_10shared_ptrI13ML3ImportItemEENS_9allocatorIS3_EEE5clearB8ne200100Ev
+- __ZNSt3__16vectorINS_10shared_ptrI13ML3ImportItemEENS_9allocatorIS3_EEE9push_backB8ne200100EOS3_
+- __ZNSt3__16vectorINS_10shared_ptrI13ML3ImportItemEENS_9allocatorIS3_EEE9push_backB8ne200100ERKS3_
+- __ZNSt3__16vectorINS_10shared_ptrI27ML3DatabaseImportDataSourceEENS_9allocatorIS3_EEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorINS_10shared_ptrI27ML3DatabaseImportDataSourceEENS_9allocatorIS3_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorINS_10shared_ptrI27ML3DatabaseImportDataSourceEENS_9allocatorIS3_EEE16__init_with_sizeB8ne200100IPKS3_S9_EEvT_T0_m
+- __ZNSt3__16vectorINS_10shared_ptrI27ML3DatabaseImportDataSourceEENS_9allocatorIS3_EEE18__assign_with_sizeB8ne200100IPKS3_S9_EEvT_T0_l
+- __ZNSt3__16vectorINS_10shared_ptrI27ML3DatabaseImportDataSourceEENS_9allocatorIS3_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS_10shared_ptrI27ML3DatabaseImportDataSourceEENS_9allocatorIS3_EEE5clearB8ne200100Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN6ML3CPP7ElementEEENS_9allocatorIS4_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN6ML3CPP7ElementEEENS_9allocatorIS4_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__init_with_sizeB8ne200100IPKS6_SB_EEvT_T0_m
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__init_with_sizeB8ne200100IPS6_SA_EEvT_T0_m
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS_13unordered_mapIxyNS_4hashIxEENS_8equal_toIxEENS_9allocatorINS_4pairIKxyEEEEEENS6_ISB_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorINS_13unordered_mapIyxNS_4hashIyEENS_8equal_toIyEENS_9allocatorINS_4pairIKyxEEEEEENS6_ISB_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorINS_13unordered_setINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS7_EENS_8equal_toIS7_EENS5_IS7_EEEENS5_ISD_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorINS_13unordered_setINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS7_EENS_8equal_toIS7_EENS5_IS7_EEEENS5_ISD_EEE16__init_with_sizeB8ne200100IPSD_SH_EEvT_T0_m
+- __ZNSt3__16vectorINS_13unordered_setINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS7_EENS_8equal_toIS7_EENS5_IS7_EEEENS5_ISD_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS_4pairIxxEENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS_8optionalINS_7variantIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEENS6_ISD_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorINS_8optionalINS_7variantIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEENS6_ISD_EEE16__init_with_sizeB8ne200100IPKSD_SI_EEvT_T0_m
+- __ZNSt3__16vectorIP11_constraintNS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIP17_constraint_stateNS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIbNS_9allocatorIbEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE9push_backB8ne200100ERKh
+- __ZNSt3__16vectorIxNS_9allocatorIxEEE16__init_with_sizeB8ne200100IPxS5_EEvT_T0_m
+- __ZNSt3__16vectorIxNS_9allocatorIxEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIxNS_9allocatorIxEEE9push_backB8ne200100EOx
+- __ZNSt3__16vectorIxNS_9allocatorIxEEE9push_backB8ne200100ERKx
+- __ZNSt3__16vectorIxNS_9allocatorIxEEEC2B8ne200100Em
+- __ZNSt3__16vectorIyNS_9allocatorIyEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIyNS_9allocatorIyEEE9push_backB8ne200100ERKy
+- __ZNSt3__18optionalINS_7variantIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEaSB8ne200100IS7_vEERSC_OT_
+- __ZNSt3__19allocatorI18DAAPParserDelegateE9constructB8ne200100IS1_JRU8__strongKP22ML3DAAPImportOperationRNS_10shared_ptrIN6ML3CPP6ParserEEER32ML3DAAPImportOperationEntityTypebEEEvPT_DpOT0_
+- __ZSt28__throw_bad_array_new_lengthB8ne200100v
+- __ZZL37ML3LibraryPinDefaultActionDescriptionxE38__pinnedEntityDefaultActionDescription.23379
+- __ZZL37ML3LibraryPinDefaultActionDescriptionxE38__pinnedEntityDefaultActionDescription.5058
+- __ZZL37ML3LibraryPinDefaultActionDescriptionxE9onceToken.23378
+- __ZZL37ML3LibraryPinDefaultActionDescriptionxE9onceToken.5057
+- __ZZL37ML3LibraryPinnedEntityTypeDescription13ML3EntityTypeE29__pinnedEntityTypeDescription.23377
+- __ZZL37ML3LibraryPinnedEntityTypeDescription13ML3EntityTypeE29__pinnedEntityTypeDescription.5056
+- __ZZL37ML3LibraryPinnedEntityTypeDescription13ML3EntityTypeE9onceToken.23376
+- __ZZL37ML3LibraryPinnedEntityTypeDescription13ML3EntityTypeE9onceToken.5054
+- ___104+[ML3Entity deleteFromLibrary:deletionType:canonicalizeCollections:persistentIDs:count:usingConnection:]_block_invoke.228
+- ___133-[ML3MusicLibrary retrieveBestArtworkTokensForEntityPersistentID:entityType:artworkType:variantType:retrievalTime:completionHandler:]_block_invoke
+- ___133-[ML3MusicLibrary retrieveBestArtworkTokensForEntityPersistentID:entityType:artworkType:variantType:retrievalTime:completionHandler:]_block_invoke_2
+- ___136-[ML3MusicLibrary enumeratePersistentIDsAfterRevision:revisionTrackingCode:maximumRevisionType:forMediaTypes:inUsersLibrary:usingBlock:]_block_invoke.631
+- ___141-[ML3MusicLibrary importOriginalArtworkFromFileURL:withArtworkToken:artworkType:sourceType:mediaType:variantType:shouldPerformColorAnalysis:]_block_invoke.687
+- ___143-[ML3MusicLibrary importOriginalArtworkFromImageData:withArtworkToken:artworkType:sourceType:mediaType:variantType:shouldPerformColorAnalysis:]_block_invoke.698
+- ___152-[ML3MusicLibrary importOriginalArtworkFromFileURL:withArtworkToken:artworkType:sourceType:mediaType:variantType:shouldPerformColorAnalysis:completion:]_block_invoke.694
+- ___38-[ML3MusicLibrary connectionDidClose:]_block_invoke.218
+- ___43-[MLMediaLibraryService _serviceConnection]_block_invoke.277
+- ___46-[ML3Artwork _onSerialQueue_faultInProperties]_block_invoke_2
+- ___52-[ML3MusicLibrary removeOrphanedTracksOnlyInCaches:]_block_invoke.770
+- ___58-[ML3MusicLibrary _closeAndLockCurrentDatabaseConnections]_block_invoke.1001
+- ___59-[ML3MusicLibrary savePlaylistsSinceRevision:withGrappaID:]_block_invoke.494
+- ___59-[ML3MusicLibrary savePlaylistsSinceRevision:withGrappaID:]_block_invoke.523
+- ___59-[ML3MusicLibrary savePlaylistsSinceRevision:withGrappaID:]_block_invoke_2.502
+- ___63-[ML3MusicLibrary _removeOrphanedArtworkAssetsUsingConnection:]_block_invoke.971
+- ___65-[ML3MusicLibrary _removeOrphanedArtworkMetadataUsingConnection:]_block_invoke.947
+- ___75+[ML3Container updateBuiltInSmartPlaylistNamesForCurrentLanguageInLibrary:]_block_invoke.495
+- ___76-[ML3MusicLibrary sanitizeSortMapContentsUsingConnection:didSortMapEntries:]_block_invoke.913
+- ___77-[ML3MusicLibrary migrateExistingArtworkToken:newArtworkToken:newSourceType:]_block_invoke.717
+- ___94-[ML3MusicLibrary performColorAnalysisForArtworkWithConnection:shouldRegenerateColorAnalysis:]_block_invoke.684
+- ___95-[_ML3DatabaseConnectionSubPool closeConnectionsForOwningPoolClosed:andWaitForBusyConnections:]_block_invoke.245
+- ___99-[ML3MusicLibrary enumerateArtworkRelativePathsWithConnection:matchingRelativePathContainer:block:]_block_invoke.671
+- ___Block_byref_object_copy_.11158
+- ___Block_byref_object_copy_.11982
+- ___Block_byref_object_copy_.12087
+- ___Block_byref_object_copy_.12952
+- ___Block_byref_object_copy_.13118
+- ___Block_byref_object_copy_.13516
+- ___Block_byref_object_copy_.13966
+- ___Block_byref_object_copy_.15147
+- ___Block_byref_object_copy_.1578
+- ___Block_byref_object_copy_.17748
+- ___Block_byref_object_copy_.18101
+- ___Block_byref_object_copy_.18646
+- ___Block_byref_object_copy_.18775
+- ___Block_byref_object_copy_.19491
+- ___Block_byref_object_copy_.19919
+- ___Block_byref_object_copy_.20169
+- ___Block_byref_object_copy_.21043
+- ___Block_byref_object_copy_.21402
+- ___Block_byref_object_copy_.23063
+- ___Block_byref_object_copy_.23500
+- ___Block_byref_object_copy_.2432
+- ___Block_byref_object_copy_.2524
+- ___Block_byref_object_copy_.25354
+- ___Block_byref_object_copy_.25432
+- ___Block_byref_object_copy_.25534
+- ___Block_byref_object_copy_.25734
+- ___Block_byref_object_copy_.26043
+- ___Block_byref_object_copy_.26440
+- ___Block_byref_object_copy_.28500
+- ___Block_byref_object_copy_.29335
+- ___Block_byref_object_copy_.3980
+- ___Block_byref_object_copy_.414
+- ___Block_byref_object_copy_.417
+- ___Block_byref_object_copy_.419
+- ___Block_byref_object_copy_.486
+- ___Block_byref_object_copy_.516
+- ___Block_byref_object_copy_.5236
+- ___Block_byref_object_copy_.537
+- ___Block_byref_object_copy_.5423
+- ___Block_byref_object_copy_.601
+- ___Block_byref_object_copy_.6480
+- ___Block_byref_object_copy_.720
+- ___Block_byref_object_copy_.726
+- ___Block_byref_object_copy_.733
+- ___Block_byref_object_copy_.737
+- ___Block_byref_object_copy_.744
+- ___Block_byref_object_copy_.749
+- ___Block_byref_object_copy_.7723
+- ___Block_byref_object_copy_.7814
+- ___Block_byref_object_copy_.8430
+- ___Block_byref_object_copy_.9083
+- ___Block_byref_object_copy_.9559
+- ___Block_byref_object_copy_.9682
+- ___Block_byref_object_copy_.9785
+- ___Block_byref_object_dispose_.11159
+- ___Block_byref_object_dispose_.11983
+- ___Block_byref_object_dispose_.12088
+- ___Block_byref_object_dispose_.12953
+- ___Block_byref_object_dispose_.13119
+- ___Block_byref_object_dispose_.13517
+- ___Block_byref_object_dispose_.13967
+- ___Block_byref_object_dispose_.15148
+- ___Block_byref_object_dispose_.1579
+- ___Block_byref_object_dispose_.17749
+- ___Block_byref_object_dispose_.18102
+- ___Block_byref_object_dispose_.18647
+- ___Block_byref_object_dispose_.18776
+- ___Block_byref_object_dispose_.19492
+- ___Block_byref_object_dispose_.19920
+- ___Block_byref_object_dispose_.20170
+- ___Block_byref_object_dispose_.21044
+- ___Block_byref_object_dispose_.21403
+- ___Block_byref_object_dispose_.23064
+- ___Block_byref_object_dispose_.23501
+- ___Block_byref_object_dispose_.2433
+- ___Block_byref_object_dispose_.2525
+- ___Block_byref_object_dispose_.25355
+- ___Block_byref_object_dispose_.25433
+- ___Block_byref_object_dispose_.25535
+- ___Block_byref_object_dispose_.25735
+- ___Block_byref_object_dispose_.26044
+- ___Block_byref_object_dispose_.26441
+- ___Block_byref_object_dispose_.28501
+- ___Block_byref_object_dispose_.29336
+- ___Block_byref_object_dispose_.3981
+- ___Block_byref_object_dispose_.415
+- ___Block_byref_object_dispose_.418
+- ___Block_byref_object_dispose_.420
+- ___Block_byref_object_dispose_.487
+- ___Block_byref_object_dispose_.517
+- ___Block_byref_object_dispose_.5237
+- ___Block_byref_object_dispose_.538
+- ___Block_byref_object_dispose_.5424
+- ___Block_byref_object_dispose_.602
+- ___Block_byref_object_dispose_.6481
+- ___Block_byref_object_dispose_.721
+- ___Block_byref_object_dispose_.727
+- ___Block_byref_object_dispose_.734
+- ___Block_byref_object_dispose_.738
+- ___Block_byref_object_dispose_.745
+- ___Block_byref_object_dispose_.750
+- ___Block_byref_object_dispose_.7724
+- ___Block_byref_object_dispose_.7815
+- ___Block_byref_object_dispose_.8431
+- ___Block_byref_object_dispose_.9084
+- ___Block_byref_object_dispose_.9560
+- ___Block_byref_object_dispose_.9683
+- ___Block_byref_object_dispose_.9786
+- ____ZL37ML3LibraryPinDefaultActionDescriptionx_block_invoke.23421
+- ____ZL37ML3LibraryPinDefaultActionDescriptionx_block_invoke.5065
+- ____ZL37ML3LibraryPinnedEntityTypeDescription13ML3EntityType_block_invoke.23432
+- ____ZL37ML3LibraryPinnedEntityTypeDescription13ML3EntityType_block_invoke.5072
+- ____ZN16ML3ImportSession13_finishImportEv_block_invoke.278
+- ____ZN16ML3ImportSession13_finishImportEv_block_invoke.285
+- ____ZN16ML3ImportSession13_finishImportEv_block_invoke.292
+- ____ZN16ML3ImportSession13_finishImportEv_block_invoke_2.299
+- ____ZN16ML3ImportSession13_finishImportEv_block_invoke_2.305
+- ____ZN16ML3ImportSession34_prepareContainerAuthorImportItemsENSt3__110shared_ptrI13ML3ImportItemEE_block_invoke.747
+- ____ZN16ML3ImportSession38_prepareContainerItemPersonImportItemsENSt3__110shared_ptrI13ML3ImportItemEE_block_invoke.732
+- ____ZN16ML3ImportSession5flushEb_block_invoke.176
+- ___block_descriptor_40_e8_32r_e15_v32?08Q16^B24lr32l8
+- ___block_descriptor_80_e8_32s40s48s56r_e35_v24?0"CCSetDonation"8"NSError"16ls32l8s40l8r56l8s48l8
+- ___block_descriptor_80_e8_32s40s48s56s64s72r_e5_B8?0ls32l8s40l8r72l8s48l8s56l8s64l8
+- ___block_descriptor_88_e8_32s40s48s56s64r_e8_v12?0B8ls32l8s40l8s48l8r64l8s56l8
+- ___block_literal_global.1003
+- ___block_literal_global.10198
+- ___block_literal_global.111
+- ___block_literal_global.11182
+- ___block_literal_global.11236
+- ___block_literal_global.113.3159
+- ___block_literal_global.12002
+- ___block_literal_global.1231
+- ___block_literal_global.12433
+- ___block_literal_global.126
+- ___block_literal_global.13934
+- ___block_literal_global.14119
+- ___block_literal_global.1452
+- ___block_literal_global.15003
+- ___block_literal_global.15924
+- ___block_literal_global.16753
+- ___block_literal_global.17089
+- ___block_literal_global.17803
+- ___block_literal_global.18965
+- ___block_literal_global.192
+- ___block_literal_global.19918
+- ___block_literal_global.20190
+- ___block_literal_global.20358
+- ___block_literal_global.20475
+- ___block_literal_global.20619
+- ___block_literal_global.21153
+- ___block_literal_global.21607
+- ___block_literal_global.21907
+- ___block_literal_global.22034
+- ___block_literal_global.22388
+- ___block_literal_global.23169
+- ___block_literal_global.2455
+- ___block_literal_global.24794
+- ___block_literal_global.25456
+- ___block_literal_global.25586
+- ___block_literal_global.26450
+- ___block_literal_global.26777
+- ___block_literal_global.27700
+- ___block_literal_global.3169
+- ___block_literal_global.4504
+- ___block_literal_global.4666
+- ___block_literal_global.500
+- ___block_literal_global.5055
+- ___block_literal_global.5235
+- ___block_literal_global.5405
+- ___block_literal_global.550
+- ___block_literal_global.555
+- ___block_literal_global.6045
+- ___block_literal_global.6185
+- ___block_literal_global.6445
+- ___block_literal_global.686
+- ___block_literal_global.6884
+- ___block_literal_global.6958
+- ___block_literal_global.757
+- ___block_literal_global.761
+- ___block_literal_global.768
+- ___block_literal_global.7700
+- ___block_literal_global.794
+- ___block_literal_global.827
+- ___block_literal_global.83.6245
+- ___block_literal_global.854
+- ___block_literal_global.8649
+- ___block_literal_global.8748
+- ___block_literal_global.892
+- ___block_literal_global.906
+- ___block_literal_global.9076
+- ___block_literal_global.915
+- ___block_literal_global.9313
+- ___block_literal_global.9538
+- ___block_literal_global.9668
+- ___block_literal_global.991
+- ___getICStoreArtworkInfoCropStyleSquareCenterCropSymbolLoc_block_invoke.18406
+- ___getICStoreArtworkInfoImageFormatJPEGSymbolLoc_block_invoke.18389
+- ___getICStorePlatformMetadataKindPlaylistSymbolLoc_block_invoke.18418
+- ___iTunesCloudLibraryCore_block_invoke.18401
+- _audit_stringiTunesCloud.18404
+- _getICStoreArtworkInfoCropStyleSquareCenterCropSymbolLoc.ptr.18405
+- _getICStoreArtworkInfoImageFormatJPEGSymbolLoc.ptr.18388
+- _getICStorePlatformMetadataKindPlaylistSymbolLoc.ptr.18417
+- _iTunesCloudLibrary.18390
+- _iTunesCloudLibraryCore.frameworkLibrary.18400
+- _objc_claimAutoreleasedReturnValue
+- _objc_retainAutoreleaseReturnValue
+- _objc_retain_x4
+- _objc_retain_x5
+- _objc_retain_x6
+- _propertiesForGroupingKey.onceToken.6044
+- _propertiesForGroupingKey.onceToken.7699
+- _propertiesForGroupingKey.onceToken.9537
+- _propertiesForGroupingKey.onceToken.9667
+- _propertiesForGroupingKey.propertiesForGroupingKey.6046
+- _propertiesForGroupingKey.propertiesForGroupingKey.7701
+- _propertiesForGroupingKey.propertiesForGroupingKey.9539
+- _propertiesForGroupingKey.propertiesForGroupingKey.9669
+CStrings:
++ " WHERE i.item_pid IN (%@)"
++ "/AppleInternal/Library/BuildRoots/4~CHv_ugAWqv1U4Niuw5NgUqYddWg5CIREckTyK94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__bit_reference:111: libc++ Hardening assertion __ctz + __clz < sizeof(_StorageType) * 8 failed: __fill_masked_range called with invalid range\n"
++ "/AppleInternal/Library/BuildRoots/4~CHv_ugAWqv1U4Niuw5NgUqYddWg5CIREckTyK94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:1162: libc++ Hardening assertion __position != end() failed: vector::erase(iterator) called with a non-dereferenceable iterator\n"
++ "/AppleInternal/Library/BuildRoots/4~CHv_ugAWqv1U4Niuw5NgUqYddWg5CIREckTyK94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CHv_ugAWqv1U4Niuw5NgUqYddWg5CIREckTyK94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:410: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CHv_ugAWqv1U4Niuw5NgUqYddWg5CIREckTyK94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:486: libc++ Hardening assertion !empty() failed: vector::pop_back called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/4~CHv_ugAWqv1U4Niuw5NgUqYddWg5CIREckTyK94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector_bool.h:282: libc++ Hardening assertion __n < size() failed: vector<bool>::operator[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CHv_ugAWqv1U4Niuw5NgUqYddWg5CIREckTyK94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector_bool.h:301: libc++ Hardening assertion !empty() failed: vector<bool>::back() called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/4~CHv_ugAWqv1U4Niuw5NgUqYddWg5CIREckTyK94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:1565: libc++ Hardening assertion !empty() failed: deque::back called on an empty deque\n"
++ "/AppleInternal/Library/BuildRoots/4~CHv_ugAWqv1U4Niuw5NgUqYddWg5CIREckTyK94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:2310: libc++ Hardening assertion !empty() failed: deque::pop_back called on an empty deque\n"
++ "/Library/Caches/com.apple.xbs/D10C29EC-DBA3-4B97-997D-A7E22C13F098/TemporaryDirectory.HV1OPZ/Sources/MusicLibrary/MusicLibrary/Sorting/iPhoneSortKey/iPhoneSortKey.c"
++ "@\"NSNumber\""
++ "@56@0:8q16q24q32q40@48"
++ "BYSetupAssistantNeedsToRun"
++ "CREATE INDEX IF NOT EXISTS ItemStateAdamID ON item_state (adam_id ASC)"
++ "CREATE INDEX IF NOT EXISTS ItemStateAdamIDIndex ON item_state (adam_id ASC)"
++ "CREATE INDEX IF NOT EXISTS ItemStateAssetAvailabilityIndex ON item_state (has_redownloadable_catalog_asset ASC, is_home_sharing_asset_available ASC)"
++ "CREATE INDEX IF NOT EXISTS ItemStateCatalogAssetRequiresSubscriptionIndex ON item_state (catalog_asset_requires_subscription ASC)"
++ "CREATE INDEX IF NOT EXISTS ItemStateCloudIDIndex ON item_state (cloud_id ASC)"
++ "CREATE INDEX IF NOT EXISTS ItemStateContentTypeExplicitIndex ON item_state (has_explicit_content ASC, has_only_explicit_content ASC)"
++ "CREATE INDEX IF NOT EXISTS ItemStateExplicitContent ON item_state (has_explicit_content ASC)"
++ "CREATE INDEX IF NOT EXISTS ItemStateHasExplicitContentIndex ON item_state (has_explicit_content ASC)"
++ "CREATE INDEX IF NOT EXISTS ItemStateHasRedownloadableCatalogAssetIndex ON item_state (has_redownloadable_catalog_asset ASC)"
++ "CREATE INDEX IF NOT EXISTS ItemStateIsSupportedTypeIndex ON item_state (is_supported_type ASC)"
++ "CREATE INDEX IF NOT EXISTS ItemStateKeepLocalStatus ON item_state (keep_local_managed_status ASC)"
++ "CREATE INDEX IF NOT EXISTS ItemStateKeepLocalStatusIndex ON item_state (keep_local_managed_status ASC)"
++ "CREATE INDEX IF NOT EXISTS ItemStateLibraryAddEligible ON item_state (is_library_add_eligible ASC)"
++ "CREATE INDEX IF NOT EXISTS ItemStateLibraryAdded ON item_state (is_library_added ASC)"
++ "CREATE INDEX IF NOT EXISTS ItemStateLibraryAddedIndex ON item_state (is_library_added ASC)"
++ "CREATE INDEX IF NOT EXISTS ItemStateLikedState ON item_state (liked_state ASC)"
++ "CREATE INDEX IF NOT EXISTS ItemStateMediaType ON item_state (media_type ASC)"
++ "CREATE INDEX IF NOT EXISTS ItemStatePersistentIDIndex ON item_state (persistent_id ASC)"
++ "CREATE INDEX IF NOT EXISTS ItemStatePlayabilityCategoryKindIndex ON item_state (playable_category ASC, playable_item_kind ASC)"
++ "CREATE INDEX IF NOT EXISTS ItemStatePlayableCategoryIndex ON item_state (playable_category ASC)"
++ "CREATE INDEX IF NOT EXISTS ItemStatePlayableItemKindIndex ON item_state (playable_item_kind ASC)"
++ "CREATE INDEX IF NOT EXISTS ItemStateStoreRedownloadable ON item_state (is_store_redownloadable ASC)"
++ "CREATE INDEX IF NOT EXISTS ItemStateSubscriptionAdamID ON item_state (subscription_adam_id ASC)"
++ "CREATE INDEX IF NOT EXISTS ItemStateSubscriptionRequirementIndex ON item_state (catalog_asset_requires_subscription ASC, has_non_purgeable_subscription_protected_local_asset ASC)"
++ "CREATE INDEX IF NOT EXISTS ItemStateSyncIDIndex ON item_state (sync_id ASC)"
++ "CREATE INDEX IF NOT EXISTS ItemStateUniversalLibraryID ON item_state (universal_cloud_library_id ASC)"
++ "CREATE TABLE IF NOT EXISTS item_state (item_pid INTEGER PRIMARY KEY, database_id TEXT, persistent_id INTEGER NOT NULL, contained_persistent_id INTEGER DEFAULT 0, sync_id INTEGER DEFAULT 0, person_id TEXT, cloud_id INTEGER DEFAULT 0, cloud_album_id TEXT, cloud_artist_id TEXT, recommendation_id TEXT, store_playlist_id TEXT, adam_id INTEGER DEFAULT 0, universal_cloud_library_id TEXT, purchased_adam_id INTEGER DEFAULT 0, subscription_adam_id INTEGER DEFAULT 0, social_profile_id TEXT, reporting_adam_id INTEGER DEFAULT 0, asset_adam_id INTEGER DEFAULT 0, lyrics_adam_id INTEGER DEFAULT 0, radio_station_string_id TEXT, radio_station_hash TEXT, radio_station_id INTEGER DEFAULT 0, radio_station_event_id TEXT, container_unique_id TEXT, handoff_correlation_id TEXT, content_item_id TEXT, lyrics_id TEXT, exclude_from_shuffle INTEGER DEFAULT 0, is_placeholder INTEGER DEFAULT 0, vendor_id TEXT, opaque_id TEXT, version_hash TEXT, is_valid_content_type INTEGER DEFAULT 0, is_library_added INTEGER DEFAULT 0, has_explicit_content INTEGER DEFAULT 0, is_library_add_eligible INTEGER DEFAULT 0, keep_local_enable_state INTEGER DEFAULT 0, keep_local_managed_status INTEGER DEFAULT 0, keep_local_managed_status_reason INTEGER DEFAULT 0, keep_local_constraints INTEGER DEFAULT 0, has_non_purgeable_asset INTEGER DEFAULT 0, is_store_redownloadable INTEGER DEFAULT 0, media_type INTEGER DEFAULT 0, title TEXT, location TEXT, hls_asset_traits INTEGER DEFAULT 0, is_mastered_for_itunes INTEGER DEFAULT 0, match_redownload_params TEXT, purchase_history_redownload_params TEXT, playback_endpoint_type INTEGER DEFAULT 0, is_protected INTEGER NOT NULL DEFAULT 0, liked_state INTEGER NOT NULL DEFAULT 0, has_redownloadable_catalog_asset INTEGER DEFAULT 0, has_non_purgeable_subscription_protected_local_asset INTEGER DEFAULT 0, is_home_sharing_asset_available INTEGER DEFAULT 0, catalog_asset_requires_subscription INTEGER DEFAULT 0, catalog_asset_requires_user_upload INTEGER DEFAULT 0, contains_downloaded_or_purchased_content INTEGER DEFAULT 0, has_only_explicit_content INTEGER DEFAULT 0, has_only_explicit_downloaded_content INTEGER DEFAULT 0, playable_category INTEGER DEFAULT 0, playable_item_kind INTEGER DEFAULT 0, is_supported_type INTEGER DEFAULT 1, is_library_added_container INTEGER DEFAULT 0);"
++ "CREATE TABLE artwork_token (entity_pid INTEGER NOT NULL DEFAULT 0, artwork_token TEXT NOT NULL DEFAULT '', artwork_source_type INTEGER NOT NULL DEFAULT 0, artwork_type INTEGER NOT NULL DEFAULT 0, entity_type INTEGER NOT NULL DEFAULT 0, artwork_variant_type INTEGER NOT NULL DEFAULT 0, primary_text_color TEXT NOT NULL DEFAULT '', secondary_text_color TEXT NOT NULL DEFAULT '', tertiary_text_color TEXT NOT NULL DEFAULT '', quaternary_text_color TEXT NOT NULL DEFAULT '', background_color TEXT NOT NULL DEFAULT '', gradient_text_color TEXT NOT NULL DEFAULT '', gradient_color TEXT NOT NULL DEFAULT '', gradient_size_start REAL NOT NULL DEFAULT -1, gradient_size_end REAL NOT NULL DEFAULT -1, UNIQUE (artwork_source_type, artwork_type, entity_pid, entity_type, artwork_variant_type))"
++ "CREATE TABLE artwork_token_new (artwork_token TEXT NOT NULL DEFAULT '', artwork_source_type INTEGER NOT NULL DEFAULT 0, artwork_type INTEGER NOT NULL DEFAULT 0, entity_pid INTEGER NOT NULL DEFAULT 0, entity_type INTEGER NOT NULL DEFAULT 0, artwork_variant_type INTEGER NOT NULL DEFAULT 0, primary_text_color TEXT NOT NULL DEFAULT '', secondary_text_color TEXT NOT NULL DEFAULT '', tertiary_text_color TEXT NOT NULL DEFAULT '', quaternary_text_color TEXT NOT NULL DEFAULT '', background_color TEXT NOT NULL DEFAULT '', gradient_text_color TEXT NOT NULL DEFAULT '', UNIQUE (artwork_source_type, artwork_type, entity_pid, entity_type, artwork_variant_type))"
++ "CREATE TABLE artwork_token_new (entity_pid INTEGER NOT NULL DEFAULT 0, artwork_token TEXT NOT NULL DEFAULT '', artwork_source_type INTEGER NOT NULL DEFAULT 0, artwork_type INTEGER NOT NULL DEFAULT 0, entity_type INTEGER NOT NULL DEFAULT 0, artwork_variant_type INTEGER NOT NULL DEFAULT 0, primary_text_color TEXT NOT NULL DEFAULT '', secondary_text_color TEXT NOT NULL DEFAULT '', tertiary_text_color TEXT NOT NULL DEFAULT '', quaternary_text_color TEXT NOT NULL DEFAULT '', background_color TEXT NOT NULL DEFAULT '', gradient_text_color TEXT NOT NULL DEFAULT '', UNIQUE (artwork_source_type, artwork_type, entity_pid, entity_type, artwork_variant_type))"
++ "CREATE TABLE artwork_token_new (entity_pid INTEGER NOT NULL DEFAULT 0, artwork_token TEXT NOT NULL DEFAULT '', artwork_source_type INTEGER NOT NULL DEFAULT 0, artwork_type INTEGER NOT NULL DEFAULT 0, entity_type INTEGER NOT NULL DEFAULT 0, artwork_variant_type INTEGER NOT NULL DEFAULT 0, primary_text_color TEXT NOT NULL DEFAULT '', secondary_text_color TEXT NOT NULL DEFAULT '', tertiary_text_color TEXT NOT NULL DEFAULT '', quaternary_text_color TEXT NOT NULL DEFAULT '', background_color TEXT NOT NULL DEFAULT '', gradient_text_color TEXT NOT NULL DEFAULT '', gradient_color TEXT NOT NULL DEFAULT '', gradient_size_start REAL NOT NULL DEFAULT -1, gradient_size_end REAL NOT NULL DEFAULT -1, UNIQUE (artwork_source_type, artwork_type, entity_pid, entity_type, artwork_variant_type))"
++ "CREATE TRIGGER IF NOT EXISTS item_state_delete_sync AFTER DELETE ON item FOR EACH ROW BEGIN DELETE FROM item_state WHERE item_pid = OLD.item_pid; END;"
++ "CREATE TRIGGER IF NOT EXISTS item_state_extra_insert_sync AFTER INSERT ON item_extra FOR EACH ROW BEGIN INSERT OR REPLACE INTO item_state (item_pid, database_id, persistent_id, contained_persistent_id, sync_id, person_id, cloud_id, cloud_album_id, cloud_artist_id, recommendation_id, store_playlist_id, adam_id, universal_cloud_library_id, purchased_adam_id, subscription_adam_id, social_profile_id, reporting_adam_id, asset_adam_id, lyrics_adam_id, radio_station_string_id, radio_station_hash, radio_station_id, radio_station_event_id, container_unique_id, handoff_correlation_id, content_item_id, lyrics_id, exclude_from_shuffle, is_placeholder, vendor_id, opaque_id, version_hash, is_valid_content_type, is_library_added, has_explicit_content, is_library_add_eligible, keep_local_enable_state, keep_local_managed_status, keep_local_managed_status_reason, keep_local_constraints, has_non_purgeable_asset, is_store_redownloadable, media_type, title, location, hls_asset_traits, is_mastered_for_itunes, match_redownload_params, purchase_history_redownload_params, playback_endpoint_type, is_protected, liked_state) VALUES (NEW.item_pid, COALESCE((SELECT database_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), NEW.item_pid, COALESCE((SELECT contained_persistent_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT sync_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT person_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT cloud_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT cloud_album_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT cloud_artist_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT recommendation_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT store_playlist_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT universal_cloud_library_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT purchased_adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT subscription_adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT social_profile_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT reporting_adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT asset_adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT lyrics_adam_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT radio_station_string_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT radio_station_hash FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT radio_station_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT radio_station_event_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT container_unique_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT handoff_correlation_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT content_item_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT lyrics_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT exclude_from_shuffle FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_placeholder FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT vendor_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT opaque_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT version_hash FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT is_valid_content_type FROM item_state WHERE item_pid = NEW.item_pid), 1), COALESCE((SELECT is_library_added FROM item_state WHERE item_pid = NEW.item_pid), 0), CASE WHEN NEW.content_rating = 1 THEN 1 ELSE 0 END, COALESCE((SELECT is_library_add_eligible FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT keep_local_enable_state FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT keep_local_managed_status FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT keep_local_managed_status_reason FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT keep_local_constraints FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT has_non_purgeable_asset FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_store_redownloadable FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT media_type FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE(NEW.title, NULL), COALESCE(NEW.location, NULL), COALESCE((SELECT hls_asset_traits FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_mastered_for_itunes FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT match_redownload_params FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT purchase_history_redownload_params FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT playback_endpoint_type FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_protected FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT liked_state FROM item_state WHERE item_pid = NEW.item_pid), 0)); END;"
++ "CREATE TRIGGER IF NOT EXISTS item_state_extra_update_sync AFTER UPDATE ON item_extra FOR EACH ROW BEGIN INSERT OR REPLACE INTO item_state (item_pid, database_id, persistent_id, contained_persistent_id, sync_id, person_id, cloud_id, cloud_album_id, cloud_artist_id, recommendation_id, store_playlist_id, adam_id, universal_cloud_library_id, purchased_adam_id, subscription_adam_id, social_profile_id, reporting_adam_id, asset_adam_id, lyrics_adam_id, radio_station_string_id, radio_station_hash, radio_station_id, radio_station_event_id, container_unique_id, handoff_correlation_id, content_item_id, lyrics_id, exclude_from_shuffle, is_placeholder, vendor_id, opaque_id, version_hash, is_valid_content_type, is_library_added, has_explicit_content, is_library_add_eligible, keep_local_enable_state, keep_local_managed_status, keep_local_managed_status_reason, keep_local_constraints, has_non_purgeable_asset, is_store_redownloadable, media_type, title, location, hls_asset_traits, is_mastered_for_itunes, match_redownload_params, purchase_history_redownload_params, playback_endpoint_type, is_protected, liked_state) VALUES (NEW.item_pid, COALESCE((SELECT database_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), NEW.item_pid, COALESCE((SELECT contained_persistent_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT sync_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT person_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT cloud_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT cloud_album_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT cloud_artist_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT recommendation_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT store_playlist_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT universal_cloud_library_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT purchased_adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT subscription_adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT social_profile_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT reporting_adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT asset_adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT lyrics_adam_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT radio_station_string_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT radio_station_hash FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT radio_station_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT radio_station_event_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT container_unique_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT handoff_correlation_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT content_item_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT lyrics_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT exclude_from_shuffle FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_placeholder FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT vendor_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT opaque_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT version_hash FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT is_valid_content_type FROM item_state WHERE item_pid = NEW.item_pid), 1), COALESCE((SELECT is_library_added FROM item_state WHERE item_pid = NEW.item_pid), 0), CASE WHEN NEW.content_rating = 1 THEN 1 ELSE 0 END, COALESCE((SELECT is_library_add_eligible FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT keep_local_enable_state FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT keep_local_managed_status FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT keep_local_managed_status_reason FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT keep_local_constraints FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT has_non_purgeable_asset FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_store_redownloadable FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT media_type FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE(NEW.title, NULL), COALESCE(NEW.location, NULL), COALESCE((SELECT hls_asset_traits FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_mastered_for_itunes FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT match_redownload_params FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT purchase_history_redownload_params FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT playback_endpoint_type FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_protected FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT liked_state FROM item_state WHERE item_pid = NEW.item_pid), 0)); END;"
++ "CREATE TRIGGER IF NOT EXISTS item_state_insert_sync AFTER INSERT ON item FOR EACH ROW BEGIN INSERT OR REPLACE INTO item_state (item_pid, database_id, persistent_id, contained_persistent_id, sync_id, person_id, cloud_id, cloud_album_id, cloud_artist_id, recommendation_id, store_playlist_id, adam_id, universal_cloud_library_id, purchased_adam_id, subscription_adam_id, social_profile_id, reporting_adam_id, asset_adam_id, lyrics_adam_id, radio_station_string_id, radio_station_hash, radio_station_id, radio_station_event_id, container_unique_id, handoff_correlation_id, content_item_id, lyrics_id, exclude_from_shuffle, is_placeholder, vendor_id, opaque_id, version_hash, is_valid_content_type, is_library_added, has_explicit_content, is_library_add_eligible, keep_local_enable_state, keep_local_managed_status, keep_local_managed_status_reason, keep_local_constraints, has_non_purgeable_asset, is_store_redownloadable, media_type, title, location, hls_asset_traits, is_mastered_for_itunes, match_redownload_params, purchase_history_redownload_params, playback_endpoint_type, is_protected, liked_state) VALUES (NEW.item_pid, COALESCE((SELECT database_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), NEW.item_pid, COALESCE((SELECT contained_persistent_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT sync_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT person_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT cloud_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT cloud_album_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT cloud_artist_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT recommendation_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT store_playlist_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT universal_cloud_library_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT purchased_adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT subscription_adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT social_profile_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT reporting_adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT asset_adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT lyrics_adam_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT radio_station_string_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT radio_station_hash FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT radio_station_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT radio_station_event_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT container_unique_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT handoff_correlation_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT content_item_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT lyrics_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE(NEW.exclude_from_shuffle, 0), COALESCE((SELECT is_placeholder FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT vendor_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT opaque_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT version_hash FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT is_valid_content_type FROM item_state WHERE item_pid = NEW.item_pid), 1), COALESCE(NEW.in_my_library, 0), COALESCE((SELECT has_explicit_content FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_library_add_eligible FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE(NEW.keep_local, 0), COALESCE(NEW.keep_local_status, 0), COALESCE((SELECT keep_local_managed_status_reason FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE(NEW.keep_local_constraints, 0), COALESCE((SELECT has_non_purgeable_asset FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_store_redownloadable FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE(NEW.media_type, 0), COALESCE((SELECT title FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT location FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT hls_asset_traits FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_mastered_for_itunes FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT match_redownload_params FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT purchase_history_redownload_params FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT playback_endpoint_type FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_protected FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT liked_state FROM item_state WHERE item_pid = NEW.item_pid), 0)); END;"
++ "CREATE TRIGGER IF NOT EXISTS item_state_stats_insert_sync AFTER INSERT ON item_stats FOR EACH ROW BEGIN INSERT OR REPLACE INTO item_state (item_pid, database_id, persistent_id, contained_persistent_id, sync_id, person_id, cloud_id, cloud_album_id, cloud_artist_id, recommendation_id, store_playlist_id, adam_id, universal_cloud_library_id, purchased_adam_id, subscription_adam_id, social_profile_id, reporting_adam_id, asset_adam_id, lyrics_adam_id, radio_station_string_id, radio_station_hash, radio_station_id, radio_station_event_id, container_unique_id, handoff_correlation_id, content_item_id, lyrics_id, exclude_from_shuffle, is_placeholder, vendor_id, opaque_id, version_hash, is_valid_content_type, is_library_added, has_explicit_content, is_library_add_eligible, keep_local_enable_state, keep_local_managed_status, keep_local_managed_status_reason, keep_local_constraints, has_non_purgeable_asset, is_store_redownloadable, media_type, title, location, hls_asset_traits, is_mastered_for_itunes, match_redownload_params, purchase_history_redownload_params, playback_endpoint_type, is_protected, liked_state) VALUES (NEW.item_pid, COALESCE((SELECT database_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), NEW.item_pid, COALESCE((SELECT contained_persistent_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT sync_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT person_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT cloud_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT cloud_album_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT cloud_artist_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT recommendation_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT store_playlist_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT universal_cloud_library_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT purchased_adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT subscription_adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT social_profile_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT reporting_adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT asset_adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT lyrics_adam_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT radio_station_string_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT radio_station_hash FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT radio_station_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT radio_station_event_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT container_unique_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT handoff_correlation_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT content_item_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT lyrics_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT exclude_from_shuffle FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_placeholder FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT vendor_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT opaque_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT version_hash FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT is_valid_content_type FROM item_state WHERE item_pid = NEW.item_pid), 1), COALESCE((SELECT is_library_added FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT has_explicit_content FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_library_add_eligible FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT keep_local_enable_state FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT keep_local_managed_status FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT keep_local_managed_status_reason FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT keep_local_constraints FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT has_non_purgeable_asset FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_store_redownloadable FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT media_type FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT title FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT location FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT hls_asset_traits FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_mastered_for_itunes FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT match_redownload_params FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT purchase_history_redownload_params FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT playback_endpoint_type FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_protected FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE(NEW.liked_state, 0)); END;"
++ "CREATE TRIGGER IF NOT EXISTS item_state_stats_update_sync AFTER UPDATE ON item_stats FOR EACH ROW BEGIN INSERT OR REPLACE INTO item_state (item_pid, database_id, persistent_id, contained_persistent_id, sync_id, person_id, cloud_id, cloud_album_id, cloud_artist_id, recommendation_id, store_playlist_id, adam_id, universal_cloud_library_id, purchased_adam_id, subscription_adam_id, social_profile_id, reporting_adam_id, asset_adam_id, lyrics_adam_id, radio_station_string_id, radio_station_hash, radio_station_id, radio_station_event_id, container_unique_id, handoff_correlation_id, content_item_id, lyrics_id, exclude_from_shuffle, is_placeholder, vendor_id, opaque_id, version_hash, is_valid_content_type, is_library_added, has_explicit_content, is_library_add_eligible, keep_local_enable_state, keep_local_managed_status, keep_local_managed_status_reason, keep_local_constraints, has_non_purgeable_asset, is_store_redownloadable, media_type, title, location, hls_asset_traits, is_mastered_for_itunes, match_redownload_params, purchase_history_redownload_params, playback_endpoint_type, is_protected, liked_state) VALUES (NEW.item_pid, COALESCE((SELECT database_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), NEW.item_pid, COALESCE((SELECT contained_persistent_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT sync_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT person_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT cloud_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT cloud_album_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT cloud_artist_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT recommendation_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT store_playlist_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT universal_cloud_library_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT purchased_adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT subscription_adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT social_profile_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT reporting_adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT asset_adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT lyrics_adam_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT radio_station_string_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT radio_station_hash FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT radio_station_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT radio_station_event_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT container_unique_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT handoff_correlation_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT content_item_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT lyrics_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT exclude_from_shuffle FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_placeholder FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT vendor_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT opaque_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT version_hash FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT is_valid_content_type FROM item_state WHERE item_pid = NEW.item_pid), 1), COALESCE((SELECT is_library_added FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT has_explicit_content FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_library_add_eligible FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT keep_local_enable_state FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT keep_local_managed_status FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT keep_local_managed_status_reason FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT keep_local_constraints FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT has_non_purgeable_asset FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_store_redownloadable FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT media_type FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT title FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT location FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT hls_asset_traits FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_mastered_for_itunes FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT match_redownload_params FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT purchase_history_redownload_params FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT playback_endpoint_type FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_protected FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE(NEW.liked_state, 0)); END;"
++ "CREATE TRIGGER IF NOT EXISTS item_state_store_insert_sync AFTER INSERT ON item_store FOR EACH ROW BEGIN INSERT OR REPLACE INTO item_state (item_pid, database_id, persistent_id, contained_persistent_id, sync_id, person_id, cloud_id, cloud_album_id, cloud_artist_id, recommendation_id, store_playlist_id, adam_id, universal_cloud_library_id, purchased_adam_id, subscription_adam_id, social_profile_id, reporting_adam_id, asset_adam_id, lyrics_adam_id, radio_station_string_id, radio_station_hash, radio_station_id, radio_station_event_id, container_unique_id, handoff_correlation_id, content_item_id, lyrics_id, exclude_from_shuffle, is_placeholder, vendor_id, opaque_id, version_hash, is_valid_content_type, is_library_added, has_explicit_content, is_library_add_eligible, keep_local_enable_state, keep_local_managed_status, keep_local_managed_status_reason, keep_local_constraints, has_non_purgeable_asset, is_store_redownloadable, media_type, title, location, hls_asset_traits, is_mastered_for_itunes, match_redownload_params, purchase_history_redownload_params, playback_endpoint_type, is_protected, liked_state) VALUES (NEW.item_pid, COALESCE((SELECT database_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), NEW.item_pid, COALESCE((SELECT contained_persistent_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT sync_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT person_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT cloud_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT cloud_album_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT cloud_artist_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT recommendation_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE(NEW.store_playlist_id, COALESCE((SELECT store_playlist_id FROM item_state WHERE item_pid = NEW.item_pid), NULL)), COALESCE(NEW.store_item_id, 0), COALESCE(NEW.cloud_universal_library_id, NULL), COALESCE(NEW.store_item_id, 0), COALESCE(NEW.subscription_store_item_id, 0), COALESCE((SELECT social_profile_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE(NEW.reporting_store_item_id, 0), COALESCE(NEW.asset_store_item_id, 0), COALESCE((SELECT lyrics_adam_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT radio_station_string_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT radio_station_hash FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT radio_station_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT radio_station_event_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT container_unique_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT handoff_correlation_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT content_item_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT lyrics_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT exclude_from_shuffle FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_placeholder FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT vendor_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT opaque_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT version_hash FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT is_valid_content_type FROM item_state WHERE item_pid = NEW.item_pid), 1), COALESCE((SELECT is_library_added FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT has_explicit_content FROM item_state WHERE item_pid = NEW.item_pid), 0), CASE WHEN NEW.store_item_id > 0 OR NEW.subscription_store_item_id > 0 OR NEW.cloud_asset_available > 0 OR NEW.is_subscription > 0 THEN 1 ELSE 0 END, COALESCE((SELECT keep_local_enable_state FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT keep_local_managed_status FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT keep_local_managed_status_reason FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT keep_local_constraints FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT has_non_purgeable_asset FROM item_state WHERE item_pid = NEW.item_pid), 0), CASE WHEN COALESCE(NEW.match_redownload_params, '') != '' OR COALESCE(NEW.purchase_history_redownload_params, '') != '' THEN 1 ELSE 0 END, COALESCE((SELECT media_type FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT title FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT location FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT hls_asset_traits FROM item_state WHERE item_pid = NEW.item_pid), 0), CASE WHEN NEW.is_mastered_for_itunes > 0 THEN 1 ELSE 0 END, COALESCE(NEW.match_redownload_params, NULL), COALESCE(NEW.purchase_history_redownload_params, NULL), COALESCE(NEW.playback_endpoint_type, 0), COALESCE(NEW.is_protected, 0), COALESCE((SELECT liked_state FROM item_state WHERE item_pid = NEW.item_pid), 0)); END;"
++ "CREATE TRIGGER IF NOT EXISTS item_state_store_update_sync AFTER UPDATE ON item_store FOR EACH ROW BEGIN INSERT OR REPLACE INTO item_state (item_pid, database_id, persistent_id, contained_persistent_id, sync_id, person_id, cloud_id, cloud_album_id, cloud_artist_id, recommendation_id, store_playlist_id, adam_id, universal_cloud_library_id, purchased_adam_id, subscription_adam_id, social_profile_id, reporting_adam_id, asset_adam_id, lyrics_adam_id, radio_station_string_id, radio_station_hash, radio_station_id, radio_station_event_id, container_unique_id, handoff_correlation_id, content_item_id, lyrics_id, exclude_from_shuffle, is_placeholder, vendor_id, opaque_id, version_hash, is_valid_content_type, is_library_added, has_explicit_content, is_library_add_eligible, keep_local_enable_state, keep_local_managed_status, keep_local_managed_status_reason, keep_local_constraints, has_non_purgeable_asset, is_store_redownloadable, media_type, title, location, hls_asset_traits, is_mastered_for_itunes, match_redownload_params, purchase_history_redownload_params, playback_endpoint_type, is_protected, liked_state) VALUES (NEW.item_pid, COALESCE((SELECT database_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), NEW.item_pid, COALESCE((SELECT contained_persistent_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT sync_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT person_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT cloud_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT cloud_album_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT cloud_artist_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT recommendation_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE(NEW.store_playlist_id, COALESCE((SELECT store_playlist_id FROM item_state WHERE item_pid = NEW.item_pid), NULL)), COALESCE(NEW.store_item_id, 0), COALESCE(NEW.cloud_universal_library_id, NULL), COALESCE(NEW.store_item_id, 0), COALESCE(NEW.subscription_store_item_id, 0), COALESCE((SELECT social_profile_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE(NEW.reporting_store_item_id, 0), COALESCE(NEW.asset_store_item_id, 0), COALESCE((SELECT lyrics_adam_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT radio_station_string_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT radio_station_hash FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT radio_station_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT radio_station_event_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT container_unique_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT handoff_correlation_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT content_item_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT lyrics_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT exclude_from_shuffle FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_placeholder FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT vendor_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT opaque_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT version_hash FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT is_valid_content_type FROM item_state WHERE item_pid = NEW.item_pid), 1), COALESCE((SELECT is_library_added FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT has_explicit_content FROM item_state WHERE item_pid = NEW.item_pid), 0), CASE WHEN NEW.store_item_id > 0 OR NEW.subscription_store_item_id > 0 OR NEW.cloud_asset_available > 0 OR NEW.is_subscription > 0 THEN 1 ELSE 0 END, COALESCE((SELECT keep_local_enable_state FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT keep_local_managed_status FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT keep_local_managed_status_reason FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT keep_local_constraints FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT has_non_purgeable_asset FROM item_state WHERE item_pid = NEW.item_pid), 0), CASE WHEN COALESCE(NEW.match_redownload_params, '') != '' OR COALESCE(NEW.purchase_history_redownload_params, '') != '' THEN 1 ELSE 0 END, COALESCE((SELECT media_type FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT title FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT location FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT hls_asset_traits FROM item_state WHERE item_pid = NEW.item_pid), 0), CASE WHEN NEW.is_mastered_for_itunes > 0 THEN 1 ELSE 0 END, COALESCE(NEW.match_redownload_params, NULL), COALESCE(NEW.purchase_history_redownload_params, NULL), COALESCE(NEW.playback_endpoint_type, 0), COALESCE(NEW.is_protected, 0), COALESCE((SELECT liked_state FROM item_state WHERE item_pid = NEW.item_pid), 0)); END;"
++ "CREATE TRIGGER IF NOT EXISTS item_state_update_sync AFTER UPDATE ON item FOR EACH ROW BEGIN INSERT OR REPLACE INTO item_state (item_pid, database_id, persistent_id, contained_persistent_id, sync_id, person_id, cloud_id, cloud_album_id, cloud_artist_id, recommendation_id, store_playlist_id, adam_id, universal_cloud_library_id, purchased_adam_id, subscription_adam_id, social_profile_id, reporting_adam_id, asset_adam_id, lyrics_adam_id, radio_station_string_id, radio_station_hash, radio_station_id, radio_station_event_id, container_unique_id, handoff_correlation_id, content_item_id, lyrics_id, exclude_from_shuffle, is_placeholder, vendor_id, opaque_id, version_hash, is_valid_content_type, is_library_added, has_explicit_content, is_library_add_eligible, keep_local_enable_state, keep_local_managed_status, keep_local_managed_status_reason, keep_local_constraints, has_non_purgeable_asset, is_store_redownloadable, media_type, title, location, hls_asset_traits, is_mastered_for_itunes, match_redownload_params, purchase_history_redownload_params, playback_endpoint_type, is_protected, liked_state) VALUES (NEW.item_pid, COALESCE((SELECT database_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), NEW.item_pid, COALESCE((SELECT contained_persistent_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT sync_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT person_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT cloud_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT cloud_album_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT cloud_artist_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT recommendation_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT store_playlist_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT universal_cloud_library_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT purchased_adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT subscription_adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT social_profile_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT reporting_adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT asset_adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT lyrics_adam_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT radio_station_string_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT radio_station_hash FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT radio_station_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT radio_station_event_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT container_unique_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT handoff_correlation_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT content_item_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT lyrics_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE(NEW.exclude_from_shuffle, 0), COALESCE((SELECT is_placeholder FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT vendor_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT opaque_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT version_hash FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT is_valid_content_type FROM item_state WHERE item_pid = NEW.item_pid), 1), COALESCE(NEW.in_my_library, 0), COALESCE((SELECT has_explicit_content FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_library_add_eligible FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE(NEW.keep_local, 0), COALESCE(NEW.keep_local_status, 0), COALESCE((SELECT keep_local_managed_status_reason FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE(NEW.keep_local_constraints, 0), COALESCE((SELECT has_non_purgeable_asset FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_store_redownloadable FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE(NEW.media_type, 0), COALESCE((SELECT title FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT location FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT hls_asset_traits FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_mastered_for_itunes FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT match_redownload_params FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT purchase_history_redownload_params FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT playback_endpoint_type FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_protected FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT liked_state FROM item_state WHERE item_pid = NEW.item_pid), 0)); END;"
++ "CREATE TRIGGER IF NOT EXISTS item_state_video_insert_sync AFTER INSERT ON item_video FOR EACH ROW BEGIN INSERT OR REPLACE INTO item_state (item_pid, database_id, persistent_id, contained_persistent_id, sync_id, person_id, cloud_id, cloud_album_id, cloud_artist_id, recommendation_id, store_playlist_id, adam_id, universal_cloud_library_id, purchased_adam_id, subscription_adam_id, social_profile_id, reporting_adam_id, asset_adam_id, lyrics_adam_id, radio_station_string_id, radio_station_hash, radio_station_id, radio_station_event_id, container_unique_id, handoff_correlation_id, content_item_id, lyrics_id, exclude_from_shuffle, is_placeholder, vendor_id, opaque_id, version_hash, is_valid_content_type, is_library_added, has_explicit_content, is_library_add_eligible, keep_local_enable_state, keep_local_managed_status, keep_local_managed_status_reason, keep_local_constraints, has_non_purgeable_asset, is_store_redownloadable, media_type, title, location, hls_asset_traits, is_mastered_for_itunes, match_redownload_params, purchase_history_redownload_params, playback_endpoint_type, is_protected, liked_state) VALUES (NEW.item_pid, COALESCE((SELECT database_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), NEW.item_pid, COALESCE((SELECT contained_persistent_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT sync_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT person_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT cloud_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT cloud_album_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT cloud_artist_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT recommendation_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT store_playlist_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT universal_cloud_library_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT purchased_adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT subscription_adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT social_profile_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT reporting_adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT asset_adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT lyrics_adam_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT radio_station_string_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT radio_station_hash FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT radio_station_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT radio_station_event_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT container_unique_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT handoff_correlation_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT content_item_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT lyrics_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT exclude_from_shuffle FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_placeholder FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT vendor_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT opaque_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT version_hash FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT is_valid_content_type FROM item_state WHERE item_pid = NEW.item_pid), 1), COALESCE((SELECT is_library_added FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT has_explicit_content FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_library_add_eligible FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT keep_local_enable_state FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT keep_local_managed_status FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT keep_local_managed_status_reason FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT keep_local_constraints FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT has_non_purgeable_asset FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_store_redownloadable FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT media_type FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT title FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT location FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE(NEW.hls_asset_traits, 0), COALESCE((SELECT is_mastered_for_itunes FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT match_redownload_params FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT purchase_history_redownload_params FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT playback_endpoint_type FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_protected FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT liked_state FROM item_state WHERE item_pid = NEW.item_pid), 0)); END;"
++ "CREATE TRIGGER IF NOT EXISTS item_state_video_update_sync AFTER UPDATE ON item_video FOR EACH ROW BEGIN INSERT OR REPLACE INTO item_state (item_pid, database_id, persistent_id, contained_persistent_id, sync_id, person_id, cloud_id, cloud_album_id, cloud_artist_id, recommendation_id, store_playlist_id, adam_id, universal_cloud_library_id, purchased_adam_id, subscription_adam_id, social_profile_id, reporting_adam_id, asset_adam_id, lyrics_adam_id, radio_station_string_id, radio_station_hash, radio_station_id, radio_station_event_id, container_unique_id, handoff_correlation_id, content_item_id, lyrics_id, exclude_from_shuffle, is_placeholder, vendor_id, opaque_id, version_hash, is_valid_content_type, is_library_added, has_explicit_content, is_library_add_eligible, keep_local_enable_state, keep_local_managed_status, keep_local_managed_status_reason, keep_local_constraints, has_non_purgeable_asset, is_store_redownloadable, media_type, title, location, hls_asset_traits, is_mastered_for_itunes, match_redownload_params, purchase_history_redownload_params, playback_endpoint_type, is_protected, liked_state) VALUES (NEW.item_pid, COALESCE((SELECT database_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), NEW.item_pid, COALESCE((SELECT contained_persistent_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT sync_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT person_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT cloud_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT cloud_album_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT cloud_artist_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT recommendation_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT store_playlist_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT universal_cloud_library_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT purchased_adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT subscription_adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT social_profile_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT reporting_adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT asset_adam_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT lyrics_adam_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT radio_station_string_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT radio_station_hash FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT radio_station_id FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT radio_station_event_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT container_unique_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT handoff_correlation_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT content_item_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT lyrics_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT exclude_from_shuffle FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_placeholder FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT vendor_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT opaque_id FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT version_hash FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT is_valid_content_type FROM item_state WHERE item_pid = NEW.item_pid), 1), COALESCE((SELECT is_library_added FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT has_explicit_content FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_library_add_eligible FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT keep_local_enable_state FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT keep_local_managed_status FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT keep_local_managed_status_reason FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT keep_local_constraints FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT has_non_purgeable_asset FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_store_redownloadable FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT media_type FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT title FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT location FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE(NEW.hls_asset_traits, 0), COALESCE((SELECT is_mastered_for_itunes FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT match_redownload_params FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT purchase_history_redownload_params FROM item_state WHERE item_pid = NEW.item_pid), NULL), COALESCE((SELECT playback_endpoint_type FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT is_protected FROM item_state WHERE item_pid = NEW.item_pid), 0), COALESCE((SELECT liked_state FROM item_state WHERE item_pid = NEW.item_pid), 0)); END;"
++ "Can prompt the user to delete the database: %{BOOL}u (setupAssistantNeedsToRun=%{BOOL}u, springBoardRunning=%{BOOL}u, dataMigratorRunning=%{BOOL}u, lastIgnoreTime=%@)"
++ "Could not create directory at path=%{public}@, databasePath=%{public}@, error=%{public}@"
++ "Could not populate item_state with existing items - database may be empty (non-fatal)"
++ "DELETE FROM item_state WHERE item_pid IN (%@)"
++ "Finished setting siri database validity revision=%d with thread priority=%d"
++ "Gradient Color %{public}@ does not have the correct length"
++ "INSERT INTO artwork_token_new (artwork_token, artwork_source_type, artwork_type, entity_pid, entity_type, artwork_variant_type) SELECT artwork_token, artwork_source_type, artwork_type, entity_pid, entity_type, artwork_variant_type FROM artwork_token"
++ "INSERT INTO artwork_token_new (entity_pid, artwork_token, artwork_source_type, artwork_type, entity_type, artwork_variant_type, primary_text_color, secondary_text_color, tertiary_text_color, quaternary_text_color, background_color, gradient_text_color) SELECT entity_pid, artwork_token, artwork_source_type, artwork_type, entity_type, artwork_variant_type, primary_text_color, secondary_text_color, tertiary_text_color, quaternary_text_color, background_color, gradient_text_color FROM artwork_token"
++ "INSERT OR REPLACE INTO item_state (item_pid, database_id, persistent_id, contained_persistent_id, sync_id, person_id, cloud_id, cloud_album_id, cloud_artist_id, recommendation_id, store_playlist_id, adam_id, universal_cloud_library_id, purchased_adam_id, subscription_adam_id, social_profile_id, reporting_adam_id, asset_adam_id, lyrics_adam_id, radio_station_string_id, radio_station_hash, radio_station_id, radio_station_event_id, container_unique_id, handoff_correlation_id, content_item_id, lyrics_id, exclude_from_shuffle, is_placeholder, vendor_id, opaque_id, version_hash, is_valid_content_type, is_library_added, has_explicit_content, is_library_add_eligible, keep_local_enable_state, keep_local_managed_status, keep_local_managed_status_reason, keep_local_constraints, has_non_purgeable_asset, is_store_redownloadable, media_type, title, location, hls_asset_traits, is_mastered_for_itunes, match_redownload_params, purchase_history_redownload_params, playback_endpoint_type, is_protected, liked_state) SELECT i.item_pid, NULL, i.item_pid, NULL, 0, NULL, 0, NULL, NULL, NULL, ist.store_playlist_id, ist.store_item_id, ist.cloud_universal_library_id, ist.store_item_id, ist.subscription_store_item_id, NULL, ist.reporting_store_item_id, ist.asset_store_item_id, NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, i.exclude_from_shuffle, 0, NULL, NULL, NULL, 1, CASE WHEN i.in_my_library > 0 THEN 1 ELSE 0 END, CASE WHEN ie.content_rating = 1 THEN 1 ELSE 0 END, CASE WHEN ist.store_item_id > 0 THEN 1 WHEN ist.subscription_store_item_id > 0 THEN 1 WHEN ist.cloud_asset_available > 0 THEN 1 WHEN ist.is_subscription > 0 THEN 1 ELSE 0 END, i.keep_local, i.keep_local_status, 0, i.keep_local_constraints, CASE WHEN i.base_location_id >= 250 THEN 1 ELSE 0 END, CASE WHEN i.remote_location_id >= 50 AND i.remote_location_id < 300 THEN 1 ELSE 0 END, i.media_type, COALESCE(ie.title, ''), COALESCE(ie.location, ''), COALESCE(iv.hls_asset_traits, 0), CASE WHEN ist.is_mastered_for_itunes > 0 THEN 1 ELSE 0 END, COALESCE(ist.match_redownload_params, ''), COALESCE(ist.purchase_history_redownload_params, ''), ist.playback_endpoint_type, COALESCE(ist.is_protected, 0), COALESCE(ista.liked_state, 0) FROM item i LEFT JOIN item_extra ie ON i.item_pid = ie.item_pid LEFT JOIN item_store ist ON i.item_pid = ist.item_pid LEFT JOIN item_video iv ON i.item_pid = iv.item_pid LEFT JOIN item_stats ista ON i.item_pid = ista.item_pid;"
++ "Ignoring invalid color from gradient colors=%{public}@"
++ "Ignoring invalid color=%{public}@ for key=%{public}@"
++ "Insert/replace artwork_token: pid=%lld entity_type=%d source=%d type=%d variantType=%d token='%{public}@'"
++ "LEFT OUTER JOIN best_artwork_token ON (best_artwork_token.entity_pid = album_pid AND best_artwork_token.entity_type = 4 AND best_artwork_token.artwork_type = 6 AND artwork_variant_type = 0)"
++ "LEFT OUTER JOIN item_extra AS album_item_extra ON (album.representative_item_pid == album_item_extra.ROWID)"
++ "Loaded interest data from artwork metadata %{public}@ for token=%{private}@, variant=%d"
++ "ML3DatabaseValidation.m"
++ "ML3ItemStateTable"
++ "ML3MusicLibraryCachingAvailabilityDidChangeNotification"
++ "ML3PersistentIDGenerator.m"
++ "MLDatabaseOperationAttributeDownloadedAssetArtworkTypeKey"
++ "MLLastUnmigratableDatabaseIgnoreTime"
++ "PRAGMA user_version = 2340000;"
++ "PRAGMA user_version = 2340010;"
++ "PRAGMA user_version = 2340020;"
++ "PRAGMA user_version = 2340030;"
++ "PRAGMA user_version = 2340040;"
++ "SELECT COUNT(*) FROM item_state"
++ "SELECT MAX(ROWID) FROM %@"
++ "SELECT ROWID FROM %@ WHERE ROWID = %lld"
++ "SELECT ROWID FROM %@ WHERE ROWID > %lld AND ROWID < %lld LIMIT 1"
++ "SELECT album_artist_pid FROM album_artist WHERE ((album_artist_pid NOT IN (SELECT album_artist_pid FROM item) AND album_artist_pid NOT IN (SELECT album_artist_pid FROM album)) AND album_artist.liked_state IN (?, ?))"
++ "SELECT artwork_token, primary_text_color, secondary_text_color, tertiary_text_color, quaternary_text_color, background_color, gradient_text_color, gradient_color FROM artwork_token WHERE ((length(primary_text_color) > 0 OR length(secondary_text_color) > 0 OR length(tertiary_text_color) > 0 OR length(quaternary_text_color) > 0 OR length(background_color) > 0 OR length(gradient_text_color) > 0) OR length(gradient_color) > 0)"
++ "SELECT primary_text_color, secondary_text_color, tertiary_text_color, quaternary_text_color, background_color, gradient_text_color, gradient_color, gradient_size_start, gradient_size_end FROM artwork_token WHERE artwork_token=? AND artwork_variant_type=? AND artwork_type=?"
++ "SELECT primary_text_color, secondary_text_color, tertiary_text_color, quaternary_text_color, background_color, gradient_text_color, gradient_color, gradient_size_start, gradient_size_end FROM artwork_token WHERE artwork_token=? AND artwork_variant_type=? AND entity_pid=? AND entity_type=?"
++ "Successfully created item_state table with %lld items"
++ "T@\"NSArray\",R,N,V_gradientTextColors"
++ "T@\"NSNumber\",&,N,V_updatedValidityRevisionNumber"
++ "T@\"NSNumber\",R,N,V_gradientColorEndPosition"
++ "T@\"NSNumber\",R,N,V_gradientColorStartPosition"
++ "T@\"NSString\",R,N,V_gradientColor"
++ "T@\"NSString\",R,N,V_quaternaryTextColor"
++ "The media library on this device is newer than what the system supports. This can happen either from downgrading the OS, or the timing of submissions.\n\nTo allow media applications to function properly, please either erase-install the OS, or select the option to let the service rebuild your media library database.\n\nThis WILL erase your media library on this device.\n\n[This dialog is shown for internal users only, and will be dismissed in 30s with no selection.]"
++ "Ti,N,V_artworkSourceType"
++ "UPDATE artwork_token SET background_color='' WHERE background_color='0'"
++ "UPDATE artwork_token SET background_color=? WHERE artwork_token=?"
++ "UPDATE artwork_token SET gradient_color='' WHERE gradient_color='0'"
++ "UPDATE artwork_token SET gradient_color=? WHERE artwork_token=?"
++ "UPDATE artwork_token SET gradient_text_color='' WHERE gradient_text_color='0'"
++ "UPDATE artwork_token SET gradient_text_color=? WHERE artwork_token=?"
++ "UPDATE artwork_token SET primary_text_color='' WHERE primary_text_color='0'"
++ "UPDATE artwork_token SET primary_text_color=? WHERE artwork_token=?"
++ "UPDATE artwork_token SET quaternary_text_color='' WHERE quaternary_text_color='0'"
++ "UPDATE artwork_token SET quaternary_text_color=? WHERE artwork_token=?"
++ "UPDATE artwork_token SET secondary_text_color='' WHERE secondary_text_color='0'"
++ "UPDATE artwork_token SET secondary_text_color=? WHERE artwork_token=?"
++ "UPDATE artwork_token SET tertiary_text_color='' WHERE tertiary_text_color='0'"
++ "UPDATE artwork_token SET tertiary_text_color=? WHERE artwork_token=?"
++ "Unhandled table name %@"
++ "[ML3ProcessDownloadedAssetsOperation] failed to find album with pid %lld - skipping"
++ "[ML3UpdateSpotlightIndexOperation]  ┃  Creating searchable items for albums"
++ "_artworkSourceType"
++ "_colorInformationDictionaryUsingConnection:query:parameters:"
++ "_entityIDFromTableName:"
++ "_gradientColor"
++ "_gradientColorEndPosition"
++ "_gradientColorStartPosition"
++ "_gradientTextColors"
++ "_maxPersistentID"
++ "_minPersistentID"
++ "_processAlbumAsset:forSource:withError:"
++ "_quaternaryTextColor"
++ "_retrieveBestArtworkTokensAndColorInfoForEntityPersistentID:entityType:artworkType:variantType:retrievalTime:completionHandler:"
++ "_updateSiriRevisionIndexQueue"
++ "_updatedValidityRevisionNumber"
++ "adam_id"
++ "addDependency:"
++ "album_item_extra.disc_count"
++ "album_item_extra.track_count"
++ "artworkColorInfoForEntityPersistentID:entityType:artworkType:variantType:token:"
++ "artworkColorInfoForToken:artworkType:variantType:"
++ "artworkContentMap"
++ "artworkSourceType"
++ "asset_adam_id"
++ "background_color"
++ "bgColor"
++ "cloud_artist_id"
++ "color"
++ "com.apple.migrationpluginwrapper"
++ "com.apple.mobileipod.cachingavailabilitychanged"
++ "contained_persistent_id"
++ "container_unique_id"
++ "content_item_id"
++ "database_id"
++ "failed to hydrade artwork color info, error = %{public}@"
++ "failed to populate item_state table"
++ "failed to populate item_state table for modified items (chunk %lu/%lu)"
++ "failed to remove deleted tracks from item_state table"
++ "full import: populating item_state for all items"
++ "gradient"
++ "gradientColor"
++ "gradientColorEndPosition"
++ "gradientColorHex"
++ "gradientColorStartPosition"
++ "gradientTextColor"
++ "gradientTextColorHex"
++ "gradientTextColors"
++ "gradient_color"
++ "gradient_size_end"
++ "gradient_size_start"
++ "gradient_text_color"
++ "handoff_correlation_id"
++ "hasArtworkSourceType"
++ "has_explicit_content"
++ "has_non_purgeable_asset"
++ "incremental import: populating item_state for %d modified items"
++ "is_library_add_eligible"
++ "is_library_added"
++ "is_placeholder"
++ "is_store_redownloadable"
++ "is_valid_content_type"
++ "item_artwork_source_type"
++ "item_state"
++ "item_state_delete_sync"
++ "item_state_extra_insert_sync"
++ "item_state_extra_update_sync"
++ "item_state_insert_sync"
++ "item_state_stats_insert_sync"
++ "item_state_stats_update_sync"
++ "item_state_store_insert_sync"
++ "item_state_store_update_sync"
++ "item_state_update_sync"
++ "item_state_video_insert_sync"
++ "item_state_video_update_sync"
++ "joeColor"
++ "keep_local_enable_state"
++ "keep_local_managed_status"
++ "keep_local_managed_status_reason"
++ "lyrics_adam_id"
++ "lyrics_id"
++ "motion-square"
++ "notifyCacheAvailabilityDidChange"
++ "opaque_id"
++ "persistent_id"
++ "person_id"
++ "populating item_state table after import with disabled triggers"
++ "primary_text_color"
++ "purchased_adam_id"
++ "qualityOfService"
++ "quaternaryTextColor"
++ "quaternaryTextColorHex"
++ "quaternary_text_color"
++ "radio_station_event_id"
++ "radio_station_hash"
++ "radio_station_string_id"
++ "recommendation_id"
++ "reporting_adam_id"
++ "retrieveBestArtworkTokensAndColorInfoForEntityPersistentID:entityType:artworkType:variantType:retrievalTime:completionHandler:"
++ "secondary_text_color"
++ "setArtworkSourceType:"
++ "setBackgroundColorHex:"
++ "setGradientColorEndPosition:"
++ "setGradientColorHex:"
++ "setGradientColorStartPosition:"
++ "setGradientTextColorHex:"
++ "setHasArtworkSourceType:"
++ "setPrimaryTextColorHex:"
++ "setQuaternaryTextColorHex:"
++ "setSecondaryTextColorHex:"
++ "setTertiaryTextColorHex:"
++ "setTimeout:"
++ "setUpdatedValidityRevisionNumber:"
++ "social_profile_id"
++ "softlink:r:path:/System/Library/PrivateFrameworks/SetupAssistant.framework/SetupAssistant"
++ "static-3x4"
++ "static-square"
++ "subscription_adam_id"
++ "tertiary_text_color"
++ "textColor1"
++ "textColor2"
++ "textColor3"
++ "textColor4"
++ "textGradient"
++ "uniqueConstraints"
++ "universal_cloud_library_id"
++ "updatedValidityRevisionNumber"
++ "vendor_id"
++ "version_hash"
++ "void *SetupAssistantLibrary(void)"
++ "y1"
++ "y2"
++ "{?=\"accountId\"b1\"assetStoreItemId\"b1\"bookmarkTimeMilliseconds\"b1\"creationDateTime\"b1\"drmKey1IdCode\"b1\"drmKey2IdCode\"b1\"drmPlatformIdCode\"b1\"duration\"b1\"familyAccountId\"b1\"fileSize\"b1\"lastPlayedDateTime\"b1\"lastSkippedDateTime\"b1\"likedStateChangedDate\"b1\"modificationDateTime\"b1\"purchaseDateTime\"b1\"purchaseHistoryId\"b1\"releaseDateTime\"b1\"reportingStoreItemId\"b1\"sagaId\"b1\"storeId\"b1\"storePlaylistId\"b1\"storefrontId\"b1\"subscriptionStoreItemId\"b1\"artworkSourceType\"b1\"cloudMatchedStatus\"b1\"cloudPlaybackEndpointType\"b1\"cloudStatus\"b1\"contentRating\"b1\"contentRatingLevel\"b1\"drmVersionsCode\"b1\"fileKind\"b1\"likedState\"b1\"mediaType\"b1\"playCount\"b1\"playCountDelta\"b1\"playbackEndpointType\"b1\"purchaseHistoryToken\"b1\"secondaryArtworkSourceType\"b1\"skipCount\"b1\"skipCountDelta\"b1\"storeProtectionType\"b1\"year\"b1\"cloudAssetAvailable\"b1\"explicitContent\"b1\"hasChapterData\"b1\"hasLocalAsset\"b1\"hidden\"b1\"inUsersCloudLibrary\"b1\"isInUsersLibrary\"b1\"isPreorder\"b1\"likedStateChanged\"b1\"needsReporting\"b1\"rememberBookmark\"b1\"userDisabled\"b1}"
++ "{?=\"likedStateChangedDate\"b1\"persistentId\"b1\"storeId\"b1\"artworkSourceType\"b1\"likedState\"b1\"numDiscs\"b1\"numTracks\"b1\"userRating\"b1\"compilation\"b1}"
++ "{map<unsigned int, unsigned long, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, unsigned long>>>=\"__tree_\"{__tree<std::__value_type<unsigned int, unsigned long>, std::__map_value_compare<unsigned int, std::pair<const unsigned int, unsigned long>, std::less<unsigned int>>, std::allocator<std::pair<const unsigned int, unsigned long>>>=\"__begin_node_\"^v\"\"{?=\"__end_node_\"{__tree_end_node<std::__tree_node_base<void *> *>=\"__left_\"^v}}\"\"{?=\"__size_\"Q}}}"
++ "{unordered_map<long long, std::string, std::hash<long long>, std::equal_to<long long>, std::allocator<std::pair<const long long, std::string>>>=\"__table_\"{__hash_table<std::__hash_value_type<long long, std::string>, std::__unordered_map_hasher<long long, std::pair<const long long, std::string>, std::hash<long long>, std::equal_to<long long>>, std::__unordered_map_equal<long long, std::pair<const long long, std::string>, std::equal_to<long long>, std::hash<long long>>, std::allocator<std::pair<const long long, std::string>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, std::string>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, std::string>, void *> *> *>>>=\"\"{?=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, std::string>, void *> *> *>>=\"\"{?=\"__size_\"Q}}}}\"\"{?=\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<long long, std::string>, void *> *>=\"__next_\"^v}}\"\"{?=\"__size_\"Q}\"\"{?=\"__max_load_factor_\"f}}}"
+- "%{public}@ Artwork for album %lld is not fetchable because the source type is not supported"
+- "%{public}@ checking in available connection=%{public}@"
+- "%{public}@ checking in=%{public}@"
+- "%{public}@ closing available connection=%{public}@"
+- "/Library/Caches/com.apple.xbs/Sources/MusicLibrary/MusicLibrary/Sorting/iPhoneSortKey/iPhoneSortKey.c"
+- "CREATE TABLE artwork_token (artwork_token TEXT NOT NULL DEFAULT '', artwork_source_type INTEGER NOT NULL DEFAULT 0, artwork_type INTEGER NOT NULL DEFAULT 0, entity_pid INTEGER NOT NULL DEFAULT 0, entity_type INTEGER NOT NULL DEFAULT 0, artwork_variant_type INTEGER NOT NULL DEFAULT 0, UNIQUE (artwork_source_type, artwork_type, entity_pid, entity_type, artwork_variant_type))"
+- "Finished pruning statement cache - oldCount=%d, newCount=%d"
+- "Insert/replace artwork_token: pid=%lld entity_type=%d source=%d type=%d variantType = %d token='%{public}@'"
+- "SELECT ROWID FROM %@ WHERE ROWID = ?"
+- "SELECT ROWID FROM %@ WHERE ROWID > ? LIMIT 1"
+- "SELECT album_artist_pid FROM album_artist WHERE ((album_artist_pid NOT IN (SELECT album_artist_pid FROM item) AND album_artist_pid NOT IN (SELECT album_artist_pid FROM album)) AND album_artist.liked_state=?)"
+- "The media library service has detected that this device has been downgraded from a newer operating system version. The service does not support migration back to previous versions.\n\nPlease either erase-install the desired version of the operating system, or select the option to let the service rebuild your media library database. This WILL erase your media library on this device.\n\n[This dialog is shown for internal users only.]"
+- "_nextUsedPersistentIdSQL"
+- "_parsedStoreAlbumArtistItemsImportPropertiesFromLookupItems=%{public}@"
+- "_validateStartingPersistentIdSQL"
+- "{?=\"accountId\"b1\"assetStoreItemId\"b1\"bookmarkTimeMilliseconds\"b1\"creationDateTime\"b1\"drmKey1IdCode\"b1\"drmKey2IdCode\"b1\"drmPlatformIdCode\"b1\"duration\"b1\"familyAccountId\"b1\"fileSize\"b1\"lastPlayedDateTime\"b1\"lastSkippedDateTime\"b1\"likedStateChangedDate\"b1\"modificationDateTime\"b1\"purchaseDateTime\"b1\"purchaseHistoryId\"b1\"releaseDateTime\"b1\"reportingStoreItemId\"b1\"sagaId\"b1\"storeId\"b1\"storePlaylistId\"b1\"storefrontId\"b1\"subscriptionStoreItemId\"b1\"cloudMatchedStatus\"b1\"cloudPlaybackEndpointType\"b1\"cloudStatus\"b1\"contentRating\"b1\"contentRatingLevel\"b1\"drmVersionsCode\"b1\"fileKind\"b1\"likedState\"b1\"mediaType\"b1\"playCount\"b1\"playCountDelta\"b1\"playbackEndpointType\"b1\"purchaseHistoryToken\"b1\"secondaryArtworkSourceType\"b1\"skipCount\"b1\"skipCountDelta\"b1\"storeProtectionType\"b1\"year\"b1\"cloudAssetAvailable\"b1\"explicitContent\"b1\"hasChapterData\"b1\"hasLocalAsset\"b1\"hidden\"b1\"inUsersCloudLibrary\"b1\"isInUsersLibrary\"b1\"isPreorder\"b1\"likedStateChanged\"b1\"needsReporting\"b1\"rememberBookmark\"b1\"userDisabled\"b1}"
+- "{?=\"likedStateChangedDate\"b1\"persistentId\"b1\"storeId\"b1\"likedState\"b1\"numDiscs\"b1\"numTracks\"b1\"userRating\"b1\"compilation\"b1}"
+- "{map<unsigned int, unsigned long, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, unsigned long>>>=\"__tree_\"{__tree<std::__value_type<unsigned int, unsigned long>, std::__map_value_compare<unsigned int, std::__value_type<unsigned int, unsigned long>, std::less<unsigned int>>, std::allocator<std::__value_type<unsigned int, unsigned long>>>=\"__begin_node_\"^v\"\"{?=\"__end_node_\"{__tree_end_node<std::__tree_node_base<void *> *>=\"__left_\"^v}}\"\"{?=\"__size_\"Q}}}"
+- "{unordered_map<long long, std::string, std::hash<long long>, std::equal_to<long long>, std::allocator<std::pair<const long long, std::string>>>=\"__table_\"{__hash_table<std::__hash_value_type<long long, std::string>, std::__unordered_map_hasher<long long, std::__hash_value_type<long long, std::string>, std::hash<long long>, std::equal_to<long long>>, std::__unordered_map_equal<long long, std::__hash_value_type<long long, std::string>, std::equal_to<long long>, std::hash<long long>>, std::allocator<std::__hash_value_type<long long, std::string>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, std::string>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, std::string>, void *> *> *>>>=\"\"{?=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, std::string>, void *> *> *>>=\"\"{?=\"__size_\"Q}}}}\"\"{?=\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<long long, std::string>, void *> *>=\"__next_\"^v}}\"\"{?=\"__size_\"Q}\"\"{?=\"__max_load_factor_\"f}}}"
+
+```

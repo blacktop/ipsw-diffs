@@ -1,0 +1,270 @@
+## libswiftCoreMedia.dylib
+
+> `/usr/lib/swift/libswiftCoreMedia.dylib`
+
+```diff
+
+-3300.7.1.1.1
+-  __TEXT.__text: 0x4a7d4
+-  __TEXT.__auth_stubs: 0x1f20
+-  __TEXT.__const: 0x6b00
+-  __TEXT.__swift5_typeref: 0x18bd
++3305.19.1.0.0
++  __TEXT.__text: 0x4b72c
++  __TEXT.__auth_stubs: 0x1f00
++  __TEXT.__const: 0x6c30
++  __TEXT.__swift5_typeref: 0x18cd
+   __TEXT.__swift5_fieldmd: 0x1388
+   __TEXT.__constg_swiftt: 0x1698
+-  __TEXT.__cstring: 0x6fa
+   __TEXT.__swift5_reflstr: 0xf00
+   __TEXT.__swift5_builtin: 0x258
+   __TEXT.__swift5_assocty: 0xec0
++  __TEXT.__swift5_capture: 0x408
+   __TEXT.__swift5_protos: 0x50
+-  __TEXT.__swift5_proto: 0x510
++  __TEXT.__swift5_proto: 0x528
+   __TEXT.__swift5_types: 0x21c
++  __TEXT.__cstring: 0x54c
+   __TEXT.__swift5_mpenum: 0x190
+-  __TEXT.__swift5_capture: 0x3d8
+   __TEXT.__swift5_types2: 0x4
+-  __TEXT.__unwind_info: 0x1af8
+-  __TEXT.__eh_frame: 0x1830
+-  __TEXT.__objc_methname: 0x2b
+-  __DATA_CONST.__got: 0xa00
++  __TEXT.__unwind_info: 0x1c80
++  __TEXT.__eh_frame: 0x19a0
++  __TEXT.__objc_classname: 0x75
++  __TEXT.__objc_methname: 0x59
++  __TEXT.__objc_methtype: 0xf0
++  __TEXT.__objc_stubs: 0x40
++  __DATA_CONST.__got: 0x9f8
+   __DATA_CONST.__const: 0x520
+   __DATA_CONST.__objc_classlist: 0x18
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x10
+-  __AUTH_CONST.__auth_got: 0xf90
+-  __AUTH_CONST.__const: 0x4c30
++  __AUTH_CONST.__auth_got: 0xf88
++  __AUTH_CONST.__const: 0x4c38
+   __AUTH_CONST.__objc_const: 0x270
+   __AUTH.__data: 0x360
+-  __DATA.__data: 0x1b58
+-  __DATA.__bss: 0x8140
++  __DATA.__data: 0x1b70
++  __DATA.__bss: 0x8440
+   __DATA.__common: 0x1
+-  __DATA_DIRTY.__data: 0x170
++  __DATA_DIRTY.__data: 0x178
+   __DATA_DIRTY.__bss: 0x100
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EFF27AD6-B337-341A-942E-34685E11252D
+-  Functions: 3703
+-  Symbols:   11660
++  UUID: 0433CEE9-AA82-3999-9CA1-FA4A8EB9814F
++  Functions: 3693
++  Symbols:   11639
+   CStrings:  53
+ 
+Symbols:
++ _$s9CoreMedia17TypedCFDictionaryVyxSgSo11CFStringRefacAA0cD13RepresentableRzluisSo014CMSampleBufferF0aAAE16HEVCTemporalInfoV_TB5Tf4gnn_n
++ _$s9CoreMedia24CMMutableDataBlockBufferV04makeeF033_58F9B6594DED3326EAA9717B1979F2F1LL5count11blockSourceSo07CMBlockF3RefaSi_AC0eQ0VSgtFZSvSgSicfU_TA.7
++ _$s9CoreMedia24CMMutableDataBlockBufferV04makeeF033_58F9B6594DED3326EAA9717B1979F2F1LL5count11blockSourceSo07CMBlockF3RefaSi_AC0eQ0VSgtFZySv_SitcfU0_TA.11
++ _$s9CoreMedia24CMMutableDataBlockBufferV04makeeF033_58F9B6594DED3326EAA9717B1979F2F1LL5count11blockSourceSo07CMBlockF3RefaSi_AC0eQ0VSgtFZySv_SitcfU0_TATm
++ _$s9CoreMedia25_CMTimebaseInitTrampolinePAAE11sourceClockxSo10CMClockRefa_tKcfCTm
++ _$s9CoreMedia28_CMBlockBufferInitTrampolinePAAE6length9allocator5range5flagsxSi_So14CFAllocatorRefaSgSnySiGSgSo0cdL0aAAE5FlagsVtKcfCAN_Tt4B5
++ _$s9CoreMedia29CMBufferQueueResetWithHandler5queue7execute6rescueySo0cD3Refa_yyXlKXEys5Error_pKXEtKFyyyXlKcKXEfU_
++ _$s9CoreMedia34_CMFormatDescriptionInitTrampolinePAAE016audioStreamBasicD010layoutSize0J011magicCookie10extensionsxSo05AudiohiD0V_SiSPySo0O13ChannelLayoutVGSg10Foundation4DataVSgSo0cD3RefaAAE10ExtensionsVSgtKcfCAT_Tt5B5
++ _$sSa27unsafeUninitializedCapacity16initializingWithSayxGSi_ySryxGz_Siztqd__YKXEtqd__YKcs5ErrorRd__lufC
++ _$sSiSvSgIegyd_SiAAIegnr_TRTA
++ _$sSo15CMMemoryPoolRefa9CoreMediaE17createBlockBuffer6length21prepareForPaddedWriteSo07CMBlockhC0aSi_SbtKF
++ _$sSo17CMSampleBufferRefa9CoreMediaE26SamplePropertiesCollectionV2eeoiySbAE_AEtFZTf4nnd_n
++ _$sSo17CMSampleBufferRefa9CoreMediaE26SamplePropertiesCollectionVyAbCE0fG0VSicipAETk
++ _$sSo18CMTagCollectionRefa14CoreFoundation9_CFObjectSCMc
++ _$sSo18CMTagCollectionRefa14CoreFoundation9_CFObjectSCMcMK
++ _$sSo18CMTagCollectionRefa14CoreFoundation9_CFObjectSCSHWb
++ _$sSo18CMTagCollectionRefaABSHSCWL
++ _$sSo18CMTagCollectionRefaABSQSCWL
++ _$sSo18CMTagCollectionRefaABSQSCWlTm
++ _$sSo18CMTagCollectionRefaSHSCMc
++ _$sSo18CMTagCollectionRefaSHSCMcMK
++ _$sSo18CMTagCollectionRefaSHSCSH13_rawHashValue4seedS2i_tFTW
++ _$sSo18CMTagCollectionRefaSHSCSH4hash4intoys6HasherVz_tFTW
++ _$sSo18CMTagCollectionRefaSHSCSH9hashValueSivgTW
++ _$sSo18CMTagCollectionRefaSHSCSQWb
++ _$sSo18CMTagCollectionRefaSQSCMc
++ _$sSo18CMTagCollectionRefaSQSCMcMK
++ _$sSo18CMTagCollectionRefaSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo22CMFormatDescriptionRefa14CoreFoundation9_CFObjectSCMc
++ _$sSo22CMFormatDescriptionRefa14CoreFoundation9_CFObjectSCMcMK
++ _$sSo22CMFormatDescriptionRefa14CoreFoundation9_CFObjectSCSHWb
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV8FontFaceV3allAIvpZ
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV8FontFaceV3all_WZ
++ _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV8FontFaceV3all_Wz
++ _$sSo22CMFormatDescriptionRefaABSHSCWL
++ _$sSo22CMFormatDescriptionRefaABSQSCWL
++ _$sSo22CMFormatDescriptionRefaSHSCMc
++ _$sSo22CMFormatDescriptionRefaSHSCMcMK
++ _$sSo22CMFormatDescriptionRefaSHSCSH13_rawHashValue4seedS2i_tFTW
++ _$sSo22CMFormatDescriptionRefaSHSCSH4hash4intoys6HasherVz_tFTW
++ _$sSo22CMFormatDescriptionRefaSHSCSH9hashValueSivgTW
++ _$sSo22CMFormatDescriptionRefaSHSCSQWb
++ _$sSo22CMFormatDescriptionRefaSQSCMc
++ _$sSo22CMFormatDescriptionRefaSQSCMcMK
++ _$sSo22CMFormatDescriptionRefaSQSCSQ2eeoiySbx_xtFZTW
++ _$ss15ContiguousArrayV22_allocateUninitializedyAByxG_SpyxGtSiFZ
++ _$ss15ContiguousArrayV27unsafeUninitializedCapacity16initializingWithAByxGSi_ySryxGz_Siztqd__YKXEtqd__YKcs5ErrorRd__lufC
++ _$ss15ContiguousArrayV28_allocateBufferUninitialized15minimumCapacitys01_abD0VyxGSi_tFZ
++ _$syXlIegg_yXlytIegnr_TR
++ _$syXlSbIeggd_yXlSbIegnr_TRTA.142
++ _$syXlSiIeggd_yXlSiIegnr_TRTA.122
++ _$syXlSo6CMTimeaIeggd_yXlABIegnr_TRTA.146
++ _$syXlSo6CMTimeaIeggd_yXlABIegnr_TRTA.154
++ _$syXlSo6CMTimeaIeggd_yXlABIegnr_TRTA.158
++ _$syXlSo6CMTimeaIeggd_yXlABIegnr_TRTA.166
++ _$syXlSo6CMTimeaIeggd_yXlABIegnr_TRTA.170
++ _$syXlSo6CMTimeaIegnr_yXlABIeggd_TRTA.150
++ _$syXlSo6CMTimeaIegnr_yXlABIeggd_TRTA.162
++ _$syXlyXlSo18CFComparisonResultVIegggd_yXlyXlABIegnnr_TRTA.132
++ _$sypSgWOhTm
++ _associated conformance So18CMTagCollectionRefa14CoreFoundation9_CFObjectSCSH
++ _associated conformance So18CMTagCollectionRefaSHSCSQ
++ _associated conformance So22CMFormatDescriptionRefa14CoreFoundation9_CFObjectSCSH
++ _associated conformance So22CMFormatDescriptionRefaSHSCSQ
++ _block_copy_helper.4
++ _block_copy_helper.43
++ _block_copy_helper.7
++ _block_copy_helper.71
++ _block_copy_helper.74
++ _block_copy_helper.77
++ _block_copy_helper.80
++ _block_copy_helper.83
++ _block_copy_helper.86
++ _block_descriptor.45
++ _block_descriptor.6
++ _block_descriptor.73
++ _block_descriptor.76
++ _block_descriptor.79
++ _block_descriptor.82
++ _block_descriptor.85
++ _block_descriptor.88
++ _block_descriptor.9
++ _block_destroy_helper.44
++ _block_destroy_helper.5
++ _block_destroy_helper.72
++ _block_destroy_helper.75
++ _block_destroy_helper.78
++ _block_destroy_helper.8
++ _block_destroy_helper.81
++ _block_destroy_helper.84
++ _block_destroy_helper.87
++ _objc_msgSend$getCFRunLoop
++ _objc_msgSend$initWithDomain:code:userInfo:
++ _objectdestroyTm
++ _symbolic SiSvSgIegyd_
+- _$s10Foundation13__DataStorageC15withUnsafeBytes2in5applyxSnySiG_xSWKXEtKlFSb_Tgq5015$s10Foundation4B26V2eeoiySbAC_ACtFZSbSWXEfU_AA0B0VTf1ncn_nTf4nng_n
+- _$s10Foundation13__DataStorageC15withUnsafeBytes2in5applyxSnySiG_xSWKXEtKlFs5Int32V_Tg50170$s9CoreMedia34_CMFormatDescriptionInitTrampolinePAAE016audioStreamBasicD010layoutSize0J011magicCookie10extensionsxSo05AudiohiD0V_SiSPySo0O13ChannelLayoutVGSg10Foundation4b38VSgSo0cD3RefaAAE10ExtensionsVSgtKcfcs5I21VATSgzXEfU0_AYSWXEfU_So0mN3RefaSgSiSVSgAIIeglyyd_AMTf1ncn_nTf4nngn_n
+- _$s10Foundation4DataV15_RepresentationO22withUnsafeMutableBytesyxxSwKXEKlFyt_Tg5079$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV35CameraCalibrationB56LensCollectionO0I0V03rawG0So012CFDictionaryC0avgySwXEfU_So0jK3Refa0mN0E0P0V0R0V0tubvW0O0U0VTf1ncn_n
+- _$s10Foundation4DataV15withUnsafeBytesyxxSWKXEKlFSb_Tgq5015$s10Foundation4B26V2eeoiySbAC_ACtFZSbSWXEfU_ACTf1cn_n
+- _$s10Foundation4DataV15withUnsafeBytesyxxSWKXEKlFs5Int32V_Tg50170$s9CoreMedia34_CMFormatDescriptionInitTrampolinePAAE016audioStreamBasicD010layoutSize0J011magicCookie10extensionsxSo05AudiohiD0V_SiSPySo0O13ChannelLayoutVGSg10Foundation4b38VSgSo0cD3RefaAAE10ExtensionsVSgtKcfcs5F21VATSgzXEfU0_AYSWXEfU_So0jK3RefaSgSiSVSgAFIeglyyd_AJTf1cn_n
+- _$s6Darwin5noErrs5Int32Vvg
+- _$s9CoreAudio07ManagedB13ChannelLayoutVSgWOhTm
+- _$s9CoreMedia16ConcurrentAccessO7WrapperPAASo17CMSampleBufferRefa8CMObjectRtzrlE19outputSampleTimingsAgAE09TimingPerK0OSgvgySrySo0fM4InfoaGz_SiztXEfU0_AC11CopyOnWriteVy_AGG_TG5TA
+- _$s9CoreMedia17TypedCFDictionaryVyxSgSo11CFStringRefacAA0cD13RepresentableRzluisSo014CMSampleBufferF0aAAE16HEVCTemporalInfoV_TB5
+- _$s9CoreMedia17TypedCFDictionaryVyxSgSo11CFStringRefacSYRzAA17CanBeCastAsCFType8RawValueRpzluigSo019CMFormatDescriptionF0aAAE10ExtensionsV0M0V35CameraCalibrationDataLensCollectionO0T4RoleO_Tg5
+- _$s9CoreMedia24CMMutableDataBlockBufferV04makeeF033_58F9B6594DED3326EAA9717B1979F2F1LL5count11blockSourceSo07CMBlockF3RefaSi_AC0eQ0VSgtFZTf4nnd_n
+- _$s9CoreMedia29CMAttachmentBearerAttachmentsVyAC5ValueOSgSo17CMSampleBufferRefaAAE13AttachmentKeyVcipACTK
+- _$s9CoreMedia34_CMFormatDescriptionInitTrampolinePAAE17h264ParameterSets19nalUnitHeaderLengthxSay10Foundation4DataVG_SitKcfCTv_r
+- _$s9CoreMedia34_CMFormatDescriptionInitTrampolinePAAE17h264ParameterSets19nalUnitHeaderLengthxSay10Foundation4DataVG_SitKcfcySo9CFDataRefaXEfU_Tm
+- _$s9CoreMedia34_CMFormatDescriptionInitTrampolinePAAE17hevcParameterSets19nalUnitHeaderLength10extensionsxSay10Foundation4DataVG_SiSo0cD3RefaAAE10ExtensionsVSgtKcfCTv_r
+- _$sSTsE10allSatisfyyS2b7ElementQzKXEKFs12Zip2SequenceVySo17CMSampleBufferRefa9CoreMediaE26SamplePropertiesCollectionVAJG_TB506$sSo17fg5Refa9ij3E16kl65VAESbIegnnd_AE_AEtSbs5Error_pIegndzo_TR06$sSo17ab5Refa9de3E26fg36m9V2eeoiySbt1_U40FZSbyKXEfu_O18AbCE0fG0V_AHtcfu0_Tf3npf_nTf1cn_n
+- _$sSTsE7forEachyyy7ElementQzKXEKFSDySiSSG_Tg5107$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV9fontTableyAGSDySiSSGFZySi3key_SS5valuet_tXEfU_SDySo11CFStringRefaypGTf1cn_n
+- _$sSTsE7forEachyyy7ElementQzKXEKFSaySo9CFDataRefaG_Tg50127$s9CoreMedia34_CMFormatDescriptionInitTrampolinePAAE17h264ParameterSets19nalUnitHeaderLengthxSay10Foundation4DataVG_SitKcfcySo9D9RefaXEfU_SaySPys5UInt8VGGSaySiGTf1cn_nTm
+- _$sSa28_unsafeUninitializedCapacity16initializingWithSayxGSi_ySryxGz_SiztKXEtKcfC
+- _$sSa28_unsafeUninitializedCapacity16initializingWithSayxGSi_ySryxGz_SiztKXEtKcfCSo18CMSampleTimingInfoa_Tt1g5
+- _$sSiSvSgIegyd_SgWOe
+- _$sSksSx5IndexRpzSnyABG7IndicesRtzSiAA_6StrideRTzrlE5index5afterA2B_tF9CoreMedia24CMMutableDataBlockBufferV0J6RegionV_TB5
+- _$sSksSx5IndexRpzSnyABG7IndicesRtzSiAA_6StrideRTzrlE5index5afterA2B_tF9CoreMedia24CMMutableDataBlockBufferV0J6RegionV_TB5Tm
+- _$sSksSx5IndexRpzSnyABG7IndicesRtzSiAA_6StrideRTzrlE5index5afterA2B_tF9CoreMedia25CMReadOnlyDataBlockBufferV0K6RegionV_TB5
+- _$sSksSx5IndexRpzSnyABG7IndicesRtzSiAA_6StrideRTzrlE5index6beforeA2B_tF9CoreMedia24CMMutableDataBlockBufferV0J6RegionV_TB5Tm
+- _$sSksSx5IndexRpzSnyABG7IndicesRtzSiAA_6StrideRTzrlE5index6beforeA2B_tF9CoreMedia25CMReadOnlyDataBlockBufferV0K6RegionV_TB5
+- _$sSo10CMClockRefa9CoreMediaE5ErrorV24missingRequiredParameter_WZTm
+- _$sSo15CFDictionaryRefaABSQSCWlTm
+- _$sSo16CMBlockBufferRefa9CoreMediaE5ErrorV25structureAllocationFailed_WZTm
+- _$sSo16CMBufferQueueRefa9CoreMediaE5ErrorV16allocationFailed_WZTm
+- _$sSo16CMBufferQueueRefa9CoreMediaE8HandlersV04withA9CallbacksAESo0aH0a_tc33_CEB32E858019D60D82AEACE4D2E0EB3DLlfC
+- _$sSo16CMBufferQueueRefa9CoreMediaE8HandlersV7BuilderVWOc
+- _$sSo16CMSimpleQueueRefa9CoreMediaE5ErrorV16allocationFailed_WZTm
+- _$sSo17CMSampleBufferRefa9CoreMediaE26SamplePropertiesCollectionV13attachmentsAtAbCE0F11AttachmentsVSi_tc33_552312A111B033E78153AB340F5C4AD3Llig
+- _$sSo17CMSampleBufferRefa9CoreMediaE26SamplePropertiesCollectionV5sizesAbCE07SizePerF0OSgvpAETK
+- _$sSo17CMSampleBufferRefa9CoreMediaE26SamplePropertiesCollectionVyAbCE0fG0VSicipAETK
+- _$sSo17CMSampleBufferRefa9CoreMediaE30PerSampleAttachmentsDictionaryVyypSgAE3KeyVcipAETK
+- _$sSo17CMSampleBufferRefa9CoreMediaE5ErrorV16allocationFailed_WZTm
+- _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV35CameraCalibrationDataLensCollectionOWOj0_
+- _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV5ValueV35CameraCalibrationDataLensCollectionOWOj_
+- _$sSo22CMFormatDescriptionRefa9CoreMediaE10ExtensionsVyAE5ValueVSgAE3KeyVcipAETK
+- _$sSo22CMFormatDescriptionRefa9CoreMediaE22ParameterSetCollectionVSkACSk5index_8offsetBy07limitedK05IndexQzSgAJ_SiAJtFTWTm
+- _$sSo22CMFormatDescriptionRefa9CoreMediaE5ErrorV16invalidParameter_WZTm
+- _$sSo22CMTaggedBufferGroupRefaSk9CoreMediaSk5index_8offsetBy07limitedI05IndexQzSgAH_SiAHtFTWTm
+- _$sSvSiIegyy_SgWOe
+- _$ss10SetAlgebraPs7ElementQz012ArrayLiteralC0RtzrlE05arrayE0xAFd_tcfCSo11CMTimeFlagsV_Tgq5Tf4gd_n
+- _$ss12Zip2SequenceVMn
+- _$ss12Zip2SequenceVySo17CMSampleBufferRefa9CoreMediaE26SamplePropertiesCollectionVAGGMR
+- _$ss12Zip2SequenceVySo17CMSampleBufferRefa9CoreMediaE26SamplePropertiesCollectionVAGGMd
+- _$ss23_ContiguousArrayStorageCySnySiGGMR
+- _$ss23_ContiguousArrayStorageCySnySiGGMd
+- _$ss8Sendable_pWOb
+- _$syXlIegg_yXlytIegnr_TRTA.46
+- _$syXlSbIeggd_SgWOe
+- _$syXlSbIeggd_SgWOy
+- _$syXlSbIeggd_yXlSbIegnr_TRTA.149
+- _$syXlSiIeggd_yXlSiIegnr_TRTA.129
+- _$syXlSo6CMTimeaIeggd_SgWOe
+- _$syXlSo6CMTimeaIeggd_SgWOy
+- _$syXlSo6CMTimeaIeggd_yXlABIegnr_TRTA.153
+- _$syXlSo6CMTimeaIeggd_yXlABIegnr_TRTA.161
+- _$syXlSo6CMTimeaIeggd_yXlABIegnr_TRTA.165
+- _$syXlSo6CMTimeaIeggd_yXlABIegnr_TRTA.173
+- _$syXlSo6CMTimeaIeggd_yXlABIegnr_TRTA.177
+- _$syXlSo6CMTimeaIegnr_yXlABIeggd_TRTA.157
+- _$syXlSo6CMTimeaIegnr_yXlABIeggd_TRTA.169
+- _$syXlyXlSo18CFComparisonResultVIegggd_yXlyXlABIegnnr_TRTA.139
+- _block_copy_helper.34
+- _block_copy_helper.37
+- _block_copy_helper.50
+- _block_copy_helper.78
+- _block_copy_helper.81
+- _block_copy_helper.84
+- _block_copy_helper.87
+- _block_copy_helper.90
+- _block_copy_helper.93
+- _block_descriptor.36
+- _block_descriptor.39
+- _block_descriptor.52
+- _block_descriptor.80
+- _block_descriptor.83
+- _block_descriptor.86
+- _block_descriptor.89
+- _block_descriptor.92
+- _block_descriptor.95
+- _block_destroy_helper.35
+- _block_destroy_helper.38
+- _block_destroy_helper.51
+- _block_destroy_helper.79
+- _block_destroy_helper.82
+- _block_destroy_helper.85
+- _block_destroy_helper.88
+- _block_destroy_helper.91
+- _block_destroy_helper.94
+- _malloc
+- _objectdestroy.21Tm
+- _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
+- _symbolic _____y_____ABG s12Zip2SequenceV So17CMSampleBufferRefa9CoreMediaE26SamplePropertiesCollectionV
+
+```

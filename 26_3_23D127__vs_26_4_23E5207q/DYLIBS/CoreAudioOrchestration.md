@@ -1,0 +1,417 @@
+## CoreAudioOrchestration
+
+> `/System/Library/PrivateFrameworks/CoreAudioOrchestration.framework/CoreAudioOrchestration`
+
+```diff
+
+-50.408.0.0.0
+-  __TEXT.__text: 0x59e20
+-  __TEXT.__auth_stubs: 0x1460
+-  __TEXT.__objc_methlist: 0x95c
+-  __TEXT.__const: 0xb004
+-  __TEXT.__gcc_except_tab: 0x888
+-  __TEXT.__cstring: 0x2472
+-  __TEXT.__oslogstring: 0x1bfa
+-  __TEXT.__swift5_typeref: 0x2424
+-  __TEXT.__swift5_fieldmd: 0x228c
+-  __TEXT.__constg_swiftt: 0x353c
+-  __TEXT.__swift5_reflstr: 0xff7
++50.507.0.0.0
++  __TEXT.__text: 0x6829c
++  __TEXT.__auth_stubs: 0x15a0
++  __TEXT.__objc_methlist: 0x9fc
++  __TEXT.__const: 0xb2d4
++  __TEXT.__gcc_except_tab: 0xa94
++  __TEXT.__oslogstring: 0x1dca
++  __TEXT.__cstring: 0x16bb
++  __TEXT.__constg_swiftt: 0x36ac
++  __TEXT.__swift5_typeref: 0x24cc
++  __TEXT.__swift5_reflstr: 0x1087
++  __TEXT.__swift5_fieldmd: 0x2348
+   __TEXT.__swift5_builtin: 0x8c
+   __TEXT.__swift5_assocty: 0x298
+-  __TEXT.__swift5_protos: 0x50
+-  __TEXT.__swift5_proto: 0x9e8
+-  __TEXT.__swift5_types: 0x368
++  __TEXT.__swift5_proto: 0x9f4
++  __TEXT.__swift5_types: 0x378
++  __TEXT.__swift5_protos: 0x54
+   __TEXT.__swift5_mpenum: 0x48
+-  __TEXT.__swift5_capture: 0x1b8
+-  __TEXT.__unwind_info: 0x2070
+-  __TEXT.__eh_frame: 0x2a28
+-  __TEXT.__objc_classname: 0x2c2
+-  __TEXT.__objc_methname: 0xf4c
+-  __TEXT.__objc_methtype: 0x11e7
+-  __TEXT.__objc_stubs: 0x8e0
+-  __DATA_CONST.__got: 0x288
++  __TEXT.__swift5_capture: 0x1a8
++  __TEXT.__unwind_info: 0x2200
++  __TEXT.__eh_frame: 0x2a48
++  __TEXT.__objc_classname: 0x1253
++  __TEXT.__objc_methname: 0x179b
++  __TEXT.__objc_methtype: 0x12be
++  __TEXT.__objc_stubs: 0xd20
++  __DATA_CONST.__got: 0x2c0
+   __DATA_CONST.__const: 0x98
+-  __DATA_CONST.__objc_classlist: 0x240
++  __DATA_CONST.__objc_classlist: 0x268
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0xc0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x4a0
++  __DATA_CONST.__objc_selrefs: 0x4f0
+   __DATA_CONST.__objc_protorefs: 0x50
+-  __DATA_CONST.__objc_superrefs: 0x38
+-  __AUTH_CONST.__auth_got: 0xa40
+-  __AUTH_CONST.__const: 0x59b0
+-  __AUTH_CONST.__cfstring: 0x1a0
+-  __AUTH_CONST.__objc_const: 0x4948
+-  __AUTH.__objc_data: 0x978
+-  __AUTH.__data: 0x3780
+-  __DATA.__objc_ivar: 0x58
+-  __DATA.__data: 0x22e0
+-  __DATA.__bss: 0x13160
++  __DATA_CONST.__objc_superrefs: 0x40
++  __AUTH_CONST.__auth_got: 0xae0
++  __AUTH_CONST.__const: 0x5a10
++  __AUTH_CONST.__cfstring: 0x1c0
++  __AUTH_CONST.__objc_const: 0x50f8
++  __AUTH.__objc_data: 0xaa0
++  __AUTH.__data: 0x39d8
++  __DATA.__objc_ivar: 0x5c
++  __DATA.__data: 0x2388
++  __DATA.__bss: 0x13170
+   __DATA.__common: 0x48
+   - /System/Library/Frameworks/CoreAudio.framework/CoreAudio
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreAudio_Private.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+-  - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 61AED241-A6EF-3E1E-AE6B-E0DF0FAF7621
+-  Functions: 2738
+-  Symbols:   2242
+-  CStrings:  708
++  UUID: 7B71B63F-FA2F-37D7-8004-B7496BB995F7
++  Functions: 2840
++  Symbols:   2436
++  CStrings:  772
+ 
+Symbols:
++ -[ADMIOConfigurator .cxx_construct]
++ -[ADMIOConfigurator .cxx_destruct]
++ -[ADMIOConfigurator configure:]
++ -[ADMIOConfigurator initWithADMIO:]
++ GCC_except_table22
++ GCC_except_table24
++ GCC_except_table33
++ GCC_except_table38
++ _OBJC_CLASS_$_ADMIOConfigurator
++ _OBJC_CLASS_$_NSArray
++ _OBJC_CLASS_$_StaticUseCaseADMConfiguration
++ _OBJC_IVAR_$_ADMIOConfigurator.mADMIO
++ _OBJC_METACLASS_$_ADMIOConfigurator
++ _OBJC_METACLASS_$_StaticUseCaseADMConfiguration
++ _OUTLINED_FUNCTION_0
++ _OUTLINED_FUNCTION_1
++ _OUTLINED_FUNCTION_2
++ _ProcessIsolatedDSP
++ _RecruitForIsolatedDSP
++ _StartIsolatedDSP
++ _StopIsolatedDSP
++ __DATA_StaticUseCaseADMConfiguration
++ __DATA__TtC22CoreAudioOrchestration29SecurePairingADMConfiguration
++ __DATA__TtC22CoreAudioOrchestration40PasscodeDetectionSpeakerADMConfiguration
++ __DATA__TtC22CoreAudioOrchestration41PasscodeDetectionReceiverADMConfiguration
++ __INSTANCE_METHODS_StaticUseCaseADMConfiguration
++ __IVARS_StaticUseCaseADMConfiguration
++ __IVARS__TtC22CoreAudioOrchestration29SecurePairingADMConfiguration
++ __IVARS__TtC22CoreAudioOrchestration40PasscodeDetectionSpeakerADMConfiguration
++ __IVARS__TtC22CoreAudioOrchestration41PasscodeDetectionReceiverADMConfiguration
++ __METACLASS_DATA_StaticUseCaseADMConfiguration
++ __METACLASS_DATA__TtC22CoreAudioOrchestration29SecurePairingADMConfiguration
++ __METACLASS_DATA__TtC22CoreAudioOrchestration40PasscodeDetectionSpeakerADMConfiguration
++ __METACLASS_DATA__TtC22CoreAudioOrchestration41PasscodeDetectionReceiverADMConfiguration
++ __OBJC_$_INSTANCE_METHODS_ADMIOConfigurator
++ __OBJC_$_INSTANCE_VARIABLES_ADMIOConfigurator
++ __OBJC_$_PROP_LIST_ADMIOConfigurator
++ __OBJC_CLASS_PROTOCOLS_$_ADMIOConfigurator
++ __OBJC_CLASS_RO_$_ADMIOConfigurator
++ __OBJC_METACLASS_RO_$_ADMIOConfigurator
++ __PROPERTIES_StaticUseCaseADMConfiguration
++ __ZGVZN15IsolatedDSPHost11getInstanceEvE7admHost
++ __ZN15IsolatedDSPHost11getInstanceEv
++ __ZN15IsolatedDSPHost4doIOE15IOProcArguments
++ __ZN15IsolatedDSPHostC2Ev
++ __ZN15IsolatedDSPHostD1Ev
++ __ZN5caulk9semaphore6signalEv
++ __ZN5caulk9semaphoreC1Ej
++ __ZN5caulk9semaphoreD1Ev
++ __ZNKSt3__113__atomic_baseIjLb0EE4waitB9foe210106EjNS_12memory_orderE
++ __ZNKSt3__119__shared_weak_count13__get_deleterERKSt9type_info
++ __ZNKSt3__126__atomic_wait_backoff_implINS_13__atomic_baseIjLb0EEEZNS_13__atomic_waitB9foe210106IKS2_jEEvRT_T0_NS_12memory_orderEEUlRKjE_E29__update_monitor_val_and_pollB9foe210106EPVKvRx
++ __ZNKSt3__126__atomic_wait_backoff_implINS_13__atomic_baseIjLb0EEEZNS_13__atomic_waitB9foe210106IKS2_jEEvRT_T0_NS_12memory_orderEEUlRKjE_EclB9foe210106ENS_6chrono8durationIxNS_5ratioILl1ELl1000000000EEEEE
++ __ZNSt12length_errorC1B9foe210106EPKc
++ __ZNSt12out_of_rangeC1B9foe210106EPKc
++ __ZNSt12out_of_rangeD1Ev
++ __ZNSt3__110__function12__value_funcIFvjEED2B9foe210106Ev
++ __ZNSt3__110__function12__value_funcIFvjRKN4AMCP15Proc_Cycle_InfoEmPNS2_11Proc_StreamEmS7_EE4swapB9foe210106ERS9_
++ __ZNSt3__110__function12__value_funcIFvjRKN4AMCP15Proc_Cycle_InfoEmPNS2_11Proc_StreamEmS7_EEC2B9foe210106ERKS9_
++ __ZNSt3__110__function12__value_funcIFvjRKN4AMCP15Proc_Cycle_InfoEmPNS2_11Proc_StreamEmS7_EED2B9foe210106Ev
++ __ZNSt3__110unique_ptrI14IOLapseHandlerNS_14default_deleteIS1_EEE5resetB9foe210106EPS1_
++ __ZNSt3__110unique_ptrI17MicActivityClientNS_14default_deleteIS1_EEE5resetB9foe210106EPS1_
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIiNS0_I17MicActivityClientNS_14default_deleteIS3_EEEEEEPvEENS_22__tree_node_destructorINS_9allocatorIS9_EEEEED1B9foe210106Ev
++ __ZNSt3__112__stop_state14__request_stopB9foe210106Ev
++ __ZNSt3__113__tree_removeB9foe210106IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__114__split_bufferIU8__strongP13DSPControllerRNS_9allocatorIS3_EEED2Ev
++ __ZNSt3__115allocate_sharedB9foe210106I5ADMIONS_9allocatorIS1_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorI15AudioBufferListEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorI17ExADUseCaseFormatEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN4AMCP11Proc_StreamEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_4pairI26AudioObjectPropertyAddressPFijjPKS3_PvEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSD_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIU8__strongP13DSPControllerEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorImEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__shared_weak_count14__release_weakEv
++ __ZNSt3__119__shared_weak_count16__release_sharedB9foe210106Ev
++ __ZNSt3__119__shared_weak_countD2Ev
++ __ZNSt3__120__atomic_unique_lockIjLj2EE11__lock_implB9foe210106IRKZNS1_6__lockB9foe210106EvEUljE_RKNS1_16__set_locked_bitMUljE_EEEbOT_OT0_NS_12memory_orderE
++ __ZNSt3__120__atomic_unique_lockIjLj2EE11__lock_implB9foe210106IRKZNS_12__stop_state27__try_lock_for_request_stopB9foe210106EvEUljE_RKZNS3_27__try_lock_for_request_stopB9foe210106EvEUljE0_EEbOT_OT0_NS_12memory_orderE
++ __ZNSt3__120__atomic_unique_lockIjLj2EE16__set_locked_bitB9foe210106E
++ __ZNSt3__120__libcpp_atomic_waitEPVKvx
++ __ZNSt3__120__shared_ptr_emplaceI5ADMIONS_9allocatorIS1_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceI5ADMIONS_9allocatorIS1_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceI5ADMIONS_9allocatorIS1_EEEC2B9foe210106IJES3_Li0EEES3_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceI5ADMIONS_9allocatorIS1_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceI5ADMIONS_9allocatorIS1_EEED1Ev
++ __ZNSt3__120__throw_length_errorB9foe210106EPKc
++ __ZNSt3__120__throw_out_of_rangeB9foe210106EPKc
++ __ZNSt3__123__cxx_atomic_notify_allEPVKv
++ __ZNSt3__123__libcpp_atomic_monitorEPVKv
++ __ZNSt3__125__throw_bad_function_callB9foe210106Ev
++ __ZNSt3__127__tree_balance_after_insertB9foe210106IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__132__internal_log_hardening_failureEPKc
++ __ZNSt3__133__libcpp_thread_poll_with_backoffB9foe210106IZNS_20__atomic_wait_unlessB9foe210106INS_13__atomic_baseIjLb0EEEZNS_13__atomic_waitB9foe210106IKS3_jEEvRT_T0_NS_12memory_orderEEUlRKjE_EEvRKS6_S9_OS8_EUlvE_RNS_26__atomic_wait_backoff_implIS3_SC_EEEEbOS6_SF_NS_6chrono8durationIxNS_5ratioILl1ELl1000000000EEEEE
++ __ZNSt3__134__cxx_atomic_compare_exchange_weakB9foe210106IjEEbPNS_22__cxx_atomic_base_implIT_EEPS2_S2_NS_12memory_orderES6_
++ __ZNSt3__16__treeINS_12__value_typeIiNS_10unique_ptrI17MicActivityClientNS_14default_deleteIS3_EEEEEENS_19__map_value_compareIiNS_4pairIKiS6_EENS_4lessIiEELb1EEENS_9allocatorISB_EEE14__erase_uniqueIiEEmRKT_
++ __ZNSt3__16__treeINS_12__value_typeIiNS_10unique_ptrI17MicActivityClientNS_14default_deleteIS3_EEEEEENS_19__map_value_compareIiNS_4pairIKiS6_EENS_4lessIiEELb1EEENS_9allocatorISB_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSM_SM_
++ __ZNSt3__16__treeINS_12__value_typeIiNS_10unique_ptrI17MicActivityClientNS_14default_deleteIS3_EEEEEENS_19__map_value_compareIiNS_4pairIKiS6_EENS_4lessIiEELb1EEENS_9allocatorISB_EEE21__remove_node_pointerEPNS_11__tree_nodeIS7_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIiNS_10unique_ptrI17MicActivityClientNS_14default_deleteIS3_EEEEEENS_19__map_value_compareIiNS_4pairIKiS6_EENS_4lessIiEELb1EEENS_9allocatorISB_EEE25__emplace_unique_key_argsIiJRKNS_21piecewise_construct_tENS_5tupleIJRSA_EEENSM_IJEEEEEENS9_INS_15__tree_iteratorIS7_PNS_11__tree_nodeIS7_PvEElEEbEERKT_DpOT0_
++ __ZNSt3__16__treeINS_12__value_typeIiNS_10unique_ptrI17MicActivityClientNS_14default_deleteIS3_EEEEEENS_19__map_value_compareIiNS_4pairIKiS6_EENS_4lessIiEELb1EEENS_9allocatorISB_EEE5eraseENS_21__tree_const_iteratorIS7_PNS_11__tree_nodeIS7_PvEElEE
++ __ZNSt3__16__treeINS_12__value_typeIiNS_10unique_ptrI17MicActivityClientNS_14default_deleteIS3_EEEEEENS_19__map_value_compareIiNS_4pairIKiS6_EENS_4lessIiEELb1EEENS_9allocatorISB_EEE7destroyEPNS_11__tree_nodeIS7_PvEE
++ __ZNSt3__16chrono12steady_clock3nowEv
++ __ZNSt3__16thread4joinEv
++ __ZNSt3__16threadD1Ev
++ __ZNSt3__16vectorI15AudioBufferListNS_9allocatorIS1_EEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorI15AudioBufferListNS_9allocatorIS1_EEE18__assign_with_sizeB9foe210106IPS1_S6_EEvT_T0_l
++ __ZNSt3__16vectorI15AudioBufferListNS_9allocatorIS1_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorI15AudioBufferListNS_9allocatorIS1_EEEC2B9foe210106EmRKS1_
++ __ZNSt3__16vectorI17ExADUseCaseFormatNS_9allocatorIS1_EEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorI17ExADUseCaseFormatNS_9allocatorIS1_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorI17ExADUseCaseFormatNS_9allocatorIS1_EEEC2B9foe210106Em
++ __ZNSt3__16vectorIN4AMCP11Proc_StreamENS_9allocatorIS2_EEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorIN4AMCP11Proc_StreamENS_9allocatorIS2_EEE18__assign_with_sizeB9foe210106IPS2_S7_EEvT_T0_l
++ __ZNSt3__16vectorIN4AMCP11Proc_StreamENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN4AMCP11Proc_StreamENS_9allocatorIS2_EEEC2B9foe210106EmRKS2_
++ __ZNSt3__16vectorINS_4pairI26AudioObjectPropertyAddressPFijjPKS2_PvEEENS_9allocatorIS8_EEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorINS_4pairI26AudioObjectPropertyAddressPFijjPKS2_PvEEENS_9allocatorIS8_EEE16__init_with_sizeB9foe210106IPKS8_SE_EEvT_T0_m
++ __ZNSt3__16vectorINS_4pairI26AudioObjectPropertyAddressPFijjPKS2_PvEEENS_9allocatorIS8_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIU8__strongP13DSPControllerNS_9allocatorIS3_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorIU8__strongP13DSPControllerNS_9allocatorIS3_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIU8__strongP13DSPControllerNS_9allocatorIS3_EEE20__throw_out_of_rangeB9foe210106Ev
++ __ZNSt3__16vectorIU8__strongP13DSPControllerNS_9allocatorIS3_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS3_RS5_EE
++ __ZNSt3__16vectorImNS_9allocatorImEEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorImNS_9allocatorImEEE18__assign_with_sizeB9foe210106IPmS5_EEvT_T0_l
++ __ZNSt3__16vectorImNS_9allocatorImEEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorImNS_9allocatorImEEEC2B9foe210106Em
++ __ZNSt3__17jthreadD2B9foe210106Ev
++ __ZSt28__throw_bad_array_new_lengthB9foe210106v
++ __ZTINSt3__119__shared_weak_countE
++ __ZTINSt3__120__shared_ptr_emplaceI5ADMIONS_9allocatorIS1_EEEE
++ __ZTISt12out_of_range
++ __ZTSNSt3__120__shared_ptr_emplaceI5ADMIONS_9allocatorIS1_EEEE
++ __ZTVNSt3__120__shared_ptr_emplaceI5ADMIONS_9allocatorIS1_EEEE
++ __ZTVSt12out_of_range
++ __ZZN15IsolatedDSPHost11getInstanceEvE7admHost
++ ___cxa_atexit
++ ___cxa_guard_abort
++ _objc_msgSend$JSONObjectWithData:options:error:
++ _objc_msgSend$activate
++ _objc_msgSend$adaptDictionaries
++ _objc_msgSend$adaptToConfigurationChange:error:inputStreamIndicesInIOProc:outputStreamIndicesInIOProc:frameBufferSize:
++ _objc_msgSend$createFrom:forUseCase:destination:error:
++ _objc_msgSend$dataWithJSONObject:options:error:
++ _objc_msgSend$doubleValue
++ _objc_msgSend$frameBufferSize
++ _objc_msgSend$handleIncomingConfigurationEvent:
++ _objc_msgSend$init
++ _objc_msgSend$initFormat:
++ _objc_msgSend$initWithADMIO:
++ _objc_msgSend$initWithBundleID:withLogger:andADMConfigurator:andHALDSPFactory:andHostCallbacks:
++ _objc_msgSend$initWithMachServiceName:
++ _objc_msgSend$initWithSampleRate:andChannels:andFrameSize:
++ _objc_msgSend$initWithUseCaseID:
++ _objc_msgSend$initWithUseCaseID:andDeviceTreeInfo:
++ _objc_msgSend$intValue
++ _objc_msgSend$integerValue
++ _objc_msgSend$isValidJSONObject:
++ _objc_msgSend$lock
++ _objc_msgSend$negotiateDictionaries
++ _objc_msgSend$objectAtIndexedSubscript:
++ _objc_msgSend$processIdentifier
++ _objc_msgSend$referenceDeviceUID
++ _objc_msgSend$setDelegate:
++ _objc_msgSend$setExportedInterface:
++ _objc_msgSend$setExportedObject:
++ _objc_msgSend$setSelfConfigureHandler:
++ _objc_msgSend$startIO
++ _objc_msgSend$stopIO
++ _objc_msgSend$unlock
++ _objc_msgSend$unsignedIntValue
++ _objc_msgSend$valueForEntitlement:
++ _objc_retain_x26
++ _objc_unsafeClaimAutoreleasedReturnValue
++ _pthread_self
++ _swift_willThrowTypedImpl
++ _symbolic $s22CoreAudioOrchestration42UseCaseSpecificADMConfigurationDescriptionP
++ _symbolic SDySSypG
++ _symbolic SS_ypt
++ _symbolic SaySDySSypGG
++ _symbolic SaySSG
++ _symbolic Say______pGSg 22CoreAudioOrchestration42UseCaseSpecificADMConfigurationDescriptionP
++ _symbolic _____ 22CoreAudioOrchestration29SecurePairingADMConfigurationC
++ _symbolic _____ 22CoreAudioOrchestration29StaticUseCaseADMConfigurationC
++ _symbolic _____ 22CoreAudioOrchestration40PasscodeDetectionSpeakerADMConfigurationC
++ _symbolic _____ 22CoreAudioOrchestration41PasscodeDetectionReceiverADMConfigurationC
++ _symbolic _____ySDySSypGG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_yptG s23_ContiguousArrayStorageC
++ _symbolic _____ySSypG s18_DictionaryStorageC
++ _symbolic _____y_____G s11_SetStorageC 22CoreAudioOrchestration0D10DeviceInfoC
++ _symbolic _____y_____G s11_SetStorageC 22CoreAudioOrchestration3ADMV15ContextSemanticO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22CoreAudioOrchestration0E16StreamFormatInfoV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22CoreAudioOrchestration3ADMV15ContextSemanticO
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 22CoreAudioOrchestration42UseCaseSpecificADMConfigurationDescriptionP
+- __ZNSt12length_errorC1B8ne200100EPKc
+- __ZNSt3__110__function12__value_funcIFvjEED2B8ne200100Ev
+- __ZNSt3__110__function12__value_funcIFvjRKN4AMCP15Proc_Cycle_InfoEmPNS2_11Proc_StreamEmS7_EE4swapB8ne200100ERS9_
+- __ZNSt3__110__function12__value_funcIFvjRKN4AMCP15Proc_Cycle_InfoEmPNS2_11Proc_StreamEmS7_EEC2B8ne200100ERKS9_
+- __ZNSt3__110__function12__value_funcIFvjRKN4AMCP15Proc_Cycle_InfoEmPNS2_11Proc_StreamEmS7_EED2B8ne200100Ev
+- __ZNSt3__110unique_ptrI14IOLapseHandlerNS_14default_deleteIS1_EEE5resetB8ne200100EPS1_
+- __ZNSt3__110unique_ptrI17MicActivityClientNS_14default_deleteIS1_EEE5resetB8ne200100EPS1_
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIiNS0_I17MicActivityClientNS_14default_deleteIS3_EEEEEEPvEENS_22__tree_node_destructorINS_9allocatorIS9_EEEEED1B8ne200100Ev
+- __ZNSt3__113__tree_removeB8ne200100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorI15AudioBufferListEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorI17ExADUseCaseFormatEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN4AMCP11Proc_StreamEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_4pairI26AudioObjectPropertyAddressPFijjPKS3_PvEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSD_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorImEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__120__throw_length_errorB8ne200100EPKc
+- __ZNSt3__125__throw_bad_function_callB8ne200100Ev
+- __ZNSt3__127__tree_balance_after_insertB8ne200100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__16__treeINS_12__value_typeIiNS_10unique_ptrI17MicActivityClientNS_14default_deleteIS3_EEEEEENS_19__map_value_compareIiS7_NS_4lessIiEELb1EEENS_9allocatorIS7_EEE14__erase_uniqueIiEEmRKT_
+- __ZNSt3__16__treeINS_12__value_typeIiNS_10unique_ptrI17MicActivityClientNS_14default_deleteIS3_EEEEEENS_19__map_value_compareIiS7_NS_4lessIiEELb1EEENS_9allocatorIS7_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSJ_SJ_
+- __ZNSt3__16__treeINS_12__value_typeIiNS_10unique_ptrI17MicActivityClientNS_14default_deleteIS3_EEEEEENS_19__map_value_compareIiS7_NS_4lessIiEELb1EEENS_9allocatorIS7_EEE21__remove_node_pointerEPNS_11__tree_nodeIS7_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIiNS_10unique_ptrI17MicActivityClientNS_14default_deleteIS3_EEEEEENS_19__map_value_compareIiS7_NS_4lessIiEELb1EEENS_9allocatorIS7_EEE25__emplace_unique_key_argsIiJRKNS_21piecewise_construct_tENS_5tupleIJRKiEEENSJ_IJEEEEEENS_4pairINS_15__tree_iteratorIS7_PNS_11__tree_nodeIS7_PvEElEEbEERKT_DpOT0_
+- __ZNSt3__16__treeINS_12__value_typeIiNS_10unique_ptrI17MicActivityClientNS_14default_deleteIS3_EEEEEENS_19__map_value_compareIiS7_NS_4lessIiEELb1EEENS_9allocatorIS7_EEE5eraseENS_21__tree_const_iteratorIS7_PNS_11__tree_nodeIS7_PvEElEE
+- __ZNSt3__16__treeINS_12__value_typeIiNS_10unique_ptrI17MicActivityClientNS_14default_deleteIS3_EEEEEENS_19__map_value_compareIiS7_NS_4lessIiEELb1EEENS_9allocatorIS7_EEE7destroyEPNS_11__tree_nodeIS7_PvEE
+- __ZNSt3__16vectorI15AudioBufferListNS_9allocatorIS1_EEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorI15AudioBufferListNS_9allocatorIS1_EEE18__assign_with_sizeB8ne200100IPS1_S6_EEvT_T0_l
+- __ZNSt3__16vectorI15AudioBufferListNS_9allocatorIS1_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorI15AudioBufferListNS_9allocatorIS1_EEEC2B8ne200100EmRKS1_
+- __ZNSt3__16vectorI17ExADUseCaseFormatNS_9allocatorIS1_EEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorI17ExADUseCaseFormatNS_9allocatorIS1_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorI17ExADUseCaseFormatNS_9allocatorIS1_EEEC2B8ne200100Em
+- __ZNSt3__16vectorIN4AMCP11Proc_StreamENS_9allocatorIS2_EEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorIN4AMCP11Proc_StreamENS_9allocatorIS2_EEE18__assign_with_sizeB8ne200100IPS2_S7_EEvT_T0_l
+- __ZNSt3__16vectorIN4AMCP11Proc_StreamENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN4AMCP11Proc_StreamENS_9allocatorIS2_EEEC2B8ne200100EmRKS2_
+- __ZNSt3__16vectorINS_4pairI26AudioObjectPropertyAddressPFijjPKS2_PvEEENS_9allocatorIS8_EEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorINS_4pairI26AudioObjectPropertyAddressPFijjPKS2_PvEEENS_9allocatorIS8_EEE16__init_with_sizeB8ne200100IPKS8_SE_EEvT_T0_m
+- __ZNSt3__16vectorINS_4pairI26AudioObjectPropertyAddressPFijjPKS2_PvEEENS_9allocatorIS8_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorImNS_9allocatorImEEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorImNS_9allocatorImEEE18__assign_with_sizeB8ne200100IPmS5_EEvT_T0_l
+- __ZNSt3__16vectorImNS_9allocatorImEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorImNS_9allocatorImEEEC2B8ne200100Em
+- __ZSt28__throw_bad_array_new_lengthB8ne200100v
+- _malloc
+- _objc_claimAutoreleasedReturnValue
+- _objc_retain_x25
+- _objc_retain_x28
+- _symbolic ShySiGSg
+- _symbolic ___________t So23IsolatedAudio_UseCaseIDV 04CoreB13Orchestration5RouteC
+- _symbolic _____y______So14NSXPCInterfaceCtG s23_ContiguousArrayStorageC 22CoreAudioOrchestration21OrchestratorClientUIDO
+- _symbolic _____y___________tG s23_ContiguousArrayStorageC So23IsolatedAudio_UseCaseIDV 04CoreE13Orchestration5RouteC
+- _symbolic _____y______yptG s23_ContiguousArrayStorageC 22CoreAudioOrchestration21OrchestratorClientUIDO
+CStrings:
++ "\"use-case-client-format\""
++ "\"use-case-dsp-in-format\""
++ "%25s:%-5d IsolatedDSPHost::RecruitForIsolatedDSP Adapt failed"
++ "%25s:%-5d IsolatedDSPHost::RecruitForIsolatedDSP Adapt success"
++ "%25s:%-5d IsolatedDSPHost::RecruitForIsolatedDSP Negotiate failed"
++ "%25s:%-5d IsolatedDSPHost::RecruitForIsolatedDSP Negotiate success"
++ "%25s:%-5d IsolatedDSPHost::RecruitForIsolatedDSP()"
++ "%25s:%-5d IsolatedDSPHost::StartIsolatedDSP()"
++ "%25s:%-5d IsolatedDSPHost::StopIsolatedDSP()"
++ "/AppleInternal/Library/BuildRoots/4~CHoNugAAVG__br5hyawJMGuo2dXVommz2whcP5k/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CHoNugAAVG__br5hyawJMGuo2dXVommz2whcP5k/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:410: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "@20@0:8I16"
++ "@28@0:8I16@20"
++ "@32@0:8{shared_ptr<ADMIO>=^{ADMIO}^{__shared_weak_count}}16"
++ "ADMIOConfigurator"
++ "CoreAudioOrchestration.StaticUseCaseADMConfiguration"
++ "Could not read EDT Audio format"
++ "Error getting ExclaveAudioFormat from EDT for %s useCase:(%u): %s"
++ "IsolatedDSPHost.mm"
++ "Some-BuiltIn-Receiver-ModelUID-UVW"
++ "Some-BuiltIn-Speaker-DeviceUID"
++ "Some-BuiltIn-Speaker-ModelUID"
++ "Some-BuiltIn-Speaker-ModelUID-UVW"
++ "StaticUseCaseADMConfiguration"
++ "T@\"ExclaveAudioFormatBase\",N,R"
++ "T@\"NSArray\",N,R"
++ "T@\"NSNumber\",N,R"
++ "_TtC22CoreAudioOrchestration29SecurePairingADMConfiguration"
++ "_TtC22CoreAudioOrchestration40PasscodeDetectionSpeakerADMConfiguration"
++ "_TtC22CoreAudioOrchestration41PasscodeDetectionReceiverADMConfiguration"
++ "adaptDictionaries"
++ "admConfigs"
++ "com.apple.securepairingd"
++ "common pcm format"
++ "data source type in"
++ "data source type out"
++ "device descriptions"
++ "device model uid"
++ "doubleValue"
++ "exclaveFormat"
++ "frameBufferSize"
++ "hw streams input"
++ "hw streams output"
++ "initWithADMIO:"
++ "initWithUseCaseID:"
++ "initWithUseCaseID:andDeviceTreeInfo:"
++ "intValue"
++ "io context buffer size"
++ "io context description"
++ "io context semantic list"
++ "io context stream id list"
++ "isolated audio use case id"
++ "latency in samples"
++ "latency out samples"
++ "mADMIO"
++ "negotiateDictionaries"
++ "objectAtIndexedSubscript:"
++ "safety offset in samples"
++ "safety offset out samples"
++ "supported formats"
++ "theUseCaseID"
++ "{shared_ptr<ADMIO>=\"__ptr_\"^{ADMIO}\"__cntrl_\"^{__shared_weak_count}}"
+- "Error getting ExclaveAudioFormat from EDT: %s"
+
+```

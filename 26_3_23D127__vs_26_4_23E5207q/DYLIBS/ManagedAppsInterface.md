@@ -1,0 +1,507 @@
+## ManagedAppsInterface
+
+> `/System/Library/PrivateFrameworks/ManagedAppsInterface.framework/ManagedAppsInterface`
+
+```diff
+
+-55.80.4.0.0
+-  __TEXT.__text: 0x1f6d8
++59.100.16.0.0
++  __TEXT.__text: 0x22060
+   __TEXT.__auth_stubs: 0x9d0
+   __TEXT.__objc_methlist: 0x4d8
+-  __TEXT.__const: 0x1b18
+-  __TEXT.__cstring: 0x14d3
++  __TEXT.__const: 0x1af8
++  __TEXT.__cstring: 0xb73
+   __TEXT.__swift5_typeref: 0x916
+   __TEXT.__constg_swiftt: 0x7b4
+   __TEXT.__swift5_reflstr: 0x2cc
+
+   __TEXT.__swift5_builtin: 0x28
+   __TEXT.__swift5_mpenum: 0x8
+   __TEXT.__swift5_protos: 0x14
+-  __TEXT.__unwind_info: 0xc88
+-  __TEXT.__eh_frame: 0x1488
+-  __TEXT.__objc_classname: 0x18
+-  __TEXT.__objc_methname: 0x53d
+-  __TEXT.__objc_methtype: 0x46
++  __TEXT.__unwind_info: 0xc58
++  __TEXT.__eh_frame: 0x14d8
++  __TEXT.__objc_classname: 0x346
++  __TEXT.__objc_methname: 0x7dd
++  __TEXT.__objc_methtype: 0x5ac
++  __TEXT.__objc_stubs: 0x5c0
+   __DATA_CONST.__got: 0x100
+   __DATA_CONST.__const: 0xf0
+   __DATA_CONST.__objc_classlist: 0x38
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x1a8
+   __DATA_CONST.__objc_protorefs: 0x30
+-  __AUTH_CONST.__auth_got: 0x4e8
++  __AUTH_CONST.__auth_got: 0x4f0
+   __AUTH_CONST.__const: 0x26a8
+   __AUTH_CONST.__objc_const: 0x9d8
+   __AUTH.__objc_data: 0x5a8
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: EFF251B9-EA1F-3198-A83F-7B0995C09387
+-  Functions: 1247
+-  Symbols:   845
+-  CStrings:  207
++  UUID: 2109178C-80E3-3C93-ABDC-30AD62573D46
++  Functions: 1251
++  Symbols:   892
++  CStrings:  210
+ 
+Symbols:
++ __PROTOCOLS__TtC20ManagedAppsInterface24ManagedAppsCredentialRef.21
++ __PROTOCOLS__TtC20ManagedAppsInterface29ManagedAppsAppConfigRecordRef.2
++ __PROTOCOLS__TtC20ManagedAppsInterface35ManagedAppsExtensionConfigRecordRef.14
++ _block_copy_helper.128
++ _block_copy_helper.138
++ _block_copy_helper.145
++ _block_copy_helper.158
++ _block_copy_helper.165
++ _block_copy_helper.171
++ _block_copy_helper.184
++ _block_copy_helper.191
++ _block_copy_helper.198
++ _block_copy_helper.205
++ _block_copy_helper.212
++ _block_copy_helper.219
++ _block_copy_helper.226
++ _block_copy_helper.233
++ _block_copy_helper.239
++ _block_copy_helper.252
++ _block_copy_helper.259
++ _block_copy_helper.266
++ _block_copy_helper.273
++ _block_copy_helper.280
++ _block_copy_helper.286
++ _block_copy_helper.299
++ _block_copy_helper.305
++ _block_copy_helper.318
++ _block_copy_helper.324
++ _block_copy_helper.337
++ _block_copy_helper.344
++ _block_copy_helper.351
++ _block_copy_helper.358
++ _block_copy_helper.365
++ _block_copy_helper.445
++ _block_copy_helper.451
++ _block_copy_helper.457
++ _block_copy_helper.463
++ _block_copy_helper.474
++ _block_copy_helper.480
++ _block_copy_helper.486
++ _block_copy_helper.492
++ _block_copy_helper.498
++ _block_copy_helper.504
++ _block_copy_helper.510
++ _block_copy_helper.516
++ _block_copy_helper.522
++ _block_copy_helper.529
++ _block_copy_helper.540
++ _block_copy_helper.551
++ _block_copy_helper.562
++ _block_copy_helper.573
++ _block_copy_helper.579
++ _block_copy_helper.585
++ _block_copy_helper.591
++ _block_copy_helper.597
++ _block_copy_helper.603
++ _block_copy_helper.609
++ _block_copy_helper.615
++ _block_copy_helper.621
++ _block_copy_helper.627
++ _block_copy_helper.633
++ _block_copy_helper.639
++ _block_copy_helper.645
++ _block_copy_helper.651
++ _block_copy_helper.655
++ _block_copy_helper.659
++ _block_copy_helper.663
++ _block_descriptor.130
++ _block_descriptor.140
++ _block_descriptor.147
++ _block_descriptor.160
++ _block_descriptor.167
++ _block_descriptor.173
++ _block_descriptor.186
++ _block_descriptor.193
++ _block_descriptor.200
++ _block_descriptor.207
++ _block_descriptor.214
++ _block_descriptor.221
++ _block_descriptor.228
++ _block_descriptor.235
++ _block_descriptor.241
++ _block_descriptor.254
++ _block_descriptor.261
++ _block_descriptor.268
++ _block_descriptor.275
++ _block_descriptor.282
++ _block_descriptor.288
++ _block_descriptor.301
++ _block_descriptor.307
++ _block_descriptor.320
++ _block_descriptor.326
++ _block_descriptor.339
++ _block_descriptor.346
++ _block_descriptor.353
++ _block_descriptor.360
++ _block_descriptor.367
++ _block_descriptor.447
++ _block_descriptor.453
++ _block_descriptor.459
++ _block_descriptor.465
++ _block_descriptor.476
++ _block_descriptor.482
++ _block_descriptor.488
++ _block_descriptor.494
++ _block_descriptor.500
++ _block_descriptor.506
++ _block_descriptor.512
++ _block_descriptor.518
++ _block_descriptor.524
++ _block_descriptor.531
++ _block_descriptor.542
++ _block_descriptor.553
++ _block_descriptor.564
++ _block_descriptor.575
++ _block_descriptor.581
++ _block_descriptor.587
++ _block_descriptor.593
++ _block_descriptor.599
++ _block_descriptor.605
++ _block_descriptor.611
++ _block_descriptor.617
++ _block_descriptor.623
++ _block_descriptor.629
++ _block_descriptor.635
++ _block_descriptor.641
++ _block_descriptor.647
++ _block_descriptor.653
++ _block_descriptor.657
++ _block_descriptor.661
++ _block_descriptor.665
++ _block_destroy_helper.129
++ _block_destroy_helper.139
++ _block_destroy_helper.146
++ _block_destroy_helper.159
++ _block_destroy_helper.166
++ _block_destroy_helper.172
++ _block_destroy_helper.185
++ _block_destroy_helper.192
++ _block_destroy_helper.199
++ _block_destroy_helper.206
++ _block_destroy_helper.213
++ _block_destroy_helper.220
++ _block_destroy_helper.227
++ _block_destroy_helper.234
++ _block_destroy_helper.240
++ _block_destroy_helper.253
++ _block_destroy_helper.260
++ _block_destroy_helper.267
++ _block_destroy_helper.274
++ _block_destroy_helper.281
++ _block_destroy_helper.287
++ _block_destroy_helper.300
++ _block_destroy_helper.306
++ _block_destroy_helper.319
++ _block_destroy_helper.325
++ _block_destroy_helper.338
++ _block_destroy_helper.345
++ _block_destroy_helper.352
++ _block_destroy_helper.359
++ _block_destroy_helper.366
++ _block_destroy_helper.446
++ _block_destroy_helper.452
++ _block_destroy_helper.458
++ _block_destroy_helper.464
++ _block_destroy_helper.475
++ _block_destroy_helper.481
++ _block_destroy_helper.487
++ _block_destroy_helper.493
++ _block_destroy_helper.499
++ _block_destroy_helper.505
++ _block_destroy_helper.511
++ _block_destroy_helper.517
++ _block_destroy_helper.523
++ _block_destroy_helper.530
++ _block_destroy_helper.541
++ _block_destroy_helper.552
++ _block_destroy_helper.563
++ _block_destroy_helper.574
++ _block_destroy_helper.580
++ _block_destroy_helper.586
++ _block_destroy_helper.592
++ _block_destroy_helper.598
++ _block_destroy_helper.604
++ _block_destroy_helper.610
++ _block_destroy_helper.616
++ _block_destroy_helper.622
++ _block_destroy_helper.628
++ _block_destroy_helper.634
++ _block_destroy_helper.640
++ _block_destroy_helper.646
++ _block_destroy_helper.652
++ _block_destroy_helper.656
++ _block_destroy_helper.660
++ _block_destroy_helper.664
++ _objc_msgSend$activateAppConfigFor::
++ _objc_msgSend$boolForDefaultsKey:
++ _objc_msgSend$completeRemovalOfAppConfigFor::
++ _objc_msgSend$copyCurrentPersonaContextWithError:
++ _objc_msgSend$createIdentityFromEndpoint:error:
++ _objc_msgSend$createPersonaContextForBackgroundProcessingWithPersonaUniqueString:
++ _objc_msgSend$currentPersona
++ _objc_msgSend$disableAppConfigFor::
++ _objc_msgSend$dumpDatabase:
++ _objc_msgSend$encodeObject:forKey:
++ _objc_msgSend$eraseDatabase:
++ _objc_msgSend$getAllAppConfigState:
++ _objc_msgSend$getCertificateIdentifiers:
++ _objc_msgSend$getCertificateWith::
++ _objc_msgSend$getConfigDetailsData:
++ _objc_msgSend$getIdentityIdentifiers:
++ _objc_msgSend$getIdentityWith::
++ _objc_msgSend$getPasswordIdentifiers:
++ _objc_msgSend$getPasswordWith::
++ _objc_msgSend$init
++ _objc_msgSend$initWithArray:
++ _objc_msgSend$initWithMachServiceName:options:
++ _objc_msgSend$interfaceWithProtocol:
++ _objc_msgSend$invalidate
++ _objc_msgSend$isEnterprisePersona
++ _objc_msgSend$notificationNameForCertificateChange:
++ _objc_msgSend$notificationNameForConfigDetailChange:
++ _objc_msgSend$notificationNameForIdentityChange:
++ _objc_msgSend$notificationNameForPasswordChange:
++ _objc_msgSend$remoteObjectProxyWithErrorHandler:
++ _objc_msgSend$removeAppConfigWithRecordID::
++ _objc_msgSend$reportConfigDetailsStateWithCode:reason::
++ _objc_msgSend$restorePersonaWithSavedPersonaContext:
++ _objc_msgSend$resume
++ _objc_msgSend$setAppConfigWithRecordID:appConfigRecord:persona::
++ _objc_msgSend$setClasses:forSelector:argumentIndex:ofReply:
++ _objc_msgSend$setInterruptionHandler:
++ _objc_msgSend$setInvalidationHandler:
++ _objc_msgSend$setRemoteObjectInterface:
++ _objc_msgSend$sharedManager
++ _objc_msgSend$stringForDefaultsKey:
++ _objc_msgSend$touch:
++ _objc_msgSend$updateAppBundleIDFor:bundleID::
++ _objc_msgSend$updateAppCodeIdentityFor:appCodeIdentity:extensionCodeIdentities::
++ _objc_msgSend$userPersonaNickName
++ _objc_msgSend$userPersonaUniqueString
++ _objc_release_x26
++ _objc_release_x27
++ _objectdestroy.136Tm
++ _objectdestroy.449Tm
+- __PROTOCOLS__TtC20ManagedAppsInterface24ManagedAppsCredentialRef.17
+- __PROTOCOLS__TtC20ManagedAppsInterface29ManagedAppsAppConfigRecordRef.5
+- __PROTOCOLS__TtC20ManagedAppsInterface35ManagedAppsExtensionConfigRecordRef.11
+- _block_copy_helper.127
+- _block_copy_helper.137
+- _block_copy_helper.144
+- _block_copy_helper.157
+- _block_copy_helper.164
+- _block_copy_helper.170
+- _block_copy_helper.183
+- _block_copy_helper.190
+- _block_copy_helper.197
+- _block_copy_helper.204
+- _block_copy_helper.211
+- _block_copy_helper.218
+- _block_copy_helper.225
+- _block_copy_helper.232
+- _block_copy_helper.238
+- _block_copy_helper.251
+- _block_copy_helper.258
+- _block_copy_helper.265
+- _block_copy_helper.272
+- _block_copy_helper.279
+- _block_copy_helper.285
+- _block_copy_helper.298
+- _block_copy_helper.304
+- _block_copy_helper.317
+- _block_copy_helper.323
+- _block_copy_helper.336
+- _block_copy_helper.343
+- _block_copy_helper.350
+- _block_copy_helper.357
+- _block_copy_helper.364
+- _block_copy_helper.444
+- _block_copy_helper.450
+- _block_copy_helper.456
+- _block_copy_helper.462
+- _block_copy_helper.473
+- _block_copy_helper.479
+- _block_copy_helper.485
+- _block_copy_helper.491
+- _block_copy_helper.497
+- _block_copy_helper.503
+- _block_copy_helper.509
+- _block_copy_helper.515
+- _block_copy_helper.521
+- _block_copy_helper.528
+- _block_copy_helper.539
+- _block_copy_helper.550
+- _block_copy_helper.561
+- _block_copy_helper.572
+- _block_copy_helper.578
+- _block_copy_helper.584
+- _block_copy_helper.590
+- _block_copy_helper.596
+- _block_copy_helper.602
+- _block_copy_helper.608
+- _block_copy_helper.614
+- _block_copy_helper.620
+- _block_copy_helper.626
+- _block_copy_helper.632
+- _block_copy_helper.638
+- _block_copy_helper.644
+- _block_copy_helper.650
+- _block_copy_helper.654
+- _block_copy_helper.658
+- _block_copy_helper.662
+- _block_descriptor.129
+- _block_descriptor.139
+- _block_descriptor.146
+- _block_descriptor.159
+- _block_descriptor.166
+- _block_descriptor.172
+- _block_descriptor.185
+- _block_descriptor.192
+- _block_descriptor.199
+- _block_descriptor.206
+- _block_descriptor.213
+- _block_descriptor.220
+- _block_descriptor.227
+- _block_descriptor.234
+- _block_descriptor.240
+- _block_descriptor.253
+- _block_descriptor.260
+- _block_descriptor.267
+- _block_descriptor.274
+- _block_descriptor.281
+- _block_descriptor.287
+- _block_descriptor.300
+- _block_descriptor.306
+- _block_descriptor.319
+- _block_descriptor.325
+- _block_descriptor.338
+- _block_descriptor.345
+- _block_descriptor.352
+- _block_descriptor.359
+- _block_descriptor.366
+- _block_descriptor.446
+- _block_descriptor.452
+- _block_descriptor.458
+- _block_descriptor.464
+- _block_descriptor.475
+- _block_descriptor.481
+- _block_descriptor.487
+- _block_descriptor.493
+- _block_descriptor.499
+- _block_descriptor.505
+- _block_descriptor.511
+- _block_descriptor.517
+- _block_descriptor.523
+- _block_descriptor.530
+- _block_descriptor.541
+- _block_descriptor.552
+- _block_descriptor.563
+- _block_descriptor.574
+- _block_descriptor.580
+- _block_descriptor.586
+- _block_descriptor.592
+- _block_descriptor.598
+- _block_descriptor.604
+- _block_descriptor.610
+- _block_descriptor.616
+- _block_descriptor.622
+- _block_descriptor.628
+- _block_descriptor.634
+- _block_descriptor.640
+- _block_descriptor.646
+- _block_descriptor.652
+- _block_descriptor.656
+- _block_descriptor.660
+- _block_descriptor.664
+- _block_destroy_helper.128
+- _block_destroy_helper.138
+- _block_destroy_helper.145
+- _block_destroy_helper.158
+- _block_destroy_helper.165
+- _block_destroy_helper.171
+- _block_destroy_helper.184
+- _block_destroy_helper.191
+- _block_destroy_helper.198
+- _block_destroy_helper.205
+- _block_destroy_helper.212
+- _block_destroy_helper.219
+- _block_destroy_helper.226
+- _block_destroy_helper.233
+- _block_destroy_helper.239
+- _block_destroy_helper.252
+- _block_destroy_helper.259
+- _block_destroy_helper.266
+- _block_destroy_helper.273
+- _block_destroy_helper.280
+- _block_destroy_helper.286
+- _block_destroy_helper.299
+- _block_destroy_helper.305
+- _block_destroy_helper.318
+- _block_destroy_helper.324
+- _block_destroy_helper.337
+- _block_destroy_helper.344
+- _block_destroy_helper.351
+- _block_destroy_helper.358
+- _block_destroy_helper.365
+- _block_destroy_helper.445
+- _block_destroy_helper.451
+- _block_destroy_helper.457
+- _block_destroy_helper.463
+- _block_destroy_helper.474
+- _block_destroy_helper.480
+- _block_destroy_helper.486
+- _block_destroy_helper.492
+- _block_destroy_helper.498
+- _block_destroy_helper.504
+- _block_destroy_helper.510
+- _block_destroy_helper.516
+- _block_destroy_helper.522
+- _block_destroy_helper.529
+- _block_destroy_helper.540
+- _block_destroy_helper.551
+- _block_destroy_helper.562
+- _block_destroy_helper.573
+- _block_destroy_helper.579
+- _block_destroy_helper.585
+- _block_destroy_helper.591
+- _block_destroy_helper.597
+- _block_destroy_helper.603
+- _block_destroy_helper.609
+- _block_destroy_helper.615
+- _block_destroy_helper.621
+- _block_destroy_helper.627
+- _block_destroy_helper.633
+- _block_destroy_helper.639
+- _block_destroy_helper.645
+- _block_destroy_helper.651
+- _block_destroy_helper.655
+- _block_destroy_helper.659
+- _block_destroy_helper.663
+- _objc_retain_x27
+- _objectdestroy.135Tm
+- _objectdestroy.448Tm
+CStrings:
++ "ManagedAppsInterface"
+
+```

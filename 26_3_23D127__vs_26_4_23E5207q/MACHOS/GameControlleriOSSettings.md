@@ -1,0 +1,1642 @@
+## GameControlleriOSSettings
+
+> `/System/Library/PreferenceBundles/GameControlleriOSSettings.bundle/GameControlleriOSSettings`
+
+```diff
+
+-6.0.11.0.0
+-  __TEXT.__text: 0xd498c
+-  __TEXT.__auth_stubs: 0x2300
+-  __TEXT.__objc_stubs: 0x2580
+-  __TEXT.__objc_methlist: 0x128c
+-  __TEXT.__const: 0x7e84
+-  __TEXT.__gcc_except_tab: 0x24
+-  __TEXT.__cstring: 0x34de
+-  __TEXT.__objc_methname: 0x3e7f
+-  __TEXT.__objc_classname: 0x2b6
+-  __TEXT.__objc_methtype: 0x604
+-  __TEXT.__ustring: 0x10
+-  __TEXT.__swift5_typeref: 0xc97c
+-  __TEXT.__swift5_reflstr: 0x1d73
+-  __TEXT.__swift5_assocty: 0x858
+-  __TEXT.__constg_swiftt: 0x23d8
+-  __TEXT.__swift5_fieldmd: 0x17f0
+-  __TEXT.__swift5_proto: 0x2a0
+-  __TEXT.__swift5_types: 0x1a8
+-  __TEXT.__swift5_builtin: 0xc8
+-  __TEXT.__swift5_capture: 0xb7c
+-  __TEXT.__oslogstring: 0x3bf
+-  __TEXT.__swift5_protos: 0x4
+-  __TEXT.__unwind_info: 0x2aa0
+-  __TEXT.__eh_frame: 0xbe0
+-  __DATA_CONST.__auth_got: 0x1190
+-  __DATA_CONST.__got: 0x968
+-  __DATA_CONST.__auth_ptr: 0xa98
+-  __DATA_CONST.__const: 0x4a58
+-  __DATA_CONST.__cfstring: 0xfe0
+-  __DATA_CONST.__objc_classlist: 0xb8
+-  __DATA_CONST.__objc_catlist: 0x20
+-  __DATA_CONST.__objc_protolist: 0x98
++6.4.7.0.0
++  __TEXT.__text: 0xf58
++  __TEXT.__auth_stubs: 0x1e0
++  __TEXT.__objc_stubs: 0x120
++  __TEXT.__objc_methlist: 0x2c
++  __TEXT.__swift5_typeref: 0xb6
++  __TEXT.__swift5_reflstr: 0x5
++  __TEXT.__swift5_assocty: 0x30
++  __TEXT.__const: 0x194
++  __TEXT.__objc_classname: 0xd9
++  __TEXT.__constg_swiftt: 0xfc
++  __TEXT.__swift5_fieldmd: 0x40
++  __TEXT.__swift5_proto: 0x8
++  __TEXT.__swift5_types: 0x10
++  __TEXT.__objc_methname: 0x113
++  __TEXT.__objc_methtype: 0x21
++  __TEXT.__unwind_info: 0xb8
++  __DATA_CONST.__auth_got: 0xf8
++  __DATA_CONST.__got: 0x20
++  __DATA_CONST.__auth_ptr: 0x70
++  __DATA_CONST.__const: 0xc8
++  __DATA_CONST.__objc_classlist: 0x18
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x48
+-  __DATA_CONST.__objc_superrefs: 0x60
+-  __DATA_CONST.__objc_arraydata: 0x30
+-  __DATA_CONST.__objc_arrayobj: 0x30
+-  __DATA.__objc_const: 0x3b18
+-  __DATA.__objc_selrefs: 0x13f8
+-  __DATA.__objc_ivar: 0xbc
+-  __DATA.__objc_data: 0xb68
+-  __DATA.__data: 0x4350
+-  __DATA.__bss: 0x5cc8
+-  __DATA.__common: 0x90
+-  - /System/Library/Frameworks/Accessibility.framework/Accessibility
+-  - /System/Library/Frameworks/Combine.framework/Combine
+-  - /System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
+-  - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+-  - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+-  - /System/Library/Frameworks/CoreHaptics.framework/CoreHaptics
+-  - /System/Library/Frameworks/CoreServices.framework/CoreServices
++  __DATA.__objc_const: 0x168
++  __DATA.__objc_selrefs: 0x58
++  __DATA.__objc_data: 0xb0
++  __DATA.__data: 0x198
++  __DATA.__bss: 0x100
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+-  - /System/Library/Frameworks/GameController.framework/GameController
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+-  - /System/Library/PrivateFrameworks/CloudSettings.framework/CloudSettings
+-  - /System/Library/PrivateFrameworks/ContentKit.framework/ContentKit
+-  - /System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils
+-  - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+-  - /System/Library/PrivateFrameworks/GameControllerSettings.framework/GameControllerSettings
+-  - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
++  - /System/Library/PrivateFrameworks/GameControllerSettingsUI.framework/GameControllerSettingsUI
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
+   - /System/Library/PrivateFrameworks/Settings.framework/Settings
+-  - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+-  - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+-  - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
++  - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 09A1F59A-FAB5-3519-9DBE-21B5E1EC4371
+-  Functions: 4051
+-  Symbols:   308
+-  CStrings:  1429
++  UUID: 514769F5-1BFC-3670-BAE7-1C18105100B1
++  Functions: 30
++  Symbols:   55
++  CStrings:  17
+ 
+Symbols:
++ _OBJC_CLASS_$_UIView
++ __swift_FORCE_LOAD_$_swiftCoreMIDI
+- OBJC_IVAR_$_PSListController._specifiers
+- OBJC_IVAR_$_PSListController._table
+- OBJC_IVAR_$_PSViewController._specifier
+- _AXNameFromColor
+- _CBDeviceTypeToString
+- _CGColorCreateGenericRGB
+- _CGContextFillEllipseInRect
+- _CHHapticEventParameterIDHapticIntensity
+- _CHHapticEventParameterIDHapticSharpness
+- _CHHapticEventTypeHapticTransient
+- _CUPrintNSDataAddress
+- _GCControllerDidConnectNotification
+- _GCControllerDidDisconnectNotification
+- _GCHapticsLocalityDefault
+- _GCInputButtonA
+- _GCInputButtonB
+- _GCInputButtonHome
+- _GCInputButtonMenu
+- _GCInputButtonOptions
+- _GCInputButtonShare
+- _GCInputButtonX
+- _GCInputButtonY
+- _GCInputDirectionPad
+- _GCInputLeftShoulder
+- _GCInputLeftThumbstick
+- _GCInputLeftThumbstickButton
+- _GCInputLeftTrigger
+- _GCInputRightShoulder
+- _GCInputRightThumbstick
+- _GCInputRightThumbstickButton
+- _GCInputRightTrigger
+- _GCProductCategoryDualSense
+- _GCProductCategoryDualShock4
+- _GCProductCategoryHID
+- _GCProductCategoryMFi
+- _GCProductCategoryXboxOne
+- _GCSCompatibilityModeDisabled
+- _GCSCompatibilityModeXbox360
+- _NSParagraphStyleAttributeName
+- _NSSelectorFromString
+- _OBJC_CLASS_$_CBConnection
+- _OBJC_CLASS_$_CBController
+- _OBJC_CLASS_$_CBDeviceSettings
+- _OBJC_CLASS_$_CBDiscovery
+- _OBJC_CLASS_$_CBProductInfo
+- _OBJC_CLASS_$_CHHapticEvent
+- _OBJC_CLASS_$_CHHapticEventParameter
+- _OBJC_CLASS_$_CHHapticPattern
+- _OBJC_CLASS_$_CloudSettingsManager
+- _OBJC_CLASS_$_GCAnalytics
+- _OBJC_CLASS_$_GCColor
+- _OBJC_CLASS_$_GCController
+- _OBJC_CLASS_$_GCControllerButtonInput
+- _OBJC_CLASS_$_GCControllerDirectionPad
+- _OBJC_CLASS_$_GCControllerSettings
+- _OBJC_CLASS_$_GCSController
+- _OBJC_CLASS_$_GCSCopilotFusedController
+- _OBJC_CLASS_$_GCSDirectionPadMapping
+- _OBJC_CLASS_$_GCSElement
+- _OBJC_CLASS_$_GCSElementMapping
+- _OBJC_CLASS_$_GCSGame
+- _OBJC_CLASS_$_GCSMouseProfile
+- _OBJC_CLASS_$_GCSProfile
+- _OBJC_CLASS_$_GCSTombstone
+- _OBJC_CLASS_$_ISIcon
+- _OBJC_CLASS_$_ISImageDescriptor
+- _OBJC_CLASS_$_LSApplicationRecord
+- _OBJC_CLASS_$_LSPropertyList
+- _OBJC_CLASS_$_NSArray
+- _OBJC_CLASS_$_NSAttributedString
+- _OBJC_CLASS_$_NSBundle
+- _OBJC_CLASS_$_NSCache
+- _OBJC_CLASS_$_NSConstantArray
+- _OBJC_CLASS_$_NSDictionary
+- _OBJC_CLASS_$_NSMutableArray
+- _OBJC_CLASS_$_NSMutableAttributedString
+- _OBJC_CLASS_$_NSMutableDictionary
+- _OBJC_CLASS_$_NSNotificationCenter
+- _OBJC_CLASS_$_NSNull
+- _OBJC_CLASS_$_NSNumber
+- _OBJC_CLASS_$_NSNumberFormatter
+- _OBJC_CLASS_$_NSObject
+- _OBJC_CLASS_$_NSParagraphStyle
+- _OBJC_CLASS_$_NSPredicate
+- _OBJC_CLASS_$_NSRunLoop
+- _OBJC_CLASS_$_NSString
+- _OBJC_CLASS_$_NSTextAttachment
+- _OBJC_CLASS_$_NSTextTab
+- _OBJC_CLASS_$_NSUUID
+- _OBJC_CLASS_$_NSUserDefaults
+- _OBJC_CLASS_$_OS_dispatch_queue
+- _OBJC_CLASS_$_OS_os_log
+- _OBJC_CLASS_$_PSListController
+- _OBJC_CLASS_$_PSSpecifier
+- _OBJC_CLASS_$_PSTableCell
+- _OBJC_CLASS_$_UIApplication
+- _OBJC_CLASS_$_UIBarButtonItem
+- _OBJC_CLASS_$_UIBezierPath
+- _OBJC_CLASS_$_UIColor
+- _OBJC_CLASS_$_UIDevice
+- _OBJC_CLASS_$_UIFont
+- _OBJC_CLASS_$_UIGraphicsImageRenderer
+- _OBJC_CLASS_$_UIImage
+- _OBJC_CLASS_$_UIImageSymbolConfiguration
+- _OBJC_CLASS_$_UIImageView
+- _OBJC_CLASS_$_UILabel
+- _OBJC_CLASS_$_UINavigationController
+- _OBJC_CLASS_$_UISearchController
+- _OBJC_METACLASS_$_PSListController
+- _OBJC_METACLASS_$_PSTableCell
+- _PSControlMaximumKey
+- _PSControlMinimumKey
+- _PSEnabledKey
+- _PSFooterTextGroupKey
+- _PSIDKey
+- _PSIconImageKey
+- _PSSliderIsContinuous
+- _SBSCopyDisplayIdentifiers
+- _UIApplicationDidEnterBackgroundNotification
+- _UIApplicationWillEnterForegroundNotification
+- _UIFontTextStyleBody
+- __Block_copy
+- __Block_release
+- __NSConcreteGlobalBlock
+- __NSConcreteStackBlock
+- __Unwind_Resume
+- ___CFConstantStringClassReference
+- ___NSArray0__struct
+- ___NSDictionary0__struct
+- ___kCFBooleanTrue
+- ___objc_personality_v0
+- ___stack_chk_fail
+- ___stack_chk_guard
+- __availability_version_check
+- __dispatch_main_q
+- __os_log_impl
+- __swiftEmptyArrayStorage
+- __swiftEmptyDictionarySingleton
+- __swiftEmptySetSingleton
+- __swiftImmortalRefCount
+- _bzero
+- _dispatch_after
+- _dispatch_once
+- _dispatch_once_f
+- _dispatch_time
+- _dlsym
+- _fclose
+- _fopen
+- _fread
+- _free
+- _fseek
+- _ftell
+- _kISImageDescriptorTableUIName
+- _malloc
+- _malloc_size
+- _memcmp
+- _memcpy
+- _memmove
+- _objc_alloc
+- _objc_alloc_init
+- _objc_autoreleaseReturnValue
+- _objc_claimAutoreleasedReturnValue
+- _objc_copyWeak
+- _objc_destroyWeak
+- _objc_enumerationMutation
+- _objc_getAssociatedObject
+- _objc_initWeak
+- _objc_loadWeakRetained
+- _objc_opt_class
+- _objc_opt_isKindOfClass
+- _objc_opt_new
+- _objc_opt_respondsToSelector
+- _objc_release_x1
+- _objc_release_x2
+- _objc_release_x24
+- _objc_release_x25
+- _objc_release_x26
+- _objc_release_x27
+- _objc_release_x28
+- _objc_release_x8
+- _objc_release_x9
+- _objc_retainAutoreleaseReturnValue
+- _objc_retain_x1
+- _objc_retain_x12
+- _objc_retain_x13
+- _objc_retain_x14
+- _objc_retain_x2
+- _objc_retain_x20
+- _objc_retain_x21
+- _objc_retain_x22
+- _objc_retain_x23
+- _objc_retain_x24
+- _objc_retain_x25
+- _objc_retain_x26
+- _objc_retain_x27
+- _objc_retain_x28
+- _objc_retain_x3
+- _objc_retain_x4
+- _objc_retain_x8
+- _objc_retain_x9
+- _objc_setAssociatedObject
+- _objc_storeStrong
+- _objc_unsafeClaimAutoreleasedReturnValue
+- _os_log_type_enabled
+- _rewind
+- _sscanf
+- _swift_arrayDestroy
+- _swift_arrayInitWithCopy
+- _swift_arrayInitWithTakeBackToFront
+- _swift_arrayInitWithTakeFrontToBack
+- _swift_bridgeObjectRetain
+- _swift_bridgeObjectRetain_n
+- _swift_coroFrameAlloc
+- _swift_cvw_assignWithCopy
+- _swift_cvw_assignWithTake
+- _swift_cvw_destroy
+- _swift_cvw_enumFn_getEnumTag
+- _swift_cvw_initStructMetadataWithLayoutString
+- _swift_cvw_initWithCopy
+- _swift_cvw_initWithTake
+- _swift_cvw_initializeBufferWithCopyOfBuffer
+- _swift_deallocObject
+- _swift_deallocPartialClassInstance
+- _swift_dynamicCast
+- _swift_dynamicCastObjCClass
+- _swift_dynamicCastObjCProtocolConditional
+- _swift_errorRelease
+- _swift_errorRetain
+- _swift_getAtKeyPath
+- _swift_getEnumCaseMultiPayload
+- _swift_getEnumTagSinglePayloadGeneric
+- _swift_getErrorValue
+- _swift_getForeignTypeMetadata
+- _swift_getFunctionTypeMetadata0
+- _swift_getKeyPath
+- _swift_getObjCClassFromMetadata
+- _swift_getObjectType
+- _swift_getOpaqueTypeMetadata2
+- _swift_getSingletonMetadata
+- _swift_initStackObject
+- _swift_isUniquelyReferenced_nonNull_bridgeObject
+- _swift_isUniquelyReferenced_nonNull_native
+- _swift_isaMask
+- _swift_once
+- _swift_release_n
+- _swift_retain
+- _swift_retain_n
+- _swift_setDeallocating
+- _swift_slowAlloc
+- _swift_slowDealloc
+- _swift_storeEnumTagMultiPayload
+- _swift_storeEnumTagSinglePayloadGeneric
+- _swift_unknownObjectRetain
+- _swift_updateClassMetadata2
+- _swift_willThrow
+CStrings:
++ "GameControllerSettingsRootViewController"
++ "_TtC25GameControlleriOSSettings34GameControllerSettingsPluginLoader"
++ "initWithCoder:"
++ "initWithNibName:bundle:"
+- ""
+- "\t"
+- "\t\u2068"
+- "\n"
+- " "
+- "#16@0:8"
+- "%"
+- "%02X%02X%02X%02X%02X%02X"
+- "%@"
+- "%d.%d.%d"
+- "%s"
+- "([0-9A-Fa-f]{2}[:-]){5}([0-9A-Fa-f]{2})"
+- "([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})"
+- ","
+- ".cxx_destruct"
+- "/System/Library/CoreServices/SystemVersion.plist"
+- "<GCSDirectionPadElementMappingView: elementKey="
+- "<GCSElementMappingView: elementKey="
+- "<GCSProfileUsageStats controllersCount="
+- "?"
+- "@\"<GCSJSONObject>\"16@0:8"
+- "@\"<NSCopying><NSObject><NSSecureCoding>\""
+- "@\"<NSObject><NSCopying><NSSecureCoding>\"16@0:8"
+- "@\"CHHapticEngine\""
+- "@\"GCController\""
+- "@\"GCControllerSettings\""
+- "@\"GCSProfile\"16@0:8"
+- "@\"IFImage\""
+- "@\"LSApplicationRecord\""
+- "@\"NSArray\""
+- "@\"NSDictionary\""
+- "@\"NSDictionary\"16@0:8"
+- "@\"NSMutableArray\""
+- "@\"NSMutableDictionary\""
+- "@\"NSNumber\"16@0:8"
+- "@\"NSString\"16@0:8"
+- "@\"NSUUID\""
+- "@\"UIImage\""
+- "@\"UIImageView\""
+- "@\"UISearchController\""
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@\"<GCSJSONObject>\"16"
+- "@32@0:8:16@24"
+- "@32@0:8q16@24"
+- "@40@0:8:16@24@32"
+- "@44@0:8@16@24B32@36"
+- "@?16@0:8"
+- "@?<v@?@\"<GCControllerSettingsComponent>\">16@0:8"
+- "ACTIVITY_NAME_PROMPT"
+- "ACTIVITY_NAME_TAKEN"
+- "ADD_APP_TITLE"
+- "APP_CUSTOMIZATION_TITLE"
+- "Accessing Environment's value outside of being installed on a View. This will always read the default value and will not update."
+- "Accessory Status"
+- "AddAppButtonGroup"
+- "Adding %@"
+- "Advanced Apple Audio"
+- "An error occured playing %s: %s."
+- "ApplicationRecord"
+- "Auto Answer Calls"
+- "B"
+- "B16@0:8"
+- "B16@?0@\"LSApplicationRecord\"8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@\"UISearchBar\"16"
+- "B24@0:8@16"
+- "B24@?0@\"GCController\"8@\"NSDictionary\"16"
+- "B32@0:8@16@24"
+- "B40@0:8@\"UISearchBar\"16@\"NSArray\"24@\"NSString\"32"
+- "B40@0:8@16@24@32"
+- "B48@0:8@\"UISearchBar\"16{_NSRange=QQ}24@\"NSString\"40"
+- "B48@0:8@16{_NSRange=QQ}24@40"
+- "BLE Advertisement Data"
+- "BLUETOOTH_CONNECTED"
+- "BLUETOOTH_DISCONNECTED"
+- "BLUETOOTH_DISCONNECT_CONTROLLER"
+- "BUTTON"
+- "Blue"
+- "Brightness"
+- "ButtonRemapControllerFooter"
+- "ButtonRemapControllerValues"
+- "ButtonsGroup"
+- "CFDataCreateWithBytesNoCopy"
+- "CFDictionaryGetValue"
+- "CFGetTypeID"
+- "CFPropertyListCreateFromXMLData"
+- "CFPropertyListCreateWithData"
+- "CFRelease"
+- "CFStringCreateWithCStringNoCopy"
+- "CFStringGetCString"
+- "CFStringGetTypeID"
+- "CGColor"
+- "CGContext"
+- "CGImage"
+- "CGPath"
+- "CHOOSE_APP_TO_CUSTOMIZE_TITLE"
+- "COMPATIBILITY_CONTROLLER_ENABLED"
+- "COMPATIBILITY_CONTROLLER_ENABLED_DESCRIPTION"
+- "CONTROLLER"
+- "CONTROLLERS_COUNT_FORMAT"
+- "CONTROLLER_FORGET_CONFIRMATION_ACTION"
+- "CONTROLLER_FORGET_CONFIRMATION_DESCRIPTION"
+- "CONTROLLER_HOME_BUTTON_ACTION_TITLE"
+- "CONTROLLER_SHORTCUTS_TITLE"
+- "COPILOT_COPILOT_FIELD"
+- "COPILOT_DETAIL_DESC"
+- "COPILOT_DETAIL_WARNING"
+- "COPILOT_LINKED_WITH"
+- "COPILOT_LINK_CONTROLLERS_BUTTON"
+- "COPILOT_LINK_CONTROLLERS_TITLE"
+- "COPILOT_NAME_AUTO_GENERATED"
+- "COPILOT_PILOT_FIELD"
+- "CUSTOMIZATIONS_TITLE"
+- "Captive Network Join"
+- "Color"
+- "Companion Authentication"
+- "Connected Over USB"
+- "Controller"
+- "ControllerElement"
+- "DEFAULT_CONTROLS"
+- "DELETE_CUSTOMIZATIONS_TITLE"
+- "DEVICE_DOES_NOT_SUPPORT_CONTROLS_DESC"
+- "DOUBLE_PRESS"
+- "DPAD_INFO_LABEL_WITH_ELEMENT_NAME"
+- "DeleteCustomizationGroup"
+- "DeviceSpecificController"
+- "Disabled"
+- "Done!"
+- "Enabled"
+- "ExtendedGamepad"
+- "FIND_CONTROLLER_BUTTON_IOS"
+- "FIND_CONTROLLER_DESC_IOS"
+- "FIND_CONTROLLER_TITLE"
+- "Failed to create engine."
+- "Failed to restart the engine: %s"
+- "GAMES_COUNT_FORMAT"
+- "GAME_CONTROLLER_DEFAULT_NAME"
+- "GAME_INTENT_HOME_BUTTON_DETAIL_DESCRIPTION"
+- "GAME_INTENT_ON_CONNECT_DETAIL_DESCRIPTION"
+- "GAME_INTENT_ON_CONNECT_TITLE"
+- "GCControllerComponent"
+- "GCControllerProductInfo"
+- "GCControllerSettingsComponent"
+- "GCESpecifierType"
+- "GCGestureType"
+- "GCLOLSpecifierType"
+- "GCSJSONObject"
+- "GCSJSONSerializable"
+- "GCSettingsAppCustomizations"
+- "GCSettingsAppIcon"
+- "GCSettingsAuxiliaryButtonRemapController"
+- "GCSettingsButtonRemapController"
+- "GCSettingsCustomizationsController"
+- "GCSettingsDpadRemapController"
+- "GCSettingsGameIntentController"
+- "GCSettingsLegacyRootController"
+- "GCSettingsLightController"
+- "GCSettingsRemapControllerDelegate"
+- "GCSettingsRemappableElementCell"
+- "GCSettingsRootController"
+- "GCSettingsScreenshotVideoCustomizationsController"
+- "GENERIC_BUTTON_A"
+- "GENERIC_BUTTON_B"
+- "GENERIC_BUTTON_HOME"
+- "GENERIC_BUTTON_LEFT_THUMBSTICK"
+- "GENERIC_BUTTON_MENU"
+- "GENERIC_BUTTON_OPTIONS"
+- "GENERIC_BUTTON_RIGHT_THUMBSTICK"
+- "GENERIC_BUTTON_SHARE"
+- "GENERIC_BUTTON_X"
+- "GENERIC_BUTTON_Y"
+- "GENERIC_DIRECTION_PAD"
+- "GENERIC_LEFT_SHOULDER"
+- "GENERIC_LEFT_THUMBSTICK"
+- "GENERIC_LEFT_TRIGGER"
+- "GENERIC_RIGHT_SHOULDER"
+- "GENERIC_RIGHT_THUMBSTICK"
+- "GENERIC_RIGHT_TRIGGER"
+- "GESTURE"
+- "GESTURE_BUTTON_KEY"
+- "GESTURE_MODE_KEY"
+- "GESTURE_TYPE_KEY"
+- "GameController"
+- "GameController_Bridge"
+- "GameIntentButton"
+- "Google Fast Pair"
+- "Green"
+- "Guest Paired Not In Contacts"
+- "HAPTICS_TITLE"
+- "HAPTICS_VOLUME_TITLE"
+- "HID Bad Behavior"
+- "HID Good Behavior"
+- "HOW_TO_PAIR_CONTENTS_HEADER"
+- "HOW_TO_PAIR_MFI_CONTENT"
+- "HOW_TO_PAIR_MFI_HEADER"
+- "HOW_TO_PAIR_NINTENDO_CONTENT"
+- "HOW_TO_PAIR_NINTENDO_HEADER"
+- "HOW_TO_PAIR_PS_CONTENT"
+- "HOW_TO_PAIR_PS_HEADER"
+- "HOW_TO_PAIR_TITLE"
+- "HOW_TO_PAIR_XBOX_CONTENT"
+- "HOW_TO_PAIR_XBOX_HEADER"
+- "INVERT_HORIZONTALLY_TITLE"
+- "INVERT_VERTICALLY_TITLE"
+- "Invert Horizontally"
+- "Invert Vertically"
+- "LIGHTBAR_COLOR_DESC"
+- "LIGHTBAR_COLOR_TITLE"
+- "LIST_SEPARATOR_NONE_USED"
+- "LIST_SEPARATOR_ONE_USED"
+- "LIST_SEPARATOR_TWO_USED"
+- "LONG_PRESS"
+- "LONG_PRESS_OPTION_OPEN_APP_LIBRARY"
+- "LONG_PRESS_OPTION_OPEN_APP_PICKER"
+- "LONG_PRESS_OPTION_OPEN_GAMES_APP"
+- "Loaded controllers = %s"
+- "Loaded copilot fused controllers = %s"
+- "Loaded games = %s"
+- "Loaded profiles = %s"
+- "Localizable"
+- "Mapping %s to %s"
+- "Microsoft Swift Pair"
+- "NAME_TITLE"
+- "NO_CONTROLLER_CONNECTED"
+- "NO_INSTALLED_APPS_DESC"
+- "NSObject"
+- "Network Consumer"
+- "New profiles = %s"
+- "Nintendo Switch Joy-Con"
+- "OFF"
+- "ON"
+- "OTHER_CONTROLLERS_DESC"
+- "OTHER_CONTROLLERS_TITLE"
+- "Object Discovery Near Owner"
+- "Object Discovery Near Owner Buffer"
+- "Object Discovery Wild"
+- "Object Discovery Wild Buffer"
+- "Orange"
+- "PRODUCT_CATEGORY_DUALSENSE"
+- "PRODUCT_CATEGORY_DUALSHOCK4"
+- "PRODUCT_CATEGORY_GENERIC_CONTROLLER"
+- "PRODUCT_CATEGORY_HID"
+- "PRODUCT_CATEGORY_MFI"
+- "PRODUCT_CATEGORY_NINTENDO_JOY_CON"
+- "PRODUCT_CATEGORY_NINTENDO_PRO_CONTROLLER"
+- "PRODUCT_CATEGORY_XBOX_ADAPTIVE"
+- "PRODUCT_CATEGORY_XBOX_ELITE"
+- "PRODUCT_CATEGORY_XBOX_ONE"
+- "PROFILE_DELETE_CONFIRMATION_ACTION"
+- "PROFILE_DELETE_CONFIRMATION_CANCEL"
+- "PROFILE_DELETE_CONFIRMATION_DESCRIPTION"
+- "PROFILE_LIST_DESC"
+- "PROFILE_LIST_TITLE"
+- "PROFILE_NAME_FIELD"
+- "PROFILE_NAME_FIELD_DEFAULT_VALUE"
+- "PROFILE_SELECTED"
+- "Passive Multi Stream"
+- "ProductVersion"
+- "ProfileName"
+- "Proximity Service"
+- "Purple"
+- "Q16@0:8"
+- "RECORD_VIDEO_TITLE"
+- "REMAPPING_NOT_SET"
+- "RESTORE_BUTTON_DEFAULTS_TITLE"
+- "Record Video"
+- "Red"
+- "RemappableElementCell"
+- "Remove %@"
+- "Remove selected profile: %@"
+- "Removing %@"
+- "Removing at %ld"
+- "ReplayKit"
+- "ReplayKitGestureSettingFirstOption"
+- "ReplayKitGestureSettingSecondOption"
+- "ResetToDefaultsButtonGroup"
+- "SCREENSHOT_DETAIL_BUTTON_DESC"
+- "SCREENSHOT_DETAIL_DESC"
+- "SCREENSHOT_DETAIL_GESTURE_DESC"
+- "SCREENSHOT_TITLE"
+- "SEARCH_APPS_PLACEHOLDER"
+- "SEE_BLUETOOTH_DEVICES"
+- "SELF.supportsControllerUserInteraction == true"
+- "SET_UP_GAME_CONTROLLER_TITLE"
+- "SHARE_GESTURES_DESC_ALT"
+- "SHARE_GESTURES_DETAIL_FOOTER"
+- "SHARE_GESTURES_REPLAY_CAPTURE"
+- "SHARE_GESTURES_SCREENSHOT"
+- "SHARE_GESTURES_TITLE"
+- "SHARE_GESTURES_VIDEO"
+- "SINGLE_PRESS"
+- "SWAP_AXIS_TITLE"
+- "Saved data is not compatible. Resetting prefs store."
+- "Saving controllers..."
+- "Saving copilot fused controllers..."
+- "Saving games..."
+- "Saving mouse profiles..."
+- "Saving profiles..."
+- "Screenshot"
+- "ScreenshotCustomization"
+- "Smart Routing updated to:"
+- "Spatial Audio Active"
+- "Spatial Audio Allowed"
+- "Spatial Interaction"
+- "Swap Axes"
+- "Switch Pro Controller"
+- "T#,R"
+- "T@\"<GCSJSONObject>\",R,N"
+- "T@\"<NSObject><NSCopying><NSSecureCoding>\",R"
+- "T@\"CHHapticEngine\",&,N,V_engine"
+- "T@\"GCColor\",N,R"
+- "T@\"GCController\",&,N,V_device"
+- "T@\"GCControllerSettings\",R,N,V_settings"
+- "T@\"GCSGame\",N,R"
+- "T@\"GCSProfile\",N,R"
+- "T@\"GCSProfile\",R"
+- "T@\"NSArray\",&,N,V_apps"
+- "T@\"NSArray\",&,N,V_configurableControllers"
+- "T@\"NSArray\",&,N,V_devices"
+- "T@\"NSArray\",&,N,V_filteredApps"
+- "T@\"NSArray\",N,C"
+- "T@\"NSArray\",N,R"
+- "T@\"NSDictionary\",C,N"
+- "T@\"NSDictionary\",N,C"
+- "T@\"NSMutableArray\",&,N,V_appsWithSettings"
+- "T@\"NSMutableArray\",&,N,V_appsWithoutSettings"
+- "T@\"NSMutableArray\",&,N,V_dstAuxiliaryButtons"
+- "T@\"NSMutableArray\",&,N,V_dstButtons"
+- "T@\"NSMutableArray\",&,N,V_dstDpads"
+- "T@\"NSMutableArray\",&,N,V_srcElements"
+- "T@\"NSMutableDictionary\",&,N,V_elements"
+- "T@\"NSNumber\",R,C,GisAttachedToDevice"
+- "T@\"NSSet\",N,C"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",N,C"
+- "T@\"NSString\",N,R"
+- "T@\"NSString\",R,C"
+- "T@\"UIImageView\",&,N,V_remappedElementView"
+- "T@\"UISearchController\",&,N,V_searchController"
+- "T@?,C,N"
+- "TAKE_SCREENSHOT_TITLE"
+- "TB,N"
+- "TB,N,R"
+- "TB,N,V_findingController"
+- "TB,N,V_isDeviceSpecificController"
+- "TQ,R"
+- "TV Latency Setup"
+- "Td,N"
+- "The engine reset --> Restarting now!"
+- "The engine stopped because %ld"
+- "Tq,N,R"
+- "UIBarPositioningDelegate"
+- "UIImage"
+- "UISearchBarDelegate"
+- "UISearchControllerDelegate"
+- "UISearchResultsUpdating"
+- "URLForResource:withExtension:"
+- "UUID"
+- "Unable to find haptics file named '%s'."
+- "Unable to load controllers data"
+- "Unable to load copilot fused controllers data"
+- "Unable to load games data"
+- "Unable to load profiles data"
+- "Unknown"
+- "Updating %@"
+- "VIDEO_RECORDING_DETAIL_BUTTON_DESC"
+- "VIDEO_RECORDING_DETAIL_DESC"
+- "VIDEO_RECORDING_DETAIL_GESTURE_DESC"
+- "VIDEO_RECORDING_DETAIL_MODE_DESC"
+- "VIDEO_RECORDING_MODE"
+- "VIDEO_RECORDING_MODE_LAST15SEC"
+- "VIDEO_RECORDING_MODE_MANUAL"
+- "VIDEO_RECORDING_TITLE"
+- "VideoRecordingCustomization"
+- "Vv16@0:8"
+- "WHB RSSI Level Change"
+- "Wireless CarPlay"
+- "Wireless iAP Sink"
+- "XBOX_ELITE_V2_REMAPPING_WARNING"
+- "Xbox Adaptive"
+- "Xbox Elite"
+- "Xbox Series X"
+- "Yellow"
+- "[BluetoothSettings] ERROR: %@ - %@"
+- "[BluetoothSettings] SUCCESS: connection.pairingPerform(.cancel) from device: %@ (%@)"
+- "[BluetoothSettings] SUCCESS: disconnected(from: %@ (%@))"
+- "[BluetoothSettings] cancelConnection(from device: %@ (%@))"
+- "[BluetoothSettings] disconnect(from device: %@ (%@))"
+- "[BluetoothSettings] pairingCompletedHandler – %@ (%@): pairingType: %@ with PIN: %@"
+- "[BluetoothSettings] pairingPromptHandler –\u00a0%@ (%@)"
+- "[BluetoothSettings] pre-guard: cancelConnection(from device: %@ (%@))"
+- "^{_NSZone=}16@0:8"
+- "_GCIPCObject"
+- "_TtC25GameControlleriOSSettings11GCSAppStore"
+- "_TtC25GameControlleriOSSettings16BluetoothManager"
+- "_TtC25GameControlleriOSSettings18SwiftUIViewFactory"
+- "_TtC25GameControlleriOSSettings19GCSPreferencesStore"
+- "_TtC25GameControlleriOSSettings20GCSProfileUsageStats"
+- "_TtC25GameControlleriOSSettings24GCSControllerBatteryInfo"
+- "_TtC25GameControlleriOSSettings24GCSControllerPreferences"
+- "_TtC25GameControlleriOSSettings6Device"
+- "_TtC25GameControlleriOSSettings9Constants"
+- "__openXPC_and_CBApplicationDidBecomeActive__"
+- "_activeConstraints"
+- "_allControllers"
+- "_anyDeviceIsConnecting"
+- "_appRecord"
+- "_apps"
+- "_appsSectionStart"
+- "_appsWithSettings"
+- "_appsWithoutSettings"
+- "_batteryLevel"
+- "_batteryPresent"
+- "_batteryState"
+- "_bluetoothEnabled"
+- "_buttonMappings"
+- "_buttonsSectionStart"
+- "_colors"
+- "_configurableControllers"
+- "_connectedControllerIdentifiers"
+- "_connectedOverBluetooth"
+- "_connectedOverUSB"
+- "_connectedPairedDevices"
+- "_controllerDiscoverableState"
+- "_controllerInquiryState"
+- "_copilotFusedControllers"
+- "_device"
+- "_devicePincode"
+- "_devices"
+- "_dpadMappings"
+- "_dstAuxiliaryButtons"
+- "_dstButtons"
+- "_dstDpads"
+- "_elements"
+- "_engine"
+- "_filteredApps"
+- "_findingController"
+- "_games"
+- "_homeButtonGameIntentItemIndex"
+- "_isConnected"
+- "_isConnecting"
+- "_isDeviceSpecificController"
+- "_isImage"
+- "_isOnConnectSettings"
+- "_isPaired"
+- "_isPairing"
+- "_lightDictionary"
+- "_mappableToSystemGesturesButtons"
+- "_mouseProfiles"
+- "_naturalThumbstickScrollDirection"
+- "_nearbyDevices"
+- "_profileUsageStats"
+- "_profiles"
+- "_remappedElementView"
+- "_screenshotSettings"
+- "_searchController"
+- "_settings"
+- "_settingsCustomizedIdentifier"
+- "_setupAssistantIfNoKeyboard"
+- "_setupAssistantIfNoPointingDevice"
+- "_shouldShowBTSAKeyboardModal"
+- "_shouldShowBTSAPointingModal"
+- "_showDeviceInfoView"
+- "_showNumericComparisonPairingAlert"
+- "_showPasskeyPairingAlert"
+- "_showPincodeEntryPairingAlert"
+- "_smartRoutingMode"
+- "_srcElements"
+- "_supportedApps"
+- "_systemButtonActionsEnabled"
+- "_systemButtonLongPressAction"
+- "_thumbstickScrollingSpeed"
+- "_tombstones"
+- "_uiImage"
+- "_uniqueIdentifier"
+- "activateWithCompletion:"
+- "activeProfiles"
+- "addAttributes:range:"
+- "addConstraint:"
+- "addController:saveToDisk:"
+- "addCopilotFusedController:saveToDisk:"
+- "addGame:saveToDisk:"
+- "addMouseProfile:saveToDisk:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addObserver:forKeyPath:options:context:"
+- "addObserver:selector:name:object:"
+- "addObserverForName:object:queue:usingBlock:"
+- "addProfile:saveToDisk:"
+- "address"
+- "allButtons"
+- "allControllers"
+- "allDpads"
+- "anonymizedIdentifier"
+- "appIconImageForBundleIdentifier:"
+- "appendAttributedString:"
+- "apps"
+- "appsWithSettings"
+- "appsWithoutSettings"
+- "array"
+- "arrayForKey:"
+- "arrayWithObjects:count:"
+- "arrow.clockwise.circle"
+- "arrow.left.and.right.circle"
+- "arrow.up.and.down.circle"
+- "attachedToDevice"
+- "attributedStringWithAttachment:"
+- "autorelease"
+- "awakeFromNib"
+- "baseProfile"
+- "battery"
+- "battery.100.bolt"
+- "battery.powerplug"
+- "batteryLevel"
+- "batteryLevelCancellable"
+- "batteryState"
+- "batteryStateCancellable"
+- "bezierPathWithRoundedRect:byRoundingCorners:cornerRadii:"
+- "bleAdvertisementData"
+- "blue"
+- "blueColor"
+- "bluetoothPrefsMenuLongPressAction"
+- "bluetoothState"
+- "books.vertical.fill"
+- "boolForKey:"
+- "boolValue"
+- "brightness"
+- "btAddressData"
+- "btsaSettingsChanged"
+- "bubble.left.fill"
+- "building.columns.fill"
+- "bundleForClass:"
+- "bundleIdentifier"
+- "bundleWithIdentifier:"
+- "buttons"
+- "buttonsSectionsSpecifiers"
+- "calculateProfileUsageStats"
+- "cbDevice"
+- "changedHandler"
+- "circle.grid.cross.down.filled"
+- "circle.grid.cross.left.filled"
+- "circle.grid.cross.right.filled"
+- "circle.grid.cross.up.filled"
+- "class"
+- "clearCache"
+- "cloudSettings"
+- "color"
+- "com.apple.GameController"
+- "com.apple.GameController.Settings"
+- "com.apple.GameControlleriOSSettings"
+- "com.apple.graphic-icon.home-screen"
+- "com.apple.thepathless"
+- "compare:"
+- "componentForProtocol:"
+- "components"
+- "configurableControllers"
+- "configurationWithFont:"
+- "conformsToProtocol:"
+- "connectedControllerIdentifiers"
+- "connectedServices"
+- "connection"
+- "connection.activate:"
+- "connection.pairingCompletedHandler"
+- "connection.pairingPerform(.cancel)"
+- "connectionFlags"
+- "containsObject:"
+- "containsString:"
+- "contentView"
+- "controller"
+- "controller.activate"
+- "controller.delete:"
+- "controller.discoverableStateChangedHandler:"
+- "controller.getInfoWithCompletion"
+- "controller.getSettingsWithCompletionHandler"
+- "controller.inquiryStateChangedHandler:"
+- "controller.modifyControllerSettings btsaSettingsDidChange"
+- "controller.modifyControllerSettings setDiscoverableState"
+- "controller.setPowerState"
+- "controllerConnectionFor:"
+- "controllerFor:"
+- "controllerIdentifiers"
+- "controllerInfo"
+- "controllerIsConnected:"
+- "controllerIsFusedController:"
+- "controllerSettings"
+- "controllerToCompatibilityModeMappings"
+- "controllerToProfileMappings"
+- "controllers"
+- "controllersCount"
+- "copilotFusedControllerWithController:"
+- "copilotFusedControllerWithFusedController:"
+- "copilotFusedControllerWithPilotOrCopilotController:"
+- "copilotFusedControllers"
+- "copilotIdentifier"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "createEngineWithLocality:"
+- "createPlayerWithPattern:error:"
+- "currentDevice"
+- "customizable"
+- "customizableControllers"
+- "customizationsEnabled"
+- "d16@0:8"
+- "deactivateConstraints:"
+- "debugDescription"
+- "defaultCenter"
+- "defaultGame"
+- "defaultIdentifier"
+- "defaultParagraphStyle"
+- "defaultProfile"
+- "defaultProfileUUID"
+- "deleteAppSettings"
+- "deleteButtonSpecifierWithName:target:action:"
+- "deleteDevice:completion:"
+- "dequeueReusableCellWithIdentifier:forIndexPath:"
+- "description"
+- "deselectRowAtIndexPath:animated:"
+- "detailedProductCategory"
+- "device"
+- "deviceFlags"
+- "deviceImage"
+- "deviceListSpecifiers"
+- "deviceSpecifiers"
+- "deviceType"
+- "devices"
+- "dictionaryForKey:"
+- "dictionaryWithObjects:forKeys:count:"
+- "didConnectToGameController:"
+- "didDisconnectToGameController:"
+- "didDismissSearchController:"
+- "didEnterBackground"
+- "didFinishLaunching"
+- "didPresentSearchController:"
+- "didSelectItemInRemapController:item:"
+- "directionPadMappingForPhysicalPress:"
+- "disconnect error:"
+- "disconnectWithCompletion:"
+- "discoverableState"
+- "discovery"
+- "discovery.activate:"
+- "discovery.errorHandler:"
+- "discoveryFlags"
+- "discoveryFlags:\t"
+- "dismissView:"
+- "dismissViewControllerAnimated:completion:"
+- "displayContentController:"
+- "displayName"
+- "doubleForKey:"
+- "doublePressShareGesture"
+- "dpads"
+- "dstAuxiliaryButtons"
+- "dstButtons"
+- "dstDpads"
+- "duration"
+- "elementKey"
+- "elementMappingForPhysicalPress:"
+- "elementMappings"
+- "elementMappingsFrom:for:"
+- "elements"
+- "emoji.face.grinning"
+- "emptyGroupSpecifier"
+- "engine"
+- "enumeratorWithOptions:"
+- "eraseAllSettings"
+- "exclamationmark.triangle.fill"
+- "extendedGamepad"
+- "filterSupportedApps"
+- "filteredApps"
+- "filteredArrayUsingPredicate:"
+- "findController"
+- "findingController"
+- "firstObject"
+- "font"
+- "fusableControllers"
+- "fusedControllerIdentifier"
+- "fusedControllerIdentifiers"
+- "fusedControllerIsConnectedWithPilotOrCopilotController:"
+- "fusedControllers"
+- "gameBundleIdentifier"
+- "gameIdentifiers"
+- "gameWithBundleIdentifier:"
+- "gameWithBundleIdentifier:controller:"
+- "gamecontroller.fill"
+- "games"
+- "gamesCount"
+- "gcControllerElement_primaryAlias:"
+- "gcControllerElement_remappable:"
+- "gcControllerElement_remappingKey:"
+- "gcController_persistentIdentifier:"
+- "gcsController_initWithController:"
+- "gcsElement_initWithControllerEmenet:"
+- "generateElementDictionaryFromElements:"
+- "gestureCustomizationSpecifiers"
+- "gestureLabel"
+- "gestureModeForGestureType:"
+- "getBrightness"
+- "getControllerInfoWithCompletion:"
+- "getControllerSettingsWithCompletionHandler:"
+- "getCustomizationValue:"
+- "getEnableCustomizationsValue"
+- "getHapticsValue"
+- "getMappableElementsToSystemGesturesElements"
+- "getMappableElementsToSystemGesturesElements:"
+- "getRemappableElements:"
+- "globe.europe.africa.fill"
+- "graduationcap.fill"
+- "green"
+- "greenColor"
+- "groupSpecifierWithID:"
+- "groupSpecifierWithName:"
+- "hapticFeedbackOverride"
+- "hapticStrength"
+- "haptics"
+- "hapticsEnabled"
+- "hasPrefix:"
+- "hash"
+- "hiddenControllers"
+- "hideContentController:"
+- "homeButtonLongPressAction"
+- "i24@0:8@16"
+- "iconImageForType:"
+- "iconImageView"
+- "id"
+- "identifier"
+- "image"
+- "imageDescriptorNamed:"
+- "imageForDescriptor:"
+- "imageView"
+- "imageWithActions:"
+- "imageWithRenderingMode:"
+- "inactiveProfiles"
+- "indexOfObject:"
+- "init"
+- "initDefaults"
+- "initDummy"
+- "initForController:"
+- "initSettings"
+- "initWithBarButtonSystemItem:target:action:"
+- "initWithBundleIdentifier:"
+- "initWithBundleIdentifier:allowPlaceholder:error:"
+- "initWithBundleIdentifier:forController:"
+- "initWithBundleIdentifier:title:controllerToProfileMappings:controllerToCompatibilityModeMappings:"
+- "initWithCGImage:scale:orientation:"
+- "initWithController:"
+- "initWithData:ofType:"
+- "initWithElement:"
+- "initWithElementKey:mappingKey:remappingOrder:"
+- "initWithElementKey:mappingKey:remappingOrder:invertHorizontally:invertVertically:swapAxes:"
+- "initWithEventType:parameters:relativeTime:"
+- "initWithEvents:parameters:error:"
+- "initWithFusedControllerIdentifier:pilotIdentifier:copilotIdentifier:"
+- "initWithISImage:"
+- "initWithIdentifier:creationDate:recordType:"
+- "initWithJSONObject:"
+- "initWithName:nameLocalizationKey:sfSymbolsName:remappingKey:kind:"
+- "initWithName:persistentIdentifier:productCategoryKey:hidden:shareButton:buttons:dpads:logoSfSymbolsName:supportsHaptics:supportsLight:baseProfile:miscellaneous:"
+- "initWithName:sfSymbolsName:customizable:uuid:"
+- "initWithParameterID:value:"
+- "initWithRed:green:blue:"
+- "initWithSearchResultsController:"
+- "initWithSize:"
+- "initWithString:"
+- "initWithStyle:reuseIdentifier:"
+- "initWithSuiteName:"
+- "initWithTextAlignment:location:options:"
+- "initWithType:"
+- "initWithUUID:name:persistentControllerIdentifier:gameBundleIdentifier:baseProfile:customizable:sfSymbolsName:elementMappings:hapticFeedbackOverride:hapticStrength:doublePressShareGesture:longPressShareGesture:lightbarOverride:lightbarCustomColorEnabled:lightbarColor:"
+- "inquiryState"
+- "insertContiguousSpecifiers:afterSpecifier:animated:"
+- "instance"
+- "intValue"
+- "integerValue"
+- "invalidate"
+- "invertHorizontally"
+- "invertVertically"
+- "isActive"
+- "isAttachedToDevice"
+- "isBaseProfile"
+- "isComponentBased"
+- "isCustomized"
+- "isDeviceSpecificController"
+- "isEqual:"
+- "isEqualToString:"
+- "isHidden"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "item"
+- "jsonObject"
+- "kCFAllocatorNull"
+- "keyPathsForValuesAffectingActiveProfiles"
+- "keyPathsForValuesAffectingControllers"
+- "keyPathsForValuesAffectingFusableControllers"
+- "keyPathsForValuesAffectingFusedControllers"
+- "keyPathsForValuesAffectingHiddenControllers"
+- "keyPathsForValuesAffectingInactiveProfiles"
+- "keyPathsForValuesAffectingSortedProfiles"
+- "keyPathsForValuesAffectingUnfusedFusableControllers"
+- "l.joystick.press.down"
+- "launchAppsController"
+- "lb.rectangle.roundedbottom"
+- "leftJoyConColor"
+- "length"
+- "light"
+- "lightbarColor"
+- "lightbarCustomColorEnabled"
+- "lightbarOverride"
+- "line.3.horizontal.circle"
+- "loadCustomizableApps"
+- "loadDevice"
+- "loadDevices"
+- "loadLightData"
+- "loadRemappableButtons"
+- "localizedName"
+- "localizedName CONTAINS[c] %@"
+- "localizedNameWithPreferredLocalizations:"
+- "localizedProductCategory"
+- "localizedStringForKey:value:table:"
+- "localizedStringFromNumber:numberStyle:"
+- "logicalButtonForPhysicalPressOf:onPhysicalInputProfile:"
+- "logicalDirectionPadForPhysicalPressOf:onPhysicalInputProfile:"
+- "logicalElementForPhysicalPressOf:onPhysicalInputProfile:"
+- "logo"
+- "logo.playstation"
+- "logoSfSymbolsName"
+- "longPressShareGesture"
+- "lt.rectangle.roundedtop"
+- "macAddresses"
+- "mainBundle"
+- "mainRunLoop"
+- "makeSwiftUIView"
+- "mappableToSystemGestures"
+- "mappingForElement:"
+- "mappingKey"
+- "miscellaneous"
+- "modeLabel"
+- "modelUser"
+- "modifiedDate"
+- "modifyControllerSettings:completionHandler:"
+- "modifyDevice:settings:completion:"
+- "mouseProfileWithBundleIdentifier:"
+- "mouseProfiles"
+- "mutableCopy"
+- "name"
+- "naturalThumbstickScrollDirection"
+- "navigateBackToPreviousViewController"
+- "navigationController"
+- "navigationItem"
+- "newBaseProfile"
+- "newSpecifiers"
+- "notifyWhenPlayersFinished:"
+- "null"
+- "numberOfSectionsInTableView:"
+- "numberWithBool:"
+- "numberWithFloat:"
+- "numberWithInteger:"
+- "numericComparison"
+- "numericComparisonPairingDevice"
+- "object"
+- "objectAtIndex:"
+- "objectForKey:"
+- "objectForKey:ofClass:"
+- "objectForKeyedSubscript:"
+- "observeValueForKeyPath:ofObject:change:context:"
+- "onLoadItemInRemapController:item:cell:"
+- "orangeColor"
+- "paintpalette.fill"
+- "pairingInfo"
+- "pairingPerformAction:completionHandler:"
+- "pairingType"
+- "pairing_onboarding_support"
+- "parentController"
+- "passkeyPairingDevice"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "persistentControllerIdentifier"
+- "persistentIdentifier"
+- "physicalInputProfile"
+- "pilotIdentifier"
+- "pin"
+- "pincodeEntryPairingDevice"
+- "playPatternFromURL:error:"
+- "playerIndex"
+- "popToRootViewControllerAnimated:"
+- "popToViewController:animated:"
+- "positionForBar:"
+- "postNotificationName:object:"
+- "predicateWithBlock:"
+- "predicateWithFormat:"
+- "predicateWithFormat:argumentArray:"
+- "preferenceSpecifierNamed:target:set:get:detail:cell:edit:"
+- "preferencesVersion"
+- "preferredFontForTextStyle:"
+- "prepareImageForDescriptor:"
+- "presentSearchController:"
+- "presentViewController:animated:completion:"
+- "primaryAlias"
+- "productCategory"
+- "productCategoryKey"
+- "productCategoryLocalizationKeyForProductCategory:"
+- "productID"
+- "productInfo"
+- "productInfoWithProductID:"
+- "profileExistsFor:with:"
+- "profileFor:with:"
+- "profileUsageStats"
+- "profiles"
+- "propertyForKey:"
+- "purpleColor"
+- "pushViewController:animated:"
+- "q"
+- "q16@0:8"
+- "q16@?0@\"NSError\"8"
+- "q24@0:8@\"<UIBarPositioning>\"16"
+- "q24@0:8@16"
+- "q24@?0@\"LSApplicationRecord\"8@\"LSApplicationRecord\"16"
+- "q24@?0@8@16"
+- "q32@0:8@16q24"
+- "r"
+- "r.joystick.press.down"
+- "rb.rectangle.roundedbottom"
+- "red"
+- "redColor"
+- "registerClass:forCellReuseIdentifier:"
+- "registerSettingsCustomizedHandler:forKey:"
+- "release"
+- "reloadSpecifier:"
+- "reloadSpecifiers"
+- "remapControllerType"
+- "remappable"
+- "remappedElementView"
+- "remappingKey"
+- "remappingOrder"
+- "removeAllObjects"
+- "removeContiguousSpecifiers:animated:"
+- "removeController:saveToDisk:"
+- "removeControllers:saveToDisk:"
+- "removeFromParentViewController"
+- "removeFromSuperview"
+- "removeGame:saveToDisk:"
+- "removeHapticEngines"
+- "removeMouseProfile:saveToDisk:"
+- "removeObject:"
+- "removeObserver:forKeyPath:"
+- "removeObserver:forKeyPath:context:"
+- "removeProfile:saveToDisk:"
+- "removeSpecifier:animated:"
+- "removing %s from %s"
+- "rename controller.modifyDevice:"
+- "replayKitGestureSettings"
+- "resetRemapping"
+- "resignFirstResponder"
+- "respondsToSelector:"
+- "restoreElementMappingToDefault"
+- "restoreToDefaults"
+- "retain"
+- "retainCount"
+- "reversethumbstickscrolldirection"
+- "rightJoyConColor"
+- "row"
+- "rt.rectangle.roundedtop"
+- "saveLight"
+- "scale"
+- "screenShotEnabled"
+- "screenShotGesture"
+- "screenShotKey"
+- "screenshotSettingStatus:"
+- "searchBar"
+- "searchBar:selectedScopeButtonIndexDidChange:"
+- "searchBar:shouldChangeTextInRange:replacementText:"
+- "searchBar:shouldChangeTextInRanges:replacementText:"
+- "searchBar:textDidChange:"
+- "searchBarBookmarkButtonClicked:"
+- "searchBarCancelButtonClicked:"
+- "searchBarResultsListButtonClicked:"
+- "searchBarSearchButtonClicked:"
+- "searchBarShouldBeginEditing:"
+- "searchBarShouldEndEditing:"
+- "searchBarTextDidBeginEditing:"
+- "searchBarTextDidEndEditing:"
+- "searchController"
+- "searchController:didChangeFromSearchBarPlacement:"
+- "searchController:willChangeToSearchBarPlacement:"
+- "secondarySystemGroupedBackgroundColor"
+- "section"
+- "self"
+- "sendAction:to:from:forEvent:"
+- "sendSettingsEnteredEvent"
+- "sendSettingsIdentifyControllerEventForProductCategory:"
+- "setAccessoryType:"
+- "setAllControllers:"
+- "setApps:"
+- "setAppsWithSettings:"
+- "setAppsWithoutSettings:"
+- "setAttributedText:"
+- "setAutocorrectionType:"
+- "setBackgroundView:"
+- "setBluetoothStateChangedHandler:"
+- "setBool:forKey:"
+- "setBrightness:specifier:"
+- "setButtonAction:"
+- "setChangedHandler:"
+- "setChecked:"
+- "setColor:"
+- "setConfigurableControllers:"
+- "setConnectedControllerIdentifiers:"
+- "setConnectionFlags:"
+- "setContentMode:"
+- "setController:"
+- "setControllerIdentifiers:"
+- "setCopilotFusedControllers:"
+- "setCustomization:forSpecifier:"
+- "setCustomization:toValue:forDpad:"
+- "setCustomizationsEnabled:"
+- "setDefinesPresentationContext:"
+- "setDevice:"
+- "setDeviceFoundHandler:"
+- "setDeviceLostHandler:"
+- "setDevices:"
+- "setDiscoverableState:"
+- "setDiscoverableStateChangedHandler:"
+- "setDiscoveryFlags:"
+- "setDouble:forKey:"
+- "setDstAuxiliaryButtons:"
+- "setDstButtons:"
+- "setDstDpads:"
+- "setElements:"
+- "setEnableCustomizationsValue:"
+- "setEngine:"
+- "setErrorHandler:"
+- "setFill"
+- "setFilter:"
+- "setFilteredApps:"
+- "setFindingController:"
+- "setFont:"
+- "setGameIdentifiers:"
+- "setGames:"
+- "setGestureMode:forGestureType:"
+- "setHapticsEnabled:"
+- "setHapticsValue:"
+- "setHidesSearchBarWhenScrolling:"
+- "setImage:"
+- "setInquiryStateChangedHandler:"
+- "setInvertHorizontally:"
+- "setInvertVertically:"
+- "setIsDeviceSpecificController:"
+- "setKeyboardType:"
+- "setMappingForElement:toElement:"
+- "setMiscellaneous:"
+- "setModalPresentationStyle:"
+- "setMouseProfiles:"
+- "setName:"
+- "setNaturalThumbstickScrollDirection:"
+- "setNumberOfLines:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setPairingCompletedHandler:"
+- "setPairingPromptHandler:"
+- "setParentController:"
+- "setPeerDevice:"
+- "setPlaceholder:"
+- "setPlayerIndex:"
+- "setPowerState:completion:"
+- "setPredicate:"
+- "setProfileUsageStats:"
+- "setProfiles:"
+- "setProperty:forKey:"
+- "setRemappedElementView:"
+- "setReplayKitGestureSettings:"
+- "setResetHandler:"
+- "setRightBarButtonItem:"
+- "setScreenShotEnabled:"
+- "setScreenShotGesture:"
+- "setScreenShotKey:"
+- "setSearchController:"
+- "setSearchResultsUpdater:"
+- "setSelected:animated:"
+- "setSeparatorStyle:"
+- "setServiceFlags:"
+- "setSettingEnabled:specifier:"
+- "setSetupAssistantIfNoKeyboard:"
+- "setSetupAssistantIfNoPointingDevice:"
+- "setSmartRoutingMode:"
+- "setSrcElements:"
+- "setStoppedHandler:"
+- "setSwapAxes:"
+- "setSystemButtonActionsEnabled:"
+- "setSystemButtonLongPressAction:"
+- "setTabStops:"
+- "setText:"
+- "setTextAlignment:"
+- "setTextColor:"
+- "setThumbstickScrollingSpeed:"
+- "setTintColor:"
+- "setTitle:"
+- "setTombstones:"
+- "setVideoRecordingEnabled:"
+- "setVideoRecordingGesture:"
+- "setVideoRecordingKey:"
+- "setVideoRecordingMode:"
+- "settingEnabled:"
+- "settings"
+- "settingsCustomizedForController:forBundleIdentifier:"
+- "settingsForElement:"
+- "settingsProfile"
+- "settingsVersion"
+- "setup"
+- "setupAssistantIfNoKeyboard"
+- "setupAssistantIfNoPointingDevice"
+- "sfSymbolsName"
+- "shareButton"
+- "shareGestureDetailLabel:"
+- "sharedApplication"
+- "shippingbox.fill"
+- "sizeToFit"
+- "smartRoutingMode"
+- "sortUsingComparator:"
+- "sortedArrayUsingComparator:"
+- "sortedProfiles"
+- "specifier"
+- "specifierAtIndexPath:"
+- "specifierForID:"
+- "specifiers"
+- "specifiersForIDs:"
+- "square.and.arrow.up.circle"
+- "srcElements"
+- "standardUserDefaults"
+- "startAndReturnError:"
+- "startAtTime:error:"
+- "string"
+- "stringForKey:"
+- "stringWithFormat:"
+- "superclass"
+- "supportedGameControllers"
+- "supportsBuddyController"
+- "supportsControllerUserInteraction"
+- "supportsHaptics"
+- "supportsLight"
+- "swapAxes"
+- "synthetic_game_controllers"
+- "systemBrownColor"
+- "systemButtonActionsEnabled"
+- "systemButtonLongPressAction"
+- "systemGray5Color"
+- "systemGrayColor"
+- "systemGreenColor"
+- "systemGroupedBackgroundColor"
+- "systemImageNamed:"
+- "systemImageNamed:withConfiguration:"
+- "systemIndigoColor"
+- "systemOrangeColor"
+- "systemPurpleColor"
+- "tableView:canEditRowAtIndexPath:"
+- "tableView:cellForRowAtIndexPath:"
+- "tableView:commitEditingStyle:forRowAtIndexPath:"
+- "tableView:didSelectRowAtIndexPath:"
+- "tableView:numberOfRowsInSection:"
+- "text"
+- "textColor"
+- "textLabel"
+- "thumbstickScrollingSpeed"
+- "thumbstickscrollingspeed"
+- "title"
+- "titleLabel"
+- "tombstones"
+- "unfusedFusableControllers"
+- "uniformTypeIdentifier"
+- "unmappedLocalizedName"
+- "unmappedNameLocalizationKey"
+- "unmappedSfSymbolsName"
+- "unregisterSettingsCustomizedHandlerForController:forKey:"
+- "updateColor"
+- "updateControllerFrom:to:saveToDisk:"
+- "updateControllers"
+- "updateGameFrom:to:saveToDisk:"
+- "updateMouseProfileFrom:to:saveToDisk:"
+- "updateProfileFrom:to:saveToDisk:"
+- "updateSearchResultsForSearchController:"
+- "updateSearchResultsForSearchController:selectingSearchSuggestion:"
+- "updateSmartRoutingFor controller.modifyDevice"
+- "useCase"
+- "userDefaults"
+- "userInterfaceIdiom"
+- "userInterfaceLayoutDirection"
+- "uuid"
+- "uuidIdentifiers"
+- "v16@?0@\"CBDevice\"8"
+- "v16@?0@\"CBPairingInfo\"8"
+- "v16@?0@\"NSError\"8"
+- "v16@?0@\"NSNotification\"8"
+- "v16@?0@\"UIGraphicsImageRendererContext\"8"
+- "v16@?0q8"
+- "v20@0:8B16"
+- "v24@0:8@\"GCController\"16"
+- "v24@0:8@\"NSDictionary\"16"
+- "v24@0:8@\"UISearchBar\"16"
+- "v24@0:8@\"UISearchController\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?@\"<GCControllerSettingsComponent>\">16"
+- "v24@0:8B16B20"
+- "v24@0:8d16"
+- "v24@?0@\"CBControllerInfo\"8@\"NSError\"16"
+- "v24@?0@\"CBControllerSettings\"8@\"NSError\"16"
+- "v24@?0@\"CBDevice\"8@\"NSError\"16"
+- "v24@?0@\"NSArray\"8@\"NSArray\"16"
+- "v28@0:8@16B24"
+- "v32@0:8@\"GCSettingsButtonRemapController\"16@\"NSString\"24"
+- "v32@0:8@\"UISearchBar\"16@\"NSString\"24"
+- "v32@0:8@\"UISearchBar\"16q24"
+- "v32@0:8@\"UISearchController\"16@\"<UISearchSuggestion>\"24"
+- "v32@0:8@\"UISearchController\"16q24"
+- "v32@0:8@16@24"
+- "v32@0:8@16q24"
+- "v36@0:8@16@24B32"
+- "v36@0:8@16B24@28"
+- "v40@0:8@\"GCSettingsButtonRemapController\"16@\"NSObject\"24@\"PSTableCell\"32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16q24@32"
+- "v48@0:8@16@24@32^v40"
+- "v8@?0"
+- "valueForColorKey:"
+- "vendorID"
+- "vendorIDSource"
+- "vendorName"
+- "videoRecordingEnabled"
+- "videoRecordingGesture"
+- "videoRecordingKey"
+- "videoRecordingMode"
+- "videoRecordingSettingStatus:"
+- "viewControllers"
+- "willDismissSearchController:"
+- "willEnterForeground"
+- "willMoveToParentViewController:"
+- "willPresentSearchController:"
+- "wrench.and.screwdriver.fill"
+- "x-apple.systempreferences:com.apple.Game-Controller-Settings.extension?uuid="
+- "x-apple.systempreferences:com.apple.HeadphoneSettings*"
+- "x-apple.systempreferences:com.apple.Keyboard-Settings.extension"
+- "x-apple.systempreferences:com.apple.Mouse-Settings.extension"
+- "x-apple.systempreferences:com.apple.Trackpad-Settings.extension"
+- "yellowColor"
+- "zone"
+- "\u200f"
+- "\u2069\t"
+
+```

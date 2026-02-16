@@ -1,0 +1,2342 @@
+## HealthKit
+
+> `/System/Library/Frameworks/HealthKit.framework/HealthKit`
+
+```diff
+
+-6200.4.9.0.0
+-  __TEXT.__text: 0x3494f0
+-  __TEXT.__auth_stubs: 0x3790
+-  __TEXT.__objc_methlist: 0x3043c
+-  __TEXT.__cstring: 0x36d93
+-  __TEXT.__const: 0x1338f2
+-  __TEXT.__oslogstring: 0xc773
+-  __TEXT.__gcc_except_tab: 0x42a4
+-  __TEXT.__ustring: 0x78
++6200.5.77.2.6
++  __TEXT.__text: 0x345ed8
++  __TEXT.__auth_stubs: 0x36f0
++  __TEXT.__objc_methlist: 0x30374
++  __TEXT.__cstring: 0x365c2
++  __TEXT.__const: 0x135b84
++  __TEXT.__oslogstring: 0xca33
++  __TEXT.__gcc_except_tab: 0x40c0
+   __TEXT.__dlopen_cstrs: 0x644
+-  __TEXT.__constg_swiftt: 0x3064
+-  __TEXT.__swift5_typeref: 0x2ed9
+-  __TEXT.__swift5_builtin: 0x3fc
+-  __TEXT.__swift5_reflstr: 0x1e92
+-  __TEXT.__swift5_fieldmd: 0x2d2c
+-  __TEXT.__swift5_assocty: 0xc20
+-  __TEXT.__swift5_proto: 0xc2c
+-  __TEXT.__swift5_types: 0x414
+-  __TEXT.__swift5_capture: 0x940
+-  __TEXT.__swift_as_entry: 0x170
+-  __TEXT.__swift_as_ret: 0x174
+-  __TEXT.__swift5_protos: 0x50
+-  __TEXT.__swift5_mpenum: 0x18
+-  __TEXT.__unwind_info: 0xfe98
+-  __TEXT.__eh_frame: 0x4628
+-  __TEXT.__objc_classname: 0x8aba
+-  __TEXT.__objc_methname: 0x5f832
+-  __TEXT.__objc_methtype: 0xc065
+-  __TEXT.__objc_stubs: 0x2c000
+-  __DATA_CONST.__got: 0x1b68
+-  __DATA_CONST.__const: 0x10ae0
++  __TEXT.__ustring: 0x78
++  __TEXT.__constg_swiftt: 0x2984
++  __TEXT.__swift5_typeref: 0x2ba8
++  __TEXT.__swift5_builtin: 0x460
++  __TEXT.__swift5_reflstr: 0x1d8e
++  __TEXT.__swift5_fieldmd: 0x2954
++  __TEXT.__swift5_assocty: 0xbd0
++  __TEXT.__swift5_proto: 0xb50
++  __TEXT.__swift5_types: 0x3d4
++  __TEXT.__swift5_protos: 0x20
++  __TEXT.__swift_as_entry: 0x144
++  __TEXT.__swift_as_ret: 0x148
++  __TEXT.__swift5_capture: 0x968
++  __TEXT.__swift5_mpenum: 0x8
++  __TEXT.__unwind_info: 0xfb00
++  __TEXT.__eh_frame: 0x3c00
++  __TEXT.__objc_classname: 0x8f38
++  __TEXT.__objc_methname: 0x6070f
++  __TEXT.__objc_methtype: 0xcc0f
++  __TEXT.__objc_stubs: 0x2d040
++  __DATA_CONST.__got: 0x1b58
++  __DATA_CONST.__const: 0xffe8
+   __DATA_CONST.__objc_classlist: 0x1ae8
+   __DATA_CONST.__objc_catlist: 0x1c0
+-  __DATA_CONST.__objc_protolist: 0x808
++  __DATA_CONST.__objc_protolist: 0x800
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x11910
+-  __DATA_CONST.__objc_protorefs: 0x618
+-  __DATA_CONST.__objc_superrefs: 0x1740
++  __DATA_CONST.__objc_selrefs: 0x11a18
++  __DATA_CONST.__objc_protorefs: 0x610
++  __DATA_CONST.__objc_superrefs: 0x1748
+   __DATA_CONST.__objc_arraydata: 0x6968
+-  __AUTH_CONST.__auth_got: 0x1be0
+-  __AUTH_CONST.__const: 0xc700
+-  __AUTH_CONST.__cfstring: 0x32b20
+-  __AUTH_CONST.__objc_const: 0x50b10
++  __AUTH_CONST.__auth_got: 0x1b90
++  __AUTH_CONST.__const: 0xbfb0
++  __AUTH_CONST.__cfstring: 0x32d00
++  __AUTH_CONST.__objc_const: 0x50970
+   __AUTH_CONST.__objc_intobj: 0x4620
++  __AUTH_CONST.__objc_arrayobj: 0x750
+   __AUTH_CONST.__objc_dictobj: 0x488
+   __AUTH_CONST.__objc_doubleobj: 0x140
+-  __AUTH_CONST.__objc_arrayobj: 0x750
+-  __AUTH.__objc_data: 0xed08
+-  __AUTH.__data: 0x19a8
+-  __DATA.__objc_ivar: 0x2e84
+-  __DATA.__data: 0xd0c8
+-  __DATA.__bss: 0x18c40
++  __AUTH.__objc_data: 0xeb20
++  __AUTH.__data: 0x1890
++  __DATA.__objc_ivar: 0x2e58
++  __DATA.__data: 0xcd00
++  __DATA.__bss: 0x16fc0
+   __DATA.__common: 0x9c0
+-  __DATA_DIRTY.__objc_data: 0x24a8
+-  __DATA_DIRTY.__data: 0x130
+-  __DATA_DIRTY.__bss: 0xcb8
+-  __DATA_DIRTY.__common: 0xd8
++  __DATA_DIRTY.__objc_data: 0x2548
++  __DATA_DIRTY.__data: 0x148
++  __DATA_DIRTY.__bss: 0xcc8
++  __DATA_DIRTY.__common: 0x98
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+   - /System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils
+   - /System/Library/PrivateFrameworks/CrashReporterSupport.framework/CrashReporterSupport
++  - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/GraphicsServices.framework/GraphicsServices
+   - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+   - /System/Library/PrivateFrameworks/MobileAsset.framework/MobileAsset
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 3D8EC2EE-3F8B-3537-A282-0AD85BF43633
+-  Functions: 24376
+-  Symbols:   61508
+-  CStrings:  30589
++  UUID: 53646ED8-B301-347B-988A-5F7A5D8DDDCC
++  Functions: 23978
++  Symbols:   61719
++  CStrings:  30653
+ 
+Symbols:
++ +[HKDaemonConnection connectionWithListenerEndpoint:launchNotificationName:]
++ +[HKDaemonConnection connectionWithMachServiceName:launchNotificationName:]
++ +[HKHealthStoreImplementation healthStoreImplementationFor:sourceBundle:endpoint:shared:]
++ +[HKMedicalCodingSystem FHIRCommunicationStatus]
++ +[HKUnit _estimatedGlomerularFiltrationRateUnit]
++ +[HKUnit _parseUnitFromString:]
++ +[HKWorkoutDataSource _cyclingTypesForActivityType:isAppleWatch:connectedToFitnessMachine:]
++ +[HKWorkoutDataSource _distanceTypeForActivityType:isIndoor:connectedToFitnessMachine:isAppleWatch:]
++ +[HKWorkoutDataSource _shouldCollectCyclingTypesForActivityType:isAppleWatch:connectedToFitnessMachine:]
++ +[HKWorkoutDataSource _shouldCollectDistanceForActivityType:isIndoor:connectedToFitnessMachine:isAppleWatch:]
++ +[NSDate(HealthKit) hk_dateForMachAbsoluteTime:]
++ +[_HKBaseDimension estimatedGlomerularFiltrationRate]
++ -[HKAuthorizationStore _lock_observersForBundleIdentifier:]
++ -[HKAuthorizationStore _lock_setObserversForBundleIdentifier:observers:]
++ -[HKAuthorizationStore _registerRemoteObserverForBundleIdentifier:completion:]
++ -[HKAuthorizationStore addObserver:bundleIdentifier:]
++ -[HKAuthorizationStore addObserver:bundleIdentifier:completion:]
++ -[HKAuthorizationStore clientRemote_authorizationDidUpdateForBundleIdentifier:authorizationRecords:]
++ -[HKAuthorizationStore removeObserver:bundleIdentifier:]
++ -[HKDaemonConnection .cxx_destruct]
++ -[HKDaemonConnection clientQueue]
++ -[HKDaemonConnection connectionInvalidated]
++ -[HKDaemonConnection daemonLaunchDarwinNotificationName]
++ -[HKDaemonConnection dealloc]
++ -[HKDaemonConnection endpointForServiceIdentifier:error:]
++ -[HKDaemonConnection exportedInterface]
++ -[HKDaemonConnection fetchEndpointForServiceIdentifier:endpointHandler:errorHandler:]
++ -[HKDaemonConnection initWithConnection:launchNotificationName:]
++ -[HKDaemonConnection init]
++ -[HKDaemonConnection remoteInterface]
++ -[HKDaemonProxyProvider fetchProxyServiceEndpointFromSource:serviceIdentifier:endpointHandler:errorHandler:]
++ -[HKDaemonProxyProvider initWithConnection:serviceIdentifier:exportedObject:]
++ -[HKDaemonProxyProvider initWithSource:serviceIdentifier:exportedObject:exportedInterface:remoteInterface:]
++ -[HKDaemonProxyProvider init]
++ -[HKDaemonProxyProvider proxyServiceEndpointFromSource:serviceIdentifier:error:]
++ -[HKDatabaseControl generateDemoDataWithDurationInDays:includeToday:seed:completion:]
++ -[HKDatabaseControl showDatabaseShapeWithConfiguration:completion:]
++ -[HKEstimatedGlomerularFiltrationRateUnit dimension]
++ -[HKFeatureStatus unsatisfiedRequirementIdentifiersDescription]
++ -[HKGAD7Assessment acceptsAssociationWithObject:associationType:]
++ -[HKHealthStore associateSourceSamples:withDestinationObject:destinationSubObject:associationType:associationBehavior:completion:]
++ -[HKHealthStoreImplementation associateSourceSamples:withDestinationObject:destinationSubObject:associationType:associationBehavior:completion:]
++ -[HKPHQ9Assessment acceptsAssociationWithObject:associationType:]
++ -[HKUserDomainConceptStore _clientQueue_notifyForChangesToUserDomainConcepts:changeType:maxAnchor:]
++ -[HKUserDomainConceptStore client_notifyForChangesToUserDomainConcepts:changeType:maxAnchor:]
++ -[HKWorkout acceptsAssociationWithObject:associationType:]
++ -[HKWorkoutActivity acceptsAssociationWithObject:associationType:]
++ -[HKWorkoutCondenserControl provenanceIDsWithUUID:sampleType:completion:]
++ -[HKWorkoutSession _queue_dataSentToRemoteWithSuccess:uuid:error:]
++ -[HKWorkoutSession _queue_dataSentToRemoteWithSuccess:uuid:error:].cold.1
++ -[HKWorkoutSession _queue_handleSendDataToRemoteWorkoutSession_proxyError:uuid:]
++ -[HKWorkoutSession _queue_handleSendDataToRemoteWorkoutSession_proxyError:uuid:].cold.1
++ -[NSMutableSet(HealthKit) hk_dequeue]
++ -[_HKBehavior supportsGymKit]
++ -[_HKBehavior supportsWideGamut]
++ -[_HKDatabaseChangesQuery initWithTypes:anchor:resultsHandler:].cold.1
++ -[_HKFeatureFlags allowExperimentalHealthTypesUsage]
++ -[_HKFeatureFlags hav3_categories]
++ -[_HKFeatureFlags health365ContentRoom]
++ -[_HKFeatureFlags hoplite]
++ -[_HKFeatureFlags orchestrationMedications]
++ -[_HKFeatureFlags phoneLandscapeSupport]
++ -[_HKFeatureFlags safetyOrchestrationMigration]
++ -[_HKFeatureFlags setAllowExperimentalHealthTypesUsage:]
++ -[_HKFeatureFlags setHealth365ContentRoom:]
++ -[_HKFeatureFlags setHoplite:]
++ -[_HKFeatureFlags setOrchestrationMedications:]
++ -[_HKFeatureFlags setPhoneLandscapeSupport:]
++ -[_HKFeatureFlags setSafetyOrchestrationMigration:]
++ -[_HKFeatureFlags setSleepAlarmCoordination:]
++ -[_HKFeatureFlags setUseSSPActionSuggestionGenerator:]
++ -[_HKFeatureFlags sleepAlarmCoordination]
++ -[_HKFeatureFlags useSSPActionSuggestionGenerator]
++ -[_HKObjectComparisonFilter _acceptsWorkoutRoute:forWorkout:]
++ -[_HKWorkoutObserver getPairedWatchWorkoutState:]
++ -[_HKZipArchiveEntry _errorFromReaderWithContext:reader:]
++ -[_HKZipArchiveEntry _errorFromReaderWithContext:reader:].cold.1
++ -[_HKZipArchiveEntry extractEntryContentsToURL:error:]
++ GCC_except_table107
++ GCC_except_table113
++ GCC_except_table116
++ GCC_except_table117
++ GCC_except_table119
++ GCC_except_table120
++ GCC_except_table125
++ GCC_except_table129
++ GCC_except_table131
++ GCC_except_table132
++ GCC_except_table135
++ GCC_except_table160
++ GCC_except_table167
++ GCC_except_table177
++ GCC_except_table180
++ GCC_except_table199
++ GCC_except_table216
++ GCC_except_table217
++ GCC_except_table221
++ GCC_except_table229
++ GCC_except_table268
++ GCC_except_table375
++ GCC_except_table57
++ GCC_except_table59
++ GCC_except_table65
++ GCC_except_table68
++ GCC_except_table69
++ GCC_except_table80
++ GCC_except_table86
++ GCC_except_table89
++ GCC_except_table92
++ GCC_except_table98
++ _HKDaemonConnectionServerInterface
++ _HKLogBackgroundUpdates.category
++ _HKLogBackgroundUpdates.cold.1
++ _HKLogBackgroundUpdates.onceToken
++ _HKLogDemoData.category
++ _HKLogDemoData.cold.1
++ _HKLogDemoData.onceToken
++ _HKLogHeartRhythm.category
++ _HKLogHeartRhythm.cold.1
++ _HKLogHeartRhythm.onceToken
++ _HKLogMedicalID.category
++ _HKLogMedicalID.cold.1
++ _HKLogMedicalID.onceToken
++ _HKLogMobileAsset.category
++ _HKLogMobileAsset.cold.1
++ _HKLogMobileAsset.onceToken
++ _HKLogMobility.category
++ _HKLogMobility.cold.1
++ _HKLogMobility.onceToken
++ _HKLogNotifications.category
++ _HKLogNotifications.cold.1
++ _HKLogNotifications.onceToken
++ _HKLogPluginLoading
++ _HKLogPluginLoading.category
++ _HKLogPluginLoading.cold.1
++ _HKLogPluginLoading.onceToken
++ _HKLogRespiratory.category
++ _HKLogRespiratory.cold.1
++ _HKLogRespiratory.onceToken
++ _NSPOSIXErrorDomain
++ _NSStringFromHKFeatureAvailabilityRequirementIdentifierRespectingSensitiveItems
++ _OBJC_CLASS_$_HKDaemonConnection
++ _OBJC_CLASS_$_HKDaemonProxyProvider
++ _OBJC_CLASS_$_HKEstimatedGlomerularFiltrationRateUnit
++ _OBJC_IVAR_$_HKAuthorizationStore._lock
++ _OBJC_IVAR_$_HKAuthorizationStore._observersMap
++ _OBJC_IVAR_$_HKDaemonConnection._clientQueue
++ _OBJC_IVAR_$_HKDaemonConnection._connection
++ _OBJC_IVAR_$_HKDaemonConnection._daemonLaunchDarwinNotificationName
++ _OBJC_IVAR_$__HKBehavior._overriddenCoordinatedCloudSyncEnabled
++ _OBJC_IVAR_$__HKBehavior._supportsGymKit
++ _OBJC_IVAR_$__HKBehavior._supportsWideGamut
++ _OBJC_IVAR_$__HKFeatureFlags._allowExperimentalHealthTypesUsage
++ _OBJC_IVAR_$__HKFeatureFlags._health365ContentRoom
++ _OBJC_IVAR_$__HKFeatureFlags._hoplite
++ _OBJC_IVAR_$__HKFeatureFlags._orchestrationMedications
++ _OBJC_IVAR_$__HKFeatureFlags._phoneLandscapeSupport
++ _OBJC_IVAR_$__HKFeatureFlags._safetyOrchestrationMigration
++ _OBJC_IVAR_$__HKFeatureFlags._sleepAlarmCoordination
++ _OBJC_IVAR_$__HKFeatureFlags._useSSPActionSuggestionGenerator
++ _OBJC_METACLASS_$_HKDaemonConnection
++ _OBJC_METACLASS_$_HKDaemonProxyProvider
++ _OBJC_METACLASS_$_HKEstimatedGlomerularFiltrationRateUnit
++ _OUTLINED_FUNCTION_10
++ _OUTLINED_FUNCTION_11
++ _OUTLINED_FUNCTION_12
++ _OUTLINED_FUNCTION_13
++ _OUTLINED_FUNCTION_14
++ _OUTLINED_FUNCTION_15
++ _OUTLINED_FUNCTION_9
++ __DATA__TtC9HealthKit31DarwinNotificationObserverToken
++ __IVARS__TtC9HealthKit11ObserverSet
++ __IVARS__TtC9HealthKit31DarwinNotificationObserverToken
++ __METACLASS_DATA__TtC9HealthKit31DarwinNotificationObserverToken
++ __OBJC_$_CATEGORY_CLASS_METHODS_NSData_$_HealthKit
++ __OBJC_$_CATEGORY_CLASS_METHODS_NSSet_$_HealthKit
++ __OBJC_$_CATEGORY_INSTANCE_METHODS_NSComparisonPredicate_$_HKFilterExtension
++ __OBJC_$_CATEGORY_INSTANCE_METHODS_NSPredicate_$_HKFilterExtension
++ __OBJC_$_CATEGORY_NSArray_$_HKFeatureAvailabilityRequirementsProviding
++ __OBJC_$_CATEGORY_NSCalendar_$_HKActivitySummary
++ __OBJC_$_CATEGORY_NSComparisonPredicate_$_HKFilterExtension
++ __OBJC_$_CATEGORY_NSData_$_HealthKit
++ __OBJC_$_CATEGORY_NSDateComponents_$_HKSleepSchedule
++ __OBJC_$_CATEGORY_NSDateInterval_$__HKDateBounded
++ __OBJC_$_CATEGORY_NSError_$_HKHTTP
++ __OBJC_$_CATEGORY_NSPredicate_$_HKFilterExtension
++ __OBJC_$_CATEGORY_NSSet_$_HealthKit
++ __OBJC_$_CATEGORY_NSString_$__HKObjectComparisonFilter
++ __OBJC_$_CATEGORY_NSUserDefaults_$_HKFeatureAvailabilityRequirementSatisfactionOverrides
++ __OBJC_$_CLASS_METHODS_HKAllergyRecord(HKConceptIndexable|SortDate|UserDomainConcept|CategoryType|MedicalRecordCodings)
++ __OBJC_$_CLASS_METHODS_HKClinicalNoteRecord(HKConceptIndexable|SortDate|CategoryType|MedicalRecordCodings)
++ __OBJC_$_CLASS_METHODS_HKClinicalType(HealthRecordServices|HKObjectOverrides)
++ __OBJC_$_CLASS_METHODS_HKConditionRecord(HKConceptIndexable|SortDate|UserDomainConcept|CategoryType|MedicalRecordCodings)
++ __OBJC_$_CLASS_METHODS_HKCountrySet(BitmaskEncoding|Comparator|PlistDecoding)
++ __OBJC_$_CLASS_METHODS_HKCoverageRecord(HKConceptIndexable|SortDate|CategoryType|MedicalRecordCodings)
++ __OBJC_$_CLASS_METHODS_HKDaemonConnection
++ __OBJC_$_CLASS_METHODS_HKDiagnosticTestReport(HKConceptIndexable|SortDate|CategoryType|MedicalRecordCodings)
++ __OBJC_$_CLASS_METHODS_HKDiagnosticTestResult(HKConceptIndexable|SortDate|UserDomainConcept|CategoryType|MedicalRecordCodings)
++ __OBJC_$_CLASS_METHODS_HKImportExclusionDeviceDataSource(HKFeatureIdentifierOxygenSaturationRecordingAllowedDeviceSerialNumbers|HKFeatureIdentifierOxygenSaturationRecordingAllowedDeviceSerialNumbersTIB|HKFeatureIdentifierOxygenSaturationRecordingAllowedDeviceTypes|HKFeatureIdentifierOxygenSaturationRecordingCompanionAnalysisAllowedDeviceSerialNumbers)
++ __OBJC_$_CLASS_METHODS_HKKeyValueDomain(NoDataError|HKHealthAppAdditions|HKHeartRhythmAdditions)
++ __OBJC_$_CLASS_METHODS_HKMedicalCoding(AppleOntology|ICD9|ICD10|LOINC|RxNorm|SNOMED|Text|UCUM)
++ __OBJC_$_CLASS_METHODS_HKMedicalRecord(CategoryType|MedicalRecordCodings|UserDomainConcept|HKConceptIndexable)
++ __OBJC_$_CLASS_METHODS_HKMedicationDispenseRecord(HKConceptIndexable|SortDate|UserDomainConcept|CategoryType|MedicalRecordCodings)
++ __OBJC_$_CLASS_METHODS_HKMedicationDoseEvent(UnitTestSupport|Sanitization)
++ __OBJC_$_CLASS_METHODS_HKMedicationOrder(HKConceptIndexable|SortDate|UserDomainConcept|CategoryType|MedicalRecordCodings)
++ __OBJC_$_CLASS_METHODS_HKMedicationRecord(HKConceptIndexable|SortDate|UserDomainConcept|CategoryType|MedicalRecordCodings)
++ __OBJC_$_CLASS_METHODS_HKObjectType(HKAuthorization|AccountOwnerType|AllergyRecordType|ClinicalNoteRecordType|ConditionRecordType|CoverageRecordType|DiagnosticTestReportType|DiagnosticTestResultType|MedicalType|MedicationDispenseRecordType|MedicationOrderType|MedicationRecordType|HKLocalization|Logging|ProcedureRecordType|SignedClinicalDataRecordType|UnknownRecordType|VaccinationRecordType|VerifiableClinicalRecordType|ClinicalType|WorkoutMetric)
++ __OBJC_$_CLASS_METHODS_HKProcedureRecord(HKConceptIndexable|SortDate|UserDomainConcept|CategoryType|MedicalRecordCodings)
++ __OBJC_$_CLASS_METHODS_HKQuery(HKActivityCache|HKPredicates|_HKFitnessFriendAchievement|_HKFitnessFriendActivitySnapshot|_HKFitnessFriendWorkout)
++ __OBJC_$_CLASS_METHODS_HKSampleType(HKAttachments|RequiredMetadata|HealthRecords)
++ __OBJC_$_CLASS_METHODS_HKSignedClinicalDataRecord(HKConceptIndexable|SortDate|HealthRecords)
++ __OBJC_$_CLASS_METHODS_HKUnknownRecord(SortDate|CategoryType|MedicalRecordCodings)
++ __OBJC_$_CLASS_METHODS_HKVaccinationRecord(HKConceptIndexable|SortDate|UserDomainConcept|CategoryType|MedicalRecordCodings)
++ __OBJC_$_CLASS_METHODS_NSArray(HKFeatureAvailabilityRequirementsProviding|HKCodedObject|HealthKit|HKUUID)
++ __OBJC_$_CLASS_METHODS_NSCalendar(HKActivitySummary|HKCalendar)
++ __OBJC_$_CLASS_METHODS_NSComparisonPredicate(HKFilterExtension|HealthKit)
++ __OBJC_$_CLASS_METHODS_NSDateComponents(HKSleepSchedule|HKDayIndex|HealthKit)
++ __OBJC_$_CLASS_METHODS_NSDateInterval(_HKDateBounded|HKSleepDayIndex|HealthKit|HKDateIntervalConformance)
++ __OBJC_$_CLASS_METHODS_NSDictionary(HealthKit|HKAttachmentMetadata|HKMetadata|HKWorkoutEventMetadata)
++ __OBJC_$_CLASS_METHODS_NSError(HKHTTP|HKOAuth2|HealthKit)
++ __OBJC_$_CLASS_METHODS_NSPredicate(HKFilterExtension|HKDayIndex)
++ __OBJC_$_CLASS_METHODS_NSString(_HKObjectComparisonFilter|HealthKit)
++ __OBJC_$_CLASS_METHODS_NSUserDefaults(HKFeatureAvailabilityRequirementSatisfactionOverrides|HKRemoteFeatureAvailability|HKLocalCountrySetProvider|HKHeartRhythm|HealthKit)
++ __OBJC_$_INSTANCE_METHODS_HKAllergyRecord(HKConceptIndexable|SortDate|UserDomainConcept|CategoryType|MedicalRecordCodings)
++ __OBJC_$_INSTANCE_METHODS_HKClinicalNoteRecord(HKConceptIndexable|SortDate|CategoryType|MedicalRecordCodings)
++ __OBJC_$_INSTANCE_METHODS_HKClinicalType(HealthRecordServices|HKObjectOverrides)
++ __OBJC_$_INSTANCE_METHODS_HKConditionRecord(HKConceptIndexable|SortDate|UserDomainConcept|CategoryType|MedicalRecordCodings)
++ __OBJC_$_INSTANCE_METHODS_HKCoverageRecord(HKConceptIndexable|SortDate|CategoryType|MedicalRecordCodings)
++ __OBJC_$_INSTANCE_METHODS_HKDaemonConnection
++ __OBJC_$_INSTANCE_METHODS_HKDaemonProxyProvider
++ __OBJC_$_INSTANCE_METHODS_HKDiagnosticTestReport(HKConceptIndexable|SortDate|CategoryType|MedicalRecordCodings)
++ __OBJC_$_INSTANCE_METHODS_HKDiagnosticTestResult(HKConceptIndexable|SortDate|UserDomainConcept|CategoryType|MedicalRecordCodings)
++ __OBJC_$_INSTANCE_METHODS_HKEstimatedGlomerularFiltrationRateUnit
++ __OBJC_$_INSTANCE_METHODS_HKFeatureSettings
++ __OBJC_$_INSTANCE_METHODS_HKHealthStore(HKAnalyticsHealthDataSource|HKFeatureAvailabilityHealthDataSource|Profile|Deprecated|HealthServices|CloudSyncSPI|_HKDaemonPreferences)
++ __OBJC_$_INSTANCE_METHODS_HKKeyValueDomain(NoDataError|HKHealthAppAdditions|HKHeartRhythmAdditions)
++ __OBJC_$_INSTANCE_METHODS_HKMedicalRecord(CategoryType|MedicalRecordCodings|UserDomainConcept|HKConceptIndexable)
++ __OBJC_$_INSTANCE_METHODS_HKMedicationDispenseRecord(HKConceptIndexable|SortDate|UserDomainConcept|CategoryType|MedicalRecordCodings)
++ __OBJC_$_INSTANCE_METHODS_HKMedicationDoseEvent(UnitTestSupport|Sanitization)
++ __OBJC_$_INSTANCE_METHODS_HKMedicationOrder(HKConceptIndexable|SortDate|UserDomainConcept|CategoryType|MedicalRecordCodings)
++ __OBJC_$_INSTANCE_METHODS_HKMedicationRecord(HKConceptIndexable|SortDate|UserDomainConcept|CategoryType|MedicalRecordCodings)
++ __OBJC_$_INSTANCE_METHODS_HKObject(HK_JSON|HKIntegerValueExtensions|HKUUIDProvider)
++ __OBJC_$_INSTANCE_METHODS_HKObjectType(HKAuthorization|AccountOwnerType|AllergyRecordType|ClinicalNoteRecordType|ConditionRecordType|CoverageRecordType|DiagnosticTestReportType|DiagnosticTestResultType|MedicalType|MedicationDispenseRecordType|MedicationOrderType|MedicationRecordType|HKLocalization|Logging|ProcedureRecordType|SignedClinicalDataRecordType|UnknownRecordType|VaccinationRecordType|VerifiableClinicalRecordType|ClinicalType|WorkoutMetric)
++ __OBJC_$_INSTANCE_METHODS_HKProcedureRecord(HKConceptIndexable|SortDate|UserDomainConcept|CategoryType|MedicalRecordCodings)
++ __OBJC_$_INSTANCE_METHODS_HKSample(HK_JSON|_HKQueryUtilities|HKSleep|_HKDateBounded|HKDayIndex|Sanitization)
++ __OBJC_$_INSTANCE_METHODS_HKSampleType(HKAttachments|RequiredMetadata|HealthRecords)
++ __OBJC_$_INSTANCE_METHODS_HKSignedClinicalDataRecord(HKConceptIndexable|SortDate|HealthRecords)
++ __OBJC_$_INSTANCE_METHODS_HKUnknownRecord(SortDate|CategoryType|MedicalRecordCodings)
++ __OBJC_$_INSTANCE_METHODS_HKVaccinationRecord(HKConceptIndexable|SortDate|UserDomainConcept|CategoryType|MedicalRecordCodings)
++ __OBJC_$_INSTANCE_METHODS_NSArray(HKFeatureAvailabilityRequirementsProviding|HKCodedObject|HealthKit|HKUUID)
++ __OBJC_$_INSTANCE_METHODS_NSCalendar(HKActivitySummary|HKCalendar)
++ __OBJC_$_INSTANCE_METHODS_NSData(HealthKit|HKUUID)
++ __OBJC_$_INSTANCE_METHODS_NSDateComponents(HKSleepSchedule|HKDayIndex|HealthKit)
++ __OBJC_$_INSTANCE_METHODS_NSDateInterval(_HKDateBounded|HKSleepDayIndex|HealthKit|HKDateIntervalConformance)
++ __OBJC_$_INSTANCE_METHODS_NSDictionary(HealthKit|HKAttachmentMetadata|HKMetadata|HKWorkoutEventMetadata)
++ __OBJC_$_INSTANCE_METHODS_NSError(HKHTTP|HKOAuth2|HealthKit)
++ __OBJC_$_INSTANCE_METHODS_NSSet(HealthKit|HKUUID)
++ __OBJC_$_INSTANCE_METHODS_NSString(_HKObjectComparisonFilter|HealthKit)
++ __OBJC_$_INSTANCE_METHODS_NSUserDefaults(HKFeatureAvailabilityRequirementSatisfactionOverrides|HKRemoteFeatureAvailability|HKLocalCountrySetProvider|HKHeartRhythm|HealthKit)
++ __OBJC_$_INSTANCE_VARIABLES_HKDaemonConnection
++ __OBJC_$_PROP_LIST_HKDaemonConnection
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_HKDaemonConnectionServerInterface
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_HKAuthorizationStoreClient
++ __OBJC_$_PROTOCOL_METHOD_TYPES_HKAuthorizationStoreClient
++ __OBJC_$_PROTOCOL_METHOD_TYPES_HKDaemonConnectionServerInterface
++ __OBJC_CLASS_PROTOCOLS_$_HKAllergyRecord(HKConceptIndexable|SortDate|UserDomainConcept|CategoryType|MedicalRecordCodings)
++ __OBJC_CLASS_PROTOCOLS_$_HKClinicalNoteRecord(HKConceptIndexable|SortDate|CategoryType|MedicalRecordCodings)
++ __OBJC_CLASS_PROTOCOLS_$_HKConditionRecord(HKConceptIndexable|SortDate|UserDomainConcept|CategoryType|MedicalRecordCodings)
++ __OBJC_CLASS_PROTOCOLS_$_HKCoverageRecord(HKConceptIndexable|SortDate|CategoryType|MedicalRecordCodings)
++ __OBJC_CLASS_PROTOCOLS_$_HKDaemonConnection
++ __OBJC_CLASS_PROTOCOLS_$_HKDiagnosticTestReport(HKConceptIndexable|SortDate|CategoryType|MedicalRecordCodings)
++ __OBJC_CLASS_PROTOCOLS_$_HKDiagnosticTestResult(HKConceptIndexable|SortDate|UserDomainConcept|CategoryType|MedicalRecordCodings)
++ __OBJC_CLASS_PROTOCOLS_$_HKHealthStore(HKAnalyticsHealthDataSource|HKFeatureAvailabilityHealthDataSource|Profile|Deprecated|HealthServices|CloudSyncSPI|_HKDaemonPreferences)
++ __OBJC_CLASS_PROTOCOLS_$_HKMedicalRecord(CategoryType|MedicalRecordCodings|UserDomainConcept|HKConceptIndexable)
++ __OBJC_CLASS_PROTOCOLS_$_HKMedicationDispenseRecord(HKConceptIndexable|SortDate|UserDomainConcept|CategoryType|MedicalRecordCodings)
++ __OBJC_CLASS_PROTOCOLS_$_HKMedicationOrder(HKConceptIndexable|SortDate|UserDomainConcept|CategoryType|MedicalRecordCodings)
++ __OBJC_CLASS_PROTOCOLS_$_HKMedicationRecord(HKConceptIndexable|SortDate|UserDomainConcept|CategoryType|MedicalRecordCodings)
++ __OBJC_CLASS_PROTOCOLS_$_HKObject(HK_JSON|HKIntegerValueExtensions|HKUUIDProvider)
++ __OBJC_CLASS_PROTOCOLS_$_HKProcedureRecord(HKConceptIndexable|SortDate|UserDomainConcept|CategoryType|MedicalRecordCodings)
++ __OBJC_CLASS_PROTOCOLS_$_HKSample(HK_JSON|_HKQueryUtilities|HKSleep|_HKDateBounded|HKDayIndex|Sanitization)
++ __OBJC_CLASS_PROTOCOLS_$_HKSignedClinicalDataRecord(HKConceptIndexable|SortDate|HealthRecords)
++ __OBJC_CLASS_PROTOCOLS_$_HKVaccinationRecord(HKConceptIndexable|SortDate|UserDomainConcept|CategoryType|MedicalRecordCodings)
++ __OBJC_CLASS_PROTOCOLS_$_NSArray(HKFeatureAvailabilityRequirementsProviding|HKCodedObject|HealthKit|HKUUID)
++ __OBJC_CLASS_PROTOCOLS_$_NSData(HealthKit|HKUUID)
++ __OBJC_CLASS_PROTOCOLS_$_NSDateInterval(_HKDateBounded|HKSleepDayIndex|HealthKit|HKDateIntervalConformance)
++ __OBJC_CLASS_PROTOCOLS_$_NSSet(HealthKit|HKUUID)
++ __OBJC_CLASS_RO_$_HKDaemonConnection
++ __OBJC_CLASS_RO_$_HKDaemonProxyProvider
++ __OBJC_CLASS_RO_$_HKEstimatedGlomerularFiltrationRateUnit
++ __OBJC_LABEL_PROTOCOL_$_HKDaemonConnectionServerInterface
++ __OBJC_METACLASS_RO_$_HKDaemonConnection
++ __OBJC_METACLASS_RO_$_HKDaemonProxyProvider
++ __OBJC_METACLASS_RO_$_HKEstimatedGlomerularFiltrationRateUnit
++ __OBJC_PROTOCOL_$_HKDaemonConnectionServerInterface
++ __OBJC_PROTOCOL_REFERENCE_$_HKDaemonConnectionServerInterface
++ __ZL29compare_string_serial_numbersPKvS0_
++ __ZL30allowed_encoded_serial_numbers
++ __ZL30compare_encoded_serial_numbersPKvS0_
++ __ZL33additional_allowed_serial_numbers
++ __ZL34allowed_encoded_serial_numbers_tib
++ __ZL34compare_encoded_serial_numbers_tibPKvS0_
++ __ZN14HKIntervalTreeIdE12_maxEndpointERKNSt3__110unique_ptrI18HKIntervalTreeNodeIdENS1_14default_deleteIS4_EEEES9_d
++ __ZNKSt3__110__function6__funcIU8__strongU13block_pointerFP15_HKFeatureFlagsvES4_E11target_typeEv
++ __ZNKSt3__110__function6__funcIU8__strongU13block_pointerFP15_HKFeatureFlagsvES4_E6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIU8__strongU13block_pointerFP15_HKFeatureFlagsvES4_E7__cloneEPNS0_6__baseIS4_EE
++ __ZNKSt3__110__function6__funcIU8__strongU13block_pointerFP15_HKFeatureFlagsvES4_E7__cloneEv
++ __ZNKSt3__110__function6__funcIU8__strongU13block_pointerFP8NSStringvES4_E11target_typeEv
++ __ZNKSt3__110__function6__funcIU8__strongU13block_pointerFP8NSStringvES4_E6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIU8__strongU13block_pointerFP8NSStringvES4_E7__cloneEPNS0_6__baseIS4_EE
++ __ZNKSt3__110__function6__funcIU8__strongU13block_pointerFP8NSStringvES4_E7__cloneEv
++ __ZNKSt3__110__function6__funcIU8__strongU13block_pointerFbvES2_E11target_typeEv
++ __ZNKSt3__110__function6__funcIU8__strongU13block_pointerFbvES2_E6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIU8__strongU13block_pointerFbvES2_E7__cloneEPNS0_6__baseIS2_EE
++ __ZNKSt3__110__function6__funcIU8__strongU13block_pointerFbvES2_E7__cloneEv
++ __ZNKSt3__110__function6__funcIZ26-[_HKBehavior isProdFused]E3$_0FbvEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ26-[_HKBehavior isProdFused]E3$_0FbvEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ26-[_HKBehavior isProdFused]E3$_0FbvEE7__cloneEPNS0_6__baseIS3_EE
++ __ZNKSt3__110__function6__funcIZ26-[_HKBehavior isProdFused]E3$_0FbvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ30-[_HKBehavior isVirtualDevice]E3$_1FbvEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ30-[_HKBehavior isVirtualDevice]E3$_1FbvEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ30-[_HKBehavior isVirtualDevice]E3$_1FbvEE7__cloneEPNS0_6__baseIS3_EE
++ __ZNKSt3__110__function6__funcIZ30-[_HKBehavior isVirtualDevice]E3$_1FbvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_7FbvEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_7FbvEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_7FbvEE7__cloneEPNS0_6__baseIS3_EE
++ __ZNKSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_7FbvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ37-[HKDateIntervalTree mergedIntervals]E3$_0FvP18HKIntervalTreeNodeIdEEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ37-[HKDateIntervalTree mergedIntervals]E3$_0FvP18HKIntervalTreeNodeIdEEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ37-[HKDateIntervalTree mergedIntervals]E3$_0FvP18HKIntervalTreeNodeIdEEE7__cloneEPNS0_6__baseIS6_EE
++ __ZNKSt3__110__function6__funcIZ37-[HKDateIntervalTree mergedIntervals]E3$_0FvP18HKIntervalTreeNodeIdEEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ37-[_HKBehavior isRunningStoreDemoMode]E3$_2FbvEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ37-[_HKBehavior isRunningStoreDemoMode]E3$_2FbvEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ37-[_HKBehavior isRunningStoreDemoMode]E3$_2FbvEE7__cloneEPNS0_6__baseIS3_EE
++ __ZNKSt3__110__function6__funcIZ37-[_HKBehavior isRunningStoreDemoMode]E3$_2FbvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4FbvEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4FbvEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4FbvEE7__cloneEPNS0_6__baseIS3_EE
++ __ZNKSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4FbvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ41-[_HKBehavior runningInStoreDemoModeF201]E3$_3FbvEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ41-[_HKBehavior runningInStoreDemoModeF201]E3$_3FbvEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ41-[_HKBehavior runningInStoreDemoModeF201]E3$_3FbvEE7__cloneEPNS0_6__baseIS3_EE
++ __ZNKSt3__110__function6__funcIZ41-[_HKBehavior runningInStoreDemoModeF201]E3$_3FbvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5FbvEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5FbvEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5FbvEE7__cloneEPNS0_6__baseIS3_EE
++ __ZNKSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5FbvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6FbvEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6FbvEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6FbvEE7__cloneEPNS0_6__baseIS3_EE
++ __ZNKSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6FbvEE7__cloneEv
++ __ZNKSt3__16__loopIcE13__init_repeatB9foe210106ERNS_7__stateIcEE
++ __ZNKSt9type_infoeqB9foe210106ERKS_
++ __ZNSt12length_errorC1B9foe210106EPKc
++ __ZNSt3__110__function12__value_funcIFP15_HKFeatureFlagsvEED2B9foe210106Ev
++ __ZNSt3__110__function12__value_funcIFP8NSStringvEED2B9foe210106Ev
++ __ZNSt3__110__function12__value_funcIFbvEED2B9foe210106Ev
++ __ZNSt3__110__function12__value_funcIFvP18HKIntervalTreeNodeIdEEED2B9foe210106Ev
++ __ZNSt3__110__function6__funcIU8__strongU13block_pointerFP15_HKFeatureFlagsvES4_E18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIU8__strongU13block_pointerFP15_HKFeatureFlagsvES4_E7destroyEv
++ __ZNSt3__110__function6__funcIU8__strongU13block_pointerFP15_HKFeatureFlagsvES4_ED0Ev
++ __ZNSt3__110__function6__funcIU8__strongU13block_pointerFP15_HKFeatureFlagsvES4_ED1Ev
++ __ZNSt3__110__function6__funcIU8__strongU13block_pointerFP15_HKFeatureFlagsvES4_EclEv
++ __ZNSt3__110__function6__funcIU8__strongU13block_pointerFP8NSStringvES4_E18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIU8__strongU13block_pointerFP8NSStringvES4_E7destroyEv
++ __ZNSt3__110__function6__funcIU8__strongU13block_pointerFP8NSStringvES4_ED0Ev
++ __ZNSt3__110__function6__funcIU8__strongU13block_pointerFP8NSStringvES4_ED1Ev
++ __ZNSt3__110__function6__funcIU8__strongU13block_pointerFP8NSStringvES4_EclEv
++ __ZNSt3__110__function6__funcIU8__strongU13block_pointerFbvES2_E18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIU8__strongU13block_pointerFbvES2_E7destroyEv
++ __ZNSt3__110__function6__funcIU8__strongU13block_pointerFbvES2_ED0Ev
++ __ZNSt3__110__function6__funcIU8__strongU13block_pointerFbvES2_ED1Ev
++ __ZNSt3__110__function6__funcIU8__strongU13block_pointerFbvES2_EclEv
++ __ZNSt3__110__function6__funcIZ26-[_HKBehavior isProdFused]E3$_0FbvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ26-[_HKBehavior isProdFused]E3$_0FbvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ26-[_HKBehavior isProdFused]E3$_0FbvEED0Ev
++ __ZNSt3__110__function6__funcIZ26-[_HKBehavior isProdFused]E3$_0FbvEED1Ev
++ __ZNSt3__110__function6__funcIZ26-[_HKBehavior isProdFused]E3$_0FbvEEclEv
++ __ZNSt3__110__function6__funcIZ30-[_HKBehavior isVirtualDevice]E3$_1FbvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ30-[_HKBehavior isVirtualDevice]E3$_1FbvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ30-[_HKBehavior isVirtualDevice]E3$_1FbvEED0Ev
++ __ZNSt3__110__function6__funcIZ30-[_HKBehavior isVirtualDevice]E3$_1FbvEED1Ev
++ __ZNSt3__110__function6__funcIZ30-[_HKBehavior isVirtualDevice]E3$_1FbvEEclEv
++ __ZNSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_7FbvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_7FbvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_7FbvEED0Ev
++ __ZNSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_7FbvEED1Ev
++ __ZNSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_7FbvEEclEv
++ __ZNSt3__110__function6__funcIZ37-[HKDateIntervalTree mergedIntervals]E3$_0FvP18HKIntervalTreeNodeIdEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ37-[HKDateIntervalTree mergedIntervals]E3$_0FvP18HKIntervalTreeNodeIdEEE7destroyEv
++ __ZNSt3__110__function6__funcIZ37-[HKDateIntervalTree mergedIntervals]E3$_0FvP18HKIntervalTreeNodeIdEEED0Ev
++ __ZNSt3__110__function6__funcIZ37-[HKDateIntervalTree mergedIntervals]E3$_0FvP18HKIntervalTreeNodeIdEEED1Ev
++ __ZNSt3__110__function6__funcIZ37-[HKDateIntervalTree mergedIntervals]E3$_0FvP18HKIntervalTreeNodeIdEEEclEOS5_
++ __ZNSt3__110__function6__funcIZ37-[_HKBehavior isRunningStoreDemoMode]E3$_2FbvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ37-[_HKBehavior isRunningStoreDemoMode]E3$_2FbvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ37-[_HKBehavior isRunningStoreDemoMode]E3$_2FbvEED0Ev
++ __ZNSt3__110__function6__funcIZ37-[_HKBehavior isRunningStoreDemoMode]E3$_2FbvEED1Ev
++ __ZNSt3__110__function6__funcIZ37-[_HKBehavior isRunningStoreDemoMode]E3$_2FbvEEclEv
++ __ZNSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4FbvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4FbvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4FbvEED0Ev
++ __ZNSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4FbvEED1Ev
++ __ZNSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4FbvEEclEv
++ __ZNSt3__110__function6__funcIZ41-[_HKBehavior runningInStoreDemoModeF201]E3$_3FbvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ41-[_HKBehavior runningInStoreDemoModeF201]E3$_3FbvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ41-[_HKBehavior runningInStoreDemoModeF201]E3$_3FbvEED0Ev
++ __ZNSt3__110__function6__funcIZ41-[_HKBehavior runningInStoreDemoModeF201]E3$_3FbvEED1Ev
++ __ZNSt3__110__function6__funcIZ41-[_HKBehavior runningInStoreDemoModeF201]E3$_3FbvEEclEv
++ __ZNSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5FbvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5FbvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5FbvEED0Ev
++ __ZNSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5FbvEED1Ev
++ __ZNSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5FbvEEclEv
++ __ZNSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6FbvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6FbvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6FbvEED0Ev
++ __ZNSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6FbvEED1Ev
++ __ZNSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6FbvEEclEv
++ __ZNSt3__110shared_ptrINS_13__empty_stateIcEEE5resetB9foe210106IS2_Li0EEEvPT_
++ __ZNSt3__110shared_ptrINS_13__empty_stateIcEEEC2B9foe210106IS2_Li0EEEPT_
++ __ZNSt3__110shared_ptrINS_13__empty_stateIcEEEC2B9foe210106IS2_Li0EEEPT_.cold.1
++ __ZNSt3__110unique_ptrI14HKIntervalTreeIdENS_14default_deleteIS2_EEE5resetB9foe210106EPS2_
++ __ZNSt3__110unique_ptrI18HKIntervalTreeNodeIdENS_14default_deleteIS2_EEE5resetB9foe210106EPS2_
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIN12binarysample26ElectrocardiogramLead_NameENS3_21ElectrocardiogramLeadEEEPvEENS_22__tree_node_destructorINS_9allocatorIS8_EEEEED1B9foe210106Ev
++ __ZNSt3__111__lookaheadIcNS_12regex_traitsIcEEEC1B9foe210106ERKNS_11basic_regexIcS2_EEbPNS_6__nodeIcEEj
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEEC2B9foe210106EPKcNS_15regex_constants18syntax_option_typeE
++ __ZNSt3__112__destroy_atB9foe210106INS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EELi0EEEvPT_
++ __ZNSt3__112__destroy_atB9foe210106INS_7__stateIcEELi0EEEvPT_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB9foe210106INS_11__wrap_iterIPcEES9_EEvT_T0_m
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB9foe210106IPKcS8_EEvT_T0_m
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB9foe210106IPcS7_EEvT_T0_m
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEixB9foe210106Em
++ __ZNSt3__114__split_bufferINS_10unique_ptrIN12binarysample21ElectrocardiogramLeadENS_14default_deleteIS3_EEEERNS_9allocatorIS6_EEE17__destruct_at_endB9foe210106EPS6_
++ __ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEE17__destruct_at_endB9foe210106EPS6_
++ __ZNSt3__118__match_char_icaseIcNS_12regex_traitsIcEEEC2B9foe210106ERKS2_cPNS_6__nodeIcEE
++ __ZNSt3__118__match_char_icaseIcNS_12regex_traitsIcEEEC2B9foe210106ERKS2_cPNS_6__nodeIcEE.cold.1
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_10unique_ptrIN12binarysample21ElectrocardiogramLeadENS_14default_deleteIS4_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEES7_EEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSC_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_4pairIccEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_4pairImPKcEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_7__stateIcEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_9sub_matchIPKcEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIPNS_7__stateIcEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__shared_weak_count16__release_sharedB9foe210106Ev
++ __ZNSt3__119__throw_regex_errorB9foe210106ILNS_15regex_constants10error_typeE11EEEvv
++ __ZNSt3__119__throw_regex_errorB9foe210106ILNS_15regex_constants10error_typeE12EEEvv
++ __ZNSt3__119__throw_regex_errorB9foe210106ILNS_15regex_constants10error_typeE14EEEvv
++ __ZNSt3__119__throw_regex_errorB9foe210106ILNS_15regex_constants10error_typeE15EEEvv
++ __ZNSt3__119__throw_regex_errorB9foe210106ILNS_15regex_constants10error_typeE16EEEvv
++ __ZNSt3__119__throw_regex_errorB9foe210106ILNS_15regex_constants10error_typeE17EEEvv
++ __ZNSt3__119__throw_regex_errorB9foe210106ILNS_15regex_constants10error_typeE1EEEvv
++ __ZNSt3__119__throw_regex_errorB9foe210106ILNS_15regex_constants10error_typeE2EEEvv
++ __ZNSt3__119__throw_regex_errorB9foe210106ILNS_15regex_constants10error_typeE3EEEvv
++ __ZNSt3__119__throw_regex_errorB9foe210106ILNS_15regex_constants10error_typeE4EEEvv
++ __ZNSt3__119__throw_regex_errorB9foe210106ILNS_15regex_constants10error_typeE5EEEvv
++ __ZNSt3__119__throw_regex_errorB9foe210106ILNS_15regex_constants10error_typeE6EEEvv
++ __ZNSt3__119__throw_regex_errorB9foe210106ILNS_15regex_constants10error_typeE7EEEvv
++ __ZNSt3__119__throw_regex_errorB9foe210106ILNS_15regex_constants10error_typeE8EEEvv
++ __ZNSt3__119__throw_regex_errorB9foe210106ILNS_15regex_constants10error_typeE9EEEvv
++ __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE10__add_charB9foe210106Ec
++ __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE11__add_rangeB9foe210106ENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES9_
++ __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE13__add_digraphB9foe210106Ecc
++ __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE14__add_neg_charB9foe210106Ec
++ __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEEC2B9foe210106ERKS2_PNS_6__nodeIcEEbbb
++ __ZNSt3__120__throw_length_errorB9foe210106EPKc
++ __ZNSt3__125__throw_bad_function_callB9foe210106Ev
++ __ZNSt3__127__tree_balance_after_insertB9foe210106IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__132__internal_log_hardening_failureEPKc
++ __ZNSt3__134__uninitialized_allocator_relocateB9foe210106INS_9allocatorINS_7__stateIcEEEEPS3_EEvRT_T0_S8_S8_
++ __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEE25__maybe_remove_back_spareB9foe210106Eb
++ __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEED2B9foe210106Ev
++ __ZNSt3__16__treeINS_12__value_typeIN12binarysample26ElectrocardiogramLead_NameENS2_21ElectrocardiogramLeadEEENS_19__map_value_compareIS3_NS_4pairIKS3_S4_EENS_4lessIS3_EELb1EEENS_9allocatorIS9_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSK_SK_
++ __ZNSt3__16__treeINS_12__value_typeIN12binarysample26ElectrocardiogramLead_NameENS2_21ElectrocardiogramLeadEEENS_19__map_value_compareIS3_NS_4pairIKS3_S4_EENS_4lessIS3_EELb1EEENS_9allocatorIS9_EEE25__emplace_unique_key_argsIS3_JRKNS_21piecewise_construct_tENS_5tupleIJRS8_EEENSK_IJEEEEEENS7_INS_15__tree_iteratorIS5_PNS_11__tree_nodeIS5_PvEElEEbEERKT_DpOT0_
++ __ZNSt3__16__treeINS_12__value_typeIN12binarysample26ElectrocardiogramLead_NameENS2_21ElectrocardiogramLeadEEENS_19__map_value_compareIS3_NS_4pairIKS3_S4_EENS_4lessIS3_EELb1EEENS_9allocatorIS9_EEE7destroyEPNS_11__tree_nodeIS5_PvEE
++ __ZNSt3__16vectorINS_10unique_ptrIN12binarysample21ElectrocardiogramLeadENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN12binarysample21ElectrocardiogramLeadENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN12binarysample21ElectrocardiogramLeadENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE5clearB9foe210106Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE30__emplace_back_assume_capacityB9foe210106IJRKS6_EEEvDpOT_
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE5clearB9foe210106Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE9push_backB9foe210106ERKS6_
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE9push_backB9foe210106EOS8_
++ __ZNSt3__16vectorINS_4pairIccEENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorINS_4pairIccEENS_9allocatorIS2_EEE9push_backB9foe210106EOS2_
++ __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE16__init_with_sizeB9foe210106IPS4_S9_EEvT_T0_m
++ __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE18__assign_with_sizeB9foe210106IPS4_S9_EEvT_T0_l
++ __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEE9push_backB9foe210106EOS2_
++ __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE16__init_with_sizeB9foe210106IPS4_S9_EEvT_T0_m
++ __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE18__assign_with_sizeB9foe210106IPS4_S9_EEvT_T0_l
++ __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE9push_backB9foe210106EOc
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE9push_backB9foe210106ERKc
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE18__assign_with_sizeB9foe210106IPfS5_EEvT_T0_l
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE18__assign_with_sizeB9foe210106IPjS5_EEvT_T0_l
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__1ssB9foe210106IcNS_11char_traitsIcEENS_9allocatorIcEEEEDaRKNS_12basic_stringIT_T0_T1_EESC_
++ __ZSt28__throw_bad_array_new_lengthB9foe210106v
++ __ZTINSt3__110__function6__funcIU8__strongU13block_pointerFP15_HKFeatureFlagsvES4_EE
++ __ZTINSt3__110__function6__funcIU8__strongU13block_pointerFP8NSStringvES4_EE
++ __ZTINSt3__110__function6__funcIU8__strongU13block_pointerFbvES2_EE
++ __ZTINSt3__110__function6__funcIZ26-[_HKBehavior isProdFused]E3$_0FbvEEE
++ __ZTINSt3__110__function6__funcIZ30-[_HKBehavior isVirtualDevice]E3$_1FbvEEE
++ __ZTINSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_7FbvEEE
++ __ZTINSt3__110__function6__funcIZ37-[HKDateIntervalTree mergedIntervals]E3$_0FvP18HKIntervalTreeNodeIdEEEE
++ __ZTINSt3__110__function6__funcIZ37-[_HKBehavior isRunningStoreDemoMode]E3$_2FbvEEE
++ __ZTINSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4FbvEEE
++ __ZTINSt3__110__function6__funcIZ41-[_HKBehavior runningInStoreDemoModeF201]E3$_3FbvEEE
++ __ZTINSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5FbvEEE
++ __ZTINSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6FbvEEE
++ __ZTIZ32-[_HKBehavior supportsWideGamut]E3$_7
++ __ZTSNSt3__110__function6__funcIU8__strongU13block_pointerFP15_HKFeatureFlagsvES4_EE
++ __ZTSNSt3__110__function6__funcIU8__strongU13block_pointerFP8NSStringvES4_EE
++ __ZTSNSt3__110__function6__funcIU8__strongU13block_pointerFbvES2_EE
++ __ZTSNSt3__110__function6__funcIZ26-[_HKBehavior isProdFused]E3$_0FbvEEE
++ __ZTSNSt3__110__function6__funcIZ30-[_HKBehavior isVirtualDevice]E3$_1FbvEEE
++ __ZTSNSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_7FbvEEE
++ __ZTSNSt3__110__function6__funcIZ37-[HKDateIntervalTree mergedIntervals]E3$_0FvP18HKIntervalTreeNodeIdEEEE
++ __ZTSNSt3__110__function6__funcIZ37-[_HKBehavior isRunningStoreDemoMode]E3$_2FbvEEE
++ __ZTSNSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4FbvEEE
++ __ZTSNSt3__110__function6__funcIZ41-[_HKBehavior runningInStoreDemoModeF201]E3$_3FbvEEE
++ __ZTSNSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5FbvEEE
++ __ZTSNSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6FbvEEE
++ __ZTSZ32-[_HKBehavior supportsWideGamut]E3$_7
++ __ZTVNSt3__110__function6__funcIU8__strongU13block_pointerFP15_HKFeatureFlagsvES4_EE
++ __ZTVNSt3__110__function6__funcIU8__strongU13block_pointerFP8NSStringvES4_EE
++ __ZTVNSt3__110__function6__funcIU8__strongU13block_pointerFbvES2_EE
++ __ZTVNSt3__110__function6__funcIZ26-[_HKBehavior isProdFused]E3$_0FbvEEE
++ __ZTVNSt3__110__function6__funcIZ30-[_HKBehavior isVirtualDevice]E3$_1FbvEEE
++ __ZTVNSt3__110__function6__funcIZ32-[_HKBehavior supportsWideGamut]E3$_7FbvEEE
++ __ZTVNSt3__110__function6__funcIZ37-[HKDateIntervalTree mergedIntervals]E3$_0FvP18HKIntervalTreeNodeIdEEEE
++ __ZTVNSt3__110__function6__funcIZ37-[_HKBehavior isRunningStoreDemoMode]E3$_2FbvEEE
++ __ZTVNSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4FbvEEE
++ __ZTVNSt3__110__function6__funcIZ41-[_HKBehavior runningInStoreDemoModeF201]E3$_3FbvEEE
++ __ZTVNSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5FbvEEE
++ __ZTVNSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6FbvEEE
++ ___100-[HKHealthStoreImplementation fetchPluginServiceEndpointForIdentifier:endpointHandler:errorHandler:]_block_invoke.424
++ ___100-[HKHealthStoreImplementation fetchPluginServiceEndpointForIdentifier:endpointHandler:errorHandler:]_block_invoke.425
++ ___110-[_HKMobileAssetDownloadManager _queue_fetchAssetsWithLocalInformation:shouldRequery:queryParams:returnTypes:]_block_invoke.357
++ ___110-[_HKMobileAssetDownloadManager _queue_fetchAssetsWithLocalInformation:shouldRequery:queryParams:returnTypes:]_block_invoke.365
++ ___110-[_HKMobileAssetDownloadManager _queue_fetchAssetsWithLocalInformation:shouldRequery:queryParams:returnTypes:]_block_invoke_2.358
++ ___110-[_HKMobileAssetDownloadManager _queue_fetchAssetsWithLocalInformation:shouldRequery:queryParams:returnTypes:]_block_invoke_2.358.cold.1
++ ___143-[HKHealthStoreImplementation fetchTaskServerEndpointForIdentifier:pluginURL:taskUUID:instanceUUID:configuration:endpointHandler:errorHandler:]_block_invoke.430
++ ___144-[HKHealthStoreImplementation associateSourceSamples:withDestinationObject:destinationSubObject:associationType:associationBehavior:completion:]_block_invoke
++ ___144-[HKHealthStoreImplementation associateSourceSamples:withDestinationObject:destinationSubObject:associationType:associationBehavior:completion:]_block_invoke_2
++ ___26-[_HKFeatureFlags hoplite]_block_invoke
++ ___34-[_HKFeatureFlags hav3_categories]_block_invoke
++ ___36-[_HKExpiringCompletionTimer _start]_block_invoke.cold.2
++ ___36-[_HKExpiringCompletionTimer _start]_block_invoke.cold.3
++ ___39-[_HKFeatureFlags health365ContentRoom]_block_invoke
++ ___40-[_HKFeatureFlags phoneLandscapeSupport]_block_invoke
++ ___41-[_HKFeatureFlags sleepAlarmCoordination]_block_invoke
++ ___43-[_HKFeatureFlags orchestrationMedications]_block_invoke
++ ___47-[HKHealthStoreImplementation dropEntitlement:]_block_invoke.688
++ ___47-[_HKFeatureFlags safetyOrchestrationMigration]_block_invoke
++ ___48-[HKHealthStoreImplementation _supportsFeature:]_block_invoke.587
++ ___48-[HKHealthStoreImplementation _supportsFeature:]_block_invoke.587.cold.1
++ ___49-[_HKWorkoutObserver getPairedWatchWorkoutState:]_block_invoke
++ ___49-[_HKWorkoutObserver getPairedWatchWorkoutState:]_block_invoke_2
++ ___49-[_HKWorkoutObserver getPairedWatchWorkoutState:]_block_invoke_3
++ ___49-[_HKWorkoutObserver getPairedWatchWorkoutState:]_block_invoke_4
++ ___49-[_HKWorkoutObserver getPairedWatchWorkoutState:]_block_invoke_4.cold.1
++ ___50-[HKHealthStoreImplementation restoreEntitlement:]_block_invoke.689
++ ___50-[_HKFeatureFlags useSSPActionSuggestionGenerator]_block_invoke
++ ___52-[HKCloudSyncControl enableCloudSyncWithCompletion:]_block_invoke.27
++ ___52-[HKCloudSyncControl enableCloudSyncWithCompletion:]_block_invoke.cold.1
++ ___52-[HKCloudSyncControl enableCloudSyncWithCompletion:]_block_invoke_2.cold.1
++ ___52-[_HKDatabaseChangesQuery queue_queryDidDeactivate:]_block_invoke
++ ___53-[HKCloudSyncControl disableCloudSyncWithCompletion:]_block_invoke.26
++ ___53-[HKCloudSyncControl disableCloudSyncWithCompletion:]_block_invoke.cold.1
++ ___53-[HKCloudSyncControl disableCloudSyncWithCompletion:]_block_invoke_2.cold.1
++ ___56-[HKAuthorizationStore removeObserver:bundleIdentifier:]_block_invoke
++ ___56-[HKAuthorizationStore removeObserver:bundleIdentifier:]_block_invoke_2
++ ___56-[HKAuthorizationStore removeObserver:bundleIdentifier:]_block_invoke_2.cold.1
++ ___57-[HKAttachmentStore streamDataForAttachment:dataHandler:]_block_invoke.94
++ ___57-[HKAttachmentStore streamDataForAttachment:dataHandler:]_block_invoke_4.cold.1
++ ___57-[HKDaemonConnection endpointForServiceIdentifier:error:]_block_invoke
++ ___57-[HKDaemonConnection endpointForServiceIdentifier:error:]_block_invoke_2
++ ___58-[HKHealthStoreImplementation authorizationStatusForType:]_block_invoke.460
++ ___63-[HKFeatureStatus unsatisfiedRequirementIdentifiersDescription]_block_invoke
++ ___63-[_HKMobileAssetDownloadManager removeMobileAssets:completion:]_block_invoke.351
++ ___63-[_HKMobileAssetDownloadManager removeMobileAssets:completion:]_block_invoke.352
++ ___67-[HKDatabaseControl showDatabaseShapeWithConfiguration:completion:]_block_invoke
++ ___67-[HKDatabaseControl showDatabaseShapeWithConfiguration:completion:]_block_invoke_2
++ ___70-[HKHealthStoreImplementation setWorkoutSessionMirroringStartHandler:]_block_invoke.606
++ ___70-[HKHealthStoreImplementation setWorkoutSessionMirroringStartHandler:]_block_invoke.606.cold.1
++ ___70-[HKWorkoutSession _queue_sendPendingDataUpdateToRemoteWorkoutSession]_block_invoke_3
++ ___72-[HKHealthStoreImplementation pluginServiceEndpointForIdentifier:error:]_block_invoke.428
++ ___73-[HKHealthStoreImplementation _closeTransactionWithTypes:anchor:ackTime:]_block_invoke.648
++ ___73-[HKHealthStoreImplementation _closeTransactionWithTypes:anchor:ackTime:]_block_invoke.648.cold.1
++ ___73-[HKWorkoutCondenserControl provenanceIDsWithUUID:sampleType:completion:]_block_invoke
++ ___73-[HKWorkoutCondenserControl provenanceIDsWithUUID:sampleType:completion:]_block_invoke_2
++ ___78-[HKAuthorizationStore _registerRemoteObserverForBundleIdentifier:completion:]_block_invoke
++ ___78-[HKAuthorizationStore _registerRemoteObserverForBundleIdentifier:completion:]_block_invoke_2
++ ___78-[HKAuthorizationStore _registerRemoteObserverForBundleIdentifier:completion:]_block_invoke_2.cold.1
++ ___82-[_HKMobileAssetDownloadManager _queue_fetchAssetsWithQuery:onlyLocal:completion:]_block_invoke.355
++ ___82-[_HKMobileAssetDownloadManager _queue_fetchAssetsWithQuery:onlyLocal:completion:]_block_invoke_2.356
++ ___83-[HKHealthStoreImplementation recalibrateEstimatesForSampleType:atDate:completion:]_block_invoke.445
++ ___84-[HKHealthStoreImplementation clientRemote_didCreateRemoteSessionWithConfiguration:]_block_invoke.682
++ ___85-[HKDaemonConnection fetchEndpointForServiceIdentifier:endpointHandler:errorHandler:]_block_invoke
++ ___85-[HKDatabaseControl generateDemoDataWithDurationInDays:includeToday:seed:completion:]_block_invoke
++ ___85-[HKDatabaseControl generateDemoDataWithDurationInDays:includeToday:seed:completion:]_block_invoke_2
++ ___89-[HKSleepDaySummaryQuery client_deliverDaySummaries:clearPending:isFinalBatch:queryUUID:]_block_invoke.24
++ ___89-[HKSleepDaySummaryQuery client_deliverDaySummaries:clearPending:isFinalBatch:queryUUID:]_block_invoke.24.cold.1
++ ___93-[HKHealthStoreImplementation requestPerObjectReadAuthorizationForType:predicate:completion:]_block_invoke.471
++ ___93-[HKUserDomainConceptStore client_notifyForChangesToUserDomainConcepts:changeType:maxAnchor:]_block_invoke
++ ___98-[HKHealthStoreImplementation requestAuthorizationToShareTypes:readTypes:shouldPrompt:completion:]_block_invoke.479
++ ___HKLogBackgroundUpdates_block_invoke
++ ___HKLogDemoData_block_invoke
++ ___HKLogHeartRhythm_block_invoke
++ ___HKLogMedicalID_block_invoke
++ ___HKLogMobileAsset_block_invoke
++ ___HKLogMobility_block_invoke
++ ___HKLogNotifications_block_invoke
++ ___HKLogPluginLoading_block_invoke
++ ___HKLogRespiratory_block_invoke
++ ___block_descriptor_32_e80_v40?0"_HKDatabaseChangesQuery"8"HKQueryAnchor"16"NSDictionary"24"NSError"32l
++ ___block_descriptor_40_e8_32s_e42_v16?0"<HKAuthorizationStoreReadServer>"8ls32l8
++ ___block_descriptor_44_e8_32bs_e35_v16?0"<HKDatabaseControlServer>"8ls32l8
++ ___block_descriptor_48_e8_32s40bs_e30_v24?0"NSNumber"8"NSError"16ls32l8s40l8
++ ___block_descriptor_48_e8_32s40s_e44_v16?0"<HKAttachmentStoreServerInterface>"8ls32l8s40l8
++ ___block_descriptor_48_e8_32s40w_e17_v16?0"NSError"8lw40l8s32l8
++ ___block_descriptor_48_e8_32s40w_e20_v20?0B8"NSError"12lw40l8s32l8
++ ___block_descriptor_56_e8_32s40s48bs_e43_v16?0"<HKWorkoutCondenserControlServer>"8ls32l8s40l8s48l8
++ ___block_descriptor_56_e8_32s40s48w_e43_v16?0"<HKWorkoutSessionServerInterface>"8ls32l8w48l8s40l8
++ ___block_descriptor_57_e8_32s40bs_e35_v16?0"<HKDatabaseControlServer>"8ls32l8s40l8
++ ___block_descriptor_80_e8_32s40s48s56bs_e40_v16?0"<HKHealthStoreServerInterface>"8ls32l8s40l8s48l8s56l8
++ ___block_descriptor_tmp.191
++ ___block_literal_global.152
++ ___block_literal_global.188
++ ___block_literal_global.193
++ ___block_literal_global.248
++ ___block_literal_global.256
++ ___block_literal_global.279
++ ___block_literal_global.378
++ ___block_literal_global.393
++ ___block_literal_global.485
++ ___block_literal_global.523
++ ___block_literal_global.531
++ ___block_literal_global.54
++ ___block_literal_global.590
++ ___block_literal_global.592
++ ___block_literal_global.594
++ ___block_literal_global.596
++ ___block_literal_global.605
++ ___block_literal_global.631
++ ___block_literal_global.650
++ ___block_literal_global.667
++ ___block_literal_global.669
++ ___block_literal_global.671
++ ___block_literal_global.673
++ ___block_literal_global.675
++ ___block_literal_global.677
++ ___block_literal_global.679
++ ___block_literal_global.684
++ ___block_literal_global.819
++ ___block_literal_global.838
++ ___block_literal_global.842
++ ___block_literal_global.849
++ ___block_literal_global.851
++ ___block_literal_global.853
++ ___block_literal_global.855
++ ___block_literal_global.858
++ ___block_literal_global.868
++ ___swift_destroy_boxed_opaque_existential_0Tm
++ _archive_entry_copy_pathname
++ _archive_errno
++ _archive_read_extract2
++ _archive_write_disk_new
++ _archive_write_disk_set_options
++ _associated conformance 9HealthKit0A12FeatureFlagsOSHAASQ
++ _associated conformance So21HKWorkoutActivityTypeVs12CaseIterable9HealthKit8AllCasessACP_Sl
++ _associated conformance So22_HKZipArchiveExtractorC9HealthKitE17EnumerationResultOSHACSQ
++ _block_copy_helper.101
++ _block_copy_helper.104
++ _block_copy_helper.71
++ _block_copy_helper.92
++ _block_copy_helper.97
++ _block_descriptor.103
++ _block_descriptor.106
++ _block_descriptor.73
++ _block_descriptor.94
++ _block_descriptor.99
++ _block_destroy_helper.102
++ _block_destroy_helper.105
++ _block_destroy_helper.72
++ _block_destroy_helper.93
++ _block_destroy_helper.98
++ _bsearch
++ _kHKWorkoutMirroringRelaunchFileName
++ _objc_msgSend$URLsForDirectory:inDomains:
++ _objc_msgSend$_acceptsWorkoutRoute:forWorkout:
++ _objc_msgSend$_clientQueue_notifyForChangesToUserDomainConcepts:changeType:maxAnchor:
++ _objc_msgSend$_cyclingTypesForActivityType:isAppleWatch:connectedToFitnessMachine:
++ _objc_msgSend$_dataWithErrorNoDataForKey:error:
++ _objc_msgSend$_dateWithErrorNoDataForKey:error:
++ _objc_msgSend$_distanceTypeForActivityType:isIndoor:connectedToFitnessMachine:isAppleWatch:
++ _objc_msgSend$_errorFromReaderWithContext:reader:
++ _objc_msgSend$_lock_observersForBundleIdentifier:
++ _objc_msgSend$_lock_setObserversForBundleIdentifier:observers:
++ _objc_msgSend$_numberWithErrorNoDataForKey:error:
++ _objc_msgSend$_propertyListValueWithErrorNoDataForKey:error:
++ _objc_msgSend$_queue_dataSentToRemoteWithSuccess:uuid:error:
++ _objc_msgSend$_queue_handleSendDataToRemoteWorkoutSession_proxyError:uuid:
++ _objc_msgSend$_registerRemoteObserverForBundleIdentifier:completion:
++ _objc_msgSend$_setDateInterval:
++ _objc_msgSend$_shouldCollectCyclingTypesForActivityType:isAppleWatch:connectedToFitnessMachine:
++ _objc_msgSend$_shouldCollectDistanceForActivityType:isIndoor:connectedToFitnessMachine:isAppleWatch:
++ _objc_msgSend$_stringWithErrorNoDataForKey:error:
++ _objc_msgSend$_timeZone
++ _objc_msgSend$addAttachmentToObject:name:contentType:URL:metadata:completion:
++ _objc_msgSend$addObserver:bundleIdentifier:completion:
++ _objc_msgSend$associateSourceSamples:withDestinationObject:destinationSubObject:associationType:associationBehavior:completion:
++ _objc_msgSend$associations
++ _objc_msgSend$authorizationRecordsUpdatedForBundleIdentifier:authorizationRecords:
++ _objc_msgSend$calculatePhysiologicalWashoutFromPregnancySample:
++ _objc_msgSend$canPerformOwnershipTakeover
++ _objc_msgSend$categoriesForClassificationGuidelines:error:
++ _objc_msgSend$categoryDataForCategory:error:
++ _objc_msgSend$classificationGuidelinesOnDate:completionHandler:
++ _objc_msgSend$client_notifyForChangesToUserDomainConcepts:changeType:maxAnchor:
++ _objc_msgSend$collectsCalorimetry
++ _objc_msgSend$collectsData
++ _objc_msgSend$configureAssertion:
++ _objc_msgSend$containsQuantity:
++ _objc_msgSend$countrySetByAddingCountriesInSet:
++ _objc_msgSend$currentInternalDeviceModel
++ _objc_msgSend$deviceType
++ _objc_msgSend$didUpdatePreferredClassificationGuidelines:
++ _objc_msgSend$endpointForServiceIdentifier:error:
++ _objc_msgSend$enumerateLinesWithError:block:
++ _objc_msgSend$estimatedGlomerularFiltrationRate
++ _objc_msgSend$featureAvailabilityProviderForIdentifier:
++ _objc_msgSend$fetchCurrentDeviceSupportsImproveHealthRecordsDataSubmissionOptionWithCompletion:
++ _objc_msgSend$fetchEndpointForServiceIdentifier:endpointHandler:errorHandler:
++ _objc_msgSend$fetchShouldPromptForImproveHealthRecordsDataSubmissionWithCompletion:
++ _objc_msgSend$fitnessMode
++ _objc_msgSend$futureMigrationsEnabled
++ _objc_msgSend$gestationalAgeCompactStringOnDate:pregnancyStartDate:startTimeZoneName:
++ _objc_msgSend$gestationalAgeInComponentsOnDate:pregnancyStartDate:startTimeZoneName:
++ _objc_msgSend$gestationalAgeStringOnDate:pregnancyStartDate:startTimeZoneName:
++ _objc_msgSend$getDataChunkForAttachment:chunkSize:offset:completion:
++ _objc_msgSend$getDataForAttachment:completion:
++ _objc_msgSend$healthAppSupportedOnDevice
++ _objc_msgSend$healthStoreImplementationFor:sourceBundle:endpoint:shared:
++ _objc_msgSend$hk_sleepMonthStartForMorningIndex:calendar:
++ _objc_msgSend$hk_stringIndentedBy:
++ _objc_msgSend$hk_tapToHealthRadarURLWithTitle:description:classification:reproducibility:keywords:autoDiagnostics:attachments:
++ _objc_msgSend$hoplite
++ _objc_msgSend$initWithBool:
++ _objc_msgSend$initWithClassificationGuidelines:identifier:systolicRange:diastolicRange:rangeRelationship:
++ _objc_msgSend$initWithCoder:
++ _objc_msgSend$initWithDate:answers:metadata:
++ _objc_msgSend$initWithElectrocardiogram:sampleHandler:
++ _objc_msgSend$initWithHeartbeatSeries:bufferHandler:
++ _objc_msgSend$initWithInteger:
++ _objc_msgSend$initWithMorningIndexRange:aggregationPeriod:resultsHandler:
++ _objc_msgSend$initWithOwnerID:zoneID:recordID:
++ _objc_msgSend$initWithPredicate:limit:resultsHandler:
++ _objc_msgSend$initWithPredicate:resultsHandler:
++ _objc_msgSend$initWithPregnancySample:state:
++ _objc_msgSend$initWithQuantityType:quantitySamplePredicate:options:anchorDate:intervalComponents:
++ _objc_msgSend$initWithQuantityType:quantitySamplePredicate:options:completionHandler:
++ _objc_msgSend$initWithRecordTypes:sourceTypes:predicate:resultsHandler:
++ _objc_msgSend$initWithSampleType:samplePredicate:completionHandler:
++ _objc_msgSend$initWithSleepDaySummaries:
++ _objc_msgSend$initWithState:pregnancyStartDate:pregnancyEndDate:estimatedDueDate:pregnancyDuration:physiologicalWashoutEndDate:behavioralWashoutEndDate:trimesters:sample:educationalStepsCompletedDate:
++ _objc_msgSend$initWithSupportedCountryCodes:contentVersion:
++ _objc_msgSend$initWithUpdateHandler:
++ _objc_msgSend$isPregnancyDurationPhysiologicallyPossibleForPregnancyStartDate:pregnancyEndDate:
++ _objc_msgSend$isRunningSeedBuild
++ _objc_msgSend$isStandalonePhoneFitnessMode
++ _objc_msgSend$maximumWindowDuration
++ _objc_msgSend$medicationDoseEventWithLogOrigin:scheduleItemIdentifier:medicationIdentifier:scheduledDoseQuantity:doseQuantity:scheduledDate:startDate:logStatus:doseUnitString:metadata:
++ _objc_msgSend$metricsDidUpdate:
++ _objc_msgSend$minimumSampleCount
++ _objc_msgSend$numberForKey:completion:
++ _objc_msgSend$openSensitiveURL:withOptions:
++ _objc_msgSend$ownerID
++ _objc_msgSend$performsAutomaticConceptIndexing
++ _objc_msgSend$performsAutomaticUserDomainConceptProcessing
++ _objc_msgSend$performsWorkoutCondensation
++ _objc_msgSend$physiologicalWashoutEndDate
++ _objc_msgSend$predicateForCategorySamplesEqualToValues:
++ _objc_msgSend$preferredClassificationGuidelinesWithCompletionHandler:
++ _objc_msgSend$pregnancySample
++ _objc_msgSend$primarySleepPeriod
++ _objc_msgSend$rangeRelationship
++ _objc_msgSend$recordID
++ _objc_msgSend$remote_fetchEndpointForServiceIdentifier:completion:
++ _objc_msgSend$remote_fetchProvenanceIDsWithUUID:sampleType:completion:
++ _objc_msgSend$remote_generateDemoDataWithDurationInDays:includeToday:seed:completion:
++ _objc_msgSend$remote_getPairedWatchWorkoutState:
++ _objc_msgSend$remote_invalidateDatabaseAccessibilityAssertion:
++ _objc_msgSend$remote_registerObserverForBundleIdentifier:
++ _objc_msgSend$remote_registerSession
++ _objc_msgSend$remote_requestDatabaseAccessibilityAssertionForOwnerIdentifier:contextType:isRecovery:completion:
++ _objc_msgSend$remote_showDatabaseShapeWithConfiguration:completion:
++ _objc_msgSend$remote_streamDataForAttachment:completion:
++ _objc_msgSend$remote_unregisterObserverForBundleIdentifier:
++ _objc_msgSend$routeSmoothingEnabled
++ _objc_msgSend$setIncludeSample:
++ _objc_msgSend$setInitialResultsHandler:
++ _objc_msgSend$setNumber:forKey:completion:
++ _objc_msgSend$setNumber:forKey:error:
++ _objc_msgSend$setOrderByQuantitySampleStartDate:
++ _objc_msgSend$setOwnerID:
++ _objc_msgSend$setRecordID:
++ _objc_msgSend$setStatisticsUpdateHandler:
++ _objc_msgSend$setZoneID:
++ _objc_msgSend$shouldOverrideSiriUOD
++ _objc_msgSend$shouldReceiveECGSamples
++ _objc_msgSend$shouldRegisterPeriodicActivities
++ _objc_msgSend$showSensitiveLogItems
++ _objc_msgSend$sleepDaySummaries
++ _objc_msgSend$sleepMetricsForDaySummaries:
++ _objc_msgSend$sortDescriptorWithKey:ascending:selector:
++ _objc_msgSend$startObservation:
++ _objc_msgSend$stopObservation:
++ _objc_msgSend$supportsAWDMetricSubmission
++ _objc_msgSend$supportsActivitySharing
++ _objc_msgSend$supportsCloudSync
++ _objc_msgSend$supportsCloudSyncSharding
++ _objc_msgSend$supportsCloudSyncStagingShard
++ _objc_msgSend$supportsCoordinatedCloudSync
++ _objc_msgSend$supportsCoreOSDatabaseAssertion
++ _objc_msgSend$supportsEED
++ _objc_msgSend$supportsHeartRateDataCollection
++ _objc_msgSend$supportsNanoSync
++ _objc_msgSend$supportsOntology
++ _objc_msgSend$supportsOntologyDatabaseFutureMigrations
++ _objc_msgSend$supportsOntologyDatabaseUpdates
++ _objc_msgSend$supportsOntologyFeatureEvaluation
++ _objc_msgSend$supportsPeriodicCountryMonitoring
++ _objc_msgSend$supportsPeriodicFullCloudSync
++ _objc_msgSend$supportsPeriodicLiteCloudSync
++ _objc_msgSend$supportsSampleExpiration
++ _objc_msgSend$supportsSecondaryProfiles
++ _objc_msgSend$supportsWorkouts
++ _objc_msgSend$unitTest_startObservation:withCompletion:
++ _objc_msgSend$unsatisfiedRequirementIdentifiersDescription
++ _objc_msgSend$userDomainConceptStore:didAddUserDomainConcepts:maxAnchor:
++ _objc_msgSend$userDomainConceptStore:didDeleteUserDomainConcepts:maxAnchor:
++ _objc_msgSend$userDomainConceptStore:didUpdateUserDomainConcepts:maxAnchor:
++ _objc_msgSend$zoneID
++ _symbolic $s9HealthKit0A13StoreProviderP
++ _symbolic $sSo20NSNotificationCenterC10FoundationE16MainActorMessageP
++ _symbolic $sSo38HKBloodPressureClassificationEvaluatorC9HealthKitE5StoreP
++ _symbolic $sSo38HKBloodPressureClassificationEvaluatorC9HealthKitE6DomainP
++ _symbolic Ieg_
++ _symbolic SPy_____GSg s4Int8V
++ _symbolic SSSAySo7NSErrorCSgGSg_____Iggyd_ So23HKFailableBooleanResultV
++ _symbolic SS___________pIggrzo_ So22_HKZipArchiveExtractorC9HealthKitE17EnumerationResultO s5ErrorP
++ _symbolic Say_____G So21HKWorkoutActivityTypeV
++ _symbolic So13HKObserverSetCyyXlG
++ _symbolic So17OS_dispatch_queueC
++ _symbolic So18_HKZipArchiveEntryCSpy_____GIggy_ 10ObjectiveC8ObjCBoolV
++ _symbolic So18_HKZipArchiveEntryC___________pIggrzo_ So22_HKZipArchiveExtractorC9HealthKitE17EnumerationResultO s5ErrorP
++ _symbolic So22_HKZipArchiveExtractorC
++ _symbolic So38HKBloodPressureClassificationEvaluatorC
++ _symbolic _____ 9HealthKit07FailingA13StoreProviderV
++ _symbolic _____ 9HealthKit0A12FeatureFlagsO
++ _symbolic _____ 9HealthKit11ObserverSetC
++ _symbolic _____ 9HealthKit31DarwinNotificationObserverTokenC
++ _symbolic _____ So13HKHealthStoreC9HealthKitE33HKUserPreferencesDidChangeMessageV
++ _symbolic _____ So18HKKeyValueCategoryV
++ _symbolic _____ So21HKWorkoutActivityTypeV
++ _symbolic _____ So22_HKZipArchiveExtractorC9HealthKitE17EnumerationResultO
++ _symbolic _____ So23HKFailableBooleanResultV
++ _symbolic _____ So27HKEmergencyOnboardingStatusV
++ _symbolic _____ So28_HKQuantityDistributionStyleV
++ _symbolic _____ So49HKSleepDaySummaryCollectionQueryAggregationPeriodV
++ _symbolic _____y_____G 2os21OSAllocatedUnfairLockV s5Int32V
++ _symbolic xIegn_
+- +[HKHealthStore _useHKHealthStoreImplementation]
+- +[HKHealthStore disallowHKHealthStoreCreation]
+- +[HKHealthStoreImplementation healthStoreImplementationFor:sourceBundle:endpoint:shared:create:]
+- +[HKHealthStoreImplementation isHealthDataAvailable]
+- +[HKWorkoutDataSource _cyclingTypesForActivityType:isAppleWatch:]
+- +[HKWorkoutDataSource _distanceTypeForActivityType:isIndoor:isAppleWatch:]
+- +[HKWorkoutDataSource _shouldCollectCyclingTypesForActivityType:isAppleWatch:]
+- +[HKWorkoutDataSource _shouldCollectDistanceForActivityType:isIndoor:isAppleWatch:]
+- +[_HKBehavior _isForceHRCollectionDuringWorkoutEnabled]
+- +[_HKBehavior isForceHRCollectionDuringWorkoutEnabled]
+- -[HKAudiogramSample hasDifferentClassificationWithModifiedClampingRange]
+- -[HKAudiogramSample hasDifferentClassificationWithModifiedClampingRange].cold.1
+- -[HKAudiogramSample hasDifferentClassificationWithModifiedClampingRange].cold.2
+- -[HKAudiogramSample hasTooMuchClampingForAnyKeyFrequency:]
+- -[HKConceptStore setHealthStore:]
+- -[HKConceptStore setIdentifier:]
+- -[HKConceptStore setProxyProvider:]
+- -[HKFeatureSettings(Dates) dateForKey:]
+- -[HKGAD7Assessment acceptsAssociationWithObject:]
+- -[HKHealthStore _addQuery:]
+- -[HKHealthStore _applicationDidBecomeActive:]
+- -[HKHealthStore _applicationWillResignActive:]
+- -[HKHealthStore _characteristicForDataType:withCompletion:]
+- -[HKHealthStore _clientQueue_invokeAuthorizationDelegateTransactionErrorHandlerWithError:]
+- -[HKHealthStore _clinicalAuthorizationPresentationRequestForRecord:]
+- -[HKHealthStore _connectionQueue_setUpWithEndpoint:]
+- -[HKHealthStore _connectionQueue_setUpWithEndpoint:].cold.1
+- -[HKHealthStore _discardServerProxiesForServer:]
+- -[HKHealthStore _getDatabaseAccessibilityAssertionStoreKeeper]
+- -[HKHealthStore _healthDataAuthorizationPresentationRequestForRecord:]
+- -[HKHealthStore _implementationCreate:]
+- -[HKHealthStore _lock_connectionWithError:]
+- -[HKHealthStore _multiActionCompletionOnClientQueue:]
+- -[HKHealthStore _perObjectAuthorizationPresentationRequestForSession:]
+- -[HKHealthStore _prepareObjectsForSaving:errorOut:]
+- -[HKHealthStore _ratingOfExertionSamplesForWorkout:workoutActivity:completion:].cold.1
+- -[HKHealthStore _removeQuery:]
+- -[HKHealthStore _removeQueryFromPendingActivationQueries:]
+- -[HKHealthStore _replaceWorkout:withWorkout:completion:]
+- -[HKHealthStore _saveObjects:atomically:skipInsertionFilter:completion:]
+- -[HKHealthStore _sendNextObjectBatch:skipInsertionFilter:lastRange:server:transaction:completion:]
+- -[HKHealthStore _serverProxyWithHandler:errorHandler:].cold.1
+- -[HKHealthStore _serverProxyWithHandler:errorHandler:].cold.2
+- -[HKHealthStore _setBackgroundDeliveryFrequencyDataType:frequency:withCompletion:]
+- -[HKHealthStore _setMirroredWorkoutSessionObserverStateToEnabled:handler:]
+- -[HKHealthStore _supportsFeature:]
+- -[HKHealthStore _throwIfAuthorizationDisallowedForSharing:types:]
+- -[HKHealthStore _throwIfClinicalTypesRequestedToShare:]
+- -[HKHealthStore _throwIfParentTypeNotRequestedForSharing:types:]
+- -[HKHealthStore _throwIfPerObjectReadAuthorizationNotSupportedForType:]
+- -[HKHealthStore _throwIfUsingIncorrectAuthorizationRequestType:]
+- -[HKHealthStore _typesWithBothBloodPressureIfNeeded:]
+- -[HKHealthStore _typesWithBothBloodPressureIfNeeded:].cold.1
+- -[HKHealthStore _validateAuthorizationRequestWithShareTypes:readTypes:]
+- -[HKHealthStore _validateAuthorizationRequiredTypes]
+- -[HKHealthStore _validateClinicalHealthRecordsPurposeStringsForSharingTypes:readingTypes:]
+- -[HKHealthStore _validateHealthDataPurposeStringsForSharingTypes:readingTypes:isResearchStudy:]
+- -[HKHealthStore _validatePurposeStringsForObjectType:]
+- -[HKHealthStore _validatePurposeStringsForSharingTypes:readingTypes:]
+- -[HKHealthStore _validatePurposeStringsForSharingTypes:readingTypes:].cold.1
+- -[HKHealthStore _wrappedErrorHandler:proxy:]
+- -[HKHealthStore authorizationStatusForType:].cold.1
+- -[HKHealthStore clientRemote_conceptIndexManagerDidBecomeQuiescentWithSamplesProcessedCount:]
+- -[HKHealthStore clientRemote_didCreateRemoteSessionWithConfiguration:]
+- -[HKHealthStore clientRemote_presentAuthorizationWithRequestRecord:completion:]
+- -[HKHealthStore clientRemote_presentAuthorizationWithSession:completion:]
+- -[HKHealthStore clientRemote_presentRecalibrateEstimatesRequestWithRecord:completion:]
+- -[HKHealthStore clientRemote_unitPreferencesDidUpdate]
+- -[HKHealthStore closeTransactionForTypes:anchor:ackTime:query:]
+- -[HKHealthStore connectionConfigured]
+- -[HKHealthStore connectionInterrupted]
+- -[HKHealthStore connectionInvalidated]
+- -[HKHealthStore deleteAllSamplesWithTypes:sourceBundleIdentifier:options:completion:].cold.1
+- -[HKHealthStore exportedInterface]
+- -[HKHealthStore initWithListenerEndpoint:debugIdentifier:].cold.1
+- -[HKHealthStore queryDidFinishExecuting:]
+- -[HKHealthStore remoteInterface]
+- -[HKHealthStore takeWorkoutBackgroundStartAssertionForApplicationIdentifier:completion:].cold.1
+- -[HKHealthStore takeWorkoutBackgroundStartAssertionForApplicationIdentifier:completion:].cold.2
+- -[HKHealthStoreImplementation _faultIfInappropriateHost]
+- -[HKHealthStoreImplementation _faultIfInappropriateHost].cold.1
+- -[HKHealthStoreImplementation _faultIfInappropriateHost].cold.2
+- -[HKJSONValidator _loadSubschemaNamed:].cold.2
+- -[HKPHQ9Assessment acceptsAssociationWithObject:]
+- -[HKSleepDaySummary isWeeklyAggregatedSummary]
+- -[HKUserDomainConceptStore _clientQueue_notifyForChangesToUserDomainConcepts:changeType:]
+- -[HKUserDomainConceptStore client_notifyForChangesToUserDomainConcepts:changeType:]
+- -[HKWorkout acceptsAssociationWithObject:]
+- -[HKWorkoutActivity acceptsAssociationWithObject:]
+- -[_HKFeatureFlags HRCoordinator]
+- -[_HKFeatureFlags experimentalOrchestrationAdoption]
+- -[_HKFeatureFlags expirementalOrchestrationAdoption]
+- -[_HKFeatureFlags newSleep6MonthView]
+- -[_HKFeatureFlags setChamomile:]
+- -[_HKFeatureFlags setExperimentalOrchestrationAdoption:]
+- -[_HKFeatureFlags setHRCoordinator:]
+- -[_HKFeatureFlags setNewSleep6MonthView:]
+- -[_HKFeatureFlags setSharedStoreXPC:]
+- -[_HKFeatureFlags sharedStoreXPC]
+- -[_HKSampleQueryResult .cxx_destruct]
+- -[_HKSampleQueryResult dateInterval]
+- -[_HKSampleQueryResult endDate]
+- -[_HKSampleQueryResult initWithStartDate:endDate:samples:]
+- -[_HKSampleQueryResult samples]
+- -[_HKSampleQueryResult startDate]
+- GCC_except_table100
+- GCC_except_table103
+- GCC_except_table112
+- GCC_except_table115
+- GCC_except_table123
+- GCC_except_table124
+- GCC_except_table126
+- GCC_except_table165
+- GCC_except_table174
+- GCC_except_table181
+- GCC_except_table182
+- GCC_except_table201
+- GCC_except_table204
+- GCC_except_table218
+- GCC_except_table219
+- GCC_except_table223
+- GCC_except_table231
+- GCC_except_table250
+- GCC_except_table253
+- GCC_except_table256
+- GCC_except_table260
+- GCC_except_table270
+- GCC_except_table30
+- GCC_except_table58
+- GCC_except_table61
+- GCC_except_table79
+- GCC_except_table82
+- GCC_except_table84
+- GCC_except_table85
+- GCC_except_table91
+- _HKFeatureFlagBloodOxygenSaturationEnabled
+- _HKLogBackgroundUpdatesCategory
+- _HKLogBackgroundUpdatesCategory.category
+- _HKLogBackgroundUpdatesCategory.cold.1
+- _HKLogBackgroundUpdatesCategory.onceToken
+- _HKLogDemoDataCategory
+- _HKLogDemoDataCategory.category
+- _HKLogDemoDataCategory.cold.1
+- _HKLogDemoDataCategory.onceToken
+- _HKLogHeartRhythmCategory
+- _HKLogHeartRhythmCategory.category
+- _HKLogHeartRhythmCategory.cold.1
+- _HKLogHeartRhythmCategory.onceToken
+- _HKLogMedicalIDCategory
+- _HKLogMedicalIDCategory.category
+- _HKLogMedicalIDCategory.cold.1
+- _HKLogMedicalIDCategory.onceToken
+- _HKLogMobileAssetCategory
+- _HKLogMobileAssetCategory.category
+- _HKLogMobileAssetCategory.cold.1
+- _HKLogMobileAssetCategory.onceToken
+- _HKLogMobilityCategory
+- _HKLogMobilityCategory.category
+- _HKLogMobilityCategory.cold.1
+- _HKLogMobilityCategory.onceToken
+- _HKLogNotificationsCategory
+- _HKLogNotificationsCategory.category
+- _HKLogNotificationsCategory.cold.1
+- _HKLogNotificationsCategory.onceToken
+- _HKLogRespiratoryCategory
+- _HKLogRespiratoryCategory.category
+- _HKLogRespiratoryCategory.cold.1
+- _HKLogRespiratoryCategory.onceToken
+- _HKWatchECGSampleAvailabilityDays
+- _OBJC_CLASS_$_HKAnySecureCoding
+- _OBJC_CLASS_$_HKHeartbeatSequenceSample
+- _OBJC_CLASS_$__HKSampleQueryResult
+- _OBJC_CLASS_$__TtC9HealthKit10QueryStore
+- _OBJC_IVAR_$_HKHealthStore._authorizationDelegateTransactionErrorHandler
+- _OBJC_IVAR_$_HKHealthStore._authorizationPresentationController
+- _OBJC_IVAR_$_HKHealthStore._connectionQueue
+- _OBJC_IVAR_$_HKHealthStore._databaseAccessibilityAssertionStoreKeeper
+- _OBJC_IVAR_$_HKHealthStore._healthServicesManager
+- _OBJC_IVAR_$_HKHealthStore._healthdConnection
+- _OBJC_IVAR_$_HKHealthStore._isUsingSystemEndpoint
+- _OBJC_IVAR_$_HKHealthStore._mirroredSessionHandler
+- _OBJC_IVAR_$_HKHealthStore._objectPickerPresentationController
+- _OBJC_IVAR_$_HKHealthStore._pendingActivationQueries
+- _OBJC_IVAR_$_HKHealthStore._queries
+- _OBJC_IVAR_$_HKHealthStore._recalibrateEstimatesPresentationController
+- _OBJC_IVAR_$_HKHealthStore._serverProxy
+- _OBJC_IVAR_$_HKHealthStore._storeKeeperLock
+- _OBJC_IVAR_$_HKHealthStoreImplementation._resumeRequired
+- _OBJC_IVAR_$_HKHealthStoreImplementation._resumed
+- _OBJC_IVAR_$__HKBehavior._supportsCoordinatedCloudSync
+- _OBJC_IVAR_$__HKFeatureFlags._HRCoordinator
+- _OBJC_IVAR_$__HKFeatureFlags._chamomile
+- _OBJC_IVAR_$__HKFeatureFlags._experimentalOrchestrationAdoption
+- _OBJC_IVAR_$__HKFeatureFlags._expirementalOrchestrationAdoption
+- _OBJC_IVAR_$__HKFeatureFlags._newSleep6MonthView
+- _OBJC_IVAR_$__HKFeatureFlags._sharedStoreXPC
+- _OBJC_IVAR_$__HKSampleQueryResult._dateInterval
+- _OBJC_IVAR_$__HKSampleQueryResult._endDate
+- _OBJC_IVAR_$__HKSampleQueryResult._samples
+- _OBJC_IVAR_$__HKSampleQueryResult._startDate
+- _OBJC_METACLASS_$_HKAnySecureCoding
+- _OBJC_METACLASS_$_HKHeartbeatSequenceSample
+- _OBJC_METACLASS_$__HKSampleQueryResult
+- _OBJC_METACLASS_$__TtC9HealthKit10QueryStore
+- __CLASS_METHODS_HKAnySecureCoding
+- __CLASS_PROPERTIES_HKAnySecureCoding
+- __DATA_HKAnySecureCoding
+- __DATA__TtC9HealthKit10QueryStore
+- __INSTANCE_METHODS_HKAnySecureCoding
+- __INSTANCE_METHODS__TtC9HealthKit10QueryStore
+- __IVARS_HKAnySecureCoding
+- __IVARS__TtC9HealthKit10QueryStore
+- __IVARS__TtCV9HealthKit13AnyObjectTypeP33_6687F46F2F2423B7FE01834B63C8BC653Box
+- __METACLASS_DATA_HKAnySecureCoding
+- __METACLASS_DATA__TtC9HealthKit10QueryStore
+- __OBJC_$_CATEGORY_CLASS_METHODS_NSCalendar_$_HKCalendar
+- __OBJC_$_CATEGORY_CLASS_METHODS_NSComparisonPredicate_$_HealthKit
+- __OBJC_$_CATEGORY_CLASS_METHODS_NSPredicate_$_HKDayIndex
+- __OBJC_$_CATEGORY_CLASS_METHODS_NSString_$_HealthKit
+- __OBJC_$_CATEGORY_NSArray_$_HKUUID
+- __OBJC_$_CATEGORY_NSCalendar_$_HKCalendar
+- __OBJC_$_CATEGORY_NSComparisonPredicate_$_HealthKit
+- __OBJC_$_CATEGORY_NSData_$_HKUUID
+- __OBJC_$_CATEGORY_NSDateComponents_$_HKDayIndex
+- __OBJC_$_CATEGORY_NSDateInterval_$_HealthKit
+- __OBJC_$_CATEGORY_NSError_$_HealthKit
+- __OBJC_$_CATEGORY_NSPredicate_$_HKDayIndex
+- __OBJC_$_CATEGORY_NSSet_$_HKUUID
+- __OBJC_$_CATEGORY_NSString_$_HealthKit
+- __OBJC_$_CATEGORY_NSUserDefaults_$_HKRemoteFeatureAvailability
+- __OBJC_$_CLASS_METHODS_HKAllergyRecord(UserDomainConcept|MedicalRecordCodings|SortDate|HKConceptIndexable|CategoryType)
+- __OBJC_$_CLASS_METHODS_HKClinicalNoteRecord(SortDate|MedicalRecordCodings|CategoryType|HKConceptIndexable)
+- __OBJC_$_CLASS_METHODS_HKClinicalType(HKObjectOverrides|HealthRecordServices)
+- __OBJC_$_CLASS_METHODS_HKConditionRecord(SortDate|MedicalRecordCodings|UserDomainConcept|HKConceptIndexable|CategoryType)
+- __OBJC_$_CLASS_METHODS_HKCountrySet(Comparator|BitmaskEncoding|PlistDecoding)
+- __OBJC_$_CLASS_METHODS_HKCoverageRecord(MedicalRecordCodings|HKConceptIndexable|CategoryType|SortDate)
+- __OBJC_$_CLASS_METHODS_HKDiagnosticTestReport(HKConceptIndexable|SortDate|MedicalRecordCodings|CategoryType)
+- __OBJC_$_CLASS_METHODS_HKDiagnosticTestResult(MedicalRecordCodings|CategoryType|SortDate|UserDomainConcept|HKConceptIndexable)
+- __OBJC_$_CLASS_METHODS_HKImportExclusionDeviceDataSource(HKFeatureIdentifierOxygenSaturationRecordingAllowedDeviceTypes|HKFeatureIdentifierOxygenSaturationRecordingAllowedDeviceSerialNumbers|HKFeatureIdentifierOxygenSaturationRecordingCompanionAnalysisAllowedDeviceSerialNumbers|HKFeatureIdentifierOxygenSaturationRecordingAllowedDeviceSerialNumbersTIB)
+- __OBJC_$_CLASS_METHODS_HKKeyValueDomain(HKHeartRhythmAdditions|NoDataError|HKHealthAppAdditions)
+- __OBJC_$_CLASS_METHODS_HKMedicalCoding(ICD10|UCUM|LOINC|ICD9|RxNorm|Text|SNOMED|AppleOntology)
+- __OBJC_$_CLASS_METHODS_HKMedicalRecord(MedicalRecordCodings|CategoryType|UserDomainConcept|HKConceptIndexable)
+- __OBJC_$_CLASS_METHODS_HKMedicationDispenseRecord(SortDate|MedicalRecordCodings|CategoryType|UserDomainConcept|HKConceptIndexable)
+- __OBJC_$_CLASS_METHODS_HKMedicationDoseEvent(Sanitization|UnitTestSupport)
+- __OBJC_$_CLASS_METHODS_HKMedicationOrder(UserDomainConcept|MedicalRecordCodings|CategoryType|HKConceptIndexable|SortDate)
+- __OBJC_$_CLASS_METHODS_HKMedicationRecord(MedicalRecordCodings|CategoryType|UserDomainConcept|HKConceptIndexable|SortDate)
+- __OBJC_$_CLASS_METHODS_HKObjectType(UnknownRecordType|MedicationOrderType|AllergyRecordType|AccountOwnerType|HKLocalization|WorkoutMetric|SignedClinicalDataRecordType|ProcedureRecordType|DiagnosticTestResultType|ConditionRecordType|MedicationDispenseRecordType|DiagnosticTestReportType|CoverageRecordType|MedicalType|HKAuthorization|ClinicalType|VaccinationRecordType|VerifiableClinicalRecordType|MedicationRecordType|ClinicalNoteRecordType|Logging)
+- __OBJC_$_CLASS_METHODS_HKProcedureRecord(MedicalRecordCodings|CategoryType|HKConceptIndexable|SortDate|UserDomainConcept)
+- __OBJC_$_CLASS_METHODS_HKQuery(HKPredicates|_HKFitnessFriendActivitySnapshot|HKActivityCache|_HKFitnessFriendAchievement|_HKFitnessFriendWorkout)
+- __OBJC_$_CLASS_METHODS_HKSampleType(RequiredMetadata|HealthRecords|HKAttachments)
+- __OBJC_$_CLASS_METHODS_HKSignedClinicalDataRecord(HealthRecords|HKConceptIndexable|SortDate)
+- __OBJC_$_CLASS_METHODS_HKUnknownRecord(MedicalRecordCodings|CategoryType|SortDate)
+- __OBJC_$_CLASS_METHODS_HKVaccinationRecord(MedicalRecordCodings|HKConceptIndexable|CategoryType|UserDomainConcept|SortDate)
+- __OBJC_$_CLASS_METHODS_NSArray(HKUUID|HealthKit|HKFeatureAvailabilityRequirementsProviding|HKCodedObject)
+- __OBJC_$_CLASS_METHODS_NSData(HKUUID|HealthKit)
+- __OBJC_$_CLASS_METHODS_NSDateComponents(HKDayIndex|HealthKit|HKSleepSchedule)
+- __OBJC_$_CLASS_METHODS_NSDateInterval(HealthKit|HKDateIntervalConformance|_HKDateBounded|HKSleepDayIndex)
+- __OBJC_$_CLASS_METHODS_NSDictionary(HealthKit|HKMetadata|HKWorkoutEventMetadata|HKAttachmentMetadata)
+- __OBJC_$_CLASS_METHODS_NSError(HealthKit|HKHTTP|HKOAuth2)
+- __OBJC_$_CLASS_METHODS_NSSet(HKUUID|HealthKit)
+- __OBJC_$_CLASS_METHODS_NSUserDefaults(HKRemoteFeatureAvailability|HKLocalCountrySetProvider|HKFeatureAvailabilityRequirementSatisfactionOverrides|HKHeartRhythm|HealthKit)
+- __OBJC_$_INSTANCE_METHODS_HKAllergyRecord(UserDomainConcept|MedicalRecordCodings|SortDate|HKConceptIndexable|CategoryType)
+- __OBJC_$_INSTANCE_METHODS_HKClinicalNoteRecord(SortDate|MedicalRecordCodings|CategoryType|HKConceptIndexable)
+- __OBJC_$_INSTANCE_METHODS_HKClinicalType(HKObjectOverrides|HealthRecordServices)
+- __OBJC_$_INSTANCE_METHODS_HKConditionRecord(SortDate|MedicalRecordCodings|UserDomainConcept|HKConceptIndexable|CategoryType)
+- __OBJC_$_INSTANCE_METHODS_HKCoverageRecord(MedicalRecordCodings|HKConceptIndexable|CategoryType|SortDate)
+- __OBJC_$_INSTANCE_METHODS_HKDiagnosticTestReport(HKConceptIndexable|SortDate|MedicalRecordCodings|CategoryType)
+- __OBJC_$_INSTANCE_METHODS_HKDiagnosticTestResult(MedicalRecordCodings|CategoryType|SortDate|UserDomainConcept|HKConceptIndexable)
+- __OBJC_$_INSTANCE_METHODS_HKFeatureSettings(Dates)
+- __OBJC_$_INSTANCE_METHODS_HKHealthStore(HealthServices|Profile|CloudSyncSPI|HKFeatureAvailabilityHealthDataSource|HKAnalyticsHealthDataSource|Deprecated|_HKDaemonPreferences)
+- __OBJC_$_INSTANCE_METHODS_HKKeyValueDomain(HKHeartRhythmAdditions|NoDataError|HKHealthAppAdditions)
+- __OBJC_$_INSTANCE_METHODS_HKMedicalRecord(MedicalRecordCodings|CategoryType|UserDomainConcept|HKConceptIndexable)
+- __OBJC_$_INSTANCE_METHODS_HKMedicationDispenseRecord(SortDate|MedicalRecordCodings|CategoryType|UserDomainConcept|HKConceptIndexable)
+- __OBJC_$_INSTANCE_METHODS_HKMedicationDoseEvent(Sanitization|UnitTestSupport)
+- __OBJC_$_INSTANCE_METHODS_HKMedicationOrder(UserDomainConcept|MedicalRecordCodings|CategoryType|HKConceptIndexable|SortDate)
+- __OBJC_$_INSTANCE_METHODS_HKMedicationRecord(MedicalRecordCodings|CategoryType|UserDomainConcept|HKConceptIndexable|SortDate)
+- __OBJC_$_INSTANCE_METHODS_HKObject(HKUUIDProvider|HKIntegerValueExtensions|HK_JSON)
+- __OBJC_$_INSTANCE_METHODS_HKObjectType(UnknownRecordType|MedicationOrderType|AllergyRecordType|AccountOwnerType|HKLocalization|WorkoutMetric|SignedClinicalDataRecordType|ProcedureRecordType|DiagnosticTestResultType|ConditionRecordType|MedicationDispenseRecordType|DiagnosticTestReportType|CoverageRecordType|MedicalType|HKAuthorization|ClinicalType|VaccinationRecordType|VerifiableClinicalRecordType|MedicationRecordType|ClinicalNoteRecordType|Logging)
+- __OBJC_$_INSTANCE_METHODS_HKProcedureRecord(MedicalRecordCodings|CategoryType|HKConceptIndexable|SortDate|UserDomainConcept)
+- __OBJC_$_INSTANCE_METHODS_HKSample(HKSleep|Sanitization|_HKQueryUtilities|HK_JSON|_HKDateBounded|HKDayIndex)
+- __OBJC_$_INSTANCE_METHODS_HKSampleType(RequiredMetadata|HealthRecords|HKAttachments)
+- __OBJC_$_INSTANCE_METHODS_HKSignedClinicalDataRecord(HealthRecords|HKConceptIndexable|SortDate)
+- __OBJC_$_INSTANCE_METHODS_HKUnknownRecord(MedicalRecordCodings|CategoryType|SortDate)
+- __OBJC_$_INSTANCE_METHODS_HKVaccinationRecord(MedicalRecordCodings|HKConceptIndexable|CategoryType|UserDomainConcept|SortDate)
+- __OBJC_$_INSTANCE_METHODS_NSArray(HKUUID|HealthKit|HKFeatureAvailabilityRequirementsProviding|HKCodedObject)
+- __OBJC_$_INSTANCE_METHODS_NSCalendar(HKCalendar|HKActivitySummary)
+- __OBJC_$_INSTANCE_METHODS_NSComparisonPredicate(HealthKit|HKFilterExtension)
+- __OBJC_$_INSTANCE_METHODS_NSData(HKUUID|HealthKit)
+- __OBJC_$_INSTANCE_METHODS_NSDateComponents(HKDayIndex|HealthKit|HKSleepSchedule)
+- __OBJC_$_INSTANCE_METHODS_NSDateInterval(HealthKit|HKDateIntervalConformance|_HKDateBounded|HKSleepDayIndex)
+- __OBJC_$_INSTANCE_METHODS_NSDictionary(HealthKit|HKMetadata|HKWorkoutEventMetadata|HKAttachmentMetadata)
+- __OBJC_$_INSTANCE_METHODS_NSError(HealthKit|HKHTTP|HKOAuth2)
+- __OBJC_$_INSTANCE_METHODS_NSPredicate(HKDayIndex|HKFilterExtension)
+- __OBJC_$_INSTANCE_METHODS_NSSet(HKUUID|HealthKit)
+- __OBJC_$_INSTANCE_METHODS_NSString(HealthKit|_HKObjectComparisonFilter)
+- __OBJC_$_INSTANCE_METHODS_NSUserDefaults(HKRemoteFeatureAvailability|HKLocalCountrySetProvider|HKFeatureAvailabilityRequirementSatisfactionOverrides|HKHeartRhythm|HealthKit)
+- __OBJC_$_INSTANCE_METHODS__HKSampleQueryResult
+- __OBJC_$_INSTANCE_VARIABLES__HKSampleQueryResult
+- __OBJC_$_PROP_LIST_NSData_$_HKUUID
+- __OBJC_$_PROP_LIST_NSSet_$_HKUUID
+- __OBJC_$_PROP_LIST__HKSampleQueryResult
+- __OBJC_CATEGORY_PROTOCOLS_$_NSData_$_HKUUID
+- __OBJC_CATEGORY_PROTOCOLS_$_NSSet_$_HKUUID
+- __OBJC_CLASS_PROTOCOLS_$_HKAllergyRecord(UserDomainConcept|MedicalRecordCodings|SortDate|HKConceptIndexable|CategoryType)
+- __OBJC_CLASS_PROTOCOLS_$_HKClinicalNoteRecord(SortDate|MedicalRecordCodings|CategoryType|HKConceptIndexable)
+- __OBJC_CLASS_PROTOCOLS_$_HKConditionRecord(SortDate|MedicalRecordCodings|UserDomainConcept|HKConceptIndexable|CategoryType)
+- __OBJC_CLASS_PROTOCOLS_$_HKCoverageRecord(MedicalRecordCodings|HKConceptIndexable|CategoryType|SortDate)
+- __OBJC_CLASS_PROTOCOLS_$_HKDiagnosticTestReport(HKConceptIndexable|SortDate|MedicalRecordCodings|CategoryType)
+- __OBJC_CLASS_PROTOCOLS_$_HKDiagnosticTestResult(MedicalRecordCodings|CategoryType|SortDate|UserDomainConcept|HKConceptIndexable)
+- __OBJC_CLASS_PROTOCOLS_$_HKHealthStore(HealthServices|Profile|CloudSyncSPI|HKFeatureAvailabilityHealthDataSource|HKAnalyticsHealthDataSource|Deprecated|_HKDaemonPreferences)
+- __OBJC_CLASS_PROTOCOLS_$_HKMedicalRecord(MedicalRecordCodings|CategoryType|UserDomainConcept|HKConceptIndexable)
+- __OBJC_CLASS_PROTOCOLS_$_HKMedicationDispenseRecord(SortDate|MedicalRecordCodings|CategoryType|UserDomainConcept|HKConceptIndexable)
+- __OBJC_CLASS_PROTOCOLS_$_HKMedicationOrder(UserDomainConcept|MedicalRecordCodings|CategoryType|HKConceptIndexable|SortDate)
+- __OBJC_CLASS_PROTOCOLS_$_HKMedicationRecord(MedicalRecordCodings|CategoryType|UserDomainConcept|HKConceptIndexable|SortDate)
+- __OBJC_CLASS_PROTOCOLS_$_HKObject(HKUUIDProvider|HKIntegerValueExtensions|HK_JSON)
+- __OBJC_CLASS_PROTOCOLS_$_HKProcedureRecord(MedicalRecordCodings|CategoryType|HKConceptIndexable|SortDate|UserDomainConcept)
+- __OBJC_CLASS_PROTOCOLS_$_HKSample(HKSleep|Sanitization|_HKQueryUtilities|HK_JSON|_HKDateBounded|HKDayIndex)
+- __OBJC_CLASS_PROTOCOLS_$_HKSignedClinicalDataRecord(HealthRecords|HKConceptIndexable|SortDate)
+- __OBJC_CLASS_PROTOCOLS_$_HKVaccinationRecord(MedicalRecordCodings|HKConceptIndexable|CategoryType|UserDomainConcept|SortDate)
+- __OBJC_CLASS_PROTOCOLS_$_NSArray(HKUUID|HealthKit|HKFeatureAvailabilityRequirementsProviding|HKCodedObject)
+- __OBJC_CLASS_PROTOCOLS_$_NSDateInterval(HealthKit|HKDateIntervalConformance|_HKDateBounded|HKSleepDayIndex)
+- __OBJC_CLASS_RO_$_HKHeartbeatSequenceSample
+- __OBJC_CLASS_RO_$__HKSampleQueryResult
+- __OBJC_METACLASS_RO_$_HKHeartbeatSequenceSample
+- __OBJC_METACLASS_RO_$__HKSampleQueryResult
+- __PROTOCOLS_HKAnySecureCoding
+- __PROTOCOLS_HKAnySecureCoding.2
+- __PROTOCOLS__TtC9HealthKit10QueryStore
+- __PROTOCOLS__TtC9HealthKit10QueryStore.19
+- __PROTOCOL_HKQueryStoreClient
+- __PROTOCOL_HKQueryStoreServer
+- __PROTOCOL_INSTANCE_METHODS_HKQueryStoreServer
+- __PROTOCOL_METHOD_TYPES_HKQueryStoreServer
+- __ZN47hk_HKFeatureIdentifierOxygenSaturationRecordingL30allowed_encoded_serial_numbersE
+- __ZN47hk_HKFeatureIdentifierOxygenSaturationRecordingL33additional_allowed_serial_numbersE
+- __ZN47hk_HKFeatureIdentifierOxygenSaturationRecordingL34allowed_encoded_serial_numbers_tibE
+- __ZN47hk_HKFeatureIdentifierOxygenSaturationRecordingL37additional_allowed_serial_numbers_tibE
+- __ZN64hk_HKFeatureIdentifierOxygenSaturationRecordingCompanionAnalysisL30allowed_encoded_serial_numbersE
+- __ZN64hk_HKFeatureIdentifierOxygenSaturationRecordingCompanionAnalysisL33additional_allowed_serial_numbersE
+- __ZNKSt3__110__function6__funcIU8__strongU13block_pointerFP15_HKFeatureFlagsvENS_9allocatorIS6_EES4_E11target_typeEv
+- __ZNKSt3__110__function6__funcIU8__strongU13block_pointerFP15_HKFeatureFlagsvENS_9allocatorIS6_EES4_E6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIU8__strongU13block_pointerFP15_HKFeatureFlagsvENS_9allocatorIS6_EES4_E7__cloneEPNS0_6__baseIS4_EE
+- __ZNKSt3__110__function6__funcIU8__strongU13block_pointerFP15_HKFeatureFlagsvENS_9allocatorIS6_EES4_E7__cloneEv
+- __ZNKSt3__110__function6__funcIU8__strongU13block_pointerFP8NSStringvENS_9allocatorIS6_EES4_E11target_typeEv
+- __ZNKSt3__110__function6__funcIU8__strongU13block_pointerFP8NSStringvENS_9allocatorIS6_EES4_E6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIU8__strongU13block_pointerFP8NSStringvENS_9allocatorIS6_EES4_E7__cloneEPNS0_6__baseIS4_EE
+- __ZNKSt3__110__function6__funcIU8__strongU13block_pointerFP8NSStringvENS_9allocatorIS6_EES4_E7__cloneEv
+- __ZNKSt3__110__function6__funcIU8__strongU13block_pointerFbvENS_9allocatorIS4_EES2_E11target_typeEv
+- __ZNKSt3__110__function6__funcIU8__strongU13block_pointerFbvENS_9allocatorIS4_EES2_E6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIU8__strongU13block_pointerFbvENS_9allocatorIS4_EES2_E7__cloneEPNS0_6__baseIS2_EE
+- __ZNKSt3__110__function6__funcIU8__strongU13block_pointerFbvENS_9allocatorIS4_EES2_E7__cloneEv
+- __ZNKSt3__110__function6__funcIZ26-[_HKBehavior isProdFused]E3$_0NS_9allocatorIS2_EEFbvEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ26-[_HKBehavior isProdFused]E3$_0NS_9allocatorIS2_EEFbvEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ26-[_HKBehavior isProdFused]E3$_0NS_9allocatorIS2_EEFbvEE7__cloneEPNS0_6__baseIS5_EE
+- __ZNKSt3__110__function6__funcIZ26-[_HKBehavior isProdFused]E3$_0NS_9allocatorIS2_EEFbvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ30-[_HKBehavior isVirtualDevice]E3$_1NS_9allocatorIS2_EEFbvEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ30-[_HKBehavior isVirtualDevice]E3$_1NS_9allocatorIS2_EEFbvEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ30-[_HKBehavior isVirtualDevice]E3$_1NS_9allocatorIS2_EEFbvEE7__cloneEPNS0_6__baseIS5_EE
+- __ZNKSt3__110__function6__funcIZ30-[_HKBehavior isVirtualDevice]E3$_1NS_9allocatorIS2_EEFbvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ37-[HKDateIntervalTree mergedIntervals]E3$_0NS_9allocatorIS2_EEFvP18HKIntervalTreeNodeIdEEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ37-[HKDateIntervalTree mergedIntervals]E3$_0NS_9allocatorIS2_EEFvP18HKIntervalTreeNodeIdEEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ37-[HKDateIntervalTree mergedIntervals]E3$_0NS_9allocatorIS2_EEFvP18HKIntervalTreeNodeIdEEE7__cloneEPNS0_6__baseIS8_EE
+- __ZNKSt3__110__function6__funcIZ37-[HKDateIntervalTree mergedIntervals]E3$_0NS_9allocatorIS2_EEFvP18HKIntervalTreeNodeIdEEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ37-[_HKBehavior isRunningStoreDemoMode]E3$_2NS_9allocatorIS2_EEFbvEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ37-[_HKBehavior isRunningStoreDemoMode]E3$_2NS_9allocatorIS2_EEFbvEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ37-[_HKBehavior isRunningStoreDemoMode]E3$_2NS_9allocatorIS2_EEFbvEE7__cloneEPNS0_6__baseIS5_EE
+- __ZNKSt3__110__function6__funcIZ37-[_HKBehavior isRunningStoreDemoMode]E3$_2NS_9allocatorIS2_EEFbvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4NS_9allocatorIS2_EEFbvEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4NS_9allocatorIS2_EEFbvEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4NS_9allocatorIS2_EEFbvEE7__cloneEPNS0_6__baseIS5_EE
+- __ZNKSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4NS_9allocatorIS2_EEFbvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ41-[_HKBehavior runningInStoreDemoModeF201]E3$_3NS_9allocatorIS2_EEFbvEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ41-[_HKBehavior runningInStoreDemoModeF201]E3$_3NS_9allocatorIS2_EEFbvEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ41-[_HKBehavior runningInStoreDemoModeF201]E3$_3NS_9allocatorIS2_EEFbvEE7__cloneEPNS0_6__baseIS5_EE
+- __ZNKSt3__110__function6__funcIZ41-[_HKBehavior runningInStoreDemoModeF201]E3$_3NS_9allocatorIS2_EEFbvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5NS_9allocatorIS2_EEFbvEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5NS_9allocatorIS2_EEFbvEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5NS_9allocatorIS2_EEFbvEE7__cloneEPNS0_6__baseIS5_EE
+- __ZNKSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5NS_9allocatorIS2_EEFbvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6NS_9allocatorIS2_EEFbvEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6NS_9allocatorIS2_EEFbvEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6NS_9allocatorIS2_EEFbvEE7__cloneEPNS0_6__baseIS5_EE
+- __ZNKSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6NS_9allocatorIS2_EEFbvEE7__cloneEv
+- __ZNKSt3__16__loopIcE13__init_repeatB8ne200100ERNS_7__stateIcEE
+- __ZNKSt9type_infoeqB8ne200100ERKS_
+- __ZNSt12length_errorC1B8ne200100EPKc
+- __ZNSt3__110__function12__value_funcIFP15_HKFeatureFlagsvEED2B8ne200100Ev
+- __ZNSt3__110__function12__value_funcIFP8NSStringvEED2B8ne200100Ev
+- __ZNSt3__110__function12__value_funcIFbvEED2B8ne200100Ev
+- __ZNSt3__110__function12__value_funcIFvP18HKIntervalTreeNodeIdEEED2B8ne200100Ev
+- __ZNSt3__110__function6__funcIU8__strongU13block_pointerFP15_HKFeatureFlagsvENS_9allocatorIS6_EES4_E18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIU8__strongU13block_pointerFP15_HKFeatureFlagsvENS_9allocatorIS6_EES4_E7destroyEv
+- __ZNSt3__110__function6__funcIU8__strongU13block_pointerFP15_HKFeatureFlagsvENS_9allocatorIS6_EES4_ED0Ev
+- __ZNSt3__110__function6__funcIU8__strongU13block_pointerFP15_HKFeatureFlagsvENS_9allocatorIS6_EES4_ED1Ev
+- __ZNSt3__110__function6__funcIU8__strongU13block_pointerFP15_HKFeatureFlagsvENS_9allocatorIS6_EES4_EclEv
+- __ZNSt3__110__function6__funcIU8__strongU13block_pointerFP8NSStringvENS_9allocatorIS6_EES4_E18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIU8__strongU13block_pointerFP8NSStringvENS_9allocatorIS6_EES4_E7destroyEv
+- __ZNSt3__110__function6__funcIU8__strongU13block_pointerFP8NSStringvENS_9allocatorIS6_EES4_ED0Ev
+- __ZNSt3__110__function6__funcIU8__strongU13block_pointerFP8NSStringvENS_9allocatorIS6_EES4_ED1Ev
+- __ZNSt3__110__function6__funcIU8__strongU13block_pointerFP8NSStringvENS_9allocatorIS6_EES4_EclEv
+- __ZNSt3__110__function6__funcIU8__strongU13block_pointerFbvENS_9allocatorIS4_EES2_E18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIU8__strongU13block_pointerFbvENS_9allocatorIS4_EES2_E7destroyEv
+- __ZNSt3__110__function6__funcIU8__strongU13block_pointerFbvENS_9allocatorIS4_EES2_ED0Ev
+- __ZNSt3__110__function6__funcIU8__strongU13block_pointerFbvENS_9allocatorIS4_EES2_ED1Ev
+- __ZNSt3__110__function6__funcIU8__strongU13block_pointerFbvENS_9allocatorIS4_EES2_EclEv
+- __ZNSt3__110__function6__funcIZ26-[_HKBehavior isProdFused]E3$_0NS_9allocatorIS2_EEFbvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ26-[_HKBehavior isProdFused]E3$_0NS_9allocatorIS2_EEFbvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ26-[_HKBehavior isProdFused]E3$_0NS_9allocatorIS2_EEFbvEED0Ev
+- __ZNSt3__110__function6__funcIZ26-[_HKBehavior isProdFused]E3$_0NS_9allocatorIS2_EEFbvEED1Ev
+- __ZNSt3__110__function6__funcIZ26-[_HKBehavior isProdFused]E3$_0NS_9allocatorIS2_EEFbvEEclEv
+- __ZNSt3__110__function6__funcIZ30-[_HKBehavior isVirtualDevice]E3$_1NS_9allocatorIS2_EEFbvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ30-[_HKBehavior isVirtualDevice]E3$_1NS_9allocatorIS2_EEFbvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ30-[_HKBehavior isVirtualDevice]E3$_1NS_9allocatorIS2_EEFbvEED0Ev
+- __ZNSt3__110__function6__funcIZ30-[_HKBehavior isVirtualDevice]E3$_1NS_9allocatorIS2_EEFbvEED1Ev
+- __ZNSt3__110__function6__funcIZ30-[_HKBehavior isVirtualDevice]E3$_1NS_9allocatorIS2_EEFbvEEclEv
+- __ZNSt3__110__function6__funcIZ37-[HKDateIntervalTree mergedIntervals]E3$_0NS_9allocatorIS2_EEFvP18HKIntervalTreeNodeIdEEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ37-[HKDateIntervalTree mergedIntervals]E3$_0NS_9allocatorIS2_EEFvP18HKIntervalTreeNodeIdEEE7destroyEv
+- __ZNSt3__110__function6__funcIZ37-[HKDateIntervalTree mergedIntervals]E3$_0NS_9allocatorIS2_EEFvP18HKIntervalTreeNodeIdEEED0Ev
+- __ZNSt3__110__function6__funcIZ37-[HKDateIntervalTree mergedIntervals]E3$_0NS_9allocatorIS2_EEFvP18HKIntervalTreeNodeIdEEED1Ev
+- __ZNSt3__110__function6__funcIZ37-[HKDateIntervalTree mergedIntervals]E3$_0NS_9allocatorIS2_EEFvP18HKIntervalTreeNodeIdEEEclEOS7_
+- __ZNSt3__110__function6__funcIZ37-[_HKBehavior isRunningStoreDemoMode]E3$_2NS_9allocatorIS2_EEFbvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ37-[_HKBehavior isRunningStoreDemoMode]E3$_2NS_9allocatorIS2_EEFbvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ37-[_HKBehavior isRunningStoreDemoMode]E3$_2NS_9allocatorIS2_EEFbvEED0Ev
+- __ZNSt3__110__function6__funcIZ37-[_HKBehavior isRunningStoreDemoMode]E3$_2NS_9allocatorIS2_EEFbvEED1Ev
+- __ZNSt3__110__function6__funcIZ37-[_HKBehavior isRunningStoreDemoMode]E3$_2NS_9allocatorIS2_EEFbvEEclEv
+- __ZNSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4NS_9allocatorIS2_EEFbvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4NS_9allocatorIS2_EEFbvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4NS_9allocatorIS2_EEFbvEED0Ev
+- __ZNSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4NS_9allocatorIS2_EEFbvEED1Ev
+- __ZNSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4NS_9allocatorIS2_EEFbvEEclEv
+- __ZNSt3__110__function6__funcIZ41-[_HKBehavior runningInStoreDemoModeF201]E3$_3NS_9allocatorIS2_EEFbvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ41-[_HKBehavior runningInStoreDemoModeF201]E3$_3NS_9allocatorIS2_EEFbvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ41-[_HKBehavior runningInStoreDemoModeF201]E3$_3NS_9allocatorIS2_EEFbvEED0Ev
+- __ZNSt3__110__function6__funcIZ41-[_HKBehavior runningInStoreDemoModeF201]E3$_3NS_9allocatorIS2_EEFbvEED1Ev
+- __ZNSt3__110__function6__funcIZ41-[_HKBehavior runningInStoreDemoModeF201]E3$_3NS_9allocatorIS2_EEFbvEEclEv
+- __ZNSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5NS_9allocatorIS2_EEFbvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5NS_9allocatorIS2_EEFbvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5NS_9allocatorIS2_EEFbvEED0Ev
+- __ZNSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5NS_9allocatorIS2_EEFbvEED1Ev
+- __ZNSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5NS_9allocatorIS2_EEFbvEEclEv
+- __ZNSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6NS_9allocatorIS2_EEFbvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6NS_9allocatorIS2_EEFbvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6NS_9allocatorIS2_EEFbvEED0Ev
+- __ZNSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6NS_9allocatorIS2_EEFbvEED1Ev
+- __ZNSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6NS_9allocatorIS2_EEFbvEEclEv
+- __ZNSt3__110shared_ptrINS_13__empty_stateIcEEE5resetB8ne200100IS2_Li0EEEvPT_
+- __ZNSt3__110shared_ptrINS_13__empty_stateIcEEEC2B8ne200100IS2_Li0EEEPT_
+- __ZNSt3__110shared_ptrINS_13__empty_stateIcEEEC2B8ne200100IS2_Li0EEEPT_.cold.1
+- __ZNSt3__110unique_ptrI14HKIntervalTreeIdENS_14default_deleteIS2_EEE5resetB8ne200100EPS2_
+- __ZNSt3__110unique_ptrI18HKIntervalTreeNodeIdENS_14default_deleteIS2_EEE5resetB8ne200100EPS2_
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIN12binarysample26ElectrocardiogramLead_NameENS3_21ElectrocardiogramLeadEEEPvEENS_22__tree_node_destructorINS_9allocatorIS8_EEEEED1B8ne200100Ev
+- __ZNSt3__111__lookaheadIcNS_12regex_traitsIcEEEC1B8ne200100ERKNS_11basic_regexIcS2_EEbPNS_6__nodeIcEEj
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE15__push_l_anchorEv
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE15__push_r_anchorEv
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEEC2B8ne200100EPKcNS_15regex_constants18syntax_option_typeE
+- __ZNSt3__112__destroy_atB8ne200100INS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EELi0EEEvPT_
+- __ZNSt3__112__destroy_atB8ne200100INS_7__stateIcEELi0EEEvPT_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB8ne200100INS_11__wrap_iterIPcEES9_EEvT_T0_m
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB8ne200100IPKcS8_EEvT_T0_m
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB8ne200100IPcS7_EEvT_T0_m
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100ILi0EEEPKc
+- __ZNSt3__114__split_bufferINS_10unique_ptrIN12binarysample21ElectrocardiogramLeadENS_14default_deleteIS3_EEEERNS_9allocatorIS6_EEE17__destruct_at_endB8ne200100EPS6_
+- __ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEE17__destruct_at_endB8ne200100EPS6_
+- __ZNSt3__118__match_char_icaseIcNS_12regex_traitsIcEEEC2B8ne200100ERKS2_cPNS_6__nodeIcEE
+- __ZNSt3__118__match_char_icaseIcNS_12regex_traitsIcEEEC2B8ne200100ERKS2_cPNS_6__nodeIcEE.cold.1
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_10unique_ptrIN12binarysample21ElectrocardiogramLeadENS_14default_deleteIS4_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEES7_EEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSC_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_4pairIccEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_4pairImPKcEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_7__stateIcEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_9sub_matchIPKcEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIPNS_7__stateIcEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__shared_weak_count16__release_sharedB8ne200100Ev
+- __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE11EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE12EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE14EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE15EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE16EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE17EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE1EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE2EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE3EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE4EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE5EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE6EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE7EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE8EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE9EEEvv
+- __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE10__add_charB8ne200100Ec
+- __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE11__add_rangeB8ne200100ENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES9_
+- __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE13__add_digraphB8ne200100Ecc
+- __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE14__add_neg_charB8ne200100Ec
+- __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEEC2B8ne200100ERKS2_PNS_6__nodeIcEEbbb
+- __ZNSt3__120__throw_length_errorB8ne200100EPKc
+- __ZNSt3__123__lower_bound_bisectingB8ne200100INS_17_ClassicAlgPolicyEPKNS_17basic_string_viewIcNS_11char_traitsIcEEEENS_12basic_stringIcS4_NS_9allocatorIcEEEENS_10__identityENS_6__lessIvvEEEET0_SF_RKT1_NS_15iterator_traitsISF_E15difference_typeERT3_RT2_
+- __ZNSt3__125__throw_bad_function_callB8ne200100Ev
+- __ZNSt3__127__tree_balance_after_insertB8ne200100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__134__uninitialized_allocator_relocateB8ne200100INS_9allocatorINS_7__stateIcEEEEPS3_EEvRT_T0_S8_S8_
+- __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEE25__maybe_remove_back_spareB8ne200100Eb
+- __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEED2B8ne200100Ev
+- __ZNSt3__16__treeINS_12__value_typeIN12binarysample26ElectrocardiogramLead_NameENS2_21ElectrocardiogramLeadEEENS_19__map_value_compareIS3_S5_NS_4lessIS3_EELb1EEENS_9allocatorIS5_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSH_SH_
+- __ZNSt3__16__treeINS_12__value_typeIN12binarysample26ElectrocardiogramLead_NameENS2_21ElectrocardiogramLeadEEENS_19__map_value_compareIS3_S5_NS_4lessIS3_EELb1EEENS_9allocatorIS5_EEE25__emplace_unique_key_argsIS3_JRKNS_21piecewise_construct_tENS_5tupleIJRKS3_EEENSH_IJEEEEEENS_4pairINS_15__tree_iteratorIS5_PNS_11__tree_nodeIS5_PvEElEEbEERKT_DpOT0_
+- __ZNSt3__16__treeINS_12__value_typeIN12binarysample26ElectrocardiogramLead_NameENS2_21ElectrocardiogramLeadEEENS_19__map_value_compareIS3_S5_NS_4lessIS3_EELb1EEENS_9allocatorIS5_EEE7destroyEPNS_11__tree_nodeIS5_PvEE
+- __ZNSt3__16vectorINS_10unique_ptrIN12binarysample21ElectrocardiogramLeadENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN12binarysample21ElectrocardiogramLeadENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN12binarysample21ElectrocardiogramLeadENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE5clearB8ne200100Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE22__construct_one_at_endB8ne200100IJRKS6_EEEvDpOT_
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE5clearB8ne200100Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE9push_backB8ne200100ERKS6_
+- __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE9push_backB8ne200100EOS8_
+- __ZNSt3__16vectorINS_4pairIccEENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS_4pairIccEENS_9allocatorIS2_EEE9push_backB8ne200100EOS2_
+- __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE16__init_with_sizeB8ne200100IPS4_S9_EEvT_T0_m
+- __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE18__assign_with_sizeB8ne200100IPS4_S9_EEvT_T0_l
+- __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEE9push_backB8ne200100EOS2_
+- __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE16__init_with_sizeB8ne200100IPS4_S9_EEvT_T0_m
+- __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE18__assign_with_sizeB8ne200100IPS4_S9_EEvT_T0_l
+- __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIcNS_9allocatorIcEEE9push_backB8ne200100EOc
+- __ZNSt3__16vectorIcNS_9allocatorIcEEE9push_backB8ne200100ERKc
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE18__assign_with_sizeB8ne200100IPfS5_EEvT_T0_l
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE18__assign_with_sizeB8ne200100IPjS5_EEvT_T0_l
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__1ssB8ne200100IcNS_11char_traitsIcEEEEDaNS_17basic_string_viewIT_T0_EENS_13type_identityIS7_E4typeE
+- __ZNSt3__1ssB8ne200100IcNS_11char_traitsIcEENS_9allocatorIcEEEEDaRKNS_12basic_stringIT_T0_T1_EESC_
+- __ZSt28__throw_bad_array_new_lengthB8ne200100v
+- __ZTINSt3__110__function6__funcIU8__strongU13block_pointerFP15_HKFeatureFlagsvENS_9allocatorIS6_EES4_EE
+- __ZTINSt3__110__function6__funcIU8__strongU13block_pointerFP8NSStringvENS_9allocatorIS6_EES4_EE
+- __ZTINSt3__110__function6__funcIU8__strongU13block_pointerFbvENS_9allocatorIS4_EES2_EE
+- __ZTINSt3__110__function6__funcIZ26-[_HKBehavior isProdFused]E3$_0NS_9allocatorIS2_EEFbvEEE
+- __ZTINSt3__110__function6__funcIZ30-[_HKBehavior isVirtualDevice]E3$_1NS_9allocatorIS2_EEFbvEEE
+- __ZTINSt3__110__function6__funcIZ37-[HKDateIntervalTree mergedIntervals]E3$_0NS_9allocatorIS2_EEFvP18HKIntervalTreeNodeIdEEEE
+- __ZTINSt3__110__function6__funcIZ37-[_HKBehavior isRunningStoreDemoMode]E3$_2NS_9allocatorIS2_EEFbvEEE
+- __ZTINSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4NS_9allocatorIS2_EEFbvEEE
+- __ZTINSt3__110__function6__funcIZ41-[_HKBehavior runningInStoreDemoModeF201]E3$_3NS_9allocatorIS2_EEFbvEEE
+- __ZTINSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5NS_9allocatorIS2_EEFbvEEE
+- __ZTINSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6NS_9allocatorIS2_EEFbvEEE
+- __ZTSNSt3__110__function6__funcIU8__strongU13block_pointerFP15_HKFeatureFlagsvENS_9allocatorIS6_EES4_EE
+- __ZTSNSt3__110__function6__funcIU8__strongU13block_pointerFP8NSStringvENS_9allocatorIS6_EES4_EE
+- __ZTSNSt3__110__function6__funcIU8__strongU13block_pointerFbvENS_9allocatorIS4_EES2_EE
+- __ZTSNSt3__110__function6__funcIZ26-[_HKBehavior isProdFused]E3$_0NS_9allocatorIS2_EEFbvEEE
+- __ZTSNSt3__110__function6__funcIZ30-[_HKBehavior isVirtualDevice]E3$_1NS_9allocatorIS2_EEFbvEEE
+- __ZTSNSt3__110__function6__funcIZ37-[HKDateIntervalTree mergedIntervals]E3$_0NS_9allocatorIS2_EEFvP18HKIntervalTreeNodeIdEEEE
+- __ZTSNSt3__110__function6__funcIZ37-[_HKBehavior isRunningStoreDemoMode]E3$_2NS_9allocatorIS2_EEFbvEEE
+- __ZTSNSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4NS_9allocatorIS2_EEFbvEEE
+- __ZTSNSt3__110__function6__funcIZ41-[_HKBehavior runningInStoreDemoModeF201]E3$_3NS_9allocatorIS2_EEFbvEEE
+- __ZTSNSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5NS_9allocatorIS2_EEFbvEEE
+- __ZTSNSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6NS_9allocatorIS2_EEFbvEEE
+- __ZTVNSt3__110__function6__funcIU8__strongU13block_pointerFP15_HKFeatureFlagsvENS_9allocatorIS6_EES4_EE
+- __ZTVNSt3__110__function6__funcIU8__strongU13block_pointerFP8NSStringvENS_9allocatorIS6_EES4_EE
+- __ZTVNSt3__110__function6__funcIU8__strongU13block_pointerFbvENS_9allocatorIS4_EES2_EE
+- __ZTVNSt3__110__function6__funcIZ26-[_HKBehavior isProdFused]E3$_0NS_9allocatorIS2_EEFbvEEE
+- __ZTVNSt3__110__function6__funcIZ30-[_HKBehavior isVirtualDevice]E3$_1NS_9allocatorIS2_EEFbvEEE
+- __ZTVNSt3__110__function6__funcIZ37-[HKDateIntervalTree mergedIntervals]E3$_0NS_9allocatorIS2_EEFvP18HKIntervalTreeNodeIdEEEE
+- __ZTVNSt3__110__function6__funcIZ37-[_HKBehavior isRunningStoreDemoMode]E3$_2NS_9allocatorIS2_EEFbvEEE
+- __ZTVNSt3__110__function6__funcIZ38-[_HKBehavior futureMigrationsEnabled]E3$_4NS_9allocatorIS2_EEFbvEEE
+- __ZTVNSt3__110__function6__funcIZ41-[_HKBehavior runningInStoreDemoModeF201]E3$_3NS_9allocatorIS2_EEFbvEEE
+- __ZTVNSt3__110__function6__funcIZ55-[_HKBehavior supportsOntologyDatabaseFutureMigrations]E3$_5NS_9allocatorIS2_EEFbvEEE
+- __ZTVNSt3__110__function6__funcIZ59-[_HKBehavior performsAutomaticUserDomainConceptProcessing]E3$_6NS_9allocatorIS2_EEFbvEEE
+- ___100-[HKHealthStoreImplementation fetchPluginServiceEndpointForIdentifier:endpointHandler:errorHandler:]_block_invoke.397
+- ___100-[HKHealthStoreImplementation fetchPluginServiceEndpointForIdentifier:endpointHandler:errorHandler:]_block_invoke.398
+- ___101-[HKHealthStore taskServerEndpointForIdentifier:pluginURL:taskUUID:instanceUUID:configuration:error:]_block_invoke
+- ___101-[HKHealthStore taskServerEndpointForIdentifier:pluginURL:taskUUID:instanceUUID:configuration:error:]_block_invoke_2
+- ___103-[HKHealthStore beginAuthorizationDelegateTransactionWithSessionIdentifier:sourceHandler:errorHandler:]_block_invoke
+- ___103-[HKHealthStore beginAuthorizationDelegateTransactionWithSessionIdentifier:sourceHandler:errorHandler:]_block_invoke_2
+- ___103-[HKHealthStore beginAuthorizationDelegateTransactionWithSessionIdentifier:sourceHandler:errorHandler:]_block_invoke_3
+- ___103-[HKHealthStore beginAuthorizationDelegateTransactionWithSessionIdentifier:sourceHandler:errorHandler:]_block_invoke_4
+- ___103-[HKHealthStore beginAuthorizationDelegateTransactionWithSessionIdentifier:sourceHandler:errorHandler:]_block_invoke_5
+- ___110-[_HKMobileAssetDownloadManager _queue_fetchAssetsWithLocalInformation:shouldRequery:queryParams:returnTypes:]_block_invoke.318
+- ___110-[_HKMobileAssetDownloadManager _queue_fetchAssetsWithLocalInformation:shouldRequery:queryParams:returnTypes:]_block_invoke.326
+- ___110-[_HKMobileAssetDownloadManager _queue_fetchAssetsWithLocalInformation:shouldRequery:queryParams:returnTypes:]_block_invoke_2.319
+- ___110-[_HKMobileAssetDownloadManager _queue_fetchAssetsWithLocalInformation:shouldRequery:queryParams:returnTypes:]_block_invoke_2.319.cold.1
+- ___129-[HKHealthStore fetchTaskServerEndpointForIdentifier:pluginURL:taskUUID:instanceUUID:configuration:endpointHandler:errorHandler:]_block_invoke
+- ___129-[HKHealthStore fetchTaskServerEndpointForIdentifier:pluginURL:taskUUID:instanceUUID:configuration:endpointHandler:errorHandler:]_block_invoke.387
+- ___129-[HKHealthStore fetchTaskServerEndpointForIdentifier:pluginURL:taskUUID:instanceUUID:configuration:endpointHandler:errorHandler:]_block_invoke_2
+- ___129-[HKHealthStore fetchTaskServerEndpointForIdentifier:pluginURL:taskUUID:instanceUUID:configuration:endpointHandler:errorHandler:]_block_invoke_3
+- ___143-[HKHealthStoreImplementation fetchTaskServerEndpointForIdentifier:pluginURL:taskUUID:instanceUUID:configuration:endpointHandler:errorHandler:]_block_invoke.403
+- ___28-[_HKFeatureFlags chamomile]_block_invoke
+- ___32-[_HKFeatureFlags HRCoordinator]_block_invoke
+- ___33-[HKHealthStore dropEntitlement:]_block_invoke
+- ___33-[HKHealthStore dropEntitlement:]_block_invoke.641
+- ___33-[_HKFeatureFlags sharedStoreXPC]_block_invoke
+- ___34-[HKHealthStore _supportsFeature:]_block_invoke
+- ___34-[HKHealthStore _supportsFeature:]_block_invoke.542
+- ___34-[HKHealthStore _supportsFeature:]_block_invoke.542.cold.1
+- ___34-[HKHealthStore _supportsFeature:]_block_invoke.cold.1
+- ___35-[HKHealthStore endWorkoutSession:]_block_invoke
+- ___35-[HKHealthStore endWorkoutSession:]_block_invoke.cold.1
+- ___36-[HKHealthStore restoreEntitlement:]_block_invoke
+- ___36-[HKHealthStore restoreEntitlement:]_block_invoke.642
+- ___37-[HKHealthStore pauseWorkoutSession:]_block_invoke
+- ___37-[HKHealthStore pauseWorkoutSession:]_block_invoke.cold.1
+- ___37-[HKHealthStore startWorkoutSession:]_block_invoke
+- ___37-[HKHealthStore startWorkoutSession:]_block_invoke.cold.1
+- ___37-[_HKFeatureFlags newSleep6MonthView]_block_invoke
+- ___38-[HKHealthStore connectionInterrupted]_block_invoke
+- ___38-[HKHealthStore connectionInterrupted]_block_invoke_2
+- ___38-[HKHealthStore connectionInterrupted]_block_invoke_3
+- ___38-[HKHealthStore resumeWorkoutSession:]_block_invoke
+- ___38-[HKHealthStore resumeWorkoutSession:]_block_invoke.cold.1
+- ___42-[HKHealthStore _bloodTypeWithCompletion:]_block_invoke
+- ___43-[_HKBehavior supportsCoordinatedCloudSync]_block_invoke
+- ___44-[HKHealthStore _dateOfBirthWithCompletion:]_block_invoke
+- ___44-[HKHealthStore _wrappedErrorHandler:proxy:]_block_invoke
+- ___44-[HKHealthStore authorizationStatusForType:]_block_invoke
+- ___44-[HKHealthStore authorizationStatusForType:]_block_invoke.414
+- ___44-[HKHealthStore authorizationStatusForType:]_block_invoke.cold.1
+- ___44-[HKHealthStore authorizationStatusForType:]_block_invoke_2
+- ___45-[HKHealthStore _applicationDidBecomeActive:]_block_invoke
+- ___45-[HKHealthStore _applicationDidBecomeActive:]_block_invoke_2
+- ___45-[HKHealthStore _applicationDidBecomeActive:]_block_invoke_3
+- ___45-[HKHealthStore _applicationDidBecomeActive:]_block_invoke_3.cold.1
+- ___45-[HKHealthStore saveWorkoutZones:completion:]_block_invoke
+- ___46-[HKHealthStore _applicationWillResignActive:]_block_invoke
+- ___46-[HKHealthStore _applicationWillResignActive:]_block_invoke_2
+- ___46-[HKHealthStore _applicationWillResignActive:]_block_invoke_3
+- ___46-[HKHealthStore _applicationWillResignActive:]_block_invoke_3.cold.1
+- ___46-[HKHealthStore _biologicalSexWithCompletion:]_block_invoke
+- ___46-[HKHealthStore _wheelchairUseWithCompletion:]_block_invoke
+- ___47-[HKHealthStoreImplementation dropEntitlement:]_block_invoke.660
+- ___48-[HKHealthStore _actionCompletionOnClientQueue:]_block_invoke
+- ___48-[HKHealthStore _actionCompletionOnClientQueue:]_block_invoke_2
+- ___48-[HKHealthStore _objectCompletionOnClientQueue:]_block_invoke
+- ___48-[HKHealthStore _objectCompletionOnClientQueue:]_block_invoke_2
+- ___48-[HKHealthStore executeQuery:activationHandler:]_block_invoke
+- ___48-[HKHealthStoreImplementation _supportsFeature:]_block_invoke.559
+- ___48-[HKHealthStoreImplementation _supportsFeature:]_block_invoke.559.cold.1
+- ___49-[HKHealthStore addSamples:toWorkout:completion:]_block_invoke
+- ___49-[HKHealthStore addSamples:toWorkout:completion:]_block_invoke_2
+- ___50-[HKHealthStore _characteristicForDataType:error:]_block_invoke
+- ___50-[HKHealthStore _characteristicForDataType:error:]_block_invoke_2
+- ___50-[HKHealthStore deleteClientSourceWithCompletion:]_block_invoke
+- ___50-[HKHealthStore deleteClientSourceWithCompletion:]_block_invoke_2
+- ___50-[HKHealthStore fetchMedicalIDDataWithCompletion:]_block_invoke
+- ___50-[HKHealthStore unitTest_replaceListenerEndpoint:]_block_invoke
+- ___50-[HKHealthStoreImplementation restoreEntitlement:]_block_invoke.661
+- ___51-[HKHealthStore _deleteObjects:options:completion:]_block_invoke.516
+- ___51-[HKHealthStore _deleteObjects:options:completion:]_block_invoke_2.517
+- ___52-[HKHealthStore _fitzpatrickSkinTypeWithCompletion:]_block_invoke
+- ___52-[HKHealthStore _validateAuthorizationRequiredTypes]_block_invoke
+- ___52-[_HKFeatureFlags experimentalOrchestrationAdoption]_block_invoke
+- ___53-[HKHealthStore _multiActionCompletionOnClientQueue:]_block_invoke
+- ___53-[HKHealthStore _multiActionCompletionOnClientQueue:]_block_invoke_2
+- ___54-[HKHealthStore _serverProxyWithHandler:errorHandler:]_block_invoke
+- ___54-[HKHealthStore _serverProxyWithHandler:errorHandler:]_block_invoke_2
+- ___54-[HKHealthStore _setCharacteristic:forDataType:error:]_block_invoke
+- ___54-[HKHealthStore _setCharacteristic:forDataType:error:]_block_invoke_2
+- ___54-[HKHealthStore _setPreferredUnit:forType:completion:]_block_invoke
+- ___54-[HKHealthStore _setPreferredUnit:forType:completion:]_block_invoke_2
+- ___54-[HKHealthStore setServerURL:forAssetType:completion:]_block_invoke
+- ___54-[HKHealthStore setServerURL:forAssetType:completion:]_block_invoke_2
+- ___55-[HKHealthStore _activityMoveModeObjectWithCompletion:]_block_invoke
+- ___55-[HKHealthStore currentWorkoutZonesForType:completion:]_block_invoke
+- ___55-[HKHealthStore fetchServerURLForAssetType:completion:]_block_invoke
+- ___55-[HKHealthStore fetchServerURLForAssetType:completion:]_block_invoke_2
+- ___56-[HKHealthStore _removePreferredUnitForType:completion:]_block_invoke
+- ___56-[HKHealthStore _removePreferredUnitForType:completion:]_block_invoke_2
+- ___56-[HKHealthStore _replaceWorkout:withWorkout:completion:]_block_invoke
+- ___56-[HKHealthStore _replaceWorkout:withWorkout:completion:]_block_invoke_2
+- ___56-[HKHealthStore isProtectedDataAvailableWithCompletion:]_block_invoke
+- ___56-[HKHealthStore isProtectedDataAvailableWithCompletion:]_block_invoke_2
+- ___56-[HKHealthStore setWorkoutSessionMirroringStartHandler:]_block_invoke
+- ___56-[HKHealthStore setWorkoutSessionMirroringStartHandler:]_block_invoke.560
+- ___56-[HKHealthStore setWorkoutSessionMirroringStartHandler:]_block_invoke.560.cold.1
+- ___56-[HKHealthStore setWorkoutSessionMirroringStartHandler:]_block_invoke.cold.1
+- ___56-[HKHealthStoreImplementation _faultIfInappropriateHost]_block_invoke
+- ___57-[HKHealthStore _synchronousServerProxyWithErrorHandler:]_block_invoke
+- ___57-[HKHealthStore _synchronousServerProxyWithErrorHandler:]_block_invoke_2
+- ___58-[HKHealthStore initWithListenerEndpoint:debugIdentifier:]_block_invoke
+- ___58-[HKHealthStore pluginServiceEndpointForIdentifier:error:]_block_invoke
+- ___58-[HKHealthStore pluginServiceEndpointForIdentifier:error:]_block_invoke.385
+- ___58-[HKHealthStore setAllHealthDataAccessForSiri:completion:]_block_invoke
+- ___58-[HKHealthStore setAllHealthDataAccessForSiri:completion:]_block_invoke_2
+- ___58-[HKHealthStoreImplementation authorizationStatusForType:]_block_invoke.430
+- ___59-[HKHealthStore _characteristicForDataType:withCompletion:]_block_invoke
+- ___59-[HKHealthStore _characteristicForDataType:withCompletion:]_block_invoke_2
+- ___59-[HKHealthStore _closeTransactionWithTypes:anchor:ackTime:]_block_invoke
+- ___59-[HKHealthStore _closeTransactionWithTypes:anchor:ackTime:]_block_invoke.602
+- ___59-[HKHealthStore _closeTransactionWithTypes:anchor:ackTime:]_block_invoke.602.cold.1
+- ___59-[HKHealthStore _closeTransactionWithTypes:anchor:ackTime:]_block_invoke_2
+- ___59-[HKHealthStore _closeTransactionWithTypes:anchor:ackTime:]_block_invoke_2.cold.1
+- ___59-[HKHealthStore deleteObjectsWithUUIDs:options:completion:]_block_invoke
+- ___59-[HKHealthStore deleteObjectsWithUUIDs:options:completion:]_block_invoke_2
+- ___59-[HKHealthStore recoverActiveWorkoutSessionWithCompletion:]_block_invoke
+- ___59-[HKHealthStore recoverActiveWorkoutSessionWithCompletion:]_block_invoke_2
+- ___59-[HKHealthStore recoverActiveWorkoutSessionWithCompletion:]_block_invoke_3
+- ___59-[HKHealthStore recoverActiveWorkoutSessionWithCompletion:]_block_invoke_4
+- ___59-[HKHealthStore recoverActiveWorkoutSessionWithCompletion:]_block_invoke_5
+- ___61-[HKHealthStore getAllHealthDataAccessForSiriWithCompletion:]_block_invoke
+- ___61-[HKHealthStore getAllHealthDataAccessForSiriWithCompletion:]_block_invoke_2
+- ___61-[HKHealthStore getAllHealthDataAccessForSiriWithCompletion:]_block_invoke_3
+- ___61-[HKHealthStore getAllHealthDataAccessForSiriWithCompletion:]_block_invoke_4
+- ___62-[HKHealthStore _startWatchAppWithWorkoutPlanData:completion:]_block_invoke
+- ___62-[HKHealthStore _startWatchAppWithWorkoutPlanData:completion:]_block_invoke_2
+- ___63-[HKHealthStore handleAuthorizationForExtensionWithCompletion:]_block_invoke
+- ___63-[HKHealthStore handleAuthorizationForExtensionWithCompletion:]_block_invoke_2
+- ___63-[_HKMobileAssetDownloadManager removeMobileAssets:completion:]_block_invoke.312
+- ___63-[_HKMobileAssetDownloadManager removeMobileAssets:completion:]_block_invoke.313
+- ___64-[HKHealthStore _startWatchAppWithMirroredStartData:completion:]_block_invoke
+- ___64-[HKHealthStore _startWatchAppWithMirroredStartData:completion:]_block_invoke_2
+- ___64-[HKHealthStore _throwIfUsingIncorrectAuthorizationRequestType:]_block_invoke
+- ___64-[HKHealthStore associateSampleUUIDs:withSampleUUID:completion:]_block_invoke
+- ___64-[HKHealthStore associateSampleUUIDs:withSampleUUID:completion:]_block_invoke_2
+- ___66-[HKHealthStore _modificationDateForCharacteristicWithType:error:]_block_invoke
+- ___66-[HKHealthStore _modificationDateForCharacteristicWithType:error:]_block_invoke_2
+- ___66-[HKHealthStore startWatchAppWithWorkoutConfiguration:completion:]_block_invoke
+- ___66-[HKHealthStore startWatchAppWithWorkoutConfiguration:completion:]_block_invoke_2
+- ___67-[HKHealthStore preferredUnitsForQuantityTypes:version:completion:]_block_invoke
+- ___67-[HKHealthStore preferredUnitsForQuantityTypes:version:completion:]_block_invoke_2
+- ___67-[HKHealthStore saveObjects:deleteObjects:associations:completion:]_block_invoke
+- ___67-[HKHealthStore saveObjects:deleteObjects:associations:completion:]_block_invoke_2
+- ___67-[HKHealthStore splitTotalEnergy:startDate:endDate:resultsHandler:]_block_invoke.615
+- ___67-[HKHealthStore splitTotalEnergy:startDate:endDate:resultsHandler:]_block_invoke_3
+- ___67-[HKHealthStore splitTotalEnergy:startDate:endDate:resultsHandler:]_block_invoke_4
+- ___67-[HKHealthStore splitTotalEnergy:startDate:endDate:resultsHandler:]_block_invoke_5
+- ___67-[HKHealthStore splitTotalEnergy:startDate:endDate:resultsHandler:]_block_invoke_6
+- ___67-[HKHealthStore splitTotalEnergy:startDate:endDate:resultsHandler:]_block_invoke_6.cold.1
+- ___69-[HKHealthStore recalibrateEstimatesForSampleType:atDate:completion:]_block_invoke
+- ___69-[HKHealthStore recalibrateEstimatesForSampleType:atDate:completion:]_block_invoke.399
+- ___69-[HKHealthStore recalibrateEstimatesForSampleType:atDate:completion:]_block_invoke.cold.1
+- ___69-[HKHealthStore recalibrateEstimatesForSampleType:atDate:completion:]_block_invoke_2
+- ___70-[HKHealthStore clientRemote_didCreateRemoteSessionWithConfiguration:]_block_invoke
+- ___70-[HKHealthStore clientRemote_didCreateRemoteSessionWithConfiguration:]_block_invoke.635
+- ___70-[HKHealthStore clientRemote_didCreateRemoteSessionWithConfiguration:]_block_invoke.cold.1
+- ___70-[HKHealthStore clientRemote_didCreateRemoteSessionWithConfiguration:]_block_invoke_2
+- ___70-[HKHealthStore clientRemote_didCreateRemoteSessionWithConfiguration:]_block_invoke_2.cold.1
+- ___70-[HKHealthStore deleteObjectsOfType:predicate:options:withCompletion:]_block_invoke.521
+- ___70-[HKHealthStore deleteObjectsOfType:predicate:options:withCompletion:]_block_invoke_2.522
+- ___70-[HKHealthStore deleteObjectsOfType:predicate:options:withCompletion:]_block_invoke_3
+- ___70-[HKHealthStore deleteObjectsOfType:predicate:options:withCompletion:]_block_invoke_4
+- ___70-[HKHealthStore deleteObjectsOfType:predicate:options:withCompletion:]_block_invoke_5
+- ___70-[HKHealthStoreImplementation setWorkoutSessionMirroringStartHandler:]_block_invoke.578
+- ___70-[HKHealthStoreImplementation setWorkoutSessionMirroringStartHandler:]_block_invoke.578.cold.1
+- ___70-[HKWorkoutSession _queue_sendPendingDataUpdateToRemoteWorkoutSession]_block_invoke.307
+- ___70-[HKWorkoutSession _queue_sendPendingDataUpdateToRemoteWorkoutSession]_block_invoke.307.cold.1
+- ___70-[HKWorkoutSession _queue_sendPendingDataUpdateToRemoteWorkoutSession]_block_invoke_2.cold.1
+- ___72-[HKAudiogramSample hasDifferentClassificationWithModifiedClampingRange]_block_invoke
+- ___72-[HKHealthStore _saveObjects:atomically:skipInsertionFilter:completion:]_block_invoke
+- ___72-[HKHealthStore _saveObjects:atomically:skipInsertionFilter:completion:]_block_invoke_2
+- ___72-[HKHealthStoreImplementation pluginServiceEndpointForIdentifier:error:]_block_invoke.401
+- ___73-[HKHealthStore clientRemote_presentAuthorizationWithSession:completion:]_block_invoke
+- ___73-[HKHealthStoreImplementation _closeTransactionWithTypes:anchor:ackTime:]_block_invoke.620
+- ___73-[HKHealthStoreImplementation _closeTransactionWithTypes:anchor:ackTime:]_block_invoke.620.cold.1
+- ___74-[HKHealthStore _setMirroredWorkoutSessionObserverStateToEnabled:handler:]_block_invoke
+- ___74-[HKHealthStore _setMirroredWorkoutSessionObserverStateToEnabled:handler:]_block_invoke_2
+- ___74-[HKHealthStore _setMirroredWorkoutSessionObserverStateToEnabled:handler:]_block_invoke_3
+- ___75-[HKHealthStore relateWorkoutEffortSample:withWorkout:activity:completion:]_block_invoke
+- ___75-[HKHealthStore relateWorkoutEffortSample:withWorkout:activity:completion:]_block_invoke_2
+- ___77-[HKHealthStore unrelateWorkoutEffortSample:fromWorkout:activity:completion:]_block_invoke
+- ___77-[HKHealthStore unrelateWorkoutEffortSample:fromWorkout:activity:completion:]_block_invoke_2
+- ___79-[HKHealthStore _ratingOfExertionSamplesForWorkout:workoutActivity:completion:]_block_invoke
+- ___79-[HKHealthStore clientRemote_presentAuthorizationWithRequestRecord:completion:]_block_invoke
+- ___79-[HKHealthStore clientRemote_presentAuthorizationWithRequestRecord:completion:]_block_invoke_2
+- ___79-[HKHealthStore requestPerObjectReadAuthorizationForType:predicate:completion:]_block_invoke
+- ___79-[HKHealthStore requestPerObjectReadAuthorizationForType:predicate:completion:]_block_invoke.426
+- ___79-[HKHealthStore requestPerObjectReadAuthorizationForType:predicate:completion:]_block_invoke.cold.1
+- ___79-[HKHealthStore requestPerObjectReadAuthorizationForType:predicate:completion:]_block_invoke_2
+- ___80-[HKHealthStore endAuthorizationDelegateTransactionWithSessionIdentifier:error:]_block_invoke
+- ___80-[HKHealthStore endAuthorizationDelegateTransactionWithSessionIdentifier:error:]_block_invoke_2
+- ___80-[HKHealthStore endAuthorizationDelegateTransactionWithSessionIdentifier:error:]_block_invoke_3
+- ___80-[HKHealthStore endAuthorizationDelegateTransactionWithSessionIdentifier:error:]_block_invoke_3.cold.1
+- ___82-[HKHealthStore _setBackgroundDeliveryFrequencyDataType:frequency:withCompletion:]_block_invoke
+- ___82-[HKHealthStore _setBackgroundDeliveryFrequencyDataType:frequency:withCompletion:]_block_invoke_2
+- ___82-[_HKMobileAssetDownloadManager _queue_fetchAssetsWithQuery:onlyLocal:completion:]_block_invoke.316
+- ___82-[_HKMobileAssetDownloadManager _queue_fetchAssetsWithQuery:onlyLocal:completion:]_block_invoke_2.317
+- ___83-[HKHealthStore getRequestStatusForAuthorizationToShareTypes:readTypes:completion:]_block_invoke_3
+- ___83-[HKHealthStore getRequestStatusForAuthorizationToShareTypes:readTypes:completion:]_block_invoke_4
+- ___83-[HKHealthStore getRequestStatusForAuthorizationToShareTypes:readTypes:completion:]_block_invoke_5
+- ___83-[HKHealthStore getRequestStatusForAuthorizationToShareTypes:readTypes:completion:]_block_invoke_6
+- ___83-[HKHealthStoreImplementation recalibrateEstimatesForSampleType:atDate:completion:]_block_invoke.415
+- ___83-[HKUserDomainConceptStore client_notifyForChangesToUserDomainConcepts:changeType:]_block_invoke
+- ___84-[HKHealthStore requestAuthorizationToShareTypes:readTypes:shouldPrompt:completion:]_block_invoke
+- ___84-[HKHealthStore requestAuthorizationToShareTypes:readTypes:shouldPrompt:completion:]_block_invoke.434
+- ___84-[HKHealthStore requestAuthorizationToShareTypes:readTypes:shouldPrompt:completion:]_block_invoke.cold.1
+- ___84-[HKHealthStore requestAuthorizationToShareTypes:readTypes:shouldPrompt:completion:]_block_invoke_2
+- ___84-[HKHealthStoreImplementation clientRemote_didCreateRemoteSessionWithConfiguration:]_block_invoke.654
+- ___85-[HKHealthStore deleteAllSamplesWithTypes:sourceBundleIdentifier:options:completion:]_block_invoke
+- ___85-[HKHealthStore deleteAllSamplesWithTypes:sourceBundleIdentifier:options:completion:]_block_invoke_2
+- ___86-[HKHealthStore clientRemote_presentRecalibrateEstimatesRequestWithRecord:completion:]_block_invoke
+- ___86-[HKHealthStore fetchPluginServiceEndpointForIdentifier:endpointHandler:errorHandler:]_block_invoke
+- ___86-[HKHealthStore fetchPluginServiceEndpointForIdentifier:endpointHandler:errorHandler:]_block_invoke.381
+- ___86-[HKHealthStore fetchPluginServiceEndpointForIdentifier:endpointHandler:errorHandler:]_block_invoke.382
+- ___86-[HKHealthStore fetchPluginServiceEndpointForIdentifier:endpointHandler:errorHandler:]_block_invoke_2
+- ___86-[HKHealthStore fetchPluginServiceEndpointForIdentifier:endpointHandler:errorHandler:]_block_invoke_3
+- ___86-[HKHealthStore fetchPluginServiceEndpointForIdentifier:endpointHandler:errorHandler:]_block_invoke_4
+- ___87-[HKHealthStore _relateReplaceRatingOfExertionSample:toWorkout:forActivity:completion:]_block_invoke
+- ___87-[HKHealthStore _relateReplaceRatingOfExertionSample:toWorkout:forActivity:completion:]_block_invoke_2
+- ___87-[HKHealthStore _relateReplaceRatingOfExertionSample:toWorkout:forActivity:completion:]_block_invoke_3
+- ___88-[HKHealthStore takeWorkoutBackgroundStartAssertionForApplicationIdentifier:completion:]_block_invoke
+- ___88-[HKHealthStore takeWorkoutBackgroundStartAssertionForApplicationIdentifier:completion:]_block_invoke_2
+- ___89-[HKSleepDaySummaryQuery client_deliverDaySummaries:clearPending:isFinalBatch:queryUUID:]_block_invoke.27
+- ___89-[HKSleepDaySummaryQuery client_deliverDaySummaries:clearPending:isFinalBatch:queryUUID:]_block_invoke.27.cold.1
+- ___93-[HKHealthStoreImplementation requestPerObjectReadAuthorizationForType:predicate:completion:]_block_invoke.441
+- ___98-[HKHealthStore _sendNextObjectBatch:skipInsertionFilter:lastRange:server:transaction:completion:]_block_invoke
+- ___98-[HKHealthStoreImplementation requestAuthorizationToShareTypes:readTypes:shouldPrompt:completion:]_block_invoke.449
+- ___HKLogBackgroundUpdatesCategory_block_invoke
+- ___HKLogDemoDataCategory_block_invoke
+- ___HKLogHeartRhythmCategory_block_invoke
+- ___HKLogMedicalIDCategory_block_invoke
+- ___HKLogMobileAssetCategory_block_invoke
+- ___HKLogMobilityCategory_block_invoke
+- ___HKLogNotificationsCategory_block_invoke
+- ___HKLogRespiratoryCategory_block_invoke
+- ___block_descriptor_32_e37_B16?0"HKAudiogramSensitivityPoint"8l
+- ___block_descriptor_40_e8_32s_e44_v16?0"<HKAttachmentStoreServerInterface>"8ls32l8
+- ___block_descriptor_48_e8_32s40bs_e23_v28?0B8Q12"NSError"20ls32l8s40l8
+- ___block_descriptor_48_e8_32s40w_e17_v16?0"NSError"8ls32l8w40l8
+- ___block_descriptor_48_e8_32s40w_e20_v20?0B8"NSError"12ls32l8w40l8
+- ___block_descriptor_48_e8_32s40w_e43_v16?0"<HKWorkoutSessionServerInterface>"8ls32l8w40l8
+- ___block_descriptor_72_e8_32s40s48s56bs_e40_v16?0"<HKHealthStoreServerInterface>"8ls32l8s40l8s48l8s56l8
+- ___block_literal_global.243
+- ___block_literal_global.251
+- ___block_literal_global.276
+- ___block_literal_global.315
+- ___block_literal_global.339
+- ___block_literal_global.438
+- ___block_literal_global.446
+- ___block_literal_global.453
+- ___block_literal_global.480
+- ___block_literal_global.488
+- ___block_literal_global.495
+- ___block_literal_global.503
+- ___block_literal_global.52
+- ___block_literal_global.544
+- ___block_literal_global.546
+- ___block_literal_global.548
+- ___block_literal_global.550
+- ___block_literal_global.559
+- ___block_literal_global.562
+- ___block_literal_global.564
+- ___block_literal_global.566
+- ___block_literal_global.568
+- ___block_literal_global.577
+- ___block_literal_global.585
+- ___block_literal_global.591
+- ___block_literal_global.601
+- ___block_literal_global.603
+- ___block_literal_global.604
+- ___block_literal_global.609
+- ___block_literal_global.619
+- ___block_literal_global.620
+- ___block_literal_global.622
+- ___block_literal_global.624
+- ___block_literal_global.626
+- ___block_literal_global.628
+- ___block_literal_global.630
+- ___block_literal_global.632
+- ___block_literal_global.639
+- ___block_literal_global.641
+- ___block_literal_global.643
+- ___block_literal_global.645
+- ___block_literal_global.649
+- ___block_literal_global.651
+- ___block_literal_global.656
+- ___block_literal_global.791
+- ___block_literal_global.821
+- ___block_literal_global.824
+- ___block_literal_global.828
+- ___block_literal_global.830
+- ___block_literal_global.837
+- ___block_literal_global.839
+- ___block_literal_global.841
+- ___block_literal_global.854
+- ___block_literal_global.88
+- ___swift_assignWithCopy_strong
+- ___swift_assignWithTake_strong
+- ___swift_destroy_strong
+- ___swift_initWithCopy_strong
+- ___unnamed_5
+- ___unnamed_8
+- __allowHKHealthStoreCreation
+- _associated conformance 9HealthKit10AnyCodableV10CodingKeys33_0EE26D5B5A923F4F89D8227BF63F0D4CLLOSHAASQ
+- _associated conformance 9HealthKit10AnyCodableV10CodingKeys33_0EE26D5B5A923F4F89D8227BF63F0D4CLLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 9HealthKit10AnyCodableV10CodingKeys33_0EE26D5B5A923F4F89D8227BF63F0D4CLLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 9HealthKit10AnyCodableV13DecodingErrorOSHAASQ
+- _associated conformance 9HealthKit10TypeDomainOSHAASQ
+- _associated conformance 9HealthKit11HKTypeErrorOSHAASQ
+- _associated conformance 9HealthKit12HKBaseObjectV10CodingKeys33_B2643662A9E59BEFCBE53BDE55449322LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 9HealthKit12HKBaseObjectV10CodingKeys33_B2643662A9E59BEFCBE53BDE55449322LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 9HealthKit13AnyObjectTypeVyxq_GAA0E15QueryDescriptorA2A14_ConstructibleRzrl17ConfigurationKindAA0dE0P_AaF
+- _associated conformance 9HealthKit13AnyObjectTypeVyxq_GAA0dE0AA17ConfigurationKindAaEP_SE
+- _associated conformance 9HealthKit13AnyObjectTypeVyxq_GAA0dE0AA17ConfigurationKindAaEP_Se
+- _associated conformance 9HealthKit13AnyObjectTypeVyxq_GSHAASQ
+- _associated conformance 9HealthKit13HKDerivedTypeVAA06HKBaseD0AA9ModelKindAaDP_SE
+- _associated conformance 9HealthKit13HKDerivedTypeVAA06HKBaseD0AA9ModelKindAaDP_Se
+- _associated conformance 9HealthKit13HKDerivedTypeVSHAASQ
+- _associated conformance 9HealthKit14TypeIdentifierV10CodingKeys33_29E0892223BF907A67A60CD5E7465E32LLOSHAASQ
+- _associated conformance 9HealthKit14TypeIdentifierV10CodingKeys33_29E0892223BF907A67A60CD5E7465E32LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 9HealthKit14TypeIdentifierV10CodingKeys33_29E0892223BF907A67A60CD5E7465E32LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 9HealthKit14TypeIdentifierVSHAASQ
+- _associated conformance 9HealthKit15AnySecureCodingC13DecodingErrorOSHAASQ
+- _associated conformance 9HealthKit15AnySecureCodingC17EncodedObjectType33_0EE26D5B5A923F4F89D8227BF63F0D4CLLOSHAASQ
+- _associated conformance 9HealthKit22EncodedQueryDescriptorO10CodingKeys33_A87C40401858CC637058683F6321C548LLOSHAASQ
+- _associated conformance 9HealthKit22EncodedQueryDescriptorO10CodingKeys33_A87C40401858CC637058683F6321C548LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 9HealthKit22EncodedQueryDescriptorO10CodingKeys33_A87C40401858CC637058683F6321C548LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 9HealthKit22EncodedQueryDescriptorO14BaseCodingKeys33_A87C40401858CC637058683F6321C548LLOSHAASQ
+- _associated conformance 9HealthKit22EncodedQueryDescriptorO14BaseCodingKeys33_A87C40401858CC637058683F6321C548LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 9HealthKit22EncodedQueryDescriptorO14BaseCodingKeys33_A87C40401858CC637058683F6321C548LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 9HealthKit22EncodedQueryDescriptorO15MergeCodingKeys33_A87C40401858CC637058683F6321C548LLOSHAASQ
+- _associated conformance 9HealthKit22EncodedQueryDescriptorO15MergeCodingKeys33_A87C40401858CC637058683F6321C548LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 9HealthKit22EncodedQueryDescriptorO15MergeCodingKeys33_A87C40401858CC637058683F6321C548LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 9HealthKit22EncodedQueryDescriptorO21ConcatenateCodingKeys33_A87C40401858CC637058683F6321C548LLOSHAASQ
+- _associated conformance 9HealthKit22EncodedQueryDescriptorO21ConcatenateCodingKeys33_A87C40401858CC637058683F6321C548LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 9HealthKit22EncodedQueryDescriptorO21ConcatenateCodingKeys33_A87C40401858CC637058683F6321C548LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 9HealthKit9ModelPairV10CodingKeys33_F9470435512AAF8C85E8CD0FA8893EE3LLOyxq__GSHAASQ
+- _associated conformance 9HealthKit9ModelPairV10CodingKeys33_F9470435512AAF8C85E8CD0FA8893EE3LLOyxq__Gs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 9HealthKit9ModelPairV10CodingKeys33_F9470435512AAF8C85E8CD0FA8893EE3LLOyxq__Gs0E3KeyAAs28CustomDebugStringConvertible
+- _block_copy_helper.102
+- _block_copy_helper.116
+- _block_copy_helper.24
+- _block_copy_helper.30
+- _block_copy_helper.42
+- _block_copy_helper.69
+- _block_copy_helper.90
+- _block_copy_helper.95
+- _block_descriptor.104
+- _block_descriptor.118
+- _block_descriptor.26
+- _block_descriptor.32
+- _block_descriptor.44
+- _block_descriptor.71
+- _block_descriptor.92
+- _block_descriptor.97
+- _block_destroy_helper.103
+- _block_destroy_helper.117
+- _block_destroy_helper.25
+- _block_destroy_helper.31
+- _block_destroy_helper.43
+- _block_destroy_helper.70
+- _block_destroy_helper.91
+- _block_destroy_helper.96
+- _get_enum_tag_for_layout_string 9HealthKit22EncodedQueryDescriptorO
+- _kHKWorkoutForceHRCollection
+- _keypath_getTm
+- _keypath_setTm
+- _malloc
+- _objc_claimAutoreleasedReturnValue
+- _objc_msgSend$HRCoordinator
+- _objc_msgSend$_clientQueue_notifyForChangesToUserDomainConcepts:changeType:
+- _objc_msgSend$_cyclingTypesForActivityType:isAppleWatch:
+- _objc_msgSend$_distanceTypeForActivityType:isIndoor:isAppleWatch:
+- _objc_msgSend$_implementationCreate:
+- _objc_msgSend$_isForceHRCollectionDuringWorkoutEnabled
+- _objc_msgSend$_rawHearingLevelClassificationFrom:
+- _objc_msgSend$_replaceWorkout:withWorkout:completion:
+- _objc_msgSend$_shouldCollectCyclingTypesForActivityType:isAppleWatch:
+- _objc_msgSend$_shouldCollectDistanceForActivityType:isIndoor:isAppleWatch:
+- _objc_msgSend$_useHKHealthStoreImplementation
+- _objc_msgSend$chamomile
+- _objc_msgSend$clampingRangeWithLowerBound:upperBound:error:
+- _objc_msgSend$client_notifyForChangesToUserDomainConcepts:changeType:
+- _objc_msgSend$hasDifferentClassificationWithModifiedClampingRange
+- _objc_msgSend$hasTooMuchClampingForAnyKeyFrequency:
+- _objc_msgSend$healthStoreImplementationFor:sourceBundle:endpoint:shared:create:
+- _objc_msgSend$hk_sleepWeekIntervalForMorningIndex:calendar:
+- _objc_msgSend$postNotificationName:object:
+- _objc_msgSend$ptaFrequencies
+- _objc_msgSend$remote_streamDataForAttachment:
+- _objc_msgSend$sharedStoreXPC
+- _objc_msgSend$userDomainConceptStore:didAddUserDomainConcepts:
+- _objc_msgSend$userDomainConceptStore:didDeleteUserDomainConcepts:
+- _objc_msgSend$userDomainConceptStore:didUpdateUserDomainConcepts:
+- _objc_retain_x11
+- _objc_retain_x6
+- _objc_retain_x7
+- _objectdestroy.22Tm
+- _swift_deallocUninitializedObject
+- _swift_dynamicCastClass
+- _swift_unknownObjectRelease_n
+- _symbolic $s9HealthKit10HKBaseTypeP
+- _symbolic $s9HealthKit10ObjectTypeP
+- _symbolic $s9HealthKit14_ConstructibleP
+- _symbolic $s9HealthKit15QueryDescriptorP
+- _symbolic $s9HealthKit16QueryStoreClientP
+- _symbolic $s9HealthKit16QueryStoreServerP
+- _symbolic $s9HealthKit19ListQueryDescriptorP
+- _symbolic $s9HealthKit19TypeQueryDescriptorP
+- _symbolic $s9HealthKit23BaseListQueryDescriptorP
+- _symbolic $s9HealthKit23_ConfigurationWithLimitP
+- _symbolic $s9HealthKit25AnySecureCodingCompatibleP
+- _symbolic $s9HealthKit25_ConfigurationWithOptionsP
+- _symbolic $s9HealthKit27ConfigurableQueryDescriptorP
+- _symbolic $s9HealthKit27_ConfigurationWithPredicateP
+- _symbolic $s9HealthKit27_ConfigurationWithSortOrderP
+- _symbolic $s9HealthKit30_ConfigurationWithTimeIntervalP
+- _symbolic $s9HealthKit32_ConfigurationWithSortDescriptorP
+- _symbolic 10ResultKind_____Qz 9HealthKit15QueryDescriptorP
+- _symbolic 11OptionsKind_____Qz 9HealthKit25_ConfigurationWithOptionsP
+- _symbolic 17ConfigurationKind_____Qyd__ 9HealthKit10ObjectTypeP
+- _symbolic 17ConfigurationKind_____Qz 9HealthKit10ObjectTypeP
+- _symbolic 9ModelKind_____Qy_ 9HealthKit23BaseListQueryDescriptorP
+- _symbolic 9ModelKind_____Qyd__ 9HealthKit10ObjectTypeP
+- _symbolic 9ModelKind_____Qz 9HealthKit10HKBaseTypeP
+- _symbolic 9ModelKind_____Qz 9HealthKit23BaseListQueryDescriptorP
+- _symbolic Say9ModelKind_____QzG 9HealthKit23BaseListQueryDescriptorP
+- _symbolic SaySo17HKSleepDaySummaryCGSaySo0abC10CollectionCGIeghgo_
+- _symbolic Sayq_G
+- _symbolic ScCy___________pG 9HealthKit15AnySecureCodingC s5ErrorP
+- _symbolic _____ 9HealthKit10AnyCodableV
+- _symbolic _____ 9HealthKit10AnyCodableV10CodingKeys33_0EE26D5B5A923F4F89D8227BF63F0D4CLLO
+- _symbolic _____ 9HealthKit10AnyCodableV13DecodingErrorO
+- _symbolic _____ 9HealthKit10QueryStoreC
+- _symbolic _____ 9HealthKit10TypeDomainO
+- _symbolic _____ 9HealthKit11HKTypeErrorO
+- _symbolic _____ 9HealthKit12HKBaseObjectV
+- _symbolic _____ 9HealthKit12HKBaseObjectV10CodingKeys33_B2643662A9E59BEFCBE53BDE55449322LLO
+- _symbolic _____ 9HealthKit13AnyObjectTypeV
+- _symbolic _____ 9HealthKit13AnyObjectTypeV3Box33_6687F46F2F2423B7FE01834B63C8BC65LLC
+- _symbolic _____ 9HealthKit13AnyObjectTypeV4Base33_6687F46F2F2423B7FE01834B63C8BC65LLC
+- _symbolic _____ 9HealthKit13HKDerivedTypeV
+- _symbolic _____ 9HealthKit14TypeIdentifierV
+- _symbolic _____ 9HealthKit14TypeIdentifierV10CodingKeys33_29E0892223BF907A67A60CD5E7465E32LLO
+- _symbolic _____ 9HealthKit15AnySecureCodingC
+- _symbolic _____ 9HealthKit15AnySecureCodingC13DecodingErrorO
+- _symbolic _____ 9HealthKit15AnySecureCodingC17EncodedObjectType33_0EE26D5B5A923F4F89D8227BF63F0D4CLLO
+- _symbolic _____ 9HealthKit19BaseQueryDescriptorV
+- _symbolic _____ 9HealthKit20MergeQueryDescriptorV
+- _symbolic _____ 9HealthKit22EncodedQueryDescriptorO
+- _symbolic _____ 9HealthKit22EncodedQueryDescriptorO10CodingKeys33_A87C40401858CC637058683F6321C548LLO
+- _symbolic _____ 9HealthKit22EncodedQueryDescriptorO14BaseCodingKeys33_A87C40401858CC637058683F6321C548LLO
+- _symbolic _____ 9HealthKit22EncodedQueryDescriptorO15MergeCodingKeys33_A87C40401858CC637058683F6321C548LLO
+- _symbolic _____ 9HealthKit22EncodedQueryDescriptorO21ConcatenateCodingKeys33_A87C40401858CC637058683F6321C548LLO
+- _symbolic _____ 9HealthKit26ConcatenateQueryDescriptorV
+- _symbolic _____ 9HealthKit9ModelPairV
+- _symbolic _____ 9HealthKit9ModelPairV10CodingKeys33_F9470435512AAF8C85E8CD0FA8893EE3LLO
+- _symbolic _____ 9HealthKit9TypeQueryO
+- _symbolic ______AAt 9HealthKit22EncodedQueryDescriptorO
+- _symbolic ___________t 9HealthKit14TypeIdentifierV AA10AnyCodableV
+- _symbolic _____y9ModelKind_____QzAbCQy_G 9HealthKit9ModelPairV AA23BaseListQueryDescriptorP
+- _symbolic _____yxq__G 9HealthKit13AnyObjectTypeV4Base33_6687F46F2F2423B7FE01834B63C8BC65LLC
+- _symbolic qd__
+- _type_layout_string 9HealthKit10AnyCodableV
+- _type_layout_string 9HealthKit13HKDerivedTypeV
+- _type_layout_string 9HealthKit14TypeIdentifierV
+- _type_layout_string 9HealthKit22EncodedQueryDescriptorO
+- _type_layout_string SeRzSERzr0_l9HealthKit13AnyObjectTypeVyxq_G
+- _type_layout_string r0_l9HealthKit9ModelPairVyxq_G
+CStrings:
++ "%@: %s (errno = %d)"
++ "%@: Internal libarchive error %s"
++ "%{public}@: Failed to fetch companion workout in progress state: %{public}@"
++ "%{public}@: Failed to fetch proxy for disableCloudSync: %{public}@"
++ "%{public}@: Failed to fetch proxy for enableCloudSync: %{public}@"
++ "%{public}@: Requesting disableCloudSyncWithCompletion"
++ "%{public}@: Requesting enableCloudSyncWithCompletion"
++ "%{public}@: disableCloudSyncWithCompletion completed successfully"
++ "%{public}@: disableCloudSyncWithCompletion failed with error: %{public}@"
++ "%{public}@: enableCloudSyncWithCompletion completed successfully"
++ "%{public}@: enableCloudSyncWithCompletion failed with error: %{public}@"
++ "(%@), \"%@\" (%@)"
++ "(?<![%@])(?:[%@]*%@[%@]*)(?![%@])"
++ "/AppleInternal/Library/BuildRoots/4~CIsMugBynPe9HsAreXl-iPZ75cqisnijz9NhtLI/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CIsMugBynPe9HsAreXl-iPZ75cqisnijz9NhtLI/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:410: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CIsMugBynPe9HsAreXl-iPZ75cqisnijz9NhtLI/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:433: libc++ Hardening assertion !empty() failed: back() called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/4~CIsMugBynPe9HsAreXl-iPZ75cqisnijz9NhtLI/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:486: libc++ Hardening assertion !empty() failed: vector::pop_back called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/4~CIsMugBynPe9HsAreXl-iPZ75cqisnijz9NhtLI/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:1565: libc++ Hardening assertion !empty() failed: deque::back called on an empty deque\n"
++ "/AppleInternal/Library/BuildRoots/4~CIsMugBynPe9HsAreXl-iPZ75cqisnijz9NhtLI/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:2310: libc++ Hardening assertion !empty() failed: deque::pop_back called on an empty deque\n"
++ "/AppleInternal/Library/BuildRoots/4~CIsMugBynPe9HsAreXl-iPZ75cqisnijz9NhtLI/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/string:1340: libc++ Hardening assertion __pos <= size() failed: string index out of bounds\n"
++ "03C7A646-332F-481C-B7DE-7E80973B07BF"
++ "1CFACCB8-332F-481C-B7DE-7E80973B07BF"
++ "68AB2987-332F-481C-B7DE-7E80973B07BF"
++ "6ADE877A-332F-481C-B7DE-7E80973B07BF"
++ "<%@:%p id: %@, schema: %@, schemaVersion: %ld, settings:%@, slot:%@, desiredState:%@, desiredStateDate:\"%@\" (%f), currentVersion:%@, currentVersionDate:\"%@\" (%f), currentRegion:%@, currentRegionDate:\"%@\" (%f), currentLocale:%@, currentLocaleDate:\"%@\" (%f), availableVersion:%@, availableVersionDate:\"%@\" (%f), availableRegion:%@, availableRegionDate:\"%@\" (%f), availableLocale:%@, availableLocaleDate:\"%@\" (%f), availableURL:%@, availableURLDate:\"%@\" (%f), availableChecksum:%@, availableChecksumDate:\"%@\" (%f), availableSize:%@, availableSizeDate:\"%@\" (%f), availableState:%@, availableStateDate:\"%@\" (%f)>"
++ "@32@0:8@16^{archive=}24"
++ "@48@0:8{?=qq}16q32@?40"
++ "ATVRemote1,3"
++ "ATVRemote1,4"
++ "ArtworkTraitDisplayGamut"
++ "Associating %llu samples to sample %{public}@ type:%lu behavior:%lu"
++ "Attempt to use HKHealthStore before calling resume"
++ "Attempted to extract contents from a zip archive entry, when the extractor's reader was deallocated."
++ "B32@0:8@\"HKObject\"16Q24"
++ "B32@0:8@16Q24"
++ "Blood Pressure Journal"
++ "Blood Pressure classification is unavailable for age <18"
++ "D1DBCF21-332F-481C-B7DE-7E80973B07BF"
++ "D6645782-332F-481C-B7DE-7E80973B07BF"
++ "E17D2903-332F-481C-B7DE-7E80973B07BF"
++ "Error registering observer"
++ "FHIRCommunicationStatus"
++ "Failed to extract next entry in archive"
++ "HKDaemonConnection"
++ "HKDaemonConnectionServerInterface"
++ "HKDaemonProxyProvider"
++ "HKEstimatedGlomerularFiltrationRateUnit"
++ "Hoplite"
++ "MedicationConceptIdentifier"
++ "Outer enumerator was nil. We should only exctract contents from an archive entry, if its enumerator is still allocated."
++ "P3"
++ "Reserved18"
++ "T@\"<HKDeviceKeyValueStoreDelegate>\",W"
++ "T@\"<HKSummarySharingEntryStoreDelegate>\",W,V_delegate"
++ "T@\"MADownloadOptions\",&,N,V_mobileAssetDownloadOptions"
++ "TB,N,V_allowExperimentalHealthTypesUsage"
++ "TB,R,N,V_supportsGymKit"
++ "[%s]: Unknown aggregation period passed to collection query - aggregating each day individually"
++ "[%{public}@] Notifying %{public}@ observers for feature status update. Unsatisfied: [%{public}@]"
++ "[attachments] %{public}@: Stream completed with error: %{public}@"
++ "[observation] %{public}@: Error registering observers %{public}@"
++ "[observation] %{public}@: Error unregistering observers %{public}@"
++ "\\p{L}\\p{M}\\p{Nd}\\p{Pc}\\."
++ "_HKWorkoutMetricMetabolicEquivalent"
++ "_TtC9HealthKit31DarwinNotificationObserverToken"
++ "_acceptsWorkoutRoute:forWorkout:"
++ "_allowExperimentalHealthTypesUsage"
++ "_clientQueue_notifyForChangesToUserDomainConcepts:changeType:maxAnchor:"
++ "_cyclingTypesForActivityType:isAppleWatch:connectedToFitnessMachine:"
++ "_distanceTypeForActivityType:isIndoor:connectedToFitnessMachine:isAppleWatch:"
++ "_errorFromReaderWithContext:reader:"
++ "_estimatedGlomerularFiltrationRateUnit"
++ "_health365ContentRoom"
++ "_hoplite"
++ "_lock_observersForBundleIdentifier:"
++ "_lock_setObserversForBundleIdentifier:observers:"
++ "_observersMap"
++ "_orchestrationMedications"
++ "_overriddenCoordinatedCloudSyncEnabled"
++ "_parseUnitFromString:"
++ "_phoneLandscapeSupport"
++ "_queue_dataSentToRemoteWithSuccess:uuid:error:"
++ "_queue_handleSendDataToRemoteWorkoutSession_proxyError:uuid:"
++ "_registerRemoteObserverForBundleIdentifier:completion:"
++ "_safetyOrchestrationMigration"
++ "_shouldCollectCyclingTypesForActivityType:isAppleWatch:connectedToFitnessMachine:"
++ "_shouldCollectDistanceForActivityType:isIndoor:connectedToFitnessMachine:isAppleWatch:"
++ "_sleepAlarmCoordination"
++ "_supportsGymKit"
++ "_supportsWideGamut"
++ "_useSSPActionSuggestionGenerator"
++ "acceptsAssociationWithObject:associationType:"
++ "addObserver:bundleIdentifier:"
++ "addObserver:bundleIdentifier:completion:"
++ "allowExperimentalHealthTypesUsage"
++ "associateSourceSamples:withDestinationObject:destinationSubObject:associationType:associationBehavior:completion:"
++ "authorizationRecordsUpdatedForBundleIdentifier:authorizationRecords:"
++ "averageBedtimeHighlight"
++ "clientRemote_authorizationDidUpdateForBundleIdentifier:authorizationRecords:"
++ "client_notifyForChangesToUserDomainConcepts:changeType:maxAnchor:"
++ "com.apple.healthd.relaunch.workoutMirroring.assertion.plist"
++ "connectionWithListenerEndpoint:launchNotificationName:"
++ "connectionWithMachServiceName:launchNotificationName:"
++ "eGFR"
++ "endpointForServiceIdentifier:error:"
++ "estimatedGlomerularFiltrationRate"
++ "extractEntryContentsToURL:error:"
++ "fetchEndpointForServiceIdentifier:endpointHandler:errorHandler:"
++ "generateDemoDataWithDurationInDays:includeToday:seed:completion:"
++ "getPairedWatchWorkoutState:"
++ "hav3_categories"
++ "health365ContentRoom"
++ "healthStoreImplementationFor:sourceBundle:endpoint:shared:"
++ "hk_dateForMachAbsoluteTime:"
++ "hoplite"
++ "http://hl7.org/fhir/communication-status"
++ "initWithConnection:serviceIdentifier:exportedObject:"
++ "initWithMorningIndexRange:aggregationPeriod:resultsHandler:"
++ "mL/min/1.73m^2"
++ "nil _startDate (%@)"
++ "notificationName"
++ "now (%f) is before expiration (%f)"
++ "observerSet"
++ "orchestrationMedications"
++ "phoneLandscapeSupport"
++ "plugin_loading"
++ "protectedToken"
++ "provenanceIDsWithUUID:sampleType:completion:"
++ "q24@?0@\"NSString\"8^@16"
++ "remote_fetchEndpointForServiceIdentifier:completion:"
++ "remote_fetchProvenanceIDsWithUUID:sampleType:completion:"
++ "remote_generateDemoDataWithDurationInDays:includeToday:seed:completion:"
++ "remote_getPairedWatchWorkoutState:"
++ "remote_registerObserverForBundleIdentifier:"
++ "remote_showDatabaseShapeWithConfiguration:completion:"
++ "remote_streamDataForAttachment:completion:"
++ "remote_unregisterObserverForBundleIdentifier:"
++ "removeObserver:bundleIdentifier:"
++ "safetyOrchestrationMigration"
++ "setAllowExperimentalHealthTypesUsage:"
++ "setHealth365ContentRoom:"
++ "setHoplite:"
++ "setOrchestrationMedications:"
++ "setPhoneLandscapeSupport:"
++ "setSafetyOrchestrationMigration:"
++ "setSleepAlarmCoordination:"
++ "setUseSSPActionSuggestionGenerator:"
++ "showDatabaseShapeWithConfiguration:completion:"
++ "sleepAlarmCoordination"
++ "sortDescriptorWithKey:ascending:selector:"
++ "supportsGymKit"
++ "supportsWideGamut"
++ "useSSPActionSuggestionGenerator"
++ "userDomainConceptStore:didAddUserDomainConcepts:maxAnchor:"
++ "userDomainConceptStore:didDeleteUserDomainConcepts:maxAnchor:"
++ "userDomainConceptStore:didUpdateUserDomainConcepts:maxAnchor:"
++ "v24@0:8@\"NSString\"16"
++ "v28@0:8i16@?20"
++ "v28@0:8i16@?<v@?@\"NSString\"@\"NSError\">20"
++ "v32@0:8@\"HKAttachment\"16@?<v@?@\"NSError\">24"
++ "v32@0:8@\"NSString\"16@\"NSDictionary\"24"
++ "v36@0:8B16@20@28"
++ "v40@0:8@\"NSArray\"16q24q32"
++ "v40@0:8@\"NSUUID\"16@\"HKSampleType\"24@?<v@?@\"NSArray\"@\"NSError\">32"
++ "v40@0:8@16q24q32"
++ "v40@?0@\"_HKDatabaseChangesQuery\"8@\"HKQueryAnchor\"16@\"NSDictionary\"24@\"NSError\"32"
++ "v44@0:8q16B24@\"NSNumber\"28@?<v@?B@\"NSError\">36"
++ "v44@0:8q16B24@28@?36"
++ "{map<binarysample::ElectrocardiogramLead_Name, binarysample::ElectrocardiogramLead, std::less<binarysample::ElectrocardiogramLead_Name>, std::allocator<std::pair<const binarysample::ElectrocardiogramLead_Name, binarysample::ElectrocardiogramLead>>>=\"__tree_\"{__tree<std::__value_type<binarysample::ElectrocardiogramLead_Name, binarysample::ElectrocardiogramLead>, std::__map_value_compare<binarysample::ElectrocardiogramLead_Name, std::pair<const binarysample::ElectrocardiogramLead_Name, binarysample::ElectrocardiogramLead>, std::less<binarysample::ElectrocardiogramLead_Name>>, std::allocator<std::pair<const binarysample::ElectrocardiogramLead_Name, binarysample::ElectrocardiogramLead>>>=\"__begin_node_\"^v\"\"{?=\"__end_node_\"{__tree_end_node<std::__tree_node_base<void *> *>=\"__left_\"^v}}\"\"{?=\"__size_\"Q}}}"
++ "\xf01"
+- "%@, (%@), \"%@\" (%@)"
+- "03C7A646-DB1E-404B-B393-033E5496A383"
+- "1CFACCB8-FFEB-4682-A50E-16F853583912"
+- "68AB2987-CE75-463C-9EAF-9861B292F01E"
+- "6ADE877A-70EB-43A1-A4D1-3E4BB50EFA54"
+- "<%@:%p id: %@, schema: %@, scheamVersion: %ld, settings:%@, slot:%@, desired:%@, desiredDate:\"%@\" (%f), currentVersion:%@, currentVersionDate:\"%@\" (%f), currentRegion:%@, currentRegionDate:\"%@\" (%f), currentLocale:%@, currentLocaleDate:\"%@\" (%f), availableVersion:%@, availableVersionDate:\"%@\" (%f), availableRegion:%@, availableRegionDate:\"%@\" (%f), availableLocale:%@, availableLocaleDate:\"%@\" (%f), availableURL:%@, availableURLDate:\"%@\" (%f), availableChecksum:%@, availableChecksumDate:\"%@\" (%f), availableSize:%@, availableSizeDate:\"%@\" (%f), availableState:%@, availableStateDate:\"%@\" (%f)>"
+- "@40@0:8{?=qq}16@?32"
+- "@48@0:8@16@24@32B40B44"
+- "B24@0:8@\"HKObject\"16"
+- "Blood Pressure classification is unavailable for age <"
+- "Chutney"
+- "D1DBCF21-D875-4EA8-B63E-8182578C0B0C"
+- "D6645782-7A76-4E52-8155-151366EBD4AB"
+- "Dates"
+- "E17D2903-B868-4E6C-8E76-6D4939BEED44"
+- "HKAnySecureCoding"
+- "HKHealthStore creation is blocked inside healthd"
+- "HKHeartbeatSequenceSample"
+- "HKQueryStoreClient"
+- "HKQueryStoreServer"
+- "HKWorkoutForceHRCollection"
+- "HRCoordinator"
+- "HealthKit.AnySecureCoding"
+- "HealthKit.QueryStore"
+- "HealthKit/AnyObjectType.swift"
+- "HealthKit/QueryStore.swift"
+- "HeartRateCoordinator"
+- "Hermit"
+- "Missing call to -[HKHealthStore resume]"
+- "T@\"<HKDeviceKeyValueStoreDelegate>\",W,N"
+- "T@\"<HKSummarySharingEntryStoreDelegate>\",W,N,V_delegate"
+- "T@\"MADownloadOptions\",C,N,V_mobileAssetDownloadOptions"
+- "TB,R,N,V_expirementalOrchestrationAdoption"
+- "[%{public}@] Error creating a modified HKAudiogramSensitivityPoint. Returning isAmbiguous YES. Error: %{public}@"
+- "[%{public}@] Error creating a modified HKAudiogramSensitivityPointClampingRange. Returning isAmbiguous YES. Error: %{public}@"
+- "[%{public}@] Notifying %{public}@ observers for feature status update"
+- "\\b(?:\\.|\\w)*%@(?:\\.|\\w)*\\b"
+- "_HKSampleQueryResult"
+- "_HRCoordinator"
+- "_TtC9HealthKit10QueryStore"
+- "_chamomile"
+- "_clientQueue_notifyForChangesToUserDomainConcepts:changeType:"
+- "_cyclingTypesForActivityType:isAppleWatch:"
+- "_distanceTypeForActivityType:isIndoor:isAppleWatch:"
+- "_experimentalOrchestrationAdoption"
+- "_expirementalOrchestrationAdoption"
+- "_implementationCreate:"
+- "_isForceHRCollectionDuringWorkoutEnabled"
+- "_newSleep6MonthView"
+- "_sharedStoreXPC"
+- "_shouldCollectCyclingTypesForActivityType:isAppleWatch:"
+- "_shouldCollectDistanceForActivityType:isIndoor:isAppleWatch:"
+- "_supportsCoordinatedCloudSync"
+- "_useHKHealthStoreImplementation"
+- "acceptsAssociationWithObject:"
+- "aggregateWeekly"
+- "client_notifyForChangesToUserDomainConcepts:changeType:"
+- "dateForKey:"
+- "disallowHKHealthStoreCreation"
+- "encodedObjectType"
+- "experimentalOrchestrationAdoption"
+- "experimental_orchestration_adoption"
+- "expirementalOrchestrationAdoption"
+- "hasDifferentClassificationWithModifiedClampingRange"
+- "hasTooMuchClampingForAnyKeyFrequency:"
+- "healthKit"
+- "healthStoreImplementationFor:sourceBundle:endpoint:shared:create:"
+- "initWithMorningIndexRange:resultsHandler:"
+- "initWithStartDate:endDate:samples:"
+- "isForceHRCollectionDuringWorkoutEnabled"
+- "isWeeklyAggregatedSummary"
+- "newSleep6MonthView"
+- "postNotificationName:object:"
+- "query(encodedQueryDescriptor:)"
+- "remote_queryWithEncodedQueryDescriptor:completion:"
+- "remote_streamDataForAttachment:"
+- "setChamomile:"
+- "setExperimentalOrchestrationAdoption:"
+- "setHRCoordinator:"
+- "setNewSleep6MonthView:"
+- "setSharedStoreXPC:"
+- "sharedStoreXPC"
+- "userDomainConceptStore:didAddUserDomainConcepts:"
+- "userDomainConceptStore:didDeleteUserDomainConcepts:"
+- "userDomainConceptStore:didUpdateUserDomainConcepts:"
+- "v24@0:8@\"HKAttachment\"16"
+- "v24@?0@\"HKAnySecureCoding\"8@\"NSError\"16"
+- "v32@0:8@\"HKAnySecureCoding\"16@?<v@?@\"HKAnySecureCoding\"@\"NSError\">24"
+- "v32@0:8@\"NSArray\"16q24"
+- "{map<binarysample::ElectrocardiogramLead_Name, binarysample::ElectrocardiogramLead, std::less<binarysample::ElectrocardiogramLead_Name>, std::allocator<std::pair<const binarysample::ElectrocardiogramLead_Name, binarysample::ElectrocardiogramLead>>>=\"__tree_\"{__tree<std::__value_type<binarysample::ElectrocardiogramLead_Name, binarysample::ElectrocardiogramLead>, std::__map_value_compare<binarysample::ElectrocardiogramLead_Name, std::__value_type<binarysample::ElectrocardiogramLead_Name, binarysample::ElectrocardiogramLead>, std::less<binarysample::ElectrocardiogramLead_Name>>, std::allocator<std::__value_type<binarysample::ElectrocardiogramLead_Name, binarysample::ElectrocardiogramLead>>>=\"__begin_node_\"^v\"\"{?=\"__end_node_\"{__tree_end_node<std::__tree_node_base<void *> *>=\"__left_\"^v}}\"\"{?=\"__size_\"Q}}}"
+- "\xf0\xf0!"
+
+```

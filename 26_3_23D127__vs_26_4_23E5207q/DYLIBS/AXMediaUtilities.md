@@ -1,0 +1,170 @@
+## AXMediaUtilities
+
+> `/System/Library/PrivateFrameworks/AXMediaUtilities.framework/AXMediaUtilities`
+
+```diff
+
+-166.1.2.0.0
+-  __TEXT.__text: 0xc704c
+-  __TEXT.__auth_stubs: 0x1e00
++166.5.0.0.0
++  __TEXT.__text: 0xcf6d4
++  __TEXT.__auth_stubs: 0x1d90
+   __TEXT.__objc_methlist: 0xb47c
+   __TEXT.__const: 0x17c0
+-  __TEXT.__gcc_except_tab: 0x5678
+-  __TEXT.__cstring: 0xa6fc
++  __TEXT.__gcc_except_tab: 0x55e4
++  __TEXT.__cstring: 0xa97c
+   __TEXT.__oslogstring: 0x51f0
+   __TEXT.__dlopen_cstrs: 0xc72
+   __TEXT.__ustring: 0x422
+
+   __TEXT.__swift5_builtin: 0x50
+   __TEXT.__swift5_proto: 0x8c
+   __TEXT.__swift5_types: 0x30
+-  __TEXT.__unwind_info: 0x37f8
+-  __TEXT.__eh_frame: 0x3c8
+-  __TEXT.__objc_classname: 0x1435
+-  __TEXT.__objc_methname: 0x1c3d7
+-  __TEXT.__objc_methtype: 0x3ced
+-  __TEXT.__objc_stubs: 0x12d00
+-  __DATA_CONST.__got: 0xe18
++  __TEXT.__unwind_info: 0x3d58
++  __TEXT.__eh_frame: 0x400
++  __TEXT.__objc_classname: 0x14e6
++  __TEXT.__objc_methname: 0x1c4dc
++  __TEXT.__objc_methtype: 0x3d07
++  __TEXT.__objc_stubs: 0x12d40
++  __DATA_CONST.__got: 0xe10
+   __DATA_CONST.__const: 0x2788
+   __DATA_CONST.__objc_classlist: 0x610
+   __DATA_CONST.__objc_catlist: 0x30
+
+   __DATA_CONST.__objc_protorefs: 0x10
+   __DATA_CONST.__objc_superrefs: 0x418
+   __DATA_CONST.__objc_arraydata: 0x6b8
+-  __AUTH_CONST.__auth_got: 0xf18
++  __AUTH_CONST.__auth_got: 0xee0
+   __AUTH_CONST.__const: 0x1d58
+   __AUTH_CONST.__cfstring: 0xcc40
+   __AUTH_CONST.__objc_const: 0x142e8
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 206E2907-8651-3CA7-9CB5-DE68FB911072
+-  Functions: 5158
+-  Symbols:   16965
+-  CStrings:  9529
++  UUID: 5B2E5684-678B-3354-8AE5-18E32C938699
++  Functions: 5177
++  Symbols:   17109
++  CStrings:  9523
+ 
+Symbols:
++ -[AXMDataSonifier scrubToPlaybackFrame:].cold.1
++ -[AXMindNetNetwork resizeAndProcessVImage:inputIsBGR:].cold.1
++ -[AXMindNetNetwork resizeAndProcessVImage:inputIsBGR:].cold.2
++ -[AXMindNetNetwork resizeAndProcessVImage:inputIsBGR:].cold.3
++ -[AXMindNetNetwork resizeAndProcessVImage:inputIsBGR:].cold.4
++ -[AXMindNetNetwork resizeAndProcessVImage:inputIsBGR:].cold.5
++ -[AXShotflowNetwork processVImage:inputIsBGR:].cold.1
++ -[AXShotflowNetwork resizeAndProcessVImage:inputIsBGR:].cold.1
++ -[AXShotflowNetwork resizeAndProcessVImage:inputIsBGR:].cold.2
++ -[AXShotflowNetwork resizeAndProcessVImage:inputIsBGR:].cold.3
++ -[AXShotflowNetwork resizeAndProcessVImage:inputIsBGR:].cold.4
++ -[AXShotflowNetwork resizeAndProcessVImage:inputIsBGR:].cold.5
++ -[AXShotflowNetwork runNetwork:inputIsBGR:].cold.1
++ -[AXShotflowNetwork runNetwork:inputIsBGR:].cold.2
++ _OUTLINED_FUNCTION_10
++ _OUTLINED_FUNCTION_11
++ _OUTLINED_FUNCTION_12
++ _OUTLINED_FUNCTION_8
++ _OUTLINED_FUNCTION_9
++ __ZNKSt3__111__copy_implclB9foe210106IPU8__strongKP8NSStringS5_PU8__strongS3_EENS_4pairIT_T1_EES9_T0_SA_
++ __ZNKSt9type_infoeqB9foe210106ERKS_
++ __ZNSt12length_errorC1B9foe210106EPKc
++ __ZNSt3__110shared_ptrI7CGImageEC2B9foe210106IS1_PFvPS1_ELi0EEEPT_T0_
++ __ZNSt3__113__fill_n_boolB9foe210106ILb0ENS_6vectorIbNS_9allocatorIbEEEEEEvNS_14__bit_iteratorIT0_Lb0EXLi0EEEENS_29__size_difference_type_traitsIS6_vE9size_typeE
++ __ZNSt3__113__fill_n_boolB9foe210106ILb1ENS_6vectorIbNS_9allocatorIbEEEEEEvNS_14__bit_iteratorIT0_Lb0EXLi0EEEENS_29__size_difference_type_traitsIS6_vE9size_typeE
++ __ZNSt3__114__split_bufferINS_10shared_ptrI17espresso_buffer_tEERNS_9allocatorIS3_EEE5clearB9foe210106Ev
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_10shared_ptrI17espresso_buffer_tEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIU8__strongP8NSStringEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorImEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__shared_weak_count16__release_sharedB9foe210106Ev
++ __ZNSt3__120__throw_length_errorB9foe210106EPKc
++ __ZNSt3__132__internal_log_hardening_failureEPKc
++ __ZNSt3__16vectorINS_10shared_ptrI17espresso_buffer_tEENS_9allocatorIS3_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorINS_10shared_ptrI17espresso_buffer_tEENS_9allocatorIS3_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorINS_10shared_ptrI17espresso_buffer_tEENS_9allocatorIS3_EEE5clearB9foe210106Ev
++ __ZNSt3__16vectorINS_10shared_ptrI17espresso_buffer_tEENS_9allocatorIS3_EEE9push_backB9foe210106ERKS3_
++ __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE18__assign_with_sizeB9foe210106IPU8__strongKS2_S9_EEvT_T0_l
++ __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIbNS_9allocatorIbEEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorIbNS_9allocatorIbEEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE18__assign_with_sizeB9foe210106IPKfS6_EEvT_T0_l
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE9push_backB9foe210106EOf
++ __ZNSt3__16vectorIfNS_9allocatorIfEEEC2B9foe210106Em
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE18__assign_with_sizeB9foe210106IPKiS6_EEvT_T0_l
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB9foe210106Ev
++ __ZSt28__throw_bad_array_new_lengthB9foe210106v
++ _objc_msgSend$initWithInteger:
++ _objc_msgSend$shape
++ _swift_bridgeObjectRelease_n
+- __ZNKSt3__111__copy_implclB8ne200100IPU8__strongKP8NSStringS5_PU8__strongS3_EENS_4pairIT_T1_EES9_T0_SA_
+- __ZNKSt9type_infoeqB8ne200100ERKS_
+- __ZNSt12length_errorC1B8ne200100EPKc
+- __ZNSt3__110shared_ptrI7CGImageEC2B8ne200100IS1_PFvPS1_ELi0EEEPT_T0_
+- __ZNSt3__113__fill_n_boolB8ne200100ILb0ENS_6vectorIbNS_9allocatorIbEEEEEEvNS_14__bit_iteratorIT0_Lb0EXLi0EEEENS_29__size_difference_type_traitsIS6_vE9size_typeE
+- __ZNSt3__113__fill_n_boolB8ne200100ILb1ENS_6vectorIbNS_9allocatorIbEEEEEEvNS_14__bit_iteratorIT0_Lb0EXLi0EEEENS_29__size_difference_type_traitsIS6_vE9size_typeE
+- __ZNSt3__114__split_bufferINS_10shared_ptrI17espresso_buffer_tEERNS_9allocatorIS3_EEE5clearB8ne200100Ev
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_10shared_ptrI17espresso_buffer_tEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIU8__strongP8NSStringEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorImEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__shared_weak_count16__release_sharedB8ne200100Ev
+- __ZNSt3__120__throw_length_errorB8ne200100EPKc
+- __ZNSt3__16vectorINS_10shared_ptrI17espresso_buffer_tEENS_9allocatorIS3_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorINS_10shared_ptrI17espresso_buffer_tEENS_9allocatorIS3_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS_10shared_ptrI17espresso_buffer_tEENS_9allocatorIS3_EEE5clearB8ne200100Ev
+- __ZNSt3__16vectorINS_10shared_ptrI17espresso_buffer_tEENS_9allocatorIS3_EEE9push_backB8ne200100ERKS3_
+- __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE18__assign_with_sizeB8ne200100IPU8__strongKS2_S9_EEvT_T0_l
+- __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIbNS_9allocatorIbEEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorIbNS_9allocatorIbEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE18__assign_with_sizeB8ne200100IPKfS6_EEvT_T0_l
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE9push_backB8ne200100EOf
+- __ZNSt3__16vectorIfNS_9allocatorIfEEEC2B8ne200100Em
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE18__assign_with_sizeB8ne200100IPKiS6_EEvT_T0_l
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB8ne200100Ev
+- __ZSt28__throw_bad_array_new_lengthB8ne200100v
+- _malloc
+- _objc_claimAutoreleasedReturnValue
+- _objc_retainAutoreleaseReturnValue
+- _objc_retain_x3
+- _objc_retain_x4
+- _objc_retain_x5
+- _objc_retain_x6
+- _objc_retain_x9
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CHpdugAnHqy7rsB3y9lqjlAgoSKfRVBPMhX921U/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__bit_reference:111: libc++ Hardening assertion __ctz + __clz < sizeof(_StorageType) * 8 failed: __fill_masked_range called with invalid range\n"
++ "/AppleInternal/Library/BuildRoots/4~CHpdugAnHqy7rsB3y9lqjlAgoSKfRVBPMhX921U/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CHpdugAnHqy7rsB3y9lqjlAgoSKfRVBPMhX921U/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector_bool.h:282: libc++ Hardening assertion __n < size() failed: vector<bool>::operator[] index out of bounds\n"
++ "/Library/Caches/com.apple.xbs/08033C0A-F5BD-481C-8252-F768F69FF877/TemporaryDirectory.r6pU11/Sources/AccessibilityMediaUtilities/AXMediaUtilities/source/ImageTools.m"
+- "/Library/Caches/com.apple.xbs/Sources/AccessibilityMediaUtilities/AXMediaUtilities/source/ImageTools.m"
+
+```

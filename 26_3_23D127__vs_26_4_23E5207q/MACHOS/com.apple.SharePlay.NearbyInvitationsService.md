@@ -1,0 +1,481 @@
+## com.apple.SharePlay.NearbyInvitationsService
+
+> `/System/Library/PrivateFrameworks/NearbySessions.framework/XPCServices/com.apple.SharePlay.NearbyInvitationsService.xpc/com.apple.SharePlay.NearbyInvitationsService`
+
+```diff
+
+-267.400.11.0.0
+-  __TEXT.__text: 0xc3ca8
+-  __TEXT.__auth_stubs: 0x2570
+-  __TEXT.__objc_methlist: 0xa00
+-  __TEXT.__const: 0x5440
+-  __TEXT.__cstring: 0x271d
+-  __TEXT.__objc_methname: 0x1df5
+-  __TEXT.__swift5_typeref: 0x1f74
++267.500.111.0.0
++  __TEXT.__text: 0xcf790
++  __TEXT.__auth_stubs: 0x2560
++  __TEXT.__objc_stubs: 0xe60
++  __TEXT.__objc_methlist: 0xa08
++  __TEXT.__const: 0x5370
++  __TEXT.__cstring: 0xd2d
++  __TEXT.__swift5_typeref: 0x1f9a
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__constg_swiftt: 0x20b0
++  __TEXT.__constg_swiftt: 0x20bc
+   __TEXT.__swift5_builtin: 0x50
+   __TEXT.__swift5_reflstr: 0x1169
+   __TEXT.__swift5_fieldmd: 0x1534
+   __TEXT.__swift5_types: 0x194
+-  __TEXT.__objc_classname: 0xcb
+-  __TEXT.__objc_methtype: 0xf1a
+-  __TEXT.__swift5_capture: 0xdd4
+-  __TEXT.__oslogstring: 0x4d02
++  __TEXT.__objc_classname: 0xaa5
++  __TEXT.__objc_methname: 0x28b0
++  __TEXT.__objc_methtype: 0x18b6
++  __TEXT.__swift5_capture: 0xd74
++  __TEXT.__oslogstring: 0x4cb2
+   __TEXT.__swift5_assocty: 0x170
+   __TEXT.__swift5_protos: 0x34
+   __TEXT.__swift5_proto: 0x35c
+   __TEXT.__swift_as_entry: 0x17c
+   __TEXT.__swift_as_ret: 0x164
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x2d90
+-  __TEXT.__eh_frame: 0x5238
++  __TEXT.__unwind_info: 0x2d18
++  __TEXT.__eh_frame: 0x5338
+   __DATA_CONST.__auth_got: 0x12b8
+   __DATA_CONST.__got: 0x558
+-  __DATA_CONST.__auth_ptr: 0x828
+-  __DATA_CONST.__const: 0x4218
++  __DATA_CONST.__auth_ptr: 0x840
++  __DATA_CONST.__const: 0x4128
+   __DATA_CONST.__objc_classlist: 0xc8
+   __DATA_CONST.__objc_catlist2: 0x10
+   __DATA_CONST.__objc_protolist: 0xd0
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x70
+-  __DATA.__objc_const: 0x23b8
+-  __DATA.__objc_selrefs: 0x7a8
++  __DATA.__objc_const: 0x23d0
++  __DATA.__objc_selrefs: 0x7b0
+   __DATA.__objc_data: 0xe68
+-  __DATA.__data: 0x4040
++  __DATA.__data: 0x4090
+   __DATA.__objc_stublist: 0x10
+   __DATA.__common: 0x430
+   __DATA.__bss: 0x6670
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B236612C-41E1-39F0-8779-45094CC76FE0
+-  Functions: 3746
+-  Symbols:   26059
+-  CStrings:  967
++  UUID: E2B3929F-926B-3292-8204-7C7BB74A1464
++  Functions: 3707
++  Symbols:   26015
++  CStrings:  955
+ 
+Symbols:
++ $s44com_apple_SharePlay_NearbyInvitationsService0E20IDSServiceControllerC30handleIncomingMessageBlastDoor_7account12incomingData15fromIDWithToken7contextyAA0H8Protocol_p_So10IDSAccountCSg10Foundation0Q0VSgSSSgSo17IDSMessageContextCSgtFyAA0E16ProtoJoinRequestV7ContentVSg_s5Error_pSgtcfU1_yycfU_TA.15
++ $s44com_apple_SharePlay_NearbyInvitationsService0E20IDSServiceControllerC30handleIncomingMessageBlastDoor_7account12incomingData15fromIDWithToken7contextyAA0H8Protocol_p_So10IDSAccountCSg10Foundation0Q0VSgSSSgSo17IDSMessageContextCSgtFyAA0E16ProtoJoinRequestV7ContentVSg_s5Error_pSgtcfU1_yycfU_TA.64
++ $s44com_apple_SharePlay_NearbyInvitationsService16AssertionManagerC0H0CSgIego_AFIegr_TRTA.11
++ $s44com_apple_SharePlay_NearbyInvitationsService16AssertionManagerC0H0CSgIego_AFIegr_TRTA.18
++ $s44com_apple_SharePlay_NearbyInvitationsService16AssertionManagerC0H0CSgIego_AFIegr_TRTA.4
++ $sIg_Ieg_TRTA.58
++ $sSo11CBDiscoveryC44com_apple_SharePlay_NearbyInvitationsServiceE10deviceLostyAC37BluetoothScannerDiscoveryEngineDeviceVSgcSgvsySo8CBDeviceCcfU_TA.25
++ $sSo11CBDiscoveryC44com_apple_SharePlay_NearbyInvitationsServiceE10deviceLostyAC37BluetoothScannerDiscoveryEngineDeviceVSgcSgvsySo8CBDeviceCcfU_TA.32
++ $sSo11CBDiscoveryC44com_apple_SharePlay_NearbyInvitationsServiceE11deviceFoundyAC37BluetoothScannerDiscoveryEngineDeviceVcSgvsySo8CBDeviceCcfU_TA.49
++ $sSo7NSErrorCSgIeyBy_s5Error_pSgIegg_TRTA.12
++ $sSo7NSErrorCSgIeyBy_s5Error_pSgIegg_TRTA.16
++ $sSo7NSErrorCSgIeyBy_s5Error_pSgIegg_TRTA.20
++ $sSo7NSErrorCSgIeyBy_s5Error_pSgIegg_TRTA.24
++ $sSo7NSErrorCSgIeyBy_s5Error_pSgIegg_TRTA.31
++ $sSo7NSErrorCSgIeyBy_s5Error_pSgIegg_TRTA.35
++ $sSo7NSErrorCSgIeyBy_s5Error_pSgIegg_TRTA.39
++ $sSo7NSErrorCSgIeyBy_s5Error_pSgIegg_TRTA.43
++ $sSo7NSErrorCSgIeyBy_s5Error_pSgIegg_TRTA.5
++ $sSo7NSErrorCSgIeyBy_s5Error_pSgIegg_TRTA.50
++ $sSo7NSErrorCSgIeyBy_s5Error_pSgIegg_TRTA.54
++ $sSo7NSErrorCSgIeyBy_s5Error_pSgIegg_TRTA.9
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/DerivedSources/
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/AssertionManager.o
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/BluetoothScanner.o
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/FilteredBluetoothScanner.o
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/Logging.o
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroup.pb.o
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroupFirewall.o
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroupFirewallProvider.o
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroupHost.o
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroupHostConnection.o
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroupHostIDSService.o
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroupHostManager.o
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroupServerBag.o
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyIDSServiceController.o
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationJoinRequestController.o
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationServiceBluetoothController.o
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationServiceHost.o
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationServiceHostConnection.o
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationsAdvertiser.o
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationsBlastDoorConnectionHelper.o
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationsProviderDataSource.o
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationsScanner.o
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitiationService.pb.o
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyRangingFilter.o
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbySession.o
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/Pseudonym.o
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/Publisher+AsyncSequence.o
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/com.apple.SharePlay.NearbyInvitationsService_vers.o
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/com_apple_SharePlay_NearbyInvitationsService.swiftmodule
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/main.o
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Sources/Expanse/Copresence/
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Sources/Expanse/NearbyInvitationsService/
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Sources/Expanse/NearbyInvitationsService/Bluetooth/
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Sources/Expanse/NearbyInvitationsService/Group/
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Sources/Expanse/NearbyInvitationsService/Group/Protobuf/
++ /Library/Caches/com.apple.xbs/C90EC1AF-93EB-42A7-87D2-E422007D91BE/TemporaryDirectory.dfgwkJ/Sources/Expanse/NearbyInvitationsService/Protobuf/
++ _$s44com_apple_SharePlay_NearbyInvitationsService0E16GroupHostManagerC6groupsSDy10Foundation4UUIDVAA0ehI0CGvpfF
++ _$s44com_apple_SharePlay_NearbyInvitationsService0E16ProtoJoinRequestV12hasPublicKeySbvgTm
++ _$s44com_apple_SharePlay_NearbyInvitationsService0E17InvitationScannerC11connectionsSay7Network12NWConnectionCGvpfF
++ _$s44com_apple_SharePlay_NearbyInvitationsService0E19GroupHostIDSServiceC18handleIncomingData4from4data7contextySS_10Foundation0M0VSo17IDSMessageContextCtFyAA0eh1_H0VSg_s5Error_pSgtcfU_
++ _$s44com_apple_SharePlay_NearbyInvitationsService0E19GroupHostIDSServiceC18handleIncomingData4from4data7contextySS_10Foundation0M0VSo17IDSMessageContextCtFyAA0eh1_H0VSg_s5Error_pSgtcfU_TA
++ _$s44com_apple_SharePlay_NearbyInvitationsService0E19GroupHostIDSServiceC18handleIncomingData4from4data7contextySS_10Foundation0M0VSo17IDSMessageContextCtFyAA0eh1_H0VSg_s5Error_pSgtcfU_yycfU_TA
++ _$s44com_apple_SharePlay_NearbyInvitationsService0E19ProtoSessionMessageV7hasDataSbvgTm
++ _$s44com_apple_SharePlay_NearbyInvitationsService0E20InvitationAdvertiserC11connectionsSay7Network12NWConnectionCGvpfF
++ _$s44com_apple_SharePlay_NearbyInvitationsService0E20InvitationAdvertiserC12dataReceived10Foundation4DataVSgvpfF
++ _$s44com_apple_SharePlay_NearbyInvitationsService0E7SessionC12rangedDeviceAC06RangedJ0VSgvpfF
++ _$s44com_apple_SharePlay_NearbyInvitationsService0E7SessionC9isRunningSbvpfF
++ _$s44com_apple_SharePlay_NearbyInvitationsService0E9GroupHostC2id7members11localMember03idsG00lM5TokenAC10Foundation4UUIDV_Shy0E8Sessions0ehM0CGAA17PseudonymProtocol_pAA0ehI10IDSServiceCS2ScSgtcfcyyXEfU0_
++ _$s44com_apple_SharePlay_NearbyInvitationsService0E9GroupHostC5stateAC5StateOvpfF
++ _$s44com_apple_SharePlay_NearbyInvitationsService0E9GroupHostC7membersShy0E8Sessions0eH6MemberCGvpfF
++ _$s44com_apple_SharePlay_NearbyInvitationsService0e6Group_H0V10MemberLeftVWObTm
++ _$s44com_apple_SharePlay_NearbyInvitationsService0eF13InviteScannerC17shouldTrackDevice16stableIdentifierSbSSSg_tF
++ _$s44com_apple_SharePlay_NearbyInvitationsService0eF18ProviderDataSourceC12dataReceived10Foundation0I0VSgvpfF
++ _$s44com_apple_SharePlay_NearbyInvitationsService0eF25BlastDoorConnectionHelperV6defuse_4item10completiony10Foundation4DataV_AA0e5ProtoE18SessionMessageTypeOyxSg_s5Error_pSgtct21InternalSwiftProtobuf0S0RzlFAA0e6Group_Y0V_Tg508$s44com_b1_cd1_ef11Service0E19y113HostIDSServiceC18handleIncomingData4from4data7contextySS_10Foundation0M0VSo17IDSMessageContextCtFyAA0eh1_H0VSg_s5U9_pSgtcfU_AA0eY14HostIDSServiceCSSTf1nncn_nTf4nnngg_n
++ _$s44com_apple_SharePlay_NearbyInvitationsService0eF7ScannerC17shouldTrackDevice16stableIdentifierSbSSSg_tF
++ _$s44com_apple_SharePlay_NearbyInvitationsService0eF7ScannerC17shouldTrackDevice16stableIdentifierSbSSSg_tFTq
++ _$s44com_apple_SharePlay_NearbyInvitationsService14IgnoreHashableV12wrappedValuexvpfF
++ _$s44com_apple_SharePlay_NearbyInvitationsService14IgnoreHashableV12wrappedValuexvpfPTm
++ _$s44com_apple_SharePlay_NearbyInvitationsService16BluetoothScannerC15discoveryEngineAcA0hi9DiscoveryK0_p_tcfcTf4en_n
++ _$s44com_apple_SharePlay_NearbyInvitationsService16BluetoothScannerC15discoveryEngineAcA0hi9DiscoveryK0_p_tcfcTf4en_nSo11CBDiscoveryC_Tg5
++ _$s44com_apple_SharePlay_NearbyInvitationsService16BluetoothScannerC6DeviceV02cbJ0AA0hi15DiscoveryEngineJ0VvpfF
++ _$s44com_apple_SharePlay_NearbyInvitationsService16BluetoothScannerC6DeviceV31acquireScanRateAssertionClosureAA0N7ManagerC0N0CSgycvpfF
++ _$s44com_apple_SharePlay_NearbyInvitationsService16BluetoothScannerC7devicesSayAC6DeviceVGvpfF
++ _$s44com_apple_SharePlay_NearbyInvitationsService16FirewallProviderPAAE13donateEntriesyySay0E8Sessions0E11GroupMemberCGYaKFSo16IDSFirewallEntryCSgAGXEfU_
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorVyAEyx_GxcfC7Combine03AnyH0VyAA0E19GroupHostIDSServiceC12MessageEventO_AK0P7ContextVts5NeverOG_Tt0g5Tf4g_n
++ _$s44com_apple_SharePlay_NearbyInvitationsService24FilteredBluetoothScannerC15filteredDevicesSayAC0H6DeviceVyx_GGvpfF
++ _$s7Network7NWErrorOACSQAAWL
++ _$s7Network7NWErrorOMn
++ _$s7Network7NWErrorOSQAAMc
++ _$s7Network7NWErrorOSgMR
++ _$s7Network7NWErrorOSgMd
++ _$s7Network7NWErrorOSg_ADtMR
++ _$s7Network7NWErrorOSg_ADtMd
++ _$s7Network9NWBrowserC6ResultVSgWOb
++ _$sSD8_VariantV11removeValue6forKeyq_Sgx_tFSS_ypTg5
++ _$sSS_yptWOc
++ _$sScS12ContinuationV11YieldResultOy14NearbySessions0D13AdvertisementC__GSgMR
++ _$sScS12ContinuationV11YieldResultOy14NearbySessions0D13AdvertisementC__GSgMd
++ _$sScc6resume9returningyxn_ts5NeverORs_rlF
++ _$sSh11subtractingyShyxGqd__7ElementQyd__RszSTRd__lF14NearbySessions0C11GroupMemberC_SayAGGTg5
++ _$sSr13_mergeTopRuns_6buffer2bySbSaySnySiGGz_SpyxGSbx_xtKXEtKF14NearbySessions0F13AdvertisementC_Tg5024$s44com_apple_SharePlay_f139InvitationsService0eF18ProviderDataSourceC04scaneF09scannerID8responsey10Foundation4UUIDV_ys5Error_pSgctFyyYacfU_yyYacfU_Say0E8Sessions0E13H88CGSgSayAA24FilteredBluetoothScannerC0T6DeviceVyAA0E13RangingFilterC_GGcfU_SbAN_ANtXEfU1_Tf1nncn_n
++ _$ss13_UnsafeBitsetV17withTemporaryCopy2of4bodyxAB_xABKXEtKlFZxABKXEfU_s10_NativeSetVy14NearbySessions0J11GroupMemberCG_Tg506$ss10_hi54V11subtractingyAByxGqd__7ElementQyd__RszSTRd__lFADs13_ab8VXEfU_14j12Sessions0G11lM11C_SayAKGTG5AKs10_HashTableV6BucketVs16IndexingIteratorVySayAJGGTf1nnc_n
++ _$ss15ContiguousArrayV28_allocateBufferUninitialized15minimumCapacitys01_abD0VyxGSi_tFZ
++ _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tFSS_ypTg5
++ _objc_msgSend$IDSFormattedDestinationID
++ _objc_msgSend$URI
++ _objc_msgSend$_ios_meContactWithKeysToFetch:error:
++ _objc_msgSend$accountID
++ _objc_msgSend$accounts
++ _objc_msgSend$activateWithCompletion:
++ _objc_msgSend$addDelegate:withDelegateProperties:queue:
++ _objc_msgSend$addDiscoveryType:
++ _objc_msgSend$aliasStrings
++ _objc_msgSend$anonymousListener
++ _objc_msgSend$bleChannel
++ _objc_msgSend$bleRSSI
++ _objc_msgSend$bleScanRate
++ _objc_msgSend$btScanAbstraction
++ _objc_msgSend$bundleIdentifier
++ _objc_msgSend$contactID
++ _objc_msgSend$debugDescription
++ _objc_msgSend$description
++ _objc_msgSend$descriptorForRequiredKeysForStyle:
++ _objc_msgSend$deviceFlags
++ _objc_msgSend$deviceIdentifer
++ _objc_msgSend$deviceIdentifier
++ _objc_msgSend$devicePresenceNotifier
++ _objc_msgSend$didDiscoverNearbyAdvertisementWithAdvertisement:
++ _objc_msgSend$didDiscoverNearbySessionInvitationWithId:invitation:
++ _objc_msgSend$didLoseNearbyAdvertisementWithAdvertisement:
++ _objc_msgSend$didReceiveConnectionRequestWithAdvertisement:
++ _objc_msgSend$didReceiveInvitationApprovalRequestWithRequest:
++ _objc_msgSend$didReceiveSessionJoinResponseWithResponse:
++ _objc_msgSend$didReceiveUpdatedGroups:
++ _objc_msgSend$diffuseClientMessage:context:withCompletionBlock:
++ _objc_msgSend$discoveredDevices
++ _objc_msgSend$discoveryFlags
++ _objc_msgSend$donateEntries:withCompletion:
++ _objc_msgSend$doubleValue
++ _objc_msgSend$endpoint
++ _objc_msgSend$expirationDate
++ _objc_msgSend$getBlastDoorSharedConnection
++ _objc_msgSend$givenName
++ _objc_msgSend$idsDeviceID
++ _objc_msgSend$init
++ _objc_msgSend$initWithConfiguration:
++ _objc_msgSend$initWithEnvironmentName:namedDelegatePort:queue:
++ _objc_msgSend$initWithFeatureID:scopeID:expiryEpoch:allowedServices:
++ _objc_msgSend$initWithInnerBoundary:outerBoundary:error:
++ _objc_msgSend$initWithName:devicePresencePreset:
++ _objc_msgSend$initWithPrefixedURI:
++ _objc_msgSend$initWithRSSI:identifier:model:channel:machContinuousTimeSeconds:
++ _objc_msgSend$initWithService:
++ _objc_msgSend$initWithService:command:
++ _objc_msgSend$initWithServiceIdentifier:
++ _objc_msgSend$initWithURI:
++ _objc_msgSend$initWithUnprefixedURI:
++ _objc_msgSend$integerValue
++ _objc_msgSend$invalidate
++ _objc_msgSend$lock
++ _objc_msgSend$mainBundle
++ _objc_msgSend$model
++ _objc_msgSend$name
++ _objc_msgSend$nearbyInfoV2AuthTagData
++ _objc_msgSend$nearbyInfoV2DecryptedFlags
++ _objc_msgSend$nearbyInfoV2Flags
++ _objc_msgSend$nearbyInfoV2InvitationCounter
++ _objc_msgSend$nearbyInfoV2InvitationRouteType
++ _objc_msgSend$notifyBluetoothSample:
++ _objc_msgSend$objectForKey:
++ _objc_msgSend$prefixedURI
++ _objc_msgSend$processIdentifier
++ _objc_msgSend$properties
++ _objc_msgSend$provisionPseudonymForURI:withProperties:completion:
++ _objc_msgSend$pseudonymForPseudonymURI:
++ _objc_msgSend$pseudonyms
++ _objc_msgSend$publicIntentAction
++ _objc_msgSend$publicToken
++ _objc_msgSend$renewPseudonym:forUpdatedDuration:completion:
++ _objc_msgSend$resume
++ _objc_msgSend$retrieveFirewallWithQueue:completion:
++ _objc_msgSend$revokePseudonym:completion:
++ _objc_msgSend$runWithConfiguration:
++ _objc_msgSend$sendData:fromAccount:toDestinations:priority:options:identifier:error:
++ _objc_msgSend$sendData:toDestinations:priority:options:identifier:error:
++ _objc_msgSend$serviceIdentifier
++ _objc_msgSend$serviceListener
++ _objc_msgSend$setAdvertiseRate:
++ _objc_msgSend$setAdvertisingAddressChangedHandler:
++ _objc_msgSend$setAllowedDevices:
++ _objc_msgSend$setBleScanRate:
++ _objc_msgSend$setDelegate:
++ _objc_msgSend$setDelegateQueue:
++ _objc_msgSend$setDeviceFoundHandler:
++ _objc_msgSend$setDeviceLostHandler:
++ _objc_msgSend$setDiscoveryFlags:
++ _objc_msgSend$setLabel:
++ _objc_msgSend$setMembers:
++ _objc_msgSend$setMonitoringOption:
++ _objc_msgSend$setNearbyActionFlags:
++ _objc_msgSend$setNearbyActionTargetData:
++ _objc_msgSend$setNearbyActionType:
++ _objc_msgSend$setNearbyInfoV2DecryptedFlags:
++ _objc_msgSend$setNearbyInfoV2Flags:
++ _objc_msgSend$setNearbyInfoV2InvitationCounter:
++ _objc_msgSend$setNearbyInfoV2InvitationRouteType:
++ _objc_msgSend$setObject:forKey:
++ _objc_msgSend$setPayloadType:
++ _objc_msgSend$setUseCase:
++ _objc_msgSend$setWantsCrossAccountMessaging:
++ _objc_msgSend$sharedInstance
++ _objc_msgSend$stableIdentifier
++ _objc_msgSend$standardUserDefaults
++ _objc_msgSend$toID
++ _objc_msgSend$tu_contactStoreConfigurationForBundleIdentifier:
++ _objc_msgSend$unifiedContactWithIdentifier:keysToFetch:error:
++ _objc_msgSend$unlock
++ _objc_msgSend$vettedAliases
++ _objc_msgSend$wranglerHomePodBoopEnabled
++ _swift_bridgeObjectRelease_n
++ _symbolic _____Sg 7Network7NWErrorO
++ _symbolic _____Sg_ABt 7Network7NWErrorO
++ _symbolic _____y_______GSg ScS12ContinuationV11YieldResultO 14NearbySessions0D13AdvertisementC
++ block_copy_helper.16
++ block_copy_helper.42
++ block_copy_helper.48
++ block_copy_helper.59
++ block_copy_helper.9
++ block_copy_helper.96
++ block_descriptor.11
++ block_descriptor.18
++ block_descriptor.44
++ block_descriptor.50
++ block_descriptor.61
++ block_descriptor.98
++ block_destroy_helper.10
++ block_destroy_helper.17
++ block_destroy_helper.43
++ block_destroy_helper.49
++ block_destroy_helper.60
++ block_destroy_helper.97
++ objectdestroy.40Tm
++ objectdestroy.7Tm
+- $s44com_apple_SharePlay_NearbyInvitationsService0E20IDSServiceControllerC30handleIncomingMessageBlastDoor_7account12incomingData15fromIDWithToken7contextyAA0H8Protocol_p_So10IDSAccountCSg10Foundation0Q0VSgSSSgSo17IDSMessageContextCSgtFyAA0E16ProtoJoinRequestV7ContentVSg_s5Error_pSgtcfU1_TA.70
+- $s44com_apple_SharePlay_NearbyInvitationsService0E20IDSServiceControllerC30handleIncomingMessageBlastDoor_7account12incomingData15fromIDWithToken7contextyAA0H8Protocol_p_So10IDSAccountCSg10Foundation0Q0VSgSSSgSo17IDSMessageContextCSgtFyAA0E16ProtoJoinRequestV7ContentVSg_s5Error_pSgtcfU1_yycfU_TA.32
+- $s44com_apple_SharePlay_NearbyInvitationsService0E20IDSServiceControllerC30handleIncomingMessageBlastDoor_7account12incomingData15fromIDWithToken7contextyAA0H8Protocol_p_So10IDSAccountCSg10Foundation0Q0VSgSSSgSo17IDSMessageContextCSgtFyAA0E16ProtoJoinRequestV7ContentVSg_s5Error_pSgtcfU1_yycfU_TA.63
+- $s44com_apple_SharePlay_NearbyInvitationsService0E20IDSServiceControllerC30handleIncomingMessageBlastDoor_7account12incomingData15fromIDWithToken7contextyAA0H8Protocol_p_So10IDSAccountCSg10Foundation0Q0VSgSSSgSo17IDSMessageContextCSgtFyAA0E16ProtoJoinRequestV7ContentVSg_s5Error_pSgtcfU1_yycfU_TA.74
+- $s44com_apple_SharePlay_NearbyInvitationsService0E20IDSServiceControllerC30handleIncomingMessageBlastDoor_7account12incomingData15fromIDWithToken7contextyAA0H8Protocol_p_So10IDSAccountCSg10Foundation0Q0VSgSSSgSo17IDSMessageContextCSgtFyAA0E16ProtoJoinRequestV7ContentVSg_s5Error_pSgtcfU1_yycfU_TA.81
+- $s44com_apple_SharePlay_NearbyInvitationsService0eF25BlastDoorConnectionHelperV6defuse_4item10completiony10Foundation4DataV_AA0e5ProtoE18SessionMessageTypeOyxSg_s5Error_pSgtct21InternalSwiftProtobuf0S0RzlFySDys11AnyHashableVypGSg_So09IDSClientsT0VANtYbcfU_AA0eQ11JoinRequestV7ContentV_Tg5TA.88
+- $s44com_apple_SharePlay_NearbyInvitationsService16AssertionManagerC0H0CSgIego_AFIegr_TRTA.14
+- $s44com_apple_SharePlay_NearbyInvitationsService16AssertionManagerC0H0CSgIego_AFIegr_TRTA.7
+- $sIg_Ieg_TRTA.56
+- $sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA.3
+- $sSo11CBDiscoveryC44com_apple_SharePlay_NearbyInvitationsServiceE10deviceLostyAC37BluetoothScannerDiscoveryEngineDeviceVSgcSgvsySo8CBDeviceCcfU_TA.21
+- $sSo11CBDiscoveryC44com_apple_SharePlay_NearbyInvitationsServiceE10deviceLostyAC37BluetoothScannerDiscoveryEngineDeviceVSgcSgvsySo8CBDeviceCcfU_TA.28
+- $sSo11CBDiscoveryC44com_apple_SharePlay_NearbyInvitationsServiceE11deviceFoundyAC37BluetoothScannerDiscoveryEngineDeviceVcSgvsySo8CBDeviceCcfU_TA.45
+- $sSo7NSErrorCSgIeyBy_s5Error_pSgIegg_TRTA.11
+- $sSo7NSErrorCSgIeyBy_s5Error_pSgIegg_TRTA.15
+- $sSo7NSErrorCSgIeyBy_s5Error_pSgIegg_TRTA.19
+- $sSo7NSErrorCSgIeyBy_s5Error_pSgIegg_TRTA.23
+- $sSo7NSErrorCSgIeyBy_s5Error_pSgIegg_TRTA.30
+- $sSo7NSErrorCSgIeyBy_s5Error_pSgIegg_TRTA.34
+- $sSo7NSErrorCSgIeyBy_s5Error_pSgIegg_TRTA.38
+- $sSo7NSErrorCSgIeyBy_s5Error_pSgIegg_TRTA.4
+- $sSo7NSErrorCSgIeyBy_s5Error_pSgIegg_TRTA.42
+- $sSo7NSErrorCSgIeyBy_s5Error_pSgIegg_TRTA.49
+- $sSo7NSErrorCSgIeyBy_s5Error_pSgIegg_TRTA.53
+- $sSo7NSErrorCSgIeyBy_s5Error_pSgIegg_TRTA.7
+- /Library/Caches/com.apple.xbs/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/DerivedSources/
+- /Library/Caches/com.apple.xbs/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/AssertionManager.o
+- /Library/Caches/com.apple.xbs/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/BluetoothScanner.o
+- /Library/Caches/com.apple.xbs/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/FilteredBluetoothScanner.o
+- /Library/Caches/com.apple.xbs/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/Logging.o
+- /Library/Caches/com.apple.xbs/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroup.pb.o
+- /Library/Caches/com.apple.xbs/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroupFirewall.o
+- /Library/Caches/com.apple.xbs/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroupFirewallProvider.o
+- /Library/Caches/com.apple.xbs/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroupHost.o
+- /Library/Caches/com.apple.xbs/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroupHostConnection.o
+- /Library/Caches/com.apple.xbs/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroupHostIDSService.o
+- /Library/Caches/com.apple.xbs/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroupHostManager.o
+- /Library/Caches/com.apple.xbs/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroupServerBag.o
+- /Library/Caches/com.apple.xbs/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyIDSServiceController.o
+- /Library/Caches/com.apple.xbs/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationJoinRequestController.o
+- /Library/Caches/com.apple.xbs/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationServiceBluetoothController.o
+- /Library/Caches/com.apple.xbs/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationServiceHost.o
+- /Library/Caches/com.apple.xbs/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationServiceHostConnection.o
+- /Library/Caches/com.apple.xbs/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationsAdvertiser.o
+- /Library/Caches/com.apple.xbs/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationsBlastDoorConnectionHelper.o
+- /Library/Caches/com.apple.xbs/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationsProviderDataSource.o
+- /Library/Caches/com.apple.xbs/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationsScanner.o
+- /Library/Caches/com.apple.xbs/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitiationService.pb.o
+- /Library/Caches/com.apple.xbs/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyRangingFilter.o
+- /Library/Caches/com.apple.xbs/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbySession.o
+- /Library/Caches/com.apple.xbs/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/Pseudonym.o
+- /Library/Caches/com.apple.xbs/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/Publisher+AsyncSequence.o
+- /Library/Caches/com.apple.xbs/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/com.apple.SharePlay.NearbyInvitationsService_vers.o
+- /Library/Caches/com.apple.xbs/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/com_apple_SharePlay_NearbyInvitationsService.swiftmodule
+- /Library/Caches/com.apple.xbs/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/main.o
+- /Library/Caches/com.apple.xbs/Sources/Expanse/Copresence/
+- /Library/Caches/com.apple.xbs/Sources/Expanse/NearbyInvitationsService/
+- /Library/Caches/com.apple.xbs/Sources/Expanse/NearbyInvitationsService/Bluetooth/
+- /Library/Caches/com.apple.xbs/Sources/Expanse/NearbyInvitationsService/Group/
+- /Library/Caches/com.apple.xbs/Sources/Expanse/NearbyInvitationsService/Group/Protobuf/
+- /Library/Caches/com.apple.xbs/Sources/Expanse/NearbyInvitationsService/Protobuf/
+- _$s10Foundation13__DataStorageC15withUnsafeBytes2in5applyxSnySiG_xSWKXEtKlFSb_Tgq5015$s10Foundation4B26V2eeoiySbAC_ACtFZSbSWXEfU_AA0B0VTf1ncn_nTf4nng_n
+- _$s10Foundation4DataV15withUnsafeBytesyxxSWKXEKlFSb_Tgq5015$s10Foundation4B26V2eeoiySbAC_ACtFZSbSWXEfU_ACTf1cn_n
+- _$s44com_apple_SharePlay_NearbyInvitationsService0E16GroupHostManagerC6handleyyAA0ehI10IDSServiceC12MessageEventO06RemoteH14InitializationVYaKFTY2_
+- _$s44com_apple_SharePlay_NearbyInvitationsService0E17ProtoJoinResponseV7ContentV6deniedAE06DeniedK0VvpAETK
+- _$s44com_apple_SharePlay_NearbyInvitationsService0E19GroupHostIDSServiceC27handleIncomingDataBlastDoor4from4data7contextySS_10Foundation0M0VSo17IDSMessageContextCtF
+- _$s44com_apple_SharePlay_NearbyInvitationsService0E19GroupHostIDSServiceC27handleIncomingDataBlastDoor4from4data7contextySS_10Foundation0M0VSo17IDSMessageContextCtFyAA0eh1_H0VSg_s5Error_pSgtcfU_
+- _$s44com_apple_SharePlay_NearbyInvitationsService0E19GroupHostIDSServiceC27handleIncomingDataBlastDoor4from4data7contextySS_10Foundation0M0VSo17IDSMessageContextCtFyAA0eh1_H0VSg_s5Error_pSgtcfU_TA
+- _$s44com_apple_SharePlay_NearbyInvitationsService0E19GroupHostIDSServiceC27handleIncomingDataBlastDoor4from4data7contextySS_10Foundation0M0VSo17IDSMessageContextCtFyAA0eh1_H0VSg_s5Error_pSgtcfU_yycfU_TA
+- _$s44com_apple_SharePlay_NearbyInvitationsService0E20IDSServiceControllerC30handleIncomingMessageBlastDoor_7account12incomingData15fromIDWithToken7contextyAA0H8Protocol_p_So10IDSAccountCSg10Foundation0Q0VSgSSSgSo17IDSMessageContextCSgtFTf4ennnnn_nSo0H0C_Ttg5Tf4dnnnn_n
+- _$s44com_apple_SharePlay_NearbyInvitationsService0E20IDSServiceControllerC30handleIncomingMessageBlastDoor_7account12incomingData15fromIDWithToken7contextyAA0H8Protocol_p_So10IDSAccountCSg10Foundation0Q0VSgSSSgSo17IDSMessageContextCSgtFTf4ennnnn_nTf4ddnnnn_n
+- _$s44com_apple_SharePlay_NearbyInvitationsService0E20IDSServiceControllerC30handleIncomingMessageBlastDoor_7account12incomingData15fromIDWithToken7contextyAA0H8Protocol_p_So10IDSAccountCSg10Foundation0Q0VSgSSSgSo17IDSMessageContextCSgtFTm
+- _$s44com_apple_SharePlay_NearbyInvitationsService0E20IDSServiceControllerC30handleIncomingMessageBlastDoor_7account12incomingData15fromIDWithToken7contextyAA0H8Protocol_p_So10IDSAccountCSg10Foundation0Q0VSgSSSgSo17IDSMessageContextCSgtFyAA0E16ProtoJoinRequestV7ContentVSg_s5Error_pSgtcfU1_TATm
+- _$s44com_apple_SharePlay_NearbyInvitationsService0E20IDSServiceControllerC7service_7account12incomingData6fromID7contextySo0H0CSg_So10IDSAccountCSg10Foundation0M0VSgSSSgSo17IDSMessageContextCSgtFTf4ndnnnn_n
+- _$s44com_apple_SharePlay_NearbyInvitationsService0E23ProtoConnectionResponseV7ContentV6deniedAE06DeniedK0VvpAETK
+- _$s44com_apple_SharePlay_NearbyInvitationsService0E23ProtoConnectionResponseV7ContentV8approvedAE08ApprovalK0VvpAETK
+- _$s44com_apple_SharePlay_NearbyInvitationsService0e10InvitationG4HostC27didReceiveConnectionRequest13advertisementy0E8Sessions0E13AdvertisementC_tFTm
+- _$s44com_apple_SharePlay_NearbyInvitationsService0e6Group_H0VWObTm
+- _$s44com_apple_SharePlay_NearbyInvitationsService0eF13InviteScannerC13handleChanged33_7363818DEECEA212EB4728A561155246LL6deviceySo8CBDeviceC_tF
+- _$s44com_apple_SharePlay_NearbyInvitationsService0eF18ProviderDataSourceC04scaneF09scannerID8responsey10Foundation4UUIDV_ys5Error_pSgctFyyYacfU_yyYacfU_Say0E8Sessions0E13AdvertisementCGSgSayAA24FilteredBluetoothScannerC0T6DeviceVyAA0E13RangingFilterC_GGcfU_ANSgAWXEfU0_
+- _$s44com_apple_SharePlay_NearbyInvitationsService0eF18ProviderDataSourceC04scaneF09scannerID8responsey10Foundation4UUIDV_ys5Error_pSgctFyyYacfU_yyYacfU_Say0E8Sessions0E13AdvertisementCGSgSayAA24FilteredBluetoothScannerC0T6DeviceVyAA0E13RangingFilterC_GGcfU_ANSgAWXEfU0_TA
+- _$s44com_apple_SharePlay_NearbyInvitationsService0eF25BlastDoorConnectionHelperV6defuse_4item10completiony10Foundation4DataV_AA0e5ProtoE18SessionMessageTypeOyxSg_s5Error_pSgtct21InternalSwiftProtobuf0S0RzlFAA0e6Group_Y0V_Tg508$s44com_b1_cd1_ef11Service0E19y31HostIDSServiceC27handleIncomingph82Door4from4data7contextySS_10Foundation0M0VSo17IDSMessageContextCtFyAA0eh1_H0VSg_s5U9_pSgtcfU_AA0eY14HostIDSServiceCSSTf1nncn_nTf4nnngg_n
+- _$s44com_apple_SharePlay_NearbyInvitationsService0eF25BlastDoorConnectionHelperV6defuse_4item10completiony10Foundation4DataV_AA0e5ProtoE18SessionMessageTypeOyxSg_s5Error_pSgtct21InternalSwiftProtobuf0S0RzlFySDys11AnyHashableVypGSg_So09IDSClientsT0VANtYbcfU_AA0eQ11JoinRequestV7ContentV_Tg5TATm
+- _$s44com_apple_SharePlay_NearbyInvitationsService0eF25BlastDoorConnectionHelperV6defuse_4item10completiony10Foundation4DataV_AA0e5ProtoE18SessionMessageTypeOyxSg_s5Error_pSgtct21InternalSwiftProtobuf0S0RzlFySDys11AnyHashableVypGSg_So09IDSClientsT0VANtYbcfU_AA0eqJ7RequestV_Tg5TATm
+- _$s44com_apple_SharePlay_NearbyInvitationsService16BluetoothScannerC15discoveryEngineAcA0hi9DiscoveryK0_p_tcfcTf4en_nSo11CBDiscoveryC_Tg5Tf4gn_n
+- _$s44com_apple_SharePlay_NearbyInvitationsService16BluetoothScannerC15discoveryEngineAcA0hi9DiscoveryK0_p_tcfcTf4en_nTf4gn_n
+- _$s44com_apple_SharePlay_NearbyInvitationsService16FirewallProviderPAAE13donateEntriesyySay0E8Sessions0E11GroupMemberCGYaKFTY2_
+- _$s44com_apple_SharePlay_NearbyInvitationsService16FirewallProviderPAAE13donateEntriesyySay0E8Sessions0E11GroupMemberCGYaKFTY3_
+- _$s44com_apple_SharePlay_NearbyInvitationsService24FilteredBluetoothScannerC7scanner6configACyxGAA0iJ0C_6ConfigQztcfcySayAH6DeviceVGcfU_yALXEfU0_AA0E13RangingFilterC_TG5TA
+- _$s44com_apple_SharePlay_NearbyInvitationsService24FilteredBluetoothScannerC7scanner6configACyxGAA0iJ0C_6ConfigQztcfcySayAH6DeviceVGcfU_yALXEfU0_TA
+- _$s44com_apple_SharePlay_NearbyInvitationsService9PseudonymC07refreshH0yyYaKFTY3_
+- _$s44com_apple_SharePlay_NearbyInvitationsService9PseudonymC07refreshH0yyYaKFyyYaKcfU_TY8_
+- _$s44com_apple_SharePlay_NearbyInvitationsService9PseudonymC7service9pseudonym13configurationAcA0hG7Manager_p_So12IDSPseudonymCAC13ConfigurationVtKcfcyyYaKcfU_TY5_
+- _$s44com_apple_SharePlay_NearbyInvitationsService9PseudonymC8reusable3for15reuseIdentifierAcA0hG7Manager_p_SStYaKFZTY2_
+- _$sSD8_VariantV11removeValue6forKeyq_Sgx_tFSS_14NearbySessions0F13AdvertisementCTg5
+- _$sSMsE20_halfStablePartition15isSuffixElement5IndexQzSb0F0QzKXE_tKFSaySSG_Tg5151$s44com_apple_SharePlay_NearbyInvitationsService28UserDefaultsPseudonymStorageC8markUsed2id17serviceIdentifier05reuseP0ySS_S2StKFySaySSGzXEfU_SbSSXEfU_SSTf1cn_nTf4ng_nTm
+- _$sSTsE10compactMapySayqd__Gqd__Sg7ElementQzKXEKlFSay44com_apple_SharePlay_NearbyInvitationsService24FilteredBluetoothScannerC0K6DeviceVyAF0H13RangingFilterC_GG_0H8Sessions0H13AdvertisementCTg5
+- _$sSTsE7forEachyyy7ElementQzKXEKFSay44com_apple_SharePlay_NearbyInvitationsService16BluetoothScannerC6DeviceVG_Tg5
+- _$sSTsE8contains5whereS2b7ElementQzKXE_tKFSaySSG_Tg5
+- _$sSTsSQ7ElementRpzrlE8containsySbABFSay14NearbySessions0C22InvitationActivityTypeOG_Tg5
+- _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA
+- _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TATm
+- _$sSa22_copyToContiguousArrays0cD0VyxGyF14NearbySessions0E13AdvertisementC_Tg5
+- _$sSa28_allocateBufferUninitialized15minimumCapacitys06_ArrayB0VyxGSi_tFZ
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZSS_Tt1g5
+- _$sSlsE10firstIndex5where0B0QzSgSb7ElementQzKXE_tKFSaySSG_Tg5151$s44com_apple_SharePlay_NearbyInvitationsService28UserDefaultsPseudonymStorageC8markUsed2id17serviceIdentifier05reuseP0ySS_S2StKFySaySSGzXEfU_SbSSXEfU_SSTf1cn_nTf4ng_nTm
+- _$ss10_NativeSetV11subtractingyAByxGqd__7ElementQyd__RszSTRd__lF14NearbySessions0E11GroupMemberC_SayAIGTg5
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSnySiG_Tg5
+- _malloc
+- block_copy_helper.39
+- block_copy_helper.47
+- block_copy_helper.51
+- block_copy_helper.57
+- block_copy_helper.64
+- block_copy_helper.75
+- block_copy_helper.89
+- block_copy_helper.92
+- block_descriptor.41
+- block_descriptor.49
+- block_descriptor.53
+- block_descriptor.59
+- block_descriptor.66
+- block_descriptor.77
+- block_descriptor.91
+- block_descriptor.94
+- block_destroy_helper.40
+- block_destroy_helper.48
+- block_destroy_helper.52
+- block_destroy_helper.58
+- block_destroy_helper.65
+- block_destroy_helper.76
+- block_destroy_helper.90
+- block_destroy_helper.93
+- objectdestroy.21Tm
+- objectdestroy.24Tm
+- objectdestroy.36Tm
+CStrings:
++ "%@ not being ingested for ranging since it doesn't have an invitation and isn't tracked."
++ "%s: Advertisement for %s already exists, skipping duplicate device discovery"
++ "Device %s no longer has invitation, removing advertisement: %@"
++ "Found device with invitation: %@"
++ "com_apple_SharePlay_NearbyInvitationsService"
++ "fastSyncFirewallDonation"
++ "zoneHierarchiesEnabled"
+- "%@ not being ingested for ranging since it doesn't have an invitation."
+- "%s: Lost device: %@ with advertisement: %@"
+- "%s: found filtered invitation device: %@"
+- "Device changed: %@"
+- "Failed to read protobuf from data for reason: %s"
+- "No stored advertisement found for %@"
+- "Not able to tell anyone about lost device: %@"
+- "nearbyInvitationsBlastDoorEnabled"
+
+```

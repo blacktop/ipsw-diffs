@@ -1,0 +1,880 @@
+## ControlCenterUI
+
+> `/System/Library/PrivateFrameworks/ControlCenterUI.framework/ControlCenterUI`
+
+```diff
+
+-655.4.0.0.0
+-  __TEXT.__text: 0xb24b0
+-  __TEXT.__auth_stubs: 0x2620
++655.8.1.0.0
++  __TEXT.__text: 0xb4d20
++  __TEXT.__auth_stubs: 0x2610
+   __TEXT.__objc_methlist: 0xab98
+-  __TEXT.__const: 0x27ca
+-  __TEXT.__cstring: 0x86b4
+-  __TEXT.__gcc_except_tab: 0x8e0
++  __TEXT.__const: 0x27ba
++  __TEXT.__cstring: 0x4364
++  __TEXT.__gcc_except_tab: 0x874
+   __TEXT.__oslogstring: 0x41cb
+   __TEXT.__dlopen_cstrs: 0x14e
+   __TEXT.__constg_swiftt: 0x2840
+-  __TEXT.__swift5_typeref: 0x2a60
++  __TEXT.__swift5_typeref: 0x2a8c
+   __TEXT.__swift5_builtin: 0x1a4
+   __TEXT.__swift5_reflstr: 0x1bf2
+   __TEXT.__swift5_fieldmd: 0x1288
+   __TEXT.__swift5_assocty: 0x198
+-  __TEXT.__swift5_proto: 0xd4
++  __TEXT.__swift5_proto: 0xd8
+   __TEXT.__swift5_types: 0x120
+-  __TEXT.__swift5_capture: 0xd9c
++  __TEXT.__swift5_capture: 0xd74
+   __TEXT.__swift5_protos: 0x10
+   __TEXT.__swift5_mpenum: 0x8
+   __TEXT.__swift_as_entry: 0xc
+   __TEXT.__swift_as_ret: 0x4
+-  __TEXT.__unwind_info: 0x2af8
+-  __TEXT.__eh_frame: 0x448
+-  __TEXT.__objc_classname: 0x1606
+-  __TEXT.__objc_methname: 0x1de1f
+-  __TEXT.__objc_methtype: 0x83be
+-  __TEXT.__objc_stubs: 0xc8c0
++  __TEXT.__unwind_info: 0x2df8
++  __TEXT.__eh_frame: 0x380
++  __TEXT.__objc_classname: 0x2185
++  __TEXT.__objc_methname: 0x21351
++  __TEXT.__objc_methtype: 0x9587
++  __TEXT.__objc_stubs: 0x10620
+   __DATA_CONST.__got: 0xcd0
+   __DATA_CONST.__const: 0x1308
+   __DATA_CONST.__objc_classlist: 0x398
+
+   __DATA_CONST.__objc_protorefs: 0x1f8
+   __DATA_CONST.__objc_superrefs: 0x1d8
+   __DATA_CONST.__objc_arraydata: 0x68
+-  __AUTH_CONST.__auth_got: 0x1320
+-  __AUTH_CONST.__const: 0x3f28
++  __AUTH_CONST.__auth_got: 0x1318
++  __AUTH_CONST.__const: 0x3ea9
+   __AUTH_CONST.__cfstring: 0x2ec0
+   __AUTH_CONST.__objc_const: 0x10558
+   __AUTH_CONST.__objc_arrayobj: 0xc0
+   __AUTH_CONST.__objc_intobj: 0xa8
+-  __AUTH.__objc_data: 0x17b8
+-  __AUTH.__data: 0x7b8
++  __AUTH.__objc_data: 0x1678
++  __AUTH.__data: 0x708
+   __DATA.__objc_ivar: 0x734
+-  __DATA.__data: 0x3950
+-  __DATA.__bss: 0x1200
++  __DATA.__data: 0x3798
++  __DATA.__bss: 0x1260
+   __DATA.__common: 0x20
+-  __DATA_DIRTY.__objc_data: 0x3588
+-  __DATA_DIRTY.__data: 0x9d8
+-  __DATA_DIRTY.__bss: 0x9e8
++  __DATA_DIRTY.__objc_data: 0x36c8
++  __DATA_DIRTY.__data: 0xca8
++  __DATA_DIRTY.__bss: 0xa10
+   __DATA_DIRTY.__common: 0x10
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accessibility.framework/Accessibility
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EECF0785-2910-3D61-92EB-54BAD7220F3A
+-  Functions: 4782
+-  Symbols:   10047
+-  CStrings:  6800
++  UUID: B24F58A5-D55F-3932-963A-13992C96139B
++  Functions: 4768
++  Symbols:   10582
++  CStrings:  6614
+ 
+Symbols:
++ _OUTLINED_FUNCTION_3
++ _OUTLINED_FUNCTION_4
++ _OUTLINED_FUNCTION_5
++ ___61-[CCUICellularDataModuleViewController _updateSignalStrength]_block_invoke
++ ___61-[CCUICellularDataModuleViewController _updateSignalStrength]_block_invoke_2
++ _block_copy_helper.101
++ _block_copy_helper.103
++ _block_copy_helper.107
++ _block_copy_helper.116
++ _block_copy_helper.118
++ _block_copy_helper.127
++ _block_copy_helper.137
++ _block_copy_helper.144
++ _block_copy_helper.151
++ _block_copy_helper.157
++ _block_copy_helper.163
++ _block_copy_helper.170
++ _block_copy_helper.177
++ _block_copy_helper.187
++ _block_copy_helper.193
++ _block_copy_helper.199
++ _block_copy_helper.281
++ _block_copy_helper.284
++ _block_copy_helper.294
++ _block_copy_helper.301
++ _block_copy_helper.332
++ _block_copy_helper.338
++ _block_copy_helper.35
++ _block_copy_helper.356
++ _block_copy_helper.360
++ _block_copy_helper.366
++ _block_copy_helper.390
++ _block_copy_helper.400
++ _block_copy_helper.407
++ _block_copy_helper.410
++ _block_copy_helper.416
++ _block_copy_helper.423
++ _block_copy_helper.43
++ _block_copy_helper.435
++ _block_copy_helper.439
++ _block_copy_helper.442
++ _block_copy_helper.45
++ _block_copy_helper.47
++ _block_copy_helper.52
++ _block_copy_helper.55
++ _block_copy_helper.80
++ _block_copy_helper.85
++ _block_copy_helper.88
++ _block_copy_helper.94
++ _block_descriptor.103
++ _block_descriptor.105
++ _block_descriptor.109
++ _block_descriptor.118
++ _block_descriptor.120
++ _block_descriptor.129
++ _block_descriptor.139
++ _block_descriptor.146
++ _block_descriptor.153
++ _block_descriptor.159
++ _block_descriptor.165
++ _block_descriptor.172
++ _block_descriptor.179
++ _block_descriptor.189
++ _block_descriptor.195
++ _block_descriptor.201
++ _block_descriptor.283
++ _block_descriptor.286
++ _block_descriptor.296
++ _block_descriptor.303
++ _block_descriptor.334
++ _block_descriptor.340
++ _block_descriptor.358
++ _block_descriptor.362
++ _block_descriptor.368
++ _block_descriptor.37
++ _block_descriptor.392
++ _block_descriptor.402
++ _block_descriptor.409
++ _block_descriptor.412
++ _block_descriptor.418
++ _block_descriptor.425
++ _block_descriptor.437
++ _block_descriptor.441
++ _block_descriptor.444
++ _block_descriptor.45
++ _block_descriptor.47
++ _block_descriptor.49
++ _block_descriptor.54
++ _block_descriptor.57
++ _block_descriptor.82
++ _block_descriptor.87
++ _block_descriptor.90
++ _block_descriptor.96
++ _block_destroy_helper.102
++ _block_destroy_helper.104
++ _block_destroy_helper.108
++ _block_destroy_helper.117
++ _block_destroy_helper.119
++ _block_destroy_helper.128
++ _block_destroy_helper.138
++ _block_destroy_helper.145
++ _block_destroy_helper.152
++ _block_destroy_helper.158
++ _block_destroy_helper.164
++ _block_destroy_helper.171
++ _block_destroy_helper.178
++ _block_destroy_helper.188
++ _block_destroy_helper.194
++ _block_destroy_helper.200
++ _block_destroy_helper.282
++ _block_destroy_helper.285
++ _block_destroy_helper.295
++ _block_destroy_helper.302
++ _block_destroy_helper.333
++ _block_destroy_helper.339
++ _block_destroy_helper.357
++ _block_destroy_helper.36
++ _block_destroy_helper.361
++ _block_destroy_helper.367
++ _block_destroy_helper.391
++ _block_destroy_helper.401
++ _block_destroy_helper.408
++ _block_destroy_helper.411
++ _block_destroy_helper.417
++ _block_destroy_helper.424
++ _block_destroy_helper.436
++ _block_destroy_helper.44
++ _block_destroy_helper.440
++ _block_destroy_helper.443
++ _block_destroy_helper.46
++ _block_destroy_helper.48
++ _block_destroy_helper.53
++ _block_destroy_helper.56
++ _block_destroy_helper.81
++ _block_destroy_helper.86
++ _block_destroy_helper.89
++ _block_destroy_helper.95
++ _objc_autorelease
++ _objc_msgSend$_activeTransformForTouchedPage
++ _objc_msgSend$_animationTargetContentOffset
++ _objc_msgSend$_canShowWhileLocked
++ _objc_msgSend$_codableDescription
++ _objc_msgSend$_configurationDirectoryURL
++ _objc_msgSend$_configurationFileURL
++ _objc_msgSend$_customHorizontalPadding
++ _objc_msgSend$_preferredFontDescriptorWithTextStyle:design:weight:compatibleWithTraitCollection:
++ _objc_msgSend$_setActivePageIndicatorVibrantColorMatrix:
++ _objc_msgSend$_setActiveTransformForTouchedPage:
++ _objc_msgSend$_setAllowsDiscreteInteraction:
++ _objc_msgSend$_setCustomHorizontalPadding:
++ _objc_msgSend$_setCustomIndicatorSpacing:
++ _objc_msgSend$_setCustomVerticalPadding:
++ _objc_msgSend$_setPageIndicatorVibrantColorMatrix:
++ _objc_msgSend$_setParallaxDisabled:forReason:
++ _objc_msgSend$_setPreferredNumberOfVisibleIndicators:
++ _objc_msgSend$_setPrefersTargetPageForDiscreteInteraction:
++ _objc_msgSend$_setTargetTransformForTouchedPage:
++ _objc_msgSend$_swipeGestureRecognizer
++ _objc_msgSend$_toWindowOrientation
++ _objc_msgSend$_translationInView:
++ _objc_msgSend$_updateIconListFrames
++ _objc_msgSend$accessibilityTintColor
++ _objc_msgSend$acquireIntentPersistenceAssertionWithBundleIdentifier:dataSourceIdentifier:
++ _objc_msgSend$activeDataSource
++ _objc_msgSend$addAction:forControlEvents:
++ _objc_msgSend$addArrangedSubview:
++ _objc_msgSend$addFolderObserver:
++ _objc_msgSend$addIcon:
++ _objc_msgSend$addIcon:options:
++ _objc_msgSend$addIcon:toListAtIndex:options:
++ _objc_msgSend$addIconDataSource:
++ _objc_msgSend$addKeyObserver:
++ _objc_msgSend$addListObserver:
++ _objc_msgSend$addListWithIcon:
++ _objc_msgSend$addListWithIcons:
++ _objc_msgSend$addMonitor:subjectMask:subscriptionOptions:
++ _objc_msgSend$addObserverForName:object:queue:usingBlock:
++ _objc_msgSend$addPlaceholderRepresentingIcon:reason:options:
++ _objc_msgSend$addStretchSourceWithParameters:primaryAxis:
++ _objc_msgSend$addStretchSourceWithParameters:primaryAxis:stretchTransformer:
++ _objc_msgSend$addTimer:forMode:
++ _objc_msgSend$additionalLayoutInsets
++ _objc_msgSend$alignmentIconSize
++ _objc_msgSend$allNonDefaultGridSizeClasses
++ _objc_msgSend$allowsAccessoryView
++ _objc_msgSend$allowsAdornmentsOverIconImage
++ _objc_msgSend$allowsCloseBox
++ _objc_msgSend$allowsLabelArea
++ _objc_msgSend$allowsResizeHandle
++ _objc_msgSend$anchorPoint
++ _objc_msgSend$animateWithDuration:delay:options:animations:completion:
++ _objc_msgSend$applicationWithBundleIdentifier:
++ _objc_msgSend$applyStretchForChangedSource:
++ _objc_msgSend$applyStretchScale:
++ _objc_msgSend$applyStretchTo:applyScale:applyTranslation:
++ _objc_msgSend$applyStretchTranslation:
++ _objc_msgSend$applyVelocityModuleSpreadWhileInteractive
++ _objc_msgSend$applyVelocityModuleSpreadWhileSettling
++ _objc_msgSend$applyWithScale:to:
++ _objc_msgSend$applyWithTranslation:to:
++ _objc_msgSend$archiveWithError:
++ _objc_msgSend$archivedDataWithRootObject:requiringSecureCoding:error:
++ _objc_msgSend$areAnyAccessoriesConfigured
++ _objc_msgSend$arrangedSubviews
++ _objc_msgSend$associatedBundleIdentifier
++ _objc_msgSend$baseEffectiveScaleMagnitude
++ _objc_msgSend$baseEffectiveScaleScalarMagnitude
++ _objc_msgSend$baseEffectiveTranslation
++ _objc_msgSend$beginApplyingStretchToStretchable:
++ _objc_msgSend$blueColor
++ _objc_msgSend$blurPocketFadeDuration
++ _objc_msgSend$blurPocketWidth
++ _objc_msgSend$bringSubviewToFront:
++ _objc_msgSend$bs_addChildViewController:
++ _objc_msgSend$bs_isAppearingOrAppeared
++ _objc_msgSend$bundleIdentifierUsingAudioVideoControls
++ _objc_msgSend$ccui_applyGlass
++ _objc_msgSend$ccui_disallowGlassGroupingForReason:
++ _objc_msgSend$changeGridSizeClassOfIcon:toGridSizeClass:options:listGridCellInfoOptions:
++ _objc_msgSend$colorWithAlphaComponent:
++ _objc_msgSend$columns
++ _objc_msgSend$compactAllLists
++ _objc_msgSend$configuration
++ _objc_msgSend$configurationInteractionContainerView:
++ _objc_msgSend$configureMatchingIconView:
++ _objc_msgSend$configuredDataSource
++ _objc_msgSend$constant
++ _objc_msgSend$constraintEqualToConstant:
++ _objc_msgSend$constraints
++ _objc_msgSend$containerBundleIdentifier
++ _objc_msgSend$containerView
++ _objc_msgSend$containsGridSizeClass:
++ _objc_msgSend$contentLayoutGuide
++ _objc_msgSend$contentVisibility
++ _objc_msgSend$control
++ _objc_msgSend$controlKind
++ _objc_msgSend$controlType
++ _objc_msgSend$convertPoint:fromCoordinateSpace:
++ _objc_msgSend$convertPoint:toCoordinateSpace:
++ _objc_msgSend$coordinateAtPoint:
++ _objc_msgSend$coordinateForIcon:
++ _objc_msgSend$copyWithUniqueIdentifier
++ _objc_msgSend$copyWithUniqueLeafIdentifier
++ _objc_msgSend$currentIconListModel
++ _objc_msgSend$currentIconListView
++ _objc_msgSend$currentPageIndex
++ _objc_msgSend$currentRunLoop
++ _objc_msgSend$customIconImageViewController
++ _objc_msgSend$dataWithPropertyList:format:options:error:
++ _objc_msgSend$deactivate
++ _objc_msgSend$defaultConfigurationIntent
++ _objc_msgSend$defaultControlCenterPresentationContext
++ _objc_msgSend$defaultIconViewConfigurationOptions
++ _objc_msgSend$defaultIntentReference
++ _objc_msgSend$defaultMetricsForGridGeometryInfo:
++ _objc_msgSend$defaultPageIndex
++ _objc_msgSend$deleteIntentWithBundleIdentifier:dataSourceIdentifier:
++ _objc_msgSend$dequeueReusableViewOfClass:
++ _objc_msgSend$description
++ _objc_msgSend$descriptorFor:
++ _objc_msgSend$disableIconStateAutosaveForReason:
++ _objc_msgSend$dismissConfigurationCard
++ _objc_msgSend$dismissConfigurationCardImmediately
++ _objc_msgSend$dismissExpandedModuleAnimated:
++ _objc_msgSend$dismissPresentedContentAnimated:
++ _objc_msgSend$displayedIconViewForIcon:
++ _objc_msgSend$dynamicControlsBackgroundFrameChanged:
++ _objc_msgSend$elementType
++ _objc_msgSend$endApplyingStretchToStretchable:
++ _objc_msgSend$enumerateAllIconsWithOptions:usingBlock:
++ _objc_msgSend$enumerateDisplayedIconViewsUsingBlock:
++ _objc_msgSend$enumerateGridSizeClassesUsingBlock:
++ _objc_msgSend$enumerateIconListViewsUsingBlock:
++ _objc_msgSend$enumerateIconsUsingBlock:
++ _objc_msgSend$enumerateListsWithOptions:usingBlock:
++ _objc_msgSend$enumerateRecycledViewsUsingBlock:
++ _objc_msgSend$evaluateBaseStretch
++ _objc_msgSend$extendResizingFinish
++ _objc_msgSend$extensionIdentity
++ _objc_msgSend$feedbackGeneratorForView:
++ _objc_msgSend$feedbackGeneratorWithStyle:forView:
++ _objc_msgSend$filters
++ _objc_msgSend$firstIconViewForIcon:
++ _objc_msgSend$firstList
++ _objc_msgSend$folder
++ _objc_msgSend$folderContainingIndexPath:relativeIndexPath:
++ _objc_msgSend$folderControllerForFolder:
++ _objc_msgSend$folderView
++ _objc_msgSend$fontWithDescriptor:size:
++ _objc_msgSend$forgetIconView:
++ _objc_msgSend$gameModeActivitiesDidChange
++ _objc_msgSend$getRed:green:blue:alpha:
++ _objc_msgSend$gridCellIndexForIcon:
++ _objc_msgSend$gridCellInfoOptionsWithInterfaceOrientation:reversedLayout:
++ _objc_msgSend$gridCellInfoWithOptions:
++ _objc_msgSend$gridSize
++ _objc_msgSend$gridSizeAreaForGridSizeClass:
++ _objc_msgSend$gridSizeForCurrentOrientation
++ _objc_msgSend$hapticIntensity
++ _objc_msgSend$heightAnchor
++ _objc_msgSend$hideAllIcons
++ _objc_msgSend$icon
++ _objc_msgSend$iconAtCoordinate:gridCellInfo:
++ _objc_msgSend$iconContentScale
++ _objc_msgSend$iconDataSources
++ _objc_msgSend$iconEditingSettings
++ _objc_msgSend$iconGridSizeClassSizes
++ _objc_msgSend$iconGridSizeClassSizesForOrientation:
++ _objc_msgSend$iconGridSizeForClass:
++ _objc_msgSend$iconImageCenter
++ _objc_msgSend$iconImageInfoForGridSizeClass:orientation:
++ _objc_msgSend$iconInsets
++ _objc_msgSend$iconListModelIndexForPageIndex:
++ _objc_msgSend$iconListViewAtIndex:
++ _objc_msgSend$iconListViewCount
++ _objc_msgSend$iconListViewDisplayingIconView:
++ _objc_msgSend$iconListViewForIconListModelIndex:
++ _objc_msgSend$iconListViews
++ _objc_msgSend$iconLocation
++ _objc_msgSend$iconSpacing
++ _objc_msgSend$iconSpacingForOrientation:
++ _objc_msgSend$iconViewProvider
++ _objc_msgSend$iconsInLists
++ _objc_msgSend$identity
++ _objc_msgSend$image
++ _objc_msgSend$impactOccurredWithIntensity:
++ _objc_msgSend$incrementUserInvocationCount
++ _objc_msgSend$indexOfList:
++ _objc_msgSend$indexOfListContainingIcon:
++ _objc_msgSend$indexPathForIcon:
++ _objc_msgSend$initWithCoder:
++ _objc_msgSend$initWithConfiguration:
++ _objc_msgSend$initWithConfigurationOptions:
++ _objc_msgSend$initWithControlItems:
++ _objc_msgSend$initWithDescriptor:gridSizeClass:gridSizeClassDomain:intent:configuredDataSource:
++ _objc_msgSend$initWithDomain:code:userInfo:
++ _objc_msgSend$initWithExtensionIdentity:kind:controlType:intentType:
++ _objc_msgSend$initWithExtensionIdentity:kind:intent:
++ _objc_msgSend$initWithFrame:luminanceMap:
++ _objc_msgSend$initWithGridSizeClass:
++ _objc_msgSend$initWithGridSizeClassSizes:
++ _objc_msgSend$initWithGridSizeClasses:
++ _objc_msgSend$initWithIcon:galleryItems:vendorName:
++ _objc_msgSend$initWithIconStateURL:desiredIconStateURL:
++ _objc_msgSend$initWithIconView:subview:
++ _objc_msgSend$initWithIdentifier:configuration:
++ _objc_msgSend$initWithIdentifier:forReason:invalidationBlock:
++ _objc_msgSend$initWithIdentity:type:contentType:configurationIdentifier:
++ _objc_msgSend$initWithInteger:
++ _objc_msgSend$initWithKind:controlType:extensionBundleIdentifier:containerBundleIdentifier:
++ _objc_msgSend$initWithLeafIdentifier:applicationBundleID:
++ _objc_msgSend$initWithListLayouts:
++ _objc_msgSend$initWithMachServiceName:options:
++ _objc_msgSend$initWithModuleIdentifier:containerBundleIdentifier:standardSupportedGridSizeClasses:expandsGridSizeClassesForAccessibility:
++ _objc_msgSend$initWithNibName:bundle:
++ _objc_msgSend$initWithObject:
++ _objc_msgSend$initWithParameters:
++ _objc_msgSend$initWithRootNode:
++ _objc_msgSend$initWithStore:
++ _objc_msgSend$initWithTitle:systemImageName:
++ _objc_msgSend$initWithUniqueIdentifier:controlIdentity:location:
++ _objc_msgSend$initWithUniqueIdentifier:displayName:maxListCount:listGridSize:iconGridSizeClassSizes:
++ _objc_msgSend$initWithUniqueIdentifier:kind:controlType:extensionBundleIdentifier:containerBundleIdentifier:
++ _objc_msgSend$initWithUniqueIdentifier:moduleIdentifier:containerBundleIdentifier:standardSupportedGridSizeClasses:expandsGridSizeClassesForAccessibility:
++ _objc_msgSend$initWithWidth:appsUsingSensors:sensorActivityData:iconCache:
++ _objc_msgSend$initWithWindowScene:
++ _objc_msgSend$insertIcon:afterIcon:options:listGridCellInfoOptions:
++ _objc_msgSend$insertIcon:beforeIcon:options:listGridCellInfoOptions:
++ _objc_msgSend$intent
++ _objc_msgSend$intentConfiguration
++ _objc_msgSend$intentReference
++ _objc_msgSend$intentWithBundleIdentifier:dataSourceIdentifier:defaultIntentProvider:
++ _objc_msgSend$interpretsLocationAsContent:inView:
++ _objc_msgSend$intrinsicContentSize
++ _objc_msgSend$invalidateContainerViewsForPlatterTreatment
++ _objc_msgSend$isBeingDismissed
++ _objc_msgSend$isConfigurable
++ _objc_msgSend$isDecelerating
++ _objc_msgSend$isDropping
++ _objc_msgSend$isEnabled
++ _objc_msgSend$isExtraList:
++ _objc_msgSend$isHighlighted
++ _objc_msgSend$isIconDragging
++ _objc_msgSend$isIconStateDirty
++ _objc_msgSend$isLeafIcon
++ _objc_msgSend$isLocked
++ _objc_msgSend$isOpen
++ _objc_msgSend$isPlaceholder
++ _objc_msgSend$isScrollAnimating
++ _objc_msgSend$isScrolling
++ _objc_msgSend$isSystemRestoringForPagingViewController:
++ _objc_msgSend$isTrackingUserActiveIconDrags
++ _objc_msgSend$isViewRecycled:
++ _objc_msgSend$keyEnumerator
++ _objc_msgSend$labelTransitionCrossblurRadius
++ _objc_msgSend$lastIcon
++ _objc_msgSend$layout
++ _objc_msgSend$layoutForIconLocation:
++ _objc_msgSend$layoutFrame
++ _objc_msgSend$layoutIconListsWithAnimationType:forceRelayout:
++ _objc_msgSend$layoutIconsIfNeeded
++ _objc_msgSend$layoutIconsIfNeededWithAnimationType:options:
++ _objc_msgSend$layoutIconsNow
++ _objc_msgSend$layoutInsetsForOrientation:
++ _objc_msgSend$layoutMetrics
++ _objc_msgSend$leafIcons
++ _objc_msgSend$listLayout
++ _objc_msgSend$listLayoutProvider
++ _objc_msgSend$loadCurrentIconState:
++ _objc_msgSend$longPressToEditDuration
++ _objc_msgSend$magentaColor
++ _objc_msgSend$mainQueue
++ _objc_msgSend$mapTableWithKeyOptions:valueOptions:
++ _objc_msgSend$markIcon:asNeedingAnimation:
++ _objc_msgSend$markIconStateClean
++ _objc_msgSend$markIconStateDirty
++ _objc_msgSend$materialViewWithRecipeNamed:inBundle:options:initialWeighting:scaleAdjustment:
++ _objc_msgSend$maxVelocityModuleSpreadDistance
++ _objc_msgSend$maximumAvailableWidth
++ _objc_msgSend$maximumPageIndex
++ _objc_msgSend$minimumPageIndex
++ _objc_msgSend$moduleContainerBundleIdentifier
++ _objc_msgSend$moduleDescription
++ _objc_msgSend$moduleSettingsForModuleIdentifier:
++ _objc_msgSend$moduleSize
++ _objc_msgSend$noteFolderBeganScrolling
++ _objc_msgSend$noteIconManagerEditingDidChange
++ _objc_msgSend$noteRootFolderDidMutate
++ _objc_msgSend$notificationOccurred:
++ _objc_msgSend$numberOfColumnsForOrientation:
++ _objc_msgSend$numberOfPages
++ _objc_msgSend$numberOfRowsForOrientation:
++ _objc_msgSend$numberOfUsedRows
++ _objc_msgSend$objectEnumerator
++ _objc_msgSend$observeSilentModeWithBlock:
++ _objc_msgSend$obtainModuleWithBundleIdentifier:uniqueIdentifier:
++ _objc_msgSend$orderedEnabledModuleIdentifiersFromSettingsApp
++ _objc_msgSend$oversizeRubberbandingRange
++ _objc_msgSend$pageContentTranslation
++ _objc_msgSend$pageIndexForIconListViewIndex:
++ _objc_msgSend$pagingViewController:didAdd:
++ _objc_msgSend$pagingViewController:didClose:
++ _objc_msgSend$pagingViewController:didExpand:
++ _objc_msgSend$pagingViewController:editingAccessoryViewIntrinsicSizeDidChange:
++ _objc_msgSend$pagingViewController:editingDidChange:
++ _objc_msgSend$pagingViewController:shouldPauseCheckingInvalidControlsForApplicationIdentifier:
++ _objc_msgSend$pagingViewController:willClose:
++ _objc_msgSend$pagingViewController:willDismiss:
++ _objc_msgSend$pagingViewController:willExpand:
++ _objc_msgSend$pagingViewController:willPresent:
++ _objc_msgSend$pagingViewController:willRemove:
++ _objc_msgSend$pagingViewControllerDidAddModuleView:
++ _objc_msgSend$parityControlContainerBundleIdentifier
++ _objc_msgSend$parityControlExtensionIdentifier
++ _objc_msgSend$parityControlKind
++ _objc_msgSend$parityControlType
++ _objc_msgSend$perform:finalCompletion:
++ _objc_msgSend$position
++ _objc_msgSend$preferredControlSize
++ _objc_msgSend$preferredGallerySizeClass
++ _objc_msgSend$presentConfigurationCard
++ _objc_msgSend$presentedViewController
++ _objc_msgSend$privacyButtonTapped
++ _objc_msgSend$promptsForUserConfiguration
++ _objc_msgSend$propertyListWithData:options:format:error:
++ _objc_msgSend$reasonToDisallowEditing:
++ _objc_msgSend$recycleIconView:
++ _objc_msgSend$recycleView:
++ _objc_msgSend$redirectTapsWithAction:
++ _objc_msgSend$reloadControlsOfKind:containedIn:reason:completion:
++ _objc_msgSend$remoteObjectProxy
++ _objc_msgSend$removeArrangedSubview:
++ _objc_msgSend$removeConstraints:
++ _objc_msgSend$removeFolderObserver:
++ _objc_msgSend$removeIcon:options:listGridCellInfoOptions:
++ _objc_msgSend$removeIconDataSource:
++ _objc_msgSend$removeIcons:options:
++ _objc_msgSend$removeItemAtPath:error:
++ _objc_msgSend$removeKeyObserver:
++ _objc_msgSend$removeListObserver:
++ _objc_msgSend$removeModuleWithUniqueIdentifier:
++ _objc_msgSend$removeStretchSource:
++ _objc_msgSend$replaceIconDataSource:withIconDataSource:
++ _objc_msgSend$requestCCUIGameModeStatusInfoWithReply:
++ _objc_msgSend$requestCCUISetGameModeInfoWithState:bundleIdentifier:withReply:
++ _objc_msgSend$resetEditingBorderPulseAnimationStartTime
++ _objc_msgSend$resume
++ _objc_msgSend$rootFolder
++ _objc_msgSend$rootViewController
++ _objc_msgSend$rows
++ _objc_msgSend$safeAreaInsets
++ _objc_msgSend$safeAreaLayoutGuide
++ _objc_msgSend$safeObjectForKey:ofType:
++ _objc_msgSend$saveCurrentIconState:error:
++ _objc_msgSend$saveDesiredIconState:error:
++ _objc_msgSend$saveIconStateIfNeeded
++ _objc_msgSend$sbh_appName
++ _objc_msgSend$sbh_valueWithSBHIconGridSize:
++ _objc_msgSend$scalingView
++ _objc_msgSend$scrollAnimationTargetPageIndex
++ _objc_msgSend$scrollViewDidScroll:
++ _objc_msgSend$setAccessibilityTintColor:
++ _objc_msgSend$setAdditionalLayoutInsets:
++ _objc_msgSend$setAllowableMovement:
++ _objc_msgSend$setAllowedOrientations:
++ _objc_msgSend$setAllowsAccessoryView:
++ _objc_msgSend$setAllowsAdornmentsOverIconImage:
++ _objc_msgSend$setAllowsAdornmentsOverIconImage:animated:
++ _objc_msgSend$setAllowsAutomaticForwardingOfAppearanceMethods:
++ _objc_msgSend$setAllowsCloseBox:
++ _objc_msgSend$setAllowsEditingAnimation:
++ _objc_msgSend$setAllowsGroupOpacity:
++ _objc_msgSend$setAllowsLabelArea:
++ _objc_msgSend$setAllowsResizeHandle:
++ _objc_msgSend$setAnimationsPermitted:inWindow:
++ _objc_msgSend$setAttributionGroup:
++ _objc_msgSend$setAutomaticallyAdjustsLayoutMetricsToFit:
++ _objc_msgSend$setAutomaticallyShowsEmptyGridCellsWhileEditing:
++ _objc_msgSend$setAutomaticallyUpdatesConfiguration:
++ _objc_msgSend$setAxis:
++ _objc_msgSend$setBackgroundStyle:
++ _objc_msgSend$setBaseEffectiveScaleMagnitude:
++ _objc_msgSend$setBaseEffectiveScaleScalarMagnitude:
++ _objc_msgSend$setBaseEffectiveTranslation:
++ _objc_msgSend$setCanAppearInSecureEnvironment:
++ _objc_msgSend$setCancelsTouchesInView:
++ _objc_msgSend$setConfiguration:
++ _objc_msgSend$setConfigurationIntent:
++ _objc_msgSend$setConstant:
++ _objc_msgSend$setContentInsetAdjustmentBehavior:
++ _objc_msgSend$setContentVisibility:
++ _objc_msgSend$setContinuousCornerRadius:
++ _objc_msgSend$setCurrentPageIndex:animated:
++ _objc_msgSend$setCurrentPageIndex:animated:completion:
++ _objc_msgSend$setCustomItemsDelegate:
++ _objc_msgSend$setDirection:
++ _objc_msgSend$setDisallowedControlIdentities:
++ _objc_msgSend$setDisplayName:
++ _objc_msgSend$setEnabledModuleIdentifiersFromSettingsApp:
++ _objc_msgSend$setExecutableDisplayName:
++ _objc_msgSend$setExportedInterface:
++ _objc_msgSend$setExportedObject:
++ _objc_msgSend$setFolder:
++ _objc_msgSend$setFolderCancelable:
++ _objc_msgSend$setFolderDelegate:
++ _objc_msgSend$setGridSizeClassDomain:
++ _objc_msgSend$setIcon:
++ _objc_msgSend$setIconContentScale:
++ _objc_msgSend$setIconImageInfo:
++ _objc_msgSend$setIconSpacing:
++ _objc_msgSend$setIconViewConfigurationOptions:
++ _objc_msgSend$setIconViewProvider:
++ _objc_msgSend$setIndicatorImage:forPage:
++ _objc_msgSend$setInterruptionHandler:
++ _objc_msgSend$setInvalidationHandler:
++ _objc_msgSend$setIsSystemService:
++ _objc_msgSend$setListAllowedGridSizeClasses:
++ _objc_msgSend$setListLayoutProvider:
++ _objc_msgSend$setListsAllowIndependentRotatedLayout:
++ _objc_msgSend$setListsAllowRotatedLayout:
++ _objc_msgSend$setMaxResizeDimensions:
++ _objc_msgSend$setMinResizeDimensions:
++ _objc_msgSend$setMinimumPressDuration:
++ _objc_msgSend$setOpen:
++ _objc_msgSend$setOriginatingIconLocation:
++ _objc_msgSend$setOverrideCustomIconImageViewController:
++ _objc_msgSend$setPageIndicatorTintColor:
++ _objc_msgSend$setPlaceholderRepositioningDelay:
++ _objc_msgSend$setPreferredGallerySizeClass:
++ _objc_msgSend$setPreferredIndicatorImage:
++ _objc_msgSend$setPrioritizesDirectIconPlacement:
++ _objc_msgSend$setPushPolicy:
++ _objc_msgSend$setRemoteObjectInterface:
++ _objc_msgSend$setRequiresGlassGroupingForCustomIconImageViewControllers:
++ _objc_msgSend$setRootViewController:
++ _objc_msgSend$setSensorType:
++ _objc_msgSend$setSpacing:
++ _objc_msgSend$setStore:
++ _objc_msgSend$setStretchSources:
++ _objc_msgSend$setSuppressesCompactContinuousCornerRadiusUpdates:
++ _objc_msgSend$setSuppressesDefaultEditingAnimation:
++ _objc_msgSend$setSuppressesEditingStateForListViews:animated:
++ _objc_msgSend$setTintAdjustmentMode:
++ _objc_msgSend$setTolerance:
++ _objc_msgSend$setTrailingText:
++ _objc_msgSend$setUseBuiltInAlphaTransformerAndBackdropScaleAdjustment:
++ _objc_msgSend$setVertical:
++ _objc_msgSend$setWebsite:
++ _objc_msgSend$setWidgetDescription:
++ _objc_msgSend$setWindowLevel:
++ _objc_msgSend$setZPosition:
++ _objc_msgSend$showAllIcons
++ _objc_msgSend$size
++ _objc_msgSend$sizeForNumberOfPages:
++ _objc_msgSend$startCoalescingContentChangesForReason:
++ _objc_msgSend$storeForApplicationIdentifier:
++ _objc_msgSend$storeIntent:bundleIdentifier:dataSourceIdentifier:
++ _objc_msgSend$stretchSources
++ _objc_msgSend$stretchables
++ _objc_msgSend$strongToStrongObjectsMapTable
++ _objc_msgSend$subjectMonitorRegistry
++ _objc_msgSend$superlayer
++ _objc_msgSend$supportedGridSizeClasses
++ _objc_msgSend$supportedGridSizeClassesForIcon:
++ _objc_msgSend$supportedIconGridSizeClasses
++ _objc_msgSend$supportsConfigurationCard
++ _objc_msgSend$synchronizeWithCompletion:
++ _objc_msgSend$systemCyanColor
++ _objc_msgSend$systemImageNamed:
++ _objc_msgSend$systemPinkColor
++ _objc_msgSend$timerWithTimeInterval:repeats:block:
++ _objc_msgSend$tintColor
++ _objc_msgSend$traitCollectionWithPreferredContentSizeCategory:
++ _objc_msgSend$transformersByStretchSource
++ _objc_msgSend$undersizeRubberbandingRange
++ _objc_msgSend$updateStretchForChangedSource:
++ _objc_msgSend$updateSupportedGridSizeClassesForAccessibilityContentSizeCategory:
++ _objc_msgSend$updateTraitsIfNeeded
++ _objc_msgSend$updateVisibleColumnRange
++ _objc_msgSend$value
++ _objc_msgSend$valueWithCAColorMatrix:
++ _objc_msgSend$velocityForMaxModuleSpread
++ _objc_msgSend$velocityModuleSpreadPercentageQuantum
++ _objc_msgSend$visibleIconListViews
++ _objc_msgSend$visibleIcons
++ _objc_msgSend$wantsConfigurationIntent
++ _objc_msgSend$widthAnchor
++ _objc_msgSend$willMoveToParentViewController:
++ _objc_msgSend$yellowColor
++ _objectdestroy.370Tm
++ _swift_willThrowTypedImpl
++ _symbolic SS3key_yp5valuet
++ _symbolic ______p s5ErrorP
++ _symbolic _____yAAyAAy__________G_____G_____y_____SgGG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA08_PaddingH0V AA30_EnvironmentKeyWritingModifierV AA5ColorV
++ _symbolic _____yAAyAAy_____y__________G_____G_____yAAyAAyAAy__________G_____G_____yADSgGGGG_____G 7SwiftUI15ModifiedContentV AA10_ShapeViewV 013ControlCenterB014CircleWithBiteV AA5ColorV AA12_FrameLayoutV AA16_OverlayModifierV AA5ImageV AA012_AspectRatioN0V AA08_PaddingN0V AA022_EnvironmentKeyWritingP0V AA13_OffsetEffectV
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA08_PaddingH0V
++ _symbolic _____yAAy_____y__________G_____G_____yAAyAAyAAy__________G_____G_____yADSgGGGG 7SwiftUI15ModifiedContentV AA10_ShapeViewV 013ControlCenterB014CircleWithBiteV AA5ColorV AA12_FrameLayoutV AA16_OverlayModifierV AA5ImageV AA012_AspectRatioN0V AA08_PaddingN0V AA022_EnvironmentKeyWritingP0V
++ _symbolic _____y_____y__________G_____G 7SwiftUI15ModifiedContentV AA10_ShapeViewV 013ControlCenterB014CircleWithBiteV AA5ColorV AA12_FrameLayoutV
++ _symbolic _____y_____y_____yACyACy_____y__________G_____G_____yACyACyACy__________G_____G_____yAFSgGGGG_____GSg_A3XtGG 7SwiftUI6ZStackV AA9TupleViewV AA15ModifiedContentV AA06_ShapeE0V 013ControlCenterB014CircleWithBiteV AA5ColorV AA12_FrameLayoutV AA16_OverlayModifierV AA5ImageV AA012_AspectRatioP0V AA08_PaddingP0V AA022_EnvironmentKeyWritingR0V AA13_OffsetEffectV
+- GCC_except_table47
+- _block_copy_helper.100
+- _block_copy_helper.115
+- _block_copy_helper.122
+- _block_copy_helper.128
+- _block_copy_helper.135
+- _block_copy_helper.142
+- _block_copy_helper.149
+- _block_copy_helper.155
+- _block_copy_helper.161
+- _block_copy_helper.168
+- _block_copy_helper.175
+- _block_copy_helper.185
+- _block_copy_helper.191
+- _block_copy_helper.197
+- _block_copy_helper.257
+- _block_copy_helper.260
+- _block_copy_helper.270
+- _block_copy_helper.277
+- _block_copy_helper.298
+- _block_copy_helper.310
+- _block_copy_helper.327
+- _block_copy_helper.34
+- _block_copy_helper.348
+- _block_copy_helper.352
+- _block_copy_helper.358
+- _block_copy_helper.382
+- _block_copy_helper.392
+- _block_copy_helper.399
+- _block_copy_helper.402
+- _block_copy_helper.408
+- _block_copy_helper.415
+- _block_copy_helper.427
+- _block_copy_helper.431
+- _block_copy_helper.434
+- _block_copy_helper.44
+- _block_copy_helper.445
+- _block_copy_helper.456
+- _block_copy_helper.48
+- _block_copy_helper.54
+- _block_copy_helper.61
+- _block_copy_helper.67
+- _block_copy_helper.73
+- _block_copy_helper.76
+- _block_copy_helper.86
+- _block_copy_helper.93
+- _block_descriptor.102
+- _block_descriptor.117
+- _block_descriptor.124
+- _block_descriptor.130
+- _block_descriptor.137
+- _block_descriptor.144
+- _block_descriptor.151
+- _block_descriptor.157
+- _block_descriptor.163
+- _block_descriptor.170
+- _block_descriptor.177
+- _block_descriptor.187
+- _block_descriptor.193
+- _block_descriptor.199
+- _block_descriptor.259
+- _block_descriptor.262
+- _block_descriptor.272
+- _block_descriptor.279
+- _block_descriptor.300
+- _block_descriptor.312
+- _block_descriptor.329
+- _block_descriptor.350
+- _block_descriptor.354
+- _block_descriptor.36
+- _block_descriptor.360
+- _block_descriptor.384
+- _block_descriptor.394
+- _block_descriptor.401
+- _block_descriptor.404
+- _block_descriptor.410
+- _block_descriptor.417
+- _block_descriptor.429
+- _block_descriptor.433
+- _block_descriptor.436
+- _block_descriptor.447
+- _block_descriptor.458
+- _block_descriptor.46
+- _block_descriptor.50
+- _block_descriptor.56
+- _block_descriptor.63
+- _block_descriptor.69
+- _block_descriptor.75
+- _block_descriptor.78
+- _block_descriptor.88
+- _block_descriptor.95
+- _block_destroy_helper.101
+- _block_destroy_helper.116
+- _block_destroy_helper.123
+- _block_destroy_helper.129
+- _block_destroy_helper.136
+- _block_destroy_helper.143
+- _block_destroy_helper.150
+- _block_destroy_helper.156
+- _block_destroy_helper.162
+- _block_destroy_helper.169
+- _block_destroy_helper.176
+- _block_destroy_helper.186
+- _block_destroy_helper.192
+- _block_destroy_helper.198
+- _block_destroy_helper.258
+- _block_destroy_helper.261
+- _block_destroy_helper.271
+- _block_destroy_helper.278
+- _block_destroy_helper.299
+- _block_destroy_helper.311
+- _block_destroy_helper.328
+- _block_destroy_helper.349
+- _block_destroy_helper.35
+- _block_destroy_helper.353
+- _block_destroy_helper.359
+- _block_destroy_helper.383
+- _block_destroy_helper.393
+- _block_destroy_helper.400
+- _block_destroy_helper.403
+- _block_destroy_helper.409
+- _block_destroy_helper.416
+- _block_destroy_helper.428
+- _block_destroy_helper.432
+- _block_destroy_helper.435
+- _block_destroy_helper.446
+- _block_destroy_helper.45
+- _block_destroy_helper.457
+- _block_destroy_helper.49
+- _block_destroy_helper.55
+- _block_destroy_helper.62
+- _block_destroy_helper.68
+- _block_destroy_helper.74
+- _block_destroy_helper.77
+- _block_destroy_helper.87
+- _block_destroy_helper.94
+- _malloc
+- _objc_claimAutoreleasedReturnValue
+- _objc_retain_x4
+- _objectdestroy.362Tm
+- _symbolic _____y___________Qo_ 7SwiftUI4ViewPAAE11glassEffect_2inQrAA5GlassV_qd__tAA5ShapeRd__lFQO AA5ColorV AA07DefaultgeH0V
+- _symbolic _____y_____yAAyAAyAAy_____y_____yAAy_____yACyAAyAAyAAy_____y__________G_____G_____yAAyAAyAAy__________G_____G_____yAGSgGGGG_____GSg_A3YtGGAIG_AAyAAy_____AQySiSgGGASGAAyAAyA4______yAGGG_____GSgAAyAAy_____yAAyAlQy_____SgGG_Qo_A7_GA9_GtGGAOG_____y_____yAG______Qo_GGAKy_____y_____yAAyAG_____G______A30_SQ12CoreGraphicsyHCg0_Qo_GGGAQy_____GG_Qo_ 7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA15ModifiedContentV AA6HStackV AA05TupleC0V AA6ZStackV AA06_ShapeC0V 013ControlCenterB014CircleWithBiteV AA5ColorV AA12_FrameLayoutV AA16_OverlayModifierV AA5ImageV AA012_AspectRatioV0V AA08_PaddingV0V AA022_EnvironmentKeyWritingX0V AA13_OffsetEffectV AA4TextV AA016_ForegroundStyleX0V AA16_BlendModeEffectV AcAE10fontWeightyQrAA4FontV6WeightVSgFQO A16_ AA011_BackgroundX0V AcAE11glassEffect_2inQrAA5GlassV_qd__tAA0N0Rd__lFQO AA018DefaultGlassEffectN0V AA14GeometryReaderV AcAE0D6Change2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA017_AppearanceActionX0V So6CGRectV AA0T6SchemeO
+
+```

@@ -1,0 +1,1144 @@
+## CoreThreadRadio
+
+> `/System/Library/PrivateFrameworks/CoreThreadRadio.framework/CoreThreadRadio`
+
+```diff
+
+-333.0.5.0.0
+-  __TEXT.__text: 0x21a54
++335.0.15.1.0
++  __TEXT.__text: 0x283b0
+   __TEXT.__auth_stubs: 0xb00
+   __TEXT.__init_offsets: 0x4
+-  __TEXT.__objc_methlist: 0x768
+-  __TEXT.__const: 0x9b0
+-  __TEXT.__gcc_except_tab: 0x3c24
+-  __TEXT.__cstring: 0x2f12
+-  __TEXT.__oslogstring: 0x10ed
+-  __TEXT.__unwind_info: 0xf60
+-  __TEXT.__objc_classname: 0xd2
+-  __TEXT.__objc_methname: 0x1e40
+-  __TEXT.__objc_methtype: 0x1089
+-  __TEXT.__objc_stubs: 0xae0
+-  __DATA_CONST.__got: 0x140
+-  __DATA_CONST.__const: 0x4a0
+-  __DATA_CONST.__objc_classlist: 0x38
++  __TEXT.__objc_methlist: 0x11c0
++  __TEXT.__const: 0x9b8
++  __TEXT.__gcc_except_tab: 0x4908
++  __TEXT.__cstring: 0x3494
++  __TEXT.__oslogstring: 0x1248
++  __TEXT.__unwind_info: 0x12b8
++  __TEXT.__objc_classname: 0x2d0
++  __TEXT.__objc_methname: 0x38f9
++  __TEXT.__objc_methtype: 0x13c4
++  __TEXT.__objc_stubs: 0x1840
++  __DATA_CONST.__got: 0x1e0
++  __DATA_CONST.__const: 0x4c8
++  __DATA_CONST.__objc_classlist: 0xb0
+   __DATA_CONST.__objc_protolist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x490
+-  __DATA_CONST.__objc_superrefs: 0x30
++  __DATA_CONST.__objc_selrefs: 0x7f8
++  __DATA_CONST.__objc_superrefs: 0xa8
+   __AUTH_CONST.__auth_got: 0x590
+   __AUTH_CONST.__const: 0x6d8
+-  __AUTH_CONST.__cfstring: 0x860
+-  __AUTH_CONST.__objc_const: 0x14a8
+-  __AUTH.__objc_data: 0x230
+-  __DATA.__objc_ivar: 0x13c
++  __AUTH_CONST.__cfstring: 0x10c0
++  __AUTH_CONST.__objc_const: 0x3528
++  __AUTH.__objc_data: 0x6e0
++  __DATA.__objc_ivar: 0x2e0
+   __DATA.__data: 0xe4
+   __DATA.__common: 0x4
+   __DATA.__bss: 0x8
+-  __DATA_DIRTY.__bss: 0x228
++  __DATA_DIRTY.__bss: 0x240
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/AppleSauce.framework/AppleSauce
+
+   - /usr/lib/libTelephonyUtilDynamic.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: AC5B8BEA-27EE-370B-B157-B705C6882CF5
+-  Functions: 578
+-  Symbols:   2045
+-  CStrings:  1047
++  UUID: 483F627E-6126-31B8-B032-0062D0A5B282
++  Functions: 787
++  Symbols:   2902
++  CStrings:  1485
+ 
+Symbols:
++ +[CtrMeshDiagAnalysisResults supportsSecureCoding]
++ +[CtrMeshDiagAsymmetricLinkInfo supportsSecureCoding]
++ +[CtrMeshDiagAsymmetricLinksResult supportsSecureCoding]
++ +[CtrMeshDiagBottleneckNodeInfo supportsSecureCoding]
++ +[CtrMeshDiagBottleneckNodesResult supportsSecureCoding]
++ +[CtrMeshDiagCriticalNodeInfo supportsSecureCoding]
++ +[CtrMeshDiagCriticalNodesResult supportsSecureCoding]
++ +[CtrMeshDiagResilienceMetadata supportsSecureCoding]
++ +[CtrMeshDiagResilienceResult supportsSecureCoding]
++ +[CtrMeshDiagUnreachableNodeInfo supportsSecureCoding]
++ +[CtrMeshDiagUnreachableNodesResult supportsSecureCoding]
++ +[CtrMeshDiagUnreliableNodeInfo supportsSecureCoding]
++ +[CtrMeshDiagUnreliableNodesResult supportsSecureCoding]
++ +[CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo supportsSecureCoding]
++ +[CtrMeshDiagUnsupportedEnhancedDiagnosticsResult supportsSecureCoding]
++ -[CtrClient getThreadMeshWirelessInsights:completionHandler:]
++ -[CtrClient getThreadMeshWirelessInsights:completionHandler:].cold.1
++ -[CtrClient parseAsymmetricLinksResult:]
++ -[CtrClient parseBottleneckNodesResult:]
++ -[CtrClient parseCriticalNodesResult:]
++ -[CtrClient parseDataArray:key:]
++ -[CtrClient parseExtendedAddress:key:]
++ -[CtrClient parseExtendedAddress:key:].cold.1
++ -[CtrClient parseResilienceResult:]
++ -[CtrClient parseString:key:]
++ -[CtrClient parseStringArray:key:]
++ -[CtrClient parseUnreachableNodesResult:]
++ -[CtrClient parseUnreliableNodesResult:]
++ -[CtrClient parseUnsupportedEnhancedDiagnosticsResult:]
++ -[CtrMeshDiagAnalysisResults .cxx_destruct]
++ -[CtrMeshDiagAnalysisResults asymmetricLinksResult]
++ -[CtrMeshDiagAnalysisResults bottleneckNodesResult]
++ -[CtrMeshDiagAnalysisResults criticalNodesResult]
++ -[CtrMeshDiagAnalysisResults encodeWithCoder:]
++ -[CtrMeshDiagAnalysisResults initWithCoder:]
++ -[CtrMeshDiagAnalysisResults initWithCriticalNodesResult:unreliableNodesResult:unreachableNodesResult:asymmetricLinksResult:bottleneckNodesResult:unsupportedEnhancedDiagnosticsResult:resilienceResult:version:]
++ -[CtrMeshDiagAnalysisResults resilienceResult]
++ -[CtrMeshDiagAnalysisResults unreachableNodesResult]
++ -[CtrMeshDiagAnalysisResults unreliableNodesResult]
++ -[CtrMeshDiagAnalysisResults unsupportedEnhancedDiagnosticsResult]
++ -[CtrMeshDiagAnalysisResults version]
++ -[CtrMeshDiagAsymmetricLinkInfo .cxx_destruct]
++ -[CtrMeshDiagAsymmetricLinkInfo costDifference]
++ -[CtrMeshDiagAsymmetricLinkInfo encodeWithCoder:]
++ -[CtrMeshDiagAsymmetricLinkInfo forwardLinkCost]
++ -[CtrMeshDiagAsymmetricLinkInfo initWithCoder:]
++ -[CtrMeshDiagAsymmetricLinkInfo initWithNodeAExtAddress:nodeARloc16:nodeARouterId:nodeAVendorName:nodeAVendorModel:nodeBExtAddress:nodeBRloc16:nodeBRouterId:nodeBVendorName:nodeBVendorModel:forwardLinkCost:reverseLinkCost:costDifference:nodeAIpv6Addresses:nodeBIpv6Addresses:]
++ -[CtrMeshDiagAsymmetricLinkInfo initWithNodeAExtAddress:peerExtAddress:localRloc16:peerRloc16:localRouterId:peerRouterId:localLinkQuality:peerLinkQuality:localRssi:peerRssi:]
++ -[CtrMeshDiagAsymmetricLinkInfo nodeAExtAddress]
++ -[CtrMeshDiagAsymmetricLinkInfo nodeAIpv6Addresses]
++ -[CtrMeshDiagAsymmetricLinkInfo nodeARloc16]
++ -[CtrMeshDiagAsymmetricLinkInfo nodeARouterId]
++ -[CtrMeshDiagAsymmetricLinkInfo nodeAVendorModel]
++ -[CtrMeshDiagAsymmetricLinkInfo nodeAVendorName]
++ -[CtrMeshDiagAsymmetricLinkInfo nodeBExtAddress]
++ -[CtrMeshDiagAsymmetricLinkInfo nodeBIpv6Addresses]
++ -[CtrMeshDiagAsymmetricLinkInfo nodeBRloc16]
++ -[CtrMeshDiagAsymmetricLinkInfo nodeBRouterId]
++ -[CtrMeshDiagAsymmetricLinkInfo nodeBVendorModel]
++ -[CtrMeshDiagAsymmetricLinkInfo nodeBVendorName]
++ -[CtrMeshDiagAsymmetricLinkInfo reverseLinkCost]
++ -[CtrMeshDiagAsymmetricLinksResult .cxx_destruct]
++ -[CtrMeshDiagAsymmetricLinksResult asymmetricLinkCount]
++ -[CtrMeshDiagAsymmetricLinksResult asymmetricLinks]
++ -[CtrMeshDiagAsymmetricLinksResult encodeWithCoder:]
++ -[CtrMeshDiagAsymmetricLinksResult initWithAsymmetricLinkCount:asymmetricLinks:]
++ -[CtrMeshDiagAsymmetricLinksResult initWithCoder:]
++ -[CtrMeshDiagBottleneckNodeInfo .cxx_destruct]
++ -[CtrMeshDiagBottleneckNodeInfo encodeWithCoder:]
++ -[CtrMeshDiagBottleneckNodeInfo extAddress]
++ -[CtrMeshDiagBottleneckNodeInfo initWithCoder:]
++ -[CtrMeshDiagBottleneckNodeInfo initWithExtAddress:rloc16:routerId:version:isThisDevice:isThisDeviceParent:isLeader:isBorderRouter:trafficThroughput:vendorName:vendorModel:ipv6Addresses:]
++ -[CtrMeshDiagBottleneckNodeInfo ipv6Addresses]
++ -[CtrMeshDiagBottleneckNodeInfo isBorderRouter]
++ -[CtrMeshDiagBottleneckNodeInfo isLeader]
++ -[CtrMeshDiagBottleneckNodeInfo isThisDeviceParent]
++ -[CtrMeshDiagBottleneckNodeInfo isThisDevice]
++ -[CtrMeshDiagBottleneckNodeInfo rloc16]
++ -[CtrMeshDiagBottleneckNodeInfo routerId]
++ -[CtrMeshDiagBottleneckNodeInfo trafficThroughput]
++ -[CtrMeshDiagBottleneckNodeInfo vendorModel]
++ -[CtrMeshDiagBottleneckNodeInfo vendorName]
++ -[CtrMeshDiagBottleneckNodeInfo version]
++ -[CtrMeshDiagBottleneckNodesResult .cxx_destruct]
++ -[CtrMeshDiagBottleneckNodesResult bottleneckNodeCount]
++ -[CtrMeshDiagBottleneckNodesResult bottleneckNodes]
++ -[CtrMeshDiagBottleneckNodesResult encodeWithCoder:]
++ -[CtrMeshDiagBottleneckNodesResult initWithBottleneckNodeCount:bottleneckNodes:]
++ -[CtrMeshDiagBottleneckNodesResult initWithCoder:]
++ -[CtrMeshDiagCriticalNodeInfo .cxx_destruct]
++ -[CtrMeshDiagCriticalNodeInfo encodeWithCoder:]
++ -[CtrMeshDiagCriticalNodeInfo extAddress]
++ -[CtrMeshDiagCriticalNodeInfo hasEnhancedRoute]
++ -[CtrMeshDiagCriticalNodeInfo hasOffgridRoute]
++ -[CtrMeshDiagCriticalNodeInfo hasVendorRoute]
++ -[CtrMeshDiagCriticalNodeInfo initWithCoder:]
++ -[CtrMeshDiagCriticalNodeInfo initWithExtAddress:rloc16:routerId:version:isThisDevice:isThisDeviceParent:isLeader:isBorderRouter:hasEnhancedRoute:hasVendorRoute:hasOffgridRoute:vendorName:vendorModel:linkQualities:ipv6Addresses:]
++ -[CtrMeshDiagCriticalNodeInfo ipv6Addresses]
++ -[CtrMeshDiagCriticalNodeInfo isBorderRouter]
++ -[CtrMeshDiagCriticalNodeInfo isLeader]
++ -[CtrMeshDiagCriticalNodeInfo isThisDeviceParent]
++ -[CtrMeshDiagCriticalNodeInfo isThisDevice]
++ -[CtrMeshDiagCriticalNodeInfo linkQualities]
++ -[CtrMeshDiagCriticalNodeInfo rloc16]
++ -[CtrMeshDiagCriticalNodeInfo routerId]
++ -[CtrMeshDiagCriticalNodeInfo vendorModel]
++ -[CtrMeshDiagCriticalNodeInfo vendorName]
++ -[CtrMeshDiagCriticalNodeInfo version]
++ -[CtrMeshDiagCriticalNodesResult .cxx_destruct]
++ -[CtrMeshDiagCriticalNodesResult criticalNodeCount]
++ -[CtrMeshDiagCriticalNodesResult criticalNodes]
++ -[CtrMeshDiagCriticalNodesResult encodeWithCoder:]
++ -[CtrMeshDiagCriticalNodesResult initWithCoder:]
++ -[CtrMeshDiagCriticalNodesResult initWithCriticalNodeCount:criticalNodes:]
++ -[CtrMeshDiagResilienceMetadata .cxx_destruct]
++ -[CtrMeshDiagResilienceMetadata encodeWithCoder:]
++ -[CtrMeshDiagResilienceMetadata initWithCoder:]
++ -[CtrMeshDiagResilienceMetadata initWithPenaltyCriticalNodes:penaltyBottlenecks:penaltyAsymmetricLinks:penaltyUnreliableNodes:penaltyUnreachableNodes:weightCriticalNodes:weightBottlenecks:weightAsymmetricLinks:weightUnreliableNodes:weightUnreachableNodes:scoreSummary:]
++ -[CtrMeshDiagResilienceMetadata penaltyAsymmetricLinks]
++ -[CtrMeshDiagResilienceMetadata penaltyBottlenecks]
++ -[CtrMeshDiagResilienceMetadata penaltyCriticalNodes]
++ -[CtrMeshDiagResilienceMetadata penaltyUnreachableNodes]
++ -[CtrMeshDiagResilienceMetadata penaltyUnreliableNodes]
++ -[CtrMeshDiagResilienceMetadata scoreSummary]
++ -[CtrMeshDiagResilienceMetadata weightAsymmetricLinks]
++ -[CtrMeshDiagResilienceMetadata weightBottlenecks]
++ -[CtrMeshDiagResilienceMetadata weightCriticalNodes]
++ -[CtrMeshDiagResilienceMetadata weightUnreachableNodes]
++ -[CtrMeshDiagResilienceMetadata weightUnreliableNodes]
++ -[CtrMeshDiagResilienceResult .cxx_destruct]
++ -[CtrMeshDiagResilienceResult encodeWithCoder:]
++ -[CtrMeshDiagResilienceResult healthScore]
++ -[CtrMeshDiagResilienceResult initWithCoder:]
++ -[CtrMeshDiagResilienceResult initWithHealthScore:metadata:]
++ -[CtrMeshDiagResilienceResult metadata]
++ -[CtrMeshDiagUnreachableNodeInfo .cxx_destruct]
++ -[CtrMeshDiagUnreachableNodeInfo encodeWithCoder:]
++ -[CtrMeshDiagUnreachableNodeInfo extAddressKnown]
++ -[CtrMeshDiagUnreachableNodeInfo extAddress]
++ -[CtrMeshDiagUnreachableNodeInfo initWithCoder:]
++ -[CtrMeshDiagUnreachableNodeInfo initWithExtAddress:rloc16:routerId:extAddressKnown:vendorName:vendorModel:]
++ -[CtrMeshDiagUnreachableNodeInfo initWithExtAddress:rloc16:routerId:version:isThisDevice:isThisDeviceParent:isLeader:isBorderRouter:vendorName:vendorModel:]
++ -[CtrMeshDiagUnreachableNodeInfo rloc16]
++ -[CtrMeshDiagUnreachableNodeInfo routerId]
++ -[CtrMeshDiagUnreachableNodeInfo vendorModel]
++ -[CtrMeshDiagUnreachableNodeInfo vendorName]
++ -[CtrMeshDiagUnreachableNodesResult .cxx_destruct]
++ -[CtrMeshDiagUnreachableNodesResult encodeWithCoder:]
++ -[CtrMeshDiagUnreachableNodesResult initWithCoder:]
++ -[CtrMeshDiagUnreachableNodesResult initWithUnreachableNodeCount:unreachableNodes:]
++ -[CtrMeshDiagUnreachableNodesResult unreachableNodeCount]
++ -[CtrMeshDiagUnreachableNodesResult unreachableNodes]
++ -[CtrMeshDiagUnreliableNodeInfo .cxx_destruct]
++ -[CtrMeshDiagUnreliableNodeInfo encodeWithCoder:]
++ -[CtrMeshDiagUnreliableNodeInfo extAddress]
++ -[CtrMeshDiagUnreliableNodeInfo initWithCoder:]
++ -[CtrMeshDiagUnreliableNodeInfo initWithExtAddress:rloc16:routerId:version:reasonFlags:userActionFlags:isThisDevice:isThisDeviceParent:isLeader:isBorderRouter:vendorName:vendorModel:ipv6Addresses:]
++ -[CtrMeshDiagUnreliableNodeInfo ipv6Addresses]
++ -[CtrMeshDiagUnreliableNodeInfo isBorderRouter]
++ -[CtrMeshDiagUnreliableNodeInfo isLeader]
++ -[CtrMeshDiagUnreliableNodeInfo isThisDeviceParent]
++ -[CtrMeshDiagUnreliableNodeInfo isThisDevice]
++ -[CtrMeshDiagUnreliableNodeInfo reasonFlags]
++ -[CtrMeshDiagUnreliableNodeInfo rloc16]
++ -[CtrMeshDiagUnreliableNodeInfo routerId]
++ -[CtrMeshDiagUnreliableNodeInfo userActionFlags]
++ -[CtrMeshDiagUnreliableNodeInfo vendorModel]
++ -[CtrMeshDiagUnreliableNodeInfo vendorName]
++ -[CtrMeshDiagUnreliableNodeInfo version]
++ -[CtrMeshDiagUnreliableNodesResult .cxx_destruct]
++ -[CtrMeshDiagUnreliableNodesResult encodeWithCoder:]
++ -[CtrMeshDiagUnreliableNodesResult initWithCoder:]
++ -[CtrMeshDiagUnreliableNodesResult initWithUnreliableNodeCount:unreliableNodes:]
++ -[CtrMeshDiagUnreliableNodesResult unreliableNodeCount]
++ -[CtrMeshDiagUnreliableNodesResult unreliableNodes]
++ -[CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo .cxx_destruct]
++ -[CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo encodeWithCoder:]
++ -[CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo extAddress]
++ -[CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo initWithCoder:]
++ -[CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo initWithExtAddress:rloc16:routerId:version:isThisDevice:isThisDeviceParent:isLeader:isBorderRouter:vendorName:vendorModel:ipv6Addresses:]
++ -[CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo ipv6Addresses]
++ -[CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo isBorderRouter]
++ -[CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo isLeader]
++ -[CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo isThisDeviceParent]
++ -[CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo isThisDevice]
++ -[CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo rloc16]
++ -[CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo routerId]
++ -[CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo vendorModel]
++ -[CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo vendorName]
++ -[CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo version]
++ -[CtrMeshDiagUnsupportedEnhancedDiagnosticsResult .cxx_destruct]
++ -[CtrMeshDiagUnsupportedEnhancedDiagnosticsResult encodeWithCoder:]
++ -[CtrMeshDiagUnsupportedEnhancedDiagnosticsResult initWithCoder:]
++ -[CtrMeshDiagUnsupportedEnhancedDiagnosticsResult initWithUnsupportedNodeCount:unsupportedNodes:]
++ -[CtrMeshDiagUnsupportedEnhancedDiagnosticsResult unsupportedNodeCount]
++ -[CtrMeshDiagUnsupportedEnhancedDiagnosticsResult unsupportedNodes]
++ GCC_except_table100
++ GCC_except_table103
++ GCC_except_table113
++ GCC_except_table116
++ GCC_except_table122
++ GCC_except_table124
++ GCC_except_table127
++ GCC_except_table129
++ GCC_except_table135
++ GCC_except_table140
++ GCC_except_table141
++ GCC_except_table146
++ GCC_except_table148
++ GCC_except_table150
++ GCC_except_table157
++ GCC_except_table162
++ GCC_except_table163
++ GCC_except_table165
++ GCC_except_table170
++ GCC_except_table171
++ GCC_except_table177
++ GCC_except_table178
++ GCC_except_table185
++ GCC_except_table186
++ GCC_except_table190
++ GCC_except_table198
++ GCC_except_table41
++ GCC_except_table42
++ GCC_except_table47
++ GCC_except_table66
++ GCC_except_table87
++ GCC_except_table92
++ GCC_except_table93
++ GCC_except_table94
++ GCC_except_table98
++ _OBJC_CLASS_$_CtrMeshDiagAnalysisResults
++ _OBJC_CLASS_$_CtrMeshDiagAsymmetricLinkInfo
++ _OBJC_CLASS_$_CtrMeshDiagAsymmetricLinksResult
++ _OBJC_CLASS_$_CtrMeshDiagBottleneckNodeInfo
++ _OBJC_CLASS_$_CtrMeshDiagBottleneckNodesResult
++ _OBJC_CLASS_$_CtrMeshDiagCriticalNodeInfo
++ _OBJC_CLASS_$_CtrMeshDiagCriticalNodesResult
++ _OBJC_CLASS_$_CtrMeshDiagResilienceMetadata
++ _OBJC_CLASS_$_CtrMeshDiagResilienceResult
++ _OBJC_CLASS_$_CtrMeshDiagUnreachableNodeInfo
++ _OBJC_CLASS_$_CtrMeshDiagUnreachableNodesResult
++ _OBJC_CLASS_$_CtrMeshDiagUnreliableNodeInfo
++ _OBJC_CLASS_$_CtrMeshDiagUnreliableNodesResult
++ _OBJC_CLASS_$_CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo
++ _OBJC_CLASS_$_CtrMeshDiagUnsupportedEnhancedDiagnosticsResult
++ _OBJC_CLASS_$_NSData
++ _OBJC_CLASS_$_NSMutableData
++ _OBJC_CLASS_$_NSMutableSet
++ _OBJC_CLASS_$_NSScanner
++ _OBJC_IVAR_$_CtrMeshDiagAnalysisResults._asymmetricLinksResult
++ _OBJC_IVAR_$_CtrMeshDiagAnalysisResults._bottleneckNodesResult
++ _OBJC_IVAR_$_CtrMeshDiagAnalysisResults._criticalNodesResult
++ _OBJC_IVAR_$_CtrMeshDiagAnalysisResults._resilienceResult
++ _OBJC_IVAR_$_CtrMeshDiagAnalysisResults._unreachableNodesResult
++ _OBJC_IVAR_$_CtrMeshDiagAnalysisResults._unreliableNodesResult
++ _OBJC_IVAR_$_CtrMeshDiagAnalysisResults._unsupportedEnhancedDiagnosticsResult
++ _OBJC_IVAR_$_CtrMeshDiagAnalysisResults._version
++ _OBJC_IVAR_$_CtrMeshDiagAsymmetricLinkInfo._costDifference
++ _OBJC_IVAR_$_CtrMeshDiagAsymmetricLinkInfo._forwardLinkCost
++ _OBJC_IVAR_$_CtrMeshDiagAsymmetricLinkInfo._nodeAExtAddress
++ _OBJC_IVAR_$_CtrMeshDiagAsymmetricLinkInfo._nodeAIpv6Addresses
++ _OBJC_IVAR_$_CtrMeshDiagAsymmetricLinkInfo._nodeARloc16
++ _OBJC_IVAR_$_CtrMeshDiagAsymmetricLinkInfo._nodeARouterId
++ _OBJC_IVAR_$_CtrMeshDiagAsymmetricLinkInfo._nodeAVendorModel
++ _OBJC_IVAR_$_CtrMeshDiagAsymmetricLinkInfo._nodeAVendorName
++ _OBJC_IVAR_$_CtrMeshDiagAsymmetricLinkInfo._nodeBExtAddress
++ _OBJC_IVAR_$_CtrMeshDiagAsymmetricLinkInfo._nodeBIpv6Addresses
++ _OBJC_IVAR_$_CtrMeshDiagAsymmetricLinkInfo._nodeBRloc16
++ _OBJC_IVAR_$_CtrMeshDiagAsymmetricLinkInfo._nodeBRouterId
++ _OBJC_IVAR_$_CtrMeshDiagAsymmetricLinkInfo._nodeBVendorModel
++ _OBJC_IVAR_$_CtrMeshDiagAsymmetricLinkInfo._nodeBVendorName
++ _OBJC_IVAR_$_CtrMeshDiagAsymmetricLinkInfo._reverseLinkCost
++ _OBJC_IVAR_$_CtrMeshDiagAsymmetricLinksResult._asymmetricLinkCount
++ _OBJC_IVAR_$_CtrMeshDiagAsymmetricLinksResult._asymmetricLinks
++ _OBJC_IVAR_$_CtrMeshDiagBottleneckNodeInfo._extAddress
++ _OBJC_IVAR_$_CtrMeshDiagBottleneckNodeInfo._ipv6Addresses
++ _OBJC_IVAR_$_CtrMeshDiagBottleneckNodeInfo._isBorderRouter
++ _OBJC_IVAR_$_CtrMeshDiagBottleneckNodeInfo._isLeader
++ _OBJC_IVAR_$_CtrMeshDiagBottleneckNodeInfo._isThisDevice
++ _OBJC_IVAR_$_CtrMeshDiagBottleneckNodeInfo._isThisDeviceParent
++ _OBJC_IVAR_$_CtrMeshDiagBottleneckNodeInfo._rloc16
++ _OBJC_IVAR_$_CtrMeshDiagBottleneckNodeInfo._routerId
++ _OBJC_IVAR_$_CtrMeshDiagBottleneckNodeInfo._trafficThroughput
++ _OBJC_IVAR_$_CtrMeshDiagBottleneckNodeInfo._vendorModel
++ _OBJC_IVAR_$_CtrMeshDiagBottleneckNodeInfo._vendorName
++ _OBJC_IVAR_$_CtrMeshDiagBottleneckNodeInfo._version
++ _OBJC_IVAR_$_CtrMeshDiagBottleneckNodesResult._bottleneckNodeCount
++ _OBJC_IVAR_$_CtrMeshDiagBottleneckNodesResult._bottleneckNodes
++ _OBJC_IVAR_$_CtrMeshDiagCriticalNodeInfo._extAddress
++ _OBJC_IVAR_$_CtrMeshDiagCriticalNodeInfo._hasEnhancedRoute
++ _OBJC_IVAR_$_CtrMeshDiagCriticalNodeInfo._hasOffgridRoute
++ _OBJC_IVAR_$_CtrMeshDiagCriticalNodeInfo._hasVendorRoute
++ _OBJC_IVAR_$_CtrMeshDiagCriticalNodeInfo._ipv6Addresses
++ _OBJC_IVAR_$_CtrMeshDiagCriticalNodeInfo._isBorderRouter
++ _OBJC_IVAR_$_CtrMeshDiagCriticalNodeInfo._isLeader
++ _OBJC_IVAR_$_CtrMeshDiagCriticalNodeInfo._isThisDevice
++ _OBJC_IVAR_$_CtrMeshDiagCriticalNodeInfo._isThisDeviceParent
++ _OBJC_IVAR_$_CtrMeshDiagCriticalNodeInfo._linkQualities
++ _OBJC_IVAR_$_CtrMeshDiagCriticalNodeInfo._rloc16
++ _OBJC_IVAR_$_CtrMeshDiagCriticalNodeInfo._routerId
++ _OBJC_IVAR_$_CtrMeshDiagCriticalNodeInfo._vendorModel
++ _OBJC_IVAR_$_CtrMeshDiagCriticalNodeInfo._vendorName
++ _OBJC_IVAR_$_CtrMeshDiagCriticalNodeInfo._version
++ _OBJC_IVAR_$_CtrMeshDiagCriticalNodesResult._criticalNodeCount
++ _OBJC_IVAR_$_CtrMeshDiagCriticalNodesResult._criticalNodes
++ _OBJC_IVAR_$_CtrMeshDiagResilienceMetadata._penaltyAsymmetricLinks
++ _OBJC_IVAR_$_CtrMeshDiagResilienceMetadata._penaltyBottlenecks
++ _OBJC_IVAR_$_CtrMeshDiagResilienceMetadata._penaltyCriticalNodes
++ _OBJC_IVAR_$_CtrMeshDiagResilienceMetadata._penaltyUnreachableNodes
++ _OBJC_IVAR_$_CtrMeshDiagResilienceMetadata._penaltyUnreliableNodes
++ _OBJC_IVAR_$_CtrMeshDiagResilienceMetadata._scoreSummary
++ _OBJC_IVAR_$_CtrMeshDiagResilienceMetadata._weightAsymmetricLinks
++ _OBJC_IVAR_$_CtrMeshDiagResilienceMetadata._weightBottlenecks
++ _OBJC_IVAR_$_CtrMeshDiagResilienceMetadata._weightCriticalNodes
++ _OBJC_IVAR_$_CtrMeshDiagResilienceMetadata._weightUnreachableNodes
++ _OBJC_IVAR_$_CtrMeshDiagResilienceMetadata._weightUnreliableNodes
++ _OBJC_IVAR_$_CtrMeshDiagResilienceResult._healthScore
++ _OBJC_IVAR_$_CtrMeshDiagResilienceResult._metadata
++ _OBJC_IVAR_$_CtrMeshDiagUnreachableNodeInfo._extAddress
++ _OBJC_IVAR_$_CtrMeshDiagUnreachableNodeInfo._extAddressKnown
++ _OBJC_IVAR_$_CtrMeshDiagUnreachableNodeInfo._rloc16
++ _OBJC_IVAR_$_CtrMeshDiagUnreachableNodeInfo._routerId
++ _OBJC_IVAR_$_CtrMeshDiagUnreachableNodeInfo._vendorModel
++ _OBJC_IVAR_$_CtrMeshDiagUnreachableNodeInfo._vendorName
++ _OBJC_IVAR_$_CtrMeshDiagUnreachableNodesResult._unreachableNodeCount
++ _OBJC_IVAR_$_CtrMeshDiagUnreachableNodesResult._unreachableNodes
++ _OBJC_IVAR_$_CtrMeshDiagUnreliableNodeInfo._extAddress
++ _OBJC_IVAR_$_CtrMeshDiagUnreliableNodeInfo._ipv6Addresses
++ _OBJC_IVAR_$_CtrMeshDiagUnreliableNodeInfo._isBorderRouter
++ _OBJC_IVAR_$_CtrMeshDiagUnreliableNodeInfo._isLeader
++ _OBJC_IVAR_$_CtrMeshDiagUnreliableNodeInfo._isThisDevice
++ _OBJC_IVAR_$_CtrMeshDiagUnreliableNodeInfo._isThisDeviceParent
++ _OBJC_IVAR_$_CtrMeshDiagUnreliableNodeInfo._reasonFlags
++ _OBJC_IVAR_$_CtrMeshDiagUnreliableNodeInfo._rloc16
++ _OBJC_IVAR_$_CtrMeshDiagUnreliableNodeInfo._routerId
++ _OBJC_IVAR_$_CtrMeshDiagUnreliableNodeInfo._userActionFlags
++ _OBJC_IVAR_$_CtrMeshDiagUnreliableNodeInfo._vendorModel
++ _OBJC_IVAR_$_CtrMeshDiagUnreliableNodeInfo._vendorName
++ _OBJC_IVAR_$_CtrMeshDiagUnreliableNodeInfo._version
++ _OBJC_IVAR_$_CtrMeshDiagUnreliableNodesResult._unreliableNodeCount
++ _OBJC_IVAR_$_CtrMeshDiagUnreliableNodesResult._unreliableNodes
++ _OBJC_IVAR_$_CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo._extAddress
++ _OBJC_IVAR_$_CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo._ipv6Addresses
++ _OBJC_IVAR_$_CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo._isBorderRouter
++ _OBJC_IVAR_$_CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo._isLeader
++ _OBJC_IVAR_$_CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo._isThisDevice
++ _OBJC_IVAR_$_CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo._isThisDeviceParent
++ _OBJC_IVAR_$_CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo._rloc16
++ _OBJC_IVAR_$_CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo._routerId
++ _OBJC_IVAR_$_CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo._vendorModel
++ _OBJC_IVAR_$_CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo._vendorName
++ _OBJC_IVAR_$_CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo._version
++ _OBJC_IVAR_$_CtrMeshDiagUnsupportedEnhancedDiagnosticsResult._unsupportedNodeCount
++ _OBJC_IVAR_$_CtrMeshDiagUnsupportedEnhancedDiagnosticsResult._unsupportedNodes
++ _OBJC_METACLASS_$_CtrMeshDiagAnalysisResults
++ _OBJC_METACLASS_$_CtrMeshDiagAsymmetricLinkInfo
++ _OBJC_METACLASS_$_CtrMeshDiagAsymmetricLinksResult
++ _OBJC_METACLASS_$_CtrMeshDiagBottleneckNodeInfo
++ _OBJC_METACLASS_$_CtrMeshDiagBottleneckNodesResult
++ _OBJC_METACLASS_$_CtrMeshDiagCriticalNodeInfo
++ _OBJC_METACLASS_$_CtrMeshDiagCriticalNodesResult
++ _OBJC_METACLASS_$_CtrMeshDiagResilienceMetadata
++ _OBJC_METACLASS_$_CtrMeshDiagResilienceResult
++ _OBJC_METACLASS_$_CtrMeshDiagUnreachableNodeInfo
++ _OBJC_METACLASS_$_CtrMeshDiagUnreachableNodesResult
++ _OBJC_METACLASS_$_CtrMeshDiagUnreliableNodeInfo
++ _OBJC_METACLASS_$_CtrMeshDiagUnreliableNodesResult
++ _OBJC_METACLASS_$_CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo
++ _OBJC_METACLASS_$_CtrMeshDiagUnsupportedEnhancedDiagnosticsResult
++ _OUTLINED_FUNCTION_2
++ _OUTLINED_FUNCTION_3
++ _OUTLINED_FUNCTION_4
++ __OBJC_$_CLASS_METHODS_CtrMeshDiagAnalysisResults
++ __OBJC_$_CLASS_METHODS_CtrMeshDiagAsymmetricLinkInfo
++ __OBJC_$_CLASS_METHODS_CtrMeshDiagAsymmetricLinksResult
++ __OBJC_$_CLASS_METHODS_CtrMeshDiagBottleneckNodeInfo
++ __OBJC_$_CLASS_METHODS_CtrMeshDiagBottleneckNodesResult
++ __OBJC_$_CLASS_METHODS_CtrMeshDiagCriticalNodeInfo
++ __OBJC_$_CLASS_METHODS_CtrMeshDiagCriticalNodesResult
++ __OBJC_$_CLASS_METHODS_CtrMeshDiagResilienceMetadata
++ __OBJC_$_CLASS_METHODS_CtrMeshDiagResilienceResult
++ __OBJC_$_CLASS_METHODS_CtrMeshDiagUnreachableNodeInfo
++ __OBJC_$_CLASS_METHODS_CtrMeshDiagUnreachableNodesResult
++ __OBJC_$_CLASS_METHODS_CtrMeshDiagUnreliableNodeInfo
++ __OBJC_$_CLASS_METHODS_CtrMeshDiagUnreliableNodesResult
++ __OBJC_$_CLASS_METHODS_CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo
++ __OBJC_$_CLASS_METHODS_CtrMeshDiagUnsupportedEnhancedDiagnosticsResult
++ __OBJC_$_CLASS_PROP_LIST_CtrMeshDiagAnalysisResults
++ __OBJC_$_CLASS_PROP_LIST_CtrMeshDiagAsymmetricLinkInfo
++ __OBJC_$_CLASS_PROP_LIST_CtrMeshDiagAsymmetricLinksResult
++ __OBJC_$_CLASS_PROP_LIST_CtrMeshDiagBottleneckNodeInfo
++ __OBJC_$_CLASS_PROP_LIST_CtrMeshDiagBottleneckNodesResult
++ __OBJC_$_CLASS_PROP_LIST_CtrMeshDiagCriticalNodeInfo
++ __OBJC_$_CLASS_PROP_LIST_CtrMeshDiagCriticalNodesResult
++ __OBJC_$_CLASS_PROP_LIST_CtrMeshDiagResilienceMetadata
++ __OBJC_$_CLASS_PROP_LIST_CtrMeshDiagResilienceResult
++ __OBJC_$_CLASS_PROP_LIST_CtrMeshDiagUnreachableNodeInfo
++ __OBJC_$_CLASS_PROP_LIST_CtrMeshDiagUnreachableNodesResult
++ __OBJC_$_CLASS_PROP_LIST_CtrMeshDiagUnreliableNodeInfo
++ __OBJC_$_CLASS_PROP_LIST_CtrMeshDiagUnreliableNodesResult
++ __OBJC_$_CLASS_PROP_LIST_CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo
++ __OBJC_$_CLASS_PROP_LIST_CtrMeshDiagUnsupportedEnhancedDiagnosticsResult
++ __OBJC_$_INSTANCE_METHODS_CtrMeshDiagAnalysisResults
++ __OBJC_$_INSTANCE_METHODS_CtrMeshDiagAsymmetricLinkInfo
++ __OBJC_$_INSTANCE_METHODS_CtrMeshDiagAsymmetricLinksResult
++ __OBJC_$_INSTANCE_METHODS_CtrMeshDiagBottleneckNodeInfo
++ __OBJC_$_INSTANCE_METHODS_CtrMeshDiagBottleneckNodesResult
++ __OBJC_$_INSTANCE_METHODS_CtrMeshDiagCriticalNodeInfo
++ __OBJC_$_INSTANCE_METHODS_CtrMeshDiagCriticalNodesResult
++ __OBJC_$_INSTANCE_METHODS_CtrMeshDiagResilienceMetadata
++ __OBJC_$_INSTANCE_METHODS_CtrMeshDiagResilienceResult
++ __OBJC_$_INSTANCE_METHODS_CtrMeshDiagUnreachableNodeInfo
++ __OBJC_$_INSTANCE_METHODS_CtrMeshDiagUnreachableNodesResult
++ __OBJC_$_INSTANCE_METHODS_CtrMeshDiagUnreliableNodeInfo
++ __OBJC_$_INSTANCE_METHODS_CtrMeshDiagUnreliableNodesResult
++ __OBJC_$_INSTANCE_METHODS_CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo
++ __OBJC_$_INSTANCE_METHODS_CtrMeshDiagUnsupportedEnhancedDiagnosticsResult
++ __OBJC_$_INSTANCE_VARIABLES_CtrMeshDiagAnalysisResults
++ __OBJC_$_INSTANCE_VARIABLES_CtrMeshDiagAsymmetricLinkInfo
++ __OBJC_$_INSTANCE_VARIABLES_CtrMeshDiagAsymmetricLinksResult
++ __OBJC_$_INSTANCE_VARIABLES_CtrMeshDiagBottleneckNodeInfo
++ __OBJC_$_INSTANCE_VARIABLES_CtrMeshDiagBottleneckNodesResult
++ __OBJC_$_INSTANCE_VARIABLES_CtrMeshDiagCriticalNodeInfo
++ __OBJC_$_INSTANCE_VARIABLES_CtrMeshDiagCriticalNodesResult
++ __OBJC_$_INSTANCE_VARIABLES_CtrMeshDiagResilienceMetadata
++ __OBJC_$_INSTANCE_VARIABLES_CtrMeshDiagResilienceResult
++ __OBJC_$_INSTANCE_VARIABLES_CtrMeshDiagUnreachableNodeInfo
++ __OBJC_$_INSTANCE_VARIABLES_CtrMeshDiagUnreachableNodesResult
++ __OBJC_$_INSTANCE_VARIABLES_CtrMeshDiagUnreliableNodeInfo
++ __OBJC_$_INSTANCE_VARIABLES_CtrMeshDiagUnreliableNodesResult
++ __OBJC_$_INSTANCE_VARIABLES_CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo
++ __OBJC_$_INSTANCE_VARIABLES_CtrMeshDiagUnsupportedEnhancedDiagnosticsResult
++ __OBJC_$_PROP_LIST_CtrMeshDiagAnalysisResults
++ __OBJC_$_PROP_LIST_CtrMeshDiagAsymmetricLinkInfo
++ __OBJC_$_PROP_LIST_CtrMeshDiagAsymmetricLinksResult
++ __OBJC_$_PROP_LIST_CtrMeshDiagBottleneckNodeInfo
++ __OBJC_$_PROP_LIST_CtrMeshDiagBottleneckNodesResult
++ __OBJC_$_PROP_LIST_CtrMeshDiagCriticalNodeInfo
++ __OBJC_$_PROP_LIST_CtrMeshDiagCriticalNodesResult
++ __OBJC_$_PROP_LIST_CtrMeshDiagResilienceMetadata
++ __OBJC_$_PROP_LIST_CtrMeshDiagResilienceResult
++ __OBJC_$_PROP_LIST_CtrMeshDiagUnreachableNodeInfo
++ __OBJC_$_PROP_LIST_CtrMeshDiagUnreachableNodesResult
++ __OBJC_$_PROP_LIST_CtrMeshDiagUnreliableNodeInfo
++ __OBJC_$_PROP_LIST_CtrMeshDiagUnreliableNodesResult
++ __OBJC_$_PROP_LIST_CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo
++ __OBJC_$_PROP_LIST_CtrMeshDiagUnsupportedEnhancedDiagnosticsResult
++ __OBJC_CLASS_PROTOCOLS_$_CtrMeshDiagAnalysisResults
++ __OBJC_CLASS_PROTOCOLS_$_CtrMeshDiagAsymmetricLinkInfo
++ __OBJC_CLASS_PROTOCOLS_$_CtrMeshDiagAsymmetricLinksResult
++ __OBJC_CLASS_PROTOCOLS_$_CtrMeshDiagBottleneckNodeInfo
++ __OBJC_CLASS_PROTOCOLS_$_CtrMeshDiagBottleneckNodesResult
++ __OBJC_CLASS_PROTOCOLS_$_CtrMeshDiagCriticalNodeInfo
++ __OBJC_CLASS_PROTOCOLS_$_CtrMeshDiagCriticalNodesResult
++ __OBJC_CLASS_PROTOCOLS_$_CtrMeshDiagResilienceMetadata
++ __OBJC_CLASS_PROTOCOLS_$_CtrMeshDiagResilienceResult
++ __OBJC_CLASS_PROTOCOLS_$_CtrMeshDiagUnreachableNodeInfo
++ __OBJC_CLASS_PROTOCOLS_$_CtrMeshDiagUnreachableNodesResult
++ __OBJC_CLASS_PROTOCOLS_$_CtrMeshDiagUnreliableNodeInfo
++ __OBJC_CLASS_PROTOCOLS_$_CtrMeshDiagUnreliableNodesResult
++ __OBJC_CLASS_PROTOCOLS_$_CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo
++ __OBJC_CLASS_PROTOCOLS_$_CtrMeshDiagUnsupportedEnhancedDiagnosticsResult
++ __OBJC_CLASS_RO_$_CtrMeshDiagAnalysisResults
++ __OBJC_CLASS_RO_$_CtrMeshDiagAsymmetricLinkInfo
++ __OBJC_CLASS_RO_$_CtrMeshDiagAsymmetricLinksResult
++ __OBJC_CLASS_RO_$_CtrMeshDiagBottleneckNodeInfo
++ __OBJC_CLASS_RO_$_CtrMeshDiagBottleneckNodesResult
++ __OBJC_CLASS_RO_$_CtrMeshDiagCriticalNodeInfo
++ __OBJC_CLASS_RO_$_CtrMeshDiagCriticalNodesResult
++ __OBJC_CLASS_RO_$_CtrMeshDiagResilienceMetadata
++ __OBJC_CLASS_RO_$_CtrMeshDiagResilienceResult
++ __OBJC_CLASS_RO_$_CtrMeshDiagUnreachableNodeInfo
++ __OBJC_CLASS_RO_$_CtrMeshDiagUnreachableNodesResult
++ __OBJC_CLASS_RO_$_CtrMeshDiagUnreliableNodeInfo
++ __OBJC_CLASS_RO_$_CtrMeshDiagUnreliableNodesResult
++ __OBJC_CLASS_RO_$_CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo
++ __OBJC_CLASS_RO_$_CtrMeshDiagUnsupportedEnhancedDiagnosticsResult
++ __OBJC_METACLASS_RO_$_CtrMeshDiagAnalysisResults
++ __OBJC_METACLASS_RO_$_CtrMeshDiagAsymmetricLinkInfo
++ __OBJC_METACLASS_RO_$_CtrMeshDiagAsymmetricLinksResult
++ __OBJC_METACLASS_RO_$_CtrMeshDiagBottleneckNodeInfo
++ __OBJC_METACLASS_RO_$_CtrMeshDiagBottleneckNodesResult
++ __OBJC_METACLASS_RO_$_CtrMeshDiagCriticalNodeInfo
++ __OBJC_METACLASS_RO_$_CtrMeshDiagCriticalNodesResult
++ __OBJC_METACLASS_RO_$_CtrMeshDiagResilienceMetadata
++ __OBJC_METACLASS_RO_$_CtrMeshDiagResilienceResult
++ __OBJC_METACLASS_RO_$_CtrMeshDiagUnreachableNodeInfo
++ __OBJC_METACLASS_RO_$_CtrMeshDiagUnreachableNodesResult
++ __OBJC_METACLASS_RO_$_CtrMeshDiagUnreliableNodeInfo
++ __OBJC_METACLASS_RO_$_CtrMeshDiagUnreliableNodesResult
++ __OBJC_METACLASS_RO_$_CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo
++ __OBJC_METACLASS_RO_$_CtrMeshDiagUnsupportedEnhancedDiagnosticsResult
++ __Z58CtrXpcClient_getThreadMeshWirelessInsights_response_helperRN6CtrXPC6ResultEN3xpc4dictE
++ __Z58CtrXpcClient_getThreadMeshWirelessInsights_response_helperRN6CtrXPC6ResultEN3xpc4dictE.cold.1
++ __Z58CtrXpcClient_getThreadMeshWirelessInsights_response_helperRN6CtrXPC6ResultEN3xpc4dictE.cold.2
++ __Z59CtrXpcClient_getThreadMeshWirelessInsights_interface_helperN3xpc4dictEPv
++ __ZL45kThreadEntitlementsThreadMeshWirelessInsights
++ __ZN6CtrXPC6Client29getThreadMeshWirelessInsightsEbU13block_pointerFvNS_6ResultEN3xpc4dictEE
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7compareB9nqe210106INS_17basic_string_viewIcS2_EELi0EEEiRKT_
++ __ZNKSt3__114default_deleteIN6CtrXPC5EventEEclB9nqe210106EPS2_
++ __ZNKSt3__114default_deleteIN6CtrXPC7Command5StateEEclB9nqe210106EPS3_
++ __ZNKSt3__114default_deleteIN6CtrXPC7CommandEEclB9nqe210106EPS2_
++ __ZNKSt3__114default_deleteINS_3mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN8dispatch8callbackIU13block_pointerFvNS_10shared_ptrIN6CtrXPC5EventEEEEEENS_4lessIS7_EENS5_INS_4pairIKS7_SG_EEEEEEEclB9nqe210106EPSN_
++ __ZNKSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_NS_4pairIKS7_S7_EENS_4lessIS7_EELb1EEENS5_ISC_EEE13__lower_boundIS7_EENS_21__tree_const_iteratorIS8_PNS_11__tree_nodeIS8_PvEElEERKT_SN_PNS_15__tree_end_nodeIPNS_16__tree_node_baseISL_EEEE
++ __ZNKSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_NS_4pairIKS7_S7_EENS_4lessIS7_EELb1EEENS5_ISC_EEE4findIS7_EENS_21__tree_const_iteratorIS8_PNS_11__tree_nodeIS8_PvEElEERKT_
++ __ZNKSt9type_infoeqB9nqe210106ERKS_
++ __ZNSt12length_errorC1B9nqe210106EPKc
++ __ZNSt12out_of_rangeC1B9nqe210106EPKc
++ __ZNSt3__110shared_ptrIKN3ctu9XpcClientEEC2B9nqe210106IS2_Li0EEERKNS_8weak_ptrIT_EE
++ __ZNSt3__110shared_ptrIN3ctu9XpcClientEEC2B9nqe210106IS2_Li0EEERKNS_8weak_ptrIT_EE
++ __ZNSt3__110shared_ptrIN6CtrXPC5Event5StateEEC2B9nqe210106IS3_Li0EEEPT_
++ __ZNSt3__110shared_ptrIN6CtrXPC5EventEEC2B9nqe210106IS2_Li0EEEPT_
++ __ZNSt3__110shared_ptrIN6CtrXPC6Client5StateEE18__enable_weak_thisB9nqe210106IN3ctu9XpcClientES3_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
++ __ZNSt3__110shared_ptrIN6CtrXPC6Client5StateEEC2B9nqe210106IS3_Li0EEEPT_
++ __ZNSt3__110shared_ptrIN6CtrXPC6Client5StateEEC2B9nqe210106IS3_Li0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN6CtrXPC6ClientEEC2B9nqe210106IS2_Li0EEEPT_
++ __ZNSt3__110shared_ptrIN6CtrXPC7Command5StateEEC2B9nqe210106IS3_Li0EEEPT_
++ __ZNSt3__110shared_ptrIN6CtrXPC7CommandEEC2B9nqe210106IS2_Li0EEEPT_
++ __ZNSt3__110shared_ptrINS_3mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN8dispatch8callbackIU13block_pointerFvNS0_IN6CtrXPC5EventEEEEEENS_4lessIS7_EENS5_INS_4pairIKS7_SF_EEEEEEEC2B9nqe210106ISM_Li0EEEPT_
++ __ZNSt3__110unique_ptrIN6CtrXPC5Event5StateENS_14default_deleteIS3_EEED1B9nqe210106Ev
++ __ZNSt3__110unique_ptrIN6CtrXPC6ClientENS_14default_deleteIS2_EEED1B9nqe210106Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES8_EEPvEENS_22__tree_node_destructorINS6_ISB_EEEEED1B9nqe210106Ev
++ __ZNSt3__110unique_ptrINS_3mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN8dispatch8callbackIU13block_pointerFvNS_10shared_ptrIN6CtrXPC5EventEEEEEENS_4lessIS7_EENS5_INS_4pairIKS7_SG_EEEEEENS_14default_deleteISN_EEED1B9nqe210106Ev
++ __ZNSt3__112__destroy_atB9nqe210106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EELi0EEEvPT_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_out_of_rangeB9nqe210106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106ILi0EEEPKc
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9nqe210106Ev
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9nqe210106Ej
++ __ZNSt3__116__pad_and_outputB9nqe210106IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__119__shared_weak_count16__release_sharedB9nqe210106Ev
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106Ev
++ __ZNSt3__120__throw_bad_weak_ptrB9nqe210106Ev
++ __ZNSt3__120__throw_length_errorB9nqe210106EPKc
++ __ZNSt3__120__throw_out_of_rangeB9nqe210106EPKc
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEN8dispatch8callbackIU13block_pointerFvNS_10shared_ptrIN6CtrXPC5EventEEEEEEEEPvEEEEEclB9nqe210106EPSK_
++ __ZNSt3__124__put_character_sequenceB9nqe210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__127__tree_balance_after_insertB9nqe210106IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_NS_4lessIS6_EENS4_INS_4pairIKS6_S6_EEEEEC2B9nqe210106ESt16initializer_listISB_ERKS8_
++ __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_NS_4lessIS6_EENS4_INS_4pairIKS6_S6_EEEEED1B9nqe210106Ev
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B9nqe210106ERKS8_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B9nqe210106IRA11_KcRS7_Li0EEEOT_OT0_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B9nqe210106IRA14_KcRS7_Li0EEEOT_OT0_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B9nqe210106IRA20_KcRS7_Li0EEEOT_OT0_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B9nqe210106IS6_RS7_Li0EEEOT_OT0_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN8dispatch8callbackIU13block_pointerFvNS_10shared_ptrIN6CtrXPC5EventEEEEEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SG_EENS_4lessIS7_EELb1EEENS5_ISL_EEE12__find_equalIS7_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISV_EERKT_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN8dispatch8callbackIU13block_pointerFvNS_10shared_ptrIN6CtrXPC5EventEEEEEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SG_EENS_4lessIS7_EELb1EEENS5_ISL_EEE13__lower_boundIS7_EENS_15__tree_iteratorISH_PNS_11__tree_nodeISH_PvEElEERKT_SW_PNS_15__tree_end_nodeIPNS_16__tree_node_baseISU_EEEE
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN8dispatch8callbackIU13block_pointerFvNS_10shared_ptrIN6CtrXPC5EventEEEEEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SG_EENS_4lessIS7_EELb1EEENS5_ISL_EEE16__construct_nodeIJRKNS_21piecewise_construct_tENS_5tupleIJRSK_EEENSV_IJEEEEEENS_10unique_ptrINS_11__tree_nodeISH_PvEENS_22__tree_node_destructorINS5_IS12_EEEEEEDpOT_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN8dispatch8callbackIU13block_pointerFvNS_10shared_ptrIN6CtrXPC5EventEEEEEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SG_EENS_4lessIS7_EELb1EEENS5_ISL_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSV_SV_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN8dispatch8callbackIU13block_pointerFvNS_10shared_ptrIN6CtrXPC5EventEEEEEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SG_EENS_4lessIS7_EELb1EEENS5_ISL_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRSK_EEENSV_IJEEEEEENSJ_INS_15__tree_iteratorISH_PNS_11__tree_nodeISH_PvEElEEbEERKT_DpOT0_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN8dispatch8callbackIU13block_pointerFvNS_10shared_ptrIN6CtrXPC5EventEEEEEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SG_EENS_4lessIS7_EELb1EEENS5_ISL_EEE4findIS7_EENS_15__tree_iteratorISH_PNS_11__tree_nodeISH_PvEElEERKT_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN8dispatch8callbackIU13block_pointerFvNS_10shared_ptrIN6CtrXPC5EventEEEEEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SG_EENS_4lessIS7_EELb1EEENS5_ISL_EEE7destroyEPNS_11__tree_nodeISH_PvEE
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_NS_4pairIKS7_S7_EENS_4lessIS7_EELb1EEENS5_ISC_EEE12__find_equalIS7_EERPNS_16__tree_node_baseIPvEENS_21__tree_const_iteratorIS8_PNS_11__tree_nodeIS8_SK_EElEERPNS_15__tree_end_nodeISM_EESN_RKT_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_NS_4pairIKS7_S7_EENS_4lessIS7_EELb1EEENS5_ISC_EEE12__find_equalIS7_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISM_EERKT_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_NS_4pairIKS7_S7_EENS_4lessIS7_EELb1EEENS5_ISC_EEE16__construct_nodeIJRKSC_EEENS_10unique_ptrINS_11__tree_nodeIS8_PvEENS_22__tree_node_destructorINS5_ISO_EEEEEEDpOT_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_NS_4pairIKS7_S7_EENS_4lessIS7_EELb1EEENS5_ISC_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSM_SM_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_NS_4pairIKS7_S7_EENS_4lessIS7_EELb1EEENS5_ISC_EEE30__emplace_hint_unique_key_argsIS7_JRKSC_EEENSA_INS_15__tree_iteratorIS8_PNS_11__tree_nodeIS8_PvEElEEbEENS_21__tree_const_iteratorIS8_SP_lEERKT_DpOT0_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_NS_4pairIKS7_S7_EENS_4lessIS7_EELb1EEENS5_ISC_EEE7destroyEPNS_11__tree_nodeIS8_PvEE
++ __ZNSt3__1eqB9nqe210106IcNS_11char_traitsIcEENS_9allocatorIcEEEEbRKNS_12basic_stringIT_T0_T1_EEPKS6_
++ ___61-[CtrClient getThreadMeshWirelessInsights:completionHandler:]_block_invoke
++ ___61-[CtrClient getThreadMeshWirelessInsights:completionHandler:]_block_invoke.cold.1
++ ___Block_byref_object_copy_.122
++ ___Block_byref_object_dispose_.123
++ ___NSArray0__struct
++ ___block_descriptor_48_ea8_32s40bs_e151_v48?0{Result=i{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}}8{dict={object=^v}}40ls40l8s32l8
++ _objc_autoreleaseReturnValue
++ _objc_msgSend$appendBytes:length:
++ _objc_msgSend$array
++ _objc_msgSend$asymmetricLinkCount
++ _objc_msgSend$asymmetricLinks
++ _objc_msgSend$asymmetricLinksResult
++ _objc_msgSend$bottleneckNodeCount
++ _objc_msgSend$bottleneckNodes
++ _objc_msgSend$bottleneckNodesResult
++ _objc_msgSend$costDifference
++ _objc_msgSend$criticalNodeCount
++ _objc_msgSend$criticalNodes
++ _objc_msgSend$criticalNodesResult
++ _objc_msgSend$data
++ _objc_msgSend$dataWithBytes:length:
++ _objc_msgSend$dataWithCapacity:
++ _objc_msgSend$decodeFloatForKey:
++ _objc_msgSend$decodeInt32ForKey:
++ _objc_msgSend$encodeFloat:forKey:
++ _objc_msgSend$encodeInt32:forKey:
++ _objc_msgSend$extAddress
++ _objc_msgSend$extAddressKnown
++ _objc_msgSend$forwardLinkCost
++ _objc_msgSend$hasEnhancedRoute
++ _objc_msgSend$hasOffgridRoute
++ _objc_msgSend$hasVendorRoute
++ _objc_msgSend$healthScore
++ _objc_msgSend$initWithAsymmetricLinkCount:asymmetricLinks:
++ _objc_msgSend$initWithBottleneckNodeCount:bottleneckNodes:
++ _objc_msgSend$initWithCriticalNodeCount:criticalNodes:
++ _objc_msgSend$initWithCriticalNodesResult:unreliableNodesResult:unreachableNodesResult:asymmetricLinksResult:bottleneckNodesResult:unsupportedEnhancedDiagnosticsResult:resilienceResult:version:
++ _objc_msgSend$initWithExtAddress:rloc16:routerId:extAddressKnown:vendorName:vendorModel:
++ _objc_msgSend$initWithExtAddress:rloc16:routerId:version:isThisDevice:isThisDeviceParent:isLeader:isBorderRouter:hasEnhancedRoute:hasVendorRoute:hasOffgridRoute:vendorName:vendorModel:linkQualities:ipv6Addresses:
++ _objc_msgSend$initWithExtAddress:rloc16:routerId:version:isThisDevice:isThisDeviceParent:isLeader:isBorderRouter:trafficThroughput:vendorName:vendorModel:ipv6Addresses:
++ _objc_msgSend$initWithExtAddress:rloc16:routerId:version:isThisDevice:isThisDeviceParent:isLeader:isBorderRouter:vendorName:vendorModel:
++ _objc_msgSend$initWithExtAddress:rloc16:routerId:version:isThisDevice:isThisDeviceParent:isLeader:isBorderRouter:vendorName:vendorModel:ipv6Addresses:
++ _objc_msgSend$initWithExtAddress:rloc16:routerId:version:reasonFlags:userActionFlags:isThisDevice:isThisDeviceParent:isLeader:isBorderRouter:vendorName:vendorModel:ipv6Addresses:
++ _objc_msgSend$initWithHealthScore:metadata:
++ _objc_msgSend$initWithNodeAExtAddress:nodeARloc16:nodeARouterId:nodeAVendorName:nodeAVendorModel:nodeBExtAddress:nodeBRloc16:nodeBRouterId:nodeBVendorName:nodeBVendorModel:forwardLinkCost:reverseLinkCost:costDifference:nodeAIpv6Addresses:nodeBIpv6Addresses:
++ _objc_msgSend$initWithPenaltyCriticalNodes:penaltyBottlenecks:penaltyAsymmetricLinks:penaltyUnreliableNodes:penaltyUnreachableNodes:weightCriticalNodes:weightBottlenecks:weightAsymmetricLinks:weightUnreliableNodes:weightUnreachableNodes:scoreSummary:
++ _objc_msgSend$initWithUnreachableNodeCount:unreachableNodes:
++ _objc_msgSend$initWithUnreliableNodeCount:unreliableNodes:
++ _objc_msgSend$initWithUnsupportedNodeCount:unsupportedNodes:
++ _objc_msgSend$ipv6Addresses
++ _objc_msgSend$isBorderRouter
++ _objc_msgSend$isLeader
++ _objc_msgSend$isThisDevice
++ _objc_msgSend$isThisDeviceParent
++ _objc_msgSend$length
++ _objc_msgSend$linkQualities
++ _objc_msgSend$metadata
++ _objc_msgSend$nodeAExtAddress
++ _objc_msgSend$nodeAIpv6Addresses
++ _objc_msgSend$nodeARloc16
++ _objc_msgSend$nodeARouterId
++ _objc_msgSend$nodeAVendorModel
++ _objc_msgSend$nodeAVendorName
++ _objc_msgSend$nodeBExtAddress
++ _objc_msgSend$nodeBIpv6Addresses
++ _objc_msgSend$nodeBRloc16
++ _objc_msgSend$nodeBRouterId
++ _objc_msgSend$nodeBVendorModel
++ _objc_msgSend$nodeBVendorName
++ _objc_msgSend$parseAsymmetricLinksResult:
++ _objc_msgSend$parseBottleneckNodesResult:
++ _objc_msgSend$parseCriticalNodesResult:
++ _objc_msgSend$parseDataArray:key:
++ _objc_msgSend$parseExtendedAddress:key:
++ _objc_msgSend$parseResilienceResult:
++ _objc_msgSend$parseString:key:
++ _objc_msgSend$parseStringArray:key:
++ _objc_msgSend$parseUnreachableNodesResult:
++ _objc_msgSend$parseUnreliableNodesResult:
++ _objc_msgSend$parseUnsupportedEnhancedDiagnosticsResult:
++ _objc_msgSend$penaltyAsymmetricLinks
++ _objc_msgSend$penaltyBottlenecks
++ _objc_msgSend$penaltyCriticalNodes
++ _objc_msgSend$penaltyUnreachableNodes
++ _objc_msgSend$penaltyUnreliableNodes
++ _objc_msgSend$reasonFlags
++ _objc_msgSend$resilienceResult
++ _objc_msgSend$reverseLinkCost
++ _objc_msgSend$rloc16
++ _objc_msgSend$routerId
++ _objc_msgSend$scanHexInt:
++ _objc_msgSend$scannerWithString:
++ _objc_msgSend$scoreSummary
++ _objc_msgSend$set
++ _objc_msgSend$substringWithRange:
++ _objc_msgSend$trafficThroughput
++ _objc_msgSend$unreachableNodeCount
++ _objc_msgSend$unreachableNodes
++ _objc_msgSend$unreachableNodesResult
++ _objc_msgSend$unreliableNodeCount
++ _objc_msgSend$unreliableNodes
++ _objc_msgSend$unreliableNodesResult
++ _objc_msgSend$unsupportedEnhancedDiagnosticsResult
++ _objc_msgSend$unsupportedNodeCount
++ _objc_msgSend$unsupportedNodes
++ _objc_msgSend$userActionFlags
++ _objc_msgSend$vendorModel
++ _objc_msgSend$vendorName
++ _objc_msgSend$version
++ _objc_msgSend$weightAsymmetricLinks
++ _objc_msgSend$weightBottlenecks
++ _objc_msgSend$weightCriticalNodes
++ _objc_msgSend$weightUnreachableNodes
++ _objc_msgSend$weightUnreliableNodes
++ _objc_retainAutoreleasedReturnValue
++ _xpc_data_get_bytes_ptr
++ _xpc_data_get_length
++ _xpc_dictionary_get_double
+- GCC_except_table107
+- GCC_except_table128
+- GCC_except_table132
+- GCC_except_table136
+- GCC_except_table149
+- GCC_except_table156
+- GCC_except_table158
+- GCC_except_table167
+- GCC_except_table173
+- GCC_except_table176
+- GCC_except_table180
+- GCC_except_table181
+- GCC_except_table182
+- GCC_except_table195
+- GCC_except_table96
+- __ZNKSt3__114default_deleteIN6CtrXPC5EventEEclB8ne200100EPS2_
+- __ZNKSt3__114default_deleteIN6CtrXPC7Command5StateEEclB8ne200100EPS3_
+- __ZNKSt3__114default_deleteIN6CtrXPC7CommandEEclB8ne200100EPS2_
+- __ZNKSt3__114default_deleteINS_3mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN8dispatch8callbackIU13block_pointerFvNS_10shared_ptrIN6CtrXPC5EventEEEEEENS_4lessIS7_EENS5_INS_4pairIKS7_SG_EEEEEEEclB8ne200100EPSN_
+- __ZNKSt3__119__map_value_compareINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12__value_typeIS6_S6_EENS_4lessIS6_EELb1EEclB8ne200100ERKS6_RKS8_
+- __ZNKSt3__119__map_value_compareINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12__value_typeIS6_S6_EENS_4lessIS6_EELb1EEclB8ne200100ERKS8_RKS6_
+- __ZNKSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_S8_NS_4lessIS7_EELb1EEENS5_IS8_EEE4findIS7_EENS_21__tree_const_iteratorIS8_PNS_11__tree_nodeIS8_PvEElEERKT_
+- __ZNKSt9type_infoeqB8ne200100ERKS_
+- __ZNSt12length_errorC1B8ne200100EPKc
+- __ZNSt12out_of_rangeC1B8ne200100EPKc
+- __ZNSt3__110shared_ptrIKN3ctu9XpcClientEEC2B8ne200100IS2_Li0EEERKNS_8weak_ptrIT_EE
+- __ZNSt3__110shared_ptrIN3ctu9XpcClientEEC2B8ne200100IS2_Li0EEERKNS_8weak_ptrIT_EE
+- __ZNSt3__110shared_ptrIN6CtrXPC5Event5StateEEC2B8ne200100IS3_Li0EEEPT_
+- __ZNSt3__110shared_ptrIN6CtrXPC5EventEEC2B8ne200100IS2_Li0EEEPT_
+- __ZNSt3__110shared_ptrIN6CtrXPC6Client5StateEE18__enable_weak_thisB8ne200100IN3ctu9XpcClientES3_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
+- __ZNSt3__110shared_ptrIN6CtrXPC6Client5StateEEC2B8ne200100IS3_Li0EEEPT_
+- __ZNSt3__110shared_ptrIN6CtrXPC6Client5StateEEC2B8ne200100IS3_Li0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN6CtrXPC6ClientEEC2B8ne200100IS2_Li0EEEPT_
+- __ZNSt3__110shared_ptrIN6CtrXPC7Command5StateEEC2B8ne200100IS3_Li0EEEPT_
+- __ZNSt3__110shared_ptrIN6CtrXPC7CommandEEC2B8ne200100IS2_Li0EEEPT_
+- __ZNSt3__110shared_ptrINS_3mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN8dispatch8callbackIU13block_pointerFvNS0_IN6CtrXPC5EventEEEEEENS_4lessIS7_EENS5_INS_4pairIKS7_SF_EEEEEEEC2B8ne200100ISM_Li0EEEPT_
+- __ZNSt3__110unique_ptrIN6CtrXPC5Event5StateENS_14default_deleteIS3_EEED1B8ne200100Ev
+- __ZNSt3__110unique_ptrIN6CtrXPC6ClientENS_14default_deleteIS2_EEED1B8ne200100Ev
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES8_EEPvEENS_22__tree_node_destructorINS6_ISB_EEEEED1B8ne200100Ev
+- __ZNSt3__110unique_ptrINS_3mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN8dispatch8callbackIU13block_pointerFvNS_10shared_ptrIN6CtrXPC5EventEEEEEENS_4lessIS7_EENS5_INS_4pairIKS7_SG_EEEEEENS_14default_deleteISN_EEED1B8ne200100Ev
+- __ZNSt3__112__destroy_atB8ne200100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EELi0EEEvPT_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_out_of_rangeB8ne200100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100ILi0EEEPKc
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB8ne200100Ev
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne200100Ej
+- __ZNSt3__116__pad_and_outputB8ne200100IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__119__shared_weak_count16__release_sharedB8ne200100Ev
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100Ev
+- __ZNSt3__120__throw_bad_weak_ptrB8ne200100Ev
+- __ZNSt3__120__throw_length_errorB8ne200100EPKc
+- __ZNSt3__120__throw_out_of_rangeB8ne200100EPKc
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEN8dispatch8callbackIU13block_pointerFvNS_10shared_ptrIN6CtrXPC5EventEEEEEEEEPvEEEEEclB8ne200100EPSK_
+- __ZNSt3__124__put_character_sequenceB8ne200100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__127__tree_balance_after_insertB8ne200100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_NS_4lessIS6_EENS4_INS_4pairIKS6_S6_EEEEEC2B8ne200100ESt16initializer_listISB_ERKS8_
+- __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_NS_4lessIS6_EENS4_INS_4pairIKS6_S6_EEEEED1B8ne200100Ev
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B8ne200100ERKS8_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B8ne200100IRA11_KcRS7_Li0EEEOT_OT0_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B8ne200100IRA14_KcRS7_Li0EEEOT_OT0_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B8ne200100IRA20_KcRS7_Li0EEEOT_OT0_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B8ne200100IS6_RS7_Li0EEEOT_OT0_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN8dispatch8callbackIU13block_pointerFvNS_10shared_ptrIN6CtrXPC5EventEEEEEEEENS_19__map_value_compareIS7_SH_NS_4lessIS7_EELb1EEENS5_ISH_EEE12__find_equalIS7_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISS_EERKT_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN8dispatch8callbackIU13block_pointerFvNS_10shared_ptrIN6CtrXPC5EventEEEEEEEENS_19__map_value_compareIS7_SH_NS_4lessIS7_EELb1EEENS5_ISH_EEE16__construct_nodeIJRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSS_IJEEEEEENS_10unique_ptrINS_11__tree_nodeISH_PvEENS_22__tree_node_destructorINS5_IS10_EEEEEEDpOT_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN8dispatch8callbackIU13block_pointerFvNS_10shared_ptrIN6CtrXPC5EventEEEEEEEENS_19__map_value_compareIS7_SH_NS_4lessIS7_EELb1EEENS5_ISH_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSS_SS_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN8dispatch8callbackIU13block_pointerFvNS_10shared_ptrIN6CtrXPC5EventEEEEEEEENS_19__map_value_compareIS7_SH_NS_4lessIS7_EELb1EEENS5_ISH_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSS_IJEEEEEENS_4pairINS_15__tree_iteratorISH_PNS_11__tree_nodeISH_PvEElEEbEERKT_DpOT0_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN8dispatch8callbackIU13block_pointerFvNS_10shared_ptrIN6CtrXPC5EventEEEEEEEENS_19__map_value_compareIS7_SH_NS_4lessIS7_EELb1EEENS5_ISH_EEE4findIS7_EENS_15__tree_iteratorISH_PNS_11__tree_nodeISH_PvEElEERKT_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN8dispatch8callbackIU13block_pointerFvNS_10shared_ptrIN6CtrXPC5EventEEEEEEEENS_19__map_value_compareIS7_SH_NS_4lessIS7_EELb1EEENS5_ISH_EEE7destroyEPNS_11__tree_nodeISH_PvEE
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_S8_NS_4lessIS7_EELb1EEENS5_IS8_EEE12__find_equalIS7_EERPNS_16__tree_node_baseIPvEENS_21__tree_const_iteratorIS8_PNS_11__tree_nodeIS8_SH_EElEERPNS_15__tree_end_nodeISJ_EESK_RKT_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_S8_NS_4lessIS7_EELb1EEENS5_IS8_EEE12__find_equalIS7_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISJ_EERKT_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_S8_NS_4lessIS7_EELb1EEENS5_IS8_EEE16__construct_nodeIJRKNS_4pairIKS7_S7_EEEEENS_10unique_ptrINS_11__tree_nodeIS8_PvEENS_22__tree_node_destructorINS5_ISO_EEEEEEDpOT_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_S8_NS_4lessIS7_EELb1EEENS5_IS8_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSJ_SJ_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_S8_NS_4lessIS7_EELb1EEENS5_IS8_EEE30__emplace_hint_unique_key_argsIS7_JRKNS_4pairIKS7_S7_EEEEENSG_INS_15__tree_iteratorIS8_PNS_11__tree_nodeIS8_PvEElEEbEENS_21__tree_const_iteratorIS8_SP_lEERKT_DpOT0_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_S8_NS_4lessIS7_EELb1EEENS5_IS8_EEE7destroyEPNS_11__tree_nodeIS8_PvEE
+- __ZNSt3__1eqB8ne200100IcNS_11char_traitsIcEENS_9allocatorIcEEEEbRKNS_12basic_stringIT_T0_T1_EEPKS6_
+- ___Block_byref_object_copy_.42
+- ___Block_byref_object_dispose_.43
+- _objc_claimAutoreleasedReturnValue
+- _objc_retain
+- _objc_retain_x25
+- _objc_retain_x3
+- _objc_retain_x4
+CStrings:
++ ""
++ "$"
++ "%"
++ "%s:%d Returning client api call"
++ "("
++ "-[CtrClient getThreadMeshWirelessInsights:completionHandler:]"
++ "-[CtrClient getThreadMeshWirelessInsights:completionHandler:]_block_invoke"
++ "@\"CtrMeshDiagAsymmetricLinksResult\""
++ "@\"CtrMeshDiagBottleneckNodesResult\""
++ "@\"CtrMeshDiagCriticalNodesResult\""
++ "@\"CtrMeshDiagResilienceMetadata\""
++ "@\"CtrMeshDiagResilienceResult\""
++ "@\"CtrMeshDiagUnreachableNodesResult\""
++ "@\"CtrMeshDiagUnreliableNodesResult\""
++ "@\"CtrMeshDiagUnsupportedEnhancedDiagnosticsResult\""
++ "@\"NSArray\""
++ "@\"NSData\""
++ "@108@0:8@16S24C28@32@40@48S56C60@64@72C80C84C88@92@100"
++ "@24@0:8^v16"
++ "@28@0:8C16@20"
++ "@32@0:8^v16r*24"
++ "@52@0:8@16S24C28B32@36@44"
++ "@64@0:8@16@24S32S36C40C44C48C52c56c60"
++ "@64@0:8f16f20f24f28f32f36f40f44f48f52@56"
++ "@68@0:8@16S24C28S32B36B40B44B48@52@60"
++ "@76@0:8@16@24@32@40@48@56@64S72"
++ "@76@0:8@16S24C28S32B36B40B44B48@52@60@68"
++ "@80@0:8@16S24C28S32B36B40B44B48I52@56@64@72"
++ "@84@0:8@16S24C28S32S36S40B44B48B52B56@60@68@76"
++ "@96@0:8@16S24C28S32B36B40B44B48B52B56B60@64@72@80@88"
++ "C"
++ "C16@0:8"
++ "CtrMeshDiagAnalysisResults"
++ "CtrMeshDiagAsymmetricLinkInfo"
++ "CtrMeshDiagAsymmetricLinksResult"
++ "CtrMeshDiagBottleneckNodeInfo"
++ "CtrMeshDiagBottleneckNodesResult"
++ "CtrMeshDiagCriticalNodeInfo"
++ "CtrMeshDiagCriticalNodesResult"
++ "CtrMeshDiagResilienceMetadata"
++ "CtrMeshDiagResilienceResult"
++ "CtrMeshDiagUnreachableNodeInfo"
++ "CtrMeshDiagUnreachableNodesResult"
++ "CtrMeshDiagUnreliableNodeInfo"
++ "CtrMeshDiagUnreliableNodesResult"
++ "CtrMeshDiagUnsupportedEnhancedDiagnosticsNodeInfo"
++ "CtrMeshDiagUnsupportedEnhancedDiagnosticsResult"
++ "Get Thread Mesh Wireless Insights succeeded ... \n"
++ "Get Thread Mesh Wireless Insights: randomized=%d"
++ "I"
++ "I16@0:8"
++ "Invalid hex string length %zu for extended address (must be even): %s"
++ "Parsed wireless insights - critical: %u, unreliable: %u, unreachable: %u, asymmetric links: %u, bottleneck: %u, unsupported: %u, health score: %u"
++ "S"
++ "S16@0:8"
++ "T@\"CtrMeshDiagAsymmetricLinksResult\",R,V_asymmetricLinksResult"
++ "T@\"CtrMeshDiagBottleneckNodesResult\",R,V_bottleneckNodesResult"
++ "T@\"CtrMeshDiagCriticalNodesResult\",R,V_criticalNodesResult"
++ "T@\"CtrMeshDiagResilienceMetadata\",R,V_metadata"
++ "T@\"CtrMeshDiagResilienceResult\",R,V_resilienceResult"
++ "T@\"CtrMeshDiagUnreachableNodesResult\",R,V_unreachableNodesResult"
++ "T@\"CtrMeshDiagUnreliableNodesResult\",R,V_unreliableNodesResult"
++ "T@\"CtrMeshDiagUnsupportedEnhancedDiagnosticsResult\",R,V_unsupportedEnhancedDiagnosticsResult"
++ "T@\"NSArray\",R,V_asymmetricLinks"
++ "T@\"NSArray\",R,V_bottleneckNodes"
++ "T@\"NSArray\",R,V_criticalNodes"
++ "T@\"NSArray\",R,V_ipv6Addresses"
++ "T@\"NSArray\",R,V_nodeAIpv6Addresses"
++ "T@\"NSArray\",R,V_nodeBIpv6Addresses"
++ "T@\"NSArray\",R,V_unreachableNodes"
++ "T@\"NSArray\",R,V_unreliableNodes"
++ "T@\"NSArray\",R,V_unsupportedNodes"
++ "T@\"NSData\",R,V_extAddress"
++ "T@\"NSData\",R,V_linkQualities"
++ "T@\"NSData\",R,V_nodeAExtAddress"
++ "T@\"NSData\",R,V_nodeBExtAddress"
++ "T@\"NSString\",R,V_nodeAVendorModel"
++ "T@\"NSString\",R,V_nodeAVendorName"
++ "T@\"NSString\",R,V_nodeBVendorModel"
++ "T@\"NSString\",R,V_nodeBVendorName"
++ "T@\"NSString\",R,V_scoreSummary"
++ "T@\"NSString\",R,V_vendorModel"
++ "T@\"NSString\",R,V_vendorName"
++ "TB,R,V_extAddressKnown"
++ "TB,R,V_hasEnhancedRoute"
++ "TB,R,V_hasOffgridRoute"
++ "TB,R,V_hasVendorRoute"
++ "TB,R,V_isBorderRouter"
++ "TB,R,V_isLeader"
++ "TB,R,V_isThisDevice"
++ "TB,R,V_isThisDeviceParent"
++ "TC,R,V_asymmetricLinkCount"
++ "TC,R,V_bottleneckNodeCount"
++ "TC,R,V_costDifference"
++ "TC,R,V_criticalNodeCount"
++ "TC,R,V_forwardLinkCost"
++ "TC,R,V_healthScore"
++ "TC,R,V_nodeARouterId"
++ "TC,R,V_nodeBRouterId"
++ "TC,R,V_reverseLinkCost"
++ "TC,R,V_routerId"
++ "TC,R,V_unreachableNodeCount"
++ "TC,R,V_unreliableNodeCount"
++ "TC,R,V_unsupportedNodeCount"
++ "TI,R,V_trafficThroughput"
++ "TS,R,V_nodeARloc16"
++ "TS,R,V_nodeBRloc16"
++ "TS,R,V_reasonFlags"
++ "TS,R,V_rloc16"
++ "TS,R,V_userActionFlags"
++ "TS,R,V_version"
++ "Tf,R,V_penaltyAsymmetricLinks"
++ "Tf,R,V_penaltyBottlenecks"
++ "Tf,R,V_penaltyCriticalNodes"
++ "Tf,R,V_penaltyUnreachableNodes"
++ "Tf,R,V_penaltyUnreliableNodes"
++ "Tf,R,V_weightAsymmetricLinks"
++ "Tf,R,V_weightBottlenecks"
++ "Tf,R,V_weightCriticalNodes"
++ "Tf,R,V_weightUnreachableNodes"
++ "Tf,R,V_weightUnreliableNodes"
++ "_asymmetricLinkCount"
++ "_asymmetricLinks"
++ "_asymmetricLinksResult"
++ "_bottleneckNodeCount"
++ "_bottleneckNodes"
++ "_bottleneckNodesResult"
++ "_costDifference"
++ "_criticalNodeCount"
++ "_criticalNodes"
++ "_criticalNodesResult"
++ "_extAddress"
++ "_extAddressKnown"
++ "_forwardLinkCost"
++ "_hasEnhancedRoute"
++ "_hasOffgridRoute"
++ "_hasVendorRoute"
++ "_healthScore"
++ "_ipv6Addresses"
++ "_isBorderRouter"
++ "_isLeader"
++ "_isThisDevice"
++ "_isThisDeviceParent"
++ "_linkQualities"
++ "_metadata"
++ "_nodeAExtAddress"
++ "_nodeAIpv6Addresses"
++ "_nodeARloc16"
++ "_nodeARouterId"
++ "_nodeAVendorModel"
++ "_nodeAVendorName"
++ "_nodeBExtAddress"
++ "_nodeBIpv6Addresses"
++ "_nodeBRloc16"
++ "_nodeBRouterId"
++ "_nodeBVendorModel"
++ "_nodeBVendorName"
++ "_penaltyAsymmetricLinks"
++ "_penaltyBottlenecks"
++ "_penaltyCriticalNodes"
++ "_penaltyUnreachableNodes"
++ "_penaltyUnreliableNodes"
++ "_reasonFlags"
++ "_resilienceResult"
++ "_reverseLinkCost"
++ "_rloc16"
++ "_routerId"
++ "_scoreSummary"
++ "_trafficThroughput"
++ "_unreachableNodeCount"
++ "_unreachableNodes"
++ "_unreachableNodesResult"
++ "_unreliableNodeCount"
++ "_unreliableNodes"
++ "_unreliableNodesResult"
++ "_unsupportedEnhancedDiagnosticsResult"
++ "_unsupportedNodeCount"
++ "_unsupportedNodes"
++ "_userActionFlags"
++ "_vendorModel"
++ "_vendorName"
++ "_version"
++ "_weightAsymmetricLinks"
++ "_weightBottlenecks"
++ "_weightCriticalNodes"
++ "_weightUnreachableNodes"
++ "_weightUnreliableNodes"
++ "appendBytes:length:"
++ "array"
++ "asymmetricLinkCount"
++ "asymmetricLinks"
++ "asymmetricLinksResult"
++ "bottleneckNodeCount"
++ "bottleneckNodes"
++ "bottleneckNodesResult"
++ "com.apple.private.fillmore.threadMeshWirelessInsights"
++ "costDifference"
++ "criticalNodeCount"
++ "criticalNodes"
++ "criticalNodesResult"
++ "data"
++ "dataWithBytes:length:"
++ "dataWithCapacity:"
++ "decodeFloatForKey:"
++ "decodeInt32ForKey:"
++ "encodeFloat:forKey:"
++ "encodeInt32:forKey:"
++ "extAddress"
++ "extAddressKnown"
++ "f"
++ "f16@0:8"
++ "forwardLinkCost"
++ "getThreadMeshWirelessInsights:completionHandler:"
++ "hasEnhancedRoute"
++ "hasOffgridRoute"
++ "hasVendorRoute"
++ "healthScore"
++ "initWithAsymmetricLinkCount:asymmetricLinks:"
++ "initWithBottleneckNodeCount:bottleneckNodes:"
++ "initWithCriticalNodeCount:criticalNodes:"
++ "initWithCriticalNodesResult:unreliableNodesResult:unreachableNodesResult:asymmetricLinksResult:bottleneckNodesResult:unsupportedEnhancedDiagnosticsResult:resilienceResult:version:"
++ "initWithExtAddress:rloc16:routerId:extAddressKnown:vendorName:vendorModel:"
++ "initWithExtAddress:rloc16:routerId:version:isThisDevice:isThisDeviceParent:isLeader:isBorderRouter:hasEnhancedRoute:hasVendorRoute:hasOffgridRoute:vendorName:vendorModel:linkQualities:ipv6Addresses:"
++ "initWithExtAddress:rloc16:routerId:version:isThisDevice:isThisDeviceParent:isLeader:isBorderRouter:trafficThroughput:vendorName:vendorModel:ipv6Addresses:"
++ "initWithExtAddress:rloc16:routerId:version:isThisDevice:isThisDeviceParent:isLeader:isBorderRouter:vendorName:vendorModel:"
++ "initWithExtAddress:rloc16:routerId:version:isThisDevice:isThisDeviceParent:isLeader:isBorderRouter:vendorName:vendorModel:ipv6Addresses:"
++ "initWithExtAddress:rloc16:routerId:version:reasonFlags:userActionFlags:isThisDevice:isThisDeviceParent:isLeader:isBorderRouter:vendorName:vendorModel:ipv6Addresses:"
++ "initWithHealthScore:metadata:"
++ "initWithNodeAExtAddress:nodeARloc16:nodeARouterId:nodeAVendorName:nodeAVendorModel:nodeBExtAddress:nodeBRloc16:nodeBRouterId:nodeBVendorName:nodeBVendorModel:forwardLinkCost:reverseLinkCost:costDifference:nodeAIpv6Addresses:nodeBIpv6Addresses:"
++ "initWithNodeAExtAddress:peerExtAddress:localRloc16:peerRloc16:localRouterId:peerRouterId:localLinkQuality:peerLinkQuality:localRssi:peerRssi:"
++ "initWithPenaltyCriticalNodes:penaltyBottlenecks:penaltyAsymmetricLinks:penaltyUnreliableNodes:penaltyUnreachableNodes:weightCriticalNodes:weightBottlenecks:weightAsymmetricLinks:weightUnreliableNodes:weightUnreachableNodes:scoreSummary:"
++ "initWithUnreachableNodeCount:unreachableNodes:"
++ "initWithUnreliableNodeCount:unreliableNodes:"
++ "initWithUnsupportedNodeCount:unsupportedNodes:"
++ "ipv6Addresses"
++ "isBorderRouter"
++ "isLeader"
++ "isThisDevice"
++ "isThisDeviceParent"
++ "length"
++ "linkQualities"
++ "meshDiagAnalysisResults"
++ "metadata"
++ "nodeAExtAddress"
++ "nodeAIpv6Addresses"
++ "nodeARloc16"
++ "nodeARouterId"
++ "nodeAVendorModel"
++ "nodeAVendorName"
++ "nodeBExtAddress"
++ "nodeBIpv6Addresses"
++ "nodeBRloc16"
++ "nodeBRouterId"
++ "nodeBVendorModel"
++ "nodeBVendorName"
++ "parseAsymmetricLinksResult:"
++ "parseBottleneckNodesResult:"
++ "parseCriticalNodesResult:"
++ "parseDataArray:key:"
++ "parseExtendedAddress:key:"
++ "parseResilienceResult:"
++ "parseString:key:"
++ "parseStringArray:key:"
++ "parseUnreachableNodesResult:"
++ "parseUnreliableNodesResult:"
++ "parseUnsupportedEnhancedDiagnosticsResult:"
++ "penaltyAsymmetricLinks"
++ "penaltyBottlenecks"
++ "penaltyCriticalNodes"
++ "penaltyUnreachableNodes"
++ "penaltyUnreliableNodes"
++ "randomized"
++ "reasonFlags"
++ "resilience"
++ "resilienceResult"
++ "reverseLinkCost"
++ "rloc16"
++ "routerId"
++ "scanHexInt:"
++ "scannerWithString:"
++ "scoreSummary"
++ "set"
++ "substringWithRange:"
++ "threadMeshWirelessInsights"
++ "trafficThroughput"
++ "unreachableNodeCount"
++ "unreachableNodes"
++ "unreachableNodesResult"
++ "unreliableNodeCount"
++ "unreliableNodes"
++ "unreliableNodesResult"
++ "unsupportedEnhancedDiagnostics"
++ "unsupportedEnhancedDiagnosticsResult"
++ "unsupportedNodeCount"
++ "unsupportedNodes"
++ "userActionFlags"
++ "v28@0:8B16@?20"
++ "vendorModel"
++ "vendorName"
++ "version"
++ "weightAsymmetricLinks"
++ "weightBottlenecks"
++ "weightCriticalNodes"
++ "weightUnreachableNodes"
++ "weightUnreliableNodes"
+
+```

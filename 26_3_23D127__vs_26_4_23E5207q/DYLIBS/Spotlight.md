@@ -1,0 +1,555 @@
+## Spotlight
+
+> `/System/Library/PrivateFrameworks/Spotlight.framework/Spotlight`
+
+```diff
+
+-2400.22.0.0.0
+-  __TEXT.__text: 0x53a4c
+-  __TEXT.__auth_stubs: 0x1040
+-  __TEXT.__objc_methlist: 0x207c
+-  __TEXT.__const: 0x190
+-  __TEXT.__cstring: 0x2cbd
+-  __TEXT.__gcc_except_tab: 0x4e28
+-  __TEXT.__oslogstring: 0x2725
+-  __TEXT.__unwind_info: 0xd08
+-  __TEXT.__eh_frame: 0x60
++2418.4.8.2.100
++  __TEXT.__text: 0x5a1d0
++  __TEXT.__auth_stubs: 0x10d0
++  __TEXT.__objc_methlist: 0x216c
++  __TEXT.__const: 0x1c8
++  __TEXT.__oslogstring: 0x2bda
++  __TEXT.__cstring: 0x36e4
++  __TEXT.__gcc_except_tab: 0x5140
++  __TEXT.__unwind_info: 0xf30
+   __TEXT.__objc_classname: 0x235
+-  __TEXT.__objc_methname: 0x93c1
+-  __TEXT.__objc_methtype: 0x170e
+-  __TEXT.__objc_stubs: 0x8ae0
+-  __DATA_CONST.__got: 0x1318
+-  __DATA_CONST.__const: 0xb98
++  __TEXT.__objc_methname: 0x951e
++  __TEXT.__objc_methtype: 0x1724
++  __TEXT.__objc_stubs: 0x8c20
++  __DATA_CONST.__got: 0x1360
++  __DATA_CONST.__const: 0xbc0
+   __DATA_CONST.__objc_classlist: 0xb0
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x2838
++  __DATA_CONST.__objc_selrefs: 0x28c8
+   __DATA_CONST.__objc_protorefs: 0x8
+-  __DATA_CONST.__objc_superrefs: 0x80
++  __DATA_CONST.__objc_superrefs: 0x60
+   __DATA_CONST.__objc_arraydata: 0x3a8
+-  __AUTH_CONST.__auth_got: 0x838
++  __AUTH_CONST.__auth_got: 0x880
+   __AUTH_CONST.__const: 0x6e0
+-  __AUTH_CONST.__cfstring: 0x2b00
+-  __AUTH_CONST.__objc_const: 0x36d8
++  __AUTH_CONST.__cfstring: 0x2c60
++  __AUTH_CONST.__objc_const: 0x36f8
+   __AUTH_CONST.__objc_intobj: 0x120
+   __AUTH_CONST.__objc_arrayobj: 0x78
+   __AUTH_CONST.__objc_dictobj: 0x50
+   __AUTH_CONST.__objc_doubleobj: 0x10
+   __AUTH.__objc_data: 0xa0
+   __AUTH.__data: 0x28
+-  __DATA.__objc_ivar: 0x388
++  __DATA.__objc_ivar: 0x38c
+   __DATA.__data: 0x280
+   __DATA.__bss: 0xa8
+   __DATA_DIRTY.__objc_data: 0x640
+
+   - /System/Library/PrivateFrameworks/MailServices.framework/MailServices
+   - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+   - /System/Library/PrivateFrameworks/MetadataUtilities.framework/MetadataUtilities
+-  - /System/Library/PrivateFrameworks/MobileSpotlightIndex.framework/MobileSpotlightIndex
+   - /System/Library/PrivateFrameworks/Search.framework/Search
+   - /System/Library/PrivateFrameworks/SearchFoundation.framework/SearchFoundation
+   - /System/Library/PrivateFrameworks/SpotlightDaemon.framework/SpotlightDaemon
++  - /System/Library/PrivateFrameworks/SpotlightIndex.framework/SpotlightIndex
+   - /System/Library/PrivateFrameworks/SpotlightRecommendation.framework/SpotlightRecommendation
+   - /System/Library/PrivateFrameworks/SpotlightResources.framework/SpotlightResources
+   - /System/Library/PrivateFrameworks/SpotlightServices.framework/SpotlightServices
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C213AFC5-2985-3F62-ACB3-8AAEC083A68B
+-  Functions: 965
+-  Symbols:   4719
+-  CStrings:  2829
++  UUID: 191EC686-80EA-383A-95C3-0E6C67E3F2F0
++  Functions: 1003
++  Symbols:   4835
++  CStrings:  2902
+ 
+Symbols:
++ +[SPBookmarkQuery sourceKind]
++ +[SPCSSearchQuery sourceKind]
++ +[SPCalculatorQuery sourceKind]
++ +[SPDictionaryQuery sourceKind]
++ +[SPKDataDetectorsStoreQuery sourceKind]
++ +[SPKWorldClockQuery sourceKind]
++ +[SPParsecQuery sourceKind]
++ +[SPRecommendationQuery sourceKind]
++ -[SPBookmarkQuery _start]
++ -[SPBookmarkQuery createActivity]
++ -[SPCSSearchQuery _cancel]
++ -[SPCSSearchQuery _start]
++ -[SPCSSearchQuery createActivity]
++ -[SPCalculatorQuery _start]
++ -[SPCalculatorQuery createActivity]
++ -[SPDictionaryQuery _start]
++ -[SPDictionaryQuery createActivity]
++ -[SPKDataDetectorsStoreQuery _cancel]
++ -[SPKDataDetectorsStoreQuery _start]
++ -[SPKDataDetectorsStoreQuery createActivity]
++ -[SPKWorldClockQuery _start]
++ -[SPKWorldClockQuery createActivity]
++ -[SPParsecQuery _cancel]
++ -[SPParsecQuery _start]
++ -[SPParsecQuery beginQuerySignpostInterval]
++ -[SPParsecQuery createActivity]
++ -[SPParsecQuery endQuerySignpostInterval]
++ -[SPParsecQuery isParsecQuery]
++ -[SPParsecQuery queryResponseReceivedSignpostEvent:]
++ -[SPRecommendationQuery _start]
++ -[SPRecommendationQuery _start].cold.1
++ -[SPRecommendationQuery createActivity]
++ -[SPSearchCSResult resultWithTime:queryContext:searchString:isCorrectedQuery:error:]
++ -[SPSearchTopHitResult resultWithTime:queryContext:searchString:isCorrectedQuery:error:]
++ GCC_except_table102
++ GCC_except_table108
++ GCC_except_table113
++ GCC_except_table117
++ GCC_except_table128
++ GCC_except_table135
++ GCC_except_table50
++ GCC_except_table59
++ GCC_except_table72
++ GCC_except_table82
++ GCC_except_table83
++ GCC_except_table84
++ GCC_except_table85
++ GCC_except_table86
++ GCC_except_table92
++ GCC_except_table95
++ GCC_except_table99
++ _APP_ENTITY_TYPE_PERSON
++ _CFStringCreateWithFormat
++ _MDItemEventEndDate
++ _MDItemEventFlightArrivalAirportAddressSynonyms
++ _MDItemEventFlightDepartureAirportAddressSynonyms
++ _MDItemEventStartDate
++ _MDItemIsGroupThread
++ _MDItemIsTwoFactorCode
++ _OBJC_CLASS_$_SSSearchToolRankingManager
++ _OBJC_IVAR_$_SPFederatedQueryTask._activity
++ _OUTLINED_FUNCTION_2
++ _OUTLINED_FUNCTION_3
++ _OUTLINED_FUNCTION_4
++ _SPKStringFromResponseKind
++ _SSEnableSearchToolCerberus
++ _SSQueryParseResultsForCerberusQuery
++ __ZL34logSPResultValueItemHashTableEntryyyPK8NSStringPvPS_RK31SPResultValueItemHashTableEntry
++ __ZL34logSPResultValueItemHashTableEntryyyPK8NSStringPvPS_RK31SPResultValueItemHashTableEntry.cold.1
++ __ZN12IndexResults13collectResultEyyPK8NSStringP16CSSearchableItemd
++ __ZN12IndexResults13collectResultEyyPK8NSStringP16CSSearchableItemd.cold.1
++ __ZN13tt_hash_tableI31SPResultValueItemHashTableEntryE32container_table_check_and_insertI37SPResultItemHashTableEntryRankingLessEEbRKS0_PS0_T_
++ __ZN13tt_hash_tableI31SPResultValueItemHashTableEntryE32container_table_check_and_insertI37SPResultItemHashTableEntryRecencyLessEEbRKS0_PS0_T_
++ __ZN13tt_hash_tableI31SPResultValueItemHashTableEntryE32container_table_check_and_insertI37SPResultItemHashTableEntryRecencyLessEEbRKS0_T_
++ __ZNK13tt_hash_tableI31SPResultValueItemHashTableEntryE9enumerateEU13block_pointerFvS0_E
++ __ZNKSt3__110__function6__funcIPDoFbRK17SPResultValueItemS4_EFbS2_S2_EE7__cloneEPNS0_6__baseIS7_EE
++ __ZNKSt3__110__function6__funcIPDoFbRK17SPResultValueItemS4_EFbS2_S2_EE7__cloneEv
++ __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB9fon210106EPKvm
++ __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB9fon210106ERKS6_S9_
++ __ZNSt3__110__function12__value_funcIFb17SPResultValueItemS2_EEC2B9fon210106EOS4_
++ __ZNSt3__110__function12__value_funcIFb17SPResultValueItemS2_EEC2B9fon210106ERKS4_
++ __ZNSt3__110__function12__value_funcIFb17SPResultValueItemS2_EED2B9fon210106Ev
++ __ZNSt3__110__function6__funcIPDoFbRK17SPResultValueItemS4_EFbS2_S2_EE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIPDoFbRK17SPResultValueItemS4_EFbS2_S2_EE7destroyEv
++ __ZNSt3__110__function6__funcIPDoFbRK17SPResultValueItemS4_EFbS2_S2_EED0Ev
++ __ZNSt3__110__function6__funcIPDoFbRK17SPResultValueItemS4_EFbS2_S2_EED1Ev
++ __ZNSt3__110__function6__funcIPDoFbRK17SPResultValueItemS4_EFbS2_S2_EEclEOS2_S9_
++ __ZNSt3__110__pop_heapB9fon210106INS_17_ClassicAlgPolicyENS_8functionIFb17SPResultValueItemS3_EEENS_11__wrap_iterIPS3_EEEEvT1_S9_RT0_NS_15iterator_traitsIS9_E15difference_typeE
++ __ZNSt3__111__sift_downB9fon210106INS_17_ClassicAlgPolicyERNS_8functionIFb17SPResultValueItemS3_EEENS_11__wrap_iterIPS3_EEEEvT1_OT0_NS_15iterator_traitsISA_E15difference_typeESA_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairIU8__strongP22SFMutableResultSectionU8__strongP19NSMutableOrderedSetIP20SPSearchTopHitResultEEEEENS_22__unordered_map_hasherIS7_NS8_IKS7_SI_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SM_SQ_SO_Lb1EEENS5_ISM_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairIU8__strongP22SFMutableResultSectionU8__strongP19NSMutableOrderedSetIP20SPSearchTopHitResultEEEEENS_22__unordered_map_hasherIS7_NS8_IKS7_SI_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SM_SQ_SO_Lb1EEENS5_ISM_EEE14__erase_uniqueIS7_EEmRKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairIU8__strongP22SFMutableResultSectionU8__strongP19NSMutableOrderedSetIP20SPSearchTopHitResultEEEEENS_22__unordered_map_hasherIS7_NS8_IKS7_SI_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SM_SQ_SO_Lb1EEENS5_ISM_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeISJ_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairIU8__strongP22SFMutableResultSectionU8__strongP19NSMutableOrderedSetIP20SPSearchTopHitResultEEEEENS_22__unordered_map_hasherIS7_NS8_IKS7_SI_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SM_SQ_SO_Lb1EEENS5_ISM_EEE21__construct_node_hashIRKNS_21piecewise_construct_tEJNS_5tupleIJRSL_EEENS10_IJEEEEEENS_10unique_ptrINS_11__hash_nodeISJ_PvEENS_22__hash_node_destructorINS5_IS17_EEEEEEmOT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairIU8__strongP22SFMutableResultSectionU8__strongP19NSMutableOrderedSetIP20SPSearchTopHitResultEEEEENS_22__unordered_map_hasherIS7_NS8_IKS7_SI_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SM_SQ_SO_Lb1EEENS5_ISM_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENS10_IJEEEEEENS8_INS_15__hash_iteratorIPNS_11__hash_nodeISJ_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairIU8__strongP22SFMutableResultSectionU8__strongP19NSMutableOrderedSetIP20SPSearchTopHitResultEEEEENS_22__unordered_map_hasherIS7_NS8_IKS7_SI_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SM_SQ_SO_Lb1EEENS5_ISM_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRSL_EEENS10_IJEEEEEENS8_INS_15__hash_iteratorIPNS_11__hash_nodeISJ_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairIU8__strongP22SFMutableResultSectionU8__strongP19NSMutableOrderedSetIP20SPSearchTopHitResultEEEEENS_22__unordered_map_hasherIS7_NS8_IKS7_SI_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SM_SQ_SO_Lb1EEENS5_ISM_EEE4findIS7_EENS_15__hash_iteratorIPNS_11__hash_nodeISJ_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairIU8__strongP22SFMutableResultSectionU8__strongP19NSMutableOrderedSetIP20SPSearchTopHitResultEEEEENS_22__unordered_map_hasherIS7_NS8_IKS7_SI_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SM_SQ_SO_Lb1EEENS5_ISM_EEE5eraseENS_21__hash_const_iteratorIPNS_11__hash_nodeISJ_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairIU8__strongP22SFMutableResultSectionU8__strongP19NSMutableOrderedSetIP20SPSearchTopHitResultEEEEENS_22__unordered_map_hasherIS7_NS8_IKS7_SI_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SM_SQ_SO_Lb1EEENS5_ISM_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeISJ_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairIU8__strongP22SFMutableResultSectionU8__strongP19NSMutableOrderedSetIP20SPSearchTopHitResultEEEEENS_22__unordered_map_hasherIS7_NS8_IKS7_SI_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SM_SQ_SO_Lb1EEENS5_ISM_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairIU8__strongP22SFMutableResultSectionU8__strongP19NSMutableOrderedSetIP20SPSearchTopHitResultEEEEENS_22__unordered_map_hasherIS7_NS8_IKS7_SI_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SM_SQ_SO_Lb1EEENS5_ISM_EEED2Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9fon210106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9fon210106ILi0EEEPKc
++ __ZNSt3__114__split_bufferI17SPResultValueItemRNS_9allocatorIS1_EEE5clearB9fon210106Ev
++ __ZNSt3__116allocator_traitsINS_9allocatorI17SPResultValueItemEEE7destroyB9fon210106IS2_Li0EEEvRS3_PT_
++ __ZNSt3__116allocator_traitsINS_9allocatorI17SPResultValueItemEEE9constructB9fon210106IS2_JRS2_ELi0EEEvRS3_PT_DpOT0_
++ __ZNSt3__117__floyd_sift_downB9fon210106INS_17_ClassicAlgPolicyERNS_8functionIFb17SPResultValueItemS3_EEENS_11__wrap_iterIPS3_EEEET1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
++ __ZNSt3__119__allocate_at_leastB9fon210106INS_9allocatorI12IndexResultsEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB9fon210106INS_9allocatorI17SPResultValueItemEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB9fon210106INS_9allocatorI31SPResultValueItemHashTableEntryEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE18__hash_len_0_to_16B9fon210106EPKcm
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_17_to_32B9fon210106EPKcm
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_33_to_64B9fon210106EPKcm
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEENS_4pairIU8__strongP22SFMutableResultSectionU8__strongP19NSMutableOrderedSetIP20SPSearchTopHitResultEEEEEPvEEEEEclB9fon210106EPSM_
++ __ZNSt3__125__throw_bad_function_callB9fon210106Ev
++ __ZNSt3__132__internal_log_hardening_failureEPKc
++ __ZNSt3__134__uninitialized_allocator_relocateB9fon210106INS_9allocatorI12IndexResultsEEPS2_EEvRT_T0_S7_S7_
++ __ZNSt3__134__uninitialized_allocator_relocateB9fon210106INS_9allocatorI17SPResultValueItemEEPS2_EEvRT_T0_S7_S7_
++ __ZNSt3__135__uninitialized_allocator_copy_implB9fon210106INS_9allocatorI31SPResultValueItemHashTableEntryEEPS2_S4_S4_EET2_RT_T0_T1_S5_
++ __ZNSt3__16vectorI12IndexResultsNS_9allocatorIS1_EEE16__destroy_vectorclB9fon210106Ev
++ __ZNSt3__16vectorI12IndexResultsNS_9allocatorIS1_EEE20__throw_length_errorB9fon210106Ev
++ __ZNSt3__16vectorI12IndexResultsNS_9allocatorIS1_EEE20__throw_out_of_rangeB9fon210106Ev
++ __ZNSt3__16vectorI12IndexResultsNS_9allocatorIS1_EEE5clearB9fon210106Ev
++ __ZNSt3__16vectorI17SPResultValueItemNS_9allocatorIS1_EEE11__vallocateB9fon210106Em
++ __ZNSt3__16vectorI17SPResultValueItemNS_9allocatorIS1_EEE16__destroy_vectorclB9fon210106Ev
++ __ZNSt3__16vectorI17SPResultValueItemNS_9allocatorIS1_EEE16__init_with_sizeB9fon210106IPS1_S6_EEvT_T0_m
++ __ZNSt3__16vectorI17SPResultValueItemNS_9allocatorIS1_EEE20__throw_length_errorB9fon210106Ev
++ __ZNSt3__16vectorI17SPResultValueItemNS_9allocatorIS1_EEE8pop_backB9fon210106Ev
++ __ZNSt3__16vectorI31SPResultValueItemHashTableEntryNS_9allocatorIS1_EEE11__vallocateB9fon210106Em
++ __ZNSt3__16vectorI31SPResultValueItemHashTableEntryNS_9allocatorIS1_EEE16__destroy_vectorclB9fon210106Ev
++ __ZNSt3__16vectorI31SPResultValueItemHashTableEntryNS_9allocatorIS1_EEE16__init_with_sizeB9fon210106IPS1_S6_EEvT_T0_m
++ __ZNSt3__16vectorI31SPResultValueItemHashTableEntryNS_9allocatorIS1_EEE20__throw_length_errorB9fon210106Ev
++ __ZNSt3__16vectorI31SPResultValueItemHashTableEntryNS_9allocatorIS1_EEE5clearB9fon210106Ev
++ __ZNSt3__16vectorI31SPResultValueItemHashTableEntryNS_9allocatorIS1_EEEC2B9fon210106EmRKS1_
++ __ZNSt3__19__sift_upB9fon210106INS_17_ClassicAlgPolicyERNS_8functionIFb17SPResultValueItemS3_EEENS_11__wrap_iterIPS3_EEEEvT1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
++ __ZSt28__throw_bad_array_new_lengthB9fon210106v
++ __ZTVNSt3__110__function6__funcIPDoFbRK17SPResultValueItemS4_EFbS2_S2_EEE
++ __ZZN12_GLOBAL__N_136topHitQueryParametersForSearchStringEP20SPSearchQueryContextP8NSStringS3_bbbbS3_S3_E26sSmallCompletionAttributes
++ __ZZN12_GLOBAL__N_136topHitQueryParametersForSearchStringEP20SPSearchQueryContextP8NSStringS3_bbbbS3_S3_E28sDefaultCompletionAttributes
++ __ZZN12_GLOBAL__N_136topHitQueryParametersForSearchStringEP20SPSearchQueryContextP8NSStringS3_bbbbS3_S3_E29onceCompletionAttributesToken
++ ___24-[SPParsecQuery _cancel]_block_invoke
++ ___24-[SPParsecQuery _cancel]_block_invoke_2
++ ___25-[SPCSSearchQuery _start]_block_invoke
++ ___26-[SPCSSearchQuery _cancel]_block_invoke
++ ___27-[SPCalculatorQuery _start]_block_invoke
++ ___27-[SPCalculatorQuery _start]_block_invoke_2
++ ___27-[SPDictionaryQuery _start]_block_invoke
++ ___27-[SPDictionaryQuery _start]_block_invoke.cold.1
++ ___27-[SPDictionaryQuery _start]_block_invoke_2
++ ___28-[SPKWorldClockQuery _start]_block_invoke
++ ___30-[SPFederatedQueryTask cancel]_block_invoke
++ ___31-[SPRecommendationQuery _start]_block_invoke
++ ___31-[SPRecommendationQuery _start]_block_invoke.154
++ ___36-[SPKDataDetectorsStoreQuery _start]_block_invoke
++ ___40-[SPFederatedQueryTask addAndStartQuery]_block_invoke.805
++ ___40-[SPFederatedQueryTask addAndStartQuery]_block_invoke_2.810
++ ___47-[SPCSSearchQuery updateMailAttachmentResults:]_block_invoke.633
++ ___51-[SPFederatedQueryTask sendFinishedDomains:reason:]_block_invoke.691
++ ___51-[SPFederatedQueryTask sendFinishedDomains:reason:]_block_invoke.695
++ ___76-[SPFederatedQueryTask storeCompletedSearch:withSections:suggestionResults:]_block_invoke.753
++ ___76-[SPFederatedQueryTask storeCompletedSearch:withSections:suggestionResults:]_block_invoke.758
++ ___76-[SPFederatedQueryTask storeCompletedSearch:withSections:suggestionResults:]_block_invoke.763
++ ___76-[SPFederatedQueryTask storeCompletedSearch:withSections:suggestionResults:]_block_invoke.776
++ ___76-[SPFederatedQueryTask storeCompletedSearch:withSections:suggestionResults:]_block_invoke.778
++ ____ZN12_GLOBAL__N_117updateMailVIPListEv_block_invoke.1066
++ ____ZN12_GLOBAL__N_117updateMailVIPListEv_block_invoke.1066.cold.1
++ ____ZN12_GLOBAL__N_136topHitQueryParametersForSearchStringEP20SPSearchQueryContextP8NSStringS3_bbbbS3_S3__block_invoke
++ ___block_descriptor_48_e8_32s40w_e5_v8?0ls32l8w40l8
++ ___block_literal_global.1064
++ ___block_literal_global.228
++ ___block_literal_global.245
++ ___block_literal_global.274
++ ___block_literal_global.293
++ ___block_literal_global.682
++ ___block_literal_global.683
++ ___block_literal_global.685
++ ___block_literal_global.708
++ ___block_literal_global.744
++ ___block_literal_global.752
++ ___block_literal_global.766
++ ___block_literal_global.780
++ ___block_literal_global.832
++ ___block_literal_global.859
++ ___block_literal_global.871
++ ___chkstk_darwin
++ ___error
++ __md_fd_token_valid
++ __md_fd_token_write
++ __md_utf8_cstr
++ __os_activity_create
++ __os_activity_current
++ __os_activity_initiate
++ __start.once
++ __start.recQueue
++ _getEcrGroundedPersonFromGroundedOutput
++ _objc_msgSend$cStringUsingEncoding:
++ _objc_msgSend$containerIdentifier
++ _objc_msgSend$hasReadPurpose
++ _objc_msgSend$initWithAttrs:isSearchToolClient:
++ _objc_msgSend$isEventIntentForQueryUnderstandingOutput:isSearchToolClient:isSearchToolCerberus:
++ _objc_msgSend$isInstantAnswerTriggerQuery:isCJK:isSearchToolClient:
++ _objc_msgSend$pqaEntityTypes
++ _objc_msgSend$pqaUseOfflineMode
++ _objc_msgSend$processSections:queryContext:
++ _objc_msgSend$querySignpostId
++ _objc_msgSend$resultWithTime:queryContext:searchString:isCorrectedQuery:error:
++ _objc_msgSend$searchToolQUSignals
++ _objc_msgSend$sendEmptyResponseIfNecessary
++ _objc_msgSend$setHasReadPurpose:
++ _objc_msgSend$setQuerySignpostId:
++ _objc_msgSend$spQUParses
++ _object_getClassName
++ _os_activity_apply
++ _os_activity_scope_enter
++ _os_activity_scope_leave
+- -[SPBookmarkQuery start]
+- -[SPCSSearchQuery cancel]
+- -[SPCSSearchQuery start]
+- -[SPCalculatorQuery start]
+- -[SPDictionaryQuery start]
+- -[SPKDataDetectorsStoreQuery cancel]
+- -[SPKDataDetectorsStoreQuery start]
+- -[SPKWorldClockQuery start]
+- -[SPParsecQuery cancel]
+- -[SPParsecQuery start]
+- -[SPRecommendationQuery start]
+- -[SPRecommendationQuery start].cold.1
+- -[SPSearchCSResult resultWithTime:searchString:isCorrectedQuery:withQueryContext:]
+- -[SPSearchTopHitResult resultWithTime:searchString:isCorrectedQuery:withQueryContext:]
+- GCC_except_table106
+- GCC_except_table115
+- GCC_except_table126
+- GCC_except_table132
+- GCC_except_table15
+- GCC_except_table52
+- GCC_except_table7
+- GCC_except_table74
+- GCC_except_table77
+- GCC_except_table78
+- GCC_except_table79
+- GCC_except_table90
+- GCC_except_table93
+- GCC_except_table94
+- GCC_except_table97
+- __ZL34logSPResultValueItemHashTableEntryyPK8NSStringPvPS_RK31SPResultValueItemHashTableEntry
+- __ZL34logSPResultValueItemHashTableEntryyPK8NSStringPvPS_RK31SPResultValueItemHashTableEntry.cold.1
+- __ZN12IndexResults13collectResultEyPK8NSStringP16CSSearchableItemd
+- __ZN12IndexResults13collectResultEyPK8NSStringP16CSSearchableItemd.cold.1
+- __ZNKSt3__110__function6__funcIPDoFbRK17SPResultValueItemS4_ENS_9allocatorIS6_EEFbS2_S2_EE7__cloneEPNS0_6__baseIS9_EE
+- __ZNKSt3__110__function6__funcIPDoFbRK17SPResultValueItemS4_ENS_9allocatorIS6_EEFbS2_S2_EE7__cloneEv
+- __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB8nn200100EPKvm
+- __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB8nn200100ERKS6_S9_
+- __ZNSt3__110__function12__value_funcIFb17SPResultValueItemS2_EEC2B8nn200100EOS4_
+- __ZNSt3__110__function12__value_funcIFb17SPResultValueItemS2_EEC2B8nn200100ERKS4_
+- __ZNSt3__110__function12__value_funcIFb17SPResultValueItemS2_EED2B8nn200100Ev
+- __ZNSt3__110__function6__funcIPDoFbRK17SPResultValueItemS4_ENS_9allocatorIS6_EEFbS2_S2_EE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIPDoFbRK17SPResultValueItemS4_ENS_9allocatorIS6_EEFbS2_S2_EE7destroyEv
+- __ZNSt3__110__function6__funcIPDoFbRK17SPResultValueItemS4_ENS_9allocatorIS6_EEFbS2_S2_EED0Ev
+- __ZNSt3__110__function6__funcIPDoFbRK17SPResultValueItemS4_ENS_9allocatorIS6_EEFbS2_S2_EED1Ev
+- __ZNSt3__110__function6__funcIPDoFbRK17SPResultValueItemS4_ENS_9allocatorIS6_EEFbS2_S2_EEclEOS2_SB_
+- __ZNSt3__110__pop_heapB8nn200100INS_17_ClassicAlgPolicyENS_8functionIFb17SPResultValueItemS3_EEENS_11__wrap_iterIPS3_EEEEvT1_S9_RT0_NS_15iterator_traitsIS9_E15difference_typeE
+- __ZNSt3__111__sift_downB8nn200100INS_17_ClassicAlgPolicyERNS_8functionIFb17SPResultValueItemS3_EEENS_11__wrap_iterIPS3_EEEEvT1_OT0_NS_15iterator_traitsISA_E15difference_typeESA_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairIU8__strongP22SFMutableResultSectionU8__strongP19NSMutableOrderedSetIP20SPSearchTopHitResultEEEEENS_22__unordered_map_hasherIS7_SJ_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SJ_SO_SM_Lb1EEENS5_ISJ_EEE11__do_rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairIU8__strongP22SFMutableResultSectionU8__strongP19NSMutableOrderedSetIP20SPSearchTopHitResultEEEEENS_22__unordered_map_hasherIS7_SJ_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SJ_SO_SM_Lb1EEENS5_ISJ_EEE14__erase_uniqueIS7_EEmRKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairIU8__strongP22SFMutableResultSectionU8__strongP19NSMutableOrderedSetIP20SPSearchTopHitResultEEEEENS_22__unordered_map_hasherIS7_SJ_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SJ_SO_SM_Lb1EEENS5_ISJ_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeISJ_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairIU8__strongP22SFMutableResultSectionU8__strongP19NSMutableOrderedSetIP20SPSearchTopHitResultEEEEENS_22__unordered_map_hasherIS7_SJ_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SJ_SO_SM_Lb1EEENS5_ISJ_EEE21__construct_node_hashIRKNS_21piecewise_construct_tEJNS_5tupleIJRKS7_EEENSY_IJEEEEEENS_10unique_ptrINS_11__hash_nodeISJ_PvEENS_22__hash_node_destructorINS5_IS16_EEEEEEmOT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairIU8__strongP22SFMutableResultSectionU8__strongP19NSMutableOrderedSetIP20SPSearchTopHitResultEEEEENS_22__unordered_map_hasherIS7_SJ_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SJ_SO_SM_Lb1EEENS5_ISJ_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENSY_IJEEEEEENS8_INS_15__hash_iteratorIPNS_11__hash_nodeISJ_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairIU8__strongP22SFMutableResultSectionU8__strongP19NSMutableOrderedSetIP20SPSearchTopHitResultEEEEENS_22__unordered_map_hasherIS7_SJ_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SJ_SO_SM_Lb1EEENS5_ISJ_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSY_IJEEEEEENS8_INS_15__hash_iteratorIPNS_11__hash_nodeISJ_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairIU8__strongP22SFMutableResultSectionU8__strongP19NSMutableOrderedSetIP20SPSearchTopHitResultEEEEENS_22__unordered_map_hasherIS7_SJ_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SJ_SO_SM_Lb1EEENS5_ISJ_EEE4findIS7_EENS_15__hash_iteratorIPNS_11__hash_nodeISJ_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairIU8__strongP22SFMutableResultSectionU8__strongP19NSMutableOrderedSetIP20SPSearchTopHitResultEEEEENS_22__unordered_map_hasherIS7_SJ_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SJ_SO_SM_Lb1EEENS5_ISJ_EEE5eraseENS_21__hash_const_iteratorIPNS_11__hash_nodeISJ_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairIU8__strongP22SFMutableResultSectionU8__strongP19NSMutableOrderedSetIP20SPSearchTopHitResultEEEEENS_22__unordered_map_hasherIS7_SJ_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SJ_SO_SM_Lb1EEENS5_ISJ_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeISJ_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairIU8__strongP22SFMutableResultSectionU8__strongP19NSMutableOrderedSetIP20SPSearchTopHitResultEEEEENS_22__unordered_map_hasherIS7_SJ_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SJ_SO_SM_Lb1EEENS5_ISJ_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairIU8__strongP22SFMutableResultSectionU8__strongP19NSMutableOrderedSetIP20SPSearchTopHitResultEEEEENS_22__unordered_map_hasherIS7_SJ_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SJ_SO_SM_Lb1EEENS5_ISJ_EEED2Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8nn200100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8nn200100ILi0EEEPKc
+- __ZNSt3__114__split_bufferI17SPResultValueItemRNS_9allocatorIS1_EEE5clearB8nn200100Ev
+- __ZNSt3__116allocator_traitsINS_9allocatorI17SPResultValueItemEEE7destroyB8nn200100IS2_Li0EEEvRS3_PT_
+- __ZNSt3__116allocator_traitsINS_9allocatorI17SPResultValueItemEEE9constructB8nn200100IS2_JRS2_ELi0EEEvRS3_PT_DpOT0_
+- __ZNSt3__117__floyd_sift_downB8nn200100INS_17_ClassicAlgPolicyERNS_8functionIFb17SPResultValueItemS3_EEENS_11__wrap_iterIPS3_EEEET1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
+- __ZNSt3__119__allocate_at_leastB8nn200100INS_9allocatorI12IndexResultsEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn200100INS_9allocatorI17SPResultValueItemEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn200100INS_9allocatorI31SPResultValueItemHashTableEntryEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__121__murmur2_or_cityhashImLm64EE18__hash_len_0_to_16B8nn200100EPKcm
+- __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_17_to_32B8nn200100EPKcm
+- __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_33_to_64B8nn200100EPKcm
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEENS_4pairIU8__strongP22SFMutableResultSectionU8__strongP19NSMutableOrderedSetIP20SPSearchTopHitResultEEEEEPvEEEEEclB8nn200100EPSM_
+- __ZNSt3__125__throw_bad_function_callB8nn200100Ev
+- __ZNSt3__134__uninitialized_allocator_relocateB8nn200100INS_9allocatorI12IndexResultsEEPS2_EEvRT_T0_S7_S7_
+- __ZNSt3__134__uninitialized_allocator_relocateB8nn200100INS_9allocatorI17SPResultValueItemEEPS2_EEvRT_T0_S7_S7_
+- __ZNSt3__135__uninitialized_allocator_copy_implB8nn200100INS_9allocatorI31SPResultValueItemHashTableEntryEEPS2_S4_S4_EET2_RT_T0_T1_S5_
+- __ZNSt3__16vectorI12IndexResultsNS_9allocatorIS1_EEE16__destroy_vectorclB8nn200100Ev
+- __ZNSt3__16vectorI12IndexResultsNS_9allocatorIS1_EEE20__throw_length_errorB8nn200100Ev
+- __ZNSt3__16vectorI12IndexResultsNS_9allocatorIS1_EEE20__throw_out_of_rangeB8nn200100Ev
+- __ZNSt3__16vectorI12IndexResultsNS_9allocatorIS1_EEE5clearB8nn200100Ev
+- __ZNSt3__16vectorI17SPResultValueItemNS_9allocatorIS1_EEE11__vallocateB8nn200100Em
+- __ZNSt3__16vectorI17SPResultValueItemNS_9allocatorIS1_EEE16__destroy_vectorclB8nn200100Ev
+- __ZNSt3__16vectorI17SPResultValueItemNS_9allocatorIS1_EEE16__init_with_sizeB8nn200100IPS1_S6_EEvT_T0_m
+- __ZNSt3__16vectorI17SPResultValueItemNS_9allocatorIS1_EEE20__throw_length_errorB8nn200100Ev
+- __ZNSt3__16vectorI31SPResultValueItemHashTableEntryNS_9allocatorIS1_EEE11__vallocateB8nn200100Em
+- __ZNSt3__16vectorI31SPResultValueItemHashTableEntryNS_9allocatorIS1_EEE16__destroy_vectorclB8nn200100Ev
+- __ZNSt3__16vectorI31SPResultValueItemHashTableEntryNS_9allocatorIS1_EEE16__init_with_sizeB8nn200100IPS1_S6_EEvT_T0_m
+- __ZNSt3__16vectorI31SPResultValueItemHashTableEntryNS_9allocatorIS1_EEE20__throw_length_errorB8nn200100Ev
+- __ZNSt3__16vectorI31SPResultValueItemHashTableEntryNS_9allocatorIS1_EEE5clearB8nn200100Ev
+- __ZNSt3__16vectorI31SPResultValueItemHashTableEntryNS_9allocatorIS1_EEEC2B8nn200100EmRKS1_
+- __ZNSt3__19__sift_upB8nn200100INS_17_ClassicAlgPolicyERNS_8functionIFb17SPResultValueItemS3_EEENS_11__wrap_iterIPS3_EEEEvT1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
+- __ZSt28__throw_bad_array_new_lengthB8nn200100v
+- __ZTVNSt3__110__function6__funcIPDoFbRK17SPResultValueItemS4_ENS_9allocatorIS6_EEFbS2_S2_EEE
+- __ZZN12_GLOBAL__N_136topHitQueryParametersForSearchStringEP8NSStringP7NSArraydS1_11SPQueryKindbbbbbbS4_S1_S1_lP12NSDictionarybE26sSmallCompletionAttributes
+- __ZZN12_GLOBAL__N_136topHitQueryParametersForSearchStringEP8NSStringP7NSArraydS1_11SPQueryKindbbbbbbS4_S1_S1_lP12NSDictionarybE28sDefaultCompletionAttributes
+- __ZZN12_GLOBAL__N_136topHitQueryParametersForSearchStringEP8NSStringP7NSArraydS1_11SPQueryKindbbbbbbS4_S1_S1_lP12NSDictionarybE29onceCompletionAttributesToken
+- ___23-[SPParsecQuery cancel]_block_invoke
+- ___23-[SPParsecQuery cancel]_block_invoke_2
+- ___24-[SPCSSearchQuery start]_block_invoke
+- ___25-[SPCSSearchQuery cancel]_block_invoke
+- ___26-[SPCalculatorQuery start]_block_invoke
+- ___26-[SPCalculatorQuery start]_block_invoke_2
+- ___26-[SPDictionaryQuery start]_block_invoke
+- ___26-[SPDictionaryQuery start]_block_invoke.cold.1
+- ___26-[SPDictionaryQuery start]_block_invoke_2
+- ___27-[SPKWorldClockQuery start]_block_invoke
+- ___29-[SPFederatedQueryTask start]_block_invoke.cold.1
+- ___30-[SPRecommendationQuery start]_block_invoke
+- ___30-[SPRecommendationQuery start]_block_invoke.154
+- ___35-[SPKDataDetectorsStoreQuery start]_block_invoke
+- ___40-[SPFederatedQueryTask addAndStartQuery]_block_invoke.802
+- ___40-[SPFederatedQueryTask addAndStartQuery]_block_invoke_2.807
+- ___47-[SPCSSearchQuery updateMailAttachmentResults:]_block_invoke.637
+- ___51-[SPFederatedQueryTask sendFinishedDomains:reason:]_block_invoke.690
+- ___51-[SPFederatedQueryTask sendFinishedDomains:reason:]_block_invoke.694
+- ___76-[SPFederatedQueryTask storeCompletedSearch:withSections:suggestionResults:]_block_invoke.756
+- ___76-[SPFederatedQueryTask storeCompletedSearch:withSections:suggestionResults:]_block_invoke.761
+- ___76-[SPFederatedQueryTask storeCompletedSearch:withSections:suggestionResults:]_block_invoke.775
+- ____ZN12_GLOBAL__N_117updateMailVIPListEv_block_invoke.1058
+- ____ZN12_GLOBAL__N_117updateMailVIPListEv_block_invoke.1058.cold.1
+- ____ZN12_GLOBAL__N_136topHitQueryParametersForSearchStringEP8NSStringP7NSArraydS1_11SPQueryKindbbbbbbS4_S1_S1_lP12NSDictionaryb_block_invoke
+- ___block_literal_global.1056
+- ___block_literal_global.213
+- ___block_literal_global.215
+- ___block_literal_global.259
+- ___block_literal_global.278
+- ___block_literal_global.668
+- ___block_literal_global.681
+- ___block_literal_global.684
+- ___block_literal_global.686
+- ___block_literal_global.709
+- ___block_literal_global.743
+- ___block_literal_global.751
+- ___block_literal_global.764
+- ___block_literal_global.777
+- ___block_literal_global.829
+- ___block_literal_global.853
+- ___block_literal_global.868
+- _objc_claimAutoreleasedReturnValue
+- _objc_msgSend$getEncodedData
+- _objc_msgSend$isInstantAnswerTriggerQuery:isCJK:isSearchTool:
+- _objc_msgSend$personalAnswersEventIntentForQUOutput:isDebugLoggingEnabled:
+- _objc_msgSend$processSearchToolFinalResults:queryContext:
+- _objc_msgSend$resultWithTime:searchString:isCorrectedQuery:withQueryContext:
+- _objc_msgSend$sendEmptyResponseIfNecessaryForSourceKind:
+- _objc_retainAutoreleaseReturnValue
+- _objc_retain_x11
+- _objc_retain_x4
+- _objc_retain_x5
+- _objc_retain_x9
+- _start.once
+- _start.recQueue
+CStrings:
++ "(kMDItemDisableSearchInSpotlight!=1 || _kMDItemBundleID=%@ || (_kMDItemMessageType = \"tpbck\" && _kMDItemBundleID=%@))"
++ "-[SPParsecQuery _start]"
++ "/AppleInternal/Library/BuildRoots/4~CIVaugAX970VXD8I3gthTBV_qCGT7QEtG4_DVis/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__hash_table:1892: libc++ Hardening assertion __p != end() failed: unordered container::erase(iterator) called with a non-dereferenceable iterator\n"
++ "/AppleInternal/Library/BuildRoots/4~CIVaugAX970VXD8I3gthTBV_qCGT7QEtG4_DVis/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CIVaugAX970VXD8I3gthTBV_qCGT7QEtG4_DVis/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:410: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CIVaugAX970VXD8I3gthTBV_qCGT7QEtG4_DVis/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:425: libc++ Hardening assertion !empty() failed: front() called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/4~CIVaugAX970VXD8I3gthTBV_qCGT7QEtG4_DVis/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:433: libc++ Hardening assertion !empty() failed: back() called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/4~CIVaugAX970VXD8I3gthTBV_qCGT7QEtG4_DVis/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:486: libc++ Hardening assertion !empty() failed: vector::pop_back called on an empty vector\n"
++ "@\"NSObject<OS_os_activity>\""
++ "@52@0:8d16@24@32B40^@44"
++ "Added empty unioned ecrGroundedOutput to spqueryrespone"
++ "Added non empty unioned ecrGroundedOutput to spqueryrespone"
++ "Bundle id: %@ FPId: %@ Title:%{sensitive}@"
++ "Dropping response intended for qid=%lu because current qid=%lu"
++ "NSUserActivity from DocumentManager"
++ "No title for (non-Photos) CoreSpotlight result"
++ "PhotoPersonEntity"
++ "SPCSSearchQuery.foundItems"
++ "SPCSSearchQuery.slowFetchAttributes"
++ "SPFederatedQueryTask cancel"
++ "SPParsecQuery Response"
++ "SearchToolSearchIndexer"
++ "[ParsecQuery] failed to create a local copy for %{private}@ because of \"%@\""
++ "[SpotlightRanking] Skipping (nil) item %{private}@ from %@ because of \"%@\""
++ "[personal answers][query] For Query = %@, eventsBundleDisabled = %d (personalAnswersAllowed = %d, isSearchToolClient = %d, personalAnswersQUIntent = %@, isPersonalAnswersTriggeringQuery = %d)"
++ "[qid=%llu][\"%@\"][SpotlightRanking][EVAL] dropping non-existing/future-created (%@) item (%@) from %@"
++ "[qid=%llu][SpotlightRanking] buddyResult with bundleId=%@ identifier=%@ is filtered out due to lower score than result with bundleId=%@ identifier=%@"
++ "[qid=%llu][SpotlightRanking] bundle = %@, item = %@, retrievalType = %@ containerId = (%@, %lu), sparseScore: %f denseScore: %f, hybridScore: %f, timestamp: %f\n"
++ "[qid=%llu][SpotlightRanking] existingResult with bundleId=%@ identifier=%@ is filtered out due to lower score than result with bundleId=%@ identifier=%@"
++ "[qid=%llu][SpotlightRanking] result with bundleId=%@ identifier=%@ is filtered out due to lower score than buddyResult with bundleId=%@ identifier=%@"
++ "[qid=%llu][SpotlightRanking] result with bundleId=%@ identifier=%@ is filtered out due to lower score than existingResult with bundleId=%@ identifier=%@"
++ "[qid=%llu][SpotlightRanking] result with bundleId=%@ identifier=%@ is filtered out due to no detail"
++ "[qid=%llu][SpotlightRanking] result with bundleId=%@ identifier=%@ is filtered out due to no title and no detail"
++ "[qid=%llu][SpotlightRanking]<_resultHeaps> %@ bundle = %@, item = %@, retrievalType = %@ containerId = %@, sparseScore: %f denseScore: %f, hybridScore: %f, timestamp: %f\n"
++ "[qid=%lu][\"%{private}@\"] Created"
++ "_activity"
++ "_cancel"
++ "_start"
++ "app result disabled"
++ "beginQuerySignpostInterval"
++ "cStringUsingEncoding:"
++ "com.apple.searchtoold"
++ "containerIdentifier"
++ "createActivity"
++ "endQuerySignpostInterval"
++ "failed to create a CoreSpotlight result"
++ "hasReadPurpose"
++ "initWithAttrs:isSearchToolClient:"
++ "isEventIntentForQueryUnderstandingOutput:isSearchToolClient:isSearchToolCerberus:"
++ "isInstantAnswerTriggerQuery:isCJK:isSearchToolClient:"
++ "isParsecQuery"
++ "kMDQueryOptionEntityType"
++ "kMDQueryOptionOfflineMode"
++ "kMDQueryOptionSPQUParses"
++ "missing ClientData"
++ "missing attribute set"
++ "pqaEntityTypes"
++ "pqaUseOfflineMode"
++ "processSections:queryContext:"
++ "query class: %s"
++ "query class: %s response kind: %s"
++ "queryResponseReceivedSignpostEvent:"
++ "querySignpostId"
++ "resultWithTime:queryContext:searchString:isCorrectedQuery:error:"
++ "searchToolQUSignals"
++ "sendEmptyResponseIfNecessary"
++ "setHasReadPurpose:"
++ "setQuerySignpostId:"
++ "sourceKind"
++ "spQUParses"
++ "u2Enabled"
++ "useLLMParse"
++ "{BundleIdToResultMap=\"map\"{unordered_map<std::string, std::pair<SFMutableResultSection *, NSMutableOrderedSet<SPSearchTopHitResult *> *>, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, std::pair<SFMutableResultSection *, NSMutableOrderedSet<SPSearchTopHitResult *> *>>>>=\"__table_\"{__hash_table<std::__hash_value_type<std::string, std::pair<SFMutableResultSection *, NSMutableOrderedSet<SPSearchTopHitResult *> *>>, std::__unordered_map_hasher<std::string, std::pair<const std::string, std::pair<SFMutableResultSection *, NSMutableOrderedSet<SPSearchTopHitResult *> *>>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, std::pair<SFMutableResultSection *, NSMutableOrderedSet<SPSearchTopHitResult *> *>>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, std::pair<SFMutableResultSection *, NSMutableOrderedSet<SPSearchTopHitResult *> *>>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::pair<SFMutableResultSection *, NSMutableOrderedSet<SPSearchTopHitResult *> *>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::pair<SFMutableResultSection *, NSMutableOrderedSet<SPSearchTopHitResult *> *>>, void *> *> *>>>=\"\"{?=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::pair<SFMutableResultSection *, NSMutableOrderedSet<SPSearchTopHitResult *> *>>, void *> *> *>>=\"\"{?=\"__size_\"Q}}}}\"\"{?=\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::pair<SFMutableResultSection *, NSMutableOrderedSet<SPSearchTopHitResult *> *>>, void *> *>=\"__next_\"^v}}\"\"{?=\"__size_\"Q}\"\"{?=\"__max_load_factor_\"f}}}\"syndicatedLinkSection\"@\"SFMutableResultSection\"\"syndicatedPhotosInAppsSection\"@\"SFMutableResultSection\"\"syndicatedPhotosInMessagesSection\"@\"SFMutableResultSection\"\"syndicatedFilesInMessagesSection\"@\"SFMutableResultSection\"\"syndicatedPhotosInNotesSection\"@\"SFMutableResultSection\"\"syndicatedPhotosInFilesSection\"@\"SFMutableResultSection\"\"syndicatedGeneralPhotosSection\"@\"SFMutableResultSection\"\"contactResultsSection\"@\"SFMutableResultSection\"\"peopleResultsSection\"@\"SFMutableResultSection\"\"photosSection\"@\"SFMutableResultSection\"}"
++ "{IndexResultsRegistry=\"queryId\"Q\"logToken\"Q\"redactedQuery\"@\"NSString\"\"results\"{vector<IndexResults, std::allocator<IndexResults>>=\"__begin_\"^{IndexResults}\"__end_\"^{IndexResults}\"\"{?=\"__cap_\"^{IndexResults}}}\"indexMapping\"@\"NSMutableDictionary\"}"
++ "\xf0A"
+- "-[SPParsecQuery start]"
+- "@44@0:8d16@24B32@36"
+- "Bundle id: %@ FPId: %@ Title:%@"
+- "Started search on %@"
+- "[personal answers][query] For Query = %@, personalAnswersAllowed = %d, isSearchToolClient = %d, isPersonalAnswersTriggeringQuery = %d"
+- "[qid=%llu][\"%@\"][SpotlightRanking] Got result for bundle %@"
+- "[qid=%llu][\"%@\"][SpotlightRanking]<_resultHeaps> %@ queue: %p, bundle = %@, item = %lu, retrievalType = %@ containerId = %@, score: (sparseScore: %f denseScore: %f, hybridScore: %f, timestamp: %f)"
+- "[qid=%llu][\"%@\"][SpotlightRanking]<_resultHeaps> %@ queue: %p, bundle = %@, item = %lu, retrievalType = %@ containerId = (%@, %lu), score: (sparseScore: %f denseScore: %f, hybridScore: %f, timestamp: %f)"
+- "getEncodedData"
+- "ignoreFutureDates"
+- "ignorePastDates"
+- "isInstantAnswerTriggerQuery:isCJK:isSearchTool:"
+- "kMDQueryOptionSPQUParse"
+- "personalAnswersEventIntentForQUOutput:isDebugLoggingEnabled:"
+- "processSearchToolFinalResults:queryContext:"
+- "resolveDatesInFuture"
+- "resolveDatesInPast"
+- "resultWithTime:searchString:isCorrectedQuery:withQueryContext:"
+- "sendEmptyResponseIfNecessaryForSourceKind:"
+- "{BundleIdToResultMap=\"map\"{unordered_map<std::string, std::pair<SFMutableResultSection *, NSMutableOrderedSet<SPSearchTopHitResult *> *>, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, std::pair<SFMutableResultSection *, NSMutableOrderedSet<SPSearchTopHitResult *> *>>>>=\"__table_\"{__hash_table<std::__hash_value_type<std::string, std::pair<SFMutableResultSection *, NSMutableOrderedSet<SPSearchTopHitResult *> *>>, std::__unordered_map_hasher<std::string, std::__hash_value_type<std::string, std::pair<SFMutableResultSection *, NSMutableOrderedSet<SPSearchTopHitResult *> *>>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::__hash_value_type<std::string, std::pair<SFMutableResultSection *, NSMutableOrderedSet<SPSearchTopHitResult *> *>>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::__hash_value_type<std::string, std::pair<SFMutableResultSection *, NSMutableOrderedSet<SPSearchTopHitResult *> *>>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::pair<SFMutableResultSection *, NSMutableOrderedSet<SPSearchTopHitResult *> *>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::pair<SFMutableResultSection *, NSMutableOrderedSet<SPSearchTopHitResult *> *>>, void *> *> *>>>=\"\"{?=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::pair<SFMutableResultSection *, NSMutableOrderedSet<SPSearchTopHitResult *> *>>, void *> *> *>>=\"\"{?=\"__size_\"Q}}}}\"\"{?=\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::pair<SFMutableResultSection *, NSMutableOrderedSet<SPSearchTopHitResult *> *>>, void *> *>=\"__next_\"^v}}\"\"{?=\"__size_\"Q}\"\"{?=\"__max_load_factor_\"f}}}\"syndicatedLinkSection\"@\"SFMutableResultSection\"\"syndicatedPhotosInAppsSection\"@\"SFMutableResultSection\"\"syndicatedPhotosInMessagesSection\"@\"SFMutableResultSection\"\"syndicatedFilesInMessagesSection\"@\"SFMutableResultSection\"\"syndicatedPhotosInNotesSection\"@\"SFMutableResultSection\"\"syndicatedPhotosInFilesSection\"@\"SFMutableResultSection\"\"syndicatedGeneralPhotosSection\"@\"SFMutableResultSection\"\"contactResultsSection\"@\"SFMutableResultSection\"\"peopleResultsSection\"@\"SFMutableResultSection\"\"photosSection\"@\"SFMutableResultSection\"}"
+- "{IndexResultsRegistry=\"queryId\"Q\"redactedQuery\"@\"NSString\"\"results\"{vector<IndexResults, std::allocator<IndexResults>>=\"__begin_\"^{IndexResults}\"__end_\"^{IndexResults}\"\"{?=\"__cap_\"^{IndexResults}}}\"indexMapping\"@\"NSMutableDictionary\"}"
+- "\xf01"
+
+```

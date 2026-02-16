@@ -1,0 +1,104 @@
+## CoreServicesInternal
+
+> `/System/Library/PrivateFrameworks/CoreServicesInternal.framework/CoreServicesInternal`
+
+```diff
+
+-579.3.3.0.0
+-  __TEXT.__text: 0x2e0d4
+-  __TEXT.__auth_stubs: 0x1490
++579.4.6.0.0
++  __TEXT.__text: 0x2d9d8
++  __TEXT.__auth_stubs: 0x14a0
+   __TEXT.__delay_stubs: 0x280
+   __TEXT.__delay_helper: 0x564
+-  __TEXT.__cstring: 0x1c32
++  __TEXT.__cstring: 0x200d
+   __TEXT.__const: 0x5e0
+   __TEXT.__oslogstring: 0x2009
+   __TEXT.__unwind_info: 0xc8
+   __DATA_CONST.__got: 0x760
+   __DATA_CONST.__const: 0x288
+-  __AUTH_CONST.__auth_got: 0xa98
++  __AUTH_CONST.__auth_got: 0xaa0
+   __AUTH_CONST.__const: 0x328
+-  __AUTH_CONST.__cfstring: 0x10a0
++  __AUTH_CONST.__cfstring: 0x10c0
+   __DATA.__data: 0x98
+-  __DATA.__bss: 0x1011
++  __DATA.__bss: 0x4a
+   __DATA_DIRTY.__data: 0x250
+-  __DATA_DIRTY.__bss: 0xf80
++  __DATA_DIRTY.__bss: 0x1f40
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/FileProvider.framework/FileProvider
+
+   - /System/Library/PrivateFrameworks/GenerationalStorage.framework/GenerationalStorage
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: D617059F-F626-3460-8EE0-F741E1336DE0
+-  Functions: 620
+-  Symbols:   1895
+-  CStrings:  608
++  UUID: FE6D4AC1-D3FE-3892-82C8-298AF8B9DB6B
++  Functions: 639
++  Symbols:   1950
++  CStrings:  613
+ 
+Symbols:
++ _OUTLINED_FUNCTION_10
++ _OUTLINED_FUNCTION_11
++ _OUTLINED_FUNCTION_5
++ _OUTLINED_FUNCTION_6
++ _OUTLINED_FUNCTION_7
++ _OUTLINED_FUNCTION_8
++ _OUTLINED_FUNCTION_9
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9fon210106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9fon210106ILi0EEEPKc
++ __ZNSt3__113__tree_removeB9fon210106IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9fon210106Ev
++ __ZNSt3__116__pad_and_outputB9fon210106IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__119__allocate_at_leastB9fon210106INS_9allocatorIPKvEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9fon210106Ev
++ __ZNSt3__124__put_character_sequenceB9fon210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__127__tree_balance_after_insertB9fon210106IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__132__internal_log_hardening_failureEPKc
++ __ZNSt3__14listIP13CFBookmarkTOCNS_9allocatorIS2_EEE5eraseENS_21__list_const_iteratorIS2_PvEE
++ __ZNSt3__14listIP13CFBookmarkTOCNS_9allocatorIS2_EEE9pop_frontEv
++ __ZNSt3__16__treeINS_12__value_typeINS_4pairIjjEEPKvEENS_19__map_value_compareIS3_NS2_IKS3_S5_EENS_4lessIS3_EELb1EEENS_9allocatorIS9_EEE12__find_equalIS3_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISK_EERKT_
++ __ZNSt3__16__treeINS_12__value_typeINS_4pairIjjEEPKvEENS_19__map_value_compareIS3_NS2_IKS3_S5_EENS_4lessIS3_EELb1EEENS_9allocatorIS9_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSK_SK_
++ __ZNSt3__16__treeINS_12__value_typeINS_4pairIjjEEPKvEENS_19__map_value_compareIS3_NS2_IKS3_S5_EENS_4lessIS3_EELb1EEENS_9allocatorIS9_EEE25__emplace_unique_key_argsIS3_JNS2_IS3_S5_EEEEENS2_INS_15__tree_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEEbEERKT_DpOT0_
++ __ZNSt3__16__treeINS_12__value_typeINS_4pairIjjEEPKvEENS_19__map_value_compareIS3_NS2_IKS3_S5_EENS_4lessIS3_EELb1EEENS_9allocatorIS9_EEE4findIS3_EENS_15__tree_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEERKT_
++ __ZNSt3__16__treeINS_12__value_typeINS_4pairIjjEEPKvEENS_19__map_value_compareIS3_NS2_IKS3_S5_EENS_4lessIS3_EELb1EEENS_9allocatorIS9_EEE7destroyEPNS_11__tree_nodeIS6_PvEE
++ __ZNSt3__16vectorIPKvNS_9allocatorIS2_EEE20__throw_length_errorB9fon210106Ev
++ __ZNSt3__16vectorIPKvNS_9allocatorIS2_EEE9push_backB9fon210106EOS2_
++ __ZNSt3__1lsB9fon210106INS_11char_traitsIcEEEERNS_13basic_ostreamIcT_EES6_RKNS_8__iom_t4IcEE
++ __ZSt28__throw_bad_array_new_lengthB9fon210106v
++ ___block_descriptor_tmp.19
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8nn200100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8nn200100ILi0EEEPKc
+- __ZNSt3__113__tree_removeB8nn200100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB8nn200100Ev
+- __ZNSt3__116__pad_and_outputB8nn200100IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__119__allocate_at_leastB8nn200100INS_9allocatorIPKvEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8nn200100Ev
+- __ZNSt3__124__put_character_sequenceB8nn200100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__127__tree_balance_after_insertB8nn200100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__16__treeINS_12__value_typeINS_4pairIjjEEPKvEENS_19__map_value_compareIS3_S6_NS_4lessIS3_EELb1EEENS_9allocatorIS6_EEE12__find_equalIS3_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISI_EERKT_
+- __ZNSt3__16__treeINS_12__value_typeINS_4pairIjjEEPKvEENS_19__map_value_compareIS3_S6_NS_4lessIS3_EELb1EEENS_9allocatorIS6_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSI_SI_
+- __ZNSt3__16__treeINS_12__value_typeINS_4pairIjjEEPKvEENS_19__map_value_compareIS3_S6_NS_4lessIS3_EELb1EEENS_9allocatorIS6_EEE25__emplace_unique_key_argsIS3_JNS2_IS3_S5_EEEEENS2_INS_15__tree_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEEbEERKT_DpOT0_
+- __ZNSt3__16__treeINS_12__value_typeINS_4pairIjjEEPKvEENS_19__map_value_compareIS3_S6_NS_4lessIS3_EELb1EEENS_9allocatorIS6_EEE4findIS3_EENS_15__tree_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEERKT_
+- __ZNSt3__16__treeINS_12__value_typeINS_4pairIjjEEPKvEENS_19__map_value_compareIS3_S6_NS_4lessIS3_EELb1EEENS_9allocatorIS6_EEE7destroyEPNS_11__tree_nodeIS6_PvEE
+- __ZNSt3__16vectorIPKvNS_9allocatorIS2_EEE20__throw_length_errorB8nn200100Ev
+- __ZNSt3__16vectorIPKvNS_9allocatorIS2_EEE9push_backB8nn200100EOS2_
+- __ZNSt3__1lsB8nn200100INS_11char_traitsIcEEEERNS_13basic_ostreamIcT_EES6_RKNS_8__iom_t4IcEE
+- __ZSt28__throw_bad_array_new_lengthB8nn200100v
+- ___block_descriptor_tmp.16
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CHolugCSQO3lTVfchfCh8ihbP0sDKwaHU5cWjl4/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CHolugCSQO3lTVfchfCh8ihbP0sDKwaHU5cWjl4/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/list:1402: libc++ Hardening assertion !empty() failed: list::pop_front() called with empty list\n"
++ "/AppleInternal/Library/BuildRoots/4~CHolugCSQO3lTVfchfCh8ihbP0sDKwaHU5cWjl4/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/list:1420: libc++ Hardening assertion __p != end() failed: list::erase(iterator) called with a non-dereferenceable iterator\n"
++ "_NSURLBookmarkSecurityScopeCollectionTokenKey"
+
+```

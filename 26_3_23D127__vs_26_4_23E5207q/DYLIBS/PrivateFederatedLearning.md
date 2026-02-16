@@ -1,0 +1,1798 @@
+## PrivateFederatedLearning
+
+> `/System/Library/PrivateFrameworks/PrivateFederatedLearning.framework/PrivateFederatedLearning`
+
+```diff
+
+-270.0.0.0.0
+-  __TEXT.__text: 0x8eb18
+-  __TEXT.__auth_stubs: 0x2340
+-  __TEXT.__objc_methlist: 0x2de4
+-  __TEXT.__const: 0x3dd0
+-  __TEXT.__cstring: 0x3ae5
+-  __TEXT.__oslogstring: 0x1c88
+-  __TEXT.__ustring: 0x1e
+-  __TEXT.__gcc_except_tab: 0x20
+-  __TEXT.__swift5_typeref: 0x11b0
+-  __TEXT.__swift5_fieldmd: 0x1ab0
+-  __TEXT.__constg_swiftt: 0x24ec
++273.0.0.0.0
++  __TEXT.__text: 0x88584
++  __TEXT.__auth_stubs: 0x2020
++  __TEXT.__objc_methlist: 0x20dc
++  __TEXT.__const: 0x3e38
++  __TEXT.__cstring: 0x995
++  __TEXT.__swift5_typeref: 0x11ba
++  __TEXT.__swift5_fieldmd: 0x1abc
++  __TEXT.__constg_swiftt: 0x24f4
+   __TEXT.__swift5_builtin: 0x50
+-  __TEXT.__swift5_reflstr: 0x200d
++  __TEXT.__swift5_reflstr: 0x202d
+   __TEXT.__swift5_assocty: 0x310
+   __TEXT.__swift5_protos: 0x3c
+   __TEXT.__swift5_proto: 0x210
+   __TEXT.__swift5_types: 0x154
++  __TEXT.__oslogstring: 0x1728
+   __TEXT.__swift5_capture: 0x2ec
+   __TEXT.__swift_as_entry: 0xec
+   __TEXT.__swift_as_ret: 0xcc
+-  __TEXT.__unwind_info: 0x1d28
+-  __TEXT.__eh_frame: 0x4a94
+-  __TEXT.__objc_classname: 0x383
+-  __TEXT.__objc_methname: 0x7a18
+-  __TEXT.__objc_methtype: 0x2e88
+-  __TEXT.__objc_stubs: 0x1d60
+-  __DATA_CONST.__got: 0x6e8
+-  __DATA_CONST.__const: 0x300
+-  __DATA_CONST.__objc_classlist: 0x218
+-  __DATA_CONST.__objc_catlist: 0x8
+-  __DATA_CONST.__objc_protolist: 0x70
++  __TEXT.__unwind_info: 0x1a48
++  __TEXT.__eh_frame: 0x4a74
++  __TEXT.__objc_classname: 0x8f0
++  __TEXT.__objc_methname: 0x75b2
++  __TEXT.__objc_methtype: 0x2c14
++  __TEXT.__objc_stubs: 0xc20
++  __DATA_CONST.__got: 0x528
++  __DATA_CONST.__const: 0x1a8
++  __DATA_CONST.__objc_classlist: 0x130
++  __DATA_CONST.__objc_protolist: 0x60
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1f70
+-  __DATA_CONST.__objc_protorefs: 0x38
+-  __DATA_CONST.__objc_superrefs: 0xa8
+-  __DATA_CONST.__objc_arraydata: 0x170
+-  __AUTH_CONST.__auth_got: 0x11b0
+-  __AUTH_CONST.__const: 0x2d88
+-  __AUTH_CONST.__cfstring: 0x1e40
+-  __AUTH_CONST.__objc_const: 0x7678
+-  __AUTH_CONST.__objc_intobj: 0xf0
+-  __AUTH_CONST.__objc_arrayobj: 0x30
+-  __AUTH_CONST.__objc_dictobj: 0x78
+-  __AUTH.__objc_data: 0xa50
+-  __AUTH.__data: 0x2e60
+-  __DATA.__objc_ivar: 0xa8
+-  __DATA.__data: 0xdd8
+-  __DATA.__bss: 0x3770
++  __DATA_CONST.__objc_selrefs: 0x17c0
++  __DATA_CONST.__objc_protorefs: 0x30
++  __AUTH_CONST.__auth_got: 0x1018
++  __AUTH_CONST.__const: 0x2c61
++  __AUTH_CONST.__cfstring: 0x60
++  __AUTH_CONST.__objc_const: 0x5af8
++  __AUTH.__objc_data: 0x140
++  __AUTH.__data: 0x2d00
++  __DATA.__data: 0xc40
++  __DATA.__bss: 0x3700
+   __DATA.__common: 0x48
+-  __DATA_DIRTY.__data: 0x220
++  __DATA_DIRTY.__data: 0x3b0
+   __DATA_DIRTY.__bss: 0x100
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+-  - /System/Library/Frameworks/Intents.framework/Intents
+   - /System/Library/Frameworks/Metal.framework/Metal
+   - /System/Library/Frameworks/MetalPerformanceShaders.framework/MetalPerformanceShaders
+   - /System/Library/Frameworks/MetalPerformanceShadersGraph.framework/MetalPerformanceShadersGraph
+   - /System/Library/Frameworks/Security.framework/Security
++  - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+   - /System/Library/PrivateFrameworks/Bom.framework/Bom
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /System/Library/PrivateFrameworks/CrashReporterSupport.framework/CrashReporterSupport
+
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+-  - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DA263E6C-DA8D-3A4A-9E61-2F8398684EBE
+-  Functions: 2216
+-  Symbols:   2305
+-  CStrings:  2425
++  UUID: 81AC7607-473E-3264-9EA1-321CECAD8B85
++  Functions: 1935
++  Symbols:   1223
++  CStrings:  1511
+ 
+Symbols:
++ _OBJC_CLASS_$_AFPreferences
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ __swift_FORCE_LOAD_$_swiftCoreAudio_$_PrivateFederatedLearning
++ _objc_msgSend$JSONObjectWithData:options:error:
++ _objc_msgSend$close
++ _objc_msgSend$commandBuffer
++ _objc_msgSend$commit
++ _objc_msgSend$contentsOfDirectoryAtURL:includingPropertiesForKeys:options:error:
++ _objc_msgSend$copyItemAtURL:toURL:error:
++ _objc_msgSend$createDirectoryAtPath:withIntermediateDirectories:attributes:error:
++ _objc_msgSend$createDirectoryAtURL:withIntermediateDirectories:attributes:error:
++ _objc_msgSend$dataWithJSONObject:options:error:
++ _objc_msgSend$defaultRecordZone
++ _objc_msgSend$deviceWithMTLDevice:
++ _objc_msgSend$encodeToCommandBuffer:inputsArray:resultsArray:executionDescriptor:
++ _objc_msgSend$enumeratorAtPath:
++ _objc_msgSend$errorWithDomain:code:userInfo:
++ _objc_msgSend$fileExistsAtPath:
++ _objc_msgSend$fileSystemRepresentation
++ _objc_msgSend$fileURL
++ _objc_msgSend$getInputShapesForFunction:
++ _objc_msgSend$getOutputShapesForFunction:
++ _objc_msgSend$getOutputTypesWithDevice:inputTypes:compilationDescriptor:
++ _objc_msgSend$init
++ _objc_msgSend$initWithCommandBuffer:
++ _objc_msgSend$initWithContainerID:options:
++ _objc_msgSend$initWithContainerIdentifier:environment:
++ _objc_msgSend$initWithInteger:
++ _objc_msgSend$initWithMILProgramWithURL:executableDescriptor:
++ _objc_msgSend$initWithMPSGraphPackageAtURL:compilationDescriptor:
++ _objc_msgSend$initWithMTLBuffer:shape:strides:interleaves:dataType:
++ _objc_msgSend$initWithPattern:options:error:
++ _objc_msgSend$initWithStoreIdentifier:type:
++ _objc_msgSend$initWithType:subpredicates:
++ _objc_msgSend$initWithURL:
++ _objc_msgSend$inputNamesForFunction:
++ _objc_msgSend$isDiagnosticSubmissionAllowed
++ _objc_msgSend$isHealthDataSubmissionAllowed
++ _objc_msgSend$lastPathComponent
++ _objc_msgSend$matchesInString:options:range:
++ _objc_msgSend$metalDevice
++ _objc_msgSend$newBufferWithIOSurface:
++ _objc_msgSend$newCommandQueueWithDescriptor:
++ _objc_msgSend$numberOfMatchesInString:options:range:
++ _objc_msgSend$open
++ _objc_msgSend$outputNamesForFunction:
++ _objc_msgSend$publicCloudDatabase
++ _objc_msgSend$recordFloatVectors:metadata:
++ _objc_msgSend$rootCommandBuffer
++ _objc_msgSend$setAllowedComputeDevices:
++ _objc_msgSend$setAllowsCellularAccess:
++ _objc_msgSend$setAllowsExpensiveNetworkAccess:
++ _objc_msgSend$setApplicationBundleIdentifierOverrideForPushTopicGeneration:
++ _objc_msgSend$setBackgroundGPUPriority:
++ _objc_msgSend$setCommitsWithQoS:
++ _objc_msgSend$setCompilationDescriptor:
++ _objc_msgSend$setCompilerOptions:
++ _objc_msgSend$setContainer:
++ _objc_msgSend$setDisableIOFencing:
++ _objc_msgSend$setEnableLowLatencySignalSharedEvent:
++ _objc_msgSend$setEnableLowLatencyWaitSharedEvent:
++ _objc_msgSend$setLabel:
++ _objc_msgSend$setName:
++ _objc_msgSend$setOptimizationLevel:
++ _objc_msgSend$setOptions:
++ _objc_msgSend$setPreferAnonymousRequests:
++ _objc_msgSend$setQualityOfService:
++ _objc_msgSend$shape
++ _objc_msgSend$sharedConnection
++ _objc_msgSend$sharedPreferences
++ _objc_msgSend$siriDataSharingOptInStatus
++ _objc_msgSend$standardUserDefaults
++ _objc_msgSend$streamError
++ _objc_msgSend$stringByAppendingPathComponent:
++ _objc_msgSend$valueForKey:
++ _objc_msgSend$values
++ _objc_msgSend$waitUntilCompleted
++ _objc_msgSend$zoneID
++ _objc_retain_x27
++ _swift_willThrowTypedImpl
++ _symbolic _____ySsG s23_ContiguousArrayStorageC
+- +[FedStatsBooleanType createFromDict:possibleError:]
+- +[FedStatsBoundedULongType createFromDict:possibleError:]
+- +[FedStatsBoundedULongType gFedStatsOutOfBoundsNumber]
+- +[FedStatsBucketedType createFromDict:possibleError:]
+- +[FedStatsCategoricalType createFromDict:possibleError:]
+- +[FedStatsCategoricalTypeSubcategory categoryWithSuperCategory:index:]
+- +[FedStatsCohortFactory cohortQueryFieldByName:]
+- +[FedStatsCohortFactory sharedInstance]
+- +[FedStatsCohortQueryDeviceType cohortInstance]
+- +[FedStatsCohortQueryFieldGeneric cohortInstance]
+- +[FedStatsCohortQueryFieldGeneric cohortQueryFieldWithKey:]
+- +[FedStatsCohortQueryInstalledApps cohortInstance]
+- +[FedStatsCohortQueryInstalledApps initialize]
+- +[FedStatsCohortQueryLocale cohortInstance]
+- +[FedStatsCohortQueryURLBits cohortInstance]
+- +[FedStatsCohortQueryURLBits cohortQueryFieldWithKey:]
+- +[FedStatsCombinationType createFromDict:possibleError:]
+- +[FedStatsCombinationType kAvailableTypes]
+- +[FedStatsDataCohort checkCohortField:forNamespaceID:]
+- +[FedStatsDataCohort keysForCohorts:namespaceID:parameters:possibleError:]
+- +[FedStatsDataCohort sharedInstance]
+- +[FedStatsDataEncoder createWithDataTypeContent:possibleError:]
+- +[FedStatsDataEncoder encodeDataArray:dataTypeContent:resultType:errorOut:]
+- +[FedStatsDataEncoder encodeDataArray:dataTypeContent:resultType:errorOut:].cold.1
+- +[FedStatsDataEncoder encodeDataArray:dataTypeContent:resultType:errorOut:].cold.2
+- +[FedStatsDataEncoder encodeDataArray:dataTypeContent:resultType:errorOut:].cold.3
+- +[FedStatsDataEncoder encodeDataArrayAndRecord:dataTypeContent:metadata:baseKey:errorOut:].cold.1
+- +[FedStatsDataEncoder encodeDataArrayAndRecord:dataTypeContent:metadata:baseKey:errorOut:].cold.2
+- +[FedStatsDataEncoder encodeDataArrayAndRecord:dataTypeContent:metadata:baseKey:errorOut:].cold.3
+- +[FedStatsDataEncoderDimensionalResult resultWithIndex:dimensionality:]
+- +[FedStatsDataSampler pickSamplesFrom:length:]
+- +[FedStatsDataSampler samplerWithCount:]
+- +[FedStatsDataTypeFactory createFedStatsDataType:dataTypeParams:possibleError:]
+- +[FedStatsDataTypeFactory dataTypeFromString:]
+- +[FedStatsDataTypeFactory stringFromDataType:]
+- +[FedStatsError errorWithCode:description:]
+- +[FedStatsError errorWithCode:underlyingError:description:]
+- +[FedStatsError errorWithCode:underlyingErrors:description:]
+- +[FedStatsGeoHashType createFromDict:possibleError:]
+- +[FedStatsGeoHashType geoHashCharToInteger:]
+- +[FedStatsInvalidDataType createFromDict:possibleError:]
+- +[FedStatsLog logger]
+- +[FedStatsLog logger].cold.1
+- +[FedStatsSQLiteCategoryDatabase categoryDatabaseAt:withCategories:error:]
+- +[FedStatsSQLiteCategoryDatabase databaseWithFileURL:error:]
+- +[FedStatsSQLiteDatabase databaseWithURL:mode:error:]
+- +[FedStatsUtil bitStringToInt:]
+- +[FedStatsUtil intToBitString:length:]
+- +[FedStatsUtil sha1:]
+- +[PFLDiagnosticReporting reportingStringForIdentifier:]
+- +[PFLDiagnosticReporting reportingStringForIdentifier:].cold.1
+- +[_PFLLog extension]
+- +[_PFLLog extension].cold.1
+- +[_PFLLog framework]
+- +[_PFLLog framework].cold.1
+- +[_PFLLog telemetry]
+- +[_PFLLog telemetry].cold.1
+- -[FedStatSQLiteDatabaseQueryResult dealloc]
+- -[FedStatSQLiteDatabaseQueryResult initWithQueryStatement:]
+- -[FedStatSQLiteDatabaseQueryResult next]
+- -[FedStatSQLiteDatabaseQueryResult queryStatement]
+- -[FedStatSQLiteDatabaseQueryResult setQueryStatement:]
+- -[FedStatsBooleanType classCount]
+- -[FedStatsBooleanType dataType]
+- -[FedStatsBooleanType decodeFromIndex:possibleError:]
+- -[FedStatsBooleanType decodeFromOneHotVector:possibleError:]
+- -[FedStatsBooleanType encodeToIndex:possibleError:]
+- -[FedStatsBooleanType encodeToOneHotVector:possibleError:]
+- -[FedStatsBooleanType init]
+- -[FedStatsBooleanType sampleForIndex:]
+- -[FedStatsBoundedULongType bound]
+- -[FedStatsBoundedULongType classCount]
+- -[FedStatsBoundedULongType dataType]
+- -[FedStatsBoundedULongType decodeFromIndex:possibleError:]
+- -[FedStatsBoundedULongType decodeFromOneHotVector:possibleError:]
+- -[FedStatsBoundedULongType encodeToIndex:possibleError:]
+- -[FedStatsBoundedULongType encodeToOneHotVector:possibleError:]
+- -[FedStatsBoundedULongType initWithBound:]
+- -[FedStatsBoundedULongType sampleForIndex:]
+- -[FedStatsBoundedULongType setBound:]
+- -[FedStatsBucketedType .cxx_destruct]
+- -[FedStatsBucketedType bucketBoundaries]
+- -[FedStatsBucketedType bucketCount]
+- -[FedStatsBucketedType classCount]
+- -[FedStatsBucketedType dataType]
+- -[FedStatsBucketedType decodeFromIndex:possibleError:]
+- -[FedStatsBucketedType encodeToIndex:possibleError:]
+- -[FedStatsBucketedType indexToInterval:]
+- -[FedStatsBucketedType initWithBucketBoundaries:]
+- -[FedStatsBucketedType initWithMinValue:maxValue:bucketCount:]
+- -[FedStatsBucketedType maxValue]
+- -[FedStatsBucketedType minValue]
+- -[FedStatsBucketedType sampleForIndex:]
+- -[FedStatsBucketedType setBucketBoundaries:]
+- -[FedStatsBucketedType setBucketCount:]
+- -[FedStatsBucketedType setMaxValue:]
+- -[FedStatsBucketedType setMinValue:]
+- -[FedStatsBucketedType setStepSize:]
+- -[FedStatsBucketedType setVersion:]
+- -[FedStatsBucketedType stepSize]
+- -[FedStatsBucketedType version]
+- -[FedStatsCategoricalType .cxx_destruct]
+- -[FedStatsCategoricalType categories]
+- -[FedStatsCategoricalType categoryFile]
+- -[FedStatsCategoricalType categoryMap]
+- -[FedStatsCategoricalType dataType]
+- -[FedStatsCategoricalType decodeFromIndex:possibleError:]
+- -[FedStatsCategoricalType encodeToIndex:possibleError:]
+- -[FedStatsCategoricalType initWithCategories:]
+- -[FedStatsCategoricalType initWithCategoryFile:]
+- -[FedStatsCategoricalType initWithCategoryMap:categories:]
+- -[FedStatsCategoricalType kOutOfCategories]
+- -[FedStatsCategoricalType sampleForIndex:]
+- -[FedStatsCategoricalType setVersion:]
+- -[FedStatsCategoricalType version]
+- -[FedStatsCategoricalTypeSubcategory .cxx_destruct]
+- -[FedStatsCategoricalTypeSubcategory index]
+- -[FedStatsCategoricalTypeSubcategory initWithSuperCategory:index:]
+- -[FedStatsCategoricalTypeSubcategory superCategory]
+- -[FedStatsCohortFactory .cxx_destruct]
+- -[FedStatsCohortFactory cohortObjects]
+- -[FedStatsCohortFactory init]
+- -[FedStatsCohortQueryDeviceType .cxx_destruct]
+- -[FedStatsCohortQueryDeviceType cohortKeyForParameters:possibleError:]
+- -[FedStatsCohortQueryDeviceType deviceType]
+- -[FedStatsCohortQueryDeviceType initWithDeviceType:]
+- -[FedStatsCohortQueryDeviceType setDeviceType:]
+- -[FedStatsCohortQueryFieldGeneric .cxx_destruct]
+- -[FedStatsCohortQueryFieldGeneric cohortKeyForParameters:possibleError:]
+- -[FedStatsCohortQueryFieldGeneric cohortName]
+- -[FedStatsCohortQueryFieldGeneric initQueryFieldWithKey:]
+- -[FedStatsCohortQueryInstalledApps .cxx_destruct]
+- -[FedStatsCohortQueryInstalledApps _isSupportedIntentMediaApp:::]
+- -[FedStatsCohortQueryInstalledApps applyFilteringForMediaDomain]
+- -[FedStatsCohortQueryInstalledApps cohortKeyForParameters:possibleError:]
+- -[FedStatsCohortQueryInstalledApps domainToInstalledApps]
+- -[FedStatsCohortQueryInstalledApps init]
+- -[FedStatsCohortQueryInstalledApps lsAppRecords]
+- -[FedStatsCohortQueryInstalledApps lsPluginKitExtensions]
+- -[FedStatsCohortQueryInstalledApps numOfMediaApps]
+- -[FedStatsCohortQueryInstalledApps numOfPhoneApps]
+- -[FedStatsCohortQueryInstalledApps resolveDomainToBundleIds]
+- -[FedStatsCohortQueryInstalledApps setDomainToInstalledApps:]
+- -[FedStatsCohortQueryInstalledAppsMedia cohortKeyForParameters:possibleError:]
+- -[FedStatsCohortQueryInstalledAppsPhone cohortKeyForParameters:possibleError:]
+- -[FedStatsCohortQueryLocale .cxx_destruct]
+- -[FedStatsCohortQueryLocale cohortKeyForParameters:possibleError:]
+- -[FedStatsCohortQueryLocale deviceLocale]
+- -[FedStatsCohortQueryLocale init]
+- -[FedStatsCohortQueryURLBits .cxx_destruct]
+- -[FedStatsCohortQueryURLBits cohortKeyForParameters:possibleError:]
+- -[FedStatsCohortQueryURLBits cohortName]
+- -[FedStatsCohortQueryURLBits initQueryFieldWithKey:]
+- -[FedStatsCombinationType .cxx_destruct]
+- -[FedStatsCombinationType classCount]
+- -[FedStatsCombinationType combinationSpec]
+- -[FedStatsCombinationType dataType]
+- -[FedStatsCombinationType decodeFromIndex:possibleError:]
+- -[FedStatsCombinationType encodeToIndex:possibleError:]
+- -[FedStatsCombinationType initWithCombinationSpec:]
+- -[FedStatsCombinationType orderedKeys]
+- -[FedStatsCombinationType sampleForIndex:]
+- -[FedStatsCombinationType setCombinationSpec:]
+- -[FedStatsCombinationType setOrderedKeys:]
+- -[FedStatsCombinationType setStrides:]
+- -[FedStatsCombinationType strides]
+- -[FedStatsCombinationType typesInCombination]
+- -[FedStatsDataCohort .cxx_destruct]
+- -[FedStatsDataCohort init]
+- -[FedStatsDataCohort namespaceMap]
+- -[FedStatsDataEncoder .cxx_destruct]
+- -[FedStatsDataEncoder dataTypes]
+- -[FedStatsDataEncoder decodeFromBitVector:possibleError:]
+- -[FedStatsDataEncoder decodeFromBitVector:withType:possibleError:]
+- -[FedStatsDataEncoder encodeToBitVector:possibleError:]
+- -[FedStatsDataEncoder encodeToBitVector:withType:possibleError:]
+- -[FedStatsDataEncoder encodeToIndex:error:]
+- -[FedStatsDataEncoder encodeToIndex:withType:error:]
+- -[FedStatsDataEncoder initWithDataTypes:combinationTypes:]
+- -[FedStatsDataEncoder setDataTypes:]
+- -[FedStatsDataEncoder setTypeConfiguration:]
+- -[FedStatsDataEncoder typeConfiguration]
+- -[FedStatsDataEncoderDimensionalResult .cxx_destruct]
+- -[FedStatsDataEncoderDimensionalResult dimensionality]
+- -[FedStatsDataEncoderDimensionalResult index]
+- -[FedStatsDataEncoderDimensionalResult initWithIndex:dimensionality:]
+- -[FedStatsDataEncoderDimensionalResult setDimensionality:]
+- -[FedStatsDataEncoderDimensionalResult setIndex:]
+- -[FedStatsDataSampler .cxx_destruct]
+- -[FedStatsDataSampler addItem:]
+- -[FedStatsDataSampler addItems:]
+- -[FedStatsDataSampler count]
+- -[FedStatsDataSampler getResults]
+- -[FedStatsDataSampler results]
+- -[FedStatsDataSampler setCount:]
+- -[FedStatsDataSampler setResults:]
+- -[FedStatsDataSampler setTotal:]
+- -[FedStatsDataSampler total]
+- -[FedStatsGeoHashType decodeFromIndex:possibleError:]
+- -[FedStatsGeoHashType encodeToIndex:possibleError:]
+- -[FedStatsGeoHashType hashLength]
+- -[FedStatsGeoHashType initWithGeoHashLength:]
+- -[FedStatsGeoHashType sampleForIndex:]
+- -[FedStatsGeoHashType setHashLength:]
+- -[FedStatsInvalidDataType classCount]
+- -[FedStatsInvalidDataType dataType]
+- -[FedStatsInvalidDataType decodeFromIndex:possibleError:]
+- -[FedStatsInvalidDataType decodeFromOneHotVector:possibleError:]
+- -[FedStatsInvalidDataType encodeToIndex:possibleError:]
+- -[FedStatsInvalidDataType encodeToOneHotVector:possibleError:]
+- -[FedStatsInvalidDataType init]
+- -[FedStatsInvalidDataType sampleForIndex:]
+- -[FedStatsSQLiteCategoryDatabase .cxx_destruct]
+- -[FedStatsSQLiteCategoryDatabase decode:error:]
+- -[FedStatsSQLiteCategoryDatabase dimensionality]
+- -[FedStatsSQLiteCategoryDatabase encode:error:]
+- -[FedStatsSQLiteCategoryDatabase initWithSQLiteDatabase:dimensionality:]
+- -[FedStatsSQLiteCategoryDatabase sqliteDB]
+- -[FedStatsSQLiteDatabase database]
+- -[FedStatsSQLiteDatabase dealloc]
+- -[FedStatsSQLiteDatabase execute:error:]
+- -[FedStatsSQLiteDatabase initWithDatabase:]
+- -[FedStatsSQLiteDatabase runQuery:error:]
+- -[InstalledApp .cxx_destruct]
+- -[InstalledApp appName]
+- -[InstalledApp bundleIdentifier]
+- -[InstalledApp description]
+- -[InstalledApp initWithBundleIdentifier:supportedMediaCategories:supportedIntents:appName:]
+- -[InstalledApp setAppName:]
+- -[InstalledApp setBundleIdentifier:]
+- -[InstalledApp setSupportedIntents:]
+- -[InstalledApp setSupportedMediaCategories:]
+- -[InstalledApp supportedIntents]
+- -[InstalledApp supportedMediaCategories]
+- -[NSError(FedStatsErrorStringify) describe]
+- GCC_except_table66
+- _BOUND_MAX
+- _CC_SHA1
+- _FedStatsErrorDomain
+- _INExtensionAttributesIntentsSupportedKey
+- _INExtensionAttributesSupportedIntentsKey
+- _INIntentsServiceExtensionPointName
+- _INSupportedMediaCategories
+- _INTENT_MEDIA_SUPPORTED_CATEGORIES
+- _INTENT_MEDIA_SUPPORTED_INTENTS
+- _NSExtensionPointName
+- _NSLocaleCountryCode
+- _NSMultipleUnderlyingErrorsKey
+- _NSStringFromClass
+- _NSUnderlyingErrorKey
+- _OBJC_CLASS_$_FedStatSQLiteDatabaseQueryResult
+- _OBJC_CLASS_$_FedStatsBooleanType
+- _OBJC_CLASS_$_FedStatsBoundedULongType
+- _OBJC_CLASS_$_FedStatsBucketedType
+- _OBJC_CLASS_$_FedStatsCategoricalType
+- _OBJC_CLASS_$_FedStatsCategoricalTypeSubcategory
+- _OBJC_CLASS_$_FedStatsCohortFactory
+- _OBJC_CLASS_$_FedStatsCohortQueryDeviceType
+- _OBJC_CLASS_$_FedStatsCohortQueryFieldGeneric
+- _OBJC_CLASS_$_FedStatsCohortQueryInstalledApps
+- _OBJC_CLASS_$_FedStatsCohortQueryInstalledAppsMedia
+- _OBJC_CLASS_$_FedStatsCohortQueryInstalledAppsPhone
+- _OBJC_CLASS_$_FedStatsCohortQueryLocale
+- _OBJC_CLASS_$_FedStatsCohortQueryURLBits
+- _OBJC_CLASS_$_FedStatsCombinationType
+- _OBJC_CLASS_$_FedStatsDataCohort
+- _OBJC_CLASS_$_FedStatsDataEncoderDimensionalResult
+- _OBJC_CLASS_$_FedStatsDataSampler
+- _OBJC_CLASS_$_FedStatsDataTypeFactory
+- _OBJC_CLASS_$_FedStatsError
+- _OBJC_CLASS_$_FedStatsGeoHashType
+- _OBJC_CLASS_$_FedStatsInvalidDataType
+- _OBJC_CLASS_$_FedStatsLog
+- _OBJC_CLASS_$_FedStatsSQLiteCategoryDatabase
+- _OBJC_CLASS_$_FedStatsSQLiteDatabase
+- _OBJC_CLASS_$_FedStatsUtil
+- _OBJC_CLASS_$_INAddMediaIntent
+- _OBJC_CLASS_$_INPlayMediaIntent
+- _OBJC_CLASS_$_INSearchForMediaIntent
+- _OBJC_CLASS_$_INUpdateMediaAffinityIntent
+- _OBJC_CLASS_$_InstalledApp
+- _OBJC_CLASS_$_LSApplicationRecord
+- _OBJC_CLASS_$_LSApplicationWorkspace
+- _OBJC_CLASS_$_NSBundle
+- _OBJC_CLASS_$_NSConstantArray
+- _OBJC_CLASS_$_NSConstantDictionary
+- _OBJC_CLASS_$_NSConstantIntegerNumber
+- _OBJC_CLASS_$_NSData
+- _OBJC_CLASS_$_NSDate
+- _OBJC_CLASS_$_NSLocale
+- _OBJC_CLASS_$_NSMutableArray
+- _OBJC_CLASS_$_NSMutableData
+- _OBJC_CLASS_$_NSMutableDictionary
+- _OBJC_CLASS_$_NSMutableSet
+- _OBJC_CLASS_$_NSMutableString
+- _OBJC_CLASS_$_NSOrderedSet
+- _OBJC_CLASS_$_NSSet
+- _OBJC_CLASS_$_NSString
+- _OBJC_CLASS_$_NSURL
+- _OBJC_CLASS_$_NSURLComponents
+- _OBJC_CLASS_$_NSURLQueryItem
+- _OBJC_CLASS_$_PFLDiagnosticReporting
+- _OBJC_CLASS_$__PFLLog
+- _OBJC_IVAR_$_FedStatSQLiteDatabaseQueryResult._queryStatement
+- _OBJC_IVAR_$_FedStatsBoundedULongType._bound
+- _OBJC_IVAR_$_FedStatsBucketedType._bucketBoundaries
+- _OBJC_IVAR_$_FedStatsBucketedType._bucketCount
+- _OBJC_IVAR_$_FedStatsBucketedType._maxValue
+- _OBJC_IVAR_$_FedStatsBucketedType._minValue
+- _OBJC_IVAR_$_FedStatsBucketedType._stepSize
+- _OBJC_IVAR_$_FedStatsBucketedType._version
+- _OBJC_IVAR_$_FedStatsCategoricalType._categories
+- _OBJC_IVAR_$_FedStatsCategoricalType._categoryFile
+- _OBJC_IVAR_$_FedStatsCategoricalType._categoryMap
+- _OBJC_IVAR_$_FedStatsCategoricalType._version
+- _OBJC_IVAR_$_FedStatsCategoricalTypeSubcategory._index
+- _OBJC_IVAR_$_FedStatsCategoricalTypeSubcategory._superCategory
+- _OBJC_IVAR_$_FedStatsCohortFactory._cohortObjects
+- _OBJC_IVAR_$_FedStatsCohortQueryDeviceType._deviceType
+- _OBJC_IVAR_$_FedStatsCohortQueryFieldGeneric._cohortName
+- _OBJC_IVAR_$_FedStatsCohortQueryInstalledApps._domainToInstalledApps
+- _OBJC_IVAR_$_FedStatsCohortQueryInstalledApps._numOfMediaApps
+- _OBJC_IVAR_$_FedStatsCohortQueryInstalledApps._numOfPhoneApps
+- _OBJC_IVAR_$_FedStatsCohortQueryLocale._deviceLocale
+- _OBJC_IVAR_$_FedStatsCohortQueryURLBits._cohortName
+- _OBJC_IVAR_$_FedStatsCombinationType._classCount
+- _OBJC_IVAR_$_FedStatsCombinationType._combinationSpec
+- _OBJC_IVAR_$_FedStatsCombinationType._orderedKeys
+- _OBJC_IVAR_$_FedStatsCombinationType._strides
+- _OBJC_IVAR_$_FedStatsDataCohort._namespaceMap
+- _OBJC_IVAR_$_FedStatsDataEncoder._dataTypes
+- _OBJC_IVAR_$_FedStatsDataEncoder._typeConfiguration
+- _OBJC_IVAR_$_FedStatsDataEncoderDimensionalResult._dimensionality
+- _OBJC_IVAR_$_FedStatsDataEncoderDimensionalResult._index
+- _OBJC_IVAR_$_FedStatsDataSampler._count
+- _OBJC_IVAR_$_FedStatsDataSampler._results
+- _OBJC_IVAR_$_FedStatsDataSampler._total
+- _OBJC_IVAR_$_FedStatsGeoHashType._hashLength
+- _OBJC_IVAR_$_FedStatsSQLiteCategoryDatabase._dimensionality
+- _OBJC_IVAR_$_FedStatsSQLiteCategoryDatabase._sqliteDB
+- _OBJC_IVAR_$_FedStatsSQLiteDatabase._database
+- _OBJC_IVAR_$_InstalledApp._appName
+- _OBJC_IVAR_$_InstalledApp._bundleIdentifier
+- _OBJC_IVAR_$_InstalledApp._supportedIntents
+- _OBJC_IVAR_$_InstalledApp._supportedMediaCategories
+- _OBJC_METACLASS_$_FedStatSQLiteDatabaseQueryResult
+- _OBJC_METACLASS_$_FedStatsBooleanType
+- _OBJC_METACLASS_$_FedStatsBoundedULongType
+- _OBJC_METACLASS_$_FedStatsBucketedType
+- _OBJC_METACLASS_$_FedStatsCategoricalType
+- _OBJC_METACLASS_$_FedStatsCategoricalTypeSubcategory
+- _OBJC_METACLASS_$_FedStatsCohortFactory
+- _OBJC_METACLASS_$_FedStatsCohortQueryDeviceType
+- _OBJC_METACLASS_$_FedStatsCohortQueryFieldGeneric
+- _OBJC_METACLASS_$_FedStatsCohortQueryInstalledApps
+- _OBJC_METACLASS_$_FedStatsCohortQueryInstalledAppsMedia
+- _OBJC_METACLASS_$_FedStatsCohortQueryInstalledAppsPhone
+- _OBJC_METACLASS_$_FedStatsCohortQueryLocale
+- _OBJC_METACLASS_$_FedStatsCohortQueryURLBits
+- _OBJC_METACLASS_$_FedStatsCombinationType
+- _OBJC_METACLASS_$_FedStatsDataCohort
+- _OBJC_METACLASS_$_FedStatsDataEncoderDimensionalResult
+- _OBJC_METACLASS_$_FedStatsDataSampler
+- _OBJC_METACLASS_$_FedStatsDataTypeFactory
+- _OBJC_METACLASS_$_FedStatsError
+- _OBJC_METACLASS_$_FedStatsGeoHashType
+- _OBJC_METACLASS_$_FedStatsInvalidDataType
+- _OBJC_METACLASS_$_FedStatsLog
+- _OBJC_METACLASS_$_FedStatsSQLiteCategoryDatabase
+- _OBJC_METACLASS_$_FedStatsSQLiteDatabase
+- _OBJC_METACLASS_$_FedStatsUtil
+- _OBJC_METACLASS_$_InstalledApp
+- _OBJC_METACLASS_$_PFLDiagnosticReporting
+- _OBJC_METACLASS_$__PFLLog
+- _OUTLINED_FUNCTION_0
+- _PFLPrivatize
+- _PFLPrivatize.cold.1
+- _PFLPrivatizeCustomNorm
+- _PFLPrivatizeCustomNorm.cold.1
+- _PFLPrivatizeCustomNormWithLowerEpsilon
+- _PFLPrivatizeCustomNormWithLowerEpsilon.cold.1
+- __Block_object_dispose
+- __NSConcreteGlobalBlock
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_NSError_$_FedStatsErrorStringify
+- __OBJC_$_CATEGORY_NSError_$_FedStatsErrorStringify
+- __OBJC_$_CLASS_METHODS_FedStatsBooleanType
+- __OBJC_$_CLASS_METHODS_FedStatsBoundedULongType
+- __OBJC_$_CLASS_METHODS_FedStatsBucketedType
+- __OBJC_$_CLASS_METHODS_FedStatsCategoricalType
+- __OBJC_$_CLASS_METHODS_FedStatsCategoricalTypeSubcategory
+- __OBJC_$_CLASS_METHODS_FedStatsCohortFactory
+- __OBJC_$_CLASS_METHODS_FedStatsCohortQueryDeviceType
+- __OBJC_$_CLASS_METHODS_FedStatsCohortQueryFieldGeneric
+- __OBJC_$_CLASS_METHODS_FedStatsCohortQueryInstalledApps
+- __OBJC_$_CLASS_METHODS_FedStatsCohortQueryLocale
+- __OBJC_$_CLASS_METHODS_FedStatsCohortQueryURLBits
+- __OBJC_$_CLASS_METHODS_FedStatsCombinationType
+- __OBJC_$_CLASS_METHODS_FedStatsDataCohort
+- __OBJC_$_CLASS_METHODS_FedStatsDataEncoderDimensionalResult
+- __OBJC_$_CLASS_METHODS_FedStatsDataSampler
+- __OBJC_$_CLASS_METHODS_FedStatsDataTypeFactory
+- __OBJC_$_CLASS_METHODS_FedStatsError
+- __OBJC_$_CLASS_METHODS_FedStatsGeoHashType
+- __OBJC_$_CLASS_METHODS_FedStatsInvalidDataType
+- __OBJC_$_CLASS_METHODS_FedStatsLog
+- __OBJC_$_CLASS_METHODS_FedStatsSQLiteCategoryDatabase
+- __OBJC_$_CLASS_METHODS_FedStatsSQLiteDatabase
+- __OBJC_$_CLASS_METHODS_FedStatsUtil
+- __OBJC_$_CLASS_METHODS_PFLDiagnosticReporting
+- __OBJC_$_CLASS_METHODS__PFLLog
+- __OBJC_$_INSTANCE_METHODS_FedStatSQLiteDatabaseQueryResult
+- __OBJC_$_INSTANCE_METHODS_FedStatsBooleanType
+- __OBJC_$_INSTANCE_METHODS_FedStatsBoundedULongType
+- __OBJC_$_INSTANCE_METHODS_FedStatsBucketedType
+- __OBJC_$_INSTANCE_METHODS_FedStatsCategoricalType
+- __OBJC_$_INSTANCE_METHODS_FedStatsCategoricalTypeSubcategory
+- __OBJC_$_INSTANCE_METHODS_FedStatsCohortFactory
+- __OBJC_$_INSTANCE_METHODS_FedStatsCohortQueryDeviceType
+- __OBJC_$_INSTANCE_METHODS_FedStatsCohortQueryFieldGeneric
+- __OBJC_$_INSTANCE_METHODS_FedStatsCohortQueryInstalledApps
+- __OBJC_$_INSTANCE_METHODS_FedStatsCohortQueryInstalledAppsMedia
+- __OBJC_$_INSTANCE_METHODS_FedStatsCohortQueryInstalledAppsPhone
+- __OBJC_$_INSTANCE_METHODS_FedStatsCohortQueryLocale
+- __OBJC_$_INSTANCE_METHODS_FedStatsCohortQueryURLBits
+- __OBJC_$_INSTANCE_METHODS_FedStatsCombinationType
+- __OBJC_$_INSTANCE_METHODS_FedStatsDataCohort
+- __OBJC_$_INSTANCE_METHODS_FedStatsDataEncoder
+- __OBJC_$_INSTANCE_METHODS_FedStatsDataEncoderDimensionalResult
+- __OBJC_$_INSTANCE_METHODS_FedStatsDataSampler
+- __OBJC_$_INSTANCE_METHODS_FedStatsGeoHashType
+- __OBJC_$_INSTANCE_METHODS_FedStatsInvalidDataType
+- __OBJC_$_INSTANCE_METHODS_FedStatsSQLiteCategoryDatabase
+- __OBJC_$_INSTANCE_METHODS_FedStatsSQLiteDatabase
+- __OBJC_$_INSTANCE_METHODS_InstalledApp
+- __OBJC_$_INSTANCE_VARIABLES_FedStatSQLiteDatabaseQueryResult
+- __OBJC_$_INSTANCE_VARIABLES_FedStatsBoundedULongType
+- __OBJC_$_INSTANCE_VARIABLES_FedStatsBucketedType
+- __OBJC_$_INSTANCE_VARIABLES_FedStatsCategoricalType
+- __OBJC_$_INSTANCE_VARIABLES_FedStatsCategoricalTypeSubcategory
+- __OBJC_$_INSTANCE_VARIABLES_FedStatsCohortFactory
+- __OBJC_$_INSTANCE_VARIABLES_FedStatsCohortQueryDeviceType
+- __OBJC_$_INSTANCE_VARIABLES_FedStatsCohortQueryFieldGeneric
+- __OBJC_$_INSTANCE_VARIABLES_FedStatsCohortQueryInstalledApps
+- __OBJC_$_INSTANCE_VARIABLES_FedStatsCohortQueryLocale
+- __OBJC_$_INSTANCE_VARIABLES_FedStatsCohortQueryURLBits
+- __OBJC_$_INSTANCE_VARIABLES_FedStatsCombinationType
+- __OBJC_$_INSTANCE_VARIABLES_FedStatsDataCohort
+- __OBJC_$_INSTANCE_VARIABLES_FedStatsDataEncoder
+- __OBJC_$_INSTANCE_VARIABLES_FedStatsDataEncoderDimensionalResult
+- __OBJC_$_INSTANCE_VARIABLES_FedStatsDataSampler
+- __OBJC_$_INSTANCE_VARIABLES_FedStatsGeoHashType
+- __OBJC_$_INSTANCE_VARIABLES_FedStatsSQLiteCategoryDatabase
+- __OBJC_$_INSTANCE_VARIABLES_FedStatsSQLiteDatabase
+- __OBJC_$_INSTANCE_VARIABLES_InstalledApp
+- __OBJC_$_PROP_LIST_FedStatSQLiteDatabaseQueryResult
+- __OBJC_$_PROP_LIST_FedStatsBooleanType
+- __OBJC_$_PROP_LIST_FedStatsBoundedULongType
+- __OBJC_$_PROP_LIST_FedStatsBucketedType
+- __OBJC_$_PROP_LIST_FedStatsCategoricalType
+- __OBJC_$_PROP_LIST_FedStatsCategoricalTypeSubcategory
+- __OBJC_$_PROP_LIST_FedStatsCohortFactory
+- __OBJC_$_PROP_LIST_FedStatsCohortQueryDeviceType
+- __OBJC_$_PROP_LIST_FedStatsCohortQueryFieldGeneric
+- __OBJC_$_PROP_LIST_FedStatsCohortQueryInstalledApps
+- __OBJC_$_PROP_LIST_FedStatsCohortQueryLocale
+- __OBJC_$_PROP_LIST_FedStatsCohortQueryURLBits
+- __OBJC_$_PROP_LIST_FedStatsCombinationType
+- __OBJC_$_PROP_LIST_FedStatsDataCohort
+- __OBJC_$_PROP_LIST_FedStatsDataEncoder
+- __OBJC_$_PROP_LIST_FedStatsDataEncoderDimensionalResult
+- __OBJC_$_PROP_LIST_FedStatsDataSampler
+- __OBJC_$_PROP_LIST_FedStatsGeoHashType
+- __OBJC_$_PROP_LIST_FedStatsInvalidDataType
+- __OBJC_$_PROP_LIST_FedStatsSQLiteCategoryDatabase
+- __OBJC_$_PROP_LIST_FedStatsSQLiteDatabase
+- __OBJC_$_PROP_LIST_InstalledApp
+- __OBJC_$_PROTOCOL_CLASS_METHODS_FedStatsDataTypeProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FedStatsCohortQueryProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FedStatsDataTypeProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FedStatsCohortQueryProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FedStatsDataTypeProtocol
+- __OBJC_$_PROTOCOL_REFS_FedStatsDataTypeProtocol
+- __OBJC_CLASS_PROTOCOLS_$_FedStatsBooleanType
+- __OBJC_CLASS_PROTOCOLS_$_FedStatsBoundedULongType
+- __OBJC_CLASS_PROTOCOLS_$_FedStatsCohortQueryDeviceType
+- __OBJC_CLASS_PROTOCOLS_$_FedStatsCohortQueryFieldGeneric
+- __OBJC_CLASS_PROTOCOLS_$_FedStatsCohortQueryInstalledApps
+- __OBJC_CLASS_PROTOCOLS_$_FedStatsCohortQueryLocale
+- __OBJC_CLASS_PROTOCOLS_$_FedStatsCohortQueryURLBits
+- __OBJC_CLASS_PROTOCOLS_$_FedStatsInvalidDataType
+- __OBJC_CLASS_RO_$_FedStatSQLiteDatabaseQueryResult
+- __OBJC_CLASS_RO_$_FedStatsBooleanType
+- __OBJC_CLASS_RO_$_FedStatsBoundedULongType
+- __OBJC_CLASS_RO_$_FedStatsBucketedType
+- __OBJC_CLASS_RO_$_FedStatsCategoricalType
+- __OBJC_CLASS_RO_$_FedStatsCategoricalTypeSubcategory
+- __OBJC_CLASS_RO_$_FedStatsCohortFactory
+- __OBJC_CLASS_RO_$_FedStatsCohortQueryDeviceType
+- __OBJC_CLASS_RO_$_FedStatsCohortQueryFieldGeneric
+- __OBJC_CLASS_RO_$_FedStatsCohortQueryInstalledApps
+- __OBJC_CLASS_RO_$_FedStatsCohortQueryInstalledAppsMedia
+- __OBJC_CLASS_RO_$_FedStatsCohortQueryInstalledAppsPhone
+- __OBJC_CLASS_RO_$_FedStatsCohortQueryLocale
+- __OBJC_CLASS_RO_$_FedStatsCohortQueryURLBits
+- __OBJC_CLASS_RO_$_FedStatsCombinationType
+- __OBJC_CLASS_RO_$_FedStatsDataCohort
+- __OBJC_CLASS_RO_$_FedStatsDataEncoderDimensionalResult
+- __OBJC_CLASS_RO_$_FedStatsDataSampler
+- __OBJC_CLASS_RO_$_FedStatsDataTypeFactory
+- __OBJC_CLASS_RO_$_FedStatsError
+- __OBJC_CLASS_RO_$_FedStatsGeoHashType
+- __OBJC_CLASS_RO_$_FedStatsInvalidDataType
+- __OBJC_CLASS_RO_$_FedStatsLog
+- __OBJC_CLASS_RO_$_FedStatsSQLiteCategoryDatabase
+- __OBJC_CLASS_RO_$_FedStatsSQLiteDatabase
+- __OBJC_CLASS_RO_$_FedStatsUtil
+- __OBJC_CLASS_RO_$_InstalledApp
+- __OBJC_CLASS_RO_$_PFLDiagnosticReporting
+- __OBJC_CLASS_RO_$__PFLLog
+- __OBJC_LABEL_PROTOCOL_$_FedStatsCohortQueryProtocol
+- __OBJC_LABEL_PROTOCOL_$_FedStatsDataTypeProtocol
+- __OBJC_METACLASS_RO_$_FedStatSQLiteDatabaseQueryResult
+- __OBJC_METACLASS_RO_$_FedStatsBooleanType
+- __OBJC_METACLASS_RO_$_FedStatsBoundedULongType
+- __OBJC_METACLASS_RO_$_FedStatsBucketedType
+- __OBJC_METACLASS_RO_$_FedStatsCategoricalType
+- __OBJC_METACLASS_RO_$_FedStatsCategoricalTypeSubcategory
+- __OBJC_METACLASS_RO_$_FedStatsCohortFactory
+- __OBJC_METACLASS_RO_$_FedStatsCohortQueryDeviceType
+- __OBJC_METACLASS_RO_$_FedStatsCohortQueryFieldGeneric
+- __OBJC_METACLASS_RO_$_FedStatsCohortQueryInstalledApps
+- __OBJC_METACLASS_RO_$_FedStatsCohortQueryInstalledAppsMedia
+- __OBJC_METACLASS_RO_$_FedStatsCohortQueryInstalledAppsPhone
+- __OBJC_METACLASS_RO_$_FedStatsCohortQueryLocale
+- __OBJC_METACLASS_RO_$_FedStatsCohortQueryURLBits
+- __OBJC_METACLASS_RO_$_FedStatsCombinationType
+- __OBJC_METACLASS_RO_$_FedStatsDataCohort
+- __OBJC_METACLASS_RO_$_FedStatsDataEncoderDimensionalResult
+- __OBJC_METACLASS_RO_$_FedStatsDataSampler
+- __OBJC_METACLASS_RO_$_FedStatsDataTypeFactory
+- __OBJC_METACLASS_RO_$_FedStatsError
+- __OBJC_METACLASS_RO_$_FedStatsGeoHashType
+- __OBJC_METACLASS_RO_$_FedStatsInvalidDataType
+- __OBJC_METACLASS_RO_$_FedStatsLog
+- __OBJC_METACLASS_RO_$_FedStatsSQLiteCategoryDatabase
+- __OBJC_METACLASS_RO_$_FedStatsSQLiteDatabase
+- __OBJC_METACLASS_RO_$_FedStatsUtil
+- __OBJC_METACLASS_RO_$_InstalledApp
+- __OBJC_METACLASS_RO_$_PFLDiagnosticReporting
+- __OBJC_METACLASS_RO_$__PFLLog
+- __OBJC_PROTOCOL_$_FedStatsCohortQueryProtocol
+- __OBJC_PROTOCOL_$_FedStatsDataTypeProtocol
+- __OBJC_PROTOCOL_REFERENCE_$_FedStatsDataTypeProtocol
+- __Unwind_Resume
+- ___20+[_PFLLog extension]_block_invoke
+- ___20+[_PFLLog framework]_block_invoke
+- ___20+[_PFLLog telemetry]_block_invoke
+- ___21+[FedStatsLog logger]_block_invoke
+- ___36+[FedStatsDataCohort sharedInstance]_block_invoke
+- ___39+[FedStatsCohortFactory sharedInstance]_block_invoke
+- ___42-[FedStatsCategoricalType sampleForIndex:]_block_invoke
+- ___47+[FedStatsCohortQueryDeviceType cohortInstance]_block_invoke
+- ___51-[FedStatsCombinationType initWithCombinationSpec:]_block_invoke
+- ___57-[FedStatsCohortQueryInstalledApps lsPluginKitExtensions]_block_invoke
+- ___57-[FedStatsCohortQueryInstalledApps lsPluginKitExtensions]_block_invoke.cold.1
+- ___57-[FedStatsCohortQueryInstalledApps lsPluginKitExtensions]_block_invoke.cold.2
+- ___58-[FedStatsDataEncoder initWithDataTypes:combinationTypes:]_block_invoke
+- ___64-[FedStatsCohortQueryInstalledApps applyFilteringForMediaDomain]_block_invoke
+- ___64-[FedStatsCohortQueryInstalledApps applyFilteringForMediaDomain]_block_invoke_2
+- ___64-[FedStatsCohortQueryInstalledApps applyFilteringForMediaDomain]_block_invoke_3
+- ___Block_byref_object_copy_
+- ___Block_byref_object_dispose_
+- ___block_descriptor_32_e26_B24?0"InstalledApp"8^B16l
+- ___block_descriptor_32_e31_q24?0"NSString"8"NSString"16l
+- ___block_descriptor_32_e5_v8?0l
+- ___block_descriptor_40_e5_v8?0l
+- ___block_descriptor_48_e8_32r_e51_v32?08"FedStatsCategoricalTypeSubcategory"16^B24lr32l8
+- ___block_descriptor_48_e8_32s40s_e38_v24?0"LSPlugInKitProxy"8"NSError"16ls32l8s40l8
+- ___block_literal_global
+- ___block_literal_global.3
+- ___block_literal_global.6
+- ___block_literal_global.82
+- ___block_literal_global.84
+- ___objc_personality_v0
+- __os_log_debug_impl
+- __os_log_default
+- __os_log_error_impl
+- _arc4random_uniform
+- _cohortInstance.cohortInstance
+- _cohortInstance.onceToken
+- _dispatch_once
+- _extension._extension
+- _extension.onceToken
+- _framework._framework
+- _framework.onceToken
+- _free
+- _gFedStatsBoundedULongTypeOutOfBoundsNumber
+- _kCategoryFileResultFileDescriptor
+- _kCategoryFileResultValue
+- _kDPMetadataAlgoParamDimensionality
+- _kDPMetadataAlgorithmParameters
+- _kFedStatsBoundedULongTypeBound
+- _kFedStatsBucketedTypeBucketBoundaries
+- _kFedStatsBucketedTypeBucketCount
+- _kFedStatsBucketedTypeMaxValue
+- _kFedStatsBucketedTypeMinValue
+- _kFedStatsCategoricalTypeCategories
+- _kFedStatsCategoricalTypeCategoryFile
+- _kFedStatsCategoricalTypeCategoryMap
+- _kFedStatsCohortMissingField
+- _kFedStatsCombinationTypeAvailableTypes
+- _kFedStatsCombinationTypeStructure
+- _kFedStatsDataCohortAllowList
+- _kFedStatsDataEncoderCollectionKeyPrefix
+- _kFedStatsDataEncoderMaxVectorDim
+- _kFedStatsGeoHashMap
+- _kFedStatsGeoHashTypeHashLength
+- _kFedStatsOutOfBoundsCategory
+- _kPFLPrivatizeIdentifierAppEmbeddings
+- _kPFLPrivatizeIdentifierArcadeRanking
+- _kPFLPrivatizeIdentifierCoreSuggestionsSemlPlugin
+- _kPFLPrivatizeIdentifierEmbeddingTraining
+- _kPFLPrivatizeIdentifierHomeAI
+- _kPFLPrivatizeIdentifierPeopleSuggesterShareSheetPlugin
+- _kPFLPrivatizeIdentifierPhotos
+- _kPFLPrivatizeIdentifierPhotosLarge
+- _kPFLPrivatizeIdentifierPhotosSmall
+- _kPFLPrivatizeIdentifierProactivePhoneEn
+- _kPFLPrivatizeIdentifierProactiveResponses
+- _kPFLPrivatizeIdentifierQuickTypeLM
+- _kPFLPrivatizeIdentifierReminderKitREMMLPlugin
+- _kPFLPrivatizeIdentifierSearchAds
+- _kPFLPrivatizeIdentifierSiriInference
+- _kPFLPrivatizeIdentifierSiriSpeechNNLM
+- _kPFLPrivatizeIdentifierTips
+- _kPFLPrivatizeIdentifierVocalClassifier
+- _kPFLPrivatizeIdentifierVocalGBDTClassifier
+- _kPFLPrivatizeTaskIdentifierQuickTypeCNNTextClassification
+- _kPFLPrivatizeTaskIdentifierQuickTypeLM
+- _logger._framework
+- _logger.onceToken
+- _malloc_type_malloc
+- _memset_pattern16
+- _objc_alloc
+- _objc_alloc_init
+- _objc_claimAutoreleasedReturnValue
+- _objc_enumerationMutation
+- _objc_getProperty
+- _objc_msgSend$URL
+- _objc_msgSend$URLByDeletingLastPathComponent
+- _objc_msgSend$URLByResolvingSymlinksInPath
+- _objc_msgSend$UTF8String
+- _objc_msgSend$_isSupportedIntentMediaApp:::
+- _objc_msgSend$absoluteString
+- _objc_msgSend$addEntriesFromDictionary:
+- _objc_msgSend$addItem:
+- _objc_msgSend$addItems:
+- _objc_msgSend$addObject:
+- _objc_msgSend$addObjectsFromArray:
+- _objc_msgSend$allKeys
+- _objc_msgSend$allKeysForObject:
+- _objc_msgSend$allObjects
+- _objc_msgSend$allValues
+- _objc_msgSend$appendData:
+- _objc_msgSend$appendFormat:
+- _objc_msgSend$applyFilteringForMediaDomain
+- _objc_msgSend$array
+- _objc_msgSend$arrayByAddingObject:
+- _objc_msgSend$arrayByAddingObjectsFromArray:
+- _objc_msgSend$arrayWithArray:
+- _objc_msgSend$arrayWithCapacity:
+- _objc_msgSend$arrayWithObject:
+- _objc_msgSend$bound
+- _objc_msgSend$bucketBoundaries
+- _objc_msgSend$bucketCount
+- _objc_msgSend$bundleForClass:
+- _objc_msgSend$bundleIdentifier
+- _objc_msgSend$cStringUsingEncoding:
+- _objc_msgSend$categories
+- _objc_msgSend$categoryFile
+- _objc_msgSend$categoryMap
+- _objc_msgSend$categoryWithSuperCategory:index:
+- _objc_msgSend$classCount
+- _objc_msgSend$cohortInstance
+- _objc_msgSend$cohortKeyForParameters:possibleError:
+- _objc_msgSend$cohortName
+- _objc_msgSend$cohortObjects
+- _objc_msgSend$cohortQueryFieldByName:
+- _objc_msgSend$cohortQueryFieldWithKey:
+- _objc_msgSend$combinationSpec
+- _objc_msgSend$componentsJoinedByString:
+- _objc_msgSend$componentsWithURL:resolvingAgainstBaseURL:
+- _objc_msgSend$conformsToProtocol:
+- _objc_msgSend$containingBundle
+- _objc_msgSend$containsObject:
+- _objc_msgSend$copy
+- _objc_msgSend$count
+- _objc_msgSend$countByEnumeratingWithState:objects:count:
+- _objc_msgSend$createFedStatsDataType:dataTypeParams:possibleError:
+- _objc_msgSend$createFromDict:possibleError:
+- _objc_msgSend$createWithDataTypeContent:possibleError:
+- _objc_msgSend$currentLocale
+- _objc_msgSend$data
+- _objc_msgSend$dataTypeFromString:
+- _objc_msgSend$dataTypes
+- _objc_msgSend$dataWithBytes:length:
+- _objc_msgSend$dataWithData:
+- _objc_msgSend$dataWithLength:
+- _objc_msgSend$database
+- _objc_msgSend$databaseWithFileURL:error:
+- _objc_msgSend$databaseWithURL:mode:error:
+- _objc_msgSend$date
+- _objc_msgSend$debugDescription
+- _objc_msgSend$decode:error:
+- _objc_msgSend$decodeFromBitVector:withType:possibleError:
+- _objc_msgSend$decodeFromIndex:possibleError:
+- _objc_msgSend$decodeFromOneHotVector:possibleError:
+- _objc_msgSend$defaultWorkspace
+- _objc_msgSend$describe
+- _objc_msgSend$deviceLocale
+- _objc_msgSend$deviceType
+- _objc_msgSend$dictionary
+- _objc_msgSend$dictionaryWithCapacity:
+- _objc_msgSend$dictionaryWithContentsOfFile:
+- _objc_msgSend$dictionaryWithDictionary:
+- _objc_msgSend$dimensionality
+- _objc_msgSend$domainToInstalledApps
+- _objc_msgSend$encode:error:
+- _objc_msgSend$encodeDataArray:dataTypeContent:resultType:errorOut:
+- _objc_msgSend$encodeToBitVector:possibleError:
+- _objc_msgSend$encodeToBitVector:withType:possibleError:
+- _objc_msgSend$encodeToIndex:error:
+- _objc_msgSend$encodeToIndex:possibleError:
+- _objc_msgSend$encodeToIndex:withType:error:
+- _objc_msgSend$encodeToOneHotVector:possibleError:
+- _objc_msgSend$enumerateKeysAndObjectsUsingBlock:
+- _objc_msgSend$enumeratePluginsMatchingQuery:withBlock:
+- _objc_msgSend$enumeratorWithOptions:
+- _objc_msgSend$errorWithCode:description:
+- _objc_msgSend$errorWithCode:underlyingError:description:
+- _objc_msgSend$execute:error:
+- _objc_msgSend$firstObject
+- _objc_msgSend$framework
+- _objc_msgSend$geoHashCharToInteger:
+- _objc_msgSend$getBytes:range:
+- _objc_msgSend$getResults
+- _objc_msgSend$hashLength
+- _objc_msgSend$index
+- _objc_msgSend$indexOfObject:
+- _objc_msgSend$initQueryFieldWithKey:
+- _objc_msgSend$initWithBound:
+- _objc_msgSend$initWithBucketBoundaries:
+- _objc_msgSend$initWithBundleIdentifier:supportedMediaCategories:supportedIntents:appName:
+- _objc_msgSend$initWithCategories:
+- _objc_msgSend$initWithCategoryFile:
+- _objc_msgSend$initWithCategoryMap:categories:
+- _objc_msgSend$initWithCombinationSpec:
+- _objc_msgSend$initWithDataTypes:combinationTypes:
+- _objc_msgSend$initWithDatabase:
+- _objc_msgSend$initWithDeviceType:
+- _objc_msgSend$initWithDomain:code:userInfo:
+- _objc_msgSend$initWithGeoHashLength:
+- _objc_msgSend$initWithIndex:dimensionality:
+- _objc_msgSend$initWithMinValue:maxValue:bucketCount:
+- _objc_msgSend$initWithQueryStatement:
+- _objc_msgSend$initWithSQLiteDatabase:dimensionality:
+- _objc_msgSend$initWithSuperCategory:index:
+- _objc_msgSend$insertString:atIndex:
+- _objc_msgSend$intToBitString:length:
+- _objc_msgSend$intValue
+- _objc_msgSend$intersectSet:
+- _objc_msgSend$isEqualToNumber:
+- _objc_msgSend$isEqualToString:
+- _objc_msgSend$isReadableFileAtPath:
+- _objc_msgSend$kAvailableTypes
+- _objc_msgSend$kOutOfCategories
+- _objc_msgSend$lastObject
+- _objc_msgSend$length
+- _objc_msgSend$localizedDescription
+- _objc_msgSend$localizedName
+- _objc_msgSend$logger
+- _objc_msgSend$longValue
+- _objc_msgSend$lsAppRecords
+- _objc_msgSend$lsPluginKitExtensions
+- _objc_msgSend$maxValue
+- _objc_msgSend$minValue
+- _objc_msgSend$mutableCopy
+- _objc_msgSend$namespaceMap
+- _objc_msgSend$next
+- _objc_msgSend$nextObject
+- _objc_msgSend$null
+- _objc_msgSend$numOfMediaApps
+- _objc_msgSend$numOfPhoneApps
+- _objc_msgSend$numberWithBool:
+- _objc_msgSend$numberWithDouble:
+- _objc_msgSend$numberWithFloat:
+- _objc_msgSend$numberWithInt:
+- _objc_msgSend$numberWithInteger:
+- _objc_msgSend$numberWithUnsignedInteger:
+- _objc_msgSend$numberWithUnsignedLong:
+- _objc_msgSend$objectAtIndex:
+- _objc_msgSend$objectAtIndexedSubscript:
+- _objc_msgSend$objectForInfoDictionaryKey:ofClass:inScope:
+- _objc_msgSend$objectForKeyedSubscript:
+- _objc_msgSend$objectsPassingTest:
+- _objc_msgSend$orderedKeys
+- _objc_msgSend$path
+- _objc_msgSend$pathForResource:ofType:
+- _objc_msgSend$pickSamplesFrom:length:
+- _objc_msgSend$preferredLanguages
+- _objc_msgSend$queryItemWithName:value:
+- _objc_msgSend$queryStatement
+- _objc_msgSend$record:metadata:
+- _objc_msgSend$removeObject:
+- _objc_msgSend$replaceBytesInRange:withBytes:
+- _objc_msgSend$replaceObjectAtIndex:withObject:
+- _objc_msgSend$resolveDomainToBundleIds
+- _objc_msgSend$resultWithIndex:dimensionality:
+- _objc_msgSend$results
+- _objc_msgSend$runQuery:error:
+- _objc_msgSend$sampleForIndex:
+- _objc_msgSend$samplerWithCount:
+- _objc_msgSend$set
+- _objc_msgSend$setCount:
+- _objc_msgSend$setObject:atIndexedSubscript:
+- _objc_msgSend$setObject:forKeyedSubscript:
+- _objc_msgSend$setQueryItems:
+- _objc_msgSend$setResults:
+- _objc_msgSend$setSet:
+- _objc_msgSend$setTotal:
+- _objc_msgSend$setVersion:
+- _objc_msgSend$setWithArray:
+- _objc_msgSend$setWithObjects:
+- _objc_msgSend$setWithSet:
+- _objc_msgSend$sharedInstance
+- _objc_msgSend$sortedArrayUsingComparator:
+- _objc_msgSend$sortedArrayUsingSelector:
+- _objc_msgSend$sqliteDB
+- _objc_msgSend$stepSize
+- _objc_msgSend$strides
+- _objc_msgSend$string
+- _objc_msgSend$stringByAppendingString:
+- _objc_msgSend$stringByPaddingToLength:withString:startingAtIndex:
+- _objc_msgSend$stringWithCString:encoding:
+- _objc_msgSend$stringWithCapacity:
+- _objc_msgSend$stringWithFormat:
+- _objc_msgSend$stringWithUTF8String:
+- _objc_msgSend$subdataWithRange:
+- _objc_msgSend$substringToIndex:
+- _objc_msgSend$substringWithRange:
+- _objc_msgSend$supportedIntentMediaCategories
+- _objc_msgSend$supportedIntents
+- _objc_msgSend$supportedMediaCategories
+- _objc_msgSend$timeIntervalSinceDate:
+- _objc_msgSend$total
+- _objc_msgSend$typeConfiguration
+- _objc_msgSend$typesInCombination
+- _objc_msgSend$underlyingErrors
+- _objc_msgSend$unsignedLongValue
+- _objc_msgSend$userInfo
+- _objc_msgSend$version
+- _objc_msgSendSuper2
+- _objc_opt_class
+- _objc_opt_isKindOfClass
+- _objc_release_x1
+- _objc_retainAutorelease
+- _objc_retainAutoreleaseReturnValue
+- _objc_retain_x1
+- _objc_retain_x2
+- _objc_retain_x25
+- _objc_retain_x3
+- _objc_retain_x4
+- _objc_retain_x5
+- _objc_setProperty_atomic
+- _objc_setProperty_atomic_copy
+- _objc_storeStrong
+- _os_log_create
+- _sharedInstance.onceToken
+- _sharedInstance.onceToken.224
+- _sharedInstance.sharedDataCohortInstance
+- _sharedInstance.sharedInstance
+- _sqlite3_close_v2
+- _sqlite3_column_count
+- _sqlite3_column_double
+- _sqlite3_column_int
+- _sqlite3_column_name
+- _sqlite3_column_text
+- _sqlite3_column_type
+- _sqlite3_errmsg
+- _sqlite3_errstr
+- _sqlite3_exec
+- _sqlite3_finalize
+- _sqlite3_open_v2
+- _sqlite3_prepare_v2
+- _sqlite3_step
+- _sqrt
+- _stringsToDataTypesMap
+- _strlen
+- _telemetry.onceToken
+- _telemetry.telemetry
+- _uname
+- _vDSP_vclr
+CStrings:
++ "<PrivateFederatedLearning/FedStatsDataEncoder.h> is deprecated, please use <FedStats/FedStatsDataEncoder.h>."
++ "@\"MTLDeviceFeatureQueries\"16@0:8"
++ "FedStats"
++ "PrivateFederatedLearning/PFLStats.swift"
++ "T@\"MTLDeviceFeatureQueries\",R"
++ "errorWithDomain:code:userInfo:"
++ "featureQueries"
++ "sharedPreferences"
++ "siriDataSharingOptInStatus"
+- ""
+- "!"
+- "\"%@\" cohort error while creating the key: %@"
+- "\"%@\" cohort is not approved for \"%@\" namespace."
+- "\"%@\" cohort is not implemented."
+- "\"%@\" namespace is invalid."
+- "%@_%@"
+- "%d"
+- ", "
+- ".cxx_destruct"
+- "0"
+- "1"
+- "<null>"
+- "@"
+- "@\"<FedStatsCohortQueryProtocol>\"16@0:8"
+- "@\"<FedStatsDataTypeProtocol>\"32@0:8@\"NSDictionary\"16^@24"
+- "@\"FedStatsSQLiteCategoryDatabase\""
+- "@\"FedStatsSQLiteDatabase\""
+- "@\"NSArray\""
+- "@\"NSData\"32@0:8@16^@24"
+- "@\"NSDictionary\""
+- "@\"NSMutableArray\""
+- "@\"NSNumber\""
+- "@\"NSNumber\"32@0:8@16^@24"
+- "@\"NSString\""
+- "@\"NSString\"32@0:8@\"NSDictionary\"16^@24"
+- "@24@0:8^{sqlite3=}16"
+- "@24@0:8^{sqlite3_stmt=}16"
+- "@24@0:8i16i20"
+- "@32@0:8@\"NSData\"16^@24"
+- "@32@0:8@\"NSNumber\"16^@24"
+- "@32@0:8Q16^@24"
+- "@32@0:8q16@24"
+- "@36@0:8@16c24^@28"
+- "@40@0:8@16@24@32"
+- "@40@0:8q16@24@32"
+- "@48@0:8@16@24@32@40"
+- "@48@0:8@16@24@32^@40"
+- "@48@0:8@16@24^Q32^@40"
+- "Another file at `databaseURL` exists and cannot be removed"
+- "B24@?0@\"InstalledApp\"8^B16"
+- "B32@0:8@16@24"
+- "BooleanType"
+- "BoundedIntegerType"
+- "BucketedType"
+- "CREATE TABLE categories (idx INTEGER UNIQUE, category TEXT UNIQUE, PRIMARY KEY(idx,category)) WITHOUT ROWID,STRICT"
+- "Cannot check if max index is equal to the number of entries"
+- "Cannot check query result"
+- "Cannot complete check statement for %@"
+- "Cannot count rows"
+- "Cannot create database from the provided URL"
+- "Cannot create new database"
+- "Cannot encode data to \"%@\""
+- "Cannot find max index"
+- "Cannot insert elements into the table"
+- "Cannot load database: %s"
+- "Cannot open database"
+- "Cannot prepare query: %s"
+- "Cannot process data point, skipping..."
+- "Cannot process data point: '%@', skipping"
+- "Cannot query database"
+- "Cannot run `create table` command"
+- "CategoricalType"
+- "CombinationType"
+- "Could not create data type \"%@\": %@"
+- "Could not decode \"%@\" value in the combination: %@"
+- "Database columns are malformed"
+- "Database execute error: %s"
+- "Error encoding \"%@\" type: %@"
+- "Error enumerating app records; app record: %@ has nil bundle identifier"
+- "Error enumerating plugins; matching query: %@, error: %@"
+- "Error enumerating plugins; missing containing bundle of plugin: %@"
+- "Error when encoding categorical type over database"
+- "Error with \"%@\" value in the encoder."
+- "Every entry in the value of the key \"%@\" must be a string"
+- "Every value in the \"%@\" dictionary must be a class conforming to %@"
+- "Failed to lookup category in the database"
+- "FedStatSQLiteDatabaseQueryResult"
+- "FedStatsBooleanType"
+- "FedStatsBoundedULongType"
+- "FedStatsBucketedType"
+- "FedStatsCategoricalDataOutOfBounds"
+- "FedStatsCategoricalType"
+- "FedStatsCategoricalTypeSubcategory"
+- "FedStatsCohortAllowList"
+- "FedStatsCohortFactory"
+- "FedStatsCohortQueryDeviceType"
+- "FedStatsCohortQueryFieldGeneric"
+- "FedStatsCohortQueryInstalledApps"
+- "FedStatsCohortQueryInstalledApps#resolveDomainToBundleIds complete in %fms"
+- "FedStatsCohortQueryInstalledApps#resolveDomainToBundleIds resolved domain to bundle ids: %@"
+- "FedStatsCohortQueryInstalledApps#resolveDomainToBundleIds start."
+- "FedStatsCohortQueryInstalledAppsMedia"
+- "FedStatsCohortQueryInstalledAppsPhone"
+- "FedStatsCohortQueryLocale"
+- "FedStatsCohortQueryProtocol"
+- "FedStatsCohortQueryURLBits"
+- "FedStatsCombinationType"
+- "FedStatsDataCohort"
+- "FedStatsDataEncoderDimensionalResult"
+- "FedStatsDataSampler"
+- "FedStatsDataTypeFactory"
+- "FedStatsDataTypeProtocol"
+- "FedStatsError"
+- "FedStatsErrorStringify"
+- "FedStatsGeoHashType"
+- "FedStatsInvalidDataType"
+- "FedStatsLog"
+- "FedStatsSQLiteCategoryDatabase"
+- "FedStatsSQLiteDatabase"
+- "FedStatsUtil"
+- "Framework"
+- "INMediaCategoryAudiobooks"
+- "INMediaCategoryGeneral"
+- "INMediaCategoryMusic"
+- "INMediaCategoryPodcasts"
+- "INMediaCategoryRadio"
+- "INMediaCategoryVideo"
+- "INSERT INTO categories VALUES (%lu, '%@')"
+- "Input category should be a string"
+- "InstalledApp"
+- "InstalledApp { bundleIdentifier: %@ }"
+- "Invalid call to FedStatsCohortQueryInstalledApps#.cohortKeyForParameters"
+- "InvalidType"
+- "Items in `categories` must be `NSString` instances"
+- "MCC"
+- "MLRuntimePlugin"
+- "MNC"
+- "Missing data type content"
+- "Missing data type specifier key \"%@\""
+- "Missing key \"%@\""
+- "Mode can be one of 'r', 'w', 'a'"
+- "No results for max index (how?)"
+- "No results for row count (how?)"
+- "Non-dictionary or nil in the input, skipping..."
+- "Only one factor in the input vector must be non-zero."
+- "PFLDiagnosticReporting"
+- "PFLDiagnosticReporting is being deprecated, please consult PFL team."
+- "PFLPrivatize is being deprecated, please consult PFL team."
+- "PFLPrivatizeCustomNorm is being deprecated, please consult PFL team."
+- "PFLPrivatizeCustomNormWithLowerEpsilon is being deprecated, please consult PFL team."
+- "Provided data does not contain a value for \"%@\""
+- "Provided data is empty"
+- "Q"
+- "Q20@0:8c16"
+- "Resulting dimensionality %lu is larger than max dimensionality %lu"
+- "SELECT COUNT(*) AS count FROM PRAGMA_INDEX_LIST('categories') AS indices, PRAGMA_INDEX_XINFO(indices.name) AS index_info WHERE indices.origin == 'pk' AND index_info.key == 1;"
+- "SELECT COUNT(*) AS count FROM PRAGMA_INDEX_LIST('categories') AS indices, PRAGMA_TABLE_XINFO('categories') AS table_info, PRAGMA_INDEX_XINFO(indices.name) AS index_info WHERE indices.origin != 'pk' AND indices.[unique] == 1 AND index_info.key == 1 AND index_info.name == table_info.name AND index_info.name == 'category' AND table_info.type == 'TEXT'"
+- "SELECT COUNT(*) AS count FROM PRAGMA_INDEX_LIST('categories') AS indices, PRAGMA_TABLE_XINFO('categories') AS table_info, PRAGMA_INDEX_XINFO(indices.name) AS index_info WHERE indices.origin != 'pk' AND indices.[unique] == 1 AND index_info.key == 1 AND index_info.name == table_info.name AND index_info.name == 'idx' AND table_info.type == 'INTEGER'"
+- "SELECT COUNT(*) AS count FROM PRAGMA_TABLE_XINFO('categories')"
+- "SELECT COUNT(*) AS count FROM categories"
+- "SELECT COUNT(*) AS count FROM sqlite_master WHERE type == 'table' AND name == 'categories'"
+- "SELECT COUNT(*) AS count FROM sqlite_master, PRAGMA_INDEX_LIST(sqlite_master.name) AS index_list, PRAGMA_INDEX_XINFO(index_list.name) AS index_info WHERE sqlite_master.type == 'table' AND index_list.origin == 'pk' AND index_info.cid < 0"
+- "SELECT MAX(idx) AS maxIndex FROM categories"
+- "SELECT category FROM categories WHERE idx == %lu"
+- "SELECT idx FROM categories WHERE category == '%@'"
+- "SQLite categories database requires a path in URL"
+- "Subcategories must be distinct"
+- "T@\"FedStatsSQLiteCategoryDatabase\",R,C,N,V_categoryFile"
+- "T@\"FedStatsSQLiteDatabase\",R,V_sqliteDB"
+- "T@\"NSArray\",&,N,V_bucketBoundaries"
+- "T@\"NSArray\",&,N,V_orderedKeys"
+- "T@\"NSArray\",&,N,V_supportedIntents"
+- "T@\"NSArray\",&,N,V_supportedMediaCategories"
+- "T@\"NSArray\",&,N,V_typeConfiguration"
+- "T@\"NSArray\",R,C,N,V_categories"
+- "T@\"NSDictionary\",&,N,Gstrides,V_strides"
+- "T@\"NSDictionary\",&,N,V_combinationSpec"
+- "T@\"NSDictionary\",&,N,V_dataTypes"
+- "T@\"NSDictionary\",&,N,V_domainToInstalledApps"
+- "T@\"NSDictionary\",R,C,N,V_categoryMap"
+- "T@\"NSDictionary\",R,N,V_namespaceMap"
+- "T@\"NSDictionary\",R,V_cohortObjects"
+- "T@\"NSMutableArray\",&,N,V_results"
+- "T@\"NSNumber\",&,N,V_bucketCount"
+- "T@\"NSNumber\",&,N,V_maxValue"
+- "T@\"NSNumber\",&,N,V_minValue"
+- "T@\"NSNumber\",&,N,V_stepSize"
+- "T@\"NSNumber\",C,V_dimensionality"
+- "T@\"NSNumber\",C,V_index"
+- "T@\"NSString\",&,N,V_appName"
+- "T@\"NSString\",&,N,V_bundleIdentifier"
+- "T@\"NSString\",&,V_deviceType"
+- "T@\"NSString\",R,C,N,V_superCategory"
+- "T@\"NSString\",R,N,V_cohortName"
+- "T@\"NSString\",R,N,V_deviceLocale"
+- "TQ,N,V_bound"
+- "TQ,N,V_count"
+- "TQ,N,V_hashLength"
+- "TQ,N,V_total"
+- "TQ,R,N,V_index"
+- "TQ,R,N,V_numOfMediaApps"
+- "TQ,R,N,V_numOfPhoneApps"
+- "TQ,R,N,V_version"
+- "TQ,R,V_dimensionality"
+- "T^{sqlite3=},R,V_database"
+- "T^{sqlite3_stmt=},V_queryStatement"
+- "Telemetry"
+- "The categorical type version is not supported"
+- "The combination type encoder requires a dictionary to process."
+- "The combination type requires the key \"%@\" to be in the value dictionary"
+- "The data should have a String value for key \"%@\""
+- "The data should have a value for key \"%@\""
+- "The data type \"%@\" is not defined"
+- "The data type \"%@\" is not supported"
+- "The data type \"%@\" is not valid"
+- "The decoder can only work with a non-null number type"
+- "The decoder can only work with a number type"
+- "The decoder can only work with a valid number type"
+- "The decoder can only work with a valid one-hot vector"
+- "The decoder for \"%@\" failed"
+- "The decoder requires a number less than the class count"
+- "The directory for the URL does not exist"
+- "The encoder can only work with a number type"
+- "The encoder can only work with a positive integer"
+- "The encoder is malformed"
+- "The entries for \"%@\" must be monotonically increasing"
+- "The geohash decoder accepts only positive integers"
+- "The geohash type accepts only a string to encode"
+- "The item \"%@\" in the list for \"%@\" is not a number"
+- "The key \"%@\" is missing"
+- "The value for \"%@\" must be less than %lu"
+- "The value for key \"%@\" must be a positive integer"
+- "The value of \"%@\" must be a positive integer"
+- "The value of \"%@\" must be less than the value of \"%@\""
+- "The value of the key \"%@\" must be a dictionary"
+- "The value of the key \"%@\" must be an array"
+- "The value of the key \"%@\" must have at least 2 elements"
+- "There is no type defined for \"%@\""
+- "This API is only available for single type in encoding schema"
+- "This geohash encoder accepts hashes of length %lu"
+- "This is only a placeholder class for invalid types."
+- "Tq,N,V_version"
+- "URL"
+- "URLByDeletingLastPathComponent"
+- "URLByResolvingSymlinksInPath"
+- "UTF8String"
+- "Unsupported result type \"%lu\" in data encoder"
+- "You can either have \"%@\" or the triple (\"%@\",\"%@\",\"%@\") as keys, not all"
+- "You must have at least 2 elements for \"%@\""
+- "You're allowed to have exactly one of {%@} as key in parameters"
+- "^{sqlite3=}"
+- "^{sqlite3=}16@0:8"
+- "^{sqlite3_stmt=}"
+- "^{sqlite3_stmt=}16@0:8"
+- "_PFLLog"
+- "_appName"
+- "_bound"
+- "_bucketBoundaries"
+- "_bucketCount"
+- "_bundleIdentifier"
+- "_categories"
+- "_categoryFile"
+- "_categoryMap"
+- "_classCount"
+- "_cohortName"
+- "_cohortObjects"
+- "_combinationSpec"
+- "_count"
+- "_dataTypes"
+- "_database"
+- "_deviceLocale"
+- "_deviceType"
+- "_dimensionality"
+- "_domainToInstalledApps"
+- "_hashLength"
+- "_index"
+- "_isSupportedIntentMediaApp:::"
+- "_maxValue"
+- "_minValue"
+- "_namespaceMap"
+- "_numOfMediaApps"
+- "_numOfPhoneApps"
+- "_orderedKeys"
+- "_queryStatement"
+- "_results"
+- "_sqliteDB"
+- "_stepSize"
+- "_strides"
+- "_superCategory"
+- "_supportedIntents"
+- "_supportedMediaCategories"
+- "_total"
+- "_typeConfiguration"
+- "_version"
+- "`%@` must be a dictionary of URLs"
+- "`categories` must be a `NSArray` instance"
+- "`databaseURL` must be a `NSURL` instance"
+- "`databaseURL` should be an NSURL instance"
+- "`databaseURL` should be readable"
+- "`databaseURL` should exist in read-mode"
+- "`databaseURL` should exist to append"
+- "`databaseURL` should not be a directory"
+- "`sqlQuery` should be a string"
+- "a dictionary with keys as strings and values as arrays of strings"
+- "absoluteString"
+- "accessedPropertyDirectly"
+- "action"
+- "addEntriesFromDictionary:"
+- "addItem:"
+- "addItems:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addressFamily"
+- "ageGroup"
+- "allKeys"
+- "allKeysForObject:"
+- "allObjects"
+- "allValues"
+- "appName"
+- "appendData:"
+- "appendFormat:"
+- "applyFilteringForMediaDomain"
+- "array"
+- "arrayByAddingObject:"
+- "arrayByAddingObjectsFromArray:"
+- "arrayWithArray:"
+- "arrayWithCapacity:"
+- "arrayWithObject:"
+- "at_least_10"
+- "availableTypes"
+- "bitStringToInt:"
+- "bitsOfURL"
+- "bound"
+- "bucketBoundaries"
+- "bucketCount"
+- "bundle record: %@ has supported intent %@ and supported media categories: %@"
+- "bundleForClass:"
+- "bundleID"
+- "bundleIdentifier"
+- "cStringUsingEncoding:"
+- "cardShownOrEngaged"
+- "categories"
+- "category"
+- "categoryDatabaseAt:withCategories:error:"
+- "categoryFile"
+- "categoryMap"
+- "categoryWithSuperCategory:index:"
+- "checkCohortField:forNamespaceID:"
+- "classCount"
+- "cohortInstance"
+- "cohortKeyForParameters:possibleError:"
+- "cohortName"
+- "cohortName:cohortKey => %@=%@ for namespace %@"
+- "cohortObjects"
+- "cohortQueryFieldByName:"
+- "cohortQueryFieldWithKey:"
+- "com.apple.AppleMediaDiscovery.ASLAppEmbedding"
+- "com.apple.AppleMediaDiscovery.ASLArcadeRanking"
+- "com.apple.CoreSuggestions.SemlPlugin"
+- "com.apple.FedStats"
+- "com.apple.Music"
+- "com.apple.PeopleSuggester.ProactiveShareSheetLighthousePFLPlugin"
+- "com.apple.PrivateFederatedLearning"
+- "com.apple.ap.pfl"
+- "com.apple.fides.vocal"
+- "com.apple.fides.vocal_GBDT"
+- "com.apple.homeai.pfl"
+- "com.apple.photos.pfl"
+- "com.apple.photos.pfl.large"
+- "com.apple.photos.pfl.small"
+- "com.apple.podcasts"
+- "com.apple.priml.ember"
+- "com.apple.proactive.fia.phone.en"
+- "com.apple.proactive.responses"
+- "com.apple.quicktype.cnn.textClassification"
+- "com.apple.quicktype.lm"
+- "com.apple.quicktype.lstm.lm"
+- "com.apple.reminderkit.REMMLRuntimePlugin"
+- "com.apple.siri.inference"
+- "com.apple.siri.speech-global-nnlm"
+- "com.apple.tips.TipsPFLPlugin"
+- "com.charliemchapman.dark-noise"
+- "com.google.ios.youtube"
+- "com.iqiyi.child"
+- "com.iqiyi.iphone"
+- "com.qiyi.hd"
+- "com.soda.music"
+- "com.tencent.QQKSong"
+- "com.youku.YouKu"
+- "com.zhiliaoapp.musically.IntentExtension"
+- "combinationSpec"
+- "componentsJoinedByString:"
+- "componentsWithURL:resolvingAgainstBaseURL:"
+- "containingBundle"
+- "containsObject:"
+- "contentType"
+- "copy"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "country"
+- "countryCode"
+- "createFedStatsDataType:dataTypeParams:possibleError:"
+- "createFromDict:possibleError:"
+- "createWithDataTypeContent:possibleError:"
+- "currentLocale"
+- "dataTypeFromString:"
+- "dataTypes"
+- "dataWithBytes:length:"
+- "dataWithData:"
+- "dataWithLength:"
+- "databaseWithFileURL:error:"
+- "databaseWithURL:mode:error:"
+- "date"
+- "dayOfWeek"
+- "dealloc"
+- "decode:error:"
+- "decodeFromBitVector:possibleError:"
+- "decodeFromBitVector:withType:possibleError:"
+- "decodeFromIndex:possibleError:"
+- "decodeFromOneHotVector:possibleError:"
+- "defaultWorkspace"
+- "describe"
+- "deviceType"
+- "dictionary"
+- "dictionaryWithCapacity:"
+- "dictionaryWithContentsOfFile:"
+- "dictionaryWithDictionary:"
+- "dimensionality"
+- "domain = \"%@\", code = %lu, description = \"%@\""
+- "domainToInstalledApps"
+- "dyldPlatform"
+- "encode:error:"
+- "encodeDataArray encoder construction failed"
+- "encodeDataArray missing data array"
+- "encodeDataArray missing data type content"
+- "encodeDataArray:dataTypeContent:resultType:errorOut:"
+- "encodeDataArrayAndRecord encoded data array, recording"
+- "encodeDataArrayAndRecord failed at encoding"
+- "encodeDataArrayAndRecord failed at recorder allocation"
+- "encodeDataArrayAndRecord failed to record bit vectors for key '%@'"
+- "encodeDataArrayAndRecord failed to record numbers for key '%@'"
+- "encodeDataArrayAndRecord missing collection ID key"
+- "encodeDataArrayAndRecord recording with dimension = \"%@\""
+- "encodeDataArrayAndRecord with baseKey = \"%@\""
+- "encodeToBitVector:possibleError:"
+- "encodeToBitVector:withType:possibleError:"
+- "encodeToIndex:error:"
+- "encodeToIndex:possibleError:"
+- "encodeToIndex:withType:error:"
+- "encodeToOneHotVector:possibleError:"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "enumeratePluginsMatchingQuery:withBlock:"
+- "enumeratorWithOptions:"
+- "error"
+- "errorWithCode:description:"
+- "errorWithCode:underlyingError:description:"
+- "errorWithCode:underlyingErrors:description:"
+- "eventDirection"
+- "eventName"
+- "execute:error:"
+- "extension"
+- "extra"
+- "fedstats:"
+- "fileDesc"
+- "firstObject"
+- "focusRegionType"
+- "footprint"
+- "framework"
+- "gFedStatsOutOfBoundsNumber"
+- "geoHashCharToInteger:"
+- "geohash"
+- "gestureAssessment"
+- "getBytes:range:"
+- "getResults"
+- "hashLength"
+- "hourOfDay"
+- "i"
+- "idx"
+- "index"
+- "indexOfObject:"
+- "indexToInterval:"
+- "initQueryFieldWithKey:"
+- "initWithBound:"
+- "initWithBucketBoundaries:"
+- "initWithBundleIdentifier:supportedMediaCategories:supportedIntents:appName:"
+- "initWithCategories:"
+- "initWithCategoryFile:"
+- "initWithCategoryMap:categories:"
+- "initWithCombinationSpec:"
+- "initWithDataTypes:combinationTypes:"
+- "initWithDatabase:"
+- "initWithDeviceType:"
+- "initWithDomain:code:userInfo:"
+- "initWithGeoHashLength:"
+- "initWithIndex:dimensionality:"
+- "initWithMinValue:maxValue:bucketCount:"
+- "initWithQueryStatement:"
+- "initWithSQLiteDatabase:dimensionality:"
+- "initWithSuperCategory:index:"
+- "initialize"
+- "insertString:atIndex:"
+- "intToBitString:length:"
+- "intValue"
+- "interfaceType"
+- "intersectSet:"
+- "isEqualToNumber:"
+- "isEqualToString:"
+- "isNativeArchitecture"
+- "isReadableFileAtPath:"
+- "issuer"
+- "kAvailableTypes"
+- "kOutOfCategories"
+- "keysForCohorts:namespaceID:parameters:possibleError:"
+- "lang"
+- "language"
+- "lastObject"
+- "length"
+- "livenessAssessment"
+- "locale"
+- "localeIdentifier"
+- "localizedDescription"
+- "localizedName"
+- "logger"
+- "longValue"
+- "lsAppRecords"
+- "lsPluginKitExtensions"
+- "matchedEmNumSource"
+- "maxIndex"
+- "maxValue"
+- "measure"
+- "media"
+- "memoryGenerated"
+- "memoryShared"
+- "memoryWatched"
+- "minValue"
+- "mutableCopy"
+- "namespaceMap"
+- "next"
+- "nextObject"
+- "nolock"
+- "null"
+- "numOfMediaApps"
+- "numOfPhoneApps"
+- "numberWithBool:"
+- "numberWithDouble:"
+- "numberWithFloat:"
+- "numberWithInt:"
+- "numberWithInteger:"
+- "numberWithUnsignedInteger:"
+- "numberWithUnsignedLong:"
+- "objectAtIndex:"
+- "objectAtIndexedSubscript:"
+- "objectForInfoDictionaryKey:ofClass:inScope:"
+- "objectForKeyedSubscript:"
+- "objectsPassingTest:"
+- "orderedKeys"
+- "pageCount"
+- "passiveGestureAssessment"
+- "passiveLivenessAssessment"
+- "path"
+- "pathForResource:ofType:"
+- "performanceEvent"
+- "phone"
+- "pickSamplesFrom:length:"
+- "platform"
+- "plist"
+- "pluginkit record: %@ has supported intent %@ and supported media categories: %@"
+- "portType"
+- "preferredLanguages"
+- "previous"
+- "property"
+- "protocol"
+- "q"
+- "q24@0:8@16"
+- "q24@?0@\"NSString\"8@\"NSString\"16"
+- "queryItemWithName:value:"
+- "queryStatement"
+- "radioBand"
+- "radioType"
+- "record:metadata:"
+- "removeObject:"
+- "replaceBytesInRange:withBytes:"
+- "replaceObjectAtIndex:withObject:"
+- "reportingStringForIdentifier:"
+- "resolveDomainToBundleIds"
+- "resultWithIndex:dimensionality:"
+- "results"
+- "runQuery:error:"
+- "sampleForIndex:"
+- "samplerWithCount:"
+- "scope"
+- "screenDistance"
+- "sessionState"
+- "sessionType"
+- "set"
+- "setAppName:"
+- "setBound:"
+- "setBucketBoundaries:"
+- "setBucketCount:"
+- "setBundleIdentifier:"
+- "setCombinationSpec:"
+- "setCount:"
+- "setDataTypes:"
+- "setDeviceType:"
+- "setDimensionality:"
+- "setDomainToInstalledApps:"
+- "setHashLength:"
+- "setIndex:"
+- "setMaxValue:"
+- "setMinValue:"
+- "setObject:atIndexedSubscript:"
+- "setObject:forKeyedSubscript:"
+- "setOrderedKeys:"
+- "setQueryItems:"
+- "setQueryStatement:"
+- "setResults:"
+- "setSet:"
+- "setStepSize:"
+- "setStrides:"
+- "setSupportedIntents:"
+- "setSupportedMediaCategories:"
+- "setTotal:"
+- "setTypeConfiguration:"
+- "setVersion:"
+- "setWithArray:"
+- "setWithObjects:"
+- "setWithSet:"
+- "sha1:"
+- "sharedInstance"
+- "signal"
+- "sip380Procedure"
+- "sip380RedirectedURN"
+- "sortedArrayUsingComparator:"
+- "sortedArrayUsingSelector:"
+- "sqliteDB"
+- "stepSize"
+- "strides"
+- "string"
+- "stringByAppendingString:"
+- "stringByPaddingToLength:withString:startingAtIndex:"
+- "stringFromDataType:"
+- "stringWithCString:encoding:"
+- "stringWithCapacity:"
+- "stringWithFormat:"
+- "stringWithUTF8String:"
+- "structure"
+- "styleSelectionType"
+- "subdataWithRange:"
+- "substringToIndex:"
+- "substringWithRange:"
+- "suggestionType"
+- "superCategory"
+- "supportedIntentMediaCategories"
+- "supportedIntents"
+- "supportedMediaCategories"
+- "supportsBackgrounding"
+- "supportsStateRestoration"
+- "telemetry"
+- "timeIntervalSinceDate:"
+- "timeZone"
+- "total"
+- "tv.danmaku.bilianime"
+- "typeConfiguration"
+- "typesInCombination"
+- "underlyingErrors"
+- "unsignedLongValue"
+- "userAgent"
+- "userInfo"
+- "userLibraryAgeInDays"
+- "v24@0:8^{sqlite3_stmt=}16"
+- "v24@0:8q16"
+- "v24@?0@\"LSPlugInKitProxy\"8@\"NSError\"16"
+- "v32@?0@8@\"FedStatsCategoricalTypeSubcategory\"16^B24"
+- "v8@?0"
+- "value"
+- "value for `%@` needs to be %@"
+- "value for `%@` needs to be an array of distinct strings"
+- "version"
+- "│   "
+- "└── "
+- "├── "
+
+```

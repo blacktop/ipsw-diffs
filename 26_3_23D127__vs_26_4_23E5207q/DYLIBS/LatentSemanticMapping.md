@@ -1,0 +1,74 @@
+## LatentSemanticMapping
+
+> `/System/Library/PrivateFrameworks/LatentSemanticMapping.framework/LatentSemanticMapping`
+
+```diff
+
+ 3.1.0.0.0
+-  __TEXT.__text: 0x1bd1c
+-  __TEXT.__auth_stubs: 0x9a0
++  __TEXT.__text: 0x1b614
++  __TEXT.__auth_stubs: 0x980
+   __TEXT.__const: 0x6c8
+-  __TEXT.__gcc_except_tab: 0x1d3c
++  __TEXT.__gcc_except_tab: 0x1d38
+   __TEXT.__cstring: 0x48b
+-  __TEXT.__unwind_info: 0xc58
++  __TEXT.__unwind_info: 0xc40
+   __DATA_CONST.__got: 0x88
+-  __AUTH_CONST.__auth_got: 0x4d8
++  __AUTH_CONST.__auth_got: 0x4c8
+   __AUTH_CONST.__const: 0x12b0
+   __AUTH_CONST.__cfstring: 0x240
+   __AUTH.__data: 0x120
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libicucore.A.dylib
+-  UUID: 2A1562B5-3206-388B-A66D-608F741AF68E
+-  Functions: 584
+-  Symbols:   1644
++  UUID: 6E05CE6C-A213-3095-B598-774E150E8A9A
++  Functions: 586
++  Symbols:   1650
+   CStrings:  100
+ 
+Symbols:
++ _OUTLINED_FUNCTION_0
++ __ZN13LSMVectorBase8AllocateEmb.cold.1
++ __ZN13LSMVectorBase8AllocateEmb.cold.2
++ __ZN13LSMVectorBase8AllocateEmb.cold.3
++ __ZNSt12length_errorC1B9nqe210106EPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9nqe210106Ev
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9nqe210106Ej
++ __ZNSt3__116__pad_and_outputB9nqe210106IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__117__floyd_sift_downB9nqe210106INS_17_ClassicAlgPolicyER16LSMTupleIterCompPmEET1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
++ __ZNSt3__117__floyd_sift_downB9nqe210106INS_17_ClassicAlgPolicyER20LSMSparseRowIterCompPmEET1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106Ev
++ __ZNSt3__120__throw_length_errorB9nqe210106EPKc
++ __ZNSt3__124__put_character_sequenceB9nqe210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__14pairI9LSMVectorIjES1_IdEEC2B9nqe210106Ev
++ __ZNSt3__14pairI9LSMVectorIjES1_IfEEC2B9nqe210106Ev
++ __ZNSt3__14pairI9LSMVectorIjES2_EC2B9nqe210106Ev
++ __ZNSt3__19__sift_upB9nqe210106INS_17_ClassicAlgPolicyER16LSMTupleIterCompPmEEvT1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
++ __ZNSt3__19__sift_upB9nqe210106INS_17_ClassicAlgPolicyER20LSMSparseRowIterCompPmEEvT1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
+- __ZNSt12length_errorC1B8ne200100EPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB8ne200100Ev
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne200100Ej
+- __ZNSt3__116__pad_and_outputB8ne200100IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__117__floyd_sift_downB8ne200100INS_17_ClassicAlgPolicyER16LSMTupleIterCompPmEET1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
+- __ZNSt3__117__floyd_sift_downB8ne200100INS_17_ClassicAlgPolicyER20LSMSparseRowIterCompPmEET1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100Ev
+- __ZNSt3__120__throw_length_errorB8ne200100EPKc
+- __ZNSt3__124__put_character_sequenceB8ne200100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__14pairI9LSMVectorIjES1_IdEEC2B8ne200100Ev
+- __ZNSt3__14pairI9LSMVectorIjES1_IfEEC2B8ne200100Ev
+- __ZNSt3__14pairI9LSMVectorIjES2_EC2B8ne200100Ev
+- __ZNSt3__19__sift_upB8ne200100INS_17_ClassicAlgPolicyER16LSMTupleIterCompPmEEvT1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
+- __ZNSt3__19__sift_upB8ne200100INS_17_ClassicAlgPolicyER20LSMSparseRowIterCompPmEEvT1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
+- _atan
+- _atanf
+
+```

@@ -1,0 +1,440 @@
+## PreviewShell
+
+> `/Applications/PreviewShell.app/PreviewShell`
+
+```diff
+
+-23.20.6.0.0
+-  __TEXT.__text: 0x47f74
+-  __TEXT.__auth_stubs: 0x2820
+-  __TEXT.__objc_stubs: 0x120
+-  __TEXT.__objc_methlist: 0xc1c
+-  __TEXT.__const: 0x2a84
+-  __TEXT.__objc_classname: 0x16c
+-  __TEXT.__objc_methname: 0x25c9
+-  __TEXT.__objc_methtype: 0x1280
+-  __TEXT.__cstring: 0x290c
+-  __TEXT.__constg_swiftt: 0x1228
+-  __TEXT.__swift5_typeref: 0x1486
+-  __TEXT.__swift5_reflstr: 0x8e5
+-  __TEXT.__swift5_fieldmd: 0xc18
++23.40.25.0.0
++  __TEXT.__text: 0x33cb0
++  __TEXT.__auth_stubs: 0x2510
++  __TEXT.__objc_stubs: 0x1860
++  __TEXT.__objc_methlist: 0xbcc
++  __TEXT.__const: 0x27a4
++  __TEXT.__objc_classname: 0x6ec
++  __TEXT.__objc_methname: 0x2df5
++  __TEXT.__objc_methtype: 0x1515
++  __TEXT.__cstring: 0x1310
++  __TEXT.__constg_swiftt: 0xebc
++  __TEXT.__swift5_typeref: 0x1036
++  __TEXT.__swift5_reflstr: 0x6fc
++  __TEXT.__swift5_fieldmd: 0x9b0
+   __TEXT.__swift5_builtin: 0x8c
+-  __TEXT.__swift5_assocty: 0xd8
+-  __TEXT.__swift5_capture: 0x6e0
+-  __TEXT.__oslogstring: 0x9cd
+-  __TEXT.__swift5_proto: 0x188
+-  __TEXT.__swift5_types: 0x118
+-  __TEXT.__swift_as_entry: 0x60
+-  __TEXT.__swift5_protos: 0x28
+-  __TEXT.__swift_as_ret: 0x50
++  __TEXT.__swift5_assocty: 0x108
++  __TEXT.__swift5_capture: 0x430
++  __TEXT.__oslogstring: 0x7d7
++  __TEXT.__swift5_proto: 0x170
++  __TEXT.__swift5_types: 0xf4
++  __TEXT.__swift_as_entry: 0x38
++  __TEXT.__swift5_protos: 0x18
++  __TEXT.__swift_as_ret: 0x2c
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__unwind_info: 0x1158
+-  __TEXT.__eh_frame: 0x1798
+-  __DATA_CONST.__auth_got: 0x1418
+-  __DATA_CONST.__got: 0x748
+-  __DATA_CONST.__auth_ptr: 0x908
+-  __DATA_CONST.__const: 0x1ce8
++  __TEXT.__unwind_info: 0xd60
++  __TEXT.__eh_frame: 0xfb8
++  __DATA_CONST.__auth_got: 0x1290
++  __DATA_CONST.__got: 0x650
++  __DATA_CONST.__auth_ptr: 0x950
++  __DATA_CONST.__const: 0x1408
+   __DATA_CONST.__cfstring: 0x40
+-  __DATA_CONST.__objc_classlist: 0x118
++  __DATA_CONST.__objc_classlist: 0xe0
+   __DATA_CONST.__objc_catlist: 0x20
+   __DATA_CONST.__objc_protolist: 0xe0
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x70
+-  __DATA.__objc_const: 0x4850
+-  __DATA.__objc_selrefs: 0xad8
+-  __DATA.__objc_data: 0x1288
+-  __DATA.__data: 0x24e8
+-  __DATA.__bss: 0x2c18
+-  __DATA.__common: 0xc8
++  __DATA.__objc_const: 0x3da8
++  __DATA.__objc_selrefs: 0xaa8
++  __DATA.__objc_data: 0x1150
++  __DATA.__data: 0x1dc0
++  __DATA.__bss: 0x2a90
++  __DATA.__common: 0xa0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A5BEB9E8-23CC-307A-93E7-F210277E0BAF
+-  Functions: 1361
+-  Symbols:   1115
+-  CStrings:  840
++  UUID: FC5A5E3C-8D25-305C-84B1-DD197DE95C29
++  Functions: 1095
++  Symbols:   1067
++  CStrings:  742
+ 
+Symbols:
++ _$s15PreviewShellKit06HostedA6CanvasC011didActivateA020PreviewsFoundationOS11EventStreamVyytGvg
++ _$s15PreviewShellKit06HostedA6CanvasC14viewControllerAA0e6UIViewG0Cvg
++ _$s15PreviewShellKit06HostedA6CanvasC38confirmReadyForDisplayAfterAsyncResize20PreviewsFoundationOS6FutureCyytGyF
++ _$s15PreviewShellKit06HostedA6CanvasCMn
++ _$s15PreviewShellKit06StaticA6CanvasC14viewControllerAA0e6UIViewG0Cvg
++ _$s15PreviewShellKit06StaticA6CanvasC5sceneAcA0B5Scene_p_tcfC
++ _$s15PreviewShellKit06StaticA6CanvasCAA0aE0AAMc
++ _$s15PreviewShellKit06StaticA6CanvasCMa
++ _$s15PreviewShellKit06StaticA6CanvasCMn
++ _$s15PreviewShellKit08InjectedB17SceneMetaProtocolMp
++ _$s15PreviewShellKit08InjectedB17SceneMetaProtocolP0dE8IdentityAC_AA0dehG0Tn
++ _$s15PreviewShellKit08InjectedB17SceneMetaProtocolP13sceneIdentity0deI0QzvgTq
++ _$s15PreviewShellKit08InjectedB17SceneMetaProtocolP6canvasAA06HostedA6CanvasCSgvMTq
++ _$s15PreviewShellKit08InjectedB17SceneMetaProtocolP6canvasAA06HostedA6CanvasCSgvgTq
++ _$s15PreviewShellKit08InjectedB17SceneMetaProtocolP6canvasAA06HostedA6CanvasCSgvsTq
++ _$s15PreviewShellKit08InjectedB17SceneMetaProtocolPAA0bE0Tb
++ _$s15PreviewShellKit0A6CanvasMp
++ _$s15PreviewShellKit0B5SceneMp
++ _$s15PreviewShellKit0B5SceneP06updateD8SettingsyyAA0dF6UpdateVFTj
++ _$s15PreviewShellKit0B5SceneP06updateD8SettingsyyAA0dF6UpdateVFTq
++ _$s15PreviewShellKit0B5SceneP07previewD10Suppressed12presentationy18PreviewsServicesUI0F12PresentationO_tFTq
++ _$s15PreviewShellKit0B5SceneP07previewD13RequestedZoomyyFTq
++ _$s15PreviewShellKit0B5SceneP07previewD14ShowingCrashed3pidys5Int32V_tFTq
++ _$s15PreviewShellKit0B5SceneP07previewD14ShowingStoppedyyFTq
++ _$s15PreviewShellKit0B5SceneP07previewD18RequestedKeyStatusyyFTq
++ _$s15PreviewShellKit0B5SceneP13sceneSettingsSo07PSSceneF0CvMTq
++ _$s15PreviewShellKit0B5SceneP13sceneSettingsSo07PSSceneF0CvsTq
++ _$s15PreviewShellKit0B5SceneP18preferenceResolverAA010PreferenceF0_pvgTq
++ _$s15PreviewShellKit0B5SceneP23sceneSettingsUpdateSink20PreviewsFoundationOS11EventStreamV0H0CyAA0dfG0V_GvgTq
++ _$s15PreviewShellKit0B5SceneP26findAssociatedStaticCanvasAA0gaH0CyKFTq
++ _$s15PreviewShellKit0B5ScenePAA0abD7PrivateTb
++ _$s15PreviewShellKit0B5ScenePAAE06updateD8SettingsyyAA0dF6UpdateVF
++ _$s15PreviewShellKit0B5ScenePAAE07previewD10Suppressed12presentationy18PreviewsServicesUI0F12PresentationO_tF
++ _$s15PreviewShellKit0B5ScenePAAE07previewD13RequestedZoomyyF
++ _$s15PreviewShellKit0B5ScenePAAE07previewD18RequestedKeyStatusyyF
++ _$s15PreviewShellKit0B5ScenePAAE14hardwareEvents20PreviewsFoundationOS11EventStreamVySo010UVHardwareJ0CGvg
++ _$s15PreviewShellKit0B5ScenePAAE16thumbnailFactoryAA09ThumbnailF0_pvg
++ _$s15PreviewShellKit0B5ScenePAAE20sceneSettingsUpdates20PreviewsFoundationOS11EventStreamVyAA0dF6UpdateVGvg
++ _$s15PreviewShellKit0aB15ServiceProtocolP10nonUIBoxesSDyAA10ContentKeyVAA23NonUIContentProviderBox_pGvMTq
++ _$s15PreviewShellKit0aB15ServiceProtocolP10nonUIBoxesSDyAA10ContentKeyVAA23NonUIContentProviderBox_pGvgTq
++ _$s15PreviewShellKit0aB15ServiceProtocolP10nonUIBoxesSDyAA10ContentKeyVAA23NonUIContentProviderBox_pGvsTq
++ _$s15PreviewShellKit0aB15ServiceProtocolP13previewCanvas3for2in20PreviewsFoundationOS6FutureCyAA0aG0_pG0j9MessagingL00A4TypeO_AA5AgentCtFTq
++ _$s15PreviewShellKit0aB15ServiceProtocolP8canvases3forSayAA0A6Canvas_pGAA5AgentC_tFTq
++ _$s15PreviewShellKit0aB15ServiceProtocolPAAE13performUpdate7payload20PreviewsFoundationOS6FutureCyAF12PropertyListVG0i9MessagingK00bG7PayloadV_tKF
++ _$s15PreviewShellKit0aB15ServiceProtocolPAAE27prepareProvidersForRelaunch2of20PreviewsFoundationOS6FutureCyytG0k9MessagingM015AgentDescriptorV_tF
++ _$s15PreviewShellKit16SceneCategoryMapMp
++ _$s15PreviewShellKit16SceneCategoryMapP13variantGroupsSay19PreviewsMessagingOS0A12VariantGroupVGvgZTj
++ _$s15PreviewShellKit16SceneCategoryMapP13variantGroupsSay19PreviewsMessagingOS0A12VariantGroupVGvgZTq
++ _$s15PreviewShellKit16SceneCategoryMapP18sceneConfiguration2inAA05AgentdH0VAA0abD0_p_tFZTj
++ _$s15PreviewShellKit16SceneCategoryMapP18sceneConfiguration2inAA05AgentdH0VAA0abD0_p_tFZTq
++ _$s15PreviewShellKit16SceneCategoryMapPAA0eF0Tb
++ _$s15PreviewShellKit17CanvasGridControlV13configuration20thumbnailHostFactory6actionAC19PreviewsMessagingOS0eF13ConfigurationV_AA09ThumbnailiJ0VyAG0E5IndexVGyAMctcfC
++ _$s15PreviewShellKit18PreferenceResolverMp
++ _$s15PreviewShellKit18PreferenceResolverP16resolveHandshakey20PreviewsFoundationOS6FutureCy0H10ServicesUI17SceneUpdateTimingOG0h9OSSupportM00noG0VFTq
++ _$s15PreviewShellKit18PreferenceResolverP16resolveOutOfBand11preferences11fenceHandley18PreviewsServicesUI0A11PreferencesV_So07UVFenceL0CtFTq
++ _$s15PreviewShellKit22CanvasUIViewControllerC17forcedOrientation18PreviewsServicesUI0A11PreferencesV09InterfaceH0OSgvs
++ _$s15PreviewShellKit22HostPreferenceResolverC14sceneMessengerAC18PreviewsServicesUI05SceneH0CyAE0b2ToD7MessageOAE0dmbN0OG_tcfC
++ _$s15PreviewShellKit22HostPreferenceResolverC25handlePreferencesResolved4seed6timingy18PreviewsServicesUI15SceneUpdateSeedV_AG0oP6TimingOtF
++ _$s15PreviewShellKit22HostPreferenceResolverCAA0eF0AAWP
++ _$s15PreviewShellKit22HostPreferenceResolverCMa
++ _$s15PreviewShellKit22HostPreferenceResolverCMn
++ _$s15PreviewShellKit26CanvasControlConfigurationVMn
++ _$s15PreviewShellKit27InjectedSceneCanvasRegistryC10unregister8identityyx_tF
++ _$s15PreviewShellKit27InjectedSceneCanvasRegistryC11allCanvasesSayAA0aF0_pGvg
++ _$s15PreviewShellKit27InjectedSceneCanvasRegistryC6canvas3for20PreviewsFoundationOS6FutureCyAA0aF0_pG0j9MessagingL00A4TypeO12HostLocationO_tF
++ _$s15PreviewShellKit27InjectedSceneCanvasRegistryC8register5sceneAA06HostedaF0Cqd___t0dE8IdentityQyd__RszAA0dbE12MetaProtocolRd__lF
++ _$s15PreviewShellKit27InjectedSceneCanvasRegistryCACyxGycfC
++ _$s15PreviewShellKit27InjectedSceneCanvasRegistryCMn
++ _$s15PreviewShellKit29InjectedSceneIdentityProtocolMp
++ _$s15PreviewShellKit29InjectedSceneIdentityProtocolP10identifierSSvgTq
++ _$s15PreviewShellKit29InjectedSceneIdentityProtocolP8locationx19PreviewsMessagingOS0A4TypeO12HostLocationO_tKcfCTq
++ _$s15PreviewShellKit29InjectedSceneIdentityProtocolPSHTb
++ _$s18PreviewsServicesUI17SceneUpdateTimingOSQAAMc
++ _$s18PreviewsServicesUI18PreviewPreferencesV20InterfaceOrientationO0a9OSSupportC0E07previewG00A11MessagingOS0D6TraitsV0G0Ovg
++ _$s19PreviewsMessagingOS11SceneLayoutO15PreviewShellKitE7defaultACvgZ
++ _$s19PreviewsMessagingOS13PreviewTraitsV11OrientationO0D8ShellKitE011bsInterfaceF0So011BSInterfaceF0Vvg
++ _$s19PreviewsMessagingOS24GridControlConfigurationV4ItemV5titleAESSSg_tcfC
++ _$s19PreviewsMessagingOS24GridControlConfigurationV4ItemVMa
++ _$s19PreviewsMessagingOS24GridControlConfigurationV7SectionV5title5itemsAESgSSSg_SayAC4ItemVGtcfC
++ _$s19PreviewsMessagingOS24GridControlConfigurationV7SectionVMa
++ _$s19PreviewsMessagingOS24GridControlConfigurationV7SectionVMn
++ _$s19PreviewsMessagingOS24GridControlConfigurationV8sectionsACSayAC7SectionVG_tcfC
++ _$s19PreviewsMessagingOS24GridControlConfigurationVMa
++ _$s19PreviewsMessagingOS24GridControlConfigurationVMn
++ _$s19PreviewsOSSupportUI16PreviewSceneRoleOSQAAMc
++ _$s21InjectedSceneIdentity15PreviewShellKit0aeB12MetaProtocolPTl
++ _$sSo22BSInterfaceOrientationV15PreviewShellKitE011uiInterfaceB0So011UIInterfaceB0Vvg
++ _$sSo22BSInterfaceOrientationV15PreviewShellKitE06deviceB0So08BSDeviceB0Vvg
++ _$sSo22UIInterfaceOrientationV15PreviewShellKitE11descriptionSSvg
++ _$sSo26UIInterfaceOrientationMaskV15PreviewShellKitE14firstSupportedSo0aB0VyF
++ _$sSo26UIInterfaceOrientationMaskV15PreviewShellKitE8supportsySbSo0aB0VF
++ _free
++ _swift_coroFrameAlloc
+- _$s15PreviewShellKit0A8SnapshotVMn
+- _$s15PreviewShellKit0aB15ServiceProtocolP13performUpdate7payload20PreviewsFoundationOS6FutureCyAF12PropertyListVG0i9MessagingK00bG7PayloadV_tKFTq
+- _$s15PreviewShellKit0aB15ServiceProtocolP13sceneInjectorAA05SceneG0VvgTq
+- _$s15PreviewShellKit0aB15ServiceProtocolP17prepareToRelaunch4with20PreviewsFoundationOS6FutureCyytG0j9MessagingL007PreparegH7PayloadV_tFTq
+- _$s15PreviewShellKit0aB15ServiceProtocolP19tellProvidersToStop3for20PreviewsFoundationOS6FutureCyytGs5Int32V_tKFTq
+- _$s15PreviewShellKit0aB15ServiceProtocolPAAE21previewAgentConnector3forAA0agH0Vs5Int32V_tKF
+- _$s15PreviewShellKit0aB5SceneP10identifierSSvgTj
+- _$s15PreviewShellKit0aB5SceneP12hostIdentity19PreviewsMessagingOS04HostF0OvgTj
+- _$s15PreviewShellKit0aB5SceneP13sceneSettingsSo07PSSceneF0CvgTj
+- _$s15PreviewShellKit10ContentKeyV3for4withAC19PreviewsMessagingOS0D8CategoryV_AF0D8OverrideVSgtcfC
+- _$s15PreviewShellKit10ContentKeyVs23CustomStringConvertibleAAMc
+- _$s15PreviewShellKit12ProcessErrorO02noD6ForPidyACs5Int32VcACmFWC
+- _$s15PreviewShellKit13SceneInjectorV06injectD0ACSo7FBSceneCs5Int32V_AA05AgentD13ConfigurationVAA0D14SettingsPolicyOtKScMYcc_tcfC
+- _$s15PreviewShellKit13ThumbnailHostMp
+- _$s15PreviewShellKit13ThumbnailHostP07displayD19AndPerformHandshake3for7context8delegate12CoreGraphics7CGFloatV5StateQz_19PreviewsOSSupportUI18SceneUpdateContextVAA06CanvasU8Delegate_ptYaKFTj
+- _$s15PreviewShellKit13ThumbnailHostP07displayD19AndPerformHandshake3for7context8delegate12CoreGraphics7CGFloatV5StateQz_19PreviewsOSSupportUI18SceneUpdateContextVAA06CanvasU8Delegate_ptYaKFTjTu
+- _$s15PreviewShellKit16ProcessUtilitiesO13processHandle3forSo010RBSProcessG0CSgs5Int32V_tFZ
+- _$s15PreviewShellKit16ThumbnailFactoryMp
+- _$s15PreviewShellKit16ThumbnailFactoryP08generateD03for5usingAA0A8SnapshotVqd___AA0d4HostE0Vyqd__GtYaKs8SendableRd__lFTq
+- _$s15PreviewShellKit17CanvasContentHostP11didActivateyyFTj
+- _$s15PreviewShellKit17CanvasContentHostP13didDeactivateyyFTj
+- _$s15PreviewShellKit17CanvasContentHostP14viewControllerSo06UIViewH0CvgTj
+- _$s15PreviewShellKit17CanvasContentHostP18prepareForRelaunch20PreviewsFoundationOS6FutureCyytGyFTj
+- _$s15PreviewShellKit17CanvasContentHostP38confirmReadyForDisplayAfterAsyncResize20PreviewsFoundationOS6FutureCyytGyFTj
+- _$s15PreviewShellKit17CanvasContentHostP4stop20PreviewsFoundationOS6FutureCyytGyFTj
+- _$s15PreviewShellKit17CanvasGridControlV13configuration20thumbnailHostFactory6actionAC19PreviewsMessagingOS0dF11DescriptionV0F4TypeO0E13ConfigurationV_AA09ThumbnailiJ0VyAG0E5IndexVGyAQctcfC
+- _$s15PreviewShellKit18CanvasUpdateOutputV010makeStaticF020PreviewsFoundationOS6FutureCyAE12PropertyListVGyKcvg
+- _$s15PreviewShellKit18CanvasUpdateOutputV06hostedF020PreviewsFoundationOS12PropertyListVvg
+- _$s15PreviewShellKit18CanvasUpdateOutputV13controlStatesSay19PreviewsMessagingOS13PlistValueBoxVGvg
+- _$s15PreviewShellKit18CanvasUpdateOutputV16staticChromeType19PreviewsMessagingOS0hI0Ovg
+- _$s15PreviewShellKit18CanvasUpdateOutputV19controlDescriptionsSay19PreviewsMessagingOS0D18ControlDescriptionVGvg
+- _$s15PreviewShellKit18CanvasUpdateOutputVMa
+- _$s15PreviewShellKit18CanvasUpdateOutputVMn
+- _$s15PreviewShellKit19SceneSettingsPolicyO12mirrorParentyA2CmFWC
+- _$s15PreviewShellKit19SceneSettingsPolicyO6customyACSo07PSSceneE0C_tcACmFWC
+- _$s15PreviewShellKit19SceneSettingsPolicyOMa
+- _$s15PreviewShellKit19SceneSettingsUpdateV05sceneE0So07PSSceneE0Cvg
+- _$s15PreviewShellKit20ThumbnailHostFactoryV04makeE0yAA0dE0_px5StateRts_XPAA0aB12ScenePrivate_pYaKScMYccvg
+- _$s15PreviewShellKit20ThumbnailHostFactoryVMa
+- _$s15PreviewShellKit22UnknownContentCategoryV8categoryAC19PreviewsMessagingOS0eF0V_tcfC
+- _$s15PreviewShellKit22UnknownContentCategoryVMa
+- _$s15PreviewShellKit22UnknownContentCategoryVs5ErrorAAMc
+- _$s15PreviewShellKit23AgentSceneConfigurationV07previewbE0AA0abE0_pvg
+- _$s15PreviewShellKit23AgentSceneConfigurationV15sceneIdentifierSSvg
+- _$s15PreviewShellKit23AgentSceneConfigurationV18sceneSpecificationSo07PSSceneH0Cvg
+- _$s15PreviewShellKit23ContentProviderRegistryV9boxRecipe3forAC03BoxH0OSgAA0D3KeyV_tF
+- _$s15PreviewShellKit23ContentProviderRegistryVMa
+- _$s15PreviewShellKit23NonUIContentProviderBoxP13performUpdate5using13updatePayload11previewType12agentContext20PreviewsFoundationOS6FutureCyAI12PropertyListVGAA0A14AgentConnectorV_AM0q9MessagingS00aN0O0Q11OSSupportUI0wI0V0P0VtFTj
+- _$s15PreviewShellKit23NonUIContentProviderBoxP18prepareForRelaunch2of20PreviewsFoundationOS6FutureCyytGs5Int32V_tFTj
+- _$s15PreviewShellKit23NonUIContentProviderBoxP4stop2of20PreviewsFoundationOS6FutureCyytGs5Int32V_tFTj
+- _$s15PreviewShellKit24CanvasContentProviderBoxMp
+- _$s15PreviewShellKit24CanvasContentProviderBoxP04noteA7Crashed3pidys5Int32V_tFTj
+- _$s15PreviewShellKit24CanvasContentProviderBoxP13performUpdate5using15providerPromise13updatePayload13controlStates12agentContext09makeSceneR08delegate20PreviewsFoundationOS6FutureCyAA0dI6OutputVGAA0A14AgentConnectorV_AL0L0CyAA0deF0_pGAL12PropertyListVSay0v9MessagingX0010PlistValueG0VGSg0V11OSSupportUI05AgentI0V0R0VA3_0tiR0VAaV_pcAA0dI8Delegate_ptFTj
+- _$s15PreviewShellKit24CanvasContentProviderBoxP19invalidateProvidersyyFTj
+- _$s15PreviewShellKit5AgentC14applyUpdateFor7payload20PreviewsFoundationOS6FutureCySbG0i9MessagingK00bF7PayloadV_tF
+- _$s18PreviewsServicesUI15SceneUpdateSeedVACycfC
+- _$s18PreviewsServicesUI15SceneUpdateSeedVSHAAMc
+- _$s18PreviewsServicesUI15SceneUpdateSeedVSQAAMc
+- _$s18PreviewsServicesUI15SceneUpdateSeedVSYAAMc
+- _$s18PreviewsServicesUI17SceneUpdateTimingO07unknownF5Errors0H0_pvg
+- _$s18PreviewsServicesUI17SceneUpdateTimingOSYAAMc
+- _$s18PreviewsServicesUI18PreviewPreferencesV20InterfaceOrientationO13landscapeLeftyA2EmFWC
+- _$s18PreviewsServicesUI18PreviewPreferencesV20InterfaceOrientationO14landscapeRightyA2EmFWC
+- _$s18PreviewsServicesUI18PreviewPreferencesV20InterfaceOrientationO18portraitUpsideDownyA2EmFWC
+- _$s18PreviewsServicesUI18PreviewPreferencesV20InterfaceOrientationO8portraityA2EmFWC
+- _$s18PreviewsServicesUI18PreviewPreferencesVMn
+- _$s19PreviewsMessagingOS13PlistValueBoxVMn
+- _$s19PreviewsMessagingOS13PreviewTraitsV11OrientationO13landscapeLeftyA2EmFWC
+- _$s19PreviewsMessagingOS13PreviewTraitsV11OrientationO14landscapeRightyA2EmFWC
+- _$s19PreviewsMessagingOS13PreviewTraitsV11OrientationO18portraitUpsideDownyA2EmFWC
+- _$s19PreviewsMessagingOS13PreviewTraitsV11OrientationO8portraityA2EmFWC
+- _$s19PreviewsMessagingOS18HostedPreviewReplyV0a10FoundationC025PropertyListRepresentableAAMc
+- _$s19PreviewsMessagingOS18HostedPreviewReplyV12hostIdentity11sceneLayout19controlDescriptions0K6States14contentPayloadAcA04HostH0O_AA05SceneJ0OSgSayAA24CanvasControlDescriptionVGSayAA13PlistValueBoxVG0a10FoundationC012PropertyListVtcfC
+- _$s19PreviewsMessagingOS18HostedPreviewReplyVMa
+- _$s19PreviewsMessagingOS18ShellUpdatePayloadV04hostE4SeedAA04HosteH0VSgvg
+- _$s19PreviewsMessagingOS18ShellUpdatePayloadV3pids5Int32Vvg
+- _$s19PreviewsMessagingOS18StaticPreviewReplyV0a10FoundationC025PropertyListRepresentableAAMc
+- _$s19PreviewsMessagingOS18StaticPreviewReplyV10chromeType19controlDescriptions0I6States14contentPayloadAcA06ChromeH0O_SayAA24CanvasControlDescriptionVGSayAA13PlistValueBoxVG0a10FoundationC012PropertyListVtcfC
+- _$s19PreviewsMessagingOS18StaticPreviewReplyVMa
+- _$s19PreviewsMessagingOS18UpdateSetupPayloadV26shellDidLoadStaticProductsSbvs
+- _$s19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO17GridConfigurationV4ItemV5titleAISSSg_tcfC
+- _$s19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO17GridConfigurationV4ItemVMa
+- _$s19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO17GridConfigurationV7SectionV5title5itemsAISgSSSg_SayAG4ItemVGtcfC
+- _$s19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO17GridConfigurationV7SectionVMa
+- _$s19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO17GridConfigurationV7SectionVMn
+- _$s19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO17GridConfigurationV8sectionsAGSayAG7SectionVG_tcfC
+- _$s19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO17GridConfigurationVMa
+- _$s19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO17GridConfigurationVMn
+- _$s19PreviewsMessagingOS24PrepareToRelaunchPayloadV15agentDescriptorAA05AgentI0Vvg
+- _$s19PreviewsOSSupportUI11AgentUpdateV7ContextV17contentIdentifier10updateSeed12setupPayloadAE0A11MessagingOS07ContentH0V_AI04HosteJ0VSgAI0e5SetupL0VSgtcfC
+- _$s19PreviewsOSSupportUI16PreviewSceneRoleOSYAAMc
+- _$s19PreviewsOSSupportUI18SceneUpdateContextV4seed6timing4roleAC0a8ServicesC00dE4SeedV_AG0dE6TimingOAA07PreviewD4RoleOtcfC
+- _$s19PreviewsOSSupportUI19PreviewDebugOverlayC10identifierSSvs
+- _$s19PreviewsOSSupportUI19PreviewDebugOverlayC12bringToFrontyyF
+- _$s19PreviewsOSSupportUI19PreviewDebugOverlayC13AlignmentEdgeO6bottomyA2EmFWC
+- _$s19PreviewsOSSupportUI19PreviewDebugOverlayC13AlignmentEdgeOMa
+- _$s19PreviewsOSSupportUI19PreviewDebugOverlayC15contentsUpdatedyyF
+- _$s19PreviewsOSSupportUI19PreviewDebugOverlayC4edge6parentA2C13AlignmentEdgeO_So6UIViewCtcfc
+- _$s19PreviewsOSSupportUI19PreviewDebugOverlayC4sizeSo6CGSizeVvs
+- _$s19PreviewsOSSupportUI19PreviewDebugOverlayCMa
+- _$s19PreviewsOSSupportUI19PreviewDebugOverlayCMn
+- _$s19PreviewsOSSupportUI20SceneUpdateHandshakeV10updateSeed0a8ServicesC00deH0Vvg
+- _$s19PreviewsOSSupportUI20SceneUpdateHandshakeVMn
+- _$s20PreviewsFoundationOS11EventStreamV4SinkC4sendyyytRszlF
+- _$s20PreviewsFoundationOS11EventStreamV5emptyACyxGvgZ
+- _$s20PreviewsFoundationOS13ExecutionLaneV3anyACvgZ
+- _$s20PreviewsFoundationOS13InvalidatablePAAE14onInvalidation0E0_yAA13ExecutionLaneV_yyctF
+- _$s20PreviewsFoundationOS13InvalidatablePAAE17trackInvalidation9dsoHandle4file4line6column8function2ofySV_s12StaticStringVS2uAlaB_ptF
+- _$s20PreviewsFoundationOS17FutureSerialQueueC2onAcA13ExecutionLaneV_tcfC
+- _$s20PreviewsFoundationOS17FutureSerialQueueC7enqueue8priority04makeD0AA0D0CyxGAC8PriorityO_AIyctlF
+- _$s20PreviewsFoundationOS17FutureSerialQueueC7enqueue8priority04makeD0AA0D0CyxGAC8PriorityO_AIyctlFfA_
+- _$s20PreviewsFoundationOS17FutureSerialQueueCMa
+- _$s20PreviewsFoundationOS17FutureSerialQueueCMn
+- _$s20PreviewsFoundationOS6FutureC10mapSuccess9dsoHandle4file4line6column8function2on_ACyqd__GSV_s12StaticStringVS2uAmA13ExecutionLaneVqd__xctlF
+- _$s20PreviewsFoundationOS6FutureC14observeSuccess2on_yAA13ExecutionLaneV_yxctF
+- _$s20PreviewsFoundationOS6FutureC14observeSuccessyyyxcF
+- _$s20PreviewsFoundationOS6FutureC4then9dsoHandle4file4line6column8function8priority9transformACyqd__GSV_s12StaticStringVS2uANScPSgqd__xYaYbKcts8SendableRzsAPRd__lF
+- _$s20PreviewsFoundationOS6FutureC6cancel9dsoHandle4file4line6column8functionySV_s12StaticStringVS2uAKtFTj
+- _$s20PreviewsFoundationOS6FutureC6create9dsoHandle4file4line6column8functionACyxG6future_AA7PromiseCyxG7promisetSV_s12StaticStringVS2uAQtFZ
+- _$s20PreviewsFoundationOS6FutureCAAs8SendableRzlE5valuexvg
+- _$s20PreviewsFoundationOS6FutureCAAs8SendableRzlE5valuexvgTu
+- _$s20PreviewsFoundationOS6FutureCAAytRszlE3zip9dsoHandle4file4line6column8function__ACyqd___qd_0_tGSV_s12StaticStringVS2uAlCyqd__GACyqd_0_Gtr0_lFZ
+- _$s20PreviewsFoundationOS7PromiseC10trySucceed4withyx_tKF
+- _$s20PreviewsFoundationOS7PromiseCAAytRszlE10trySucceedyyKF
+- _$sSD6ValuesVMn
+- _$sSD6ValuesVyxq__GSTsMc
+- _$sST20PreviewsFoundationOSE8firstMapyqd__SgAC7ElementQzXElF
+- _$sST20PreviewsFoundationOSE8traverse8callsite19andAccumulateErrors_AA6FutureCySayqd__GGAA8CallsiteV_SbAFyqd__G7ElementQzXEtlF
+- _$sST20PreviewsFoundationOSE8traverse8callsite19andAccumulateErrors_AA6FutureCySayqd__GGAA8CallsiteV_SbAFyqd__G7ElementQzXEtlFfA0_
+- _$sSY8rawValue03RawB0QzvgTj
+- _$ss10_HashTableV11startBucketAB0D0Vvg
+- _$ss26DefaultStringInterpolationV06appendC0yyxlF
+- _$ss27withTaskCancellationHandler9operation8onCancel9isolationxxyYaKXE_yyYbXEScA_pSgYitYaKlF
+- _$ss27withTaskCancellationHandler9operation8onCancel9isolationxxyYaKXE_yyYbXEScA_pSgYitYaKlFTu
+- _OBJC_CLASS_$_FBSDisplayIdentity
+- _OBJC_CLASS_$_NSHost
+- _OBJC_CLASS_$_UVHardwareEvent
+- __swift_FORCE_LOAD_$_swiftAccelerate
+- _objc_claimAutoreleasedReturnValue
+- _swift_getDynamicType
+- _swift_release_n
+CStrings:
++ "/Library/Caches/com.apple.xbs/57633D5F-1308-427F-A0CB-49DD456BB597/TemporaryDirectory.2nYNEj/Sources/UITestingAgent/OS/PreviewShell/Sources/PreviewShell/ApplicationLauncher.swift"
++ "/Library/Caches/com.apple.xbs/57633D5F-1308-427F-A0CB-49DD456BB597/TemporaryDirectory.2nYNEj/Sources/UITestingAgent/OS/PreviewShell/Sources/PreviewShell/LocalSceneHost.swift"
++ "/Library/Caches/com.apple.xbs/57633D5F-1308-427F-A0CB-49DD456BB597/TemporaryDirectory.2nYNEj/Sources/UITestingAgent/OS/PreviewShell/Sources/PreviewShell/LocalStaticSceneRegistry.swift"
++ "/Library/Caches/com.apple.xbs/57633D5F-1308-427F-A0CB-49DD456BB597/TemporaryDirectory.2nYNEj/Sources/UITestingAgent/OS/PreviewShell/Sources/PreviewShell/MainViewController.swift"
++ "/Library/Caches/com.apple.xbs/57633D5F-1308-427F-A0CB-49DD456BB597/TemporaryDirectory.2nYNEj/Sources/UITestingAgent/OS/PreviewShell/Sources/PreviewShell/PreviewShellService.swift"
++ "/Library/Caches/com.apple.xbs/57633D5F-1308-427F-A0CB-49DD456BB597/TemporaryDirectory.2nYNEj/Sources/UITestingAgent/OS/PreviewShell/Sources/PreviewShell/RemoteContentProvider.swift"
++ "/Library/Caches/com.apple.xbs/57633D5F-1308-427F-A0CB-49DD456BB597/TemporaryDirectory.2nYNEj/Sources/UITestingAgent/OS/PreviewShell/Sources/PreviewShell/SceneConfigurator.swift"
++ "/Library/Caches/com.apple.xbs/57633D5F-1308-427F-A0CB-49DD456BB597/TemporaryDirectory.2nYNEj/Sources/UITestingAgent/OS/PreviewShell/Sources/PreviewShell/SceneDelegate.swift"
++ "/Library/Caches/com.apple.xbs/57633D5F-1308-427F-A0CB-49DD456BB597/TemporaryDirectory.2nYNEj/Sources/UITestingAgent/OS/PreviewShell/Sources/PreviewShell/ShellScenes.swift"
++ "/Library/Caches/com.apple.xbs/57633D5F-1308-427F-A0CB-49DD456BB597/TemporaryDirectory.2nYNEj/Sources/UITestingAgent/OS/PreviewShell/Sources/PreviewShell/SimDisplaySceneRegistry.swift"
++ "effectiveGeometry"
+- "$__lazy_storage_$_thumbnailFactory"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/OS/PreviewShell/Sources/PreviewShell/ApplicationLauncher.swift"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/OS/PreviewShell/Sources/PreviewShell/CanvasUpdater.swift"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/OS/PreviewShell/Sources/PreviewShell/HostPreferenceResolver.swift"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/OS/PreviewShell/Sources/PreviewShell/HostedPreviewCanvas.swift"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/OS/PreviewShell/Sources/PreviewShell/InjectedSceneRegistry.swift"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/OS/PreviewShell/Sources/PreviewShell/LocalSceneHost.swift"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/OS/PreviewShell/Sources/PreviewShell/LocalStaticSceneRegistry.swift"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/OS/PreviewShell/Sources/PreviewShell/MainViewController.swift"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/OS/PreviewShell/Sources/PreviewShell/PreviewSceneAgent+Shell.swift"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/OS/PreviewShell/Sources/PreviewShell/PreviewShellService.swift"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/OS/PreviewShell/Sources/PreviewShell/RemoteContentProvider.swift"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/OS/PreviewShell/Sources/PreviewShell/SceneConfigurator.swift"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/OS/PreviewShell/Sources/PreviewShell/SceneDelegate.swift"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/OS/PreviewShell/Sources/PreviewShell/ShellScenes.swift"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/OS/PreviewShell/Sources/PreviewShell/ShellThumbnailFactory.swift"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/OS/PreviewShell/Sources/PreviewShell/SimDisplaySceneRegistry.swift"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/OS/PreviewShell/Sources/PreviewShell/StaticPreviewCanvas.swift"
+- "Canvas %{public}s performing custom update using %{public}s"
+- "Canvas %{public}s performing update for %{public}s using %{public}s"
+- "Canvases now stopped for %{public}d, killing process"
+- "Generating thumbnail snapshot for %s, state = %s"
+- "HostedPreviewCanvas"
+- "Hosting thumbnail content for %s, state = %s"
+- "InjectedSceneRegistry waiting for injected scene '%{public}s'"
+- "PreviewShell.CanvasViewController"
+- "PreviewShell/CanvasViewController.swift"
+- "PreviewShell/Orientation+Shell.swift"
+- "StaticPreviewCanvas"
+- "Thumbnail generation canceled for %s, state = %s"
+- "Unknown Orientation: "
+- "_TtC12PreviewShell13CanvasUpdater"
+- "_TtC12PreviewShell19HostedPreviewCanvas"
+- "_TtC12PreviewShell19StaticPreviewCanvas"
+- "_TtC12PreviewShell20CanvasViewController"
+- "_TtC12PreviewShell21InjectedSceneRegistry"
+- "_TtC12PreviewShell22HostPreferenceResolver"
+- "_TtCC12PreviewShell13CanvasUpdaterP33_AD1F3764465B03D85C2D8A634FCA9F5714UpdateDelegate"
+- "activating"
+- "can't resolve preferences twice for the same update"
+- "canvas(for:)"
+- "canvases"
+- "completeHandshake(for:with:)"
+- "copyResettingInterruptionPolicy"
+- "debugOverlay"
+- "didActivatePreviewSink"
+- "didUpdate"
+- "forcedOrientation"
+- "generateThumbnail(for:using:)"
+- "handshakeFuture"
+- "handshakePromise"
+- "identityForProcessIdentity:"
+- "init(providerBox:scene:didUpdate:)"
+- "init(scene:)"
+- "injectScene(into:using:policy:)"
+- "invalidate()"
+- "parentViewController"
+- "perform(handshake:)"
+- "performCustomUpdate(priority:using:performUpdate:generateOutput:)"
+- "performHandshake(for:with:)"
+- "performUpdate(for:using:makeProviderBox:updatePayload:controlStates:agentContext:)"
+- "performUpdate(payload:)"
+- "prepareForRelaunch(of:)"
+- "prepareProvidersForRelaunch(of:)"
+- "promises"
+- "providerBox"
+- "providerBoxes"
+- "queue"
+- "register(scene:)"
+- "registering injected scene '%{public}s'"
+- "resolveHandshake(_:with:)"
+- "seed"
+- "sendSubviewToBack:"
+- "setNeedsUpdateOfSupportedInterfaceOrientations"
+- "setSettings:"
+- "stop(pid:)"
+- "tellProvidersToStop(for:)"
+- "unregister(identity:)"
+- "update(contentKey:connector:makeProviderBox:updatePayload:controlStates:agentContext:willUpdate:didUpdate:)"
+- "update(using:timing:performUpdate:didUpdate:)"
+- "updater"
+- "viewController"
+- "viewWillLayoutSubviews"
+- "visible"
+
+```

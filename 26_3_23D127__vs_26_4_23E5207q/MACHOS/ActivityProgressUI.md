@@ -1,0 +1,103 @@
+## ActivityProgressUI
+
+> `/Applications/ActivityProgressUI.app/ActivityProgressUI`
+
+```diff
+
+-375.2.2.0.0
+-  __TEXT.__text: 0x39664
++375.4.1.0.0
++  __TEXT.__text: 0x3a784
+   __TEXT.__auth_stubs: 0x1950
++  __TEXT.__objc_stubs: 0x15c0
+   __TEXT.__objc_methlist: 0xfa4
+-  __TEXT.__const: 0x3c34
+-  __TEXT.__objc_methname: 0x2833
+-  __TEXT.__cstring: 0x1c52
++  __TEXT.__const: 0x3bf4
++  __TEXT.__objc_classname: 0x802
++  __TEXT.__objc_methname: 0x3815
++  __TEXT.__objc_methtype: 0x18f5
+   __TEXT.__constg_swiftt: 0x177c
+   __TEXT.__swift5_typeref: 0x253a
+   __TEXT.__swift5_reflstr: 0xce2
+
+   __TEXT.__oslogstring: 0x129c
+   __TEXT.__swift5_proto: 0x140
+   __TEXT.__swift5_types: 0x104
+-  __TEXT.__objc_classname: 0x22d
+-  __TEXT.__objc_methtype: 0x1449
+   __TEXT.__swift5_capture: 0x508
++  __TEXT.__cstring: 0x867
+   __TEXT.__swift_as_entry: 0x28
+   __TEXT.__swift5_protos: 0x8
+   __TEXT.__swift5_entry: 0x8
+   __TEXT.__swift_as_ret: 0xc
+-  __TEXT.__unwind_info: 0xe30
+-  __TEXT.__eh_frame: 0x868
+-  __DATA_CONST.__auth_got: 0xca8
+-  __DATA_CONST.__got: 0x550
+-  __DATA_CONST.__auth_ptr: 0xa10
++  __TEXT.__unwind_info: 0xdb8
++  __TEXT.__eh_frame: 0x778
++  __DATA_CONST.__auth_got: 0xcb0
++  __DATA_CONST.__got: 0x538
++  __DATA_CONST.__auth_ptr: 0xa18
+   __DATA_CONST.__const: 0x1d98
+   __DATA_CONST.__cfstring: 0x20
+   __DATA_CONST.__objc_classlist: 0xa8
+
+   __DATA.__objc_const: 0x4878
+   __DATA.__objc_selrefs: 0xaf8
+   __DATA.__objc_data: 0xde8
+-  __DATA.__data: 0x24b8
++  __DATA.__data: 0x24d0
+   __DATA.__common: 0x118
+   __DATA.__bss: 0x2b10
+   - /System/Library/Frameworks/ActivityKit.framework/ActivityKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C64F42CF-412D-3E2E-9BCF-0B706298D7AF
+-  Functions: 1451
+-  Symbols:   836
+-  CStrings:  821
++  UUID: 4253B329-C046-3649-98AC-17EE9A09EA18
++  Functions: 1438
++  Symbols:   862
++  CStrings:  786
+ 
+Symbols:
++ _$s18ActivityProgressUI20APUIUIViewControllerC17homeScreenService33_8C2CB88392006DA75951F9A635A3FF52LLSo07SBSHomegH0CvM
++ _$s18ActivityProgressUI20APUIUIViewControllerC17homeScreenService33_8C2CB88392006DA75951F9A635A3FF52LLSo07SBSHomegH0Cvg
++ _$s18ActivityProgressUI20APUIUIViewControllerC17homeScreenService33_8C2CB88392006DA75951F9A635A3FF52LLSo07SBSHomegH0Cvs
++ _$s18ActivityProgressUI20APUIUIViewControllerC17homeStyleObserver33_8C2CB88392006DA75951F9A635A3FF52LLSo15BSInvalidatable_pSgvM
++ _$s18ActivityProgressUI20APUIUIViewControllerC17homeStyleObserver33_8C2CB88392006DA75951F9A635A3FF52LLSo15BSInvalidatable_pSgvg
++ _$s18ActivityProgressUI20APUIUIViewControllerC17homeStyleObserver33_8C2CB88392006DA75951F9A635A3FF52LLSo15BSInvalidatable_pSgvs
++ _$s18ActivityProgressUI34APUIRemoteAlertPresentationManagerC06remoteeF11HandlesByID33_FFB5FFAB3C5D8300D4791DBA393EBE01LLSDySSAA0deF6HandleCGvM
++ _$s18ActivityProgressUI34APUIRemoteAlertPresentationManagerC06remoteeF11HandlesByID33_FFB5FFAB3C5D8300D4791DBA393EBE01LLSDySSAA0deF6HandleCGvg
++ _$s18ActivityProgressUI34APUIRemoteAlertPresentationManagerC06remoteeF11HandlesByID33_FFB5FFAB3C5D8300D4791DBA393EBE01LLSDySSAA0deF6HandleCGvs
++ _$s18ActivityProgressUI42APUISystemApertureElementHostingControllerC016leadingUIHostingH033_49EE97E22DB8C1DD1DB637BCA96BDBCELLAA0de13AccessoryViewH0CSgvM
++ _$s18ActivityProgressUI42APUISystemApertureElementHostingControllerC016leadingUIHostingH033_49EE97E22DB8C1DD1DB637BCA96BDBCELLAA0de13AccessoryViewH0CSgvg
++ _$s18ActivityProgressUI42APUISystemApertureElementHostingControllerC016leadingUIHostingH033_49EE97E22DB8C1DD1DB637BCA96BDBCELLAA0de13AccessoryViewH0CSgvs
++ _$s18ActivityProgressUI42APUISystemApertureElementHostingControllerC016minimalUIHostingH033_49EE97E22DB8C1DD1DB637BCA96BDBCELLAA0de13AccessoryViewH0CSgvM
++ _$s18ActivityProgressUI42APUISystemApertureElementHostingControllerC016minimalUIHostingH033_49EE97E22DB8C1DD1DB637BCA96BDBCELLAA0de13AccessoryViewH0CSgvg
++ _$s18ActivityProgressUI42APUISystemApertureElementHostingControllerC016minimalUIHostingH033_49EE97E22DB8C1DD1DB637BCA96BDBCELLAA0de13AccessoryViewH0CSgvs
++ _$s18ActivityProgressUI42APUISystemApertureElementHostingControllerC017expandedUIHostingH033_49EE97E22DB8C1DD1DB637BCA96BDBCELLAA0de13AccessoryViewH0CSgvM
++ _$s18ActivityProgressUI42APUISystemApertureElementHostingControllerC017expandedUIHostingH033_49EE97E22DB8C1DD1DB637BCA96BDBCELLAA0de13AccessoryViewH0CSgvg
++ _$s18ActivityProgressUI42APUISystemApertureElementHostingControllerC017expandedUIHostingH033_49EE97E22DB8C1DD1DB637BCA96BDBCELLAA0de13AccessoryViewH0CSgvs
++ _$s18ActivityProgressUI42APUISystemApertureElementHostingControllerC017expandedUIHostingH11LayoutState33_49EE97E22DB8C1DD1DB637BCA96BDBCELLAA0dekL0CvM
++ _$s18ActivityProgressUI42APUISystemApertureElementHostingControllerC017expandedUIHostingH11LayoutState33_49EE97E22DB8C1DD1DB637BCA96BDBCELLAA0dekL0Cvg
++ _$s18ActivityProgressUI42APUISystemApertureElementHostingControllerC017expandedUIHostingH11LayoutState33_49EE97E22DB8C1DD1DB637BCA96BDBCELLAA0dekL0Cvs
++ _$s18ActivityProgressUI42APUISystemApertureElementHostingControllerC017trailingUIHostingH033_49EE97E22DB8C1DD1DB637BCA96BDBCELLAA0de13AccessoryViewH0CSgvM
++ _$s18ActivityProgressUI42APUISystemApertureElementHostingControllerC017trailingUIHostingH033_49EE97E22DB8C1DD1DB637BCA96BDBCELLAA0de13AccessoryViewH0CSgvg
++ _$s18ActivityProgressUI42APUISystemApertureElementHostingControllerC017trailingUIHostingH033_49EE97E22DB8C1DD1DB637BCA96BDBCELLAA0de13AccessoryViewH0CSgvs
++ _$s18ActivityProgressUI42APUISystemApertureElementHostingControllerC31expandedUITransitionCoordinatorAA0def10TransitionK0CvM
++ _$s18ActivityProgressUI42APUISystemApertureElementHostingControllerC31expandedUITransitionCoordinatorAA0def10TransitionK0Cvg
++ _$s18ActivityProgressUI42APUISystemApertureElementHostingControllerC31expandedUITransitionCoordinatorAA0def10TransitionK0Cvs
++ _swift_release_n
+- _malloc
+- _swift_unknownObjectRetain_n
+
+```

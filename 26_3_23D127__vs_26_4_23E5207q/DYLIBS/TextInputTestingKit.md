@@ -1,0 +1,250 @@
+## TextInputTestingKit
+
+> `/System/Library/PrivateFrameworks/TextInputTestingKit.framework/TextInputTestingKit`
+
+```diff
+
+-3532.3.2.3.0
+-  __TEXT.__text: 0x53e30
+-  __TEXT.__auth_stubs: 0xec0
++3532.4.3.0.0
++  __TEXT.__text: 0x57ef0
++  __TEXT.__auth_stubs: 0xeb0
+   __TEXT.__init_offsets: 0x24
+   __TEXT.__objc_methlist: 0x5c9c
+   __TEXT.__const: 0x9af
+   __TEXT.__dlopen_cstrs: 0x4c
+-  __TEXT.__cstring: 0x3ce1
+-  __TEXT.__gcc_except_tab: 0x3848
++  __TEXT.__cstring: 0x4a1e
++  __TEXT.__gcc_except_tab: 0x3800
+   __TEXT.__ustring: 0x186
+   __TEXT.__oslogstring: 0x1c2
+-  __TEXT.__unwind_info: 0x16c0
++  __TEXT.__unwind_info: 0x1888
+   __TEXT.__objc_classname: 0xbd8
+   __TEXT.__objc_methname: 0xf973
+-  __TEXT.__objc_methtype: 0x2a20
++  __TEXT.__objc_methtype: 0x2a1c
+   __TEXT.__objc_stubs: 0xb220
+   __DATA_CONST.__got: 0x418
+   __DATA_CONST.__const: 0xd28
+
+   __DATA_CONST.__objc_protorefs: 0x8
+   __DATA_CONST.__objc_superrefs: 0x248
+   __DATA_CONST.__objc_arraydata: 0x218
+-  __AUTH_CONST.__auth_got: 0x778
++  __AUTH_CONST.__auth_got: 0x770
+   __AUTH_CONST.__const: 0x138
+   __AUTH_CONST.__cfstring: 0x5480
+   __AUTH_CONST.__objc_const: 0xb038
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 093E6A14-9006-3752-85CC-62253A9CA93D
++  UUID: 8E8E2790-B5B7-3DAB-A865-50152903AAA5
+   Functions: 1904
+-  Symbols:   7421
+-  CStrings:  4544
++  Symbols:   7420
++  CStrings:  4553
+ 
+Symbols:
++ GCC_except_table126
++ GCC_except_table168
++ GCC_except_table245
++ GCC_except_table248
++ GCC_except_table253
++ GCC_except_table262
++ GCC_except_table274
++ GCC_except_table279
++ GCC_except_table286
++ GCC_except_table289
++ GCC_except_table291
++ GCC_except_table296
++ GCC_except_table329
++ GCC_except_table351
++ GCC_except_table353
++ GCC_except_table360
++ GCC_except_table370
++ GCC_except_table374
++ GCC_except_table377
++ GCC_except_table386
++ GCC_except_table396
++ GCC_except_table427
++ __ZN2KBL26k_invalid_likelihood_valueE.1058
++ __ZN2KBL26k_invalid_likelihood_valueE.1204
++ __ZN2KBL26k_invalid_likelihood_valueE.2926
++ __ZN2KBL26k_invalid_likelihood_valueE.3215
++ __ZN2KBL26k_invalid_likelihood_valueE.3397
++ __ZN2KBL26k_invalid_likelihood_valueE.4849
++ __ZN2KBL26k_invalid_likelihood_valueE.5782
++ __ZN2KBL26k_invalid_likelihood_valueE.888
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIN2KB6StringEN3WTF6RefPtrIN2TI8Favonius14KeyboardLayoutEEEEEPvEENS_22__hash_node_destructorINS_9allocatorISD_EEEEED1B9fon210106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIN2KB6StringENS_10shared_ptrINS3_13AppTrieLoaderEEEEEPvEENS_22__hash_node_destructorINS_9allocatorISA_EEEEED1B9fon210106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIN2KB6StringENS_10shared_ptrINS3_21AddressBookTrieLoaderEEEEEPvEENS_22__hash_node_destructorINS_9allocatorISA_EEEEED1B9fon210106Ev
++ __ZNSt3__112__destroy_atB9fon210106INS_4pairIKN2KB6StringEN3WTF6RefPtrIN2TI8Favonius14KeyboardLayoutEEEEELi0EEEvPT_
++ __ZNSt3__112__destroy_atB9fon210106INS_4pairIKN2KB6StringENS_10shared_ptrINS2_13AppTrieLoaderEEEEELi0EEEvPT_
++ __ZNSt3__112__destroy_atB9fon210106INS_4pairIKN2KB6StringENS_10shared_ptrINS2_21AddressBookTrieLoaderEEEEELi0EEEvPT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB6StringEN3WTF6RefPtrIN2TI8Favonius14KeyboardLayoutEEEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S9_EENS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_SE_SI_SG_Lb1EEENS_9allocatorISE_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB6StringENS_10shared_ptrINS2_13AppTrieLoaderEEEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S6_EENS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_SB_SF_SD_Lb1EEENS_9allocatorISB_EEE4findIS3_EENS_15__hash_iteratorIPNS_11__hash_nodeIS7_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB6StringENS_10shared_ptrINS2_21AddressBookTrieLoaderEEEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S6_EENS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_SB_SF_SD_Lb1EEENS_9allocatorISB_EEE4findIS3_EENS_15__hash_iteratorIPNS_11__hash_nodeIS7_PvEEEERKT_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9fon210106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9fon210106ILi0EEEPKc
++ __ZNSt3__112construct_atB9fon210106IN2KB11LexiconInfoEJRKNS1_6StringES3_S3_S3_S3_RKjbiEPS2_EEPT_SA_DpOT0_
++ __ZNSt3__116allocator_traitsINS_9allocatorIN2KB11LexiconInfoEEEE7destroyB9fon210106IS3_Li0EEEvRS4_PT_
++ __ZNSt3__119__allocate_at_leastB9fon210106INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__shared_weak_count16__release_sharedB9fon210106Ev
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEElEEPvEEEEEclB9fon210106EPSB_
++ __ZNSt3__127__insertion_sort_incompleteB9fon210106INS_17_ClassicAlgPolicyERU8__strongU13block_pointerFbRKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES9_EPS7_EEbT1_SF_T0_
++ __ZNSt3__132__internal_log_hardening_failureEPKc
++ __ZNSt3__14pairIN2KB20LanguageModelContextENS1_6StringEEC2B9fon210106IRS2_S3_Li0EEEOT_OT0_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEElEENS_19__map_value_compareIS7_NS_4pairIKS7_lEENS_4lessIS7_EELb1EEENS5_ISC_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRSB_EEENSM_IJEEEEEENSA_INS_15__tree_iteratorIS8_PNS_11__tree_nodeIS8_PvEElEEbEERKT_DpOT0_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEElEENS_19__map_value_compareIS7_NS_4pairIKS7_lEENS_4lessIS7_EELb1EEENS5_ISC_EEE7destroyEPNS_11__tree_nodeIS8_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIfiEENS_19__map_value_compareIfNS_4pairIKfiEENS_4lessIfEELb1EEENS_9allocatorIS6_EEE7destroyEPNS_11__tree_nodeIS2_PvEE
++ __ZNSt3__16__treeINS_12__value_typeImdEENS_19__map_value_compareImNS_4pairIKmdEENS_4lessImEELb1EEENS_9allocatorIS6_EEE7destroyEPNS_11__tree_nodeIS2_PvEE
++ __ZNSt3__16vectorI9TITokenIDNS_9allocatorIS1_EEE20__throw_length_errorB9fon210106Ev
++ __ZNSt3__16vectorIN2KB11LexiconInfoENS_9allocatorIS2_EEE16__destroy_vectorclB9fon210106Ev
++ __ZNSt3__16vectorIN2KB11LexiconInfoENS_9allocatorIS2_EEE16__init_with_sizeB9fon210106IPKS2_S8_EEvT_T0_m
++ __ZNSt3__16vectorIN2KB11LexiconInfoENS_9allocatorIS2_EEE20__throw_length_errorB9fon210106Ev
++ __ZNSt3__16vectorIN2TI2CP10PathSampleENS_9allocatorIS3_EEE20__throw_length_errorB9fon210106Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB9fon210106Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB9fon210106Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE5clearB9fon210106Ev
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB9fon210106Ev
++ __ZNSt3__17__sort4B9fon210106INS_17_ClassicAlgPolicyERU8__strongU13block_pointerFbRKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES9_EPS7_Li0EEEvT1_SF_SF_SF_T0_
++ __ZNSt3__1ssB9fon210106IcNS_11char_traitsIcEENS_9allocatorIcEEEEDaRKNS_12basic_stringIT_T0_T1_EESC_
++ __ZSt28__throw_bad_array_new_lengthB9fon210106v
++ ___Block_byref_object_copy_.1067
++ ___Block_byref_object_copy_.1153
++ ___Block_byref_object_copy_.1460
++ ___Block_byref_object_copy_.1625
++ ___Block_byref_object_copy_.35
++ ___Block_byref_object_copy_.5476
++ ___Block_byref_object_copy_.6087
++ ___Block_byref_object_copy_.721
++ ___Block_byref_object_copy_.787
++ ___Block_byref_object_dispose_.1068
++ ___Block_byref_object_dispose_.1154
++ ___Block_byref_object_dispose_.1461
++ ___Block_byref_object_dispose_.1626
++ ___Block_byref_object_dispose_.36
++ ___Block_byref_object_dispose_.5477
++ ___Block_byref_object_dispose_.6088
++ ___Block_byref_object_dispose_.722
++ ___Block_byref_object_dispose_.788
++ ___block_literal_global.2014
++ ___block_literal_global.2908
++ ___block_literal_global.2920
++ ___block_literal_global.5332
++ ___block_literal_global.5506
++ ___block_literal_global.6255
++ _bzero
++ _objc_retainAutoreleasedReturnValue
+- GCC_except_table127
+- GCC_except_table169
+- GCC_except_table246
+- GCC_except_table249
+- GCC_except_table254
+- GCC_except_table266
+- GCC_except_table278
+- GCC_except_table283
+- GCC_except_table287
+- GCC_except_table290
+- GCC_except_table294
+- GCC_except_table297
+- GCC_except_table330
+- GCC_except_table352
+- GCC_except_table359
+- GCC_except_table361
+- GCC_except_table372
+- GCC_except_table375
+- GCC_except_table383
+- GCC_except_table389
+- GCC_except_table398
+- GCC_except_table428
+- __ZN2KBL26k_invalid_likelihood_valueE.1052
+- __ZN2KBL26k_invalid_likelihood_valueE.1195
+- __ZN2KBL26k_invalid_likelihood_valueE.2908
+- __ZN2KBL26k_invalid_likelihood_valueE.3196
+- __ZN2KBL26k_invalid_likelihood_valueE.3378
+- __ZN2KBL26k_invalid_likelihood_valueE.4830
+- __ZN2KBL26k_invalid_likelihood_valueE.5766
+- __ZN2KBL26k_invalid_likelihood_valueE.882
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIN2KB6StringEN3WTF6RefPtrIN2TI8Favonius14KeyboardLayoutEEEEEPvEENS_22__hash_node_destructorINS_9allocatorISD_EEEEED1B8nn200100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIN2KB6StringENS_10shared_ptrINS3_13AppTrieLoaderEEEEEPvEENS_22__hash_node_destructorINS_9allocatorISA_EEEEED1B8nn200100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIN2KB6StringENS_10shared_ptrINS3_21AddressBookTrieLoaderEEEEEPvEENS_22__hash_node_destructorINS_9allocatorISA_EEEEED1B8nn200100Ev
+- __ZNSt3__112__destroy_atB8nn200100INS_4pairIKN2KB6StringEN3WTF6RefPtrIN2TI8Favonius14KeyboardLayoutEEEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB8nn200100INS_4pairIKN2KB6StringENS_10shared_ptrINS2_13AppTrieLoaderEEEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB8nn200100INS_4pairIKN2KB6StringENS_10shared_ptrINS2_21AddressBookTrieLoaderEEEEELi0EEEvPT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB6StringEN3WTF6RefPtrIN2TI8Favonius14KeyboardLayoutEEEEENS_22__unordered_map_hasherIS3_SA_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_SA_SF_SD_Lb1EEENS_9allocatorISA_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB6StringENS_10shared_ptrINS2_13AppTrieLoaderEEEEENS_22__unordered_map_hasherIS3_S7_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_S7_SC_SA_Lb1EEENS_9allocatorIS7_EEE4findIS3_EENS_15__hash_iteratorIPNS_11__hash_nodeIS7_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB6StringENS_10shared_ptrINS2_21AddressBookTrieLoaderEEEEENS_22__unordered_map_hasherIS3_S7_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_S7_SC_SA_Lb1EEENS_9allocatorIS7_EEE4findIS3_EENS_15__hash_iteratorIPNS_11__hash_nodeIS7_PvEEEERKT_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8nn200100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8nn200100ILi0EEEPKc
+- __ZNSt3__112construct_atB8nn200100IN2KB11LexiconInfoEJRKNS1_6StringES3_S3_S3_S3_RKjbiEPS2_EEPT_SA_DpOT0_
+- __ZNSt3__116allocator_traitsINS_9allocatorIN2KB11LexiconInfoEEEE7destroyB8nn200100IS3_vLi0EEEvRS4_PT_
+- __ZNSt3__119__allocate_at_leastB8nn200100INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__shared_weak_count16__release_sharedB8nn200100Ev
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEElEEPvEEEEEclB8nn200100EPSB_
+- __ZNSt3__127__insertion_sort_incompleteB8nn200100INS_17_ClassicAlgPolicyERU8__strongU13block_pointerFbRKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES9_EPS7_EEbT1_SF_T0_
+- __ZNSt3__14pairIN2KB20LanguageModelContextENS1_6StringEEC2B8nn200100IRS2_S3_Li0EEEOT_OT0_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEElEENS_19__map_value_compareIS7_S8_NS_4lessIS7_EELb1EEENS5_IS8_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSJ_IJEEEEEENS_4pairINS_15__tree_iteratorIS8_PNS_11__tree_nodeIS8_PvEElEEbEERKT_DpOT0_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEElEENS_19__map_value_compareIS7_S8_NS_4lessIS7_EELb1EEENS5_IS8_EEE7destroyEPNS_11__tree_nodeIS8_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIfiEENS_19__map_value_compareIfS2_NS_4lessIfEELb1EEENS_9allocatorIS2_EEE7destroyEPNS_11__tree_nodeIS2_PvEE
+- __ZNSt3__16__treeINS_12__value_typeImdEENS_19__map_value_compareImS2_NS_4lessImEELb1EEENS_9allocatorIS2_EEE7destroyEPNS_11__tree_nodeIS2_PvEE
+- __ZNSt3__16vectorI9TITokenIDNS_9allocatorIS1_EEE20__throw_length_errorB8nn200100Ev
+- __ZNSt3__16vectorIN2KB11LexiconInfoENS_9allocatorIS2_EEE16__destroy_vectorclB8nn200100Ev
+- __ZNSt3__16vectorIN2KB11LexiconInfoENS_9allocatorIS2_EEE16__init_with_sizeB8nn200100IPKS2_S8_EEvT_T0_m
+- __ZNSt3__16vectorIN2KB11LexiconInfoENS_9allocatorIS2_EEE20__throw_length_errorB8nn200100Ev
+- __ZNSt3__16vectorIN2TI2CP10PathSampleENS_9allocatorIS3_EEE20__throw_length_errorB8nn200100Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB8nn200100Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB8nn200100Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE5clearB8nn200100Ev
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB8nn200100Ev
+- __ZNSt3__17__sort4B8nn200100INS_17_ClassicAlgPolicyERU8__strongU13block_pointerFbRKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES9_EPS7_Li0EEEvT1_SF_SF_SF_T0_
+- __ZNSt3__1ssB8nn200100IcNS_11char_traitsIcEENS_9allocatorIcEEEEDaRKNS_12basic_stringIT_T0_T1_EESC_
+- __ZSt28__throw_bad_array_new_lengthB8nn200100v
+- ___Block_byref_object_copy_.1061
+- ___Block_byref_object_copy_.1144
+- ___Block_byref_object_copy_.1432
+- ___Block_byref_object_copy_.1597
+- ___Block_byref_object_copy_.34
+- ___Block_byref_object_copy_.5460
+- ___Block_byref_object_copy_.6071
+- ___Block_byref_object_copy_.718
+- ___Block_byref_object_copy_.784
+- ___Block_byref_object_dispose_.1062
+- ___Block_byref_object_dispose_.1145
+- ___Block_byref_object_dispose_.1433
+- ___Block_byref_object_dispose_.1598
+- ___Block_byref_object_dispose_.35
+- ___Block_byref_object_dispose_.5461
+- ___Block_byref_object_dispose_.6072
+- ___Block_byref_object_dispose_.719
+- ___Block_byref_object_dispose_.785
+- ___block_literal_global.1999
+- ___block_literal_global.2890
+- ___block_literal_global.2902
+- ___block_literal_global.5317
+- ___block_literal_global.5490
+- ___block_literal_global.6239
+- _objc_claimAutoreleasedReturnValue
+- _objc_retainAutoreleaseReturnValue
+- _objc_retain_x5
+- _objc_retain_x6
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CH5HugCZvc33nbL5eSOM4ar6I2psSKO0sKdTIsM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:293: libc++ Hardening assertion __k != __leftmost failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CH5HugCZvc33nbL5eSOM4ar6I2psSKO0sKdTIsM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:603: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CH5HugCZvc33nbL5eSOM4ar6I2psSKO0sKdTIsM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:615: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CH5HugCZvc33nbL5eSOM4ar6I2psSKO0sKdTIsM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:633: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CH5HugCZvc33nbL5eSOM4ar6I2psSKO0sKdTIsM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:638: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CH5HugCZvc33nbL5eSOM4ar6I2psSKO0sKdTIsM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:669: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CH5HugCZvc33nbL5eSOM4ar6I2psSKO0sKdTIsM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:682: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CH5HugCZvc33nbL5eSOM4ar6I2psSKO0sKdTIsM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:692: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CH5HugCZvc33nbL5eSOM4ar6I2psSKO0sKdTIsM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:697: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "{map<std::string, long, std::less<std::string>, std::allocator<std::pair<const std::string, long>>>=\"__tree_\"{__tree<std::__value_type<std::string, long>, std::__map_value_compare<std::string, std::pair<const std::string, long>, std::less<std::string>>, std::allocator<std::pair<const std::string, long>>>=\"__begin_node_\"^v\"\"{?=\"__end_node_\"{__tree_end_node<std::__tree_node_base<void *> *>=\"__left_\"^v}}\"\"{?=\"__size_\"Q}}}"
+- "{map<std::string, long, std::less<std::string>, std::allocator<std::pair<const std::string, long>>>=\"__tree_\"{__tree<std::__value_type<std::string, long>, std::__map_value_compare<std::string, std::__value_type<std::string, long>, std::less<std::string>>, std::allocator<std::__value_type<std::string, long>>>=\"__begin_node_\"^v\"\"{?=\"__end_node_\"{__tree_end_node<std::__tree_node_base<void *> *>=\"__left_\"^v}}\"\"{?=\"__size_\"Q}}}"
+
+```

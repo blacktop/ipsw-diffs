@@ -1,0 +1,288 @@
+## AccountsUISettings
+
+> `/System/Library/PrivateFrameworks/AccountsUISettings.framework/AccountsUISettings`
+
+```diff
+
+-95.0.0.0.0
+-  __TEXT.__text: 0x63f48
+-  __TEXT.__auth_stubs: 0x1dc0
++98.0.0.0.0
++  __TEXT.__text: 0x6231c
++  __TEXT.__auth_stubs: 0x1d70
+   __TEXT.__objc_methlist: 0x53c
+-  __TEXT.__const: 0x4694
+-  __TEXT.__gcc_except_tab: 0xe0
++  __TEXT.__const: 0x4654
++  __TEXT.__gcc_except_tab: 0xb8
+   __TEXT.__oslogstring: 0x1cb1
+-  __TEXT.__cstring: 0x2bb2
+-  __TEXT.__swift5_typeref: 0x3f10
++  __TEXT.__cstring: 0x1e21
++  __TEXT.__swift5_typeref: 0x3f42
+   __TEXT.__swift5_capture: 0x860
+   __TEXT.__swift5_reflstr: 0xc31
+   __TEXT.__swift5_assocty: 0x4d0
+
+   __TEXT.__swift_as_ret: 0x40
+   __TEXT.__swift5_mpenum: 0x8
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__unwind_info: 0x1360
+-  __TEXT.__eh_frame: 0xe88
+-  __TEXT.__objc_classname: 0xf2
+-  __TEXT.__objc_methname: 0x1540
+-  __TEXT.__objc_methtype: 0x40b
+-  __TEXT.__objc_stubs: 0x580
++  __TEXT.__unwind_info: 0x12f8
++  __TEXT.__eh_frame: 0xd38
++  __TEXT.__objc_classname: 0x4d2
++  __TEXT.__objc_methname: 0x1e47
++  __TEXT.__objc_methtype: 0x718
++  __TEXT.__objc_stubs: 0x1400
+   __DATA_CONST.__got: 0x820
+-  __DATA_CONST.__const: 0x3f0
++  __DATA_CONST.__const: 0x3e8
+   __DATA_CONST.__objc_classlist: 0x78
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x60
+
+   __DATA_CONST.__objc_selrefs: 0x6e0
+   __DATA_CONST.__objc_protorefs: 0x40
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __AUTH_CONST.__auth_got: 0xef0
++  __AUTH_CONST.__auth_got: 0xec8
+   __AUTH_CONST.__const: 0x2ec0
+   __AUTH_CONST.__cfstring: 0x80
+   __AUTH_CONST.__objc_const: 0x1988
+   __AUTH.__objc_data: 0x3f8
+   __AUTH.__data: 0x6f0
+   __DATA.__objc_ivar: 0x1c
+-  __DATA.__data: 0x1518
++  __DATA.__data: 0x1530
+   __DATA.__bss: 0x2900
+   __DATA.__common: 0x58
+   __DATA_DIRTY.__objc_data: 0xe18
+-  __DATA_DIRTY.__data: 0x700
++  __DATA_DIRTY.__data: 0x718
+   __DATA_DIRTY.__bss: 0x80
+   __DATA_DIRTY.__common: 0x70
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A8CE2B1A-3B61-34DC-806C-F5902340C505
+-  Functions: 2127
+-  Symbols:   1402
+-  CStrings:  658
++  UUID: A1E7516F-8EF8-3305-9514-46CAD0982BBF
++  Functions: 2117
++  Symbols:   1516
++  CStrings:  654
+ 
+Symbols:
++ _OUTLINED_FUNCTION_3
++ _OUTLINED_FUNCTION_4
++ _block_copy_helper.456
++ _block_copy_helper.499
++ _block_copy_helper.504
++ _block_descriptor.458
++ _block_descriptor.501
++ _block_descriptor.506
++ _block_destroy_helper.457
++ _block_destroy_helper.500
++ _block_destroy_helper.505
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA6HStackVyAA9TupleViewVyAA08ModifiedD0VyAA5ImageVAA24_ForegroundStyleModifierVyAA5ColorVGG_AA4TextVAA6SpacerVtGGAWGSgAA0G0HpAxaZHPAwaZHPyHC_AwaZHPyHCHC_HC.326
++ _get_witness_table 7SwiftUI4TextVAA4ViewHPyHC.321
++ _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA19_ConditionalContentVyAA08ModifiedG0VyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA13OpenURLActionVGGAQG_AA6SpacerVtGGAA0E0HPyHC.328
++ _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA6SpacerV_AA6VStackVyAEy014_IconServices_aB005AsyncH5ImageVyAA0K0VGSg_AA15ModifiedContentVyAA4TextVAA31AccessibilityAttachmentModifierVGtGGAGtGGAA0E0HPyHC.322
++ _get_witness_table 7SwiftUI6VStackVy18AccountsUISettings40EmailAddressFieldSectionFooterChooseTextVGAA4ViewHPyHC.327
++ _get_witness_table 7SwiftUI7SectionVyAA19_ConditionalContentVyAA4TextVAGGAA7ForEachVySay18AccountSuggestions0I10SuggestionVGSS18AccountsUISettings0K6ButtonVGAA9EmptyViewVGSgAA0P0HpAuaWHPAhaWHPAgaWHPyHC_AgaWHPyHCHC_AraWHPAqaWHPyHC_HCAtaWHPyHCHC_HC.329
++ _get_witness_table 7SwiftUI7SectionVyAA4TextVAA15ModifiedContentVyAA6ButtonVy18AccountsUISettings019AccountTypeIconNameG9ViewSmallVGAA16_FlexFrameLayoutVGAA05EmptyN0VGSgAA0N0HpAsaUHPAeaUHPyHC_ApaUHPAmaUHPyHC_AoA0N8ModifierHPyHCHCAraUHPyHCHC_HC.325
++ _get_witness_table 7SwiftUI7SectionVyAA6VStackVyAA6HStackVyAA9TupleViewVyAA4TextV_AA6SpacerVtGGGSgAIyAA7ForEachVys15LazyMapSequenceVySnySiGSi_SStGSS18AccountsUISettings13ShowAddButtonVG_AA19_ConditionalContentVyAA0S0VyAA08ModifiedU0VyAGyAIyA1_yAIyAM_AKtGAKG_AMtGGAA16_FlexFrameLayoutVGGASySaySSGSSAZGGSgtGAA05EmptyG0VGAA0G0HPAqAA22_HpApAA22_HPyHC_HC_A18_AAA22_HPyHCA20_AAA22_HPyHCHC.331
++ _get_witness_table 7SwiftUI9TupleViewVyAA0D0PAAE17sectionBackgroundyQrAA10VisibilityOFQOyAA15ModifiedContentVyAA7SectionVyAA05EmptyD0V18AccountsUISettings15AddAccountTitleVANGAA21_TraitWritingModifierVyAA07ListRowfQ3KeyVGG_Qo__ALyAO021EnterYourEmailAddressP0VAO0yZ9TextFieldVAA6VStackVyACyAO14ErrorTextStackV_AO0yz5FieldJ6FooterVtGGGAO08ExistingoJ0VALyAA4TextVAA7ForEachVys15LazyMapSequenceVySnySiGSi_0L15UISupportShared22PreliminaryInformationV10SuggestionVtGA24_AJyAA6ButtonVyAO0o18TypeIconNameButtonD5SmallVGAA16_FlexFrameLayoutVGGANGSgAO0o10SuggestionJ0VtGAaDHPyHC.320
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOyAcAE11listPadding6anchorQrAA04ListL6AnchorV_tFQOyAA15ModifiedContentVyAA4FormVyAA012_ConditionalQ0Vy18AccountsUISettings010ModdernAddcR8ContentsVAV25DisabledSettingsIconLabelVGGAA25_AppearanceActionModifierVG_Qo__AQyAV23AccountTypeSheetWrapperVAA23_SafeAreaIgnoringLayoutVGQo_HO.319
++ _get_witness_table qd0__7SwiftUI4ViewHD5_AaBPAAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQOyAA15ModifiedContentVyAA6ZStackVyAA012_ConditionalK0VyAPy18AccountsUISettings010AccountAddC6LegacyVAQ0pqC6ModernVGASGGAA25_AppearanceActionModifierVG_SSAA05TupleC0VyAA6ButtonVyAA4TextVG_A6_tGAPyA5_A5_GQo_HO.317
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE11listPadding6anchorQrAA04ListE6AnchorV_tFQOyAA4FormVy18AccountsUISettings18AccountTypeSectionVG_Qo_HO.330
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE11listPadding6anchorQrAA04ListE6AnchorV_tFQOyAcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQOyAcAE15navigationTitleyQrAA18LocalizedStringKeyVFQOyAA4FormVyAA05TupleC0VyAcAE17sectionBackgroundyQrAA10VisibilityOFQOyAA08ModifiedL0VyAA7SectionVyAA05EmptyC0V18AccountsUISettings010AddAccountN0VAZGAA21_TraitWritingModifierVyAA0g3Rowu5TraitQ0VGG_Qo_Sg_A_017AccountSuggestionX0VA_011AccountTypeX0VtGG_Qo__AA0kL7BuilderV10buildBlockyQrxAaJRzlFZQOy_AA0K4ItemVyytAA6ButtonVyAA4TextVGGQo_Qo__Qo_HO.332
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE8onSubmit2of_QrAA0E8TriggersV_yyctFQOyAcAE11submitLabelyQrAA0eI0VFQOyAcAE27textInputAutocapitalizationyQrAA04TextkL0VSgFQOyAcAE12keyboardTypeyQrSo010UIKeyboardO0VFQOyAA15ModifiedContentVyASyAcAE21disableAutocorrectionyQrSbSgFQOyAcAE12labelsHiddenQryFQOyASyAA0M5FieldVyAA05EmptyC0VGAA31AccessibilityAttachmentModifierVG_Qo__Qo_AA14_PaddingLayoutVGAA16_OverlayModifierVyAA6ButtonVyASyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGGSgGG_Qo__Qo__Qo__Qo_HO.324
++ _objc_msgSend$URLForResource:withExtension:
++ _objc_msgSend$accountDescription
++ _objc_msgSend$accountPropertyForKey:
++ _objc_msgSend$accountType
++ _objc_msgSend$accountTypeWithAccountTypeIdentifier:
++ _objc_msgSend$accountWithIdentifier:
++ _objc_msgSend$actionWithType:
++ _objc_msgSend$activateConstraints:
++ _objc_msgSend$acuis_popLastItemsFromStack:
++ _objc_msgSend$acuis_statefulNavigation
++ _objc_msgSend$addChildViewController:
++ _objc_msgSend$addSubview:
++ _objc_msgSend$affectedContainers
++ _objc_msgSend$anyObject
++ _objc_msgSend$armWithOptions:completion:
++ _objc_msgSend$bottomAnchor
++ _objc_msgSend$bundleForClass:
++ _objc_msgSend$bundleIdentifier
++ _objc_msgSend$bundleWithIdentifier:
++ _objc_msgSend$childViewControllers
++ _objc_msgSend$code
++ _objc_msgSend$constraintEqualToAnchor:
++ _objc_msgSend$contentsOfDirectoryAtPath:error:
++ _objc_msgSend$copy
++ _objc_msgSend$count
++ _objc_msgSend$dataclassActionsForAccountDeletion:
++ _objc_msgSend$dataclassActionsForAccountSave:
++ _objc_msgSend$dataclassConfigurationControllerForAccount:name:completion:
++ _objc_msgSend$defaultCenter
++ _objc_msgSend$defaultManager
++ _objc_msgSend$defaultStore
++ _objc_msgSend$defaultWorkspace
++ _objc_msgSend$description
++ _objc_msgSend$displayAccount
++ _objc_msgSend$domain
++ _objc_msgSend$effectiveBoolValueForSetting:
++ _objc_msgSend$enabledDataclasses
++ _objc_msgSend$handleURL:withCompletion:
++ _objc_msgSend$identifier
++ _objc_msgSend$imageDescriptorNamed:
++ _objc_msgSend$init
++ _objc_msgSend$initWithAccountTypes:propertiesToPrefetch:delegate:
++ _objc_msgSend$initWithBarButtonSystemItem:target:action:
++ _objc_msgSend$initWithBool:
++ _objc_msgSend$initWithBundleIdentifier:
++ _objc_msgSend$initWithContentsOfURL:error:
++ _objc_msgSend$initWithIdentifier:
++ _objc_msgSend$initWithInteger:
++ _objc_msgSend$initWithPath:
++ _objc_msgSend$initWithRootViewController:
++ _objc_msgSend$initWithTitle:style:target:action:
++ _objc_msgSend$initWithType:
++ _objc_msgSend$isActive
++ _objc_msgSend$isDestructive
++ _objc_msgSend$isDirty
++ _objc_msgSend$isEnabledForDataclass:
++ _objc_msgSend$isFeatureAvailable
++ _objc_msgSend$isFeatureEnabled
++ _objc_msgSend$isFeatureSupported
++ _objc_msgSend$isKindOfClass:
++ _objc_msgSend$isProvisionedForDataclass:
++ _objc_msgSend$leadingAnchor
++ _objc_msgSend$load
++ _objc_msgSend$localizedStringByJoiningStrings:
++ _objc_msgSend$localizedStringForKey:value:table:
++ _objc_msgSend$localizedStringFromPersonNameComponents:style:options:
++ _objc_msgSend$mainBundle
++ _objc_msgSend$mainRunLoop
++ _objc_msgSend$managingOwnerIdentifier
++ _objc_msgSend$monitoredAccountWithIdentifier:
++ _objc_msgSend$monitoredAccounts
++ _objc_msgSend$navigationController
++ _objc_msgSend$navigationItem
++ _objc_msgSend$openSensitiveURL:withOptions:
++ _objc_msgSend$parentAccount
++ _objc_msgSend$persistentDomainForName:
++ _objc_msgSend$popViewControllerAnimated:
++ _objc_msgSend$postNotificationName:object:
++ _objc_msgSend$principalClass
++ _objc_msgSend$propertyForKey:
++ _objc_msgSend$propertyListWithData:options:format:error:
++ _objc_msgSend$provisionedDataclasses
++ _objc_msgSend$registerWithCompletion:
++ _objc_msgSend$reload
++ _objc_msgSend$removeAccount:withDataclassActions:completion:
++ _objc_msgSend$removeFromSuperview
++ _objc_msgSend$saveAccount:withCompletionHandler:
++ _objc_msgSend$saveAccount:withDataclassActions:doVerify:completion:
++ _objc_msgSend$setAccountDescription:
++ _objc_msgSend$setAccountProperty:forKey:
++ _objc_msgSend$setEnabled:
++ _objc_msgSend$setEnabled:forDataclass:
++ _objc_msgSend$setFamilyName:
++ _objc_msgSend$setGivenName:
++ _objc_msgSend$setMiddleName:
++ _objc_msgSend$setRightBarButtonItem:
++ _objc_msgSend$setTitle:
++ _objc_msgSend$setTranslatesAutoresizingMaskIntoConstraints:
++ _objc_msgSend$sharedConnection
++ _objc_msgSend$showAddSheetForAccountType:onController:withAccount:configDictionary:forceMail:completion:
++ _objc_msgSend$showAlternateSetupControllerForAccount:username:from:completion:
++ _objc_msgSend$showController:animate:
++ _objc_msgSend$size
++ _objc_msgSend$standardUserDefaults
++ _objc_msgSend$table
++ _objc_msgSend$topAnchor
++ _objc_msgSend$trailingAnchor
++ _objc_msgSend$traitCollection
++ _objc_msgSend$type
++ _objc_msgSend$undoAlertMessage
++ _objc_msgSend$undoAlertTitle
++ _objc_msgSend$valueForKey:
++ _objc_msgSend$verifyCredentialsForAccount:saveWhenAuthorized:withHandler:
++ _objc_msgSend$view
++ _objc_msgSend$visibleTopLevelAccountsWithAccountTypeIdentifiers:completion:
++ _objc_msgSend$willMoveToParentViewController:
++ _objectdestroy.373Tm
++ _objectdestroy.515Tm
++ _objectdestroy.545Tm
++ _objectdestroy.561Tm
++ _objectdestroy.570Tm
++ _objectdestroy.574Tm
++ _objectdestroy.580Tm
++ _swift_bridgeObjectRelease_n
++ _symbolic _____Sg_ABt 18AccountSuggestions0A10SuggestionV
++ _symbolic ______pSg 18AccountsUISettings0aB6PluginP
++ _symbolic _____yAAyAAy__________y_____SgGGACy_____SgGGACy_____SgGG 7SwiftUI15ModifiedContentV 18AccountsUISettings14AccountAddViewV AA30_EnvironmentKeyWritingModifierV AD0E7UIModelC 0G11Suggestions0G17SuggestionManagerC AD0ghI5ModelC
++ _symbolic _____yAAy__________y_____SgGGACy_____SgGG 7SwiftUI15ModifiedContentV 18AccountsUISettings14AccountAddViewV AA30_EnvironmentKeyWritingModifierV AD0E7UIModelC 0G11Suggestions0G17SuggestionManagerC
+- ___swift_mutable_project_boxed_opaque_existential_1
+- __swift_FORCE_LOAD_$_swiftAVFoundation
+- __swift_FORCE_LOAD_$_swiftAVFoundation_$_AccountsUISettings
+- _block_copy_helper.457
+- _block_copy_helper.500
+- _block_copy_helper.505
+- _block_descriptor.459
+- _block_descriptor.502
+- _block_descriptor.507
+- _block_destroy_helper.458
+- _block_destroy_helper.501
+- _block_destroy_helper.506
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA6HStackVyAA9TupleViewVyAA08ModifiedD0VyAA5ImageVAA24_ForegroundStyleModifierVyAA5ColorVGG_AA4TextVAA6SpacerVtGGAWGSgAA0G0HpAxaZHPAwaZHPyHC_AwaZHPyHCHC_HC.325
+- _get_witness_table 7SwiftUI4TextVAA4ViewHPyHC.320
+- _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA19_ConditionalContentVyAA08ModifiedG0VyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA13OpenURLActionVGGAQG_AA6SpacerVtGGAA0E0HPyHC.327
+- _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA6SpacerV_AA6VStackVyAEy014_IconServices_aB005AsyncH5ImageVyAA0K0VGSg_AA15ModifiedContentVyAA4TextVAA31AccessibilityAttachmentModifierVGtGGAGtGGAA0E0HPyHC.321
+- _get_witness_table 7SwiftUI6VStackVy18AccountsUISettings40EmailAddressFieldSectionFooterChooseTextVGAA4ViewHPyHC.326
+- _get_witness_table 7SwiftUI7SectionVyAA19_ConditionalContentVyAA4TextVAGGAA7ForEachVySay18AccountSuggestions0I10SuggestionVGSS18AccountsUISettings0K6ButtonVGAA9EmptyViewVGSgAA0P0HpAuaWHPAhaWHPAgaWHPyHC_AgaWHPyHCHC_AraWHPAqaWHPyHC_HCAtaWHPyHCHC_HC.328
+- _get_witness_table 7SwiftUI7SectionVyAA4TextVAA15ModifiedContentVyAA6ButtonVy18AccountsUISettings019AccountTypeIconNameG9ViewSmallVGAA16_FlexFrameLayoutVGAA05EmptyN0VGSgAA0N0HpAsaUHPAeaUHPyHC_ApaUHPAmaUHPyHC_AoA0N8ModifierHPyHCHCAraUHPyHCHC_HC.324
+- _get_witness_table 7SwiftUI7SectionVyAA6VStackVyAA6HStackVyAA9TupleViewVyAA4TextV_AA6SpacerVtGGGSgAIyAA7ForEachVys15LazyMapSequenceVySnySiGSi_SStGSS18AccountsUISettings13ShowAddButtonVG_AA19_ConditionalContentVyAA0S0VyAA08ModifiedU0VyAGyAIyA1_yAIyAM_AKtGAKG_AMtGGAA16_FlexFrameLayoutVGGASySaySSGSSAZGGSgtGAA05EmptyG0VGAA0G0HPAqAA22_HpApAA22_HPyHC_HC_A18_AAA22_HPyHCA20_AAA22_HPyHCHC.330
+- _get_witness_table 7SwiftUI9TupleViewVyAA0D0PAAE17sectionBackgroundyQrAA10VisibilityOFQOyAA15ModifiedContentVyAA7SectionVyAA05EmptyD0V18AccountsUISettings15AddAccountTitleVANGAA21_TraitWritingModifierVyAA07ListRowfQ3KeyVGG_Qo__ALyAO021EnterYourEmailAddressP0VAO0yZ9TextFieldVAA6VStackVyACyAO14ErrorTextStackV_AO0yz5FieldJ6FooterVtGGGAO08ExistingoJ0VALyAA4TextVAA7ForEachVys15LazyMapSequenceVySnySiGSi_0L15UISupportShared22PreliminaryInformationV10SuggestionVtGA24_AJyAA6ButtonVyAO0o18TypeIconNameButtonD5SmallVGAA16_FlexFrameLayoutVGGANGSgAO0o10SuggestionJ0VtGAaDHPyHC.319
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOyAcAE11listPadding6anchorQrAA04ListL6AnchorV_tFQOyAA15ModifiedContentVyAA4FormVyAA012_ConditionalQ0Vy18AccountsUISettings010ModdernAddcR8ContentsVAV25DisabledSettingsIconLabelVGGAA25_AppearanceActionModifierVG_Qo__AQyAV23AccountTypeSheetWrapperVAA23_SafeAreaIgnoringLayoutVGQo_HO.318
+- _get_witness_table qd0__7SwiftUI4ViewHD5_AaBPAAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQOyAA15ModifiedContentVyAA6ZStackVyAA012_ConditionalK0VyAPy18AccountsUISettings010AccountAddC6LegacyVAQ0pqC6ModernVGASGGAA25_AppearanceActionModifierVG_SSAA05TupleC0VyAA6ButtonVyAA4TextVG_A6_tGAPyA5_A5_GQo_HO.316
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE11listPadding6anchorQrAA04ListE6AnchorV_tFQOyAA4FormVy18AccountsUISettings18AccountTypeSectionVG_Qo_HO.329
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE11listPadding6anchorQrAA04ListE6AnchorV_tFQOyAcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQOyAcAE15navigationTitleyQrAA18LocalizedStringKeyVFQOyAA4FormVyAA05TupleC0VyAcAE17sectionBackgroundyQrAA10VisibilityOFQOyAA08ModifiedL0VyAA7SectionVyAA05EmptyC0V18AccountsUISettings010AddAccountN0VAZGAA21_TraitWritingModifierVyAA0g3Rowu5TraitQ0VGG_Qo_Sg_A_017AccountSuggestionX0VA_011AccountTypeX0VtGG_Qo__AA0kL7BuilderV10buildBlockyQrxAaJRzlFZQOy_AA0K4ItemVyytAA6ButtonVyAA4TextVGGQo_Qo__Qo_HO.331
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE8onSubmit2of_QrAA0E8TriggersV_yyctFQOyAcAE11submitLabelyQrAA0eI0VFQOyAcAE27textInputAutocapitalizationyQrAA04TextkL0VSgFQOyAcAE12keyboardTypeyQrSo010UIKeyboardO0VFQOyAA15ModifiedContentVyASyAcAE21disableAutocorrectionyQrSbSgFQOyAcAE12labelsHiddenQryFQOyASyAA0M5FieldVyAA05EmptyC0VGAA31AccessibilityAttachmentModifierVG_Qo__Qo_AA14_PaddingLayoutVGAA16_OverlayModifierVyAA6ButtonVyASyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGGSgGG_Qo__Qo__Qo__Qo_HO.323
+- _malloc
+- _objc_claimAutoreleasedReturnValue
+- _objc_retain_x1
+- _objc_retain_x4
+- _objectdestroy.372Tm
+- _objectdestroy.516Tm
+- _objectdestroy.546Tm
+- _objectdestroy.562Tm
+- _objectdestroy.571Tm
+- _objectdestroy.575Tm
+- _objectdestroy.581Tm
+- _swift_makeBoxUnique
+- _symbolic _____y_____y_____y_____y_____G_Qo__SbQo__Qo_ 7SwiftUI4ViewPAAE8onSubmit2of_QrAA0E8TriggersV_yyctFQO AcAE0D6ChangeAE7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA11SecureFieldV AA4TextV
+- _symbolic _____y_____y_____y_____y_____G_____G_Qo__Qo_ 7SwiftUI4ViewPAAE21disableAutocorrectionyQrSbSgFQO AcAE12labelsHiddenQryFQO AA15ModifiedContentV AA9TextFieldV AA05EmptyC0V AA31AccessibilityAttachmentModifierV
+CStrings:
++ "AccountsUISettings"
+
+```

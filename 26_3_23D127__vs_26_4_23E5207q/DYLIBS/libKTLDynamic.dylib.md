@@ -1,0 +1,71 @@
+## libKTLDynamic.dylib
+
+> `/usr/lib/libKTLDynamic.dylib`
+
+```diff
+
+-1399.9.0.0.0
+-  __TEXT.__text: 0x256b4
++1416.1.0.0.0
++  __TEXT.__text: 0x24a50
+   __TEXT.__auth_stubs: 0x18c0
+   __TEXT.__init_offsets: 0x4
+   __TEXT.__const: 0x158
+   __TEXT.__gcc_except_tab: 0x18b4
+-  __TEXT.__cstring: 0x3520
++  __TEXT.__cstring: 0x34eb
+   __TEXT.__oslogstring: 0x41
+-  __TEXT.__unwind_info: 0xbd8
++  __TEXT.__unwind_info: 0xbe0
+   __DATA_CONST.__got: 0x68
+   __DATA_CONST.__const: 0x180
+   __AUTH_CONST.__auth_got: 0xc68
+
+   - /usr/lib/libTelephonyCapabilities.dylib
+   - /usr/lib/libTelephonyUtilDynamic.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 7A5EE4B3-33B2-30B8-AEE0-CBE97761C608
+-  Functions: 429
+-  Symbols:   1416
+-  CStrings:  421
++  UUID: 9E041A10-8208-3CBC-98B2-9F5AB498CD1D
++  Functions: 428
++  Symbols:   1414
++  CStrings:  420
+ 
+Symbols:
++ __ZNSt12length_errorC1B9nqe210106EPKc
++ __ZNSt3__110shared_ptrIKNS_6vectorIhNS_9allocatorIhEEEEED1B9nqe210106Ev
++ __ZNSt3__110shared_ptrIN3ctu7GestaltEED1B9nqe210106Ev
++ __ZNSt3__110shared_ptrIN3ctu7GestaltEEaSB9nqe210106EOS3_
++ __ZNSt3__110shared_ptrIN3ktl13CommandDriverEED2B9nqe210106Ev
++ __ZNSt3__110shared_ptrIN6AriSdk31ARI_CsiIceRFFilerWriteRspCb_SDKEED1B9nqe210106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIjN8dispatch5blockIU13block_pointerFiPhjEEEEEPvEENS_22__hash_node_destructorINS_9allocatorISB_EEEEED1B9nqe210106Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIjN8dispatch5blockIU13block_pointerFiPhjEEEEENS_22__unordered_map_hasherIjNS_4pairIKjS7_EENS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjSC_SG_SE_Lb1EEENS_9allocatorISC_EEE25__emplace_unique_key_argsIjJRKNS_21piecewise_construct_tENS_5tupleIJRSB_EEENSR_IJEEEEEENSA_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__120__throw_future_errorB9nqe210106ENS_11future_errcE
++ __ZNSt3__120__throw_length_errorB9nqe210106EPKc
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
++ __ZSt28__throw_bad_array_new_lengthB9nqe210106v
++ __ZZSt29__make_exception_ptr_explicitB9nqe210106INSt3__112future_errorEESt13exception_ptrRT_ENUlPvE_8__invokeES5_
+- __ZL25ICE_FILER_transport_writeP21ice_filer_lookup_nodePhj
+- __ZNSt12length_errorC1B8ne200100EPKc
+- __ZNSt3__110shared_ptrIKNS_6vectorIhNS_9allocatorIhEEEEED1B8ne200100Ev
+- __ZNSt3__110shared_ptrIN3ctu7GestaltEED1B8ne200100Ev
+- __ZNSt3__110shared_ptrIN3ctu7GestaltEEaSB8ne200100EOS3_
+- __ZNSt3__110shared_ptrIN3ktl13CommandDriverEED2B8ne200100Ev
+- __ZNSt3__110shared_ptrIN6AriSdk31ARI_CsiIceRFFilerWriteRspCb_SDKEED1B8ne200100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIjN8dispatch5blockIU13block_pointerFiPhjEEEEEPvEENS_22__hash_node_destructorINS_9allocatorISB_EEEEED1B8ne200100Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIjN8dispatch5blockIU13block_pointerFiPhjEEEEENS_22__unordered_map_hasherIjS8_NS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjS8_SD_SB_Lb1EEENS_9allocatorIS8_EEE25__emplace_unique_key_argsIjJRKNS_21piecewise_construct_tENS_5tupleIJRKjEEENSO_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__120__throw_future_errorB8ne200100ENS_11future_errcE
+- __ZNSt3__120__throw_length_errorB8ne200100EPKc
+- __ZNSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
+- __ZSt28__throw_bad_array_new_lengthB8ne200100v
+- __ZZSt29__make_exception_ptr_explicitB8ne200100INSt3__112future_errorEESt13exception_ptrRT_ENUlPvE_8__invokeES5_
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CIsOugD2eo5WJw0hyWbv0h3nvSW5-wCfMjN1ZnI/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/include/ARI/ari_sdk_msg.h"
+- "/AppleInternal/Library/BuildRoots/4~CHu7ugD4WIYgrthX1PTDSE0PS7GFQWykD8XgQS0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.3.Internal.sdk/usr/local/include/ARI/ari_sdk_msg.h"
+- "Error: IceFilerReadRspCb. NUL p_data from Baseband.\n"
+
+```

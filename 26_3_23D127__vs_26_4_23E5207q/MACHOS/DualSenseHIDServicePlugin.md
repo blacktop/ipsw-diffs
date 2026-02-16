@@ -1,0 +1,581 @@
+## DualSenseHIDServicePlugin
+
+> `/System/Library/HIDPlugins/ServicePlugins/DualSenseHIDServicePlugin.plugin/DualSenseHIDServicePlugin`
+
+```diff
+
+-13.3.1.0.0
+-  __TEXT.__text: 0xb5fc
+-  __TEXT.__auth_stubs: 0x5c0
+-  __TEXT.__objc_stubs: 0x1740
+-  __TEXT.__init_offsets: 0x4
+-  __TEXT.__objc_methlist: 0xd54
+-  __TEXT.__cstring: 0x7ce
+-  __TEXT.__objc_classname: 0x2ed
+-  __TEXT.__objc_methname: 0x2586
+-  __TEXT.__objc_methtype: 0x131c
+-  __TEXT.__const: 0x570
+-  __TEXT.__gcc_except_tab: 0x218
+-  __TEXT.__oslogstring: 0xc7f
+-  __TEXT.__unwind_info: 0x328
+-  __DATA_CONST.__auth_got: 0x2f8
+-  __DATA_CONST.__got: 0xc0
+-  __DATA_CONST.__const: 0x3e8
+-  __DATA_CONST.__cfstring: 0xd80
+-  __DATA_CONST.__objc_classlist: 0x20
+-  __DATA_CONST.__objc_protolist: 0xb0
++13.4.8.0.0
++  __TEXT.__text: 0x5e84
++  __TEXT.__auth_stubs: 0x350
++  __TEXT.__objc_stubs: 0x860
++  __TEXT.__objc_methlist: 0x474
++  __TEXT.__const: 0x4c0
++  __TEXT.__gcc_except_tab: 0xb8
++  __TEXT.__cstring: 0x3d9
++  __TEXT.__objc_methname: 0xf0b
++  __TEXT.__oslogstring: 0x815
++  __TEXT.__objc_classname: 0xa0
++  __TEXT.__objc_methtype: 0xa1d
++  __TEXT.__unwind_info: 0x178
++  __DATA_CONST.__auth_got: 0x1b8
++  __DATA_CONST.__got: 0x58
++  __DATA_CONST.__const: 0x1f0
++  __DATA_CONST.__cfstring: 0x780
++  __DATA_CONST.__objc_classlist: 0x8
++  __DATA_CONST.__objc_protolist: 0x28
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x80
+-  __DATA_CONST.__objc_superrefs: 0x20
+-  __DATA_CONST.__objc_intobj: 0x48
+-  __DATA.__objc_const: 0x1d68
+-  __DATA.__objc_selrefs: 0x8f8
+-  __DATA.__objc_ivar: 0x17c
+-  __DATA.__objc_data: 0x140
+-  __DATA.__data: 0x840
+-  __DATA.__bss: 0xb0
++  __DATA_CONST.__objc_superrefs: 0x8
++  __DATA.__objc_const: 0x720
++  __DATA.__objc_selrefs: 0x3c0
++  __DATA.__objc_ivar: 0x88
++  __DATA.__objc_data: 0x50
++  __DATA.__data: 0x1e0
++  __DATA.__bss: 0x10
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /System/Library/PrivateFrameworks/GameControllerFoundation.framework/GameControllerFoundation
++  - /System/Library/PrivateFrameworks/GameControllerIO.framework/GameControllerIO
+   - /System/Library/PrivateFrameworks/HID.framework/HID
+   - /usr/lib/libSystem.B.dylib
+-  - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B4960480-0AA3-3F45-BE93-B471BF454233
+-  Functions: 315
+-  Symbols:   132
+-  CStrings:  898
++  UUID: 5CB31BD6-5BA3-388C-A669-4DC6B9859ADF
++  Functions: 98
++  Symbols:   75
++  CStrings:  410
+ 
+Symbols:
++ _OBJC_CLASS_$_GCGamepadHIDServicePlugin
++ _OBJC_CLASS_$_GCHapticMotor
++ _OBJC_METACLASS_$_GCGamepadHIDServicePlugin
++ _objc_retainAutoreleasedReturnValue
++ _objc_retain_x23
+- _CFRelease
+- _GCGenericDeviceDriverConfigurationServiceClientInterface
+- _GCGenericDeviceDriverConfigurationServiceServerInterface
+- _IOHIDEventAppendEvent
+- _IOHIDEventCreateQuaternionOrientationEvent
+- _IOHIDEventCreateVendorDefinedEvent
+- _IOHIDEventSetEventFlags
+- _IOHIDEventSetIntegerValue
+- _IOObjectCopyClass
+- _IOObjectRelease
+- _IOObjectRetain
+- _IORegistryEntryGetRegistryEntryID
+- _NSStringFromClass
+- _OBJC_CLASS_$_HIDDevice
+- _OBJC_CLASS_$_HIDEvent
+- _OBJC_CLASS_$_HIDUserDevice
+- _OBJC_CLASS_$_NSConstantIntegerNumber
+- _OBJC_CLASS_$_NSData
+- _OBJC_CLASS_$_NSMutableArray
+- _OBJC_CLASS_$_NSMutableDictionary
+- _OBJC_CLASS_$_NSMutableString
+- _OBJC_CLASS_$_NSObject
+- _OBJC_CLASS_$_NSPredicate
+- _OBJC_CLASS_$_NSXPCConnection
+- _OBJC_CLASS_$_NSXPCInterface
+- _OBJC_CLASS_$__GCHapticEvent
+- _OBJC_METACLASS_$__GCHapticEvent
+- __Block_object_dispose
+- ___gxx_personality_v0
+- __dispatch_main_q
+- __dispatch_source_type_timer
+- __os_activity_create
+- __os_activity_current
+- __os_log_debug_impl
+- __os_log_default
+- _clock_gettime
+- _dispatch_queue_attr_make_with_qos_class
+- _dispatch_queue_create
+- _dispatch_queue_get_label
+- _dispatch_resume
+- _dispatch_source_cancel
+- _dispatch_source_create
+- _dispatch_source_set_event_handler
+- _dispatch_source_set_timer
+- _dispatch_walltime
+- _isPartnerSupportEnabled
+- _mach_absolute_time
+- _mach_timebase_info
+- _objc_alloc_init
+- _objc_claimAutoreleasedReturnValue
+- _objc_enumerationMutation
+- _objc_opt_new
+- _objc_retain
+- _objc_retainAutoreleaseReturnValue
+- _objc_retainBlock
+- _objc_retain_x2
+- _objc_retain_x3
+- _objc_retain_x4
+- _objc_retain_x8
+- _objc_storeWeak
+- _os_activity_scope_enter
+- _os_activity_scope_leave
+CStrings:
++ "log"
++ "regID"
+- " - will disconnect if permitted"
+- "%02x%@"
+- ":"
+- "<%@ %lu (%@), i=%f s=%f (started at %f)>"
+- "@\"<GCBatteryServiceClientInterface>\""
+- "@\"<GCIdleServiceClientInterface>\""
+- "@\"<HIDEventDispatcher>\""
+- "@\"HIDConnection\""
+- "@\"HIDDevice\""
+- "@\"HIDUserDevice\""
+- "@\"NSArray\""
+- "@\"NSMutableArray\""
+- "@\"NSNumber\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSObject<OS_dispatch_source>\""
+- "@\"NSXPCConnection\""
+- "@20@0:8i16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@24@0:8^{_NSZone=}16"
+- "@28@0:8I16Q20"
+- "@28@0:8i16@20"
+- "@36@0:8i16@20Q28"
+- "@44@0:8i16@20Q28f36f40"
+- "@?"
+- "B24@?0@\"NSDictionary\"8@\"NSDictionary\"16"
+- "B36@0:8^16^24f32"
+- "BatteryCapacity"
+- "BluetoothLowEnergy"
+- "Connect To Daemon"
+- "Connection to com.apple.GameController.gamecontrollerd.driver interrupted.  Attempting to re-establish."
+- "Connection to com.apple.GameController.gamecontrollerd.driver invalidated"
+- "DeviceUsage"
+- "DeviceUsagePage"
+- "DeviceUsagePairs"
+- "Dispatching event..."
+- "EventType"
+- "Freeing HIDDevice on %@"
+- "GCAdaptiveTriggersServiceClientInterface"
+- "GCBatteryServiceClientInterface"
+- "GCBatteryServiceServerInterface"
+- "GCGameIntentServiceClientInterface"
+- "GCGameIntentServiceServerInterface"
+- "GCGamepadHIDServicePlugin"
+- "GCHapticMotor"
+- "GCHapticMotor - %@(%d) f=%f a=%f"
+- "GCIdleServiceClientInterface"
+- "GCIdleServiceServerInterface"
+- "GCLightServiceClientInterface"
+- "GCMotionServiceClientInterface"
+- "GCNintendoJoyConFusionGestureServiceClientInterface"
+- "GCNintendoJoyConFusionGestureServiceServerInterface"
+- "GCPartnersEnable"
+- "GameController"
+- "GameControllerPointer"
+- "GameControllerType"
+- "I"
+- "I16@0:8"
+- "IOHIDDeviceForceInterfaceRematch"
+- "IOHIDDeviceSuspend"
+- "Initialize <%{public}@ %#010llx> {\nvendorID = %zu,\nproductID = %zu,\nversion = %zu,\nmanufacturer = '%{public}@',\nproduct = '%{public}@',\nserial = '%{private}@',\ntransport = '%{public}@',\n}"
+- "InputDelay"
+- "IsPowerSupplyConnected"
+- "Manufacturer"
+- "MaxReportBufferCount"
+- "NSCoding"
+- "NSCopying"
+- "NSSecureCoding"
+- "Partners mode enabled? %d"
+- "PhysicalDeviceUniqueID"
+- "PluginName"
+- "Product"
+- "Q"
+- "ReportBufferEntrySize"
+- "ReportDescriptor"
+- "Stopping timer..."
+- "T@\"<HIDEventDispatcher>\",W,N,V_dispatcher"
+- "T@\"HIDConnection\",W,N,V_client"
+- "T@\"HIDDevice\",R,N,V_device"
+- "T@\"HIDUserDevice\",R,N,V_batteryUserDevice"
+- "T@\"NSArray\",&,N,V_hapticMotors"
+- "T@\"NSMutableArray\",&,N,V_queuedTransients"
+- "T@\"NSObject<OS_dispatch_queue>\",R,N,V_dispatchQueue"
+- "T@\"NSString\",R,C,N,V_name"
+- "T@\"NSString\",R,N,V_uniqueIdentifier"
+- "TB,N,V_stopped"
+- "TB,N,V_transientBeganAsContinuousEvent"
+- "TB,R"
+- "TB,R,N,GisBluetoothClassic,V_bluetoothClassic"
+- "TB,R,N,GisBluetoothLE,V_bluetoothLE"
+- "TB,R,N,GisUSB,V_usb"
+- "TB,R,N,GisVirtualDevice,V_virtualDevice"
+- "TI,R,N,V_service"
+- "TQ,N,V_identifier"
+- "TQ,R,N,V_features"
+- "TQ,R,N,V_lastEventTime"
+- "T^{?=CCC},R,N,V_batteryReport"
+- "Td,N,V_intensity"
+- "Td,N,V_sharpness"
+- "Td,N,V_startTime"
+- "Tf,N,V_amplitude"
+- "Tf,N,V_frequency"
+- "Tf,N,V_hapticDispatchFrequency"
+- "Tf,N,V_idleTimeoutDuration"
+- "Tf,N,V_leftThumbstickAxisSnapRadius"
+- "Tf,N,V_leftThumbstickDeadzoneRadius"
+- "Tf,N,V_leftThumbstickNoiseBuffer"
+- "Tf,N,V_rightThumbstickAxisSnapRadius"
+- "Tf,N,V_rightThumbstickDeadzoneRadius"
+- "Tf,N,V_rightThumbstickNoiseBuffer"
+- "Ti,R,N,V_index"
+- "Tq,N,V_type"
+- "Transport"
+- "VersionNumber"
+- "[%#010llx] Activate"
+- "[%#010llx] Cancel"
+- "[%#010llx] Creating HIDDevice."
+- "[%#010llx] Dealloc"
+- "[%#010llx] Opening HIDDevice"
+- "[%#010llx] SetCancelHandler"
+- "[%#010llx] SetDispatchQueue"
+- "[%#010llx] SetEventDispatcher"
+- "[%#010llx] clientNotification %@ added: %d"
+- "[%#010llx] creating battery device"
+- "[%#010llx] disconnectIfIdle disconnecting..."
+- "[%#010llx] eventMatching: %@ client: %@"
+- "[%#010llx] isIdle for %.2f seconds%@"
+- "[%#010llx] scheduleIdleTimer"
+- "[%#010llx] setProperty: %@ forKey: %@"
+- "[%#010llx] updateBatteryStats reporting battery level %d%%"
+- "[%#010llx] updateClientBattery reporting battery level %d%%"
+- "^{?=CCC}"
+- "^{?=CCC}16@0:8"
+- "_GCDriverClientHapticInterface"
+- "_GCDriverClientInterface"
+- "_GCDriverServerInterface"
+- "_GCHapticEvent"
+- "_activated"
+- "_amplitude"
+- "_batteryClient"
+- "_batteryReport"
+- "_batteryUserDevice"
+- "_bluetoothClassic"
+- "_bluetoothLE"
+- "_buttonHome"
+- "_buttonMenu"
+- "_buttonOptions"
+- "_buttonSearch"
+- "_buttonShare"
+- "_cancelHandler"
+- "_client"
+- "_clientAdded"
+- "_currentHapticClipTime"
+- "_currentHapticDispatchTime"
+- "_daemonConnection"
+- "_device"
+- "_dispatchQueue"
+- "_dispatcher"
+- "_features"
+- "_frequency"
+- "_gameControllerExtendedState"
+- "_gameControllerState"
+- "_hapticDispatchFrequency"
+- "_hapticDispatchSource"
+- "_hapticMotors"
+- "_hapticsActive"
+- "_identifier"
+- "_idleClient"
+- "_idleDispatchSource"
+- "_idleTimeoutDuration"
+- "_index"
+- "_inputEventDelay"
+- "_intensity"
+- "_internalQueue"
+- "_lastEventTime"
+- "_leftThumbstickAxisSnapRadius"
+- "_leftThumbstickDeadzoneRadius"
+- "_leftThumbstickNoiseBuffer"
+- "_loopHapticEvent"
+- "_motionSequenceNumber"
+- "_motionState"
+- "_name"
+- "_pendingHapticZeroReports"
+- "_prop"
+- "_queuedTransients"
+- "_regID"
+- "_rightThumbstickAxisSnapRadius"
+- "_rightThumbstickDeadzoneRadius"
+- "_rightThumbstickNoiseBuffer"
+- "_service"
+- "_sharpness"
+- "_startTime"
+- "_stopped"
+- "_transientBeganAsContinuousEvent"
+- "_type"
+- "_uniqueIdentifier"
+- "_usb"
+- "_virtualDevice"
+- "activated"
+- "addObject:"
+- "allocWithZone:"
+- "amplitude"
+- "analytics"
+- "appendEvent:"
+- "appendString:"
+- "applyDeadzone:axisSnapRadius:input:"
+- "applyValuesFrom:"
+- "array"
+- "batteryUserDevice"
+- "bluetoothClassic"
+- "bluetoothLE"
+- "boolForKey:"
+- "calling cancel handler"
+- "cancelHandler"
+- "client"
+- "clientAdded"
+- "close"
+- "com.apple.GameController"
+- "com.apple.GameController.Daemon"
+- "com.apple.GameController.Haptics"
+- "com.apple.GameController.Settings"
+- "com.apple.GameController.gamecontrollerd.driver"
+- "com.apple.gamecontroller.serviceplugin"
+- "com.apple.runtime-issues"
+- "connectToBatteryServiceWithClient:reply:"
+- "connectToGameIntentServiceWithClient:reply:"
+- "connectToGenericDeviceDriverConfigurationServiceWithClient:reply:"
+- "connectToIdleServiceWithClient:reply:"
+- "connectToNintendoJoyConFusionGestureServiceWithClient:reply:"
+- "continuous"
+- "copyWithZone:"
+- "countByEnumeratingWithState:objects:count:"
+- "createEvent:timestamp:"
+- "createHIDDeviceForService:"
+- "createVirtualHIDDeviceForBattery"
+- "created battery device %@ with properties %@"
+- "d16@0:8"
+- "dataWithBytes:length:"
+- "dataWithBytesNoCopy:length:freeWhenDone:"
+- "dealloc"
+- "decodeBoolForKey:"
+- "decodeDoubleForKey:"
+- "decodeFloatForKey:"
+- "decodeIntegerForKey:"
+- "decodeObjectOfClass:forKey:"
+- "default"
+- "defaultIdleTimeoutDuration"
+- "defaultLeftAxisSnapRadius"
+- "defaultLeftThumbstickDeadzoneRadius"
+- "defaultLeftThumbstickNoiseBuffer"
+- "defaultRightAxisSnapRadius"
+- "defaultRightThumbstickDeadzoneRadius"
+- "defaultRightThumbstickNoiseBuffer"
+- "disconnect"
+- "dispatchEvent:"
+- "dispatchEvent:withInputDelay:"
+- "dispatchGameControllerExtendedEventWithState:timestamp:children:"
+- "dispatchIdleEvent:"
+- "dispatchIdleEvent:withInputDelay:"
+- "dispatchSearchButtonEventWithValue:timestamp:"
+- "dispatchShareButtonEventWithValue:timestamp:"
+- "dispatcher"
+- "doubleValue"
+- "drainQueuedTransients"
+- "driverCheckIn"
+- "enableHaptics"
+- "encodeBool:forKey:"
+- "encodeDouble:forKey:"
+- "encodeFloat:forKey:"
+- "encodeInteger:forKey:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "enqueueHapticTransientEvent:"
+- "enqueueTransient:hapticMotor:"
+- "evaluateDeviceNoteParams:"
+- "eventID"
+- "f"
+- "features"
+- "fetchDeviceRegistryIDWithReply:"
+- "filteredArrayUsingPredicate:"
+- "handleButton:gesture:"
+- "handleReport:error:"
+- "hapticDispatchFrequency"
+- "homeButtonLongPressGesture:"
+- "i"
+- "i16@0:8"
+- "identifier"
+- "idleTimeoutDuration"
+- "index"
+- "init"
+- "initGameControllerDaemonXPC"
+- "initWithBool:"
+- "initWithCoder:"
+- "initWithIndex:"
+- "initWithIndex:name:features:"
+- "initWithIndex:name:features:frequency:amplitude:"
+- "initWithInt:"
+- "initWithMachServiceName:options:"
+- "initWithProperties:"
+- "initWithSyntheticCommand:"
+- "initWithType:timestamp:senderID:"
+- "intensity"
+- "interfaceWithProtocol:"
+- "invalidate"
+- "isAnyHapticMotorEnabled"
+- "isBluetoothLE"
+- "isIdle"
+- "isTwoAxisInputIdle:prevInput:noiseBuffer:"
+- "isUSB"
+- "isVirtual"
+- "lastEventTime"
+- "leftThumbstickAxisSnapRadius"
+- "leftThumbstickDeadzoneRadius"
+- "leftThumbstickNoiseBuffer"
+- "monitor"
+- "name"
+- "numberOfTimesToSendZeroHapticReport"
+- "numberWithDouble:"
+- "numberWithUnsignedLongLong:"
+- "open"
+- "params"
+- "predicateWithBlock:"
+- "q16@0:8"
+- "queuedTransients"
+- "readBatteryWithReply:"
+- "remoteObjectProxy"
+- "removeAllObjects"
+- "requestIdleDisconnect:"
+- "resume"
+- "rightThumbstickAxisSnapRadius"
+- "rightThumbstickDeadzoneRadius"
+- "rightThumbstickNoiseBuffer"
+- "scheduleIdleTimer"
+- "sendPressForButton:"
+- "setAmplitude:"
+- "setClient:"
+- "setConfiguration:forButton:"
+- "setDispatcher:"
+- "setDoubleValue:forField:"
+- "setExportedInterface:"
+- "setExportedObject:"
+- "setFrequency:"
+- "setHapticDispatchFrequency:"
+- "setHapticMotor:frequency:amplitude:"
+- "setHapticMotors:"
+- "setIdentifier:"
+- "setIdleTimeoutDuration:"
+- "setIntegerValue:forField:"
+- "setIntensity:"
+- "setInterface:forSelector:argumentIndex:ofReply:"
+- "setInterruptionHandler:"
+- "setInvalidationHandler:"
+- "setLeftThumbstickAxisSnapRadius:"
+- "setLeftThumbstickDeadzoneRadius:"
+- "setProperty:forKey:"
+- "setQueuedTransients:"
+- "setRemoteObjectInterface:"
+- "setRightThumbstickAxisSnapRadius:"
+- "setRightThumbstickDeadzoneRadius:"
+- "setSharpness:"
+- "setStartTime:"
+- "setStopped:"
+- "setTransientBeganAsContinuousEvent:"
+- "setType:"
+- "sharpness"
+- "shouldCreateBatteryDevice"
+- "startTime"
+- "stopHaptics"
+- "stopped"
+- "stringWithCString:encoding:"
+- "stringWithCapacity:"
+- "stringWithFormat:"
+- "stringWithString:"
+- "supportsSecureCoding"
+- "time"
+- "timestamp"
+- "token"
+- "tokenAndParams"
+- "transient"
+- "transientBeganAsContinuousEvent"
+- "type"
+- "uniqueIdentifier"
+- "unsignedIntValue"
+- "unsignedIntegerValue"
+- "updateBattery:isCharging:"
+- "updateClientBattery"
+- "updateHapticMotor:"
+- "updateHaptics:"
+- "updateIdleState"
+- "uppercaseString"
+- "usb"
+- "v128@0:8{?=BdddBdddBdddd}16Q120"
+- "v20@0:8I16"
+- "v20@0:8f16"
+- "v224@0:8{?=Q[47f]}16Q216"
+- "v232@0:8{?=Q[47f]}16Q216@224"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@\"NSString\"16"
+- "v24@0:8@?<v@?@\"NSNumber\"q>16"
+- "v24@0:8@?<v@?CB>16"
+- "v24@0:8C16B20"
+- "v24@0:8Q16"
+- "v24@0:8d16"
+- "v24@0:8q16"
+- "v28@0:8B16Q20"
+- "v28@0:8I16Q20"
+- "v28@0:8Q16I24"
+- "v32@0:8@\"<GCAdaptiveTriggersServiceClientInterface>\"16@?<v@?@\"<GCAdaptiveTriggersServiceServerInterface>\"@\"NSError\">24"
+- "v32@0:8@\"<GCBatteryServiceClientInterface>\"16@?<v@?@\"<GCBatteryServiceServerInterface>\"@\"NSError\">24"
+- "v32@0:8@\"<GCGameIntentServiceClientInterface>\"16@?<v@?@\"<GCGameIntentServiceServerInterface>\"@\"NSError\">24"
+- "v32@0:8@\"<GCGenericDeviceDriverConfigurationServiceClientInterface>\"16@?<v@?@\"<GCGenericDeviceDriverConfigurationServiceServerInterface>\"@\"NSError\">24"
+- "v32@0:8@\"<GCIdleServiceClientInterface>\"16@?<v@?@\"<GCIdleServiceServerInterface>\"@\"NSError\">24"
+- "v32@0:8@\"<GCLightServiceClientInterface>\"16@?<v@?@\"<GCLightServiceServerInterface>\"@\"NSError\">24"
+- "v32@0:8@\"<GCMotionServiceClientInterface>\"16@?<v@?@\"<GCMotionServiceServerInterface>\"@\"NSError\">24"
+- "v32@0:8@\"<GCNintendoJoyConFusionGestureServiceClientInterface>\"16@?<v@?@\"<GCNintendoJoyConFusionGestureServiceServerInterface>\"@\"NSError\">24"
+- "v32@0:8@\"_GCHapticEvent\"16Q24"
+- "v32@0:8@16Q24"
+- "v32@0:8Q16f24f28"
+- "v32@0:8f16f20^24"
+- "v40@0:8C16C20C24C28C32C36"
+- "value"
+- "valueForNoteParam:inParameters:"
+- "virtualDevice"
+- "{?=\"directionPadUp\"d\"directionPadDown\"d\"directionPadLeft\"d\"directionPadRight\"d\"buttonA\"d\"buttonB\"d\"buttonX\"d\"buttonY\"d\"buttonL1\"d\"buttonR1\"d\"buttonL2\"d\"buttonR2\"d\"leftThumbstick\"\"rightThumbstick\"\"buttonL3\"B\"buttonR3\"B\"controllerType\"I}"
+- "{?=\"mask\"Q\"buttons\"[47f]}"
+- "{?=\"supportsGyro\"B\"gyroPitch\"d\"gyroYaw\"d\"gyroRoll\"d\"supportsAccelerometer\"B\"accelerometerX\"d\"accelerometerY\"d\"accelerometerZ\"d\"supportsAttitude\"B\"attitudeX\"d\"attitudeY\"d\"attitudeZ\"d\"attitudeW\"d}"
+- "{pair<bool, float>=Bf}28@0:8I16@20"
+- "{timespec=\"tv_sec\"q\"tv_nsec\"q}"
+
+```

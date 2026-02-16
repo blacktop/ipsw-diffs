@@ -1,0 +1,907 @@
+## NetworkExtension
+
+> `/System/Library/Frameworks/NetworkExtension.framework/NetworkExtension`
+
+```diff
+
+-2205.82.1.0.0
+-  __TEXT.__text: 0x1fb96c
+-  __TEXT.__auth_stubs: 0x4530
++2226.100.24.0.0
++  __TEXT.__text: 0x2088fc
++  __TEXT.__auth_stubs: 0x44f0
+   __TEXT.__objc_methlist: 0xee98
+-  __TEXT.__const: 0x33fc
+-  __TEXT.__cstring: 0x19a19
++  __TEXT.__const: 0x3494
++  __TEXT.__cstring: 0x1856b
+   __TEXT.__constg_swiftt: 0xc1c
+   __TEXT.__swift5_typeref: 0xdd3
+   __TEXT.__swift5_reflstr: 0x465
+
+   __TEXT.__swift5_proto: 0x60
+   __TEXT.__swift5_types: 0x90
+   __TEXT.__swift5_capture: 0xd58
+-  __TEXT.__oslogstring: 0x2339e
++  __TEXT.__oslogstring: 0x233d6
+   __TEXT.__swift_as_entry: 0xe4
+   __TEXT.__swift_as_ret: 0x104
+   __TEXT.__swift5_protos: 0x14
+-  __TEXT.__gcc_except_tab: 0x5a14
+-  __TEXT.__unwind_info: 0x5430
+-  __TEXT.__eh_frame: 0x2818
+-  __TEXT.__objc_classname: 0x24bf
+-  __TEXT.__objc_methname: 0x1abd2
+-  __TEXT.__objc_methtype: 0x3aa0
+-  __TEXT.__objc_stubs: 0x101a0
+-  __DATA_CONST.__got: 0x1730
+-  __DATA_CONST.__const: 0x5970
++  __TEXT.__gcc_except_tab: 0x5a3c
++  __TEXT.__unwind_info: 0x54f0
++  __TEXT.__eh_frame: 0x2928
++  __TEXT.__objc_classname: 0x2f6f
++  __TEXT.__objc_methname: 0x1b047
++  __TEXT.__objc_methtype: 0x4031
++  __TEXT.__objc_stubs: 0x10600
++  __DATA_CONST.__got: 0x1728
++  __DATA_CONST.__const: 0x5a78
+   __DATA_CONST.__objc_classlist: 0xb28
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x268
+
+   __DATA_CONST.__objc_protorefs: 0x158
+   __DATA_CONST.__objc_superrefs: 0x708
+   __DATA_CONST.__objc_arraydata: 0x138
+-  __AUTH_CONST.__auth_got: 0x22a8
+-  __AUTH_CONST.__const: 0x3ea8
+-  __AUTH_CONST.__cfstring: 0x17f20
+-  __AUTH_CONST.__objc_const: 0x22918
++  __AUTH_CONST.__auth_got: 0x2288
++  __AUTH_CONST.__const: 0x3e58
++  __AUTH_CONST.__cfstring: 0x17fc0
++  __AUTH_CONST.__objc_const: 0x22938
+   __AUTH_CONST.__objc_intobj: 0x390
+   __AUTH_CONST.__objc_arrayobj: 0x168
+   __AUTH_CONST.__objc_dictobj: 0x28
+-  __AUTH.__objc_data: 0x1578
++  __AUTH.__objc_data: 0x1528
+   __AUTH.__data: 0xd90
+-  __DATA.__objc_ivar: 0x1b74
+-  __DATA.__data: 0x1f98
++  __DATA.__objc_ivar: 0x1b78
++  __DATA.__data: 0x1fa8
+   __DATA.__bss: 0x1488
+   __DATA.__common: 0x190
+-  __DATA_DIRTY.__objc_data: 0x5ff0
++  __DATA_DIRTY.__objc_data: 0x6040
+   __DATA_DIRTY.__bss: 0xf0
+   __DATA_DIRTY.__common: 0x30
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7750D7FE-D109-3B40-8D4A-EA56185E048B
+-  Functions: 7881
+-  Symbols:   22812
+-  CStrings:  15836
++  UUID: D0905FA4-CF33-349D-9C3B-6C10973E5A3C
++  Functions: 7898
++  Symbols:   22887
++  CStrings:  15828
+ 
+Symbols:
++ -[NEAgentExtension extensionCleanup]
++ -[NEPvDFetcher scheduleRetryAfterFailure:]
++ GCC_except_table1026
++ GCC_except_table1083
++ GCC_except_table1089
++ GCC_except_table1259
++ GCC_except_table1263
++ GCC_except_table1277
++ GCC_except_table1282
++ GCC_except_table1296
++ GCC_except_table1307
++ GCC_except_table1433
++ GCC_except_table1558
++ GCC_except_table1564
++ GCC_except_table1567
++ GCC_except_table1612
++ GCC_except_table1631
++ GCC_except_table1635
++ GCC_except_table1638
++ GCC_except_table1644
++ GCC_except_table1652
++ GCC_except_table1676
++ GCC_except_table1702
++ GCC_except_table1914
++ GCC_except_table2820
++ GCC_except_table2830
++ GCC_except_table3064
++ GCC_except_table3069
++ GCC_except_table3075
++ GCC_except_table3078
++ GCC_except_table3093
++ GCC_except_table3110
++ GCC_except_table3124
++ GCC_except_table3167
++ GCC_except_table3171
++ GCC_except_table3217
++ GCC_except_table3268
++ GCC_except_table3329
++ GCC_except_table3348
++ GCC_except_table3357
++ GCC_except_table3359
++ GCC_except_table3378
++ GCC_except_table3391
++ GCC_except_table3398
++ GCC_except_table3437
++ GCC_except_table3443
++ GCC_except_table3445
++ GCC_except_table3480
++ GCC_except_table3482
++ GCC_except_table3572
++ GCC_except_table3599
++ GCC_except_table3838
++ GCC_except_table3845
++ GCC_except_table3850
++ GCC_except_table3941
++ GCC_except_table395
++ GCC_except_table397
++ GCC_except_table4107
++ GCC_except_table4118
++ GCC_except_table4124
++ GCC_except_table4147
++ GCC_except_table4151
++ GCC_except_table4157
++ GCC_except_table4163
++ GCC_except_table4171
++ GCC_except_table4244
++ GCC_except_table4252
++ GCC_except_table4350
++ GCC_except_table4352
++ GCC_except_table4434
++ GCC_except_table4610
++ GCC_except_table4612
++ GCC_except_table464
++ GCC_except_table4648
++ GCC_except_table4658
++ GCC_except_table4662
++ GCC_except_table4674
++ GCC_except_table4696
++ GCC_except_table4704
++ GCC_except_table4796
++ GCC_except_table4865
++ GCC_except_table4886
++ GCC_except_table4899
++ GCC_except_table4996
++ GCC_except_table5001
++ GCC_except_table5042
++ GCC_except_table5090
++ GCC_except_table5154
++ GCC_except_table5157
++ GCC_except_table5193
++ GCC_except_table5217
++ GCC_except_table5225
++ GCC_except_table5264
++ GCC_except_table5269
++ GCC_except_table5272
++ GCC_except_table5316
++ GCC_except_table5338
++ GCC_except_table5341
++ GCC_except_table541
++ GCC_except_table5417
++ GCC_except_table553
++ GCC_except_table558
++ GCC_except_table566
++ GCC_except_table573
++ GCC_except_table5746
++ GCC_except_table5782
++ GCC_except_table5783
++ GCC_except_table5786
++ GCC_except_table5840
++ GCC_except_table5846
++ GCC_except_table5847
++ GCC_except_table5855
++ GCC_except_table5858
++ GCC_except_table5868
++ GCC_except_table5889
++ GCC_except_table5890
++ GCC_except_table5894
++ GCC_except_table5895
++ GCC_except_table5902
++ GCC_except_table5911
++ GCC_except_table5914
++ GCC_except_table5918
++ GCC_except_table5995
++ GCC_except_table5996
++ GCC_except_table6144
++ GCC_except_table6145
++ GCC_except_table6154
++ GCC_except_table6160
++ GCC_except_table6161
++ GCC_except_table6166
++ GCC_except_table6192
++ GCC_except_table6271
++ GCC_except_table6272
++ GCC_except_table665
++ GCC_except_table732
++ GCC_except_table737
++ GCC_except_table786
++ GCC_except_table791
++ GCC_except_table809
++ GCC_except_table815
++ GCC_except_table846
++ GCC_except_table884
++ GCC_except_table891
++ GCC_except_table937
++ _OBJC_IVAR_$_NEPvDFetcher._failureRetryCount
++ ___37-[NEAgentExtension extensionDidStop:]_block_invoke
++ ___Block_byref_object_copy_.12496
++ ___Block_byref_object_copy_.14946
++ ___Block_byref_object_copy_.20472
++ ___Block_byref_object_copy_.21748
++ ___Block_byref_object_copy_.22796
++ ___Block_byref_object_copy_.23937
++ ___Block_byref_object_copy_.24640
++ ___Block_byref_object_copy_.27260
++ ___Block_byref_object_copy_.28435
++ ___Block_byref_object_copy_.6848
++ ___Block_byref_object_copy_.9420
++ ___Block_byref_object_dispose_.12497
++ ___Block_byref_object_dispose_.14947
++ ___Block_byref_object_dispose_.20473
++ ___Block_byref_object_dispose_.21749
++ ___Block_byref_object_dispose_.22797
++ ___Block_byref_object_dispose_.23938
++ ___Block_byref_object_dispose_.24641
++ ___Block_byref_object_dispose_.27261
++ ___Block_byref_object_dispose_.28436
++ ___Block_byref_object_dispose_.6849
++ ___Block_byref_object_dispose_.9421
++ ___block_descriptor_tmp.19513
++ ___block_descriptor_tmp.23490
++ ___block_descriptor_tmp.25523
++ ___block_descriptor_tmp.26138
++ ___block_descriptor_tmp.66
++ ___block_descriptor_tmp.76
++ ___block_descriptor_tmp.77
++ ___block_descriptor_tmp.81
++ ___block_descriptor_tmp.82
++ ___block_descriptor_tmp.83
++ ___block_literal_global.10.15540
++ ___block_literal_global.10.9084
++ ___block_literal_global.10029
++ ___block_literal_global.12780
++ ___block_literal_global.13152
++ ___block_literal_global.14.22259
++ ___block_literal_global.14112
++ ___block_literal_global.14277
++ ___block_literal_global.14948
++ ___block_literal_global.15.25753
++ ___block_literal_global.15542
++ ___block_literal_global.16105
++ ___block_literal_global.16348
++ ___block_literal_global.16836
++ ___block_literal_global.17.14125
++ ___block_literal_global.17.17805
++ ___block_literal_global.17680
++ ___block_literal_global.17814
++ ___block_literal_global.18122
++ ___block_literal_global.19422
++ ___block_literal_global.20.17811
++ ___block_literal_global.20279
++ ___block_literal_global.20787
++ ___block_literal_global.21845
++ ___block_literal_global.22264
++ ___block_literal_global.22661
++ ___block_literal_global.23404
++ ___block_literal_global.23488
++ ___block_literal_global.24040
++ ___block_literal_global.24152
++ ___block_literal_global.24186
++ ___block_literal_global.24380
++ ___block_literal_global.24562
++ ___block_literal_global.25470
++ ___block_literal_global.25521
++ ___block_literal_global.25757
++ ___block_literal_global.25861
++ ___block_literal_global.26244
++ ___block_literal_global.26799
++ ___block_literal_global.26988
++ ___block_literal_global.27226
++ ___block_literal_global.27772
++ ___block_literal_global.28.27264
++ ___block_literal_global.28454
++ ___block_literal_global.4.14115
++ ___block_literal_global.4181
++ ___block_literal_global.4267
++ ___block_literal_global.4641
++ ___block_literal_global.4942
++ ___block_literal_global.5581
++ ___block_literal_global.63.20274
++ ___block_literal_global.63.4937
++ ___block_literal_global.68
++ ___block_literal_global.6877
++ ___block_literal_global.7.25461
++ ___block_literal_global.7105
++ ___block_literal_global.7292
++ ___block_literal_global.73.25856
++ ___block_literal_global.75.4176
++ ___block_literal_global.75.4262
++ ___block_literal_global.7711
++ ___block_literal_global.7835
++ ___block_literal_global.9082
++ __extensionAuxiliaryHostProtocol.protocol.20275
++ __extensionAuxiliaryHostProtocol.protocol.24187
++ __extensionAuxiliaryHostProtocol.protocol.25857
++ __extensionAuxiliaryHostProtocol.protocol.4177
++ __extensionAuxiliaryHostProtocol.protocol.4263
++ __extensionAuxiliaryHostProtocol.protocol.4638
++ __extensionAuxiliaryHostProtocol.protocol.4938
++ __extensionAuxiliaryHostProtocol.protocolInit.20273
++ __extensionAuxiliaryHostProtocol.protocolInit.24185
++ __extensionAuxiliaryHostProtocol.protocolInit.25855
++ __extensionAuxiliaryHostProtocol.protocolInit.4175
++ __extensionAuxiliaryHostProtocol.protocolInit.4261
++ __extensionAuxiliaryHostProtocol.protocolInit.4637
++ __extensionAuxiliaryHostProtocol.protocolInit.4936
++ __extensionAuxiliaryVendorProtocol.protocol.20280
++ __extensionAuxiliaryVendorProtocol.protocol.25862
++ __extensionAuxiliaryVendorProtocol.protocol.4182
++ __extensionAuxiliaryVendorProtocol.protocol.4268
++ __extensionAuxiliaryVendorProtocol.protocol.4642
++ __extensionAuxiliaryVendorProtocol.protocol.4943
++ __extensionAuxiliaryVendorProtocol.protocolInit.20278
++ __extensionAuxiliaryVendorProtocol.protocolInit.25860
++ __extensionAuxiliaryVendorProtocol.protocolInit.4180
++ __extensionAuxiliaryVendorProtocol.protocolInit.4266
++ __extensionAuxiliaryVendorProtocol.protocolInit.4640
++ __extensionAuxiliaryVendorProtocol.protocolInit.4941
++ __oidMldsa44EcdsaP256Sha256
++ __oidMldsa44Ed25519Sha512
++ __oidMldsa44Rsa2048Pkcs15Sha256
++ __oidMldsa44Rsa2048PssSha256
++ __oidMldsa65EcdsaBrainpoolP256r1Sha512
++ __oidMldsa65EcdsaP256Sha512
++ __oidMldsa65EcdsaP384Sha512
++ __oidMldsa65Ed25519Sha512
++ __oidMldsa65Rsa3072Pkcs15Sha512
++ __oidMldsa65Rsa3072PssSha512
++ __oidMldsa65Rsa4096Pkcs15Sha512
++ __oidMldsa65Rsa4096PssSha512
++ __oidMldsa87EcdsaBrainpoolP384r1Sha512
++ __oidMldsa87EcdsaP384Sha512
++ __oidMldsa87EcdsaP521Sha512
++ __oidMldsa87Ed448Shake256
++ __oidMldsa87Rsa3072PssSha512
++ __oidMldsa87Rsa4096PssSha512
++ _arc4random_uniform
++ _block_copy_helper.193
++ _block_copy_helper.204
++ _block_copy_helper.217
++ _block_copy_helper.229
++ _block_copy_helper.238
++ _block_copy_helper.241
++ _block_copy_helper.253
++ _block_copy_helper.260
++ _block_copy_helper.266
++ _block_copy_helper.272
++ _block_copy_helper.278
++ _block_copy_helper.282
++ _block_copy_helper.285
++ _block_copy_helper.288
++ _block_copy_helper.294
++ _block_copy_helper.297
++ _block_copy_helper.301
++ _block_descriptor.195
++ _block_descriptor.206
++ _block_descriptor.219
++ _block_descriptor.231
++ _block_descriptor.240
++ _block_descriptor.243
++ _block_descriptor.255
++ _block_descriptor.262
++ _block_descriptor.268
++ _block_descriptor.274
++ _block_descriptor.280
++ _block_descriptor.284
++ _block_descriptor.287
++ _block_descriptor.290
++ _block_descriptor.296
++ _block_descriptor.299
++ _block_descriptor.303
++ _block_destroy_helper.194
++ _block_destroy_helper.205
++ _block_destroy_helper.218
++ _block_destroy_helper.230
++ _block_destroy_helper.239
++ _block_destroy_helper.242
++ _block_destroy_helper.254
++ _block_destroy_helper.261
++ _block_destroy_helper.267
++ _block_destroy_helper.273
++ _block_destroy_helper.279
++ _block_destroy_helper.283
++ _block_destroy_helper.286
++ _block_destroy_helper.289
++ _block_destroy_helper.295
++ _block_destroy_helper.298
++ _block_destroy_helper.302
++ _convert_error_to_string.24635
++ _driverInterface.driverInterface.10026
++ _driverInterface.driverInterface.16837
++ _driverInterface.driverInterface.20784
++ _driverInterface.driverInterface.22260
++ _driverInterface.driverInterface.7285
++ _driverInterface.onceToken.10025
++ _driverInterface.onceToken.16835
++ _driverInterface.onceToken.20783
++ _driverInterface.onceToken.22258
++ _driverInterface.onceToken.7284
++ _g_noAppFilter.28409
++ _globalConfigurationManager.gChangeQueue.17809
++ _globalConfigurationManager.gChangeQueue.5579
++ _globalConfigurationManager.gConfigurationManager.17806
++ _globalConfigurationManager.gConfigurationManager.5577
++ _globalConfigurationManager.onceToken.17804
++ _globalConfigurationManager.onceToken.5576
++ _initGlobals.onceToken.16347
++ _keypath_get.194Tm
++ _keypath_get.198Tm
++ _loadedManagers.loadedManagers.27224
++ _loadedManagers.loadedManagers.28412
++ _loadedManagers.managers_init.27223
++ _loadedManagers.managers_init.28411
++ _managerInterface.managerInterface.10030
++ _managerInterface.managerInterface.20788
++ _managerInterface.managerInterface.22265
++ _managerInterface.onceToken.10028
++ _managerInterface.onceToken.20786
++ _managerInterface.onceToken.22263
++ _nw_channel_create_with_attributes
++ _objc_msgSend$_setQueue:
++ _objc_msgSend$createConnectionForURLFilter
++ _objc_msgSend$deliverInternal
++ _objc_msgSend$exportedObject
++ _objc_msgSend$extensionBundleIdentifier
++ _objc_msgSend$extensionDelegate
++ _objc_msgSend$extensionExportedObject
++ _objc_msgSend$extensionHostXPCProtocol
++ _objc_msgSend$extensionPointName
++ _objc_msgSend$extensionQueue
++ _objc_msgSend$extensionXPCProtocol
++ _objc_msgSend$fetchExtendedStatusWithCompletionHandler:
++ _objc_msgSend$fetchPrefilterDataWithTag:reply:
++ _objc_msgSend$fetchServerParameters
++ _objc_msgSend$handleXPCError
++ _objc_msgSend$initWithMethod:keyExchangeData:
++ _objc_msgSend$readDatagramsAndFlowEndpointsWithCompletionHandler:
++ _objc_msgSend$registerWithOptions:queue:handler:
++ _objc_msgSend$removeObserver:
++ _objc_msgSend$resetCache
++ _objc_msgSend$setExtensionBundleIdentifier:
++ _objc_msgSend$setExtensionDelegate:
++ _objc_msgSend$setExtensionExportedObject:
++ _objc_msgSend$setExtensionHostXPCProtocol:
++ _objc_msgSend$setExtensionPointName:
++ _objc_msgSend$setExtensionQueue:
++ _objc_msgSend$setExtensionXPCProtocol:
++ _objc_msgSend$setMetadata:
++ _objc_msgSend$setNetworkInterface:
++ _objc_msgSend$setPacketHandler:
++ _objc_msgSend$setupWithReply:
++ _objc_msgSend$startWithReply:
++ _objc_msgSend$stopWithStopReason:reply:
++ _objc_msgSend$verdictForURL:completionHandler:
++ _objc_msgSend$writeDatagrams:sentByFlowEndpoints:completionHandler:
++ _objc_release_x2
++ _objectdestroy.233Tm
++ _objectdestroy.264Tm
++ _oidMldsa44EcdsaP256Sha256
++ _oidMldsa44Ed25519Sha512
++ _oidMldsa44Rsa2048Pkcs15Sha256
++ _oidMldsa44Rsa2048PssSha256
++ _oidMldsa65EcdsaBrainpoolP256r1Sha512
++ _oidMldsa65EcdsaP256Sha512
++ _oidMldsa65EcdsaP384Sha512
++ _oidMldsa65Ed25519Sha512
++ _oidMldsa65Rsa3072Pkcs15Sha512
++ _oidMldsa65Rsa3072PssSha512
++ _oidMldsa65Rsa4096Pkcs15Sha512
++ _oidMldsa65Rsa4096PssSha512
++ _oidMldsa87EcdsaBrainpoolP384r1Sha512
++ _oidMldsa87EcdsaP384Sha512
++ _oidMldsa87EcdsaP521Sha512
++ _oidMldsa87Ed448Shake256
++ _oidMldsa87Rsa3072PssSha512
++ _oidMldsa87Rsa4096PssSha512
++ _sharedManager.g_manager.7106
++ _sharedManager.g_manager.7712
++ _sharedManager.init_manager.7104
++ _sharedManager.init_manager.7710
++ _sharedManager.onceToken.17813
++ _sharedManager.onceToken.28453
++ _sharedManager.onceToken.5580
+- -[NEConfigurationManager setAppGroupMap:]
+- GCC_except_table1027
+- GCC_except_table1085
+- GCC_except_table1092
+- GCC_except_table1261
+- GCC_except_table1272
+- GCC_except_table1278
+- GCC_except_table1284
+- GCC_except_table1297
+- GCC_except_table1309
+- GCC_except_table1434
+- GCC_except_table1560
+- GCC_except_table1565
+- GCC_except_table1568
+- GCC_except_table1627
+- GCC_except_table1632
+- GCC_except_table1636
+- GCC_except_table1639
+- GCC_except_table1646
+- GCC_except_table1653
+- GCC_except_table1677
+- GCC_except_table1703
+- GCC_except_table1915
+- GCC_except_table2821
+- GCC_except_table2831
+- GCC_except_table3065
+- GCC_except_table3070
+- GCC_except_table3076
+- GCC_except_table3079
+- GCC_except_table3096
+- GCC_except_table3111
+- GCC_except_table3126
+- GCC_except_table3168
+- GCC_except_table3172
+- GCC_except_table3218
+- GCC_except_table3269
+- GCC_except_table3330
+- GCC_except_table3349
+- GCC_except_table3358
+- GCC_except_table3360
+- GCC_except_table3381
+- GCC_except_table3392
+- GCC_except_table3399
+- GCC_except_table3438
+- GCC_except_table3444
+- GCC_except_table3446
+- GCC_except_table3481
+- GCC_except_table3484
+- GCC_except_table3573
+- GCC_except_table3600
+- GCC_except_table3839
+- GCC_except_table3849
+- GCC_except_table3851
+- GCC_except_table3940
+- GCC_except_table396
+- GCC_except_table398
+- GCC_except_table4106
+- GCC_except_table4117
+- GCC_except_table4123
+- GCC_except_table4138
+- GCC_except_table4150
+- GCC_except_table4155
+- GCC_except_table4162
+- GCC_except_table4169
+- GCC_except_table4242
+- GCC_except_table4251
+- GCC_except_table4344
+- GCC_except_table4351
+- GCC_except_table4433
+- GCC_except_table4609
+- GCC_except_table4611
+- GCC_except_table4646
+- GCC_except_table465
+- GCC_except_table4656
+- GCC_except_table4660
+- GCC_except_table4672
+- GCC_except_table4692
+- GCC_except_table4700
+- GCC_except_table4794
+- GCC_except_table4863
+- GCC_except_table4884
+- GCC_except_table4897
+- GCC_except_table4994
+- GCC_except_table4999
+- GCC_except_table5040
+- GCC_except_table5086
+- GCC_except_table5152
+- GCC_except_table5155
+- GCC_except_table5191
+- GCC_except_table5211
+- GCC_except_table5223
+- GCC_except_table5262
+- GCC_except_table5263
+- GCC_except_table5270
+- GCC_except_table5314
+- GCC_except_table5336
+- GCC_except_table5339
+- GCC_except_table5415
+- GCC_except_table548
+- GCC_except_table554
+- GCC_except_table560
+- GCC_except_table567
+- GCC_except_table5744
+- GCC_except_table575
+- GCC_except_table5780
+- GCC_except_table5781
+- GCC_except_table5784
+- GCC_except_table5838
+- GCC_except_table5844
+- GCC_except_table5845
+- GCC_except_table5853
+- GCC_except_table5856
+- GCC_except_table5866
+- GCC_except_table5881
+- GCC_except_table5882
+- GCC_except_table5891
+- GCC_except_table5892
+- GCC_except_table5900
+- GCC_except_table5909
+- GCC_except_table5912
+- GCC_except_table5916
+- GCC_except_table5993
+- GCC_except_table5994
+- GCC_except_table6123
+- GCC_except_table6124
+- GCC_except_table6152
+- GCC_except_table6157
+- GCC_except_table6158
+- GCC_except_table6164
+- GCC_except_table6190
+- GCC_except_table6267
+- GCC_except_table6268
+- GCC_except_table666
+- GCC_except_table733
+- GCC_except_table738
+- GCC_except_table787
+- GCC_except_table792
+- GCC_except_table810
+- GCC_except_table819
+- GCC_except_table847
+- GCC_except_table890
+- GCC_except_table895
+- GCC_except_table938
+- ___Block_byref_object_copy_.12498
+- ___Block_byref_object_copy_.14942
+- ___Block_byref_object_copy_.20461
+- ___Block_byref_object_copy_.21729
+- ___Block_byref_object_copy_.22777
+- ___Block_byref_object_copy_.23918
+- ___Block_byref_object_copy_.24623
+- ___Block_byref_object_copy_.27248
+- ___Block_byref_object_copy_.28423
+- ___Block_byref_object_copy_.6849
+- ___Block_byref_object_copy_.9421
+- ___Block_byref_object_dispose_.12499
+- ___Block_byref_object_dispose_.14943
+- ___Block_byref_object_dispose_.20462
+- ___Block_byref_object_dispose_.21730
+- ___Block_byref_object_dispose_.22778
+- ___Block_byref_object_dispose_.23919
+- ___Block_byref_object_dispose_.24624
+- ___Block_byref_object_dispose_.27249
+- ___Block_byref_object_dispose_.28424
+- ___Block_byref_object_dispose_.6850
+- ___Block_byref_object_dispose_.9422
+- ___block_descriptor_tmp.19506
+- ___block_descriptor_tmp.23471
+- ___block_descriptor_tmp.25514
+- ___block_descriptor_tmp.26126
+- ___block_descriptor_tmp.60
+- ___block_descriptor_tmp.73
+- ___block_descriptor_tmp.74
+- ___block_descriptor_tmp.78
+- ___block_descriptor_tmp.79
+- ___block_descriptor_tmp.80
+- ___block_literal_global.10.15536
+- ___block_literal_global.10.9085
+- ___block_literal_global.10030
+- ___block_literal_global.12782
+- ___block_literal_global.13154
+- ___block_literal_global.14.22240
+- ___block_literal_global.14114
+- ___block_literal_global.14279
+- ___block_literal_global.14944
+- ___block_literal_global.15.25744
+- ___block_literal_global.15538
+- ___block_literal_global.16101
+- ___block_literal_global.16344
+- ___block_literal_global.16832
+- ___block_literal_global.17.14127
+- ___block_literal_global.17.17798
+- ___block_literal_global.17673
+- ___block_literal_global.17807
+- ___block_literal_global.18115
+- ___block_literal_global.19415
+- ___block_literal_global.20.17804
+- ___block_literal_global.20272
+- ___block_literal_global.20768
+- ___block_literal_global.21826
+- ___block_literal_global.22245
+- ___block_literal_global.22642
+- ___block_literal_global.23385
+- ___block_literal_global.23469
+- ___block_literal_global.24021
+- ___block_literal_global.24134
+- ___block_literal_global.24168
+- ___block_literal_global.24362
+- ___block_literal_global.24544
+- ___block_literal_global.25461
+- ___block_literal_global.25512
+- ___block_literal_global.25748
+- ___block_literal_global.25852
+- ___block_literal_global.26232
+- ___block_literal_global.26787
+- ___block_literal_global.26976
+- ___block_literal_global.27214
+- ___block_literal_global.27760
+- ___block_literal_global.28.27252
+- ___block_literal_global.28442
+- ___block_literal_global.4.14117
+- ___block_literal_global.4182
+- ___block_literal_global.4268
+- ___block_literal_global.4642
+- ___block_literal_global.4943
+- ___block_literal_global.5582
+- ___block_literal_global.63.20267
+- ___block_literal_global.63.4938
+- ___block_literal_global.65
+- ___block_literal_global.6878
+- ___block_literal_global.7.25451
+- ___block_literal_global.7106
+- ___block_literal_global.7293
+- ___block_literal_global.73.25847
+- ___block_literal_global.75.4177
+- ___block_literal_global.75.4263
+- ___block_literal_global.7712
+- ___block_literal_global.7836
+- ___block_literal_global.9083
+- __extensionAuxiliaryHostProtocol.protocol.20268
+- __extensionAuxiliaryHostProtocol.protocol.24169
+- __extensionAuxiliaryHostProtocol.protocol.25848
+- __extensionAuxiliaryHostProtocol.protocol.4178
+- __extensionAuxiliaryHostProtocol.protocol.4264
+- __extensionAuxiliaryHostProtocol.protocol.4639
+- __extensionAuxiliaryHostProtocol.protocol.4939
+- __extensionAuxiliaryHostProtocol.protocolInit.20266
+- __extensionAuxiliaryHostProtocol.protocolInit.24167
+- __extensionAuxiliaryHostProtocol.protocolInit.25846
+- __extensionAuxiliaryHostProtocol.protocolInit.4176
+- __extensionAuxiliaryHostProtocol.protocolInit.4262
+- __extensionAuxiliaryHostProtocol.protocolInit.4638
+- __extensionAuxiliaryHostProtocol.protocolInit.4937
+- __extensionAuxiliaryVendorProtocol.protocol.20273
+- __extensionAuxiliaryVendorProtocol.protocol.25853
+- __extensionAuxiliaryVendorProtocol.protocol.4183
+- __extensionAuxiliaryVendorProtocol.protocol.4269
+- __extensionAuxiliaryVendorProtocol.protocol.4643
+- __extensionAuxiliaryVendorProtocol.protocol.4944
+- __extensionAuxiliaryVendorProtocol.protocolInit.20271
+- __extensionAuxiliaryVendorProtocol.protocolInit.25851
+- __extensionAuxiliaryVendorProtocol.protocolInit.4181
+- __extensionAuxiliaryVendorProtocol.protocolInit.4267
+- __extensionAuxiliaryVendorProtocol.protocolInit.4641
+- __extensionAuxiliaryVendorProtocol.protocolInit.4942
+- _block_copy_helper.192
+- _block_copy_helper.203
+- _block_copy_helper.215
+- _block_copy_helper.227
+- _block_copy_helper.237
+- _block_copy_helper.240
+- _block_copy_helper.252
+- _block_copy_helper.259
+- _block_copy_helper.264
+- _block_copy_helper.271
+- _block_copy_helper.277
+- _block_copy_helper.281
+- _block_copy_helper.284
+- _block_copy_helper.287
+- _block_copy_helper.293
+- _block_copy_helper.296
+- _block_copy_helper.300
+- _block_descriptor.194
+- _block_descriptor.205
+- _block_descriptor.217
+- _block_descriptor.229
+- _block_descriptor.239
+- _block_descriptor.242
+- _block_descriptor.254
+- _block_descriptor.261
+- _block_descriptor.266
+- _block_descriptor.273
+- _block_descriptor.279
+- _block_descriptor.283
+- _block_descriptor.286
+- _block_descriptor.289
+- _block_descriptor.295
+- _block_descriptor.298
+- _block_descriptor.302
+- _block_destroy_helper.193
+- _block_destroy_helper.204
+- _block_destroy_helper.216
+- _block_destroy_helper.228
+- _block_destroy_helper.238
+- _block_destroy_helper.241
+- _block_destroy_helper.253
+- _block_destroy_helper.260
+- _block_destroy_helper.265
+- _block_destroy_helper.272
+- _block_destroy_helper.278
+- _block_destroy_helper.282
+- _block_destroy_helper.285
+- _block_destroy_helper.288
+- _block_destroy_helper.294
+- _block_destroy_helper.297
+- _block_destroy_helper.301
+- _convert_error_to_string.24618
+- _driverInterface.driverInterface.10027
+- _driverInterface.driverInterface.16833
+- _driverInterface.driverInterface.20765
+- _driverInterface.driverInterface.22241
+- _driverInterface.driverInterface.7286
+- _driverInterface.onceToken.10026
+- _driverInterface.onceToken.16831
+- _driverInterface.onceToken.20764
+- _driverInterface.onceToken.22239
+- _driverInterface.onceToken.7285
+- _g_noAppFilter.28397
+- _globalConfigurationManager.gChangeQueue.17802
+- _globalConfigurationManager.gChangeQueue.5580
+- _globalConfigurationManager.gConfigurationManager.17799
+- _globalConfigurationManager.gConfigurationManager.5578
+- _globalConfigurationManager.onceToken.17797
+- _globalConfigurationManager.onceToken.5577
+- _initGlobals.onceToken.16343
+- _keypath_get.145Tm
+- _loadedManagers.loadedManagers.27212
+- _loadedManagers.loadedManagers.28400
+- _loadedManagers.managers_init.27211
+- _loadedManagers.managers_init.28399
+- _malloc
+- _managerInterface.managerInterface.10031
+- _managerInterface.managerInterface.20769
+- _managerInterface.managerInterface.22246
+- _managerInterface.onceToken.10029
+- _managerInterface.onceToken.20767
+- _managerInterface.onceToken.22244
+- _nw_channel_create_with_nexus
+- _objc_claimAutoreleasedReturnValue
+- _objc_release_x10
+- _objc_retain_x5
+- _objc_retain_x6
+- _objectdestroy.232Tm
+- _objectdestroy.263Tm
+- _sharedManager.g_manager.7107
+- _sharedManager.g_manager.7713
+- _sharedManager.init_manager.7105
+- _sharedManager.init_manager.7711
+- _sharedManager.onceToken.17806
+- _sharedManager.onceToken.28441
+- _sharedManager.onceToken.5581
+CStrings:
++ "EnableUserPacketPool"
++ "NEDNSSettingsNetworkAgent copyAgentData: failed to parse serverURL %@ for configuration %@"
++ "NEDNSSettingsNetworkAgent copyAgentData: serverURL %@ has no valid host for configuration %@"
++ "NEDNSSettingsNetworkAgent copyAgentData: serverURL is nil for configuration %@"
++ "PvD fetch failed, scheduling retry %lu in %lu seconds for %@"
++ "Server URL is malformed and cannot be parsed"
++ "Server URL must have a valid host"
++ "_failureRetryCount"
++ "accept"
++ "application/pvd+json"
+- "%@, failed to start RTT measurement"
+- "%@, failed to update RTT"
+- "%s called with null now"
+- "-[NEIKEv2RTT getCurrentTime:]"
+- "NEConfiguration setCertificatesAOVpn: tunnel cert %s for Cellular tunnel"
+- "NEConfiguration setCertificatesAOVpn: tunnel cert %s for WiFi tunnel"
+- "Provider name buffer is invalid (%p, %u)"
+- "invalid"
+- "missing"
+
+```

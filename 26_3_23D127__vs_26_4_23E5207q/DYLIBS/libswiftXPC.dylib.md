@@ -1,0 +1,580 @@
+## libswiftXPC.dylib
+
+> `/usr/lib/swift/libswiftXPC.dylib`
+
+```diff
+
+-105.0.14.0.0
+-  __TEXT.__text: 0x391f4
+-  __TEXT.__auth_stubs: 0x1490
++128.100.14.0.0
++  __TEXT.__text: 0x3e60c
++  __TEXT.__auth_stubs: 0x15d0
+   __TEXT.__objc_methlist: 0x104
+-  __TEXT.__const: 0x2690
+-  __TEXT.__cstring: 0x1062
+-  __TEXT.__swift5_typeref: 0x8e4
+-  __TEXT.__swift5_capture: 0xd40
+-  __TEXT.__swift5_reflstr: 0x4ac
+-  __TEXT.__swift5_assocty: 0x1c8
+-  __TEXT.__constg_swiftt: 0xb18
+-  __TEXT.__swift5_fieldmd: 0x830
++  __TEXT.__const: 0x2660
++  __TEXT.__constg_swiftt: 0xaf4
++  __TEXT.__swift5_typeref: 0x8d0
+   __TEXT.__swift5_builtin: 0x28
++  __TEXT.__swift5_reflstr: 0x4a3
++  __TEXT.__swift5_fieldmd: 0x7fc
++  __TEXT.__swift5_capture: 0xc20
+   __TEXT.__swift5_proto: 0x130
+-  __TEXT.__swift5_types: 0xc4
++  __TEXT.__swift5_types: 0xc0
++  __TEXT.__swift5_assocty: 0x1c8
++  __TEXT.__cstring: 0xe82
+   __TEXT.__swift5_protos: 0x18
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x13e8
+-  __TEXT.__eh_frame: 0x2ff8
+-  __TEXT.__objc_classname: 0x17
+-  __TEXT.__objc_methname: 0x13f
+-  __TEXT.__objc_methtype: 0xad
+-  __DATA_CONST.__got: 0x3a8
++  __TEXT.__unwind_info: 0x13c0
++  __TEXT.__eh_frame: 0x30f8
++  __TEXT.__objc_classname: 0x1da
++  __TEXT.__objc_methname: 0x1ab
++  __TEXT.__objc_methtype: 0x1b4
++  __DATA_CONST.__got: 0x300
+   __DATA_CONST.__const: 0x1f8
+   __DATA_CONST.__objc_classlist: 0x50
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0xa0
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __AUTH_CONST.__auth_got: 0xa48
+-  __AUTH_CONST.__const: 0x2fc8
++  __AUTH_CONST.__auth_got: 0xae8
++  __AUTH_CONST.__const: 0x2f18
+   __AUTH_CONST.__objc_const: 0x1448
+   __AUTH.__data: 0xe0
+-  __DATA.__data: 0x368
+-  __DATA.__bss: 0x1380
++  __DATA.__data: 0x2b0
+   __DATA.__common: 0x1
+-  __DATA_DIRTY.__data: 0xb78
++  __DATA.__bss: 0x1380
++  __DATA_DIRTY.__data: 0xc30
+   __DATA_DIRTY.__bss: 0xa80
+   __DATA_DIRTY.__common: 0x8
+   - /usr/lib/libSystem.B.dylib
+
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  UUID: BB831F87-1B85-3DCB-91F6-CDAFA54415CC
+-  Functions: 1743
+-  Symbols:   5005
++  UUID: 334F2FEC-D598-3928-8E2E-FF886BE7AF78
++  Functions: 1711
++  Symbols:   4916
+   CStrings:  137
+ 
+Symbols:
++ _$s3XPC10XPCSessionC22setCancellationHandleryyyAA12XPCRichErrorVcFySo13OS_xpc_object_pcfU_TA.102
++ _$s3XPC10XPCSessionC22setCancellationHandleryyyAA12XPCRichErrorVcFySo13OS_xpc_object_pcfU_TA.137
++ _$s3XPC10XPCSessionC22setCancellationHandleryyyAA12XPCRichErrorVcFySo13OS_xpc_object_pcfU_TA.148
++ _$s3XPC10XPCSessionC22setCancellationHandleryyyAA12XPCRichErrorVcFySo13OS_xpc_object_pcfU_TA.170
++ _$s3XPC10XPCSessionC22setCancellationHandleryyyAA12XPCRichErrorVcFySo13OS_xpc_object_pcfU_TA.181
++ _$s3XPC10XPCSessionC22setCancellationHandleryyyAA12XPCRichErrorVcFySo13OS_xpc_object_pcfU_TA.192
++ _$s3XPC10XPCSessionC22setCancellationHandleryyyAA12XPCRichErrorVcFySo13OS_xpc_object_pcfU_TA.20
++ _$s3XPC10XPCSessionC22setCancellationHandleryyyAA12XPCRichErrorVcFySo13OS_xpc_object_pcfU_TA.214
++ _$s3XPC10XPCSessionC22setCancellationHandleryyyAA12XPCRichErrorVcFySo13OS_xpc_object_pcfU_TA.225
++ _$s3XPC10XPCSessionC22setCancellationHandleryyyAA12XPCRichErrorVcFySo13OS_xpc_object_pcfU_TA.247
++ _$s3XPC10XPCSessionC22setCancellationHandleryyyAA12XPCRichErrorVcFySo13OS_xpc_object_pcfU_TA.258
++ _$s3XPC10XPCSessionC22setCancellationHandleryyyAA12XPCRichErrorVcFySo13OS_xpc_object_pcfU_TA.280
++ _$s3XPC10XPCSessionC22setCancellationHandleryyyAA12XPCRichErrorVcFySo13OS_xpc_object_pcfU_TA.31
++ _$s3XPC10XPCSessionC22setCancellationHandleryyyAA12XPCRichErrorVcFySo13OS_xpc_object_pcfU_TA.321
++ _$s3XPC10XPCSessionC22setCancellationHandleryyyAA12XPCRichErrorVcFySo13OS_xpc_object_pcfU_TA.332
++ _$s3XPC10XPCSessionC22setCancellationHandleryyyAA12XPCRichErrorVcFySo13OS_xpc_object_pcfU_TA.343
++ _$s3XPC10XPCSessionC22setCancellationHandleryyyAA12XPCRichErrorVcFySo13OS_xpc_object_pcfU_TA.53
++ _$s3XPC10XPCSessionC25setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFAgFcAA015ClientSpecifiedF0VyAfGGcfu_AgFcfu0_
++ _$s3XPC10XPCSessionC25setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFAgFcAA015ClientSpecifiedF0VyAfGGcfu_AgFcfu0_TA.155
++ _$s3XPC10XPCSessionC25setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFAgFcAA015ClientSpecifiedF0VyAfGGcfu_AgFcfu0_TA.18
++ _$s3XPC10XPCSessionC25setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFAgFcAA015ClientSpecifiedF0VyAfGGcfu_AgFcfu0_TA.199
++ _$s3XPC10XPCSessionC25setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFAgFcAA015ClientSpecifiedF0VyAfGGcfu_AgFcfu0_TA.232
++ _$s3XPC10XPCSessionC25setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFAgFcAA015ClientSpecifiedF0VyAfGGcfu_AgFcfu0_TA.265
++ _$s3XPC10XPCSessionC25setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFAgFcAA015ClientSpecifiedF0VyAfGGcfu_AgFcfu0_TA.38
++ _$s3XPC10XPCSessionC25setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFAgFcAA015ClientSpecifiedF0VyAfGGcfu_AgFcfu0_TA.60
++ _$s3XPC10XPCSessionC25setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFAgFcAA015ClientSpecifiedF0VyAfGGcfu_AgFcfu0_TA.7
++ _$s3XPC10XPCSessionC26_setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFySo13OS_xpc_object_pcfU_TA.11
++ _$s3XPC10XPCSessionC26_setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFySo13OS_xpc_object_pcfU_TA.159
++ _$s3XPC10XPCSessionC26_setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFySo13OS_xpc_object_pcfU_TA.203
++ _$s3XPC10XPCSessionC26_setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFySo13OS_xpc_object_pcfU_TA.22
++ _$s3XPC10XPCSessionC26_setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFySo13OS_xpc_object_pcfU_TA.236
++ _$s3XPC10XPCSessionC26_setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFySo13OS_xpc_object_pcfU_TA.269
++ _$s3XPC10XPCSessionC26_setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFySo13OS_xpc_object_pcfU_TA.42
++ _$s3XPC10XPCSessionC26_setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFySo13OS_xpc_object_pcfU_TA.64
++ _$s3XPC10XPCSessionC26_setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFySo13OS_xpc_object_pcfU_TA.77
++ _$s3XPC10XPCSessionC26_setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFySo13OS_xpc_object_pcfU_TA.91
++ _$s3XPC10XPCSessionC26_setIncomingMessageHandleryySE_pSgAA011XPCReceivedE0VcFAA13XPCDictionaryVSgAIcfU_TA.87
++ _$s3XPC10XPCSessionC5_send7message12replyHandleryAA13XPCDictionaryV_ys6ResultOyAhA12XPCRichErrorVGctFySo13OS_xpc_object_pSg_AOtcfU_TA.290
++ _$s3XPC10XPCSessionC5_send7message12replyHandleryAA13XPCDictionaryV_ys6ResultOyAhA12XPCRichErrorVGctFySo13OS_xpc_object_pSg_AOtcfU_TA.310
++ _$s3XPC11XPCEndpointV9_endpointSo13OS_xpc_object_pvg
++ _$s3XPC11XPCEndpointV9_endpointSo13OS_xpc_object_pvpMV
++ _$s3XPC11XPCEndpointVyACSo13OS_xpc_object_pcfC
++ _$s3XPC11XPCListenerC22IncomingSessionRequestCAE8DecisionVIeggr_AeGIegnr_TRTA.49
++ _$s3XPC11XPCListenerC22IncomingSessionRequestCAE8DecisionVIeggr_AeGIegnr_TRTA.59
++ _$s3XPC11XPCListenerC22IncomingSessionRequestCAE8DecisionVIeggr_AeGIegnr_TRTA.69
++ _$s3XPC11XPCListenerC7service11targetQueue7options22incomingSessionHandlerACSS_So17OS_dispatch_queueCSgAC21InitializationOptionsVAC08IncomingH7RequestC8DecisionVANctKcfcySo0J12_xpc_sessionCcfU_TA.73
++ _$s3XPC12XPCRichErrorVIegn_ACytIegnr_TRTA.133
++ _$s3XPC12XPCRichErrorVIegn_ACytIegnr_TRTA.144
++ _$s3XPC12XPCRichErrorVIegn_ACytIegnr_TRTA.16
++ _$s3XPC12XPCRichErrorVIegn_ACytIegnr_TRTA.166
++ _$s3XPC12XPCRichErrorVIegn_ACytIegnr_TRTA.177
++ _$s3XPC12XPCRichErrorVIegn_ACytIegnr_TRTA.188
++ _$s3XPC12XPCRichErrorVIegn_ACytIegnr_TRTA.210
++ _$s3XPC12XPCRichErrorVIegn_ACytIegnr_TRTA.221
++ _$s3XPC12XPCRichErrorVIegn_ACytIegnr_TRTA.243
++ _$s3XPC12XPCRichErrorVIegn_ACytIegnr_TRTA.254
++ _$s3XPC12XPCRichErrorVIegn_ACytIegnr_TRTA.27
++ _$s3XPC12XPCRichErrorVIegn_ACytIegnr_TRTA.276
++ _$s3XPC12XPCRichErrorVIegn_ACytIegnr_TRTA.317
++ _$s3XPC12XPCRichErrorVIegn_ACytIegnr_TRTA.328
++ _$s3XPC12XPCRichErrorVIegn_ACytIegnr_TRTA.339
++ _$s3XPC12XPCRichErrorVIegn_ACytIegnr_TRTA.49
++ _$s3XPC12XPCRichErrorVIegn_ACytIegnr_TRTA.98
++ _$s3XPC13XPCDictionaryV7forEachyyySS3key_So13OS_xpc_object_p5valuet_tKXEKFySS_SoAF_ptKXEfU_TA.12
++ _$s3XPC13XPCDictionaryV7forEachyyySS3key_So13OS_xpc_object_p5valuet_tKXEKFySS_SoAF_ptKXEfU_TA.53
++ _$s3XPC13XPCDictionaryV7forEachyyySS3key_So13OS_xpc_object_p5valuet_tKXEKFySS_SoAF_ptKXEfU_TA.58
++ _$s3XPC13XPCDictionaryV8contains3keySbSS_tF
++ _$s3XPC13XPCDictionaryV_2asSbSgSS_SbmtcigTf4ndn_n
++ _$s3XPC13XPCDictionaryV_2asSo13OS_xpc_object_pSgSS_SoAE_pXptcigTf4ndn_n
++ _$s3XPC13XPCDictionaryVySSSgSScisySPys4Int8VGXEfU_yAGXEfU_TA.1
++ _$s3XPC13XPCDictionaryVySSSgSScisySPys4Int8VGXEfU_yAGXEfU_TA.73
++ _$s3XPC13XPCDictionaryVySo13OS_xpc_object_pSgSSciM.resume.0Tm
++ _$s3XPC13XPCDictionaryVySo13OS_xpc_object_pSgSScipACTkTm
++ _$s3XPC13XPCDictionaryVyxSgSScSBRzluisTf4gnn_n
++ _$s3XPC13XPCDictionaryVyxSgSScSZRzluisTf4gnn_nTm
++ _$s3XPC15XPCBufferWriterV5write33_B60F660E558EB6466291C850CECEFCD0LLyyxs17FixedWidthIntegerRzSURzlFSu_Tg5
++ _$s3XPC15XPCBufferWriterVWOc
++ _$s3XPC16XPCCodableObjectVACSEAAWL
++ _$s3XPC16XPCCodableObjectVACSEAAWl
++ _$s3XPC16XPCCodableObjectVACSeAAWL
++ _$s3XPC16XPCCodableObjectVACSeAAWl
++ _$s3XPC23SerializedEncodingGraphV2ofAcA0cD0O9Container_p_tcfc10SecondPassL_VN
++ _$s3XPC23SerializedEncodingGraphV2ofAcA0cD0O9Container_p_tcfc10SecondPassL_VWOc
++ _$s3XPC25TopLevelGraphEncodingNodeCMo
++ _$s3XPC25TopLevelGraphEncodingNodeCMu
++ _$s3XPC25TopLevelGraphEncodingNodeCfd
++ _$s3XPC25_UnkeyedDecodingContainerV9nextValue33_1016890FE93F2D24F6CF826DE25716D5LLAA13EncodingGraphO0F0Ovg
++ _$s3XPC25encodeToEncodingContainer_8userInfoAA013TopLevelGraphD4NodeCx_SDys010CodingUserG3KeyVypGtKSERzlF
++ _$s3XPC27decodeFromEncodingContainer_4from8userInfoxxm_AA013TopLevelGraphD4NodeCSDys010CodingUserH3KeyVypGtKSeRzlF
++ _$s3XPC29_SingleValueEncodingContainerV6encodeyySSKFTf4nx_n
++ _$s3XPC29_SingleValueEncodingContainerV6encodeyySbKFTf4nx_n
++ _$s3XPC29_SingleValueEncodingContainerV6encodeyySdKFTf4nx_n
++ _$s3XPC29_SingleValueEncodingContainerV6encodeyySfKFTf4nx_n
++ _$s3XPC29_SingleValueEncodingContainerV6encodeyySiKFTf4nx_nTm
++ _$s3XPC29_SingleValueEncodingContainerV6encodeyys4Int8VKFTf4nx_nTm
++ _$s3XPC29_SingleValueEncodingContainerV6encodeyys5Int16VKFTf4nx_nTm
++ _$s3XPC29_SingleValueEncodingContainerV6encodeyys5Int32VKFTf4nx_nTm
++ _$s3XPC29_SingleValueEncodingContainerV9encodeNilyyKFTf4x_n
++ _$s3XPC8XPCArrayV_2asAA13XPCDictionaryVSgSi_AFmtcigTm
++ _$sSPys4Int8VGSo13OS_xpc_object_pSbIgygd_ACSoAD_pSbIegygd_TRTA.69
++ _$sSSSo13OS_xpc_object_ps5Error_pIgggzo_SSSoAA_psAB_pIegggzo_TRTA.11
++ _$sSSSo13OS_xpc_object_ps5Error_pIgggzo_SSSoAA_psAB_pIegggzo_TRTA.16
++ _$sSSSo13OS_xpc_object_ps5Error_pIgggzo_SSSoAA_psAB_pIegggzo_TRTA.57
++ _$sSSSo13OS_xpc_object_ps5Error_pIgggzo_SSSoAA_psAB_pIegggzo_TRTA.62
++ _$ss10SetAlgebraPs7ElementQz012ArrayLiteralC0RtzrlE05arrayE0xAFd_tcfC3XPC11XPCListenerC21InitializationOptionsV_Tg5
++ _$ss10SetAlgebraPs7ElementQz012ArrayLiteralC0RtzrlE05arrayE0xAFd_tcfC3XPC11XPCListenerC21InitializationOptionsV_Tg5Tm
++ _$ss28SingleValueDecodingContainerP6decodeyqd__qd__mKSeRd__lFTj
++ _$ss28SingleValueEncodingContainerP6encodeyyqd__KSERd__lFTj
++ ___swift_destroy_boxed_opaque_existential_1Tm
++ __swift_xpc_session_activate_autoreleasing
++ __swift_xpc_session_create_mach_service_autoreleasing
++ __swift_xpc_session_create_xpc_service_autoreleasing
++ __swift_xpc_session_send_message_with_reply_sync_autoreleasing
++ _block_copy_helper.10
++ _block_copy_helper.103
++ _block_copy_helper.115
++ _block_copy_helper.131
++ _block_copy_helper.138
++ _block_copy_helper.149
++ _block_copy_helper.160
++ _block_copy_helper.171
++ _block_copy_helper.182
++ _block_copy_helper.193
++ _block_copy_helper.204
++ _block_copy_helper.21
++ _block_copy_helper.215
++ _block_copy_helper.226
++ _block_copy_helper.23
++ _block_copy_helper.237
++ _block_copy_helper.248
++ _block_copy_helper.259
++ _block_copy_helper.270
++ _block_copy_helper.281
++ _block_copy_helper.291
++ _block_copy_helper.311
++ _block_copy_helper.322
++ _block_copy_helper.333
++ _block_copy_helper.344
++ _block_copy_helper.53
++ _block_copy_helper.54
++ _block_copy_helper.63
++ _block_copy_helper.65
++ _block_copy_helper.70
++ _block_copy_helper.74
++ _block_copy_helper.78
++ _block_copy_helper.92
++ _block_descriptor.105
++ _block_descriptor.117
++ _block_descriptor.12
++ _block_descriptor.133
++ _block_descriptor.140
++ _block_descriptor.151
++ _block_descriptor.162
++ _block_descriptor.173
++ _block_descriptor.184
++ _block_descriptor.195
++ _block_descriptor.206
++ _block_descriptor.217
++ _block_descriptor.228
++ _block_descriptor.23
++ _block_descriptor.239
++ _block_descriptor.25
++ _block_descriptor.250
++ _block_descriptor.261
++ _block_descriptor.272
++ _block_descriptor.283
++ _block_descriptor.293
++ _block_descriptor.313
++ _block_descriptor.324
++ _block_descriptor.335
++ _block_descriptor.346
++ _block_descriptor.55
++ _block_descriptor.56
++ _block_descriptor.65
++ _block_descriptor.67
++ _block_descriptor.72
++ _block_descriptor.76
++ _block_descriptor.80
++ _block_descriptor.94
++ _block_destroy_helper.104
++ _block_destroy_helper.11
++ _block_destroy_helper.116
++ _block_destroy_helper.132
++ _block_destroy_helper.139
++ _block_destroy_helper.150
++ _block_destroy_helper.161
++ _block_destroy_helper.172
++ _block_destroy_helper.183
++ _block_destroy_helper.194
++ _block_destroy_helper.205
++ _block_destroy_helper.216
++ _block_destroy_helper.22
++ _block_destroy_helper.227
++ _block_destroy_helper.238
++ _block_destroy_helper.24
++ _block_destroy_helper.249
++ _block_destroy_helper.260
++ _block_destroy_helper.271
++ _block_destroy_helper.282
++ _block_destroy_helper.292
++ _block_destroy_helper.312
++ _block_destroy_helper.323
++ _block_destroy_helper.334
++ _block_destroy_helper.345
++ _block_destroy_helper.54
++ _block_destroy_helper.55
++ _block_destroy_helper.64
++ _block_destroy_helper.66
++ _block_destroy_helper.71
++ _block_destroy_helper.75
++ _block_destroy_helper.79
++ _block_destroy_helper.93
++ _keypath_get.29Tm
++ _keypath_get.37Tm
++ _keypath_setTm
++ _objc_release_x24
++ _objectdestroy.108Tm
++ _objectdestroy.114Tm
++ _objectdestroy.5Tm
++ _type_layout_string So26xpc_session_create_flags_ta
+- _$s3XPC0A10_BOOL_TRUESo13OS_xpc_object_pvgTm
+- _$s3XPC10XPCSessionC10xpcService11targetQueue7options11requirement22incomingMessageHandler012cancellationK0ACSS_So17OS_dispatch_queueCSgAC21InitializationOptionsVAA18XPCPeerRequirementVSE_pSgAA011XPCReceivedJ0VcSgyAA12XPCRichErrorVcSgtKcfCTm
+- _$s3XPC10XPCSessionC10xpcService11targetQueue7options22incomingMessageHandler012cancellationJ0ACSS_So17OS_dispatch_queueCSgAC21InitializationOptionsVSE_pSgAA011XPCReceivedI0VcSgyAA12XPCRichErrorVcSgtKcfCTf4nnnnnd_n
+- _$s3XPC10XPCSessionC11machService11targetQueue7options22incomingMessageHandler012cancellationJ0ACSS_So17OS_dispatch_queueCSgAC21InitializationOptionsVSE_pSgAA011XPCReceivedI0VcSgyAA12XPCRichErrorVcSgtKcfCTf4nnnnnd_n
+- _$s3XPC10XPCSessionC22setCancellationHandleryyyAA12XPCRichErrorVcFySo13OS_xpc_object_pcfU_TA.121
+- _$s3XPC10XPCSessionC22setCancellationHandleryyyAA12XPCRichErrorVcFySo13OS_xpc_object_pcfU_TA.132
+- _$s3XPC10XPCSessionC22setCancellationHandleryyyAA12XPCRichErrorVcFySo13OS_xpc_object_pcfU_TA.154
+- _$s3XPC10XPCSessionC22setCancellationHandleryyyAA12XPCRichErrorVcFySo13OS_xpc_object_pcfU_TA.180
+- _$s3XPC10XPCSessionC22setCancellationHandleryyyAA12XPCRichErrorVcFySo13OS_xpc_object_pcfU_TA.191
+- _$s3XPC10XPCSessionC22setCancellationHandleryyyAA12XPCRichErrorVcFySo13OS_xpc_object_pcfU_TA.213
+- _$s3XPC10XPCSessionC22setCancellationHandleryyyAA12XPCRichErrorVcFySo13OS_xpc_object_pcfU_TA.239
+- _$s3XPC10XPCSessionC22setCancellationHandleryyyAA12XPCRichErrorVcFySo13OS_xpc_object_pcfU_TA.26
+- _$s3XPC10XPCSessionC22setCancellationHandleryyyAA12XPCRichErrorVcFySo13OS_xpc_object_pcfU_TA.261
+- _$s3XPC10XPCSessionC22setCancellationHandleryyyAA12XPCRichErrorVcFySo13OS_xpc_object_pcfU_TA.315
+- _$s3XPC10XPCSessionC22setCancellationHandleryyyAA12XPCRichErrorVcFySo13OS_xpc_object_pcfU_TA.341
+- _$s3XPC10XPCSessionC22setCancellationHandleryyyAA12XPCRichErrorVcFySo13OS_xpc_object_pcfU_TA.352
+- _$s3XPC10XPCSessionC22setCancellationHandleryyyAA12XPCRichErrorVcFySo13OS_xpc_object_pcfU_TA.378
+- _$s3XPC10XPCSessionC22setCancellationHandleryyyAA12XPCRichErrorVcFySo13OS_xpc_object_pcfU_TA.389
+- _$s3XPC10XPCSessionC22setCancellationHandleryyyAA12XPCRichErrorVcFySo13OS_xpc_object_pcfU_TA.86
+- _$s3XPC10XPCSessionC25setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFAgFcAA015ClientSpecifiedF0VyAfGGcfu_AgFcfu0_TA.139
+- _$s3XPC10XPCSessionC25setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFAgFcAA015ClientSpecifiedF0VyAfGGcfu_AgFcfu0_TA.198
+- _$s3XPC10XPCSessionC25setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFAgFcAA015ClientSpecifiedF0VyAfGGcfu_AgFcfu0_TA.246
+- _$s3XPC10XPCSessionC25setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFAgFcAA015ClientSpecifiedF0VyAfGGcfu_AgFcfu0_TA.268
+- _$s3XPC10XPCSessionC25setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFAgFcAA015ClientSpecifiedF0VyAfGGcfu_AgFcfu0_TA.33
+- _$s3XPC10XPCSessionC25setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFAgFcAA015ClientSpecifiedF0VyAfGGcfu_AgFcfu0_TA.44
+- _$s3XPC10XPCSessionC25setIncomingMessageHandleryySE_pSgAA011XPCReceivedE0VcFAeGcAA015ClientSpecifiedF0VyAgEGcfu_AeGcfu0_TA.161
+- _$s3XPC10XPCSessionC25setIncomingMessageHandleryySE_pSgAA011XPCReceivedE0VcFAeGcAA015ClientSpecifiedF0VyAgEGcfu_AeGcfu0_TA.220
+- _$s3XPC10XPCSessionC25setIncomingMessageHandleryySE_pSgAA011XPCReceivedE0VcFAeGcAA015ClientSpecifiedF0VyAgEGcfu_AeGcfu0_TA.322
+- _$s3XPC10XPCSessionC25setIncomingMessageHandleryySE_pSgAA011XPCReceivedE0VcFAeGcAA015ClientSpecifiedF0VyAgEGcfu_AeGcfu0_TA.359
+- _$s3XPC10XPCSessionC26_setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFySo13OS_xpc_object_pcfU_TA.143
+- _$s3XPC10XPCSessionC26_setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFySo13OS_xpc_object_pcfU_TA.169
+- _$s3XPC10XPCSessionC26_setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFySo13OS_xpc_object_pcfU_TA.202
+- _$s3XPC10XPCSessionC26_setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFySo13OS_xpc_object_pcfU_TA.228
+- _$s3XPC10XPCSessionC26_setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFySo13OS_xpc_object_pcfU_TA.250
+- _$s3XPC10XPCSessionC26_setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFySo13OS_xpc_object_pcfU_TA.272
+- _$s3XPC10XPCSessionC26_setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFySo13OS_xpc_object_pcfU_TA.330
+- _$s3XPC10XPCSessionC26_setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFySo13OS_xpc_object_pcfU_TA.367
+- _$s3XPC10XPCSessionC26_setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFySo13OS_xpc_object_pcfU_TA.37
+- _$s3XPC10XPCSessionC26_setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFySo13OS_xpc_object_pcfU_TA.48
+- _$s3XPC10XPCSessionC26_setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFySo13OS_xpc_object_pcfU_TA.61
+- _$s3XPC10XPCSessionC26_setIncomingMessageHandleryyAA13XPCDictionaryVSgAFcFySo13OS_xpc_object_pcfU_TA.75
+- _$s3XPC10XPCSessionC26_setIncomingMessageHandleryySE_pSgAA011XPCReceivedE0VcFAA13XPCDictionaryVSgAIcfU_TA.165
+- _$s3XPC10XPCSessionC26_setIncomingMessageHandleryySE_pSgAA011XPCReceivedE0VcFAA13XPCDictionaryVSgAIcfU_TA.224
+- _$s3XPC10XPCSessionC26_setIncomingMessageHandleryySE_pSgAA011XPCReceivedE0VcFAA13XPCDictionaryVSgAIcfU_TA.326
+- _$s3XPC10XPCSessionC26_setIncomingMessageHandleryySE_pSgAA011XPCReceivedE0VcFAA13XPCDictionaryVSgAIcfU_TA.363
+- _$s3XPC10XPCSessionC26_setIncomingMessageHandleryySE_pSgAA011XPCReceivedE0VcFAA13XPCDictionaryVSgAIcfU_TA.71
+- _$s3XPC10XPCSessionC5_send7message12replyHandleryAA13XPCDictionaryV_ys6ResultOyAhA12XPCRichErrorVGctFySo13OS_xpc_object_pSg_AOtcfU_TA.282
+- _$s3XPC10XPCSessionC5_send7message12replyHandleryAA13XPCDictionaryV_ys6ResultOyAhA12XPCRichErrorVGctFySo13OS_xpc_object_pSg_AOtcfU_TA.303
+- _$s3XPC11XPCListenerC22IncomingSessionRequestC6accept22incomingMessageHandler012cancellationI0AE8DecisionVAA13XPCDictionaryVSgALc_yAA12XPCRichErrorVcSgtFTm
+- _$s3XPC11XPCListenerC22IncomingSessionRequestC6accept22incomingMessageHandler012cancellationI0AE8DecisionV_AA10XPCSessionCtAA13XPCDictionaryVSgANc_yAA12XPCRichErrorVcSgtFTm
+- _$s3XPC11XPCListenerC22IncomingSessionRequestC6acceptyAE8DecisionVxAA10XPCSessionCXEAA14XPCPeerHandlerRzAA13XPCDictionaryV5InputRtzAM6OutputRtzlFTm
+- _$s3XPC11XPCListenerC22IncomingSessionRequestCAE8DecisionVIeggr_AeGIegnr_TRTA.18
+- _$s3XPC11XPCListenerC22IncomingSessionRequestCAE8DecisionVIeggr_AeGIegnr_TRTA.28
+- _$s3XPC11XPCListenerC22IncomingSessionRequestCAE8DecisionVIeggr_AeGIegnr_TRTA.7
+- _$s3XPC11XPCListenerC7service11targetQueue7options22incomingSessionHandlerACSS_So17OS_dispatch_queueCSgAC21InitializationOptionsVAC08IncomingH7RequestC8DecisionVANctKcfcySo0J12_xpc_sessionCcfU_TA.11
+- _$s3XPC12BufferReaderV4read33_B60F660E558EB6466291C850CECEFCD0LLySSSgSSmF
+- _$s3XPC12BufferReaderV7advance33_B60F660E558EB6466291C850CECEFCD0LL2byySi_tF
+- _$s3XPC12XPCRichErrorVIegn_ACytIegnr_TRTA.117
+- _$s3XPC12XPCRichErrorVIegn_ACytIegnr_TRTA.128
+- _$s3XPC12XPCRichErrorVIegn_ACytIegnr_TRTA.150
+- _$s3XPC12XPCRichErrorVIegn_ACytIegnr_TRTA.176
+- _$s3XPC12XPCRichErrorVIegn_ACytIegnr_TRTA.187
+- _$s3XPC12XPCRichErrorVIegn_ACytIegnr_TRTA.209
+- _$s3XPC12XPCRichErrorVIegn_ACytIegnr_TRTA.22
+- _$s3XPC12XPCRichErrorVIegn_ACytIegnr_TRTA.235
+- _$s3XPC12XPCRichErrorVIegn_ACytIegnr_TRTA.257
+- _$s3XPC12XPCRichErrorVIegn_ACytIegnr_TRTA.311
+- _$s3XPC12XPCRichErrorVIegn_ACytIegnr_TRTA.337
+- _$s3XPC12XPCRichErrorVIegn_ACytIegnr_TRTA.348
+- _$s3XPC12XPCRichErrorVIegn_ACytIegnr_TRTA.374
+- _$s3XPC12XPCRichErrorVIegn_ACytIegnr_TRTA.385
+- _$s3XPC12XPCRichErrorVIegn_ACytIegnr_TRTA.82
+- _$s3XPC12XPCRichErrorVyACSo13OS_xpc_object_pcfC
+- _$s3XPC13EncodingGraphO9ContainerPAAE8traverse13initialResult02onD5Enter0h5ValueI0qd__qd___yAcD_p_qd__ztXEyAC0J0O_qd__ztXEtlF
+- _$s3XPC13XPCDictionaryV6decode2as6forKey12withUserInfoxxm_SSSDys06CodinghiF0VypGtKSeRzlFfA_
+- _$s3XPC13XPCDictionaryV7forEachyyySS3key_So13OS_xpc_object_p5valuet_tKXEKFySS_SoAF_ptKXEfU_TA.11
+- _$s3XPC13XPCDictionaryV7forEachyyySS3key_So13OS_xpc_object_p5valuet_tKXEKFySS_SoAF_ptKXEfU_TA.52
+- _$s3XPC13XPCDictionaryV7forEachyyySS3key_So13OS_xpc_object_p5valuet_tKXEKFySS_SoAF_ptKXEfU_TA.57
+- _$s3XPC13XPCDictionaryVACSgIeghnr_SgWOe
+- _$s3XPC13XPCDictionaryVACSgIeghnr_SgWOy
+- _$s3XPC13XPCDictionaryV_2asSSSgSS_SSmtcigTm
+- _$s3XPC13XPCDictionaryVyACSgSScipACTKTm
+- _$s3XPC13XPCDictionaryVySSSgSScipACTK
+- _$s3XPC13XPCDictionaryVySSSgSScisySPys4Int8VGXEfU_TA.307
+- _$s3XPC13XPCDictionaryVySays5UInt8VGSgSScipACTk
+- _$s3XPC13XPCDictionaryVySo13OS_xpc_object_pSgSScigTm
+- _$s3XPC13XPCDictionaryVySo13OS_xpc_object_pSgSScipACTK
+- _$s3XPC13XPCDictionaryVySo13OS_xpc_object_pSgSScipACTk
+- _$s3XPC13XPCDictionaryVyxSgSScSZRzluipSZRzlACxTkTm
+- _$s3XPC15XPCBufferWriterV5write33_B60F660E558EB6466291C850CECEFCD0LLyyxs17FixedWidthIntegerRzSURzlFSu_Tg5Tm
+- _$s3XPC15XPCBufferWriterV5write33_B60F660E558EB6466291C850CECEFCD0LLyyxs17FixedWidthIntegerRzSURzlFs5UInt8V_Tg5
+- _$s3XPC15XPCBufferWriterV5write33_B60F660E558EB6466291C850CECEFCD0LLyyxs17FixedWidthIntegerRzSURzlFs6UInt16V_Tg5
+- _$s3XPC15XPCBufferWriterV5write33_B60F660E558EB6466291C850CECEFCD0LLyyxs17FixedWidthIntegerRzSURzlFs6UInt32V_Tg5
+- _$s3XPC18XPCReceivedMessageV10dictionaryAcA13XPCDictionaryV_tcfC
+- _$s3XPC23SerializedEncodingGraphV2ofAcA0cD0O9Container_p_tcfC
+- _$s3XPC23SerializedEncodingGraphV2ofAcA0cD0O9Container_p_tcfc16serializedLengthL_ADSiAF5ValueO_tF
+- _$s3XPC23SerializedEncodingGraphV2ofAcA0cD0O9Container_p_tcfc6encodeL_5value6buffer7nodeMapyAF5ValueO_AA15XPCBufferWriterVzSDySOs6UInt32VGtF
+- _$s3XPC23SerializedEncodingGraphV2ofAcA0cD0O9Container_p_tcfc9FirstPassL_VMF
+- _$s3XPC23SerializedEncodingGraphV2ofAcA0cD0O9Container_p_tcfc9FirstPassL_VMXX
+- _$s3XPC23SerializedEncodingGraphV2ofAcA0cD0O9Container_p_tcfc9FirstPassL_VMa
+- _$s3XPC23SerializedEncodingGraphV2ofAcA0cD0O9Container_p_tcfc9FirstPassL_VMf
+- _$s3XPC23SerializedEncodingGraphV2ofAcA0cD0O9Container_p_tcfc9FirstPassL_VMn
+- _$s3XPC23SerializedEncodingGraphV2ofAcA0cD0O9Container_p_tcfc9FirstPassL_VWV
+- _$s3XPC23SerializedEncodingGraphV2ofAcA0cD0O9Container_p_tcfc9FirstPassL_Vwet
+- _$s3XPC23SerializedEncodingGraphV2ofAcA0cD0O9Container_p_tcfc9FirstPassL_Vwst
+- _$s3XPC23SerializedEncodingGraphV2ofAcA0cD0O9Container_p_tcfcyAF5ValueO_AcdcfG_p_tcfc10SecondPassL_VztXEfU2_
+- _$s3XPC23SerializedEncodingGraphV2ofAcA0cD0O9Container_p_tcfcyAF5ValueO_AcdcfG_p_tcfc9FirstPassL_VztXEfU0_
+- _$s3XPC23SerializedEncodingGraphV2ofAcA0cD0O9Container_p_tcfcyAfG_p_AcdcfG_p_tcfc10SecondPassL_VztXEfU1_TA
+- _$s3XPC23SerializedEncodingGraphV2ofAcA0cD0O9Container_p_tcfcyAfG_p_AcdcfG_p_tcfc9FirstPassL_VztXEfU_TA
+- _$s3XPC23_KeyedDecodingContainerVyxGs0bcD8ProtocolAAsAEP15decodeIfPresent_6forKeySfSgSfm_0J0QztKFTWTm
+- _$s3XPC23_KeyedDecodingContainerVyxGs0bcD8ProtocolAAsAEP15decodeIfPresent_6forKeys4Int8VSgAJm_0J0QztKFTWTm
+- _$s3XPC23_KeyedDecodingContainerVyxGs0bcD8ProtocolAAsAEP15decodeIfPresent_6forKeys5Int16VSgAJm_0J0QztKFTWTm
+- _$s3XPC23_KeyedEncodingContainerVyxGs0bcD8ProtocolAAsAEP15encodeIfPresent_6forKeyySfSg_0J0QztKFTWTm
+- _$s3XPC23_KeyedEncodingContainerVyxGs0bcD8ProtocolAAsAEP15encodeIfPresent_6forKeyys4Int8VSg_0J0QztKFTWTm
+- _$s3XPC23_KeyedEncodingContainerVyxGs0bcD8ProtocolAAsAEP15encodeIfPresent_6forKeyys5Int16VSg_0J0QztKFTWTm
+- _$s3XPC25_UnkeyedDecodingContainerVs0bcD0AAsADP15decodeIfPresentySfSgSfmKFTWTm
+- _$s3XPC25_UnkeyedDecodingContainerVs0bcD0AAsADP15decodeIfPresentys4Int8VSgAHmKFTWTm
+- _$s3XPC25_UnkeyedDecodingContainerVs0bcD0AAsADP15decodeIfPresentys5Int16VSgAHmKFTWTm
+- _$s3XPC28SingleValueGraphEncodingNodeC03setC02toyAA0eD0O0C0O_tF
+- _$s3XPC29_SingleValueEncodingContainerVs0bcdE0AAsADP6encodeyySiKFTWTm
+- _$s3XPC29_SingleValueEncodingContainerVs0bcdE0AAsADP6encodeyys4Int8VKFTWTm
+- _$s3XPC29_SingleValueEncodingContainerVs0bcdE0AAsADP6encodeyys5Int16VKFTWTm
+- _$s3XPC29_SingleValueEncodingContainerVs0bcdE0AAsADP6encodeyys5Int32VKFTWTm
+- _$s3XPC46SingleValueDecodingContainer4OptionalPrimitiveVWOh
+- _$s3XPC8XPCArrayVySSSgSicipACTk
+- _$sSPys4Int8VGSo13OS_xpc_object_pSbIgygd_ACSoAD_pSbIegygd_TRTA.68
+- _$sSS11withCStringyxxSPys4Int8VGKXEKlF3XPC13XPCDictionaryVSg_Tg508$s3XPC13e26V_2asACSgSS_ACmtcigAESPys4C7VGXEfU_AGTf1ncn_n
+- _$sSS11withCStringyxxSPys4Int8VGKXEKlF3XPC8XPCArrayVSg_Tg5029$s3XPC13XPCDictionaryV_2asAA8e20VSgSS_AFmtcigAGSPys4C7VGXEfU_AE0H0VTf1ncn_n
+- _$sSS11withCStringyxxSPys4Int8VGKXEKlFSSSg_Tg5047$s3XPC13XPCDictionaryV_2asSSSgSS_SSmtcigAESPys4C7VGXEfU_3XPC0F0VTf1cn_nTf4ng_n
+- _$sSS11withCStringyxxSPys4Int8VGKXEKlFSVSg_Tg5059$s3XPC13XPCDictionaryV_2asSays5UInt8VGSgSS_AGmtcigSVSgSPys4C7VGXEfU_3XPC0F0VSiTf1cn_nTf4ngn_n
+- _$sSS11withCStringyxxSPys4Int8VGKXEKlFSo13OS_xpc_object_pSg_Tg5030$s3XPC13XPCDictionaryV_2asSo13d1_e1_f26_pSgSS_SoAE_pXptcigAFSPys4C7VGXEfU_3XPC0I0VTf1cn_nTf4ng_n
+- _$sSS11withCStringyxxSPys4Int8VGKXEKlFSo13OS_xpc_object_pSg_Tg5046$s3XPC13XPCDictionaryV11removeValue6forKeySo13d1_e1_f16_pSgSS_tFAGSPys4C7VGXEfU_3XPC0I0VTf1cn_nTf4ng_n
+- _$sSS11withCStringyxxSPys4Int8VGKXEKlFyt_Tg5
+- _$sSS11withCStringyxxSPys4Int8VGKXEKlFyt_Tg5032$s3XPC8XPCArrayVySSSgSicisySPys4C7VGXEfU_3XPC0F0VSiTf1ncn_n
+- _$sSS11withCStringyxxSPys4Int8VGKXEKlFyt_Tg5038$s3XPC13XPCDictionaryVySSSgSScisySPys4C15VGXEfU_yAGXEfU_3XPC0F0VADTf1ncn_n
+- _$sSS11withCStringyxxSPys4Int8VGKXEKlFyt_Tg5038$s3XPC13XPCDictionaryVySSSgSScisySPys4C7VGXEfU_SSSg3XPC0F0VTf1ncn_n
+- _$sSS11withCStringyxxSPys4Int8VGKXEKlFyt_Tg5048$s3XPC13XPCDictionaryVyAA8XPCArrayVSgSScisySPys4C7VGXEfU_3XPC0F0VAF0I0VSgTf1ncn_n
+- _$sSS11withCStringyxxSPys4Int8VGKXEKlFyt_Tg5048$s3XPC13XPCDictionaryVyAA8XPCArrayVSgSScisySPys4C7VGXEfU_3XPC0F0VAF0I0VSgTf1ncn_nTm
+- _$sSS11withCStringyxxSPys4Int8VGKXEKlFyt_Tg5048$s3XPC13XPCDictionaryVySays5UInt8VGSgSScisySPys4C7VGXEfU_3XPC0F0VSays0I0VGTf1ncn_n
+- _$sSS11withCStringyxxSPys4Int8VGKXEKlFyt_Tg5055$s3XPC13XPCDictionaryVySo13OS_xpc_object_pSgSScisySPys4C7VGXEfU_So0i1_j1_K0_p3XPC0F0VTf1ncn_n
+- _$sSS8withUTF8yxxSRys5UInt8VGKXEKlFyt_Tg5078$s3XPC15XPCBufferWriterV5write33_B60F660E558EB6466291C850CECEFCD0LLyySSFySRys5C7VGXEfU_3XPC0fG0VTf1ncn_n
+- _$sSSSo13OS_xpc_object_ps5Error_pIgggzo_SSSoAA_psAB_pIegggzo_TRTA.10
+- _$sSSSo13OS_xpc_object_ps5Error_pIgggzo_SSSoAA_psAB_pIegggzo_TRTA.15
+- _$sSSSo13OS_xpc_object_ps5Error_pIgggzo_SSSoAA_psAB_pIegggzo_TRTA.56
+- _$sSSSo13OS_xpc_object_ps5Error_pIgggzo_SSSoAA_psAB_pIegggzo_TRTA.61
+- _$sSh21_nonEmptyArrayLiteralShyxGSayxG_tcfCs13OpaquePointerV_Tt0g5Tf4g_n
+- _$ss10SetAlgebraPs7ElementQz012ArrayLiteralC0RtzrlE05arrayE0xAFd_tcfC3XPC10XPCSessionC21InitializationOptionsV_Tg5Tm
+- _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSO_s6UInt32VTg5
+- _$ss23_ContiguousArrayStorageCys13OpaquePointerVGMR
+- _$ss23_ContiguousArrayStorageCys13OpaquePointerVGMd
+- _$ss7Decoder_pWOc
+- ___swift_destroy_boxed_opaque_existential_0Tm
+- __swiftEmptySetSingleton
+- __swift_xpc_session_activate_autorelease
+- __swift_xpc_session_send_message_with_reply_sync_autorelease
+- _block_copy_helper.100
+- _block_copy_helper.122
+- _block_copy_helper.133
+- _block_copy_helper.144
+- _block_copy_helper.155
+- _block_copy_helper.16
+- _block_copy_helper.170
+- _block_copy_helper.181
+- _block_copy_helper.192
+- _block_copy_helper.203
+- _block_copy_helper.214
+- _block_copy_helper.22
+- _block_copy_helper.229
+- _block_copy_helper.240
+- _block_copy_helper.251
+- _block_copy_helper.262
+- _block_copy_helper.27
+- _block_copy_helper.273
+- _block_copy_helper.283
+- _block_copy_helper.304
+- _block_copy_helper.316
+- _block_copy_helper.331
+- _block_copy_helper.342
+- _block_copy_helper.353
+- _block_copy_helper.368
+- _block_copy_helper.379
+- _block_copy_helper.38
+- _block_copy_helper.390
+- _block_copy_helper.49
+- _block_copy_helper.62
+- _block_copy_helper.69
+- _block_copy_helper.76
+- _block_copy_helper.87
+- _block_copy_helper.99
+- _block_descriptor.101
+- _block_descriptor.102
+- _block_descriptor.124
+- _block_descriptor.135
+- _block_descriptor.146
+- _block_descriptor.157
+- _block_descriptor.172
+- _block_descriptor.18
+- _block_descriptor.183
+- _block_descriptor.194
+- _block_descriptor.205
+- _block_descriptor.216
+- _block_descriptor.231
+- _block_descriptor.24
+- _block_descriptor.242
+- _block_descriptor.253
+- _block_descriptor.264
+- _block_descriptor.275
+- _block_descriptor.285
+- _block_descriptor.29
+- _block_descriptor.306
+- _block_descriptor.318
+- _block_descriptor.333
+- _block_descriptor.344
+- _block_descriptor.355
+- _block_descriptor.370
+- _block_descriptor.381
+- _block_descriptor.392
+- _block_descriptor.40
+- _block_descriptor.51
+- _block_descriptor.64
+- _block_descriptor.71
+- _block_descriptor.78
+- _block_descriptor.89
+- _block_destroy_helper.100
+- _block_destroy_helper.101
+- _block_destroy_helper.123
+- _block_destroy_helper.134
+- _block_destroy_helper.145
+- _block_destroy_helper.156
+- _block_destroy_helper.17
+- _block_destroy_helper.171
+- _block_destroy_helper.182
+- _block_destroy_helper.193
+- _block_destroy_helper.204
+- _block_destroy_helper.215
+- _block_destroy_helper.23
+- _block_destroy_helper.230
+- _block_destroy_helper.241
+- _block_destroy_helper.252
+- _block_destroy_helper.263
+- _block_destroy_helper.274
+- _block_destroy_helper.28
+- _block_destroy_helper.284
+- _block_destroy_helper.305
+- _block_destroy_helper.317
+- _block_destroy_helper.332
+- _block_destroy_helper.343
+- _block_destroy_helper.354
+- _block_destroy_helper.369
+- _block_destroy_helper.380
+- _block_destroy_helper.39
+- _block_destroy_helper.391
+- _block_destroy_helper.50
+- _block_destroy_helper.63
+- _block_destroy_helper.70
+- _block_destroy_helper.77
+- _block_destroy_helper.88
+- _malloc
+- _objc_retain_x23
+- _objc_retain_x25
+- _objectdestroy.4Tm
+- _objectdestroy.77Tm
+- _objectdestroy.83Tm
+- _swift_setDeallocating
+- _symbolic _____ 3XPC23SerializedEncodingGraphV2ofAcA0cD0O9Container_p_tcfc9FirstPassL_V
+- _symbolic _____y_____G s23_ContiguousArrayStorageC s13OpaquePointerV
+- _type_layout_string 3XPC23SerializedEncodingGraphV2ofAcA0cD0O9Container_p_tcfc9FirstPassL_V
+CStrings:
++ "/Library/Caches/com.apple.xbs/EE6B3ADA-1477-44E6-9F2E-4628A0EB8A02/TemporaryDirectory.8WfTXR/Sources/XPC_swiftoverlay/XPC-swiftoverlay/Listener.swift"
++ "/Library/Caches/com.apple.xbs/EE6B3ADA-1477-44E6-9F2E-4628A0EB8A02/TemporaryDirectory.8WfTXR/Sources/XPC_swiftoverlay/XPC-swiftoverlay/PeerRequirement.swift"
++ "/Library/Caches/com.apple.xbs/EE6B3ADA-1477-44E6-9F2E-4628A0EB8A02/TemporaryDirectory.8WfTXR/Sources/XPC_swiftoverlay/XPC-swiftoverlay/RichError.swift"
++ "/Library/Caches/com.apple.xbs/EE6B3ADA-1477-44E6-9F2E-4628A0EB8A02/TemporaryDirectory.8WfTXR/Sources/XPC_swiftoverlay/XPC-swiftoverlay/Session.swift"
+- "/Library/Caches/com.apple.xbs/Sources/XPC_swiftoverlay/XPC-swiftoverlay/Listener.swift"
+- "/Library/Caches/com.apple.xbs/Sources/XPC_swiftoverlay/XPC-swiftoverlay/PeerRequirement.swift"
+- "/Library/Caches/com.apple.xbs/Sources/XPC_swiftoverlay/XPC-swiftoverlay/RichError.swift"
+- "/Library/Caches/com.apple.xbs/Sources/XPC_swiftoverlay/XPC-swiftoverlay/Session.swift"
+
+```

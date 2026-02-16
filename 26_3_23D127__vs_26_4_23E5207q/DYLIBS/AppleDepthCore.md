@@ -1,0 +1,806 @@
+## AppleDepthCore
+
+> `/System/Library/PrivateFrameworks/AppleDepthCore.framework/AppleDepthCore`
+
+```diff
+
+-150.9.0.0.0
+-  __TEXT.__text: 0x604ec
+-  __TEXT.__auth_stubs: 0x1730
+-  __TEXT.__objc_methlist: 0x2384
+-  __TEXT.__const: 0x21d0
+-  __TEXT.__gcc_except_tab: 0x5e64
+-  __TEXT.__oslogstring: 0x225b
+-  __TEXT.__cstring: 0x35bc
+-  __TEXT.__unwind_info: 0x1940
++158.0.0.0.0
++  __TEXT.__text: 0x62440
++  __TEXT.__auth_stubs: 0x1700
++  __TEXT.__objc_methlist: 0x23e4
++  __TEXT.__const: 0x21c0
++  __TEXT.__gcc_except_tab: 0x6118
++  __TEXT.__oslogstring: 0x23cf
++  __TEXT.__cstring: 0x3e39
++  __TEXT.__unwind_info: 0x1a20
+   __TEXT.__objc_classname: 0x4c1
+-  __TEXT.__objc_methname: 0x5b56
+-  __TEXT.__objc_methtype: 0x2df0
+-  __TEXT.__objc_stubs: 0x3b00
+-  __DATA_CONST.__got: 0x438
++  __TEXT.__objc_methname: 0x5c59
++  __TEXT.__objc_methtype: 0x2dbe
++  __TEXT.__objc_stubs: 0x3c60
++  __DATA_CONST.__got: 0x448
+   __DATA_CONST.__const: 0x1f8
+   __DATA_CONST.__objc_classlist: 0x158
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x28
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x14a8
++  __DATA_CONST.__objc_selrefs: 0x1508
+   __DATA_CONST.__objc_protorefs: 0x8
+   __DATA_CONST.__objc_superrefs: 0xf8
+   __DATA_CONST.__objc_arraydata: 0x160
+-  __AUTH_CONST.__auth_got: 0xba8
++  __AUTH_CONST.__auth_got: 0xb90
+   __AUTH_CONST.__const: 0x1d0
+-  __AUTH_CONST.__cfstring: 0x28c0
+-  __AUTH_CONST.__objc_const: 0x3e28
++  __AUTH_CONST.__cfstring: 0x29c0
++  __AUTH_CONST.__objc_const: 0x3e68
+   __AUTH_CONST.__objc_intobj: 0xa8
+   __AUTH_CONST.__objc_arrayobj: 0x258
+-  __AUTH.__objc_data: 0xa0
+-  __DATA.__objc_ivar: 0x2c4
+-  __DATA.__data: 0x2f8
+-  __DATA.__bss: 0x198
+-  __DATA_DIRTY.__objc_data: 0xcd0
+-  __DATA_DIRTY.__bss: 0xf0
++  __DATA.__objc_ivar: 0x2c8
++  __DATA.__data: 0x300
++  __DATA.__bss: 0x1a8
++  __DATA_DIRTY.__objc_data: 0xd70
++  __DATA_DIRTY.__bss: 0xd0
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: C6AF2DCE-6F0C-31D1-B830-D3410814FBE9
+-  Functions: 1043
+-  Symbols:   3987
+-  CStrings:  2246
++  UUID: AAC323DC-E98F-30E6-A00F-0BD518005231
++  Functions: 1053
++  Symbols:   4025
++  CStrings:  2290
+ 
+Symbols:
++ +[ADCoreDeviceConfiguration preferencesWithDefaultValues:]
++ +[ADCoreDeviceConfiguration verboseLogs]
++ +[ADJasperPointCloud pointCloudFromCSVString:]
++ +[ADJasperPointCloud pointCloudFromPlistData:]
++ -[ADCameraCalibration getFocalLength35mm]
++ -[ADCameraCalibration initWithJSONData:]
++ -[ADImageDimensions copyWithZone:]
++ -[ADImageDimensions hash]
++ GCC_except_table1001
++ GCC_except_table1012
++ GCC_except_table1013
++ GCC_except_table1014
++ GCC_except_table1023
++ GCC_except_table1024
++ GCC_except_table1025
++ GCC_except_table1026
++ GCC_except_table1028
++ GCC_except_table1029
++ GCC_except_table1039
++ GCC_except_table104
++ GCC_except_table1040
++ GCC_except_table1041
++ GCC_except_table1043
++ GCC_except_table1045
++ GCC_except_table1051
++ GCC_except_table1053
++ GCC_except_table1058
++ GCC_except_table1065
++ GCC_except_table107
++ GCC_except_table1075
++ GCC_except_table1077
++ GCC_except_table1078
++ GCC_except_table1079
++ GCC_except_table1080
++ GCC_except_table1081
++ GCC_except_table1082
++ GCC_except_table109
++ GCC_except_table1094
++ GCC_except_table1097
++ GCC_except_table1101
++ GCC_except_table1102
++ GCC_except_table1105
++ GCC_except_table1107
++ GCC_except_table1108
++ GCC_except_table1109
++ GCC_except_table1112
++ GCC_except_table1113
++ GCC_except_table116
++ GCC_except_table125
++ GCC_except_table129
++ GCC_except_table133
++ GCC_except_table150
++ GCC_except_table274
++ GCC_except_table275
++ GCC_except_table282
++ GCC_except_table283
++ GCC_except_table288
++ GCC_except_table295
++ GCC_except_table299
++ GCC_except_table309
++ GCC_except_table312
++ GCC_except_table323
++ GCC_except_table351
++ GCC_except_table352
++ GCC_except_table359
++ GCC_except_table360
++ GCC_except_table381
++ GCC_except_table385
++ GCC_except_table390
++ GCC_except_table391
++ GCC_except_table394
++ GCC_except_table395
++ GCC_except_table409
++ GCC_except_table410
++ GCC_except_table415
++ GCC_except_table419
++ GCC_except_table425
++ GCC_except_table426
++ GCC_except_table427
++ GCC_except_table428
++ GCC_except_table437
++ GCC_except_table439
++ GCC_except_table440
++ GCC_except_table455
++ GCC_except_table456
++ GCC_except_table458
++ GCC_except_table466
++ GCC_except_table467
++ GCC_except_table468
++ GCC_except_table469
++ GCC_except_table481
++ GCC_except_table484
++ GCC_except_table489
++ GCC_except_table494
++ GCC_except_table495
++ GCC_except_table504
++ GCC_except_table509
++ GCC_except_table510
++ GCC_except_table511
++ GCC_except_table527
++ GCC_except_table533
++ GCC_except_table539
++ GCC_except_table540
++ GCC_except_table541
++ GCC_except_table558
++ GCC_except_table561
++ GCC_except_table563
++ GCC_except_table573
++ GCC_except_table574
++ GCC_except_table575
++ GCC_except_table580
++ GCC_except_table581
++ GCC_except_table583
++ GCC_except_table585
++ GCC_except_table594
++ GCC_except_table595
++ GCC_except_table606
++ GCC_except_table607
++ GCC_except_table608
++ GCC_except_table615
++ GCC_except_table617
++ GCC_except_table621
++ GCC_except_table623
++ GCC_except_table629
++ GCC_except_table640
++ GCC_except_table641
++ GCC_except_table649
++ GCC_except_table653
++ GCC_except_table656
++ GCC_except_table657
++ GCC_except_table660
++ GCC_except_table664
++ GCC_except_table674
++ GCC_except_table676
++ GCC_except_table680
++ GCC_except_table686
++ GCC_except_table692
++ GCC_except_table693
++ GCC_except_table694
++ GCC_except_table700
++ GCC_except_table701
++ GCC_except_table702
++ GCC_except_table714
++ GCC_except_table715
++ GCC_except_table716
++ GCC_except_table717
++ GCC_except_table726
++ GCC_except_table738
++ GCC_except_table739
++ GCC_except_table740
++ GCC_except_table742
++ GCC_except_table751
++ GCC_except_table752
++ GCC_except_table756
++ GCC_except_table772
++ GCC_except_table773
++ GCC_except_table774
++ GCC_except_table775
++ GCC_except_table776
++ GCC_except_table777
++ GCC_except_table778
++ GCC_except_table810
++ GCC_except_table822
++ GCC_except_table823
++ GCC_except_table825
++ GCC_except_table827
++ GCC_except_table828
++ GCC_except_table831
++ GCC_except_table833
++ GCC_except_table839
++ GCC_except_table857
++ GCC_except_table860
++ GCC_except_table861
++ GCC_except_table863
++ GCC_except_table865
++ GCC_except_table866
++ GCC_except_table876
++ GCC_except_table882
++ GCC_except_table890
++ GCC_except_table898
++ GCC_except_table903
++ GCC_except_table904
++ GCC_except_table906
++ GCC_except_table907
++ GCC_except_table908
++ GCC_except_table909
++ GCC_except_table925
++ GCC_except_table926
++ GCC_except_table927
++ GCC_except_table928
++ GCC_except_table929
++ GCC_except_table942
++ GCC_except_table943
++ GCC_except_table944
++ GCC_except_table945
++ GCC_except_table946
++ GCC_except_table954
++ GCC_except_table955
++ GCC_except_table959
++ GCC_except_table963
++ GCC_except_table967
++ GCC_except_table972
++ GCC_except_table975
++ GCC_except_table984
++ GCC_except_table985
++ GCC_except_table988
++ GCC_except_table996
++ GCC_except_table997
++ _OBJC_CLASS_$_NSPropertyListSerialization
++ _OBJC_IVAR_$_ADCoreDeviceConfiguration._verboseLogs
++ __OBJC_$_INSTANCE_VARIABLES_ADCoreDeviceConfiguration
++ __OBJC_CLASS_PROTOCOLS_$_ADImageDimensions
++ __PromotedConst.2206
++ __PromotedConst.2207
++ __PromotedConst.2208
++ __PromotedConst.2209
++ __PromotedConst.2210
++ __PromotedConst.2211
++ __ZGVZL8defaultsvE6result
++ __ZL15INSTRUMENTS_ENDjyyyy.1210
++ __ZL15INSTRUMENTS_ENDjyyyy.1421
++ __ZL15INSTRUMENTS_ENDjyyyy.1508
++ __ZL15INSTRUMENTS_ENDjyyyy.1514
++ __ZL15INSTRUMENTS_ENDjyyyy.17
++ __ZL15INSTRUMENTS_ENDjyyyy.1760
++ __ZL15INSTRUMENTS_ENDjyyyy.180
++ __ZL15INSTRUMENTS_ENDjyyyy.1814
++ __ZL15INSTRUMENTS_ENDjyyyy.2013
++ __ZL15INSTRUMENTS_ENDjyyyy.2146
++ __ZL15INSTRUMENTS_ENDjyyyy.320
++ __ZL15INSTRUMENTS_ENDjyyyy.430
++ __ZL15INSTRUMENTS_ENDjyyyy.496
++ __ZL15INSTRUMENTS_ENDjyyyy.624
++ __ZL15INSTRUMENTS_ENDjyyyy.630
++ __ZL15INSTRUMENTS_ENDjyyyy.759
++ __ZL15INSTRUMENTS_ENDjyyyy.765
++ __ZL15INSTRUMENTS_ENDjyyyy.84
++ __ZL15INSTRUMENTS_ENDjyyyy.856
++ __ZL15INSTRUMENTS_ENDjyyyy.954
++ __ZL17INSTRUMENTS_EVENTjyyyy.1211
++ __ZL17INSTRUMENTS_EVENTjyyyy.1422
++ __ZL17INSTRUMENTS_EVENTjyyyy.1509
++ __ZL17INSTRUMENTS_EVENTjyyyy.1515
++ __ZL17INSTRUMENTS_EVENTjyyyy.1761
++ __ZL17INSTRUMENTS_EVENTjyyyy.18
++ __ZL17INSTRUMENTS_EVENTjyyyy.181
++ __ZL17INSTRUMENTS_EVENTjyyyy.1815
++ __ZL17INSTRUMENTS_EVENTjyyyy.2014
++ __ZL17INSTRUMENTS_EVENTjyyyy.2147
++ __ZL17INSTRUMENTS_EVENTjyyyy.321
++ __ZL17INSTRUMENTS_EVENTjyyyy.431
++ __ZL17INSTRUMENTS_EVENTjyyyy.497
++ __ZL17INSTRUMENTS_EVENTjyyyy.625
++ __ZL17INSTRUMENTS_EVENTjyyyy.631
++ __ZL17INSTRUMENTS_EVENTjyyyy.760
++ __ZL17INSTRUMENTS_EVENTjyyyy.766
++ __ZL17INSTRUMENTS_EVENTjyyyy.85
++ __ZL17INSTRUMENTS_EVENTjyyyy.857
++ __ZL17INSTRUMENTS_EVENTjyyyy.955
++ __ZL17INSTRUMENTS_STARTjyyyy.1212
++ __ZL17INSTRUMENTS_STARTjyyyy.1423
++ __ZL17INSTRUMENTS_STARTjyyyy.1510
++ __ZL17INSTRUMENTS_STARTjyyyy.1516
++ __ZL17INSTRUMENTS_STARTjyyyy.1762
++ __ZL17INSTRUMENTS_STARTjyyyy.1816
++ __ZL17INSTRUMENTS_STARTjyyyy.182
++ __ZL17INSTRUMENTS_STARTjyyyy.19
++ __ZL17INSTRUMENTS_STARTjyyyy.2015
++ __ZL17INSTRUMENTS_STARTjyyyy.2148
++ __ZL17INSTRUMENTS_STARTjyyyy.322
++ __ZL17INSTRUMENTS_STARTjyyyy.432
++ __ZL17INSTRUMENTS_STARTjyyyy.498
++ __ZL17INSTRUMENTS_STARTjyyyy.626
++ __ZL17INSTRUMENTS_STARTjyyyy.632
++ __ZL17INSTRUMENTS_STARTjyyyy.761
++ __ZL17INSTRUMENTS_STARTjyyyy.767
++ __ZL17INSTRUMENTS_STARTjyyyy.858
++ __ZL17INSTRUMENTS_STARTjyyyy.86
++ __ZL17INSTRUMENTS_STARTjyyyy.956
++ __ZL8defaultsv
++ __ZN13ADCommonUtils12systemUptimeEv
++ __ZN16PixelBufferUtils23pixelBufferFromBMTLFileEPKc
++ __ZN16PixelBufferUtils29pixelFormatFromMTLPixelFormatE14MTLPixelFormat
++ __ZNKSt3__113__string_hashIcNS_9allocatorIcEEEclB9foe210106ERKNS_12basic_stringIcNS_11char_traitsIcEES2_EE
++ __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB9foe210106ERKS6_S9_
++ __ZNSt12length_errorC1B9foe210106EPKc
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE20PixelBufferSharedPtrEEPvEENS_22__hash_node_destructorINS6_ISC_EEEEED1B9foe210106Ev
++ __ZNSt3__112__destroy_atB9foe210106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE20PixelBufferSharedPtrEELi0EEEvPT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeI21e5rt_surface_format_tNS_6vectorIjNS_9allocatorIjEEEEEENS_22__unordered_map_hasherIS2_NS_4pairIKS2_S6_EENS_4hashIS2_EENS_8equal_toIS2_EELb1EEENS_21__unordered_map_equalIS2_SB_SF_SD_Lb1EEENS4_ISB_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE17espresso_buffer_tEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S8_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SD_SH_SF_Lb1EEENS5_ISD_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRSC_EEENSR_IJEEEEEENSB_INS_15__hash_iteratorIPNS_11__hash_nodeIS9_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE17espresso_buffer_tEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S8_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SD_SH_SF_Lb1EEENS5_ISD_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE20PixelBufferSharedPtrEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S8_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SD_SH_SF_Lb1EEENS5_ISD_EEE14__erase_uniqueIS7_EEmRKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE20PixelBufferSharedPtrEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S8_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SD_SH_SF_Lb1EEENS5_ISD_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENSR_IJEEEEEENSB_INS_15__hash_iteratorIPNS_11__hash_nodeIS9_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE20PixelBufferSharedPtrEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S8_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SD_SH_SF_Lb1EEENS5_ISD_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIifEENS_22__unordered_map_hasherIiNS_4pairIKifEENS_4hashIiEENS_8equal_toIiEELb1EEENS_21__unordered_map_equalIiS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE25__emplace_unique_key_argsIiJRKNS_21piecewise_construct_tENS_5tupleIJRS5_EEENSL_IJEEEEEENS4_INS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIifEENS_22__unordered_map_hasherIiNS_4pairIKifEENS_4hashIiEENS_8equal_toIiEELb1EEENS_21__unordered_map_equalIiS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE4findIiEENS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIifEENS_22__unordered_map_hasherIiNS_4pairIKifEENS_4hashIiEENS_8equal_toIiEELb1EEENS_21__unordered_map_equalIiS6_SA_S8_Lb1EEENS_9allocatorIS6_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIyNS_4pairIPhiEEEENS_22__unordered_map_hasherIyNS2_IKyS4_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS8_SC_SA_Lb1EEENS_9allocatorIS8_EEE25__emplace_unique_key_argsIyJRKNS_21piecewise_construct_tENS_5tupleIJOyEEENSN_IJEEEEEENS2_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIyNS_4pairIPhiEEEENS_22__unordered_map_hasherIyNS2_IKyS4_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS8_SC_SA_Lb1EEENS_9allocatorIS8_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIyNS_4pairIPhiEEEENS_22__unordered_map_hasherIyNS2_IKyS4_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS8_SC_SA_Lb1EEENS_9allocatorIS8_EEED2Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9__grow_byEmmmmmm
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106ILi0EEEPKc
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIP7ElementEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIPP4NodeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__120__throw_length_errorB9foe210106EPKc
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEE17espresso_buffer_tEEPvEEEEEclB9foe210106EPSC_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEN6docopt5valueEEEPvEEEEEclB9foe210106EPSD_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEPNS_8multisetIP7ElementNSA_14ElementCompareENS1_ISB_EEEEEEPvEEEEEclB9foe210106EPSI_
++ __ZNSt3__127__tree_balance_after_insertB9foe210106IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEEEPS7_EEED2B9foe210106Ev
++ __ZNSt3__132__internal_log_hardening_failureEPKc
++ __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN6docopt5valueENS_4lessIS6_EENS4_INS_4pairIKS6_S8_EEEEEC2B9foe210106ERKSF_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN6docopt5valueEEENS_19__map_value_compareIS7_NS_4pairIKS7_S9_EENS_4lessIS7_EELb1EEENS5_ISE_EEE7destroyEPNS_11__tree_nodeISA_PvEE
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPNS_8multisetIP7ElementNS9_14ElementCompareENS5_ISA_EEEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SE_EENS_4lessIS7_EELb1EEENS5_ISJ_EEE12__find_equalIS7_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeIST_EERKT_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPNS_8multisetIP7ElementNS9_14ElementCompareENS5_ISA_EEEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SE_EENS_4lessIS7_EELb1EEENS5_ISJ_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERST_ST_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPNS_8multisetIP7ElementNS9_14ElementCompareENS5_ISA_EEEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SE_EENS_4lessIS7_EELb1EEENS5_ISJ_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENST_IJEEEEEENSH_INS_15__tree_iteratorISF_PNS_11__tree_nodeISF_PvEElEEbEERKT_DpOT0_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPNS_8multisetIP7ElementNS9_14ElementCompareENS5_ISA_EEEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SE_EENS_4lessIS7_EELb1EEENS5_ISJ_EEE7destroyEPNS_11__tree_nodeISF_PvEE
++ __ZNSt3__16__treeINS_12__value_typeINS_4pairIhhEEmEENS_19__map_value_compareIS3_NS2_IKS3_mEENS_4lessIS3_EELb1EEENS_9allocatorIS7_EEE7destroyEPNS_11__tree_nodeIS4_PvEE
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__init_with_sizeB9foe210106IPS6_SA_EEvT_T0_m
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIP7ElementNS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIPKN10appledepth16JasperPointCloudENS_9allocatorIS4_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIPKN10appledepth16JasperPointCloudENS_9allocatorIS4_EEEC2B9foe210106Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE9push_backB9foe210106EOf
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE9push_backB9foe210106ERKf
++ __ZNSt3__1plB9foe210106IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EERKS9_PKS6_
++ __ZSt28__throw_bad_array_new_lengthB9foe210106v
++ __ZZL8defaultsvE6result
++ ___block_literal_global.1545
++ ___block_literal_global.235
++ ___block_literal_global.269
++ ___block_literal_global.271
++ ___block_literal_global.273
++ ___block_literal_global.753
++ _kADCoreDeviceConfigurationDomainName
++ _memchr
++ _objc_msgSend$availableData
++ _objc_msgSend$getBytes:range:
++ _objc_msgSend$initWithDomain:defaultValues:
++ _objc_msgSend$initWithJSONData:
++ _objc_msgSend$pointCloudFromCSVString:
++ _objc_msgSend$preferencesWithDefaultValues:
++ _objc_msgSend$propertyListWithData:options:format:error:
++ _objc_msgSend$setStandardError:
++ _objc_msgSend$systemUptime
++ _objc_msgSend$valueForKey:
++ _objc_msgSend$verboseLogs
++ _objc_retain_x27
+- GCC_except_table1006
+- GCC_except_table1008
+- GCC_except_table1016
+- GCC_except_table1017
+- GCC_except_table1019
+- GCC_except_table1020
+- GCC_except_table1027
+- GCC_except_table1030
+- GCC_except_table1031
+- GCC_except_table1032
+- GCC_except_table1033
+- GCC_except_table1034
+- GCC_except_table1044
+- GCC_except_table1048
+- GCC_except_table1049
+- GCC_except_table1055
+- GCC_except_table1056
+- GCC_except_table106
+- GCC_except_table1061
+- GCC_except_table1062
+- GCC_except_table1068
+- GCC_except_table1069
+- GCC_except_table1072
+- GCC_except_table108
+- GCC_except_table1084
+- GCC_except_table1085
+- GCC_except_table1086
+- GCC_except_table1087
+- GCC_except_table1088
+- GCC_except_table1091
+- GCC_except_table1092
+- GCC_except_table1098
+- GCC_except_table1099
+- GCC_except_table110
+- GCC_except_table1103
+- GCC_except_table120
+- GCC_except_table128
+- GCC_except_table130
+- GCC_except_table148
+- GCC_except_table271
+- GCC_except_table277
+- GCC_except_table280
+- GCC_except_table286
+- GCC_except_table293
+- GCC_except_table297
+- GCC_except_table307
+- GCC_except_table310
+- GCC_except_table319
+- GCC_except_table342
+- GCC_except_table343
+- GCC_except_table355
+- GCC_except_table358
+- GCC_except_table379
+- GCC_except_table383
+- GCC_except_table386
+- GCC_except_table387
+- GCC_except_table392
+- GCC_except_table393
+- GCC_except_table406
+- GCC_except_table407
+- GCC_except_table412
+- GCC_except_table413
+- GCC_except_table417
+- GCC_except_table421
+- GCC_except_table432
+- GCC_except_table433
+- GCC_except_table435
+- GCC_except_table451
+- GCC_except_table452
+- GCC_except_table454
+- GCC_except_table457
+- GCC_except_table459
+- GCC_except_table460
+- GCC_except_table462
+- GCC_except_table477
+- GCC_except_table478
+- GCC_except_table479
+- GCC_except_table480
+- GCC_except_table485
+- GCC_except_table500
+- GCC_except_table501
+- GCC_except_table503
+- GCC_except_table506
+- GCC_except_table525
+- GCC_except_table531
+- GCC_except_table534
+- GCC_except_table535
+- GCC_except_table554
+- GCC_except_table555
+- GCC_except_table557
+- GCC_except_table569
+- GCC_except_table570
+- GCC_except_table571
+- GCC_except_table572
+- GCC_except_table577
+- GCC_except_table579
+- GCC_except_table589
+- GCC_except_table590
+- GCC_except_table598
+- GCC_except_table601
+- GCC_except_table602
+- GCC_except_table605
+- GCC_except_table612
+- GCC_except_table613
+- GCC_except_table616
+- GCC_except_table624
+- GCC_except_table635
+- GCC_except_table636
+- GCC_except_table643
+- GCC_except_table644
+- GCC_except_table645
+- GCC_except_table646
+- GCC_except_table647
+- GCC_except_table654
+- GCC_except_table669
+- GCC_except_table670
+- GCC_except_table671
+- GCC_except_table677
+- GCC_except_table679
+- GCC_except_table681
+- GCC_except_table683
+- GCC_except_table685
+- GCC_except_table696
+- GCC_except_table697
+- GCC_except_table705
+- GCC_except_table706
+- GCC_except_table707
+- GCC_except_table708
+- GCC_except_table709
+- GCC_except_table719
+- GCC_except_table728
+- GCC_except_table730
+- GCC_except_table731
+- GCC_except_table733
+- GCC_except_table736
+- GCC_except_table745
+- GCC_except_table748
+- GCC_except_table749
+- GCC_except_table759
+- GCC_except_table760
+- GCC_except_table761
+- GCC_except_table763
+- GCC_except_table765
+- GCC_except_table803
+- GCC_except_table815
+- GCC_except_table816
+- GCC_except_table817
+- GCC_except_table818
+- GCC_except_table819
+- GCC_except_table820
+- GCC_except_table821
+- GCC_except_table832
+- GCC_except_table849
+- GCC_except_table850
+- GCC_except_table851
+- GCC_except_table852
+- GCC_except_table853
+- GCC_except_table854
+- GCC_except_table869
+- GCC_except_table875
+- GCC_except_table883
+- GCC_except_table891
+- GCC_except_table892
+- GCC_except_table893
+- GCC_except_table894
+- GCC_except_table895
+- GCC_except_table896
+- GCC_except_table897
+- GCC_except_table913
+- GCC_except_table914
+- GCC_except_table915
+- GCC_except_table918
+- GCC_except_table919
+- GCC_except_table933
+- GCC_except_table934
+- GCC_except_table935
+- GCC_except_table936
+- GCC_except_table937
+- GCC_except_table938
+- GCC_except_table939
+- GCC_except_table949
+- GCC_except_table952
+- GCC_except_table960
+- GCC_except_table961
+- GCC_except_table965
+- GCC_except_table977
+- GCC_except_table978
+- GCC_except_table981
+- GCC_except_table982
+- GCC_except_table983
+- GCC_except_table993
+- GCC_except_table994
+- GCC_except_table998
+- __PromotedConst.2171
+- __PromotedConst.2172
+- __PromotedConst.2173
+- __PromotedConst.2174
+- __PromotedConst.2175
+- __PromotedConst.2176
+- __ZL15INSTRUMENTS_ENDjyyyy.11
+- __ZL15INSTRUMENTS_ENDjyyyy.1209
+- __ZL15INSTRUMENTS_ENDjyyyy.1420
+- __ZL15INSTRUMENTS_ENDjyyyy.1506
+- __ZL15INSTRUMENTS_ENDjyyyy.1512
+- __ZL15INSTRUMENTS_ENDjyyyy.160
+- __ZL15INSTRUMENTS_ENDjyyyy.1763
+- __ZL15INSTRUMENTS_ENDjyyyy.1816
+- __ZL15INSTRUMENTS_ENDjyyyy.2032
+- __ZL15INSTRUMENTS_ENDjyyyy.2158
+- __ZL15INSTRUMENTS_ENDjyyyy.308
+- __ZL15INSTRUMENTS_ENDjyyyy.405
+- __ZL15INSTRUMENTS_ENDjyyyy.486
+- __ZL15INSTRUMENTS_ENDjyyyy.627
+- __ZL15INSTRUMENTS_ENDjyyyy.633
+- __ZL15INSTRUMENTS_ENDjyyyy.755
+- __ZL15INSTRUMENTS_ENDjyyyy.761
+- __ZL15INSTRUMENTS_ENDjyyyy.77
+- __ZL15INSTRUMENTS_ENDjyyyy.851
+- __ZL15INSTRUMENTS_ENDjyyyy.941
+- __ZL17INSTRUMENTS_EVENTjyyyy.12
+- __ZL17INSTRUMENTS_EVENTjyyyy.1210
+- __ZL17INSTRUMENTS_EVENTjyyyy.1421
+- __ZL17INSTRUMENTS_EVENTjyyyy.1507
+- __ZL17INSTRUMENTS_EVENTjyyyy.1513
+- __ZL17INSTRUMENTS_EVENTjyyyy.161
+- __ZL17INSTRUMENTS_EVENTjyyyy.1764
+- __ZL17INSTRUMENTS_EVENTjyyyy.1817
+- __ZL17INSTRUMENTS_EVENTjyyyy.2033
+- __ZL17INSTRUMENTS_EVENTjyyyy.2159
+- __ZL17INSTRUMENTS_EVENTjyyyy.309
+- __ZL17INSTRUMENTS_EVENTjyyyy.406
+- __ZL17INSTRUMENTS_EVENTjyyyy.487
+- __ZL17INSTRUMENTS_EVENTjyyyy.628
+- __ZL17INSTRUMENTS_EVENTjyyyy.634
+- __ZL17INSTRUMENTS_EVENTjyyyy.756
+- __ZL17INSTRUMENTS_EVENTjyyyy.762
+- __ZL17INSTRUMENTS_EVENTjyyyy.78
+- __ZL17INSTRUMENTS_EVENTjyyyy.852
+- __ZL17INSTRUMENTS_EVENTjyyyy.942
+- __ZL17INSTRUMENTS_STARTjyyyy.1211
+- __ZL17INSTRUMENTS_STARTjyyyy.13
+- __ZL17INSTRUMENTS_STARTjyyyy.1422
+- __ZL17INSTRUMENTS_STARTjyyyy.1508
+- __ZL17INSTRUMENTS_STARTjyyyy.1514
+- __ZL17INSTRUMENTS_STARTjyyyy.162
+- __ZL17INSTRUMENTS_STARTjyyyy.1765
+- __ZL17INSTRUMENTS_STARTjyyyy.1818
+- __ZL17INSTRUMENTS_STARTjyyyy.2034
+- __ZL17INSTRUMENTS_STARTjyyyy.2160
+- __ZL17INSTRUMENTS_STARTjyyyy.310
+- __ZL17INSTRUMENTS_STARTjyyyy.407
+- __ZL17INSTRUMENTS_STARTjyyyy.488
+- __ZL17INSTRUMENTS_STARTjyyyy.629
+- __ZL17INSTRUMENTS_STARTjyyyy.635
+- __ZL17INSTRUMENTS_STARTjyyyy.757
+- __ZL17INSTRUMENTS_STARTjyyyy.763
+- __ZL17INSTRUMENTS_STARTjyyyy.79
+- __ZL17INSTRUMENTS_STARTjyyyy.853
+- __ZL17INSTRUMENTS_STARTjyyyy.943
+- __ZL32ADDebugUtilsADVerboseLogsEnabled
+- __ZN12ADDebugUtils20isVerboseLogsEnabledEv
+- __ZN12ADDebugUtils21setVerboseLogsEnabledEb
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE4findEcm
+- __ZNKSt3__113__string_hashIcNS_9allocatorIcEEEclB8ne200100ERKNS_12basic_stringIcNS_11char_traitsIcEES2_EE
+- __ZNKSt3__119__map_value_compareINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12__value_typeIS6_N6docopt5valueEEENS_4lessIS6_EELb1EEclB8ne200100ERKSA_RKS6_
+- __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB8ne200100ERKS6_S9_
+- __ZNSt12length_errorC1B8ne200100EPKc
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE20PixelBufferSharedPtrEEPvEENS_22__hash_node_destructorINS6_ISC_EEEEED1B8ne200100Ev
+- __ZNSt3__112__destroy_atB8ne200100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE20PixelBufferSharedPtrEELi0EEEvPT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeI21e5rt_surface_format_tNS_6vectorIjNS_9allocatorIjEEEEEENS_22__unordered_map_hasherIS2_S7_NS_4hashIS2_EENS_8equal_toIS2_EELb1EEENS_21__unordered_map_equalIS2_S7_SC_SA_Lb1EEENS4_IS7_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE17espresso_buffer_tEENS_22__unordered_map_hasherIS7_S9_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_S9_SE_SC_Lb1EEENS5_IS9_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSO_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS9_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE17espresso_buffer_tEENS_22__unordered_map_hasherIS7_S9_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_S9_SE_SC_Lb1EEENS5_IS9_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE20PixelBufferSharedPtrEENS_22__unordered_map_hasherIS7_S9_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_S9_SE_SC_Lb1EEENS5_IS9_EEE14__erase_uniqueIS7_EEmRKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE20PixelBufferSharedPtrEENS_22__unordered_map_hasherIS7_S9_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_S9_SE_SC_Lb1EEENS5_IS9_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENSO_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS9_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE20PixelBufferSharedPtrEENS_22__unordered_map_hasherIS7_S9_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_S9_SE_SC_Lb1EEENS5_IS9_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIifEENS_22__unordered_map_hasherIiS2_NS_4hashIiEENS_8equal_toIiEELb1EEENS_21__unordered_map_equalIiS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE25__emplace_unique_key_argsIiJRKNS_21piecewise_construct_tENS_5tupleIJRKiEEENSI_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIifEENS_22__unordered_map_hasherIiS2_NS_4hashIiEENS_8equal_toIiEELb1EEENS_21__unordered_map_equalIiS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE4findIiEENS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIifEENS_22__unordered_map_hasherIiS2_NS_4hashIiEENS_8equal_toIiEELb1EEENS_21__unordered_map_equalIiS2_S7_S5_Lb1EEENS_9allocatorIS2_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIyNS_4pairIPhiEEEENS_22__unordered_map_hasherIyS5_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE25__emplace_unique_key_argsIyJRKNS_21piecewise_construct_tENS_5tupleIJOyEEENSL_IJEEEEEENS2_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIyNS_4pairIPhiEEEENS_22__unordered_map_hasherIyS5_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIyNS_4pairIPhiEEEENS_22__unordered_map_hasherIyS5_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS5_SA_S8_Lb1EEENS_9allocatorIS5_EEED2Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9push_backEc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100ILi0EEEPKc
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIP7ElementEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIPP4NodeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__120__throw_length_errorB8ne200100EPKc
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEE17espresso_buffer_tEEPvEEEEEclB8ne200100EPSC_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEN6docopt5valueEEEPvEEEEEclB8ne200100EPSD_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEPNS_8multisetIP7ElementNSA_14ElementCompareENS1_ISB_EEEEEEPvEEEEEclB8ne200100EPSI_
+- __ZNSt3__127__tree_balance_after_insertB8ne200100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEEEPS7_EEED2B8ne200100Ev
+- __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN6docopt5valueENS_4lessIS6_EENS4_INS_4pairIKS6_S8_EEEEEC2B8ne200100ERKSF_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN6docopt5valueEEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS5_ISA_EEE7destroyEPNS_11__tree_nodeISA_PvEE
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPNS_8multisetIP7ElementNS9_14ElementCompareENS5_ISA_EEEEEENS_19__map_value_compareIS7_SF_NS_4lessIS7_EELb1EEENS5_ISF_EEE12__find_equalIS7_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISQ_EERKT_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPNS_8multisetIP7ElementNS9_14ElementCompareENS5_ISA_EEEEEENS_19__map_value_compareIS7_SF_NS_4lessIS7_EELb1EEENS5_ISF_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSQ_SQ_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPNS_8multisetIP7ElementNS9_14ElementCompareENS5_ISA_EEEEEENS_19__map_value_compareIS7_SF_NS_4lessIS7_EELb1EEENS5_ISF_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENSQ_IJEEEEEENS_4pairINS_15__tree_iteratorISF_PNS_11__tree_nodeISF_PvEElEEbEERKT_DpOT0_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPNS_8multisetIP7ElementNS9_14ElementCompareENS5_ISA_EEEEEENS_19__map_value_compareIS7_SF_NS_4lessIS7_EELb1EEENS5_ISF_EEE7destroyEPNS_11__tree_nodeISF_PvEE
+- __ZNSt3__16__treeINS_12__value_typeINS_4pairIhhEEmEENS_19__map_value_compareIS3_S4_NS_4lessIS3_EELb1EEENS_9allocatorIS4_EEE7destroyEPNS_11__tree_nodeIS4_PvEE
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__init_with_sizeB8ne200100IPS6_SA_EEvT_T0_m
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIP7ElementNS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIPKN10appledepth16JasperPointCloudENS_9allocatorIS4_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIPKN10appledepth16JasperPointCloudENS_9allocatorIS4_EEEC2B8ne200100Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE9push_backB8ne200100EOf
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE9push_backB8ne200100ERKf
+- __ZNSt3__1plB8ne200100IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EERKS9_PKS6_
+- __ZSt28__throw_bad_array_new_lengthB8ne200100v
+- ___block_literal_global.1543
+- ___block_literal_global.216
+- ___block_literal_global.220
+- ___block_literal_global.222
+- ___block_literal_global.224
+- ___block_literal_global.750
+- _objc_claimAutoreleasedReturnValue
+- _objc_release_x10
+- _objc_retainAutoreleaseReturnValue
+- _objc_retain_x3
+- _objc_retain_x5
+CStrings:
++ "%s:%d - ERROR - Failed to create pixel buffer"
++ "%s:%d - ERROR - Failed to fill pixel buffer from BMTL data"
++ "%s:%d - ERROR - Failed to read BMTL file"
++ "%s:%d - ERROR - Invalid header size"
++ "%s:%d - ERROR - Unsupported Metal format %lu"
++ "/AppleInternal/Library/BuildRoots/4~CHoRugAJ8ibNnkch96BmbDoboKR5EaQmdf5Oe4I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CHoRugAJ8ibNnkch96BmbDoboKR5EaQmdf5Oe4I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:1522: libc++ Hardening assertion __i < size() failed: deque::operator[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CHoRugAJ8ibNnkch96BmbDoboKR5EaQmdf5Oe4I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:1553: libc++ Hardening assertion !empty() failed: deque::front called on an empty deque\n"
++ "/AppleInternal/Library/BuildRoots/4~CHoRugAJ8ibNnkch96BmbDoboKR5EaQmdf5Oe4I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:1565: libc++ Hardening assertion !empty() failed: deque::back called on an empty deque\n"
++ "/AppleInternal/Library/BuildRoots/4~CHoRugAJ8ibNnkch96BmbDoboKR5EaQmdf5Oe4I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:2296: libc++ Hardening assertion !empty() failed: deque::pop_front called on an empty deque\n"
++ "/AppleInternal/Library/BuildRoots/4~CHoRugAJ8ibNnkch96BmbDoboKR5EaQmdf5Oe4I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/string:3362: libc++ Hardening assertion __first <= __last failed: string::erase(first, last) called with invalid range\n"
++ "B48@0:8{map<std::string, docopt::value, std::less<std::string>, std::allocator<std::pair<const std::string, docopt::value>>>={__tree<std::__value_type<std::string, docopt::value>, std::__map_value_compare<std::string, std::pair<const std::string, docopt::value>, std::less<std::string>>, std::allocator<std::pair<const std::string, docopt::value>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}}16@40"
++ "JSON data does not contain a dictionary at root level"
++ "MaxTDLatencyMicroSec"
++ "\\n\\s*--max-td-latency="
++ "_verboseLogs"
++ "availableData"
++ "command output: %{public}@"
++ "error parsing plist data: %@"
++ "error parsing plist data: root object is not a dictionary"
++ "failed to create point cloud from plist dictionary representation"
++ "failed to parse JSON data with error: %@"
++ "getBytes:range:"
++ "getFocalLength35mm"
++ "initWithJSONData:"
++ "jsonData cannot be nil"
++ "mil"
++ "mismatch in ANE compilation flag MaxTDLatencyMicroSec. Expected {%{public}@} and got {%{public}@}"
++ "pixelBufferFromBMTLFile"
++ "pixelFormatFromMTLPixelFormat"
++ "pointCloudFromCSVString:"
++ "pointCloudFromPlistData:"
++ "preferencesWithDefaultValues:"
++ "propertyListWithData:options:format:error:"
++ "setStandardError:"
++ "systemUptime"
++ "valueForKey:"
++ "{map<std::string, std::multiset<Element *, Element::ElementCompare> *, std::less<std::string>, std::allocator<std::pair<const std::string, std::multiset<Element *, Element::ElementCompare> *>>>=\"__tree_\"{__tree<std::__value_type<std::string, std::multiset<Element *, Element::ElementCompare> *>, std::__map_value_compare<std::string, std::pair<const std::string, std::multiset<Element *, Element::ElementCompare> *>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::multiset<Element *, Element::ElementCompare> *>>>=\"__begin_node_\"^v\"\"{?=\"__end_node_\"{__tree_end_node<std::__tree_node_base<void *> *>=\"__left_\"^v}}\"\"{?=\"__size_\"Q}}}"
++ "{unordered_map<e5rt_surface_format_t, std::vector<unsigned int>, std::hash<e5rt_surface_format_t>, std::equal_to<e5rt_surface_format_t>, std::allocator<std::pair<const e5rt_surface_format_t, std::vector<unsigned int>>>>=\"__table_\"{__hash_table<std::__hash_value_type<e5rt_surface_format_t, std::vector<unsigned int>>, std::__unordered_map_hasher<e5rt_surface_format_t, std::pair<const e5rt_surface_format_t, std::vector<unsigned int>>, std::hash<e5rt_surface_format_t>, std::equal_to<e5rt_surface_format_t>>, std::__unordered_map_equal<e5rt_surface_format_t, std::pair<const e5rt_surface_format_t, std::vector<unsigned int>>, std::equal_to<e5rt_surface_format_t>, std::hash<e5rt_surface_format_t>>, std::allocator<std::pair<const e5rt_surface_format_t, std::vector<unsigned int>>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<e5rt_surface_format_t, std::vector<unsigned int>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<e5rt_surface_format_t, std::vector<unsigned int>>, void *> *> *>>>=\"\"{?=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<e5rt_surface_format_t, std::vector<unsigned int>>, void *> *> *>>=\"\"{?=\"__size_\"Q}}}}\"\"{?=\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<e5rt_surface_format_t, std::vector<unsigned int>>, void *> *>=\"__next_\"^v}}\"\"{?=\"__size_\"Q}\"\"{?=\"__max_load_factor_\"f}}}"
++ "{unordered_map<std::string, PixelBufferSharedPtr, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, PixelBufferSharedPtr>>>=\"__table_\"{__hash_table<std::__hash_value_type<std::string, PixelBufferSharedPtr>, std::__unordered_map_hasher<std::string, std::pair<const std::string, PixelBufferSharedPtr>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, PixelBufferSharedPtr>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, PixelBufferSharedPtr>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, PixelBufferSharedPtr>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, PixelBufferSharedPtr>, void *> *> *>>>=\"\"{?=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, PixelBufferSharedPtr>, void *> *> *>>=\"\"{?=\"__size_\"Q}}}}\"\"{?=\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, PixelBufferSharedPtr>, void *> *>=\"__next_\"^v}}\"\"{?=\"__size_\"Q}\"\"{?=\"__max_load_factor_\"f}}}"
+- "B48@0:8{map<std::string, docopt::value, std::less<std::string>, std::allocator<std::pair<const std::string, docopt::value>>>={__tree<std::__value_type<std::string, docopt::value>, std::__map_value_compare<std::string, std::__value_type<std::string, docopt::value>, std::less<std::string>>, std::allocator<std::__value_type<std::string, docopt::value>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}}16@40"
+- "setting verboseLogs: %d"
+- "{map<std::string, std::multiset<Element *, Element::ElementCompare> *, std::less<std::string>, std::allocator<std::pair<const std::string, std::multiset<Element *, Element::ElementCompare> *>>>=\"__tree_\"{__tree<std::__value_type<std::string, std::multiset<Element *, Element::ElementCompare> *>, std::__map_value_compare<std::string, std::__value_type<std::string, std::multiset<Element *, Element::ElementCompare> *>, std::less<std::string>>, std::allocator<std::__value_type<std::string, std::multiset<Element *, Element::ElementCompare> *>>>=\"__begin_node_\"^v\"\"{?=\"__end_node_\"{__tree_end_node<std::__tree_node_base<void *> *>=\"__left_\"^v}}\"\"{?=\"__size_\"Q}}}"
+- "{unordered_map<e5rt_surface_format_t, std::vector<unsigned int>, std::hash<e5rt_surface_format_t>, std::equal_to<e5rt_surface_format_t>, std::allocator<std::pair<const e5rt_surface_format_t, std::vector<unsigned int>>>>=\"__table_\"{__hash_table<std::__hash_value_type<e5rt_surface_format_t, std::vector<unsigned int>>, std::__unordered_map_hasher<e5rt_surface_format_t, std::__hash_value_type<e5rt_surface_format_t, std::vector<unsigned int>>, std::hash<e5rt_surface_format_t>, std::equal_to<e5rt_surface_format_t>>, std::__unordered_map_equal<e5rt_surface_format_t, std::__hash_value_type<e5rt_surface_format_t, std::vector<unsigned int>>, std::equal_to<e5rt_surface_format_t>, std::hash<e5rt_surface_format_t>>, std::allocator<std::__hash_value_type<e5rt_surface_format_t, std::vector<unsigned int>>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<e5rt_surface_format_t, std::vector<unsigned int>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<e5rt_surface_format_t, std::vector<unsigned int>>, void *> *> *>>>=\"\"{?=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<e5rt_surface_format_t, std::vector<unsigned int>>, void *> *> *>>=\"\"{?=\"__size_\"Q}}}}\"\"{?=\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<e5rt_surface_format_t, std::vector<unsigned int>>, void *> *>=\"__next_\"^v}}\"\"{?=\"__size_\"Q}\"\"{?=\"__max_load_factor_\"f}}}"
+- "{unordered_map<std::string, PixelBufferSharedPtr, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, PixelBufferSharedPtr>>>=\"__table_\"{__hash_table<std::__hash_value_type<std::string, PixelBufferSharedPtr>, std::__unordered_map_hasher<std::string, std::__hash_value_type<std::string, PixelBufferSharedPtr>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::__hash_value_type<std::string, PixelBufferSharedPtr>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::__hash_value_type<std::string, PixelBufferSharedPtr>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, PixelBufferSharedPtr>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, PixelBufferSharedPtr>, void *> *> *>>>=\"\"{?=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, PixelBufferSharedPtr>, void *> *> *>>=\"\"{?=\"__size_\"Q}}}}\"\"{?=\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, PixelBufferSharedPtr>, void *> *>=\"__next_\"^v}}\"\"{?=\"__size_\"Q}\"\"{?=\"__max_load_factor_\"f}}}"
+
+```

@@ -1,0 +1,1173 @@
+## CoreIDV
+
+> `/System/Library/PrivateFrameworks/CoreIDV.framework/CoreIDV`
+
+```diff
+
+-8.303.0.0.0
+-  __TEXT.__text: 0xee848
+-  __TEXT.__auth_stubs: 0x1760
+-  __TEXT.__objc_methlist: 0x2814
+-  __TEXT.__const: 0x14464
+-  __TEXT.__cstring: 0x6414
+-  __TEXT.__oslogstring: 0x2578
++8.415.0.0.0
++  __TEXT.__text: 0xcf984
++  __TEXT.__auth_stubs: 0x1750
++  __TEXT.__objc_methlist: 0x2a60
++  __TEXT.__const: 0x135d4
++  __TEXT.__cstring: 0x3b06
++  __TEXT.__oslogstring: 0x2153
+   __TEXT.__gcc_except_tab: 0x1c
+   __TEXT.__ustring: 0x8
+-  __TEXT.__constg_swiftt: 0x3698
+-  __TEXT.__swift5_typeref: 0x4836
+-  __TEXT.__swift5_builtin: 0x78
+-  __TEXT.__swift5_reflstr: 0x2206
+-  __TEXT.__swift5_fieldmd: 0x3af8
+-  __TEXT.__swift5_assocty: 0x498
+-  __TEXT.__swift5_proto: 0x1144
+-  __TEXT.__swift5_types: 0x55c
+-  __TEXT.__swift5_protos: 0x28
+-  __TEXT.__swift5_mpenum: 0x18
+-  __TEXT.__swift_as_entry: 0x354
+-  __TEXT.__swift_as_ret: 0x370
+-  __TEXT.__swift5_capture: 0xc9c
+-  __TEXT.__unwind_info: 0x4e70
+-  __TEXT.__eh_frame: 0x88b0
+-  __TEXT.__objc_classname: 0x3f9
+-  __TEXT.__objc_methname: 0x3608
+-  __TEXT.__objc_methtype: 0x593
+-  __TEXT.__objc_stubs: 0x13c0
+-  __DATA_CONST.__got: 0x5e0
+-  __DATA_CONST.__const: 0x600
+-  __DATA_CONST.__objc_classlist: 0x278
++  __TEXT.__swift5_typeref: 0x41da
++  __TEXT.__constg_swiftt: 0x34cc
++  __TEXT.__swift5_reflstr: 0x17fb
++  __TEXT.__swift5_fieldmd: 0x349c
++  __TEXT.__swift5_builtin: 0x64
++  __TEXT.__swift5_assocty: 0x270
++  __TEXT.__swift5_proto: 0x1100
++  __TEXT.__swift5_types: 0x540
++  __TEXT.__swift_as_entry: 0x1b8
++  __TEXT.__swift_as_ret: 0x1d4
++  __TEXT.__swift5_capture: 0x540
++  __TEXT.__swift5_mpenum: 0x10
++  __TEXT.__swift5_protos: 0x1c
++  __TEXT.__unwind_info: 0x4280
++  __TEXT.__eh_frame: 0x6038
++  __TEXT.__objc_classname: 0xed6
++  __TEXT.__objc_methname: 0x4039
++  __TEXT.__objc_methtype: 0x1fdf
++  __TEXT.__objc_stubs: 0x1e60
++  __DATA_CONST.__got: 0x920
++  __DATA_CONST.__const: 0x5a8
++  __DATA_CONST.__objc_classlist: 0x270
+   __DATA_CONST.__objc_protolist: 0xa8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xf38
++  __DATA_CONST.__objc_selrefs: 0xfd8
+   __DATA_CONST.__objc_protorefs: 0x70
+   __DATA_CONST.__objc_superrefs: 0x120
+   __DATA_CONST.__objc_arraydata: 0x30
+-  __AUTH_CONST.__auth_got: 0xbc0
+-  __AUTH_CONST.__const: 0xa768
+-  __AUTH_CONST.__cfstring: 0x1b20
+-  __AUTH_CONST.__objc_const: 0x5cd8
++  __AUTH_CONST.__auth_got: 0xbb8
++  __AUTH_CONST.__const: 0x7ca0
++  __AUTH_CONST.__cfstring: 0x1b40
++  __AUTH_CONST.__objc_const: 0x5dd0
+   __AUTH_CONST.__objc_arrayobj: 0x18
+-  __AUTH.__objc_data: 0xb88
+-  __AUTH.__data: 0xf90
+-  __DATA.__objc_ivar: 0x22c
+-  __DATA.__data: 0x3b98
+-  __DATA.__bss: 0x22560
+-  __DATA.__common: 0x50
+-  __DATA_DIRTY.__objc_data: 0x14c8
+-  __DATA_DIRTY.__data: 0xe90
+-  __DATA_DIRTY.__bss: 0x40
+-  __DATA_DIRTY.__common: 0x18
++  __AUTH.__objc_data: 0xc18
++  __AUTH.__data: 0xd78
++  __DATA.__objc_ivar: 0x230
++  __DATA.__data: 0x3a40
++  __DATA.__bss: 0x21c60
++  __DATA.__common: 0x40
++  __DATA_DIRTY.__objc_data: 0x14b8
++  __DATA_DIRTY.__data: 0xcb0
++  __DATA_DIRTY.__bss: 0x130
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/ExtensionFoundation.framework/ExtensionFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Security.framework/Security
+-  - /System/Library/PrivateFrameworks/RTCReporting.framework/RTCReporting
+-  - /usr/lib/libMobileGestalt.dylib
++  - /System/Library/PrivateFrameworks/CoreIDVShared.framework/CoreIDVShared
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 16D29209-5CED-315B-BAC7-A5B8C600264D
+-  Functions: 7175
+-  Symbols:   4730
+-  CStrings:  1872
++  UUID: 0D231A71-C938-316B-B31B-CBADB55F9883
++  Functions: 6195
++  Symbols:   4516
++  CStrings:  1757
+ 
+Symbols:
++ +[DIIdentityElement dhsTemporaryLawfulStatusElement]
++ +[DIIdentityElement nationalityElement]
++ +[DIIdentityElement placeOfBirthElement]
++ +[DIIdentityElement signatureUsualMarkElement]
++ -[DIIdentityRequest merchantLogoOverride]
++ -[DIIdentityRequest setMerchantLogoOverride:]
++ _DIP_LOG_SIGNPOST
++ _DIP_LOG_SIGNPOST.cold.1
++ _DIP_LOG_SIGNPOST.log
++ _DIP_LOG_SIGNPOST.once
++ _OBJC_CLASS_$__TtC7CoreIDV44DigitalPresentmentMerchantOverrideParameters
++ _OBJC_IVAR_$_DIIdentityRequest._merchantLogoOverride
++ _OBJC_METACLASS_$__TtC7CoreIDV44DigitalPresentmentMerchantOverrideParameters
++ _OUTLINED_FUNCTION_2
++ _OUTLINED_FUNCTION_3
++ _OUTLINED_FUNCTION_4
++ __CLASS_METHODS__TtC7CoreIDV44DigitalPresentmentMerchantOverrideParameters
++ __CLASS_PROPERTIES__TtC7CoreIDV44DigitalPresentmentMerchantOverrideParameters
++ __DATA__TtC7CoreIDV37MobileDocumentProviderSettingsManager
++ __DATA__TtC7CoreIDV44DigitalPresentmentMerchantOverrideParameters
++ __INSTANCE_METHODS__TtC7CoreIDV44DigitalPresentmentMerchantOverrideParameters
++ __IVARS__TtC7CoreIDV37MobileDocumentProviderSettingsManager
++ __IVARS__TtC7CoreIDV44DigitalPresentmentMerchantOverrideParameters
++ __METACLASS_DATA__TtC7CoreIDV37MobileDocumentProviderSettingsManager
++ __METACLASS_DATA__TtC7CoreIDV44DigitalPresentmentMerchantOverrideParameters
++ __PROTOCOLS__TtC7CoreIDV23IdentityProofingSession.5
++ __PROTOCOLS__TtC7CoreIDV27IdentityProvisioningSession.5
++ __PROTOCOLS__TtC7CoreIDV44DigitalPresentmentMerchantOverrideParameters
++ __PROTOCOLS__TtC7CoreIDV44DigitalPresentmentMerchantOverrideParameters.2
++ __PROTOCOL_INSTANCE_METHODS__TtP13CoreIDVShared28IdentityManagementUIProtocol_
++ __PROTOCOL_METHOD_TYPES__TtP13CoreIDVShared28IdentityManagementUIProtocol_
++ __PROTOCOL__TtP13CoreIDVShared28IdentityManagementUIProtocol_
++ ___DIP_LOG_SIGNPOST_block_invoke
++ __swift_FORCE_LOAD_$_swiftCoreImage
++ __swift_FORCE_LOAD_$_swiftCoreImage_$_CoreIDV
++ _associated conformance 7CoreIDV13XPCAuditTokenC0A9IDVShared17XPCValueContainerAA5ValueAdEP_SE
++ _associated conformance 7CoreIDV13XPCAuditTokenC0A9IDVShared17XPCValueContainerAA5ValueAdEP_Se
++ _associated conformance 7CoreIDV17TrustedIssuerRootV10CodingKeys33_BA8BB3616DA4291B81470B0F7BF15790LLOSHAASQ
++ _associated conformance 7CoreIDV17TrustedIssuerRootV10CodingKeys33_BA8BB3616DA4291B81470B0F7BF15790LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 7CoreIDV17TrustedIssuerRootV10CodingKeys33_BA8BB3616DA4291B81470B0F7BF15790LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7CoreIDV17TrustedIssuerRootVSHAASQ
++ _associated conformance 7CoreIDV21MobileDocumentElementV0E0O21NationalityCodingKeys33_2D04D6C920D409068FE713CD3634E4B6LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 7CoreIDV21MobileDocumentElementV0E0O21NationalityCodingKeys33_2D04D6C920D409068FE713CD3634E4B6LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7CoreIDV21MobileDocumentElementV0E0O22PlaceOfBirthCodingKeys33_2D04D6C920D409068FE713CD3634E4B6LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 7CoreIDV21MobileDocumentElementV0E0O22PlaceOfBirthCodingKeys33_2D04D6C920D409068FE713CD3634E4B6LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7CoreIDV21MobileDocumentElementV0E0O28SignatureUsualMarkCodingKeys33_2D04D6C920D409068FE713CD3634E4B6LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 7CoreIDV21MobileDocumentElementV0E0O28SignatureUsualMarkCodingKeys33_2D04D6C920D409068FE713CD3634E4B6LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7CoreIDV21MobileDocumentElementV0E0O34DhsTemporaryLawfulStatusCodingKeys33_2D04D6C920D409068FE713CD3634E4B6LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 7CoreIDV21MobileDocumentElementV0E0O34DhsTemporaryLawfulStatusCodingKeys33_2D04D6C920D409068FE713CD3634E4B6LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7CoreIDV28IdentityMerchantLogoOverrideOSHAASQ
++ _associated conformance 7CoreIDV29XPCIdentityDocumentDescriptorC0A9IDVShared17XPCValueContainerAA5ValueAdEP_SE
++ _associated conformance 7CoreIDV29XPCIdentityDocumentDescriptorC0A9IDVShared17XPCValueContainerAA5ValueAdEP_Se
++ _associated conformance 7CoreIDV30XPCMobileDocumentReaderRequestC0A9IDVShared17XPCValueContainerAA5ValueAdEP_SE
++ _associated conformance 7CoreIDV30XPCMobileDocumentReaderRequestC0A9IDVShared17XPCValueContainerAA5ValueAdEP_Se
++ _associated conformance 7CoreIDV31IdentityDocumentElementCategoryV0F4TypeO21NationalityCodingKeys33_30B867DA2803BA0765E8BA99BA28247FLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 7CoreIDV31IdentityDocumentElementCategoryV0F4TypeO21NationalityCodingKeys33_30B867DA2803BA0765E8BA99BA28247FLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7CoreIDV31IdentityDocumentElementCategoryV0F4TypeO22PlaceOfBirthCodingKeys33_30B867DA2803BA0765E8BA99BA28247FLLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 7CoreIDV31IdentityDocumentElementCategoryV0F4TypeO22PlaceOfBirthCodingKeys33_30B867DA2803BA0765E8BA99BA28247FLLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7CoreIDV31IdentityDocumentElementCategoryV0F4TypeO28SignatureUsualMarkCodingKeys33_30B867DA2803BA0765E8BA99BA28247FLLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 7CoreIDV31IdentityDocumentElementCategoryV0F4TypeO28SignatureUsualMarkCodingKeys33_30B867DA2803BA0765E8BA99BA28247FLLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7CoreIDV31IdentityDocumentElementCategoryV0F4TypeO34DhsTemporaryLawfulStatusCodingKeys33_30B867DA2803BA0765E8BA99BA28247FLLOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 7CoreIDV31IdentityDocumentElementCategoryV0F4TypeO34DhsTemporaryLawfulStatusCodingKeys33_30B867DA2803BA0765E8BA99BA28247FLLOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7CoreIDV31IdentityDocumentElementCategoryV0F4TypeOSLAASQ
++ _associated conformance 7CoreIDV31XPCMobileDocumentReaderMerchantC0A9IDVShared17XPCValueContainerAA5ValueAdEP_SE
++ _associated conformance 7CoreIDV31XPCMobileDocumentReaderMerchantC0A9IDVShared17XPCValueContainerAA5ValueAdEP_Se
++ _associated conformance 7CoreIDV31XPCMobileDocumentReaderResponseC0A9IDVShared17XPCValueContainerAA5ValueAdEP_SE
++ _associated conformance 7CoreIDV31XPCMobileDocumentReaderResponseC0A9IDVShared17XPCValueContainerAA5ValueAdEP_Se
++ _associated conformance 7CoreIDV35XPCMobileDocumentReaderSessionStateC0A9IDVShared17XPCValueContainerAA5ValueAdEP_SE
++ _associated conformance 7CoreIDV35XPCMobileDocumentReaderSessionStateC0A9IDVShared17XPCValueContainerAA5ValueAdEP_Se
++ _associated conformance 7CoreIDV36XPCMobileDocumentReaderConfigurationC0A9IDVShared17XPCValueContainerAA5ValueAdEP_SE
++ _associated conformance 7CoreIDV36XPCMobileDocumentReaderConfigurationC0A9IDVShared17XPCValueContainerAA5ValueAdEP_Se
++ _associated conformance 7CoreIDV37XPCIdentityDocumentCompoundDescriptorC0A9IDVShared17XPCValueContainerAA5ValueAdEP_SE
++ _associated conformance 7CoreIDV37XPCIdentityDocumentCompoundDescriptorC0A9IDVShared17XPCValueContainerAA5ValueAdEP_Se
++ _associated conformance 7CoreIDV39XPCMobileDocumentProviderStatusResponseC0A9IDVShared17XPCValueContainerAA5ValueAdEP_SE
++ _associated conformance 7CoreIDV39XPCMobileDocumentProviderStatusResponseC0A9IDVShared17XPCValueContainerAA5ValueAdEP_Se
++ _associated conformance 7CoreIDV40IdentityDocumentPresentmentConfigurationV12RelyingPartyV0gH4TypeO05Firsth7ServiceF0V10CodingKeys33_601597FFBEBBD9F446EBC0616307D55ALLOSHAASQ
++ _associated conformance 7CoreIDV41XPCMobileDocumentReaderCertificateRequestC0A9IDVShared17XPCValueContainerAA5ValueAdEP_SE
++ _associated conformance 7CoreIDV41XPCMobileDocumentReaderCertificateRequestC0A9IDVShared17XPCValueContainerAA5ValueAdEP_Se
++ _associated conformance 7CoreIDV41XPCMobileDocumentReaderIdentityKeyRequestC0A9IDVShared17XPCValueContainerAA5ValueAdEP_SE
++ _associated conformance 7CoreIDV41XPCMobileDocumentReaderIdentityKeyRequestC0A9IDVShared17XPCValueContainerAA5ValueAdEP_Se
++ _associated conformance 7CoreIDV42XPCMobileDocumentProviderUnregisterRequestC0A9IDVShared17XPCValueContainerAA5ValueAdEP_SE
++ _associated conformance 7CoreIDV42XPCMobileDocumentProviderUnregisterRequestC0A9IDVShared17XPCValueContainerAA5ValueAdEP_Se
++ _associated conformance 7CoreIDV42XPCMobileDocumentReaderCertificateResponseC0A9IDVShared17XPCValueContainerAA5ValueAdEP_SE
++ _associated conformance 7CoreIDV42XPCMobileDocumentReaderCertificateResponseC0A9IDVShared17XPCValueContainerAA5ValueAdEP_Se
++ _associated conformance 7CoreIDV42XPCMobileDocumentReaderIdentityKeyResponseC0A9IDVShared17XPCValueContainerAA5ValueAdEP_SE
++ _associated conformance 7CoreIDV42XPCMobileDocumentReaderIdentityKeyResponseC0A9IDVShared17XPCValueContainerAA5ValueAdEP_Se
++ _associated conformance 7CoreIDV43XPCMobileDocumentReaderDeviceEngagementTypeC0A9IDVShared17XPCValueContainerAA5ValueAdEP_SE
++ _associated conformance 7CoreIDV43XPCMobileDocumentReaderDeviceEngagementTypeC0A9IDVShared17XPCValueContainerAA5ValueAdEP_Se
++ _associated conformance 7CoreIDV44XPCMobileDocumentProviderRegistrationRequestC0A9IDVShared17XPCValueContainerAA5ValueAdEP_SE
++ _associated conformance 7CoreIDV44XPCMobileDocumentProviderRegistrationRequestC0A9IDVShared17XPCValueContainerAA5ValueAdEP_Se
++ _associated conformance 7CoreIDV44XPCMobileDocumentReaderConfigurationResponseC0A9IDVShared17XPCValueContainerAA5ValueAdEP_SE
++ _associated conformance 7CoreIDV44XPCMobileDocumentReaderConfigurationResponseC0A9IDVShared17XPCValueContainerAA5ValueAdEP_Se
++ _associated conformance 7CoreIDV48XPCMobileDocumentReaderIssuerRootCertificateListC0A9IDVShared17XPCValueContainerAA5ValueAdEP_SE
++ _associated conformance 7CoreIDV48XPCMobileDocumentReaderIssuerRootCertificateListC0A9IDVShared17XPCValueContainerAA5ValueAdEP_Se
++ _associated conformance 7CoreIDV51XPCMobileDocumentProviderQueryRegistrationsResponseC0A9IDVShared17XPCValueContainerAA5ValueAdEP_SE
++ _associated conformance 7CoreIDV51XPCMobileDocumentProviderQueryRegistrationsResponseC0A9IDVShared17XPCValueContainerAA5ValueAdEP_Se
++ _associated conformance 7CoreIDV53XPCMobileDocumentProviderQueryAllApplicationsResponseC0A9IDVShared17XPCValueContainerAA5ValueAdEP_SE
++ _associated conformance 7CoreIDV53XPCMobileDocumentProviderQueryAllApplicationsResponseC0A9IDVShared17XPCValueContainerAA5ValueAdEP_Se
++ _block_copy_helper.122
++ _block_copy_helper.146
++ _block_copy_helper.170
++ _block_copy_helper.194
++ _block_copy_helper.45
++ _block_copy_helper.48
++ _block_copy_helper.49
++ _block_copy_helper.51
++ _block_copy_helper.55
++ _block_copy_helper.59
++ _block_copy_helper.65
++ _block_copy_helper.67
++ _block_copy_helper.71
++ _block_copy_helper.81
++ _block_copy_helper.94
++ _block_descriptor.124
++ _block_descriptor.148
++ _block_descriptor.172
++ _block_descriptor.196
++ _block_descriptor.47
++ _block_descriptor.50
++ _block_descriptor.51
++ _block_descriptor.53
++ _block_descriptor.57
++ _block_descriptor.61
++ _block_descriptor.67
++ _block_descriptor.69
++ _block_descriptor.73
++ _block_descriptor.83
++ _block_descriptor.96
++ _block_destroy_helper.123
++ _block_destroy_helper.147
++ _block_destroy_helper.171
++ _block_destroy_helper.195
++ _block_destroy_helper.46
++ _block_destroy_helper.49
++ _block_destroy_helper.50
++ _block_destroy_helper.52
++ _block_destroy_helper.56
++ _block_destroy_helper.60
++ _block_destroy_helper.66
++ _block_destroy_helper.68
++ _block_destroy_helper.72
++ _block_destroy_helper.82
++ _block_destroy_helper.95
++ _flat unique 13CoreIDVShared28IdentityManagementUIProtocol_p
++ _objc_msgSend$allApplicationsWithCompletionHandler:
++ _objc_msgSend$appClipMetadata
++ _objc_msgSend$applicationExtensionRecord
++ _objc_msgSend$applicationIdentifier
++ _objc_msgSend$applicationIdentifierOverride
++ _objc_msgSend$authorizationStatusWithCompletionHandler:
++ _objc_msgSend$boolForKey:
++ _objc_msgSend$boolValue
++ _objc_msgSend$bundleIdentifier
++ _objc_msgSend$bundleRecordForAuditToken:error:
++ _objc_msgSend$bundleRecordForCurrentProcess
++ _objc_msgSend$bundleRecordWithApplicationIdentifier:error:
++ _objc_msgSend$bundleRecordWithBundleIdentifier:allowPlaceholder:error:
++ _objc_msgSend$cachedIssuerRootsWithCompletionHandler:
++ _objc_msgSend$canRequestDocument:completionHandler:
++ _objc_msgSend$canRequestDocumentWithCompoundDescriptor:completionHandler:
++ _objc_msgSend$cancelReadWithCompletionHandler:
++ _objc_msgSend$cancelRequestWithCompletionHandler:
++ _objc_msgSend$certificate:completionHandler:
++ _objc_msgSend$clearCachedIssuerRootsWithCompletionHandler:
++ _objc_msgSend$code
++ _objc_msgSend$containingBundleRecord
++ _objc_msgSend$containsValueForKey:
++ _objc_msgSend$deleteBoundACLWithCompletionHandler:
++ _objc_msgSend$deleteCertificate:completionHandler:
++ _objc_msgSend$deleteIdentityKey:completionHandler:
++ _objc_msgSend$descriptor
++ _objc_msgSend$descriptors
++ _objc_msgSend$deviceIdentifierForVendor
++ _objc_msgSend$dhsTemporaryLawfulStatus
++ _objc_msgSend$domain
++ _objc_msgSend$elements
++ _objc_msgSend$enabled
++ _objc_msgSend$entitlements
++ _objc_msgSend$executeQuery:completionHandler:
++ _objc_msgSend$iTunesMetadata
++ _objc_msgSend$identityKey:completionHandler:
++ _objc_msgSend$initWithArray:
++ _objc_msgSend$initWithBool:
++ _objc_msgSend$initWithBundleIdentifier:error:
++ _objc_msgSend$initWithDomain:code:userInfo:
++ _objc_msgSend$initWithEncryptedData:
++ _objc_msgSend$initWithExtensionPointIdentifier:
++ _objc_msgSend$initWithSuiteName:
++ _objc_msgSend$intentToStoreForElement:
++ _objc_msgSend$isDocumentProviderExtensionEnabledFor:
++ _objc_msgSend$loadIssuerRootsWithCompletionHandler:
++ _objc_msgSend$localizedName
++ _objc_msgSend$localizedUsageDescriptionForFeature:
++ _objc_msgSend$localizedUsageDescriptionForFeature:contextKey:
++ _objc_msgSend$mainBundle
++ _objc_msgSend$merchantFor:completionHandler:
++ _objc_msgSend$merchantIdentifier
++ _objc_msgSend$merchantLogoOverride
++ _objc_msgSend$merchantNameOverride
++ _objc_msgSend$merchantPrivacyPolicyOverride
++ _objc_msgSend$nationality
++ _objc_msgSend$nonce
++ _objc_msgSend$notifyEnablementUpdateTo:for:completionHandler:
++ _objc_msgSend$objectForKey:ofClass:
++ _objc_msgSend$placeOfBirth
++ _objc_msgSend$prepareWith:completionHandler:
++ _objc_msgSend$readDocumentWith:engagementType:completionHandler:
++ _objc_msgSend$readerInstanceIdentifierWithCompletionHandler:
++ _objc_msgSend$regionCode
++ _objc_msgSend$registerAuditToken:completionHandler:
++ _objc_msgSend$registerDefaults:
++ _objc_msgSend$registerWithRequest:applicationIdentifierOverride:completionHandler:
++ _objc_msgSend$registrationsWithApplicationIdentifierOverride:completionHandler:
++ _objc_msgSend$requestDocument:completionHandler:
++ _objc_msgSend$setBool:forKey:
++ _objc_msgSend$setDocumentProviderExtensionEnablementFor:to:
++ _objc_msgSend$setObject:forKey:
++ _objc_msgSend$showDocumentProviderExtensionFor:completion:
++ _objc_msgSend$signatureUsualMark
++ _objc_msgSend$standardUserDefaults
++ _objc_msgSend$storeCertificate:certificateDER:externalData:completionHandler:
++ _objc_msgSend$storeItemIdentifier
++ _objc_msgSend$stringArrayForKey:
++ _objc_msgSend$teamIdentifier
++ _objc_msgSend$unelected
++ _objc_msgSend$unregisterWithRequest:applicationIdentifierOverride:completionHandler:
++ _objc_msgSend$usageDescriptionKey
++ _objc_msgSend$userInfo
++ _objc_msgSend$valueForEntitlement:
++ _objectdestroy.10Tm
++ _objectdestroy.13Tm
++ _objectdestroy.19Tm
++ _objectdestroy.41Tm
++ _objectdestroy.48Tm
++ _symbolic $s13CoreIDVShared17XPCValueContainerP
++ _symbolic Say_____G 13CoreIDVShared11CertificateV
++ _symbolic Say_____GSg 13CoreIDVShared11CertificateV
++ _symbolic ScCySo8NSNumberC______pG s5ErrorP
++ _symbolic ShySSG
++ _symbolic Shy_____G 7CoreIDV17TrustedIssuerRootV
++ _symbolic _____ 13CoreIDVShared11CertificateV
++ _symbolic _____ 13CoreIDVShared21ISO18013KnownDocTypesO
++ _symbolic _____ 7CoreIDV17TrustedIssuerRootV
++ _symbolic _____ 7CoreIDV17TrustedIssuerRootV10CodingKeys33_BA8BB3616DA4291B81470B0F7BF15790LLO
++ _symbolic _____ 7CoreIDV21MobileDocumentElementV0E0O21NationalityCodingKeys33_2D04D6C920D409068FE713CD3634E4B6LLO
++ _symbolic _____ 7CoreIDV21MobileDocumentElementV0E0O22PlaceOfBirthCodingKeys33_2D04D6C920D409068FE713CD3634E4B6LLO
++ _symbolic _____ 7CoreIDV21MobileDocumentElementV0E0O28SignatureUsualMarkCodingKeys33_2D04D6C920D409068FE713CD3634E4B6LLO
++ _symbolic _____ 7CoreIDV21MobileDocumentElementV0E0O34DhsTemporaryLawfulStatusCodingKeys33_2D04D6C920D409068FE713CD3634E4B6LLO
++ _symbolic _____ 7CoreIDV28IdentityMerchantLogoOverrideO
++ _symbolic _____ 7CoreIDV31IdentityDocumentElementCategoryV0F4TypeO21NationalityCodingKeys33_30B867DA2803BA0765E8BA99BA28247FLLO
++ _symbolic _____ 7CoreIDV31IdentityDocumentElementCategoryV0F4TypeO22PlaceOfBirthCodingKeys33_30B867DA2803BA0765E8BA99BA28247FLLO
++ _symbolic _____ 7CoreIDV31IdentityDocumentElementCategoryV0F4TypeO28SignatureUsualMarkCodingKeys33_30B867DA2803BA0765E8BA99BA28247FLLO
++ _symbolic _____ 7CoreIDV31IdentityDocumentElementCategoryV0F4TypeO34DhsTemporaryLawfulStatusCodingKeys33_30B867DA2803BA0765E8BA99BA28247FLLO
++ _symbolic _____ 7CoreIDV37MobileDocumentProviderSettingsManagerC
++ _symbolic _____ 7CoreIDV44DigitalPresentmentMerchantOverrideParametersC
++ _symbolic _____Sg 13CoreIDVShared21ISO18013KnownDocTypesO
++ _symbolic _____Sg 13CoreIDVShared23ISO18013KnownNamespacesO
++ _symbolic _____Sg 13CoreIDVShared28ISO23220_1_ElementIdentifierO
++ _symbolic _____Sg 13CoreIDVShared30ISO18013_5_1_ElementIdentifierO
++ _symbolic _____Sg 13CoreIDVShared32ISO18013_AAMVA_ElementIdentifierO
++ _symbolic _____Sg 13CoreIDVShared34ISO23220_1_Japan_ElementIdentifierO
++ _symbolic _____Sg 13CoreIDVShared36ISO23220_PhotoID_1_ElementIdentifierO
++ _symbolic _____Sg 13CoreIDVShared8DIPErrorV4CodeO
++ _symbolic ______ShySSGt So17SecCertificateRefa
++ _symbolic ____________pt 13CoreIDVShared8DIPErrorV11PropertyKeyO s23CustomStringConvertibleP
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7CoreIDV17TrustedIssuerRootV10CodingKeys33_BA8BB3616DA4291B81470B0F7BF15790LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7CoreIDV21MobileDocumentElementV0H0O21NationalityCodingKeys33_2D04D6C920D409068FE713CD3634E4B6LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7CoreIDV21MobileDocumentElementV0H0O22PlaceOfBirthCodingKeys33_2D04D6C920D409068FE713CD3634E4B6LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7CoreIDV21MobileDocumentElementV0H0O28SignatureUsualMarkCodingKeys33_2D04D6C920D409068FE713CD3634E4B6LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7CoreIDV21MobileDocumentElementV0H0O34DhsTemporaryLawfulStatusCodingKeys33_2D04D6C920D409068FE713CD3634E4B6LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7CoreIDV31IdentityDocumentElementCategoryV0I4TypeO21NationalityCodingKeys33_30B867DA2803BA0765E8BA99BA28247FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7CoreIDV31IdentityDocumentElementCategoryV0I4TypeO22PlaceOfBirthCodingKeys33_30B867DA2803BA0765E8BA99BA28247FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7CoreIDV31IdentityDocumentElementCategoryV0I4TypeO28SignatureUsualMarkCodingKeys33_30B867DA2803BA0765E8BA99BA28247FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7CoreIDV31IdentityDocumentElementCategoryV0I4TypeO34DhsTemporaryLawfulStatusCodingKeys33_30B867DA2803BA0765E8BA99BA28247FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 7CoreIDV40IdentityDocumentPresentmentConfigurationV12RelyingPartyV0jK4TypeO05Firstk7ServiceI0V10CodingKeys33_601597FFBEBBD9F446EBC0616307D55ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7CoreIDV17TrustedIssuerRootV10CodingKeys33_BA8BB3616DA4291B81470B0F7BF15790LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7CoreIDV21MobileDocumentElementV0H0O21NationalityCodingKeys33_2D04D6C920D409068FE713CD3634E4B6LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7CoreIDV21MobileDocumentElementV0H0O22PlaceOfBirthCodingKeys33_2D04D6C920D409068FE713CD3634E4B6LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7CoreIDV21MobileDocumentElementV0H0O28SignatureUsualMarkCodingKeys33_2D04D6C920D409068FE713CD3634E4B6LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7CoreIDV21MobileDocumentElementV0H0O34DhsTemporaryLawfulStatusCodingKeys33_2D04D6C920D409068FE713CD3634E4B6LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7CoreIDV31IdentityDocumentElementCategoryV0I4TypeO21NationalityCodingKeys33_30B867DA2803BA0765E8BA99BA28247FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7CoreIDV31IdentityDocumentElementCategoryV0I4TypeO22PlaceOfBirthCodingKeys33_30B867DA2803BA0765E8BA99BA28247FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7CoreIDV31IdentityDocumentElementCategoryV0I4TypeO28SignatureUsualMarkCodingKeys33_30B867DA2803BA0765E8BA99BA28247FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 7CoreIDV31IdentityDocumentElementCategoryV0I4TypeO34DhsTemporaryLawfulStatusCodingKeys33_30B867DA2803BA0765E8BA99BA28247FLLO
++ _symbolic _____y___________pG s18_DictionaryStorageC 13CoreIDVShared8DIPErrorV11PropertyKeyO s23CustomStringConvertibleP
++ _symbolic _____y______pG 13CoreIDVShared21SendableXPCConnectionC 0A3IDV27IdentityProofingXPCProtocolP
++ _symbolic _____y______pG 13CoreIDVShared21SendableXPCConnectionC 0A3IDV29DigitalPresentmentXPCProtocolP
++ _symbolic _____y______pG 13CoreIDVShared21SendableXPCConnectionC 0A3IDV29MobileDocumentReaderInterfaceP
++ _symbolic _____y______pG 13CoreIDVShared21SendableXPCConnectionC 0A3IDV31IdentityProvisioningXPCProtocolP
++ _symbolic _____y______pG 13CoreIDVShared21SendableXPCConnectionC 0A3IDV43MobileDocumentProviderRegistrationInterfaceP
++ _symbolic _____y______pG 13CoreIDVShared21SendableXPCConnectionC AA28IdentityManagementUIProtocolP
++ _type_layout_string 7CoreIDV40IdentityDocumentPresentmentConfigurationV12RelyingPartyV0gH4TypeO05Firsth7ServiceF0V
+- -[DIIdentityRequest setapplicationIdentifierOverride:]
+- _DIV_LOG_SIGNPOST
+- _DIV_LOG_SIGNPOST.cold.1
+- _DIV_LOG_SIGNPOST.log
+- _DIV_LOG_SIGNPOST.once
+- _MobileGestalt_get_current_device
+- _MobileGestalt_get_deviceClassNumber
+- _OBJC_CLASS_$_NSKeyedArchiver
+- _OBJC_CLASS_$_NSKeyedUnarchiver
+- _OBJC_CLASS_$_RTCReporting
+- _SecCertificateCreateWithData
+- __DATA__TtC7CoreIDV25IdentityAnalyticsReporter
+- __DATA__TtC7CoreIDV31WalletSettingsAnalyticsReporter
+- __DATA__TtC7CoreIDVP33_6CE92F9B26066C518046859BF390522211BundleToken
+- __IVARS__TtC7CoreIDV21SendableXPCConnection
+- __IVARS__TtC7CoreIDV25IdentityAnalyticsReporter
+- __IVARS__TtC7CoreIDV31WalletSettingsAnalyticsReporter
+- __METACLASS_DATA__TtC7CoreIDV25IdentityAnalyticsReporter
+- __METACLASS_DATA__TtC7CoreIDV31WalletSettingsAnalyticsReporter
+- __METACLASS_DATA__TtC7CoreIDVP33_6CE92F9B26066C518046859BF390522211BundleToken
+- __PROTOCOLS__TtC7CoreIDV23IdentityProofingSession.9
+- __PROTOCOLS__TtC7CoreIDV27IdentityProvisioningSession.9
+- __PROTOCOL_INSTANCE_METHODS__TtP7CoreIDVP33_FFD886A2D9F588AB34BEE462E480E3B441CredentialBiometricBindingManagerProtocol_
+- __PROTOCOL_METHOD_TYPES__TtP7CoreIDVP33_FFD886A2D9F588AB34BEE462E480E3B441CredentialBiometricBindingManagerProtocol_
+- __PROTOCOL__TtP7CoreIDVP33_FFD886A2D9F588AB34BEE462E480E3B441CredentialBiometricBindingManagerProtocol_
+- ___DIV_LOG_SIGNPOST_block_invoke
+- ___swift_instantiateGenericMetadata
+- ___swift_memcpy104_8
+- ___swift_memcpy49_8
+- ___unnamed_2
+- _associated conformance 7CoreIDV13XPCAuditTokenCAA17XPCValueContainerAA5ValueAaDP_SE
+- _associated conformance 7CoreIDV13XPCAuditTokenCAA17XPCValueContainerAA5ValueAaDP_Se
+- _associated conformance 7CoreIDV21ISO18013KnownDocTypesOSHAASQ
+- _associated conformance 7CoreIDV21ISO18013KnownDocTypesOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 7CoreIDV23ISO18013KnownNamespacesOSHAASQ
+- _associated conformance 7CoreIDV28ISO23220_1_ElementIdentifierOAA014MobileDocumentdE0AA09NamespaceE0AaDP_SY
+- _associated conformance 7CoreIDV28ISO23220_1_ElementIdentifierOSHAASQ
+- _associated conformance 7CoreIDV28ISO23220_1_ElementIdentifierOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 7CoreIDV29XPCIdentityDocumentDescriptorCAA17XPCValueContainerAA5ValueAaDP_SE
+- _associated conformance 7CoreIDV29XPCIdentityDocumentDescriptorCAA17XPCValueContainerAA5ValueAaDP_Se
+- _associated conformance 7CoreIDV30ISO18013_5_1_ElementIdentifierOAA014MobileDocumentdE0AA09NamespaceE0AaDP_SY
+- _associated conformance 7CoreIDV30ISO18013_5_1_ElementIdentifierOSHAASQ
+- _associated conformance 7CoreIDV30ISO18013_5_1_ElementIdentifierOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 7CoreIDV30XPCMobileDocumentReaderRequestCAA17XPCValueContainerAA5ValueAaDP_SE
+- _associated conformance 7CoreIDV30XPCMobileDocumentReaderRequestCAA17XPCValueContainerAA5ValueAaDP_Se
+- _associated conformance 7CoreIDV31WalletSettingsAnalyticsReporterC10IssuerTypeOSHAASQ
+- _associated conformance 7CoreIDV31WalletSettingsAnalyticsReporterC14ReferralSourceOSHAASQ
+- _associated conformance 7CoreIDV31WalletSettingsAnalyticsReporterC9EventTypeOSHAASQ
+- _associated conformance 7CoreIDV31XPCMobileDocumentReaderMerchantCAA17XPCValueContainerAA5ValueAaDP_SE
+- _associated conformance 7CoreIDV31XPCMobileDocumentReaderMerchantCAA17XPCValueContainerAA5ValueAaDP_Se
+- _associated conformance 7CoreIDV31XPCMobileDocumentReaderResponseCAA17XPCValueContainerAA5ValueAaDP_SE
+- _associated conformance 7CoreIDV31XPCMobileDocumentReaderResponseCAA17XPCValueContainerAA5ValueAaDP_Se
+- _associated conformance 7CoreIDV32ISO18013_AAMVA_ElementIdentifierOAA014MobileDocumenteF0AA09NamespaceF0AaDP_SY
+- _associated conformance 7CoreIDV32ISO18013_AAMVA_ElementIdentifierOSHAASQ
+- _associated conformance 7CoreIDV32ISO18013_AAMVA_ElementIdentifierOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 7CoreIDV34ISO23220_1_Japan_ElementIdentifierOAA014MobileDocumenteF0AA09NamespaceF0AaDP_SY
+- _associated conformance 7CoreIDV34ISO23220_1_Japan_ElementIdentifierOSHAASQ
+- _associated conformance 7CoreIDV34ISO23220_1_Japan_ElementIdentifierOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 7CoreIDV35XPCMobileDocumentReaderSessionStateCAA17XPCValueContainerAA5ValueAaDP_SE
+- _associated conformance 7CoreIDV35XPCMobileDocumentReaderSessionStateCAA17XPCValueContainerAA5ValueAaDP_Se
+- _associated conformance 7CoreIDV36ISO23220_PhotoID_1_ElementIdentifierOAA014MobileDocumentfG0AA09NamespaceG0AaDP_SY
+- _associated conformance 7CoreIDV36ISO23220_PhotoID_1_ElementIdentifierOSHAASQ
+- _associated conformance 7CoreIDV36ISO23220_PhotoID_1_ElementIdentifierOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 7CoreIDV36XPCMobileDocumentReaderConfigurationCAA17XPCValueContainerAA5ValueAaDP_SE
+- _associated conformance 7CoreIDV36XPCMobileDocumentReaderConfigurationCAA17XPCValueContainerAA5ValueAaDP_Se
+- _associated conformance 7CoreIDV37XPCIdentityDocumentCompoundDescriptorCAA17XPCValueContainerAA5ValueAaDP_SE
+- _associated conformance 7CoreIDV37XPCIdentityDocumentCompoundDescriptorCAA17XPCValueContainerAA5ValueAaDP_Se
+- _associated conformance 7CoreIDV39ISO18013_5_1_DrivingPrivilegeIdentifierOSHAASQ
+- _associated conformance 7CoreIDV39XPCMobileDocumentProviderStatusResponseCAA17XPCValueContainerAA5ValueAaDP_SE
+- _associated conformance 7CoreIDV39XPCMobileDocumentProviderStatusResponseCAA17XPCValueContainerAA5ValueAaDP_Se
+- _associated conformance 7CoreIDV41XPCMobileDocumentReaderCertificateRequestCAA17XPCValueContainerAA5ValueAaDP_SE
+- _associated conformance 7CoreIDV41XPCMobileDocumentReaderCertificateRequestCAA17XPCValueContainerAA5ValueAaDP_Se
+- _associated conformance 7CoreIDV41XPCMobileDocumentReaderIdentityKeyRequestCAA17XPCValueContainerAA5ValueAaDP_SE
+- _associated conformance 7CoreIDV41XPCMobileDocumentReaderIdentityKeyRequestCAA17XPCValueContainerAA5ValueAaDP_Se
+- _associated conformance 7CoreIDV42XPCMobileDocumentProviderUnregisterRequestCAA17XPCValueContainerAA5ValueAaDP_SE
+- _associated conformance 7CoreIDV42XPCMobileDocumentProviderUnregisterRequestCAA17XPCValueContainerAA5ValueAaDP_Se
+- _associated conformance 7CoreIDV42XPCMobileDocumentReaderCertificateResponseCAA17XPCValueContainerAA5ValueAaDP_SE
+- _associated conformance 7CoreIDV42XPCMobileDocumentReaderCertificateResponseCAA17XPCValueContainerAA5ValueAaDP_Se
+- _associated conformance 7CoreIDV42XPCMobileDocumentReaderIdentityKeyResponseCAA17XPCValueContainerAA5ValueAaDP_SE
+- _associated conformance 7CoreIDV42XPCMobileDocumentReaderIdentityKeyResponseCAA17XPCValueContainerAA5ValueAaDP_Se
+- _associated conformance 7CoreIDV43XPCMobileDocumentReaderDeviceEngagementTypeCAA17XPCValueContainerAA5ValueAaDP_SE
+- _associated conformance 7CoreIDV43XPCMobileDocumentReaderDeviceEngagementTypeCAA17XPCValueContainerAA5ValueAaDP_Se
+- _associated conformance 7CoreIDV44XPCMobileDocumentProviderRegistrationRequestCAA17XPCValueContainerAA5ValueAaDP_SE
+- _associated conformance 7CoreIDV44XPCMobileDocumentProviderRegistrationRequestCAA17XPCValueContainerAA5ValueAaDP_Se
+- _associated conformance 7CoreIDV44XPCMobileDocumentReaderConfigurationResponseCAA17XPCValueContainerAA5ValueAaDP_SE
+- _associated conformance 7CoreIDV44XPCMobileDocumentReaderConfigurationResponseCAA17XPCValueContainerAA5ValueAaDP_Se
+- _associated conformance 7CoreIDV48XPCMobileDocumentReaderIssuerRootCertificateListCAA17XPCValueContainerAA5ValueAaDP_SE
+- _associated conformance 7CoreIDV48XPCMobileDocumentReaderIssuerRootCertificateListCAA17XPCValueContainerAA5ValueAaDP_Se
+- _associated conformance 7CoreIDV49ISO18013_AAMVA_DomesticDrivingPrivilegeIdentifierOSHAASQ
+- _associated conformance 7CoreIDV51XPCMobileDocumentProviderQueryRegistrationsResponseCAA17XPCValueContainerAA5ValueAaDP_SE
+- _associated conformance 7CoreIDV51XPCMobileDocumentProviderQueryRegistrationsResponseCAA17XPCValueContainerAA5ValueAaDP_Se
+- _associated conformance 7CoreIDV53XPCMobileDocumentProviderQueryAllApplicationsResponseCAA17XPCValueContainerAA5ValueAaDP_SE
+- _associated conformance 7CoreIDV53XPCMobileDocumentProviderQueryAllApplicationsResponseCAA17XPCValueContainerAA5ValueAaDP_Se
+- _associated conformance 7CoreIDV8DIPErrorV10Foundation13CustomNSErrorAAs5Error
+- _associated conformance 7CoreIDV8DIPErrorV10Foundation26_ObjectiveCBridgeableErrorAAs0G0
+- _associated conformance 7CoreIDV8DIPErrorV4CodeOSHAASQ
+- _associated conformance So11CFStringRefa14CoreFoundation9_CFObjectSCSH
+- _associated conformance So11CFStringRefaSHSCSQ
+- _block_copy_helper.1
+- _block_copy_helper.10
+- _block_copy_helper.102
+- _block_copy_helper.103
+- _block_copy_helper.106
+- _block_copy_helper.107
+- _block_copy_helper.109
+- _block_copy_helper.111
+- _block_copy_helper.112
+- _block_copy_helper.115
+- _block_copy_helper.133
+- _block_copy_helper.141
+- _block_copy_helper.158
+- _block_copy_helper.167
+- _block_copy_helper.183
+- _block_copy_helper.191
+- _block_copy_helper.2
+- _block_copy_helper.210
+- _block_copy_helper.217
+- _block_copy_helper.243
+- _block_copy_helper.25
+- _block_copy_helper.27
+- _block_copy_helper.282
+- _block_copy_helper.304
+- _block_copy_helper.321
+- _block_copy_helper.34
+- _block_copy_helper.360
+- _block_copy_helper.386
+- _block_copy_helper.408
+- _block_copy_helper.41
+- _block_copy_helper.423
+- _block_copy_helper.445
+- _block_copy_helper.471
+- _block_copy_helper.479
+- _block_copy_helper.57
+- _block_copy_helper.60
+- _block_copy_helper.61
+- _block_copy_helper.66
+- _block_copy_helper.72
+- _block_copy_helper.74
+- _block_copy_helper.78
+- _block_copy_helper.8
+- _block_copy_helper.87
+- _block_copy_helper.91
+- _block_copy_helper.95
+- _block_copy_helper.98
+- _block_copy_helper.99
+- _block_descriptor.10
+- _block_descriptor.100
+- _block_descriptor.101
+- _block_descriptor.104
+- _block_descriptor.105
+- _block_descriptor.108
+- _block_descriptor.109
+- _block_descriptor.111
+- _block_descriptor.113
+- _block_descriptor.114
+- _block_descriptor.117
+- _block_descriptor.12
+- _block_descriptor.135
+- _block_descriptor.143
+- _block_descriptor.160
+- _block_descriptor.169
+- _block_descriptor.185
+- _block_descriptor.193
+- _block_descriptor.212
+- _block_descriptor.219
+- _block_descriptor.245
+- _block_descriptor.27
+- _block_descriptor.284
+- _block_descriptor.29
+- _block_descriptor.3
+- _block_descriptor.306
+- _block_descriptor.323
+- _block_descriptor.36
+- _block_descriptor.362
+- _block_descriptor.388
+- _block_descriptor.4
+- _block_descriptor.410
+- _block_descriptor.425
+- _block_descriptor.43
+- _block_descriptor.447
+- _block_descriptor.473
+- _block_descriptor.481
+- _block_descriptor.59
+- _block_descriptor.62
+- _block_descriptor.63
+- _block_descriptor.68
+- _block_descriptor.74
+- _block_descriptor.76
+- _block_descriptor.80
+- _block_descriptor.89
+- _block_descriptor.93
+- _block_descriptor.97
+- _block_destroy_helper.100
+- _block_destroy_helper.103
+- _block_destroy_helper.104
+- _block_destroy_helper.107
+- _block_destroy_helper.108
+- _block_destroy_helper.11
+- _block_destroy_helper.110
+- _block_destroy_helper.112
+- _block_destroy_helper.113
+- _block_destroy_helper.116
+- _block_destroy_helper.134
+- _block_destroy_helper.142
+- _block_destroy_helper.159
+- _block_destroy_helper.168
+- _block_destroy_helper.184
+- _block_destroy_helper.192
+- _block_destroy_helper.2
+- _block_destroy_helper.211
+- _block_destroy_helper.218
+- _block_destroy_helper.244
+- _block_destroy_helper.26
+- _block_destroy_helper.28
+- _block_destroy_helper.283
+- _block_destroy_helper.3
+- _block_destroy_helper.305
+- _block_destroy_helper.322
+- _block_destroy_helper.35
+- _block_destroy_helper.361
+- _block_destroy_helper.387
+- _block_destroy_helper.409
+- _block_destroy_helper.42
+- _block_destroy_helper.424
+- _block_destroy_helper.446
+- _block_destroy_helper.472
+- _block_destroy_helper.480
+- _block_destroy_helper.58
+- _block_destroy_helper.61
+- _block_destroy_helper.62
+- _block_destroy_helper.67
+- _block_destroy_helper.73
+- _block_destroy_helper.75
+- _block_destroy_helper.79
+- _block_destroy_helper.88
+- _block_destroy_helper.9
+- _block_destroy_helper.92
+- _block_destroy_helper.96
+- _block_destroy_helper.99
+- _flat unique 7CoreIDV41CredentialBiometricBindingManagerProtocol33_FFD886A2D9F588AB34BEE462E480E3B4LL_p
+- _get_enum_tag_for_layout_string 7CoreIDV25IdentityAnalyticsReporterC13SessionStatus33_975C4203E153A4B0A3D3E37AE827F6CFLLO
+- _kCFAllocatorDefault
+- _kRTCReportingMessageParametersCategory
+- _kRTCReportingMessageParametersPayload
+- _kRTCReportingMessageParametersType
+- _kRTCReportingSessionInfoBatchEvent
+- _kRTCReportingSessionInfoClientBundleID
+- _kRTCReportingSessionInfoClientType
+- _kRTCReportingSessionInfoClientVersion
+- _kRTCReportingSessionInfoHierarchyToken
+- _kRTCReportingSessionInfoSamplingUUIID
+- _kRTCReportingSessionInfoSessionID
+- _kRTCReportingUserInfoClientName
+- _kRTCReportingUserInfoServiceName
+- _malloc
+- _objc_claimAutoreleasedReturnValue
+- _objc_release_x9
+- _objc_retainAutoreleaseReturnValue
+- _objc_retain_x1
+- _objc_retain_x26
+- _objc_retain_x27
+- _objc_retain_x3
+- _objc_retain_x4
+- _objectdestroy.17Tm
+- _objectdestroy.18Tm
+- _objectdestroy.21Tm
+- _objectdestroy.22Tm
+- _objectdestroy.44Tm
+- _objectdestroy.51Tm
+- _swift_allocateGenericClassMetadata
+- _swift_getGenericMetadata
+- _swift_initClassMetadata2
+- _symbolic $s7CoreIDV17XPCValueContainerP
+- _symbolic $s7CoreIDV31MobileDocumentElementIdentifierP
+- _symbolic $s7CoreIDV32WalletSettingsAnalyticsReportingP
+- _symbolic $s7CoreIDV41CredentialBiometricBindingManagerProtocol33_FFD886A2D9F588AB34BEE462E480E3B4LLP
+- _symbolic $ss12CaseIterableP
+- _symbolic 19NamespaceIdentifier_____Qz 7CoreIDV31MobileDocumentElementIdentifierP
+- _symbolic 19NamespaceIdentifier______8RawValueSYQZ 7CoreIDV31MobileDocumentElementIdentifierP
+- _symbolic 5Value_____Qz 7CoreIDV17XPCValueContainerP
+- _symbolic 8RawValueSYQz
+- _symbolic B0
+- _symbolic B1
+- _symbolic G0R1_
+- _symbolic Ieg_
+- _symbolic IeyB_
+- _symbolic SS_SSt
+- _symbolic SS_Sit
+- _symbolic Say_____G 7CoreIDV21ISO18013KnownDocTypesO
+- _symbolic Say_____G 7CoreIDV28ISO23220_1_ElementIdentifierO
+- _symbolic Say_____G 7CoreIDV30ISO18013_5_1_ElementIdentifierO
+- _symbolic Say_____G 7CoreIDV32ISO18013_AAMVA_ElementIdentifierO
+- _symbolic Say_____G 7CoreIDV34ISO23220_1_Japan_ElementIdentifierO
+- _symbolic Say_____G 7CoreIDV36ISO23220_PhotoID_1_ElementIdentifierO
+- _symbolic Say_____y_____GG 10Foundation17KeyPathComparatorV 7CoreIDV31IdentityDocumentElementCategoryV
+- _symbolic SayypGSg
+- _symbolic ScCySayypGSg_____G s5NeverO
+- _symbolic ScCy_____Sg______pG 7CoreIDV28MobileDocumentReaderMerchantV s5ErrorP
+- _symbolic ScCy_____Sg______pG 7CoreIDV45MobileDocumentReaderIssuerRootCertificateListV s5ErrorP
+- _symbolic ScCy___________pG 7CoreIDV28MobileDocumentReaderResponseV s5ErrorP
+- _symbolic ScCy___________pG 7CoreIDV39MobileDocumentReaderCertificateResponseV s5ErrorP
+- _symbolic ScCy___________pG 7CoreIDV39MobileDocumentReaderIdentityKeyResponseV s5ErrorP
+- _symbolic ScCy___________pG 7CoreIDV41MobileDocumentProviderRegistrationSessionC6StatusO s5ErrorP
+- _symbolic ScCy___________pG 7CoreIDV41MobileDocumentReaderConfigurationResponseV s5ErrorP
+- _symbolic ScCy___________pG 7CoreIDV48MobileDocumentProviderQueryRegistrationsResponseV s5ErrorP
+- _symbolic ScCy___________pG 7CoreIDV50MobileDocumentProviderQueryAllApplicationsResponseV s5ErrorP
+- _symbolic ScCyq_______pG s5ErrorP
+- _symbolic ScTySo12RTCReportingC______pG s5ErrorP
+- _symbolic So12RTCReportingC
+- _symbolic _____ 7CoreIDV11BundleToken33_6CE92F9B26066C518046859BF3905222LLC
+- _symbolic _____ 7CoreIDV21ISO18013KnownDocTypesO
+- _symbolic _____ 7CoreIDV21SendableXPCConnectionC
+- _symbolic _____ 7CoreIDV23ISO18013KnownNamespacesO
+- _symbolic _____ 7CoreIDV25IdentityAnalyticsReporterC
+- _symbolic _____ 7CoreIDV25IdentityAnalyticsReporterC13SessionStatus33_975C4203E153A4B0A3D3E37AE827F6CFLLO
+- _symbolic _____ 7CoreIDV28ISO23220_1_ElementIdentifierO
+- _symbolic _____ 7CoreIDV30ISO18013_5_1_ElementIdentifierO
+- _symbolic _____ 7CoreIDV31WalletSettingsAnalyticsReporterC
+- _symbolic _____ 7CoreIDV31WalletSettingsAnalyticsReporterC10IssuerTypeO
+- _symbolic _____ 7CoreIDV31WalletSettingsAnalyticsReporterC14ReferralSourceO
+- _symbolic _____ 7CoreIDV31WalletSettingsAnalyticsReporterC9EventTypeO
+- _symbolic _____ 7CoreIDV32ISO18013_AAMVA_ElementIdentifierO
+- _symbolic _____ 7CoreIDV32IdentityAnalyticsReportEventKeysV
+- _symbolic _____ 7CoreIDV34ISO23220_1_Japan_ElementIdentifierO
+- _symbolic _____ 7CoreIDV36ISO23220_PhotoID_1_ElementIdentifierO
+- _symbolic _____ 7CoreIDV39ISO18013_5_1_DrivingPrivilegeIdentifierO
+- _symbolic _____ 7CoreIDV49ISO18013_AAMVA_DomesticDrivingPrivilegeIdentifierO
+- _symbolic _____ 7CoreIDV8DIPErrorV
+- _symbolic _____ 7CoreIDV8DIPErrorV4CodeO
+- _symbolic _____Sg 7CoreIDV27MobileDocumentReaderSessionC5StateO
+- _symbolic _____Sg 7CoreIDV28MobileDocumentReaderResponseV
+- _symbolic _____Sg 7CoreIDV38MobileDocumentReaderCertificateRequestV
+- _symbolic _____Sg 7CoreIDV38MobileDocumentReaderIdentityKeyRequestV
+- _symbolic _____Sg 7CoreIDV41MobileDocumentProviderRegistrationRequestV
+- _symbolic _____Sg 7CoreIDV41MobileDocumentReaderConfigurationResponseV
+- _symbolic ______p 7CoreIDV27IdentityProofingXPCProtocolP
+- _symbolic ______p 7CoreIDV29DigitalPresentmentXPCProtocolP
+- _symbolic ______p 7CoreIDV29MobileDocumentReaderInterfaceP
+- _symbolic ______p 7CoreIDV31IdentityProvisioningXPCProtocolP
+- _symbolic ______p 7CoreIDV41CredentialBiometricBindingManagerProtocol33_FFD886A2D9F588AB34BEE462E480E3B4LLP
+- _symbolic ______p 7CoreIDV43MobileDocumentProviderRegistrationInterfaceP
+- _symbolic ______pAA_pSgYbc s5ErrorP
+- _symbolic ______pIeghg_ s5ErrorP
+- _symbolic ______pSS______pIeghHnrzo_ 7CoreIDV29MobileDocumentReaderInterfaceP s5ErrorP
+- _symbolic ______pSb______pIeghHnrzo_ 7CoreIDV29DigitalPresentmentXPCProtocolP s5ErrorP
+- _symbolic ______pSo34DIIdentityProvisioningAttestationsC______pIeghHnrzo_ 7CoreIDV31IdentityProvisioningXPCProtocolP s5ErrorP
+- _symbolic ______p_____Sg______pIeghHnrzo_ 7CoreIDV29MobileDocumentReaderInterfaceP AA0cdE25IssuerRootCertificateListV s5ErrorP
+- _symbolic ______p_____Sg______pIeghHnrzo_ 7CoreIDV29MobileDocumentReaderInterfaceP AA0cdE8MerchantV s5ErrorP
+- _symbolic ______p___________pIeghHnrzo_ 7CoreIDV29DigitalPresentmentXPCProtocolP AA0cD8ResponseC s5ErrorP
+- _symbolic ______p___________pIeghHnrzo_ 7CoreIDV29MobileDocumentReaderInterfaceP AA0cdE19CertificateResponseV s5ErrorP
+- _symbolic ______p___________pIeghHnrzo_ 7CoreIDV29MobileDocumentReaderInterfaceP AA0cdE19IdentityKeyResponseV s5ErrorP
+- _symbolic ______p___________pIeghHnrzo_ 7CoreIDV29MobileDocumentReaderInterfaceP AA0cdE21ConfigurationResponseV s5ErrorP
+- _symbolic ______p___________pIeghHnrzo_ 7CoreIDV29MobileDocumentReaderInterfaceP AA0cdE8ResponseV s5ErrorP
+- _symbolic ______p___________pIeghHnrzo_ 7CoreIDV43MobileDocumentProviderRegistrationInterfaceP AA0cdE26QueryRegistrationsResponseV s5ErrorP
+- _symbolic ______p___________pIeghHnrzo_ 7CoreIDV43MobileDocumentProviderRegistrationInterfaceP AA0cdE28QueryAllApplicationsResponseV s5ErrorP
+- _symbolic ______p___________pIeghHnrzo_ 7CoreIDV43MobileDocumentProviderRegistrationInterfaceP AA0cdeF7SessionC6StatusO s5ErrorP
+- _symbolic ______p______pIeghHnzo_ 7CoreIDV27IdentityProofingXPCProtocolP s5ErrorP
+- _symbolic ______p______pIeghHnzo_ 7CoreIDV29DigitalPresentmentXPCProtocolP s5ErrorP
+- _symbolic ______p______pIeghHnzo_ 7CoreIDV29MobileDocumentReaderInterfaceP s5ErrorP
+- _symbolic ______p______pIeghHnzo_ 7CoreIDV31IdentityProvisioningXPCProtocolP s5ErrorP
+- _symbolic ______p______pIeghHnzo_ 7CoreIDV41CredentialBiometricBindingManagerProtocol33_FFD886A2D9F588AB34BEE462E480E3B4LLP s5ErrorP
+- _symbolic ______p______pIeghHnzo_ 7CoreIDV43MobileDocumentProviderRegistrationInterfaceP s5ErrorP
+- _symbolic ______pyt______pIeghHnrzo_ 7CoreIDV27IdentityProofingXPCProtocolP s5ErrorP
+- _symbolic ______pyt______pIeghHnrzo_ 7CoreIDV29DigitalPresentmentXPCProtocolP s5ErrorP
+- _symbolic ______pyt______pIeghHnrzo_ 7CoreIDV29MobileDocumentReaderInterfaceP s5ErrorP
+- _symbolic ______pyt______pIeghHnrzo_ 7CoreIDV31IdentityProvisioningXPCProtocolP s5ErrorP
+- _symbolic ______pyt______pIeghHnrzo_ 7CoreIDV41CredentialBiometricBindingManagerProtocol33_FFD886A2D9F588AB34BEE462E480E3B4LLP s5ErrorP
+- _symbolic ______pyt______pIeghHnrzo_ 7CoreIDV43MobileDocumentProviderRegistrationInterfaceP s5ErrorP
+- _symbolic ______ypt So11CFStringRefa
+- _symbolic _____yS2SG s18_DictionaryStorageC
+- _symbolic _____ySSSiG s18_DictionaryStorageC
+- _symbolic _____ySS_SStG s23_ContiguousArrayStorageC
+- _symbolic _____ySS_SitG s23_ContiguousArrayStorageC
+- _symbolic _____ySiG 10Foundation18IntegerFormatStyleV
+- _symbolic _____ySiG s16PartialRangeFromV
+- _symbolic _____ySo15NSXPCConnectionCG 2os21OSAllocatedUnfairLockV
+- _symbolic _____ySo15NSXPCConnectionC_____G s13ManagedBufferCsRi__rlE So16os_unfair_lock_sV
+- _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 7CoreIDV25IdentityAnalyticsReporterC13SessionStatus33_975C4203E153A4B0A3D3E37AE827F6CFLLO
+- _symbolic _____y_____G s11_SetStorageC 10Foundation8CalendarV9ComponentO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation8CalendarV9ComponentO
+- _symbolic _____y_____SgG 2os21OSAllocatedUnfairLockV 10Foundation4DataV
+- _symbolic _____y_____SgG 2os21OSAllocatedUnfairLockV 10Foundation4DateV
+- _symbolic _____y_____Sg_____G s13ManagedBufferCsRi__rlE 10Foundation4DataV So16os_unfair_lock_sV
+- _symbolic _____y_____Sg_____G s13ManagedBufferCsRi__rlE 10Foundation4DateV So16os_unfair_lock_sV
+- _symbolic _____y__________G s13ManagedBufferCsRi__rlE 7CoreIDV25IdentityAnalyticsReporterC13SessionStatus33_975C4203E153A4B0A3D3E37AE827F6CFLLO So16os_unfair_lock_sV
+- _symbolic _____y______pG 7CoreIDV21SendableXPCConnectionC AA27IdentityProofingXPCProtocolP
+- _symbolic _____y______pG 7CoreIDV21SendableXPCConnectionC AA29DigitalPresentmentXPCProtocolP
+- _symbolic _____y______pG 7CoreIDV21SendableXPCConnectionC AA29MobileDocumentReaderInterfaceP
+- _symbolic _____y______pG 7CoreIDV21SendableXPCConnectionC AA31IdentityProvisioningXPCProtocolP
+- _symbolic _____y______pG 7CoreIDV21SendableXPCConnectionC AA41CredentialBiometricBindingManagerProtocol33_FFD886A2D9F588AB34BEE462E480E3B4LLP
+- _symbolic _____y______pG 7CoreIDV21SendableXPCConnectionC AA43MobileDocumentProviderRegistrationInterfaceP
+- _symbolic _____y______yptG s23_ContiguousArrayStorageC So11CFStringRefa
+- _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 10Foundation17KeyPathComparatorV 7CoreIDV31IdentityDocumentElementCategoryV
+- _symbolic _____y_____ypG s18_DictionaryStorageC So11CFStringRefa
+- _symbolic _____y_____ypG s18_DictionaryStorageC s11AnyHashableV
+- _symbolic _____yxG 7CoreIDV21SendableXPCConnectionC
+- _symbolic q_
+- _symbolic qd__
+- _symbolic x______pIeghHnzo_ s5ErrorP
+- _symbolic xq_______pIeghHnrzo_ s5ErrorP
+- _symbolic yp
+- _symbolic ytIegr_
+- _type_layout_string 7CoreIDV25IdentityAnalyticsReporterC13SessionStatus33_975C4203E153A4B0A3D3E37AE827F6CFLLO
+- _type_layout_string 7CoreIDV37IdentityDocumentElementCategoryGroupsV
+- _type_layout_string 7CoreIDV40IdentityDocumentPresentmentConfigurationV10CredentialV
+- _type_layout_string 7CoreIDV8DIPErrorV
+CStrings:
++ "CoreIDV.DigitalPresentmentMerchantOverrideParameters"
++ "CoreIDV/CredentialBiometricBindingManager.swift"
++ "CoreIDV/ExtensionPointManager.swift"
++ "CoreIDV/MobileDocumentProviderRegistrationSessionError+DIPError.swift"
++ "CoreIDV/MobileDocumentProviderRegistrationValidator.swift"
++ "CoreIDV/MobileDocumentType+IdentifierMappings.swift"
++ "CoreIDV/SynchronousExtensionPointManager.swift"
++ "DHS Temporary Lawful Status"
++ "DHSTemporaryLawfulStatusElementText"
++ "FirstPartyServiceConfiguration initted with %s"
++ "Indicates whether the mobile document holder has temporary lawful status based on information from the U.S. Department of Homeland Security (DHS)."
++ "NationalityElementText"
++ "PlaceOfBirthElementText"
++ "Signature Usual Mark"
++ "SignatureUsualMarkElementText"
++ "The mobile document holder's nationality"
++ "The mobile document holder's place of birth"
++ "The signature or usual mark of the mobile document holder."
++ "Tq,N"
++ "Unable to determine document provider status: %@"
++ "_TtC7CoreIDV37MobileDocumentProviderSettingsManager"
++ "_TtC7CoreIDV44DigitalPresentmentMerchantOverrideParameters"
++ "_TtP13CoreIDVShared28IdentityManagementUIProtocol_"
++ "_merchantLogoOverride"
++ "boolValue"
++ "checkmark.shield.fill"
++ "clearDataAfterTerminalProofingStateWithConfiguration:proofingOptions:completionHandler:"
++ "containsValueForKey:"
++ "dhsTemporaryLawfulStatus"
++ "dhsTemporaryLawfulStatusElement"
++ "ephemeralReaderKey"
++ "fetchAnalyticsSessionIDWithConfiguration:proofingOptions:completionHandler:"
++ "fetchBioBindingDetailsWithCompletionHandler:"
++ "fetchBiomeFedStatsUIWithConfiguration:completionHandler:"
++ "fetchExtendedReviewDisplayInfoWithConfiguration:proofingOptions:completionHandler:"
++ "fetchImageQualitySettingsWithConfiguration:completionHandler:"
++ "fetchLivenessConsentOptinUIWithConfiguration:completionHandler:"
++ "fetchTermsAndConditionsWithCompletionHandler:"
++ "getApplicationIdentifier(for:)"
++ "getLivenessConfigWithCompletionHandler:"
++ "getPendingCommandsStatusWithCompletionHandler:"
++ "getPendingCommandsWithResponseAPDUs:completionHandler:"
++ "globalAuthACLInfoWithCompletionHandler:"
++ "initiatePartialProofingWithConfiguration:documents:proofingSessionID:completionHandler:"
++ "isExtensionImplemented(for:)"
++ "isWatchPairedWithConfiguration:completionHandler:"
++ "iso18013Identifier"
++ "merchantLogo"
++ "merchantLogoOverride"
++ "merchantLogoOverride: %ld, "
++ "merchantName"
++ "merchantOverrideParameters"
++ "merchantPrivacyPolicy"
++ "nationalityElement"
++ "placeOfBirth"
++ "placeOfBirthElement"
++ "portraitCaptureDate"
++ "prepareForProofingDisplayWithConfiguration:proofingOptions:completionHandler:"
++ "prepareForProofingIdentityWithConfiguration:documents:proofingSessionID:completionHandler:"
++ "proofIdentityWithConfiguration:authCode:proofingOptions:completionHandler:"
++ "proofIdentityWithConfiguration:documents:proofingOptions:shouldScheduleUploads:totalUploadAssetsFileSizeInBytes:completionHandler:"
++ "proofingCancelledWithConfiguration:proofingOptions:completionHandler:"
++ "proofingFlowAvailabilityWithCompletionHandler:"
++ "proofingStatusFor:country:completionHandler:"
++ "provisionIdentityWithConfiguration:sessionLookupIdentifier:proofingOptions:completionHandler:"
++ "queryForAppExtension(applicationIdentifer:)"
++ "resetAppleAccountWithCompletionHandler:"
++ "retrieveBioBindingUnboundACLWithCompletionHandler:"
++ "retrieveBoundACLWithCompletionHandler:"
++ "retrievePasscodeBindingUnboundACLWithCompletionHandler:"
++ "saveIdentityProofingDataSharingUserConsentWithDocumentType:axSettings:consent:consentType:proofingOptions:completionHandler:"
++ "setEnablement(for:to:)"
++ "setGlobalBoundACLWithData:type:completionHandler:"
++ "setMerchantLogoOverride:"
++ "setModifiedGlobalBoundACLWithData:externalizedLAContext:completionHandler:"
++ "settingsProvider"
++ "signatureUsualMark"
++ "signatureUsualMarkData"
++ "signatureUsualMarkElement"
++ "triggerAssetsUploadWithProofingOptions:canUploadOnExpensiveNetwork:completionHandler:"
++ "uploadLivenessVideoWithLivenessVideoURL:shouldScheduleUploads:completionHandler:"
++ "v24@0:8@?<v@?@\"NSArray\"qq@\"NSError\">16"
++ "v24@0:8@?<v@?@\"NSData\">16"
++ "v24@0:8@?<v@?@\"_TtC13CoreIDVShared22IdentityBindingDetails\"@\"NSError\">16"
++ "v24@0:8@?<v@?@\"_TtC13CoreIDVShared22IdentityLivenessConfig\"@\"NSError\">16"
++ "v24@0:8@?<v@?@\"_TtC13CoreIDVShared22IdentityProofingStatus\"@\"NSError\">16"
++ "v24@0:8@?<v@?@\"_TtC13CoreIDVShared24NFCPendingCommandsStatus\"@\"NSError\">16"
++ "v24@0:8@?<v@?q@\"NSError\">16"
++ "v24@0:8q16"
++ "v24@?0@\"NSNumber\"8@\"NSError\"16"
++ "v28@0:8B16@?20"
++ "v28@0:8B16@?<v@?@\"NSError\">20"
++ "v32@0:8@\"_TtC13CoreIDVShared18NFCPendingCommands\"16@?<v@?@\"_TtC13CoreIDVShared18NFCPendingCommands\"@\"NSError\">24"
++ "v32@0:8@\"_TtC13CoreIDVShared29IdentityProofingConfiguration\"16@?<v@?@\"_TtC13CoreIDVShared20IdentityImageQuality\"@\"NSError\">24"
++ "v32@0:8@\"_TtC13CoreIDVShared29IdentityProofingConfiguration\"16@?<v@?@\"_TtC13CoreIDVShared24IdentityProofingUIConfig\"@\"NSError\">24"
++ "v32@0:8@\"_TtC13CoreIDVShared29IdentityProofingConfiguration\"16@?<v@?B>24"
++ "v36@0:8@\"_TtC13CoreIDVShared32IdentityProofingLivenessVideoURL\"16B24@?<v@?@\"NSError\">28"
++ "v36@0:8@16B24@?28"
++ "v36@0:8Q16B24@?28"
++ "v36@0:8Q16B24@?<v@?@\"NSError\">28"
++ "v40@0:8@\"NSData\"16@\"NSData\"24@?<v@?@\"NSArray\"@\"NSError\">32"
++ "v40@0:8@\"NSData\"16q24@?<v@?@\"NSError\">32"
++ "v40@0:8@\"NSString\"16@\"NSString\"24@?<v@?@\"_TtC13CoreIDVShared29IdentityProofingConfiguration\"@\"NSError\">32"
++ "v40@0:8@\"_TtC13CoreIDVShared29IdentityProofingConfiguration\"16Q24@?<v@?@\"NSError\">32"
++ "v40@0:8@\"_TtC13CoreIDVShared29IdentityProofingConfiguration\"16Q24@?<v@?@\"NSString\">32"
++ "v40@0:8@\"_TtC13CoreIDVShared29IdentityProofingConfiguration\"16Q24@?<v@?@\"_TtC13CoreIDVShared27IdentityProofingDisplayInfo\"@\"NSError\">32"
++ "v40@0:8@16Q24@?32"
++ "v40@0:8@16q24@?32"
++ "v48@0:8@\"_TtC13CoreIDVShared29IdentityProofingConfiguration\"16@\"NSString\"24Q32@?<v@?@\"NSError\">40"
++ "v48@0:8@\"_TtC13CoreIDVShared29IdentityProofingConfiguration\"16@\"NSString\"24Q32@?<v@?@\"_TtC13CoreIDVShared27IdentityProofingDisplayInfo\"@\"NSError\">40"
++ "v48@0:8@\"_TtC13CoreIDVShared29IdentityProofingConfiguration\"16@\"_TtC13CoreIDVShared25IdentityProofingDocuments\"24@\"NSString\"32@?<v@?@\"NSError\">40"
++ "v48@0:8@\"_TtC13CoreIDVShared29IdentityProofingConfiguration\"16@\"_TtC13CoreIDVShared25IdentityProofingDocuments\"24@\"NSString\"32@?<v@?@\"_TtC13CoreIDVShared25IdentityProofingNFCConfig\"@\"NSError\">40"
++ "v48@0:8@16@24Q32@?40"
++ "v60@0:8@\"_TtC13CoreIDVShared29IdentityProofingConfiguration\"16@\"_TtC13CoreIDVShared25IdentityProofingDocuments\"24Q32B40q44@?<v@?@\"_TtC13CoreIDVShared27IdentityProofingDisplayInfo\"@\"NSError\">52"
++ "v60@0:8@16@24Q32B40q44@?52"
++ "v60@0:8q16@\"NSArray\"24B32q36Q44@?<v@?@\"NSError\">52"
++ "v60@0:8q16@24B32q36Q44@?52"
++ "validateAuthorityKeyIdentifiers(_:)"
++ "validateDocumentIdentifierLength(_:)"
++ "validateDocumentTypeLength(_:)"
++ "validateRegistrationLimit(_:)"
++ "verifyAccountStatusWithRequireHSA2:completionHandler:"
++ "watchIdentityPassesCountWithCompletionHandler:"
+- " cannot be cast to "
+- "(CredentialBiometricBindingManagerProtocol in _FFD886A2D9F588AB34BEE462E480E3B4)"
+- "3P"
+- "CDL_indicator"
+- "CDL_non_domiciled"
+- "DHS_compliance"
+- "DHS_compliance_text"
+- "DigitalPresentmentXPCProtocol"
+- "EDL_credential"
+- "ExtendedReviewPN"
+- "Failed to create a reporting session with sessionInfo: %s, userInfo: %s"
+- "Failed to create reporting session"
+- "Failed to send wallet settings analytics, error: %s"
+- "IdentityProofingXPCProtocol"
+- "IdentityProvisioningXPCProtocol"
+- "Initiating RTC reporting for subject: %s"
+- "Initing new WalletSettingsAnalyticsReporter"
+- "MobileDocumentProviderRegistrationInterface"
+- "MobileDocumentReaderInterface"
+- "RTCReporter: Failed to archive session token during initialization: %s"
+- "RTCReporter: Failed to initialize configuration, no backends retrieved"
+- "RTCReporter: Failed to initialize session"
+- "RTCReporter: Failed to send analytics event"
+- "RTCReporter: Initialized new session with sessionInfo: %s, userInfo: %s"
+- "RTCReporter: Inside of sendEvent"
+- "RTCReporter: Message delivered to RTC with sessionIdentifier: %s payload: %s"
+- "RTCReporter: Retrieved backends: %s"
+- "RTCReporter: Session lock enter"
+- "RTCReporter: Successfully archived session token during initialization"
+- "RTCReporter: Successfully established session with RTC"
+- "RTCReporter: deinit"
+- "RTCReporter: initializeRTCSession called"
+- "Remote proxy object "
+- "SendableXPCConnection error occurred when cancelling the task: %@"
+- "SendableXPCConnection executing cancellation handler"
+- "SendableXPCConnection onCancel is nil"
+- "Session initialization task is unexpectedly nil"
+- "T@\"NSString\",C,N,V_applicationIdentifierOverride"
+- "Use iPhone to complete identity verification on “"
+- "WalletSettingsAnalyticsReporter failed to initialize %@"
+- "XPC connection error"
+- "XPC connection error: %s"
+- "_TtC7CoreIDV25IdentityAnalyticsReporter"
+- "_TtC7CoreIDV31WalletSettingsAnalyticsReporter"
+- "_TtC7CoreIDVP33_6CE92F9B26066C518046859BF390522211BundleToken"
+- "_TtP7CoreIDVP33_FFD886A2D9F588AB34BEE462E480E3B441CredentialBiometricBindingManagerProtocol_"
+- "_connection"
+- "accessibilityOptions"
+- "accessibilitySet"
+- "addCardChooseDevice"
+- "administrative_number"
+- "age_birth_year"
+- "age_in_years"
+- "aka_family_name"
+- "aka_family_name.v2"
+- "aka_given_name"
+- "aka_given_name.v2"
+- "aka_suffix"
+- "analyticsSessionID"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "archivedTokenCache"
+- "authorizationError"
+- "backIDScanConfirmed"
+- "baseReporter"
+- "birth_city"
+- "birth_country"
+- "birth_date"
+- "birth_date_unicode"
+- "birth_place"
+- "birth_state"
+- "birthplace"
+- "bundleForClass:"
+- "chipScannedConfirmed"
+- "chipScannedStarted"
+- "codes"
+- "com.apple.coreidvd.identity-proofing-ui.xpc"
+- "connectionErrorMapper"
+- "contactlessInterfaceSource"
+- "continueWithCellular"
+- "dhs_temporary_lawful_status"
+- "disable"
+- "document_number"
+- "domestic_driving_privileges"
+- "domestic_vehicle_class"
+- "domestic_vehicle_class_code"
+- "domestic_vehicle_class_description"
+- "domestic_vehicle_endorsement_code"
+- "domestic_vehicle_endorsement_description"
+- "domestic_vehicle_endorsements"
+- "domestic_vehicle_restriction_code"
+- "domestic_vehicle_restriction_description"
+- "domestic_vehicle_restrictions"
+- "driving_privileges"
+- "enable"
+- "encodedData"
+- "expiry_date"
+- "exportedObject"
+- "eye_colour"
+- "faceIDBindingComplete"
+- "faceIDBindingError"
+- "faceIDBindingStart"
+- "failWithError:"
+- "family_name"
+- "family_name_latin1"
+- "family_name_national_character"
+- "family_name_truncation"
+- "family_name_unicode"
+- "finishDecoding"
+- "finishEncoding"
+- "first_name"
+- "first_name_truncation"
+- "frontIDScanConfirmed"
+- "frontIDscanError"
+- "full_name_unicode"
+- "getReportingSessionID"
+- "given_name"
+- "given_name_latin1"
+- "given_name_national_character"
+- "given_name_truncation"
+- "given_name_unicode"
+- "hair_colour"
+- "hazmat_endorsement_expiration_date"
+- "improveIDverification"
+- "individual_number_unicode"
+- "initForReadingFromData:error:"
+- "initRequiringSecureCoding:"
+- "initWithChar:"
+- "initWithListenerEndpoint:"
+- "initWithSessionInfo:userInfo:frameworksToCheck:"
+- "initWithUnsignedInt:"
+- "initWithUnsignedShort:"
+- "interruptionHandler"
+- "invalidationHandler"
+- "iossettingsIDverification"
+- "issue_date"
+- "issuing_authority"
+- "issuing_authority_unicode"
+- "issuing_country"
+- "issuing_jurisdiction"
+- "issuing_subdivision"
+- "livenessEducation"
+- "livenessStepUpEducation"
+- "localAuthenticationEventType"
+- "local_gov_code_unicode"
+- "middle_names"
+- "middle_names_truncation"
+- "mrzScanCompleted"
+- "name_at_birth"
+- "name_suffix"
+- "newHierarchyTokenFromParentToken:"
+- "nfcReaderMissingNetwork"
+- "notificationAppeared"
+- "org.iso.18013.5.1"
+- "org.iso.18013.5.1.aamva"
+- "org.iso.18013.5.1.mDL"
+- "org.iso.23220.1"
+- "org.iso.23220.1.jp"
+- "org.iso.23220.1.jp.mnc"
+- "org.iso.23220.photoid.1"
+- "organ_donor"
+- "passcodeBindingComplete"
+- "passcodeBindingError"
+- "passcodeBindingStart"
+- "performWithRemoteObjectProxy(of:_:)"
+- "person_id"
+- "placePhoneOnChip"
+- "portrait_capture_date"
+- "provisioningFailure"
+- "provisioningStatus"
+- "provisioningSuccess"
+- "race_ethnicity"
+- "readChipEducation"
+- "resident_address"
+- "resident_address_unicode"
+- "resident_city"
+- "resident_city_latin1"
+- "resident_city_unicode"
+- "resident_country"
+- "resident_county"
+- "resident_county.v2"
+- "resident_house_number"
+- "resident_postal_code"
+- "resident_state"
+- "resident_street"
+- "reviewInfoShared"
+- "samplingUUID"
+- "sendMessageWithDictionary:error:"
+- "sessionStatus"
+- "setExportedInterface:"
+- "setExportedObject:"
+- "setInvalidationHandler:"
+- "setapplicationIdentifierOverride:"
+- "settings"
+- "sex_unicode"
+- "sign"
+- "signature_usual_mark"
+- "startConfigurationWithCompletionHandler:"
+- "startTime"
+- "stepUpNotification"
+- "subject: %{public}s event: %{public}s"
+- "synchronousRemoteObjectProxyWithErrorHandler:"
+- "termsAndConditions"
+- "thirdPartyApp"
+- "touchIDBindingComplete"
+- "touchIDBindingError"
+- "touchIDBindingStart"
+- "travel_document_number"
+- "tryDifferentMovement"
+- "un_distinguishing_sign"
+- "unableToReadChip"
+- "vehicle_category_code"
+- "verificationInProgress"
+- "verificationRequested"
+- "veteran"
+- "viewDidDisappear"
+- "wallet"
+- "weight_range"
+
+```

@@ -1,0 +1,2139 @@
+## SafariShared
+
+> `/System/Library/PrivateFrameworks/SafariShared.framework/SafariShared`
+
+```diff
+
+-623.2.7.10.4
+-  __TEXT.__text: 0x1a5280
+-  __TEXT.__auth_stubs: 0x2460
+-  __TEXT.__objc_methlist: 0x13bac
+-  __TEXT.__const: 0x6f318
+-  __TEXT.__gcc_except_tab: 0x1e824
+-  __TEXT.__cstring: 0x1d240
+-  __TEXT.__ustring: 0xce5a
+-  __TEXT.__oslogstring: 0x112c2
++624.1.11.10.3
++  __TEXT.__text: 0x1af3b8
++  __TEXT.__auth_stubs: 0x2490
++  __TEXT.__objc_methlist: 0x14384
++  __TEXT.__const: 0x57ae0
++  __TEXT.__gcc_except_tab: 0x1e3c0
++  __TEXT.__cstring: 0x1cc95
++  __TEXT.__ustring: 0xce62
++  __TEXT.__oslogstring: 0x118e2
+   __TEXT.__dlopen_cstrs: 0x25f
+-  __TEXT.__constg_swiftt: 0x140
+-  __TEXT.__swift5_typeref: 0x17c
++  __TEXT.__constg_swiftt: 0x1b4
++  __TEXT.__swift5_typeref: 0x20c
+   __TEXT.__swift5_builtin: 0x50
+-  __TEXT.__swift5_reflstr: 0x45
+-  __TEXT.__swift5_fieldmd: 0x90
+-  __TEXT.__swift5_assocty: 0x60
+-  __TEXT.__swift5_proto: 0x80
+-  __TEXT.__swift5_types: 0x18
++  __TEXT.__swift5_reflstr: 0xb8
++  __TEXT.__swift5_fieldmd: 0x108
++  __TEXT.__swift5_assocty: 0x78
++  __TEXT.__swift5_proto: 0xa0
++  __TEXT.__swift5_types: 0x24
+   __TEXT.__swift5_protos: 0x8
+-  __TEXT.__unwind_info: 0xb778
+-  __TEXT.__objc_classname: 0x333e
+-  __TEXT.__objc_methname: 0x398cd
+-  __TEXT.__objc_methtype: 0xa49d
+-  __TEXT.__objc_stubs: 0x1f360
+-  __DATA_CONST.__got: 0x1620
+-  __DATA_CONST.__const: 0x15208
+-  __DATA_CONST.__objc_classlist: 0xb88
++  __TEXT.__unwind_info: 0xbaa0
++  __TEXT.__eh_frame: 0x80
++  __TEXT.__objc_classname: 0x33eb
++  __TEXT.__objc_methname: 0x3ad58
++  __TEXT.__objc_methtype: 0xa76b
++  __TEXT.__objc_stubs: 0x1f800
++  __DATA_CONST.__got: 0x1638
++  __DATA_CONST.__const: 0x15440
++  __DATA_CONST.__objc_classlist: 0xb90
+   __DATA_CONST.__objc_catlist: 0x90
+-  __DATA_CONST.__objc_protolist: 0x290
++  __DATA_CONST.__objc_protolist: 0x2b0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xae50
+-  __DATA_CONST.__objc_protorefs: 0xa8
++  __DATA_CONST.__objc_selrefs: 0xb0c8
++  __DATA_CONST.__objc_protorefs: 0xb8
+   __DATA_CONST.__objc_superrefs: 0x908
+-  __DATA_CONST.__objc_arraydata: 0xad0
+-  __AUTH_CONST.__auth_got: 0x1248
+-  __AUTH_CONST.__const: 0x3118
+-  __AUTH_CONST.__cfstring: 0x19680
+-  __AUTH_CONST.__objc_const: 0x23688
+-  __AUTH_CONST.__objc_intobj: 0x738
++  __DATA_CONST.__objc_arraydata: 0xae0
++  __AUTH_CONST.__auth_got: 0x1260
++  __AUTH_CONST.__const: 0x3379
++  __AUTH_CONST.__cfstring: 0x195e0
++  __AUTH_CONST.__objc_const: 0x24358
++  __AUTH_CONST.__objc_intobj: 0x750
+   __AUTH_CONST.__objc_arrayobj: 0x330
+   __AUTH_CONST.__objc_dictobj: 0x140
+   __AUTH_CONST.__objc_doubleobj: 0xa0
+-  __AUTH.__objc_data: 0x4540
+-  __AUTH.__data: 0xf8
+-  __DATA.__objc_ivar: 0x16c8
+-  __DATA.__data: 0x3210
+-  __DATA.__bss: 0xfc0
++  __AUTH.__objc_data: 0x4658
++  __AUTH.__data: 0x128
++  __DATA.__objc_ivar: 0x1760
++  __DATA.__data: 0x39b40
++  __DATA.__bss: 0x1290
+   __DATA.__common: 0x18
+-  __DATA_DIRTY.__objc_data: 0x2e40
++  __DATA_DIRTY.__objc_data: 0x2df0
+   __DATA_DIRTY.__data: 0x10
+-  __DATA_DIRTY.__bss: 0x488
++  __DATA_DIRTY.__bss: 0x3f9
+   __DATA_DIRTY.__common: 0x8
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+-  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 412899A6-BC69-3572-BA72-B2EB9A412F01
+-  Functions: 10044
+-  Symbols:   34341
+-  CStrings:  17197
++  UUID: AD3AA16A-BC74-3EA0-82F2-C6999C4C4E84
++  Functions: 10240
++  Symbols:   34918
++  CStrings:  17404
+ 
+Symbols:
++ +[NSExtension(SafariSharedExtras) safari_unpackedExtensionWithURL:]
++ +[NSExtension(SafariSharedExtras) safari_unpackedExtensionWithURL:identifier:]
++ +[WBSCRDTPosition _nextRandomIndexBasedOnIndex:upToIndex:]
++ +[WBSCRDTPosition _nextRandomIndexBasedOnIndex:withMaximumIncrement:]
++ +[WBSCRDTPosition _randomIndexWithLowerBound:upperBound:]
++ +[WBSCRDTPosition positionBetweenPosition:andPosition:]
++ +[WBSFormDataController _fieldWithValueIsEligibleForOneTimeCodeAutoFill:]
++ +[WBSFormToABBinder specifierForIndex:]
++ +[WBSHistoryCrypto fetchCryptographicKeyFromKeychainIfNeeded]
++ +[WBSRecentWebSearchEntry supportsSecureCoding]
++ +[WBSRichSearchSuggestion nullRichSearchSuggestion]
++ +[WBSRichSearchSuggestion nullRichSearchSuggestion].cold.1
++ +[WBSURLCompletionDatabase _topHitFromBaseURLMatchForTopHitFromMatches:shouldReplaceTopHitFromMatches:historyMatches:bookmarkMatches:typedString:searchParameters:timeNow:completionDataSource:].cold.4
++ -[WBSBookmarkAndHistoryCompletionMatch _cloudTab]
++ -[WBSBrowsingAssistantController onDemandSummary]
++ -[WBSBrowsingAssistantController setOnDemandSummary:]
++ -[WBSBrowsingDataExportController _exportReadingListToFileWithURL:completionHandler:]
++ -[WBSBrowsingDataExportController _exportToTemporaryFolderWithURL:completionHandler:].cold.6
++ -[WBSBrowsingDataExportController _numberOfReadingListItemsToBeExported]
++ -[WBSBrowsingDataImportController _computeNumberOfReadingListItemsToBeImportedFromURL:completionHandler:]
++ -[WBSBrowsingDataImportController _importReadingListFromURL:completionHandler:]
++ -[WBSCRDTField deviceIdentifier]
++ -[WBSCRDTField initWithValue:generation:deviceIdentifier:]
++ -[WBSCRDTField initWithValue:valueSource:valueProvider:valueUpdater:generation:deviceIdentifier:metadata:]
++ -[WBSCRDTField initWithValueSource:valueProvider:valueUpdater:generation:deviceIdentifier:]
++ -[WBSCRDTField setDeviceIdentifier:]
++ -[WBSCRDTPositionSortValue initWithSortValue:deviceIdentifier:]
++ -[WBSCertificateBypassManager _didCertificateExceptionsApplySuccessfully:protectionSpace:]
++ -[WBSCertificateBypassManager didInvalidCertificateExceptionsApplySuccessfullyForURL:trust:inPrivateBrowsing:]
++ -[WBSCyclerBookmarksTestSuite _logBookmarkHierarchy:withContext:]
++ -[WBSFormDataController textFieldIsEligibleForAutomaticStrongPassword:form:ignorePreviousDecision:]
++ -[WBSGeolocationPreferenceManager _getValueAndLastModifiedDateOfPreference:forDomain:withTimeout:usingBlock:]
++ -[WBSHistory _removeItemsInResponseToUserAction:tombstoneAttributes:completionHandler:]
++ -[WBSHistory clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneAttributes:completionHandler:]
++ -[WBSHistory clearHistoryWithTombstoneAttributes:]
++ -[WBSHistory clearHistoryWithTombstoneAttributes:completionHandler:]
++ -[WBSHistory computeSortedRecentWebSearches:useExponentialWeighting:completionHandler:]
++ -[WBSHistory removeItemsInResponseToUserAction:tombstoneAttributes:]
++ -[WBSHistory removeItemsInResponseToUserAction:tombstoneAttributes:completionHandler:]
++ -[WBSHistoryCrypto cryptographicKey].cold.1
++ -[WBSHistorySQLiteSchema _migrateToSchemaVersion_17]
++ -[WBSHistorySQLiteSchema _migrateToSchemaVersion_17].cold.1
++ -[WBSHistorySQLiteSchema _migrateToSchemaVersion_17].cold.2
++ -[WBSHistoryService dealloc]
++ -[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:udid:tombstoneAttributes:clearAllSpotlightHistoryForProfile:]
++ -[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:udid:tombstoneAttributes:clearAllSpotlightHistoryForProfile:].cold.1
++ -[WBSHistoryServiceDatabase _clearHistoryItems:afterDate:beforeDate:tombstoneMode:udid:tombstoneAttributes:]
++ -[WBSHistoryServiceDatabase _clearHistoryItems:afterDate:beforeDate:tombstoneMode:udid:tombstoneAttributes:].cold.1
++ -[WBSHistoryServiceDatabase _clearHistoryItems:afterDate:beforeDate:tombstoneMode:udid:tombstoneAttributes:].cold.2
++ -[WBSHistoryServiceDatabase _clearHistoryItems:afterDate:beforeDate:tombstoneMode:udid:tombstoneAttributes:].cold.3
++ -[WBSHistoryServiceDatabase _clearHistoryItems:afterDate:beforeDate:tombstoneMode:udid:tombstoneAttributes:].cold.4
++ -[WBSHistoryServiceDatabase _clearHistoryItems:afterDate:beforeDate:tombstoneMode:udid:tombstoneAttributes:completionHandler:]
++ -[WBSHistoryServiceDatabase _clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneMode:udid:tombstoneAttributes:clearAllSpotlightHistoryForProfile:]
++ -[WBSHistoryServiceDatabase _clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneMode:udid:tombstoneAttributes:clearAllSpotlightHistoryForProfile:completionHandler:]
++ -[WBSHistoryServiceDatabase _clearWBSHistorySQLiteStoreClearHistoryKeys].cold.3
++ -[WBSHistoryServiceDatabase _clearWBSHistorySQLiteStoreClearHistoryKeys].cold.4
++ -[WBSHistoryServiceDatabase _insertTombstonesForURLs:afterDate:beforeDate:tombstoneMode:udid:attributes:]
++ -[WBSHistoryServiceDatabase _insertTombstonesForURLs:afterDate:beforeDate:tombstoneMode:udid:attributes:].cold.1
++ -[WBSHistoryServiceDatabase _insertTombstonesForURLs:afterDate:beforeDate:tombstoneMode:udid:attributes:].cold.2
++ -[WBSHistoryServiceDatabase _insertTombstonesForURLs:afterDate:beforeDate:tombstoneMode:udid:attributes:].cold.3
++ -[WBSHistoryServiceDatabase _metadataObjectOfClass:forKey:error:]
++ -[WBSHistoryServiceDatabase _metadataObjectOfClass:forKey:error:].cold.1
++ -[WBSHistoryServiceDatabase _metadataObjectOfClass:forKey:error:].cold.2
++ -[WBSHistoryServiceDatabase _startingClearHistoryOperationForStartDate:endDate:udid:tombstoneAttributes:]
++ -[WBSHistoryServiceDatabase _startingClearHistoryOperationForStartDate:endDate:udid:tombstoneAttributes:].cold.1
++ -[WBSHistoryServiceDatabase _startingClearHistoryOperationForStartDate:endDate:udid:tombstoneAttributes:].cold.2
++ -[WBSHistoryServiceDatabase _startingClearHistoryOperationForStartDate:endDate:udid:tombstoneAttributes:].cold.3
++ -[WBSHistoryServiceDatabase _startingClearHistoryOperationForStartDate:endDate:udid:tombstoneAttributes:].cold.4
++ -[WBSHistoryServiceDatabase _startingClearHistoryOperationForStartDate:endDate:udid:tombstoneAttributes:].cold.5
++ -[WBSHistoryServiceDatabase _startingClearHistoryOperationForStartDate:endDate:udid:tombstoneAttributes:].cold.6
++ -[WBSHistoryServiceDatabase clearAllHistoryInsertingTombstoneUpToDate:clearAllSpotlightHistoryForProfile:tombstoneAttributes:completionHandler:]
++ -[WBSHistoryServiceDatabase clearHistoryItems:afterDate:beforeDate:tombstoneMode:tombstoneAttributes:completionHandler:]
++ -[WBSHistoryServiceDatabase clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneMode:tombstoneAttributes:clearAllSpotlightHistoryForProfile:completionHandler:]
++ -[WBSHistoryServiceDatabase computeSortedRecentWebSearches:useExponentialWeighting:completionHandler:]
++ -[WBSHistoryServiceDatabaseProxy clearAllHistoryInsertingTombstoneUpToDate:clearAllSpotlightHistoryForProfile:tombstoneAttributes:completionHandler:]
++ -[WBSHistoryServiceDatabaseProxy clearHistoryItems:afterDate:beforeDate:tombstoneMode:tombstoneAttributes:completionHandler:]
++ -[WBSHistoryServiceDatabaseProxy clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneMode:tombstoneAttributes:clearAllSpotlightHistoryForProfile:completionHandler:]
++ -[WBSHistoryServiceDatabaseProxy computeSortedRecentWebSearches:useExponentialWeighting:completionHandler:]
++ -[WBSHistoryServiceStore clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneAttributes:completionHandler:]
++ -[WBSHistoryServiceStore clearHistoryWithTombstoneAttributes:completionHandler:]
++ -[WBSHistoryServiceStore computeSortedRecentWebSearches:useExponentialWeighting:completionHandler:]
++ -[WBSHistoryServiceStore removePastHistoryVisitsForItems:tombstoneAttributes:completionHandler:]
++ -[WBSHistoryServiceURLCompletion _frequencyValueForWebSearchEntry:useExponentialWeighting:]
++ -[WBSHistoryServiceURLCompletion computeSortedRecentWebSearches:useExponentialWeighting:completionHandler:]
++ -[WBSHistoryTombstone attributes]
++ -[WBSHistoryTombstone initWithDictionary:origin:]
++ -[WBSHistoryTombstone initWithSQLiteRow:crypto:].cold.1
++ -[WBSHistoryTombstone initWithURLString:urlHash:urlSalt:startTime:endTime:generation:udid:attributes:]
++ -[WBSHistoryTombstone udid]
++ -[WBSInternalFeedbackRadar extensionIdentifiers]
++ -[WBSInternalFeedbackRadar setExtensionIdentifiers:]
++ -[WBSMockPlugIn .cxx_destruct]
++ -[WBSMockPlugIn active]
++ -[WBSMockPlugIn attributes]
++ -[WBSMockPlugIn beginUsing:]
++ -[WBSMockPlugIn beginUsingRequest:completion:]
++ -[WBSMockPlugIn beginUsingRequest:error:]
++ -[WBSMockPlugIn beginUsingRequest:withSubsystemOptions:completion:]
++ -[WBSMockPlugIn beginUsingRequest:withSubsystemOptions:error:]
++ -[WBSMockPlugIn beginUsingWithError:]
++ -[WBSMockPlugIn beginUsingWithSubsystemOptions:completion:]
++ -[WBSMockPlugIn beginUsingWithSubsystemOptions:error:]
++ -[WBSMockPlugIn bundleInfoDictionary]
++ -[WBSMockPlugIn containingUrl]
++ -[WBSMockPlugIn createInstanceWithUUID:]
++ -[WBSMockPlugIn defaults]
++ -[WBSMockPlugIn embeddedBundle]
++ -[WBSMockPlugIn embeddedPrincipal]
++ -[WBSMockPlugIn endUsing:]
++ -[WBSMockPlugIn endUsingRequest:completion:]
++ -[WBSMockPlugIn endUsingRequest:error:]
++ -[WBSMockPlugIn endUsingWithError:]
++ -[WBSMockPlugIn entitlements]
++ -[WBSMockPlugIn environment]
++ -[WBSMockPlugIn export:]
++ -[WBSMockPlugIn extensionPointPlatform]
++ -[WBSMockPlugIn extensionState]
++ -[WBSMockPlugIn identifier]
++ -[WBSMockPlugIn languages]
++ -[WBSMockPlugIn launchPersonas]
++ -[WBSMockPlugIn localizedContainingName]
++ -[WBSMockPlugIn localizedFileProviderActionNames]
++ -[WBSMockPlugIn localizedInfoDictionaryForKeys:completion:]
++ -[WBSMockPlugIn localizedName]
++ -[WBSMockPlugIn localizedShortName]
++ -[WBSMockPlugIn multipleInstanceUUID]
++ -[WBSMockPlugIn notificationBlock]
++ -[WBSMockPlugIn onSystemVolume]
++ -[WBSMockPlugIn plugInDictionary]
++ -[WBSMockPlugIn plugInPrincipal]
++ -[WBSMockPlugIn pluginConnection]
++ -[WBSMockPlugIn preferredLanguages]
++ -[WBSMockPlugIn sandboxProfile]
++ -[WBSMockPlugIn setEnvironment:]
++ -[WBSMockPlugIn setExtensionState:]
++ -[WBSMockPlugIn setHostPrincipal:withProtocol:]
++ -[WBSMockPlugIn setIdentifier:]
++ -[WBSMockPlugIn setLanguages:]
++ -[WBSMockPlugIn setNotificationBlock:]
++ -[WBSMockPlugIn setPlugInDictionary:]
++ -[WBSMockPlugIn setPreferredLanguages:]
++ -[WBSMockPlugIn setReplyQueue:]
++ -[WBSMockPlugIn setSandboxProfile:]
++ -[WBSMockPlugIn setUrl:]
++ -[WBSMockPlugIn setUserElection:]
++ -[WBSMockPlugIn setUuid:]
++ -[WBSMockPlugIn setVersion:]
++ -[WBSMockPlugIn spent]
++ -[WBSMockPlugIn supersededBy]
++ -[WBSMockPlugIn timestamp]
++ -[WBSMockPlugIn url]
++ -[WBSMockPlugIn useBundle:error:]
++ -[WBSMockPlugIn userElection]
++ -[WBSMockPlugIn uuid]
++ -[WBSMockPlugIn version]
++ -[WBSParsecDFeedbackDispatcher didBeginSearchOfType:withQuery:endpoint:].cold.1
++ -[WBSRecentWebSearchEntry copyWithZone:]
++ -[WBSRecentWebSearchEntry encodeWithCoder:]
++ -[WBSRecentWebSearchEntry initWithCoder:]
++ -[WBSRecentWebSearchesController _filteredSearchesForPrefix:recentSearches:]
++ -[WBSRecentWebSearchesController _recentSearchesFilteredByDateThreshold]
++ -[WBSRecentWebSearchesController _removeDuplicatedURLs]
++ -[WBSRecentWebSearchesController _sortRecentSearchesConsideringFrequency:completionHandler:]
++ -[WBSRecentWebSearchesController hasRecentSearchesToDisplayInRecentSearchesView]
++ -[WBSRecentWebSearchesController initWithHistoryStore:]
++ -[WBSRecentWebSearchesController recentSearchesMatchingPrefix:completionHandler:]
++ -[WBSRecentWebSearchesController recentWebSearchEntriesFilteredByTimeIntervalForDisplayInMainRecentSearchesViewWithCompletionHandler:]
++ -[WBSRichSearchSuggestion isValid]
++ -[WBSSiriIntelligenceDonor _computeBookmarkIdentifiersToModifyThenIndexItems:indexedItemIDs:indexedIDsToAttributes:completionHandler:]
++ -[WBSSiriIntelligenceDonor _computeBookmarkIdentifiersToModifyThenIndexItems:indexedItemIDs:indexedIDsToAttributes:completionHandler:].cold.1
++ -[WBSTrialSearchParameters enableRecentSearchSortingByVisitCountScore]
++ -[WBSTrialSearchParameters enableRecentSearchSortingUsingExponentialWeighting]
++ -[WBSURLCompletionMatch cloudTab]
++ -[WBSURLCompletionUserTypedString debugDescription]
++ GCC_except_table169
++ GCC_except_table179
++ GCC_except_table192
++ GCC_except_table195
++ GCC_except_table203
++ GCC_except_table207
++ GCC_except_table223
++ GCC_except_table228
++ GCC_except_table229
++ GCC_except_table232
++ GCC_except_table235
++ GCC_except_table247
++ GCC_except_table249
++ GCC_except_table250
++ GCC_except_table269
++ GCC_except_table272
++ GCC_except_table279
++ GCC_except_table281
++ GCC_except_table286
++ GCC_except_table288
++ GCC_except_table295
++ GCC_except_table356
++ GCC_except_table359
++ GCC_except_table360
++ GCC_except_table379
++ GCC_except_table383
++ GCC_except_table410
++ GCC_except_table421
++ GCC_except_table422
++ GCC_except_table424
++ GCC_except_table425
++ GCC_except_table426
++ GCC_except_table442
++ GCC_except_table443
++ GCC_except_table444
++ GCC_except_table445
++ GCC_except_table446
++ GCC_except_table447
++ GCC_except_table448
++ GCC_except_table449
++ GCC_except_table450
++ GCC_except_table451
++ _CFStringFindWithOptionsAndLocale
++ _CodeButNotOneTimeCodeFieldLabels
++ _JSStringCreateWithCharactersNoCopy
++ _JSValueToUInt32
++ _OBJC_CLASS_$_WBSDeviceIdentifierManager
++ _OBJC_CLASS_$_WBSMRTabOrderPreferenceProvider
++ _OBJC_CLASS_$_WBSMockPlugIn
++ _OBJC_IVAR_$_WBSBrowsingAssistantController._onDemandSummary
++ _OBJC_IVAR_$_WBSCRDTField._deviceIdentifier
++ _OBJC_IVAR_$_WBSHistoryService._keybagToken
++ _OBJC_IVAR_$_WBSHistoryTombstone._attributes
++ _OBJC_IVAR_$_WBSHistoryTombstone._udid
++ _OBJC_IVAR_$_WBSInternalFeedbackRadar._extensionIdentifiers
++ _OBJC_IVAR_$_WBSMockPlugIn._active
++ _OBJC_IVAR_$_WBSMockPlugIn._attributes
++ _OBJC_IVAR_$_WBSMockPlugIn._bundleInfoDictionary
++ _OBJC_IVAR_$_WBSMockPlugIn._containingUrl
++ _OBJC_IVAR_$_WBSMockPlugIn._embeddedBundle
++ _OBJC_IVAR_$_WBSMockPlugIn._embeddedPrincipal
++ _OBJC_IVAR_$_WBSMockPlugIn._entitlements
++ _OBJC_IVAR_$_WBSMockPlugIn._environment
++ _OBJC_IVAR_$_WBSMockPlugIn._extensionPointPlatform
++ _OBJC_IVAR_$_WBSMockPlugIn._extensionState
++ _OBJC_IVAR_$_WBSMockPlugIn._identifier
++ _OBJC_IVAR_$_WBSMockPlugIn._launchPersonas
++ _OBJC_IVAR_$_WBSMockPlugIn._localizedContainingName
++ _OBJC_IVAR_$_WBSMockPlugIn._localizedFileProviderActionNames
++ _OBJC_IVAR_$_WBSMockPlugIn._localizedName
++ _OBJC_IVAR_$_WBSMockPlugIn._localizedShortName
++ _OBJC_IVAR_$_WBSMockPlugIn._multipleInstanceUUID
++ _OBJC_IVAR_$_WBSMockPlugIn._notificationBlock
++ _OBJC_IVAR_$_WBSMockPlugIn._onSystemVolume
++ _OBJC_IVAR_$_WBSMockPlugIn._plugInDictionary
++ _OBJC_IVAR_$_WBSMockPlugIn._plugInPrincipal
++ _OBJC_IVAR_$_WBSMockPlugIn._pluginConnection
++ _OBJC_IVAR_$_WBSMockPlugIn._preferredLanguages
++ _OBJC_IVAR_$_WBSMockPlugIn._sandboxProfile
++ _OBJC_IVAR_$_WBSMockPlugIn._spent
++ _OBJC_IVAR_$_WBSMockPlugIn._supersededBy
++ _OBJC_IVAR_$_WBSMockPlugIn._timestamp
++ _OBJC_IVAR_$_WBSMockPlugIn._url
++ _OBJC_IVAR_$_WBSMockPlugIn._userElection
++ _OBJC_IVAR_$_WBSMockPlugIn._uuid
++ _OBJC_IVAR_$_WBSMockPlugIn._version
++ _OBJC_IVAR_$_WBSRecentWebSearchesController._history
++ _OBJC_IVAR_$_WBSTrialSearchParameters._enableRecentSearchSortingByVisitCountScore
++ _OBJC_IVAR_$_WBSTrialSearchParameters._enableRecentSearchSortingUsingExponentialWeighting
++ _OBJC_METACLASS_$_WBSMRTabOrderPreferenceProvider
++ _OBJC_METACLASS_$_WBSMockPlugIn
++ _OUTLINED_FUNCTION_23
++ _OUTLINED_FUNCTION_24
++ _TRIAL_enableRecentSearchSortingByVisitCountScore
++ _TRIAL_enableRecentSearchSortingUsingExponentialWeighting
++ _WBSHistorySQLiteStoreClearHistoryAttributesKey
++ _WBSHistorySQLiteStoreClearHistoryUDIDKey
++ _WBSHistoryTombstoneGeneratedByCurrentProcess
++ _WBSHistoryTombstoneGeneratedByCurrentProcess.cold.1
++ _WBSHistoryTombstoneGetGeneratedByFromAttributes
++ _WBSHistoryTombstoneGetGenerationMethodFromAttributes
++ _WBSHistoryTombstoneGetOriginFromAttributes
++ _WBSHistoryTombstoneMakeAttributes
++ _WBSHistoryTombstoneSetOriginOfAttributes
++ _WBSReadingListExportDataType
++ _WeakOneTimeCodeFieldLabels
++ __DATA_WBSMRTabOrderPreferenceProvider
++ __INSTANCE_METHODS_WBSMRTabOrderPreferenceProvider
++ __IVARS_WBSMRTabOrderPreferenceProvider
++ __METACLASS_DATA_WBSMRTabOrderPreferenceProvider
++ __OBJC_$_CATEGORY_CLASS_METHODS_NSExtension_$_SafariSharedExtras
++ __OBJC_$_CLASS_METHODS_WBSHistoryCrypto
++ __OBJC_$_CLASS_METHODS_WBSRecentWebSearchEntry
++ __OBJC_$_CLASS_PROP_LIST_WBSRecentWebSearchEntry
++ __OBJC_$_INSTANCE_METHODS_WBSMockPlugIn
++ __OBJC_$_INSTANCE_VARIABLES_WBSMockPlugIn
++ __OBJC_$_PROP_LIST_PKPlugIn
++ __OBJC_$_PROP_LIST_PKPlugInPrivate
++ __OBJC_$_PROP_LIST_WBSMockPlugIn
++ __OBJC_$_PROP_LIST_WBSRecentWebSearchesController
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_PKPlugIn
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_PKPlugInPrivate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_PKPlugIn
++ __OBJC_$_PROTOCOL_METHOD_TYPES_PKPlugInPrivate
++ __OBJC_$_PROTOCOL_REFS_PKPlugIn
++ __OBJC_$_PROTOCOL_REFS_PKPlugInPrivate
++ __OBJC_CLASS_PROTOCOLS_$_WBSMockPlugIn
++ __OBJC_CLASS_PROTOCOLS_$_WBSRecentWebSearchEntry
++ __OBJC_CLASS_RO_$_WBSMockPlugIn
++ __OBJC_LABEL_PROTOCOL_$_PKPlugIn
++ __OBJC_LABEL_PROTOCOL_$_PKPlugInPrivate
++ __OBJC_METACLASS_RO_$_WBSMockPlugIn
++ __OBJC_PROTOCOL_$_PKPlugIn
++ __OBJC_PROTOCOL_$_PKPlugInPrivate
++ __PROPERTIES_WBSMRTabOrderPreferenceProvider
++ __PROTOCOLS_WBSMRTabOrderPreferenceProvider
++ __PROTOCOLS_WBSMRTabOrderPreferenceProvider.2
++ __ZGVZ39+[WBSFormToABBinder specifierForIndex:]E11arrayLength
++ __ZGVZL25makeJSFieldPatternMatcherPK15OpaqueJSContextRK7DFADataE7jsClass
++ __ZGVZL41commonTLDsThatShouldAllowDirectNavigationP8NSStringE10commonTLDs
++ __ZL11historyUDIDv
++ __ZL11historyUDIDv.cold.1
++ __ZL15emailLabelsData
++ __ZL16addressBook0Data
++ __ZL16addressBook1Data
++ __ZL16addressBook2Data
++ __ZL16addressBook3Data
++ __ZL17fieldLabelMapData
++ __ZL18dayFieldLabelsData
++ __ZL18jsFieldLabelToInfoPK15OpaqueJSContextP13OpaqueJSValueS3_mPKPKS2_PS5_
++ __ZL19yearFieldLabelsData
++ __ZL20monthFieldLabelsData
++ __ZL21searchFieldLabelsData
++ __ZL23nonEmailFieldLabelsData
++ __ZL23passwordFieldLabelsData
++ __ZL23usernameFieldLabelsData
++ __ZL24autocompleteTokenMapData
++ __ZL24showHideButtonLabelsData
++ __ZL25makeJSFieldPatternMatcherPK15OpaqueJSContextRK7DFAData
++ __ZL26nonUsernameFieldLabelsData
++ __ZL26oldPasswordFieldLabelsData
++ __ZL26oneTimeCodeFieldLabelsData
++ __ZL27confirmEmailFieldLabelsData
++ __ZL29creditCardTypeFieldLabelsData
++ __ZL30WeakOneTimeCodeFieldLabelsData
++ __ZL30confirmPasswordFieldLabelsData
++ __ZL30ignoredDataTypeFieldLabelsData
++ __ZL31creditCardNumberFieldLabelsData
++ __ZL35creditCardCardholderFieldLabelsData
++ __ZL35federatedSignInAffordanceLabelsData
++ __ZL36CodeButNotOneTimeCodeFieldLabelsData
++ __ZL37creditCardSecurityCodeFieldLabelsData
++ __ZL38nonCreditCardCardNumberFieldLabelsData
++ __ZL48creditCardCompositeExpirationDateFieldLabelsData
++ __ZL48nonAccountPasswordSecureTextEntryFieldLabelsData
++ __ZL53keywordsIndicatingLoginFormTypeToScoreForMatchingData
++ __ZL58keywordsIndicatingNewAccountFormTypeToScoreForMatchingData
++ __ZL5jsDFAPK15OpaqueJSContextP13OpaqueJSValueS3_mPKPKS2_PS5_
++ __ZN12SafariShared36_WBSSQLiteStatementBindAllParametersILi1ERU8__strongP6NSDataJRKdS6_RKlRU8__strongP8NSStringRmEEEvP18WBSSQLiteStatementOT0_DpOT1_
++ __ZN12SafariShared36_WBSSQLiteStatementBindAllParametersILi1EdJdRKxRU8__strongKP8NSStringRKmEEEvP18WBSSQLiteStatementOT0_DpOT1_
++ __ZN12SafariShared36_WBSSQLiteStatementBindAllParametersILi1EdJdRlRU8__strongKP8NSStringRKmEEEvP18WBSSQLiteStatementOT0_DpOT1_
++ __ZN12SafariShared36_WBSSQLiteStatementBindAllParametersILi2ERKdJS2_RKlRU8__strongP8NSStringRmEEEvP18WBSSQLiteStatementOT0_DpOT1_
++ __ZN12SafariShared36_WBSSQLiteStatementBindAllParametersILi2EdJRKxRU8__strongKP8NSStringRKmEEEvP18WBSSQLiteStatementOT0_DpOT1_
++ __ZN12SafariShared36_WBSSQLiteStatementBindAllParametersILi2EdJRlRU8__strongKP8NSStringRKmEEEvP18WBSSQLiteStatementOT0_DpOT1_
++ __ZN12SafariShared36_WBSSQLiteStatementBindAllParametersILi3ERKdJRKlRU8__strongP8NSStringRmEEEvP18WBSSQLiteStatementOT0_DpOT1_
++ __ZN12SafariShared36_WBSSQLiteStatementBindAllParametersILi3ERKxJRU8__strongKP8NSStringRKmEEEvP18WBSSQLiteStatementOT0_DpOT1_
++ __ZN12SafariShared36_WBSSQLiteStatementBindAllParametersILi3ERlJRU8__strongKP8NSStringRKmEEEvP18WBSSQLiteStatementOT0_DpOT1_
++ __ZN12SafariShared36_WBSSQLiteStatementBindAllParametersILi4ERKlJRU8__strongP8NSStringRmEEEvP18WBSSQLiteStatementOT0_DpOT1_
++ __ZN12SafariShared36_WBSSQLiteStatementBindAllParametersILi4ERU8__strongKP8NSStringJRKmEEEvP18WBSSQLiteStatementOT0_DpOT1_
++ __ZN12SafariShared36_WBSSQLiteStatementBindAllParametersILi5ERU8__strongP8NSStringJRmEEEvP18WBSSQLiteStatementOT0_DpOT1_
++ __ZN12SafariShared39_WBSSQLiteDatabaseExecuteAndReturnErrorIJddRKxRU8__strongKP8NSStringRKmEEEiP17WBSSQLiteDatabasePU15__autoreleasingP7NSErrorS4_DpOT_
++ __ZN12SafariShared39_WBSSQLiteDatabaseExecuteAndReturnErrorIJddRlRU8__strongKP8NSStringRKmEEEiP17WBSSQLiteDatabasePU15__autoreleasingP7NSErrorS3_DpOT_
++ __ZN12SafariSharedL18jsFieldLabelMapDFAEPK15OpaqueJSContextP13OpaqueJSValueS4_mPKPKS3_PS6_
++ __ZN12SafariSharedL20jsGetValueSpecifiersEPK15OpaqueJSContextP13OpaqueJSValueS4_mPKPKS3_PS6_
++ __ZN12SafariSharedL25jsAutocompleteTokenMapDFAEPK15OpaqueJSContextP13OpaqueJSValueS4_mPKPKS3_PS6_
++ __ZN3WTF6VectorIiLm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEE10insertSpanIKiLm18446744073709551615EEEvmNSt3__14spanIT_XT0_EEE.cold.1
++ __ZN3WTF6VectorIiLm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEE12appendVectorIiLm32ES1_Lm16ES2_EEvRKNS0_IT_XT0_ET1_XT2_ET3_EE.cold.1
++ __ZN3WTF8WordLock10unlockSlowEv
++ __ZN3WTF8WordLock8lockSlowEv
++ __ZN3WTF9HashTableIN12SafariShared21URLCompletionEntryKeyENS1_18URLCompletionEntryENS1_30URLCompletionEntryKeyExtractorENS1_22URLCompletionEntryHashENS1_29URLCompletionEntryValueTraitsENS1_27URLCompletionEntryKeyTraitsENS_10FastMallocEE11validateKeyILNS_17ShouldValidateKeyE1EEEvRKS3_
++ __ZNK3WTF29ThreadSafeWeakPtrControlBlock11strongDerefIN12SafariShared33BookmarkAndHistoryCompletionMatchELNS_17DestructionThreadE0EEEvv
++ __ZNK3WTF29ThreadSafeWeakPtrControlBlock9strongRefEv
++ __ZNK3WTF47ThreadSafeRefCountedAndCanMakeThreadSafeWeakPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchELNS_17DestructionThreadE0EE5derefEv
++ __ZNKSt3__111__move_implINS_17_ClassicAlgPolicyEEclB9sqn210106IP29_WBSSearchSuggestionCandidateNS_16__deque_iteratorIS4_S5_RS4_PS5_lLl170EEELi0EEENS_4pairIT_T0_EESB_SB_SC_
++ __ZNKSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringNS_10unique_ptrIN12SafariShared24URLCompletionEntryExtrasENS_14default_deleteIS7_EEEEEENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_SA_EENS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_SF_SJ_SH_Lb1EEENS_9allocatorISF_EEE4findIS4_EENS_21__hash_const_iteratorIPNS_11__hash_nodeISB_PvEEEERKT_
++ __ZNKSt3__112__hash_tableINS_17__hash_value_typeIxN12SafariShared22LatestVisitInformationEEENS_22__unordered_map_hasherIxNS_4pairIKxS3_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS8_SC_SA_Lb1EEENS_9allocatorIS8_EEE4findIxEENS_21__hash_const_iteratorIPNS_11__hash_nodeIS4_PvEEEERKT_
++ __ZNKSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxNS_4pairIKxxEENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE4findIxEENS_21__hash_const_iteratorIPNS_11__hash_nodeIS2_PvEEEERKT_
++ __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE4viewB9sqn210106Ev
++ __ZNKSt3__120__move_backward_implINS_17_ClassicAlgPolicyEEclB9sqn210106IP29_WBSSearchSuggestionCandidateNS_16__deque_iteratorIS4_S5_RS4_PS5_lLl170EEELi0EEENS_4pairIT_T0_EESB_SB_SC_
++ __ZNSt3__110__pop_heapB9sqn210106INS_17_ClassicAlgPolicyEPFbRKN3WTF6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEESC_EPSA_EEvT1_SG_RT0_NS_15iterator_traitsISG_E15difference_typeE
++ __ZNSt3__110__pop_heapB9sqn210106INS_17_ClassicAlgPolicyEU8__strongU13block_pointerFbRK9SortEntryS4_EPS2_EEvT1_S9_RT0_NS_15iterator_traitsIS9_E15difference_typeE
++ __ZNSt3__110unique_ptrIN12SafariShared18URLCompletionEntryENS_14default_deleteIS2_EEED1B9sqn210106Ev
++ __ZNSt3__110unique_ptrIN12SafariShared25SuddenTerminationDisablerENS_14default_deleteIS2_EEE5resetB9sqn210106EPS2_
++ __ZNSt3__110unique_ptrIN12SafariShared25SuddenTerminationDisablerENS_14default_deleteIS2_EEED1B9sqn210106Ev
++ __ZNSt3__110unique_ptrIN12SafariShared28ReaderAvailabilityController30AvailabilityDetectionSchedulerENS_14default_deleteIS3_EEED1B9sqn210106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIxU6__weakP15WBSHistoryVisitEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEED1B9sqn210106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIxU8__strongP14WBSHistoryItemEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEED1B9sqn210106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIxU8__strongP18WBSHistoryTopicTagEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEED1B9sqn210106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIxU8__strongP8NSStringEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEED1B9sqn210106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeIU8__strongP8NSStringPvEENS_22__hash_node_destructorINS_9allocatorIS6_EEEEED1B9sqn210106Ev
++ __ZNSt3__110unique_ptrINS_6vectorIN3WTF6RefPtrIN12SafariShared24HistoryURLCompletionItemENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEENS_9allocatorISA_EEEENS_14default_deleteISD_EEE5resetB9sqn210106EPSD_
++ __ZNSt3__111__sift_downB9sqn210106INS_17_ClassicAlgPolicyERPFbRKN3WTF6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEESC_EPSA_EEvT1_OT0_NS_15iterator_traitsISH_E15difference_typeESH_
++ __ZNSt3__111__sift_downB9sqn210106INS_17_ClassicAlgPolicyERPFbRKN3WTF6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEESC_EPSA_EEvT1_OT0_NS_15iterator_traitsISH_E15difference_typeESH_.cold.1
++ __ZNSt3__111__sift_downB9sqn210106INS_17_ClassicAlgPolicyERU8__strongU13block_pointerFbRK9SortEntryS4_EPS2_EEvT1_OT0_NS_15iterator_traitsISA_E15difference_typeESA_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringNS_10unique_ptrIN12SafariShared24URLCompletionEntryExtrasENS_14default_deleteIS7_EEEEEENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_SA_EENS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_SF_SJ_SH_Lb1EEENS_9allocatorISF_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringNS_10unique_ptrIN12SafariShared24URLCompletionEntryExtrasENS_14default_deleteIS7_EEEEEENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_SA_EENS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_SF_SJ_SH_Lb1EEENS_9allocatorISF_EEE14__erase_uniqueIS4_EEmRKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringNS_10unique_ptrIN12SafariShared24URLCompletionEntryExtrasENS_14default_deleteIS7_EEEEEENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_SA_EENS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_SF_SJ_SH_Lb1EEENS_9allocatorISF_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeISB_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringNS_10unique_ptrIN12SafariShared24URLCompletionEntryExtrasENS_14default_deleteIS7_EEEEEENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_SA_EENS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_SF_SJ_SH_Lb1EEENS_9allocatorISF_EEE25__emplace_unique_key_argsIS4_JRKNS_21piecewise_construct_tENS_5tupleIJRSE_EEENSU_IJEEEEEENSD_INS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringNS_10unique_ptrIN12SafariShared24URLCompletionEntryExtrasENS_14default_deleteIS7_EEEEEENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_SA_EENS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_SF_SJ_SH_Lb1EEENS_9allocatorISF_EEE25__emplace_unique_key_argsIS4_JRS4_SA_EEENSD_INS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringNS_10unique_ptrIN12SafariShared24URLCompletionEntryExtrasENS_14default_deleteIS7_EEEEEENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_SA_EENS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_SF_SJ_SH_Lb1EEENS_9allocatorISF_EEE4findIS4_EENS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringNS_10unique_ptrIN12SafariShared24URLCompletionEntryExtrasENS_14default_deleteIS7_EEEEEENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_SA_EENS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_SF_SJ_SH_Lb1EEENS_9allocatorISF_EEE5eraseENS_21__hash_const_iteratorIPNS_11__hash_nodeISB_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringNS_10unique_ptrIN12SafariShared24URLCompletionEntryExtrasENS_14default_deleteIS7_EEEEEENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_SA_EENS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_SF_SJ_SH_Lb1EEENS_9allocatorISF_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeISB_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringNS_10unique_ptrIN12SafariShared24URLCompletionEntryExtrasENS_14default_deleteIS7_EEEEEENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_SA_EENS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_SF_SJ_SH_Lb1EEENS_9allocatorISF_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringNS_10unique_ptrIN12SafariShared24URLCompletionEntryExtrasENS_14default_deleteIS7_EEEEEENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_SA_EENS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_SF_SJ_SH_Lb1EEENS_9allocatorISF_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_S4_EENS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S9_SD_SB_Lb1EEENS_9allocatorIS9_EEE11__do_rehashILb0EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_S4_EENS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S9_SD_SB_Lb1EEENS_9allocatorIS9_EEE15__emplace_multiIJRS8_RS4_EEENS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEDpOT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_S4_EENS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S9_SD_SB_Lb1EEENS_9allocatorIS9_EEE15__emplace_multiIJRS8_RS4_EEENS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEDpOT_.cold.1
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_S4_EENS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S9_SD_SB_Lb1EEENS_9allocatorIS9_EEE15__emplace_multiIJRS8_SL_EEENS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEDpOT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_S4_EENS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S9_SD_SB_Lb1EEENS_9allocatorIS9_EEE15__emplace_multiIJRS8_SL_EEENS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEDpOT_.cold.1
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_S4_EENS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S9_SD_SB_Lb1EEENS_9allocatorIS9_EEE15__emplace_multiIJS4_S4_EEENS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEDpOT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_S4_EENS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S9_SD_SB_Lb1EEENS_9allocatorIS9_EEE15__emplace_multiIJS4_S4_EEENS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEDpOT_.cold.1
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_S4_EENS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S9_SD_SB_Lb1EEENS_9allocatorIS9_EEE16__construct_nodeIJRS8_RS4_EEENS_10unique_ptrINS_11__hash_nodeIS5_PvEENS_22__hash_node_destructorINSH_ISQ_EEEEEEDpOT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_S4_EENS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S9_SD_SB_Lb1EEENS_9allocatorIS9_EEE16__construct_nodeIJRS8_SL_EEENS_10unique_ptrINS_11__hash_nodeIS5_PvEENS_22__hash_node_destructorINSH_ISP_EEEEEEDpOT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_S4_EENS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S9_SD_SB_Lb1EEENS_9allocatorIS9_EEE16__construct_nodeIJS4_S4_EEENS_10unique_ptrINS_11__hash_nodeIS5_PvEENS_22__hash_node_destructorINSH_ISO_EEEEEEDpOT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_S4_EENS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S9_SD_SB_Lb1EEENS_9allocatorIS9_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_S4_EENS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S9_SD_SB_Lb1EEENS_9allocatorIS9_EEE19__equal_range_multiIS4_EENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEESQ_EERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_S4_EENS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S9_SD_SB_Lb1EEENS_9allocatorIS9_EEE19__node_insert_multiEPNS_11__hash_nodeIS5_PvEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_S4_EENS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S9_SD_SB_Lb1EEENS_9allocatorIS9_EEE27__node_insert_multi_performEPNS_11__hash_nodeIS5_PvEEPNS_16__hash_node_baseISN_EE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_S4_EENS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S9_SD_SB_Lb1EEENS_9allocatorIS9_EEE27__node_insert_multi_prepareEmRS9_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_S4_EENS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S9_SD_SB_Lb1EEENS_9allocatorIS9_EEE4findIS4_EENS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_S4_EENS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S9_SD_SB_Lb1EEENS_9allocatorIS9_EEE8__rehashILb0EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_S4_EENS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S9_SD_SB_Lb1EEENS_9allocatorIS9_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIx24VisitRedirectInformationEENS_22__unordered_map_hasherIxNS_4pairIKxS2_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIx24VisitRedirectInformationEENS_22__unordered_map_hasherIxNS_4pairIKxS2_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE25__emplace_unique_key_argsIxJNS5_IxS2_EEEEENS5_INS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIx24VisitRedirectInformationEENS_22__unordered_map_hasherIxNS_4pairIKxS2_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIx24VisitRedirectInformationEENS_22__unordered_map_hasherIxNS_4pairIKxS2_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS7_SB_S9_Lb1EEENS_9allocatorIS7_EEEC2EOSH_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIx24VisitRedirectInformationEENS_22__unordered_map_hasherIxNS_4pairIKxS2_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS7_SB_S9_Lb1EEENS_9allocatorIS7_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxN12SafariShared22LatestVisitInformationEEENS_22__unordered_map_hasherIxNS_4pairIKxS3_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS8_SC_SA_Lb1EEENS_9allocatorIS8_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxN12SafariShared22LatestVisitInformationEEENS_22__unordered_map_hasherIxNS_4pairIKxS3_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS8_SC_SA_Lb1EEENS_9allocatorIS8_EEE14__erase_uniqueIxEEmRKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxN12SafariShared22LatestVisitInformationEEENS_22__unordered_map_hasherIxNS_4pairIKxS3_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS8_SC_SA_Lb1EEENS_9allocatorIS8_EEE25__emplace_unique_key_argsIxJNS6_IxS3_EEEEENS6_INS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxN12SafariShared22LatestVisitInformationEEENS_22__unordered_map_hasherIxNS_4pairIKxS3_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS8_SC_SA_Lb1EEENS_9allocatorIS8_EEE4findIxEENS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxN12SafariShared22LatestVisitInformationEEENS_22__unordered_map_hasherIxNS_4pairIKxS3_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS8_SC_SA_Lb1EEENS_9allocatorIS8_EEE5clearEv
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxN12SafariShared22LatestVisitInformationEEENS_22__unordered_map_hasherIxNS_4pairIKxS3_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS8_SC_SA_Lb1EEENS_9allocatorIS8_EEE5eraseENS_21__hash_const_iteratorIPNS_11__hash_nodeIS4_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxN12SafariShared22LatestVisitInformationEEENS_22__unordered_map_hasherIxNS_4pairIKxS3_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS8_SC_SA_Lb1EEENS_9allocatorIS8_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeIS4_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxN12SafariShared22LatestVisitInformationEEENS_22__unordered_map_hasherIxNS_4pairIKxS3_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS8_SC_SA_Lb1EEENS_9allocatorIS8_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxN12SafariShared22LatestVisitInformationEEENS_22__unordered_map_hasherIxNS_4pairIKxS3_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS8_SC_SA_Lb1EEENS_9allocatorIS8_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU6__weakP15WBSHistoryVisitEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU6__weakP15WBSHistoryVisitEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU6__weakP15WBSHistoryVisitEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE25__emplace_unique_key_argsIxJNS7_IxU8__strongS3_EEEEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU6__weakP15WBSHistoryVisitEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE25__emplace_unique_key_argsIxJRKNS_21piecewise_construct_tENS_5tupleIJRS8_EEENSO_IJEEEEEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU6__weakP15WBSHistoryVisitEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE4findIxEENS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU6__weakP15WBSHistoryVisitEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE5clearEv
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU6__weakP15WBSHistoryVisitEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE5eraseENS_21__hash_const_iteratorIPNS_11__hash_nodeIS5_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU6__weakP15WBSHistoryVisitEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeIS5_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU6__weakP15WBSHistoryVisitEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU6__weakP15WBSHistoryVisitEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP14WBSHistoryItemEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP14WBSHistoryItemEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE14__erase_uniqueIxEEmRKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP14WBSHistoryItemEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP14WBSHistoryItemEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE25__emplace_unique_key_argsIxJNS7_IxS4_EEEEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP14WBSHistoryItemEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE25__emplace_unique_key_argsIxJRKNS_21piecewise_construct_tENS_5tupleIJRS8_EEENSO_IJEEEEEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP14WBSHistoryItemEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE4findIxEENS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP14WBSHistoryItemEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE5clearEv
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP14WBSHistoryItemEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE5eraseENS_21__hash_const_iteratorIPNS_11__hash_nodeIS5_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP14WBSHistoryItemEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeIS5_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP14WBSHistoryItemEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP14WBSHistoryItemEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP18WBSHistoryTopicTagEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP18WBSHistoryTopicTagEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP18WBSHistoryTopicTagEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE25__emplace_unique_key_argsIxJRKNS_21piecewise_construct_tENS_5tupleIJOxEEENSO_IJEEEEEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP18WBSHistoryTopicTagEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE25__emplace_unique_key_argsIxJRKNS_21piecewise_construct_tENS_5tupleIJRS8_EEENSO_IJEEEEEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP18WBSHistoryTopicTagEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP18WBSHistoryTopicTagEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEEC2EOSJ_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP18WBSHistoryTopicTagEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP8NSStringEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP8NSStringEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP8NSStringEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE25__emplace_unique_key_argsIxJNS7_IxS4_EEEEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP8NSStringEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE25__emplace_unique_key_argsIxJRKNS_21piecewise_construct_tENS_5tupleIJRS8_EEENSO_IJEEEEEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP8NSStringEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE25__emplace_unique_key_argsIxJRxRS4_EEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP8NSStringEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP8NSStringEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEEC2EOSJ_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP8NSStringEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS9_SD_SB_Lb1EEENS_9allocatorIS9_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxNS_4pairIKxxEENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE11__do_rehashILb0EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxNS_4pairIKxxEENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxNS_4pairIKxxEENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE13__move_assignERSG_NS_17integral_constantIbLb1EEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxNS_4pairIKxxEENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE14__assign_multiINS_21__hash_const_iteratorIPNS_11__hash_nodeIS2_PvEEEEEEvT_SO_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxNS_4pairIKxxEENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE15__emplace_multiIJRKS6_EEENS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEDpOT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxNS_4pairIKxxEENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE15__emplace_multiIJRxSI_EEENS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEDpOT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxNS_4pairIKxxEENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE19__equal_range_multiIxEENS4_INS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEESN_EERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxNS_4pairIKxxEENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE25__emplace_unique_key_argsIxJNS4_IxiEEEEENS4_INS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxNS_4pairIKxxEENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE25__emplace_unique_key_argsIxJNS4_IxxEEEEENS4_INS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxNS_4pairIKxxEENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE25__emplace_unique_key_argsIxJRKNS_21piecewise_construct_tENS_5tupleIJRS5_EEENSL_IJEEEEEENS4_INS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxNS_4pairIKxxEENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE25__emplace_unique_key_argsIxJRS5_SI_EEENS4_INS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxNS_4pairIKxxEENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE27__node_insert_multi_performEPNS_11__hash_nodeIS2_PvEEPNS_16__hash_node_baseISK_EE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxNS_4pairIKxxEENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE27__node_insert_multi_prepareEmRS6_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxNS_4pairIKxxEENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE4findIxEENS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxNS_4pairIKxxEENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE5clearEv
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxNS_4pairIKxxEENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE8__rehashILb0EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxNS_4pairIKxxEENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxNS_4pairIKxxEENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS6_SA_S8_Lb1EEENS_9allocatorIS6_EEEC2EOSG_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxNS_4pairIKxxEENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS6_SA_S8_Lb1EEENS_9allocatorIS6_EEED2Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9sqn210106Ev
++ __ZNSt3__113__equal_rangeB9sqn210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPdS5_dNS_10__identityEEENS_4pairIT1_S8_EES8_T2_RKT3_OT0_OT4_
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9sqn210106Ev
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9sqn210106Ej
++ __ZNSt3__116__deque_iteratorI29_WBSSearchSuggestionCandidatePKS1_RS2_PKS3_lLl170EEpLB9sqn210106El
++ __ZNSt3__116__deque_iteratorI29_WBSSearchSuggestionCandidatePS1_RS1_PS2_lLl170EEpLB9sqn210106El
++ __ZNSt3__116__insertion_sortB9sqn210106INS_17_ClassicAlgPolicyERPFbRKN3WTF6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEESC_EPSA_EEvT1_SH_T0_
++ __ZNSt3__116__insertion_sortB9sqn210106INS_17_ClassicAlgPolicyERPFbRKN3WTF6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEESC_EPSA_EEvT1_SH_T0_.cold.1
++ __ZNSt3__116__insertion_sortB9sqn210106INS_17_ClassicAlgPolicyERU8__strongU13block_pointerFbRK9SortEntryS4_EPS2_EEvT1_SA_T0_
++ __ZNSt3__116__pad_and_outputB9sqn210106IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__116allocator_traitsINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSStringNS_10unique_ptrIN12SafariShared24URLCompletionEntryExtrasENS_14default_deleteIS9_EEEEEEPvEEEEE7destroyB9sqn210106INS_4pairIU8__strongKS5_SC_EELi0EEEvRSG_PT_
++ __ZNSt3__116allocator_traitsINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSStringS6_EEPvEEEEE7destroyB9sqn210106INS_4pairIU8__strongKS5_S6_EELi0EEEvRSA_PT_
++ __ZNSt3__117__floyd_sift_downB9sqn210106INS_17_ClassicAlgPolicyERPFbRKN3WTF6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEESC_EPSA_EET1_SH_OT0_NS_15iterator_traitsISH_E15difference_typeE
++ __ZNSt3__117__floyd_sift_downB9sqn210106INS_17_ClassicAlgPolicyERU8__strongU13block_pointerFbRK9SortEntryS4_EPS2_EET1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
++ __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9sqn210106Ev
++ __ZNSt3__119__partial_sort_implB9sqn210106INS_17_ClassicAlgPolicyERPFbRKN3WTF6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEESC_EPSA_SG_EET1_SH_SH_T2_OT0_
++ __ZNSt3__119__partial_sort_implB9sqn210106INS_17_ClassicAlgPolicyERU8__strongU13block_pointerFbRK9SortEntryS4_EPS2_S9_EET1_SA_SA_T2_OT0_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSStringS6_EEPvEEEEEclB9sqn210106EPS9_
++ __ZNSt3__124__put_character_sequenceB9sqn210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__126__insertion_sort_unguardedB9sqn210106INS_17_ClassicAlgPolicyERPFbRKN3WTF6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEESC_EPSA_EEvT1_SH_T0_
++ __ZNSt3__126__insertion_sort_unguardedB9sqn210106INS_17_ClassicAlgPolicyERPFbRKN3WTF6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEESC_EPSA_EEvT1_SH_T0_.cold.1
++ __ZNSt3__126__insertion_sort_unguardedB9sqn210106INS_17_ClassicAlgPolicyERU8__strongU13block_pointerFbRK9SortEntryS4_EPS2_EEvT1_SA_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9sqn210106INS_17_ClassicAlgPolicyERPFbRKN3WTF6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEESC_EPSA_EEbT1_SH_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9sqn210106INS_17_ClassicAlgPolicyERU8__strongU13block_pointerFbRK9SortEntryS4_EPS2_EEbT1_SA_T0_
++ __ZNSt3__131__partition_with_equals_on_leftB9sqn210106INS_17_ClassicAlgPolicyEP9SortEntryRU8__strongU13block_pointerFbRKS2_S5_EEET0_SA_SA_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB9sqn210106INS_17_ClassicAlgPolicyEPN3WTF6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEERPFbRKSA_SD_EEET0_SH_SH_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB9sqn210106INS_17_ClassicAlgPolicyEPN3WTF6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEERPFbRKSA_SD_EEET0_SH_SH_T1_.cold.1
++ __ZNSt3__132__partition_with_equals_on_rightB9sqn210106INS_17_ClassicAlgPolicyEP9SortEntryRU8__strongU13block_pointerFbRKS2_S5_EEENS_4pairIT0_bEESB_SB_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB9sqn210106INS_17_ClassicAlgPolicyEPN3WTF6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEERPFbRKSA_SD_EEENS_4pairIT0_bEESI_SI_T1_
++ __ZNSt3__134__uninitialized_allocator_relocateB9sqn210106INS_9allocatorI29_WBSSearchSuggestionCandidateEEPS2_EEvRT_T0_S7_S7_
++ __ZNSt3__134__uninitialized_allocator_relocateB9sqn210106INS_9allocatorIU8__strongP40WBSHistoryServiceURLCompletionMatchEntryEEPS4_EEvRT_T0_S9_S9_
++ __ZNSt3__14prevB9sqn210106INS_16__deque_iteratorI29_WBSSearchSuggestionCandidatePS2_RS2_PS3_lLl170EEELi0EEET_S7_
++ __ZNSt3__15dequeI29_WBSSearchSuggestionCandidateNS_9allocatorIS1_EEE18__append_with_sizeB9sqn210106INS_16__deque_iteratorIS1_PKS1_RS7_PKS8_lLl170EEEEEvT_m
++ __ZNSt3__15dequeI29_WBSSearchSuggestionCandidateNS_9allocatorIS1_EEE25__maybe_remove_back_spareB9sqn210106Eb
++ __ZNSt3__15dequeI29_WBSSearchSuggestionCandidateNS_9allocatorIS1_EEE26__maybe_remove_front_spareB9sqn210106Eb
++ __ZNSt3__15dequeI29_WBSSearchSuggestionCandidateNS_9allocatorIS1_EEED2B9sqn210106Ev
++ __ZNSt3__16vectorI29_WBSSearchSuggestionCandidateNS_9allocatorIS1_EEE16__destroy_vectorclB9sqn210106Ev
++ __ZNSt3__16vectorI29_WBSSearchSuggestionCandidateNS_9allocatorIS1_EEE20__throw_length_errorB9sqn210106Ev
++ __ZNSt3__16vectorI29_WBSSearchSuggestionCandidateNS_9allocatorIS1_EEE9push_backB9sqn210106ERKS1_
++ __ZNSt3__16vectorIN3WTF6RefPtrIN12SafariShared24HistoryURLCompletionItemENS1_12RawPtrTraitsIS4_EENS1_21DefaultRefDerefTraitsIS4_EEEENS_9allocatorIS9_EEE16__destroy_vectorclB9sqn210106Ev
++ __ZNSt3__16vectorIU8__strongP40WBSHistoryServiceURLCompletionMatchEntryNS_9allocatorIS3_EEE16__destroy_vectorclB9sqn210106Ev
++ __ZNSt3__16vectorIU8__strongP40WBSHistoryServiceURLCompletionMatchEntryNS_9allocatorIS3_EEE20__throw_length_errorB9sqn210106Ev
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE11__vallocateB9sqn210106Em
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE20__throw_length_errorB9sqn210106Ev
++ __ZNSt3__16vectorIdNS_9allocatorIdEEEC2B9sqn210106ERKS3_
++ __ZNSt3__17__sort3B9sqn210106INS_17_ClassicAlgPolicyERU8__strongU13block_pointerFbRK9SortEntryS4_EPS2_Li0EEEbT1_SA_SA_T0_
++ __ZNSt3__17__sort5B9sqn210106INS_17_ClassicAlgPolicyERPFbRKN3WTF6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEESC_EPSA_Li0EEEvT1_SH_SH_SH_SH_T0_
++ __ZNSt3__17__sort5B9sqn210106INS_17_ClassicAlgPolicyERU8__strongU13block_pointerFbRK9SortEntryS4_EPS2_Li0EEEvT1_SA_SA_SA_SA_T0_
++ __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB9sqn210106IRP9SortEntryS6_EEvOT_OT0_
++ __ZNSt3__18for_eachB9sqn210106INS_19__hash_map_iteratorINS_15__hash_iteratorIPNS_11__hash_nodeINS_17__hash_value_typeIxxEEPvEEEEEEU8__strongU13block_pointerFvRKNS_4pairIxxEEEEET0_T_SJ_SI_
++ __ZNSt3__19__sift_upB9sqn210106INS_17_ClassicAlgPolicyERPFbRKN3WTF6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEESC_EPSA_EEvT1_SH_OT0_NS_15iterator_traitsISH_E15difference_typeE
++ __ZNSt3__19__sift_upB9sqn210106INS_17_ClassicAlgPolicyERPFbRKN3WTF6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEESC_EPSA_EEvT1_SH_OT0_NS_15iterator_traitsISH_E15difference_typeE.cold.1
++ __ZNSt3__19__sift_upB9sqn210106INS_17_ClassicAlgPolicyERU8__strongU13block_pointerFbRK9SortEntryS4_EPS2_EEvT1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
++ __ZNSt3__19allocatorI29_WBSSearchSuggestionCandidateE17allocate_at_leastB9sqn210106Em
++ __ZNSt3__19allocatorIP29_WBSSearchSuggestionCandidateE17allocate_at_leastB9sqn210106Em
++ __ZNSt3__19allocatorIU8__strongP40WBSHistoryServiceURLCompletionMatchEntryE17allocate_at_leastB9sqn210106Em
++ __ZNSt3__19allocatorIdE17allocate_at_leastB9sqn210106Em
++ __ZSt28__throw_bad_array_new_lengthB9sqn210106v
++ __ZZ39+[WBSFormToABBinder specifierForIndex:]E11arrayLength
++ __ZZL11historyUDIDvE11historyUDID
++ __ZZL11historyUDIDvE4once
++ __ZZL25makeJSFieldPatternMatcherPK15OpaqueJSContextRK7DFADataE7jsClass
++ __ZZL41commonTLDsThatShouldAllowDirectNavigationP8NSStringE10commonTLDs
++ ___101-[WBSCyclerBookmarksTestSuite _validateServerBookmarksWithTarget:initialBookmarks:completionHandler:]_block_invoke.41
++ ___101-[WBSCyclerBookmarksTestSuite _validateServerBookmarksWithTarget:initialBookmarks:completionHandler:]_block_invoke.41.cold.1
++ ___101-[WBSSiriIntelligenceDonor removeAllCoreSpotlightHistoryDataDonatedBySafariForProfileWithIdentifier:]_block_invoke.245
++ ___101-[WBSSiriIntelligenceDonor removeAllCoreSpotlightHistoryDataDonatedBySafariForProfileWithIdentifier:]_block_invoke.245.cold.1
++ ___101-[WBSSiriIntelligenceDonor removeAllCoreSpotlightHistoryDataDonatedBySafariForProfileWithIdentifier:]_block_invoke.245.cold.2
++ ___107-[WBSHistoryServiceURLCompletion computeSortedRecentWebSearches:useExponentialWeighting:completionHandler:]_block_invoke
++ ___108-[WBSHistoryServiceDatabase _clearHistoryItems:afterDate:beforeDate:tombstoneMode:udid:tombstoneAttributes:]_block_invoke
++ ___108-[WBSHistoryServiceStore clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneAttributes:completionHandler:]_block_invoke
++ ___108-[WBSHistoryServiceStore clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneAttributes:completionHandler:]_block_invoke.80
++ ___108-[WBSHistoryServiceStore clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneAttributes:completionHandler:]_block_invoke.81
++ ___108-[WBSHistoryServiceStore clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneAttributes:completionHandler:]_block_invoke.cold.1
++ ___109-[WBSGeolocationPreferenceManager _getValueAndLastModifiedDateOfPreference:forDomain:withTimeout:usingBlock:]_block_invoke
++ ___109-[WBSGeolocationPreferenceManager _getValueAndLastModifiedDateOfPreference:forDomain:withTimeout:usingBlock:]_block_invoke_2
++ ___109-[WBSGeolocationPreferenceManager _getValueAndLastModifiedDateOfPreference:forDomain:withTimeout:usingBlock:]_block_invoke_3
++ ___110-[WBSSiriIntelligenceDonor reindexAllBookmarkAndHistoryItems:historiesForProfiles:withAcknowledgementHandler:]_block_invoke.228.cold.1
++ ___110-[WBSSiriIntelligenceDonor reindexAllBookmarkAndHistoryItems:historiesForProfiles:withAcknowledgementHandler:]_block_invoke.229
++ ___121-[WBSCyclerBookmarksTestSuite _validateServerBookmarksAfterClearingLocallyWithTarget:initialBookmarks:completionHandler:]_block_invoke.43
++ ___126-[WBSHistoryServiceDatabase _clearHistoryItems:afterDate:beforeDate:tombstoneMode:udid:tombstoneAttributes:completionHandler:]_block_invoke
++ ___126-[WBSHistoryServiceDatabase _clearHistoryItems:afterDate:beforeDate:tombstoneMode:udid:tombstoneAttributes:completionHandler:]_block_invoke_2
++ ___132-[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:udid:tombstoneAttributes:clearAllSpotlightHistoryForProfile:]_block_invoke
++ ___132-[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:udid:tombstoneAttributes:clearAllSpotlightHistoryForProfile:]_block_invoke.216
++ ___132-[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:udid:tombstoneAttributes:clearAllSpotlightHistoryForProfile:]_block_invoke.cold.1
++ ___132-[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:udid:tombstoneAttributes:clearAllSpotlightHistoryForProfile:]_block_invoke.cold.10
++ ___132-[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:udid:tombstoneAttributes:clearAllSpotlightHistoryForProfile:]_block_invoke.cold.11
++ ___132-[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:udid:tombstoneAttributes:clearAllSpotlightHistoryForProfile:]_block_invoke.cold.2
++ ___132-[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:udid:tombstoneAttributes:clearAllSpotlightHistoryForProfile:]_block_invoke.cold.3
++ ___132-[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:udid:tombstoneAttributes:clearAllSpotlightHistoryForProfile:]_block_invoke.cold.4
++ ___132-[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:udid:tombstoneAttributes:clearAllSpotlightHistoryForProfile:]_block_invoke.cold.5
++ ___132-[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:udid:tombstoneAttributes:clearAllSpotlightHistoryForProfile:]_block_invoke.cold.6
++ ___132-[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:udid:tombstoneAttributes:clearAllSpotlightHistoryForProfile:]_block_invoke.cold.7
++ ___132-[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:udid:tombstoneAttributes:clearAllSpotlightHistoryForProfile:]_block_invoke.cold.8
++ ___132-[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:udid:tombstoneAttributes:clearAllSpotlightHistoryForProfile:]_block_invoke.cold.9
++ ___132-[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:udid:tombstoneAttributes:clearAllSpotlightHistoryForProfile:]_block_invoke_2
++ ___132-[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:udid:tombstoneAttributes:clearAllSpotlightHistoryForProfile:]_block_invoke_3
++ ___133-[WBSCyclerBookmarksTestSuite _performCloudKitSecondaryMigrationAfterClearingBookmarksWithTarget:initialBookmarks:completionHandler:]_block_invoke.47
++ ___133-[WBSSiriIntelligenceDonor _donateHistoryItemsToCoreSpotlightCreatedAfterDate:beforeDate:historiesForProfiles:withCompletionHandler:]_block_invoke.238
++ ___134-[WBSSiriIntelligenceDonor _computeBookmarkIdentifiersToModifyThenIndexItems:indexedItemIDs:indexedIDsToAttributes:completionHandler:]_block_invoke
++ ___134-[WBSSiriIntelligenceDonor _computeBookmarkIdentifiersToModifyThenIndexItems:indexedItemIDs:indexedIDsToAttributes:completionHandler:]_block_invoke.216
++ ___134-[WBSSiriIntelligenceDonor _computeBookmarkIdentifiersToModifyThenIndexItems:indexedItemIDs:indexedIDsToAttributes:completionHandler:]_block_invoke_2
++ ___135-[WBSSiriIntelligenceDonor reindexBookmarkAndHistoryItemsWithIdentifiers:allBookmarks:historiesForProfiles:withAcknowledgementHandler:]_block_invoke.233
++ ___135-[WBSSiriIntelligenceDonor reindexBookmarkAndHistoryItemsWithIdentifiers:allBookmarks:historiesForProfiles:withAcknowledgementHandler:]_block_invoke.233.cold.1
++ ___135-[WBSSiriIntelligenceDonor reindexBookmarkAndHistoryItemsWithIdentifiers:allBookmarks:historiesForProfiles:withAcknowledgementHandler:]_block_invoke_2
++ ___135-[WBSSiriIntelligenceDonor reindexBookmarkAndHistoryItemsWithIdentifiers:allBookmarks:historiesForProfiles:withAcknowledgementHandler:]_block_invoke_2.cold.1
++ ___144-[WBSHistoryServiceDatabase clearAllHistoryInsertingTombstoneUpToDate:clearAllSpotlightHistoryForProfile:tombstoneAttributes:completionHandler:]_block_invoke
++ ___148-[WBSHistoryServiceDatabase _clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneMode:udid:tombstoneAttributes:clearAllSpotlightHistoryForProfile:]_block_invoke
++ ___148-[WBSHistoryServiceDatabase _clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneMode:udid:tombstoneAttributes:clearAllSpotlightHistoryForProfile:]_block_invoke.cold.1
++ ___148-[WBSHistoryServiceDatabase _clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneMode:udid:tombstoneAttributes:clearAllSpotlightHistoryForProfile:]_block_invoke.cold.2
++ ___148-[WBSHistoryServiceDatabase _clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneMode:udid:tombstoneAttributes:clearAllSpotlightHistoryForProfile:]_block_invoke_2
++ ___166-[WBSHistoryServiceDatabase _clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneMode:udid:tombstoneAttributes:clearAllSpotlightHistoryForProfile:completionHandler:]_block_invoke
++ ___36-[WBSHistoryCrypto cryptographicKey]_block_invoke
++ ___38-[WBSHistoryService initWithListener:]_block_invoke
++ ___48-[WBSHistorySQLiteSchema _migrateLegacyDatabase]_block_invoke.289
++ ___50-[WBSHistoryCrypto initWithCryptographicKey:salt:]_block_invoke
++ ___51+[WBSRichSearchSuggestion nullRichSearchSuggestion]_block_invoke
++ ___55-[WBSRecentWebSearchesController _removeDuplicatedURLs]_block_invoke
++ ___56-[WBSHistoryService listener:shouldAcceptNewConnection:]_block_invoke.18
++ ___56-[WBSHistoryService listener:shouldAcceptNewConnection:]_block_invoke.18.cold.1
++ ___57-[WBSSiriIntelligenceDonor setTabNeedsSpotlightDeletion:]_block_invoke
++ ___57-[WBSSiriIntelligenceDonor setTabNeedsSpotlightDonation:]_block_invoke
++ ___58-[WBSCRDTField initWithValue:generation:deviceIdentifier:]_block_invoke
++ ___58-[WBSCRDTField initWithValue:generation:deviceIdentifier:]_block_invoke_2
++ ___59-[WBSHistory exportHistoryToFileWithURL:completionHandler:]_block_invoke.92
++ ___59-[WBSHistory exportHistoryToFileWithURL:completionHandler:]_block_invoke.92.cold.1
++ ___61+[WBSHistoryCrypto fetchCryptographicKeyFromKeychainIfNeeded]_block_invoke
++ ___68-[WBSBrowsingDataImportController scanImportURLs:completionHandler:]_block_invoke.92
++ ___68-[WBSHistory clearHistoryWithTombstoneAttributes:completionHandler:]_block_invoke
++ ___68-[WBSHistory clearHistoryWithTombstoneAttributes:completionHandler:]_block_invoke_2
++ ___68-[WBSHistory clearHistoryWithTombstoneAttributes:completionHandler:]_block_invoke_3
++ ___68-[WBSHistory clearHistoryWithTombstoneAttributes:completionHandler:]_block_invoke_4
++ ___68-[WBSHistory clearHistoryWithTombstoneAttributes:completionHandler:]_block_invoke_5
++ ___72-[WBSRecentWebSearchesController _recentSearchesFilteredByDateThreshold]_block_invoke
++ ___73-[WBSSiriIntelligenceDonor donatePendingTabDataNowWithCompletionHandler:]_block_invoke
++ ___76-[WBSRecentWebSearchesController _filteredSearchesForPrefix:recentSearches:]_block_invoke
++ ___77-[WBSHistory addTagWithIdentifier:title:toItemAtURL:level:completionHandler:]_block_invoke.86
++ ___77-[WBSHistory addTagWithIdentifier:title:toItemAtURL:level:completionHandler:]_block_invoke.86.cold.1
++ ___77-[WBSHistory addTagWithIdentifier:title:toItemAtURL:level:completionHandler:]_block_invoke.86.cold.2
++ ___79-[WBSSiriIntelligenceDonor _donatePendingTabDataOnQueue:withCompletionHandler:]_block_invoke.286.cold.1
++ ___79-[WBSSiriIntelligenceDonor _donatePendingTabDataOnQueue:withCompletionHandler:]_block_invoke.287
++ ___80-[WBSHistoryServiceStore clearHistoryWithTombstoneAttributes:completionHandler:]_block_invoke
++ ___80-[WBSHistoryServiceStore clearHistoryWithTombstoneAttributes:completionHandler:]_block_invoke_2
++ ___80-[WBSHistoryServiceStore clearHistoryWithTombstoneAttributes:completionHandler:]_block_invoke_2.cold.1
++ ___85-[WBSBrowsingDataExportController _exportToTemporaryFolderWithURL:completionHandler:]_block_invoke.138
++ ___85-[WBSBrowsingDataExportController _exportToTemporaryFolderWithURL:completionHandler:]_block_invoke.138.cold.1
++ ___85-[WBSBrowsingDataExportController _exportToTemporaryFolderWithURL:completionHandler:]_block_invoke.139
++ ___85-[WBSBrowsingDataExportController _exportToTemporaryFolderWithURL:completionHandler:]_block_invoke.139.cold.1
++ ___85-[WBSBrowsingDataExportController _exportToTemporaryFolderWithURL:completionHandler:]_block_invoke.141
++ ___85-[WBSBrowsingDataExportController _exportToTemporaryFolderWithURL:completionHandler:]_block_invoke.141.cold.1
++ ___85-[WBSBrowsingDataExportController _exportToTemporaryFolderWithURL:completionHandler:]_block_invoke.143
++ ___85-[WBSBrowsingDataExportController _exportToTemporaryFolderWithURL:completionHandler:]_block_invoke.143.cold.1
++ ___85-[WBSBrowsingDataExportController _exportToTemporaryFolderWithURL:completionHandler:]_block_invoke.145
++ ___85-[WBSBrowsingDataExportController _exportToTemporaryFolderWithURL:completionHandler:]_block_invoke.145.cold.1
++ ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke.100
++ ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke.105
++ ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke.107
++ ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke.109
++ ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke.111
++ ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke.114
++ ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke.117
++ ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke.117.cold.1
++ ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke.98
++ ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke_2.102
++ ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke_2.102.cold.1
++ ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke_2.104
++ ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke_2.104.cold.1
++ ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke_2.106
++ ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke_2.106.cold.1
++ ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke_2.108
++ ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke_2.108.cold.1
++ ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke_2.110
++ ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke_2.110.cold.1
++ ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke_2.113
++ ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke_2.119
++ ___85-[WBSPerSitePreferenceManager getValueOfPreference:forDomain:withTimeout:usingBlock:]_block_invoke.24
++ ___85-[WBSPerSitePreferenceManager getValueOfPreference:forDomain:withTimeout:usingBlock:]_block_invoke_3
++ ___85-[WBSPerSitePreferenceManager getValueOfPreference:forDomain:withTimeout:usingBlock:]_block_invoke_3.cold.1
++ ___85-[WBSPerSitePreferenceManager getValueOfPreference:forDomain:withTimeout:usingBlock:]_block_invoke_3.cold.2
++ ___85-[WBSPerSitePreferenceManager getValueOfPreference:forDomain:withTimeout:usingBlock:]_block_invoke_3.cold.3
++ ___87-[WBSHistory _removeItemsInResponseToUserAction:tombstoneAttributes:completionHandler:]_block_invoke
++ ___87-[WBSHistory _removeItemsInResponseToUserAction:tombstoneAttributes:completionHandler:]_block_invoke_2
++ ___92-[WBSRecentWebSearchesController _sortRecentSearchesConsideringFrequency:completionHandler:]_block_invoke
++ ___92-[WBSRecentWebSearchesController _sortRecentSearchesConsideringFrequency:completionHandler:]_block_invoke.76
++ ___92-[WBSRecentWebSearchesController _sortRecentSearchesConsideringFrequency:completionHandler:]_block_invoke_2
++ ___92-[WBSRecentWebSearchesController _sortRecentSearchesConsideringFrequency:completionHandler:]_block_invoke_2.77
++ ___92-[WBSRecentWebSearchesController _sortRecentSearchesConsideringFrequency:completionHandler:]_block_invoke_2.cold.1
++ ___94-[WBSRecentlyBreachedPasswordProvider _getRecentlyBreachedSavedAccountsWithCompletionHandler:]_block_invoke_3
++ ___94-[WBSSiriIntelligenceDonor _removeCoreSpotlightDataWithIDs:onDispatchQueue:completionHandler:]_block_invoke.244
++ ___96-[WBSHistory clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneAttributes:completionHandler:]_block_invoke
++ ___96-[WBSHistoryServiceStore removePastHistoryVisitsForItems:tombstoneAttributes:completionHandler:]_block_invoke
++ ___96-[WBSHistoryServiceStore removePastHistoryVisitsForItems:tombstoneAttributes:completionHandler:]_block_invoke.68
++ ___96-[WBSHistoryServiceStore removePastHistoryVisitsForItems:tombstoneAttributes:completionHandler:]_block_invoke.68.cold.1
++ ___96-[WBSHistoryServiceStore removePastHistoryVisitsForItems:tombstoneAttributes:completionHandler:]_block_invoke.70
++ ___96-[WBSHistoryServiceStore removePastHistoryVisitsForItems:tombstoneAttributes:completionHandler:]_block_invoke.70.cold.1
++ ___96-[WBSHistoryServiceStore removePastHistoryVisitsForItems:tombstoneAttributes:completionHandler:]_block_invoke.cold.1
++ ___97-[WBSSiriIntelligenceDonor removeAllCoreSpotlightTabDataDonatedBySafariForProfileWithIdentifier:]_block_invoke.246
++ ___97-[WBSSiriIntelligenceDonor removeAllCoreSpotlightTabDataDonatedBySafariForProfileWithIdentifier:]_block_invoke.246.cold.1
++ ___97-[WBSSiriIntelligenceDonor removeAllCoreSpotlightTabDataDonatedBySafariForProfileWithIdentifier:]_block_invoke.246.cold.2
++ ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke.121
++ ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke.125
++ ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke.127
++ ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke.129
++ ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke.131
++ ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke.133
++ ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke.135
++ ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke.137
++ ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke_2.124
++ ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke_2.124.cold.1
++ ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke_2.126
++ ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke_2.126.cold.1
++ ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke_2.128
++ ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke_2.128.cold.1
++ ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke_2.130
++ ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke_2.130.cold.1
++ ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke_2.132
++ ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke_2.132.cold.1
++ ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke_2.134
++ ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke_2.136
++ ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke_2.136.cold.1
++ ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke_2.138
++ ___99-[WBSHistoryServiceStore computeSortedRecentWebSearches:useExponentialWeighting:completionHandler:]_block_invoke
++ ____ZL11historyUDIDv_block_invoke
++ ___block_descriptor_32_e58_"WBSRecentWebSearchEntry"16?0"WBSRecentWebSearchEntry"8l
++ ___block_descriptor_40_ea8_32bs_e22_v28?08"NSDate"16B24ls32l8
++ ___block_descriptor_40_ea8_32r_e22_v28?08"NSDate"16B24lr32l8
++ ___block_descriptor_40_ea8_32s_e33_B16?0"WBSRecentWebSearchEntry"8ls32l8
++ ___block_descriptor_40_ea8_32s_e61_q24?0"WBSRecentWebSearchEntry"8"WBSRecentWebSearchEntry"16ls32l8
++ ___block_descriptor_48_e8_32s40r_e17_v16?0"NSError"8lr40l8s32l8
++ ___block_descriptor_49_ea8_32s40bs_e45_v16?0"<WBSHistoryServiceDatabaseProtocol>"8ls40l8s32l8
++ ___block_descriptor_64_e8_32s40s48s56bs_e17_v16?0"NSError"8ls32l8s40l8s48l8s56l8
++ ___block_descriptor_64_e8_32s40s48s56bs_e8_v16?0q8ls56l8s32l8s40l8s48l8
++ ___block_descriptor_65_ea8_32s40s48bs_e5_v8?0ls32l8s48l8s40l8
++ ___block_descriptor_72_e8_32s40s48s56s64bs_e17_v16?0"NSError"8ls32l8s40l8s48l8s56l8s64l8
++ ___block_descriptor_73_ea8_32s40s48s56r_e5_B8?0ls32l8s40l8r56l8s48l8
++ ___block_descriptor_76_e8_32s40bs_e5_v8?0ls40l8s32l8
++ ___block_descriptor_89_ea8_32s40s48s56s64bs_e5_v8?0ls32l8s64l8s40l8s48l8s56l8
++ ___block_descriptor_96_ea8_32s40s48s56s64s72bs_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8
++ ___block_descriptor_96_ea8_32s40s48s56s64s72r_e5_B8?0lr72l8s32l8s40l8s48l8s56l8s64l8
++ ___block_descriptor_96_ea8_32s40s48s56s64s72s80bs_e5_v8?0ls32l8s40l8s48l8s56l8s80l8s64l8s72l8
++ ___block_descriptor_97_ea8_32s40s48s56s64r72r_e5_B8?0ls32l8s40l8s48l8s56l8r64l8r72l8
++ ___block_literal_global.116
++ ___block_literal_global.159
++ ___block_literal_global.175
++ ___block_literal_global.19
++ ___block_literal_global.211
++ ___block_literal_global.224
++ ___block_literal_global.226
++ ___block_literal_global.232
++ ___block_literal_global.244
++ ___block_literal_global.283
++ ___block_literal_global.370
++ ___block_literal_global.409
++ ___block_literal_global.48
++ ___block_literal_global.775
++ ___block_literal_global.78
++ ___cacheQueue_block_invoke
++ ___swift_destroy_boxed_opaque_existential_1
++ ___swift_memcpy1_1
++ ___swift_memcpy32_8
++ ___swift_project_boxed_opaque_existential_1
++ _addressBookFieldLabelPatternMatchers0
++ _addressBookFieldLabelPatternMatchers1
++ _addressBookFieldLabelPatternMatchers2
++ _addressBookFieldLabelPatternMatchers3
++ _associated conformance 12SafariShared34WBSOnDemandSummarizationReportDataV10CodingKeysOSHAASQ
++ _associated conformance 12SafariShared34WBSOnDemandSummarizationReportDataV10CodingKeysOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 12SafariShared34WBSOnDemandSummarizationReportDataV10CodingKeysOs0H3KeyAAs28CustomDebugStringConvertible
++ _autocompleteTokenMapMatcher
++ _cacheQueue
++ _cacheQueue.cold.1
++ _cacheQueue.once
++ _cacheQueue.queue
++ _cachedCryptographicKey
++ _confirmEmailFieldLabels
++ _confirmPasswordFieldLabels
++ _createOrLoadCryptographicKey
++ _creditCardCardholderFieldLabels
++ _creditCardCompositeExpirationDateFieldLabels
++ _creditCardNumberFieldLabels
++ _creditCardSecurityCodeFieldLabels
++ _creditCardTypeFieldLabels
++ _dayFieldLabels
++ _emailFieldLabelPatternMatchers
++ _federatedSignInAffordanceLabels
++ _fieldLabelMapMatcher
++ _flat unique So30WBSTabOrderPreferenceProviding_p
++ _ignoredDataTypeFieldLabels
++ _keywordsIndicatingLoginFormTypeToScoreForMatching
++ _keywordsIndicatingNewAccountFormTypeToScoreForMatching
++ _monthFieldLabels
++ _nonAccountPasswordSecureTextEntryFieldLabels
++ _nonCreditCardCardNumberFieldLabels
++ _nonEmailFieldLabels
++ _nonUsernameFieldLabels
++ _nullRichSearchSuggestion.nullRichSearchSuggestion
++ _nullRichSearchSuggestion.onceToken
++ _objc_msgSend$_clearAllHistoryInsertingTombstoneUpToDate:udid:tombstoneAttributes:clearAllSpotlightHistoryForProfile:
++ _objc_msgSend$_clearHistoryItems:afterDate:beforeDate:tombstoneMode:udid:tombstoneAttributes:
++ _objc_msgSend$_clearHistoryItems:afterDate:beforeDate:tombstoneMode:udid:tombstoneAttributes:completionHandler:
++ _objc_msgSend$_clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneMode:udid:tombstoneAttributes:clearAllSpotlightHistoryForProfile:
++ _objc_msgSend$_clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneMode:udid:tombstoneAttributes:clearAllSpotlightHistoryForProfile:completionHandler:
++ _objc_msgSend$_cloudTab
++ _objc_msgSend$_computeBookmarkIdentifiersToModifyThenIndexItems:indexedItemIDs:indexedIDsToAttributes:completionHandler:
++ _objc_msgSend$_computeNumberOfReadingListItemsToBeImportedFromURL:completionHandler:
++ _objc_msgSend$_didCertificateExceptionsApplySuccessfully:protectionSpace:
++ _objc_msgSend$_exportReadingListToFileWithURL:completionHandler:
++ _objc_msgSend$_fieldWithValueIsEligibleForOneTimeCodeAutoFill:
++ _objc_msgSend$_filteredSearchesForPrefix:recentSearches:
++ _objc_msgSend$_frequencyValueForWebSearchEntry:useExponentialWeighting:
++ _objc_msgSend$_getValueAndLastModifiedDateOfPreference:forDomain:withTimeout:usingBlock:
++ _objc_msgSend$_importReadingListFromURL:completionHandler:
++ _objc_msgSend$_initWithPKPlugin:
++ _objc_msgSend$_insertTombstonesForURLs:afterDate:beforeDate:tombstoneMode:udid:attributes:
++ _objc_msgSend$_logBookmarkHierarchy:withContext:
++ _objc_msgSend$_metadataObjectOfClass:forKey:error:
++ _objc_msgSend$_nextRandomIndexBasedOnIndex:upToIndex:
++ _objc_msgSend$_nextRandomIndexBasedOnIndex:withMaximumIncrement:
++ _objc_msgSend$_numberOfReadingListItemsToBeExported
++ _objc_msgSend$_randomIndexWithLowerBound:upperBound:
++ _objc_msgSend$_recentSearchesFilteredByDateThreshold
++ _objc_msgSend$_removeDuplicatedURLs
++ _objc_msgSend$_removeItemsInResponseToUserAction:tombstoneAttributes:completionHandler:
++ _objc_msgSend$_sortRecentSearchesConsideringFrequency:completionHandler:
++ _objc_msgSend$_startingClearHistoryOperationForStartDate:endDate:udid:tombstoneAttributes:
++ _objc_msgSend$clearAllHistoryInsertingTombstoneUpToDate:clearAllSpotlightHistoryForProfile:tombstoneAttributes:completionHandler:
++ _objc_msgSend$clearHistoryItems:afterDate:beforeDate:tombstoneMode:tombstoneAttributes:completionHandler:
++ _objc_msgSend$clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneAttributes:completionHandler:
++ _objc_msgSend$clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneMode:tombstoneAttributes:clearAllSpotlightHistoryForProfile:completionHandler:
++ _objc_msgSend$clearHistoryWithTombstoneAttributes:completionHandler:
++ _objc_msgSend$cloudTab
++ _objc_msgSend$computeSortedRecentWebSearches:useExponentialWeighting:completionHandler:
++ _objc_msgSend$confirmPasswordFieldMaxLength
++ _objc_msgSend$confirmPasswordFieldMinLength
++ _objc_msgSend$confirmPasswordFieldPasswordRules
++ _objc_msgSend$debugDescription
++ _objc_msgSend$defaultStore
++ _objc_msgSend$deviceIdentifier
++ _objc_msgSend$enableRecentSearchSortingByVisitCountScore
++ _objc_msgSend$enableRecentSearchSortingUsingExponentialWeighting
++ _objc_msgSend$fetchCryptographicKeyFromKeychainIfNeeded
++ _objc_msgSend$getFormFieldValues:andFieldToFocus:andCreditCardDataTypesThatWillBeFilled:forCreditCardForm:fromCreditCardData:
++ _objc_msgSend$initWithCoder:
++ _objc_msgSend$initWithDictionary:origin:
++ _objc_msgSend$initWithKey:readOnly:
++ _objc_msgSend$initWithPasswordFieldPasswordRules:passwordFieldMinLength:passwordFieldMaxLength:confirmPasswordFieldPasswordRules:confirmPasswordFieldMinLength:confirmPasswordFieldMaxLength:
++ _objc_msgSend$initWithSortValue:deviceIdentifier:
++ _objc_msgSend$initWithURLString:urlHash:urlSalt:startTime:endTime:generation:udid:attributes:
++ _objc_msgSend$initWithValue:valueSource:valueProvider:valueUpdater:generation:deviceIdentifier:metadata:
++ _objc_msgSend$isLockedOrAboutToLock
++ _objc_msgSend$isValidJSONObject:
++ _objc_msgSend$passwordFieldMaxLength
++ _objc_msgSend$passwordFieldMinLength
++ _objc_msgSend$passwordFieldPasswordRules
++ _objc_msgSend$positionBetweenPosition:andPosition:
++ _objc_msgSend$removeItemsInResponseToUserAction:tombstoneAttributes:completionHandler:
++ _objc_msgSend$removePastHistoryVisitsForItems:tombstoneAttributes:completionHandler:
++ _objc_msgSend$safari_defaultPortForProtocol:
++ _objc_msgSend$safari_isSafariFamilyBundleIdentifier:
++ _objc_msgSend$safari_unpackedExtensionWithURL:identifier:
++ _objc_msgSend$searchParameters
++ _objc_msgSend$setConfirmPasswordFieldPasswordRules:
++ _objc_msgSend$setHTMLInputElementNotAutoFilled
++ _objc_msgSend$setPlugInDictionary:
++ _objc_msgSend$setUrl:
++ _objc_msgSend$setVersion:
++ _objc_msgSend$specifierForIndex:
++ _objc_msgSend$udid
++ _objc_msgSend$wellKnownChangePasswordURL
++ _oldPasswordFieldLabels
++ _oneTimeCodeFieldLabels
++ _passwordFieldLabels
++ _pow
++ _searchFieldLabels
++ _showHideButtonLabels
++ _swift_bridgeObjectRetain_n
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_initWithCopy
++ _swift_cvw_initializeBufferWithCopyOfBuffer
++ _swift_unknownObjectWeakAssign
++ _swift_unknownObjectWeakDestroy
++ _swift_unknownObjectWeakInit
++ _swift_unknownObjectWeakLoadStrong
++ _symbolic SS3key_yp5valuet
++ _symbolic Sbyc
++ _symbolic _____ 12SafariShared28MRTabOrderPreferenceProviderC
++ _symbolic _____ 12SafariShared34WBSOnDemandSummarizationReportDataV
++ _symbolic _____ 12SafariShared34WBSOnDemandSummarizationReportDataV10CodingKeysO
++ _symbolic ______pSgXw So30WBSTabOrderPreferenceProvidingP
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12SafariShared34WBSOnDemandSummarizationReportDataV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12SafariShared34WBSOnDemandSummarizationReportDataV10CodingKeysO
++ _type_layout_string 12SafariShared34WBSOnDemandSummarizationReportDataV
++ _usernameFieldLabels
++ _yearFieldLabels
+- +[WBSBrowsingDataImportController suggestedImportedBookmarksFolderName]
+- +[WBSBrowsingDataImportController uniqueImportedBookmarksFolderNameWithSuggestedName:existingFolderNames:]
+- +[WBSCRDTPosition positionBetweenPosition:andPosition:withDeviceIdentifier:changeID:]
+- +[_WBSFieldLabelPatternMatcherFactory createFieldLabelPatternMatcherArrayFromWordArrays:allowingEndOfWordMatches:]
+- -[WBSCRDTField initWithValue:generation:]
+- -[WBSCRDTField initWithValue:valueSource:valueProvider:valueUpdater:generation:metadata:]
+- -[WBSCRDTField initWithValueSource:valueProvider:valueUpdater:generation:]
+- -[WBSCRDTPositionSortValue initWithSortValue:deviceIdentifier:changeID:]
+- -[WBSCRDTPositionSortValue positionSortValueWithChangeID:]
+- -[WBSCRDTPositionSortValue positionSortValueWithSortValue:]
+- -[WBSCertificateBypassManager _didCertificatExceptionsApplySuccessfully:protectionSpace:]
+- -[WBSFormDataController textFieldIsEligibleForAutomaticStrongPassword:form:ignorePreviousDecision:textFieldCurrentlyContainsStrongPassword:]
+- -[WBSFormMetadataController autoFillFrameIsValid:].cold.1
+- -[WBSFormMetadataController autoFillFrameIsValid:].cold.2
+- -[WBSFormMetadataController textFieldFocused:inFrame:textFieldMetadata:formMetadata:].cold.2
+- -[WBSFormMetadataController textFieldFocused:inFrame:textFieldMetadata:formMetadata:].cold.3
+- -[WBSHistory _removeHistoryItemsInResponseToUserAction:]
+- -[WBSHistory _removeItemsInResponseToUserAction:completionHandler:]
+- -[WBSHistory clearHistoryVisitsAddedAfterDate:beforeDate:completionHandler:]
+- -[WBSHistory clearHistoryWithCompletionHandler:]
+- -[WBSHistory clearHistory]
+- -[WBSHistory removeItemsInResponseToUserAction:]
+- -[WBSHistory removeItemsInResponseToUserAction:completionHandler:]
+- -[WBSHistoryCrypto _createCryptographicKey]
+- -[WBSHistoryCrypto _createOrLoadCryptographicKey]
+- -[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:clearAllSpotlightHistoryForProfile:]
+- -[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:clearAllSpotlightHistoryForProfile:].cold.1
+- -[WBSHistoryServiceDatabase _clearHistoryItems:afterDate:beforeDate:tombstoneMode:]
+- -[WBSHistoryServiceDatabase _clearHistoryItems:afterDate:beforeDate:tombstoneMode:].cold.1
+- -[WBSHistoryServiceDatabase _clearHistoryItems:afterDate:beforeDate:tombstoneMode:].cold.2
+- -[WBSHistoryServiceDatabase _clearHistoryItems:afterDate:beforeDate:tombstoneMode:].cold.3
+- -[WBSHistoryServiceDatabase _clearHistoryItems:afterDate:beforeDate:tombstoneMode:].cold.4
+- -[WBSHistoryServiceDatabase _clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneMode:clearAllSpotlightHistoryForProfile:]
+- -[WBSHistoryServiceDatabase _dateForMetadataKey:error:]
+- -[WBSHistoryServiceDatabase _dateForMetadataKey:error:].cold.1
+- -[WBSHistoryServiceDatabase _dateForMetadataKey:error:].cold.2
+- -[WBSHistoryServiceDatabase _insertTombstonesForURLs:afterDate:beforeDate:tombstoneMode:]
+- -[WBSHistoryServiceDatabase _insertTombstonesForURLs:afterDate:beforeDate:tombstoneMode:].cold.1
+- -[WBSHistoryServiceDatabase _insertTombstonesForURLs:afterDate:beforeDate:tombstoneMode:].cold.2
+- -[WBSHistoryServiceDatabase _startingClearHistoryOperationForStartDate:endDate:]
+- -[WBSHistoryServiceDatabase _startingClearHistoryOperationForStartDate:endDate:].cold.1
+- -[WBSHistoryServiceDatabase _startingClearHistoryOperationForStartDate:endDate:].cold.2
+- -[WBSHistoryServiceDatabase _startingClearHistoryOperationForStartDate:endDate:].cold.3
+- -[WBSHistoryServiceDatabase _startingClearHistoryOperationForStartDate:endDate:].cold.4
+- -[WBSHistoryServiceDatabase clearAllHistoryInsertingTombstoneUpToDate:clearAllSpotlightHistoryForProfile:completionHandler:]
+- -[WBSHistoryServiceDatabase clearHistoryItems:afterDate:beforeDate:tombstoneMode:completionHandler:]
+- -[WBSHistoryServiceDatabase clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneMode:clearAllSpotlightHistoryForProfile:completionHandler:]
+- -[WBSHistoryServiceDatabaseProxy clearAllHistoryInsertingTombstoneUpToDate:clearAllSpotlightHistoryForProfile:completionHandler:]
+- -[WBSHistoryServiceDatabaseProxy clearHistoryItems:afterDate:beforeDate:tombstoneMode:completionHandler:]
+- -[WBSHistoryServiceDatabaseProxy clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneMode:clearAllSpotlightHistoryForProfile:completionHandler:]
+- -[WBSHistoryServiceStore clearHistoryVisitsAddedAfterDate:beforeDate:completionHandler:]
+- -[WBSHistoryServiceStore clearHistoryWithCompletionHandler:]
+- -[WBSHistoryServiceStore removePastHistoryVisitsForItems:completionHandler:]
+- -[WBSHistoryTombstone initWithDictionary:]
+- -[WBSHistoryTombstone initWithURLString:urlHash:urlSalt:startTime:endTime:generation:]
+- -[WBSParsecDFeedbackDispatcher didBeginSearchOfType:withQuery:urlString:endpoint:]
+- -[WBSParsecDFeedbackDispatcher didBeginSearchOfType:withQuery:urlString:endpoint:].cold.1
+- -[WBSRecentWebSearchesController recentSearchesMatchingPrefix:]
+- -[WBSRecentWebSearchesController recentWebSearchEntriesFilteredByTimeIntervalForDisplayInMainRecentSearchesView]
+- -[WBSRecentWebSearchesController recentWebSearchEntries]
+- -[WBSSiriIntelligenceDonor donateAllHistoryToCoreSpotlightForProfiles:completionHandler:]
+- -[_WBSFieldLabelPatternMatcherFactory .cxx_destruct]
+- -[_WBSFieldLabelPatternMatcherFactory _addWord:allowingEndOfWordMatch:]
+- -[_WBSFieldLabelPatternMatcherFactory init]
+- GCC_except_table204
+- GCC_except_table206
+- GCC_except_table210
+- GCC_except_table224
+- GCC_except_table226
+- GCC_except_table233
+- GCC_except_table236
+- GCC_except_table246
+- GCC_except_table251
+- GCC_except_table270
+- GCC_except_table273
+- GCC_except_table276
+- GCC_except_table309
+- GCC_except_table312
+- GCC_except_table313
+- GCC_except_table316
+- GCC_except_table320
+- GCC_except_table361
+- GCC_except_table364
+- GCC_except_table365
+- GCC_except_table384
+- GCC_except_table390
+- GCC_except_table420
+- GCC_except_table431
+- GCC_except_table432
+- GCC_except_table434
+- GCC_except_table435
+- GCC_except_table436
+- _CFDateCreate
+- _CFDateFormatterCreate
+- _CFDateFormatterCreateStringWithDate
+- _CFLocaleCopyCurrent
+- _CFStringFindWithOptions
+- _JSStringCreateWithCharacters
+- _JSStringGetCharactersPtr
+- _JSStringGetLength
+- _OBJC_CLASS_$__WBSFieldLabelPatternMatcherFactory
+- _OBJC_IVAR_$_WBSHistoryCrypto._cachedCryptographicKey
+- _OBJC_IVAR_$__WBSFieldLabelPatternMatcherFactory._trie
+- _OBJC_METACLASS_$__WBSFieldLabelPatternMatcherFactory
+- _WBSFieldLabelPatternMatcherArrayFree
+- _WBSFieldLabelPatternMatcherArrayGetCount
+- _WBSFieldLabelPatternMatcherArrayGetPatternMatcherAtIndex
+- _WBSFieldLabelPatternMatcherFindLongestMatch
+- _WBSFieldLabelPatternMatcherSearchReverse
+- _WBSShowNoRecentSearchesViewNotificationName
+- __OBJC_$_CLASS_METHODS__WBSFieldLabelPatternMatcherFactory
+- __OBJC_$_INSTANCE_METHODS__WBSFieldLabelPatternMatcherFactory
+- __OBJC_$_INSTANCE_VARIABLES__WBSFieldLabelPatternMatcherFactory
+- __OBJC_CLASS_RO_$__WBSFieldLabelPatternMatcherFactory
+- __OBJC_METACLASS_RO_$__WBSFieldLabelPatternMatcherFactory
+- __ZGVZL25makeJSFieldPatternMatcherPK15OpaqueJSContextPK29__WBSFieldLabelPatternMatcherE7jsClass
+- __ZGVZN12SafariSharedL30jsDayFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZGVZN12SafariSharedL30jsLoginFormTypePatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZGVZN12SafariSharedL31jsYearFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZGVZN12SafariSharedL32jsMonthFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZGVZN12SafariSharedL33jsSearchFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZGVZN12SafariSharedL35jsNewAccountFormTypePatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZGVZN12SafariSharedL35jsNonEmailFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZGVZN12SafariSharedL35jsPasswordFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZGVZN12SafariSharedL35jsUsernameFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZGVZN12SafariSharedL36jsShowHideButtonLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZGVZN12SafariSharedL38jsNonUsernameFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZGVZN12SafariSharedL38jsOldPasswordFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZGVZN12SafariSharedL39jsConfirmEmailFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZGVZN12SafariSharedL41jsCreditCardTypeFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZGVZN12SafariSharedL42jsConfirmPasswordFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZGVZN12SafariSharedL42jsFederatedSignInAffordancePatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZGVZN12SafariSharedL42jsIgnoredDataTypeFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZGVZN12SafariSharedL43jsCreditCardNumberFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZGVZN12SafariSharedL47jsCreditCardCardholderFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZGVZN12SafariSharedL49jsCreditCardSecurityCodeFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZGVZN12SafariSharedL50jsNonCreditCardCardNumberFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZGVZN12SafariSharedL60jsCreditCardCompositeExpirationDateFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZGVZN12SafariSharedL60jsNonAccountPasswordSecureTextEntryFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZGVZN12SafariSharedL63jsOneTimeCodeFieldLabelPatternMatchersFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZGVZN12SafariSharedL67jsWeakOneTimeCodeFieldLabelPatternMatchersFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZGVZN12SafariSharedL74jsCodeButNotOneTimeCodeFieldLabelsPatternMatchersFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZL17searchFieldLabelsv
+- __ZL19nonEmailFieldLabelsv
+- __ZL19passwordFieldLabelsv
+- __ZL19usernameFieldLabelsv
+- __ZL20cachedDayFieldLabels
+- __ZL20showHideButtonLabelsv
+- __ZL21cachedYearFieldLabels
+- __ZL22addInitializersForTrieP12NSDictionaryRN3WTF6VectorIN12SafariShared24FieldLabelPatternMatcher3DFA5StateELm0ENS1_15CrashOnOverflowELm16ENS1_10FastMallocEEERNS2_INS5_10TransitionELm0ES7_Lm16ES8_EE
+- __ZL22cachedMonthFieldLabels
+- __ZL22nonUsernameFieldLabelsv
+- __ZL22oldPasswordFieldLabelsv
+- __ZL22oneTimeCodeFieldLabelsv
+- __ZL23cachedSearchFieldLabels
+- __ZL23confirmEmailFieldLabelsv
+- __ZL25cachedNonEmailFieldLabels
+- __ZL25cachedPasswordFieldLabels
+- __ZL25cachedUsernameFieldLabels
+- __ZL26WeakOneTimeCodeFieldLabelsv
+- __ZL26cachedShowHideButtonLabels
+- __ZL26callPatternMatcherFunctionIPF7CFRangePK29__WBSFieldLabelPatternMatcherPKtlEEPK13OpaqueJSValuePK15OpaqueJSContextPS8_mPKSA_T_
+- __ZL26confirmPasswordFieldLabelsv
+- __ZL26ignoredDataTypeFieldLabelsv
+- __ZL28cachedNonUsernameFieldLabels
+- __ZL28cachedOldPasswordFieldLabels
+- __ZL28cachedOneTimeCodeFieldLabels
+- __ZL29cachedConfirmEmailFieldLabels
+- __ZL30makeJSFieldPatternMatcherArrayPK15OpaqueJSContextPK34__WBSFieldLabelPatternMatcherArray
+- __ZL31federatedSignInAffordanceLabelsv
+- __ZL32CodeButNotOneTimeCodeFieldLabelsv
+- __ZL32cachedConfirmPasswordFieldLabels
+- __ZL32cachedIgnoredDataTypeFieldLabels
+- __ZL32cachedWeakOneTimeCodeFieldLabels
+- __ZL33jsFieldPatternMatcherLongestMatchPK15OpaqueJSContextP13OpaqueJSValueS3_mPKPKS2_PS5_
+- __ZL34jsFieldPatternMatcherSearchReversePK15OpaqueJSContextP13OpaqueJSValueS3_mPKPKS2_PS5_
+- __ZL37cachedFederatedSignInAffordanceLabels
+- __ZL38cachedCodeButNotOneTimeCodeFieldLabels
+- __ZL44nonAccountPasswordSecureTextEntryFieldLabelsv
+- __ZL50cachedNonAccountPasswordSecureTextEntryFieldLabels
+- __ZL54mapOfKeywordsIndicatingLoginFormTypeToScoreForMatchingv
+- __ZL59mapOfKeywordsIndicatingNewAccountFormTypeToScoreForMatchingv
+- __ZN12SafariShared24FieldLabelPatternMatcher15isWordCharacterEt
+- __ZN12SafariShared24FieldLabelPatternMatcherC1ERKNS0_3DFAEPKtl
+- __ZN12SafariShared24FieldLabelPatternMatcherC2ERKNS0_3DFAEPKtl
+- __ZN12SafariShared25ArticleFinderJSController20reloadArticleContentEv
+- __ZN12SafariShared28ReaderAvailabilityController23articleContentDidChangeEv
+- __ZN12SafariShared28ReaderAvailabilityController23articleReloadTimerFiredEP16__CFRunLoopTimerPv
+- __ZN12SafariShared28ReaderAvailabilityController26scheduleArticleReloadTimerEd
+- __ZN12SafariShared28ReaderAvailabilityController28invalidateArticleReloadTimerEv
+- __ZN12SafariShared33BookmarkAndHistoryCompletionMatchC2EPU36objcproto25WBSURLCompletionMatchData11objc_objectmd29WBSURLCompletionMatchLocationS3_m.cold.1
+- __ZN12SafariShared34AddressBookAutoCompleteMappingData30emailFieldLabelPatternMatchersE
+- __ZN12SafariShared34AddressBookAutoCompleteMappingData36addressBookFieldLabelPatternMatchersE
+- __ZN12SafariShared34AddressBookAutoCompleteMappingDataL11transitionsE
+- __ZN12SafariShared34AddressBookAutoCompleteMappingDataL4dfasE
+- __ZN12SafariShared34AddressBookAutoCompleteMappingDataL6statesE
+- __ZN12SafariShared36_WBSSQLiteStatementBindAllParametersILi1ERU8__strongP6NSDataJRKdS6_RKlEEEvP18WBSSQLiteStatementOT0_DpOT1_
+- __ZN12SafariShared36_WBSSQLiteStatementBindAllParametersILi1EdJdRKxEEEvP18WBSSQLiteStatementOT0_DpOT1_
+- __ZN12SafariShared36_WBSSQLiteStatementBindAllParametersILi1EdJdRlEEEvP18WBSSQLiteStatementOT0_DpOT1_
+- __ZN12SafariShared36_WBSSQLiteStatementBindAllParametersILi2ERKdJS2_RKlEEEvP18WBSSQLiteStatementOT0_DpOT1_
+- __ZN12SafariShared36_WBSSQLiteStatementBindAllParametersILi2EdJRKxEEEvP18WBSSQLiteStatementOT0_DpOT1_
+- __ZN12SafariShared36_WBSSQLiteStatementBindAllParametersILi2EdJRlEEEvP18WBSSQLiteStatementOT0_DpOT1_
+- __ZN12SafariShared36_WBSSQLiteStatementBindAllParametersILi3ERKdJRKlEEEvP18WBSSQLiteStatementOT0_DpOT1_
+- __ZN12SafariShared39_WBSSQLiteDatabaseExecuteAndReturnErrorIJddRKxEEEiP17WBSSQLiteDatabasePU15__autoreleasingP7NSErrorP8NSStringDpOT_
+- __ZN12SafariShared39_WBSSQLiteDatabaseExecuteAndReturnErrorIJddRlEEEiP17WBSSQLiteDatabasePU15__autoreleasingP7NSErrorP8NSStringDpOT_
+- __ZN12SafariSharedL14dayFieldLabelsEv
+- __ZN12SafariSharedL15yearFieldLabelsEv
+- __ZN12SafariSharedL16monthFieldLabelsEv
+- __ZN12SafariSharedL51jsSpecifierForAutocompleteTokensAndAddressBookLabelEPK15OpaqueJSContextP13OpaqueJSValueS4_mPKPKS3_PS6_
+- __ZN3WTF18asciiCaseFoldTableE
+- __ZN3WTF6VectorIN12SafariShared24FieldLabelPatternMatcher3DFA10TransitionELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEE14expandCapacityILNS_13FailureActionE0EEEPS4_mSA_
+- __ZN3WTF6VectorIN12SafariShared24FieldLabelPatternMatcher3DFA10TransitionELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEE14shrinkCapacityEm
+- __ZN3WTF6VectorIN12SafariShared24FieldLabelPatternMatcher3DFA10TransitionELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEE15reserveCapacityILNS_13FailureActionE0EEEbm
+- __ZN3WTF6VectorIN12SafariShared24FieldLabelPatternMatcher3DFA5StateELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEE14expandCapacityILNS_13FailureActionE0EEEPS4_mSA_
+- __ZN3WTF6VectorIN12SafariShared24FieldLabelPatternMatcher3DFA5StateELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEE14shrinkCapacityEm
+- __ZN3WTF6VectorIN12SafariShared24FieldLabelPatternMatcher3DFA5StateELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEE15reserveCapacityILNS_13FailureActionE0EEEbm
+- __ZN3WTF6VectorIN12SafariShared24FieldLabelPatternMatcher3DFAELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEE14expandCapacityILNS_13FailureActionE0EEEPS3_mS9_
+- __ZN3WTF6VectorIN12SafariShared24FieldLabelPatternMatcher3DFAELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEE14shrinkCapacityEm
+- __ZN3WTF6VectorIN12SafariShared24FieldLabelPatternMatcher3DFAELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEE15reserveCapacityILNS_13FailureActionE0EEEbm
+- __ZN3WTF6VectorINS_6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS_12RawPtrTraitsIS3_EENS_21DefaultRefDerefTraitsIS3_EEEELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEED2Ev.cold.1
+- __ZN3WTF6VectorItLm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEE14expandCapacityILNS_13FailureActionE0EEEPtmS6_
+- __ZN3WTF6VectorItLm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEE15reserveCapacityILNS_13FailureActionE0EEEbm
+- __ZN3WTF6VectorItLm256ENS_15CrashOnOverflowELm16ENS_10FastMallocEE15reserveCapacityILNS_13FailureActionE0EEEbm
+- __ZN3WTF6VectorItLm256ENS_15CrashOnOverflowELm16ENS_10FastMallocEE8growImplILNS_13FailureActionE0EEEbm
+- __ZN3WTF7HashMapIP15OpaqueJSContextP21OpaqueJSWeakObjectMapNS_11DefaultHashIS2_EENS_10HashTraitsIS2_EENS7_IS4_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE3addIS4_EENS_18HashTableAddResultINS_17HashTableIteratorINS_9HashTableIS2_NS_12KeyValuePairIS2_S4_EENS_24KeyValuePairKeyExtractorISJ_EES6_NSD_18KeyValuePairTraitsES8_SC_EES2_SJ_SL_S6_SM_S8_EEEERKS2_OT_.cold.2
+- __ZN3WTF7HashMapIP23OpaqueFormAutoFillFrameNSt3__110unique_ptrIN12SafariShared13FrameMetadataENS3_14default_deleteIS6_EEEENS_11DefaultHashIS2_EENS_10HashTraitsIS2_EENSC_IS9_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE3addIDnEENS_18HashTableAddResultINS_17HashTableIteratorINS_9HashTableIS2_NS_12KeyValuePairIS2_S9_EENS_24KeyValuePairKeyExtractorISO_EESB_NSI_18KeyValuePairTraitsESD_SH_EES2_SO_SQ_SB_SR_SD_EEEEOS2_OT_.cold.2
+- __ZN3WTF9HashTableIP15OpaqueJSContextNS_12KeyValuePairIS2_P21OpaqueJSWeakObjectMapEENS_24KeyValuePairKeyExtractorIS6_EENS_11DefaultHashIS2_EENS_7HashMapIS2_S5_SA_NS_10HashTraitsIS2_EENSC_IS5_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE18KeyValuePairTraitsESD_SH_E4findINS_22IdentityHashTranslatorISJ_SA_EELSG_1ES2_EENS_17HashTableIteratorISK_S2_S6_S8_SA_SJ_SD_EERKT1_.cold.1
+- __ZN3WTF9HashTableIP15OpaqueJSContextNS_12KeyValuePairIS2_P21OpaqueJSWeakObjectMapEENS_24KeyValuePairKeyExtractorIS6_EENS_11DefaultHashIS2_EENS_7HashMapIS2_S5_SA_NS_10HashTraitsIS2_EENSC_IS5_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE18KeyValuePairTraitsESD_SH_E4findINS_22IdentityHashTranslatorISJ_SA_EELSG_1ES2_EENS_17HashTableIteratorISK_S2_S6_S8_SA_SJ_SD_EERKT1_.cold.2
+- __ZN3WTF9HashTableIP23OpaqueFormAutoFillFrameNS_12KeyValuePairIS2_NSt3__110unique_ptrIN12SafariShared13FrameMetadataENS4_14default_deleteIS7_EEEEEENS_24KeyValuePairKeyExtractorISB_EENS_11DefaultHashIS2_EENS_7HashMapIS2_SA_SF_NS_10HashTraitsIS2_EENSH_ISA_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE18KeyValuePairTraitsESI_SM_E4findINS_22IdentityHashTranslatorISO_SF_EELSL_1ES2_EENS_17HashTableIteratorISP_S2_SB_SD_SF_SO_SI_EERKT1_.cold.1
+- __ZN3WTF9HashTableIP23OpaqueFormAutoFillFrameNS_12KeyValuePairIS2_NSt3__110unique_ptrIN12SafariShared13FrameMetadataENS4_14default_deleteIS7_EEEEEENS_24KeyValuePairKeyExtractorISB_EENS_11DefaultHashIS2_EENS_7HashMapIS2_SA_SF_NS_10HashTraitsIS2_EENSH_ISA_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE18KeyValuePairTraitsESI_SM_E4findINS_22IdentityHashTranslatorISO_SF_EELSL_1ES2_EENS_17HashTableIteratorISP_S2_SB_SD_SF_SO_SI_EERKT1_.cold.2
+- __ZN3WTFL17checkHashTableKeyIN12SafariShared21URLCompletionEntryKeyENS1_18URLCompletionEntryENS1_30URLCompletionEntryKeyExtractorENS1_22URLCompletionEntryHashENS1_29URLCompletionEntryValueTraitsENS1_27URLCompletionEntryKeyTraitsENS_22IdentityHashTranslatorIS6_S5_EELNS_17ShouldValidateKeyE1ES2_EEvRKT7_
+- __ZNK12SafariShared18ReaderJSController13reloadArticleEv
+- __ZNK12SafariShared24FieldLabelPatternMatcher10isEndStateERKNS0_3DFA5StateEPKt
+- __ZNK12SafariShared24FieldLabelPatternMatcher12longestMatchEv
+- __ZNK12SafariShared24FieldLabelPatternMatcher13checkForMatchEPKtS2_
+- __ZNK12SafariShared24FieldLabelPatternMatcher13searchReverseEv
+- __ZNK12SafariShared24FieldLabelPatternMatcher14isWordBoundaryEPKt
+- __ZNK12SafariShared24FieldLabelPatternMatcher23findNextStateAndAdvanceERKNS0_3DFA5StateERPKt
+- __ZNK12SafariShared24FieldLabelPatternMatcher6searchEPKtS2_
+- __ZNK12SafariShared24FieldLabelPatternMatcher7toRangeERKNS0_5MatchE
+- __ZNK3WTF10RefCountedIN12SafariShared33BookmarkAndHistoryCompletionMatchEE5derefEv
+- __ZNK3WTF10RefCountedIN12SafariShared33BookmarkAndHistoryCompletionMatchEE5derefEv.cold.1
+- __ZNKSt3__111__move_implINS_17_ClassicAlgPolicyEEclB8sn200100IP29_WBSSearchSuggestionCandidateNS_16__deque_iteratorIS4_S5_RS4_PS5_lLl170EEELi0EEENS_4pairIT_T0_EESB_SB_SC_
+- __ZNKSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringNS_10unique_ptrIN12SafariShared24URLCompletionEntryExtrasENS_14default_deleteIS7_EEEEEENS_22__unordered_map_hasherIS4_SB_NS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_SB_SG_SE_Lb1EEENS_9allocatorISB_EEE4findIS4_EENS_21__hash_const_iteratorIPNS_11__hash_nodeISB_PvEEEERKT_
+- __ZNKSt3__112__hash_tableINS_17__hash_value_typeIxN12SafariShared22LatestVisitInformationEEENS_22__unordered_map_hasherIxS4_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS4_S9_S7_Lb1EEENS_9allocatorIS4_EEE4findIxEENS_21__hash_const_iteratorIPNS_11__hash_nodeIS4_PvEEEERKT_
+- __ZNKSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxS2_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE4findIxEENS_21__hash_const_iteratorIPNS_11__hash_nodeIS2_PvEEEERKT_
+- __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE4viewB8sn200100Ev
+- __ZNKSt3__120__move_backward_implINS_17_ClassicAlgPolicyEEclB8sn200100IP29_WBSSearchSuggestionCandidateNS_16__deque_iteratorIS4_S5_RS4_PS5_lLl170EEELi0EEENS_4pairIT_T0_EESB_SB_SC_
+- __ZNSt3__110__pop_heapB8sn200100INS_17_ClassicAlgPolicyEPFbRKN3WTF6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEESC_EPSA_EEvT1_SG_RT0_NS_15iterator_traitsISG_E15difference_typeE
+- __ZNSt3__110__pop_heapB8sn200100INS_17_ClassicAlgPolicyEU8__strongU13block_pointerFbRK9SortEntryS4_EPS2_EEvT1_S9_RT0_NS_15iterator_traitsIS9_E15difference_typeE
+- __ZNSt3__110unique_ptrIN12SafariShared18URLCompletionEntryENS_14default_deleteIS2_EEED1B8sn200100Ev
+- __ZNSt3__110unique_ptrIN12SafariShared25SuddenTerminationDisablerENS_14default_deleteIS2_EEE5resetB8sn200100EPS2_
+- __ZNSt3__110unique_ptrIN12SafariShared25SuddenTerminationDisablerENS_14default_deleteIS2_EEED1B8sn200100Ev
+- __ZNSt3__110unique_ptrIN12SafariShared28ReaderAvailabilityController30AvailabilityDetectionSchedulerENS_14default_deleteIS3_EEED1B8sn200100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIxU6__weakP15WBSHistoryVisitEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEED1B8sn200100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIxU8__strongP14WBSHistoryItemEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEED1B8sn200100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIxU8__strongP18WBSHistoryTopicTagEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEED1B8sn200100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIxU8__strongP8NSStringEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEED1B8sn200100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeIU8__strongP8NSStringPvEENS_22__hash_node_destructorINS_9allocatorIS6_EEEEED1B8sn200100Ev
+- __ZNSt3__110unique_ptrINS_6vectorIN3WTF6RefPtrIN12SafariShared24HistoryURLCompletionItemENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEENS_9allocatorISA_EEEENS_14default_deleteISD_EEE5resetB8sn200100EPSD_
+- __ZNSt3__111__sift_downB8sn200100INS_17_ClassicAlgPolicyERPFbRKN3WTF6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEESC_EPSA_EEvT1_OT0_NS_15iterator_traitsISH_E15difference_typeESH_
+- __ZNSt3__111__sift_downB8sn200100INS_17_ClassicAlgPolicyERPFbRKN3WTF6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEESC_EPSA_EEvT1_OT0_NS_15iterator_traitsISH_E15difference_typeESH_.cold.1
+- __ZNSt3__111__sift_downB8sn200100INS_17_ClassicAlgPolicyERU8__strongU13block_pointerFbRK9SortEntryS4_EPS2_EEvT1_OT0_NS_15iterator_traitsISA_E15difference_typeESA_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringNS_10unique_ptrIN12SafariShared24URLCompletionEntryExtrasENS_14default_deleteIS7_EEEEEENS_22__unordered_map_hasherIS4_SB_NS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_SB_SG_SE_Lb1EEENS_9allocatorISB_EEE11__do_rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringNS_10unique_ptrIN12SafariShared24URLCompletionEntryExtrasENS_14default_deleteIS7_EEEEEENS_22__unordered_map_hasherIS4_SB_NS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_SB_SG_SE_Lb1EEENS_9allocatorISB_EEE14__erase_uniqueIS4_EEmRKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringNS_10unique_ptrIN12SafariShared24URLCompletionEntryExtrasENS_14default_deleteIS7_EEEEEENS_22__unordered_map_hasherIS4_SB_NS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_SB_SG_SE_Lb1EEENS_9allocatorISB_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeISB_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringNS_10unique_ptrIN12SafariShared24URLCompletionEntryExtrasENS_14default_deleteIS7_EEEEEENS_22__unordered_map_hasherIS4_SB_NS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_SB_SG_SE_Lb1EEENS_9allocatorISB_EEE25__emplace_unique_key_argsIS4_JRKNS_21piecewise_construct_tENS_5tupleIJRU8__strongKS3_EEENSR_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringNS_10unique_ptrIN12SafariShared24URLCompletionEntryExtrasENS_14default_deleteIS7_EEEEEENS_22__unordered_map_hasherIS4_SB_NS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_SB_SG_SE_Lb1EEENS_9allocatorISB_EEE25__emplace_unique_key_argsIS4_JRS4_SA_EEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringNS_10unique_ptrIN12SafariShared24URLCompletionEntryExtrasENS_14default_deleteIS7_EEEEEENS_22__unordered_map_hasherIS4_SB_NS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_SB_SG_SE_Lb1EEENS_9allocatorISB_EEE4findIS4_EENS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringNS_10unique_ptrIN12SafariShared24URLCompletionEntryExtrasENS_14default_deleteIS7_EEEEEENS_22__unordered_map_hasherIS4_SB_NS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_SB_SG_SE_Lb1EEENS_9allocatorISB_EEE5eraseENS_21__hash_const_iteratorIPNS_11__hash_nodeISB_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringNS_10unique_ptrIN12SafariShared24URLCompletionEntryExtrasENS_14default_deleteIS7_EEEEEENS_22__unordered_map_hasherIS4_SB_NS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_SB_SG_SE_Lb1EEENS_9allocatorISB_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeISB_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringNS_10unique_ptrIN12SafariShared24URLCompletionEntryExtrasENS_14default_deleteIS7_EEEEEENS_22__unordered_map_hasherIS4_SB_NS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_SB_SG_SE_Lb1EEENS_9allocatorISB_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringNS_10unique_ptrIN12SafariShared24URLCompletionEntryExtrasENS_14default_deleteIS7_EEEEEENS_22__unordered_map_hasherIS4_SB_NS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_SB_SG_SE_Lb1EEENS_9allocatorISB_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_S5_NS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S5_SA_S8_Lb1EEENS_9allocatorIS5_EEE11__do_rehashILb0EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_S5_NS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S5_SA_S8_Lb1EEENS_9allocatorIS5_EEE15__emplace_multiIJRU8__strongKS3_RS4_EEENS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEDpOT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_S5_NS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S5_SA_S8_Lb1EEENS_9allocatorIS5_EEE15__emplace_multiIJRU8__strongKS3_RS4_EEENS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEDpOT_.cold.1
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_S5_NS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S5_SA_S8_Lb1EEENS_9allocatorIS5_EEE15__emplace_multiIJRU8__strongKS3_SJ_EEENS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEDpOT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_S5_NS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S5_SA_S8_Lb1EEENS_9allocatorIS5_EEE15__emplace_multiIJRU8__strongKS3_SJ_EEENS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEDpOT_.cold.1
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_S5_NS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S5_SA_S8_Lb1EEENS_9allocatorIS5_EEE15__emplace_multiIJS4_S4_EEENS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEDpOT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_S5_NS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S5_SA_S8_Lb1EEENS_9allocatorIS5_EEE15__emplace_multiIJS4_S4_EEENS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEDpOT_.cold.1
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_S5_NS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S5_SA_S8_Lb1EEENS_9allocatorIS5_EEE16__construct_nodeIJRU8__strongKS3_RS4_EEENS_10unique_ptrINS_11__hash_nodeIS5_PvEENS_22__hash_node_destructorINSE_ISO_EEEEEEDpOT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_S5_NS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S5_SA_S8_Lb1EEENS_9allocatorIS5_EEE16__construct_nodeIJRU8__strongKS3_SJ_EEENS_10unique_ptrINS_11__hash_nodeIS5_PvEENS_22__hash_node_destructorINSE_ISN_EEEEEEDpOT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_S5_NS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S5_SA_S8_Lb1EEENS_9allocatorIS5_EEE16__construct_nodeIJS4_S4_EEENS_10unique_ptrINS_11__hash_nodeIS5_PvEENS_22__hash_node_destructorINSE_ISL_EEEEEEDpOT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_S5_NS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S5_SA_S8_Lb1EEENS_9allocatorIS5_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_S5_NS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S5_SA_S8_Lb1EEENS_9allocatorIS5_EEE19__equal_range_multiIS4_EENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEESO_EERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_S5_NS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S5_SA_S8_Lb1EEENS_9allocatorIS5_EEE19__node_insert_multiEPNS_11__hash_nodeIS5_PvEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_S5_NS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S5_SA_S8_Lb1EEENS_9allocatorIS5_EEE27__node_insert_multi_performEPNS_11__hash_nodeIS5_PvEEPNS_16__hash_node_baseISK_EE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_S5_NS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S5_SA_S8_Lb1EEENS_9allocatorIS5_EEE27__node_insert_multi_prepareEmRS5_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_S5_NS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S5_SA_S8_Lb1EEENS_9allocatorIS5_EEE4findIS4_EENS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_S5_NS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S5_SA_S8_Lb1EEENS_9allocatorIS5_EEE8__rehashILb0EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringS4_EENS_22__unordered_map_hasherIS4_S5_NS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S5_SA_S8_Lb1EEENS_9allocatorIS5_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIx24VisitRedirectInformationEENS_22__unordered_map_hasherIxS3_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS3_S8_S6_Lb1EEENS_9allocatorIS3_EEE11__do_rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIx24VisitRedirectInformationEENS_22__unordered_map_hasherIxS3_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS3_S8_S6_Lb1EEENS_9allocatorIS3_EEE25__emplace_unique_key_argsIxJNS_4pairIxS2_EEEEENSG_INS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIx24VisitRedirectInformationEENS_22__unordered_map_hasherIxS3_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS3_S8_S6_Lb1EEENS_9allocatorIS3_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIx24VisitRedirectInformationEENS_22__unordered_map_hasherIxS3_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS3_S8_S6_Lb1EEENS_9allocatorIS3_EEEC2EOSE_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIx24VisitRedirectInformationEENS_22__unordered_map_hasherIxS3_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS3_S8_S6_Lb1EEENS_9allocatorIS3_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxN12SafariShared22LatestVisitInformationEEENS_22__unordered_map_hasherIxS4_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS4_S9_S7_Lb1EEENS_9allocatorIS4_EEE11__do_rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxN12SafariShared22LatestVisitInformationEEENS_22__unordered_map_hasherIxS4_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS4_S9_S7_Lb1EEENS_9allocatorIS4_EEE14__erase_uniqueIxEEmRKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxN12SafariShared22LatestVisitInformationEEENS_22__unordered_map_hasherIxS4_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS4_S9_S7_Lb1EEENS_9allocatorIS4_EEE25__emplace_unique_key_argsIxJNS_4pairIxS3_EEEEENSH_INS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxN12SafariShared22LatestVisitInformationEEENS_22__unordered_map_hasherIxS4_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS4_S9_S7_Lb1EEENS_9allocatorIS4_EEE4findIxEENS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxN12SafariShared22LatestVisitInformationEEENS_22__unordered_map_hasherIxS4_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS4_S9_S7_Lb1EEENS_9allocatorIS4_EEE5clearEv
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxN12SafariShared22LatestVisitInformationEEENS_22__unordered_map_hasherIxS4_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS4_S9_S7_Lb1EEENS_9allocatorIS4_EEE5eraseENS_21__hash_const_iteratorIPNS_11__hash_nodeIS4_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxN12SafariShared22LatestVisitInformationEEENS_22__unordered_map_hasherIxS4_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS4_S9_S7_Lb1EEENS_9allocatorIS4_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeIS4_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxN12SafariShared22LatestVisitInformationEEENS_22__unordered_map_hasherIxS4_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS4_S9_S7_Lb1EEENS_9allocatorIS4_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxN12SafariShared22LatestVisitInformationEEENS_22__unordered_map_hasherIxS4_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS4_S9_S7_Lb1EEENS_9allocatorIS4_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU6__weakP15WBSHistoryVisitEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE11__do_rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU6__weakP15WBSHistoryVisitEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU6__weakP15WBSHistoryVisitEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE25__emplace_unique_key_argsIxJNS_4pairIxU8__strongS3_EEEEENSI_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU6__weakP15WBSHistoryVisitEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE25__emplace_unique_key_argsIxJRKNS_21piecewise_construct_tENS_5tupleIJRKxEEENSL_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU6__weakP15WBSHistoryVisitEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE4findIxEENS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU6__weakP15WBSHistoryVisitEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE5clearEv
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU6__weakP15WBSHistoryVisitEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE5eraseENS_21__hash_const_iteratorIPNS_11__hash_nodeIS5_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU6__weakP15WBSHistoryVisitEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeIS5_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU6__weakP15WBSHistoryVisitEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU6__weakP15WBSHistoryVisitEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP14WBSHistoryItemEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE11__do_rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP14WBSHistoryItemEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE14__erase_uniqueIxEEmRKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP14WBSHistoryItemEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP14WBSHistoryItemEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE25__emplace_unique_key_argsIxJNS_4pairIxS4_EEEEENSI_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP14WBSHistoryItemEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE25__emplace_unique_key_argsIxJRKNS_21piecewise_construct_tENS_5tupleIJRKxEEENSL_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP14WBSHistoryItemEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE4findIxEENS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP14WBSHistoryItemEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE5clearEv
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP14WBSHistoryItemEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE5eraseENS_21__hash_const_iteratorIPNS_11__hash_nodeIS5_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP14WBSHistoryItemEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeIS5_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP14WBSHistoryItemEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP14WBSHistoryItemEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP18WBSHistoryTopicTagEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE11__do_rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP18WBSHistoryTopicTagEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP18WBSHistoryTopicTagEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE25__emplace_unique_key_argsIxJRKNS_21piecewise_construct_tENS_5tupleIJOxEEENSL_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP18WBSHistoryTopicTagEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE25__emplace_unique_key_argsIxJRKNS_21piecewise_construct_tENS_5tupleIJRKxEEENSL_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP18WBSHistoryTopicTagEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP18WBSHistoryTopicTagEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEEC2EOSG_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP18WBSHistoryTopicTagEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP8NSStringEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE11__do_rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP8NSStringEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP8NSStringEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE25__emplace_unique_key_argsIxJNS_4pairIxS4_EEEEENSI_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP8NSStringEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE25__emplace_unique_key_argsIxJRKNS_21piecewise_construct_tENS_5tupleIJRKxEEENSL_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP8NSStringEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE25__emplace_unique_key_argsIxJRxRS4_EEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP8NSStringEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP8NSStringEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEEC2EOSG_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP8NSStringEENS_22__unordered_map_hasherIxS5_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS5_SA_S8_Lb1EEENS_9allocatorIS5_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxS2_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE11__do_rehashILb0EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxS2_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE11__do_rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxS2_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE13__move_assignERSD_NS_17integral_constantIbLb1EEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxS2_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE14__assign_multiINS_21__hash_const_iteratorIPNS_11__hash_nodeIS2_PvEEEEEEvT_SL_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxS2_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE15__emplace_multiIJRKNS_4pairIKxxEEEEENS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEDpOT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxS2_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE15__emplace_multiIJRxSF_EEENS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEDpOT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxS2_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE19__equal_range_multiIxEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEESL_EERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxS2_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE25__emplace_unique_key_argsIxJNS_4pairIxiEEEEENSF_INS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxS2_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE25__emplace_unique_key_argsIxJNS_4pairIxxEEEEENSF_INS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxS2_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE25__emplace_unique_key_argsIxJRKNS_21piecewise_construct_tENS_5tupleIJRKxEEENSI_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxS2_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE25__emplace_unique_key_argsIxJRKxSG_EEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxS2_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE27__node_insert_multi_performEPNS_11__hash_nodeIS2_PvEEPNS_16__hash_node_baseISH_EE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxS2_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE27__node_insert_multi_prepareEmRS2_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxS2_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE4findIxEENS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxS2_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE5clearEv
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxS2_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE8__rehashILb0EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxS2_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxS2_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS2_S7_S5_Lb1EEENS_9allocatorIS2_EEEC2EOSD_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxS2_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS2_S7_S5_Lb1EEENS_9allocatorIS2_EEED2Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8sn200100Ev
+- __ZNSt3__113__equal_rangeB8sn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPdS5_dNS_10__identityEEENS_4pairIT1_S8_EES8_T2_RKT3_OT0_OT4_
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB8sn200100Ev
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8sn200100Ej
+- __ZNSt3__116__deque_iteratorI29_WBSSearchSuggestionCandidatePKS1_RS2_PKS3_lLl170EEpLB8sn200100El
+- __ZNSt3__116__deque_iteratorI29_WBSSearchSuggestionCandidatePS1_RS1_PS2_lLl170EEpLB8sn200100El
+- __ZNSt3__116__insertion_sortB8sn200100INS_17_ClassicAlgPolicyERPFbRKN3WTF6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEESC_EPSA_EEvT1_SH_T0_
+- __ZNSt3__116__insertion_sortB8sn200100INS_17_ClassicAlgPolicyERPFbRKN3WTF6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEESC_EPSA_EEvT1_SH_T0_.cold.1
+- __ZNSt3__116__insertion_sortB8sn200100INS_17_ClassicAlgPolicyERU8__strongU13block_pointerFbRK9SortEntryS4_EPS2_EEvT1_SA_T0_
+- __ZNSt3__116__pad_and_outputB8sn200100IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__116allocator_traitsINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSStringNS_10unique_ptrIN12SafariShared24URLCompletionEntryExtrasENS_14default_deleteIS9_EEEEEEPvEEEEE7destroyB8sn200100INS_4pairIU8__strongKS5_SC_EEvLi0EEEvRSG_PT_
+- __ZNSt3__116allocator_traitsINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSStringS6_EEPvEEEEE7destroyB8sn200100INS_4pairIU8__strongKS5_S6_EEvLi0EEEvRSA_PT_
+- __ZNSt3__117__floyd_sift_downB8sn200100INS_17_ClassicAlgPolicyERPFbRKN3WTF6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEESC_EPSA_EET1_SH_OT0_NS_15iterator_traitsISH_E15difference_typeE
+- __ZNSt3__117__floyd_sift_downB8sn200100INS_17_ClassicAlgPolicyERU8__strongU13block_pointerFbRK9SortEntryS4_EPS2_EET1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
+- __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8sn200100Ev
+- __ZNSt3__119__partial_sort_implB8sn200100INS_17_ClassicAlgPolicyERPFbRKN3WTF6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEESC_EPSA_SG_EET1_SH_SH_T2_OT0_
+- __ZNSt3__119__partial_sort_implB8sn200100INS_17_ClassicAlgPolicyERU8__strongU13block_pointerFbRK9SortEntryS4_EPS2_S9_EET1_SA_SA_T2_OT0_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSStringS6_EEPvEEEEEclB8sn200100EPS9_
+- __ZNSt3__124__put_character_sequenceB8sn200100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__126__insertion_sort_unguardedB8sn200100INS_17_ClassicAlgPolicyERPFbRKN3WTF6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEESC_EPSA_EEvT1_SH_T0_
+- __ZNSt3__126__insertion_sort_unguardedB8sn200100INS_17_ClassicAlgPolicyERPFbRKN3WTF6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEESC_EPSA_EEvT1_SH_T0_.cold.1
+- __ZNSt3__126__insertion_sort_unguardedB8sn200100INS_17_ClassicAlgPolicyERU8__strongU13block_pointerFbRK9SortEntryS4_EPS2_EEvT1_SA_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8sn200100INS_17_ClassicAlgPolicyERPFbRKN3WTF6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEESC_EPSA_EEbT1_SH_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8sn200100INS_17_ClassicAlgPolicyERU8__strongU13block_pointerFbRK9SortEntryS4_EPS2_EEbT1_SA_T0_
+- __ZNSt3__131__partition_with_equals_on_leftB8sn200100INS_17_ClassicAlgPolicyEP9SortEntryRU8__strongU13block_pointerFbRKS2_S5_EEET0_SA_SA_T1_
+- __ZNSt3__131__partition_with_equals_on_leftB8sn200100INS_17_ClassicAlgPolicyEPN3WTF6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEERPFbRKSA_SD_EEET0_SH_SH_T1_
+- __ZNSt3__131__partition_with_equals_on_leftB8sn200100INS_17_ClassicAlgPolicyEPN3WTF6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEERPFbRKSA_SD_EEET0_SH_SH_T1_.cold.1
+- __ZNSt3__132__partition_with_equals_on_rightB8sn200100INS_17_ClassicAlgPolicyEP9SortEntryRU8__strongU13block_pointerFbRKS2_S5_EEENS_4pairIT0_bEESB_SB_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8sn200100INS_17_ClassicAlgPolicyEPN3WTF6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEERPFbRKSA_SD_EEENS_4pairIT0_bEESI_SI_T1_
+- __ZNSt3__134__uninitialized_allocator_relocateB8sn200100INS_9allocatorI29_WBSSearchSuggestionCandidateEEPS2_EEvRT_T0_S7_S7_
+- __ZNSt3__134__uninitialized_allocator_relocateB8sn200100INS_9allocatorIU8__strongP40WBSHistoryServiceURLCompletionMatchEntryEEPS4_EEvRT_T0_S9_S9_
+- __ZNSt3__14prevB8sn200100INS_16__deque_iteratorI29_WBSSearchSuggestionCandidatePS2_RS2_PS3_lLl170EEELi0EEET_S7_
+- __ZNSt3__15dequeI29_WBSSearchSuggestionCandidateNS_9allocatorIS1_EEE18__append_with_sizeB8sn200100INS_16__deque_iteratorIS1_PKS1_RS7_PKS8_lLl170EEEEEvT_m
+- __ZNSt3__15dequeI29_WBSSearchSuggestionCandidateNS_9allocatorIS1_EEE25__maybe_remove_back_spareB8sn200100Eb
+- __ZNSt3__15dequeI29_WBSSearchSuggestionCandidateNS_9allocatorIS1_EEE26__maybe_remove_front_spareB8sn200100Eb
+- __ZNSt3__15dequeI29_WBSSearchSuggestionCandidateNS_9allocatorIS1_EEED2B8sn200100Ev
+- __ZNSt3__16vectorI29_WBSSearchSuggestionCandidateNS_9allocatorIS1_EEE16__destroy_vectorclB8sn200100Ev
+- __ZNSt3__16vectorI29_WBSSearchSuggestionCandidateNS_9allocatorIS1_EEE20__throw_length_errorB8sn200100Ev
+- __ZNSt3__16vectorI29_WBSSearchSuggestionCandidateNS_9allocatorIS1_EEE9push_backB8sn200100ERKS1_
+- __ZNSt3__16vectorIN3WTF6RefPtrIN12SafariShared24HistoryURLCompletionItemENS1_12RawPtrTraitsIS4_EENS1_21DefaultRefDerefTraitsIS4_EEEENS_9allocatorIS9_EEE16__destroy_vectorclB8sn200100Ev
+- __ZNSt3__16vectorIU8__strongP40WBSHistoryServiceURLCompletionMatchEntryNS_9allocatorIS3_EEE16__destroy_vectorclB8sn200100Ev
+- __ZNSt3__16vectorIU8__strongP40WBSHistoryServiceURLCompletionMatchEntryNS_9allocatorIS3_EEE20__throw_length_errorB8sn200100Ev
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE11__vallocateB8sn200100Em
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE20__throw_length_errorB8sn200100Ev
+- __ZNSt3__16vectorIdNS_9allocatorIdEEEC2B8sn200100ERKS3_
+- __ZNSt3__17__sort3B8sn200100INS_17_ClassicAlgPolicyERU8__strongU13block_pointerFbRK9SortEntryS4_EPS2_Li0EEEbT1_SA_SA_T0_
+- __ZNSt3__17__sort5B8sn200100INS_17_ClassicAlgPolicyERPFbRKN3WTF6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEESC_EPSA_Li0EEEvT1_SH_SH_SH_SH_T0_
+- __ZNSt3__17__sort5B8sn200100INS_17_ClassicAlgPolicyERU8__strongU13block_pointerFbRK9SortEntryS4_EPS2_Li0EEEvT1_SA_SA_SA_SA_T0_
+- __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB8sn200100IRP9SortEntryS6_EEvOT_OT0_
+- __ZNSt3__18for_eachB8sn200100INS_19__hash_map_iteratorINS_15__hash_iteratorIPNS_11__hash_nodeINS_17__hash_value_typeIxxEEPvEEEEEEU8__strongU13block_pointerFvRKNS_4pairIxxEEEEET0_T_SJ_SI_
+- __ZNSt3__19__sift_upB8sn200100INS_17_ClassicAlgPolicyERPFbRKN3WTF6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEESC_EPSA_EEvT1_SH_OT0_NS_15iterator_traitsISH_E15difference_typeE
+- __ZNSt3__19__sift_upB8sn200100INS_17_ClassicAlgPolicyERPFbRKN3WTF6RefPtrIN12SafariShared33BookmarkAndHistoryCompletionMatchENS2_12RawPtrTraitsIS5_EENS2_21DefaultRefDerefTraitsIS5_EEEESC_EPSA_EEvT1_SH_OT0_NS_15iterator_traitsISH_E15difference_typeE.cold.1
+- __ZNSt3__19__sift_upB8sn200100INS_17_ClassicAlgPolicyERU8__strongU13block_pointerFbRK9SortEntryS4_EPS2_EEvT1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
+- __ZNSt3__19allocatorI29_WBSSearchSuggestionCandidateE17allocate_at_leastB8sn200100Em
+- __ZNSt3__19allocatorIP29_WBSSearchSuggestionCandidateE17allocate_at_leastB8sn200100Em
+- __ZNSt3__19allocatorIU8__strongP40WBSHistoryServiceURLCompletionMatchEntryE17allocate_at_leastB8sn200100Em
+- __ZNSt3__19allocatorIdE17allocate_at_leastB8sn200100Em
+- __ZSt28__throw_bad_array_new_lengthB8sn200100v
+- __ZZL25makeJSFieldPatternMatcherPK15OpaqueJSContextPK29__WBSFieldLabelPatternMatcherE7jsClass
+- __ZZN12SafariSharedL30jsDayFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZZN12SafariSharedL30jsLoginFormTypePatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZZN12SafariSharedL31jsYearFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZZN12SafariSharedL32jsMonthFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZZN12SafariSharedL33jsSearchFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZZN12SafariSharedL35jsNewAccountFormTypePatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZZN12SafariSharedL35jsNonEmailFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZZN12SafariSharedL35jsPasswordFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZZN12SafariSharedL35jsUsernameFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZZN12SafariSharedL36jsShowHideButtonLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZZN12SafariSharedL38jsNonUsernameFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZZN12SafariSharedL38jsOldPasswordFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZZN12SafariSharedL39jsConfirmEmailFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZZN12SafariSharedL41jsCreditCardTypeFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZZN12SafariSharedL42jsConfirmPasswordFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZZN12SafariSharedL42jsFederatedSignInAffordancePatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZZN12SafariSharedL42jsIgnoredDataTypeFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZZN12SafariSharedL43jsCreditCardNumberFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZZN12SafariSharedL47jsCreditCardCardholderFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZZN12SafariSharedL49jsCreditCardSecurityCodeFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZZN12SafariSharedL50jsNonCreditCardCardNumberFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZZN12SafariSharedL60jsCreditCardCompositeExpirationDateFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZZN12SafariSharedL60jsNonAccountPasswordSecureTextEntryFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZZN12SafariSharedL63jsOneTimeCodeFieldLabelPatternMatchersFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZZN12SafariSharedL67jsWeakOneTimeCodeFieldLabelPatternMatchersFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- __ZZN12SafariSharedL74jsCodeButNotOneTimeCodeFieldLabelsPatternMatchersFieldLabelPatternMatchersEPK15OpaqueJSContextP13OpaqueJSValueP14OpaqueJSStringPPKS3_E15patternMatchers
+- ___100-[WBSHistoryServiceDatabase clearHistoryItems:afterDate:beforeDate:tombstoneMode:completionHandler:]_block_invoke
+- ___100-[WBSHistoryServiceDatabase clearHistoryItems:afterDate:beforeDate:tombstoneMode:completionHandler:]_block_invoke_2
+- ___101-[WBSCyclerBookmarksTestSuite _validateServerBookmarksWithTarget:initialBookmarks:completionHandler:]_block_invoke.38
+- ___101-[WBSCyclerBookmarksTestSuite _validateServerBookmarksWithTarget:initialBookmarks:completionHandler:]_block_invoke.38.cold.1
+- ___101-[WBSSiriIntelligenceDonor removeAllCoreSpotlightHistoryDataDonatedBySafariForProfileWithIdentifier:]_block_invoke.244
+- ___101-[WBSSiriIntelligenceDonor removeAllCoreSpotlightHistoryDataDonatedBySafariForProfileWithIdentifier:]_block_invoke.244.cold.1
+- ___101-[WBSSiriIntelligenceDonor removeAllCoreSpotlightHistoryDataDonatedBySafariForProfileWithIdentifier:]_block_invoke.244.cold.2
+- ___107-[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:clearAllSpotlightHistoryForProfile:]_block_invoke
+- ___107-[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:clearAllSpotlightHistoryForProfile:]_block_invoke.216
+- ___107-[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:clearAllSpotlightHistoryForProfile:]_block_invoke.cold.1
+- ___107-[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:clearAllSpotlightHistoryForProfile:]_block_invoke.cold.10
+- ___107-[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:clearAllSpotlightHistoryForProfile:]_block_invoke.cold.11
+- ___107-[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:clearAllSpotlightHistoryForProfile:]_block_invoke.cold.2
+- ___107-[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:clearAllSpotlightHistoryForProfile:]_block_invoke.cold.3
+- ___107-[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:clearAllSpotlightHistoryForProfile:]_block_invoke.cold.4
+- ___107-[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:clearAllSpotlightHistoryForProfile:]_block_invoke.cold.5
+- ___107-[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:clearAllSpotlightHistoryForProfile:]_block_invoke.cold.6
+- ___107-[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:clearAllSpotlightHistoryForProfile:]_block_invoke.cold.7
+- ___107-[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:clearAllSpotlightHistoryForProfile:]_block_invoke.cold.8
+- ___107-[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:clearAllSpotlightHistoryForProfile:]_block_invoke.cold.9
+- ___107-[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:clearAllSpotlightHistoryForProfile:]_block_invoke_2
+- ___107-[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:clearAllSpotlightHistoryForProfile:]_block_invoke_3
+- ___110-[WBSSiriIntelligenceDonor reindexAllBookmarkAndHistoryItems:historiesForProfiles:withAcknowledgementHandler:]_block_invoke.227
+- ___110-[WBSSiriIntelligenceDonor reindexAllBookmarkAndHistoryItems:historiesForProfiles:withAcknowledgementHandler:]_block_invoke.227.cold.1
+- ___112-[WBSRecentWebSearchesController recentWebSearchEntriesFilteredByTimeIntervalForDisplayInMainRecentSearchesView]_block_invoke
+- ___123-[WBSHistoryServiceDatabase _clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneMode:clearAllSpotlightHistoryForProfile:]_block_invoke
+- ___123-[WBSHistoryServiceDatabase _clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneMode:clearAllSpotlightHistoryForProfile:]_block_invoke.cold.1
+- ___123-[WBSHistoryServiceDatabase _clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneMode:clearAllSpotlightHistoryForProfile:]_block_invoke.cold.2
+- ___123-[WBSHistoryServiceDatabase _clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneMode:clearAllSpotlightHistoryForProfile:]_block_invoke_2
+- ___124-[WBSHistoryServiceDatabase clearAllHistoryInsertingTombstoneUpToDate:clearAllSpotlightHistoryForProfile:completionHandler:]_block_invoke
+- ___133-[WBSSiriIntelligenceDonor _donateHistoryItemsToCoreSpotlightCreatedAfterDate:beforeDate:historiesForProfiles:withCompletionHandler:]_block_invoke.237
+- ___135-[WBSSiriIntelligenceDonor reindexBookmarkAndHistoryItemsWithIdentifiers:allBookmarks:historiesForProfiles:withAcknowledgementHandler:]_block_invoke.231
+- ___135-[WBSSiriIntelligenceDonor reindexBookmarkAndHistoryItemsWithIdentifiers:allBookmarks:historiesForProfiles:withAcknowledgementHandler:]_block_invoke.231.cold.1
+- ___135-[WBSSiriIntelligenceDonor reindexBookmarkAndHistoryItemsWithIdentifiers:allBookmarks:historiesForProfiles:withAcknowledgementHandler:]_block_invoke.cold.1
+- ___140-[WBSHistoryServiceDatabase clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneMode:clearAllSpotlightHistoryForProfile:completionHandler:]_block_invoke
+- ___41-[WBSCRDTField initWithValue:generation:]_block_invoke
+- ___41-[WBSCRDTField initWithValue:generation:]_block_invoke_2
+- ___48-[WBSHistory clearHistoryWithCompletionHandler:]_block_invoke
+- ___48-[WBSHistory clearHistoryWithCompletionHandler:]_block_invoke_2
+- ___48-[WBSHistory clearHistoryWithCompletionHandler:]_block_invoke_3
+- ___48-[WBSHistory clearHistoryWithCompletionHandler:]_block_invoke_4
+- ___48-[WBSHistory clearHistoryWithCompletionHandler:]_block_invoke_5
+- ___48-[WBSHistorySQLiteSchema _migrateLegacyDatabase]_block_invoke.274
+- ___56-[WBSHistoryService listener:shouldAcceptNewConnection:]_block_invoke.12
+- ___56-[WBSHistoryService listener:shouldAcceptNewConnection:]_block_invoke.12.cold.1
+- ___59-[WBSHistory exportHistoryToFileWithURL:completionHandler:]_block_invoke.86
+- ___59-[WBSHistory exportHistoryToFileWithURL:completionHandler:]_block_invoke.86.cold.1
+- ___60-[WBSHistoryServiceStore clearHistoryWithCompletionHandler:]_block_invoke
+- ___60-[WBSHistoryServiceStore clearHistoryWithCompletionHandler:]_block_invoke_2
+- ___60-[WBSHistoryServiceStore clearHistoryWithCompletionHandler:]_block_invoke_2.cold.1
+- ___63-[WBSRecentWebSearchesController recentSearchesMatchingPrefix:]_block_invoke
+- ___67-[WBSHistory _removeItemsInResponseToUserAction:completionHandler:]_block_invoke
+- ___67-[WBSHistory _removeItemsInResponseToUserAction:completionHandler:]_block_invoke_2
+- ___68-[WBSBrowsingDataImportController scanImportURLs:completionHandler:]_block_invoke.95
+- ___76-[WBSHistory clearHistoryVisitsAddedAfterDate:beforeDate:completionHandler:]_block_invoke
+- ___76-[WBSHistoryServiceStore removePastHistoryVisitsForItems:completionHandler:]_block_invoke
+- ___76-[WBSHistoryServiceStore removePastHistoryVisitsForItems:completionHandler:]_block_invoke.68
+- ___76-[WBSHistoryServiceStore removePastHistoryVisitsForItems:completionHandler:]_block_invoke.68.cold.1
+- ___76-[WBSHistoryServiceStore removePastHistoryVisitsForItems:completionHandler:]_block_invoke.70
+- ___76-[WBSHistoryServiceStore removePastHistoryVisitsForItems:completionHandler:]_block_invoke.70.cold.1
+- ___76-[WBSHistoryServiceStore removePastHistoryVisitsForItems:completionHandler:]_block_invoke.cold.1
+- ___77-[WBSHistory addTagWithIdentifier:title:toItemAtURL:level:completionHandler:]_block_invoke.80
+- ___77-[WBSHistory addTagWithIdentifier:title:toItemAtURL:level:completionHandler:]_block_invoke.80.cold.1
+- ___77-[WBSHistory addTagWithIdentifier:title:toItemAtURL:level:completionHandler:]_block_invoke.80.cold.2
+- ___79-[WBSSiriIntelligenceDonor _donatePendingTabDataOnQueue:withCompletionHandler:]_block_invoke.283
+- ___79-[WBSSiriIntelligenceDonor _donatePendingTabDataOnQueue:withCompletionHandler:]_block_invoke.285.cold.1
+- ___83-[WBSHistoryServiceDatabase _clearHistoryItems:afterDate:beforeDate:tombstoneMode:]_block_invoke
+- ___85-[WBSBrowsingDataExportController _exportToTemporaryFolderWithURL:completionHandler:]_block_invoke.124
+- ___85-[WBSBrowsingDataExportController _exportToTemporaryFolderWithURL:completionHandler:]_block_invoke.124.cold.1
+- ___85-[WBSBrowsingDataExportController _exportToTemporaryFolderWithURL:completionHandler:]_block_invoke.126
+- ___85-[WBSBrowsingDataExportController _exportToTemporaryFolderWithURL:completionHandler:]_block_invoke.126.cold.1
+- ___85-[WBSBrowsingDataExportController _exportToTemporaryFolderWithURL:completionHandler:]_block_invoke.128
+- ___85-[WBSBrowsingDataExportController _exportToTemporaryFolderWithURL:completionHandler:]_block_invoke.128.cold.1
+- ___85-[WBSBrowsingDataExportController _exportToTemporaryFolderWithURL:completionHandler:]_block_invoke.130
+- ___85-[WBSBrowsingDataExportController _exportToTemporaryFolderWithURL:completionHandler:]_block_invoke.130.cold.1
+- ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke.101
+- ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke.106
+- ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke.108
+- ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke.110
+- ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke.112
+- ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke.115
+- ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke.118.cold.1
+- ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke.119
+- ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke_2.105
+- ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke_2.105.cold.1
+- ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke_2.107
+- ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke_2.107.cold.1
+- ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke_2.109
+- ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke_2.109.cold.1
+- ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke_2.111
+- ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke_2.111.cold.1
+- ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke_2.114
+- ___85-[WBSBrowsingDataImportController importBrowsingDataFromFiles:withCompletionHandler:]_block_invoke_2.120
+- ___85-[WBSPerSitePreferenceManager getValueOfPreference:forDomain:withTimeout:usingBlock:]_block_invoke.23
+- ___85-[WBSPerSitePreferenceManager getValueOfPreference:forDomain:withTimeout:usingBlock:]_block_invoke_2.cold.1
+- ___85-[WBSPerSitePreferenceManager getValueOfPreference:forDomain:withTimeout:usingBlock:]_block_invoke_2.cold.2
+- ___85-[WBSPerSitePreferenceManager getValueOfPreference:forDomain:withTimeout:usingBlock:]_block_invoke_2.cold.3
+- ___87-[WBSSiriIntelligenceDonor donateSafariBookmarksToCoreSpotlight:withCompletionHandler:]_block_invoke.214
+- ___87-[WBSSiriIntelligenceDonor donateSafariBookmarksToCoreSpotlight:withCompletionHandler:]_block_invoke.cold.2
+- ___88-[WBSHistoryServiceStore clearHistoryVisitsAddedAfterDate:beforeDate:completionHandler:]_block_invoke
+- ___88-[WBSHistoryServiceStore clearHistoryVisitsAddedAfterDate:beforeDate:completionHandler:]_block_invoke.80
+- ___88-[WBSHistoryServiceStore clearHistoryVisitsAddedAfterDate:beforeDate:completionHandler:]_block_invoke.81
+- ___88-[WBSHistoryServiceStore clearHistoryVisitsAddedAfterDate:beforeDate:completionHandler:]_block_invoke.cold.1
+- ___89-[WBSGeolocationPreferenceManager getValueOfPreference:forDomain:withTimeout:usingBlock:]_block_invoke_2
+- ___89-[WBSGeolocationPreferenceManager getValueOfPreference:forDomain:withTimeout:usingBlock:]_block_invoke_3
+- ___97-[WBSSiriIntelligenceDonor removeAllCoreSpotlightTabDataDonatedBySafariForProfileWithIdentifier:]_block_invoke.245
+- ___97-[WBSSiriIntelligenceDonor removeAllCoreSpotlightTabDataDonatedBySafariForProfileWithIdentifier:]_block_invoke.245.cold.1
+- ___97-[WBSSiriIntelligenceDonor removeAllCoreSpotlightTabDataDonatedBySafariForProfileWithIdentifier:]_block_invoke.245.cold.2
+- ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke.123
+- ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke.126
+- ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke.128
+- ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke.130
+- ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke.132
+- ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke.134
+- ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke.136
+- ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke_2.125
+- ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke_2.125.cold.1
+- ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke_2.127
+- ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke_2.127.cold.1
+- ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke_2.129
+- ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke_2.129.cold.1
+- ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke_2.131
+- ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke_2.131.cold.1
+- ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke_2.133
+- ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke_2.135
+- ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke_2.135.cold.1
+- ___99-[WBSBrowsingDataImportController computeNumberOfItemsToBeImportedFromFiles:withCompletionHandler:]_block_invoke_2.137
+- ___block_descriptor_40_ea8_32r_e11_v20?08B16lr32l8
+- ___block_descriptor_41_ea8_32s_e33_16?0"WBSRecentWebSearchEntry"8ls32l8
+- ___block_descriptor_56_e8_32s40s48bs_e17_v16?0"NSError"8ls32l8s40l8s48l8
+- ___block_descriptor_57_ea8_32s40s48bs_e5_v8?0ls32l8s48l8s40l8
+- ___block_descriptor_57_ea8_32s40s48r_e5_B8?0ls32l8s40l8r48l8
+- ___block_descriptor_67_e8_32s40bs_e5_v8?0ls40l8s32l8
+- ___block_descriptor_73_ea8_32s40s48s56bs_e5_v8?0ls32l8s56l8s40l8s48l8
+- ___block_descriptor_80_ea8_32s40s48s56s64bs_e5_v8?0ls32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_80_ea8_32s40s48s56s64r_e5_B8?0lr64l8s32l8s40l8s48l8s56l8
+- ___block_descriptor_81_ea8_32s40s48s56r64r_e5_B8?0ls32l8s40l8s48l8r56l8r64l8
+- ___block_descriptor_88_ea8_32s40s48s56s64s72s80bs_e5_v8?0ls32l8s40l8s48l8s56l8s80l8s64l8s72l8
+- ___block_literal_global.150
+- ___block_literal_global.209
+- ___block_literal_global.22
+- ___block_literal_global.222
+- ___block_literal_global.225
+- ___block_literal_global.229
+- ___block_literal_global.230
+- ___block_literal_global.241
+- ___block_literal_global.282
+- ___block_literal_global.369
+- ___block_literal_global.466
+- ___block_literal_global.47
+- ___block_literal_global.89
+- __swift_FORCE_LOAD_$_swiftAVFoundation
+- __swift_FORCE_LOAD_$_swiftAVFoundation_$_SafariShared
+- __swift_FORCE_LOAD_$_swiftCoreAudio
+- __swift_FORCE_LOAD_$_swiftCoreAudio_$_SafariShared
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_SafariShared
+- _objc_claimAutoreleasedReturnValue
+- _objc_msgSend$_addWord:allowingEndOfWordMatch:
+- _objc_msgSend$_clearAllHistoryInsertingTombstoneUpToDate:clearAllSpotlightHistoryForProfile:
+- _objc_msgSend$_clearHistoryItems:afterDate:beforeDate:tombstoneMode:
+- _objc_msgSend$_clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneMode:clearAllSpotlightHistoryForProfile:
+- _objc_msgSend$_createCryptographicKey
+- _objc_msgSend$_createOrLoadCryptographicKey
+- _objc_msgSend$_dateForMetadataKey:error:
+- _objc_msgSend$_didCertificatExceptionsApplySuccessfully:protectionSpace:
+- _objc_msgSend$_insertTombstonesForURLs:afterDate:beforeDate:tombstoneMode:
+- _objc_msgSend$_removeItemsInResponseToUserAction:completionHandler:
+- _objc_msgSend$_startingClearHistoryOperationForStartDate:endDate:
+- _objc_msgSend$autoFillButtonType
+- _objc_msgSend$clearAllHistoryInsertingTombstoneUpToDate:clearAllSpotlightHistoryForProfile:completionHandler:
+- _objc_msgSend$clearHistoryItems:afterDate:beforeDate:tombstoneMode:completionHandler:
+- _objc_msgSend$clearHistoryVisitsAddedAfterDate:beforeDate:completionHandler:
+- _objc_msgSend$clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneMode:clearAllSpotlightHistoryForProfile:completionHandler:
+- _objc_msgSend$clearHistoryWithCompletionHandler:
+- _objc_msgSend$createFieldLabelPatternMatcherArrayFromWordArrays:allowingEndOfWordMatches:
+- _objc_msgSend$defaultSearchableIndex
+- _objc_msgSend$deviceIdentifierForPositionGenerator:
+- _objc_msgSend$didBeginSearchOfType:withQuery:urlString:endpoint:
+- _objc_msgSend$donateAllHistoryToCoreSpotlightForProfiles:completionHandler:
+- _objc_msgSend$initWithSortValue:deviceIdentifier:changeID:
+- _objc_msgSend$initWithURLString:urlHash:urlSalt:startTime:endTime:generation:
+- _objc_msgSend$initWithValue:valueSource:valueProvider:valueUpdater:generation:metadata:
+- _objc_msgSend$lastAutoFillButtonType
+- _objc_msgSend$nextChangeIDForPositionInPositionGenerator:
+- _objc_msgSend$numberWithUnsignedShort:
+- _objc_msgSend$positionBetweenPosition:andPosition:withDeviceIdentifier:changeID:
+- _objc_msgSend$positionSortValueWithSortValue:
+- _objc_msgSend$removeItemsInResponseToUserAction:completionHandler:
+- _objc_msgSend$removePastHistoryVisitsForItems:completionHandler:
+- _objc_msgSend$setHTMLInputElementAutoFilledWithAutomaticStrongPassword:
+- _objc_msgSend$specifierForAutocompleteToken:
+- _objc_msgSend$unsignedShortValue
+- _objc_retain_x10
+- _objc_retain_x7
+- _strncasecmp
+- _u_foldCase
+- _u_memcasecmp
+- _u_strToLower
+CStrings:
++ "      Scoped bookmark: %{public}@ (UUID: %{public}@, URL: %{public}@)"
++ "    Tab Group: %{public}@ (UUID: %{public}@) - %lu scoped bookmarks, %lu tabs"
++ "  Profile: %{public}@ (UUID: %{public}@) - %lu tab groups"
++ "%zu items"
++ "%zu reading list items"
++ "%{public}@ - %lu profiles"
++ "-[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:udid:tombstoneAttributes:clearAllSpotlightHistoryForProfile:]_block_invoke"
++ "-[WBSHistoryServiceDatabase _clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneMode:udid:tombstoneAttributes:clearAllSpotlightHistoryForProfile:]_block_invoke"
++ "/AppleInternal/Library/BuildRoots/4~CIZQugD96wkcUD7gQMgl4AX7BmUhwn6pvO0ym1Q/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/include/wtf/HashTable.h"
++ "/AppleInternal/Library/BuildRoots/4~CIZQugD96wkcUD7gQMgl4AX7BmUhwn6pvO0ym1Q/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/include/wtf/StdLibExtras.h"
++ "/Library/Caches/com.apple.xbs/72FF20AF-7C7A-4FA9-974E-2B28CC647DAF/TemporaryDirectory.37Xop6/Sources/SafariShared/SafariShared/SafariShared/History/Service/WBSHistoryServiceURLCompletion.mm"
++ "1.0"
++ "8624.1.11.10.3"
++ "<%@: %p; normalizedString = %@>"
++ "@\"<PKPlugIn>\""
++ "@\"<PKPlugIn>\"16@0:8"
++ "@\"<PKPlugIn>\"24@0:8@\"NSUUID\"16"
++ "@\"<WBSCloudTabItem>\"16@0:8"
++ "@\"NSBundle\""
++ "@\"NSBundle\"16@0:8"
++ "@\"NSDictionary\"24@0:8^@16"
++ "@\"NSUUID\"16@0:8"
++ "@\"NSUserDefaults\"16@0:8"
++ "@\"NSXPCConnection\"16@0:8"
++ "@\"WBSRecentWebSearchEntry\"16@?0@\"WBSRecentWebSearchEntry\"8"
++ "@20@0:8I16"
++ "@40@0:8#16@24^@32"
++ "@56@0:8@16@?24@?32@40@48"
++ "@60@0:8@16@24Q32@40Q48B56"
++ "@64@0:8@16@24@32Q40@48Q56"
++ "@72@0:8@16@24@?32@?40@48@56@64"
++ "@80@0:8@16@24@32d40d48q56@64Q72"
++ "@?<v@?@\"<PKPlugIn>\"Q>16@0:8"
++ "AFTER SECONDARY MIGRATION"
++ "AFTER SYNCING DOWN"
++ "ALTER TABLE history_tombstones ADD COLUMN attributes INTEGER NOT NULL DEFAULT 0"
++ "ALTER TABLE history_tombstones ADD COLUMN udid TEXT"
++ "About to call syncBookmarksWithCompletionHandler after clearing bookmarks"
++ "Attributes"
++ "B16@?0@\"WBSRecentWebSearchEntry\"8"
++ "B32@0:8@\"<PKLaunchRequest>\"16^@24"
++ "B32@0:8@\"NSDictionary\"16^@24"
++ "B32@0:8@\"NSString\"16^@24"
++ "B36@0:8@16^{__SecTrust=}24B32"
++ "B40@0:8@\"<PKLaunchRequest>\"16@\"NSDictionary\"24^@32"
++ "BEFORE CLEARING"
++ "CREATE TABLE history_tombstones (id INTEGER PRIMARY KEY AUTOINCREMENT,start_time REAL NOT NULL,end_time REAL NOT NULL,url TEXT,generation INTEGER NOT NULL DEFAULT 0,udid TEXT,attributes INTEGER NOT NULL DEFAULT 0)"
++ "Clear local data operation completed successfully"
++ "CloudKit migration operation completed successfully"
++ "Error when attempting to sort recent web searches: %{public}@"
++ "Exporting reading list"
++ "ExtensionIdentifiers"
++ "Failed to add attributes column to history_tombstones table: %{public}@ (%d)"
++ "Failed to add udid column to history_tombstones table: %{public}@ (%d)"
++ "Failed to clear WBSHistorySQLiteStoreClearHistoryAttributesKey: %{public}@"
++ "Failed to clear WBSHistorySQLiteStoreClearHistoryUDIDKey: %{public}@"
++ "Failed to compute the number of reading list items to be imported: %{public}@"
++ "Failed to create an encrypted tombstone. Skipping to avoid creating a tombstone that would deleting everything"
++ "Failed to create or load cryptographic key"
++ "Failed to create the history_tombstones table: %{public}@ (%d)"
++ "Failed to decrypt tombstone"
++ "Failed to import reading lsit: %{public}@"
++ "Failed to set WBSHistorySQLiteStoreClearHistoryAttributesKey: %{public}@"
++ "Failed to set WBSHistorySQLiteStoreClearHistoryUDIDKey: %{public}@"
++ "Finished exporting reading list"
++ "Generate DAV server IDs operation completed successfully"
++ "INSERT INTO history_tombstones (start_time, end_time, generation, udid, attributes) VALUES (?,?,?,?,?)"
++ "INSERT INTO history_tombstones (url, start_time, end_time, generation, udid, attributes) VALUES (?, ?, ?, ?, ?, ?)"
++ "Initial clear operation completed successfully"
++ "Initial sync succeeded, proceeding to validation"
++ "PKPlugIn"
++ "PKPlugInPrivate"
++ "Reading List"
++ "ReadingList"
++ "Reset to DAV mode operation completed successfully"
++ "SafariShared.MRTabOrderPreferenceProvider"
++ "T@\"<PKPlugIn>\",R"
++ "T@\"<PKPlugIn>\",R,V_supersededBy"
++ "T@\"<WBSCloudTabItem>\",?,R,N"
++ "T@\"<WBSTabOrderPreferenceProviding>\",W,N,V_preferenceProvider"
++ "T@\"NSArray\",&"
++ "T@\"NSArray\",C"
++ "T@\"NSArray\",C,N,V_extensionIdentifiers"
++ "T@\"NSArray\",C,V_preferredLanguages"
++ "T@\"NSArray\",R,V_launchPersonas"
++ "T@\"NSBundle\",R"
++ "T@\"NSBundle\",R,V_embeddedBundle"
++ "T@\"NSDate\",R"
++ "T@\"NSDate\",R,V_timestamp"
++ "T@\"NSDictionary\",&"
++ "T@\"NSDictionary\",&,V_environment"
++ "T@\"NSDictionary\",&,V_extensionState"
++ "T@\"NSDictionary\",&,V_plugInDictionary"
++ "T@\"NSDictionary\",R"
++ "T@\"NSDictionary\",R,V_attributes"
++ "T@\"NSDictionary\",R,V_bundleInfoDictionary"
++ "T@\"NSDictionary\",R,V_entitlements"
++ "T@\"NSDictionary\",R,V_localizedFileProviderActionNames"
++ "T@\"NSString\",&,V_identifier"
++ "T@\"NSString\",&,V_version"
++ "T@\"NSString\",C"
++ "T@\"NSString\",C,N,V_deviceIdentifier"
++ "T@\"NSString\",C,N,V_onDemandSummary"
++ "T@\"NSString\",C,V_sandboxProfile"
++ "T@\"NSString\",R"
++ "T@\"NSString\",R,N,V_udid"
++ "T@\"NSString\",R,V_localizedContainingName"
++ "T@\"NSString\",R,V_localizedName"
++ "T@\"NSString\",R,V_localizedShortName"
++ "T@\"NSURL\",&,V_url"
++ "T@\"NSURL\",R"
++ "T@\"NSURL\",R,V_containingUrl"
++ "T@\"NSUUID\",&,V_uuid"
++ "T@\"NSUUID\",R"
++ "T@\"NSUUID\",R,V_multipleInstanceUUID"
++ "T@\"NSXPCConnection\",R"
++ "T@\"NSXPCConnection\",R,V_pluginConnection"
++ "T@,R"
++ "T@,R,V_embeddedPrincipal"
++ "T@,R,V_plugInPrincipal"
++ "T@?,C,V_notificationBlock"
++ "TB,R,N,V_enableRecentSearchSortingByVisitCountScore"
++ "TB,R,N,V_enableRecentSearchSortingUsingExponentialWeighting"
++ "TB,R,V_active"
++ "TB,R,V_onSystemVolume"
++ "TB,R,V_spent"
++ "TI,R"
++ "TI,R,V_extensionPointPlatform"
++ "TQ,N,R"
++ "TQ,R,N,V_attributes"
++ "Td,N,R"
++ "Tq"
++ "Tq,V_userElection"
++ "UDID"
++ "Unexpected bundle identifier: %{public}@"
++ "WBSDefaultSearchParameters"
++ "WBSMRTabOrderPreferenceProvider"
++ "WBSMockPlugIn"
++ "_*•"
++ "_active"
++ "_bundleInfoDictionary"
++ "_clearAllHistoryInsertingTombstoneUpToDate:udid:tombstoneAttributes:clearAllSpotlightHistoryForProfile:"
++ "_clearHistoryItems:afterDate:beforeDate:tombstoneMode:udid:tombstoneAttributes:"
++ "_clearHistoryItems:afterDate:beforeDate:tombstoneMode:udid:tombstoneAttributes:completionHandler:"
++ "_clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneMode:udid:tombstoneAttributes:clearAllSpotlightHistoryForProfile:"
++ "_clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneMode:udid:tombstoneAttributes:clearAllSpotlightHistoryForProfile:completionHandler:"
++ "_cloudTab"
++ "_computeBookmarkIdentifiersToModifyThenIndexItems:indexedItemIDs:indexedIDsToAttributes:completionHandler:"
++ "_computeNumberOfReadingListItemsToBeImportedFromURL:completionHandler:"
++ "_containingUrl"
++ "_didCertificateExceptionsApplySuccessfully:protectionSpace:"
++ "_embeddedBundle"
++ "_embeddedPrincipal"
++ "_enableRecentSearchSortingByVisitCountScore"
++ "_enableRecentSearchSortingUsingExponentialWeighting"
++ "_entitlements"
++ "_environment"
++ "_exportReadingListToFileWithURL:completionHandler:"
++ "_extensionIdentifiers"
++ "_extensionPointPlatform"
++ "_extensionState"
++ "_fieldWithValueIsEligibleForOneTimeCodeAutoFill:"
++ "_filteredSearchesForPrefix:recentSearches:"
++ "_frequencyValueForWebSearchEntry:useExponentialWeighting:"
++ "_getValueAndLastModifiedDateOfPreference:forDomain:withTimeout:usingBlock:"
++ "_importReadingListFromURL:completionHandler:"
++ "_initWithPKPlugin:"
++ "_insertTombstonesForURLs:afterDate:beforeDate:tombstoneMode:udid:attributes:"
++ "_keybagToken"
++ "_launchPersonas"
++ "_localizedContainingName"
++ "_localizedFileProviderActionNames"
++ "_localizedShortName"
++ "_logBookmarkHierarchy:withContext:"
++ "_metadataObjectOfClass:forKey:error:"
++ "_migrateToSchemaVersion_17"
++ "_multipleInstanceUUID"
++ "_nextRandomIndexBasedOnIndex:upToIndex:"
++ "_nextRandomIndexBasedOnIndex:withMaximumIncrement:"
++ "_notificationBlock"
++ "_numberOfReadingListItemsToBeExported"
++ "_onDemandSummary"
++ "_onSystemVolume"
++ "_plugInDictionary"
++ "_plugInPrincipal"
++ "_pluginConnection"
++ "_preferredLanguages"
++ "_randomIndexWithLowerBound:upperBound:"
++ "_recentSearchesFilteredByDateThreshold"
++ "_removeDuplicatedURLs"
++ "_removeItemsInResponseToUserAction:tombstoneAttributes:completionHandler:"
++ "_sandboxProfile"
++ "_sortRecentSearchesConsideringFrequency:completionHandler:"
++ "_spent"
++ "_startingClearHistoryOperationForStartDate:endDate:udid:tombstoneAttributes:"
++ "_supersededBy"
++ "_udid"
++ "_userElection"
++ "autocompleteTokenMapDFA"
++ "beginUsing:"
++ "beginUsingRequest:completion:"
++ "beginUsingRequest:error:"
++ "beginUsingRequest:withSubsystemOptions:completion:"
++ "beginUsingRequest:withSubsystemOptions:error:"
++ "beginUsingWithError:"
++ "beginUsingWithSubsystemOptions:completion:"
++ "beginUsingWithSubsystemOptions:error:"
++ "bundleInfoDictionary"
++ "clearAllHistoryInsertingTombstoneUpToDate:clearAllSpotlightHistoryForProfile:tombstoneAttributes:completionHandler:"
++ "clearHistoryItems:afterDate:beforeDate:tombstoneMode:tombstoneAttributes:completionHandler:"
++ "clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneAttributes:completionHandler:"
++ "clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneMode:tombstoneAttributes:clearAllSpotlightHistoryForProfile:completionHandler:"
++ "clearHistoryWithTombstoneAttributes:"
++ "clearHistoryWithTombstoneAttributes:completionHandler:"
++ "clear_history_attributes"
++ "clear_history_udid"
++ "cloudTab"
++ "com.apple.SafariShared.WBSHistoryCrypto.cacheQueue"
++ "computeSortedRecentWebSearches:useExponentialWeighting:completionHandler:"
++ "content_to_summarize"
++ "createInstanceWithUUID:"
++ "defaultProvider"
++ "defaultStore"
++ "defaults"
++ "dfa"
++ "didInvalidCertificateExceptionsApplySuccessfullyForURL:trust:inPrivateBrowsing:"
++ "embeddedBundle"
++ "embeddedPrincipal"
++ "enableRecentSearchSortingByVisitCountScore"
++ "enableRecentSearchSortingUsingExponentialWeighting"
++ "endUsing:"
++ "endUsingRequest:completion:"
++ "endUsingRequest:error:"
++ "endUsingWithError:"
++ "entitlements"
++ "environment"
++ "export:"
++ "extensionIdentifiers"
++ "extensionPointPlatform"
++ "extensionState"
++ "eyeglasses"
++ "fetchCryptographicKeyFromKeychainIfNeeded"
++ "fieldLabelMapDFA"
++ "fieldLabelToInfo"
++ "getValueSpecifiers"
++ "gov.uk"
++ "hasRecentSearchesToDisplayInRecentSearchesView"
++ "initWithDictionary:origin:"
++ "initWithHistoryStore:"
++ "initWithKey:readOnly:"
++ "initWithSortValue:deviceIdentifier:"
++ "initWithURLString:urlHash:urlSalt:startTime:endTime:generation:udid:attributes:"
++ "initWithValue:generation:deviceIdentifier:"
++ "initWithValue:valueSource:valueProvider:valueUpdater:generation:deviceIdentifier:metadata:"
++ "initWithValueSource:valueProvider:valueUpdater:generation:deviceIdentifier:"
++ "isLockedOrAboutToLock"
++ "isValidKey(value)"
++ "languages"
++ "launchPersonas"
++ "localizedFileProviderActionNames"
++ "localizedInfoDictionaryForKeys:completion:"
++ "localizedName"
++ "localizedShortName"
++ "multipleInstanceUUID"
++ "nhs.uk"
++ "notificationBlock"
++ "nullRichSearchSuggestion"
++ "onDemandSummary"
++ "onSystemVolume"
++ "plugInDictionary"
++ "plugInPrincipal"
++ "pluginConnection"
++ "police.uk"
++ "positionBetweenPosition:andPosition:"
++ "preferredLanguages"
++ "q24@?0@\"WBSRecentWebSearchEntry\"8@\"WBSRecentWebSearchEntry\"16"
++ "q32@0:8q16q24"
++ "r^{DFAData=^SQ}16@0:8"
++ "recentSearchesMatchingPrefix:completionHandler:"
++ "recentWebSearchEntriesFilteredByTimeIntervalForDisplayInMainRecentSearchesViewWithCompletionHandler:"
++ "removeItemsInResponseToUserAction:tombstoneAttributes:"
++ "removeItemsInResponseToUserAction:tombstoneAttributes:completionHandler:"
++ "removePastHistoryVisitsForItems:tombstoneAttributes:completionHandler:"
++ "safari_defaultPortForProtocol:"
++ "safari_isSafariFamilyBundleIdentifier:"
++ "safari_unpackedExtensionWithURL:"
++ "safari_unpackedExtensionWithURL:identifier:"
++ "sandboxProfile"
++ "setDeviceIdentifier:"
++ "setEnvironment:"
++ "setExtensionIdentifiers:"
++ "setExtensionState:"
++ "setHTMLInputElementNotAutoFilled"
++ "setHostPrincipal:withProtocol:"
++ "setLanguages:"
++ "setNotificationBlock:"
++ "setOnDemandSummary:"
++ "setPlugInDictionary:"
++ "setPreferredLanguages:"
++ "setReplyQueue:"
++ "setSandboxProfile:"
++ "setUserElection:"
++ "setVersion:"
++ "shouldInsertAfterCurrentTab"
++ "specifierForIndex:"
++ "spent"
++ "summary_text"
++ "supersededBy"
++ "textFieldIsEligibleForAutomaticStrongPassword:form:ignorePreviousDecision:"
++ "udid"
++ "useBundle:error:"
++ "userElection"
++ "v24@0:8@\"NSDictionary\"16"
++ "v24@0:8@\"NSObject<OS_dispatch_queue>\"16"
++ "v24@0:8@?<v@?@\"<PKPlugIn>\"Q>16"
++ "v28@?0@8@\"NSDate\"16B24"
++ "v32@0:8@\"<PKLaunchRequest>\"16@?<v@?@\"NSError\">24"
++ "v32@0:8@\"NSArray\"16@?<v@?@\"NSDictionary\"@\"NSError\">24"
++ "v32@0:8@16@\"Protocol\"24"
++ "v32@0:8Q16@?<v@?>24"
++ "v36@0:8@\"NSArray\"16B24@?<v@?@\"NSArray\"@\"NSError\">28"
++ "v40@0:8@\"<PKLaunchRequest>\"16@\"NSDictionary\"24@?<v@?@\"NSError\">32"
++ "v40@0:8@\"NSArray\"16Q24@?<v@?>32"
++ "v44@0:8@\"NSDate\"16B24Q28@?<v@?@\"NSError\">36"
++ "v44@0:8@16B24Q28@?36"
++ "v48@0:8@\"NSDate\"16@\"NSDate\"24Q32@?<v@?>40"
++ "v60@0:8@\"NSDate\"16@\"NSDate\"24Q32Q40B48@?<v@?@\"NSError\">52"
++ "v60@0:8@16@24Q32Q40B48@?52"
++ "v64@0:8@\"NSSet\"16@\"NSDate\"24@\"NSDate\"32Q40Q48@?<v@?@\"NSError\">56"
++ "v64@0:8@16@24@32Q40Q48@?56"
++ "v68@0:8@16@24Q32@40Q48B56@?60"
++ "v72@0:8@16@24@32Q40@48Q56@?64"
++ "validateKey"
++ "void WTF::HashTable<OpaqueFormAutoFillFrame *, WTF::KeyValuePair<OpaqueFormAutoFillFrame *, std::unique_ptr<SafariShared::FrameMetadata>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<OpaqueFormAutoFillFrame *, std::unique_ptr<SafariShared::FrameMetadata>>>, WTF::DefaultHash<OpaqueFormAutoFillFrame *>, WTF::HashMap<OpaqueFormAutoFillFrame *, std::unique_ptr<SafariShared::FrameMetadata>>::KeyValuePairTraits, WTF::HashTraits<OpaqueFormAutoFillFrame *>>::validateKey(const ValueType &) [Key = OpaqueFormAutoFillFrame *, Value = WTF::KeyValuePair<OpaqueFormAutoFillFrame *, std::unique_ptr<SafariShared::FrameMetadata>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<OpaqueFormAutoFillFrame *, std::unique_ptr<SafariShared::FrameMetadata>>>, HashFunctions = WTF::DefaultHash<OpaqueFormAutoFillFrame *>, Traits = WTF::HashMap<OpaqueFormAutoFillFrame *, std::unique_ptr<SafariShared::FrameMetadata>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<OpaqueFormAutoFillFrame *>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes]"
++ "void WTF::HashTable<OpaqueJSContext *, WTF::KeyValuePair<OpaqueJSContext *, OpaqueJSWeakObjectMap *>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<OpaqueJSContext *, OpaqueJSWeakObjectMap *>>, WTF::DefaultHash<OpaqueJSContext *>, WTF::HashMap<OpaqueJSContext *, OpaqueJSWeakObjectMap *>::KeyValuePairTraits, WTF::HashTraits<OpaqueJSContext *>>::validateKey(const ValueType &) [Key = OpaqueJSContext *, Value = WTF::KeyValuePair<OpaqueJSContext *, OpaqueJSWeakObjectMap *>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<OpaqueJSContext *, OpaqueJSWeakObjectMap *>>, HashFunctions = WTF::DefaultHash<OpaqueJSContext *>, Traits = WTF::HashMap<OpaqueJSContext *, OpaqueJSWeakObjectMap *>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<OpaqueJSContext *>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes]"
++ "void WTF::memcpySpan(std::span<T, TExtent>, std::span<U, UExtent>) [T = int, TExtent = 18446744073709551615UL, U = const int, UExtent = 18446744073709551615UL]"
++ "wellKnownChangePasswordURL"
++ "{LatestVisitInformationMap=\"_map\"{unordered_map<long long, SafariShared::LatestVisitInformation, std::hash<long long>, std::equal_to<long long>, std::allocator<std::pair<const long long, SafariShared::LatestVisitInformation>>>=\"__table_\"{__hash_table<std::__hash_value_type<long long, SafariShared::LatestVisitInformation>, std::__unordered_map_hasher<long long, std::pair<const long long, SafariShared::LatestVisitInformation>, std::hash<long long>, std::equal_to<long long>>, std::__unordered_map_equal<long long, std::pair<const long long, SafariShared::LatestVisitInformation>, std::equal_to<long long>, std::hash<long long>>, std::allocator<std::pair<const long long, SafariShared::LatestVisitInformation>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, SafariShared::LatestVisitInformation>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, SafariShared::LatestVisitInformation>, void *> *> *>>>=\"\"{?=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, SafariShared::LatestVisitInformation>, void *> *> *>>=\"\"{?=\"__size_\"Q}}}}\"\"{?=\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<long long, SafariShared::LatestVisitInformation>, void *> *>=\"__next_\"^v}}\"\"{?=\"__size_\"Q}\"\"{?=\"__max_load_factor_\"f}}}}"
++ "{URLCompletionEntryMap=\"_map\"{HashTable<SafariShared::URLCompletionEntryKey, SafariShared::URLCompletionEntry, SafariShared::URLCompletionEntryKeyExtractor, SafariShared::URLCompletionEntryHash, SafariShared::URLCompletionEntryValueTraits, SafariShared::URLCompletionEntryKeyTraits, WTF::FastMalloc>=\"m_table\"^{URLCompletionEntry}}\"_extras\"{unordered_map<NSString *, std::unique_ptr<SafariShared::URLCompletionEntryExtras>, std::hash<NSString *>, std::equal_to<NSString *>, std::allocator<std::pair<NSString *const, std::unique_ptr<SafariShared::URLCompletionEntryExtras>>>>=\"__table_\"{__hash_table<std::__hash_value_type<NSString *, std::unique_ptr<SafariShared::URLCompletionEntryExtras>>, std::__unordered_map_hasher<NSString *, std::pair<NSString *const, std::unique_ptr<SafariShared::URLCompletionEntryExtras>>, std::hash<NSString *>, std::equal_to<NSString *>>, std::__unordered_map_equal<NSString *, std::pair<NSString *const, std::unique_ptr<SafariShared::URLCompletionEntryExtras>>, std::equal_to<NSString *>, std::hash<NSString *>>, std::allocator<std::pair<NSString *const, std::unique_ptr<SafariShared::URLCompletionEntryExtras>>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, std::unique_ptr<SafariShared::URLCompletionEntryExtras>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, std::unique_ptr<SafariShared::URLCompletionEntryExtras>>, void *> *> *>>>=\"\"{?=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, std::unique_ptr<SafariShared::URLCompletionEntryExtras>>, void *> *> *>>=\"\"{?=\"__size_\"Q}}}}\"\"{?=\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, std::unique_ptr<SafariShared::URLCompletionEntryExtras>>, void *> *>=\"__next_\"^v}}\"\"{?=\"__size_\"Q}\"\"{?=\"__max_load_factor_\"f}}}}"
++ "{array<const DFAData *, 4UL>=[4^{DFAData}]}16@0:8"
++ "{unordered_map<long long, WBSHistoryItem *, std::hash<long long>, std::equal_to<long long>, std::allocator<std::pair<const long long, WBSHistoryItem *>>>=\"__table_\"{__hash_table<std::__hash_value_type<long long, WBSHistoryItem *>, std::__unordered_map_hasher<long long, std::pair<const long long, WBSHistoryItem *>, std::hash<long long>, std::equal_to<long long>>, std::__unordered_map_equal<long long, std::pair<const long long, WBSHistoryItem *>, std::equal_to<long long>, std::hash<long long>>, std::allocator<std::pair<const long long, WBSHistoryItem *>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryItem *>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryItem *>, void *> *> *>>>=\"\"{?=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryItem *>, void *> *> *>>=\"\"{?=\"__size_\"Q}}}}\"\"{?=\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryItem *>, void *> *>=\"__next_\"^v}}\"\"{?=\"__size_\"Q}\"\"{?=\"__max_load_factor_\"f}}}"
++ "{unordered_map<long long, WBSHistoryVisit *__weak, std::hash<long long>, std::equal_to<long long>, std::allocator<std::pair<const long long, WBSHistoryVisit *__weak>>>=\"__table_\"{__hash_table<std::__hash_value_type<long long, WBSHistoryVisit *__weak>, std::__unordered_map_hasher<long long, std::pair<const long long, WBSHistoryVisit *__weak>, std::hash<long long>, std::equal_to<long long>>, std::__unordered_map_equal<long long, std::pair<const long long, WBSHistoryVisit *__weak>, std::equal_to<long long>, std::hash<long long>>, std::allocator<std::pair<const long long, WBSHistoryVisit *__weak>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryVisit *__weak>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryVisit *__weak>, void *> *> *>>>=\"\"{?=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryVisit *__weak>, void *> *> *>>=\"\"{?=\"__size_\"Q}}}}\"\"{?=\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryVisit *__weak>, void *> *>=\"__next_\"^v}}\"\"{?=\"__size_\"Q}\"\"{?=\"__max_load_factor_\"f}}}"
++ "{unordered_map<long long, long long, std::hash<long long>, std::equal_to<long long>, std::allocator<std::pair<const long long, long long>>>=\"__table_\"{__hash_table<std::__hash_value_type<long long, long long>, std::__unordered_map_hasher<long long, std::pair<const long long, long long>, std::hash<long long>, std::equal_to<long long>>, std::__unordered_map_equal<long long, std::pair<const long long, long long>, std::equal_to<long long>, std::hash<long long>>, std::allocator<std::pair<const long long, long long>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, long long>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, long long>, void *> *> *>>>=\"\"{?=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, long long>, void *> *> *>>=\"\"{?=\"__size_\"Q}}}}\"\"{?=\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<long long, long long>, void *> *>=\"__next_\"^v}}\"\"{?=\"__size_\"Q}\"\"{?=\"__max_load_factor_\"f}}}"
++ "{unordered_map<long long, long long, std::hash<long long>, std::equal_to<long long>, std::allocator<std::pair<const long long, long long>>>={__hash_table<std::__hash_value_type<long long, long long>, std::__unordered_map_hasher<long long, std::pair<const long long, long long>, std::hash<long long>, std::equal_to<long long>>, std::__unordered_map_equal<long long, std::pair<const long long, long long>, std::equal_to<long long>, std::hash<long long>>, std::allocator<std::pair<const long long, long long>>>={unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, long long>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, long long>, void *> *> *>>>={?=^^v{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, long long>, void *> *> *>>={?=Q}}}}{?={__hash_node_base<std::__hash_node<std::__hash_value_type<long long, long long>, void *> *>=^v}}{?=Q}{?=f}}}32@0:8r^v16^@24"
++ "{unordered_multimap<NSString *, NSString *, std::hash<NSString *>, std::equal_to<NSString *>, std::allocator<std::pair<NSString *const, NSString *>>>=\"__table_\"{__hash_table<std::__hash_value_type<NSString *, NSString *>, std::__unordered_map_hasher<NSString *, std::pair<NSString *const, NSString *>, std::hash<NSString *>, std::equal_to<NSString *>>, std::__unordered_map_equal<NSString *, std::pair<NSString *const, NSString *>, std::equal_to<NSString *>, std::hash<NSString *>>, std::allocator<std::pair<NSString *const, NSString *>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, NSString *>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, NSString *>, void *> *> *>>>=\"\"{?=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, NSString *>, void *> *> *>>=\"\"{?=\"__size_\"Q}}}}\"\"{?=\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, NSString *>, void *> *>=\"__next_\"^v}}\"\"{?=\"__size_\"Q}\"\"{?=\"__max_load_factor_\"f}}}"
+- "!KeyTraits::isDeletedValue(key)"
+- "!isHashTraitsEmptyValue<KeyTraits>(key)"
+- "%@ %lu"
+- "-[WBSHistoryServiceDatabase _clearAllHistoryInsertingTombstoneUpToDate:clearAllSpotlightHistoryForProfile:]_block_invoke"
+- "-[WBSHistoryServiceDatabase _clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneMode:clearAllSpotlightHistoryForProfile:]_block_invoke"
+- "/AppleInternal/Library/BuildRoots/4~CIK3ugBW37qF-xggNiwJywaRVz7Wg-OqQt5YQ5A/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.3.Internal.sdk/usr/local/include/wtf/HashTable.h"
+- "/AppleInternal/Library/BuildRoots/4~CIK3ugBW37qF-xggNiwJywaRVz7Wg-OqQt5YQ5A/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.3.Internal.sdk/usr/local/include/wtf/RefCounted.h"
+- "/Library/Caches/com.apple.xbs/Sources/SafariShared/SafariShared/SafariShared/History/Service/WBSHistoryServiceURLCompletion.mm"
+- "8623.2.7.10.4"
+- "@48@0:8@16@?24@?32@40"
+- "@64@0:8@16@24@32d40d48q56"
+- "@64@0:8@16@24@?32@?40@48@56"
+- "B44@0:8@16@24B32^B36"
+- "CodeButNotOneTimeCodeFieldLabels"
+- "ConfirmEmailFieldLabels"
+- "ConfirmPasswordFieldLabels"
+- "DayFieldLabels"
+- "Expected a string for addressBookLabel."
+- "Expected an array of autocomplete tokens."
+- "Expected autocomplete token to be a string."
+- "Expected two arguments, autocompleteTokens and addressBookLabel."
+- "FederatedSignInAffordanceLabels"
+- "INSERT INTO history_tombstones (start_time, end_time, generation) VALUES (?,?,?)"
+- "INSERT INTO history_tombstones (url, start_time, end_time, generation) VALUES (?, ?, ?, ?)"
+- "IgnoredDataTypeFieldLabels"
+- "Imported %@"
+- "MonthFieldLabels"
+- "NonAccountPasswordSecureTextEntryFieldLabels"
+- "NonEmailFieldLabels"
+- "NonUsernameFieldLabels"
+- "OldPasswordFieldLabels"
+- "OneTimeCodeFieldLabels"
+- "PasswordFieldLabels"
+- "SearchFieldLabels"
+- "ShowHideButtonLabels"
+- "ShowNoRecentSearchesView"
+- "T@\"<WBSTabOrderPreferenceProviding>\",W,V_preferenceProvider"
+- "T@\"NSString\",?,R,N"
+- "UsernameFieldLabels"
+- "WTF::RefCountedBase::~RefCountedBase()"
+- "WeakOneTimeCodeFieldLabels"
+- "YearFieldLabels"
+- "^{__WBSFieldLabelPatternMatcherArray=}16@0:8"
+- "^{__WBSFieldLabelPatternMatcherArray=}28@0:8@16B24"
+- "_WBSFieldLabelPatternMatcherFactory"
+- "_addWord:allowingEndOfWordMatch:"
+- "_cachedCryptographicKey"
+- "_clearAllHistoryInsertingTombstoneUpToDate:clearAllSpotlightHistoryForProfile:"
+- "_clearHistoryItems:afterDate:beforeDate:tombstoneMode:"
+- "_clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneMode:clearAllSpotlightHistoryForProfile:"
+- "_createCryptographicKey"
+- "_createOrLoadCryptographicKey"
+- "_dateForMetadataKey:error:"
+- "_didCertificatExceptionsApplySuccessfully:protectionSpace:"
+- "_insertTombstonesForURLs:afterDate:beforeDate:tombstoneMode:"
+- "_removeHistoryItemsInResponseToUserAction:"
+- "_removeItemsInResponseToUserAction:completionHandler:"
+- "_startingClearHistoryOperationForStartDate:endDate:"
+- "cardTypeLabels"
+- "cardholderLabels"
+- "checkHashTableKey"
+- "clearAllHistoryInsertingTombstoneUpToDate:clearAllSpotlightHistoryForProfile:completionHandler:"
+- "clearHistory"
+- "clearHistoryItems:afterDate:beforeDate:tombstoneMode:completionHandler:"
+- "clearHistoryVisitsAddedAfterDate:beforeDate:completionHandler:"
+- "clearHistoryVisitsAddedAfterDate:beforeDate:tombstoneMode:clearAllSpotlightHistoryForProfile:completionHandler:"
+- "clearHistoryWithCompletionHandler:"
+- "compositeExpirationDateLabels"
+- "createFieldLabelPatternMatcherArrayFromWordArrays:allowingEndOfWordMatches:"
+- "defaultSearchableIndex"
+- "deviceIdentifierForPositionGenerator:"
+- "didBeginSearchOfType:withQuery:urlString:endpoint:"
+- "didBeginSearchOfType:withQuery:urlString:headers:endpoint:"
+- "donateAllHistoryToCoreSpotlightForProfiles:completionHandler:"
+- "initWithSortValue:deviceIdentifier:changeID:"
+- "initWithURLString:urlHash:urlSalt:startTime:endTime:generation:"
+- "initWithValue:generation:"
+- "initWithValue:valueSource:valueProvider:valueUpdater:generation:metadata:"
+- "initWithValueSource:valueProvider:valueUpdater:generation:"
+- "lastSearchQuery"
+- "longestMatch"
+- "nextChangeIDForPositionInPositionGenerator:"
+- "nonCreditCardNumberLabels"
+- "numberFieldLabels"
+- "numberWithUnsignedShort:"
+- "positionBetweenPosition:andPosition:withDeviceIdentifier:changeID:"
+- "positionSortValueWithChangeID:"
+- "positionSortValueWithSortValue:"
+- "recentSearchesMatchingPrefix:"
+- "recentWebSearchEntries"
+- "recentWebSearchEntriesFilteredByTimeIntervalForDisplayInMainRecentSearchesView"
+- "reloadArticleContent"
+- "reloadArticlePreservingScrollPosition"
+- "removeItemsInResponseToUserAction:"
+- "removeItemsInResponseToUserAction:completionHandler:"
+- "removePastHistoryVisitsForItems:completionHandler:"
+- "searchReverse"
+- "securityCodeFieldLabels"
+- "setHTMLInputElementAutoFilledWithAutomaticStrongPassword:"
+- "specifierForAutocompleteTokensAndAddressBookLabel"
+- "suggestedImportedBookmarksFolderName"
+- "textFieldIsEligibleForAutomaticStrongPassword:form:ignorePreviousDecision:textFieldCurrentlyContainsStrongPassword:"
+- "uniqueImportedBookmarksFolderNameWithSuggestedName:existingFolderNames:"
+- "unsignedShortValue"
+- "v32@0:8@\"NSArray\"16@?<v@?>24"
+- "v36@0:8@\"NSDate\"16B24@?<v@?@\"NSError\">28"
+- "v40@0:8@\"NSDate\"16@\"NSDate\"24@?<v@?>32"
+- "v48@0:8q16@24@32Q40"
+- "v52@0:8@\"NSDate\"16@\"NSDate\"24Q32B40@?<v@?@\"NSError\">44"
+- "v52@0:8@16@24Q32B40@?44"
+- "v56@0:8@\"NSSet\"16@\"NSDate\"24@\"NSDate\"32Q40@?<v@?@\"NSError\">48"
+- "v56@0:8q16@\"WBSCompletionQuery\"24@\"NSString\"32@\"NSDictionary\"40Q48"
+- "v56@0:8q16@24@32@40Q48"
+- "void WTF::checkHashTableKey(const T &) [Key = OpaqueFormAutoFillFrame *, Value = WTF::KeyValuePair<OpaqueFormAutoFillFrame *, std::unique_ptr<SafariShared::FrameMetadata>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<OpaqueFormAutoFillFrame *, std::unique_ptr<SafariShared::FrameMetadata>>>, HashFunctions = WTF::DefaultHash<OpaqueFormAutoFillFrame *>, Traits = WTF::HashMap<OpaqueFormAutoFillFrame *, std::unique_ptr<SafariShared::FrameMetadata>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<OpaqueFormAutoFillFrame *>, HashTranslator = WTF::HashMapTranslator<WTF::HashMap<OpaqueFormAutoFillFrame *, std::unique_ptr<SafariShared::FrameMetadata>>::KeyValuePairTraits, WTF::DefaultHash<OpaqueFormAutoFillFrame *>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = OpaqueFormAutoFillFrame *]"
+- "void WTF::checkHashTableKey(const T &) [Key = OpaqueFormAutoFillFrame *, Value = WTF::KeyValuePair<OpaqueFormAutoFillFrame *, std::unique_ptr<SafariShared::FrameMetadata>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<OpaqueFormAutoFillFrame *, std::unique_ptr<SafariShared::FrameMetadata>>>, HashFunctions = WTF::DefaultHash<OpaqueFormAutoFillFrame *>, Traits = WTF::HashMap<OpaqueFormAutoFillFrame *, std::unique_ptr<SafariShared::FrameMetadata>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<OpaqueFormAutoFillFrame *>, HashTranslator = WTF::IdentityHashTranslator<WTF::HashMap<OpaqueFormAutoFillFrame *, std::unique_ptr<SafariShared::FrameMetadata>>::KeyValuePairTraits, WTF::DefaultHash<OpaqueFormAutoFillFrame *>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = OpaqueFormAutoFillFrame *]"
+- "void WTF::checkHashTableKey(const T &) [Key = OpaqueJSContext *, Value = WTF::KeyValuePair<OpaqueJSContext *, OpaqueJSWeakObjectMap *>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<OpaqueJSContext *, OpaqueJSWeakObjectMap *>>, HashFunctions = WTF::DefaultHash<OpaqueJSContext *>, Traits = WTF::HashMap<OpaqueJSContext *, OpaqueJSWeakObjectMap *>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<OpaqueJSContext *>, HashTranslator = WTF::HashMapTranslator<WTF::HashMap<OpaqueJSContext *, OpaqueJSWeakObjectMap *>::KeyValuePairTraits, WTF::DefaultHash<OpaqueJSContext *>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = OpaqueJSContext *]"
+- "void WTF::checkHashTableKey(const T &) [Key = OpaqueJSContext *, Value = WTF::KeyValuePair<OpaqueJSContext *, OpaqueJSWeakObjectMap *>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<OpaqueJSContext *, OpaqueJSWeakObjectMap *>>, HashFunctions = WTF::DefaultHash<OpaqueJSContext *>, Traits = WTF::HashMap<OpaqueJSContext *, OpaqueJSWeakObjectMap *>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<OpaqueJSContext *>, HashTranslator = WTF::IdentityHashTranslator<WTF::HashMap<OpaqueJSContext *, OpaqueJSWeakObjectMap *>::KeyValuePairTraits, WTF::DefaultHash<OpaqueJSContext *>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = OpaqueJSContext *]"
+- "{LatestVisitInformationMap=\"_map\"{unordered_map<long long, SafariShared::LatestVisitInformation, std::hash<long long>, std::equal_to<long long>, std::allocator<std::pair<const long long, SafariShared::LatestVisitInformation>>>=\"__table_\"{__hash_table<std::__hash_value_type<long long, SafariShared::LatestVisitInformation>, std::__unordered_map_hasher<long long, std::__hash_value_type<long long, SafariShared::LatestVisitInformation>, std::hash<long long>, std::equal_to<long long>>, std::__unordered_map_equal<long long, std::__hash_value_type<long long, SafariShared::LatestVisitInformation>, std::equal_to<long long>, std::hash<long long>>, std::allocator<std::__hash_value_type<long long, SafariShared::LatestVisitInformation>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, SafariShared::LatestVisitInformation>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, SafariShared::LatestVisitInformation>, void *> *> *>>>=\"\"{?=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, SafariShared::LatestVisitInformation>, void *> *> *>>=\"\"{?=\"__size_\"Q}}}}\"\"{?=\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<long long, SafariShared::LatestVisitInformation>, void *> *>=\"__next_\"^v}}\"\"{?=\"__size_\"Q}\"\"{?=\"__max_load_factor_\"f}}}}"
+- "{URLCompletionEntryMap=\"_map\"{HashTable<SafariShared::URLCompletionEntryKey, SafariShared::URLCompletionEntry, SafariShared::URLCompletionEntryKeyExtractor, SafariShared::URLCompletionEntryHash, SafariShared::URLCompletionEntryValueTraits, SafariShared::URLCompletionEntryKeyTraits, WTF::FastMalloc>=\"m_table\"^{URLCompletionEntry}}\"_extras\"{unordered_map<NSString *, std::unique_ptr<SafariShared::URLCompletionEntryExtras>, std::hash<NSString *>, std::equal_to<NSString *>, std::allocator<std::pair<NSString *const, std::unique_ptr<SafariShared::URLCompletionEntryExtras>>>>=\"__table_\"{__hash_table<std::__hash_value_type<NSString *, std::unique_ptr<SafariShared::URLCompletionEntryExtras>>, std::__unordered_map_hasher<NSString *, std::__hash_value_type<NSString *, std::unique_ptr<SafariShared::URLCompletionEntryExtras>>, std::hash<NSString *>, std::equal_to<NSString *>>, std::__unordered_map_equal<NSString *, std::__hash_value_type<NSString *, std::unique_ptr<SafariShared::URLCompletionEntryExtras>>, std::equal_to<NSString *>, std::hash<NSString *>>, std::allocator<std::__hash_value_type<NSString *, std::unique_ptr<SafariShared::URLCompletionEntryExtras>>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, std::unique_ptr<SafariShared::URLCompletionEntryExtras>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, std::unique_ptr<SafariShared::URLCompletionEntryExtras>>, void *> *> *>>>=\"\"{?=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, std::unique_ptr<SafariShared::URLCompletionEntryExtras>>, void *> *> *>>=\"\"{?=\"__size_\"Q}}}}\"\"{?=\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, std::unique_ptr<SafariShared::URLCompletionEntryExtras>>, void *> *>=\"__next_\"^v}}\"\"{?=\"__size_\"Q}\"\"{?=\"__max_load_factor_\"f}}}}"
+- "{unordered_map<long long, WBSHistoryItem *, std::hash<long long>, std::equal_to<long long>, std::allocator<std::pair<const long long, WBSHistoryItem *>>>=\"__table_\"{__hash_table<std::__hash_value_type<long long, WBSHistoryItem *>, std::__unordered_map_hasher<long long, std::__hash_value_type<long long, WBSHistoryItem *>, std::hash<long long>, std::equal_to<long long>>, std::__unordered_map_equal<long long, std::__hash_value_type<long long, WBSHistoryItem *>, std::equal_to<long long>, std::hash<long long>>, std::allocator<std::__hash_value_type<long long, WBSHistoryItem *>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryItem *>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryItem *>, void *> *> *>>>=\"\"{?=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryItem *>, void *> *> *>>=\"\"{?=\"__size_\"Q}}}}\"\"{?=\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryItem *>, void *> *>=\"__next_\"^v}}\"\"{?=\"__size_\"Q}\"\"{?=\"__max_load_factor_\"f}}}"
+- "{unordered_map<long long, WBSHistoryVisit *__weak, std::hash<long long>, std::equal_to<long long>, std::allocator<std::pair<const long long, WBSHistoryVisit *__weak>>>=\"__table_\"{__hash_table<std::__hash_value_type<long long, WBSHistoryVisit *__weak>, std::__unordered_map_hasher<long long, std::__hash_value_type<long long, WBSHistoryVisit *__weak>, std::hash<long long>, std::equal_to<long long>>, std::__unordered_map_equal<long long, std::__hash_value_type<long long, WBSHistoryVisit *__weak>, std::equal_to<long long>, std::hash<long long>>, std::allocator<std::__hash_value_type<long long, WBSHistoryVisit *__weak>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryVisit *__weak>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryVisit *__weak>, void *> *> *>>>=\"\"{?=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryVisit *__weak>, void *> *> *>>=\"\"{?=\"__size_\"Q}}}}\"\"{?=\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryVisit *__weak>, void *> *>=\"__next_\"^v}}\"\"{?=\"__size_\"Q}\"\"{?=\"__max_load_factor_\"f}}}"
+- "{unordered_map<long long, long long, std::hash<long long>, std::equal_to<long long>, std::allocator<std::pair<const long long, long long>>>=\"__table_\"{__hash_table<std::__hash_value_type<long long, long long>, std::__unordered_map_hasher<long long, std::__hash_value_type<long long, long long>, std::hash<long long>, std::equal_to<long long>>, std::__unordered_map_equal<long long, std::__hash_value_type<long long, long long>, std::equal_to<long long>, std::hash<long long>>, std::allocator<std::__hash_value_type<long long, long long>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, long long>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, long long>, void *> *> *>>>=\"\"{?=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, long long>, void *> *> *>>=\"\"{?=\"__size_\"Q}}}}\"\"{?=\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<long long, long long>, void *> *>=\"__next_\"^v}}\"\"{?=\"__size_\"Q}\"\"{?=\"__max_load_factor_\"f}}}"
+- "{unordered_map<long long, long long, std::hash<long long>, std::equal_to<long long>, std::allocator<std::pair<const long long, long long>>>={__hash_table<std::__hash_value_type<long long, long long>, std::__unordered_map_hasher<long long, std::__hash_value_type<long long, long long>, std::hash<long long>, std::equal_to<long long>>, std::__unordered_map_equal<long long, std::__hash_value_type<long long, long long>, std::equal_to<long long>, std::hash<long long>>, std::allocator<std::__hash_value_type<long long, long long>>>={unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, long long>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, long long>, void *> *> *>>>={?=^^v{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, long long>, void *> *> *>>={?=Q}}}}{?={__hash_node_base<std::__hash_node<std::__hash_value_type<long long, long long>, void *> *>=^v}}{?=Q}{?=f}}}32@0:8r^v16^@24"
+- "{unordered_multimap<NSString *, NSString *, std::hash<NSString *>, std::equal_to<NSString *>, std::allocator<std::pair<NSString *const, NSString *>>>=\"__table_\"{__hash_table<std::__hash_value_type<NSString *, NSString *>, std::__unordered_map_hasher<NSString *, std::__hash_value_type<NSString *, NSString *>, std::hash<NSString *>, std::equal_to<NSString *>>, std::__unordered_map_equal<NSString *, std::__hash_value_type<NSString *, NSString *>, std::equal_to<NSString *>, std::hash<NSString *>>, std::allocator<std::__hash_value_type<NSString *, NSString *>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, NSString *>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, NSString *>, void *> *> *>>>=\"\"{?=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, NSString *>, void *> *> *>>=\"\"{?=\"__size_\"Q}}}}\"\"{?=\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, NSString *>, void *> *>=\"__next_\"^v}}\"\"{?=\"__size_\"Q}\"\"{?=\"__max_load_factor_\"f}}}"
+
+```

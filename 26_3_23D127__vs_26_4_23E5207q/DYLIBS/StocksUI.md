@@ -1,0 +1,1189 @@
+## StocksUI
+
+> `/System/Library/PrivateFrameworks/StocksUI.framework/StocksUI`
+
+```diff
+
+-1901.0.0.0.0
+-  __TEXT.__text: 0x43f494
+-  __TEXT.__auth_stubs: 0xefc0
+-  __TEXT.__objc_methlist: 0x4be4
+-  __TEXT.__const: 0x26ad4
+-  __TEXT.__cstring: 0x1da47
++1959.0.0.0.0
++  __TEXT.__text: 0x431df4
++  __TEXT.__auth_stubs: 0xefe0
++  __TEXT.__objc_methlist: 0x4c4c
++  __TEXT.__const: 0x269c4
++  __TEXT.__cstring: 0x12f3c
+   __TEXT.__gcc_except_tab: 0x80
+-  __TEXT.__swift5_typeref: 0xacc6
+-  __TEXT.__swift5_fieldmd: 0xdd88
+-  __TEXT.__constg_swiftt: 0x10a4c
+-  __TEXT.__swift5_reflstr: 0xe630
++  __TEXT.__swift5_typeref: 0xacd8
++  __TEXT.__swift5_fieldmd: 0xdd94
++  __TEXT.__constg_swiftt: 0x10a5c
++  __TEXT.__swift5_reflstr: 0xe660
+   __TEXT.__swift5_builtin: 0x2bc
+-  __TEXT.__swift5_assocty: 0x19a0
++  __TEXT.__swift5_assocty: 0x1970
+   __TEXT.__swift5_protos: 0x460
+   __TEXT.__swift5_proto: 0x1c9c
+   __TEXT.__swift5_types: 0x1000
+-  __TEXT.__swift_as_entry: 0x98
+-  __TEXT.__swift_as_ret: 0x84
+-  __TEXT.__swift5_capture: 0x4aa8
++  __TEXT.__swift_as_entry: 0xa4
++  __TEXT.__swift_as_ret: 0x90
++  __TEXT.__swift5_capture: 0x4a80
+   __TEXT.__oslogstring: 0x1e8e
+   __TEXT.__swift5_mpenum: 0x60
+-  __TEXT.__unwind_info: 0xb4f8
+-  __TEXT.__eh_frame: 0x81bc
+-  __TEXT.__objc_classname: 0x5d2
+-  __TEXT.__objc_methname: 0xa1f5
+-  __TEXT.__objc_methtype: 0x26d2
+-  __TEXT.__objc_stubs: 0x420
+-  __DATA_CONST.__got: 0x4ca8
+-  __DATA_CONST.__const: 0x6c0
++  __TEXT.__unwind_info: 0xb168
++  __TEXT.__eh_frame: 0x6dcc
++  __TEXT.__objc_classname: 0x6d27
++  __TEXT.__objc_methname: 0x10115
++  __TEXT.__objc_methtype: 0x2fc9
++  __TEXT.__objc_stubs: 0x6b20
++  __DATA_CONST.__got: 0x4d78
++  __DATA_CONST.__const: 0x640
+   __DATA_CONST.__objc_classlist: 0xff8
+   __DATA_CONST.__objc_catlist: 0x50
+-  __DATA_CONST.__objc_protolist: 0x458
++  __DATA_CONST.__objc_protolist: 0x448
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x3130
+-  __DATA_CONST.__objc_protorefs: 0x248
+-  __AUTH_CONST.__auth_got: 0x77f0
+-  __AUTH_CONST.__const: 0x17718
++  __DATA_CONST.__objc_selrefs: 0x3190
++  __DATA_CONST.__objc_protorefs: 0x240
++  __AUTH_CONST.__auth_got: 0x7800
++  __AUTH_CONST.__const: 0x17600
+   __AUTH_CONST.__cfstring: 0x80
+-  __AUTH_CONST.__objc_const: 0x22078
+-  __AUTH.__objc_data: 0x3028
+-  __AUTH.__data: 0x3c48
+-  __DATA.__data: 0x5740
++  __AUTH_CONST.__objc_const: 0x22180
++  __AUTH.__objc_data: 0x2fa8
++  __AUTH.__data: 0x37b8
++  __DATA.__data: 0x53b0
+   __DATA.__objc_stublist: 0x40
+-  __DATA.__bss: 0x128c0
+-  __DATA.__common: 0x528
+-  __DATA_DIRTY.__objc_data: 0x4048
+-  __DATA_DIRTY.__data: 0x1c348
+-  __DATA_DIRTY.__bss: 0x1cb90
+-  __DATA_DIRTY.__common: 0x450
++  __DATA.__bss: 0x121c0
++  __DATA.__common: 0x500
++  __DATA_DIRTY.__objc_data: 0x40c8
++  __DATA_DIRTY.__data: 0x1ca48
++  __DATA_DIRTY.__bss: 0x1d290
++  __DATA_DIRTY.__common: 0x478
+   - /System/Library/Frameworks/Accessibility.framework/Accessibility
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B09519B7-85BB-3DDD-A82F-CC13C0B776F5
+-  Functions: 16357
+-  Symbols:   7530
+-  CStrings:  4787
++  UUID: 7346B8F5-694B-3A68-AFBD-4C853243E0B2
++  Functions: 16271
++  Symbols:   8347
++  CStrings:  4719
+ 
+Symbols:
++ GCC_except_table12
++ GCC_except_table19
++ ___block_literal_global.13
++ ___block_literal_global.20
++ _associated conformance 8StocksUI16ForYouFeedConfigV10CodingKeys33_4D28A169E0069030F5B94143A4152041LLOSHAASQ
++ _associated conformance 8StocksUI16ForYouFeedConfigV10CodingKeys33_4D28A169E0069030F5B94143A4152041LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 8StocksUI16ForYouFeedConfigV10CodingKeys33_4D28A169E0069030F5B94143A4152041LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _block_copy_helper.106
++ _block_copy_helper.117
++ _block_copy_helper.126
++ _block_copy_helper.130
++ _block_copy_helper.135
++ _block_copy_helper.23
++ _block_copy_helper.31
++ _block_copy_helper.33
++ _block_copy_helper.35
++ _block_copy_helper.39
++ _block_copy_helper.45
++ _block_copy_helper.52
++ _block_copy_helper.58
++ _block_copy_helper.6
++ _block_copy_helper.63
++ _block_copy_helper.65
++ _block_copy_helper.72
++ _block_copy_helper.78
++ _block_descriptor.108
++ _block_descriptor.119
++ _block_descriptor.128
++ _block_descriptor.132
++ _block_descriptor.137
++ _block_descriptor.25
++ _block_descriptor.33
++ _block_descriptor.35
++ _block_descriptor.37
++ _block_descriptor.41
++ _block_descriptor.47
++ _block_descriptor.54
++ _block_descriptor.60
++ _block_descriptor.65
++ _block_descriptor.67
++ _block_descriptor.74
++ _block_descriptor.8
++ _block_descriptor.80
++ _block_destroy_helper.107
++ _block_destroy_helper.118
++ _block_destroy_helper.127
++ _block_destroy_helper.131
++ _block_destroy_helper.136
++ _block_destroy_helper.24
++ _block_destroy_helper.32
++ _block_destroy_helper.34
++ _block_destroy_helper.36
++ _block_destroy_helper.40
++ _block_destroy_helper.46
++ _block_destroy_helper.53
++ _block_destroy_helper.59
++ _block_destroy_helper.64
++ _block_destroy_helper.66
++ _block_destroy_helper.7
++ _block_destroy_helper.73
++ _block_destroy_helper.79
++ _objc_msgSend$CGColor
++ _objc_msgSend$CGContext
++ _objc_msgSend$CGImage
++ _objc_msgSend$CGPath
++ _objc_msgSend$JSONObjectWithData:options:error:
++ _objc_msgSend$URL
++ _objc_msgSend$_scrollView
++ _objc_msgSend$_setAttributedSubtitle:
++ _objc_msgSend$_setAttributedTitle:
++ _objc_msgSend$_systemImageNamed:
++ _objc_msgSend$aa_primaryAppleAccount
++ _objc_msgSend$accessibilityContrast
++ _objc_msgSend$accessibilityElements
++ _objc_msgSend$accessibilityFrame
++ _objc_msgSend$accessibilityFrameInContainerSpace
++ _objc_msgSend$accessibilityLabel
++ _objc_msgSend$accessibilityScrollLeftPage
++ _objc_msgSend$accessibilityScrollRightPage
++ _objc_msgSend$accessibilityTraits
++ _objc_msgSend$accessibilityUserInputLabels
++ _objc_msgSend$accessibilityValue
++ _objc_msgSend$acknowledgedVersionForPersonalizedAds
++ _objc_msgSend$actionWithTitle:style:handler:
++ _objc_msgSend$activate
++ _objc_msgSend$activateConstraints:
++ _objc_msgSend$activationState
++ _objc_msgSend$activeiTunesAccount
++ _objc_msgSend$activityType
++ _objc_msgSend$addAction:
++ _objc_msgSend$addAction:forControlEvents:
++ _objc_msgSend$addActivity:
++ _objc_msgSend$addAnimation:
++ _objc_msgSend$addAttribute:value:range:
++ _objc_msgSend$addAttributes:range:
++ _objc_msgSend$addChildViewController:
++ _objc_msgSend$addCompletion:
++ _objc_msgSend$addEvent:
++ _objc_msgSend$addInteraction:
++ _objc_msgSend$addLineToPoint:
++ _objc_msgSend$addLinkedContentProviderFactory:
++ _objc_msgSend$addObserver:
++ _objc_msgSend$addObserver:selector:name:object:
++ _objc_msgSend$addObserverForName:object:queue:usingBlock:
++ _objc_msgSend$addState:
++ _objc_msgSend$addSubTestSuite:
++ _objc_msgSend$addSublayer:
++ _objc_msgSend$addSubview:
++ _objc_msgSend$addTarget:action:forControlEvents:
++ _objc_msgSend$addTestCase:
++ _objc_msgSend$addTestSuite:
++ _objc_msgSend$addTextFieldWithConfigurationHandler:
++ _objc_msgSend$addToRunLoop:forMode:
++ _objc_msgSend$additionalSafeAreaInsets
++ _objc_msgSend$additions
++ _objc_msgSend$adjustedContentInset
++ _objc_msgSend$agedPersonalizationScore
++ _objc_msgSend$alertControllerWithTitle:message:preferredStyle:
++ _objc_msgSend$allObjects
++ _objc_msgSend$allowCopyingOfURL:
++ _objc_msgSend$allowOpenInSafariForURL:
++ _objc_msgSend$animateAlongsideTransition:completion:
++ _objc_msgSend$animateWithDuration:animations:
++ _objc_msgSend$animateWithDuration:animations:completion:
++ _objc_msgSend$animateWithDuration:delay:options:animations:completion:
++ _objc_msgSend$appConfiguration
++ _objc_msgSend$appLaunchUpsellLastPresenterBundleID
++ _objc_msgSend$appLaunchUpsellLastShownCampaignID
++ _objc_msgSend$appendAttributedString:
++ _objc_msgSend$appendPath:
++ _objc_msgSend$application
++ _objc_msgSend$applicationState
++ _objc_msgSend$areAnimationsEnabled
++ _objc_msgSend$articleEmbeddingsConfiguration
++ _objc_msgSend$articleHostViewController
++ _objc_msgSend$articleID
++ _objc_msgSend$articles
++ _objc_msgSend$asSection
++ _objc_msgSend$ascender
++ _objc_msgSend$asset
++ _objc_msgSend$assetWithIdentifier:remoteURL:overrideMIMEType:
++ _objc_msgSend$attributedStringWithAttachment:
++ _objc_msgSend$attributedText
++ _objc_msgSend$audioUpsellConfigurationsByID
++ _objc_msgSend$authorizationStatusForEntityType:
++ _objc_msgSend$autoSubscribeCtr
++ _objc_msgSend$backgroundView
++ _objc_msgSend$barButtonItems
++ _objc_msgSend$becomeFirstResponder
++ _objc_msgSend$begin
++ _objc_msgSend$bezierPathWithCGPath:
++ _objc_msgSend$bezierPathWithOvalInRect:
++ _objc_msgSend$bezierPathWithRect:
++ _objc_msgSend$blackColor
++ _objc_msgSend$boldSystemFontOfSize:
++ _objc_msgSend$boolForKey:
++ _objc_msgSend$bottomAnchor
++ _objc_msgSend$bottomEdgeEffect
++ _objc_msgSend$boundingRectWithSize:options:context:
++ _objc_msgSend$bounds
++ _objc_msgSend$bringSubviewToFront:
++ _objc_msgSend$bundleCampaignManager
++ _objc_msgSend$bundleChannelIDs
++ _objc_msgSend$bundleForClass:
++ _objc_msgSend$bundleIdentifier
++ _objc_msgSend$bundleSubscription
++ _objc_msgSend$bundleSubscriptionProvider
++ _objc_msgSend$bundleURL
++ _objc_msgSend$buttonWithType:
++ _objc_msgSend$cachedSubscription
++ _objc_msgSend$canSendMail
++ _objc_msgSend$cancel
++ _objc_msgSend$capHeight
++ _objc_msgSend$cellForItemAtIndexPath:
++ _objc_msgSend$cellForRowAtIndexPath:
++ _objc_msgSend$clearAllSessions
++ _objc_msgSend$clearColor
++ _objc_msgSend$collectionViewLayout
++ _objc_msgSend$color
++ _objc_msgSend$colorWithAlphaComponent:
++ _objc_msgSend$commit
++ _objc_msgSend$computedGlobalScoreCoefficient
++ _objc_msgSend$configuration
++ _objc_msgSend$configurationByApplyingConfiguration:
++ _objc_msgSend$configurationWithFont:
++ _objc_msgSend$configurationWithFont:scale:
++ _objc_msgSend$configurationWithPaletteColors:
++ _objc_msgSend$configurationWithPointSize:
++ _objc_msgSend$configurationWithPointSize:weight:
++ _objc_msgSend$configurationWithPointSize:weight:scale:
++ _objc_msgSend$configurationWithTextStyle:
++ _objc_msgSend$configurationWithWeight:
++ _objc_msgSend$configureWithDefaultBackground
++ _objc_msgSend$configureWithOpaqueBackground
++ _objc_msgSend$connectedScenes
++ _objc_msgSend$constraintEqualToAnchor:
++ _objc_msgSend$constraintEqualToAnchor:constant:
++ _objc_msgSend$constraintEqualToConstant:
++ _objc_msgSend$constraintEqualToSystemSpacingAfterAnchor:multiplier:
++ _objc_msgSend$constraintEqualToSystemSpacingBelowAnchor:multiplier:
++ _objc_msgSend$constraintGreaterThanOrEqualToConstant:
++ _objc_msgSend$constraintGreaterThanOrEqualToSystemSpacingAfterAnchor:multiplier:
++ _objc_msgSend$containerTraitCollection
++ _objc_msgSend$containsArticleID:
++ _objc_msgSend$containsObject:
++ _objc_msgSend$containsTagID:
++ _objc_msgSend$contentInset
++ _objc_msgSend$contentOffset
++ _objc_msgSend$contentSize
++ _objc_msgSend$contentStoreFrontID
++ _objc_msgSend$contentURL
++ _objc_msgSend$contentView
++ _objc_msgSend$context
++ _objc_msgSend$convertPoint:toCoordinateSpace:
++ _objc_msgSend$convertRect:fromCoordinateSpace:
++ _objc_msgSend$convertRect:toCoordinateSpace:
++ _objc_msgSend$coordinateSpace
++ _objc_msgSend$currentAttributedTitle
++ _objc_msgSend$currentCalendar
++ _objc_msgSend$currentDevice
++ _objc_msgSend$currentReachabilityStatus
++ _objc_msgSend$currentRequest
++ _objc_msgSend$currentRunLoop
++ _objc_msgSend$currentTraitCollection
++ _objc_msgSend$customView
++ _objc_msgSend$dateFormat
++ _objc_msgSend$dateFormatterWithFormat:localeIdentifier:forReuse:
++ _objc_msgSend$defaultBrightnessAdjustment
++ _objc_msgSend$defaultCalendarForNewEvents
++ _objc_msgSend$defaultCenter
++ _objc_msgSend$defaultFontSize
++ _objc_msgSend$defaultMetrics
++ _objc_msgSend$delegate
++ _objc_msgSend$descender
++ _objc_msgSend$deselectItemAtIndexPath:animated:
++ _objc_msgSend$detailTextLabel
++ _objc_msgSend$didMoveToParentViewController:
++ _objc_msgSend$dismissViewControllerAnimated:completion:
++ _objc_msgSend$dismissingIdentifier
++ _objc_msgSend$displayLinkWithTarget:selector:
++ _objc_msgSend$displayMode
++ _objc_msgSend$displayScale
++ _objc_msgSend$documentController
++ _objc_msgSend$duration
++ _objc_msgSend$editButtonItem
++ _objc_msgSend$effectWithRoundedRect:cornerRadius:curve:
++ _objc_msgSend$effectWithStyle:
++ _objc_msgSend$effectiveUserInterfaceLayoutDirection
++ _objc_msgSend$elementWithUncachedProvider:
++ _objc_msgSend$embeddedUpsellEndTime
++ _objc_msgSend$embeddedUpsellStartTime
++ _objc_msgSend$event
++ _objc_msgSend$eventIdentifier
++ _objc_msgSend$eventWithEventStore:
++ _objc_msgSend$fc_NewsArticleID
++ _objc_msgSend$fc_NewsURLWithPathComponents:queryItems:internal:
++ _objc_msgSend$fc_isHardPaywallNewsArticleURL:
++ _objc_msgSend$fc_isNewsArticleURL
++ _objc_msgSend$fc_isNewsURL
++ _objc_msgSend$fc_numberFollowingString:
++ _objc_msgSend$featureConfiguration
++ _objc_msgSend$fireEventWithName:withContext:
++ _objc_msgSend$fixedSpaceItemOfWidth:
++ _objc_msgSend$flexibleSpaceItem
++ _objc_msgSend$font
++ _objc_msgSend$fontDescriptor
++ _objc_msgSend$fontWithDescriptor:size:
++ _objc_msgSend$forceSyncWithCompletion:
++ _objc_msgSend$formattedCount:withLocale:longform:compactDisplay:
++ _objc_msgSend$frame
++ _objc_msgSend$generalPasteboard
++ _objc_msgSend$getHue:saturation:brightness:alpha:
++ _objc_msgSend$getRed:green:blue:alpha:
++ _objc_msgSend$grayColor
++ _objc_msgSend$hardStyle
++ _objc_msgSend$hasAccessToHeadline:
++ _objc_msgSend$hasAccessToTag:
++ _objc_msgSend$hasAccessToTagIdentifier:
++ _objc_msgSend$hasActiveDrag
++ _objc_msgSend$hasActiveDrop
++ _objc_msgSend$hasArticleCompletedListening:
++ _objc_msgSend$hasAudioTrack
++ _objc_msgSend$hashTableWithOptions:
++ _objc_msgSend$headlineForIdentifier:
++ _objc_msgSend$heightAnchor
++ _objc_msgSend$hitTest:withEvent:
++ _objc_msgSend$horizontalSizeClass
++ _objc_msgSend$hyphenationFactor
++ _objc_msgSend$identifier
++ _objc_msgSend$identifierForURL:
++ _objc_msgSend$image
++ _objc_msgSend$imageAsset
++ _objc_msgSend$imageByApplyingSymbolConfiguration:
++ _objc_msgSend$imageForDescriptor:
++ _objc_msgSend$imageNamed:inBundle:compatibleWithTraitCollection:
++ _objc_msgSend$imageView
++ _objc_msgSend$imageWithActions:
++ _objc_msgSend$imageWithConfiguration:
++ _objc_msgSend$imageWithRenderingMode:
++ _objc_msgSend$imageWithTintColor:renderingMode:
++ _objc_msgSend$indexPathForCell:
++ _objc_msgSend$indexPathForItemAtPoint:
++ _objc_msgSend$indexPathsForSelectedItems
++ _objc_msgSend$indexPathsForVisibleItems
++ _objc_msgSend$init
++ _objc_msgSend$initForTextStyle:
++ _objc_msgSend$initNAWithActivityItemSources:
++ _objc_msgSend$initWithAccessibilityContainer:
++ _objc_msgSend$initWithActivityIndicatorStyle:
++ _objc_msgSend$initWithActivityItems:applicationActivities:
++ _objc_msgSend$initWithAppAdamID:inAppAdamID:chargeCurrencyCode:newsAppPurchase:isTrialPeriod:isPurchaser:servicesBundleAdamID:isAmplifyUser:startDate:expiryDate:initialPurchaseTimestamp:serviceBeginsTimestamp:vendorAdHocOfferID:
++ _objc_msgSend$initWithArrangedSubviews:
++ _objc_msgSend$initWithArray:
++ _objc_msgSend$initWithAttributedString:
++ _objc_msgSend$initWithBarButtonItems:representativeItem:
++ _objc_msgSend$initWithBarButtonSystemItem:target:action:
++ _objc_msgSend$initWithBlock:
++ _objc_msgSend$initWithBundleIdentifier:
++ _objc_msgSend$initWithCGImage:
++ _objc_msgSend$initWithCoder:
++ _objc_msgSend$initWithConfig:
++ _objc_msgSend$initWithControlPoints::::
++ _objc_msgSend$initWithData:MIMEType:
++ _objc_msgSend$initWithData:scale:
++ _objc_msgSend$initWithDictionary:
++ _objc_msgSend$initWithDomain:code:userInfo:
++ _objc_msgSend$initWithDouble:
++ _objc_msgSend$initWithEntitlements:error:
++ _objc_msgSend$initWithFormat:localeIdentifier:
++ _objc_msgSend$initWithFrame:
++ _objc_msgSend$initWithFrame:collectionViewLayout:
++ _objc_msgSend$initWithFrame:style:
++ _objc_msgSend$initWithHue:saturation:brightness:alpha:
++ _objc_msgSend$initWithImage:style:target:action:
++ _objc_msgSend$initWithInteger:
++ _objc_msgSend$initWithItemContentType:
++ _objc_msgSend$initWithItemProviders:
++ _objc_msgSend$initWithJSONRepresentation:
++ _objc_msgSend$initWithLabel:image:type:block:
++ _objc_msgSend$initWithLabel:image:type:pasteboard:string:
++ _objc_msgSend$initWithMessage:
++ _objc_msgSend$initWithMissingClass:
++ _objc_msgSend$initWithName:
++ _objc_msgSend$initWithName:actionHandler:
++ _objc_msgSend$initWithName:image:actionHandler:
++ _objc_msgSend$initWithName:transitionFromStates:toState:
++ _objc_msgSend$initWithNibName:bundle:
++ _objc_msgSend$initWithObjects:
++ _objc_msgSend$initWithPersonalizationTreatmentDictionary:
++ _objc_msgSend$initWithRed:green:blue:alpha:
++ _objc_msgSend$initWithRootViewController:
++ _objc_msgSend$initWithScrollView:edge:style:
++ _objc_msgSend$initWithSearchResultsController:
++ _objc_msgSend$initWithSize:
++ _objc_msgSend$initWithSize:scale:
++ _objc_msgSend$initWithState:withOwner:
++ _objc_msgSend$initWithString:
++ _objc_msgSend$initWithString:attributes:
++ _objc_msgSend$initWithTagType:identifier:name:
++ _objc_msgSend$initWithTextColor:
++ _objc_msgSend$initWithTitle:sourceView:
++ _objc_msgSend$initWithTitle:style:target:action:
++ _objc_msgSend$initWithTitle:subtitle:
++ _objc_msgSend$initWithURL:
++ _objc_msgSend$initWithURL:title:shortExcerpt:publishDate:sourceName:
++ _objc_msgSend$initWithUnsignedInteger:
++ _objc_msgSend$initWithWhite:alpha:
++ _objc_msgSend$insertArticleID:atIndex:
++ _objc_msgSend$insertSubview:belowSubview:
++ _objc_msgSend$integerForKey:
++ _objc_msgSend$integerValue
++ _objc_msgSend$interaction
++ _objc_msgSend$invalidate
++ _objc_msgSend$invalidateLayoutWithContext:
++ _objc_msgSend$invertColorsStatusDidChange
++ _objc_msgSend$isActive
++ _objc_msgSend$isAuthenticated
++ _objc_msgSend$isBundlePaid
++ _objc_msgSend$isCollapsed
++ _objc_msgSend$isContentStoreFrontSupported
++ _objc_msgSend$isEditing
++ _objc_msgSend$isFullTrackAvailableToAll
++ _objc_msgSend$isHidden
++ _objc_msgSend$isKindOfClass:
++ _objc_msgSend$isMainThread
++ _objc_msgSend$isNewsAllowed
++ _objc_msgSend$isNewsAppPurchase
++ _objc_msgSend$isPaid
++ _objc_msgSend$isPaidBundleViaOfferActivated
++ _objc_msgSend$isPressRelease
++ _objc_msgSend$isPrivateDataSyncingEnabled
++ _objc_msgSend$isRunningPerformanceTest
++ _objc_msgSend$isSelected
++ _objc_msgSend$isSubscribed
++ _objc_msgSend$isToolbarHidden
++ _objc_msgSend$isUserSignedInToiCloud
++ _objc_msgSend$isViewLoaded
++ _objc_msgSend$itemID
++ _objc_msgSend$jsonRepresentation
++ _objc_msgSend$key_window
++ _objc_msgSend$keyboardOrActionSwitchToNextViewController
++ _objc_msgSend$labelColor
++ _objc_msgSend$language
++ _objc_msgSend$largeButton
++ _objc_msgSend$largeDetent
++ _objc_msgSend$latestVersionForPersonalizedAdsConsent
++ _objc_msgSend$launchSettings
++ _objc_msgSend$layer
++ _objc_msgSend$layoutAttributesForSupplementaryViewOfKind:atIndexPath:
++ _objc_msgSend$layoutDirection
++ _objc_msgSend$layoutFrame
++ _objc_msgSend$layoutIfNeeded
++ _objc_msgSend$layoutMargins
++ _objc_msgSend$leadingAnchor
++ _objc_msgSend$lightTextColor
++ _objc_msgSend$lineHeight
++ _objc_msgSend$linkWithBundleIdentifier:
++ _objc_msgSend$localizedStringFromDate:dateStyle:timeStyle:
++ _objc_msgSend$mainBundle
++ _objc_msgSend$mainScreen
++ _objc_msgSend$mainSystem
++ _objc_msgSend$markArticle:withCompletedListening:
++ _objc_msgSend$markArticle:withLastListened:
++ _objc_msgSend$markArticle:withListeningProgress:
++ _objc_msgSend$markArticle:withReadingPositionJSON:
++ _objc_msgSend$maximumPrimaryColumnWidth
++ _objc_msgSend$mediumDetent
++ _objc_msgSend$minimumPrimaryColumnWidth
++ _objc_msgSend$monospacedDigitSystemFontOfSize:weight:
++ _objc_msgSend$moveToPoint:
++ _objc_msgSend$mutableCopy
++ _objc_msgSend$narrativeTrack
++ _objc_msgSend$narrativeTrackSample
++ _objc_msgSend$navigationBar
++ _objc_msgSend$navigationController
++ _objc_msgSend$navigationItem
++ _objc_msgSend$nextResponder
++ _objc_msgSend$nss_NewsURLForRecipeID:articleID:
++ _objc_msgSend$nu_animateWithDuration:delay:timingFunction:options:animations:completion:
++ _objc_msgSend$numberFromString:
++ _objc_msgSend$numberOfItemsInSection:
++ _objc_msgSend$objectForInfoDictionaryKey:
++ _objc_msgSend$objectForKey:
++ _objc_msgSend$offeredBundlePurchaseIDs
++ _objc_msgSend$offeredBundlePurchaseIDsMap
++ _objc_msgSend$offlineReason
++ _objc_msgSend$onTouchUpInside:
++ _objc_msgSend$onWillEnter:
++ _objc_msgSend$onWillExit:
++ _objc_msgSend$openInBrowser
++ _objc_msgSend$openStocksSettings
++ _objc_msgSend$openURL:options:completionHandler:
++ _objc_msgSend$paidBundleConfig
++ _objc_msgSend$paidBundleViaOfferConfig
++ _objc_msgSend$paidNonpaidSubscriptionCtr
++ _objc_msgSend$parentID
++ _objc_msgSend$parentIssue
++ _objc_msgSend$parentViewController
++ _objc_msgSend$path
++ _objc_msgSend$paywallConfigurationsByType
++ _objc_msgSend$performWithoutAnimation:
++ _objc_msgSend$personalizationScore
++ _objc_msgSend$pinnedTrailingGroup
++ _objc_msgSend$playPosition
++ _objc_msgSend$pointSize
++ _objc_msgSend$popViewControllerAnimated:
++ _objc_msgSend$popoverPresentationController
++ _objc_msgSend$possiblyUnfetchedAppConfiguration
++ _objc_msgSend$preferredContentSizeCategory
++ _objc_msgSend$preferredFontForTextStyle:
++ _objc_msgSend$preferredFontForTextStyle:compatibleWithTraitCollection:
++ _objc_msgSend$prepareImageForDescriptor:
++ _objc_msgSend$prepareImagesForImageDescriptors:
++ _objc_msgSend$present
++ _objc_msgSend$presentViewController:animated:completion:
++ _objc_msgSend$presentationController
++ _objc_msgSend$presenterForPrivacySplashWithIdentifier:
++ _objc_msgSend$presentingViewController
++ _objc_msgSend$publishDate
++ _objc_msgSend$publisherArticleVersion
++ _objc_msgSend$purchaseLookUpEntryForTagID:
++ _objc_msgSend$purchaseProvider
++ _objc_msgSend$purchaseType
++ _objc_msgSend$purchaseValidationState
++ _objc_msgSend$purchasedTagIDs
++ _objc_msgSend$pushViewController:animated:
++ _objc_msgSend$rangeOfString:
++ _objc_msgSend$rangeOfString:options:
++ _objc_msgSend$refreshBundleSubscriptionWithCachePolicy:completion:
++ _objc_msgSend$registerActionActivityProvider:actionType:
++ _objc_msgSend$registerImage:withTraitCollection:
++ _objc_msgSend$relativeLuminance
++ _objc_msgSend$reloadData
++ _objc_msgSend$removeArticleID:
++ _objc_msgSend$removeAttribute:range:
++ _objc_msgSend$removeFromParentViewController
++ _objc_msgSend$removeFromSuperlayer
++ _objc_msgSend$removeFromSuperview
++ _objc_msgSend$removeInteraction:
++ _objc_msgSend$removeObject:
++ _objc_msgSend$removeObserver:
++ _objc_msgSend$removeObserver:name:object:
++ _objc_msgSend$requestReviewInScene:
++ _objc_msgSend$requestSceneSessionActivation:userActivity:options:errorHandler:
++ _objc_msgSend$requestWriteOnlyAccessToEventsWithCompletion:
++ _objc_msgSend$resignFirstResponder
++ _objc_msgSend$resolvedColorWithTraitCollection:
++ _objc_msgSend$rightBarButtonItem
++ _objc_msgSend$role
++ _objc_msgSend$rootViewController
++ _objc_msgSend$routeURL
++ _objc_msgSend$safeAreaInsets
++ _objc_msgSend$safeAreaLayoutGuide
++ _objc_msgSend$save
++ _objc_msgSend$sc_isEnabledForStocksDataclass
++ _objc_msgSend$scale
++ _objc_msgSend$scaledFontForFont:
++ _objc_msgSend$scaledFontForFont:maximumPointSize:
++ _objc_msgSend$scaledValueForValue:
++ _objc_msgSend$scaledValueForValue:compatibleWithTraitCollection:
++ _objc_msgSend$sceneDidBecomeActive
++ _objc_msgSend$sceneDidBecomeActiveWithURL:sourceApplication:sceneID:
++ _objc_msgSend$sceneDidEnterBackground
++ _objc_msgSend$sceneDidEnterBackgroundWithSceneID:
++ _objc_msgSend$sceneWillConnect
++ _objc_msgSend$sceneWillEnterForeground
++ _objc_msgSend$sceneWillResignActiveWithSceneID:
++ _objc_msgSend$scheduledTimerWithTimeInterval:repeats:block:
++ _objc_msgSend$scrollRectToVisible:animated:
++ _objc_msgSend$scrollToItemAtIndexPath:atScrollPosition:animated:
++ _objc_msgSend$searchBar
++ _objc_msgSend$searchBar:textDidChange:
++ _objc_msgSend$searchController
++ _objc_msgSend$searchResultsController
++ _objc_msgSend$searchTextField
++ _objc_msgSend$secondaryLabelColor
++ _objc_msgSend$secondarySystemBackgroundColor
++ _objc_msgSend$secondarySystemFillColor
++ _objc_msgSend$selectItemAtIndexPath:animated:scrollPosition:
++ _objc_msgSend$semanticContentAttribute
++ _objc_msgSend$sendActionsForControlEvents:
++ _objc_msgSend$separatorColor
++ _objc_msgSend$session
++ _objc_msgSend$setAccessibilityAttributedLabel:
++ _objc_msgSend$setAccessibilityContainerType:
++ _objc_msgSend$setAccessibilityElements:
++ _objc_msgSend$setAccessibilityElementsBlock:
++ _objc_msgSend$setAccessibilityFrameInContainerSpace:
++ _objc_msgSend$setAccessibilityHint:
++ _objc_msgSend$setAccessibilityIdentifier:
++ _objc_msgSend$setAccessibilityIgnoresInvertColors:
++ _objc_msgSend$setAccessibilityLabel:
++ _objc_msgSend$setAccessibilityTraits:
++ _objc_msgSend$setAccessibilityUserInputLabels:
++ _objc_msgSend$setAccessibilityValue:
++ _objc_msgSend$setAccessibilityViewIsModal:
++ _objc_msgSend$setAccessoryType:
++ _objc_msgSend$setAccessoryView:
++ _objc_msgSend$setAcknowledgedVersionForPersonalizedAds:
++ _objc_msgSend$setActions:
++ _objc_msgSend$setActive:
++ _objc_msgSend$setAdditionalSafeAreaInsets:
++ _objc_msgSend$setAdjustsFontSizeToFitWidth:
++ _objc_msgSend$setAdjustsImageSizeForAccessibilityContentSizeCategory:
++ _objc_msgSend$setAlignment:
++ _objc_msgSend$setAllDay:
++ _objc_msgSend$setAllowsMultipleSelection:
++ _objc_msgSend$setAlpha:
++ _objc_msgSend$setAlwaysBounceVertical:
++ _objc_msgSend$setAppLaunchUpsellLastPresenterBundleID:
++ _objc_msgSend$setAppLaunchUpsellLastShownCampaignID:
++ _objc_msgSend$setAttributedText:
++ _objc_msgSend$setAttributedTitle:forState:
++ _objc_msgSend$setAutocapitalizationType:
++ _objc_msgSend$setAutocorrectionType:
++ _objc_msgSend$setAutomaticallyShowsSearchResultsController:
++ _objc_msgSend$setAutoresizingMask:
++ _objc_msgSend$setAvailability:
++ _objc_msgSend$setAxis:
++ _objc_msgSend$setBackgroundColor:
++ _objc_msgSend$setBackgroundEffect:
++ _objc_msgSend$setBarStyle:
++ _objc_msgSend$setBarTintColor:
++ _objc_msgSend$setBorderStyle:
++ _objc_msgSend$setBounds:
++ _objc_msgSend$setCalendar:
++ _objc_msgSend$setCenter:
++ _objc_msgSend$setClipsToBounds:
++ _objc_msgSend$setColor:
++ _objc_msgSend$setCombinedTitle:
++ _objc_msgSend$setCompletionBlock:
++ _objc_msgSend$setCompletionWithItemsHandler:
++ _objc_msgSend$setConfigurationUpdateHandler:
++ _objc_msgSend$setContentEdgeInsets:
++ _objc_msgSend$setContentHorizontalAlignment:
++ _objc_msgSend$setContentHuggingPriority:forAxis:
++ _objc_msgSend$setContentInset:
++ _objc_msgSend$setContentMode:
++ _objc_msgSend$setContentOffset:
++ _objc_msgSend$setContentOffset:animated:
++ _objc_msgSend$setContentScrollView:forEdge:
++ _objc_msgSend$setContentSize:
++ _objc_msgSend$setContentVerticalAlignment:
++ _objc_msgSend$setContentsScale:
++ _objc_msgSend$setCornerCurve:
++ _objc_msgSend$setCornerRadius:
++ _objc_msgSend$setCustomSpacing:afterView:
++ _objc_msgSend$setDateFormat:
++ _objc_msgSend$setDateStyle:
++ _objc_msgSend$setDefinesPresentationContext:
++ _objc_msgSend$setDelegate:
++ _objc_msgSend$setDetents:
++ _objc_msgSend$setDirectionalLockEnabled:
++ _objc_msgSend$setDismissButtonStyle:
++ _objc_msgSend$setDisplayCaptionText:
++ _objc_msgSend$setDisplayLargeIcon:
++ _objc_msgSend$setDisplayName:
++ _objc_msgSend$setDisplayScale:
++ _objc_msgSend$setDistribution:
++ _objc_msgSend$setDragInteractionEnabled:
++ _objc_msgSend$setEditViewDelegate:
++ _objc_msgSend$setEditable:
++ _objc_msgSend$setEditing:animated:
++ _objc_msgSend$setEffect:
++ _objc_msgSend$setEnabled:
++ _objc_msgSend$setEnablesReturnKeyAutomatically:
++ _objc_msgSend$setEndDate:
++ _objc_msgSend$setEvent:
++ _objc_msgSend$setEventStore:
++ _objc_msgSend$setExcludedActivityTypes:
++ _objc_msgSend$setExtendedLaunchTest:
++ _objc_msgSend$setFillColor:
++ _objc_msgSend$setFocusEffect:
++ _objc_msgSend$setFont:
++ _objc_msgSend$setFootnote:
++ _objc_msgSend$setFormattingContext:
++ _objc_msgSend$setFrame:
++ _objc_msgSend$setHeight:
++ _objc_msgSend$setHidden:
++ _objc_msgSend$setHidesSharedBackground:
++ _objc_msgSend$setHyphenationFactor:
++ _objc_msgSend$setIcon:
++ _objc_msgSend$setImage:
++ _objc_msgSend$setImage:forState:
++ _objc_msgSend$setImageEdgeInsets:
++ _objc_msgSend$setIsAccessibilityElement:
++ _objc_msgSend$setKeyboardAppearance:
++ _objc_msgSend$setKeyboardDismissMode:
++ _objc_msgSend$setKeywords:
++ _objc_msgSend$setLargeContentImage:
++ _objc_msgSend$setLargeContentTitle:
++ _objc_msgSend$setLeadingItemGroups:
++ _objc_msgSend$setLineBreakMode:
++ _objc_msgSend$setLineBreakStrategy:
++ _objc_msgSend$setLineDashPattern:
++ _objc_msgSend$setLineFragmentPadding:
++ _objc_msgSend$setLineSpacing:
++ _objc_msgSend$setLineWidth:
++ _objc_msgSend$setLocale:
++ _objc_msgSend$setLocalizedDateFormatFromTemplate:
++ _objc_msgSend$setLookToDictateEnabled:
++ _objc_msgSend$setMailComposeDelegate:
++ _objc_msgSend$setMaximumFractionDigits:
++ _objc_msgSend$setMaximumLineHeight:
++ _objc_msgSend$setMaximumNumberOfLines:
++ _objc_msgSend$setMaximumPrimaryColumnWidth:
++ _objc_msgSend$setMenu:
++ _objc_msgSend$setMessageBody:isHTML:
++ _objc_msgSend$setMinimumBackgroundFetchInterval:
++ _objc_msgSend$setMinimumFractionDigits:
++ _objc_msgSend$setMinimumIntegerDigits:
++ _objc_msgSend$setMinimumLineHeight:
++ _objc_msgSend$setMinimumPrimaryColumnWidth:
++ _objc_msgSend$setModalPresentationStyle:
++ _objc_msgSend$setMultiplier:
++ _objc_msgSend$setNavigationBarHidden:animated:
++ _objc_msgSend$setNeedsLayout
++ _objc_msgSend$setNeedsRebuild
++ _objc_msgSend$setNeedsStatusBarAppearanceUpdate
++ _objc_msgSend$setNegativePrefix:
++ _objc_msgSend$setNotes:
++ _objc_msgSend$setNumberOfLines:
++ _objc_msgSend$setNumberStyle:
++ _objc_msgSend$setObject:forKey:
++ _objc_msgSend$setOriginalURL:
++ _objc_msgSend$setPath:
++ _objc_msgSend$setPersonalizedAds:
++ _objc_msgSend$setPinnedTrailingGroup:
++ _objc_msgSend$setPlaceholder:
++ _objc_msgSend$setPosition:
++ _objc_msgSend$setPositivePrefix:
++ _objc_msgSend$setPreferredAction:
++ _objc_msgSend$setPreferredBarTintColor:
++ _objc_msgSend$setPreferredBehavioralStyle:
++ _objc_msgSend$setPreferredContentSize:
++ _objc_msgSend$setPreferredControlTintColor:
++ _objc_msgSend$setPreferredDisplayMode:
++ _objc_msgSend$setPreferredFramesPerSecond:
++ _objc_msgSend$setPrefersEdgeAttachedInCompactHeight:
++ _objc_msgSend$setPrefersScrollingExpandsWhenScrolledToEdge:
++ _objc_msgSend$setPresentingViewController:
++ _objc_msgSend$setPreservesSuperviewLayoutMargins:
++ _objc_msgSend$setPrimaryAction:
++ _objc_msgSend$setReferenceView:
++ _objc_msgSend$setReturnKeyType:
++ _objc_msgSend$setRightBarButtonItem:
++ _objc_msgSend$setRightBarButtonItems:
++ _objc_msgSend$setRole:
++ _objc_msgSend$setScrollEdgeAppearance:
++ _objc_msgSend$setScrollEnabled:
++ _objc_msgSend$setSearchBarStyle:
++ _objc_msgSend$setSearchController:
++ _objc_msgSend$setSelectable:
++ _objc_msgSend$setSelectionFollowsFocus:
++ _objc_msgSend$setSemanticContentAttribute:
++ _objc_msgSend$setSeparatorStyle:
++ _objc_msgSend$setShadowColor:
++ _objc_msgSend$setShadowImage:
++ _objc_msgSend$setShadowOffset:
++ _objc_msgSend$setShadowOpacity:
++ _objc_msgSend$setShadowPath:
++ _objc_msgSend$setShadowRadius:
++ _objc_msgSend$setShouldGroupAccessibilityChildren:
++ _objc_msgSend$setShowsCancelButton:animated:
++ _objc_msgSend$setShowsHorizontalScrollIndicator:
++ _objc_msgSend$setShowsLargeContentViewer:
++ _objc_msgSend$setShowsMenuAsPrimaryAction:
++ _objc_msgSend$setShowsSearchResultsController:
++ _objc_msgSend$setShowsVerticalScrollIndicator:
++ _objc_msgSend$setSourceItem:
++ _objc_msgSend$setSpacing:
++ _objc_msgSend$setSpecialization:
++ _objc_msgSend$setStartDate:
++ _objc_msgSend$setString:
++ _objc_msgSend$setStrokeColor:
++ _objc_msgSend$setStyle:
++ _objc_msgSend$setSu_showingLinkPreview:
++ _objc_msgSend$setSubject:
++ _objc_msgSend$setSubtitle:
++ _objc_msgSend$setText:
++ _objc_msgSend$setTextAlignment:
++ _objc_msgSend$setTextColor:
++ _objc_msgSend$setTextContainerInset:
++ _objc_msgSend$setTimeStyle:
++ _objc_msgSend$setTimeZone:
++ _objc_msgSend$setTintColor:
++ _objc_msgSend$setTitle:
++ _objc_msgSend$setTitle:forState:
++ _objc_msgSend$setTitleTextAttributes:forState:
++ _objc_msgSend$setTitleView:
++ _objc_msgSend$setTolerance:
++ _objc_msgSend$setToolbarHidden:
++ _objc_msgSend$setToolbarItems:animated:
++ _objc_msgSend$setTrailingItemGroups:
++ _objc_msgSend$setTransform:
++ _objc_msgSend$setTranslatesAutoresizingMaskIntoConstraints:
++ _objc_msgSend$setTranslucent:
++ _objc_msgSend$setURL:
++ _objc_msgSend$setUserInteractionEnabled:
++ _objc_msgSend$setUserInterfaceStyle:
++ _objc_msgSend$setViewControllers:
++ _objc_msgSend$setWidthFollowsPreferredContentSizeWhenEdgeAttached:
++ _objc_msgSend$sharedAccount
++ _objc_msgSend$sharedApplication
++ _objc_msgSend$sharedCommandCenter
++ _objc_msgSend$sharedConnection
++ _objc_msgSend$sharedSession
++ _objc_msgSend$sheetPresentationController
++ _objc_msgSend$shouldDismissLandingPagePostPurchase
++ _objc_msgSend$shouldPresentPersonalizedAdsOnboarding
++ _objc_msgSend$showViewController:sender:
++ _objc_msgSend$size
++ _objc_msgSend$sizeThatFits:
++ _objc_msgSend$sizeToFit
++ _objc_msgSend$sourceChannel
++ _objc_msgSend$sourceName
++ _objc_msgSend$splitViewController
++ _objc_msgSend$standardAppearance
++ _objc_msgSend$startAnimating
++ _objc_msgSend$state
++ _objc_msgSend$statelessPersonalizationConfiguration
++ _objc_msgSend$stocksAccessibilityAdjustedDarkerForIncreaseContrast
++ _objc_msgSend$stocksAccessibilityAdjustedForIncreaseContrast
++ _objc_msgSend$stocksAccessibilityAdjustedForIncreaseContrastAdjustingDarker:
++ _objc_msgSend$stocksAccessibilityAdjustedForIncreaseContrastAgainstWithBackgroundColor:
++ _objc_msgSend$stocksAccessibilityAdjustedLighterForIncreaseContrast
++ _objc_msgSend$stopAnimating
++ _objc_msgSend$stopAnimation:
++ _objc_msgSend$storyType
++ _objc_msgSend$stringForKey:
++ _objc_msgSend$stringForObjectValue:
++ _objc_msgSend$stringFromByteCount:countStyle:
++ _objc_msgSend$stringFromDate:
++ _objc_msgSend$stringFromNumber:
++ _objc_msgSend$styleTitleText:styleType:boundingSize:
++ _objc_msgSend$su_containsExcessiveLineHeightCharacter
++ _objc_msgSend$su_localizedYearFormat
++ _objc_msgSend$su_performBlockAfterCATransactionCommits:
++ _objc_msgSend$su_performScrollTestWithLength:completion:
++ _objc_msgSend$su_setAccessibilityActivateBlock:
++ _objc_msgSend$su_setAccessibilityAdditionalTraitsBlock:
++ _objc_msgSend$subscribedChannelCtr
++ _objc_msgSend$subscriptionButtonConfig
++ _objc_msgSend$superview
++ _objc_msgSend$supportsMultipleScenes
++ _objc_msgSend$systemBackgroundColor
++ _objc_msgSend$systemBlueColor
++ _objc_msgSend$systemFontOfSize:
++ _objc_msgSend$systemFontOfSize:weight:
++ _objc_msgSend$systemFontSize
++ _objc_msgSend$systemGrayColor
++ _objc_msgSend$systemGroupedBackgroundColor
++ _objc_msgSend$systemImageNamed:
++ _objc_msgSend$systemImageNamed:withConfiguration:
++ _objc_msgSend$systemLayoutSizeFittingSize:
++ _objc_msgSend$systemOrangeColor
++ _objc_msgSend$systemPinkColor
++ _objc_msgSend$systemRedColor
++ _objc_msgSend$systemWhiteColor
++ _objc_msgSend$tableView
++ _objc_msgSend$tagType
++ _objc_msgSend$technology
++ _objc_msgSend$tertiaryLabelColor
++ _objc_msgSend$tertiarySystemFillColor
++ _objc_msgSend$text
++ _objc_msgSend$textContainer
++ _objc_msgSend$textFields
++ _objc_msgSend$textLabel
++ _objc_msgSend$thumbnailFocalFrame
++ _objc_msgSend$timeInterval
++ _objc_msgSend$tintColor
++ _objc_msgSend$title
++ _objc_msgSend$titleLabel
++ _objc_msgSend$toolbar
++ _objc_msgSend$topAnchor
++ _objc_msgSend$topViewController
++ _objc_msgSend$trailingAnchor
++ _objc_msgSend$trailingItemGroups
++ _objc_msgSend$trainingConfiguration
++ _objc_msgSend$traitCollection
++ _objc_msgSend$traitCollectionWithAccessibilityContrast:
++ _objc_msgSend$traitCollectionWithPreferredContentSizeCategory:
++ _objc_msgSend$traitCollectionWithTraits:
++ _objc_msgSend$traitCollectionWithTraitsFromCollections:
++ _objc_msgSend$traitCollectionWithUserInterfaceStyle:
++ _objc_msgSend$ts_barButtonItemView
++ _objc_msgSend$ts_checkmark
++ _objc_msgSend$ts_chevronRight
++ _objc_msgSend$ts_dynamicColor:withDarkStyleVariant:
++ _objc_msgSend$ts_isScrolling
++ _objc_msgSend$ts_link
++ _objc_msgSend$ts_minusCircleFill
++ _objc_msgSend$ts_parentVC
++ _objc_msgSend$ts_plusCircleFill
++ _objc_msgSend$ts_preferredStyleForStyle:
++ _objc_msgSend$ts_scrollToTop:
++ _objc_msgSend$ts_setTitleOpacity:
++ _objc_msgSend$ts_setWantsUnderlineForAccessibilityButtonShapesEnabled:
++ _objc_msgSend$ts_systemDarkTealColor
++ _objc_msgSend$ts_tableCellDefaultSelectionTintColor
++ _objc_msgSend$ts_transitionContainerViewController
++ _objc_msgSend$ts_visibleBoundsInvalidationContext
++ _objc_msgSend$type
++ _objc_msgSend$unsignedIntegerValue
++ _objc_msgSend$userFeedbackScore
++ _objc_msgSend$userInfo
++ _objc_msgSend$userInterfaceIdiom
++ _objc_msgSend$userInterfaceLayoutDirectionForSemanticContentAttribute:
++ _objc_msgSend$userInterfaceStyle
++ _objc_msgSend$userStoreFrontID
++ _objc_msgSend$validatedCachedSubscription
++ _objc_msgSend$value
++ _objc_msgSend$vendorAdHocOfferIds
++ _objc_msgSend$verticalSizeClass
++ _objc_msgSend$videoURL
++ _objc_msgSend$view
++ _objc_msgSend$viewControllers
++ _objc_msgSend$visibleCells
++ _objc_msgSend$visibleSize
++ _objc_msgSend$webpageURL
++ _objc_msgSend$whiteColor
++ _objc_msgSend$widthAnchor
++ _objc_msgSend$willMoveToParentViewController:
++ _objc_msgSend$window
++ _objc_msgSend$windows
++ _objectdestroy.40Tm
++ _objectdestroy.50Tm
++ _objectdestroy.9Tm
++ _symbolic _____ 8StocksUI16ForYouFeedConfigV10CodingKeys33_4D28A169E0069030F5B94143A4152041LLO
++ _symbolic _____y_____G 8NewsFeed0B28GroupConfigPlacementResolverV 8StocksUI05StockbcD0O
++ _symbolic _____y_____G 8NewsFeed0B28GroupConfigPlacementResolverV 8StocksUI06ForYoubcD0O
+- GCC_except_table14
+- GCC_except_table21
+- _SUViewContainsViewOfClass
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCPersonalizedGrouping
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCPersonalizedGrouping
+- __OBJC_LABEL_PROTOCOL_$_FCPersonalizedGrouping
+- __OBJC_PROTOCOL_$_FCPersonalizedGrouping
+- ___SUViewContainsViewOfClass_block_invoke
+- ___block_descriptor_40_e16_B16?0"UIView"8lu32l8
+- ___block_literal_global.14
+- ___block_literal_global.21
+- _associated conformance 8StocksUI16ForYouFeedConfigV4KeysOSHAASQ
+- _associated conformance 8StocksUI16ForYouFeedConfigV4KeysOs9CodingKeyAAs23CustomStringConvertible
+- _associated conformance 8StocksUI16ForYouFeedConfigV4KeysOs9CodingKeyAAs28CustomDebugStringConvertible
+- _block_copy_helper.105
+- _block_copy_helper.11
+- _block_copy_helper.114
+- _block_copy_helper.118
+- _block_copy_helper.123
+- _block_copy_helper.15
+- _block_copy_helper.26
+- _block_copy_helper.29
+- _block_copy_helper.34
+- _block_copy_helper.36
+- _block_copy_helper.43
+- _block_copy_helper.5
+- _block_copy_helper.50
+- _block_copy_helper.57
+- _block_copy_helper.60
+- _block_copy_helper.64
+- _block_copy_helper.66
+- _block_copy_helper.71
+- _block_copy_helper.8
+- _block_copy_helper.94
+- _block_descriptor.10
+- _block_descriptor.107
+- _block_descriptor.116
+- _block_descriptor.120
+- _block_descriptor.125
+- _block_descriptor.13
+- _block_descriptor.17
+- _block_descriptor.28
+- _block_descriptor.31
+- _block_descriptor.36
+- _block_descriptor.38
+- _block_descriptor.45
+- _block_descriptor.52
+- _block_descriptor.59
+- _block_descriptor.62
+- _block_descriptor.66
+- _block_descriptor.68
+- _block_descriptor.7
+- _block_descriptor.73
+- _block_descriptor.96
+- _block_destroy_helper.106
+- _block_destroy_helper.115
+- _block_destroy_helper.119
+- _block_destroy_helper.12
+- _block_destroy_helper.124
+- _block_destroy_helper.16
+- _block_destroy_helper.27
+- _block_destroy_helper.30
+- _block_destroy_helper.35
+- _block_destroy_helper.37
+- _block_destroy_helper.44
+- _block_destroy_helper.51
+- _block_destroy_helper.58
+- _block_destroy_helper.6
+- _block_destroy_helper.61
+- _block_destroy_helper.65
+- _block_destroy_helper.67
+- _block_destroy_helper.72
+- _block_destroy_helper.9
+- _block_destroy_helper.95
+- _malloc
+- _objc_claimAutoreleasedReturnValue
+- _objc_storeStrong
+- _objectdestroy.20Tm
+- _objectdestroy.39Tm
+- _objectdestroy.45Tm
+- _symbolic Say_____G 8StocksUI20StockFeedGroupConfigO
+- _symbolic _____ 8StocksUI16ForYouFeedConfigV4KeysO
+CStrings:
++ "/Library/Caches/com.apple.xbs/B4B6720D-13F1-45B4-8E75-D5D8AB5E95C4/TemporaryDirectory.CJwPK9/Sources/Stocks/StocksUI/Ads/AdAnalyticsJournalEntryProcessor.swift"
++ "/Library/Caches/com.apple.xbs/B4B6720D-13F1-45B4-8E75-D5D8AB5E95C4/TemporaryDirectory.CJwPK9/Sources/Stocks/StocksUI/Analytics/AudioSessionManager.swift"
++ "/Library/Caches/com.apple.xbs/B4B6720D-13F1-45B4-8E75-D5D8AB5E95C4/TemporaryDirectory.CJwPK9/Sources/Stocks/StocksUI/Analytics/CampaignLandingPageTracker.swift"
++ "/Library/Caches/com.apple.xbs/B4B6720D-13F1-45B4-8E75-D5D8AB5E95C4/TemporaryDirectory.CJwPK9/Sources/Stocks/StocksUI/Commands/Handlers/ChangeWatchlistDisplayCommandHandler.swift"
++ "/Library/Caches/com.apple.xbs/B4B6720D-13F1-45B4-8E75-D5D8AB5E95C4/TemporaryDirectory.CJwPK9/Sources/Stocks/StocksUI/Commands/Handlers/WatchlistMembershipCommandHandler.swift"
++ "/Library/Caches/com.apple.xbs/B4B6720D-13F1-45B4-8E75-D5D8AB5E95C4/TemporaryDirectory.CJwPK9/Sources/Stocks/StocksUI/Coordinators/Article/ArticleCoordinator.swift"
++ "/Library/Caches/com.apple.xbs/B4B6720D-13F1-45B4-8E75-D5D8AB5E95C4/TemporaryDirectory.CJwPK9/Sources/Stocks/StocksUI/Coordinators/EndOfArticle/EndOfArticleCoordinator.swift"
++ "/Library/Caches/com.apple.xbs/B4B6720D-13F1-45B4-8E75-D5D8AB5E95C4/TemporaryDirectory.CJwPK9/Sources/Stocks/StocksUI/Extensions/AccessTracker+StocksUI.swift"
++ "/Library/Caches/com.apple.xbs/B4B6720D-13F1-45B4-8E75-D5D8AB5E95C4/TemporaryDirectory.CJwPK9/Sources/Stocks/StocksUI/Factories/TipTracker.swift"
++ "/Library/Caches/com.apple.xbs/B4B6720D-13F1-45B4-8E75-D5D8AB5E95C4/TemporaryDirectory.CJwPK9/Sources/Stocks/StocksUI/Modules/ForYouFeed/ForYouFeedInteractor.swift"
++ "/Library/Caches/com.apple.xbs/B4B6720D-13F1-45B4-8E75-D5D8AB5E95C4/TemporaryDirectory.CJwPK9/Sources/Stocks/StocksUI/Modules/ForYouFeed/ForYouFeedModule.swift"
++ "/Library/Caches/com.apple.xbs/B4B6720D-13F1-45B4-8E75-D5D8AB5E95C4/TemporaryDirectory.CJwPK9/Sources/Stocks/StocksUI/Modules/ForYouFeed/ForYouFeedTracker.swift"
++ "/Library/Caches/com.apple.xbs/B4B6720D-13F1-45B4-8E75-D5D8AB5E95C4/TemporaryDirectory.CJwPK9/Sources/Stocks/StocksUI/Modules/Onboarding/OnboardingTracker.swift"
++ "/Library/Caches/com.apple.xbs/B4B6720D-13F1-45B4-8E75-D5D8AB5E95C4/TemporaryDirectory.CJwPK9/Sources/Stocks/StocksUI/Modules/StockChart/StockChartInteractor.swift"
++ "/Library/Caches/com.apple.xbs/B4B6720D-13F1-45B4-8E75-D5D8AB5E95C4/TemporaryDirectory.CJwPK9/Sources/Stocks/StocksUI/Modules/StockFeed/StockFeedInteractor.swift"
++ "/Library/Caches/com.apple.xbs/B4B6720D-13F1-45B4-8E75-D5D8AB5E95C4/TemporaryDirectory.CJwPK9/Sources/Stocks/StocksUI/Modules/StockFeed/StockFeedModule.swift"
++ "/Library/Caches/com.apple.xbs/B4B6720D-13F1-45B4-8E75-D5D8AB5E95C4/TemporaryDirectory.CJwPK9/Sources/Stocks/StocksUI/Modules/StockFeed/StockFeedTracker.swift"
++ "/Library/Caches/com.apple.xbs/B4B6720D-13F1-45B4-8E75-D5D8AB5E95C4/TemporaryDirectory.CJwPK9/Sources/Stocks/StocksUI/Modules/StockList/StockListInteractor.swift"
++ "/Library/Caches/com.apple.xbs/B4B6720D-13F1-45B4-8E75-D5D8AB5E95C4/TemporaryDirectory.CJwPK9/Sources/Stocks/StocksUI/Modules/StockList/StockListModule.swift"
++ "/Library/Caches/com.apple.xbs/B4B6720D-13F1-45B4-8E75-D5D8AB5E95C4/TemporaryDirectory.CJwPK9/Sources/Stocks/StocksUI/Modules/StockSearch/StockSearchInteractor.swift"
++ "/Library/Caches/com.apple.xbs/B4B6720D-13F1-45B4-8E75-D5D8AB5E95C4/TemporaryDirectory.CJwPK9/Sources/Stocks/StocksUI/Modules/Welcome/WelcomeTracker.swift"
++ "/Library/Caches/com.apple.xbs/B4B6720D-13F1-45B4-8E75-D5D8AB5E95C4/TemporaryDirectory.CJwPK9/Sources/Stocks/StocksUI/Observers/CommandObserver+Saving.swift"
++ "/Library/Caches/com.apple.xbs/B4B6720D-13F1-45B4-8E75-D5D8AB5E95C4/TemporaryDirectory.CJwPK9/Sources/Stocks/StocksUI/Observers/CommandObserver+SharingComplete.swift"
++ "/Library/Caches/com.apple.xbs/B4B6720D-13F1-45B4-8E75-D5D8AB5E95C4/TemporaryDirectory.CJwPK9/Sources/Stocks/StocksUI/Observers/CommandObserver+StocksSharingComplete.swift"
++ "/Library/Caches/com.apple.xbs/B4B6720D-13F1-45B4-8E75-D5D8AB5E95C4/TemporaryDirectory.CJwPK9/Sources/Stocks/StocksUI/Routers/CampaignLandingPageRouter.swift"
++ "/Library/Caches/com.apple.xbs/B4B6720D-13F1-45B4-8E75-D5D8AB5E95C4/TemporaryDirectory.CJwPK9/Sources/Stocks/StocksUI/Routers/Router+Subscription.swift"
++ "/Library/Caches/com.apple.xbs/B4B6720D-13F1-45B4-8E75-D5D8AB5E95C4/TemporaryDirectory.CJwPK9/Sources/Stocks/StocksUI/Subscription/PurchaseTransactionTracker.swift"
++ "/Library/Caches/com.apple.xbs/B4B6720D-13F1-45B4-8E75-D5D8AB5E95C4/TemporaryDirectory.CJwPK9/Sources/Stocks/StocksUI/Trackers/BannerAdTracker.swift"
++ "/Library/Caches/com.apple.xbs/B4B6720D-13F1-45B4-8E75-D5D8AB5E95C4/TemporaryDirectory.CJwPK9/Sources/Stocks/StocksUI/Trackers/InterstitialAdTracker.swift"
++ "/Library/Caches/com.apple.xbs/B4B6720D-13F1-45B4-8E75-D5D8AB5E95C4/TemporaryDirectory.CJwPK9/Sources/Stocks/StocksUI/Trackers/PaywallTracker.swift"
++ "/Library/Caches/com.apple.xbs/B4B6720D-13F1-45B4-8E75-D5D8AB5E95C4/TemporaryDirectory.CJwPK9/Sources/Stocks/StocksUI/Trackers/VideoAdTracker.swift"
++ "/Library/Caches/com.apple.xbs/B4B6720D-13F1-45B4-8E75-D5D8AB5E95C4/TemporaryDirectory.CJwPK9/Sources/Stocks/StocksUI/WebViewer/WebViewCoordinator.swift"
++ "@\"<FCBundleCampaignManagerType>\"16@0:8"
++ "@\"FCExperimentalPaywallConfiguration\"16@0:8"
++ "@\"NSSet\"16@0:8"
++ "B40@0:8@\"NSString\"16B24B28@\"<FCChannelProviding>\"32"
++ "B40@0:8@16B24B28@32"
++ "T@\"<FCBundleCampaignManagerType>\",R,N"
++ "T@\"<FCSportsEventProviding>\",R,C,N"
++ "T@\"FCExperimentalPaywallConfiguration\",R,N"
++ "T@\"NSSet\",R,N"
++ "bundleCampaignManager"
++ "bundleURL"
++ "canGetAccessToItemWithIdentifier:paid:bundlePaid:channel:"
++ "experimentalPaywallConfig"
++ "feedNavDarkModeImageAssetHandle"
++ "feedNavDarkModeImageHQAssetHandle"
++ "hasAccessToHeadline:"
++ "hasAccessToTag:"
++ "hasAccessToTagIdentifier:"
++ "isLocalHub"
++ "liveCoverageCompleted"
++ "liveCoverageModifiedDate"
++ "loading text"
++ "notificationOpenedArticleIDs"
++ "previousScrollPocket"
++ "recordNotificationOpenedWithArticleID:"
++ "sportsEvent"
+- "/Library/Caches/com.apple.xbs/Sources/Stocks/StocksUI/Ads/AdAnalyticsJournalEntryProcessor.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Stocks/StocksUI/Analytics/AudioSessionManager.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Stocks/StocksUI/Analytics/CampaignLandingPageTracker.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Stocks/StocksUI/Commands/Handlers/ChangeWatchlistDisplayCommandHandler.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Stocks/StocksUI/Commands/Handlers/WatchlistMembershipCommandHandler.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Stocks/StocksUI/Coordinators/Article/ArticleCoordinator.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Stocks/StocksUI/Coordinators/EndOfArticle/EndOfArticleCoordinator.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Stocks/StocksUI/Extensions/AccessTracker+StocksUI.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Stocks/StocksUI/Factories/TipTracker.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Stocks/StocksUI/Modules/ForYouFeed/ForYouFeedInteractor.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Stocks/StocksUI/Modules/ForYouFeed/ForYouFeedModule.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Stocks/StocksUI/Modules/ForYouFeed/ForYouFeedTracker.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Stocks/StocksUI/Modules/Onboarding/OnboardingTracker.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Stocks/StocksUI/Modules/StockChart/StockChartInteractor.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Stocks/StocksUI/Modules/StockFeed/StockFeedInteractor.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Stocks/StocksUI/Modules/StockFeed/StockFeedModule.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Stocks/StocksUI/Modules/StockFeed/StockFeedTracker.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Stocks/StocksUI/Modules/StockList/StockListInteractor.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Stocks/StocksUI/Modules/StockList/StockListModule.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Stocks/StocksUI/Modules/StockSearch/StockSearchInteractor.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Stocks/StocksUI/Modules/Welcome/WelcomeTracker.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Stocks/StocksUI/Observers/CommandObserver+Saving.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Stocks/StocksUI/Observers/CommandObserver+SharingComplete.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Stocks/StocksUI/Observers/CommandObserver+StocksSharingComplete.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Stocks/StocksUI/Routers/CampaignLandingPageRouter.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Stocks/StocksUI/Routers/Router+Subscription.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Stocks/StocksUI/Subscription/PurchaseTransactionTracker.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Stocks/StocksUI/Trackers/BannerAdTracker.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Stocks/StocksUI/Trackers/InterstitialAdTracker.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Stocks/StocksUI/Trackers/PaywallTracker.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Stocks/StocksUI/Trackers/VideoAdTracker.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Stocks/StocksUI/WebViewer/WebViewCoordinator.swift"
+- "@\"NSArray\"40@0:8@\"NSArray\"16q24^@32"
+- "@\"NSArray\"48@0:8@\"NSArray\"16@\"FCMapTable\"24q32^@40"
+- "@40@0:8@16q24^@32"
+- "@48@0:8@16@24q32^@40"
+- "B16@?0@\"UIView\"8"
+- "B32@0:8B16B20@\"<FCChannelProviding>\"24"
+- "B32@0:8B16B20@24"
+- "FCPersonalizedGrouping"
+- "`"
+- "bestOfGroupFromFeedItems:scoreProfiles:configurationSet:error:"
+- "bestOfGroupFromHeadlines:configurationSet:error:"
+- "canGetAccessToItemPaid:bundlePaid:channel:"
+- "groups"
+- "inserted memberAfterInsert "
+
+```

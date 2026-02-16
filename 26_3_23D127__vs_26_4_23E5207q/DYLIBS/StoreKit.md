@@ -1,0 +1,1175 @@
+## StoreKit
+
+> `/System/Library/Frameworks/StoreKit.framework/StoreKit`
+
+```diff
+
+-815.3.3.0.0
+-  __TEXT.__text: 0x1a54b8
+-  __TEXT.__auth_stubs: 0x3190
+-  __TEXT.__objc_methlist: 0x5c64
+-  __TEXT.__gcc_except_tab: 0x1084
+-  __TEXT.__const: 0x13df4
+-  __TEXT.__oslogstring: 0x3190
+-  __TEXT.__cstring: 0x8797
++815.4.13.0.0
++  __TEXT.__text: 0x1c6584
++  __TEXT.__auth_stubs: 0x31a0
++  __TEXT.__objc_methlist: 0x5bfc
++  __TEXT.__gcc_except_tab: 0x1028
++  __TEXT.__const: 0x16964
++  __TEXT.__cstring: 0x7ba1
++  __TEXT.__oslogstring: 0x3140
+   __TEXT.__dlopen_cstrs: 0x498
+-  __TEXT.__constg_swiftt: 0x3ad0
+-  __TEXT.__swift5_typeref: 0x4fe4
+-  __TEXT.__swift5_builtin: 0x154
+-  __TEXT.__swift5_reflstr: 0x2e74
+-  __TEXT.__swift5_fieldmd: 0x4690
+-  __TEXT.__swift5_assocty: 0xa78
+-  __TEXT.__swift5_proto: 0x10d8
+-  __TEXT.__swift5_types: 0x5a0
+-  __TEXT.__swift5_capture: 0x1a54
+-  __TEXT.__swift_as_entry: 0x554
+-  __TEXT.__swift_as_ret: 0x554
++  __TEXT.__constg_swiftt: 0x41cc
++  __TEXT.__swift5_typeref: 0x5708
++  __TEXT.__swift5_builtin: 0x168
++  __TEXT.__swift5_reflstr: 0x36f4
++  __TEXT.__swift5_fieldmd: 0x51a4
++  __TEXT.__swift5_assocty: 0xad8
++  __TEXT.__swift5_proto: 0x1404
++  __TEXT.__swift5_types: 0x670
++  __TEXT.__swift5_capture: 0x1924
++  __TEXT.__swift_as_entry: 0x588
++  __TEXT.__swift_as_ret: 0x594
+   __TEXT.__swift5_mpenum: 0x38
+   __TEXT.__swift5_protos: 0x2c
+-  __TEXT.__unwind_info: 0x7ba8
+-  __TEXT.__eh_frame: 0xd928
+-  __TEXT.__objc_classname: 0x1376
+-  __TEXT.__objc_methname: 0xcd90
+-  __TEXT.__objc_methtype: 0x2f71
+-  __TEXT.__objc_stubs: 0x7e20
+-  __DATA_CONST.__got: 0xbb0
+-  __DATA_CONST.__const: 0x18a0
+-  __DATA_CONST.__objc_classlist: 0x408
++  __TEXT.__unwind_info: 0x8798
++  __TEXT.__eh_frame: 0xf174
++  __TEXT.__objc_classname: 0x1a57
++  __TEXT.__objc_methname: 0xd407
++  __TEXT.__objc_methtype: 0x33f4
++  __TEXT.__objc_stubs: 0x9240
++  __DATA_CONST.__got: 0xb88
++  __DATA_CONST.__const: 0x1878
++  __DATA_CONST.__objc_classlist: 0x3f0
+   __DATA_CONST.__objc_catlist: 0x20
+-  __DATA_CONST.__objc_protolist: 0x360
++  __DATA_CONST.__objc_protolist: 0x380
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x30e0
+-  __DATA_CONST.__objc_protorefs: 0x1b0
+-  __DATA_CONST.__objc_superrefs: 0x1f8
++  __DATA_CONST.__objc_protorefs: 0x1c0
++  __DATA_CONST.__objc_superrefs: 0x1e0
+   __DATA_CONST.__objc_arraydata: 0x60
+-  __AUTH_CONST.__auth_got: 0x18d8
+-  __AUTH_CONST.__const: 0xfbf0
+-  __AUTH_CONST.__cfstring: 0x3740
+-  __AUTH_CONST.__objc_const: 0x16548
++  __AUTH_CONST.__auth_got: 0x18e0
++  __AUTH_CONST.__const: 0x116c0
++  __AUTH_CONST.__cfstring: 0x3720
++  __AUTH_CONST.__objc_const: 0x16380
+   __AUTH_CONST.__objc_intobj: 0xf0
+   __AUTH_CONST.__objc_dictobj: 0x28
+-  __AUTH.__objc_data: 0x27c8
+-  __AUTH.__data: 0x2ad8
+-  __DATA.__objc_ivar: 0x5a8
+-  __DATA.__data: 0x6648
+-  __DATA.__bss: 0x1ffb0
++  __AUTH.__objc_data: 0x26d8
++  __AUTH.__data: 0x2f18
++  __DATA.__objc_ivar: 0x59c
++  __DATA.__data: 0x6d30
++  __DATA.__bss: 0x25630
+   __DATA.__common: 0xc0
+   __DATA_DIRTY.__objc_data: 0x370
+-  __DATA_DIRTY.__data: 0x220
+-  __DATA_DIRTY.__bss: 0xb8
+-  __DATA_DIRTY.__common: 0x18
++  __DATA_DIRTY.__data: 0x598
++  __DATA_DIRTY.__bss: 0x5b8
++  __DATA_DIRTY.__common: 0x20
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/BackgroundAssets.framework/BackgroundAssets
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 885E600A-4F11-34DB-B650-90B649A1E67F
+-  Functions: 12606
+-  Symbols:   16418
+-  CStrings:  4459
++  UUID: 10F9B8FF-273A-39DF-9EA0-E2BEC1DBB11C
++  Functions: 14147
++  Symbols:   18879
++  CStrings:  4470
+ 
+Symbols:
++ +[SKStoreReviewController(StoreKitDaemon) _displayReviewInScene:reviewToken:]
++ -[SKPaymentQueue(Package) checkServerQueueForced:]
++ GCC_except_table49
++ GCC_except_table65
++ GCC_except_table77
++ GCC_except_table88
++ GCC_except_table90
++ _OUTLINED_FUNCTION_516
++ _OUTLINED_FUNCTION_517
++ _OUTLINED_FUNCTION_518
++ _OUTLINED_FUNCTION_519
++ _OUTLINED_FUNCTION_520
++ _OUTLINED_FUNCTION_521
++ _OUTLINED_FUNCTION_522
++ _OUTLINED_FUNCTION_523
++ _OUTLINED_FUNCTION_524
++ _OUTLINED_FUNCTION_525
++ _OUTLINED_FUNCTION_526
++ _OUTLINED_FUNCTION_527
++ _OUTLINED_FUNCTION_528
++ _OUTLINED_FUNCTION_529
++ _OUTLINED_FUNCTION_530
++ _OUTLINED_FUNCTION_531
++ _OUTLINED_FUNCTION_532
++ _OUTLINED_FUNCTION_533
++ _OUTLINED_FUNCTION_534
++ _OUTLINED_FUNCTION_535
++ _OUTLINED_FUNCTION_536
++ _OUTLINED_FUNCTION_537
++ _OUTLINED_FUNCTION_538
++ _OUTLINED_FUNCTION_539
++ _OUTLINED_FUNCTION_540
++ _OUTLINED_FUNCTION_541
++ _OUTLINED_FUNCTION_542
++ _OUTLINED_FUNCTION_543
++ _OUTLINED_FUNCTION_544
++ _OUTLINED_FUNCTION_545
++ _OUTLINED_FUNCTION_546
++ _OUTLINED_FUNCTION_547
++ _OUTLINED_FUNCTION_548
++ _OUTLINED_FUNCTION_549
++ _OUTLINED_FUNCTION_550
++ _OUTLINED_FUNCTION_551
++ _OUTLINED_FUNCTION_552
++ _OUTLINED_FUNCTION_553
++ _OUTLINED_FUNCTION_554
++ _OUTLINED_FUNCTION_555
++ _OUTLINED_FUNCTION_556
++ _OUTLINED_FUNCTION_557
++ _OUTLINED_FUNCTION_558
++ _OUTLINED_FUNCTION_559
++ _OUTLINED_FUNCTION_560
++ _OUTLINED_FUNCTION_561
++ _OUTLINED_FUNCTION_562
++ _OUTLINED_FUNCTION_563
++ _OUTLINED_FUNCTION_564
++ _OUTLINED_FUNCTION_565
++ _OUTLINED_FUNCTION_566
++ _OUTLINED_FUNCTION_567
++ _OUTLINED_FUNCTION_568
++ _OUTLINED_FUNCTION_569
++ _OUTLINED_FUNCTION_570
++ _OUTLINED_FUNCTION_571
++ _OUTLINED_FUNCTION_572
++ _OUTLINED_FUNCTION_573
++ _OUTLINED_FUNCTION_574
++ _OUTLINED_FUNCTION_575
++ _OUTLINED_FUNCTION_576
++ _OUTLINED_FUNCTION_577
++ _OUTLINED_FUNCTION_578
++ _OUTLINED_FUNCTION_579
++ _OUTLINED_FUNCTION_580
++ _OUTLINED_FUNCTION_581
++ _OUTLINED_FUNCTION_582
++ _OUTLINED_FUNCTION_583
++ _OUTLINED_FUNCTION_584
++ _OUTLINED_FUNCTION_585
++ _OUTLINED_FUNCTION_586
++ _OUTLINED_FUNCTION_587
++ _OUTLINED_FUNCTION_588
++ _OUTLINED_FUNCTION_589
++ _OUTLINED_FUNCTION_590
++ _OUTLINED_FUNCTION_591
++ _OUTLINED_FUNCTION_592
++ _OUTLINED_FUNCTION_593
++ _OUTLINED_FUNCTION_594
++ _OUTLINED_FUNCTION_595
++ _OUTLINED_FUNCTION_596
++ _OUTLINED_FUNCTION_597
++ _OUTLINED_FUNCTION_598
++ _OUTLINED_FUNCTION_599
++ _OUTLINED_FUNCTION_600
++ _OUTLINED_FUNCTION_601
++ _OUTLINED_FUNCTION_602
++ _OUTLINED_FUNCTION_603
++ _OUTLINED_FUNCTION_604
++ _OUTLINED_FUNCTION_605
++ _OUTLINED_FUNCTION_606
++ _OUTLINED_FUNCTION_607
++ _OUTLINED_FUNCTION_608
++ _OUTLINED_FUNCTION_609
++ _OUTLINED_FUNCTION_610
++ _OUTLINED_FUNCTION_611
++ _OUTLINED_FUNCTION_612
++ _OUTLINED_FUNCTION_613
++ _OUTLINED_FUNCTION_614
++ _OUTLINED_FUNCTION_615
++ _OUTLINED_FUNCTION_616
++ _OUTLINED_FUNCTION_617
++ _OUTLINED_FUNCTION_618
++ _OUTLINED_FUNCTION_619
++ _OUTLINED_FUNCTION_620
++ _OUTLINED_FUNCTION_621
++ _OUTLINED_FUNCTION_622
++ _OUTLINED_FUNCTION_623
++ _OUTLINED_FUNCTION_624
++ _OUTLINED_FUNCTION_625
++ _OUTLINED_FUNCTION_626
++ _OUTLINED_FUNCTION_627
++ _OUTLINED_FUNCTION_628
++ _OUTLINED_FUNCTION_629
++ _OUTLINED_FUNCTION_630
++ _OUTLINED_FUNCTION_631
++ _OUTLINED_FUNCTION_632
++ _OUTLINED_FUNCTION_633
++ _OUTLINED_FUNCTION_634
++ _OUTLINED_FUNCTION_635
++ _OUTLINED_FUNCTION_636
++ _OUTLINED_FUNCTION_637
++ _OUTLINED_FUNCTION_638
++ _OUTLINED_FUNCTION_639
++ _OUTLINED_FUNCTION_640
++ _OUTLINED_FUNCTION_641
++ _OUTLINED_FUNCTION_642
++ _SKInfoPlistKeyIncludeFinishedConsumables
++ _SKPaymentOptionBillingPlanType
++ __MergedGlobals
++ __OBJC_$_CLASS_METHODS_SKStoreReviewController(StoreKitDaemon|StoreKitDaemon)
++ __OBJC_$_INSTANCE_METHODS_SKStoreReviewViewController(StoreKitDaemon)
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OctaneServiceProtocol
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_ReviewService
++ __OBJC_$_PROTOCOL_METHOD_TYPES_OctaneServiceProtocol
++ __OBJC_$_PROTOCOL_METHOD_TYPES_ReviewService
++ __OBJC_LABEL_PROTOCOL_$_OctaneServiceProtocol
++ __OBJC_LABEL_PROTOCOL_$_ReviewService
++ __OBJC_PROTOCOL_$_OctaneServiceProtocol
++ __OBJC_PROTOCOL_$_ReviewService
++ ___29-[SKPaymentQueue addPayment:]_block_invoke.30
++ ___29-[SKPaymentQueue addPayment:]_block_invoke.30.cold.1
++ ___36-[SKPaymentQueue finishTransaction:]_block_invoke.43
++ ___48-[SKPaymentQueue _updatedTransactions:restored:]_block_invoke.96
++ ___50-[SKPaymentQueue(Package) checkServerQueueForced:]_block_invoke
++ ___50-[SKPaymentQueue(Package) checkServerQueueForced:]_block_invoke_2
++ ___50-[SKPaymentQueue(Package) checkServerQueueForced:]_block_invoke_2.cold.1
++ ___59-[SKClientBroker _handleUnfinishedTransactionsNotification]_block_invoke.32
++ ___59-[SKClientBroker _handleUnfinishedTransactionsNotification]_block_invoke.32.cold.1
++ ___70-[SKPaymentQueue restoreCompletedTransactionsWithApplicationUsername:]_block_invoke.47
++ ___70-[SKPaymentQueue restoreCompletedTransactionsWithApplicationUsername:]_block_invoke.48
++ ___70-[SKPaymentQueue restoreCompletedTransactionsWithApplicationUsername:]_block_invoke_2.51
++ ___70-[SKPaymentQueue restoreCompletedTransactionsWithApplicationUsername:]_block_invoke_2.cold.1
++ ___swift_destroy_boxed_opaque_existential_0Tm
++ ___swift_memcpy128_8
++ ___swift_memcpy136_8
++ ___swift_memcpy352_8
++ _associated conformance 8StoreKit11TransactionV14CommitmentInfoV10CodingKeys33_6BEDEBCF179F94C59836924B3AA07FABLLOSHAASQ
++ _associated conformance 8StoreKit11TransactionV14CommitmentInfoV10CodingKeys33_6BEDEBCF179F94C59836924B3AA07FABLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 8StoreKit11TransactionV14CommitmentInfoV10CodingKeys33_6BEDEBCF179F94C59836924B3AA07FABLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit11TransactionV14CommitmentInfoVSHAASQ
++ _associated conformance 8StoreKit11TransactionV14RevocationTypeVSHAASQ
++ _associated conformance 8StoreKit13PolicyRequestV10CodingKeys33_FFF46EBE08DCEE88DD7CC14A8C5E5840LLOSHAASQ
++ _associated conformance 8StoreKit13PolicyRequestV10CodingKeys33_FFF46EBE08DCEE88DD7CC14A8C5E5840LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 8StoreKit13PolicyRequestV10CodingKeys33_FFF46EBE08DCEE88DD7CC14A8C5E5840LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit14PolicyResponseV10CodingKeys33_FFF46EBE08DCEE88DD7CC14A8C5E5840LLOSHAASQ
++ _associated conformance 8StoreKit14PolicyResponseV10CodingKeys33_FFF46EBE08DCEE88DD7CC14A8C5E5840LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 8StoreKit14PolicyResponseV10CodingKeys33_FFF46EBE08DCEE88DD7CC14A8C5E5840LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit14ProductRequestV16IncludedResourceO34PayOverTimeSubscriptionsCodingKeys33_7972D4E53618B15FAEB62D0E0A51C150LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 8StoreKit14ProductRequestV16IncludedResourceO34PayOverTimeSubscriptionsCodingKeys33_7972D4E53618B15FAEB62D0E0A51C150LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit14RenewalInfoJWSO3KeyOSHAASQ
++ _associated conformance 8StoreKit14RenewalInfoJWSO3KeyOs06CodingF0AAs23CustomStringConvertible
++ _associated conformance 8StoreKit14RenewalInfoJWSO3KeyOs06CodingF0AAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit14TransactionJWSO3KeyOSHAASQ
++ _associated conformance 8StoreKit14TransactionJWSO3KeyOs06CodingE0AAs23CustomStringConvertible
++ _associated conformance 8StoreKit14TransactionJWSO3KeyOs06CodingE0AAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit16CustomReceiptURLV10CodingKeys33_3CB87402F7A92691D2ED29C5FC908528LLOSHAASQ
++ _associated conformance 8StoreKit16CustomReceiptURLV10CodingKeys33_3CB87402F7A92691D2ED29C5FC908528LLOs0F3KeyAAs0C17StringConvertible
++ _associated conformance 8StoreKit16CustomReceiptURLV10CodingKeys33_3CB87402F7A92691D2ED29C5FC908528LLOs0F3KeyAAs0C22DebugStringConvertible
++ _associated conformance 8StoreKit16TransactionQueryV4KindO33DisqualifyingIntroOfferCodingKeys33_54432E3D6FB5540BFDF6EC5CDB170582LLOSHAASQ
++ _associated conformance 8StoreKit16TransactionQueryV4KindO33DisqualifyingIntroOfferCodingKeys33_54432E3D6FB5540BFDF6EC5CDB170582LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 8StoreKit16TransactionQueryV4KindO33DisqualifyingIntroOfferCodingKeys33_54432E3D6FB5540BFDF6EC5CDB170582LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit17AppTransactionJWSO3KeyOSHAASQ
++ _associated conformance 8StoreKit17AppTransactionJWSO3KeyOs06CodingF0AAs23CustomStringConvertible
++ _associated conformance 8StoreKit17AppTransactionJWSO3KeyOs06CodingF0AAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit18InAppReviewRequestV10CodingKeys33_85FD04D789765D1E1EDCCC7B00350654LLOSHAASQ
++ _associated conformance 8StoreKit18InAppReviewRequestV10CodingKeys33_85FD04D789765D1E1EDCCC7B00350654LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 8StoreKit18InAppReviewRequestV10CodingKeys33_85FD04D789765D1E1EDCCC7B00350654LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit18TransactionRequestO6DeleteV10CodingKeys33_AC9D9F300B667D4A52B2702DACDB6CCCLLOSHAASQ
++ _associated conformance 8StoreKit18TransactionRequestO6DeleteV10CodingKeys33_AC9D9F300B667D4A52B2702DACDB6CCCLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 8StoreKit18TransactionRequestO6DeleteV10CodingKeys33_AC9D9F300B667D4A52B2702DACDB6CCCLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit19AppTransactionQueryV10CodingKeys33_E20F9241F6478C3913B77C9D644A3940LLOSHAASQ
++ _associated conformance 8StoreKit19AppTransactionQueryV10CodingKeys33_E20F9241F6478C3913B77C9D644A3940LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 8StoreKit19AppTransactionQueryV10CodingKeys33_E20F9241F6478C3913B77C9D644A3940LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit19AppTransactionQueryV4KindO10CodingKeys33_E20F9241F6478C3913B77C9D644A3940LLOSHAASQ
++ _associated conformance 8StoreKit19AppTransactionQueryV4KindO10CodingKeys33_E20F9241F6478C3913B77C9D644A3940LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 8StoreKit19AppTransactionQueryV4KindO10CodingKeys33_E20F9241F6478C3913B77C9D644A3940LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit19AppTransactionQueryV4KindO13AllCodingKeys33_E20F9241F6478C3913B77C9D644A3940LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 8StoreKit19AppTransactionQueryV4KindO13AllCodingKeys33_E20F9241F6478C3913B77C9D644A3940LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit19AppTransactionQueryV4KindO14SyncCodingKeys33_E20F9241F6478C3913B77C9D644A3940LLOSHAASQ
++ _associated conformance 8StoreKit19AppTransactionQueryV4KindO14SyncCodingKeys33_E20F9241F6478C3913B77C9D644A3940LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 8StoreKit19AppTransactionQueryV4KindO14SyncCodingKeys33_E20F9241F6478C3913B77C9D644A3940LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit19AppTransactionQueryV4KindO18BundleIDCodingKeys33_E20F9241F6478C3913B77C9D644A3940LLOs9CodingKeyAAs23CustomStringConvertible
++ _associated conformance 8StoreKit19AppTransactionQueryV4KindO18BundleIDCodingKeys33_E20F9241F6478C3913B77C9D644A3940LLOs9CodingKeyAAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit19AppTransactionQueryV4KindO21AccountTypeCodingKeys33_E20F9241F6478C3913B77C9D644A3940LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 8StoreKit19AppTransactionQueryV4KindO21AccountTypeCodingKeys33_E20F9241F6478C3913B77C9D644A3940LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit19AppTransactionQueryV4KindO29AccountTypeBundleIDCodingKeys33_E20F9241F6478C3913B77C9D644A3940LLOs9CodingKeyAAs23CustomStringConvertible
++ _associated conformance 8StoreKit19AppTransactionQueryV4KindO29AccountTypeBundleIDCodingKeys33_E20F9241F6478C3913B77C9D644A3940LLOs9CodingKeyAAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit19InAppReviewResponseV10CodingKeys33_D077A3D4D78AADD1849BB180859159C1LLOSHAASQ
++ _associated conformance 8StoreKit19InAppReviewResponseV10CodingKeys33_D077A3D4D78AADD1849BB180859159C1LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 8StoreKit19InAppReviewResponseV10CodingKeys33_D077A3D4D78AADD1849BB180859159C1LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit21OctaneResourceRequestV10CodingKeys33_A819AAED11390AE96B916B63DAC01006LLOSHAASQ
++ _associated conformance 8StoreKit21OctaneResourceRequestV10CodingKeys33_A819AAED11390AE96B916B63DAC01006LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 8StoreKit21OctaneResourceRequestV10CodingKeys33_A819AAED11390AE96B916B63DAC01006LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit24InAppReviewUpdateRequestV10CodingKeys33_632867441911713843333D861D19C15ELLOSHAASQ
++ _associated conformance 8StoreKit24InAppReviewUpdateRequestV10CodingKeys33_632867441911713843333D861D19C15ELLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 8StoreKit24InAppReviewUpdateRequestV10CodingKeys33_632867441911713843333D861D19C15ELLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit25LegacyTransactionInternalV10CodingKeys33_7E6C348BCC05A1568AE8BE77D0211629LLOSHAASQ
++ _associated conformance 8StoreKit25LegacyTransactionInternalV10CodingKeys33_7E6C348BCC05A1568AE8BE77D0211629LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 8StoreKit25LegacyTransactionInternalV10CodingKeys33_7E6C348BCC05A1568AE8BE77D0211629LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit26OctaneCertificatesResponseV10CodingKeys33_CD16EFBFF8A1A1916139ACAFB758FA16LLOSHAASQ
++ _associated conformance 8StoreKit26OctaneCertificatesResponseV10CodingKeys33_CD16EFBFF8A1A1916139ACAFB758FA16LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 8StoreKit26OctaneCertificatesResponseV10CodingKeys33_CD16EFBFF8A1A1916139ACAFB758FA16LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit26SubscriptionStatusInternalV10CodingKeysOSHAASQ
++ _associated conformance 8StoreKit26SubscriptionStatusInternalV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 8StoreKit26SubscriptionStatusInternalV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit27DisplaySpringboardUIRequestV10CodingKeys33_E166EFEFD72548DC040978D3622A82A0LLOSHAASQ
++ _associated conformance 8StoreKit27DisplaySpringboardUIRequestV10CodingKeys33_E166EFEFD72548DC040978D3622A82A0LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 8StoreKit27DisplaySpringboardUIRequestV10CodingKeys33_E166EFEFD72548DC040978D3622A82A0LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit29LegacyHostedAssetInfoInternalV10CodingKeys33_7E6C348BCC05A1568AE8BE77D0211629LLOSHAASQ
++ _associated conformance 8StoreKit29LegacyHostedAssetInfoInternalV10CodingKeys33_7E6C348BCC05A1568AE8BE77D0211629LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 8StoreKit29LegacyHostedAssetInfoInternalV10CodingKeys33_7E6C348BCC05A1568AE8BE77D0211629LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit32LegacyUnfinishedTransactionsTaskV10CodingKeys33_F945A1667EAEB3D99BB78D420271B04BLLOSHAASQ
++ _associated conformance 8StoreKit32LegacyUnfinishedTransactionsTaskV10CodingKeys33_F945A1667EAEB3D99BB78D420271B04BLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 8StoreKit32LegacyUnfinishedTransactionsTaskV10CodingKeys33_F945A1667EAEB3D99BB78D420271B04BLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit38LegacyRestoreCompletedTransactionsTaskV10CodingKeys33_71B5BAFE2B2E17C59C210F4A3AC3F45BLLOSHAASQ
++ _associated conformance 8StoreKit38LegacyRestoreCompletedTransactionsTaskV10CodingKeys33_71B5BAFE2B2E17C59C210F4A3AC3F45BLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 8StoreKit38LegacyRestoreCompletedTransactionsTaskV10CodingKeys33_71B5BAFE2B2E17C59C210F4A3AC3F45BLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit7ProductV16SubscriptionInfoV010CommitmentE0VSHAASQ
++ _associated conformance 8StoreKit7ProductV16SubscriptionInfoV07RenewalE0V010CommitmentE0V10CodingKeys33_6BEDEBCF179F94C59836924B3AA07FABLLOSHAASQ
++ _associated conformance 8StoreKit7ProductV16SubscriptionInfoV07RenewalE0V010CommitmentE0V10CodingKeys33_6BEDEBCF179F94C59836924B3AA07FABLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 8StoreKit7ProductV16SubscriptionInfoV07RenewalE0V010CommitmentE0V10CodingKeys33_6BEDEBCF179F94C59836924B3AA07FABLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8StoreKit7ProductV16SubscriptionInfoV07RenewalE0V010CommitmentE0VSHAASQ
++ _associated conformance 8StoreKit7ProductV16SubscriptionInfoV12PricingTermsVSHAASQ
++ _associated conformance 8StoreKit7ProductV16SubscriptionInfoV15BillingPlanTypeVSHAASQ
++ _block_copy_helper.10
++ _block_copy_helper.102
++ _block_copy_helper.103
++ _block_copy_helper.104
++ _block_copy_helper.108
++ _block_copy_helper.109
++ _block_copy_helper.114
++ _block_copy_helper.115
++ _block_copy_helper.120
++ _block_copy_helper.125
++ _block_copy_helper.126
++ _block_copy_helper.132
++ _block_copy_helper.138
++ _block_copy_helper.14
++ _block_copy_helper.140
++ _block_copy_helper.144
++ _block_copy_helper.146
++ _block_copy_helper.152
++ _block_copy_helper.158
++ _block_copy_helper.165
++ _block_copy_helper.171
++ _block_copy_helper.22
++ _block_copy_helper.35
++ _block_copy_helper.45
++ _block_copy_helper.46
++ _block_copy_helper.56
++ _block_copy_helper.62
++ _block_copy_helper.77
++ _block_copy_helper.79
++ _block_copy_helper.8
++ _block_copy_helper.82
++ _block_copy_helper.83
++ _block_copy_helper.85
++ _block_copy_helper.86
++ _block_copy_helper.91
++ _block_copy_helper.92
++ _block_copy_helper.96
++ _block_descriptor.10
++ _block_descriptor.104
++ _block_descriptor.105
++ _block_descriptor.106
++ _block_descriptor.110
++ _block_descriptor.111
++ _block_descriptor.116
++ _block_descriptor.117
++ _block_descriptor.12
++ _block_descriptor.122
++ _block_descriptor.127
++ _block_descriptor.128
++ _block_descriptor.134
++ _block_descriptor.140
++ _block_descriptor.142
++ _block_descriptor.146
++ _block_descriptor.148
++ _block_descriptor.154
++ _block_descriptor.16
++ _block_descriptor.160
++ _block_descriptor.167
++ _block_descriptor.173
++ _block_descriptor.24
++ _block_descriptor.37
++ _block_descriptor.47
++ _block_descriptor.48
++ _block_descriptor.58
++ _block_descriptor.64
++ _block_descriptor.79
++ _block_descriptor.81
++ _block_descriptor.84
++ _block_descriptor.85
++ _block_descriptor.87
++ _block_descriptor.88
++ _block_descriptor.93
++ _block_descriptor.94
++ _block_descriptor.98
++ _block_destroy_helper.103
++ _block_destroy_helper.104
++ _block_destroy_helper.105
++ _block_destroy_helper.109
++ _block_destroy_helper.11
++ _block_destroy_helper.110
++ _block_destroy_helper.115
++ _block_destroy_helper.116
++ _block_destroy_helper.121
++ _block_destroy_helper.126
++ _block_destroy_helper.127
++ _block_destroy_helper.133
++ _block_destroy_helper.139
++ _block_destroy_helper.141
++ _block_destroy_helper.145
++ _block_destroy_helper.147
++ _block_destroy_helper.15
++ _block_destroy_helper.153
++ _block_destroy_helper.159
++ _block_destroy_helper.166
++ _block_destroy_helper.172
++ _block_destroy_helper.23
++ _block_destroy_helper.36
++ _block_destroy_helper.46
++ _block_destroy_helper.47
++ _block_destroy_helper.57
++ _block_destroy_helper.63
++ _block_destroy_helper.78
++ _block_destroy_helper.80
++ _block_destroy_helper.83
++ _block_destroy_helper.84
++ _block_destroy_helper.86
++ _block_destroy_helper.87
++ _block_destroy_helper.9
++ _block_destroy_helper.92
++ _block_destroy_helper.93
++ _block_destroy_helper.97
++ _flat unique So13PolicyService_p
++ _flat unique So13ReviewService_p
++ _flat unique So21OctaneServiceProtocol_p
++ _objc_autorelease
++ _objc_msgSend$_displayReviewInScene:reviewToken:
++ _objc_msgSend$_persistenceIdentifier
++ _objc_msgSend$_productIdentifiers
++ _objc_msgSend$_requestInScene:
++ _objc_msgSend$_setContentVersion:
++ _objc_msgSend$_setDiscounts:
++ _objc_msgSend$_setDownloadContentLengths:
++ _objc_msgSend$_setDownloadable:
++ _objc_msgSend$_setFamilyShareable:
++ _objc_msgSend$_setIdentifier:
++ _objc_msgSend$_setIntroductoryPrice:
++ _objc_msgSend$_setInvalidIdentifiers:
++ _objc_msgSend$_setLocalizedDescription:
++ _objc_msgSend$_setLocalizedTitle:
++ _objc_msgSend$_setNumberOfPeriods:
++ _objc_msgSend$_setPaymentMode:
++ _objc_msgSend$_setPrice:
++ _objc_msgSend$_setProductIdentifier:
++ _objc_msgSend$_setProductKind:
++ _objc_msgSend$_setProducts:
++ _objc_msgSend$_setSubscriptionGroupIdentifier:
++ _objc_msgSend$_setSubscriptionPeriod:
++ _objc_msgSend$_setType:
++ _objc_msgSend$_unavailableErrorWithUserInfo:
++ _objc_msgSend$_updateReviewWithToken:
++ _objc_msgSend$_visibleWindows
++ _objc_msgSend$_windows
++ _objc_msgSend$accountType:reply:
++ _objc_msgSend$acknowledgeMessage:reply:
++ _objc_msgSend$activate
++ _objc_msgSend$addPurchaseIntentWithRequest:reply:
++ _objc_msgSend$additionalBuyParams
++ _objc_msgSend$allowsBootstrapCellularData
++ _objc_msgSend$appTransactionForClient:ignoreCache:reply:
++ _objc_msgSend$appleIDAuthorizationClientInfo
++ _objc_msgSend$attributeWithDomain:name:
++ _objc_msgSend$authenticateAndSyncTransactionsAndStatusWithReply:
++ _objc_msgSend$bindPaymentAccountWithRequest:reply:
++ _objc_msgSend$bundleRecordWithBundleIdentifier:allowPlaceholder:error:
++ _objc_msgSend$bundleVersion
++ _objc_msgSend$canMakePayments
++ _objc_msgSend$canMakePaymentsWithReply:
++ _objc_msgSend$checkPaymentAccountBindingEligibilityWithRequest:reply:
++ _objc_msgSend$checkServerQueueForced:
++ _objc_msgSend$checkServerQueueForced:completionHandler:
++ _objc_msgSend$clearCache:withReply:
++ _objc_msgSend$clientIdentifier
++ _objc_msgSend$configureConnection:
++ _objc_msgSend$connectionWithEndpoint:
++ _objc_msgSend$copyAsOnewayVoid
++ _objc_msgSend$createDirectoryAtPath:withIntermediateDirectories:attributes:error:
++ _objc_msgSend$dateFromString:
++ _objc_msgSend$defaultManager
++ _objc_msgSend$defaultWorkspace
++ _objc_msgSend$description
++ _objc_msgSend$deviceIdentifierForVendor
++ _objc_msgSend$displayOfferWithOfferData:reply:
++ _objc_msgSend$displaySpringboardUI:reply:
++ _objc_msgSend$doubleForKey:
++ _objc_msgSend$endpointForMachName:service:instance:
++ _objc_msgSend$engagementRequestForOfferCodeRedemptionSheetWithReply:
++ _objc_msgSend$enumerateCurrentReceiptsForClient:productID:withReceiver:skipTransactionSync:reply:
++ _objc_msgSend$enumerateReceiptsForClient:productID:withReceiver:skipTransactionSync:reply:
++ _objc_msgSend$enumerateSubscriptionStatusesForClient:withReceiver:skipStatusSync:reply:
++ _objc_msgSend$enumerateUnfinishedTransactionsForClient:withReceiver:skipTransactionSync:reply:
++ _objc_msgSend$environmentType
++ _objc_msgSend$executeAppTransactionQuery:withReceiver:reply:
++ _objc_msgSend$executeSubscriptionStatusQuery:withReceiver:reply:
++ _objc_msgSend$executeTransactionQuery:withReceiver:reply:
++ _objc_msgSend$externalGatewayRequest:reply:
++ _objc_msgSend$externalPurchaseLinkURLsForBundleID:reply:
++ _objc_msgSend$finishTransaction:reply:
++ _objc_msgSend$hasTransactionListener
++ _objc_msgSend$hidesConfirmationDialogs
++ _objc_msgSend$iTunesMetadata
++ _objc_msgSend$ignoresInAppPurchaseRestriction
++ _objc_msgSend$inAppEngagementServiceWithErrorHandler:
++ _objc_msgSend$initWithBool:
++ _objc_msgSend$initWithDecimal:
++ _objc_msgSend$initWithDouble:
++ _objc_msgSend$initWithFamilyID:
++ _objc_msgSend$initWithISO8601String:
++ _objc_msgSend$initWithIdentifier:countryCode:
++ _objc_msgSend$initWithLongLong:
++ _objc_msgSend$initWithRequestData:presentingViewController:windowScene:
++ _objc_msgSend$initWithUnsignedLongLong:
++ _objc_msgSend$interfaceWithIdentifier:
++ _objc_msgSend$invalidProductIdentifiers
++ _objc_msgSend$invalidateTransactionsAndStatusCacheWithReply:
++ _objc_msgSend$isEligibleForIntroductoryOfferForGroupID:reply:
++ _objc_msgSend$isKeyWindow
++ _objc_msgSend$isStoreOriginated
++ _objc_msgSend$isValidJSONObject:
++ _objc_msgSend$keyIdentifier
++ _objc_msgSend$legacyAuthenticateAndSyncTransactionsAndStatusWithReply:
++ _objc_msgSend$legacyRestoreCompletedTransactions:reply:
++ _objc_msgSend$legacyUnfinishedTransactions:reply:
++ _objc_msgSend$listenForTransactionUpdates
++ _objc_msgSend$localizations
++ _objc_msgSend$localizedFailureReason
++ _objc_msgSend$localizedRecoverySuggestion
++ _objc_msgSend$localizedStringForKey:value:table:localization:
++ _objc_msgSend$lookupProductWithParametersProductRequest:reply:
++ _objc_msgSend$lookupProductWithURLProductRequest:reply:
++ _objc_msgSend$manageSubscriptionsEngagementRequestWithRequest:reply:
++ _objc_msgSend$messageServiceWithErrorHandler:
++ _objc_msgSend$metricsOverlay
++ _objc_msgSend$nonce
++ _objc_msgSend$notifyObserversForNewStorefront:
++ _objc_msgSend$notifyPurchaseIntentObserversForProducts:
++ _objc_msgSend$offerEligibilityServiceWithErrorHandler:
++ _objc_msgSend$policyWithRequest:reply:
++ _objc_msgSend$preferredLocalizationsFromArray:forPreferences:
++ _objc_msgSend$presentEngagement
++ _objc_msgSend$processPayment:forClient:paymentDelegate:reply:
++ _objc_msgSend$productKind
++ _objc_msgSend$productLookupServiceWithErrorHandler:
++ _objc_msgSend$productsRequestBundleIdentifier
++ _objc_msgSend$productsWithRequest:responseReceiver:reply:
++ _objc_msgSend$protocolForProtocol:interpreter:
++ _objc_msgSend$purchaseIntentsWithRequest:reply:
++ _objc_msgSend$ratingRank
++ _objc_msgSend$receiptDirectoryPath
++ _objc_msgSend$refundRequestForTransactionId:replyBlock:
++ _objc_msgSend$registerMessageListener:
++ _objc_msgSend$registerSubscriptionStatusListener:
++ _objc_msgSend$registerTransactionListener:
++ _objc_msgSend$remoteTargetWithLaunchingAssertionAttributes:
++ _objc_msgSend$requestReviewWithRequest:reply:
++ _objc_msgSend$requiresAuthenticationForPayment
++ _objc_msgSend$resourceRequest:reply:
++ _objc_msgSend$restoreTransactionsWithApplicationUsername:completionHandler:
++ _objc_msgSend$serviceIdentifier
++ _objc_msgSend$setActivationHandler:
++ _objc_msgSend$setAdditionalBuyParams:
++ _objc_msgSend$setAllowsBootstrapCellularData:
++ _objc_msgSend$setAppInstallSheetBundleID:reply:
++ _objc_msgSend$setBundleIdentifier:
++ _objc_msgSend$setBundleVersion:
++ _objc_msgSend$setClientMessagingExpectation:
++ _objc_msgSend$setClientOverrideWithRequest:reply:
++ _objc_msgSend$setDateFormat:
++ _objc_msgSend$setDouble:forKey:
++ _objc_msgSend$setEnvironmentType:
++ _objc_msgSend$setHidesConfirmationDialogs:
++ _objc_msgSend$setIgnoresInAppPurchaseRestriction:
++ _objc_msgSend$setInterface:
++ _objc_msgSend$setLastStoreAction:reply:
++ _objc_msgSend$setProductsRequestBundleIdentifier:
++ _objc_msgSend$setReceiptDirectoryPath:
++ _objc_msgSend$setRequiresAuthenticationForPayment:
++ _objc_msgSend$setServer:
++ _objc_msgSend$setServiceQuality:
++ _objc_msgSend$setStoreExternalVersion:
++ _objc_msgSend$setStoreItemIdentifier:
++ _objc_msgSend$setVendorIdentifier:
++ _objc_msgSend$shouldContinueTransaction:inNewStorefront:
++ _objc_msgSend$simulatesAskToBuyInSandbox
++ _objc_msgSend$statusForClient:subscriptionGroupID:skipStatusSync:reply:
++ _objc_msgSend$statusForClient:transactionID:skipStatusSync:reply:
++ _objc_msgSend$stopListeningForTransactionUpdates
++ _objc_msgSend$storeExternalVersion
++ _objc_msgSend$storeItemIdentifier
++ _objc_msgSend$storefront:reply:
++ _objc_msgSend$teamIdentifier
++ _objc_msgSend$toISO8601String
++ _objc_msgSend$transactionForID:client:skipTransactionSync:reply:
++ _objc_msgSend$unregisterMessageListener:
++ _objc_msgSend$unregisterSubscriptionStatusListener:
++ _objc_msgSend$unregisterTransactionListener:
++ _objc_msgSend$updateReviewWithRequest:reply:
++ _objc_msgSend$updateTransactions:forClient:
++ _objc_msgSend$userInteractive
++ _objc_msgSend$vendorIdentifier
++ _objc_msgSend$xcodeTestCertificatesWithReply:
++ _objectdestroy.20Tm
++ _objectdestroy.25Tm
++ _objectdestroy.33Tm
++ _objectdestroy.35Tm
++ _objectdestroy.86Tm
++ _storekit_dyld_2025_SU_E_os_versions
++ _symbolic SS19subscriptionGroupID_SSSg010storefrontC0t
++ _symbolic Say_____G 8StoreKit25LegacyTransactionInternalV
++ _symbolic Say_____G 8StoreKit7ProductV16SubscriptionInfoV12PricingTermsV
++ _symbolic Say_____GSg 10Foundation4DataV
++ _symbolic Sb9forceAuth_t
++ _symbolic So13UIWindowSceneCSg
++ _symbolic So23SKStoreReviewControllerCXDXMT
++ _symbolic So7NSArrayCSgSo7NSErrorCSgIeyByy_Sg
++ _symbolic Su
++ _symbolic _____ 10ObjectiveC8ObjCBoolV
++ _symbolic _____ 8StoreKit11TransactionV14CommitmentInfoV
++ _symbolic _____ 8StoreKit11TransactionV14CommitmentInfoV10CodingKeys33_6BEDEBCF179F94C59836924B3AA07FABLLO
++ _symbolic _____ 8StoreKit11TransactionV14RevocationTypeV
++ _symbolic _____ 8StoreKit13PolicyRequestV
++ _symbolic _____ 8StoreKit13PolicyRequestV10CodingKeys33_FFF46EBE08DCEE88DD7CC14A8C5E5840LLO
++ _symbolic _____ 8StoreKit14PolicyResponseV
++ _symbolic _____ 8StoreKit14PolicyResponseV10CodingKeys33_FFF46EBE08DCEE88DD7CC14A8C5E5840LLO
++ _symbolic _____ 8StoreKit14ProductRequestV16IncludedResourceO34PayOverTimeSubscriptionsCodingKeys33_7972D4E53618B15FAEB62D0E0A51C150LLO
++ _symbolic _____ 8StoreKit14RenewalInfoJWSO
++ _symbolic _____ 8StoreKit14RenewalInfoJWSO3KeyO
++ _symbolic _____ 8StoreKit14TransactionJWSO
++ _symbolic _____ 8StoreKit14TransactionJWSO3KeyO
++ _symbolic _____ 8StoreKit16CustomReceiptURLV
++ _symbolic _____ 8StoreKit16CustomReceiptURLV10CodingKeys33_3CB87402F7A92691D2ED29C5FC908528LLO
++ _symbolic _____ 8StoreKit16TransactionQueryV4KindO33DisqualifyingIntroOfferCodingKeys33_54432E3D6FB5540BFDF6EC5CDB170582LLO
++ _symbolic _____ 8StoreKit17AppTransactionJWSO
++ _symbolic _____ 8StoreKit17AppTransactionJWSO3KeyO
++ _symbolic _____ 8StoreKit18InAppReviewRequestV
++ _symbolic _____ 8StoreKit18InAppReviewRequestV10CodingKeys33_85FD04D789765D1E1EDCCC7B00350654LLO
++ _symbolic _____ 8StoreKit18TransactionRequestO
++ _symbolic _____ 8StoreKit18TransactionRequestO6DeleteV
++ _symbolic _____ 8StoreKit18TransactionRequestO6DeleteV10CodingKeys33_AC9D9F300B667D4A52B2702DACDB6CCCLLO
++ _symbolic _____ 8StoreKit19AppTransactionQueryV
++ _symbolic _____ 8StoreKit19AppTransactionQueryV10CodingKeys33_E20F9241F6478C3913B77C9D644A3940LLO
++ _symbolic _____ 8StoreKit19AppTransactionQueryV4KindO
++ _symbolic _____ 8StoreKit19AppTransactionQueryV4KindO10CodingKeys33_E20F9241F6478C3913B77C9D644A3940LLO
++ _symbolic _____ 8StoreKit19AppTransactionQueryV4KindO13AllCodingKeys33_E20F9241F6478C3913B77C9D644A3940LLO
++ _symbolic _____ 8StoreKit19AppTransactionQueryV4KindO14SyncCodingKeys33_E20F9241F6478C3913B77C9D644A3940LLO
++ _symbolic _____ 8StoreKit19AppTransactionQueryV4KindO18BundleIDCodingKeys33_E20F9241F6478C3913B77C9D644A3940LLO
++ _symbolic _____ 8StoreKit19AppTransactionQueryV4KindO21AccountTypeCodingKeys33_E20F9241F6478C3913B77C9D644A3940LLO
++ _symbolic _____ 8StoreKit19AppTransactionQueryV4KindO29AccountTypeBundleIDCodingKeys33_E20F9241F6478C3913B77C9D644A3940LLO
++ _symbolic _____ 8StoreKit19InAppReviewResponseV
++ _symbolic _____ 8StoreKit19InAppReviewResponseV10CodingKeys33_D077A3D4D78AADD1849BB180859159C1LLO
++ _symbolic _____ 8StoreKit21OctaneResourceRequestV
++ _symbolic _____ 8StoreKit21OctaneResourceRequestV10CodingKeys33_A819AAED11390AE96B916B63DAC01006LLO
++ _symbolic _____ 8StoreKit23OctaneResourceInterfaceO
++ _symbolic _____ 8StoreKit24InAppReviewUpdateRequestV
++ _symbolic _____ 8StoreKit24InAppReviewUpdateRequestV10CodingKeys33_632867441911713843333D861D19C15ELLO
++ _symbolic _____ 8StoreKit25LegacyTransactionInternalV
++ _symbolic _____ 8StoreKit25LegacyTransactionInternalV10CodingKeys33_7E6C348BCC05A1568AE8BE77D0211629LLO
++ _symbolic _____ 8StoreKit26OctaneCertificatesResponseV
++ _symbolic _____ 8StoreKit26OctaneCertificatesResponseV10CodingKeys33_CD16EFBFF8A1A1916139ACAFB758FA16LLO
++ _symbolic _____ 8StoreKit26SubscriptionStatusInternalV10CodingKeysO
++ _symbolic _____ 8StoreKit27DisplaySpringboardUIRequestV
++ _symbolic _____ 8StoreKit27DisplaySpringboardUIRequestV10CodingKeys33_E166EFEFD72548DC040978D3622A82A0LLO
++ _symbolic _____ 8StoreKit29LegacyHostedAssetInfoInternalV
++ _symbolic _____ 8StoreKit29LegacyHostedAssetInfoInternalV10CodingKeys33_7E6C348BCC05A1568AE8BE77D0211629LLO
++ _symbolic _____ 8StoreKit32LegacyUnfinishedTransactionsTaskV
++ _symbolic _____ 8StoreKit32LegacyUnfinishedTransactionsTaskV10CodingKeys33_F945A1667EAEB3D99BB78D420271B04BLLO
++ _symbolic _____ 8StoreKit38LegacyRestoreCompletedTransactionsTaskV
++ _symbolic _____ 8StoreKit38LegacyRestoreCompletedTransactionsTaskV10CodingKeys33_71B5BAFE2B2E17C59C210F4A3AC3F45BLLO
++ _symbolic _____ 8StoreKit7ProductV16SubscriptionInfoV010CommitmentE0V
++ _symbolic _____ 8StoreKit7ProductV16SubscriptionInfoV07DecodedD6Offers33_E71EDFA0A31D35E0C4F419FD737679EFLLV
++ _symbolic _____ 8StoreKit7ProductV16SubscriptionInfoV07RenewalE0V010CommitmentE0V
++ _symbolic _____ 8StoreKit7ProductV16SubscriptionInfoV07RenewalE0V010CommitmentE0V10CodingKeys33_6BEDEBCF179F94C59836924B3AA07FABLLO
++ _symbolic _____ 8StoreKit7ProductV16SubscriptionInfoV12PricingTermsV
++ _symbolic _____ 8StoreKit7ProductV16SubscriptionInfoV15BillingPlanTypeV
++ _symbolic _____ So27NSDataBase64DecodingOptionsV
++ _symbolic _____Sg 8StoreKit11TransactionV14CommitmentInfoV
++ _symbolic _____Sg 8StoreKit11TransactionV14RevocationTypeV
++ _symbolic _____Sg 8StoreKit16CustomReceiptURLV
++ _symbolic _____Sg 8StoreKit29LegacyHostedAssetInfoInternalV
++ _symbolic _____Sg 8StoreKit7ProductV16SubscriptionInfoV07RenewalE0V010CommitmentE0V
++ _symbolic _____Sg 8StoreKit7ProductV16SubscriptionInfoV15BillingPlanTypeV
++ _symbolic _____Sg_ABt 10Foundation3URLV
++ _symbolic ______p So13PolicyServiceP
++ _symbolic ______p So13ReviewServiceP
++ _symbolic ______p So21OctaneServiceProtocolP
++ _symbolic _____ySDySSypGG s23_ContiguousArrayStorageC
++ _symbolic _____ySay_____GG s23_ContiguousArrayStorageC 8StoreKit7ProductV17SubscriptionOfferV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit13PolicyRequestV10CodingKeys33_FFF46EBE08DCEE88DD7CC14A8C5E5840LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit14PolicyResponseV10CodingKeys33_FFF46EBE08DCEE88DD7CC14A8C5E5840LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit14ProductRequestV16IncludedResourceO34PayOverTimeSubscriptionsCodingKeys33_7972D4E53618B15FAEB62D0E0A51C150LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit16CustomReceiptURLV10CodingKeys33_3CB87402F7A92691D2ED29C5FC908528LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit16TransactionQueryV4KindO33DisqualifyingIntroOfferCodingKeys33_54432E3D6FB5540BFDF6EC5CDB170582LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit18InAppReviewRequestV10CodingKeys33_85FD04D789765D1E1EDCCC7B00350654LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit18TransactionRequestO6DeleteV10CodingKeys33_AC9D9F300B667D4A52B2702DACDB6CCCLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit19AppTransactionQueryV10CodingKeys33_E20F9241F6478C3913B77C9D644A3940LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit19AppTransactionQueryV4KindO10CodingKeys33_E20F9241F6478C3913B77C9D644A3940LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit19AppTransactionQueryV4KindO13AllCodingKeys33_E20F9241F6478C3913B77C9D644A3940LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit19AppTransactionQueryV4KindO14SyncCodingKeys33_E20F9241F6478C3913B77C9D644A3940LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit19AppTransactionQueryV4KindO18BundleIDCodingKeys33_E20F9241F6478C3913B77C9D644A3940LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit19AppTransactionQueryV4KindO21AccountTypeCodingKeys33_E20F9241F6478C3913B77C9D644A3940LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit19AppTransactionQueryV4KindO29AccountTypeBundleIDCodingKeys33_E20F9241F6478C3913B77C9D644A3940LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit19InAppReviewResponseV10CodingKeys33_D077A3D4D78AADD1849BB180859159C1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit21OctaneResourceRequestV10CodingKeys33_A819AAED11390AE96B916B63DAC01006LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit24InAppReviewUpdateRequestV10CodingKeys33_632867441911713843333D861D19C15ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit25LegacyTransactionInternalV10CodingKeys33_7E6C348BCC05A1568AE8BE77D0211629LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit26OctaneCertificatesResponseV10CodingKeys33_CD16EFBFF8A1A1916139ACAFB758FA16LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit26SubscriptionStatusInternalV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit27DisplaySpringboardUIRequestV10CodingKeys33_E166EFEFD72548DC040978D3622A82A0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit29LegacyHostedAssetInfoInternalV10CodingKeys33_7E6C348BCC05A1568AE8BE77D0211629LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit32LegacyUnfinishedTransactionsTaskV10CodingKeys33_F945A1667EAEB3D99BB78D420271B04BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit38LegacyRestoreCompletedTransactionsTaskV10CodingKeys33_71B5BAFE2B2E17C59C210F4A3AC3F45BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit13PolicyRequestV10CodingKeys33_FFF46EBE08DCEE88DD7CC14A8C5E5840LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit14PolicyResponseV10CodingKeys33_FFF46EBE08DCEE88DD7CC14A8C5E5840LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit14ProductRequestV16IncludedResourceO34PayOverTimeSubscriptionsCodingKeys33_7972D4E53618B15FAEB62D0E0A51C150LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit16CustomReceiptURLV10CodingKeys33_3CB87402F7A92691D2ED29C5FC908528LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit16TransactionQueryV4KindO33DisqualifyingIntroOfferCodingKeys33_54432E3D6FB5540BFDF6EC5CDB170582LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit18InAppReviewRequestV10CodingKeys33_85FD04D789765D1E1EDCCC7B00350654LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit18TransactionRequestO6DeleteV10CodingKeys33_AC9D9F300B667D4A52B2702DACDB6CCCLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit19AppTransactionQueryV10CodingKeys33_E20F9241F6478C3913B77C9D644A3940LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit19AppTransactionQueryV4KindO10CodingKeys33_E20F9241F6478C3913B77C9D644A3940LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit19AppTransactionQueryV4KindO13AllCodingKeys33_E20F9241F6478C3913B77C9D644A3940LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit19AppTransactionQueryV4KindO14SyncCodingKeys33_E20F9241F6478C3913B77C9D644A3940LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit19AppTransactionQueryV4KindO18BundleIDCodingKeys33_E20F9241F6478C3913B77C9D644A3940LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit19AppTransactionQueryV4KindO21AccountTypeCodingKeys33_E20F9241F6478C3913B77C9D644A3940LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit19AppTransactionQueryV4KindO29AccountTypeBundleIDCodingKeys33_E20F9241F6478C3913B77C9D644A3940LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit19InAppReviewResponseV10CodingKeys33_D077A3D4D78AADD1849BB180859159C1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit21OctaneResourceRequestV10CodingKeys33_A819AAED11390AE96B916B63DAC01006LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit24InAppReviewUpdateRequestV10CodingKeys33_632867441911713843333D861D19C15ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit25LegacyTransactionInternalV10CodingKeys33_7E6C348BCC05A1568AE8BE77D0211629LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit26OctaneCertificatesResponseV10CodingKeys33_CD16EFBFF8A1A1916139ACAFB758FA16LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit26SubscriptionStatusInternalV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit27DisplaySpringboardUIRequestV10CodingKeys33_E166EFEFD72548DC040978D3622A82A0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit29LegacyHostedAssetInfoInternalV10CodingKeys33_7E6C348BCC05A1568AE8BE77D0211629LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit32LegacyUnfinishedTransactionsTaskV10CodingKeys33_F945A1667EAEB3D99BB78D420271B04BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit38LegacyRestoreCompletedTransactionsTaskV10CodingKeys33_71B5BAFE2B2E17C59C210F4A3AC3F45BLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 8StoreKit7ProductV16SubscriptionInfoV12PricingTermsV
++ _symbolic _____y______G 8StoreKit15DecodingContextV0C5ErrorO AA11TransactionV14CommitmentInfoV10CodingKeys33_6BEDEBCF179F94C59836924B3AA07FABLLO
++ _symbolic _____y______G 8StoreKit15DecodingContextV0C5ErrorO AA14RenewalInfoJWSO3KeyO
++ _symbolic _____y______G 8StoreKit15DecodingContextV0C5ErrorO AA14TransactionJWSO3KeyO
++ _symbolic _____y______G 8StoreKit15DecodingContextV0C5ErrorO AA17AppTransactionJWSO3KeyO
++ _symbolic _____y______G 8StoreKit15DecodingContextV0C5ErrorO AA7ProductV16SubscriptionInfoV07RenewalH0V010CommitmentH0V10CodingKeys33_6BEDEBCF179F94C59836924B3AA07FABLLO
++ _type_layout_string 8StoreKit19InAppReviewResponseV
++ _type_layout_string 8StoreKit21OctaneResourceRequestV
++ _type_layout_string 8StoreKit24InAppReviewUpdateRequestV
++ _type_layout_string 8StoreKit26OctaneCertificatesResponseV
++ _type_layout_string 8StoreKit29LegacyHostedAssetInfoInternalV
++ _type_layout_string 8StoreKit7ProductV16SubscriptionInfoV07DecodedD6Offers33_E71EDFA0A31D35E0C4F419FD737679EFLLV
++ _type_layout_string 8StoreKit7ProductV16SubscriptionInfoV15BillingPlanTypeV
++ _type_layout_string So15SKPaymentOptiona
++ _type_layout_string So27NSDataBase64DecodingOptionsV
+- +[PolicyRequest supportsSecureCoding]
+- +[PolicyResponse supportsSecureCoding]
+- +[SKSpecifierWithSubtitleCell cellStyle]
+- -[PolicyRequest encodeWithCoder:]
+- -[PolicyRequest initWithCoder:]
+- -[PolicyRequest init]
+- -[PolicyResponse .cxx_destruct]
+- -[PolicyResponse encodeWithCoder:]
+- -[PolicyResponse initWithCoder:]
+- -[PolicyResponse initWithTermsOfService:privacyPolicyText:privacyPolicyURL:]
+- -[PolicyResponse privacyPolicyText]
+- -[PolicyResponse privacyPolicyURL]
+- -[PolicyResponse termsOfService]
+- -[SKPaymentQueue _checkServerQueueForced:]
+- -[SKSpecifierWithSubtitleCell refreshCellContentsWithSpecifier:]
+- GCC_except_table46
+- GCC_except_table68
+- GCC_except_table81
+- GCC_except_table92
+- GCC_except_table94
+- _OBJC_CLASS_$_PSTableCell
+- _OBJC_CLASS_$_PolicyRequest
+- _OBJC_CLASS_$_PolicyResponse
+- _OBJC_CLASS_$_SKSpecifierWithSubtitleCell
+- _OBJC_IVAR_$_PolicyResponse._privacyPolicyText
+- _OBJC_IVAR_$_PolicyResponse._privacyPolicyURL
+- _OBJC_IVAR_$_PolicyResponse._termsOfService
+- _OBJC_METACLASS_$_PSTableCell
+- _OBJC_METACLASS_$_PolicyRequest
+- _OBJC_METACLASS_$_PolicyResponse
+- _OBJC_METACLASS_$_SKSpecifierWithSubtitleCell
+- _SSErrorDomain
+- _SSXPCCreateMessageDictionary
+- _SSXPCDictionaryCopyCFObjectWithClass
+- _SSXPCDictionarySetObject
+- _UIFontTextStyleBody
+- _UIFontTextStyleFootnote
+- __OBJC_$_CLASS_METHODS_PolicyRequest
+- __OBJC_$_CLASS_METHODS_PolicyResponse
+- __OBJC_$_CLASS_METHODS_SKSpecifierWithSubtitleCell
+- __OBJC_$_CLASS_METHODS_SKStoreReviewController
+- __OBJC_$_CLASS_PROP_LIST_PolicyRequest
+- __OBJC_$_CLASS_PROP_LIST_PolicyResponse
+- __OBJC_$_INSTANCE_METHODS_PolicyRequest
+- __OBJC_$_INSTANCE_METHODS_PolicyResponse
+- __OBJC_$_INSTANCE_METHODS_SKSpecifierWithSubtitleCell
+- __OBJC_$_INSTANCE_METHODS_SKStoreReviewViewController
+- __OBJC_$_INSTANCE_VARIABLES_PolicyResponse
+- __OBJC_$_PROP_LIST_PolicyResponse
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AppTransactionReceiverProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AppTransactionReceiverProtocol
+- __OBJC_$_PROTOCOL_REFS_AppTransactionReceiverProtocol
+- __OBJC_CLASS_PROTOCOLS_$_PolicyRequest
+- __OBJC_CLASS_PROTOCOLS_$_PolicyResponse
+- __OBJC_CLASS_RO_$_PolicyRequest
+- __OBJC_CLASS_RO_$_PolicyResponse
+- __OBJC_CLASS_RO_$_SKSpecifierWithSubtitleCell
+- __OBJC_LABEL_PROTOCOL_$_AppTransactionReceiverProtocol
+- __OBJC_METACLASS_RO_$_PolicyRequest
+- __OBJC_METACLASS_RO_$_PolicyResponse
+- __OBJC_METACLASS_RO_$_SKSpecifierWithSubtitleCell
+- __OBJC_PROTOCOL_$_AppTransactionReceiverProtocol
+- __OBJC_PROTOCOL_REFERENCE_$_AppTransactionReceiverProtocol
+- ___29-[SKPaymentQueue addPayment:]_block_invoke.28
+- ___29-[SKPaymentQueue addPayment:]_block_invoke.28.cold.1
+- ___36-[SKPaymentQueue finishTransaction:]_block_invoke.41
+- ___42-[SKPaymentQueue _checkServerQueueForced:]_block_invoke
+- ___42-[SKPaymentQueue _checkServerQueueForced:]_block_invoke.86
+- ___42-[SKPaymentQueue _checkServerQueueForced:]_block_invoke_2
+- ___42-[SKPaymentQueue _checkServerQueueForced:]_block_invoke_2.cold.1
+- ___48+[SKStoreReviewController requestReviewInScene:]_block_invoke
+- ___48+[SKStoreReviewController requestReviewInScene:]_block_invoke.23
+- ___48+[SKStoreReviewController requestReviewInScene:]_block_invoke_2
+- ___48+[SKStoreReviewController requestReviewInScene:]_block_invoke_3
+- ___48-[SKPaymentQueue _updatedTransactions:restored:]_block_invoke.94
+- ___59-[SKClientBroker _handleUnfinishedTransactionsNotification]_block_invoke.30
+- ___59-[SKClientBroker _handleUnfinishedTransactionsNotification]_block_invoke.30.cold.1
+- ___70-[SKPaymentQueue restoreCompletedTransactionsWithApplicationUsername:]_block_invoke.45
+- ___70-[SKPaymentQueue restoreCompletedTransactionsWithApplicationUsername:]_block_invoke.45.cold.1
+- ___70-[SKPaymentQueue restoreCompletedTransactionsWithApplicationUsername:]_block_invoke.46
+- ___70-[SKPaymentQueue restoreCompletedTransactionsWithApplicationUsername:]_block_invoke_3
+- ___70-[SKPaymentQueue restoreCompletedTransactionsWithApplicationUsername:]_block_invoke_4
+- ___70-[SKPaymentQueue restoreCompletedTransactionsWithApplicationUsername:]_block_invoke_5
+- ___70-[SKPaymentQueue restoreCompletedTransactionsWithApplicationUsername:]_block_invoke_6
+- ___block_descriptor_48_e8_32s_e33_v16?0"NSObject<OS_xpc_object>"8ls32l8
+- ___block_descriptor_56_e8_32s40s_e8_v12?0B8ls32l8s40l8
+- ___swift_coroFrameAllocStub
+- ___swift_memcpy208_8
+- __xpc_type_dictionary
+- _associated conformance 8StoreKit11TransactionV3KeyOSHAASQ
+- _associated conformance 8StoreKit11TransactionV3KeyOs06CodingD0AAs23CustomStringConvertible
+- _associated conformance 8StoreKit11TransactionV3KeyOs06CodingD0AAs28CustomDebugStringConvertible
+- _associated conformance 8StoreKit12ClientFilterO17AccountCodingKeys33_EDC877C68F03450BEA483AC308787E4CLLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 8StoreKit12ClientFilterO17AccountCodingKeys33_EDC877C68F03450BEA483AC308787E4CLLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 8StoreKit14AppTransactionV3KeyOSHAASQ
+- _associated conformance 8StoreKit14ProductRequestV0D4KindO35LegacyFetchSoftwareAddOnsCodingKeys33_7972D4E53618B15FAEB62D0E0A51C150LLOs0K3KeyAAs23CustomStringConvertible
+- _associated conformance 8StoreKit14ProductRequestV0D4KindO35LegacyFetchSoftwareAddOnsCodingKeys33_7972D4E53618B15FAEB62D0E0A51C150LLOs0K3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 8StoreKit26SubscriptionStatusInternalV10CodingKeys33_3796FA57743D259D934A45F88250C690LLOSHAASQ
+- _associated conformance 8StoreKit26SubscriptionStatusInternalV10CodingKeys33_3796FA57743D259D934A45F88250C690LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 8StoreKit26SubscriptionStatusInternalV10CodingKeys33_3796FA57743D259D934A45F88250C690LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 8StoreKit7ProductV16SubscriptionInfoV07RenewalE0V3KeyOSHAASQ
+- _block_copy_helper.100
+- _block_copy_helper.106
+- _block_copy_helper.11
+- _block_copy_helper.112
+- _block_copy_helper.118
+- _block_copy_helper.123
+- _block_copy_helper.124
+- _block_copy_helper.129
+- _block_copy_helper.130
+- _block_copy_helper.135
+- _block_copy_helper.154
+- _block_copy_helper.160
+- _block_copy_helper.166
+- _block_copy_helper.26
+- _block_copy_helper.27
+- _block_copy_helper.42
+- _block_copy_helper.48
+- _block_copy_helper.54
+- _block_copy_helper.59
+- _block_copy_helper.64
+- _block_copy_helper.65
+- _block_copy_helper.70
+- _block_copy_helper.78
+- _block_copy_helper.81
+- _block_copy_helper.84
+- _block_copy_helper.94
+- _block_descriptor.102
+- _block_descriptor.108
+- _block_descriptor.114
+- _block_descriptor.120
+- _block_descriptor.125
+- _block_descriptor.126
+- _block_descriptor.13
+- _block_descriptor.131
+- _block_descriptor.132
+- _block_descriptor.137
+- _block_descriptor.156
+- _block_descriptor.162
+- _block_descriptor.168
+- _block_descriptor.28
+- _block_descriptor.29
+- _block_descriptor.44
+- _block_descriptor.50
+- _block_descriptor.56
+- _block_descriptor.61
+- _block_descriptor.66
+- _block_descriptor.67
+- _block_descriptor.72
+- _block_descriptor.80
+- _block_descriptor.83
+- _block_descriptor.86
+- _block_descriptor.96
+- _block_destroy_helper.101
+- _block_destroy_helper.107
+- _block_destroy_helper.113
+- _block_destroy_helper.119
+- _block_destroy_helper.12
+- _block_destroy_helper.124
+- _block_destroy_helper.125
+- _block_destroy_helper.130
+- _block_destroy_helper.131
+- _block_destroy_helper.136
+- _block_destroy_helper.155
+- _block_destroy_helper.161
+- _block_destroy_helper.167
+- _block_destroy_helper.27
+- _block_destroy_helper.28
+- _block_destroy_helper.43
+- _block_destroy_helper.49
+- _block_destroy_helper.55
+- _block_destroy_helper.60
+- _block_destroy_helper.65
+- _block_destroy_helper.66
+- _block_destroy_helper.71
+- _block_destroy_helper.79
+- _block_destroy_helper.82
+- _block_destroy_helper.85
+- _block_destroy_helper.95
+- _malloc
+- _objc_claimAutoreleasedReturnValue
+- _objc_msgSend$_checkServerQueueForced:
+- _objc_msgSend$convertInterfaceOrientation:
+- _objc_msgSend$detailTextLabel
+- _objc_msgSend$imageView
+- _objc_msgSend$initWithTermsOfService:privacyPolicyText:privacyPolicyURL:
+- _objc_msgSend$labelColor
+- _objc_msgSend$preferredFontForTextStyle:
+- _objc_msgSend$privacyPolicyText
+- _objc_msgSend$privacyPolicyURL
+- _objc_msgSend$propertyForKey:
+- _objc_msgSend$requestProductReviewWithInterfaceOrientation:bundleIdentifier:sceneID:replyBlock:
+- _objc_msgSend$sendMessage:
+- _objc_msgSend$termsOfService
+- _objc_msgSend$textLabel
+- _objc_retainAutoreleaseReturnValue
+- _objc_retain_x9
+- _objectdestroy.110Tm
+- _objectdestroy.21Tm
+- _objectdestroy.28Tm
+- _objectdestroy.31Tm
+- _objectdestroy.39Tm
+- _symbolic ScCy___________pG 8StoreKit6PolicyV s5ErrorP
+- _symbolic SccySay_____GSg_____G So17SecCertificateRefa s5NeverO
+- _symbolic SccySb_____G s5NeverO
+- _symbolic Si6offset______7elementtSg 8StoreKit0A14ProductManagerC18CollectionObserverC7StorageO
+- _symbolic _____ 8StoreKit11TransactionV3KeyO
+- _symbolic _____ 8StoreKit12ClientFilterO17AccountCodingKeys33_EDC877C68F03450BEA483AC308787E4CLLO
+- _symbolic _____ 8StoreKit14AppTransactionV3KeyO
+- _symbolic _____ 8StoreKit14ProductRequestV0D4KindO35LegacyFetchSoftwareAddOnsCodingKeys33_7972D4E53618B15FAEB62D0E0A51C150LLO
+- _symbolic _____ 8StoreKit26SubscriptionStatusInternalV10CodingKeys33_3796FA57743D259D934A45F88250C690LLO
+- _symbolic _____ 8StoreKit7ProductV16SubscriptionInfoV07RenewalE0V3KeyO
+- _symbolic _____ s5UInt8V
+- _symbolic _____Sg 8StoreKit05TrustA0C10CacheValue33_535D1FE2E2210F1001050D5B3F577DE4LLV
+- _symbolic _____Sg 8StoreKit22PurchaseIntentInternalV
+- _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit12ClientFilterO17AccountCodingKeys33_EDC877C68F03450BEA483AC308787E4CLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit14ProductRequestV0G4KindO35LegacyFetchSoftwareAddOnsCodingKeys33_7972D4E53618B15FAEB62D0E0A51C150LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 8StoreKit26SubscriptionStatusInternalV10CodingKeys33_3796FA57743D259D934A45F88250C690LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit12ClientFilterO17AccountCodingKeys33_EDC877C68F03450BEA483AC308787E4CLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit14ProductRequestV0G4KindO35LegacyFetchSoftwareAddOnsCodingKeys33_7972D4E53618B15FAEB62D0E0A51C150LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 8StoreKit26SubscriptionStatusInternalV10CodingKeys33_3796FA57743D259D934A45F88250C690LLO
+- _symbolic _____y______G 8StoreKit15DecodingContextV0C5ErrorO AA11TransactionV3KeyO
+- _symbolic _____y______G 8StoreKit15DecodingContextV0C5ErrorO AA14AppTransactionV3KeyO
+- _symbolic _____y______G 8StoreKit15DecodingContextV0C5ErrorO AA7ProductV16SubscriptionInfoV07RenewalH0V3KeyO
+- _type_layout_string 8StoreKit7ProductV14PurchaseOptionV20WinbackOfferMetadataV
+- _type_layout_string 8StoreKit7ProductV16SubscriptionInfoV
+- _type_layout_string So20SKClientOverridesKeya
+- _xpc_dictionary_get_value
+CStrings:
++ "\"billingPlanType\": \""
++ ", clientFilter: "
++ ", includeFinishedConsumables: "
++ ", syncStrategy: "
++ "05:41:44"
++ "Array<LegacyTransactionInternal>"
++ "Decoded product response"
++ "Failed in XPC to check server queue: "
++ "Failed in XPC to restore transactions: "
++ "Failed to cast service as OctaneServiceProtocol"
++ "Failed to cast service as PolicyService"
++ "Failed to cast service as ReviewService"
++ "Failed to clear cache: "
++ "Failed to fetch AppTransaction: "
++ "Failed to fetch Xcode Test certificates: "
++ "Failed to get XPC remote object to check server queue"
++ "Failed to get XPC remote object to restore transactions"
++ "InAppReviewResponse"
++ "Jan 31 2026"
++ "No app transaction and no error"
++ "OctaneCertificatesResponse"
++ "OctaneServiceProtocol"
++ "Policy request failed: "
++ "ReviewService"
++ "ReviewViaSpringBoardRemoteAlert"
++ "SKIncludeConsumableInAppPurchaseHistory"
++ "Starting review request"
++ "StoreKit/AppTransactionQuery"
++ "StoreKit/InAppReview"
++ "StoreKit/InAppReviewView"
++ "StoreKit/OctaneResourceFetch"
++ "StoreKit/Policy"
++ "StoreKitDaemon"
++ "SubscriptionStatusQuery(kind: "
++ "TransactionQuery(kind: "
++ "UseOctane2"
++ "] Adding transaction update listener"
++ "] Removing transaction update listener"
++ "]: Error requesting review: "
++ "_displayReviewInScene:reviewToken:"
++ "_requestInScene:"
++ "_updateReviewWithToken:"
++ "billingPeriod"
++ "billingPeriodNumber"
++ "billingPlanType"
++ "bundleProductId"
++ "bundleSubscriptionGroupIdentifier"
++ "checkServerQueueForced:"
++ "checkServerQueueForced:completionHandler:"
++ "commitmentAutoRenewProductId"
++ "commitmentAutoRenewStatus"
++ "commitmentExpiresDate"
++ "commitmentInfo"
++ "commitmentPrice"
++ "commitmentPriceFormatted"
++ "commitmentPriceString"
++ "commitmentRenewalBillingPlanType"
++ "commitmentRenewalDate"
++ "commitmentRenewalPrice"
++ "customReceiptURL"
++ "displayMacReviewUI:reply:"
++ "displaySpringboardUI:reply:"
++ "disqualifyingIntroOffer"
++ "executeAppTransactionQuery:withReceiver:reply:"
++ "includeFinishedConsumables"
++ "legacyAuthenticateAndSyncTransactionsAndStatusWithReply:"
++ "legacyunfinishedtransactions"
++ "listenForTransactionUpdates"
++ "lookupItemIDsForDeleteableSystemAppsWithRequest:reply:"
++ "originalTransactionID"
++ "payOverTimeSubscriptions"
++ "renewalBillingPlanType"
++ "requestReviewWithRequest:reply:"
++ "resetReviewsWithRequest:reply:"
++ "resourceRequest:reply:"
++ "restoreTransactionsWithApplicationUsername:completionHandler:"
++ "revocationPercentage"
++ "revocationType"
++ "shouldSimulateRevocation"
++ "stopListeningForTransactionUpdates"
++ "subscriptionGroupID storefrontID "
++ "totalBillingPeriods"
++ "updateReviewWithRequest:reply:"
++ "v28@0:8B16@?<v@?@\"NSArray\"@\"NSError\">20"
++ "v32@0:8@\"ManageSubscriptionsRequest\"16@?<v@?@\"NSData\"@\"NSError\">24"
++ "v32@0:8@\"NSString\"16@?<v@?@\"NSArray\"@\"NSError\">24"
+- "04:21:08"
+- "AppTransactionReceiverProtocol"
+- "Decoded product response (%{private}s)"
+- "Error in XPC service while retrieving Xcode Test certificates: "
+- "Error in XPC service while retrieving if we should simulate revoking the Xcode Test certificates: "
+- "Error retrieving Xcode Test certificates: "
+- "Failed in XPC to fetch terms of service and privacy policy with error: "
+- "Failed to fetch terms of service and privacy policy: "
+- "Failed to get XPC remote object to fetch terms of service and privacy policy"
+- "Failed to get XPC remote object while retrieving Xcode Test certificates"
+- "Failed to get XPC remote object while retrieving if we should simulate revoking the Xcode Test certificates"
+- "Jan 20 2026"
+- "Missing offer type"
+- "NO CORRELATION ID"
+- "PolicyRequest"
+- "PolicyResponse"
+- "SKSpecifierWithSubtitleCell"
+- "T@\"NSString\",R,N,V_privacyPolicyText"
+- "T@\"NSString\",R,N,V_termsOfService"
+- "T@\"NSURL\",R,N,V_privacyPolicyURL"
+- "[%@]: Request review error: %@"
+- "[%@]: StoreKit service XPC error: %@"
+- "_checkServerQueueForced:"
+- "_privacyPolicyText"
+- "_privacyPolicyURL"
+- "_termsOfService"
+- "cellStyle"
+- "detailTextLabel"
+- "executeAppTransactionQuery:withReceiver:ignoreCache:reply:"
+- "imageView"
+- "initWithTermsOfService:privacyPolicyText:privacyPolicyURL:"
+- "labelColor"
+- "legacyFetchSoftwareAddOns"
+- "lookUpItemIDsForDeletableSystemAppsWithBundleIDs:reply:"
+- "preferredFontForTextStyle:"
+- "propertyForKey:"
+- "receivedAppTransaction:"
+- "refreshCellContentsWithSpecifier:"
+- "termsOfService"
+- "textLabel"
+- "v24@0:8@?<v@?@\"NSArray\"@\"NSError\">16"
+- "v24@?0@\"PolicyResponse\"8@\"NSError\"16"
+- "v32@0:8@\"ManageSubscriptionsRequest\"16@?<v@?@\"NSError\"@\"NSData\">24"
+- "v32@0:8@\"NSArray\"16@?<v@?@\"NSDictionary\"@\"NSError\">24"
+- "v32@0:8@\"PolicyRequest\"16@?<v@?@\"PolicyResponse\"@\"NSError\">24"
+- "v44@0:8@\"NSData\"16@\"<AppTransactionReceiverProtocol>\"24B32@?<v@?@\"NSError\">36"
+- "xcodeTestCertificatesShouldSimulateRevocationWithReply:"
+
+```

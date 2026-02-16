@@ -1,0 +1,151 @@
+## SiriCalendarUI
+
+> `/System/Library/PrivateFrameworks/SiriCalendarUI.framework/SiriCalendarUI`
+
+```diff
+
+-3500.29.1.0.0
+-  __TEXT.__text: 0x26130
+-  __TEXT.__auth_stubs: 0x15c0
+-  __TEXT.__const: 0x1c48
+-  __TEXT.__cstring: 0x339
+-  __TEXT.__constg_swiftt: 0x818
+-  __TEXT.__swift5_typeref: 0x28e8
++3520.29.2.0.0
++  __TEXT.__text: 0x25f88
++  __TEXT.__auth_stubs: 0x1630
++  __TEXT.__const: 0x1cf0
++  __TEXT.__constg_swiftt: 0x834
++  __TEXT.__swift5_typeref: 0x2945
+   __TEXT.__swift5_builtin: 0x28
+-  __TEXT.__swift5_reflstr: 0x6eb
++  __TEXT.__swift5_reflstr: 0x73d
+   __TEXT.__swift5_assocty: 0x288
+-  __TEXT.__swift5_fieldmd: 0x6e4
+-  __TEXT.__swift5_proto: 0x90
+-  __TEXT.__swift5_types: 0x84
+-  __TEXT.__oslogstring: 0x1b8
+-  __TEXT.__swift5_capture: 0x2bc
+-  __TEXT.__swift5_protos: 0x4
++  __TEXT.__oslogstring: 0x20d
++  __TEXT.__swift5_fieldmd: 0x718
++  __TEXT.__swift5_proto: 0x98
++  __TEXT.__swift5_types: 0x88
++  __TEXT.__swift5_capture: 0x2d0
++  __TEXT.__cstring: 0x2e3
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x928
+-  __TEXT.__eh_frame: 0x2b0
+-  __TEXT.__objc_methname: 0xca
+-  __DATA_CONST.__got: 0x488
+-  __DATA_CONST.__const: 0xe8
++  __TEXT.__swift5_protos: 0x4
++  __TEXT.__unwind_info: 0x960
++  __TEXT.__eh_frame: 0x2c0
++  __TEXT.__objc_classname: 0x2e
++  __TEXT.__objc_methname: 0x105
++  __TEXT.__objc_methtype: 0x1
++  __TEXT.__objc_stubs: 0x180
++  __DATA_CONST.__got: 0x4a0
++  __DATA_CONST.__const: 0xf8
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x58
+-  __AUTH_CONST.__auth_got: 0xae0
+-  __AUTH_CONST.__const: 0xc70
++  __DATA_CONST.__objc_selrefs: 0x60
++  __AUTH_CONST.__auth_got: 0xb20
++  __AUTH_CONST.__const: 0xd28
+   __AUTH_CONST.__objc_const: 0xb8
+   __AUTH.__data: 0xbe8
+-  __DATA.__data: 0xcb0
+-  __DATA.__bss: 0x12b0
++  __DATA.__data: 0xcf0
++  __DATA.__bss: 0x13c0
+   __DATA.__common: 0x8
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftMetalKit.dylib
++  - /usr/lib/swift/libswiftModelIO.dylib
+   - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B8F2748B-6F2F-3949-B837-F418C718B0A2
+-  Functions: 940
+-  Symbols:   918
+-  CStrings:  40
++  UUID: DAEA9C46-BECD-30BE-BF02-7FD9AAE3A5C6
++  Functions: 1001
++  Symbols:   1048
++  CStrings:  42
+ 
+Symbols:
++ _OUTLINED_FUNCTION_38
++ _OUTLINED_FUNCTION_39
++ _OUTLINED_FUNCTION_40
++ _OUTLINED_FUNCTION_41
++ _OUTLINED_FUNCTION_42
++ _OUTLINED_FUNCTION_43
++ _OUTLINED_FUNCTION_44
++ __MergedGlobals
++ __swift_FORCE_LOAD_$_swiftMetalKit
++ __swift_FORCE_LOAD_$_swiftMetalKit_$_SiriCalendarUI
++ __swift_FORCE_LOAD_$_swiftModelIO
++ __swift_FORCE_LOAD_$_swiftModelIO_$_SiriCalendarUI
++ _associated conformance 14SiriCalendarUI0B10ButtonViewV5ModelV16ActionDescriptorOSHAASQ
++ _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVy07SnippetB0011CompositionE0VyAEyAA19_ConditionalContentVyAF0G9ParameterVyAF0G5TokenVGAA0E0PAAE12onTapGesture5count7performQrSi_yyctFQOyAF0G6PromptV_Qo_GSg_AJyAEyALyAEyAN_ANSgtGG_A0_SgAOSgtGAWGSgA2_ALyAA7ForEachVySay19SiriCalendarIntents0F0O11ParticipantVG10Foundation4UUIDVANGGSgtGG_AA6SpacerVtGGAaPHPyHC.53
++ _get_witness_table 9SnippetUI14ComponentStackVy05SwiftB09TupleViewVy012SiriCalendarB0011SingleEventG0V_AD0G0PAAE6hidden_2onQrSb_So8VRXIdiomVdtFQOyAA015StatusIndicatorG0V_Qo_tGGAdJHPyHC.6
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBP07SnippetB0E10separators3top6bottom10isOverrideQr0D3Kit14SeparatorStyleO_AKSbtFQOyAcDE16componentSpacingAfGQr12CoreGraphics7CGFloatV_AOtFQOyAA6VStackVyAA05TupleC0VyAA6HStackVyASyAcAE16privacySensitiveyQrSbFQOyAA4TextV_Qo__AA6SpacerVAXtGG_AQyAA7ForEachVySay19SiriCalendarIntents0D0O11ParticipantVG10Foundation4UUIDVAA15ModifiedContentVy012SiriCalendarB0016ParticipantLabelC0VAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGGGtGG_Qo__Qo_HO.3
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBP07SnippetB0E15ambientDrawable22renderWithDrawingGroupQrSb_tFQOyAcDE16componentSpacing3top6bottomQr12CoreGraphics7CGFloatV_ALtFQOyAcDE019lastComponentBottomL0yQrAD0s5StacktL0OFQOyAD0sU0VyAA05TupleC0VyAcDEAghIQrAL_ALtFQOy012SiriCalendarB0010DateHeaderC0V_Qo__AA15ModifiedContentVyAA0J0VyASyAcDEAghIQrAL_ALtFQOyAT09EventCellC0V_Qo__AcDEAghIQrAL_ALtFQOyAYyAA4TextVAA14_PaddingLayoutVG_Qo_SgAYyAT015ParticipantListC0VA6_GSgtGGAT30PunchoutToEventDetailsModifierVGtGG_Qo__Qo__Qo_HO.18
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE12onTapGesture5count7performQrSi_yyctFQOyAA15ModifiedContentVyAA01_c9Modifier_J0Vy012SiriCalendarB0022PunchoutToEventDetailsK0VGAA01_j5ShapeK0VyAA9RectangleVGG_Qo_HO.4
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE12onTapGesture5count7performQrSi_yyctFQOyAA15ModifiedContentVyAHyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGAA14_PaddingLayoutVG_Qo_HO.7
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE16privacySensitiveyQrSbFQOyAC07SnippetB0E10buttonRole_10foreground10backgroundQrAE010ButtonItemK5StyleV0H0O_AA08AnyShapeM0VSgAOtFQOyAA0K0VyAA4TextVG_Qo__Qo_HO.23
++ _objc_msgSend$boolForKey:
++ _objc_msgSend$bundleForClass:
++ _objc_msgSend$calendarForEntityType:eventStore:
++ _objc_msgSend$calendarsForEntityType:
++ _objc_msgSend$defaultCalendarForNewEvents
++ _objc_msgSend$eventWithAppEntityIdentifier:
++ _objc_msgSend$init
++ _objc_msgSend$initWithEKOptions:
++ _objc_msgSend$languageCode
++ _objc_msgSend$punchOutUri
++ _objc_msgSend$sharedPreferences
++ _objc_msgSend$standardUserDefaults
++ _objc_retain_x22
++ _objc_retain_x26
++ _objectdestroy.25Tm
++ _symbolic _____ 14SiriCalendarUI0B10ButtonViewV5ModelV16ActionDescriptorO
++ _symbolic _____Sg 13CalendarUIKit19EKEventModelWrapperV
++ _symbolic _____Sg_ABt 13CalendarUIKit16EventModelObjectV
++ _symbolic ______Sb20useActionDescriptorst 19SiriCalendarIntents7SnippetO5EventV
++ _symbolic _____y______G 9SnippetUI20CompositionParameterV11LayoutStyleO AA0C5TokenV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 012SiriCalendarB019ParticipantListViewV AA14_PaddingLayoutV
++ _symbolic _____y_____ySay_____G__________G_G 9SnippetUI20CompositionParameterV11LayoutStyleO 05SwiftB07ForEachV 19SiriCalendarIntents0A0O11ParticipantV 10Foundation4UUIDV AA0C5TokenV
++ _symbolic _____y_____y______ACSgtG_G 9SnippetUI20CompositionParameterV11LayoutStyleO 05SwiftB09TupleViewV AA0C5TokenV
+- _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVy07SnippetB0011CompositionE0VyAEyAA19_ConditionalContentVyAF0G9ParameterVyAF0G5TokenVGAA0E0PAAE12onTapGesture5count7performQrSi_yyctFQOyAF0G6PromptV_Qo_GSg_AJyAEyALyAEyAN_ANSgtGG_A0_SgAOSgtGAWGSgA2_ALyAA7ForEachVySay19SiriCalendarIntents0F0O11ParticipantVG10Foundation4UUIDVANGGSgtGG_AA6SpacerVtGGAaPHPyHC.49
+- _get_witness_table 9SnippetUI14ComponentStackVy05SwiftB09TupleViewVy012SiriCalendarB0011SingleEventG0V_AD0G0PAAE6hidden_2onQrSb_So8VRXIdiomVdtFQOyAA015StatusIndicatorG0V_Qo_tGGAdJHPyHC.5
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBP07SnippetB0E10separators3top6bottom10isOverrideQr0D3Kit14SeparatorStyleO_AKSbtFQOyAcDE16componentSpacingAfGQr12CoreGraphics7CGFloatV_AOtFQOyAA6VStackVyAA05TupleC0VyAA6HStackVyASyAcAE16privacySensitiveyQrSbFQOyAA4TextV_Qo__AA6SpacerVAXtGG_AQyAA7ForEachVySay19SiriCalendarIntents0D0O11ParticipantVG10Foundation4UUIDVAA15ModifiedContentVy012SiriCalendarB0016ParticipantLabelC0VAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGGGtGG_Qo__Qo_HO.6
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBP07SnippetB0E15ambientDrawable22renderWithDrawingGroupQrSb_tFQOyAcDE16componentSpacing3top6bottomQr12CoreGraphics7CGFloatV_ALtFQOyAcDE019lastComponentBottomL0yQrAD0s5StacktL0OFQOyAD0sU0VyAA05TupleC0VyAcDEAghIQrAL_ALtFQOy012SiriCalendarB0010DateHeaderC0V_Qo__AA15ModifiedContentVyAA0J0VyASyAcDEAghIQrAL_ALtFQOyAT09EventCellC0V_Qo__AcDEAghIQrAL_ALtFQOyAYyAA4TextVAA14_PaddingLayoutVG_Qo_SgAYyAT015ParticipantListC0VA6_GSgtGGAT30PunchoutToEventDetailsModifierVGtGG_Qo__Qo__Qo_HO.17
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE12onTapGesture5count7performQrSi_yyctFQOyAA15ModifiedContentVyAA01_c9Modifier_J0Vy012SiriCalendarB0022PunchoutToEventDetailsK0VGAA01_j5ShapeK0VyAA9RectangleVGG_Qo_HO.3
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE12onTapGesture5count7performQrSi_yyctFQOyAA15ModifiedContentVyAHyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGAA14_PaddingLayoutVG_Qo_HO.8
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE16privacySensitiveyQrSbFQOyAC07SnippetB0E10buttonRole_10foreground10backgroundQrAE010ButtonItemK5StyleV0H0O_AA08AnyShapeM0VSgAOtFQOyAA0K0VyAA4TextVG_Qo__Qo_HO.19
+- _objc_retain_x28
+- _objectdestroy.29Tm
+- _swift_initStackObject
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI4EdgeO3SetV
+- _symbolic _____y_____Sg_Qo_ 7SwiftUI4ViewP14CalendarWidgetE11viewMetricsyQrAD0cG0CFQO AD13EventListCellV
+- _symbolic _____y_____y_____y_____G_Qo__SbQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AcAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA01_C16Modifier_ContentV 012SiriCalendarB0018NotifyAUIOfEditingL0V
+CStrings:
++ "[RenderableEvent] No eventModel available, fetching via eventIdentifier"
++ "eventWithAppEntityIdentifier:"
+
+```

@@ -1,0 +1,107 @@
+## IMAP
+
+> `/System/Library/PrivateFrameworks/VisualVoicemail.framework/IMAP.framework/IMAP`
+
+```diff
+
+-905.0.0.0.0
+-  __TEXT.__text: 0xb11c8
+-  __TEXT.__auth_stubs: 0x1aa0
++914.0.0.0.0
++  __TEXT.__text: 0xb73c0
++  __TEXT.__auth_stubs: 0x1a60
+   __TEXT.__objc_methlist: 0xaaa4
+-  __TEXT.__const: 0x2c8
+-  __TEXT.__gcc_except_tab: 0xbde4
+-  __TEXT.__cstring: 0x73eb
++  __TEXT.__const: 0x2d8
++  __TEXT.__gcc_except_tab: 0xbda0
++  __TEXT.__cstring: 0x7520
+   __TEXT.__oslogstring: 0x47ca
+   __TEXT.__ustring: 0x14d0
+-  __TEXT.__unwind_info: 0x4378
++  __TEXT.__unwind_info: 0x4430
+   __TEXT.__objc_classname: 0xffe
+   __TEXT.__objc_methname: 0x16064
+   __TEXT.__objc_methtype: 0x30b2
+
+   __DATA_CONST.__objc_protorefs: 0x8
+   __DATA_CONST.__objc_superrefs: 0x3b0
+   __DATA_CONST.__objc_arraydata: 0x98
+-  __AUTH_CONST.__auth_got: 0xd68
++  __AUTH_CONST.__auth_got: 0xd48
+   __AUTH_CONST.__const: 0xdf8
+   __AUTH_CONST.__cfstring: 0x99a0
+   __AUTH_CONST.__objc_const: 0x12b18
+
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: BE36241B-C8F3-3E6E-BEDC-F93999E97F68
+-  Functions: 4110
+-  Symbols:   14574
+-  CStrings:  7763
++  UUID: 1BA61822-A458-3890-B6A5-4D8D0C6E501F
++  Functions: 4126
++  Symbols:   14612
++  CStrings:  7765
+ 
+Symbols:
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorI21IMAPCommandParametersEEPS2_EclB9foe210106Ev
++ __ZNSt12length_errorC1B9foe210106EPKc
++ __ZNSt3__110unique_ptrIN3ctu11OsLogLoggerENS_14default_deleteIS2_EEE5resetB9foe210106EPS2_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106ILi0EEEPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9foe210106ENS_24__uninitialized_size_tagEmRKS4_
++ __ZNSt3__114__split_bufferI21IMAPCommandParametersRNS_9allocatorIS1_EEE17__destruct_at_endB9foe210106EPS1_
++ __ZNSt3__116allocator_traitsINS_9allocatorI21IMAPCommandParametersEEE7destroyB9foe210106IS2_Li0EEEvRS3_PT_
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorI21IMAPCommandParametersEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__120__throw_length_errorB9foe210106EPKc
++ __ZNSt3__121__concatenate_stringsB9foe210106IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EERKS8_NS_15__type_identityINS_17basic_string_viewIS6_S7_EEE4typeESG_
++ __ZNSt3__125__throw_bad_function_callB9foe210106Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorI21IMAPCommandParametersEEPS3_EEED2B9foe210106Ev
++ __ZNSt3__132__internal_log_hardening_failureEPKc
++ __ZNSt3__134__uninitialized_allocator_relocateB9foe210106INS_9allocatorI21IMAPCommandParametersEEPS2_EEvRT_T0_S7_S7_
++ __ZNSt3__16vectorI21IMAPCommandParametersNS_9allocatorIS1_EEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorI21IMAPCommandParametersNS_9allocatorIS1_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorI21IMAPCommandParametersNS_9allocatorIS1_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorI21IMAPCommandParametersNS_9allocatorIS1_EEE22__base_destruct_at_endB9foe210106EPS1_
++ __ZNSt3__16vectorI21IMAPCommandParametersNS_9allocatorIS1_EEE5clearB9foe210106Ev
++ __ZNSt3__16vectorI21IMAPCommandParametersNS_9allocatorIS1_EEEC2B9foe210106Em
++ __ZNSt3__1plB9foe210106IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EERKS9_PKS6_
++ __ZSt28__throw_bad_array_new_lengthB9foe210106v
++ ___block_literal_global.761
++ _objc_release_x2
+- __ZN12_GLOBAL__N_110LogContextC1ERKS0_bb
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorI21IMAPCommandParametersEEPS2_EclB8ne200100Ev
+- __ZNSt12length_errorC1B8ne200100EPKc
+- __ZNSt3__110unique_ptrIN3ctu11OsLogLoggerENS_14default_deleteIS2_EEE5resetB8ne200100EPS2_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100ILi0EEEPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne200100ENS_24__uninitialized_size_tagEmRKS4_
+- __ZNSt3__114__split_bufferI21IMAPCommandParametersRNS_9allocatorIS1_EEE17__destruct_at_endB8ne200100EPS1_
+- __ZNSt3__116allocator_traitsINS_9allocatorI21IMAPCommandParametersEEE7destroyB8ne200100IS2_Li0EEEvRS3_PT_
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorI21IMAPCommandParametersEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__120__throw_length_errorB8ne200100EPKc
+- __ZNSt3__125__throw_bad_function_callB8ne200100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorI21IMAPCommandParametersEEPS3_EEED2B8ne200100Ev
+- __ZNSt3__134__uninitialized_allocator_relocateB8ne200100INS_9allocatorI21IMAPCommandParametersEEPS2_EEvRT_T0_S7_S7_
+- __ZNSt3__16vectorI21IMAPCommandParametersNS_9allocatorIS1_EEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorI21IMAPCommandParametersNS_9allocatorIS1_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorI21IMAPCommandParametersNS_9allocatorIS1_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorI21IMAPCommandParametersNS_9allocatorIS1_EEE22__base_destruct_at_endB8ne200100EPS1_
+- __ZNSt3__16vectorI21IMAPCommandParametersNS_9allocatorIS1_EEE5clearB8ne200100Ev
+- __ZNSt3__16vectorI21IMAPCommandParametersNS_9allocatorIS1_EEEC2B8ne200100Em
+- __ZSt28__throw_bad_array_new_lengthB8ne200100v
+- ___block_literal_global.760
+- _objc_claimAutoreleasedReturnValue
+- _objc_release_x11
+- _objc_retainAutoreleaseReturnValue
+- _objc_retain_x10
+- _objc_retain_x5
+- _objc_retain_x9
+CStrings:
++ "\t"
++ "/AppleInternal/Library/BuildRoots/4~CH0tugBBQ4jW12z1fiMAMOs4jgTMb-JjJbpMrVM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+
+```

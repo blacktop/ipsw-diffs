@@ -1,0 +1,146 @@
+## SiriSettingsUI
+
+> `/System/Library/PrivateFrameworks/SiriSettingsUI.framework/SiriSettingsUI`
+
+```diff
+
+-3505.7.1.0.0
+-  __TEXT.__text: 0x923c
+-  __TEXT.__auth_stubs: 0x9f0
+-  __TEXT.__const: 0xe08
+-  __TEXT.__swift5_typeref: 0x874
+-  __TEXT.__swift5_capture: 0x90
++3520.39.1.0.0
++  __TEXT.__text: 0x9ce4
++  __TEXT.__auth_stubs: 0xb50
++  __TEXT.__const: 0xe38
++  __TEXT.__swift5_typeref: 0x928
++  __TEXT.__swift5_capture: 0x94
++  __TEXT.__constg_swiftt: 0x320
+   __TEXT.__swift5_reflstr: 0x137
+   __TEXT.__swift5_assocty: 0x60
+-  __TEXT.__constg_swiftt: 0x29c
+   __TEXT.__swift5_fieldmd: 0x364
+-  __TEXT.__cstring: 0x3f2
++  __TEXT.__cstring: 0x4f7
+   __TEXT.__swift5_builtin: 0x28
+   __TEXT.__swift5_proto: 0xa4
+   __TEXT.__swift5_types: 0x34
+
+   __TEXT.__swift5_protos: 0x4
+   __TEXT.__oslogstring: 0xa9
+   __TEXT.__swift_as_entry: 0x4
+-  __TEXT.__unwind_info: 0x3a0
+-  __TEXT.__eh_frame: 0x228
++  __TEXT.__unwind_info: 0x3d0
++  __TEXT.__eh_frame: 0x2b0
++  __TEXT.__objc_classname: 0x5b
+   __TEXT.__objc_methname: 0x163
+-  __DATA_CONST.__got: 0x1f8
++  __TEXT.__objc_stubs: 0x1e0
++  __DATA_CONST.__got: 0x218
+   __DATA_CONST.__const: 0xe0
+   __DATA_CONST.__objc_classlist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x78
+-  __AUTH_CONST.__auth_got: 0x4f8
++  __AUTH_CONST.__auth_got: 0x5b0
+   __AUTH_CONST.__const: 0x7c8
+   __AUTH_CONST.__objc_const: 0x120
+   __AUTH.__data: 0xa8
+-  __DATA.__data: 0x2f0
+-  __DATA.__bss: 0x1400
++  __DATA.__data: 0x2f8
++  __DATA.__bss: 0x1428
+   __DATA.__common: 0x18
+   __DATA_DIRTY.__data: 0x98
+   __DATA_DIRTY.__bss: 0x80
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1600EB6D-9E1F-35B9-832C-AA0062206FF8
+-  Functions: 379
+-  Symbols:   350
+-  CStrings:  39
++  UUID: 8CE8AB45-058E-3777-9716-2B972C46BE77
++  Functions: 396
++  Symbols:   427
++  CStrings:  54
+ 
+Symbols:
++ __MergedGlobals
++ ___isOSVersionAtLeast
++ ___isOSVersionAtLeast.cold.1
++ ___isPlatformVersionAtLeast
++ ___isPlatformVersionAtLeast.cold.1
++ ___isPlatformVersionAtLeast.cold.2
++ ___stack_chk_fail
++ ___stack_chk_guard
++ __availability_version_check
++ __initializeAvailabilityCheck
++ _compatibilityInitializeAvailabilityCheck
++ _dispatch_once_f
++ _dlsym
++ _fclose
++ _fopen
++ _fread
++ _free
++ _fseek
++ _ftell
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOQr.7
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOqd__AaBHC.8
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE27accessibilityRepresentation14representationQrqd__yXE_tAaBRd__lFQOyAcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAC07SnippetB0E15componentTapped12isNavigation7performQrSb_yyctFQOyAI019SummaryItemSwitchV2C0V_Qo__SbQo__AA15ModifiedContentVyAA6ToggleVyAA4TextVGAA31AccessibilityAttachmentModifierVGQo_HO.10
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAC07SnippetB0E26lastComponentBottomSpacingyQrAG0j5StackkL0OFQOyAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAA15ModifiedContentVyAG0jM0VyAA05TupleC0VyAcGE15componentTapped12isNavigation7performQrSb_yyctFQOyARyAG012SashStandardC0VAA24_ForegroundStyleModifierVyAA15BackgroundStyleVGG_Qo__ARyARyARyAA6SliderVyAA05EmptyC0VAcGE10imageStyleyQr0H3Kit12ImageElementV10ImageStyleOFQOyARyAG07RFImageC0VA1_yAA5ColorVGG_Qo_GAA14_PaddingLayoutVGAA34_InsettableBackgroundShapeModifierVyAA8MaterialVAA16RoundedRectangleVGGA26_GtGGAA18_AnimationModifierVySdGG_Qo__Qo__SdQo_HO.11
++ _initializeAvailabilityCheck
++ _malloc
++ _objc_msgSend$CGImage
++ _objc_msgSend$bundleForClass:
++ _objc_msgSend$code
++ _objc_msgSend$description
++ _objc_msgSend$imageForDescriptor:
++ _objc_msgSend$initWithCGImage:
++ _objc_msgSend$initWithDeviceName:deviceModel:deviceCategory:
++ _objc_msgSend$initWithDouble:
++ _objc_msgSend$initWithSettingId:targetDevice:targetApp:
++ _objc_msgSend$initWithSettingMetadata:numericValue:boundedValue:action:temporalEventTrigger:
++ _objc_msgSend$initWithSize:scale:
++ _objc_msgSend$initWithType:
++ _objc_msgSend$initWithValue:unit:
++ _objc_msgSend$placeholder
++ _objc_msgSend$prepareImageForDescriptor:
++ _objc_retain_x21
++ _objc_retain_x27
++ _rewind
++ _sscanf
++ _symbolic ScA_pSg
++ _symbolic _____yAAy_____y_____y_____yAAy__________y_____GG_Qo__AAyAAyAAy_____y__________yAAy_____AEy_____GG_Qo_G_____G_____y__________GGARGtGG_____ySdGG_____G 7SwiftUI15ModifiedContentV 07SnippetB014ComponentStackV AA9TupleViewV AA0I0PADE15componentTapped12isNavigation7performQrSb_yyctFQO AD012SashStandardI0V AA24_ForegroundStyleModifierV AA010BackgroundR0V AA6SliderV AA05EmptyI0V AjDE05imageR0yQr0E3Kit12ImageElementV0yR0OFQO AD07RFImageI0V AA5ColorV AA14_PaddingLayoutV AA011_Insettablet5ShapeS0V AA8MaterialV AA16RoundedRectangleV AA010_AnimationS0V AA14_TaskModifier2V
++ _symbolic _____y_____y_____y_____y_____yAAy__________y_____GG_Qo__AAyAAyAAy_____y__________yAAy_____AEy_____GG_Qo_G_____G_____y__________GGARGtGG_____ySdGG_Qo_ 7SwiftUI4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA15ModifiedContentV 07SnippetB014ComponentStackV AA05TupleC0V AcLE15componentTapped12isNavigation7performQrSb_yyctFQO AL012SashStandardC0V AA24_ForegroundStyleModifierV AA010BackgroundW0V AA6SliderV AA05EmptyC0V AcLE05imageW0yQr0K3Kit12ImageElementV05ImageW0OFQO AL07RFImageC0V AA5ColorV AA14_PaddingLayoutV AA011_Insettabley5ShapeX0V AA8MaterialV AA16RoundedRectangleV AA010_AnimationX0V
++ _symbolic _____y_____y_____y_____y_____y_____yAAy__________y_____GG_Qo__AAyAAyAAy_____y__________yAAy_____AEy_____GG_Qo_G_____G_____y__________GGARGtGG_____ySdGG_Qo__Qo_ 7SwiftUI4ViewP07SnippetB0E26lastComponentBottomSpacingyQrAD0f5StackgH0OFQO AcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA15ModifiedContentV AD0fI0V AA05TupleC0V AcDE15componentTapped12isNavigation7performQrSb_yyctFQO AD012SashStandardC0V AA24_ForegroundStyleModifierV AA010BackgroundZ0V AA6SliderV AA05EmptyC0V AcDE05imageZ0yQr0D3Kit12ImageElementV05ImageZ0OFQO AD07RFImageC0V AA5ColorV AA14_PaddingLayoutV AA34_InsettableBackgroundShapeModifierV AA8MaterialV AA16RoundedRectangleV AA18_AnimationModifierV
++ _symbolic _____y_____y_____y_____y_____y_____y_____yAAy__________y_____GG_Qo__AAyAAyAAy_____y__________yAAy_____AEy_____GG_Qo_G_____G_____y__________GGARGtGG_____ySdGG_Qo__Qo__SdQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AC07SnippetB0E26lastComponentBottomSpacingyQrAG0j5StackkL0OFQO AcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA15ModifiedContentV AG0jM0V AA05TupleC0V AcGE15componentTapped12isNavigation7performQrSb_yyctFQO AG012SashStandardC0V AA24_ForegroundStyleModifierV AA15BackgroundStyleV AA6SliderV AA05EmptyC0V AcGE10imageStyleyQr0H3Kit12ImageElementV10ImageStyleOFQO AG07RFImageC0V AA5ColorV AA14_PaddingLayoutV AA34_InsettableBackgroundShapeModifierV AA8MaterialV AA16RoundedRectangleV AA18_AnimationModifierV
++ _symbolic qd__
+- _OUTLINED_FUNCTION_25
+- _OUTLINED_FUNCTION_26
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE27accessibilityRepresentation14representationQrqd__yXE_tAaBRd__lFQOyAcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAC07SnippetB0E15componentTapped12isNavigation7performQrSb_yyctFQOyAI019SummaryItemSwitchV2C0V_Qo__SbQo__AA15ModifiedContentVyAA6ToggleVyAA4TextVGAA31AccessibilityAttachmentModifierVGQo_HO.8
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAC07SnippetB0E26lastComponentBottomSpacingyQrAG0j5StackkL0OFQOyAA15ModifiedContentVyALyAG0jM0VyAA05TupleC0VyAcGE15componentTapped12isNavigation7performQrSb_yyctFQOyALyAG012SashStandardC0VAA24_ForegroundStyleModifierVyAA010BackgroundY0VGG_Qo__ALyALyALyAA6SliderVyAA05EmptyC0VAcGE05imageY0yQr0H3Kit12ImageElementV05ImageY0OFQOyALyAG07RFImageC0VAWyAA5ColorVGG_Qo_GAA14_PaddingLayoutVGAA026_InsettableBackgroundShapeZ0VyAA8MaterialVAA16RoundedRectangleVGGA20_GtGGAA010_AnimationZ0VySdGGAA05_TaskZ0VG_Qo__SdQo_HO.10
+- _symbolic _____yAAy_____y_____y_____yAAy__________y_____GG_Qo__AAyAAyAAy_____y__________yAAy_____AEy_____GG_Qo_G_____G_____y__________GGARGtGG_____ySdGG_____G 7SwiftUI15ModifiedContentV 07SnippetB014ComponentStackV AA9TupleViewV AA0I0PADE15componentTapped12isNavigation7performQrSb_yyctFQO AD012SashStandardI0V AA24_ForegroundStyleModifierV AA010BackgroundR0V AA6SliderV AA05EmptyI0V AjDE05imageR0yQr0E3Kit12ImageElementV0yR0OFQO AD07RFImageI0V AA5ColorV AA14_PaddingLayoutV AA011_Insettablet5ShapeS0V AA8MaterialV AA16RoundedRectangleV AA010_AnimationS0V AA05_TaskS0V
+- _symbolic _____y_____yAAy_____y_____y_____yAAy__________y_____GG_Qo__AAyAAyAAy_____y__________yAAy_____AEy_____GG_Qo_G_____G_____y__________GGARGtGG_____ySdGG_____G_Qo_ 7SwiftUI4ViewP07SnippetB0E26lastComponentBottomSpacingyQrAD0f5StackgH0OFQO AA15ModifiedContentV AD0fI0V AA05TupleC0V AcDE15componentTapped12isNavigation7performQrSb_yyctFQO AD012SashStandardC0V AA24_ForegroundStyleModifierV AA010BackgroundU0V AA6SliderV AA05EmptyC0V AcDE05imageU0yQr0D3Kit12ImageElementV05ImageU0OFQO AD07RFImageC0V AA5ColorV AA14_PaddingLayoutV AA011_Insettablew5ShapeV0V AA8MaterialV AA16RoundedRectangleV AA010_AnimationV0V AA05_TaskV0V
+- _symbolic _____y_____y_____yAAy_____y_____y_____yAAy__________y_____GG_Qo__AAyAAyAAy_____y__________yAAy_____AEy_____GG_Qo_G_____G_____y__________GGARGtGG_____ySdGG_____G_Qo__SdQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AC07SnippetB0E26lastComponentBottomSpacingyQrAG0j5StackkL0OFQO AA15ModifiedContentV AG0jM0V AA05TupleC0V AcGE15componentTapped12isNavigation7performQrSb_yyctFQO AG012SashStandardC0V AA24_ForegroundStyleModifierV AA010BackgroundY0V AA6SliderV AA05EmptyC0V AcGE05imageY0yQr0H3Kit12ImageElementV05ImageY0OFQO AG07RFImageC0V AA5ColorV AA14_PaddingLayoutV AA026_InsettableBackgroundShapeZ0V AA8MaterialV AA16RoundedRectangleV AA010_AnimationZ0V AA05_TaskZ0V
+CStrings:
++ "%d.%d.%d"
++ "/System/Library/CoreServices/SystemVersion.plist"
++ "CFDataCreateWithBytesNoCopy"
++ "CFDictionaryGetValue"
++ "CFGetTypeID"
++ "CFPropertyListCreateFromXMLData"
++ "CFPropertyListCreateWithData"
++ "CFRelease"
++ "CFStringCreateWithCStringNoCopy"
++ "CFStringGetCString"
++ "CFStringGetTypeID"
++ "ProductVersion"
++ "View.task @ SiriSettingsUI/NumericSettingView.swift:"
++ "kCFAllocatorNull"
++ "r"
+
+```

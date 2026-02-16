@@ -1,0 +1,188 @@
+## _PassKit_SwiftUI
+
+> `/System/Library/Frameworks/_PassKit_SwiftUI.framework/_PassKit_SwiftUI`
+
+```diff
+
+-1642.4.3.0.0
+-  __TEXT.__text: 0x217b8
+-  __TEXT.__auth_stubs: 0xfd0
+-  __TEXT.__objc_methlist: 0x50c
+-  __TEXT.__const: 0x2980
++1642.5.12.3.0
++  __TEXT.__text: 0x209f8
++  __TEXT.__auth_stubs: 0xf90
++  __TEXT.__objc_methlist: 0x504
++  __TEXT.__const: 0x2a10
+   __TEXT.__oslogstring: 0x23
+   __TEXT.__constg_swiftt: 0x1124
+   __TEXT.__swift5_typeref: 0x1bf8
+-  __TEXT.__cstring: 0xb2f
+   __TEXT.__swift5_reflstr: 0x859
+   __TEXT.__swift5_fieldmd: 0x968
+   __TEXT.__swift5_builtin: 0x140
+   __TEXT.__swift5_assocty: 0x468
+-  __TEXT.__swift5_proto: 0xe4
++  __TEXT.__cstring: 0x47f
++  __TEXT.__swift5_proto: 0xf4
+   __TEXT.__swift5_types: 0xf4
+   __TEXT.__swift5_protos: 0x8
+   __TEXT.__swift5_capture: 0x41c
+   __TEXT.__swift5_mpenum: 0x28
+   __TEXT.__swift_as_entry: 0x64
+   __TEXT.__swift_as_ret: 0x5c
+-  __TEXT.__unwind_info: 0xad8
+-  __TEXT.__eh_frame: 0xc2c
+-  __TEXT.__objc_classname: 0xc3
+-  __TEXT.__objc_methname: 0xee9
+-  __TEXT.__objc_methtype: 0x7e0
+-  __TEXT.__objc_stubs: 0x140
+-  __DATA_CONST.__got: 0x318
++  __TEXT.__unwind_info: 0xad0
++  __TEXT.__eh_frame: 0xc3c
++  __TEXT.__objc_classname: 0x329
++  __TEXT.__objc_methname: 0x10e0
++  __TEXT.__objc_methtype: 0x91a
++  __TEXT.__objc_stubs: 0x8e0
++  __DATA_CONST.__got: 0x320
+   __DATA_CONST.__const: 0x98
+   __DATA_CONST.__objc_classlist: 0x40
+   __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x418
++  __DATA_CONST.__objc_selrefs: 0x400
+   __DATA_CONST.__objc_protorefs: 0x28
+-  __AUTH_CONST.__auth_got: 0x7f0
++  __AUTH_CONST.__auth_got: 0x7d0
+   __AUTH_CONST.__const: 0x1a60
+   __AUTH_CONST.__objc_const: 0x7b8
+   __AUTH.__objc_data: 0x5d8
+   __AUTH.__data: 0x400
+   __DATA.__data: 0xdf0
+-  __DATA.__bss: 0x1d98
++  __DATA.__bss: 0x1f98
+   __DATA.__common: 0x38
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/PassKit.framework/PassKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 65A09A52-123F-3413-8E85-EC269E06FD21
+-  Functions: 1005
+-  Symbols:   828
+-  CStrings:  260
++  UUID: 9612CC0A-2980-3FCB-A774-A293223FA0CD
++  Functions: 990
++  Symbols:   882
++  CStrings:  248
+ 
+Symbols:
++ _block_copy_helper.18
++ _block_descriptor.20
++ _block_destroy_helper.19
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOQr.1
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOqd__AaBHC.2
++ _get_witness_table 7SwiftUI4ViewRzlqd__AaBHD2_AaBPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAA5GroupVyAA19_ConditionalContentVyAMy09_PassKit_aB014IdentityButtonVAcAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQOyAP_SSAA05TupleC0VyAA0O0VyAA4TextVG_A2_tGA1_Qo_GxSgGG_Qo_HO.4
++ _get_witness_table 7SwiftUI4ViewRzlqd__AaBHD2_AaBPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAA5GroupVyAA19_ConditionalContentVyAMyAA08ModifiedK0Vy09_PassKit_aB003Addm6ButtonC0VAA25_AppearanceActionModifierVGAcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAMyArMyAcAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQOyAcAE15fullScreenCoverAZ0T7Dismiss7contentQrA3__yycSgqd__yctAaBRd__lFQOyAR_AOyAA03AnyC0VAA011_BackgroundS0VyAP015ClearBackgroundC0VGGQo__SSAA05TupleC0VyAA0P0VyAA4TextVG_A23_tGA22_Qo_ARGG_SbQo_GxSgGG_Qo_HO.31
++ _get_witness_table 7SwiftUI4ViewRzlqd__AaBHD2_AaBPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAA6VStackVyAA19_ConditionalContentVyAA08ModifiedK0Vy09_PassKit_aB008PayLaterC7Wrapper33_EB575C4C5AA55B7D5413C9A3A688CAF2LLVAA16_FlexFrameLayoutVGxSgGG_Qo_HO.11
++ _get_witness_table 7SwiftUI4ViewRzlqd__AaBHD2_AaBPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAA6ZStackVyAA19_ConditionalContentVyAA08ModifiedK0VyAA5GroupVyAMyAMy09_PassKit_aB0037DynamicPaymentButtonRepresentableSlotC0VATGAMyAR0qrC0VAWGGGAA23_GeometryActionModifierVySo6CGSizeVA2_SQ12CoreGraphicsyHCg_GGxSgGG_Qo_HO.3
++ _objc_msgSend$addGestureRecognizer:
++ _objc_msgSend$addTarget:action:forControlEvents:
++ _objc_msgSend$canAddPasses
++ _objc_msgSend$canAddPaymentPass
++ _objc_msgSend$canAddSecureElementPassWithConfiguration:
++ _objc_msgSend$canMakePayments
++ _objc_msgSend$canMakePaymentsUsingNetworks:capabilities:
++ _objc_msgSend$checkCanRequestDocument:completion:
++ _objc_msgSend$clearColor
++ _objc_msgSend$configurationForPassMetadata:provisioningPolicyIdentifier:primaryAction:completion:
++ _objc_msgSend$descriptor
++ _objc_msgSend$didAddPasses:
++ _objc_msgSend$dismissWithCompletion:
++ _objc_msgSend$dynamicPaymentButtonForPaymentRequest:style:size:type:interfaceStyle:
++ _objc_msgSend$dynamicPaymentButtonForType:style:size:interfaceStyle:action:
++ _objc_msgSend$errors
++ _objc_msgSend$init
++ _objc_msgSend$initWithAddPassButtonStyle:
++ _objc_msgSend$initWithConfiguration:delegate:
++ _objc_msgSend$initWithDomain:code:userInfo:
++ _objc_msgSend$initWithEncryptionScheme:
++ _objc_msgSend$initWithErrors:paymentSummaryItems:
++ _objc_msgSend$initWithErrors:paymentSummaryItems:shippingMethods:
++ _objc_msgSend$initWithLabel:style:
++ _objc_msgSend$initWithPasses:
++ _objc_msgSend$initWithPaymentButtonType:paymentButtonStyle:
++ _objc_msgSend$initWithPaymentButtonType:paymentButtonStyle:disableCardArt:
++ _objc_msgSend$initWithPaymentRequest:
++ _objc_msgSend$initWithPaymentSummaryItems:
++ _objc_msgSend$initWithRequestConfiguration:delegate:
++ _objc_msgSend$initWithStatus:merchantSession:
++ _objc_msgSend$initWithTarget:action:
++ _objc_msgSend$localizedDeletableWalletStringFor:
++ _objc_msgSend$merchantCapabilities
++ _objc_msgSend$openInstallWallet
++ _objc_msgSend$paymentSummaryItems
++ _objc_msgSend$presentWithCompletion:
++ _objc_msgSend$requestDocument:completion:
++ _objc_msgSend$setAction:
++ _objc_msgSend$setBackgroundColor:
++ _objc_msgSend$setCardDetails:
++ _objc_msgSend$setCardholderName:
++ _objc_msgSend$setContentHuggingPriority:forAxis:
++ _objc_msgSend$setDelegate:
++ _objc_msgSend$setDisplayStyle:
++ _objc_msgSend$setIssuerIdentifier:
++ _objc_msgSend$setLocalizedDescription:
++ _objc_msgSend$setPassword:
++ _objc_msgSend$setPaymentNetwork:
++ _objc_msgSend$setPrimaryAccountIdentifier:
++ _objc_msgSend$setPrimaryAccountSuffix:
++ _objc_msgSend$setProductIdentifiers:
++ _objc_msgSend$setStyle:
++ _objc_msgSend$setSupportedRadioTechnologies:
++ _objc_msgSend$setUserInteractionEnabled:
++ _objc_msgSend$shippingMethods
++ _objc_msgSend$signpostIntervalBeginRenderSimpleButtonEvent
++ _objc_msgSend$signpostIntervalEndRenderSimpleButtonEvent
++ _objc_msgSend$status
++ _objc_msgSend$superview
++ _objc_msgSend$supportedNetworks
++ _objc_msgSend$view
++ _objc_msgSend$window
++ _objectdestroy.20Tm
++ _objectdestroy.30Tm
++ _symbolic _____y_____y_____yABy__________yAC_SS_____y_____y_____G_AGtGAFQo_GxSgGG_Qo_ 7SwiftUI4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA5GroupV AA19_ConditionalContentV 09_PassKit_aB014IdentityButtonV AcAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQO AA05TupleC0V AA0O0V AA4TextV
++ _symbolic _____y_____y_____yABy_____y__________G_____yAByAdBy_____y_____yAD_ACy__________y_____GGQo__SS_____y_____y_____G_APtGAOQo_ADGG_SbQo_GxSgGG_Qo_ 7SwiftUI4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA5GroupV AA19_ConditionalContentV AA08ModifiedK0V 09_PassKit_aB003Addm6ButtonC0V AA25_AppearanceActionModifierV AcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQO AcAE15fullScreenCoverAY0T7Dismiss7contentQrA2__yycSgqd__yctAaBRd__lFQO AA03AnyC0V AA011_BackgroundS0V AP015ClearBackgroundC0V AA05TupleC0V AA0P0V AA4TextV
++ _symbolic _____y_____y_____y_____y__________GxSgGG_Qo_ 7SwiftUI4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA6VStackV AA19_ConditionalContentV AA08ModifiedK0V 09_PassKit_aB008PayLaterC7Wrapper33_EB575C4C5AA55B7D5413C9A3A688CAF2LLV AA16_FlexFrameLayoutV
++ _symbolic _____y_____y_____y_____y_____yAByABy_____AEGABy_____AGGGG_____y_____ALSQ12CoreGraphicsyHCg_GGxSgGG_Qo_ 7SwiftUI4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA6ZStackV AA19_ConditionalContentV AA08ModifiedK0V AA5GroupV 09_PassKit_aB0037DynamicPaymentButtonRepresentableSlotC0V AR0qrC0V AA23_GeometryActionModifierV So6CGSizeV
+- +[PKPassKitSwiftUIObjcBridge appBundleIdentifer]
+- _OBJC_CLASS_$_NSBundle
+- _block_copy_helper.17
+- _block_descriptor.19
+- _block_destroy_helper.18
+- _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line6actionQrSSSg_ScPSSSiyyYaYAcntFQOQr.1
+- _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line6actionQrSSSg_ScPSSSiyyYaYAcntFQOqd__AaBHC.2
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyAA5GroupVyAA012_ConditionalE0VyAHy09_PassKit_aB014IdentityButtonVAaBPAAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQOyAK_SSAA05TupleC0VyAA0K0VyAA4TextVG_AZtGAYQo_GxSgGGAA13_TaskModifierVGAaBHPA4_AaBHPA3_AaBHPA1_AaBHPAkaBHPyHC_qd0__AaBHD5_A0_HOHC_A2_AaBHpxAaBHD1__HCHC_HC_A6_AA0cU0HPyHCHC.3
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyAA5GroupVyAA012_ConditionalE0VyAHyADy09_PassKit_aB003Addh6ButtonC0VAA25_AppearanceActionModifierVGAaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAHyAkHyAoAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQOyAoAE15fullScreenCoverAT0O7Dismiss7contentQrAY_yycSgqd__yctAaBRd__lFQOyAK_ADyAA03AnyC0VAA011_BackgroundN0VyAI015ClearBackgroundC0VGGQo__SSAA05TupleC0VyAA0K0VyAA4TextVG_A17_tGA16_Qo_AKGG_SbQo_GxSgGGAA05_TaskN0VGAaBHPA26_AaBHPA25_AaBHPA23_AaBHPAnaBHPAkaBHPyHC_AmA0cN0HPyHCHC_qd0__AaBHD3_A22_HOHC_A24_AaBHpxAaBHD1__HCHC_HC_A28_AAA30_HPyHCHC.30
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyAA6VStackVyAA012_ConditionalE0VyADy09_PassKit_aB008PayLaterC7Wrapper33_EB575C4C5AA55B7D5413C9A3A688CAF2LLVAA16_FlexFrameLayoutVGxSgGGAA13_TaskModifierVGAaBHPAraBHPyHC_AtA0C8ModifierHPyHCHC.10
+- _get_witness_table 7SwiftUI4ViewRzlqd__AaBHD2_AaBPAAE4task4name8priority4file4line6actionQrSSSg_ScPSSSiyyYaYAcntFQOyAA6ZStackVyAA19_ConditionalContentVyAA08ModifiedL0VyAA5GroupVyANyANy09_PassKit_aB0037DynamicPaymentButtonRepresentableSlotC0VAUGANyAS0rsC0VAXGGGAA23_GeometryActionModifierVySo6CGSizeVA3_SQ12CoreGraphicsyHCg_GGxSgGG_Qo_HO.3
+- _keypath_getTm
+- _objc_claimAutoreleasedReturnValue
+- _objc_msgSend$bundleIdentifier
+- _objc_msgSend$mainBundle
+- _objc_retain_x5
+- _objectdestroy.29Tm
+- _symbolic _____y_____y_____yAAy__________GxSgGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA012_ConditionalD0V 09_PassKit_aB019PayLaterViewWrapper33_EB575C4C5AA55B7D5413C9A3A688CAF2LLV AA16_FlexFrameLayoutV AA13_TaskModifierV
+- _symbolic _____y_____y_____yACyAAy__________G_____yACyAdCy_____y_____yAD_AAy__________y_____GGQo__SS_____y_____y_____G_APtGAOQo_ADGG_SbQo_GxSgGG_____G 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V 09_PassKit_aB003AddG10ButtonViewV AA25_AppearanceActionModifierV AA0K0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AnAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaMRd_0_AaMRd_1_r1_lFQO AnAE15fullScreenCoverAS0O7Dismiss7contentQrAX_yycSgqd__yctAaMRd__lFQO AA03AnyK0V AA011_BackgroundN0V AH015ClearBackgroundK0V AA05TupleK0V AA0J0V AA4TextV AA05_TaskN0V
+- _symbolic _____y_____y_____yACy__________yAD_SS_____y_____y_____G_AHtGAGQo_GxSgGG_____G 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V 09_PassKit_aB014IdentityButtonV AA4ViewPAAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaKRd_0_AaKRd_1_r1_lFQO AA05TupleK0V AA0J0V AA4TextV AA13_TaskModifierV
+- _symbolic _____y_____y_____y_____y_____yAByABy_____AEGABy_____AGGGG_____y_____ALSQ12CoreGraphicsyHCg_GGxSgGG_Qo_ 7SwiftUI4ViewPAAE4task4name8priority4file4line6actionQrSSSg_ScPSSSiyyYaYAcntFQO AA6ZStackV AA19_ConditionalContentV AA08ModifiedL0V AA5GroupV 09_PassKit_aB0037DynamicPaymentButtonRepresentableSlotC0V AS0rsC0V AA23_GeometryActionModifierV So6CGSizeV
+CStrings:
++ "_PassKit_SwiftUI"
++ "_PassKit_SwiftUI/PayLaterView.swift"
++ "_PassKit_SwiftUI/VerifyIdentityWithWalletButton.swift"
+- "appBundleIdentifer"
+- "bundleIdentifier"
+- "mainBundle"
+
+```

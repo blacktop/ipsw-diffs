@@ -1,0 +1,1252 @@
+## WidgetKit
+
+> `/System/Library/Frameworks/WidgetKit.framework/WidgetKit`
+
+```diff
+
+-664.3.5.100.0
+-  __TEXT.__text: 0x1fa714
+-  __TEXT.__auth_stubs: 0x4ea0
+-  __TEXT.__objc_methlist: 0xd88
+-  __TEXT.__const: 0x1d550
+-  __TEXT.__cstring: 0x7466
+-  __TEXT.__swift5_typeref: 0xbb68
+-  __TEXT.__swift5_reflstr: 0x4c51
+-  __TEXT.__swift5_assocty: 0x1930
+-  __TEXT.__constg_swiftt: 0xaf18
+-  __TEXT.__swift5_fieldmd: 0x65e8
+-  __TEXT.__swift5_builtin: 0x258
+-  __TEXT.__swift5_proto: 0x11e0
+-  __TEXT.__swift5_types: 0x8ec
+-  __TEXT.__swift5_capture: 0x2b70
+-  __TEXT.__oslogstring: 0x3153
+-  __TEXT.__swift5_mpenum: 0x88
++664.4.35.101.0
++  __TEXT.__text: 0x217050
++  __TEXT.__auth_stubs: 0x5040
++  __TEXT.__objc_methlist: 0xdd8
++  __TEXT.__const: 0x20828
++  __TEXT.__cstring: 0x4cb6
++  __TEXT.__swift5_typeref: 0xc2e4
++  __TEXT.__swift5_reflstr: 0x5311
++  __TEXT.__swift5_assocty: 0x19f0
++  __TEXT.__constg_swiftt: 0xbbc8
++  __TEXT.__swift5_fieldmd: 0x70bc
++  __TEXT.__swift5_builtin: 0x294
++  __TEXT.__swift5_proto: 0x1540
++  __TEXT.__swift5_types: 0x9cc
++  __TEXT.__swift5_capture: 0x2b68
++  __TEXT.__oslogstring: 0x3376
++  __TEXT.__swift5_mpenum: 0xa8
+   __TEXT.__swift_as_entry: 0x340
+   __TEXT.__swift_as_ret: 0x3cc
+-  __TEXT.__swift5_protos: 0xf4
+-  __TEXT.__unwind_info: 0x8190
+-  __TEXT.__eh_frame: 0xd36c
+-  __TEXT.__objc_classname: 0x12e
+-  __TEXT.__objc_methname: 0x1fa3
+-  __TEXT.__objc_methtype: 0x295
+-  __TEXT.__objc_stubs: 0x60
+-  __DATA_CONST.__got: 0x1788
+-  __DATA_CONST.__const: 0x838
+-  __DATA_CONST.__objc_classlist: 0x318
++  __TEXT.__swift5_protos: 0x104
++  __TEXT.__unwind_info: 0x8a10
++  __TEXT.__eh_frame: 0xe25c
++  __TEXT.__objc_classname: 0x1983
++  __TEXT.__objc_methname: 0x30a5
++  __TEXT.__objc_methtype: 0xcbb
++  __TEXT.__objc_stubs: 0x22a0
++  __DATA_CONST.__got: 0x17b0
++  __DATA_CONST.__const: 0x808
++  __DATA_CONST.__objc_classlist: 0x368
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0xd8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xa28
++  __DATA_CONST.__objc_selrefs: 0xa20
+   __DATA_CONST.__objc_protorefs: 0x80
+-  __AUTH_CONST.__auth_got: 0x2758
+-  __AUTH_CONST.__const: 0x12158
++  __AUTH_CONST.__auth_got: 0x2828
++  __AUTH_CONST.__const: 0x13bc8
+   __AUTH_CONST.__cfstring: 0xa0
+-  __AUTH_CONST.__objc_const: 0x5f80
+-  __AUTH.__objc_data: 0xa70
+-  __AUTH.__data: 0x4dd0
+-  __DATA.__data: 0x6220
+-  __DATA.__bss: 0xda60
++  __AUTH_CONST.__objc_const: 0x6878
++  __AUTH.__objc_data: 0xd58
++  __AUTH.__data: 0x5ce8
++  __DATA.__data: 0x5cb8
++  __DATA.__bss: 0x152d0
+   __DATA.__common: 0x240
+-  __DATA_DIRTY.__objc_data: 0xae8
+-  __DATA_DIRTY.__data: 0x5638
+-  __DATA_DIRTY.__common: 0x628
+-  __DATA_DIRTY.__bss: 0x15500
++  __DATA_DIRTY.__objc_data: 0xb08
++  __DATA_DIRTY.__data: 0x5808
++  __DATA_DIRTY.__common: 0x5c8
++  __DATA_DIRTY.__bss: 0x14580
+   - /System/Library/Frameworks/ActivityKit.framework/ActivityKit
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3516EA3B-6D2F-30C4-9A8B-37BC5E59EC69
+-  Functions: 11443
+-  Symbols:   4745
+-  CStrings:  1377
++  UUID: 03517A28-21D9-3B7D-85D8-50AEB6236B84
++  Functions: 12163
++  Symbols:   5273
++  CStrings:  1440
+ 
+Symbols:
++ _OBJC_CLASS_$__TtC9WidgetKit22ActivityWidgetResponse
++ _OBJC_METACLASS_$__TtC9WidgetKit22ActivityWidgetResponse
++ __CLASS_METHODS__TtC9WidgetKit22ActivityWidgetResponse
++ __CLASS_PROPERTIES__TtC9WidgetKit22ActivityWidgetResponse
++ __DATA__TtC9WidgetKit15JindoViewStates
++ __DATA__TtC9WidgetKit16ActivityArchiver
++ __DATA__TtC9WidgetKit18ActivityViewStates
++ __DATA__TtC9WidgetKit18ListItemViewStates
++ __DATA__TtC9WidgetKit20LiveActivityMetadata
++ __DATA__TtC9WidgetKit22ActivityWidgetResponse
++ __DATA__TtC9WidgetKit34_SimpleActivityArchivingDataSource
++ __DATA__TtC9WidgetKit35_DefaultActivityArchivingDataSource
++ __DATA__TtC9WidgetKitP33_7CD9974EBF49E061C9CE4E55605646D310_MapStates
++ __DATA__TtC9WidgetKitP33_7CD9974EBF49E061C9CE4E55605646D315_SimpleDelegate
++ __INSTANCE_METHODS__TtC9WidgetKit22ActivityWidgetResponse
++ __IVARS__TtC9WidgetKit15JindoViewStates
++ __IVARS__TtC9WidgetKit16ActivityArchiver
++ __IVARS__TtC9WidgetKit18ActivityViewStates
++ __IVARS__TtC9WidgetKit18ListItemViewStates
++ __IVARS__TtC9WidgetKit22ActivityWidgetResponse
++ __IVARS__TtC9WidgetKit34_SimpleActivityArchivingDataSource
++ __IVARS__TtC9WidgetKit35_DefaultActivityArchivingDataSource
++ __METACLASS_DATA__TtC9WidgetKit15JindoViewStates
++ __METACLASS_DATA__TtC9WidgetKit16ActivityArchiver
++ __METACLASS_DATA__TtC9WidgetKit18ActivityViewStates
++ __METACLASS_DATA__TtC9WidgetKit18ListItemViewStates
++ __METACLASS_DATA__TtC9WidgetKit20LiveActivityMetadata
++ __METACLASS_DATA__TtC9WidgetKit22ActivityWidgetResponse
++ __METACLASS_DATA__TtC9WidgetKit34_SimpleActivityArchivingDataSource
++ __METACLASS_DATA__TtC9WidgetKit35_DefaultActivityArchivingDataSource
++ __METACLASS_DATA__TtC9WidgetKitP33_7CD9974EBF49E061C9CE4E55605646D310_MapStates
++ __METACLASS_DATA__TtC9WidgetKitP33_7CD9974EBF49E061C9CE4E55605646D315_SimpleDelegate
++ __PROTOCOLS_CHKWidgetEnvironment.141
++ __PROTOCOLS__TtC9WidgetKit22ActivityWidgetResponse
++ __PROTOCOLS__TtC9WidgetKit22ActivityWidgetResponse.18
++ ___swift_allocate_boxed_opaque_existential_2Tm
++ ___swift_deallocate_boxed_opaque_existential_2Tm
++ ___swift_memcpy106_8
++ ___swift_memcpy18_8
++ ___swift_memcpy2_1
++ ___swift_memcpy37_4
++ ___swift_memcpy90_8
++ ___swift_memcpy94_8
++ ___swift_mutable_project_boxed_opaque_existential_2
++ ___unnamed_23
++ ___unnamed_25
++ _associated conformance 9WidgetKit08ActivityA7RequestC6InputsV10CodingKeys33_8F8778BBFCF9A71CF0283FF1D618C7EFLLOSHAASQ
++ _associated conformance 9WidgetKit08ActivityA7RequestC6InputsV10CodingKeys33_8F8778BBFCF9A71CF0283FF1D618C7EFLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit08ActivityA7RequestC6InputsV10CodingKeys33_8F8778BBFCF9A71CF0283FF1D618C7EFLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit08ActivityA8ResponseC5InnerV10CodingKeys33_8F8778BBFCF9A71CF0283FF1D618C7EFLLOSHAASQ
++ _associated conformance 9WidgetKit08ActivityA8ResponseC5InnerV10CodingKeys33_8F8778BBFCF9A71CF0283FF1D618C7EFLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit08ActivityA8ResponseC5InnerV10CodingKeys33_8F8778BBFCF9A71CF0283FF1D618C7EFLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit0A11EnvironmentV6AnyKeyC7Storage33_78669324E9282AD527DC22F3259D9FF4LLC6ErrorsOy__x_GSHAASQ
++ _associated conformance 9WidgetKit11CodableBoolV22PreLuckierECodableKeysOSHAASQ
++ _associated conformance 9WidgetKit11CodableBoolV22PreLuckierECodableKeysOs9CodingKeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit11CodableBoolV22PreLuckierECodableKeysOs9CodingKeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit14ArchiveVersionOSLAASQ
++ _associated conformance 9WidgetKit15ActivityViewTagO11PreLuckierEO10CodingKeys33_C14204A2EA5478F6573134794C94AC79LLOSHAASQ
++ _associated conformance 9WidgetKit15ActivityViewTagO11PreLuckierEO10CodingKeys33_C14204A2EA5478F6573134794C94AC79LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit15ActivityViewTagO11PreLuckierEO10CodingKeys33_C14204A2EA5478F6573134794C94AC79LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit15ActivityViewTagO11PreLuckierEO15JindoCodingKeys33_C14204A2EA5478F6573134794C94AC79LLOSHAASQ
++ _associated conformance 9WidgetKit15ActivityViewTagO11PreLuckierEO15JindoCodingKeys33_C14204A2EA5478F6573134794C94AC79LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit15ActivityViewTagO11PreLuckierEO15JindoCodingKeys33_C14204A2EA5478F6573134794C94AC79LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit15ActivityViewTagO11PreLuckierEO18ListItemCodingKeys33_C14204A2EA5478F6573134794C94AC79LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit15ActivityViewTagO11PreLuckierEO18ListItemCodingKeys33_C14204A2EA5478F6573134794C94AC79LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit15ActivityViewTagOSLAASQ
++ _associated conformance 9WidgetKit15JindoViewStatesC14ArchivingErrorO10Foundation09LocalizedG0AAs0G0
++ _associated conformance 9WidgetKit15JindoViewStatesCAA0dE0AA0D8MetadataAaDP_SE
++ _associated conformance 9WidgetKit15JindoViewStatesCAA0dE0AA0D8MetadataAaDP_SQ
++ _associated conformance 9WidgetKit15JindoViewStatesCAA0dE0AA0D8MetadataAaDP_Se
++ _associated conformance 9WidgetKit18ActivityViewStatesCAA0dE0AA0D8MetadataAaDP_SE
++ _associated conformance 9WidgetKit18ActivityViewStatesCAA0dE0AA0D8MetadataAaDP_SQ
++ _associated conformance 9WidgetKit18ActivityViewStatesCAA0dE0AA0D8MetadataAaDP_Se
++ _associated conformance 9WidgetKit18ActivityViewStatesCAA25ArchivingMetadataProviderAA0G0AaDP_SE
++ _associated conformance 9WidgetKit18ActivityViewStatesCAA25ArchivingMetadataProviderAA0G0AaDP_Se
++ _associated conformance 9WidgetKit18ListItemViewStatesC14ArchivingErrorO10Foundation09LocalizedH0AAs0H0
++ _associated conformance 9WidgetKit18ListItemViewStatesCAA0eF0AA0E8MetadataAaDP_SE
++ _associated conformance 9WidgetKit18ListItemViewStatesCAA0eF0AA0E8MetadataAaDP_SQ
++ _associated conformance 9WidgetKit18ListItemViewStatesCAA0eF0AA0E8MetadataAaDP_Se
++ _associated conformance 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V013DynamicIslandE0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLOSHAASQ
++ _associated conformance 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V013DynamicIslandE0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V013DynamicIslandE0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V08ListItemE0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLOSHAASQ
++ _associated conformance 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V08ListItemE0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V08ListItemE0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V09ViewEntryE0V08ListItemhE0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLOSHAASQ
++ _associated conformance 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V09ViewEntryE0V08ListItemhE0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V09ViewEntryE0V08ListItemhE0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V09ViewEntryE0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLOSHAASQ
++ _associated conformance 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V09ViewEntryE0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V09ViewEntryE0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V0d5StateE0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLOSHAASQ
++ _associated conformance 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V0d5StateE0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V0d5StateE0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLOSHAASQ
++ _associated conformance 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V11ViewMetricsV10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLOSHAASQ
++ _associated conformance 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V11ViewMetricsV10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V11ViewMetricsV10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V7ViewTagO013DynamicIslandhI0OSHAASQ
++ _associated conformance 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V013DynamicIslandE0V10CodingKeysOSHAASQ
++ _associated conformance 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V013DynamicIslandE0V10CodingKeysOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V013DynamicIslandE0V10CodingKeysOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V08ListItemE0V10CodingKeysOSHAASQ
++ _associated conformance 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V08ListItemE0V10CodingKeysOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V08ListItemE0V10CodingKeysOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V09ViewEntryE0V08ListItemhE0V10CodingKeys33_F25EB7D9039C1DA1B7FD49DDA6494F82LLOSHAASQ
++ _associated conformance 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V09ViewEntryE0V08ListItemhE0V10CodingKeys33_F25EB7D9039C1DA1B7FD49DDA6494F82LLOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V09ViewEntryE0V08ListItemhE0V10CodingKeys33_F25EB7D9039C1DA1B7FD49DDA6494F82LLOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V09ViewEntryE0V10CodingKeysOSHAASQ
++ _associated conformance 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V09ViewEntryE0V10CodingKeysOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V09ViewEntryE0V10CodingKeysOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V0d5StateE0V10CodingKeys33_F25EB7D9039C1DA1B7FD49DDA6494F82LLOSHAASQ
++ _associated conformance 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V0d5StateE0V10CodingKeys33_F25EB7D9039C1DA1B7FD49DDA6494F82LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V0d5StateE0V10CodingKeys33_F25EB7D9039C1DA1B7FD49DDA6494F82LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V10CodingKeys33_F25EB7D9039C1DA1B7FD49DDA6494F82LLOSHAASQ
++ _associated conformance 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V10CodingKeys33_F25EB7D9039C1DA1B7FD49DDA6494F82LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V10CodingKeys33_F25EB7D9039C1DA1B7FD49DDA6494F82LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V11ViewMetricsV10CodingKeys33_F25EB7D9039C1DA1B7FD49DDA6494F82LLOSHAASQ
++ _associated conformance 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V11ViewMetricsV10CodingKeys33_F25EB7D9039C1DA1B7FD49DDA6494F82LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V11ViewMetricsV10CodingKeys33_F25EB7D9039C1DA1B7FD49DDA6494F82LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V11ViewMetricsVSHAASQ
++ _associated conformance 9WidgetKit20LiveActivityMetadataC06LegacyE12_PreLuckierEV013DynamicIslandE0V10CodingKeys33_C14204A2EA5478F6573134794C94AC79LLOSHAASQ
++ _associated conformance 9WidgetKit20LiveActivityMetadataC06LegacyE12_PreLuckierEV013DynamicIslandE0V10CodingKeys33_C14204A2EA5478F6573134794C94AC79LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC06LegacyE12_PreLuckierEV013DynamicIslandE0V10CodingKeys33_C14204A2EA5478F6573134794C94AC79LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC06LegacyE12_PreLuckierEV08ListItemE0V10CodingKeysOSHAASQ
++ _associated conformance 9WidgetKit20LiveActivityMetadataC06LegacyE12_PreLuckierEV08ListItemE0V10CodingKeysOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC06LegacyE12_PreLuckierEV08ListItemE0V10CodingKeysOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC06LegacyE12_PreLuckierEV09ViewEntryE0V10CodingKeys33_C14204A2EA5478F6573134794C94AC79LLOSHAASQ
++ _associated conformance 9WidgetKit20LiveActivityMetadataC06LegacyE12_PreLuckierEV09ViewEntryE0V10CodingKeys33_C14204A2EA5478F6573134794C94AC79LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC06LegacyE12_PreLuckierEV09ViewEntryE0V10CodingKeys33_C14204A2EA5478F6573134794C94AC79LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC06LegacyE12_PreLuckierEV0E5ErrorOSHAASQ
++ _associated conformance 9WidgetKit20LiveActivityMetadataC06LegacyE12_PreLuckierEV10CodingKeysOSHAASQ
++ _associated conformance 9WidgetKit20LiveActivityMetadataC06LegacyE12_PreLuckierEV10CodingKeysOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC06LegacyE12_PreLuckierEV10CodingKeysOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC06LegacyE12_PreLuckierEV11ViewMetricsV10CodingKeys33_C14204A2EA5478F6573134794C94AC79LLOSHAASQ
++ _associated conformance 9WidgetKit20LiveActivityMetadataC06LegacyE12_PreLuckierEV11ViewMetricsV10CodingKeys33_C14204A2EA5478F6573134794C94AC79LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC06LegacyE12_PreLuckierEV11ViewMetricsV10CodingKeys33_C14204A2EA5478F6573134794C94AC79LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC0E6FacadeV10CodingKeysOSHAASQ
++ _associated conformance 9WidgetKit20LiveActivityMetadataC0E6FacadeV10CodingKeysOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit20LiveActivityMetadataC0E6FacadeV10CodingKeysOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit23AccessoryActivityActionV0E4TypeO10CodingKeys33_1DF17722C147F82B9D0DE9F7888AB502LLOSHAASQ
++ _associated conformance 9WidgetKit23AccessoryActivityActionV0E4TypeO10CodingKeys33_1DF17722C147F82B9D0DE9F7888AB502LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit23AccessoryActivityActionV0E4TypeO10CodingKeys33_1DF17722C147F82B9D0DE9F7888AB502LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit23AccessoryActivityActionV0E4TypeOSHAASQ
++ _associated conformance 9WidgetKit23AccessoryActivityActionV10CodingKeys33_1DF17722C147F82B9D0DE9F7888AB502LLOSHAASQ
++ _associated conformance 9WidgetKit23AccessoryActivityActionV10CodingKeys33_1DF17722C147F82B9D0DE9F7888AB502LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit23AccessoryActivityActionV10CodingKeys33_1DF17722C147F82B9D0DE9F7888AB502LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit23AccessoryActivityActionVSHAASQ
++ _associated conformance 9WidgetKit23AccessoryActivityTargetV10CodingKeys33_7342EEA83427094F7AF2C60C15CE0B31LLOSHAASQ
++ _associated conformance 9WidgetKit23AccessoryActivityTargetV10CodingKeys33_7342EEA83427094F7AF2C60C15CE0B31LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit23AccessoryActivityTargetV10CodingKeys33_7342EEA83427094F7AF2C60C15CE0B31LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit23AccessoryActivityTargetVSHAASQ
++ _associated conformance 9WidgetKit23ActivityEncodingVersionO06PublicE0OSHAASQ
++ _associated conformance 9WidgetKit23ActivityEncodingVersionO08InternalE0OSHAASQ
++ _associated conformance 9WidgetKit23ActivityPayloadMetadataV10CodingKeys33_8F8778BBFCF9A71CF0283FF1D618C7EFLLOSHAASQ
++ _associated conformance 9WidgetKit23ActivityPayloadMetadataV10CodingKeys33_8F8778BBFCF9A71CF0283FF1D618C7EFLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit23ActivityPayloadMetadataV10CodingKeys33_8F8778BBFCF9A71CF0283FF1D618C7EFLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit23ActivityPayloadMetadataVSHAASQ
++ _associated conformance 9WidgetKit30ActivityArchivedViewCollectionV6ErrorsOSHAASQ
++ _associated conformance 9WidgetKit33_SimpleActivityViewSourceProviderV6ErrorsOyx_GSHAASQ
++ _block_copy_helper.13
++ _block_copy_helper.140
++ _block_copy_helper.162
++ _block_copy_helper.180
++ _block_copy_helper.198
++ _block_copy_helper.217
++ _block_copy_helper.236
++ _block_copy_helper.24
++ _block_copy_helper.255
++ _block_copy_helper.274
++ _block_copy_helper.28
++ _block_copy_helper.293
++ _block_copy_helper.31
++ _block_copy_helper.312
++ _block_copy_helper.330
++ _block_copy_helper.34
++ _block_copy_helper.349
++ _block_copy_helper.368
++ _block_copy_helper.40
++ _block_copy_helper.412
++ _block_copy_helper.430
++ _block_copy_helper.453
++ _block_copy_helper.459
++ _block_copy_helper.46
++ _block_descriptor.142
++ _block_descriptor.15
++ _block_descriptor.164
++ _block_descriptor.182
++ _block_descriptor.200
++ _block_descriptor.219
++ _block_descriptor.238
++ _block_descriptor.257
++ _block_descriptor.26
++ _block_descriptor.276
++ _block_descriptor.295
++ _block_descriptor.30
++ _block_descriptor.314
++ _block_descriptor.33
++ _block_descriptor.332
++ _block_descriptor.351
++ _block_descriptor.36
++ _block_descriptor.370
++ _block_descriptor.414
++ _block_descriptor.42
++ _block_descriptor.432
++ _block_descriptor.455
++ _block_descriptor.461
++ _block_descriptor.48
++ _block_destroy_helper.14
++ _block_destroy_helper.141
++ _block_destroy_helper.163
++ _block_destroy_helper.181
++ _block_destroy_helper.199
++ _block_destroy_helper.218
++ _block_destroy_helper.237
++ _block_destroy_helper.25
++ _block_destroy_helper.256
++ _block_destroy_helper.275
++ _block_destroy_helper.29
++ _block_destroy_helper.294
++ _block_destroy_helper.313
++ _block_destroy_helper.32
++ _block_destroy_helper.331
++ _block_destroy_helper.35
++ _block_destroy_helper.350
++ _block_destroy_helper.369
++ _block_destroy_helper.41
++ _block_destroy_helper.413
++ _block_destroy_helper.431
++ _block_destroy_helper.454
++ _block_destroy_helper.460
++ _block_destroy_helper.47
++ _get_enum_tag_for_layout_string 9WidgetKit15JindoViewStatesC14ArchivingErrorO
++ _get_enum_tag_for_layout_string 9WidgetKit18ListItemViewStatesC14ArchivingErrorO
++ _get_enum_tag_for_layout_string 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V0E5ErrorO
++ _get_enum_tag_for_layout_string 9WidgetKit23AccessoryActivityActionV0E4TypeO6ErrorsO
++ _get_witness_table 11ActivityKit0A10AttributesRzl06WidgetB00D23DescriptorConfigurationV7SwiftUI0dF0HPyHC.28
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA6HStackVyAA7ForEachVySnySiGSiACyACy9WidgetKit11WaveformBar33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLVAA12_FrameLayoutVGAA12_ScaleEffectVGGGAA05_FlextU0VGAA23_GeometryActionModifierVySo6CGSizeVA_SQ12CoreGraphicsyHCg_GGAA4ViewHPAwAA3_HPAtAA3_HPyHC_AvA12ViewModifierHPyHCHC_A1_AAA4_HPyHCHC.82
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA014_ViewModifier_D0Vy9WidgetKit0chD8LayerTag33_584C9B01A7A8E32F14516ECF147467F2LLVGAH0hdjK0VGALGAA0F0HPAoaQHPAlaQHPyHC_AnA0fG0HPyHCHC_AlaQHPyHCHC.18
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVyAA14FontDefinition_pXpGGAaBHPxAaBHD1__AhA0cI0HPyHCHC.176
++ _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA23LabelStyleConfigurationV4IconV_AA15ModifiedContentVyAA4TextVAA31AccessibilityAttachmentModifierVGAG5TitleVtGGAA0E0HPyHC.15
++ _get_witness_table qd0__7SwiftUI4ViewHD4_AaBPAAE16keyframeAnimator12initialValue9repeating7content9keyframesQrqd___Sbqd_0_AA018PlaceholderContentC0VyxG_qd__tYbcqd_1_qd__ct0G0Qyd_1_Rsd__AaBRd_0_AA9KeyframesRd_1_r1_lFQOyAA7CapsuleV_9WidgetKit19WaveformBarKeyframe33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLVAA08ModifiedL0VyAJyAPGAA12_FrameLayoutVGAA0S5TrackVyAT12CoreGraphics7CGFloatVAA0s5TrackL7BuilderV10buildArrayyQrSayqd__GALQyd__RszAA0s5TrackL0Rd__lFZQOyA3__AA06LinearS0VyA3_GQo_GQo_HO.103
++ _keypath_set.15Tm
++ _objc_msgSend$SDKVersion
++ _objc_msgSend$URL
++ _objc_msgSend$_className
++ _objc_msgSend$_effectiveSizePixelAlignedForDisplayScale:
++ _objc_msgSend$_extensionAuxiliaryVendorProtocol
++ _objc_msgSend$_isUnitScale
++ _objc_msgSend$_loadCurrentConfigurations:
++ _objc_msgSend$_rawLayoutInsetAdjustedSizePixelAlignedForDisplayScale:
++ _objc_msgSend$_rawSizePixelAlignedForDisplayScale:
++ _objc_msgSend$_releaseProcessAssertionForSessionIdentifier:
++ _objc_msgSend$_reloadAllTimelines:
++ _objc_msgSend$_reloadTimelinesOfKind:completion:
++ _objc_msgSend$_reloadTimelinesOfKind:inBundle:completion:
++ _objc_msgSend$_schemaDataFromIntent:error:
++ _objc_msgSend$_sendPendingCallbacksForSessionIdentifier:
++ _objc_msgSend$_systemImageNamed:
++ _objc_msgSend$_systemImageNamed:variableValue:withConfiguration:
++ _objc_msgSend$_typedIntent
++ _objc_msgSend$acquireWithError:
++ _objc_msgSend$activate
++ _objc_msgSend$addColor:forColorScheme:displayGamut:
++ _objc_msgSend$addObject:
++ _objc_msgSend$alpha
++ _objc_msgSend$archivedDataWithRootObject:requiringSecureCoding:error:
++ _objc_msgSend$archivedPreferencesWithHash:
++ _objc_msgSend$attachPreviewAgentWithFrameworkPath:endpoint:handler:
++ _objc_msgSend$attributeWithDomain:name:
++ _objc_msgSend$authenticationPolicyAllowingImplicit:
++ _objc_msgSend$backgroundRemovedContentMargins
++ _objc_msgSend$backgroundViewPolicy
++ _objc_msgSend$base64EncodedStringWithOptions:
++ _objc_msgSend$blue
++ _objc_msgSend$boolForKey:
++ _objc_msgSend$bundleIdentifier
++ _objc_msgSend$bundlePath
++ _objc_msgSend$bundleRecordWithBundleIdentifier:allowPlaceholder:error:
++ _objc_msgSend$bundleURL
++ _objc_msgSend$bundleWithIdentifier:
++ _objc_msgSend$cancel
++ _objc_msgSend$code
++ _objc_msgSend$colorGamut
++ _objc_msgSend$colorWithRed:green:blue:alpha:
++ _objc_msgSend$compare:
++ _objc_msgSend$comparedTo:
++ _objc_msgSend$configureConnection:
++ _objc_msgSend$connectionWithEndpoint:
++ _objc_msgSend$containingBundleRecord
++ _objc_msgSend$containsValueForKey:
++ _objc_msgSend$contentMargins
++ _objc_msgSend$copy
++ _objc_msgSend$copyAsCHSAvocadoDescriptor
++ _objc_msgSend$cornerRadius
++ _objc_msgSend$count
++ _objc_msgSend$currentConfigurations:
++ _objc_msgSend$currentDevice
++ _objc_msgSend$currentProcess
++ _objc_msgSend$currentState
++ _objc_msgSend$dataForVectorGlyphsWithNames:
++ _objc_msgSend$debugDescription
++ _objc_msgSend$decodeBoolForKey:
++ _objc_msgSend$decodeObjectForKey:
++ _objc_msgSend$defaultMetrics
++ _objc_msgSend$defaultUICatalogForBundle:
++ _objc_msgSend$description
++ _objc_msgSend$developerType
++ _objc_msgSend$domain
++ _objc_msgSend$dynamicTextSupport
++ _objc_msgSend$enablesMultipleTapTargets
++ _objc_msgSend$encodeBool:forKey:
++ _objc_msgSend$encodeObject:forKey:
++ _objc_msgSend$endpointForMachName:service:instance:
++ _objc_msgSend$entitlements
++ _objc_msgSend$environment
++ _objc_msgSend$error
++ _objc_msgSend$execute:
++ _objc_msgSend$executeQueries:
++ _objc_msgSend$extensionBundleIdentifier
++ _objc_msgSend$extensionIdentity
++ _objc_msgSend$failWithError:
++ _objc_msgSend$fallbackDisplayProperties
++ _objc_msgSend$family
++ _objc_msgSend$fileDescriptor
++ _objc_msgSend$fileHandle
++ _objc_msgSend$flush
++ _objc_msgSend$fontStyle
++ _objc_msgSend$getActivitiesWithRequests:completion:
++ _objc_msgSend$getAllCurrentDescriptorsWithCompletion:
++ _objc_msgSend$getAppIntentsXPCListenerEndpointWithCompletion:
++ _objc_msgSend$getControlTemplatesWithRequests:completion:
++ _objc_msgSend$getCurrentDescriptorsWithCompletion:
++ _objc_msgSend$getPlaceholdersWithRequests:completion:
++ _objc_msgSend$getTimelinesWithRequests:isPreview:completion:
++ _objc_msgSend$getWidgetRelevancesWithRequest:completion:
++ _objc_msgSend$glassOptions
++ _objc_msgSend$green
++ _objc_msgSend$handleForPredicate:error:
++ _objc_msgSend$handleURLSessionEventsFor:completion:
++ _objc_msgSend$if_dataWithAuditToken:
++ _objc_msgSend$imageNamed:inBundle:withConfiguration:
++ _objc_msgSend$infoDictionary
++ _objc_msgSend$init
++ _objc_msgSend$initWithAppBundleIdentifier:linkAction:linkActionMetadata:
++ _objc_msgSend$initWithApplicationExtensionRecord:
++ _objc_msgSend$initWithArray:
++ _objc_msgSend$initWithAttribute:intentReference:
++ _objc_msgSend$initWithAuditToken:
++ _objc_msgSend$initWithBundleIdentifier:allowPlaceholder:error:
++ _objc_msgSend$initWithBundleIdentifier:error:
++ _objc_msgSend$initWithCGColor:
++ _objc_msgSend$initWithDisplayConfiguration:
++ _objc_msgSend$initWithDomain:code:userInfo:
++ _objc_msgSend$initWithDomain:featureName:
++ _objc_msgSend$initWithExplanation:
++ _objc_msgSend$initWithExplanation:target:attributes:
++ _objc_msgSend$initWithExtensionBundleIdentifier:containerBundleIdentifier:kind:family:intent:
++ _objc_msgSend$initWithExtensionBundleIdentifier:containerBundleIdentifier:kind:supportedFamilies:intentType:
++ _objc_msgSend$initWithExtensionIdentity:activityAttributesType:
++ _objc_msgSend$initWithExtensionIdentity:kind:controlType:intentType:
++ _objc_msgSend$initWithExtensionIdentity:kind:family:intent:activityIdentifier:
++ _objc_msgSend$initWithExtensionPointIdentifier:
++ _objc_msgSend$initWithIdentifier:
++ _objc_msgSend$initWithIntent:
++ _objc_msgSend$initWithIntent:schemaData:
++ _objc_msgSend$initWithIntentReference:localizedDescription:
++ _objc_msgSend$initWithMachServiceName:options:
++ _objc_msgSend$initWithName:fromBundle:error:
++ _objc_msgSend$initWithNamedGroupIdentifier:
++ _objc_msgSend$initWithOrderedSet:
++ _objc_msgSend$initWithPredicate:context:
++ _objc_msgSend$initWithRelevantContext:
++ _objc_msgSend$initWithRenderingMode:backgroundViewPolicy:
++ _objc_msgSend$initWithSafeAreaInsets:layoutInsets:contentMargins:backgroundRemovedContentMargins:
++ _objc_msgSend$initWithScale:colorGamut:
++ _objc_msgSend$initWithSchemaIntent:recommendations:
++ _objc_msgSend$initWithSize:cornerRadius:
++ _objc_msgSend$initWithSize:cornerRadius:scaleFactor:fontStyle:margins:supportsDynamicText:widgetGroupMargins:nestedContentMetrics:
++ _objc_msgSend$initWithSize:scale:colorGamut:
++ _objc_msgSend$initWithURL:
++ _objc_msgSend$initWithURL:error:
++ _objc_msgSend$initWithWidgetDisplayProperties:
++ _objc_msgSend$integerValue
++ _objc_msgSend$intent
++ _objc_msgSend$intentReference
++ _objc_msgSend$interfaceWithIdentifier:
++ _objc_msgSend$interfaceWithProtocol:
++ _objc_msgSend$invalidate
++ _objc_msgSend$invalidateConfigurationRecommendationsInBundle:completion:
++ _objc_msgSend$invalidateConfigurationRecommendationsWithCompletion:
++ _objc_msgSend$invalidateRelevancesOfKind:completionHandler:
++ _objc_msgSend$invalidateRelevancesOfKind:inBundle:completionHandler:
++ _objc_msgSend$isInternalInstall
++ _objc_msgSend$isMainThread
++ _objc_msgSend$kind
++ _objc_msgSend$layoutInsets
++ _objc_msgSend$linkAction
++ _objc_msgSend$listenerEndpoint
++ _objc_msgSend$mainBundle
++ _objc_msgSend$margins
++ _objc_msgSend$matchesPersonality:
++ _objc_msgSend$metrics
++ _objc_msgSend$monitorForDeath:
++ _objc_msgSend$mutableCopy
++ _objc_msgSend$nestedContentMetrics
++ _objc_msgSend$objectForInfoDictionaryKey:ofClass:
++ _objc_msgSend$objectForKey:
++ _objc_msgSend$objectForKey:ofClass:
++ _objc_msgSend$personaIdentifier
++ _objc_msgSend$pid
++ _objc_msgSend$predicateMatchingTarget:
++ _objc_msgSend$processInfo
++ _objc_msgSend$protocolForProtocol:
++ _objc_msgSend$public
++ _objc_msgSend$pushTokensDidChange:completion:
++ _objc_msgSend$realToken
++ _objc_msgSend$red
++ _objc_msgSend$referenceFromIntent:error:
++ _objc_msgSend$reloadAllControlsForBundleIdentifier:
++ _objc_msgSend$reloadControlsOfKind:
++ _objc_msgSend$remoteObjectProxy
++ _objc_msgSend$remoteObjectProxyWithErrorHandler:
++ _objc_msgSend$remoteTarget
++ _objc_msgSend$renderingMode
++ _objc_msgSend$resume
++ _objc_msgSend$safeAreaInsets
++ _objc_msgSend$scale
++ _objc_msgSend$scaleFactor
++ _objc_msgSend$scaledValueForValue:compatibleWithTraitCollection:
++ _objc_msgSend$scheduleForDate:leewayInterval:queue:handler:
++ _objc_msgSend$scheduleRepeatingWithFireInterval:repeatInterval:leewayInterval:queue:handler:
++ _objc_msgSend$scheduleWithFireInterval:leewayInterval:queue:handler:
++ _objc_msgSend$sdkVersion
++ _objc_msgSend$seekToOffset:error:
++ _objc_msgSend$setActionMetadata:
++ _objc_msgSend$setActivationHandler:
++ _objc_msgSend$setAssociatedKind:
++ _objc_msgSend$setBackgroundRemovable:
++ _objc_msgSend$setClass:forSelector:argumentIndex:ofReply:
++ _objc_msgSend$setClasses:forSelector:argumentIndex:ofReply:
++ _objc_msgSend$setClient:
++ _objc_msgSend$setConfigurationAccentColor:
++ _objc_msgSend$setConfigurationBackgroundColor:
++ _objc_msgSend$setControlState:completion:
++ _objc_msgSend$setDisablesControlStateCaching:
++ _objc_msgSend$setDisfavoredLocations:
++ _objc_msgSend$setDisfavoredLocations:on:
++ _objc_msgSend$setDisplayName:
++ _objc_msgSend$setEnablement:
++ _objc_msgSend$setEnablesMultipleTapTargets:
++ _objc_msgSend$setEventMachServiceName:
++ _objc_msgSend$setExceptionCode:
++ _objc_msgSend$setExceptionDomain:
++ _objc_msgSend$setExportedInterface:
++ _objc_msgSend$setExportedObject:
++ _objc_msgSend$setExtensionIdentity:
++ _objc_msgSend$setHiddenBySensitiveUI:
++ _objc_msgSend$setHiddenControl:
++ _objc_msgSend$setIncludeUpdatingApps:
++ _objc_msgSend$setIntentRecommendationsContainer:
++ _objc_msgSend$setInterface:
++ _objc_msgSend$setInterfaceTarget:
++ _objc_msgSend$setInterruptionHandler:
++ _objc_msgSend$setInvalidationHandler:
++ _objc_msgSend$setLocaleToken:
++ _objc_msgSend$setMaximumTerminationResistance:
++ _objc_msgSend$setNativeContainerBundleIdentifier:
++ _objc_msgSend$setPreferredBackgroundStyle:
++ _objc_msgSend$setPreferredControlSize:
++ _objc_msgSend$setPromptsForUserConfiguration:
++ _objc_msgSend$setRelevanceBacked:
++ _objc_msgSend$setRemoteObjectInterface:
++ _objc_msgSend$setReportType:
++ _objc_msgSend$setRequestedDataProtection:
++ _objc_msgSend$setRequiredFeatureFlags:
++ _objc_msgSend$setSdkVersion:
++ _objc_msgSend$setServer:
++ _objc_msgSend$setServiceQuality:
++ _objc_msgSend$setShowsContextualMenu:
++ _objc_msgSend$setSpatialChromeStyles:
++ _objc_msgSend$setSupportsAccentedContent:
++ _objc_msgSend$setSupportsForwardingToRemoteDevices:
++ _objc_msgSend$setSupportsInteraction:
++ _objc_msgSend$setSupportsPush:
++ _objc_msgSend$setSupportsVibrantContent:
++ _objc_msgSend$setTimeZone:
++ _objc_msgSend$setVisibility:
++ _objc_msgSend$setWantsLiveScene:
++ _objc_msgSend$setWidgetDescription:
++ _objc_msgSend$setWidgetVisibility:
++ _objc_msgSend$sharedInstance
++ _objc_msgSend$sharedListener
++ _objc_msgSend$size
++ _objc_msgSend$stableHash
++ _objc_msgSend$standardUserDefaults
++ _objc_msgSend$string
++ _objc_msgSend$stringFromDate:
++ _objc_msgSend$succinctDescription
++ _objc_msgSend$supportedFamilies
++ _objc_msgSend$systemBackgroundColor
++ _objc_msgSend$systemImageNamed:
++ _objc_msgSend$targetWithPid:
++ _objc_msgSend$tokenForCurrentProcess
++ _objc_msgSend$traitCollectionWithPreferredContentSizeCategory:
++ _objc_msgSend$truncateAtOffset:error:
++ _objc_msgSend$ungrouped
++ _objc_msgSend$unionOrderedSet:
++ _objc_msgSend$userInteractive
++ _objc_msgSend$userInterfaceIdiom
++ _objc_msgSend$wantsSubduedGlass
++ _objc_msgSend$widgetGroupMargins
++ _objc_msgSend$widgetPushTokenWithCompletionHandler:
++ _objc_msgSend$widgetPushTokensDidChange:completion:
++ _objc_msgSend$widgetVisibility
++ _objc_msgSend$withWidgetRelevanceArchiveHandleForKind:inBundle:handler:
++ _objc_msgSend$wk_uniqueWithURL:
++ _objectdestroy.126Tm
++ _objectdestroy.145Tm
++ _objectdestroy.154Tm
++ _objectdestroy.160Tm
++ _objectdestroy.166Tm
++ _objectdestroy.404Tm
++ _objectdestroy.410Tm
++ _objectdestroy.42Tm
++ _objectdestroy.84Tm
++ _symbolic $s9WidgetKit20LiveActivityMetadataC07CurrentE13RepresentableP
++ _symbolic $s9WidgetKit22VersionableCodingValueP
++ _symbolic $s9WidgetKit25ArchivingMetadataProviderP
++ _symbolic $s9WidgetKit27ActivityArchivingDataSourceP
++ _symbolic $s9WidgetKit27ActivityViewContextProviderP
++ _symbolic 12ViewMetadata_____Qz 9WidgetKit10ViewStatesP
++ _symbolic 8Metadata_____Qz 9WidgetKit25ArchivingMetadataProviderP
++ _symbolic SDySi_____G 7SwiftUI17EnvironmentValuesV
++ _symbolic SDySi_____G 9WidgetKit20LiveActivityMetadataC06LegacyE12_PreLuckierEV09ViewEntryE0V
++ _symbolic Say_____G 9WidgetKit08ActivityA8ResponseC
++ _symbolic Say_____G 9WidgetKit15ActivityViewTagO11PreLuckierEO
++ _symbolic Say_____G 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V09ViewEntryE0V
++ _symbolic Say_____G 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V7ViewTagO
++ _symbolic Say_____G 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V09ViewEntryE0V
++ _symbolic Say_____G 9WidgetKit23AccessoryActivityActionV
++ _symbolic Say_____GSg 9WidgetKit08ActivityA8ResponseC
++ _symbolic Say_____GSg 9WidgetKit23AccessoryActivityActionV
++ _symbolic Say_____GSgSo7NSErrorCSgIeggg_ 9WidgetKit08ActivityA8ResponseC
++ _symbolic Say_____GSg______pSgIeggg_ 9WidgetKit08ActivityA8ResponseC s5ErrorP
++ _symbolic Si______t 7SwiftUI17EnvironmentValuesV
++ _symbolic So7NSArrayCSgSo7NSErrorCSgIeyByy_
++ _symbolic So8LNActionC
++ _symbolic _____ 10Foundation3URLV
++ _symbolic _____ 9WidgetKit08ActivityA7RequestC6InputsV
++ _symbolic _____ 9WidgetKit08ActivityA7RequestC6InputsV10CodingKeys33_8F8778BBFCF9A71CF0283FF1D618C7EFLLO
++ _symbolic _____ 9WidgetKit08ActivityA8ResponseC
++ _symbolic _____ 9WidgetKit08ActivityA8ResponseC5InnerV
++ _symbolic _____ 9WidgetKit08ActivityA8ResponseC5InnerV10CodingKeys33_8F8778BBFCF9A71CF0283FF1D618C7EFLLO
++ _symbolic _____ 9WidgetKit0A11EnvironmentV6AnyKeyC7Storage33_78669324E9282AD527DC22F3259D9FF4LLC6ErrorsO
++ _symbolic _____ 9WidgetKit11CodableBoolV22PreLuckierECodableKeysO
++ _symbolic _____ 9WidgetKit15ActivityViewTagO11PreLuckierEO
++ _symbolic _____ 9WidgetKit15ActivityViewTagO11PreLuckierEO10CodingKeys33_C14204A2EA5478F6573134794C94AC79LLO
++ _symbolic _____ 9WidgetKit15ActivityViewTagO11PreLuckierEO15JindoCodingKeys33_C14204A2EA5478F6573134794C94AC79LLO
++ _symbolic _____ 9WidgetKit15ActivityViewTagO11PreLuckierEO18ListItemCodingKeys33_C14204A2EA5478F6573134794C94AC79LLO
++ _symbolic _____ 9WidgetKit15ActivityViewTagO6ErrorsO
++ _symbolic _____ 9WidgetKit15JindoViewStatesC
++ _symbolic _____ 9WidgetKit15JindoViewStatesC14ArchivingErrorO
++ _symbolic _____ 9WidgetKit16ActivityArchiverC
++ _symbolic _____ 9WidgetKit16ActivityArchiverC6ResultV
++ _symbolic _____ 9WidgetKit16ActivityArchiverC7RequestV
++ _symbolic _____ 9WidgetKit18ActivityViewStatesC
++ _symbolic _____ 9WidgetKit18ActivityViewStatesC6ErrorsO
++ _symbolic _____ 9WidgetKit18ListItemViewStatesC
++ _symbolic _____ 9WidgetKit18ListItemViewStatesC14ArchivingErrorO
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V013DynamicIslandE0V
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V013DynamicIslandE0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLO
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V08ListItemE0V
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V08ListItemE0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLO
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V09ViewEntryE0V
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V09ViewEntryE0V08ListItemhE0V
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V09ViewEntryE0V08ListItemhE0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLO
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V09ViewEntryE0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLO
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V0E5ErrorO
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V0d5StateE0V
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V0d5StateE0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLO
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLO
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V11ViewMetricsV
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V11ViewMetricsV10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLO
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V7ViewTagO
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V7ViewTagO013DynamicIslandhI0O
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V013DynamicIslandE0V
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V013DynamicIslandE0V10CodingKeysO
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V08ListItemE0V
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V08ListItemE0V10CodingKeysO
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V09ViewEntryE0V
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V09ViewEntryE0V08ListItemhE0V
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V09ViewEntryE0V08ListItemhE0V10CodingKeys33_F25EB7D9039C1DA1B7FD49DDA6494F82LLO
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V09ViewEntryE0V10CodingKeysO
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V0d5StateE0V
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V0d5StateE0V10CodingKeys33_F25EB7D9039C1DA1B7FD49DDA6494F82LLO
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V10CodingKeys33_F25EB7D9039C1DA1B7FD49DDA6494F82LLO
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V11ViewMetricsV
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V11ViewMetricsV10CodingKeys33_F25EB7D9039C1DA1B7FD49DDA6494F82LLO
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC06LegacyE12_PreLuckierEV
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC06LegacyE12_PreLuckierEV013DynamicIslandE0V
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC06LegacyE12_PreLuckierEV013DynamicIslandE0V10CodingKeys33_C14204A2EA5478F6573134794C94AC79LLO
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC06LegacyE12_PreLuckierEV08ListItemE0V
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC06LegacyE12_PreLuckierEV08ListItemE0V10CodingKeysO
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC06LegacyE12_PreLuckierEV09ViewEntryE0V
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC06LegacyE12_PreLuckierEV09ViewEntryE0V10CodingKeys33_C14204A2EA5478F6573134794C94AC79LLO
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC06LegacyE12_PreLuckierEV0E5ErrorO
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC06LegacyE12_PreLuckierEV10CodingKeysO
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC06LegacyE12_PreLuckierEV11ViewMetricsV
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC06LegacyE12_PreLuckierEV11ViewMetricsV10CodingKeys33_C14204A2EA5478F6573134794C94AC79LLO
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC0E6FacadeV
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC0E6FacadeV0E5ErrorO
++ _symbolic _____ 9WidgetKit20LiveActivityMetadataC0E6FacadeV10CodingKeysO
++ _symbolic _____ 9WidgetKit23AccessoryActivityActionV
++ _symbolic _____ 9WidgetKit23AccessoryActivityActionV0E4TypeO
++ _symbolic _____ 9WidgetKit23AccessoryActivityActionV0E4TypeO10CodingKeys33_1DF17722C147F82B9D0DE9F7888AB502LLO
++ _symbolic _____ 9WidgetKit23AccessoryActivityActionV0E4TypeO6ErrorsO
++ _symbolic _____ 9WidgetKit23AccessoryActivityActionV10CodingKeys33_1DF17722C147F82B9D0DE9F7888AB502LLO
++ _symbolic _____ 9WidgetKit23AccessoryActivityTargetV
++ _symbolic _____ 9WidgetKit23AccessoryActivityTargetV10CodingKeys33_7342EEA83427094F7AF2C60C15CE0B31LLO
++ _symbolic _____ 9WidgetKit23ActivityEncodingVersionO
++ _symbolic _____ 9WidgetKit23ActivityEncodingVersionO06PublicE0O
++ _symbolic _____ 9WidgetKit23ActivityEncodingVersionO08InternalE0O
++ _symbolic _____ 9WidgetKit23ActivityPayloadMetadataV
++ _symbolic _____ 9WidgetKit23ActivityPayloadMetadataV10CodingKeys33_8F8778BBFCF9A71CF0283FF1D618C7EFLLO
++ _symbolic _____ 9WidgetKit30ActivityArchivedViewCollectionV6ErrorsO
++ _symbolic _____ 9WidgetKit33_SimpleActivityViewSourceProviderV
++ _symbolic _____ 9WidgetKit33_SimpleActivityViewSourceProviderV6ErrorsO
++ _symbolic _____ 9WidgetKit34_SimpleActivityArchivingDataSourceC
++ _symbolic _____ 9WidgetKit35_DefaultActivityArchivingDataSourceC
++ _symbolic _____ 9WidgetKit35_DefaultActivityArchivingDataSourceC6ErrorsO
++ _symbolic _____ 9WidgetKit35_DefaultActivityViewContextProviderV
++ _symbolic _____Sg 9WidgetKit15JindoViewStatesC
++ _symbolic _____Sg 9WidgetKit16ActivityArchiverC6ResultV
++ _symbolic _____Sg 9WidgetKit18ListItemViewStatesC
++ _symbolic _____Sg 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V013DynamicIslandE0V
++ _symbolic _____Sg 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V08ListItemE0V
++ _symbolic _____Sg 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V09ViewEntryE0V08ListItemhE0V
++ _symbolic _____Sg 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V013DynamicIslandE0V
++ _symbolic _____Sg 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V08ListItemE0V
++ _symbolic _____Sg 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V09ViewEntryE0V08ListItemhE0V
++ _symbolic _____Sg 9WidgetKit20LiveActivityMetadataC06LegacyE12_PreLuckierEV013DynamicIslandE0V
++ _symbolic _____SgSo7NSErrorCSgIeggg_ 9WidgetKit08ActivityA8ResponseC
++ _symbolic _____SgXw 9WidgetKit10_MapStates33_7CD9974EBF49E061C9CE4E55605646D3LLC
++ _symbolic _____Sg_ABt 7SwiftUI4FontV6DesignO
++ _symbolic _____Sg_ABt 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V013DynamicIslandE0V
++ _symbolic _____Sg_ABt 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V013DynamicIslandE0V
++ _symbolic _____Sg_ABt 9WidgetKit20LiveActivityMetadataC06LegacyE12_PreLuckierEV013DynamicIslandE0V
++ _symbolic ______AAt 9WidgetKit23AccessoryActivityActionV0E4TypeO
++ _symbolic ___________p 9WidgetKit25ArchivingMetadataProviderP AA10ViewStatesP
++ _symbolic ___________pKc 7SwiftUI7AnyViewV 9WidgetKit08ActivityD15ContextProviderP
++ _symbolic ___________t 11ActivityKit0A19PresentationOptionsV0aC11DestinationO AA11SceneTargetO
++ _symbolic ___________t 9WidgetKit12JindoViewTagO 7SwiftUI17EnvironmentValuesV
++ _symbolic ___________y__________G_____t 7SwiftUI23LabelStyleConfigurationV4IconV AA15ModifiedContentV AA4TextV AA31AccessibilityAttachmentModifierV AC5TitleV
++ _symbolic ______p 9WidgetKit22VersionableCodingValueP
++ _symbolic ______p 9WidgetKit27ActivityArchivingDataSourceP
++ _symbolic ______p 9WidgetKit27ActivityViewContextProviderP
++ _symbolic ______pSg 9WidgetKit22VersionableCodingValueP
++ _symbolic ______p______pKc 9WidgetKit17JindoViewProviderP AA08Activityd7ContextE0P
++ _symbolic _____ySi_____G s18_DictionaryStorageC 7SwiftUI17EnvironmentValuesV
++ _symbolic _____ySi_____G s18_DictionaryStorageC 9WidgetKit20LiveActivityMetadataC06LegacyG12_PreLuckierEV09ViewEntryG0V
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit08ActivityD7RequestC6InputsV10CodingKeys33_8F8778BBFCF9A71CF0283FF1D618C7EFLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit08ActivityD8ResponseC5InnerV10CodingKeys33_8F8778BBFCF9A71CF0283FF1D618C7EFLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit11CodableBoolV22PreLuckierECodableKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit15ActivityViewTagO11PreLuckierEO10CodingKeys33_C14204A2EA5478F6573134794C94AC79LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit15ActivityViewTagO11PreLuckierEO15JindoCodingKeys33_C14204A2EA5478F6573134794C94AC79LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit15ActivityViewTagO11PreLuckierEO18ListItemCodingKeys33_C14204A2EA5478F6573134794C94AC79LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit20LiveActivityMetadataC012ModernPublicH0V013DynamicIslandH0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit20LiveActivityMetadataC012ModernPublicH0V08ListItemH0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit20LiveActivityMetadataC012ModernPublicH0V09ViewEntryH0V08ListItemkH0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit20LiveActivityMetadataC012ModernPublicH0V09ViewEntryH0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit20LiveActivityMetadataC012ModernPublicH0V0g5StateH0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit20LiveActivityMetadataC012ModernPublicH0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit20LiveActivityMetadataC012ModernPublicH0V11ViewMetricsV10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit20LiveActivityMetadataC014ModernInternalH0V013DynamicIslandH0V10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit20LiveActivityMetadataC014ModernInternalH0V08ListItemH0V10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit20LiveActivityMetadataC014ModernInternalH0V09ViewEntryH0V08ListItemkH0V10CodingKeys33_F25EB7D9039C1DA1B7FD49DDA6494F82LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit20LiveActivityMetadataC014ModernInternalH0V09ViewEntryH0V10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit20LiveActivityMetadataC014ModernInternalH0V0g5StateH0V10CodingKeys33_F25EB7D9039C1DA1B7FD49DDA6494F82LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit20LiveActivityMetadataC014ModernInternalH0V10CodingKeys33_F25EB7D9039C1DA1B7FD49DDA6494F82LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit20LiveActivityMetadataC014ModernInternalH0V11ViewMetricsV10CodingKeys33_F25EB7D9039C1DA1B7FD49DDA6494F82LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit20LiveActivityMetadataC06LegacyH12_PreLuckierEV013DynamicIslandH0V10CodingKeys33_C14204A2EA5478F6573134794C94AC79LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit20LiveActivityMetadataC06LegacyH12_PreLuckierEV08ListItemH0V10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit20LiveActivityMetadataC06LegacyH12_PreLuckierEV09ViewEntryH0V10CodingKeys33_C14204A2EA5478F6573134794C94AC79LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit20LiveActivityMetadataC06LegacyH12_PreLuckierEV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit20LiveActivityMetadataC06LegacyH12_PreLuckierEV11ViewMetricsV10CodingKeys33_C14204A2EA5478F6573134794C94AC79LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit20LiveActivityMetadataC0H6FacadeV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit23AccessoryActivityActionV0H4TypeO10CodingKeys33_1DF17722C147F82B9D0DE9F7888AB502LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit23AccessoryActivityActionV10CodingKeys33_1DF17722C147F82B9D0DE9F7888AB502LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit23AccessoryActivityTargetV10CodingKeys33_7342EEA83427094F7AF2C60C15CE0B31LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit23ActivityPayloadMetadataV10CodingKeys33_8F8778BBFCF9A71CF0283FF1D618C7EFLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit08ActivityD7RequestC6InputsV10CodingKeys33_8F8778BBFCF9A71CF0283FF1D618C7EFLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit08ActivityD8ResponseC5InnerV10CodingKeys33_8F8778BBFCF9A71CF0283FF1D618C7EFLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit11CodableBoolV22PreLuckierECodableKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit15ActivityViewTagO11PreLuckierEO10CodingKeys33_C14204A2EA5478F6573134794C94AC79LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit15ActivityViewTagO11PreLuckierEO15JindoCodingKeys33_C14204A2EA5478F6573134794C94AC79LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit15ActivityViewTagO11PreLuckierEO18ListItemCodingKeys33_C14204A2EA5478F6573134794C94AC79LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit20LiveActivityMetadataC012ModernPublicH0V013DynamicIslandH0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit20LiveActivityMetadataC012ModernPublicH0V08ListItemH0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit20LiveActivityMetadataC012ModernPublicH0V09ViewEntryH0V08ListItemkH0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit20LiveActivityMetadataC012ModernPublicH0V09ViewEntryH0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit20LiveActivityMetadataC012ModernPublicH0V0g5StateH0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit20LiveActivityMetadataC012ModernPublicH0V10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit20LiveActivityMetadataC012ModernPublicH0V11ViewMetricsV10CodingKeys33_E6EC921434A9EB1218FE981975AFCCBDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit20LiveActivityMetadataC014ModernInternalH0V013DynamicIslandH0V10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit20LiveActivityMetadataC014ModernInternalH0V08ListItemH0V10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit20LiveActivityMetadataC014ModernInternalH0V09ViewEntryH0V08ListItemkH0V10CodingKeys33_F25EB7D9039C1DA1B7FD49DDA6494F82LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit20LiveActivityMetadataC014ModernInternalH0V09ViewEntryH0V10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit20LiveActivityMetadataC014ModernInternalH0V0g5StateH0V10CodingKeys33_F25EB7D9039C1DA1B7FD49DDA6494F82LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit20LiveActivityMetadataC014ModernInternalH0V10CodingKeys33_F25EB7D9039C1DA1B7FD49DDA6494F82LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit20LiveActivityMetadataC014ModernInternalH0V11ViewMetricsV10CodingKeys33_F25EB7D9039C1DA1B7FD49DDA6494F82LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit20LiveActivityMetadataC06LegacyH12_PreLuckierEV013DynamicIslandH0V10CodingKeys33_C14204A2EA5478F6573134794C94AC79LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit20LiveActivityMetadataC06LegacyH12_PreLuckierEV08ListItemH0V10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit20LiveActivityMetadataC06LegacyH12_PreLuckierEV09ViewEntryH0V10CodingKeys33_C14204A2EA5478F6573134794C94AC79LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit20LiveActivityMetadataC06LegacyH12_PreLuckierEV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit20LiveActivityMetadataC06LegacyH12_PreLuckierEV11ViewMetricsV10CodingKeys33_C14204A2EA5478F6573134794C94AC79LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit20LiveActivityMetadataC0H6FacadeV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit23AccessoryActivityActionV0H4TypeO10CodingKeys33_1DF17722C147F82B9D0DE9F7888AB502LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit23AccessoryActivityActionV10CodingKeys33_1DF17722C147F82B9D0DE9F7888AB502LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit23AccessoryActivityTargetV10CodingKeys33_7342EEA83427094F7AF2C60C15CE0B31LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit23ActivityPayloadMetadataV10CodingKeys33_8F8778BBFCF9A71CF0283FF1D618C7EFLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9WidgetKit12JindoViewTagO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9WidgetKit15ActivityViewTagO11PreLuckierEO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9WidgetKit20LiveActivityMetadataC012ModernPublicH0V09ViewEntryH0V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9WidgetKit20LiveActivityMetadataC012ModernPublicH0V7ViewTagO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9WidgetKit20LiveActivityMetadataC014ModernInternalH0V09ViewEntryH0V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9WidgetKit23AccessoryActivityActionV
++ _symbolic _____y_______G 9WidgetKit0A11EnvironmentV8AnyValueC7Storage33_78669324E9282AD527DC22F3259D9FF4LLC AE0F4BaseAGLLC
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA4TextV AA31AccessibilityAttachmentModifierV
++ _symbolic _____y__________G 7SwiftUI17_ArchivedViewHostC AA03AnyD0V 9WidgetKit15_SimpleDelegate33_7CD9974EBF49E061C9CE4E55605646D3LLC
++ _symbolic _____y__________G s18_DictionaryStorageC 11ActivityKit0C19PresentationOptionsV0cE11DestinationO AC11SceneTargetO
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 11ActivityKit0D19PresentationOptionsV0dF11DestinationO AC11SceneTargetO
++ _symbolic _____y___________y___________y__________G_____tGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA23LabelStyleConfigurationV4IconV AA15ModifiedContentV AA4TextV AA31AccessibilityAttachmentModifierV AK5TitleV
++ _symbolic _____y_____y___________y__________G_____tGG 7SwiftUI6HStackV AA9TupleViewV AA23LabelStyleConfigurationV4IconV AA15ModifiedContentV AA4TextV AA31AccessibilityAttachmentModifierV AG5TitleV
++ _symbolic _____yxG 9WidgetKit19ActivityViewContextV
++ _type_layout_string 9WidgetKit08ActivityA8ResponseC5InnerV
++ _type_layout_string 9WidgetKit15ActivityViewTagO6ErrorsO
++ _type_layout_string 9WidgetKit15JindoViewStatesC14ArchivingErrorO
++ _type_layout_string 9WidgetKit16ActivityArchiverC6ResultV
++ _type_layout_string 9WidgetKit18ListItemViewStatesC14ArchivingErrorO
++ _type_layout_string 9WidgetKit18ViewStatesArchiverV
++ _type_layout_string 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V08ListItemE0V
++ _type_layout_string 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V09ViewEntryE0V
++ _type_layout_string 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V09ViewEntryE0V08ListItemhE0V
++ _type_layout_string 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V0E5ErrorO
++ _type_layout_string 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V0d5StateE0V
++ _type_layout_string 9WidgetKit20LiveActivityMetadataC012ModernPublicE0V11ViewMetricsV
++ _type_layout_string 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V08ListItemE0V
++ _type_layout_string 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V09ViewEntryE0V
++ _type_layout_string 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V09ViewEntryE0V08ListItemhE0V
++ _type_layout_string 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V0d5StateE0V
++ _type_layout_string 9WidgetKit20LiveActivityMetadataC014ModernInternalE0V11ViewMetricsV
++ _type_layout_string 9WidgetKit20LiveActivityMetadataC06LegacyE12_PreLuckierEV09ViewEntryE0V
++ _type_layout_string 9WidgetKit20LiveActivityMetadataC06LegacyE12_PreLuckierEV11ViewMetricsV
++ _type_layout_string 9WidgetKit23AccessoryActivityActionV0E4TypeO6ErrorsO
++ _type_layout_string 9WidgetKit23AccessoryActivityTargetV
++ _type_layout_string 9WidgetKit23ActivityPayloadMetadataV
++ _type_layout_string SSSg
+- __PROTOCOLS_CHKWidgetEnvironment.161
+- ___swift_memcpy152_8
+- ___unnamed_21
+- ___unnamed_24
+- ___unnamed_9
+- _associated conformance 9WidgetKit08ActivityA7RequestC10CodingKeys33_8F8778BBFCF9A71CF0283FF1D618C7EFLLOSHAASQ
+- _associated conformance 9WidgetKit08ActivityA7RequestC10CodingKeys33_8F8778BBFCF9A71CF0283FF1D618C7EFLLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 9WidgetKit08ActivityA7RequestC10CodingKeys33_8F8778BBFCF9A71CF0283FF1D618C7EFLLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 9WidgetKit08ActivityA7RequestC11CodingProxyV0E4Keys33_8F8778BBFCF9A71CF0283FF1D618C7EFLLOSHAASQ
+- _associated conformance 9WidgetKit08ActivityA7RequestC11CodingProxyV0E4Keys33_8F8778BBFCF9A71CF0283FF1D618C7EFLLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 9WidgetKit08ActivityA7RequestC11CodingProxyV0E4Keys33_8F8778BBFCF9A71CF0283FF1D618C7EFLLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 9WidgetKit11CodableBoolV10CodingKeys33_CE25353EE787FEBE340202A9B8E4BFBDLLOSHAASQ
+- _associated conformance 9WidgetKit11CodableBoolV10CodingKeys33_CE25353EE787FEBE340202A9B8E4BFBDLLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 9WidgetKit11CodableBoolV10CodingKeys33_CE25353EE787FEBE340202A9B8E4BFBDLLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 9WidgetKit15ActivityViewTagO10CodingKeys33_599960F0898EF475232433BDDBBE7B46LLOSHAASQ
+- _associated conformance 9WidgetKit15ActivityViewTagO10CodingKeys33_599960F0898EF475232433BDDBBE7B46LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 9WidgetKit15ActivityViewTagO10CodingKeys33_599960F0898EF475232433BDDBBE7B46LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 9WidgetKit15ActivityViewTagO15JindoCodingKeys33_599960F0898EF475232433BDDBBE7B46LLOSHAASQ
+- _associated conformance 9WidgetKit15ActivityViewTagO15JindoCodingKeys33_599960F0898EF475232433BDDBBE7B46LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 9WidgetKit15ActivityViewTagO15JindoCodingKeys33_599960F0898EF475232433BDDBBE7B46LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 9WidgetKit15ActivityViewTagO18ListItemCodingKeys33_599960F0898EF475232433BDDBBE7B46LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 9WidgetKit15ActivityViewTagO18ListItemCodingKeys33_599960F0898EF475232433BDDBBE7B46LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 9WidgetKit15JindoViewStatesV14ArchivingErrorO10Foundation09LocalizedG0AAs0G0
+- _associated conformance 9WidgetKit15JindoViewStatesV8MetadataV10CodingKeys33_0344423957AD3664C3F971757EE547C6LLOSHAASQ
+- _associated conformance 9WidgetKit15JindoViewStatesV8MetadataV10CodingKeys33_0344423957AD3664C3F971757EE547C6LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 9WidgetKit15JindoViewStatesV8MetadataV10CodingKeys33_0344423957AD3664C3F971757EE547C6LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 9WidgetKit15JindoViewStatesVAA0dE0AA7ContentAaDP_7SwiftUI0D0
+- _associated conformance 9WidgetKit15JindoViewStatesVAA0dE0AA8MetadataAaDP_SE
+- _associated conformance 9WidgetKit15JindoViewStatesVAA0dE0AA8MetadataAaDP_Se
+- _associated conformance 9WidgetKit18ActivityViewStatesV14ArchivingErrorO10Foundation09LocalizedG0AAs0G0
+- _associated conformance 9WidgetKit18ActivityViewStatesV8MetadataV10CodingKeys33_5A34DE5970D4B138BB1ECAB17D8F4908LLOSHAASQ
+- _associated conformance 9WidgetKit18ActivityViewStatesV8MetadataV10CodingKeys33_5A34DE5970D4B138BB1ECAB17D8F4908LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 9WidgetKit18ActivityViewStatesV8MetadataV10CodingKeys33_5A34DE5970D4B138BB1ECAB17D8F4908LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 9WidgetKit18ActivityViewStatesVAA0dE0AA7ContentAaDP_7SwiftUI0D0
+- _associated conformance 9WidgetKit18ActivityViewStatesVAA0dE0AA8MetadataAaDP_SE
+- _associated conformance 9WidgetKit18ActivityViewStatesVAA0dE0AA8MetadataAaDP_Se
+- _associated conformance 9WidgetKit19ActivityViewMetricsV10CodingKeys33_D77A9A1D1802D5DE9224E598F2DC91B0LLOSHAASQ
+- _associated conformance 9WidgetKit19ActivityViewMetricsV10CodingKeys33_D77A9A1D1802D5DE9224E598F2DC91B0LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 9WidgetKit19ActivityViewMetricsV10CodingKeys33_D77A9A1D1802D5DE9224E598F2DC91B0LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 9WidgetKit19ActivityViewMetricsVSHAASQ
+- _associated conformance 9WidgetKit19CompositeViewStatesV8MetadataV10CodingKeysOyxq___GSHAASQ
+- _associated conformance 9WidgetKit19CompositeViewStatesV8MetadataV10CodingKeysOyxq___Gs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 9WidgetKit19CompositeViewStatesV8MetadataV10CodingKeysOyxq___Gs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 9WidgetKit19CompositeViewStatesVyxq_GAA0dE0AA7ContentAaEP_7SwiftUI0D0
+- _associated conformance 9WidgetKit19CompositeViewStatesVyxq_GAA0dE0AA8MetadataAaEP_SE
+- _associated conformance 9WidgetKit19CompositeViewStatesVyxq_GAA0dE0AA8MetadataAaEP_Se
+- _associated conformance 9WidgetKit19JindoViewCollectionVAA010ArchivabledE0AA0F6StatesAaDP_AA0dG0
+- _associated conformance 9WidgetKit22ActivityViewCollectionVAA010ArchivabledE0AA0F6StatesAaDP_AA0dG0
+- _associated conformance 9WidgetKit25ActivityViewEntryMetadataV10CodingKeys33_D670141312F0B83D24C552AC72A70497LLOSHAASQ
+- _associated conformance 9WidgetKit25ActivityViewEntryMetadataV10CodingKeys33_D670141312F0B83D24C552AC72A70497LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 9WidgetKit25ActivityViewEntryMetadataV10CodingKeys33_D670141312F0B83D24C552AC72A70497LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _block_copy_helper.12
+- _block_copy_helper.148
+- _block_copy_helper.163
+- _block_copy_helper.182
+- _block_copy_helper.200
+- _block_copy_helper.219
+- _block_copy_helper.23
+- _block_copy_helper.238
+- _block_copy_helper.257
+- _block_copy_helper.26
+- _block_copy_helper.276
+- _block_copy_helper.29
+- _block_copy_helper.295
+- _block_copy_helper.314
+- _block_copy_helper.332
+- _block_copy_helper.351
+- _block_copy_helper.370
+- _block_copy_helper.38
+- _block_copy_helper.414
+- _block_copy_helper.432
+- _block_copy_helper.44
+- _block_copy_helper.455
+- _block_copy_helper.461
+- _block_descriptor.14
+- _block_descriptor.150
+- _block_descriptor.165
+- _block_descriptor.184
+- _block_descriptor.202
+- _block_descriptor.221
+- _block_descriptor.240
+- _block_descriptor.25
+- _block_descriptor.259
+- _block_descriptor.278
+- _block_descriptor.28
+- _block_descriptor.297
+- _block_descriptor.31
+- _block_descriptor.316
+- _block_descriptor.334
+- _block_descriptor.353
+- _block_descriptor.372
+- _block_descriptor.40
+- _block_descriptor.416
+- _block_descriptor.434
+- _block_descriptor.457
+- _block_descriptor.46
+- _block_descriptor.463
+- _block_destroy_helper.13
+- _block_destroy_helper.149
+- _block_destroy_helper.164
+- _block_destroy_helper.183
+- _block_destroy_helper.201
+- _block_destroy_helper.220
+- _block_destroy_helper.239
+- _block_destroy_helper.24
+- _block_destroy_helper.258
+- _block_destroy_helper.27
+- _block_destroy_helper.277
+- _block_destroy_helper.296
+- _block_destroy_helper.30
+- _block_destroy_helper.315
+- _block_destroy_helper.333
+- _block_destroy_helper.352
+- _block_destroy_helper.371
+- _block_destroy_helper.39
+- _block_destroy_helper.415
+- _block_destroy_helper.433
+- _block_destroy_helper.45
+- _block_destroy_helper.456
+- _block_destroy_helper.462
+- _get_enum_tag_for_layout_string 9WidgetKit15JindoViewStatesV14ArchivingErrorO
+- _get_enum_tag_for_layout_string 9WidgetKit18ActivityViewStatesV14ArchivingErrorO
+- _get_witness_table 11ActivityKit0A10AttributesRzl06WidgetB00D23DescriptorConfigurationV7SwiftUI0dF0HPyHC.22
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA6HStackVyAA7ForEachVySnySiGSiACyACy9WidgetKit11WaveformBar33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLVAA12_FrameLayoutVGAA12_ScaleEffectVGGGAA05_FlextU0VGAA23_GeometryActionModifierVySo6CGSizeVA_SQ12CoreGraphicsyHCg_GGAA4ViewHPAwAA3_HPAtAA3_HPyHC_AvA12ViewModifierHPyHCHC_A1_AAA4_HPyHCHC.63
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA014_ViewModifier_D0Vy9WidgetKit0chD8LayerTag33_584C9B01A7A8E32F14516ECF147467F2LLVGAH0hdjK0VGALGAA0F0HPAoaQHPAlaQHPyHC_AnA0fG0HPyHCHC_AlaQHPyHCHC.17
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVyAA14FontDefinition_pXpGGAaBHPxAaBHD1__AhA0cI0HPyHCHC.177
+- _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA23LabelStyleConfigurationV4IconV_AA4TextVAG5TitleVtGGAA0E0HPyHC.15
+- _get_witness_table qd0__7SwiftUI4ViewHD4_AaBPAAE16keyframeAnimator12initialValue9repeating7content9keyframesQrqd___Sbqd_0_AA018PlaceholderContentC0VyxG_qd__tYbcqd_1_qd__ct0G0Qyd_1_Rsd__AaBRd_0_AA9KeyframesRd_1_r1_lFQOyAA7CapsuleV_9WidgetKit19WaveformBarKeyframe33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLVAA08ModifiedL0VyAJyAPGAA12_FrameLayoutVGAA0S5TrackVyAT12CoreGraphics7CGFloatVAA0s5TrackL7BuilderV10buildArrayyQrSayqd__GALQyd__RszAA0s5TrackL0Rd__lFZQOyA3__AA06LinearS0VyA3_GQo_GQo_HO.82
+- _keypath_get.4Tm
+- _keypath_get.58Tm
+- _keypath_get.5Tm
+- _keypath_set.5Tm
+- _malloc
+- _objc_claimAutoreleasedReturnValue
+- _objc_retain_x10
+- _objectdestroy.127Tm
+- _objectdestroy.146Tm
+- _objectdestroy.155Tm
+- _objectdestroy.161Tm
+- _objectdestroy.167Tm
+- _objectdestroy.174Tm
+- _objectdestroy.32Tm
+- _objectdestroy.36Tm
+- _objectdestroy.406Tm
+- _objectdestroy.412Tm
+- _objectdestroy.65Tm
+- _swift_getExistentialTypeMetadata
+- _symbolic $s9WidgetKit24ArchivableViewCollectionP
+- _symbolic 16ArchivableStates_____Qz 9WidgetKit24ArchivableViewCollectionP
+- _symbolic 7Content_____Qy_ 9WidgetKit10ViewStatesP
+- _symbolic 7Content_____Qz 9WidgetKit10ViewStatesP
+- _symbolic 8Metadata_____Qy_Sg 9WidgetKit10ViewStatesP
+- _symbolic 8Metadata_____Qz 9WidgetKit10ViewStatesP
+- _symbolic SDySi_____G 9WidgetKit25ActivityViewEntryMetadataV
+- _symbolic SS______t 10Foundation4DateV
+- _symbolic Say_____G 7SwiftUI7AnyViewV
+- _symbolic _____ 9WidgetKit08ActivityA7RequestC10CodingKeys33_8F8778BBFCF9A71CF0283FF1D618C7EFLLO
+- _symbolic _____ 9WidgetKit08ActivityA7RequestC11CodingProxyV
+- _symbolic _____ 9WidgetKit08ActivityA7RequestC11CodingProxyV0E4Keys33_8F8778BBFCF9A71CF0283FF1D618C7EFLLO
+- _symbolic _____ 9WidgetKit08ActivityA7RequestC15PayloadMetadataV
+- _symbolic _____ 9WidgetKit11CodableBoolV10CodingKeys33_CE25353EE787FEBE340202A9B8E4BFBDLLO
+- _symbolic _____ 9WidgetKit15ActivityViewTagO10CodingKeys33_599960F0898EF475232433BDDBBE7B46LLO
+- _symbolic _____ 9WidgetKit15ActivityViewTagO15JindoCodingKeys33_599960F0898EF475232433BDDBBE7B46LLO
+- _symbolic _____ 9WidgetKit15ActivityViewTagO18ListItemCodingKeys33_599960F0898EF475232433BDDBBE7B46LLO
+- _symbolic _____ 9WidgetKit15JindoViewStatesV
+- _symbolic _____ 9WidgetKit15JindoViewStatesV14ArchivingErrorO
+- _symbolic _____ 9WidgetKit15JindoViewStatesV8MetadataV
+- _symbolic _____ 9WidgetKit15JindoViewStatesV8MetadataV10CodingKeys33_0344423957AD3664C3F971757EE547C6LLO
+- _symbolic _____ 9WidgetKit16ActivityArchiverV
+- _symbolic _____ 9WidgetKit18ActivityViewStatesV
+- _symbolic _____ 9WidgetKit18ActivityViewStatesV14ArchivingErrorO
+- _symbolic _____ 9WidgetKit18ActivityViewStatesV8MetadataV
+- _symbolic _____ 9WidgetKit18ActivityViewStatesV8MetadataV10CodingKeys33_5A34DE5970D4B138BB1ECAB17D8F4908LLO
+- _symbolic _____ 9WidgetKit19ActivityViewMetricsV
+- _symbolic _____ 9WidgetKit19ActivityViewMetricsV10CodingKeys33_D77A9A1D1802D5DE9224E598F2DC91B0LLO
+- _symbolic _____ 9WidgetKit19CompositeViewStatesV
+- _symbolic _____ 9WidgetKit19CompositeViewStatesV8MetadataV
+- _symbolic _____ 9WidgetKit19CompositeViewStatesV8MetadataV10CodingKeysO
+- _symbolic _____ 9WidgetKit19JindoViewCollectionV
+- _symbolic _____ 9WidgetKit22ActivityViewCollectionV
+- _symbolic _____ 9WidgetKit25ActivityViewEntryMetadataV
+- _symbolic _____ 9WidgetKit25ActivityViewEntryMetadataV10CodingKeys33_D670141312F0B83D24C552AC72A70497LLO
+- _symbolic _____ 9WidgetKit25ActivityViewSourceContextV
+- _symbolic _____ 9WidgetKit27JindoArchivedViewCollectionV
+- _symbolic _____ 9WidgetKit27JindoArchivedViewCollectionV0E5IndexV
+- _symbolic _____ 9WidgetKit30ActivityArchivedViewCollectionV0E5IndexV4Base33_9A620893F36A06BEFAA892DBB7692917LLO
+- _symbolic _____Sg 7SwiftUI13_ArchivedViewV
+- _symbolic _____Sg 9WidgetKit08ActivityA7RequestC11CodingProxyV
+- _symbolic _____Sg 9WidgetKit15JindoViewStatesV
+- _symbolic _____Sg 9WidgetKit15JindoViewStatesV8MetadataV
+- _symbolic _____Sg 9WidgetKit19ControlViewMetadataV
+- _symbolic _____Sg 9WidgetKit19JindoViewCollectionV
+- _symbolic _____Sg 9WidgetKit25ActivityViewEntryMetadataV
+- _symbolic _____Sg 9WidgetKit27JindoArchivedViewCollectionV
+- _symbolic ______SaySay_____GGt 9WidgetKit15WaveformVariant33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLO 12CoreGraphics7CGFloatV
+- _symbolic __________Kc 7SwiftUI7AnyViewV 9WidgetKit08ActivityD13SourceContextV
+- _symbolic ________________t 7SwiftUI23LabelStyleConfigurationV4IconV AA4TextV AC5TitleV
+- _symbolic ___________t 9WidgetKit30ActivityArchivedViewCollectionV0E5EntryV 7SwiftUI17EnvironmentValuesV
+- _symbolic ______p 9WidgetKit0A7HostingP
+- _symbolic ______p_____Kc 9WidgetKit17JindoViewProviderP AA08ActivityD13SourceContextV
+- _symbolic _____y7Content_____Qz_____yxGG 7SwiftUI17_ArchivedViewHostC 9WidgetKit0D6StatesP AD15_SimpleDelegate33_7CD9974EBF49E061C9CE4E55605646D3LLC
+- _symbolic _____ySS_____G s18_DictionaryStorageC 10Foundation4DateV
+- _symbolic _____ySi_____G s18_DictionaryStorageC 9WidgetKit25ActivityViewEntryMetadataV
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit08ActivityD7RequestC10CodingKeys33_8F8778BBFCF9A71CF0283FF1D618C7EFLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit08ActivityD7RequestC11CodingProxyV0H4Keys33_8F8778BBFCF9A71CF0283FF1D618C7EFLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit11CodableBoolV10CodingKeys33_CE25353EE787FEBE340202A9B8E4BFBDLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit15ActivityViewTagO10CodingKeys33_599960F0898EF475232433BDDBBE7B46LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit15ActivityViewTagO15JindoCodingKeys33_599960F0898EF475232433BDDBBE7B46LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit15ActivityViewTagO18ListItemCodingKeys33_599960F0898EF475232433BDDBBE7B46LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit15JindoViewStatesV8MetadataV10CodingKeys33_0344423957AD3664C3F971757EE547C6LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit18ActivityViewStatesV8MetadataV10CodingKeys33_5A34DE5970D4B138BB1ECAB17D8F4908LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit19ActivityViewMetricsV10CodingKeys33_D77A9A1D1802D5DE9224E598F2DC91B0LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit25ActivityViewEntryMetadataV10CodingKeys33_D670141312F0B83D24C552AC72A70497LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit08ActivityD7RequestC10CodingKeys33_8F8778BBFCF9A71CF0283FF1D618C7EFLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit08ActivityD7RequestC11CodingProxyV0H4Keys33_8F8778BBFCF9A71CF0283FF1D618C7EFLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit11CodableBoolV10CodingKeys33_CE25353EE787FEBE340202A9B8E4BFBDLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit15ActivityViewTagO10CodingKeys33_599960F0898EF475232433BDDBBE7B46LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit15ActivityViewTagO15JindoCodingKeys33_599960F0898EF475232433BDDBBE7B46LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit15ActivityViewTagO18ListItemCodingKeys33_599960F0898EF475232433BDDBBE7B46LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit15JindoViewStatesV8MetadataV10CodingKeys33_0344423957AD3664C3F971757EE547C6LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit18ActivityViewStatesV8MetadataV10CodingKeys33_5A34DE5970D4B138BB1ECAB17D8F4908LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit19ActivityViewMetricsV10CodingKeys33_D77A9A1D1802D5DE9224E598F2DC91B0LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit25ActivityViewEntryMetadataV10CodingKeys33_D670141312F0B83D24C552AC72A70497LLO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 9WidgetKit22ActivityViewCollectionV
+- _symbolic _____y__________G 9WidgetKit19CompositeViewStatesV AA08ActivitydE0V AA05JindodE0V
+- _symbolic _____y___________G 9WidgetKit19CompositeViewStatesV8MetadataV AA08ActivitydE0V AA05JindodE0V
+- _symbolic _____y___________y________________tGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA23LabelStyleConfigurationV4IconV AA4TextV AK5TitleV
+- _symbolic _____y__________y_____y__________GGG 7SwiftUI17_ArchivedViewHostC AA03AnyD0V 9WidgetKit15_SimpleDelegate33_7CD9974EBF49E061C9CE4E55605646D3LLC AF09CompositeD6StatesV AF08ActivitydS0V AF05JindodS0V
+- _symbolic _____y__________yxGG 7SwiftUI17_ArchivedViewHostC AA03AnyD0V 9WidgetKit15_SimpleDelegate33_7CD9974EBF49E061C9CE4E55605646D3LLC
+- _symbolic _____y_____y__________GG 9WidgetKit10_MapStates33_7CD9974EBF49E061C9CE4E55605646D3LLC AA013CompositeViewD0V AA08ActivitymD0V AA05JindomD0V
+- _symbolic _____y_____y__________GG 9WidgetKit15_SimpleDelegate33_7CD9974EBF49E061C9CE4E55605646D3LLC AA19CompositeViewStatesV AA08ActivitymN0V AA05JindomN0V
+- _symbolic _____y_____y________________tGG 7SwiftUI6HStackV AA9TupleViewV AA23LabelStyleConfigurationV4IconV AA4TextV AG5TitleV
+- _symbolic _____yxG 9WidgetKit10_MapStates33_7CD9974EBF49E061C9CE4E55605646D3LLC
+- _symbolic _____yxGSgXw 9WidgetKit10_MapStates33_7CD9974EBF49E061C9CE4E55605646D3LLC
+- _symbolic _____yxq__G 9WidgetKit19CompositeViewStatesV8MetadataV
+- _symbolic q_Sg
+- _type_layout_string 9WidgetKit08ActivityA7RequestC15PayloadMetadataV
+- _type_layout_string 9WidgetKit10ViewStatesRz7SwiftUI03AnyC0V7ContentRtzlAA0cD8ArchiverVyxG
+- _type_layout_string 9WidgetKit15JindoViewStatesV14ArchivingErrorO
+- _type_layout_string 9WidgetKit18ActivityViewStatesV14ArchivingErrorO
+- _type_layout_string 9WidgetKit19ActivityViewMetricsV
+- _type_layout_string 9WidgetKit25ActivityViewEntryMetadataV
+- _type_layout_string 9WidgetKit27JindoArchivedViewCollectionV0E5IndexV
+CStrings:
++ "%{public}s Session operation: `%{public}s` couldn't get extensionBundleIdentifier, so not requesting tailspin"
++ "%{public}s Session operation: `%{public}s` requesting tailspin for %{public}s because of tailspinOnWatchdogBundleIDsPref:%{public}s"
++ "/Library/Caches/com.apple.xbs/1ECEEB58-E6C2-4029-B382-8FEAE3ECAD7F/TemporaryDirectory.epVpep/Sources/Chrono_UI/WidgetKit/API/Widgets/WidgetFamilyKey.swift"
++ "/Library/Caches/com.apple.xbs/1ECEEB58-E6C2-4029-B382-8FEAE3ECAD7F/TemporaryDirectory.epVpep/Sources/Chrono_UI/WidgetKit/SPI/Environment/Environment Keys/ColorSchemeContrastKey.swift"
++ "/Library/Caches/com.apple.xbs/1ECEEB58-E6C2-4029-B382-8FEAE3ECAD7F/TemporaryDirectory.epVpep/Sources/Chrono_UI/WidgetKit/SPI/Environment/Environment Keys/ColorSchemeKey.swift"
++ "/Library/Caches/com.apple.xbs/1ECEEB58-E6C2-4029-B382-8FEAE3ECAD7F/TemporaryDirectory.epVpep/Sources/Chrono_UI/WidgetKit/SPI/Environment/Environment Keys/ContentSizeCategoryKey.swift"
++ "/Library/Caches/com.apple.xbs/1ECEEB58-E6C2-4029-B382-8FEAE3ECAD7F/TemporaryDirectory.epVpep/Sources/Chrono_UI/WidgetKit/SPI/Environment/Environment Keys/DisplayGamutKey.swift"
++ "/Library/Caches/com.apple.xbs/1ECEEB58-E6C2-4029-B382-8FEAE3ECAD7F/TemporaryDirectory.epVpep/Sources/Chrono_UI/WidgetKit/SPI/Environment/Environment Keys/LegibilityWeightKey.swift"
++ "/Library/Caches/com.apple.xbs/1ECEEB58-E6C2-4029-B382-8FEAE3ECAD7F/TemporaryDirectory.epVpep/Sources/Chrono_UI/WidgetKit/SPI/Environment/WidgetEnvironment.swift"
++ "<AccessoryActivityTarget: accessoryID="
++ "<ViewMetrics: bounds="
++ "Archiving[%ld]: %s"
++ "Created default action."
++ "Creating default action."
++ "Failed to get index for tag: %{public}s in environment: %{public}s ignoring %{public}s.  Available tags: [%s]. Available environments: %{public}s, diff: %s"
++ "GetSessionPlatterData"
++ "Index was incorrectly calculated for current configuration."
++ "Invalid activity response: no error and no response"
++ "Overriding assertion attributes in async launch case: %{public}s"
++ "Overriding assertion attributes in sync launch case: %{public}s"
++ "Returning view entry for tag: %s: %ld"
++ "Unable to create default activity action: %{public}@"
++ "Unable to decode ActivityWidgetRequest core data: %s"
++ "Unable to decode ActivityWidgetRequest core: %s"
++ "Unable to decode ActivityWidgetRequest file handle: %s"
++ "Unable to decode ActivityWidgetResponse core data: %s"
++ "Unable to encode ActivityWidgetRequest core: "
++ "WidgetKit.ActivityWidgetResponse"
++ "_TtC9WidgetKit15JindoViewStates"
++ "_TtC9WidgetKit16ActivityArchiver"
++ "_TtC9WidgetKit18ActivityViewStates"
++ "_TtC9WidgetKit18ListItemViewStates"
++ "_TtC9WidgetKit20LiveActivityMetadata"
++ "_TtC9WidgetKit22ActivityWidgetResponse"
++ "_TtC9WidgetKit34_SimpleActivityArchivingDataSource"
++ "_TtC9WidgetKit35_DefaultActivityArchivingDataSource"
++ "_TtC9WidgetKitP33_7CD9974EBF49E061C9CE4E55605646D310_MapStates"
++ "_TtC9WidgetKitP33_7CD9974EBF49E061C9CE4E55605646D315_SimpleDelegate"
++ "_activityID"
++ "_archiveID"
++ "_archiveVersion"
++ "_cartesianCollection"
++ "_collection"
++ "_dynamicIsland"
++ "_inner"
++ "_innerRequest"
++ "_isProcessingLeft"
++ "_isPublic"
++ "_lastEnvProcessed"
++ "_lastJindoViewTagProcessed"
++ "_lastMetricsProcessed"
++ "_listItem"
++ "_localizationToken"
++ "_makeViewStates()"
++ "_metricsDefinition"
++ "_needsHostContent"
++ "_payloadMetadata"
++ "_startViewIndexForRight"
++ "_viewCount"
++ "_viewMetadataByViewIndex"
++ "_viewTags"
++ "_views"
++ "_widgetRenderScheme"
++ "accessoryActivityActions"
++ "archivedFamily"
++ "codableArchiveVersion"
++ "compactLeading"
++ "compactTrailing"
++ "data"
++ "dataSource"
++ "dynamicIsland-compactLeading"
++ "dynamicIsland-compactTrailing"
++ "encodePubliclyFor3rdParty"
++ "innerRequestData"
++ "isInternal"
++ "keyColor"
++ "left"
++ "listItemEnvironment"
++ "listItemViewMetadata"
++ "metadataID"
++ "rawValue"
++ "request"
++ "result"
++ "right"
++ "signpostID"
++ "signposter"
++ "supportedListItemFamilies"
++ "type"
++ "v32@0:8@\"NSArray\"16@?<v@?@\"NSArray\"@\"NSError\">24"
++ "version"
++ "viewContextProvider"
++ "viewEntryMetadata"
++ "viewEntryToEnvironment"
++ "viewSource"
++ "viewTag"
++ "viewTags"
+- "%{public}s Session operation: `%{public}s` requesting tailspin for %{public}s because of tailspinOnAllWatchdogBundleIDs:%{public}s"
+- "/Library/Caches/com.apple.xbs/Sources/Chrono_UI/WidgetKit/API/Widgets/WidgetFamilyKey.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Chrono_UI/WidgetKit/SPI/Environment/Environment Keys/ColorSchemeContrastKey.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Chrono_UI/WidgetKit/SPI/Environment/Environment Keys/ColorSchemeKey.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Chrono_UI/WidgetKit/SPI/Environment/Environment Keys/ContentSizeCategoryKey.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Chrono_UI/WidgetKit/SPI/Environment/Environment Keys/DisplayGamutKey.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Chrono_UI/WidgetKit/SPI/Environment/Environment Keys/LegibilityWeightKey.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Chrono_UI/WidgetKit/SPI/Environment/WidgetEnvironment.swift"
+- "<ActivityViewMetrics: bounds="
+- "Environment for archiving: %s"
+- "Failed to fetch view from archive at index %{public}ld: %{public}@"
+- "Failed to get index for tag: %{public}s in environment: %{public}s ignoring %{public}s.  Available environments: %{public}s, diff: %s"
+- "Overriding assertion attributes in launch case: %{public}s"
+- "WidgetKit/ActivityArchivedViewCollection.swift"
+- "WidgetKit/ActivityWidgetRequest.swift"
+- "_developmentMode ("
+- "_localizationToken ("
+- "_localizations ("
+- "_makeViewCollection(source:)"
+- "_preferredSystemWidgetBackgroundStyle ("
+- "_widgetMetrics ("
+- "_widgetRenderScheme ("
+- "accessibilityDifferentiateWithoutColor ("
+- "accessibilityInvertColors ("
+- "accessibilityReduceMotion ("
+- "accessibilityReduceTransparency ("
+- "archiveVersion"
+- "colorSchemeContrast ("
+- "defaultPayload"
+- "descriptor"
+- "isLuminanceReduced ("
+- "isStale"
+- "legibilityWeight ("
+- "payloadMetadata"
+- "redactionReasons ("
+- "setTargetLiveSceneBundleIdentifier:"
+- "showsWidgetLabel ("
+- "userWantsWidgetDataWhenPasscodeLocked ("
+
+```

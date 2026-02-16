@@ -1,0 +1,72 @@
+## libIOABP.dylib
+
+> `/usr/lib/libIOABP.dylib`
+
+```diff
+
+-915.0.0.0.0
+-  __TEXT.__text: 0x4e5c
++954.0.0.0.0
++  __TEXT.__text: 0x4e50
+   __TEXT.__auth_stubs: 0x470
+   __TEXT.__gcc_except_tab: 0xd0
+   __TEXT.__const: 0xb5
+-  __TEXT.__cstring: 0x1176
++  __TEXT.__cstring: 0x118d
+   __TEXT.__unwind_info: 0x1e8
+   __DATA_CONST.__got: 0x58
+-  __DATA_CONST.__const: 0x3a0
++  __DATA_CONST.__const: 0x3a8
+   __AUTH_CONST.__auth_got: 0x240
+   __AUTH_CONST.__const: 0xd0
+   __AUTH_CONST.__cfstring: 0xe0
+
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 10209787-FD9F-3305-B6C4-A8AEE9C394AB
++  UUID: B01113D8-31FE-336F-8496-CD5F794F6505
+   Functions: 141
+   Symbols:   315
+-  CStrings:  183
++  CStrings:  184
+ 
+Symbols:
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorI24IOABPTraceCodeAttachmentEEPS2_EclB9foe210106Ev
++ __ZNSt12length_errorC1B9foe210106EPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106ILi0EEEPKc
++ __ZNSt3__114__split_bufferI24IOABPTraceCodeAttachmentRNS_9allocatorIS1_EEE17__destruct_at_endB9foe210106EPS1_
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorI24IOABPTraceCodeAttachmentEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__shared_weak_count16__release_sharedB9foe210106Ev
++ __ZNSt3__120__throw_length_errorB9foe210106EPKc
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorI24IOABPTraceCodeAttachmentEEPS3_EEED2B9foe210106Ev
++ __ZNSt3__134__uninitialized_allocator_relocateB9foe210106INS_9allocatorI24IOABPTraceCodeAttachmentEEPS2_EEvRT_T0_S7_S7_
++ __ZNSt3__16vectorI24IOABPTraceCodeAttachmentNS_9allocatorIS1_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorI24IOABPTraceCodeAttachmentNS_9allocatorIS1_EEE5clearB9foe210106Ev
++ __ZSt28__throw_bad_array_new_lengthB9foe210106v
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorI24IOABPTraceCodeAttachmentEEPS2_EclB8ne200100Ev
+- __ZNSt12length_errorC1B8ne200100EPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100ILi0EEEPKc
+- __ZNSt3__114__split_bufferI24IOABPTraceCodeAttachmentRNS_9allocatorIS1_EEE17__destruct_at_endB8ne200100EPS1_
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorI24IOABPTraceCodeAttachmentEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__shared_weak_count16__release_sharedB8ne200100Ev
+- __ZNSt3__120__throw_length_errorB8ne200100EPKc
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorI24IOABPTraceCodeAttachmentEEPS3_EEED2B8ne200100Ev
+- __ZNSt3__134__uninitialized_allocator_relocateB8ne200100INS_9allocatorI24IOABPTraceCodeAttachmentEEPS2_EEvRT_T0_S7_S7_
+- __ZNSt3__16vectorI24IOABPTraceCodeAttachmentNS_9allocatorIS1_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorI24IOABPTraceCodeAttachmentNS_9allocatorIS1_EEE5clearB8ne200100Ev
+- __ZSt28__throw_bad_array_new_lengthB8ne200100v
+Functions:
+~ __ZN15IOABPTraceClass12getTraceCodeEjR18IOABPTraceCodeDict : 1240 -> 1232
+~ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100ILi0EEEPKc -> __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106ILi0EEEPKc : 184 -> 188
+~ __ZNSt3__16vectorI24IOABPTraceCodeAttachmentNS_9allocatorIS1_EEE5clearB8ne200100Ev -> __ZNSt3__16vectorI24IOABPTraceCodeAttachmentNS_9allocatorIS1_EEE5clearB9foe210106Ev : 80 -> 84
+~ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE17__assign_externalEPKcm -> __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE17__assign_externalEPKc : 188 -> 72
+~ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE17__assign_externalEPKc -> __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE17__assign_externalEPKcm : 72 -> 188
+~ __ZNSt3__16vectorI24IOABPTraceCodeAttachmentNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJS1_EEEPS1_DpOT_ : 300 -> 296
+~ __ZNSt3__119__shared_weak_count16__release_sharedB8ne200100Ev -> __ZNSt3__119__shared_weak_count16__release_sharedB9foe210106Ev : 108 -> 100
+CStrings:
++ "kABPLinkBWNotification"
+
+```

@@ -1,0 +1,376 @@
+## HealthOrchestration
+
+> `/System/Library/PrivateFrameworks/HealthOrchestration.framework/HealthOrchestration`
+
+```diff
+
+-6200.4.9.0.0
+-  __TEXT.__text: 0x997ac
+-  __TEXT.__auth_stubs: 0x1740
++6200.5.77.2.6
++  __TEXT.__text: 0xadcd8
++  __TEXT.__auth_stubs: 0x1900
+   __TEXT.__objc_methlist: 0x3d4
+-  __TEXT.__const: 0x78f0
+-  __TEXT.__cstring: 0x1bf6
+-  __TEXT.__swift5_typeref: 0x1f0c
+-  __TEXT.__constg_swiftt: 0x2a94
+-  __TEXT.__swift5_reflstr: 0x172d
+-  __TEXT.__swift5_fieldmd: 0x2200
++  __TEXT.__const: 0x8848
++  __TEXT.__cstring: 0x95c
++  __TEXT.__swift5_typeref: 0x2636
++  __TEXT.__swift5_fieldmd: 0x25fc
++  __TEXT.__constg_swiftt: 0x2f88
++  __TEXT.__swift5_reflstr: 0x1b44
+   __TEXT.__swift5_builtin: 0x8c
+-  __TEXT.__swift5_assocty: 0x560
+-  __TEXT.__swift5_proto: 0x668
+-  __TEXT.__swift5_types: 0x2dc
+-  __TEXT.__swift5_protos: 0x90
+-  __TEXT.__swift5_capture: 0xa28
++  __TEXT.__swift5_capture: 0x1260
++  __TEXT.__swift5_assocty: 0x660
++  __TEXT.__swift5_protos: 0x9c
++  __TEXT.__swift5_proto: 0x754
++  __TEXT.__swift5_types: 0x330
+   __TEXT.__oslogstring: 0xbe2
++  __TEXT.__swift_as_entry: 0x24
++  __TEXT.__swift_as_ret: 0x20
+   __TEXT.__swift5_mpenum: 0xd4
+-  __TEXT.__swift_as_entry: 0x18
+-  __TEXT.__swift_as_ret: 0x14
+-  __TEXT.__unwind_info: 0x2dc0
+-  __TEXT.__eh_frame: 0x4074
+-  __TEXT.__objc_classname: 0xaa
+-  __TEXT.__objc_methname: 0x907
+-  __TEXT.__objc_methtype: 0x333
+-  __DATA_CONST.__got: 0x460
+-  __DATA_CONST.__const: 0x330
+-  __DATA_CONST.__objc_classlist: 0x190
++  __TEXT.__unwind_info: 0x3378
++  __TEXT.__eh_frame: 0x4208
++  __TEXT.__objc_classname: 0xe79
++  __TEXT.__objc_methname: 0x116b
++  __TEXT.__objc_methtype: 0x609
++  __TEXT.__objc_stubs: 0x520
++  __DATA_CONST.__got: 0x550
++  __DATA_CONST.__const: 0x490
++  __DATA_CONST.__objc_classlist: 0x1b8
+   __DATA_CONST.__objc_protolist: 0x98
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x2e8
+   __DATA_CONST.__objc_protorefs: 0x50
+-  __AUTH_CONST.__auth_got: 0xba0
+-  __AUTH_CONST.__const: 0x60c0
+-  __AUTH_CONST.__objc_const: 0x3218
++  __AUTH_CONST.__auth_got: 0xc88
++  __AUTH_CONST.__const: 0x79a0
++  __AUTH_CONST.__objc_const: 0x38b8
+   __AUTH.__objc_data: 0x300
+-  __AUTH.__data: 0x13f0
+-  __DATA.__data: 0x14b8
+-  __DATA.__bss: 0x7f80
++  __AUTH.__data: 0x1940
++  __DATA.__data: 0x1898
++  __DATA.__bss: 0x9680
+   __DATA.__common: 0x20
+   __DATA_DIRTY.__objc_data: 0xa0
+-  __DATA_DIRTY.__data: 0x25d0
+-  __DATA_DIRTY.__bss: 0x3800
++  __DATA_DIRTY.__data: 0x2880
++  __DATA_DIRTY.__bss: 0x3a00
+   __DATA_DIRTY.__common: 0x40
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftSynchronization.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 599E622E-671D-310E-9DF2-63711B27F26D
+-  Functions: 4113
+-  Symbols:   1386
+-  CStrings:  410
++  UUID: CD1E1D3C-ACBB-398E-8892-7F44F7E53B64
++  Functions: 4738
++  Symbols:   1599
++  CStrings:  432
+ 
+Symbols:
++ _NSSystemClockDidChangeNotification
++ _NSSystemTimeZoneDidChangeNotification
++ __DATA__TtC19HealthOrchestration15MockInputSignal
++ __DATA__TtC19HealthOrchestration17MockAnchorStorage
++ __DATA__TtC19HealthOrchestration23MockInputSignalProvider
++ __DATA__TtC19HealthOrchestration25CalendarChangeInputSignal
++ __DATA__TtC19HealthOrchestration33WorkQueueFilteredWorkRegistration
++ __IVARS__TtC19HealthOrchestration15MockInputSignal
++ __IVARS__TtC19HealthOrchestration17MockAnchorStorage
++ __IVARS__TtC19HealthOrchestration18MockGenericPlanner
++ __IVARS__TtC19HealthOrchestration23MockInputSignalProvider
++ __IVARS__TtC19HealthOrchestration25CalendarChangeInputSignal
++ __IVARS__TtC19HealthOrchestration33WorkQueueFilteredWorkRegistration
++ __METACLASS_DATA__TtC19HealthOrchestration15MockInputSignal
++ __METACLASS_DATA__TtC19HealthOrchestration17MockAnchorStorage
++ __METACLASS_DATA__TtC19HealthOrchestration23MockInputSignalProvider
++ __METACLASS_DATA__TtC19HealthOrchestration25CalendarChangeInputSignal
++ __METACLASS_DATA__TtC19HealthOrchestration33WorkQueueFilteredWorkRegistration
++ ___swift_allocate_boxed_opaque_existential_1Tm
++ ___swift_deallocate_boxed_opaque_existential_3
++ ___swift_memcpy73_8
++ ___swift_project_boxed_opaque_existential_3
++ _associated conformance 19HealthOrchestration11MockContextC11DescriptionV10CodingKeys33_E77597D353DE9FDE3AB6DFAF19507812LLOSHAASQ
++ _associated conformance 19HealthOrchestration11MockContextC11DescriptionV10CodingKeys33_E77597D353DE9FDE3AB6DFAF19507812LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 19HealthOrchestration11MockContextC11DescriptionV10CodingKeys33_E77597D353DE9FDE3AB6DFAF19507812LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19HealthOrchestration13XPCDispatcherC6ErrorsOSHAASQ
++ _associated conformance 19HealthOrchestration15MockInputSignalCAA0dE0AA6AnchorAaDP_AA0deF0
++ _associated conformance 19HealthOrchestration16ComparableAnchorV10CodingKeys33_C93DB9D92AE1434219A0141ABFAB24E6LLOyx_GSHAASQ
++ _associated conformance 19HealthOrchestration16ComparableAnchorV10CodingKeys33_C93DB9D92AE1434219A0141ABFAB24E6LLOyx_Gs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 19HealthOrchestration16ComparableAnchorV10CodingKeys33_C93DB9D92AE1434219A0141ABFAB24E6LLOyx_Gs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19HealthOrchestration16ComparableAnchorVyxGAA011InputSignalD0AA13ConfigurationAaEP_AA0efG0
++ _associated conformance 19HealthOrchestration18MockGenericPlannerCyxGAA0E0AA8WorkPlanAaEP_AaF
++ _associated conformance 19HealthOrchestration19DeadlineInputSignalC13ConfigurationV10CodingKeys33_68F5BB0EE0453FFF00FDCB6BC1035D77LLOSHAASQ
++ _associated conformance 19HealthOrchestration19DeadlineInputSignalC13ConfigurationV10CodingKeys33_68F5BB0EE0453FFF00FDCB6BC1035D77LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 19HealthOrchestration19DeadlineInputSignalC13ConfigurationV10CodingKeys33_68F5BB0EE0453FFF00FDCB6BC1035D77LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19HealthOrchestration21MockInputSignalAnchorV10CodingKeys33_7A309168CAC12688E92D37772D603548LLOSHAASQ
++ _associated conformance 19HealthOrchestration21MockInputSignalAnchorV10CodingKeys33_7A309168CAC12688E92D37772D603548LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 19HealthOrchestration21MockInputSignalAnchorV10CodingKeys33_7A309168CAC12688E92D37772D603548LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19HealthOrchestration21MockInputSignalAnchorVAA0deF0AA13ConfigurationAaDP_AA0deG0
++ _associated conformance 19HealthOrchestration25CalendarChangeInputSignalC0cD4TypeVSHAASQ
++ _associated conformance 19HealthOrchestration25CalendarChangeInputSignalC0cD4TypeVs10SetAlgebraAASQ
++ _associated conformance 19HealthOrchestration25CalendarChangeInputSignalC0cD4TypeVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 19HealthOrchestration25CalendarChangeInputSignalC0cD4TypeVs9OptionSetAASY
++ _associated conformance 19HealthOrchestration25CalendarChangeInputSignalC0cD4TypeVs9OptionSetAAs0I7Algebra
++ _associated conformance 19HealthOrchestration25CalendarChangeInputSignalC13ConfigurationVSHAASQ
++ _associated conformance 19HealthOrchestration25CalendarChangeInputSignalC6AnchorV10CodingKeys33_3A252C07F380EC99E837D2DC72EF8B63LLOSHAASQ
++ _associated conformance 19HealthOrchestration25CalendarChangeInputSignalC6AnchorV10CodingKeys33_3A252C07F380EC99E837D2DC72EF8B63LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 19HealthOrchestration25CalendarChangeInputSignalC6AnchorV10CodingKeys33_3A252C07F380EC99E837D2DC72EF8B63LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19HealthOrchestration25CalendarChangeInputSignalC6AnchorVAA0efG0AA13ConfigurationAaFP_AA0efH0
++ _associated conformance 19HealthOrchestration25CalendarChangeInputSignalCAA0eF0AA6AnchorAaDP_AA0efG0
++ _associated conformance 19HealthOrchestration28MockInputSignalConfigurationV10CodingKeys33_7A309168CAC12688E92D37772D603548LLOSHAASQ
++ _associated conformance 19HealthOrchestration28MockInputSignalConfigurationV10CodingKeys33_7A309168CAC12688E92D37772D603548LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 19HealthOrchestration28MockInputSignalConfigurationV10CodingKeys33_7A309168CAC12688E92D37772D603548LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19HealthOrchestration28MockInputSignalConfigurationVSHAASQ
++ _block_copy_helper.14
++ _block_copy_helper.15
++ _block_copy_helper.22
++ _block_copy_helper.25
++ _block_copy_helper.8
++ _block_descriptor.10
++ _block_descriptor.16
++ _block_descriptor.17
++ _block_descriptor.24
++ _block_descriptor.27
++ _block_destroy_helper.15
++ _block_destroy_helper.16
++ _block_destroy_helper.23
++ _block_destroy_helper.26
++ _block_destroy_helper.9
++ _get_type_metadata s8SendableRzl15Synchronization5MutexVy19HealthOrchestration9AtomicBoxC5State33_00211C3712AD0B3618D5CDE60EF2709DLLVyx_GG noncopyable.2
++ _keypath_getTm
++ _objc_msgSend$addFilePresenter:
++ _objc_msgSend$addObserver:forKeyPath:options:context:
++ _objc_msgSend$addObserverForName:object:queue:usingBlock:
++ _objc_msgSend$addOperationWithBlock:
++ _objc_msgSend$archivedDataWithRootObject:requiringSecureCoding:error:
++ _objc_msgSend$attributesOfItemAtPath:error:
++ _objc_msgSend$autoupdatingCurrentLocale
++ _objc_msgSend$bundle
++ _objc_msgSend$decodeIntegerForKey:
++ _objc_msgSend$defaultCenter
++ _objc_msgSend$encodeInteger:forKey:
++ _objc_msgSend$encodeObject:forKey:
++ _objc_msgSend$endowmentNamespaces
++ _objc_msgSend$identifier
++ _objc_msgSend$init
++ _objc_msgSend$initWithDomain:code:userInfo:
++ _objc_msgSend$initWithServiceName:
++ _objc_msgSend$interfaceWithProtocol:
++ _objc_msgSend$invalidate
++ _objc_msgSend$predicateMatchingBundleIdentifiers:
++ _objc_msgSend$remoteObjectProxyWithErrorHandler:
++ _objc_msgSend$remote_runWithWorkPlan:provider:executor:with:
++ _objc_msgSend$removeFilePresenter:
++ _objc_msgSend$removeObserver:
++ _objc_msgSend$removeObserver:forKeyPath:
++ _objc_msgSend$removeObserver:name:object:
++ _objc_msgSend$resume
++ _objc_msgSend$serviceListener
++ _objc_msgSend$setDelegate:
++ _objc_msgSend$setEndowmentNamespaces:
++ _objc_msgSend$setExportedInterface:
++ _objc_msgSend$setExportedObject:
++ _objc_msgSend$setPredicates:
++ _objc_msgSend$setRemoteObjectInterface:
++ _objc_msgSend$setStateDescriptor:
++ _objc_msgSend$setUpdateHandler:
++ _objc_msgSend$setValues:
++ _objc_msgSend$state
++ _objc_msgSend$taskState
++ _objc_msgSend$updateConfiguration:
++ _objc_msgSend$valueForKey:
++ _objc_release_x1
++ _objc_release_x28
++ _objc_retain_x27
++ _objectdestroy.12Tm
++ _objectdestroy.14Tm
++ _objectdestroy.32Tm
++ _swift_conformsToProtocol2
++ _swift_getFunctionTypeMetadata3
++ _swift_runtimeSupportsNoncopyableTypes
++ _swift_willThrowTypedImpl
++ _symbolic $s19HealthOrchestration13AnchorStorageP
++ _symbolic $s19HealthOrchestration14RemoteExecutorP
++ _symbolic $s19HealthOrchestration37CalendarChangeInputSignalDateProviderP
++ _symbolic SDySSSiG
++ _symbolic SDySS_____G 19HealthOrchestration017WorkQueueFilteredC12RegistrationC
++ _symbolic SaySbxYbcG
++ _symbolic Say_____GIegg_ 19HealthOrchestration20AnchoredWorkCriteriaV
++ _symbolic Say_____GIegg_Ieghg_ 19HealthOrchestration20AnchoredWorkCriteriaV
++ _symbolic Say_____GSay______pGIeghgo_ 19HealthOrchestration28MockInputSignalConfigurationV AA0deF0P
++ _symbolic Say_____GSay______pGIeghnr_ 19HealthOrchestration28MockInputSignalConfigurationV AA0deF0P
++ _symbolic Say_____GSbIeghgd_ 19HealthOrchestration28MockInputSignalConfigurationV
++ _symbolic Say_____GSbIeghnr_ 19HealthOrchestration28MockInputSignalConfigurationV
++ _symbolic Say_____GytIegnr_ 19HealthOrchestration20AnchoredWorkCriteriaV
++ _symbolic Say_____GytIegnr_ytIeghnr_ 19HealthOrchestration20AnchoredWorkCriteriaV
++ _symbolic ScCySDy__________G______pG 19HealthOrchestration12WorkCriteriaC10IdentifierV AA20InputSignalAnchorSetC s5ErrorP
++ _symbolic ScCyyt_____G s5NeverO
++ _symbolic ScCyyt______pG s5ErrorP
++ _symbolic So20NSNotificationCenterC
++ _symbolic _____ 10Foundation14DateComponentsV
++ _symbolic _____ 10Foundation8CalendarV
++ _symbolic _____ 19HealthOrchestration017WorkQueueFilteredC12RegistrationC
++ _symbolic _____ 19HealthOrchestration017WorkQueueFilteredC12RegistrationC5State33_CB68D2145BD0DACAC424CDE6BB51C134LLV
++ _symbolic _____ 19HealthOrchestration11MockContextC11DescriptionV10CodingKeys33_E77597D353DE9FDE3AB6DFAF19507812LLO
++ _symbolic _____ 19HealthOrchestration13XPCDispatcherC6ErrorsO
++ _symbolic _____ 19HealthOrchestration15MockInputSignalC
++ _symbolic _____ 19HealthOrchestration16ComparableAnchorV
++ _symbolic _____ 19HealthOrchestration16ComparableAnchorV10CodingKeys33_C93DB9D92AE1434219A0141ABFAB24E6LLO
++ _symbolic _____ 19HealthOrchestration17MockAnchorStorageC
++ _symbolic _____ 19HealthOrchestration18MockGenericPlannerC
++ _symbolic _____ 19HealthOrchestration19DeadlineInputSignalC13ConfigurationV10CodingKeys33_68F5BB0EE0453FFF00FDCB6BC1035D77LLO
++ _symbolic _____ 19HealthOrchestration21MockInputSignalAnchorV
++ _symbolic _____ 19HealthOrchestration21MockInputSignalAnchorV10CodingKeys33_7A309168CAC12688E92D37772D603548LLO
++ _symbolic _____ 19HealthOrchestration23MockInputSignalProviderC
++ _symbolic _____ 19HealthOrchestration25CalendarChangeInputSignalC
++ _symbolic _____ 19HealthOrchestration25CalendarChangeInputSignalC0C8ProviderV
++ _symbolic _____ 19HealthOrchestration25CalendarChangeInputSignalC0cD4TypeV
++ _symbolic _____ 19HealthOrchestration25CalendarChangeInputSignalC13ConfigurationV
++ _symbolic _____ 19HealthOrchestration25CalendarChangeInputSignalC5State33_3A252C07F380EC99E837D2DC72EF8B63LLV
++ _symbolic _____ 19HealthOrchestration25CalendarChangeInputSignalC6AnchorV
++ _symbolic _____ 19HealthOrchestration25CalendarChangeInputSignalC6AnchorV10CodingKeys33_3A252C07F380EC99E837D2DC72EF8B63LLO
++ _symbolic _____ 19HealthOrchestration28MockInputSignalConfigurationV
++ _symbolic _____ 19HealthOrchestration28MockInputSignalConfigurationV10CodingKeys33_7A309168CAC12688E92D37772D603548LLO
++ _symbolic _____ 19HealthOrchestration9AtomicBoxC5State33_00211C3712AD0B3618D5CDE60EF2709DLLV
++ _symbolic _____Ieghg_ 19HealthOrchestration20InputSignalAnchorSetC
++ _symbolic _____Say_____G______pSgIeghg_Ieghggg_ 19HealthOrchestration20InputSignalAnchorSetC AA12WorkCriteriaC10IdentifierV s5ErrorP
++ _symbolic _____Say_____G______pSgytIeghnr_ytIeghnnnr_ 19HealthOrchestration20InputSignalAnchorSetC AA12WorkCriteriaC10IdentifierV s5ErrorP
++ _symbolic _____SgXw 19HealthOrchestration17MockAnchorStorageC
++ _symbolic _____SgXw 19HealthOrchestration25CalendarChangeInputSignalC
++ _symbolic _____SgXwz_Xx 19HealthOrchestration25CalendarChangeInputSignalC
++ _symbolic ______SeSEp 19HealthOrchestration8WorkPlanP
++ _symbolic __________ABSayxGIeghgggo_ 19HealthOrchestration12WorkCriteriaC AA20InputSignalAnchorSetC
++ _symbolic __________ABSayxGIeghnnnr_ 19HealthOrchestration12WorkCriteriaC AA20InputSignalAnchorSetC
++ _symbolic __________Ieghgg_ 19HealthOrchestration20InputSignalAnchorSetC AA12WorkCriteriaC
++ _symbolic __________ySDy__________G______pGIeghg_Iegng_ 19HealthOrchestration14InputSignalSetV s6ResultOsRi_zRi0_zrlE AA12WorkCriteriaC10IdentifierV AA0cd6AnchorE0C s5ErrorP
++ _symbolic __________ySDy__________G______pGytIeghnr_ytIegnnr_ 19HealthOrchestration14InputSignalSetV s6ResultOsRi_zRi0_zrlE AA12WorkCriteriaC10IdentifierV AA0cd6AnchorE0C s5ErrorP
++ _symbolic __________ytIeghnnr_ 19HealthOrchestration20InputSignalAnchorSetC AA12WorkCriteriaC
++ _symbolic ______p 19HealthOrchestration37CalendarChangeInputSignalDateProviderP
++ _symbolic ______pSgIeghg_ s5ErrorP
++ _symbolic ______pSgXw 19HealthOrchestration10WorkSourceP
++ _symbolic ______pSgXwz_Xx 19HealthOrchestration10WorkSourceP
++ _symbolic ______pSgytIeghnr_ s5ErrorP
++ _symbolic ______p______pSay______pGIeghggo_ 19HealthOrchestration11WorkContextP AA19InputSignalObserverP AA0eF0P
++ _symbolic ______p______pSay______pGIeghnnr_ 19HealthOrchestration11WorkContextP AA19InputSignalObserverP AA0eF0P
++ _symbolic _____ySDy__________GG 19HealthOrchestration25IndependentAtomicPropertyV AA12WorkCriteriaC10IdentifierV AA20InputSignalAnchorSetC
++ _symbolic _____ySDy__________G______pGIeghg_ s6ResultOsRi_zRi0_zrlE 19HealthOrchestration12WorkCriteriaC10IdentifierV AC20InputSignalAnchorSetC s5ErrorP
++ _symbolic _____ySDy__________G______pGytIeghnr_ s6ResultOsRi_zRi0_zrlE 19HealthOrchestration12WorkCriteriaC10IdentifierV AC20InputSignalAnchorSetC s5ErrorP
++ _symbolic _____ySay_____GxYbcG 19HealthOrchestration25IndependentAtomicPropertyV AA12WorkCriteriaC10AdjustmentO
++ _symbolic _____ySay______pGSay_____GYbcG 19HealthOrchestration25IndependentAtomicPropertyV AA24InputSignalConfigurationP AA04MockfgH0V
++ _symbolic _____ySay______pG______p_______ptYbcG 19HealthOrchestration25IndependentAtomicPropertyV AA11InputSignalP AA11WorkContextP AA0fG8ObserverP
++ _symbolic _____ySayxG___________ADtYbcG 19HealthOrchestration25IndependentAtomicPropertyV AA12WorkCriteriaC AA20InputSignalAnchorSetC
++ _symbolic _____ySbSay_____GYbcG 19HealthOrchestration25IndependentAtomicPropertyV AA28MockInputSignalConfigurationV
++ _symbolic _____ySiG 19HealthOrchestration25IndependentAtomicPropertyV
++ _symbolic _____y_____G 19HealthOrchestration25IndependentAtomicPropertyV AA21MockInputSignalAnchorV
++ _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 19HealthOrchestration017WorkQueueFilteredG12RegistrationC5State33_CB68D2145BD0DACAC424CDE6BB51C134LLV
++ _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 19HealthOrchestration25CalendarChangeInputSignalC5State33_3A252C07F380EC99E837D2DC72EF8B63LLV
++ _symbolic _____ytIeghnr_ 19HealthOrchestration20InputSignalAnchorSetC
++ _symbolic _____yy_____YbcG 19HealthOrchestration25IndependentAtomicPropertyV AA20InputSignalAnchorSetC
++ _symbolic _____yy______Say_____Gy______pSgYbctYbcG 19HealthOrchestration25IndependentAtomicPropertyV AA20InputSignalAnchorSetC AA12WorkCriteriaC10IdentifierV s5ErrorP
++ _symbolic _____yy___________tYbcG 19HealthOrchestration25IndependentAtomicPropertyV AA20InputSignalAnchorSetC AA12WorkCriteriaC
++ _symbolic _____yyx_______ptYbcG 19HealthOrchestration25IndependentAtomicPropertyV s5ErrorP
++ _symbolic _____yyySay_____GcYbcG 19HealthOrchestration25IndependentAtomicPropertyV AA20AnchoredWorkCriteriaV
++ _symbolic xSay_____GIeghno_ 19HealthOrchestration12WorkCriteriaC10AdjustmentO
++ _symbolic xSay_____GIeghnr_ 19HealthOrchestration12WorkCriteriaC10AdjustmentO
++ _symbolic xSbIeghnd_
++ _symbolic x______pIeghng_ s5ErrorP
++ _symbolic x______pytIeghnnr_ s5ErrorP
++ _symbolic y______y_____ySDy__________G______pGYbctc 19HealthOrchestration14InputSignalSetV s6ResultOsRi_zRi0_zrlE AA12WorkCriteriaC10IdentifierV AA0cd6AnchorE0C s5ErrorP
++ _type_layout_string 19HealthOrchestration017WorkQueueFilteredC12RegistrationC5State33_CB68D2145BD0DACAC424CDE6BB51C134LLV
++ _type_layout_string 19HealthOrchestration21MockInputSignalAnchorV
++ _type_layout_string 19HealthOrchestration25CalendarChangeInputSignalC0cD4TypeV
++ _type_layout_string 19HealthOrchestration25CalendarChangeInputSignalC13ConfigurationV
++ _type_layout_string 19HealthOrchestration28MockInputSignalConfigurationV
+- ___swift_memcpy65_8
+- _associated conformance 19HealthOrchestration11MockContextC11DescriptionV10CodingKeys33_764215B25051DE77EA7BB560B128A972LLOSHAASQ
+- _associated conformance 19HealthOrchestration11MockContextC11DescriptionV10CodingKeys33_764215B25051DE77EA7BB560B128A972LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 19HealthOrchestration11MockContextC11DescriptionV10CodingKeys33_764215B25051DE77EA7BB560B128A972LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19HealthOrchestration20CurrentValueWorkPlanV10CodingKeys33_7CFCE4FAFF84DC933469CD1663D051F7LLOyx_GSHAASQ
+- _associated conformance 19HealthOrchestration20CurrentValueWorkPlanV10CodingKeys33_7CFCE4FAFF84DC933469CD1663D051F7LLOyx_Gs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 19HealthOrchestration20CurrentValueWorkPlanV10CodingKeys33_7CFCE4FAFF84DC933469CD1663D051F7LLOyx_Gs0G3KeyAAs28CustomDebugStringConvertible
+- _block_copy_helper.13
+- _block_copy_helper.24
+- _block_descriptor.15
+- _block_descriptor.26
+- _block_destroy_helper.14
+- _block_destroy_helper.25
+- _get_enum_tag_for_layout_string 19HealthOrchestration10WorkSource_pSg
+- _malloc
+- _objc_retain_x11
+- _objectdestroy.13Tm
+- _objectdestroy.31Tm
+- _objectdestroy.4Tm
+- _symbolic _____ 19HealthOrchestration11MockContextC11DescriptionV10CodingKeys33_764215B25051DE77EA7BB560B128A972LLO
+- _symbolic _____ 19HealthOrchestration20CurrentValueWorkPlanV10CodingKeys33_7CFCE4FAFF84DC933469CD1663D051F7LLO
+- _type_layout_string So16os_unfair_lock_sV
+CStrings:
++ "<MockInputSignal: "
++ "_TtC19HealthOrchestration15MockInputSignal"
++ "_TtC19HealthOrchestration17MockAnchorStorage"
++ "_TtC19HealthOrchestration23MockInputSignalProvider"
++ "_TtC19HealthOrchestration25CalendarChangeInputSignal"
++ "_TtC19HealthOrchestration33WorkQueueFilteredWorkRegistration"
++ "_anchor"
++ "_criteriaHandler"
++ "_dependencyConfigurationsHandler"
++ "_dependencyDidUpdateHandler"
++ "_didStartHandler"
++ "_didStopHandler"
++ "_inputSignalHandler"
++ "_nextTimestamp"
++ "_storage"
++ "_storeHandler"
++ "_updateAfterGeneratingHandler"
++ "_updateWithoutGeneratingHandler"
++ "_workPlanDidFinishHandler"
++ "_workPlanFailedHandler"
++ "_workPlanHandler"
++ "allStoredAnchors(availableSignals:)"
++ "allStoredAnchorsHandler"
++ "anchorStorage"
++ "calendarProvider"
++ "currentDateComponents"
++ "filteredWorkRegistrations"
++ "ignoreBlockedWork"
++ "notificationCenter"
++ "store(anchor:for:)"
++ "underlyingAnchor"
+
+```

@@ -1,0 +1,417 @@
+## _ManagedAppDistribution_SwiftUI
+
+> `/System/Library/Frameworks/_ManagedAppDistribution_SwiftUI.framework/_ManagedAppDistribution_SwiftUI`
+
+```diff
+
+-3.0.13.0.0
+-  __TEXT.__text: 0x45c78
+-  __TEXT.__auth_stubs: 0x1df0
+-  __TEXT.__objc_methlist: 0x1e4
+-  __TEXT.__const: 0x332c
+-  __TEXT.__cstring: 0x942
+-  __TEXT.__swift5_typeref: 0x4fb2
+-  __TEXT.__swift5_fieldmd: 0xc18
+-  __TEXT.__constg_swiftt: 0xc64
++3.0.19.0.0
++  __TEXT.__text: 0x4f820
++  __TEXT.__auth_stubs: 0x2100
++  __TEXT.__objc_methlist: 0x20c
++  __TEXT.__const: 0x391c
++  __TEXT.__constg_swiftt: 0xe8c
++  __TEXT.__swift5_typeref: 0x51aa
++  __TEXT.__swift5_fieldmd: 0xd9c
+   __TEXT.__swift5_builtin: 0x78
+-  __TEXT.__swift5_reflstr: 0xa43
++  __TEXT.__swift5_reflstr: 0xc03
+   __TEXT.__swift5_assocty: 0x2f8
+-  __TEXT.__swift5_proto: 0x178
+-  __TEXT.__swift5_types: 0xdc
+-  __TEXT.__oslogstring: 0x357
+-  __TEXT.__swift5_capture: 0x3ac
+-  __TEXT.__swift_as_entry: 0x24
+-  __TEXT.__swift_as_ret: 0x30
++  __TEXT.__swift5_proto: 0x1a0
++  __TEXT.__swift5_types: 0xf8
++  __TEXT.__cstring: 0x92a
++  __TEXT.__oslogstring: 0x389
++  __TEXT.__swift5_capture: 0x4bc
++  __TEXT.__swift_as_entry: 0x54
++  __TEXT.__swift_as_ret: 0x58
+   __TEXT.__swift5_protos: 0xc
+   __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__unwind_info: 0xeb0
+-  __TEXT.__eh_frame: 0xcc8
+-  __TEXT.__objc_classname: 0x27
+-  __TEXT.__objc_methname: 0x46c
+-  __TEXT.__objc_methtype: 0x1e1
+-  __DATA_CONST.__got: 0x678
+-  __DATA_CONST.__const: 0x210
+-  __DATA_CONST.__objc_classlist: 0x38
++  __TEXT.__unwind_info: 0x1188
++  __TEXT.__eh_frame: 0x15fc
++  __TEXT.__objc_classname: 0x35e
++  __TEXT.__objc_methname: 0x6c7
++  __TEXT.__objc_methtype: 0x2a1
++  __TEXT.__objc_stubs: 0x380
++  __DATA_CONST.__got: 0x658
++  __DATA_CONST.__const: 0x220
++  __DATA_CONST.__objc_classlist: 0x50
+   __DATA_CONST.__objc_protolist: 0x28
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x1d8
+   __DATA_CONST.__objc_protorefs: 0x18
+-  __AUTH_CONST.__auth_got: 0xef8
+-  __AUTH_CONST.__const: 0x1798
+-  __AUTH_CONST.__objc_const: 0x7e0
+-  __AUTH.__objc_data: 0x248
+-  __AUTH.__data: 0xa18
+-  __DATA.__data: 0x15a8
+-  __DATA.__bss: 0x30e0
+-  __DATA.__common: 0x70
++  __AUTH_CONST.__auth_got: 0x1088
++  __AUTH_CONST.__const: 0x1d10
++  __AUTH_CONST.__objc_const: 0xa30
++  __AUTH.__objc_data: 0x350
++  __AUTH.__data: 0xb30
++  __DATA.__data: 0x16b0
++  __DATA.__bss: 0x35f8
++  __DATA.__common: 0x78
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
++  - /usr/lib/swift/libswiftSynchronization.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 904E3294-BEF3-39A0-AC9A-CC66533546D5
+-  Functions: 1370
+-  Symbols:   836
+-  CStrings:  179
++  UUID: C1E386E7-9350-3E16-86F9-9E55EAFB7413
++  Functions: 1552
++  Symbols:   963
++  CStrings:  218
+ 
+Symbols:
++ _OBJC_CLASS_$__TtC31_ManagedAppDistribution_SwiftUI23MADEXHostViewController
++ _OBJC_METACLASS_$_EXHostViewController
++ _OBJC_METACLASS_$__TtC31_ManagedAppDistribution_SwiftUI23MADEXHostViewController
++ _OUTLINED_FUNCTION_0
++ __DATA__TtC31_ManagedAppDistribution_SwiftUI13MADEXHostPool
++ __DATA__TtC31_ManagedAppDistribution_SwiftUI23MADEXHostViewController
++ __DATA__TtC31_ManagedAppDistribution_SwiftUI7Session
++ __DATA__TtCV31_ManagedAppDistribution_SwiftUI17ExtensionHostView11Coordinator
++ __INSTANCE_METHODS__TtC31_ManagedAppDistribution_SwiftUI23MADEXHostViewController
++ __IVARS__TtC31_ManagedAppDistribution_SwiftUI13MADEXHostPool
++ __IVARS__TtC31_ManagedAppDistribution_SwiftUI23MADEXHostViewController
++ __IVARS__TtC31_ManagedAppDistribution_SwiftUI7Session
++ __IVARS__TtCV31_ManagedAppDistribution_SwiftUI17ExtensionHostView11Coordinator
++ __METACLASS_DATA__TtC31_ManagedAppDistribution_SwiftUI13MADEXHostPool
++ __METACLASS_DATA__TtC31_ManagedAppDistribution_SwiftUI23MADEXHostViewController
++ __METACLASS_DATA__TtC31_ManagedAppDistribution_SwiftUI7Session
++ __METACLASS_DATA__TtCV31_ManagedAppDistribution_SwiftUI17ExtensionHostView11Coordinator
++ __MergedGlobals
++ __PROTOCOLS__TtC31_ManagedAppDistribution_SwiftUI14ExportedObject.44
++ ___isPlatformVersionAtLeast
++ ___isPlatformVersionAtLeast.cold.1
++ ___isPlatformVersionAtLeast.cold.2
++ ___swift_memcpy128_8
++ ___swift_memcpy8_8
++ ___unnamed_6
++ __availability_version_check
++ __initializeAvailabilityCheck
++ __swift_stdlib_bridgeErrorToNSError
++ _associated conformance 31_ManagedAppDistribution_SwiftUI0aB13CellViewModelC16ContrastCacheKey33_DA3DE78A13D7FCBE1E98B81509C65932LLVSHAASQ
++ _associated conformance 31_ManagedAppDistribution_SwiftUI23MADEXHostViewControllerC0fgH5ErrorOSHAASQ
++ _associated conformance 31_ManagedAppDistribution_SwiftUI7SessionC0F5ErrorO10Foundation09LocalizedG0AAs0G0
++ _associated conformance 31_ManagedAppDistribution_SwiftUI7SessionC15ConnectionStateOSHAASQ
++ _associated conformance 31_ManagedAppDistribution_SwiftUI7SessionCs12IdentifiableAA2IDsADP_SH
++ _block_copy_helper.25
++ _block_copy_helper.26
++ _block_copy_helper.43
++ _block_copy_helper.55
++ _block_copy_helper.61
++ _block_descriptor.27
++ _block_descriptor.28
++ _block_descriptor.45
++ _block_descriptor.57
++ _block_descriptor.63
++ _block_destroy_helper.26
++ _block_destroy_helper.27
++ _block_destroy_helper.44
++ _block_destroy_helper.56
++ _block_destroy_helper.62
++ _compatibilityInitializeAvailabilityCheck
++ _dispatch_once_f
++ _dlsym
++ _fclose
++ _fopen
++ _fread
++ _fseek
++ _ftell
++ _get_enum_tag_for_layout_string 31_ManagedAppDistribution_SwiftUI7SessionC0F5ErrorO
++ _get_type_metadata 15Synchronization5MutexVyy10Foundation4DataVYbcSgG noncopyable.46
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOQr.1
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOqd__AaBHC.2
++ _get_witness_table 31_ManagedAppDistribution_SwiftUI17ExtensionHostViewV0dE00H0HPyHC.1
++ _get_witness_table 7SwiftUI14GeometryReaderVyAA19_ConditionalContentVyAA08ModifiedF0VyAA5ColorVAA12_FrameLayoutVGAEyAEyAA6ZStackVyAA9TupleViewVyAL_ALtGGARGAEyA2LGGGGAA0M0HPyHC.18
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA012_ConditionalD0VyAA7AnyViewVAA0G0PAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOy024_ManagedAppDistribution_aB006Legacyn13ExtensionHostG0V_Qo_GAA31AccessibilityAttachmentModifierVGAA08_OverlayU0VyAP04MaskG033_75783871D91F3537274492AB0F963863LLVGGAA16_FlexFrameLayoutVGAaHHPA2_AaHHPAwaHHPAtaHHPAgaHHPyHC_qd__AaHHD2_ASHOHC_AvA0gU0HPyHCHC_A1_AAA6_HPyHCHC_A4_AAA6_HPyHCHC.8
++ _get_witness_table 7SwiftUI4ViewRzl12ExtensionKit012PrimitiveAppD5SceneVAC0gdH0HPyHC.50
++ _get_witness_table 7SwiftUI4ViewRzlAA14GeometryReaderVyAA15ModifiedContentVyAA012_ConditionalG0VyAaBPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAA6HStackVyAA05TupleC0VyAFyAA6VStackVyAQyAFyAFyAFyAFyAFyxAA12_FrameLayoutVG024_ManagedAppDistribution_aB0020PlatformIconClippingC8ModifierVGAA0l10AttachmentZ0VGAA01_l19IgnoresInvertColorscZ0VGAA08_PaddingS0VG_AiAEAjKQrAM_tFQOyASyAHyAQyAFyAFyAA4TextVSgAA022_EnvironmentKeyWritingZ0VyAA4FontVSgGGAA016_ForegroundStyleZ0VyAA22HierarchicalShapeStyleVGG_A9_tGAQyA9__A23_tGGG_Qo_AW05OfferC0VAFyAFyAFyA17_A12_yAA5ColorVSgGGAA05_FlexrS0VGA12_ySiSgGGSgtGGA40_G_AA6SpacerVtGG_Qo_AiAEAjKQrAM_tFQOyAOyAQyA7__AFyASyAQyA28__AiAEAjKQrAM_tFQOyAFyAOyAQyAFyA30_AA013_TraitWritingZ0VyAA0S16PriorityTraitKeyVGG_A42_tGGA6_G_Qo_tGGA40_GA47_tGG_Qo_GAUGGAaBHPyHC.22
++ _initializeAvailabilityCheck
++ _objc_msgSend$activate
++ _objc_msgSend$auditToken
++ _objc_msgSend$blackColor
++ _objc_msgSend$boundingRectWithSize:options:attributes:context:
++ _objc_msgSend$bounds
++ _objc_msgSend$colorWithAlphaComponent:
++ _objc_msgSend$containsObject:
++ _objc_msgSend$currentDevice
++ _objc_msgSend$init
++ _objc_msgSend$initWithURL:
++ _objc_msgSend$interfaceWithProtocol:
++ _objc_msgSend$invalidate
++ _objc_msgSend$mainScreen
++ _objc_msgSend$makeXPCConnectionWithError:
++ _objc_msgSend$remoteObjectProxy
++ _objc_msgSend$remoteObjectProxyWithErrorHandler:
++ _objc_msgSend$resume
++ _objc_msgSend$secondarySystemFillColor
++ _objc_msgSend$setDelegate:
++ _objc_msgSend$setExportedInterface:
++ _objc_msgSend$setExportedObject:
++ _objc_msgSend$setInterruptionHandler:
++ _objc_msgSend$setInvalidationHandler:
++ _objc_msgSend$setRemoteObjectInterface:
++ _objc_msgSend$setWithManagedAppViewData:reply:
++ _objc_msgSend$suspend
++ _objc_msgSend$systemFontOfSize:weight:
++ _objc_msgSend$userInterfaceIdiom
++ _objc_release_x1
++ _objc_retain_x22
++ _objectdestroy.3Tm
++ _objectdestroy.53Tm
++ _objectdestroy.57Tm
++ _objectdestroy.72Tm
++ _os_unfair_lock_lock
++ _os_unfair_lock_unlock
++ _rewind
++ _sscanf
++ _swift_bridgeObjectRetain_n
++ _swift_defaultActor_initialize
++ _swift_dynamicCastClass
++ _swift_getObjCClassFromMetadata
++ _swift_isUniquelyReferenced_nonNull_bridgeObject
++ _swift_release_n
++ _swift_runtimeSupportsNoncopyableTypes
++ _swift_task_isCurrentExecutor
++ _swift_task_reportUnexpectedExecutor
++ _symbolic $ss12IdentifiableP
++ _symbolic Iegh_
++ _symbolic SDy__________G 10Foundation4UUIDV 31_ManagedAppDistribution_SwiftUI23MADEXHostViewControllerC
++ _symbolic Say_____G 31_ManagedAppDistribution_SwiftUI23MADEXHostViewControllerC
++ _symbolic ScCy___________pG 10Foundation4DataV s5ErrorP
++ _symbolic ScTyyt_____GSg s5NeverO
++ _symbolic So20EXHostViewControllerC
++ _symbolic So6NSDataCIeyBhy_
++ _symbolic So8NSObjectCSg
++ _symbolic _____ 10Foundation4UUIDV
++ _symbolic _____ 31_ManagedAppDistribution_SwiftUI0aB13CellViewModelC16ContrastCacheKey33_DA3DE78A13D7FCBE1E98B81509C65932LLV
++ _symbolic _____ 31_ManagedAppDistribution_SwiftUI13MADEXHostPoolC
++ _symbolic _____ 31_ManagedAppDistribution_SwiftUI14OfferViewModelV
++ _symbolic _____ 31_ManagedAppDistribution_SwiftUI14OfferViewModelV13ConfigurationV
++ _symbolic _____ 31_ManagedAppDistribution_SwiftUI17ExtensionHostViewV11CoordinatorC
++ _symbolic _____ 31_ManagedAppDistribution_SwiftUI23MADEXHostViewControllerC
++ _symbolic _____ 31_ManagedAppDistribution_SwiftUI23MADEXHostViewControllerC0fgH5ErrorO
++ _symbolic _____ 31_ManagedAppDistribution_SwiftUI7SessionC
++ _symbolic _____ 31_ManagedAppDistribution_SwiftUI7SessionC0F5ErrorO
++ _symbolic _____ 31_ManagedAppDistribution_SwiftUI7SessionC15ConnectionStateO
++ _symbolic _____Sg 10Foundation4UUIDV
++ _symbolic _____Sg 31_ManagedAppDistribution_SwiftUI0aB5ReplyV
++ _symbolic _____Sg 31_ManagedAppDistribution_SwiftUI23MADEXHostViewControllerC
++ _symbolic _____Sg 31_ManagedAppDistribution_SwiftUI7SessionC
++ _symbolic _____Sg So20EXHostViewControllerC12ExtensionKitE13ConfigurationV
++ _symbolic _____Sg So20EXHostViewControllerC12ExtensionKitE8_SessionC
++ _symbolic _____SgIeghn_ 31_ManagedAppDistribution_SwiftUI0aB5ReplyV
++ _symbolic _____SgXw 31_ManagedAppDistribution_SwiftUI23MADEXHostViewControllerC
++ _symbolic _____SgXwz_Xx 31_ManagedAppDistribution_SwiftUI23MADEXHostViewControllerC
++ _symbolic _____Sg_ABt 10Foundation4UUIDV
++ _symbolic _____yAAyAAyAAyAAyAAy_____y_____G_____y_____SgGG_____G_____ySbGG_____GAOG_____G 7SwiftUI15ModifiedContentV AA13_StrokedShapeV AA4PathV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA15_RotationEffectV AA010_AnimationK0V AA017_AppearanceActionK0V AA12_FrameLayoutV
++ _symbolic _____yAAyAAyAAyAAy_____y_____G_____y_____SgGG_____G_____ySbGG_____GAOG 7SwiftUI15ModifiedContentV AA13_StrokedShapeV AA4PathV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA15_RotationEffectV AA010_AnimationK0V AA017_AppearanceActionK0V
++ _symbolic _____yAAyAAyAAy_____y_____G_____y_____SgGG_____G_____ySbGG_____G 7SwiftUI15ModifiedContentV AA13_StrokedShapeV AA4PathV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA15_RotationEffectV AA010_AnimationK0V AA017_AppearanceActionK0V
++ _symbolic _____yAAyAAy_____Sg_____y_____GG_____y_____SgGGAHySiSgGG 7SwiftUI15ModifiedContentV AA4TextV AA24_ForegroundStyleModifierV AA017HierarchicalShapeG0V AA022_EnvironmentKeyWritingH0V AA4FontV
++ _symbolic _____yAAyAAy_____Sg_____y_____SgGG_____y_____GGADySiSgGG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleI0V AA017HierarchicalShapeL0V
++ _symbolic _____yAAyAAy_____y_____G_____y_____SgGG_____G_____ySbGG 7SwiftUI15ModifiedContentV AA13_StrokedShapeV AA4PathV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA15_RotationEffectV AA010_AnimationK0V
++ _symbolic _____yAAyAAy_____y__________y______Qo_G_____G_____y_____GG_____G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA7AnyViewV AA0G0PAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO 024_ManagedAppDistribution_aB006Legacyn13ExtensionHostG0V AA31AccessibilityAttachmentModifierV AA08_OverlayU0V AP04MaskG033_75783871D91F3537274492AB0F963863LLV AA16_FlexFrameLayoutV
++ _symbolic _____yAAy_____y_____G_____y_____SgGG_____G 7SwiftUI15ModifiedContentV AA13_StrokedShapeV AA4PathV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA15_RotationEffectV
++ _symbolic _____yAAy_____y__________y______Qo_G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA7AnyViewV AA0G0PAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO 024_ManagedAppDistribution_aB006Legacyn13ExtensionHostG0V AA31AccessibilityAttachmentModifierV AA08_OverlayU0V AP04MaskG033_75783871D91F3537274492AB0F963863LLV
++ _symbolic _____ySay_____G_____G s6ResultOsRi_zRi0_zrlE 22ManagedAppDistribution0bC0V AC0bcD5ErrorO
++ _symbolic _____ySay_____G_____GSg s6ResultOsRi_zRi0_zrlE 22ManagedAppDistribution0bC0V AC0bcD5ErrorO
++ _symbolic _____y_____G 7SwiftUI13_StrokedShapeV AA4PathV
++ _symbolic _____y_____G 7SwiftUI36UIViewControllerRepresentableContextV 024_ManagedAppDistribution_aB017ExtensionHostViewV
++ _symbolic _____y_____G s9TaskLocalC 31_ManagedAppDistribution_SwiftUI13MADEXHostPoolC
++ _symbolic _____y______Qo_ 7SwiftUI4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO 024_ManagedAppDistribution_aB006Legacyj13ExtensionHostC0V
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 31_ManagedAppDistribution_SwiftUI23MADEXHostViewControllerC
++ _symbolic _____y__________G s18_DictionaryStorageC 31_ManagedAppDistribution_SwiftUI0C12ContentStyleV0I0O So6CGRectV
++ _symbolic _____y__________G s18_DictionaryStorageC 31_ManagedAppDistribution_SwiftUI0cD13CellViewModelC16ContrastCacheKey33_DA3DE78A13D7FCBE1E98B81509C65932LLV 0fG05ColorV
++ _symbolic _____y__________y______Qo_G 7SwiftUI19_ConditionalContentV AA7AnyViewV AA0F0PAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO 024_ManagedAppDistribution_aB006Legacym13ExtensionHostF0V
++ _symbolic _____y__________y______Qo__G 7SwiftUI19_ConditionalContentV7StorageO AA7AnyViewV AA0G0PAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO 024_ManagedAppDistribution_aB006Legacyn13ExtensionHostG0V
++ _symbolic _____y_____y__________GAAyAAy_____y_____yAE_AEtGGAIGAAyA2EGGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA5ColorV AA12_FrameLayoutV AA6ZStackV AA9TupleViewV
++ _symbolic _____y_____y__________GAE_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA5ColorV AA12_FrameLayoutV
++ _symbolic _____y_____y__________y______Qo_G_____G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA7AnyViewV AA0G0PAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO 024_ManagedAppDistribution_aB006Legacyn13ExtensionHostG0V AA31AccessibilityAttachmentModifierV
++ _symbolic _____y_____y_____y_____y_____y_____yABy_____yAEyAByAByAByAByAByx_____G_____G_____G_____G_____G______yAFyACyAEyAByABy_____Sg_____y_____SgGG_____y_____GG_AQtGAEyAQ_A_tGGG_Qo______AByAByAByAwSy_____SgGG_____GASySiSgGGSgtGGA13_G______tGG_Qo______yADyAEyAP_AByAFyAEyA4_______yAByADyAEyAByA5______y_____GG_A15_tGGAOG_Qo_tGGA13_GA19_tGG_Qo_GAGGG 7SwiftUI14GeometryReaderV AA15ModifiedContentV AA012_ConditionalF0V AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6HStackV AA05TupleH0V AA6VStackV AA12_FrameLayoutV 024_ManagedAppDistribution_aB0020PlatformIconClippingH8ModifierV AA0l10AttachmentZ0V AA01_l19IgnoresInvertColorshZ0V AA08_PaddingS0V AiAEAjKQrAM_tFQO AA4TextV AA022_EnvironmentKeyWritingZ0V AA4FontV AA016_ForegroundStyleZ0V AA22HierarchicalShapeStyleV AV05OfferH0V AA5ColorV AA05_FlexrS0V AA6SpacerV AiAEAjKQrAM_tFQO AiAEAjKQrAM_tFQO AA013_TraitWritingZ0V AA0S16PriorityTraitKeyV
++ _symbolic _____ytIeghnr_ 10Foundation4DataV
++ _symbolic _____yxG 31_ManagedAppDistribution_SwiftUI07DefaultaB4CellV
++ _symbolic _____yy_____YbcSgG 15Synchronization5MutexVAARi_zrlE 10Foundation4DataV
++ _symbolic yycSg
++ _type_layout_string 31_ManagedAppDistribution_SwiftUI14OfferViewModelV
++ _type_layout_string 31_ManagedAppDistribution_SwiftUI17ExtensionHostViewV
++ _type_layout_string 31_ManagedAppDistribution_SwiftUI17RemoteWrapperViewV
++ _type_layout_string 31_ManagedAppDistribution_SwiftUI7SessionC0F5ErrorO
+- _OBJC_CLASS_$_NSNotificationCenter
+- _UIApplicationDidBecomeActiveNotification
+- __DATA__TtC31_ManagedAppDistribution_SwiftUI14OfferViewModel
+- __IVARS__TtC31_ManagedAppDistribution_SwiftUI14OfferViewModel
+- __IVARS__TtCV31_ManagedAppDistribution_SwiftUIP33_34AFEEE0F5A92C95419345CDA8C7B18F27MADViewServiceConfiguration14ExportedObject
+- __METACLASS_DATA__TtC31_ManagedAppDistribution_SwiftUI14OfferViewModel
+- __PROTOCOLS__TtC31_ManagedAppDistribution_SwiftUI14ExportedObject.12
+- ___unnamed_4
+- _associated conformance 31_ManagedAppDistribution_SwiftUI14OfferViewModelC7Combine16ObservableObjectAA0K19WillChangePublisherAdEP_AD0N0
+- _block_copy_helper.17
+- _block_copy_helper.27
+- _block_copy_helper.34
+- _block_copy_helper.35
+- _block_descriptor.19
+- _block_descriptor.29
+- _block_descriptor.36
+- _block_descriptor.37
+- _block_destroy_helper.18
+- _block_destroy_helper.28
+- _block_destroy_helper.35
+- _block_destroy_helper.36
+- _get_witness_table 7SwiftUI14GeometryReaderVyAA19_ConditionalContentVyAA08ModifiedF0VyAA5ColorVAA12_FrameLayoutVGAEyAEyAA6ZStackVyAA9TupleViewVyAL_ALtGGARGAEyA2LGGGGAA0M0HPyHC.24
+- _get_witness_table 7SwiftUI15ModifiedContentVy024_ManagedAppDistribution_aB017ExtensionHostViewVAA13_TaskModifierVGAA0J0HPAfaJHPyHC_AhA0jL0HPyHCHC.3
+- _get_witness_table 7SwiftUI16SubscriptionViewVySo20NSNotificationCenterC10FoundationE9PublisherVAA6IDViewVyAA15ModifiedContentVyALyALyAA012_ConditionalK0VyAA03AnyD0VALy024_ManagedAppDistribution_aB006Legacyo13ExtensionHostD0VAA13_TaskModifierVGGAA023AccessibilityAttachmentU0VGAA08_OverlayU0VyAQ04MaskD033_75783871D91F3537274492AB0F963863LLVGGAA16_FlexFrameLayoutVGSSGGAA0D0HPyHC.11
+- _get_witness_table 7SwiftUI4ViewRzl12ExtensionKit012PrimitiveAppD5SceneVAC0gdH0HPyHC.19
+- _get_witness_table 7SwiftUI4ViewRzlAA19_ConditionalContentVyAaBPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAA6HStackVyAA05TupleC0VyAA08ModifiedE0VyAA6VStackVyAMyAOyAOyAOyAOyAOyxAA12_FrameLayoutVG024_ManagedAppDistribution_aB0020PlatformIconClippingC8ModifierVGAA0i10AttachmentX0VGAA01_i19IgnoresInvertColorscX0VGAA08_PaddingQ0VG_AeAEAfGQrAI_tFQOyAQyADyAMyAOyAOyAA4TextVSgAA022_EnvironmentKeyWritingX0VyAA4FontVSgGGAA016_ForegroundStyleX0VyAA22HierarchicalShapeStyleVGG_A7_tGAMyA7__A21_tGGG_Qo_AU05OfferC0VAOyAOyAOyA15_A10_yAA5ColorVSgGGAA05_FlexpQ0VGA10_ySiSgGGSgtGGA38_G_AA6SpacerVtGG_Qo_AeAEAfGQrAI_tFQOyAOyAKyAMyA5__AOyAQyAMyA26__AeAEAfGQrAI_tFQOyAOyAKyAMyAOyA28_AA013_TraitWritingX0VyAA0Q16PriorityTraitKeyVGG_A40_tGGA4_G_Qo_tGGA38_GA45_tGGA35_G_Qo_GAaBHPqd__AaBHD2_A48_HO_qd__AaBHD2_A65_HOHC.22
+- _objectdestroy.25Tm
+- _objectdestroy.68Tm
+- _symbolic Sbz_Xx
+- _symbolic So15NSXPCConnectionC
+- _symbolic So6NSDataCIeyBy_
+- _symbolic _____ 19ExtensionFoundation04_AppA8IdentityV
+- _symbolic _____ 31_ManagedAppDistribution_SwiftUI14OfferViewModelC
+- _symbolic _____ 31_ManagedAppDistribution_SwiftUI14OfferViewModelC13ConfigurationV
+- _symbolic _____ 31_ManagedAppDistribution_SwiftUI17ExtensionHostViewV7SessionV
+- _symbolic _____ So20EXHostViewControllerC12ExtensionKitE8_SessionC
+- _symbolic _____Sg 31_ManagedAppDistribution_SwiftUI17ExtensionHostViewV7SessionV
+- _symbolic _____Sg So21_EXHostViewControllerC12ExtensionKitE13ConfigurationV
+- _symbolic _____SgXw 31_ManagedAppDistribution_SwiftUI27MADViewServiceConfiguration33_34AFEEE0F5A92C95419345CDA8C7B18FLLV14ExportedObjectC
+- _symbolic _____SgXwz_Xx 31_ManagedAppDistribution_SwiftUI27MADViewServiceConfiguration33_34AFEEE0F5A92C95419345CDA8C7B18FLLV14ExportedObjectC
+- _symbolic _____yAAyAAy_____y_____AAy__________GG_____G_____y_____GG_____G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA7AnyViewV 024_ManagedAppDistribution_aB006Legacyi13ExtensionHostG0V AA13_TaskModifierV AA023AccessibilityAttachmentO0V AA08_OverlayO0V AH04MaskG033_75783871D91F3537274492AB0F963863LLV AA16_FlexFrameLayoutV
+- _symbolic _____yAAy_____y_____AAy__________GG_____G_____y_____GG 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA7AnyViewV 024_ManagedAppDistribution_aB006Legacyi13ExtensionHostG0V AA13_TaskModifierV AA023AccessibilityAttachmentO0V AA08_OverlayO0V AH04MaskG033_75783871D91F3537274492AB0F963863LLV
+- _symbolic _____y_Qo_ 22ManagedAppDistribution0aB7LibraryC3app4withQrSS_tFQO
+- _symbolic _____y_Qo_13AsyncIteratorSciQx 22ManagedAppDistribution0aB7LibraryC3app4withQrSS_tFQO
+- _symbolic _____y_____G 7SwiftUI14ObservedObjectV 024_ManagedAppDistribution_aB014OfferViewModelC
+- _symbolic _____y_____G 7SwiftUI5StateV 10Foundation4UUIDV
+- _symbolic _____y_____SgG 7SwiftUI5StateV 024_ManagedAppDistribution_aB017ExtensionHostViewV7SessionV
+- _symbolic _____y_____SgG 7SwiftUI7BindingV 024_ManagedAppDistribution_aB017ExtensionHostViewV7SessionV
+- _symbolic _____y__________G 7SwiftUI15ModifiedContentV 024_ManagedAppDistribution_aB006LegacyF17ExtensionHostViewV AA13_TaskModifierV
+- _symbolic _____y__________G 7SwiftUI15ModifiedContentV 024_ManagedAppDistribution_aB017ExtensionHostViewV AA13_TaskModifierV
+- _symbolic _____y__________G s6ResultOsRi_zRi0_zrlE 22ManagedAppDistribution0bC0V AC0bcD5ErrorO
+- _symbolic _____y__________GSg s6ResultOsRi_zRi0_zrlE 22ManagedAppDistribution0bC0V AC0bcD5ErrorO
+- _symbolic _____y___________G 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV 024_ManagedAppDistribution_aB0013RemoteWrapperD0V
+- _symbolic _____y_______________G 7SwiftUI15StrokeShapeViewV AA16RoundedRectangleV AA5ColorV AA05EmptyE0V
+- _symbolic _____y__________y__________GG 7SwiftUI19_ConditionalContentV AA7AnyViewV AA08ModifiedD0V 024_ManagedAppDistribution_aB006Legacyi13ExtensionHostF0V AA13_TaskModifierV
+- _symbolic _____y__________y__________G_G 7SwiftUI19_ConditionalContentV7StorageO AA7AnyViewV AA08ModifiedD0V 024_ManagedAppDistribution_aB006Legacyj13ExtensionHostG0V AA13_TaskModifierV
+- _symbolic _____y__________y_____yADyADy_____y_____ADy__________GG_____G_____y_____GG_____GSSGG 7SwiftUI16SubscriptionViewV So20NSNotificationCenterC10FoundationE9PublisherV AA6IDViewV AA15ModifiedContentV AA012_ConditionalK0V AA03AnyD0V 024_ManagedAppDistribution_aB006Legacyo13ExtensionHostD0V AA13_TaskModifierV AA023AccessibilityAttachmentU0V AA08_OverlayU0V AQ04MaskD033_75783871D91F3537274492AB0F963863LLV AA16_FlexFrameLayoutV
+- _symbolic _____y_____yAByABy_____y_____ABy__________GG_____G_____y_____GG_____GSSG 7SwiftUI6IDViewV AA15ModifiedContentV AA012_ConditionalE0V AA7AnyViewV 024_ManagedAppDistribution_aB006Legacyj13ExtensionHostH0V AA13_TaskModifierV AA023AccessibilityAttachmentP0V AA08_OverlayP0V AJ04MaskH033_75783871D91F3537274492AB0F963863LLV AA16_FlexFrameLayoutV
+- _symbolic _____y_____y_____y_____y_____yADyADyADy_____Sg_____y_____SgGG_____y_____GGAGySiSgGG_____G_ADyAeSGtGACyAU_ADyADyAfNGAJGtGGG_Qo_ 7SwiftUI4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA19_ConditionalContentV AA05TupleC0V AA08ModifiedL0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleS0V AA017HierarchicalShapeV0V AA14_PaddingLayoutV
+- _symbolic _____y_____y_____y_____y_____y_____yACyADyADyADyADyADyx_____G_____G_____G_____G_____G______yAEyAAyACyADyADy_____Sg_____y_____SgGG_____y_____GG_APtGACyAP_AZtGGG_Qo______ADyADyADyAvRy_____SgGG_____GARySiSgGGSgtGGA12_G______tGG_Qo______yADyAByACyAO_ADyAEyACyA3_______yADyAByACyADyA4______y_____GG_A14_tGGANG_Qo_tGGA12_GA18_tGGA9_G_Qo_G 7SwiftUI19_ConditionalContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6HStackV AA05TupleE0V AA08ModifiedD0V AA6VStackV AA12_FrameLayoutV 024_ManagedAppDistribution_aB0020PlatformIconClippingE8ModifierV AA0i10AttachmentX0V AA01_i19IgnoresInvertColorseX0V AA08_PaddingQ0V AeAEAfGQrAI_tFQO AA4TextV AA022_EnvironmentKeyWritingX0V AA4FontV AA016_ForegroundStyleX0V AA22HierarchicalShapeStyleV AT05OfferE0V AA5ColorV AA05_FlexpQ0V AA6SpacerV AeAEAfGQrAI_tFQO AeAEAfGQrAI_tFQO AA013_TraitWritingX0V AA0Q16PriorityTraitKeyV
+- _symbolic y_____cSg 10Foundation4DataV
+CStrings:
++ "%d.%d.%d"
++ "/System/Library/CoreServices/SystemVersion.plist"
++ "@24@0:8@16"
++ "@32@0:8@16@24"
++ "CFDataCreateWithBytesNoCopy"
++ "CFDictionaryGetValue"
++ "CFGetTypeID"
++ "CFPropertyListCreateFromXMLData"
++ "CFPropertyListCreateWithData"
++ "CFRelease"
++ "CFStringCreateWithCStringNoCopy"
++ "CFStringGetCString"
++ "CFStringGetTypeID"
++ "Connection timed out"
++ "Error proxying with XPC session: "
++ "Performing an operation on an unavailable session is invalid."
++ "Performing an operation on inactive session is invalid."
++ "ProductVersion"
++ "Session XPC session was interrupted"
++ "Session connection was not found"
++ "Session setup failed: %@"
++ "Session was canceled"
++ "Unable to find the managed app view service extension"
++ "XPC Session is invalid"
++ "[%s] Receieved %ld app(s)"
++ "[%s] Received offer action for:%s on %s."
++ "[%s] Replying bounds: %s"
++ "_ManagedAppDistribution_SwiftUI/CompactManagedAppCell.swift"
++ "_ManagedAppDistribution_SwiftUI/DefaultManagedAppCell.swift"
++ "_ManagedAppDistribution_SwiftUI/HeaderManagedAppCell.swift"
++ "_ManagedAppDistribution_SwiftUI/LegacyAppExtensionHostView.swift"
++ "_ManagedAppDistribution_SwiftUI/MADEXHostViewController.swift"
++ "_ManagedAppDistribution_SwiftUI/MADViewServiceExtension.swift"
++ "_ManagedAppDistribution_SwiftUI/ManagedAppCellViewModel.swift"
++ "_ManagedAppDistribution_SwiftUI/ManagedAppView.swift"
++ "_ManagedAppDistribution_SwiftUI/OfferView.swift"
++ "_ManagedAppDistribution_SwiftUI/Session.swift"
++ "_TtC31_ManagedAppDistribution_SwiftUI13MADEXHostPool"
++ "_TtC31_ManagedAppDistribution_SwiftUI23MADEXHostViewController"
++ "_TtC31_ManagedAppDistribution_SwiftUI7Session"
++ "_TtCV31_ManagedAppDistribution_SwiftUI17ExtensionHostView11Coordinator"
++ "_reply"
++ "activeControllers"
++ "availableControllers"
++ "configurationID"
++ "connectionState"
++ "id"
++ "identity"
++ "initWithCoder:"
++ "initWithNibName:bundle:"
++ "inner"
++ "kCFAllocatorNull"
++ "performOperation(configuration:)"
++ "r"
++ "remoteObjectProxy"
++ "replyTask"
++ "session"
++ "suspend"
+- "Failed to create proxy to extension. %ld %s %s"
+- "Failed to create session. %ld %s %s"
+- "Set managed app"
+- "Setting cell bounds %s"
+- "[%s] Receieved offer action for:%s on %s."
+- "[%s] Replying bounds %s"
+- "_ManagedAppDistribution_SwiftUI/ExtensionHostView.swift"
+- "_TtC31_ManagedAppDistribution_SwiftUI14OfferViewModel"
+- "action"
+- "code"
+- "defaultCenter"
+- "domain"
+- "longestOfferString"
+- "reply"
+- "state"
+- "userInfo"
+- "xpcConnection"
+
+```

@@ -1,0 +1,202 @@
+## SystemStatusUI
+
+> `/System/Library/PrivateFrameworks/SystemStatusUI.framework/SystemStatusUI`
+
+```diff
+
+-252.2.2.0.0
+-  __TEXT.__text: 0x961f0
+-  __TEXT.__auth_stubs: 0x1510
+-  __TEXT.__objc_methlist: 0xa5cc
+-  __TEXT.__const: 0x2ff8
+-  __TEXT.__swift5_typeref: 0x2038
++252.4.3.0.0
++  __TEXT.__text: 0xa0aec
++  __TEXT.__auth_stubs: 0x1490
++  __TEXT.__objc_methlist: 0xa60c
++  __TEXT.__const: 0x2fd8
++  __TEXT.__swift5_typeref: 0x1fb2
+   __TEXT.__constg_swiftt: 0x6ec
+-  __TEXT.__cstring: 0x284f
++  __TEXT.__cstring: 0x26dd
+   __TEXT.__swift5_capture: 0x9c
+   __TEXT.__swift5_reflstr: 0x218
+   __TEXT.__swift5_assocty: 0x198
+   __TEXT.__swift5_fieldmd: 0x488
+   __TEXT.__swift5_builtin: 0x8c
+-  __TEXT.__swift5_proto: 0xe0
++  __TEXT.__swift5_proto: 0xfc
+   __TEXT.__swift5_types: 0x8c
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__gcc_except_tab: 0xf58
++  __TEXT.__gcc_except_tab: 0xed8
+   __TEXT.__ustring: 0xac
+   __TEXT.__oslogstring: 0x4c1
+-  __TEXT.__unwind_info: 0x2208
++  __TEXT.__unwind_info: 0x29b8
+   __TEXT.__eh_frame: 0xec
+-  __TEXT.__objc_classname: 0x1dc3
+-  __TEXT.__objc_methname: 0x163f7
+-  __TEXT.__objc_methtype: 0x31f5
+-  __TEXT.__objc_stubs: 0x102a0
+-  __DATA_CONST.__got: 0xfb8
+-  __DATA_CONST.__const: 0x1ac8
++  __TEXT.__objc_classname: 0x1e28
++  __TEXT.__objc_methname: 0x164b7
++  __TEXT.__objc_methtype: 0x3260
++  __TEXT.__objc_stubs: 0x10540
++  __DATA_CONST.__got: 0xfb0
++  __DATA_CONST.__const: 0x1ab0
+   __DATA_CONST.__objc_classlist: 0x610
+   __DATA_CONST.__objc_catlist: 0x98
+   __DATA_CONST.__objc_protolist: 0x100
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x4f98
+   __DATA_CONST.__objc_protorefs: 0x18
+-  __DATA_CONST.__objc_superrefs: 0x360
++  __DATA_CONST.__objc_superrefs: 0x368
+   __DATA_CONST.__objc_arraydata: 0x300
+-  __AUTH_CONST.__auth_got: 0xa98
++  __AUTH_CONST.__auth_got: 0xa58
+   __AUTH_CONST.__const: 0x1300
+-  __AUTH_CONST.__cfstring: 0x38e0
+-  __AUTH_CONST.__objc_const: 0x12920
++  __AUTH_CONST.__cfstring: 0x38c0
++  __AUTH_CONST.__objc_const: 0x12980
+   __AUTH_CONST.__objc_arrayobj: 0x300
+   __AUTH_CONST.__objc_intobj: 0xd8
+   __AUTH_CONST.__objc_doubleobj: 0x1c0
+   __AUTH.__objc_data: 0x1100
+   __AUTH.__data: 0x280
+-  __DATA.__objc_ivar: 0x500
+-  __DATA.__data: 0x12d8
+-  __DATA.__bss: 0x1b20
++  __DATA.__objc_ivar: 0x514
++  __DATA.__data: 0x12d0
++  __DATA.__bss: 0x1ba0
+   __DATA.__common: 0x10
+-  __DATA_DIRTY.__objc_ivar: 0x4a8
++  __DATA_DIRTY.__objc_ivar: 0x49c
+   __DATA_DIRTY.__objc_data: 0x2c60
+   __DATA_DIRTY.__bss: 0x1f0
+   __DATA_DIRTY.__common: 0x38
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 88C9A4D5-7406-3ADA-90F1-6DB4175A555B
+-  Functions: 3922
+-  Symbols:   12327
+-  CStrings:  5252
++  UUID: B89E04B1-2088-379F-B457-40D4EA6F653F
++  Functions: 3929
++  Symbols:   12351
++  CStrings:  5249
+ 
+Symbols:
++ -[STUIStatusBarSeparatorItem isHorizontal]
++ -[STUIStatusBarSeparatorItem setIsHorizontal:]
++ -[STUIStatusBarSeparatorView isHorizontal]
++ -[STUIStatusBarSeparatorView setIsHorizontal:]
++ -[STUIStatusBarVisualProvider_CarPlayDualPassenger regularLayoutExternalItemsPlacements]
++ -[STUIStatusBarVisualProvider_CarPlayTopStatus clockFont]
++ -[STUIStatusBarVisualProvider_CarPlayTopStatus itemCreated:]
++ _OBJC_IVAR_$_STUIStatusBarDisplayItemDependencyRelation._itemState
++ _OBJC_IVAR_$_STUIStatusBarDisplayItemDependencyRelation._placement
++ _OBJC_IVAR_$_STUIStatusBarDisplayItemDependencyRelation._requirement
++ _OBJC_IVAR_$_STUIStatusBarDisplayItemGroupRelation._relations
++ _OBJC_IVAR_$_STUIStatusBarDisplayItemGroupRelation._requiresAll
++ _OBJC_IVAR_$_STUIStatusBarSeparatorView._isHorizontal
++ __OBJC_$_CLASS_METHODS_STUIStatusBarDisplayItemPlacement(Spacer|Portal)
++ _block_copy_helper.24
++ _block_descriptor.26
++ _block_destroy_helper.25
++ _get_witness_table 14SystemStatusUI0B20BarDataOverridesViewV05SwiftC00G0HPyHC.73
++ _get_witness_table 7SwiftUI6PickerVyAA6HStackVyAA9TupleViewVyAA15ModifiedContentVyAIyAA0F0PAAE13symbolVariantyQrAA14SymbolVariantsVFQOyAA5ImageV_Qo_AA24_ForegroundStyleModifierVyAA5ColorVGGAA022_EnvironmentBackgroundoP0VyAUGGSg_AA4TextVtGG012SystemStatusB00V11BarOverrideOAGyAkAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyA2__A7_Qo__A10_A10_tGGAaJHPyHC.63
++ _get_witness_table 7SwiftUI9TupleViewVy012SystemStatusB00F17BarOverrideToggleV_AA15ModifiedContentVyAA5GroupVyAA6PickerVyAA4TextVSo08STStatusG12LocationTypeVACyAA0D0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAN_APQo__A2UtGGGAA14_PaddingLayoutVGSgtGAaQHPyHC.66
++ _get_witness_table 7SwiftUI9TupleViewVy012SystemStatusB00F17BarOverrideToggleV_AA15ModifiedContentVyAA5GroupVyAA6PickerVyAA4TextVSo08STStatusG16VoiceControlTypeVACyAA0D0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAN_APQo__A2UtGGGAA14_PaddingLayoutVGSgtGAaQHPyHC.69
++ _get_witness_table 7SwiftUI9TupleViewVy012SystemStatusB00F17BarOverrideToggleV_AA15ModifiedContentVyAA5GroupVyACyAA6PickerVyAA4TextVSiAA7ForEachVySnySiGSiAA0D0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAN_SiQo_GG_AHyAHyAA0N5FieldVyANGAA12_FrameLayoutVGAA25_AlignmentWritingModifierVGAHyA_A4_GALyANSo08STStatusG16DataCellularTypeVACyAsAEAT_AUQrqd___SbtSHRd__lFQOyAN_A8_Qo__AA7DividerVAJyACyA9__A9_A9_A9_tGGA11_AJyACyA9__A9_A9_A9_A9_tGGA11_A15_A11_AJyA9_GtGGtGGAA08_PaddingV0VGSgtGAaRHPyHC.64
++ _get_witness_table 7SwiftUI9TupleViewVy012SystemStatusB00F17BarOverrideToggleV_AA15ModifiedContentVyAA5GroupVyACyAA6PickerVyAA4TextVSiAA7ForEachVySnySiGSiAA0D0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAN_SiQo_GG_ALyANSo08STStatusG12DataWifiTypeVACyAsAEAT_AUQrqd___SbtSHRd__lFQOyAN_AZQo__A_tGGtGGAA14_PaddingLayoutVGSgtGAaRHPyHC.65
++ _get_witness_table 7SwiftUI9TupleViewVy012SystemStatusB00F17BarOverrideToggleV_AA15ModifiedContentVyAA5GroupVyACyAA6PickerVyAA4TextVSo08STStatusG14BluetoothStateVACyAA0D0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAN_APQo__A2UtGG_AD0fg7BatteryhD0VtGGAA14_PaddingLayoutVGSgtGAaQHPyHC.68
++ _get_witness_table 7SwiftUI9TupleViewVy012SystemStatusB00F17BarOverrideToggleV_AA15ModifiedContentVyAA5GroupVyACyAHyAHyAA6SliderVyAA05EmptyD0VANGAA30_EnvironmentKeyWritingModifierVyAA13AnyShapeStyleVSgGGAA010_AlignmentqR0VG_ACyAA6PickerVyAA4TextVSo08STStatusG12BatteryStateVACyAA0D0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyA1__A3_Qo__A8_tGG_AHyAA0I0VyA1_GAQyAA5ColorVSgGGA13_tGSgtGGAA14_PaddingLayoutVGSgtGAAA4_HPyHC.67
++ _get_witness_table 7SwiftUI9TupleViewVy012SystemStatusB00F17BarOverrideToggleV_AA15ModifiedContentVyAA5GroupVyAHyAA9TextFieldVyAA0M0VGAA25_AlignmentWritingModifierVGGAA14_PaddingLayoutVGSgtGAA0D0HPyHC.70
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA4FormVyAA05TupleC0VyAA7SectionVyAA4TextV012SystemStatusB00m19BarCellularOverrideC0VAA05EmptyC0VG_AtLyAnJyAO0mnP6ToggleV_AvO0mn4WiFipC0VtGASGALyAnJyAV_AvA19_ConditionalContentVyA0_yAA08ModifiedV0VyAA5GroupVyAA10DatePickerVyANGGAA14_PaddingLayoutVGA11_GA11_GSgtGASGALyAnO0mn8LocationpC0VASGALyAnO0mn7BatterypC0VASGALyAnO0mn9BluetoothpC0VASGALyAnO0mn12VoiceControlpC0VASGALyAnO0mn4UserpC0VASGALyAnJyAV_A5VtGASGAA6ButtonVyANGtGG_AO0mN9OverridesVQo_HO.72
++ _objc_msgSend$addChildViewController:
++ _objc_msgSend$currentLocale
++ _objc_msgSend$dateFormatFromTemplate:options:locale:
++ _objc_msgSend$dateFromString:
++ _objc_msgSend$dateValue
++ _objc_msgSend$didMoveToParentViewController:
++ _objc_msgSend$entryForDateWithDateValue:
++ _objc_msgSend$entryForKey:
++ _objc_msgSend$entryForShortTimeWithDateValue:
++ _objc_msgSend$entryForTimeWithDateValue:
++ _objc_msgSend$initWithCoder:
++ _objc_msgSend$initWithDouble:
++ _objc_msgSend$initWithNibName:bundle:
++ _objc_msgSend$initWithString:
++ _objc_msgSend$isHorizontal
++ _objc_msgSend$localizedStringFromNumber:numberStyle:
++ _objc_msgSend$rangeOfCharacterFromSet:
++ _objc_msgSend$regularLayoutExternalItemsPlacements
++ _objc_msgSend$setDateFormat:
++ _objc_msgSend$setDateStyle:
++ _objc_msgSend$setIsHorizontal:
++ _objc_msgSend$setTimeStyle:
++ _objc_msgSend$stringByReplacingCharactersInRange:withString:
++ _objc_msgSend$updateDataWithBlock:
++ _objectdestroy.113Tm
+- +[STUIStatusBarDisplayItemPlacement(Separator) separatorPlacementWithLineHeight:lineWidth:priority:]
+- -[STUIStatusBarVisualProvider_CarPlayDualPassenger createExternalItemsRegion]
+- _OBJC_IVAR_$_STUIStatusBarSeparatorItem._separatorViews
+- _STUIStatusBarSeparatorItemInfoLineHeightKey
+- _STUIStatusBarSeparatorItemInfoLineWidthKey
+- __OBJC_$_CLASS_METHODS_STUIStatusBarDisplayItemPlacement(Spacer|Portal|Separator)
+- __swift_FORCE_LOAD_$_swiftAccelerate
+- __swift_FORCE_LOAD_$_swiftAccelerate_$_SystemStatusUI
+- _block_copy_helper.23
+- _block_descriptor.25
+- _block_destroy_helper.24
+- _get_witness_table 14SystemStatusUI0B20BarDataOverridesViewV05SwiftC00G0HPyHC.71
+- _get_witness_table 7SwiftUI6PickerVyAA6HStackVyAA9TupleViewVyAA15ModifiedContentVyAIyAA0F0PAAE13symbolVariantyQrAA14SymbolVariantsVFQOyAA5ImageV_Qo_AA24_ForegroundStyleModifierVyAA5ColorVGGAA022_EnvironmentBackgroundoP0VyAUGGSg_AA4TextVtGG012SystemStatusB00V11BarOverrideOAGyAkAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyA2__A7_Qo__A10_A10_tGGAaJHPyHC.61
+- _get_witness_table 7SwiftUI9TupleViewVy012SystemStatusB00F17BarOverrideToggleV_AA15ModifiedContentVyAA5GroupVyAA6PickerVyAA4TextVSo08STStatusG12LocationTypeVACyAA0D0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAN_APQo__A2UtGGGAA14_PaddingLayoutVGSgtGAaQHPyHC.64
+- _get_witness_table 7SwiftUI9TupleViewVy012SystemStatusB00F17BarOverrideToggleV_AA15ModifiedContentVyAA5GroupVyAA6PickerVyAA4TextVSo08STStatusG16VoiceControlTypeVACyAA0D0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAN_APQo__A2UtGGGAA14_PaddingLayoutVGSgtGAaQHPyHC.67
+- _get_witness_table 7SwiftUI9TupleViewVy012SystemStatusB00F17BarOverrideToggleV_AA15ModifiedContentVyAA5GroupVyACyAA6PickerVyAA4TextVSiAA7ForEachVySnySiGSiAA0D0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAN_SiQo_GG_AHyAHyAA0N5FieldVyANGAA12_FrameLayoutVGAA25_AlignmentWritingModifierVGAHyA_A4_GALyANSo08STStatusG16DataCellularTypeVACyAsAEAT_AUQrqd___SbtSHRd__lFQOyAN_A8_Qo__AA7DividerVAJyACyA9__A9_A9_A9_tGGA11_AJyACyA9__A9_A9_A9_A9_tGGA11_A15_A11_AJyA9_GtGGtGGAA08_PaddingV0VGSgtGAaRHPyHC.62
+- _get_witness_table 7SwiftUI9TupleViewVy012SystemStatusB00F17BarOverrideToggleV_AA15ModifiedContentVyAA5GroupVyACyAA6PickerVyAA4TextVSiAA7ForEachVySnySiGSiAA0D0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAN_SiQo_GG_ALyANSo08STStatusG12DataWifiTypeVACyAsAEAT_AUQrqd___SbtSHRd__lFQOyAN_AZQo__A_tGGtGGAA14_PaddingLayoutVGSgtGAaRHPyHC.63
+- _get_witness_table 7SwiftUI9TupleViewVy012SystemStatusB00F17BarOverrideToggleV_AA15ModifiedContentVyAA5GroupVyACyAA6PickerVyAA4TextVSo08STStatusG14BluetoothStateVACyAA0D0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAN_APQo__A2UtGG_AD0fg7BatteryhD0VtGGAA14_PaddingLayoutVGSgtGAaQHPyHC.66
+- _get_witness_table 7SwiftUI9TupleViewVy012SystemStatusB00F17BarOverrideToggleV_AA15ModifiedContentVyAA5GroupVyACyAHyAHyAA6SliderVyAA05EmptyD0VANGAA30_EnvironmentKeyWritingModifierVyAA13AnyShapeStyleVSgGGAA010_AlignmentqR0VG_ACyAA6PickerVyAA4TextVSo08STStatusG12BatteryStateVACyAA0D0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyA1__A3_Qo__A8_tGG_AHyAA0I0VyA1_GAQyAA5ColorVSgGGA13_tGSgtGGAA14_PaddingLayoutVGSgtGAAA4_HPyHC.65
+- _get_witness_table 7SwiftUI9TupleViewVy012SystemStatusB00F17BarOverrideToggleV_AA15ModifiedContentVyAA5GroupVyAHyAA9TextFieldVyAA0M0VGAA25_AlignmentWritingModifierVGGAA14_PaddingLayoutVGSgtGAA0D0HPyHC.68
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA4FormVyAA05TupleC0VyAA7SectionVyAA4TextV012SystemStatusB00m19BarCellularOverrideC0VAA05EmptyC0VG_AtLyAnJyAO0mnP6ToggleV_AvO0mn4WiFipC0VtGASGALyAnJyAV_AvA19_ConditionalContentVyA0_yAA08ModifiedV0VyAA5GroupVyAA10DatePickerVyANGGAA14_PaddingLayoutVGA11_GA11_GSgtGASGALyAnO0mn8LocationpC0VASGALyAnO0mn7BatterypC0VASGALyAnO0mn9BluetoothpC0VASGALyAnO0mn12VoiceControlpC0VASGALyAnO0mn4UserpC0VASGALyAnJyAV_A5VtGASGAA6ButtonVyANGtGG_AO0mN9OverridesVQo_HO.70
+- _objc_claimAutoreleasedReturnValue
+- _objc_msgSend$bs_CGFloatValue
+- _objc_msgSend$createExternalItemsRegion
+- _objc_msgSend$separatorPlacementWithLineHeight:lineWidth:priority:
+- _objc_release_x2
+- _objc_retainAutoreleaseReturnValue
+- _objc_retain_x4
+- _objc_retain_x5
+- _objc_retain_x6
+- _objc_retain_x9
+- _objectdestroy.111Tm
+- _symbolic _____y_____y_____yACy_____y_____AEG_____y_____SgGG_____G_ABy_____y__________ABy_____yAO_APQo__AQtGG_ACy_____yAOGAGy_____SgGGAUtGSgtGG 7SwiftUI5GroupV AA9TupleViewV AA15ModifiedContentV AA6SliderV AA05EmptyE0V AA30_EnvironmentKeyWritingModifierV AA13AnyShapeStyleV AA010_AlignmentlM0V AA6PickerV AA4TextV So23STStatusBarBatteryStateV AA0E0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA6ToggleV AA5ColorV
+CStrings:
++ "TB,N,V_isHorizontal"
++ "_isHorizontal"
++ "isHorizontal"
++ "regularLayoutExternalItemsPlacements"
++ "setIsHorizontal:"
+- "@40@0:8d16d24q32"
+- "Separator"
+- "bs_CGFloatValue"
+- "createExternalItemsRegion"
+- "separatorPlacementWithLineHeight:lineWidth:priority:"
+
+```

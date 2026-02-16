@@ -1,0 +1,818 @@
+## WorkflowUICore
+
+> `/System/Library/PrivateFrameworks/WorkflowUICore.framework/WorkflowUICore`
+
+```diff
+
+-4407.0.0.0.0
+-  __TEXT.__text: 0x119e34
+-  __TEXT.__auth_stubs: 0x5460
+-  __TEXT.__objc_methlist: 0x1fdc
+-  __TEXT.__const: 0x107d8
+-  __TEXT.__cstring: 0x3dcb
+-  __TEXT.__constg_swiftt: 0x5fdc
+-  __TEXT.__swift5_typeref: 0x15088
+-  __TEXT.__swift5_reflstr: 0x30ca
+-  __TEXT.__swift5_fieldmd: 0x39bc
++4524.1.0.0.0
++  __TEXT.__text: 0x119c50
++  __TEXT.__auth_stubs: 0x56b0
++  __TEXT.__objc_methlist: 0x2054
++  __TEXT.__const: 0x10f50
++  __TEXT.__cstring: 0x23c3
++  __TEXT.__constg_swiftt: 0x6148
++  __TEXT.__swift5_typeref: 0x15628
++  __TEXT.__swift5_reflstr: 0x312a
++  __TEXT.__swift5_fieldmd: 0x3a48
+   __TEXT.__swift5_builtin: 0x2d0
+-  __TEXT.__swift5_assocty: 0x1608
++  __TEXT.__swift5_assocty: 0x16a8
+   __TEXT.__oslogstring: 0x4e9
+   __TEXT.__swift5_mpenum: 0x60
+-  __TEXT.__swift5_proto: 0x67c
+-  __TEXT.__swift5_types: 0x490
+-  __TEXT.__swift5_capture: 0x15a4
+-  __TEXT.__swift_as_entry: 0x44
++  __TEXT.__swift5_proto: 0x6ac
++  __TEXT.__swift5_types: 0x4a4
++  __TEXT.__swift5_capture: 0x15a8
++  __TEXT.__swift_as_entry: 0x4c
+   __TEXT.__swift5_protos: 0x3c
+-  __TEXT.__swift_as_ret: 0x4c
+-  __TEXT.__gcc_except_tab: 0x114
+-  __TEXT.__unwind_info: 0x4568
+-  __TEXT.__eh_frame: 0x203c
+-  __TEXT.__objc_classname: 0x3b3
+-  __TEXT.__objc_methname: 0x7172
+-  __TEXT.__objc_methtype: 0x21f1
+-  __TEXT.__objc_stubs: 0x2ae0
+-  __DATA_CONST.__got: 0x1a70
+-  __DATA_CONST.__const: 0xbc8
+-  __DATA_CONST.__objc_classlist: 0x1c0
++  __TEXT.__swift_as_ret: 0x54
++  __TEXT.__gcc_except_tab: 0x11c
++  __TEXT.__unwind_info: 0x46a8
++  __TEXT.__eh_frame: 0x2074
++  __TEXT.__objc_classname: 0xe98
++  __TEXT.__objc_methname: 0x85d5
++  __TEXT.__objc_methtype: 0x27aa
++  __TEXT.__objc_stubs: 0x60c0
++  __DATA_CONST.__got: 0x1ae8
++  __DATA_CONST.__const: 0xbb8
++  __DATA_CONST.__objc_classlist: 0x1c8
+   __DATA_CONST.__objc_catlist: 0x80
+   __DATA_CONST.__objc_protolist: 0x140
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x2190
++  __DATA_CONST.__objc_selrefs: 0x2218
+   __DATA_CONST.__objc_protorefs: 0x98
+   __DATA_CONST.__objc_superrefs: 0x50
+   __DATA_CONST.__objc_arraydata: 0x10
+-  __AUTH_CONST.__auth_got: 0x2a40
+-  __AUTH_CONST.__const: 0xa3f8
++  __AUTH_CONST.__auth_got: 0x2b68
++  __AUTH_CONST.__const: 0xa668
+   __AUTH_CONST.__cfstring: 0x200
+-  __AUTH_CONST.__objc_const: 0x51a0
++  __AUTH_CONST.__objc_const: 0x5218
+   __AUTH_CONST.__objc_doubleobj: 0x10
+   __AUTH_CONST.__objc_dictobj: 0x28
+-  __AUTH.__objc_data: 0x1230
+-  __AUTH.__data: 0x2420
++  __AUTH.__objc_data: 0x12e0
++  __AUTH.__data: 0x24d0
+   __DATA.__objc_ivar: 0xd0
+-  __DATA.__data: 0x6568
+-  __DATA.__bss: 0xc108
++  __DATA.__data: 0x6740
++  __DATA.__bss: 0xc418
+   __DATA.__common: 0x338
+   __DATA_DIRTY.__objc_data: 0x370
+-  __DATA_DIRTY.__data: 0xb00
++  __DATA_DIRTY.__data: 0xad8
+   __DATA_DIRTY.__bss: 0x880
+   __DATA_DIRTY.__common: 0x38
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/ImageIO.framework/ImageIO
+   - /System/Library/Frameworks/Intents.framework/Intents
++  - /System/Library/Frameworks/LinkPresentation.framework/LinkPresentation
+   - /System/Library/Frameworks/Photos.framework/Photos
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+   - /System/Library/Frameworks/QuickLook.framework/QuickLook
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 968BA355-18AC-3331-A565-F803116954C0
+-  Functions: 7781
+-  Symbols:   6851
+-  CStrings:  2059
++  UUID: 5FDCAC4C-6565-3A4F-ACB2-BB1272059091
++  Functions: 8049
++  Symbols:   7799
++  CStrings:  2045
+ 
+Symbols:
++ _OBJC_CLASS_$_LPLinkView
++ _OBJC_CLASS_$_LPMetadataProvider
++ _OBJC_CLASS_$__TtC14WorkflowUICore17ResizableLinkView
++ _OBJC_METACLASS_$_LPLinkView
++ _OBJC_METACLASS_$__TtC14WorkflowUICore17ResizableLinkView
++ _OUTLINED_FUNCTION_100
++ _OUTLINED_FUNCTION_101
++ _OUTLINED_FUNCTION_102
++ _OUTLINED_FUNCTION_103
++ _OUTLINED_FUNCTION_104
++ _OUTLINED_FUNCTION_105
++ _OUTLINED_FUNCTION_106
++ _OUTLINED_FUNCTION_107
++ _OUTLINED_FUNCTION_108
++ _OUTLINED_FUNCTION_109
++ _OUTLINED_FUNCTION_110
++ _OUTLINED_FUNCTION_111
++ _OUTLINED_FUNCTION_112
++ _OUTLINED_FUNCTION_113
++ _OUTLINED_FUNCTION_114
++ _OUTLINED_FUNCTION_115
++ _OUTLINED_FUNCTION_116
++ _OUTLINED_FUNCTION_117
++ _OUTLINED_FUNCTION_118
++ _OUTLINED_FUNCTION_119
++ _OUTLINED_FUNCTION_120
++ _OUTLINED_FUNCTION_121
++ _OUTLINED_FUNCTION_122
++ _OUTLINED_FUNCTION_123
++ _OUTLINED_FUNCTION_124
++ _OUTLINED_FUNCTION_125
++ _OUTLINED_FUNCTION_126
++ _OUTLINED_FUNCTION_127
++ _OUTLINED_FUNCTION_128
++ _OUTLINED_FUNCTION_98
++ _OUTLINED_FUNCTION_99
++ _WFTextFieldKeyboardTypeEmoji
++ __DATA__TtC14WorkflowUICore17ResizableLinkView
++ __INSTANCE_METHODS__TtC14WorkflowUICore17ResizableLinkView
++ __METACLASS_DATA__TtC14WorkflowUICore17ResizableLinkView
++ __PROPERTIES__TtC14WorkflowUICore17ResizableLinkView
++ _associated conformance 14WorkflowUICore11PreviewView33_67DDB0D21B7208F75B3FB940591D9D5BLLV7SwiftUI0D0AA4BodyAeFP_AeF
++ _associated conformance 14WorkflowUICore11PreviewView33_9307BE93F29F123C82A247C361129F19LLV7SwiftUI0D0AA4BodyAeFP_AeF
++ _associated conformance 14WorkflowUICore18LinkPreviewURLView33_9307BE93F29F123C82A247C361129F19LLV7SwiftUI19UIViewRepresentableAaE4View
++ _associated conformance 14WorkflowUICore18LinkPreviewURLView33_9307BE93F29F123C82A247C361129F19LLV7SwiftUI4ViewAA4BodyAeFP_AeF
++ _associated conformance 14WorkflowUICore23LinkPreviewMetadataView33_9307BE93F29F123C82A247C361129F19LLV7SwiftUI0F0AA4BodyAeFP_AeF
++ _associated conformance 14WorkflowUICore23LinkPreviewMetadataView33_9307BE93F29F123C82A247C361129F19LLV7SwiftUI19UIViewRepresentableAaE0F0
++ _block_copy_helper.33
++ _block_copy_helper.42
++ _block_copy_helper.48
++ _block_copy_helper.53
++ _block_copy_helper.57
++ _block_copy_helper.67
++ _block_copy_helper.73
++ _block_copy_helper.76
++ _block_copy_helper.83
++ _block_copy_helper.91
++ _block_descriptor.35
++ _block_descriptor.44
++ _block_descriptor.50
++ _block_descriptor.55
++ _block_descriptor.59
++ _block_descriptor.69
++ _block_descriptor.75
++ _block_descriptor.78
++ _block_descriptor.85
++ _block_descriptor.93
++ _block_destroy_helper.34
++ _block_destroy_helper.43
++ _block_destroy_helper.49
++ _block_destroy_helper.54
++ _block_destroy_helper.58
++ _block_destroy_helper.68
++ _block_destroy_helper.74
++ _block_destroy_helper.77
++ _block_destroy_helper.84
++ _block_destroy_helper.92
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOQr.1
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOQr.3
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOqd0__AaBHC.2
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOqd__AaBHC.4
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAA5ImageVAA12_FrameLayoutVGAA012_AspectRatioH0VGAGGAA4ViewHPAmaOHPAjaOHPAgaOHPyHC_AiA0K8ModifierHPyHCHC_AlaPHPyHCHC_AgaOHPyHCHC.17
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA4ListVys5NeverOAA12OutlineGroupVySay14WorkflowUICore14RecordProperty33_44C4F94A6B996A39943C8A98B79DDEC4LLVGSSAA6VStackVyAA9TupleViewVyAA4TextVSg_ATtGGAwA010DisclosureH0VyAwA0G16SubgroupChildrenVGGGAA08ModifiedD0VyAA08ProgressX0VyAtA05EmptyX0VGAA25_AppearanceActionModifierVGGAA0X0HPA2_AAA14_HPyHC_A12_AAA14_HPA9_AAA14_HPyHC_A11_AA0X8ModifierHPyHCHCHC.60
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA6HStackVyAA9TupleViewVyAA08ModifiedD0Vy14WorkflowUICore014SportsTeamIconG033_F3C8D65723BC9EF22C605B45B0B53BBBLLVAA14_PaddingLayoutVG_AA6SpacerVAA6VStackVyAGyAIyAIyAIyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGAXyAA4FontVSgGGAXyAA13TextAlignmentOGG_AIyA4_AA24_ForegroundStyleModifierVyAA22HierarchicalShapeStyleVGGtGGArPtGGAA05EmptyG0VGAA0G0HPA18_AAA22_HPyHC_A20_AAA22_HPyHCHC.16
++ _get_witness_table 7SwiftUI19_ConditionalContentVyACyACyAA4TextVAEGAFGAEGAA4ViewHPAgaIHPAfaIHPAeaIHPyHC_AeaIHPyHCHC_AfaIHPAeaIHPyHC_AeaIHPyHCHCHC_AeaIHPyHCHC.14
++ _get_witness_table 7SwiftUI4ListVys5NeverOAA7ForEachVySay14WorkflowUICore023DatabaseObjectObserversC4ViewV0I8ObserverVGSOAA4TextVGGAA0L0HPyHC.20
++ _get_witness_table 7SwiftUI4ListVys5NeverOAA7ForEachVySaySo16WFDatabaseResultCySo0G16ObjectDescriptorCGGAlA4TextVGGAA4ViewHPyHC.54
++ _get_witness_table 7SwiftUI4ViewR_r0_lAA6VStackVyAA19_ConditionalContentVyAFyAA05EmptyC0Vq_GAA08ModifiedF0VyAA4TextVAA14_PaddingLayoutVGGGAaBHPyHC.53
++ _get_witness_table 7SwiftUI4ViewR_r0_lqd__AaBHD2_AaBPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAA5GroupVyAA19_ConditionalContentVyAMyAA6SpacerVAA6VStackVyAA05TupleC0VyAA08ModifiedK0VyAUyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGAA14_PaddingLayoutVGSg_AcAE08progressC5StyleyQrqd__AA08ProgresscX0Rd__lFQOyAA0yC0VyAA05EmptyC0VA10_G_AA08CircularycX0VQo_tGGGq_GG_Qo_HO.52
++ _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA15ModifiedContentVyAA6HStackVyAEy14WorkflowUICore17LogColorIndicator33_A5DA0CA54FAA4F29993AA99B9F07D9A7LLV_AA4TextVtGGAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGG_AGyAIyAEyAO_AOtGGAWGAOtGGAA0E0HPyHC.13
++ _get_witness_table So26WFDatabaseObjectDescriptorCRbzl7SwiftUI15ModifiedContentVyAC5GroupVyAC012_ConditionalG0VyAC4TextVAC4ViewPACE9listStyleyQrqd__AC04ListM0Rd__lFQOyAC0N0Vys5NeverOAEyAC7ForEachVySayxGSSAmCE11contextMenu9menuItemsQrqd__yXE_tAcLRd__lFQOyAC14NavigationLinkVyAC6VStackVyAC05TupleK0VyAK_AKtGG14WorkflowUICore011DebugRecordK033_44C4F94A6B996A39943C8A98B79DDEC4LLVG_A2_yAC6ButtonVyAKG_A12_A12_SgtGQo_GAC21_TraitWritingModifierVyAC16OnDeleteTraitKeyVGGG_AC05PlainnM0VQo_GGAC16_FlexFrameLayoutVGAcLHPA28_AcLHPA27_AcLHPAkcLHPyHC_qd0__AcLHD3_A26_HOHC_HC_A30_AC0K8ModifierHPyHCHC.53
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE18navigationBarItems8trailingQrqd___tAaBRd__lFQOyAcAE9listStyleyQrqd__AA04ListI0Rd__lFQOyAcAE0D5TitleyQrAA18LocalizedStringKeyVFQOyAA0J0Vys5NeverOAA05TupleC0VyAA7SectionVyAA05EmptyC0VAPyAA6ButtonVyAA4TextVG_A2YtGATG_ARyAxPyAA6HStackVyAPyAX_AA6SpacerVAXtGG_AA6VStackVyAPyAX_AXtGGtGATGARyAxPyAA6ToggleVyAXG_APyA14__AA14NavigationLinkVyA1_yAPyAX_A3_AA19_ConditionalContentVyA18_yA18_yA2XGA19_GAXGtGG14WorkflowUICore08DebugLogC0VGtGSgtGATGARyAXA14_AXGARyAxPyA16_yAcAE5badgeyQrSiFQOyAX_Qo_A24_023DatabaseObjectObserversjC0VG_A16_yA34_A24_015DatabaseResultsjC0VGA24_011DatabaseRowC033_4B1C637C918A7BB0EA14E7EFB1EEDFDDLLVySo20WFWorkflowCollectionCGAA15DisclosureGroupVyAxPyA43_ySo19WFWorkflowReferenceCG_A51_A51_A51_A51_tGGA43_ySo18WFWorkflowRunEventCGA43_ySo19WFConfiguredTriggerCGA43_ySo14WFTriggerEventCGA43_ySo31WFShortcutSuggestionsDescriptorCGA43_ySo29WFShortcutBookmarksDescriptorCGAcAE18confirmationDialog_11isPresented15titleVisibility7actionsQrAX_AA7BindingVySbGAA10VisibilityOqd__yXEtAaBRd__lFQOyAY_AYQo_AA05ShareZ0Vys15CollectionOfOneVy10Foundation3URLVGA2nXGSgAcAEA69__A70_A71_A72_QrAX_A75_A77_qd__yXEtAaBRd__lFQOyAcAE12fileImporterA70_19allowedContentTypes23allowsMultipleSelection12onCompletionQrA75__Say22UniformTypeIdentifiers6UTTypeVGSbys6ResultOySayA85_Gs5Error_pGctFQOyAY_Qo__AYQo_tGATGARyAXA16_yAXA24_017ActionDrawerDebugC0VGATGARyAxPyA5__A1_yAPyAX_A3_A19_tGGA1_yAPyAX_A3_A18_yA19_AXGtGGAPyA51__A43_ySo26WFDatabaseObjectDescriptorCGtGSgA5_A16_yAXA24_014DebugCoherenceC0VGA14_A16_yAXA24_015DebugSyncEventsC0VGSgA16_yAXA24_018DebugDeviceRecordsC0VGSgtGATGARyAxPyA14__A14_A14_A14_A14_AYSgA14_A5_SgtGATGARyAXA14_ATGARyAxPyA13_yA9_G_A138_A138_A138_A138_tGAXGA32_A32_tGG_Qo__AA012InsetGroupedjI0VQo__AVyAA15ModifiedContentVyAA5ImageVAA012_EnvironmentN15WritingModifierVyAA5ColorVSgGGGQo_HO.8
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE7toolbar7contentQrqd__yXE_tAaBRd__lFQOyAcAE15navigationTitleyQrAA18LocalizedStringKeyVFQOyAA5GroupVyAA19_ConditionalContentVyAA4TextVAcAE9listStyleyQrqd__AA04ListP0Rd__lFQOyAA0Q0Vys5NeverOAA7ForEachVySaySo19WFCloudKitSyncEventCGs5Int32VAA6VStackVyAA05TupleC0VyAA6HStackVyA3_yAN_AA6SpacerVANtGG_ANtGGSgGG_AA05PlainqP0VQo_GG_Qo__A3_yAA6ButtonVyANG_AA9ShareLinkVys15CollectionOfOneVy10Foundation3URLVGA2tNGtGQo_HO.26
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE15navigationTitleyQrAA18LocalizedStringKeyVFQOyAA4ListVys5NeverOAA7ForEachVySay14WorkflowUICore015DatabaseResultsiC0V0O11ResultGroupVGSSAA14NavigationLinkVyAcAE5badgeyQrSiFQOyAA4TextV_Qo_AO0oq6DetailC0VGGG_Qo_HO.19
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE15navigationTitleyQrAA18LocalizedStringKeyVFQOyAA5GroupVyAA19_ConditionalContentVyAA4TextVAcAE9listStyleyQrqd__AA04ListN0Rd__lFQOyAA0O0Vys5NeverOAA7ForEachVySaySo19WFCloudKitSyncEventCGs5Int32VAA6VStackVyAA05TupleC0VyAA6HStackVyA1_yAL_AA6SpacerVALtGG_ALtGGSgGG_AA05PlainoN0VQo_GG_Qo_HO.24
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE15navigationTitleyQrAA18LocalizedStringKeyVFQOyAA6VStackVyAA05TupleC0VyAcAE11pickerStyleyQrqd__AA06PickerL0Rd__lFQOyAA0M0VyAA4TextV14WorkflowUICore16LogStreamManagerC0Q5EventC0T4TypeOSgAJyAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAP_AXQo__AA7ForEachVySayAWGAWA_GtGG_AA09SegmentedmL0VQo__AcAE04listL0yQrqd__AA04ListL0Rd__lFQOyAA4ListVys5NeverOA1_ySayAUGAuQ0Q3Row33_A5DA0CA54FAA4F29993AA99B9F07D9A7LLVGG_AA09PlainListL0VQo_tGG_Qo_HO.6
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAA6VStackVyAA19_ConditionalContentVyAMyAA08ModifiedK0Vy14WorkflowUICore019LinkPreviewMetadataC033_9307BE93F29F123C82A247C361129F19LLVAA16_FlexFrameLayoutVGAOyAP0oP7URLViewARLLVAUGGAcAE10fontWeightyQrAA4FontV6WeightVSgFQOyAOyAcAE13textSelectionyQrqd__AA17TextSelectabilityRd__lFQOyAA4TextV_AA24EnabledTextSelectabilityVQo_AA30_EnvironmentKeyWritingModifierVyAA13TextAlignmentOGG_Qo_GG_Qo_HO.14
++ _objc_msgSend$CGColor
++ _objc_msgSend$CGContext
++ _objc_msgSend$CGImage
++ _objc_msgSend$CGImageBuilder
++ _objc_msgSend$JSONObjectWithData:options:error:
++ _objc_msgSend$URL
++ _objc_msgSend$_preferredFontForTextStyle:design:weight:
++ _objc_msgSend$_systemImageNamed:withConfiguration:
++ _objc_msgSend$actionCount
++ _objc_msgSend$activate
++ _objc_msgSend$activeObjectObservers
++ _objc_msgSend$activeResults
++ _objc_msgSend$addArrangedSubview:
++ _objc_msgSend$addAttribute:value:range:
++ _objc_msgSend$addAttributes:range:
++ _objc_msgSend$addButton:
++ _objc_msgSend$addDelegate:
++ _objc_msgSend$addInteraction:
++ _objc_msgSend$addTarget:action:forControlEvents:
++ _objc_msgSend$addToRunLoop:forMode:
++ _objc_msgSend$addWorkflowIdentifiersToLibraryRootCollection:
++ _objc_msgSend$address
++ _objc_msgSend$alertWithError:
++ _objc_msgSend$allConfiguredTriggers
++ _objc_msgSend$allShortcutBookmarks
++ _objc_msgSend$allShortcutSuggestions
++ _objc_msgSend$allSortedTriggerEvents
++ _objc_msgSend$appendAttributedString:
++ _objc_msgSend$applicationOrNil
++ _objc_msgSend$arrangedSubviews
++ _objc_msgSend$asset
++ _objc_msgSend$associatedAppBundleIdentifier
++ _objc_msgSend$attribute:atIndex:effectiveRange:
++ _objc_msgSend$attributedString
++ _objc_msgSend$attributedStringWithAttachment:
++ _objc_msgSend$attributedSubstringFromRange:
++ _objc_msgSend$attributesAtIndex:effectiveRange:
++ _objc_msgSend$attributionSet
++ _objc_msgSend$availability
++ _objc_msgSend$beginEditing
++ _objc_msgSend$beginningOfDocument
++ _objc_msgSend$bezierPathWithRoundedRect:cornerRadius:
++ _objc_msgSend$blackColor
++ _objc_msgSend$blendMode
++ _objc_msgSend$boldSystemFontOfSize:
++ _objc_msgSend$bookmarkData
++ _objc_msgSend$boolForKey:
++ _objc_msgSend$boolValue
++ _objc_msgSend$booleanValue
++ _objc_msgSend$boundingRectWithSize:options:context:
++ _objc_msgSend$buildCGImage
++ _objc_msgSend$bundleForClass:
++ _objc_msgSend$buttonWithTitle:style:handler:
++ _objc_msgSend$buttonWithType:
++ _objc_msgSend$calendar
++ _objc_msgSend$category
++ _objc_msgSend$centerYAnchor
++ _objc_msgSend$character
++ _objc_msgSend$children
++ _objc_msgSend$clearColor
++ _objc_msgSend$clearLogs
++ _objc_msgSend$coerceToItemClasses:completionHandler:
++ _objc_msgSend$coherenceSyncEnabled
++ _objc_msgSend$collectionsWithOutOfSyncWalrusStatus
++ _objc_msgSend$color
++ _objc_msgSend$colorWithAlphaComponent:
++ _objc_msgSend$composedMessage
++ _objc_msgSend$configurationWithFont:scale:
++ _objc_msgSend$configurationWithPointSize:weight:scale:
++ _objc_msgSend$confirmed
++ _objc_msgSend$conflictingReferenceForWorkflowID:
++ _objc_msgSend$conformsToTypes:
++ _objc_msgSend$constraintEqualToAnchor:
++ _objc_msgSend$constraintEqualToConstant:
++ _objc_msgSend$constraintGreaterThanOrEqualToAnchor:
++ _objc_msgSend$constraintGreaterThanOrEqualToAnchor:constant:
++ _objc_msgSend$constraintLessThanOrEqualToAnchor:
++ _objc_msgSend$containsAttachmentsInRange:
++ _objc_msgSend$content
++ _objc_msgSend$contentLayoutGuide
++ _objc_msgSend$convertRect:toCoordinateSpace:
++ _objc_msgSend$coordinate
++ _objc_msgSend$copy
++ _objc_msgSend$createPersistedSyncEventLogger
++ _objc_msgSend$createTemporaryFileWithFilename:
++ _objc_msgSend$currentCalendar
++ _objc_msgSend$currentDevice
++ _objc_msgSend$currentRunLoop
++ _objc_msgSend$currentTime
++ _objc_msgSend$currentTraitCollection
++ _objc_msgSend$dataWithJSONObject:options:error:
++ _objc_msgSend$database
++ _objc_msgSend$date
++ _objc_msgSend$dateCreated
++ _objc_msgSend$dateFormatFromTemplate:options:locale:
++ _objc_msgSend$dateInterval
++ _objc_msgSend$defaultDatabase
++ _objc_msgSend$defaultMetrics
++ _objc_msgSend$deleteCharactersInRange:
++ _objc_msgSend$deleteReference:tombstone:error:
++ _objc_msgSend$description
++ _objc_msgSend$descriptors
++ _objc_msgSend$dictionary
++ _objc_msgSend$display
++ _objc_msgSend$displayLinkWithTarget:selector:
++ _objc_msgSend$displayName
++ _objc_msgSend$displayStyle
++ _objc_msgSend$displaySubtitle
++ _objc_msgSend$documentIcon
++ _objc_msgSend$documentRange
++ _objc_msgSend$dueDateComponents
++ _objc_msgSend$duration
++ _objc_msgSend$effectWithStyle:
++ _objc_msgSend$effectiveUserInterfaceLayoutDirection
++ _objc_msgSend$emailAddress
++ _objc_msgSend$endDate
++ _objc_msgSend$endEditing
++ _objc_msgSend$entity
++ _objc_msgSend$enumerateAttribute:inRange:options:usingBlock:
++ _objc_msgSend$enumerateAttributesInRange:options:usingBlock:
++ _objc_msgSend$enumerateEnclosingRectsForGlyphRange:withinSelectedGlyphRange:inTextContainer:usingBlock:
++ _objc_msgSend$enumerateLineFragmentsForGlyphRange:usingBlock:
++ _objc_msgSend$enumerateTextSegmentsInRange:type:options:usingBlock:
++ _objc_msgSend$escapedPatternForString:
++ _objc_msgSend$event
++ _objc_msgSend$eventInfo
++ _objc_msgSend$eventType
++ _objc_msgSend$events
++ _objc_msgSend$exportableURL
++ _objc_msgSend$fetchedProperties
++ _objc_msgSend$fileSize
++ _objc_msgSend$fill
++ _objc_msgSend$firstBaselineAnchor
++ _objc_msgSend$font
++ _objc_msgSend$fontDescriptor
++ _objc_msgSend$fontDescriptorWithSymbolicTraits:
++ _objc_msgSend$fontWithDescriptor:size:
++ _objc_msgSend$fontWithName:size:
++ _objc_msgSend$forceStringToURL:error:
++ _objc_msgSend$formattedPhoneNumber
++ _objc_msgSend$frameLayoutGuide
++ _objc_msgSend$generalPasteboard
++ _objc_msgSend$getContentCollectionWithCompletionHandler:
++ _objc_msgSend$getListSubtitle:
++ _objc_msgSend$getPreferredFileSize:
++ _objc_msgSend$glyphRangeForCharacterRange:actualCharacterRange:
++ _objc_msgSend$hasClearBackground
++ _objc_msgSend$headIndent
++ _objc_msgSend$heightAnchor
++ _objc_msgSend$hiddenFromLibraryAndSync
++ _objc_msgSend$humanReadableDescriptionWithStartDate:includeEndRepeat:isConcise:
++ _objc_msgSend$iconWithSymbolColor:background:
++ _objc_msgSend$identifier
++ _objc_msgSend$idiom
++ _objc_msgSend$if_mapAsynchronously:completionHandler:
++ _objc_msgSend$imageWithActions:
++ _objc_msgSend$imageWithRenderingMode:
++ _objc_msgSend$imageWithSize:
++ _objc_msgSend$impactOccurred
++ _objc_msgSend$infoDictionary
++ _objc_msgSend$initForTextStyle:
++ _objc_msgSend$initWithActivityItems:applicationActivities:
++ _objc_msgSend$initWithArray:
++ _objc_msgSend$initWithAsset:
++ _objc_msgSend$initWithAttributedString:
++ _objc_msgSend$initWithCGColor:
++ _objc_msgSend$initWithCoder:
++ _objc_msgSend$initWithContentsOfURL:error:
++ _objc_msgSend$initWithData:
++ _objc_msgSend$initWithDynamicProvider:
++ _objc_msgSend$initWithFontAttributes:
++ _objc_msgSend$initWithFrame:
++ _objc_msgSend$initWithFrame:textContainer:
++ _objc_msgSend$initWithIdentifier:objectType:
++ _objc_msgSend$initWithLiveSource:
++ _objc_msgSend$initWithLocation:
++ _objc_msgSend$initWithLocation:endLocation:
++ _objc_msgSend$initWithMetadata:
++ _objc_msgSend$initWithPattern:options:error:
++ _objc_msgSend$initWithPlatformColor:
++ _objc_msgSend$initWithPlayerItem:
++ _objc_msgSend$initWithSize:
++ _objc_msgSend$initWithString:
++ _objc_msgSend$initWithString:attributes:
++ _objc_msgSend$initWithStyle:
++ _objc_msgSend$initWithTextAlignment:location:options:
++ _objc_msgSend$initWithTextView:
++ _objc_msgSend$initWithURL:
++ _objc_msgSend$initWithURL:configuration:
++ _objc_msgSend$initWithWindowScene:
++ _objc_msgSend$integerValue
++ _objc_msgSend$interactions
++ _objc_msgSend$invalidate
++ _objc_msgSend$invalidateDisplayForCharacterRange:
++ _objc_msgSend$invisibleWorkflows
++ _objc_msgSend$isAllDay
++ _objc_msgSend$isDeleted
++ _objc_msgSend$isEligibleToShareWithResultManagedLevel:
++ _objc_msgSend$isEqualToAttributedString:
++ _objc_msgSend$isEqualToClass:
++ _objc_msgSend$isMainThread
++ _objc_msgSend$isPlaying
++ _objc_msgSend$isScrollEnabled
++ _objc_msgSend$isSyncEnabled
++ _objc_msgSend$itemWithObject:
++ _objc_msgSend$labelColor
++ _objc_msgSend$latestLibrary
++ _objc_msgSend$layoutManager
++ _objc_msgSend$lightGrayColor
++ _objc_msgSend$lineHeight
++ _objc_msgSend$lineSpacing
++ _objc_msgSend$linkMetadata
++ _objc_msgSend$linkMetadataValue
++ _objc_msgSend$list
++ _objc_msgSend$liveLocalStore
++ _objc_msgSend$localizedRecoverySuggestion
++ _objc_msgSend$location
++ _objc_msgSend$locationFromLocation:withOffset:
++ _objc_msgSend$logType
++ _objc_msgSend$mainBundle
++ _objc_msgSend$mapItem
++ _objc_msgSend$mappedData
++ _objc_msgSend$markdownRenderingV2Enabled
++ _objc_msgSend$matchesInString:options:range:
++ _objc_msgSend$monospacedSystemFontOfSize:weight:
++ _objc_msgSend$mutableString
++ _objc_msgSend$number
++ _objc_msgSend$numberOfRanges
++ _objc_msgSend$numberValue
++ _objc_msgSend$object
++ _objc_msgSend$objectID
++ _objc_msgSend$offsetFromPosition:toPosition:
++ _objc_msgSend$openInMapsWithLaunchOptions:
++ _objc_msgSend$openURL:
++ _objc_msgSend$openURL:withBundleIdentifier:userInterface:completionHandler:
++ _objc_msgSend$orangeColor
++ _objc_msgSend$originalURL
++ _objc_msgSend$outcome
++ _objc_msgSend$ownedTypes
++ _objc_msgSend$paragraphSpacing
++ _objc_msgSend$path
++ _objc_msgSend$pause
++ _objc_msgSend$paused
++ _objc_msgSend$personNameComponents
++ _objc_msgSend$phoneNumber
++ _objc_msgSend$placemark
++ _objc_msgSend$platformImage
++ _objc_msgSend$play
++ _objc_msgSend$playbackStyle
++ _objc_msgSend$postalAddress
++ _objc_msgSend$preferredDisplayStyle
++ _objc_msgSend$prepareWithCompletionHandler:
++ _objc_msgSend$presentContent:
++ _objc_msgSend$previewItemURL
++ _objc_msgSend$process
++ _objc_msgSend$properties
++ _objc_msgSend$range
++ _objc_msgSend$rangeAtIndex:
++ _objc_msgSend$rawResponse
++ _objc_msgSend$recentlyModifiedShortcuts
++ _objc_msgSend$recentlyRunShortcuts
++ _objc_msgSend$recordWithDescriptor:error:
++ _objc_msgSend$recurrenceRule
++ _objc_msgSend$redColor
++ _objc_msgSend$registerDefaults:
++ _objc_msgSend$registerObserver:
++ _objc_msgSend$reloadInputViews
++ _objc_msgSend$reminder
++ _objc_msgSend$removeDelegate:
++ _objc_msgSend$removeFromRunLoop:forMode:
++ _objc_msgSend$replaceCharactersInRange:withAttributedString:
++ _objc_msgSend$replaceCharactersInRange:withString:
++ _objc_msgSend$replaceWithFileAtURL:error:
++ _objc_msgSend$resolveContent:completionHandler:
++ _objc_msgSend$response
++ _objc_msgSend$responseDataModel
++ _objc_msgSend$scaledFontForFont:
++ _objc_msgSend$scaledValueForValue:
++ _objc_msgSend$sendAction:to:from:forEvent:
++ _objc_msgSend$separatorColor
++ _objc_msgSend$setActive:
++ _objc_msgSend$setAdjustmentEnabled:
++ _objc_msgSend$setAlignment:
++ _objc_msgSend$setAllowedUnits:
++ _objc_msgSend$setAllowsCustomPresentationStyle:
++ _objc_msgSend$setAllowsDefaultTighteningForTruncation:
++ _objc_msgSend$setAllowsExternalPlayback:
++ _objc_msgSend$setAlwaysBounceHorizontal:
++ _objc_msgSend$setAttributedPlaceholder:
++ _objc_msgSend$setAttributes:range:
++ _objc_msgSend$setAutocorrectionType:
++ _objc_msgSend$setAutomaticallyAdjustsScrollIndicatorInsets:
++ _objc_msgSend$setAxis:
++ _objc_msgSend$setBackgroundColor:
++ _objc_msgSend$setBool:forKey:
++ _objc_msgSend$setBounds:
++ _objc_msgSend$setContentInset:
++ _objc_msgSend$setContentInsetAdjustmentBehavior:
++ _objc_msgSend$setCurrentTime:
++ _objc_msgSend$setCustomSpacing:afterView:
++ _objc_msgSend$setDataSource:
++ _objc_msgSend$setDateFormat:
++ _objc_msgSend$setDateStyle:
++ _objc_msgSend$setDistribution:
++ _objc_msgSend$setDoesRelativeDateFormatting:
++ _objc_msgSend$setDrawBackground:
++ _objc_msgSend$setEditable:
++ _objc_msgSend$setEffect:
++ _objc_msgSend$setEnabled:
++ _objc_msgSend$setEventHandler:
++ _objc_msgSend$setFill
++ _objc_msgSend$setFilterPredicate:
++ _objc_msgSend$setFirstLineHeadIndent:
++ _objc_msgSend$setFlags:
++ _objc_msgSend$setGlyphCharacter:
++ _objc_msgSend$setHeadIndent:
++ _objc_msgSend$setHidden:
++ _objc_msgSend$setHyphenationFactor:
++ _objc_msgSend$setInputAccessoryView:
++ _objc_msgSend$setInvalidationHandler:
++ _objc_msgSend$setIsContentManaged:
++ _objc_msgSend$setKeyboardType:
++ _objc_msgSend$setLineBreakMode:
++ _objc_msgSend$setLineFragmentPadding:
++ _objc_msgSend$setLineHeightMultiple:
++ _objc_msgSend$setLineSpacing:
++ _objc_msgSend$setLinkTextAttributes:
++ _objc_msgSend$setMaximumLineHeight:
++ _objc_msgSend$setMaximumNumberOfLines:
++ _objc_msgSend$setMaximumSignificantDigits:
++ _objc_msgSend$setMenu:
++ _objc_msgSend$setMessage:
++ _objc_msgSend$setMinimumLineHeight:
++ _objc_msgSend$setModalPresentationStyle:
++ _objc_msgSend$setNumberOfLines:
++ _objc_msgSend$setOutline:
++ _objc_msgSend$setParagraphSpacing:
++ _objc_msgSend$setParagraphSpacingBefore:
++ _objc_msgSend$setPreferredFileType:
++ _objc_msgSend$setScrollIndicatorInsets:
++ _objc_msgSend$setSecureTextEntry:
++ _objc_msgSend$setSelectable:
++ _objc_msgSend$setSelectedTextRange:
++ _objc_msgSend$setShowsHorizontalScrollIndicator:
++ _objc_msgSend$setShowsMenuAsPrimaryAction:
++ _objc_msgSend$setShowsVerticalScrollIndicator:
++ _objc_msgSend$setSmartDashesType:
++ _objc_msgSend$setSmartQuotesType:
++ _objc_msgSend$setSpacing:
++ _objc_msgSend$setString:
++ _objc_msgSend$setTabStops:
++ _objc_msgSend$setTextContainer:
++ _objc_msgSend$setTextContainerInset:
++ _objc_msgSend$setTextDragDelegate:
++ _objc_msgSend$setTextViewDelegate:
++ _objc_msgSend$setTimeStyle:
++ _objc_msgSend$setTitle:
++ _objc_msgSend$setUsesSignificantDigits:
++ _objc_msgSend$setWindowLevel:
++ _objc_msgSend$setZeroFormattingBehavior:
++ _objc_msgSend$sharingMixedMDMContentErrorWithActionName:
++ _objc_msgSend$shortAddressString
++ _objc_msgSend$shortcutsWithOutOfSyncWalrusStatus
++ _objc_msgSend$sizeInPoints
++ _objc_msgSend$sizeThatFits:
++ _objc_msgSend$sizeToFit
++ _objc_msgSend$sortedRunEventsWithSource:
++ _objc_msgSend$sortedVisibleFolders
++ _objc_msgSend$sortedVisibleWorkflowsByName
++ _objc_msgSend$sortedVisibleWorkflowsInCollection:
++ _objc_msgSend$sortedWorkflowsWithQuery:
++ _objc_msgSend$source
++ _objc_msgSend$standardUserDefaults
++ _objc_msgSend$startDate
++ _objc_msgSend$startFetchingMetadataForURL:completionHandler:
++ _objc_msgSend$statusBarFrame
++ _objc_msgSend$statusBarManager
++ _objc_msgSend$street
++ _objc_msgSend$streetAddressWithPlacemark:label:
++ _objc_msgSend$string
++ _objc_msgSend$stringByReplacingCharactersInRange:withString:
++ _objc_msgSend$stringFromByteCount:
++ _objc_msgSend$stringFromDate:
++ _objc_msgSend$stringFromDate:toDate:
++ _objc_msgSend$stringFromDateInterval:
++ _objc_msgSend$stringFromNumber:
++ _objc_msgSend$stringFromTimeInterval:
++ _objc_msgSend$stringValue
++ _objc_msgSend$substringFromIndex:
++ _objc_msgSend$substringWithRange:
++ _objc_msgSend$suggestions
++ _objc_msgSend$superview
++ _objc_msgSend$symbolColor
++ _objc_msgSend$symbolicTraits
++ _objc_msgSend$syncShortcutsUserDefaults
++ _objc_msgSend$systemBlueColor
++ _objc_msgSend$systemFontOfSize:weight:
++ _objc_msgSend$systemGray5Color
++ _objc_msgSend$systemImageNamed:
++ _objc_msgSend$systemImageNamed:configuration:renderingMode:
++ _objc_msgSend$systemLayoutSizeFittingSize:
++ _objc_msgSend$systemLayoutSizeFittingSize:withHorizontalFittingPriority:verticalFittingPriority:
++ _objc_msgSend$systemShortcutsUserDefaults
++ _objc_msgSend$textContainer
++ _objc_msgSend$textContainerInset
++ _objc_msgSend$textLayoutManager
++ _objc_msgSend$textRangeFromPosition:toPosition:
++ _objc_msgSend$textResponse
++ _objc_msgSend$textStorage
++ _objc_msgSend$titleLineLimit
++ _objc_msgSend$tracksWithMediaType:
++ _objc_msgSend$triggerID
++ _objc_msgSend$typeWithClass:
++ _objc_msgSend$typeWithClassName:frameworkName:location:
++ _objc_msgSend$unregisterObserver:
++ _objc_msgSend$unsignedShortValue
++ _objc_msgSend$value
++ _objc_msgSend$valueForKey:
++ _objc_msgSend$viewURL
++ _objc_msgSend$wf_accentColor
++ _objc_msgSend$wf_calculateIntrinsicHeightForWidth:textContainer:
++ _objc_msgSend$wf_isUserCancelledError
++ _objc_msgSend$wf_lineHeight
++ _objc_msgSend$wf_setControlView:
++ _objc_msgSend$wf_shortcutsDirectoryURL
++ _objc_msgSend$whiteColor
++ _objc_msgSend$widthAnchor
++ _objc_msgSend$windowScene
++ _objc_msgSend$workflow
++ _objc_msgSend$workflowIdentifiersUnexpectedlyMissingFromLibrary
++ _objc_msgSend$workflowUserDefaults
++ _objc_retain_x5
++ _objectdestroy.30Tm
++ _objectdestroy.67Tm
++ _swift_bridgeObjectRelease_n
++ _symbolic SccySo14LPLinkMetadataC______pG s5ErrorP
++ _symbolic So10LPLinkViewC
++ _symbolic So14LPLinkMetadataC
++ _symbolic So14LPLinkMetadataCSg
++ _symbolic So25WFLinkMetadataContentItemC
++ _symbolic _____ 14WorkflowUICore11PreviewView33_67DDB0D21B7208F75B3FB940591D9D5BLLV
++ _symbolic _____ 14WorkflowUICore11PreviewView33_9307BE93F29F123C82A247C361129F19LLV
++ _symbolic _____ 14WorkflowUICore17ResizableLinkViewC
++ _symbolic _____ 14WorkflowUICore18LinkPreviewURLView33_9307BE93F29F123C82A247C361129F19LLV
++ _symbolic _____ 14WorkflowUICore23LinkPreviewMetadataView33_9307BE93F29F123C82A247C361129F19LLV
++ _symbolic _____Sg_ABt 10Foundation3URLV
++ _symbolic _____yAAyAAyAAyAAy_____y_____y_____y_____GG_____G_____G_____y_____GGALySbGG_____GAPG 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA08_StrokedE0V AA08_TrimmedE0V AA6CircleV6_InsetV AA5ColorV AA15_RotationEffectV AA18_AnimationModifierV 12CoreGraphics7CGFloatV AA08_OpacityM0V
++ _symbolic _____yAAyAAyAAy_____y_____y______AAyAD_____ySiSgGGSgtGG_____G_____GALGAEy_____SgGG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA30_EnvironmentKeyWritingModifierV AA14_PaddingLayoutV AA06_FrameN0V AA4FontV
++ _symbolic _____yAAyAAyAAy_____y_____y_____y_____GG_____G_____G_____y_____GGALySbGG_____G 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA08_StrokedE0V AA08_TrimmedE0V AA6CircleV6_InsetV AA5ColorV AA15_RotationEffectV AA18_AnimationModifierV 12CoreGraphics7CGFloatV AA08_OpacityM0V
++ _symbolic _____yAAyAAy_____y_____G_____G_____G_____G 7SwiftUI15ModifiedContentV AA5GroupV 14WorkflowUICore18SelectableTextView33_6A51A163B276031CAE7D944654336ACDLLV AA14_PaddingLayoutV AA010_FlexFrameR0V AF21LLMAttributedModifierV
++ _symbolic _____yAAyAAy_____y_____y______AAyAD_____ySiSgGGSgtGG_____G_____GALG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA30_EnvironmentKeyWritingModifierV AA14_PaddingLayoutV AA06_FrameN0V
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA4TextV AA14_OpacityEffectV AA16_FlexFrameLayoutV
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA5ColorV AA13_OffsetEffectV AA12_FrameLayoutV
++ _symbolic _____yAAy__________G_____y_____GG 7SwiftUI15ModifiedContentV 14WorkflowUICore17AudioScrubberView33_BD23D6A48E6635290113291E20E48EAELLV AA14_PaddingLayoutV AA21_TraitWritingModifierV AA010TransitionS3KeyV
++ _symbolic _____yAAy__________ySiSgGG_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA14_PaddingLayoutV
++ _symbolic _____yAAy__________y_____GG_____G 7SwiftUI15ModifiedContentV 14WorkflowUICore0D21CollectionPreviewViewV AA30_EnvironmentKeyWritingModifierV AD0d4ItemhI0V19PresentationContextO AA16_FlexFrameLayoutV
++ _symbolic _____yAAy__________y_____yAAyAAyAB_____G_____GGGGAGG 7SwiftUI15ModifiedContentV AA5ColorV AA16_OverlayModifierV AA6HStackV AA13_OffsetEffectV AA12_FrameLayoutV
++ _symbolic _____yAAy_____y_____G_____G_____G 7SwiftUI15ModifiedContentV AA5GroupV 14WorkflowUICore18SelectableTextView33_6A51A163B276031CAE7D944654336ACDLLV AA14_PaddingLayoutV AA010_FlexFrameR0V
++ _symbolic _____yAAy_____y_____y______AAyAD_____ySiSgGGSgtGG_____G_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA30_EnvironmentKeyWritingModifierV AA14_PaddingLayoutV AA06_FrameN0V
++ _symbolic _____yAAy_____y_____y_____y_____GG_____G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA08_StrokedE0V AA08_TrimmedE0V AA6CircleV6_InsetV AA5ColorV AA15_RotationEffectV AA18_AnimationModifierV 12CoreGraphics7CGFloatV
++ _symbolic _____ySo14LPLinkMetadataCSgG 7SwiftUI5StateV
++ _symbolic _____y_____G s11_SetStorageC s8DurationV10FoundationE16UnitsFormatStyleV4UnitV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So22CLLocationCoordinate2DV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s8DurationV10FoundationE16UnitsFormatStyleV4UnitV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 14WorkflowUICore16ImageHostingView33_05C30733584E7BCE9234AF2689648798LLV AA16_FlexFrameLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 14WorkflowUICore17AudioScrubberView33_BD23D6A48E6635290113291E20E48EAELLV AA14_PaddingLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 14WorkflowUICore18LinkPreviewURLView33_9307BE93F29F123C82A247C361129F19LLV AA16_FlexFrameLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 14WorkflowUICore23LinkPreviewMetadataView33_9307BE93F29F123C82A247C361129F19LLV AA16_FlexFrameLayoutV
++ _symbolic _____y___________yAB_____ySiSgGGSgtG 7SwiftUI9TupleViewV AA4TextV AA15ModifiedContentV AA30_EnvironmentKeyWritingModifierV
++ _symbolic _____y___________yACy_____y__________GADy_____AFGG_____yADy_____y___________Qo______y_____GG_Qo_GG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA19_ConditionalContentV AA08ModifiedI0V 14WorkflowUICore019LinkPreviewMetadataD033_9307BE93F29F123C82A247C361129F19LLV AA010_FlexFrameG0V AL0mN7URLViewANLLV AA0D0PAAE10fontWeightyQrAA4FontV6WeightVSgFQO AuAE13textSelectionyQrqd__AA17TextSelectabilityRd__lFQO AA4TextV AA24EnabledTextSelectabilityV AA30_EnvironmentKeyWritingModifierV AA13TextAlignmentO
++ _symbolic _____y__________y_____GG 7SwiftUI15ModifiedContentV 14WorkflowUICore0D21CollectionPreviewViewV AA30_EnvironmentKeyWritingModifierV AD0d4ItemhI0V19PresentationContextO
++ _symbolic _____y__________y_____yAAyAAyAB_____G_____GGGG 7SwiftUI15ModifiedContentV AA5ColorV AA16_OverlayModifierV AA6HStackV AA13_OffsetEffectV AA12_FrameLayoutV
++ _symbolic _____y__________y_____yACyAB______ABtGG_ADyACyAB_AE_____yA2BGtGGADyACyAB_AeHyAiBGtGGACy_____ySo19WFWorkflowReferenceCG_AOySo26WFDatabaseObjectDescriptorCGtGSgAG_____yAB_____G_____yABGAXyAB_____GSgAXyAB_____GSgtG_____G 7SwiftUI7SectionV AA4TextV AA9TupleViewV AA6HStackV AA6SpacerV AA19_ConditionalContentV 14WorkflowUICore011DatabaseRowF033_4B1C637C918A7BB0EA14E7EFB1EEDFDDLLV AA14NavigationLinkV AN014DebugCoherenceF0V AA6ToggleV AN0z10SyncEventsF0V AN0z13DeviceRecordsF0V AA05EmptyF0V
++ _symbolic _____y__________y_____y_____ACy_____y_____G_A2HtGAEG_ADyAgCy_____yACyAG______AGtGG______yACyAG_AGtGGtGAEGADyAgCy_____yAGG_ACyAU______yAKyACyAG_AL_____yAWyAWyA2GGAXGAGGtGG_____GtGSgtGAEGADyAguGGADyAgCyAVy_____yAG_Qo______G_AVyA8______G_____ySo20WFWorkflowCollectionCG_____yAgCyA13_ySo0A9ReferenceCG_A20_A20_A20_A20_tGGA13_ySo0A8RunEventCGA13_ySo19WFConfiguredTriggerCGA13_ySo09WFTriggerE0CGA13_ySo31WFShortcutSuggestionsDescriptorCGA13_ySo0i9BookmarksK0CG_____yAH_AHQo______y_____y_____GA2bGGSg_____y_____yAH_Qo__AHQo_tGAEGADyAgVyAG_____GAEGADyAgCyAN_AKyACyAG_AlXtGGAKyACyAG_AlWyAxGGtGGACyA20__A13_ySo016WFDatabaseObjectK0CGtGSgAnVyAG_____GAuVyAG_____GSgAVyAG_____GSgtGAEGADyAgCyAU_A4uHSgAuNSgtGAEGADyAguEGADyAgCyATyAQG_A77_A77_A77_A77_tGAGGA7_A7_tGG 7SwiftUI4ListV s5NeverO AA9TupleViewV AA7SectionV AA05EmptyF0V AA6ButtonV AA4TextV AA6HStackV AA6SpacerV AA6VStackV AA6ToggleV AA14NavigationLinkV AA19_ConditionalContentV 14WorkflowUICore08DebugLogF0V AA0F0PAAE5badgeyQrSiFQO A0_023DatabaseObjectObserverscF0V A0_0x7ResultscF0V A0_0x3RowF033_4B1C637C918A7BB0EA14E7EFB1EEDFDDLLV AA15DisclosureGroupV A4_AAE18confirmationDialog_11isPresented15titleVisibility7actionsQrAO_AA7BindingVySbGAA10VisibilityOqd__yXEtAAA3_Rd__lFQO AA05ShareP0V s15CollectionOfOneV 10Foundation3URLV A4_AAEA15__A16_A17_A18_QrAO_A21_A23_qd__yXEtAAA3_Rd__lFQO A4_AAE12fileImporterA16_07allowedR5Types23allowsMultipleSelection12onCompletionQrA21__Say22UniformTypeIdentifiers6UTTypeVGSbys6ResultOySayA30_Gs5Error_pGctFQO A0_012ActionDraweruF0V A0_0u9CoherenceF0V A0_0u10SyncEventsF0V A0_0u13DeviceRecordsF0V
++ _symbolic _____y__________y_____y_____G_A2FtGABG_AAyAeCy_____yACyAE______AEtGG______yACyAE_AEtGGtGABGAAyAeCy_____yAEG_ACyAS______yAIyACyAE_AJ_____yAUyAUyA2EGAVGAEGtGG_____GtGSgtGABGAAyAesEGAAyAeCyATy_____yAE_Qo______G_ATyA6______G_____ySo20WFWorkflowCollectionCG_____yAeCyA11_ySo0A9ReferenceCG_A18_A18_A18_A18_tGGA11_ySo0A8RunEventCGA11_ySo19WFConfiguredTriggerCGA11_ySo09WFTriggerE0CGA11_ySo31WFShortcutSuggestionsDescriptorCGA11_ySo0i9BookmarksK0CG_____yAF_AFQo______y_____y_____G_____A41_AEGSg_____y_____yAF_Qo__AFQo_tGABGAAyAeTyAE_____GABGAAyAeCyAL_AIyACyAE_AjVtGGAIyACyAE_AjUyAvEGtGGACyA18__A11_ySo016WFDatabaseObjectK0CGtGSgAlTyAE_____GAsTyAE_____GSgATyAE_____GSgtGABGAAyAeCyAS_A4sFSgAsLSgtGABGAAyAesBGAAyAeCyARyAOG_A76_A76_A76_A76_tGAEGA5_A5_t 7SwiftUI7SectionV AA9EmptyViewV AA05TupleE0V AA6ButtonV AA4TextV AA6HStackV AA6SpacerV AA6VStackV AA6ToggleV AA14NavigationLinkV AA19_ConditionalContentV 14WorkflowUICore08DebugLogE0V AA0E0PAAE5badgeyQrSiFQO AX027DatabaseObjectObserversListE0V AX0v7ResultsyE0V AX0v3RowE033_4B1C637C918A7BB0EA14E7EFB1EEDFDDLLV AA15DisclosureGroupV A0_AAE18confirmationDialog_11isPresented15titleVisibility7actionsQrAK_AA7BindingVySbGAA10VisibilityOqd__yXEtAAA_Rd__lFQO AA05ShareN0V s15CollectionOfOneV 10Foundation3URLV s5NeverO A0_AAEA11__A12_A13_A14_QrAK_A17_A19_qd__yXEtAAA_Rd__lFQO A0_AAE12fileImporterA12_07allowedP5Types23allowsMultipleSelection12onCompletionQrA17__Say22UniformTypeIdentifiers6UTTypeVGSbys6ResultOySayA26_Gs5Error_pGctFQO AX012ActionDrawersE0V AX0s9CoherenceE0V AX0s10SyncEventsE0V AX0s13DeviceRecordsE0V
++ _symbolic _____y_____yAAy___________ACtGG_AByAAyAC_AD_____yA2CGtGGAByAAyAC_AdGyAhCGtGGAAy_____ySo19WFWorkflowReferenceCG_ANySo26WFDatabaseObjectDescriptorCGtGSgAF_____yAC_____G_____yACGAWyAC_____GSgAWyAC_____GSgtG 7SwiftUI9TupleViewV AA6HStackV AA4TextV AA6SpacerV AA19_ConditionalContentV 14WorkflowUICore011DatabaseRowD033_4B1C637C918A7BB0EA14E7EFB1EEDFDDLLV AA14NavigationLinkV AL014DebugCoherenceD0V AA6ToggleV AL0y10SyncEventsD0V AL0y13DeviceRecordsD0V
++ _symbolic _____y_____yABy__________G_____GG 7SwiftUI6HStackV AA15ModifiedContentV AA5ColorV AA13_OffsetEffectV AA12_FrameLayoutV
++ _symbolic _____y_____yABy_____y__________GACy_____AEGG_____yACy_____y___________Qo______y_____GG_Qo_GG 7SwiftUI6VStackV AA19_ConditionalContentV AA08ModifiedE0V 14WorkflowUICore23LinkPreviewMetadataView33_9307BE93F29F123C82A247C361129F19LLV AA16_FlexFrameLayoutV AH0iJ7URLViewAJLLV AA0L0PAAE10fontWeightyQrAA4FontV0Y0VSgFQO AqAE13textSelectionyQrqd__AA17TextSelectabilityRd__lFQO AA4TextV AA24EnabledTextSelectabilityV AA30_EnvironmentKeyWritingModifierV AA13TextAlignmentO
++ _symbolic _____y_____y_____AAy_____y_____G_A2FtGACG_AByAeAy_____yAAyAE______AEtGG______yAAyAE_AEtGGtGACGAByAeAy_____yAEG_AAyAS______yAIyAAyAE_AJ_____yAUyAUyA2EGAVGAEGtGG_____GtGSgtGACGAByAesEGAByAeAyATy_____yAE_Qo______G_ATyA6______G_____ySo20WFWorkflowCollectionCG_____yAeAyA11_ySo0A9ReferenceCG_A18_A18_A18_A18_tGGA11_ySo0A8RunEventCGA11_ySo19WFConfiguredTriggerCGA11_ySo09WFTriggerE0CGA11_ySo31WFShortcutSuggestionsDescriptorCGA11_ySo0i9BookmarksK0CG_____yAF_AFQo______y_____y_____G_____A41_AEGSg_____y_____yAF_Qo__AFQo_tGACGAByAeTyAE_____GACGAByAeAyAL_AIyAAyAE_AjVtGGAIyAAyAE_AjUyAvEGtGGAAyA18__A11_ySo016WFDatabaseObjectK0CGtGSgAlTyAE_____GAsTyAE_____GSgATyAE_____GSgtGACGAByAeAyAS_A4sFSgAsLSgtGACGAByAesCGAByAeAyARyAOG_A76_A76_A76_A76_tGAEGA5_A5_tG 7SwiftUI9TupleViewV AA7SectionV AA05EmptyD0V AA6ButtonV AA4TextV AA6HStackV AA6SpacerV AA6VStackV AA6ToggleV AA14NavigationLinkV AA19_ConditionalContentV 14WorkflowUICore08DebugLogD0V AA0D0PAAE5badgeyQrSiFQO AX027DatabaseObjectObserversListD0V AX0v7ResultsyD0V AX0v3RowD033_4B1C637C918A7BB0EA14E7EFB1EEDFDDLLV AA15DisclosureGroupV A0_AAE18confirmationDialog_11isPresented15titleVisibility7actionsQrAK_AA7BindingVySbGAA10VisibilityOqd__yXEtAAA_Rd__lFQO AA05ShareN0V s15CollectionOfOneV 10Foundation3URLV s5NeverO A0_AAEA11__A12_A13_A14_QrAK_A17_A19_qd__yXEtAAA_Rd__lFQO A0_AAE12fileImporterA12_07allowedP5Types23allowsMultipleSelection12onCompletionQrA17__Say22UniformTypeIdentifiers6UTTypeVGSbys6ResultOySayA26_Gs5Error_pGctFQO AX012ActionDrawersD0V AX0s9CoherenceD0V AX0s10SyncEventsD0V AX0s13DeviceRecordsD0V
++ _symbolic _____y_____y_____GG 7SwiftUI13_StrokedShapeV AA08_TrimmedD0V AA6CircleV6_InsetV
++ _symbolic _____y_____y_____G_____G 7SwiftUI15ModifiedContentV AA5GroupV 14WorkflowUICore18SelectableTextView33_6A51A163B276031CAE7D944654336ACDLLV AA14_PaddingLayoutV
++ _symbolic _____y_____y______ACtGG 7SwiftUI6HStackV AA9TupleViewV AA4TextV
++ _symbolic _____y_____y__________GABy_____ADGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V 14WorkflowUICore23LinkPreviewMetadataView33_9307BE93F29F123C82A247C361129F19LLV AA16_FlexFrameLayoutV AF0hI7URLViewAHLLV
++ _symbolic _____y_____y__________GABy_____ADG_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V 14WorkflowUICore23LinkPreviewMetadataView33_9307BE93F29F123C82A247C361129F19LLV AA16_FlexFrameLayoutV AH0iJ7URLViewAJLLV
++ _symbolic _____y_____y___________ACtGG_AAyAByAC_AD_____yA2CGtGGAAyAByAC_AdGyAhCGtGGABy_____ySo19WFWorkflowReferenceCG_ANySo26WFDatabaseObjectDescriptorCGtGSgAF_____yAC_____G_____yACGAWyAC_____GSgAWyAC_____GSgt 7SwiftUI6HStackV AA9TupleViewV AA4TextV AA6SpacerV AA19_ConditionalContentV 14WorkflowUICore011DatabaseRowE033_4B1C637C918A7BB0EA14E7EFB1EEDFDDLLV AA14NavigationLinkV AL014DebugCoherenceE0V AA6ToggleV AL0y10SyncEventsE0V AL0y13DeviceRecordsE0V
++ _symbolic _____y_____y___________tGG 7SwiftUI6HStackV AA9TupleViewV 14WorkflowUICore17LogColorIndicator33_A5DA0CA54FAA4F29993AA99B9F07D9A7LLV AA4TextV
++ _symbolic _____y_____y__________ySiSgGGAC_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA4TextV AA30_EnvironmentKeyWritingModifierV
++ _symbolic _____y_____y__________y_____y_____ACy_____y_____G_A2HtGAEG_ADyAgCy_____yACyAG______AGtGG______yACyAG_AGtGGtGAEGADyAgCy_____yAGG_ACyAU______yAKyACyAG_AL_____yAWyAWyA2GGAXGAGGtGG_____GtGSgtGAEGADyAguGGADyAgCyAVy_____yAG_Qo______G_AVyA8______G_____ySo20WFWorkflowCollectionCG_____yAgCyA13_ySo0A9ReferenceCG_A20_A20_A20_A20_tGGA13_ySo0A8RunEventCGA13_ySo19WFConfiguredTriggerCGA13_ySo09WFTriggerE0CGA13_ySo31WFShortcutSuggestionsDescriptorCGA13_ySo0i9BookmarksK0CG_____yAH_AHQo______y_____y_____GA2bGGSg_____y_____yAH_Qo__AHQo_tGAEGADyAgVyAG_____GAEGADyAgCyAN_AKyACyAG_AlXtGGAKyACyAG_AlWyAxGGtGGACyA20__A13_ySo016WFDatabaseObjectK0CGtGSgAnVyAG_____GAuVyAG_____GSgAVyAG_____GSgtGAEGADyAgCyAU_A4uHSgAuNSgtGAEGADyAguEGADyAgCyATyAQG_A77_A77_A77_A77_tGAGGA7_A7_tGG_Qo_ 7SwiftUI4ViewPAAE15navigationTitleyQrAA18LocalizedStringKeyVFQO AA4ListV s5NeverO AA05TupleC0V AA7SectionV AA05EmptyC0V AA6ButtonV AA4TextV AA6HStackV AA6SpacerV AA6VStackV AA6ToggleV AA14NavigationLinkV AA19_ConditionalContentV 14WorkflowUICore08DebugLogC0V AcAE5badgeyQrSiFQO A5_023DatabaseObjectObserversiC0V A5_015DatabaseResultsiC0V A5_011DatabaseRowC033_4B1C637C918A7BB0EA14E7EFB1EEDFDDLLV AA15DisclosureGroupV AcAE18confirmationDialog_11isPresented15titleVisibility7actionsQrAT_AA7BindingVySbGAA10VisibilityOqd__yXEtAaBRd__lFQO AA05ShareU0V s15CollectionOfOneV 10Foundation3URLV AcAEA18__A19_A20_A21_QrAT_A24_A26_qd__yXEtAaBRd__lFQO AcAE12fileImporterA19_07allowedW5Types23allowsMultipleSelection12onCompletionQrA24__Say22UniformTypeIdentifiers6UTTypeVGSbys6ResultOySayA33_Gs5Error_pGctFQO A5_012ActionDrawerzC0V A5_0z9CoherenceC0V A5_0z10SyncEventsC0V A5_0z13DeviceRecordsC0V
++ _symbolic _____y_____y_____yAAyAAy__________ySiSgGGAEy_____SgGG_AHSgtGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AA14_PaddingLayoutV
++ _symbolic _____y_____y_____yABy__________y_____y_____yAFy__________ySiSgGG_____GSg______y_____y_____APG______Qo_tGGGq_GG_Qo_ 7SwiftUI4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA5GroupV AA19_ConditionalContentV AA6SpacerV AA6VStackV AA05TupleC0V AA08ModifiedK0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA14_PaddingLayoutV AcAE08progressC5StyleyQrqd__AA08ProgresscX0Rd__lFQO AA0yC0V AA05EmptyC0V AA08CircularycX0V
++ _symbolic _____y_____y_____yABy_____y__________GACy_____AEGG_____yACy_____y___________Qo______y_____GG_Qo_GG_Qo_ 7SwiftUI4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA6VStackV AA19_ConditionalContentV AA08ModifiedK0V 14WorkflowUICore019LinkPreviewMetadataC033_9307BE93F29F123C82A247C361129F19LLV AA16_FlexFrameLayoutV AP0oP7URLViewARLLV AcAE10fontWeightyQrAA4FontV6WeightVSgFQO AcAE13textSelectionyQrqd__AA17TextSelectabilityRd__lFQO AA4TextV AA24EnabledTextSelectabilityV AA30_EnvironmentKeyWritingModifierV AA13TextAlignmentO
++ _symbolic _____y_____y_____yABy_____y__________ySiSgGG_AISgtGG______ACy_____yANyAeDyAI_____y_____GGGAByAAyAByARSg_ArTtGG_AVtGGGtGG 7SwiftUI6HStackV AA9TupleViewV AA6VStackV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA6SpacerV AA012_ConditionalH0V AA06_TraitlM0V AA014LayoutPrioritypK0V
++ _symbolic _____y_____y_____yACyAAyAAy__________y_____SgGG_____G_____y_____AFGGANGG_____G 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA18_AspectRatioLayoutV AA10_ShapeViewV AA9RectangleV AA06_FrameO0V
++ _symbolic _____y_____y_____yACyAAy__________GAAy_____AEGG_____yAAy_____y___________Qo______y_____GG_Qo_GG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA012_ConditionalD0V 14WorkflowUICore23LinkPreviewMetadataView33_9307BE93F29F123C82A247C361129F19LLV AA16_FlexFrameLayoutV AH0iJ7URLViewAJLLV AA0L0PAAE10fontWeightyQrAA4FontV0Y0VSgFQO AqAE13textSelectionyQrqd__AA17TextSelectabilityRd__lFQO AA4TextV AA24EnabledTextSelectabilityV AA30_EnvironmentKeyWritingModifierV AA13TextAlignmentO AA14_TaskModifier2V
++ _symbolic _____y_____y_____yACy__________ySiSgGGAEy_____SgGG_AHSgtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____y_____y_____y_____GG_____G 7SwiftUI10_ShapeViewV AA08_StrokedC0V AA08_TrimmedC0V AA6CircleV6_InsetV AA5ColorV
++ _symbolic _____y_____y_____y______AAyAD_____ySiSgGGSgtGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA30_EnvironmentKeyWritingModifierV AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y__________GACy_____AEGG_____yACy_____y___________Qo______y_____GG_Qo__G 7SwiftUI19_ConditionalContentV7StorageO AC AA08ModifiedD0V 14WorkflowUICore23LinkPreviewMetadataView33_9307BE93F29F123C82A247C361129F19LLV AA16_FlexFrameLayoutV AH0iJ7URLViewAJLLV AA0L0PAAE10fontWeightyQrAA4FontV0Y0VSgFQO AqAE13textSelectionyQrqd__AA17TextSelectabilityRd__lFQO AA4TextV AA24EnabledTextSelectabilityV AA30_EnvironmentKeyWritingModifierV AA13TextAlignmentO
++ _symbolic _____y_____y_____y__________G_ACyACyAD_____GAEGSgtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA14_OpacityEffectV
++ _symbolic _____y_____y_____y___________ADtGG_____y_____SgGG 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA4TextV AA6SpacerV AA30_EnvironmentKeyWritingModifierV AA5ColorV
++ _symbolic _____y_____y_____y___________yAEy__________G_____GADtGGAEyAEyAEyAfIGAGG_____y_____GGG 7SwiftUI19_ConditionalContentV AA6VStackV AA9TupleViewV AA6SpacerV AA08ModifiedD0V 14WorkflowUICore012ImageHostingG033_05C30733584E7BCE9234AF2689648798LLV AA16_FlexFrameLayoutV AA012_AspectRatioT0V AA11_ClipEffectV AA9RectangleV
++ _symbolic _____y_____y_____y__________y_____y_____ACy_____y_____G_A2HtGAEG_ADyAgCy_____yACyAG______AGtGG______yACyAG_AGtGGtGAEGADyAgCy_____yAGG_ACyAU______yAKyACyAG_AL_____yAWyAWyA2GGAXGAGGtGG_____GtGSgtGAEGADyAguGGADyAgCyAVy_____yAG_Qo______G_AVyA8______G_____ySo20WFWorkflowCollectionCG_____yAgCyA13_ySo0A9ReferenceCG_A20_A20_A20_A20_tGGA13_ySo0A8RunEventCGA13_ySo19WFConfiguredTriggerCGA13_ySo09WFTriggerE0CGA13_ySo31WFShortcutSuggestionsDescriptorCGA13_ySo0i9BookmarksK0CG_____yAH_AHQo______y_____y_____GA2bGGSg_____y_____yAH_Qo__AHQo_tGAEGADyAgVyAG_____GAEGADyAgCyAN_AKyACyAG_AlXtGGAKyACyAG_AlWyAxGGtGGACyA20__A13_ySo016WFDatabaseObjectK0CGtGSgAnVyAG_____GAuVyAG_____GSgAVyAG_____GSgtGAEGADyAgCyAU_A4uHSgAuNSgtGAEGADyAguEGADyAgCyATyAQG_A77_A77_A77_A77_tGAGGA7_A7_tGG_Qo_______Qo_ 7SwiftUI4ViewPAAE9listStyleyQrqd__AA04ListE0Rd__lFQO AcAE15navigationTitleyQrAA18LocalizedStringKeyVFQO AA0F0V s5NeverO AA05TupleC0V AA7SectionV AA05EmptyC0V AA6ButtonV AA4TextV AA6HStackV AA6SpacerV AA6VStackV AA6ToggleV AA14NavigationLinkV AA19_ConditionalContentV 14WorkflowUICore08DebugLogC0V AcAE5badgeyQrSiFQO A7_023DatabaseObjectObserversfC0V A7_015DatabaseResultsfC0V A7_011DatabaseRowC033_4B1C637C918A7BB0EA14E7EFB1EEDFDDLLV AA15DisclosureGroupV AcAE18confirmationDialog_11isPresented15titleVisibility7actionsQrAV_AA7BindingVySbGAA10VisibilityOqd__yXEtAaBRd__lFQO AA05ShareW0V s15CollectionOfOneV 10Foundation3URLV AcAEA20__A21_A22_A23_QrAV_A26_A28_qd__yXEtAaBRd__lFQO AcAE12fileImporterA21_07allowedY5Types23allowsMultipleSelection12onCompletionQrA26__Say22UniformTypeIdentifiers6UTTypeVGSbys6ResultOySayA35_Gs5Error_pGctFQO A7_017ActionDrawerDebugC0V A7_014DebugCoherenceC0V A7_015DebugSyncEventsC0V A7_018DebugDeviceRecordsC0V AA012InsetGroupedfE0V
++ _symbolic _____y_____y_____y_____y_____GG_____G_____G 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA08_StrokedE0V AA08_TrimmedE0V AA6CircleV6_InsetV AA5ColorV AA15_RotationEffectV
++ _symbolic _____y_____y_____y_____y__________y_____y_____ACy_____y_____G_A2HtGAEG_ADyAgCy_____yACyAG______AGtGG______yACyAG_AGtGGtGAEGADyAgCy_____yAGG_ACyAU______yAKyACyAG_AL_____yAWyAWyA2GGAXGAGGtGG_____GtGSgtGAEGADyAguGGADyAgCyAVy_____yAG_Qo______G_AVyA8______G_____ySo20WFWorkflowCollectionCG_____yAgCyA13_ySo0A9ReferenceCG_A20_A20_A20_A20_tGGA13_ySo0A8RunEventCGA13_ySo19WFConfiguredTriggerCGA13_ySo09WFTriggerE0CGA13_ySo31WFShortcutSuggestionsDescriptorCGA13_ySo0i9BookmarksK0CG_____yAH_AHQo______y_____y_____GA2bGGSg_____y_____yAH_Qo__AHQo_tGAEGADyAgVyAG_____GAEGADyAgCyAN_AKyACyAG_AlXtGGAKyACyAG_AlWyAxGGtGGACyA20__A13_ySo016WFDatabaseObjectK0CGtGSgAnVyAG_____GAuVyAG_____GSgAVyAG_____GSgtGAEGADyAgCyAU_A4uHSgAuNSgtGAEGADyAguEGADyAgCyATyAQG_A77_A77_A77_A77_tGAGGA7_A7_tGG_Qo_______Qo__AFy_____y__________y_____SgGGGQo_ 7SwiftUI4ViewPAAE18navigationBarItems8trailingQrqd___tAaBRd__lFQO AcAE9listStyleyQrqd__AA04ListI0Rd__lFQO AcAE0D5TitleyQrAA18LocalizedStringKeyVFQO AA0J0V s5NeverO AA05TupleC0V AA7SectionV AA05EmptyC0V AA6ButtonV AA4TextV AA6HStackV AA6SpacerV AA6VStackV AA6ToggleV AA14NavigationLinkV AA19_ConditionalContentV 14WorkflowUICore08DebugLogC0V AcAE5badgeyQrSiFQO A9_023DatabaseObjectObserversjC0V A9_015DatabaseResultsjC0V A9_011DatabaseRowC033_4B1C637C918A7BB0EA14E7EFB1EEDFDDLLV AA15DisclosureGroupV AcAE18confirmationDialog_11isPresented15titleVisibility7actionsQrAX_AA7BindingVySbGAA10VisibilityOqd__yXEtAaBRd__lFQO AA05ShareZ0V s15CollectionOfOneV 10Foundation3URLV AcAEA22__A23_A24_A25_QrAX_A28_A30_qd__yXEtAaBRd__lFQO AcAE12fileImporterA23_19allowedContentTypes23allowsMultipleSelection12onCompletionQrA28__Say22UniformTypeIdentifiers6UTTypeVGSbys6ResultOySayA37_Gs5Error_pGctFQO A9_017ActionDrawerDebugC0V A9_014DebugCoherenceC0V A9_015DebugSyncEventsC0V A9_018DebugDeviceRecordsC0V AA012InsetGroupedjI0V AA15ModifiedContentV AA5ImageV AA012_EnvironmentN15WritingModifierV AA5ColorV
++ _type_layout_string 14WorkflowUICore11PreviewView33_67DDB0D21B7208F75B3FB940591D9D5BLLV
++ _type_layout_string 14WorkflowUICore11PreviewView33_9307BE93F29F123C82A247C361129F19LLV
++ _type_layout_string 14WorkflowUICore23LinkPreviewMetadataView33_9307BE93F29F123C82A247C361129F19LLV
+- ___swift_coroFrameAllocStub
+- _block_copy_helper.31
+- _block_copy_helper.41
+- _block_copy_helper.52
+- _block_copy_helper.59
+- _block_copy_helper.69
+- _block_copy_helper.82
+- _block_copy_helper.93
+- _block_descriptor.33
+- _block_descriptor.43
+- _block_descriptor.54
+- _block_descriptor.61
+- _block_descriptor.71
+- _block_descriptor.84
+- _block_descriptor.95
+- _block_destroy_helper.32
+- _block_destroy_helper.42
+- _block_destroy_helper.53
+- _block_destroy_helper.60
+- _block_destroy_helper.70
+- _block_destroy_helper.83
+- _block_destroy_helper.94
+- _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOQr.13
+- _get_underlying_witness 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOqd0__AaBHC.14
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAA5ImageVAA12_FrameLayoutVGAA012_AspectRatioH0VGAGGAA4ViewHPAmaOHPAjaOHPAgaOHPyHC_AiA0K8ModifierHPyHCHC_AlaPHPyHCHC_AgaOHPyHCHC.16
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA4ListVys5NeverOAA12OutlineGroupVySay14WorkflowUICore14RecordProperty33_44C4F94A6B996A39943C8A98B79DDEC4LLVGSSAA6VStackVyAA9TupleViewVyAA4TextVSg_ATtGGAwA010DisclosureH0VyAwA0G16SubgroupChildrenVGGGAA08ModifiedD0VyAA08ProgressX0VyAtA05EmptyX0VGAA25_AppearanceActionModifierVGGAA0X0HPA2_AAA14_HPyHC_A12_AAA14_HPA9_AAA14_HPyHC_A11_AA0X8ModifierHPyHCHCHC.59
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA6HStackVyAA9TupleViewVyAA08ModifiedD0Vy14WorkflowUICore014SportsTeamIconG033_F3C8D65723BC9EF22C605B45B0B53BBBLLVAA14_PaddingLayoutVG_AA6SpacerVAA6VStackVyAGyAIyAIyAIyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGAXyAA4FontVSgGGAXyAA13TextAlignmentOGG_AIyA4_AA24_ForegroundStyleModifierVyAA22HierarchicalShapeStyleVGGtGGArPtGGAA05EmptyG0VGAA0G0HPA18_AAA22_HPyHC_A20_AAA22_HPyHCHC.15
+- _get_witness_table 7SwiftUI19_ConditionalContentVyACyACyAA4TextVAEGAFGAEGAA4ViewHPAgaIHPAfaIHPAeaIHPyHC_AeaIHPyHCHC_AfaIHPAeaIHPyHC_AeaIHPyHCHCHC_AeaIHPyHCHC.13
+- _get_witness_table 7SwiftUI4ListVys5NeverOAA7ForEachVySay14WorkflowUICore023DatabaseObjectObserversC4ViewV0I8ObserverVGSOAA4TextVGGAA0L0HPyHC.19
+- _get_witness_table 7SwiftUI4ListVys5NeverOAA7ForEachVySaySo16WFDatabaseResultCySo0G16ObjectDescriptorCGGAlA4TextVGGAA4ViewHPyHC.53
+- _get_witness_table 7SwiftUI4ViewR_r0_lAA15ModifiedContentVyAA5GroupVyAA012_ConditionalE0VyAHyAA6SpacerVAA6VStackVyAA05TupleC0VyADyADyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGAA14_PaddingLayoutVGSg_AaBPAAE08progressC5StyleyQrqd__AA08ProgresscS0Rd__lFQOyAA0tC0VyAA05EmptyC0VA4_G_AA08CirculartcS0VQo_tGGGq_GGAA05_TaskO0VGAaBHPA13_AaBHPA12_AaBHPA11_AaBHPAjaBHPyHC_A10_AaBHPyHCHC_q_AaBHD1_HC_HC_A15_AA0cO0HPyHCHC.51
+- _get_witness_table 7SwiftUI4ViewR_r0_lAA6VStackVyAA19_ConditionalContentVyAFyAA05EmptyC0Vq_GAA08ModifiedF0VyAA4TextVAA14_PaddingLayoutVGGGAaBHPyHC.52
+- _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA15ModifiedContentVyAA6HStackVyAEy14WorkflowUICore17LogColorIndicator33_A5DA0CA54FAA4F29993AA99B9F07D9A7LLV_AA4TextVtGGAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGG_AGyAIyAEyAO_AOtGGAWGAOtGGAA0E0HPyHC.12
+- _get_witness_table So26WFDatabaseObjectDescriptorCRbzl7SwiftUI15ModifiedContentVyAC5GroupVyAC012_ConditionalG0VyAC4TextVAC4ViewPACE9listStyleyQrqd__AC04ListM0Rd__lFQOyAC0N0Vys5NeverOAEyAC7ForEachVySayxGSSAmCE11contextMenu9menuItemsQrqd__yXE_tAcLRd__lFQOyAC14NavigationLinkVyAC6VStackVyAC05TupleK0VyAK_AKtGG14WorkflowUICore011DebugRecordK033_44C4F94A6B996A39943C8A98B79DDEC4LLVG_A2_yAC6ButtonVyAKG_A12_A12_SgtGQo_GAC21_TraitWritingModifierVyAC16OnDeleteTraitKeyVGGG_AC05PlainnM0VQo_GGAC16_FlexFrameLayoutVGAcLHPA28_AcLHPA27_AcLHPAkcLHPyHC_qd0__AcLHD3_A26_HOHC_HC_A30_AC0K8ModifierHPyHCHC.52
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE18navigationBarItems8trailingQrqd___tAaBRd__lFQOyAcAE9listStyleyQrqd__AA04ListI0Rd__lFQOyAcAE0D5TitleyQrAA18LocalizedStringKeyVFQOyAA0J0Vys5NeverOAA05TupleC0VyAA7SectionVyAA05EmptyC0VAPyAA6ButtonVyAA4TextVG_A2YtGATG_ARyAxPyAA6HStackVyAPyAX_AA6SpacerVAXtGG_AA6VStackVyAPyAX_AXtGGtGATGARyAxPyAA6ToggleVyAXG_APyA14__AA14NavigationLinkVyA1_yAPyAX_A3_AA19_ConditionalContentVyA18_yA18_yA2XGA19_GAXGtGG14WorkflowUICore08DebugLogC0VGtGSgtGATGARyAXA14_AXGARyAxPyA16_yAcAE5badgeyQrSiFQOyAX_Qo_A24_023DatabaseObjectObserversjC0VG_A16_yA34_A24_015DatabaseResultsjC0VGA24_011DatabaseRowC033_4B1C637C918A7BB0EA14E7EFB1EEDFDDLLVySo20WFWorkflowCollectionCGAA15DisclosureGroupVyAxPyA43_ySo19WFWorkflowReferenceCG_A51_A51_A51_A51_tGGA43_ySo18WFWorkflowRunEventCGA43_ySo19WFConfiguredTriggerCGA43_ySo14WFTriggerEventCGA43_ySo31WFShortcutSuggestionsDescriptorCGA43_ySo29WFShortcutBookmarksDescriptorCGAcAE18confirmationDialog_11isPresented15titleVisibility7actionsQrAX_AA7BindingVySbGAA10VisibilityOqd__yXEtAaBRd__lFQOyAY_AYQo_AA05ShareZ0Vys15CollectionOfOneVy10Foundation3URLVGA2nXGSgAcAEA69__A70_A71_A72_QrAX_A75_A77_qd__yXEtAaBRd__lFQOyAcAE12fileImporterA70_19allowedContentTypes23allowsMultipleSelection12onCompletionQrA75__Say22UniformTypeIdentifiers6UTTypeVGSbys6ResultOySayA85_Gs5Error_pGctFQOyAY_Qo__AYQo_tGATGARyAXA16_yAXA24_017ActionDrawerDebugC0VGATGARyAxPyA5__A1_yAPyAX_A3_A19_tGGA1_yAPyAX_A3_A18_yA19_AXGtGGAPyA51__A43_ySo26WFDatabaseObjectDescriptorCGtGSgA5_A16_yAXA24_014DebugCoherenceC0VGA14_A16_yAXA24_015DebugSyncEventsC0VGSgA16_yAXA24_018DebugDeviceRecordsC0VGSgA5_tGATGARyAxPyA14__A14_A14_A14_A14_AYSgA14_A5_SgtGATGARyAXA14_ATGARyAxPyA13_yA9_G_A138_A138_A138_A138_tGAXGA32_A32_tGG_Qo__AA012InsetGroupedjI0VQo__AVyAA15ModifiedContentVyAA5ImageVAA012_EnvironmentN15WritingModifierVyAA5ColorVSgGGGQo_HO.8
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE7toolbar7contentQrqd__yXE_tAaBRd__lFQOyAcAE15navigationTitleyQrAA18LocalizedStringKeyVFQOyAA5GroupVyAA19_ConditionalContentVyAA4TextVAcAE9listStyleyQrqd__AA04ListP0Rd__lFQOyAA0Q0Vys5NeverOAA7ForEachVySaySo19WFCloudKitSyncEventCGs5Int32VAA6VStackVyAA05TupleC0VyAA6HStackVyA3_yAN_AA6SpacerVANtGG_ANtGGSgGG_AA05PlainqP0VQo_GG_Qo__A3_yAA6ButtonVyANG_AA9ShareLinkVys15CollectionOfOneVy10Foundation3URLVGA2tNGtGQo_HO.27
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE15navigationTitleyQrAA18LocalizedStringKeyVFQOyAA4ListVys5NeverOAA7ForEachVySay14WorkflowUICore015DatabaseResultsiC0V0O11ResultGroupVGSSAA14NavigationLinkVyAcAE5badgeyQrSiFQOyAA4TextV_Qo_AO0oq6DetailC0VGGG_Qo_HO.18
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE15navigationTitleyQrAA18LocalizedStringKeyVFQOyAA5GroupVyAA19_ConditionalContentVyAA4TextVAcAE9listStyleyQrqd__AA04ListN0Rd__lFQOyAA0O0Vys5NeverOAA7ForEachVySaySo19WFCloudKitSyncEventCGs5Int32VAA6VStackVyAA05TupleC0VyAA6HStackVyA1_yAL_AA6SpacerVALtGG_ALtGGSgGG_AA05PlainoN0VQo_GG_Qo_HO.25
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE15navigationTitleyQrAA18LocalizedStringKeyVFQOyAA6VStackVyAA05TupleC0VyAcAE11pickerStyleyQrqd__AA06PickerL0Rd__lFQOyAA0M0VyAA4TextV14WorkflowUICore16LogStreamManagerC0Q5EventC0T4TypeOSgAJyAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAP_AXQo__AA7ForEachVySayAWGAWA_GtGG_AA09SegmentedmL0VQo__AcAE04listL0yQrqd__AA04ListL0Rd__lFQOyAA4ListVys5NeverOA1_ySayAUGAuQ0Q3Row33_A5DA0CA54FAA4F29993AA99B9F07D9A7LLVGG_AA09PlainListL0VQo_tGG_Qo_HO.5
+- _objc_claimAutoreleasedReturnValue
+- _objc_retainAutoreleaseReturnValue
+- _objc_retain_x4
+- _objectdestroy.66Tm
+- _symbolic Si6offset______7elementtSg 10Foundation16AttributedStringV
+- _symbolic Si6offset______7elementtSg 10Foundation16AttributedStringV4RunsV3RunV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI4AxisO3SetV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI4EdgeO3SetV
+- _symbolic _____y__________y_____yACyAB______ABtGG_ADyACyAB_AE_____yA2BGtGGADyACyAB_AeHyAiBGtGGACy_____ySo19WFWorkflowReferenceCG_AOySo26WFDatabaseObjectDescriptorCGtGSgAG_____yAB_____G_____yABGAXyAB_____GSgAXyAB_____GSgAGtG_____G 7SwiftUI7SectionV AA4TextV AA9TupleViewV AA6HStackV AA6SpacerV AA19_ConditionalContentV 14WorkflowUICore011DatabaseRowF033_4B1C637C918A7BB0EA14E7EFB1EEDFDDLLV AA14NavigationLinkV AN014DebugCoherenceF0V AA6ToggleV AN0z10SyncEventsF0V AN0z13DeviceRecordsF0V AA05EmptyF0V
+- _symbolic _____y__________y_____y_____ACy_____y_____G_A2HtGAEG_ADyAgCy_____yACyAG______AGtGG______yACyAG_AGtGGtGAEGADyAgCy_____yAGG_ACyAU______yAKyACyAG_AL_____yAWyAWyA2GGAXGAGGtGG_____GtGSgtGAEGADyAguGGADyAgCyAVy_____yAG_Qo______G_AVyA8______G_____ySo20WFWorkflowCollectionCG_____yAgCyA13_ySo0A9ReferenceCG_A20_A20_A20_A20_tGGA13_ySo0A8RunEventCGA13_ySo19WFConfiguredTriggerCGA13_ySo09WFTriggerE0CGA13_ySo31WFShortcutSuggestionsDescriptorCGA13_ySo0i9BookmarksK0CG_____yAH_AHQo______y_____y_____GA2bGGSg_____y_____yAH_Qo__AHQo_tGAEGADyAgVyAG_____GAEGADyAgCyAN_AKyACyAG_AlXtGGAKyACyAG_AlWyAxGGtGGACyA20__A13_ySo016WFDatabaseObjectK0CGtGSgAnVyAG_____GAuVyAG_____GSgAVyAG_____GSgANtGAEGADyAgCyAU_A4uHSgAuNSgtGAEGADyAguEGADyAgCyATyAQG_A77_A77_A77_A77_tGAGGA7_A7_tGG 7SwiftUI4ListV s5NeverO AA9TupleViewV AA7SectionV AA05EmptyF0V AA6ButtonV AA4TextV AA6HStackV AA6SpacerV AA6VStackV AA6ToggleV AA14NavigationLinkV AA19_ConditionalContentV 14WorkflowUICore08DebugLogF0V AA0F0PAAE5badgeyQrSiFQO A0_023DatabaseObjectObserverscF0V A0_0x7ResultscF0V A0_0x3RowF033_4B1C637C918A7BB0EA14E7EFB1EEDFDDLLV AA15DisclosureGroupV A4_AAE18confirmationDialog_11isPresented15titleVisibility7actionsQrAO_AA7BindingVySbGAA10VisibilityOqd__yXEtAAA3_Rd__lFQO AA05ShareP0V s15CollectionOfOneV 10Foundation3URLV A4_AAEA15__A16_A17_A18_QrAO_A21_A23_qd__yXEtAAA3_Rd__lFQO A4_AAE12fileImporterA16_07allowedR5Types23allowsMultipleSelection12onCompletionQrA21__Say22UniformTypeIdentifiers6UTTypeVGSbys6ResultOySayA30_Gs5Error_pGctFQO A0_012ActionDraweruF0V A0_0u9CoherenceF0V A0_0u10SyncEventsF0V A0_0u13DeviceRecordsF0V
+- _symbolic _____y__________y_____y_____G_A2FtGABG_AAyAeCy_____yACyAE______AEtGG______yACyAE_AEtGGtGABGAAyAeCy_____yAEG_ACyAS______yAIyACyAE_AJ_____yAUyAUyA2EGAVGAEGtGG_____GtGSgtGABGAAyAesEGAAyAeCyATy_____yAE_Qo______G_ATyA6______G_____ySo20WFWorkflowCollectionCG_____yAeCyA11_ySo0A9ReferenceCG_A18_A18_A18_A18_tGGA11_ySo0A8RunEventCGA11_ySo19WFConfiguredTriggerCGA11_ySo09WFTriggerE0CGA11_ySo31WFShortcutSuggestionsDescriptorCGA11_ySo0i9BookmarksK0CG_____yAF_AFQo______y_____y_____G_____A41_AEGSg_____y_____yAF_Qo__AFQo_tGABGAAyAeTyAE_____GABGAAyAeCyAL_AIyACyAE_AjVtGGAIyACyAE_AjUyAvEGtGGACyA18__A11_ySo016WFDatabaseObjectK0CGtGSgAlTyAE_____GAsTyAE_____GSgATyAE_____GSgALtGABGAAyAeCyAS_A4sFSgAsLSgtGABGAAyAesBGAAyAeCyARyAOG_A76_A76_A76_A76_tGAEGA5_A5_t 7SwiftUI7SectionV AA9EmptyViewV AA05TupleE0V AA6ButtonV AA4TextV AA6HStackV AA6SpacerV AA6VStackV AA6ToggleV AA14NavigationLinkV AA19_ConditionalContentV 14WorkflowUICore08DebugLogE0V AA0E0PAAE5badgeyQrSiFQO AX027DatabaseObjectObserversListE0V AX0v7ResultsyE0V AX0v3RowE033_4B1C637C918A7BB0EA14E7EFB1EEDFDDLLV AA15DisclosureGroupV A0_AAE18confirmationDialog_11isPresented15titleVisibility7actionsQrAK_AA7BindingVySbGAA10VisibilityOqd__yXEtAAA_Rd__lFQO AA05ShareN0V s15CollectionOfOneV 10Foundation3URLV s5NeverO A0_AAEA11__A12_A13_A14_QrAK_A17_A19_qd__yXEtAAA_Rd__lFQO A0_AAE12fileImporterA12_07allowedP5Types23allowsMultipleSelection12onCompletionQrA17__Say22UniformTypeIdentifiers6UTTypeVGSbys6ResultOySayA26_Gs5Error_pGctFQO AX012ActionDrawersE0V AX0s9CoherenceE0V AX0s10SyncEventsE0V AX0s13DeviceRecordsE0V
+- _symbolic _____y_____yAAy___________ACtGG_AByAAyAC_AD_____yA2CGtGGAByAAyAC_AdGyAhCGtGGAAy_____ySo19WFWorkflowReferenceCG_ANySo26WFDatabaseObjectDescriptorCGtGSgAF_____yAC_____G_____yACGAWyAC_____GSgAWyAC_____GSgAFtG 7SwiftUI9TupleViewV AA6HStackV AA4TextV AA6SpacerV AA19_ConditionalContentV 14WorkflowUICore011DatabaseRowD033_4B1C637C918A7BB0EA14E7EFB1EEDFDDLLV AA14NavigationLinkV AL014DebugCoherenceD0V AA6ToggleV AL0y10SyncEventsD0V AL0y13DeviceRecordsD0V
+- _symbolic _____y_____ySi_____ySay_____G_____ySnySiGSi_____y_____yAGy_____yAGyAGyAGy__________G_____G_____y_____SgGGAHyAGyAGy_____AJGALGAGyAGy_____ANy_____GGALGGG_____G_____y_____y_____GGG_SiQo_GGG______Qo_ 7SwiftUI4ViewPAAE03tabC5StyleyQrqd__AA03TabcE0Rd__lFQO AA0fC0V 14WorkflowUICore019AsyncLoaderProgressC0V AH28PreviewableContentCollectionC0L13ThumbnailItemC AA7ForEachV AcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA08ModifiedM0V AA012_ConditionalM0V AA03AnyC0V AA14_PaddingLayoutV AA010_FlexFrameZ0V AA30_EnvironmentKeyWritingModifierV AA8MaterialV AH0mp10DataSourcezC0V AH0mp7PreviewC0V AH0mP7PreviewV13ConfigurationV7ContextO AA14_OpacityEffectV AA16_OverlayModifierV AA14GeometryReaderV AA5ColorV AA04PagefcE0V
+- _symbolic _____y_____y_____AAy_____y_____G_A2FtGACG_AByAeAy_____yAAyAE______AEtGG______yAAyAE_AEtGGtGACGAByAeAy_____yAEG_AAyAS______yAIyAAyAE_AJ_____yAUyAUyA2EGAVGAEGtGG_____GtGSgtGACGAByAesEGAByAeAyATy_____yAE_Qo______G_ATyA6______G_____ySo20WFWorkflowCollectionCG_____yAeAyA11_ySo0A9ReferenceCG_A18_A18_A18_A18_tGGA11_ySo0A8RunEventCGA11_ySo19WFConfiguredTriggerCGA11_ySo09WFTriggerE0CGA11_ySo31WFShortcutSuggestionsDescriptorCGA11_ySo0i9BookmarksK0CG_____yAF_AFQo______y_____y_____G_____A41_AEGSg_____y_____yAF_Qo__AFQo_tGACGAByAeTyAE_____GACGAByAeAyAL_AIyAAyAE_AjVtGGAIyAAyAE_AjUyAvEGtGGAAyA18__A11_ySo016WFDatabaseObjectK0CGtGSgAlTyAE_____GAsTyAE_____GSgATyAE_____GSgALtGACGAByAeAyAS_A4sFSgAsLSgtGACGAByAesCGAByAeAyARyAOG_A76_A76_A76_A76_tGAEGA5_A5_tG 7SwiftUI9TupleViewV AA7SectionV AA05EmptyD0V AA6ButtonV AA4TextV AA6HStackV AA6SpacerV AA6VStackV AA6ToggleV AA14NavigationLinkV AA19_ConditionalContentV 14WorkflowUICore08DebugLogD0V AA0D0PAAE5badgeyQrSiFQO AX027DatabaseObjectObserversListD0V AX0v7ResultsyD0V AX0v3RowD033_4B1C637C918A7BB0EA14E7EFB1EEDFDDLLV AA15DisclosureGroupV A0_AAE18confirmationDialog_11isPresented15titleVisibility7actionsQrAK_AA7BindingVySbGAA10VisibilityOqd__yXEtAAA_Rd__lFQO AA05ShareN0V s15CollectionOfOneV 10Foundation3URLV s5NeverO A0_AAEA11__A12_A13_A14_QrAK_A17_A19_qd__yXEtAAA_Rd__lFQO A0_AAE12fileImporterA12_07allowedP5Types23allowsMultipleSelection12onCompletionQrA17__Say22UniformTypeIdentifiers6UTTypeVGSbys6ResultOySayA26_Gs5Error_pGctFQO AX012ActionDrawersD0V AX0s9CoherenceD0V AX0s10SyncEventsD0V AX0s13DeviceRecordsD0V
+- _symbolic _____y_____y___________ACtGG_AAyAByAC_AD_____yA2CGtGGAAyAByAC_AdGyAhCGtGGABy_____ySo19WFWorkflowReferenceCG_ANySo26WFDatabaseObjectDescriptorCGtGSgAF_____yAC_____G_____yACGAWyAC_____GSgAWyAC_____GSgAFt 7SwiftUI6HStackV AA9TupleViewV AA4TextV AA6SpacerV AA19_ConditionalContentV 14WorkflowUICore011DatabaseRowE033_4B1C637C918A7BB0EA14E7EFB1EEDFDDLLV AA14NavigationLinkV AL014DebugCoherenceE0V AA6ToggleV AL0y10SyncEventsE0V AL0y13DeviceRecordsE0V
+- _symbolic _____y_____y__________y_____y_____ACy_____y_____G_A2HtGAEG_ADyAgCy_____yACyAG______AGtGG______yACyAG_AGtGGtGAEGADyAgCy_____yAGG_ACyAU______yAKyACyAG_AL_____yAWyAWyA2GGAXGAGGtGG_____GtGSgtGAEGADyAguGGADyAgCyAVy_____yAG_Qo______G_AVyA8______G_____ySo20WFWorkflowCollectionCG_____yAgCyA13_ySo0A9ReferenceCG_A20_A20_A20_A20_tGGA13_ySo0A8RunEventCGA13_ySo19WFConfiguredTriggerCGA13_ySo09WFTriggerE0CGA13_ySo31WFShortcutSuggestionsDescriptorCGA13_ySo0i9BookmarksK0CG_____yAH_AHQo______y_____y_____GA2bGGSg_____y_____yAH_Qo__AHQo_tGAEGADyAgVyAG_____GAEGADyAgCyAN_AKyACyAG_AlXtGGAKyACyAG_AlWyAxGGtGGACyA20__A13_ySo016WFDatabaseObjectK0CGtGSgAnVyAG_____GAuVyAG_____GSgAVyAG_____GSgANtGAEGADyAgCyAU_A4uHSgAuNSgtGAEGADyAguEGADyAgCyATyAQG_A77_A77_A77_A77_tGAGGA7_A7_tGG_Qo_ 7SwiftUI4ViewPAAE15navigationTitleyQrAA18LocalizedStringKeyVFQO AA4ListV s5NeverO AA05TupleC0V AA7SectionV AA05EmptyC0V AA6ButtonV AA4TextV AA6HStackV AA6SpacerV AA6VStackV AA6ToggleV AA14NavigationLinkV AA19_ConditionalContentV 14WorkflowUICore08DebugLogC0V AcAE5badgeyQrSiFQO A5_023DatabaseObjectObserversiC0V A5_015DatabaseResultsiC0V A5_011DatabaseRowC033_4B1C637C918A7BB0EA14E7EFB1EEDFDDLLV AA15DisclosureGroupV AcAE18confirmationDialog_11isPresented15titleVisibility7actionsQrAT_AA7BindingVySbGAA10VisibilityOqd__yXEtAaBRd__lFQO AA05ShareU0V s15CollectionOfOneV 10Foundation3URLV AcAEA18__A19_A20_A21_QrAT_A24_A26_qd__yXEtAaBRd__lFQO AcAE12fileImporterA19_07allowedW5Types23allowsMultipleSelection12onCompletionQrA24__Say22UniformTypeIdentifiers6UTTypeVGSbys6ResultOySayA33_Gs5Error_pGctFQO A5_012ActionDrawerzC0V A5_0z9CoherenceC0V A5_0z10SyncEventsC0V A5_0z13DeviceRecordsC0V
+- _symbolic _____y_____y_____yACy__________ySiSgGGAEy_____GG___________y_____yACyACy__________GAEy_____SgGGG______Qo_tGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0H9AlignmentO AA6SpacerV AA0E0PAAE11buttonStyleyQrqd__AA015PrimitiveButtonP0Rd__lFQO AA0R0V AA5ImageV AA12_FrameLayoutV AA4FontV AA05PlainrP0V
+- _symbolic _____y_____y_____yACy__________y_____yAAyAAy__________ySiSgGG_____GSg______y_____y_____APG______Qo_tGGGq_GG_____G 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V AA6SpacerV AA6VStackV AA9TupleViewV AA4TextV AA30_EnvironmentKeyWritingModifierV AA14_PaddingLayoutV AA0J0PAAE08progressJ5StyleyQrqd__AA08ProgressjS0Rd__lFQO AA0tJ0V AA05EmptyJ0V AA08CirculartjS0V AA05_TaskO0V
+- _symbolic _____y_____y_____ySo8NSStringC_____yAEyAEy_____y_____G_____G_____G_____GGG_Qo_ 7SwiftUI4ViewPAAE14contentMargins__3forQrAA4EdgeO3SetV_AA0G6InsetsVAA22ContentMarginPlacementVtFQO AA06ScrollC0V 14WorkflowUICore014LoaderProgressC0V AA08ModifiedJ0V AA5GroupV AP014SelectableTextC033_6A51A163B276031CAE7D944654336ACDLLV AA14_PaddingLayoutV AA16_FlexFrameLayoutV AP21LLMAttributedModifierV
+- _symbolic _____y_____y_____y__________y_____y_____ACy_____y_____G_A2HtGAEG_ADyAgCy_____yACyAG______AGtGG______yACyAG_AGtGGtGAEGADyAgCy_____yAGG_ACyAU______yAKyACyAG_AL_____yAWyAWyA2GGAXGAGGtGG_____GtGSgtGAEGADyAguGGADyAgCyAVy_____yAG_Qo______G_AVyA8______G_____ySo20WFWorkflowCollectionCG_____yAgCyA13_ySo0A9ReferenceCG_A20_A20_A20_A20_tGGA13_ySo0A8RunEventCGA13_ySo19WFConfiguredTriggerCGA13_ySo09WFTriggerE0CGA13_ySo31WFShortcutSuggestionsDescriptorCGA13_ySo0i9BookmarksK0CG_____yAH_AHQo______y_____y_____GA2bGGSg_____y_____yAH_Qo__AHQo_tGAEGADyAgVyAG_____GAEGADyAgCyAN_AKyACyAG_AlXtGGAKyACyAG_AlWyAxGGtGGACyA20__A13_ySo016WFDatabaseObjectK0CGtGSgAnVyAG_____GAuVyAG_____GSgAVyAG_____GSgANtGAEGADyAgCyAU_A4uHSgAuNSgtGAEGADyAguEGADyAgCyATyAQG_A77_A77_A77_A77_tGAGGA7_A7_tGG_Qo_______Qo_ 7SwiftUI4ViewPAAE9listStyleyQrqd__AA04ListE0Rd__lFQO AcAE15navigationTitleyQrAA18LocalizedStringKeyVFQO AA0F0V s5NeverO AA05TupleC0V AA7SectionV AA05EmptyC0V AA6ButtonV AA4TextV AA6HStackV AA6SpacerV AA6VStackV AA6ToggleV AA14NavigationLinkV AA19_ConditionalContentV 14WorkflowUICore08DebugLogC0V AcAE5badgeyQrSiFQO A7_023DatabaseObjectObserversfC0V A7_015DatabaseResultsfC0V A7_011DatabaseRowC033_4B1C637C918A7BB0EA14E7EFB1EEDFDDLLV AA15DisclosureGroupV AcAE18confirmationDialog_11isPresented15titleVisibility7actionsQrAV_AA7BindingVySbGAA10VisibilityOqd__yXEtAaBRd__lFQO AA05ShareW0V s15CollectionOfOneV 10Foundation3URLV AcAEA20__A21_A22_A23_QrAV_A26_A28_qd__yXEtAaBRd__lFQO AcAE12fileImporterA21_07allowedY5Types23allowsMultipleSelection12onCompletionQrA26__Say22UniformTypeIdentifiers6UTTypeVGSbys6ResultOySayA35_Gs5Error_pGctFQO A7_017ActionDrawerDebugC0V A7_014DebugCoherenceC0V A7_015DebugSyncEventsC0V A7_018DebugDeviceRecordsC0V AA012InsetGroupedfE0V
+- _symbolic _____y_____y_____y_____yAAy_____y_____y_____y_____y______AAyAAy_____y_____ySay_____GSo13WFContentItemC_____yAAyAAyAAyAAyAAy__________G_____y_____GG_____y_____GG_____y_____yAAy__________y_____GGGGG_____y_____yA7_yA7_y_____yAU__________GAAyA8_yAuZA10_G_____GGA15_GA15_GGG_Qo_GG_____G_____GAFtGGGG_____ySSGG_____yA0_GG_Qo__Qo__Qo_ 7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AcAE19focusEffectDisabledyQrSbFQO AcAE9focusableyQrSbFQO AA15ModifiedContentV 14WorkflowUICore0N18ItemQuickLookModal33_8E26EFBC7F4CA2B6E2BBB7C9F5C80DFBLLV AA06ScrollC0V AA6HStackV AA05TupleC0V AA6SpacerV AA9LazyVGridV AA7ForEachV AK011PreviewableN10CollectionC020PreviewableThumbnailQ0C AcAEAdeFQrSi_yyctFQO AK0nq7PreviewC0V AA16_FlexFrameLayoutV AA01_N13ShapeModifierV AA9RectangleV AA05_ClipJ0V AA16RoundedRectangleV AA19_BackgroundModifierV AA14GeometryReaderV AA5ColorV AA26_PreferenceWritingModifierV AK04GridQ21GeometryPreferenceKey33_BD94FD42738172DE257DD5DE47513AA7LLV AA16_OverlayModifierV AA012_ConditionalN0V AA017StrokeBorderShapeC0V AA19SelectionShapeStyleV AA05EmptyC0V AA010_BlendModeJ0V AA14_PaddingLayoutV AA31AccessibilityAttachmentModifierV AA24_CoordinateSpaceModifierV AA25_PreferenceActionModifierV
+- _symbolic _____y_____y_____y_____y__________y_____y_____ACy_____y_____G_A2HtGAEG_ADyAgCy_____yACyAG______AGtGG______yACyAG_AGtGGtGAEGADyAgCy_____yAGG_ACyAU______yAKyACyAG_AL_____yAWyAWyA2GGAXGAGGtGG_____GtGSgtGAEGADyAguGGADyAgCyAVy_____yAG_Qo______G_AVyA8______G_____ySo20WFWorkflowCollectionCG_____yAgCyA13_ySo0A9ReferenceCG_A20_A20_A20_A20_tGGA13_ySo0A8RunEventCGA13_ySo19WFConfiguredTriggerCGA13_ySo09WFTriggerE0CGA13_ySo31WFShortcutSuggestionsDescriptorCGA13_ySo0i9BookmarksK0CG_____yAH_AHQo______y_____y_____GA2bGGSg_____y_____yAH_Qo__AHQo_tGAEGADyAgVyAG_____GAEGADyAgCyAN_AKyACyAG_AlXtGGAKyACyAG_AlWyAxGGtGGACyA20__A13_ySo016WFDatabaseObjectK0CGtGSgAnVyAG_____GAuVyAG_____GSgAVyAG_____GSgANtGAEGADyAgCyAU_A4uHSgAuNSgtGAEGADyAguEGADyAgCyATyAQG_A77_A77_A77_A77_tGAGGA7_A7_tGG_Qo_______Qo__AFy_____y__________y_____SgGGGQo_ 7SwiftUI4ViewPAAE18navigationBarItems8trailingQrqd___tAaBRd__lFQO AcAE9listStyleyQrqd__AA04ListI0Rd__lFQO AcAE0D5TitleyQrAA18LocalizedStringKeyVFQO AA0J0V s5NeverO AA05TupleC0V AA7SectionV AA05EmptyC0V AA6ButtonV AA4TextV AA6HStackV AA6SpacerV AA6VStackV AA6ToggleV AA14NavigationLinkV AA19_ConditionalContentV 14WorkflowUICore08DebugLogC0V AcAE5badgeyQrSiFQO A9_023DatabaseObjectObserversjC0V A9_015DatabaseResultsjC0V A9_011DatabaseRowC033_4B1C637C918A7BB0EA14E7EFB1EEDFDDLLV AA15DisclosureGroupV AcAE18confirmationDialog_11isPresented15titleVisibility7actionsQrAX_AA7BindingVySbGAA10VisibilityOqd__yXEtAaBRd__lFQO AA05ShareZ0V s15CollectionOfOneV 10Foundation3URLV AcAEA22__A23_A24_A25_QrAX_A28_A30_qd__yXEtAaBRd__lFQO AcAE12fileImporterA23_19allowedContentTypes23allowsMultipleSelection12onCompletionQrA28__Say22UniformTypeIdentifiers6UTTypeVGSbys6ResultOySayA37_Gs5Error_pGctFQO A9_017ActionDrawerDebugC0V A9_014DebugCoherenceC0V A9_015DebugSyncEventsC0V A9_018DebugDeviceRecordsC0V AA012InsetGroupedjI0V AA15ModifiedContentV AA5ImageV AA012_EnvironmentN15WritingModifierV AA5ColorV
+- _symbolic _____y_____y_____y_____y_____y_____yAAyAAyAAy__________G_____y_____SgGG_____GSg_AAyAAyAAyAAyAAyAAy_____y_____y_____y_____GGAJG_____G_____y_____GGAZySbGG_____GA2_GAGG_____yAAyAAyAAyAAyAAy_____yAAy__________G_Qo_ALGAGG_____G_____y_____GG_____G_____yAAyAAyAAyAAyAAy_____AGGALG_____GA4_GA21_G_SbQo_GtGGGG_____G______Qo_ 7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQO AA15ModifiedContentV AA0G0V AA14GeometryReaderV AA6ZStackV AA05TupleC0V AA6CircleV AA12_FrameLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA16_BlendModeEffectV AA06_ShapeC0V AA08_StrokedY0V AA08_TrimmedY0V AQ6_InsetV AA09_RotationX0V AA010_AnimationT0V 12CoreGraphics7CGFloatV AA08_OpacityX0V AA012_ConditionalI0V AcAE10fontWeightyQrAA4FontV6WeightVSgFQO AA5ImageV AA012_AspectRatioP0V AA07_OffsetX0V AA06_TraitsT0V AA015TransitionTraitR0V AA017_AppearanceActionT0V AcAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA16RoundedRectangleV AA06_ScaleX0V AA017_AllowsHitTestingT0V AA05PlaingE0V
+CStrings:
++ "Metadata failed:"
++ "T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N"
++ "View.task @ WorkflowUICore/LinkMetadataPreview.swift:"
++ "WorkflowUICore/LoaderProgressView.swift"
++ "_TtC14WorkflowUICore17ResizableLinkView"
++ "character"
++ "dateInterval"
++ "humanReadableDescriptionWithStartDate:includeEndRepeat:isConcise:"
++ "initWithMetadata:"
++ "initWithMetadataLoadedFromRequest:"
++ "initWithMetadataLoadedFromURL:"
++ "initWithPresentationProperties:"
++ "initWithPresentationProperties:URL:"
++ "initWithURL:"
++ "linkMetadata"
++ "linkMetadataValue"
++ "originalURL"
++ "personNameComponents"
++ "recurrenceRule"
++ "showLinkActionConfirmationWithActionMetadata:showPrompt:dialog:dialogString:viewSnippet:snippetAction:encodedSnippetActionToolInvocation:confirmationActionName:isContinueInAppRequest:requestConfirmation:systemStyle:completionHandler:"
++ "startFetchingMetadataForURL:completionHandler:"
++ "stringFromDateInterval:"
++ "stringValue"
++ "unobscuredContentRect"
++ "v100@0:8@\"LNActionMetadata\"16B24@\"LNDialog\"28@\"NSString\"36@\"LNViewSnippet\"44@\"LNAction\"52@\"NSData\"60@\"LNConfirmationActionName\"68B76B80@\"LNConfirmationSystemStyle\"84@?<v@?Q@\"LNValue\"@\"LNResponseContext\">92"
++ "v100@0:8@16B24@28@36@44@52@60@68B76B80@84@?92"
++ "v24@?0@\"LPLinkMetadata\"8@\"NSError\"16"
+- "Add Eligible Shortcut \nTo Watch Folder"
+- "addEligibleShortcutToWatchFolderEnabled"
+- "showLinkActionConfirmationWithActionMetadata:showPrompt:dialog:dialogString:viewSnippet:snippetAction:encodedSnippetActionToolInvocation:confirmationActionName:isContinueInAppRequest:systemStyle:completionHandler:"
+- "v96@0:8@\"LNActionMetadata\"16B24@\"LNDialog\"28@\"NSString\"36@\"LNViewSnippet\"44@\"LNAction\"52@\"NSData\"60@\"LNConfirmationActionName\"68B76@\"LNConfirmationSystemStyle\"80@?<v@?Q@\"LNValue\"@\"LNResponseContext\">88"
+- "v96@0:8@16B24@28@36@44@52@60@68B76@80@?88"
+
+```

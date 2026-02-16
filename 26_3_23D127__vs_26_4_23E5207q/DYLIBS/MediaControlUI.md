@@ -1,0 +1,337 @@
+## MediaControlUI
+
+> `/System/Library/PrivateFrameworks/MediaControlUI.framework/MediaControlUI`
+
+```diff
+
+-4025.410.1.0.0
+-  __TEXT.__text: 0x0
+-  __TEXT.__const: 0x2
+-  __DATA_CONST.__const: 0x58
++4025.510.35.1.0
++  __TEXT.__text: 0xea98
++  __TEXT.__auth_stubs: 0xd60
++  __TEXT.__const: 0xf02
++  __TEXT.__constg_swiftt: 0x630
++  __TEXT.__swift5_typeref: 0x635
++  __TEXT.__swift5_reflstr: 0x222
++  __TEXT.__swift5_fieldmd: 0x374
++  __TEXT.__swift5_assocty: 0x168
++  __TEXT.__swift5_builtin: 0x14
++  __TEXT.__swift5_proto: 0x64
++  __TEXT.__swift5_types: 0x5c
++  __TEXT.__cstring: 0x202
++  __TEXT.__swift5_capture: 0x24
++  __TEXT.__swift_as_entry: 0x4
++  __TEXT.__swift_as_ret: 0x4
++  __TEXT.__unwind_info: 0x520
++  __TEXT.__eh_frame: 0x10c
++  __DATA_CONST.__got: 0x3e0
++  __DATA_CONST.__const: 0xc0
+   __DATA_CONST.__objc_imageinfo: 0x8
++  __AUTH_CONST.__auth_got: 0x6b0
++  __AUTH_CONST.__const: 0xab0
++  __DATA.__data: 0x928
++  __DATA.__bss: 0xd48
++  __DATA.__common: 0x114
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
++  - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/MediaControl.framework/MediaControl
++  - /System/Library/PrivateFrameworks/MediaCoreUI.framework/MediaCoreUI
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/swift/libswiftAVFoundation.dylib
++  - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftCoreImage.dylib
++  - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
++  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
++  - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftMetalKit.dylib
++  - /usr/lib/swift/libswiftModelIO.dylib
++  - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftSpatial.dylib
++  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
++  - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E8FB8BBD-55F0-31E8-A1FB-A335EC602030
+-  Functions: 0
+-  Symbols:   23
+-  CStrings:  0
++  UUID: 4B9AB98A-523A-3541-810A-58FC00396F13
++  Functions: 509
++  Symbols:   353
++  CStrings:  17
+ 
+Symbols:
++ <redacted>
++ _OUTLINED_FUNCTION_0
++ _OUTLINED_FUNCTION_1
++ _OUTLINED_FUNCTION_2
++ _OUTLINED_FUNCTION_3
++ _OUTLINED_FUNCTION_4
++ _OUTLINED_FUNCTION_5
++ _OUTLINED_FUNCTION_6
++ _OUTLINED_FUNCTION_7
++ __MergedGlobals
++ ___chkstk_darwin
++ ___isPlatformVersionAtLeast
++ ___isPlatformVersionAtLeast.cold.1
++ ___isPlatformVersionAtLeast.cold.2
++ ___stack_chk_fail
++ ___stack_chk_guard
++ ___swift_allocate_value_buffer
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ ___swift_destroy_boxed_opaque_existential_1
++ ___swift_getEnumTagSinglePayload
++ ___swift_instantiateGenericMetadata
++ ___swift_memcpy0_1
++ ___swift_memcpy12_4
++ ___swift_memcpy133_8
++ ___swift_memcpy16_8
++ ___swift_memcpy1_1
++ ___swift_memcpy22_8
++ ___swift_memcpy32_8
++ ___swift_memcpy40_8
++ ___swift_memcpy49_8
++ ___swift_memcpy52_8
++ ___swift_memcpy92_8
++ ___swift_noop_void_return
++ ___swift_project_boxed_opaque_existential_1
++ ___swift_project_value_buffer
++ ___swift_storeEnumTagSinglePayload
++ __availability_version_check
++ __initializeAvailabilityCheck
++ __swiftEmptyArrayStorage
++ __swift_FORCE_LOAD_$_swiftAVFoundation
++ __swift_FORCE_LOAD_$_swiftAVFoundation_$_MediaControlUI
++ __swift_FORCE_LOAD_$_swiftAccelerate
++ __swift_FORCE_LOAD_$_swiftAccelerate_$_MediaControlUI
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ __swift_FORCE_LOAD_$_swiftCoreAudio_$_MediaControlUI
++ __swift_FORCE_LOAD_$_swiftCoreImage
++ __swift_FORCE_LOAD_$_swiftCoreImage_$_MediaControlUI
++ __swift_FORCE_LOAD_$_swiftCoreLocation
++ __swift_FORCE_LOAD_$_swiftCoreLocation_$_MediaControlUI
++ __swift_FORCE_LOAD_$_swiftCoreMedia
++ __swift_FORCE_LOAD_$_swiftCoreMedia_$_MediaControlUI
++ __swift_FORCE_LOAD_$_swiftIntents
++ __swift_FORCE_LOAD_$_swiftIntents_$_MediaControlUI
++ __swift_FORCE_LOAD_$_swiftMetalKit
++ __swift_FORCE_LOAD_$_swiftMetalKit_$_MediaControlUI
++ __swift_FORCE_LOAD_$_swiftModelIO
++ __swift_FORCE_LOAD_$_swiftModelIO_$_MediaControlUI
++ __swift_FORCE_LOAD_$_swiftOSLog
++ __swift_FORCE_LOAD_$_swiftOSLog_$_MediaControlUI
++ __swift_FORCE_LOAD_$_swiftSpatial
++ __swift_FORCE_LOAD_$_swiftSpatial_$_MediaControlUI
++ __swift_FORCE_LOAD_$_swiftUIKit
++ __swift_FORCE_LOAD_$_swiftUIKit_$_MediaControlUI
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_MediaControlUI
++ _associated conformance 14MediaControlUI11AccentColor33_B5A2A0928E35E3F4880C8805963F15F4LLV05SwiftC010ShapeStyleAA8ResolvedAeFP_AeF
++ _associated conformance 14MediaControlUI11AccentColor33_B5A2A0928E35E3F4880C8805963F15F4LLVSHAASQ
++ _associated conformance 14MediaControlUI11ArtworkViewV05SwiftC00E0AA4BodyAdEP_AdE
++ _associated conformance 14MediaControlUI12MetadataViewV05SwiftC00E0AA4BodyAdEP_AdE
++ _associated conformance 14MediaControlUI13RoutingButtonV05SwiftC04ViewAA4BodyAdEP_AdE
++ _associated conformance 14MediaControlUI15MetadataMarqueeVyxG05SwiftC04ViewAA4BodyAeFP_AeF
++ _associated conformance 14MediaControlUI16ArtworkViewStyleV6ShadowVSHAASQ
++ _associated conformance 14MediaControlUI16ArtworkViewStyleVSHAASQ
++ _associated conformance 14MediaControlUI17LockScreenSurfaceV05SwiftC04ViewAA4BodyAdEP_AdE
++ _associated conformance 14MediaControlUI20ArtworkStyleModifier33_B5A2A0928E35E3F4880C8805963F15F4LLV05SwiftC004ViewF0AA4BodyAeFP_AE0Q0
++ _associated conformance 14MediaControlUI20MarqueeConfigurationV10FeatheringVSHAASQ
++ _associated conformance 14MediaControlUI21MetadataStyleModifier33_C84EC0673E9EC0036D6BF65B6AF2D39FLLV05SwiftC004ViewF0AA4BodyAeFP_AE0Q0
++ _associated conformance 14MediaControlUI23RoutingButtonLabelStyleV05SwiftC00fG0AA4BodyAdEP_AD4View
++ _associated conformance 14MediaControlUI27RoutingRegularBorderedStyleV05SwiftC006ButtonG0AA4BodyAdEP_AD4View
++ _associated conformance 14MediaControlUI33RoutingMinimalBorderedButtonStyleV05SwiftC00gH0AA4BodyAdEP_AD4View
++ _associated conformance 14MediaControlUI35RoutingMinimalBorderlessButtonStyleV05SwiftC00gH0AA4BodyAdEP_AD4View
++ _associated conformance 14MediaControlUI8WaveformV05SwiftC04ViewAA4BodyAdEP_AdE
++ _associated conformance 14MediaControlUI8WaveformV4SizeOSHAASQ
++ _bzero
++ _compatibilityInitializeAvailabilityCheck
++ _dispatch_once_f
++ _dlsym
++ _fclose
++ _fopen
++ _fread
++ _free
++ _fseek
++ _ftell
++ _get_enum_tag_for_layout_string 7SwiftUI11EnvironmentV7ContentOy012MediaControlB013MetadataStyleV_G
++ _get_enum_tag_for_layout_string 7SwiftUI11EnvironmentV7ContentOy012MediaControlB016ArtworkViewStyleV_G
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOQr.1
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOqd__AaBHC.2
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy012MediaControlB0012ArtworkStyleF033_B5A2A0928E35E3F4880C8805963F15F4LLVGAA022_EnvironmentKeyWritingF0VyAF0ieJ0VGGAA0E0HPAjaQHPyHC_AoA0eF0HPyHCHC.20
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy012MediaControlB0013MetadataStyleF033_C84EC0673E9EC0036D6BF65B6AF2D39FLLVGAA022_EnvironmentKeyWritingF0VyAF0iJ0VGGAA0E0HPAjaQHPyHC_AoA0eF0HPyHCHC.13
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA4TextVGAA12_FrameLayoutVGAA4ViewHPAhaLHPyHC_AjA0I8ModifierHPyHCHC.5
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA6ZStackVyAA012_ConditionalD0VyACyACyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA11_ClipEffectVyAA16RoundedRectangleVGGAA19_BackgroundModifierVyACyAA11_ShadowViewVyAPGAA013_TraitWritingP0VyAA010TransitionS3KeyVGGSgGGA0_GACyAA06_ShapeR0VyApA08_OpacityW5StyleVyAA012HierarchicalwY0VGGA0_GGGAA017_CompositingGroupL0VGAA033_AccessibilityIgnoresInvertColorsrP0VGAA0R0HPA19_AAA23_HPA16_AAA23_HPyHC_A18_AA0rP0HPyHCHC_A21_AAA24_HPyHCHC.1
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA4ViewPAAE10labelStyleyQrqd__AA05LabelG0Rd__lFQOyAA06ButtonG13ConfigurationV0H0V_AA08IconOnlyhG0VQo_AA30_EnvironmentKeyWritingModifierVyAA11ControlSizeOGGAA12_ScaleEffectVGAA010_AnimationP0VySbGGAaDHPAwaDHPAtaDHPqd0__AaDHD3_ANHO_AsA0eP0HPyHCHC_AvAA0_HPyHCHC_AzAA0_HPyHCHC.6
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA6HStackVyAA9TupleViewVyAA23LabelStyleConfigurationV4IconV_AI5TitleVtGGAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA011_ForegroundiP0VyAA017HierarchicalShapeI0VGGAQySiSgGGAA0G0HPA0_AAA4_HPAvAA4_HPAoAA4_HPyHC_AuA0gP0HPyHCHC_A_AAA5_HPyHCHC_A2_AAA5_HPyHCHC.9
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyAA4ViewPAAE10labelStyleyQrqd__AA05LabelG0Rd__lFQOyACyAA06ButtonG13ConfigurationV0H0VAA30_EnvironmentKeyWritingModifierVyAA11ControlSizeOGG_05MediaoB007RoutingihG0VQo_AA14_PaddingLayoutVGAA011_BackgroundN0VyAA06_ShapeE0VyAA7CapsuleVAA012HierarchicalvG0VGGGAA12_ScaleEffectVGAA010_AnimationN0VySbGGAaDHPA10_AaDHPA7_AaDHPAxaDHPqd0__AaDHD3_AUHO_AwA0eN0HPyHCHC_A6_AAA15_HPyHCHC_A9_AAA15_HPyHCHC_A13_AAA15_HPyHCHC.6
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyAA4ViewPAAE10labelStyleyQrqd__AA05LabelG0Rd__lFQOyACyAA06ButtonG13ConfigurationV0H0VAA30_EnvironmentKeyWritingModifierVyAA11ControlSizeOGG_AA08IconOnlyhG0VQo_AMyAA4FontVSgGGAA12_FrameLayoutVGAA011_BackgroundN0VyAA06_ShapeE0VyAA7CapsuleVAA012HierarchicalwG0VGGGAA12_ScaleEffectVGAA010_AnimationN0VySbGGAaDHPA14_AaDHPA11_AaDHPA0_AaDHPAyaDHPqd0__AaDHD3_ATHO_AxA0eN0HPyHCHC_A_AAA19_HPyHCHC_A10_AAA19_HPyHCHC_A13_AAA19_HPyHCHC_A17_AAA19_HPyHCHC.10
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx012MediaControlB020ArtworkStyleModifier33_B5A2A0928E35E3F4880C8805963F15F4LLVGAaBHPxAaBHD1__AhA0cJ0HPyHCHC.3
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx012MediaControlB021MetadataStyleModifier33_C84EC0673E9EC0036D6BF65B6AF2D39FLLVGAaBHPxAaBHD1__AhA0cJ0HPyHCHC.1
++ _get_witness_table 7SwiftUI4ViewRzlqd__AaBHD2_AaBPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAA15ModifiedContentVy09MediaCoreB013MCUINamespaceVAjaBRzlE17marqueeFeatheringyQrAA14HorizontalEdgeO_0M8Graphics7CGFloatVSgtFQOyAljaBRzlEAMyQrAO_AStFQOyAJ7MarqueeV9appending6badges15foregroundColor9badgeFontQrSayAJ13TrailingBadgeVG_AA0Y0VSgAA4FontVSgtFQOyx_Qo__Qo__Qo_AA30_EnvironmentKeyWritingModifierVySbGG_Qo_HO.4
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE20automaticButtonStyleyQrqd__AA0eF0Rd__lFQOyAA0E0VyAA15ModifiedContentVyAA5LabelVyAA4TextVAA5ImageVGAA30_EnvironmentKeyWritingModifierVyAA19SymbolRenderingModeVSgGGG_012MediaControlB0022RoutingMinimalBorderedeF0VQo_HO.2
++ _get_witness_table qd__7SwiftUI4ViewHD2_09MediaCoreB013MCUINamespaceVAcaBRzlE19coordinatedMarqueesQryFQOyAA15ModifiedContentVyAA6VStackVyAA05TupleC0VyAHyAHy0d7ControlB015MetadataMarqueeVyAA4TextVGAA31AccessibilityAttachmentModifierVGAA010_AnimationS0VyAA19HorizontalAlignmentVGGSg_A0_tGGAA022_EnvironmentKeyWritingS0VySiSgGG_Qo_HO.6
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOy09MediaCoreB013MCUINamespaceVAjaBRzlE13waveformThemeyQrAJ08WaveformM0VFQOyAljaBRzlE0L4SizeyQrAJ0nO0VSgFQOyAljaBRzlE0L9BarLayoutyQrAJ0npQ0VFQOyAJ0nC0V_Qo__Qo__Qo__Qo_HO.10
++ _initializeAvailabilityCheck
++ _malloc
++ _memcpy
++ _objc_release_x20
++ _objc_release_x21
++ _objc_release_x22
++ _objc_release_x23
++ _objc_release_x24
++ _objc_release_x25
++ _objc_release_x26
++ _objc_release_x27
++ _objc_release_x8
++ _objc_retain_x21
++ _objc_retain_x28
++ _rewind
++ _sscanf
++ _swift_allocObject
++ _swift_bridgeObjectRelease
++ _swift_bridgeObjectRetain
++ _swift_checkMetadataState
++ _swift_cvw_allocateGenericValueMetadataWithLayoutString
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithCopy
++ _swift_cvw_initWithTake
++ _swift_cvw_initializeBufferWithCopyOfBuffer
++ _swift_deallocObject
++ _swift_getAtKeyPath
++ _swift_getExistentialTypeMetadata
++ _swift_getForeignTypeMetadata
++ _swift_getGenericMetadata
++ _swift_getKeyPath
++ _swift_getOpaqueTypeConformance2
++ _swift_getOpaqueTypeMetadata2
++ _swift_getTupleTypeMetadata2
++ _swift_getWitnessTable
++ _swift_once
++ _swift_release
++ _swift_retain
++ _swift_slowAlloc
++ _swift_storeEnumTagMultiPayload
++ _swift_task_alloc
++ _swift_task_dealloc
++ _swift_task_switch
++ _swift_unknownObjectRelease
++ _symbolic $s7SwiftUI10LabelStyleP
++ _symbolic $s7SwiftUI10ShapeStyleP
++ _symbolic $s7SwiftUI11ButtonStyleP
++ _symbolic $s7SwiftUI12ViewModifierP
++ _symbolic $s7SwiftUI14EnvironmentKeyP
++ _symbolic $s7SwiftUI4ViewP
++ _symbolic SS
++ _symbolic SSSg
++ _symbolic Sb
++ _symbolic ScA_pSg
++ _symbolic Sf
++ _symbolic SiSg
++ _symbolic So7UIImageCSg
++ _symbolic _____ 12CoreGraphics7CGFloatV
++ _symbolic _____ 14MediaControlUI11AccentColor33_B5A2A0928E35E3F4880C8805963F15F4LLV
++ _symbolic _____ 14MediaControlUI11ArtworkViewV
++ _symbolic _____ 14MediaControlUI12MetadataViewV
++ _symbolic _____ 14MediaControlUI13MetadataStyleV
++ _symbolic _____ 14MediaControlUI13MetadataStyleV14MarqueeElementV
++ _symbolic _____ 14MediaControlUI13RoutingButtonV
++ _symbolic _____ 14MediaControlUI15MetadataMarqueeV
++ _symbolic _____ 14MediaControlUI16ArtworkViewStyleV
++ _symbolic _____ 14MediaControlUI16ArtworkViewStyleV6ShadowV
++ _symbolic _____ 14MediaControlUI17LockScreenSurfaceV
++ _symbolic _____ 14MediaControlUI20ArtworkStyleModifier33_B5A2A0928E35E3F4880C8805963F15F4LLV
++ _symbolic _____ 14MediaControlUI20MarqueeConfigurationV
++ _symbolic _____ 14MediaControlUI20MarqueeConfigurationV10FeatheringV
++ _symbolic _____ 14MediaControlUI21MetadataStyleModifier33_C84EC0673E9EC0036D6BF65B6AF2D39FLLV
++ _symbolic _____ 14MediaControlUI23RoutingButtonLabelStyleV
++ _symbolic _____ 14MediaControlUI27RoutingRegularBorderedStyleV
++ _symbolic _____ 14MediaControlUI33RoutingMinimalBorderedButtonStyleV
++ _symbolic _____ 14MediaControlUI35RoutingMinimalBorderlessButtonStyleV
++ _symbolic _____ 14MediaControlUI8WaveformV
++ _symbolic _____ 14MediaControlUI8WaveformV4SizeO
++ _symbolic _____ 7SwiftUI11ControlSizeO
++ _symbolic _____ 7SwiftUI13AnyShapeStyleV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV012MediaControlB0E18__Key_artworkStyle33_B5A2A0928E35E3F4880C8805963F15F4LLV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV012MediaControlB0E19__Key_metadataStyle33_C84EC0673E9EC0036D6BF65B6AF2D39FLLV
++ _symbolic _____ 7SwiftUI19HorizontalAlignmentV
++ _symbolic _____ 7SwiftUI4FontV
++ _symbolic _____ 7SwiftUI5ColorV
++ _symbolic _____ 7SwiftUI5ColorV8ResolvedV
++ _symbolic _____ So16CAFrameRateRangeV
++ _symbolic _____Sg 7SwiftUI19SymbolRenderingModeV
++ _symbolic _____Sg 7SwiftUI4FontV
++ _symbolic _____Sg 7SwiftUI5ImageV
++ _symbolic _____Sg s5Int32V
++ _symbolic ______p 7SwiftUI10ShapeStyleP
++ _symbolic _____yAAyAAyAAyAAy_____yAAy__________y_____GG______Qo_ACy_____SgGG_____G_____y_____y__________GGG_____G_____ySbGG 7SwiftUI15ModifiedContentV AA4ViewPAAE10labelStyleyQrqd__AA05LabelG0Rd__lFQO AA06ButtonG13ConfigurationV0H0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA08IconOnlyhG0V AA4FontV AA12_FrameLayoutV AA011_BackgroundN0V AA06_ShapeE0V AA7CapsuleV AA012HierarchicalwG0V AA12_ScaleEffectV AA010_AnimationN0V
++ _symbolic _____yAAyAAyAAy_____yAAy__________y_____GG______Qo______G_____y_____y__________GGG_____G_____ySbGG 7SwiftUI15ModifiedContentV AA4ViewPAAE10labelStyleyQrqd__AA05LabelG0Rd__lFQO AA06ButtonG13ConfigurationV0H0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO 05MediaoB007RoutingihG0V AA14_PaddingLayoutV AA011_BackgroundN0V AA06_ShapeE0V AA7CapsuleV AA012HierarchicalvG0V AA12_ScaleEffectV AA010_AnimationN0V
++ _symbolic _____yAAyAAy_____y___________Qo______y_____GG_____G_____ySbGG 7SwiftUI15ModifiedContentV AA4ViewPAAE10labelStyleyQrqd__AA05LabelG0Rd__lFQO AA06ButtonG13ConfigurationV0H0V AA08IconOnlyhG0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA12_ScaleEffectV AA010_AnimationP0V
++ _symbolic _____yAAyAAy_____y_____y___________tGG_____y_____SgGG_____y_____GGAHySiSgGG 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA23LabelStyleConfigurationV4IconV AI5TitleV AA30_EnvironmentKeyWritingModifierV AA4FontV AA011_ForegroundiP0V AA017HierarchicalShapeI0V
++ _symbolic _____yAAy_____y_____yAAyAAyAAyAAy__________G_____y_____GG_____yAAy_____yAHG_____y_____GGSgGGAPGAAy_____yAH_____y_____GGAPGGG_____G_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA012_ConditionalD0V AA5ImageV AA18_AspectRatioLayoutV AA11_ClipEffectV AA16RoundedRectangleV AA19_BackgroundModifierV AA11_ShadowViewV AA013_TraitWritingP0V AA010TransitionS3KeyV AA06_ShapeR0V AA08_OpacityW5StyleV AA012HierarchicalwY0V AA017_CompositingGroupL0V AA033_AccessibilityIgnoresInvertColorsrP0V
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV 012MediaControlB013MetadataStyleV
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV 012MediaControlB016ArtworkViewStyleV
++ _symbolic _____y_____y_____G_____G 7SwiftUI15ModifiedContentV AA6VStackV AA4TextV AA12_FrameLayoutV
++ _symbolic _____y_____y_____G_____y_____GG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 012MediaControlB0012ArtworkStyleF033_B5A2A0928E35E3F4880C8805963F15F4LLV AA022_EnvironmentKeyWritingF0V AF0ieJ0V
++ _symbolic _____y_____y_____G_____y_____GG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 012MediaControlB0013MetadataStyleF033_C84EC0673E9EC0036D6BF65B6AF2D39FLLV AA022_EnvironmentKeyWritingF0V AF0iJ0V
++ _symbolic _____y_____y_____y_____yAAyAAy_____y_____G_____G_____y_____GGSg_AMtGG_____ySiSgGG_Qo_ 11MediaCoreUI13MCUINamespaceVAA05SwiftC04ViewRzlE19coordinatedMarqueesQryFQO AD15ModifiedContentV AD6VStackV AD05TupleF0V 0a7ControlC015MetadataMarqueeV AD4TextV AD31AccessibilityAttachmentModifierV AD010_AnimationS0V AD19HorizontalAlignmentV AD022_EnvironmentKeyWritingS0V
++ _symbolic _____y_____y_____y_____y______Qo__Qo__Qo__Qo_ 7SwiftUI4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO 09MediaCoreB013MCUINamespaceVAjaBRzlE13waveformThemeyQrAJ08WaveformM0VFQO AljaBRzlE0L4SizeyQrAJ0nO0VSgFQO AljaBRzlE0L9BarLayoutyQrAJ0npQ0VFQO AJ0nC0V
++ _symbolic _____y_____y_____y_____y__________G_____y_____SgGGG______Qo_ 7SwiftUI4ViewPAAE20automaticButtonStyleyQrqd__AA0eF0Rd__lFQO AA0E0V AA15ModifiedContentV AA5LabelV AA4TextV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA19SymbolRenderingModeV 012MediaControlB0022RoutingMinimalBorderedeF0V
++ _symbolic _____y_____y_____y_____y_____yx_Qo__Qo__Qo______ySbGG_Qo_ 7SwiftUI4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA15ModifiedContentV 09MediaCoreB013MCUINamespaceVAjaBRzlE17marqueeFeatheringyQrAA14HorizontalEdgeO_0M8Graphics7CGFloatVSgtFQO AljaBRzlEAMyQrAO_AStFQO AJ7MarqueeV9appending6badges15foregroundColor9badgeFontQrSayAJ13TrailingBadgeVG_AA0Y0VSgAA4FontVSgtFQO AA30_EnvironmentKeyWritingModifierV
++ _symbolic _____yx_____G 7SwiftUI15ModifiedContentV 012MediaControlB020ArtworkStyleModifier33_B5A2A0928E35E3F4880C8805963F15F4LLV
++ _symbolic _____yx_____G 7SwiftUI15ModifiedContentV 012MediaControlB021MetadataStyleModifier33_C84EC0673E9EC0036D6BF65B6AF2D39FLLV
++ _symbolic qd__
++ _symbolic x
++ _symbolic yyc
++ _type_layout_string 14MediaControlUI11ArtworkViewV
++ _type_layout_string 14MediaControlUI12MetadataViewV
++ _type_layout_string 14MediaControlUI13MetadataStyleV
++ _type_layout_string 14MediaControlUI13MetadataStyleV14MarqueeElementV
++ _type_layout_string 14MediaControlUI13RoutingButtonV
++ _type_layout_string 14MediaControlUI16ArtworkViewStyleV
++ _type_layout_string 14MediaControlUI16ArtworkViewStyleV6ShadowV
++ _type_layout_string 14MediaControlUI20ArtworkStyleModifier33_B5A2A0928E35E3F4880C8805963F15F4LLV
++ _type_layout_string 14MediaControlUI20MarqueeConfigurationV
++ _type_layout_string 14MediaControlUI20MarqueeConfigurationV10FeatheringV
++ _type_layout_string 14MediaControlUI21MetadataStyleModifier33_C84EC0673E9EC0036D6BF65B6AF2D39FLLV
++ _type_layout_string 14MediaControlUI8WaveformV
++ _type_layout_string So16CAFrameRateRangeV
+CStrings:
++ "%d.%d.%d"
++ "/System/Library/CoreServices/SystemVersion.plist"
++ "Accessing Environment's value outside of being installed on a View. This will always read the default value and will not update."
++ "CFDataCreateWithBytesNoCopy"
++ "CFDictionaryGetValue"
++ "CFGetTypeID"
++ "CFPropertyListCreateFromXMLData"
++ "CFPropertyListCreateWithData"
++ "CFRelease"
++ "CFStringCreateWithCStringNoCopy"
++ "CFStringGetCString"
++ "CFStringGetTypeID"
++ "Hi, I'm you new Lock Screen!"
++ "ProductVersion"
++ "View.task @ MediaControlUI/Waveform.swift:"
++ "kCFAllocatorNull"
++ "r"
+
+```

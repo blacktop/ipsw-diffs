@@ -1,0 +1,674 @@
+## AppleMediaServicesUIDynamic
+
+> `/System/Library/PrivateFrameworks/AppleMediaServicesUIDynamic.framework/AppleMediaServicesUIDynamic`
+
+```diff
+
+-7.3.5.2.1
+-  __TEXT.__text: 0xb31a4
+-  __TEXT.__auth_stubs: 0x2df0
++7.4.15.0.0
++  __TEXT.__text: 0xb5284
++  __TEXT.__auth_stubs: 0x2db0
+   __TEXT.__objc_methlist: 0x19a4
+-  __TEXT.__const: 0x91b8
+-  __TEXT.__cstring: 0x7c7b
+-  __TEXT.__swift5_typeref: 0x3288
++  __TEXT.__const: 0x9130
++  __TEXT.__swift5_typeref: 0x32ac
+   __TEXT.__constg_swiftt: 0x45bc
+   __TEXT.__swift5_reflstr: 0x2a33
+   __TEXT.__swift5_fieldmd: 0x3260
+   __TEXT.__swift5_builtin: 0x244
+   __TEXT.__swift5_assocty: 0x750
+-  __TEXT.__swift5_proto: 0x57c
++  __TEXT.__cstring: 0x48d6
++  __TEXT.__swift5_proto: 0x584
+   __TEXT.__swift5_types: 0x38c
+   __TEXT.__swift5_protos: 0xa8
+-  __TEXT.__swift5_capture: 0x1164
++  __TEXT.__swift5_capture: 0x1174
+   __TEXT.__swift5_mpenum: 0x3c
+   __TEXT.__swift_as_entry: 0x10
+   __TEXT.__swift_as_ret: 0x10
+   __TEXT.__oslogstring: 0xaf
+   __TEXT.__gcc_except_tab: 0x58
+-  __TEXT.__unwind_info: 0x32b8
+-  __TEXT.__eh_frame: 0x24f8
+-  __TEXT.__objc_classname: 0x1c2
+-  __TEXT.__objc_methname: 0x5336
+-  __TEXT.__objc_methtype: 0x1691
+-  __TEXT.__objc_stubs: 0x1320
++  __TEXT.__unwind_info: 0x3168
++  __TEXT.__eh_frame: 0x2424
++  __TEXT.__objc_classname: 0x1503
++  __TEXT.__objc_methname: 0x6edd
++  __TEXT.__objc_methtype: 0x21be
++  __TEXT.__objc_stubs: 0x5060
+   __DATA_CONST.__got: 0x9f8
+-  __DATA_CONST.__const: 0x398
++  __DATA_CONST.__const: 0x2a0
+   __DATA_CONST.__objc_classlist: 0x258
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0xf0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1a90
++  __DATA_CONST.__objc_selrefs: 0x1a98
+   __DATA_CONST.__objc_protorefs: 0x80
+   __DATA_CONST.__objc_superrefs: 0x28
+   __DATA_CONST.__objc_arraydata: 0xb0
+-  __AUTH_CONST.__auth_got: 0x1708
+-  __AUTH_CONST.__const: 0x7eb0
++  __AUTH_CONST.__auth_got: 0x16e8
++  __AUTH_CONST.__const: 0x7ed8
+   __AUTH_CONST.__cfstring: 0xce0
+   __AUTH_CONST.__objc_const: 0x5b30
+   __AUTH_CONST.__objc_arrayobj: 0x48
+   __AUTH.__objc_data: 0x1228
+-  __AUTH.__data: 0xad0
++  __AUTH.__data: 0xad8
+   __DATA.__objc_ivar: 0x3c
+-  __DATA.__data: 0x1ab8
++  __DATA.__data: 0x1618
+   __DATA.__objc_stublist: 0x20
+-  __DATA.__bss: 0x81d8
++  __DATA.__bss: 0x82d8
+   __DATA.__common: 0xc0
+   __DATA_DIRTY.__objc_data: 0x1230
+-  __DATA_DIRTY.__data: 0x3d40
++  __DATA_DIRTY.__data: 0x41e8
+   __DATA_DIRTY.__bss: 0x2080
+   __DATA_DIRTY.__common: 0x1e0
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+
+   - /usr/lib/libxml2.2.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+-  - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 400535D0-D3DC-31BF-A00D-34F7DB8C8A46
+-  Functions: 5829
+-  Symbols:   4519
+-  CStrings:  2117
++  UUID: C9B2C86A-6094-38E3-99BE-4B5B5DC6CC1F
++  Functions: 5930
++  Symbols:   5690
++  CStrings:  2080
+ 
+Symbols:
++ _OBJC_CLASS_$_AMSPSD2EventTask
++ _OUTLINED_FUNCTION_61
++ _OUTLINED_FUNCTION_62
++ _OUTLINED_FUNCTION_63
++ _OUTLINED_FUNCTION_64
++ _OUTLINED_FUNCTION_65
++ _OUTLINED_FUNCTION_66
++ _OUTLINED_FUNCTION_67
++ _OUTLINED_FUNCTION_68
++ _OUTLINED_FUNCTION_69
++ _OUTLINED_FUNCTION_70
++ _OUTLINED_FUNCTION_71
++ _OUTLINED_FUNCTION_72
++ _OUTLINED_FUNCTION_73
++ _OUTLINED_FUNCTION_74
++ _OUTLINED_FUNCTION_75
++ _OUTLINED_FUNCTION_76
++ _OUTLINED_FUNCTION_77
++ _OUTLINED_FUNCTION_78
++ _OUTLINED_FUNCTION_79
++ _OUTLINED_FUNCTION_80
++ _OUTLINED_FUNCTION_81
++ _OUTLINED_FUNCTION_82
++ _OUTLINED_FUNCTION_83
++ _OUTLINED_FUNCTION_84
++ _OUTLINED_FUNCTION_85
++ _OUTLINED_FUNCTION_86
++ _OUTLINED_FUNCTION_87
++ _OUTLINED_FUNCTION_88
++ _OUTLINED_FUNCTION_89
++ _OUTLINED_FUNCTION_90
++ _OUTLINED_FUNCTION_91
++ _OUTLINED_FUNCTION_92
++ _block_copy_helper.37
++ _block_copy_helper.43
++ _block_copy_helper.46
++ _block_copy_helper.65
++ _block_copy_helper.99
++ _block_descriptor.101
++ _block_descriptor.39
++ _block_descriptor.45
++ _block_descriptor.48
++ _block_descriptor.67
++ _block_destroy_helper.100
++ _block_destroy_helper.38
++ _block_destroy_helper.44
++ _block_destroy_helper.47
++ _block_destroy_helper.66
++ _objc_msgSend$CGColor
++ _objc_msgSend$JSONObjectWithData:options:error:
++ _objc_msgSend$URL
++ _objc_msgSend$UUIDString
++ _objc_msgSend$__swift_objectForKeyedSubscript:
++ _objc_msgSend$_systemImageNamed:
++ _objc_msgSend$absoluteDimension:
++ _objc_msgSend$accessibilityContrast
++ _objc_msgSend$accessibilityUpdatePlayerControllerControls
++ _objc_msgSend$accountStore
++ _objc_msgSend$acquire
++ _objc_msgSend$activeAppearance
++ _objc_msgSend$addAttribute:value:range:
++ _objc_msgSend$addBoundaryTimeObserverForTimes:queue:usingBlock:
++ _objc_msgSend$addChildViewController:
++ _objc_msgSend$addConstraints:
++ _objc_msgSend$addErrorBlock:
++ _objc_msgSend$addFinishBlock:
++ _objc_msgSend$addGestureRecognizer:
++ _objc_msgSend$addObserver:forKeyPath:options:context:
++ _objc_msgSend$addObserver:selector:name:object:
++ _objc_msgSend$addObserver:selector:name:object:suspensionBehavior:
++ _objc_msgSend$addOperation:
++ _objc_msgSend$addPropertiesWithDictionary:
++ _objc_msgSend$addSubview:
++ _objc_msgSend$addSubview:applyingMaterialStyle:tintEffectStyle:
++ _objc_msgSend$addSuccessBlock:
++ _objc_msgSend$addTarget:action:forControlEvents:
++ _objc_msgSend$addTextContainer:
++ _objc_msgSend$addToLayer:onTop:gravity:
++ _objc_msgSend$ams_appTint
++ _objc_msgSend$ams_clear
++ _objc_msgSend$ams_componentBackground
++ _objc_msgSend$ams_configureWithTransparentBackground
++ _objc_msgSend$ams_defaultLine
++ _objc_msgSend$ams_defaultPlatformBackgroundColor
++ _objc_msgSend$ams_dim
++ _objc_msgSend$ams_imageCroppedTo:
++ _objc_msgSend$ams_imageScaledTo:
++ _objc_msgSend$ams_mediaBorder
++ _objc_msgSend$ams_placeholderBackground
++ _objc_msgSend$ams_primaryBackground
++ _objc_msgSend$ams_primaryGroupedBackground
++ _objc_msgSend$ams_primarySystemFillColor
++ _objc_msgSend$ams_primaryText
++ _objc_msgSend$ams_quaternarySystemFillColor
++ _objc_msgSend$ams_quaternaryText
++ _objc_msgSend$ams_secondaryBackground
++ _objc_msgSend$ams_secondaryGroupedBackground
++ _objc_msgSend$ams_secondarySystemFillColor
++ _objc_msgSend$ams_secondaryText
++ _objc_msgSend$ams_sharedAccountStoreForClient:
++ _objc_msgSend$ams_tertiarySystemFillColor
++ _objc_msgSend$ams_tertiaryText
++ _objc_msgSend$amsuid_wantsArtworkStyle
++ _objc_msgSend$animateAlongsideTransition:completion:
++ _objc_msgSend$animateWithDuration:delay:options:animations:completion:
++ _objc_msgSend$appendAttributedString:
++ _objc_msgSend$ascender
++ _objc_msgSend$asset
++ _objc_msgSend$attribute:atIndex:effectiveRange:
++ _objc_msgSend$attributedStringWithAttachment:
++ _objc_msgSend$attributedText
++ _objc_msgSend$backItem
++ _objc_msgSend$beginEditing
++ _objc_msgSend$beginningOfDocument
++ _objc_msgSend$blackColor
++ _objc_msgSend$boldSystemFontOfSize:
++ _objc_msgSend$boolForKey:
++ _objc_msgSend$bootstrapWithAccount:bagData:clientInfo:mediaClientData:metricsContextData:url:completion:
++ _objc_msgSend$bottomAnchor
++ _objc_msgSend$brownColor
++ _objc_msgSend$bundleURL
++ _objc_msgSend$bundleWithIdentifier:
++ _objc_msgSend$buttonTitle
++ _objc_msgSend$cancel
++ _objc_msgSend$cancelAllOperations
++ _objc_msgSend$cancelLoading
++ _objc_msgSend$capHeight
++ _objc_msgSend$categoryOptions
++ _objc_msgSend$centerXAnchor
++ _objc_msgSend$centerYAnchor
++ _objc_msgSend$characterAtIndex:
++ _objc_msgSend$characterIsMember:
++ _objc_msgSend$childViewControllers
++ _objc_msgSend$clearColor
++ _objc_msgSend$clientCorrelationKey
++ _objc_msgSend$clientData
++ _objc_msgSend$closestPositionToPoint:
++ _objc_msgSend$code
++ _objc_msgSend$compile
++ _objc_msgSend$configurationWithFont:
++ _objc_msgSend$connectedScenes
++ _objc_msgSend$constraintEqualToAnchor:
++ _objc_msgSend$constraintEqualToAnchor:constant:
++ _objc_msgSend$constraintEqualToConstant:
++ _objc_msgSend$container
++ _objc_msgSend$contentInfoForApp:cacheKey:version:
++ _objc_msgSend$contentInset
++ _objc_msgSend$contentSize
++ _objc_msgSend$convertRect:toView:
++ _objc_msgSend$createSnapshotWithCompletion:
++ _objc_msgSend$currentDevice
++ _objc_msgSend$currentItem
++ _objc_msgSend$currentProcess
++ _objc_msgSend$currentTime
++ _objc_msgSend$dataTaskWithURL:completionHandler:
++ _objc_msgSend$dataWithJSONObject:options:error:
++ _objc_msgSend$defaultCenter
++ _objc_msgSend$defaultSessionConfiguration
++ _objc_msgSend$deleteCharactersInRange:
++ _objc_msgSend$descender
++ _objc_msgSend$devMode
++ _objc_msgSend$deviceIsiPad
++ _objc_msgSend$deviceIsiPhone
++ _objc_msgSend$didMoveToParentViewController:
++ _objc_msgSend$dismissViewControllerAnimated:completion:
++ _objc_msgSend$displayGamut
++ _objc_msgSend$displayScale
++ _objc_msgSend$domain
++ _objc_msgSend$drawAtPoint:
++ _objc_msgSend$dynamicColorWithLightColor:darkColor:lightHighContrastColor:darkHighContrastColor:
++ _objc_msgSend$dynamicViewController:contentViewControllerWithDictionary:
++ _objc_msgSend$dynamicViewController:contentViewControllerWithDictionary:completionHandler:
++ _objc_msgSend$dynamicViewController:contentViewWithDictionary:frame:
++ _objc_msgSend$dynamicViewController:didFinishCarrierLinkingWithResult:error:
++ _objc_msgSend$dynamicViewController:didFinishPurchaseWithResult:error:
++ _objc_msgSend$dynamicViewController:didFinishWithPurchaseResult:error:
++ _objc_msgSend$dynamicViewController:didResolveWithResult:error:
++ _objc_msgSend$dynamicViewController:handleDelegateAction:completionHandler:
++ _objc_msgSend$dynamicViewControllerShouldDismiss:
++ _objc_msgSend$endEditing
++ _objc_msgSend$enqueueEvent:
++ _objc_msgSend$error
++ _objc_msgSend$errorComment
++ _objc_msgSend$errorDomain
++ _objc_msgSend$errorLog
++ _objc_msgSend$errorStatusCode
++ _objc_msgSend$estimatedDimension:
++ _objc_msgSend$events
++ _objc_msgSend$executeQuery:
++ _objc_msgSend$exitFullScreenAnimated:completionHandler:
++ _objc_msgSend$familyName
++ _objc_msgSend$fetchImageWithURL:searchBundles:
++ _objc_msgSend$finishWithError:
++ _objc_msgSend$finishWithSuccess
++ _objc_msgSend$flashPlaybackControlsWithDuration:
++ _objc_msgSend$flush
++ _objc_msgSend$font
++ _objc_msgSend$fontDescriptor
++ _objc_msgSend$fontDescriptorByAddingAttributes:
++ _objc_msgSend$fontDescriptorWithSize:
++ _objc_msgSend$fontDescriptorWithSymbolicTraits:
++ _objc_msgSend$fontName
++ _objc_msgSend$fontWithDescriptor:size:
++ _objc_msgSend$fontWithSize:
++ _objc_msgSend$forceTouchCapability
++ _objc_msgSend$hasContent
++ _objc_msgSend$hasText
++ _objc_msgSend$heightAnchor
++ _objc_msgSend$hidesBackButton
++ _objc_msgSend$hitTest:withEvent:
++ _objc_msgSend$horizontalSizeClass
++ _objc_msgSend$identifier
++ _objc_msgSend$image
++ _objc_msgSend$imageDynamicRange
++ _objc_msgSend$imageNamed:inBundle:compatibleWithTraitCollection:
++ _objc_msgSend$imageNamed:inBundle:withConfiguration:
++ _objc_msgSend$imageWithRenderingMode:
++ _objc_msgSend$imageWithTintColor:
++ _objc_msgSend$init
++ _objc_msgSend$initWithAsset:
++ _objc_msgSend$initWithAttributedString:
++ _objc_msgSend$initWithBag:
++ _objc_msgSend$initWithBag:URL:
++ _objc_msgSend$initWithBag:account:clientInfo:
++ _objc_msgSend$initWithBarButtonSystemItem:target:action:
++ _objc_msgSend$initWithCoder:
++ _objc_msgSend$initWithContainerID:bag:
++ _objc_msgSend$initWithContentsOfFile:
++ _objc_msgSend$initWithData:
++ _objc_msgSend$initWithDictionary:
++ _objc_msgSend$initWithExtensionPointIdentifier:
++ _objc_msgSend$initWithFontAttributes:
++ _objc_msgSend$initWithFrame:
++ _objc_msgSend$initWithFrame:title:style:
++ _objc_msgSend$initWithInteger:
++ _objc_msgSend$initWithNibName:bundle:
++ _objc_msgSend$initWithPID:flags:reason:name:
++ _objc_msgSend$initWithPath:
++ _objc_msgSend$initWithPattern:options:error:
++ _objc_msgSend$initWithPlayerItem:
++ _objc_msgSend$initWithRed:green:blue:alpha:
++ _objc_msgSend$initWithRequest:bag:presentingViewController:
++ _objc_msgSend$initWithRequest:presentingViewController:
++ _objc_msgSend$initWithRootViewController:
++ _objc_msgSend$initWithServiceName:
++ _objc_msgSend$initWithSize:
++ _objc_msgSend$initWithString:
++ _objc_msgSend$initWithString:attributes:
++ _objc_msgSend$initWithSubsystem:category:error:
++ _objc_msgSend$initWithTarget:action:
++ _objc_msgSend$initWithTitle:style:target:action:
++ _objc_msgSend$initWithTopic:
++ _objc_msgSend$initWithURL:
++ _objc_msgSend$initWithURL:options:
++ _objc_msgSend$insertSubview:atIndex:
++ _objc_msgSend$integerValue
++ _objc_msgSend$interface
++ _objc_msgSend$interfaceWithProtocol:
++ _objc_msgSend$internalInstanceUsingBag:
++ _objc_msgSend$intrinsicContentSize
++ _objc_msgSend$invalidateIntrinsicContentSize
++ _objc_msgSend$isAutoPlayAllowed
++ _objc_msgSend$isBeingDismissed
++ _objc_msgSend$isCancelled
++ _objc_msgSend$isConstrained
++ _objc_msgSend$isDescendantOfView:
++ _objc_msgSend$isEnabledForBundle
++ _objc_msgSend$isEqualToDictionary:
++ _objc_msgSend$isExecuting
++ _objc_msgSend$isExpensive
++ _objc_msgSend$isLowPowerModeEnabled
++ _objc_msgSend$isMovingFromParentViewController
++ _objc_msgSend$isMuted
++ _objc_msgSend$isPlayable
++ _objc_msgSend$isSuspended
++ _objc_msgSend$isVideoAudioEnabled
++ _objc_msgSend$jet_focusedFrame
++ _objc_msgSend$keyWindow
++ _objc_msgSend$keyWithName:crossDeviceSync:
++ _objc_msgSend$layer
++ _objc_msgSend$layoutDirection
++ _objc_msgSend$leadingAnchor
++ _objc_msgSend$legibilityWeight
++ _objc_msgSend$length
++ _objc_msgSend$lineBreakMode
++ _objc_msgSend$lineFragmentPadding
++ _objc_msgSend$lineFragmentRectForGlyphAtIndex:effectiveRange:
++ _objc_msgSend$lineHeight
++ _objc_msgSend$listEnvironment
++ _objc_msgSend$loadAndReturnError:
++ _objc_msgSend$loadURL:
++ _objc_msgSend$loadValuesAsynchronouslyForKeys:completionHandler:
++ _objc_msgSend$localizedFailureReason
++ _objc_msgSend$localizedStringForKey:bundle:table:languageCode:
++ _objc_msgSend$localizedStringFromNumber:numberStyle:
++ _objc_msgSend$locationInView:
++ _objc_msgSend$lock
++ _objc_msgSend$main
++ _objc_msgSend$makeXPCConnectionWithError:
++ _objc_msgSend$matchesInString:options:range:
++ _objc_msgSend$maximumContentSizeCategory
++ _objc_msgSend$maximumNumberOfLines
++ _objc_msgSend$measurementsWithFitting:in:
++ _objc_msgSend$message
++ _objc_msgSend$mutableCopy
++ _objc_msgSend$mutableString
++ _objc_msgSend$navigationBar
++ _objc_msgSend$navigationController
++ _objc_msgSend$navigationItem
++ _objc_msgSend$numberOfGlyphs
++ _objc_msgSend$object
++ _objc_msgSend$objectForKey:
++ _objc_msgSend$offsetFromPosition:toPosition:
++ _objc_msgSend$openStandardURL:
++ _objc_msgSend$operationCount
++ _objc_msgSend$parentViewController
++ _objc_msgSend$parse
++ _objc_msgSend$pathsForResourcesOfType:inDirectory:
++ _objc_msgSend$performAuthentication
++ _objc_msgSend$performWithRequestData:completion:
++ _objc_msgSend$performWithoutAnimation:
++ _objc_msgSend$phase
++ _objc_msgSend$play
++ _objc_msgSend$pointSize
++ _objc_msgSend$popToRootViewControllerAnimated:
++ _objc_msgSend$popToViewController:animated:
++ _objc_msgSend$popViewControllerAnimated:
++ _objc_msgSend$postNotificationName:object:
++ _objc_msgSend$postNotificationName:object:userInfo:
++ _objc_msgSend$preferredContentSizeCategory
++ _objc_msgSend$preferredMaximumResolution
++ _objc_msgSend$present
++ _objc_msgSend$presentEngagement
++ _objc_msgSend$presentViewController:animated:completion:
++ _objc_msgSend$principalClass
++ _objc_msgSend$processIdentifier
++ _objc_msgSend$pushViewController:animated:
++ _objc_msgSend$queuePriority
++ _objc_msgSend$range
++ _objc_msgSend$rangeEnclosingPosition:withGranularity:inDirection:
++ _objc_msgSend$rate
++ _objc_msgSend$remoteObjectProxyWithErrorHandler:
++ _objc_msgSend$removeFromSuperview
++ _objc_msgSend$removeObserver:
++ _objc_msgSend$removeObserver:forKeyPath:context:
++ _objc_msgSend$removeObserver:name:object:
++ _objc_msgSend$removeTimeObserver:
++ _objc_msgSend$replaceCurrentItemWithPlayerItem:
++ _objc_msgSend$resultWithError:
++ _objc_msgSend$resume
++ _objc_msgSend$safeAreaInsets
++ _objc_msgSend$safeAreaLayoutGuide
++ _objc_msgSend$scaledCornerRadiusForSize:
++ _objc_msgSend$sceneCaptureState
++ _objc_msgSend$seekToTime:
++ _objc_msgSend$seekToTime:completionHandler:
++ _objc_msgSend$sendCUINoDelegateCallbackEventWithResolveData:className:
++ _objc_msgSend$sessionWithConfiguration:
++ _objc_msgSend$setAccessibilityIdentifier:
++ _objc_msgSend$setAccessibilityLabel:
++ _objc_msgSend$setAccessibilityTraits:
++ _objc_msgSend$setAccount:
++ _objc_msgSend$setAccountPropertiesTransformer:
++ _objc_msgSend$setActionAtItemEnd:
++ _objc_msgSend$setActivityIndicatorViewStyle:
++ _objc_msgSend$setAdjustsFontForContentSizeCategory:
++ _objc_msgSend$setAlignment:
++ _objc_msgSend$setAllowsEnteringFullScreen:
++ _objc_msgSend$setAlpha:
++ _objc_msgSend$setAnonymous:
++ _objc_msgSend$setAnonymousMetrics:
++ _objc_msgSend$setAttributedText:
++ _objc_msgSend$setAutoresizingMask:
++ _objc_msgSend$setBackgroundColor:
++ _objc_msgSend$setBorderColor:
++ _objc_msgSend$setBorderWidth:
++ _objc_msgSend$setBounds:
++ _objc_msgSend$setButtonAction:
++ _objc_msgSend$setButtonTitle:
++ _objc_msgSend$setCanPausePlaybackWhenExitingFullScreen:
++ _objc_msgSend$setCanToggleVideoGravityWhenEmbeddedInline:
++ _objc_msgSend$setCategory:mode:options:error:
++ _objc_msgSend$setCenter:
++ _objc_msgSend$setCenterText:
++ _objc_msgSend$setChildViewController:
++ _objc_msgSend$setCircular:
++ _objc_msgSend$setClientInfo:
++ _objc_msgSend$setClipsToBounds:
++ _objc_msgSend$setConstant:
++ _objc_msgSend$setContentHuggingPriority:forAxis:
++ _objc_msgSend$setContentInset:
++ _objc_msgSend$setContentMode:
++ _objc_msgSend$setCornerCurve:
++ _objc_msgSend$setCornerRadius:
++ _objc_msgSend$setDefaultTabInterval:
++ _objc_msgSend$setEditable:
++ _objc_msgSend$setEventPlacement:
++ _objc_msgSend$setEventServiceType:
++ _objc_msgSend$setExportedInterface:
++ _objc_msgSend$setExportedObject:
++ _objc_msgSend$setFillColor:
++ _objc_msgSend$setFillRule:
++ _objc_msgSend$setFirstLineHeadIndent:
++ _objc_msgSend$setFont:
++ _objc_msgSend$setHTTPShouldUsePipelining:
++ _objc_msgSend$setHeadIndent:
++ _objc_msgSend$setHidden:
++ _objc_msgSend$setHidesBackButton:
++ _objc_msgSend$setImage:
++ _objc_msgSend$setInterruptionHandler:
++ _objc_msgSend$setInvalidationHandler:
++ _objc_msgSend$setIsAccessibilityElement:
++ _objc_msgSend$setLeftBarButtonItems:
++ _objc_msgSend$setLineBreakMode:
++ _objc_msgSend$setLineBreakStrategy:
++ _objc_msgSend$setLineFragmentPadding:
++ _objc_msgSend$setLineSpacing:
++ _objc_msgSend$setLineWidth:
++ _objc_msgSend$setLocale:
++ _objc_msgSend$setMaxConcurrentOperationCount:
++ _objc_msgSend$setMaximumContentSizeCategory:
++ _objc_msgSend$setMaximumNumberOfLines:
++ _objc_msgSend$setMessage:
++ _objc_msgSend$setMetricsOverlay:
++ _objc_msgSend$setModalPresentationStyle:
++ _objc_msgSend$setMuted:
++ _objc_msgSend$setName:
++ _objc_msgSend$setNumberStyle:
++ _objc_msgSend$setOverrideLayoutMarginsWhenEmbeddedInline:
++ _objc_msgSend$setParagraphSpacing:
++ _objc_msgSend$setPlaybackControlsIncludeVolumeControls:
++ _objc_msgSend$setPlayer:
++ _objc_msgSend$setPreferredForwardBufferDuration:
++ _objc_msgSend$setPreferredMaximumResolution:
++ _objc_msgSend$setPreferredUnobscuredArea:
++ _objc_msgSend$setPreventsDisplaySleepDuringVideoPlayback:
++ _objc_msgSend$setPriority:
++ _objc_msgSend$setQualityOfService:
++ _objc_msgSend$setQueuePriority:
++ _objc_msgSend$setRemoteObjectInterface:
++ _objc_msgSend$setRightBarButtonItems:
++ _objc_msgSend$setScrollEnabled:
++ _objc_msgSend$setSelectable:
++ _objc_msgSend$setSelectedTextRange:
++ _objc_msgSend$setShowsHorizontalScrollIndicator:
++ _objc_msgSend$setShowsMinimalPlaybackControlsWhenEmbeddedInline:
++ _objc_msgSend$setShowsPlaybackControls:
++ _objc_msgSend$setShowsVerticalScrollIndicator:
++ _objc_msgSend$setStandardAppearance:
++ _objc_msgSend$setStrokeColor:
++ _objc_msgSend$setTabStops:
++ _objc_msgSend$setText:
++ _objc_msgSend$setTextAlignment:
++ _objc_msgSend$setTextColor:
++ _objc_msgSend$setTextContainerInset:
++ _objc_msgSend$setTextStorage:
++ _objc_msgSend$setTimeoutIntervalForRequest:
++ _objc_msgSend$setTintColor:
++ _objc_msgSend$setTitle:
++ _objc_msgSend$setTransitioningDelegate:
++ _objc_msgSend$setTranslatesAutoresizingMaskIntoConstraints:
++ _objc_msgSend$setUpWithCompletion:
++ _objc_msgSend$setUpdatesNowPlayingInfoCenter:
++ _objc_msgSend$setUrl:
++ _objc_msgSend$setUserInteractionEnabled:
++ _objc_msgSend$setUsesSecondGenerationControls:
++ _objc_msgSend$setVideoGravity:forLayoutClass:
++ _objc_msgSend$setViewControllers:
++ _objc_msgSend$setViewControllers:animated:
++ _objc_msgSend$settingsURL
++ _objc_msgSend$sharedApplication
++ _objc_msgSend$sharedDefaultEvaluator
++ _objc_msgSend$sharedSession
++ _objc_msgSend$showsPlaybackControls
++ _objc_msgSend$sizeThatFits:
++ _objc_msgSend$sizeWithWidthDimension:heightDimension:
++ _objc_msgSend$smallSystemFontSize
++ _objc_msgSend$sortedArrayUsingComparator:
++ _objc_msgSend$standardAppearance
++ _objc_msgSend$start
++ _objc_msgSend$startAnimating
++ _objc_msgSend$state
++ _objc_msgSend$status
++ _objc_msgSend$statusCode
++ _objc_msgSend$statusOfValueForKey:error:
++ _objc_msgSend$stringFromNumber:
++ _objc_msgSend$superview
++ _objc_msgSend$symbolicTraits
++ _objc_msgSend$systemBlueColor
++ _objc_msgSend$systemGrayColor
++ _objc_msgSend$systemGreenColor
++ _objc_msgSend$systemImageNamed:withConfiguration:
++ _objc_msgSend$systemIndigoColor
++ _objc_msgSend$systemLayoutSizeFittingSize:
++ _objc_msgSend$systemLayoutSizeFittingSize:withHorizontalFittingPriority:verticalFittingPriority:
++ _objc_msgSend$systemOrangeColor
++ _objc_msgSend$systemPinkColor
++ _objc_msgSend$systemPurpleColor
++ _objc_msgSend$systemRedColor
++ _objc_msgSend$systemYellowColor
++ _objc_msgSend$tearDownWithCompletion:
++ _objc_msgSend$text
++ _objc_msgSend$textContainer
++ _objc_msgSend$timebase
++ _objc_msgSend$title
++ _objc_msgSend$tokenizer
++ _objc_msgSend$toolbarItemPresentationSize
++ _objc_msgSend$topAnchor
++ _objc_msgSend$topViewController
++ _objc_msgSend$touchesBegan:withEvent:
++ _objc_msgSend$touchesCancelled:withEvent:
++ _objc_msgSend$touchesEnded:withEvent:
++ _objc_msgSend$trailingAnchor
++ _objc_msgSend$traitCollection
++ _objc_msgSend$transitionCoordinator
++ _objc_msgSend$type
++ _objc_msgSend$typeForURL:
++ _objc_msgSend$unlock
++ _objc_msgSend$unsetChildViewController:
++ _objc_msgSend$updateAudioSessionCategoryWithIsAudioOn:
++ _objc_msgSend$updateTraitsIfNeeded
++ _objc_msgSend$updateWithAccount:completion:
++ _objc_msgSend$userInfo
++ _objc_msgSend$userInterfaceIdiom
++ _objc_msgSend$userInterfaceLevel
++ _objc_msgSend$userInterfaceStyle
++ _objc_msgSend$valuePromise
++ _objc_msgSend$valueWithCMTime:
++ _objc_msgSend$valueWithError:
++ _objc_msgSend$valueWithNewObjectInContext:
++ _objc_msgSend$valueWithObject:inContext:
++ _objc_msgSend$valueWithUIEdgeInsets:
++ _objc_msgSend$verticalSizeClass
++ _objc_msgSend$view
++ _objc_msgSend$viewControllers
++ _objc_msgSend$wapiCapability
++ _objc_msgSend$whiteColor
++ _objc_msgSend$widthAnchor
++ _objc_retain_x10
++ _objectdestroy.33Tm
++ _objectdestroy.46Tm
++ _symbolic _____m 27AppleMediaServicesUIDynamic18DelegateControllerC
+- ___swift_coroFrameAllocStub
+- __swift_FORCE_LOAD_$_swiftCompression
+- __swift_FORCE_LOAD_$_swiftCompression_$_AppleMediaServicesUIDynamic
+- _block_copy_helper.20
+- _block_copy_helper.56
+- _block_copy_helper.64
+- _block_copy_helper.95
+- _block_descriptor.22
+- _block_descriptor.58
+- _block_descriptor.66
+- _block_descriptor.97
+- _block_destroy_helper.21
+- _block_destroy_helper.57
+- _block_destroy_helper.65
+- _block_destroy_helper.96
+- _malloc
+- _objc_retainAutoreleaseReturnValue
+- _objc_retain_x3
+- _objc_retain_x9
+- _objectdestroy.32Tm
+- _objectdestroy.45Tm
+- _sqrt
+CStrings:
++ "FrameworkDynamicUIPlugin"
++ "executing"
++ "sendCUINoDelegateCallbackEventWithResolveData:className:"
+
+```

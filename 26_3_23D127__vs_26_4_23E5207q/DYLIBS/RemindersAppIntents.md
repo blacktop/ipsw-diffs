@@ -1,0 +1,1465 @@
+## RemindersAppIntents
+
+> `/System/Library/PrivateFrameworks/RemindersAppIntents.framework/RemindersAppIntents`
+
+```diff
+
+-3900.1.0.0.0
+-  __TEXT.__text: 0x218508
+-  __TEXT.__auth_stubs: 0x49e0
++3970.0.0.0.0
++  __TEXT.__text: 0x252100
++  __TEXT.__auth_stubs: 0x4c10
+   __TEXT.__objc_methlist: 0x26c
+-  __TEXT.__const: 0x12ec4
+-  __TEXT.__cstring: 0x10a03
+-  __TEXT.__constg_swiftt: 0x3bc8
+-  __TEXT.__swift5_typeref: 0x78ea
++  __TEXT.__const: 0x13cd4
++  __TEXT.__swift5_typeref: 0x7a68
++  __TEXT.__swift5_reflstr: 0x47af
++  __TEXT.__swift5_assocty: 0x2100
++  __TEXT.__constg_swiftt: 0x3fc4
++  __TEXT.__swift5_fieldmd: 0x3b40
+   __TEXT.__swift5_builtin: 0xb4
+-  __TEXT.__swift5_reflstr: 0x408f
+-  __TEXT.__swift5_fieldmd: 0x36ac
+-  __TEXT.__swift5_types: 0x354
+-  __TEXT.__swift5_capture: 0x310
+-  __TEXT.__swift5_protos: 0x114
+-  __TEXT.__swift_as_entry: 0x6b0
+-  __TEXT.__swift_as_ret: 0x5fc
+-  __TEXT.__swift5_assocty: 0x1eb8
+-  __TEXT.__swift5_proto: 0xd48
+-  __TEXT.__oslogstring: 0x566a
++  __TEXT.__cstring: 0xef2a
++  __TEXT.__swift5_proto: 0xf14
++  __TEXT.__swift5_types: 0x3a8
++  __TEXT.__swift_as_entry: 0x6f8
++  __TEXT.__swift_as_ret: 0x648
++  __TEXT.__swift5_capture: 0x300
++  __TEXT.__swift5_protos: 0x134
++  __TEXT.__oslogstring: 0x5cc3
+   __TEXT.__swift5_mpenum: 0x3c
+-  __TEXT.__unwind_info: 0x7a68
+-  __TEXT.__eh_frame: 0xb47c
+-  __TEXT.__objc_classname: 0x51
+-  __TEXT.__objc_methname: 0x1883
+-  __TEXT.__objc_methtype: 0x16a
+-  __DATA_CONST.__got: 0x1268
+-  __DATA_CONST.__const: 0x1b78
+-  __DATA_CONST.__objc_classlist: 0x80
++  __TEXT.__unwind_info: 0x79a8
++  __TEXT.__eh_frame: 0xbd18
++  __TEXT.__objc_classname: 0xa83
++  __TEXT.__objc_methname: 0x23f7
++  __TEXT.__objc_methtype: 0x226
++  __TEXT.__objc_stubs: 0x2300
++  __DATA_CONST.__got: 0x1120
++  __DATA_CONST.__const: 0x1ed0
++  __DATA_CONST.__objc_classlist: 0xb0
+   __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x940
++  __DATA_CONST.__objc_selrefs: 0x988
+   __DATA_CONST.__objc_protorefs: 0x20
+-  __AUTH_CONST.__auth_got: 0x24f0
+-  __AUTH_CONST.__const: 0x7be0
+-  __AUTH_CONST.__objc_const: 0x1930
+-  __AUTH.__objc_data: 0x488
+-  __AUTH.__data: 0x1a90
+-  __DATA.__data: 0x51d8
+-  __DATA.__bss: 0x154a0
+-  __DATA.__common: 0xe8
+-  __DATA_DIRTY.__objc_data: 0xa0
+-  __DATA_DIRTY.__data: 0x1000
+-  __DATA_DIRTY.__bss: 0x4200
+-  __DATA_DIRTY.__common: 0x70
++  __AUTH_CONST.__auth_got: 0x2610
++  __AUTH_CONST.__const: 0x8528
++  __AUTH_CONST.__objc_const: 0x2128
++  __AUTH.__objc_data: 0x650
++  __AUTH.__data: 0x20f8
++  __DATA.__data: 0x4c40
++  __DATA.__bss: 0x14800
++  __DATA.__common: 0x128
++  __DATA_DIRTY.__objc_data: 0xf0
++  __DATA_DIRTY.__data: 0x18c8
++  __DATA_DIRTY.__bss: 0x7d80
++  __DATA_DIRTY.__common: 0x98
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/CoreTransferable.framework/CoreTransferable
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/GeoToolbox.framework/GeoToolbox
++  - /System/Library/Frameworks/MapKit.framework/MapKit
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/Frameworks/UserNotifications.framework/UserNotifications
+   - /System/Library/Frameworks/_AppIntents_UIKit.framework/_AppIntents_UIKit
++  - /System/Library/Frameworks/_GeoToolbox_AppIntents.framework/_GeoToolbox_AppIntents
+   - /System/Library/PrivateFrameworks/AppIntentsServices.framework/AppIntentsServices
+   - /System/Library/PrivateFrameworks/ReminderKit.framework/ReminderKit
+   - /System/Library/PrivateFrameworks/ReminderKitInternal.framework/ReminderKitInternal
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0930C773-2012-3BE2-9BB6-90623A443E30
+-  Functions: 9766
+-  Symbols:   3059
+-  CStrings:  1849
++  UUID: E12090BB-1EA9-350C-88A6-64398D97E997
++  Functions: 10217
++  Symbols:   3515
++  CStrings:  1795
+ 
+Symbols:
++ _OBJC_CLASS_$_MKMapItemRequest
++ _OBJC_CLASS_$_NSError
++ _OBJC_CLASS_$_REMListSectionsDataView
++ _OBJC_CLASS_$_REMSmartListSectionsDataView
++ _REMErrorDomain
++ __DATA__TtC19RemindersAppIntents25MockIntentDonationManager
++ __DATA__TtC19RemindersAppIntents27AccountEntityRepresentation
++ __DATA__TtC19RemindersAppIntents29AppIntentInteractionPublisher
++ __DATA__TtC19RemindersAppIntents33AccountCapabilitiesRepresentation
++ __DATA__TtC19RemindersAppIntents33CreateSectionAppIntentInteraction
++ __DATA__TtC19RemindersAppIntents33UpdateSectionAppIntentInteraction
++ __DATA__TtC19RemindersAppIntents34CreateReminderAppIntentInteraction
++ __DATA__TtC19RemindersAppIntents34UpdateReminderAppIntentInteraction
++ __DATA__TtC19RemindersAppIntents35LocationTriggerEntityRepresentation
++ __IVARS__TtC19RemindersAppIntents27AccountEntityRepresentation
++ __IVARS__TtC19RemindersAppIntents29AppIntentInteractionPublisher
++ __IVARS__TtC19RemindersAppIntents33AccountCapabilitiesRepresentation
++ __IVARS__TtC19RemindersAppIntents33CreateSectionAppIntentInteraction
++ __IVARS__TtC19RemindersAppIntents33UpdateSectionAppIntentInteraction
++ __IVARS__TtC19RemindersAppIntents34CreateReminderAppIntentInteraction
++ __IVARS__TtC19RemindersAppIntents34UpdateReminderAppIntentInteraction
++ __IVARS__TtC19RemindersAppIntents35LocationTriggerEntityRepresentation
++ __METACLASS_DATA__TtC19RemindersAppIntents25MockIntentDonationManager
++ __METACLASS_DATA__TtC19RemindersAppIntents27AccountEntityRepresentation
++ __METACLASS_DATA__TtC19RemindersAppIntents29AppIntentInteractionPublisher
++ __METACLASS_DATA__TtC19RemindersAppIntents33AccountCapabilitiesRepresentation
++ __METACLASS_DATA__TtC19RemindersAppIntents33CreateSectionAppIntentInteraction
++ __METACLASS_DATA__TtC19RemindersAppIntents33UpdateSectionAppIntentInteraction
++ __METACLASS_DATA__TtC19RemindersAppIntents34CreateReminderAppIntentInteraction
++ __METACLASS_DATA__TtC19RemindersAppIntents34UpdateReminderAppIntentInteraction
++ __METACLASS_DATA__TtC19RemindersAppIntents35LocationTriggerEntityRepresentation
++ ___swift_destroy_boxed_opaque_existential_2Tm
++ ___swift_memcpy144_8
++ ___swift_memcpy152_8
++ ___swift_memcpy184_8
++ ___swift_memcpy208_8
++ ___swift_memcpy88_8
++ ___swift_memcpy96_8
++ ___swift_project_boxed_opaque_existential_0
++ ___swift_project_boxed_opaque_existential_2
++ ___unnamed_3
++ _associated conformance 10AppIntents21IntentDonationManagerV09RemindersaB00cD10PublishingAD14IdentifierTypeAdEP_AD0cdhI0
++ _associated conformance 19RemindersAppIntents014GetDefaultListB20IntentRepresentationVAA05TypedbG13RepresentableAA8BaseTypeAaDP_0bC00bG0
++ _associated conformance 19RemindersAppIntents014GetDefaultListB6IntentV0bC00bG0AA13PerformResultAdEP_AD0gI0
++ _associated conformance 19RemindersAppIntents014GetDefaultListB6IntentV0bC00bG0AA14SummaryContentAdEP_AD09ParameterH0
++ _associated conformance 19RemindersAppIntents014GetDefaultListB6IntentV0bC00bG0AaD09_SupportsB12Dependencies
++ _associated conformance 19RemindersAppIntents014GetDefaultListB6IntentV0bC00bG0AaD24PersistentlyIdentifiable
++ _associated conformance 19RemindersAppIntents0B22IntentInteractionTokenVSHAASQ
++ _associated conformance 19RemindersAppIntents10ListEntityV0D4TypeOAA26EnumRepresentationMappableAA0gH0AaFP_0bC8Services0bgH0
++ _associated conformance 19RemindersAppIntents10ListEntityV0bC0014_CollaborativeE0AaD0bE0
++ _associated conformance 19RemindersAppIntents13AccountEntityV0bC00B5ValueAaD07_IntentF0
++ _associated conformance 19RemindersAppIntents13AccountEntityV0bC00B5ValueAaD24PersistentlyIdentifiable
++ _associated conformance 19RemindersAppIntents13AccountEntityV0bC00B5ValueAaD24TypeDisplayRepresentable
++ _associated conformance 19RemindersAppIntents13AccountEntityV0bC00bE0AA12DefaultQueryAdEP_AD0eG0
++ _associated conformance 19RemindersAppIntents13AccountEntityV0bC00bE0AA2IDs12IdentifiableP_AD0E21IdentifierConvertible
++ _associated conformance 19RemindersAppIntents13AccountEntityV0bC00bE0AAs12Identifiable
++ _associated conformance 19RemindersAppIntents13AccountEntityV0bC00bE0AaD0B5Value
++ _associated conformance 19RemindersAppIntents13AccountEntityV0bC00bE0AaD20DisplayRepresentable
++ _associated conformance 19RemindersAppIntents13AccountEntityV0bC012_IntentValueAA0G4TypeAdEP_AdE
++ _associated conformance 19RemindersAppIntents13AccountEntityV0bC012_IntentValueAA13SpecificationAdEP_AD08ResolverH0
++ _associated conformance 19RemindersAppIntents13AccountEntityV0bC012_IntentValueAA13UnwrappedTypeAdEP_AdE
++ _associated conformance 19RemindersAppIntents13AccountEntityV0bC020DisplayRepresentableAaD04TypefG0
++ _associated conformance 19RemindersAppIntents13AccountEntityV0bC020DisplayRepresentableAaD08InstancefG0
++ _associated conformance 19RemindersAppIntents13AccountEntityV0bC028InstanceDisplayRepresentableAA10Foundation40CustomLocalizedStringResourceConvertible
++ _associated conformance 19RemindersAppIntents13AccountEntityVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 19RemindersAppIntents14ReminderEntityV0bC0014_CollaborativeE0AaD0bE0
++ _associated conformance 19RemindersAppIntents14VehicleTriggerO0bC00B4EnumAA8RawValueSY_s25LosslessStringConvertible
++ _associated conformance 19RemindersAppIntents14VehicleTriggerO0bC00B4EnumAASY
++ _associated conformance 19RemindersAppIntents14VehicleTriggerO0bC00B4EnumAaD0B5Value
++ _associated conformance 19RemindersAppIntents14VehicleTriggerO0bC00B4EnumAaD26StaticDisplayRepresentable
++ _associated conformance 19RemindersAppIntents14VehicleTriggerO0bC00B5ValueAaD07_IntentF0
++ _associated conformance 19RemindersAppIntents14VehicleTriggerO0bC00B5ValueAaD24PersistentlyIdentifiable
++ _associated conformance 19RemindersAppIntents14VehicleTriggerO0bC00B5ValueAaD24TypeDisplayRepresentable
++ _associated conformance 19RemindersAppIntents14VehicleTriggerO0bC012_IntentValueAA0G4TypeAdEP_AdE
++ _associated conformance 19RemindersAppIntents14VehicleTriggerO0bC012_IntentValueAA13SpecificationAdEP_AD08ResolverH0
++ _associated conformance 19RemindersAppIntents14VehicleTriggerO0bC012_IntentValueAA13UnwrappedTypeAdEP_AdE
++ _associated conformance 19RemindersAppIntents14VehicleTriggerO0bC024CaseDisplayRepresentableAA10Foundation40CustomLocalizedStringResourceConvertible
++ _associated conformance 19RemindersAppIntents14VehicleTriggerO0bC024CaseDisplayRepresentableAASH
++ _associated conformance 19RemindersAppIntents14VehicleTriggerO0bC024CaseDisplayRepresentableAAs0F8Iterable
++ _associated conformance 19RemindersAppIntents14VehicleTriggerO0bC026StaticDisplayRepresentableAaD04CasegH0
++ _associated conformance 19RemindersAppIntents14VehicleTriggerO0bC026StaticDisplayRepresentableAaD04TypegH0
++ _associated conformance 19RemindersAppIntents14VehicleTriggerOAA26EnumRepresentationMappableAA0fG0AaDP_0bC8Services0bfG0
++ _associated conformance 19RemindersAppIntents14VehicleTriggerOSHAASQ
++ _associated conformance 19RemindersAppIntents14VehicleTriggerOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 19RemindersAppIntents18AccountEntityQueryV0bC00eF0AA0E0AdEP_AD0bE0
++ _associated conformance 19RemindersAppIntents18AccountEntityQueryV0bC00eF0AaD22DynamicOptionsProvider
++ _associated conformance 19RemindersAppIntents18AccountEntityQueryV0bC00eF0AaD24PersistentlyIdentifiable
++ _associated conformance 19RemindersAppIntents18AccountEntityQueryV0bC022DynamicOptionsProviderAA12DefaultValueAdEP_AD07_IntentK0
++ _associated conformance 19RemindersAppIntents18AccountEntityQueryV0bC022DynamicOptionsProviderAA6ResultAdEP_AD17ResultsCollection
++ _associated conformance 19RemindersAppIntents18AccountEntityQueryV0bC022DynamicOptionsProviderAaD09_SupportsB12Dependencies
++ _associated conformance 19RemindersAppIntents19AccountCapabilitiesV0bC009TransientB6EntityAaD0bG0
++ _associated conformance 19RemindersAppIntents19AccountCapabilitiesV0bC00B5ValueAaD07_IntentF0
++ _associated conformance 19RemindersAppIntents19AccountCapabilitiesV0bC00B5ValueAaD24PersistentlyIdentifiable
++ _associated conformance 19RemindersAppIntents19AccountCapabilitiesV0bC00B5ValueAaD24TypeDisplayRepresentable
++ _associated conformance 19RemindersAppIntents19AccountCapabilitiesV0bC00B6EntityAA12DefaultQueryAdEP_AD0fH0
++ _associated conformance 19RemindersAppIntents19AccountCapabilitiesV0bC00B6EntityAA2IDs12IdentifiableP_AD0F21IdentifierConvertible
++ _associated conformance 19RemindersAppIntents19AccountCapabilitiesV0bC00B6EntityAAs12Identifiable
++ _associated conformance 19RemindersAppIntents19AccountCapabilitiesV0bC00B6EntityAaD0B5Value
++ _associated conformance 19RemindersAppIntents19AccountCapabilitiesV0bC00B6EntityAaD20DisplayRepresentable
++ _associated conformance 19RemindersAppIntents19AccountCapabilitiesV0bC012_IntentValueAA0G4TypeAdEP_AdE
++ _associated conformance 19RemindersAppIntents19AccountCapabilitiesV0bC012_IntentValueAA13SpecificationAdEP_AD08ResolverH0
++ _associated conformance 19RemindersAppIntents19AccountCapabilitiesV0bC012_IntentValueAA13UnwrappedTypeAdEP_AdE
++ _associated conformance 19RemindersAppIntents19AccountCapabilitiesV0bC020DisplayRepresentableAaD04TypefG0
++ _associated conformance 19RemindersAppIntents19AccountCapabilitiesV0bC020DisplayRepresentableAaD08InstancefG0
++ _associated conformance 19RemindersAppIntents19AccountCapabilitiesV0bC028InstanceDisplayRepresentableAA10Foundation40CustomLocalizedStringResourceConvertible
++ _associated conformance 19RemindersAppIntents19AccountCapabilitiesVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 19RemindersAppIntents20LocationTriggerEventO0bC00B4EnumAA8RawValueSY_s25LosslessStringConvertible
++ _associated conformance 19RemindersAppIntents20LocationTriggerEventO0bC00B4EnumAASY
++ _associated conformance 19RemindersAppIntents20LocationTriggerEventO0bC00B4EnumAaD0B5Value
++ _associated conformance 19RemindersAppIntents20LocationTriggerEventO0bC00B4EnumAaD26StaticDisplayRepresentable
++ _associated conformance 19RemindersAppIntents20LocationTriggerEventO0bC00B5ValueAaD07_IntentG0
++ _associated conformance 19RemindersAppIntents20LocationTriggerEventO0bC00B5ValueAaD24PersistentlyIdentifiable
++ _associated conformance 19RemindersAppIntents20LocationTriggerEventO0bC00B5ValueAaD24TypeDisplayRepresentable
++ _associated conformance 19RemindersAppIntents20LocationTriggerEventO0bC012_IntentValueAA0H4TypeAdEP_AdE
++ _associated conformance 19RemindersAppIntents20LocationTriggerEventO0bC012_IntentValueAA13SpecificationAdEP_AD08ResolverI0
++ _associated conformance 19RemindersAppIntents20LocationTriggerEventO0bC012_IntentValueAA13UnwrappedTypeAdEP_AdE
++ _associated conformance 19RemindersAppIntents20LocationTriggerEventO0bC024CaseDisplayRepresentableAA10Foundation40CustomLocalizedStringResourceConvertible
++ _associated conformance 19RemindersAppIntents20LocationTriggerEventO0bC024CaseDisplayRepresentableAASH
++ _associated conformance 19RemindersAppIntents20LocationTriggerEventO0bC024CaseDisplayRepresentableAAs0G8Iterable
++ _associated conformance 19RemindersAppIntents20LocationTriggerEventO0bC026StaticDisplayRepresentableAaD04CasehI0
++ _associated conformance 19RemindersAppIntents20LocationTriggerEventO0bC026StaticDisplayRepresentableAaD04TypehI0
++ _associated conformance 19RemindersAppIntents20LocationTriggerEventOAA26EnumRepresentationMappableAA0gH0AaDP_0bC8Services0bgH0
++ _associated conformance 19RemindersAppIntents20LocationTriggerEventOSHAASQ
++ _associated conformance 19RemindersAppIntents20LocationTriggerEventOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 19RemindersAppIntents21LocationTriggerEntityV0bC009TransientbF0AaD0bF0
++ _associated conformance 19RemindersAppIntents21LocationTriggerEntityV0bC00B5ValueAaD07_IntentG0
++ _associated conformance 19RemindersAppIntents21LocationTriggerEntityV0bC00B5ValueAaD24PersistentlyIdentifiable
++ _associated conformance 19RemindersAppIntents21LocationTriggerEntityV0bC00B5ValueAaD24TypeDisplayRepresentable
++ _associated conformance 19RemindersAppIntents21LocationTriggerEntityV0bC00bF0AA12DefaultQueryAdEP_AD0fH0
++ _associated conformance 19RemindersAppIntents21LocationTriggerEntityV0bC00bF0AA2IDs12IdentifiableP_AD0F21IdentifierConvertible
++ _associated conformance 19RemindersAppIntents21LocationTriggerEntityV0bC00bF0AAs12Identifiable
++ _associated conformance 19RemindersAppIntents21LocationTriggerEntityV0bC00bF0AaD0B5Value
++ _associated conformance 19RemindersAppIntents21LocationTriggerEntityV0bC00bF0AaD20DisplayRepresentable
++ _associated conformance 19RemindersAppIntents21LocationTriggerEntityV0bC012_IntentValueAA0H4TypeAdEP_AdE
++ _associated conformance 19RemindersAppIntents21LocationTriggerEntityV0bC012_IntentValueAA13SpecificationAdEP_AD08ResolverI0
++ _associated conformance 19RemindersAppIntents21LocationTriggerEntityV0bC012_IntentValueAA13UnwrappedTypeAdEP_AdE
++ _associated conformance 19RemindersAppIntents21LocationTriggerEntityV0bC020DisplayRepresentableAaD04TypegH0
++ _associated conformance 19RemindersAppIntents21LocationTriggerEntityV0bC020DisplayRepresentableAaD08InstancegH0
++ _associated conformance 19RemindersAppIntents21LocationTriggerEntityV0bC028InstanceDisplayRepresentableAA10Foundation40CustomLocalizedStringResourceConvertible
++ _associated conformance 19RemindersAppIntents21LocationTriggerEntityVAA09TransientF22RepresentationMappableAA0fH0AaDP_0bC8Services01_gbfH0
++ _associated conformance 19RemindersAppIntents21LocationTriggerEntityVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 19RemindersAppIntents25MockIntentDonationManagerCAA0eF10PublishingAA14IdentifierTypeAaDP_AA0efiJ0
++ _associated conformance 19RemindersAppIntents28VehicleTriggerRepresentationO0bC8Services0b4EnumF0AA8RawValueSY_s25LosslessStringConvertible
++ _associated conformance 19RemindersAppIntents28VehicleTriggerRepresentationO0bC8Services0b4EnumF0AASY
++ _associated conformance 19RemindersAppIntents28VehicleTriggerRepresentationO0bC8Services0b4EnumF0AAs12CaseIterable
++ _associated conformance 19RemindersAppIntents28VehicleTriggerRepresentationO0bC8Services0b4EnumF0AaD27IntentValueTypeIdentifiable
++ _associated conformance 19RemindersAppIntents28VehicleTriggerRepresentationO0bC8Services0b4EnumF0AaD28IntentValueOptionalWrappable
++ _associated conformance 19RemindersAppIntents28VehicleTriggerRepresentationO0bC8Services11IntentValueAaD23EntityPropertyWrappable
++ _associated conformance 19RemindersAppIntents28VehicleTriggerRepresentationO0bC8Services26IntentValueSequenceElementAaD0hI0
++ _associated conformance 19RemindersAppIntents28VehicleTriggerRepresentationO0bC8Services27IntentValueTypeIdentifiableAaD0hI15SequenceElement
++ _associated conformance 19RemindersAppIntents28VehicleTriggerRepresentationO0bC8Services28IntentValueOptionalWrappableAaD0hI0
++ _associated conformance 19RemindersAppIntents28VehicleTriggerRepresentationOAA05TypedB17EnumRepresentableAA8BaseTypeAaDP_0bC00bH0
++ _associated conformance 19RemindersAppIntents28VehicleTriggerRepresentationOAA0B12EnumMappableAA0G4TypeAaDP_0bC00bG0
++ _associated conformance 19RemindersAppIntents28VehicleTriggerRepresentationOSHAASQ
++ _associated conformance 19RemindersAppIntents28VehicleTriggerRepresentationOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 19RemindersAppIntents33AccountCapabilitiesRepresentationC0bC8Services010_Transientb6EntityF0AaD0bI14TypeDescribing
++ _associated conformance 19RemindersAppIntents33AccountCapabilitiesRepresentationC0bC8Services010_Transientb6EntityF0AaD0biF0
++ _associated conformance 19RemindersAppIntents33AccountCapabilitiesRepresentationC0bC8Services010_Transientb6EntityF0AaD27IntentValueTypeIdentifiable
++ _associated conformance 19RemindersAppIntents33AccountCapabilitiesRepresentationC0bC8Services010_Transientb6EntityF0AaD28IntentValueOptionalWrappable
++ _associated conformance 19RemindersAppIntents33AccountCapabilitiesRepresentationC0bC8Services0b6EntityF0AaD11IntentValue
++ _associated conformance 19RemindersAppIntents33AccountCapabilitiesRepresentationC0bC8Services0b6EntityF0AaD18OriginIdentifiable
++ _associated conformance 19RemindersAppIntents33AccountCapabilitiesRepresentationC0bC8Services0b6EntityF0AaD22TransferableExportable
++ _associated conformance 19RemindersAppIntents33AccountCapabilitiesRepresentationC0bC8Services11IntentValueAaD23EntityPropertyWrappable
++ _associated conformance 19RemindersAppIntents33AccountCapabilitiesRepresentationC0bC8Services26IntentValueSequenceElementAaD0hI0
++ _associated conformance 19RemindersAppIntents33AccountCapabilitiesRepresentationC0bC8Services27IntentValueTypeIdentifiableAaD0hI15SequenceElement
++ _associated conformance 19RemindersAppIntents33AccountCapabilitiesRepresentationC0bC8Services28IntentValueOptionalWrappableAaD0hI0
++ _associated conformance 19RemindersAppIntents33AccountCapabilitiesRepresentationCAA014TypedTransientB19EntityRepresentableAA8BaseTypeAaDP_0bC00hbI0
++ _associated conformance 19RemindersAppIntents35LocationTriggerEntityRepresentationC0bC8Services010_TransientbfG0AaD0bF14TypeDescribing
++ _associated conformance 19RemindersAppIntents35LocationTriggerEntityRepresentationC0bC8Services010_TransientbfG0AaD0bfG0
++ _associated conformance 19RemindersAppIntents35LocationTriggerEntityRepresentationC0bC8Services010_TransientbfG0AaD27IntentValueTypeIdentifiable
++ _associated conformance 19RemindersAppIntents35LocationTriggerEntityRepresentationC0bC8Services010_TransientbfG0AaD28IntentValueOptionalWrappable
++ _associated conformance 19RemindersAppIntents35LocationTriggerEntityRepresentationC0bC8Services0bfG0AaD11IntentValue
++ _associated conformance 19RemindersAppIntents35LocationTriggerEntityRepresentationC0bC8Services0bfG0AaD18OriginIdentifiable
++ _associated conformance 19RemindersAppIntents35LocationTriggerEntityRepresentationC0bC8Services0bfG0AaD22TransferableExportable
++ _associated conformance 19RemindersAppIntents35LocationTriggerEntityRepresentationC0bC8Services11IntentValueAaD0F17PropertyWrappable
++ _associated conformance 19RemindersAppIntents35LocationTriggerEntityRepresentationC0bC8Services26IntentValueSequenceElementAaD0iJ0
++ _associated conformance 19RemindersAppIntents35LocationTriggerEntityRepresentationC0bC8Services27IntentValueTypeIdentifiableAaD0iJ15SequenceElement
++ _associated conformance 19RemindersAppIntents35LocationTriggerEntityRepresentationC0bC8Services28IntentValueOptionalWrappableAaD0iJ0
++ _associated conformance 19RemindersAppIntents35LocationTriggerEntityRepresentationC0e5EventG0O0bC8Services0b4EnumG0AA8RawValueSY_s25LosslessStringConvertible
++ _associated conformance 19RemindersAppIntents35LocationTriggerEntityRepresentationC0e5EventG0O0bC8Services0b4EnumG0AASY
++ _associated conformance 19RemindersAppIntents35LocationTriggerEntityRepresentationC0e5EventG0O0bC8Services0b4EnumG0AAs12CaseIterable
++ _associated conformance 19RemindersAppIntents35LocationTriggerEntityRepresentationC0e5EventG0O0bC8Services0b4EnumG0AaF27IntentValueTypeIdentifiable
++ _associated conformance 19RemindersAppIntents35LocationTriggerEntityRepresentationC0e5EventG0O0bC8Services0b4EnumG0AaF28IntentValueOptionalWrappable
++ _associated conformance 19RemindersAppIntents35LocationTriggerEntityRepresentationC0e5EventG0O0bC8Services11IntentValueAaF0F17PropertyWrappable
++ _associated conformance 19RemindersAppIntents35LocationTriggerEntityRepresentationC0e5EventG0O0bC8Services26IntentValueSequenceElementAaF0jK0
++ _associated conformance 19RemindersAppIntents35LocationTriggerEntityRepresentationC0e5EventG0O0bC8Services27IntentValueTypeIdentifiableAaF0jK15SequenceElement
++ _associated conformance 19RemindersAppIntents35LocationTriggerEntityRepresentationC0e5EventG0O0bC8Services28IntentValueOptionalWrappableAaF0jK0
++ _associated conformance 19RemindersAppIntents35LocationTriggerEntityRepresentationC0e5EventG0OAA05TypedB17EnumRepresentableAA8BaseTypeAaFP_0bC00bJ0
++ _associated conformance 19RemindersAppIntents35LocationTriggerEntityRepresentationC0e5EventG0OAA0B12EnumMappableAA0I4TypeAaFP_0bC00bI0
++ _associated conformance 19RemindersAppIntents35LocationTriggerEntityRepresentationC0e5EventG0OSHAASQ
++ _associated conformance 19RemindersAppIntents35LocationTriggerEntityRepresentationC0e5EventG0Os12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 19RemindersAppIntents35LocationTriggerEntityRepresentationCAA014TypedTransientbF13RepresentableAA8BaseTypeAaDP_0bC00ibF0
++ _associated conformance 19RemindersAppIntents35LocationTriggerEntityRepresentationCAA09TransientbF8MappableAA0F4TypeAaDP_0bC00hbF0
++ _get_witness_table 10AppIntents21IntentResultContainerVy09RemindersaB010ListEntityVAA13OpenURLIntentVs5NeverOAJGAA05OpensC0HPyHC.13
++ _get_witness_table 10AppIntents21IntentResultContainerVy09RemindersaB010ListEntityVAA13OpenURLIntentVs5NeverOAJGAA12ReturnsValueHPyHC.14
++ _get_witness_table 10AppIntents21IntentResultContainerVy09RemindersaB010ListEntityVs5NeverOA2HGAA12ReturnsValueHPyHC.31
++ _get_witness_table 10AppIntents21IntentResultContainerVy09RemindersaB010ListEntityVs5NeverOA2HGAA12ReturnsValueHPyHC.7
++ _get_witness_table 10AppIntents21IntentResultContainerVy09RemindersaB013SectionEntityVAA13OpenURLIntentVs5NeverOAJGAA05OpensC0HPyHC.11
++ _get_witness_table 10AppIntents21IntentResultContainerVy09RemindersaB013SectionEntityVAA13OpenURLIntentVs5NeverOAJGAA12ReturnsValueHPyHC.12
++ _get_witness_table 10AppIntents21IntentResultContainerVy09RemindersaB013SectionEntityVs5NeverOA2HGAA12ReturnsValueHPyHC.11
++ _get_witness_table 10AppIntents21IntentResultContainerVy09RemindersaB014ReminderEntityVs5NeverOA2HGAA12ReturnsValueHPyHC.48
++ _get_witness_table 10AppIntents22IntentParameterSummaryVy09RemindersaB0010CreateListaC0VGAA0dE0HPyHC.12
++ _get_witness_table 10AppIntents22IntentParameterSummaryVy09RemindersaB0013CreateSectionaC0VGAA0dE0HPyHC.10
++ _get_witness_table 8CloudKit29CKShareTransferRepresentationVy19RemindersAppIntents10ListEntityVG16CoreTransferable0dE0HPyHC.61
++ _keypath_get_selector_supportsGroceriesList
++ _objc_msgSend$_trackedReminderChangeItemForObjectID:
++ _objc_msgSend$account
++ _objc_msgSend$accountCapabilities
++ _objc_msgSend$accountID
++ _objc_msgSend$accountTypeHost
++ _objc_msgSend$activateConstraints:
++ _objc_msgSend$addChildViewController:
++ _objc_msgSend$addDueDateDeltaAlertWithDueDateDelta:
++ _objc_msgSend$addGroupWithName:toAccountGroupContextChangeItem:
++ _objc_msgSend$addListChangeItem:
++ _objc_msgSend$addListSectionWithDisplayName:toListSectionContextChangeItem:
++ _objc_msgSend$addListWithName:toAccountChangeItem:
++ _objc_msgSend$addListWithName:toListSublistContextChangeItem:
++ _objc_msgSend$addRecurrenceRuleWithFrequency:interval:firstDayOfTheWeek:daysOfTheWeek:daysOfTheMonth:monthsOfTheYear:weeksOfTheYear:daysOfTheYear:setPositions:end:
++ _objc_msgSend$addReminderWithTitle:toListChangeItem:
++ _objc_msgSend$addReminderWithTitle:toReminderSubtaskContextChangeItem:
++ _objc_msgSend$addSmartListChangeItem:
++ _objc_msgSend$addSmartListSectionWithDisplayName:toSmartListSectionContextChangeItem:
++ _objc_msgSend$addSubview:
++ _objc_msgSend$addURLAttachmentWithURL:
++ _objc_msgSend$address
++ _objc_msgSend$advanceForwardRecurrenceAndCreateCompletedCloneWithoutRecurrenceRulesAndSubtasksAfterDate:
++ _objc_msgSend$alarms
++ _objc_msgSend$allDay
++ _objc_msgSend$alpha
++ _objc_msgSend$appearanceContext
++ _objc_msgSend$assigneeID
++ _objc_msgSend$attachmentContext
++ _objc_msgSend$attachments
++ _objc_msgSend$autoCategorizeContextChangeItem
++ _objc_msgSend$blue
++ _objc_msgSend$bottomAnchor
++ _objc_msgSend$canBeIncludedInGroup
++ _objc_msgSend$canUndo
++ _objc_msgSend$capabilities
++ _objc_msgSend$cdEntityName
++ _objc_msgSend$changedKeys
++ _objc_msgSend$code
++ _objc_msgSend$color
++ _objc_msgSend$completionDate
++ _objc_msgSend$constraintEqualToAnchor:
++ _objc_msgSend$constraintEqualToConstant:
++ _objc_msgSend$contactHandles
++ _objc_msgSend$coordinate
++ _objc_msgSend$count
++ _objc_msgSend$createShareForListWithID:appIconData:error:
++ _objc_msgSend$creationDate
++ _objc_msgSend$currentAssignment
++ _objc_msgSend$customContext
++ _objc_msgSend$daemonUserDefaults
++ _objc_msgSend$date
++ _objc_msgSend$dayOfTheWeek
++ _objc_msgSend$dayOfWeek:weekNumber:
++ _objc_msgSend$daysOfTheMonth
++ _objc_msgSend$daysOfTheWeek
++ _objc_msgSend$daysOfTheYear
++ _objc_msgSend$defaultWorkspace
++ _objc_msgSend$description
++ _objc_msgSend$didMoveToParentViewController:
++ _objc_msgSend$displayDate
++ _objc_msgSend$displayName
++ _objc_msgSend$domain
++ _objc_msgSend$dueDateComponents
++ _objc_msgSend$dueDateDelta
++ _objc_msgSend$dueDateDeltaAlertContext
++ _objc_msgSend$emailAddresses
++ _objc_msgSend$emails
++ _objc_msgSend$emblem
++ _objc_msgSend$emoji
++ _objc_msgSend$endDate
++ _objc_msgSend$entityName
++ _objc_msgSend$event
++ _objc_msgSend$fetchAccountWithObjectID:error:
++ _objc_msgSend$fetchCustomSmartListWithObjectID:error:
++ _objc_msgSend$fetchCustomSmartListsWithError:
++ _objc_msgSend$fetchDefaultAccountWithError:
++ _objc_msgSend$fetchDefaultListRequiringCloudKitAccountWithAccountID:error:
++ _objc_msgSend$fetchDefaultListRequiringCloudKitWithError:
++ _objc_msgSend$fetchDefaultListWithError:
++ _objc_msgSend$fetchListSectionWithObjectID:error:
++ _objc_msgSend$fetchListSectionWithReminderID:error:
++ _objc_msgSend$fetchListSectionsWithObjectIDs:error:
++ _objc_msgSend$fetchListWithObjectID:error:
++ _objc_msgSend$fetchListsWithError:
++ _objc_msgSend$fetchListsWithObjectIDs:error:
++ _objc_msgSend$fetchOptionsIncludingDueDateDeltaAlerts
++ _objc_msgSend$fetchPrimaryActiveCloudKitAccountWithError:
++ _objc_msgSend$fetchReminderWithObjectID:error:
++ _objc_msgSend$fetchReminderWithObjectID:fetchOptions:error:
++ _objc_msgSend$fetchRemindersForMovingWithFetchOptions:error:
++ _objc_msgSend$fetchRemindersWithFetchOptions:error:
++ _objc_msgSend$fetchRemindersWithObjectIDs:error:
++ _objc_msgSend$fetchRemindersWithObjectIDs:fetchOptions:error:
++ _objc_msgSend$fetchShareForListWithID:error:
++ _objc_msgSend$fetchSmartListSectionWithObjectID:error:
++ _objc_msgSend$fetchSmartListSectionWithReminderID:smartListID:error:
++ _objc_msgSend$fetchSmartListSectionsWithObjectIDs:error:
++ _objc_msgSend$fetchTemplateSectionsWithObjectIDs:error:
++ _objc_msgSend$fetchedDueDateDeltaAlerts
++ _objc_msgSend$fileURL
++ _objc_msgSend$firstDayOfTheWeek
++ _objc_msgSend$firstName
++ _objc_msgSend$flagged
++ _objc_msgSend$flaggedContext
++ _objc_msgSend$frequency
++ _objc_msgSend$getMapItemWithCompletionHandler:
++ _objc_msgSend$green
++ _objc_msgSend$groceryContext
++ _objc_msgSend$groceryContextChangeItem
++ _objc_msgSend$groupContext
++ _objc_msgSend$groupsByEvent
++ _objc_msgSend$hasSubtasksWithError:
++ _objc_msgSend$hashtags
++ _objc_msgSend$heightAnchor
++ _objc_msgSend$identifier
++ _objc_msgSend$init
++ _objc_msgSend$initRecurrenceRuleWithObjectID:accountID:reminderID:frequency:interval:firstDayOfTheWeek:daysOfTheWeek:daysOfTheMonth:monthsOfTheYear:weeksOfTheYear:daysOfTheYear:setPositions:end:
++ _objc_msgSend$initUserInteractive:
++ _objc_msgSend$initWithCKSymbolicColorName:hexString:
++ _objc_msgSend$initWithDASymbolicColorName:daHexString:
++ _objc_msgSend$initWithDebugIdentifier:
++ _objc_msgSend$initWithDueDateComponents:alarms:
++ _objc_msgSend$initWithEmblem:
++ _objc_msgSend$initWithEmoji:
++ _objc_msgSend$initWithEvent:
++ _objc_msgSend$initWithFrame:
++ _objc_msgSend$initWithHexString:
++ _objc_msgSend$initWithImage:
++ _objc_msgSend$initWithInteger:
++ _objc_msgSend$initWithNibName:bundle:
++ _objc_msgSend$initWithPhones:emails:
++ _objc_msgSend$initWithStore:
++ _objc_msgSend$initWithString:
++ _objc_msgSend$initWithStringValue:
++ _objc_msgSend$initWithStructuredLocation:proximity:
++ _objc_msgSend$initWithUUID:entityName:
++ _objc_msgSend$initWithUnit:count:
++ _objc_msgSend$insertReminderChangeItem:afterReminderChangeItem:
++ _objc_msgSend$integerValue
++ _objc_msgSend$internalErrorWithDebugDescription:
++ _objc_msgSend$interval
++ _objc_msgSend$isCloudKit
++ _objc_msgSend$isCompleted
++ _objc_msgSend$isGroup
++ _objc_msgSend$isKeyAvailable:
++ _objc_msgSend$isMainThread
++ _objc_msgSend$isPinned
++ _objc_msgSend$isRecurrent
++ _objc_msgSend$isShared
++ _objc_msgSend$isSharedWithShareeCount:sharingStatus:
++ _objc_msgSend$isSubtask
++ _objc_msgSend$label
++ _objc_msgSend$lastModifiedDate
++ _objc_msgSend$lastName
++ _objc_msgSend$leadingAnchor
++ _objc_msgSend$list
++ _objc_msgSend$listChangeItem
++ _objc_msgSend$listID
++ _objc_msgSend$loadDataWithTypeIdentifier:forItemProviderCompletionHandler:
++ _objc_msgSend$mainRunLoop
++ _objc_msgSend$middleName
++ _objc_msgSend$monthsOfTheYear
++ _objc_msgSend$name
++ _objc_msgSend$namePrefix
++ _objc_msgSend$nameSuffix
++ _objc_msgSend$newCloudContainerForAccountID:
++ _objc_msgSend$newObjectID
++ _objc_msgSend$nickname
++ _objc_msgSend$nonUserInteractiveStore
++ _objc_msgSend$notes
++ _objc_msgSend$notesAsString
++ _objc_msgSend$objectID
++ _objc_msgSend$objectIDWithUUID:
++ _objc_msgSend$occurrenceCount
++ _objc_msgSend$optimisticallyMaterializeReminderChangeItem:
++ _objc_msgSend$parentList
++ _objc_msgSend$parentListID
++ _objc_msgSend$parentReminder
++ _objc_msgSend$parentReminderID
++ _objc_msgSend$phoneNumbers
++ _objc_msgSend$phones
++ _objc_msgSend$placemark
++ _objc_msgSend$preferredLocalizations
++ _objc_msgSend$priority
++ _objc_msgSend$proximity
++ _objc_msgSend$rawValue
++ _objc_msgSend$recurrenceEnd
++ _objc_msgSend$recurrenceEndWithEndDate:
++ _objc_msgSend$recurrenceEndWithOccurrenceCount:
++ _objc_msgSend$recurrenceRules
++ _objc_msgSend$red
++ _objc_msgSend$refreshReminder:
++ _objc_msgSend$region
++ _objc_msgSend$remObjectID
++ _objc_msgSend$rem_dateComponentsWithDate:timeZone:isAllDay:
++ _objc_msgSend$rem_dateComponentsWithDateUsingArchivingTimeZone:isAllDay:
++ _objc_msgSend$rem_dateWithDateComponents:timeZone:
++ _objc_msgSend$rem_dateWithDateComponentsUsingArchivingTimeZone:
++ _objc_msgSend$saveRequest
++ _objc_msgSend$saveSynchronouslyWithError:
++ _objc_msgSend$secondaryLabelColor
++ _objc_msgSend$sectionsContextChangeItem
++ _objc_msgSend$setActionName:
++ _objc_msgSend$setBadge:
++ _objc_msgSend$setColor:
++ _objc_msgSend$setContentMode:
++ _objc_msgSend$setDisplayName:
++ _objc_msgSend$setDueDateComponentsWithAlarmsIfNeeded:
++ _objc_msgSend$setFlagged:
++ _objc_msgSend$setGroceryLocaleID:
++ _objc_msgSend$setIsPinned:
++ _objc_msgSend$setName:
++ _objc_msgSend$setNotes:
++ _objc_msgSend$setParentReminderID:
++ _objc_msgSend$setPositions
++ _objc_msgSend$setPreservesSuperviewLayoutMargins:
++ _objc_msgSend$setPriority:
++ _objc_msgSend$setSaveIsNoopIfNoChangedKeys:
++ _objc_msgSend$setShouldAutoCategorizeItems:
++ _objc_msgSend$setShouldCategorizeGroceryItems:
++ _objc_msgSend$setSortingStyle:
++ _objc_msgSend$setTintColor:
++ _objc_msgSend$setTranslatesAutoresizingMaskIntoConstraints:
++ _objc_msgSend$shareeContext
++ _objc_msgSend$sharees
++ _objc_msgSend$sharingStatus
++ _objc_msgSend$shouldAutoCategorizeItems
++ _objc_msgSend$shouldCategorizeGroceryItems
++ _objc_msgSend$smartList
++ _objc_msgSend$smartListID
++ _objc_msgSend$smartListType
++ _objc_msgSend$sortingStyle
++ _objc_msgSend$standardOptions
++ _objc_msgSend$status
++ _objc_msgSend$storage
++ _objc_msgSend$store
++ _objc_msgSend$storeContainerToken
++ _objc_msgSend$stringRepresentation
++ _objc_msgSend$stringValue
++ _objc_msgSend$structuredLocation
++ _objc_msgSend$sublistContext
++ _objc_msgSend$subtaskContext
++ _objc_msgSend$supportsCloudKitSync
++ _objc_msgSend$supportsCustomSmartLists
++ _objc_msgSend$supportsFlagged
++ _objc_msgSend$supportsGroceriesList
++ _objc_msgSend$supportsGroups
++ _objc_msgSend$supportsHashtags
++ _objc_msgSend$supportsListAppearance
++ _objc_msgSend$supportsPinnedLists
++ _objc_msgSend$supportsSections
++ _objc_msgSend$supportsSubtasks
++ _objc_msgSend$systemBackgroundColor
++ _objc_msgSend$timeZone
++ _objc_msgSend$titleAsString
++ _objc_msgSend$topAnchor
++ _objc_msgSend$trailingAnchor
++ _objc_msgSend$trigger
++ _objc_msgSend$ttr_systemWhiteColor
++ _objc_msgSend$undoActionName
++ _objc_msgSend$unformattedInternationalStringValue
++ _objc_msgSend$unit
++ _objc_msgSend$updateAccount:
++ _objc_msgSend$updateList:
++ _objc_msgSend$updateListSection:
++ _objc_msgSend$updateReminder:
++ _objc_msgSend$updateSmartList:
++ _objc_msgSend$updateSmartListSection:
++ _objc_msgSend$url
++ _objc_msgSend$urlRepresentation
++ _objc_msgSend$uti
++ _objc_msgSend$uuid
++ _objc_msgSend$value
++ _objc_msgSend$valueForKey:
++ _objc_msgSend$view
++ _objc_msgSend$weekNumber
++ _objc_msgSend$weeksOfTheYear
++ _objc_msgSend$widthAnchor
++ _objc_msgSend$withActionName:block:
++ _objc_msgSend$writableTypeIdentifiersForItemProvider
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_continuation_throwingResume
++ _swift_continuation_throwingResumeWithError
++ _swift_defaultActor_deallocate
++ _swift_defaultActor_destroy
++ _swift_defaultActor_initialize
++ _swift_getAtKeyPath
++ _swift_getDynamicType
++ _swift_getMetatypeMetadata
++ _swift_readAtKeyPath
++ _swift_setAtWritableKeyPath
++ _swift_willThrowTypedImpl
++ _symbolic $s19RemindersAppIntents0B17IntentInteractionP
++ _symbolic $s19RemindersAppIntents14CustomDumpableP
++ _symbolic $s19RemindersAppIntents24IntentDonationPublishingP
++ _symbolic $s19RemindersAppIntents28AccountEntityQueryPerformingP
++ _symbolic $s19RemindersAppIntents28FutureSchemaIntentPerformingP
++ _symbolic $s19RemindersAppIntents28IntentDonationIdentifierTypeP
++ _symbolic $s19RemindersAppIntents30GetDefaultListIntentPerformingP
++ _symbolic $s19RemindersAppIntents34ShoppingExperienceIntentPerformingP
++ _symbolic $s19RemindersAppIntents36ListEntityDeferredPropertyPerformingP
++ _symbolic $s19RemindersAppIntents39SectionEntityDeferredPropertyPerformingP
++ _symbolic $s19RemindersAppIntents40ReminderEntityDeferredPropertyPerformingP
++ _symbolic 14IdentifierType_____Qz 19RemindersAppIntents24IntentDonationPublishingP
++ _symbolic BD
++ _symbolic SDy___________pG 19RemindersAppIntents0B22IntentInteractionTokenV AA0bdE0P
++ _symbolic Say_____G 19RemindersAppIntents13AccountEntityV
++ _symbolic Say_____G 19RemindersAppIntents14VehicleTriggerO
++ _symbolic Say_____G 19RemindersAppIntents20LocationTriggerEventO
++ _symbolic Say_____G 19RemindersAppIntents28VehicleTriggerRepresentationO
++ _symbolic Say_____G 19RemindersAppIntents35LocationTriggerEntityRepresentationC0e5EventG0O
++ _symbolic SccySo9MKMapItemC______pG s5ErrorP
++ _symbolic So11REMObjectIDC_SSt
++ _symbolic So11REMObjectIDC______tSg 19RemindersAppIntents10ListEntityV
++ _symbolic So22REMAccountCapabilitiesC
++ _symbolic _____ 10AppIntents21IntentDonationManagerV
++ _symbolic _____ 10AppIntents24IntentDonationIdentifierV
++ _symbolic _____ 19RemindersAppIntents010OpenSearchB17IntentInteractionV
++ _symbolic _____ 19RemindersAppIntents011DeleteListsB17IntentInteractionV
++ _symbolic _____ 19RemindersAppIntents013CreateSectionB17IntentInteractionC
++ _symbolic _____ 19RemindersAppIntents013UpdateSectionB17IntentInteractionC
++ _symbolic _____ 19RemindersAppIntents014CreateReminderB17IntentInteractionC
++ _symbolic _____ 19RemindersAppIntents014DeleteSectionsB17IntentInteractionV
++ _symbolic _____ 19RemindersAppIntents014GetDefaultListB20IntentRepresentationV
++ _symbolic _____ 19RemindersAppIntents014GetDefaultListB6IntentV
++ _symbolic _____ 19RemindersAppIntents014UpdateReminderB17IntentInteractionC
++ _symbolic _____ 19RemindersAppIntents04MoveaB17IntentInteractionV
++ _symbolic _____ 19RemindersAppIntents04MoveaB17IntentInteractionV6TargetO
++ _symbolic _____ 19RemindersAppIntents06Deletea10ListGroupsB17IntentInteractionV
++ _symbolic _____ 19RemindersAppIntents06DeleteaB17IntentInteractionV
++ _symbolic _____ 19RemindersAppIntents0B22IntentInteractionTokenV
++ _symbolic _____ 19RemindersAppIntents0B26IntentInteractionPublisherC
++ _symbolic _____ 19RemindersAppIntents13AccountEntityV
++ _symbolic _____ 19RemindersAppIntents14VehicleTriggerO
++ _symbolic _____ 19RemindersAppIntents18AccountEntityQueryV
++ _symbolic _____ 19RemindersAppIntents18UpdatedSectionInfoV
++ _symbolic _____ 19RemindersAppIntents19AccountCapabilitiesV
++ _symbolic _____ 19RemindersAppIntents20LocationTriggerEventO
++ _symbolic _____ 19RemindersAppIntents21LocationTriggerEntityV
++ _symbolic _____ 19RemindersAppIntents25MockIntentDonationManagerC
++ _symbolic _____ 19RemindersAppIntents27AccountEntityRepresentationC
++ _symbolic _____ 19RemindersAppIntents28VehicleTriggerRepresentationO
++ _symbolic _____ 19RemindersAppIntents33AccountCapabilitiesRepresentationC
++ _symbolic _____ 19RemindersAppIntents35LocationTriggerEntityRepresentationC
++ _symbolic _____ 19RemindersAppIntents35LocationTriggerEntityRepresentationC0e5EventG0O
++ _symbolic _____ s11AnyHashableV
++ _symbolic _____Sg 10GeoToolbox15PlaceDescriptorV
++ _symbolic _____Sg 10GeoToolbox15PlaceDescriptorV0C14RepresentationO
++ _symbolic _____Sg 15RemindersUICore50TTRRemindersListInteractorSectionsCapabilityTargetO
++ _symbolic _____Sg 19ReminderKitInternal21CapabilityRequirementV
++ _symbolic _____Sg 19ReminderKitInternal24REMRemindersListDataViewO0E13SectionsModelV
++ _symbolic _____Sg 19ReminderKitInternal24REMRemindersListDataViewO11SectionLiteV
++ _symbolic _____Sg_ABt 19RemindersAppIntents0B8EntityIDV
++ _symbolic _____Sg______Sg8positiont 19RemindersAppIntents10ListEntityV AA25ReminderInsertionPositionO
++ _symbolic _____Sg______Sg8positiont 19RemindersAppIntents13SectionEntityV AA25ReminderInsertionPositionO
++ _symbolic ___________Sg8positiont 19RemindersAppIntents14ReminderEntityV AA0D17InsertionPositionO
++ _symbolic ____________pt 19RemindersAppIntents0B22IntentInteractionTokenV AA0bdE0P
++ _symbolic ___________pSg 19RemindersAppIntents36ListEntityDeferredPropertyPerformingP AA07SectionefgH0P
++ _symbolic ___________pSg 19RemindersAppIntents36ListEntityDeferredPropertyPerformingP AA08ReminderefgH0P
++ _symbolic ___________t 19RemindersAppIntents14VehicleTriggerO 0bC021DisplayRepresentationV
++ _symbolic ___________t 19RemindersAppIntents20LocationTriggerEventO 0bC021DisplayRepresentationV
++ _symbolic ______p 19RemindersAppIntents24IntentDonationPublishingP
++ _symbolic ______pSg 15RemindersUICore28TTRAttachmentContextProtocolP
++ _symbolic ______pSg 15RemindersUICore28TTRListShareeContextProtocolP
++ _symbolic ______pSg 15RemindersUICore29TTRListGroceryContextProtocolP
++ _symbolic ______pSg 15RemindersUICore33TTRReminderFlaggedContextProtocolP
++ _symbolic ______pSg 15RemindersUICore33TTRReminderHashtagContextProtocolP
++ _symbolic ______pSg 15RemindersUICore36TTRReminderAssignmentContextProtocolP
++ _symbolic ______pSg 19RemindersAppIntents0B17IntentInteractionP
++ _symbolic ______pSg 19RemindersAppIntents36ListEntityDeferredPropertyPerformingP
++ _symbolic ______pSg 19RemindersAppIntents39SectionEntityDeferredPropertyPerformingP
++ _symbolic ______pSg 19RemindersAppIntents40ReminderEntityDeferredPropertyPerformingP
++ _symbolic _____m 19RemindersAppIntents010OpenSearchB17IntentInteractionV
++ _symbolic _____m 19RemindersAppIntents011DeleteListsB17IntentInteractionV
++ _symbolic _____m 19RemindersAppIntents013CreateSectionB17IntentInteractionC
++ _symbolic _____m 19RemindersAppIntents013UpdateSectionB17IntentInteractionC
++ _symbolic _____m 19RemindersAppIntents014CreateReminderB17IntentInteractionC
++ _symbolic _____m 19RemindersAppIntents014DeleteSectionsB17IntentInteractionV
++ _symbolic _____m 19RemindersAppIntents014UpdateReminderB17IntentInteractionC
++ _symbolic _____m 19RemindersAppIntents04MoveaB17IntentInteractionV
++ _symbolic _____m 19RemindersAppIntents06Deletea10ListGroupsB17IntentInteractionV
++ _symbolic _____m 19RemindersAppIntents06DeleteaB17IntentInteractionV
++ _symbolic _____ySay_____GSgG 10AppIntents14EntityPropertyC 09RemindersaB004ListC0V
++ _symbolic _____ySay_____GSg_G 10AppIntents15IntentParameterC10ValueStateO 09RemindersaB014ReminderEntityV
++ _symbolic _____yShySSGSg_G 10AppIntents15IntentParameterC10ValueStateO
++ _symbolic _____ySo10REMHashtagC_G Sh5IndexV
++ _symbolic _____ySo11REMObjectIDCSSG s18_DictionaryStorageC
++ _symbolic _____ySo11REMObjectIDCSaySo11REMReminderCGG s18_DictionaryStorageC
++ _symbolic _____ySo11REMObjectIDCSay_____GG s18_DictionaryStorageC 19RemindersAppIntents13SectionEntityV
++ _symbolic _____ySo11REMObjectIDC_SStG s23_ContiguousArrayStorageC
++ _symbolic _____y_AAy_AAy______y______G_____G_____GSSG 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 19RemindersAppIntents13SectionEntityV AH04ListK0V AH0hK2IDV
++ _symbolic _____y_AAy______y______G_____G_____G 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 19RemindersAppIntents13SectionEntityV AH04ListK0V AH0hK2IDV
++ _symbolic _____y_SSG 10Foundation20PredicateExpressionsO5ValueV
++ _symbolic _____y_Say_____GGSg 18AppIntentsServices06CustomA24EntityRepresentationBaseC8DeferredV 09RemindersaB007SectioneF0C
++ _symbolic _____y_Say_____GGSg 18AppIntentsServices06CustomA24EntityRepresentationBaseC8DeferredV 09RemindersaB008RemindereF0C
++ _symbolic _____y_____AB_____020_AppIntentsServices_aB0yHCg_G 18AppIntentsServices14EntityPropertyC 10GeoToolbox15PlaceDescriptorV AA0dE9WrappableP
++ _symbolic _____y_____AB_____22_GeoToolbox_AppIntentsyHCg_G 10AppIntents14EntityPropertyC 10GeoToolbox15PlaceDescriptorV AA12_IntentValueP
++ _symbolic _____y_____G 10AppIntents010_TransientA11EntityQueryV 09RemindersaB0015LocationTriggerD0V
++ _symbolic _____y_____G 10AppIntents010_TransientA11EntityQueryV 09RemindersaB019AccountCapabilitiesV
++ _symbolic _____y_____G 10AppIntents14EntityPropertyC 09RemindersaB008ReminderC0V13PriorityLevelO
++ _symbolic _____y_____G 10AppIntents14EntityPropertyC 09RemindersaB019AccountCapabilitiesV
++ _symbolic _____y_____G 10AppIntents14EntityPropertyC 09RemindersaB020LocationTriggerEventO
++ _symbolic _____y_____G 10AppIntents26EmptyResolverSpecificationV 09RemindersaB013AccountEntityV
++ _symbolic _____y_____G 10AppIntents26EmptyResolverSpecificationV 09RemindersaB019AccountCapabilitiesV
++ _symbolic _____y_____G 10AppIntents26EmptyResolverSpecificationV 09RemindersaB021LocationTriggerEntityV
++ _symbolic _____y_____G 18AppIntentsServices14EntityPropertyC 09RemindersaB0015LocationTriggerD14RepresentationC
++ _symbolic _____y_____G 18AppIntentsServices14EntityPropertyC 09RemindersaB0015LocationTriggerD14RepresentationC0h5EventI0O
++ _symbolic _____y_____G 18AppIntentsServices14EntityPropertyC 09RemindersaB007SectionD14RepresentationC
++ _symbolic _____y_____G 18AppIntentsServices14EntityPropertyC 09RemindersaB028VehicleTriggerRepresentationO
++ _symbolic _____y_____G 18AppIntentsServices14EntityPropertyC 09RemindersaB033AccountCapabilitiesRepresentationC
++ _symbolic _____y_____G 18AppIntentsServices15IntentParameterC 09RemindersaB022ListTypeRepresentationO
++ _symbolic _____y_____G 18AppIntentsServices15IntentParameterC 09RemindersaB024ListEntityRepresentationC
++ _symbolic _____y_____G 18AppIntentsServices15IntentParameterC 09RemindersaB027SectionEntityRepresentationC
++ _symbolic _____y_____G 19RemindersAppIntents05TypedB20EntityRepresentationC AA07AccountE0V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10GeoToolbox15PlaceDescriptorV0F14RepresentationO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 19ReminderKitInternal21CapabilityRequirementV
++ _symbolic _____y_____GSg 10AppIntents17IntentItemSectionV 09RemindersaB00E6EntityV
++ _symbolic _____y_____SgG 10AppIntents14EntityPropertyC 09RemindersaB0015LocationTriggerC0V
++ _symbolic _____y_____SgG 10AppIntents14EntityPropertyC 09RemindersaB014VehicleTriggerO
++ _symbolic _____y_____SgG 10AppIntents15IntentParameterC 09RemindersaB014VehicleTriggerO
++ _symbolic _____y_____SgG 10AppIntents15IntentParameterC 09RemindersaB021LocationTriggerEntityV
++ _symbolic _____y_____SgG 18AppIntentsServices15IntentParameterC 09RemindersaB028VehicleTriggerRepresentationO
++ _symbolic _____y_____SgG 18AppIntentsServices15IntentParameterC 09RemindersaB035LocationTriggerEntityRepresentationC
++ _symbolic _____y_____SgG s23_ContiguousArrayStorageC 10GeoToolbox15PlaceDescriptorV0F14RepresentationO
++ _symbolic _____y_____SgG s23_ContiguousArrayStorageC 19ReminderKitInternal21CapabilityRequirementV
++ _symbolic _____y_____Sg_G 10AppIntents15IntentParameterC10ValueStateO 09RemindersaB013SectionEntityV
++ _symbolic _____y______GSg 18AppIntentsServices06CustomA24EntityRepresentationBaseC8DeferredV 09RemindersaB008RemindereF0C
++ _symbolic _____y______Qo_ 10AppIntents0A4EnumPAAE28defaultResolverSpecificationQrvpZQO 09RemindersaB014VehicleTriggerO
++ _symbolic _____y______Qo_ 10AppIntents0A4EnumPAAE28defaultResolverSpecificationQrvpZQO 09RemindersaB020LocationTriggerEventO
++ _symbolic _____y______Qo_ 10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQO 09RemindersaB0014GetDefaultListaC0V
++ _symbolic _____y__________G s18_DictionaryStorageC 19RemindersAppIntents14VehicleTriggerO 0dE021DisplayRepresentationV
++ _symbolic _____y__________G s18_DictionaryStorageC 19RemindersAppIntents20LocationTriggerEventO 0dE021DisplayRepresentationV
++ _symbolic _____y___________pG s18_DictionaryStorageC 19RemindersAppIntents0D22IntentInteractionTokenV AC0dfG0P
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 19RemindersAppIntents14VehicleTriggerO 0eF021DisplayRepresentationV
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 19RemindersAppIntents20LocationTriggerEventO 0eF021DisplayRepresentationV
++ _symbolic _____y______pG 10AppIntents0A10DependencyC 09RemindersaB028AccountEntityQueryPerformingP
++ _symbolic _____y______pG 10AppIntents0A10DependencyC 09RemindersaB030GetDefaultListIntentPerformingP
++ _symbolic _____y______y_ABy_ABy______y______G_____G_____GSSG_____y_SSGG 10Foundation20PredicateExpressionsO5EqualV AC7KeyPathV AC8VariableV 19RemindersAppIntents13SectionEntityV AJ04ListL0V AJ0iL2IDV AC5ValueV
++ _symbolic _____y______y______G_____G 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 19RemindersAppIntents13SectionEntityV AH04ListK0V
++ _symbolic _____y_____yAAyAAyAByAAySaySo8REMAlarmCGSo0A14VehicleTriggerCSgGGAGG_____SgGGALG s15LazyMapSequenceV s0a6FilterC0V 19RemindersAppIntents14VehicleTriggerO
++ _symbolic _____y_____yAAyAAyAByAAySaySo8REMAlarmCGSo0A15LocationTriggerCSgGGAGG_____SgGGALG s15LazyMapSequenceV s0a6FilterC0V 19RemindersAppIntents21LocationTriggerEntityV
++ _symbolic _____y_____y_Say_____GGG 18AppIntentsServices14EntityPropertyC AA06CustomaD18RepresentationBaseC8DeferredV 09RemindersaB007SectiondG0C
++ _symbolic _____y_____y_Say_____GGG 18AppIntentsServices14EntityPropertyC AA06CustomaD18RepresentationBaseC8DeferredV 09RemindersaB008ReminderdG0C
++ _symbolic _____y_____y______GG 18AppIntentsServices14EntityPropertyC AA06CustomaD18RepresentationBaseC8DeferredV 09RemindersaB008ReminderdG0C
+- ___swift_memcpy104_8
+- ___swift_memcpy112_8
+- ___swift_memcpy216_8
+- ___swift_memcpy224_8
+- ___unnamed_4
+- _associated conformance 19RemindersAppIntents011OpenSectionB6IntentV0bC006SystemF0AaD0bF0
+- _associated conformance 19RemindersAppIntents011OpenSectionB6IntentV0bC00bF0AA13PerformResultAdEP_AD0fH0
+- _associated conformance 19RemindersAppIntents011OpenSectionB6IntentV0bC00bF0AA14SummaryContentAdEP_AD09ParameterG0
+- _associated conformance 19RemindersAppIntents011OpenSectionB6IntentV0bC00bF0AaD09_SupportsB12Dependencies
+- _associated conformance 19RemindersAppIntents011OpenSectionB6IntentV0bC00bF0AaD24PersistentlyIdentifiable
+- _associated conformance 19RemindersAppIntents011OpenSectionB6IntentV0bC00dF0AA5ValueAdEP_AD0bG0
+- _associated conformance 19RemindersAppIntents011OpenSectionB6IntentV0bC00dF0AaD06SystemF0
+- _associated conformance 19RemindersAppIntents014CreateReminderB6IntentV27SpatialEventOptionsProvider33_45EE784E9837B177A0FE65EE74CDCFA9LLV0bC007DynamiciJ0AA12DefaultValueAgHP_AG01_fT0
+- _associated conformance 19RemindersAppIntents014CreateReminderB6IntentV27SpatialEventOptionsProvider33_45EE784E9837B177A0FE65EE74CDCFA9LLV0bC007DynamiciJ0AA6ResultAgHP_AG17ResultsCollection
+- _associated conformance 19RemindersAppIntents014CreateReminderB6IntentV27SpatialEventOptionsProvider33_45EE784E9837B177A0FE65EE74CDCFA9LLV0bC007DynamiciJ0AaG09_SupportsB12Dependencies
+- _associated conformance 19RemindersAppIntents014UpdateListNameB6IntentV0bC0023_EntityPropertyUpdatingG0AA0I9ReferenceAdEP_AD01_g9UpdatablehI13Representable
+- _associated conformance 19RemindersAppIntents014UpdateListNameB6IntentV0bC0023_EntityPropertyUpdatingG0AaD0bG0
+- _associated conformance 19RemindersAppIntents014UpdateListNameB6IntentV0bC00bG0AA13PerformResultAdEP_AD0gI0
+- _associated conformance 19RemindersAppIntents014UpdateListNameB6IntentV0bC00bG0AA14SummaryContentAdEP_AD09ParameterH0
+- _associated conformance 19RemindersAppIntents014UpdateListNameB6IntentV0bC00bG0AaD09_SupportsB12Dependencies
+- _associated conformance 19RemindersAppIntents014UpdateListNameB6IntentV0bC00bG0AaD24PersistentlyIdentifiable
+- _associated conformance 19RemindersAppIntents014UpdateListTypeB6IntentV0bC0023_EntityPropertyUpdatingG0AA0I9ReferenceAdEP_AD01_g9UpdatablehI13Representable
+- _associated conformance 19RemindersAppIntents014UpdateListTypeB6IntentV0bC0023_EntityPropertyUpdatingG0AaD0bG0
+- _associated conformance 19RemindersAppIntents014UpdateListTypeB6IntentV0bC00bG0AA13PerformResultAdEP_AD0gI0
+- _associated conformance 19RemindersAppIntents014UpdateListTypeB6IntentV0bC00bG0AA14SummaryContentAdEP_AD09ParameterH0
+- _associated conformance 19RemindersAppIntents014UpdateListTypeB6IntentV0bC00bG0AaD09_SupportsB12Dependencies
+- _associated conformance 19RemindersAppIntents014UpdateListTypeB6IntentV0bC00bG0AaD24PersistentlyIdentifiable
+- _associated conformance 19RemindersAppIntents024UpdateSectionDisplayNameB6IntentV0bC0023_EntityPropertyUpdatingH0AA0J9ReferenceAdEP_AD01_h9UpdatableiJ13Representable
+- _associated conformance 19RemindersAppIntents024UpdateSectionDisplayNameB6IntentV0bC0023_EntityPropertyUpdatingH0AaD0bH0
+- _associated conformance 19RemindersAppIntents024UpdateSectionDisplayNameB6IntentV0bC00bH0AA13PerformResultAdEP_AD0hJ0
+- _associated conformance 19RemindersAppIntents024UpdateSectionDisplayNameB6IntentV0bC00bH0AA14SummaryContentAdEP_AD09ParameterI0
+- _associated conformance 19RemindersAppIntents024UpdateSectionDisplayNameB6IntentV0bC00bH0AaD09_SupportsB12Dependencies
+- _associated conformance 19RemindersAppIntents024UpdateSectionDisplayNameB6IntentV0bC00bH0AaD24PersistentlyIdentifiable
+- _associated conformance 19RemindersAppIntents08OpenTagsB6IntentV0bC00bF0AA13PerformResultAdEP_AD0fH0
+- _associated conformance 19RemindersAppIntents08OpenTagsB6IntentV0bC00bF0AA14SummaryContentAdEP_AD09ParameterG0
+- _associated conformance 19RemindersAppIntents08OpenTagsB6IntentV0bC00bF0AaD09_SupportsB12Dependencies
+- _associated conformance 19RemindersAppIntents08OpenTagsB6IntentV0bC00bF0AaD24PersistentlyIdentifiable
+- _associated conformance 19RemindersAppIntents13SectionEntityVAA0A10CollectionAA0aF4TypeAaDP_0bC007ResultsF0
+- _associated conformance 19RemindersAppIntents13SectionEntityVAA0A10CollectionAA12ReminderTypeAaDP_AA0G0
+- _associated conformance 19RemindersAppIntents14ReminderEntityVAA0A10CollectionAA0D4TypeAaDP_AA0D0
+- _associated conformance 19RemindersAppIntents14ReminderEntityVAA0A10CollectionAA0aF4TypeAaDP_0bC007ResultsF0
+- _associated conformance 19RemindersAppIntents14ReminderEntityVAA0D0AA06ParentD4TypeAaDP_AaD
+- _associated conformance 19RemindersAppIntents14ReminderEntityVAA0D0AA14ParentListTypeAaDP_AA0aG0
+- _associated conformance 19RemindersAppIntents14ReminderEntityVAA0D0AA17PriorityLevelTypeAaDP_AA0dfG0
+- _associated conformance 19RemindersAppIntents14ReminderEntityVAA0D0AA23SpatialEventTriggerTypeAaDP_AA0fgH0
+- _associated conformance 19RemindersAppIntents14ReminderEntityVAA0D0AA9FlagsTypeAaDP_AA0dF0
+- _get_witness_table 10AppIntents21IntentResultContainerVy09RemindersaB010ListEntityVAA13OpenURLIntentVs5NeverOAJGAA05OpensC0HPyHC.12
+- _get_witness_table 10AppIntents21IntentResultContainerVy09RemindersaB010ListEntityVAA13OpenURLIntentVs5NeverOAJGAA12ReturnsValueHPyHC.13
+- _get_witness_table 10AppIntents21IntentResultContainerVy09RemindersaB010ListEntityVs5NeverOA2HGAA12ReturnsValueHPyHC.38
+- _get_witness_table 10AppIntents21IntentResultContainerVy09RemindersaB013SectionEntityVAA13OpenURLIntentVs5NeverOAJGAA05OpensC0HPyHC.12
+- _get_witness_table 10AppIntents21IntentResultContainerVy09RemindersaB013SectionEntityVAA13OpenURLIntentVs5NeverOAJGAA12ReturnsValueHPyHC.13
+- _get_witness_table 10AppIntents21IntentResultContainerVy09RemindersaB013SectionEntityVs5NeverOA2HGAA12ReturnsValueHPyHC.14
+- _get_witness_table 10AppIntents21IntentResultContainerVy09RemindersaB014ReminderEntityVs5NeverOA2HGAA12ReturnsValueHPyHC.62
+- _get_witness_table 10AppIntents21IntentResultContainerVy09RemindersaB014ReminderEntityVs5NeverOA2HGAA12ReturnsValueHPyHC.64
+- _get_witness_table 10AppIntents21IntentResultContainerVys5NeverOA3EGAA0cD0HPyHC.7
+- _get_witness_table 10AppIntents22IntentParameterSummaryVy09RemindersaB0010CreateListaC0VGAA0dE0HPyHC.14
+- _get_witness_table 10AppIntents22IntentParameterSummaryVy09RemindersaB0011OpenSectionaC0VGAA0dE0HPyHC.8
+- _get_witness_table 10AppIntents22IntentParameterSummaryVy09RemindersaB0013CreateSectionaC0VGAA0dE0HPyHC.14
+- _get_witness_table 10AppIntents22IntentParameterSummaryVy09RemindersaB0014UpdateListNameaC0VGAA0dE0HPyHC.13
+- _get_witness_table 10AppIntents22IntentParameterSummaryVy09RemindersaB0014UpdateListTypeaC0VGAA0dE0HPyHC.13
+- _get_witness_table 10AppIntents22IntentParameterSummaryVy09RemindersaB0024UpdateSectionDisplayNameaC0VGAA0dE0HPyHC.13
+- _get_witness_table 10AppIntents22IntentParameterSummaryVy09RemindersaB008OpenTagsaC0VGAA0dE0HPyHC.6
+- _get_witness_table 8CloudKit29CKShareTransferRepresentationVy19RemindersAppIntents10ListEntityVG16CoreTransferable0dE0HPyHC.60
+- _keypath_get.53Tm
+- _keypath_get.57Tm
+- _malloc
+- _objc_retain_x2
+- _symbolic $s19RemindersAppIntents011OpenSectionB16IntentPerformingP
+- _symbolic $s19RemindersAppIntents08OpenTagsB16IntentPerformingP
+- _symbolic $s19RemindersAppIntents20OpenIntentPerformingP
+- _symbolic SaySSGSg
+- _symbolic Say_____G 19RemindersAppIntents19LocationAlarmEntityV
+- _symbolic Say_____GSg 19RemindersAppIntents10ListEntityV
+- _symbolic So11REMObjectIDCSgSg
+- _symbolic So11REMObjectIDCSg_SSSgt
+- _symbolic So11REMReminderC8reminder______Sg38afterDateForAdvancingForwardRecurrencetSg 10Foundation4DateV
+- _symbolic _____ 19RemindersAppIntents011OpenSectionB6IntentV
+- _symbolic _____ 19RemindersAppIntents014CreateReminderB6IntentV27SpatialEventOptionsProvider33_45EE784E9837B177A0FE65EE74CDCFA9LLV
+- _symbolic _____ 19RemindersAppIntents014UpdateListNameB6IntentV
+- _symbolic _____ 19RemindersAppIntents014UpdateListTypeB6IntentV
+- _symbolic _____ 19RemindersAppIntents024UpdateSectionDisplayNameB6IntentV
+- _symbolic _____ 19RemindersAppIntents08OpenTagsB6IntentV
+- _symbolic _____ 19RemindersAppIntents0a9AssistantC8ProviderV
+- _symbolic _____Sg 10AppIntents10IntentFileV
+- _symbolic _____Sg 19RemindersAppIntents14ReminderEntityV13PriorityLevelO
+- _symbolic _____ySaySSGG s23_ContiguousArrayStorageC
+- _symbolic _____ySaySSGSgG 10AppIntents14EntityPropertyC
+- _symbolic _____ySaySSGSg_G 10AppIntents15IntentParameterC10ValueStateO
+- _symbolic _____ySay_____GG 18AppIntentsServices14EntityPropertyC 09RemindersaB007SectionD14RepresentationC
+- _symbolic _____ySay_____GG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV
+- _symbolic _____ySay_____GG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV08NegativefG7PhrasesV
+- _symbolic _____ySay_____GG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV5ValueV
+- _symbolic _____ySay_____y______GGG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV6PhraseV 09RemindersdE0010CreateListdG0V
+- _symbolic _____ySay_____y______GGG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV6PhraseV 09RemindersdE0010OpenSearchdG0V
+- _symbolic _____ySay_____y______GGG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV6PhraseV 09RemindersdE0010UpdateListk6LayoutdG0V
+- _symbolic _____ySay_____y______GGG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV6PhraseV 09RemindersdE0011DeleteListsdG0V
+- _symbolic _____ySay_____y______GGG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV6PhraseV 09RemindersdE0011OpenSectiondG0V
+- _symbolic _____ySay_____y______GGG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV6PhraseV 09RemindersdE0012OpenReminderdG0V
+- _symbolic _____ySay_____y______GGG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV6PhraseV 09RemindersdE0013CreateSectiondG0V
+- _symbolic _____ySay_____y______GGG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV6PhraseV 09RemindersdE0013OpenSmartListdG0V
+- _symbolic _____ySay_____y______GGG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV6PhraseV 09RemindersdE0014CreateReminderdG0V
+- _symbolic _____ySay_____y______GGG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV6PhraseV 09RemindersdE0014DeleteSectionsdG0V
+- _symbolic _____ySay_____y______GGG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV6PhraseV 09RemindersdE0014UpdateListNamedG0V
+- _symbolic _____ySay_____y______GGG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV6PhraseV 09RemindersdE0014UpdateListTypedG0V
+- _symbolic _____ySay_____y______GGG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV6PhraseV 09RemindersdE0015AddOrRemoveTagsdG0V
+- _symbolic _____ySay_____y______GGG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV6PhraseV 09RemindersdE0015UpdateListBadgedG0V
+- _symbolic _____ySay_____y______GGG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV6PhraseV 09RemindersdE0015UpdateListColordG0V
+- _symbolic _____ySay_____y______GGG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV6PhraseV 09RemindersdE0016CompleteReminderdG0V
+- _symbolic _____ySay_____y______GGG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV6PhraseV 09RemindersdE0016UpdateListParentdG0V
+- _symbolic _____ySay_____y______GGG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV6PhraseV 09RemindersdE0018UpdateListIsPinneddG0V
+- _symbolic _____ySay_____y______GGG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV6PhraseV 09RemindersdE0021CreateCustomSmartListdG0V
+- _symbolic _____ySay_____y______GGG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV6PhraseV 09RemindersdE0022UpdateListSortingStyledG0V
+- _symbolic _____ySay_____y______GGG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV6PhraseV 09RemindersdE0023UpdateSmartListIsHiddendG0V
+- _symbolic _____ySay_____y______GGG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV6PhraseV 09RemindersdE0024UpdateListShowsCompleteddG0V
+- _symbolic _____ySay_____y______GGG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV6PhraseV 09RemindersdE0024UpdateSectionDisplayNamedG0V
+- _symbolic _____ySay_____y______GGG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV6PhraseV 09RemindersdE004MoveidG0V
+- _symbolic _____ySay_____y______GGG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV6PhraseV 09RemindersdE006Deletei10ListGroupsdG0V
+- _symbolic _____ySay_____y______GGG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV6PhraseV 09RemindersdE006DeleteidG0V
+- _symbolic _____ySay_____y______GGG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV6PhraseV 09RemindersdE008OpenListdG0V
+- _symbolic _____ySay_____y______GGG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV6PhraseV 09RemindersdE008OpenTagsdG0V
+- _symbolic _____ySay_____y______GGG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV6PhraseV 09RemindersdE009OpenGroupdG0V
+- _symbolic _____ySo11REMObjectIDCSay_____GG s18_DictionaryStorageC 19RemindersAppIntents14ReminderEntityV
+- _symbolic _____ySo11REMObjectIDCSgSSSgG s18_DictionaryStorageC
+- _symbolic _____ySo11REMObjectIDCSgSay_____GG s18_DictionaryStorageC 19RemindersAppIntents13SectionEntityV
+- _symbolic _____ySo11REMObjectIDCSg_SSSgtG s23_ContiguousArrayStorageC
+- _symbolic _____y_AAy______y______G_____GSSG 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 19RemindersAppIntents10ListEntityV AH0hK2IDV
+- _symbolic _____y_SSSgG 10Foundation20PredicateExpressionsO5ValueV
+- _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV 09RemindersaB0011OpenSectionaC0V
+- _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV 09RemindersaB0014UpdateListNameaC0V
+- _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV 09RemindersaB0014UpdateListTypeaC0V
+- _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV 09RemindersaB0024UpdateSectionDisplayNameaC0V
+- _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV 09RemindersaB008OpenTagsaC0V
+- _symbolic _____y_____G 10AppIntents22ParameterSummaryStringV 09RemindersaB0011OpenSectionA6IntentV
+- _symbolic _____y_____G 10AppIntents22ParameterSummaryStringV 09RemindersaB0014UpdateListNameA6IntentV
+- _symbolic _____y_____G 10AppIntents22ParameterSummaryStringV 09RemindersaB0014UpdateListTypeA6IntentV
+- _symbolic _____y_____G 10AppIntents22ParameterSummaryStringV 09RemindersaB0024UpdateSectionDisplayNameA6IntentV
+- _symbolic _____y_____G 10AppIntents22ParameterSummaryStringV 09RemindersaB008OpenTagsA6IntentV
+- _symbolic _____y_____G 18AppIntentsServices14EntityPropertyC 09RemindersaB0013LocationAlarmD14RepresentationC
+- _symbolic _____y_____G 18AppIntentsServices14EntityPropertyC 09RemindersaB008ReminderD14RepresentationC
+- _symbolic _____y_____G 18AppIntentsServices14EntityPropertyC 09RemindersaB008ReminderD14RepresentationC05FlagsH0O
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 19RemindersAppIntents19LocationAlarmEntityV
+- _symbolic _____y_____SSSg_____G 10AppIntents30_IntentUpdatableEntityPropertyC 09RemindersaB007SectionE0V AD06Updateh11DisplayNameaC0V
+- _symbolic _____y_____SS_____G 10AppIntents30_IntentUpdatableEntityPropertyC 09RemindersaB004ListE0V AD06Updateh4NameaC0V
+- _symbolic _____y_____SgG 10AppIntents14EntityPropertyC 09RemindersaB0013LocationAlarmC0V
+- _symbolic _____y_____SgG 10AppIntents14EntityPropertyC 09RemindersaB004ListC0V
+- _symbolic _____y_____SgG 10AppIntents14EntityPropertyC 09RemindersaB008ReminderC0V5FlagsO
+- _symbolic _____y_____SgG 10AppIntents15IntentParameterC 09RemindersaB014ReminderEntityV5FlagsO
+- _symbolic _____y_____SgG 10AppIntents15IntentParameterC 09RemindersaB019LocationAlarmEntityV
+- _symbolic _____y_____SgG 10AppIntents15IntentParameterC AA0C4FileV
+- _symbolic _____y_____SgG 18AppIntentsServices15IntentParameterC 09RemindersaB028ReminderEntityRepresentationC05FlagsI0O
+- _symbolic _____y_____SgG 18AppIntentsServices15IntentParameterC 09RemindersaB033LocationAlarmEntityRepresentationC
+- _symbolic _____y_____Sg_G 10AppIntents15IntentParameterC10ValueStateO 09RemindersaB014ReminderEntityV5FlagsO
+- _symbolic _____y_____Sg_G 10AppIntents15IntentParameterC10ValueStateO 09RemindersaB019LocationAlarmEntityV
+- _symbolic _____y______G 10AppIntents16_AssistantIntentV6PhraseV 09RemindersaB0010CreateListaD0V
+- _symbolic _____y______G 10AppIntents16_AssistantIntentV6PhraseV 09RemindersaB0010OpenSearchaD0V
+- _symbolic _____y______G 10AppIntents16_AssistantIntentV6PhraseV 09RemindersaB0010UpdateListh6LayoutaD0V
+- _symbolic _____y______G 10AppIntents16_AssistantIntentV6PhraseV 09RemindersaB0011DeleteListsaD0V
+- _symbolic _____y______G 10AppIntents16_AssistantIntentV6PhraseV 09RemindersaB0011OpenSectionaD0V
+- _symbolic _____y______G 10AppIntents16_AssistantIntentV6PhraseV 09RemindersaB0012OpenReminderaD0V
+- _symbolic _____y______G 10AppIntents16_AssistantIntentV6PhraseV 09RemindersaB0013CreateSectionaD0V
+- _symbolic _____y______G 10AppIntents16_AssistantIntentV6PhraseV 09RemindersaB0013OpenSmartListaD0V
+- _symbolic _____y______G 10AppIntents16_AssistantIntentV6PhraseV 09RemindersaB0014CreateReminderaD0V
+- _symbolic _____y______G 10AppIntents16_AssistantIntentV6PhraseV 09RemindersaB0014DeleteSectionsaD0V
+- _symbolic _____y______G 10AppIntents16_AssistantIntentV6PhraseV 09RemindersaB0014UpdateListNameaD0V
+- _symbolic _____y______G 10AppIntents16_AssistantIntentV6PhraseV 09RemindersaB0014UpdateListTypeaD0V
+- _symbolic _____y______G 10AppIntents16_AssistantIntentV6PhraseV 09RemindersaB0015AddOrRemoveTagsaD0V
+- _symbolic _____y______G 10AppIntents16_AssistantIntentV6PhraseV 09RemindersaB0015UpdateListBadgeaD0V
+- _symbolic _____y______G 10AppIntents16_AssistantIntentV6PhraseV 09RemindersaB0015UpdateListColoraD0V
+- _symbolic _____y______G 10AppIntents16_AssistantIntentV6PhraseV 09RemindersaB0016CompleteReminderaD0V
+- _symbolic _____y______G 10AppIntents16_AssistantIntentV6PhraseV 09RemindersaB0016UpdateListParentaD0V
+- _symbolic _____y______G 10AppIntents16_AssistantIntentV6PhraseV 09RemindersaB0018UpdateListIsPinnedaD0V
+- _symbolic _____y______G 10AppIntents16_AssistantIntentV6PhraseV 09RemindersaB0021CreateCustomSmartListaD0V
+- _symbolic _____y______G 10AppIntents16_AssistantIntentV6PhraseV 09RemindersaB0022UpdateListSortingStyleaD0V
+- _symbolic _____y______G 10AppIntents16_AssistantIntentV6PhraseV 09RemindersaB0023UpdateSmartListIsHiddenaD0V
+- _symbolic _____y______G 10AppIntents16_AssistantIntentV6PhraseV 09RemindersaB0024UpdateListShowsCompletedaD0V
+- _symbolic _____y______G 10AppIntents16_AssistantIntentV6PhraseV 09RemindersaB0024UpdateSectionDisplayNameaD0V
+- _symbolic _____y______G 10AppIntents16_AssistantIntentV6PhraseV 09RemindersaB004MovefaD0V
+- _symbolic _____y______G 10AppIntents16_AssistantIntentV6PhraseV 09RemindersaB006Deletef10ListGroupsaD0V
+- _symbolic _____y______G 10AppIntents16_AssistantIntentV6PhraseV 09RemindersaB006DeletefaD0V
+- _symbolic _____y______G 10AppIntents16_AssistantIntentV6PhraseV 09RemindersaB008OpenListaD0V
+- _symbolic _____y______G 10AppIntents16_AssistantIntentV6PhraseV 09RemindersaB008OpenTagsaD0V
+- _symbolic _____y______G 10AppIntents16_AssistantIntentV6PhraseV 09RemindersaB009OpenGroupaD0V
+- _symbolic _____y______G 10AppIntents22ParameterSummaryStringV0E13InterpolationV 09RemindersaB0011OpenSectionA6IntentV
+- _symbolic _____y______G 10AppIntents22ParameterSummaryStringV0E13InterpolationV 09RemindersaB0014UpdateListNameA6IntentV
+- _symbolic _____y______G 10AppIntents22ParameterSummaryStringV0E13InterpolationV 09RemindersaB0014UpdateListTypeA6IntentV
+- _symbolic _____y______G 10AppIntents22ParameterSummaryStringV0E13InterpolationV 09RemindersaB0024UpdateSectionDisplayNameA6IntentV
+- _symbolic _____y______G 10AppIntents22ParameterSummaryStringV0E13InterpolationV 09RemindersaB008OpenTagsA6IntentV
+- _symbolic _____y______G 10Foundation20PredicateExpressionsO8VariableV 19RemindersAppIntents10ListEntityV
+- _symbolic _____y______GSg 19ReminderKitInternal24REMRemindersListDataViewO6ResultV AC011CustomSmartE5ModelV
+- _symbolic _____y_______G 10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV 09RemindersaB0010CreateListaD0V
+- _symbolic _____y_______G 10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV 09RemindersaB0010OpenSearchaD0V
+- _symbolic _____y_______G 10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV 09RemindersaB0010UpdateListj6LayoutaD0V
+- _symbolic _____y_______G 10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV 09RemindersaB0011DeleteListsaD0V
+- _symbolic _____y_______G 10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV 09RemindersaB0011OpenSectionaD0V
+- _symbolic _____y_______G 10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV 09RemindersaB0012OpenReminderaD0V
+- _symbolic _____y_______G 10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV 09RemindersaB0013CreateSectionaD0V
+- _symbolic _____y_______G 10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV 09RemindersaB0013OpenSmartListaD0V
+- _symbolic _____y_______G 10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV 09RemindersaB0014CreateReminderaD0V
+- _symbolic _____y_______G 10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV 09RemindersaB0014DeleteSectionsaD0V
+- _symbolic _____y_______G 10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV 09RemindersaB0014UpdateListNameaD0V
+- _symbolic _____y_______G 10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV 09RemindersaB0014UpdateListTypeaD0V
+- _symbolic _____y_______G 10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV 09RemindersaB0015AddOrRemoveTagsaD0V
+- _symbolic _____y_______G 10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV 09RemindersaB0015UpdateListBadgeaD0V
+- _symbolic _____y_______G 10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV 09RemindersaB0015UpdateListColoraD0V
+- _symbolic _____y_______G 10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV 09RemindersaB0016CompleteReminderaD0V
+- _symbolic _____y_______G 10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV 09RemindersaB0016UpdateListParentaD0V
+- _symbolic _____y_______G 10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV 09RemindersaB0018UpdateListIsPinnedaD0V
+- _symbolic _____y_______G 10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV 09RemindersaB0021CreateCustomSmartListaD0V
+- _symbolic _____y_______G 10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV 09RemindersaB0022UpdateListSortingStyleaD0V
+- _symbolic _____y_______G 10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV 09RemindersaB0023UpdateSmartListIsHiddenaD0V
+- _symbolic _____y_______G 10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV 09RemindersaB0024UpdateListShowsCompletedaD0V
+- _symbolic _____y_______G 10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV 09RemindersaB0024UpdateSectionDisplayNameaD0V
+- _symbolic _____y_______G 10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV 09RemindersaB004MovehaD0V
+- _symbolic _____y_______G 10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV 09RemindersaB006Deleteh10ListGroupsaD0V
+- _symbolic _____y_______G 10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV 09RemindersaB006DeletehaD0V
+- _symbolic _____y_______G 10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV 09RemindersaB008OpenListaD0V
+- _symbolic _____y_______G 10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV 09RemindersaB008OpenTagsaD0V
+- _symbolic _____y_______G 10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV 09RemindersaB009OpenGroupaD0V
+- _symbolic _____y__________Sg_____G 10AppIntents30_IntentUpdatableEntityPropertyC 09RemindersaB004ListE0V AF0H4TypeO AD06UpdatehiaC0V
+- _symbolic _____y__________ySSGG s7KeyPathC 19RemindersAppIntents014UpdateListNameD6IntentV 0dE00I9ParameterC
+- _symbolic _____y__________ySSGG s7KeyPathC 19RemindersAppIntents024UpdateSectionDisplayNameD6IntentV 0dE00J9ParameterC
+- _symbolic _____y__________ySaySSGSgGG s7KeyPathC 19RemindersAppIntents08OpenTagsD6IntentV 0dE00H9ParameterC
+- _symbolic _____y__________y_____GG s7KeyPathC 19RemindersAppIntents011OpenSectionD6IntentV 0dE00H9ParameterC AC0G6EntityV
+- _symbolic _____y__________y_____GG s7KeyPathC 19RemindersAppIntents014UpdateListNameD6IntentV 0dE00I9ParameterC AC0G6EntityV
+- _symbolic _____y__________y_____GG s7KeyPathC 19RemindersAppIntents014UpdateListTypeD6IntentV 0dE00I9ParameterC AC0G6EntityV
+- _symbolic _____y__________y_____GG s7KeyPathC 19RemindersAppIntents014UpdateListTypeD6IntentV 0dE00I9ParameterC AC0G6EntityV0gH0O
+- _symbolic _____y__________y_____GG s7KeyPathC 19RemindersAppIntents024UpdateSectionDisplayNameD6IntentV 0dE00J9ParameterC AC0G6EntityV
+- _symbolic _____y______pG 10AppIntents0A10DependencyC 09RemindersaB0011OpenSectionA16IntentPerformingP
+- _symbolic _____y______pG 10AppIntents0A10DependencyC 09RemindersaB008OpenTagsA16IntentPerformingP
+- _symbolic _____y______y______G_____G 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 19RemindersAppIntents10ListEntityV AH0hK2IDV
+- _symbolic _____y______y______G_____SgG 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 19RemindersAppIntents13SectionEntityV AH04ListK0V
+- _symbolic _____y______y______y______G_____SgGAfBy_ABy_ACy_AFG_____GSSGSSG 10Foundation20PredicateExpressionsO15OptionalFlatMapV AC7KeyPathV AC8VariableV 19RemindersAppIntents13SectionEntityV AJ04ListN0V AJ0kN2IDV
+- _symbolic _____y______y______y______y______G_____SgGAgCy_ACy_ADy_AGG_____GSSGSSG_____y_SSSgGG 10Foundation20PredicateExpressionsO5EqualV AC15OptionalFlatMapV AC7KeyPathV AC8VariableV 19RemindersAppIntents13SectionEntityV AL04ListO0V AL0lO2IDV AC5ValueV
+CStrings:
++ "$defaultActor"
++ "/Library/Caches/com.apple.xbs/A9664BCF-0B03-4324-AEBE-27B7BA28CC91/TemporaryDirectory.STbApq/Sources/RemindersApp/Reminders/RemindersAppIntents/Entities/ListEntity.swift"
++ "/Library/Caches/com.apple.xbs/A9664BCF-0B03-4324-AEBE-27B7BA28CC91/TemporaryDirectory.STbApq/Sources/RemindersApp/Reminders/RemindersAppIntents/Intents/AddOrRemoveTagsAppIntent.swift"
++ "/Library/Caches/com.apple.xbs/A9664BCF-0B03-4324-AEBE-27B7BA28CC91/TemporaryDirectory.STbApq/Sources/RemindersApp/Reminders/RemindersAppIntents/Intents/UpdatingIntents/UpdateGroupAppIntent.swift"
++ "/Library/Caches/com.apple.xbs/A9664BCF-0B03-4324-AEBE-27B7BA28CC91/TemporaryDirectory.STbApq/Sources/RemindersApp/Reminders/RemindersAppIntents/Intents/UpdatingIntents/UpdateListAppIntent.swift"
++ "/Library/Caches/com.apple.xbs/A9664BCF-0B03-4324-AEBE-27B7BA28CC91/TemporaryDirectory.STbApq/Sources/RemindersApp/Reminders/RemindersAppIntents/Intents/UpdatingIntents/UpdateReminderAppIntent.swift"
++ "/Library/Caches/com.apple.xbs/A9664BCF-0B03-4324-AEBE-27B7BA28CC91/TemporaryDirectory.STbApq/Sources/RemindersApp/Reminders/RemindersAppIntents/Intents/UpdatingIntents/UpdateSectionAppIntent.swift"
++ "/Library/Caches/com.apple.xbs/A9664BCF-0B03-4324-AEBE-27B7BA28CC91/TemporaryDirectory.STbApq/Sources/RemindersApp/Reminders/RemindersAppIntents/Intents/UpdatingIntents/UpdateSmartListAppIntent.swift"
++ "/Library/Caches/com.apple.xbs/A9664BCF-0B03-4324-AEBE-27B7BA28CC91/TemporaryDirectory.STbApq/Sources/RemindersApp/Reminders/RemindersAppIntents/Performers/REMStoreIntentPerformer+IntentPerforming/REMStoreIntentPerformer+MoveRemindersToListIntentPerforming.swift"
++ "Account <no loc>"
++ "Account Capabilities <no loc>"
++ "AccountEntityQuery"
++ "AccountEntityQuery.entitiesForIdentifiers"
++ "AccountEntityQuery.suggestedEntities"
++ "An unexpected error occurred when moving a reminder as subtask"
++ "App Intents Reminder Entity Is Subtask Property Title"
++ "App Intents Reminder Entity Vehicle Trigger Property Title"
++ "AppIntents Error when moving reminders to custom smart list section is not supported"
++ "AppIntents Error when trying to create a grocery list without an iCloud account"
++ "AppIntents Error when trying to fetch a deferred property, but the performer is not available."
++ "AppIntents Error when trying to update both list and subtasks in the same operation"
++ "AppIntents Error when unable to move reminder as subtask"
++ "Attempted to fetch ListEntity.sections without a deferredPropertyPerformer. Initialize ListEntity with a deferredPropertyPerformer to access this property."
++ "Attempted to fetch ReminderEntity.parent without a deferredPropertyPerformer. Initialize ReminderEntity with a deferredPropertyPerformer to access this property."
++ "Attempted to fetch SectionEntity.reminders without a deferredPropertyPerformer. Initialize SectionEntity with a deferredPropertyPerformer to access this property."
++ "Attempted to resolve deferred property, but the deferred property performer could not be found."
++ "Cannot change list and subtasks simultaneously"
++ "Cannot move reminders to this custom smart list section."
++ "Create Reminder AppIntent Vehicle Trigger parameter title"
++ "Create Reminder AppIntent vehicle trigger parameter description"
++ "Display representation of Vehicle Trigger Connected for App Intents"
++ "Display representation of Vehicle Trigger Disconnected for App Intents"
++ "Failed to create REMAlarmLocationTrigger from LocationTriggerEntity"
++ "Failed to get section entity for reminder: %@ | %s"
++ "Get Default List <no loc>"
++ "GetDefaultListAppIntent"
++ "Grocery lists require an iCloud account"
++ "GroupEntity: Unsupported list type"
++ "Internal only, Localization not required - App Intents Account Capabilities defaultPriorityLevel Property Title"
++ "Internal only, Localization not required - App Intents Account Capabilities supportsAssignments Property Title"
++ "Internal only, Localization not required - App Intents Account Capabilities supportsAttachments Property Title"
++ "Internal only, Localization not required - App Intents Account Capabilities supportsCustomSmartLists Property Title"
++ "Internal only, Localization not required - App Intents Account Capabilities supportsDueDateDeltaAlerts Property Title"
++ "Internal only, Localization not required - App Intents Account Capabilities supportsFlagged Property Title"
++ "Internal only, Localization not required - App Intents Account Capabilities supportsGroceriesList Property Title"
++ "Internal only, Localization not required - App Intents Account Capabilities supportsGroups Property Title"
++ "Internal only, Localization not required - App Intents Account Capabilities supportsHandoff Property Title"
++ "Internal only, Localization not required - App Intents Account Capabilities supportsHashtags Property Title"
++ "Internal only, Localization not required - App Intents Account Capabilities supportsHourlyRecurrence Property Title"
++ "Internal only, Localization not required - App Intents Account Capabilities supportsListAppearance Property Title"
++ "Internal only, Localization not required - App Intents Account Capabilities supportsListSharees Property Title"
++ "Internal only, Localization not required - App Intents Account Capabilities supportsListShareesMutation Property Title"
++ "Internal only, Localization not required - App Intents Account Capabilities supportsLocation Property Title"
++ "Internal only, Localization not required - App Intents Account Capabilities supportsMoveAcrossLists Property Title"
++ "Internal only, Localization not required - App Intents Account Capabilities supportsMoveAcrossSharedLists Property Title"
++ "Internal only, Localization not required - App Intents Account Capabilities supportsMultipleDateAlarmsOnRecurrence Property Title"
++ "Internal only, Localization not required - App Intents Account Capabilities supportsPersonTrigger Property Title"
++ "Internal only, Localization not required - App Intents Account Capabilities supportsPinnedLists Property Title"
++ "Internal only, Localization not required - App Intents Account Capabilities supportsRecentlyDeletedList Property Title"
++ "Internal only, Localization not required - App Intents Account Capabilities supportsReminderActions Property Title"
++ "Internal only, Localization not required - App Intents Account Capabilities supportsSections Property Title"
++ "Internal only, Localization not required - App Intents Account Capabilities supportsSubtasks Property Title"
++ "Internal only, Localization not required - App Intents Account Capabilities supportsTemplates Property Title"
++ "Internal only, Localization not required - App Intents Account Capabilities supportsTextStyling Property Title"
++ "Internal only, localization not required - AppIntents entity type display representation for Account Entity"
++ "Internal only, localization not required - AppIntents entity type display representation for AccountCapabilities Entity"
++ "Internal only, localization not required - Get Default List - Intent title"
++ "Internal only, localization not required - Get Default List App Intent require cloudkit account title"
++ "ListEntity: Unsupported list type"
++ "Location Trigger Entity"
++ "Location Trigger Event"
++ "Name of Location Trigger Entity type for App Intents"
++ "Name of Location Trigger Event type for App Intents"
++ "Name of UpdateReminderAppIntent"
++ "Name of Vehicle Trigger type for App Intents"
++ "Renaming 'Others' section is not supported."
++ "Require CloudKit Account <no loc>"
++ "The assigned person parameter title for the Update Reminder AppIntent"
++ "The contact person parameter title for the Update Reminder AppIntent"
++ "The early reminder parameter title for the Update Reminder AppIntent"
++ "The parent parameter title for the Update Reminder AppIntent"
++ "The priority parameter title for the Update Reminder AppIntent"
++ "The vehicle trigger parameter title for the Update Reminder AppIntent"
++ "Unable to convert LocationTriggerEvent to representation"
++ "Unable to convert VehicleTrigger to representation"
++ "Unable to convert representation to LocationTriggerEntity"
++ "Unable to convert representation to LocationTriggerEvent"
++ "Unable to convert representation to VehicleTrigger"
++ "Unexpected REMAlarmProximity value when converting to LocationTriggerEvent {value: %ld}"
++ "Unexpected REMAlarmVehicleTriggerEvent value when converting to VehicleTrigger {value: %ld}"
++ "Update Reminder properties"
++ "Update Reminder properties."
++ "UpdateReminderAppIntent description"
++ "UpdateReminderAppIntent_Assign Reminder"
++ "UpdateReminderAppIntent_Early Reminder"
++ "UpdateReminderAppIntent_Parent Reminder"
++ "UpdateReminderAppIntent_Priority"
++ "UpdateReminderAppIntent_Vehicle Trigger"
++ "UpdateReminderAppIntent_When Messaging"
++ "Vehicle trigger to add to the reminder"
++ "[AppIntentInteractionPublisher] %s | Beginning new interaction"
++ "[AppIntentInteractionPublisher] %s | Discarding interaction"
++ "[AppIntentInteractionPublisher] %s | Donating interaction"
++ "[AppIntentInteractionPublisher] %s | Skipping donation - interaction failed validation"
++ "[AppIntentInteractionPublisher] %s | Updating interaction"
++ "[AppIntentInteractionPublisher] Donating %{public}s"
++ "[AppIntentInteractionPublisher] Skipping donation for %{public}s - interaction failed validation"
++ "[ListEntityDeferredPropertyPerforming] Unknown section type"
++ "[MoveRemindersToSection] Cannot move reminders to smart list section within list without a paramsForREMManualOrdering {reminderIDs: %{public}s, targetSection: %{public}@"
++ "[MoveRemindersToSection] Move reminders to list section {reminderIDs: %{public}s, targetSection: %{public}@, insertPosition: %{public}s"
++ "[MoveRemindersToSection] Move reminders to smart-list section {reminderIDs: %{public}s, targetSection: %{public}@, insertPosition: %{public}s"
++ "[MoveSubtasksSupport] Cannot move reminders that have subtasks to become subtasks of another {reminderID: %{public}@}"
++ "[MoveSubtasksSupport] Unexpectedly failed to move reminder as subtask {reminderID: %{public}@, parentReminderID: %{public}@}"
++ "[SectionEntityDeferredPropertyPerforming] Could not find matching section for %{public}s"
++ "[SectionEntityDeferredPropertyPerforming] Unable to fetch reminder entity for id: %{public}@"
++ "[SectionEntityDeferredPropertyPerforming] Unexpected Section Type %s"
++ "[UpdateReminderIntentPerforming] targetSubtaskIDs: %ld, currentSubtaskIDsCount: %ld, subtaskIDsToRemoveCount: %ld, subtaskIDsToAddCount: %ld"
++ "_TtC19RemindersAppIntents25MockIntentDonationManager"
++ "_TtC19RemindersAppIntents27AccountEntityRepresentation"
++ "_TtC19RemindersAppIntents29AppIntentInteractionPublisher"
++ "_TtC19RemindersAppIntents33AccountCapabilitiesRepresentation"
++ "_TtC19RemindersAppIntents33CreateSectionAppIntentInteraction"
++ "_TtC19RemindersAppIntents33UpdateSectionAppIntentInteraction"
++ "_TtC19RemindersAppIntents34CreateReminderAppIntentInteraction"
++ "_TtC19RemindersAppIntents34UpdateReminderAppIntentInteraction"
++ "_TtC19RemindersAppIntents35LocationTriggerEntityRepresentation"
++ "_capabilities"
++ "_defaultPriorityLevel"
++ "_isCollapsed"
++ "_isFlagged"
++ "_isSubtask"
++ "_locationTrigger"
++ "_place"
++ "_section"
++ "_supportsAssignments"
++ "_supportsAttachments"
++ "_supportsCustomSmartLists"
++ "_supportsDueDateDeltaAlerts"
++ "_supportsFlagged"
++ "_supportsGroceriesList"
++ "_supportsGroups"
++ "_supportsHandoff"
++ "_supportsHashtags"
++ "_supportsHourlyRecurrence"
++ "_supportsListAppearance"
++ "_supportsListSharees"
++ "_supportsListShareesMutation"
++ "_supportsLocation"
++ "_supportsMoveAcrossLists"
++ "_supportsMoveAcrossSharedLists"
++ "_supportsMultipleDateAlarmsOnRecurrence"
++ "_supportsPersonTrigger"
++ "_supportsPinnedLists"
++ "_supportsRecentlyDeletedList"
++ "_supportsReminderActions"
++ "_supportsSections"
++ "_supportsSubtasks"
++ "_supportsTemplates"
++ "_supportsTextStyling"
++ "_vehicleTrigger"
++ "code"
++ "connected"
++ "coordinate"
++ "defaultPriorityLevel <no loc>"
++ "disconnected"
++ "domain"
++ "donationManager"
++ "fetchListSectionWithReminderID:error:"
++ "fetchSmartListSectionWithReminderID:smartListID:error:"
++ "getMapItemWithCompletionHandler:"
++ "intent"
++ "locationTrigger.place does not have a region on resolved mapItem"
++ "locationTrigger.place resolved mapItem.placemark.region is not a CLCircularRegion, unable to create REMAlarmLocationTrigger. {region: %s}"
++ "notes"
++ "pendingDonations"
++ "placemark"
++ "result"
++ "setNotes:"
++ "setParentReminderID:"
++ "supportsAssignments <no loc>"
++ "supportsAttachments <no loc>"
++ "supportsCustomSmartLists <no loc>"
++ "supportsDueDateDeltaAlerts <no loc>"
++ "supportsFlagged <no loc>"
++ "supportsGroceriesList"
++ "supportsGroceriesList <no loc>"
++ "supportsGroups <no loc>"
++ "supportsHandoff <no loc>"
++ "supportsHashtags <no loc>"
++ "supportsHourlyRecurrence <no loc>"
++ "supportsListAppearance <no loc>"
++ "supportsListSharees <no loc>"
++ "supportsListShareesMutation <no loc>"
++ "supportsLocation <no loc>"
++ "supportsMoveAcrossLists <no loc>"
++ "supportsMoveAcrossSharedLists <no loc>"
++ "supportsMultipleDateAlarmsOnRecurrence <no loc>"
++ "supportsPersonTrigger <no loc>"
++ "supportsPinnedLists <no loc>"
++ "supportsRecentlyDeletedList <no loc>"
++ "supportsReminderActions <no loc>"
++ "supportsSections <no loc>"
++ "supportsSubtasks <no loc>"
++ "supportsTemplates <no loc>"
++ "supportsTextStyling <no loc>"
++ "v24@?0@\"MKMapItem\"8@\"NSError\"16"
+- " all my completed reminders in the grocery list."
+- " and its sublists."
+- " and its subtasks as "
+- " for the reminder "
+- " from all reminders."
+- " from my reminders."
+- " in my grocery list."
+- " into the reminder named "
+- " my Costco list."
+- " of the current "
+- " out of the current "
+- " reminder as a subtask of the "
+- " reminder back to "
+- " reminder to trash."
+- " reminder under "
+- " reminders group to trash."
+- " reminders list to trash."
+- " reminders list."
+- " reminders section."
+- " section in my default list."
+- " section into the "
+- " section to trash."
+- " the completed reminders in my Costco list."
+- " the status of its subtasks."
+- " to be a subtask of "
+- " to my default list."
+- " to the reminder "
+- "%s"
+- "/Library/Caches/com.apple.xbs/Sources/RemindersApp/Reminders/RemindersAppIntents/Entities/ListEntity.swift"
+- "/Library/Caches/com.apple.xbs/Sources/RemindersApp/Reminders/RemindersAppIntents/Intents/AddOrRemoveTagsAppIntent.swift"
+- "/Library/Caches/com.apple.xbs/Sources/RemindersApp/Reminders/RemindersAppIntents/Intents/UpdatingIntents/UpdateGroupAppIntent.swift"
+- "/Library/Caches/com.apple.xbs/Sources/RemindersApp/Reminders/RemindersAppIntents/Intents/UpdatingIntents/UpdateListAppIntent.swift"
+- "/Library/Caches/com.apple.xbs/Sources/RemindersApp/Reminders/RemindersAppIntents/Intents/UpdatingIntents/UpdateReminderAppIntent.swift"
+- "/Library/Caches/com.apple.xbs/Sources/RemindersApp/Reminders/RemindersAppIntents/Intents/UpdatingIntents/UpdateSectionAppIntent.swift"
+- "/Library/Caches/com.apple.xbs/Sources/RemindersApp/Reminders/RemindersAppIntents/Intents/UpdatingIntents/UpdateSmartListAppIntent.swift"
+- "/Library/Caches/com.apple.xbs/Sources/RemindersApp/Reminders/RemindersAppIntents/Performers/REMStoreIntentPerformer+IntentPerforming/REMStoreIntentPerformer+MoveRemindersToListIntentPerforming.swift"
+- "Add a new section called "
+- "Add a section to my "
+- "Add these checklist items as tasks to my "
+- "App Intents List Entity Name Property Title"
+- "App Intents Reminder Entity Recurrence Rule Property Title"
+- "App Intents Reminder Entity Subtasks Property Title"
+- "App Intents Reminder Entity Tags Property Title"
+- "App Intents Reminder Entity Title Property Due Date"
+- "App Intents Reminder Entity Title Property Flags"
+- "App Intents Reminder Entity Title Property Location"
+- "App Intents Reminder Entity Title Property Notes"
+- "App Intents Section Entity Parent List Property Title"
+- "AppIntents List Entity List Type Property Title"
+- "AppIntents Section Entity Display Name Property Title"
+- "Change Reminders List Name"
+- "Change the list layout to "
+- "Change the section name from Plan to "
+- "Check off the reminder "
+- "Complete this reminder "
+- "Create Reminder AppIntent Location parameter title"
+- "Create Reminder AppIntent image parameter description"
+- "Create Reminder AppIntent image parameter title"
+- "Create Reminder AppIntent location parameter description"
+- "Create Reminder AppIntent recurrence rule parameter description"
+- "Create Reminder AppIntent recurrence rule parameter title"
+- "Create Reminder AppIntent reminder due date parameter description"
+- "Create Reminder AppIntent reminder due date parameter title"
+- "Create Reminder AppIntent reminder flagged parameter description"
+- "Create Reminder AppIntent reminder flagged parameter title"
+- "Create Reminder AppIntent reminder notes parameter description"
+- "Create Reminder AppIntent reminder notes parameter title"
+- "Create Reminder AppIntent reminder title parameter description"
+- "Create Reminder AppIntent reminder title parameter title"
+- "Create Reminder AppIntent tags parameter description"
+- "Create Reminder AppIntent tags parameter title"
+- "Create a list with reminders "
+- "Create a new list."
+- "Create a new reminder called "
+- "Create a new reminder."
+- "Create a new section called "
+- "Create a reminder to "
+- "Create a smart list based on a tag."
+- "Create a smart list from the tag "
+- "Create one smaller task "
+- "Delete the section called "
+- "Due date to add to the reminder"
+- "Failed to fetch and populate sections into ListEntity with list %@"
+- "Flag to add to the reminder"
+- "Get rid of the group called "
+- "Get rid of the tag "
+- "I want to filter my reminders with the "
+- "I want to make a new "
+- "I want to mark this reminder "
+- "I want to move my "
+- "I want to open the "
+- "I want to open the list with reminders "
+- "I want to see the details of "
+- "I want to see the reminders in the "
+- "I want to sort the reminders in my "
+- "I want to view reminders as a long "
+- "I'd like to be reminded about "
+- "I'd like to insert the tag "
+- "I'd like to switch my list layout to "
+- "I'd like to update my "
+- "Image to add to the reminder"
+- "Insert a reminder called "
+- "Internal only, localization not required - Name of UpdateReminderAppIntent"
+- "Internal only, localization not required - The assigned person parameter title for the Update Reminder AppIntent"
+- "Internal only, localization not required - The contact person parameter title for the Update Reminder AppIntent"
+- "Internal only, localization not required - The due date parameter title for the Update Reminder AppIntent"
+- "Internal only, localization not required - The early reminder parameter title for the Update Reminder AppIntent"
+- "Internal only, localization not required - The flags parameter title for the Update Reminder AppIntent"
+- "Internal only, localization not required - The hashtags parameter title for the Update Reminder AppIntent"
+- "Internal only, localization not required - The images parameter title for the Update Reminder AppIntent"
+- "Internal only, localization not required - The list parameter title for the Update Reminder AppIntent"
+- "Internal only, localization not required - The location parameter title for the Update Reminder AppIntent"
+- "Internal only, localization not required - The notes parameter title for the Update Reminder AppIntent"
+- "Internal only, localization not required - The parent parameter title for the Update Reminder AppIntent"
+- "Internal only, localization not required - The priority parameter title for the Update Reminder AppIntent"
+- "Internal only, localization not required - The recurrence rule parameter title for the Update Reminder AppIntent"
+- "Internal only, localization not required - The reminders parameter title for the Update Reminder AppIntent"
+- "Internal only, localization not required - The target parameter title for the Update Reminder AppIntent"
+- "Internal only, localization not required - The title parameter title for the Update Reminder AppIntent"
+- "Internal only, localization not required - The urls parameter title for the Update Reminder AppIntent"
+- "Internal only, localization not required - UpdateReminderAppIntent description"
+- "I’d like to see all my tags in "
+- "I’d like to see the reminders in my "
+- "Lessons in Chemistry"
+- "List type to set to the reminders list"
+- "ListEntity_ListType"
+- "ListEntity_Name"
+- "Location to add to the reminder"
+- "Make a new list called "
+- "Make all completed reminders "
+- "Make my grocery list always appear at the "
+- "Move the list called "
+- "Move the reminder called "
+- "Name of Reminders OpenTagsAppIntent"
+- "Name of Reveal Section AppIntent"
+- "Name of Update Reminders List Name AppIntent"
+- "Name of Update Reminders List Type AppIntent"
+- "Name of Update Section Display Name AppIntent"
+- "Name to set to the reminders list"
+- "Name to set to the section"
+- "Notes to add to the reminder"
+- "Open Tag Browser"
+- "Open the list called "
+- "Open the list with reminders "
+- "Open the reminder called "
+- "OpenSectionAppIntent"
+- "OpenSectionAppIntent Reminders App Intent title description"
+- "OpenTagsAppIntent"
+- "OpenTagsAppIntent Reminders App Intent title description"
+- "OpenTagsAppIntent tags filter parameter description"
+- "OpenTagsAppIntent tags filter parameter title"
+- "Opens the tag browser in Reminders."
+- "Pack for camping trip"
+- "Put a list called "
+- "Put these ingredients on my "
+- "Read one book over the weekend"
+- "Recurrence Rule to add to the reminder"
+- "Renaming ‘Others’ section is not supported."
+- "Reveal Section AppIntent section parameter description"
+- "Reveal Section AppIntent section parameter title"
+- "Reveal Section AppIntent show in expanded state"
+- "Reveal Section In List"
+- "Reveal a section in Reminders."
+- "Section to reveal"
+- "SectionEntity_DisplayName"
+- "Set reminders list type to grocery or standard"
+- "Set reminders list type to grocery or standard."
+- "Set up a list with reminders "
+- "Show me all the tags."
+- "Show me what's in my "
+- "Show the content of the "
+- "Show the details of the "
+- "Sort the reminders in the "
+- "Start my washing machine"
+- "Tags to add to the reminder"
+- "Tags to filter in the tag browser"
+- "The Creative Art"
+- "The display name parameter for the Update Section AppIntent"
+- "The display name parameter for the Update Section Display Name AppIntent"
+- "The list type parameter for the Update Reminders List AppIntent"
+- "The list type parameter for the Update Reminders List ListType AppIntent"
+- "The name parameter for the Update Reminders List AppIntent"
+- "The name parameter for the Update Reminders List Name AppIntent"
+- "The target list parameter for the Update Reminders List List Type AppIntent"
+- "The target list parameter for the Update Reminders List Name AppIntent"
+- "The target section parameter for the Update Section AppIntent"
+- "The target section parameter for the Update Section Display Name AppIntent"
+- "Thinking, Fast and Slow"
+- "Title of reminder to create"
+- "Unexpected REMAlarmProximity value when converting to RemindersAppIntents SpatialEvent {value: %ld}"
+- "Unexpected REMAlarmVehicleTriggerEvent value when converting to RemindersAppIntents SpatialEvent {value: %ld}"
+- "Update Reminder properties <no loc>"
+- "Update Reminder properties. <no loc>"
+- "Update my grocery list"
+- "Update reminders list name."
+- "Update section display name"
+- "Update section display name."
+- "Update the badge of the "
+- "Update the name of the "
+- "UpdateListNameAppIntent"
+- "UpdateListNameAppIntent Reminders App Intent description"
+- "UpdateListNameAppIntent name property parameter description"
+- "UpdateListNameAppIntent target list parameter description"
+- "UpdateListTypeAppIntent"
+- "UpdateListTypeAppIntent Reminders App Intent description"
+- "UpdateListTypeAppIntent sorting style property parameter description"
+- "UpdateListTypeAppIntent target list parameter description"
+- "UpdateReminderAppIntent_Assign Reminder <no loc>"
+- "UpdateReminderAppIntent_Due Date <no loc>"
+- "UpdateReminderAppIntent_Early Reminder <no loc>"
+- "UpdateReminderAppIntent_Flags <no loc>"
+- "UpdateReminderAppIntent_Images <no loc>"
+- "UpdateReminderAppIntent_List <no loc>"
+- "UpdateReminderAppIntent_Location <no loc>"
+- "UpdateReminderAppIntent_Notes <no loc>"
+- "UpdateReminderAppIntent_Parent Reminder <no loc>"
+- "UpdateReminderAppIntent_Priority <no loc>"
+- "UpdateReminderAppIntent_RecurrenceRule <no loc"
+- "UpdateReminderAppIntent_Subtasks <no loc>"
+- "UpdateReminderAppIntent_Tags <no loc>"
+- "UpdateReminderAppIntent_Target <no loc>"
+- "UpdateReminderAppIntent_Title <no loc>"
+- "UpdateReminderAppIntent_URLs <no loc>"
+- "UpdateReminderAppIntent_When Messaging <no loc>"
+- "UpdateSectionDisplayNameAppIntent"
+- "UpdateSectionDisplayNameAppIntent Reminders App Intent description"
+- "UpdateSectionDisplayNameAppIntent display name property parameter description"
+- "UpdateSectionDisplayNameAppIntent target section parameter description"
+- "View what's in the "
+- "[AppIntent] Open tags browser with url: %s"
+- "[MoveRemindersToParentReminder] Cannot move reminders that have subtasks to become subtasks of another {reminderID: %{public}@}"
+- "[MoveRemindersToParentReminder] Unexpectedly failed to move reminder as subtask {reminderID: %{public}@, parentReminder: %{public}@}"
+- "[MoveRemindersToSectionAppIntent] Cannot move reminders to smart list section within list without a paramsForREMManualOrdering {reminderIDs: %{public}s, targetSection: %{public}@"
+- "[MoveRemindersToSectionAppIntent] Move reminders to list section {reminderIDs: %{public}s, targetSection: %{public}@, insertPosition: %{public}s"
+- "[MoveRemindersToSectionAppIntent] Move reminders to smart-list section {reminderIDs: %{public}s, targetSection: %{public}@, insertPosition: %{public}s"
+- "[MoveRemindersToSectionIntentPerforming] Section entity has no parent list."
+- "[OpenSectionAppIntent] Open section with sectionID: %{public}s, showExpanded: %{public}s"
+- "[OpenTagsAppIntent] Open tags browser for tags: %s"
+- "_childrenLists"
+- "_displayName"
+- "_dueDateComponents"
+- "_flags"
+- "_hashtags"
+- "_listType"
+- "_notes"
+- "_recurrenceRule"
+- "_spatialEventTrigger"
+- "buy two bags of ice"
+- "high priority to low priority"
+- "locationAlarmEntity.placemark is nil, unable to create REMAlarmLocationTrigger."
+- "locationAlarmEntity.placemark.region is not a CLCircularRegion, unable to create REMAlarmLocationTrigger. {region: %s}"
+- "make reservations"
+- "sectionContext"
+- "setNotesAsString:"
+
+```

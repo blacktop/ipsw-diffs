@@ -1,0 +1,1523 @@
+## Feedback Assistant iOS
+
+> `/Applications/Feedback Assistant iOS.app/Feedback Assistant iOS`
+
+```diff
+
+-601.12.0.0.0
+-  __TEXT.__text: 0x91f7c
+-  __TEXT.__auth_stubs: 0x21b0
+-  __TEXT.__objc_stubs: 0xc760
+-  __TEXT.__objc_methlist: 0x770c
+-  __TEXT.__objc_methname: 0x127b8
+-  __TEXT.__objc_classname: 0xcd1
+-  __TEXT.__objc_methtype: 0x3f54
+-  __TEXT.__const: 0x2584
+-  __TEXT.__oslogstring: 0x2ea4
+-  __TEXT.__cstring: 0x80d2
+-  __TEXT.__gcc_except_tab: 0x6d4
++617.1.0.0.0
++  __TEXT.__text: 0x77d74
++  __TEXT.__auth_stubs: 0x2050
++  __TEXT.__objc_stubs: 0xad20
++  __TEXT.__objc_methlist: 0x5414
++  __TEXT.__const: 0x2234
++  __TEXT.__gcc_except_tab: 0x650
++  __TEXT.__objc_methname: 0xf77f
++  __TEXT.__cstring: 0x4212
++  __TEXT.__oslogstring: 0x2654
++  __TEXT.__objc_classname: 0x11b2
++  __TEXT.__objc_methtype: 0x3d75
+   __TEXT.__ustring: 0xcc
+-  __TEXT.__constg_swiftt: 0x1ec4
+-  __TEXT.__swift5_typeref: 0x26d0
+-  __TEXT.__swift5_builtin: 0xf0
+-  __TEXT.__swift5_reflstr: 0xb36
+-  __TEXT.__swift5_fieldmd: 0xd0c
+-  __TEXT.__swift5_assocty: 0x1e0
+-  __TEXT.__swift5_capture: 0x894
+-  __TEXT.__swift5_proto: 0xfc
+-  __TEXT.__swift5_types: 0x114
++  __TEXT.__constg_swiftt: 0x1ae8
++  __TEXT.__swift5_typeref: 0x231c
++  __TEXT.__swift5_builtin: 0xdc
++  __TEXT.__swift5_reflstr: 0x956
++  __TEXT.__swift5_fieldmd: 0xb7c
++  __TEXT.__swift5_assocty: 0x1c8
++  __TEXT.__swift5_capture: 0x6dc
++  __TEXT.__swift5_proto: 0xf0
++  __TEXT.__swift5_types: 0xf4
+   __TEXT.__swift5_protos: 0x8
+-  __TEXT.__unwind_info: 0x25d0
+-  __TEXT.__eh_frame: 0x3c0
+-  __DATA_CONST.__auth_got: 0x10e8
+-  __DATA_CONST.__got: 0xdd0
+-  __DATA_CONST.__auth_ptr: 0x548
+-  __DATA_CONST.__const: 0x3db0
+-  __DATA_CONST.__cfstring: 0x3220
+-  __DATA_CONST.__objc_classlist: 0x3f0
+-  __DATA_CONST.__objc_catlist: 0x78
+-  __DATA_CONST.__objc_protolist: 0x268
++  __TEXT.__unwind_info: 0x1f48
++  __TEXT.__eh_frame: 0x368
++  __DATA_CONST.__auth_got: 0x1038
++  __DATA_CONST.__got: 0xbd8
++  __DATA_CONST.__auth_ptr: 0x518
++  __DATA_CONST.__const: 0x3290
++  __DATA_CONST.__cfstring: 0x2480
++  __DATA_CONST.__objc_classlist: 0x298
++  __DATA_CONST.__objc_catlist: 0x40
++  __DATA_CONST.__objc_protolist: 0x1e0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0xf8
+-  __DATA_CONST.__objc_superrefs: 0x1e8
+-  __DATA_CONST.__objc_intobj: 0x108
+-  __DATA_CONST.__objc_arraydata: 0xa0
++  __DATA_CONST.__objc_protorefs: 0xc8
++  __DATA_CONST.__objc_superrefs: 0x108
++  __DATA_CONST.__objc_intobj: 0x60
++  __DATA_CONST.__objc_arraydata: 0x20
+   __DATA_CONST.__objc_dictobj: 0x50
+-  __DATA_CONST.__objc_arrayobj: 0x48
+-  __DATA.__objc_const: 0x16240
+-  __DATA.__objc_selrefs: 0x50d0
+-  __DATA.__objc_ivar: 0x45c
+-  __DATA.__objc_data: 0x4d70
+-  __DATA.__data: 0x2a48
++  __DATA.__objc_const: 0xc338
++  __DATA.__objc_selrefs: 0x3e58
++  __DATA.__objc_ivar: 0x280
++  __DATA.__objc_data: 0x3a60
++  __DATA.__data: 0x23c0
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__bss: 0x1f40
+-  __DATA.__common: 0xa0
++  __DATA.__bss: 0x1d80
++  __DATA.__common: 0x90
+   - /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+   - /System/Library/Frameworks/CoreData.framework/CoreData
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+-  - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/CoreTelephony.framework/CoreTelephony
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/LocalAuthentication.framework/LocalAuthentication
+   - /System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+   - /System/Library/Frameworks/PhotosUI.framework/PhotosUI
+-  - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+   - /System/Library/Frameworks/QuickLook.framework/QuickLook
+   - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+
+   - /System/Library/PrivateFrameworks/PersonaUI.framework/PersonaUI
+   - /System/Library/PrivateFrameworks/PowerlogDatabaseReader.framework/PowerlogDatabaseReader
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
+-  - /System/Library/PrivateFrameworks/ShareSheet.framework/ShareSheet
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BDC417CB-FAF1-39CF-A503-C006D691D850
+-  Functions: 3609
+-  Symbols:   1163
+-  CStrings:  5389
++  UUID: 9BEAD000-AE41-391C-97B9-076238E6C4AC
++  Functions: 2759
++  Symbols:   1073
++  CStrings:  3966
+ 
+Symbols:
++ _$s12FeedbackCore21FBKAddAttachmentsCellC12supportsMenuSbvgZ
++ _$s12FeedbackCore21FBKAddAttachmentsCellC15reuseIdentifierSSvgZ
++ _$s12FeedbackCore21FBKAddAttachmentsCellC4menuSo6UIMenuCSgvsTj
++ _$s12FeedbackCore21FBKAddAttachmentsCellCMa
++ _$s12FeedbackCore21FBKAttachmentCellViewV10attachmentAcA22FBKViewAttachmentModelC_tcfC
++ _$s12FeedbackCore21FBKAttachmentCellViewV7SwiftUI0E0AAMc
++ _$s12FeedbackCore21FBKAttachmentCellViewVMa
++ _$s12FeedbackCore21FBKAttachmentCellViewVMn
++ _$s12FeedbackCore22FBKViewAttachmentModelC06actualD0ACSo13FBKAttachmentC_tcfc
++ _$s12FeedbackCore22FBKViewAttachmentModelCMa
++ _$s12FeedbackCore26FBKBugFormPickerControllerC14pickerDelegateSo0cdeH0_pSgvsTj
++ _$s12FeedbackCore26FBKBugFormPickerControllerC14stubsPredicateACSo11NSPredicateC_tcfc
++ _$s12FeedbackCore26FBKBugFormPickerControllerC4teamSo7FBKTeamCSgvgTj
++ _$s12FeedbackCore26FBKBugFormPickerControllerC4teamSo7FBKTeamCSgvsTj
++ _$s12FeedbackCore26FBKBugFormPickerControllerCMa
++ _$s12FeedbackCore26FBKBugFormPickerControllerCMn
++ _$s12FeedbackCore26FBKDevicePickerCoordinatorC010showDeviceD07choices16onViewController10completionyShySo010FBKGroupedG0CG_So06UIViewK0CyAJctFZ
++ _$s12FeedbackCore26FBKDevicePickerCoordinatorCMa
++ _$s12FeedbackCore27FBKAddAttachmentsControllerC20handleErrorAttaching10attachment04viewE0018devicesDiagnosticsE05errorySo13FBKAttachmentC_So06UIViewE0CSo09FBKDevicelE0Cs0G0_ptFZ
++ _$s12FeedbackCore27FBKAddAttachmentsControllerC4menu3forSo6UIMenuCSo011UITableViewE0C_tFTj
++ _$s12FeedbackCore27FBKAddAttachmentsControllerC5sheet3for17selectedIndexPath6senderAA014FBKActionSheetE0CSo011UITableViewE0C_10Foundation0iJ0VSo6UIViewCSgtFTj
++ _$s12FeedbackCore27FBKAddAttachmentsControllerC8delegate19supportsDragAndDropACSo0cdE8Delegate_pSg_Sbtcfc
++ _$s12FeedbackCore27FBKAddAttachmentsControllerCMa
++ _$s12FeedbackCore27FBKAddAttachmentsControllerCMn
++ _$s12FeedbackCore27FBKEmbeddedAttachmentViewerC18interactionEnabledSbvsTj
++ _$s12FeedbackCore27FBKEmbeddedAttachmentViewerCMn
++ _$s12FeedbackCore29FBKAttachmentDiffableCellViewC15reuseIdentifierSSvgZ
++ _$s12FeedbackCore29FBKAttachmentDiffableCellViewCMa
++ _$s12FeedbackCore34FBKNoBugSessionAlertViewControllerC06showInH0_9forDeviceySo06UIViewH0C_So010FBKGroupedL0CtFZ
++ _$s12FeedbackCore34FBKNoBugSessionAlertViewControllerCMa
++ _$ss15ContiguousArrayV28_allocateBufferUninitialized15minimumCapacitys01_abD0VyxGSi_tFZ
++ _$ss5ErrorWS
++ _FBKNilIfNSNull
++ _NSUserActivityTypeBrowsingWeb
++ _OBJC_CLASS_$_FBKDeviceDisplayCell
++ _OBJC_CLASS_$_FBKDevicePairingCell
++ _OBJC_CLASS_$_FBKNotificationManager
++ _OBJC_CLASS_$_FBKPartialSheetNavigationController
++ _OBJC_METACLASS_$_FBKPartialSheetNavigationController
++ _swift_willThrowTypedImpl
+- _$s10Foundation13__DataStorageC6_bytesSvSgvg
+- _$s10Foundation13__DataStorageC7_offsetSivg
+- _$s10Foundation3URLV16hasDirectoryPathSbvg
+- _$s12FeedbackCore25FBKTableSectionHeaderViewC015shouldPinCustomE0SbyFZ
+- _$s12FeedbackCore25FBKTableSectionHeaderViewC5title05tableF0ACSSSg_So07UITableF0Ctcfc
+- _$s12FeedbackCore25FBKTableSectionHeaderViewCMa
+- _$s22UniformTypeIdentifiers6UTTypeV10identifierSSvg
+- _$s22UniformTypeIdentifiers6UTTypeV4itemACvgZ
+- _$s22UniformTypeIdentifiers6UTTypeV5movieACvgZ
+- _$s22UniformTypeIdentifiers6UTTypeVMa
+- _$s22UniformTypeIdentifiers6UTTypeVMn
+- _$s5UIKit26UIListContentConfigurationV4cellACyFZ
+- _$s5UIKit28NSDiffableDataSourceSnapshotV15itemIdentifiers9inSectionSayq_Gx_tF
+- _$s7SwiftUI4EdgeO3SetVMn
+- _$s8Dispatch0A4TimeV3nowACyFZ
+- _$s8Dispatch0A4TimeVMa
+- _$s8Dispatch1poiyAA0A4TimeVAD_SdtF
+- _$s8PhotosUI14PHPickerResultV12itemProviderSo06NSItemF0Cvg
+- _$s8PhotosUI14PHPickerResultVMa
+- _$s8PhotosUI14PHPickerResultVMn
+- _$s8PhotosUI21PHPickerConfigurationV14selectionLimitSivs
+- _$s8PhotosUI21PHPickerConfigurationVACycfC
+- _$s8PhotosUI21PHPickerConfigurationVMa
+- _$s8PhotosUI30PHPickerViewControllerDelegateMp
+- _$s8PhotosUI30PHPickerViewControllerDelegateP6picker_16didFinishPickingySo0cdE0C_SayAA0C6ResultVGtFTq
+- _$sSa28_allocateBufferUninitialized15minimumCapacitys06_ArrayB0VyxGSi_tFZ
+- _$sSayxGs7CVarArg10FoundationMc
+- _$sSo14FBKFileManagerC12FeedbackCoreE18temporaryDirectory14pathComponents10Foundation3URLVSgSaySSG_tFZ
+- _$sSo15UITableViewCellC12FeedbackCoreE26updateWithSeparatorSpacingyy0E8Graphics7CGFloatVF
+- _$sSo17OS_dispatch_queueC8DispatchE10asyncAfter8deadline3qos5flags7executeyAC0D4TimeV_AC0D3QoSVAC0D13WorkItemFlagsVyyXBtF
+- _$sSo22PHPickerViewControllerC8PhotosUIE13configurationAbC0A13ConfigurationV_tcfC
+- _$sSo22PHPickerViewControllerC8PhotosUIE8delegateAC0abC8Delegate_pSgvs
+- _$sSo8NSBundleC12FeedbackCoreE08feedbackC9FrameworkABvgZ
+- _$ss10debugPrint_9separator10terminatoryypd_S2StF
+- _$ss32_diagnoseUnexpectedEnumCaseValue4type03rawE0s5NeverOxm_q_tr0_lF
+- _$ss5UInt8VN
+- _$ss5UInt8Vs7CVarArgsWP
+- _DEDDevicePlatformTV
+- _FBKClientSideResolvedChoicesDidChangeNotification
+- _FBKDeviceManagerDidPinPairWithDeviceNotification
+- _FBKPushDeviceTokenKey
+- _FBKPushItemIDKey
+- _FBKPushItemTypeAnnouncement
+- _FBKPushItemTypeFollowup
+- _FBKPushItemTypeKey
+- _FBKPushNotificationsEnabled
+- _FBKPushParticipantIDKey
+- _FBKPushPlatformKey
+- _FBKQuestionRoleOptOutReason
+- _FBKShowDEDItem
+- _FBKSystemImageNameAttachDeviceDiagnostics
+- _FBKSystemImageNameAttachPhoto
+- _FBKSystemImageNameFolder
+- _FBKSystemImageNameMissingQuestion
+- _FBKSystemImageNamePaperclip
+- _NSClassFromString
+- _NSGenericException
+- _NSRunLoopCommonModes
+- _NSTemporaryDirectory
+- _NSURLIsDirectoryKey
+- _OBJC_CLASS_$_CAKeyframeAnimation
+- _OBJC_CLASS_$_CAMediaTimingFunction
+- _OBJC_CLASS_$_DEDAttachmentItem
+- _OBJC_CLASS_$_FBKAppQuestionChoice
+- _OBJC_CLASS_$_FBKFileMatcher
+- _OBJC_CLASS_$_ISIcon
+- _OBJC_CLASS_$_ISImageDescriptor
+- _OBJC_CLASS_$_NSByteCountFormatter
+- _OBJC_CLASS_$_NSConstantArray
+- _OBJC_CLASS_$_NSMutableString
+- _OBJC_CLASS_$_NSNull
+- _OBJC_CLASS_$_NSRunLoop
+- _OBJC_CLASS_$_NSTimeZone
+- _OBJC_CLASS_$_OSActivityEvent
+- _OBJC_CLASS_$_OSActivityLogMessageEvent
+- _OBJC_CLASS_$_OSLogPersistence
+- _OBJC_CLASS_$_PHPickerViewController
+- _OBJC_CLASS_$_PLDatabaseReader
+- _OBJC_CLASS_$_QLPreviewController
+- _OBJC_CLASS_$_UIActivityIndicatorView
+- _OBJC_CLASS_$_UIActivityViewController
+- _OBJC_CLASS_$_UIDocumentInteractionController
+- _OBJC_CLASS_$_UIDocumentPickerViewController
+- _OBJC_CLASS_$_UIImagePickerController
+- _OBJC_CLASS_$_UIImageView
+- _OBJC_CLASS_$_UINavigationBar
+- _OBJC_CLASS_$_UITableViewDropProposal
+- _OBJC_CLASS_$_UITableViewHeaderFooterView
+- _OBJC_CLASS_$__UIContentUnavailableView
+- _OBJC_CLASS_$__UISheetDetent
+- _OBJC_CLASS_$__UISheetPresentationController
+- _OBJC_METACLASS_$_NSURL
+- _OBJC_METACLASS_$_UIAlertController
+- _OBJC_METACLASS_$_UIImagePickerController
+- _OBJC_METACLASS_$_UILabel
+- _UIActivityTypeAddToReadingList
+- _UIActivityTypeAssignToContact
+- _UIActivityTypeCopyToPasteboard
+- _UIActivityTypePostToFacebook
+- _UIActivityTypePostToFlickr
+- _UIActivityTypePostToTencentWeibo
+- _UIActivityTypePostToTwitter
+- _UIActivityTypePostToVimeo
+- _UIActivityTypePostToWeibo
+- _UIActivityTypePrint
+- _UIActivityTypeSaveToCameraRoll
+- _UIFontWeightMedium
+- _UIKeyInputDownArrow
+- _UIKeyInputUpArrow
+- __NSDictionaryOfVariableBindings
+- ___exp10
+- _dispatch_get_global_queue
+- _kCAMediaTimingFunctionLinear
+- _kUTTypeText
+- _objc_autorelease
+- _objc_claimAutoreleasedReturnValue
+- _objc_exception_throw
+- _objc_retain_x28
+- _objc_setProperty_atomic_copy
+- _sqlite3_close
+- _sqlite3_column_count
+- _sqlite3_column_name
+- _sqlite3_column_text
+- _sqlite3_errmsg
+- _sqlite3_finalize
+- _sqlite3_open
+- _sqlite3_prepare_v2
+- _sqlite3_step
+- _swift_arrayInitWithTakeBackToFront
+- _swift_arrayInitWithTakeFrontToBack
+CStrings:
++ "B24@?0@\"NSArray\"8@\"NSDictionary\"16"
++ "B48@0:8@\"FBKAddAttachmentsController\"16@\"UITableView\"24@\"<UIDropSession>\"32@\"NSIndexPath\"40"
++ "Content item not found out of %lu available items"
++ "Delay not applicable, item not in loaded content items"
++ "Did pick Form %{public}s, preferred team %{public}s"
++ "FBKAddAttachmentsControllerDelegate"
++ "FBKBugFormPickerDelegate"
++ "FORGET_DEVICE"
++ "FORGET_THIS_DEVICE"
++ "User Activity not handled: %@"
++ "Will delay showing url action [%{public}@]"
++ "actionWithPathAndQueryParams:"
++ "activityType"
++ "alert"
++ "aps"
++ "bugFormPickerControllerWithTeam:"
++ "closeDraftAndDelete:completion:"
++ "contentItem must be set before configureNavigationBar() is called. Ensure it is set via segue before viewDidLoad."
++ "didFetchContentItems"
++ "didInitialContentItemFetch"
++ "fbkPresetAttachment:fromIndexPath:deleteHandler:"
++ "initialContentHasLoaded"
++ "predicateWithBlock:"
++ "removeAttachmentWithAttachment:viewController:completion:"
++ "setToken:"
++ "shared"
++ "showForgetDevicePopupForDevice:"
++ "v16@?0@\"_TtC12FeedbackCore27FBKEmbeddedAttachmentViewer\"8"
++ "v24@0:8@\"FBKAddAttachmentsController\"16"
++ "v24@0:8@\"FBKBugFormPickerController\"16"
++ "v32@0:8@\"FBKAddAttachmentsController\"16@?<v@?@\"FBKDeviceDiagnosticsController\">24"
++ "v32@0:8@\"FBKBugFormPickerController\"16@\"FBKBugFormStub\"24"
++ "webpageURL"
+- "\n"
+- "\r"
+- "#"
+- "$"
+- "$__lazy_storage_$_deviceAttachmentsCellSeparatorInset"
+- "$__lazy_storage_$_deviceAttachmentsLastCellSeparatorInset"
+- "$__lazy_storage_$_temporaryDirectory"
+- "%@"
+- "%@\n"
+- "%@\r%@"
+- "%@\r%@\r%@"
+- "%@ %@[%d]: %@"
+- "%@ %@[%d]:%@ %@"
+- "%@ (%@)"
+- "%{public}s %@"
+- "(INTERNAL)\n\n%@"
+- ","
+- "-"
+- "-------------------------\r(%@)\r%@\r%@"
+- "-[AppDelegate userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:]"
+- "-[FBABugFormDetailTableViewController tableView:didSelectRowAtIndexPath:]"
+- "-[FBADevicePickingNavigationController pairingViewDidClose]"
+- "-[FBAPinPairingViewController tryPin:]"
+- "-shm"
+- "-wal"
+- "1"
+- "6"
+- "@\"<FBABugFormEditorDelegate>\""
+- "@\"<FBADeviceChoiceDelegate>\""
+- "@\"<FBAForgetDeviceProtocol>\""
+- "@\"<FBASubmissionTimerDelegate>\""
+- "@\"DEDAttachmentGroup\""
+- "@\"DEDAttachmentItem\""
+- "@\"FBAOSLogViewerDataSource\""
+- "@\"FBAPINEntryView\""
+- "@\"FBAQuestionCellTextView\""
+- "@\"FBASqliteReader\""
+- "@\"FBKAnswer\""
+- "@\"FBKDeviceDiagnosticsController\""
+- "@\"FBKGroupedDevice\""
+- "@\"FBKQuestion\""
+- "@\"FBKQuestionChoice\""
+- "@\"FBKQuestionGroup\""
+- "@\"NSDate\""
+- "@\"NSDateFormatter\""
+- "@\"NSIndexPath\"16@0:8"
+- "@\"NSMutableString\""
+- "@\"NSSet\""
+- "@\"NSURL\""
+- "@\"NSURL\"16@0:8"
+- "@\"OSLogPersistence\""
+- "@\"PLDatabaseReader\""
+- "@\"UIConversationContext\"16@0:8"
+- "@\"UIDragItem\"16@0:8"
+- "@\"UIDragPreviewParameters\"32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "@\"UITableViewDropProposal\"40@0:8@\"UITableView\"16@\"<UIDropSession>\"24@\"NSIndexPath\"32"
+- "@\"UITextInputPasswordRules\"16@0:8"
+- "@\"UIView\"24@0:8@\"UIDocumentInteractionController\"16"
+- "@\"UIViewController\"24@0:8@\"UIDocumentInteractionController\"16"
+- "@\"_UIContentUnavailableView\""
+- "@24@0:8#16"
+- "@24@0:8Q16"
+- "@24@0:8d16"
+- "@32@0:8@16@?24"
+- "@36@0:8@16B24@?28"
+- "@40@0:8@16@24d32"
+- "@48@0:8@16q24@?32@?40"
+- "A problem was encountered when trying to gather diagnostics. Try gathering diagnostics again."
+- "ADD_ATTACHMENT_CHOICE_DEVICE"
+- "ADD_ATTACHMENT_CHOICE_FILES"
+- "ADD_ATTACHMENT_CHOICE_PHOTO_OR_VIDEO"
+- "ADD_DEVICE"
+- "ADD_FILES"
+- "ANSWER_CELL_HINT_CHOOSE"
+- "ANSWER_CELL_HINT_EDIT"
+- "APNS Token is nil, something went wrong. Aborting APNS registration"
+- "Add Device"
+- "Attaching [%lu] files from drop event"
+- "Attaching files at %{public}@"
+- "B28@0:8@16B24"
+- "B32@0:8@\"UIDocumentInteractionController\"16:24"
+- "B32@0:8@\"UITableView\"16@\"<UIDropSession>\"24"
+- "B32@0:8@16:24"
+- "B40@0:8@\"OSLogPersistence\"16@\"NSArray\"24@\"NSError\"32"
+- "B48@0:8@\"_TtC18Feedback_Assistant27FBAAddAttachmentsController\"16@\"UITableView\"24@\"<UIDropSession>\"32@\"NSIndexPath\"40"
+- "BugFormPickerCell"
+- "CGImage"
+- "CHECKBOX_FOOTER_TITLE"
+- "CORRUPT_FILE"
+- "Cannot display file [%{public}@], will fallback to opaque controller %d"
+- "Cannot update form stubs because user is nil"
+- "Checkbox answers changed for question [%{public}@]"
+- "Choice"
+- "Could not initialize FBAOSLogViewerDataSource with logarchive file: [%{public}@] error: [%{public}@]"
+- "DEFileCell"
+- "DEVICE_PICKER_FOOTER_MULTI_SELECT"
+- "DEVICE_PICKER_FOOTER_SINGLE_SELECT"
+- "DEVICE_PICKER_HEADER_MULTI_SELECT"
+- "DEVICE_PICKER_HEADER_SINGLE_SELECT"
+- "Device choices made but no completion block given"
+- "Did choose add device."
+- "Did choose add file."
+- "Did choose add photo or video."
+- "Did pick Form [%{public}@], preferred team [%{public}@] "
+- "Did pick media"
+- "Did tap Add Attachments. (using sheet)"
+- "Done button not supported for multi-select picker"
+- "Empty page count: [%lu]"
+- "Error Attaching File"
+- "Error copying file: [%{public}@] "
+- "Error fetching page [%{public}@]"
+- "Error loading file from drop event: %{public}@"
+- "Error: %@"
+- "FBA"
+- "FBAAttachmentTableViewController"
+- "FBAAttachmentViewingControllerSelector"
+- "FBABugFormAttachmentPreview"
+- "FBABugFormDetailTableViewController"
+- "FBABugFormFileBrowserTableViewController"
+- "FBABugFormPresentation"
+- "FBABugFormStack"
+- "FBABugFormTextLabel"
+- "FBAChoiceCell"
+- "FBADetailTableViewHeaderCell"
+- "FBADeviceChoiceDelegate"
+- "FBADeviceChoicesViewController"
+- "FBADeviceDisplayCell"
+- "FBADevicePairingCell"
+- "FBADevicePickingNavigationController"
+- "FBADiffableCell"
+- "FBADiffableTableViewCell"
+- "FBAEditor@%@"
+- "FBAEmbedQuickFiltersSegue"
+- "FBAFileAttachmentView"
+- "FBAFollowupAndResponse"
+- "FBAForgetDeviceProtocol"
+- "FBAForgetDeviceViewController"
+- "FBAHelper"
+- "FBAImagePickerController"
+- "FBAInformationCell"
+- "FBAOSLogCell"
+- "FBAOSLogTableViewCell"
+- "FBAOSLogViewController"
+- "FBAOSLogViewerDataSource"
+- "FBAOnDemandPinParingNavigationController"
+- "FBAOpaqueFileViewController"
+- "FBAPINEntryView"
+- "FBAPairingPresentationDelegate"
+- "FBAPartialSheetNavigationController"
+- "FBAPinPairingViewController"
+- "FBAPinPairingViewControllerDidCancel"
+- "FBAPowerLogIndexViewController"
+- "FBAPowerLogTextViewController"
+- "FBAPowerLogViewController"
+- "FBAPreviewItemTXT"
+- "FBAQuestionAnswerCell"
+- "FBAQuestionCellTextView"
+- "FBAResponseSummary"
+- "FBASqliteIndexViewController"
+- "FBASqliteReader"
+- "FBAString"
+- "FBASubmissionTimer"
+- "FBATableNameCell"
+- "FBATextViewController"
+- "FBAUtils"
+- "FORM_PICKER_SECTION_HEADER"
+- "Failed to copy drop event file [%{public}@]"
+- "Failed to create devices controller will not show devices pane"
+- "Failed to create devices controller. Cannot attach file."
+- "Failed to create devices controller. Cannot attach media"
+- "Failed to create devices picker will not show devices pane"
+- "Failed to create temporary directory. Will not handle drop event"
+- "Failed to lazy load attachment controller"
+- "Feedback_Assistant.FBAAddAttachmentsController"
+- "Feedback_Assistant.FBABugFormPickerController"
+- "Feedback_Assistant/FBABugFormPickerController.swift"
+- "Fetched [%i] log events from data range batch"
+- "ForgetDeviceCell"
+- "Got log events"
+- "H:[icon(width)]"
+- "H:|[icon]-(8)-[answerLabel]|"
+- "Initializing log viewer with log archive [%{public}@]"
+- "Loaded file from drop event [%{public}@]"
+- "Loaded file from drop event is nil"
+- "Log Archive has invalid dates. Start Date [%{public}@], end date: [%{public}@]"
+- "Log archive version is [%lu] start date: [%{public}@] end date [%{public}@]"
+- "Log events count: [%lu] on completion block"
+- "MULTIPLE_FORMS_PICK_ONE_DRAFT"
+- "MULTIPLE_FORMS_PICK_ONE_FEEDBACK"
+- "Main"
+- "Message on alert view shown when FBA fails to connect to a device for diagnostics collection"
+- "NO_BUG_SESSION_ALERT_MESSAGE"
+- "NO_BUG_SESSION_ALERT_TITLE"
+- "NO_MORE_DEVICES_MESSAGE"
+- "NO_MORE_DEVICES_TITLE"
+- "Next Page"
+- "No attachment manager dismissing view"
+- "No more results, done"
+- "OSLogPersistenceDelegate"
+- "On demand pairing found paired sharing device [%{public}@]"
+- "PAIR_ENTER_PIN"
+- "PAIR_ENTER_PIN_TV"
+- "PAIR_RETRY_PIN"
+- "POWER_LOG_SECTION"
+- "PickTeamForFormResponseSegue"
+- "Prompt to add files"
+- "QLPreviewItem"
+- "Question type [%lu] not handled in in %{public}s"
+- "Reading for date range finished, done reading "
+- "Reading for date range finished, done reading, next page requested "
+- "Reading for date range finished, will read another batch"
+- "SELECT * FROM %@"
+- "SELECT name FROM sqlite_master WHERE type='table'"
+- "SELF != %@"
+- "Select Device"
+- "Select Devices"
+- "Shake"
+- "Show Item url action failed. Item not found: [%{public}@]"
+- "SimpleQuestionGroup"
+- "T@\"<FBABugFormEditorDelegate>\",W,N,V_bugFormEditorDelegate"
+- "T@\"<FBABugFormEditorDelegate>\",W,N,V_delegate"
+- "T@\"<FBADeviceChoiceDelegate>\",W,N,V_choiceDelegate"
+- "T@\"<FBAForgetDeviceProtocol>\",W,N,V_delegate"
+- "T@\"<FBASubmissionTimerDelegate>\",W,V_delegate"
+- "T@\"<_TtP18Feedback_Assistant24FBABugFormPickerDelegate_>\",N,W,VpickerDelegate"
+- "T@\"DEDAttachmentGroup\",&,N,V_group"
+- "T@\"DEDAttachmentItem\",&,N,V_item"
+- "T@\"FBAOSLogViewerDataSource\",&,V_logSource"
+- "T@\"FBAQuestionCellTextView\",N,W,VformDescriptions"
+- "T@\"FBAQuestionCellTextView\",W,N,V_answerTextView"
+- "T@\"FBASqliteReader\",&,V_reader"
+- "T@\"FBKAnswer\",&,N,V_answer"
+- "T@\"FBKBugFormStub\",N,&,VcurrentSelection"
+- "T@\"FBKDeviceDiagnosticsController\",&,N,V_devicesController"
+- "T@\"FBKFormResponse\",&,N,V_formResponse"
+- "T@\"FBKGroupedDevice\",&,N,V_device"
+- "T@\"FBKGroupedDevice\",&,V_pairingDevice"
+- "T@\"FBKQuestion\",&,N,V_question"
+- "T@\"FBKQuestionChoice\",W,N,V_choice"
+- "T@\"FBKQuestionGroup\",&,N,V_questionGroup"
+- "T@\"FBKTeam\",N,&,Vteam"
+- "T@\"FBKUploadTask\",&,V_task"
+- "T@\"NSArray\",&,N,V_digits"
+- "T@\"NSArray\",&,N,V_directoryList"
+- "T@\"NSArray\",&,N,V_extensions"
+- "T@\"NSArray\",&,N,V_quesionAnswerPairs"
+- "T@\"NSArray\",&,N,V_searchResultChoices"
+- "T@\"NSArray\",&,N,V_sortedChoices"
+- "T@\"NSArray\",&,N,V_visibleChoices"
+- "T@\"NSArray\",&,V_tableNames"
+- "T@\"NSArray\",C,V_tableNames"
+- "T@\"NSDate\",&,V_oldestEventTimestamp"
+- "T@\"NSDateFormatter\",R,V_headerDateFormatter"
+- "T@\"NSIndexPath\",R,N"
+- "T@\"NSLayoutConstraint\",N,W,VtopicToBottomOfView"
+- "T@\"NSLayoutConstraint\",W,N,V_detailLabelTrailingConstraint"
+- "T@\"NSMutableArray\",&,V_savedEvents"
+- "T@\"NSMutableArray\",&,V_simpleGroups"
+- "T@\"NSMutableSet\",&,N,V_selectedDevices"
+- "T@\"NSSet\",&,N,V_checkboxAnswersAtStart"
+- "T@\"NSSet\",&,N,V_deviceChoices"
+- "T@\"NSString\",&,N,V_diffableIdentifier"
+- "T@\"NSString\",&,N,VitemIdentifier"
+- "T@\"NSString\",?,C,N"
+- "T@\"NSString\",?,R,N"
+- "T@\"NSString\",C,N,V_text"
+- "T@\"NSString\",C,V_contents"
+- "T@\"NSTimer\",&,V_timer"
+- "T@\"NSURL\",&,N,V_dbFile"
+- "T@\"NSURL\",&,N,V_dbUrl"
+- "T@\"NSURL\",&,N,V_url"
+- "T@\"NSURL\",&,V_logArchivePath"
+- "T@\"NSURL\",&,V_logURL"
+- "T@\"NSURL\",R,N"
+- "T@\"OSLogPersistence\",&,V_loggerLib"
+- "T@\"PLDatabaseReader\",&,V_databaseReader"
+- "T@\"UIActivityIndicatorView\",W,N,V_activityIndicator"
+- "T@\"UIActivityIndicatorView\",W,V_spinner"
+- "T@\"UIConversationContext\",?,&,N"
+- "T@\"UIDragItem\",R,N"
+- "T@\"UIImageView\",&,N,V_errorArrow"
+- "T@\"UIImageView\",W,N,V_deviceIcon"
+- "T@\"UIImageView\",W,N,V_deviceImage"
+- "T@\"UIImageView\",W,N,V_icon"
+- "T@\"UIImageView\",W,N,V_statusIndicatorImageView"
+- "T@\"UILabel\",&,N,V_nameLabel"
+- "T@\"UILabel\",&,N,V_typeLabel"
+- "T@\"UILabel\",N,W,VformName"
+- "T@\"UILabel\",W,N,V_debugLabel"
+- "T@\"UILabel\",W,N,V_detailLabel"
+- "T@\"UILabel\",W,N,V_fileNameLabel"
+- "T@\"UILabel\",W,N,V_fileSizeLabel"
+- "T@\"UILabel\",W,N,V_logLabel"
+- "T@\"UILabel\",W,N,V_mainLabel"
+- "T@\"UILabel\",W,N,V_pinLabel1"
+- "T@\"UILabel\",W,N,V_pinLabel2"
+- "T@\"UILabel\",W,N,V_pinLabel3"
+- "T@\"UILabel\",W,N,V_pinLabel4"
+- "T@\"UILabel\",W,N,V_pinLabel5"
+- "T@\"UILabel\",W,N,V_pinLabel6"
+- "T@\"UILabel\",W,N,V_questionLabel"
+- "T@\"UILabel\",W,N,V_subLabel"
+- "T@\"UIMenu\",N,&"
+- "T@\"UITextInputPasswordRules\",?,C,N"
+- "T@\"UITextView\",W,V_textView"
+- "T@\"UIView\",N,R"
+- "T@\"_TtC18Feedback_Assistant22FBANotificationManager\",N,R"
+- "T@\"_UIContentUnavailableView\",&,N,V_contentUnavailableView"
+- "T@?,C,N,V_textChangedHandler"
+- "T@?,C,V_fetchErrorBlock"
+- "T@?,C,V_pageFetchCompletion"
+- "TB,?,N"
+- "TB,?,N,GisSecureTextEntry"
+- "TB,N,V_alphaNumeric"
+- "TB,N,V_disabled"
+- "TB,N,V_hasKeyboardFocus"
+- "TB,N,V_hasPlaceholder"
+- "TB,N,V_showError"
+- "TB,N,V_showsFormsCount"
+- "TB,N,VdisclosesMoreForms"
+- "TB,R,GisLoading,V_loading"
+- "TB,V_enteringDetail"
+- "TB,V_foundCorruptDate"
+- "TB,V_gotDelegateCallbackInLastFetch"
+- "TB,V_isMultiSelect"
+- "TB,V_pinPairingInProgress"
+- "TB,V_previousToolbarHidden"
+- "TEXT_ANSWER_PLACEHOLDER"
+- "THIS_DEVICE_FORMAT"
+- "TQ,?"
+- "TQ,N,V_characterLimit"
+- "TQ,N,V_detentBehavior"
+- "TQ,V_eventCountForCurrentPage"
+- "TQ,V_numberOfEmptyFetches"
+- "TQ,V_numberOfEventsInLastFetch"
+- "TQ,V_oldestEventMachTime"
+- "Td,N,V_customDetentHeight"
+- "Td,N,V_detailLabelTrailingConstraintInitial"
+- "Td,V_givenInterval"
+- "TextCell"
+- "This %@"
+- "This Mac"
+- "This iPad"
+- "This iPhone"
+- "This iPod"
+- "Time delta: [%f]"
+- "Title in alert view shown if FBA fails to attach a file from the app"
+- "Title on alert view shown when FBA fails to connect to a device for diagnostics collection"
+- "To share diagnostic logs with Apple, select all of the devices experiencing this issue. If your device is not listed, make sure it is nearby, online, and signed in to your iCloud account."
+- "To share diagnostic logs with Apple, select the device experiencing this issue. If your device is not listed, make sure it is nearby, online, and signed in to your iCloud account."
+- "Too many fetches. Aborting"
+- "Tq,?"
+- "Tq,?,N"
+- "Tq,N,Vcontext"
+- "Tq,V_context"
+- "Tq,V_fetchWatchdog"
+- "Tq,V_pageSize"
+- "Tq,V_pendingNextPageRequest"
+- "Tried to load Information Cell with a non-information type question, question id: %ld"
+- "T{CGSize=dd},R,N"
+- "UIDocumentInteractionControllerDelegate"
+- "UIDocumentPickerDelegate"
+- "UIKeyInput"
+- "UITableViewDropDelegate"
+- "UITableViewDropItem"
+- "UITextInputTraits"
+- "URLByAppendingPathExtension:"
+- "URLByDeletingPathExtension"
+- "URLByRemovingInvalidExtensions:"
+- "Unable To Gather Diagnostics"
+- "V:[icon(height)]"
+- "V:|[answerLabel]|"
+- "Viewing Followups from notification has been disabled"
+- "YYYY-MM-dd HH:mm:ss'.'SSSSSSXX"
+- "[%@]"
+- "[arrow]-8-[a]"
+- "\\.log\\.[0-9]+"
+- "_"
+- "_TtC18Feedback_Assistant12FBATopicCell"
+- "_TtC18Feedback_Assistant21FBAAddAttachmentsCell"
+- "_TtC18Feedback_Assistant22FBANotificationManager"
+- "_TtC18Feedback_Assistant26FBABugFormPickerController"
+- "_TtC18Feedback_Assistant26FBADevicePickerCoordinator"
+- "_TtC18Feedback_Assistant27FBAAddAttachmentsController"
+- "_TtC18Feedback_Assistant34FBANoBugSessionAlertViewController"
+- "_TtP18Feedback_Assistant23FBANotificationProvider_"
+- "_TtP18Feedback_Assistant24FBABugFormPickerDelegate_"
+- "_TtP18Feedback_Assistant35FBAAddAttachmentsControllerDelegate_"
+- "_UINavigationBarLargeTitleView"
+- "_activityIndicator"
+- "_alphaNumeric"
+- "_answer"
+- "_answerTextView"
+- "_bugFormEditorDelegate"
+- "_characterLimit"
+- "_checkboxAnswersAtStart"
+- "_choice"
+- "_choiceDelegate"
+- "_contentUnavailableView"
+- "_contents"
+- "_customDetentHeight"
+- "_databaseReader"
+- "_dbFile"
+- "_dbUrl"
+- "_debugLabel"
+- "_detailLabel"
+- "_detailLabelTrailingConstraint"
+- "_detailLabelTrailingConstraintInitial"
+- "_detentBehavior"
+- "_detentWithContainerViewBlock:"
+- "_device"
+- "_deviceChoices"
+- "_deviceIcon"
+- "_deviceImage"
+- "_devicesController"
+- "_diffableIdentifier"
+- "_digits"
+- "_directoryList"
+- "_disabled"
+- "_enteringDetail"
+- "_errorArrow"
+- "_eventCountForCurrentPage"
+- "_extensions"
+- "_failCount"
+- "_fetchErrorBlock"
+- "_fetchWatchdog"
+- "_fileNameLabel"
+- "_fileSizeLabel"
+- "_formResponse"
+- "_foundCorruptDate"
+- "_givenInterval"
+- "_gotDelegateCallbackInLastFetch"
+- "_group"
+- "_hasKeyboardFocus"
+- "_hasPlaceholder"
+- "_headerDateFormatter"
+- "_icon"
+- "_infoLabel"
+- "_isMultiSelect"
+- "_item"
+- "_largeDetent"
+- "_loading"
+- "_logArchivePath"
+- "_logLabel"
+- "_logSource"
+- "_logURL"
+- "_loggerLib"
+- "_mainLabel"
+- "_mediumDetent"
+- "_nameLabel"
+- "_numberOfEmptyFetches"
+- "_numberOfEventsInLastFetch"
+- "_oldestEventMachTime"
+- "_oldestEventTimestamp"
+- "_opaqueVCWithItem:"
+- "_pageFetchCompletion"
+- "_pageSize"
+- "_pairingDevice"
+- "_pendingNextPageRequest"
+- "_pinEntryView"
+- "_pinLabel1"
+- "_pinLabel2"
+- "_pinLabel3"
+- "_pinLabel4"
+- "_pinLabel5"
+- "_pinLabel6"
+- "_pinPairingInProgress"
+- "_presentationController:prepareAdaptivePresentationController:"
+- "_previousToolbarHidden"
+- "_quesionAnswerPairs"
+- "_question"
+- "_questionGroup"
+- "_questionLabel"
+- "_reader"
+- "_savedEvents"
+- "_searchResultChoices"
+- "_selectedDevices"
+- "_setDetents:"
+- "_setHeaderAndFooterViewsFloat:"
+- "_setShouldDismissWhenTappedOutside:"
+- "_showError"
+- "_showsFormsCount"
+- "_simpleGroups"
+- "_sortedChoices"
+- "_spinner"
+- "_statusIndicatorImageView"
+- "_subLabel"
+- "_tableNames"
+- "_task"
+- "_textChangedHandler"
+- "_timer"
+- "_typeLabel"
+- "_updateLabels"
+- "_url"
+- "_visibleChoices"
+- "a"
+- "accessibilityHint"
+- "accessibilityIdentifier"
+- "accessibilityLabel"
+- "activityIndicator"
+- "addAnimation:forKey:"
+- "addAttachmentWithItemProvider:"
+- "addDevice:"
+- "addTimer:forMode:"
+- "additionalDeviceCandidates"
+- "address"
+- "allAnswers"
+- "allChoices"
+- "allKeys"
+- "allQuestions"
+- "allRowsForTable:"
+- "allValues"
+- "allowedWritingToolsResultOptions"
+- "allowsNumberPadPopover"
+- "alpha"
+- "alphaNumeric"
+- "animationWithKeyPath:"
+- "annotation"
+- "answer"
+- "answerDidChangeForQuestion:"
+- "answerForQuestionID:"
+- "answerInRow:"
+- "answerLabel, icon"
+- "answerTextView"
+- "answerType"
+- "api"
+- "apnsToken"
+- "app"
+- "appIconForChoice:"
+- "appendString:"
+- "archiveVersion"
+- "array"
+- "arrayByAddingObject:"
+- "arrow"
+- "attachedPath"
+- "attachmentDelegate"
+- "attachmentItems"
+- "authorizationStatus"
+- "autocapitalizationType"
+- "autocorrectionType"
+- "beginEditingQuestion"
+- "beginPairingDevice:showUIBlock:"
+- "boolValue"
+- "bugForm"
+- "bugFormEditorDelegate"
+- "bugFormStubsForPickerWithPredicate:team:"
+- "button"
+- "canDisplayExtension:strict:"
+- "canDisplayURL:"
+- "canLoadObjectsOfClass:"
+- "canPreviewItem:"
+- "canSelect"
+- "cannot display item"
+- "characterLimit"
+- "checkResourceIsReachableAndReturnError:"
+- "checkboxAnswersAtStart"
+- "choiceDelegate"
+- "choiceSetResolver"
+- "commitSelection"
+- "compare:"
+- "componentsJoinedByString:"
+- "configurationByApplyingConfiguration:"
+- "configurationPreferringMulticolor"
+- "configurationWithWeight:"
+- "configureForTeam:disclosesMoreTeams:"
+- "configureSelected:"
+- "configureWithBugFormStub:isSelected:"
+- "containsString:"
+- "contentOffset"
+- "contentUnavailableView"
+- "contents"
+- "contentsOfDirectoryAtURL:includingPropertiesForKeys:options:error:"
+- "controllerForAttachment:"
+- "controllerForItem:"
+- "controllerForUrl:"
+- "controllerForUrl:useFallback:"
+- "conversationContext"
+- "copyAndReturn:toDir:"
+- "copyItem:toDestinationDir:zipped:"
+- "copyItemAtURL:toURL:error:"
+- "csvRepresentationForTable:"
+- "currentDeviceAttachmentManager"
+- "currentDeviceBugSession"
+- "currentInterval"
+- "currentRunLoop"
+- "currentSelection"
+- "customDetentHeight"
+- "d16@?0@\"UIView\"8"
+- "databaseReader"
+- "dateByAddingTimeInterval:"
+- "dateFromString:"
+- "db"
+- "dbFile"
+- "dbFile does not exist, setting to nil"
+- "dbUrl"
+- "dbUrlForMetadataUrl:"
+- "debugLabel"
+- "dedSharingDevice"
+- "deleteBackward"
+- "deleteCharactersInRange:"
+- "detailLabel"
+- "detailLabelTrailingConstraint"
+- "detailLabelTrailingConstraintInitial"
+- "detailTextLabel"
+- "detentBehavior"
+- "detentForCustomHeight:"
+- "detentForPreferredContentSize"
+- "device"
+- "device picker chose devices [%{public}@]"
+- "device picker chose no device"
+- "device picker paired new device [%{public}@]"
+- "device picker paired no device"
+- "deviceChoices"
+- "deviceChoicesController:didChooseDevices:"
+- "deviceChoicesControllerDidCancelWithController:"
+- "deviceClass"
+- "deviceIcon"
+- "deviceImage"
+- "did cancel pairing with device [%{public}@]"
+- "did tap device [%{public}@] on device picker"
+- "didCancelPairing:"
+- "didGetClientSideResolvedNotification:"
+- "didPinPair:"
+- "didPinPairWithDevice:"
+- "didTapConnectionButton:"
+- "didTapView"
+- "digits"
+- "directoryList"
+- "disclosesMoreForms"
+- "dismiss:"
+- "dismissPicker"
+- "displayName"
+- "displayText:"
+- "displayType"
+- "documentInteractionController:canPerformAction:"
+- "documentInteractionController:didEndSendingToApplication:"
+- "documentInteractionController:performAction:"
+- "documentInteractionController:willBeginSendingToApplication:"
+- "documentInteractionControllerDidDismissOpenInMenu:"
+- "documentInteractionControllerDidDismissOptionsMenu:"
+- "documentInteractionControllerDidEndPreview:"
+- "documentInteractionControllerRectForPreview:"
+- "documentInteractionControllerViewControllerForPreview:"
+- "documentInteractionControllerViewForPreview:"
+- "documentInteractionControllerWillBeginPreview:"
+- "documentInteractionControllerWillPresentOpenInMenu:"
+- "documentInteractionControllerWillPresentOptionsMenu:"
+- "documentPicker:didPickDocumentAtURL:"
+- "documentPicker:didPickDocumentsAtURLs:"
+- "documentPickerWasCancelled:"
+- "dragItem"
+- "drawTextInRect:"
+- "editorDidDismissForQuestion:"
+- "eml"
+- "en_US_POSIX"
+- "enablesReturnKeyAutomatically"
+- "endDate"
+- "endEditing:"
+- "endEditingQuestion"
+- "enteringDetail"
+- "error parsing url [%{public}@] with error [%{public}@]"
+- "errorArrow"
+- "evaluateSelectionWithValue:"
+- "evaluateSelectionWithValues:"
+- "eventCountForCurrentPage"
+- "eventMessage"
+- "exceptionWithName:reason:userInfo:"
+- "extensionCell"
+- "extensionIsTextFile:"
+- "extensions"
+- "failed to get index items"
+- "fallbackToOpaqueViewer"
+- "fba_hasValidStartAndEndDates"
+- "fba_toString"
+- "fbkPresetAttachment:fromIndexPath:"
+- "fbk_objc_truncate:"
+- "fetchErrorBlock"
+- "fetchFromStartDate:toEndDate:"
+- "fetchIconImageDataForScale:completionCompletion:"
+- "fetchNextBatch"
+- "fetchWatchdog"
+- "fileExistsAtPath:isDirectory:"
+- "fileNameLabel"
+- "fileSize"
+- "fileSizeLabel"
+- "fileURLWithPath:"
+- "formDescription"
+- "formDescriptions"
+- "formName"
+- "formStubs"
+- "formsRefreshObserver"
+- "foundCorruptDate"
+- "functionWithName:"
+- "gatherFilesWithDedExtension:answers:"
+- "getFilesFromFileProviderBeforeTheyDisappearWithCoordinator:"
+- "getNotificationSettingsWithCompletionHandler:"
+- "getPathToScrollTo"
+- "getResourceValue:forKey:error:"
+- "givenInterval"
+- "gotDelegateCallbackInLastFetch"
+- "group"
+- "handleErrorAttachingWithAttachment:viewController:devicesDiagnosticsController:error:"
+- "hasGroup"
+- "hasIps_dot_synced:"
+- "hasItemsConformingToTypeIdentifiers:"
+- "hasKeyboardFocus"
+- "hasLog_dot_number:"
+- "hasMoreLogs"
+- "hasPlaceholder"
+- "hasText"
+- "headerDateFormatter"
+- "hideAccessoryView"
+- "hideContentUnavailableView"
+- "hideErrorArrow"
+- "how did we get here?"
+- "humansCanReadFile:"
+- "iconForFileName:"
+- "iconForRequirement"
+- "id"
+- "imageForImageDescriptor:"
+- "imageWithCGImage:scale:orientation:"
+- "imageWithData:"
+- "init() is not available"
+- "init(coder:) is not available"
+- "init(nibName:bundle:)"
+- "init(style:) is not available"
+- "initForOpeningContentTypes:asCopy:"
+- "initForPlatform:completion:"
+- "initWithActivityIndicatorStyle:"
+- "initWithActivityItems:applicationActivities:"
+- "initWithArchive:pageSize:pageCompletion:error:"
+- "initWithArray:copyItems:"
+- "initWithBundleIdentifier:"
+- "initWithDatabaseFile:"
+- "initWithDelegate:"
+- "initWithDelegate:forTask:initialTimeout:"
+- "initWithDevice:completion:"
+- "initWithDeviceChoices:allowsMultipleSelection:completion:"
+- "initWithDropOperation:"
+- "initWithDropOperation:intent:"
+- "initWithFile:"
+- "initWithFileName:requirement:font:textColor:"
+- "initWithFrame:title:style:"
+- "initWithGroup:"
+- "initWithImage:"
+- "initWithLocaleIdentifier:"
+- "initWithQuestionGroup:questionAnswerPairs:"
+- "initWithSize:scale:"
+- "initWithStubsPredicate:"
+- "initWithUrl:"
+- "initializeWithFileName:requirement:font:textColor:"
+- "inlinePredictionType"
+- "insertText:"
+- "interactionControllerWithURL:"
+- "invalid database file"
+- "ipad"
+- "iphone"
+- "ipod"
+- "ips"
+- "isAnswerExpectedForQuestion:"
+- "isCurrentPageComplete"
+- "isDirectory:"
+- "isEqualToSet:"
+- "isLocal"
+- "isMultiSelect"
+- "isPrompt = NO"
+- "isSecureTextEntry"
+- "isSubclassOfClass:"
+- "isToolbarHidden"
+- "isUserInteractionEnabled"
+- "isVisibleToDED"
+- "item"
+- "item is nil in _controllerForItem"
+- "itemProvider"
+- "itemWithURL:"
+- "json"
+- "keyCommands"
+- "keyboardAppearance"
+- "keyboardType"
+- "labelFontSize"
+- "largeTitleView"
+- "lastFetchReturnedZeroEvents"
+- "lastPathComponent"
+- "listDiagnosticExtensionsWithCompletion:"
+- "loadFileRepresentationForTypeIdentifier:completionHandler:"
+- "loading"
+- "localizedCaseInsensitiveCompare:"
+- "log-view"
+- "logArchivePath"
+- "logAtIndex:"
+- "logLabel"
+- "logSource"
+- "logURL"
+- "logarchive"
+- "loggerLib"
+- "loggerLibWithArchive:pageSize:"
+- "lowercaseString"
+- "mac"
+- "machTimestamp"
+- "mainLabel"
+- "margin"
+- "mathExpressionCompletionType"
+- "menu"
+- "menuForController:"
+- "monospacedSystemFontOfSize:weight:"
+- "moveFileFrom:"
+- "needsPairing"
+- "nextPage"
+- "nextPageForReal"
+- "null"
+- "numberOfEmptyFetches"
+- "numberOfEventsInLastFetch"
+- "numberOfLogs"
+- "numberOfMatchesInString:options:range:"
+- "numberOfRowsInSection:"
+- "numberWithDouble:"
+- "oldestEventMachTime"
+- "oldestEventTimestamp"
+- "pageFetchCompletion"
+- "pageSize"
+- "pairing navigation controller got pairing success for device [%{public}@]"
+- "pairing to device with usupported/unknown platform."
+- "pairingDevice"
+- "parentViewController"
+- "passed nil tableName to rowsForTable:"
+- "passwordRules"
+- "pathExtension"
+- "pendingNextPageRequest"
+- "persistence:results:error:"
+- "persistenceDidFinishReadingForStartDate:endDate:"
+- "pin pairing UI block called on view controller no longer visible"
+- "pinLabel1"
+- "pinLabel2"
+- "pinLabel3"
+- "pinLabel4"
+- "pinLabel5"
+- "pinLabel6"
+- "pinPairingInProgress"
+- "placeholder"
+- "plsql"
+- "pointSize"
+- "pointsToReachableDir"
+- "prepareForNextDateRangeFetch"
+- "prepareForNextPage"
+- "presentPreviewAnimated:"
+- "previewItemContentType"
+- "previewItemTitle"
+- "previewItemURL"
+- "previewSize"
+- "previewTypeURL:"
+- "previousToolbarHidden"
+- "process"
+- "processID"
+- "q24@?0@8@16"
+- "quesionAnswerPairs"
+- "question"
+- "questionCount"
+- "questionGroup"
+- "questionGroups"
+- "questionInRow:"
+- "questionLabel"
+- "questions"
+- "rangeOfComposedCharacterSequenceAtIndex:"
+- "rangeOfString:"
+- "reader"
+- "recordCheckboxAnswers"
+- "registerAPNSWithParticipantID:api:"
+- "registerAPNSWithRequestDictionary:success:error:"
+- "removeAttachment:"
+- "removeObserver:name:object:"
+- "removeWalShm:"
+- "removed device [%{public}@] while being asked to pair with new one, noop"
+- "requestAuthorizationWithOptions:completionHandler:"
+- "resetTimerWithInterval:"
+- "resolved"
+- "returnKeyType"
+- "runQuery:"
+- "sanitizeAnswer:"
+- "saveAnswer"
+- "saveToken:"
+- "savedEvents"
+- "scrollToRowAtIndexPath:atScrollPosition:animated:"
+- "searchResultChoices"
+- "secondarySystemGroupedBackgroundColor"
+- "sectionCount"
+- "secureTextEntry"
+- "selectNext"
+- "selectPrevious"
+- "selectedDevices"
+- "setActivityIndicator:"
+- "setAlignment:"
+- "setAllowedWritingToolsResultOptions:"
+- "setAllowsMultipleSelection:"
+- "setAllowsNumberPadPopover:"
+- "setAlphaNumeric:"
+- "setAnimationsEnabled:"
+- "setAnnotation:"
+- "setAnswer:"
+- "setAnswerTextView:"
+- "setApnsToken:"
+- "setAutocapitalizationType:"
+- "setAutocorrectionType:"
+- "setBatchSize:"
+- "setBugFormEditorDelegate:"
+- "setCharacterLimit:"
+- "setCheckboxAnswersAtStart:"
+- "setChoice:"
+- "setChoiceDelegate:"
+- "setConnected:"
+- "setContentEdgeInsets:"
+- "setContentHorizontalAlignment:"
+- "setContentHuggingPriority:forAxis:"
+- "setContentMode:"
+- "setContentUnavailableView:"
+- "setContents:"
+- "setConversationContext:"
+- "setCurrentSelection:"
+- "setCustomDetentHeight:"
+- "setDatabaseReader:"
+- "setDateFormat:"
+- "setDbFile:"
+- "setDbUrl:"
+- "setDebugLabel:"
+- "setDetailLabel:"
+- "setDetailLabelTrailingConstraint:"
+- "setDetailLabelTrailingConstraintInitial:"
+- "setDevice:"
+- "setDeviceChoices:"
+- "setDeviceIcon:"
+- "setDeviceImage:"
+- "setDevicesController:"
+- "setDiffableIdentifier:"
+- "setDigits:"
+- "setDirectoryList:"
+- "setDisabled:"
+- "setDisclosesMoreForms:"
+- "setDuration:"
+- "setEnablesReturnKeyAutomatically:"
+- "setEnteringDetail:"
+- "setErrorArrow:"
+- "setEventCountForCurrentPage:"
+- "setExcludedActivityTypes:"
+- "setExtensions:"
+- "setFetchErrorBlock:"
+- "setFetchWatchdog:"
+- "setFileNameLabel:"
+- "setFileSizeLabel:"
+- "setFormDescriptions:"
+- "setFormName:"
+- "setFoundCorruptDate:"
+- "setGivenInterval:"
+- "setGotDelegateCallbackInLastFetch:"
+- "setGroup:"
+- "setHasKeyboardFocus:"
+- "setHasPlaceholder:"
+- "setIcon:"
+- "setImage:forState:"
+- "setImageEdgeInsets:"
+- "setInlinePredictionType:"
+- "setIsMultiSelect:"
+- "setItem:"
+- "setKeyboardAppearance:"
+- "setKeyboardType:"
+- "setLayoutMarginsRelativeArrangement:"
+- "setLoading:"
+- "setLocale:"
+- "setLogArchive:"
+- "setLogArchivePath:"
+- "setLogLabel:"
+- "setLogSource:"
+- "setLogURL:"
+- "setLoggerLib:"
+- "setMainLabel:"
+- "setMathExpressionCompletionType:"
+- "setNumberOfEmptyFetches:"
+- "setNumberOfEventsInLastFetch:"
+- "setOSLogURL:"
+- "setOldestEventMachTime:"
+- "setOldestEventTimestamp:"
+- "setOptions:"
+- "setPageFetchCompletion:"
+- "setPageSize:"
+- "setPairingDevice:"
+- "setPasswordRules:"
+- "setPendingNextPageRequest:"
+- "setPinLabel1:"
+- "setPinLabel2:"
+- "setPinLabel3:"
+- "setPinLabel4:"
+- "setPinLabel5:"
+- "setPinLabel6:"
+- "setPinPairingInProgress:"
+- "setPowerLogURL:"
+- "setPreviousToolbarHidden:"
+- "setPriority:"
+- "setQuesionAnswerPairs:"
+- "setQuestion:"
+- "setQuestionGroup:"
+- "setQuestionLabel:"
+- "setReader:"
+- "setReturnKeyType:"
+- "setSavedEvents:"
+- "setSearchResultChoices:"
+- "setSecureTextEntry:"
+- "setSelectable:"
+- "setSelectedDevices:"
+- "setShowError:"
+- "setShowsFormsCount:"
+- "setShowsIcon:"
+- "setShowsMenuAsPrimaryAction:"
+- "setSimpleGroups:"
+- "setSmartDashesType:"
+- "setSmartInsertDeleteType:"
+- "setSmartQuotesType:"
+- "setSortedChoices:"
+- "setSpellCheckingType:"
+- "setSpinner:"
+- "setStatusIndicatorImageView:"
+- "setSubLabel:"
+- "setTableNames:"
+- "setTask:"
+- "setTextChangedHandler:"
+- "setTextContentType:"
+- "setTimeZone:"
+- "setTimer:"
+- "setTimingFunction:"
+- "setTitleColor:forState:"
+- "setTitleEdgeInsets:"
+- "setTopicToBottomOfView:"
+- "setTypeLabel:"
+- "setUrl:"
+- "setValue:"
+- "setValues:"
+- "setVisibleChoices:"
+- "setWithCapacity:"
+- "setWithObject:"
+- "setWithSet:"
+- "setWritingToolsBehavior:"
+- "shake"
+- "shareArchive:"
+- "sharedManager"
+- "sheetForController:selectedIndexPath:sender:"
+- "shouldAllowEditing"
+- "shouldAutorotate"
+- "shouldContinue"
+- "shouldDisplayItem:"
+- "shouldHideBarButtonItem"
+- "showAccessoryView"
+- "showContentUnavailableView"
+- "showDevicePickerWithChoices:onViewController:completion:"
+- "showError"
+- "showErrorArrow"
+- "showInController:forDevice:"
+- "showPINEntryUIWithFlags:"
+- "showPINEntryUIWithFlags:inThrottleSeconds:"
+- "showPinPairingViewForDevice:"
+- "showing device detail on device [%{public}@]"
+- "showsFormsCount"
+- "simpleGroupInSection:"
+- "simpleGroups"
+- "size"
+- "smartDashesType"
+- "smartInsertDeleteType"
+- "smartQuotesType"
+- "sortedArrayUsingComparator:"
+- "sortedChoices"
+- "sortedDevices:"
+- "sourceIndexPath"
+- "spaceFromSuperViewToLabel"
+- "spellCheckingType"
+- "spinner"
+- "sqlitedb"
+- "start date: [%{public}@]  end date: [%{public}@] "
+- "startDate"
+- "starting submission timer for [%i] with timeout [%f]"
+- "statusIndicatorImageView"
+- "stringByAppendingPathComponent:"
+- "stringByAppendingPathExtension:"
+- "stringByDeletingPathExtension"
+- "stringByReplacingOccurrencesOfString:withString:"
+- "stringFromByteCount:countStyle:"
+- "stringValueOfTable:"
+- "stringWithUTF8String:"
+- "stubsPredicate"
+- "subLabel"
+- "subsystem"
+- "superviewWithClass:"
+- "supportsMenu"
+- "synced"
+- "systemGreenColor"
+- "systemRedColor"
+- "tableNames"
+- "tableNamesFromDatabase"
+- "tableView:canHandleDropSession:"
+- "tableView:dropPreviewParametersForRowAtIndexPath:"
+- "tableView:dropSessionDidEnd:"
+- "tableView:dropSessionDidEnter:"
+- "tableView:dropSessionDidExit:"
+- "tableView:dropSessionDidUpdate:withDestinationIndexPath:"
+- "tableView:loadingSpinnerViewForSection:"
+- "tableView:performDropWithCoordinator:"
+- "tapped no connection icon"
+- "task"
+- "teamFormStubMatchingFromFormStub:"
+- "textChangedHandler"
+- "textContentType"
+- "textFileForString:withFileName:"
+- "textFileForURL:"
+- "timeZoneForSecondsFromGMT:"
+- "timer"
+- "timer:didTimeoutForTask:"
+- "timerDidTick"
+- "timerWithTimeInterval:target:selector:userInfo:repeats:"
+- "timestamp"
+- "title CONTAINS[cd] %@"
+- "topicToBottomOfView"
+- "transform.translation.x"
+- "transportsForDisplay"
+- "tryPairingDevice:withPin:completion:"
+- "tryPin:"
+- "txt"
+- "typeLabel"
+- "updateAnnouncementWithID:success:error:"
+- "updateCheckboxDelegateIfNeeded"
+- "updateChoices"
+- "updateDeferredStateWith:"
+- "updateErrorArrow"
+- "updateNumberOfLines"
+- "updateSearchBar"
+- "updateSuperviewToAttachmentLabelSpacing:"
+- "updateWithChoice:"
+- "updateWithDevice:showsDetail:showsTransport:isSelected:"
+- "updateWithFormResponse:"
+- "updating choice set with [%i] choices"
+- "uppercaseString"
+- "url"
+- "urlPointsToTextFile:"
+- "user info: %@"
+- "v16@?0@\"FBAOSLogViewerDataSource\"8"
+- "v16@?0@\"FBKAnnouncement\"8"
+- "v16@?0@\"FBKDeviceDiagnosticsController\"8"
+- "v16@?0@\"NSArray\"8"
+- "v16@?0@\"NSData\"8"
+- "v16@?0@\"NSString\"8"
+- "v16@?0@\"UNNotificationSettings\"8"
+- "v20@0:8I16"
+- "v24@0:8@\"FBADeviceChoicesViewController\"16"
+- "v24@0:8@\"FBKGroupedDevice\"16"
+- "v24@0:8@\"UIConversationContext\"16"
+- "v24@0:8@\"UIDocumentInteractionController\"16"
+- "v24@0:8@\"UIDocumentPickerViewController\"16"
+- "v24@0:8@\"UITextInputPasswordRules\"16"
+- "v24@0:8@\"_TtC18Feedback_Assistant26FBABugFormPickerController\"16"
+- "v24@0:8@\"_TtC18Feedback_Assistant27FBAAddAttachmentsController\"16"
+- "v24@0:8I16f20"
+- "v32@0:8@\"FBADeviceChoicesViewController\"16@\"NSSet\"24"
+- "v32@0:8@\"FBKGroupedDevice\"16@\"FBKGroupedDevice\"24"
+- "v32@0:8@\"NSDate\"16@\"NSDate\"24"
+- "v32@0:8@\"UIDocumentInteractionController\"16@\"NSString\"24"
+- "v32@0:8@\"UIDocumentPickerViewController\"16@\"NSArray\"24"
+- "v32@0:8@\"UIDocumentPickerViewController\"16@\"NSURL\"24"
+- "v32@0:8@\"UITableView\"16@\"<UIDropSession>\"24"
+- "v32@0:8@\"UITableView\"16@\"<UITableViewDropCoordinator>\"24"
+- "v32@0:8@\"_TtC18Feedback_Assistant26FBABugFormPickerController\"16@\"FBKBugFormStub\"24"
+- "v32@0:8@\"_TtC18Feedback_Assistant27FBAAddAttachmentsController\"16@?<v@?@\"FBKDeviceDiagnosticsController\">24"
+- "v32@0:8@16B24B28"
+- "v36@0:8@16B24B28B32"
+- "value"
+- "value ==[c] %@"
+- "values"
+- "visibleCells"
+- "visibleChoices"
+- "width"
+- "widthAnchor"
+- "will display FBA file controller from file browser"
+- "will display document on detail view controller from file browser"
+- "writeToFile:atomically:encoding:error:"
+- "writingToolsBehavior"
+- "yyyy-MM-dd'T'HH:mm:ss'Z'"
+- "zip"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}24@0:8@\"UIDocumentInteractionController\"16"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}24@0:8@16"
+- "{CGSize=dd}16@0:8"
+- "|-margin-[arrow(18)]-8-[q]"
+
+```

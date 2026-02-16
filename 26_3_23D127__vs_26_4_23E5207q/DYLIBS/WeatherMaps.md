@@ -1,0 +1,886 @@
+## WeatherMaps
+
+> `/System/Library/PrivateFrameworks/WeatherMaps.framework/WeatherMaps`
+
+```diff
+
+-1104.0.0.0.0
+-  __TEXT.__text: 0x1a9cf8
+-  __TEXT.__auth_stubs: 0x4fa0
+-  __TEXT.__objc_methlist: 0x2fa8
+-  __TEXT.__const: 0x13904
++1316.0.0.0.0
++  __TEXT.__text: 0x1a5a00
++  __TEXT.__auth_stubs: 0x4f80
++  __TEXT.__objc_methlist: 0x2fb8
++  __TEXT.__const: 0x138b4
+   __TEXT.__gcc_except_tab: 0x30
+-  __TEXT.__cstring: 0xcd5b
+   __TEXT.__constg_swiftt: 0x79a0
+-  __TEXT.__swift5_typeref: 0xa702
++  __TEXT.__swift5_typeref: 0xa55c
+   __TEXT.__swift5_builtin: 0x44c
+   __TEXT.__swift5_reflstr: 0x7bde
+   __TEXT.__swift5_fieldmd: 0x7e80
+   __TEXT.__swift5_assocty: 0x668
+   __TEXT.__swift5_mpenum: 0x268
+-  __TEXT.__swift5_proto: 0xb24
++  __TEXT.__swift5_proto: 0xb28
+   __TEXT.__swift5_types: 0x738
+-  __TEXT.__swift5_capture: 0x1e18
++  __TEXT.__swift5_capture: 0x1e24
++  __TEXT.__cstring: 0x61a1
+   __TEXT.__swift5_protos: 0x1a0
+   __TEXT.__oslogstring: 0x4e2d
+-  __TEXT.__swift_as_entry: 0x1f8
+-  __TEXT.__swift_as_ret: 0x1d0
+-  __TEXT.__unwind_info: 0x66c8
+-  __TEXT.__eh_frame: 0x8d5c
+-  __TEXT.__objc_classname: 0x224
+-  __TEXT.__objc_methname: 0x8570
+-  __TEXT.__objc_methtype: 0x333e
+-  __TEXT.__objc_stubs: 0x60
+-  __DATA_CONST.__got: 0x1070
+-  __DATA_CONST.__const: 0x2f0
++  __TEXT.__swift_as_entry: 0x1f4
++  __TEXT.__swift_as_ret: 0x1cc
++  __TEXT.__unwind_info: 0x63d8
++  __TEXT.__eh_frame: 0x860c
++  __TEXT.__objc_classname: 0x23eb
++  __TEXT.__objc_methname: 0xdb63
++  __TEXT.__objc_methtype: 0x3d18
++  __TEXT.__objc_stubs: 0x4e20
++  __DATA_CONST.__got: 0x1060
++  __DATA_CONST.__const: 0x2d8
+   __DATA_CONST.__objc_classlist: 0x4d0
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x1b8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x25f0
++  __DATA_CONST.__objc_selrefs: 0x25f8
+   __DATA_CONST.__objc_protorefs: 0xe0
+-  __AUTH_CONST.__auth_got: 0x27e0
+-  __AUTH_CONST.__const: 0xe410
+-  __AUTH_CONST.__objc_const: 0xde78
++  __AUTH_CONST.__auth_got: 0x27d0
++  __AUTH_CONST.__const: 0xe431
++  __AUTH_CONST.__objc_const: 0xde90
+   __AUTH.__objc_data: 0x2a28
+   __AUTH.__data: 0x51d8
+-  __DATA.__data: 0x4588
+-  __DATA.__bss: 0xef90
++  __DATA.__data: 0x3f78
++  __DATA.__bss: 0xee90
+   __DATA.__common: 0x2a8
+   __DATA_DIRTY.__objc_data: 0x11c8
+-  __DATA_DIRTY.__data: 0x4a40
+-  __DATA_DIRTY.__bss: 0x4200
++  __DATA_DIRTY.__data: 0x4f60
++  __DATA_DIRTY.__bss: 0x4380
+   __DATA_DIRTY.__common: 0x158
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 55E77AD5-2D8D-3B6E-AC5B-43E239893BC6
+-  Functions: 10140
+-  Symbols:   7942
+-  CStrings:  3367
++  UUID: 5E1EBC1E-3F33-3718-BDA6-9F9A4495C593
++  Functions: 10302
++  Symbols:   9440
++  CStrings:  3300
+ 
+Symbols:
++ _OUTLINED_FUNCTION_140
++ _OUTLINED_FUNCTION_141
++ _OUTLINED_FUNCTION_142
++ _OUTLINED_FUNCTION_143
++ _OUTLINED_FUNCTION_144
++ _OUTLINED_FUNCTION_145
++ _OUTLINED_FUNCTION_146
++ _OUTLINED_FUNCTION_147
++ _OUTLINED_FUNCTION_148
++ _OUTLINED_FUNCTION_149
++ _OUTLINED_FUNCTION_150
++ _OUTLINED_FUNCTION_151
++ _OUTLINED_FUNCTION_152
++ _OUTLINED_FUNCTION_153
++ _OUTLINED_FUNCTION_154
++ _OUTLINED_FUNCTION_155
++ _OUTLINED_FUNCTION_156
++ _OUTLINED_FUNCTION_157
++ _OUTLINED_FUNCTION_158
++ _OUTLINED_FUNCTION_159
++ _OUTLINED_FUNCTION_160
++ _OUTLINED_FUNCTION_161
++ _OUTLINED_FUNCTION_162
++ _OUTLINED_FUNCTION_163
++ _OUTLINED_FUNCTION_164
++ _OUTLINED_FUNCTION_165
++ __MergedGlobals
++ ___unnamed_3
++ ___unnamed_5
++ _block_copy_helper.105
++ _block_copy_helper.111
++ _block_copy_helper.117
++ _block_copy_helper.127
++ _block_copy_helper.13
++ _block_copy_helper.133
++ _block_copy_helper.139
++ _block_copy_helper.144
++ _block_copy_helper.162
++ _block_copy_helper.177
++ _block_copy_helper.54
++ _block_copy_helper.58
++ _block_copy_helper.60
++ _block_copy_helper.66
++ _block_copy_helper.7
++ _block_copy_helper.72
++ _block_copy_helper.90
++ _block_copy_helper.93
++ _block_copy_helper.97
++ _block_descriptor.107
++ _block_descriptor.113
++ _block_descriptor.119
++ _block_descriptor.129
++ _block_descriptor.135
++ _block_descriptor.141
++ _block_descriptor.146
++ _block_descriptor.15
++ _block_descriptor.164
++ _block_descriptor.179
++ _block_descriptor.56
++ _block_descriptor.60
++ _block_descriptor.62
++ _block_descriptor.68
++ _block_descriptor.74
++ _block_descriptor.9
++ _block_descriptor.92
++ _block_descriptor.95
++ _block_descriptor.99
++ _block_destroy_helper.106
++ _block_destroy_helper.112
++ _block_destroy_helper.118
++ _block_destroy_helper.128
++ _block_destroy_helper.134
++ _block_destroy_helper.14
++ _block_destroy_helper.140
++ _block_destroy_helper.145
++ _block_destroy_helper.163
++ _block_destroy_helper.178
++ _block_destroy_helper.55
++ _block_destroy_helper.59
++ _block_destroy_helper.61
++ _block_destroy_helper.67
++ _block_destroy_helper.73
++ _block_destroy_helper.8
++ _block_destroy_helper.91
++ _block_destroy_helper.94
++ _block_destroy_helper.98
++ _objc_msgSend$CGColor
++ _objc_msgSend$CGContext
++ _objc_msgSend$CGImage
++ _objc_msgSend$CGPath
++ _objc_msgSend$CGPointValue
++ _objc_msgSend$URLForResource:withExtension:
++ _objc_msgSend$URLsForDirectory:inDomains:
++ _objc_msgSend$_animateUsingSpringWithDuration:delay:options:mass:stiffness:damping:initialVelocity:animations:completion:
++ _objc_msgSend$_annotationViews
++ _objc_msgSend$_calloutView
++ _objc_msgSend$_coordinateForPoint:
++ _objc_msgSend$_cornerRadius
++ _objc_msgSend$_doubleTapGestureRecognizer
++ _objc_msgSend$_incompleteTaskMetrics
++ _objc_msgSend$_mapLayer
++ _objc_msgSend$_panningGestureRecognizer
++ _objc_msgSend$_pinchGestureRecognizer
++ _objc_msgSend$_rotationGestureRecognizer
++ _objc_msgSend$_safeAreaCornerInsets
++ _objc_msgSend$_setAttributionInsets:
++ _objc_msgSend$_setAttributionLinkDisplayStyle:
++ _objc_msgSend$_setCalloutStyle:
++ _objc_msgSend$_setCanSelectAllLabels:
++ _objc_msgSend$_setCanSelectPOIs:
++ _objc_msgSend$_setContinuousCornerRadius:
++ _objc_msgSend$_setCornerRadius:
++ _objc_msgSend$_setCornerRadius:continuous:maskedCorners:
++ _objc_msgSend$_setFont:
++ _objc_msgSend$_setGroupName:
++ _objc_msgSend$_setRendersInBackground:
++ _objc_msgSend$_setScrollEdgeEffectViewInteractionDisabled:
++ _objc_msgSend$_setShowsRoadLabels:
++ _objc_msgSend$_setShowsRoadShields:
++ _objc_msgSend$_setSkipDrawingForSnapshots:
++ _objc_msgSend$_setVisibleMapRect:animated:completionHandler:
++ _objc_msgSend$_systemUserInterfaceStyle
++ _objc_msgSend$_zoomLevel
++ _objc_msgSend$_zoomScale
++ _objc_msgSend$accessibilityActivationPoint
++ _objc_msgSend$accessibilityElementAtIndex:
++ _objc_msgSend$accessibilityElements
++ _objc_msgSend$accessibilityElementsHidden
++ _objc_msgSend$accessibilityFrame
++ _objc_msgSend$accessibilityLabel
++ _objc_msgSend$accessibilityName
++ _objc_msgSend$accessibilityPath
++ _objc_msgSend$accessibilityTraits
++ _objc_msgSend$actionWithTitle:style:handler:
++ _objc_msgSend$addAction:
++ _objc_msgSend$addAction:forControlEvents:
++ _objc_msgSend$addAnimation:forKey:
++ _objc_msgSend$addAnimations:
++ _objc_msgSend$addAnnotations:
++ _objc_msgSend$addAttribute:value:range:
++ _objc_msgSend$addAttributes:range:
++ _objc_msgSend$addChildViewController:
++ _objc_msgSend$addCompletedHandler:
++ _objc_msgSend$addCompletion:
++ _objc_msgSend$addGestureRecognizer:
++ _objc_msgSend$addInteraction:
++ _objc_msgSend$addObserver:selector:name:object:
++ _objc_msgSend$addObserverForName:object:queue:usingBlock:
++ _objc_msgSend$addOverlay:level:
++ _objc_msgSend$addSublayer:
++ _objc_msgSend$addSubview:
++ _objc_msgSend$addTarget:action:
++ _objc_msgSend$addTarget:action:forControlEvents:
++ _objc_msgSend$addTimer:forMode:
++ _objc_msgSend$addToRunLoop:forMode:
++ _objc_msgSend$alertControllerWithTitle:message:preferredStyle:
++ _objc_msgSend$alpha
++ _objc_msgSend$alphaComponent
++ _objc_msgSend$animateWithDuration:animations:
++ _objc_msgSend$animateWithDuration:animations:completion:
++ _objc_msgSend$animateWithDuration:delay:usingSpringWithDamping:initialSpringVelocity:options:animations:completion:
++ _objc_msgSend$animationWithKeyPath:
++ _objc_msgSend$annotation
++ _objc_msgSend$annotations
++ _objc_msgSend$appearance
++ _objc_msgSend$appendAttributedString:
++ _objc_msgSend$applicationState
++ _objc_msgSend$ascender
++ _objc_msgSend$attributedStringWithAttachment:
++ _objc_msgSend$attributedText
++ _objc_msgSend$attributionFrame
++ _objc_msgSend$begin
++ _objc_msgSend$beginScope
++ _objc_msgSend$bezierPathWithArcCenter:radius:startAngle:endAngle:clockwise:
++ _objc_msgSend$bezierPathWithOvalInRect:
++ _objc_msgSend$bezierPathWithRect:
++ _objc_msgSend$bezierPathWithRoundedRect:byRoundingCorners:cornerRadii:
++ _objc_msgSend$bezierPathWithRoundedRect:cornerRadius:
++ _objc_msgSend$blackColor
++ _objc_msgSend$blitCommandEncoder
++ _objc_msgSend$borderWidth
++ _objc_msgSend$boundingMapRect
++ _objc_msgSend$bounds
++ _objc_msgSend$bringSubviewToFront:
++ _objc_msgSend$bundleForClass:
++ _objc_msgSend$bytes
++ _objc_msgSend$camera
++ _objc_msgSend$cameraLookingAtCenterCoordinate:fromDistance:pitch:heading:
++ _objc_msgSend$cancel
++ _objc_msgSend$celsius
++ _objc_msgSend$center
++ _objc_msgSend$centerCoordinate
++ _objc_msgSend$centerCoordinateDistance
++ _objc_msgSend$childViewControllers
++ _objc_msgSend$clearColor
++ _objc_msgSend$code
++ _objc_msgSend$colorAttachments
++ _objc_msgSend$colorNamed:
++ _objc_msgSend$colorWithAlphaComponent:
++ _objc_msgSend$commandBuffer
++ _objc_msgSend$commit
++ _objc_msgSend$computeCommandEncoder
++ _objc_msgSend$configurationByApplyingConfiguration:
++ _objc_msgSend$configurationWithFont:scale:
++ _objc_msgSend$configurationWithHierarchicalColor:
++ _objc_msgSend$configurationWithIdentifier:previewProvider:actionProvider:
++ _objc_msgSend$configurationWithPaletteColors:
++ _objc_msgSend$configurationWithPointSize:weight:
++ _objc_msgSend$configureForMuted
++ _objc_msgSend$configureForWeather
++ _objc_msgSend$configureForWeatherWind
++ _objc_msgSend$connectedScenes
++ _objc_msgSend$containerView
++ _objc_msgSend$contentView
++ _objc_msgSend$contents
++ _objc_msgSend$contentsScale
++ _objc_msgSend$convertPoint:fromCoordinateSpace:
++ _objc_msgSend$convertPoint:toCoordinateFromView:
++ _objc_msgSend$convertPoint:toCoordinateSpace:
++ _objc_msgSend$convertRect:toCoordinateSpace:
++ _objc_msgSend$coordinate
++ _objc_msgSend$copyFromBuffer:sourceOffset:sourceBytesPerRow:sourceBytesPerImage:sourceSize:toTexture:destinationSlice:destinationLevel:destinationOrigin:options:
++ _objc_msgSend$copyFromTexture:sourceSlice:sourceLevel:sourceOrigin:sourceSize:toTexture:destinationSlice:destinationLevel:destinationOrigin:
++ _objc_msgSend$copyFromTexture:toTexture:
++ _objc_msgSend$cornerRadius
++ _objc_msgSend$currentRunLoop
++ _objc_msgSend$currentTraitCollection
++ _objc_msgSend$damping
++ _objc_msgSend$dampingRatio
++ _objc_msgSend$dataTaskWithRequest:completionHandler:
++ _objc_msgSend$dateFormatFromTemplate:options:locale:
++ _objc_msgSend$defaultCenter
++ _objc_msgSend$defaultManager
++ _objc_msgSend$defaultStyle
++ _objc_msgSend$depthAttachment
++ _objc_msgSend$descender
++ _objc_msgSend$deselectAnnotation:animated:
++ _objc_msgSend$desiredDisplayRate
++ _objc_msgSend$didChangeValueForKey:
++ _objc_msgSend$didMoveToParentViewController:
++ _objc_msgSend$dismissMenu
++ _objc_msgSend$dismissViewControllerAnimated:completion:
++ _objc_msgSend$dispatchThreadgroups:threadsPerThreadgroup:
++ _objc_msgSend$displayLinkWithTarget:selector:
++ _objc_msgSend$displayScale
++ _objc_msgSend$drawPrimitives:vertexStart:vertexCount:instanceCount:
++ _objc_msgSend$drawTileAtPath:withTile:inIOSurface:withTimestamp:withTileScale:
++ _objc_msgSend$effectForBlurEffect:style:
++ _objc_msgSend$effectWithStyle:
++ _objc_msgSend$effectiveUserInterfaceLayoutDirection
++ _objc_msgSend$elementWithProvider:
++ _objc_msgSend$elementWithUncachedProvider:
++ _objc_msgSend$encodeToCommandBuffer:sourceTexture:destinationTexture:
++ _objc_msgSend$endEncoding
++ _objc_msgSend$endScope
++ _objc_msgSend$fahrenheit
++ _objc_msgSend$fill
++ _objc_msgSend$fireDate
++ _objc_msgSend$font
++ _objc_msgSend$fontDescriptor
++ _objc_msgSend$fontDescriptorByAddingAttributes:
++ _objc_msgSend$fontDescriptorWithSymbolicTraits:
++ _objc_msgSend$fontWithDescriptor:size:
++ _objc_msgSend$fontWithSize:
++ _objc_msgSend$frame
++ _objc_msgSend$generateMipmapsForTexture:
++ _objc_msgSend$geoJSONObjectsWithData:error:
++ _objc_msgSend$geometry
++ _objc_msgSend$getAllTasksWithCompletionHandler:
++ _objc_msgSend$getBytes:bytesPerRow:fromRegion:mipmapLevel:
++ _objc_msgSend$greenColor
++ _objc_msgSend$heading
++ _objc_msgSend$height
++ _objc_msgSend$hitTest:withEvent:
++ _objc_msgSend$identifier
++ _objc_msgSend$image
++ _objc_msgSend$imageWithActions:
++ _objc_msgSend$imageWithRenderingMode:
++ _objc_msgSend$imageWithTintColor:renderingMode:
++ _objc_msgSend$init
++ _objc_msgSend$initForTextStyle:
++ _objc_msgSend$initIncludingCategories:
++ _objc_msgSend$initWithActivityIndicatorStyle:
++ _objc_msgSend$initWithAttributedString:
++ _objc_msgSend$initWithBool:
++ _objc_msgSend$initWithBounds:format:
++ _objc_msgSend$initWithBytes:length:
++ _objc_msgSend$initWithCGImage:
++ _objc_msgSend$initWithCGImage:scale:orientation:
++ _objc_msgSend$initWithContainer:center:
++ _objc_msgSend$initWithControlPoints::::
++ _objc_msgSend$initWithCoordinate:altitude:horizontalAccuracy:verticalAccuracy:timestamp:
++ _objc_msgSend$initWithDevice:
++ _objc_msgSend$initWithDouble:
++ _objc_msgSend$initWithDuration:controlPoint1:controlPoint2:animations:
++ _objc_msgSend$initWithDuration:timingParameters:
++ _objc_msgSend$initWithDynamicProvider:
++ _objc_msgSend$initWithEffect:
++ _objc_msgSend$initWithFrame:
++ _objc_msgSend$initWithImage:
++ _objc_msgSend$initWithMass:stiffness:damping:initialVelocity:
++ _objc_msgSend$initWithMultiPolygon:
++ _objc_msgSend$initWithNibName:bundle:
++ _objc_msgSend$initWithOptions:
++ _objc_msgSend$initWithPolygon:
++ _objc_msgSend$initWithPolygons:
++ _objc_msgSend$initWithRed:green:blue:alpha:
++ _objc_msgSend$initWithString:
++ _objc_msgSend$initWithTarget:action:
++ _objc_msgSend$initWithType:
++ _objc_msgSend$initWithUnsignedInteger:
++ _objc_msgSend$initWithView:parameters:target:
++ _objc_msgSend$insertSegmentWithTitle:atIndex:animated:
++ _objc_msgSend$interiorPolygons
++ _objc_msgSend$intersectsMapRect:
++ _objc_msgSend$intrinsicContentSize
++ _objc_msgSend$invalidate
++ _objc_msgSend$invalidateAndCancel
++ _objc_msgSend$isBeingDismissed
++ _objc_msgSend$isCancelled
++ _objc_msgSend$isEnabled
++ _objc_msgSend$isHidden
++ _objc_msgSend$isSelected
++ _objc_msgSend$isUserInteractionEnabled
++ _objc_msgSend$kelvin
++ _objc_msgSend$keyCommandWithInput:modifierFlags:action:
++ _objc_msgSend$kilometers
++ _objc_msgSend$kilometersPerHour
++ _objc_msgSend$knots
++ _objc_msgSend$label
++ _objc_msgSend$labelColor
++ _objc_msgSend$layer
++ _objc_msgSend$layoutFrame
++ _objc_msgSend$layoutIfNeeded
++ _objc_msgSend$length
++ _objc_msgSend$lineHeight
++ _objc_msgSend$locationInView:
++ _objc_msgSend$mainQueue
++ _objc_msgSend$mainRunLoop
++ _objc_msgSend$mainScreen
++ _objc_msgSend$mask
++ _objc_msgSend$mass
++ _objc_msgSend$maxTotalThreadsPerThreadgroup
++ _objc_msgSend$maximumFramesPerSecond
++ _objc_msgSend$meters
++ _objc_msgSend$metersPerSecond
++ _objc_msgSend$miles
++ _objc_msgSend$milesPerHour
++ _objc_msgSend$modifierFlags
++ _objc_msgSend$nativeScale
++ _objc_msgSend$newBufferWithBytes:length:options:
++ _objc_msgSend$newBufferWithLength:options:
++ _objc_msgSend$newCaptureScopeWithCommandQueue:
++ _objc_msgSend$newCommandQueue
++ _objc_msgSend$newComputePipelineStateWithFunction:error:
++ _objc_msgSend$newDepthStencilStateWithDescriptor:
++ _objc_msgSend$newFunctionWithName:
++ _objc_msgSend$newLibraryWithURL:error:
++ _objc_msgSend$newRenderPipelineStateWithDescriptor:error:
++ _objc_msgSend$newTextureWithCGImage:options:error:
++ _objc_msgSend$newTextureWithData:options:error:
++ _objc_msgSend$newTextureWithDescriptor:
++ _objc_msgSend$newTextureWithDescriptor:iosurface:plane:
++ _objc_msgSend$newTextureWithName:scaleFactor:bundle:options:error:
++ _objc_msgSend$objectAtIndexedSubscript:
++ _objc_msgSend$opacity
++ _objc_msgSend$originalRequest
++ _objc_msgSend$parentViewController
++ _objc_msgSend$path
++ _objc_msgSend$performWithoutAnimation:
++ _objc_msgSend$physicalMemory
++ _objc_msgSend$pitch
++ _objc_msgSend$pixelFormat
++ _objc_msgSend$pointCount
++ _objc_msgSend$pointForCoordinate:
++ _objc_msgSend$pointForMapPoint:
++ _objc_msgSend$pointSize
++ _objc_msgSend$points
++ _objc_msgSend$polygonWithCoordinates:count:
++ _objc_msgSend$polygonWithCoordinates:count:interiorPolygons:
++ _objc_msgSend$polygonWithPoints:count:interiorPolygons:
++ _objc_msgSend$polygons
++ _objc_msgSend$popoverPresentationController
++ _objc_msgSend$position
++ _objc_msgSend$postNotification:
++ _objc_msgSend$postNotificationName:object:userInfo:
++ _objc_msgSend$preferredContentSizeCategory
++ _objc_msgSend$preferredFontForTextStyle:
++ _objc_msgSend$prepare
++ _objc_msgSend$presentViewController:animated:completion:
++ _objc_msgSend$presentedViewController
++ _objc_msgSend$presentingViewController
++ _objc_msgSend$processInfo
++ _objc_msgSend$quaternaryLabelColor
++ _objc_msgSend$rasterizationScale
++ _objc_msgSend$removeAnnotations:
++ _objc_msgSend$removeAttribute:range:
++ _objc_msgSend$removeFromParentViewController
++ _objc_msgSend$removeFromSuperlayer
++ _objc_msgSend$removeFromSuperview
++ _objc_msgSend$removeItemAtURL:error:
++ _objc_msgSend$removeObserver:
++ _objc_msgSend$removeObserver:name:object:
++ _objc_msgSend$removeOverlay:
++ _objc_msgSend$renderCommandEncoderWithDescriptor:
++ _objc_msgSend$renderInContext:
++ _objc_msgSend$replaceRegion:mipmapLevel:withBytes:bytesPerRow:
++ _objc_msgSend$requireGestureRecognizerToFail:
++ _objc_msgSend$resolvedColorWithTraitCollection:
++ _objc_msgSend$resourceFetchType
++ _objc_msgSend$resume
++ _objc_msgSend$safeAreaInsets
++ _objc_msgSend$safeAreaLayoutGuide
++ _objc_msgSend$sampleCount
++ _objc_msgSend$scale
++ _objc_msgSend$scaledValueForValue:
++ _objc_msgSend$scaledValueForValue:compatibleWithTraitCollection:
++ _objc_msgSend$scheduledTimerWithTimeInterval:repeats:block:
++ _objc_msgSend$screen
++ _objc_msgSend$secondaryLabelColor
++ _objc_msgSend$secondarySystemBackgroundColor
++ _objc_msgSend$secondarySystemFillColor
++ _objc_msgSend$selectAnnotation:animated:
++ _objc_msgSend$selectedAnnotations
++ _objc_msgSend$selectedSegmentIndex
++ _objc_msgSend$selectionChanged
++ _objc_msgSend$semanticContentAttribute
++ _objc_msgSend$sendActionsForControlEvents:
++ _objc_msgSend$separatorColor
++ _objc_msgSend$sessionWithConfiguration:
++ _objc_msgSend$setAMSymbol:
++ _objc_msgSend$setAccessibilityAttributedLabel:
++ _objc_msgSend$setAccessibilityContainerType:
++ _objc_msgSend$setAccessibilityElements:
++ _objc_msgSend$setAccessibilityElementsHidden:
++ _objc_msgSend$setAccessibilityHint:
++ _objc_msgSend$setAccessibilityLabel:
++ _objc_msgSend$setAccessibilityRespondsToUserInteraction:
++ _objc_msgSend$setAccessibilityTraits:
++ _objc_msgSend$setAccessibilityUserInputLabels:
++ _objc_msgSend$setAccessibilityValue:
++ _objc_msgSend$setAdjustsFontForContentSizeCategory:
++ _objc_msgSend$setAdjustsFontSizeToFitWidth:
++ _objc_msgSend$setAllowsDefaultTighteningForTruncation:
++ _objc_msgSend$setAllowsGroupBlending:
++ _objc_msgSend$setAllowsHitTesting:
++ _objc_msgSend$setAlpha:
++ _objc_msgSend$setAlphaBlendOperation:
++ _objc_msgSend$setAnnotationViews:
++ _objc_msgSend$setAttributedText:
++ _objc_msgSend$setAutoresizingMask:
++ _objc_msgSend$setBackgroundColor:
++ _objc_msgSend$setBackgroundImage:forState:
++ _objc_msgSend$setBeginTime:
++ _objc_msgSend$setBlendMode:
++ _objc_msgSend$setBlendingEnabled:
++ _objc_msgSend$setBorderColor:
++ _objc_msgSend$setBorderWidth:
++ _objc_msgSend$setBounds:
++ _objc_msgSend$setCalendar:
++ _objc_msgSend$setCamera:animated:
++ _objc_msgSend$setCanShowCallout:
++ _objc_msgSend$setCaptureOnly:
++ _objc_msgSend$setCategory:mode:options:error:
++ _objc_msgSend$setCenter:
++ _objc_msgSend$setCenterCoordinate:zoomLevel:animated:
++ _objc_msgSend$setChangesSelectionAsPrimaryAction:
++ _objc_msgSend$setClearColor:
++ _objc_msgSend$setClearStencil:
++ _objc_msgSend$setClipsToBounds:
++ _objc_msgSend$setCollisionMode:
++ _objc_msgSend$setColor:
++ _objc_msgSend$setColors:
++ _objc_msgSend$setCompositingFilter:
++ _objc_msgSend$setComputePipelineState:
++ _objc_msgSend$setContentMode:
++ _objc_msgSend$setContents:
++ _objc_msgSend$setContentsGravity:
++ _objc_msgSend$setContentsScale:
++ _objc_msgSend$setCornerCurve:
++ _objc_msgSend$setCornerRadius:
++ _objc_msgSend$setDamping:
++ _objc_msgSend$setDateFormat:
++ _objc_msgSend$setDateStyle:
++ _objc_msgSend$setDelegate:
++ _objc_msgSend$setDepthAttachmentPixelFormat:
++ _objc_msgSend$setDepthStencilState:
++ _objc_msgSend$setDepthWriteEnabled:
++ _objc_msgSend$setDesiredDisplayRate:
++ _objc_msgSend$setDestinationAlphaBlendFactor:
++ _objc_msgSend$setDestinationRGBBlendFactor:
++ _objc_msgSend$setDisableActions:
++ _objc_msgSend$setDisplayPriority:
++ _objc_msgSend$setDoesRelativeDateFormatting:
++ _objc_msgSend$setDuration:
++ _objc_msgSend$setEdgeMode:
++ _objc_msgSend$setEffect:
++ _objc_msgSend$setEnabled:
++ _objc_msgSend$setEndPoint:
++ _objc_msgSend$setFill
++ _objc_msgSend$setFillColor:
++ _objc_msgSend$setFilters:
++ _objc_msgSend$setFont:
++ _objc_msgSend$setFormattingContext:
++ _objc_msgSend$setFragmentBytes:length:atIndex:
++ _objc_msgSend$setFragmentFunction:
++ _objc_msgSend$setFragmentTexture:atIndex:
++ _objc_msgSend$setFrame:
++ _objc_msgSend$setFramebufferOnly:
++ _objc_msgSend$setFromValue:
++ _objc_msgSend$setFrontFaceStencil:
++ _objc_msgSend$setGroupName:
++ _objc_msgSend$setHidden:
++ _objc_msgSend$setHidesWhenStopped:
++ _objc_msgSend$setImage:
++ _objc_msgSend$setImage:forState:
++ _objc_msgSend$setImageblockSampleLength:
++ _objc_msgSend$setInitialVelocity:
++ _objc_msgSend$setIsAccessibilityElement:
++ _objc_msgSend$setLabel:
++ _objc_msgSend$setLabelEdgeInsets:
++ _objc_msgSend$setLabelEdgeWidths:
++ _objc_msgSend$setLargeContentImage:
++ _objc_msgSend$setLargeContentTitle:
++ _objc_msgSend$setLayoutMargins:
++ _objc_msgSend$setLineBreakMode:
++ _objc_msgSend$setLineCap:
++ _objc_msgSend$setLineSpacing:
++ _objc_msgSend$setLineWidth:
++ _objc_msgSend$setLoadAction:
++ _objc_msgSend$setLocale:
++ _objc_msgSend$setLocalizedDateFormatFromTemplate:
++ _objc_msgSend$setLocations:
++ _objc_msgSend$setMapRect:
++ _objc_msgSend$setMask:
++ _objc_msgSend$setMasksToBounds:
++ _objc_msgSend$setMass:
++ _objc_msgSend$setMaximumContentSizeCategory:
++ _objc_msgSend$setMenu:
++ _objc_msgSend$setMinimumScaleFactor:
++ _objc_msgSend$setMipmapLevelCount:
++ _objc_msgSend$setModalPresentationStyle:
++ _objc_msgSend$setMutability:
++ _objc_msgSend$setName:
++ _objc_msgSend$setNeedsDisplay
++ _objc_msgSend$setNeedsDisplayOnBoundsChange:
++ _objc_msgSend$setNeedsLayout
++ _objc_msgSend$setNumberFormatter:
++ _objc_msgSend$setNumberOfLines:
++ _objc_msgSend$setOnDisappear:
++ _objc_msgSend$setOpacity:
++ _objc_msgSend$setOverrideUserInterfaceStyle:
++ _objc_msgSend$setPMSymbol:
++ _objc_msgSend$setPath:
++ _objc_msgSend$setPermittedArrowDirections:
++ _objc_msgSend$setPitchEnabled:
++ _objc_msgSend$setPixelFormat:
++ _objc_msgSend$setPointOfInterestFilter:
++ _objc_msgSend$setPosition:
++ _objc_msgSend$setPreferredBehavioralStyle:
++ _objc_msgSend$setPreferredContentSize:
++ _objc_msgSend$setPreferredFramesPerSecond:
++ _objc_msgSend$setPreferredRange:
++ _objc_msgSend$setRasterSampleCount:
++ _objc_msgSend$setRasterizationScale:
++ _objc_msgSend$setReadMask:
++ _objc_msgSend$setRemovedOnCompletion:
++ _objc_msgSend$setRenderPipelineState:
++ _objc_msgSend$setResolveTexture:
++ _objc_msgSend$setRgbBlendOperation:
++ _objc_msgSend$setSampleCount:
++ _objc_msgSend$setScale:
++ _objc_msgSend$setScaleTransform:
++ _objc_msgSend$setSelectedSegmentIndex:
++ _objc_msgSend$setSessionDescription:
++ _objc_msgSend$setShadowColor:
++ _objc_msgSend$setShadowOffset:
++ _objc_msgSend$setShadowOpacity:
++ _objc_msgSend$setShadowPath:
++ _objc_msgSend$setShadowPathIsBounds:
++ _objc_msgSend$setShadowRadius:
++ _objc_msgSend$setShouldGroupAccessibilityChildren:
++ _objc_msgSend$setShouldRasterize:
++ _objc_msgSend$setShowsAttribution:
++ _objc_msgSend$setShowsBuildings:
++ _objc_msgSend$setShowsCompass:
++ _objc_msgSend$setShowsHillshade:
++ _objc_msgSend$setShowsLargeContentViewer:
++ _objc_msgSend$setShowsMenuAsPrimaryAction:
++ _objc_msgSend$setSize:
++ _objc_msgSend$setSourceAlphaBlendFactor:
++ _objc_msgSend$setSourceRGBBlendFactor:
++ _objc_msgSend$setSourceRect:
++ _objc_msgSend$setSourceView:
++ _objc_msgSend$setStartPoint:
++ _objc_msgSend$setState:
++ _objc_msgSend$setStencilAttachmentPixelFormat:
++ _objc_msgSend$setStencilCompareFunction:
++ _objc_msgSend$setStiffness:
++ _objc_msgSend$setStorageMode:
++ _objc_msgSend$setStoreAction:
++ _objc_msgSend$setStrokeColor:
++ _objc_msgSend$setText:
++ _objc_msgSend$setTextAlignment:
++ _objc_msgSend$setTextColor:
++ _objc_msgSend$setTexture:
++ _objc_msgSend$setTexture:atIndex:
++ _objc_msgSend$setTextureType:
++ _objc_msgSend$setTileHeight:
++ _objc_msgSend$setTileWidth:
++ _objc_msgSend$setTimeStyle:
++ _objc_msgSend$setTimeZone:
++ _objc_msgSend$setTimingFunction:
++ _objc_msgSend$setTintColor:
++ _objc_msgSend$setTitle:forState:
++ _objc_msgSend$setTitleColor:forState:
++ _objc_msgSend$setToValue:
++ _objc_msgSend$setTolerance:
++ _objc_msgSend$setTraitCollection:
++ _objc_msgSend$setTransform:
++ _objc_msgSend$setTranslatesAutoresizingMaskIntoConstraints:
++ _objc_msgSend$setType:
++ _objc_msgSend$setURLCache:
++ _objc_msgSend$setUnitOptions:
++ _objc_msgSend$setUsage:
++ _objc_msgSend$setUserInteractionEnabled:
++ _objc_msgSend$setUsesTileScale:
++ _objc_msgSend$setValue:forKey:
++ _objc_msgSend$setVertexBuffer:offset:atIndex:
++ _objc_msgSend$setVertexBytes:length:atIndex:
++ _objc_msgSend$setVertexFunction:
++ _objc_msgSend$setView:
++ _objc_msgSend$setWaitsForConnectivity:
++ _objc_msgSend$setZPosition:
++ _objc_msgSend$settlingDuration
++ _objc_msgSend$shadowPath
++ _objc_msgSend$sharedApplication
++ _objc_msgSend$sharedCaptureManager
++ _objc_msgSend$sharedInstance
++ _objc_msgSend$showsAttribution
++ _objc_msgSend$size
++ _objc_msgSend$sizeThatFits:
++ _objc_msgSend$sizeToFit
++ _objc_msgSend$start
++ _objc_msgSend$startAnimating
++ _objc_msgSend$startAnimation
++ _objc_msgSend$startLinearZoomIn:
++ _objc_msgSend$startWithQueue:completionHandler:
++ _objc_msgSend$state
++ _objc_msgSend$statusCode
++ _objc_msgSend$stencilAttachment
++ _objc_msgSend$stiffness
++ _objc_msgSend$stop
++ _objc_msgSend$stopAnimating
++ _objc_msgSend$stopZoomingWithInertia
++ _objc_msgSend$stretchableImageWithLeftCapWidth:topCapHeight:
++ _objc_msgSend$stringForObjectValue:
++ _objc_msgSend$stringFromDate:
++ _objc_msgSend$stringFromNumber:
++ _objc_msgSend$sublayers
++ _objc_msgSend$subviews
++ _objc_msgSend$superview
++ _objc_msgSend$supportsFamily:
++ _objc_msgSend$supportsTextureSampleCount:
++ _objc_msgSend$symbol
++ _objc_msgSend$systemBlueColor
++ _objc_msgSend$systemFillColor
++ _objc_msgSend$systemFontOfSize:
++ _objc_msgSend$systemGray3Color
++ _objc_msgSend$systemGray4Color
++ _objc_msgSend$systemGray5Color
++ _objc_msgSend$systemImageNamed:
++ _objc_msgSend$systemImageNamed:withConfiguration:
++ _objc_msgSend$systemLayoutSizeFittingSize:
++ _objc_msgSend$taskInterval
++ _objc_msgSend$tertiaryLabelColor
++ _objc_msgSend$tertiarySystemBackgroundColor
++ _objc_msgSend$tertiarySystemFillColor
++ _objc_msgSend$text
++ _objc_msgSend$texture2DDescriptorWithPixelFormat:width:height:mipmapped:
++ _objc_msgSend$threadExecutionWidth
++ _objc_msgSend$timerWithTimeInterval:target:selector:userInfo:repeats:
++ _objc_msgSend$timestamp
++ _objc_msgSend$titleLabel
++ _objc_msgSend$traitCollection
++ _objc_msgSend$traitCollectionWithPreferredContentSizeCategory:
++ _objc_msgSend$traitCollectionWithUserInterfaceStyle:
++ _objc_msgSend$transactionMetrics
++ _objc_msgSend$transitionWithView:duration:options:animations:completion:
++ _objc_msgSend$ts_settlingDuration
++ _objc_msgSend$updateValue:
++ _objc_msgSend$userInterfaceLayoutDirection
++ _objc_msgSend$userInterfaceLayoutDirectionForSemanticContentAttribute:
++ _objc_msgSend$userInterfaceStyle
++ _objc_msgSend$valueForHTTPHeaderField:
++ _objc_msgSend$valueWithCGPoint:
++ _objc_msgSend$vertexBuffers
++ _objc_msgSend$view
++ _objc_msgSend$viewForAnnotation:
++ _objc_msgSend$visibleMapRect
++ _objc_msgSend$waitUntilCompleted
++ _objc_msgSend$whiteColor
++ _objc_msgSend$width
++ _objc_msgSend$willChangeValueForKey:
++ _objc_msgSend$willMoveToParentViewController:
++ _objc_msgSend$window
++ _objc_msgSend$windowScene
++ _objc_msgSend$wu_systemUsesExuberatedLineHeight
++ _objectdestroy.109Tm
++ _objectdestroy.35Tm
++ _objectdestroy.5Tm
++ _objectdestroy.70Tm
++ _objectdestroy.77Tm
++ _objectdestroy.88Tm
++ _swift_willThrowTypedImpl
++ _symbolic SS3key______5valuet 11WeatherMaps0A8MapScaleV
++ _symbolic _____Sg_ABt 10Foundation4UUIDV
++ _symbolic _____Sg_ABt 11WeatherMaps0A24MapAnnotatedLocationDataO
++ _symbolic _____Sg_ABt 11WeatherMaps0A8MapScaleV
+- ___swift_coroFrameAllocStub
+- ___unnamed_10
+- ___unnamed_8
+- _block_copy_helper.104
+- _block_copy_helper.110
+- _block_copy_helper.116
+- _block_copy_helper.120
+- _block_copy_helper.138
+- _block_copy_helper.155
+- _block_copy_helper.161
+- _block_copy_helper.176
+- _block_copy_helper.57
+- _block_copy_helper.59
+- _block_copy_helper.6
+- _block_copy_helper.65
+- _block_copy_helper.71
+- _block_copy_helper.82
+- _block_copy_helper.91
+- _block_copy_helper.92
+- _block_descriptor.106
+- _block_descriptor.112
+- _block_descriptor.118
+- _block_descriptor.122
+- _block_descriptor.140
+- _block_descriptor.157
+- _block_descriptor.163
+- _block_descriptor.178
+- _block_descriptor.59
+- _block_descriptor.61
+- _block_descriptor.67
+- _block_descriptor.73
+- _block_descriptor.8
+- _block_descriptor.84
+- _block_descriptor.93
+- _block_descriptor.94
+- _block_destroy_helper.105
+- _block_destroy_helper.111
+- _block_destroy_helper.117
+- _block_destroy_helper.121
+- _block_destroy_helper.139
+- _block_destroy_helper.156
+- _block_destroy_helper.162
+- _block_destroy_helper.177
+- _block_destroy_helper.58
+- _block_destroy_helper.60
+- _block_destroy_helper.66
+- _block_destroy_helper.7
+- _block_destroy_helper.72
+- _block_destroy_helper.83
+- _block_destroy_helper.92
+- _block_destroy_helper.93
+- _malloc
+- _objectdestroy.103Tm
+- _objectdestroy.2Tm
+- _objectdestroy.34Tm
+- _objectdestroy.4Tm
+- _objectdestroy.69Tm
+- _objectdestroy.76Tm
+- _objectdestroy.87Tm
+- _symbolic Si6offset______7elementtSg 11WeatherMaps27ParticleBucketConfigurationV
+- _symbolic _____Sg 11WeatherCore17MapsConfigurationV08EndpointD0V
+- _symbolic _____Sg 11WeatherMaps0A8MapScaleV5PointV
+- _symbolic ______So11NSUnitSpeedCt 11WeatherMaps0A8MapScaleV
+- _symbolic _____y_____y_____y_____y__________y__________ySay_____GSS_____y_____y_____y_____yAKy_____y___________AKyAIy_____yAIy_____yAIyAIyAIy__________y_____GGAQy_____SgGGAQy_____SgGG_Qo______GG_____GAMGtGALyAOyALyAM_AIy_____A5_GSgAMtGG_AnKyAIyAIyApWGA_GAMGtGGAKyALyAM_AnMtGAKyAOyALyAM_A11_AmJyALyAIyAMA2_GSg_AIyAIyAIyAM_____GA5_GA2_GtGGtGGALyA13__ANA21_A25_tGGGGGA_GGGADGG_Qo_______y______Qo______yA40__Qo_Qo_______Qo_ 7SwiftUI4ViewPAAE9listStyleyQrqd__AA04ListE0Rd__lFQO AcAE8staticIf_4thenQrqd___qd_0_xXEtAA0C14InputPredicateRd__AaBRd_0_r0_lFQO AcAE0D7Padding3top6bottomQr12CoreGraphics7CGFloatVSg_AOtFQO AA0F0V s5NeverO AA7SectionV AA05EmptyC0V AA7ForEachV 11WeatherMaps014LocationPickerC5ModelV3RowV AA6ButtonV AA15ModifiedContentV AA6HStackV AA19_ConditionalContentV AA05TupleC0V AA4TextV AA6SpacerV AA6VStackV AcAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV A24_5ScaleO AA4FontV AA5ColorV AA31AccessibilityAttachmentModifierV AA12_FrameLayoutV AA27_TextBaselineRelativeSpacerV AA16_FixedSizeLayoutV AaHPAAE1nopyQrxFZQO AA8SolariumV AcAE0D10BackgroundyQrA32_SgFQO AA012InsetGroupedfE0V
+CStrings:
++ "WeatherMaps"
++ "[hash overlay] could not create render command encoder"
++ "supportsPlacementSparse"
+- "WeatherMapOverlayKind"
+
+```

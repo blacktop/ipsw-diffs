@@ -1,0 +1,375 @@
+## EnergyKitInternal
+
+> `/System/Library/PrivateFrameworks/EnergyKitInternal.framework/EnergyKitInternal`
+
+```diff
+
+-393.4.8.0.0
+-  __TEXT.__text: 0x72aa8
++422.5.1.0.1
++  __TEXT.__text: 0x73ad8
+   __TEXT.__auth_stubs: 0x1220
+-  __TEXT.__objc_methlist: 0x478
+-  __TEXT.__const: 0x1f90
+-  __TEXT.__cstring: 0x2c0e
+-  __TEXT.__swift5_typeref: 0xa44
+-  __TEXT.__swift5_capture: 0xcc0
++  __TEXT.__objc_methlist: 0x488
++  __TEXT.__const: 0x1fc0
++  __TEXT.__cstring: 0x1601
++  __TEXT.__swift5_typeref: 0xa2a
++  __TEXT.__swift5_capture: 0xd10
+   __TEXT.__oslogstring: 0x13bb
+-  __TEXT.__constg_swiftt: 0x7b8
++  __TEXT.__constg_swiftt: 0x7c0
+   __TEXT.__swift5_builtin: 0x3c
+-  __TEXT.__swift5_reflstr: 0x80d
+-  __TEXT.__swift5_fieldmd: 0x6a0
++  __TEXT.__swift5_reflstr: 0x84a
++  __TEXT.__swift5_fieldmd: 0x6b8
+   __TEXT.__swift5_types: 0x5c
+-  __TEXT.__swift_as_entry: 0x2b8
+-  __TEXT.__swift_as_ret: 0x2b0
++  __TEXT.__swift_as_entry: 0x2c4
++  __TEXT.__swift_as_ret: 0x2b8
+   __TEXT.__swift5_assocty: 0xf0
+   __TEXT.__swift5_protos: 0x8
+   __TEXT.__swift5_proto: 0xa8
+-  __TEXT.__unwind_info: 0x1e50
+-  __TEXT.__eh_frame: 0x5a00
+-  __TEXT.__objc_classname: 0x9
+-  __TEXT.__objc_methname: 0x14e9
+-  __TEXT.__objc_methtype: 0xad
+-  __DATA_CONST.__got: 0x320
+-  __DATA_CONST.__const: 0x158
++  __TEXT.__unwind_info: 0x1e90
++  __TEXT.__eh_frame: 0x5c10
++  __TEXT.__objc_classname: 0x1d6
++  __TEXT.__objc_methname: 0x170f
++  __TEXT.__objc_methtype: 0x1636
++  __TEXT.__objc_stubs: 0xb20
++  __DATA_CONST.__got: 0x318
++  __DATA_CONST.__const: 0x150
+   __DATA_CONST.__objc_classlist: 0x38
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x370
++  __DATA_CONST.__objc_selrefs: 0x378
+   __DATA_CONST.__objc_protorefs: 0x18
+-  __AUTH_CONST.__auth_got: 0x910
+-  __AUTH_CONST.__const: 0x2940
+-  __AUTH_CONST.__objc_const: 0xf90
++  __AUTH_CONST.__auth_got: 0x918
++  __AUTH_CONST.__const: 0x29b8
++  __AUTH_CONST.__objc_const: 0xf98
+   __AUTH.__data: 0x4c0
+-  __DATA.__data: 0x5b0
++  __DATA.__data: 0x498
+   __DATA.__bss: 0x1280
+   __DATA.__common: 0x98
+-  __DATA_DIRTY.__data: 0x660
++  __DATA_DIRTY.__data: 0x778
+   __DATA_DIRTY.__bss: 0x280
+   __DATA_DIRTY.__common: 0x30
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2151DB6A-9448-33F5-A8CC-335529AAE1D6
+-  Functions: 2100
+-  Symbols:   6027
+-  CStrings:  471
++  UUID: 95C22C43-6913-33A4-8B8C-AE8E508FBB05
++  Functions: 2125
++  Symbols:   6157
++  CStrings:  477
+ 
+Symbols:
++ _$s10Foundation4DateVSgWObTm
++ _$s17EnergyKitInternal04HomeA5ErrorO17featureNotEnabledyA2CmFWC
++ _$s17EnergyKitInternal04HomeA5ErrorO18missingPublicKeyIDyA2CmFWC
++ _$s17EnergyKitInternal04MockaB7OptionsV19mockAPISessionLimitACvgZ
++ _$s17EnergyKitInternal04MockaB7OptionsV19mockAPISessionLimitACvpZMV
++ _$s17EnergyKitInternal04MockaB7OptionsV19mockSPISessionLimitACvgZ
++ _$s17EnergyKitInternal04MockaB7OptionsV19mockSPISessionLimitACvpZMV
++ _$s17EnergyKitInternal0A4SiteC25createUtilitySubscription9utilityID015serviceLocationI011accessToken0lM14ExpirationDate07refreshM07address17supportEncryption07contextI003keyI00H12CustomerNameSbSS_S2S10Foundation0O0VS2SSbS2SSgARtYaKF
++ _$s17EnergyKitInternal0A4SiteC25createUtilitySubscription9utilityID015serviceLocationI011accessToken0lM14ExpirationDate07refreshM07address17supportEncryption07contextI003keyI00H12CustomerNameSbSS_S2S10Foundation0O0VS2SSbS2SSgARtYaKFTQ1_
++ _$s17EnergyKitInternal0A4SiteC25createUtilitySubscription9utilityID015serviceLocationI011accessToken0lM14ExpirationDate07refreshM07address17supportEncryption07contextI003keyI00H12CustomerNameSbSS_S2S10Foundation0O0VS2SSbS2SSgARtYaKFTY0_
++ _$s17EnergyKitInternal0A4SiteC25createUtilitySubscription9utilityID015serviceLocationI011accessToken0lM14ExpirationDate07refreshM07address17supportEncryption07contextI003keyI00H12CustomerNameSbSS_S2S10Foundation0O0VS2SSbS2SSgARtYaKFTY2_
++ _$s17EnergyKitInternal0A4SiteC25createUtilitySubscription9utilityID015serviceLocationI011accessToken0lM14ExpirationDate07refreshM07address17supportEncryption07contextI003keyI00H12CustomerNameSbSS_S2S10Foundation0O0VS2SSbS2SSgARtYaKFTY3_
++ _$s17EnergyKitInternal0A4SiteC25createUtilitySubscription9utilityID015serviceLocationI011accessToken0lM14ExpirationDate07refreshM07address17supportEncryption07contextI003keyI00H12CustomerNameSbSS_S2S10Foundation0O0VS2SSbS2SSgARtYaKFTj
++ _$s17EnergyKitInternal0A4SiteC25createUtilitySubscription9utilityID015serviceLocationI011accessToken0lM14ExpirationDate07refreshM07address17supportEncryption07contextI003keyI00H12CustomerNameSbSS_S2S10Foundation0O0VS2SSbS2SSgARtYaKFTjTQ0_
++ _$s17EnergyKitInternal0A4SiteC25createUtilitySubscription9utilityID015serviceLocationI011accessToken0lM14ExpirationDate07refreshM07address17supportEncryption07contextI003keyI00H12CustomerNameSbSS_S2S10Foundation0O0VS2SSbS2SSgARtYaKFTjTu
++ _$s17EnergyKitInternal0A4SiteC25createUtilitySubscription9utilityID015serviceLocationI011accessToken0lM14ExpirationDate07refreshM07address17supportEncryption07contextI003keyI00H12CustomerNameSbSS_S2S10Foundation0O0VS2SSbS2SSgARtYaKFTq
++ _$s17EnergyKitInternal0A4SiteC25createUtilitySubscription9utilityID015serviceLocationI011accessToken0lM14ExpirationDate07refreshM07address17supportEncryption07contextI003keyI00H12CustomerNameSbSS_S2S10Foundation0O0VS2SSbS2SSgARtYaKFTu
++ _$s17EnergyKitInternal0A4SiteC25createUtilitySubscription9utilityID015serviceLocationI011accessToken0lM14ExpirationDate07refreshM07address17supportEncryption07contextI003keyI00H12CustomerNameSbSS_S2S10Foundation0O0VS2SSbS2SSgARtYaKFyScCy0abX008EKEnergyD0Cs5Error_pGXEfU_
++ _$s17EnergyKitInternal0A4SiteC25createUtilitySubscription9utilityID015serviceLocationI011accessToken0lM14ExpirationDate07refreshM07address17supportEncryption07contextI003keyI00H12CustomerNameSbSS_S2S10Foundation0O0VS2SSbS2SSgARtYaKFyScCy0abX008EKEnergyD0Cs5Error_pGXEfU_TA
++ _$s17EnergyKitInternal0A4SiteC25createUtilitySubscription9utilityID015serviceLocationI011accessToken0lM14ExpirationDate07refreshM07address17supportEncryption07contextI003keyI00H12CustomerNameSbSS_S2S10Foundation0O0VS2SSbS2SSgARtYaKFyScCy0abX008EKEnergyD0Cs5Error_pGXEfU_yyYacfU_
++ _$s17EnergyKitInternal0A4SiteC25createUtilitySubscription9utilityID015serviceLocationI011accessToken0lM14ExpirationDate07refreshM07address17supportEncryption07contextI003keyI00H12CustomerNameSbSS_S2S10Foundation0O0VS2SSbS2SSgARtYaKFyScCy0abX008EKEnergyD0Cs5Error_pGXEfU_yyYacfU_TA
++ _$s17EnergyKitInternal0A4SiteC25createUtilitySubscription9utilityID015serviceLocationI011accessToken0lM14ExpirationDate07refreshM07address17supportEncryption07contextI003keyI00H12CustomerNameSbSS_S2S10Foundation0O0VS2SSbS2SSgARtYaKFyScCy0abX008EKEnergyD0Cs5Error_pGXEfU_yyYacfU_TATQ0_
++ _$s17EnergyKitInternal0A4SiteC25createUtilitySubscription9utilityID015serviceLocationI011accessToken0lM14ExpirationDate07refreshM07address17supportEncryption07contextI003keyI00H12CustomerNameSbSS_S2S10Foundation0O0VS2SSbS2SSgARtYaKFyScCy0abX008EKEnergyD0Cs5Error_pGXEfU_yyYacfU_TATu
++ _$s17EnergyKitInternal0A4SiteC25createUtilitySubscription9utilityID015serviceLocationI011accessToken0lM14ExpirationDate07refreshM07address17supportEncryption07contextI003keyI00H12CustomerNameSbSS_S2S10Foundation0O0VS2SSbS2SSgARtYaKFyScCy0abX008EKEnergyD0Cs5Error_pGXEfU_yyYacfU_TQ1_
++ _$s17EnergyKitInternal0A4SiteC25createUtilitySubscription9utilityID015serviceLocationI011accessToken0lM14ExpirationDate07refreshM07address17supportEncryption07contextI003keyI00H12CustomerNameSbSS_S2S10Foundation0O0VS2SSbS2SSgARtYaKFyScCy0abX008EKEnergyD0Cs5Error_pGXEfU_yyYacfU_TY0_
++ _$s17EnergyKitInternal0A4SiteC25createUtilitySubscription9utilityID015serviceLocationI011accessToken0lM14ExpirationDate07refreshM07address17supportEncryption07contextI003keyI00H12CustomerNameSbSS_S2S10Foundation0O0VS2SSbS2SSgARtYaKFyScCy0abX008EKEnergyD0Cs5Error_pGXEfU_yyYacfU_TY2_
++ _$s17EnergyKitInternal0A4SiteC25createUtilitySubscription9utilityID015serviceLocationI011accessToken0lM14ExpirationDate07refreshM07address17supportEncryption07contextI003keyI00H12CustomerNameSbSS_S2S10Foundation0O0VS2SSbS2SSgARtYaKFyScCy0abX008EKEnergyD0Cs5Error_pGXEfU_yyYacfU_TY3_
++ _$s17EnergyKitInternal0A4SiteC25createUtilitySubscription9utilityID015serviceLocationI011accessToken0lM14ExpirationDate07refreshM07address17supportEncryption07contextI003keyI00H12CustomerNameSbSS_S2S10Foundation0O0VS2SSbS2SSgARtYaKFyScCy0abX008EKEnergyD0Cs5Error_pGXEfU_yyYacfU_Tu
++ _$s17EnergyKitInternal0A4SiteC25createUtilitySubscription9utilityID015serviceLocationI011accessToken0lM14ExpirationDate07refreshM07address17supportEncryption07contextI003keyI00H12CustomerNameSbSS_S2S10Foundation0O0VS2SSbS2SSgARtYaKFyScCy0abX008EKEnergyD0Cs5Error_pGXEfU_yyYacfU_ysAV_pcfU_
++ _$s17EnergyKitInternal0A4SiteC25createUtilitySubscription9utilityID015serviceLocationI011accessToken0lM14ExpirationDate07refreshM07address17supportEncryption07contextI003keyI00H12CustomerNameSbSS_S2S10Foundation0O0VS2SSbS2SSgARtYaKFyScCy0abX008EKEnergyD0Cs5Error_pGXEfU_yyYacfU_ysAV_pcfU_TA
++ _$s17EnergyKitInternal0A4SiteCyAC0aB10Foundation08EKEnergyD0CYacfC
++ _$s17EnergyKitInternal0A4SiteCyAC0aB10Foundation08EKEnergyD0CYacfCTY0_
++ _$s17EnergyKitInternal0A4SiteCyAC0aB10Foundation08EKEnergyD0CYacfCTu
++ _$s19EnergyKitFoundation11RankingDataVSgWOcTm
++ _$s19EnergyKitFoundation17MockDaemonOptionsV0aB8InternalE03setdF07options10connectionyAC_AD04HomeA13XPCConnectionCtYaKFZyScCyyts5Error_pGXEfU_TA.3
++ _$sSr13_mergeTopRuns_6buffer2bySbSaySnySiGGz_SpyxGSbx_xtKXEtKF10Foundation4DateV3key_09EnergyKitF011RankingDataV5valuet_Tg504$s17ij146Internal0A4SiteC010historicalA13UsageInterval8interval5start3end8timezone9utilityID012subscriptionM0AC010HistoricalaF0VAC0af4TimeG0O_10Foundation4g36VAqO0P4ZoneVS2StYaKFSbAQ3key_0abQ011kL24V5valuet_AqT_AwXttXEfU1_Tf1nncn_n
++ _$sSr13_mergeTopRuns_6buffer2bySbSaySnySiGGz_SpyxGSbx_xtKXEtKF10Foundation4DateV_Tg5064$sSTsSL7ElementRpzrlE6sortedSayABGyFSbAB_ABtcfu_Shy10Foundation4G8VG_Tt1g5Tf1nncn_n
++ _$ss15ContiguousArrayV28_allocateBufferUninitialized15minimumCapacitys01_abD0VyxGSi_tFZ
++ _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tF10Foundation4DateV_09EnergyKitH011RankingDataVTg5
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.127
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.127TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.127Tu
++ _$sypSgWOhTm
++ _block_copy_helper.140
++ _block_copy_helper.150
++ _block_copy_helper.160
++ _block_copy_helper.170
++ _block_copy_helper.181
++ _block_copy_helper.19
++ _block_copy_helper.191
++ _block_copy_helper.201
++ _block_copy_helper.211
++ _block_copy_helper.221
++ _block_copy_helper.231
++ _block_copy_helper.241
++ _block_copy_helper.251
++ _block_copy_helper.261
++ _block_copy_helper.271
++ _block_copy_helper.281
++ _block_copy_helper.292
++ _block_copy_helper.304
++ _block_copy_helper.307
++ _block_descriptor.142
++ _block_descriptor.152
++ _block_descriptor.162
++ _block_descriptor.172
++ _block_descriptor.183
++ _block_descriptor.193
++ _block_descriptor.203
++ _block_descriptor.21
++ _block_descriptor.213
++ _block_descriptor.223
++ _block_descriptor.233
++ _block_descriptor.243
++ _block_descriptor.253
++ _block_descriptor.263
++ _block_descriptor.273
++ _block_descriptor.283
++ _block_descriptor.294
++ _block_descriptor.306
++ _block_descriptor.309
++ _block_destroy_helper.141
++ _block_destroy_helper.151
++ _block_destroy_helper.161
++ _block_destroy_helper.171
++ _block_destroy_helper.182
++ _block_destroy_helper.192
++ _block_destroy_helper.20
++ _block_destroy_helper.202
++ _block_destroy_helper.212
++ _block_destroy_helper.222
++ _block_destroy_helper.232
++ _block_destroy_helper.242
++ _block_destroy_helper.252
++ _block_destroy_helper.262
++ _block_destroy_helper.272
++ _block_destroy_helper.282
++ _block_destroy_helper.293
++ _block_destroy_helper.305
++ _block_destroy_helper.308
++ _objc_msgSend$addGuidanceTokenWithGridID:siteID:completionHandler:
++ _objc_msgSend$addObject:
++ _objc_msgSend$addObserverForName:object:queue:usingBlock:
++ _objc_msgSend$clearCacheWithCompletionHandler:
++ _objc_msgSend$clearEnergyKitDataForAllHomesWithCompletionHandler:
++ _objc_msgSend$completedOnboardingWithId:completionHandler:
++ _objc_msgSend$coordinate
++ _objc_msgSend$createUtilitySubscriptionWithSiteID:utilityID:serviceLocationID:accessToken:accessTokenExpirationDate:refreshToken:address:supportEncryption:contextID:keyID:utilityCustomerName:completionHandler:
++ _objc_msgSend$createUtilitySubscriptionWithSiteID:utilityID:serviceLocationID:accessToken:accessTokenExpirationDate:refreshToken:address:utilityCustomerName:completionHandler:
++ _objc_msgSend$createUtilitySubscriptionWithSiteID:utilityID:serviceLocationID:accessToken:accessTokenExpirationDate:refreshToken:utilityCustomerName:completionHandler:
++ _objc_msgSend$createUtilitySubscriptionWithSiteID:utilityID:serviceLocationID:accessToken:refreshToken:completionHandler:
++ _objc_msgSend$defaultCenter
++ _objc_msgSend$deleteAllDeviceInsightsBefore:completionHandler:
++ _objc_msgSend$deleteAllHistoricalWithCompletionHandler:
++ _objc_msgSend$deleteEnergySiteWithSite:completionHandler:
++ _objc_msgSend$deleteGuidanceTokenWithSiteID:completionHandler:
++ _objc_msgSend$disableAllNextCleanEnergyWindowNotificationsWithCompletionHandler:
++ _objc_msgSend$disableGuidanceCollectionWithCompletionHandler:
++ _objc_msgSend$disableGuidanceCollectionWithGridID:completionHandler:
++ _objc_msgSend$disableNextCleanEnergyWindowNotificationsForGridID:completionHandler:
++ _objc_msgSend$disableNextCleanEnergyWindowNotificationsForGridID:homeID:completionHandler:
++ _objc_msgSend$downloadLoadEventsWithSite:range:limit:completionHandler:
++ _objc_msgSend$dumpAllDataWithCompletionHandler:
++ _objc_msgSend$enableGuidanceCollectionWithGridID:completionHandler:
++ _objc_msgSend$enableNextCleanEnergyWindowNotificationsForGridID:notificationContext:completionHandler:
++ _objc_msgSend$energyGuidanceFor:guidanceType:ratePlan:utilityID:timeZone:withCaching:completionHandler:
++ _objc_msgSend$forceIndependentTokenRotateWithToken:utility:completionHandler:
++ _objc_msgSend$generateMockAMIDataWithSiteID:startDate:endDate:forceAllReadingsToConstant:recordInterval:batchSize:rateSchedule:netMetering:direction:randomization:completionHandler:
++ _objc_msgSend$generateMultipleMeterMockAMIDataWithSiteID:startDate:endDate:recordInterval:rateSchedule:multipleMeters:completionHandler:
++ _objc_msgSend$getAllSiteIDsWithCompletionHandler:
++ _objc_msgSend$getAllUtilitiesWithCountryCode:completionHandler:
++ _objc_msgSend$getCurrentLocationWithCompletionHandler:
++ _objc_msgSend$getEnergyKitConfigurationWithHomeID:appID:isHomeOwner:completionHandler:
++ _objc_msgSend$getGridIDWithToken:completionHandler:
++ _objc_msgSend$getGuidanceTokenWithGridID:siteID:completionHandler:
++ _objc_msgSend$getKVSDictionaryWithKey:completionHandler:
++ _objc_msgSend$getMockOptionsWithCompletionHandler:
++ _objc_msgSend$gridIDLookupWithCoordinate:completionHandler:
++ _objc_msgSend$historicalGridQualityFor:from:withCaching:completionHandler:
++ _objc_msgSend$init
++ _objc_msgSend$initWithMachServiceName:options:
++ _objc_msgSend$initWithServiceName:
++ _objc_msgSend$interfaceWithProtocol:
++ _objc_msgSend$intervalReadingWithSubscriptionID:utilityID:interval:start:end:timeZone:flowDirection:completionHandler:
++ _objc_msgSend$invalidate
++ _objc_msgSend$isDataAvailableWithSiteID:completionHandler:
++ _objc_msgSend$isNextCleanEnergyWindowNotificationEnabledForGridID:homeID:completionHandler:
++ _objc_msgSend$isTAFEnabledWithUtilityID:completionHandler:
++ _objc_msgSend$leanHistoricalEnergyUsageWithInterval:start:end:subscriptionID:utilityID:timeZone:flowDirection:siteID:completionHandler:
++ _objc_msgSend$postNotification:
++ _objc_msgSend$processAllEventDataWithCompletionHandler:
++ _objc_msgSend$processDailyDigestsWithSiteID:sourceID:deviceID:between:completionHandler:
++ _objc_msgSend$processSiteRawLoadEventsWithSiteID:after:completionHandler:
++ _objc_msgSend$refreshCurrentUtilityPeakPeriodsWithSiteID:start:completionHandler:
++ _objc_msgSend$registerEnergySiteWithSite:completionHandler:
++ _objc_msgSend$remoteObjectInterface
++ _objc_msgSend$remoteObjectProxyWithErrorHandler:
++ _objc_msgSend$removeObserver:name:object:
++ _objc_msgSend$renewUtilityAccessTokenWithSiteID:completionHandler:
++ _objc_msgSend$requestAddToShareForHomeUUID:siteID:completionHandler:
++ _objc_msgSend$resetUtilityDataWithCompletionHandler:
++ _objc_msgSend$resume
++ _objc_msgSend$revokeUtilitySubscriptionWithSiteID:completionHandler:
++ _objc_msgSend$saveAllHistoricalWithGridID:untilDate:mockCompleteSession:deterministicMock:completionHandler:
++ _objc_msgSend$setClasses:forSelector:argumentIndex:ofReply:
++ _objc_msgSend$setEnergyKitConfigurationWithHomeID:appID:isHomeOwner:config:completionHandler:
++ _objc_msgSend$setInterruptionHandler:
++ _objc_msgSend$setInvalidationHandler:
++ _objc_msgSend$setKVSDictionaryWithKey:dict:completionHandler:
++ _objc_msgSend$setMaxConcurrentOperationCount:
++ _objc_msgSend$setMockOptionsWithOptions:completionHandler:
++ _objc_msgSend$setRemoteObjectInterface:
++ _objc_msgSend$siteWithSiteID:completionHandler:
++ _objc_msgSend$submitTestTaskWithTaskID:delay:withRetry:taskDuration:cancelOnly:completionHandler:
++ _objc_msgSend$suspend
++ _objc_msgSend$testDelegateForGridIds:completionHandler:
++ _objc_msgSend$testNotificationsForGridID:notificationContext:completionHandler:
++ _objc_msgSend$testSetMockURLSessionWithCompletionHandler:
++ _objc_msgSend$triggerAMIFetchFromDropboxWithCompletionHandler:
++ _objc_msgSend$updateCompletedOnboardingWithId:value:completionHandler:
++ _objc_msgSend$updateFieldsWithSiteID:from:completionHandler:
++ _objc_msgSend$updateLocationWithSiteID:location:completionHandler:
++ _objc_msgSend$updateRatePlanInclusionInGuidanceWithSiteID:toggle:completionHandler:
++ _objc_msgSend$updateStateWithSiteID:state:completionHandler:
++ _objc_msgSend$updateSubscriptionWithSiteID:utilityID:subscriptionID:accessToken:refreshToken:ckFunctionToken:accountName:accountNumber:address:serviceLocationID:alternateSupplier:accessTokenExpirationDate:completionHandler:
++ _objc_msgSend$updateTimezoneWithSiteID:timezone:completionHandler:
++ _objc_msgSend$useMockDataWithFilePath:disableMock:validityDate:completionHandler:
++ _objc_msgSend$utilitiesNearLocationWithLocation:completionHandler:
++ _objc_msgSend$utilityInformationWithUtilityID:completionHandler:
++ _objectdestroy.10Tm
++ _objectdestroy.131Tm
++ _objectdestroy.265Tm
++ _swift_bridgeObjectRelease_n
+- _$s10Foundation4DateV3key_09EnergyKitA011RankingDataV5valuetSgMR
+- _$s10Foundation4DateV3key_09EnergyKitA011RankingDataV5valuetSgMd
+- _$s10Foundation4DateV3key_09EnergyKitA011RankingDataV5valuetSgWObTm
+- _$s10Foundation4DateV3key_AA4DataV5valuetWOcTm
+- _$s17EnergyKitInternal04HomeA7ManagerC03getaB13Configuration6homeID03appI002isD5Owner0aB10Foundation0A13TogglePayloadVSg0M04UUIDV_SSSbtYaKFTY2_
+- _$s17EnergyKitInternal04HomeA7ManagerC21historicalGridQuality3for4from11withCaching0D8Services0A7WindowsVSgSS_10Foundation12DateIntervalVSbtYaKFTY2_
+- _$s17EnergyKitInternal0A4SiteC16currentRatePlans0aB10Foundation0aD7PayloadV07CurrentF4PlanVSgyYaKFTY3_
+- _$s17EnergyKitInternal0A4SiteC25currentUtilityPeakPeriodsSay04HomeF8Services0fG6PeriodVGSgyYaKFTY3_
+- _$s17EnergyKitInternal0A4SiteC33currentUtilityPeakPeriodsWithInfoSay04HomeF8Services0fG6PeriodVG5peaks_SS10descriptorSS10identifiertSgyYaKFTY5_
+- _$s19EnergyKitFoundation17MockDaemonOptionsV0aB8InternalE03setdF07options10connectionyAC_AD04HomeA13XPCConnectionCtYaKFZyScCyyts5Error_pGXEfU_TA.4
+- _$sSD8IteratorV8_VariantOy10Foundation4DateV09EnergyKitC011RankingDataV__GWOe
+- _$sSh8IteratorV8_VariantOy10Foundation4DateV__GWOe
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSnySiG_Tg5
+- _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF17EnergyKitInternal0D4SiteC0D17UsageTimeIntervalO_TB5
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.124
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.124TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.124Tu
+- __swift_FORCE_LOAD_$_swiftAccelerate
+- __swift_FORCE_LOAD_$_swiftAccelerate_$_EnergyKitInternal
+- _block_copy_helper.137
+- _block_copy_helper.147
+- _block_copy_helper.157
+- _block_copy_helper.167
+- _block_copy_helper.178
+- _block_copy_helper.188
+- _block_copy_helper.198
+- _block_copy_helper.20
+- _block_copy_helper.208
+- _block_copy_helper.218
+- _block_copy_helper.228
+- _block_copy_helper.238
+- _block_copy_helper.248
+- _block_copy_helper.258
+- _block_copy_helper.268
+- _block_copy_helper.279
+- _block_copy_helper.291
+- _block_copy_helper.294
+- _block_descriptor.139
+- _block_descriptor.149
+- _block_descriptor.159
+- _block_descriptor.169
+- _block_descriptor.180
+- _block_descriptor.190
+- _block_descriptor.200
+- _block_descriptor.210
+- _block_descriptor.22
+- _block_descriptor.220
+- _block_descriptor.230
+- _block_descriptor.240
+- _block_descriptor.250
+- _block_descriptor.260
+- _block_descriptor.270
+- _block_descriptor.281
+- _block_descriptor.293
+- _block_descriptor.296
+- _block_destroy_helper.138
+- _block_destroy_helper.148
+- _block_destroy_helper.158
+- _block_destroy_helper.168
+- _block_destroy_helper.179
+- _block_destroy_helper.189
+- _block_destroy_helper.199
+- _block_destroy_helper.209
+- _block_destroy_helper.21
+- _block_destroy_helper.219
+- _block_destroy_helper.229
+- _block_destroy_helper.239
+- _block_destroy_helper.249
+- _block_destroy_helper.259
+- _block_destroy_helper.269
+- _block_destroy_helper.280
+- _block_destroy_helper.292
+- _block_destroy_helper.295
+- _malloc
+- _objectdestroy.11Tm
+- _objectdestroy.128Tm
+- _objectdestroy.252Tm
+- _symbolic _____3key______5valuetSg 10Foundation4DateV 09EnergyKitA011RankingDataV
+CStrings:
++ "Missing public key ID"
++ "createUtilitySubscription(utilityID:serviceLocationID:accessToken:accessTokenExpirationDate:refreshToken:address:supportEncryption:contextID:keyID:utilityCustomerName:)"
++ "createUtilitySubscriptionWithSiteID:utilityID:serviceLocationID:accessToken:accessTokenExpirationDate:refreshToken:address:supportEncryption:contextID:keyID:utilityCustomerName:completionHandler:"
++ "v108@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32@\"NSString\"40@\"NSDate\"48@\"NSString\"56@\"NSString\"64B72@\"NSString\"76@\"NSString\"84@\"NSString\"92@?<v@?@\"_TtC19EnergyKitFoundation12EKEnergySite\"@\"NSError\">100"
++ "v108@0:8@16@24@32@40@48@56@64B72@76@84@92@?100"
+
+```

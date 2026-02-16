@@ -1,0 +1,1274 @@
+## WorkflowUIServices
+
+> `/System/Library/PrivateFrameworks/WorkflowUIServices.framework/WorkflowUIServices`
+
+```diff
+
+-4407.0.0.0.0
+-  __TEXT.__text: 0x10fd24
+-  __TEXT.__auth_stubs: 0x3f60
+-  __TEXT.__objc_methlist: 0x5cbc
+-  __TEXT.__const: 0xa424
++4524.1.0.0.0
++  __TEXT.__text: 0x10e2e0
++  __TEXT.__auth_stubs: 0x3f50
++  __TEXT.__objc_methlist: 0x5d44
++  __TEXT.__const: 0xa594
+   __TEXT.__dlopen_cstrs: 0x23d
+-  __TEXT.__cstring: 0x5714
+-  __TEXT.__swift5_typeref: 0x742a
+-  __TEXT.__swift5_reflstr: 0x1bb1
++  __TEXT.__swift5_typeref: 0x740a
++  __TEXT.__swift5_reflstr: 0x1bc1
+   __TEXT.__swift5_assocty: 0x788
+-  __TEXT.__constg_swiftt: 0x3960
+-  __TEXT.__swift5_fieldmd: 0x2614
++  __TEXT.__constg_swiftt: 0x39c0
++  __TEXT.__swift5_fieldmd: 0x2624
+   __TEXT.__swift5_builtin: 0x258
++  __TEXT.__cstring: 0x3b06
+   __TEXT.__swift5_capture: 0x1170
+-  __TEXT.__swift5_proto: 0x554
+-  __TEXT.__swift5_types: 0x310
++  __TEXT.__swift5_proto: 0x56c
++  __TEXT.__swift5_types: 0x314
+   __TEXT.__swift5_mpenum: 0x84
+-  __TEXT.__swift_as_entry: 0x15c
+-  __TEXT.__swift_as_ret: 0x10c
++  __TEXT.__swift_as_entry: 0x164
++  __TEXT.__swift_as_ret: 0x110
+   __TEXT.__swift5_protos: 0x44
+   __TEXT.__oslogstring: 0x19a2
+-  __TEXT.__gcc_except_tab: 0x564
++  __TEXT.__gcc_except_tab: 0x540
+   __TEXT.__ustring: 0x4
+-  __TEXT.__unwind_info: 0x4438
+-  __TEXT.__eh_frame: 0x3ed0
+-  __TEXT.__objc_classname: 0x1087
+-  __TEXT.__objc_methname: 0x11f82
+-  __TEXT.__objc_methtype: 0x3c9a
+-  __TEXT.__objc_stubs: 0xb8a0
+-  __DATA_CONST.__got: 0x1568
+-  __DATA_CONST.__const: 0x1418
++  __TEXT.__unwind_info: 0x4598
++  __TEXT.__eh_frame: 0x3db0
++  __TEXT.__objc_classname: 0x1b48
++  __TEXT.__objc_methname: 0x131a1
++  __TEXT.__objc_methtype: 0x403d
++  __TEXT.__objc_stubs: 0xce60
++  __DATA_CONST.__got: 0x1578
++  __DATA_CONST.__const: 0x1458
+   __DATA_CONST.__objc_classlist: 0x388
+   __DATA_CONST.__objc_catlist: 0x60
+-  __DATA_CONST.__objc_protolist: 0x1f0
++  __DATA_CONST.__objc_protolist: 0x1f8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x41d8
++  __DATA_CONST.__objc_selrefs: 0x4220
+   __DATA_CONST.__objc_protorefs: 0xa0
+   __DATA_CONST.__objc_superrefs: 0x220
+   __DATA_CONST.__objc_arraydata: 0x18
+-  __AUTH_CONST.__auth_got: 0x1fc0
+-  __AUTH_CONST.__const: 0x9190
++  __AUTH_CONST.__auth_got: 0x1fb8
++  __AUTH_CONST.__const: 0x91c8
+   __AUTH_CONST.__cfstring: 0x18c0
+-  __AUTH_CONST.__objc_const: 0xc3d0
++  __AUTH_CONST.__objc_const: 0xc4d8
+   __AUTH_CONST.__objc_doubleobj: 0xb0
+   __AUTH_CONST.__objc_arrayobj: 0x18
+-  __AUTH.__objc_data: 0x31a8
+-  __AUTH.__data: 0x2368
+-  __DATA.__objc_ivar: 0x60c
+-  __DATA.__data: 0x4908
+-  __DATA.__bss: 0x9588
++  __AUTH.__objc_data: 0x31f0
++  __AUTH.__data: 0x24e8
++  __DATA.__objc_ivar: 0x614
++  __DATA.__data: 0x4970
++  __DATA.__bss: 0x9808
+   __DATA.__common: 0xc8
+   __DATA_DIRTY.__objc_data: 0x230
+-  __DATA_DIRTY.__data: 0x3a0
++  __DATA_DIRTY.__data: 0x378
+   __DATA_DIRTY.__bss: 0x700
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4C0773C8-6877-3795-A0C7-9A15A9666948
+-  Functions: 7710
+-  Symbols:   11518
+-  CStrings:  4414
++  UUID: EBAAE05C-62F8-3BA7-BE6F-140C64B8EA79
++  Functions: 7894
++  Symbols:   12230
++  CStrings:  4378
+ 
+Symbols:
++ -[WFSlotTemplateLayoutManager .cxx_destruct]
++ -[WFSlotTemplateLayoutManager layoutManagerDidInvalidateLayout:]
++ -[WFSlotTemplateLayoutManager setSlotTemplateDelegate:]
++ -[WFSlotTemplateLayoutManager slotTemplateDelegate]
++ -[WFSlotTemplateSlot prefersHighlightedColorsWhenTyping]
++ -[WFSlotTemplateSlot setPrefersHighlightedColorsWhenTyping:]
++ -[WFSlotTemplateView slotTemplateLayoutManagerDidInvalidateLayout:]
++ -[WFSlotTemplateView widthForSingleLineHeight]
++ GCC_except_table104
++ GCC_except_table1079
++ GCC_except_table120
++ GCC_except_table1274
++ GCC_except_table1328
++ GCC_except_table149
++ GCC_except_table1513
++ GCC_except_table1517
++ GCC_except_table152
++ GCC_except_table160
++ GCC_except_table296
++ GCC_except_table395
++ GCC_except_table403
++ GCC_except_table406
++ GCC_except_table410
++ GCC_except_table417
++ GCC_except_table466
++ GCC_except_table470
++ GCC_except_table501
++ GCC_except_table537
++ GCC_except_table620
++ GCC_except_table626
++ GCC_except_table896
++ GCC_except_table906
++ _LinkServicesLibrary.1411
++ _LinkServicesLibraryCore.frameworkLibrary.1418
++ _OBJC_IVAR_$_WFSlotTemplateLayoutManager._slotTemplateDelegate
++ _OBJC_IVAR_$_WFSlotTemplateSlot._prefersHighlightedColorsWhenTyping
++ _OUTLINED_FUNCTION_147
++ _OUTLINED_FUNCTION_148
++ _OUTLINED_FUNCTION_149
++ _OUTLINED_FUNCTION_150
++ _OUTLINED_FUNCTION_151
++ _OUTLINED_FUNCTION_152
++ _OUTLINED_FUNCTION_153
++ _OUTLINED_FUNCTION_154
++ _OUTLINED_FUNCTION_155
++ _OUTLINED_FUNCTION_156
++ _OUTLINED_FUNCTION_157
++ _OUTLINED_FUNCTION_158
++ _OUTLINED_FUNCTION_159
++ _OUTLINED_FUNCTION_160
++ _OUTLINED_FUNCTION_161
++ _OUTLINED_FUNCTION_162
++ _OUTLINED_FUNCTION_163
++ _OUTLINED_FUNCTION_164
++ _OUTLINED_FUNCTION_165
++ _OUTLINED_FUNCTION_166
++ _OUTLINED_FUNCTION_167
++ _OUTLINED_FUNCTION_168
++ _OUTLINED_FUNCTION_169
++ _OUTLINED_FUNCTION_170
++ _OUTLINED_FUNCTION_171
++ _OUTLINED_FUNCTION_172
++ _OUTLINED_FUNCTION_173
++ _OUTLINED_FUNCTION_174
++ _OUTLINED_FUNCTION_175
++ _OUTLINED_FUNCTION_176
++ _OUTLINED_FUNCTION_177
++ _OUTLINED_FUNCTION_178
++ _OUTLINED_FUNCTION_179
++ _OUTLINED_FUNCTION_180
++ _OUTLINED_FUNCTION_181
++ _OUTLINED_FUNCTION_182
++ _OUTLINED_FUNCTION_183
++ _OUTLINED_FUNCTION_184
++ _OUTLINED_FUNCTION_185
++ _OUTLINED_FUNCTION_186
++ _OUTLINED_FUNCTION_187
++ _OUTLINED_FUNCTION_188
++ _OUTLINED_FUNCTION_189
++ __DATA__TtC18WorkflowUIServices45ParameterSummaryPersonNameComponentsParameter
++ __METACLASS_DATA__TtC18WorkflowUIServices45ParameterSummaryPersonNameComponentsParameter
++ __MergedGlobals
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_WFSlotTemplateLayoutManagerDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_WFSlotTemplateLayoutManagerDelegate
++ __OBJC_$_PROTOCOL_REFS_WFSlotTemplateLayoutManagerDelegate
++ __OBJC_LABEL_PROTOCOL_$_WFSlotTemplateLayoutManagerDelegate
++ __OBJC_PROTOCOL_$_WFSlotTemplateLayoutManagerDelegate
++ ___LinkServicesLibraryCore_block_invoke.1419
++ ___block_descriptor_41_e8_32s_e43_v48?0{CGRect={CGPoint=dd}{CGSize=dd}}8^B40ls32l8
++ ___block_literal_global.1208
++ ___block_literal_global.1316
++ ___block_literal_global.1527
++ ___block_literal_global.173.2313
++ ___block_literal_global.2333
++ ___block_literal_global.333
++ ___block_literal_global.3662
++ ___block_literal_global.3681
++ ___block_literal_global.4990
++ ___block_literal_global.5224
++ ___block_literal_global.5236
++ ___block_literal_global.5312
++ ___getLNFocusConfigurationSuggestionContextClass_block_invoke.1409
++ ___getLNFullyQualifiedActionIdentifierClass_block_invoke.1407
++ ___unnamed_52
++ _associated conformance So10CGImageRefa14CoreFoundation9_CFObjectSCSH
++ _associated conformance So10CGImageRefaSHSCSQ
++ _audit_stringLinkServices.1422
++ _block_copy_helper.1002
++ _block_copy_helper.1008
++ _block_copy_helper.1014
++ _block_copy_helper.1024
++ _block_copy_helper.1030
++ _block_copy_helper.1033
++ _block_copy_helper.1043
++ _block_copy_helper.1049
++ _block_copy_helper.1052
++ _block_copy_helper.1058
++ _block_copy_helper.1064
++ _block_copy_helper.1067
++ _block_copy_helper.1077
++ _block_copy_helper.1087
++ _block_copy_helper.1093
++ _block_copy_helper.1096
++ _block_copy_helper.1103
++ _block_copy_helper.1106
++ _block_copy_helper.1109
++ _block_copy_helper.1116
++ _block_copy_helper.1119
++ _block_copy_helper.1122
++ _block_copy_helper.1129
++ _block_copy_helper.211
++ _block_copy_helper.217
++ _block_copy_helper.220
++ _block_copy_helper.229
++ _block_copy_helper.236
++ _block_copy_helper.246
++ _block_copy_helper.249
++ _block_copy_helper.261
++ _block_copy_helper.264
++ _block_copy_helper.270
++ _block_copy_helper.273
++ _block_copy_helper.280
++ _block_copy_helper.283
++ _block_copy_helper.289
++ _block_copy_helper.295
++ _block_copy_helper.301
++ _block_copy_helper.308
++ _block_copy_helper.314
++ _block_copy_helper.320
++ _block_copy_helper.323
++ _block_copy_helper.329
++ _block_copy_helper.339
++ _block_copy_helper.348
++ _block_copy_helper.364
++ _block_copy_helper.371
++ _block_copy_helper.374
++ _block_copy_helper.404
++ _block_copy_helper.411
++ _block_copy_helper.414
++ _block_copy_helper.420
++ _block_copy_helper.423
++ _block_copy_helper.429
++ _block_copy_helper.432
++ _block_copy_helper.439
++ _block_copy_helper.442
++ _block_copy_helper.451
++ _block_copy_helper.461
++ _block_copy_helper.471
++ _block_copy_helper.481
++ _block_copy_helper.487
++ _block_copy_helper.490
++ _block_copy_helper.496
++ _block_copy_helper.499
++ _block_copy_helper.505
++ _block_copy_helper.508
++ _block_copy_helper.518
++ _block_copy_helper.528
++ _block_copy_helper.538
++ _block_copy_helper.548
++ _block_copy_helper.558
++ _block_copy_helper.568
++ _block_copy_helper.578
++ _block_copy_helper.584
++ _block_copy_helper.587
++ _block_copy_helper.597
++ _block_copy_helper.607
++ _block_copy_helper.613
++ _block_copy_helper.616
++ _block_copy_helper.626
++ _block_copy_helper.632
++ _block_copy_helper.654
++ _block_copy_helper.664
++ _block_copy_helper.674
++ _block_copy_helper.684
++ _block_copy_helper.690
++ _block_copy_helper.693
++ _block_copy_helper.699
++ _block_copy_helper.702
++ _block_copy_helper.728
++ _block_copy_helper.738
++ _block_copy_helper.748
++ _block_copy_helper.754
++ _block_copy_helper.757
++ _block_copy_helper.763
++ _block_copy_helper.773
++ _block_copy_helper.783
++ _block_copy_helper.793
++ _block_copy_helper.799
++ _block_copy_helper.802
++ _block_copy_helper.805
++ _block_copy_helper.812
++ _block_copy_helper.822
++ _block_copy_helper.832
++ _block_copy_helper.842
++ _block_copy_helper.852
++ _block_copy_helper.862
++ _block_copy_helper.872
++ _block_copy_helper.878
++ _block_copy_helper.884
++ _block_copy_helper.887
++ _block_copy_helper.89
++ _block_copy_helper.893
++ _block_copy_helper.896
++ _block_copy_helper.902
++ _block_copy_helper.905
++ _block_copy_helper.915
++ _block_copy_helper.925
++ _block_copy_helper.935
++ _block_copy_helper.941
++ _block_copy_helper.947
++ _block_copy_helper.95
++ _block_copy_helper.953
++ _block_copy_helper.959
++ _block_copy_helper.965
++ _block_copy_helper.990
++ _block_copy_helper.996
++ _block_descriptor.1004
++ _block_descriptor.1010
++ _block_descriptor.1016
++ _block_descriptor.1026
++ _block_descriptor.1032
++ _block_descriptor.1035
++ _block_descriptor.1045
++ _block_descriptor.1051
++ _block_descriptor.1054
++ _block_descriptor.1060
++ _block_descriptor.1066
++ _block_descriptor.1069
++ _block_descriptor.1079
++ _block_descriptor.1089
++ _block_descriptor.1095
++ _block_descriptor.1098
++ _block_descriptor.1105
++ _block_descriptor.1108
++ _block_descriptor.1111
++ _block_descriptor.1118
++ _block_descriptor.1121
++ _block_descriptor.1124
++ _block_descriptor.1131
++ _block_descriptor.213
++ _block_descriptor.219
++ _block_descriptor.222
++ _block_descriptor.231
++ _block_descriptor.238
++ _block_descriptor.248
++ _block_descriptor.251
++ _block_descriptor.263
++ _block_descriptor.266
++ _block_descriptor.272
++ _block_descriptor.275
++ _block_descriptor.282
++ _block_descriptor.285
++ _block_descriptor.291
++ _block_descriptor.297
++ _block_descriptor.303
++ _block_descriptor.310
++ _block_descriptor.316
++ _block_descriptor.322
++ _block_descriptor.325
++ _block_descriptor.331
++ _block_descriptor.341
++ _block_descriptor.350
++ _block_descriptor.366
++ _block_descriptor.373
++ _block_descriptor.376
++ _block_descriptor.406
++ _block_descriptor.413
++ _block_descriptor.416
++ _block_descriptor.422
++ _block_descriptor.425
++ _block_descriptor.431
++ _block_descriptor.434
++ _block_descriptor.441
++ _block_descriptor.444
++ _block_descriptor.453
++ _block_descriptor.463
++ _block_descriptor.473
++ _block_descriptor.483
++ _block_descriptor.489
++ _block_descriptor.492
++ _block_descriptor.498
++ _block_descriptor.501
++ _block_descriptor.507
++ _block_descriptor.510
++ _block_descriptor.520
++ _block_descriptor.530
++ _block_descriptor.540
++ _block_descriptor.550
++ _block_descriptor.560
++ _block_descriptor.570
++ _block_descriptor.580
++ _block_descriptor.586
++ _block_descriptor.589
++ _block_descriptor.599
++ _block_descriptor.609
++ _block_descriptor.615
++ _block_descriptor.618
++ _block_descriptor.628
++ _block_descriptor.634
++ _block_descriptor.656
++ _block_descriptor.666
++ _block_descriptor.676
++ _block_descriptor.686
++ _block_descriptor.692
++ _block_descriptor.695
++ _block_descriptor.701
++ _block_descriptor.704
++ _block_descriptor.730
++ _block_descriptor.740
++ _block_descriptor.750
++ _block_descriptor.756
++ _block_descriptor.759
++ _block_descriptor.765
++ _block_descriptor.775
++ _block_descriptor.785
++ _block_descriptor.795
++ _block_descriptor.801
++ _block_descriptor.804
++ _block_descriptor.807
++ _block_descriptor.814
++ _block_descriptor.824
++ _block_descriptor.834
++ _block_descriptor.844
++ _block_descriptor.854
++ _block_descriptor.864
++ _block_descriptor.874
++ _block_descriptor.880
++ _block_descriptor.886
++ _block_descriptor.889
++ _block_descriptor.895
++ _block_descriptor.898
++ _block_descriptor.904
++ _block_descriptor.907
++ _block_descriptor.91
++ _block_descriptor.917
++ _block_descriptor.927
++ _block_descriptor.937
++ _block_descriptor.943
++ _block_descriptor.949
++ _block_descriptor.955
++ _block_descriptor.961
++ _block_descriptor.967
++ _block_descriptor.97
++ _block_descriptor.992
++ _block_descriptor.998
++ _block_destroy_helper.1003
++ _block_destroy_helper.1009
++ _block_destroy_helper.1015
++ _block_destroy_helper.1025
++ _block_destroy_helper.1031
++ _block_destroy_helper.1034
++ _block_destroy_helper.1044
++ _block_destroy_helper.1050
++ _block_destroy_helper.1053
++ _block_destroy_helper.1059
++ _block_destroy_helper.1065
++ _block_destroy_helper.1068
++ _block_destroy_helper.1078
++ _block_destroy_helper.1088
++ _block_destroy_helper.1094
++ _block_destroy_helper.1097
++ _block_destroy_helper.1104
++ _block_destroy_helper.1107
++ _block_destroy_helper.1110
++ _block_destroy_helper.1117
++ _block_destroy_helper.1120
++ _block_destroy_helper.1123
++ _block_destroy_helper.1130
++ _block_destroy_helper.212
++ _block_destroy_helper.218
++ _block_destroy_helper.221
++ _block_destroy_helper.230
++ _block_destroy_helper.237
++ _block_destroy_helper.247
++ _block_destroy_helper.250
++ _block_destroy_helper.262
++ _block_destroy_helper.265
++ _block_destroy_helper.271
++ _block_destroy_helper.274
++ _block_destroy_helper.281
++ _block_destroy_helper.284
++ _block_destroy_helper.290
++ _block_destroy_helper.296
++ _block_destroy_helper.302
++ _block_destroy_helper.309
++ _block_destroy_helper.315
++ _block_destroy_helper.321
++ _block_destroy_helper.324
++ _block_destroy_helper.330
++ _block_destroy_helper.340
++ _block_destroy_helper.349
++ _block_destroy_helper.365
++ _block_destroy_helper.372
++ _block_destroy_helper.375
++ _block_destroy_helper.405
++ _block_destroy_helper.412
++ _block_destroy_helper.415
++ _block_destroy_helper.421
++ _block_destroy_helper.424
++ _block_destroy_helper.430
++ _block_destroy_helper.433
++ _block_destroy_helper.440
++ _block_destroy_helper.443
++ _block_destroy_helper.452
++ _block_destroy_helper.462
++ _block_destroy_helper.472
++ _block_destroy_helper.482
++ _block_destroy_helper.488
++ _block_destroy_helper.491
++ _block_destroy_helper.497
++ _block_destroy_helper.500
++ _block_destroy_helper.506
++ _block_destroy_helper.509
++ _block_destroy_helper.519
++ _block_destroy_helper.529
++ _block_destroy_helper.539
++ _block_destroy_helper.549
++ _block_destroy_helper.559
++ _block_destroy_helper.569
++ _block_destroy_helper.579
++ _block_destroy_helper.585
++ _block_destroy_helper.588
++ _block_destroy_helper.598
++ _block_destroy_helper.608
++ _block_destroy_helper.614
++ _block_destroy_helper.617
++ _block_destroy_helper.627
++ _block_destroy_helper.633
++ _block_destroy_helper.655
++ _block_destroy_helper.665
++ _block_destroy_helper.675
++ _block_destroy_helper.685
++ _block_destroy_helper.691
++ _block_destroy_helper.694
++ _block_destroy_helper.700
++ _block_destroy_helper.703
++ _block_destroy_helper.729
++ _block_destroy_helper.739
++ _block_destroy_helper.749
++ _block_destroy_helper.755
++ _block_destroy_helper.758
++ _block_destroy_helper.764
++ _block_destroy_helper.774
++ _block_destroy_helper.784
++ _block_destroy_helper.794
++ _block_destroy_helper.800
++ _block_destroy_helper.803
++ _block_destroy_helper.806
++ _block_destroy_helper.813
++ _block_destroy_helper.823
++ _block_destroy_helper.833
++ _block_destroy_helper.843
++ _block_destroy_helper.853
++ _block_destroy_helper.863
++ _block_destroy_helper.873
++ _block_destroy_helper.879
++ _block_destroy_helper.885
++ _block_destroy_helper.888
++ _block_destroy_helper.894
++ _block_destroy_helper.897
++ _block_destroy_helper.90
++ _block_destroy_helper.903
++ _block_destroy_helper.906
++ _block_destroy_helper.916
++ _block_destroy_helper.926
++ _block_destroy_helper.936
++ _block_destroy_helper.942
++ _block_destroy_helper.948
++ _block_destroy_helper.954
++ _block_destroy_helper.96
++ _block_destroy_helper.960
++ _block_destroy_helper.966
++ _block_destroy_helper.991
++ _block_destroy_helper.997
++ _getLNFocusConfigurationSuggestionContextClass.softClass.1408
++ _getLNFullyQualifiedActionIdentifierClass.softClass.1406
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAA5GroupVyACyAA017StrokeBorderShapeE0VyAA16RoundedRectangleVAA5ColorVAA05EmptyE0VGAA16_BlendModeEffectVGSgG_AA0P6SchemeOQo_AA25_AppearanceActionModifierVGAaDHPqd0__AaDHD3_A_HO_A1_AA0eX0HPyHCHC.183
++ _get_witness_table 7SwiftUI19_ConditionalContentVyACy18WorkflowUIServices11AppIconViewVAA08ModifiedD0VyAA5ImageVAA12_FrameLayoutVGGSgACyAHyAHyAHyAHyAjA08_PaddingM0VGALGAA19_BackgroundModifierVyAHyAHyAHyAD021GradientColorResolverI0VyAA06_ShapeI0VyAA6CircleVAA0R0VGGAA08_OverlayP0VyAHyAA06LinearQ0VAA11_ClipEffectVyA_GGGGAA017_CompositingGroupY0VGAD17SpotlightUiShadowVGGGA5_yAHyAHyAFA18_GAA09_PositionM0VGSgGGA22_GSgGSgAA0I0HpA31_AAA33_HPAoAA33_HpAnAA33_HPAfAA33_HPyHC_AmAA33_HPAjAA33_HPyHC_AlA0iP0HPyHCHCHC_HC_A30_AAA33_HpA29_AAA33_HPA28_AAA33_HPA21_AAA33_HPAsAA33_HPArAA33_HPAjAA33_HPyHC_AqAA34_HPyHCHC_AlAA34_HPyHCHC_A20_AAA34_HPyHCHC_A27_AAA34_HPyHCHC_A22_AAA33_HPAfAA33_HPyHC_A18_AAA34_HPyHCHCHC_HCHC_HC.79
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyAA6ZStackVyAA05TupleC0VyAA012_ConditionalE0VyAJyADyADyADyADyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameL0VGAA11_ClipEffectVyAA8AnyShapeVGG18WorkflowUIServices17SpotlightUiShadowVGADyADyADyAY21ProbablyAlignedSymbolVAQGAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGAA19_BackgroundModifierVyADyxA_GGGGADyA7_AQGG_ADyADyAY07AppIconC0VA_GAA09_PositionL0VGSgtGGAA010_FixedSizeL0VGAaBHPA27_AaBHPyHC_A29_AA0C8ModifierHPyHCHC.99
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyADyAA6HStackVyAA05TupleC0VyADyAA6ButtonVyAaBPAAE10fontWeightyQrAA4FontV0J0VSgFQOyAA5ImageV_Qo_GAA12_FrameLayoutVG_AA6SpacerVAA6VStackVyAHyADyADyADyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGA4_yAA0Q9AlignmentOGGAA016_ForegroundStyleU0Vy18WorkflowUIServices018SolidColorMaterialX0VGG_A2_SgtGGAzDyAA5GroupVyAA012_ConditionalE0VyxAA5ColorVGGAWGtGGAA08_PaddingN0VGAA024_SafeAreaRegionsIgnoringN0VGAaBHPA35_AaBHPA32_AaBHPyHC_A34_AA0cU0HPyHCHC_A37_AAA39_HPyHCHC.1
++ _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA15ModifiedContentVyAGyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGAA06_TraitkL0VyAA014LayoutPrioritymJ0VGGSg_AUtGGAA0E0HPyHC.98
++ _get_witness_table 7SwiftUI7AnyViewVAA0D0HPyHC.181
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE11hoverEffect_9isEnabledQrqd___SbtAA011CustomHoverE0Rd__lFQOyAA15ModifiedContentVyAcAE11buttonStyleyQrqd__AA015PrimitiveButtonM0Rd__lFQOyAA0O0VyAA012_ConditionalK0VyAHyAHyAA5ImageVAA011_ForegroundM9Modifier2VyAA5ColorVATGGAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAHyAHy18WorkflowUIServices13SizedEllipsisVAA12_FrameLayoutVGAA01_k9ShapeKindX0VyAA9RectangleVGGGSgG_AA05PlainoM0VQo_A9_yAA11ScaledShapeVyAA6CircleVGGG_AA09AutomaticiE0VQo_HO.78
++ _objc_msgSend$_isInRetargetableAnimationBlock
++ _objc_msgSend$_modifyAnimationsWithPreferredFrameRateRange:updateReason:animations:
++ _objc_msgSend$_visualStylingForStyle:
++ _objc_msgSend$accessibilityBaseColor
++ _objc_msgSend$actionWithTitle:style:handler:
++ _objc_msgSend$addAction:forControlEvents:
++ _objc_msgSend$alertControllerWithTitle:message:preferredStyle:
++ _objc_msgSend$applicationIconImageForBundleIdentifier:length:scale:
++ _objc_msgSend$archivedDataWithRootObject:requiringSecureCoding:error:
++ _objc_msgSend$arrayWithObject:
++ _objc_msgSend$availableUnitsForUnitType:
++ _objc_msgSend$blackColor
++ _objc_msgSend$blendMode
++ _objc_msgSend$boundingRectWithSize:options:attributes:context:
++ _objc_msgSend$bundle
++ _objc_msgSend$buttonWithType:
++ _objc_msgSend$clearBackground
++ _objc_msgSend$colorScheme
++ _objc_msgSend$colorWithPaletteColor:
++ _objc_msgSend$colorWithRGBAValue:
++ _objc_msgSend$compressedDataUsingAlgorithm:error:
++ _objc_msgSend$contentInset
++ _objc_msgSend$contentOffset
++ _objc_msgSend$contentSize
++ _objc_msgSend$darkAccessibilityBaseColor
++ _objc_msgSend$decompressedDataUsingAlgorithm:error:
++ _objc_msgSend$defaultUnitForUnitType:
++ _objc_msgSend$description
++ _objc_msgSend$displayStyle
++ _objc_msgSend$end
++ _objc_msgSend$endOfDocument
++ _objc_msgSend$filename
++ _objc_msgSend$glyph
++ _objc_msgSend$glyphNamed:pointSize:symbolSize:scaleFactor:
++ _objc_msgSend$hasDifferentColorAppearanceComparedToTraitCollection:
++ _objc_msgSend$hasItemConformingToTypeIdentifier:
++ _objc_msgSend$hasTransparentBackground
++ _objc_msgSend$imageData
++ _objc_msgSend$imageDescriptorNamed:
++ _objc_msgSend$imageWithActions:
++ _objc_msgSend$imageWithData:
++ _objc_msgSend$imageWithIcon:size:scale:padding:glyphColor:background:
++ _objc_msgSend$indexPath
++ _objc_msgSend$initForOpeningContentTypes:
++ _objc_msgSend$initWithCoder:
++ _objc_msgSend$initWithColor:blendMode:
++ _objc_msgSend$initWithContentsOfURL:
++ _objc_msgSend$initWithDuration:dampingRatio:animations:
++ _objc_msgSend$initWithDynamicProvider:
++ _objc_msgSend$initWithHue:saturation:brightness:alpha:
++ _objc_msgSend$initWithKeyName:
++ _objc_msgSend$initWithLNPropertyIdentifier:displayStyle:
++ _objc_msgSend$initWithPaletteColor:glyphCharacter:customImageData:
++ _objc_msgSend$initWithProvider:
++ _objc_msgSend$initWithRed:green:blue:alpha:
++ _objc_msgSend$initWithStartColor:endColor:
++ _objc_msgSend$initWithSymbolName:background:
++ _objc_msgSend$initWithSystemColor:
++ _objc_msgSend$initWithType:
++ _objc_msgSend$initWithTypes:error:
++ _objc_msgSend$initWithUnsignedShort:
++ _objc_msgSend$initWithWorkflow:shortcutsMetadata:colorScheme:
++ _objc_msgSend$isDark
++ _objc_msgSend$isDefaultTintColor
++ _objc_msgSend$isScrollEnabled
++ _objc_msgSend$isSourceTypeAvailable:
++ _objc_msgSend$layoutAttributesForItemAtIndexPath:
++ _objc_msgSend$layoutAttributesForSupplementaryViewOfKind:atIndexPath:
++ _objc_msgSend$layoutAttributesForSupplementaryViewOfKind:withIndexPath:
++ _objc_msgSend$loadDataRepresentationForTypeIdentifier:completionHandler:
++ _objc_msgSend$loadFileRepresentationForTypeIdentifier:completionHandler:
++ _objc_msgSend$loadLNPropertyImageWithCompletion:
++ _objc_msgSend$localizedDescriptiveText
++ _objc_msgSend$localizedPaletteName
++ _objc_msgSend$localizedStringForUnitType:
++ _objc_msgSend$matchesInString:options:range:
++ _objc_msgSend$nextResponder
++ _objc_msgSend$paletteGradient
++ _objc_msgSend$perceivedBrightness
++ _objc_msgSend$postalAddress
++ _objc_msgSend$preferContextMenu
++ _objc_msgSend$prefersHighlightedColorsWhenTyping
++ _objc_msgSend$presentViewController:animated:completion:
++ _objc_msgSend$removeObserver:
++ _objc_msgSend$removeTarget:action:forControlEvents:
++ _objc_msgSend$representationType
++ _objc_msgSend$representedElementCategory
++ _objc_msgSend$resolvedAppMatchingDescriptor:
++ _objc_msgSend$respondsToSelector:
++ _objc_msgSend$scaledValueForValue:
++ _objc_msgSend$selectedTextRange
++ _objc_msgSend$setAdjustsImageSizeForAccessibilityContentSizeCategory:
++ _objc_msgSend$setAllowsGroupOpacity:
++ _objc_msgSend$setAllowsMultipleSelection:
++ _objc_msgSend$setBirthRate:
++ _objc_msgSend$setBorderOffset:
++ _objc_msgSend$setColor:
++ _objc_msgSend$setContentInset:
++ _objc_msgSend$setContentOffset:
++ _objc_msgSend$setContentOffset:animated:
++ _objc_msgSend$setContentSize:
++ _objc_msgSend$setContentsFrameCount:
++ _objc_msgSend$setContentsFrameMode:
++ _objc_msgSend$setContentsFramesPerRow:
++ _objc_msgSend$setContentsRect:
++ _objc_msgSend$setContentsScale:
++ _objc_msgSend$setDateStyle:
++ _objc_msgSend$setDelaysContentTouches:
++ _objc_msgSend$setEffect:
++ _objc_msgSend$setEffectOffset:
++ _objc_msgSend$setEmitterBehaviors:
++ _objc_msgSend$setEmitterCells:
++ _objc_msgSend$setEmitterMode:
++ _objc_msgSend$setEmitterPosition:
++ _objc_msgSend$setEmitterShape:
++ _objc_msgSend$setEmitterSize:
++ _objc_msgSend$setGain:
++ _objc_msgSend$setGroupName:
++ _objc_msgSend$setInlinePredictionType:
++ _objc_msgSend$setInvert:
++ _objc_msgSend$setLifetime:
++ _objc_msgSend$setLifetimeRange:
++ _objc_msgSend$setMarginWidth:
++ _objc_msgSend$setMask:
++ _objc_msgSend$setMaskView:
++ _objc_msgSend$setMediaTypes:
++ _objc_msgSend$setMenu:
++ _objc_msgSend$setOffset:
++ _objc_msgSend$setPreferContextMenu:
++ _objc_msgSend$setPrefersHighlightedColorsWhenTyping:
++ _objc_msgSend$setPunchout:
++ _objc_msgSend$setRadius:
++ _objc_msgSend$setRenderMode:
++ _objc_msgSend$setScaleRange:
++ _objc_msgSend$setScaleSpeed:
++ _objc_msgSend$setShowsHorizontalScrollIndicator:
++ _objc_msgSend$setShowsVerticalScrollIndicator:
++ _objc_msgSend$setSlotTemplateDelegate:
++ _objc_msgSend$setSmoothness:
++ _objc_msgSend$setSourceType:
++ _objc_msgSend$setTimeStyle:
++ _objc_msgSend$setUnitStyle:
++ _objc_msgSend$setUpdateInterval:
++ _objc_msgSend$setValues:
++ _objc_msgSend$setWritingToolsBehavior:
++ _objc_msgSend$setZIndex:
++ _objc_msgSend$sharedResolver
++ _objc_msgSend$singleLineHeight
++ _objc_msgSend$slotTemplateDelegate
++ _objc_msgSend$slotTemplateLayoutManagerDidInvalidateLayout:
++ _objc_msgSend$slotTemplateView:shouldChangeTextTo:replacingRanges:withStrings:forSlotWithIdentifier:
++ _objc_msgSend$slotWithLocalizedName:localizedPlaceholder:localizedAttributedPlaceholder:key:
++ _objc_msgSend$standardUserDefaults
++ _objc_msgSend$startAnimation
++ _objc_msgSend$street
++ _objc_msgSend$stringFromDate:
++ _objc_msgSend$stringFromDateComponents:
++ _objc_msgSend$stringFromUnit:
++ _objc_msgSend$symbolColors
++ _objc_msgSend$symbolConfiguration
++ _objc_msgSend$thumbnailData
++ _objc_msgSend$thumbnailSymbolName
++ _objc_msgSend$thumbnailURL
++ _objc_msgSend$unitFromString:unitType:caseSensitive:
++ _objc_msgSend$unitTypeForUnitClass:
++ _objc_msgSend$untintedPlatformImage
++ _objc_msgSend$updateTraitsIfNeeded
++ _objc_msgSend$valueForCustomKey:
++ _objc_msgSend$valueWithCAColorMatrix:
++ _objc_msgSend$valueWithRange:
++ _objc_msgSend$wf_accentColor
++ _objc_msgSend$wf_tertiarySystemGroupedBackgroundColor
++ _objc_msgSend$widgetWorkflowsInCollectionWithIdentifier:limit:
++ _objc_msgSend$workflowPalette
++ _objc_msgSend$writingToolsBehavior
++ _objc_release_x2
++ _objectdestroy.87Tm
++ _symbolic _____ 18WorkflowUIServices036ParameterSummaryPersonNameComponentsC0C
++ _symbolic _____Sg 10Foundation20PersonNameComponentsV
++ _symbolic _____yAAy__________ySiSgGGACy_____GG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO
++ _symbolic _____y_____G 18WorkflowUIServices020ParameterSummaryBaseC0C 10Foundation20PersonNameComponentsV
++ _symbolic _____y_____G 7SwiftUI11_ShadowViewV AA4PathV
+- GCC_except_table103
+- GCC_except_table1077
+- GCC_except_table119
+- GCC_except_table1266
+- GCC_except_table1320
+- GCC_except_table147
+- GCC_except_table150
+- GCC_except_table1505
+- GCC_except_table1509
+- GCC_except_table158
+- GCC_except_table294
+- GCC_except_table393
+- GCC_except_table401
+- GCC_except_table404
+- GCC_except_table408
+- GCC_except_table415
+- GCC_except_table464
+- GCC_except_table468
+- GCC_except_table499
+- GCC_except_table535
+- GCC_except_table618
+- GCC_except_table624
+- GCC_except_table894
+- GCC_except_table904
+- _LinkServicesLibrary.1410
+- _LinkServicesLibraryCore.frameworkLibrary.1417
+- ___LinkServicesLibraryCore_block_invoke.1418
+- ___block_literal_global.1207
+- ___block_literal_global.1315
+- ___block_literal_global.1525
+- ___block_literal_global.173.2316
+- ___block_literal_global.2336
+- ___block_literal_global.328
+- ___block_literal_global.3653
+- ___block_literal_global.3674
+- ___block_literal_global.4982
+- ___block_literal_global.5216
+- ___block_literal_global.5228
+- ___block_literal_global.5304
+- ___getLNFocusConfigurationSuggestionContextClass_block_invoke.1408
+- ___getLNFullyQualifiedActionIdentifierClass_block_invoke.1406
+- ___swift_coroFrameAllocStub
+- ___unnamed_61
+- _audit_stringLinkServices.1421
+- _block_copy_helper.1000
+- _block_copy_helper.1006
+- _block_copy_helper.1012
+- _block_copy_helper.1022
+- _block_copy_helper.1028
+- _block_copy_helper.1031
+- _block_copy_helper.1041
+- _block_copy_helper.1047
+- _block_copy_helper.1050
+- _block_copy_helper.1056
+- _block_copy_helper.1062
+- _block_copy_helper.1065
+- _block_copy_helper.1075
+- _block_copy_helper.1085
+- _block_copy_helper.1091
+- _block_copy_helper.1094
+- _block_copy_helper.1101
+- _block_copy_helper.1104
+- _block_copy_helper.1107
+- _block_copy_helper.1114
+- _block_copy_helper.1117
+- _block_copy_helper.1120
+- _block_copy_helper.1127
+- _block_copy_helper.210
+- _block_copy_helper.216
+- _block_copy_helper.219
+- _block_copy_helper.228
+- _block_copy_helper.234
+- _block_copy_helper.244
+- _block_copy_helper.247
+- _block_copy_helper.259
+- _block_copy_helper.262
+- _block_copy_helper.268
+- _block_copy_helper.271
+- _block_copy_helper.284
+- _block_copy_helper.287
+- _block_copy_helper.294
+- _block_copy_helper.297
+- _block_copy_helper.303
+- _block_copy_helper.309
+- _block_copy_helper.315
+- _block_copy_helper.318
+- _block_copy_helper.324
+- _block_copy_helper.327
+- _block_copy_helper.333
+- _block_copy_helper.342
+- _block_copy_helper.352
+- _block_copy_helper.355
+- _block_copy_helper.367
+- _block_copy_helper.373
+- _block_copy_helper.409
+- _block_copy_helper.412
+- _block_copy_helper.418
+- _block_copy_helper.421
+- _block_copy_helper.427
+- _block_copy_helper.430
+- _block_copy_helper.437
+- _block_copy_helper.440
+- _block_copy_helper.449
+- _block_copy_helper.459
+- _block_copy_helper.469
+- _block_copy_helper.479
+- _block_copy_helper.485
+- _block_copy_helper.488
+- _block_copy_helper.494
+- _block_copy_helper.497
+- _block_copy_helper.503
+- _block_copy_helper.506
+- _block_copy_helper.516
+- _block_copy_helper.526
+- _block_copy_helper.536
+- _block_copy_helper.542
+- _block_copy_helper.545
+- _block_copy_helper.551
+- _block_copy_helper.554
+- _block_copy_helper.560
+- _block_copy_helper.570
+- _block_copy_helper.580
+- _block_copy_helper.590
+- _block_copy_helper.600
+- _block_copy_helper.606
+- _block_copy_helper.609
+- _block_copy_helper.615
+- _block_copy_helper.625
+- _block_copy_helper.648
+- _block_copy_helper.658
+- _block_copy_helper.668
+- _block_copy_helper.678
+- _block_copy_helper.688
+- _block_copy_helper.698
+- _block_copy_helper.724
+- _block_copy_helper.727
+- _block_copy_helper.737
+- _block_copy_helper.747
+- _block_copy_helper.753
+- _block_copy_helper.756
+- _block_copy_helper.766
+- _block_copy_helper.772
+- _block_copy_helper.775
+- _block_copy_helper.785
+- _block_copy_helper.791
+- _block_copy_helper.797
+- _block_copy_helper.800
+- _block_copy_helper.810
+- _block_copy_helper.820
+- _block_copy_helper.830
+- _block_copy_helper.840
+- _block_copy_helper.850
+- _block_copy_helper.860
+- _block_copy_helper.870
+- _block_copy_helper.876
+- _block_copy_helper.879
+- _block_copy_helper.885
+- _block_copy_helper.888
+- _block_copy_helper.894
+- _block_copy_helper.897
+- _block_copy_helper.907
+- _block_copy_helper.917
+- _block_copy_helper.92
+- _block_copy_helper.927
+- _block_copy_helper.933
+- _block_copy_helper.939
+- _block_copy_helper.945
+- _block_copy_helper.951
+- _block_copy_helper.957
+- _block_copy_helper.963
+- _block_copy_helper.98
+- _block_copy_helper.988
+- _block_copy_helper.994
+- _block_descriptor.100
+- _block_descriptor.1002
+- _block_descriptor.1008
+- _block_descriptor.1014
+- _block_descriptor.1024
+- _block_descriptor.1030
+- _block_descriptor.1033
+- _block_descriptor.1043
+- _block_descriptor.1049
+- _block_descriptor.1052
+- _block_descriptor.1058
+- _block_descriptor.1064
+- _block_descriptor.1067
+- _block_descriptor.1077
+- _block_descriptor.1087
+- _block_descriptor.1093
+- _block_descriptor.1096
+- _block_descriptor.1103
+- _block_descriptor.1106
+- _block_descriptor.1109
+- _block_descriptor.1116
+- _block_descriptor.1119
+- _block_descriptor.1122
+- _block_descriptor.1129
+- _block_descriptor.212
+- _block_descriptor.218
+- _block_descriptor.221
+- _block_descriptor.230
+- _block_descriptor.236
+- _block_descriptor.246
+- _block_descriptor.249
+- _block_descriptor.261
+- _block_descriptor.264
+- _block_descriptor.270
+- _block_descriptor.273
+- _block_descriptor.286
+- _block_descriptor.289
+- _block_descriptor.296
+- _block_descriptor.299
+- _block_descriptor.305
+- _block_descriptor.311
+- _block_descriptor.317
+- _block_descriptor.320
+- _block_descriptor.326
+- _block_descriptor.329
+- _block_descriptor.335
+- _block_descriptor.344
+- _block_descriptor.354
+- _block_descriptor.357
+- _block_descriptor.369
+- _block_descriptor.375
+- _block_descriptor.411
+- _block_descriptor.414
+- _block_descriptor.420
+- _block_descriptor.423
+- _block_descriptor.429
+- _block_descriptor.432
+- _block_descriptor.439
+- _block_descriptor.442
+- _block_descriptor.451
+- _block_descriptor.461
+- _block_descriptor.471
+- _block_descriptor.481
+- _block_descriptor.487
+- _block_descriptor.490
+- _block_descriptor.496
+- _block_descriptor.499
+- _block_descriptor.505
+- _block_descriptor.508
+- _block_descriptor.518
+- _block_descriptor.528
+- _block_descriptor.538
+- _block_descriptor.544
+- _block_descriptor.547
+- _block_descriptor.553
+- _block_descriptor.556
+- _block_descriptor.562
+- _block_descriptor.572
+- _block_descriptor.582
+- _block_descriptor.592
+- _block_descriptor.602
+- _block_descriptor.608
+- _block_descriptor.611
+- _block_descriptor.617
+- _block_descriptor.627
+- _block_descriptor.650
+- _block_descriptor.660
+- _block_descriptor.670
+- _block_descriptor.680
+- _block_descriptor.690
+- _block_descriptor.700
+- _block_descriptor.726
+- _block_descriptor.729
+- _block_descriptor.739
+- _block_descriptor.749
+- _block_descriptor.755
+- _block_descriptor.758
+- _block_descriptor.768
+- _block_descriptor.774
+- _block_descriptor.777
+- _block_descriptor.787
+- _block_descriptor.793
+- _block_descriptor.799
+- _block_descriptor.802
+- _block_descriptor.812
+- _block_descriptor.822
+- _block_descriptor.832
+- _block_descriptor.842
+- _block_descriptor.852
+- _block_descriptor.862
+- _block_descriptor.872
+- _block_descriptor.878
+- _block_descriptor.881
+- _block_descriptor.887
+- _block_descriptor.890
+- _block_descriptor.896
+- _block_descriptor.899
+- _block_descriptor.909
+- _block_descriptor.919
+- _block_descriptor.929
+- _block_descriptor.935
+- _block_descriptor.94
+- _block_descriptor.941
+- _block_descriptor.947
+- _block_descriptor.953
+- _block_descriptor.959
+- _block_descriptor.965
+- _block_descriptor.990
+- _block_descriptor.996
+- _block_destroy_helper.1001
+- _block_destroy_helper.1007
+- _block_destroy_helper.1013
+- _block_destroy_helper.1023
+- _block_destroy_helper.1029
+- _block_destroy_helper.1032
+- _block_destroy_helper.1042
+- _block_destroy_helper.1048
+- _block_destroy_helper.1051
+- _block_destroy_helper.1057
+- _block_destroy_helper.1063
+- _block_destroy_helper.1066
+- _block_destroy_helper.1076
+- _block_destroy_helper.1086
+- _block_destroy_helper.1092
+- _block_destroy_helper.1095
+- _block_destroy_helper.1102
+- _block_destroy_helper.1105
+- _block_destroy_helper.1108
+- _block_destroy_helper.1115
+- _block_destroy_helper.1118
+- _block_destroy_helper.1121
+- _block_destroy_helper.1128
+- _block_destroy_helper.211
+- _block_destroy_helper.217
+- _block_destroy_helper.220
+- _block_destroy_helper.229
+- _block_destroy_helper.235
+- _block_destroy_helper.245
+- _block_destroy_helper.248
+- _block_destroy_helper.260
+- _block_destroy_helper.263
+- _block_destroy_helper.269
+- _block_destroy_helper.272
+- _block_destroy_helper.285
+- _block_destroy_helper.288
+- _block_destroy_helper.295
+- _block_destroy_helper.298
+- _block_destroy_helper.304
+- _block_destroy_helper.310
+- _block_destroy_helper.316
+- _block_destroy_helper.319
+- _block_destroy_helper.325
+- _block_destroy_helper.328
+- _block_destroy_helper.334
+- _block_destroy_helper.343
+- _block_destroy_helper.353
+- _block_destroy_helper.356
+- _block_destroy_helper.368
+- _block_destroy_helper.374
+- _block_destroy_helper.410
+- _block_destroy_helper.413
+- _block_destroy_helper.419
+- _block_destroy_helper.422
+- _block_destroy_helper.428
+- _block_destroy_helper.431
+- _block_destroy_helper.438
+- _block_destroy_helper.441
+- _block_destroy_helper.450
+- _block_destroy_helper.460
+- _block_destroy_helper.470
+- _block_destroy_helper.480
+- _block_destroy_helper.486
+- _block_destroy_helper.489
+- _block_destroy_helper.495
+- _block_destroy_helper.498
+- _block_destroy_helper.504
+- _block_destroy_helper.507
+- _block_destroy_helper.517
+- _block_destroy_helper.527
+- _block_destroy_helper.537
+- _block_destroy_helper.543
+- _block_destroy_helper.546
+- _block_destroy_helper.552
+- _block_destroy_helper.555
+- _block_destroy_helper.561
+- _block_destroy_helper.571
+- _block_destroy_helper.581
+- _block_destroy_helper.591
+- _block_destroy_helper.601
+- _block_destroy_helper.607
+- _block_destroy_helper.610
+- _block_destroy_helper.616
+- _block_destroy_helper.626
+- _block_destroy_helper.649
+- _block_destroy_helper.659
+- _block_destroy_helper.669
+- _block_destroy_helper.679
+- _block_destroy_helper.689
+- _block_destroy_helper.699
+- _block_destroy_helper.725
+- _block_destroy_helper.728
+- _block_destroy_helper.738
+- _block_destroy_helper.748
+- _block_destroy_helper.754
+- _block_destroy_helper.757
+- _block_destroy_helper.767
+- _block_destroy_helper.773
+- _block_destroy_helper.776
+- _block_destroy_helper.786
+- _block_destroy_helper.792
+- _block_destroy_helper.798
+- _block_destroy_helper.801
+- _block_destroy_helper.811
+- _block_destroy_helper.821
+- _block_destroy_helper.831
+- _block_destroy_helper.841
+- _block_destroy_helper.851
+- _block_destroy_helper.861
+- _block_destroy_helper.871
+- _block_destroy_helper.877
+- _block_destroy_helper.880
+- _block_destroy_helper.886
+- _block_destroy_helper.889
+- _block_destroy_helper.895
+- _block_destroy_helper.898
+- _block_destroy_helper.908
+- _block_destroy_helper.918
+- _block_destroy_helper.928
+- _block_destroy_helper.93
+- _block_destroy_helper.934
+- _block_destroy_helper.940
+- _block_destroy_helper.946
+- _block_destroy_helper.952
+- _block_destroy_helper.958
+- _block_destroy_helper.964
+- _block_destroy_helper.989
+- _block_destroy_helper.99
+- _block_destroy_helper.995
+- _getLNFocusConfigurationSuggestionContextClass.softClass.1407
+- _getLNFullyQualifiedActionIdentifierClass.softClass.1405
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAA5GroupVyACyAA017StrokeBorderShapeE0VyAA16RoundedRectangleVAA5ColorVAA05EmptyE0VGAA16_BlendModeEffectVGSgG_AA0P6SchemeOQo_AA25_AppearanceActionModifierVGAaDHPqd0__AaDHD3_A_HO_A1_AA0eX0HPyHCHC.182
+- _get_witness_table 7SwiftUI19_ConditionalContentVyACy18WorkflowUIServices11AppIconViewVAA08ModifiedD0VyAA5ImageVAA12_FrameLayoutVGGSgACyAHyAHyAHyAHyAjA08_PaddingM0VGALGAA19_BackgroundModifierVyAHyAHyAHyAD021GradientColorResolverI0VyAA06_ShapeI0VyAA6CircleVAA0R0VGGAA08_OverlayP0VyAHyAA06LinearQ0VAA11_ClipEffectVyA_GGGGAA017_CompositingGroupY0VGAD17SpotlightUiShadowVGGGA5_yAHyAHyAFA18_GAA09_PositionM0VGSgGGA22_GSgGSgAA0I0HpA31_AAA33_HPAoAA33_HpAnAA33_HPAfAA33_HPyHC_AmAA33_HPAjAA33_HPyHC_AlA0iP0HPyHCHCHC_HC_A30_AAA33_HpA29_AAA33_HPA28_AAA33_HPA21_AAA33_HPAsAA33_HPArAA33_HPAjAA33_HPyHC_AqAA34_HPyHCHC_AlAA34_HPyHCHC_A20_AAA34_HPyHCHC_A27_AAA34_HPyHCHC_A22_AAA33_HPAfAA33_HPyHC_A18_AAA34_HPyHCHCHC_HCHC_HC.78
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyAA6ZStackVyAA05TupleC0VyAA012_ConditionalE0VyAJyADyADyADyADyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameL0VGAA11_ClipEffectVyAA8AnyShapeVGG18WorkflowUIServices17SpotlightUiShadowVGADyADyADyAY21ProbablyAlignedSymbolVAQGAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGAA19_BackgroundModifierVyADyxA_GGGGADyA7_AQGG_ADyADyAY07AppIconC0VA_GAA09_PositionL0VGSgtGGAA010_FixedSizeL0VGAaBHPA27_AaBHPyHC_A29_AA0C8ModifierHPyHCHC.98
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyADyAA6HStackVyAA05TupleC0VyADyAA6ButtonVyAaBPAAE10fontWeightyQrAA4FontV0J0VSgFQOyAA5ImageV_Qo_GAA12_FrameLayoutVG_AA6SpacerVAA6VStackVyAHyADyADyADyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGA4_yAA0Q9AlignmentOGGAA016_ForegroundStyleU0Vy18WorkflowUIServices018SolidColorMaterialX0VGG_A2_SgtGGAzDyAA5GroupVyAA012_ConditionalE0VyxAA5ColorVGGAWGtGGAA08_PaddingN0VGAA024_SafeAreaRegionsIgnoringN0VGAaBHPA35_AaBHPA32_AaBHPyHC_A34_AA0cU0HPyHCHC_A37_AAA39_HPyHCHC.11
+- _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA15ModifiedContentVyAGyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGAA06_TraitkL0VyAA014LayoutPrioritymJ0VGGSg_AUtGGAA0E0HPyHC.97
+- _get_witness_table 7SwiftUI7AnyViewVAA0D0HPyHC.180
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE11hoverEffect_9isEnabledQrqd___SbtAA011CustomHoverE0Rd__lFQOyAA15ModifiedContentVyAcAE11buttonStyleyQrqd__AA015PrimitiveButtonM0Rd__lFQOyAA0O0VyAA012_ConditionalK0VyAHyAHyAA5ImageVAA011_ForegroundM9Modifier2VyAA5ColorVATGGAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAHyAHy18WorkflowUIServices13SizedEllipsisVAA12_FrameLayoutVGAA01_k9ShapeKindX0VyAA9RectangleVGGGSgG_AA05PlainoM0VQo_A9_yAA11ScaledShapeVyAA6CircleVGGG_AA09AutomaticiE0VQo_HO.77
+- _malloc
+- _objc_claimAutoreleasedReturnValue
+- _objc_msgSend$slotTemplateView:shouldChangeText:forSlotWithIdentifier:
+- _objc_retainAutoreleaseReturnValue
+- _objc_retain_x4
+- _objc_retain_x6
+- _objc_retain_x9
+- _objectdestroy.96Tm
+- _swift_unknownObjectRelease_n
+- _symbolic Si5index______Sg10attachmenttSg 18WorkflowUIServices34WFIntelligencePromptViewAttachmentV
+- _symbolic Si6offset______7elementtSg 7ToolKit10TypedValueO
+- _symbolic Si6offset______7elementtSg 8PhotosUI14PHPickerResultV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI4EdgeO3SetV
+- _symbolic _____y_____y_____G_Qo_ 7SwiftUI4ViewPAAE24persistentSystemOverlaysyQrAA10VisibilityOFQO 18WorkflowUIServices029WidgetConfigurationCardHeaderC0V AA5ImageV
+CStrings:
++ "@\"<WFSlotTemplateLayoutManagerDelegate>\""
++ "T@\"<NSLayoutManagerDelegate>\",W,D,N"
++ "T@\"<WFSlotTemplateLayoutManagerDelegate>\",W,N,V_slotTemplateDelegate"
++ "TB,N,V_prefersHighlightedColorsWhenTyping"
++ "T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N"
++ "WFSlotTemplateLayoutManagerDelegate"
++ "WorkflowUIServices"
++ "_TtC18WorkflowUIServices45ParameterSummaryPersonNameComponentsParameter"
++ "_prefersHighlightedColorsWhenTyping"
++ "_slotTemplateDelegate"
++ "arrayWithObject:"
++ "prefersHighlightedColorsWhenTyping"
++ "setPrefersHighlightedColorsWhenTyping:"
++ "setSlotTemplateDelegate:"
++ "slotTemplateDelegate"
++ "slotTemplateLayoutManagerDidInvalidateLayout:"
++ "slotTemplateView:shouldChangeTextTo:replacingRanges:withStrings:forSlotWithIdentifier:"
++ "unobscuredContentRect"
++ "v24@0:8@\"WFSlotTemplateLayoutManager\"16"
++ "valueWithRange:"
++ "widthForSingleLineHeight"
+- "slotTemplateView:shouldChangeText:forSlotWithIdentifier:"
+
+```

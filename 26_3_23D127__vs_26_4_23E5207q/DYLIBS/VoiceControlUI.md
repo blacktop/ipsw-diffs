@@ -1,0 +1,155 @@
+## VoiceControlUI
+
+> `/System/Library/PrivateFrameworks/VoiceControlUI.framework/VoiceControlUI`
+
+```diff
+
+-6.3.68.7.0
+-  __TEXT.__text: 0x2bef0
+-  __TEXT.__auth_stubs: 0x19c0
++6.7.0.0.0
++  __TEXT.__text: 0x29b0c
++  __TEXT.__auth_stubs: 0x19e0
+   __TEXT.__objc_methlist: 0x65c
+-  __TEXT.__const: 0x1fd4
+-  __TEXT.__cstring: 0x11d3
++  __TEXT.__const: 0x1fe4
+   __TEXT.__constg_swiftt: 0xb20
+-  __TEXT.__swift5_typeref: 0x434e
++  __TEXT.__swift5_typeref: 0x42cc
+   __TEXT.__swift5_builtin: 0x50
+   __TEXT.__swift5_reflstr: 0x663
+   __TEXT.__swift5_fieldmd: 0x648
+
+   __TEXT.__swift5_proto: 0x6c
+   __TEXT.__swift5_types: 0x70
+   __TEXT.__swift5_capture: 0x348
++  __TEXT.__cstring: 0xaea
+   __TEXT.__oslogstring: 0x8f6
+   __TEXT.__swift_as_entry: 0x8
+   __TEXT.__swift_as_ret: 0x8
+-  __TEXT.__unwind_info: 0x900
++  __TEXT.__unwind_info: 0x8f8
+   __TEXT.__eh_frame: 0x234
+-  __TEXT.__objc_classname: 0x51
+-  __TEXT.__objc_methname: 0xf81
+-  __TEXT.__objc_methtype: 0x67b
+-  __TEXT.__objc_stubs: 0x3a0
+-  __DATA_CONST.__got: 0x530
++  __TEXT.__objc_classname: 0x1fe
++  __TEXT.__objc_methname: 0x14a5
++  __TEXT.__objc_methtype: 0x7b6
++  __TEXT.__objc_stubs: 0xb00
++  __DATA_CONST.__got: 0x508
+   __DATA_CONST.__const: 0x1c0
+   __DATA_CONST.__objc_classlist: 0x48
+   __DATA_CONST.__objc_protolist: 0x20
+
+   __DATA_CONST.__objc_selrefs: 0x4a0
+   __DATA_CONST.__objc_protorefs: 0x10
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __AUTH_CONST.__auth_got: 0xce8
++  __AUTH_CONST.__auth_got: 0xcf8
+   __AUTH_CONST.__const: 0x1250
+   __AUTH_CONST.__objc_const: 0xc18
+   __AUTH.__objc_data: 0x640
+   __AUTH.__data: 0x6d0
+   __DATA.__objc_ivar: 0x4
+-  __DATA.__data: 0xd08
++  __DATA.__data: 0xd18
+   __DATA.__bss: 0xfc8
+   __DATA.__common: 0x20
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CA634D47-7C08-3E1A-97AB-A4EB4DCCAAC0
++  UUID: 0596FA33-0E4F-3E46-943D-B66434B5085F
+   Functions: 943
+-  Symbols:   776
+-  CStrings:  399
++  Symbols:   836
++  CStrings:  369
+ 
+Symbols:
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentH0OAA0J0OSgqd__yctAaBRd__lFQOQr.1
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentH0OAA0J0OSgqd__yctAaBRd__lFQOqd0__AaBHC.2
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQOyAcAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAA08ModifiedG0VyAcAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQOy28AccessibilitySharedUISupport012AXOnboardingC0VyAA05TupleC0VyAKyAKyAKyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA0X9AlignmentOGGAA16_FixedSizeLayoutVGAA14_PaddingLayoutVGSg_AWyAKyAWyAKyA3_A8_G_AcAEAghI_Qrqd___SbyyctSQRd__lFQOyAcAE20listHasStackBehaviorQryFQOyAcAE06scrollG10BackgroundyQrAA10VisibilityOFQOyAA4ListVySSAA7ForEachVySaySi_SStGSSAKyAcAE20accessibilityElement8childrenQrAA0S13ChildBehaviorV_tFQOyAKyAA6HStackVyAWyAcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQOyAA6ButtonVyAA5ImageVG_AA21BorderlessButtonStyleVQo__AyKyAyA0S18AttachmentModifierVGSgAKyA39_AA24_ForegroundStyleModifierVyAA5ColorVGGSgAA6SpacerVAKyAKyA32_AA14_OpacityEffectVGA42_yAA14TintShapeStyleVGGtGGAA21_TraitWritingModifierVyAA022ListRowBackgroundTraitZ0VGG_Qo_A38_GGG_Qo__Qo__SSSgQo_tGA8_G_AA05EmptyC0VSgtGSgAWyAY_AA0X5FieldVyAYGA3YA30_yAYGtGSgSgtGAWyAA012_ConditionalG0VyA11_AWyAKy012VoiceControlB015VCUIAudioButtonVA_yA90_18VCUIDictationStateOGG_AKyAA6ZStackVyAWyAKyA3_A51_G_AKyAKyAKyA3_A_yAA4FontVSgGGA_yA44_SgGGA51_GA99_tGGA8_GtGG_AKyA98_yAWyAKyAcAE4boldyQrSbFQOyA83__Qo_A51_GSg_AKyAKyAcAEA27_yQrqd__AAA28_Rd__lFQOyA30_yAKyA26_yAWyA49__AYA49_tGGA8_GG_AA28BorderedProminentButtonStyleVQo_A51_GAA01_yZ17TransformModifierVySbGGtGGA8_GtGA76_G_SSA83_AYQo_AA25_AppearanceActionModifierVG_A94_Qo__AA0fG7BuilderV10buildBlockyQrxAaFRzlFZQOy_A141_A142_yQrxAaFRzlFZQOy_AA0F4ItemVyytA83_GQo_SgQo_Qo_HO.150
++ _objc_msgSend$attributedSubstringFromRange:
++ _objc_msgSend$blackColor
++ _objc_msgSend$bundleForClass:
++ _objc_msgSend$constraintEqualToAnchor:constant:
++ _objc_msgSend$currentDevice
++ _objc_msgSend$debugDescription
++ _objc_msgSend$dictationIsEnabled
++ _objc_msgSend$didMoveToParentViewController:
++ _objc_msgSend$displayedText
++ _objc_msgSend$downBadgeSizeForDigits
++ _objc_msgSend$downBadgeViewForText
++ _objc_msgSend$endSession
++ _objc_msgSend$init
++ _objc_msgSend$initWithActivationEvent:
++ _objc_msgSend$initWithCoder:
++ _objc_msgSend$initWithFrame:
++ _objc_msgSend$initWithNibName:bundle:
++ _objc_msgSend$initWithString:
++ _objc_msgSend$intrinsicContentSize
++ _objc_msgSend$isWhiteSpace
++ _objc_msgSend$label
++ _objc_msgSend$labelNumber
++ _objc_msgSend$language
++ _objc_msgSend$lhPhonemesFromIPA:language:
++ _objc_msgSend$nsRange
++ _objc_msgSend$phonemeSuggestions
++ _objc_msgSend$presentEnablementAndDataSharingPromptIfNeeded:
++ _objc_msgSend$rightBadgeSizeForDigits
++ _objc_msgSend$rightBadgeViewForText
++ _objc_msgSend$setDelegate:
++ _objc_msgSend$setEndpointerOperationMode:
++ _objc_msgSend$setIsEyesFree:
++ _objc_msgSend$setIsWhiteSpace:
++ _objc_msgSend$setLabel:
++ _objc_msgSend$setLabelNumber:
++ _objc_msgSend$setOrthography:
++ _objc_msgSend$setSuppressDictationOptIn:
++ _objc_msgSend$setTextAlignment:
++ _objc_msgSend$setTextColor:
++ _objc_msgSend$setTranscriptionMode:
++ _objc_msgSend$setTranslatesAutoresizingMaskIntoConstraints:
++ _objc_msgSend$setUsesApplicationAudioSession:
++ _objc_msgSend$setVoice:
++ _objc_msgSend$sharedInstance
++ _objc_msgSend$sharedPreferences
++ _objc_msgSend$speakUtterance:
++ _objc_msgSend$startDictationWithLanguageCode:options:speechOptions:
++ _objc_msgSend$stopSpeakingAtBoundary:
++ _objc_msgSend$stopSpeechWithOptions:
++ _objc_msgSend$string
++ _objc_msgSend$suppressDictationOptIn
++ _objc_msgSend$systemBackgroundColor
++ _objc_msgSend$systemGrayColor
++ _objc_msgSend$systemRedColor
++ _objc_msgSend$tertiarySystemFillColor
++ _objc_msgSend$tertiarySystemGroupedBackgroundColor
++ _objc_msgSend$userInterfaceIdiom
++ _objc_msgSend$voiceWithLanguage:
++ _objc_msgSend$whiteColor
++ _objc_retain_x23
++ _objc_retain_x24
++ _symbolic _____yAAyAAy__________y_____GG_____G_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA16_FixedSizeLayoutV AA08_PaddingM0V
++ _symbolic _____yAAy__________y_____GGACy_____SgGG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA4FontV
++ _symbolic _____yAAy__________y_____GG_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA16_FixedSizeLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 012VoiceControlB020VCUILabeledBadgeViewV AA14_PaddingLayoutV
++ _symbolic _____y_____y_____yACy__________y_____GG_____G_ACyACyACyAhEy_____SgGGAEy_____SgGGAIGAJtGG 7SwiftUI6ZStackV AA9TupleViewV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0H9AlignmentO AA14_OpacityEffectV AA4FontV AA5ColorV
+- _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentH0OAA0J0OSgqd__yctAaBRd__lFQOQr.2
+- _get_underlying_witness 7SwiftUI4ViewPAAEAcAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentH0OAA0J0OSgqd__yctAaBRd__lFQOqd0__AaBHC.3
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQOyAcAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAA08ModifiedG0VyAcAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQOy28AccessibilitySharedUISupport012AXOnboardingC0VyAA05TupleC0VyAKyAKyAKyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA0X9AlignmentOGGAA16_FixedSizeLayoutVGAA14_PaddingLayoutVGSg_AWyAKyAWyAKyA3_A8_G_AcAEAghI_Qrqd___SbyyctSQRd__lFQOyAcAE20listHasStackBehaviorQryFQOyAcAE06scrollG10BackgroundyQrAA10VisibilityOFQOyAA4ListVySSAA7ForEachVySaySi_SStGSSAKyAcAE20accessibilityElement8childrenQrAA0S13ChildBehaviorV_tFQOyAKyAA6HStackVyAWyAcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQOyAA6ButtonVyAA5ImageVG_AA21BorderlessButtonStyleVQo__AyKyAyA0S18AttachmentModifierVGSgAKyA39_AA24_ForegroundStyleModifierVyAA5ColorVGGSgAA6SpacerVAKyAKyA32_AA14_OpacityEffectVGA42_yAA14TintShapeStyleVGGtGGAA21_TraitWritingModifierVyAA022ListRowBackgroundTraitZ0VGG_Qo_A38_GGG_Qo__Qo__SSSgQo_tGA8_G_AA05EmptyC0VSgtGSgAWyAY_AA0X5FieldVyAYGA3YA30_yAYGtGSgSgtGAWyAA012_ConditionalG0VyA11_AWyAKy012VoiceControlB015VCUIAudioButtonVA_yA90_18VCUIDictationStateOGG_AKyAA6ZStackVyAWyAKyA3_A51_G_AKyAKyAKyA3_A_yAA4FontVSgGGA_yA44_SgGGA51_GA99_tGGA8_GtGG_AKyA98_yAWyAKyAcAE4boldyQrSbFQOyA83__Qo_A51_GSg_AKyAKyAcAEA27_yQrqd__AAA28_Rd__lFQOyA30_yAKyA26_yAWyA49__AYA49_tGGA8_GG_AA28BorderedProminentButtonStyleVQo_A51_GAA01_yZ17TransformModifierVySbGGtGGA8_GtGA76_G_SSA83_AYQo_AA25_AppearanceActionModifierVG_A94_Qo__AA0fG7BuilderV10buildBlockyQrxAaFRzlFZQOy_A141_A142_yQrxAaFRzlFZQOy_AA0F4ItemVyytA83_GQo_SgQo_Qo_HO.148
+- _objc_claimAutoreleasedReturnValue
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI4AxisO3SetV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI4EdgeO3SetV
+- _symbolic _____y_____yABy__________y_____GG_____G______y_____y_____y_____ySS_____ySaySi_SStGSSABy_____yABy_____yAAy_____y_____y_____G______Qo__AcByAC_____GSgAByAT_____y_____GGSg_____AByAByAO_____GAVy_____GGtGG_____y_____GG_Qo_ASGGG_Qo__Qo__SSSgQo_tG 7SwiftUI9TupleViewV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0G9AlignmentO AA14_PaddingLayoutV AA0D0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AoAE20listHasStackBehaviorQryFQO AoAE06scrollF10BackgroundyQrAA10VisibilityOFQO AA4ListV AA7ForEachV AoAE20accessibilityElement8childrenQrAA018AccessibilityChildV0V_tFQO AA6HStackV AoAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA6ButtonV AA5ImageV AA21BorderlessButtonStyleV AA023AccessibilityAttachmentK0V AA016_ForegroundStyleK0V AA5ColorV AA6SpacerV AA14_OpacityEffectV AA14TintShapeStyleV AA06_TraitjK0V AA0z3Rowx5TraitI0V
+- _symbolic _____y_____y_____G_Qo_ 7SwiftUI4ViewPAAE4boldyQrSbFQO AA6ButtonV AA4TextV
+- _symbolic _____y_____y_____y_____y_____y___________AEtGG_____GG______Qo_ 7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQO AA0G0V AA15ModifiedContentV AA6HStackV AA05TupleC0V AA6SpacerV AA4TextV AA14_PaddingLayoutV AA017BorderedProminentgE0V
+
+```

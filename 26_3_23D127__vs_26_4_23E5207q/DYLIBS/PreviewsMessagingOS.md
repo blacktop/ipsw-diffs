@@ -1,0 +1,254 @@
+## PreviewsMessagingOS
+
+> `/System/Library/PrivateFrameworks/PreviewsMessagingOS.framework/PreviewsMessagingOS`
+
+```diff
+
+-23.20.6.0.0
+-  __TEXT.__text: 0xc2c20
+-  __TEXT.__auth_stubs: 0x1be0
+-  __TEXT.__const: 0x11f20
+-  __TEXT.__cstring: 0x32e3
+-  __TEXT.__swift5_typeref: 0x3441
+-  __TEXT.__swift5_reflstr: 0x24cb
+-  __TEXT.__swift5_assocty: 0x23c0
+-  __TEXT.__constg_swiftt: 0x38e4
+-  __TEXT.__swift5_fieldmd: 0x449c
++23.40.25.0.0
++  __TEXT.__text: 0xb9d54
++  __TEXT.__auth_stubs: 0x1bd0
++  __TEXT.__const: 0x12120
++  __TEXT.__cstring: 0x3702
++  __TEXT.__swift5_typeref: 0x3451
++  __TEXT.__swift5_reflstr: 0x255b
++  __TEXT.__swift5_assocty: 0x23e0
++  __TEXT.__constg_swiftt: 0x3904
++  __TEXT.__swift5_fieldmd: 0x4504
+   __TEXT.__swift5_builtin: 0xf0
+-  __TEXT.__swift5_proto: 0x1000
+-  __TEXT.__swift5_types: 0x564
+-  __TEXT.__swift5_capture: 0x82c
+-  __TEXT.__swift_as_entry: 0xd8
+-  __TEXT.__swift_as_ret: 0xd8
++  __TEXT.__swift5_proto: 0x1024
++  __TEXT.__swift5_types: 0x56c
++  __TEXT.__swift5_capture: 0x86c
++  __TEXT.__swift_as_entry: 0xe0
++  __TEXT.__swift_as_ret: 0xe0
+   __TEXT.__swift5_protos: 0x34
+   __TEXT.__oslogstring: 0x1cf
+   __TEXT.__swift5_mpenum: 0x44
+-  __TEXT.__unwind_info: 0x3f50
+-  __TEXT.__eh_frame: 0x4cf0
+-  __TEXT.__objc_methname: 0x154
+-  __DATA_CONST.__got: 0x420
++  __TEXT.__unwind_info: 0x3f08
++  __TEXT.__eh_frame: 0x4ec8
++  __TEXT.__objc_classname: 0x2d
++  __TEXT.__objc_methname: 0x3f3
++  __TEXT.__objc_methtype: 0x7
++  __TEXT.__objc_stubs: 0x200
++  __DATA_CONST.__got: 0x410
+   __DATA_CONST.__const: 0xa0
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x80
+   __AUTH_CONST.__auth_got: 0xdf0
+-  __AUTH_CONST.__const: 0xf6c0
++  __AUTH_CONST.__const: 0xf9a9
+   __AUTH_CONST.__objc_const: 0x6c0
+   __AUTH.__objc_data: 0x50
+-  __AUTH.__data: 0x1490
+-  __DATA.__data: 0x3048
+-  __DATA.__bss: 0x1fd80
++  __AUTH.__data: 0x1388
++  __DATA.__data: 0x2fe0
++  __DATA.__bss: 0x20180
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 65B8E738-BE32-31D2-8B8F-686CF4927A6A
+-  Functions: 6167
+-  Symbols:   1702
+-  CStrings:  569
++  UUID: A84023C4-EB49-3858-82B6-91B2C9FB7BD3
++  Functions: 6098
++  Symbols:   1723
++  CStrings:  575
+ 
+Symbols:
++ ___swift_memcpy208_8
++ ___swift_memcpy26_8
++ ___swift_memcpy34_8
++ ___swift_memcpy67_8
++ ___unnamed_103
++ _associated conformance 19PreviewsMessagingOS18AsyncMessageStreamV6SenderVy_xG0a10FoundationC023ConcurrentInvalidatableAaG03AnyJ0
++ _associated conformance 19PreviewsMessagingOS24GridControlConfigurationV0a10FoundationC025PropertyListRepresentableAA0hI5ValueAdEP_AD0hI4Type
++ _associated conformance 19PreviewsMessagingOS24GridControlConfigurationV3Key33_AE86DBBFF91FC092459991194DEE3CEBLLOSHAASQ
++ _associated conformance 19PreviewsMessagingOS24GridControlConfigurationV4ItemV0a10FoundationC025PropertyListRepresentableAA0iJ5ValueAfGP_AF0iJ4Type
++ _associated conformance 19PreviewsMessagingOS24GridControlConfigurationV4ItemV3Key33_AE86DBBFF91FC092459991194DEE3CEBLLOSHAASQ
++ _associated conformance 19PreviewsMessagingOS24GridControlConfigurationV7SectionV0a10FoundationC025PropertyListRepresentableAA0iJ5ValueAfGP_AF0iJ4Type
++ _associated conformance 19PreviewsMessagingOS24GridControlConfigurationV7SectionV3Key33_AE86DBBFF91FC092459991194DEE3CEBLLOSHAASQ
++ _associated conformance 19PreviewsMessagingOS26ToggleControlConfigurationV0a10FoundationC025PropertyListRepresentableAA0hI5ValueAdEP_AD0hI4Type
++ _associated conformance 19PreviewsMessagingOS26ToggleControlConfigurationV3Key33_AE86DBBFF91FC092459991194DEE3CEBLLOSHAASQ
++ _associated conformance 19PreviewsMessagingOS28TimelineControlConfigurationV0D4StopV0a10FoundationC025PropertyListRepresentableAA0iJ5ValueAfGP_AF0iJ4Type
++ _associated conformance 19PreviewsMessagingOS28TimelineControlConfigurationV0D4StopV3Key33_AE86DBBFF91FC092459991194DEE3CEBLLOSHAASQ
++ _associated conformance 19PreviewsMessagingOS28TimelineControlConfigurationV0D4StopVs12IdentifiableAA2IDsAFP_SH
++ _associated conformance 19PreviewsMessagingOS28TimelineControlConfigurationV0a10FoundationC025PropertyListRepresentableAA0hI5ValueAdEP_AD0hI4Type
++ _associated conformance 19PreviewsMessagingOS28TimelineControlConfigurationV3Key33_AE86DBBFF91FC092459991194DEE3CEBLLOSHAASQ
++ _get_enum_tag_for_layout_string 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO
++ _get_witness_table 20PreviewsFoundationOS25PropertyListRepresentableRzlxAaBHD1_.10
++ _objc_msgSend$archivedDataWithRootObject:requiringSecureCoding:error:
++ _objc_msgSend$boolForKey:
++ _objc_msgSend$data
++ _objc_msgSend$dataWithPropertyList:format:options:error:
++ _objc_msgSend$degrees
++ _objc_msgSend$description
++ _objc_msgSend$dictionary
++ _objc_msgSend$initWithData:
++ _objc_msgSend$initWithURL:readonly:
++ _objc_msgSend$initWithURL:readonly:extensionClass:
++ _objc_msgSend$propertyListWithData:options:format:error:
++ _objc_msgSend$registerDefaults:
++ _objc_msgSend$standardUserDefaults
++ _objc_msgSend$url
++ _objc_msgSend$userInfo
++ _objc_msgSend$uv_errorWithDescription:
++ _objc_retain_x23
++ _objc_retain_x28
++ _objectdestroy.13Tm
++ _objectdestroy.27Tm
++ _objectdestroy.7Tm
++ _swift_bridgeObjectRetain_n
++ _symbolic Say_____G 19PreviewsMessagingOS24GridControlConfigurationV4ItemV
++ _symbolic Say_____G 19PreviewsMessagingOS24GridControlConfigurationV7SectionV
++ _symbolic Say_____G 19PreviewsMessagingOS28TimelineControlConfigurationV0D4StopV
++ _symbolic ScCyqd________pG s5ErrorP
++ _symbolic _____ 19PreviewsMessagingOS22CanvasControlInterfaceO
++ _symbolic _____ 19PreviewsMessagingOS24CanvasControlDescriptionV22ThumbnailConfigurationO
++ _symbolic _____ 19PreviewsMessagingOS24GridControlConfigurationV
++ _symbolic _____ 19PreviewsMessagingOS24GridControlConfigurationV3Key33_AE86DBBFF91FC092459991194DEE3CEBLLO
++ _symbolic _____ 19PreviewsMessagingOS24GridControlConfigurationV4ItemV
++ _symbolic _____ 19PreviewsMessagingOS24GridControlConfigurationV4ItemV3Key33_AE86DBBFF91FC092459991194DEE3CEBLLO
++ _symbolic _____ 19PreviewsMessagingOS24GridControlConfigurationV7SectionV
++ _symbolic _____ 19PreviewsMessagingOS24GridControlConfigurationV7SectionV3Key33_AE86DBBFF91FC092459991194DEE3CEBLLO
++ _symbolic _____ 19PreviewsMessagingOS26ToggleControlConfigurationV
++ _symbolic _____ 19PreviewsMessagingOS26ToggleControlConfigurationV3Key33_AE86DBBFF91FC092459991194DEE3CEBLLO
++ _symbolic _____ 19PreviewsMessagingOS28TimelineControlConfigurationV
++ _symbolic _____ 19PreviewsMessagingOS28TimelineControlConfigurationV0D4StopV
++ _symbolic _____ 19PreviewsMessagingOS28TimelineControlConfigurationV0D4StopV3Key33_AE86DBBFF91FC092459991194DEE3CEBLLO
++ _symbolic _____ 19PreviewsMessagingOS28TimelineControlConfigurationV3Key33_AE86DBBFF91FC092459991194DEE3CEBLLO
++ _symbolic _____13configuration_t 19PreviewsMessagingOS24GridControlConfigurationV
++ _symbolic _____13configuration_t 19PreviewsMessagingOS26ToggleControlConfigurationV
++ _symbolic _____13configuration_t 19PreviewsMessagingOS28TimelineControlConfigurationV
++ _symbolic _____Sg16expectedGeometry_t 19PreviewsMessagingOS17ThumbnailGeometryV
++ _symbolic ___________Sgt 19PreviewsMessagingOS19PreviewVariantGroupV3Key33_AA1CF571669982B6F0AE51CFDFB4FCFFLLO AA0D22OverridesConfigurationV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 19PreviewsMessagingOS24GridControlConfigurationV4ItemV
++ _symbolic _____y______ySSGG 19PreviewsMessagingOS18AsyncMessageStreamV6SenderV AA22CompatibilityInterface33_D5907DE2CC6631B9E269041D3B71445ELLO
++ _type_layout_string 19PreviewsMessagingOS24CanvasControlDescriptionV
++ _type_layout_string 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO
++ _type_layout_string 19PreviewsMessagingOS24GridControlConfigurationV
++ _type_layout_string 19PreviewsMessagingOS24GridControlConfigurationV4ItemV
++ _type_layout_string 19PreviewsMessagingOS24GridControlConfigurationV7SectionV
++ _type_layout_string 19PreviewsMessagingOS26ToggleControlConfigurationV
++ _type_layout_string 19PreviewsMessagingOS28TimelineControlConfigurationV
++ _type_layout_string 19PreviewsMessagingOS28TimelineControlConfigurationV0D4StopV
+- ___swift_memcpy200_8
+- ___unnamed_10
+- ___unnamed_105
+- ___unnamed_4
+- ___unnamed_5
+- _associated conformance 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO17GridConfigurationV0a10FoundationC025PropertyListRepresentableAA0kL5ValueAhIP_AH0klG0
+- _associated conformance 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO17GridConfigurationV3Key33_AE86DBBFF91FC092459991194DEE3CEBLLOSHAASQ
+- _associated conformance 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO17GridConfigurationV4ItemV0a10FoundationC025PropertyListRepresentableAA0lM5ValueAjKP_AJ0lmG0
+- _associated conformance 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO17GridConfigurationV4ItemV3Key33_AE86DBBFF91FC092459991194DEE3CEBLLOSHAASQ
+- _associated conformance 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO17GridConfigurationV7SectionV0a10FoundationC025PropertyListRepresentableAA0lM5ValueAjKP_AJ0lmG0
+- _associated conformance 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO17GridConfigurationV7SectionV3Key33_AE86DBBFF91FC092459991194DEE3CEBLLOSHAASQ
+- _associated conformance 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO19ToggleConfigurationV0a10FoundationC025PropertyListRepresentableAA0kL5ValueAhIP_AH0klG0
+- _associated conformance 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO19ToggleConfigurationV3Key33_AE86DBBFF91FC092459991194DEE3CEBLLOSHAASQ
+- _associated conformance 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO21TimelineConfigurationV0H4StopV0a10FoundationC025PropertyListRepresentableAA0lM5ValueAjKP_AJ0lmG0
+- _associated conformance 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO21TimelineConfigurationV0H4StopV3Key33_AE86DBBFF91FC092459991194DEE3CEBLLOSHAASQ
+- _associated conformance 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO21TimelineConfigurationV0H4StopVs12IdentifiableAA2IDsAJP_SH
+- _associated conformance 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO21TimelineConfigurationV0a10FoundationC025PropertyListRepresentableAA0kL5ValueAhIP_AH0klG0
+- _associated conformance 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO21TimelineConfigurationV3Key33_AE86DBBFF91FC092459991194DEE3CEBLLOSHAASQ
+- _get_witness_table 20PreviewsFoundationOS25PropertyListRepresentableRzlxAaBHD1_.4
+- _objc_retain_x26
+- _objc_retain_x27
+- _objectdestroy.10Tm
+- _objectdestroy.31Tm
+- _objectdestroy.4Tm
+- _swift_initStackObject
+- _swift_setDeallocating
+- _symbolic Say_____G 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO17GridConfigurationV4ItemV
+- _symbolic Say_____G 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO17GridConfigurationV7SectionV
+- _symbolic Say_____G 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO21TimelineConfigurationV0H4StopV
+- _symbolic _____ 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO17GridConfigurationV
+- _symbolic _____ 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO17GridConfigurationV3Key33_AE86DBBFF91FC092459991194DEE3CEBLLO
+- _symbolic _____ 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO17GridConfigurationV4ItemV
+- _symbolic _____ 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO17GridConfigurationV4ItemV3Key33_AE86DBBFF91FC092459991194DEE3CEBLLO
+- _symbolic _____ 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO17GridConfigurationV7SectionV
+- _symbolic _____ 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO17GridConfigurationV7SectionV3Key33_AE86DBBFF91FC092459991194DEE3CEBLLO
+- _symbolic _____ 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO19ToggleConfigurationV
+- _symbolic _____ 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO19ToggleConfigurationV3Key33_AE86DBBFF91FC092459991194DEE3CEBLLO
+- _symbolic _____ 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO21TimelineConfigurationV
+- _symbolic _____ 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO21TimelineConfigurationV0H4StopV
+- _symbolic _____ 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO21TimelineConfigurationV0H4StopV3Key33_AE86DBBFF91FC092459991194DEE3CEBLLO
+- _symbolic _____ 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO21TimelineConfigurationV3Key33_AE86DBBFF91FC092459991194DEE3CEBLLO
+- _symbolic _____13configuration_t 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO17GridConfigurationV
+- _symbolic _____13configuration_t 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO19ToggleConfigurationV
+- _symbolic _____13configuration_t 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO21TimelineConfigurationV
+- _symbolic _____13configuration_t 20PreviewsFoundationOS12PropertyListV
+- _symbolic _____Sg 19PreviewsMessagingOS17ThumbnailGeometryV
+- _symbolic _____Sg 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO
+- _symbolic ___________t 19PreviewsMessagingOS24CanvasControlDescriptionV3Key33_AE86DBBFF91FC092459991194DEE3CEBLLO AC0E4TypeO
+- _symbolic _____ySS_yptG s23_ContiguousArrayStorageC
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 19PreviewsMessagingOS24CanvasControlDescriptionV0H4TypeO17GridConfigurationV4ItemV
+- _type_layout_string 19PreviewsMessagingOS18TransportInterfaceRzlAA18AsyncMessageStreamV6SenderVy_xG
+- _type_layout_string 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO17GridConfigurationV
+- _type_layout_string 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO17GridConfigurationV4ItemV
+- _type_layout_string 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO17GridConfigurationV7SectionV
+- _type_layout_string 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO19ToggleConfigurationV
+- _type_layout_string 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO21TimelineConfigurationV
+- _type_layout_string 19PreviewsMessagingOS24CanvasControlDescriptionV0E4TypeO21TimelineConfigurationV0H4StopV
+- _type_layout_string 20PreviewsFoundationOS25PropertyListRepresentableRzl0a9MessagingC013MessageStreamV6SenderVy_xG
+CStrings:
++ "/Library/Caches/com.apple.xbs/57633D5F-1308-427F-A0CB-49DD456BB597/TemporaryDirectory.2nYNEj/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/AgentMessageConstants.swift"
++ "/Library/Caches/com.apple.xbs/57633D5F-1308-427F-A0CB-49DD456BB597/TemporaryDirectory.2nYNEj/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/AsyncMessageStream.swift"
++ "/Library/Caches/com.apple.xbs/57633D5F-1308-427F-A0CB-49DD456BB597/TemporaryDirectory.2nYNEj/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/Bridge.swift"
++ "/Library/Caches/com.apple.xbs/57633D5F-1308-427F-A0CB-49DD456BB597/TemporaryDirectory.2nYNEj/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/DaemonConnection.swift"
++ "/Library/Caches/com.apple.xbs/57633D5F-1308-427F-A0CB-49DD456BB597/TemporaryDirectory.2nYNEj/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/Fork.swift"
++ "/Library/Caches/com.apple.xbs/57633D5F-1308-427F-A0CB-49DD456BB597/TemporaryDirectory.2nYNEj/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/Junction.swift"
++ "/Library/Caches/com.apple.xbs/57633D5F-1308-427F-A0CB-49DD456BB597/TemporaryDirectory.2nYNEj/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/MessagePipe.swift"
++ "/Library/Caches/com.apple.xbs/57633D5F-1308-427F-A0CB-49DD456BB597/TemporaryDirectory.2nYNEj/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/MessageStream.swift"
++ "/Library/Caches/com.apple.xbs/57633D5F-1308-427F-A0CB-49DD456BB597/TemporaryDirectory.2nYNEj/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/Outlet.swift"
++ "/Library/Caches/com.apple.xbs/57633D5F-1308-427F-A0CB-49DD456BB597/TemporaryDirectory.2nYNEj/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/PipeEvent.swift"
++ "/Library/Caches/com.apple.xbs/57633D5F-1308-427F-A0CB-49DD456BB597/TemporaryDirectory.2nYNEj/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/PreviewServiceInterface.swift"
++ "/Library/Caches/com.apple.xbs/57633D5F-1308-427F-A0CB-49DD456BB597/TemporaryDirectory.2nYNEj/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/Transport+Interface.swift"
++ "/Library/Caches/com.apple.xbs/57633D5F-1308-427F-A0CB-49DD456BB597/TemporaryDirectory.2nYNEj/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/Transport+Reply.swift"
++ "/Library/Caches/com.apple.xbs/57633D5F-1308-427F-A0CB-49DD456BB597/TemporaryDirectory.2nYNEj/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/UpdateMessageConstants.swift"
++ "MacOS FBScenes Supported 1"
++ "additionalArtifactPaths"
++ "send(message:expecting:handler:)"
++ "send(message:handler:)"
++ "supportsInteraction"
++ "supportsThumbnails"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/AgentMessageConstants.swift"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/AsyncMessageStream.swift"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/Bridge.swift"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/DaemonConnection.swift"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/Fork.swift"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/Junction.swift"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/MessagePipe.swift"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/MessageStream.swift"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/Outlet.swift"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/PipeEvent.swift"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/PreviewServiceInterface.swift"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/Transport+Interface.swift"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/Transport+Reply.swift"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/UpdateMessageConstants.swift"
+
+```

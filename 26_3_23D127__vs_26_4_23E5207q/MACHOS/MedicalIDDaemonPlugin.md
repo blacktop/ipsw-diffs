@@ -1,0 +1,40 @@
+## MedicalIDDaemonPlugin
+
+> `/System/Library/Health/Plugins/MedicalIDDaemonPlugin.bundle/MedicalIDDaemonPlugin`
+
+```diff
+
+-6200.4.9.0.0
+-  __TEXT.__text: 0x178
+-  __TEXT.__auth_stubs: 0x60
++6200.5.77.2.6
++  __TEXT.__text: 0x170
++  __TEXT.__auth_stubs: 0x50
++  __TEXT.__objc_stubs: 0x20
+   __TEXT.__const: 0x7a
+   __TEXT.__objc_methname: 0xd
+   __TEXT.__constg_swiftt: 0x4c
+   __TEXT.__swift5_typeref: 0xc
+-  __TEXT.__cstring: 0x8
++  __TEXT.__objc_classname: 0x17
++  __TEXT.__objc_methtype: 0x8
+   __TEXT.__swift5_fieldmd: 0x10
+   __TEXT.__swift5_types: 0x4
+   __TEXT.__unwind_info: 0x68
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 960499B7-07D9-3BBA-A9A6-63EB8C096CF9
++  UUID: 18E0413E-D4DF-38FC-9219-C640474F7BF4
+   Functions: 7
+   Symbols:   26
+-  CStrings:  3
++  CStrings:  4
+ 
+Functions:
+~ sub_dd8 -> sub_e78 : 52 -> 44
+CStrings:
++ "_MedicalIDDaemonPlugin"
+
+```

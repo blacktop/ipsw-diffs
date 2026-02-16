@@ -1,0 +1,3436 @@
+## SiriTTSService
+
+> `/System/Library/PrivateFrameworks/SiriTTSService.framework/SiriTTSService`
+
+```diff
+
+-3510.3.1.0.0
+-  __TEXT.__text: 0x19eed4
+-  __TEXT.__auth_stubs: 0x3110
+-  __TEXT.__objc_methlist: 0x6430
+-  __TEXT.__const: 0xcb23
++3520.74.1.1.2
++  __TEXT.__text: 0x1852c0
++  __TEXT.__auth_stubs: 0x3230
++  __TEXT.__objc_methlist: 0x6428
++  __TEXT.__const: 0xd170
+   __TEXT.__dlopen_cstrs: 0x56
+-  __TEXT.__cstring: 0x12bf7
+-  __TEXT.__swift5_typeref: 0x3290
+-  __TEXT.__oslogstring: 0x4b99
+-  __TEXT.__swift5_capture: 0x1ae0
+-  __TEXT.__swift5_reflstr: 0x36ca
+-  __TEXT.__swift5_assocty: 0x4a0
+-  __TEXT.__constg_swiftt: 0x6890
+-  __TEXT.__swift5_fieldmd: 0x41e0
+-  __TEXT.__swift5_builtin: 0x26c
+-  __TEXT.__swift5_protos: 0x44
+-  __TEXT.__swift5_proto: 0x8e4
+-  __TEXT.__swift5_types: 0x40c
+-  __TEXT.__gcc_except_tab: 0x3b14
+-  __TEXT.__unwind_info: 0x8a18
+-  __TEXT.__eh_frame: 0x62f8
+-  __TEXT.__objc_classname: 0xc5f
+-  __TEXT.__objc_methname: 0x6c0f
+-  __TEXT.__objc_methtype: 0x22ae
+-  __TEXT.__objc_stubs: 0x2640
+-  __DATA_CONST.__got: 0x968
+-  __DATA_CONST.__const: 0x1740
+-  __DATA_CONST.__objc_classlist: 0x6c8
++  __TEXT.__cstring: 0xc8d1
++  __TEXT.__swift5_typeref: 0x396e
++  __TEXT.__oslogstring: 0x5489
++  __TEXT.__swift5_capture: 0x1a80
++  __TEXT.__swift5_reflstr: 0x35ea
++  __TEXT.__swift5_assocty: 0x428
++  __TEXT.__constg_swiftt: 0x6d24
++  __TEXT.__swift5_fieldmd: 0x41f0
++  __TEXT.__swift5_builtin: 0x2e4
++  __TEXT.__swift5_protos: 0x54
++  __TEXT.__swift5_proto: 0xa60
++  __TEXT.__swift5_types: 0x48c
++  __TEXT.__swift_as_entry: 0x34
++  __TEXT.__swift5_mpenum: 0x48
++  __TEXT.__swift_as_ret: 0x34
++  __TEXT.__gcc_except_tab: 0x3a70
++  __TEXT.__unwind_info: 0x8008
++  __TEXT.__eh_frame: 0x64c0
++  __TEXT.__objc_classname: 0x2432
++  __TEXT.__objc_methname: 0x98e5
++  __TEXT.__objc_methtype: 0x3116
++  __TEXT.__objc_stubs: 0x5960
++  __DATA_CONST.__got: 0x9c0
++  __DATA_CONST.__const: 0x1450
++  __DATA_CONST.__objc_classlist: 0x6b8
+   __DATA_CONST.__objc_catlist: 0x8
+-  __DATA_CONST.__objc_protolist: 0xc0
++  __DATA_CONST.__objc_protolist: 0xb0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x2280
+-  __DATA_CONST.__objc_protorefs: 0x70
++  __DATA_CONST.__objc_selrefs: 0x2248
++  __DATA_CONST.__objc_protorefs: 0x68
+   __DATA_CONST.__objc_superrefs: 0x248
+-  __AUTH_CONST.__auth_got: 0x18a0
+-  __AUTH_CONST.__const: 0xf128
++  __AUTH_CONST.__auth_got: 0x1930
++  __AUTH_CONST.__const: 0x11338
+   __AUTH_CONST.__cfstring: 0x1040
+-  __AUTH_CONST.__objc_const: 0x102c0
+-  __AUTH.__objc_data: 0x3770
+-  __AUTH.__data: 0x3d38
++  __AUTH_CONST.__objc_const: 0x104b0
++  __AUTH.__objc_data: 0x35f0
++  __AUTH.__data: 0x2238
+   __DATA.__objc_ivar: 0x2dc
+-  __DATA.__data: 0x3408
+-  __DATA.__bss: 0xe8a0
+-  __DATA.__common: 0x298
+-  __DATA_DIRTY.__objc_data: 0x3c00
+-  __DATA_DIRTY.__data: 0x4dc8
+-  __DATA_DIRTY.__bss: 0xa20
+-  __DATA_DIRTY.__common: 0x210
++  __DATA.__data: 0x2e50
++  __DATA.__bss: 0x11120
++  __DATA.__common: 0x2a0
++  __DATA_DIRTY.__objc_data: 0x3a18
++  __DATA_DIRTY.__data: 0x4c18
++  __DATA_DIRTY.__bss: 0x9a0
++  __DATA_DIRTY.__common: 0x200
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
++  - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
++  - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreAudio.framework/CoreAudio
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreMedia.framework/CoreMedia
+
+   - /System/Library/PrivateFrameworks/CrashReporterSupport.framework/CrashReporterSupport
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/GenerativeModels.framework/GenerativeModels
+-  - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf
+   - /System/Library/PrivateFrameworks/MediaExperience.framework/MediaExperience
+   - /System/Library/PrivateFrameworks/MobileAsset.framework/MobileAsset
+   - /System/Library/PrivateFrameworks/Osprey.framework/Osprey
+
+   - /System/Library/PrivateFrameworks/SiriPowerInstrumentation.framework/SiriPowerInstrumentation
+   - /System/Library/PrivateFrameworks/SiriTTS.framework/SiriTTS
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+-  - /System/Library/PrivateFrameworks/Trial.framework/Trial
+-  - /System/Library/PrivateFrameworks/TrialProto.framework/TrialProto
+   - /System/Library/PrivateFrameworks/UnifiedAssetFramework.framework/UnifiedAssetFramework
+   - /usr/lib/libAudioStatistics.dylib
+   - /usr/lib/libMobileGestalt.dylib
+
+   - /usr/lib/swift/libswiftCoreAudio_Private.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+-  - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
++  - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DEFA466C-2C24-3C84-A469-D59ACA7F96ED
+-  Functions: 14026
+-  Symbols:   12208
+-  CStrings:  4452
++  UUID: 5AC03936-64E3-3DC6-AC6C-CE0D9A42985C
++  Functions: 13074
++  Symbols:   13875
++  CStrings:  4191
+ 
+Symbols:
++ -[SiriTTSAudioHintRequest(SwiftProxy) setSiriInputStreamId:]
++ -[SiriTTSAudioHintRequest(SwiftProxy) siriInputStreamId]
++ -[SiriTTSAudioRequest(SwiftProxy) setSiriInputStreamId:]
++ -[SiriTTSAudioRequest(SwiftProxy) siriInputStreamId]
++ -[SiriTTSPreviewRequest(SwiftProxy) setSiriInputStreamId:]
++ -[SiriTTSPreviewRequest(SwiftProxy) siriInputStreamId]
++ -[SiriTTSSpeechRequest(SwiftProxy) setSiriInputStreamId:]
++ -[SiriTTSSpeechRequest(SwiftProxy) siriInputStreamId]
++ GCC_except_table1005
++ GCC_except_table1010
++ GCC_except_table1023
++ GCC_except_table1029
++ GCC_except_table1031
++ GCC_except_table1038
++ GCC_except_table1044
++ GCC_except_table1046
++ GCC_except_table1049
++ GCC_except_table105
++ GCC_except_table1059
++ GCC_except_table1061
++ GCC_except_table1063
++ GCC_except_table1067
++ GCC_except_table1072
++ GCC_except_table1086
++ GCC_except_table1093
++ GCC_except_table1095
++ GCC_except_table1098
++ GCC_except_table1108
++ GCC_except_table1114
++ GCC_except_table1116
++ GCC_except_table1120
++ GCC_except_table1126
++ GCC_except_table1135
++ GCC_except_table114
++ GCC_except_table1142
++ GCC_except_table1144
++ GCC_except_table1152
++ GCC_except_table1158
++ GCC_except_table1160
++ GCC_except_table1163
++ GCC_except_table1166
++ GCC_except_table1170
++ GCC_except_table1173
++ GCC_except_table1175
++ GCC_except_table1177
++ GCC_except_table1182
++ GCC_except_table1186
++ GCC_except_table123
++ GCC_except_table1253
++ GCC_except_table1284
++ GCC_except_table1290
++ GCC_except_table132
++ GCC_except_table141
++ GCC_except_table1438
++ GCC_except_table1445
++ GCC_except_table1446
++ GCC_except_table1447
++ GCC_except_table150
++ GCC_except_table161
++ GCC_except_table171
++ GCC_except_table178
++ GCC_except_table192
++ GCC_except_table200
++ GCC_except_table202
++ GCC_except_table204
++ GCC_except_table206
++ GCC_except_table208
++ GCC_except_table210
++ GCC_except_table214
++ GCC_except_table216
++ GCC_except_table220
++ GCC_except_table222
++ GCC_except_table226
++ GCC_except_table232
++ GCC_except_table234
++ GCC_except_table238
++ GCC_except_table260
++ GCC_except_table264
++ GCC_except_table268
++ GCC_except_table273
++ GCC_except_table275
++ GCC_except_table279
++ GCC_except_table281
++ GCC_except_table285
++ GCC_except_table289
++ GCC_except_table291
++ GCC_except_table293
++ GCC_except_table295
++ GCC_except_table297
++ GCC_except_table308
++ GCC_except_table314
++ GCC_except_table320
++ GCC_except_table322
++ GCC_except_table329
++ GCC_except_table349
++ GCC_except_table351
++ GCC_except_table353
++ GCC_except_table357
++ GCC_except_table359
++ GCC_except_table361
++ GCC_except_table363
++ GCC_except_table365
++ GCC_except_table367
++ GCC_except_table369
++ GCC_except_table371
++ GCC_except_table373
++ GCC_except_table377
++ GCC_except_table379
++ GCC_except_table385
++ GCC_except_table387
++ GCC_except_table389
++ GCC_except_table391
++ GCC_except_table393
++ GCC_except_table397
++ GCC_except_table399
++ GCC_except_table431
++ GCC_except_table435
++ GCC_except_table437
++ GCC_except_table439
++ GCC_except_table441
++ GCC_except_table443
++ GCC_except_table445
++ GCC_except_table447
++ GCC_except_table449
++ GCC_except_table451
++ GCC_except_table455
++ GCC_except_table457
++ GCC_except_table463
++ GCC_except_table465
++ GCC_except_table467
++ GCC_except_table469
++ GCC_except_table471
++ GCC_except_table473
++ GCC_except_table477
++ GCC_except_table479
++ GCC_except_table485
++ GCC_except_table487
++ GCC_except_table489
++ GCC_except_table493
++ GCC_except_table495
++ GCC_except_table499
++ GCC_except_table501
++ GCC_except_table505
++ GCC_except_table507
++ GCC_except_table510
++ GCC_except_table514
++ GCC_except_table516
++ GCC_except_table520
++ GCC_except_table522
++ GCC_except_table528
++ GCC_except_table530
++ GCC_except_table534
++ GCC_except_table536
++ GCC_except_table541
++ GCC_except_table548
++ GCC_except_table551
++ GCC_except_table553
++ GCC_except_table555
++ GCC_except_table563
++ GCC_except_table567
++ GCC_except_table574
++ GCC_except_table589
++ GCC_except_table596
++ GCC_except_table598
++ GCC_except_table609
++ GCC_except_table618
++ GCC_except_table620
++ GCC_except_table624
++ GCC_except_table630
++ GCC_except_table632
++ GCC_except_table636
++ GCC_except_table642
++ GCC_except_table644
++ GCC_except_table649
++ GCC_except_table655
++ GCC_except_table657
++ GCC_except_table667
++ GCC_except_table669
++ GCC_except_table671
++ GCC_except_table675
++ GCC_except_table680
++ GCC_except_table685
++ GCC_except_table692
++ GCC_except_table694
++ GCC_except_table697
++ GCC_except_table703
++ GCC_except_table716
++ GCC_except_table722
++ GCC_except_table724
++ GCC_except_table731
++ GCC_except_table737
++ GCC_except_table744
++ GCC_except_table746
++ GCC_except_table749
++ GCC_except_table755
++ GCC_except_table761
++ GCC_except_table763
++ GCC_except_table770
++ GCC_except_table776
++ GCC_except_table778
++ GCC_except_table784
++ GCC_except_table786
++ GCC_except_table792
++ GCC_except_table798
++ GCC_except_table800
++ GCC_except_table804
++ GCC_except_table810
++ GCC_except_table812
++ GCC_except_table815
++ GCC_except_table821
++ GCC_except_table823
++ GCC_except_table834
++ GCC_except_table839
++ GCC_except_table844
++ GCC_except_table849
++ GCC_except_table854
++ GCC_except_table860
++ GCC_except_table869
++ GCC_except_table875
++ GCC_except_table881
++ GCC_except_table883
++ GCC_except_table885
++ GCC_except_table889
++ GCC_except_table895
++ GCC_except_table897
++ GCC_except_table900
++ GCC_except_table906
++ GCC_except_table912
++ GCC_except_table914
++ GCC_except_table920
++ GCC_except_table926
++ GCC_except_table928
++ GCC_except_table930
++ GCC_except_table934
++ GCC_except_table940
++ GCC_except_table950
++ GCC_except_table956
++ GCC_except_table958
++ GCC_except_table960
++ GCC_except_table963
++ GCC_except_table969
++ GCC_except_table971
++ GCC_except_table981
++ GCC_except_table991
++ _AudioQueuePause
++ _AudioQueueReset
++ _OBJC_CLASS_$_NSJSONSerialization
++ _OUTLINED_FUNCTION_287
++ _OUTLINED_FUNCTION_288
++ _OUTLINED_FUNCTION_289
++ _OUTLINED_FUNCTION_290
++ _OUTLINED_FUNCTION_291
++ _OUTLINED_FUNCTION_292
++ _OUTLINED_FUNCTION_293
++ _OUTLINED_FUNCTION_294
++ _OUTLINED_FUNCTION_295
++ _OUTLINED_FUNCTION_296
++ _OUTLINED_FUNCTION_297
++ _OUTLINED_FUNCTION_298
++ _OUTLINED_FUNCTION_299
++ _OUTLINED_FUNCTION_300
++ _OUTLINED_FUNCTION_301
++ _OUTLINED_FUNCTION_302
++ _OUTLINED_FUNCTION_303
++ _OUTLINED_FUNCTION_304
++ _OUTLINED_FUNCTION_305
++ _OUTLINED_FUNCTION_306
++ _OUTLINED_FUNCTION_307
++ _OUTLINED_FUNCTION_308
++ _OUTLINED_FUNCTION_309
++ _OUTLINED_FUNCTION_310
++ _OUTLINED_FUNCTION_311
++ _OUTLINED_FUNCTION_312
++ _OUTLINED_FUNCTION_313
++ _OUTLINED_FUNCTION_314
++ _OUTLINED_FUNCTION_315
++ _OUTLINED_FUNCTION_316
++ _OUTLINED_FUNCTION_317
++ _OUTLINED_FUNCTION_318
++ _OUTLINED_FUNCTION_319
++ _OUTLINED_FUNCTION_320
++ _OUTLINED_FUNCTION_321
++ _OUTLINED_FUNCTION_322
++ _OUTLINED_FUNCTION_323
++ _OUTLINED_FUNCTION_324
++ _OUTLINED_FUNCTION_325
++ _OUTLINED_FUNCTION_326
++ _OUTLINED_FUNCTION_327
++ _OUTLINED_FUNCTION_328
++ _OUTLINED_FUNCTION_329
++ _OUTLINED_FUNCTION_330
++ _OUTLINED_FUNCTION_331
++ _OUTLINED_FUNCTION_332
++ _OUTLINED_FUNCTION_333
++ _OUTLINED_FUNCTION_334
++ _OUTLINED_FUNCTION_335
++ _OUTLINED_FUNCTION_336
++ _OUTLINED_FUNCTION_337
++ _OUTLINED_FUNCTION_338
++ _OUTLINED_FUNCTION_339
++ _OUTLINED_FUNCTION_340
++ _OUTLINED_FUNCTION_341
++ _OUTLINED_FUNCTION_342
++ _OUTLINED_FUNCTION_343
++ _OUTLINED_FUNCTION_344
++ _OUTLINED_FUNCTION_345
++ _OUTLINED_FUNCTION_346
++ _OUTLINED_FUNCTION_347
++ _OUTLINED_FUNCTION_348
++ _OUTLINED_FUNCTION_349
++ _OUTLINED_FUNCTION_350
++ _OUTLINED_FUNCTION_351
++ _OUTLINED_FUNCTION_352
++ _OUTLINED_FUNCTION_353
++ _OUTLINED_FUNCTION_354
++ _OUTLINED_FUNCTION_355
++ _OUTLINED_FUNCTION_356
++ _OUTLINED_FUNCTION_357
++ _OUTLINED_FUNCTION_358
++ _OUTLINED_FUNCTION_359
++ _OUTLINED_FUNCTION_360
++ _OUTLINED_FUNCTION_361
++ _OUTLINED_FUNCTION_362
++ _OUTLINED_FUNCTION_363
++ _OUTLINED_FUNCTION_364
++ _OUTLINED_FUNCTION_365
++ _OUTLINED_FUNCTION_366
++ _OUTLINED_FUNCTION_367
++ _OUTLINED_FUNCTION_368
++ _OUTLINED_FUNCTION_369
++ _OUTLINED_FUNCTION_370
++ _OUTLINED_FUNCTION_371
++ _OUTLINED_FUNCTION_372
++ _OUTLINED_FUNCTION_373
++ _OUTLINED_FUNCTION_374
++ _OUTLINED_FUNCTION_375
++ _OUTLINED_FUNCTION_376
++ _OUTLINED_FUNCTION_377
++ _OUTLINED_FUNCTION_378
++ _OUTLINED_FUNCTION_379
++ _OUTLINED_FUNCTION_380
++ _OUTLINED_FUNCTION_381
++ _OUTLINED_FUNCTION_382
++ _OUTLINED_FUNCTION_383
++ _OUTLINED_FUNCTION_384
++ _OUTLINED_FUNCTION_385
++ _OUTLINED_FUNCTION_386
++ _OUTLINED_FUNCTION_387
++ _OUTLINED_FUNCTION_388
++ _OUTLINED_FUNCTION_389
++ _OUTLINED_FUNCTION_390
++ _OUTLINED_FUNCTION_391
++ _OUTLINED_FUNCTION_392
++ _OUTLINED_FUNCTION_393
++ _OUTLINED_FUNCTION_394
++ _OUTLINED_FUNCTION_395
++ _OUTLINED_FUNCTION_396
++ __DATA__TtC14SiriTTSService15UtteranceBuffer
++ __DATA__TtC14SiriTTSService15VoiceComparator
++ __DATA__TtC14SiriTTSService20RewindPositionFinder
++ __DATA__TtC14SiriTTSService21DaemonSwiftConnection
++ __DATA__TtC14SiriTTSService21VoiceActivityDetector
++ __DATA__TtC14SiriTTSService23SentenceBufferingAction
++ __DATA__TtC14SiriTTSService24TTSFeatureFlagsContainer
++ __DATA__TtC14SiriTTSService29VoiceAssetsProviderLocalStore
++ __INSTANCE_METHODS_SiriTTSAudioData
++ __IVARS__TtC14SiriTTSService15UtteranceBuffer
++ __IVARS__TtC14SiriTTSService15VoiceComparator
++ __IVARS__TtC14SiriTTSService20RewindPositionFinder
++ __IVARS__TtC14SiriTTSService21DaemonSwiftConnection
++ __IVARS__TtC14SiriTTSService21VoiceActivityDetector
++ __IVARS__TtC14SiriTTSService23SentenceBufferingAction
++ __IVARS__TtC14SiriTTSService29VoiceAssetsProviderLocalStore
++ __METACLASS_DATA__TtC14SiriTTSService15UtteranceBuffer
++ __METACLASS_DATA__TtC14SiriTTSService15VoiceComparator
++ __METACLASS_DATA__TtC14SiriTTSService20RewindPositionFinder
++ __METACLASS_DATA__TtC14SiriTTSService21DaemonSwiftConnection
++ __METACLASS_DATA__TtC14SiriTTSService21VoiceActivityDetector
++ __METACLASS_DATA__TtC14SiriTTSService23SentenceBufferingAction
++ __METACLASS_DATA__TtC14SiriTTSService24TTSFeatureFlagsContainer
++ __METACLASS_DATA__TtC14SiriTTSService29VoiceAssetsProviderLocalStore
++ __PROPERTIES_SiriTTSAudioData
++ __PROTOCOLS_SiriTTSAudibleContext.280
++ __PROTOCOLS_SiriTTSAudioData.25
++ __PROTOCOLS_SiriTTSAudioHintRequest.532
++ __PROTOCOLS_SiriTTSAudioRequest.320
++ __PROTOCOLS_SiriTTSInlineStreamingSignal.384
++ __PROTOCOLS_SiriTTSInstrumentationMetrics.342
++ __PROTOCOLS_SiriTTSPreviewRequest.490
++ __PROTOCOLS_SiriTTSProsodyProperties.286
++ __PROTOCOLS_SiriTTSSpeechRequest.447
++ __PROTOCOLS_SiriTTSSynthesisContext.297
++ __PROTOCOLS_SiriTTSSynthesisRequest.362
++ __PROTOCOLS_SiriTTSSynthesisResource.583
++ __PROTOCOLS_SiriTTSVoiceSubscription.378
++ __PROTOCOLS_SiriTTSWordTimingInfo.273
++ __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_0FvRKNS_6vectorIfNS_9allocatorIfEEEEEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_0FvRKNS_6vectorIfNS_9allocatorIfEEEEEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_0FvRKNS_6vectorIfNS_9allocatorIfEEEEEE7__cloneEPNS0_6__baseIS9_EE
++ __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_0FvRKNS_6vectorIfNS_9allocatorIfEEEEEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_1FvPKvEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_1FvPKvEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_1FvPKvEE7__cloneEPNS0_6__baseIS5_EE
++ __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_1FvPKvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_2FvRKNS_6vectorIN14TTSSynthesizer6MarkerENS_9allocatorIS5_EEEEEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_2FvRKNS_6vectorIN14TTSSynthesizer6MarkerENS_9allocatorIS5_EEEEEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_2FvRKNS_6vectorIN14TTSSynthesizer6MarkerENS_9allocatorIS5_EEEEEE7__cloneEPNS0_6__baseISB_EE
++ __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_2FvRKNS_6vectorIN14TTSSynthesizer6MarkerENS_9allocatorIS5_EEEEEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_3FvPKvEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_3FvPKvEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_3FvPKvEE7__cloneEPNS0_6__baseIS5_EE
++ __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_3FvPKvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_4FvPKvEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_4FvPKvEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_4FvPKvEE7__cloneEPNS0_6__baseIS5_EE
++ __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_4FvPKvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_5FvPKvEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_5FvPKvEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_5FvPKvEE7__cloneEPNS0_6__baseIS5_EE
++ __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_5FvPKvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_6FvPKvEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_6FvPKvEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_6FvPKvEE7__cloneEPNS0_6__baseIS5_EE
++ __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_6FvPKvEE7__cloneEv
++ __ZNSt12length_errorC1B9foe210106EPKc
++ __ZNSt3__110__function12__value_funcIFvPKvEED2B9foe210106Ev
++ __ZNSt3__110__function12__value_funcIFvRKNS_6vectorIN14TTSSynthesizer6MarkerENS_9allocatorIS4_EEEEEED2B9foe210106Ev
++ __ZNSt3__110__function12__value_funcIFvRKNS_6vectorIfNS_9allocatorIfEEEEEED2B9foe210106Ev
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_0FvRKNS_6vectorIfNS_9allocatorIfEEEEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_0FvRKNS_6vectorIfNS_9allocatorIfEEEEEE7destroyEv
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_0FvRKNS_6vectorIfNS_9allocatorIfEEEEEED0Ev
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_0FvRKNS_6vectorIfNS_9allocatorIfEEEEEED1Ev
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_0FvRKNS_6vectorIfNS_9allocatorIfEEEEEEclES8_
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_1FvPKvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_1FvPKvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_1FvPKvEED0Ev
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_1FvPKvEED1Ev
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_1FvPKvEEclEOS4_
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_2FvRKNS_6vectorIN14TTSSynthesizer6MarkerENS_9allocatorIS5_EEEEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_2FvRKNS_6vectorIN14TTSSynthesizer6MarkerENS_9allocatorIS5_EEEEEE7destroyEv
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_2FvRKNS_6vectorIN14TTSSynthesizer6MarkerENS_9allocatorIS5_EEEEEED0Ev
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_2FvRKNS_6vectorIN14TTSSynthesizer6MarkerENS_9allocatorIS5_EEEEEED1Ev
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_2FvRKNS_6vectorIN14TTSSynthesizer6MarkerENS_9allocatorIS5_EEEEEEclESA_
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_3FvPKvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_3FvPKvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_3FvPKvEED0Ev
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_3FvPKvEED1Ev
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_3FvPKvEEclEOS4_
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_4FvPKvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_4FvPKvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_4FvPKvEED0Ev
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_4FvPKvEED1Ev
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_4FvPKvEEclEOS4_
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_5FvPKvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_5FvPKvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_5FvPKvEED0Ev
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_5FvPKvEED1Ev
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_5FvPKvEEclEOS4_
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_6FvPKvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_6FvPKvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_6FvPKvEED0Ev
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_6FvPKvEED1Ev
++ __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_6FvPKvEEclEOS4_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106EPKcm
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106ILi0EEEPKc
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb10TTSPromptsEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSE_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb14TTSReplacementEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSE_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb14WordTimingInfoEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSE_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb15TTSWordPhonemesEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSE_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb17TTSNormalizedTextEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSE_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb18TTSPhonemeSequenceEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSE_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb20TextToSpeechRequest_16ContextInfoEntryEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSF_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb24TTSNeuralPhonemeSequenceEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSE_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb25TextToSpeechVoiceResourceEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSE_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb34StartTextToSpeechStreamingRequest_16ContextInfoEntryEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSF_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN5apple4aiml12flatbuffers26OffsetINS4_6StringEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIPKvEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__shared_weak_count16__release_sharedB9foe210106Ev
++ __ZNSt3__120__throw_length_errorB9foe210106EPKc
++ __ZNSt3__132__internal_log_hardening_failureEPKc
++ __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb10TTSPromptsEEENS_9allocatorIS9_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb14TTSReplacementEEENS_9allocatorIS9_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb14WordTimingInfoEEENS_9allocatorIS9_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb15TTSWordPhonemesEEENS_9allocatorIS9_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb17TTSNormalizedTextEEENS_9allocatorIS9_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb18TTSPhonemeSequenceEEENS_9allocatorIS9_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb20TextToSpeechRequest_16ContextInfoEntryEEENS_9allocatorISA_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb20TextToSpeechRequest_16ContextInfoEntryEEENS_9allocatorISA_EEE9push_backB9foe210106EOSA_
++ __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb24TTSNeuralPhonemeSequenceEEENS_9allocatorIS9_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb25TextToSpeechVoiceResourceEEENS_9allocatorIS9_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb34StartTextToSpeechStreamingRequest_16ContextInfoEntryEEENS_9allocatorISA_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetINS3_6StringEEENS_9allocatorIS6_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetINS3_6StringEEENS_9allocatorIS6_EEE9push_backB9foe210106EOS6_
++ __ZNSt3__16vectorINS_10shared_ptrI8ObserverEENS_9allocatorIS3_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorINS_10shared_ptrI8ObserverEENS_9allocatorIS3_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorINS_10shared_ptrI8ObserverEENS_9allocatorIS3_EEE9push_backB9foe210106ERKS3_
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB9foe210106Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE5clearB9foe210106Ev
++ __ZNSt3__16vectorIPKvNS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIsNS_9allocatorIsEEE20__throw_length_errorB9foe210106Ev
++ __ZSt28__throw_bad_array_new_lengthB9foe210106v
++ __ZTINSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_0FvRKNS_6vectorIfNS_9allocatorIfEEEEEEE
++ __ZTINSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_1FvPKvEEE
++ __ZTINSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_2FvRKNS_6vectorIN14TTSSynthesizer6MarkerENS_9allocatorIS5_EEEEEEE
++ __ZTINSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_3FvPKvEEE
++ __ZTINSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_4FvPKvEEE
++ __ZTINSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_5FvPKvEEE
++ __ZTINSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_6FvPKvEEE
++ __ZTSNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_0FvRKNS_6vectorIfNS_9allocatorIfEEEEEEE
++ __ZTSNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_1FvPKvEEE
++ __ZTSNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_2FvRKNS_6vectorIN14TTSSynthesizer6MarkerENS_9allocatorIS5_EEEEEEE
++ __ZTSNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_3FvPKvEEE
++ __ZTSNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_4FvPKvEEE
++ __ZTSNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_5FvPKvEEE
++ __ZTSNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_6FvPKvEEE
++ __ZTVNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_0FvRKNS_6vectorIfNS_9allocatorIfEEEEEEE
++ __ZTVNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_1FvPKvEEE
++ __ZTVNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_2FvRKNS_6vectorIN14TTSSynthesizer6MarkerENS_9allocatorIS5_EEEEEEE
++ __ZTVNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_3FvPKvEEE
++ __ZTVNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_4FvPKvEEE
++ __ZTVNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_5FvPKvEEE
++ __ZTVNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_6FvPKvEEE
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ ___swift_memcpy17_8
++ ___swift_memcpy25_8
++ ___swift_memcpy33_8
++ ___swift_memcpy96_8
++ ___swift_project_boxed_opaque_existential_1Tm
++ ___unnamed_46
++ _associated conformance 14SiriTTSService10DialogTypeOSHAASQ
++ _associated conformance 14SiriTTSService10DialogTypeOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 14SiriTTSService10DialogTypeOs25LosslessStringConvertibleAAs06CustomfG0
++ _associated conformance 14SiriTTSService11BaseRequestC10CodingKeysOSHAASQ
++ _associated conformance 14SiriTTSService11BaseRequestC10CodingKeysOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService11BaseRequestC10CodingKeysOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService11BaseRequestC10CodingKeysOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 14SiriTTSService12AudioRequestC10CodingKeysOSHAASQ
++ _associated conformance 14SiriTTSService12AudioRequestC10CodingKeysOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService12AudioRequestC10CodingKeysOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService12PresetVoicesV10CodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLOSHAASQ
++ _associated conformance 14SiriTTSService12PresetVoicesV10CodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService12PresetVoicesV10CodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService13DaemonSessionC20SynthesisInputStreamV5TokenOs25LosslessStringConvertibleAAs06CustomjK0
++ _associated conformance 14SiriTTSService13InternalEventO08DelegateD0O10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLOSHAASQ
++ _associated conformance 14SiriTTSService13InternalEventO08DelegateD0O10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService13InternalEventO08DelegateD0O10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService13InternalEventO08DelegateD0O14PingCodingKeys33_9F419EAAE3D228409D03DD3945607317LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService13InternalEventO08DelegateD0O14PingCodingKeys33_9F419EAAE3D228409D03DD3945607317LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService13InternalEventO08DelegateD0O24AvailableAudioCodingKeys33_9F419EAAE3D228409D03DD3945607317LLOSHAASQ
++ _associated conformance 14SiriTTSService13InternalEventO08DelegateD0O24AvailableAudioCodingKeys33_9F419EAAE3D228409D03DD3945607317LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService13InternalEventO08DelegateD0O24AvailableAudioCodingKeys33_9F419EAAE3D228409D03DD3945607317LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService13InternalEventO08DelegateD0O26DidStartSpeakingCodingKeys33_9F419EAAE3D228409D03DD3945607317LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService13InternalEventO08DelegateD0O26DidStartSpeakingCodingKeys33_9F419EAAE3D228409D03DD3945607317LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService13InternalEventO08DelegateD0O30AvailableWordTimingsCodingKeys33_9F419EAAE3D228409D03DD3945607317LLOSHAASQ
++ _associated conformance 14SiriTTSService13InternalEventO08DelegateD0O30AvailableWordTimingsCodingKeys33_9F419EAAE3D228409D03DD3945607317LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService13InternalEventO08DelegateD0O30AvailableWordTimingsCodingKeys33_9F419EAAE3D228409D03DD3945607317LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService13InternalEventO08DelegateD0O41AvailableInstrumentationMetricsCodingKeys33_9F419EAAE3D228409D03DD3945607317LLOSHAASQ
++ _associated conformance 14SiriTTSService13InternalEventO08DelegateD0O41AvailableInstrumentationMetricsCodingKeys33_9F419EAAE3D228409D03DD3945607317LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService13InternalEventO08DelegateD0O41AvailableInstrumentationMetricsCodingKeys33_9F419EAAE3D228409D03DD3945607317LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService13InternalEventO08DelegateD10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLOSHAASQ
++ _associated conformance 14SiriTTSService13InternalEventO08DelegateD10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService13InternalEventO08DelegateD10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService13InternalEventO09StreamingD0O05InputE19AvailableCodingKeys33_9F419EAAE3D228409D03DD3945607317LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService13InternalEventO09StreamingD0O05InputE19AvailableCodingKeys33_9F419EAAE3D228409D03DD3945607317LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService13InternalEventO09StreamingD0O10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLOSHAASQ
++ _associated conformance 14SiriTTSService13InternalEventO09StreamingD0O10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService13InternalEventO09StreamingD0O10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService13InternalEventO09StreamingD0OSHAASQ
++ _associated conformance 14SiriTTSService13InternalEventO09StreamingD10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLOSHAASQ
++ _associated conformance 14SiriTTSService13InternalEventO09StreamingD10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService13InternalEventO09StreamingD10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService13InternalEventO10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLOSHAASQ
++ _associated conformance 14SiriTTSService13InternalEventO10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService13InternalEventO10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService13SpeechRequestC10CodingKeysOSHAASQ
++ _associated conformance 14SiriTTSService13SpeechRequestC10CodingKeysOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService13SpeechRequestC10CodingKeysOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService13VoicePreviewsV0C12PreviewErrorOSHAASQ
++ _associated conformance 14SiriTTSService13VoicePreviewsV18InterpolationErrorOSHAASQ
++ _associated conformance 14SiriTTSService13VoicePreviewsV8MetadataV10CodingKeys33_72A1329D46BEDB9FFCDEC8F16C9E1CD1LLOSHAASQ
++ _associated conformance 14SiriTTSService13VoicePreviewsV8MetadataV10CodingKeys33_72A1329D46BEDB9FFCDEC8F16C9E1CD1LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService13VoicePreviewsV8MetadataV10CodingKeys33_72A1329D46BEDB9FFCDEC8F16C9E1CD1LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService14AudibleContextC10CodingKeysOSHAASQ
++ _associated conformance 14SiriTTSService14AudibleContextC10CodingKeysOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService14AudibleContextC10CodingKeysOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService14CharacteristicOSHAASQ
++ _associated conformance 14SiriTTSService14CharacteristicOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 14SiriTTSService14CharacteristicOs25LosslessStringConvertibleAAs06CustomeF0
++ _associated conformance 14SiriTTSService14PhonemeRequestC10CodingKeysOSHAASQ
++ _associated conformance 14SiriTTSService14PhonemeRequestC10CodingKeysOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService14PhonemeRequestC10CodingKeysOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService14PreviewRequestC10CodingKeysOSHAASQ
++ _associated conformance 14SiriTTSService14PreviewRequestC10CodingKeysOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService14PreviewRequestC10CodingKeysOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService14SynthesisVoiceC10CodingKeysOSHAASQ
++ _associated conformance 14SiriTTSService14SynthesisVoiceC10CodingKeysOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService14SynthesisVoiceC10CodingKeysOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService14VoiceAttributeO10CodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLOSHAASQ
++ _associated conformance 14SiriTTSService14VoiceAttributeO10CodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService14VoiceAttributeO10CodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService14VoiceAttributeO13AgeCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLOSHAASQ
++ _associated conformance 14SiriTTSService14VoiceAttributeO13AgeCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService14VoiceAttributeO13AgeCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService14VoiceAttributeO16AccentCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLOSHAASQ
++ _associated conformance 14SiriTTSService14VoiceAttributeO16AccentCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService14VoiceAttributeO16AccentCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService14VoiceAttributeO16GenderCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLOSHAASQ
++ _associated conformance 14SiriTTSService14VoiceAttributeO16GenderCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService14VoiceAttributeO16GenderCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService14VoiceAttributeO18DeliveryCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLOSHAASQ
++ _associated conformance 14SiriTTSService14VoiceAttributeO18DeliveryCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService14VoiceAttributeO18DeliveryCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService14VoiceAttributeO20DialogTypeCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLOSHAASQ
++ _associated conformance 14SiriTTSService14VoiceAttributeO20DialogTypeCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService14VoiceAttributeO20DialogTypeCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService14VoiceAttributeO24CharacteristicCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLOSHAASQ
++ _associated conformance 14SiriTTSService14VoiceAttributeO24CharacteristicCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService14VoiceAttributeO24CharacteristicCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService14VoiceAttributeOSHAASQ
++ _associated conformance 14SiriTTSService14WordTimingInfoC10CodingKeysOSHAASQ
++ _associated conformance 14SiriTTSService14WordTimingInfoC10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService14WordTimingInfoC10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService16AudioHintRequestC10CodingKeysOSHAASQ
++ _associated conformance 14SiriTTSService16AudioHintRequestC10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService16AudioHintRequestC10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService16SynthesisContextC10CodingKeysOSHAASQ
++ _associated conformance 14SiriTTSService16SynthesisContextC10CodingKeysOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService16SynthesisContextC10CodingKeysOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService16SynthesisRequestC10CodingKeysOSHAASQ
++ _associated conformance 14SiriTTSService16SynthesisRequestC10CodingKeysOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService16SynthesisRequestC10CodingKeysOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService17ProsodyPropertiesC10CodingKeysOSHAASQ
++ _associated conformance 14SiriTTSService17ProsodyPropertiesC10CodingKeysOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService17ProsodyPropertiesC10CodingKeysOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService17SynthesisResourceC10CodingKeysOSHAASQ
++ _associated conformance 14SiriTTSService17SynthesisResourceC10CodingKeysOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService17SynthesisResourceC10CodingKeysOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService20DaemonSwiftXPCResultO0cD11XPCResponseO10CodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOSHAASQ
++ _associated conformance 14SiriTTSService20DaemonSwiftXPCResultO0cD11XPCResponseO10CodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService20DaemonSwiftXPCResultO0cD11XPCResponseO10CodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService20DaemonSwiftXPCResultO0cD11XPCResponseO15EmptyCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService20DaemonSwiftXPCResultO0cD11XPCResponseO15EmptyCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService20DaemonSwiftXPCResultO0cD11XPCResponseO26PredefinedVoicesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOSHAASQ
++ _associated conformance 14SiriTTSService20DaemonSwiftXPCResultO0cD11XPCResponseO26PredefinedVoicesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService20DaemonSwiftXPCResultO0cD11XPCResponseO26PredefinedVoicesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService20DaemonSwiftXPCResultO0cD11XPCResponseO26SubscribedVoicesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOSHAASQ
++ _associated conformance 14SiriTTSService20DaemonSwiftXPCResultO0cD11XPCResponseO26SubscribedVoicesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService20DaemonSwiftXPCResultO0cD11XPCResponseO26SubscribedVoicesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService20DaemonSwiftXPCResultO0cD11XPCResponseO30FetchVoiceAttributesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOSHAASQ
++ _associated conformance 14SiriTTSService20DaemonSwiftXPCResultO0cD11XPCResponseO30FetchVoiceAttributesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService20DaemonSwiftXPCResultO0cD11XPCResponseO30FetchVoiceAttributesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService20DaemonSwiftXPCResultO10CodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOSHAASQ
++ _associated conformance 14SiriTTSService20DaemonSwiftXPCResultO10CodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService20DaemonSwiftXPCResultO10CodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService20DaemonSwiftXPCResultO17FailureCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOSHAASQ
++ _associated conformance 14SiriTTSService20DaemonSwiftXPCResultO17FailureCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService20DaemonSwiftXPCResultO17FailureCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService20DaemonSwiftXPCResultO17SuccessCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOSHAASQ
++ _associated conformance 14SiriTTSService20DaemonSwiftXPCResultO17SuccessCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService20DaemonSwiftXPCResultO17SuccessCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService21DaemonSwiftXPCMessageV10CodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOSHAASQ
++ _associated conformance 14SiriTTSService21DaemonSwiftXPCMessageV10CodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService21DaemonSwiftXPCMessageV10CodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService21DaemonSwiftXPCMessageV7PayloadO10CodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOSHAASQ
++ _associated conformance 14SiriTTSService21DaemonSwiftXPCMessageV7PayloadO10CodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService21DaemonSwiftXPCMessageV7PayloadO10CodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService21DaemonSwiftXPCMessageV7PayloadO15EventCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOSHAASQ
++ _associated conformance 14SiriTTSService21DaemonSwiftXPCMessageV7PayloadO15EventCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService21DaemonSwiftXPCMessageV7PayloadO15EventCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService21DaemonSwiftXPCMessageV7PayloadO23InternalEventCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOSHAASQ
++ _associated conformance 14SiriTTSService21DaemonSwiftXPCMessageV7PayloadO23InternalEventCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService21DaemonSwiftXPCMessageV7PayloadO23InternalEventCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService21DaemonSwiftXPCRequestO10CodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOSHAASQ
++ _associated conformance 14SiriTTSService21DaemonSwiftXPCRequestO10CodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService21DaemonSwiftXPCRequestO10CodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService21DaemonSwiftXPCRequestO17PrewarmCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOSHAASQ
++ _associated conformance 14SiriTTSService21DaemonSwiftXPCRequestO17PrewarmCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService21DaemonSwiftXPCRequestO17PrewarmCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService21DaemonSwiftXPCRequestO26PredefinedVoicesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService21DaemonSwiftXPCRequestO26PredefinedVoicesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService21DaemonSwiftXPCRequestO26SubscribedVoicesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOSHAASQ
++ _associated conformance 14SiriTTSService21DaemonSwiftXPCRequestO26SubscribedVoicesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService21DaemonSwiftXPCRequestO26SubscribedVoicesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService21DaemonSwiftXPCRequestO30FetchVoiceAttributesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOSHAASQ
++ _associated conformance 14SiriTTSService21DaemonSwiftXPCRequestO30FetchVoiceAttributesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService21DaemonSwiftXPCRequestO30FetchVoiceAttributesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService22InstrumentationMetricsC10CodingKeysOSHAASQ
++ _associated conformance 14SiriTTSService22InstrumentationMetricsC10CodingKeysOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService22InstrumentationMetricsC10CodingKeysOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService24TTSFeatureFlagsContainerC3KeyOSHAASQ
++ _associated conformance 14SiriTTSService25PersonalizationVoiceErrorOSHAASQ
++ _associated conformance 14SiriTTSService26SynthesisVoiceSubscriptionC10CodingKeysOSHAASQ
++ _associated conformance 14SiriTTSService26SynthesisVoiceSubscriptionC10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService26SynthesisVoiceSubscriptionC10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService3AgeOSHAASQ
++ _associated conformance 14SiriTTSService3AgeOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 14SiriTTSService3AgeOs25LosslessStringConvertibleAAs06CustomeF0
++ _associated conformance 14SiriTTSService5EventO09StreamingC0O10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLOSHAASQ
++ _associated conformance 14SiriTTSService5EventO09StreamingC0O10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService5EventO09StreamingC0O10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService5EventO09StreamingC0O23UtteranceSentCodingKeys33_9F419EAAE3D228409D03DD3945607317LLOSHAASQ
++ _associated conformance 14SiriTTSService5EventO09StreamingC0O23UtteranceSentCodingKeys33_9F419EAAE3D228409D03DD3945607317LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService5EventO09StreamingC0O23UtteranceSentCodingKeys33_9F419EAAE3D228409D03DD3945607317LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService5EventO09StreamingC0O29NewSynthesisStartedCodingKeys33_9F419EAAE3D228409D03DD3945607317LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService5EventO09StreamingC0O29NewSynthesisStartedCodingKeys33_9F419EAAE3D228409D03DD3945607317LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService5EventO09StreamingC0OSHAASQ
++ _associated conformance 14SiriTTSService5EventO09StreamingC10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLOSHAASQ
++ _associated conformance 14SiriTTSService5EventO09StreamingC10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService5EventO09StreamingC10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService5EventO10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLOSHAASQ
++ _associated conformance 14SiriTTSService5EventO10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService5EventO10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService5VoiceV10CodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLOSHAASQ
++ _associated conformance 14SiriTTSService5VoiceV10CodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService5VoiceV10CodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService6AccentOSHAASQ
++ _associated conformance 14SiriTTSService6AccentOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 14SiriTTSService6AccentOs25LosslessStringConvertibleAAs06CustomeF0
++ _associated conformance 14SiriTTSService6GenderOSHAASQ
++ _associated conformance 14SiriTTSService6GenderOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 14SiriTTSService6GenderOs25LosslessStringConvertibleAAs06CustomeF0
++ _associated conformance 14SiriTTSService8DeliveryOSHAASQ
++ _associated conformance 14SiriTTSService8DeliveryOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 14SiriTTSService8DeliveryOs25LosslessStringConvertibleAAs06CustomeF0
++ _associated conformance 14SiriTTSService8TTSErrorV10CodingKeys33_0A84D2FC09A972496B255FDE705A3186LLOSHAASQ
++ _associated conformance 14SiriTTSService8TTSErrorV10CodingKeys33_0A84D2FC09A972496B255FDE705A3186LLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService8TTSErrorV10CodingKeys33_0A84D2FC09A972496B255FDE705A3186LLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14SiriTTSService9AudioDataC10CodingKeysOSHAASQ
++ _associated conformance 14SiriTTSService9AudioDataC10CodingKeysOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 14SiriTTSService9AudioDataC10CodingKeysOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance So17CMSampleBufferRefa14CoreFoundation9_CFObjectSCSH
++ _associated conformance So17CMSampleBufferRefaSHSCSQ
++ _block_copy_helper.105
++ _block_copy_helper.108
++ _block_copy_helper.109
++ _block_copy_helper.119
++ _block_copy_helper.128
++ _block_copy_helper.134
++ _block_copy_helper.140
++ _block_copy_helper.146
++ _block_copy_helper.15
++ _block_copy_helper.152
++ _block_copy_helper.157
++ _block_copy_helper.181
++ _block_copy_helper.191
++ _block_copy_helper.201
++ _block_copy_helper.210
++ _block_copy_helper.216
++ _block_copy_helper.228
++ _block_copy_helper.242
++ _block_copy_helper.27
++ _block_copy_helper.30
++ _block_copy_helper.36
++ _block_copy_helper.422
++ _block_copy_helper.425
++ _block_copy_helper.428
++ _block_copy_helper.431
++ _block_copy_helper.445
++ _block_copy_helper.474
++ _block_copy_helper.48
++ _block_copy_helper.488
++ _block_copy_helper.527
++ _block_copy_helper.54
++ _block_copy_helper.541
++ _block_copy_helper.556
++ _block_copy_helper.584
++ _block_copy_helper.60
++ _block_copy_helper.605
++ _block_copy_helper.62
++ _block_copy_helper.626
++ _block_copy_helper.647
++ _block_copy_helper.66
++ _block_copy_helper.665
++ _block_copy_helper.666
++ _block_copy_helper.671
++ _block_copy_helper.677
++ _block_copy_helper.683
++ _block_copy_helper.702
++ _block_copy_helper.72
++ _block_copy_helper.78
++ _block_copy_helper.80
++ _block_copy_helper.84
++ _block_copy_helper.9
++ _block_copy_helper.96
++ _block_descriptor.107
++ _block_descriptor.11
++ _block_descriptor.110
++ _block_descriptor.111
++ _block_descriptor.121
++ _block_descriptor.130
++ _block_descriptor.136
++ _block_descriptor.142
++ _block_descriptor.148
++ _block_descriptor.154
++ _block_descriptor.159
++ _block_descriptor.17
++ _block_descriptor.183
++ _block_descriptor.193
++ _block_descriptor.203
++ _block_descriptor.212
++ _block_descriptor.218
++ _block_descriptor.230
++ _block_descriptor.244
++ _block_descriptor.29
++ _block_descriptor.32
++ _block_descriptor.38
++ _block_descriptor.424
++ _block_descriptor.427
++ _block_descriptor.430
++ _block_descriptor.433
++ _block_descriptor.447
++ _block_descriptor.476
++ _block_descriptor.490
++ _block_descriptor.50
++ _block_descriptor.529
++ _block_descriptor.543
++ _block_descriptor.558
++ _block_descriptor.56
++ _block_descriptor.586
++ _block_descriptor.607
++ _block_descriptor.62
++ _block_descriptor.628
++ _block_descriptor.64
++ _block_descriptor.649
++ _block_descriptor.667
++ _block_descriptor.668
++ _block_descriptor.673
++ _block_descriptor.679
++ _block_descriptor.68
++ _block_descriptor.685
++ _block_descriptor.704
++ _block_descriptor.74
++ _block_descriptor.80
++ _block_descriptor.82
++ _block_descriptor.86
++ _block_descriptor.98
++ _block_destroy_helper.10
++ _block_destroy_helper.106
++ _block_destroy_helper.109
++ _block_destroy_helper.110
++ _block_destroy_helper.120
++ _block_destroy_helper.129
++ _block_destroy_helper.135
++ _block_destroy_helper.141
++ _block_destroy_helper.147
++ _block_destroy_helper.153
++ _block_destroy_helper.158
++ _block_destroy_helper.16
++ _block_destroy_helper.182
++ _block_destroy_helper.192
++ _block_destroy_helper.202
++ _block_destroy_helper.211
++ _block_destroy_helper.217
++ _block_destroy_helper.229
++ _block_destroy_helper.243
++ _block_destroy_helper.28
++ _block_destroy_helper.31
++ _block_destroy_helper.37
++ _block_destroy_helper.423
++ _block_destroy_helper.426
++ _block_destroy_helper.429
++ _block_destroy_helper.432
++ _block_destroy_helper.446
++ _block_destroy_helper.475
++ _block_destroy_helper.489
++ _block_destroy_helper.49
++ _block_destroy_helper.528
++ _block_destroy_helper.542
++ _block_destroy_helper.55
++ _block_destroy_helper.557
++ _block_destroy_helper.585
++ _block_destroy_helper.606
++ _block_destroy_helper.61
++ _block_destroy_helper.627
++ _block_destroy_helper.63
++ _block_destroy_helper.648
++ _block_destroy_helper.666
++ _block_destroy_helper.667
++ _block_destroy_helper.67
++ _block_destroy_helper.672
++ _block_destroy_helper.678
++ _block_destroy_helper.684
++ _block_destroy_helper.703
++ _block_destroy_helper.73
++ _block_destroy_helper.79
++ _block_destroy_helper.81
++ _block_destroy_helper.85
++ _block_destroy_helper.97
++ _get_enum_tag_for_layout_string 14SiriTTSService13InternalEventO
++ _get_enum_tag_for_layout_string 14SiriTTSService13InternalEventO08DelegateD0O
++ _get_enum_tag_for_layout_string 14SiriTTSService20DaemonSwiftXPCResultO
++ _get_enum_tag_for_layout_string 14SiriTTSService20DaemonSwiftXPCResultO0cD11XPCResponseO
++ _get_enum_tag_for_layout_string 14SiriTTSService21DaemonSwiftXPCMessageV7PayloadO
++ _get_enum_tag_for_layout_string 14SiriTTSService21DaemonSwiftXPCRequestO
++ _get_type_metadata 15Synchronization5MutexVy10Foundation3URLVSgG noncopyable.17
++ _get_type_metadata 15Synchronization5MutexVy14SiriTTSService19AudioPowerProviding_pSgG noncopyable.18
++ _get_type_metadata 15Synchronization5MutexVy14SiriTTSService25AudioPlaybackServiceStateOG noncopyable.59
++ _get_type_metadata 15Synchronization5MutexVySSSgG noncopyable.22
++ _get_type_metadata 15Synchronization5MutexVySaySSGSgG noncopyable.21
++ _get_type_metadata 15Synchronization5MutexVySbG noncopyable.18
++ _get_type_metadata 15Synchronization5MutexVySiG noncopyable.19
++ _get_type_metadata 15Synchronization5MutexVySo12TTSAssetTypeCSgG noncopyable.6
++ _get_type_metadata 15Synchronization5MutexVySo8NSNumberCSgG noncopyable.20
++ _get_type_metadata SHRzr0_l15Synchronization5MutexVySDyxq_GG noncopyable.1
++ _objc_msgSend$URLForDirectory:inDomain:appropriateForURL:create:error:
++ _objc_msgSend$URLForResource:withExtension:
++ _objc_msgSend$URLForResource:withExtension:subdirectory:
++ _objc_msgSend$URLsForResourcesWithExtension:subdirectory:
++ _objc_msgSend$_gryphonVoiceCompatibility
++ _objc_msgSend$acquireWithError:
++ _objc_msgSend$addBoundaryTimeObserverForTimes:queue:usingBlock:
++ _objc_msgSend$addKeyValueArray:with:
++ _objc_msgSend$addObserver:selector:name:object:
++ _objc_msgSend$addObserverForName:object:queue:usingBlock:
++ _objc_msgSend$addRenderer:
++ _objc_msgSend$adjustVolumeWithAccessoryId:volume:rampTime:didFinish:
++ _objc_msgSend$allCompactResources
++ _objc_msgSend$appendStreamTaskWithId:tokenString:reply:
++ _objc_msgSend$archivedDataWithRootObject:requiringSecureCoding:error:
++ _objc_msgSend$asbd
++ _objc_msgSend$assetNamed:
++ _objc_msgSend$assetNamed:withUsage:
++ _objc_msgSend$assetType
++ _objc_msgSend$assets
++ _objc_msgSend$assistantVoiceMaps
++ _objc_msgSend$attachProgressCallBack:
++ _objc_msgSend$attributeWithDomain:name:
++ _objc_msgSend$attributes
++ _objc_msgSend$audioBufferList
++ _objc_msgSend$audioData
++ _objc_msgSend$audioInfo
++ _objc_msgSend$audioInterface
++ _objc_msgSend$audioSession
++ _objc_msgSend$bitsPerChannel
++ _objc_msgSend$boolForKey:
++ _objc_msgSend$broadcast
++ _objc_msgSend$bufferDuration
++ _objc_msgSend$bundleForClass:
++ _objc_msgSend$bundleIdentifier
++ _objc_msgSend$bundlePath
++ _objc_msgSend$bundleURL
++ _objc_msgSend$bundleWithIdentifier:
++ _objc_msgSend$bytesPerFrame
++ _objc_msgSend$bytesPerPacket
++ _objc_msgSend$cancel
++ _objc_msgSend$cancelDownload:
++ _objc_msgSend$cancelWithRequest:
++ _objc_msgSend$captureSnapshot
++ _objc_msgSend$channelsPerFrame
++ _objc_msgSend$clearDeviceCacheWithDidFinish:
++ _objc_msgSend$closeAndReturnError:
++ _objc_msgSend$closeFile
++ _objc_msgSend$code
++ _objc_msgSend$collectTailspinToFile:minTimestamp:completion:
++ _objc_msgSend$compileANEModel:error:
++ _objc_msgSend$completedPercent
++ _objc_msgSend$containsObject:
++ _objc_msgSend$contentVersion
++ _objc_msgSend$contentsOfDirectoryAtURL:includingPropertiesForKeys:options:error:
++ _objc_msgSend$convertLanguageCodeToSchemaLocale:
++ _objc_msgSend$convertToBuffer:error:withInputFromBlock:
++ _objc_msgSend$createDirectoryAtURL:withIntermediateDirectories:attributes:error:
++ _objc_msgSend$createFileAtPath:contents:attributes:
++ _objc_msgSend$currentProcess
++ _objc_msgSend$currentSampleRate:
++ _objc_msgSend$currentTime
++ _objc_msgSend$dataTaskWithRequest:completionHandler:
++ _objc_msgSend$dataWithJSONObject:options:error:
++ _objc_msgSend$debugDescription
++ _objc_msgSend$decodeBoolForKey:
++ _objc_msgSend$decodeDoubleForKey:
++ _objc_msgSend$decodeFloatForKey:
++ _objc_msgSend$decodeInt32ForKey:
++ _objc_msgSend$decodeInt64ForKey:
++ _objc_msgSend$decodeIntegerForKey:
++ _objc_msgSend$decoderStreamDescription
++ _objc_msgSend$defaultCenter
++ _objc_msgSend$defaultMessageStream
++ _objc_msgSend$defaultOutput
++ _objc_msgSend$defaultSessionConfiguration
++ _objc_msgSend$derivedIdentifierForComponentName:fromSourceIdentifier:
++ _objc_msgSend$description
++ _objc_msgSend$dictionaryForKey:
++ _objc_msgSend$didGenerateAudioWithRequestId:audio:
++ _objc_msgSend$didGenerateWordTimingsWithRequestId:wordTimingInfo:
++ _objc_msgSend$didReportInstrumentWithRequestId:instrumentationMetrics:
++ _objc_msgSend$didStartSpeakingWithRequestId:
++ _objc_msgSend$domain
++ _objc_msgSend$downloadStatus
++ _objc_msgSend$downloadStatusForSubscribers:
++ _objc_msgSend$downloadWithOptions:progress:then:
++ _objc_msgSend$downloadedVoicesMatching:reply:
++ _objc_msgSend$downloading
++ _objc_msgSend$emitMessage:
++ _objc_msgSend$emitMessage:isolatedStreamUUID:
++ _objc_msgSend$encodeBool:forKey:
++ _objc_msgSend$encodeDouble:forKey:
++ _objc_msgSend$encodeFloat:forKey:
++ _objc_msgSend$encodeInt32:forKey:
++ _objc_msgSend$encodeInt64:forKey:
++ _objc_msgSend$encodeInteger:forKey:
++ _objc_msgSend$enqueueSampleBuffer:
++ _objc_msgSend$enumerateMatchesInString:options:range:usingBlock:
++ _objc_msgSend$errorCode
++ _objc_msgSend$errorMessage
++ _objc_msgSend$estimateDurationWithRequest:reply:
++ _objc_msgSend$event:eventData:
++ _objc_msgSend$eventMetadata
++ _objc_msgSend$expectedTimeRemaining
++ _objc_msgSend$fetchAttributesWithVoice:reply:
++ _objc_msgSend$fileExistsAtPath:
++ _objc_msgSend$fileExistsAtPath:isDirectory:
++ _objc_msgSend$fileHandleForUpdatingAtPath:
++ _objc_msgSend$fileHandleForUpdatingURL:error:
++ _objc_msgSend$floatForKey:
++ _objc_msgSend$flush
++ _objc_msgSend$format
++ _objc_msgSend$formatFlags
++ _objc_msgSend$formatID
++ _objc_msgSend$forwardWithStreamObject:
++ _objc_msgSend$frameLength
++ _objc_msgSend$framesPerPacket
++ _objc_msgSend$generateTTSPhonemes:voicePath:phonemeSystem:error:
++ _objc_msgSend$getAudioPowerWithAccessoryId:reply:
++ _objc_msgSend$getBytes:length:
++ _objc_msgSend$getLocalFileUrl
++ _objc_msgSend$getLocalUrl
++ _objc_msgSend$getSynthesisVoiceMatching:reply:
++ _objc_msgSend$globallyUniqueString
++ _objc_msgSend$infoDictionary
++ _objc_msgSend$initFromFormat:toFormat:
++ _objc_msgSend$initWithArray:
++ _objc_msgSend$initWithContentsOfURL:
++ _objc_msgSend$initWithContentsOfURL:error:
++ _objc_msgSend$initWithData:
++ _objc_msgSend$initWithDomain:code:userInfo:
++ _objc_msgSend$initWithExplanation:target:attributes:
++ _objc_msgSend$initWithFormat:packetCapacity:maximumPacketSize:
++ _objc_msgSend$initWithMachServiceName:options:
++ _objc_msgSend$initWithNSUUID:
++ _objc_msgSend$initWithName:assetSets:usageAliases:
++ _objc_msgSend$initWithPCMFormat:frameCapacity:
++ _objc_msgSend$initWithPath:
++ _objc_msgSend$initWithPattern:options:error:
++ _objc_msgSend$initWithStreamDescription:
++ _objc_msgSend$initWithString:
++ _objc_msgSend$initWithSuiteName:
++ _objc_msgSend$initWithType:
++ _objc_msgSend$initWithURL:
++ _objc_msgSend$initWithUnit:
++ _objc_msgSend$initWithUnsignedLongLong:
++ _objc_msgSend$initWithVoicePath:resourcePath:error:
++ _objc_msgSend$integerForKey:
++ _objc_msgSend$interfaceWithProtocol:
++ _objc_msgSend$internalEvent:internalEventData:
++ _objc_msgSend$invalidate
++ _objc_msgSend$invalidateWithQueue:completion:
++ _objc_msgSend$invokeDaemon
++ _objc_msgSend$isANEModelCompiled:
++ _objc_msgSend$isANEModelCompiledMatching:reply:
++ _objc_msgSend$isANEOnly
++ _objc_msgSend$isAppleProduct
++ _objc_msgSend$isBluetooth
++ _objc_msgSend$isCancelled
++ _objc_msgSend$isCatalogFetchedWithinThePastFewDays:
++ _objc_msgSend$isDeletableFileAtPath:
++ _objc_msgSend$isH12Platform
++ _objc_msgSend$isLowPowerModeEnabled
++ _objc_msgSend$isManaged
++ _objc_msgSend$isNaturalPlatform
++ _objc_msgSend$isNeuralPlatform
++ _objc_msgSend$isNeuralVoiceReady:
++ _objc_msgSend$isReadyForMoreMediaData
++ _objc_msgSend$isSpeakingWithAccessoryId:reply:
++ _objc_msgSend$keepActive:reply:
++ _objc_msgSend$killDaemon
++ _objc_msgSend$languageCode
++ _objc_msgSend$linkId
++ _objc_msgSend$loadResourceWithPath:error:
++ _objc_msgSend$localizedDescription
++ _objc_msgSend$locallyAvailable
++ _objc_msgSend$location
++ _objc_msgSend$logWithEventContext:ttsIdentifier:
++ _objc_msgSend$loggerForCurrentProcess
++ _objc_msgSend$mainBundle
++ _objc_msgSend$maximumOutputPacketSize
++ _objc_msgSend$metadata
++ _objc_msgSend$mutableAudioBufferList
++ _objc_msgSend$numberOfMatchesInString:options:range:
++ _objc_msgSend$objectForInfoDictionaryKey:
++ _objc_msgSend$objectForKey:
++ _objc_msgSend$observeAssetSet:queue:handler:
++ _objc_msgSend$opaqueSessionID
++ _objc_msgSend$operatingSystemVersion
++ _objc_msgSend$packetCount
++ _objc_msgSend$packetDescriptions
++ _objc_msgSend$parse
++ _objc_msgSend$parse:
++ _objc_msgSend$pathComponent
++ _objc_msgSend$pauseWithRequest:
++ _objc_msgSend$pingWithReply:
++ _objc_msgSend$postNotificationName:object:
++ _objc_msgSend$predefinedVoicesWithReply:
++ _objc_msgSend$preheatWithError:
++ _objc_msgSend$prewarmWithRequest:reply:
++ _objc_msgSend$processInfo
++ _objc_msgSend$productId
++ _objc_msgSend$propertyListWithData:options:format:error:
++ _objc_msgSend$purge:
++ _objc_msgSend$purgeImmediately:
++ _objc_msgSend$purgeSync
++ _objc_msgSend$purgeThen:
++ _objc_msgSend$queryMetaDataSync
++ _objc_msgSend$queryPhaticCapabilityWithVoice:reply:
++ _objc_msgSend$queryWordTimingSupportWithVoice:reply:
++ _objc_msgSend$rangeAtIndex:
++ _objc_msgSend$rangeValue
++ _objc_msgSend$readDataOfLength:
++ _objc_msgSend$refreshState
++ _objc_msgSend$remoteObjectProxyWithErrorHandler:
++ _objc_msgSend$removeItemAtPath:error:
++ _objc_msgSend$removeItemAtURL:error:
++ _objc_msgSend$removeObjectForKey:
++ _objc_msgSend$removeObserver:
++ _objc_msgSend$removeObserver:name:object:
++ _objc_msgSend$removeTimeObserver:
++ _objc_msgSend$renderers
++ _objc_msgSend$reportAnalytics:tailspin:reason:
++ _objc_msgSend$reporterID
++ _objc_msgSend$requestMediaDataWhenReadyOnQueue:usingBlock:
++ _objc_msgSend$requestedVoiceContext
++ _objc_msgSend$reset
++ _objc_msgSend$resourceLanguage
++ _objc_msgSend$resourceURL
++ _objc_msgSend$resourceVersion
++ _objc_msgSend$results
++ _objc_msgSend$resume
++ _objc_msgSend$resumeWithRequest:
++ _objc_msgSend$retrieveAssetSet:usages:
++ _objc_msgSend$retrieveSessionWithID:
++ _objc_msgSend$returnTypes:
++ _objc_msgSend$routeType
++ _objc_msgSend$sampleRate
++ _objc_msgSend$seekToOffset:error:
++ _objc_msgSend$setAceViewId:
++ _objc_msgSend$setActive:error:
++ _objc_msgSend$setActive:withOptions:error:
++ _objc_msgSend$setAllowsExpensiveAccess:
++ _objc_msgSend$setAppId:
++ _objc_msgSend$setAssetSelectionLatencyInSecond:
++ _objc_msgSend$setAudioHandler:
++ _objc_msgSend$setAudioInterface:
++ _objc_msgSend$setAudioOutputRoute:
++ _objc_msgSend$setAudioQueueLatencyInSecond:
++ _objc_msgSend$setAudioSession:
++ _objc_msgSend$setByteLength:
++ _objc_msgSend$setCancelled:
++ _objc_msgSend$setCategory:mode:options:error:
++ _objc_msgSend$setClasses:forSelector:argumentIndex:ofReply:
++ _objc_msgSend$setClientId:
++ _objc_msgSend$setCompletionBlock:
++ _objc_msgSend$setComponent:
++ _objc_msgSend$setContext:
++ _objc_msgSend$setContextId:
++ _objc_msgSend$setCustomerPerceivedLatencyInSecond:
++ _objc_msgSend$setDelaysRateChangeUntilHasSufficientMediaData:
++ _objc_msgSend$setDelegate:
++ _objc_msgSend$setDisableThermalFallback:
++ _objc_msgSend$setDiscretionary:
++ _objc_msgSend$setDoNotBlockBeforeFirstUnlock:
++ _objc_msgSend$setDoNotBlockOnNetworkStatus:
++ _objc_msgSend$setDynamicPromptHandler:
++ _objc_msgSend$setEnded:
++ _objc_msgSend$setErrorCodes:
++ _objc_msgSend$setEventMetadata:
++ _objc_msgSend$setExists:
++ _objc_msgSend$setExperimentId:
++ _objc_msgSend$setExportedInterface:
++ _objc_msgSend$setExportedObject:
++ _objc_msgSend$setFailed:
++ _objc_msgSend$setFrameLength:
++ _objc_msgSend$setInputTextLength:
++ _objc_msgSend$setInterruptionHandler:
++ _objc_msgSend$setInvalidationHandler:
++ _objc_msgSend$setIsWarmStart:
++ _objc_msgSend$setLinkId:
++ _objc_msgSend$setLlmStylePrompt:
++ _objc_msgSend$setMimeType:
++ _objc_msgSend$setNeuralFallbackHandler:
++ _objc_msgSend$setNeuralSentenceDuration:
++ _objc_msgSend$setNeuralSentenceEnergy:
++ _objc_msgSend$setNeuralSentencePitch:
++ _objc_msgSend$setNeuralSentencePitchRange:
++ _objc_msgSend$setNeuralSentenceTilt:
++ _objc_msgSend$setObject:forKey:
++ _objc_msgSend$setPacketCount:
++ _objc_msgSend$setPreferredType:
++ _objc_msgSend$setProductId:
++ _objc_msgSend$setProfile:
++ _objc_msgSend$setPromptCount:
++ _objc_msgSend$setPromptHandler:
++ _objc_msgSend$setPromptStyle:
++ _objc_msgSend$setRate:time:
++ _objc_msgSend$setRemoteObjectInterface:
++ _objc_msgSend$setRequestCreatedTime:
++ _objc_msgSend$setRequestId:
++ _objc_msgSend$setRequestReceived:
++ _objc_msgSend$setRequestReceivedTier1:
++ _objc_msgSend$setRequestedVoiceContext:
++ _objc_msgSend$setRequiresPowerPluggedIn:
++ _objc_msgSend$setResourceVersion:
++ _objc_msgSend$setServerLogs:
++ _objc_msgSend$setSource:
++ _objc_msgSend$setSpeechContext:
++ _objc_msgSend$setSpeechId:
++ _objc_msgSend$setStartedOrChanged:
++ _objc_msgSend$setStreamId:
++ _objc_msgSend$setString:
++ _objc_msgSend$setSynthesisContext:
++ _objc_msgSend$setSynthesisEffect:
++ _objc_msgSend$setSynthesisIssueHandler:
++ _objc_msgSend$setSynthesisLatencyInSecond:
++ _objc_msgSend$setSynthesisRealTimeFactor:
++ _objc_msgSend$setSynthesisSource:
++ _objc_msgSend$setSynthesizedAudioDurationInSecond:
++ _objc_msgSend$setTag:
++ _objc_msgSend$setTarget:
++ _objc_msgSend$setTextToSynthesize:
++ _objc_msgSend$setThermalLevel:
++ _objc_msgSend$setThermalState:
++ _objc_msgSend$setTimeoutIntervalForRequest:
++ _objc_msgSend$setTimeoutIntervalForResource:
++ _objc_msgSend$setTtsId:
++ _objc_msgSend$setUseHydraFrontendHandler:
++ _objc_msgSend$setUuid:
++ _objc_msgSend$setVendorId:
++ _objc_msgSend$setVoiceAccent:
++ _objc_msgSend$setVoiceContext:
++ _objc_msgSend$setVoiceFallbackOccurred:
++ _objc_msgSend$setVoiceFootprint:
++ _objc_msgSend$setVoiceGender:
++ _objc_msgSend$setVoiceName:
++ _objc_msgSend$setVoiceSettings:
++ _objc_msgSend$setVoiceType:
++ _objc_msgSend$setVoiceVersion:
++ _objc_msgSend$setWordAlignmentFailureHandler:
++ _objc_msgSend$setWordTimingsHandler:
++ _objc_msgSend$sharedAnalytics
++ _objc_msgSend$sharedInstance
++ _objc_msgSend$sharedManager
++ _objc_msgSend$sharedSession
++ _objc_msgSend$shouldUseNeuralVoice:
++ _objc_msgSend$signal
++ _objc_msgSend$signalWithInlineStreaming:
++ _objc_msgSend$sleepForTimeInterval:
++ _objc_msgSend$speakWithAudioRequest:reply:
++ _objc_msgSend$speakWithPreviewRequest:reply:
++ _objc_msgSend$speakWithSpeechRequest:reply:
++ _objc_msgSend$speechSynthesisResource
++ _objc_msgSend$speechSynthesisVoice
++ _objc_msgSend$start
++ _objc_msgSend$startCatalogDownload:options:then:
++ _objc_msgSend$startDownload:then:
++ _objc_msgSend$startStreamWithSpeechRequestData:reply:
++ _objc_msgSend$startTime
++ _objc_msgSend$state
++ _objc_msgSend$status
++ _objc_msgSend$statusCode
++ _objc_msgSend$stopRequestingMediaData
++ _objc_msgSend$stopSynthesis
++ _objc_msgSend$streamDescription
++ _objc_msgSend$streamId
++ _objc_msgSend$streamTTS:beginHandler:chunkHandler:completion:
++ _objc_msgSend$streamingPlaybackBufferSize
++ _objc_msgSend$string
++ _objc_msgSend$stringForKey:
++ _objc_msgSend$subscribe:subscriptions:queue:completion:
++ _objc_msgSend$subscribeWithVoices:clientId:accessoryId:reply:
++ _objc_msgSend$subscribedVoicesWithClientId:reply:
++ _objc_msgSend$subscriptionsForSubscriber:
++ _objc_msgSend$supportWordTiming
++ _objc_msgSend$synchronousRemoteObjectProxyWithErrorHandler:
++ _objc_msgSend$synthesize:error:
++ _objc_msgSend$synthesizeWithRequest:reply:
++ _objc_msgSend$tag
++ _objc_msgSend$temporaryDirectory
++ _objc_msgSend$textRange
++ _objc_msgSend$textToPhonemeWithRequest:reply:
++ _objc_msgSend$thermalState
++ _objc_msgSend$timingInfos
++ _objc_msgSend$totalExpected
++ _objc_msgSend$totalWritten
++ _objc_msgSend$unsignedIntValue
++ _objc_msgSend$unsubscribe:subscriptionNames:queue:completion:
++ _objc_msgSend$updateAssetsForSubscribers:policies:queue:detailedProgress:completion:
++ _objc_msgSend$valueForEntitlement:
++ _objc_msgSend$valueWithCMTime:
++ _objc_msgSend$valueWithRange:
++ _objc_msgSend$vendorId
++ _objc_msgSend$voiceContext
++ _objc_msgSend$voiceFootprint
++ _objc_msgSend$voiceGender
++ _objc_msgSend$voiceLanguage
++ _objc_msgSend$voicePath
++ _objc_msgSend$voiceSettings
++ _objc_msgSend$voiceType
++ _objc_msgSend$voiceVersion
++ _objc_msgSend$wait
++ _objc_msgSend$waitForCatalogUpdates
++ _objc_msgSend$waitUntilDate:
++ _objc_msgSend$wasLocal
++ _objc_msgSend$wasPurgeable
++ _objc_msgSend$wordTimingInfoList
++ _objectdestroy.19Tm
++ _objectdestroy.31Tm
++ _objectdestroy.37Tm
++ _objectdestroy.675Tm
++ _objectdestroy.735Tm
++ _objectdestroy.76Tm
++ _objectdestroyTm
++ _swift_cvw_enumFn_getEnumTag
++ _swift_getAssociatedConformanceWitness
++ _swift_task_alloc
++ _swift_task_create
++ _swift_task_dealloc
++ _swift_task_switch
++ _swift_willThrowTypedImpl
++ _symbolic $s14SiriTTSService17SingleValueCodingP
++ _symbolic $s14SiriTTSService17WeightedAttributeP
++ _symbolic $s14SiriTTSService19VoiceAssetsProviderP
++ _symbolic $s14SiriTTSService22AudioVolumeControllingP
++ _symbolic $s14SiriTTSService24AudioPlaybackControllingP
++ _symbolic SE_p
++ _symbolic SS4text_t
++ _symbolic SSSg8clientId_t
++ _symbolic SaySdG
++ _symbolic SaySdGSg
++ _symbolic Say_____G 14SiriTTSService10DialogTypeO
++ _symbolic Say_____G 14SiriTTSService11BaseRequestC10CodingKeysO
++ _symbolic Say_____G 14SiriTTSService14CharacteristicO
++ _symbolic Say_____G 14SiriTTSService14VoiceAttributeO
++ _symbolic Say_____G 14SiriTTSService20RewindPositionFinderC0C6Marker33_D074378E45DF23C69F519544CB6674D2LLV
++ _symbolic Say_____G 14SiriTTSService21VoiceActivityDetectorC14RMSFrameResult33_D3B59B67C5A121B7D84C1035CD77FC32LLV
++ _symbolic Say_____G 14SiriTTSService3AgeO
++ _symbolic Say_____G 14SiriTTSService5VoiceV
++ _symbolic Say_____G 14SiriTTSService6AccentO
++ _symbolic Say_____G 14SiriTTSService6GenderO
++ _symbolic Say_____G 14SiriTTSService8DeliveryO
++ _symbolic Say_____G11wordTimings_t 14SiriTTSService14WordTimingInfoC
++ _symbolic Say_____GSg 14SiriTTSService14VoiceAttributeO
++ _symbolic ScA_pSg
++ _symbolic ScCySay_____G______pG 14SiriTTSService14SynthesisVoiceC s5ErrorP
++ _symbolic ScCySay_____G______pG 14SiriTTSService14VoiceAttributeO s5ErrorP
++ _symbolic ScCy___________pG 14SiriTTSService20DaemonSwiftXPCResultO0cD11XPCResponseO s5ErrorP
++ _symbolic ScCyyt______pG s5ErrorP
++ _symbolic ScPSg
++ _symbolic Shy_____G 14SiriTTSService14CharacteristicO
++ _symbolic Shy_____G 14SiriTTSService8DeliveryO
++ _symbolic Shy_____GSg 14SiriTTSService14CharacteristicO
++ _symbolic Shy_____GSg 14SiriTTSService8DeliveryO
++ _symbolic So11NLTokenizerC
++ _symbolic Ss_Sst
++ _symbolic _____ 14SiriTTSService10AudioTrackV
++ _symbolic _____ 14SiriTTSService10DialogTypeO
++ _symbolic _____ 14SiriTTSService11BaseRequestC10CodingKeysO
++ _symbolic _____ 14SiriTTSService12AudioRequestC10CodingKeysO
++ _symbolic _____ 14SiriTTSService12PresetVoicesV
++ _symbolic _____ 14SiriTTSService12PresetVoicesV10CodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLO
++ _symbolic _____ 14SiriTTSService13DaemonSessionC20SynthesisInputStreamV
++ _symbolic _____ 14SiriTTSService13DaemonSessionC20SynthesisInputStreamV5TokenO
++ _symbolic _____ 14SiriTTSService13InternalEventO
++ _symbolic _____ 14SiriTTSService13InternalEventO08DelegateD0O
++ _symbolic _____ 14SiriTTSService13InternalEventO08DelegateD0O10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____ 14SiriTTSService13InternalEventO08DelegateD0O14PingCodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____ 14SiriTTSService13InternalEventO08DelegateD0O24AvailableAudioCodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____ 14SiriTTSService13InternalEventO08DelegateD0O26DidStartSpeakingCodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____ 14SiriTTSService13InternalEventO08DelegateD0O30AvailableWordTimingsCodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____ 14SiriTTSService13InternalEventO08DelegateD0O41AvailableInstrumentationMetricsCodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____ 14SiriTTSService13InternalEventO08DelegateD10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____ 14SiriTTSService13InternalEventO09StreamingD0O
++ _symbolic _____ 14SiriTTSService13InternalEventO09StreamingD0O05InputE19AvailableCodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____ 14SiriTTSService13InternalEventO09StreamingD0O10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____ 14SiriTTSService13InternalEventO09StreamingD10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____ 14SiriTTSService13InternalEventO10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____ 14SiriTTSService13SpeechRequestC10CodingKeysO
++ _symbolic _____ 14SiriTTSService13VoicePreviewsV
++ _symbolic _____ 14SiriTTSService13VoicePreviewsV0C12PreviewErrorO
++ _symbolic _____ 14SiriTTSService13VoicePreviewsV18InterpolationErrorO
++ _symbolic _____ 14SiriTTSService13VoicePreviewsV8MetadataV
++ _symbolic _____ 14SiriTTSService13VoicePreviewsV8MetadataV10CodingKeys33_72A1329D46BEDB9FFCDEC8F16C9E1CD1LLO
++ _symbolic _____ 14SiriTTSService14AudibleContextC10CodingKeysO
++ _symbolic _____ 14SiriTTSService14CharacteristicO
++ _symbolic _____ 14SiriTTSService14PhonemeRequestC10CodingKeysO
++ _symbolic _____ 14SiriTTSService14PreviewRequestC10CodingKeysO
++ _symbolic _____ 14SiriTTSService14SynthesisVoiceC10CodingKeysO
++ _symbolic _____ 14SiriTTSService14TimeoutUtilityV
++ _symbolic _____ 14SiriTTSService14VoiceAttributeO
++ _symbolic _____ 14SiriTTSService14VoiceAttributeO10CodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLO
++ _symbolic _____ 14SiriTTSService14VoiceAttributeO13AgeCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLO
++ _symbolic _____ 14SiriTTSService14VoiceAttributeO16AccentCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLO
++ _symbolic _____ 14SiriTTSService14VoiceAttributeO16GenderCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLO
++ _symbolic _____ 14SiriTTSService14VoiceAttributeO18DeliveryCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLO
++ _symbolic _____ 14SiriTTSService14VoiceAttributeO20DialogTypeCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLO
++ _symbolic _____ 14SiriTTSService14VoiceAttributeO24CharacteristicCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLO
++ _symbolic _____ 14SiriTTSService14WordTimingInfoC10CodingKeysO
++ _symbolic _____ 14SiriTTSService15UtteranceBufferC
++ _symbolic _____ 14SiriTTSService15VoiceComparatorC
++ _symbolic _____ 14SiriTTSService16AudioHintRequestC10CodingKeysO
++ _symbolic _____ 14SiriTTSService16SynthesisContextC10CodingKeysO
++ _symbolic _____ 14SiriTTSService16SynthesisRequestC10CodingKeysO
++ _symbolic _____ 14SiriTTSService17ProsodyPropertiesC10CodingKeysO
++ _symbolic _____ 14SiriTTSService17SynthesisResourceC10CodingKeysO
++ _symbolic _____ 14SiriTTSService19AudioQueueInterfaceC0cD8UserData33_D074378E45DF23C69F519544CB6674D2LLV
++ _symbolic _____ 14SiriTTSService20DaemonSwiftXPCResultO
++ _symbolic _____ 14SiriTTSService20DaemonSwiftXPCResultO0cD11XPCResponseO
++ _symbolic _____ 14SiriTTSService20DaemonSwiftXPCResultO0cD11XPCResponseO10CodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____ 14SiriTTSService20DaemonSwiftXPCResultO0cD11XPCResponseO15EmptyCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____ 14SiriTTSService20DaemonSwiftXPCResultO0cD11XPCResponseO26PredefinedVoicesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____ 14SiriTTSService20DaemonSwiftXPCResultO0cD11XPCResponseO26SubscribedVoicesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____ 14SiriTTSService20DaemonSwiftXPCResultO0cD11XPCResponseO30FetchVoiceAttributesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____ 14SiriTTSService20DaemonSwiftXPCResultO10CodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____ 14SiriTTSService20DaemonSwiftXPCResultO17FailureCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____ 14SiriTTSService20DaemonSwiftXPCResultO17SuccessCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____ 14SiriTTSService20RewindPositionFinderC
++ _symbolic _____ 14SiriTTSService20RewindPositionFinderC0C6Marker33_D074378E45DF23C69F519544CB6674D2LLV
++ _symbolic _____ 14SiriTTSService21DaemonSwiftConnectionC
++ _symbolic _____ 14SiriTTSService21DaemonSwiftXPCMessageV
++ _symbolic _____ 14SiriTTSService21DaemonSwiftXPCMessageV10CodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____ 14SiriTTSService21DaemonSwiftXPCMessageV7PayloadO
++ _symbolic _____ 14SiriTTSService21DaemonSwiftXPCMessageV7PayloadO10CodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____ 14SiriTTSService21DaemonSwiftXPCMessageV7PayloadO15EventCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____ 14SiriTTSService21DaemonSwiftXPCMessageV7PayloadO23InternalEventCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____ 14SiriTTSService21DaemonSwiftXPCRequestO
++ _symbolic _____ 14SiriTTSService21DaemonSwiftXPCRequestO10CodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____ 14SiriTTSService21DaemonSwiftXPCRequestO17PrewarmCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____ 14SiriTTSService21DaemonSwiftXPCRequestO26PredefinedVoicesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____ 14SiriTTSService21DaemonSwiftXPCRequestO26SubscribedVoicesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____ 14SiriTTSService21DaemonSwiftXPCRequestO30FetchVoiceAttributesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____ 14SiriTTSService21PredefinedAudioFormatO
++ _symbolic _____ 14SiriTTSService21VoiceActivityDetectorC
++ _symbolic _____ 14SiriTTSService21VoiceActivityDetectorC14RMSFrameResult33_D3B59B67C5A121B7D84C1035CD77FC32LLV
++ _symbolic _____ 14SiriTTSService21VoiceActivityDetectorC9VadParams33_D3B59B67C5A121B7D84C1035CD77FC32LLV
++ _symbolic _____ 14SiriTTSService21VoiceActivityDetectorC9VadStates33_D3B59B67C5A121B7D84C1035CD77FC32LLV
++ _symbolic _____ 14SiriTTSService22InstrumentationMetricsC10CodingKeysO
++ _symbolic _____ 14SiriTTSService22SingleValueCodingErrorO
++ _symbolic _____ 14SiriTTSService23SentenceBufferingActionC
++ _symbolic _____ 14SiriTTSService24TTSFeatureFlagsContainerC
++ _symbolic _____ 14SiriTTSService24TTSFeatureFlagsContainerC3KeyO
++ _symbolic _____ 14SiriTTSService25PersonalizationVoiceErrorO
++ _symbolic _____ 14SiriTTSService26SynthesisVoiceSubscriptionC10CodingKeysO
++ _symbolic _____ 14SiriTTSService29VoiceAssetsProviderLocalStoreC
++ _symbolic _____ 14SiriTTSService3AgeO
++ _symbolic _____ 14SiriTTSService5EventO
++ _symbolic _____ 14SiriTTSService5EventO09StreamingC0O
++ _symbolic _____ 14SiriTTSService5EventO09StreamingC0O10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____ 14SiriTTSService5EventO09StreamingC0O23UtteranceSentCodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____ 14SiriTTSService5EventO09StreamingC0O29NewSynthesisStartedCodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____ 14SiriTTSService5EventO09StreamingC10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____ 14SiriTTSService5EventO10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____ 14SiriTTSService5VoiceV
++ _symbolic _____ 14SiriTTSService5VoiceV10CodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLO
++ _symbolic _____ 14SiriTTSService6AccentO
++ _symbolic _____ 14SiriTTSService6GenderO
++ _symbolic _____ 14SiriTTSService8DeliveryO
++ _symbolic _____ 14SiriTTSService8TTSErrorV10CodingKeys33_0A84D2FC09A972496B255FDE705A3186LLO
++ _symbolic _____ 14SiriTTSService9AudioDataC10CodingKeysO
++ _symbolic _____ 3XPC10XPCSessionC
++ _symbolic _____ 7Combine14AnyCancellableC
++ _symbolic _____5audio_t 14SiriTTSService9AudioDataC
++ _symbolic _____5voice_Sd5scoret 14SiriTTSService5VoiceV
++ _symbolic _____5voice_t 14SiriTTSService14SynthesisVoiceC
++ _symbolic _____7metrics_t 14SiriTTSService22InstrumentationMetricsC
++ _symbolic _____7request_t 14SiriTTSService16SynthesisRequestC
++ _symbolic _____Iegn_ 14SiriTTSService13DaemonSessionC20SynthesisInputStreamV
++ _symbolic _____Iegn_ 14SiriTTSService5EventO
++ _symbolic _____Sg 14SiriTTSService10DialogTypeO
++ _symbolic _____Sg 14SiriTTSService11BaseRequestC
++ _symbolic _____Sg 14SiriTTSService11OpusDecoderC
++ _symbolic _____Sg 14SiriTTSService15UtteranceBufferC
++ _symbolic _____Sg 14SiriTTSService20RewindPositionFinderC
++ _symbolic _____Sg 14SiriTTSService3AgeO
++ _symbolic _____Sg 14SiriTTSService6AccentO
++ _symbolic _____Sg 7Combine14AnyCancellableC
++ _symbolic _____SgSg 14SiriTTSService21DaemonSwiftConnectionC
++ _symbolic _____Sg_ABt 10Foundation4UUIDV
++ _symbolic ___________pIegHnzo_ 14SiriTTSService13DaemonSessionC20SynthesisInputStreamV s5ErrorP
++ _symbolic ______p 14SiriTTSService19VoiceAssetsProviderP
++ _symbolic ______p 14SiriTTSService22AudioVolumeControllingP
++ _symbolic ______p 14SiriTTSService24AudioPlaybackControllingP
++ _symbolic ______pIegn_ 14SiriTTSService22AudioVolumeControllingP
++ _symbolic ______pIegn_ 14SiriTTSService24AudioPlaybackControllingP
++ _symbolic ______pSg 14SiriTTSService22AudioVolumeControllingP
++ _symbolic ______pSg 14SiriTTSService24AudioPlaybackControllingP
++ _symbolic ______pSg 14SiriTTSService27SynthesizingRequestProtocolP
++ _symbolic _____m 14SiriTTSService11NeuralUtilsC
++ _symbolic _____m 14SiriTTSService24TTSFeatureFlagsContainerC
++ _symbolic _____mm 14SiriTTSService11NeuralUtilsC
++ _symbolic _____mm 14SiriTTSService24TTSFeatureFlagsContainerC
++ _symbolic _____ySS_SE_ptG s23_ContiguousArrayStorageC
++ _symbolic _____ySdG s23_ContiguousArrayStorageC
++ _symbolic _____ySs_SstG 17_StringProcessing5RegexV
++ _symbolic _____y_____5voice_Sd5scoretG s23_ContiguousArrayStorageC 14SiriTTSService5VoiceV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService11BaseRequestC10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService12AudioRequestC10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService12PresetVoicesV10CodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService13InternalEventO08DelegateG0O10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService13InternalEventO08DelegateG0O14PingCodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService13InternalEventO08DelegateG0O24AvailableAudioCodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService13InternalEventO08DelegateG0O26DidStartSpeakingCodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService13InternalEventO08DelegateG0O30AvailableWordTimingsCodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService13InternalEventO08DelegateG0O41AvailableInstrumentationMetricsCodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService13InternalEventO08DelegateG10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService13InternalEventO09StreamingG0O05InputH19AvailableCodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService13InternalEventO09StreamingG0O10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService13InternalEventO09StreamingG10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService13InternalEventO10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService13SpeechRequestC10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService13VoicePreviewsV8MetadataV10CodingKeys33_72A1329D46BEDB9FFCDEC8F16C9E1CD1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService14AudibleContextC10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService14PhonemeRequestC10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService14PreviewRequestC10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService14SynthesisVoiceC10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService14VoiceAttributeO10CodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService14VoiceAttributeO13AgeCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService14VoiceAttributeO16AccentCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService14VoiceAttributeO16GenderCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService14VoiceAttributeO18DeliveryCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService14VoiceAttributeO20DialogTypeCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService14VoiceAttributeO24CharacteristicCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService14WordTimingInfoC10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService16AudioHintRequestC10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService16SynthesisContextC10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService16SynthesisRequestC10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService17ProsodyPropertiesC10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService17SynthesisResourceC10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService20DaemonSwiftXPCResultO0fG11XPCResponseO10CodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService20DaemonSwiftXPCResultO0fG11XPCResponseO15EmptyCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService20DaemonSwiftXPCResultO0fG11XPCResponseO26PredefinedVoicesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService20DaemonSwiftXPCResultO0fG11XPCResponseO26SubscribedVoicesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService20DaemonSwiftXPCResultO0fG11XPCResponseO30FetchVoiceAttributesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService20DaemonSwiftXPCResultO10CodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService20DaemonSwiftXPCResultO17FailureCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService20DaemonSwiftXPCResultO17SuccessCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService21DaemonSwiftXPCMessageV10CodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService21DaemonSwiftXPCMessageV7PayloadO10CodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService21DaemonSwiftXPCMessageV7PayloadO15EventCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService21DaemonSwiftXPCMessageV7PayloadO23InternalEventCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService21DaemonSwiftXPCRequestO10CodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService21DaemonSwiftXPCRequestO17PrewarmCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService21DaemonSwiftXPCRequestO26PredefinedVoicesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService21DaemonSwiftXPCRequestO26SubscribedVoicesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService21DaemonSwiftXPCRequestO30FetchVoiceAttributesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService22InstrumentationMetricsC10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService26SynthesisVoiceSubscriptionC10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService5EventO09StreamingF0O10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService5EventO09StreamingF0O23UtteranceSentCodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService5EventO09StreamingF0O29NewSynthesisStartedCodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService5EventO09StreamingF10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService5EventO10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService5VoiceV10CodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService8TTSErrorV10CodingKeys33_0A84D2FC09A972496B255FDE705A3186LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14SiriTTSService9AudioDataC10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService11BaseRequestC10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService12AudioRequestC10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService12PresetVoicesV10CodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService13InternalEventO08DelegateG0O10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService13InternalEventO08DelegateG0O14PingCodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService13InternalEventO08DelegateG0O24AvailableAudioCodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService13InternalEventO08DelegateG0O26DidStartSpeakingCodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService13InternalEventO08DelegateG0O30AvailableWordTimingsCodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService13InternalEventO08DelegateG0O41AvailableInstrumentationMetricsCodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService13InternalEventO08DelegateG10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService13InternalEventO09StreamingG0O05InputH19AvailableCodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService13InternalEventO09StreamingG0O10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService13InternalEventO09StreamingG10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService13InternalEventO10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService13SpeechRequestC10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService13VoicePreviewsV8MetadataV10CodingKeys33_72A1329D46BEDB9FFCDEC8F16C9E1CD1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService14AudibleContextC10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService14PhonemeRequestC10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService14PreviewRequestC10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService14SynthesisVoiceC10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService14VoiceAttributeO10CodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService14VoiceAttributeO13AgeCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService14VoiceAttributeO16AccentCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService14VoiceAttributeO16GenderCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService14VoiceAttributeO18DeliveryCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService14VoiceAttributeO20DialogTypeCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService14VoiceAttributeO24CharacteristicCodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService14WordTimingInfoC10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService16AudioHintRequestC10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService16SynthesisContextC10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService16SynthesisRequestC10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService17ProsodyPropertiesC10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService17SynthesisResourceC10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService20DaemonSwiftXPCResultO0fG11XPCResponseO10CodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService20DaemonSwiftXPCResultO0fG11XPCResponseO15EmptyCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService20DaemonSwiftXPCResultO0fG11XPCResponseO26PredefinedVoicesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService20DaemonSwiftXPCResultO0fG11XPCResponseO26SubscribedVoicesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService20DaemonSwiftXPCResultO0fG11XPCResponseO30FetchVoiceAttributesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService20DaemonSwiftXPCResultO10CodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService20DaemonSwiftXPCResultO17FailureCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService20DaemonSwiftXPCResultO17SuccessCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService21DaemonSwiftXPCMessageV10CodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService21DaemonSwiftXPCMessageV7PayloadO10CodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService21DaemonSwiftXPCMessageV7PayloadO15EventCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService21DaemonSwiftXPCMessageV7PayloadO23InternalEventCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService21DaemonSwiftXPCRequestO10CodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService21DaemonSwiftXPCRequestO17PrewarmCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService21DaemonSwiftXPCRequestO26PredefinedVoicesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService21DaemonSwiftXPCRequestO26SubscribedVoicesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService21DaemonSwiftXPCRequestO30FetchVoiceAttributesCodingKeys33_8DE6CB6C1D2B84B66F1A6987E1F78482LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService22InstrumentationMetricsC10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService26SynthesisVoiceSubscriptionC10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService5EventO09StreamingF0O10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService5EventO09StreamingF0O23UtteranceSentCodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService5EventO09StreamingF0O29NewSynthesisStartedCodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService5EventO09StreamingF10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService5EventO10CodingKeys33_9F419EAAE3D228409D03DD3945607317LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService5VoiceV10CodingKeys33_0B43D254CF689D0E612ACC3CA0A0D62ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService8TTSErrorV10CodingKeys33_0A84D2FC09A972496B255FDE705A3186LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService9AudioDataC10CodingKeysO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 14SiriTTSService14VoiceAttributeO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 14SiriTTSService20RewindPositionFinderC0F6Marker33_D074378E45DF23C69F519544CB6674D2LLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 14SiriTTSService21VoiceActivityDetectorC14RMSFrameResult33_D3B59B67C5A121B7D84C1035CD77FC32LLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 14SiriTTSService5VoiceV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5Int16V
++ _symbolic _____y_____SgG s23_ContiguousArrayStorageC 10Foundation3URLV
++ _symbolic _____y______G ScS12ContinuationV 14SiriTTSService5EventO
++ _symbolic _____y_______G ScS12ContinuationV11YieldResultO 14SiriTTSService5EventO
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 14SiriTTSService5EventO
++ _symbolic _____y__________G 7Combine18PassthroughSubjectC 14SiriTTSService13InternalEventO s5NeverO
++ _symbolic _____y__________G 7Combine18PassthroughSubjectC 14SiriTTSService5EventO s5NeverO
++ _symbolic _____ytIegnr_ 14SiriTTSService5EventO
++ _symbolic y_____cSg 14SiriTTSService5EventO
++ _symbolic ypXmT______t s13DecodingErrorO7ContextV
++ _symbolic ytIeAgHr_
++ _type_layout_string 14SiriTTSService10AudioTrackV
++ _type_layout_string 14SiriTTSService12PresetVoicesV
++ _type_layout_string 14SiriTTSService13DaemonSessionC20SynthesisInputStreamV
++ _type_layout_string 14SiriTTSService13DaemonSessionC20SynthesisInputStreamV5TokenO
++ _type_layout_string 14SiriTTSService13InternalEventO
++ _type_layout_string 14SiriTTSService13InternalEventO08DelegateD0O
++ _type_layout_string 14SiriTTSService13VoicePreviewsV8MetadataV
++ _type_layout_string 14SiriTTSService15SynthesisRouterV
++ _type_layout_string 14SiriTTSService19AudioQueueInterfaceC0cD8UserData33_D074378E45DF23C69F519544CB6674D2LLV
++ _type_layout_string 14SiriTTSService20DaemonSwiftXPCResultO
++ _type_layout_string 14SiriTTSService20DaemonSwiftXPCResultO0cD11XPCResponseO
++ _type_layout_string 14SiriTTSService20RewindPositionFinderC0C6Marker33_D074378E45DF23C69F519544CB6674D2LLV
++ _type_layout_string 14SiriTTSService21DaemonSwiftXPCMessageV
++ _type_layout_string 14SiriTTSService21DaemonSwiftXPCMessageV7PayloadO
++ _type_layout_string 14SiriTTSService21DaemonSwiftXPCRequestO
++ _type_layout_string 14SiriTTSService21VoiceActivityDetectorC14RMSFrameResult33_D3B59B67C5A121B7D84C1035CD77FC32LLV
++ _type_layout_string 14SiriTTSService21VoiceActivityDetectorC9VadParams33_D3B59B67C5A121B7D84C1035CD77FC32LLV
++ _type_layout_string 14SiriTTSService21VoiceActivityDetectorC9VadStates33_D3B59B67C5A121B7D84C1035CD77FC32LLV
++ _type_layout_string 14SiriTTSService22SingleValueCodingErrorO
++ _type_layout_string 14SiriTTSService5EventO
++ _type_layout_string 14SiriTTSService5EventO09StreamingC0O
++ _type_layout_string 14SiriTTSService5VoiceV
++ _type_layout_string So18NSNotificationNamea
++ _vDSP_rmsqvD
++ _vDSP_vsdivD
+- +[SiriTTSLocalization homepodSetupStringWithKey:language:]
+- GCC_except_table1006
+- GCC_except_table1011
+- GCC_except_table1024
+- GCC_except_table1030
+- GCC_except_table1032
+- GCC_except_table1039
+- GCC_except_table1045
+- GCC_except_table1047
+- GCC_except_table1058
+- GCC_except_table106
+- GCC_except_table1060
+- GCC_except_table1062
+- GCC_except_table1064
+- GCC_except_table1068
+- GCC_except_table1075
+- GCC_except_table1087
+- GCC_except_table1094
+- GCC_except_table1096
+- GCC_except_table1101
+- GCC_except_table1109
+- GCC_except_table1115
+- GCC_except_table1117
+- GCC_except_table1125
+- GCC_except_table1127
+- GCC_except_table1136
+- GCC_except_table1143
+- GCC_except_table1145
+- GCC_except_table115
+- GCC_except_table1153
+- GCC_except_table1159
+- GCC_except_table1161
+- GCC_except_table1164
+- GCC_except_table1167
+- GCC_except_table1171
+- GCC_except_table1174
+- GCC_except_table1176
+- GCC_except_table1180
+- GCC_except_table1183
+- GCC_except_table1187
+- GCC_except_table124
+- GCC_except_table1254
+- GCC_except_table1285
+- GCC_except_table1291
+- GCC_except_table133
+- GCC_except_table142
+- GCC_except_table1432
+- GCC_except_table1434
+- GCC_except_table1435
+- GCC_except_table1439
+- GCC_except_table151
+- GCC_except_table162
+- GCC_except_table177
+- GCC_except_table186
+- GCC_except_table199
+- GCC_except_table201
+- GCC_except_table203
+- GCC_except_table205
+- GCC_except_table207
+- GCC_except_table209
+- GCC_except_table213
+- GCC_except_table215
+- GCC_except_table219
+- GCC_except_table221
+- GCC_except_table225
+- GCC_except_table231
+- GCC_except_table233
+- GCC_except_table237
+- GCC_except_table259
+- GCC_except_table263
+- GCC_except_table267
+- GCC_except_table272
+- GCC_except_table274
+- GCC_except_table278
+- GCC_except_table280
+- GCC_except_table284
+- GCC_except_table288
+- GCC_except_table290
+- GCC_except_table292
+- GCC_except_table294
+- GCC_except_table296
+- GCC_except_table307
+- GCC_except_table313
+- GCC_except_table319
+- GCC_except_table321
+- GCC_except_table328
+- GCC_except_table348
+- GCC_except_table350
+- GCC_except_table352
+- GCC_except_table356
+- GCC_except_table358
+- GCC_except_table360
+- GCC_except_table362
+- GCC_except_table364
+- GCC_except_table366
+- GCC_except_table368
+- GCC_except_table370
+- GCC_except_table372
+- GCC_except_table376
+- GCC_except_table378
+- GCC_except_table384
+- GCC_except_table386
+- GCC_except_table388
+- GCC_except_table390
+- GCC_except_table392
+- GCC_except_table396
+- GCC_except_table398
+- GCC_except_table430
+- GCC_except_table434
+- GCC_except_table436
+- GCC_except_table438
+- GCC_except_table440
+- GCC_except_table442
+- GCC_except_table444
+- GCC_except_table446
+- GCC_except_table448
+- GCC_except_table450
+- GCC_except_table454
+- GCC_except_table456
+- GCC_except_table462
+- GCC_except_table464
+- GCC_except_table466
+- GCC_except_table468
+- GCC_except_table470
+- GCC_except_table472
+- GCC_except_table476
+- GCC_except_table478
+- GCC_except_table484
+- GCC_except_table486
+- GCC_except_table488
+- GCC_except_table492
+- GCC_except_table494
+- GCC_except_table498
+- GCC_except_table500
+- GCC_except_table504
+- GCC_except_table506
+- GCC_except_table509
+- GCC_except_table513
+- GCC_except_table515
+- GCC_except_table519
+- GCC_except_table521
+- GCC_except_table527
+- GCC_except_table529
+- GCC_except_table533
+- GCC_except_table535
+- GCC_except_table540
+- GCC_except_table547
+- GCC_except_table550
+- GCC_except_table552
+- GCC_except_table554
+- GCC_except_table561
+- GCC_except_table564
+- GCC_except_table568
+- GCC_except_table575
+- GCC_except_table590
+- GCC_except_table597
+- GCC_except_table599
+- GCC_except_table610
+- GCC_except_table619
+- GCC_except_table621
+- GCC_except_table625
+- GCC_except_table631
+- GCC_except_table635
+- GCC_except_table637
+- GCC_except_table643
+- GCC_except_table645
+- GCC_except_table650
+- GCC_except_table656
+- GCC_except_table658
+- GCC_except_table668
+- GCC_except_table670
+- GCC_except_table672
+- GCC_except_table676
+- GCC_except_table683
+- GCC_except_table686
+- GCC_except_table693
+- GCC_except_table695
+- GCC_except_table698
+- GCC_except_table704
+- GCC_except_table717
+- GCC_except_table723
+- GCC_except_table725
+- GCC_except_table735
+- GCC_except_table738
+- GCC_except_table745
+- GCC_except_table747
+- GCC_except_table753
+- GCC_except_table756
+- GCC_except_table762
+- GCC_except_table768
+- GCC_except_table771
+- GCC_except_table777
+- GCC_except_table779
+- GCC_except_table785
+- GCC_except_table790
+- GCC_except_table793
+- GCC_except_table799
+- GCC_except_table801
+- GCC_except_table805
+- GCC_except_table811
+- GCC_except_table813
+- GCC_except_table816
+- GCC_except_table822
+- GCC_except_table824
+- GCC_except_table838
+- GCC_except_table843
+- GCC_except_table848
+- GCC_except_table853
+- GCC_except_table858
+- GCC_except_table861
+- GCC_except_table870
+- GCC_except_table876
+- GCC_except_table882
+- GCC_except_table884
+- GCC_except_table886
+- GCC_except_table890
+- GCC_except_table896
+- GCC_except_table898
+- GCC_except_table904
+- GCC_except_table907
+- GCC_except_table913
+- GCC_except_table915
+- GCC_except_table921
+- GCC_except_table927
+- GCC_except_table929
+- GCC_except_table931
+- GCC_except_table935
+- GCC_except_table941
+- GCC_except_table951
+- GCC_except_table957
+- GCC_except_table959
+- GCC_except_table962
+- GCC_except_table964
+- GCC_except_table970
+- GCC_except_table972
+- GCC_except_table990
+- GCC_except_table995
+- _ASSetAssetServerURLForAssetType
+- _ASSetDefaultAssetServerURLForAssetType
+- _AudioQueueFreeBuffer
+- _OBJC_CLASS_$_NSDate
+- _OBJC_CLASS_$_SiriTTSLocalization
+- _OBJC_CLASS_$_TRIClient
+- _OBJC_CLASS_$_TRIDownloadOptions
+- _OBJC_CLASS_$_TRIFactorLevel
+- _OBJC_CLASS_$__TtC14SiriTTSService18TTSAssetTrialAsset
+- _OBJC_CLASS_$__TtC14SiriTTSService23TTSAssetTrialVoiceAsset
+- _OBJC_CLASS_$__TtC14SiriTTSService26TTSAssetTrialResourceAsset
+- _OBJC_METACLASS_$_SiriTTSLocalization
+- _OBJC_METACLASS_$__TtC14SiriTTSService18TTSAssetTrialAsset
+- _OBJC_METACLASS_$__TtC14SiriTTSService23TTSAssetTrialVoiceAsset
+- _OBJC_METACLASS_$__TtC14SiriTTSService26TTSAssetTrialResourceAsset
+- _SiriTTSHomePodSetupHeySiriCapabilities
+- _SiriTTSHomePodSetupHeySiriClock
+- _SiriTTSHomePodSetupHeySiriClockPlankTimer
+- _SiriTTSHomePodSetupHeySiriHome
+- _SiriTTSHomePodSetupHeySiriMusic
+- _SiriTTSHomePodSetupHeySiriNews
+- _SiriTTSHomePodSetupHeySiriWeather
+- _SiriTTSHomePodSetupHeySiriWeather2
+- _SiriTTSHomePodSetupSiriCapabilities
+- _SiriTTSHomePodSetupSiriCapabilityClock
+- _SiriTTSHomePodSetupSiriCapabilityHome
+- _SiriTTSHomePodSetupSiriCapabilityMusic
+- _SiriTTSHomePodSetupSiriCapabilityNews
+- _SiriTTSHomePodSetupSiriCapabilityWeather
+- _SiriTTSHomePodSetupSiriIntro
+- _SiriTTSHomePodSetupTrySay0
+- _SiriTTSHomePodSetupTrySay1
+- __DATA__TtC14SiriTTSService18TTSAssetTrialAsset
+- __DATA__TtC14SiriTTSService18TrialAssetProvider
+- __DATA__TtC14SiriTTSService21TTSAssetTrialStrategy
+- __DATA__TtC14SiriTTSService23TTSAssetTrialVoiceAsset
+- __DATA__TtC14SiriTTSService26TTSAssetTrialResourceAsset
+- __DATA__TtCC14SiriTTSService19AudioQueueInterfaceP33_D074378E45DF23C69F519544CB6674D224AudioQueueBufferUserData
+- __DATA__TtCV14SiriTTSService25Realtime_V1_SessionUpdateP33_C93BA31E651E35C3B45A57B0C1BB1FD913_StorageClass
+- __DATA__TtCV14SiriTTSService26Realtime_V1_SessionCreatedP33_1FC65C7469DBAFEA095D5329DD5B613513_StorageClass
+- __DATA__TtCV14SiriTTSService26Realtime_V1_SessionUpdatedP33_1FC65C7469DBAFEA095D5329DD5B613513_StorageClass
+- __INSTANCE_METHODS__TtC14SiriTTSService18TTSAssetTrialAsset
+- __INSTANCE_METHODS__TtC14SiriTTSService23TTSAssetTrialVoiceAsset
+- __INSTANCE_METHODS__TtC14SiriTTSService26TTSAssetTrialResourceAsset
+- __IVARS__TtC14SiriTTSService18TTSAssetTrialAsset
+- __IVARS__TtC14SiriTTSService18TrialAssetProvider
+- __IVARS__TtCC14SiriTTSService19AudioQueueInterfaceP33_D074378E45DF23C69F519544CB6674D224AudioQueueBufferUserData
+- __IVARS__TtCV14SiriTTSService25Realtime_V1_SessionUpdateP33_C93BA31E651E35C3B45A57B0C1BB1FD913_StorageClass
+- __IVARS__TtCV14SiriTTSService26Realtime_V1_SessionCreatedP33_1FC65C7469DBAFEA095D5329DD5B613513_StorageClass
+- __IVARS__TtCV14SiriTTSService26Realtime_V1_SessionUpdatedP33_1FC65C7469DBAFEA095D5329DD5B613513_StorageClass
+- __METACLASS_DATA__TtC14SiriTTSService18TTSAssetTrialAsset
+- __METACLASS_DATA__TtC14SiriTTSService18TrialAssetProvider
+- __METACLASS_DATA__TtC14SiriTTSService21TTSAssetTrialStrategy
+- __METACLASS_DATA__TtC14SiriTTSService23TTSAssetTrialVoiceAsset
+- __METACLASS_DATA__TtC14SiriTTSService26TTSAssetTrialResourceAsset
+- __METACLASS_DATA__TtCC14SiriTTSService19AudioQueueInterfaceP33_D074378E45DF23C69F519544CB6674D224AudioQueueBufferUserData
+- __METACLASS_DATA__TtCV14SiriTTSService25Realtime_V1_SessionUpdateP33_C93BA31E651E35C3B45A57B0C1BB1FD913_StorageClass
+- __METACLASS_DATA__TtCV14SiriTTSService26Realtime_V1_SessionCreatedP33_1FC65C7469DBAFEA095D5329DD5B613513_StorageClass
+- __METACLASS_DATA__TtCV14SiriTTSService26Realtime_V1_SessionUpdatedP33_1FC65C7469DBAFEA095D5329DD5B613513_StorageClass
+- __OBJC_$_CLASS_METHODS_SiriTTSLocalization
+- __OBJC_$_INSTANCE_METHODS_SiriTTSAudioData(SiriTTSService)
+- __OBJC_$_PROTOCOL_REFS_TRINotificationToken
+- __OBJC_CLASS_RO_$_SiriTTSLocalization
+- __OBJC_LABEL_PROTOCOL_$_TRINotificationToken
+- __OBJC_METACLASS_RO_$_SiriTTSLocalization
+- __OBJC_PROTOCOL_$_TRINotificationToken
+- __PROPERTIES__TtC14SiriTTSService18TTSAssetTrialAsset
+- __PROPERTIES__TtC14SiriTTSService23TTSAssetTrialVoiceAsset
+- __PROPERTIES__TtC14SiriTTSService26TTSAssetTrialResourceAsset
+- __PROTOCOLS_SiriTTSAudibleContext.264
+- __PROTOCOLS_SiriTTSAudioData.126
+- __PROTOCOLS_SiriTTSAudioHintRequest.440
+- __PROTOCOLS_SiriTTSAudioRequest.289
+- __PROTOCOLS_SiriTTSInlineStreamingSignal.310
+- __PROTOCOLS_SiriTTSInstrumentationMetrics.296
+- __PROTOCOLS_SiriTTSPreviewRequest.410
+- __PROTOCOLS_SiriTTSProsodyProperties.270
+- __PROTOCOLS_SiriTTSSpeechRequest.379
+- __PROTOCOLS_SiriTTSSynthesisContext.276
+- __PROTOCOLS_SiriTTSSynthesisRequest.319
+- __PROTOCOLS_SiriTTSSynthesisResource.479
+- __PROTOCOLS_SiriTTSVoiceSubscription.304
+- __PROTOCOLS_SiriTTSWordTimingInfo.258
+- __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_0NS_9allocatorIS2_EEFvRKNS_6vectorIfNS3_IfEEEEEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_0NS_9allocatorIS2_EEFvRKNS_6vectorIfNS3_IfEEEEEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_0NS_9allocatorIS2_EEFvRKNS_6vectorIfNS3_IfEEEEEE7__cloneEPNS0_6__baseISA_EE
+- __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_0NS_9allocatorIS2_EEFvRKNS_6vectorIfNS3_IfEEEEEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_1NS_9allocatorIS2_EEFvPKvEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_1NS_9allocatorIS2_EEFvPKvEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_1NS_9allocatorIS2_EEFvPKvEE7__cloneEPNS0_6__baseIS7_EE
+- __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_1NS_9allocatorIS2_EEFvPKvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_2NS_9allocatorIS2_EEFvRKNS_6vectorIN14TTSSynthesizer6MarkerENS3_IS7_EEEEEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_2NS_9allocatorIS2_EEFvRKNS_6vectorIN14TTSSynthesizer6MarkerENS3_IS7_EEEEEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_2NS_9allocatorIS2_EEFvRKNS_6vectorIN14TTSSynthesizer6MarkerENS3_IS7_EEEEEE7__cloneEPNS0_6__baseISC_EE
+- __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_2NS_9allocatorIS2_EEFvRKNS_6vectorIN14TTSSynthesizer6MarkerENS3_IS7_EEEEEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_3NS_9allocatorIS2_EEFvPKvEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_3NS_9allocatorIS2_EEFvPKvEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_3NS_9allocatorIS2_EEFvPKvEE7__cloneEPNS0_6__baseIS7_EE
+- __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_3NS_9allocatorIS2_EEFvPKvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_4NS_9allocatorIS2_EEFvPKvEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_4NS_9allocatorIS2_EEFvPKvEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_4NS_9allocatorIS2_EEFvPKvEE7__cloneEPNS0_6__baseIS7_EE
+- __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_4NS_9allocatorIS2_EEFvPKvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_5NS_9allocatorIS2_EEFvPKvEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_5NS_9allocatorIS2_EEFvPKvEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_5NS_9allocatorIS2_EEFvPKvEE7__cloneEPNS0_6__baseIS7_EE
+- __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_5NS_9allocatorIS2_EEFvPKvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_6NS_9allocatorIS2_EEFvPKvEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_6NS_9allocatorIS2_EEFvPKvEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_6NS_9allocatorIS2_EEFvPKvEE7__cloneEPNS0_6__baseIS7_EE
+- __ZNKSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_6NS_9allocatorIS2_EEFvPKvEE7__cloneEv
+- __ZNKSt9type_infoeqB8ne200100ERKS_
+- __ZNSt12length_errorC1B8ne200100EPKc
+- __ZNSt3__110__function12__value_funcIFvPKvEED2B8ne200100Ev
+- __ZNSt3__110__function12__value_funcIFvRKNS_6vectorIN14TTSSynthesizer6MarkerENS_9allocatorIS4_EEEEEED2B8ne200100Ev
+- __ZNSt3__110__function12__value_funcIFvRKNS_6vectorIfNS_9allocatorIfEEEEEED2B8ne200100Ev
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_0NS_9allocatorIS2_EEFvRKNS_6vectorIfNS3_IfEEEEEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_0NS_9allocatorIS2_EEFvRKNS_6vectorIfNS3_IfEEEEEE7destroyEv
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_0NS_9allocatorIS2_EEFvRKNS_6vectorIfNS3_IfEEEEEED0Ev
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_0NS_9allocatorIS2_EEFvRKNS_6vectorIfNS3_IfEEEEEED1Ev
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_0NS_9allocatorIS2_EEFvRKNS_6vectorIfNS3_IfEEEEEEclES9_
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_1NS_9allocatorIS2_EEFvPKvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_1NS_9allocatorIS2_EEFvPKvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_1NS_9allocatorIS2_EEFvPKvEED0Ev
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_1NS_9allocatorIS2_EEFvPKvEED1Ev
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_1NS_9allocatorIS2_EEFvPKvEEclEOS6_
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_2NS_9allocatorIS2_EEFvRKNS_6vectorIN14TTSSynthesizer6MarkerENS3_IS7_EEEEEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_2NS_9allocatorIS2_EEFvRKNS_6vectorIN14TTSSynthesizer6MarkerENS3_IS7_EEEEEE7destroyEv
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_2NS_9allocatorIS2_EEFvRKNS_6vectorIN14TTSSynthesizer6MarkerENS3_IS7_EEEEEED0Ev
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_2NS_9allocatorIS2_EEFvRKNS_6vectorIN14TTSSynthesizer6MarkerENS3_IS7_EEEEEED1Ev
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_2NS_9allocatorIS2_EEFvRKNS_6vectorIN14TTSSynthesizer6MarkerENS3_IS7_EEEEEEclESB_
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_3NS_9allocatorIS2_EEFvPKvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_3NS_9allocatorIS2_EEFvPKvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_3NS_9allocatorIS2_EEFvPKvEED0Ev
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_3NS_9allocatorIS2_EEFvPKvEED1Ev
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_3NS_9allocatorIS2_EEFvPKvEEclEOS6_
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_4NS_9allocatorIS2_EEFvPKvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_4NS_9allocatorIS2_EEFvPKvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_4NS_9allocatorIS2_EEFvPKvEED0Ev
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_4NS_9allocatorIS2_EEFvPKvEED1Ev
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_4NS_9allocatorIS2_EEFvPKvEEclEOS6_
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_5NS_9allocatorIS2_EEFvPKvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_5NS_9allocatorIS2_EEFvPKvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_5NS_9allocatorIS2_EEFvPKvEED0Ev
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_5NS_9allocatorIS2_EEFvPKvEED1Ev
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_5NS_9allocatorIS2_EEFvPKvEEclEOS6_
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_6NS_9allocatorIS2_EEFvPKvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_6NS_9allocatorIS2_EEFvPKvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_6NS_9allocatorIS2_EEFvPKvEED0Ev
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_6NS_9allocatorIS2_EEFvPKvEED1Ev
+- __ZNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_6NS_9allocatorIS2_EEFvPKvEEclEOS6_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100EPKcm
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100ILi0EEEPKc
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb10TTSPromptsEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSE_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb14TTSReplacementEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSE_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb14WordTimingInfoEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSE_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb15TTSWordPhonemesEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSE_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb17TTSNormalizedTextEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSE_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb18TTSPhonemeSequenceEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSE_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb20TextToSpeechRequest_16ContextInfoEntryEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSF_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb24TTSNeuralPhonemeSequenceEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSE_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb25TextToSpeechVoiceResourceEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSE_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb34StartTextToSpeechStreamingRequest_16ContextInfoEntryEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSF_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN5apple4aiml12flatbuffers26OffsetINS4_6StringEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIPKvEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__shared_weak_count16__release_sharedB8ne200100Ev
+- __ZNSt3__120__throw_length_errorB8ne200100EPKc
+- __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb10TTSPromptsEEENS_9allocatorIS9_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb14TTSReplacementEEENS_9allocatorIS9_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb14WordTimingInfoEEENS_9allocatorIS9_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb15TTSWordPhonemesEEENS_9allocatorIS9_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb17TTSNormalizedTextEEENS_9allocatorIS9_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb18TTSPhonemeSequenceEEENS_9allocatorIS9_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb20TextToSpeechRequest_16ContextInfoEntryEEENS_9allocatorISA_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb20TextToSpeechRequest_16ContextInfoEntryEEENS_9allocatorISA_EEE9push_backB8ne200100EOSA_
+- __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb24TTSNeuralPhonemeSequenceEEENS_9allocatorIS9_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb25TextToSpeechVoiceResourceEEENS_9allocatorIS9_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetIN4siri6speech9schema_fb34StartTextToSpeechStreamingRequest_16ContextInfoEntryEEENS_9allocatorISA_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetINS3_6StringEEENS_9allocatorIS6_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetINS3_6StringEEENS_9allocatorIS6_EEE9push_backB8ne200100EOS6_
+- __ZNSt3__16vectorINS_10shared_ptrI8ObserverEENS_9allocatorIS3_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorINS_10shared_ptrI8ObserverEENS_9allocatorIS3_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorINS_10shared_ptrI8ObserverEENS_9allocatorIS3_EEE9push_backB8ne200100ERKS3_
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB8ne200100Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE5clearB8ne200100Ev
+- __ZNSt3__16vectorIPKvNS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIsNS_9allocatorIsEEE20__throw_length_errorB8ne200100Ev
+- __ZSt28__throw_bad_array_new_lengthB8ne200100v
+- __ZTINSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_0NS_9allocatorIS2_EEFvRKNS_6vectorIfNS3_IfEEEEEEE
+- __ZTINSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_1NS_9allocatorIS2_EEFvPKvEEE
+- __ZTINSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_2NS_9allocatorIS2_EEFvRKNS_6vectorIN14TTSSynthesizer6MarkerENS3_IS7_EEEEEEE
+- __ZTINSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_3NS_9allocatorIS2_EEFvPKvEEE
+- __ZTINSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_4NS_9allocatorIS2_EEFvPKvEEE
+- __ZTINSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_5NS_9allocatorIS2_EEFvPKvEEE
+- __ZTINSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_6NS_9allocatorIS2_EEFvPKvEEE
+- __ZTSNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_0NS_9allocatorIS2_EEFvRKNS_6vectorIfNS3_IfEEEEEEE
+- __ZTSNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_1NS_9allocatorIS2_EEFvPKvEEE
+- __ZTSNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_2NS_9allocatorIS2_EEFvRKNS_6vectorIN14TTSSynthesizer6MarkerENS3_IS7_EEEEEEE
+- __ZTSNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_3NS_9allocatorIS2_EEFvPKvEEE
+- __ZTSNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_4NS_9allocatorIS2_EEFvPKvEEE
+- __ZTSNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_5NS_9allocatorIS2_EEFvPKvEEE
+- __ZTSNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_6NS_9allocatorIS2_EEFvPKvEEE
+- __ZTVNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_0NS_9allocatorIS2_EEFvRKNS_6vectorIfNS3_IfEEEEEEE
+- __ZTVNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_1NS_9allocatorIS2_EEFvPKvEEE
+- __ZTVNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_2NS_9allocatorIS2_EEFvRKNS_6vectorIN14TTSSynthesizer6MarkerENS3_IS7_EEEEEEE
+- __ZTVNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_3NS_9allocatorIS2_EEFvPKvEEE
+- __ZTVNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_4NS_9allocatorIS2_EEFvPKvEEE
+- __ZTVNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_5NS_9allocatorIS2_EEFvPKvEEE
+- __ZTVNSt3__110__function6__funcIZ52-[SiriTTSSynthesisEngine _unlockedSynthesize:error:]E3$_6NS_9allocatorIS2_EEFvPKvEEE
+- ___swift_coroFrameAllocStub
+- ___swift_get_extra_inhabitant_index.124Tm
+- ___swift_get_extra_inhabitant_index.153Tm
+- ___swift_get_extra_inhabitant_index.162Tm
+- ___swift_get_extra_inhabitant_index.198Tm
+- ___swift_get_extra_inhabitant_index.207Tm
+- ___swift_get_extra_inhabitant_index.225Tm
+- ___swift_get_extra_inhabitant_index.234Tm
+- ___swift_get_extra_inhabitant_index.306Tm
+- ___swift_get_extra_inhabitant_index.324Tm
+- ___swift_get_extra_inhabitant_index.59Tm
+- ___swift_get_extra_inhabitant_index.68Tm
+- ___swift_get_extra_inhabitant_index.70Tm
+- ___swift_memcpy2_1
+- ___swift_store_extra_inhabitant_index.125Tm
+- ___swift_store_extra_inhabitant_index.154Tm
+- ___swift_store_extra_inhabitant_index.163Tm
+- ___swift_store_extra_inhabitant_index.199Tm
+- ___swift_store_extra_inhabitant_index.208Tm
+- ___swift_store_extra_inhabitant_index.226Tm
+- ___swift_store_extra_inhabitant_index.235Tm
+- ___swift_store_extra_inhabitant_index.307Tm
+- ___swift_store_extra_inhabitant_index.325Tm
+- ___swift_store_extra_inhabitant_index.60Tm
+- ___swift_store_extra_inhabitant_index.69Tm
+- ___swift_store_extra_inhabitant_index.71Tm
+- ___unnamed_41
+- __swift_FORCE_LOAD_$_swiftCoreLocation
+- __swift_FORCE_LOAD_$_swiftCoreLocation_$_SiriTTSService
+- _associated conformance 14SiriTTSService16Realtime_V1_ItemV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService16Realtime_V1_ItemV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0I0
+- _associated conformance 14SiriTTSService16Realtime_V1_ItemV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService16Realtime_V1_ItemVSHAASQ
+- _associated conformance 14SiriTTSService16Realtime_V1_PartV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService16Realtime_V1_PartV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0I0
+- _associated conformance 14SiriTTSService16Realtime_V1_PartV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService16Realtime_V1_PartVSHAASQ
+- _associated conformance 14SiriTTSService16Realtime_V1_ToolV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService16Realtime_V1_ToolV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0I0
+- _associated conformance 14SiriTTSService16Realtime_V1_ToolV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService16Realtime_V1_ToolVSHAASQ
+- _associated conformance 14SiriTTSService17DiagnosticServiceC15MetricsJsonKeysOSHAASQ
+- _associated conformance 14SiriTTSService17DiagnosticServiceC15MetricsJsonKeysOs9CodingKeyAAs23CustomStringConvertible
+- _associated conformance 14SiriTTSService17DiagnosticServiceC15MetricsJsonKeysOs9CodingKeyAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService19Realtime_V1_ContentV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService19Realtime_V1_ContentV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0I0
+- _associated conformance 14SiriTTSService19Realtime_V1_ContentV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService19Realtime_V1_ContentVSHAASQ
+- _associated conformance 14SiriTTSService19Realtime_V1_SessionV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService19Realtime_V1_SessionV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0I0
+- _associated conformance 14SiriTTSService19Realtime_V1_SessionV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService19Realtime_V1_SessionVSHAASQ
+- _associated conformance 14SiriTTSService20Realtime_V1_FunctionV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService20Realtime_V1_FunctionV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0I0
+- _associated conformance 14SiriTTSService20Realtime_V1_FunctionV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService20Realtime_V1_FunctionVSHAASQ
+- _associated conformance 14SiriTTSService20Realtime_V1_ModalityO21InternalSwiftProtobuf4EnumAASH
+- _associated conformance 14SiriTTSService20Realtime_V1_ModalityO21InternalSwiftProtobuf4EnumAASY
+- _associated conformance 14SiriTTSService20Realtime_V1_ModalityOSHAASQ
+- _associated conformance 14SiriTTSService20Realtime_V1_ModalityOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 14SiriTTSService20Realtime_V1_PropertyV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService20Realtime_V1_PropertyV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0I0
+- _associated conformance 14SiriTTSService20Realtime_V1_PropertyV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService20Realtime_V1_PropertyVSHAASQ
+- _associated conformance 14SiriTTSService20Realtime_V1_ResponseV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService20Realtime_V1_ResponseV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0I0
+- _associated conformance 14SiriTTSService20Realtime_V1_ResponseV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService20Realtime_V1_ResponseVSHAASQ
+- _associated conformance 14SiriTTSService21Realtime_V1_RateLimitV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService21Realtime_V1_RateLimitV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 14SiriTTSService21Realtime_V1_RateLimitV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService21Realtime_V1_RateLimitVSHAASQ
+- _associated conformance 14SiriTTSService22Realtime_V1_ParametersV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService22Realtime_V1_ParametersV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0I0
+- _associated conformance 14SiriTTSService22Realtime_V1_ParametersV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService22Realtime_V1_ParametersVSHAASQ
+- _associated conformance 14SiriTTSService22Realtime_V1_ToolChoiceO21InternalSwiftProtobuf4EnumAASH
+- _associated conformance 14SiriTTSService22Realtime_V1_ToolChoiceO21InternalSwiftProtobuf4EnumAASY
+- _associated conformance 14SiriTTSService22Realtime_V1_ToolChoiceOSHAASQ
+- _associated conformance 14SiriTTSService22Realtime_V1_ToolChoiceOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 14SiriTTSService23Realtime_V1_AudioFormatO21InternalSwiftProtobuf4EnumAASH
+- _associated conformance 14SiriTTSService23Realtime_V1_AudioFormatO21InternalSwiftProtobuf4EnumAASY
+- _associated conformance 14SiriTTSService23Realtime_V1_AudioFormatOSHAASQ
+- _associated conformance 14SiriTTSService23Realtime_V1_AudioFormatOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 14SiriTTSService23Realtime_V1_ClientErrorV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService23Realtime_V1_ClientErrorV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 14SiriTTSService23Realtime_V1_ClientErrorV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService23Realtime_V1_ClientErrorVSHAASQ
+- _associated conformance 14SiriTTSService23Realtime_V1_ClientEventV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService23Realtime_V1_ClientEventV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 14SiriTTSService23Realtime_V1_ClientEventV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService23Realtime_V1_ClientEventVSHAASQ
+- _associated conformance 14SiriTTSService23Realtime_V1_CommonErrorV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService23Realtime_V1_CommonErrorV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 14SiriTTSService23Realtime_V1_CommonErrorV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService23Realtime_V1_CommonErrorVSHAASQ
+- _associated conformance 14SiriTTSService23Realtime_V1_ServerEventV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService23Realtime_V1_ServerEventV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 14SiriTTSService23Realtime_V1_ServerEventV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService23Realtime_V1_ServerEventVSHAASQ
+- _associated conformance 14SiriTTSService24Realtime_V1_ConversationV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService24Realtime_V1_ConversationV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0I0
+- _associated conformance 14SiriTTSService24Realtime_V1_ConversationV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService24Realtime_V1_ConversationVSHAASQ
+- _associated conformance 14SiriTTSService24Realtime_V1_ResponseDoneV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService24Realtime_V1_ResponseDoneV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 14SiriTTSService24Realtime_V1_ResponseDoneV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService24Realtime_V1_ResponseDoneVSHAASQ
+- _associated conformance 14SiriTTSService25Realtime_V1_SessionUpdateV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService25Realtime_V1_SessionUpdateV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 14SiriTTSService25Realtime_V1_SessionUpdateV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService25Realtime_V1_SessionUpdateVSHAASQ
+- _associated conformance 14SiriTTSService25Realtime_V1_TurnDetectionV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService25Realtime_V1_TurnDetectionV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 14SiriTTSService25Realtime_V1_TurnDetectionV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService25Realtime_V1_TurnDetectionVSHAASQ
+- _associated conformance 14SiriTTSService26Realtime_V1_ResponseCancelV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService26Realtime_V1_ResponseCancelV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 14SiriTTSService26Realtime_V1_ResponseCancelV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService26Realtime_V1_ResponseCancelVSHAASQ
+- _associated conformance 14SiriTTSService26Realtime_V1_ResponseCreateV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService26Realtime_V1_ResponseCreateV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 14SiriTTSService26Realtime_V1_ResponseCreateV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService26Realtime_V1_ResponseCreateVSHAASQ
+- _associated conformance 14SiriTTSService26Realtime_V1_SessionCreatedV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService26Realtime_V1_SessionCreatedV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 14SiriTTSService26Realtime_V1_SessionCreatedV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService26Realtime_V1_SessionCreatedVSHAASQ
+- _associated conformance 14SiriTTSService26Realtime_V1_SessionUpdatedV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService26Realtime_V1_SessionUpdatedV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 14SiriTTSService26Realtime_V1_SessionUpdatedV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService26Realtime_V1_SessionUpdatedVSHAASQ
+- _associated conformance 14SiriTTSService27Realtime_V1_ClientEventTypeO21InternalSwiftProtobuf4EnumAASH
+- _associated conformance 14SiriTTSService27Realtime_V1_ClientEventTypeO21InternalSwiftProtobuf4EnumAASY
+- _associated conformance 14SiriTTSService27Realtime_V1_ClientEventTypeOSHAASQ
+- _associated conformance 14SiriTTSService27Realtime_V1_ClientEventTypeOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 14SiriTTSService27Realtime_V1_ResponseCreatedV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService27Realtime_V1_ResponseCreatedV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 14SiriTTSService27Realtime_V1_ResponseCreatedV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService27Realtime_V1_ResponseCreatedVSHAASQ
+- _associated conformance 14SiriTTSService27Realtime_V1_ServerEventTypeO21InternalSwiftProtobuf4EnumAASH
+- _associated conformance 14SiriTTSService27Realtime_V1_ServerEventTypeO21InternalSwiftProtobuf4EnumAASY
+- _associated conformance 14SiriTTSService27Realtime_V1_ServerEventTypeOSHAASQ
+- _associated conformance 14SiriTTSService27Realtime_V1_ServerEventTypeOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 14SiriTTSService28Realtime_V1_ResponseTextDoneV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService28Realtime_V1_ResponseTextDoneV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0K0
+- _associated conformance 14SiriTTSService28Realtime_V1_ResponseTextDoneV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService28Realtime_V1_ResponseTextDoneVSHAASQ
+- _associated conformance 14SiriTTSService29Realtime_V1_RateLimitsUpdatedV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService29Realtime_V1_RateLimitsUpdatedV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0K0
+- _associated conformance 14SiriTTSService29Realtime_V1_RateLimitsUpdatedV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService29Realtime_V1_RateLimitsUpdatedVSHAASQ
+- _associated conformance 14SiriTTSService29Realtime_V1_ResponseAudioDoneV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService29Realtime_V1_ResponseAudioDoneV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0K0
+- _associated conformance 14SiriTTSService29Realtime_V1_ResponseAudioDoneV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService29Realtime_V1_ResponseAudioDoneVSHAASQ
+- _associated conformance 14SiriTTSService29Realtime_V1_ResponseTextDeltaV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService29Realtime_V1_ResponseTextDeltaV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0K0
+- _associated conformance 14SiriTTSService29Realtime_V1_ResponseTextDeltaV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService29Realtime_V1_ResponseTextDeltaVSHAASQ
+- _associated conformance 14SiriTTSService30Realtime_V1_ResponseAudioDeltaV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService30Realtime_V1_ResponseAudioDeltaV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0K0
+- _associated conformance 14SiriTTSService30Realtime_V1_ResponseAudioDeltaV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService30Realtime_V1_ResponseAudioDeltaVSHAASQ
+- _associated conformance 14SiriTTSService31Realtime_V1_ConversationCreatedV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService31Realtime_V1_ConversationCreatedV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 14SiriTTSService31Realtime_V1_ConversationCreatedV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService31Realtime_V1_ConversationCreatedVSHAASQ
+- _associated conformance 14SiriTTSService33Realtime_V1_InputAudioBufferClearV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService33Realtime_V1_InputAudioBufferClearV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
+- _associated conformance 14SiriTTSService33Realtime_V1_InputAudioBufferClearV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService33Realtime_V1_InputAudioBufferClearVSHAASQ
+- _associated conformance 14SiriTTSService34Realtime_V1_ConversationItemCreateV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService34Realtime_V1_ConversationItemCreateV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0K0
+- _associated conformance 14SiriTTSService34Realtime_V1_ConversationItemCreateV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService34Realtime_V1_ConversationItemCreateVSHAASQ
+- _associated conformance 14SiriTTSService34Realtime_V1_ConversationItemDeleteV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService34Realtime_V1_ConversationItemDeleteV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0K0
+- _associated conformance 14SiriTTSService34Realtime_V1_ConversationItemDeleteV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService34Realtime_V1_ConversationItemDeleteVSHAASQ
+- _associated conformance 14SiriTTSService34Realtime_V1_InputAudioBufferAppendV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService34Realtime_V1_InputAudioBufferAppendV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
+- _associated conformance 14SiriTTSService34Realtime_V1_InputAudioBufferAppendV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService34Realtime_V1_InputAudioBufferAppendVSHAASQ
+- _associated conformance 14SiriTTSService34Realtime_V1_InputAudioBufferCommitV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService34Realtime_V1_InputAudioBufferCommitV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
+- _associated conformance 14SiriTTSService34Realtime_V1_InputAudioBufferCommitV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService34Realtime_V1_InputAudioBufferCommitVSHAASQ
+- _associated conformance 14SiriTTSService34Realtime_V1_ResponseOutputItemDoneV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService34Realtime_V1_ResponseOutputItemDoneV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
+- _associated conformance 14SiriTTSService34Realtime_V1_ResponseOutputItemDoneV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService34Realtime_V1_ResponseOutputItemDoneVSHAASQ
+- _associated conformance 14SiriTTSService35Realtime_V1_ConversationItemCreatedV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService35Realtime_V1_ConversationItemCreatedV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0K0
+- _associated conformance 14SiriTTSService35Realtime_V1_ConversationItemCreatedV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService35Realtime_V1_ConversationItemCreatedVSHAASQ
+- _associated conformance 14SiriTTSService35Realtime_V1_ConversationItemDeletedV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService35Realtime_V1_ConversationItemDeletedV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0K0
+- _associated conformance 14SiriTTSService35Realtime_V1_ConversationItemDeletedV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService35Realtime_V1_ConversationItemDeletedVSHAASQ
+- _associated conformance 14SiriTTSService35Realtime_V1_InputAudioBufferClearedV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService35Realtime_V1_InputAudioBufferClearedV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
+- _associated conformance 14SiriTTSService35Realtime_V1_InputAudioBufferClearedV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService35Realtime_V1_InputAudioBufferClearedVSHAASQ
+- _associated conformance 14SiriTTSService35Realtime_V1_InputAudioTranscriptionV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService35Realtime_V1_InputAudioTranscriptionV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0K0
+- _associated conformance 14SiriTTSService35Realtime_V1_InputAudioTranscriptionV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService35Realtime_V1_InputAudioTranscriptionVSHAASQ
+- _associated conformance 14SiriTTSService35Realtime_V1_ResponseContentPartDoneV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService35Realtime_V1_ResponseContentPartDoneV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
+- _associated conformance 14SiriTTSService35Realtime_V1_ResponseContentPartDoneV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService35Realtime_V1_ResponseContentPartDoneVSHAASQ
+- _associated conformance 14SiriTTSService35Realtime_V1_ResponseOutputItemAddedV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService35Realtime_V1_ResponseOutputItemAddedV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
+- _associated conformance 14SiriTTSService35Realtime_V1_ResponseOutputItemAddedV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService35Realtime_V1_ResponseOutputItemAddedVSHAASQ
+- _associated conformance 14SiriTTSService36Realtime_V1_ConversationItemTruncateV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService36Realtime_V1_ConversationItemTruncateV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0K0
+- _associated conformance 14SiriTTSService36Realtime_V1_ConversationItemTruncateV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService36Realtime_V1_ConversationItemTruncateVSHAASQ
+- _associated conformance 14SiriTTSService36Realtime_V1_ResponseContentPartAddedV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService36Realtime_V1_ResponseContentPartAddedV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
+- _associated conformance 14SiriTTSService36Realtime_V1_ResponseContentPartAddedV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService36Realtime_V1_ResponseContentPartAddedVSHAASQ
+- _associated conformance 14SiriTTSService37Realtime_V1_ConversationItemTruncatedV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService37Realtime_V1_ConversationItemTruncatedV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0K0
+- _associated conformance 14SiriTTSService37Realtime_V1_ConversationItemTruncatedV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService37Realtime_V1_ConversationItemTruncatedVSHAASQ
+- _associated conformance 14SiriTTSService37Realtime_V1_InputAudioBufferCommittedV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService37Realtime_V1_InputAudioBufferCommittedV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
+- _associated conformance 14SiriTTSService37Realtime_V1_InputAudioBufferCommittedV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService37Realtime_V1_InputAudioBufferCommittedVSHAASQ
+- _associated conformance 14SiriTTSService39Realtime_V1_ResponseAudioTranscriptDoneV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService39Realtime_V1_ResponseAudioTranscriptDoneV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
+- _associated conformance 14SiriTTSService39Realtime_V1_ResponseAudioTranscriptDoneV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService39Realtime_V1_ResponseAudioTranscriptDoneVSHAASQ
+- _associated conformance 14SiriTTSService40Realtime_V1_ResponseAudioTranscriptDeltaV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService40Realtime_V1_ResponseAudioTranscriptDeltaV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
+- _associated conformance 14SiriTTSService40Realtime_V1_ResponseAudioTranscriptDeltaV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService40Realtime_V1_ResponseAudioTranscriptDeltaVSHAASQ
+- _associated conformance 14SiriTTSService41Realtime_V1_InputAudioBufferSpeechStartedV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService41Realtime_V1_InputAudioBufferSpeechStartedV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0M0
+- _associated conformance 14SiriTTSService41Realtime_V1_InputAudioBufferSpeechStartedV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService41Realtime_V1_InputAudioBufferSpeechStartedVSHAASQ
+- _associated conformance 14SiriTTSService41Realtime_V1_InputAudioBufferSpeechStoppedV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService41Realtime_V1_InputAudioBufferSpeechStoppedV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0M0
+- _associated conformance 14SiriTTSService41Realtime_V1_InputAudioBufferSpeechStoppedV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService41Realtime_V1_InputAudioBufferSpeechStoppedVSHAASQ
+- _associated conformance 14SiriTTSService45Realtime_V1_ResponseFunctionCallArgumentsDoneV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService45Realtime_V1_ResponseFunctionCallArgumentsDoneV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0M0
+- _associated conformance 14SiriTTSService45Realtime_V1_ResponseFunctionCallArgumentsDoneV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService45Realtime_V1_ResponseFunctionCallArgumentsDoneVSHAASQ
+- _associated conformance 14SiriTTSService46Realtime_V1_ResponseFunctionCallArgumentsDeltaV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService46Realtime_V1_ResponseFunctionCallArgumentsDeltaV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0M0
+- _associated conformance 14SiriTTSService46Realtime_V1_ResponseFunctionCallArgumentsDeltaV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService46Realtime_V1_ResponseFunctionCallArgumentsDeltaVSHAASQ
+- _associated conformance 14SiriTTSService57Realtime_V1_ConversationItemInputAudioTranscriptionFailedV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService57Realtime_V1_ConversationItemInputAudioTranscriptionFailedV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0N0
+- _associated conformance 14SiriTTSService57Realtime_V1_ConversationItemInputAudioTranscriptionFailedV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService57Realtime_V1_ConversationItemInputAudioTranscriptionFailedVSHAASQ
+- _associated conformance 14SiriTTSService60Realtime_V1_ConversationItemInputAudioTranscriptionCompletedV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 14SiriTTSService60Realtime_V1_ConversationItemInputAudioTranscriptionCompletedV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0N0
+- _associated conformance 14SiriTTSService60Realtime_V1_ConversationItemInputAudioTranscriptionCompletedV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 14SiriTTSService60Realtime_V1_ConversationItemInputAudioTranscriptionCompletedVSHAASQ
+- _block_copy_helper.106
+- _block_copy_helper.112
+- _block_copy_helper.118
+- _block_copy_helper.12
+- _block_copy_helper.121
+- _block_copy_helper.13
+- _block_copy_helper.133
+- _block_copy_helper.136
+- _block_copy_helper.139
+- _block_copy_helper.145
+- _block_copy_helper.150
+- _block_copy_helper.151
+- _block_copy_helper.154
+- _block_copy_helper.159
+- _block_copy_helper.160
+- _block_copy_helper.166
+- _block_copy_helper.168
+- _block_copy_helper.178
+- _block_copy_helper.18
+- _block_copy_helper.188
+- _block_copy_helper.197
+- _block_copy_helper.203
+- _block_copy_helper.25
+- _block_copy_helper.28
+- _block_copy_helper.31
+- _block_copy_helper.32
+- _block_copy_helper.325
+- _block_copy_helper.328
+- _block_copy_helper.331
+- _block_copy_helper.334
+- _block_copy_helper.348
+- _block_copy_helper.362
+- _block_copy_helper.37
+- _block_copy_helper.377
+- _block_copy_helper.391
+- _block_copy_helper.430
+- _block_copy_helper.444
+- _block_copy_helper.45
+- _block_copy_helper.46
+- _block_copy_helper.484
+- _block_copy_helper.487
+- _block_copy_helper.490
+- _block_copy_helper.496
+- _block_copy_helper.508
+- _block_copy_helper.529
+- _block_copy_helper.550
+- _block_copy_helper.569
+- _block_copy_helper.572
+- _block_copy_helper.58
+- _block_copy_helper.61
+- _block_copy_helper.64
+- _block_copy_helper.70
+- _block_copy_helper.73
+- _block_copy_helper.76
+- _block_copy_helper.8
+- _block_copy_helper.82
+- _block_copy_helper.87
+- _block_copy_helper.88
+- _block_copy_helper.93
+- _block_descriptor.10
+- _block_descriptor.108
+- _block_descriptor.114
+- _block_descriptor.120
+- _block_descriptor.123
+- _block_descriptor.135
+- _block_descriptor.138
+- _block_descriptor.14
+- _block_descriptor.141
+- _block_descriptor.147
+- _block_descriptor.15
+- _block_descriptor.152
+- _block_descriptor.153
+- _block_descriptor.156
+- _block_descriptor.161
+- _block_descriptor.162
+- _block_descriptor.168
+- _block_descriptor.170
+- _block_descriptor.180
+- _block_descriptor.190
+- _block_descriptor.199
+- _block_descriptor.20
+- _block_descriptor.205
+- _block_descriptor.27
+- _block_descriptor.30
+- _block_descriptor.327
+- _block_descriptor.33
+- _block_descriptor.330
+- _block_descriptor.333
+- _block_descriptor.336
+- _block_descriptor.34
+- _block_descriptor.350
+- _block_descriptor.364
+- _block_descriptor.379
+- _block_descriptor.39
+- _block_descriptor.393
+- _block_descriptor.432
+- _block_descriptor.446
+- _block_descriptor.47
+- _block_descriptor.48
+- _block_descriptor.486
+- _block_descriptor.489
+- _block_descriptor.492
+- _block_descriptor.498
+- _block_descriptor.510
+- _block_descriptor.531
+- _block_descriptor.552
+- _block_descriptor.571
+- _block_descriptor.574
+- _block_descriptor.60
+- _block_descriptor.63
+- _block_descriptor.66
+- _block_descriptor.72
+- _block_descriptor.75
+- _block_descriptor.78
+- _block_descriptor.84
+- _block_descriptor.89
+- _block_descriptor.90
+- _block_descriptor.95
+- _block_destroy_helper.107
+- _block_destroy_helper.113
+- _block_destroy_helper.119
+- _block_destroy_helper.122
+- _block_destroy_helper.13
+- _block_destroy_helper.134
+- _block_destroy_helper.137
+- _block_destroy_helper.14
+- _block_destroy_helper.140
+- _block_destroy_helper.146
+- _block_destroy_helper.151
+- _block_destroy_helper.152
+- _block_destroy_helper.155
+- _block_destroy_helper.160
+- _block_destroy_helper.161
+- _block_destroy_helper.167
+- _block_destroy_helper.169
+- _block_destroy_helper.179
+- _block_destroy_helper.189
+- _block_destroy_helper.19
+- _block_destroy_helper.198
+- _block_destroy_helper.204
+- _block_destroy_helper.26
+- _block_destroy_helper.29
+- _block_destroy_helper.32
+- _block_destroy_helper.326
+- _block_destroy_helper.329
+- _block_destroy_helper.33
+- _block_destroy_helper.332
+- _block_destroy_helper.335
+- _block_destroy_helper.349
+- _block_destroy_helper.363
+- _block_destroy_helper.378
+- _block_destroy_helper.38
+- _block_destroy_helper.392
+- _block_destroy_helper.431
+- _block_destroy_helper.445
+- _block_destroy_helper.46
+- _block_destroy_helper.47
+- _block_destroy_helper.485
+- _block_destroy_helper.488
+- _block_destroy_helper.491
+- _block_destroy_helper.497
+- _block_destroy_helper.509
+- _block_destroy_helper.530
+- _block_destroy_helper.551
+- _block_destroy_helper.570
+- _block_destroy_helper.573
+- _block_destroy_helper.59
+- _block_destroy_helper.62
+- _block_destroy_helper.65
+- _block_destroy_helper.71
+- _block_destroy_helper.74
+- _block_destroy_helper.77
+- _block_destroy_helper.83
+- _block_destroy_helper.88
+- _block_destroy_helper.89
+- _block_destroy_helper.9
+- _block_destroy_helper.94
+- _flat unique So20TRINotificationToken_p
+- _get_type_metadata 15Synchronization5MutexVy10Foundation3URLVSgG.17
+- _get_type_metadata 15Synchronization5MutexVy14SiriTTSService19AudioPowerProviding_pSgG.14
+- _get_type_metadata 15Synchronization5MutexVy14SiriTTSService25AudioPlaybackServiceStateOG.50
+- _get_type_metadata 15Synchronization5MutexVySSSgG.22
+- _get_type_metadata 15Synchronization5MutexVySaySSGSgG.21
+- _get_type_metadata 15Synchronization5MutexVySbG.18
+- _get_type_metadata 15Synchronization5MutexVySiG.19
+- _get_type_metadata 15Synchronization5MutexVySo12TTSAssetTypeCSgG.6
+- _get_type_metadata 15Synchronization5MutexVySo8NSNumberCSgG.20
+- _get_type_metadata SHRzr0_l15Synchronization5MutexVySDyxq_GG.1
+- _keypath_get.83Tm
+- _keypath_getTm
+- _malloc
+- _objc_claimAutoreleasedReturnValue
+- _objc_retainAutoreleaseReturnValue
+- _objectdestroy.23Tm
+- _objectdestroy.30Tm
+- _objectdestroy.43Tm
+- _objectdestroy.75Tm
+- _objectdestroy.9Tm
+- _swift_cvw_initEnumMetadataMultiPayloadWithLayoutString
+- _swift_cvw_instantiateLayoutString
+- _swift_cvw_multiPayloadEnumGeneric_destructiveInjectEnumTag
+- _swift_cvw_multiPayloadEnumGeneric_getEnumTag
+- _swift_getEnumCaseMultiPayload
+- _swift_storeEnumTagMultiPayload
+- _symbolic $s14SiriTTSService20AudioVolumeAdjustingP
+- _symbolic G0R3_
+- _symbolic SDySSSay_____GG 14SiriTTSService8TTSAssetC
+- _symbolic SDySS_____G 14SiriTTSService20Realtime_V1_PropertyV
+- _symbolic SS3key______5valuet 14SiriTTSService20Realtime_V1_PropertyV
+- _symbolic SS3key______5valuetSg 14SiriTTSService20Realtime_V1_PropertyV
+- _symbolic Say_____G 10Foundation11JSONEncoderC16OutputFormattingV
+- _symbolic Say_____G 14SiriTTSService16Realtime_V1_ToolV
+- _symbolic Say_____G 14SiriTTSService19Realtime_V1_ContentV
+- _symbolic Say_____G 14SiriTTSService20Realtime_V1_ModalityO
+- _symbolic Say_____G 14SiriTTSService21Realtime_V1_RateLimitV
+- _symbolic Say_____G 14SiriTTSService22Realtime_V1_ToolChoiceO
+- _symbolic Say_____G 14SiriTTSService23Realtime_V1_AudioFormatO
+- _symbolic Say_____G 14SiriTTSService27Realtime_V1_ClientEventTypeO
+- _symbolic Say_____G 14SiriTTSService27Realtime_V1_ServerEventTypeO
+- _symbolic Sd_____Iegyy_ So31TRIOnDemandFactorDownloadStatusV
+- _symbolic SfIegy_Sg
+- _symbolic Si______t 21InternalSwiftProtobuf8_NameMapV0D11DescriptionO
+- _symbolic _____ 14SiriTTSService14DownloadOptionV
+- _symbolic _____ 14SiriTTSService16Realtime_V1_ItemV
+- _symbolic _____ 14SiriTTSService16Realtime_V1_PartV
+- _symbolic _____ 14SiriTTSService16Realtime_V1_ToolV
+- _symbolic _____ 14SiriTTSService17DiagnosticServiceC15MetricsJsonKeysO
+- _symbolic _____ 14SiriTTSService18TTSAssetTrialAssetC
+- _symbolic _____ 14SiriTTSService18TrialAssetProviderC
+- _symbolic _____ 14SiriTTSService19AudioQueueInterfaceC0cD14BufferUserData33_D074378E45DF23C69F519544CB6674D2LLC
+- _symbolic _____ 14SiriTTSService19Realtime_V1_ContentV
+- _symbolic _____ 14SiriTTSService19Realtime_V1_SessionV
+- _symbolic _____ 14SiriTTSService20Realtime_V1_FunctionV
+- _symbolic _____ 14SiriTTSService20Realtime_V1_ModalityO
+- _symbolic _____ 14SiriTTSService20Realtime_V1_PropertyV
+- _symbolic _____ 14SiriTTSService20Realtime_V1_ResponseV
+- _symbolic _____ 14SiriTTSService21Realtime_V1_RateLimitV
+- _symbolic _____ 14SiriTTSService21TTSAssetTrialStrategyC
+- _symbolic _____ 14SiriTTSService22Realtime_V1_ParametersV
+- _symbolic _____ 14SiriTTSService22Realtime_V1_ToolChoiceO
+- _symbolic _____ 14SiriTTSService23Realtime_V1_AudioFormatO
+- _symbolic _____ 14SiriTTSService23Realtime_V1_ClientErrorV
+- _symbolic _____ 14SiriTTSService23Realtime_V1_ClientEventV
+- _symbolic _____ 14SiriTTSService23Realtime_V1_ClientEventV06OneOf_F0O
+- _symbolic _____ 14SiriTTSService23Realtime_V1_CommonErrorV
+- _symbolic _____ 14SiriTTSService23Realtime_V1_ServerEventV
+- _symbolic _____ 14SiriTTSService23Realtime_V1_ServerEventV06OneOf_F0O
+- _symbolic _____ 14SiriTTSService23TTSAssetTrialVoiceAssetC
+- _symbolic _____ 14SiriTTSService24Realtime_V1_ConversationV
+- _symbolic _____ 14SiriTTSService24Realtime_V1_ResponseDoneV
+- _symbolic _____ 14SiriTTSService25Realtime_V1_SessionUpdateV
+- _symbolic _____ 14SiriTTSService25Realtime_V1_SessionUpdateV13_StorageClass33_C93BA31E651E35C3B45A57B0C1BB1FD9LLC
+- _symbolic _____ 14SiriTTSService25Realtime_V1_TurnDetectionV
+- _symbolic _____ 14SiriTTSService26Realtime_V1_ResponseCancelV
+- _symbolic _____ 14SiriTTSService26Realtime_V1_ResponseCreateV
+- _symbolic _____ 14SiriTTSService26Realtime_V1_SessionCreatedV
+- _symbolic _____ 14SiriTTSService26Realtime_V1_SessionCreatedV13_StorageClass33_1FC65C7469DBAFEA095D5329DD5B6135LLC
+- _symbolic _____ 14SiriTTSService26Realtime_V1_SessionUpdatedV
+- _symbolic _____ 14SiriTTSService26Realtime_V1_SessionUpdatedV13_StorageClass33_1FC65C7469DBAFEA095D5329DD5B6135LLC
+- _symbolic _____ 14SiriTTSService26TTSAssetTrialResourceAssetC
+- _symbolic _____ 14SiriTTSService27Realtime_V1_ClientEventTypeO
+- _symbolic _____ 14SiriTTSService27Realtime_V1_ResponseCreatedV
+- _symbolic _____ 14SiriTTSService27Realtime_V1_ServerEventTypeO
+- _symbolic _____ 14SiriTTSService28Realtime_V1_ResponseTextDoneV
+- _symbolic _____ 14SiriTTSService29Realtime_V1_RateLimitsUpdatedV
+- _symbolic _____ 14SiriTTSService29Realtime_V1_ResponseAudioDoneV
+- _symbolic _____ 14SiriTTSService29Realtime_V1_ResponseTextDeltaV
+- _symbolic _____ 14SiriTTSService30Realtime_V1_ResponseAudioDeltaV
+- _symbolic _____ 14SiriTTSService31Realtime_V1_ConversationCreatedV
+- _symbolic _____ 14SiriTTSService33Realtime_V1_InputAudioBufferClearV
+- _symbolic _____ 14SiriTTSService34Realtime_V1_ConversationItemCreateV
+- _symbolic _____ 14SiriTTSService34Realtime_V1_ConversationItemDeleteV
+- _symbolic _____ 14SiriTTSService34Realtime_V1_InputAudioBufferAppendV
+- _symbolic _____ 14SiriTTSService34Realtime_V1_InputAudioBufferCommitV
+- _symbolic _____ 14SiriTTSService34Realtime_V1_ResponseOutputItemDoneV
+- _symbolic _____ 14SiriTTSService35Realtime_V1_ConversationItemCreatedV
+- _symbolic _____ 14SiriTTSService35Realtime_V1_ConversationItemDeletedV
+- _symbolic _____ 14SiriTTSService35Realtime_V1_InputAudioBufferClearedV
+- _symbolic _____ 14SiriTTSService35Realtime_V1_InputAudioTranscriptionV
+- _symbolic _____ 14SiriTTSService35Realtime_V1_ResponseContentPartDoneV
+- _symbolic _____ 14SiriTTSService35Realtime_V1_ResponseOutputItemAddedV
+- _symbolic _____ 14SiriTTSService36Realtime_V1_ConversationItemTruncateV
+- _symbolic _____ 14SiriTTSService36Realtime_V1_ResponseContentPartAddedV
+- _symbolic _____ 14SiriTTSService37Realtime_V1_ConversationItemTruncatedV
+- _symbolic _____ 14SiriTTSService37Realtime_V1_InputAudioBufferCommittedV
+- _symbolic _____ 14SiriTTSService39Realtime_V1_ResponseAudioTranscriptDoneV
+- _symbolic _____ 14SiriTTSService40Realtime_V1_ResponseAudioTranscriptDeltaV
+- _symbolic _____ 14SiriTTSService41Realtime_V1_InputAudioBufferSpeechStartedV
+- _symbolic _____ 14SiriTTSService41Realtime_V1_InputAudioBufferSpeechStoppedV
+- _symbolic _____ 14SiriTTSService45Realtime_V1_ResponseFunctionCallArgumentsDoneV
+- _symbolic _____ 14SiriTTSService46Realtime_V1_ResponseFunctionCallArgumentsDeltaV
+- _symbolic _____ 14SiriTTSService57Realtime_V1_ConversationItemInputAudioTranscriptionFailedV
+- _symbolic _____ 14SiriTTSService60Realtime_V1_ConversationItemInputAudioTranscriptionCompletedV
+- _symbolic _____ 21InternalSwiftProtobuf14UnknownStorageV
+- _symbolic _____ So31TRIOnDemandFactorDownloadStatusV
+- _symbolic _____Sg 14SiriTTSService16Realtime_V1_ItemV
+- _symbolic _____Sg 14SiriTTSService16Realtime_V1_PartV
+- _symbolic _____Sg 14SiriTTSService18TrialAssetProviderC
+- _symbolic _____Sg 14SiriTTSService19Realtime_V1_SessionV
+- _symbolic _____Sg 14SiriTTSService20Realtime_V1_FunctionV
+- _symbolic _____Sg 14SiriTTSService20Realtime_V1_ResponseV
+- _symbolic _____Sg 14SiriTTSService22Realtime_V1_ParametersV
+- _symbolic _____Sg 14SiriTTSService23Realtime_V1_ClientErrorV
+- _symbolic _____Sg 14SiriTTSService23Realtime_V1_ClientEventV06OneOf_F0O
+- _symbolic _____Sg 14SiriTTSService23Realtime_V1_CommonErrorV
+- _symbolic _____Sg 14SiriTTSService23Realtime_V1_ServerEventV06OneOf_F0O
+- _symbolic _____Sg 14SiriTTSService24Realtime_V1_ConversationV
+- _symbolic _____Sg 14SiriTTSService24Realtime_V1_ResponseDoneV
+- _symbolic _____Sg 14SiriTTSService25Realtime_V1_SessionUpdateV
+- _symbolic _____Sg 14SiriTTSService25Realtime_V1_TurnDetectionV
+- _symbolic _____Sg 14SiriTTSService26Realtime_V1_ResponseCancelV
+- _symbolic _____Sg 14SiriTTSService26Realtime_V1_ResponseCreateV
+- _symbolic _____Sg 14SiriTTSService26Realtime_V1_SessionCreatedV
+- _symbolic _____Sg 14SiriTTSService26Realtime_V1_SessionUpdatedV
+- _symbolic _____Sg 14SiriTTSService27Realtime_V1_ResponseCreatedV
+- _symbolic _____Sg 14SiriTTSService28Realtime_V1_ResponseTextDoneV
+- _symbolic _____Sg 14SiriTTSService29Realtime_V1_RateLimitsUpdatedV
+- _symbolic _____Sg 14SiriTTSService29Realtime_V1_ResponseAudioDoneV
+- _symbolic _____Sg 14SiriTTSService29Realtime_V1_ResponseTextDeltaV
+- _symbolic _____Sg 14SiriTTSService30Realtime_V1_ResponseAudioDeltaV
+- _symbolic _____Sg 14SiriTTSService31Realtime_V1_ConversationCreatedV
+- _symbolic _____Sg 14SiriTTSService33Realtime_V1_InputAudioBufferClearV
+- _symbolic _____Sg 14SiriTTSService34Realtime_V1_ConversationItemCreateV
+- _symbolic _____Sg 14SiriTTSService34Realtime_V1_ConversationItemDeleteV
+- _symbolic _____Sg 14SiriTTSService34Realtime_V1_InputAudioBufferAppendV
+- _symbolic _____Sg 14SiriTTSService34Realtime_V1_InputAudioBufferCommitV
+- _symbolic _____Sg 14SiriTTSService34Realtime_V1_ResponseOutputItemDoneV
+- _symbolic _____Sg 14SiriTTSService35Realtime_V1_ConversationItemCreatedV
+- _symbolic _____Sg 14SiriTTSService35Realtime_V1_ConversationItemDeletedV
+- _symbolic _____Sg 14SiriTTSService35Realtime_V1_InputAudioBufferClearedV
+- _symbolic _____Sg 14SiriTTSService35Realtime_V1_InputAudioTranscriptionV
+- _symbolic _____Sg 14SiriTTSService35Realtime_V1_ResponseContentPartDoneV
+- _symbolic _____Sg 14SiriTTSService35Realtime_V1_ResponseOutputItemAddedV
+- _symbolic _____Sg 14SiriTTSService36Realtime_V1_ConversationItemTruncateV
+- _symbolic _____Sg 14SiriTTSService36Realtime_V1_ResponseContentPartAddedV
+- _symbolic _____Sg 14SiriTTSService37Realtime_V1_ConversationItemTruncatedV
+- _symbolic _____Sg 14SiriTTSService37Realtime_V1_InputAudioBufferCommittedV
+- _symbolic _____Sg 14SiriTTSService39Realtime_V1_ResponseAudioTranscriptDoneV
+- _symbolic _____Sg 14SiriTTSService40Realtime_V1_ResponseAudioTranscriptDeltaV
+- _symbolic _____Sg 14SiriTTSService41Realtime_V1_InputAudioBufferSpeechStartedV
+- _symbolic _____Sg 14SiriTTSService41Realtime_V1_InputAudioBufferSpeechStoppedV
+- _symbolic _____Sg 14SiriTTSService45Realtime_V1_ResponseFunctionCallArgumentsDoneV
+- _symbolic _____Sg 14SiriTTSService46Realtime_V1_ResponseFunctionCallArgumentsDeltaV
+- _symbolic _____Sg 14SiriTTSService57Realtime_V1_ConversationItemInputAudioTranscriptionFailedV
+- _symbolic _____Sg 14SiriTTSService60Realtime_V1_ConversationItemInputAudioTranscriptionCompletedV
+- _symbolic _____Sg_ABt 14SiriTTSService16Realtime_V1_ItemV
+- _symbolic _____Sg_ABt 14SiriTTSService16Realtime_V1_PartV
+- _symbolic _____Sg_ABt 14SiriTTSService19Realtime_V1_SessionV
+- _symbolic _____Sg_ABt 14SiriTTSService20Realtime_V1_FunctionV
+- _symbolic _____Sg_ABt 14SiriTTSService20Realtime_V1_ResponseV
+- _symbolic _____Sg_ABt 14SiriTTSService22Realtime_V1_ParametersV
+- _symbolic _____Sg_ABt 14SiriTTSService23Realtime_V1_ClientEventV06OneOf_F0O
+- _symbolic _____Sg_ABt 14SiriTTSService23Realtime_V1_CommonErrorV
+- _symbolic _____Sg_ABt 14SiriTTSService23Realtime_V1_ServerEventV06OneOf_F0O
+- _symbolic _____Sg_ABt 14SiriTTSService24Realtime_V1_ConversationV
+- _symbolic _____Sg_ABt 14SiriTTSService25Realtime_V1_TurnDetectionV
+- _symbolic _____Sg_ABt 14SiriTTSService35Realtime_V1_InputAudioTranscriptionV
+- _symbolic _____XDXMT 14SiriTTSService18TrialAssetProviderC
+- _symbolic _____XDXMT 14SiriTTSService24TTSAssetUAFAssetProviderC
+- _symbolic ______AAt 14SiriTTSService23Realtime_V1_ClientEventV06OneOf_F0O
+- _symbolic ______AAt 14SiriTTSService23Realtime_V1_ServerEventV06OneOf_F0O
+- _symbolic ______p 14SiriTTSService20AudioVolumeAdjustingP
+- _symbolic ______pIegn_ 14SiriTTSService20AudioVolumeAdjustingP
+- _symbolic ______pSg 14SiriTTSService20AudioVolumeAdjustingP
+- _symbolic ______pSg So20TRINotificationTokenP
+- _symbolic ______pSg_____SgIeggg_ s5ErrorP 14SiriTTSService10VoiceAssetC
+- _symbolic _____m 14SiriTTSService18TrialAssetProviderC
+- _symbolic _____mm 14SiriTTSService18TrialAssetProviderC
+- _symbolic _____ySS_So8NSNumberCtG s23_ContiguousArrayStorageC
+- _symbolic _____ySi______tG s23_ContiguousArrayStorageC 21InternalSwiftProtobuf8_NameMapV0G11DescriptionO
+- _symbolic _____ySsG 17_StringProcessing5RegexV
+- _symbolic _____y_____G s22KeyedEncodingContainerV 14SiriTTSService17DiagnosticServiceC15MetricsJsonKeysO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation11JSONEncoderC16OutputFormattingV
+- _symbolic ypIegn_Sg
+- _type_layout_string 14SiriTTSService14DownloadOptionV
+- _type_layout_string SQRzl14SiriTTSService20DirectedAcyclicGraphVyxG
+- _type_layout_string So16NSURLResourceKeya
+CStrings:
++ "#SentenceBufferingAction (request id: %llu) Sending utterance: %s"
++ "$__lazy_storage_$__swiftConnection"
++ ",\n \"is_streaming_input\": "
++ "/AppleInternal/Library/BuildRoots/4~CIQKugCAHWGdSO72fxQBGemlbJG0vSf2MWd4IOY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/optional:801: libc++ Hardening assertion this->has_value() failed: optional operator-> called on a disengaged value\n"
++ "/\\u{1B}\\\\mrk=(name|uuid)=[^\\\\]*\\\\/"
++ "Appending request: %llu, with token: %s"
++ "AssetResources_generated"
++ "AssetVoices_generated"
++ "Audio playback controller is not available yet"
++ "Audio queue seeked from time %f to time %f"
++ "Audio track added audio %s"
++ "AudioPlaybackControlling"
++ "AudioQueue resumed"
++ "AudioQueue started"
++ "AudioQueueInterface enqueued audio buffer with %lu samples."
++ "AudioService: Unable to reset AudioQueue, errno "
++ "AudioVolumeControlling"
++ "Cannot find word timing for playback time %f, cannot interpolate."
++ "Default timeout: %f"
++ "Deinit SentenceBufferingAction"
++ "Delay pausing audio from %f to %f while audio fades out"
++ "Dequeued audio buffer, packet count: %ld, bytes: %ld"
++ "Detected audio queue stall, will stop immediately"
++ "Detected stalled audio generation, will enqueue %f silence frames (%fs) to compensate."
++ "Done delay pausing audio"
++ "Expect subscribedVoices response"
++ "Factor does not have %ld components as expected: %s."
++ "Factor has too few components: %s"
++ "Failed to load VoicePreset from %s: %@"
++ "Found rewind marker: resumePosition=%f"
++ "Ignore request %llu event because it is not found"
++ "Ignoring pausing audio: already pausing/paused"
++ "Initializing VoicePreset from %s"
++ "InteractiveVoicePreviews"
++ "Invalid number of keys found, expected one."
++ "Invalid voice preset plist, too few voices"
++ "Missing voice name for voice preview"
++ "New sentence detected ('%s'), writing cache for previous sentence"
++ "No more audio from audio track to play"
++ "No rewind markers available"
++ "Non-existing voice preview folder"
++ "Number of words in preview files do not match, cannot interpolate."
++ "Overwriting voice name with internal livingOnVoiceName: %s"
++ "Paused audio queue"
++ "Pausing playback of request %llu"
++ "Request %llu received remote event: %s"
++ "Request is not found"
++ "Requested word offset %ld exceeds total word count, cannot interpolate."
++ "Resuming playback of request %llu"
++ "Resuming synchronizer"
++ "Sample time: %f, ratio: %f"
++ "Service config specifies timeout: %f"
++ "SiriMessages"
++ "SiriTTSService.Event.appendingStreamToken"
++ "SiriTTSService.Event.audioPlaybackAdjusterAvailable"
++ "SiriTTSService.Event.audioPlaybackEnqueuedStreamingInput"
++ "SiriTTSService.Event.audioPlaybackPauseEnded"
++ "SiriTTSService.Event.audioPlaybackPauseRequest"
++ "SiriTTSService.Event.audioPlaybackPauseStarted"
++ "SiriTTSService.Event.inputStreamAvailable"
++ "Skipped seeking to packet %ld"
++ "State has changed while waiting to pause, skip pausing"
++ "Stream speech request error: %s"
++ "Streaming #SpeechRequest %{public}s"
++ "SynthesisEngineSelectionAction: Issues loading resource files."
++ "TB,N,R,VnextGenAvailability"
++ "TB,N,VisStreamingInput"
++ "TTSAsset"
++ "Text in preview files do not match, cannot interpolate."
++ "Unable to allocate AudioQueue Buffer, code: %s"
++ "Unable to create new copy of request"
++ "Unable to decode event data from daemon"
++ "Unable to decode internal event data from daemon"
++ "Unable to decode message from daemon"
++ "Unable to enqueue audio data, code: %s"
++ "Unable to find matching voice, error: %s"
++ "Unable to get current time from audio queue, error %s"
++ "Unable to get current time from audio queue: pausing immediately"
++ "Unable to get current time from audio queue: skip waiting"
++ "Unable to pause audio queue"
++ "Unable to pause audio queue, error: %s"
++ "Unexpected nil request"
++ "Unexpected non UAF asset %{public}@"
++ "Unexpected notification object, expecting DaemonSession.Token"
++ "Use TTSAsset.download(options:progress:then:) public API instead"
++ "VAD tasks done"
++ "VAD tasks failed"
++ "[VAD] Ignore empty audio data"
++ "[VAD] Ignore pause: %f less than min pause threshold: %f"
++ "[VAD] New max pause: %ld at %ld"
++ "[VAD] Total duration %f is less than sliding window %f"
++ "[VAD] Total duration: %fs, Found pause duration: %fs, start: %fs, end: %f"
++ "[VAD] Total duration: %fs, no pause rewind: %fs"
++ "[VAD] audio data: %ld, frames: %ld, current frame idx: %ld"
++ "[VAD] frameIndex:%ld - effectiveRms:%f - isSpeech:%{bool}d"
++ "_TtC14SiriTTSService15UtteranceBuffer"
++ "_TtC14SiriTTSService15VoiceComparator"
++ "_TtC14SiriTTSService20RewindPositionFinder"
++ "_TtC14SiriTTSService21DaemonSwiftConnection"
++ "_TtC14SiriTTSService21VoiceActivityDetector"
++ "_TtC14SiriTTSService23SentenceBufferingAction"
++ "_TtC14SiriTTSService24TTSFeatureFlagsContainer"
++ "_TtC14SiriTTSService29VoiceAssetsProviderLocalStore"
++ "_forceAVSBAR"
++ "_loadResourceFailure"
++ "afm-v8-tts-150b-v11"
++ "appendStreamTaskWithId:tokenString:reply:"
++ "assetNamed:"
++ "audioPlaybackController"
++ "audioPlaybackPauseRequest"
++ "audioTrack"
++ "audioVolumeController"
++ "availableInstrumentationMetrics"
++ "availableWordTimings"
++ "cancellationObserver"
++ "com.apple.Health"
++ "com.apple.siri.tts.customvoice.global"
++ "currentRequest"
++ "dataWithJSONObject:options:error:"
++ "dynamic_prompt_style"
++ "dynamic_prompt_voice"
++ "encounter_issues"
++ "event:eventData:"
++ "eventHandler"
++ "eventPublisher"
++ "fetchAttributes(voice:)"
++ "fetchAttributesWithVoice:reply:"
++ "fetchVoiceAttributes"
++ "first_audio_generated_time"
++ "first_audio_packet_latency"
++ "fmvoice"
++ "format"
++ "group"
++ "https://seed-dejavu.siri.apple.com"
++ "inputStreamingAvailable"
++ "internalEvent:internalEventData:"
++ "internalEventPublisher"
++ "invokeDaemon"
++ "isPaused"
++ "isSiriOpusAudioBytes"
++ "isStreaming"
++ "isStreamingInput"
++ "isStreamingInputFirstAudio"
++ "is_audible_request"
++ "is_streaming_input"
++ "iterator_based_message_reading"
++ "last_audio_generated_time"
++ "latestRewindMarker audioTrackTime:%f rewindOffset:%f"
++ "newSynthesisStarted"
++ "newTokenObserver"
++ "nextGenAvailability"
++ "noMoreEnqueuedData"
++ "opusDecoder"
++ "orderedPlistURLs"
++ "params"
++ "pauseWithRequest:"
++ "predefinedVoices"
++ "predefinedVoices()"
++ "predefinedVoicesWithReply:"
++ "remainingDelay did not decrease: pausing immediately"
++ "request_created_time"
++ "resource_asset_key"
++ "resumeWithRequest:"
++ "rewindMarkers"
++ "rewindPositionFinder"
++ "sentenceBreakExceptions"
++ "sentenceTokenizer"
++ "setIsStreamingInput:"
++ "setSiriInputStreamId:"
++ "setStreamId:"
++ "siriInputStreamId"
++ "startStreamWithSpeechRequestData:reply:"
++ "startTimeStamp"
++ "states"
++ "stream(speechRequest:inputHandler:)"
++ "subscribedVoices"
++ "swift_xpc"
++ "totalDuration"
++ "totalInjectedSilenceDuration"
++ "try-catch error: %@"
++ "unsanitized sample rate"
++ "use_F26Voices_asIN"
++ "use_F26Voices_bnIN"
++ "use_F26Voices_brxIN"
++ "use_F26Voices_doiIN"
++ "use_F26Voices_knIN"
++ "use_F26Voices_kokIN"
++ "use_F26Voices_ksIN"
++ "use_F26Voices_maiIN"
++ "use_F26Voices_mlIN"
++ "use_F26Voices_mniIN"
++ "use_F26Voices_neIN"
++ "use_F26Voices_orIN"
++ "use_F26Voices_saIN"
++ "use_F26Voices_satIN"
++ "use_F26Voices_sdIN"
++ "use_F26Voices_taIN"
++ "use_F26Voices_teIN"
++ "use_F26Voices_urIN"
++ "utteranceBuffer"
++ "v24@0:8@?<v@?@\"NSArray\"@\"NSError\">16"
++ "v24@?0@\"NSArray\"8@\"NSError\"16"
++ "v32@0:8@\"NSData\"16@?<v@?@\"NSError\">24"
++ "v32@0:8@\"SiriTTSSynthesisVoice\"16@?<v@?@\"NSArray\"@\"NSError\">24"
++ "v32@0:8Q16@\"NSData\"24"
++ "v40@0:8Q16@\"NSString\"24@?<v@?@\"NSError\">32"
++ "v40@0:8Q16@24@?32"
++ "voiceActivityDetector"
++ "voiceAssetsProvider"
+- "#Trial attempting namespace download"
+- "#Trial listing assets for class '%s', types: '%{public}s', filter: '%{public}s'"
+- "#Trial namespace download timed out"
+- "#Trial namespace download took %.1fs"
+- "/Library/Trial/Treatments/"
+- "/\\u{1B}\\\\[^\\\\]*\\\\/"
+- "/\\u{1B}\\\\mrk=name=[^\\\\]*\\\\/"
+- "/private/var/MobileAsset/AssetsV2/com_apple_MobileAsset_Trial_Siri_SiriTextToSpeech/"
+- "AUDIO_FORMAT_G711_ULAW"
+- "AUDIO_FORMAT_OPUS16"
+- "AUDIO_FORMAT_OPUS24"
+- "AUDIO_FORMAT_PCM16"
+- "AUDIO_FORMAT_TOKENS"
+- "AUDIO_FORMAT_UNSPECIFIED"
+- "Asset %s attributes %s level %@"
+- "Attempting voice download, voice: %@, discretionary: %{bool}d"
+- "AudioVolumeAdjusting"
+- "CLIENT_EVENT_TYPE_CONVERSATION_ITEM_CREATE"
+- "CLIENT_EVENT_TYPE_CONVERSATION_ITEM_DELETE"
+- "CLIENT_EVENT_TYPE_CONVERSATION_ITEM_TRUNCATE"
+- "CLIENT_EVENT_TYPE_INPUT_AUDIO_BUFFER_APPEND"
+- "CLIENT_EVENT_TYPE_INPUT_AUDIO_BUFFER_CLEAR"
+- "CLIENT_EVENT_TYPE_INPUT_AUDIO_BUFFER_COMMIT"
+- "CLIENT_EVENT_TYPE_RESPONSE_CANCEL"
+- "CLIENT_EVENT_TYPE_RESPONSE_CREATE"
+- "CLIENT_EVENT_TYPE_SESSION_UPDATE"
+- "CLIENT_EVENT_TYPE_UNSPECIFIED"
+- "Default Osprey timeout: 1.0"
+- "Detected stalled audio generation, will enqueue %f silence frame to compensate."
+- "Download namespace requires non-discretionary option"
+- "Encountered entirely unexpected factor %s."
+- "Factor %s does not have %ld components as expected."
+- "Factor %s does not have expected prefix."
+- "Get namespace update, refreshing trial client"
+- "Locally available FactoryTrialAsset has no bundle: %s"
+- "Locally available MAAsset has no bundle: %s"
+- "Locally available voice has no bundle: %@"
+- "MODALITY_AUDIO"
+- "MODALITY_TEXT"
+- "MODALITY_UNSPECIFIED"
+- "Missing asset type for voice"
+- "Missing footprint for voice"
+- "Missing name for voice"
+- "Missing name on TRIFactor."
+- "Missing name on TRIFactorLevel."
+- "New voice will be downloaded: %@"
+- "Osprey config specifies timeout: %f"
+- "Played audio buffer #%ld, packet count: %ld, bytes: %ld"
+- "Refreshing stale trial client"
+- "Resource asset is locally available: %s"
+- "SERVER_EVENT_TYPE_CONVERSATION_CREATED"
+- "SERVER_EVENT_TYPE_CONVERSATION_ITEM_CREATED"
+- "SERVER_EVENT_TYPE_CONVERSATION_ITEM_DELETED"
+- "SERVER_EVENT_TYPE_CONVERSATION_ITEM_INPUT_AUDIO_TRANSCRIPTION_COMPLETED"
+- "SERVER_EVENT_TYPE_CONVERSATION_ITEM_INPUT_AUDIO_TRANSCRIPTION_FAILED"
+- "SERVER_EVENT_TYPE_CONVERSATION_ITEM_TRUNCATED"
+- "SERVER_EVENT_TYPE_ERROR"
+- "SERVER_EVENT_TYPE_INPUT_AUDIO_BUFFER_CLEARED"
+- "SERVER_EVENT_TYPE_INPUT_AUDIO_BUFFER_COMMITTED"
+- "SERVER_EVENT_TYPE_INPUT_AUDIO_BUFFER_SPEECH_STARTED"
+- "SERVER_EVENT_TYPE_INPUT_AUDIO_BUFFER_SPEECH_STOPPED"
+- "SERVER_EVENT_TYPE_RATE_LIMITS_UPDATED"
+- "SERVER_EVENT_TYPE_RESPONSE_AUDIO_DELTA"
+- "SERVER_EVENT_TYPE_RESPONSE_AUDIO_DONE"
+- "SERVER_EVENT_TYPE_RESPONSE_AUDIO_TRANSCRIPT_DELTA"
+- "SERVER_EVENT_TYPE_RESPONSE_AUDIO_TRANSCRIPT_DONE"
+- "SERVER_EVENT_TYPE_RESPONSE_CONTENT_PART_ADDED"
+- "SERVER_EVENT_TYPE_RESPONSE_CONTENT_PART_DONE"
+- "SERVER_EVENT_TYPE_RESPONSE_CREATED"
+- "SERVER_EVENT_TYPE_RESPONSE_DONE"
+- "SERVER_EVENT_TYPE_RESPONSE_FUNCTION_CALL_ARGUMENTS_DELTA"
+- "SERVER_EVENT_TYPE_RESPONSE_FUNCTION_CALL_ARGUMENTS_DONE"
+- "SERVER_EVENT_TYPE_RESPONSE_OUTPUT_ITEM_ADDED"
+- "SERVER_EVENT_TYPE_RESPONSE_OUTPUT_ITEM_DONE"
+- "SERVER_EVENT_TYPE_RESPONSE_TEXT_DELTA"
+- "SERVER_EVENT_TYPE_RESPONSE_TEXT_DONE"
+- "SERVER_EVENT_TYPE_SESSION_CREATED"
+- "SERVER_EVENT_TYPE_SESSION_UPDATED"
+- "SERVER_EVENT_TYPE_UNSPECIFIED"
+- "SIRI_TEXT_TO_SPEECH"
+- "SIRI_TEXT_TO_SPEECH namespace is not downloaded yet. Try downloading now."
+- "SiriTTSLocalization"
+- "SiriTTSService.TTSAssetTrialAsset"
+- "TOOL_CHOICE_AUTO"
+- "TOOL_CHOICE_NONE"
+- "TOOL_CHOICE_UNSPECIFIED"
+- "TRINotificationToken"
+- "TTSAsset Trial Callbacks"
+- "Trial asset %{public}@ already downloaded, unable to cancel"
+- "Trial asset %{public}@ download cancellation failed with error %@"
+- "Trial asset %{public}@ download cancelled"
+- "Trial asset %{public}@ download failed with error %@"
+- "Trial asset %{public}@ download succeeded"
+- "Trial asset %{public}@ not downloading, unable to cancel"
+- "Trial asset %{public}@ start download with option %{public}@"
+- "Trial assets %{public}@ immediate removal failed with error %@"
+- "Trial assets %{public}@ immediate removal succeeded"
+- "Trial download %u%% done, %.2fs left %d written status %d"
+- "TrialAssetDownloadProgress"
+- "Unable to allocate AudioQueue Buffer, code: "
+- "Unable to cancel download of non-TTSAssetTrialAsset asset"
+- "Unable to cancel download of non-TTSAssetUAFAsset asset"
+- "Unable to download SIRI_TEXT_TO_SPEECH namespace"
+- "Unable to download namespace, %s"
+- "Unable to download resource: "
+- "Unable to download voice: "
+- "Unable to enqueue audio data, code: "
+- "Unable to find best voice for "
+- "Unable to find resource for "
+- "Unable to get bundle path for factor name %s"
+- "Unable to get level for factor name '%{public}s'"
+- "Unexpected non UAF/Trial asset %{public}@"
+- "Unexpected to have startTime == 0"
+- "Unknown Trial download size for %@"
+- "Voice finishes downloading but is not locally available: "
+- "Voice is locally available already: %@"
+- "_TtC14SiriTTSService18TTSAssetTrialAsset"
+- "_TtC14SiriTTSService18TrialAssetProvider"
+- "_TtC14SiriTTSService21TTSAssetTrialStrategy"
+- "_TtC14SiriTTSService23TTSAssetTrialVoiceAsset"
+- "_TtC14SiriTTSService26TTSAssetTrialResourceAsset"
+- "_TtCC14SiriTTSService19AudioQueueInterfaceP33_D074378E45DF23C69F519544CB6674D224AudioQueueBufferUserData"
+- "_TtCV14SiriTTSService25Realtime_V1_SessionUpdateP33_C93BA31E651E35C3B45A57B0C1BB1FD913_StorageClass"
+- "_TtCV14SiriTTSService26Realtime_V1_SessionCreatedP33_1FC65C7469DBAFEA095D5329DD5B613513_StorageClass"
+- "_TtCV14SiriTTSService26Realtime_V1_SessionUpdatedP33_1FC65C7469DBAFEA095D5329DD5B613513_StorageClass"
+- "_dawToken"
+- "_eventID"
+- "_session"
+- "_type"
+- "addUpdateHandlerForNamespaceName:queue:usingBlock:"
+- "afm-audio-ptmoe-v8-df-v4"
+- "arguments"
+- "audioQueueLatency"
+- "audioVolumeAdjuster"
+- "audio_bytes"
+- "audio_end_ms"
+- "audio_start_ms"
+- "call_id"
+- "callback"
+- "clientWithIdentifier:"
+- "com.apple.trial.client"
+- "content_index"
+- "conversation"
+- "conversation_created"
+- "conversation_item_create"
+- "conversation_item_created"
+- "conversation_item_delete"
+- "conversation_item_deleted"
+- "conversation_item_truncate"
+- "conversation_item_truncated"
+- "delta"
+- "directoryValue"
+- "downloadLevelsForFactors:withNamespace:queue:options:progress:completion:"
+- "downloadToken"
+- "encounterIssues"
+- "event_id"
+- "expectedPlaySampleTime"
+- "factor"
+- "factorLevelsWithNamespaceName:"
+- "function"
+- "function_call_arguments_delta"
+- "function_call_arguments_done"
+- "hasAsset"
+- "hasFactor"
+- "hasName"
+- "hasPath"
+- "homepodSetupStringWithKey:language:"
+- "https://carry-dejavu.siri.apple.com"
+- "https://dejavu.apple.com"
+- "id"
+- "immediateDownloadForNamespaceNames:allowExpensiveNetworking:error:"
+- "initWithAllowsCellular:discretionaryBehavior:"
+- "input_audio_buffer_append"
+- "input_audio_buffer_clear"
+- "input_audio_buffer_cleared"
+- "input_audio_buffer_commit"
+- "input_audio_buffer_committed"
+- "input_audio_buffer_speech_started"
+- "input_audio_buffer_speech_stopped"
+- "input_audio_format"
+- "input_audio_transcription"
+- "instructions"
+- "item"
+- "item_id"
+- "level"
+- "levelForFactor:withNamespaceName:"
+- "limit"
+- "max_output_tokens"
+- "message"
+- "modalities"
+- "model"
+- "next_gen_voice"
+- "now"
+- "object"
+- "output"
+- "output_audio_format"
+- "output_index"
+- "param"
+- "parameters"
+- "part"
+- "prefix_padding_ms"
+- "previous_item_id"
+- "properties"
+- "purgeabilityLevelsForFactorsWithNamespaceName:"
+- "rate_limits"
+- "rate_limits_updated"
+- "realTimeFactor"
+- "realtime.v1.ClientError"
+- "realtime.v1.ClientEvent"
+- "realtime.v1.CommonError"
+- "realtime.v1.Content"
+- "realtime.v1.Conversation"
+- "realtime.v1.ConversationCreated"
+- "realtime.v1.ConversationItemCreate"
+- "realtime.v1.ConversationItemCreated"
+- "realtime.v1.ConversationItemDelete"
+- "realtime.v1.ConversationItemDeleted"
+- "realtime.v1.ConversationItemInputAudioTranscriptionCompleted"
+- "realtime.v1.ConversationItemInputAudioTranscriptionFailed"
+- "realtime.v1.ConversationItemTruncate"
+- "realtime.v1.ConversationItemTruncated"
+- "realtime.v1.Function"
+- "realtime.v1.InputAudioBufferAppend"
+- "realtime.v1.InputAudioBufferClear"
+- "realtime.v1.InputAudioBufferCleared"
+- "realtime.v1.InputAudioBufferCommit"
+- "realtime.v1.InputAudioBufferCommitted"
+- "realtime.v1.InputAudioBufferSpeechStarted"
+- "realtime.v1.InputAudioBufferSpeechStopped"
+- "realtime.v1.InputAudioTranscription"
+- "realtime.v1.Item"
+- "realtime.v1.Parameters"
+- "realtime.v1.Part"
+- "realtime.v1.Property"
+- "realtime.v1.RateLimit"
+- "realtime.v1.RateLimitsUpdated"
+- "realtime.v1.Response"
+- "realtime.v1.ResponseAudioDelta"
+- "realtime.v1.ResponseAudioDone"
+- "realtime.v1.ResponseAudioTranscriptDelta"
+- "realtime.v1.ResponseAudioTranscriptDone"
+- "realtime.v1.ResponseCancel"
+- "realtime.v1.ResponseContentPartAdded"
+- "realtime.v1.ResponseContentPartDone"
+- "realtime.v1.ResponseCreate"
+- "realtime.v1.ResponseCreated"
+- "realtime.v1.ResponseDone"
+- "realtime.v1.ResponseFunctionCallArgumentsDelta"
+- "realtime.v1.ResponseFunctionCallArgumentsDone"
+- "realtime.v1.ResponseOutputItemAdded"
+- "realtime.v1.ResponseOutputItemDone"
+- "realtime.v1.ResponseTextDelta"
+- "realtime.v1.ResponseTextDone"
+- "realtime.v1.ServerEvent"
+- "realtime.v1.Session"
+- "realtime.v1.SessionCreated"
+- "realtime.v1.SessionUpdate"
+- "realtime.v1.SessionUpdated"
+- "realtime.v1.Tool"
+- "realtime.v1.TurnDetection"
+- "refresh"
+- "remaining"
+- "removeDownloadStatusHandlersWithToken:"
+- "removeLevelsForFactors:withNamespace:queue:completion:"
+- "removeLevelsForFactorsImmediately:withNamespace:queue:completion:"
+- "required"
+- "reset_after_seconds"
+- "resourceAssetKey"
+- "response"
+- "response_audio_delta"
+- "response_audio_done"
+- "response_audio_transcript_delta"
+- "response_audio_transcript_done"
+- "response_cancel"
+- "response_content_part_added"
+- "response_content_part_done"
+- "response_create"
+- "response_created"
+- "response_done"
+- "response_id"
+- "response_output_item_added"
+- "response_output_item_done"
+- "response_text_delta"
+- "response_text_done"
+- "role"
+- "rolloutIdentifiersWithNamespaceName:"
+- "session_created"
+- "session_update"
+- "session_updated"
+- "setPurgeabilityLevelsForFactors:withNamespaceName:"
+- "silence_duration_ms"
+- "size"
+- "startSampleTime"
+- "statusOfDownloadForFactors:withNamespace:token:queue:progress:completion:"
+- "temperature"
+- "threshold"
+- "tool_choice"
+- "tools"
+- "transcript"
+- "transcription_completed"
+- "transcription_failed"
+- "trialAssetProvider"
+- "ttsSynthesisLatency"
+- "ttsTotalLatency"
+- "turn_detection"
+- "use_F25Voices_asIN"
+- "use_F25Voices_bnIN"
+- "use_F25Voices_enIN"
+- "use_F25Voices_guIN"
+- "use_F25Voices_hiIN"
+- "use_F25Voices_knIN"
+- "use_F25Voices_mlIN"
+- "use_F25Voices_mniIN"
+- "use_F25Voices_mrIN"
+- "use_F25Voices_orIN"
+- "use_F25Voices_paIN"
+- "use_F25Voices_taIN"
+- "use_F25Voices_teIN"
+- "use_F25Voices_urIN"
+- "v16@?0@\"<TRINamespaceUpdateProtocol>\"8"
+- "v24@?0d8Q16"
+
+```

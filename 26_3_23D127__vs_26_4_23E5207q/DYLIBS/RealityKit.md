@@ -1,0 +1,371 @@
+## RealityKit
+
+> `/System/Library/Frameworks/RealityKit.framework/RealityKit`
+
+```diff
+
+-403.60.3.0.0
+-  __TEXT.__text: 0x7d3b4
+-  __TEXT.__auth_stubs: 0x4b70
+-  __TEXT.__objc_methlist: 0x1184
+-  __TEXT.__const: 0x4780
+-  __TEXT.__cstring: 0x3374
++403.100.9.0.0
++  __TEXT.__text: 0x7ab44
++  __TEXT.__auth_stubs: 0x4b40
++  __TEXT.__objc_methlist: 0x1194
++  __TEXT.__const: 0x47c0
+   __TEXT.__swift5_typeref: 0x163e
+   __TEXT.__swift5_capture: 0x464
+   __TEXT.__constg_swiftt: 0x1a58
+
+   __TEXT.__swift5_fieldmd: 0x13f8
+   __TEXT.__swift5_builtin: 0x1cc
+   __TEXT.__swift5_assocty: 0x2e8
+-  __TEXT.__swift5_proto: 0x2b0
++  __TEXT.__cstring: 0x1799
++  __TEXT.__swift5_proto: 0x2b4
+   __TEXT.__swift5_types: 0x194
+   __TEXT.__swift_as_entry: 0x58
+   __TEXT.__swift_as_ret: 0x48
+   __TEXT.__oslogstring: 0x79
+   __TEXT.__swift5_mpenum: 0x88
+   __TEXT.__swift5_protos: 0x10
+-  __TEXT.__unwind_info: 0x1ae8
+-  __TEXT.__eh_frame: 0x1870
+-  __TEXT.__objc_classname: 0xc2
+-  __TEXT.__objc_methname: 0x30b2
+-  __TEXT.__objc_methtype: 0x1ce6
+-  __DATA_CONST.__got: 0x978
++  __TEXT.__unwind_info: 0x1a10
++  __TEXT.__eh_frame: 0x15d0
++  __TEXT.__objc_classname: 0x6aa
++  __TEXT.__objc_methname: 0x4bd1
++  __TEXT.__objc_methtype: 0x2297
++  __TEXT.__objc_stubs: 0x1560
++  __DATA_CONST.__got: 0x980
+   __DATA_CONST.__const: 0x5a0
+   __DATA_CONST.__objc_classlist: 0xa8
+   __DATA_CONST.__objc_protolist: 0xc0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xe90
++  __DATA_CONST.__objc_selrefs: 0xe98
+   __DATA_CONST.__objc_protorefs: 0x60
+-  __AUTH_CONST.__auth_got: 0x25b8
++  __AUTH_CONST.__auth_got: 0x25a8
+   __AUTH_CONST.__const: 0x3280
+-  __AUTH_CONST.__objc_const: 0x2f50
++  __AUTH_CONST.__objc_const: 0x2f68
+   __AUTH.__objc_data: 0xa60
+   __AUTH.__data: 0x1040
+-  __DATA.__data: 0x1708
+-  __DATA.__bss: 0x4b90
++  __DATA.__data: 0x16d8
++  __DATA.__bss: 0x4c10
+   __DATA.__common: 0x68
+   __DATA_DIRTY.__objc_data: 0x568
+   __DATA_DIRTY.__data: 0x40
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2BE29F2E-9810-3FB6-A4E2-1018406C2B84
+-  Functions: 2680
+-  Symbols:   9564
+-  CStrings:  1102
++  UUID: D4C49304-812D-331D-B5F5-D7BEB3C5B146
++  Functions: 2653
++  Symbols:   9690
++  CStrings:  1070
+ 
+Symbols:
++ _$s10Foundation4UUIDVACSQAAWlTm
++ _$s10RealityKit16ARSessionManagerC32runARKitSessionWithoutRequesting25withSupportedCapabilitiesy0A10Foundation015SpatialTrackingG0C13ConfigurationV_tFAH011UnavailableL0VSgyYacfU_TA.55
++ _$s10RealityKit16ARSessionManagerC32runARKitSessionWithoutRequesting25withSupportedCapabilitiesy0A10Foundation015SpatialTrackingG0C13ConfigurationV_tFAH011UnavailableL0VSgyYacfU_TA.55TQ0_
++ _$s10RealityKit16ARSessionManagerC32runARKitSessionWithoutRequesting25withSupportedCapabilitiesy0A10Foundation015SpatialTrackingG0C13ConfigurationV_tFAH011UnavailableL0VSgyYacfU_TA.55Tu
++ _$s10RealityKit17__REAnchoringTypeO14ClassificationVAESQAAWL
++ _$s10RealityKit17__REAnchoringTypeO14ClassificationVSQAAMc
++ _$s10RealityKit17__REAnchoringTypeO9AlignmentVAESQAAWL
++ _$s10RealityKit17__REAnchoringTypeO9AlignmentVSQAAMc
++ _$s10RealityKit18AnchoringComponentV6TargetOSgWOc
++ _$s10RealityKit22ARConfigurationBuilder_pWOc
++ _$s10RealityKit6ARViewC14EntityGesturesV3allAEvpZ
++ _$s10RealityKit6ARViewC14EntityGesturesV3all_WZ
++ _$s10RealityKit6ARViewC14EntityGesturesV3all_Wz
++ _$s17RealityFoundation22SpatialTrackingSessionC13ConfigurationV28SceneUnderstandingCapabilityVAGSHAAWlTm
++ _$sSD8_VariantV11removeValue6forKeyq_Sgx_tF10RealityKit10RKARSystemC18HitTestScreenPoint33_7C42569567E429B6AB2725E2C535D529LLV_AF013CollisionCastI0VSgTg5
++ _$sSh11subtractingyShyxGABF15GroupActivities11ParticipantV_Tg5
++ _$sSh11subtractingyShyxGABF17RealityFoundation22SpatialTrackingSessionC13ConfigurationV16AnchorCapabilityV_Tg5
++ _$sSh11subtractingyShyxGABF17RealityFoundation22SpatialTrackingSessionC13ConfigurationV28SceneUnderstandingCapabilityV_Tg5
++ _$sSh6filteryShyxGSbxKXEKFSo16ARReferenceImageC_Tg5088$s10RealityKit6ARViewC19loadReferenceImages33_13C3C1EE7E90C9B899AEA8AAB2DF1D7ALLyShySo16bC50CGSDySSSaySS_12CoreGraphics7CGFloatVtGGFSbAGXEfU0_SaySSGTf1cn_nTf4ng_nTm
++ _$sSh6filteryShyxGSbxKXEKFSo7UITouchC_Tg5069$s10RealityKit23EntityGestureRecognizerPAAE13filterTouches_3forShySo7b5CGAH_M37UIEventCtFSbAGXEfU_AA0c5ScaledE0C_TG50D3Kit0f5ScalegH0CSo0O0CTf1cn_nTf4ngg_n
++ _$sSh6filteryShyxGSbxKXEKFSo7UITouchC_Tg5069$s10RealityKit23EntityGestureRecognizerPAAE13filterTouches_3forShySo7b5CGAH_M40UIEventCtFSbAGXEfU_AA0c8RotationdE0C_TG50D3Kit0f8RotationgH0CSo0O0CTf1cn_nTf4ngg_n
++ _$sSh6filteryShyxGSbxKXEKFSo7UITouchC_Tg5069$s10RealityKit23EntityGestureRecognizerPAAE13filterTouches_3forShySo7b5CGAH_M44UIEventCtFSbAGXEfU_AA0c11TranslationdE0C_TG50D3Kit0f11TranslationgH0CSo0O0CTf1cn_nTf4ngg_n
++ _$sSh8IteratorV8_VariantOy17RealityFoundation22SpatialTrackingSessionC13ConfigurationV28SceneUnderstandingCapabilityV__GWOe
++ _$sSh8_VariantV12intersectionys10_NativeSetVyxGShyxGF17RealityFoundation22SpatialTrackingSessionC13ConfigurationV28SceneUnderstandingCapabilityV_Tg5Tm
++ _$sSo36UIAccessibilityCustomSystemRotorTypeVSQSCMc
++ _$sSo36UIAccessibilityCustomSystemRotorTypeVSQSCMcMK
++ _$sSo36UIAccessibilityCustomSystemRotorTypeVSQSCSQ2eeoiySbx_xtFZTW
++ _$ss13_UnsafeBitsetV17withTemporaryCopy2of4bodyxAB_xABKXEtKlFZxABKXEfU_s10_NativeSetVy15GroupActivities11ParticipantVG_Tg506$ss10_hi54V11subtractingyAByxGqd__7ElementQyd__RszSTRd__lFADs13_ab8VXEfU_15j12Activities11L11V_ShyAKGTG5AKs10_HashTableV6BucketVSh8IteratorVyAJ_GTf1nnc_nTm
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtF10Foundation4UUIDV_10RealityKit6EntityCTg5
++ _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tF10Foundation4UUIDV_10RealityKit11ModelEntityCTg5
++ _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tF10Foundation4UUIDV_10RealityKit14FaceMeshEntityCTg5
++ _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tF10Foundation4UUIDV_10RealityKit6EntityCTg5
++ _$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntF10Foundation4UUIDV_10RealityKit6EntityCTg5
++ _$ss5ErrorWS
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTR17RealityFoundation22SpatialTrackingSessionC23UnavailableCapabilitiesVSg_Tg5TA.76
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTR17RealityFoundation22SpatialTrackingSessionC23UnavailableCapabilitiesVSg_Tg5TA.76TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTR17RealityFoundation22SpatialTrackingSessionC23UnavailableCapabilitiesVSg_Tg5TA.76Tu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.65
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.65TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.65Tu
++ __PROTOCOLS__TtC10RealityKitP33_98DEB876138878DC696D4005FE1B9B4811ARKitRunner.4
++ ___unnamed_2
++ _block_copy_helper.84
++ _block_descriptor.86
++ _block_destroy_helper.85
++ _keypath_get.13Tm
++ _objc_msgSend$CGColor
++ _objc_msgSend$UTF8String
++ _objc_msgSend$_addObserver:
++ _objc_msgSend$_removeObserver:
++ _objc_msgSend$addGestureRecognizer:
++ _objc_msgSend$addObserver:selector:name:object:
++ _objc_msgSend$alignment
++ _objc_msgSend$ambientColorTemperature
++ _objc_msgSend$ambientIntensity
++ _objc_msgSend$anchors
++ _objc_msgSend$archivedDataWithRootObject:requiringSecureCoding:error:
++ _objc_msgSend$blackColor
++ _objc_msgSend$boolForKey:
++ _objc_msgSend$bounds
++ _objc_msgSend$bundleIdentifier
++ _objc_msgSend$bundleWithIdentifier:
++ _objc_msgSend$bytes
++ _objc_msgSend$camera
++ _objc_msgSend$cameraGrainIntensity
++ _objc_msgSend$cameraGrainTexture
++ _objc_msgSend$capturedImage
++ _objc_msgSend$classification
++ _objc_msgSend$classificationStatus
++ _objc_msgSend$configuration
++ _objc_msgSend$contentScaleFactor
++ _objc_msgSend$contentsScale
++ _objc_msgSend$coreRESkeleton
++ _objc_msgSend$currentEDRHeadroom
++ _objc_msgSend$currentFrame
++ _objc_msgSend$currentItem
++ _objc_msgSend$customContentWithLabel:value:
++ _objc_msgSend$defaultCenter
++ _objc_msgSend$detectionImages
++ _objc_msgSend$device
++ _objc_msgSend$displayTransformForOrientation:viewportSize:
++ _objc_msgSend$drawableSize
++ _objc_msgSend$encryptionPreference
++ _objc_msgSend$environmentTexturing
++ _objc_msgSend$estimatedDepthData
++ _objc_msgSend$exposureDuration
++ _objc_msgSend$extent
++ _objc_msgSend$focalLength
++ _objc_msgSend$forceEnvironmentTexturingToManualMode:
++ _objc_msgSend$frame
++ _objc_msgSend$frameSemantics
++ _objc_msgSend$framesPerSecond
++ _objc_msgSend$geometry
++ _objc_msgSend$getBytes:bytesPerRow:fromRegion:mipmapLevel:
++ _objc_msgSend$height
++ _objc_msgSend$hitTest:types:
++ _objc_msgSend$identifier
++ _objc_msgSend$ignoreTouch:forEvent:
++ _objc_msgSend$imageResolution
++ _objc_msgSend$init
++ _objc_msgSend$initWithCGColor:
++ _objc_msgSend$initWithCGImage:
++ _objc_msgSend$initWithCoder:
++ _objc_msgSend$initWithDevice:
++ _objc_msgSend$initWithFrame:
++ _objc_msgSend$initWithName:actionHandler:
++ _objc_msgSend$initWithName:itemSearchBlock:
++ _objc_msgSend$initWithRed:green:blue:alpha:
++ _objc_msgSend$initWithSystemType:itemSearchBlock:
++ _objc_msgSend$initWithTarget:action:
++ _objc_msgSend$initWithTargetElement:targetRange:
++ _objc_msgSend$initWithTransform:
++ _objc_msgSend$insertSubview:atIndex:
++ _objc_msgSend$integerValue
++ _objc_msgSend$interfaceOrientation
++ _objc_msgSend$isClassificationSupported
++ _objc_msgSend$isCollaborationEnabled
++ _objc_msgSend$isEnabled
++ _objc_msgSend$isSupported
++ _objc_msgSend$isTracked
++ _objc_msgSend$isWorldTrackingEnabled
++ _objc_msgSend$jointTransformCount
++ _objc_msgSend$layer
++ _objc_msgSend$length
++ _objc_msgSend$lensAperture
++ _objc_msgSend$lensPosition
++ _objc_msgSend$lightEstimate
++ _objc_msgSend$localJointTransformsSRT
++ _objc_msgSend$locationInView:
++ _objc_msgSend$mainBundle
++ _objc_msgSend$mainScreen
++ _objc_msgSend$meters
++ _objc_msgSend$name
++ _objc_msgSend$nativeScale
++ _objc_msgSend$newTextureWithDescriptor:
++ _objc_msgSend$newTextureWithName:scaleFactor:bundle:options:completionHandler:
++ _objc_msgSend$newTextureWithName:scaleFactor:bundle:options:error:
++ _objc_msgSend$numberOfTouches
++ _objc_msgSend$object
++ _objc_msgSend$objectForInfoDictionaryKey:
++ _objc_msgSend$pause
++ _objc_msgSend$planeDetection
++ _objc_msgSend$projectPoint:orientation:viewportSize:
++ _objc_msgSend$projectionMatrixForOrientation:viewportSize:zNear:zFar:
++ _objc_msgSend$rawFeaturePoints
++ _objc_msgSend$raycast:
++ _objc_msgSend$raycastQueryFromPoint:allowingTarget:alignment:
++ _objc_msgSend$referenceImagesInGroupNamed:bundle:
++ _objc_msgSend$referenceObjectsInGroupNamed:bundle:
++ _objc_msgSend$removeObserver:name:object:
++ _objc_msgSend$renderFramesPerSecond
++ _objc_msgSend$renderLayer
++ _objc_msgSend$rotation
++ _objc_msgSend$runWithConfiguration:options:
++ _objc_msgSend$scale
++ _objc_msgSend$sceneReconstruction
++ _objc_msgSend$screen
++ _objc_msgSend$searchDirection
++ _objc_msgSend$segmentationBuffer
++ _objc_msgSend$session
++ _objc_msgSend$setAutomaticSkeletonScaleEstimationEnabled:
++ _objc_msgSend$setBackgroundColor:
++ _objc_msgSend$setCenter:
++ _objc_msgSend$setColorspace:
++ _objc_msgSend$setContentMode:
++ _objc_msgSend$setContentScaleFactor:
++ _objc_msgSend$setContentsScale:
++ _objc_msgSend$setDelegate:
++ _objc_msgSend$setDetectionImages:
++ _objc_msgSend$setDetectionObjects:
++ _objc_msgSend$setEnvironmentTexturing:
++ _objc_msgSend$setFrame:
++ _objc_msgSend$setFramebufferOnly:
++ _objc_msgSend$setMaximumNumberOfTrackedImages:
++ _objc_msgSend$setMultipleTouchEnabled:
++ _objc_msgSend$setOpaque:
++ _objc_msgSend$setPixelFormat:
++ _objc_msgSend$setPlaneDetection:
++ _objc_msgSend$setPresentsWithTransaction:
++ _objc_msgSend$setRenderType:
++ _objc_msgSend$setRotation:
++ _objc_msgSend$setScale:
++ _objc_msgSend$setSceneReconstruction:
++ _objc_msgSend$setSession:
++ _objc_msgSend$setState:
++ _objc_msgSend$setStorageMode:
++ _objc_msgSend$setTransform:
++ _objc_msgSend$setUsage:
++ _objc_msgSend$setUserFaceTrackingEnabled:
++ _objc_msgSend$setWantsExtendedDynamicRangeContent:
++ _objc_msgSend$setWorldTrackingEnabled:
++ _objc_msgSend$sharedApplication
++ _objc_msgSend$skeleton
++ _objc_msgSend$standardUserDefaults
++ _objc_msgSend$state
++ _objc_msgSend$statusBarOrientation
++ _objc_msgSend$superview
++ _objc_msgSend$supportsFamily:
++ _objc_msgSend$supportsSceneReconstruction:
++ _objc_msgSend$supportsUserFaceTracking
++ _objc_msgSend$supportsWorldTracking
++ _objc_msgSend$targetElement
++ _objc_msgSend$templateConfiguration
++ _objc_msgSend$texture2DDescriptorWithPixelFormat:width:height:mipmapped:
++ _objc_msgSend$timestamp
++ _objc_msgSend$trackedRaycast:updateHandler:
++ _objc_msgSend$transform
++ _objc_msgSend$updateWithCollaborationData:
++ _objc_msgSend$userFaceTrackingEnabled
++ _objc_msgSend$userInfo
++ _objc_msgSend$videoFormat
++ _objc_msgSend$view
++ _objc_msgSend$viewMatrixForOrientation:
++ _objc_msgSend$vioDataType
++ _objc_msgSend$width
++ _objc_msgSend$window
++ _objc_msgSend$windowScene
++ _objectdestroy.84Tm
++ _swift_bridgeObjectRetain_n
+- _$s10Foundation4DataV15_RepresentationO15withUnsafeBytesyxxSWKXEKlFyt_Tg50125$s10RealityKit43GroupActivitiesSynchronizationProtocolLayerC7receive33_C8ACE28DEBEF4D337B220B077987CB71LL_4fromy10Foundation4B30V_0cD011ParticipantVtFySWXEfU_0H3Kit0jklmN0CAH0jklM6Handle01_pqrstuV0LLCTf1ncn_n
+- _$s10RealityKit10RKARSystemC18HitTestScreenPoint33_7C42569567E429B6AB2725E2C535D529LLV4hash4intoys6HasherVz_tF
+- _$s10RealityKit10RKARSystemC18updateBodyTracking33_7C42569567E429B6AB2725E2C535D529LL4withySaySo8ARAnchorCG_tFSbSo12ARBodyAnchorCXEfU0_
+- _$s10RealityKit10RKARSystemC18updateBodyTracking33_7C42569567E429B6AB2725E2C535D529LL4withySaySo8ARAnchorCG_tFSbSo12ARBodyAnchorCXEfU0_TA
+- _$s10RealityKit16ARSessionManagerC32runARKitSessionWithoutRequesting25withSupportedCapabilitiesy0A10Foundation015SpatialTrackingG0C13ConfigurationV_tFAH011UnavailableL0VSgyYacfU_TA.58
+- _$s10RealityKit16ARSessionManagerC32runARKitSessionWithoutRequesting25withSupportedCapabilitiesy0A10Foundation015SpatialTrackingG0C13ConfigurationV_tFAH011UnavailableL0VSgyYacfU_TA.58TQ0_
+- _$s10RealityKit16ARSessionManagerC32runARKitSessionWithoutRequesting25withSupportedCapabilitiesy0A10Foundation015SpatialTrackingG0C13ConfigurationV_tFAH011UnavailableL0VSgyYacfU_TA.58Tu
+- _$s10RealityKit17__REAnchoringTypeO14ClassificationVAESYAAWL
+- _$s10RealityKit17__REAnchoringTypeO14ClassificationVSYAAMc
+- _$s10RealityKit17__REAnchoringTypeO9AlignmentVAESYAAWL
+- _$s10RealityKit17__REAnchoringTypeO9AlignmentVSYAAMc
+- _$s10RealityKit18AnchoringComponentV6TargetOSgWOb
+- _$s10RealityKit5SceneC16AnchorCollectionVAESlAAWl
+- _$s17RealityFoundation22SpatialTrackingSessionC13ConfigurationV16AnchorCapabilityVAGSHAAWlTm
+- _$sSTsE5first5where7ElementQzSgSbADKXE_tKFSay10RealityKit38GroupActivitiesSynchronizationIdentityCG_Tg5
+- _$sSTsE5first5where7ElementQzSgSbADKXE_tKFSay10RealityKit38GroupActivitiesSynchronizationIdentityCG_Tg5Tm
+- _$sSTsE5first5where7ElementQzSgSbADKXE_tKFSay10RealityKit44GroupActivitiesSynchronizationProtocolHandle33_C8ACE28DEBEF4D337B220B077987CB71LLCG_Tg5
+- _$sSTsE5first5where7ElementQzSgSbADKXE_tKFSaySo12ARBodyAnchorCG_Tg5
+- _$sSTsE8contains5whereS2b7ElementQzKXE_tKFSaySSG_Tg5
+- _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5
+- _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA
+- _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA.1
+- _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA.3
+- _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA.5
+- _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA.6
+- _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA.8
+- _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TATm
+- _$sSY8rawValue03RawB0QzvgTj
+- _$sSa10RealityKitAA38GroupActivitiesSynchronizationIdentityCRszlE5first4withACSg0cD011ParticipantV_tFSbACXEfU_
+- _$sSa10RealityKitAA38GroupActivitiesSynchronizationIdentityCRszlE5first4withACSg0cD011ParticipantV_tFSbACXEfU_TA
+- _$sSa10RealityKitAA38GroupActivitiesSynchronizationIdentityCRszlE5first4withACSg0cD011ParticipantV_tFSbACXEfU_TA.12
+- _$sSa10RealityKitAA38GroupActivitiesSynchronizationIdentityCRszlE5first4withACSg0cD011ParticipantV_tFSbACXEfU_Tm
+- _$sSa10RealityKitAA38GroupActivitiesSynchronizationIdentityCRszlE6remove4withACSg0cD011ParticipantV_tFSbACXEfU_TA
+- _$sSa10RealityKitAA44GroupActivitiesSynchronizationProtocolHandle33_C8ACE28DEBEF4D337B220B077987CB71LLCRszlE5firstACLL4withADSg0cD011ParticipantV_tFSbADXEfU_TA
+- _$sSa10RealityKitAA44GroupActivitiesSynchronizationProtocolHandle33_C8ACE28DEBEF4D337B220B077987CB71LLCRszlE5firstACLL4withADSg0cD011ParticipantV_tFSbADXEfU_TA.81
+- _$sSh8IteratorV8_VariantOy17RealityFoundation22SpatialTrackingSessionC13ConfigurationV16AnchorCapabilityV__GWOe
+- _$sSh8_VariantV6filterys10_NativeSetVyxGSbxKXEKFSo16ARReferenceImageC_Tg5088$s10RealityKit6ARViewC19loadReferenceImages33_13C3C1EE7E90C9B899AEA8AAB2DF1D7ALLyShySo16eF50CGSDySSSaySS_12CoreGraphics7CGFloatVtGGFSbAGXEfU0_SaySSGTf1cn_nTf4ng_n
+- _$sSh8_VariantV6filterys10_NativeSetVyxGSbxKXEKFSo17ARReferenceObjectC_Tg5089$s10RealityKit6ARViewC20loadReferenceObjects33_13C3C1EE7E90C9B899AEA8AAB2DF1D7ALLyShySo17eF24CGSDySSSaySSGGFSbAGXEfU_SaySSGTf1cn_nTf4ng_n
+- _$sSh8_VariantV6filterys10_NativeSetVyxGSbxKXEKFSo7UITouchC_Tg5069$s10RealityKit23EntityGestureRecognizerPAAE13filterTouches_3forShySo7e5CGAH_P37UIEventCtFSbAGXEfU_AA0c5ScaledE0C_TG50G3Kit0i5ScalejK0CSo0R0CTf1cn_nTf4ngg_n
+- _$sSh8_VariantV6filterys10_NativeSetVyxGSbxKXEKFSo7UITouchC_Tg5069$s10RealityKit23EntityGestureRecognizerPAAE13filterTouches_3forShySo7e5CGAH_P40UIEventCtFSbAGXEfU_AA0c8RotationdE0C_TG50G3Kit0i8RotationjK0CSo0R0CTf1cn_nTf4ngg_n
+- _$sSh8_VariantV6filterys10_NativeSetVyxGSbxKXEKFSo7UITouchC_Tg5069$s10RealityKit23EntityGestureRecognizerPAAE13filterTouches_3forShySo7e5CGAH_P44UIEventCtFSbAGXEfU_AA0c11TranslationdE0C_TG50G3Kit0i11TranslationjK0CSo0R0CTf1cn_nTf4ngg_n
+- _$sSh9_subtractyyqd__7ElementQyd__RszSTRd__lF15GroupActivities11ParticipantV_ShyAFGTg5
+- _$sSlsE10firstIndex5where0B0QzSgSb7ElementQzKXE_tKFSay10RealityKit38GroupActivitiesSynchronizationIdentityCG_Tg5
+- _$ss10_NativeSetV11subtractingyAByxGqd__7ElementQyd__RszSTRd__lF15GroupActivities11ParticipantV_ShyAIGTg5
+- _$ss10_NativeSetV11subtractingyAByxGqd__7ElementQyd__RszSTRd__lF17RealityFoundation22SpatialTrackingSessionC13ConfigurationV16AnchorCapabilityV_ShyAMGTg5
+- _$ss10_NativeSetV11subtractingyAByxGqd__7ElementQyd__RszSTRd__lF17RealityFoundation22SpatialTrackingSessionC13ConfigurationV28SceneUnderstandingCapabilityV_ShyAMGTg5
+- _$ss10_NativeSetV12intersectionyAByxGADF17RealityFoundation22SpatialTrackingSessionC13ConfigurationV28SceneUnderstandingCapabilityV_Tg5Tm
+- _$ss10_NativeSetV6filteryAByxGSbxKXEKFSo16ARReferenceImageC_Tg5088$s10RealityKit6ARViewC19loadReferenceImages33_13C3C1EE7E90C9B899AEA8AAB2DF1D7ALLyShySo16dE50CGSDySSSaySS_12CoreGraphics7CGFloatVtGGFSbAGXEfU0_SaySSGTf1cn_nTf4ng_nTm
+- _$ss10_NativeSetV6filteryAByxGSbxKXEKFSo7UITouchC_Tg5069$s10RealityKit23EntityGestureRecognizerPAAE13filterTouches_3forShySo7d5CGAH_O37UIEventCtFSbAGXEfU_AA0c5ScaledE0C_TG50F3Kit0h5ScaleiJ0CSo0Q0CTf1cn_nTf4ngg_n
+- _$ss10_NativeSetV6filteryAByxGSbxKXEKFSo7UITouchC_Tg5069$s10RealityKit23EntityGestureRecognizerPAAE13filterTouches_3forShySo7d5CGAH_O40UIEventCtFSbAGXEfU_AA0c8RotationdE0C_TG50F3Kit0h8RotationiJ0CSo0Q0CTf1cn_nTf4ngg_n
+- _$ss10_NativeSetV6filteryAByxGSbxKXEKFSo7UITouchC_Tg5069$s10RealityKit23EntityGestureRecognizerPAAE13filterTouches_3forShySo7d5CGAH_O44UIEventCtFSbAGXEfU_AA0c11TranslationdE0C_TG50F3Kit0h11TranslationiJ0CSo0Q0CTf1cn_nTf4ngg_n
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTR17RealityFoundation22SpatialTrackingSessionC23UnavailableCapabilitiesVSg_Tg5TA.79
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTR17RealityFoundation22SpatialTrackingSessionC23UnavailableCapabilitiesVSg_Tg5TA.79TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTR17RealityFoundation22SpatialTrackingSessionC23UnavailableCapabilitiesVSg_Tg5TA.79Tu
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.68
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.68TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.68Tu
+- __PROTOCOLS__TtC10RealityKitP33_98DEB876138878DC696D4005FE1B9B4811ARKitRunner.7
+- ___unnamed_3
+- _block_copy_helper.85
+- _block_descriptor.87
+- _block_destroy_helper.86
+- _cosf
+- _keypath_get.5Tm
+- _keypath_setTm
+- _objectdestroy.87Tm
+- _sinf
+CStrings:
++ "supportsPlacementSparse"
+
+```

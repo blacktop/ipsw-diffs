@@ -1,0 +1,476 @@
+## libdyld.dylib
+
+> `/usr/lib/system/libdyld.dylib`
+
+```diff
+
+-1340.1.0.0.0
+-  __TEXT.__text: 0x28f98
+-  __TEXT.__auth_stubs: 0x660
+-  __TEXT.__const: 0x610
+-  __TEXT.__cstring: 0x485c
++1376.3.0.0.0
++  __TEXT.__text: 0x2bfd0
++  __TEXT.__auth_stubs: 0x650
++  __TEXT.__const: 0x600
++  __TEXT.__cstring: 0x49dd
+   __DATA_CONST.__got: 0x40
+-  __DATA_CONST.__const: 0x15c0
++  __DATA_CONST.__const: 0x1708
+   __DATA_CONST.__helper: 0x8
+-  __AUTH_CONST.__auth_got: 0x330
+-  __AUTH_CONST.__const: 0x1750
+-  __AUTH.__data: 0x8
++  __AUTH_CONST.__auth_got: 0x328
++  __AUTH_CONST.__const: 0x1718
+   __DATA.__crash_info: 0x148
+-  __DATA.__data: 0x120
++  __DATA.__bss: 0x1048
+   __DATA.__common: 0x11
+-  __DATA.__bss: 0x1058
++  __DATA_DIRTY.__data: 0x60
+   __DATA_DIRTY.__common: 0x28
+-  __DATA_DIRTY.__bss: 0x50
++  __TPRO_CONST.__data: 0x10
+   __TPRO_CONST.__dyld_apis: 0x8
+   - /usr/lib/system/libcompiler_rt.dylib
+   - /usr/lib/system/libdispatch.dylib
+
+   - /usr/lib/system/libsystem_platform.dylib
+   - /usr/lib/system/libsystem_pthread.dylib
+   - /usr/lib/system/libxpc.dylib
+-  UUID: 1B5D8756-CF48-3626-A8C0-C9C69E4C13B0
+-  Functions: 1060
+-  Symbols:   2792
+-  CStrings:  544
++  UUID: 49B578C2-FA1F-3F47-A1DF-DC3D60F137A3
++  Functions: 1100
++  Symbols:   3059
++  CStrings:  547
+ 
+Symbols:
++ _NSVersionOfLinkTimeLibrary.cold.1
++ _NSVersionOfRunTimeLibrary.cold.1
++ _OUTLINED_FUNCTION_0
++ _OUTLINED_FUNCTION_1
++ _OUTLINED_FUNCTION_10
++ _OUTLINED_FUNCTION_11
++ _OUTLINED_FUNCTION_12
++ _OUTLINED_FUNCTION_13
++ _OUTLINED_FUNCTION_14
++ _OUTLINED_FUNCTION_2
++ _OUTLINED_FUNCTION_3
++ _OUTLINED_FUNCTION_4
++ _OUTLINED_FUNCTION_5
++ _OUTLINED_FUNCTION_6
++ _OUTLINED_FUNCTION_7
++ _OUTLINED_FUNCTION_8
++ _OUTLINED_FUNCTION_9
++ __NSGetExecutablePath.cold.1
++ __Z6crc32cNSt3__14spanISt4byteLm18446744073709551615EEE
++ __ZL14sCRC32cSWTable
++ __ZN4dyld20ThreadLocalVariables10setUpImageEPK15DyldSharedCachePKN6mach_o12UnsafeHeaderE
++ __ZN4dyld20ThreadLocalVariables16forEachThunkSpanEPKN6mach_o12UnsafeHeaderEU13block_pointerFNS1_5ErrorENSt3__14spanINS0_5ThunkELm18446744073709551615EEEE
++ __ZN4dyld20ThreadLocalVariables18findInitialContentEPKN6mach_o12UnsafeHeaderERNSt3__14spanIKhLm18446744073709551615EEERb
++ __ZN4dyld20ThreadLocalVariables24initializeThunksFromDiskEPKN6mach_o12UnsafeHeaderE
++ __ZN4dyld20ThreadLocalVariables27initializeThunksInDyldCacheEPK15DyldSharedCachePKN6mach_o12UnsafeHeaderE
++ __ZN5dyld317OverflowSafeArrayIZNK6mach_o12UnsafeHeader22validSemanticsSegmentsERKNS1_6PolicyEyE8SegRangeLy4294967295EE9push_backEOS6_
++ __ZN5dyld317OverflowSafeArrayIZNK6mach_o12UnsafeHeader22validSemanticsSegmentsERKNS1_6PolicyEyE8SegRangeLy4294967295EE9push_backEOS6_.cold.1
++ __ZN5dyld317OverflowSafeArrayIZNK6mach_o12UnsafeHeader22validSemanticsSegmentsERKNS1_6PolicyEyE8SegRangeLy4294967295EEixEy
++ __ZN5dyld317OverflowSafeArrayIZNK6mach_o12UnsafeHeader22validSemanticsSegmentsERKNS1_6PolicyEyE8SegRangeLy4294967295EEixEy.cold.1
++ __ZN5dyld45Atlas15ProcessSnapshot10SerializerC2ERS1_
++ __ZN6mach_o10DataInCodeC1ENSt3__14spanIKhLm18446744073709551615EEE
++ __ZN6mach_o12UnsafeHeader22loadCommandToDylibKindEPK13dylib_command
++ __ZN6mach_o12UnsafeHeader22loadCommandToDylibKindEPK13dylib_command.cold.1
++ __ZN6mach_o12UnsafeHeader27isSimulatorSupportDylibPathE7CString
++ __ZN6mach_o12UnsafeHeader7isMachOENSt3__14spanIKhLm18446744073709551615EEE
++ __ZN6mach_o5Image14makeDataInCodeEv
++ __ZNK5dyld416LibSystemHelpers17setUpThreadLocalsEPK15DyldSharedCachePKN6mach_o12UnsafeHeaderE
++ __ZNK6mach_o12Architecture21usesArm64AuthPointersEv
++ __ZNK6mach_o12UnsafeHeader10hasSectionE7CStringS1_b
++ __ZNK6mach_o12UnsafeHeader10isDylinkerEv
++ __ZNK6mach_o12UnsafeHeader11inDyldCacheEv
++ __ZNK6mach_o12UnsafeHeader11installNameEv
++ __ZNK6mach_o12UnsafeHeader11pointerSizeEv
++ __ZNK6mach_o12UnsafeHeader12forEachRPathEU13block_pointerFvPKcRbE
++ __ZNK6mach_o12UnsafeHeader12isObjectFileEv
++ __ZNK6mach_o12UnsafeHeader12uses16KPagesEv
++ __ZNK6mach_o12UnsafeHeader12validSegmentI15segment_command7sectionEENS_5ErrorERKNS_6PolicyEyPKT_
++ __ZNK6mach_o12UnsafeHeader12validSegmentI18segment_command_6410section_64EENS_5ErrorERKNS_6PolicyEyPKT_
++ __ZNK6mach_o12UnsafeHeader13hasMachOMagicEv
++ __ZNK6mach_o12UnsafeHeader13isDyldManagedEv
++ __ZNK6mach_o12UnsafeHeader13sourceVersionERNS_9Version64E
++ __ZNK6mach_o12UnsafeHeader14forEachSectionEU13block_pointerFvRKNS0_11SectionInfoERbE
++ __ZNK6mach_o12UnsafeHeader14forEachSegmentEU13block_pointerFvRKNS0_11SegmentInfoERbE
++ __ZNK6mach_o12UnsafeHeader14hasLoadCommandEj
++ __ZNK6mach_o12UnsafeHeader14libOrdinalNameEi
++ __ZNK6mach_o12UnsafeHeader15hasSplitSegInfoERb
++ __ZNK6mach_o12UnsafeHeader16builtForPlatformENS_8PlatformEb
++ __ZNK6mach_o12UnsafeHeader16hasCodeSignatureERjS1_
++ __ZNK6mach_o12UnsafeHeader16isMainExecutableEv
++ __ZNK6mach_o12UnsafeHeader16linkedDylibCountEPb
++ __ZNK6mach_o12UnsafeHeader17mayHaveTextFixupsEv
++ __ZNK6mach_o12UnsafeHeader18forEachLinkedDylibEU13block_pointerFvPKcNS_21LinkedDylibAttributesENS_9Version32ES4_bRbE
++ __ZNK6mach_o12UnsafeHeader18forEachLoadCommandEU13block_pointerFvPK12load_commandRbE
++ __ZNK6mach_o12UnsafeHeader18isStaticExecutableEv
++ __ZNK6mach_o12UnsafeHeader18validSemanticsMainERKNS_6PolicyE
++ __ZNK6mach_o12UnsafeHeader18validSemanticsUUIDERKNS_6PolicyE
++ __ZNK6mach_o12UnsafeHeader19computeLinkEditBiasEb
++ __ZNK6mach_o12UnsafeHeader19getDylibInstallNameEPPKcPNS_9Version32ES5_
++ __ZNK6mach_o12UnsafeHeader19linkedDylibLoadPathEj
++ __ZNK6mach_o12UnsafeHeader19loadableIntoProcessENS_8PlatformE7CStringb
++ __ZNK6mach_o12UnsafeHeader19platformAndVersionsEv
++ __ZNK6mach_o12UnsafeHeader19validSemanticsRPathERKNS_6PolicyE
++ __ZNK6mach_o12UnsafeHeader20hasZerofillExpansionEv
++ __ZNK6mach_o12UnsafeHeader20preferredLoadAddressEv
++ __ZNK6mach_o12UnsafeHeader22entryAddrFromThreadCmdEPK14thread_commandRy
++ __ZNK6mach_o12UnsafeHeader22forEachLoadCommandSafeEU13block_pointerFvPK12load_commandRbE
++ __ZNK6mach_o12UnsafeHeader22validSemanticsPlatformEv
++ __ZNK6mach_o12UnsafeHeader22validSemanticsSegmentsERKNS_6PolicyEy
++ __ZNK6mach_o12UnsafeHeader23zerofillExpansionAmountEv
++ __ZNK6mach_o12UnsafeHeader25validSemanticsInstallNameERKNS_6PolicyE
++ __ZNK6mach_o12UnsafeHeader26forEachPlatformLoadCommandEU13block_pointerFvNS_8PlatformENS_9Version32ES2_E
++ __ZNK6mach_o12UnsafeHeader26validSemanticsLinkedDylibsERKNS_6PolicyE
++ __ZNK6mach_o12UnsafeHeader26validStructureLoadCommandsEy
++ __ZNK6mach_o12UnsafeHeader27validSemanticsLinkerOptionsERKNS_6PolicyE
++ __ZNK6mach_o12UnsafeHeader4archEv
++ __ZNK6mach_o12UnsafeHeader4is64Ev
++ __ZNK6mach_o12UnsafeHeader5validEy
++ __ZNK6mach_o12UnsafeHeader6isArchEPKc
++ __ZNK6mach_o12UnsafeHeader6isDSYMEv
++ __ZNK6mach_o12UnsafeHeader7getUuidEPh
++ __ZNK6mach_o12UnsafeHeader8getSlideEv
++ __ZNK6mach_o12UnsafeHeader9isFileSetEv
++ __ZNK6mach_o12UnsafeHeader9isPreloadEv
++ __ZNK6mach_o9Universal12forEachSliceEU13block_pointerFvNS_12ArchitectureEyyhRbE
++ __ZNKSt3__111__copy_implclB9nqn210106IPhS2_NS_20back_insert_iteratorIN3lsl6VectorIcEEEEEENS_4pairIT_T1_EES9_T0_SA_
++ __ZNKSt3__117basic_string_viewIcNS_11char_traitsIcEEE11starts_withB9nqn210106EPKc
++ __ZNKSt3__117basic_string_viewIcNS_11char_traitsIcEEE7compareB9nqn210106EmmS3_
++ __ZNSt3__123__lower_bound_bisectingB9nqn210106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPPKcEES4_NS_10__identityEN3lsl20ConstCharStarCompareEEET0_SA_RKT1_NS_15iterator_traitsISA_E15difference_typeERT3_RT2_
++ __ZNSt3__18optionalIyE4swapB9nqn210106ERS1_
++ __ZZN6mach_o12UnsafeHeader27isSimulatorSupportDylibPathE7CStringE9macOSHost
++ ___Block_byref_object_copy_.79
++ ___Block_byref_object_dispose_.80
++ ____ZN4dyld20ThreadLocalVariables16forEachThunkSpanEPKN6mach_o12UnsafeHeaderEU13block_pointerFNS1_5ErrorENSt3__14spanINS0_5ThunkELm18446744073709551615EEEE_block_invoke
++ ____ZN4dyld20ThreadLocalVariables18findInitialContentEPKN6mach_o12UnsafeHeaderERNSt3__14spanIKhLm18446744073709551615EEERb_block_invoke
++ ____ZN4dyld20ThreadLocalVariables24initializeThunksFromDiskEPKN6mach_o12UnsafeHeaderE_block_invoke
++ ____ZN4dyld20ThreadLocalVariables27initializeThunksInDyldCacheEPK15DyldSharedCachePKN6mach_o12UnsafeHeaderE_block_invoke
++ ____ZN6mach_o5Image14makeDataInCodeEv_block_invoke
++ ____ZNK6mach_o12UnsafeHeader10hasSectionE7CStringS1_b_block_invoke
++ ____ZNK6mach_o12UnsafeHeader12forEachRPathEU13block_pointerFvPKcRbE_block_invoke
++ ____ZNK6mach_o12UnsafeHeader13sourceVersionERNS_9Version64E_block_invoke
++ ____ZNK6mach_o12UnsafeHeader14forEachSectionEU13block_pointerFvRKNS0_11SectionInfoERbE_block_invoke
++ ____ZNK6mach_o12UnsafeHeader14forEachSegmentEU13block_pointerFvRKNS0_11SegmentInfoERbE_block_invoke
++ ____ZNK6mach_o12UnsafeHeader14hasLoadCommandEj_block_invoke
++ ____ZNK6mach_o12UnsafeHeader15hasSplitSegInfoERb_block_invoke
++ ____ZNK6mach_o12UnsafeHeader16builtForPlatformENS_8PlatformEb_block_invoke
++ ____ZNK6mach_o12UnsafeHeader16hasCodeSignatureERjS1__block_invoke
++ ____ZNK6mach_o12UnsafeHeader16linkedDylibCountEPb_block_invoke
++ ____ZNK6mach_o12UnsafeHeader18forEachLinkedDylibEU13block_pointerFvPKcNS_21LinkedDylibAttributesENS_9Version32ES4_bRbE_block_invoke
++ ____ZNK6mach_o12UnsafeHeader18validSemanticsMainERKNS_6PolicyE_block_invoke
++ ____ZNK6mach_o12UnsafeHeader18validSemanticsUUIDERKNS_6PolicyE_block_invoke
++ ____ZNK6mach_o12UnsafeHeader19getDylibInstallNameEPPKcPNS_9Version32ES5__block_invoke
++ ____ZNK6mach_o12UnsafeHeader19linkedDylibLoadPathEj_block_invoke
++ ____ZNK6mach_o12UnsafeHeader19platformAndVersionsEv_block_invoke
++ ____ZNK6mach_o12UnsafeHeader19validSemanticsRPathERKNS_6PolicyE_block_invoke
++ ____ZNK6mach_o12UnsafeHeader20preferredLoadAddressEv_block_invoke
++ ____ZNK6mach_o12UnsafeHeader22validSemanticsPlatformEv_block_invoke
++ ____ZNK6mach_o12UnsafeHeader22validSemanticsSegmentsERKNS_6PolicyEy_block_invoke
++ ____ZNK6mach_o12UnsafeHeader23zerofillExpansionAmountEv_block_invoke
++ ____ZNK6mach_o12UnsafeHeader25validSemanticsInstallNameERKNS_6PolicyE_block_invoke
++ ____ZNK6mach_o12UnsafeHeader26forEachPlatformLoadCommandEU13block_pointerFvNS_8PlatformENS_9Version32ES2_E_block_invoke
++ ____ZNK6mach_o12UnsafeHeader26validSemanticsLinkedDylibsERKNS_6PolicyE_block_invoke
++ ____ZNK6mach_o12UnsafeHeader26validStructureLoadCommandsEy_block_invoke
++ ____ZNK6mach_o12UnsafeHeader27validSemanticsLinkerOptionsERKNS_6PolicyE_block_invoke
++ ____ZNK6mach_o12UnsafeHeader7getUuidEPh_block_invoke
++ ___block_descriptor_tmp.121
++ ___block_descriptor_tmp.125
++ ___block_descriptor_tmp.283
++ ___block_descriptor_tmp.294
++ ___block_descriptor_tmp.301
++ ___block_descriptor_tmp.311
++ ___block_descriptor_tmp.7
++ ___block_literal_global.20
++ __dyld_atfork_parent.cold.1
++ __dyld_atfork_prepare.cold.1
++ __dyld_call_with_writable_tpro_memory.cold.1
++ __dyld_dlopen_atfork_child.cold.1
++ __dyld_dlopen_atfork_parent.cold.1
++ __dyld_dlopen_atfork_prepare.cold.1
++ __dyld_dlsym_blocked.cold.1
++ __dyld_find_foreign_type_protocol_conformance.cold.1
++ __dyld_find_foreign_type_protocol_conformance_on_disk.cold.1
++ __dyld_find_pointer_hash_table_entry.cold.1
++ __dyld_find_protocol_conformance.cold.1
++ __dyld_find_protocol_conformance_on_disk.cold.1
++ __dyld_find_unwind_sections.cold.1
++ __dyld_for_each_objc_class.cold.1
++ __dyld_for_each_objc_protocol.cold.1
++ __dyld_for_each_prewarming_range.cold.1
++ __dyld_for_objc_header_opt_ro.cold.1
++ __dyld_for_objc_header_opt_rw.cold.1
++ __dyld_fork_child.cold.1
++ __dyld_framework_HWTrace_spis_enabled
++ __dyld_framework_HWTrace_spis_enabled.cold.1
++ __dyld_get_dlopen_image_header.cold.1
++ __dyld_get_dyld_header
++ __dyld_get_dyld_header.cold.1
++ __dyld_get_image_header.cold.1
++ __dyld_get_image_name.cold.1
++ __dyld_get_image_slide.cold.1
++ __dyld_get_image_uuid.cold.1
++ __dyld_get_image_vmaddr_slide.cold.1
++ __dyld_get_objc_selector.cold.1
++ __dyld_get_prog_image_header.cold.1
++ __dyld_get_shared_cache_range.cold.1
++ __dyld_get_shared_cache_uuid.cold.1
++ __dyld_get_swift_prespecialized_data.cold.1
++ __dyld_has_fix_for_radar.cold.1
++ __dyld_has_preoptimized_swift_protocol_conformances.cold.1
++ __dyld_image_count.cold.1
++ __dyld_images_for_addresses.cold.1
++ __dyld_is_memory_immutable.cold.1
++ __dyld_is_objc_constant.cold.1
++ __dyld_is_preoptimized_objc_image_loaded.cold.1
++ __dyld_is_pseudodylib.cold.1
++ __dyld_launch_mode.cold.1
++ __dyld_lazy_load
++ __dyld_lazy_load_internal
++ __dyld_lazy_load_internal.cold.1
++ __dyld_lookup_section_info.cold.1
++ __dyld_objc_class_count.cold.1
++ __dyld_objc_notify_register.cold.1
++ __dyld_objc_register_callbacks.cold.1
++ __dyld_objc_uses_large_shared_cache.cold.1
++ __dyld_pseudodylib_deregister.cold.1
++ __dyld_pseudodylib_deregister_callbacks.cold.1
++ __dyld_pseudodylib_register.cold.1
++ __dyld_pseudodylib_register_callbacks.cold.1
++ __dyld_register_dlsym_notifier.cold.1
++ __dyld_register_driverkit_main.cold.1
++ __dyld_register_for_bulk_image_loads.cold.1
++ __dyld_register_for_image_loads.cold.1
++ __dyld_register_func_for_add_image.cold.1
++ __dyld_register_func_for_remove_image.cold.1
++ __dyld_shared_cache_contains_path.cold.1
++ __dyld_shared_cache_file_path_containing_address
++ __dyld_shared_cache_file_path_containing_address.cold.1
++ __dyld_shared_cache_is_locally_built.cold.1
++ __dyld_shared_cache_optimized.cold.1
++ __dyld_shared_cache_real_path.cold.1
++ __dyld_stack_range.cold.1
++ __dyld_swift_optimizations_version.cold.1
++ __dyld_visit_objc_classes.cold.1
++ __tlv_atexit.cold.1
++ __tlv_exit.cold.1
++ _dladdr.cold.1
++ _dlclose.cold.1
++ _dlerror.cold.1
++ _dlopen.cold.1
++ _dlopen_audited.cold.1
++ _dlopen_from.cold.1
++ _dlopen_preflight.cold.1
++ _dlsym.cold.1
++ _dyld_dynamic_interpose.cold.1
++ _dyld_for_each_installed_shared_cache_ex
++ _dyld_for_each_installed_shared_cache_ex.cold.1
++ _dyld_for_each_installed_shared_cache_ex.cold.2
++ _dyld_get_active_platform.cold.1
++ _dyld_get_base_platform.cold.1
++ _dyld_get_image_versions.cold.1
++ _dyld_get_min_os_version.cold.1
++ _dyld_get_program_min_os_version.cold.1
++ _dyld_get_program_minos_version_token.cold.1
++ _dyld_get_program_sdk_version.cold.1
++ _dyld_get_program_sdk_version_token.cold.1
++ _dyld_get_sdk_version.cold.1
++ _dyld_has_inserted_or_interposing_libraries.cold.1
++ _dyld_image_header_containing_address.cold.1
++ _dyld_image_path_containing_address.cold.1
++ _dyld_image_release_4HWTrace
++ _dyld_image_release_4HWTrace.cold.1
++ _dyld_image_release_4HWTrace.cold.2
++ _dyld_image_retain_4HWTrace
++ _dyld_image_retain_4HWTrace.cold.1
++ _dyld_image_retain_4HWTrace.cold.2
++ _dyld_image_segment_data_4HWTrace
++ _dyld_image_segment_data_4HWTrace.cold.1
++ _dyld_image_segment_data_4HWTrace.cold.2
++ _dyld_is_simulator_platform.cold.1
++ _dyld_minos_at_least.cold.1
++ _dyld_need_closure.cold.1
++ _dyld_process_is_restricted.cold.1
++ _dyld_process_snapshot_create_metrics
++ _dyld_process_snapshot_create_metrics.cold.1
++ _dyld_program_minos_at_least.cold.1
++ _dyld_program_sdk_at_least.cold.1
++ _dyld_sdk_at_least.cold.1
++ _dyld_shared_cache_file_path.cold.1
++ _dyld_shared_cache_find_iterate_text.cold.1
++ _dyld_shared_cache_iterate_text.cold.1
++ _dyld_shared_cache_some_image_overridden.cold.1
++ _dyld_version_token_at_least.cold.1
++ _dyld_version_token_get_platform.cold.1
++ _wmemchr
+- __ZN3lsl6CRC32cC1Ev
+- __ZN3lsl6CRC32cclENSt3__14spanISt4byteLm18446744073709551615EEE
+- __ZN3lsl6CRC32cclEj
+- __ZN3lsl6CRC32ccvjEv
+- __ZN3lsl8CRC32cSW12sCRC32cTableE
+- __ZN3lsl8CRC32cSW8checksumEjNSt3__14spanISt4byteLm18446744073709551615EEE
+- __ZN3lsl8CRC32cSW8checksumEjh
+- __ZN3lsl8CRC32cSW8checksumEjj
+- __ZN3lsl8CRC32cSW8checksumEjt
+- __ZN3lsl8CRC32cSW8checksumEjy
+- __ZN3lslL9sCRC32cSWE
+- __ZN4dyld20ThreadLocalVariables10setUpImageEPK15DyldSharedCachePKN6mach_o6HeaderE
+- __ZN4dyld20ThreadLocalVariables16forEachThunkSpanEPKN6mach_o6HeaderEU13block_pointerFNS1_5ErrorENSt3__14spanINS0_5ThunkELm18446744073709551615EEEE
+- __ZN4dyld20ThreadLocalVariables18findInitialContentEPKN6mach_o6HeaderERNSt3__14spanIKhLm18446744073709551615EEERb
+- __ZN4dyld20ThreadLocalVariables24initializeThunksFromDiskEPKN6mach_o6HeaderE
+- __ZN4dyld20ThreadLocalVariables27initializeThunksInDyldCacheEPK15DyldSharedCachePKN6mach_o6HeaderE
+- __ZN5dyld317OverflowSafeArrayIZNK6mach_o6Header22validSemanticsSegmentsERKNS1_6PolicyEyE8SegRangeLy4294967295EE9push_backEOS6_
+- __ZN5dyld317OverflowSafeArrayIZNK6mach_o6Header22validSemanticsSegmentsERKNS1_6PolicyEyE8SegRangeLy4294967295EE9push_backEOS6_.cold.1
+- __ZN5dyld317OverflowSafeArrayIZNK6mach_o6Header22validSemanticsSegmentsERKNS1_6PolicyEyE8SegRangeLy4294967295EEixEy
+- __ZN5dyld317OverflowSafeArrayIZNK6mach_o6Header22validSemanticsSegmentsERKNS1_6PolicyEyE8SegRangeLy4294967295EEixEy.cold.1
+- __ZN6mach_o6Header22loadCommandToDylibKindEPK13dylib_command
+- __ZN6mach_o6Header22loadCommandToDylibKindEPK13dylib_command.cold.1
+- __ZN6mach_o6Header7isMachOENSt3__14spanIKhLm18446744073709551615EEE
+- __ZNK3lsl5BTreeINS_9UniquePtrIN5dyld45Atlas5ImageEEENSt3__14lessIS5_EELb0EE14const_iteratorssERKSA_
+- __ZNK3lsl5BTreeINSt3__14pairIjN5dyld45Atlas7Process19ProcessUpdateRecordEEENS_10OrderedMapIjS6_NS1_4lessIjEEE13value_compareELb0EE14const_iteratorssERKSE_
+- __ZNK3lsl5BTreeINSt3__14pairIjN5dyld45Atlas7Process21ProcessNotifierRecordEEENS_10OrderedMapIjS6_NS1_4lessIjEEE13value_compareELb0EE14const_iteratorssERKSE_
+- __ZNK3lsl5BTreeINSt3__14pairIyNS_4UUIDEEENS_10OrderedMapIyS3_NS1_4lessIyEEE13value_compareELb0EE14const_iteratorssERKSB_
+- __ZNK3lsl5BTreeIPKcNS_20ConstCharStarCompareELb0EE14const_iteratorssERKS5_
+- __ZNK3lsl5BTreeIiNSt3__14lessIiEELb0EE14const_iteratorssERKS5_
+- __ZNK5dyld416LibSystemHelpers17setUpThreadLocalsEPK15DyldSharedCachePKN6mach_o6HeaderE
+- __ZNK6mach_o6Header10hasSectionE7CStringS1_b
+- __ZNK6mach_o6Header10isDylinkerEv
+- __ZNK6mach_o6Header11inDyldCacheEv
+- __ZNK6mach_o6Header11installNameEv
+- __ZNK6mach_o6Header11pointerSizeEv
+- __ZNK6mach_o6Header12forEachRPathEU13block_pointerFvPKcRbE
+- __ZNK6mach_o6Header12isObjectFileEv
+- __ZNK6mach_o6Header12uses16KPagesEv
+- __ZNK6mach_o6Header12validSegmentI15segment_command7sectionEENS_5ErrorERKNS_6PolicyEyPKT_
+- __ZNK6mach_o6Header12validSegmentI18segment_command_6410section_64EENS_5ErrorERKNS_6PolicyEyPKT_
+- __ZNK6mach_o6Header13hasMachOMagicEv
+- __ZNK6mach_o6Header13isDyldManagedEv
+- __ZNK6mach_o6Header13sourceVersionERNS_9Version64E
+- __ZNK6mach_o6Header14forEachSectionEU13block_pointerFvRKNS0_11SectionInfoERbE
+- __ZNK6mach_o6Header14forEachSegmentEU13block_pointerFvRKNS0_11SegmentInfoERbE
+- __ZNK6mach_o6Header14hasLoadCommandEj
+- __ZNK6mach_o6Header14libOrdinalNameEi
+- __ZNK6mach_o6Header15hasSplitSegInfoERb
+- __ZNK6mach_o6Header16builtForPlatformENS_8PlatformEb
+- __ZNK6mach_o6Header16hasCodeSignatureERjS1_
+- __ZNK6mach_o6Header16isMainExecutableEv
+- __ZNK6mach_o6Header16linkedDylibCountEPb
+- __ZNK6mach_o6Header17mayHaveTextFixupsEv
+- __ZNK6mach_o6Header18forEachLinkedDylibEU13block_pointerFvPKcNS_21LinkedDylibAttributesENS_9Version32ES4_bRbE
+- __ZNK6mach_o6Header18forEachLoadCommandEU13block_pointerFvPK12load_commandRbE
+- __ZNK6mach_o6Header18isStaticExecutableEv
+- __ZNK6mach_o6Header18validSemanticsMainERKNS_6PolicyE
+- __ZNK6mach_o6Header18validSemanticsUUIDERKNS_6PolicyE
+- __ZNK6mach_o6Header19computeLinkEditBiasEb
+- __ZNK6mach_o6Header19getDylibInstallNameEPPKcPNS_9Version32ES5_
+- __ZNK6mach_o6Header19linkedDylibLoadPathEj
+- __ZNK6mach_o6Header19loadableIntoProcessENS_8PlatformE7CStringb
+- __ZNK6mach_o6Header19platformAndVersionsEv
+- __ZNK6mach_o6Header19validSemanticsRPathERKNS_6PolicyE
+- __ZNK6mach_o6Header20hasZerofillExpansionEv
+- __ZNK6mach_o6Header20preferredLoadAddressEv
+- __ZNK6mach_o6Header22entryAddrFromThreadCmdEPK14thread_commandRy
+- __ZNK6mach_o6Header22forEachLoadCommandSafeEU13block_pointerFvPK12load_commandRbE
+- __ZNK6mach_o6Header22validSemanticsPlatformEv
+- __ZNK6mach_o6Header22validSemanticsSegmentsERKNS_6PolicyEy
+- __ZNK6mach_o6Header23zerofillExpansionAmountEv
+- __ZNK6mach_o6Header25validSemanticsInstallNameERKNS_6PolicyE
+- __ZNK6mach_o6Header26forEachPlatformLoadCommandEU13block_pointerFvNS_8PlatformENS_9Version32ES2_E
+- __ZNK6mach_o6Header26validSemanticsLinkedDylibsERKNS_6PolicyE
+- __ZNK6mach_o6Header26validStructureLoadCommandsEy
+- __ZNK6mach_o6Header27validSemanticsLinkerOptionsERKNS_6PolicyE
+- __ZNK6mach_o6Header4archEv
+- __ZNK6mach_o6Header4is64Ev
+- __ZNK6mach_o6Header5validEy
+- __ZNK6mach_o6Header6isArchEPKc
+- __ZNK6mach_o6Header7getUuidEPh
+- __ZNK6mach_o6Header8getSlideEv
+- __ZNK6mach_o6Header9isFileSetEv
+- __ZNK6mach_o6Header9isPreloadEv
+- __ZNK6mach_o9Universal12forEachSliceEU13block_pointerFvNS_12ArchitectureEyyRbE
+- __ZNKSt3__111__copy_implclB8nn200100IPhS2_NS_20back_insert_iteratorIN3lsl6VectorIcEEEEEENS_4pairIT_T1_EES9_T0_SA_
+- __ZNKSt3__117basic_string_viewIcNS_11char_traitsIcEEE11starts_withB8nn200100EPKc
+- __ZNKSt3__117basic_string_viewIcNS_11char_traitsIcEEE7compareB8nn200100EmmS3_
+- __ZNSt3__123__lower_bound_bisectingB8nn200100INS_17_ClassicAlgPolicyENS_11__wrap_iterIPPKcEES4_NS_10__identityEN3lsl20ConstCharStarCompareEEET0_SA_RKT1_NS_15iterator_traitsISA_E15difference_typeERT3_RT2_
+- __ZNSt3__18optionalIyE4swapB8nn200100ERS1_
+- __ZTVN3lsl8CRC32cSWE
+- __ZZNK6mach_o6Header19loadableIntoProcessENS_8PlatformE7CStringbE9macOSHost
+- ___Block_byref_object_copy_.78
+- ___Block_byref_object_dispose_.79
+- ____ZN4dyld20ThreadLocalVariables16forEachThunkSpanEPKN6mach_o6HeaderEU13block_pointerFNS1_5ErrorENSt3__14spanINS0_5ThunkELm18446744073709551615EEEE_block_invoke
+- ____ZN4dyld20ThreadLocalVariables18findInitialContentEPKN6mach_o6HeaderERNSt3__14spanIKhLm18446744073709551615EEERb_block_invoke
+- ____ZN4dyld20ThreadLocalVariables24initializeThunksFromDiskEPKN6mach_o6HeaderE_block_invoke
+- ____ZN4dyld20ThreadLocalVariables27initializeThunksInDyldCacheEPK15DyldSharedCachePKN6mach_o6HeaderE_block_invoke
+- ____ZNK6mach_o6Header10hasSectionE7CStringS1_b_block_invoke
+- ____ZNK6mach_o6Header12forEachRPathEU13block_pointerFvPKcRbE_block_invoke
+- ____ZNK6mach_o6Header13sourceVersionERNS_9Version64E_block_invoke
+- ____ZNK6mach_o6Header14forEachSectionEU13block_pointerFvRKNS0_11SectionInfoERbE_block_invoke
+- ____ZNK6mach_o6Header14forEachSegmentEU13block_pointerFvRKNS0_11SegmentInfoERbE_block_invoke
+- ____ZNK6mach_o6Header14hasLoadCommandEj_block_invoke
+- ____ZNK6mach_o6Header15hasSplitSegInfoERb_block_invoke
+- ____ZNK6mach_o6Header16builtForPlatformENS_8PlatformEb_block_invoke
+- ____ZNK6mach_o6Header16hasCodeSignatureERjS1__block_invoke
+- ____ZNK6mach_o6Header16linkedDylibCountEPb_block_invoke
+- ____ZNK6mach_o6Header18forEachLinkedDylibEU13block_pointerFvPKcNS_21LinkedDylibAttributesENS_9Version32ES4_bRbE_block_invoke
+- ____ZNK6mach_o6Header18validSemanticsMainERKNS_6PolicyE_block_invoke
+- ____ZNK6mach_o6Header18validSemanticsUUIDERKNS_6PolicyE_block_invoke
+- ____ZNK6mach_o6Header19getDylibInstallNameEPPKcPNS_9Version32ES5__block_invoke
+- ____ZNK6mach_o6Header19linkedDylibLoadPathEj_block_invoke
+- ____ZNK6mach_o6Header19platformAndVersionsEv_block_invoke
+- ____ZNK6mach_o6Header19validSemanticsRPathERKNS_6PolicyE_block_invoke
+- ____ZNK6mach_o6Header20preferredLoadAddressEv_block_invoke
+- ____ZNK6mach_o6Header22validSemanticsPlatformEv_block_invoke
+- ____ZNK6mach_o6Header22validSemanticsSegmentsERKNS_6PolicyEy_block_invoke
+- ____ZNK6mach_o6Header23zerofillExpansionAmountEv_block_invoke
+- ____ZNK6mach_o6Header25validSemanticsInstallNameERKNS_6PolicyE_block_invoke
+- ____ZNK6mach_o6Header26forEachPlatformLoadCommandEU13block_pointerFvNS_8PlatformENS_9Version32ES2_E_block_invoke
+- ____ZNK6mach_o6Header26validSemanticsLinkedDylibsERKNS_6PolicyE_block_invoke
+- ____ZNK6mach_o6Header26validStructureLoadCommandsEy_block_invoke
+- ____ZNK6mach_o6Header27validSemanticsLinkerOptionsERKNS_6PolicyE_block_invoke
+- ____ZNK6mach_o6Header7getUuidEPh_block_invoke
+- ___block_descriptor_tmp.120
+- ___block_descriptor_tmp.124
+- ___block_descriptor_tmp.20
+- ___block_descriptor_tmp.281
+- ___block_descriptor_tmp.290
+- ___block_descriptor_tmp.297
+- ___block_descriptor_tmp.309
+- ___block_descriptor_tmp.80
+- ___block_literal_global.23
+- _arc4random_uniform
+- _basename
+CStrings:
++ "0 && \"dyld_for_each_installed_shared_cache_ex is not supported in legacy mode\""
++ "0 && \"dyld_image_segment_data_4HWTrace is not supported in legacy mode\""
++ "0 &&\" dyld_image_release_4HWTrace is not supported in legacy mode\""
++ "0 &&\"dyld_image_retain4ProcessTrace is not supported in legacy mode\""
++ "TPRO regions should not be writable on entry to dyld\n"
++ "UnsafeHeader.cpp"
++ "armv4t"
++ "dyld_for_each_installed_shared_cache_ex"
++ "dyld_image_release_4HWTrace"
++ "dyld_image_retain_4HWTrace"
++ "dyld_image_segment_data_4HWTrace"
++ "v44@?0{Architecture=ii}8Q16Q24C32^B36"
++ "v56@?0{Slice={Architecture=ii}{span<const unsigned char, 18446744073709551615UL>=*Q}QC}8^B48"
+- "DTServiceHub"
+- "Header.cpp"
+- "ReportCrash"
+- "Xcode"
+- "apple-hwtrace"
+- "com.apple.dt.instruments.dtsecurity"
+- "trace"
+- "trace_internal"
+- "v40@?0{Architecture=ii}8Q16Q24^B32"
+- "v40@?0{Slice={Architecture=ii}{span<const unsigned char, 18446744073709551615UL>=*Q}}8^B32"
+
+```

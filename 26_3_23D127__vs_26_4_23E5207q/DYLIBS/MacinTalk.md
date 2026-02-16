@@ -1,0 +1,601 @@
+## MacinTalk
+
+> `/System/Library/PrivateFrameworks/MacinTalk.framework/MacinTalk`
+
+```diff
+
+-90.0.0.0.0
+-  __TEXT.__text: 0x7b5b0
+-  __TEXT.__auth_stubs: 0x1bf0
++90.2.0.0.0
++  __TEXT.__text: 0x77d84
++  __TEXT.__auth_stubs: 0x1ad0
+   __TEXT.__init_offsets: 0xc
+   __TEXT.__objc_methlist: 0x540
+-  __TEXT.__const: 0x104d4
+-  __TEXT.__cstring: 0x5576
+-  __TEXT.__gcc_except_tab: 0x2740
+-  __TEXT.__oslogstring: 0x112
++  __TEXT.__const: 0x10064
++  __TEXT.__cstring: 0x70f5
++  __TEXT.__gcc_except_tab: 0x247c
++  __TEXT.__oslogstring: 0x4f
+   __TEXT.__swift5_typeref: 0x326
+   __TEXT.__swift5_capture: 0x50
+   __TEXT.__swift5_reflstr: 0x271
+
+   __TEXT.__swift5_proto: 0x28
+   __TEXT.__swift5_types: 0x34
+   __TEXT.__dof_MacinTalk: 0x40a
+-  __TEXT.__unwind_info: 0x1fe0
++  __TEXT.__unwind_info: 0x1df0
+   __TEXT.__eh_frame: 0x178
+-  __TEXT.__objc_classname: 0x144
+-  __TEXT.__objc_methname: 0xf24
+-  __TEXT.__objc_methtype: 0x10af
+-  __TEXT.__objc_stubs: 0x780
+-  __DATA_CONST.__got: 0x368
+-  __DATA_CONST.__const: 0x2d8
++  __TEXT.__objc_classname: 0x173
++  __TEXT.__objc_methname: 0x10fc
++  __TEXT.__objc_methtype: 0x1316
++  __TEXT.__objc_stubs: 0xb80
++  __DATA_CONST.__got: 0x358
++  __DATA_CONST.__const: 0x2d0
+   __DATA_CONST.__objc_classlist: 0x68
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x3b0
+   __DATA_CONST.__objc_protorefs: 0x10
+   __DATA_CONST.__objc_superrefs: 0x20
+-  __AUTH_CONST.__auth_got: 0xe08
+-  __AUTH_CONST.__const: 0x4cb0
++  __AUTH_CONST.__auth_got: 0xd78
++  __AUTH_CONST.__const: 0x45d8
+   __AUTH_CONST.__cfstring: 0x3680
+   __AUTH_CONST.__objc_const: 0x1008
+   __AUTH_CONST.__objc_doubleobj: 0x10
+   __AUTH.__objc_data: 0x388
+   __AUTH.__data: 0x28
+   __DATA.__objc_ivar: 0x60
+-  __DATA.__data: 0x2840
++  __DATA.__data: 0x2828
+   __DATA.__objc_stublist: 0x8
+   __DATA.__bss: 0x310
+-  __DATA.__common: 0x38
++  __DATA.__common: 0x40
+   __DATA_DIRTY.__objc_data: 0x248
+-  __DATA_DIRTY.__data: 0x108
+-  __DATA_DIRTY.__bss: 0x418
++  __DATA_DIRTY.__data: 0x128
+   __DATA_DIRTY.__common: 0x70
++  __DATA_DIRTY.__bss: 0x418
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftNaturalLanguage.dylib
+-  - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6B61BF6E-3815-3177-B1F5-04B2B0B3924B
+-  Functions: 2246
+-  Symbols:   4489
+-  CStrings:  1816
++  UUID: DE1CECC6-65F9-3184-8933-69FDC2D36C8F
++  Functions: 2120
++  Symbols:   4261
++  CStrings:  1807
+ 
+Symbols:
++ GCC_except_table105
++ GCC_except_table35
++ GCC_except_table52
++ GCC_except_table60
++ GCC_except_table62
++ GCC_except_table66
++ GCC_except_table68
++ GCC_except_table73
++ GCC_except_table80
++ GCC_except_table95
++ _OUTLINED_FUNCTION_0
++ __ZN14LinearFunctionC2Effff.cold.1
++ __ZN15MTFEFrameFiller13sEnvelopeListE
++ __ZN15MTFEFrameFiller8sVoiceAVE
++ __ZNKSt3__116__deque_iteratorItPtRtPS1_lLl2048EEplB9foe210106El
++ __ZNSt12length_errorC1B9foe210106EPKc
++ __ZNSt12out_of_rangeC1B9foe210106EPKc
++ __ZNSt3__111__sift_downB9foe210106INS_17_ClassicAlgPolicyER18MEOWCompareIndexedPtEEvT1_OT0_NS_15iterator_traitsIS5_E15difference_typeES5_
++ __ZNSt3__111__sift_downB9foe210106INS_17_ClassicAlgPolicyER24MEOWSortCookieByCutPointP18MEOWDistanceCookieEEvT1_OT0_NS_15iterator_traitsIS6_E15difference_typeES6_
++ __ZNSt3__111__sift_downB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_16__deque_iteratorItPtRtPS6_lLl2048EEEEEvT1_OT0_NS_15iterator_traitsISA_E15difference_typeESA_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__113__nth_elementB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEN4SLML6VectorIfE8iteratorEEEvT1_S9_S9_T0_
++ __ZNSt3__115__sort_dispatchB9foe210106INS_17_ClassicAlgPolicyENS_16__deque_iteratorItPtRtPS3_lLl2048EEENS_6__lessIvvEEEEvT0_S9_RT1_
++ __ZNSt3__116__deque_iteratorI8MTMBDemiPS1_RS1_PS2_lLl36EEpLB9foe210106El
++ __ZNSt3__116__insertion_sortB9foe210106INS_17_ClassicAlgPolicyER18MEOWCompareIndexedPtEEvT1_S5_T0_
++ __ZNSt3__116__insertion_sortB9foe210106INS_17_ClassicAlgPolicyER24MEOWSortCookieByCutPointP18MEOWDistanceCookieEEvT1_S6_T0_
++ __ZNSt3__116__insertion_sortB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_16__deque_iteratorItPtRtPS6_lLl2048EEEEEvT1_SA_T0_
++ __ZNSt3__116__selection_sortB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEN4SLML6VectorIfE8iteratorEEEvT1_S9_T0_
++ __ZNSt3__117__floyd_sift_downB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_16__deque_iteratorItPtRtPS6_lLl2048EEEEET1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorI7CFRangeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN10MTBEWorker7TaskRecEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN22TheoreticalAccentShape8KeyPointEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIP8MTMBDemiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIPKvEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIPtEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIlEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorItEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__partial_sort_implB9foe210106INS_17_ClassicAlgPolicyER18MEOWCompareIndexedPtS4_EET1_S5_S5_T2_OT0_
++ __ZNSt3__119__partial_sort_implB9foe210106INS_17_ClassicAlgPolicyER24MEOWSortCookieByCutPointP18MEOWDistanceCookieS5_EET1_S6_S6_T2_OT0_
++ __ZNSt3__119__partial_sort_implB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_16__deque_iteratorItPtRtPS6_lLl2048EEES9_EET1_SA_SA_T2_OT0_
++ __ZNSt3__120__throw_length_errorB9foe210106EPKc
++ __ZNSt3__120__throw_out_of_rangeB9foe210106EPKc
++ __ZNSt3__124__copy_move_unwrap_itersB9foe210106INS_11__copy_implEPK16MEOWWordInstanceS4_NS_20back_insert_iteratorI10MEOWVectorIS2_EEELi0EEENS_4pairIT0_T2_EESA_T1_SB_
++ __ZNSt3__126__insertion_sort_unguardedB9foe210106INS_17_ClassicAlgPolicyER18MEOWCompareIndexedPtEEvT1_S5_T0_
++ __ZNSt3__126__insertion_sort_unguardedB9foe210106INS_17_ClassicAlgPolicyER24MEOWSortCookieByCutPointP18MEOWDistanceCookieEEvT1_S6_T0_
++ __ZNSt3__126__insertion_sort_unguardedB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_16__deque_iteratorItPtRtPS6_lLl2048EEEEEvT1_SA_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9foe210106INS_17_ClassicAlgPolicyER18MEOWCompareIndexedPtEEbT1_S5_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9foe210106INS_17_ClassicAlgPolicyER24MEOWSortCookieByCutPointP18MEOWDistanceCookieEEbT1_S6_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_16__deque_iteratorItPtRtPS6_lLl2048EEEEEbT1_SA_T0_
++ __ZNSt3__131__partition_with_equals_on_leftB9foe210106INS_17_ClassicAlgPolicyENS_16__deque_iteratorItPtRtPS3_lLl2048EEERNS_6__lessIvvEEEET0_SA_SA_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB9foe210106INS_17_ClassicAlgPolicyEP18MEOWDistanceCookieR24MEOWSortCookieByCutPointEET0_S6_S6_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB9foe210106INS_17_ClassicAlgPolicyEPtR18MEOWCompareIndexedEET0_S5_S5_T1_
++ __ZNSt3__132__internal_log_hardening_failureEPKc
++ __ZNSt3__132__partition_with_equals_on_rightB9foe210106INS_17_ClassicAlgPolicyENS_16__deque_iteratorItPtRtPS3_lLl2048EEERNS_6__lessIvvEEEENS_4pairIT0_bEESB_SB_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB9foe210106INS_17_ClassicAlgPolicyEP18MEOWDistanceCookieR24MEOWSortCookieByCutPointEENS_4pairIT0_bEES7_S7_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB9foe210106INS_17_ClassicAlgPolicyEPtR18MEOWCompareIndexedEENS_4pairIT0_bEES6_S6_T1_
++ __ZNSt3__14listI11MTMBSegmentNS_9allocatorIS1_EEE9pop_frontEv
++ __ZNSt3__14listIN15MEOWSampleCache13ParcelPortionENS_9allocatorIS2_EEE9pop_frontEv
++ __ZNSt3__14listIN22MTMBSpeechRateModifier9BoundMarkENS_9allocatorIS2_EEE9pop_frontEv
++ __ZNSt3__14listIP20SpeechChannelManagerNS_9allocatorIS2_EEE9pop_frontEv
++ __ZNSt3__14listIlNS_9allocatorIlEEE9pop_frontEv
++ __ZNSt3__15dequeI8MTMBDemiNS_9allocatorIS1_EEE25__maybe_remove_back_spareB9foe210106Eb
++ __ZNSt3__15dequeI8MTMBDemiNS_9allocatorIS1_EEE26__maybe_remove_front_spareB9foe210106Eb
++ __ZNSt3__15dequeI8MTMBDemiNS_9allocatorIS1_EEED2B9foe210106Ev
++ __ZNSt3__15dequeItNS_9allocatorItEEE18__append_with_sizeB9foe210106INS_16__deque_iteratorItPKtRS6_PKS7_lLl2048EEEEEvT_m
++ __ZNSt3__15dequeItNS_9allocatorItEEE25__maybe_remove_back_spareB9foe210106Eb
++ __ZNSt3__15dequeItNS_9allocatorItEEE26__maybe_remove_front_spareB9foe210106Eb
++ __ZNSt3__15dequeItNS_9allocatorItEEE9pop_frontEv
++ __ZNSt3__15dequeItNS_9allocatorItEEED2B9foe210106Ev
++ __ZNSt3__16vectorI7CFRangeNS_9allocatorIS1_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorI7CFRangeNS_9allocatorIS1_EEE20__throw_out_of_rangeB9foe210106Ev
++ __ZNSt3__16vectorIN10MTBEWorker7TaskRecENS_9allocatorIS2_EEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorIN10MTBEWorker7TaskRecENS_9allocatorIS2_EEE18__assign_with_sizeB9foe210106IPS2_S7_EEvT_T0_l
++ __ZNSt3__16vectorIN10MTBEWorker7TaskRecENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN22TheoreticalAccentShape8KeyPointENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIPKvNS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIlNS_9allocatorIlEEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIlNS_9allocatorIlEEE9push_backB9foe210106EOl
++ __ZNSt3__16vectorItNS_9allocatorItEEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__17__sort5B9foe210106INS_17_ClassicAlgPolicyER18MEOWCompareIndexedPtLi0EEEvT1_S5_S5_S5_S5_T0_
++ __ZNSt3__17__sort5B9foe210106INS_17_ClassicAlgPolicyER24MEOWSortCookieByCutPointP18MEOWDistanceCookieLi0EEEvT1_S6_S6_S6_S6_T0_
++ __ZNSt3__19__sift_upB9foe210106INS_17_ClassicAlgPolicyER18MEOWCompareIndexedPtEEvT1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
++ __ZNSt3__19__sift_upB9foe210106INS_17_ClassicAlgPolicyER24MEOWSortCookieByCutPointP18MEOWDistanceCookieEEvT1_S6_OT0_NS_15iterator_traitsIS6_E15difference_typeE
++ __ZNSt3__19__sift_upB9foe210106INS_17_ClassicAlgPolicyERN10MTBEWorker7TimeCmpENS_11__wrap_iterIPNS2_7TaskRecEEEEEvT1_S9_OT0_NS_15iterator_traitsIS9_E15difference_typeE
++ __ZNSt3__19__sift_upB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_16__deque_iteratorItPtRtPS6_lLl2048EEEEEvT1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
++ __ZSt28__throw_bad_array_new_lengthB9foe210106v
++ ___block_descriptor_tmp.48
++ _block_copy_helper.19
++ _block_descriptor.21
++ _block_destroy_helper.20
++ _catlas_sset$NEWLAPACK
++ _cblas_isamax$NEWLAPACK
++ _cblas_saxpy$NEWLAPACK
++ _cblas_scopy$NEWLAPACK
++ _cblas_sdot$NEWLAPACK
++ _cblas_sgemm$NEWLAPACK
++ _cblas_sgemv$NEWLAPACK
++ _cblas_sscal$NEWLAPACK
++ _objc_initWeak
++ _objc_msgSend$bundleForClass:
++ _objc_msgSend$cancelProcessing
++ _objc_msgSend$cancelSpeechRequest
++ _objc_msgSend$createParameterWithIdentifier:name:address:min:max:unit:unitName:flags:valueStrings:dependentParameters:
++ _objc_msgSend$frameLength
++ _objc_msgSend$identifier
++ _objc_msgSend$init
++ _objc_msgSend$initWithAudioUnit:busType:busses:
++ _objc_msgSend$initWithBookmarkName:atByteSampleOffset:
++ _objc_msgSend$initWithCMAudioFormatDescription:
++ _objc_msgSend$initWithComponentDescription:options:error:
++ _objc_msgSend$initWithFloat:
++ _objc_msgSend$initWithFormat:error:
++ _objc_msgSend$initWithMarkerType:forTextRange:atByteSampleOffset:
++ _objc_msgSend$initWithOriginalString:
++ _objc_msgSend$initWithString:
++ _objc_msgSend$initWithVoice:frontend:
++ _objc_msgSend$jobIdentifier
++ _objc_msgSend$loadRuleSet:
++ _objc_msgSend$loadVoiceBundle:
++ _objc_msgSend$mutableAudioBufferList
++ _objc_msgSend$originalString
++ _objc_msgSend$processText:
++ _objc_msgSend$registerSubclass:asComponentDescription:name:version:
++ _objc_msgSend$reset
++ _objc_msgSend$setDelegate:
++ _objc_msgSend$setMatchLogger:
++ _objc_msgSend$setPitchModulation:
++ _objc_msgSend$speechSynthesisOutputMetadataBlock
++ _objc_msgSend$ssmlRepresentation
++ _objc_msgSend$transformedString
++ _objc_msgSend$translateRangeInTransformedString:
++ _objc_retain_x19
++ _sgesvd$NEWLAPACK
++ _ssyevr$NEWLAPACK
++ _swift_getAssociatedTypeWitness
+- GCC_except_table103
+- GCC_except_table43
+- GCC_except_table51
+- GCC_except_table53
+- GCC_except_table65
+- GCC_except_table67
+- GCC_except_table72
+- GCC_except_table75
+- GCC_except_table76
+- GCC_except_table79
+- GCC_except_table81
+- GCC_except_table91
+- _AudioComponentFindNext
+- _AudioComponentInstanceDispose
+- _AudioComponentInstanceNew
+- _AudioFileOptimize
+- _AudioFileSetProperty
+- _AudioOutputUnitStart
+- _AudioOutputUnitStop
+- _AudioUnitSetProperty
+- _AudioUnitUninitialize
+- _ExtAudioFileCreateWithURL
+- _ExtAudioFileDispose
+- _ExtAudioFileGetProperty
+- _ExtAudioFileSetProperty
+- _ExtAudioFileWrite
+- _SECloseSpeechChannel
+- _SEContinueSpeech
+- _SECopyPhonemesFromText
+- _SECopySpeechProperty
+- _SEGetSpeechInfo
+- _SEOpenSpeechChannel
+- _SEPauseSpeechAt
+- _SESetSpeechProperty
+- _SESpeakCFString
+- _SEStopSpeechAt
+- _SEUseSpeechDictionary
+- _SEUseVoice
+- __Z22RemoteIORenderCallbackPvPjPK14AudioTimeStampjjP15AudioBufferList
+- __ZL23WaitForRemoteIOToFinishPv
+- __ZN11MiniToolbox13BaseVisitableIvE10AcceptImplI11SentenceLogEEvRT_RNS_11BaseVisitorE
+- __ZN11MiniToolbox20BaseCompositeElementI16SpeechElementLogNSt3__14listEE17DeleteAllChildrenEv
+- __ZN11MiniToolbox20BaseCompositeElementI16SpeechElementLogNSt3__14listEE20const_child_iteratorD0Ev
+- __ZN11MiniToolbox20BaseCompositeElementI16SpeechElementLogNSt3__14listEE20const_child_iteratorD1Ev
+- __ZN11MiniToolbox20BaseCompositeElementI16SpeechElementLogNSt3__14listEED0Ev
+- __ZN11MiniToolbox20BaseCompositeElementI16SpeechElementLogNSt3__14listEED1Ev
+- __ZN11MiniToolbox20BaseCompositeElementI16SpeechElementLogNSt3__14listEED2Ev
+- __ZN11SentenceLog6AcceptERN11MiniToolbox11BaseVisitorE
+- __ZN11SentenceLogC1Ev
+- __ZN11SentenceLogC2Ev
+- __ZN11SentenceLogD0Ev
+- __ZN11SentenceLogD1Ev
+- __ZN12MTTCondition4WaitEm
+- __ZN13MTTScopedLockD2Ev
+- __ZN14MTFELogVisitor13VisitSentenceEP12MTFESentence
+- __ZN14MTFELogVisitorC1Ev
+- __ZN14MTFELogVisitorC2Ev
+- __ZN14MTFELogVisitorD0Ev
+- __ZN14MTFELogVisitorD1Ev
+- __ZN14MTFELogVisitorD2Ev
+- __ZN15MTBESoundOutput11PushSamplesEv
+- __ZN15MTBESoundOutput12MarkPositionEPKc
+- __ZN15MTBESoundOutput13CreateChannelEj
+- __ZN15MTBESoundOutput13GetSourceUnitEv
+- __ZN15MTBESoundOutput13InitializedOKEv
+- __ZN15MTBESoundOutput13ReportLatencyEv
+- __ZN15MTBESoundOutput13SetChannelMapEPK9__CFArray
+- __ZN15MTBESoundOutput13SetChannelMapEPil
+- __ZN15MTBESoundOutput14GetSourceGraphEv
+- __ZN15MTBESoundOutput14SampleCapacityEv
+- __ZN15MTBESoundOutput15CheckAudioAliveEv
+- __ZN15MTBESoundOutput16CreateFileStreamEP18OpaqueExtAudioFile
+- __ZN15MTBESoundOutput17OfflineProcessingEv
+- __ZN15MTBESoundOutput19SetBoundaryCallbackEP23MTBESoundOutputCallback
+- __ZN15MTBESoundOutput20SetOfflineProcessingEb
+- __ZN15MTBESoundOutput6WakeupEP23MTBESoundOutputCallback
+- __ZN15MTBESoundOutput7SilenceEbb
+- __ZN15MTBESoundOutput9DisengageEv
+- __ZN15MTBESoundOutputD0Ev
+- __ZN15MTBESoundOutputD1Ev
+- __ZN15MTBESoundOutputD2Ev
+- __ZN16SpeechElementLogC2Ev
+- __ZN16SpeechElementLogD0Ev
+- __ZN16SpeechElementLogD1Ev
+- __ZN19MTBEPhraseProcessor15GenerateSamplesEP15MTBESoundOutputPi
+- __ZN20SampleBufferRingList10AddSamplesEPKfmm
+- __ZN20SampleBufferRingList11CopySamplesEPvPmS1_
+- __ZN20SampleBufferRingList12SamplesAddedEv
+- __ZN20SampleBufferRingList14WaitUntilEmptyEv
+- __ZN20SampleBufferRingList16AddSamplesDetailEPKfmm
+- __ZN20SampleBufferRingList17AvailableCapacityEv
+- __ZN20SampleBufferRingList17CopySamplesDetailEPvPmS1_Pb
+- __ZN20SampleBufferRingList18SamplesAddedDetailEv
+- __ZN20SampleBufferRingList23AvailableCapacityDetailEv
+- __ZN20SampleBufferRingList5ClearEv
+- __ZN20SampleBufferRingListC1Em
+- __ZN20SampleBufferRingListC2Em
+- __ZN20SampleBufferRingListD2Ev
+- __ZN20SpeechChannelManager18CreateSoundChannelEb
+- __ZN20SpeechChannelManager19DisposeSoundChannelEb
+- __ZN21MTBEIgnoreSoundOutput12QueueSamplesEPKfmm
+- __ZN21MTBEIgnoreSoundOutputD0Ev
+- __ZN21MTBEIgnoreSoundOutputD1Ev
+- __ZN23MTBERemoteIOSoundOutput11FeedSamplesEjP15AudioBufferList
+- __ZN23MTBERemoteIOSoundOutput12QueueSamplesEPKfmm
+- __ZN23MTBERemoteIOSoundOutput13SetChannelMapEPil
+- __ZN23MTBERemoteIOSoundOutput13SilenceDetailEb
+- __ZN23MTBERemoteIOSoundOutput14SampleCapacityEv
+- __ZN23MTBERemoteIOSoundOutput17OfflineProcessingEv
+- __ZN23MTBERemoteIOSoundOutput19SetBoundaryCallbackEP23MTBESoundOutputCallback
+- __ZN23MTBERemoteIOSoundOutput19WaitForOutputToStopEb
+- __ZN23MTBERemoteIOSoundOutput19WaitForOutputToStopEb.cold.1
+- __ZN23MTBERemoteIOSoundOutput29WaitForOutputToStopThreadFuncEv
+- __ZN23MTBERemoteIOSoundOutput6WakeupEP23MTBESoundOutputCallback
+- __ZN23MTBERemoteIOSoundOutput7SilenceEbb
+- __ZN23MTBERemoteIOSoundOutputC1Ej
+- __ZN23MTBERemoteIOSoundOutputC2Ej
+- __ZN23MTBERemoteIOSoundOutputD0Ev
+- __ZN23MTBERemoteIOSoundOutputD1Ev
+- __ZN23MTBERemoteIOSoundOutputD2Ev
+- __ZN23MTBESoundOutputCallback14StopAtBoundaryEm
+- __ZN23MTBESoundOutputCallback7LatencyEv
+- __ZN23MTBESoundOutputCallbackD0Ev
+- __ZN23MTBESoundOutputCallbackD1Ev
+- __ZN24MTBEAudioFileSoundOutput11PushSamplesEv
+- __ZN24MTBEAudioFileSoundOutput12MarkPositionEPKc
+- __ZN24MTBEAudioFileSoundOutput12QueueSamplesEPKfmm
+- __ZN24MTBEAudioFileSoundOutput13InitializedOKEv
+- __ZN24MTBEAudioFileSoundOutput13SetChannelMapEPil
+- __ZN24MTBEAudioFileSoundOutput9DisengageEv
+- __ZN24MTBEAudioFileSoundOutputC1EP18OpaqueExtAudioFile
+- __ZN24MTBEAudioFileSoundOutputC2EP18OpaqueExtAudioFile
+- __ZN24MTBEAudioFileSoundOutputD0Ev
+- __ZN24MTBEAudioFileSoundOutputD1Ev
+- __ZN24MTBEAudioFileSoundOutputD2Ev
+- __ZNK11MiniToolbox16CompositeElementI16SpeechElementLogNS_29CompositeElementNonComparableENS_8ClonableENSt3__14listEE5CloneEv
+- __ZNK11SentenceLog17NonRecursiveCloneEv
+- __ZNK20SampleBufferRingList12IsFullDetailEv
+- __ZNK20SampleBufferRingList13IsEmptyDetailEv
+- __ZNK20SampleBufferRingList6IsFullEv
+- __ZNK20SampleBufferRingList7IsEmptyEv
+- __ZNKSt3__116__deque_iteratorItPtRtPS1_lLl2048EEplB8ne200100El
+- __ZNSt12length_errorC1B8ne200100EPKc
+- __ZNSt12out_of_rangeC1B8ne200100EPKc
+- __ZNSt3__110__list_impIP16SpeechElementLogNS_9allocatorIS2_EEE5clearEv
+- __ZNSt3__111__sift_downB8ne200100INS_17_ClassicAlgPolicyER18MEOWCompareIndexedPtEEvT1_OT0_NS_15iterator_traitsIS5_E15difference_typeES5_
+- __ZNSt3__111__sift_downB8ne200100INS_17_ClassicAlgPolicyER24MEOWSortCookieByCutPointP18MEOWDistanceCookieEEvT1_OT0_NS_15iterator_traitsIS6_E15difference_typeES6_
+- __ZNSt3__111__sift_downB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_16__deque_iteratorItPtRtPS6_lLl2048EEEEEvT1_OT0_NS_15iterator_traitsISA_E15difference_typeESA_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__113__nth_elementB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEN4SLML6VectorIfE8iteratorEEEvT1_S9_S9_T0_
+- __ZNSt3__115__sort_dispatchB8ne200100INS_17_ClassicAlgPolicyENS_16__deque_iteratorItPtRtPS3_lLl2048EEENS_6__lessIvvEEEEvT0_S9_RT1_
+- __ZNSt3__116__deque_iteratorI8MTMBDemiPS1_RS1_PS2_lLl36EEpLB8ne200100El
+- __ZNSt3__116__insertion_sortB8ne200100INS_17_ClassicAlgPolicyER18MEOWCompareIndexedPtEEvT1_S5_T0_
+- __ZNSt3__116__insertion_sortB8ne200100INS_17_ClassicAlgPolicyER24MEOWSortCookieByCutPointP18MEOWDistanceCookieEEvT1_S6_T0_
+- __ZNSt3__116__insertion_sortB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_16__deque_iteratorItPtRtPS6_lLl2048EEEEEvT1_SA_T0_
+- __ZNSt3__116__selection_sortB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEN4SLML6VectorIfE8iteratorEEEvT1_S9_T0_
+- __ZNSt3__117__floyd_sift_downB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_16__deque_iteratorItPtRtPS6_lLl2048EEEEET1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorI12SampleBufferEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorI7CFRangeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN10MTBEWorker7TaskRecEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN22TheoreticalAccentShape8KeyPointEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIP8MTMBDemiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIPKvEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIPtEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIlEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorItEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__partial_sort_implB8ne200100INS_17_ClassicAlgPolicyER18MEOWCompareIndexedPtS4_EET1_S5_S5_T2_OT0_
+- __ZNSt3__119__partial_sort_implB8ne200100INS_17_ClassicAlgPolicyER24MEOWSortCookieByCutPointP18MEOWDistanceCookieS5_EET1_S6_S6_T2_OT0_
+- __ZNSt3__119__partial_sort_implB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_16__deque_iteratorItPtRtPS6_lLl2048EEES9_EET1_SA_SA_T2_OT0_
+- __ZNSt3__120__throw_length_errorB8ne200100EPKc
+- __ZNSt3__120__throw_out_of_rangeB8ne200100EPKc
+- __ZNSt3__124__copy_move_unwrap_itersB8ne200100INS_11__copy_implEPK16MEOWWordInstanceS4_NS_20back_insert_iteratorI10MEOWVectorIS2_EEELi0EEENS_4pairIT0_T2_EESA_T1_SB_
+- __ZNSt3__126__insertion_sort_unguardedB8ne200100INS_17_ClassicAlgPolicyER18MEOWCompareIndexedPtEEvT1_S5_T0_
+- __ZNSt3__126__insertion_sort_unguardedB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_16__deque_iteratorItPtRtPS6_lLl2048EEEEEvT1_SA_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8ne200100INS_17_ClassicAlgPolicyER18MEOWCompareIndexedPtEEbT1_S5_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8ne200100INS_17_ClassicAlgPolicyER24MEOWSortCookieByCutPointP18MEOWDistanceCookieEEbT1_S6_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_16__deque_iteratorItPtRtPS6_lLl2048EEEEEbT1_SA_T0_
+- __ZNSt3__131__partition_with_equals_on_leftB8ne200100INS_17_ClassicAlgPolicyENS_16__deque_iteratorItPtRtPS3_lLl2048EEERNS_6__lessIvvEEEET0_SA_SA_T1_
+- __ZNSt3__131__partition_with_equals_on_leftB8ne200100INS_17_ClassicAlgPolicyEP18MEOWDistanceCookieR24MEOWSortCookieByCutPointEET0_S6_S6_T1_
+- __ZNSt3__131__partition_with_equals_on_leftB8ne200100INS_17_ClassicAlgPolicyEPtR18MEOWCompareIndexedEET0_S5_S5_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8ne200100INS_17_ClassicAlgPolicyENS_16__deque_iteratorItPtRtPS3_lLl2048EEERNS_6__lessIvvEEEENS_4pairIT0_bEESB_SB_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8ne200100INS_17_ClassicAlgPolicyEP18MEOWDistanceCookieR24MEOWSortCookieByCutPointEENS_4pairIT0_bEES7_S7_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8ne200100INS_17_ClassicAlgPolicyEPtR18MEOWCompareIndexedEENS_4pairIT0_bEES6_S6_T1_
+- __ZNSt3__15dequeI8MTMBDemiNS_9allocatorIS1_EEE25__maybe_remove_back_spareB8ne200100Eb
+- __ZNSt3__15dequeI8MTMBDemiNS_9allocatorIS1_EEE26__maybe_remove_front_spareB8ne200100Eb
+- __ZNSt3__15dequeI8MTMBDemiNS_9allocatorIS1_EEED2B8ne200100Ev
+- __ZNSt3__15dequeItNS_9allocatorItEEE18__append_with_sizeB8ne200100INS_16__deque_iteratorItPKtRS6_PKS7_lLl2048EEEEEvT_m
+- __ZNSt3__15dequeItNS_9allocatorItEEE25__maybe_remove_back_spareB8ne200100Eb
+- __ZNSt3__15dequeItNS_9allocatorItEEE26__maybe_remove_front_spareB8ne200100Eb
+- __ZNSt3__15dequeItNS_9allocatorItEEED2B8ne200100Ev
+- __ZNSt3__16vectorI12SampleBufferNS_9allocatorIS1_EEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorI12SampleBufferNS_9allocatorIS1_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorI12SampleBufferNS_9allocatorIS1_EEEC2B8ne200100Em
+- __ZNSt3__16vectorI7CFRangeNS_9allocatorIS1_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorI7CFRangeNS_9allocatorIS1_EEE20__throw_out_of_rangeB8ne200100Ev
+- __ZNSt3__16vectorIN10MTBEWorker7TaskRecENS_9allocatorIS2_EEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorIN10MTBEWorker7TaskRecENS_9allocatorIS2_EEE18__assign_with_sizeB8ne200100IPS2_S7_EEvT_T0_l
+- __ZNSt3__16vectorIN10MTBEWorker7TaskRecENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN22TheoreticalAccentShape8KeyPointENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIPKvNS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIlNS_9allocatorIlEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIlNS_9allocatorIlEEE9push_backB8ne200100EOl
+- __ZNSt3__16vectorItNS_9allocatorItEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__17__sort5B8ne200100INS_17_ClassicAlgPolicyER18MEOWCompareIndexedPtLi0EEEvT1_S5_S5_S5_S5_T0_
+- __ZNSt3__17__sort5B8ne200100INS_17_ClassicAlgPolicyER24MEOWSortCookieByCutPointP18MEOWDistanceCookieLi0EEEvT1_S6_S6_S6_S6_T0_
+- __ZNSt3__19__sift_upB8ne200100INS_17_ClassicAlgPolicyER18MEOWCompareIndexedPtEEvT1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
+- __ZNSt3__19__sift_upB8ne200100INS_17_ClassicAlgPolicyER24MEOWSortCookieByCutPointP18MEOWDistanceCookieEEvT1_S6_OT0_NS_15iterator_traitsIS6_E15difference_typeE
+- __ZNSt3__19__sift_upB8ne200100INS_17_ClassicAlgPolicyERN10MTBEWorker7TimeCmpENS_11__wrap_iterIPNS2_7TaskRecEEEEEvT1_S9_OT0_NS_15iterator_traitsIS9_E15difference_typeE
+- __ZNSt3__19__sift_upB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_16__deque_iteratorItPtRtPS6_lLl2048EEEEEvT1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
+- __ZSt28__throw_bad_array_new_lengthB8ne200100v
+- __ZTI11SentenceLog
+- __ZTI14MTFELogVisitor
+- __ZTI15MTBESoundOutput
+- __ZTI16SpeechElementLog
+- __ZTI21MTBEIgnoreSoundOutput
+- __ZTI23MTBERemoteIOSoundOutput
+- __ZTI23MTBESoundOutputCallback
+- __ZTI24MTBEAudioFileSoundOutput
+- __ZTIN11MiniToolbox11BaseVisitorE
+- __ZTIN11MiniToolbox13BaseVisitableIvEE
+- __ZTIN11MiniToolbox16CompositeElementI16SpeechElementLogNS_29CompositeElementNonComparableENS_8ClonableENSt3__14listEEE
+- __ZTIN11MiniToolbox20BaseCompositeElementI16SpeechElementLogNSt3__14listEE19base_child_iteratorINS2_21__list_const_iteratorIPS1_PvEENS4_20const_child_iteratorEEE
+- __ZTIN11MiniToolbox20BaseCompositeElementI16SpeechElementLogNSt3__14listEE20const_child_iteratorE
+- __ZTIN11MiniToolbox20BaseCompositeElementI16SpeechElementLogNSt3__14listEEE
+- __ZTIN11MiniToolbox25VisitableCompositeElementI16SpeechElementLogNS_29CompositeElementNonComparableENS_8ClonableENSt3__14listEEE
+- __ZTIN11MiniToolbox29CompositeElementNonComparableI16SpeechElementLogEE
+- __ZTIN11MiniToolbox7VisitorI11SentenceLogvEE
+- __ZTIN11MiniToolbox8ClonableI16SpeechElementLogEE
+- __ZTS11SentenceLog
+- __ZTS14MTFELogVisitor
+- __ZTS15MTBESoundOutput
+- __ZTS16SpeechElementLog
+- __ZTS21MTBEIgnoreSoundOutput
+- __ZTS23MTBERemoteIOSoundOutput
+- __ZTS23MTBESoundOutputCallback
+- __ZTS24MTBEAudioFileSoundOutput
+- __ZTSN11MiniToolbox11BaseVisitorE
+- __ZTSN11MiniToolbox13BaseVisitableIvEE
+- __ZTSN11MiniToolbox16CompositeElementI16SpeechElementLogNS_29CompositeElementNonComparableENS_8ClonableENSt3__14listEEE
+- __ZTSN11MiniToolbox20BaseCompositeElementI16SpeechElementLogNSt3__14listEE19base_child_iteratorINS2_21__list_const_iteratorIPS1_PvEENS4_20const_child_iteratorEEE
+- __ZTSN11MiniToolbox20BaseCompositeElementI16SpeechElementLogNSt3__14listEE20const_child_iteratorE
+- __ZTSN11MiniToolbox20BaseCompositeElementI16SpeechElementLogNSt3__14listEEE
+- __ZTSN11MiniToolbox25VisitableCompositeElementI16SpeechElementLogNS_29CompositeElementNonComparableENS_8ClonableENSt3__14listEEE
+- __ZTSN11MiniToolbox29CompositeElementNonComparableI16SpeechElementLogEE
+- __ZTSN11MiniToolbox7VisitorI11SentenceLogvEE
+- __ZTSN11MiniToolbox8ClonableI16SpeechElementLogEE
+- __ZTV11SentenceLog
+- __ZTV14MTFELogVisitor
+- __ZTV15MTBESoundOutput
+- __ZTV16SpeechElementLog
+- __ZTV21MTBEIgnoreSoundOutput
+- __ZTV23MTBERemoteIOSoundOutput
+- __ZTV23MTBESoundOutputCallback
+- __ZTV24MTBEAudioFileSoundOutput
+- __ZTVN11MiniToolbox20BaseCompositeElementI16SpeechElementLogNSt3__14listEE20const_child_iteratorE
+- __ZTVN11MiniToolbox20BaseCompositeElementI16SpeechElementLogNSt3__14listEEE
+- __ZThn40_N11SentenceLogD0Ev
+- __ZThn40_N11SentenceLogD1Ev
+- __ZThn40_N16SpeechElementLogD0Ev
+- __ZThn40_N16SpeechElementLogD1Ev
+- __ZThn48_N11SentenceLogD0Ev
+- __ZThn48_N11SentenceLogD1Ev
+- __ZThn48_N16SpeechElementLogD0Ev
+- __ZThn48_N16SpeechElementLogD1Ev
+- __ZThn48_NK11MiniToolbox16CompositeElementI16SpeechElementLogNS_29CompositeElementNonComparableENS_8ClonableENSt3__14listEE5CloneEv
+- __ZThn56_N11SentenceLog6AcceptERN11MiniToolbox11BaseVisitorE
+- __ZThn56_N11SentenceLogD0Ev
+- __ZThn56_N11SentenceLogD1Ev
+- __ZThn56_N16SpeechElementLogD0Ev
+- __ZThn56_N16SpeechElementLogD1Ev
+- __ZThn8_N14MT3BEngineTask12SoundIsAwakeEv
+- __ZThn8_N14MT3BEngineTask14StopAtBoundaryEm
+- __ZThn8_N14MT3BEngineTask7LatencyEv
+- __ZThn8_N14MT3BEngineTaskD0Ev
+- __ZThn8_N14MT3BEngineTaskD1Ev
+- __ZZN20SpeechChannelManager17SetSpeechPropertyEPK10__CFStringPKvE19sDefaultAudioFormat
+- ___block_descriptor_tmp.54
+- ___swift_coroFrameAllocStub
+- __os_log_impl
+- __swift_FORCE_LOAD_$_swiftOSLog
+- __swift_FORCE_LOAD_$_swiftOSLog_$_MacinTalk
+- _block_copy_helper.18
+- _block_descriptor.20
+- _block_destroy_helper.19
+- _catlas_sset
+- _cblas_isamax
+- _cblas_saxpy
+- _cblas_scopy
+- _cblas_sdot
+- _cblas_sgemm
+- _cblas_sgemv
+- _malloc
+- _objc_claimAutoreleasedReturnValue
+- _objc_retain_x1
+- _objc_retain_x22
+- _pthread_cond_signal
+- _pthread_cond_timedwait
+- _pthread_create
+- _pthread_detach
+- _pthread_exit
+- _scalbnf
+- _sgesvd_
+- _ssyevr_
+- _swift_errorRetain
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CHwBugDyar_yKw2i_0V7RBjGXyzambzXiEOBKow/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/nth_element.h:122: libc++ Hardening assertion __i != __last failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CHwBugDyar_yKw2i_0V7RBjGXyzambzXiEOBKow/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/nth_element.h:127: libc++ Hardening assertion __j != __first failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CHwBugDyar_yKw2i_0V7RBjGXyzambzXiEOBKow/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/nth_element.h:158: libc++ Hardening assertion __i != __last failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CHwBugDyar_yKw2i_0V7RBjGXyzambzXiEOBKow/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/nth_element.h:164: libc++ Hardening assertion __j != __first failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CHwBugDyar_yKw2i_0V7RBjGXyzambzXiEOBKow/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:293: libc++ Hardening assertion __k != __leftmost failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CHwBugDyar_yKw2i_0V7RBjGXyzambzXiEOBKow/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:603: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CHwBugDyar_yKw2i_0V7RBjGXyzambzXiEOBKow/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:615: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CHwBugDyar_yKw2i_0V7RBjGXyzambzXiEOBKow/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:633: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CHwBugDyar_yKw2i_0V7RBjGXyzambzXiEOBKow/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:638: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CHwBugDyar_yKw2i_0V7RBjGXyzambzXiEOBKow/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:669: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CHwBugDyar_yKw2i_0V7RBjGXyzambzXiEOBKow/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:682: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CHwBugDyar_yKw2i_0V7RBjGXyzambzXiEOBKow/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:692: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CHwBugDyar_yKw2i_0V7RBjGXyzambzXiEOBKow/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:697: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CHwBugDyar_yKw2i_0V7RBjGXyzambzXiEOBKow/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CHwBugDyar_yKw2i_0V7RBjGXyzambzXiEOBKow/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:486: libc++ Hardening assertion !empty() failed: vector::pop_back called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/4~CHwBugDyar_yKw2i_0V7RBjGXyzambzXiEOBKow/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:1522: libc++ Hardening assertion __i < size() failed: deque::operator[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CHwBugDyar_yKw2i_0V7RBjGXyzambzXiEOBKow/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:1553: libc++ Hardening assertion !empty() failed: deque::front called on an empty deque\n"
++ "/AppleInternal/Library/BuildRoots/4~CHwBugDyar_yKw2i_0V7RBjGXyzambzXiEOBKow/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:1559: libc++ Hardening assertion !empty() failed: deque::front called on an empty deque\n"
++ "/AppleInternal/Library/BuildRoots/4~CHwBugDyar_yKw2i_0V7RBjGXyzambzXiEOBKow/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:1565: libc++ Hardening assertion !empty() failed: deque::back called on an empty deque\n"
++ "/AppleInternal/Library/BuildRoots/4~CHwBugDyar_yKw2i_0V7RBjGXyzambzXiEOBKow/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:1572: libc++ Hardening assertion !empty() failed: deque::back called on an empty deque\n"
++ "/AppleInternal/Library/BuildRoots/4~CHwBugDyar_yKw2i_0V7RBjGXyzambzXiEOBKow/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:2296: libc++ Hardening assertion !empty() failed: deque::pop_front called on an empty deque\n"
++ "/AppleInternal/Library/BuildRoots/4~CHwBugDyar_yKw2i_0V7RBjGXyzambzXiEOBKow/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/list:1402: libc++ Hardening assertion !empty() failed: list::pop_front() called with empty list\n"
++ "/AppleInternal/Library/BuildRoots/4~CHwBugDyar_yKw2i_0V7RBjGXyzambzXiEOBKow/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/list:828: libc++ Hardening assertion !empty() failed: list::front called on empty list\n"
++ "/AppleInternal/Library/BuildRoots/4~CHwBugDyar_yKw2i_0V7RBjGXyzambzXiEOBKow/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/list:836: libc++ Hardening assertion !empty() failed: list::back called on empty list\n"
++ "/Library/Caches/com.apple.xbs/7839E0D2-42E8-43D8-B80E-47C3053BB2F9/TemporaryDirectory.JMHeRj/Sources/MacinTalk/Synthesizers/MacinTalk/Sources/MTFEFrame.cp"
++ "/Library/Caches/com.apple.xbs/7839E0D2-42E8-43D8-B80E-47C3053BB2F9/TemporaryDirectory.JMHeRj/Sources/MacinTalk/Synthesizers/MacinTalk/Sources/MTFEPOSResolver.cp"
++ "/Library/Caches/com.apple.xbs/7839E0D2-42E8-43D8-B80E-47C3053BB2F9/TemporaryDirectory.JMHeRj/Sources/MacinTalk/Synthesizers/MacinTalk/Sources/MTFEToBIPitch.cp"
++ "/Library/Caches/com.apple.xbs/7839E0D2-42E8-43D8-B80E-47C3053BB2F9/TemporaryDirectory.JMHeRj/Sources/MacinTalk/Synthesizers/MacinTalk/Sources/MTFrontend.cp"
++ "/Library/Caches/com.apple.xbs/7839E0D2-42E8-43D8-B80E-47C3053BB2F9/TemporaryDirectory.JMHeRj/Sources/MacinTalk/Synthesizers/MacinTalk/Sources/MTMBComponents.cp"
++ "/Library/Caches/com.apple.xbs/7839E0D2-42E8-43D8-B80E-47C3053BB2F9/TemporaryDirectory.JMHeRj/Sources/MacinTalk/Synthesizers/MacinTalk/Sources/MTMBDemi.cp"
++ "/Library/Caches/com.apple.xbs/7839E0D2-42E8-43D8-B80E-47C3053BB2F9/TemporaryDirectory.JMHeRj/Sources/MacinTalk/Synthesizers/MacinTalk/Sources/MTMBModRate.cp"
++ "/Library/Caches/com.apple.xbs/7839E0D2-42E8-43D8-B80E-47C3053BB2F9/TemporaryDirectory.JMHeRj/Sources/MacinTalk/Synthesizers/MacinTalk/Sources/MTMBSelectUnits.cp"
+- ", more to come"
+- "/Library/Caches/com.apple.xbs/Sources/MacinTalk/Synthesizers/MacinTalk/Sources/MTFEFrame.cp"
+- "/Library/Caches/com.apple.xbs/Sources/MacinTalk/Synthesizers/MacinTalk/Sources/MTFEPOSResolver.cp"
+- "/Library/Caches/com.apple.xbs/Sources/MacinTalk/Synthesizers/MacinTalk/Sources/MTFEToBIPitch.cp"
+- "/Library/Caches/com.apple.xbs/Sources/MacinTalk/Synthesizers/MacinTalk/Sources/MTFrontend.cp"
+- "/Library/Caches/com.apple.xbs/Sources/MacinTalk/Synthesizers/MacinTalk/Sources/MTMBComponents.cp"
+- "/Library/Caches/com.apple.xbs/Sources/MacinTalk/Synthesizers/MacinTalk/Sources/MTMBDemi.cp"
+- "/Library/Caches/com.apple.xbs/Sources/MacinTalk/Synthesizers/MacinTalk/Sources/MTMBModRate.cp"
+- "/Library/Caches/com.apple.xbs/Sources/MacinTalk/Synthesizers/MacinTalk/Sources/MTMBSelectUnits.cp"
+- "Baseline\n"
+- "Create Sound Channel %p\n"
+- "Cut %s at sample %ld\n"
+- "Disengaged from Audio File\n"
+- "ERROR: Couldn't find Remote IO component\n"
+- "ERROR: Failed to create remote IO unit\n"
+- "ERROR: Failed to set audio session ID\n"
+- "ERROR: Failed to set kAudioOutputUnitProperty_ChannelMap: %d\n"
+- "ERROR: Failed to set render callback\n"
+- "ERROR: Failed to set stream format\n"
+- "Failed to wrap audio file"
+- "Generated %d samples%s\n"
+- "MTX MTBERemoteIOSoundOutput Creating sound channel"
+- "MTX WaitForOutputToStop - Got the signal"
+- "MTX WaitForOutputToStop AvailableCapacity not increasing %lu"
+- "MTX Wakeup() Remote IO is already running"
+- "PP %s %f\n"
+- "Phrase has %ld samples\n"
+- "Sound Output Done %p\n"
+- "Sound output is not running. QueueSamples() returns false"
+- "Wrapped audio file.\n"
+
+```

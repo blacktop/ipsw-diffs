@@ -1,0 +1,979 @@
+## ActivitySharingDaemonCore
+
+> `/System/Library/PrivateFrameworks/ActivitySharingDaemonCore.framework/ActivitySharingDaemonCore`
+
+```diff
+
+-2026.3.2.0.0
+-  __TEXT.__text: 0x7ddc0
+-  __TEXT.__auth_stubs: 0xee0
+-  __TEXT.__objc_methlist: 0x45d4
++2026.4.6.0.0
++  __TEXT.__text: 0x76918
++  __TEXT.__auth_stubs: 0xe00
++  __TEXT.__objc_methlist: 0x3a9c
+   __TEXT.__const: 0x1d8
+-  __TEXT.__cstring: 0x2ffc
+-  __TEXT.__gcc_except_tab: 0x1004
+-  __TEXT.__oslogstring: 0xea47
+-  __TEXT.__unwind_info: 0x1be0
+-  __TEXT.__objc_classname: 0x9fd
+-  __TEXT.__objc_methname: 0x1151b
+-  __TEXT.__objc_methtype: 0x2b08
+-  __TEXT.__objc_stubs: 0xc700
+-  __DATA_CONST.__got: 0xa38
+-  __DATA_CONST.__const: 0x3b88
+-  __DATA_CONST.__objc_classlist: 0x1d0
++  __TEXT.__cstring: 0x2e1f
++  __TEXT.__gcc_except_tab: 0xedc
++  __TEXT.__oslogstring: 0xe177
++  __TEXT.__unwind_info: 0x1978
++  __TEXT.__objc_classname: 0x788
++  __TEXT.__objc_methname: 0x10399
++  __TEXT.__objc_methtype: 0x250f
++  __TEXT.__objc_stubs: 0xbb80
++  __DATA_CONST.__got: 0x988
++  __DATA_CONST.__const: 0x3750
++  __DATA_CONST.__objc_classlist: 0x158
+   __DATA_CONST.__objc_catlist: 0x18
+-  __DATA_CONST.__objc_protolist: 0x118
++  __DATA_CONST.__objc_protolist: 0xe0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x3810
+-  __DATA_CONST.__objc_protorefs: 0x18
+-  __DATA_CONST.__objc_superrefs: 0x140
+-  __DATA_CONST.__objc_arraydata: 0xf0
+-  __AUTH_CONST.__auth_got: 0x780
+-  __AUTH_CONST.__const: 0xdc0
+-  __AUTH_CONST.__cfstring: 0x1e40
+-  __AUTH_CONST.__objc_const: 0xdd08
++  __DATA_CONST.__objc_selrefs: 0x33f8
++  __DATA_CONST.__objc_superrefs: 0xf8
++  __DATA_CONST.__objc_arraydata: 0xe0
++  __AUTH_CONST.__auth_got: 0x710
++  __AUTH_CONST.__const: 0xd80
++  __AUTH_CONST.__cfstring: 0x1b80
++  __AUTH_CONST.__objc_const: 0xae20
++  __AUTH_CONST.__objc_arrayobj: 0x90
+   __AUTH_CONST.__objc_intobj: 0x1b0
+-  __AUTH_CONST.__objc_arrayobj: 0xc0
+   __AUTH_CONST.__objc_doubleobj: 0x80
+-  __AUTH.__objc_data: 0x5f0
+-  __DATA.__objc_ivar: 0x5dc
+-  __DATA.__data: 0xd20
++  __AUTH.__objc_data: 0x460
++  __DATA.__objc_ivar: 0x574
++  __DATA.__data: 0xa80
+   __DATA.__bss: 0x70
+-  __DATA_DIRTY.__objc_data: 0xc30
++  __DATA_DIRTY.__objc_data: 0x910
+   __DATA_DIRTY.__bss: 0xb8
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+
+   - /System/Library/PrivateFrameworks/ActivityAchievements.framework/ActivityAchievements
+   - /System/Library/PrivateFrameworks/ActivityAwardsClient.framework/ActivityAwardsClient
+   - /System/Library/PrivateFrameworks/ActivitySharing.framework/ActivitySharing
++  - /System/Library/PrivateFrameworks/ActivitySharingHealthDaemon.framework/ActivitySharingHealthDaemon
+   - /System/Library/PrivateFrameworks/ApplePushService.framework/ApplePushService
+   - /System/Library/PrivateFrameworks/BiomeStreams.framework/BiomeStreams
+   - /System/Library/PrivateFrameworks/CommunicationsFilter.framework/CommunicationsFilter
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 9EE47F30-99A7-3E9D-B706-E501D0CCDFE7
+-  Functions: 2366
+-  Symbols:   8822
+-  CStrings:  4225
++  UUID: F5819AE8-8FF1-399B-8857-1B58325E2A52
++  Functions: 2153
++  Symbols:   8044
++  CStrings:  3930
+ 
+Symbols:
++ -[ASActivityDataManager _queue_activitySnapshotsToPushWithYesterdaySnapshot:todaySnapshot:]
++ _OUTLINED_FUNCTION_10
++ _OUTLINED_FUNCTION_11
++ _OUTLINED_FUNCTION_12
++ _OUTLINED_FUNCTION_9
++ ___47-[ASPeriodicUpdateManager beginPeriodicUpdates]_block_invoke.306
++ ___47-[ASPeriodicUpdateManager beginPeriodicUpdates]_block_invoke.306.cold.1
++ ___47-[ASPeriodicUpdateManager beginPeriodicUpdates]_block_invoke.307
++ ___84-[ASPeriodicUpdateManager _queue_performUpdateForActivity:cloudKitGroup:completion:]_block_invoke.312
++ ___84-[ASPeriodicUpdateManager _queue_performUpdateForActivity:cloudKitGroup:completion:]_block_invoke.314
++ ___84-[ASPeriodicUpdateManager _queue_performUpdateForActivity:cloudKitGroup:completion:]_block_invoke.316
++ ___84-[ASPeriodicUpdateManager _queue_performUpdateForActivity:cloudKitGroup:completion:]_block_invoke.318
++ ___84-[ASPeriodicUpdateManager _queue_performUpdateForActivity:cloudKitGroup:completion:]_block_invoke.320
++ ___84-[ASPeriodicUpdateManager _queue_performUpdateForActivity:cloudKitGroup:completion:]_block_invoke_2.313
++ ___84-[ASPeriodicUpdateManager _queue_performUpdateForActivity:cloudKitGroup:completion:]_block_invoke_2.317
++ ___84-[ASPeriodicUpdateManager _queue_performUpdateForActivity:cloudKitGroup:completion:]_block_invoke_2.324
++ ___ASReconcileRelationshipsAgainstAddressBook_block_invoke.309
++ ___ASReconcileRelationshipsAgainstAddressBook_block_invoke.317
++ ___ASReconcileRelationshipsAgainstAddressBook_block_invoke_2.324
++ ___block_descriptor_112_e8_32s40r48r56r64r72r80r88r96r104r_e5_v8?0lr40l8s32l8r48l8r56l8r64l8r72l8r80l8r88l8r96l8r104l8
++ ___block_literal_global.312
++ ___block_literal_global.320
++ ___block_literal_global.331
++ ___block_literal_global.336
++ ___block_literal_global.346
++ ___block_literal_global.350
++ ___block_literal_global.352
++ ___block_literal_global.670
++ ___block_literal_global.673
++ _objc_msgSend$_queue_activitySnapshotsToPushWithYesterdaySnapshot:todaySnapshot:
++ _objc_msgSend$setSharingFriend:
++ _objc_msgSend$sharingFriend
+- +[ASActivitySharingProfileExtension activitySharingManagerForProfile:]
+- +[ASDatabaeCompetitionListEntryBulkDeletionJournalEntry applyEntries:withProfile:]
+- +[ASDatabaeCompetitionListEntryBulkDeletionJournalEntry applyEntries:withProfile:].cold.1
+- +[ASDatabaseCompetitionBulkDeletionJournalEntry applyEntries:withProfile:]
+- +[ASDatabaseCompetitionBulkDeletionJournalEntry applyEntries:withProfile:].cold.1
+- +[ASDatabaseCompetitionDeletionJournalEntry applyEntries:withProfile:]
+- +[ASDatabaseCompetitionDeletionJournalEntry applyEntries:withProfile:].cold.1
+- +[ASDatabaseCompetitionDeletionJournalEntry supportsSecureCoding]
+- +[ASDatabaseCompetitionEntity _competitionsWithPredicate:profile:error:]
+- +[ASDatabaseCompetitionEntity _insertCompetition:database:error:]
+- +[ASDatabaseCompetitionEntity _insertCompetitions:profile:error:]
+- +[ASDatabaseCompetitionEntity _insertCompetitions:profile:error:].cold.1
+- +[ASDatabaseCompetitionEntity allDatabaseCompetitionsWithProfile:withError:]
+- +[ASDatabaseCompetitionEntity columnDefinitionsWithCount:]
+- +[ASDatabaseCompetitionEntity databaseTable]
+- +[ASDatabaseCompetitionEntity entityEncoderForProfile:transaction:purpose:encodingOptions:authorizationFilter:]
+- +[ASDatabaseCompetitionEntity protectionClass]
+- +[ASDatabaseCompetitionEntity removeAllCompetitionsWithProfile:error:]
+- +[ASDatabaseCompetitionEntity removeAllCompetitionsWithProfile:error:].cold.1
+- +[ASDatabaseCompetitionEntity removeCompetitionsForFriendUUID:type:profile:withError:]
+- +[ASDatabaseCompetitionEntity saveCompetitions:profile:withError:]
+- +[ASDatabaseCompetitionEntity uniquedColumns]
+- +[ASDatabaseCompetitionJournalEntry applyEntries:withProfile:]
+- +[ASDatabaseCompetitionJournalEntry applyEntries:withProfile:].cold.1
+- +[ASDatabaseCompetitionJournalEntry supportsSecureCoding]
+- +[ASDatabaseCompetitionListEntryEntity _insertCompetitionList:database:error:]
+- +[ASDatabaseCompetitionListEntryEntity _insertCompetitionLists:profile:error:]
+- +[ASDatabaseCompetitionListEntryEntity _insertCompetitionLists:profile:error:].cold.1
+- +[ASDatabaseCompetitionListEntryEntity columnDefinitionsWithCount:]
+- +[ASDatabaseCompetitionListEntryEntity databaseTable]
+- +[ASDatabaseCompetitionListEntryEntity entityEncoderForProfile:transaction:purpose:encodingOptions:authorizationFilter:]
+- +[ASDatabaseCompetitionListEntryEntity enumerateAllCompetitionListsWithProfile:error:handler:]
+- +[ASDatabaseCompetitionListEntryEntity protectionClass]
+- +[ASDatabaseCompetitionListEntryEntity removeAllCompetitionListsWithProfile:error:]
+- +[ASDatabaseCompetitionListEntryEntity removeAllCompetitionListsWithProfile:error:].cold.1
+- +[ASDatabaseCompetitionListEntryEntity saveCompetitionList:profile:withError:]
+- +[ASDatabaseCompetitionListEntryEntity uniquedColumns]
+- +[ASDatabaseCompetitionListEntryJournalEntry applyEntries:withProfile:]
+- +[ASDatabaseCompetitionListEntryJournalEntry applyEntries:withProfile:].cold.1
+- +[ASDatabaseCompetitionListEntryJournalEntry supportsSecureCoding]
+- +[ASDatabaseServer requiredEntitlements]
+- +[ASDatabaseServer taskIdentifier]
+- +[ASFriendListQueryServer queryClass]
+- +[ASServer createTaskServerWithUUID:configuration:client:delegate:error:]
+- +[ASServer createTaskServerWithUUID:configuration:client:delegate:error:].cold.1
+- +[ASServer requiredEntitlements]
+- +[ASServer taskIdentifier]
+- -[ASActivityDataManager _activitySnapshotsToPushWithYesterdaySnapshot:todaySnapshot:]
+- -[ASActivitySharingProfileExtension .cxx_destruct]
+- -[ASActivitySharingProfileExtension activitySharingManager]
+- -[ASActivitySharingProfileExtension allFriends]
+- -[ASActivitySharingProfileExtension daemonReady:]
+- -[ASActivitySharingProfileExtension daemonWakeCoordinator]
+- -[ASActivitySharingProfileExtension database:protectedDataDidBecomeAvailable:]
+- -[ASActivitySharingProfileExtension databaseClient]
+- -[ASActivitySharingProfileExtension initWithProfile:]
+- -[ASActivitySharingProfileExtension profile]
+- -[ASActivitySharingProfileExtension setActivitySharingManager:]
+- -[ASActivitySharingProfileExtension setDaemonWakeCoordinator:]
+- -[ASActivitySharingProfileExtension setDatabaseClient:]
+- -[ASDaemonWakeCoordinator .cxx_destruct]
+- -[ASDaemonWakeCoordinator connection:didReceiveIncomingMessage:]
+- -[ASDaemonWakeCoordinator connection:didReceivePublicToken:]
+- -[ASDaemonWakeCoordinator connection:didReceiveToken:forTopic:identifier:]
+- -[ASDaemonWakeCoordinator currentActivitySummaryHelper:didUpdateTodayActivitySummary:changedFields:]
+- -[ASDaemonWakeCoordinator currentActivitySummaryHelper:didUpdateYesterdayActivitySummary:changedFields:]
+- -[ASDaemonWakeCoordinator dealloc]
+- -[ASDaemonWakeCoordinator initWithProfile:]
+- -[ASDaemonWakeCoordinator samplesAdded:anchor:]
+- -[ASDatabaseCompetitionDeletionJournalEntry .cxx_destruct]
+- -[ASDatabaseCompetitionDeletionJournalEntry encodeWithCoder:]
+- -[ASDatabaseCompetitionDeletionJournalEntry initWithCoder:]
+- -[ASDatabaseCompetitionDeletionJournalEntry initWithFriendUUID:type:]
+- -[ASDatabaseCompetitionJournalEntry .cxx_destruct]
+- -[ASDatabaseCompetitionJournalEntry databaseCompetition]
+- -[ASDatabaseCompetitionJournalEntry encodeWithCoder:]
+- -[ASDatabaseCompetitionJournalEntry initWithCoder:]
+- -[ASDatabaseCompetitionJournalEntry initWithDatabaseCompetition:]
+- -[ASDatabaseCompetitionListEntryEncoder applyPropertiesToObject:persistentID:row:error:]
+- -[ASDatabaseCompetitionListEntryEncoder codableRepresentationForPersistentID:row:error:]
+- -[ASDatabaseCompetitionListEntryEncoder objectForPersistentID:row:error:]
+- -[ASDatabaseCompetitionListEntryEncoder orderedProperties]
+- -[ASDatabaseCompetitionListEntryJournalEntry .cxx_destruct]
+- -[ASDatabaseCompetitionListEntryJournalEntry competitionList]
+- -[ASDatabaseCompetitionListEntryJournalEntry encodeWithCoder:]
+- -[ASDatabaseCompetitionListEntryJournalEntry initWithCoder:]
+- -[ASDatabaseCompetitionListEntryJournalEntry initWithCompetitionList:]
+- -[ASDatabaseServer .cxx_destruct]
+- -[ASDatabaseServer badgeCount]
+- -[ASDatabaseServer connectionInvalidated]
+- -[ASDatabaseServer daemonReady:]
+- -[ASDatabaseServer exportedInterface]
+- -[ASDatabaseServer initWithUUID:client:]
+- -[ASDatabaseServer initWithUUID:configuration:client:delegate:]
+- -[ASDatabaseServer remoteInterface]
+- -[ASDatabaseServer remote_activeDeviceUUIDWithCompletion:]
+- -[ASDatabaseServer remote_allCodableDatabaseCompetitionListEntriesWithCompletion:]
+- -[ASDatabaseServer remote_allCodableDatabaseCompetitionsWithCompletion:]
+- -[ASDatabaseServer remote_deletedHealthKitWorkoutsWithinLastNumberOfDays:maxBatchSize:anchor:completion:]
+- -[ASDatabaseServer remote_insertDataObjects:completion:]
+- -[ASDatabaseServer remote_isActivityAlertSuppressionEnabledWithCompletion:]
+- -[ASDatabaseServer remote_isDataProtectedByFirstUnlockAvailableWithCompletion:]
+- -[ASDatabaseServer remote_isProtectedDataAvailableWithCompletion:]
+- -[ASDatabaseServer remote_localSourceUUIDWithCompletion:]
+- -[ASDatabaseServer remote_performWhenDaemonReady:]
+- -[ASDatabaseServer remote_performWhenDataProtectedByFirstUnlockIsAvailable:]
+- -[ASDatabaseServer remote_registerFitnessAppBadgeProvider]
+- -[ASDatabaseServer remote_removeAllCodableDatabaseCompetitionListsWithCompletion:]
+- -[ASDatabaseServer remote_removeAllCodableDatabaseCompetitionsWithCompletion:]
+- -[ASDatabaseServer remote_removeCodableDatabaseCompetitionsWithFriendUUID:type:completion:]
+- -[ASDatabaseServer remote_saveCodableDatabaseCompetitionListEntry:completion:]
+- -[ASDatabaseServer remote_saveCodableDatabaseCompetitions:completion:]
+- -[ASDatabaseServer remote_todayActivitySummaryWithCompletion:]
+- -[ASDatabaseServer remote_updateFitnessAppBadgeCount:]
+- -[ASDatabaseServer remote_yesterdayActivitySummaryWithCompletion:]
+- -[ASDatabaseServer taskUUID]
+- -[ASDatabseCompetitionEncoder applyPropertiesToObject:persistentID:row:error:]
+- -[ASDatabseCompetitionEncoder codableRepresentationForPersistentID:row:error:]
+- -[ASDatabseCompetitionEncoder objectForPersistentID:row:error:]
+- -[ASDatabseCompetitionEncoder orderedProperties]
+- -[ASFriendListQueryServer .cxx_destruct]
+- -[ASFriendListQueryServer _activitySharingManagerProcessingStarted]
+- -[ASFriendListQueryServer _queue_activitySharingManagerProcessingStarted]
+- -[ASFriendListQueryServer _queue_activitySharingManagerProcessingStarted].cold.1
+- -[ASFriendListQueryServer _queue_start]
+- -[ASFriendListQueryServer _queue_stop]
+- -[ASFriendListQueryServer _shouldExecuteWhenProtectedDataIsUnavailable]
+- -[ASFriendListQueryServer _shouldListenForUpdates]
+- -[ASFriendListQueryServer activitySharingManager]
+- -[ASFriendListQueryServer friendListDidLoadCompetitions]
+- -[ASFriendListQueryServer friendListDidUpdate:]
+- -[ASFriendListQueryServer initWithUUID:configuration:client:delegate:]
+- -[ASFriendListQueryServer initWithUUID:configuration:client:delegate:].cold.1
+- -[ASFriendListQueryServer managerStartAction]
+- -[ASFriendListQueryServer setActivitySharingManager:]
+- -[ASFriendListQueryServer setManagerStartAction:]
+- -[ASServer .cxx_destruct]
+- -[ASServer connectionInvalidated]
+- -[ASServer exportedInterface]
+- -[ASServer initWithUUID:client:activitySharingManager:]
+- -[ASServer initWithUUID:configuration:client:delegate:]
+- -[ASServer remoteInterface]
+- -[ASServer remote_acceptCompetitionRequestFromFriendWithUUID:completion:]
+- -[ASServer remote_acceptInviteRequestFromFriendWithUUID:completion:]
+- -[ASServer remote_clearFriendListWithCompletion:]
+- -[ASServer remote_cloudKitAccountStatusWithCompletion:]
+- -[ASServer remote_completeCompetitionWithFriendWithUUID:completion:]
+- -[ASServer remote_expireChangeTokenWithCompletion:]
+- -[ASServer remote_fetchAllDataIfTimeSinceLastFetchIsGreaterThan:completion:]
+- -[ASServer remote_fetchAllDataWithCompletion:]
+- -[ASServer remote_fetchAllFriendsWithCompletion:]
+- -[ASServer remote_fetchAreMultipleDevicesSharingDataForSnapshotIndex:withCompletion:]
+- -[ASServer remote_friendWithRemoteUUID:completion:]
+- -[ASServer remote_handleNotificationResponse:completion:]
+- -[ASServer remote_ignoreCompetitionRequestFromFriendWithUUID:completion:]
+- -[ASServer remote_ignoreInviteRequestFromFriendWithUUID:completion:]
+- -[ASServer remote_pushActivityDataWithCompletion:]
+- -[ASServer remote_pushFakeActivityDataWithCompletion:]
+- -[ASServer remote_queryAppBadgeCountWithCompletion:]
+- -[ASServer remote_removeFriendWithUUID:completion:]
+- -[ASServer remote_sendCompetitionRequestToFriendWithUUID:completion:]
+- -[ASServer remote_sendInviteRequestToDestination:callerID:serviceIdentifier:completion:]
+- -[ASServer remote_sendWithdrawInviteRequestToFriendWithUUID:completion:]
+- -[ASServer remote_setActivityDataVisible:toFriendWithUUID:completion:]
+- -[ASServer remote_setMuteEnabled:forFriendWithUUID:completion:]
+- -[ASServer taskUUID]
+- -[ASXPCClient .cxx_destruct]
+- -[ASXPCClient dealloc]
+- -[ASXPCClient init]
+- -[ASXPCClient invalidate]
+- -[ASXPCClient launch]
+- _ASActivitySharingDaemonEnabled
+- _ASAllDatabaseCompetitionKeys
+- _ASAllDatabaseCompetitionListEntryKeys
+- _ASClientTaskIdentifier
+- _ASCompetitionCompetitionUUIDKey
+- _ASCompetitionCurrentCacheIndexKey
+- _ASCompetitionDurationDateComponentsKey
+- _ASCompetitionFriendUUIDKey
+- _ASCompetitionLastPushedCacheIndexKey
+- _ASCompetitionListCKSystemFieldsKey
+- _ASCompetitionListFriendUUIDKey
+- _ASCompetitionListOwnerKey
+- _ASCompetitionListTypeKey
+- _ASCompetitionMaximumNumberOfPointsPerDayKey
+- _ASCompetitionOpponentScoreKey
+- _ASCompetitionPredicateForFriendUUIDAndType
+- _ASCompetitionPreferredVictoryBadgeStylesKey
+- _ASCompetitionScoreKey
+- _ASCompetitionStartDateComponentsKey
+- _ASCompetitionTypeKey
+- _ASServerInterface
+- _HDSQLiteBindDataToProperty
+- _HDSQLiteBindInt64ToProperty
+- _HDSQLiteBindUUIDToProperty
+- _HDSQLiteColumnWithNameAsData
+- _HDSQLiteColumnWithNameAsInt64
+- _HDSQLiteColumnWithNameAsUUID
+- _OBJC_CLASS_$_ASActivitySharingProfileExtension
+- _OBJC_CLASS_$_ASCodableCloudKitCompetition
+- _OBJC_CLASS_$_ASCodableCloudKitDateComponents
+- _OBJC_CLASS_$_ASCodableDatabaseCompetition
+- _OBJC_CLASS_$_ASCodableDatabaseCompetitionListEntry
+- _OBJC_CLASS_$_ASCodableDatabaseCompetitionPreferredVictoryBadgeStyles
+- _OBJC_CLASS_$_ASCodableDatabaseCompetitionScore
+- _OBJC_CLASS_$_ASDaemonWakeCoordinator
+- _OBJC_CLASS_$_ASDatabaeCompetitionListEntryBulkDeletionJournalEntry
+- _OBJC_CLASS_$_ASDatabaseCompetitionBulkDeletionJournalEntry
+- _OBJC_CLASS_$_ASDatabaseCompetitionDeletionJournalEntry
+- _OBJC_CLASS_$_ASDatabaseCompetitionJournalEntry
+- _OBJC_CLASS_$_ASDatabaseCompetitionListEntryEncoder
+- _OBJC_CLASS_$_ASDatabaseCompetitionListEntryJournalEntry
+- _OBJC_CLASS_$_ASDatabaseServer
+- _OBJC_CLASS_$_ASDatabseCompetitionEncoder
+- _OBJC_CLASS_$_ASFriendListQuery
+- _OBJC_CLASS_$_ASFriendListQueryServer
+- _OBJC_CLASS_$_ASServer
+- _OBJC_CLASS_$_ASXPCClient
+- _OBJC_CLASS_$_HDDataEntity
+- _OBJC_CLASS_$_HDEntityEncoder
+- _OBJC_CLASS_$_HDJournalEntry
+- _OBJC_CLASS_$_HDQueryServer
+- _OBJC_CLASS_$_HKDeletedObject
+- _OBJC_CLASS_$_HKObject
+- _OBJC_CLASS_$_NSXPCConnection
+- _OBJC_CLASS_$_NSXPCInterface
+- _OBJC_IVAR_$_ASActivitySharingProfileExtension._activitySharingManager
+- _OBJC_IVAR_$_ASActivitySharingProfileExtension._daemonWakeCoordinator
+- _OBJC_IVAR_$_ASActivitySharingProfileExtension._databaseClient
+- _OBJC_IVAR_$_ASActivitySharingProfileExtension._profile
+- _OBJC_IVAR_$_ASDaemonWakeCoordinator._apsConnection
+- _OBJC_IVAR_$_ASDaemonWakeCoordinator._lastTodayActivitySummary
+- _OBJC_IVAR_$_ASDaemonWakeCoordinator._lastYesterdayActivitySummary
+- _OBJC_IVAR_$_ASDaemonWakeCoordinator._profile
+- _OBJC_IVAR_$_ASDaemonWakeCoordinator._xpcClient
+- _OBJC_IVAR_$_ASDatabaseCompetitionDeletionJournalEntry._friendUUID
+- _OBJC_IVAR_$_ASDatabaseCompetitionDeletionJournalEntry._type
+- _OBJC_IVAR_$_ASDatabaseCompetitionJournalEntry._databaseCompetition
+- _OBJC_IVAR_$_ASDatabaseCompetitionListEntryJournalEntry._competitionList
+- _OBJC_IVAR_$_ASDatabaseServer._client
+- _OBJC_IVAR_$_ASDatabaseServer._fitnessAppBadgeCount
+- _OBJC_IVAR_$_ASDatabaseServer._isDaemonReady
+- _OBJC_IVAR_$_ASDatabaseServer._queue_performWhenDaemonReadyBlocks
+- _OBJC_IVAR_$_ASDatabaseServer._serialQueue
+- _OBJC_IVAR_$_ASDatabaseServer._taskUUID
+- _OBJC_IVAR_$_ASFriendListQueryServer._activitySharingManager
+- _OBJC_IVAR_$_ASFriendListQueryServer._managerStartAction
+- _OBJC_IVAR_$_ASServer._activitySharingManager
+- _OBJC_IVAR_$_ASServer._client
+- _OBJC_IVAR_$_ASServer._serialQueue
+- _OBJC_IVAR_$_ASServer._taskUUID
+- _OBJC_IVAR_$_ASXPCClient._connection
+- _OBJC_METACLASS_$_ASActivitySharingProfileExtension
+- _OBJC_METACLASS_$_ASDaemonWakeCoordinator
+- _OBJC_METACLASS_$_ASDatabaeCompetitionListEntryBulkDeletionJournalEntry
+- _OBJC_METACLASS_$_ASDatabaseCompetitionBulkDeletionJournalEntry
+- _OBJC_METACLASS_$_ASDatabaseCompetitionDeletionJournalEntry
+- _OBJC_METACLASS_$_ASDatabaseCompetitionEntity
+- _OBJC_METACLASS_$_ASDatabaseCompetitionJournalEntry
+- _OBJC_METACLASS_$_ASDatabaseCompetitionListEntryEncoder
+- _OBJC_METACLASS_$_ASDatabaseCompetitionListEntryEntity
+- _OBJC_METACLASS_$_ASDatabaseCompetitionListEntryJournalEntry
+- _OBJC_METACLASS_$_ASDatabaseServer
+- _OBJC_METACLASS_$_ASDatabseCompetitionEncoder
+- _OBJC_METACLASS_$_ASFriendListQueryServer
+- _OBJC_METACLASS_$_ASServer
+- _OBJC_METACLASS_$_ASXPCClient
+- _OBJC_METACLASS_$_HDDataEntity
+- _OBJC_METACLASS_$_HDEntityEncoder
+- _OBJC_METACLASS_$_HDJournalEntry
+- _OBJC_METACLASS_$_HDQueryServer
+- __OBJC_$_CLASS_METHODS_ASActivitySharingProfileExtension
+- __OBJC_$_CLASS_METHODS_ASDatabaeCompetitionListEntryBulkDeletionJournalEntry
+- __OBJC_$_CLASS_METHODS_ASDatabaseCompetitionBulkDeletionJournalEntry
+- __OBJC_$_CLASS_METHODS_ASDatabaseCompetitionDeletionJournalEntry
+- __OBJC_$_CLASS_METHODS_ASDatabaseCompetitionEntity
+- __OBJC_$_CLASS_METHODS_ASDatabaseCompetitionJournalEntry
+- __OBJC_$_CLASS_METHODS_ASDatabaseCompetitionListEntryEntity
+- __OBJC_$_CLASS_METHODS_ASDatabaseCompetitionListEntryJournalEntry
+- __OBJC_$_CLASS_METHODS_ASDatabaseServer
+- __OBJC_$_CLASS_METHODS_ASFriendListQueryServer
+- __OBJC_$_CLASS_METHODS_ASServer
+- __OBJC_$_INSTANCE_METHODS_ASActivitySharingProfileExtension
+- __OBJC_$_INSTANCE_METHODS_ASDaemonWakeCoordinator
+- __OBJC_$_INSTANCE_METHODS_ASDatabaseCompetitionDeletionJournalEntry
+- __OBJC_$_INSTANCE_METHODS_ASDatabaseCompetitionJournalEntry
+- __OBJC_$_INSTANCE_METHODS_ASDatabaseCompetitionListEntryEncoder
+- __OBJC_$_INSTANCE_METHODS_ASDatabaseCompetitionListEntryJournalEntry
+- __OBJC_$_INSTANCE_METHODS_ASDatabaseServer
+- __OBJC_$_INSTANCE_METHODS_ASDatabseCompetitionEncoder
+- __OBJC_$_INSTANCE_METHODS_ASFriendListQueryServer
+- __OBJC_$_INSTANCE_METHODS_ASServer
+- __OBJC_$_INSTANCE_METHODS_ASXPCClient
+- __OBJC_$_INSTANCE_VARIABLES_ASActivitySharingProfileExtension
+- __OBJC_$_INSTANCE_VARIABLES_ASDaemonWakeCoordinator
+- __OBJC_$_INSTANCE_VARIABLES_ASDatabaseCompetitionDeletionJournalEntry
+- __OBJC_$_INSTANCE_VARIABLES_ASDatabaseCompetitionJournalEntry
+- __OBJC_$_INSTANCE_VARIABLES_ASDatabaseCompetitionListEntryJournalEntry
+- __OBJC_$_INSTANCE_VARIABLES_ASDatabaseServer
+- __OBJC_$_INSTANCE_VARIABLES_ASFriendListQueryServer
+- __OBJC_$_INSTANCE_VARIABLES_ASServer
+- __OBJC_$_INSTANCE_VARIABLES_ASXPCClient
+- __OBJC_$_PROP_LIST_ASActivitySharingProfileExtension
+- __OBJC_$_PROP_LIST_ASDaemonWakeCoordinator
+- __OBJC_$_PROP_LIST_ASDatabaseCompetitionJournalEntry
+- __OBJC_$_PROP_LIST_ASDatabaseCompetitionListEntryJournalEntry
+- __OBJC_$_PROP_LIST_ASDatabaseServer
+- __OBJC_$_PROP_LIST_ASFriendListQueryServer
+- __OBJC_$_PROP_LIST_ASServer
+- __OBJC_$_PROTOCOL_CLASS_METHODS_HDTaskServer
+- __OBJC_$_PROTOCOL_CLASS_METHODS_OPT_HDTaskServer
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_ASActivitySharingManagerProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_ASActivitySharingPluginInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_ASDatabaseServerInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_ASServerInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_ASXPCInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_HDTaskServer
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_HDProfileExtension
+- __OBJC_$_PROTOCOL_METHOD_TYPES_ASActivitySharingManagerProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_ASActivitySharingPluginInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_ASDatabaseServerInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_ASServerInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_ASXPCInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_HDProfileExtension
+- __OBJC_$_PROTOCOL_METHOD_TYPES_HDTaskServer
+- __OBJC_$_PROTOCOL_REFS_ASActivitySharingPluginInterface
+- __OBJC_$_PROTOCOL_REFS_ASDatabaseServerInterface
+- __OBJC_$_PROTOCOL_REFS_ASServerInterface
+- __OBJC_$_PROTOCOL_REFS_ASXPCInterface
+- __OBJC_$_PROTOCOL_REFS_HDProfileExtension
+- __OBJC_$_PROTOCOL_REFS_HDTaskServer
+- __OBJC_CLASS_PROTOCOLS_$_ASActivitySharingProfileExtension
+- __OBJC_CLASS_PROTOCOLS_$_ASDaemonWakeCoordinator
+- __OBJC_CLASS_PROTOCOLS_$_ASDatabaseServer
+- __OBJC_CLASS_PROTOCOLS_$_ASFriendListQueryServer
+- __OBJC_CLASS_PROTOCOLS_$_ASServer
+- __OBJC_CLASS_RO_$_ASActivitySharingProfileExtension
+- __OBJC_CLASS_RO_$_ASDaemonWakeCoordinator
+- __OBJC_CLASS_RO_$_ASDatabaeCompetitionListEntryBulkDeletionJournalEntry
+- __OBJC_CLASS_RO_$_ASDatabaseCompetitionBulkDeletionJournalEntry
+- __OBJC_CLASS_RO_$_ASDatabaseCompetitionDeletionJournalEntry
+- __OBJC_CLASS_RO_$_ASDatabaseCompetitionEntity
+- __OBJC_CLASS_RO_$_ASDatabaseCompetitionJournalEntry
+- __OBJC_CLASS_RO_$_ASDatabaseCompetitionListEntryEncoder
+- __OBJC_CLASS_RO_$_ASDatabaseCompetitionListEntryEntity
+- __OBJC_CLASS_RO_$_ASDatabaseCompetitionListEntryJournalEntry
+- __OBJC_CLASS_RO_$_ASDatabaseServer
+- __OBJC_CLASS_RO_$_ASDatabseCompetitionEncoder
+- __OBJC_CLASS_RO_$_ASFriendListQueryServer
+- __OBJC_CLASS_RO_$_ASServer
+- __OBJC_CLASS_RO_$_ASXPCClient
+- __OBJC_LABEL_PROTOCOL_$_ASActivitySharingManagerProvider
+- __OBJC_LABEL_PROTOCOL_$_ASActivitySharingPluginInterface
+- __OBJC_LABEL_PROTOCOL_$_ASDatabaseServerInterface
+- __OBJC_LABEL_PROTOCOL_$_ASServerInterface
+- __OBJC_LABEL_PROTOCOL_$_ASXPCInterface
+- __OBJC_LABEL_PROTOCOL_$_HDProfileExtension
+- __OBJC_LABEL_PROTOCOL_$_HDTaskServer
+- __OBJC_METACLASS_RO_$_ASActivitySharingProfileExtension
+- __OBJC_METACLASS_RO_$_ASDaemonWakeCoordinator
+- __OBJC_METACLASS_RO_$_ASDatabaeCompetitionListEntryBulkDeletionJournalEntry
+- __OBJC_METACLASS_RO_$_ASDatabaseCompetitionBulkDeletionJournalEntry
+- __OBJC_METACLASS_RO_$_ASDatabaseCompetitionDeletionJournalEntry
+- __OBJC_METACLASS_RO_$_ASDatabaseCompetitionEntity
+- __OBJC_METACLASS_RO_$_ASDatabaseCompetitionJournalEntry
+- __OBJC_METACLASS_RO_$_ASDatabaseCompetitionListEntryEncoder
+- __OBJC_METACLASS_RO_$_ASDatabaseCompetitionListEntryEntity
+- __OBJC_METACLASS_RO_$_ASDatabaseCompetitionListEntryJournalEntry
+- __OBJC_METACLASS_RO_$_ASDatabaseServer
+- __OBJC_METACLASS_RO_$_ASDatabseCompetitionEncoder
+- __OBJC_METACLASS_RO_$_ASFriendListQueryServer
+- __OBJC_METACLASS_RO_$_ASServer
+- __OBJC_METACLASS_RO_$_ASXPCClient
+- __OBJC_PROTOCOL_$_ASActivitySharingManagerProvider
+- __OBJC_PROTOCOL_$_ASActivitySharingPluginInterface
+- __OBJC_PROTOCOL_$_ASDatabaseServerInterface
+- __OBJC_PROTOCOL_$_ASServerInterface
+- __OBJC_PROTOCOL_$_ASXPCInterface
+- __OBJC_PROTOCOL_$_HDProfileExtension
+- __OBJC_PROTOCOL_$_HDTaskServer
+- __OBJC_PROTOCOL_REFERENCE_$_ASActivitySharingManagerProvider
+- __OBJC_PROTOCOL_REFERENCE_$_ASDatabaseServerInterface
+- __OBJC_PROTOCOL_REFERENCE_$_ASXPCInterface
+- __SanitizedBoolCompletion
+- __SanitizedError
+- __SanitizedSuccessCompletion
+- ___105-[ASDatabaseServer remote_deletedHealthKitWorkoutsWithinLastNumberOfDays:maxBatchSize:anchor:completion:]_block_invoke
+- ___19-[ASXPCClient init]_block_invoke
+- ___19-[ASXPCClient init]_block_invoke.340
+- ___33-[ASServer connectionInvalidated]_block_invoke
+- ___41-[ASDatabaseServer connectionInvalidated]_block_invoke
+- ___47-[ASDaemonWakeCoordinator samplesAdded:anchor:]_block_invoke
+- ___47-[ASPeriodicUpdateManager beginPeriodicUpdates]_block_invoke.309
+- ___47-[ASPeriodicUpdateManager beginPeriodicUpdates]_block_invoke.309.cold.1
+- ___47-[ASPeriodicUpdateManager beginPeriodicUpdates]_block_invoke.310
+- ___50-[ASDatabaseServer remote_performWhenDaemonReady:]_block_invoke
+- ___62+[ASDatabaseCompetitionJournalEntry applyEntries:withProfile:]_block_invoke
+- ___62+[ASDatabaseCompetitionJournalEntry applyEntries:withProfile:]_block_invoke_2
+- ___65+[ASDatabaseCompetitionEntity _insertCompetition:database:error:]_block_invoke
+- ___65+[ASDatabaseCompetitionEntity _insertCompetitions:profile:error:]_block_invoke
+- ___65+[ASDatabaseCompetitionEntity _insertCompetitions:profile:error:]_block_invoke_2
+- ___67-[ASFriendListQueryServer _activitySharingManagerProcessingStarted]_block_invoke
+- ___70+[ASDatabaseCompetitionDeletionJournalEntry applyEntries:withProfile:]_block_invoke
+- ___70+[ASDatabaseCompetitionDeletionJournalEntry applyEntries:withProfile:]_block_invoke_2
+- ___70+[ASDatabaseCompetitionEntity removeAllCompetitionsWithProfile:error:]_block_invoke
+- ___70+[ASDatabaseCompetitionEntity removeAllCompetitionsWithProfile:error:]_block_invoke_2
+- ___71+[ASDatabaseCompetitionListEntryJournalEntry applyEntries:withProfile:]_block_invoke
+- ___71+[ASDatabaseCompetitionListEntryJournalEntry applyEntries:withProfile:]_block_invoke_2
+- ___72+[ASDatabaseCompetitionEntity _competitionsWithPredicate:profile:error:]_block_invoke
+- ___72+[ASDatabaseCompetitionEntity _competitionsWithPredicate:profile:error:]_block_invoke_2
+- ___72+[ASDatabaseCompetitionEntity _competitionsWithPredicate:profile:error:]_block_invoke_2.cold.1
+- ___74+[ASDatabaseCompetitionBulkDeletionJournalEntry applyEntries:withProfile:]_block_invoke
+- ___74+[ASDatabaseCompetitionBulkDeletionJournalEntry applyEntries:withProfile:]_block_invoke_2
+- ___78+[ASDatabaseCompetitionListEntryEntity _insertCompetitionList:database:error:]_block_invoke
+- ___78+[ASDatabaseCompetitionListEntryEntity _insertCompetitionLists:profile:error:]_block_invoke
+- ___78+[ASDatabaseCompetitionListEntryEntity _insertCompetitionLists:profile:error:]_block_invoke_2
+- ___82+[ASDatabaeCompetitionListEntryBulkDeletionJournalEntry applyEntries:withProfile:]_block_invoke
+- ___82+[ASDatabaeCompetitionListEntryBulkDeletionJournalEntry applyEntries:withProfile:]_block_invoke_2
+- ___82-[ASDatabaseServer remote_allCodableDatabaseCompetitionListEntriesWithCompletion:]_block_invoke
+- ___83+[ASDatabaseCompetitionListEntryEntity removeAllCompetitionListsWithProfile:error:]_block_invoke
+- ___83+[ASDatabaseCompetitionListEntryEntity removeAllCompetitionListsWithProfile:error:]_block_invoke_2
+- ___84-[ASPeriodicUpdateManager _queue_performUpdateForActivity:cloudKitGroup:completion:]_block_invoke.315
+- ___84-[ASPeriodicUpdateManager _queue_performUpdateForActivity:cloudKitGroup:completion:]_block_invoke.317
+- ___84-[ASPeriodicUpdateManager _queue_performUpdateForActivity:cloudKitGroup:completion:]_block_invoke.324
+- ___84-[ASPeriodicUpdateManager _queue_performUpdateForActivity:cloudKitGroup:completion:]_block_invoke.326
+- ___84-[ASPeriodicUpdateManager _queue_performUpdateForActivity:cloudKitGroup:completion:]_block_invoke.328
+- ___84-[ASPeriodicUpdateManager _queue_performUpdateForActivity:cloudKitGroup:completion:]_block_invoke_2.316
+- ___84-[ASPeriodicUpdateManager _queue_performUpdateForActivity:cloudKitGroup:completion:]_block_invoke_2.320
+- ___84-[ASPeriodicUpdateManager _queue_performUpdateForActivity:cloudKitGroup:completion:]_block_invoke_2.327
+- ___86+[ASDatabaseCompetitionEntity removeCompetitionsForFriendUUID:type:profile:withError:]_block_invoke
+- ___86+[ASDatabaseCompetitionEntity removeCompetitionsForFriendUUID:type:profile:withError:]_block_invoke_2
+- ___94+[ASDatabaseCompetitionListEntryEntity enumerateAllCompetitionListsWithProfile:error:handler:]_block_invoke
+- ___94+[ASDatabaseCompetitionListEntryEntity enumerateAllCompetitionListsWithProfile:error:handler:]_block_invoke_2
+- ___94+[ASDatabaseCompetitionListEntryEntity enumerateAllCompetitionListsWithProfile:error:handler:]_block_invoke_2.cold.1
+- ___ASReconcileRelationshipsAgainstAddressBook_block_invoke.312
+- ___ASReconcileRelationshipsAgainstAddressBook_block_invoke.320
+- ___ASReconcileRelationshipsAgainstAddressBook_block_invoke_2.327
+- ____SanitizedBoolCompletion_block_invoke
+- ____SanitizedSuccessCompletion_block_invoke
+- ___block_descriptor_32_e18_B16?0"HKSample"8l
+- ___block_descriptor_40_e8_32bs_e23_v24?0B8B12"NSError"16ls32l8
+- ___block_descriptor_40_e8_32s_e21_B24?0"NSError"8^16ls32l8
+- ___block_descriptor_40_e8_32s_e34_v16?0^{HDSQLiteStatementBinder=}8ls32l8
+- ___block_descriptor_40_e8_32s_e35_B24?0"HDDatabaseTransaction"8^16ls32l8
+- ___block_descriptor_48_e8_32s40bs_e41_B40?0q8"NSArray"16^{HDSQLiteRow=}24^32ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e21_B24?0"NSError"8^16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e35_B24?0"HDDatabaseTransaction"8^16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e41_B40?0q8"NSArray"16^{HDSQLiteRow=}24^32ls32l8s40l8
+- ___block_descriptor_48_e8_32s_e35_B24?0"HDDatabaseTransaction"8^16ls32l8
+- ___block_descriptor_56_e8_32s40bs_e35_B24?0"HDDatabaseTransaction"8^16ls32l8s40l8
+- ___block_descriptor_56_e8_32s40s_e21_B24?0"NSError"8^16ls32l8s40l8
+- ___block_descriptor_64_e8_32s40s48s_e35_B24?0"HDDatabaseTransaction"8^16ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s_e35_B24?0"HDDatabaseTransaction"8^16ls32l8s40l8
+- ___block_descriptor_88_e8_32s40r48r56r64r72r80r_e5_v8?0lr40l8s32l8r48l8r56l8r64l8r72l8r80l8
+- ___block_literal_global.323
+- ___block_literal_global.334
+- ___block_literal_global.339
+- ___block_literal_global.344
+- ___block_literal_global.349
+- ___block_literal_global.353
+- ___block_literal_global.355
+- ___block_literal_global.668
+- ___block_literal_global.671
+- _columnDefinitionsWithCount:.columnDefinitions
+- _kASActivitySharingPluginDatabaseCompetitionListsTableName
+- _kASActivitySharingPluginDatabaseCompetitionsTableName
+- _kASActivitySharingPluginDatabaseSchemaName
+- _kASPluginIdentifier
+- _kASXPCMachServiceName
+- _objc_claimAutoreleasedReturnValue
+- _objc_msgSend$_activitySnapshotsToPushWithYesterdaySnapshot:todaySnapshot:
+- _objc_msgSend$_competitionsWithPredicate:profile:error:
+- _objc_msgSend$_insertCompetition:database:error:
+- _objc_msgSend$_insertCompetitionList:database:error:
+- _objc_msgSend$_insertCompetitionLists:profile:error:
+- _objc_msgSend$_insertCompetitions:profile:error:
+- _objc_msgSend$_queue_activitySharingManagerProcessingStarted
+- _objc_msgSend$_setEnabledTopics:
+- _objc_msgSend$activeEnergyBurned
+- _objc_msgSend$activitySharingManager
+- _objc_msgSend$activitySharingManagerForProfile:
+- _objc_msgSend$addFriendListObserver:
+- _objc_msgSend$addJournalEntries:error:
+- _objc_msgSend$addJournalEntry:error:
+- _objc_msgSend$allFriends
+- _objc_msgSend$appleExerciseTime
+- _objc_msgSend$appleMoveTime
+- _objc_msgSend$appleMoveTimeGoal
+- _objc_msgSend$appleStandHours
+- _objc_msgSend$applyPropertiesToObject:persistentID:row:error:
+- _objc_msgSend$behavior
+- _objc_msgSend$clientProxy
+- _objc_msgSend$client_deliverFriendList:queryUUID:
+- _objc_msgSend$cloudKitAccountStatusWithCompletion:
+- _objc_msgSend$competition
+- _objc_msgSend$competitionList
+- _objc_msgSend$connection
+- _objc_msgSend$databaseCompetition
+- _objc_msgSend$databaseForEntityClass:
+- _objc_msgSend$decodeIntegerForKey:
+- _objc_msgSend$deleteEntitiesWithPredicate:healthDatabase:error:
+- _objc_msgSend$doubleValueForUnit:
+- _objc_msgSend$encodeInteger:forKey:
+- _objc_msgSend$encodeObject:forKey:
+- _objc_msgSend$entityEncoderForProfile:transaction:purpose:encodingOptions:authorizationFilter:
+- _objc_msgSend$enumeratePersistentIDsAndProperties:error:enumerationHandler:
+- _objc_msgSend$enumerateProperties:withPredicate:healthDatabase:error:enumerationHandler:
+- _objc_msgSend$fetchAllDataIfTimeSinceLastFetchIsGreaterThan:completion:
+- _objc_msgSend$fetchAllDataWithCompletion:
+- _objc_msgSend$fetchFriendWithRemoteUUID:completion:
+- _objc_msgSend$friend
+- _objc_msgSend$hk_UUIDWithData:
+- _objc_msgSend$hk_containsObjectPassingTest:
+- _objc_msgSend$hk_dataForUUIDBytes
+- _objc_msgSend$initWithCompetitionList:
+- _objc_msgSend$initWithDatabaseCompetition:
+- _objc_msgSend$initWithHealthEntityClass:profile:transaction:purpose:encodingOptions:authorizationFilter:
+- _objc_msgSend$initWithMachServiceName:options:
+- _objc_msgSend$initWithProfile:
+- _objc_msgSend$initWithUUID:client:
+- _objc_msgSend$initWithUUID:client:activitySharingManager:
+- _objc_msgSend$insertOrReplaceEntity:database:properties:error:bindingHandler:
+- _objc_msgSend$interfaceWithProtocol:
+- _objc_msgSend$isAppleWatch
+- _objc_msgSend$launch
+- _objc_msgSend$managerStartAction
+- _objc_msgSend$objectForPersistentID:row:error:
+- _objc_msgSend$onQueue:
+- _objc_msgSend$opponentScoresCount
+- _objc_msgSend$orderedProperties
+- _objc_msgSend$performReadTransactionWithHealthDatabase:error:block:
+- _objc_msgSend$postNotificationName:object:userInfo:
+- _objc_msgSend$predicateWithProperty:equalToValue:
+- _objc_msgSend$preferredVictoryBadgeStylesCount
+- _objc_msgSend$profile
+- _objc_msgSend$profileExtensionWithIdentifier:
+- _objc_msgSend$profileExtensionsConformingToProtocol:
+- _objc_msgSend$pushActivityDataToAllFriendsWithCompletion:
+- _objc_msgSend$queryUUID
+- _objc_msgSend$queryWithDatabase:predicate:
+- _objc_msgSend$registerForDaemonReady:
+- _objc_msgSend$remoteObjectProxy
+- _objc_msgSend$removeFriendListObserver:
+- _objc_msgSend$resume
+- _objc_msgSend$scoresCount
+- _objc_msgSend$sendInviteRequestToDestination:callerID:serviceIdentifier:completion:
+- _objc_msgSend$setClasses:forSelector:argumentIndex:ofReply:
+- _objc_msgSend$setCompetition:
+- _objc_msgSend$setExportedObject:
+- _objc_msgSend$setFriend:
+- _objc_msgSend$setInterruptionHandler:
+- _objc_msgSend$setInvalidationHandler:
+- _objc_msgSend$setManagerStartAction:
+- _objc_msgSend$setOpponentScores:count:
+- _objc_msgSend$setOwner:
+- _objc_msgSend$setPreferredVictoryBadgeStyles:count:
+- _objc_msgSend$setRemoteObjectInterface:
+- _objc_msgSend$setScores:count:
+- _objc_msgSend$setStyles:count:
+- _objc_msgSend$setSystemFieldsOnlyRecord:
+- _objc_msgSend$setUuid:
+- _objc_msgSend$setWithObjects:
+- _objc_msgSend$styles
+- _objc_msgSend$stylesCount
+- _objc_msgSend$uuid
+- _objc_release_x2
+- _objc_retainAutoreleaseReturnValue
+- _objc_retain_x10
+- _objc_retain_x4
+- _objc_retain_x6
+- _objc_retain_x7
+- _objc_retain_x9
+CStrings:
++ "_queue_activitySnapshotsToPushWithYesterdaySnapshot:todaySnapshot:"
++ "samplesMapWereRemoved:anchor:"
++ "setSharingFriend:"
++ "sharingFriend"
++ "v32@0:8@\"NSDictionary\"16@\"NSNumber\"24"
+- "-[ASDatabaseServer daemonReady:]"
+- "@\"<HDTaskServer>\"56@0:8@\"NSUUID\"16@\"HKTaskConfiguration\"24@\"HDHealthStoreClient\"32@\"<HDTaskServerDelegate>\"40^@48"
+- "@\"ASActivitySharingManager\"16@0:8"
+- "@\"ASCodableDatabaseCompetition\""
+- "@\"ASCodableDatabaseCompetitionListEntry\""
+- "@\"ASDaemonWakeCoordinator\""
+- "@\"ASXPCClient\""
+- "@\"HDHealthStoreClient\""
+- "@\"NSUUID\""
+- "@\"NSUUID\"16@0:8"
+- "@\"NSXPCConnection\""
+- "@\"NSXPCListenerEndpoint\"32@0:8@\"HDXPCClient\"16^@24"
+- "@32@0:8@16^@24"
+- "@40@0:8q16^{HDSQLiteRow=}24^@32"
+- "@48@0:8@\"NSUUID\"16@\"HKTaskConfiguration\"24@\"HDHealthStoreClient\"32@\"<HDTaskServerDelegate>\"40"
+- "@56@0:8@16@24@32@40^@48"
+- "@56@0:8@16@24q32@40@?48"
+- "ASActivitySharingManager not found"
+- "ASActivitySharingManagerProvider"
+- "ASActivitySharingPluginInterface"
+- "ASActivitySharingProfileExtension"
+- "ASDaemonWakeCoordinator"
+- "ASDaemonWakeCoordinator APS push received: %@ %@"
+- "ASDaemonWakeCoordinator all goals completed for today"
+- "ASDaemonWakeCoordinator all goals completed for yesterday"
+- "ASDaemonWakeCoordinator couldn't create APS push connection"
+- "ASDaemonWakeCoordinator created APS connection %p"
+- "ASDaemonWakeCoordinator received per-topic push token \"%@\" for topic \"%{public}@\" identifier \"%@\" on connection %p"
+- "ASDaemonWakeCoordinator received public token \"%@\" on connection %p"
+- "ASDaemonWakeCoordinator received workout sample"
+- "ASDaemonWakeCoordinator today summary changed"
+- "ASDaemonWakeCoordinator yesterday summary changed"
+- "ASDatabaeCompetitionListEntryBulkDeletionJournalEntry"
+- "ASDatabaseCompetitionBulkDeletionJournalEntry"
+- "ASDatabaseCompetitionDeletionJournalEntry"
+- "ASDatabaseCompetitionEntity"
+- "ASDatabaseCompetitionJournalEntry"
+- "ASDatabaseCompetitionListEntryEncoder"
+- "ASDatabaseCompetitionListEntryEntity"
+- "ASDatabaseCompetitionListEntryJournalEntry"
+- "ASDatabaseServer"
+- "ASDatabaseServerInterface"
+- "ASDatabseCompetitionEncoder"
+- "ASFriendListQueryServer"
+- "ASFriendListQueryServer calling deliverFriendList with %lu friends"
+- "ASFriendListQueryServer: Activity sharing manager posted it started, but is not reporting it's started"
+- "ASFriendListQueryServer: Activity sharing manager started, but no queries enabled"
+- "ASFriendListQueryServer: Adding friend list observer after activity sharing manager started"
+- "ASFriendListQueryServer: Failed to find ASActivitySharingManagerProvider."
+- "ASFriendListQueryServer: Manager processing started"
+- "ASFriendListQueryServer: Removing friend list observer after activity sharing manager started"
+- "ASFriendListQueryServer: Starting."
+- "ASFriendListQueryServer: Stopping."
+- "ASFriendListQueryServer: Waiting for processing to start for add"
+- "ASFriendListQueryServer: Waiting for processing to start for remove"
+- "ASServer"
+- "ASServerInterface"
+- "ASXPCClient"
+- "ASXPCClient connection interrupted"
+- "ASXPCClient connection invalidated"
+- "ASXPCClient launching server %@"
+- "ASXPCInterface"
+- "B16@?0@\"HKSample\"8"
+- "B32@0:8@\"HDHealthStoreClient\"16^@24"
+- "B40@0:8@\"HKTaskConfiguration\"16@\"HDHealthStoreClient\"24^@32"
+- "B40@0:8@16@24^@32"
+- "B40@?0q8@\"NSArray\"16^{HDSQLiteRow=}24^@32"
+- "B48@0:8@16q24@32^@40"
+- "B48@0:8@16q24^{HDSQLiteRow=}32^@40"
+- "BLOB"
+- "Error applying journal delete for all competitions %@: %{public}@"
+- "Error applying journal deletes for all competition lists %@: %{public}@"
+- "Error applying journal deletes for competitions %@: %{public}@"
+- "Error inserting competition lists %{public}@: %{public}@"
+- "Error inserting competitions %{public}@: %{public}@"
+- "Error inserting journaled competition lists %@: %{public}@"
+- "Error inserting journaled competitions %@: %{public}@"
+- "Error instantiating database competition lists during database retrieval: %{public}@"
+- "Error instantiating database competitions during database retrieval: %{public}@"
+- "Error removing competition %{public}@/%ld: %{public}@"
+- "Error removing competitions: %{public}@"
+- "HDProfileExtension"
+- "HDTaskServer"
+- "INTEGER"
+- "INTEGER PRIMARY KEY"
+- "T@\"ASActivitySharingManager\",&,N,V_activitySharingManager"
+- "T@\"ASCodableDatabaseCompetition\",R,N,V_databaseCompetition"
+- "T@\"ASCodableDatabaseCompetitionListEntry\",R,N,V_competitionList"
+- "T@\"ASDaemonWakeCoordinator\",&,N,V_daemonWakeCoordinator"
+- "T@\"HDProfile\",R,W,N,V_profile"
+- "Tq,N,V_managerStartAction"
+- "[%@] Activity Sharing profile extension instantiated; daemon enabled %d"
+- "_activitySharingManagerProcessingStarted"
+- "_activitySnapshotsToPushWithYesterdaySnapshot:todaySnapshot:"
+- "_client"
+- "_competitionList"
+- "_competitionsWithPredicate:profile:error:"
+- "_connection"
+- "_daemonWakeCoordinator"
+- "_databaseCompetition"
+- "_insertCompetition:database:error:"
+- "_insertCompetitionList:database:error:"
+- "_insertCompetitionLists:profile:error:"
+- "_insertCompetitions:profile:error:"
+- "_lastTodayActivitySummary"
+- "_lastYesterdayActivitySummary"
+- "_managerStartAction"
+- "_queue_activitySharingManagerProcessingStarted"
+- "_queue_start"
+- "_queue_stop"
+- "_setEnabledTopics:"
+- "_shouldExecuteWhenProtectedDataIsUnavailable"
+- "_shouldListenForUpdates"
+- "_taskUUID"
+- "_xpcClient"
+- "activeEnergyBurned"
+- "activitySharingManagerForProfile:"
+- "addJournalEntries:error:"
+- "addJournalEntry:error:"
+- "appleExerciseTime"
+- "appleMoveTime"
+- "appleMoveTimeGoal"
+- "appleStandHours"
+- "applyEntries:withProfile:"
+- "applyPropertiesToObject:persistentID:row:error:"
+- "behavior"
+- "clientProxy"
+- "client_deliverFriendList:queryUUID:"
+- "codableRepresentationForPersistentID:row:error:"
+- "columnDefinitionsWithCount:"
+- "com.apple.private.healthkit"
+- "competition"
+- "competitionList"
+- "competition_list"
+- "competition_type"
+- "competition_uuid"
+- "configurationClass"
+- "connection"
+- "createTaskServerWithUUID:configuration:client:delegate:error:"
+- "current_cache_index"
+- "daemonWakeCoordinator"
+- "data_id"
+- "databaseCompetition"
+- "databaseForEntityClass:"
+- "databaseTable"
+- "decodeIntegerForKey:"
+- "deleteEntitiesWithPredicate:healthDatabase:error:"
+- "doubleValueForUnit:"
+- "duration_date_components"
+- "encodeInteger:forKey:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "entityEncoderForProfile:transaction:purpose:encodingOptions:authorizationFilter:"
+- "enumeratePersistentIDsAndProperties:error:enumerationHandler:"
+- "enumerateProperties:withPredicate:healthDatabase:error:enumerationHandler:"
+- "friend"
+- "friend_uuid"
+- "hk_UUIDWithData:"
+- "hk_containsObjectPassingTest:"
+- "hk_dataForUUIDBytes"
+- "initWithCoder:"
+- "initWithCompetitionList:"
+- "initWithDatabaseCompetition:"
+- "initWithHealthEntityClass:profile:transaction:purpose:encodingOptions:authorizationFilter:"
+- "initWithMachServiceName:options:"
+- "initWithUUID:client:"
+- "initWithUUID:client:activitySharingManager:"
+- "initWithUUID:configuration:client:delegate:"
+- "insertOrReplaceEntity:database:properties:error:bindingHandler:"
+- "interfaceWithProtocol:"
+- "invalidateAndWait"
+- "isAppleWatch"
+- "last_pushed_cache_index"
+- "launch"
+- "listenerEndpointForClient:error:"
+- "managerStartAction"
+- "maximum_points_per_day"
+- "objectForPersistentID:row:error:"
+- "onQueue:"
+- "opponentScoresCount"
+- "opponent_scores"
+- "orderedProperties"
+- "performReadTransactionWithHealthDatabase:error:block:"
+- "postNotificationName:object:userInfo:"
+- "predicateWithProperty:equalToValue:"
+- "preferredVictoryBadgeStylesCount"
+- "preferred_victory_badge_styles"
+- "prepareForObliteration"
+- "profile"
+- "profileExtensionWithIdentifier:"
+- "profileExtensionsConformingToProtocol:"
+- "protectionClass"
+- "queryClass"
+- "queryUUID"
+- "queryWithDatabase:predicate:"
+- "r^{?=@@C}24@0:8^Q16"
+- "registerForDaemonReady:"
+- "remoteObjectProxy"
+- "remote_acceptCompetitionRequestFromFriendWithUUID:completion:"
+- "remote_acceptInviteRequestFromFriendWithUUID:completion:"
+- "remote_clearFriendListWithCompletion:"
+- "remote_cloudKitAccountStatusWithCompletion:"
+- "remote_completeCompetitionWithFriendWithUUID:completion:"
+- "remote_expireChangeTokenWithCompletion:"
+- "remote_fetchAllDataIfTimeSinceLastFetchIsGreaterThan:completion:"
+- "remote_fetchAllDataWithCompletion:"
+- "remote_fetchAllFriendsWithCompletion:"
+- "remote_fetchAreMultipleDevicesSharingDataForSnapshotIndex:withCompletion:"
+- "remote_friendWithRemoteUUID:completion:"
+- "remote_handleNotificationResponse:completion:"
+- "remote_ignoreCompetitionRequestFromFriendWithUUID:completion:"
+- "remote_ignoreInviteRequestFromFriendWithUUID:completion:"
+- "remote_pushActivityDataWithCompletion:"
+- "remote_pushFakeActivityDataWithCompletion:"
+- "remote_queryAppBadgeCountWithCompletion:"
+- "remote_removeFriendWithUUID:completion:"
+- "remote_sendCompetitionRequestToFriendWithUUID:completion:"
+- "remote_sendInviteRequestToDestination:callerID:serviceIdentifier:completion:"
+- "remote_sendWithdrawInviteRequestToFriendWithUUID:completion:"
+- "remote_setActivityDataVisible:toFriendWithUUID:completion:"
+- "remote_setMuteEnabled:forFriendWithUUID:completion:"
+- "requiredEntitlements"
+- "resume"
+- "scoresCount"
+- "setClasses:forSelector:argumentIndex:ofReply:"
+- "setCompetition:"
+- "setDaemonWakeCoordinator:"
+- "setExportedObject:"
+- "setFriend:"
+- "setInterruptionHandler:"
+- "setInvalidationHandler:"
+- "setManagerStartAction:"
+- "setOpponentScores:count:"
+- "setOwner:"
+- "setPreferredVictoryBadgeStyles:count:"
+- "setRemoteObjectInterface:"
+- "setScores:count:"
+- "setStyles:count:"
+- "setSystemFieldsOnlyRecord:"
+- "setUuid:"
+- "setWithObjects:"
+- "start_date_components"
+- "styles"
+- "stylesCount"
+- "supportsSecureCoding"
+- "system_fields"
+- "taskIdentifier"
+- "taskUUID"
+- "uniquedColumns"
+- "uuid"
+- "v16@?0^{HDSQLiteStatementBinder=}8"
+- "v24@0:8@?<v@?>16"
+- "v24@0:8@?<v@?@\"ASCodableFriendList\"B@\"NSError\">16"
+- "v24@0:8@?<v@?@\"HKActivitySummary\">16"
+- "v24@0:8@?<v@?@\"NSArray\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSNumber\"B@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSUUID\"@\"NSError\">16"
+- "v24@0:8@?<v@?B>16"
+- "v24@0:8@?<v@?B@\"NSError\">16"
+- "v24@0:8@?<v@?BB@\"NSError\">16"
+- "v32@0:8@\"ASCodableDatabaseCompetitionListEntry\"16@?<v@?B@\"NSError\">24"
+- "v32@0:8@\"NSArray\"16@?<v@?B@\"NSError\">24"
+- "v32@0:8@\"NSNumber\"16@?<v@?BB@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSData\"B@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?B@\"NSError\">24"
+- "v32@0:8Q16@?<v@?B@\"NSError\">24"
+- "v36@0:8B16@\"NSString\"20@?<v@?B@\"NSError\">28"
+- "v40@0:8@\"NSUUID\"16q24@?<v@?B@\"NSError\">32"
+- "v48@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32@?<v@?B@\"NSError\">40"
+- "v48@0:8Q16Q24@\"NSNumber\"32@?<v@?@\"NSArray\"@\"NSNumber\"@\"NSError\">40"
+- "v48@0:8Q16Q24@32@?40"
+- "validateClient:error:"
+- "validateConfiguration:client:error:"
+
+```

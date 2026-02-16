@@ -1,0 +1,12156 @@
+## NanoPassKit
+
+> `/System/Library/PrivateFrameworks/NanoPassKit.framework/NanoPassKit`
+
+```diff
+
+-1289.1.7.0.0
+-  __TEXT.__text: 0x258264
+-  __TEXT.__auth_stubs: 0x1e80
+-  __TEXT.__objc_methlist: 0x25c30
+-  __TEXT.__cstring: 0x18108
+-  __TEXT.__const: 0xdc4
+-  __TEXT.__oslogstring: 0x2d037
+-  __TEXT.__gcc_except_tab: 0x6eb8
+-  __TEXT.__dlopen_cstrs: 0x260
++1289.16.0.0.0
++  __TEXT.__text: 0x1eff78
++  __TEXT.__auth_stubs: 0x13d0
++  __TEXT.__objc_methlist: 0x1ebf0
++  __TEXT.__cstring: 0x12488
++  __TEXT.__const: 0x2aa
++  __TEXT.__gcc_except_tab: 0x4f50
++  __TEXT.__oslogstring: 0x20cf4
++  __TEXT.__dlopen_cstrs: 0x1ba
+   __TEXT.__ustring: 0x160
+-  __TEXT.__constg_swiftt: 0x294
+-  __TEXT.__swift5_typeref: 0x2af
+-  __TEXT.__swift5_reflstr: 0x104
+-  __TEXT.__swift5_fieldmd: 0x1b0
+-  __TEXT.__swift5_types: 0x38
+-  __TEXT.__swift5_capture: 0x17c
+-  __TEXT.__swift5_proto: 0x6c
+-  __TEXT.__swift_as_entry: 0x18
+-  __TEXT.__swift_as_ret: 0x24
+-  __TEXT.__swift5_assocty: 0xc0
+-  __TEXT.__swift5_protos: 0x4
+-  __TEXT.__swift5_builtin: 0x3c
+-  __TEXT.__unwind_info: 0x8f90
+-  __TEXT.__eh_frame: 0x378
+-  __TEXT.__objc_classname: 0x6b94
+-  __TEXT.__objc_methname: 0x3fe0d
+-  __TEXT.__objc_methtype: 0xa20e
+-  __TEXT.__objc_stubs: 0x22100
+-  __DATA_CONST.__got: 0x1e78
+-  __DATA_CONST.__const: 0x6bb8
+-  __DATA_CONST.__objc_classlist: 0x1200
+-  __DATA_CONST.__objc_catlist: 0x100
+-  __DATA_CONST.__objc_protolist: 0x278
++  __TEXT.__constg_swiftt: 0x28
++  __TEXT.__swift5_typeref: 0x9
++  __TEXT.__swift5_reflstr: 0x17
++  __TEXT.__swift5_fieldmd: 0x28
++  __TEXT.__swift5_types: 0x4
++  __TEXT.__unwind_info: 0x8708
++  __TEXT.__objc_classname: 0x573d
++  __TEXT.__objc_methname: 0x2a215
++  __TEXT.__objc_methtype: 0x6e8a
++  __TEXT.__objc_stubs: 0x15780
++  __DATA_CONST.__got: 0x1540
++  __DATA_CONST.__const: 0x4078
++  __DATA_CONST.__objc_classlist: 0xed8
++  __DATA_CONST.__objc_catlist: 0xe8
++  __DATA_CONST.__objc_protolist: 0x160
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xca10
+-  __DATA_CONST.__objc_protorefs: 0xa0
+-  __DATA_CONST.__objc_superrefs: 0x1130
+-  __DATA_CONST.__objc_arraydata: 0x98
+-  __AUTH_CONST.__auth_got: 0xf50
+-  __AUTH_CONST.__const: 0x1750
+-  __AUTH_CONST.__cfstring: 0xeb60
+-  __AUTH_CONST.__objc_const: 0x45d70
+-  __AUTH_CONST.__objc_arrayobj: 0x78
+-  __AUTH_CONST.__objc_intobj: 0x228
++  __DATA_CONST.__objc_selrefs: 0x8b48
++  __DATA_CONST.__objc_protorefs: 0x50
++  __DATA_CONST.__objc_superrefs: 0xe90
++  __DATA_CONST.__objc_arraydata: 0x28
++  __AUTH_CONST.__auth_got: 0x9f8
++  __AUTH_CONST.__const: 0x740
++  __AUTH_CONST.__cfstring: 0xa640
++  __AUTH_CONST.__objc_const: 0x34b40
++  __AUTH_CONST.__objc_arrayobj: 0x60
++  __AUTH_CONST.__objc_intobj: 0xa8
+   __AUTH_CONST.__objc_doubleobj: 0x70
+-  __AUTH_CONST.__objc_dictobj: 0xc8
+-  __AUTH.__objc_data: 0xb3e0
+-  __AUTH.__data: 0x1d0
+-  __DATA.__objc_ivar: 0x1c6c
+-  __DATA.__data: 0x1f48
+-  __DATA.__bss: 0x1200
++  __AUTH.__objc_data: 0x9380
++  __DATA.__objc_ivar: 0x15d4
++  __DATA.__data: 0x10c0
++  __DATA.__bss: 0x208
+   __DATA_DIRTY.__objc_data: 0xf0
+   __DATA_DIRTY.__bss: 0x20
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /System/Library/Frameworks/LocalAuthentication.framework/LocalAuthentication
++  - /System/Library/Frameworks/Messages.framework/Messages
+   - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/Frameworks/UserNotifications.framework/UserNotifications
+   - /System/Library/Frameworks/_LocationEssentials.framework/_LocationEssentials
+
+   - /System/Library/PrivateFrameworks/NanoPreferencesSync.framework/NanoPreferencesSync
+   - /System/Library/PrivateFrameworks/NanoRegistry.framework/NanoRegistry
+   - /System/Library/PrivateFrameworks/NanoSystemSettings.framework/NanoSystemSettings
+-  - /System/Library/PrivateFrameworks/NearField.framework/NearField
+   - /System/Library/PrivateFrameworks/PassKitCore.framework/PassKitCore
+   - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+
+   - /usr/lib/libcupolicy.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2E9839DA-78B1-36BF-BE97-88008182F130
+-  Functions: 14522
+-  Symbols:   42574
+-  CStrings:  17105
++  UUID: 25BCE443-B494-3463-9276-E62E40D2FBBA
++  Functions: 11478
++  Symbols:   33128
++  CStrings:  12152
+ 
+Symbols:
++ +[NPKPassSyncState(SyncVersion) _deviceDomainAccessorForDevice:]
++ +[NPKProtoHandlePlanChangeRequest planBytesType]
++ -[NPKCompanionAgentConnection paymentPassWithUniqueIdentifier:didUpdateWithPlans:]
++ -[NPKCompanionAgentConnection plansForPaymentPassWithUniqueIdentifier:completion:]
++ -[NPKGizmoDatabase _commutePlansForPassWithUniqueIDLocked:]
++ -[NPKGizmoDatabase _setCommutePlansLocked:forPassWithUniqueID:]
++ -[NPKGizmoDatabase commutePlansForPassWithUniqueID:]
++ -[NPKGizmoDatabase selectCommutePlansForPassStatement]
++ -[NPKGizmoDatabase setCommutePlans:forPassWithUniqueID:]
++ -[NPKGizmoDatabase updateCommutePlansForPassStatement]
++ -[NPKPaymentWebServiceCompanionTargetDevice handlePlanChange:]
++ -[NPKProtoHandlePlanChangeRequest .cxx_destruct]
++ -[NPKProtoHandlePlanChangeRequest addPlanBytes:]
++ -[NPKProtoHandlePlanChangeRequest clearPlanBytes]
++ -[NPKProtoHandlePlanChangeRequest copyTo:]
++ -[NPKProtoHandlePlanChangeRequest copyWithZone:]
++ -[NPKProtoHandlePlanChangeRequest description]
++ -[NPKProtoHandlePlanChangeRequest dictionaryRepresentation]
++ -[NPKProtoHandlePlanChangeRequest hasPassID]
++ -[NPKProtoHandlePlanChangeRequest hash]
++ -[NPKProtoHandlePlanChangeRequest isEqual:]
++ -[NPKProtoHandlePlanChangeRequest mergeFrom:]
++ -[NPKProtoHandlePlanChangeRequest passID]
++ -[NPKProtoHandlePlanChangeRequest planBytesAtIndex:]
++ -[NPKProtoHandlePlanChangeRequest planBytesCount]
++ -[NPKProtoHandlePlanChangeRequest planBytes]
++ -[NPKProtoHandlePlanChangeRequest readFrom:]
++ -[NPKProtoHandlePlanChangeRequest setPassID:]
++ -[NPKProtoHandlePlanChangeRequest setPlanBytes:]
++ -[NPKProtoHandlePlanChangeRequest writeTo:]
++ -[NPKSharedWebServiceProvider handlePlanUpdate:forUniqueID:]
++ -[NSArray(NanoPassKit) sortedTransactionsArray]
++ -[NSNotificationCenter(WeakObservers) _handleNotification:]
++ -[NSNotificationCenter(WeakObservers) _internalNameForNotificationName:]
++ -[NSNotificationCenter(WeakObservers) weak_addObserver:selector:name:object:]
++ -[NSNotificationCenter(WeakObservers) weak_removeObserver:]
++ -[NSNotificationCenter(WeakObservers) weak_removeObserver:name:object:]
++ -[PKPaymentTransaction(NanoPassKit) npk_isMessagesGroupPeerPaymentTransaction]
++ -[PKPaymentTransaction(NanoPassKit) npk_isNearbyPeerPaymentTransaction]
++ -[PKTransitAppletState(NanoPassKit) _appletHistoryBalancesWithIdentifiers:fromAppletHistory:]
++ -[PKTransitAppletState(NanoPassKit) _associatedBalanceIdentifiersToBalances:fromPass:]
++ GCC_except_table108
++ GCC_except_table116
++ GCC_except_table144
++ GCC_except_table156
++ GCC_except_table157
++ GCC_except_table165
++ GCC_except_table170
++ GCC_except_table175
++ GCC_except_table180
++ GCC_except_table186
++ GCC_except_table220
++ GCC_except_table225
++ GCC_except_table227
++ GCC_except_table229
++ GCC_except_table233
++ GCC_except_table234
++ GCC_except_table238
++ GCC_except_table243
++ GCC_except_table244
++ GCC_except_table252
++ GCC_except_table258
++ GCC_except_table259
++ GCC_except_table264
++ GCC_except_table269
++ GCC_except_table274
++ GCC_except_table279
++ GCC_except_table284
++ GCC_except_table286
++ GCC_except_table291
++ GCC_except_table294
++ GCC_except_table298
++ GCC_except_table303
++ GCC_except_table308
++ GCC_except_table312
++ GCC_except_table317
++ GCC_except_table322
++ GCC_except_table328
++ GCC_except_table333
++ GCC_except_table340
++ GCC_except_table347
++ GCC_except_table352
++ GCC_except_table357
++ GCC_except_table362
++ GCC_except_table367
++ GCC_except_table380
++ GCC_except_table381
++ GCC_except_table385
++ GCC_except_table401
++ GCC_except_table407
++ GCC_except_table425
++ GCC_except_table436
++ GCC_except_table441
++ GCC_except_table446
++ GCC_except_table457
++ GCC_except_table460
++ GCC_except_table469
++ GCC_except_table476
++ GCC_except_table482
++ GCC_except_table490
++ GCC_except_table495
++ GCC_except_table506
++ GCC_except_table512
++ GCC_except_table517
++ GCC_except_table522
++ GCC_except_table528
++ GCC_except_table534
++ GCC_except_table539
++ GCC_except_table547
++ GCC_except_table552
++ GCC_except_table563
++ GCC_except_table565
++ GCC_except_table575
++ GCC_except_table583
++ GCC_except_table589
++ GCC_except_table598
++ GCC_except_table603
++ GCC_except_table608
++ GCC_except_table613
++ GCC_except_table618
++ GCC_except_table623
++ GCC_except_table628
++ GCC_except_table633
++ GCC_except_table638
++ GCC_except_table643
++ GCC_except_table650
++ GCC_except_table657
++ GCC_except_table662
++ GCC_except_table667
++ GCC_except_table672
++ GCC_except_table680
++ GCC_except_table688
++ GCC_except_table694
++ GCC_except_table699
++ GCC_except_table704
++ GCC_except_table710
++ GCC_except_table716
++ GCC_except_table723
++ GCC_except_table728
++ GCC_except_table734
++ GCC_except_table739
++ GCC_except_table744
++ GCC_except_table749
++ GCC_except_table754
++ GCC_except_table759
++ GCC_except_table764
++ GCC_except_table769
++ GCC_except_table774
++ GCC_except_table779
++ GCC_except_table784
++ GCC_except_table789
++ GCC_except_table794
++ GCC_except_table800
++ GCC_except_table802
++ GCC_except_table805
++ GCC_except_table811
++ GCC_except_table813
++ GCC_except_table822
++ GCC_except_table828
++ GCC_except_table835
++ GCC_except_table840
++ GCC_except_table845
++ GCC_except_table85
++ GCC_except_table850
++ GCC_except_table855
++ GCC_except_table861
++ GCC_except_table869
++ GCC_except_table880
++ GCC_except_table91
++ _NPKDomainAccessorForDomainWithDevice
++ _NPKProtoHandlePlanChangeRequestReadFrom
++ _OBJC_CLASS_$_NPKProtoHandlePlanChangeRequest
++ _OBJC_CLASS_$_PKPaymentCommutePlanDetail
++ _OBJC_IVAR_$_NPKGizmoDatabase._selectCommutePlansForPassStatement
++ _OBJC_IVAR_$_NPKGizmoDatabase._updateCommutePlansForPassStatement
++ _OBJC_IVAR_$_NPKProtoHandlePlanChangeRequest._passID
++ _OBJC_IVAR_$_NPKProtoHandlePlanChangeRequest._planBytes
++ _OBJC_METACLASS_$_NPKProtoHandlePlanChangeRequest
++ _OUTLINED_FUNCTION_0
++ __OBJC_$_CATEGORY_INSTANCE_METHODS_NSNotificationCenter_$_WeakObservers
++ __OBJC_$_CATEGORY_INSTANCE_METHODS_PKPaymentTransaction_$_NanoPassKit
++ __OBJC_$_CATEGORY_NSArray_$_NanoPassKit
++ __OBJC_$_CATEGORY_NSNotificationCenter_$_WeakObservers
++ __OBJC_$_CATEGORY_PKPaymentTransaction_$_NanoPassKit
++ __OBJC_$_CLASS_METHODS_NPKProtoHandlePlanChangeRequest
++ __OBJC_$_INSTANCE_METHODS_NPKProtoHandlePlanChangeRequest
++ __OBJC_$_INSTANCE_METHODS_NSArray(NanoPassKit|NPK)
++ __OBJC_$_INSTANCE_VARIABLES_NPKProtoHandlePlanChangeRequest
++ __OBJC_$_PROP_LIST_NPKBalanceField.204
++ __OBJC_$_PROP_LIST_NPKCommutePlanField.261
++ __OBJC_$_PROP_LIST_NPKProtoHandlePlanChangeRequest
++ __OBJC_$_PROP_LIST_PKPaymentTransaction_$_NanoPassKit
++ __OBJC_CLASS_PROTOCOLS_$_NPKProtoHandlePlanChangeRequest
++ __OBJC_CLASS_RO_$_NPKProtoHandlePlanChangeRequest
++ __OBJC_METACLASS_RO_$_NPKProtoHandlePlanChangeRequest
++ ___100-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:addPaymentPass:withCompletionHandler:]_block_invoke.450
++ ___100-[NPKPaymentWebServiceCompanionTargetDevice prepareProvisioningTarget:checkFamilyCircle:completion:]_block_invoke.908
++ ___101-[NPKCompanionAgentConnection updateCredentials:forUniqueID:paymentApplicationIdentifier:completion:]_block_invoke.181
++ ___101-[NPKPaymentWebServiceCompanionTargetDevice carKeyAccountAttestationRequestForCredential:completion:]_block_invoke.933
++ ___101-[NPKPaymentWebServiceCompanionTargetDevice generateAuxiliaryCapabilitiesForRequirements:completion:]_block_invoke.828
++ ___101-[NPKPaymentWebServiceCompanionTargetDevice performDeviceRegistrationForReason:brokerURL:completion:]_block_invoke.790
++ ___101-[NPKPaymentWebServiceCompanionTargetDevice performDeviceRegistrationForReason:brokerURL:completion:]_block_invoke.791
++ ___101-[NPKPaymentWebServiceCompanionTargetDevice performDeviceRegistrationForReason:brokerURL:completion:]_block_invoke_2.796
++ ___101-[NPKSubcredentialInvitationCoordinator updateSubcredentialMetadataOnPass:withCredential:completion:]_block_invoke.81
++ ___102-[NPKSubcredentialInvitationCoordinator declineRelatedInvitationsIfNecessaryForInvitation:completion:]_block_invoke.94
++ ___103-[NPKSubcredentialInvitationCoordinator startProvisioningWithInvitationIdentifier:metadata:completion:]_block_invoke.68
++ ___103-[NPKSubcredentialInvitationCoordinator startProvisioningWithMailboxAddress:activationCode:completion:]_block_invoke.101
++ ___103-[NPKSubcredentialInvitationCoordinator startProvisioningWithMailboxAddress:activationCode:completion:]_block_invoke.97
++ ___104-[NPKPaymentWebServiceCompanionTargetDevice carKeyDecryptData:credential:ephemeralPublicKey:completion:]_block_invoke.965
++ ___105-[NPKPaymentWebServiceCompanionTargetDevice revokeShareForPassIdentifier:share:shouldCascade:completion:]_block_invoke.879
++ ___105-[NPKPaymentWebServiceCompanionTargetDevice updateShareForPassIdentifier:share:authorization:completion:]_block_invoke.913
++ ___106-[NPKPaymentWebServiceCompanionTargetDevice generateSEEncryptionCertificateForSubCredentialId:completion:]_block_invoke.862
++ ___106-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:addSecureElementPass:properties:completion:]_block_invoke.452
++ ___106-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:addSecureElementPass:properties:completion:]_block_invoke.456
++ ___106-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:addSecureElementPass:properties:completion:]_block_invoke.460
++ ___106-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:addSecureElementPass:properties:completion:]_block_invoke.461
++ ___106-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:addSecureElementPass:properties:completion:]_block_invoke.464
++ ___106-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:addSecureElementPass:properties:completion:]_block_invoke.465
++ ___106-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:addSecureElementPass:properties:completion:]_block_invoke.466
++ ___106-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:addSecureElementPass:properties:completion:]_block_invoke_2.463
++ ___107-[NPKPaymentWebServiceCompanionTargetDevice carKeyStartShareAcceptanceFlow:transportIdentifier:completion:]_block_invoke.920
++ ___107-[NPKPaymentWebServiceCompanionTargetDevice createShareForPartialShareInvitation:authorization:completion:]_block_invoke.896
++ ___107-[NPKPaymentWebServiceCompanionTargetDevice generateISOEncryptionCertificateForSubCredentialId:completion:]_block_invoke.852
++ ___107-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:didRegisterWithRegionMap:primaryRegionTopic:]_block_invoke.439
++ ___107-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:didRegisterWithRegionMap:primaryRegionTopic:]_block_invoke.441
++ ___107-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:passOwnershipTokenWithIdentifier:completion:]_block_invoke.781
++ ___107-[NPKSubcredentialInvitationCoordinator deviceContainsInvitationMatchingInvitation:withTimeout:completion:]_block_invoke.76
++ ___108-[NPKCompanionViewServiceConnection presentRemotePassValueEntryViewControllerForRequest:contact:completion:]_block_invoke.61
++ ___108-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:passSharesForCredentialIdentifier:completion:]_block_invoke.882
++ ___109-[NPKPaymentWebServiceCompanionTargetDevice carKeyHandleRecipientMessage:forInvitationIdentifier:completion:]_block_invoke.959
++ ___110-[NPKIDVRemoteDeviceConnectionCoordinator _sendRequest:withType:priority:queueIdentifier:requestItem:timeout:]_block_invoke.218
++ ___111-[NPKCompanionViewServiceConnection presentRemotePassItemSelectionViewControllerForRequest:contact:completion:]_block_invoke.69
++ ___111-[NPKPaymentWebServiceCompanionTargetDevice carKeyGetPretrackRequestForKeyWithInvitationIdentifier:completion:]_block_invoke.937
++ ___113-[NPKPaymentWebServiceCompanionTargetDevice serviceProviderDataForPassWithUniqueIdentifier:encrypted:completion:]_block_invoke.985
++ ___113-[NPKPaymentWebServiceCompanionTargetDevice serviceProviderDataForPassWithUniqueIdentifier:encrypted:completion:]_block_invoke.987
++ ___115-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:canAddSecureElementPassWithConfiguration:completion:]_block_invoke.715
++ ___115-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:generateTransactionKeyWithParameters:withCompletion:]_block_invoke.859
++ ___115-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:validateAddBiometricPassPreconditionsWithCompletion:]_block_invoke.387
++ ___117-[NPKPaymentWebServiceCompanionTargetDevice longTermPrivacyKeyForCredentialGroupIdentifier:reuseExisting:completion:]_block_invoke.872
++ ___118-[NPKPaymentWebServiceCompanionTargetDevice cancelAutoTopUpForPassWithUniqueIdentifier:balanceIdentifiers:completion:]_block_invoke.972
++ ___119-[NPKSubcredentialInvitationCoordinator fetchOrInitializeAccountAttestationAnonymizationSaltIfNecessaryWithCompletion:]_block_invoke.95
++ ___121-[NPKPaymentWebServiceCompanionTargetDevice carKeyRetryActivationCodeWithInvitationIdentifier:activationCode:completion:]_block_invoke.962
++ ___121-[NPKPaymentWebServiceCompanionTargetDevice carKeyUpdateTrackingAttestation:forCredential:encryptedContainer:completion:]_block_invoke.943
++ ___122-[NPKPaymentWebServiceCompanionTargetDevice _trackOutstandingRequestWithMessageIdentifier:completionHandler:errorHandler:]_block_invoke.1040
++ ___125-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:provisioningDataIncludingDeviceMetadata:withCompletionHandler:]_block_invoke.421
++ ___125-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:provisioningDataIncludingDeviceMetadata:withCompletionHandler:]_block_invoke.423
++ ___125-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:provisioningDataIncludingDeviceMetadata:withCompletionHandler:]_block_invoke.424
++ ___126-[NPKPaymentWebServiceCompanionTargetDevice carKeySetEncryptedProductPlanIdentifierContainer:invitationIdentifier:completion:]_block_invoke.930
++ ___126-[NPKSubcredentialInvitationCoordinator _queue_fetchOrInitializeAccountAttestationAnonymizationSaltIfNecessaryWithCompletion:]_block_invoke.153
++ ___128-[NPKIDVRemoteDeviceSession provisionCredentialWithType:metadata:credentialIdentifier:attestations:supplementalData:completion:]_block_invoke.94
++ ___128-[NPKPaymentWebServiceCompanionTargetDevice carKeyRoutingInformationForInvitationWithIdentifier:transportIdentifier:completion:]_block_invoke.923
++ ___128-[NPKPaymentWebServiceCompanionTargetDevice checkFidoKeyPresenceForRelyingParty:relyingPartyAccountHash:fidoKeyHash:completion:]_block_invoke.846
++ ___136-[NPKPaymentWebServiceCompanionTargetDevice createFidoKeyForRelyingParty:relyingPartyAccountHash:challenge:externalizedAuth:completion:]_block_invoke.834
++ ___137-[NPKPaymentWebServiceCompanionTargetDevice remotePassUpgradeWithRequest:pass:requireAuthorization:notifyUserOnPairedDevice:updateBlock:]_block_invoke.560
++ ___137-[NPKPaymentWebServiceCompanionTargetDevice requestPasscodeUpgradeForPasscodeUpgradeFlowController:withVisibleViewController:completion:]_block_invoke.703
++ ___137-[NPKPaymentWebServiceCompanionTargetDevice requestPasscodeUpgradeForPasscodeUpgradeFlowController:withVisibleViewController:completion:]_block_invoke_2.705
++ ___140-[NPKPaymentWebServiceCompanionTargetDevice carKeyAcceptInvitationWithInvitationIdentifier:activationCode:analyticsUpdateConfig:completion:]_block_invoke.955
++ ___141-[NPKPaymentWebServiceCompanionTargetDevice carKeyGetProductPlanIdentifierRequestForInvitationWithIdentifier:transportIdentifier:completion:]_block_invoke.926
++ ___150-[NPKPaymentWebServiceCompanionTargetDevice _singleExpressTransitPassPaymentWebService:handlePotentialExpressPassConfiguration:withCompletionHandler:]_block_invoke.650
++ ___150-[NPKPaymentWebServiceCompanionTargetDevice _singleExpressTransitPassPaymentWebService:handlePotentialExpressPassConfiguration:withCompletionHandler:]_block_invoke.653
++ ___152-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:presentStandaloneTransaction:forPassUniqueIdentifier:terminalReaderIdentifier:completion:]_block_invoke.766
++ ___152-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:presentStandaloneTransaction:forPassUniqueIdentifier:terminalReaderIdentifier:completion:]_block_invoke.772
++ ___152-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:presentStandaloneTransaction:forPassUniqueIdentifier:terminalReaderIdentifier:completion:]_block_invoke_2.768
++ ___154-[NPKCompanionAgentConnection provisionIdentityPassWithPassMetadata:targetDeviceIdentifier:credentialIdentifier:attestations:supplementalData:completion:]_block_invoke.194
++ ___157-[NPKPaymentWebServiceCompanionTargetDevice _multipleExpressTransitPassPaymentWebService:handlePotentialExpressPassConfiguration:pass:withCompletionHandler:]_block_invoke.648
++ ___170-[NPKPaymentWebServiceCompanionTargetDevice signWithFidoKeyForRelyingParty:relyingPartyAccountHash:fidoKeyHash:challenge:publicKeyIdentifier:externalizedAuth:completion:]_block_invoke.849
++ ___28-[NPKGizmoDatabase database]_block_invoke.279
++ ___35-[NPKSharedWebServiceProvider init]_block_invoke.75
++ ___35-[NPKSharedWebServiceProvider init]_block_invoke.76
++ ___35-[NPKSharedWebServiceProvider init]_block_invoke.80
++ ___41-[NPKGizmoDatabase savePass:isLocalPass:]_block_invoke.473
++ ___46-[NPKGizmoDatabase rebuildDatabaseWithPasses:]_block_invoke.475
++ ___47-[NSArray(NanoPassKit) sortedTransactionsArray]_block_invoke
++ ___50-[NPKPaymentPreflighter _setAuthRandomIfNecessary]_block_invoke.93
++ ___51-[NPKGizmoDatabase restoreBlockForVolatilePassData]_block_invoke.480
++ ___51-[NPKGizmoDatabase restoreBlockForVolatilePassData]_block_invoke_2.481
++ ___52-[NPKGizmoDatabase commutePlansForPassWithUniqueID:]_block_invoke
++ ___53-[NPKPassSyncService passSyncEngine:sendStateChange:]_block_invoke.165
++ ___56-[NPKGizmoDatabase setCommutePlans:forPassWithUniqueID:]_block_invoke
++ ___57-[NPKIDVRemoteDeviceSession deleteCredential:completion:]_block_invoke.89
++ ___57-[NPKOneShotLocationFetcher fetchLocationWithCompletion:]_block_invoke.77
++ ___57-[NPKOneShotLocationFetcher fetchLocationWithCompletion:]_block_invoke.82
++ ___59-[NPKGizmoDatabase _savePassLocked:locallyAdded:wasUpdate:]_block_invoke.485
++ ___59-[NPKIDVRemoteDeviceSession pairedWatchSEIDWithCompletion:]_block_invoke.76
++ ___60-[NPKCompanionAgentConnection currentSecureElementSnapshot:]_block_invoke.231
++ ___60-[NPKCompanionAgentConnection passesSynchronous:completion:]_block_invoke.165
++ ___61-[NPKGizmoDatabase _libraryHashLockedForWatchOSMajorVersion:]_block_invoke.596
++ ___62-[NPKIDVRemoteDeviceSession getCASDCertificateWithCompletion:]_block_invoke.102
++ ___62-[NPKPaymentWebServiceCompanionTargetDevice handlePlanChange:]_block_invoke
++ ___63-[NPKCompanionAgentConnection bridgedClientInfoWithCompletion:]_block_invoke.182
++ ___63-[NPKIDVRemoteDeviceSession configureWithPartition:ackHandler:]_block_invoke.83
++ ___63-[NPKIDVRemoteDeviceSession deleteGlobalAuthACLWithCompletion:]_block_invoke.101
++ ___63-[NPKIDVRemoteDeviceSession establishPrearmTrustV2:completion:]_block_invoke.99
++ ___63-[NPKIDVRemoteDeviceSession propertiesOfCredential:completion:]_block_invoke.90
++ ___64-[NPKCompanionAgentConnection reclaimUnusedSecureElementMemory:]_block_invoke.233
++ ___66-[NPKGizmoDatabase setPreferredPaymentApplication:forPaymentPass:]_block_invoke.592
++ ___66-[NPKGizmoDatabase setPreferredPaymentApplication:forPaymentPass:]_block_invoke.593
++ ___67-[NPKCompanionAgentConnection countOfPassesSynchronous:completion:]_block_invoke.163
++ ___67-[NPKIDVRemoteDeviceSession _confirmRemoteDeviceID:withCompletion:]_block_invoke.72
++ ___68-[NPKCompanionAgentConnection savePaymentPass:forDevice:completion:]_block_invoke.154
++ ___68-[NPKCompanionAgentConnection savePaymentPass:forDevice:completion:]_block_invoke.156
++ ___68-[NPKIDVRemoteDeviceSession updateProofingConfiguration:completion:]_block_invoke.106
++ ___68-[NPKPaymentPreflighter transferToCompanionPreflightWithCompletion:]_block_invoke.66
++ ___69-[NPKGizmoDatabase _setLastAddValueAmountLocked:forPassWithUniqueID:]_block_invoke.489
++ ___69-[NPKGizmoDatabase _setTransitAppletStateLocked:forPassWithUniqueID:]_block_invoke.488
++ ___69-[NPKPaymentWebServiceCompanionTargetDevice handleCredentialsChange:]_block_invoke.761
++ ___70-[NPKGizmoDatabase _setPendingAddValueDateLocked:forPassWithUniqueID:]_block_invoke.490
++ ___70-[NPKIDVRemoteDeviceSession nonceForAuthorizationTokenWithCompletion:]_block_invoke.96
++ ___72-[NPKSubcredentialInvitationCoordinator canAcceptInvitation:completion:]_block_invoke.63
++ ___73-[NPKCompanionAgentConnection deviceIDSIdentifierSynchronous:completion:]_block_invoke.167
++ ___73-[NPKCompanionAgentConnection paymentPassWithUniqueID:synchronous:reply:]_block_invoke.145
++ ___73-[NPKCompanionAgentConnection paymentPassWithUniqueID:synchronous:reply:]_block_invoke.146
++ ___74-[NPKCompanionAgentConnection credentialedPassUniqueIDsSynchronous:reply:]_block_invoke.148
++ ___74-[NPKCompanionAgentConnection credentialedPassUniqueIDsSynchronous:reply:]_block_invoke.149
++ ___74-[NPKIDVRemoteDeviceSession credentialIdentifiersInPartitions:completion:]_block_invoke.92
++ ___74-[NPKIDVRemoteDeviceSession provisionedCredentialCountForType:completion:]_block_invoke.77
++ ___75-[NPKCompanionAgentConnectionDeferredActionHandler _performDeferredActions]_block_invoke.81
++ ___75-[NPKCompanionAgentConnectionDeferredActionHandler _performDeferredActions]_block_invoke.85
++ ___75-[NPKPeerPaymentWebServiceCompanionTargetDevice setPreferences:completion:]_block_invoke.99
++ ___76-[NPKCompanionAgentConnection hasPaymentPassWithUniqueID:synchronous:reply:]_block_invoke.141
++ ___76-[NPKCompanionAgentConnection hasPaymentPassWithUniqueID:synchronous:reply:]_block_invoke.142
++ ___76-[NPKCompanionAgentConnection passesWithReaderIdentifier:synchronous:reply:]_block_invoke.147
++ ___76-[NPKIDVRemoteDeviceSession createCredentialInPartition:options:completion:]_block_invoke.84
++ ___76-[NPKPaymentWebServiceCompanionTargetDevice productsWithRequest:completion:]_block_invoke.629
++ ___76-[NPKSubcredentialInvitationCoordinator removeSharingInvitation:completion:]_block_invoke.93
++ ___77-[NPKCompanionAgentConnection balanceReminderForBalance:pass:withCompletion:]_block_invoke.173
++ ___77-[NPKCompanionAgentConnection hasActiveExternallySharedPassesWithCompletion:]_block_invoke.179
++ ___77-[NPKCompanionAgentConnection setBalanceReminder:forBalance:pass:completion:]_block_invoke.175
++ ___77-[NPKIDVRemoteDeviceConnectionCoordinator establishPrearmTrustV2:completion:]_block_invoke.166
++ ___78-[NPKCompanionAgentConnection expressModeEnabledForPassIdentifier:completion:]_block_invoke.180
++ ___78-[NPKPaymentWebServiceCompanionTargetDevice accountWithIdentifier:completion:]_block_invoke.622
++ ___79-[NPKIDVRemoteDeviceSession prearmCredentialWithAuthorizationToken:completion:]_block_invoke.98
++ ___79-[NPKPaymentWebServiceCompanionTargetDevice carKeyRejectInvitation:completion:]_block_invoke.968
++ ___80-[NPKCompanionAgentConnectionDeferredActionHandler _handleDevicePairingFailure:]_block_invoke.87
++ ___81-[NPKCompanionAgentConnection shouldShowWatchOfferForPaymentPass:withCompletion:]_block_invoke.119
++ ___81-[NPKCompanionAgentConnection shouldShowWatchOfferForPaymentPass:withCompletion:]_block_invoke.124
++ ___81-[NPKIDVRemoteDeviceSession deletePIIHashDataForCredentialIdentifier:completion:]_block_invoke.109
++ ___82-[NPKCompanionAgentConnection _shouldShowApplePaySettingsForTinkerWithCompletion:]_block_invoke.203
++ ___82-[NPKCompanionAgentConnection paymentPassWithUniqueIdentifier:didUpdateWithPlans:]_block_invoke
++ ___82-[NPKCompanionAgentConnection plansForPaymentPassWithUniqueIdentifier:completion:]_block_invoke
++ ___82-[NPKCompanionAgentConnection plansForPaymentPassWithUniqueIdentifier:completion:]_block_invoke.172
++ ___82-[NPKIDVRemoteDeviceSession _generateKeyWithType:credentialIdentifier:completion:]_block_invoke.87
++ ___82-[NPKPaymentWebServiceCompanionTargetDevice addISO18013Blobs:cardType:completion:]_block_invoke.866
++ ___83-[NPKIDVRemoteDeviceSession retrievePIIHashDataForCredentialIdentifier:completion:]_block_invoke.108
++ ___83-[NPKSubcredentialInvitationCoordinator _fetchInvitationWithIdentifier:completion:]_block_invoke.157
++ ___83-[NPKSubcredentialInvitationCoordinator requestSubcredentialInvitation:completion:]_block_invoke.80
++ ___84-[NPKPassSyncEngine _handleStateChange:attemptRecoverReconcileStateVersionMismatch:]_block_invoke.85
++ ___84-[NPKPassSyncEngine _handleStateChange:attemptRecoverReconcileStateVersionMismatch:]_block_invoke.90
++ ___84-[NPKSubcredentialInvitationCoordinator listSubcredentialInvitationsWithCompletion:]_block_invoke.66
++ ___85-[NPKCompanionAgentConnection balancesForPaymentPassWithUniqueIdentifier:completion:]_block_invoke.171
++ ___85-[NPKCompanionAgentConnection commutePlanReminderForCommutePlan:pass:withCompletion:]_block_invoke.176
++ ___85-[NPKCompanionAgentConnection setCommutePlanReminder:forCommutePlan:pass:completion:]_block_invoke.178
++ ___85-[NPKIDVRemoteDeviceSession generatePresentmentKeysForCredential:numKeys:completion:]_block_invoke.85
++ ___85-[NPKIDVRemoteDeviceSession storePIIHashDataForCredentialIdentifier:data:completion:]_block_invoke.107
++ ___85-[NPKSubcredentialInvitationCoordinator revokeCredentialsWithIdentifiers:completion:]_block_invoke.85
++ ___86-[NPKIDVRemoteDeviceSession credentialPreflightStatusForType:minOSVersion:completion:]_block_invoke.74
++ ___86-[NPKPaymentWebServiceCompanionTargetDevice statusForShareableCredentials:completion:]_block_invoke.903
++ ___86-[PKTransitAppletState(NanoPassKit) _associatedBalanceIdentifiersToBalances:fromPass:]_block_invoke
++ ___87-[NPKGizmoDatabase setSubcredentials:forPassWithUniqueID:paymentApplicationIdentifier:]_block_invoke.478
++ ___87-[NPKIDVRemoteDeviceServiceClient didReceiveEvent:fromRemoteDeviceWithID:eventContext:]_block_invoke.59
++ ___87-[NPKIDVRemoteDeviceSession registerForEvents:withRemoteProcessServiceName:completion:]_block_invoke.81
++ ___87-[NPKSubcredentialInvitationCoordinator registerCredentialsWithIdentifiers:completion:]_block_invoke.83
++ ___88-[NPKIDVRemoteDeviceSession addNotificationWithType:documentType:issuerName:completion:]_block_invoke.105
++ ___88-[NPKPaymentWebServiceCompanionTargetDevice photosForFamilyMembersWithDSIDs:completion:]_block_invoke.800
++ ___90-[NPKCompanionAgentConnection paymentPassUniqueIDsSynchronous:excludingDeactivated:reply:]_block_invoke.136
++ ___90-[NPKCompanionAgentConnection paymentPassUniqueIDsSynchronous:excludingDeactivated:reply:]_block_invoke.137
++ ___90-[NPKCompanionAgentConnection paymentPassUniqueIDsSynchronous:excludingDeactivated:reply:]_block_invoke.138
++ ___90-[NPKIDVRemoteDeviceSession unregisterFromEvents:withRemoteProcessServiceName:completion:]_block_invoke.82
++ ___90-[NPKPaymentWebServiceCompanionTargetDevice updatedAccountsForProvisioningWithCompletion:]_block_invoke.586
++ ___90-[NPKPaymentWebServiceCompanionTargetDevice updatedAccountsForProvisioningWithCompletion:]_block_invoke.588
++ ___90-[NPKPaymentWebServiceCompanionTargetDevice updatedAccountsForProvisioningWithCompletion:]_block_invoke_2.587
++ ___91-[NPKPaymentWebServiceCompanionTargetDevice hasActiveExternallySharedPassesWithCompletion:]_block_invoke.1037
++ ___91-[NPKPaymentWebServiceCompanionTargetDevice requestAndStoreExternalizedAuthWithCompletion:]_block_invoke.855
++ ___91-[NPKSubcredentialInvitationCoordinator accountAttestationAnonymizationSaltWithCompletion:]_block_invoke.77
++ ___91-[NPKSubcredentialInvitationCoordinator setAccountAttestationAnonymizationSalt:completion:]_block_invoke.79
++ ___92-[NPKCompanionAgentConnection deletePaymentTransactionWithIdentifier:fromDevice:completion:]_block_invoke.169
++ ___92-[NPKPaymentWebServiceCompanionTargetDevice _displayableSharesForPassIdentifier:completion:]_block_invoke.886
++ ___92-[NPKPaymentWebServiceCompanionTargetDevice prewarmCreateShareForPassIdentifier:completion:]_block_invoke.893
++ ___93-[NPKPaymentWebServiceCompanionTargetDevice paymentSetupFeaturesForConfiguration:completion:]_block_invoke.999
++ ___93-[NPKSubcredentialInvitationCoordinator startProvisioningWithInvitation:metadata:completion:]_block_invoke.71
++ ___93-[PKTransitAppletState(NanoPassKit) _appletHistoryBalancesWithIdentifiers:fromAppletHistory:]_block_invoke
++ ___95-[NPKPaymentWebServiceCompanionTargetDevice checkInvitationStatusForMailboxAddress:completion:]_block_invoke.900
++ ___96-[NPKCompanionAgentConnection canAddToCompanionPrecheckForegroundConnectivitySynchronous:reply:]_block_invoke.184
++ ___96-[NPKPaymentPreflighter _checkPasscodeEnabledAndUnlockedStateRequiringPasscode:requiringUnlock:]_block_invoke.83
++ ___96-[NPKPaymentPreflighter _checkPasscodeEnabledAndUnlockedStateRequiringPasscode:requiringUnlock:]_block_invoke.84
++ ___96-[NPKPaymentPreflighter _checkPasscodeEnabledAndUnlockedStateRequiringPasscode:requiringUnlock:]_block_invoke_2.86
++ ___96-[NPKPaymentWebServiceCompanionTargetDevice featureApplicationsForAccountIdentifier:completion:]_block_invoke.811
++ ___97-[NPKCompanionAgentConnection addPendingProvisionings:identityTargetDeviceIdentifier:completion:]_block_invoke.197
++ ___97-[NPKPaymentWebServiceCompanionTargetDevice retrieveShareInvitationForMailboxAddress:completion:]_block_invoke.875
++ ___97-[NPKPaymentWebServiceCompanionTargetDevice service:account:identifier:didSendWithSuccess:error:]_block_invoke.369
++ ___98-[NPKCompanionAgentConnection beginPairedWatchInstallationOfApplicationForPaymentPass:completion:]_block_invoke.219
++ ___98-[NPKIDVRemoteDeviceSession fetchRemoteBiometricAuthenticationStatusForCredentialType:completion:]_block_invoke.79
++ ___98-[NPKPaymentWebServiceCompanionTargetDevice _canAddSecureElementPassWithConfiguration:completion:]_block_invoke.720
++ ___98-[NPKPaymentWebServiceCompanionTargetDevice _displayableEntitlementsForPassIdentifier:completion:]_block_invoke.889
++ ___98-[NPKPaymentWebServiceCompanionTargetDevice carKeySetAccountAttestation:forCredential:completion:]_block_invoke.940
++ ___99-[NPKCompanionAgentConnection trustedDeviceEnrollmentSignatureWithAccountDSID:sessionData:handler:]_block_invoke.190
++ ___99-[NPKPaymentWebServiceCompanionTargetDevice acceptCarKeyShareForMessage:activationCode:completion:]_block_invoke.916
++ ___99-[NPKPaymentWebServiceCompanionTargetDevice handlePendingRemovalOfPaymentPass:uniqueID:completion:]_block_invoke.476
++ ___99-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:deviceMetadataWithFields:completion:]_block_invoke.605
++ ___Block_byref_object_copy_.389
++ ___Block_byref_object_dispose_.390
++ ___NPKPairedOrPairingDevice_block_invoke
++ ___NPKPairedOrPairingDevice_block_invoke.cold.1
++ ___NPKPresentUserNotification_block_invoke.300
++ ___block_descriptor_138_e8_32s40s48s56s64s72s80s88s96s104s112s120s_e5_B8?0ls32l8s40l8s48l8s56l8s64l8s72l8s80l8s88l8s96l8s104l8s112l8s120l8
++ ___block_descriptor_32_e55_q24?0"PKPaymentTransaction"8"PKPaymentTransaction"16l
++ ___block_descriptor_40_e8_32s_e21_B16?0"PKPassField"8ls32l8
++ ___block_descriptor_40_e8_32s_e32_B16?0"PKTransitAppletBalance"8ls32l8
++ ___block_descriptor_40_e8_32w_e17_v16?0"NSTimer"8lw32l8
++ ___block_descriptor_64_e8_32s40s48bs56r_e5_v8?0lr56l8s32l8s40l8s48l8
++ ___block_descriptor_72_e8_32s40s48s56bs64r_e15_v16?0"NSSet"8ls32l8s40l8r64l8s56l8s48l8
++ ___block_descriptor_72_e8_32s40s48s56bs64r_e23_v16?0"PKPaymentPass"8ls32l8s40l8r64l8s56l8s48l8
++ ___block_descriptor_80_e8_32s40s48s56s64s72s_e26_v16?0"NPKGizmoDatabase"8ls32l8s40l8s48l8s56l8s64l8s72l8
++ ___block_descriptor_88_e8_32s40s48s56s64s72s80s_e35_v32?0"NPKPassDescription"8Q16^B24ls32l8s40l8s48l8s56l8s64l8s72l8s80l8
++ ___block_literal_global.1027
++ ___block_literal_global.123
++ ___block_literal_global.209
++ ___block_literal_global.214
++ ___block_literal_global.219
++ ___block_literal_global.246
++ ___block_literal_global.272
++ ___block_literal_global.278
++ ___block_literal_global.284
++ ___block_literal_global.302
++ ___block_literal_global.387
++ ___block_literal_global.425
++ ___block_literal_global.443
++ ___block_literal_global.459
++ ___block_literal_global.663
++ ___block_literal_global.669
++ ___block_literal_global.678
++ ___block_literal_global.686
++ ___block_literal_global.771
++ ___block_literal_global.80
++ ___block_literal_global.993
++ _objc_msgSend$_appletHistoryBalancesWithIdentifiers:fromAppletHistory:
++ _objc_msgSend$_associatedBalanceIdentifiersToBalances:fromPass:
++ _objc_msgSend$_commutePlansForPassWithUniqueIDLocked:
++ _objc_msgSend$_deviceDomainAccessorForDevice:
++ _objc_msgSend$_setCommutePlansLocked:forPassWithUniqueID:
++ _objc_msgSend$addPlanBytes:
++ _objc_msgSend$clearPlanBytes
++ _objc_msgSend$commutePlansForPassWithUniqueID:
++ _objc_msgSend$flush
++ _objc_msgSend$handlePlanUpdate:forUniqueID:
++ _objc_msgSend$initWithFormat:arguments:
++ _objc_msgSend$initWithSet:
++ _objc_msgSend$localizedStringForKey:value:table:localization:
++ _objc_msgSend$paymentPassWithUniqueIdentifier:didUpdateWithPlans:
++ _objc_msgSend$peerPaymentPaymentMode
++ _objc_msgSend$planBytes
++ _objc_msgSend$planBytesAtIndex:
++ _objc_msgSend$planBytesCount
++ _objc_msgSend$selectCommutePlansForPassStatement
++ _objc_msgSend$setCommutePlans:forPassWithUniqueID:
++ _objc_msgSend$updateCommutePlansForPassStatement
+- +[NPKAddPaymentPassController canAddPaymentPass]
+- +[NPKAudioPlayer _playSoundsWithIdentifier:]
+- +[NPKAudioPlayer _playSoundsWithIdentifier:].cold.1
+- +[NPKAudioPlayer playAccessScanCompleteHaptic]
+- +[NPKAudioPlayer playIdentityReaderConnectionCompleteHaptic]
+- +[NPKAudioPlayer playIdentityReaderConnectionStartHaptic]
+- +[NPKAudioPlayer playInAppPaymentFailureHaptic]
+- +[NPKAudioPlayer playInAppPaymentSuccessHaptic]
+- +[NPKAudioPlayer playProvisioningFailureHaptic]
+- +[NPKAudioPlayer playProvisioningSuccessHaptic]
+- +[NPKAudioPlayer playReadyToReorderHaptic]
+- +[NPKAudioPlayer playSessionStartFailureHaptic]
+- +[NPKAudioPlayer playSessionTimeoutHaptic]
+- +[NPKAudioPlayer playTerminalRequestedAuthenticationHaptic]
+- +[NPKAudioPlayer playTransactionAuthenticationHaptic]
+- +[NPKAudioPlayer playTransactionFailureHaptic]
+- +[NPKAudioPlayer playTransactionSuccessHaptic]
+- +[NPKAudioPlayer playWarsawHaptic]
+- +[NPKContactlessPaymentSessionManagerTransactionContext _NPKTransactionContextActionDescriptionForNPKTransactionContextAction:]
+- +[NPKContactlessPaymentSessionState _timestampDateFormatter]
+- +[NPKDoubleClickClientSuppressor endDoubleClickClientSuppressionWithRequestToken:]
+- +[NPKDoubleClickClientSuppressor isSuppressingDoubleClickClients]
+- +[NPKDoubleClickClientSuppressor requestDoubleClickClientSuppressionWithResponseHandler:]
+- +[NPKDoubleClickClientSuppressor sharedInstance]
+- +[NPKGreenTeaDataUsageResolver resolveGreenTeaDataUsageIfNecessary]
+- +[NPKGreenTeaDataUsageResolver sharedInstance]
+- +[NPKGreenTeaDataUsageResolver sharedInstance].cold.1
+- +[NPKLowPowerModeLocalDeviceMonitor sharedInstance]
+- +[NPKLowPowerModeLocalDeviceMonitor sharedInstance].cold.1
+- +[NPKMockPeerPaymentAccountManager sharedInstance]
+- +[NPKOpenURLRouter canOpenURLInSafariForURL:]
+- +[NPKOpenURLRouter openDeepLinkForURL:isSensitive:]
+- +[NPKOpenURLRouter openDeepLinkForURL:isSensitive:completion:]
+- +[NPKOpenURLRouter openURLInSafariForURL:fromPresentingController:]
+- +[NPKPassAssociatedInfoModel accountBalanceForAccount:]
+- +[NPKPaymentProvisioningFlowController _filterAssociatedCredentials:forProduct:]
+- +[NPKPaymentProvisioningFlowController _productsArrayFromPickerSection:]
+- +[NPKPaymentProvisioningFlowController(Errors) _displayableCouldNotAddCardErrorWithUnderlyingError:]
+- +[NPKPaymentProvisioningFlowController(Errors) _displayableErrorWithIneligibilityReason:learnMoreURL:]
+- +[NPKPaymentProvisioningFlowController(Errors) _displayableErrorWithUnderlyingVerificationError:]
+- +[NPKPaymentProvisioningFlowController(FlowSelection) _addAppleBalanceToSections:fromModel:]
+- +[NPKPaymentProvisioningFlowController(FlowSelection) _addCreditDebitItemToSection:webService:]
+- +[NPKPaymentProvisioningFlowController(FlowSelection) _addGroupedItemsToSections:fromModel:webService:paymentSection:]
+- +[NPKPaymentProvisioningFlowController(FlowSelection) _authContext]
+- +[NPKPaymentProvisioningFlowController(FlowSelection) _filteredPaymentSetupProducts:localCredentials:setupContext:webService:mobileCarrierRegion:readerModeSupported:digitalIssuanceSupported:]
+- +[NPKPaymentProvisioningFlowController(FlowSelection) _flowPickerSectionsWithContext:provisioningController:readerModeSupported:digitalIssuanceSupported:]
+- +[NPKPaymentProvisioningFlowController(FlowSelection) _isHSA2Enabled]
+- +[NPKPaymentProvisioningFlowController(FlowSelection) _localCredentials:containProduct:]
+- +[NPKPaymentProvisioningFlowController(ReaderMode) _physicalCardURLFromMetadata:forScale:]
+- +[NPKPaymentProvisioningFlowController(ReaderMode) _readerModeEntryAllowedForProduct:]
+- +[NPKPaymentProvisioningFlowController(ReaderMode) _readerModeResources]
+- +[NPKPaymentProvisioningFlowController(ReaderMode) _readerModeResources].cold.1
+- +[NPKPaymentProvisioningFlowControllerChooseCredentialsStepContext supportsSecureCoding]
+- +[NPKPaymentProvisioningFlowControllerChooseFlowStepContext supportsSecureCoding]
+- +[NPKPaymentProvisioningFlowControllerChooseProductStepContext supportsSecureCoding]
+- +[NPKPaymentProvisioningFlowControllerDigitalIssuanceAmountStepContext supportsSecureCoding]
+- +[NPKPaymentProvisioningFlowControllerDigitalIssuancePaymentStepContext supportsSecureCoding]
+- +[NPKPaymentProvisioningFlowControllerManualEntryStepContext supportsSecureCoding]
+- +[NPKPaymentProvisioningFlowControllerPreconditionsStepContext supportsSecureCoding]
+- +[NPKPaymentProvisioningFlowControllerReaderModeEntryStepContext supportsSecureCoding]
+- +[NPKPaymentProvisioningFlowControllerReaderModeIngestionStepContext supportsSecureCoding]
+- +[NPKPaymentProvisioningFlowControllerRequestContext supportsSecureCoding]
+- +[NPKPaymentProvisioningFlowControllerSecondaryManualEntryStepContext supportsSecureCoding]
+- +[NPKPaymentProvisioningFlowControllerWelcomeStepContext supportsSecureCoding]
+- +[NPKPaymentProvisioningFlowPickerItem itemWithIdentifier:products:]
+- +[NPKPaymentProvisioningFlowPickerItem itemWithIdentifier:title:products:]
+- +[NPKPaymentProvisioningFlowPickerSection sectionWithTitle:footer:productType:]
+- +[NPKPaymentProvisioningFlowPickerSection sectionWithTitle:footer:productType:items:]
+- +[NPKPaymentProvisioningFlowPickerSection sectionWithTitle:productType:]
+- +[NPKPaymentProvisioningFlowPickerSection sectionWithTitle:productType:items:]
+- +[NPKPaymentProvisioningFlowStepContext supportsSecureCoding]
+- +[NPKPaymentWebServiceStandaloneTargetDevice standalonePaymentWebServiceWithDelegate:]
+- +[NPKPeerPaymentAccountManager sharedInstance]
+- +[NPKPeerPaymentMessagesTransactionsManager sharedInstance]
+- +[NPKPeerPaymentMessagesTransactionsManager sharedInstance].cold.1
+- +[NPKProcessAssertion acquireBackgroundTaskAssertionWithExplanation:acquiredHandler:invalidationHandler:]
+- +[NPKProcessAssertion invalidateAssertion:]
+- +[NPKProtoStandaloneHelper _convertChooseCredentialsStepContext:protoContext:]
+- +[NPKProtoStandaloneHelper _convertChooseFlowStepContext:protoContext:]
+- +[NPKProtoStandaloneHelper _convertChooseProductStepContext:protoContext:]
+- +[NPKProtoStandaloneHelper _convertDigitalIssuanceAmountStepContext:protoContext:]
+- +[NPKProtoStandaloneHelper _convertDigitalIssuancePaymentStepContext:protoContext:]
+- +[NPKProtoStandaloneHelper _convertIssuerVerificationChannelsStepContext:protoContext:]
+- +[NPKProtoStandaloneHelper _convertIssuerVerificationCodeStepContext:protoContext:]
+- +[NPKProtoStandaloneHelper _convertIssuerVerificationFieldsStepContext:protoContext:]
+- +[NPKProtoStandaloneHelper _convertLocalDeviceManualEntry:protoContext:]
+- +[NPKProtoStandaloneHelper _convertLocalDeviceManualEntryProgress:protoContext:]
+- +[NPKProtoStandaloneHelper _convertManualEntryStepContext:protoContext:]
+- +[NPKProtoStandaloneHelper _convertMoreInformationStepContext:protoContext:]
+- +[NPKProtoStandaloneHelper _convertPasscodeUpgradeStepContext:protoContext:]
+- +[NPKProtoStandaloneHelper _convertProtoWelcomeStepContext:requestContext:]
+- +[NPKProtoStandaloneHelper _convertProvisioningProgressStepContext:protoContext:]
+- +[NPKProtoStandaloneHelper _convertProvisioningResultStepContext:protoContext:]
+- +[NPKProtoStandaloneHelper _convertReaderModeEntryStepContext:protoContext:]
+- +[NPKProtoStandaloneHelper _convertReaderModeIngestionStepContext:protoContext:]
+- +[NPKProtoStandaloneHelper _convertSecondaryManualEntryStepContext:protoContext:]
+- +[NPKProtoStandaloneHelper _convertTermsAndConditionsStepContext:protoContext:]
+- +[NPKProtoStandaloneHelper _convertWelcomeStepContext:protoContext:]
+- +[NPKProtoStandaloneHelper fromNPKProtoStandalonePaymentProvisioningFlowStepContext:requestContext:]
+- +[NPKProtoStandaloneHelper passImageSize]
+- +[NPKProtoStandaloneHelper passThumbnailImageSize]
+- +[NPKProtoStandaloneHelper setPassImageSize:]
+- +[NPKProtoStandaloneHelper setPassThumbnailImageSize:]
+- +[NPKProtoStandaloneHelper sha1hash:]
+- +[NPKProtoStandaloneHelper toJsonString:]
+- +[NPKProtoStandaloneHelper toNPKProtoStandaloneCreditAccountCredential:thumbnailSize:]
+- +[NPKProtoStandaloneHelper toNPKProtoStandaloneError:]
+- +[NPKProtoStandaloneHelper toNPKProtoStandalonePass:thumbnailSize:]
+- +[NPKProtoStandaloneHelper toNPKProtoStandalonePassType:]
+- +[NPKProtoStandaloneHelper toNPKProtoStandalonePaymentApplicationState:]
+- +[NPKProtoStandaloneHelper toNPKProtoStandalonePaymentCredential:]
+- +[NPKProtoStandaloneHelper toNPKProtoStandalonePaymentCredentialUnion:withFlowIdentifier:thumbnailSize:]
+- +[NPKProtoStandaloneHelper toNPKProtoStandalonePaymentDigitalIssuanceMetadata:]
+- +[NPKProtoStandaloneHelper toNPKProtoStandalonePaymentPass:thumbnailSize:]
+- +[NPKProtoStandaloneHelper toNPKProtoStandalonePaymentPassActivationState:]
+- +[NPKProtoStandaloneHelper toNPKProtoStandalonePaymentProvisioningFlowManualEntryStepContext:]
+- +[NPKProtoStandaloneHelper toNPKProtoStandalonePaymentProvisioningFlowPickerItem:]
+- +[NPKProtoStandaloneHelper toNPKProtoStandalonePaymentProvisioningFlowPickerSection:]
+- +[NPKProtoStandaloneHelper toNPKProtoStandalonePaymentProvisioningFlowStepContext:fromStep:toStep:]
+- +[NPKProtoStandaloneHelper toNPKProtoStandalonePaymentProvisioningMethodMetadata:]
+- +[NPKProtoStandaloneHelper toNPKProtoStandalonePaymentRemoteCredential:thumbnailSize:]
+- +[NPKProtoStandaloneHelper toNPKProtoStandalonePaymentSetupField:]
+- +[NPKProtoStandaloneHelper toNPKProtoStandalonePaymentSetupFieldType:]
+- +[NPKProtoStandaloneHelper toNPKProtoStandalonePaymentSetupMoreInfoItem:]
+- +[NPKProtoStandaloneHelper toNPKProtoStandalonePaymentSetupProduct:]
+- +[NPKProtoStandaloneHelper toNPKProtoStandalonePaymentSetupProductImageAssetURLs:]
+- +[NPKProtoStandaloneHelper toNPKProtoStandalonePaymentSetupProductPaymentOption:]
+- +[NPKProtoStandaloneHelper toNPKProtoStandaloneReaderModeIngestionState:]
+- +[NPKProtoStandaloneHelper toNPKProtoStandaloneVerificationChannel:]
+- +[NPKProtoStandaloneHelper toNPKProtoStandaloneVerificationChannelType:]
+- +[NPKProtoStandaloneHelper toPKPaymentSetupField:]
+- +[NPKProtoStandaloneHelper toPKPaymentSetupFieldType:]
+- +[NPKProtoStandaloneHelper toStringValue:]
+- +[NPKQuickPaymentSession _handleNewContactlessSession:]
+- +[NPKQuickPaymentSession _outstandingSessionHashTable]
+- +[NPKQuickPaymentSession _outstandingSessionHashTable].cold.1
+- +[NPKQuickPaymentSession hasOutstandingSessions]
+- +[NPKQuickPaymentSession sessionWithQueue:]
+- +[NPKSecureElement _initVariables]
+- +[NPKSecureElement _initVariables].cold.1
+- +[NPKSecureElement cachedIsInFailForward]
+- +[NPKSecureElement isInFailForward:]
+- +[NPKSecureElement sharedInstance]
+- +[NPKSecureElement sharedInstance].cold.1
+- +[NPKUserNotification generateModelIdentifierWith:]
+- +[NPKUserNotificationCenter sharedInstance]
+- +[NPKUserNotificationCenter sharedInstance].cold.1
+- +[NPKVehicleConnectivityCoordinator _secureElementPassMatchingAID:subcredentialIdentifier:]
+- +[NPKVehicleConnectivityCoordinator _subcredentialIdentifierForPass:]
+- +[PKPeerPaymentRecipient(NanoPassKit) npkSanitizedAddress:]
+- -[NPKAddPaymentPassController .cxx_destruct]
+- -[NPKAddPaymentPassController _remoteObjectProxyWithErrorHandler:]
+- -[NPKAddPaymentPassController _sendDidFinishWithPass:error:]
+- -[NPKAddPaymentPassController configuration]
+- -[NPKAddPaymentPassController didFinishCallbackSent]
+- -[NPKAddPaymentPassController didFinishWithPass:error:]
+- -[NPKAddPaymentPassController dismissWithCompletion:]
+- -[NPKAddPaymentPassController generateRequestWithCertificateChain:nonce:nonceSignature:completionHandler:]
+- -[NPKAddPaymentPassController initWithRequestConfiguration:delegate:]
+- -[NPKAddPaymentPassController presentWithCompletion:]
+- -[NPKAddPaymentPassController remoteService:didEstablishConnection:]
+- -[NPKAddPaymentPassController remoteService:didInterruptConnection:]
+- -[NPKAddPaymentPassController remoteService]
+- -[NPKAddPaymentPassController setConfiguration:]
+- -[NPKAddPaymentPassController setDidFinishCallbackSent:]
+- -[NPKAddPaymentPassController setRemoteService:]
+- -[NPKApplicationStateListener .cxx_destruct]
+- -[NPKApplicationStateListener _applicationStateWithLSApplicationState:]
+- -[NPKApplicationStateListener _handleApplicationChangeNotificationWithWorkspaceApplicationProxies:newStateResolver:]
+- -[NPKApplicationStateListener _retrieveAppState:]
+- -[NPKApplicationStateListener _updateStateWithNewState:completion:]
+- -[NPKApplicationStateListener appState:]
+- -[NPKApplicationStateListener applicationStateDidChange:]
+- -[NPKApplicationStateListener applicationsDidInstall:]
+- -[NPKApplicationStateListener applicationsDidUninstall:]
+- -[NPKApplicationStateListener cachedAppState]
+- -[NPKApplicationStateListener init]
+- -[NPKApplicationStateListener prewarm]
+- -[NPKApplicationStateListener registerObserver:]
+- -[NPKApplicationStateListener removeObserver:]
+- -[NPKAssertionController .cxx_destruct]
+- -[NPKAssertionController _inQueue_releaseAssertionWithOwner:]
+- -[NPKAssertionController _releaseAssertionFromOwnerObject:withDelay:completion:]
+- -[NPKAssertionController createAssertionForOwnerObject:withReason:]
+- -[NPKAssertionController initWithAssertionFactory:invalidator:]
+- -[NPKAssertionController releaseAssertionFromOwnerObject:]
+- -[NPKAssertionController releaseAssertionFromOwnerObject:withDelay:]
+- -[NPKAssertionController releaseAssertionFromOwnerObject:withDelay:completion:]
+- -[NPKAssertionWrapper .cxx_destruct]
+- -[NPKAssertionWrapper assertion]
+- -[NPKAssertionWrapper dealloc]
+- -[NPKAssertionWrapper description]
+- -[NPKAssertionWrapper initWithAssertion:invalidator:]
+- -[NPKAssertionWrapper invalidateAssertionExpected:]
+- -[NPKAssertionWrapper wrapperUUID]
+- -[NPKAuthIntentListener _handleButtonEvent:]
+- -[NPKAuthIntentListener _initializeHIDClient]
+- -[NPKAuthIntentListener dealloc]
+- -[NPKAuthIntentListener hidSystemClient]
+- -[NPKAuthIntentListener init]
+- -[NPKAuthIntentListener setHidSystemClient:]
+- -[NPKBarcodePaymentSession .cxx_destruct]
+- -[NPKBarcodePaymentSession _acquireExpressTransactionSuppressAssertion]
+- -[NPKBarcodePaymentSession _acquireNotificationSuppressionAssertion]
+- -[NPKBarcodePaymentSession _completedAuthenticationForTransaction:]
+- -[NPKBarcodePaymentSession _extendSessionTimeoutTimer]
+- -[NPKBarcodePaymentSession _fetchDecryptedBarcodeWithCredential:]
+- -[NPKBarcodePaymentSession _handleSessionTimeout]
+- -[NPKBarcodePaymentSession _handleUpdatedPaymentTransaction:]
+- -[NPKBarcodePaymentSession _handleUpdatedTransactionStatus:]
+- -[NPKBarcodePaymentSession _insertPaymentTransactionForActiveBarcode]
+- -[NPKBarcodePaymentSession _invokeExtensionToCollectPaymentInformation]
+- -[NPKBarcodePaymentSession _processedAuthenticationMechanismForTransaction:]
+- -[NPKBarcodePaymentSession _releaseExpressTransactionSuppressionAssertion]
+- -[NPKBarcodePaymentSession _releaseNotificationSuppressionAssertion]
+- -[NPKBarcodePaymentSession _startSessionTimeoutTimer]
+- -[NPKBarcodePaymentSession _stopSessionTimeoutTimer]
+- -[NPKBarcodePaymentSession _updateCurrentPaymentBarcodeWithBarcodeIdentifier:decryptedBarcodeCredential:error:]
+- -[NPKBarcodePaymentSession _updateCurrentTransactionStatus:transaction:]
+- -[NPKBarcodePaymentSession authorizationCredential]
+- -[NPKBarcodePaymentSession currentPaymentBarcode]
+- -[NPKBarcodePaymentSession currentTransactionStatus]
+- -[NPKBarcodePaymentSession currentTransaction]
+- -[NPKBarcodePaymentSession delegate]
+- -[NPKBarcodePaymentSession expressTransactionSuppressionAssertion]
+- -[NPKBarcodePaymentSession initWithPaymentPass:authorizationCredential:]
+- -[NPKBarcodePaymentSession invalidateSession]
+- -[NPKBarcodePaymentSession notificationSuppressionAssertion]
+- -[NPKBarcodePaymentSession paymentPass]
+- -[NPKBarcodePaymentSession paymentService]
+- -[NPKBarcodePaymentSession retryFetchingBarcode]
+- -[NPKBarcodePaymentSession serialQueue]
+- -[NPKBarcodePaymentSession sessionStarted]
+- -[NPKBarcodePaymentSession sessionTimeoutTimer]
+- -[NPKBarcodePaymentSession setAuthorizationCredential:]
+- -[NPKBarcodePaymentSession setCurrentPaymentBarcode:]
+- -[NPKBarcodePaymentSession setCurrentTransaction:]
+- -[NPKBarcodePaymentSession setCurrentTransactionStatus:]
+- -[NPKBarcodePaymentSession setDelegate:]
+- -[NPKBarcodePaymentSession setExpressTransactionSuppressionAssertion:]
+- -[NPKBarcodePaymentSession setNotificationSuppressionAssertion:]
+- -[NPKBarcodePaymentSession setPaymentService:]
+- -[NPKBarcodePaymentSession setSerialQueue:]
+- -[NPKBarcodePaymentSession setSessionStarted:]
+- -[NPKBarcodePaymentSession setSessionTimeoutTimer:]
+- -[NPKBarcodePaymentSession setSubmittingAuthenticationResult:]
+- -[NPKBarcodePaymentSession startSession]
+- -[NPKBarcodePaymentSession submitPinCode:]
+- -[NPKBarcodePaymentSession submitUserIntentionConfirmation:]
+- -[NPKBarcodePaymentSession submittingAuthenticationResult]
+- -[NPKBarcodePaymentSession transactionSourceIdentifier:didReceiveTransaction:]
+- -[NPKBluetoothConnectivityCoordinator .cxx_destruct]
+- -[NPKBluetoothConnectivityCoordinator bluetoothAvailableAndEnabled]
+- -[NPKBluetoothConnectivityCoordinator delegate]
+- -[NPKBluetoothConnectivityCoordinator init]
+- -[NPKBluetoothConnectivityCoordinator isBluetoothEnabled]
+- -[NPKBluetoothConnectivityCoordinator setBluetoothAvailableAndEnabled:]
+- -[NPKBluetoothConnectivityCoordinator setDelegate:]
+- -[NPKButtonListener .cxx_destruct]
+- -[NPKButtonListener _handlerQueue_buttonHandler]
+- -[NPKButtonListener buttonHandler]
+- -[NPKButtonListener handlerQueue]
+- -[NPKButtonListener initWithHandlerQueue:]
+- -[NPKButtonListener setButtonHandler:]
+- -[NPKButtonListener setHandlerQueue:]
+- -[NPKContactlessPaymentSessionAnalyticsManager .cxx_destruct]
+- -[NPKContactlessPaymentSessionAnalyticsManager contactlessPaymentSessionManager:didChangeSessionState:]
+- -[NPKContactlessPaymentSessionAnalyticsManager init]
+- -[NPKContactlessPaymentSessionAnalyticsManager previousState]
+- -[NPKContactlessPaymentSessionAnalyticsManager setPreviousState:]
+- -[NPKContactlessPaymentSessionManager .cxx_destruct]
+- -[NPKContactlessPaymentSessionManager _baseSessionStateForUpdate]
+- -[NPKContactlessPaymentSessionManager _canHandleRKEActionForTileItem:pass:outAction:outFunction:outError:]
+- -[NPKContactlessPaymentSessionManager _cleanupBarcodePaymentSession]
+- -[NPKContactlessPaymentSessionManager _cleanupQuickPaymentSession]
+- -[NPKContactlessPaymentSessionManager _handleIfPossibleIdentityUnavailablePassWithSession:]
+- -[NPKContactlessPaymentSessionManager _handleRKEActionRequestedForPass:action:function:withSession:completion:]
+- -[NPKContactlessPaymentSessionManager _handleServiceModeRequestEnded]
+- -[NPKContactlessPaymentSessionManager _handleSessionTimerFired]
+- -[NPKContactlessPaymentSessionManager _handleValueAddedServiceTransactions:forValueAddedServicePasses:paymentTransaction:outUserInterventionRequiredPasses:]
+- -[NPKContactlessPaymentSessionManager _managerContextForContactlessInterfaceTransactionContext:]
+- -[NPKContactlessPaymentSessionManager _paymentBalancesFromTransitAppletBalances:]
+- -[NPKContactlessPaymentSessionManager _prepareSessionStateForSendingToObservers:]
+- -[NPKContactlessPaymentSessionManager _registerForServiceModeRequestNotification]
+- -[NPKContactlessPaymentSessionManager _sendSessionStateToObservers:]
+- -[NPKContactlessPaymentSessionManager _sessionStateForBarcodeTransactionStatus:paymentBarcode:transaction:]
+- -[NPKContactlessPaymentSessionManager _sessionStateForExpressTransactionStatus:pass:paymentApplication:concreteTransactions:ephemeralTransaction:mutatedBalances:appletState:]
+- -[NPKContactlessPaymentSessionManager _sessionStateForPaymentBarcode:]
+- -[NPKContactlessPaymentSessionManager _sessionStateForTransactionContext:]
+- -[NPKContactlessPaymentSessionManager _sessionStateForUserCanceledBarcodeTransaction]
+- -[NPKContactlessPaymentSessionManager _startSessionTimerWithReason:]
+- -[NPKContactlessPaymentSessionManager _stopSessionTimer]
+- -[NPKContactlessPaymentSessionManager _updatedPassItemFieldWithPaymentPass:transitAppletBalances:appletState:paymentApplication:]
+- -[NPKContactlessPaymentSessionManager barcodePaymentSession:didReceivePaymentBarcode:]
+- -[NPKContactlessPaymentSessionManager barcodePaymentSession:didUpdateTransactionStatus:withTransaction:]
+- -[NPKContactlessPaymentSessionManager barcodePaymentSession]
+- -[NPKContactlessPaymentSessionManager cleanupDelegate]
+- -[NPKContactlessPaymentSessionManager contactlessPaymentInterfaceVisible]
+- -[NPKContactlessPaymentSessionManager credential]
+- -[NPKContactlessPaymentSessionManager handleAuthorize18013RequestWithDataToRelease:credential:]
+- -[NPKContactlessPaymentSessionManager handleAutomaticSelectionValueAddedServicePasses:]
+- -[NPKContactlessPaymentSessionManager handleBarcodePaymentPinCodeEntry:]
+- -[NPKContactlessPaymentSessionManager handleBarcodePaymentUserIntentionConfirmation:]
+- -[NPKContactlessPaymentSessionManager handleContactlessPaymentInterfaceDidAppear]
+- -[NPKContactlessPaymentSessionManager handleContactlessPaymentInterfaceDidDisappear]
+- -[NPKContactlessPaymentSessionManager handleContactlessPaymentSession:authenticationExpected:]
+- -[NPKContactlessPaymentSessionManager handleCredential:]
+- -[NPKContactlessPaymentSessionManager handleDidPresentPasscodeAuthentication]
+- -[NPKContactlessPaymentSessionManager handleDoublePressReceivedAtDate:]
+- -[NPKContactlessPaymentSessionManager handleEndBarcodePaymentSessionRequestedByUI]
+- -[NPKContactlessPaymentSessionManager handleEndQuickPaymentSessionRequestedByUI]
+- -[NPKContactlessPaymentSessionManager handleEndSessionRequestedForReason:]
+- -[NPKContactlessPaymentSessionManager handleExpressTransactionStatus:forPass:]
+- -[NPKContactlessPaymentSessionManager handleExpressTransactionStatus:forPass:paymentApplication:concreteTransactions:ephemeralTransaction:mutatedBalances:appletState:]
+- -[NPKContactlessPaymentSessionManager handleFailureToReleaseDataWithError:]
+- -[NPKContactlessPaymentSessionManager handleFieldEntryEvent]
+- -[NPKContactlessPaymentSessionManager handleFieldExitEvent]
+- -[NPKContactlessPaymentSessionManager handleISO18013DataReleaseCanceled]
+- -[NPKContactlessPaymentSessionManager handleISO18013Request:withReaderAuthInfo:]
+- -[NPKContactlessPaymentSessionManager handleISO18013TransactionStarted]
+- -[NPKContactlessPaymentSessionManager handleLocalAuthenticationError:]
+- -[NPKContactlessPaymentSessionManager handlePaymentBarcodeRequested]
+- -[NPKContactlessPaymentSessionManager handleRKEActionRequestedForTileItem:pass:completion:]
+- -[NPKContactlessPaymentSessionManager handleRKETransactionForPass:fromTile:]
+- -[NPKContactlessPaymentSessionManager handleRetryLoadingPaymentBarcodeRequested]
+- -[NPKContactlessPaymentSessionManager handleServiceModeRequestedForPass:]
+- -[NPKContactlessPaymentSessionManager handleStandaloneTransactionWithAction:forPass:]
+- -[NPKContactlessPaymentSessionManager handleStandaloneTransactionWithAction:forPass:withAccessory:]
+- -[NPKContactlessPaymentSessionManager handleTransactionStarted]
+- -[NPKContactlessPaymentSessionManager handleUserSelectedPass:]
+- -[NPKContactlessPaymentSessionManager init]
+- -[NPKContactlessPaymentSessionManager lastSessionState]
+- -[NPKContactlessPaymentSessionManager observersManager]
+- -[NPKContactlessPaymentSessionManager passesDataSource:didAddPasses:]
+- -[NPKContactlessPaymentSessionManager passesDataSource:didRemovePasses:]
+- -[NPKContactlessPaymentSessionManager passesDataSource:didUpdatePasses:]
+- -[NPKContactlessPaymentSessionManager passesDataSourceDidReloadPasses:]
+- -[NPKContactlessPaymentSessionManager passesDataSourceDidReorderPasses:]
+- -[NPKContactlessPaymentSessionManager paymentSession:didActivatePass:]
+- -[NPKContactlessPaymentSessionManager paymentSession:didCompleteTransactionForReason:withTransactionContext:shouldCleanupSession:]
+- -[NPKContactlessPaymentSessionManager paymentSession:didFailTransactionForPass:withValueAddedServiceTransactions:forValueAddedServicePasses:]
+- -[NPKContactlessPaymentSessionManager paymentSession:didMakePassCurrent:]
+- -[NPKContactlessPaymentSessionManager paymentSession:didReceive18013Request:readerAuthInfo:]
+- -[NPKContactlessPaymentSessionManager paymentSession:willActivatePass:]
+- -[NPKContactlessPaymentSessionManager paymentSessionDidEnterField:]
+- -[NPKContactlessPaymentSessionManager paymentSessionDidExitField:]
+- -[NPKContactlessPaymentSessionManager paymentSessionDidReceiveActivationError:]
+- -[NPKContactlessPaymentSessionManager paymentSessionDidReceiveActivityTimeout:]
+- -[NPKContactlessPaymentSessionManager paymentSessionDidReceiveAuthorizationTimeout:]
+- -[NPKContactlessPaymentSessionManager paymentSessionDidReceiveCredential:]
+- -[NPKContactlessPaymentSessionManager paymentSessionDidReceiveStartTransaction:]
+- -[NPKContactlessPaymentSessionManager paymentSessionDidReceiveTransactionError:]
+- -[NPKContactlessPaymentSessionManager paymentSessionDidSelectPayment:]
+- -[NPKContactlessPaymentSessionManager paymentSessionDidSelectValueAddedService:]
+- -[NPKContactlessPaymentSessionManager paymentSessionDidStart:]
+- -[NPKContactlessPaymentSessionManager paymentSessionIsWaitingToStart:]
+- -[NPKContactlessPaymentSessionManager quickPaymentSession]
+- -[NPKContactlessPaymentSessionManager registerObserver:]
+- -[NPKContactlessPaymentSessionManager registerObserver:withRelativePriority:]
+- -[NPKContactlessPaymentSessionManager serviceModeRequestNotifyToken]
+- -[NPKContactlessPaymentSessionManager sessionTimer]
+- -[NPKContactlessPaymentSessionManager setBarcodePaymentSession:]
+- -[NPKContactlessPaymentSessionManager setCleanupDelegate:]
+- -[NPKContactlessPaymentSessionManager setContactlessPaymentInterfaceVisible:]
+- -[NPKContactlessPaymentSessionManager setCredential:]
+- -[NPKContactlessPaymentSessionManager setLastSessionState:]
+- -[NPKContactlessPaymentSessionManager setObserversManager:]
+- -[NPKContactlessPaymentSessionManager setQuickPaymentSession:]
+- -[NPKContactlessPaymentSessionManager setServiceModeRequestNotifyToken:]
+- -[NPKContactlessPaymentSessionManager setSessionTimer:]
+- -[NPKContactlessPaymentSessionManager setUserSelectedPass:]
+- -[NPKContactlessPaymentSessionManager unregisterObserver:]
+- -[NPKContactlessPaymentSessionManager userSelectedPass]
+- -[NPKContactlessPaymentSessionManagerTransactionContext .cxx_destruct]
+- -[NPKContactlessPaymentSessionManagerTransactionContext accessory]
+- -[NPKContactlessPaymentSessionManagerTransactionContext action]
+- -[NPKContactlessPaymentSessionManagerTransactionContext authenticationRequested]
+- -[NPKContactlessPaymentSessionManagerTransactionContext description]
+- -[NPKContactlessPaymentSessionManagerTransactionContext displayablePassItems]
+- -[NPKContactlessPaymentSessionManagerTransactionContext forceToTransitTypeTransactionWithTransactionStatus:]
+- -[NPKContactlessPaymentSessionManagerTransactionContext init]
+- -[NPKContactlessPaymentSessionManagerTransactionContext passTile]
+- -[NPKContactlessPaymentSessionManagerTransactionContext paymentBarcode]
+- -[NPKContactlessPaymentSessionManagerTransactionContext paymentMethodDescription]
+- -[NPKContactlessPaymentSessionManagerTransactionContext paymentTransaction]
+- -[NPKContactlessPaymentSessionManagerTransactionContext readerAuthInfo]
+- -[NPKContactlessPaymentSessionManagerTransactionContext releaseDataRequest]
+- -[NPKContactlessPaymentSessionManagerTransactionContext releaseDataStatus]
+- -[NPKContactlessPaymentSessionManagerTransactionContext setAccessory:]
+- -[NPKContactlessPaymentSessionManagerTransactionContext setAction:]
+- -[NPKContactlessPaymentSessionManagerTransactionContext setAuthenticationRequested:]
+- -[NPKContactlessPaymentSessionManagerTransactionContext setDisplayablePassItems:]
+- -[NPKContactlessPaymentSessionManagerTransactionContext setPassTile:]
+- -[NPKContactlessPaymentSessionManagerTransactionContext setPaymentBarcode:]
+- -[NPKContactlessPaymentSessionManagerTransactionContext setPaymentMethodDescription:]
+- -[NPKContactlessPaymentSessionManagerTransactionContext setPaymentTransaction:]
+- -[NPKContactlessPaymentSessionManagerTransactionContext setReaderAuthInfo:]
+- -[NPKContactlessPaymentSessionManagerTransactionContext setReleaseDataRequest:]
+- -[NPKContactlessPaymentSessionManagerTransactionContext setReleaseDataStatus:]
+- -[NPKContactlessPaymentSessionManagerTransactionContext setTransactionDescription:]
+- -[NPKContactlessPaymentSessionManagerTransactionContext setTransactionPass:]
+- -[NPKContactlessPaymentSessionManagerTransactionContext setTransactionStatus:]
+- -[NPKContactlessPaymentSessionManagerTransactionContext setTransactionType:]
+- -[NPKContactlessPaymentSessionManagerTransactionContext setValueAddedServicePass:]
+- -[NPKContactlessPaymentSessionManagerTransactionContext transactionDescription]
+- -[NPKContactlessPaymentSessionManagerTransactionContext transactionPass]
+- -[NPKContactlessPaymentSessionManagerTransactionContext transactionStatus]
+- -[NPKContactlessPaymentSessionManagerTransactionContext transactionType]
+- -[NPKContactlessPaymentSessionManagerTransactionContext updateWithConcreteTransactions:ephemeralTransaction:updatedPassTransitItems:paymentApplication:]
+- -[NPKContactlessPaymentSessionManagerTransactionContext valueAddedServicePass]
+- -[NPKContactlessPaymentSessionSoundsManager contactlessPaymentSessionManager:didChangeSessionState:]
+- -[NPKContactlessPaymentSessionSoundsManager didSelectPassFromField]
+- -[NPKContactlessPaymentSessionState .cxx_destruct]
+- -[NPKContactlessPaymentSessionState _isEqualToSessionState:]
+- -[NPKContactlessPaymentSessionState canChangePass]
+- -[NPKContactlessPaymentSessionState completionReason]
+- -[NPKContactlessPaymentSessionState contactlessInterfaceReady]
+- -[NPKContactlessPaymentSessionState copyWithZone:]
+- -[NPKContactlessPaymentSessionState currentPass]
+- -[NPKContactlessPaymentSessionState description]
+- -[NPKContactlessPaymentSessionState doublePressReceived]
+- -[NPKContactlessPaymentSessionState doublePressTimestamp]
+- -[NPKContactlessPaymentSessionState expressTransactionStatus]
+- -[NPKContactlessPaymentSessionState failureType]
+- -[NPKContactlessPaymentSessionState hasSession]
+- -[NPKContactlessPaymentSessionState hash]
+- -[NPKContactlessPaymentSessionState inField]
+- -[NPKContactlessPaymentSessionState inServiceMode]
+- -[NPKContactlessPaymentSessionState isArmed]
+- -[NPKContactlessPaymentSessionState isEqual:]
+- -[NPKContactlessPaymentSessionState isSessionStateValid]
+- -[NPKContactlessPaymentSessionState isSwitchingSessionType]
+- -[NPKContactlessPaymentSessionState passActivating]
+- -[NPKContactlessPaymentSessionState serviceModeRequestedPass]
+- -[NPKContactlessPaymentSessionState sessionAuthorized]
+- -[NPKContactlessPaymentSessionState sessionStarted]
+- -[NPKContactlessPaymentSessionState sessionType]
+- -[NPKContactlessPaymentSessionState sessionWaitingToStart]
+- -[NPKContactlessPaymentSessionState setCanChangePass:]
+- -[NPKContactlessPaymentSessionState setCompletionReason:]
+- -[NPKContactlessPaymentSessionState setContactlessInterfaceReady:]
+- -[NPKContactlessPaymentSessionState setCurrentPass:]
+- -[NPKContactlessPaymentSessionState setDoublePressReceived:]
+- -[NPKContactlessPaymentSessionState setDoublePressTimestamp:]
+- -[NPKContactlessPaymentSessionState setExpressTransactionStatus:]
+- -[NPKContactlessPaymentSessionState setFailureType:]
+- -[NPKContactlessPaymentSessionState setHasSession:]
+- -[NPKContactlessPaymentSessionState setInField:]
+- -[NPKContactlessPaymentSessionState setInServiceMode:]
+- -[NPKContactlessPaymentSessionState setIsSwitchingSessionType:]
+- -[NPKContactlessPaymentSessionState setPassActivating:]
+- -[NPKContactlessPaymentSessionState setServiceModeRequestedPass:]
+- -[NPKContactlessPaymentSessionState setSessionAuthorized:]
+- -[NPKContactlessPaymentSessionState setSessionStarted:]
+- -[NPKContactlessPaymentSessionState setSessionType:]
+- -[NPKContactlessPaymentSessionState setSessionWaitingToStart:]
+- -[NPKContactlessPaymentSessionState setTimestamp:]
+- -[NPKContactlessPaymentSessionState setTransactionContext:]
+- -[NPKContactlessPaymentSessionState setUniqueID:]
+- -[NPKContactlessPaymentSessionState stateForNonModalDisplay]
+- -[NPKContactlessPaymentSessionState timestamp]
+- -[NPKContactlessPaymentSessionState transactionContext]
+- -[NPKContactlessPaymentSessionState uniqueID]
+- -[NPKContactlessPaymentSessionState userRejectedReleaseData]
+- -[NPKContactlessPaymentSessionState validityInterval]
+- -[NPKDoubleClickClientSuppressor .cxx_destruct]
+- -[NPKDoubleClickClientSuppressor _acquireSuppressionAssertionIfNeededWithCompletion:]
+- -[NPKDoubleClickClientSuppressor _acquireSuppressionAssertionWithCompletion:]
+- -[NPKDoubleClickClientSuppressor _releaseSuppressionAssertion]
+- -[NPKDoubleClickClientSuppressor dealloc]
+- -[NPKDoubleClickClientSuppressor endDoubleClickClientSuppressionWithRequestToken:]
+- -[NPKDoubleClickClientSuppressor init]
+- -[NPKDoubleClickClientSuppressor isSuppressingDoubleClickClients]
+- -[NPKDoubleClickClientSuppressor nextSuppressionRequestToken]
+- -[NPKDoubleClickClientSuppressor requestDoubleClickClientSuppressionWithResponseHandler:]
+- -[NPKDoubleClickClientSuppressor setNextSuppressionRequestToken:]
+- -[NPKDoubleClickClientSuppressor setSuppressionAssertion:]
+- -[NPKDoubleClickClientSuppressor setSuppressionRequestTokens:]
+- -[NPKDoubleClickClientSuppressor setSuppressorQueue:]
+- -[NPKDoubleClickClientSuppressor suppressionAssertion]
+- -[NPKDoubleClickClientSuppressor suppressionRequestTokens]
+- -[NPKDoubleClickClientSuppressor suppressorQueue]
+- -[NPKDoublePressDelegationAssertion .cxx_destruct]
+- -[NPKDoublePressDelegationAssertion _handleInterruption]
+- -[NPKDoublePressDelegationAssertion _handleInvalidation]
+- -[NPKDoublePressDelegationAssertion _resyncState]
+- -[NPKDoublePressDelegationAssertion delegate]
+- -[NPKDoublePressDelegationAssertion handleDelegatedDoublePressEventWithSource:]
+- -[NPKDoublePressDelegationAssertion handleTerminalAuthenticationRequestedForPassWithUniqueID:]
+- -[NPKDoublePressDelegationAssertion initWithQueue:]
+- -[NPKDoublePressDelegationAssertion setDelegate:]
+- -[NPKDoublePressSuppressionAssertion _handleInterruption]
+- -[NPKDoublePressSuppressionAssertion _handleInvalidation]
+- -[NPKDoublePressSuppressionAssertion _resyncStateWithCompletion:]
+- -[NPKDoublePressSuppressionAssertion _resyncState]
+- -[NPKDoublePressSuppressionAssertion initWithQueue:]
+- -[NPKDoublePressSuppressionAssertion invalidate]
+- -[NPKDoublePressSuppressionAssertion requestSuppression]
+- -[NPKDoublePressSuppressionAssertion setRequestSuppression:]
+- -[NPKExpressModeSettingsCoordinator .cxx_destruct]
+- -[NPKExpressModeSettingsCoordinator _checkForConflictsInEnablingExpressForPass:completion:]
+- -[NPKExpressModeSettingsCoordinator _enableExpressForPass:mode:withCredential:]
+- -[NPKExpressModeSettingsCoordinator _expressStateForPassWithUniqueID:]
+- -[NPKExpressModeSettingsCoordinator _expressStateForPassWithUniqueID:fromControllerState:]
+- -[NPKExpressModeSettingsCoordinator _handleExpressStateChange]
+- -[NPKExpressModeSettingsCoordinator _handleFailedEnableExpress]
+- -[NPKExpressModeSettingsCoordinator _handleFailedPassUpgrade]
+- -[NPKExpressModeSettingsCoordinator _handleFailedUserAuthentication]
+- -[NPKExpressModeSettingsCoordinator _handleSuccessForPass:]
+- -[NPKExpressModeSettingsCoordinator _handleSuccessfulUserAuthenticationWithCredential:forPass:withExpressMode:]
+- -[NPKExpressModeSettingsCoordinator _handleUserCancelled]
+- -[NPKExpressModeSettingsCoordinator _invokeCompletionHandlerWithSuccess:]
+- -[NPKExpressModeSettingsCoordinator _isExpressMode:supportedForPassWithUniqueID:]
+- -[NPKExpressModeSettingsCoordinator _isNFCExpressModeSupportedForPass:]
+- -[NPKExpressModeSettingsCoordinator _newExpressStateForMode:pass:enable:]
+- -[NPKExpressModeSettingsCoordinator _requestUserAuthenticationForPass:withExpressMode:]
+- -[NPKExpressModeSettingsCoordinator _upgradeExpressModeForPass:withCredential:]
+- -[NPKExpressModeSettingsCoordinator callbackQueue]
+- -[NPKExpressModeSettingsCoordinator completionHandler]
+- -[NPKExpressModeSettingsCoordinator currentContext]
+- -[NPKExpressModeSettingsCoordinator currentPass]
+- -[NPKExpressModeSettingsCoordinator currentState]
+- -[NPKExpressModeSettingsCoordinator delegate]
+- -[NPKExpressModeSettingsCoordinator disableExpressForPass:mode:completionHandler:]
+- -[NPKExpressModeSettingsCoordinator eligibleExpressUpgradeRequestsForPass:]
+- -[NPKExpressModeSettingsCoordinator enableExpressForPass:mode:completionHandler:]
+- -[NPKExpressModeSettingsCoordinator expressAppletIdentifiersForPass:]
+- -[NPKExpressModeSettingsCoordinator expressPassController]
+- -[NPKExpressModeSettingsCoordinator expressStateForPass:]
+- -[NPKExpressModeSettingsCoordinator expressStateUpdatePending]
+- -[NPKExpressModeSettingsCoordinator inSessionExpressEnabledForPass:]
+- -[NPKExpressModeSettingsCoordinator initWithExpressPassController:workQueue:callbackQueue:]
+- -[NPKExpressModeSettingsCoordinator isExpressMode:supportedForPass:]
+- -[NPKExpressModeSettingsCoordinator needUpgradeForPass:]
+- -[NPKExpressModeSettingsCoordinator notifyToken]
+- -[NPKExpressModeSettingsCoordinator passDataSource]
+- -[NPKExpressModeSettingsCoordinator previousPassStates]
+- -[NPKExpressModeSettingsCoordinator setCallbackQueue:]
+- -[NPKExpressModeSettingsCoordinator setCompletionHandler:]
+- -[NPKExpressModeSettingsCoordinator setCurrentContext:]
+- -[NPKExpressModeSettingsCoordinator setCurrentPass:]
+- -[NPKExpressModeSettingsCoordinator setCurrentState:]
+- -[NPKExpressModeSettingsCoordinator setDelegate:]
+- -[NPKExpressModeSettingsCoordinator setExpressPassController:]
+- -[NPKExpressModeSettingsCoordinator setExpressStateUpdatePending:]
+- -[NPKExpressModeSettingsCoordinator setNotifyToken:]
+- -[NPKExpressModeSettingsCoordinator setPassDataSource:]
+- -[NPKExpressModeSettingsCoordinator setPreviousPassStates:]
+- -[NPKExpressModeSettingsCoordinator setWorkQueue:]
+- -[NPKExpressModeSettingsCoordinator workQueue]
+- -[NPKExpressPassController .cxx_destruct]
+- -[NPKExpressPassController _canProceedWithTransactionForPass:selector:]
+- -[NPKExpressPassController _expressPassInformationWithTechnologyType:]
+- -[NPKExpressPassController _expressPassesInformationWithAutomaticSelectionTechnologyType:]
+- -[NPKExpressPassController _expressPassesInformationWithTCIs:]
+- -[NPKExpressPassController _handleCarKeyExpressEnteredNotification:]
+- -[NPKExpressPassController _handleCarKeyExpressExitedNotification:]
+- -[NPKExpressPassController _handleCarKeyRKEActionCompletedNotification:]
+- -[NPKExpressPassController _handleCarKeyRangingEndedNotification:]
+- -[NPKExpressPassController _handleCarKeyRangingStartedNotification:]
+- -[NPKExpressPassController _handleCarKeySessionEndedNotification:]
+- -[NPKExpressPassController _handleCarKeySessionEndedWithErrorNotification:]
+- -[NPKExpressPassController _handleCarKeyVehicleConnectedNotification:]
+- -[NPKExpressPassController _handleCarKeyVehicleDisconnectedNotification:]
+- -[NPKExpressPassController _handleCarKeyVehicleLockedNotification:]
+- -[NPKExpressPassController _handleCarKeyVehicleUnlockedNotification:]
+- -[NPKExpressPassController _handleEnterNearFieldNotification:]
+- -[NPKExpressPassController _handleExitNearFieldNotification:]
+- -[NPKExpressPassController _handleExpressTransactionEndNotification:]
+- -[NPKExpressPassController _handleExpressTransactionFailedNotification:]
+- -[NPKExpressPassController _handleExpressTransactionStartNotification:]
+- -[NPKExpressPassController _handleExpressTransactionTimeOutNotification:]
+- -[NPKExpressPassController _handleHomeKeyLockConnectedNotification:]
+- -[NPKExpressPassController _handleHomeKeyLockDisconnectedNotification:]
+- -[NPKExpressPassController _handleHomeKeyLockStatusChangedNotification:]
+- -[NPKExpressPassController _handlePassesLibraryChangedNotification:]
+- -[NPKExpressPassController _handleStandaloneTransactionDoneNotification:]
+- -[NPKExpressPassController _hasNoTransactionStartOrEndNotificationForTechnologyType:]
+- -[NPKExpressPassController _internalQueue_startFieldDetector]
+- -[NPKExpressPassController _internalQueue_stopFieldDetector]
+- -[NPKExpressPassController _internalQueue_updateExpressPasses]
+- -[NPKExpressPassController _onqueue_transactionCompletedForRKEAction:function:withApplicationIdentifier:applicationKeyIdentifier:]
+- -[NPKExpressPassController _onqueue_transactionCompletedForStandaloneTransactionEvent:withApplicationIdentifier:applicationKeyIdentifier:]
+- -[NPKExpressPassController _onqueue_transactionEndedWithApplicationIdentifier:applicationKeyIdentifier:]
+- -[NPKExpressPassController _onqueue_transactionFailedWithApplicationIdentifier:applicationKeyIdentifier:]
+- -[NPKExpressPassController _onqueue_transactionStartedWithApplicationIdentifier:applicationKeyIdentifier:]
+- -[NPKExpressPassController _operationSourceFromRawValue:]
+- -[NPKExpressPassController _parseExpressNotificationObject:outApplicationIdentifier:outApplicationKeyIdentifier:]
+- -[NPKExpressPassController _parseHomeKeyUWBExpressNotificationObject:outApplicationIdentifier:outApplicationKeyIdentifier:outReaderIdentifier:outTimestamp:outTransactionLockStatus:outLockOperationSource:]
+- -[NPKExpressPassController _parseRKEActionNotificationObject:outApplicationIdentifier:outApplicationKeyIdentifier:outFunctionNumber:outActionNumber:outExecutionStatusNumber:outErrorMessage:]
+- -[NPKExpressPassController _queue_expressPassForTransactionApplicationIdentifier:transactionApplicationKeyIdentifier:]
+- -[NPKExpressPassController _queue_siblingExpressPassesForExpressPass:applicationIdentifier:]
+- -[NPKExpressPassController _startListeningForCarKeyNotifications]
+- -[NPKExpressPassController _startListeningForExpressNotifications]
+- -[NPKExpressPassController _startListeningForGenericNotifications]
+- -[NPKExpressPassController _startListeningForHomeKeyNotifications]
+- -[NPKExpressPassController _stopListeningForExpressNotifications]
+- -[NPKExpressPassController _transactionEventFromLockStatus:]
+- -[NPKExpressPassController _transitionToCompletedRKEAction:function:forExpressPass:]
+- -[NPKExpressPassController _transitionToStandaloneTransactionEvent:forExpressPass:]
+- -[NPKExpressPassController _transitionToStandaloneTransactionEvent:forExpressPass:withExpressUWBInfo:]
+- -[NPKExpressPassController _transitionToStatus:forExpressPass:paymentApplicationIdentifier:]
+- -[NPKExpressPassController currentApplicationIdentifier]
+- -[NPKExpressPassController currentSubCredentialIdentifier]
+- -[NPKExpressPassController currentTransactionExpressPassInformation]
+- -[NPKExpressPassController currentTransactionPass]
+- -[NPKExpressPassController dealloc]
+- -[NPKExpressPassController delegate]
+- -[NPKExpressPassController distributedNotificationCenter]
+- -[NPKExpressPassController expressPassConfigurations]
+- -[NPKExpressPassController expressPasses]
+- -[NPKExpressPassController fieldDetectorDidEnterField:withProperties:]
+- -[NPKExpressPassController fieldDetector]
+- -[NPKExpressPassController initWithDelegate:]
+- -[NPKExpressPassController initWithPaymentService:passLibrary:distributedNotificationCenter:delegate:]
+- -[NPKExpressPassController passLibrary]
+- -[NPKExpressPassController paymentService]
+- -[NPKExpressPassController reset]
+- -[NPKExpressPassController setCurrentApplicationIdentifier:]
+- -[NPKExpressPassController setCurrentSubCredentialIdentifier:]
+- -[NPKExpressPassController setCurrentTransactionExpressPassInformation:]
+- -[NPKExpressPassController setCurrentTransactionPass:]
+- -[NPKExpressPassController setDelegate:]
+- -[NPKExpressPassController setExpressPassConfigurations:]
+- -[NPKExpressPassController setExpressPasses:]
+- -[NPKExpressPassController setFieldDetector:]
+- -[NPKExpressPassController updateExpressPassesSynchronous]
+- -[NPKExpressPassController updateExpressPasses]
+- -[NPKExpressPassesManager .cxx_destruct]
+- -[NPKExpressPassesManager currentPasses]
+- -[NPKExpressPassesManager currentPaymentPasses]
+- -[NPKExpressPassesManager currentSecureElementPasses]
+- -[NPKExpressPassesManager defaultPaymentPass]
+- -[NPKExpressPassesManager enableRemoteUpdates]
+- -[NPKExpressPassesManager expiredPasses]
+- -[NPKExpressPassesManager init]
+- -[NPKExpressPassesManager movePassAtIndex:toIndex:]
+- -[NPKExpressPassesManager observers]
+- -[NPKExpressPassesManager passForUniqueID:]
+- -[NPKExpressPassesManager passes]
+- -[NPKExpressPassesManager paymentPasses]
+- -[NPKExpressPassesManager registerObserver:]
+- -[NPKExpressPassesManager reloadPassesWithCompletion:]
+- -[NPKExpressPassesManager reloadPasses]
+- -[NPKExpressPassesManager removePass:]
+- -[NPKExpressPassesManager secureElementPasses]
+- -[NPKExpressPassesManager setCurrentPasses:]
+- -[NPKExpressPassesManager setCurrentPaymentPasses:]
+- -[NPKExpressPassesManager setCurrentSecureElementPasses:]
+- -[NPKExpressPassesManager setDefaultPaymentPass:]
+- -[NPKExpressPassesManager setObservers:]
+- -[NPKExpressPassesManager shouldAllowMovingItemAtIndex:toIndex:]
+- -[NPKExpressPassesManager suppressRemoteUpdates]
+- -[NPKExpressPassesManager unarchivePass:]
+- -[NPKExpressPassesManager unregisterObserver:]
+- -[NPKExpressPassesManager updateWithExpressPass:siblingExpressPasses:]
+- -[NPKExpressUWBTransactionInfo .cxx_destruct]
+- -[NPKExpressUWBTransactionInfo description]
+- -[NPKExpressUWBTransactionInfo initWithReaderID:lockStatus:timestamp:]
+- -[NPKExpressUWBTransactionInfo lockStatus]
+- -[NPKExpressUWBTransactionInfo readerID]
+- -[NPKExpressUWBTransactionInfo timestamp]
+- -[NPKFakePaymentSession .cxx_destruct]
+- -[NPKFakePaymentSession _handleSessionHasCredentialIfNecessaryWithCurrentPass:]
+- -[NPKFakePaymentSession _handleTimeoutTimer]
+- -[NPKFakePaymentSession _handleTransactionCompleteDarwinNotification]
+- -[NPKFakePaymentSession _scheduleDidActivateEventForPass:]
+- -[NPKFakePaymentSession _sendTransactionCompleteToDelegate]
+- -[NPKFakePaymentSession _setTimeoutTimer]
+- -[NPKFakePaymentSession changeCardToken]
+- -[NPKFakePaymentSession confirmSessionExpectingCredential:]
+- -[NPKFakePaymentSession currentPass]
+- -[NPKFakePaymentSession deactivateSessionWithCompletion:]
+- -[NPKFakePaymentSession dealloc]
+- -[NPKFakePaymentSession deferAuthorization]
+- -[NPKFakePaymentSession fieldDetectorDidEnterField:withProperties:]
+- -[NPKFakePaymentSession fieldDetectorDidExitField:]
+- -[NPKFakePaymentSession fieldDetector]
+- -[NPKFakePaymentSession inServiceMode]
+- -[NPKFakePaymentSession initWithQueue:]
+- -[NPKFakePaymentSession invalidated]
+- -[NPKFakePaymentSession ourCallbackQueue]
+- -[NPKFakePaymentSession ourConfirmed]
+- -[NPKFakePaymentSession ourCurrentPass]
+- -[NPKFakePaymentSession ourInServiceMode]
+- -[NPKFakePaymentSession ourInternalQueue]
+- -[NPKFakePaymentSession ourPerformedFirstActivation]
+- -[NPKFakePaymentSession ourVasPasses]
+- -[NPKFakePaymentSession sessionStarted]
+- -[NPKFakePaymentSession setChangeCardToken:]
+- -[NPKFakePaymentSession setCredential:]
+- -[NPKFakePaymentSession setCurrentPass:]
+- -[NPKFakePaymentSession setDeferAuthorization:]
+- -[NPKFakePaymentSession setFieldDetector:]
+- -[NPKFakePaymentSession setInServiceMode:]
+- -[NPKFakePaymentSession setInvalidated:]
+- -[NPKFakePaymentSession setOurCallbackQueue:]
+- -[NPKFakePaymentSession setOurConfirmed:]
+- -[NPKFakePaymentSession setOurCurrentPass:]
+- -[NPKFakePaymentSession setOurInServiceMode:]
+- -[NPKFakePaymentSession setOurInternalQueue:]
+- -[NPKFakePaymentSession setOurPerformedFirstActivation:]
+- -[NPKFakePaymentSession setOurVasPasses:]
+- -[NPKFakePaymentSession setTimeoutTimer:]
+- -[NPKFakePaymentSession setVasPasses:]
+- -[NPKFakePaymentSession startSession]
+- -[NPKFakePaymentSession timeoutTimer]
+- -[NPKFakePaymentSession vasPasses]
+- -[NPKFidoAuthCoordinator .cxx_destruct]
+- -[NPKFidoAuthCoordinator _isDeviceLocked]
+- -[NPKFidoAuthCoordinator _isWristDetectDisabled]
+- -[NPKFidoAuthCoordinator clearContext]
+- -[NPKFidoAuthCoordinator context]
+- -[NPKFidoAuthCoordinator requestAuthorizationWithCompletion:]
+- -[NPKGreenTeaDataUsageResolver .cxx_destruct]
+- -[NPKGreenTeaDataUsageResolver _resolveGreenTeaDataUsageIfNecessaryWithCompletion:]
+- -[NPKGreenTeaDataUsageResolver currentlyResolving]
+- -[NPKGreenTeaDataUsageResolver init]
+- -[NPKGreenTeaDataUsageResolver internalQueue]
+- -[NPKGreenTeaDataUsageResolver resolveGreenTeaDataUsageIfNecessary]
+- -[NPKGreenTeaDataUsageResolver setCurrentlyResolving:]
+- -[NPKGreenTeaDataUsageResolver setInternalQueue:]
+- -[NPKIdentityExtendedReviewUserNotification .cxx_destruct]
+- -[NPKIdentityExtendedReviewUserNotification body]
+- -[NPKIdentityExtendedReviewUserNotification documentType]
+- -[NPKIdentityExtendedReviewUserNotification identifierHashComponents]
+- -[NPKIdentityExtendedReviewUserNotification initWithNotificationType:documentType:issuerName:]
+- -[NPKIdentityExtendedReviewUserNotification issuerName]
+- -[NPKIdentityExtendedReviewUserNotification notificationType]
+- -[NPKIdentityExtendedReviewUserNotification title]
+- -[NPKLowPowerModeLocalDeviceMonitor .cxx_destruct]
+- -[NPKLowPowerModeLocalDeviceMonitor _lowPowerModeStateChanged:]
+- -[NPKLowPowerModeLocalDeviceMonitor _sendLowPowerModeEnabled:toObserver:]
+- -[NPKLowPowerModeLocalDeviceMonitor _sendLowPowerModeEnabledStateToObservers:]
+- -[NPKLowPowerModeLocalDeviceMonitor initWithNotificationCenter:]
+- -[NPKLowPowerModeLocalDeviceMonitor init]
+- -[NPKLowPowerModeLocalDeviceMonitor isLowPowerModeEnabled]
+- -[NPKLowPowerModeLocalDeviceMonitor registerObserver:]
+- -[NPKLowPowerModeLocalDeviceMonitor unregisterObserver:]
+- -[NPKMockPeerPaymentAccountManager .cxx_destruct]
+- -[NPKMockPeerPaymentAccountManager _updateMockBalance]
+- -[NPKMockPeerPaymentAccountManager account]
+- -[NPKMockPeerPaymentAccountManager dealloc]
+- -[NPKMockPeerPaymentAccountManager initWithPeerPaymentService:]
+- -[NPKNanoPassDaemonConnection .cxx_destruct]
+- -[NPKNanoPassDaemonConnection _addLegacyExpressModeEnabledUserNotificationForPassUniqueID:completion:]
+- -[NPKNanoPassDaemonConnection _errorHandlerWithCompletion:]
+- -[NPKNanoPassDaemonConnection _remoteObjectProxySynchronous:withFailureHandler:]
+- -[NPKNanoPassDaemonConnection addRemoteDevicePendingProvisionings:]
+- -[NPKNanoPassDaemonConnection addUserNotificationForEnabledExpressMode:passUniqueID:completion:]
+- -[NPKNanoPassDaemonConnection addUserNotificationOfType:passUniqueID:completion:]
+- -[NPKNanoPassDaemonConnection canAcceptInvitationOnRemoteDeviceForInvitation:completion:]
+- -[NPKNanoPassDaemonConnection canNotifyAboutExpressModeWithCompletion:]
+- -[NPKNanoPassDaemonConnection fetchIdentityProofingConfigurationForCountry:state:completion:]
+- -[NPKNanoPassDaemonConnection fetchRelevantPassInformationWithCompletion:]
+- -[NPKNanoPassDaemonConnection handleApplicationRedirectRequestOnPairedDeviceForPaymentPass:transaction:]
+- -[NPKNanoPassDaemonConnection handleMetadataRequestOnPairedDevice:withAssociatedApplicationIdentifiers:completion:]
+- -[NPKNanoPassDaemonConnection identityPassPrearmStatusSynchronous:completion:]
+- -[NPKNanoPassDaemonConnection init]
+- -[NPKNanoPassDaemonConnection insertBridgeBulletinWithTitle:message:actionURL:forPass:playSound:notificationIdentifier:expirationDate:]
+- -[NPKNanoPassDaemonConnection noteWillDeleteAccountsSynchronous:completion:]
+- -[NPKNanoPassDaemonConnection remoteService:didEstablishConnection:]
+- -[NPKNanoPassDaemonConnection remoteService:didInterruptConnection:]
+- -[NPKNanoPassDaemonConnection remoteServiceDidResume:]
+- -[NPKNanoPassDaemonConnection remoteServiceDidSuspend:]
+- -[NPKNanoPassDaemonConnection remoteService]
+- -[NPKNanoPassDaemonConnection setRemoteService:]
+- -[NPKNanoPassDaemonConnection startSubcredentialProvisioningOnLocalDeviceMatchingInvitation:shouldFetchAnonymizationSaltFromRemoteDevice:completion:]
+- -[NPKNanoPassDaemonConnection startSubcredentialProvisioningOnRemoteDeviceForInvitation:]
+- -[NPKNanoPassDaemonConnection startSubcredentialProvisioningOnRemoteDeviceForMailboxAddress:activationCode:]
+- -[NPKOpenURLRouter .cxx_destruct]
+- -[NPKOpenURLRouter _handleServiceModeRequestedForPassWithUniqueID:]
+- -[NPKOpenURLRouter _handleShareForMailboxAddress:referralSource:]
+- -[NPKOpenURLRouter _handleShareableCredentialsAcceptanceWithShareableCredentials:thumbnailImageData:]
+- -[NPKOpenURLRouter _handleSubcredentialInvitationAcceptanceForLocalInvitationIdentifier:remoteInvitationIdentifier:contactName:thumbnailImageData:]
+- -[NPKOpenURLRouter _handleUniversalLinkURLAsShoeboxURLForPathComponents:shouldParsePathComponents:urlComponents:]
+- -[NPKOpenURLRouter _isValidRelayServerURL:outPathComponents:]
+- -[NPKOpenURLRouter _presentEntitlementDetailsForPassUniqueID:]
+- -[NPKOpenURLRouter _presentExpiredPassList]
+- -[NPKOpenURLRouter _presentListActionsMenu]
+- -[NPKOpenURLRouter _presentPassBalanceDetailsForPassWithUniqueID:]
+- -[NPKOpenURLRouter _presentPassDetailsForPassWithUniqueID:]
+- -[NPKOpenURLRouter _presentPassListPreventAppUninstall]
+- -[NPKOpenURLRouter _presentPassList]
+- -[NPKOpenURLRouter _presentProvisioningFlow]
+- -[NPKOpenURLRouter _presentSavingsDetailsWithPassUniqueID:]
+- -[NPKOpenURLRouter _presentShareDetailsForPassUniqueID:shareIdentifier:]
+- -[NPKOpenURLRouter _presentTransactionDetailsForPassWithUniqueID:transactionIdentifier:]
+- -[NPKOpenURLRouter _presentTransactionDetailsForPassWithUniqueID:transactionServiceIdentifier:transactionSourceIdentifier:]
+- -[NPKOpenURLRouter _processAddCardHostWithPathComponents:]
+- -[NPKOpenURLRouter _processBalanceSummaryHostWithPathComponents:queryItems:]
+- -[NPKOpenURLRouter _processCardHostWithPathComponents:queryItems:]
+- -[NPKOpenURLRouter _processDailyCashHostWithPathComponents:queryItems:]
+- -[NPKOpenURLRouter _processExpiredPassListHostWithPathComponents:]
+- -[NPKOpenURLRouter _processListActionsMenuHostWithPathComponents:]
+- -[NPKOpenURLRouter _processPassUpdateHostWithPathComponents:]
+- -[NPKOpenURLRouter _processPassesHostWithPathComponents:urlComponents:]
+- -[NPKOpenURLRouter _processProvisioningContinuityHostWithPathComponents:]
+- -[NPKOpenURLRouter _processSavingsHostWithPathComponents:]
+- -[NPKOpenURLRouter _processShareHostWithPathComponents:urlComponents:]
+- -[NPKOpenURLRouter _processShareableCredentialsHostWithQueryItems:]
+- -[NPKOpenURLRouter _processShoeboxSchemeForHost:pathComponents:urlComponents:]
+- -[NPKOpenURLRouter _processShoeboxSchemeForURL:]
+- -[NPKOpenURLRouter _processSubcredentialInvitationHostWithQueryItems:]
+- -[NPKOpenURLRouter _processTransactionHostWithQueryItems:]
+- -[NPKOpenURLRouter delegate]
+- -[NPKOpenURLRouter handleOpenURL:]
+- -[NPKOpenURLRouter handleUniversalLinkWithURL:]
+- -[NPKOpenURLRouter handleUniversalLinkWithUserActivity:]
+- -[NPKOpenURLRouter initWithDelegate:]
+- -[NPKOpenURLRouter setDelegate:]
+- -[NPKPassAssociatedInfo .cxx_destruct]
+- -[NPKPassAssociatedInfo accessories]
+- -[NPKPassAssociatedInfo balanceFields]
+- -[NPKPassAssociatedInfo bankConnectAccount]
+- -[NPKPassAssociatedInfo commutePlanFields]
+- -[NPKPassAssociatedInfo description]
+- -[NPKPassAssociatedInfo hasDeviceBoundCommutePlans]
+- -[NPKPassAssociatedInfo initWithAssociatedInfoModel:]
+- -[NPKPassAssociatedInfo initWithTransitProperties:appletState:balanceFields:commutePlanFields:tiles:rangingSuspensionReason:accessories:isHomeAccessRestricted:precursorPassDescription:hasDeviceBoundCommutePlans:]
+- -[NPKPassAssociatedInfo isHomeAccessRestricted]
+- -[NPKPassAssociatedInfo precursorPassDescription]
+- -[NPKPassAssociatedInfo rangingSuspensionReason]
+- -[NPKPassAssociatedInfo setIsHomeAccessRestricted:]
+- -[NPKPassAssociatedInfo tiles]
+- -[NPKPassAssociatedInfo transitAppletState]
+- -[NPKPassAssociatedInfo transitProperties]
+- -[NPKPassAssociatedInfoManager .cxx_destruct]
+- -[NPKPassAssociatedInfoManager _associatedInfoModelWithPass:currentModel:]
+- -[NPKPassAssociatedInfoManager _fetchHomeAccessStatusForPass:]
+- -[NPKPassAssociatedInfoManager _fetchMostRecentAccountBalanceForPass:]
+- -[NPKPassAssociatedInfoManager _fetchMostRecentBalancesForPass:]
+- -[NPKPassAssociatedInfoManager _fetchMostRecentCommutePlansForPass:]
+- -[NPKPassAssociatedInfoManager _fetchMostRecentInfoForPass:]
+- -[NPKPassAssociatedInfoManager _fetchMostRecentRangingSuspensionReasonForPass:]
+- -[NPKPassAssociatedInfoManager _fetchMostRecentTilesForPass:]
+- -[NPKPassAssociatedInfoManager _fetchMostRecentTransitPropertiesAndAppletStateForPass:]
+- -[NPKPassAssociatedInfoManager _fetchPrecursorPassDescriptionForPass:]
+- -[NPKPassAssociatedInfoManager _handleReceivedAccountUpdateWithAccount:]
+- -[NPKPassAssociatedInfoManager _internalQueue_processReceivedAccountUpdateWithAccount:]
+- -[NPKPassAssociatedInfoManager _internalQueue_regenerateAssociatedInfoModelForPass:inModelsByID:]
+- -[NPKPassAssociatedInfoManager _internalQueue_removePassWithUniqueIDs:]
+- -[NPKPassAssociatedInfoManager _isPassEligible:]
+- -[NPKPassAssociatedInfoManager _isPassWithAccountBalanceForPass:]
+- -[NPKPassAssociatedInfoManager _loadPassContentIfNeeded:]
+- -[NPKPassAssociatedInfoManager _notifyObservers:]
+- -[NPKPassAssociatedInfoManager _notifyObserversOfUpdatedRestrictedGuestState:]
+- -[NPKPassAssociatedInfoManager _notifyObserversOfUpdatedTransitPassInfoForModel:]
+- -[NPKPassAssociatedInfoManager _processAccountBalancesForPassWithUniqueID:withAccount:]
+- -[NPKPassAssociatedInfoManager _rangingSuspensionReasonForPass:]
+- -[NPKPassAssociatedInfoManager _refreshAccountBalanceIfApplicableForPass:withAccount:]
+- -[NPKPassAssociatedInfoManager _shouldUseBalanceForAccount:]
+- -[NPKPassAssociatedInfoManager _updateAllPassesItemsFieldsPendingUpdateStatus]
+- -[NPKPassAssociatedInfoManager _updateModelWithAccessory:forPassID:withReaderID:]
+- -[NPKPassAssociatedInfoManager _updatePassInfoManagerForPassUniqueID:updateBlock:]
+- -[NPKPassAssociatedInfoManager accountChanged:]
+- -[NPKPassAssociatedInfoManager accountService]
+- -[NPKPassAssociatedInfoManager addPass:]
+- -[NPKPassAssociatedInfoManager canPerformRKEActionsForPassWithUniqueID:]
+- -[NPKPassAssociatedInfoManager credentialIdentifier:paymentApplicationIdentifier:secureElementIdentifier:didUpdateRangingSuspensionReasons:]
+- -[NPKPassAssociatedInfoManager fetchHomeAccessoryForPass:withReaderIdentifier:completion:]
+- -[NPKPassAssociatedInfoManager homeAccessoryForPass:withReaderIdentifier:]
+- -[NPKPassAssociatedInfoManager initWithPaymentService:accountService:precursorPassManager:]
+- -[NPKPassAssociatedInfoManager init]
+- -[NPKPassAssociatedInfoManager isHomeAccessRestrictedForPass:]
+- -[NPKPassAssociatedInfoManager markPerishableDataAsStale]
+- -[NPKPassAssociatedInfoManager observers]
+- -[NPKPassAssociatedInfoManager passInfoForPassWithUniqueID:]
+- -[NPKPassAssociatedInfoManager passUniqueIDsByAccountIdentifier]
+- -[NPKPassAssociatedInfoManager passWithUniqueIdentifier:didUpdateTiles:forContext:]
+- -[NPKPassAssociatedInfoManager passes]
+- -[NPKPassAssociatedInfoManager paymentPassWithUniqueIdentifier:didReceiveBalanceUpdate:]
+- -[NPKPassAssociatedInfoManager paymentPassWithUniqueIdentifier:didReceivePlanUpdate:]
+- -[NPKPassAssociatedInfoManager paymentPassWithUniqueIdentifier:didUpdateWithTransitPassProperties:]
+- -[NPKPassAssociatedInfoManager paymentServiceEstablishedConnection]
+- -[NPKPassAssociatedInfoManager paymentServiceReceivedInterruption]
+- -[NPKPassAssociatedInfoManager paymentServiceWasInterrupted]
+- -[NPKPassAssociatedInfoManager paymentService]
+- -[NPKPassAssociatedInfoManager precursorPassManager]
+- -[NPKPassAssociatedInfoManager precursorPassRequestsManager:didUpdateUpgradePrequestDescription:forPassUniqueID:]
+- -[NPKPassAssociatedInfoManager rangingSuspensionReasonForPassWithUniqueID:]
+- -[NPKPassAssociatedInfoManager readerIdentifierForAccessory:withPass:]
+- -[NPKPassAssociatedInfoManager refreshAllPasses]
+- -[NPKPassAssociatedInfoManager refreshInfoForPass:]
+- -[NPKPassAssociatedInfoManager registerObserver:]
+- -[NPKPassAssociatedInfoManager removePassWithUniqueID:]
+- -[NPKPassAssociatedInfoManager setObservers:]
+- -[NPKPassAssociatedInfoManager setPassUniqueIDsByAccountIdentifier:]
+- -[NPKPassAssociatedInfoManager setPasses:]
+- -[NPKPassAssociatedInfoManager setPaymentServiceWasInterrupted:]
+- -[NPKPassAssociatedInfoManager setPendingAmount:forBalanceField:passWithUniqueID:]
+- -[NPKPassAssociatedInfoManager setPendingExpirationDate:forCommutePlanField:passWithUniqueID:]
+- -[NPKPassAssociatedInfoManager unregisterObserver:]
+- -[NPKPassAssociatedInfoManager(BankConnectedAccount) npkBankConnectedAccountForPass:]
+- -[NPKPassAssociatedInfoManager(BankConnectedAccount) npkBankConnectedDebitAccountForPass:]
+- -[NPKPassAssociatedInfoManager(BankConnectedAccount) npkRefreshConnectedAccountDataForPassWithUniqueID:]
+- -[NPKPassAssociatedInfoModel .cxx_destruct]
+- -[NPKPassAssociatedInfoModel _actionWithIdentifier:type:]
+- -[NPKPassAssociatedInfoModel _actionWithIdentifiers:type:]
+- -[NPKPassAssociatedInfoModel _allPassBalanceFieldsWithBalancesByID:]
+- -[NPKPassAssociatedInfoModel _balanceByIDWithBalances:]
+- -[NPKPassAssociatedInfoModel _balanceFieldBalance:fieldIdentifier:]
+- -[NPKPassAssociatedInfoModel _balanceFieldWithPassField:balance:isPrimaryBalance:]
+- -[NPKPassAssociatedInfoModel _balanceFieldsWithBalancesByID:passFields:maximumCount:]
+- -[NPKPassAssociatedInfoModel _balancePassFieldsFromPass:]
+- -[NPKPassAssociatedInfoModel _commutePlanFieldsWithBalancesByID:dynamicPlansByID:]
+- -[NPKPassAssociatedInfoModel _commutePlanWithFelicaPassProperties:]
+- -[NPKPassAssociatedInfoModel _commutePlansByIDWithPlans:]
+- -[NPKPassAssociatedInfoModel _fieldForCommutePlan:action:isLegacyPass:balancedByID:]
+- -[NPKPassAssociatedInfoModel _formattedValueWithCommutePlan:balancesByID:]
+- -[NPKPassAssociatedInfoModel _identifierFromAction:type:]
+- -[NPKPassAssociatedInfoModel _primaryDisplayableBalanceFieldWithBalancesByID:]
+- -[NPKPassAssociatedInfoModel _rawCountValueWithCommutePlan:balancesByID:]
+- -[NPKPassAssociatedInfoModel _shouldAddCommutePlan:action:withBalancesByID:]
+- -[NPKPassAssociatedInfoModel accessories]
+- -[NPKPassAssociatedInfoModel allPassItemsFields]
+- -[NPKPassAssociatedInfoModel balanceFields]
+- -[NPKPassAssociatedInfoModel balances]
+- -[NPKPassAssociatedInfoModel commutePlanFields]
+- -[NPKPassAssociatedInfoModel description]
+- -[NPKPassAssociatedInfoModel dynamicPlans]
+- -[NPKPassAssociatedInfoModel hasDeviceBoundCommutePlans]
+- -[NPKPassAssociatedInfoModel initWithPass:]
+- -[NPKPassAssociatedInfoModel initWithPass:transitProperties:balances:commutePlanValueRequired:]
+- -[NPKPassAssociatedInfoModel isCommutePlanValueRequired]
+- -[NPKPassAssociatedInfoModel isEqual:]
+- -[NPKPassAssociatedInfoModel pass]
+- -[NPKPassAssociatedInfoModel precursorPassDescription]
+- -[NPKPassAssociatedInfoModel rangingSuspensionReason]
+- -[NPKPassAssociatedInfoModel restrictedGuestAccessState]
+- -[NPKPassAssociatedInfoModel setAccessories:]
+- -[NPKPassAssociatedInfoModel setBalances:]
+- -[NPKPassAssociatedInfoModel setCommutePlanValueRequired:]
+- -[NPKPassAssociatedInfoModel setDynamicPlans:]
+- -[NPKPassAssociatedInfoModel setPrecursorPassDescription:]
+- -[NPKPassAssociatedInfoModel setRangingSuspensionReason:]
+- -[NPKPassAssociatedInfoModel setRestrictedGuestAccessState:]
+- -[NPKPassAssociatedInfoModel setTiles:]
+- -[NPKPassAssociatedInfoModel setTransitAppletState:]
+- -[NPKPassAssociatedInfoModel setTransitPassProperties:]
+- -[NPKPassAssociatedInfoModel tiles]
+- -[NPKPassAssociatedInfoModel transitAppletState]
+- -[NPKPassAssociatedInfoModel transitPassProperties]
+- -[NPKPassAssociatedInfoModel updateItemFields]
+- -[NPKPassSelectionFieldDetectorAssertion .cxx_destruct]
+- -[NPKPassSelectionFieldDetectorAssertion _handleInterruption]
+- -[NPKPassSelectionFieldDetectorAssertion _handleInvalidation]
+- -[NPKPassSelectionFieldDetectorAssertion _resyncState]
+- -[NPKPassSelectionFieldDetectorAssertion delegate]
+- -[NPKPassSelectionFieldDetectorAssertion didEnterFieldForPassesWithUniqueIDs:]
+- -[NPKPassSelectionFieldDetectorAssertion initWithQueue:]
+- -[NPKPassSelectionFieldDetectorAssertion setDelegate:]
+- -[NPKPassUserNotification .cxx_destruct]
+- -[NPKPassUserNotification identifierHashComponents]
+- -[NPKPassUserNotification initWithPass:]
+- -[NPKPassUserNotification pass]
+- -[NPKPassUserNotificationFactory .cxx_destruct]
+- -[NPKPassUserNotificationFactory dataSource]
+- -[NPKPassUserNotificationFactory initWithDataSource:]
+- -[NPKPassUserNotificationFactory init]
+- -[NPKPassUserNotificationFactory passNotificationWithType:passUniqueID:]
+- -[NPKPassUserNotificationFactory setDataSource:]
+- -[NPKPassesManager .cxx_destruct]
+- -[NPKPassesManager _didFinishLoadPasses]
+- -[NPKPassesManager _handleObjectSettingsChanged:]
+- -[NPKPassesManager _loadContentAndImageSetsForAllPassesIfNecessaryWithCompletion:]
+- -[NPKPassesManager _loadContentAndImageSetsForPass:completion:]
+- -[NPKPassesManager _loadContentAndImageSetsIfNecessaryForPasses:completion:]
+- -[NPKPassesManager _loadPasses]
+- -[NPKPassesManager _notifyObservers:]
+- -[NPKPassesManager _registerGroupControllerGroupObserver]
+- -[NPKPassesManager _reloadPassesWithCompletion:]
+- -[NPKPassesManager _reloadPasses]
+- -[NPKPassesManager _updateCurrentPasses]
+- -[NPKPassesManager currentExpiredPasses]
+- -[NPKPassesManager currentPasses]
+- -[NPKPassesManager currentPaymentPasses]
+- -[NPKPassesManager currentSecureElementPasses]
+- -[NPKPassesManager dealloc]
+- -[NPKPassesManager defaultPaymentPass]
+- -[NPKPassesManager enableRemoteUpdates]
+- -[NPKPassesManager expiredPasses]
+- -[NPKPassesManager firstUnlockCoordinator]
+- -[NPKPassesManager group:didInsertPass:withState:atIndex:]
+- -[NPKPassesManager group:didMovePassFromIndex:toIndex:]
+- -[NPKPassesManager group:didRemovePass:atIndex:]
+- -[NPKPassesManager group:didUpdatePass:withState:atIndex:]
+- -[NPKPassesManager group:didUpdatePassState:forPass:atIndex:]
+- -[NPKPassesManager groupsController:didInsertGroup:atIndex:]
+- -[NPKPassesManager groupsController:didMoveGroup:fromIndex:toIndex:]
+- -[NPKPassesManager groupsController:didRemoveGroup:atIndex:]
+- -[NPKPassesManager groupsController]
+- -[NPKPassesManager initWithOptions:]
+- -[NPKPassesManager init]
+- -[NPKPassesManager movePassAtIndex:toIndex:]
+- -[NPKPassesManager notifyToken]
+- -[NPKPassesManager observers]
+- -[NPKPassesManager options]
+- -[NPKPassesManager passForUniqueID:]
+- -[NPKPassesManager passes]
+- -[NPKPassesManager paymentPasses]
+- -[NPKPassesManager registerObserver:]
+- -[NPKPassesManager reloadPassesWithCompletion:]
+- -[NPKPassesManager reloadPasses]
+- -[NPKPassesManager removePass:]
+- -[NPKPassesManager secureElementPasses]
+- -[NPKPassesManager setCurrentExpiredPasses:]
+- -[NPKPassesManager setCurrentPasses:]
+- -[NPKPassesManager setCurrentPaymentPasses:]
+- -[NPKPassesManager setCurrentSecureElementPasses:]
+- -[NPKPassesManager setDefaultPaymentPass:]
+- -[NPKPassesManager setFirstUnlockCoordinator:]
+- -[NPKPassesManager setGroupsController:]
+- -[NPKPassesManager setNotifyToken:]
+- -[NPKPassesManager setObservers:]
+- -[NPKPassesManager setOptions:]
+- -[NPKPassesManager shouldAllowMovingItemAtIndex:toIndex:]
+- -[NPKPassesManager suppressRemoteUpdates]
+- -[NPKPassesManager unarchivePass:]
+- -[NPKPassesManager unregisterObserver:]
+- -[NPKPaymentBarcode .cxx_destruct]
+- -[NPKPaymentBarcode barcodeIdentifier]
+- -[NPKPaymentBarcode barcodes]
+- -[NPKPaymentBarcode decryptedBarcodeCredential]
+- -[NPKPaymentBarcode description]
+- -[NPKPaymentBarcode initWithBarcodeIdentifier:decryptedBarcodeCredential:error:]
+- -[NPKPaymentBarcode isEqual:]
+- -[NPKPaymentBarcode setBarcodeIdentifier:]
+- -[NPKPaymentBarcode setBarcodes:]
+- -[NPKPaymentBarcode setDecryptedBarcodeCredential:]
+- -[NPKPaymentBarcode setState:]
+- -[NPKPaymentBarcode state]
+- -[NPKPaymentProvisioningFlowController .cxx_destruct]
+- -[NPKPaymentProvisioningFlowController _cardsOnFileForProduct:updateHandler:completionHandler:]
+- -[NPKPaymentProvisioningFlowController _checkSpaceAvailableForAppletTypes:triedCleanup:completion:]
+- -[NPKPaymentProvisioningFlowController _chooseProductFromFlowPickerSection:requestContext:transitioningToStep:]
+- -[NPKPaymentProvisioningFlowController _configureWebServiceIfNecessary:completion:]
+- -[NPKPaymentProvisioningFlowController _credentialReadonlyFieldIdentifiers]
+- -[NPKPaymentProvisioningFlowController _curatedDefaultPaymentSetupProvisioningFields]
+- -[NPKPaymentProvisioningFlowController _downloadAndAddUpdatedPassForPaymentPass:completion:]
+- -[NPKPaymentProvisioningFlowController _downloadRemoteAssetsAndAddPaymentPass:completion:]
+- -[NPKPaymentProvisioningFlowController _endProvisioningFlowWithError:requestContext:]
+- -[NPKPaymentProvisioningFlowController _endProvisioningFlowWithSuccessForPass:requestContext:]
+- -[NPKPaymentProvisioningFlowController _ensureMetadataForCredentials:updateHandler:completionHandler:]
+- -[NPKPaymentProvisioningFlowController _fetchAddRequestWithCertificatesResponse:requestContext:]
+- -[NPKPaymentProvisioningFlowController _fetchInAppProvisioningCertificates:]
+- -[NPKPaymentProvisioningFlowController _fieldRequiresLocalEntry:]
+- -[NPKPaymentProvisioningFlowController _fieldsModelCompleteExceptForLocalFields:]
+- -[NPKPaymentProvisioningFlowController _filteredPaymentSetupFields:forLocalDeviceEntry:]
+- -[NPKPaymentProvisioningFlowController _handleAppleBalanceAccountDetailsAcknowledgedWithProduct:requestContext:]
+- -[NPKPaymentProvisioningFlowController _handleAppleBalanceProductChosen:requestContext:]
+- -[NPKPaymentProvisioningFlowController _handleEligibiltySuccessWithContext:]
+- -[NPKPaymentProvisioningFlowController _handleEndOfProvisioningFlowForCurrentPass:requestContext:]
+- -[NPKPaymentProvisioningFlowController _handleFinished:]
+- -[NPKPaymentProvisioningFlowController _handlePasscodeUpgradeCompleteWithSuccess:error:requestContext:]
+- -[NPKPaymentProvisioningFlowController _handlePreconditionsVerified:]
+- -[NPKPaymentProvisioningFlowController _handleProceedWithCredentials:chosenByUser:requestContext:]
+- -[NPKPaymentProvisioningFlowController _handleProductChosen:includeCardsOnFile:requestContext:]
+- -[NPKPaymentProvisioningFlowController _handleProvisioningFlowStarted:]
+- -[NPKPaymentProvisioningFlowController _handleVerificationCode:forPass:context:]
+- -[NPKPaymentProvisioningFlowController _handleVerificationFieldsForPass:context:]
+- -[NPKPaymentProvisioningFlowController _handleVerificationResponseForPass:context:]
+- -[NPKPaymentProvisioningFlowController _isPasscodeUpgradeRequired]
+- -[NPKPaymentProvisioningFlowController _isResolveLocalEligibilityRequired]
+- -[NPKPaymentProvisioningFlowController _isValidateSecurityRequirementsRequired]
+- -[NPKPaymentProvisioningFlowController _localRequiredFieldsFromRequirementsResponse]
+- -[NPKPaymentProvisioningFlowController _newPaymentEligibilityRequest]
+- -[NPKPaymentProvisioningFlowController _newPaymentProvisioningRequest]
+- -[NPKPaymentProvisioningFlowController _newPaymentRequirementsRequest]
+- -[NPKPaymentProvisioningFlowController _performEligibility:]
+- -[NPKPaymentProvisioningFlowController _performNextActionForProvisioningState:]
+- -[NPKPaymentProvisioningFlowController _performNextStepForProvisionedPass:moreInfoAcknowledged:requestContext:]
+- -[NPKPaymentProvisioningFlowController _performNextStepForProvisionedPass:requestContext:]
+- -[NPKPaymentProvisioningFlowController _performPasscodeUpgrade:]
+- -[NPKPaymentProvisioningFlowController _performProvision:]
+- -[NPKPaymentProvisioningFlowController _performProvisionWithRequest:requestContext:assertion:]
+- -[NPKPaymentProvisioningFlowController _performProvisioningEligibility:]
+- -[NPKPaymentProvisioningFlowController _performRequirementsOrEligibilityForInAppProvisioning:]
+- -[NPKPaymentProvisioningFlowController _performResolveLocalEligibilityARequirements:completion:]
+- -[NPKPaymentProvisioningFlowController _performSEStorageCheck:]
+- -[NPKPaymentProvisioningFlowController _performTerms:]
+- -[NPKPaymentProvisioningFlowController _performTransitionToStep:withContext:]
+- -[NPKPaymentProvisioningFlowController _performValidateSecurityRequirements:completion:]
+- -[NPKPaymentProvisioningFlowController _provisioningLocalizedProgressDescriptionDidChange:]
+- -[NPKPaymentProvisioningFlowController _requestPassDetailsForAccountCredential:withCompletionHandler:]
+- -[NPKPaymentProvisioningFlowController _requestRequirements:]
+- -[NPKPaymentProvisioningFlowController _requestVerificationOptionsForPass:context:]
+- -[NPKPaymentProvisioningFlowController _requiredFieldsFromRequirementsResponseExcludingLocalFields]
+- -[NPKPaymentProvisioningFlowController _requiredFieldsFromRequirementsResponse]
+- -[NPKPaymentProvisioningFlowController _secondaryFilteredFields:forCredential:]
+- -[NPKPaymentProvisioningFlowController _sendDidEncounterError:requestContext:]
+- -[NPKPaymentProvisioningFlowController _sendDidTransitionFromStep:toStep:withContext:]
+- -[NPKPaymentProvisioningFlowController _startProvisioningForCredential:requestContext:]
+- -[NPKPaymentProvisioningFlowController _transitionBasedOnCredentials:product:requestContext:]
+- -[NPKPaymentProvisioningFlowController _transitionBasedOnTermsForReason:URL:requestContext:]
+- -[NPKPaymentProvisioningFlowController _transitionToAppleBalanceAccountDetailsWithProduct:requestContext:]
+- -[NPKPaymentProvisioningFlowController _transitionToChooseCredentials:product:requestContext:]
+- -[NPKPaymentProvisioningFlowController _transitionToChooseFlowWithSections:requestContext:]
+- -[NPKPaymentProvisioningFlowController _transitionToChooseProductWithProducts:requestContext:]
+- -[NPKPaymentProvisioningFlowController _transitionToManualEntry:]
+- -[NPKPaymentProvisioningFlowController _transitionToMoreInformationWithItems:pass:requestContext:]
+- -[NPKPaymentProvisioningFlowController _transitionToProductDisambiguationWithProducts:requestContext:]
+- -[NPKPaymentProvisioningFlowController _transitionToProvisioningForCredential:product:requestContext:]
+- -[NPKPaymentProvisioningFlowController _transitionToProvisioningProgressWithRequestContext:]
+- -[NPKPaymentProvisioningFlowController _transitionToSecondaryManualEntryWithFields:credential:requestContext:]
+- -[NPKPaymentProvisioningFlowController _transitionToVerificationChannelsWithPaymentPass:channels:requestContext:]
+- -[NPKPaymentProvisioningFlowController _transitionToVerificationCodeWithPaymentPass:channel:requestContext:]
+- -[NPKPaymentProvisioningFlowController _transitionToVerificationFieldsWithPaymentPass:fields:requestContext:]
+- -[NPKPaymentProvisioningFlowController _updateVerificationForPass:channel:context:]
+- -[NPKPaymentProvisioningFlowController _verifyPasscodeStateIfNecessaryWithCompletion:]
+- -[NPKPaymentProvisioningFlowController acceptTerms:]
+- -[NPKPaymentProvisioningFlowController acknowledgeAppleBalanceAccountDetailsWithProduct:requestContext:]
+- -[NPKPaymentProvisioningFlowController acknowledgeMoreInformation:]
+- -[NPKPaymentProvisioningFlowController acknowledgeWelcome:]
+- -[NPKPaymentProvisioningFlowController authorizationController]
+- -[NPKPaymentProvisioningFlowController cardIngester]
+- -[NPKPaymentProvisioningFlowController chooseCardsOnFileFlowForProduct:requestContext:preloadMetadata:]
+- -[NPKPaymentProvisioningFlowController chooseCredentials:requestContext:]
+- -[NPKPaymentProvisioningFlowController chooseCredentialsStepIdentifier]
+- -[NPKPaymentProvisioningFlowController chooseEMoneyProductFromFlowPickerSection:requestContext:]
+- -[NPKPaymentProvisioningFlowController chooseFlowForPickerItem:requestContext:]
+- -[NPKPaymentProvisioningFlowController chooseManualEntry:]
+- -[NPKPaymentProvisioningFlowController chooseProduct:includeCardsOnFile:requestContext:]
+- -[NPKPaymentProvisioningFlowController chooseProduct:requestContext:]
+- -[NPKPaymentProvisioningFlowController chooseProductAndCredentialsFlowForProduct:credentials:requestContext:]
+- -[NPKPaymentProvisioningFlowController chooseReaderMode:]
+- -[NPKPaymentProvisioningFlowController chooseTransitProductFromFlowPickerSection:requestContext:]
+- -[NPKPaymentProvisioningFlowController currentAppleBalanceCredential]
+- -[NPKPaymentProvisioningFlowController currentCredential]
+- -[NPKPaymentProvisioningFlowController currentProduct]
+- -[NPKPaymentProvisioningFlowController currentStep]
+- -[NPKPaymentProvisioningFlowController dealloc]
+- -[NPKPaymentProvisioningFlowController delegate]
+- -[NPKPaymentProvisioningFlowController digitalIssuanceAmountRequestContext]
+- -[NPKPaymentProvisioningFlowController digitalIssuanceAmount]
+- -[NPKPaymentProvisioningFlowController digitalIssuancePaymentRequestContext]
+- -[NPKPaymentProvisioningFlowController digitalIssuancePaymentRequest]
+- -[NPKPaymentProvisioningFlowController digitalIssuancePurchase]
+- -[NPKPaymentProvisioningFlowController ensureMetadataForCredentials:requestContext:updateHandler:completionHandler:]
+- -[NPKPaymentProvisioningFlowController fidoAuthCoordinator]
+- -[NPKPaymentProvisioningFlowController fieldsModel]
+- -[NPKPaymentProvisioningFlowController flowIngestionState]
+- -[NPKPaymentProvisioningFlowController handleDigitalIssuanceAmount:requestContext:]
+- -[NPKPaymentProvisioningFlowController handleDigitalIssuanceAmount:serviceProviderProduct:item:requestContext:]
+- -[NPKPaymentProvisioningFlowController handleIssuerApplicationAddRequest:requestContext:]
+- -[NPKPaymentProvisioningFlowController handleIssuerVerificationChannel:requestContext:]
+- -[NPKPaymentProvisioningFlowController handleIssuerVerificationCode:requestContext:]
+- -[NPKPaymentProvisioningFlowController handleIssuerVerificationFields:requestContext:]
+- -[NPKPaymentProvisioningFlowController handleManualEntryFields:credential:requestContext:]
+- -[NPKPaymentProvisioningFlowController handlePasscodeUpgradeCompleteWithSuccess:error:requestContext:]
+- -[NPKPaymentProvisioningFlowController handleProductSelection:requestContext:]
+- -[NPKPaymentProvisioningFlowController handleReaderModeFields:requestContext:]
+- -[NPKPaymentProvisioningFlowController hasCredentialsAssociatedWithProduct:]
+- -[NPKPaymentProvisioningFlowController immediatelyBeforeTermsStepIdentifier]
+- -[NPKPaymentProvisioningFlowController inAppProvisioningGetRequestTimer]
+- -[NPKPaymentProvisioningFlowController inAppProvisioningNonce]
+- -[NPKPaymentProvisioningFlowController inAppProvisioningPublicKeyHash]
+- -[NPKPaymentProvisioningFlowController inAppProvisioningRequestConfiguration]
+- -[NPKPaymentProvisioningFlowController inAppProvisioningRequest]
+- -[NPKPaymentProvisioningFlowController ingestionCardNotFoundTimer]
+- -[NPKPaymentProvisioningFlowController ingestionCardSessionToken]
+- -[NPKPaymentProvisioningFlowController ingestionMethodMetadata]
+- -[NPKPaymentProvisioningFlowController ingestionProgress]
+- -[NPKPaymentProvisioningFlowController ingestionStateOnRetry]
+- -[NPKPaymentProvisioningFlowController initWithProvisioningController:setupContext:]
+- -[NPKPaymentProvisioningFlowController internalIngestionState]
+- -[NPKPaymentProvisioningFlowController isDigitalIssuanceSupported]
+- -[NPKPaymentProvisioningFlowController isReaderModeProvisioningSupported]
+- -[NPKPaymentProvisioningFlowController isSeparateLocalDeviceEntryRequired]
+- -[NPKPaymentProvisioningFlowController issuerVerificationPass]
+- -[NPKPaymentProvisioningFlowController preconditionsRequestContext]
+- -[NPKPaymentProvisioningFlowController prefetchCredentialsForProduct:requestContext:completionHandler:]
+- -[NPKPaymentProvisioningFlowController presentTransitServiceProviderProductsWithRequestContext:]
+- -[NPKPaymentProvisioningFlowController progressNotificationToken]
+- -[NPKPaymentProvisioningFlowController provisioningController]
+- -[NPKPaymentProvisioningFlowController provisioningProgressRequestContext]
+- -[NPKPaymentProvisioningFlowController readerModeRequestContext]
+- -[NPKPaymentProvisioningFlowController reset]
+- -[NPKPaymentProvisioningFlowController setAuthorizationController:]
+- -[NPKPaymentProvisioningFlowController setCardIngester:]
+- -[NPKPaymentProvisioningFlowController setChooseCredentialsStepIdentifier:]
+- -[NPKPaymentProvisioningFlowController setCurrentAppleBalanceCredential:]
+- -[NPKPaymentProvisioningFlowController setCurrentCredential:]
+- -[NPKPaymentProvisioningFlowController setCurrentProduct:]
+- -[NPKPaymentProvisioningFlowController setCurrentStep:]
+- -[NPKPaymentProvisioningFlowController setDelegate:]
+- -[NPKPaymentProvisioningFlowController setDigitalIssuanceAmount:]
+- -[NPKPaymentProvisioningFlowController setDigitalIssuanceAmountRequestContext:]
+- -[NPKPaymentProvisioningFlowController setDigitalIssuancePaymentRequest:]
+- -[NPKPaymentProvisioningFlowController setDigitalIssuancePaymentRequestContext:]
+- -[NPKPaymentProvisioningFlowController setDigitalIssuancePurchase:]
+- -[NPKPaymentProvisioningFlowController setDigitalIssuanceSupported:]
+- -[NPKPaymentProvisioningFlowController setFidoAuthCoordinator:]
+- -[NPKPaymentProvisioningFlowController setFieldsModel:]
+- -[NPKPaymentProvisioningFlowController setFlowIngestionState:]
+- -[NPKPaymentProvisioningFlowController setImmediatelyBeforeTermsStepIdentifier:]
+- -[NPKPaymentProvisioningFlowController setInAppProvisioningGetRequestTimer:]
+- -[NPKPaymentProvisioningFlowController setInAppProvisioningNonce:]
+- -[NPKPaymentProvisioningFlowController setInAppProvisioningPublicKeyHash:]
+- -[NPKPaymentProvisioningFlowController setInAppProvisioningRequest:]
+- -[NPKPaymentProvisioningFlowController setInAppProvisioningRequestConfiguration:]
+- -[NPKPaymentProvisioningFlowController setIngestionCardNotFoundTimer:]
+- -[NPKPaymentProvisioningFlowController setIngestionCardSessionToken:]
+- -[NPKPaymentProvisioningFlowController setIngestionMethodMetadata:]
+- -[NPKPaymentProvisioningFlowController setIngestionProgress:]
+- -[NPKPaymentProvisioningFlowController setIngestionStateOnRetry:]
+- -[NPKPaymentProvisioningFlowController setInternalIngestionState:]
+- -[NPKPaymentProvisioningFlowController setIssuerVerificationPass:]
+- -[NPKPaymentProvisioningFlowController setPreconditionsRequestContext:]
+- -[NPKPaymentProvisioningFlowController setProgressNotificationToken:]
+- -[NPKPaymentProvisioningFlowController setProvisioningProgressRequestContext:]
+- -[NPKPaymentProvisioningFlowController setReaderModeProvisioningSupported:]
+- -[NPKPaymentProvisioningFlowController setReaderModeRequestContext:]
+- -[NPKPaymentProvisioningFlowController setSeparateLocalDeviceEntryRequired:]
+- -[NPKPaymentProvisioningFlowController setTermsAcceptedOutOfBand:]
+- -[NPKPaymentProvisioningFlowController setTermsReason:]
+- -[NPKPaymentProvisioningFlowController setUnitTestingAuthorizationController:]
+- -[NPKPaymentProvisioningFlowController setUnitTestingCardIngester:]
+- -[NPKPaymentProvisioningFlowController setWebService:]
+- -[NPKPaymentProvisioningFlowController setupContext]
+- -[NPKPaymentProvisioningFlowController skipIssuerVerification:]
+- -[NPKPaymentProvisioningFlowController skipProvisioning:]
+- -[NPKPaymentProvisioningFlowController startInAppProvisioningFlowWithConfiguration:requestContext:]
+- -[NPKPaymentProvisioningFlowController startIssuerVerificationFlowForPaymentPass:requestContext:]
+- -[NPKPaymentProvisioningFlowController startProvisioningFlow:]
+- -[NPKPaymentProvisioningFlowController termsAcceptedOutOfBand]
+- -[NPKPaymentProvisioningFlowController termsReason]
+- -[NPKPaymentProvisioningFlowController unitTestingAuthorizationController]
+- -[NPKPaymentProvisioningFlowController unitTestingCardIngester]
+- -[NPKPaymentProvisioningFlowController webService]
+- -[NPKPaymentProvisioningFlowController(DigitalIssuance) _addCardErrorForPaymentRequest:]
+- -[NPKPaymentProvisioningFlowController(DigitalIssuance) _canMakeDigitalIssuancePaymentsForTransitProducts:withCompletion:]
+- -[NPKPaymentProvisioningFlowController(DigitalIssuance) _canMakeDigitalIssuancePaymentsForTransitProductsWithCompletion:]
+- -[NPKPaymentProvisioningFlowController(DigitalIssuance) _handleDigitalIssuanceTermsAccepted:]
+- -[NPKPaymentProvisioningFlowController(DigitalIssuance) _paymentRequestForAmount:]
+- -[NPKPaymentProvisioningFlowController(DigitalIssuance) _paymentRequestForAmount:serviceProviderProduct:productItem:]
+- -[NPKPaymentProvisioningFlowController(DigitalIssuance) _startDigitalIssuancePaymentWithAmount:requestContext:]
+- -[NPKPaymentProvisioningFlowController(DigitalIssuance) _startDigitalIssuancePaymentWithAmount:requestContext:serviceProviderProduct:productItem:]
+- -[NPKPaymentProvisioningFlowController(DigitalIssuance) _transitionToDigitalIssuanceForProduct:requestContext:]
+- -[NPKPaymentProvisioningFlowController(DigitalIssuance) paymentAuthorizationController:didAuthorizePayment:handler:]
+- -[NPKPaymentProvisioningFlowController(DigitalIssuance) paymentAuthorizationController:didAuthorizePurchase:completion:]
+- -[NPKPaymentProvisioningFlowController(DigitalIssuance) paymentAuthorizationControllerDidFinish:]
+- -[NPKPaymentProvisioningFlowController(ReaderMode) _cardNotFoundTimerFired]
+- -[NPKPaymentProvisioningFlowController(ReaderMode) _handleReaderModeTermsAccepted:]
+- -[NPKPaymentProvisioningFlowController(ReaderMode) _invalidateCardNotFoundTimer]
+- -[NPKPaymentProvisioningFlowController(ReaderMode) _noteProvisioningStateChangeForReaderMode:]
+- -[NPKPaymentProvisioningFlowController(ReaderMode) _removePassIfNecessary]
+- -[NPKPaymentProvisioningFlowController(ReaderMode) _resetReaderModeProvisioningState]
+- -[NPKPaymentProvisioningFlowController(ReaderMode) _setupCardIngester]
+- -[NPKPaymentProvisioningFlowController(ReaderMode) _startCardNotFoundTimer]
+- -[NPKPaymentProvisioningFlowController(ReaderMode) _startIngestion]
+- -[NPKPaymentProvisioningFlowController(ReaderMode) _startReaderModeIngestion:]
+- -[NPKPaymentProvisioningFlowController(ReaderMode) _startReadingCard]
+- -[NPKPaymentProvisioningFlowController(ReaderMode) _startTransferringCard]
+- -[NPKPaymentProvisioningFlowController(ReaderMode) _subtitleForState:]
+- -[NPKPaymentProvisioningFlowController(ReaderMode) _tearDownCardIngester]
+- -[NPKPaymentProvisioningFlowController(ReaderMode) _titleForState:]
+- -[NPKPaymentProvisioningFlowController(ReaderMode) _transitionToFlowIngestionState:]
+- -[NPKPaymentProvisioningFlowController(ReaderMode) _transitionToFlowIngestionState:progress:]
+- -[NPKPaymentProvisioningFlowController(ReaderMode) _transitionToIngestionProgress:]
+- -[NPKPaymentProvisioningFlowController(ReaderMode) _transitionToReaderModeForProduct:requestContext:]
+- -[NPKPaymentProvisioningFlowController(ReaderMode) contactlessCardIngester:didFailToIngestCardWithError:resetProvisioning:isRecoverable:]
+- -[NPKPaymentProvisioningFlowController(ReaderMode) contactlessCardIngester:didUpdateCardIngestionStatus:]
+- -[NPKPaymentProvisioningFlowControllerAppleBalanceAccountDetailsStepContext .cxx_destruct]
+- -[NPKPaymentProvisioningFlowControllerAppleBalanceAccountDetailsStepContext appleID]
+- -[NPKPaymentProvisioningFlowControllerAppleBalanceAccountDetailsStepContext balance]
+- -[NPKPaymentProvisioningFlowControllerAppleBalanceAccountDetailsStepContext description]
+- -[NPKPaymentProvisioningFlowControllerAppleBalanceAccountDetailsStepContext initWithRequestContext:]
+- -[NPKPaymentProvisioningFlowControllerAppleBalanceAccountDetailsStepContext setAppleID:]
+- -[NPKPaymentProvisioningFlowControllerAppleBalanceAccountDetailsStepContext setBalance:]
+- -[NPKPaymentProvisioningFlowControllerChooseCredentialsStepContext .cxx_destruct]
+- -[NPKPaymentProvisioningFlowControllerChooseCredentialsStepContext allowsManualEntry]
+- -[NPKPaymentProvisioningFlowControllerChooseCredentialsStepContext credentials]
+- -[NPKPaymentProvisioningFlowControllerChooseCredentialsStepContext description]
+- -[NPKPaymentProvisioningFlowControllerChooseCredentialsStepContext encodeWithCoder:]
+- -[NPKPaymentProvisioningFlowControllerChooseCredentialsStepContext flowIdentifierToCredential]
+- -[NPKPaymentProvisioningFlowControllerChooseCredentialsStepContext flowIdentifiers]
+- -[NPKPaymentProvisioningFlowControllerChooseCredentialsStepContext initWithCoder:]
+- -[NPKPaymentProvisioningFlowControllerChooseCredentialsStepContext initWithRequestContext:]
+- -[NPKPaymentProvisioningFlowControllerChooseCredentialsStepContext product]
+- -[NPKPaymentProvisioningFlowControllerChooseCredentialsStepContext setAllowsManualEntry:]
+- -[NPKPaymentProvisioningFlowControllerChooseCredentialsStepContext setCredentials:]
+- -[NPKPaymentProvisioningFlowControllerChooseCredentialsStepContext setFlowIdentifierToCredential:]
+- -[NPKPaymentProvisioningFlowControllerChooseCredentialsStepContext setFlowIdentifiers:]
+- -[NPKPaymentProvisioningFlowControllerChooseCredentialsStepContext setProduct:]
+- -[NPKPaymentProvisioningFlowControllerChooseFlowStepContext .cxx_destruct]
+- -[NPKPaymentProvisioningFlowControllerChooseFlowStepContext description]
+- -[NPKPaymentProvisioningFlowControllerChooseFlowStepContext encodeWithCoder:]
+- -[NPKPaymentProvisioningFlowControllerChooseFlowStepContext initWithCoder:]
+- -[NPKPaymentProvisioningFlowControllerChooseFlowStepContext initWithRequestContext:]
+- -[NPKPaymentProvisioningFlowControllerChooseFlowStepContext sections]
+- -[NPKPaymentProvisioningFlowControllerChooseFlowStepContext setSections:]
+- -[NPKPaymentProvisioningFlowControllerChooseProductStepContext .cxx_destruct]
+- -[NPKPaymentProvisioningFlowControllerChooseProductStepContext description]
+- -[NPKPaymentProvisioningFlowControllerChooseProductStepContext encodeWithCoder:]
+- -[NPKPaymentProvisioningFlowControllerChooseProductStepContext initWithCoder:]
+- -[NPKPaymentProvisioningFlowControllerChooseProductStepContext initWithRequestContext:]
+- -[NPKPaymentProvisioningFlowControllerChooseProductStepContext products]
+- -[NPKPaymentProvisioningFlowControllerChooseProductStepContext setProducts:]
+- -[NPKPaymentProvisioningFlowControllerDigitalIssuanceAmountStepContext .cxx_destruct]
+- -[NPKPaymentProvisioningFlowControllerDigitalIssuanceAmountStepContext allowsReaderModeEntry]
+- -[NPKPaymentProvisioningFlowControllerDigitalIssuanceAmountStepContext description]
+- -[NPKPaymentProvisioningFlowControllerDigitalIssuanceAmountStepContext encodeWithCoder:]
+- -[NPKPaymentProvisioningFlowControllerDigitalIssuanceAmountStepContext initWithCoder:]
+- -[NPKPaymentProvisioningFlowControllerDigitalIssuanceAmountStepContext initWithRequestContext:]
+- -[NPKPaymentProvisioningFlowControllerDigitalIssuanceAmountStepContext product]
+- -[NPKPaymentProvisioningFlowControllerDigitalIssuanceAmountStepContext setAllowsReaderModeEntry:]
+- -[NPKPaymentProvisioningFlowControllerDigitalIssuanceAmountStepContext setProduct:]
+- -[NPKPaymentProvisioningFlowControllerDigitalIssuancePaymentStepContext .cxx_destruct]
+- -[NPKPaymentProvisioningFlowControllerDigitalIssuancePaymentStepContext encodeWithCoder:]
+- -[NPKPaymentProvisioningFlowControllerDigitalIssuancePaymentStepContext initWithCoder:]
+- -[NPKPaymentProvisioningFlowControllerDigitalIssuancePaymentStepContext initWithRequestContext:]
+- -[NPKPaymentProvisioningFlowControllerDigitalIssuancePaymentStepContext product]
+- -[NPKPaymentProvisioningFlowControllerDigitalIssuancePaymentStepContext setProduct:]
+- -[NPKPaymentProvisioningFlowControllerGetIssuerApplicationAddRequestStepContext .cxx_destruct]
+- -[NPKPaymentProvisioningFlowControllerGetIssuerApplicationAddRequestStepContext certificates]
+- -[NPKPaymentProvisioningFlowControllerGetIssuerApplicationAddRequestStepContext description]
+- -[NPKPaymentProvisioningFlowControllerGetIssuerApplicationAddRequestStepContext initWithRequestContext:]
+- -[NPKPaymentProvisioningFlowControllerGetIssuerApplicationAddRequestStepContext nonceSignature]
+- -[NPKPaymentProvisioningFlowControllerGetIssuerApplicationAddRequestStepContext nonce]
+- -[NPKPaymentProvisioningFlowControllerGetIssuerApplicationAddRequestStepContext setCertificates:]
+- -[NPKPaymentProvisioningFlowControllerGetIssuerApplicationAddRequestStepContext setNonce:]
+- -[NPKPaymentProvisioningFlowControllerGetIssuerApplicationAddRequestStepContext setNonceSignature:]
+- -[NPKPaymentProvisioningFlowControllerIssuerVerificationChannelsStepContext .cxx_destruct]
+- -[NPKPaymentProvisioningFlowControllerIssuerVerificationChannelsStepContext description]
+- -[NPKPaymentProvisioningFlowControllerIssuerVerificationChannelsStepContext initWithRequestContext:]
+- -[NPKPaymentProvisioningFlowControllerIssuerVerificationChannelsStepContext paymentPass]
+- -[NPKPaymentProvisioningFlowControllerIssuerVerificationChannelsStepContext setPaymentPass:]
+- -[NPKPaymentProvisioningFlowControllerIssuerVerificationChannelsStepContext setVerificationChannels:]
+- -[NPKPaymentProvisioningFlowControllerIssuerVerificationChannelsStepContext verificationChannels]
+- -[NPKPaymentProvisioningFlowControllerIssuerVerificationCodeStepContext .cxx_destruct]
+- -[NPKPaymentProvisioningFlowControllerIssuerVerificationCodeStepContext description]
+- -[NPKPaymentProvisioningFlowControllerIssuerVerificationCodeStepContext initWithRequestContext:]
+- -[NPKPaymentProvisioningFlowControllerIssuerVerificationCodeStepContext paymentPass]
+- -[NPKPaymentProvisioningFlowControllerIssuerVerificationCodeStepContext setPaymentPass:]
+- -[NPKPaymentProvisioningFlowControllerIssuerVerificationCodeStepContext setVerificationChannel:]
+- -[NPKPaymentProvisioningFlowControllerIssuerVerificationCodeStepContext verificationChannel]
+- -[NPKPaymentProvisioningFlowControllerIssuerVerificationFieldsStepContext .cxx_destruct]
+- -[NPKPaymentProvisioningFlowControllerIssuerVerificationFieldsStepContext description]
+- -[NPKPaymentProvisioningFlowControllerIssuerVerificationFieldsStepContext initWithRequestContext:]
+- -[NPKPaymentProvisioningFlowControllerIssuerVerificationFieldsStepContext paymentPass]
+- -[NPKPaymentProvisioningFlowControllerIssuerVerificationFieldsStepContext setPaymentPass:]
+- -[NPKPaymentProvisioningFlowControllerIssuerVerificationFieldsStepContext setVerificationFields:]
+- -[NPKPaymentProvisioningFlowControllerIssuerVerificationFieldsStepContext verificationFields]
+- -[NPKPaymentProvisioningFlowControllerLocalDeviceManualEntryProgressStepContext initWithRequestContext:]
+- -[NPKPaymentProvisioningFlowControllerLocalDeviceManualEntryProgressStepContext numericEntryPending]
+- -[NPKPaymentProvisioningFlowControllerLocalDeviceManualEntryProgressStepContext setNumericEntryPending:]
+- -[NPKPaymentProvisioningFlowControllerLocalDeviceManualEntryStepContext initWithRequestContext:]
+- -[NPKPaymentProvisioningFlowControllerManualEntryStepContext .cxx_destruct]
+- -[NPKPaymentProvisioningFlowControllerManualEntryStepContext cameraFirstProvisioningEnabled]
+- -[NPKPaymentProvisioningFlowControllerManualEntryStepContext description]
+- -[NPKPaymentProvisioningFlowControllerManualEntryStepContext encodeWithCoder:]
+- -[NPKPaymentProvisioningFlowControllerManualEntryStepContext initWithCoder:]
+- -[NPKPaymentProvisioningFlowControllerManualEntryStepContext initWithRequestContext:]
+- -[NPKPaymentProvisioningFlowControllerManualEntryStepContext setCameraFirstProvisioningEnabled:]
+- -[NPKPaymentProvisioningFlowControllerManualEntryStepContext setSetupFields:]
+- -[NPKPaymentProvisioningFlowControllerManualEntryStepContext setupFields]
+- -[NPKPaymentProvisioningFlowControllerMoreInformationStepContext .cxx_destruct]
+- -[NPKPaymentProvisioningFlowControllerMoreInformationStepContext description]
+- -[NPKPaymentProvisioningFlowControllerMoreInformationStepContext initWithRequestContext:]
+- -[NPKPaymentProvisioningFlowControllerMoreInformationStepContext moreInfoItems]
+- -[NPKPaymentProvisioningFlowControllerMoreInformationStepContext paymentPass]
+- -[NPKPaymentProvisioningFlowControllerMoreInformationStepContext setMoreInfoItems:]
+- -[NPKPaymentProvisioningFlowControllerMoreInformationStepContext setPaymentPass:]
+- -[NPKPaymentProvisioningFlowControllerPasscodeUpgradeStepContext initWithRequestContext:]
+- -[NPKPaymentProvisioningFlowControllerPreconditionsStepContext description]
+- -[NPKPaymentProvisioningFlowControllerPreconditionsStepContext encodeWithCoder:]
+- -[NPKPaymentProvisioningFlowControllerPreconditionsStepContext initWithCoder:]
+- -[NPKPaymentProvisioningFlowControllerPreconditionsStepContext initWithRequestContext:]
+- -[NPKPaymentProvisioningFlowControllerPreconditionsStepContext preconditionsState]
+- -[NPKPaymentProvisioningFlowControllerPreconditionsStepContext setPreconditionsState:]
+- -[NPKPaymentProvisioningFlowControllerProductDisambiguationStepContext .cxx_destruct]
+- -[NPKPaymentProvisioningFlowControllerProductDisambiguationStepContext description]
+- -[NPKPaymentProvisioningFlowControllerProductDisambiguationStepContext initWithRequestContext:]
+- -[NPKPaymentProvisioningFlowControllerProductDisambiguationStepContext products]
+- -[NPKPaymentProvisioningFlowControllerProductDisambiguationStepContext setProducts:]
+- -[NPKPaymentProvisioningFlowControllerProvisioningProgressStepContext .cxx_destruct]
+- -[NPKPaymentProvisioningFlowControllerProvisioningProgressStepContext initWithRequestContext:]
+- -[NPKPaymentProvisioningFlowControllerProvisioningProgressStepContext localizedProgressDescription]
+- -[NPKPaymentProvisioningFlowControllerProvisioningProgressStepContext product]
+- -[NPKPaymentProvisioningFlowControllerProvisioningProgressStepContext setLocalizedProgressDescription:]
+- -[NPKPaymentProvisioningFlowControllerProvisioningProgressStepContext setProduct:]
+- -[NPKPaymentProvisioningFlowControllerProvisioningResultStepContext .cxx_destruct]
+- -[NPKPaymentProvisioningFlowControllerProvisioningResultStepContext cardAdded]
+- -[NPKPaymentProvisioningFlowControllerProvisioningResultStepContext description]
+- -[NPKPaymentProvisioningFlowControllerProvisioningResultStepContext error]
+- -[NPKPaymentProvisioningFlowControllerProvisioningResultStepContext initWithRequestContext:]
+- -[NPKPaymentProvisioningFlowControllerProvisioningResultStepContext provisionedPass]
+- -[NPKPaymentProvisioningFlowControllerProvisioningResultStepContext setCardAdded:]
+- -[NPKPaymentProvisioningFlowControllerProvisioningResultStepContext setError:]
+- -[NPKPaymentProvisioningFlowControllerProvisioningResultStepContext setProvisionedPass:]
+- -[NPKPaymentProvisioningFlowControllerReaderModeEntryStepContext .cxx_destruct]
+- -[NPKPaymentProvisioningFlowControllerReaderModeEntryStepContext description]
+- -[NPKPaymentProvisioningFlowControllerReaderModeEntryStepContext encodeWithCoder:]
+- -[NPKPaymentProvisioningFlowControllerReaderModeEntryStepContext initWithCoder:]
+- -[NPKPaymentProvisioningFlowControllerReaderModeEntryStepContext initWithRequestContext:]
+- -[NPKPaymentProvisioningFlowControllerReaderModeEntryStepContext product]
+- -[NPKPaymentProvisioningFlowControllerReaderModeEntryStepContext setProduct:]
+- -[NPKPaymentProvisioningFlowControllerReaderModeEntryStepContext setSetupFields:]
+- -[NPKPaymentProvisioningFlowControllerReaderModeEntryStepContext setSubtitle:]
+- -[NPKPaymentProvisioningFlowControllerReaderModeEntryStepContext setTitle:]
+- -[NPKPaymentProvisioningFlowControllerReaderModeEntryStepContext setupFields]
+- -[NPKPaymentProvisioningFlowControllerReaderModeEntryStepContext subtitle]
+- -[NPKPaymentProvisioningFlowControllerReaderModeEntryStepContext title]
+- -[NPKPaymentProvisioningFlowControllerReaderModeIngestionStepContext .cxx_destruct]
+- -[NPKPaymentProvisioningFlowControllerReaderModeIngestionStepContext description]
+- -[NPKPaymentProvisioningFlowControllerReaderModeIngestionStepContext encodeWithCoder:]
+- -[NPKPaymentProvisioningFlowControllerReaderModeIngestionStepContext ingestionProgress]
+- -[NPKPaymentProvisioningFlowControllerReaderModeIngestionStepContext ingestionState]
+- -[NPKPaymentProvisioningFlowControllerReaderModeIngestionStepContext initWithCoder:]
+- -[NPKPaymentProvisioningFlowControllerReaderModeIngestionStepContext initWithRequestContext:]
+- -[NPKPaymentProvisioningFlowControllerReaderModeIngestionStepContext physicalCardImageURL]
+- -[NPKPaymentProvisioningFlowControllerReaderModeIngestionStepContext setIngestionProgress:]
+- -[NPKPaymentProvisioningFlowControllerReaderModeIngestionStepContext setIngestionState:]
+- -[NPKPaymentProvisioningFlowControllerReaderModeIngestionStepContext setPhysicalCardImageURL:]
+- -[NPKPaymentProvisioningFlowControllerReaderModeIngestionStepContext setSubtitle:]
+- -[NPKPaymentProvisioningFlowControllerReaderModeIngestionStepContext setTitle:]
+- -[NPKPaymentProvisioningFlowControllerReaderModeIngestionStepContext subtitle]
+- -[NPKPaymentProvisioningFlowControllerReaderModeIngestionStepContext title]
+- -[NPKPaymentProvisioningFlowControllerRequestContext .cxx_destruct]
+- -[NPKPaymentProvisioningFlowControllerRequestContext currentStepIdentifier]
+- -[NPKPaymentProvisioningFlowControllerRequestContext encodeWithCoder:]
+- -[NPKPaymentProvisioningFlowControllerRequestContext initWithCoder:]
+- -[NPKPaymentProvisioningFlowControllerRequestContext initWithRequestHeader:]
+- -[NPKPaymentProvisioningFlowControllerRequestContext requestHeader]
+- -[NPKPaymentProvisioningFlowControllerSecondaryManualEntryStepContext .cxx_destruct]
+- -[NPKPaymentProvisioningFlowControllerSecondaryManualEntryStepContext allowsAddingDifferentCard]
+- -[NPKPaymentProvisioningFlowControllerSecondaryManualEntryStepContext credential]
+- -[NPKPaymentProvisioningFlowControllerSecondaryManualEntryStepContext description]
+- -[NPKPaymentProvisioningFlowControllerSecondaryManualEntryStepContext encodeWithCoder:]
+- -[NPKPaymentProvisioningFlowControllerSecondaryManualEntryStepContext initWithCoder:]
+- -[NPKPaymentProvisioningFlowControllerSecondaryManualEntryStepContext initWithRequestContext:]
+- -[NPKPaymentProvisioningFlowControllerSecondaryManualEntryStepContext setAllowsAddingDifferentCard:]
+- -[NPKPaymentProvisioningFlowControllerSecondaryManualEntryStepContext setCredential:]
+- -[NPKPaymentProvisioningFlowControllerTermsAndConditionsStepContext .cxx_destruct]
+- -[NPKPaymentProvisioningFlowControllerTermsAndConditionsStepContext allowNonSecureHTTP]
+- -[NPKPaymentProvisioningFlowControllerTermsAndConditionsStepContext description]
+- -[NPKPaymentProvisioningFlowControllerTermsAndConditionsStepContext initWithRequestContext:]
+- -[NPKPaymentProvisioningFlowControllerTermsAndConditionsStepContext product]
+- -[NPKPaymentProvisioningFlowControllerTermsAndConditionsStepContext setAllowNonSecureHTTP:]
+- -[NPKPaymentProvisioningFlowControllerTermsAndConditionsStepContext setProduct:]
+- -[NPKPaymentProvisioningFlowControllerTermsAndConditionsStepContext setTermsURL:]
+- -[NPKPaymentProvisioningFlowControllerTermsAndConditionsStepContext termsURL]
+- -[NPKPaymentProvisioningFlowControllerWelcomeStepContext .cxx_destruct]
+- -[NPKPaymentProvisioningFlowControllerWelcomeStepContext defaultImagesUsed]
+- -[NPKPaymentProvisioningFlowControllerWelcomeStepContext description]
+- -[NPKPaymentProvisioningFlowControllerWelcomeStepContext encodeWithCoder:]
+- -[NPKPaymentProvisioningFlowControllerWelcomeStepContext heroImages]
+- -[NPKPaymentProvisioningFlowControllerWelcomeStepContext initWithCoder:]
+- -[NPKPaymentProvisioningFlowControllerWelcomeStepContext initWithRequestContext:]
+- -[NPKPaymentProvisioningFlowControllerWelcomeStepContext setDefaultImagesUsed:]
+- -[NPKPaymentProvisioningFlowControllerWelcomeStepContext setHeroImages:]
+- -[NPKPaymentProvisioningFlowPickerItem .cxx_destruct]
+- -[NPKPaymentProvisioningFlowPickerItem description]
+- -[NPKPaymentProvisioningFlowPickerItem identifier]
+- -[NPKPaymentProvisioningFlowPickerItem products]
+- -[NPKPaymentProvisioningFlowPickerItem setProducts:]
+- -[NPKPaymentProvisioningFlowPickerItem setTitle:]
+- -[NPKPaymentProvisioningFlowPickerItem title]
+- -[NPKPaymentProvisioningFlowPickerSection .cxx_destruct]
+- -[NPKPaymentProvisioningFlowPickerSection description]
+- -[NPKPaymentProvisioningFlowPickerSection footer]
+- -[NPKPaymentProvisioningFlowPickerSection isAppleBalanceSection]
+- -[NPKPaymentProvisioningFlowPickerSection isEMoneySection]
+- -[NPKPaymentProvisioningFlowPickerSection isPaymentSection]
+- -[NPKPaymentProvisioningFlowPickerSection isTransitSection]
+- -[NPKPaymentProvisioningFlowPickerSection items]
+- -[NPKPaymentProvisioningFlowPickerSection productType]
+- -[NPKPaymentProvisioningFlowPickerSection setFooter:]
+- -[NPKPaymentProvisioningFlowPickerSection setTitle:]
+- -[NPKPaymentProvisioningFlowPickerSection title]
+- -[NPKPaymentProvisioningFlowStepContext .cxx_destruct]
+- -[NPKPaymentProvisioningFlowStepContext _baseFlowStepDescription]
+- -[NPKPaymentProvisioningFlowStepContext allowsAddLater]
+- -[NPKPaymentProvisioningFlowStepContext appleBalanceAccountDetailsStepContext]
+- -[NPKPaymentProvisioningFlowStepContext backStepIdentifier]
+- -[NPKPaymentProvisioningFlowStepContext chooseCredentialsStepContext]
+- -[NPKPaymentProvisioningFlowStepContext chooseEMoneyProductStepContext]
+- -[NPKPaymentProvisioningFlowStepContext chooseFlowStepContext]
+- -[NPKPaymentProvisioningFlowStepContext chooseProductStepContext]
+- -[NPKPaymentProvisioningFlowStepContext chooseTransitProductStepContext]
+- -[NPKPaymentProvisioningFlowStepContext digitalIssuanceAmountStepContext]
+- -[NPKPaymentProvisioningFlowStepContext digitalIssuancePaymentStepContext]
+- -[NPKPaymentProvisioningFlowStepContext encodeWithCoder:]
+- -[NPKPaymentProvisioningFlowStepContext getIssuerApplicationAddRequestStepContext]
+- -[NPKPaymentProvisioningFlowStepContext initWithCoder:]
+- -[NPKPaymentProvisioningFlowStepContext initWithRequestContext:]
+- -[NPKPaymentProvisioningFlowStepContext localDeviceManualEntryProgressStepContext]
+- -[NPKPaymentProvisioningFlowStepContext localDeviceManualEntryStepContext]
+- -[NPKPaymentProvisioningFlowStepContext manualEntryStepContext]
+- -[NPKPaymentProvisioningFlowStepContext moreInformationStepContext]
+- -[NPKPaymentProvisioningFlowStepContext passcodeUpgradeStepContext]
+- -[NPKPaymentProvisioningFlowStepContext preconditionsStepContext]
+- -[NPKPaymentProvisioningFlowStepContext productDisambiguationStepContext]
+- -[NPKPaymentProvisioningFlowStepContext provisioningProgressStepContext]
+- -[NPKPaymentProvisioningFlowStepContext provisioningResultStepContext]
+- -[NPKPaymentProvisioningFlowStepContext readerModeEntryStepContext]
+- -[NPKPaymentProvisioningFlowStepContext readerModeIngestionStepContext]
+- -[NPKPaymentProvisioningFlowStepContext requestContext]
+- -[NPKPaymentProvisioningFlowStepContext secondaryManualEntryStepContext]
+- -[NPKPaymentProvisioningFlowStepContext setAllowsAddLater:]
+- -[NPKPaymentProvisioningFlowStepContext setBackStepIdentifier:]
+- -[NPKPaymentProvisioningFlowStepContext setStepIdentifier:]
+- -[NPKPaymentProvisioningFlowStepContext stepIdentifier]
+- -[NPKPaymentProvisioningFlowStepContext termsAndConditionsStepContext]
+- -[NPKPaymentProvisioningFlowStepContext verificationChannelsStepContext]
+- -[NPKPaymentProvisioningFlowStepContext verificationCodeStepContext]
+- -[NPKPaymentProvisioningFlowStepContext verificationFieldsStepContext]
+- -[NPKPaymentProvisioningFlowStepContext welcomeStepContext]
+- -[NPKPaymentWebServiceCompanionTargetDevice passcodeConnection]
+- -[NPKPaymentWebServiceCompanionTargetDevice setPasscodeConnection:]
+- -[NPKPaymentWebServiceStandaloneTargetDevice .cxx_destruct]
+- -[NPKPaymentWebServiceStandaloneTargetDevice delegate]
+- -[NPKPaymentWebServiceStandaloneTargetDevice endRequiringUpgradedPasscodeIfNecessary]
+- -[NPKPaymentWebServiceStandaloneTargetDevice enforceUpgradedPasscodePolicyWithCompletion:]
+- -[NPKPaymentWebServiceStandaloneTargetDevice setDelegate:]
+- -[NPKPaymentWebServiceStandaloneTargetDevice startRequiringUpgradedPasscodeWithPasscodeMeetsPolicy:]
+- -[NPKPeerPaymentAccountManager .cxx_destruct]
+- -[NPKPeerPaymentAccountManager _handleAccountChanged:]
+- -[NPKPeerPaymentAccountManager _updateAccount]
+- -[NPKPeerPaymentAccountManager account]
+- -[NPKPeerPaymentAccountManager initWithPeerPaymentService:]
+- -[NPKPeerPaymentAccountManager init]
+- -[NPKPeerPaymentAccountManager peerPaymentService]
+- -[NPKPeerPaymentAccountManager setAccount:]
+- -[NPKPeerPaymentMessagesTransactionsManager .cxx_destruct]
+- -[NPKPeerPaymentMessagesTransactionsManager _applicationWillEnterForeground:]
+- -[NPKPeerPaymentMessagesTransactionsManager _fetchAllPeerPaymentTransactionsWithPeerPaymentPassID:]
+- -[NPKPeerPaymentMessagesTransactionsManager _passLibraryChanged:]
+- -[NPKPeerPaymentMessagesTransactionsManager _sharedPeerPaymentWebService]
+- -[NPKPeerPaymentMessagesTransactionsManager _transactionQueue_statusOfPaymentTransactionWithServiceIdentifier:]
+- -[NPKPeerPaymentMessagesTransactionsManager _transactionsQueue_notifyStatusUpdateOfTransactionWithServiceIdentifier:]
+- -[NPKPeerPaymentMessagesTransactionsManager _transactionsQueue_setStatus:forPaymentTransactionWithServiceIdentifier:notifyUpdate:]
+- -[NPKPeerPaymentMessagesTransactionsManager _transactionsQueue_transactionDetailsCreatedIfNecessaryForServiceIdentifier:]
+- -[NPKPeerPaymentMessagesTransactionsManager availableActionsForPaymentTransactionWithServiceIdentifier:]
+- -[NPKPeerPaymentMessagesTransactionsManager currentLookupIdentifiers]
+- -[NPKPeerPaymentMessagesTransactionsManager dealloc]
+- -[NPKPeerPaymentMessagesTransactionsManager initWithPeerPaymentPassUniqueID:]
+- -[NPKPeerPaymentMessagesTransactionsManager initWithPeerPaymentPassUniqueID:paymentService:]
+- -[NPKPeerPaymentMessagesTransactionsManager lookupTransactionActionsIfNeededWithServiceIdentifier:]
+- -[NPKPeerPaymentMessagesTransactionsManager paymentService]
+- -[NPKPeerPaymentMessagesTransactionsManager peerPaymentPassUniqueID]
+- -[NPKPeerPaymentMessagesTransactionsManager peerPaymentTransactionWithServiceIdentifier:]
+- -[NPKPeerPaymentMessagesTransactionsManager setPeerPaymentPassUniqueID:]
+- -[NPKPeerPaymentMessagesTransactionsManager setStatus:forPaymentTransactionWithServiceIdentifier:]
+- -[NPKPeerPaymentMessagesTransactionsManager statusOfPaymentTransactionWithServiceIdentifier:]
+- -[NPKPeerPaymentMessagesTransactionsManager transactionDetails]
+- -[NPKPeerPaymentMessagesTransactionsManager transactionSourceIdentifier:didReceiveTransaction:]
+- -[NPKPeerPaymentMessagesTransactionsManager transactionSourceIdentifier:didRemoveTransactionWithIdentifier:]
+- -[NPKPeerPaymentNumberFormatter .cxx_destruct]
+- -[NPKPeerPaymentNumberFormatter currencyCode]
+- -[NPKPeerPaymentNumberFormatter currencySymbol]
+- -[NPKPeerPaymentNumberFormatter initWithCurrencyCode:]
+- -[NPKPeerPaymentNumberFormatter init]
+- -[NPKPeerPaymentNumberFormatter setCurrencyCode:]
+- -[NPKPeerPaymentNumberFormatter stringFromNumber:]
+- -[NPKPeerPaymentQuickTypeParser .cxx_destruct]
+- -[NPKPeerPaymentQuickTypeParser allowedPayloadIDs]
+- -[NPKPeerPaymentQuickTypeParser initWithSupportedCurrencyCodes:allowedPayloadIDs:]
+- -[NPKPeerPaymentQuickTypeParser parsePayload:payloadID:]
+- -[NPKPeerPaymentQuickTypeParser parsePayload:payloadID:maxCount:]
+- -[NPKPeerPaymentQuickTypeParser supportedCurrencyCodes]
+- -[NPKPeerPaymentQuickTypeParserCurrencyData .cxx_destruct]
+- -[NPKPeerPaymentQuickTypeParserCurrencyData currencyAmount]
+- -[NPKPeerPaymentQuickTypeParserCurrencyData initWithCurrencyAmount:senderHandle:]
+- -[NPKPeerPaymentQuickTypeParserCurrencyData senderHandle]
+- -[NPKPeerPaymentQuickTypeParserData .cxx_destruct]
+- -[NPKPeerPaymentQuickTypeParserData currenciesData]
+- -[NPKPeerPaymentQuickTypeParserData initWithCurrenciesData:directlyInitiate:]
+- -[NPKPeerPaymentQuickTypeParserData smartReplyType]
+- -[NPKPeerPaymentTransactionDetails .cxx_destruct]
+- -[NPKPeerPaymentTransactionDetails availableActionsFetchDate]
+- -[NPKPeerPaymentTransactionDetails availableActions]
+- -[NPKPeerPaymentTransactionDetails description]
+- -[NPKPeerPaymentTransactionDetails paymentStatus]
+- -[NPKPeerPaymentTransactionDetails serviceIdentifier]
+- -[NPKPeerPaymentTransactionDetails setAvailableActions:]
+- -[NPKPeerPaymentTransactionDetails setAvailableActionsFetchDate:]
+- -[NPKPeerPaymentTransactionDetails setPaymentStatus:]
+- -[NPKPeerPaymentTransactionDetails setServiceIdentifier:]
+- -[NPKPeerPaymentTransactionDetails setTransaction:]
+- -[NPKPeerPaymentTransactionDetails transaction]
+- -[NPKPerishableValue .cxx_destruct]
+- -[NPKPerishableValue initWithValue:]
+- -[NPKPerishableValue initWithValue:isStale:]
+- -[NPKPerishableValue isStale]
+- -[NPKPerishableValue setIsStale:]
+- -[NPKPerishableValue setValue:]
+- -[NPKPerishableValue value]
+- -[NPKPrecursorPassUpgradeRequestController .cxx_destruct]
+- -[NPKPrecursorPassUpgradeRequestController delegate]
+- -[NPKPrecursorPassUpgradeRequestController fetchUpgradeRequestsWithCompletion:]
+- -[NPKPrecursorPassUpgradeRequestController initWithPass:]
+- -[NPKPrecursorPassUpgradeRequestController pass]
+- -[NPKPrecursorPassUpgradeRequestController precursorPassUpgradeRequestDidChange]
+- -[NPKPrecursorPassUpgradeRequestController setDelegate:]
+- -[NPKPrecursorPassUpgradeRequestController setUpgradeController:]
+- -[NPKPrecursorPassUpgradeRequestController upgradeController]
+- -[NPKPrecursorPassUpgradeRequestController upgradeRequestDescription]
+- -[NPKPrecursorPassUpgradeRequestsManager .cxx_destruct]
+- -[NPKPrecursorPassUpgradeRequestsManager _queue_addObserver:]
+- -[NPKPrecursorPassUpgradeRequestsManager _queue_invalidateUpgradeControllerForPassWithUniqueID:]
+- -[NPKPrecursorPassUpgradeRequestsManager _queue_notifyObserversDidChangeUpgradeRequestDescription:forPassWithUniqueID:]
+- -[NPKPrecursorPassUpgradeRequestsManager _queue_removeObserver:]
+- -[NPKPrecursorPassUpgradeRequestsManager addObserver:]
+- -[NPKPrecursorPassUpgradeRequestsManager descriptionForPassWithUniqueID:]
+- -[NPKPrecursorPassUpgradeRequestsManager init]
+- -[NPKPrecursorPassUpgradeRequestsManager invalidateUpgradeControllerForPassWithUniqueID:]
+- -[NPKPrecursorPassUpgradeRequestsManager loadUpgradeControllerForPass:]
+- -[NPKPrecursorPassUpgradeRequestsManager notifyObserversDidChangeUpgradeRequestDescription:forPassWithUniqueID:]
+- -[NPKPrecursorPassUpgradeRequestsManager precursorPassUpgradeRequestsDidChangeForUpgradeController:]
+- -[NPKPrecursorPassUpgradeRequestsManager removeObserver:]
+- -[NPKQuickPaymentSession .cxx_destruct]
+- -[NPKQuickPaymentSession _callbackQueue_invokeDidCompleteForReason:withTransactionContext:shouldCleanupSession:]
+- -[NPKQuickPaymentSession _checkContactlessValidity:authorizationValidity:performWork:]
+- -[NPKQuickPaymentSession _checkContactlessValidity:performWork:]
+- -[NPKQuickPaymentSession _handleConventionalTransactionWithContext:]
+- -[NPKQuickPaymentSession _handleFieldEntry]
+- -[NPKQuickPaymentSession _handleFieldExit]
+- -[NPKQuickPaymentSession _handleTransactionCompleteWithContext:]
+- -[NPKQuickPaymentSession _internalQueue_deactivateSessionWithCompletion:]
+- -[NPKQuickPaymentSession _internalQueue_getContactlessAndAuthorizationValidityAndPerformWork:]
+- -[NPKQuickPaymentSession _internalQueue_invokeDeactivationCompletionBlocks]
+- -[NPKQuickPaymentSession _internalQueue_setCurrentPass:]
+- -[NPKQuickPaymentSession _internalQueue_updateContactlessSessionForPass:vasPasses:deferAuthorization:]
+- -[NPKQuickPaymentSession _internalQueue_updateContactlessValidityAndPerformWork:]
+- -[NPKQuickPaymentSession _internalQueue_updateSessionWithCurrentPassAndLoyaltyState]
+- -[NPKQuickPaymentSession _invokeStateUpdateForReason:shouldCleanupSession:]
+- -[NPKQuickPaymentSession _loyaltyEngineConfigurationChanged:]
+- -[NPKQuickPaymentSession _sessionQueue_authorizeWithUseCredential:deferAuthorizationIfCredentialUsed:]
+- -[NPKQuickPaymentSession _sessionQueue_enablePersistentCardEmulation]
+- -[NPKQuickPaymentSession _sessionQueue_invokeAppropriateCallbackForActivationWithSuccess:invokeOnSuccess:contactlessValidity:forPass:]
+- -[NPKQuickPaymentSession _sessionQueue_startContactlessSessionWithSuccessfulCompletionOnInternalQueue:]
+- -[NPKQuickPaymentSession _sessionQueue_updateContactlessSessionForPass:paymentApplications:vasPasses:sessionConfirmed:deferAuthorization:]
+- -[NPKQuickPaymentSession _updateAuthorizationValidity]
+- -[NPKQuickPaymentSession _updateSessionWithCredentialAndActivate]
+- -[NPKQuickPaymentSession authorizationValidity]
+- -[NPKQuickPaymentSession authorize18013RequestWithDataToRelease:credential:]
+- -[NPKQuickPaymentSession callbackQueue]
+- -[NPKQuickPaymentSession confirmSessionExpectingCredential:]
+- -[NPKQuickPaymentSession contactlessInterfaceSession:didEndPersistentCardEmulationWithContexts:]
+- -[NPKQuickPaymentSession contactlessInterfaceSession:didFinishTransactionWithContext:]
+- -[NPKQuickPaymentSession contactlessInterfaceSession:didReceive18013Request:readerAuthInfo:]
+- -[NPKQuickPaymentSession contactlessInterfaceSessionDidEnterField:withProperties:]
+- -[NPKQuickPaymentSession contactlessInterfaceSessionDidExitField:]
+- -[NPKQuickPaymentSession contactlessInterfaceSessionDidFail:forPaymentApplications:paymentPass:valueAddedServicePasses:]
+- -[NPKQuickPaymentSession contactlessInterfaceSessionDidFailDeferredAuthorization:]
+- -[NPKQuickPaymentSession contactlessInterfaceSessionDidFailTransaction:forPaymentApplication:paymentPass:]
+- -[NPKQuickPaymentSession contactlessInterfaceSessionDidReceiveActivityTimeout:]
+- -[NPKQuickPaymentSession contactlessInterfaceSessionDidReceiveTerminalError:]
+- -[NPKQuickPaymentSession contactlessInterfaceSessionDidReceiveUntrustedTerminal:]
+- -[NPKQuickPaymentSession contactlessInterfaceSessionDidSelectPayment:]
+- -[NPKQuickPaymentSession contactlessInterfaceSessionDidSelectValueAddedService:]
+- -[NPKQuickPaymentSession contactlessInterfaceSessionDidStartTransaction:withContext:]
+- -[NPKQuickPaymentSession contactlessInterfaceSessionDidTerminate:]
+- -[NPKQuickPaymentSession contactlessInterfaceSessionDidTerminate:withErrorCode:]
+- -[NPKQuickPaymentSession contactlessInterfaceSessionDidTimeout:forPaymentApplications:paymentPass:valueAddedServicePasses:]
+- -[NPKQuickPaymentSession contactlessInterfaceSessionHasPendingServerRequest:]
+- -[NPKQuickPaymentSession contactlessSessionHandle]
+- -[NPKQuickPaymentSession contactlessSession]
+- -[NPKQuickPaymentSession contactlessValidity]
+- -[NPKQuickPaymentSession currentPass]
+- -[NPKQuickPaymentSession deactivateSessionWithCompletion:]
+- -[NPKQuickPaymentSession deactivationCompletionBlocks]
+- -[NPKQuickPaymentSession dealloc]
+- -[NPKQuickPaymentSession deferAuthorization]
+- -[NPKQuickPaymentSession delegate]
+- -[NPKQuickPaymentSession endSessionWhenAuthorizationIsConsumed]
+- -[NPKQuickPaymentSession executeRKEActionForPass:function:action:withCompletion:]
+- -[NPKQuickPaymentSession fieldDetectorDidEnterField:withProperties:]
+- -[NPKQuickPaymentSession fieldDetectorDidExitField:]
+- -[NPKQuickPaymentSession fieldDetector]
+- -[NPKQuickPaymentSession hasPerformedFirstActivation]
+- -[NPKQuickPaymentSession inField]
+- -[NPKQuickPaymentSession inServiceMode]
+- -[NPKQuickPaymentSession initWithQueue:]
+- -[NPKQuickPaymentSession internalQueue]
+- -[NPKQuickPaymentSession isConfirmed]
+- -[NPKQuickPaymentSession isDeactivated]
+- -[NPKQuickPaymentSession isDeactivating]
+- -[NPKQuickPaymentSession isSwitchingSessionType]
+- -[NPKQuickPaymentSession paymentSessionQueue]
+- -[NPKQuickPaymentSession requireFirstInQueue]
+- -[NPKQuickPaymentSession sessionStarted]
+- -[NPKQuickPaymentSession sessionType]
+- -[NPKQuickPaymentSession setAuthorizationValidity:]
+- -[NPKQuickPaymentSession setCallbackQueue:]
+- -[NPKQuickPaymentSession setConfirmed:]
+- -[NPKQuickPaymentSession setContactlessSession:]
+- -[NPKQuickPaymentSession setContactlessSessionHandle:]
+- -[NPKQuickPaymentSession setContactlessValidity:]
+- -[NPKQuickPaymentSession setCredential:]
+- -[NPKQuickPaymentSession setCurrentPass:]
+- -[NPKQuickPaymentSession setDeactivated:]
+- -[NPKQuickPaymentSession setDeactivating:]
+- -[NPKQuickPaymentSession setDeactivationCompletionBlocks:]
+- -[NPKQuickPaymentSession setDeferAuthorization:]
+- -[NPKQuickPaymentSession setDelegate:]
+- -[NPKQuickPaymentSession setEndSessionWhenAuthorizationIsConsumed:]
+- -[NPKQuickPaymentSession setFieldDetector:]
+- -[NPKQuickPaymentSession setInField:]
+- -[NPKQuickPaymentSession setInServiceMode:]
+- -[NPKQuickPaymentSession setInternalQueue:]
+- -[NPKQuickPaymentSession setPaymentSessionQueue:]
+- -[NPKQuickPaymentSession setPerformedFirstActivation:]
+- -[NPKQuickPaymentSession setRequireFirstInQueue:]
+- -[NPKQuickPaymentSession setVasPasses:]
+- -[NPKQuickPaymentSession startSessionWithCompletion:]
+- -[NPKQuickPaymentSession startSession]
+- -[NPKQuickPaymentSession stsSession:didDetectField:]
+- -[NPKQuickPaymentSession vasPasses]
+- -[NPKQuickPaymentSessionCleanupDelegate _saveTransactionFromContext:]
+- -[NPKQuickPaymentSessionCleanupDelegate paymentSession:didCompleteTransactionForReason:withTransactionContext:shouldCleanupSession:]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator .cxx_destruct]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator _activateLocalAuthenticationEvent:]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator _cancelLocalAuthentication]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator _credentialTypeForEvent:]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator _deactivateLocalAuthenticationEvent:]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator _handleLocalAuthenticationPolicyEvaluatedWithContext:error:]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator _invokeCompletionHandlerForInvalidationWithError:]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator _nameForLocalAuthenticationEvent:]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator _performDelegateCallback:]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator _presentNextLocalAuthenticationEvent]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator activeLocalAuthenticationEvent]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator beginLocalAuthenticationWithAccessControl:operation:completion:]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator beginLocalAuthenticationWithCompletion:]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator beginLocalAuthenticationWithPolicy:completion:]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator callbackQueue]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator completedContext]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator completedCredential]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator completedError]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator completionHandler]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator credentialDelegate]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator event:params:reply:]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator inProgressContext]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator initWithCallbackQueue:]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator invalidateLocalAuthenticationContexts]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator localAuthenticationQueue]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator pendingLocalAuthenticationEvents]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator setActiveLocalAuthenticationEvent:]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator setCallbackQueue:]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator setCompletedContext:]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator setCompletedCredential:]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator setCompletedError:]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator setCompletionHandler:]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator setCredentialDelegate:]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator setInProgressContext:]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator setLocalAuthenticationQueue:]
+- -[NPKQuickPaymentSessionLocalAuthenticationCoordinator setPendingLocalAuthenticationEvents:]
+- -[NPKQuickPaymentSessionSource .cxx_destruct]
+- -[NPKQuickPaymentSessionSource _handleAuthIntentEventFromSource:]
+- -[NPKQuickPaymentSessionSource _performDelegateCallback:]
+- -[NPKQuickPaymentSessionSource initWithDelegate:buttonListener:callbackQueue:]
+- -[NPKQuickPaymentSessionSource setDeferAuthorization:]
+- -[NPKQuickPaymentSessionSource setDelegateHandlingButtonEvents:]
+- -[NPKQuickPaymentSessionSource setInitialPass:]
+- -[NPKQuickPaymentSessionSource setLocalAuthenticationCoordinator:]
+- -[NPKQuickPaymentSessionSource setPreconditionState:]
+- -[NPKQuickPaymentSessionSource setRequireFirstInQueue:]
+- -[NPKQuickPaymentSessionSource setVasPasses:]
+- -[NPKRemoteButtonListener .cxx_destruct]
+- -[NPKRemoteButtonListener dealloc]
+- -[NPKRemoteButtonListener delegate]
+- -[NPKRemoteButtonListener delegationAssertion]
+- -[NPKRemoteButtonListener doublePressDelegationAssertion:didReceiveTerminalAuthenticationRequestForPassWithUniqueID:]
+- -[NPKRemoteButtonListener doublePressDelegationAssertionDidReceiveDelegatedDoublePressEvent:authIntentSource:]
+- -[NPKRemoteButtonListener enabled]
+- -[NPKRemoteButtonListener init]
+- -[NPKRemoteButtonListener setDelegate:]
+- -[NPKRemoteButtonListener setDelegationAssertion:]
+- -[NPKRemoteButtonListener setEnabled:]
+- -[NPKRemoteInterfacePresenter .cxx_destruct]
+- -[NPKRemoteInterfacePresenter clearInAppInterfaceForSkeletonPeerPaymentQuote:withError:]
+- -[NPKRemoteInterfacePresenter delegate]
+- -[NPKRemoteInterfacePresenter init]
+- -[NPKRemoteInterfacePresenter presentContactlessInterfaceForPassWithUniqueIdentifier:fromSource:completion:]
+- -[NPKRemoteInterfacePresenter presentContinuityPaymentInterfaceWithRemotePaymentRequest:completion:]
+- -[NPKRemoteInterfacePresenter presentInAppPaymentInterfaceWithPaymentRequest:awaitingRemoteNetworkPaymentRequest:forHostApplicationName:hostBundleIdentifier:hostProcessIdentifier:hostIdentifier:orientation:completion:]
+- -[NPKRemoteInterfacePresenter presentInAppPaymentInterfaceWithPaymentRequest:forHostApplicationName:hostBundleIdentifier:hostProcessIdentifier:hostIdentifier:orientation:completion:]
+- -[NPKRemoteInterfacePresenter presentPasscodeUpgradeRequestWithChangeType:completion:]
+- -[NPKRemoteInterfacePresenter presentProvisioningContinuityInterfaceForPassWithUniqueIdentifier:continuityType:transferToken:completion:]
+- -[NPKRemoteInterfacePresenter presentSetupApplePayAlert:]
+- -[NPKRemoteInterfacePresenter presentTransitTopUpValueSelectionForPassWithUniqueIdentifier:balanceField:completion:]
+- -[NPKRemoteInterfacePresenter setDelegate:]
+- -[NPKRemoteInterfacePresenter setXpcConnection:]
+- -[NPKRemoteInterfacePresenter showInAppInterfaceWithSkeletonPeerPaymentQuote:completion:]
+- -[NPKRemoteInterfacePresenter tearDownPasscodeUpgradeRequestWithPasscodeChanged:error:]
+- -[NPKRemoteInterfacePresenter xpcConnection]
+- -[NPKSecureElement .cxx_destruct]
+- -[NPKSecureElement _applicationWillEnterBackground:]
+- -[NPKSecureElement _applicationWillEnterForeground:]
+- -[NPKSecureElement _backgroundQueue_initHWManager]
+- -[NPKSecureElement _fetchNFCState]
+- -[NPKSecureElement _secureElementDidUpdateRestrictedModeState:]
+- -[NPKSecureElement applicationIsAtForeground]
+- -[NPKSecureElement dealloc]
+- -[NPKSecureElement didChangeRadioState:]
+- -[NPKSecureElement hardwareManager]
+- -[NPKSecureElement hardwareStateDidChange]
+- -[NPKSecureElement init]
+- -[NPKSecureElement isInRestrictedMode:]
+- -[NPKSecureElement isInRestrictedMode]
+- -[NPKSecureElement isNFCDisabled]
+- -[NPKSecureElement registerObserver:]
+- -[NPKSecureElement secureElement:didChangeRestrictedMode:]
+- -[NPKSecureElement setHardwareManager:]
+- -[NPKSecureElement setSupportState:]
+- -[NPKSecureElement supportState]
+- -[NPKSecureElement unregisterObserver:]
+- -[NPKStandaloneProvisioningNumericEntryCoordinator .cxx_destruct]
+- -[NPKStandaloneProvisioningNumericEntryCoordinator _invokeCompletionHandler]
+- -[NPKStandaloneProvisioningNumericEntryCoordinator _showCurrentPasscodePromptOrComplete]
+- -[NPKStandaloneProvisioningNumericEntryCoordinator _showNextPasscodePromptOrComplete]
+- -[NPKStandaloneProvisioningNumericEntryCoordinator completedFields]
+- -[NPKStandaloneProvisioningNumericEntryCoordinator completionHandler]
+- -[NPKStandaloneProvisioningNumericEntryCoordinator currentIndex]
+- -[NPKStandaloneProvisioningNumericEntryCoordinator invalidate]
+- -[NPKStandaloneProvisioningNumericEntryCoordinator providedFields]
+- -[NPKStandaloneProvisioningNumericEntryCoordinator requestNumericInputForFields:completion:]
+- -[NPKStandaloneProvisioningNumericEntryCoordinator setCompletedFields:]
+- -[NPKStandaloneProvisioningNumericEntryCoordinator setCompletionHandler:]
+- -[NPKStandaloneProvisioningNumericEntryCoordinator setCurrentIndex:]
+- -[NPKStandaloneProvisioningNumericEntryCoordinator setProvidedFields:]
+- -[NPKTestAddPaymentPassRequestContext .cxx_destruct]
+- -[NPKTestAddPaymentPassRequestContext cardEncryptionScheme]
+- -[NPKTestAddPaymentPassRequestContext cardFlow]
+- -[NPKTestAddPaymentPassRequestContext cardID]
+- -[NPKTestAddPaymentPassRequestContext cardIssuer]
+- -[NPKTestAddPaymentPassRequestContext cardPNO]
+- -[NPKTestAddPaymentPassRequestContext cardProduct]
+- -[NPKTestAddPaymentPassRequestContext cardType]
+- -[NPKTestAddPaymentPassRequestContext setCardEncryptionScheme:]
+- -[NPKTestAddPaymentPassRequestContext setCardFlow:]
+- -[NPKTestAddPaymentPassRequestContext setCardID:]
+- -[NPKTestAddPaymentPassRequestContext setCardIssuer:]
+- -[NPKTestAddPaymentPassRequestContext setCardPNO:]
+- -[NPKTestAddPaymentPassRequestContext setCardProduct:]
+- -[NPKTestAddPaymentPassRequestContext setCardType:]
+- -[NPKTileActionItem .cxx_destruct]
+- -[NPKTileActionItem action]
+- -[NPKTileActionItem description]
+- -[NPKTileActionItem initWithTile:action:]
+- -[NPKTileActionItem tile]
+- -[NPKTransientAssertion .cxx_destruct]
+- -[NPKTransientAssertion _handleInterruption]
+- -[NPKTransientAssertion _handleInvalidation]
+- -[NPKTransientAssertion _remoteObjectProxyWithErrorHandler:]
+- -[NPKTransientAssertion _remoteObjectProxy]
+- -[NPKTransientAssertion _resyncState]
+- -[NPKTransientAssertion dealloc]
+- -[NPKTransientAssertion didEnterFieldForPassesWithUniqueIDs:]
+- -[NPKTransientAssertion handleDelegatedDoublePressEventWithSource:]
+- -[NPKTransientAssertion handleTerminalAuthenticationRequestedForPassWithUniqueID:]
+- -[NPKTransientAssertion initWithQueue:]
+- -[NPKTransientAssertion invalidate]
+- -[NPKTransientAssertion setXpcConnection:]
+- -[NPKTransientAssertion xpcConnection]
+- -[NPKTransientPassAssertion .cxx_destruct]
+- -[NPKTransientPassAssertion _handleInterruption]
+- -[NPKTransientPassAssertion _handleInvalidation]
+- -[NPKTransientPassAssertion _resyncState]
+- -[NPKTransientPassAssertion disableCardSelection]
+- -[NPKTransientPassAssertion initWithPassWithUniqueID:]
+- -[NPKTransientPassAssertion requestServiceMode]
+- -[NPKTransientPassAssertion setDisableCardSelection:]
+- -[NPKTransientPassAssertion setRequestServiceMode:]
+- -[NPKTransientPassAssertion setUniqueID:]
+- -[NPKTransientPassAssertion uniqueID]
+- -[NPKTransitAppletHistoryFetcher .cxx_destruct]
+- -[NPKTransitAppletHistoryFetcher _handleActiveSecureElementManagerSession:]
+- -[NPKTransitAppletHistoryFetcher _handleSecureElementSessionFailureWithError:]
+- -[NPKTransitAppletHistoryFetcher aidToFetch]
+- -[NPKTransitAppletHistoryFetcher callbackQueue]
+- -[NPKTransitAppletHistoryFetcher delegate]
+- -[NPKTransitAppletHistoryFetcher initWithCallbackQueue:]
+- -[NPKTransitAppletHistoryFetcher internalQueue]
+- -[NPKTransitAppletHistoryFetcher pendingSessionHandle]
+- -[NPKTransitAppletHistoryFetcher requestTransitHistoryFetch]
+- -[NPKTransitAppletHistoryFetcher setAIDToFetch:]
+- -[NPKTransitAppletHistoryFetcher setAidToFetch:]
+- -[NPKTransitAppletHistoryFetcher setCallbackQueue:]
+- -[NPKTransitAppletHistoryFetcher setDelegate:]
+- -[NPKTransitAppletHistoryFetcher setInternalQueue:]
+- -[NPKTransitAppletHistoryFetcher setPendingSessionHandle:]
+- -[NPKUserNotification body]
+- -[NPKUserNotification identifierHashComponents]
+- -[NPKUserNotification identifier]
+- -[NPKUserNotification isSuppressed]
+- -[NPKUserNotification notificationCategoryIdentifier]
+- -[NPKUserNotification title]
+- -[NPKUserNotification userInfo]
+- -[NPKUserNotification wantsBadgedIcon]
+- -[NPKUserNotificationCenter .cxx_destruct]
+- -[NPKUserNotificationCenter _addNotificationWithNotificationIdentifier:title:body:categoryIdentifier:userInfo:wantsBadgedIcon:suppressed:completion:]
+- -[NPKUserNotificationCenter _requestNotificationAuthorizationWithOptions:completion:]
+- -[NPKUserNotificationCenter _requestNotificationAuthorizationWithPreconditionCheck:completion:]
+- -[NPKUserNotificationCenter _requestWithNotificationIdentifier:title:body:categoryIdentifier:userInfo:wantsBadgedIcon:suppressed:]
+- -[NPKUserNotificationCenter addNotification:completion:]
+- -[NPKUserNotificationCenter fetchAuthorizationStatusWithCompletion:]
+- -[NPKUserNotificationCenter initWithNotificationBundleIdentifier:]
+- -[NPKUserNotificationCenter init]
+- -[NPKUserNotificationCenter requestAuthorizationIfNecessaryForPassesManager:withCompletion:]
+- -[NPKUserNotificationCenter requestAuthorizationWithCompletion:]
+- -[NPKUserNotificationCenter setNotificationCategoryWithIdentifier:intentIdentifier:actions:options:]
+- -[NPKUserNotificationCenter userNotificationCenter:didChangeSettings:]
+- -[NPKUserNotificationExpressModeEnabled body]
+- -[NPKUserNotificationExpressModeEnabled initWithPass:expressNotificationType:]
+- -[NPKUserNotificationExpressModeEnabled notificationCategoryIdentifier]
+- -[NPKUserNotificationExpressModeEnabled title]
+- -[NPKUserNotificationExpressModeEnabled userInfo]
+- -[NPKUserNotificationExpressModeEnabled wantsBadgedIcon]
+- -[NPKValueAddedServiceAutomaticSelectionCoordinator .cxx_destruct]
+- -[NPKValueAddedServiceAutomaticSelectionCoordinator _handleWalletPreferencesChanged:]
+- -[NPKValueAddedServiceAutomaticSelectionCoordinator _updateAutomaticSelectionPasses]
+- -[NPKValueAddedServiceAutomaticSelectionCoordinator dataSource]
+- -[NPKValueAddedServiceAutomaticSelectionCoordinator delegate]
+- -[NPKValueAddedServiceAutomaticSelectionCoordinator initWithDelegate:passesDataSource:]
+- -[NPKValueAddedServiceAutomaticSelectionCoordinator passesDataSource:didAddPasses:]
+- -[NPKValueAddedServiceAutomaticSelectionCoordinator passesDataSource:didRemovePasses:]
+- -[NPKValueAddedServiceAutomaticSelectionCoordinator passesDataSource:didUpdatePasses:]
+- -[NPKValueAddedServiceAutomaticSelectionCoordinator passesDataSource:didUpdateSettingsForPass:]
+- -[NPKValueAddedServiceAutomaticSelectionCoordinator passesDataSourceDidReloadPasses:]
+- -[NPKValueAddedServiceAutomaticSelectionCoordinator passesDataSourceDidReorderPasses:]
+- -[NPKValueAddedServiceAutomaticSelectionCoordinator setDataSource:]
+- -[NPKValueAddedServiceAutomaticSelectionCoordinator setDelegate:]
+- -[NPKVehicleConnectivityCoordinator .cxx_destruct]
+- -[NPKVehicleConnectivityCoordinator _handleCarKeyVehicleStatusChangeNotification:]
+- -[NPKVehicleConnectivityCoordinator _parseVehicleStatusChangeNotificationObject:outApplicationIdentifier:outSubcredentialIdentifier:]
+- -[NPKVehicleConnectivityCoordinator _registerObservers]
+- -[NPKVehicleConnectivityCoordinator delegate]
+- -[NPKVehicleConnectivityCoordinator initWithDistributedNotificationCenter:]
+- -[NPKVehicleConnectivityCoordinator init]
+- -[NPKVehicleConnectivityCoordinator isVehicleConnectedForPass:]
+- -[NPKVehicleConnectivityCoordinator setDelegate:]
+- -[NPKWifiObserver .cxx_destruct]
+- -[NPKWifiObserver _setupInterface]
+- -[NPKWifiObserver _updateWiFiStateAndNotifiyObserver:]
+- -[NPKWifiObserver dealloc]
+- -[NPKWifiObserver delegate]
+- -[NPKWifiObserver initWithCallbackQueue:]
+- -[NPKWifiObserver isWifiEnabled]
+- -[NPKWifiObserver setDelegate:]
+- -[NSDistributedNotificationCenter(WeakObservers) _handleNotification:]
+- -[NSDistributedNotificationCenter(WeakObservers) _internalNameForNotificationName:]
+- -[NSDistributedNotificationCenter(WeakObservers) weak_addObserver:selector:name:object:]
+- -[NSDistributedNotificationCenter(WeakObservers) weak_removeObserver:]
+- -[NSDistributedNotificationCenter(WeakObservers) weak_removeObserver:name:object:]
+- -[PKAccount(NanoPassKit) npkShouldShowSavingsAccountInfo]
+- -[PKPaymentAuthorizationDataModel(NanoPassKit) _hasNonPeerPaymentAcceptedPasses]
+- -[PKPaymentAuthorizationDataModel(NanoPassKit) npkIsCardOnFilePayment]
+- -[PKPaymentAuthorizationDataModel(NanoPassKit) npkIsCompanionAuthForTvOS]
+- -[PKPaymentAuthorizationDataModel(NanoPassKit) npkIsExternalContextAuthorization]
+- -[PKPaymentAuthorizationDataModel(NanoPassKit) npkIsNearbyPeerPayment]
+- -[PKPaymentAuthorizationDataModel(NanoPassKit) npkIsOutgoingPeerPayment]
+- -[PKPaymentAuthorizationDataModel(NanoPassKit) npkIsPeerPayment]
+- -[PKPaymentAuthorizationDataModel(NanoPassKit) npkIsSkeletonPeerPayment]
+- -[PKPaymentAuthorizationDataModel(NanoPassKit) npkIsSplitPeerPaymentWithAnotherPaymentMethod]
+- -[PKPaymentAuthorizationDataModel(NanoPassKit) npkIsSplitPeerPaymentWithoutAnotherPaymentMethod]
+- -[PKPaymentAuthorizationDataModel(NanoPassKit) npkIsSplitPeerPayment]
+- -[PKPaymentAuthorizationDataModel(NanoPassKit) npkIsTopUp]
+- -[PKPaymentAuthorizationDataModel(NanoPassKit) npkSetPassAndPaymentApplicationForAID:]
+- -[PKPeerPaymentRecipient(NanoPassKit) npkSanitizedAddress]
+- -[PKPrecursorPassUpgradeRequestDescription(NanoPassKit) _primaryAction]
+- -[PKPrecursorPassUpgradeRequestDescription(NanoPassKit) npk_actionType]
+- -[PKPrecursorPassUpgradeRequestDescription(NanoPassKit) npk_actionURL]
+- -[PKPrecursorPassUpgradeRequestDescription(NanoPassKit) npk_localizedActionText]
+- GCC_except_table100
+- GCC_except_table101
+- GCC_except_table104
+- GCC_except_table106
+- GCC_except_table113
+- GCC_except_table114
+- GCC_except_table141
+- GCC_except_table142
+- GCC_except_table147
+- GCC_except_table151
+- GCC_except_table152
+- GCC_except_table163
+- GCC_except_table168
+- GCC_except_table173
+- GCC_except_table178
+- GCC_except_table183
+- GCC_except_table184
+- GCC_except_table185
+- GCC_except_table187
+- GCC_except_table189
+- GCC_except_table190
+- GCC_except_table191
+- GCC_except_table21
+- GCC_except_table218
+- GCC_except_table226
+- GCC_except_table230
+- GCC_except_table236
+- GCC_except_table241
+- GCC_except_table250
+- GCC_except_table257
+- GCC_except_table262
+- GCC_except_table267
+- GCC_except_table268
+- GCC_except_table27
+- GCC_except_table277
+- GCC_except_table278
+- GCC_except_table289
+- GCC_except_table292
+- GCC_except_table296
+- GCC_except_table30
+- GCC_except_table301
+- GCC_except_table306
+- GCC_except_table310
+- GCC_except_table315
+- GCC_except_table320
+- GCC_except_table326
+- GCC_except_table331
+- GCC_except_table338
+- GCC_except_table345
+- GCC_except_table350
+- GCC_except_table355
+- GCC_except_table360
+- GCC_except_table365
+- GCC_except_table378
+- GCC_except_table379
+- GCC_except_table383
+- GCC_except_table399
+- GCC_except_table405
+- GCC_except_table423
+- GCC_except_table432
+- GCC_except_table439
+- GCC_except_table444
+- GCC_except_table455
+- GCC_except_table458
+- GCC_except_table46
+- GCC_except_table467
+- GCC_except_table47
+- GCC_except_table472
+- GCC_except_table480
+- GCC_except_table488
+- GCC_except_table493
+- GCC_except_table502
+- GCC_except_table510
+- GCC_except_table515
+- GCC_except_table520
+- GCC_except_table526
+- GCC_except_table532
+- GCC_except_table537
+- GCC_except_table54
+- GCC_except_table545
+- GCC_except_table548
+- GCC_except_table55
+- GCC_except_table562
+- GCC_except_table564
+- GCC_except_table574
+- GCC_except_table582
+- GCC_except_table588
+- GCC_except_table597
+- GCC_except_table602
+- GCC_except_table607
+- GCC_except_table612
+- GCC_except_table617
+- GCC_except_table622
+- GCC_except_table627
+- GCC_except_table632
+- GCC_except_table637
+- GCC_except_table642
+- GCC_except_table649
+- GCC_except_table656
+- GCC_except_table66
+- GCC_except_table661
+- GCC_except_table666
+- GCC_except_table67
+- GCC_except_table671
+- GCC_except_table679
+- GCC_except_table68
+- GCC_except_table687
+- GCC_except_table693
+- GCC_except_table698
+- GCC_except_table70
+- GCC_except_table703
+- GCC_except_table709
+- GCC_except_table715
+- GCC_except_table722
+- GCC_except_table727
+- GCC_except_table73
+- GCC_except_table733
+- GCC_except_table738
+- GCC_except_table743
+- GCC_except_table748
+- GCC_except_table753
+- GCC_except_table758
+- GCC_except_table763
+- GCC_except_table768
+- GCC_except_table773
+- GCC_except_table778
+- GCC_except_table783
+- GCC_except_table788
+- GCC_except_table793
+- GCC_except_table799
+- GCC_except_table80
+- GCC_except_table801
+- GCC_except_table804
+- GCC_except_table810
+- GCC_except_table812
+- GCC_except_table821
+- GCC_except_table827
+- GCC_except_table83
+- GCC_except_table834
+- GCC_except_table839
+- GCC_except_table844
+- GCC_except_table849
+- GCC_except_table854
+- GCC_except_table860
+- GCC_except_table868
+- GCC_except_table879
+- GCC_except_table88
+- GCC_except_table89
+- GCC_except_table90
+- GCC_except_table904
+- GCC_except_table92
+- GCC_except_table93
+- _AKSecurityUpgradeContextApplePay
+- _AnalyticsSendEventLazy
+- _AudioServicesPlaySystemSoundWithOptions
+- _CC_SHA1
+- _CFPreferencesAppSynchronize
+- _CGSizeCreateDictionaryRepresentation
+- _IOHIDEventGetIntegerValue
+- _IOHIDEventSystemClientCreate
+- _IOHIDEventSystemClientRegisterEventBlock
+- _IOHIDEventSystemClientScheduleWithDispatchQueue
+- _IOHIDEventSystemClientSetMatching
+- _IOHIDEventSystemClientUnregisterEventBlock
+- _IOHIDEventSystemClientUnscheduleFromDispatchQueue
+- _LAErrorDomain
+- _NPKAddPaymentPassControllerClientExportedInterface
+- _NPKAddPaymentPassControllerServerExportedInterface
+- _NPKAddPaymentPassMachServiceName
+- _NPKAnalyticsEventEntriesForCredentials
+- _NPKAnalyticsEventEntriesForPaymentSetupFields
+- _NPKAnalyticsEventEntriesForProduct
+- _NPKAnalyticsEventEntriesForVerificationChannel
+- _NPKAnalyticsEventForError
+- _NPKAnalyticsEventForProvisioningFlowClientInput
+- _NPKAnalyticsEventForProvisioningFlowStepTransition
+- _NPKAnalyticsReportCardAddedKey
+- _NPKAnalyticsReportChannelTypeKey
+- _NPKAnalyticsReportChannelTypesKey
+- _NPKAnalyticsReportClientInputTypeAcceptTerms
+- _NPKAnalyticsReportClientInputTypeAcknowledgeAppleBalanceDetails
+- _NPKAnalyticsReportClientInputTypeAcknowledgeMoreInformation
+- _NPKAnalyticsReportClientInputTypeAcknowledgeWelcome
+- _NPKAnalyticsReportClientInputTypeChooseCredentials
+- _NPKAnalyticsReportClientInputTypeChooseFlow
+- _NPKAnalyticsReportClientInputTypeChooseIssuerVerificationChannel
+- _NPKAnalyticsReportClientInputTypeChooseManualEntry
+- _NPKAnalyticsReportClientInputTypeChooseProduct
+- _NPKAnalyticsReportClientInputTypeChooseReaderMode
+- _NPKAnalyticsReportClientInputTypeDigitalIssuanceAmount
+- _NPKAnalyticsReportClientInputTypeIssuerApplicationAddRequest
+- _NPKAnalyticsReportClientInputTypeIssuerVerificationCode
+- _NPKAnalyticsReportClientInputTypeIssuerVerificationFields
+- _NPKAnalyticsReportClientInputTypeManualEntryFields
+- _NPKAnalyticsReportClientInputTypePasscodeUpgradeComplete
+- _NPKAnalyticsReportClientInputTypeProductSelection
+- _NPKAnalyticsReportClientInputTypeReaderModeFields
+- _NPKAnalyticsReportClientInputTypeReset
+- _NPKAnalyticsReportClientInputTypeSkipIssuerVerification
+- _NPKAnalyticsReportClientInputTypeSkipProvisioning
+- _NPKAnalyticsReportClientInputTypeStartInAppProvisioningFlow
+- _NPKAnalyticsReportClientInputTypeStartIssuerVerificationFlow
+- _NPKAnalyticsReportClientInputTypeStartProvisioningFlow
+- _NPKAnalyticsReportEventTypeClientInput
+- _NPKAnalyticsReportEventTypeNonFatalError
+- _NPKAnalyticsReportEventTypeStepTransition
+- _NPKAnalyticsReportFieldIdentifiersKey
+- _NPKAnalyticsReportFlowItemKey
+- _NPKAnalyticsReportFlowItemsKey
+- _NPKAnalyticsReportFromStepKey
+- _NPKAnalyticsReportIngestionProgressKey
+- _NPKAnalyticsReportIngestionStateKey
+- _NPKAnalyticsReportMoreInformationItemsCountKey
+- _NPKAnalyticsReportProductIdentifierKey
+- _NPKAnalyticsReportProductIdentifiersKey
+- _NPKAnalyticsReportToStepKey
+- _NPKAnalyticsSubjectProvisioning
+- _NPKDistributedNotificationCarKeyExpressEntered
+- _NPKDistributedNotificationCarKeyExpressExited
+- _NPKDistributedNotificationCarKeyRKEActionCompleted
+- _NPKDistributedNotificationCarKeyRangingDidResume
+- _NPKDistributedNotificationCarKeyRangingDidSuspend
+- _NPKDistributedNotificationCarKeyRangingEnded
+- _NPKDistributedNotificationCarKeyRangingStarted
+- _NPKDistributedNotificationCarKeySessionEnded
+- _NPKDistributedNotificationCarKeySessionEndedWithError
+- _NPKDistributedNotificationCarKeyVehicleConnected
+- _NPKDistributedNotificationCarKeyVehicleDidUpdateStatus
+- _NPKDistributedNotificationCarKeyVehicleDisconnected
+- _NPKDistributedNotificationCarKeyVehicleLocked
+- _NPKDistributedNotificationCarKeyVehicleUnlocked
+- _NPKDistributedNotificationHomeKeyLockConnected
+- _NPKDistributedNotificationHomeKeyLockDisconnected
+- _NPKDistributedNotificationHomeKeyLockStatusChanged
+- _NPKDistributedNotificationHomeKeyRangingEnded
+- _NPKDistributedNotificationHomeKeyRangingStarted
+- _NPKDoesSessionStateRepresentAuthorizationTimeoutForPassRequiringAuthorization
+- _NPKEventDateWithMetadata
+- _NPKEventEntryDateWithMetadata
+- _NPKEventEntryTimeWithMetadata
+- _NPKExpressTransactionStatusIsComplete
+- _NPKHasValidRecipient
+- _NPKIsNFCDisabledForPass
+- _NPKIsPeerPaymentAccountLockedByAssociatedAccount
+- _NPKMaximumRelevancyResultsAge
+- _NPKNanoPassDaemonConnectionProtocolInterface
+- _NPKNeedsLiveActivity
+- _NPKPairedOrPairingDevice.cold.1
+- _NPKPaymentCardEligbilityErrorDomain
+- _NPKPaymentCardIneligibleReasonForEligibilityStatus
+- _NPKPaymentCardIneligibleReasonForRequirementsStatus
+- _NPKPaymentProvisioningFlowControllerReaderModeIngestionStateToString
+- _NPKPaymentProvisioningSetupContextIsBridge
+- _NPKPaymentProvisioningSetupContextIsIssuerApp
+- _NPKPaymentProvisioningSetupContextIsMerchantApp
+- _NPKPaymentProvisioningSetupContextIsPassbook
+- _NPKPaymentProvisioningSetupContextIsSetupAssistant
+- _NPKPeerPaymentAccountManagerAccountDidChangeNotification
+- _NPKPeerPaymentStatusWithNSString
+- _NPKPeerPaymentStatusWithNumber
+- _NPKPeerPaymentStatusWithPKPeerPaymentStatus
+- _NPKPeerPaymentStatusWithPKPeerPaymentStatusAndActions
+- _NPKQuickPaymentSessionSourcePreconditionStateToString
+- _NPKQuickPaymentSessionTypeForPass
+- _NPKRelevancySectionIdentifier
+- _NPKSemanticsForMetadataEvent
+- _NPKSetShouldHonorUserPreferenceTransactionStatus
+- _NPKSharedPeerPaymentAccountManager
+- _NPKShouldHonorUserPreferenceTransactionStatus
+- _NPKStandaloneErrorDomain
+- _NPKStandaloneProvisioningServiceClientExportedInterface
+- _NPKStandaloneProvisioningServiceName
+- _NPKStandaloneProvisioningServiceServerExportedInterface
+- _NPKTestAddPaymentPassRequest
+- _NPKTestAddPaymentPassRequestConfiguration
+- _NPKTestAddPaymentPassRequestDefaultContext
+- _NPKTestInAppPaymentRequest
+- _NPKTestInAppPaymentShippingMethods
+- _NPKTestInAppPaymentSummaryItems
+- _NPKTestRecurringPaymentRequest
+- _NPKTrackPassAction
+- _NPKTrackPassIngestionType
+- _NPKTrackPaymentProvisioningWebServicesCheck
+- _NPKTrackPaymentRequested
+- _NPKTrackPeerPaymentAction
+- _NPKTrackQRTransactionDetails
+- _NPKTrackSETransactionDetails
+- _NPKTrackTruthOnCard
+- _NPKTrackUWBRangingStatus
+- _NPKTrackWatchProvisioningEvent
+- _NPKTranslateCardType
+- _NPKURLActionAddCardHost
+- _NPKUserNotificationsErrorDomain
+- _NPK_PKPeerPaymentStatusWithNPKPeerPaymentStatus
+- _NSLog
+- _NSProcessInfoPowerStateDidChangeNotification
+- _NSStringFromNPKApplicationState
+- _NSStringFromNPKContactlessPaymentSessionFailureType
+- _NSStringFromNPKContactlessPaymentSessionTransactionType
+- _NSStringFromNPKDataReleaseStatus
+- _NSStringFromNPKExpressPassControllerStatus
+- _NSStringFromNPKExpressTransactionStatus
+- _NSStringFromNPKNanoPassbookUserNotificationType
+- _NSStringFromNPKQuickPaymentSessionCompletionReason
+- _NSStringFromNPKQuickPaymentSessionType
+- _NSStringFromNPKTransactionContextStatus
+- _NSStringFromSelector
+- _NSStringWithNPKPeerPaymentMessageDirection
+- _NSStringWithNPKPeerPaymentStatus
+- _NSURLErrorDomain
+- _NSUserActivityTypeBrowsingWeb
+- _OBJC_CLASS_$_AKAccountManager
+- _OBJC_CLASS_$_AKAppleIDAuthenticationContext
+- _OBJC_CLASS_$_BKSProcessAssertion
+- _OBJC_CLASS_$_CNMutablePostalAddress
+- _OBJC_CLASS_$_CNPhoneNumber
+- _OBJC_CLASS_$_LAContext
+- _OBJC_CLASS_$_NFHardwareManager
+- _OBJC_CLASS_$_NPKAddPaymentPassController
+- _OBJC_CLASS_$_NPKAnalyticsReporter
+- _OBJC_CLASS_$_NPKApplicationStateListener
+- _OBJC_CLASS_$_NPKAssertionController
+- _OBJC_CLASS_$_NPKAssertionWrapper
+- _OBJC_CLASS_$_NPKAudioPlayer
+- _OBJC_CLASS_$_NPKAuthIntentListener
+- _OBJC_CLASS_$_NPKBarcodePaymentSession
+- _OBJC_CLASS_$_NPKBluetoothConnectivityCoordinator
+- _OBJC_CLASS_$_NPKButtonListener
+- _OBJC_CLASS_$_NPKContactlessPaymentSessionAnalyticsManager
+- _OBJC_CLASS_$_NPKContactlessPaymentSessionManager
+- _OBJC_CLASS_$_NPKContactlessPaymentSessionManagerTransactionContext
+- _OBJC_CLASS_$_NPKContactlessPaymentSessionSoundsManager
+- _OBJC_CLASS_$_NPKContactlessPaymentSessionState
+- _OBJC_CLASS_$_NPKDoubleClickClientSuppressor
+- _OBJC_CLASS_$_NPKDoublePressDelegationAssertion
+- _OBJC_CLASS_$_NPKDoublePressSuppressionAssertion
+- _OBJC_CLASS_$_NPKExpressModeSettingsCoordinator
+- _OBJC_CLASS_$_NPKExpressPassController
+- _OBJC_CLASS_$_NPKExpressPassesManager
+- _OBJC_CLASS_$_NPKExpressUWBTransactionInfo
+- _OBJC_CLASS_$_NPKFakePaymentSession
+- _OBJC_CLASS_$_NPKFidoAuthCoordinator
+- _OBJC_CLASS_$_NPKGreenTeaDataUsageResolver
+- _OBJC_CLASS_$_NPKIdentityExtendedReviewUserNotification
+- _OBJC_CLASS_$_NPKLowPowerModeLocalDeviceMonitor
+- _OBJC_CLASS_$_NPKMockPeerPaymentAccountManager
+- _OBJC_CLASS_$_NPKNanoPassDaemonConnection
+- _OBJC_CLASS_$_NPKOpenURLRouter
+- _OBJC_CLASS_$_NPKPassAssociatedInfo
+- _OBJC_CLASS_$_NPKPassAssociatedInfoManager
+- _OBJC_CLASS_$_NPKPassAssociatedInfoModel
+- _OBJC_CLASS_$_NPKPassSelectionFieldDetectorAssertion
+- _OBJC_CLASS_$_NPKPassUserNotification
+- _OBJC_CLASS_$_NPKPassUserNotificationFactory
+- _OBJC_CLASS_$_NPKPassesManager
+- _OBJC_CLASS_$_NPKPaymentBarcode
+- _OBJC_CLASS_$_NPKPaymentProvisioningFlowController
+- _OBJC_CLASS_$_NPKPaymentProvisioningFlowControllerAppleBalanceAccountDetailsStepContext
+- _OBJC_CLASS_$_NPKPaymentProvisioningFlowControllerChooseCredentialsStepContext
+- _OBJC_CLASS_$_NPKPaymentProvisioningFlowControllerChooseFlowStepContext
+- _OBJC_CLASS_$_NPKPaymentProvisioningFlowControllerChooseProductStepContext
+- _OBJC_CLASS_$_NPKPaymentProvisioningFlowControllerDigitalIssuanceAmountStepContext
+- _OBJC_CLASS_$_NPKPaymentProvisioningFlowControllerDigitalIssuancePaymentStepContext
+- _OBJC_CLASS_$_NPKPaymentProvisioningFlowControllerGetIssuerApplicationAddRequestStepContext
+- _OBJC_CLASS_$_NPKPaymentProvisioningFlowControllerIssuerVerificationChannelsStepContext
+- _OBJC_CLASS_$_NPKPaymentProvisioningFlowControllerIssuerVerificationCodeStepContext
+- _OBJC_CLASS_$_NPKPaymentProvisioningFlowControllerIssuerVerificationFieldsStepContext
+- _OBJC_CLASS_$_NPKPaymentProvisioningFlowControllerLocalDeviceManualEntryProgressStepContext
+- _OBJC_CLASS_$_NPKPaymentProvisioningFlowControllerLocalDeviceManualEntryStepContext
+- _OBJC_CLASS_$_NPKPaymentProvisioningFlowControllerManualEntryStepContext
+- _OBJC_CLASS_$_NPKPaymentProvisioningFlowControllerMoreInformationStepContext
+- _OBJC_CLASS_$_NPKPaymentProvisioningFlowControllerPasscodeUpgradeStepContext
+- _OBJC_CLASS_$_NPKPaymentProvisioningFlowControllerPreconditionsStepContext
+- _OBJC_CLASS_$_NPKPaymentProvisioningFlowControllerProductDisambiguationStepContext
+- _OBJC_CLASS_$_NPKPaymentProvisioningFlowControllerProvisioningProgressStepContext
+- _OBJC_CLASS_$_NPKPaymentProvisioningFlowControllerProvisioningResultStepContext
+- _OBJC_CLASS_$_NPKPaymentProvisioningFlowControllerReaderModeEntryStepContext
+- _OBJC_CLASS_$_NPKPaymentProvisioningFlowControllerReaderModeIngestionStepContext
+- _OBJC_CLASS_$_NPKPaymentProvisioningFlowControllerRequestContext
+- _OBJC_CLASS_$_NPKPaymentProvisioningFlowControllerSecondaryManualEntryStepContext
+- _OBJC_CLASS_$_NPKPaymentProvisioningFlowControllerTermsAndConditionsStepContext
+- _OBJC_CLASS_$_NPKPaymentProvisioningFlowControllerWelcomeStepContext
+- _OBJC_CLASS_$_NPKPaymentProvisioningFlowPickerItem
+- _OBJC_CLASS_$_NPKPaymentProvisioningFlowPickerSection
+- _OBJC_CLASS_$_NPKPaymentProvisioningFlowStepContext
+- _OBJC_CLASS_$_NPKPaymentWebServiceStandaloneTargetDevice
+- _OBJC_CLASS_$_NPKPeerPaymentAccountManager
+- _OBJC_CLASS_$_NPKPeerPaymentMessagesTransactionsManager
+- _OBJC_CLASS_$_NPKPeerPaymentNumberFormatter
+- _OBJC_CLASS_$_NPKPeerPaymentQuickTypeParser
+- _OBJC_CLASS_$_NPKPeerPaymentQuickTypeParserCurrencyData
+- _OBJC_CLASS_$_NPKPeerPaymentQuickTypeParserData
+- _OBJC_CLASS_$_NPKPeerPaymentTransactionDetails
+- _OBJC_CLASS_$_NPKPerishableValue
+- _OBJC_CLASS_$_NPKPrecursorPassUpgradeRequestController
+- _OBJC_CLASS_$_NPKPrecursorPassUpgradeRequestsManager
+- _OBJC_CLASS_$_NPKProcessAssertion
+- _OBJC_CLASS_$_NPKProtoStandaloneHelper
+- _OBJC_CLASS_$_NPKQuickPaymentSession
+- _OBJC_CLASS_$_NPKQuickPaymentSessionCleanupDelegate
+- _OBJC_CLASS_$_NPKQuickPaymentSessionLocalAuthenticationCoordinator
+- _OBJC_CLASS_$_NPKQuickPaymentSessionSource
+- _OBJC_CLASS_$_NPKRemoteButtonListener
+- _OBJC_CLASS_$_NPKRemoteInterfacePresenter
+- _OBJC_CLASS_$_NPKSecureElement
+- _OBJC_CLASS_$_NPKSemaphoreQueue
+- _OBJC_CLASS_$_NPKStandaloneProvisioningNumericEntryCoordinator
+- _OBJC_CLASS_$_NPKTestAddPaymentPassRequestContext
+- _OBJC_CLASS_$_NPKTileActionItem
+- _OBJC_CLASS_$_NPKTransientAssertion
+- _OBJC_CLASS_$_NPKTransientPassAssertion
+- _OBJC_CLASS_$_NPKTransitAppletHistoryFetcher
+- _OBJC_CLASS_$_NPKUserNotification
+- _OBJC_CLASS_$_NPKUserNotificationCenter
+- _OBJC_CLASS_$_NPKUserNotificationExpressModeEnabled
+- _OBJC_CLASS_$_NPKValueAddedServiceAutomaticSelectionCoordinator
+- _OBJC_CLASS_$_NPKVehicleConnectivityCoordinator
+- _OBJC_CLASS_$_NPKWifiObserver
+- _OBJC_CLASS_$_NSConstantDictionary
+- _OBJC_CLASS_$_NSMutableURLRequest
+- _OBJC_CLASS_$_NSPersonNameComponents
+- _OBJC_CLASS_$_NSSortDescriptor
+- _OBJC_CLASS_$_NSURLSession
+- _OBJC_CLASS_$_NSURLSessionConfiguration
+- _OBJC_CLASS_$_NSXPCConnection
+- _OBJC_CLASS_$_OS_dispatch_queue
+- _OBJC_CLASS_$_PKAddPaymentPassController
+- _OBJC_CLASS_$_PKAddPaymentPassRequest
+- _OBJC_CLASS_$_PKAddPaymentPassRequestConfiguration
+- _OBJC_CLASS_$_PKAnalyticsReporter
+- _OBJC_CLASS_$_PKAppleBalanceCredential
+- _OBJC_CLASS_$_PKAutomaticReloadPaymentRequest
+- _OBJC_CLASS_$_PKAutomaticReloadPaymentSummaryItem
+- _OBJC_CLASS_$_PKBarcodeEventMetadataRequest
+- _OBJC_CLASS_$_PKBarcodePaymentEvent
+- _OBJC_CLASS_$_PKContact
+- _OBJC_CLASS_$_PKContactlessCardIngester
+- _OBJC_CLASS_$_PKContactlessInterfaceTransactionContext
+- _OBJC_CLASS_$_PKCurrencyAmount
+- _OBJC_CLASS_$_PKExtensionProvider
+- _OBJC_CLASS_$_PKFelicaAppletHistory
+- _OBJC_CLASS_$_PKFieldDetector
+- _OBJC_CLASS_$_PKGroupsController
+- _OBJC_CLASS_$_PKHMHomeManager
+- _OBJC_CLASS_$_PKLabeledValue
+- _OBJC_CLASS_$_PKOpaqueDataServiceProviderOrder
+- _OBJC_CLASS_$_PKPaymentAuthorizationDataModel
+- _OBJC_CLASS_$_PKPaymentAuthorizationResult
+- _OBJC_CLASS_$_PKPaymentContactlessProductCredential
+- _OBJC_CLASS_$_PKPaymentCredential
+- _OBJC_CLASS_$_PKPaymentDigitalIssuanceProductCredential
+- _OBJC_CLASS_$_PKPaymentEligibilityRequest
+- _OBJC_CLASS_$_PKPaymentHeroImage
+- _OBJC_CLASS_$_PKPaymentInformationEventExtensionHostContext
+- _OBJC_CLASS_$_PKPaymentIssuerProvisioningCertificatesRequest
+- _OBJC_CLASS_$_PKPaymentProvisioningRequest
+- _OBJC_CLASS_$_PKPaymentRemoteCredential
+- _OBJC_CLASS_$_PKPaymentRemoteCredentialsRequest
+- _OBJC_CLASS_$_PKPaymentRequest
+- _OBJC_CLASS_$_PKPaymentRequirementsRequest
+- _OBJC_CLASS_$_PKPaymentSession
+- _OBJC_CLASS_$_PKPaymentSetupField
+- _OBJC_CLASS_$_PKPaymentSetupFieldsModel
+- _OBJC_CLASS_$_PKPaymentSetupProductModel
+- _OBJC_CLASS_$_PKPaymentShareableCredential
+- _OBJC_CLASS_$_PKPaymentSummaryItem
+- _OBJC_CLASS_$_PKPaymentVerificationOptionsRequest
+- _OBJC_CLASS_$_PKPaymentVerificationUpdateRequest
+- _OBJC_CLASS_$_PKPaymentWebServiceTargetDevice
+- _OBJC_CLASS_$_PKPeerPaymentRecipient
+- _OBJC_CLASS_$_PKPrecursorPassUpgradeController
+- _OBJC_CLASS_$_PKPrecursorPassUpgradeRequestDescription
+- _OBJC_CLASS_$_PKProvisioningSEStorageManager
+- _OBJC_CLASS_$_PKServiceProviderPaymentRequest
+- _OBJC_CLASS_$_PKSharedPaymentWebServiceArchiver
+- _OBJC_CLASS_$_PKShippingMethod
+- _OBJC_CLASS_$_PKTransitAppletHistory
+- _OBJC_CLASS_$_UNMutableNotificationContent
+- _OBJC_CLASS_$_UNMutableNotificationSound
+- _OBJC_CLASS_$_UNNotificationCategory
+- _OBJC_CLASS_$_UNNotificationIcon
+- _OBJC_CLASS_$_UNNotificationRequest
+- _OBJC_CLASS_$_UNUserNotificationCenter
+- _OBJC_CLASS_$__LSOpenConfiguration
+- _OBJC_CLASS_$__TtCs12_SwiftObject
+- _OBJC_IVAR_$_NPKAddPaymentPassController._configuration
+- _OBJC_IVAR_$_NPKAddPaymentPassController._didFinishCallbackSent
+- _OBJC_IVAR_$_NPKAddPaymentPassController._remoteService
+- _OBJC_IVAR_$_NPKApplicationStateListener._appState
+- _OBJC_IVAR_$_NPKApplicationStateListener._appStateLock
+- _OBJC_IVAR_$_NPKApplicationStateListener._internalClassQueue
+- _OBJC_IVAR_$_NPKApplicationStateListener._observerManager
+- _OBJC_IVAR_$_NPKAssertionController._assertionFactory
+- _OBJC_IVAR_$_NPKAssertionController._assertionInvalidator
+- _OBJC_IVAR_$_NPKAssertionController._assertionMaps
+- _OBJC_IVAR_$_NPKAssertionController._internalQueue
+- _OBJC_IVAR_$_NPKAssertionController._semaphoreQueue
+- _OBJC_IVAR_$_NPKAssertionWrapper._assertion
+- _OBJC_IVAR_$_NPKAssertionWrapper._assertionInvalidator
+- _OBJC_IVAR_$_NPKAssertionWrapper._wrapperUUID
+- _OBJC_IVAR_$_NPKAuthIntentListener._hidSystemClient
+- _OBJC_IVAR_$_NPKBarcodePaymentSession._authorizationCredential
+- _OBJC_IVAR_$_NPKBarcodePaymentSession._currentPaymentBarcode
+- _OBJC_IVAR_$_NPKBarcodePaymentSession._currentTransaction
+- _OBJC_IVAR_$_NPKBarcodePaymentSession._currentTransactionStatus
+- _OBJC_IVAR_$_NPKBarcodePaymentSession._delegate
+- _OBJC_IVAR_$_NPKBarcodePaymentSession._expressTransactionSuppressionAssertion
+- _OBJC_IVAR_$_NPKBarcodePaymentSession._notificationSuppressionAssertion
+- _OBJC_IVAR_$_NPKBarcodePaymentSession._paymentPass
+- _OBJC_IVAR_$_NPKBarcodePaymentSession._paymentService
+- _OBJC_IVAR_$_NPKBarcodePaymentSession._serialQueue
+- _OBJC_IVAR_$_NPKBarcodePaymentSession._sessionStarted
+- _OBJC_IVAR_$_NPKBarcodePaymentSession._sessionTimeoutTimer
+- _OBJC_IVAR_$_NPKBarcodePaymentSession._submittingAuthenticationResult
+- _OBJC_IVAR_$_NPKBluetoothConnectivityCoordinator._bluetoothAvailableAndEnabled
+- _OBJC_IVAR_$_NPKBluetoothConnectivityCoordinator._delegate
+- _OBJC_IVAR_$_NPKButtonListener._buttonHandler
+- _OBJC_IVAR_$_NPKButtonListener._handlerQueue
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionAnalyticsManager._analyticsQueue
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionAnalyticsManager._previousState
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionManager._barcodePaymentSession
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionManager._cleanupDelegate
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionManager._contactlessPaymentInterfaceVisible
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionManager._credential
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionManager._lastSessionState
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionManager._observersManager
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionManager._quickPaymentSession
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionManager._serviceModeRequestNotifyToken
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionManager._sessionTimer
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionManager._userSelectedPass
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionManagerTransactionContext._accessory
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionManagerTransactionContext._action
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionManagerTransactionContext._authenticationRequested
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionManagerTransactionContext._displayablePassItems
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionManagerTransactionContext._passTile
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionManagerTransactionContext._paymentBarcode
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionManagerTransactionContext._paymentMethodDescription
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionManagerTransactionContext._paymentTransaction
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionManagerTransactionContext._readerAuthInfo
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionManagerTransactionContext._releaseDataRequest
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionManagerTransactionContext._releaseDataStatus
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionManagerTransactionContext._transactionDescription
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionManagerTransactionContext._transactionPass
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionManagerTransactionContext._transactionStatus
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionManagerTransactionContext._transactionType
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionManagerTransactionContext._valueAddedServicePass
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionState._canChangePass
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionState._completionReason
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionState._contactlessInterfaceReady
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionState._currentPass
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionState._doublePressReceived
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionState._doublePressTimestamp
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionState._expressTransactionStatus
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionState._failureType
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionState._hasSession
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionState._inField
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionState._inServiceMode
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionState._isSwitchingSessionType
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionState._passActivating
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionState._serviceModeRequestedPass
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionState._sessionAuthorized
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionState._sessionStarted
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionState._sessionType
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionState._sessionWaitingToStart
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionState._timestamp
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionState._transactionContext
+- _OBJC_IVAR_$_NPKContactlessPaymentSessionState._uniqueID
+- _OBJC_IVAR_$_NPKDoubleClickClientSuppressor._nextSuppressionRequestToken
+- _OBJC_IVAR_$_NPKDoubleClickClientSuppressor._suppressionAssertion
+- _OBJC_IVAR_$_NPKDoubleClickClientSuppressor._suppressionRequestTokens
+- _OBJC_IVAR_$_NPKDoubleClickClientSuppressor._suppressorQueue
+- _OBJC_IVAR_$_NPKDoublePressDelegationAssertion._delegate
+- _OBJC_IVAR_$_NPKDoublePressSuppressionAssertion._isInvalidating
+- _OBJC_IVAR_$_NPKDoublePressSuppressionAssertion._requestSuppression
+- _OBJC_IVAR_$_NPKDoublePressSuppressionAssertion._stateLock
+- _OBJC_IVAR_$_NPKExpressModeSettingsCoordinator._callbackQueue
+- _OBJC_IVAR_$_NPKExpressModeSettingsCoordinator._completionHandler
+- _OBJC_IVAR_$_NPKExpressModeSettingsCoordinator._currentContext
+- _OBJC_IVAR_$_NPKExpressModeSettingsCoordinator._currentPass
+- _OBJC_IVAR_$_NPKExpressModeSettingsCoordinator._currentState
+- _OBJC_IVAR_$_NPKExpressModeSettingsCoordinator._delegate
+- _OBJC_IVAR_$_NPKExpressModeSettingsCoordinator._expressPassController
+- _OBJC_IVAR_$_NPKExpressModeSettingsCoordinator._expressStateUpdatePending
+- _OBJC_IVAR_$_NPKExpressModeSettingsCoordinator._notifyToken
+- _OBJC_IVAR_$_NPKExpressModeSettingsCoordinator._passDataSource
+- _OBJC_IVAR_$_NPKExpressModeSettingsCoordinator._previousPassStates
+- _OBJC_IVAR_$_NPKExpressModeSettingsCoordinator._workQueue
+- _OBJC_IVAR_$_NPKExpressPassController._currentApplicationIdentifier
+- _OBJC_IVAR_$_NPKExpressPassController._currentSubCredentialIdentifier
+- _OBJC_IVAR_$_NPKExpressPassController._currentTransactionExpressPassInformation
+- _OBJC_IVAR_$_NPKExpressPassController._currentTransactionPass
+- _OBJC_IVAR_$_NPKExpressPassController._delegate
+- _OBJC_IVAR_$_NPKExpressPassController._distributedNotificationCenter
+- _OBJC_IVAR_$_NPKExpressPassController._expressPassChangedNotifyToken
+- _OBJC_IVAR_$_NPKExpressPassController._expressPassConfigurations
+- _OBJC_IVAR_$_NPKExpressPassController._expressPasses
+- _OBJC_IVAR_$_NPKExpressPassController._fieldDetector
+- _OBJC_IVAR_$_NPKExpressPassController._internalQueue
+- _OBJC_IVAR_$_NPKExpressPassController._passLibrary
+- _OBJC_IVAR_$_NPKExpressPassController._paymentService
+- _OBJC_IVAR_$_NPKExpressPassController._transactionStatus
+- _OBJC_IVAR_$_NPKExpressPassesManager._currentPasses
+- _OBJC_IVAR_$_NPKExpressPassesManager._currentPaymentPasses
+- _OBJC_IVAR_$_NPKExpressPassesManager._currentSecureElementPasses
+- _OBJC_IVAR_$_NPKExpressPassesManager._observers
+- _OBJC_IVAR_$_NPKExpressUWBTransactionInfo._lockStatus
+- _OBJC_IVAR_$_NPKExpressUWBTransactionInfo._readerID
+- _OBJC_IVAR_$_NPKExpressUWBTransactionInfo._timestamp
+- _OBJC_IVAR_$_NPKFakePaymentSession._changeCardToken
+- _OBJC_IVAR_$_NPKFakePaymentSession._fieldDetector
+- _OBJC_IVAR_$_NPKFakePaymentSession._invalidated
+- _OBJC_IVAR_$_NPKFakePaymentSession._ourCallbackQueue
+- _OBJC_IVAR_$_NPKFakePaymentSession._ourConfirmed
+- _OBJC_IVAR_$_NPKFakePaymentSession._ourCurrentPass
+- _OBJC_IVAR_$_NPKFakePaymentSession._ourInServiceMode
+- _OBJC_IVAR_$_NPKFakePaymentSession._ourInternalQueue
+- _OBJC_IVAR_$_NPKFakePaymentSession._ourPerformedFirstActivation
+- _OBJC_IVAR_$_NPKFakePaymentSession._ourVasPasses
+- _OBJC_IVAR_$_NPKFakePaymentSession._timeoutTimer
+- _OBJC_IVAR_$_NPKFidoAuthCoordinator._context
+- _OBJC_IVAR_$_NPKGreenTeaDataUsageResolver._currentlyResolving
+- _OBJC_IVAR_$_NPKGreenTeaDataUsageResolver._internalQueue
+- _OBJC_IVAR_$_NPKIdentityExtendedReviewUserNotification._documentType
+- _OBJC_IVAR_$_NPKIdentityExtendedReviewUserNotification._issuerName
+- _OBJC_IVAR_$_NPKIdentityExtendedReviewUserNotification._notificationType
+- _OBJC_IVAR_$_NPKLowPowerModeLocalDeviceMonitor._observersManager
+- _OBJC_IVAR_$_NPKMockPeerPaymentAccountManager._accountQueue
+- _OBJC_IVAR_$_NPKMockPeerPaymentAccountManager._balanceOffset
+- _OBJC_IVAR_$_NPKMockPeerPaymentAccountManager._mockAccount
+- _OBJC_IVAR_$_NPKNanoPassDaemonConnection._remoteService
+- _OBJC_IVAR_$_NPKOpenURLRouter._delegate
+- _OBJC_IVAR_$_NPKPassAssociatedInfo._accessories
+- _OBJC_IVAR_$_NPKPassAssociatedInfo._balanceFields
+- _OBJC_IVAR_$_NPKPassAssociatedInfo._bankConnectAccount
+- _OBJC_IVAR_$_NPKPassAssociatedInfo._commutePlanFields
+- _OBJC_IVAR_$_NPKPassAssociatedInfo._hasDeviceBoundCommutePlans
+- _OBJC_IVAR_$_NPKPassAssociatedInfo._isHomeAccessRestricted
+- _OBJC_IVAR_$_NPKPassAssociatedInfo._precursorPassDescription
+- _OBJC_IVAR_$_NPKPassAssociatedInfo._rangingSuspensionReason
+- _OBJC_IVAR_$_NPKPassAssociatedInfo._tiles
+- _OBJC_IVAR_$_NPKPassAssociatedInfo._transitAppletState
+- _OBJC_IVAR_$_NPKPassAssociatedInfo._transitProperties
+- _OBJC_IVAR_$_NPKPassAssociatedInfoManager._accountService
+- _OBJC_IVAR_$_NPKPassAssociatedInfoManager._internalQueue
+- _OBJC_IVAR_$_NPKPassAssociatedInfoManager._isFetchingRestrictedGuestStatus
+- _OBJC_IVAR_$_NPKPassAssociatedInfoManager._observerQueue
+- _OBJC_IVAR_$_NPKPassAssociatedInfoManager._observers
+- _OBJC_IVAR_$_NPKPassAssociatedInfoManager._passAssociatedInfoModelsByPassUniqueID
+- _OBJC_IVAR_$_NPKPassAssociatedInfoManager._passUniqueIDsByAccountIdentifier
+- _OBJC_IVAR_$_NPKPassAssociatedInfoManager._paymentService
+- _OBJC_IVAR_$_NPKPassAssociatedInfoManager._paymentServiceWasInterrupted
+- _OBJC_IVAR_$_NPKPassAssociatedInfoManager._pendingAddValueUpdatedNotifyToken
+- _OBJC_IVAR_$_NPKPassAssociatedInfoManager._precursorPassManager
+- _OBJC_IVAR_$_NPKPassAssociatedInfoModel._accessories
+- _OBJC_IVAR_$_NPKPassAssociatedInfoModel._balanceFields
+- _OBJC_IVAR_$_NPKPassAssociatedInfoModel._balances
+- _OBJC_IVAR_$_NPKPassAssociatedInfoModel._commutePlanFields
+- _OBJC_IVAR_$_NPKPassAssociatedInfoModel._commutePlanValueRequired
+- _OBJC_IVAR_$_NPKPassAssociatedInfoModel._dynamicPlans
+- _OBJC_IVAR_$_NPKPassAssociatedInfoModel._pass
+- _OBJC_IVAR_$_NPKPassAssociatedInfoModel._precursorPassDescription
+- _OBJC_IVAR_$_NPKPassAssociatedInfoModel._rangingSuspensionReason
+- _OBJC_IVAR_$_NPKPassAssociatedInfoModel._restrictedGuestAccessState
+- _OBJC_IVAR_$_NPKPassAssociatedInfoModel._tiles
+- _OBJC_IVAR_$_NPKPassAssociatedInfoModel._transitAppletState
+- _OBJC_IVAR_$_NPKPassAssociatedInfoModel._transitPassProperties
+- _OBJC_IVAR_$_NPKPassSelectionFieldDetectorAssertion._delegate
+- _OBJC_IVAR_$_NPKPassUserNotification._pass
+- _OBJC_IVAR_$_NPKPassUserNotificationFactory._dataSource
+- _OBJC_IVAR_$_NPKPassesManager._currentExpiredPasses
+- _OBJC_IVAR_$_NPKPassesManager._currentPasses
+- _OBJC_IVAR_$_NPKPassesManager._currentPaymentPasses
+- _OBJC_IVAR_$_NPKPassesManager._currentSecureElementPasses
+- _OBJC_IVAR_$_NPKPassesManager._firstUnlockCoordinator
+- _OBJC_IVAR_$_NPKPassesManager._groupsController
+- _OBJC_IVAR_$_NPKPassesManager._loadImageQueue
+- _OBJC_IVAR_$_NPKPassesManager._notifyToken
+- _OBJC_IVAR_$_NPKPassesManager._observers
+- _OBJC_IVAR_$_NPKPassesManager._options
+- _OBJC_IVAR_$_NPKPaymentBarcode._barcodeIdentifier
+- _OBJC_IVAR_$_NPKPaymentBarcode._barcodes
+- _OBJC_IVAR_$_NPKPaymentBarcode._decryptedBarcodeCredential
+- _OBJC_IVAR_$_NPKPaymentBarcode._state
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._authorizationController
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._cardIngester
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._chooseCredentialsStepIdentifier
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._currentAppleBalanceCredential
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._currentCredential
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._currentProduct
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._currentStep
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._delegate
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._digitalIssuanceAmount
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._digitalIssuanceAmountRequestContext
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._digitalIssuancePaymentRequest
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._digitalIssuancePaymentRequestContext
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._digitalIssuancePurchase
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._digitalIssuanceSupported
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._fidoAuthCoordinator
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._fieldsModel
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._flowIngestionState
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._immediatelyBeforeTermsStepIdentifier
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._inAppProvisioningGetRequestTimer
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._inAppProvisioningNonce
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._inAppProvisioningPublicKeyHash
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._inAppProvisioningRequest
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._inAppProvisioningRequestConfiguration
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._ingestionCardNotFoundTimer
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._ingestionCardSessionToken
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._ingestionMethodMetadata
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._ingestionProgress
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._ingestionStateOnRetry
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._internalIngestionState
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._issuerVerificationPass
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._preconditionsRequestContext
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._progressNotificationToken
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._provisioningController
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._provisioningProgressRequestContext
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._readerModeProvisioningSupported
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._readerModeRequestContext
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._separateLocalDeviceEntryRequired
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._setupContext
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._termsAcceptedOutOfBand
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._termsReason
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._unitTestingAuthorizationController
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._unitTestingCardIngester
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowController._webService
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerAppleBalanceAccountDetailsStepContext._appleID
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerAppleBalanceAccountDetailsStepContext._balance
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerChooseCredentialsStepContext._allowsManualEntry
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerChooseCredentialsStepContext._credentials
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerChooseCredentialsStepContext._flowIdentifierToCredential
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerChooseCredentialsStepContext._flowIdentifiers
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerChooseCredentialsStepContext._product
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerChooseFlowStepContext._sections
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerChooseProductStepContext._products
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerDigitalIssuanceAmountStepContext._allowsReaderModeEntry
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerDigitalIssuanceAmountStepContext._product
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerDigitalIssuancePaymentStepContext._product
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerGetIssuerApplicationAddRequestStepContext._certificates
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerGetIssuerApplicationAddRequestStepContext._nonce
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerGetIssuerApplicationAddRequestStepContext._nonceSignature
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerIssuerVerificationChannelsStepContext._paymentPass
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerIssuerVerificationChannelsStepContext._verificationChannels
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerIssuerVerificationCodeStepContext._paymentPass
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerIssuerVerificationCodeStepContext._verificationChannel
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerIssuerVerificationFieldsStepContext._paymentPass
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerIssuerVerificationFieldsStepContext._verificationFields
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerLocalDeviceManualEntryProgressStepContext._numericEntryPending
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerManualEntryStepContext._cameraFirstProvisioningEnabled
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerManualEntryStepContext._setupFields
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerMoreInformationStepContext._moreInfoItems
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerMoreInformationStepContext._paymentPass
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerPreconditionsStepContext._preconditionsState
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerProductDisambiguationStepContext._products
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerProvisioningProgressStepContext._localizedProgressDescription
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerProvisioningProgressStepContext._product
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerProvisioningResultStepContext._cardAdded
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerProvisioningResultStepContext._error
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerProvisioningResultStepContext._provisionedPass
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerReaderModeEntryStepContext._product
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerReaderModeEntryStepContext._setupFields
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerReaderModeEntryStepContext._subtitle
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerReaderModeEntryStepContext._title
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerReaderModeIngestionStepContext._ingestionProgress
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerReaderModeIngestionStepContext._ingestionState
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerReaderModeIngestionStepContext._physicalCardImageURL
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerReaderModeIngestionStepContext._subtitle
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerReaderModeIngestionStepContext._title
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerRequestContext._currentStepIdentifier
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerRequestContext._requestHeader
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerSecondaryManualEntryStepContext._allowsAddingDifferentCard
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerSecondaryManualEntryStepContext._credential
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerTermsAndConditionsStepContext._allowNonSecureHTTP
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerTermsAndConditionsStepContext._product
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerTermsAndConditionsStepContext._termsURL
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerWelcomeStepContext._defaultImagesUsed
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowControllerWelcomeStepContext._heroImages
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowPickerItem._identifier
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowPickerItem._products
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowPickerItem._title
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowPickerSection._footer
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowPickerSection._items
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowPickerSection._productType
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowPickerSection._title
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowStepContext._allowsAddLater
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowStepContext._backStepIdentifier
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowStepContext._requestContext
+- _OBJC_IVAR_$_NPKPaymentProvisioningFlowStepContext._stepIdentifier
+- _OBJC_IVAR_$_NPKPaymentWebServiceCompanionTargetDevice._passcodeConnection
+- _OBJC_IVAR_$_NPKPaymentWebServiceStandaloneTargetDevice._delegate
+- _OBJC_IVAR_$_NPKPeerPaymentAccountManager._account
+- _OBJC_IVAR_$_NPKPeerPaymentAccountManager._peerPaymentService
+- _OBJC_IVAR_$_NPKPeerPaymentMessagesTransactionsManager._currentLookupIdentifiers
+- _OBJC_IVAR_$_NPKPeerPaymentMessagesTransactionsManager._paymentService
+- _OBJC_IVAR_$_NPKPeerPaymentMessagesTransactionsManager._peerPaymentPassQueue
+- _OBJC_IVAR_$_NPKPeerPaymentMessagesTransactionsManager._peerPaymentPassUniqueID
+- _OBJC_IVAR_$_NPKPeerPaymentMessagesTransactionsManager._transactionDetails
+- _OBJC_IVAR_$_NPKPeerPaymentMessagesTransactionsManager._transactionsQueue
+- _OBJC_IVAR_$_NPKPeerPaymentNumberFormatter._currencyCode
+- _OBJC_IVAR_$_NPKPeerPaymentNumberFormatter._decimalNumberFormatter
+- _OBJC_IVAR_$_NPKPeerPaymentNumberFormatter._nonDecimalNumberFormatter
+- _OBJC_IVAR_$_NPKPeerPaymentQuickTypeParser._allowedPayloadIDs
+- _OBJC_IVAR_$_NPKPeerPaymentQuickTypeParser._supportedCurrencyCodes
+- _OBJC_IVAR_$_NPKPeerPaymentQuickTypeParserCurrencyData._currencyAmount
+- _OBJC_IVAR_$_NPKPeerPaymentQuickTypeParserCurrencyData._senderHandle
+- _OBJC_IVAR_$_NPKPeerPaymentQuickTypeParserData._currenciesData
+- _OBJC_IVAR_$_NPKPeerPaymentQuickTypeParserData._smartReplyType
+- _OBJC_IVAR_$_NPKPeerPaymentTransactionDetails._availableActions
+- _OBJC_IVAR_$_NPKPeerPaymentTransactionDetails._availableActionsFetchDate
+- _OBJC_IVAR_$_NPKPeerPaymentTransactionDetails._paymentStatus
+- _OBJC_IVAR_$_NPKPeerPaymentTransactionDetails._serviceIdentifier
+- _OBJC_IVAR_$_NPKPeerPaymentTransactionDetails._transaction
+- _OBJC_IVAR_$_NPKPerishableValue._isStale
+- _OBJC_IVAR_$_NPKPerishableValue._value
+- _OBJC_IVAR_$_NPKPrecursorPassUpgradeRequestController._delegate
+- _OBJC_IVAR_$_NPKPrecursorPassUpgradeRequestController._pass
+- _OBJC_IVAR_$_NPKPrecursorPassUpgradeRequestController._upgradeController
+- _OBJC_IVAR_$_NPKPrecursorPassUpgradeRequestController._upgradeRequestDescription
+- _OBJC_IVAR_$_NPKPrecursorPassUpgradeRequestsManager._internalQueue
+- _OBJC_IVAR_$_NPKPrecursorPassUpgradeRequestsManager._observerManager
+- _OBJC_IVAR_$_NPKPrecursorPassUpgradeRequestsManager._observerQueue
+- _OBJC_IVAR_$_NPKPrecursorPassUpgradeRequestsManager._upgradeControllerMap
+- _OBJC_IVAR_$_NPKQuickPaymentSession._atomicIsSwitchingSessionTypeCount
+- _OBJC_IVAR_$_NPKQuickPaymentSession._authorizationValidity
+- _OBJC_IVAR_$_NPKQuickPaymentSession._callbackQueue
+- _OBJC_IVAR_$_NPKQuickPaymentSession._confirmed
+- _OBJC_IVAR_$_NPKQuickPaymentSession._contactlessSession
+- _OBJC_IVAR_$_NPKQuickPaymentSession._contactlessSessionHandle
+- _OBJC_IVAR_$_NPKQuickPaymentSession._contactlessValidity
+- _OBJC_IVAR_$_NPKQuickPaymentSession._credential
+- _OBJC_IVAR_$_NPKQuickPaymentSession._currentPass
+- _OBJC_IVAR_$_NPKQuickPaymentSession._deactivated
+- _OBJC_IVAR_$_NPKQuickPaymentSession._deactivating
+- _OBJC_IVAR_$_NPKQuickPaymentSession._deactivationCompletionBlocks
+- _OBJC_IVAR_$_NPKQuickPaymentSession._deferAuthorization
+- _OBJC_IVAR_$_NPKQuickPaymentSession._delegate
+- _OBJC_IVAR_$_NPKQuickPaymentSession._endSessionWhenAuthorizationIsConsumed
+- _OBJC_IVAR_$_NPKQuickPaymentSession._fieldDetector
+- _OBJC_IVAR_$_NPKQuickPaymentSession._inField
+- _OBJC_IVAR_$_NPKQuickPaymentSession._inServiceMode
+- _OBJC_IVAR_$_NPKQuickPaymentSession._internalQueue
+- _OBJC_IVAR_$_NPKQuickPaymentSession._paymentSessionQueue
+- _OBJC_IVAR_$_NPKQuickPaymentSession._performedFirstActivation
+- _OBJC_IVAR_$_NPKQuickPaymentSession._requireFirstInQueue
+- _OBJC_IVAR_$_NPKQuickPaymentSession._sessionType
+- _OBJC_IVAR_$_NPKQuickPaymentSession._vasPasses
+- _OBJC_IVAR_$_NPKQuickPaymentSessionLocalAuthenticationCoordinator._activeLocalAuthenticationEvent
+- _OBJC_IVAR_$_NPKQuickPaymentSessionLocalAuthenticationCoordinator._callbackQueue
+- _OBJC_IVAR_$_NPKQuickPaymentSessionLocalAuthenticationCoordinator._completedContext
+- _OBJC_IVAR_$_NPKQuickPaymentSessionLocalAuthenticationCoordinator._completedCredential
+- _OBJC_IVAR_$_NPKQuickPaymentSessionLocalAuthenticationCoordinator._completedError
+- _OBJC_IVAR_$_NPKQuickPaymentSessionLocalAuthenticationCoordinator._completionHandler
+- _OBJC_IVAR_$_NPKQuickPaymentSessionLocalAuthenticationCoordinator._credentialDelegate
+- _OBJC_IVAR_$_NPKQuickPaymentSessionLocalAuthenticationCoordinator._inProgressContext
+- _OBJC_IVAR_$_NPKQuickPaymentSessionLocalAuthenticationCoordinator._localAuthenticationQueue
+- _OBJC_IVAR_$_NPKQuickPaymentSessionLocalAuthenticationCoordinator._pendingLocalAuthenticationEvents
+- _OBJC_IVAR_$_NPKQuickPaymentSessionSource._buttonListener
+- _OBJC_IVAR_$_NPKQuickPaymentSessionSource._callbackQueue
+- _OBJC_IVAR_$_NPKQuickPaymentSessionSource._deferAuthorization
+- _OBJC_IVAR_$_NPKQuickPaymentSessionSource._delegate
+- _OBJC_IVAR_$_NPKQuickPaymentSessionSource._delegateHandlingButtonEvents
+- _OBJC_IVAR_$_NPKQuickPaymentSessionSource._initialPass
+- _OBJC_IVAR_$_NPKQuickPaymentSessionSource._localAuthenticationCoordinator
+- _OBJC_IVAR_$_NPKQuickPaymentSessionSource._preconditionState
+- _OBJC_IVAR_$_NPKQuickPaymentSessionSource._requireFirstInQueue
+- _OBJC_IVAR_$_NPKQuickPaymentSessionSource._sessionSourceQueue
+- _OBJC_IVAR_$_NPKQuickPaymentSessionSource._vasPasses
+- _OBJC_IVAR_$_NPKRemoteButtonListener._delegate
+- _OBJC_IVAR_$_NPKRemoteButtonListener._delegationAssertion
+- _OBJC_IVAR_$_NPKRemoteButtonListener._enabled
+- _OBJC_IVAR_$_NPKRemoteButtonListener._internalQueue
+- _OBJC_IVAR_$_NPKRemoteInterfacePresenter._delegate
+- _OBJC_IVAR_$_NPKRemoteInterfacePresenter._xpcConnection
+- _OBJC_IVAR_$_NPKSecureElement._atomicIsInRestricted
+- _OBJC_IVAR_$_NPKSecureElement._atomicIsNfcDisabled
+- _OBJC_IVAR_$_NPKSecureElement._backgroundQueue
+- _OBJC_IVAR_$_NPKSecureElement._hardwareManager
+- _OBJC_IVAR_$_NPKSecureElement._observerManager
+- _OBJC_IVAR_$_NPKSecureElement._supportState
+- _OBJC_IVAR_$_NPKStandaloneProvisioningNumericEntryCoordinator._completedFields
+- _OBJC_IVAR_$_NPKStandaloneProvisioningNumericEntryCoordinator._completionHandler
+- _OBJC_IVAR_$_NPKStandaloneProvisioningNumericEntryCoordinator._currentIndex
+- _OBJC_IVAR_$_NPKStandaloneProvisioningNumericEntryCoordinator._providedFields
+- _OBJC_IVAR_$_NPKTestAddPaymentPassRequestContext._cardEncryptionScheme
+- _OBJC_IVAR_$_NPKTestAddPaymentPassRequestContext._cardFlow
+- _OBJC_IVAR_$_NPKTestAddPaymentPassRequestContext._cardID
+- _OBJC_IVAR_$_NPKTestAddPaymentPassRequestContext._cardIssuer
+- _OBJC_IVAR_$_NPKTestAddPaymentPassRequestContext._cardPNO
+- _OBJC_IVAR_$_NPKTestAddPaymentPassRequestContext._cardProduct
+- _OBJC_IVAR_$_NPKTestAddPaymentPassRequestContext._cardType
+- _OBJC_IVAR_$_NPKTileActionItem._action
+- _OBJC_IVAR_$_NPKTileActionItem._tile
+- _OBJC_IVAR_$_NPKTransientAssertion._xpcConnection
+- _OBJC_IVAR_$_NPKTransientPassAssertion._disableCardSelection
+- _OBJC_IVAR_$_NPKTransientPassAssertion._requestServiceMode
+- _OBJC_IVAR_$_NPKTransientPassAssertion._uniqueID
+- _OBJC_IVAR_$_NPKTransitAppletHistoryFetcher._aidToFetch
+- _OBJC_IVAR_$_NPKTransitAppletHistoryFetcher._callbackQueue
+- _OBJC_IVAR_$_NPKTransitAppletHistoryFetcher._delegate
+- _OBJC_IVAR_$_NPKTransitAppletHistoryFetcher._internalQueue
+- _OBJC_IVAR_$_NPKTransitAppletHistoryFetcher._pendingSessionHandle
+- _OBJC_IVAR_$_NPKUserNotificationCenter._authorizationStatus
+- _OBJC_IVAR_$_NPKUserNotificationCenter._notificationCenter
+- _OBJC_IVAR_$_NPKUserNotificationExpressModeEnabled._expressNotificationType
+- _OBJC_IVAR_$_NPKValueAddedServiceAutomaticSelectionCoordinator._dataSource
+- _OBJC_IVAR_$_NPKValueAddedServiceAutomaticSelectionCoordinator._delegate
+- _OBJC_IVAR_$_NPKVehicleConnectivityCoordinator._delegate
+- _OBJC_IVAR_$_NPKVehicleConnectivityCoordinator._distributedNotificationCenter
+- _OBJC_IVAR_$_NPKWifiObserver._callbackQueue
+- _OBJC_IVAR_$_NPKWifiObserver._delegate
+- _OBJC_IVAR_$_NPKWifiObserver._wiFiEnabled
+- _OBJC_METACLASS_$_NPKAddPaymentPassController
+- _OBJC_METACLASS_$_NPKAnalyticsReporter
+- _OBJC_METACLASS_$_NPKApplicationStateListener
+- _OBJC_METACLASS_$_NPKAssertionController
+- _OBJC_METACLASS_$_NPKAssertionWrapper
+- _OBJC_METACLASS_$_NPKAudioPlayer
+- _OBJC_METACLASS_$_NPKAuthIntentListener
+- _OBJC_METACLASS_$_NPKBarcodePaymentSession
+- _OBJC_METACLASS_$_NPKBluetoothConnectivityCoordinator
+- _OBJC_METACLASS_$_NPKButtonListener
+- _OBJC_METACLASS_$_NPKContactlessPaymentSessionAnalyticsManager
+- _OBJC_METACLASS_$_NPKContactlessPaymentSessionManager
+- _OBJC_METACLASS_$_NPKContactlessPaymentSessionManagerTransactionContext
+- _OBJC_METACLASS_$_NPKContactlessPaymentSessionSoundsManager
+- _OBJC_METACLASS_$_NPKContactlessPaymentSessionState
+- _OBJC_METACLASS_$_NPKDoubleClickClientSuppressor
+- _OBJC_METACLASS_$_NPKDoublePressDelegationAssertion
+- _OBJC_METACLASS_$_NPKDoublePressSuppressionAssertion
+- _OBJC_METACLASS_$_NPKExpressModeSettingsCoordinator
+- _OBJC_METACLASS_$_NPKExpressPassController
+- _OBJC_METACLASS_$_NPKExpressPassesManager
+- _OBJC_METACLASS_$_NPKExpressUWBTransactionInfo
+- _OBJC_METACLASS_$_NPKFakePaymentSession
+- _OBJC_METACLASS_$_NPKFidoAuthCoordinator
+- _OBJC_METACLASS_$_NPKGreenTeaDataUsageResolver
+- _OBJC_METACLASS_$_NPKIdentityExtendedReviewUserNotification
+- _OBJC_METACLASS_$_NPKLowPowerModeLocalDeviceMonitor
+- _OBJC_METACLASS_$_NPKMockPeerPaymentAccountManager
+- _OBJC_METACLASS_$_NPKNanoPassDaemonConnection
+- _OBJC_METACLASS_$_NPKOpenURLRouter
+- _OBJC_METACLASS_$_NPKPassAssociatedInfo
+- _OBJC_METACLASS_$_NPKPassAssociatedInfoManager
+- _OBJC_METACLASS_$_NPKPassAssociatedInfoModel
+- _OBJC_METACLASS_$_NPKPassSelectionFieldDetectorAssertion
+- _OBJC_METACLASS_$_NPKPassUserNotification
+- _OBJC_METACLASS_$_NPKPassUserNotificationFactory
+- _OBJC_METACLASS_$_NPKPassesManager
+- _OBJC_METACLASS_$_NPKPaymentBarcode
+- _OBJC_METACLASS_$_NPKPaymentProvisioningFlowController
+- _OBJC_METACLASS_$_NPKPaymentProvisioningFlowControllerAppleBalanceAccountDetailsStepContext
+- _OBJC_METACLASS_$_NPKPaymentProvisioningFlowControllerChooseCredentialsStepContext
+- _OBJC_METACLASS_$_NPKPaymentProvisioningFlowControllerChooseFlowStepContext
+- _OBJC_METACLASS_$_NPKPaymentProvisioningFlowControllerChooseProductStepContext
+- _OBJC_METACLASS_$_NPKPaymentProvisioningFlowControllerDigitalIssuanceAmountStepContext
+- _OBJC_METACLASS_$_NPKPaymentProvisioningFlowControllerDigitalIssuancePaymentStepContext
+- _OBJC_METACLASS_$_NPKPaymentProvisioningFlowControllerGetIssuerApplicationAddRequestStepContext
+- _OBJC_METACLASS_$_NPKPaymentProvisioningFlowControllerIssuerVerificationChannelsStepContext
+- _OBJC_METACLASS_$_NPKPaymentProvisioningFlowControllerIssuerVerificationCodeStepContext
+- _OBJC_METACLASS_$_NPKPaymentProvisioningFlowControllerIssuerVerificationFieldsStepContext
+- _OBJC_METACLASS_$_NPKPaymentProvisioningFlowControllerLocalDeviceManualEntryProgressStepContext
+- _OBJC_METACLASS_$_NPKPaymentProvisioningFlowControllerLocalDeviceManualEntryStepContext
+- _OBJC_METACLASS_$_NPKPaymentProvisioningFlowControllerManualEntryStepContext
+- _OBJC_METACLASS_$_NPKPaymentProvisioningFlowControllerMoreInformationStepContext
+- _OBJC_METACLASS_$_NPKPaymentProvisioningFlowControllerPasscodeUpgradeStepContext
+- _OBJC_METACLASS_$_NPKPaymentProvisioningFlowControllerPreconditionsStepContext
+- _OBJC_METACLASS_$_NPKPaymentProvisioningFlowControllerProductDisambiguationStepContext
+- _OBJC_METACLASS_$_NPKPaymentProvisioningFlowControllerProvisioningProgressStepContext
+- _OBJC_METACLASS_$_NPKPaymentProvisioningFlowControllerProvisioningResultStepContext
+- _OBJC_METACLASS_$_NPKPaymentProvisioningFlowControllerReaderModeEntryStepContext
+- _OBJC_METACLASS_$_NPKPaymentProvisioningFlowControllerReaderModeIngestionStepContext
+- _OBJC_METACLASS_$_NPKPaymentProvisioningFlowControllerRequestContext
+- _OBJC_METACLASS_$_NPKPaymentProvisioningFlowControllerSecondaryManualEntryStepContext
+- _OBJC_METACLASS_$_NPKPaymentProvisioningFlowControllerTermsAndConditionsStepContext
+- _OBJC_METACLASS_$_NPKPaymentProvisioningFlowControllerWelcomeStepContext
+- _OBJC_METACLASS_$_NPKPaymentProvisioningFlowPickerItem
+- _OBJC_METACLASS_$_NPKPaymentProvisioningFlowPickerSection
+- _OBJC_METACLASS_$_NPKPaymentProvisioningFlowStepContext
+- _OBJC_METACLASS_$_NPKPaymentWebServiceStandaloneTargetDevice
+- _OBJC_METACLASS_$_NPKPeerPaymentAccountManager
+- _OBJC_METACLASS_$_NPKPeerPaymentMessagesTransactionsManager
+- _OBJC_METACLASS_$_NPKPeerPaymentNumberFormatter
+- _OBJC_METACLASS_$_NPKPeerPaymentQuickTypeParser
+- _OBJC_METACLASS_$_NPKPeerPaymentQuickTypeParserCurrencyData
+- _OBJC_METACLASS_$_NPKPeerPaymentQuickTypeParserData
+- _OBJC_METACLASS_$_NPKPeerPaymentTransactionDetails
+- _OBJC_METACLASS_$_NPKPerishableValue
+- _OBJC_METACLASS_$_NPKPrecursorPassUpgradeRequestController
+- _OBJC_METACLASS_$_NPKPrecursorPassUpgradeRequestsManager
+- _OBJC_METACLASS_$_NPKProcessAssertion
+- _OBJC_METACLASS_$_NPKProtoStandaloneHelper
+- _OBJC_METACLASS_$_NPKQuickPaymentSession
+- _OBJC_METACLASS_$_NPKQuickPaymentSessionCleanupDelegate
+- _OBJC_METACLASS_$_NPKQuickPaymentSessionLocalAuthenticationCoordinator
+- _OBJC_METACLASS_$_NPKQuickPaymentSessionSource
+- _OBJC_METACLASS_$_NPKRemoteButtonListener
+- _OBJC_METACLASS_$_NPKRemoteInterfacePresenter
+- _OBJC_METACLASS_$_NPKSecureElement
+- _OBJC_METACLASS_$_NPKSemaphoreQueue
+- _OBJC_METACLASS_$_NPKStandaloneProvisioningNumericEntryCoordinator
+- _OBJC_METACLASS_$_NPKTestAddPaymentPassRequestContext
+- _OBJC_METACLASS_$_NPKTileActionItem
+- _OBJC_METACLASS_$_NPKTransientAssertion
+- _OBJC_METACLASS_$_NPKTransientPassAssertion
+- _OBJC_METACLASS_$_NPKTransitAppletHistoryFetcher
+- _OBJC_METACLASS_$_NPKUserNotification
+- _OBJC_METACLASS_$_NPKUserNotificationCenter
+- _OBJC_METACLASS_$_NPKUserNotificationExpressModeEnabled
+- _OBJC_METACLASS_$_NPKValueAddedServiceAutomaticSelectionCoordinator
+- _OBJC_METACLASS_$_NPKVehicleConnectivityCoordinator
+- _OBJC_METACLASS_$_NPKWifiObserver
+- _OBJC_METACLASS_$_PKAddPaymentPassController
+- _OBJC_METACLASS_$_PKPaymentWebServiceTargetDevice
+- _OBJC_METACLASS_$__TtCs12_SwiftObject
+- _PKAnalyticsReportBarcodeCredentialRetrievalStatusKey
+- _PKAnalyticsReportBarcodeCredentialRetrivalStatusFromError
+- _PKAnalyticsReportCoBadgeEnableKey
+- _PKAnalyticsReportDriversLicenseProductSubtype
+- _PKAnalyticsReportErrorCodeKey
+- _PKAnalyticsReportErrorDomainKey
+- _PKAnalyticsReportErrorTypeKey
+- _PKAnalyticsReportErrorTypeUntrustedReader
+- _PKAnalyticsReportEventKey
+- _PKAnalyticsReportEventTypeAuthenticationCanceledByUser
+- _PKAnalyticsReportEventTypeAuthenticationError
+- _PKAnalyticsReportEventTypeAuthenticationSuccess
+- _PKAnalyticsReportEventTypeBarcodeCredentialRetrieved
+- _PKAnalyticsReportEventTypeBarcodePaymentTransactionApproved
+- _PKAnalyticsReportEventTypeBarcodePaymentTransactionDeclined
+- _PKAnalyticsReportEventTypeExtensionMatchFinished
+- _PKAnalyticsReportEventTypeFieldEntered
+- _PKAnalyticsReportEventTypeFieldExited
+- _PKAnalyticsReportEventTypePaymentTransactionAuthorizationStatusUpdated
+- _PKAnalyticsReportEventTypeReaderError
+- _PKAnalyticsReportEventTypeStartAuthentication
+- _PKAnalyticsReportEventTypeStateChange
+- _PKAnalyticsReportExtensionPointKey
+- _PKAnalyticsReportIDCardProductSubtype
+- _PKAnalyticsReportIssuerNameKey
+- _PKAnalyticsReportNotificationReceived
+- _PKAnalyticsReportNotificationTypeTransactionCompleted
+- _PKAnalyticsReportNumberOfMatchedExtensionsKey
+- _PKAnalyticsReportPageTagKey
+- _PKAnalyticsReportPassFooterTag
+- _PKAnalyticsReportPassHasNFCKey
+- _PKAnalyticsReportPassIssuerCountryCodeKey
+- _PKAnalyticsReportPassProductSubtypeKey
+- _PKAnalyticsReportPassProductTypeKey
+- _PKAnalyticsReportPassStyleKey
+- _PKAnalyticsReportPassTypeKey
+- _PKAnalyticsReportPassportVerifiedPhotoIDProductSubtype
+- _PKAnalyticsReportPaymentAuthorizationStatusKey
+- _PKAnalyticsReportPaymentMethodTypeKey
+- _PKAnalyticsReportSetupProductCategoryTypeAccess
+- _PKAnalyticsReportSetupProductCategoryTypeIdentity
+- _PKAnalyticsReportSetupProductCategoryTypePayment
+- _PKAnalyticsReportSetupProductCategoryTypeUnknown
+- _PKAnalyticsReportShareReferralSourceUniversalLinkKey
+- _PKAnalyticsReportStateIDProductSubtype
+- _PKAnalyticsReportSwitchToggleResultValue
+- _PKAnalyticsReportUnknownValue
+- _PKAnalyticsSubjectContactless
+- _PKAnalyticsSubjectWallet
+- _PKAppletSubcredentialSharingInvitationNotificationActionIdentifierParameter
+- _PKAppletSubcredentialSharingInvitationNotificationActionPassThumbnailImageParameter
+- _PKAppletSubcredentialSharingInvitationNotificationActionRemoteIdentifierParameter
+- _PKAppletSubcredentialSharingInvitationNotificationActionRoute
+- _PKContactFieldEmailAddress
+- _PKContactFieldPhoneNumber
+- _PKContactFieldPostalAddress
+- _PKCurrencyAmountMake
+- _PKDarwinNotificationDefaultPaymentPassChanged
+- _PKDarwinNotificationEventExpressPassesInformationChanged
+- _PKDevicePasscodeLocked
+- _PKDeviceSupportsFelicaDebitWithWebService
+- _PKDisplayablePaymentNetworkNameForPaymentCredentialType
+- _PKDistributedNotificationExpressEntered
+- _PKDistributedNotificationExpressExited
+- _PKDistributedNotificationExpressTransactionEnded
+- _PKDistributedNotificationExpressTransactionEndedFailure
+- _PKDistributedNotificationExpressTransactionEndedIncompatible
+- _PKDistributedNotificationExpressTransactionStarted
+- _PKDistributedNotificationExpressTransactionTimeout
+- _PKDynamicSEAllocationFakeFullSE
+- _PKEncryptTransactionAuthenticationPasscode
+- _PKEncryptionSchemeECC_V2
+- _PKExtensionPaymentInformationEventExtensionPointName
+- _PKForcePrivateLabelSetupDisambiguation
+- _PKGetClassNFDigitalCarKeySession
+- _PKGetClassNFHardwareManager
+- _PKIDSSanitizedAddress
+- _PKInAppSupportedPaymentNetworks
+- _PKIntegerHash
+- _PKLocalizedPaymentUnitKeyForType
+- _PKMerchantCapabilityFromStrings
+- _PKObservePassSettingsChanged
+- _PKPassAutomaticSelectionTechnologyTypeForExpressEnteredObject
+- _PKPassLibraryDidAddPassNotification
+- _PKPassLibraryDidChangeNotification
+- _PKPassLibraryDidRemovePassNotification
+- _PKPassLibraryDidUpdatePassNotification
+- _PKPassLibrarySettingsUserInfoKey
+- _PKPassLibraryUniqueIDUserInfoKey
+- _PKPassSemanticDateKeyEventStartDate
+- _PKPassSemanticEventDateInfoKeyEventStartDate
+- _PKPassSemanticTimeZoneKeyEventTimeZone
+- _PKPassbookBulletinPassUniqueIdentifierKey
+- _PKPassbookIsCurrentlyDeletedByUser
+- _PKPaymentCredentialTypeForPaymentNetworkName
+- _PKPaymentMethodTypeToString
+- _PKPaymentNetworkAmex
+- _PKPaymentNetworkChinaUnionPay
+- _PKPaymentNetworkDiscover
+- _PKPaymentNetworkInterac
+- _PKPaymentNetworkMasterCard
+- _PKPaymentNetworkPrivateLabel
+- _PKPaymentNetworkSuica
+- _PKPaymentNetworkVisa
+- _PKPaymentPassActionTypeFromString
+- _PKPaymentPassCommuterRoute
+- _PKPaymentProvisioningControllerLocalizedProgressDescriptionDidChangeNotification
+- _PKPaymentProvisioningControllerStateToString
+- _PKPaymentProvisioningMethodDigitalIssuance
+- _PKPaymentProvisioningMethodLocalizedDescriptionKey
+- _PKPaymentProvisioningMethodLocalizedTitleKey
+- _PKPaymentProvisioningMethodReaderMode
+- _PKPaymentProvisioningMethodReaderModeAnimationKey
+- _PKPaymentProvisioningMethodScreensKey
+- _PKPaymentSetupFieldIdentifierCardExpiration
+- _PKPaymentSetupFieldIdentifierCardOnFilePrimaryAccountNumber
+- _PKPaymentSetupFieldIdentifierCardSecurityCode
+- _PKPaymentSetupFieldIdentifierCardholderName
+- _PKPaymentSetupFieldIdentifierPrimaryAccountNumber
+- _PKPaymentSetupFieldSubmissionDestinationActivation
+- _PKPaymentSetupFieldSubmissionDestinationEligibility
+- _PKPaymentSetupFieldSubmissionDestinationEnable
+- _PKPaymentSetupProductCategoryTypeTransit
+- _PKPaymentSetupProductStateToString
+- _PKPaymentSetupProductTypeToString
+- _PKPaymentTransactionShouldAuthenticateForMechanism
+- _PKPaymentTransactionStatusToString
+- _PKPaymentWebServiceErrorDomain
+- _PKPeerPaymentActionAccept
+- _PKPeerPaymentServiceAccountChangedNotification
+- _PKProvisioningErrorForAppleBalanceEligibilityStatus
+- _PKScreenSize
+- _PKServiceBundleIdentifier
+- _PKServiceProviderOrderAmountKey
+- _PKServiceProviderOrderProductsKey
+- _PKShareableCredentialsNotificationActionIdentiferParameter
+- _PKShareableCredentialsNotificationActionRoute
+- _PKShareableCredentialsPassThumbnailImageParameter
+- _PKSharingRelayServerMailboxURI
+- _PKSharingRelayServerRequestVersion
+- _PKTransactionAuthenticationMechanismToStrings
+- _PKTransactionPaymentHashForBarcodeIdentifier
+- _PKUIApplicationDidEnterBackgroundNotification
+- _PKUIApplicationWillEnterForegroundNotification
+- _PKURLActionProvisioningContinuityKey
+- _PKURLActionRouteSavings
+- _PKURLActionSetup
+- _PKURLActionShare
+- _PKURLActionShowExpiredPasses
+- _PKURLShareReferralSourceQueryItemKey
+- _PKUnregisterPassSettingsChangedObserver
+- _PKUseMockSURFServer
+- _PKUserNotificationActionQueryItemPassUniqueIdentifier
+- _PKUserNotificationActionQueryItemServiceIdentifier
+- _PKUserNotificationActionQueryItemShareIdentifiers
+- _PKUserNotificationActionQueryItemTransactionIdentifier
+- _PKUserNotificationActionQueryItemTransactionSourceIdentifier
+- _PKUserNotificationActionRoutePassUpdate
+- _PKUserNotificationActionRouteViewBalanceSummary
+- _PKUserNotificationActionRouteViewDailyCash
+- _PKUserNotificationActionRouteViewEntitlementDetails
+- _PKUserNotificationActionRouteViewPass
+- _PKUserNotificationActionRouteViewShareDetails
+- _PKUserNotificationActionRouteViewTransaction
+- _PKUserNotificationExpressModeEnabledHideDisableActionKey
+- _PKUserNotificationsBundleIdentifier
+- _PKWalletUniversalLinkHostName
+- _PKWebServiceErrorDomain
+- _PassKitUILibraryCore.frameworkLibrary
+- _TLAlertTopicAppNotificationFirstParty
+- _UNAuthorizationStatusString
+- __Block_copy
+- __Block_release
+- __CLASS_METHODS_NPKAnalyticsReporter
+- __CLASS_PROPERTIES_NPKAnalyticsReporter
+- __DATA_NPKAnalyticsReporter
+- __DATA_NPKSemaphoreQueue
+- __DATA__TtC11NanoPassKit5Queue
+- __DATA__TtC11NanoPassKit9MainQueue
+- __INSTANCE_METHODS_NPKAnalyticsReporter
+- __INSTANCE_METHODS_NPKSemaphoreQueue
+- __IVARS_NPKSemaphoreQueue
+- __IVARS__TtC11NanoPassKit5Queue
+- __IVARS__TtC11NanoPassKit9MainQueue
+- __METACLASS_DATA_NPKAnalyticsReporter
+- __METACLASS_DATA_NPKSemaphoreQueue
+- __METACLASS_DATA__TtC11NanoPassKit5Queue
+- __METACLASS_DATA__TtC11NanoPassKit9MainQueue
+- __NPKAnalyticsEntriesForError
+- __NPKNanoPassDaemonConnectionMachServiceName
+- __OBJC_$_CATEGORY_CLASS_METHODS_PKPeerPaymentRecipient_$_NanoPassKit
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_NSArray_$_NPK
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_NSDistributedNotificationCenter_$_WeakObservers
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_PKAccount_$_NanoPassKit
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_PKPaymentAuthorizationDataModel_$_NanoPassKit
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_PKPeerPaymentRecipient_$_NanoPassKit
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_PKPrecursorPassUpgradeRequestDescription_$_NanoPassKit
+- __OBJC_$_CATEGORY_NSArray_$_NPK
+- __OBJC_$_CATEGORY_NSDistributedNotificationCenter_$_WeakObservers
+- __OBJC_$_CATEGORY_PKAccount_$_NanoPassKit
+- __OBJC_$_CATEGORY_PKPaymentAuthorizationDataModel_$_NanoPassKit
+- __OBJC_$_CATEGORY_PKPeerPaymentRecipient_$_NanoPassKit
+- __OBJC_$_CATEGORY_PKPrecursorPassUpgradeRequestDescription_$_NanoPassKit
+- __OBJC_$_CLASS_METHODS_NPKAddPaymentPassController
+- __OBJC_$_CLASS_METHODS_NPKAudioPlayer
+- __OBJC_$_CLASS_METHODS_NPKContactlessPaymentSessionManagerTransactionContext
+- __OBJC_$_CLASS_METHODS_NPKContactlessPaymentSessionState
+- __OBJC_$_CLASS_METHODS_NPKDoubleClickClientSuppressor
+- __OBJC_$_CLASS_METHODS_NPKGreenTeaDataUsageResolver
+- __OBJC_$_CLASS_METHODS_NPKLowPowerModeLocalDeviceMonitor
+- __OBJC_$_CLASS_METHODS_NPKMockPeerPaymentAccountManager
+- __OBJC_$_CLASS_METHODS_NPKOpenURLRouter
+- __OBJC_$_CLASS_METHODS_NPKPassAssociatedInfoModel
+- __OBJC_$_CLASS_METHODS_NPKPaymentProvisioningFlowController(FlowSelection|DigitalIssuance|Errors|ReaderMode)
+- __OBJC_$_CLASS_METHODS_NPKPaymentProvisioningFlowControllerChooseCredentialsStepContext
+- __OBJC_$_CLASS_METHODS_NPKPaymentProvisioningFlowControllerChooseFlowStepContext
+- __OBJC_$_CLASS_METHODS_NPKPaymentProvisioningFlowControllerChooseProductStepContext
+- __OBJC_$_CLASS_METHODS_NPKPaymentProvisioningFlowControllerDigitalIssuanceAmountStepContext
+- __OBJC_$_CLASS_METHODS_NPKPaymentProvisioningFlowControllerDigitalIssuancePaymentStepContext
+- __OBJC_$_CLASS_METHODS_NPKPaymentProvisioningFlowControllerManualEntryStepContext
+- __OBJC_$_CLASS_METHODS_NPKPaymentProvisioningFlowControllerPreconditionsStepContext
+- __OBJC_$_CLASS_METHODS_NPKPaymentProvisioningFlowControllerReaderModeEntryStepContext
+- __OBJC_$_CLASS_METHODS_NPKPaymentProvisioningFlowControllerReaderModeIngestionStepContext
+- __OBJC_$_CLASS_METHODS_NPKPaymentProvisioningFlowControllerRequestContext
+- __OBJC_$_CLASS_METHODS_NPKPaymentProvisioningFlowControllerSecondaryManualEntryStepContext
+- __OBJC_$_CLASS_METHODS_NPKPaymentProvisioningFlowControllerWelcomeStepContext
+- __OBJC_$_CLASS_METHODS_NPKPaymentProvisioningFlowPickerItem
+- __OBJC_$_CLASS_METHODS_NPKPaymentProvisioningFlowPickerSection
+- __OBJC_$_CLASS_METHODS_NPKPaymentProvisioningFlowStepContext
+- __OBJC_$_CLASS_METHODS_NPKPaymentWebServiceStandaloneTargetDevice
+- __OBJC_$_CLASS_METHODS_NPKPeerPaymentAccountManager
+- __OBJC_$_CLASS_METHODS_NPKPeerPaymentMessagesTransactionsManager
+- __OBJC_$_CLASS_METHODS_NPKProcessAssertion
+- __OBJC_$_CLASS_METHODS_NPKProtoStandaloneHelper
+- __OBJC_$_CLASS_METHODS_NPKQuickPaymentSession
+- __OBJC_$_CLASS_METHODS_NPKSecureElement
+- __OBJC_$_CLASS_METHODS_NPKUserNotification
+- __OBJC_$_CLASS_METHODS_NPKUserNotificationCenter
+- __OBJC_$_CLASS_METHODS_NPKVehicleConnectivityCoordinator
+- __OBJC_$_CLASS_PROP_LIST_NPKPaymentProvisioningFlowControllerRequestContext
+- __OBJC_$_CLASS_PROP_LIST_NPKPaymentProvisioningFlowStepContext
+- __OBJC_$_INSTANCE_METHODS_NPKAddPaymentPassController
+- __OBJC_$_INSTANCE_METHODS_NPKApplicationStateListener
+- __OBJC_$_INSTANCE_METHODS_NPKAssertionController
+- __OBJC_$_INSTANCE_METHODS_NPKAssertionWrapper
+- __OBJC_$_INSTANCE_METHODS_NPKAuthIntentListener
+- __OBJC_$_INSTANCE_METHODS_NPKBarcodePaymentSession
+- __OBJC_$_INSTANCE_METHODS_NPKBluetoothConnectivityCoordinator
+- __OBJC_$_INSTANCE_METHODS_NPKButtonListener
+- __OBJC_$_INSTANCE_METHODS_NPKContactlessPaymentSessionAnalyticsManager
+- __OBJC_$_INSTANCE_METHODS_NPKContactlessPaymentSessionManager
+- __OBJC_$_INSTANCE_METHODS_NPKContactlessPaymentSessionManagerTransactionContext
+- __OBJC_$_INSTANCE_METHODS_NPKContactlessPaymentSessionSoundsManager
+- __OBJC_$_INSTANCE_METHODS_NPKContactlessPaymentSessionState
+- __OBJC_$_INSTANCE_METHODS_NPKDoubleClickClientSuppressor
+- __OBJC_$_INSTANCE_METHODS_NPKDoublePressDelegationAssertion
+- __OBJC_$_INSTANCE_METHODS_NPKDoublePressSuppressionAssertion
+- __OBJC_$_INSTANCE_METHODS_NPKExpressModeSettingsCoordinator
+- __OBJC_$_INSTANCE_METHODS_NPKExpressPassController
+- __OBJC_$_INSTANCE_METHODS_NPKExpressPassesManager
+- __OBJC_$_INSTANCE_METHODS_NPKExpressUWBTransactionInfo
+- __OBJC_$_INSTANCE_METHODS_NPKFakePaymentSession
+- __OBJC_$_INSTANCE_METHODS_NPKFidoAuthCoordinator
+- __OBJC_$_INSTANCE_METHODS_NPKGreenTeaDataUsageResolver
+- __OBJC_$_INSTANCE_METHODS_NPKIdentityExtendedReviewUserNotification
+- __OBJC_$_INSTANCE_METHODS_NPKLowPowerModeLocalDeviceMonitor
+- __OBJC_$_INSTANCE_METHODS_NPKMockPeerPaymentAccountManager
+- __OBJC_$_INSTANCE_METHODS_NPKNanoPassDaemonConnection
+- __OBJC_$_INSTANCE_METHODS_NPKOpenURLRouter
+- __OBJC_$_INSTANCE_METHODS_NPKPassAssociatedInfo
+- __OBJC_$_INSTANCE_METHODS_NPKPassAssociatedInfoManager(BankConnectedAccount)
+- __OBJC_$_INSTANCE_METHODS_NPKPassAssociatedInfoModel
+- __OBJC_$_INSTANCE_METHODS_NPKPassSelectionFieldDetectorAssertion
+- __OBJC_$_INSTANCE_METHODS_NPKPassUserNotification
+- __OBJC_$_INSTANCE_METHODS_NPKPassUserNotificationFactory
+- __OBJC_$_INSTANCE_METHODS_NPKPassesManager
+- __OBJC_$_INSTANCE_METHODS_NPKPaymentBarcode
+- __OBJC_$_INSTANCE_METHODS_NPKPaymentProvisioningFlowController(FlowSelection|DigitalIssuance|Errors|ReaderMode)
+- __OBJC_$_INSTANCE_METHODS_NPKPaymentProvisioningFlowControllerAppleBalanceAccountDetailsStepContext
+- __OBJC_$_INSTANCE_METHODS_NPKPaymentProvisioningFlowControllerChooseCredentialsStepContext
+- __OBJC_$_INSTANCE_METHODS_NPKPaymentProvisioningFlowControllerChooseFlowStepContext
+- __OBJC_$_INSTANCE_METHODS_NPKPaymentProvisioningFlowControllerChooseProductStepContext
+- __OBJC_$_INSTANCE_METHODS_NPKPaymentProvisioningFlowControllerDigitalIssuanceAmountStepContext
+- __OBJC_$_INSTANCE_METHODS_NPKPaymentProvisioningFlowControllerDigitalIssuancePaymentStepContext
+- __OBJC_$_INSTANCE_METHODS_NPKPaymentProvisioningFlowControllerGetIssuerApplicationAddRequestStepContext
+- __OBJC_$_INSTANCE_METHODS_NPKPaymentProvisioningFlowControllerIssuerVerificationChannelsStepContext
+- __OBJC_$_INSTANCE_METHODS_NPKPaymentProvisioningFlowControllerIssuerVerificationCodeStepContext
+- __OBJC_$_INSTANCE_METHODS_NPKPaymentProvisioningFlowControllerIssuerVerificationFieldsStepContext
+- __OBJC_$_INSTANCE_METHODS_NPKPaymentProvisioningFlowControllerLocalDeviceManualEntryProgressStepContext
+- __OBJC_$_INSTANCE_METHODS_NPKPaymentProvisioningFlowControllerLocalDeviceManualEntryStepContext
+- __OBJC_$_INSTANCE_METHODS_NPKPaymentProvisioningFlowControllerManualEntryStepContext
+- __OBJC_$_INSTANCE_METHODS_NPKPaymentProvisioningFlowControllerMoreInformationStepContext
+- __OBJC_$_INSTANCE_METHODS_NPKPaymentProvisioningFlowControllerPasscodeUpgradeStepContext
+- __OBJC_$_INSTANCE_METHODS_NPKPaymentProvisioningFlowControllerPreconditionsStepContext
+- __OBJC_$_INSTANCE_METHODS_NPKPaymentProvisioningFlowControllerProductDisambiguationStepContext
+- __OBJC_$_INSTANCE_METHODS_NPKPaymentProvisioningFlowControllerProvisioningProgressStepContext
+- __OBJC_$_INSTANCE_METHODS_NPKPaymentProvisioningFlowControllerProvisioningResultStepContext
+- __OBJC_$_INSTANCE_METHODS_NPKPaymentProvisioningFlowControllerReaderModeEntryStepContext
+- __OBJC_$_INSTANCE_METHODS_NPKPaymentProvisioningFlowControllerReaderModeIngestionStepContext
+- __OBJC_$_INSTANCE_METHODS_NPKPaymentProvisioningFlowControllerRequestContext
+- __OBJC_$_INSTANCE_METHODS_NPKPaymentProvisioningFlowControllerSecondaryManualEntryStepContext
+- __OBJC_$_INSTANCE_METHODS_NPKPaymentProvisioningFlowControllerTermsAndConditionsStepContext
+- __OBJC_$_INSTANCE_METHODS_NPKPaymentProvisioningFlowControllerWelcomeStepContext
+- __OBJC_$_INSTANCE_METHODS_NPKPaymentProvisioningFlowPickerItem
+- __OBJC_$_INSTANCE_METHODS_NPKPaymentProvisioningFlowPickerSection
+- __OBJC_$_INSTANCE_METHODS_NPKPaymentProvisioningFlowStepContext
+- __OBJC_$_INSTANCE_METHODS_NPKPaymentWebServiceStandaloneTargetDevice
+- __OBJC_$_INSTANCE_METHODS_NPKPeerPaymentAccountManager
+- __OBJC_$_INSTANCE_METHODS_NPKPeerPaymentMessagesTransactionsManager
+- __OBJC_$_INSTANCE_METHODS_NPKPeerPaymentNumberFormatter
+- __OBJC_$_INSTANCE_METHODS_NPKPeerPaymentQuickTypeParser
+- __OBJC_$_INSTANCE_METHODS_NPKPeerPaymentQuickTypeParserCurrencyData
+- __OBJC_$_INSTANCE_METHODS_NPKPeerPaymentQuickTypeParserData
+- __OBJC_$_INSTANCE_METHODS_NPKPeerPaymentTransactionDetails
+- __OBJC_$_INSTANCE_METHODS_NPKPerishableValue
+- __OBJC_$_INSTANCE_METHODS_NPKPrecursorPassUpgradeRequestController
+- __OBJC_$_INSTANCE_METHODS_NPKPrecursorPassUpgradeRequestsManager
+- __OBJC_$_INSTANCE_METHODS_NPKQuickPaymentSession
+- __OBJC_$_INSTANCE_METHODS_NPKQuickPaymentSessionCleanupDelegate
+- __OBJC_$_INSTANCE_METHODS_NPKQuickPaymentSessionLocalAuthenticationCoordinator
+- __OBJC_$_INSTANCE_METHODS_NPKQuickPaymentSessionSource
+- __OBJC_$_INSTANCE_METHODS_NPKRemoteButtonListener
+- __OBJC_$_INSTANCE_METHODS_NPKRemoteInterfacePresenter
+- __OBJC_$_INSTANCE_METHODS_NPKSecureElement
+- __OBJC_$_INSTANCE_METHODS_NPKStandaloneProvisioningNumericEntryCoordinator
+- __OBJC_$_INSTANCE_METHODS_NPKTestAddPaymentPassRequestContext
+- __OBJC_$_INSTANCE_METHODS_NPKTileActionItem
+- __OBJC_$_INSTANCE_METHODS_NPKTransientAssertion
+- __OBJC_$_INSTANCE_METHODS_NPKTransientPassAssertion
+- __OBJC_$_INSTANCE_METHODS_NPKTransitAppletHistoryFetcher
+- __OBJC_$_INSTANCE_METHODS_NPKUserNotification
+- __OBJC_$_INSTANCE_METHODS_NPKUserNotificationCenter
+- __OBJC_$_INSTANCE_METHODS_NPKUserNotificationExpressModeEnabled
+- __OBJC_$_INSTANCE_METHODS_NPKValueAddedServiceAutomaticSelectionCoordinator
+- __OBJC_$_INSTANCE_METHODS_NPKVehicleConnectivityCoordinator
+- __OBJC_$_INSTANCE_METHODS_NPKWifiObserver
+- __OBJC_$_INSTANCE_VARIABLES_NPKAddPaymentPassController
+- __OBJC_$_INSTANCE_VARIABLES_NPKApplicationStateListener
+- __OBJC_$_INSTANCE_VARIABLES_NPKAssertionController
+- __OBJC_$_INSTANCE_VARIABLES_NPKAssertionWrapper
+- __OBJC_$_INSTANCE_VARIABLES_NPKAuthIntentListener
+- __OBJC_$_INSTANCE_VARIABLES_NPKBarcodePaymentSession
+- __OBJC_$_INSTANCE_VARIABLES_NPKBluetoothConnectivityCoordinator
+- __OBJC_$_INSTANCE_VARIABLES_NPKButtonListener
+- __OBJC_$_INSTANCE_VARIABLES_NPKContactlessPaymentSessionAnalyticsManager
+- __OBJC_$_INSTANCE_VARIABLES_NPKContactlessPaymentSessionManager
+- __OBJC_$_INSTANCE_VARIABLES_NPKContactlessPaymentSessionManagerTransactionContext
+- __OBJC_$_INSTANCE_VARIABLES_NPKContactlessPaymentSessionState
+- __OBJC_$_INSTANCE_VARIABLES_NPKDoubleClickClientSuppressor
+- __OBJC_$_INSTANCE_VARIABLES_NPKDoublePressDelegationAssertion
+- __OBJC_$_INSTANCE_VARIABLES_NPKDoublePressSuppressionAssertion
+- __OBJC_$_INSTANCE_VARIABLES_NPKExpressModeSettingsCoordinator
+- __OBJC_$_INSTANCE_VARIABLES_NPKExpressPassController
+- __OBJC_$_INSTANCE_VARIABLES_NPKExpressPassesManager
+- __OBJC_$_INSTANCE_VARIABLES_NPKExpressUWBTransactionInfo
+- __OBJC_$_INSTANCE_VARIABLES_NPKFakePaymentSession
+- __OBJC_$_INSTANCE_VARIABLES_NPKFidoAuthCoordinator
+- __OBJC_$_INSTANCE_VARIABLES_NPKGreenTeaDataUsageResolver
+- __OBJC_$_INSTANCE_VARIABLES_NPKIdentityExtendedReviewUserNotification
+- __OBJC_$_INSTANCE_VARIABLES_NPKLowPowerModeLocalDeviceMonitor
+- __OBJC_$_INSTANCE_VARIABLES_NPKMockPeerPaymentAccountManager
+- __OBJC_$_INSTANCE_VARIABLES_NPKNanoPassDaemonConnection
+- __OBJC_$_INSTANCE_VARIABLES_NPKOpenURLRouter
+- __OBJC_$_INSTANCE_VARIABLES_NPKPassAssociatedInfo
+- __OBJC_$_INSTANCE_VARIABLES_NPKPassAssociatedInfoManager
+- __OBJC_$_INSTANCE_VARIABLES_NPKPassAssociatedInfoModel
+- __OBJC_$_INSTANCE_VARIABLES_NPKPassSelectionFieldDetectorAssertion
+- __OBJC_$_INSTANCE_VARIABLES_NPKPassUserNotification
+- __OBJC_$_INSTANCE_VARIABLES_NPKPassUserNotificationFactory
+- __OBJC_$_INSTANCE_VARIABLES_NPKPassesManager
+- __OBJC_$_INSTANCE_VARIABLES_NPKPaymentBarcode
+- __OBJC_$_INSTANCE_VARIABLES_NPKPaymentProvisioningFlowController
+- __OBJC_$_INSTANCE_VARIABLES_NPKPaymentProvisioningFlowControllerAppleBalanceAccountDetailsStepContext
+- __OBJC_$_INSTANCE_VARIABLES_NPKPaymentProvisioningFlowControllerChooseCredentialsStepContext
+- __OBJC_$_INSTANCE_VARIABLES_NPKPaymentProvisioningFlowControllerChooseFlowStepContext
+- __OBJC_$_INSTANCE_VARIABLES_NPKPaymentProvisioningFlowControllerChooseProductStepContext
+- __OBJC_$_INSTANCE_VARIABLES_NPKPaymentProvisioningFlowControllerDigitalIssuanceAmountStepContext
+- __OBJC_$_INSTANCE_VARIABLES_NPKPaymentProvisioningFlowControllerDigitalIssuancePaymentStepContext
+- __OBJC_$_INSTANCE_VARIABLES_NPKPaymentProvisioningFlowControllerGetIssuerApplicationAddRequestStepContext
+- __OBJC_$_INSTANCE_VARIABLES_NPKPaymentProvisioningFlowControllerIssuerVerificationChannelsStepContext
+- __OBJC_$_INSTANCE_VARIABLES_NPKPaymentProvisioningFlowControllerIssuerVerificationCodeStepContext
+- __OBJC_$_INSTANCE_VARIABLES_NPKPaymentProvisioningFlowControllerIssuerVerificationFieldsStepContext
+- __OBJC_$_INSTANCE_VARIABLES_NPKPaymentProvisioningFlowControllerLocalDeviceManualEntryProgressStepContext
+- __OBJC_$_INSTANCE_VARIABLES_NPKPaymentProvisioningFlowControllerManualEntryStepContext
+- __OBJC_$_INSTANCE_VARIABLES_NPKPaymentProvisioningFlowControllerMoreInformationStepContext
+- __OBJC_$_INSTANCE_VARIABLES_NPKPaymentProvisioningFlowControllerPreconditionsStepContext
+- __OBJC_$_INSTANCE_VARIABLES_NPKPaymentProvisioningFlowControllerProductDisambiguationStepContext
+- __OBJC_$_INSTANCE_VARIABLES_NPKPaymentProvisioningFlowControllerProvisioningProgressStepContext
+- __OBJC_$_INSTANCE_VARIABLES_NPKPaymentProvisioningFlowControllerProvisioningResultStepContext
+- __OBJC_$_INSTANCE_VARIABLES_NPKPaymentProvisioningFlowControllerReaderModeEntryStepContext
+- __OBJC_$_INSTANCE_VARIABLES_NPKPaymentProvisioningFlowControllerReaderModeIngestionStepContext
+- __OBJC_$_INSTANCE_VARIABLES_NPKPaymentProvisioningFlowControllerRequestContext
+- __OBJC_$_INSTANCE_VARIABLES_NPKPaymentProvisioningFlowControllerSecondaryManualEntryStepContext
+- __OBJC_$_INSTANCE_VARIABLES_NPKPaymentProvisioningFlowControllerTermsAndConditionsStepContext
+- __OBJC_$_INSTANCE_VARIABLES_NPKPaymentProvisioningFlowControllerWelcomeStepContext
+- __OBJC_$_INSTANCE_VARIABLES_NPKPaymentProvisioningFlowPickerItem
+- __OBJC_$_INSTANCE_VARIABLES_NPKPaymentProvisioningFlowPickerSection
+- __OBJC_$_INSTANCE_VARIABLES_NPKPaymentProvisioningFlowStepContext
+- __OBJC_$_INSTANCE_VARIABLES_NPKPaymentWebServiceStandaloneTargetDevice
+- __OBJC_$_INSTANCE_VARIABLES_NPKPeerPaymentAccountManager
+- __OBJC_$_INSTANCE_VARIABLES_NPKPeerPaymentMessagesTransactionsManager
+- __OBJC_$_INSTANCE_VARIABLES_NPKPeerPaymentNumberFormatter
+- __OBJC_$_INSTANCE_VARIABLES_NPKPeerPaymentQuickTypeParser
+- __OBJC_$_INSTANCE_VARIABLES_NPKPeerPaymentQuickTypeParserCurrencyData
+- __OBJC_$_INSTANCE_VARIABLES_NPKPeerPaymentQuickTypeParserData
+- __OBJC_$_INSTANCE_VARIABLES_NPKPeerPaymentTransactionDetails
+- __OBJC_$_INSTANCE_VARIABLES_NPKPerishableValue
+- __OBJC_$_INSTANCE_VARIABLES_NPKPrecursorPassUpgradeRequestController
+- __OBJC_$_INSTANCE_VARIABLES_NPKPrecursorPassUpgradeRequestsManager
+- __OBJC_$_INSTANCE_VARIABLES_NPKQuickPaymentSession
+- __OBJC_$_INSTANCE_VARIABLES_NPKQuickPaymentSessionLocalAuthenticationCoordinator
+- __OBJC_$_INSTANCE_VARIABLES_NPKQuickPaymentSessionSource
+- __OBJC_$_INSTANCE_VARIABLES_NPKRemoteButtonListener
+- __OBJC_$_INSTANCE_VARIABLES_NPKRemoteInterfacePresenter
+- __OBJC_$_INSTANCE_VARIABLES_NPKSecureElement
+- __OBJC_$_INSTANCE_VARIABLES_NPKStandaloneProvisioningNumericEntryCoordinator
+- __OBJC_$_INSTANCE_VARIABLES_NPKTestAddPaymentPassRequestContext
+- __OBJC_$_INSTANCE_VARIABLES_NPKTileActionItem
+- __OBJC_$_INSTANCE_VARIABLES_NPKTransientAssertion
+- __OBJC_$_INSTANCE_VARIABLES_NPKTransientPassAssertion
+- __OBJC_$_INSTANCE_VARIABLES_NPKTransitAppletHistoryFetcher
+- __OBJC_$_INSTANCE_VARIABLES_NPKUserNotificationCenter
+- __OBJC_$_INSTANCE_VARIABLES_NPKUserNotificationExpressModeEnabled
+- __OBJC_$_INSTANCE_VARIABLES_NPKValueAddedServiceAutomaticSelectionCoordinator
+- __OBJC_$_INSTANCE_VARIABLES_NPKVehicleConnectivityCoordinator
+- __OBJC_$_INSTANCE_VARIABLES_NPKWifiObserver
+- __OBJC_$_PROP_LIST_NPKAddPaymentPassController
+- __OBJC_$_PROP_LIST_NPKApplicationStateListener
+- __OBJC_$_PROP_LIST_NPKAssertionWrapper
+- __OBJC_$_PROP_LIST_NPKAuthIntentListener
+- __OBJC_$_PROP_LIST_NPKBalanceField.201
+- __OBJC_$_PROP_LIST_NPKBarcodePaymentSession
+- __OBJC_$_PROP_LIST_NPKBluetoothConnectivityCoordinator
+- __OBJC_$_PROP_LIST_NPKButtonListener
+- __OBJC_$_PROP_LIST_NPKCommutePlanField.258
+- __OBJC_$_PROP_LIST_NPKContactlessPaymentSessionAnalyticsManager
+- __OBJC_$_PROP_LIST_NPKContactlessPaymentSessionManager
+- __OBJC_$_PROP_LIST_NPKContactlessPaymentSessionManagerTransactionContext
+- __OBJC_$_PROP_LIST_NPKContactlessPaymentSessionSoundsManager
+- __OBJC_$_PROP_LIST_NPKContactlessPaymentSessionState
+- __OBJC_$_PROP_LIST_NPKDoubleClickClientSuppressor
+- __OBJC_$_PROP_LIST_NPKDoublePressDelegationAssertion
+- __OBJC_$_PROP_LIST_NPKDoublePressSuppressionAssertion
+- __OBJC_$_PROP_LIST_NPKExpressModeSettingsCoordinator
+- __OBJC_$_PROP_LIST_NPKExpressPassController
+- __OBJC_$_PROP_LIST_NPKExpressPassesManager
+- __OBJC_$_PROP_LIST_NPKExpressUWBTransactionInfo
+- __OBJC_$_PROP_LIST_NPKFakePaymentSession
+- __OBJC_$_PROP_LIST_NPKFidoAuthCoordinator
+- __OBJC_$_PROP_LIST_NPKGreenTeaDataUsageResolver
+- __OBJC_$_PROP_LIST_NPKIdentityExtendedReviewUserNotification
+- __OBJC_$_PROP_LIST_NPKLowPowerModeLocalDeviceMonitor
+- __OBJC_$_PROP_LIST_NPKNanoPassDaemonConnection
+- __OBJC_$_PROP_LIST_NPKOpenURLRouter
+- __OBJC_$_PROP_LIST_NPKPassAssociatedInfo
+- __OBJC_$_PROP_LIST_NPKPassAssociatedInfoManager
+- __OBJC_$_PROP_LIST_NPKPassAssociatedInfoModel
+- __OBJC_$_PROP_LIST_NPKPassSelectionFieldDetectorAssertion
+- __OBJC_$_PROP_LIST_NPKPassUserNotification
+- __OBJC_$_PROP_LIST_NPKPassUserNotificationFactory
+- __OBJC_$_PROP_LIST_NPKPassesManager
+- __OBJC_$_PROP_LIST_NPKPaymentBarcode
+- __OBJC_$_PROP_LIST_NPKPaymentProvisioningFlowControllerAppleBalanceAccountDetailsStepContext
+- __OBJC_$_PROP_LIST_NPKPaymentProvisioningFlowControllerChooseCredentialsStepContext
+- __OBJC_$_PROP_LIST_NPKPaymentProvisioningFlowControllerChooseFlowStepContext
+- __OBJC_$_PROP_LIST_NPKPaymentProvisioningFlowControllerChooseProductStepContext
+- __OBJC_$_PROP_LIST_NPKPaymentProvisioningFlowControllerDigitalIssuanceAmountStepContext
+- __OBJC_$_PROP_LIST_NPKPaymentProvisioningFlowControllerDigitalIssuancePaymentStepContext
+- __OBJC_$_PROP_LIST_NPKPaymentProvisioningFlowControllerGetIssuerApplicationAddRequestStepContext
+- __OBJC_$_PROP_LIST_NPKPaymentProvisioningFlowControllerIssuerVerificationChannelsStepContext
+- __OBJC_$_PROP_LIST_NPKPaymentProvisioningFlowControllerIssuerVerificationCodeStepContext
+- __OBJC_$_PROP_LIST_NPKPaymentProvisioningFlowControllerIssuerVerificationFieldsStepContext
+- __OBJC_$_PROP_LIST_NPKPaymentProvisioningFlowControllerLocalDeviceManualEntryProgressStepContext
+- __OBJC_$_PROP_LIST_NPKPaymentProvisioningFlowControllerManualEntryStepContext
+- __OBJC_$_PROP_LIST_NPKPaymentProvisioningFlowControllerMoreInformationStepContext
+- __OBJC_$_PROP_LIST_NPKPaymentProvisioningFlowControllerPreconditionsStepContext
+- __OBJC_$_PROP_LIST_NPKPaymentProvisioningFlowControllerProductDisambiguationStepContext
+- __OBJC_$_PROP_LIST_NPKPaymentProvisioningFlowControllerProtocol
+- __OBJC_$_PROP_LIST_NPKPaymentProvisioningFlowControllerProvisioningProgressStepContext
+- __OBJC_$_PROP_LIST_NPKPaymentProvisioningFlowControllerProvisioningResultStepContext
+- __OBJC_$_PROP_LIST_NPKPaymentProvisioningFlowControllerReaderModeEntryStepContext
+- __OBJC_$_PROP_LIST_NPKPaymentProvisioningFlowControllerReaderModeIngestionStepContext
+- __OBJC_$_PROP_LIST_NPKPaymentProvisioningFlowControllerRequestContext
+- __OBJC_$_PROP_LIST_NPKPaymentProvisioningFlowControllerSecondaryManualEntryStepContext
+- __OBJC_$_PROP_LIST_NPKPaymentProvisioningFlowControllerTermsAndConditionsStepContext
+- __OBJC_$_PROP_LIST_NPKPaymentProvisioningFlowControllerWelcomeStepContext
+- __OBJC_$_PROP_LIST_NPKPaymentProvisioningFlowPickerItem
+- __OBJC_$_PROP_LIST_NPKPaymentProvisioningFlowPickerSection
+- __OBJC_$_PROP_LIST_NPKPaymentProvisioningFlowStepContext
+- __OBJC_$_PROP_LIST_NPKPaymentWebServiceStandaloneTargetDevice
+- __OBJC_$_PROP_LIST_NPKPeerPaymentAccountManager
+- __OBJC_$_PROP_LIST_NPKPeerPaymentMessagesTransactionsManager
+- __OBJC_$_PROP_LIST_NPKPeerPaymentNumberFormatter
+- __OBJC_$_PROP_LIST_NPKPeerPaymentQuickTypeParser
+- __OBJC_$_PROP_LIST_NPKPeerPaymentQuickTypeParserCurrencyData
+- __OBJC_$_PROP_LIST_NPKPeerPaymentQuickTypeParserData
+- __OBJC_$_PROP_LIST_NPKPeerPaymentTransactionDetails
+- __OBJC_$_PROP_LIST_NPKPerishableValue
+- __OBJC_$_PROP_LIST_NPKPrecursorPassUpgradeRequestController
+- __OBJC_$_PROP_LIST_NPKPrecursorPassUpgradeRequestsManager
+- __OBJC_$_PROP_LIST_NPKQuickPaymentSession
+- __OBJC_$_PROP_LIST_NPKQuickPaymentSessionCleanupDelegate
+- __OBJC_$_PROP_LIST_NPKQuickPaymentSessionLocalAuthenticationCoordinator
+- __OBJC_$_PROP_LIST_NPKRemoteButtonListener
+- __OBJC_$_PROP_LIST_NPKRemoteInterfacePresenter
+- __OBJC_$_PROP_LIST_NPKSecureElement
+- __OBJC_$_PROP_LIST_NPKStandaloneProvisioningNumericEntryCoordinator
+- __OBJC_$_PROP_LIST_NPKTestAddPaymentPassRequestContext
+- __OBJC_$_PROP_LIST_NPKTileActionItem
+- __OBJC_$_PROP_LIST_NPKTransientAssertion
+- __OBJC_$_PROP_LIST_NPKTransientPassAssertion
+- __OBJC_$_PROP_LIST_NPKTransitAppletHistoryFetcher
+- __OBJC_$_PROP_LIST_NPKUserNotification
+- __OBJC_$_PROP_LIST_NPKUserNotificationCenter
+- __OBJC_$_PROP_LIST_NPKUserNotificationModel
+- __OBJC_$_PROP_LIST_NPKValueAddedServiceAutomaticSelectionCoordinator
+- __OBJC_$_PROP_LIST_NPKVehicleConnectivityCoordinator
+- __OBJC_$_PROP_LIST_NPKWifiObserver
+- __OBJC_$_PROP_LIST_PKPeerPaymentRecipient_$_NanoPassKit
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_LAUIDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NPKAddPaymentPassControllerClientProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NPKAddPaymentPassControllerServerProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NPKContactlessPaymentSessionManagerObserver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NPKDoublePressDelegationAssertionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NPKInAppPaymentInterfaceServerExportedInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NPKNanoPassDaemonConnectionProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NPKPassesDataSource
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NPKPassesDataSourceObserver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NPKPaymentProvisioningFlowControllerProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NPKPrecursorPassUpgradeRequestControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NPKPrecursorPassUpgradeRequestsManagerObserver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NPKStandaloneProvisioningServiceClientProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NPKStandaloneProvisioningServiceServerProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NPKTransientPassAssertionServerClientProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NPKTransientPassAssertionServerProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NPKUserNotificationModel
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_LSApplicationWorkspaceObserverProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NFHardwareEventListener
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NPKBarcodePaymentSessionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NPKPassesDataSourceObserver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NPKQuickPaymentSessionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_PKAccountServiceObserver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_PKContactlessInterfaceSessionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_PKFieldDetectorObserver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_PKGroupObserver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_PKGroupsControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_PKPaymentAuthorizationControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_PKPaymentAuthorizationControllerPrivateDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_PKPaymentServiceDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_STSSessionBaseDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_STSSessionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UNUserNotificationCenterDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UNUserNotificationCenterDelegatePrivate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_PKContactlessCardIngesterDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_PKGroupObserver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_PKGroupsControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_PKPaymentAuthorizationControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_PKPrecursorPassUpgradeControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_LAUIDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_LSApplicationWorkspaceObserverProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFHardwareEventListener
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NPKAddPaymentPassControllerClientProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NPKAddPaymentPassControllerServerProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NPKBarcodePaymentSessionDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NPKContactlessPaymentSessionManagerObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NPKDoublePressDelegationAssertionDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NPKInAppPaymentInterfaceServerExportedInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NPKNanoPassDaemonConnectionProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NPKPassesDataSource
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NPKPassesDataSourceObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NPKPaymentProvisioningFlowControllerProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NPKPrecursorPassUpgradeRequestControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NPKPrecursorPassUpgradeRequestsManagerObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NPKQuickPaymentSessionDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NPKStandaloneProvisioningServiceClientProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NPKStandaloneProvisioningServiceServerProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NPKTransientPassAssertionServerClientProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NPKTransientPassAssertionServerProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NPKUserNotificationModel
+- __OBJC_$_PROTOCOL_METHOD_TYPES_PKAccountServiceObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_PKContactlessCardIngesterDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_PKContactlessInterfaceSessionDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_PKFieldDetectorObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_PKGroupObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_PKGroupsControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_PKPaymentAuthorizationControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_PKPaymentAuthorizationControllerPrivateDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_PKPaymentServiceDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_PKPrecursorPassUpgradeControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_STSSessionBaseDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_STSSessionDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UNUserNotificationCenterDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UNUserNotificationCenterDelegatePrivate
+- __OBJC_$_PROTOCOL_REFS_LSApplicationWorkspaceObserverProtocol
+- __OBJC_$_PROTOCOL_REFS_NFHardwareEventListener
+- __OBJC_$_PROTOCOL_REFS_NPKAddPaymentPassControllerClientProtocol
+- __OBJC_$_PROTOCOL_REFS_NPKAddPaymentPassControllerServerProtocol
+- __OBJC_$_PROTOCOL_REFS_NPKBarcodePaymentSessionDelegate
+- __OBJC_$_PROTOCOL_REFS_NPKContactlessPaymentSessionManagerObserver
+- __OBJC_$_PROTOCOL_REFS_NPKDoublePressDelegationAssertionDelegate
+- __OBJC_$_PROTOCOL_REFS_NPKInAppPaymentInterfaceServerExportedInterface
+- __OBJC_$_PROTOCOL_REFS_NPKNanoPassDaemonConnectionProtocol
+- __OBJC_$_PROTOCOL_REFS_NPKPassesDataSource
+- __OBJC_$_PROTOCOL_REFS_NPKPassesDataSourceObserver
+- __OBJC_$_PROTOCOL_REFS_NPKPaymentProvisioningFlowControllerProtocol
+- __OBJC_$_PROTOCOL_REFS_NPKPrecursorPassUpgradeRequestControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_NPKPrecursorPassUpgradeRequestsManagerObserver
+- __OBJC_$_PROTOCOL_REFS_NPKQuickPaymentSessionDelegate
+- __OBJC_$_PROTOCOL_REFS_NPKStandaloneProvisioningServiceClientProtocol
+- __OBJC_$_PROTOCOL_REFS_NPKStandaloneProvisioningServiceServerProtocol
+- __OBJC_$_PROTOCOL_REFS_NPKTransientPassAssertionServerClientProtocol
+- __OBJC_$_PROTOCOL_REFS_NPKTransientPassAssertionServerProtocol
+- __OBJC_$_PROTOCOL_REFS_NPKUserNotificationModel
+- __OBJC_$_PROTOCOL_REFS_PKAccountServiceObserver
+- __OBJC_$_PROTOCOL_REFS_PKContactlessCardIngesterDelegate
+- __OBJC_$_PROTOCOL_REFS_PKContactlessInterfaceSessionDelegate
+- __OBJC_$_PROTOCOL_REFS_PKFieldDetectorObserver
+- __OBJC_$_PROTOCOL_REFS_PKGroupObserver
+- __OBJC_$_PROTOCOL_REFS_PKGroupsControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_PKPaymentAuthorizationControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_PKPaymentAuthorizationControllerPrivateDelegate
+- __OBJC_$_PROTOCOL_REFS_PKPaymentServiceDelegate
+- __OBJC_$_PROTOCOL_REFS_PKPrecursorPassUpgradeControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_STSSessionBaseDelegate
+- __OBJC_$_PROTOCOL_REFS_STSSessionDelegate
+- __OBJC_$_PROTOCOL_REFS_UNUserNotificationCenterDelegate
+- __OBJC_$_PROTOCOL_REFS_UNUserNotificationCenterDelegatePrivate
+- __OBJC_CLASS_PROTOCOLS_$_NPKAddPaymentPassController
+- __OBJC_CLASS_PROTOCOLS_$_NPKApplicationStateListener
+- __OBJC_CLASS_PROTOCOLS_$_NPKBarcodePaymentSession
+- __OBJC_CLASS_PROTOCOLS_$_NPKContactlessPaymentSessionAnalyticsManager
+- __OBJC_CLASS_PROTOCOLS_$_NPKContactlessPaymentSessionManager
+- __OBJC_CLASS_PROTOCOLS_$_NPKContactlessPaymentSessionSoundsManager
+- __OBJC_CLASS_PROTOCOLS_$_NPKContactlessPaymentSessionState
+- __OBJC_CLASS_PROTOCOLS_$_NPKExpressPassController
+- __OBJC_CLASS_PROTOCOLS_$_NPKExpressPassesManager
+- __OBJC_CLASS_PROTOCOLS_$_NPKFakePaymentSession
+- __OBJC_CLASS_PROTOCOLS_$_NPKLowPowerModeLocalDeviceMonitor
+- __OBJC_CLASS_PROTOCOLS_$_NPKNanoPassDaemonConnection
+- __OBJC_CLASS_PROTOCOLS_$_NPKPassAssociatedInfoManager
+- __OBJC_CLASS_PROTOCOLS_$_NPKPassesManager
+- __OBJC_CLASS_PROTOCOLS_$_NPKPaymentProvisioningFlowController(FlowSelection|DigitalIssuance|Errors|ReaderMode)
+- __OBJC_CLASS_PROTOCOLS_$_NPKPaymentProvisioningFlowControllerRequestContext
+- __OBJC_CLASS_PROTOCOLS_$_NPKPaymentProvisioningFlowStepContext
+- __OBJC_CLASS_PROTOCOLS_$_NPKPeerPaymentMessagesTransactionsManager
+- __OBJC_CLASS_PROTOCOLS_$_NPKPrecursorPassUpgradeRequestController
+- __OBJC_CLASS_PROTOCOLS_$_NPKPrecursorPassUpgradeRequestsManager
+- __OBJC_CLASS_PROTOCOLS_$_NPKQuickPaymentSession
+- __OBJC_CLASS_PROTOCOLS_$_NPKQuickPaymentSessionCleanupDelegate
+- __OBJC_CLASS_PROTOCOLS_$_NPKQuickPaymentSessionLocalAuthenticationCoordinator
+- __OBJC_CLASS_PROTOCOLS_$_NPKRemoteButtonListener
+- __OBJC_CLASS_PROTOCOLS_$_NPKSecureElement
+- __OBJC_CLASS_PROTOCOLS_$_NPKTransientAssertion
+- __OBJC_CLASS_PROTOCOLS_$_NPKUserNotification
+- __OBJC_CLASS_PROTOCOLS_$_NPKUserNotificationCenter
+- __OBJC_CLASS_PROTOCOLS_$_NPKValueAddedServiceAutomaticSelectionCoordinator
+- __OBJC_CLASS_RO_$_NPKAddPaymentPassController
+- __OBJC_CLASS_RO_$_NPKApplicationStateListener
+- __OBJC_CLASS_RO_$_NPKAssertionController
+- __OBJC_CLASS_RO_$_NPKAssertionWrapper
+- __OBJC_CLASS_RO_$_NPKAudioPlayer
+- __OBJC_CLASS_RO_$_NPKAuthIntentListener
+- __OBJC_CLASS_RO_$_NPKBarcodePaymentSession
+- __OBJC_CLASS_RO_$_NPKBluetoothConnectivityCoordinator
+- __OBJC_CLASS_RO_$_NPKButtonListener
+- __OBJC_CLASS_RO_$_NPKContactlessPaymentSessionAnalyticsManager
+- __OBJC_CLASS_RO_$_NPKContactlessPaymentSessionManager
+- __OBJC_CLASS_RO_$_NPKContactlessPaymentSessionManagerTransactionContext
+- __OBJC_CLASS_RO_$_NPKContactlessPaymentSessionSoundsManager
+- __OBJC_CLASS_RO_$_NPKContactlessPaymentSessionState
+- __OBJC_CLASS_RO_$_NPKDoubleClickClientSuppressor
+- __OBJC_CLASS_RO_$_NPKDoublePressDelegationAssertion
+- __OBJC_CLASS_RO_$_NPKDoublePressSuppressionAssertion
+- __OBJC_CLASS_RO_$_NPKExpressModeSettingsCoordinator
+- __OBJC_CLASS_RO_$_NPKExpressPassController
+- __OBJC_CLASS_RO_$_NPKExpressPassesManager
+- __OBJC_CLASS_RO_$_NPKExpressUWBTransactionInfo
+- __OBJC_CLASS_RO_$_NPKFakePaymentSession
+- __OBJC_CLASS_RO_$_NPKFidoAuthCoordinator
+- __OBJC_CLASS_RO_$_NPKGreenTeaDataUsageResolver
+- __OBJC_CLASS_RO_$_NPKIdentityExtendedReviewUserNotification
+- __OBJC_CLASS_RO_$_NPKLowPowerModeLocalDeviceMonitor
+- __OBJC_CLASS_RO_$_NPKMockPeerPaymentAccountManager
+- __OBJC_CLASS_RO_$_NPKNanoPassDaemonConnection
+- __OBJC_CLASS_RO_$_NPKOpenURLRouter
+- __OBJC_CLASS_RO_$_NPKPassAssociatedInfo
+- __OBJC_CLASS_RO_$_NPKPassAssociatedInfoManager
+- __OBJC_CLASS_RO_$_NPKPassAssociatedInfoModel
+- __OBJC_CLASS_RO_$_NPKPassSelectionFieldDetectorAssertion
+- __OBJC_CLASS_RO_$_NPKPassUserNotification
+- __OBJC_CLASS_RO_$_NPKPassUserNotificationFactory
+- __OBJC_CLASS_RO_$_NPKPassesManager
+- __OBJC_CLASS_RO_$_NPKPaymentBarcode
+- __OBJC_CLASS_RO_$_NPKPaymentProvisioningFlowController
+- __OBJC_CLASS_RO_$_NPKPaymentProvisioningFlowControllerAppleBalanceAccountDetailsStepContext
+- __OBJC_CLASS_RO_$_NPKPaymentProvisioningFlowControllerChooseCredentialsStepContext
+- __OBJC_CLASS_RO_$_NPKPaymentProvisioningFlowControllerChooseFlowStepContext
+- __OBJC_CLASS_RO_$_NPKPaymentProvisioningFlowControllerChooseProductStepContext
+- __OBJC_CLASS_RO_$_NPKPaymentProvisioningFlowControllerDigitalIssuanceAmountStepContext
+- __OBJC_CLASS_RO_$_NPKPaymentProvisioningFlowControllerDigitalIssuancePaymentStepContext
+- __OBJC_CLASS_RO_$_NPKPaymentProvisioningFlowControllerGetIssuerApplicationAddRequestStepContext
+- __OBJC_CLASS_RO_$_NPKPaymentProvisioningFlowControllerIssuerVerificationChannelsStepContext
+- __OBJC_CLASS_RO_$_NPKPaymentProvisioningFlowControllerIssuerVerificationCodeStepContext
+- __OBJC_CLASS_RO_$_NPKPaymentProvisioningFlowControllerIssuerVerificationFieldsStepContext
+- __OBJC_CLASS_RO_$_NPKPaymentProvisioningFlowControllerLocalDeviceManualEntryProgressStepContext
+- __OBJC_CLASS_RO_$_NPKPaymentProvisioningFlowControllerLocalDeviceManualEntryStepContext
+- __OBJC_CLASS_RO_$_NPKPaymentProvisioningFlowControllerManualEntryStepContext
+- __OBJC_CLASS_RO_$_NPKPaymentProvisioningFlowControllerMoreInformationStepContext
+- __OBJC_CLASS_RO_$_NPKPaymentProvisioningFlowControllerPasscodeUpgradeStepContext
+- __OBJC_CLASS_RO_$_NPKPaymentProvisioningFlowControllerPreconditionsStepContext
+- __OBJC_CLASS_RO_$_NPKPaymentProvisioningFlowControllerProductDisambiguationStepContext
+- __OBJC_CLASS_RO_$_NPKPaymentProvisioningFlowControllerProvisioningProgressStepContext
+- __OBJC_CLASS_RO_$_NPKPaymentProvisioningFlowControllerProvisioningResultStepContext
+- __OBJC_CLASS_RO_$_NPKPaymentProvisioningFlowControllerReaderModeEntryStepContext
+- __OBJC_CLASS_RO_$_NPKPaymentProvisioningFlowControllerReaderModeIngestionStepContext
+- __OBJC_CLASS_RO_$_NPKPaymentProvisioningFlowControllerRequestContext
+- __OBJC_CLASS_RO_$_NPKPaymentProvisioningFlowControllerSecondaryManualEntryStepContext
+- __OBJC_CLASS_RO_$_NPKPaymentProvisioningFlowControllerTermsAndConditionsStepContext
+- __OBJC_CLASS_RO_$_NPKPaymentProvisioningFlowControllerWelcomeStepContext
+- __OBJC_CLASS_RO_$_NPKPaymentProvisioningFlowPickerItem
+- __OBJC_CLASS_RO_$_NPKPaymentProvisioningFlowPickerSection
+- __OBJC_CLASS_RO_$_NPKPaymentProvisioningFlowStepContext
+- __OBJC_CLASS_RO_$_NPKPaymentWebServiceStandaloneTargetDevice
+- __OBJC_CLASS_RO_$_NPKPeerPaymentAccountManager
+- __OBJC_CLASS_RO_$_NPKPeerPaymentMessagesTransactionsManager
+- __OBJC_CLASS_RO_$_NPKPeerPaymentNumberFormatter
+- __OBJC_CLASS_RO_$_NPKPeerPaymentQuickTypeParser
+- __OBJC_CLASS_RO_$_NPKPeerPaymentQuickTypeParserCurrencyData
+- __OBJC_CLASS_RO_$_NPKPeerPaymentQuickTypeParserData
+- __OBJC_CLASS_RO_$_NPKPeerPaymentTransactionDetails
+- __OBJC_CLASS_RO_$_NPKPerishableValue
+- __OBJC_CLASS_RO_$_NPKPrecursorPassUpgradeRequestController
+- __OBJC_CLASS_RO_$_NPKPrecursorPassUpgradeRequestsManager
+- __OBJC_CLASS_RO_$_NPKProcessAssertion
+- __OBJC_CLASS_RO_$_NPKProtoStandaloneHelper
+- __OBJC_CLASS_RO_$_NPKQuickPaymentSession
+- __OBJC_CLASS_RO_$_NPKQuickPaymentSessionCleanupDelegate
+- __OBJC_CLASS_RO_$_NPKQuickPaymentSessionLocalAuthenticationCoordinator
+- __OBJC_CLASS_RO_$_NPKQuickPaymentSessionSource
+- __OBJC_CLASS_RO_$_NPKRemoteButtonListener
+- __OBJC_CLASS_RO_$_NPKRemoteInterfacePresenter
+- __OBJC_CLASS_RO_$_NPKSecureElement
+- __OBJC_CLASS_RO_$_NPKStandaloneProvisioningNumericEntryCoordinator
+- __OBJC_CLASS_RO_$_NPKTestAddPaymentPassRequestContext
+- __OBJC_CLASS_RO_$_NPKTileActionItem
+- __OBJC_CLASS_RO_$_NPKTransientAssertion
+- __OBJC_CLASS_RO_$_NPKTransientPassAssertion
+- __OBJC_CLASS_RO_$_NPKTransitAppletHistoryFetcher
+- __OBJC_CLASS_RO_$_NPKUserNotification
+- __OBJC_CLASS_RO_$_NPKUserNotificationCenter
+- __OBJC_CLASS_RO_$_NPKUserNotificationExpressModeEnabled
+- __OBJC_CLASS_RO_$_NPKValueAddedServiceAutomaticSelectionCoordinator
+- __OBJC_CLASS_RO_$_NPKVehicleConnectivityCoordinator
+- __OBJC_CLASS_RO_$_NPKWifiObserver
+- __OBJC_LABEL_PROTOCOL_$_LAUIDelegate
+- __OBJC_LABEL_PROTOCOL_$_LSApplicationWorkspaceObserverProtocol
+- __OBJC_LABEL_PROTOCOL_$_NFHardwareEventListener
+- __OBJC_LABEL_PROTOCOL_$_NPKAddPaymentPassControllerClientProtocol
+- __OBJC_LABEL_PROTOCOL_$_NPKAddPaymentPassControllerServerProtocol
+- __OBJC_LABEL_PROTOCOL_$_NPKBarcodePaymentSessionDelegate
+- __OBJC_LABEL_PROTOCOL_$_NPKContactlessPaymentSessionManagerObserver
+- __OBJC_LABEL_PROTOCOL_$_NPKDoublePressDelegationAssertionDelegate
+- __OBJC_LABEL_PROTOCOL_$_NPKInAppPaymentInterfaceServerExportedInterface
+- __OBJC_LABEL_PROTOCOL_$_NPKNanoPassDaemonConnectionProtocol
+- __OBJC_LABEL_PROTOCOL_$_NPKPassesDataSource
+- __OBJC_LABEL_PROTOCOL_$_NPKPassesDataSourceObserver
+- __OBJC_LABEL_PROTOCOL_$_NPKPaymentProvisioningFlowControllerProtocol
+- __OBJC_LABEL_PROTOCOL_$_NPKPrecursorPassUpgradeRequestControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_NPKPrecursorPassUpgradeRequestsManagerObserver
+- __OBJC_LABEL_PROTOCOL_$_NPKQuickPaymentSessionDelegate
+- __OBJC_LABEL_PROTOCOL_$_NPKStandaloneProvisioningServiceClientProtocol
+- __OBJC_LABEL_PROTOCOL_$_NPKStandaloneProvisioningServiceServerProtocol
+- __OBJC_LABEL_PROTOCOL_$_NPKTransientPassAssertionServerClientProtocol
+- __OBJC_LABEL_PROTOCOL_$_NPKTransientPassAssertionServerProtocol
+- __OBJC_LABEL_PROTOCOL_$_NPKUserNotificationModel
+- __OBJC_LABEL_PROTOCOL_$_PKAccountServiceObserver
+- __OBJC_LABEL_PROTOCOL_$_PKContactlessCardIngesterDelegate
+- __OBJC_LABEL_PROTOCOL_$_PKContactlessInterfaceSessionDelegate
+- __OBJC_LABEL_PROTOCOL_$_PKFieldDetectorObserver
+- __OBJC_LABEL_PROTOCOL_$_PKGroupObserver
+- __OBJC_LABEL_PROTOCOL_$_PKGroupsControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_PKPaymentAuthorizationControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_PKPaymentAuthorizationControllerPrivateDelegate
+- __OBJC_LABEL_PROTOCOL_$_PKPaymentServiceDelegate
+- __OBJC_LABEL_PROTOCOL_$_PKPrecursorPassUpgradeControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_STSSessionBaseDelegate
+- __OBJC_LABEL_PROTOCOL_$_STSSessionDelegate
+- __OBJC_LABEL_PROTOCOL_$_UNUserNotificationCenterDelegate
+- __OBJC_LABEL_PROTOCOL_$_UNUserNotificationCenterDelegatePrivate
+- __OBJC_METACLASS_RO_$_NPKAddPaymentPassController
+- __OBJC_METACLASS_RO_$_NPKApplicationStateListener
+- __OBJC_METACLASS_RO_$_NPKAssertionController
+- __OBJC_METACLASS_RO_$_NPKAssertionWrapper
+- __OBJC_METACLASS_RO_$_NPKAudioPlayer
+- __OBJC_METACLASS_RO_$_NPKAuthIntentListener
+- __OBJC_METACLASS_RO_$_NPKBarcodePaymentSession
+- __OBJC_METACLASS_RO_$_NPKBluetoothConnectivityCoordinator
+- __OBJC_METACLASS_RO_$_NPKButtonListener
+- __OBJC_METACLASS_RO_$_NPKContactlessPaymentSessionAnalyticsManager
+- __OBJC_METACLASS_RO_$_NPKContactlessPaymentSessionManager
+- __OBJC_METACLASS_RO_$_NPKContactlessPaymentSessionManagerTransactionContext
+- __OBJC_METACLASS_RO_$_NPKContactlessPaymentSessionSoundsManager
+- __OBJC_METACLASS_RO_$_NPKContactlessPaymentSessionState
+- __OBJC_METACLASS_RO_$_NPKDoubleClickClientSuppressor
+- __OBJC_METACLASS_RO_$_NPKDoublePressDelegationAssertion
+- __OBJC_METACLASS_RO_$_NPKDoublePressSuppressionAssertion
+- __OBJC_METACLASS_RO_$_NPKExpressModeSettingsCoordinator
+- __OBJC_METACLASS_RO_$_NPKExpressPassController
+- __OBJC_METACLASS_RO_$_NPKExpressPassesManager
+- __OBJC_METACLASS_RO_$_NPKExpressUWBTransactionInfo
+- __OBJC_METACLASS_RO_$_NPKFakePaymentSession
+- __OBJC_METACLASS_RO_$_NPKFidoAuthCoordinator
+- __OBJC_METACLASS_RO_$_NPKGreenTeaDataUsageResolver
+- __OBJC_METACLASS_RO_$_NPKIdentityExtendedReviewUserNotification
+- __OBJC_METACLASS_RO_$_NPKLowPowerModeLocalDeviceMonitor
+- __OBJC_METACLASS_RO_$_NPKMockPeerPaymentAccountManager
+- __OBJC_METACLASS_RO_$_NPKNanoPassDaemonConnection
+- __OBJC_METACLASS_RO_$_NPKOpenURLRouter
+- __OBJC_METACLASS_RO_$_NPKPassAssociatedInfo
+- __OBJC_METACLASS_RO_$_NPKPassAssociatedInfoManager
+- __OBJC_METACLASS_RO_$_NPKPassAssociatedInfoModel
+- __OBJC_METACLASS_RO_$_NPKPassSelectionFieldDetectorAssertion
+- __OBJC_METACLASS_RO_$_NPKPassUserNotification
+- __OBJC_METACLASS_RO_$_NPKPassUserNotificationFactory
+- __OBJC_METACLASS_RO_$_NPKPassesManager
+- __OBJC_METACLASS_RO_$_NPKPaymentBarcode
+- __OBJC_METACLASS_RO_$_NPKPaymentProvisioningFlowController
+- __OBJC_METACLASS_RO_$_NPKPaymentProvisioningFlowControllerAppleBalanceAccountDetailsStepContext
+- __OBJC_METACLASS_RO_$_NPKPaymentProvisioningFlowControllerChooseCredentialsStepContext
+- __OBJC_METACLASS_RO_$_NPKPaymentProvisioningFlowControllerChooseFlowStepContext
+- __OBJC_METACLASS_RO_$_NPKPaymentProvisioningFlowControllerChooseProductStepContext
+- __OBJC_METACLASS_RO_$_NPKPaymentProvisioningFlowControllerDigitalIssuanceAmountStepContext
+- __OBJC_METACLASS_RO_$_NPKPaymentProvisioningFlowControllerDigitalIssuancePaymentStepContext
+- __OBJC_METACLASS_RO_$_NPKPaymentProvisioningFlowControllerGetIssuerApplicationAddRequestStepContext
+- __OBJC_METACLASS_RO_$_NPKPaymentProvisioningFlowControllerIssuerVerificationChannelsStepContext
+- __OBJC_METACLASS_RO_$_NPKPaymentProvisioningFlowControllerIssuerVerificationCodeStepContext
+- __OBJC_METACLASS_RO_$_NPKPaymentProvisioningFlowControllerIssuerVerificationFieldsStepContext
+- __OBJC_METACLASS_RO_$_NPKPaymentProvisioningFlowControllerLocalDeviceManualEntryProgressStepContext
+- __OBJC_METACLASS_RO_$_NPKPaymentProvisioningFlowControllerLocalDeviceManualEntryStepContext
+- __OBJC_METACLASS_RO_$_NPKPaymentProvisioningFlowControllerManualEntryStepContext
+- __OBJC_METACLASS_RO_$_NPKPaymentProvisioningFlowControllerMoreInformationStepContext
+- __OBJC_METACLASS_RO_$_NPKPaymentProvisioningFlowControllerPasscodeUpgradeStepContext
+- __OBJC_METACLASS_RO_$_NPKPaymentProvisioningFlowControllerPreconditionsStepContext
+- __OBJC_METACLASS_RO_$_NPKPaymentProvisioningFlowControllerProductDisambiguationStepContext
+- __OBJC_METACLASS_RO_$_NPKPaymentProvisioningFlowControllerProvisioningProgressStepContext
+- __OBJC_METACLASS_RO_$_NPKPaymentProvisioningFlowControllerProvisioningResultStepContext
+- __OBJC_METACLASS_RO_$_NPKPaymentProvisioningFlowControllerReaderModeEntryStepContext
+- __OBJC_METACLASS_RO_$_NPKPaymentProvisioningFlowControllerReaderModeIngestionStepContext
+- __OBJC_METACLASS_RO_$_NPKPaymentProvisioningFlowControllerRequestContext
+- __OBJC_METACLASS_RO_$_NPKPaymentProvisioningFlowControllerSecondaryManualEntryStepContext
+- __OBJC_METACLASS_RO_$_NPKPaymentProvisioningFlowControllerTermsAndConditionsStepContext
+- __OBJC_METACLASS_RO_$_NPKPaymentProvisioningFlowControllerWelcomeStepContext
+- __OBJC_METACLASS_RO_$_NPKPaymentProvisioningFlowPickerItem
+- __OBJC_METACLASS_RO_$_NPKPaymentProvisioningFlowPickerSection
+- __OBJC_METACLASS_RO_$_NPKPaymentProvisioningFlowStepContext
+- __OBJC_METACLASS_RO_$_NPKPaymentWebServiceStandaloneTargetDevice
+- __OBJC_METACLASS_RO_$_NPKPeerPaymentAccountManager
+- __OBJC_METACLASS_RO_$_NPKPeerPaymentMessagesTransactionsManager
+- __OBJC_METACLASS_RO_$_NPKPeerPaymentNumberFormatter
+- __OBJC_METACLASS_RO_$_NPKPeerPaymentQuickTypeParser
+- __OBJC_METACLASS_RO_$_NPKPeerPaymentQuickTypeParserCurrencyData
+- __OBJC_METACLASS_RO_$_NPKPeerPaymentQuickTypeParserData
+- __OBJC_METACLASS_RO_$_NPKPeerPaymentTransactionDetails
+- __OBJC_METACLASS_RO_$_NPKPerishableValue
+- __OBJC_METACLASS_RO_$_NPKPrecursorPassUpgradeRequestController
+- __OBJC_METACLASS_RO_$_NPKPrecursorPassUpgradeRequestsManager
+- __OBJC_METACLASS_RO_$_NPKProcessAssertion
+- __OBJC_METACLASS_RO_$_NPKProtoStandaloneHelper
+- __OBJC_METACLASS_RO_$_NPKQuickPaymentSession
+- __OBJC_METACLASS_RO_$_NPKQuickPaymentSessionCleanupDelegate
+- __OBJC_METACLASS_RO_$_NPKQuickPaymentSessionLocalAuthenticationCoordinator
+- __OBJC_METACLASS_RO_$_NPKQuickPaymentSessionSource
+- __OBJC_METACLASS_RO_$_NPKRemoteButtonListener
+- __OBJC_METACLASS_RO_$_NPKRemoteInterfacePresenter
+- __OBJC_METACLASS_RO_$_NPKSecureElement
+- __OBJC_METACLASS_RO_$_NPKStandaloneProvisioningNumericEntryCoordinator
+- __OBJC_METACLASS_RO_$_NPKTestAddPaymentPassRequestContext
+- __OBJC_METACLASS_RO_$_NPKTileActionItem
+- __OBJC_METACLASS_RO_$_NPKTransientAssertion
+- __OBJC_METACLASS_RO_$_NPKTransientPassAssertion
+- __OBJC_METACLASS_RO_$_NPKTransitAppletHistoryFetcher
+- __OBJC_METACLASS_RO_$_NPKUserNotification
+- __OBJC_METACLASS_RO_$_NPKUserNotificationCenter
+- __OBJC_METACLASS_RO_$_NPKUserNotificationExpressModeEnabled
+- __OBJC_METACLASS_RO_$_NPKValueAddedServiceAutomaticSelectionCoordinator
+- __OBJC_METACLASS_RO_$_NPKVehicleConnectivityCoordinator
+- __OBJC_METACLASS_RO_$_NPKWifiObserver
+- __OBJC_PROTOCOL_$_LAUIDelegate
+- __OBJC_PROTOCOL_$_LSApplicationWorkspaceObserverProtocol
+- __OBJC_PROTOCOL_$_NFHardwareEventListener
+- __OBJC_PROTOCOL_$_NPKAddPaymentPassControllerClientProtocol
+- __OBJC_PROTOCOL_$_NPKAddPaymentPassControllerServerProtocol
+- __OBJC_PROTOCOL_$_NPKBarcodePaymentSessionDelegate
+- __OBJC_PROTOCOL_$_NPKContactlessPaymentSessionManagerObserver
+- __OBJC_PROTOCOL_$_NPKDoublePressDelegationAssertionDelegate
+- __OBJC_PROTOCOL_$_NPKInAppPaymentInterfaceServerExportedInterface
+- __OBJC_PROTOCOL_$_NPKNanoPassDaemonConnectionProtocol
+- __OBJC_PROTOCOL_$_NPKPassesDataSource
+- __OBJC_PROTOCOL_$_NPKPassesDataSourceObserver
+- __OBJC_PROTOCOL_$_NPKPaymentProvisioningFlowControllerProtocol
+- __OBJC_PROTOCOL_$_NPKPrecursorPassUpgradeRequestControllerDelegate
+- __OBJC_PROTOCOL_$_NPKPrecursorPassUpgradeRequestsManagerObserver
+- __OBJC_PROTOCOL_$_NPKQuickPaymentSessionDelegate
+- __OBJC_PROTOCOL_$_NPKStandaloneProvisioningServiceClientProtocol
+- __OBJC_PROTOCOL_$_NPKStandaloneProvisioningServiceServerProtocol
+- __OBJC_PROTOCOL_$_NPKTransientPassAssertionServerClientProtocol
+- __OBJC_PROTOCOL_$_NPKTransientPassAssertionServerProtocol
+- __OBJC_PROTOCOL_$_NPKUserNotificationModel
+- __OBJC_PROTOCOL_$_PKAccountServiceObserver
+- __OBJC_PROTOCOL_$_PKContactlessCardIngesterDelegate
+- __OBJC_PROTOCOL_$_PKContactlessInterfaceSessionDelegate
+- __OBJC_PROTOCOL_$_PKFieldDetectorObserver
+- __OBJC_PROTOCOL_$_PKGroupObserver
+- __OBJC_PROTOCOL_$_PKGroupsControllerDelegate
+- __OBJC_PROTOCOL_$_PKPaymentAuthorizationControllerDelegate
+- __OBJC_PROTOCOL_$_PKPaymentAuthorizationControllerPrivateDelegate
+- __OBJC_PROTOCOL_$_PKPaymentServiceDelegate
+- __OBJC_PROTOCOL_$_PKPrecursorPassUpgradeControllerDelegate
+- __OBJC_PROTOCOL_$_STSSessionBaseDelegate
+- __OBJC_PROTOCOL_$_STSSessionDelegate
+- __OBJC_PROTOCOL_$_UNUserNotificationCenterDelegate
+- __OBJC_PROTOCOL_$_UNUserNotificationCenterDelegatePrivate
+- __OBJC_PROTOCOL_REFERENCE_$_NPKAddPaymentPassControllerClientProtocol
+- __OBJC_PROTOCOL_REFERENCE_$_NPKAddPaymentPassControllerServerProtocol
+- __OBJC_PROTOCOL_REFERENCE_$_NPKCommutePlanField
+- __OBJC_PROTOCOL_REFERENCE_$_NPKInAppPaymentInterfaceServerExportedInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NPKMemoryMappableImageSet
+- __OBJC_PROTOCOL_REFERENCE_$_NPKNanoPassDaemonConnectionProtocol
+- __OBJC_PROTOCOL_REFERENCE_$_NPKStandaloneProvisioningServiceClientProtocol
+- __OBJC_PROTOCOL_REFERENCE_$_NPKStandaloneProvisioningServiceServerProtocol
+- __OBJC_PROTOCOL_REFERENCE_$_NPKTransientPassAssertionServerClientProtocol
+- __OBJC_PROTOCOL_REFERENCE_$_NPKTransientPassAssertionServerProtocol
+- __Z18PKMediumDateStringP6NSDateP10NSTimeZone
+- __Z20PKTimeStringFromDateP6NSDateP10NSTimeZone
+- __Z26PKLocalizedTicketingStringP8NSString
+- __Z29PKLocalizedAppleBalanceStringP8NSString
+- ___100-[NPKContactlessPaymentSessionSoundsManager contactlessPaymentSessionManager:didChangeSessionState:]_block_invoke
+- ___100-[NPKContactlessPaymentSessionSoundsManager contactlessPaymentSessionManager:didChangeSessionState:]_block_invoke_10
+- ___100-[NPKContactlessPaymentSessionSoundsManager contactlessPaymentSessionManager:didChangeSessionState:]_block_invoke_11
+- ___100-[NPKContactlessPaymentSessionSoundsManager contactlessPaymentSessionManager:didChangeSessionState:]_block_invoke_2
+- ___100-[NPKContactlessPaymentSessionSoundsManager contactlessPaymentSessionManager:didChangeSessionState:]_block_invoke_3
+- ___100-[NPKContactlessPaymentSessionSoundsManager contactlessPaymentSessionManager:didChangeSessionState:]_block_invoke_4
+- ___100-[NPKContactlessPaymentSessionSoundsManager contactlessPaymentSessionManager:didChangeSessionState:]_block_invoke_5
+- ___100-[NPKContactlessPaymentSessionSoundsManager contactlessPaymentSessionManager:didChangeSessionState:]_block_invoke_6
+- ___100-[NPKContactlessPaymentSessionSoundsManager contactlessPaymentSessionManager:didChangeSessionState:]_block_invoke_7
+- ___100-[NPKContactlessPaymentSessionSoundsManager contactlessPaymentSessionManager:didChangeSessionState:]_block_invoke_8
+- ___100-[NPKContactlessPaymentSessionSoundsManager contactlessPaymentSessionManager:didChangeSessionState:]_block_invoke_9
+- ___100-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:addPaymentPass:withCompletionHandler:]_block_invoke.443
+- ___100-[NPKPaymentWebServiceCompanionTargetDevice prepareProvisioningTarget:checkFamilyCircle:completion:]_block_invoke.903
+- ___100-[NPKRemoteInterfacePresenter presentContinuityPaymentInterfaceWithRemotePaymentRequest:completion:]_block_invoke
+- ___101-[NPKCompanionAgentConnection updateCredentials:forUniqueID:paymentApplicationIdentifier:completion:]_block_invoke.176
+- ___101-[NPKPaymentWebServiceCompanionTargetDevice carKeyAccountAttestationRequestForCredential:completion:]_block_invoke.928
+- ___101-[NPKPaymentWebServiceCompanionTargetDevice generateAuxiliaryCapabilitiesForRequirements:completion:]_block_invoke.823
+- ___101-[NPKPaymentWebServiceCompanionTargetDevice performDeviceRegistrationForReason:brokerURL:completion:]_block_invoke.785
+- ___101-[NPKPaymentWebServiceCompanionTargetDevice performDeviceRegistrationForReason:brokerURL:completion:]_block_invoke.786
+- ___101-[NPKPaymentWebServiceCompanionTargetDevice performDeviceRegistrationForReason:brokerURL:completion:]_block_invoke_2.791
+- ___101-[NPKSubcredentialInvitationCoordinator updateSubcredentialMetadataOnPass:withCredential:completion:]_block_invoke.78
+- ___102-[NPKExpressPassController initWithPaymentService:passLibrary:distributedNotificationCenter:delegate:]_block_invoke
+- ___102-[NPKNanoPassDaemonConnection _addLegacyExpressModeEnabledUserNotificationForPassUniqueID:completion:]_block_invoke
+- ___102-[NPKNanoPassDaemonConnection _addLegacyExpressModeEnabledUserNotificationForPassUniqueID:completion:]_block_invoke.88
+- ___102-[NPKPaymentProvisioningFlowController _ensureMetadataForCredentials:updateHandler:completionHandler:]_block_invoke
+- ___102-[NPKPaymentProvisioningFlowController _ensureMetadataForCredentials:updateHandler:completionHandler:]_block_invoke.85
+- ___102-[NPKPaymentProvisioningFlowController _ensureMetadataForCredentials:updateHandler:completionHandler:]_block_invoke_2
+- ___102-[NPKPaymentProvisioningFlowController _ensureMetadataForCredentials:updateHandler:completionHandler:]_block_invoke_3
+- ___102-[NPKPaymentProvisioningFlowController _requestPassDetailsForAccountCredential:withCompletionHandler:]_block_invoke
+- ___102-[NPKPaymentProvisioningFlowController _requestPassDetailsForAccountCredential:withCompletionHandler:]_block_invoke_2
+- ___102-[NPKQuickPaymentSession _internalQueue_updateContactlessSessionForPass:vasPasses:deferAuthorization:]_block_invoke
+- ___102-[NPKQuickPaymentSession _internalQueue_updateContactlessSessionForPass:vasPasses:deferAuthorization:]_block_invoke.158
+- ___102-[NPKQuickPaymentSession _internalQueue_updateContactlessSessionForPass:vasPasses:deferAuthorization:]_block_invoke_2
+- ___102-[NPKQuickPaymentSession _internalQueue_updateContactlessSessionForPass:vasPasses:deferAuthorization:]_block_invoke_3
+- ___102-[NPKQuickPaymentSession _internalQueue_updateContactlessSessionForPass:vasPasses:deferAuthorization:]_block_invoke_4
+- ___102-[NPKQuickPaymentSession _internalQueue_updateContactlessSessionForPass:vasPasses:deferAuthorization:]_block_invoke_5
+- ___102-[NPKQuickPaymentSession _sessionQueue_authorizeWithUseCredential:deferAuthorizationIfCredentialUsed:]_block_invoke
+- ___102-[NPKQuickPaymentSessionLocalAuthenticationCoordinator beginLocalAuthenticationWithPolicy:completion:]_block_invoke
+- ___102-[NPKQuickPaymentSessionLocalAuthenticationCoordinator beginLocalAuthenticationWithPolicy:completion:]_block_invoke.59
+- ___102-[NPKQuickPaymentSessionLocalAuthenticationCoordinator beginLocalAuthenticationWithPolicy:completion:]_block_invoke.62
+- ___102-[NPKQuickPaymentSessionLocalAuthenticationCoordinator beginLocalAuthenticationWithPolicy:completion:]_block_invoke_2
+- ___102-[NPKQuickPaymentSessionLocalAuthenticationCoordinator beginLocalAuthenticationWithPolicy:completion:]_block_invoke_3
+- ___102-[NPKSubcredentialInvitationCoordinator declineRelatedInvitationsIfNecessaryForInvitation:completion:]_block_invoke.91
+- ___103-[NPKContactlessPaymentSessionAnalyticsManager contactlessPaymentSessionManager:didChangeSessionState:]_block_invoke
+- ___103-[NPKPaymentProvisioningFlowController chooseCardsOnFileFlowForProduct:requestContext:preloadMetadata:]_block_invoke
+- ___103-[NPKPaymentProvisioningFlowController prefetchCredentialsForProduct:requestContext:completionHandler:]_block_invoke
+- ___103-[NPKQuickPaymentSession _sessionQueue_startContactlessSessionWithSuccessfulCompletionOnInternalQueue:]_block_invoke
+- ___103-[NPKQuickPaymentSession _sessionQueue_startContactlessSessionWithSuccessfulCompletionOnInternalQueue:]_block_invoke.169
+- ___103-[NPKQuickPaymentSession _sessionQueue_startContactlessSessionWithSuccessfulCompletionOnInternalQueue:]_block_invoke.172
+- ___103-[NPKQuickPaymentSession _sessionQueue_startContactlessSessionWithSuccessfulCompletionOnInternalQueue:]_block_invoke.177
+- ___103-[NPKQuickPaymentSession _sessionQueue_startContactlessSessionWithSuccessfulCompletionOnInternalQueue:]_block_invoke_2
+- ___103-[NPKQuickPaymentSession _sessionQueue_startContactlessSessionWithSuccessfulCompletionOnInternalQueue:]_block_invoke_2.173
+- ___103-[NPKQuickPaymentSession _sessionQueue_startContactlessSessionWithSuccessfulCompletionOnInternalQueue:]_block_invoke_3
+- ___103-[NPKSubcredentialInvitationCoordinator startProvisioningWithInvitationIdentifier:metadata:completion:]_block_invoke.65
+- ___103-[NPKSubcredentialInvitationCoordinator startProvisioningWithMailboxAddress:activationCode:completion:]_block_invoke.94
+- ___103-[NPKSubcredentialInvitationCoordinator startProvisioningWithMailboxAddress:activationCode:completion:]_block_invoke.98
+- ___104-[NPKNanoPassDaemonConnection handleApplicationRedirectRequestOnPairedDeviceForPaymentPass:transaction:]_block_invoke
+- ___104-[NPKPaymentWebServiceCompanionTargetDevice carKeyDecryptData:credential:ephemeralPublicKey:completion:]_block_invoke.960
+- ___104-[NPKPeerPaymentMessagesTransactionsManager availableActionsForPaymentTransactionWithServiceIdentifier:]_block_invoke
+- ___105+[NPKProcessAssertion acquireBackgroundTaskAssertionWithExplanation:acquiredHandler:invalidationHandler:]_block_invoke
+- ___105+[NPKProcessAssertion acquireBackgroundTaskAssertionWithExplanation:acquiredHandler:invalidationHandler:]_block_invoke.14
+- ___105-[NPKPaymentProvisioningFlowController(ReaderMode) contactlessCardIngester:didUpdateCardIngestionStatus:]_block_invoke
+- ___105-[NPKPaymentProvisioningFlowController(ReaderMode) contactlessCardIngester:didUpdateCardIngestionStatus:]_block_invoke_2
+- ___105-[NPKPaymentWebServiceCompanionTargetDevice revokeShareForPassIdentifier:share:shouldCascade:completion:]_block_invoke.874
+- ___105-[NPKPaymentWebServiceCompanionTargetDevice updateShareForPassIdentifier:share:authorization:completion:]_block_invoke.908
+- ___105-[NPKQuickPaymentSessionLocalAuthenticationCoordinator _invokeCompletionHandlerForInvalidationWithError:]_block_invoke
+- ___106-[NPKAddPaymentPassController generateRequestWithCertificateChain:nonce:nonceSignature:completionHandler:]_block_invoke
+- ___106-[NPKPaymentWebServiceCompanionTargetDevice generateSEEncryptionCertificateForSubCredentialId:completion:]_block_invoke.857
+- ___106-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:addSecureElementPass:properties:completion:]_block_invoke.445
+- ___106-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:addSecureElementPass:properties:completion:]_block_invoke.446
+- ___106-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:addSecureElementPass:properties:completion:]_block_invoke.449
+- ___106-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:addSecureElementPass:properties:completion:]_block_invoke.454
+- ___106-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:addSecureElementPass:properties:completion:]_block_invoke.457
+- ___106-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:addSecureElementPass:properties:completion:]_block_invoke.458
+- ___106-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:addSecureElementPass:properties:completion:]_block_invoke.459
+- ___106-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:addSecureElementPass:properties:completion:]_block_invoke_2.456
+- ___106-[NPKQuickPaymentSession contactlessInterfaceSessionDidFailTransaction:forPaymentApplication:paymentPass:]_block_invoke
+- ___107-[NPKPaymentWebServiceCompanionTargetDevice carKeyStartShareAcceptanceFlow:transportIdentifier:completion:]_block_invoke.915
+- ___107-[NPKPaymentWebServiceCompanionTargetDevice createShareForPartialShareInvitation:authorization:completion:]_block_invoke.891
+- ___107-[NPKPaymentWebServiceCompanionTargetDevice generateISOEncryptionCertificateForSubCredentialId:completion:]_block_invoke.847
+- ___107-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:didRegisterWithRegionMap:primaryRegionTopic:]_block_invoke.432
+- ___107-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:didRegisterWithRegionMap:primaryRegionTopic:]_block_invoke.434
+- ___107-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:passOwnershipTokenWithIdentifier:completion:]_block_invoke.776
+- ___107-[NPKSubcredentialInvitationCoordinator deviceContainsInvitationMatchingInvitation:withTimeout:completion:]_block_invoke.73
+- ___108-[NPKCompanionViewServiceConnection presentRemotePassValueEntryViewControllerForRequest:contact:completion:]_block_invoke.58
+- ___108-[NPKNanoPassDaemonConnection startSubcredentialProvisioningOnRemoteDeviceForMailboxAddress:activationCode:]_block_invoke
+- ___108-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:passSharesForCredentialIdentifier:completion:]_block_invoke.877
+- ___108-[NPKPeerPaymentMessagesTransactionsManager transactionSourceIdentifier:didRemoveTransactionWithIdentifier:]_block_invoke
+- ___108-[NPKPeerPaymentMessagesTransactionsManager transactionSourceIdentifier:didRemoveTransactionWithIdentifier:]_block_invoke_2
+- ___108-[NPKRemoteInterfacePresenter presentContactlessInterfaceForPassWithUniqueIdentifier:fromSource:completion:]_block_invoke
+- ___109-[NPKPaymentWebServiceCompanionTargetDevice carKeyHandleRecipientMessage:forInvitationIdentifier:completion:]_block_invoke.954
+- ___110-[NPKIDVRemoteDeviceConnectionCoordinator _sendRequest:withType:priority:queueIdentifier:requestItem:timeout:]_block_invoke.215
+- ___111-[NPKCompanionViewServiceConnection presentRemotePassItemSelectionViewControllerForRequest:contact:completion:]_block_invoke.66
+- ___111-[NPKContactlessPaymentSessionManager _handleRKEActionRequestedForPass:action:function:withSession:completion:]_block_invoke
+- ___111-[NPKContactlessPaymentSessionManager _handleRKEActionRequestedForPass:action:function:withSession:completion:]_block_invoke.568
+- ___111-[NPKContactlessPaymentSessionManager _handleRKEActionRequestedForPass:action:function:withSession:completion:]_block_invoke.575
+- ___111-[NPKPaymentWebServiceCompanionTargetDevice carKeyGetPretrackRequestForKeyWithInvitationIdentifier:completion:]_block_invoke.932
+- ___112-[NPKPrecursorPassUpgradeRequestsManager notifyObserversDidChangeUpgradeRequestDescription:forPassWithUniqueID:]_block_invoke
+- ___113-[NPKPassAssociatedInfoManager precursorPassRequestsManager:didUpdateUpgradePrequestDescription:forPassUniqueID:]_block_invoke
+- ___113-[NPKPassAssociatedInfoManager precursorPassRequestsManager:didUpdateUpgradePrequestDescription:forPassUniqueID:]_block_invoke_2
+- ___113-[NPKPaymentWebServiceCompanionTargetDevice serviceProviderDataForPassWithUniqueIdentifier:encrypted:completion:]_block_invoke.980
+- ___113-[NPKPaymentWebServiceCompanionTargetDevice serviceProviderDataForPassWithUniqueIdentifier:encrypted:completion:]_block_invoke.982
+- ___115-[NPKNanoPassDaemonConnection handleMetadataRequestOnPairedDevice:withAssociatedApplicationIdentifiers:completion:]_block_invoke
+- ___115-[NPKNanoPassDaemonConnection handleMetadataRequestOnPairedDevice:withAssociatedApplicationIdentifiers:completion:]_block_invoke_2
+- ___115-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:canAddSecureElementPassWithConfiguration:completion:]_block_invoke.708
+- ___115-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:generateTransactionKeyWithParameters:withCompletion:]_block_invoke.854
+- ___115-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:validateAddBiometricPassPreconditionsWithCompletion:]_block_invoke.382
+- ___115-[NPKQuickPaymentSessionLocalAuthenticationCoordinator _handleLocalAuthenticationPolicyEvaluatedWithContext:error:]_block_invoke
+- ___116-[NPKApplicationStateListener _handleApplicationChangeNotificationWithWorkspaceApplicationProxies:newStateResolver:]_block_invoke
+- ___116-[NPKApplicationStateListener _handleApplicationChangeNotificationWithWorkspaceApplicationProxies:newStateResolver:]_block_invoke_2
+- ___116-[NPKPaymentProvisioningFlowController ensureMetadataForCredentials:requestContext:updateHandler:completionHandler:]_block_invoke
+- ___116-[NPKPaymentProvisioningFlowController ensureMetadataForCredentials:requestContext:updateHandler:completionHandler:]_block_invoke.87
+- ___116-[NPKRemoteInterfacePresenter presentTransitTopUpValueSelectionForPassWithUniqueIdentifier:balanceField:completion:]_block_invoke
+- ___117-[NPKPaymentWebServiceCompanionTargetDevice longTermPrivacyKeyForCredentialGroupIdentifier:reuseExisting:completion:]_block_invoke.867
+- ___117-[NPKPeerPaymentMessagesTransactionsManager _transactionsQueue_notifyStatusUpdateOfTransactionWithServiceIdentifier:]_block_invoke
+- ___118+[NPKPaymentProvisioningFlowController(FlowSelection) _addGroupedItemsToSections:fromModel:webService:paymentSection:]_block_invoke
+- ___118-[NPKExpressPassController _queue_expressPassForTransactionApplicationIdentifier:transactionApplicationKeyIdentifier:]_block_invoke
+- ___118-[NPKPaymentWebServiceCompanionTargetDevice cancelAutoTopUpForPassWithUniqueIdentifier:balanceIdentifiers:completion:]_block_invoke.967
+- ___119-[NPKPrecursorPassUpgradeRequestsManager _queue_notifyObserversDidChangeUpgradeRequestDescription:forPassWithUniqueID:]_block_invoke
+- ___119-[NPKQuickPaymentSessionLocalAuthenticationCoordinator beginLocalAuthenticationWithAccessControl:operation:completion:]_block_invoke
+- ___119-[NPKQuickPaymentSessionLocalAuthenticationCoordinator beginLocalAuthenticationWithAccessControl:operation:completion:]_block_invoke.64
+- ___119-[NPKQuickPaymentSessionLocalAuthenticationCoordinator beginLocalAuthenticationWithAccessControl:operation:completion:]_block_invoke.65
+- ___119-[NPKQuickPaymentSessionLocalAuthenticationCoordinator beginLocalAuthenticationWithAccessControl:operation:completion:]_block_invoke_2
+- ___119-[NPKQuickPaymentSessionLocalAuthenticationCoordinator beginLocalAuthenticationWithAccessControl:operation:completion:]_block_invoke_3
+- ___119-[NPKSubcredentialInvitationCoordinator fetchOrInitializeAccountAttestationAnonymizationSaltIfNecessaryWithCompletion:]_block_invoke.92
+- ___120-[NPKPaymentProvisioningFlowController(DigitalIssuance) paymentAuthorizationController:didAuthorizePurchase:completion:]_block_invoke
+- ___120-[NPKQuickPaymentSession contactlessInterfaceSessionDidFail:forPaymentApplications:paymentPass:valueAddedServicePasses:]_block_invoke
+- ___120-[NPKQuickPaymentSession contactlessInterfaceSessionDidFail:forPaymentApplications:paymentPass:valueAddedServicePasses:]_block_invoke.185
+- ___121-[NPKPaymentWebServiceCompanionTargetDevice carKeyRetryActivationCodeWithInvitationIdentifier:activationCode:completion:]_block_invoke.957
+- ___121-[NPKPaymentWebServiceCompanionTargetDevice carKeyUpdateTrackingAttestation:forCredential:encryptedContainer:completion:]_block_invoke.938
+- ___122-[NPKPaymentProvisioningFlowController(DigitalIssuance) _canMakeDigitalIssuancePaymentsForTransitProducts:withCompletion:]_block_invoke
+- ___122-[NPKPaymentProvisioningFlowController(DigitalIssuance) _canMakeDigitalIssuancePaymentsForTransitProducts:withCompletion:]_block_invoke_2
+- ___122-[NPKPaymentProvisioningFlowController(DigitalIssuance) _canMakeDigitalIssuancePaymentsForTransitProducts:withCompletion:]_block_invoke_3
+- ___122-[NPKPaymentWebServiceCompanionTargetDevice _trackOutstandingRequestWithMessageIdentifier:completionHandler:errorHandler:]_block_invoke.1035
+- ___123-[NPKQuickPaymentSession contactlessInterfaceSessionDidTimeout:forPaymentApplications:paymentPass:valueAddedServicePasses:]_block_invoke
+- ___123-[NPKQuickPaymentSession contactlessInterfaceSessionDidTimeout:forPaymentApplications:paymentPass:valueAddedServicePasses:]_block_invoke.181
+- ___123-[NPKQuickPaymentSession contactlessInterfaceSessionDidTimeout:forPaymentApplications:paymentPass:valueAddedServicePasses:]_block_invoke.182
+- ___125-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:provisioningDataIncludingDeviceMetadata:withCompletionHandler:]_block_invoke.414
+- ___125-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:provisioningDataIncludingDeviceMetadata:withCompletionHandler:]_block_invoke.416
+- ___125-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:provisioningDataIncludingDeviceMetadata:withCompletionHandler:]_block_invoke.417
+- ___126-[NPKPaymentWebServiceCompanionTargetDevice carKeySetEncryptedProductPlanIdentifierContainer:invitationIdentifier:completion:]_block_invoke.925
+- ___126-[NPKSubcredentialInvitationCoordinator _queue_fetchOrInitializeAccountAttestationAnonymizationSaltIfNecessaryWithCompletion:]_block_invoke.150
+- ___128-[NPKIDVRemoteDeviceSession provisionCredentialWithType:metadata:credentialIdentifier:attestations:supplementalData:completion:]_block_invoke.91
+- ___128-[NPKPaymentWebServiceCompanionTargetDevice carKeyRoutingInformationForInvitationWithIdentifier:transportIdentifier:completion:]_block_invoke.918
+- ___128-[NPKPaymentWebServiceCompanionTargetDevice checkFidoKeyPresenceForRelyingParty:relyingPartyAccountHash:fidoKeyHash:completion:]_block_invoke.841
+- ___134-[NPKQuickPaymentSession _sessionQueue_invokeAppropriateCallbackForActivationWithSuccess:invokeOnSuccess:contactlessValidity:forPass:]_block_invoke
+- ___134-[NPKQuickPaymentSession _sessionQueue_invokeAppropriateCallbackForActivationWithSuccess:invokeOnSuccess:contactlessValidity:forPass:]_block_invoke_2
+- ___135-[NPKNanoPassDaemonConnection insertBridgeBulletinWithTitle:message:actionURL:forPass:playSound:notificationIdentifier:expirationDate:]_block_invoke
+- ___136-[NPKPaymentWebServiceCompanionTargetDevice createFidoKeyForRelyingParty:relyingPartyAccountHash:challenge:externalizedAuth:completion:]_block_invoke.829
+- ___137-[NPKPaymentProvisioningFlowController(ReaderMode) contactlessCardIngester:didFailToIngestCardWithError:resetProvisioning:isRecoverable:]_block_invoke
+- ___137-[NPKPaymentWebServiceCompanionTargetDevice remotePassUpgradeWithRequest:pass:requireAuthorization:notifyUserOnPairedDevice:updateBlock:]_block_invoke.553
+- ___137-[NPKPaymentWebServiceCompanionTargetDevice requestPasscodeUpgradeForPasscodeUpgradeFlowController:withVisibleViewController:completion:]_block_invoke.696
+- ___137-[NPKPaymentWebServiceCompanionTargetDevice requestPasscodeUpgradeForPasscodeUpgradeFlowController:withVisibleViewController:completion:]_block_invoke_2.698
+- ___137-[NPKRemoteInterfacePresenter presentProvisioningContinuityInterfaceForPassWithUniqueIdentifier:continuityType:transferToken:completion:]_block_invoke
+- ___138-[NPKQuickPaymentSession _sessionQueue_updateContactlessSessionForPass:paymentApplications:vasPasses:sessionConfirmed:deferAuthorization:]_block_invoke
+- ___138-[NPKQuickPaymentSession _sessionQueue_updateContactlessSessionForPass:paymentApplications:vasPasses:sessionConfirmed:deferAuthorization:]_block_invoke.162
+- ___140-[NPKPassAssociatedInfoManager credentialIdentifier:paymentApplicationIdentifier:secureElementIdentifier:didUpdateRangingSuspensionReasons:]_block_invoke
+- ___140-[NPKPassAssociatedInfoManager credentialIdentifier:paymentApplicationIdentifier:secureElementIdentifier:didUpdateRangingSuspensionReasons:]_block_invoke_2
+- ___140-[NPKPassAssociatedInfoManager credentialIdentifier:paymentApplicationIdentifier:secureElementIdentifier:didUpdateRangingSuspensionReasons:]_block_invoke_3
+- ___140-[NPKPaymentWebServiceCompanionTargetDevice carKeyAcceptInvitationWithInvitationIdentifier:activationCode:analyticsUpdateConfig:completion:]_block_invoke.950
+- ___141-[NPKContactlessPaymentSessionManager paymentSession:didFailTransactionForPass:withValueAddedServiceTransactions:forValueAddedServicePasses:]_block_invoke
+- ___141-[NPKPaymentWebServiceCompanionTargetDevice carKeyGetProductPlanIdentifierRequestForInvitationWithIdentifier:transportIdentifier:completion:]_block_invoke.921
+- ___146-[NPKPaymentProvisioningFlowController(DigitalIssuance) _startDigitalIssuancePaymentWithAmount:requestContext:serviceProviderProduct:productItem:]_block_invoke
+- ___146-[NPKPaymentProvisioningFlowController(DigitalIssuance) _startDigitalIssuancePaymentWithAmount:requestContext:serviceProviderProduct:productItem:]_block_invoke_2
+- ___149-[NPKNanoPassDaemonConnection startSubcredentialProvisioningOnLocalDeviceMatchingInvitation:shouldFetchAnonymizationSaltFromRemoteDevice:completion:]_block_invoke
+- ___149-[NPKNanoPassDaemonConnection startSubcredentialProvisioningOnLocalDeviceMatchingInvitation:shouldFetchAnonymizationSaltFromRemoteDevice:completion:]_block_invoke.70
+- ___149-[NPKUserNotificationCenter _addNotificationWithNotificationIdentifier:title:body:categoryIdentifier:userInfo:wantsBadgedIcon:suppressed:completion:]_block_invoke
+- ___150-[NPKPaymentWebServiceCompanionTargetDevice _singleExpressTransitPassPaymentWebService:handlePotentialExpressPassConfiguration:withCompletionHandler:]_block_invoke.643
+- ___150-[NPKPaymentWebServiceCompanionTargetDevice _singleExpressTransitPassPaymentWebService:handlePotentialExpressPassConfiguration:withCompletionHandler:]_block_invoke.646
+- ___152-[NPKContactlessPaymentSessionManagerTransactionContext updateWithConcreteTransactions:ephemeralTransaction:updatedPassTransitItems:paymentApplication:]_block_invoke
+- ___152-[NPKContactlessPaymentSessionManagerTransactionContext updateWithConcreteTransactions:ephemeralTransaction:updatedPassTransitItems:paymentApplication:]_block_invoke.384
+- ___152-[NPKContactlessPaymentSessionManagerTransactionContext updateWithConcreteTransactions:ephemeralTransaction:updatedPassTransitItems:paymentApplication:]_block_invoke.402
+- ___152-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:presentStandaloneTransaction:forPassUniqueIdentifier:terminalReaderIdentifier:completion:]_block_invoke.759
+- ___152-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:presentStandaloneTransaction:forPassUniqueIdentifier:terminalReaderIdentifier:completion:]_block_invoke.761
+- ___152-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:presentStandaloneTransaction:forPassUniqueIdentifier:terminalReaderIdentifier:completion:]_block_invoke.762
+- ___152-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:presentStandaloneTransaction:forPassUniqueIdentifier:terminalReaderIdentifier:completion:]_block_invoke_2.763
+- ___154+[NPKPaymentProvisioningFlowController(FlowSelection) _flowPickerSectionsWithContext:provisioningController:readerModeSupported:digitalIssuanceSupported:]_block_invoke
+- ___154-[NPKCompanionAgentConnection provisionIdentityPassWithPassMetadata:targetDeviceIdentifier:credentialIdentifier:attestations:supplementalData:completion:]_block_invoke.189
+- ___156-[NPKContactlessPaymentSessionManager _handleValueAddedServiceTransactions:forValueAddedServicePasses:paymentTransaction:outUserInterventionRequiredPasses:]_block_invoke
+- ___157-[NPKPaymentWebServiceCompanionTargetDevice _multipleExpressTransitPassPaymentWebService:handlePotentialExpressPassConfiguration:pass:withCompletionHandler:]_block_invoke.641
+- ___170-[NPKPaymentWebServiceCompanionTargetDevice signWithFidoKeyForRelyingParty:relyingPartyAccountHash:fidoKeyHash:challenge:publicKeyIdentifier:externalizedAuth:completion:]_block_invoke.844
+- ___218-[NPKRemoteInterfacePresenter presentInAppPaymentInterfaceWithPaymentRequest:awaitingRemoteNetworkPaymentRequest:forHostApplicationName:hostBundleIdentifier:hostProcessIdentifier:hostIdentifier:orientation:completion:]_block_invoke
+- ___24-[NPKSecureElement init]_block_invoke
+- ___28-[NPKGizmoDatabase database]_block_invoke.273
+- ___31-[NPKPassesManager _loadPasses]_block_invoke
+- ___31-[NPKPassesManager _loadPasses]_block_invoke_2
+- ___31-[NPKPassesManager _loadPasses]_block_invoke_3
+- ___33-[NPKExpressPassController reset]_block_invoke
+- ___33-[NPKQuickPaymentSession dealloc]_block_invoke
+- ___34+[NPKSecureElement _initVariables]_block_invoke
+- ___34+[NPKSecureElement sharedInstance]_block_invoke
+- ___34-[NPKFakePaymentSession vasPasses]_block_invoke
+- ___34-[NPKPassesManager unarchivePass:]_block_invoke
+- ___34-[NPKSecureElement _fetchNFCState]_block_invoke
+- ___35-[NPKRemoteInterfacePresenter init]_block_invoke
+- ___35-[NPKRemoteInterfacePresenter init]_block_invoke.85
+- ___35-[NPKRemoteInterfacePresenter init]_block_invoke.86
+- ___35-[NPKSharedWebServiceProvider init]_block_invoke.72
+- ___35-[NPKSharedWebServiceProvider init]_block_invoke.73
+- ___35-[NPKSharedWebServiceProvider init]_block_invoke.74
+- ___36+[NPKSecureElement isInFailForward:]_block_invoke
+- ___36-[NPKFakePaymentSession currentPass]_block_invoke
+- ___36-[NPKPassesManager initWithOptions:]_block_invoke
+- ___36-[NPKPassesManager initWithOptions:]_block_invoke.62
+- ___36-[NPKPassesManager initWithOptions:]_block_invoke_2
+- ___36-[NPKPassesManager passForUniqueID:]_block_invoke
+- ___37-[NPKQuickPaymentSession setInField:]_block_invoke
+- ___38-[NPKApplicationStateListener prewarm]_block_invoke
+- ___38-[NPKButtonListener setButtonHandler:]_block_invoke
+- ___38-[NPKFakePaymentSession inServiceMode]_block_invoke
+- ___38-[NPKFakePaymentSession setVasPasses:]_block_invoke
+- ___38-[NPKPassAssociatedInfoManager passes]_block_invoke
+- ___38-[NPKPassAssociatedInfoManager passes]_block_invoke_2
+- ___39-[NPKFakePaymentSession initWithQueue:]_block_invoke
+- ___39-[NPKFakePaymentSession initWithQueue:]_block_invoke_2
+- ___39-[NPKFakePaymentSession initWithQueue:]_block_invoke_3
+- ___39-[NPKFakePaymentSession initWithQueue:]_block_invoke_4
+- ___39-[NPKFakePaymentSession initWithQueue:]_block_invoke_5
+- ___39-[NPKFakePaymentSession setCredential:]_block_invoke
+- ___39-[NPKFakePaymentSession setCredential:]_block_invoke_2
+- ___39-[NPKQuickPaymentSession setVasPasses:]_block_invoke
+- ___39-[NPKSecureElement isInRestrictedMode:]_block_invoke
+- ___39-[NPKTransientAssertion initWithQueue:]_block_invoke
+- ___39-[NPKTransientAssertion initWithQueue:]_block_invoke.120
+- ___40-[NPKApplicationStateListener appState:]_block_invoke
+- ___40-[NPKFakePaymentSession setCurrentPass:]_block_invoke
+- ___40-[NPKFakePaymentSession setCurrentPass:]_block_invoke_2
+- ___40-[NPKPassAssociatedInfoManager addPass:]_block_invoke
+- ___40-[NPKPassesManager _didFinishLoadPasses]_block_invoke
+- ___40-[NPKPassesManager _updateCurrentPasses]_block_invoke
+- ___40-[NPKPassesManager _updateCurrentPasses]_block_invoke_2
+- ___40-[NPKPassesManager _updateCurrentPasses]_block_invoke_3
+- ___40-[NPKPassesManager _updateCurrentPasses]_block_invoke_4
+- ___40-[NPKQuickPaymentSession setCredential:]_block_invoke
+- ___40-[NPKQuickPaymentSession setCredential:]_block_invoke.128
+- ___41-[NPKDoubleClickClientSuppressor dealloc]_block_invoke
+- ___41-[NPKGizmoDatabase savePass:isLocalPass:]_block_invoke.465
+- ___41-[NPKQuickPaymentSession setCurrentPass:]_block_invoke
+- ___41-[NPKQuickPaymentSession setCurrentPass:]_block_invoke.122
+- ___41-[NPKQuickPaymentSession setCurrentPass:]_block_invoke.125
+- ___41-[NPKQuickPaymentSession setCurrentPass:]_block_invoke_2
+- ___42-[NPKBarcodePaymentSession submitPinCode:]_block_invoke
+- ___42-[NPKBarcodePaymentSession submitPinCode:]_block_invoke.58
+- ___42-[NPKBarcodePaymentSession submitPinCode:]_block_invoke_2
+- ___42-[NPKBarcodePaymentSession submitPinCode:]_block_invoke_2.59
+- ___42-[NPKFakePaymentSession setInServiceMode:]_block_invoke
+- ___42-[NPKFakePaymentSession setInServiceMode:]_block_invoke_2
+- ___42-[NPKPassAssociatedInfoManager setPasses:]_block_invoke
+- ___42-[NPKPassAssociatedInfoManager setPasses:]_block_invoke.69
+- ___42-[NPKPassAssociatedInfoManager setPasses:]_block_invoke_2
+- ___42-[NPKPassAssociatedInfoManager setPasses:]_block_invoke_3
+- ___42-[NPKQuickPaymentSession _handleFieldExit]_block_invoke
+- ___42-[NPKQuickPaymentSession _handleFieldExit]_block_invoke.216
+- ___42-[NPKSecureElement hardwareStateDidChange]_block_invoke
+- ___43+[NPKUserNotificationCenter sharedInstance]_block_invoke
+- ___43-[NPKContactlessPaymentSessionManager init]_block_invoke
+- ___43-[NPKContactlessPaymentSessionManager init]_block_invoke_2
+- ___43-[NPKExpressPassesManager passForUniqueID:]_block_invoke
+- ___43-[NPKMockPeerPaymentAccountManager account]_block_invoke
+- ___43-[NPKQuickPaymentSession _handleFieldEntry]_block_invoke
+- ___43-[NPKQuickPaymentSession _handleFieldEntry]_block_invoke.212
+- ___43-[NPKQuickPaymentSession setInServiceMode:]_block_invoke
+- ___43-[NPKQuickPaymentSession setInServiceMode:]_block_invoke_2
+- ___43-[NPKQuickPaymentSession setInServiceMode:]_block_invoke_3
+- ___44-[NPKFakePaymentSession _handleTimeoutTimer]_block_invoke
+- ___44-[NPKPassesManager movePassAtIndex:toIndex:]_block_invoke
+- ___45-[NPKApplicationStateListener cachedAppState]_block_invoke
+- ___45-[NPKApplicationStateListener cachedAppState]_block_invoke.69
+- ___45-[NPKAuthIntentListener _initializeHIDClient]_block_invoke
+- ___45-[NPKQuickPaymentSessionSource setVasPasses:]_block_invoke
+- ___45-[NPKSecureElement applicationIsAtForeground]_block_invoke
+- ___46+[NPKGreenTeaDataUsageResolver sharedInstance]_block_invoke
+- ___46+[NPKPeerPaymentAccountManager sharedInstance]_block_invoke
+- ___46-[NPKGizmoDatabase rebuildDatabaseWithPasses:]_block_invoke.467
+- ___46-[NPKPassAssociatedInfoModel updateItemFields]_block_invoke
+- ___46-[NPKPeerPaymentAccountManager _updateAccount]_block_invoke
+- ___47-[NPKExpressPassController updateExpressPasses]_block_invoke
+- ___47-[NPKPassesManager reloadPassesWithCompletion:]_block_invoke
+- ___47-[NPKQuickPaymentSessionSource setInitialPass:]_block_invoke
+- ___48+[NPKDoubleClickClientSuppressor sharedInstance]_block_invoke
+- ___48-[NPKDoublePressSuppressionAssertion invalidate]_block_invoke
+- ___48-[NPKPassAssociatedInfoManager refreshAllPasses]_block_invoke
+- ___48-[NPKPassAssociatedInfoManager refreshAllPasses]_block_invoke_2
+- ___48-[NPKPassesManager _reloadPassesWithCompletion:]_block_invoke
+- ___48-[NPKPassesManager group:didRemovePass:atIndex:]_block_invoke
+- ___48-[NPKQuickPaymentSession setDeferAuthorization:]_block_invoke
+- ___48-[NPKTransitAppletHistoryFetcher setAIDToFetch:]_block_invoke
+- ___49-[NPKPassAssociatedInfoManager _notifyObservers:]_block_invoke
+- ___49-[NPKPassAssociatedInfoManager registerObserver:]_block_invoke
+- ___49-[NPKPassesManager _handleObjectSettingsChanged:]_block_invoke
+- ___49-[NPKPassesManager _handleObjectSettingsChanged:]_block_invoke.89
+- ___50+[NPKMockPeerPaymentAccountManager sharedInstance]_block_invoke
+- ___50-[NPKPaymentPreflighter _setAuthRandomIfNecessary]_block_invoke.90
+- ___51+[NPKLowPowerModeLocalDeviceMonitor sharedInstance]_block_invoke
+- ___51-[NPKFakePaymentSession fieldDetectorDidExitField:]_block_invoke
+- ___51-[NPKGizmoDatabase restoreBlockForVolatilePassData]_block_invoke.472
+- ___51-[NPKGizmoDatabase restoreBlockForVolatilePassData]_block_invoke_2.473
+- ___51-[NPKPassAssociatedInfoManager refreshInfoForPass:]_block_invoke
+- ___51-[NPKPassAssociatedInfoManager unregisterObserver:]_block_invoke
+- ___53-[NPKAddPaymentPassController dismissWithCompletion:]_block_invoke
+- ___53-[NPKAddPaymentPassController dismissWithCompletion:]_block_invoke.60
+- ___53-[NPKAddPaymentPassController presentWithCompletion:]_block_invoke
+- ___53-[NPKAddPaymentPassController presentWithCompletion:]_block_invoke.56
+- ___53-[NPKAddPaymentPassController presentWithCompletion:]_block_invoke.57
+- ___53-[NPKAddPaymentPassController presentWithCompletion:]_block_invoke_2
+- ___53-[NPKBarcodePaymentSession _startSessionTimeoutTimer]_block_invoke
+- ___53-[NPKBarcodePaymentSession _startSessionTimeoutTimer]_block_invoke_2
+- ___53-[NPKPassSyncService passSyncEngine:sendStateChange:]_block_invoke.162
+- ___53-[NPKQuickPaymentSession startSessionWithCompletion:]_block_invoke
+- ___53-[NPKQuickPaymentSession startSessionWithCompletion:]_block_invoke_2
+- ___53-[NPKQuickPaymentSession startSessionWithCompletion:]_block_invoke_3
+- ___53-[NPKQuickPaymentSessionSource setPreconditionState:]_block_invoke
+- ___54+[NPKProtoStandaloneHelper toNPKProtoStandaloneError:]_block_invoke
+- ___54+[NPKQuickPaymentSession _outstandingSessionHashTable]_block_invoke
+- ___54-[NPKApplicationStateListener applicationsDidInstall:]_block_invoke
+- ___54-[NPKLowPowerModeLocalDeviceMonitor registerObserver:]_block_invoke
+- ___54-[NPKPrecursorPassUpgradeRequestsManager addObserver:]_block_invoke
+- ___54-[NPKQuickPaymentSession _updateAuthorizationValidity]_block_invoke
+- ___54-[NPKQuickPaymentSessionSource setDeferAuthorization:]_block_invoke
+- ___55-[NPKPassAssociatedInfoManager removePassWithUniqueID:]_block_invoke
+- ___55-[NPKPassAssociatedInfoModel _balanceByIDWithBalances:]_block_invoke
+- ___55-[NPKPassesManager group:didMovePassFromIndex:toIndex:]_block_invoke
+- ___55-[NPKQuickPaymentSessionSource setRequireFirstInQueue:]_block_invoke
+- ___56-[NPKApplicationStateListener applicationsDidUninstall:]_block_invoke
+- ___56-[NPKQuickPaymentSession _internalQueue_setCurrentPass:]_block_invoke
+- ___57-[NPKApplicationStateListener applicationStateDidChange:]_block_invoke
+- ___57-[NPKDoublePressSuppressionAssertion _handleInvalidation]_block_invoke
+- ___57-[NPKExpressModeSettingsCoordinator expressStateForPass:]_block_invoke
+- ___57-[NPKFakePaymentSession deactivateSessionWithCompletion:]_block_invoke
+- ___57-[NPKFakePaymentSession deactivateSessionWithCompletion:]_block_invoke_2
+- ___57-[NPKIDVRemoteDeviceSession deleteCredential:completion:]_block_invoke.86
+- ___57-[NPKOneShotLocationFetcher fetchLocationWithCompletion:]_block_invoke.74
+- ___57-[NPKOneShotLocationFetcher fetchLocationWithCompletion:]_block_invoke.79
+- ___57-[NPKPassAssociatedInfoManager _loadPassContentIfNeeded:]_block_invoke
+- ___57-[NPKPassAssociatedInfoManager _loadPassContentIfNeeded:]_block_invoke_2
+- ___57-[NPKPassAssociatedInfoManager markPerishableDataAsStale]_block_invoke
+- ___57-[NPKPassAssociatedInfoManager markPerishableDataAsStale]_block_invoke_2
+- ___57-[NPKPrecursorPassUpgradeRequestsManager removeObserver:]_block_invoke
+- ___58-[NPKAssertionController releaseAssertionFromOwnerObject:]_block_invoke
+- ___58-[NPKExpressPassController updateExpressPassesSynchronous]_block_invoke
+- ___58-[NPKFakePaymentSession _scheduleDidActivateEventForPass:]_block_invoke
+- ___58-[NPKFakePaymentSession _scheduleDidActivateEventForPass:]_block_invoke_2
+- ___58-[NPKOpenURLRouter _processSavingsHostWithPathComponents:]_block_invoke
+- ___58-[NPKOpenURLRouter _processTransactionHostWithQueryItems:]_block_invoke
+- ___58-[NPKOpenURLRouter _processTransactionHostWithQueryItems:]_block_invoke_2
+- ___58-[NPKOpenURLRouter _processTransactionHostWithQueryItems:]_block_invoke_3
+- ___58-[NPKPassesManager group:didInsertPass:withState:atIndex:]_block_invoke
+- ___58-[NPKPassesManager group:didInsertPass:withState:atIndex:]_block_invoke_2
+- ___58-[NPKPassesManager group:didUpdatePass:withState:atIndex:]_block_invoke
+- ___58-[NPKPassesManager group:didUpdatePass:withState:atIndex:]_block_invoke_2
+- ___58-[NPKPaymentProvisioningFlowController _performProvision:]_block_invoke
+- ___58-[NPKPaymentProvisioningFlowController _performProvision:]_block_invoke_2
+- ___58-[NPKQuickPaymentSession deactivateSessionWithCompletion:]_block_invoke
+- ___58-[NPKQuickPaymentSession deactivateSessionWithCompletion:]_block_invoke_2
+- ___59+[NPKPeerPaymentMessagesTransactionsManager sharedInstance]_block_invoke
+- ___59-[NPKFakePaymentSession _sendTransactionCompleteToDelegate]_block_invoke
+- ___59-[NPKFakePaymentSession confirmSessionExpectingCredential:]_block_invoke
+- ___59-[NPKGizmoDatabase _savePassLocked:locallyAdded:wasUpdate:]_block_invoke.477
+- ___59-[NPKIDVRemoteDeviceSession pairedWatchSEIDWithCompletion:]_block_invoke.73
+- ___59-[NPKNanoPassDaemonConnection _errorHandlerWithCompletion:]_block_invoke
+- ___59-[NPKPaymentProvisioningFlowController acknowledgeWelcome:]_block_invoke
+- ___59-[NPKPaymentProvisioningFlowController acknowledgeWelcome:]_block_invoke_2
+- ___59-[NPKPaymentProvisioningFlowController acknowledgeWelcome:]_block_invoke_3
+- ___60-[NPKAddPaymentPassController _sendDidFinishWithPass:error:]_block_invoke
+- ___60-[NPKBarcodePaymentSession submitUserIntentionConfirmation:]_block_invoke
+- ___60-[NPKBarcodePaymentSession submitUserIntentionConfirmation:]_block_invoke_2
+- ___60-[NPKCompanionAgentConnection currentSecureElementSnapshot:]_block_invoke.226
+- ___60-[NPKCompanionAgentConnection passesSynchronous:completion:]_block_invoke.162
+- ___60-[NPKPassAssociatedInfoManager passInfoForPassWithUniqueID:]_block_invoke
+- ___60-[NPKPassesManager groupsController:didInsertGroup:atIndex:]_block_invoke
+- ___60-[NPKPassesManager groupsController:didInsertGroup:atIndex:]_block_invoke_2
+- ___60-[NPKPassesManager groupsController:didRemoveGroup:atIndex:]_block_invoke
+- ___60-[NPKPaymentProvisioningFlowController _performEligibility:]_block_invoke
+- ___60-[NPKPaymentProvisioningFlowController _performEligibility:]_block_invoke_2
+- ___60-[NPKQuickPaymentSession confirmSessionExpectingCredential:]_block_invoke
+- ___60-[NPKTransientAssertion _remoteObjectProxyWithErrorHandler:]_block_invoke
+- ___60-[NPKTransitAppletHistoryFetcher requestTransitHistoryFetch]_block_invoke
+- ___60-[NPKTransitAppletHistoryFetcher requestTransitHistoryFetch]_block_invoke_2
+- ___60-[NPKTransitAppletHistoryFetcher requestTransitHistoryFetch]_block_invoke_3
+- ___61-[NPKExpressPassController _handleExitNearFieldNotification:]_block_invoke
+- ___61-[NPKFidoAuthCoordinator requestAuthorizationWithCompletion:]_block_invoke
+- ___61-[NPKFidoAuthCoordinator requestAuthorizationWithCompletion:]_block_invoke_2
+- ___61-[NPKGizmoDatabase _libraryHashLockedForWatchOSMajorVersion:]_block_invoke.587
+- ___61-[NPKPassAssociatedInfoManager _fetchMostRecentTilesForPass:]_block_invoke
+- ___61-[NPKPassAssociatedInfoManager _fetchMostRecentTilesForPass:]_block_invoke.107
+- ___61-[NPKPassesManager group:didUpdatePassState:forPass:atIndex:]_block_invoke
+- ___61-[NPKPassesManager group:didUpdatePassState:forPass:atIndex:]_block_invoke_2
+- ___61-[NPKPaymentProvisioningFlowController _requestRequirements:]_block_invoke
+- ___61-[NPKQuickPaymentSession _loyaltyEngineConfigurationChanged:]_block_invoke
+- ___62+[NPKOpenURLRouter openDeepLinkForURL:isSensitive:completion:]_block_invoke
+- ___62-[NPKExpressModeSettingsCoordinator _handleExpressStateChange]_block_invoke
+- ___62-[NPKExpressModeSettingsCoordinator _handleExpressStateChange]_block_invoke_2
+- ___62-[NPKExpressPassController _expressPassesInformationWithTCIs:]_block_invoke
+- ___62-[NPKExpressPassController _expressPassesInformationWithTCIs:]_block_invoke_2
+- ___62-[NPKExpressPassController _handleEnterNearFieldNotification:]_block_invoke
+- ___62-[NPKExpressPassController _internalQueue_updateExpressPasses]_block_invoke
+- ___62-[NPKIDVRemoteDeviceSession getCASDCertificateWithCompletion:]_block_invoke.99
+- ___62-[NPKPassAssociatedInfoManager _fetchHomeAccessStatusForPass:]_block_invoke
+- ___62-[NPKPassAssociatedInfoManager _fetchHomeAccessStatusForPass:]_block_invoke_2
+- ___62-[NPKPassAssociatedInfoManager _fetchHomeAccessStatusForPass:]_block_invoke_3
+- ___62-[NPKPassAssociatedInfoManager isHomeAccessRestrictedForPass:]_block_invoke
+- ___63-[NPKCompanionAgentConnection bridgedClientInfoWithCompletion:]_block_invoke.177
+- ___63-[NPKIDVRemoteDeviceSession configureWithPartition:ackHandler:]_block_invoke.80
+- ___63-[NPKIDVRemoteDeviceSession deleteGlobalAuthACLWithCompletion:]_block_invoke.98
+- ___63-[NPKIDVRemoteDeviceSession establishPrearmTrustV2:completion:]_block_invoke.96
+- ___63-[NPKIDVRemoteDeviceSession propertiesOfCredential:completion:]_block_invoke.87
+- ___63-[NPKLowPowerModeLocalDeviceMonitor _lowPowerModeStateChanged:]_block_invoke
+- ___63-[NPKPassesManager _loadContentAndImageSetsForPass:completion:]_block_invoke
+- ___63-[NPKPassesManager _loadContentAndImageSetsForPass:completion:]_block_invoke.87
+- ___63-[NPKPassesManager _loadContentAndImageSetsForPass:completion:]_block_invoke.88
+- ___63-[NPKPassesManager _loadContentAndImageSetsForPass:completion:]_block_invoke_2
+- ___63-[NPKSecureElement _secureElementDidUpdateRestrictedModeState:]_block_invoke
+- ___64-[NPKCompanionAgentConnection reclaimUnusedSecureElementMemory:]_block_invoke.228
+- ___64-[NPKPassAssociatedInfoManager _fetchMostRecentBalancesForPass:]_block_invoke
+- ___64-[NPKPassAssociatedInfoManager _fetchMostRecentBalancesForPass:]_block_invoke.93
+- ___64-[NPKPaymentProvisioningFlowController _performPasscodeUpgrade:]_block_invoke
+- ___64-[NPKPaymentProvisioningFlowController _performPasscodeUpgrade:]_block_invoke_2
+- ___64-[NPKPaymentProvisioningFlowPickerSection isAppleBalanceSection]_block_invoke
+- ___64-[NPKPaymentProvisioningFlowPickerSection isAppleBalanceSection]_block_invoke_2
+- ___64-[NPKQuickPaymentSession _checkContactlessValidity:performWork:]_block_invoke
+- ___64-[NPKQuickPaymentSession _handleTransactionCompleteWithContext:]_block_invoke
+- ___64-[NPKQuickPaymentSessionSource setDelegateHandlingButtonEvents:]_block_invoke
+- ___64-[NPKUserNotificationCenter requestAuthorizationWithCompletion:]_block_invoke
+- ___65-[NPKBarcodePaymentSession _fetchDecryptedBarcodeWithCredential:]_block_invoke
+- ___65-[NPKBarcodePaymentSession _fetchDecryptedBarcodeWithCredential:]_block_invoke_2
+- ___65-[NPKDoubleClickClientSuppressor isSuppressingDoubleClickClients]_block_invoke
+- ___65-[NPKDoublePressSuppressionAssertion _resyncStateWithCompletion:]_block_invoke
+- ___65-[NPKDoublePressSuppressionAssertion _resyncStateWithCompletion:]_block_invoke.186
+- ___65-[NPKExpressPassController _stopListeningForExpressNotifications]_block_invoke
+- ___65-[NPKPeerPaymentQuickTypeParser parsePayload:payloadID:maxCount:]_block_invoke
+- ___65-[NPKQuickPaymentSession _updateSessionWithCredentialAndActivate]_block_invoke
+- ___65-[NPKQuickPaymentSession _updateSessionWithCredentialAndActivate]_block_invoke.143
+- ___65-[NPKQuickPaymentSession _updateSessionWithCredentialAndActivate]_block_invoke.146
+- ___65-[NPKQuickPaymentSession _updateSessionWithCredentialAndActivate]_block_invoke_2
+- ___65-[NPKQuickPaymentSession _updateSessionWithCredentialAndActivate]_block_invoke_3
+- ___65-[NPKQuickPaymentSessionSource _handleAuthIntentEventFromSource:]_block_invoke
+- ___65-[NPKQuickPaymentSessionSource _handleAuthIntentEventFromSource:]_block_invoke.88
+- ___65-[NPKQuickPaymentSessionSource _handleAuthIntentEventFromSource:]_block_invoke.89
+- ___65-[NPKQuickPaymentSessionSource _handleAuthIntentEventFromSource:]_block_invoke.90
+- ___65-[NPKQuickPaymentSessionSource _handleAuthIntentEventFromSource:]_block_invoke.91
+- ___65-[NPKQuickPaymentSessionSource _handleAuthIntentEventFromSource:]_block_invoke.93
+- ___65-[NPKQuickPaymentSessionSource _handleAuthIntentEventFromSource:]_block_invoke.94
+- ___66-[NPKExpressPassController _startListeningForExpressNotifications]_block_invoke
+- ___66-[NPKGizmoDatabase setPreferredPaymentApplication:forPaymentPass:]_block_invoke.583
+- ___66-[NPKGizmoDatabase setPreferredPaymentApplication:forPaymentPass:]_block_invoke.584
+- ___66-[NPKQuickPaymentSession contactlessInterfaceSessionDidTerminate:]_block_invoke
+- ___66-[NPKQuickPaymentSessionSource setLocalAuthenticationCoordinator:]_block_invoke
+- ___66-[NPKUserNotificationCenter initWithNotificationBundleIdentifier:]_block_invoke
+- ___67+[NPKProtoStandaloneHelper toNPKProtoStandalonePass:thumbnailSize:]_block_invoke
+- ___67-[NPKApplicationStateListener _updateStateWithNewState:completion:]_block_invoke
+- ___67-[NPKApplicationStateListener _updateStateWithNewState:completion:]_block_invoke_2
+- ___67-[NPKAssertionController createAssertionForOwnerObject:withReason:]_block_invoke
+- ___67-[NPKBarcodePaymentSession _completedAuthenticationForTransaction:]_block_invoke
+- ___67-[NPKCompanionAgentConnection countOfPassesSynchronous:completion:]_block_invoke.160
+- ___67-[NPKExpressPassController _handleCarKeyVehicleLockedNotification:]_block_invoke
+- ___67-[NPKFakePaymentSession fieldDetectorDidEnterField:withProperties:]_block_invoke
+- ___67-[NPKFakePaymentSession fieldDetectorDidEnterField:withProperties:]_block_invoke_2
+- ___67-[NPKGreenTeaDataUsageResolver resolveGreenTeaDataUsageIfNecessary]_block_invoke
+- ___67-[NPKGreenTeaDataUsageResolver resolveGreenTeaDataUsageIfNecessary]_block_invoke.6
+- ___67-[NPKGreenTeaDataUsageResolver resolveGreenTeaDataUsageIfNecessary]_block_invoke_2
+- ___67-[NPKIDVRemoteDeviceSession _confirmRemoteDeviceID:withCompletion:]_block_invoke.69
+- ___67-[NPKNanoPassDaemonConnection addRemoteDevicePendingProvisionings:]_block_invoke
+- ___67-[NPKOpenURLRouter _processShareableCredentialsHostWithQueryItems:]_block_invoke
+- ___67-[NPKOpenURLRouter _processShareableCredentialsHostWithQueryItems:]_block_invoke_2
+- ___67-[NPKPassAssociatedInfoModel _commutePlanWithFelicaPassProperties:]_block_invoke
+- ___67-[NPKPassAssociatedInfoModel _commutePlanWithFelicaPassProperties:]_block_invoke.112
+- ___68+[NPKProtoStandaloneHelper toNPKProtoStandalonePaymentSetupProduct:]_block_invoke
+- ___68+[NPKProtoStandaloneHelper toNPKProtoStandalonePaymentSetupProduct:]_block_invoke_2
+- ___68+[NPKProtoStandaloneHelper toNPKProtoStandalonePaymentSetupProduct:]_block_invoke_3
+- ___68+[NPKProtoStandaloneHelper toNPKProtoStandalonePaymentSetupProduct:]_block_invoke_4
+- ___68+[NPKProtoStandaloneHelper toNPKProtoStandalonePaymentSetupProduct:]_block_invoke_5
+- ___68-[NPKBarcodePaymentSession _acquireNotificationSuppressionAssertion]_block_invoke
+- ___68-[NPKBarcodePaymentSession _acquireNotificationSuppressionAssertion]_block_invoke.109
+- ___68-[NPKBarcodePaymentSession _acquireNotificationSuppressionAssertion]_block_invoke_2
+- ___68-[NPKCompanionAgentConnection savePaymentPass:forDevice:completion:]_block_invoke.151
+- ___68-[NPKCompanionAgentConnection savePaymentPass:forDevice:completion:]_block_invoke.153
+- ___68-[NPKContactlessPaymentSessionManager _sendSessionStateToObservers:]_block_invoke
+- ___68-[NPKExpressModeSettingsCoordinator inSessionExpressEnabledForPass:]_block_invoke
+- ___68-[NPKIDVRemoteDeviceSession updateProofingConfiguration:completion:]_block_invoke.103
+- ___68-[NPKPassAssociatedInfoManager _fetchMostRecentCommutePlansForPass:]_block_invoke
+- ___68-[NPKPassAssociatedInfoManager _fetchMostRecentCommutePlansForPass:]_block_invoke.95
+- ___68-[NPKPassesManager groupsController:didMoveGroup:fromIndex:toIndex:]_block_invoke
+- ___68-[NPKPaymentPreflighter transferToCompanionPreflightWithCompletion:]_block_invoke.63
+- ___68-[NPKPeerPaymentMessagesTransactionsManager peerPaymentPassUniqueID]_block_invoke
+- ___68-[NPKQuickPaymentSession _handleConventionalTransactionWithContext:]_block_invoke
+- ___68-[NPKQuickPaymentSession _handleConventionalTransactionWithContext:]_block_invoke_2
+- ___68-[NPKUserNotificationCenter fetchAuthorizationStatusWithCompletion:]_block_invoke
+- ___69-[NPKExpressPassController _handleCarKeyVehicleUnlockedNotification:]_block_invoke
+- ___69-[NPKExpressPassController _handleExpressTransactionEndNotification:]_block_invoke
+- ___69-[NPKGizmoDatabase _setLastAddValueAmountLocked:forPassWithUniqueID:]_block_invoke.481
+- ___69-[NPKGizmoDatabase _setTransitAppletStateLocked:forPassWithUniqueID:]_block_invoke.480
+- ___69-[NPKPaymentProvisioningFlowController(ReaderMode) _startReadingCard]_block_invoke
+- ___69-[NPKPaymentProvisioningFlowController(ReaderMode) _startReadingCard]_block_invoke_2
+- ___69-[NPKPaymentWebServiceCompanionTargetDevice handleCredentialsChange:]_block_invoke.754
+- ___70-[NPKExpressModeSettingsCoordinator _expressStateForPassWithUniqueID:]_block_invoke
+- ___70-[NPKExpressPassController _expressPassInformationWithTechnologyType:]_block_invoke
+- ___70-[NPKExpressPassController _expressPassInformationWithTechnologyType:]_block_invoke_2
+- ___70-[NPKExpressPassController fieldDetectorDidEnterField:withProperties:]_block_invoke
+- ___70-[NPKExpressPassController fieldDetectorDidEnterField:withProperties:]_block_invoke.126
+- ___70-[NPKGizmoDatabase _setPendingAddValueDateLocked:forPassWithUniqueID:]_block_invoke.482
+- ___70-[NPKIDVRemoteDeviceSession nonceForAuthorizationTokenWithCompletion:]_block_invoke.93
+- ___70-[NPKOpenURLRouter _processShareHostWithPathComponents:urlComponents:]_block_invoke
+- ___70-[NPKPassAssociatedInfoManager _fetchMostRecentAccountBalanceForPass:]_block_invoke
+- ___70-[NPKPassAssociatedInfoManager _fetchMostRecentAccountBalanceForPass:]_block_invoke_2
+- ___70-[NPKPassAssociatedInfoManager readerIdentifierForAccessory:withPass:]_block_invoke
+- ___70-[NPKQuickPaymentSession contactlessInterfaceSessionDidSelectPayment:]_block_invoke
+- ___71+[NPKProtoStandaloneHelper _convertChooseFlowStepContext:protoContext:]_block_invoke
+- ___71-[NPKBarcodePaymentSession _acquireExpressTransactionSuppressAssertion]_block_invoke
+- ___71-[NPKBarcodePaymentSession _acquireExpressTransactionSuppressAssertion]_block_invoke.111
+- ___71-[NPKBarcodePaymentSession _acquireExpressTransactionSuppressAssertion]_block_invoke_2
+- ___71-[NPKBarcodePaymentSession _invokeExtensionToCollectPaymentInformation]_block_invoke
+- ___71-[NPKBarcodePaymentSession _invokeExtensionToCollectPaymentInformation]_block_invoke.70
+- ___71-[NPKBarcodePaymentSession _invokeExtensionToCollectPaymentInformation]_block_invoke.71
+- ___71-[NPKBarcodePaymentSession _invokeExtensionToCollectPaymentInformation]_block_invoke.76
+- ___71-[NPKBarcodePaymentSession _invokeExtensionToCollectPaymentInformation]_block_invoke.81
+- ___71-[NPKBarcodePaymentSession _invokeExtensionToCollectPaymentInformation]_block_invoke.89
+- ___71-[NPKBarcodePaymentSession _invokeExtensionToCollectPaymentInformation]_block_invoke.94
+- ___71-[NPKBarcodePaymentSession _invokeExtensionToCollectPaymentInformation]_block_invoke.97
+- ___71-[NPKBarcodePaymentSession _invokeExtensionToCollectPaymentInformation]_block_invoke_2
+- ___71-[NPKBarcodePaymentSession _invokeExtensionToCollectPaymentInformation]_block_invoke_2.83
+- ___71-[NPKBarcodePaymentSession _invokeExtensionToCollectPaymentInformation]_block_invoke_2.90
+- ___71-[NPKBarcodePaymentSession _invokeExtensionToCollectPaymentInformation]_block_invoke_2.95
+- ___71-[NPKBarcodePaymentSession _invokeExtensionToCollectPaymentInformation]_block_invoke_3
+- ___71-[NPKExpressPassController _handleExpressTransactionStartNotification:]_block_invoke
+- ___71-[NPKNanoPassDaemonConnection canNotifyAboutExpressModeWithCompletion:]_block_invoke
+- ___71-[NPKNanoPassDaemonConnection canNotifyAboutExpressModeWithCompletion:]_block_invoke.79
+- ___71-[NPKOpenURLRouter _processDailyCashHostWithPathComponents:queryItems:]_block_invoke
+- ___71-[NPKPassAssociatedInfoManager _internalQueue_removePassWithUniqueIDs:]_block_invoke
+- ___71-[NPKPassAssociatedInfoManager _internalQueue_removePassWithUniqueIDs:]_block_invoke.73
+- ___71-[NPKPaymentProvisioningFlowController _handleProvisioningFlowStarted:]_block_invoke
+- ___71-[NPKPaymentProvisioningFlowController _handleProvisioningFlowStarted:]_block_invoke_2
+- ___71-[NPKPaymentProvisioningFlowController _handleProvisioningFlowStarted:]_block_invoke_3
+- ___71-[NPKPaymentProvisioningFlowController _handleProvisioningFlowStarted:]_block_invoke_4
+- ___71-[NPKPaymentProvisioningFlowController _handleProvisioningFlowStarted:]_block_invoke_5
+- ___71-[NPKPrecursorPassUpgradeRequestsManager loadUpgradeControllerForPass:]_block_invoke
+- ___71-[NPKPrecursorPassUpgradeRequestsManager loadUpgradeControllerForPass:]_block_invoke.58
+- ___71-[NPKPrecursorPassUpgradeRequestsManager loadUpgradeControllerForPass:]_block_invoke.62
+- ___71-[NPKPrecursorPassUpgradeRequestsManager loadUpgradeControllerForPass:]_block_invoke_2
+- ___71-[NPKPrecursorPassUpgradeRequestsManager loadUpgradeControllerForPass:]_block_invoke_3
+- ___71-[NPKPrecursorPassUpgradeRequestsManager loadUpgradeControllerForPass:]_block_invoke_4
+- ___72+[NPKPaymentProvisioningFlowController(ReaderMode) _readerModeResources]_block_invoke
+- ___72-[NPKContactlessPaymentSessionManager passesDataSource:didRemovePasses:]_block_invoke
+- ___72-[NPKContactlessPaymentSessionManager passesDataSource:didUpdatePasses:]_block_invoke
+- ___72-[NPKContactlessPaymentSessionManager passesDataSource:didUpdatePasses:]_block_invoke.551
+- ___72-[NPKContactlessPaymentSessionManager passesDataSource:didUpdatePasses:]_block_invoke.553
+- ___72-[NPKContactlessPaymentSessionManager passesDataSource:didUpdatePasses:]_block_invoke.554
+- ___72-[NPKExpressPassController _handleCarKeyRKEActionCompletedNotification:]_block_invoke
+- ___72-[NPKExpressPassController _handleExpressTransactionFailedNotification:]_block_invoke
+- ___72-[NPKExpressPassController _handleHomeKeyLockStatusChangedNotification:]_block_invoke
+- ___72-[NPKPassAssociatedInfoManager _handleReceivedAccountUpdateWithAccount:]_block_invoke
+- ___72-[NPKPassAssociatedInfoManager canPerformRKEActionsForPassWithUniqueID:]_block_invoke
+- ___72-[NPKPaymentProvisioningFlowController _performProvisioningEligibility:]_block_invoke
+- ___72-[NPKPaymentProvisioningFlowController _performProvisioningEligibility:]_block_invoke_2
+- ___72-[NPKPaymentProvisioningFlowController _performProvisioningEligibility:]_block_invoke_3
+- ___72-[NPKPaymentProvisioningFlowController _performProvisioningEligibility:]_block_invoke_4
+- ___72-[NPKPeerPaymentMessagesTransactionsManager setPeerPaymentPassUniqueID:]_block_invoke
+- ___72-[NPKSubcredentialInvitationCoordinator canAcceptInvitation:completion:]_block_invoke.60
+- ___73-[NPKCompanionAgentConnection deviceIDSIdentifierSynchronous:completion:]_block_invoke.164
+- ___73-[NPKCompanionAgentConnection paymentPassWithUniqueID:synchronous:reply:]_block_invoke.140
+- ___73-[NPKCompanionAgentConnection paymentPassWithUniqueID:synchronous:reply:]_block_invoke.142
+- ___73-[NPKExpressModeSettingsCoordinator _invokeCompletionHandlerWithSuccess:]_block_invoke
+- ___73-[NPKExpressPassController _handleExpressTransactionTimeOutNotification:]_block_invoke
+- ___73-[NPKExpressPassController _handleExpressTransactionTimeOutNotification:]_block_invoke.112
+- ___73-[NPKExpressPassController _handleStandaloneTransactionDoneNotification:]_block_invoke
+- ___73-[NPKOpenURLRouter _processProvisioningContinuityHostWithPathComponents:]_block_invoke
+- ___73-[NPKPassAssociatedInfoModel _rawCountValueWithCommutePlan:balancesByID:]_block_invoke
+- ___73-[NPKPaymentProvisioningFlowController chooseCredentials:requestContext:]_block_invoke
+- ___73-[NPKPrecursorPassUpgradeRequestsManager descriptionForPassWithUniqueID:]_block_invoke
+- ___73-[NPKQuickPaymentSession _internalQueue_deactivateSessionWithCompletion:]_block_invoke
+- ___73-[NPKQuickPaymentSession _internalQueue_deactivateSessionWithCompletion:]_block_invoke.149
+- ___73-[NPKQuickPaymentSession _internalQueue_deactivateSessionWithCompletion:]_block_invoke_2
+- ___73-[NPKQuickPaymentSession _internalQueue_deactivateSessionWithCompletion:]_block_invoke_2.150
+- ___74+[NPKProtoStandaloneHelper _convertChooseProductStepContext:protoContext:]_block_invoke
+- ___74-[NPKCompanionAgentConnection credentialedPassUniqueIDsSynchronous:reply:]_block_invoke.145
+- ___74-[NPKCompanionAgentConnection credentialedPassUniqueIDsSynchronous:reply:]_block_invoke.146
+- ___74-[NPKContactlessPaymentSessionManager _sessionStateForTransactionContext:]_block_invoke
+- ___74-[NPKIDVRemoteDeviceSession credentialIdentifiersInPartitions:completion:]_block_invoke.89
+- ___74-[NPKIDVRemoteDeviceSession provisionedCredentialCountForType:completion:]_block_invoke.74
+- ___74-[NPKNanoPassDaemonConnection fetchRelevantPassInformationWithCompletion:]_block_invoke
+- ___74-[NPKNanoPassDaemonConnection fetchRelevantPassInformationWithCompletion:]_block_invoke.81
+- ___74-[NPKPassAssociatedInfoManager homeAccessoryForPass:withReaderIdentifier:]_block_invoke
+- ___74-[NPKPassAssociatedInfoModel _formattedValueWithCommutePlan:balancesByID:]_block_invoke
+- ___74-[NPKPaymentProvisioningFlowController(ReaderMode) _startTransferringCard]_block_invoke
+- ___74-[NPKPaymentProvisioningFlowController(ReaderMode) _startTransferringCard]_block_invoke_2
+- ___75-[NPKCompanionAgentConnectionDeferredActionHandler _performDeferredActions]_block_invoke.78
+- ___75-[NPKCompanionAgentConnectionDeferredActionHandler _performDeferredActions]_block_invoke.82
+- ___75-[NPKPassAssociatedInfoManager rangingSuspensionReasonForPassWithUniqueID:]_block_invoke
+- ___75-[NPKPaymentProvisioningFlowController(ReaderMode) _startCardNotFoundTimer]_block_invoke
+- ___75-[NPKPeerPaymentWebServiceCompanionTargetDevice setPreferences:completion:]_block_invoke.96
+- ___75-[NPKQuickPaymentSession _internalQueue_invokeDeactivationCompletionBlocks]_block_invoke
+- ___75-[NPKQuickPaymentSessionLocalAuthenticationCoordinator event:params:reply:]_block_invoke
+- ___75-[NPKTransitAppletHistoryFetcher _handleActiveSecureElementManagerSession:]_block_invoke
+- ___76+[NPKProtoStandaloneHelper _convertMoreInformationStepContext:protoContext:]_block_invoke
+- ___76-[NPKBarcodePaymentSession _processedAuthenticationMechanismForTransaction:]_block_invoke
+- ___76-[NPKCompanionAgentConnection hasPaymentPassWithUniqueID:synchronous:reply:]_block_invoke.138
+- ___76-[NPKCompanionAgentConnection hasPaymentPassWithUniqueID:synchronous:reply:]_block_invoke.139
+- ___76-[NPKCompanionAgentConnection passesWithReaderIdentifier:synchronous:reply:]_block_invoke.144
+- ___76-[NPKIDVRemoteDeviceSession createCredentialInPartition:options:completion:]_block_invoke.81
+- ___76-[NPKNanoPassDaemonConnection noteWillDeleteAccountsSynchronous:completion:]_block_invoke
+- ___76-[NPKNanoPassDaemonConnection noteWillDeleteAccountsSynchronous:completion:]_block_invoke.74
+- ___76-[NPKOpenURLRouter _processBalanceSummaryHostWithPathComponents:queryItems:]_block_invoke
+- ___76-[NPKPassAssociatedInfoModel _shouldAddCommutePlan:action:withBalancesByID:]_block_invoke
+- ___76-[NPKPassesManager _loadContentAndImageSetsIfNecessaryForPasses:completion:]_block_invoke
+- ___76-[NPKPassesManager _loadContentAndImageSetsIfNecessaryForPasses:completion:]_block_invoke_2
+- ___76-[NPKPassesManager _loadContentAndImageSetsIfNecessaryForPasses:completion:]_block_invoke_3
+- ___76-[NPKPaymentProvisioningFlowController _fetchInAppProvisioningCertificates:]_block_invoke
+- ___76-[NPKPaymentProvisioningFlowController _fetchInAppProvisioningCertificates:]_block_invoke_2
+- ___76-[NPKPaymentProvisioningFlowController _fetchInAppProvisioningCertificates:]_block_invoke_3
+- ___76-[NPKPaymentProvisioningFlowController _fetchInAppProvisioningCertificates:]_block_invoke_4
+- ___76-[NPKPaymentProvisioningFlowController _handleEligibiltySuccessWithContext:]_block_invoke
+- ___76-[NPKPaymentProvisioningFlowController _handleEligibiltySuccessWithContext:]_block_invoke_2
+- ___76-[NPKPaymentWebServiceCompanionTargetDevice productsWithRequest:completion:]_block_invoke.622
+- ___76-[NPKQuickPaymentSession authorize18013RequestWithDataToRelease:credential:]_block_invoke
+- ___76-[NPKSubcredentialInvitationCoordinator removeSharingInvitation:completion:]_block_invoke.90
+- ___77-[NPKCompanionAgentConnection balanceReminderForBalance:pass:withCompletion:]_block_invoke.168
+- ___77-[NPKCompanionAgentConnection hasActiveExternallySharedPassesWithCompletion:]_block_invoke.174
+- ___77-[NPKCompanionAgentConnection setBalanceReminder:forBalance:pass:completion:]_block_invoke.170
+- ___77-[NPKIDVRemoteDeviceConnectionCoordinator establishPrearmTrustV2:completion:]_block_invoke.163
+- ___77-[NPKQuickPaymentSession contactlessInterfaceSessionDidReceiveTerminalError:]_block_invoke
+- ___77-[NPKQuickPaymentSession contactlessInterfaceSessionHasPendingServerRequest:]_block_invoke
+- ___78+[NPKProtoStandaloneHelper _convertChooseCredentialsStepContext:protoContext:]_block_invoke
+- ___78-[NPKBarcodePaymentSession transactionSourceIdentifier:didReceiveTransaction:]_block_invoke
+- ___78-[NPKCompanionAgentConnection expressModeEnabledForPassIdentifier:completion:]_block_invoke.175
+- ___78-[NPKLowPowerModeLocalDeviceMonitor _sendLowPowerModeEnabledStateToObservers:]_block_invoke
+- ___78-[NPKNanoPassDaemonConnection identityPassPrearmStatusSynchronous:completion:]_block_invoke
+- ___78-[NPKNanoPassDaemonConnection identityPassPrearmStatusSynchronous:completion:]_block_invoke.75
+- ___78-[NPKPassAssociatedInfoManager _notifyObserversOfUpdatedRestrictedGuestState:]_block_invoke
+- ___78-[NPKPassAssociatedInfoManager _notifyObserversOfUpdatedRestrictedGuestState:]_block_invoke_2
+- ___78-[NPKPassAssociatedInfoManager _updateAllPassesItemsFieldsPendingUpdateStatus]_block_invoke
+- ___78-[NPKPassAssociatedInfoManager _updateAllPassesItemsFieldsPendingUpdateStatus]_block_invoke_2
+- ___78-[NPKPaymentWebServiceCompanionTargetDevice accountWithIdentifier:completion:]_block_invoke.615
+- ___78-[NPKQuickPaymentSessionSource initWithDelegate:buttonListener:callbackQueue:]_block_invoke
+- ___78-[NPKQuickPaymentSessionSource initWithDelegate:buttonListener:callbackQueue:]_block_invoke_2
+- ___79+[NPKProtoStandaloneHelper toNPKProtoStandalonePaymentDigitalIssuanceMetadata:]_block_invoke
+- ___79+[NPKProtoStandaloneHelper toNPKProtoStandalonePaymentDigitalIssuanceMetadata:]_block_invoke_2
+- ___79+[NPKProtoStandaloneHelper toNPKProtoStandalonePaymentDigitalIssuanceMetadata:]_block_invoke_3
+- ___79-[NPKContactlessPaymentSessionManager paymentSessionDidReceiveActivityTimeout:]_block_invoke
+- ___79-[NPKExpressModeSettingsCoordinator _enableExpressForPass:mode:withCredential:]_block_invoke
+- ___79-[NPKExpressModeSettingsCoordinator _enableExpressForPass:mode:withCredential:]_block_invoke_2
+- ___79-[NPKExpressModeSettingsCoordinator _upgradeExpressModeForPass:withCredential:]_block_invoke
+- ___79-[NPKExpressModeSettingsCoordinator _upgradeExpressModeForPass:withCredential:]_block_invoke_2
+- ___79-[NPKFakePaymentSession _handleSessionHasCredentialIfNecessaryWithCurrentPass:]_block_invoke
+- ___79-[NPKIDVRemoteDeviceSession prearmCredentialWithAuthorizationToken:completion:]_block_invoke.95
+- ___79-[NPKPassAssociatedInfoManager _fetchMostRecentRangingSuspensionReasonForPass:]_block_invoke
+- ___79-[NPKPaymentProvisioningFlowController _secondaryFilteredFields:forCredential:]_block_invoke
+- ___79-[NPKPaymentWebServiceCompanionTargetDevice carKeyRejectInvitation:completion:]_block_invoke.963
+- ___79-[NPKPrecursorPassUpgradeRequestController fetchUpgradeRequestsWithCompletion:]_block_invoke
+- ___79-[NPKQuickPaymentSession contactlessInterfaceSessionDidReceiveActivityTimeout:]_block_invoke
+- ___79-[NPKQuickPaymentSession contactlessInterfaceSessionDidReceiveActivityTimeout:]_block_invoke.191
+- ___80+[NPKPaymentProvisioningFlowController _filterAssociatedCredentials:forProduct:]_block_invoke
+- ___80-[NPKAssertionController _releaseAssertionFromOwnerObject:withDelay:completion:]_block_invoke
+- ___80-[NPKAssertionController _releaseAssertionFromOwnerObject:withDelay:completion:]_block_invoke.59
+- ___80-[NPKAssertionController _releaseAssertionFromOwnerObject:withDelay:completion:]_block_invoke_2
+- ___80-[NPKCompanionAgentConnectionDeferredActionHandler _handleDevicePairingFailure:]_block_invoke.84
+- ___80-[NPKPaymentProvisioningFlowController _handleVerificationCode:forPass:context:]_block_invoke
+- ___80-[NPKPaymentProvisioningFlowController _handleVerificationCode:forPass:context:]_block_invoke_2
+- ___80-[NPKPaymentProvisioningFlowController _handleVerificationCode:forPass:context:]_block_invoke_3
+- ___80-[NPKPrecursorPassUpgradeRequestController precursorPassUpgradeRequestDidChange]_block_invoke
+- ___80-[NPKQuickPaymentSession contactlessInterfaceSessionDidSelectValueAddedService:]_block_invoke
+- ___80-[NPKQuickPaymentSession contactlessInterfaceSessionDidTerminate:withErrorCode:]_block_invoke
+- ___80-[PKPaymentAuthorizationDataModel(NanoPassKit) _hasNonPeerPaymentAcceptedPasses]_block_invoke
+- ___81-[NPKCompanionAgentConnection shouldShowWatchOfferForPaymentPass:withCompletion:]_block_invoke.116
+- ___81-[NPKCompanionAgentConnection shouldShowWatchOfferForPaymentPass:withCompletion:]_block_invoke.121
+- ___81-[NPKContactlessPaymentSessionManager _paymentBalancesFromTransitAppletBalances:]_block_invoke
+- ___81-[NPKContactlessPaymentSessionManager _registerForServiceModeRequestNotification]_block_invoke
+- ___81-[NPKExpressModeSettingsCoordinator enableExpressForPass:mode:completionHandler:]_block_invoke
+- ___81-[NPKExpressModeSettingsCoordinator enableExpressForPass:mode:completionHandler:]_block_invoke_2
+- ___81-[NPKExpressModeSettingsCoordinator enableExpressForPass:mode:completionHandler:]_block_invoke_3
+- ___81-[NPKIDVRemoteDeviceSession deletePIIHashDataForCredentialIdentifier:completion:]_block_invoke.106
+- ___81-[NPKPassAssociatedInfoManager _notifyObserversOfUpdatedTransitPassInfoForModel:]_block_invoke
+- ___81-[NPKPassAssociatedInfoManager _notifyObserversOfUpdatedTransitPassInfoForModel:]_block_invoke_2
+- ___81-[NPKPassAssociatedInfoManager _updateModelWithAccessory:forPassID:withReaderID:]_block_invoke
+- ___81-[NPKPaymentProvisioningFlowController _handleVerificationFieldsForPass:context:]_block_invoke
+- ___81-[NPKPaymentProvisioningFlowController _handleVerificationFieldsForPass:context:]_block_invoke_2
+- ___81-[NPKQuickPaymentSession contactlessInterfaceSessionDidReceiveUntrustedTerminal:]_block_invoke
+- ___81-[NPKQuickPaymentSession executeRKEActionForPass:function:action:withCompletion:]_block_invoke
+- ___81-[NPKQuickPaymentSession executeRKEActionForPass:function:action:withCompletion:]_block_invoke_2
+- ___81-[NPKQuickPaymentSession executeRKEActionForPass:function:action:withCompletion:]_block_invoke_3
+- ___81-[NPKQuickPaymentSession executeRKEActionForPass:function:action:withCompletion:]_block_invoke_4
+- ___82+[NPKProtoStandaloneHelper toNPKProtoStandalonePaymentProvisioningFlowPickerItem:]_block_invoke
+- ___82+[NPKProtoStandaloneHelper toNPKProtoStandalonePaymentProvisioningMethodMetadata:]_block_invoke
+- ___82-[NPKCompanionAgentConnection _shouldShowApplePaySettingsForTinkerWithCompletion:]_block_invoke.198
+- ___82-[NPKDoubleClickClientSuppressor endDoubleClickClientSuppressionWithRequestToken:]_block_invoke
+- ___82-[NPKExpressModeSettingsCoordinator disableExpressForPass:mode:completionHandler:]_block_invoke
+- ___82-[NPKExpressModeSettingsCoordinator disableExpressForPass:mode:completionHandler:]_block_invoke_2
+- ___82-[NPKExpressModeSettingsCoordinator disableExpressForPass:mode:completionHandler:]_block_invoke_3
+- ___82-[NPKExpressModeSettingsCoordinator disableExpressForPass:mode:completionHandler:]_block_invoke_4
+- ___82-[NPKExpressModeSettingsCoordinator disableExpressForPass:mode:completionHandler:]_block_invoke_5
+- ___82-[NPKIDVRemoteDeviceSession _generateKeyWithType:credentialIdentifier:completion:]_block_invoke.84
+- ___82-[NPKPassAssociatedInfoManager _updatePassInfoManagerForPassUniqueID:updateBlock:]_block_invoke
+- ___82-[NPKPassAssociatedInfoManager setPendingAmount:forBalanceField:passWithUniqueID:]_block_invoke
+- ___82-[NPKPassAssociatedInfoModel _commutePlanFieldsWithBalancesByID:dynamicPlansByID:]_block_invoke
+- ___82-[NPKPaymentWebServiceCompanionTargetDevice addISO18013Blobs:cardType:completion:]_block_invoke.861
+- ___82-[NPKQuickPaymentSession contactlessInterfaceSessionDidFailDeferredAuthorization:]_block_invoke
+- ___83-[NPKIDVRemoteDeviceSession retrievePIIHashDataForCredentialIdentifier:completion:]_block_invoke.105
+- ___83-[NPKPassAssociatedInfoManager passWithUniqueIdentifier:didUpdateTiles:forContext:]_block_invoke
+- ___83-[NPKPaymentProvisioningFlowController _configureWebServiceIfNecessary:completion:]_block_invoke
+- ___83-[NPKPaymentProvisioningFlowController _configureWebServiceIfNecessary:completion:]_block_invoke_2
+- ___83-[NPKPaymentProvisioningFlowController _configureWebServiceIfNecessary:completion:]_block_invoke_3
+- ___83-[NPKPaymentProvisioningFlowController _handleVerificationResponseForPass:context:]_block_invoke
+- ___83-[NPKPaymentProvisioningFlowController _requestVerificationOptionsForPass:context:]_block_invoke
+- ___83-[NPKPaymentProvisioningFlowController _requestVerificationOptionsForPass:context:]_block_invoke_2
+- ___83-[NPKPaymentProvisioningFlowController _updateVerificationForPass:channel:context:]_block_invoke
+- ___83-[NPKPaymentProvisioningFlowController _updateVerificationForPass:channel:context:]_block_invoke_2
+- ___83-[NPKSubcredentialInvitationCoordinator _fetchInvitationWithIdentifier:completion:]_block_invoke.154
+- ___83-[NPKSubcredentialInvitationCoordinator requestSubcredentialInvitation:completion:]_block_invoke.77
+- ___84-[NPKPassSyncEngine _handleStateChange:attemptRecoverReconcileStateVersionMismatch:]_block_invoke.82
+- ___84-[NPKPassSyncEngine _handleStateChange:attemptRecoverReconcileStateVersionMismatch:]_block_invoke.84
+- ___84-[NPKPaymentProvisioningFlowController _localRequiredFieldsFromRequirementsResponse]_block_invoke
+- ___84-[NPKPaymentProvisioningFlowController initWithProvisioningController:setupContext:]_block_invoke
+- ___84-[NPKSubcredentialInvitationCoordinator listSubcredentialInvitationsWithCompletion:]_block_invoke.63
+- ___85+[NPKProtoStandaloneHelper toNPKProtoStandalonePaymentProvisioningFlowPickerSection:]_block_invoke
+- ___85-[NPKCompanionAgentConnection balancesForPaymentPassWithUniqueIdentifier:completion:]_block_invoke_2
+- ___85-[NPKCompanionAgentConnection commutePlanReminderForCommutePlan:pass:withCompletion:]_block_invoke.171
+- ___85-[NPKCompanionAgentConnection setCommutePlanReminder:forCommutePlan:pass:completion:]_block_invoke.173
+- ___85-[NPKIDVRemoteDeviceSession generatePresentmentKeysForCredential:numKeys:completion:]_block_invoke.82
+- ___85-[NPKIDVRemoteDeviceSession storePIIHashDataForCredentialIdentifier:data:completion:]_block_invoke.104
+- ___85-[NPKPassAssociatedInfoManager paymentPassWithUniqueIdentifier:didReceivePlanUpdate:]_block_invoke
+- ___85-[NPKPaymentProvisioningFlowController _curatedDefaultPaymentSetupProvisioningFields]_block_invoke
+- ___85-[NPKPaymentProvisioningFlowController(ReaderMode) _resetReaderModeProvisioningState]_block_invoke
+- ___85-[NPKQuickPaymentSession contactlessInterfaceSessionDidStartTransaction:withContext:]_block_invoke
+- ___85-[NPKQuickPaymentSession contactlessInterfaceSessionDidStartTransaction:withContext:]_block_invoke.186
+- ___85-[NPKSubcredentialInvitationCoordinator revokeCredentialsWithIdentifiers:completion:]_block_invoke.82
+- ___85-[NPKUserNotificationCenter _requestNotificationAuthorizationWithOptions:completion:]_block_invoke
+- ___86-[NPKIDVRemoteDeviceSession credentialPreflightStatusForType:minOSVersion:completion:]_block_invoke.71
+- ___86-[NPKPassAssociatedInfoManager _refreshAccountBalanceIfApplicableForPass:withAccount:]_block_invoke
+- ___86-[NPKPassAssociatedInfoManager _refreshAccountBalanceIfApplicableForPass:withAccount:]_block_invoke_2
+- ___86-[NPKPaymentWebServiceCompanionTargetDevice statusForShareableCredentials:completion:]_block_invoke.898
+- ___86-[NPKQuickPaymentSession _checkContactlessValidity:authorizationValidity:performWork:]_block_invoke
+- ___86-[NPKRemoteInterfacePresenter presentPasscodeUpgradeRequestWithChangeType:completion:]_block_invoke
+- ___86-[PKPaymentAuthorizationDataModel(NanoPassKit) npkSetPassAndPaymentApplicationForAID:]_block_invoke
+- ___86-[PKPaymentAuthorizationDataModel(NanoPassKit) npkSetPassAndPaymentApplicationForAID:]_block_invoke_2
+- ___87+[NPKProtoStandaloneHelper _convertIssuerVerificationChannelsStepContext:protoContext:]_block_invoke
+- ___87-[NPKExpressModeSettingsCoordinator _requestUserAuthenticationForPass:withExpressMode:]_block_invoke
+- ___87-[NPKExpressModeSettingsCoordinator _requestUserAuthenticationForPass:withExpressMode:]_block_invoke_2
+- ___87-[NPKGizmoDatabase setSubcredentials:forPassWithUniqueID:paymentApplicationIdentifier:]_block_invoke.470
+- ___87-[NPKIDVRemoteDeviceServiceClient didReceiveEvent:fromRemoteDeviceWithID:eventContext:]_block_invoke.56
+- ___87-[NPKIDVRemoteDeviceSession registerForEvents:withRemoteProcessServiceName:completion:]_block_invoke.78
+- ___87-[NPKPassAssociatedInfoManager _fetchMostRecentTransitPropertiesAndAppletStateForPass:]_block_invoke
+- ___87-[NPKPassAssociatedInfoManager _fetchMostRecentTransitPropertiesAndAppletStateForPass:]_block_invoke.105
+- ___87-[NPKPassAssociatedInfoManager _processAccountBalancesForPassWithUniqueID:withAccount:]_block_invoke
+- ___87-[NPKPaymentProvisioningFlowController _startProvisioningForCredential:requestContext:]_block_invoke
+- ___87-[NPKRemoteInterfacePresenter tearDownPasscodeUpgradeRequestWithPasscodeChanged:error:]_block_invoke
+- ___87-[NPKSubcredentialInvitationCoordinator registerCredentialsWithIdentifiers:completion:]_block_invoke.80
+- ___88+[NPKPaymentProvisioningFlowController(FlowSelection) _localCredentials:containProduct:]_block_invoke
+- ___88-[NPKIDVRemoteDeviceSession addNotificationWithType:documentType:issuerName:completion:]_block_invoke.102
+- ___88-[NPKPassAssociatedInfoManager paymentPassWithUniqueIdentifier:didReceiveBalanceUpdate:]_block_invoke
+- ___88-[NPKPaymentProvisioningFlowController _filteredPaymentSetupFields:forLocalDeviceEntry:]_block_invoke
+- ___88-[NPKPaymentProvisioningFlowController _handleAppleBalanceProductChosen:requestContext:]_block_invoke
+- ___88-[NPKPaymentProvisioningFlowController _handleAppleBalanceProductChosen:requestContext:]_block_invoke.106
+- ___88-[NPKPaymentProvisioningFlowController _handleAppleBalanceProductChosen:requestContext:]_block_invoke.108
+- ___88-[NPKPaymentProvisioningFlowController _handleAppleBalanceProductChosen:requestContext:]_block_invoke.110
+- ___88-[NPKPaymentProvisioningFlowController _handleAppleBalanceProductChosen:requestContext:]_block_invoke_2
+- ___88-[NPKPaymentProvisioningFlowController _performValidateSecurityRequirements:completion:]_block_invoke
+- ___88-[NPKPaymentWebServiceCompanionTargetDevice photosForFamilyMembersWithDSIDs:completion:]_block_invoke.795
+- ___88-[NPKRemoteInterfacePresenter clearInAppInterfaceForSkeletonPeerPaymentQuote:withError:]_block_invoke
+- ___89-[NPKDoubleClickClientSuppressor requestDoubleClickClientSuppressionWithResponseHandler:]_block_invoke
+- ___89-[NPKNanoPassDaemonConnection canAcceptInvitationOnRemoteDeviceForInvitation:completion:]_block_invoke
+- ___89-[NPKNanoPassDaemonConnection canAcceptInvitationOnRemoteDeviceForInvitation:completion:]_block_invoke.58
+- ___89-[NPKNanoPassDaemonConnection startSubcredentialProvisioningOnRemoteDeviceForInvitation:]_block_invoke
+- ___89-[NPKPeerPaymentMessagesTransactionsManager peerPaymentTransactionWithServiceIdentifier:]_block_invoke
+- ___89-[NPKPrecursorPassUpgradeRequestsManager invalidateUpgradeControllerForPassWithUniqueID:]_block_invoke
+- ___89-[NPKRemoteInterfacePresenter showInAppInterfaceWithSkeletonPeerPaymentQuote:completion:]_block_invoke
+- ___90-[NPKCompanionAgentConnection paymentPassUniqueIDsSynchronous:excludingDeactivated:reply:]_block_invoke.133
+- ___90-[NPKCompanionAgentConnection paymentPassUniqueIDsSynchronous:excludingDeactivated:reply:]_block_invoke.134
+- ___90-[NPKCompanionAgentConnection paymentPassUniqueIDsSynchronous:excludingDeactivated:reply:]_block_invoke.135
+- ___90-[NPKExpressPassController _expressPassesInformationWithAutomaticSelectionTechnologyType:]_block_invoke
+- ___90-[NPKExpressPassController _expressPassesInformationWithAutomaticSelectionTechnologyType:]_block_invoke_2
+- ___90-[NPKIDVRemoteDeviceSession unregisterFromEvents:withRemoteProcessServiceName:completion:]_block_invoke.79
+- ___90-[NPKPassAssociatedInfoManager fetchHomeAccessoryForPass:withReaderIdentifier:completion:]_block_invoke
+- ___90-[NPKPassAssociatedInfoManager fetchHomeAccessoryForPass:withReaderIdentifier:completion:]_block_invoke.81
+- ___90-[NPKPassAssociatedInfoManager fetchHomeAccessoryForPass:withReaderIdentifier:completion:]_block_invoke.82
+- ___90-[NPKPaymentProvisioningFlowController _downloadRemoteAssetsAndAddPaymentPass:completion:]_block_invoke
+- ___90-[NPKPaymentProvisioningFlowController _downloadRemoteAssetsAndAddPaymentPass:completion:]_block_invoke_2
+- ___90-[NPKPaymentWebServiceCompanionTargetDevice updatedAccountsForProvisioningWithCompletion:]_block_invoke.574
+- ___90-[NPKPaymentWebServiceCompanionTargetDevice updatedAccountsForProvisioningWithCompletion:]_block_invoke.579
+- ___90-[NPKPaymentWebServiceCompanionTargetDevice updatedAccountsForProvisioningWithCompletion:]_block_invoke_2.580
+- ___91+[NPKVehicleConnectivityCoordinator _secureElementPassMatchingAID:subcredentialIdentifier:]_block_invoke
+- ___91-[NPKExpressModeSettingsCoordinator _checkForConflictsInEnablingExpressForPass:completion:]_block_invoke
+- ___91-[NPKExpressModeSettingsCoordinator _checkForConflictsInEnablingExpressForPass:completion:]_block_invoke_2
+- ___91-[NPKExpressModeSettingsCoordinator _checkForConflictsInEnablingExpressForPass:completion:]_block_invoke_3
+- ___91-[NPKExpressModeSettingsCoordinator initWithExpressPassController:workQueue:callbackQueue:]_block_invoke
+- ___91-[NPKPassAssociatedInfoManager initWithPaymentService:accountService:precursorPassManager:]_block_invoke
+- ___91-[NPKPaymentWebServiceCompanionTargetDevice hasActiveExternallySharedPassesWithCompletion:]_block_invoke.1032
+- ___91-[NPKPaymentWebServiceCompanionTargetDevice requestAndStoreExternalizedAuthWithCompletion:]_block_invoke.850
+- ___91-[NPKSubcredentialInvitationCoordinator accountAttestationAnonymizationSaltWithCompletion:]_block_invoke.74
+- ___91-[NPKSubcredentialInvitationCoordinator setAccountAttestationAnonymizationSalt:completion:]_block_invoke.76
+- ___92-[NPKCompanionAgentConnection deletePaymentTransactionWithIdentifier:fromDevice:completion:]_block_invoke.166
+- ___92-[NPKExpressPassController _queue_siblingExpressPassesForExpressPass:applicationIdentifier:]_block_invoke
+- ___92-[NPKPaymentProvisioningFlowController _downloadAndAddUpdatedPassForPaymentPass:completion:]_block_invoke
+- ___92-[NPKPaymentWebServiceCompanionTargetDevice _displayableSharesForPassIdentifier:completion:]_block_invoke.881
+- ___92-[NPKPaymentWebServiceCompanionTargetDevice prewarmCreateShareForPassIdentifier:completion:]_block_invoke.888
+- ___92-[NPKQuickPaymentSession contactlessInterfaceSession:didReceive18013Request:readerAuthInfo:]_block_invoke
+- ___92-[NPKQuickPaymentSessionLocalAuthenticationCoordinator _deactivateLocalAuthenticationEvent:]_block_invoke
+- ___92-[NPKQuickPaymentSessionLocalAuthenticationCoordinator _presentNextLocalAuthenticationEvent]_block_invoke
+- ___92-[NPKQuickPaymentSessionLocalAuthenticationCoordinator _presentNextLocalAuthenticationEvent]_block_invoke_2
+- ___92-[NPKQuickPaymentSessionLocalAuthenticationCoordinator _presentNextLocalAuthenticationEvent]_block_invoke_3
+- ___92-[NPKUserNotificationCenter requestAuthorizationIfNecessaryForPassesManager:withCompletion:]_block_invoke
+- ___93-[NPKNanoPassDaemonConnection fetchIdentityProofingConfigurationForCountry:state:completion:]_block_invoke
+- ___93-[NPKNanoPassDaemonConnection fetchIdentityProofingConfigurationForCountry:state:completion:]_block_invoke.85
+- ___93-[NPKPaymentProvisioningFlowController(DigitalIssuance) _handleDigitalIssuanceTermsAccepted:]_block_invoke
+- ___93-[NPKPaymentProvisioningFlowController(DigitalIssuance) _handleDigitalIssuanceTermsAccepted:]_block_invoke_2
+- ___93-[NPKPaymentWebServiceCompanionTargetDevice paymentSetupFeaturesForConfiguration:completion:]_block_invoke.994
+- ___93-[NPKPeerPaymentMessagesTransactionsManager statusOfPaymentTransactionWithServiceIdentifier:]_block_invoke
+- ___93-[NPKQuickPaymentSessionLocalAuthenticationCoordinator invalidateLocalAuthenticationContexts]_block_invoke
+- ___93-[NPKSubcredentialInvitationCoordinator startProvisioningWithInvitation:metadata:completion:]_block_invoke.68
+- ___94-[NPKPassAssociatedInfoManager setPendingExpirationDate:forCommutePlanField:passWithUniqueID:]_block_invoke
+- ___94-[NPKPaymentProvisioningFlowController _performProvisionWithRequest:requestContext:assertion:]_block_invoke
+- ___95-[NPKPaymentProvisioningFlowController _handleProductChosen:includeCardsOnFile:requestContext:]_block_invoke
+- ___95-[NPKPaymentWebServiceCompanionTargetDevice checkInvitationStatusForMailboxAddress:completion:]_block_invoke.895
+- ___95-[NPKPeerPaymentMessagesTransactionsManager transactionSourceIdentifier:didReceiveTransaction:]_block_invoke
+- ___96-[NPKCompanionAgentConnection canAddToCompanionPrecheckForegroundConnectivitySynchronous:reply:]_block_invoke.179
+- ___96-[NPKContactlessPaymentSessionManager _managerContextForContactlessInterfaceTransactionContext:]_block_invoke
+- ___96-[NPKContactlessPaymentSessionManager _managerContextForContactlessInterfaceTransactionContext:]_block_invoke_2
+- ___96-[NPKContactlessPaymentSessionManager _managerContextForContactlessInterfaceTransactionContext:]_block_invoke_3
+- ___96-[NPKNanoPassDaemonConnection addUserNotificationForEnabledExpressMode:passUniqueID:completion:]_block_invoke
+- ___96-[NPKNanoPassDaemonConnection addUserNotificationForEnabledExpressMode:passUniqueID:completion:]_block_invoke.77
+- ___96-[NPKPaymentPreflighter _checkPasscodeEnabledAndUnlockedStateRequiringPasscode:requiringUnlock:]_block_invoke.80
+- ___96-[NPKPaymentPreflighter _checkPasscodeEnabledAndUnlockedStateRequiringPasscode:requiringUnlock:]_block_invoke.81
+- ___96-[NPKPaymentPreflighter _checkPasscodeEnabledAndUnlockedStateRequiringPasscode:requiringUnlock:]_block_invoke_2.83
+- ___96-[NPKPaymentProvisioningFlowController _fetchAddRequestWithCertificatesResponse:requestContext:]_block_invoke
+- ___96-[NPKPaymentProvisioningFlowController _performResolveLocalEligibilityARequirements:completion:]_block_invoke
+- ___96-[NPKPaymentWebServiceCompanionTargetDevice featureApplicationsForAccountIdentifier:completion:]_block_invoke.806
+- ___97-[NPKCompanionAgentConnection addPendingProvisionings:identityTargetDeviceIdentifier:completion:]_block_invoke.192
+- ___97-[NPKPaymentProvisioningFlowController(DigitalIssuance) paymentAuthorizationControllerDidFinish:]_block_invoke
+- ___97-[NPKPaymentProvisioningFlowController(DigitalIssuance) paymentAuthorizationControllerDidFinish:]_block_invoke_2
+- ___97-[NPKPaymentWebServiceCompanionTargetDevice retrieveShareInvitationForMailboxAddress:completion:]_block_invoke.870
+- ___97-[NPKPaymentWebServiceCompanionTargetDevice service:account:identifier:didSendWithSuccess:error:]_block_invoke.364
+- ___98-[NPKCompanionAgentConnection beginPairedWatchInstallationOfApplicationForPaymentPass:completion:]_block_invoke.214
+- ___98-[NPKIDVRemoteDeviceSession fetchRemoteBiometricAuthenticationStatusForCredentialType:completion:]_block_invoke.76
+- ___98-[NPKPaymentWebServiceCompanionTargetDevice _canAddSecureElementPassWithConfiguration:completion:]_block_invoke.713
+- ___98-[NPKPaymentWebServiceCompanionTargetDevice _displayableEntitlementsForPassIdentifier:completion:]_block_invoke.884
+- ___98-[NPKPaymentWebServiceCompanionTargetDevice carKeySetAccountAttestation:forCredential:completion:]_block_invoke.935
+- ___98-[NPKPeerPaymentMessagesTransactionsManager setStatus:forPaymentTransactionWithServiceIdentifier:]_block_invoke
+- ___99-[NPKCompanionAgentConnection trustedDeviceEnrollmentSignatureWithAccountDSID:sessionData:handler:]_block_invoke.185
+- ___99-[NPKPassAssociatedInfoManager paymentPassWithUniqueIdentifier:didUpdateWithTransitPassProperties:]_block_invoke
+- ___99-[NPKPaymentProvisioningFlowController _checkSpaceAvailableForAppletTypes:triedCleanup:completion:]_block_invoke
+- ___99-[NPKPaymentProvisioningFlowController _checkSpaceAvailableForAppletTypes:triedCleanup:completion:]_block_invoke.126
+- ___99-[NPKPaymentProvisioningFlowController _requiredFieldsFromRequirementsResponseExcludingLocalFields]_block_invoke
+- ___99-[NPKPaymentWebServiceCompanionTargetDevice acceptCarKeyShareForMessage:activationCode:completion:]_block_invoke.911
+- ___99-[NPKPaymentWebServiceCompanionTargetDevice handlePendingRemovalOfPaymentPass:uniqueID:completion:]_block_invoke.469
+- ___99-[NPKPaymentWebServiceCompanionTargetDevice paymentWebService:deviceMetadataWithFields:completion:]_block_invoke.598
+- ___99-[NPKPeerPaymentMessagesTransactionsManager _fetchAllPeerPaymentTransactionsWithPeerPaymentPassID:]_block_invoke
+- ___99-[NPKPeerPaymentMessagesTransactionsManager _fetchAllPeerPaymentTransactionsWithPeerPaymentPassID:]_block_invoke.124
+- ___99-[NPKPeerPaymentMessagesTransactionsManager _fetchAllPeerPaymentTransactionsWithPeerPaymentPassID:]_block_invoke.126
+- ___99-[NPKPeerPaymentMessagesTransactionsManager _fetchAllPeerPaymentTransactionsWithPeerPaymentPassID:]_block_invoke_2
+- ___99-[NPKPeerPaymentMessagesTransactionsManager _fetchAllPeerPaymentTransactionsWithPeerPaymentPassID:]_block_invoke_2.127
+- ___99-[NPKPeerPaymentMessagesTransactionsManager lookupTransactionActionsIfNeededWithServiceIdentifier:]_block_invoke
+- ___99-[NPKPeerPaymentMessagesTransactionsManager lookupTransactionActionsIfNeededWithServiceIdentifier:]_block_invoke.117
+- ___99-[NPKPeerPaymentMessagesTransactionsManager lookupTransactionActionsIfNeededWithServiceIdentifier:]_block_invoke_2
+- ___Block_byref_object_copy_.384
+- ___Block_byref_object_dispose_.385
+- ___NPKHasValidRecipient_block_invoke
+- ___NPKPresentUserNotification_block_invoke.297
+- ___NPKRouteDescriptionForStations
+- ___NPKTestAddPaymentPassRequest_block_invoke
+- ___NPKTrackPassAction_block_invoke
+- ___NPKTrackPassIngestionType_block_invoke
+- ___NPKTrackPaymentProvisioningWebServicesCheck_block_invoke
+- ___NPKTrackPaymentRequested_block_invoke
+- ___NPKTrackPeerPaymentAction_block_invoke
+- ___NPKTrackQRTransactionDetails_block_invoke
+- ___NPKTrackSETransactionDetails_block_invoke
+- ___NPKTrackTruthOnCard_block_invoke
+- ___NPKTrackUWBRangingStatus_block_invoke
+- ___NPKTrackWatchProvisioningEvent_block_invoke
+- ___PassImageSize.0
+- ___PassImageSize.1
+- ___PassKitUILibraryCore_block_invoke
+- ___PassThumbnailImageSize.0
+- ___PassThumbnailImageSize.1
+- ___block_descriptor_104_e8_32s40s48s56bs64bs72r80r_e32_v28?0B8"NSError"12"NSArray"20ls32l8r72l8s40l8r80l8s56l8s64l8s48l8
+- ___block_descriptor_130_e8_32s40s48s56s64s72s80s88s96s104s112s_e5_B8?0ls32l8s40l8s48l8s56l8s64l8s72l8s80l8s88l8s96l8s104l8s112l8
+- ___block_descriptor_32_e16_16?0"PKPass"8l
+- ___block_descriptor_32_e23_16?0"PKPaymentPass"8l
+- ___block_descriptor_32_e23_B16?0"PKPaymentPass"8l
+- ___block_descriptor_32_e23_v16?0"PKHMAccessory"8l
+- ___block_descriptor_32_e24_B16?0"NSURLQueryItem"8l
+- ___block_descriptor_32_e27_q24?0"PKPass"8"PKPass"16l
+- ___block_descriptor_32_e29_Q16?0"_LSApplicationState"8l
+- ___block_descriptor_32_e30_16?0"PKPaymentApplication"8l
+- ___block_descriptor_32_e31_16?0"PKShareableCredential"8l
+- ___block_descriptor_32_e31_B16?0"PKPaymentSetupProduct"8l
+- ___block_descriptor_32_e31_q24?0"NSNumber"8"NSNumber"16l
+- ___block_descriptor_32_e32_B16?0"PKPeerPaymentRecipient"8l
+- ___block_descriptor_32_e36_B32?0"PKPaymentSetupField"8Q16^B24l
+- ___block_descriptor_32_e45_B24?0"<NPKPassItemField>"8"NSDictionary"16l
+- ___block_descriptor_32_e46_B16?0"NPKPaymentProvisioningFlowPickerItem"8l
+- ___block_descriptor_32_e46_B24?0"PKPaymentCredential"8"NSDictionary"16l
+- ___block_descriptor_32_e53_v32?0"NSString"8"NPKPassAssociatedInfoModel"16^B24l
+- ___block_descriptor_32_e5_B8?0l
+- ___block_descriptor_32_e8_v12?0i8l
+- ___block_descriptor_34_e56_B32?0"NPKPaymentProvisioningFlowPickerSection"8Q16^B24l
+- ___block_descriptor_36_e8_v12?0B8l
+- ___block_descriptor_40_e19_"NSDictionary"8?0l
+- ___block_descriptor_40_e29_B16?0"PKPaymentCredential"8l
+- ___block_descriptor_40_e36_q16?0"NPKPassAssociatedInfoModel"8l
+- ___block_descriptor_40_e8_32bs_e137_v84?0"NSDate"8"NSString"16"NSString"24"NSDateComponents"32"NSDateComponents"40"NSString"48"NSNumber"56"NSString"64"NSDate"72B80ls32l8
+- ___block_descriptor_40_e8_32bs_e17_v16?0"NSArray"8ls32l8
+- ___block_descriptor_40_e8_32bs_e20_v24?0Q8"NSError"16ls32l8
+- ___block_descriptor_40_e8_32bs_e32_v16?0"UNNotificationSettings"8ls32l8
+- ___block_descriptor_40_e8_32bs_e37_v32?0"PKPaymentTransaction"8Q16^B24ls32l8
+- ___block_descriptor_40_e8_32r_e31_v32?0"NSArray"8"NSSet"16^B24lr32l8
+- ___block_descriptor_40_e8_32r_e34_v32?0"<NPKBalanceField>"8Q16^B24lr32l8
+- ___block_descriptor_40_e8_32r_e47_v32?0"PKValueAddedServiceTransaction"8Q16^B24lr32l8
+- ___block_descriptor_40_e8_32s_e15_v32?0816^B24ls32l8
+- ___block_descriptor_40_e8_32s_e18_v16?0"NSString"8ls32l8
+- ___block_descriptor_40_e8_32s_e19_"NSDictionary"8?0ls32l8
+- ___block_descriptor_40_e8_32s_e21_v32?0?<v?>8Q16^B24ls32l8
+- ___block_descriptor_40_e8_32s_e23_B32?0"PKPass"8Q16^B24ls32l8
+- ___block_descriptor_40_e8_32s_e29_Q16?0"_LSApplicationState"8ls32l8
+- ___block_descriptor_40_e8_32s_e30_v16?0"PKPeerPaymentAccount"8ls32l8
+- ___block_descriptor_40_e8_32s_e30_v24?0"PKPaymentBalance"8^B16ls32l8
+- ___block_descriptor_40_e8_32s_e32_"NSArray"24?0"NSArray"8B16B20ls32l8
+- ___block_descriptor_40_e8_32s_e32_v32?0"NSDecimalNumber"8Q16^B24ls32l8
+- ___block_descriptor_40_e8_32s_e33_B24?0"PKPass"8"NSDictionary"16ls32l8
+- ___block_descriptor_40_e8_32s_e34_v24?0"PKPaymentTransaction"8^B16ls32l8
+- ___block_descriptor_40_e8_32s_e36_B32?0"PKPaymentSetupField"8Q16^B24ls32l8
+- ___block_descriptor_40_e8_32s_e36_q16?0"NPKPassAssociatedInfoModel"8ls32l8
+- ___block_descriptor_40_e8_32s_e39_v16?0"<NPKPassesDataSourceObserver>"8ls32l8
+- ___block_descriptor_40_e8_32s_e39_v32?0"PKTransitAppletBalance"8Q16^B24ls32l8
+- ___block_descriptor_40_e8_32s_e40_B24?0"PKPaymentPass"8"NSDictionary"16ls32l8
+- ___block_descriptor_40_e8_32s_e42_v24?0"PKPaymentTransaction"8"NSError"16ls32l8
+- ___block_descriptor_40_e8_32s_e43_16?0"PKEncryptedPushProvisioningTarget"8ls32l8
+- ___block_descriptor_40_e8_32s_e51_v24?0"NFSecureElementManagerSession"8"NSError"16ls32l8
+- ___block_descriptor_40_e8_32s_e53_v32?0"NSString"8"NPKPassAssociatedInfoModel"16^B24ls32l8
+- ___block_descriptor_40_e8_32s_e53_v40?0"NSString"8"NSString"16"NSDate"24"NSDate"32ls32l8
+- ___block_descriptor_40_e8_32s_e5_B8?0ls32l8
+- ___block_descriptor_40_e8_32s_e8_v16?0q8ls32l8
+- ___block_descriptor_40_e8_32w_e24_v16?0"NSNotification"8lw32l8
+- ___block_descriptor_40_e8_32w_e33_v24?0"PKAssertion"8"NSError"16lw32l8
+- ___block_descriptor_40_e8_32w_e35_v40?0^v8^v16^v24^{__IOHIDEvent=}32lw32l8
+- ___block_descriptor_40_e8_32w_e41_v32?0"NSString"8"NSData"16"NSError"24lw32l8
+- ___block_descriptor_40_e8_32w_e50_v16?0"PKPrecursorPassUpgradeRequestDescription"8lw32l8
+- ___block_descriptor_40_e8_32w_e8_v16?0Q8lw32l8
+- ___block_descriptor_41_e8_32bs_e5_v8?0ls32l8
+- ___block_descriptor_41_e8_32s_e36_B32?0"PKPaymentSetupField"8Q16^B24ls32l8
+- ___block_descriptor_41_e8_32s_e36_q16?0"NPKPassAssociatedInfoModel"8ls32l8
+- ___block_descriptor_41_e8_32s_e36_v16?0"<NPKSecureElementObserver>"8ls32l8
+- ___block_descriptor_48_e8_32bs40w_e50_v16?0"PKPrecursorPassUpgradeRequestDescription"8lw40l8s32l8
+- ___block_descriptor_48_e8_32r40w_e5_v8?0lw40l8r32l8
+- ___block_descriptor_48_e8_32r_e40_v24?0"PKExpressPassConfiguration"8^B16lr32l8
+- ___block_descriptor_48_e8_32s40bs_e20_v20?0B8"NSError"12ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e46_v32?0"NSData"8"NSURLResponse"16"NSError"24ls40l8s32l8
+- ___block_descriptor_48_e8_32s40bs_e50_v24?0"PKPaymentEligibilityResponse"8"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e53_v24?0"PKIdentityProofingConfiguration"8"NSError"16ls40l8s32l8
+- ___block_descriptor_48_e8_32s40bs_e8_v16?0Q8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e8_v16?0q8ls40l8s32l8
+- ___block_descriptor_48_e8_32s40r_e18_v16?0"NSString"8lr40l8s32l8
+- ___block_descriptor_48_e8_32s40r_e28_v32?0"PKPassField"8Q16^B24lr40l8s32l8
+- ___block_descriptor_48_e8_32s40r_e28_v32?0"PKPassField"8Q16^B24ls32l8r40l8
+- ___block_descriptor_48_e8_32s40r_e30_v16?0"PKTransitAppletState"8lr40l8s32l8
+- ___block_descriptor_48_e8_32s40r_e31_v24?0"PKAccount"8"NSError"16lr40l8s32l8
+- ___block_descriptor_48_e8_32s40r_e32_v32?0"NSString"8"NSSet"16^B24ls32l8r40l8
+- ___block_descriptor_48_e8_32s40r_e38_v32?0"NSData"8"PKHMAccessory"16^B24ls32l8r40l8
+- ___block_descriptor_48_e8_32s40r_e46_"NPKPaymentProvisioningFlowPickerSection"8?0lr40l8s32l8
+- ___block_descriptor_48_e8_32s40r_e53_v32?0"NSString"8"NPKPassAssociatedInfoModel"16^B24ls32l8r40l8
+- ___block_descriptor_48_e8_32s40r_e59_v32?0"NSString"8"NPKPeerPaymentTransactionDetails"16^B24ls32l8r40l8
+- ___block_descriptor_48_e8_32s40s_e15_v32?08Q16^B24ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e17_v16?0"NSArray"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e17_v16?0"NSError"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e23_v16?0"PKPaymentPass"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e23_v24?0B8B12"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e25_v16?0"PKFieldMetadata"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e27_v24?0"PKPaymentPass"8^B16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e34_v24?0"NSDictionary"8"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e34_v32?0"<NPKBalanceField>"8Q16^B24ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e36_q16?0"NPKPassAssociatedInfoModel"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e38_v32?0Q8"PKPaymentPass"16"NSError"24ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e39_v16?0"<NPKPassesDataSourceObserver>"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e48_v16?0"<NPKPassAssociatedInfoManagerObserver>"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e50_v24?0"PKPaymentEligibilityResponse"8"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e51_v24?0"PKPaymentRequirementsResponse"8"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e55_v16?0"<NPKContactlessPaymentSessionManagerObserver>"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e69_v24?0"PKPaymentIssuerProvisioningCertificatesResponse"8"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40w_e17_v16?0"NSArray"8lw40l8s32l8
+- ___block_descriptor_48_e8_32s40w_e17_v16?0"NSTimer"8lw40l8s32l8
+- ___block_descriptor_48_e8_32s40w_e31_v24?0"PKAccount"8"NSError"16lw40l8s32l8
+- ___block_descriptor_48_e8_32s40w_e35_v24?0"PKPaymentPass"8"NSError"16ls32l8w40l8
+- ___block_descriptor_48_e8_32s40w_e50_v16?0"NPKPrecursorPassUpgradeRequestController"8lw40l8s32l8
+- ___block_descriptor_48_e8_32s40w_e50_v16?0"PKPrecursorPassUpgradeRequestDescription"8lw40l8s32l8
+- ___block_descriptor_48_e8_32s40w_e8_v12?0B8ls32l8w40l8
+- ___block_descriptor_48_e8_32s_e23_B32?0"PKPass"8Q16^B24ls32l8
+- ___block_descriptor_48_e8_32s_e25_v32?0"NSString"816^B24ls32l8
+- ___block_descriptor_48_e8_32s_e36_B32?0"PKPaymentCredential"8Q16^B24ls32l8
+- ___block_descriptor_48_e8_32s_e36_v32?0"PKPaymentSetupField"8Q16^B24ls32l8
+- ___block_descriptor_48_e8_32s_e38_v32?0"PKPaymentSetupProduct"8Q16^B24ls32l8
+- ___block_descriptor_48_e8_32s_e38_v32?0"PKVerificationChannel"8Q16^B24ls32l8
+- ___block_descriptor_48_e8_32s_e43_v32?0"PKPaymentSetupMoreInfoItem"8Q16^B24ls32l8
+- ___block_descriptor_48_e8_32s_e51_v32?0"PKPaymentSetupProductPaymentOption"8Q16^B24ls32l8
+- ___block_descriptor_48_e8_32s_e53_v32?0"NPKPaymentProvisioningFlowPickerItem"8Q16^B24ls32l8
+- ___block_descriptor_48_e8_32s_e56_v32?0"NPKPaymentProvisioningFlowPickerSection"8Q16^B24ls32l8
+- ___block_descriptor_48_e8_32s_e8_v16?0Q8ls32l8
+- ___block_descriptor_48_e8_32w_e20_v20?0B8"NSError"12lw32l8
+- ___block_descriptor_48_e8_32w_e5_v8?0lw32l8
+- ___block_descriptor_49_e8_32s40s_e8_v12?0B8ls32l8s40l8
+- ___block_descriptor_49_e8_32s40w_e23_v32?0"PKPass"8Q16^B24lw40l8s32l8
+- ___block_descriptor_49_e8_32s_e8_v12?0B8ls32l8
+- ___block_descriptor_50_e8_32s40s_e11_v24?0Q8Q16ls32l8s40l8
+- ___block_descriptor_50_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_52_e8_32s40bs_e8_v12?0B8ls32l8s40l8
+- ___block_descriptor_56_e8_32bs40r48w_e5_v8?0lw48l8r40l8s32l8
+- ___block_descriptor_56_e8_32s40bs48bs_e52_v24?0"PKBarcodeEventMetadataResponse"8"NSError"16ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40bs48r_e5_v8?0lr48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40bs48r_e5_v8?0ls40l8s32l8r48l8
+- ___block_descriptor_56_e8_32s40bs_e5_v8?0ls40l8s32l8
+- ___block_descriptor_56_e8_32s40r48r_e30_v32?0"PKPaymentPass"8Q16^B24ls32l8r40l8r48l8
+- ___block_descriptor_56_e8_32s40r48r_e51_v24?0"PKContactlessInterfaceSession"8"NSError"16lr40l8r48l8s32l8
+- ___block_descriptor_56_e8_32s40r48w_e5_v8?0lw48l8r40l8s32l8
+- ___block_descriptor_56_e8_32s40r_e32_v32?0"NSString"8"NSSet"16^B24lr40l8s32l8
+- ___block_descriptor_56_e8_32s40r_e39_v16?0"<NPKApplicationStateObserver>"8ls32l8r40l8
+- ___block_descriptor_56_e8_32s40r_e5_v8?0lr40l8s32l8
+- ___block_descriptor_56_e8_32s40s48bs_e20_v20?0B8"NSError"12ls32l8s48l8s40l8
+- ___block_descriptor_56_e8_32s40s48bs_e32_v28?0B8"NSError"12"NSArray"20ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48bs_e34_v24?0"NSDictionary"8"NSError"16ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48bs_e35_v24?0"PKPaymentPass"8"NSError"16ls32l8s48l8s40l8
+- ___block_descriptor_56_e8_32s40s48bs_e38_v32?0Q8"PKPaymentPass"16"NSError"24ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48bs_e52_v24?0"PKBarcodeEventMetadataResponse"8"NSError"16ls32l8s48l8s40l8
+- ___block_descriptor_56_e8_32s40s48r_e32_v32?0"NSString"8"NSSet"16^B24ls32l8r48l8s40l8
+- ___block_descriptor_56_e8_32s40s48r_e32_v32?0"NSString"8"NSSet"16^B24ls32l8s40l8r48l8
+- ___block_descriptor_56_e8_32s40s48s_e32_v28?0B8"NSError"12"NSArray"20ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48s_e33_v32?0q8"NSString"16"NSError"24ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48s_e36_q16?0"NPKPassAssociatedInfoModel"8ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48s_e48_v16?0"<NPKPassAssociatedInfoManagerObserver>"8ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48s_e49_v24?0"PKPeerPaymentStatusResponse"8"NSError"16ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48s_e52_v32?0Q8"PKVerificationRequestRecord"16"NSError"24ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48s_e60_v24?0"PKAccountWebServicePassDetailsResponse"8"NSError"16ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48s_e68_v32?0"PKPaymentPass"8"PKPaymentProvisioningTracker"16"NSError"24ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48w_e38_v24?0"NSString"8"NPKExpressState"16ls32l8w48l8s40l8
+- ___block_descriptor_56_e8_32s40s48w_e58_v16?0"<NPKPrecursorPassUpgradeRequestsManagerObserver>"8lw48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40s48w_e5_v8?0ls32l8w48l8s40l8
+- ___block_descriptor_56_e8_32s40s_e19_"NSDictionary"8?0ls32l8s40l8
+- ___block_descriptor_56_e8_32s40s_e25_v32?0"NSString"8Q16^B24ls32l8s40l8
+- ___block_descriptor_56_e8_32s40w_e31_v24?0"PKAccount"8"NSError"16lw40l8s32l8
+- ___block_descriptor_56_e8_32w_e21_v20?0B8"NSString"12lw32l8
+- ___block_descriptor_57_e8_32s40s48bs_e41_v16?0"PKProvisioningSEStorageSnapshot"8ls32l8s40l8s48l8
+- ___block_descriptor_57_e8_32s40s48s_e32_v28?0B8"NSError"12"NSArray"20ls32l8s40l8s48l8
+- ___block_descriptor_57_e8_32s40s48s_e8_v16?0Q8ls32l8s40l8s48l8
+- ___block_descriptor_57_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_58_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_64_e8_32bs40r48r_e38_v28?0B8"NSNull"12"<PKCancelable>"20lr40l8r48l8s32l8
+- ___block_descriptor_64_e8_32s40bs48bs_e20_v20?0B8"NSError"12ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40bs48r56r_e38_v28?0B8"NSNull"12"<PKCancelable>"20ls40l8r48l8r56l8s32l8
+- ___block_descriptor_64_e8_32s40bs48r56w_e5_v8?0lw56l8s32l8r48l8s40l8
+- ___block_descriptor_64_e8_32s40bs_e5_v8?0ls32l8s40l8
+- ___block_descriptor_64_e8_32s40r_e5_v8?0ls32l8r40l8
+- ___block_descriptor_64_e8_32s40s48bs56bs_e5_v8?0ls32l8s48l8s40l8s56l8
+- ___block_descriptor_64_e8_32s40s48bs56w_e15_v16?0"NSSet"8ls32l8w56l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48bs_e17_v16?0"NSError"8ls32l8s48l8s40l8
+- ___block_descriptor_64_e8_32s40s48r56r_e28_v32?0"PKPassField"8Q16^B24lr48l8r56l8s32l8s40l8
+- ___block_descriptor_64_e8_32s40s48r56w_e5_v8?0lw56l8r48l8s32l8s40l8
+- ___block_descriptor_64_e8_32s40s48s56bs_e23_v16?0"PKHMAccessory"8ls32l8s40l8s48l8s56l8
+- ___block_descriptor_64_e8_32s40s48s56bs_e32_v28?0B8"NSError"12"NSArray"20ls56l8s32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48s56bs_e5_v8?0ls56l8s32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48s56bs_e8_v12?0B8ls32l8s40l8s48l8s56l8
+- ___block_descriptor_64_e8_32s40s48s56r_e20_v20?0B8"NSError"12lr56l8s32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48s56r_e32_v32?0"NSString"8"NSSet"16^B24ls32l8s40l8s48l8r56l8
+- ___block_descriptor_64_e8_32s40s48s56r_e5_v8?0lr56l8s32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48s56s_e16_v16?0"NSData"8ls32l8s40l8s48l8s56l8
+- ___block_descriptor_64_e8_32s40s48s56s_e17_v16?0"NSArray"8ls32l8s40l8s48l8s56l8
+- ___block_descriptor_64_e8_32s40s48s56s_e30_v16?0"PKTransitAppletState"8ls32l8s40l8s48l8s56l8
+- ___block_descriptor_64_e8_32s40s48s56s_e37_v32?0B8B12"LAContext"16"NSError"24ls32l8s40l8s48l8s56l8
+- ___block_descriptor_64_e8_32s40s48s56s_e39_v16?0"<NPKPassesDataSourceObserver>"8ls32l8s40l8s48l8s56l8
+- ___block_descriptor_64_e8_32s40s48s56w_e15_v16?0"NSSet"8ls32l8w56l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48s56w_e5_v8?0ls32l8s40l8w56l8s48l8
+- ___block_descriptor_64_e8_32s40s48s_e20_v24?0Q8"NSError"16ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48s_e8_v12?0B8ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48w_e37_v32?0B8B12"LAContext"16"NSError"24ls32l8w48l8s40l8
+- ___block_descriptor_64_e8_32s40s_e19_"NSDictionary"8?0ls32l8s40l8
+- ___block_descriptor_64_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_64_e8_32s40w_e5_v8?0ls32l8w40l8
+- ___block_descriptor_65_e8_32s40r48r56r_e5_v8?0lr40l8s32l8r48l8r56l8
+- ___block_descriptor_65_e8_32s40s48s56bs_e20_v20?0B8"NSError"12ls32l8s56l8s40l8s48l8
+- ___block_descriptor_65_e8_32s40s48s56s_e24_v32?0"PKGroup"8Q16^B24ls32l8s40l8s48l8s56l8
+- ___block_descriptor_65_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_66_e8_32s40bs48r56r_e5_v8?0lr48l8s32l8s40l8r56l8
+- ___block_descriptor_66_e8_32s40s48s56s_e15_v32?08Q16^B24ls32l8s40l8s48l8s56l8
+- ___block_descriptor_66_e8_32s40s48w_e5_v8?0lw48l8s32l8s40l8
+- ___block_descriptor_72_e8_32s40r48r56r64r_e30_v16?0"PKPaymentTransaction"8lr40l8r48l8r56l8s32l8r64l8
+- ___block_descriptor_72_e8_32s40s48bs56bs64r_e40_v16?0"PKBarcodeEventMetadataResponse"8ls32l8s48l8r64l8s40l8s56l8
+- ___block_descriptor_72_e8_32s40s48bs56r64r_e26_v28?0B8B12B16"NSError"20ls32l8r56l8s48l8r64l8s40l8
+- ___block_descriptor_72_e8_32s40s48bs56r64r_e5_v8?0lr56l8r64l8s32l8s40l8s48l8
+- ___block_descriptor_72_e8_32s40s48bs56w_e5_v8?0lw56l8s48l8s32l8s40l8
+- ___block_descriptor_72_e8_32s40s48r56r_e34_v24?0"PKPaymentApplication"8^B16ls32l8r48l8s40l8r56l8
+- ___block_descriptor_72_e8_32s40s48s56r64r_e61_v32?0"PKAsyncOperationState"8"NSNull"16?<v?"NSNull"B>24ls32l8s40l8s48l8r56l8r64l8
+- ___block_descriptor_72_e8_32s40s48s56r64w_e43_v20?0"PKBarcodeEventMetadataResponse"8B16lr56l8s32l8s40l8s48l8w64l8
+- ___block_descriptor_72_e8_32s40s48s56s64bs_e17_v16?0"NSError"8ls32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_72_e8_32s40s48s56s64bs_e8_v12?0B8ls32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_72_e8_32s40s48s56s64s_e26_v16?0"NPKGizmoDatabase"8ls32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_72_e8_32s40s48s56s64s_e37_v32?0"PKTransitCommutePlan"8Q16^B24ls32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_72_e8_32s40s48s56s64s_e5_v8?0ls32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_72_e8_32s40s48s56s_e5_v8?0ls32l8s40l8s48l8s56l8
+- ___block_descriptor_72_e8_32s40s48s56w_e5_v8?0lw56l8s32l8s40l8s48l8
+- ___block_descriptor_72_e8_32s40s_e29_v32?0"NSDictionary"8Q16^B24lu48l8u56l8s32l8s40l8
+- ___block_descriptor_73_e8_32s40s48s56s_e5_v8?0ls32l8s40l8s48l8s56l8
+- ___block_descriptor_73_e8_32s40s48s56s_e8_v12?0B8ls32l8s40l8s48l8s56l8
+- ___block_descriptor_80_e8_32s40bs48bs_e20_v24?0Q8"NSError"16ls32l8s40l8s48l8
+- ___block_descriptor_80_e8_32s40s48s56bs64r72r_e15_v16?0"NSSet"8ls32l8s40l8r64l8r72l8s56l8s48l8
+- ___block_descriptor_80_e8_32s40s48s56bs64r72r_e23_v16?0"PKPaymentPass"8ls32l8s40l8r64l8r72l8s56l8s48l8
+- ___block_descriptor_80_e8_32s40s48s56bs64r72r_e5_v8?0ls32l8s40l8r64l8r72l8s56l8s48l8
+- ___block_descriptor_80_e8_32s40s48s56s64s72bs_e11_v20?0B8Q12ls32l8s40l8s48l8s56l8s64l8s72l8
+- ___block_descriptor_80_e8_32s40s48s56s64s72s_e35_v32?0"NPKPassDescription"8Q16^B24ls32l8s40l8s48l8s56l8s64l8s72l8
+- ___block_descriptor_80_e8_32s40s48s56s64s72s_e47_v32?0"PKValueAddedServiceTransaction"8Q16^B24ls32l8s40l8s48l8s56l8s64l8s72l8
+- ___block_descriptor_81_e8_32s40s48s56s64s72s_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8
+- ___block_descriptor_88_e8_32s40s48s56bs64r72r_e61_v32?0"PKAsyncOperationState"8"NSNull"16?<v?"NSNull"B>24ls32l8s40l8r64l8s48l8r72l8s56l8
+- ___block_descriptor_88_e8_32s40s48s56s64s72bs80bs_e29_v24?0"NSArray"8"NSError"16ls32l8s40l8s72l8s80l8s48l8s56l8s64l8
+- ___block_descriptor_88_e8_32s40s48s56s64s72s80bs_e35_v32?0"NSNumber"8"NSString"16^B24ls32l8s40l8s48l8s56l8s64l8s72l8s80l8
+- ___block_descriptor_88_e8_32s40s48s56s64s72s80s_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8s80l8
+- ___block_descriptor_96_e8_32s40s48s56s64s72bs80bs88r_e35_v16?0"PKExtensionRequestHandler"8ls32l8s40l8s48l8s72l8s80l8r88l8s56l8s64l8
+- ___block_literal_global.100
+- ___block_literal_global.1022
+- ___block_literal_global.114
+- ___block_literal_global.116
+- ___block_literal_global.117
+- ___block_literal_global.118
+- ___block_literal_global.120
+- ___block_literal_global.124
+- ___block_literal_global.148
+- ___block_literal_global.154
+- ___block_literal_global.160
+- ___block_literal_global.164
+- ___block_literal_global.180
+- ___block_literal_global.184
+- ___block_literal_global.21
+- ___block_literal_global.211
+- ___block_literal_global.216
+- ___block_literal_global.240
+- ___block_literal_global.269
+- ___block_literal_global.275
+- ___block_literal_global.281
+- ___block_literal_global.299
+- ___block_literal_global.34
+- ___block_literal_global.384
+- ___block_literal_global.422
+- ___block_literal_global.436
+- ___block_literal_global.452
+- ___block_literal_global.545
+- ___block_literal_global.550
+- ___block_literal_global.57
+- ___block_literal_global.59
+- ___block_literal_global.61
+- ___block_literal_global.63
+- ___block_literal_global.64
+- ___block_literal_global.65
+- ___block_literal_global.656
+- ___block_literal_global.662
+- ___block_literal_global.67
+- ___block_literal_global.671
+- ___block_literal_global.679
+- ___block_literal_global.69
+- ___block_literal_global.71
+- ___block_literal_global.73
+- ___block_literal_global.75
+- ___block_literal_global.766
+- ___block_literal_global.77
+- ___block_literal_global.78
+- ___block_literal_global.81
+- ___block_literal_global.86
+- ___block_literal_global.92
+- ___block_literal_global.94
+- ___block_literal_global.95
+- ___block_literal_global.96
+- ___block_literal_global.97
+- ___block_literal_global.988
+- ___chkstk_darwin
+- ___dispatch_async_ar_block_invoke
+- ___forceUseMockPeerPaymentServer
+- ___getPKPaymentAuthorizationControllerClass_block_invoke
+- ___getPKPaymentAuthorizationControllerClass_block_invoke.cold.1
+- ___kCFBooleanFalse
+- ___ringerStateIsSilent_block_invoke
+- ___ringerStateIsSilent_block_invoke_2
+- ___swift_allocate_value_buffer
+- ___swift_async_entry_functlets
+- ___swift_async_ret_functlets
+- ___swift_destroy_boxed_opaque_existential_0
+- ___swift_destroy_boxed_opaque_existential_1
+- ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
+- ___swift_instantiateConcreteTypeFromMangledNameV2
+- ___swift_instantiateGenericMetadata
+- ___swift_memcpy0_1
+- ___swift_memcpy16_8
+- ___swift_memcpy1_1
+- ___swift_memcpy48_8
+- ___swift_noop_void_return
+- ___swift_project_boxed_opaque_existential_2
+- ___swift_project_value_buffer
+- ___unnamed_1
+- __atomicIsInFailForward
+- __compareProductByRegionCodes
+- __dispatch_queue_attr_concurrent
+- __inFailForwardQueue
+- __initVariables.onceToken
+- __outstandingSessionHashTable.hashTable
+- __outstandingSessionHashTable.onceToken
+- __readerModeResources.onceToken
+- __readerModeResources.resourceKeys
+- __swiftEmptyArrayStorage
+- __swiftEmptyDictionarySingleton
+- __swiftImmortalRefCount
+- __swift_FORCE_LOAD_$_swiftAVFoundation
+- __swift_FORCE_LOAD_$_swiftAVFoundation_$_NanoPassKit
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_NanoPassKit
+- __swift_stdlib_bridgeErrorToNSError
+- __swift_stdlib_malloc_size
+- __timestampDateFormatter.timestampDateFormatter
+- _associated conformance 11NanoPassKit0aB21BookPreferencesDomainV3KeyOSHAASQ
+- _associated conformance 11NanoPassKit10SerializerO6FormatOSHAASQ
+- _associated conformance So14PKAnalyticsKeyaSHSCSQ
+- _associated conformance So14PKAnalyticsKeyas20_SwiftNewtypeWrapperSCSY
+- _associated conformance So14PKAnalyticsKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
+- _associated conformance So18PKAnalyticsSubjectaSHSCSQ
+- _associated conformance So18PKAnalyticsSubjectas20_SwiftNewtypeWrapperSCSY
+- _associated conformance So18PKAnalyticsSubjectas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
+- _associated conformance So19PKAnalyticsCategoryaSHSCSQ
+- _associated conformance So19PKAnalyticsCategoryas20_SwiftNewtypeWrapperSCSY
+- _associated conformance So19PKAnalyticsCategoryas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
+- _audit_stringPassKitUI
+- _block_copy_helper
+- _block_copy_helper.12
+- _block_copy_helper.22
+- _block_copy_helper.32
+- _block_copy_helper.42
+- _block_copy_helper.52
+- _block_copy_helper.62
+- _block_descriptor
+- _block_descriptor.14
+- _block_descriptor.24
+- _block_descriptor.34
+- _block_descriptor.44
+- _block_descriptor.54
+- _block_descriptor.64
+- _block_destroy_helper
+- _block_destroy_helper.13
+- _block_destroy_helper.23
+- _block_destroy_helper.33
+- _block_destroy_helper.43
+- _block_destroy_helper.53
+- _block_destroy_helper.63
+- _dispatch_barrier_async
+- _dispatch_barrier_sync
+- _dispatch_queue_attr_make_with_autorelease_frequency
+- _dispatch_queue_attr_make_with_qos_class
+- _flat unique 11NanoPassKit17PreferencesDomain_px3KeyAaBPRts_XP
+- _getPKPaymentAuthorizationControllerClass.softClass
+- _inAppBillingContact
+- _inAppShippingContact
+- _kAudioServicesPlaySystemSoundOptionFlagsKey
+- _kNPKPeerPaymentMessagesTransactionsManagerAvailableActions
+- _kNPKPeerPaymentMessagesTransactionsManagerTransactionStatus
+- _kNPKUserPreferenceTransactionsStatus
+- _kdebug_trace
+- _malloc_size
+- _memcpy
+- _notify_get_state
+- _objc_claimAutoreleasedReturnValue
+- _objc_msgSend$FPInfo
+- _objc_msgSend$NPK_paymentBalanceWithAppletBalance:
+- _objc_msgSend$TCIs
+- _objc_msgSend$URLForImageWithScale:
+- _objc_msgSend$_NPKTransactionContextActionDescriptionForNPKTransactionContextAction:
+- _objc_msgSend$_acquireExpressTransactionSuppressAssertion
+- _objc_msgSend$_acquireNotificationSuppressionAssertion
+- _objc_msgSend$_acquireSuppressionAssertionIfNeededWithCompletion:
+- _objc_msgSend$_acquireSuppressionAssertionWithCompletion:
+- _objc_msgSend$_actionWithIdentifier:type:
+- _objc_msgSend$_actionWithIdentifiers:type:
+- _objc_msgSend$_activateLocalAuthenticationEvent:
+- _objc_msgSend$_addAppleBalanceToSections:fromModel:
+- _objc_msgSend$_addCardErrorForPaymentRequest:
+- _objc_msgSend$_addCreditDebitItemToSection:webService:
+- _objc_msgSend$_addGroupedItemsToSections:fromModel:webService:paymentSection:
+- _objc_msgSend$_addLegacyExpressModeEnabledUserNotificationForPassUniqueID:completion:
+- _objc_msgSend$_addNotificationWithNotificationIdentifier:title:body:categoryIdentifier:userInfo:wantsBadgedIcon:suppressed:completion:
+- _objc_msgSend$_allPassBalanceFieldsWithBalancesByID:
+- _objc_msgSend$_applicationStateWithLSApplicationState:
+- _objc_msgSend$_associatedInfoModelWithPass:currentModel:
+- _objc_msgSend$_authContext
+- _objc_msgSend$_backgroundQueue_initHWManager
+- _objc_msgSend$_balanceByIDWithBalances:
+- _objc_msgSend$_balanceFieldBalance:fieldIdentifier:
+- _objc_msgSend$_balanceFieldWithPassField:balance:isPrimaryBalance:
+- _objc_msgSend$_balanceFieldsWithBalancesByID:passFields:maximumCount:
+- _objc_msgSend$_balancePassFieldsFromPass:
+- _objc_msgSend$_baseFlowStepDescription
+- _objc_msgSend$_baseSessionStateForUpdate
+- _objc_msgSend$_callbackQueue_invokeDidCompleteForReason:withTransactionContext:shouldCleanupSession:
+- _objc_msgSend$_canHandleRKEActionForTileItem:pass:outAction:outFunction:outError:
+- _objc_msgSend$_canMakeDigitalIssuancePaymentsForTransitProductsWithCompletion:
+- _objc_msgSend$_canProceedWithTransactionForPass:selector:
+- _objc_msgSend$_cancelLocalAuthentication
+- _objc_msgSend$_cardNotFoundTimerFired
+- _objc_msgSend$_cardsOnFileForProduct:updateHandler:completionHandler:
+- _objc_msgSend$_checkContactlessValidity:authorizationValidity:performWork:
+- _objc_msgSend$_checkContactlessValidity:performWork:
+- _objc_msgSend$_checkForConflictsInEnablingExpressForPass:completion:
+- _objc_msgSend$_checkSpaceAvailableForAppletTypes:triedCleanup:completion:
+- _objc_msgSend$_chooseProductFromFlowPickerSection:requestContext:transitioningToStep:
+- _objc_msgSend$_cleanupBarcodePaymentSession
+- _objc_msgSend$_cleanupQuickPaymentSession
+- _objc_msgSend$_commutePlanFieldsWithBalancesByID:dynamicPlansByID:
+- _objc_msgSend$_commutePlanWithFelicaPassProperties:
+- _objc_msgSend$_commutePlansByIDWithPlans:
+- _objc_msgSend$_completedAuthenticationForTransaction:
+- _objc_msgSend$_configureWebServiceIfNecessary:completion:
+- _objc_msgSend$_convertChooseCredentialsStepContext:protoContext:
+- _objc_msgSend$_convertChooseFlowStepContext:protoContext:
+- _objc_msgSend$_convertChooseProductStepContext:protoContext:
+- _objc_msgSend$_convertDigitalIssuanceAmountStepContext:protoContext:
+- _objc_msgSend$_convertDigitalIssuancePaymentStepContext:protoContext:
+- _objc_msgSend$_convertIssuerVerificationChannelsStepContext:protoContext:
+- _objc_msgSend$_convertIssuerVerificationCodeStepContext:protoContext:
+- _objc_msgSend$_convertIssuerVerificationFieldsStepContext:protoContext:
+- _objc_msgSend$_convertLocalDeviceManualEntry:protoContext:
+- _objc_msgSend$_convertLocalDeviceManualEntryProgress:protoContext:
+- _objc_msgSend$_convertManualEntryStepContext:protoContext:
+- _objc_msgSend$_convertMoreInformationStepContext:protoContext:
+- _objc_msgSend$_convertPasscodeUpgradeStepContext:protoContext:
+- _objc_msgSend$_convertProtoWelcomeStepContext:requestContext:
+- _objc_msgSend$_convertProvisioningProgressStepContext:protoContext:
+- _objc_msgSend$_convertProvisioningResultStepContext:protoContext:
+- _objc_msgSend$_convertReaderModeEntryStepContext:protoContext:
+- _objc_msgSend$_convertReaderModeIngestionStepContext:protoContext:
+- _objc_msgSend$_convertSecondaryManualEntryStepContext:protoContext:
+- _objc_msgSend$_convertTermsAndConditionsStepContext:protoContext:
+- _objc_msgSend$_convertWelcomeStepContext:protoContext:
+- _objc_msgSend$_credentialReadonlyFieldIdentifiers
+- _objc_msgSend$_credentialTypeForEvent:
+- _objc_msgSend$_curatedDefaultPaymentSetupProvisioningFields
+- _objc_msgSend$_deactivateLocalAuthenticationEvent:
+- _objc_msgSend$_didFinishLoadPasses
+- _objc_msgSend$_displayableCouldNotAddCardErrorWithUnderlyingError:
+- _objc_msgSend$_displayableErrorWithIneligibilityReason:learnMoreURL:
+- _objc_msgSend$_displayableErrorWithUnderlyingVerificationError:
+- _objc_msgSend$_downloadAndAddUpdatedPassForPaymentPass:completion:
+- _objc_msgSend$_downloadRemoteAssetsAndAddPaymentPass:completion:
+- _objc_msgSend$_enableExpressForPass:mode:withCredential:
+- _objc_msgSend$_endProvisioningFlowWithError:requestContext:
+- _objc_msgSend$_endProvisioningFlowWithSuccessForPass:requestContext:
+- _objc_msgSend$_ensureMetadataForCredentials:updateHandler:completionHandler:
+- _objc_msgSend$_expressPassInformationWithTechnologyType:
+- _objc_msgSend$_expressPassesInformationWithAutomaticSelectionTechnologyType:
+- _objc_msgSend$_expressPassesInformationWithTCIs:
+- _objc_msgSend$_expressStateForPassWithUniqueID:
+- _objc_msgSend$_expressStateForPassWithUniqueID:fromControllerState:
+- _objc_msgSend$_extendSessionTimeoutTimer
+- _objc_msgSend$_fetchAddRequestWithCertificatesResponse:requestContext:
+- _objc_msgSend$_fetchAllPeerPaymentTransactionsWithPeerPaymentPassID:
+- _objc_msgSend$_fetchDecryptedBarcodeWithCredential:
+- _objc_msgSend$_fetchHomeAccessStatusForPass:
+- _objc_msgSend$_fetchInAppProvisioningCertificates:
+- _objc_msgSend$_fetchMostRecentAccountBalanceForPass:
+- _objc_msgSend$_fetchMostRecentBalancesForPass:
+- _objc_msgSend$_fetchMostRecentCommutePlansForPass:
+- _objc_msgSend$_fetchMostRecentInfoForPass:
+- _objc_msgSend$_fetchMostRecentRangingSuspensionReasonForPass:
+- _objc_msgSend$_fetchMostRecentTilesForPass:
+- _objc_msgSend$_fetchMostRecentTransitPropertiesAndAppletStateForPass:
+- _objc_msgSend$_fetchNFCState
+- _objc_msgSend$_fetchPrecursorPassDescriptionForPass:
+- _objc_msgSend$_fieldForCommutePlan:action:isLegacyPass:balancedByID:
+- _objc_msgSend$_fieldRequiresLocalEntry:
+- _objc_msgSend$_fieldsModelCompleteExceptForLocalFields:
+- _objc_msgSend$_filterAssociatedCredentials:forProduct:
+- _objc_msgSend$_filteredPaymentSetupFields:forLocalDeviceEntry:
+- _objc_msgSend$_filteredPaymentSetupProducts:localCredentials:setupContext:webService:mobileCarrierRegion:readerModeSupported:digitalIssuanceSupported:
+- _objc_msgSend$_flowPickerSectionsWithContext:provisioningController:readerModeSupported:digitalIssuanceSupported:
+- _objc_msgSend$_formattedValueWithCommutePlan:balancesByID:
+- _objc_msgSend$_handleActiveSecureElementManagerSession:
+- _objc_msgSend$_handleAppleBalanceAccountDetailsAcknowledgedWithProduct:requestContext:
+- _objc_msgSend$_handleAppleBalanceProductChosen:requestContext:
+- _objc_msgSend$_handleApplicationChangeNotificationWithWorkspaceApplicationProxies:newStateResolver:
+- _objc_msgSend$_handleAuthIntentEventFromSource:
+- _objc_msgSend$_handleButtonEvent:
+- _objc_msgSend$_handleConventionalTransactionWithContext:
+- _objc_msgSend$_handleDigitalIssuanceTermsAccepted:
+- _objc_msgSend$_handleEligibiltySuccessWithContext:
+- _objc_msgSend$_handleEndOfProvisioningFlowForCurrentPass:requestContext:
+- _objc_msgSend$_handleExpressStateChange
+- _objc_msgSend$_handleFailedEnableExpress
+- _objc_msgSend$_handleFailedPassUpgrade
+- _objc_msgSend$_handleFailedUserAuthentication
+- _objc_msgSend$_handleFieldEntry
+- _objc_msgSend$_handleFieldExit
+- _objc_msgSend$_handleFinished:
+- _objc_msgSend$_handleInterruption
+- _objc_msgSend$_handleInvalidation
+- _objc_msgSend$_handleLocalAuthenticationPolicyEvaluatedWithContext:error:
+- _objc_msgSend$_handleNewContactlessSession:
+- _objc_msgSend$_handlePasscodeUpgradeCompleteWithSuccess:error:requestContext:
+- _objc_msgSend$_handlePreconditionsVerified:
+- _objc_msgSend$_handleProceedWithCredentials:chosenByUser:requestContext:
+- _objc_msgSend$_handleProductChosen:includeCardsOnFile:requestContext:
+- _objc_msgSend$_handleProvisioningFlowStarted:
+- _objc_msgSend$_handleRKEActionRequestedForPass:action:function:withSession:completion:
+- _objc_msgSend$_handleReaderModeTermsAccepted:
+- _objc_msgSend$_handleReceivedAccountUpdateWithAccount:
+- _objc_msgSend$_handleSecureElementSessionFailureWithError:
+- _objc_msgSend$_handleServiceModeRequestEnded
+- _objc_msgSend$_handleServiceModeRequestedForPassWithUniqueID:
+- _objc_msgSend$_handleSessionHasCredentialIfNecessaryWithCurrentPass:
+- _objc_msgSend$_handleSessionTimeout
+- _objc_msgSend$_handleSessionTimerFired
+- _objc_msgSend$_handleShareForMailboxAddress:referralSource:
+- _objc_msgSend$_handleShareableCredentialsAcceptanceWithShareableCredentials:thumbnailImageData:
+- _objc_msgSend$_handleSubcredentialInvitationAcceptanceForLocalInvitationIdentifier:remoteInvitationIdentifier:contactName:thumbnailImageData:
+- _objc_msgSend$_handleSuccessForPass:
+- _objc_msgSend$_handleSuccessfulUserAuthenticationWithCredential:forPass:withExpressMode:
+- _objc_msgSend$_handleTimeoutTimer
+- _objc_msgSend$_handleTransactionCompleteDarwinNotification
+- _objc_msgSend$_handleTransactionCompleteWithContext:
+- _objc_msgSend$_handleUniversalLinkURLAsShoeboxURLForPathComponents:shouldParsePathComponents:urlComponents:
+- _objc_msgSend$_handleUpdatedPaymentTransaction:
+- _objc_msgSend$_handleUpdatedTransactionStatus:
+- _objc_msgSend$_handleUserCancelled
+- _objc_msgSend$_handleValueAddedServiceTransactions:forValueAddedServicePasses:paymentTransaction:outUserInterventionRequiredPasses:
+- _objc_msgSend$_handleVerificationCode:forPass:context:
+- _objc_msgSend$_handleVerificationFieldsForPass:context:
+- _objc_msgSend$_handleVerificationResponseForPass:context:
+- _objc_msgSend$_handlerQueue_buttonHandler
+- _objc_msgSend$_hasNoTransactionStartOrEndNotificationForTechnologyType:
+- _objc_msgSend$_hasNonPeerPaymentAcceptedPasses
+- _objc_msgSend$_identifierFromAction:type:
+- _objc_msgSend$_inQueue_releaseAssertionWithOwner:
+- _objc_msgSend$_initVariables
+- _objc_msgSend$_initializeHIDClient
+- _objc_msgSend$_insertPaymentTransactionForActiveBarcode
+- _objc_msgSend$_internalQueue_deactivateSessionWithCompletion:
+- _objc_msgSend$_internalQueue_getContactlessAndAuthorizationValidityAndPerformWork:
+- _objc_msgSend$_internalQueue_invokeDeactivationCompletionBlocks
+- _objc_msgSend$_internalQueue_processReceivedAccountUpdateWithAccount:
+- _objc_msgSend$_internalQueue_regenerateAssociatedInfoModelForPass:inModelsByID:
+- _objc_msgSend$_internalQueue_removePassWithUniqueIDs:
+- _objc_msgSend$_internalQueue_setCurrentPass:
+- _objc_msgSend$_internalQueue_startFieldDetector
+- _objc_msgSend$_internalQueue_stopFieldDetector
+- _objc_msgSend$_internalQueue_updateContactlessSessionForPass:vasPasses:deferAuthorization:
+- _objc_msgSend$_internalQueue_updateContactlessValidityAndPerformWork:
+- _objc_msgSend$_internalQueue_updateExpressPasses
+- _objc_msgSend$_internalQueue_updateSessionWithCurrentPassAndLoyaltyState
+- _objc_msgSend$_invalidateCardNotFoundTimer
+- _objc_msgSend$_invokeCompletionHandler
+- _objc_msgSend$_invokeCompletionHandlerForInvalidationWithError:
+- _objc_msgSend$_invokeCompletionHandlerWithSuccess:
+- _objc_msgSend$_invokeExtensionToCollectPaymentInformation
+- _objc_msgSend$_invokeStateUpdateForReason:shouldCleanupSession:
+- _objc_msgSend$_isDeviceLocked
+- _objc_msgSend$_isEqualToSessionState:
+- _objc_msgSend$_isHSA2Enabled
+- _objc_msgSend$_isNFCExpressModeSupportedForPass:
+- _objc_msgSend$_isPassEligible:
+- _objc_msgSend$_isPassWithAccountBalanceForPass:
+- _objc_msgSend$_isPasscodeUpgradeRequired
+- _objc_msgSend$_isResolveLocalEligibilityRequired
+- _objc_msgSend$_isValidRelayServerURL:outPathComponents:
+- _objc_msgSend$_isValidateSecurityRequirementsRequired
+- _objc_msgSend$_isWristDetectDisabled
+- _objc_msgSend$_loadContentAndImageSetsForAllPassesIfNecessaryWithCompletion:
+- _objc_msgSend$_loadContentAndImageSetsForPass:completion:
+- _objc_msgSend$_loadContentAndImageSetsIfNecessaryForPasses:completion:
+- _objc_msgSend$_loadPassContentIfNeeded:
+- _objc_msgSend$_loadPasses
+- _objc_msgSend$_localRequiredFieldsFromRequirementsResponse
+- _objc_msgSend$_managerContextForContactlessInterfaceTransactionContext:
+- _objc_msgSend$_nameForLocalAuthenticationEvent:
+- _objc_msgSend$_newExpressStateForMode:pass:enable:
+- _objc_msgSend$_newPaymentEligibilityRequest
+- _objc_msgSend$_newPaymentProvisioningRequest
+- _objc_msgSend$_newPaymentRequirementsRequest
+- _objc_msgSend$_noteProvisioningStateChangeForReaderMode:
+- _objc_msgSend$_notifyObservers:
+- _objc_msgSend$_notifyObserversOfUpdatedRestrictedGuestState:
+- _objc_msgSend$_notifyObserversOfUpdatedTransitPassInfoForModel:
+- _objc_msgSend$_onqueue_transactionCompletedForRKEAction:function:withApplicationIdentifier:applicationKeyIdentifier:
+- _objc_msgSend$_onqueue_transactionCompletedForStandaloneTransactionEvent:withApplicationIdentifier:applicationKeyIdentifier:
+- _objc_msgSend$_onqueue_transactionEndedWithApplicationIdentifier:applicationKeyIdentifier:
+- _objc_msgSend$_onqueue_transactionFailedWithApplicationIdentifier:applicationKeyIdentifier:
+- _objc_msgSend$_onqueue_transactionStartedWithApplicationIdentifier:applicationKeyIdentifier:
+- _objc_msgSend$_operationSourceFromRawValue:
+- _objc_msgSend$_outstandingSessionHashTable
+- _objc_msgSend$_parseExpressNotificationObject:outApplicationIdentifier:outApplicationKeyIdentifier:
+- _objc_msgSend$_parseHomeKeyUWBExpressNotificationObject:outApplicationIdentifier:outApplicationKeyIdentifier:outReaderIdentifier:outTimestamp:outTransactionLockStatus:outLockOperationSource:
+- _objc_msgSend$_parseRKEActionNotificationObject:outApplicationIdentifier:outApplicationKeyIdentifier:outFunctionNumber:outActionNumber:outExecutionStatusNumber:outErrorMessage:
+- _objc_msgSend$_parseVehicleStatusChangeNotificationObject:outApplicationIdentifier:outSubcredentialIdentifier:
+- _objc_msgSend$_paymentBalancesFromTransitAppletBalances:
+- _objc_msgSend$_paymentRequestForAmount:
+- _objc_msgSend$_paymentRequestForAmount:serviceProviderProduct:productItem:
+- _objc_msgSend$_performDelegateCallback:
+- _objc_msgSend$_performEligibility:
+- _objc_msgSend$_performNextActionForProvisioningState:
+- _objc_msgSend$_performNextStepForProvisionedPass:moreInfoAcknowledged:requestContext:
+- _objc_msgSend$_performNextStepForProvisionedPass:requestContext:
+- _objc_msgSend$_performPasscodeUpgrade:
+- _objc_msgSend$_performProvision:
+- _objc_msgSend$_performProvisionWithRequest:requestContext:assertion:
+- _objc_msgSend$_performProvisioningEligibility:
+- _objc_msgSend$_performRequirementsOrEligibilityForInAppProvisioning:
+- _objc_msgSend$_performResolveLocalEligibilityARequirements:completion:
+- _objc_msgSend$_performSEStorageCheck:
+- _objc_msgSend$_performTerms:
+- _objc_msgSend$_performTransitionToStep:withContext:
+- _objc_msgSend$_performValidateSecurityRequirements:completion:
+- _objc_msgSend$_physicalCardURLFromMetadata:forScale:
+- _objc_msgSend$_playSoundsWithIdentifier:
+- _objc_msgSend$_prepareSessionStateForSendingToObservers:
+- _objc_msgSend$_presentEntitlementDetailsForPassUniqueID:
+- _objc_msgSend$_presentExpiredPassList
+- _objc_msgSend$_presentListActionsMenu
+- _objc_msgSend$_presentNextLocalAuthenticationEvent
+- _objc_msgSend$_presentPassBalanceDetailsForPassWithUniqueID:
+- _objc_msgSend$_presentPassDetailsForPassWithUniqueID:
+- _objc_msgSend$_presentPassList
+- _objc_msgSend$_presentPassListPreventAppUninstall
+- _objc_msgSend$_presentProvisioningFlow
+- _objc_msgSend$_presentSavingsDetailsWithPassUniqueID:
+- _objc_msgSend$_presentShareDetailsForPassUniqueID:shareIdentifier:
+- _objc_msgSend$_presentTransactionDetailsForPassWithUniqueID:transactionIdentifier:
+- _objc_msgSend$_presentTransactionDetailsForPassWithUniqueID:transactionServiceIdentifier:transactionSourceIdentifier:
+- _objc_msgSend$_primaryAction
+- _objc_msgSend$_primaryDisplayableBalanceFieldWithBalancesByID:
+- _objc_msgSend$_processAccountBalancesForPassWithUniqueID:withAccount:
+- _objc_msgSend$_processAddCardHostWithPathComponents:
+- _objc_msgSend$_processBalanceSummaryHostWithPathComponents:queryItems:
+- _objc_msgSend$_processCardHostWithPathComponents:queryItems:
+- _objc_msgSend$_processDailyCashHostWithPathComponents:queryItems:
+- _objc_msgSend$_processExpiredPassListHostWithPathComponents:
+- _objc_msgSend$_processListActionsMenuHostWithPathComponents:
+- _objc_msgSend$_processPassUpdateHostWithPathComponents:
+- _objc_msgSend$_processPassesHostWithPathComponents:urlComponents:
+- _objc_msgSend$_processProvisioningContinuityHostWithPathComponents:
+- _objc_msgSend$_processSavingsHostWithPathComponents:
+- _objc_msgSend$_processShareHostWithPathComponents:urlComponents:
+- _objc_msgSend$_processShareableCredentialsHostWithQueryItems:
+- _objc_msgSend$_processShoeboxSchemeForHost:pathComponents:urlComponents:
+- _objc_msgSend$_processShoeboxSchemeForURL:
+- _objc_msgSend$_processSubcredentialInvitationHostWithQueryItems:
+- _objc_msgSend$_processTransactionHostWithQueryItems:
+- _objc_msgSend$_processedAuthenticationMechanismForTransaction:
+- _objc_msgSend$_productsArrayFromPickerSection:
+- _objc_msgSend$_provisioningLocalizedProgressDescriptionDidChange:
+- _objc_msgSend$_queue_addObserver:
+- _objc_msgSend$_queue_expressPassForTransactionApplicationIdentifier:transactionApplicationKeyIdentifier:
+- _objc_msgSend$_queue_invalidateUpgradeControllerForPassWithUniqueID:
+- _objc_msgSend$_queue_notifyObserversDidChangeUpgradeRequestDescription:forPassWithUniqueID:
+- _objc_msgSend$_queue_removeObserver:
+- _objc_msgSend$_queue_siblingExpressPassesForExpressPass:applicationIdentifier:
+- _objc_msgSend$_rangingSuspensionReasonForPass:
+- _objc_msgSend$_rawCountValueWithCommutePlan:balancesByID:
+- _objc_msgSend$_readerModeEntryAllowedForProduct:
+- _objc_msgSend$_readerModeResources
+- _objc_msgSend$_refreshAccountBalanceIfApplicableForPass:withAccount:
+- _objc_msgSend$_registerForServiceModeRequestNotification
+- _objc_msgSend$_registerGroupControllerGroupObserver
+- _objc_msgSend$_registerObservers
+- _objc_msgSend$_releaseAssertionFromOwnerObject:withDelay:completion:
+- _objc_msgSend$_releaseExpressTransactionSuppressionAssertion
+- _objc_msgSend$_releaseNotificationSuppressionAssertion
+- _objc_msgSend$_releaseSuppressionAssertion
+- _objc_msgSend$_reloadPasses
+- _objc_msgSend$_reloadPassesWithCompletion:
+- _objc_msgSend$_remoteObjectProxy
+- _objc_msgSend$_remoteObjectProxySynchronous:withFailureHandler:
+- _objc_msgSend$_remoteObjectProxyWithErrorHandler:
+- _objc_msgSend$_removePassIfNecessary
+- _objc_msgSend$_requestNotificationAuthorizationWithOptions:completion:
+- _objc_msgSend$_requestNotificationAuthorizationWithPreconditionCheck:completion:
+- _objc_msgSend$_requestPassDetailsForAccountCredential:withCompletionHandler:
+- _objc_msgSend$_requestRequirements:
+- _objc_msgSend$_requestUserAuthenticationForPass:withExpressMode:
+- _objc_msgSend$_requestVerificationOptionsForPass:context:
+- _objc_msgSend$_requestWithNotificationIdentifier:title:body:categoryIdentifier:userInfo:wantsBadgedIcon:suppressed:
+- _objc_msgSend$_requiredFieldsFromRequirementsResponse
+- _objc_msgSend$_requiredFieldsFromRequirementsResponseExcludingLocalFields
+- _objc_msgSend$_resetReaderModeProvisioningState
+- _objc_msgSend$_resolveGreenTeaDataUsageIfNecessaryWithCompletion:
+- _objc_msgSend$_resyncState
+- _objc_msgSend$_resyncStateWithCompletion:
+- _objc_msgSend$_retrieveAppState:
+- _objc_msgSend$_saveTransactionFromContext:
+- _objc_msgSend$_scheduleDidActivateEventForPass:
+- _objc_msgSend$_secondaryFilteredFields:forCredential:
+- _objc_msgSend$_secureElementDidUpdateRestrictedModeState:
+- _objc_msgSend$_secureElementPassMatchingAID:subcredentialIdentifier:
+- _objc_msgSend$_sendDidEncounterError:requestContext:
+- _objc_msgSend$_sendDidFinishWithPass:error:
+- _objc_msgSend$_sendDidTransitionFromStep:toStep:withContext:
+- _objc_msgSend$_sendLowPowerModeEnabledStateToObservers:
+- _objc_msgSend$_sendSessionStateToObservers:
+- _objc_msgSend$_sendTransactionCompleteToDelegate
+- _objc_msgSend$_sessionQueue_authorizeWithUseCredential:deferAuthorizationIfCredentialUsed:
+- _objc_msgSend$_sessionQueue_enablePersistentCardEmulation
+- _objc_msgSend$_sessionQueue_invokeAppropriateCallbackForActivationWithSuccess:invokeOnSuccess:contactlessValidity:forPass:
+- _objc_msgSend$_sessionQueue_startContactlessSessionWithSuccessfulCompletionOnInternalQueue:
+- _objc_msgSend$_sessionQueue_updateContactlessSessionForPass:paymentApplications:vasPasses:sessionConfirmed:deferAuthorization:
+- _objc_msgSend$_sessionStateForBarcodeTransactionStatus:paymentBarcode:transaction:
+- _objc_msgSend$_sessionStateForExpressTransactionStatus:pass:paymentApplication:concreteTransactions:ephemeralTransaction:mutatedBalances:appletState:
+- _objc_msgSend$_sessionStateForPaymentBarcode:
+- _objc_msgSend$_sessionStateForTransactionContext:
+- _objc_msgSend$_sessionStateForUserCanceledBarcodeTransaction
+- _objc_msgSend$_setQueue:
+- _objc_msgSend$_setTimeoutTimer
+- _objc_msgSend$_setupCardIngester
+- _objc_msgSend$_setupInterface
+- _objc_msgSend$_sharedPeerPaymentWebService
+- _objc_msgSend$_shouldAddCommutePlan:action:withBalancesByID:
+- _objc_msgSend$_shouldUseBalanceForAccount:
+- _objc_msgSend$_showCurrentPasscodePromptOrComplete
+- _objc_msgSend$_startCardNotFoundTimer
+- _objc_msgSend$_startDigitalIssuancePaymentWithAmount:requestContext:
+- _objc_msgSend$_startDigitalIssuancePaymentWithAmount:requestContext:serviceProviderProduct:productItem:
+- _objc_msgSend$_startIngestion
+- _objc_msgSend$_startListeningForCarKeyNotifications
+- _objc_msgSend$_startListeningForExpressNotifications
+- _objc_msgSend$_startListeningForGenericNotifications
+- _objc_msgSend$_startListeningForHomeKeyNotifications
+- _objc_msgSend$_startProvisioningForCredential:requestContext:
+- _objc_msgSend$_startReaderModeIngestion:
+- _objc_msgSend$_startReadingCard
+- _objc_msgSend$_startSessionTimeoutTimer
+- _objc_msgSend$_startSessionTimerWithReason:
+- _objc_msgSend$_startTransferringCard
+- _objc_msgSend$_stopListeningForExpressNotifications
+- _objc_msgSend$_stopSessionTimeoutTimer
+- _objc_msgSend$_stopSessionTimer
+- _objc_msgSend$_subcredentialIdentifierForPass:
+- _objc_msgSend$_subtitleForState:
+- _objc_msgSend$_tearDownCardIngester
+- _objc_msgSend$_timestampDateFormatter
+- _objc_msgSend$_titleForState:
+- _objc_msgSend$_transactionEventFromLockStatus:
+- _objc_msgSend$_transactionQueue_statusOfPaymentTransactionWithServiceIdentifier:
+- _objc_msgSend$_transactionsQueue_notifyStatusUpdateOfTransactionWithServiceIdentifier:
+- _objc_msgSend$_transactionsQueue_setStatus:forPaymentTransactionWithServiceIdentifier:notifyUpdate:
+- _objc_msgSend$_transactionsQueue_transactionDetailsCreatedIfNecessaryForServiceIdentifier:
+- _objc_msgSend$_transitionBasedOnCredentials:product:requestContext:
+- _objc_msgSend$_transitionBasedOnTermsForReason:URL:requestContext:
+- _objc_msgSend$_transitionToAppleBalanceAccountDetailsWithProduct:requestContext:
+- _objc_msgSend$_transitionToChooseCredentials:product:requestContext:
+- _objc_msgSend$_transitionToChooseFlowWithSections:requestContext:
+- _objc_msgSend$_transitionToChooseProductWithProducts:requestContext:
+- _objc_msgSend$_transitionToCompletedRKEAction:function:forExpressPass:
+- _objc_msgSend$_transitionToDigitalIssuanceForProduct:requestContext:
+- _objc_msgSend$_transitionToFlowIngestionState:
+- _objc_msgSend$_transitionToFlowIngestionState:progress:
+- _objc_msgSend$_transitionToIngestionProgress:
+- _objc_msgSend$_transitionToManualEntry:
+- _objc_msgSend$_transitionToMoreInformationWithItems:pass:requestContext:
+- _objc_msgSend$_transitionToProductDisambiguationWithProducts:requestContext:
+- _objc_msgSend$_transitionToProvisioningForCredential:product:requestContext:
+- _objc_msgSend$_transitionToProvisioningProgressWithRequestContext:
+- _objc_msgSend$_transitionToReaderModeForProduct:requestContext:
+- _objc_msgSend$_transitionToSecondaryManualEntryWithFields:credential:requestContext:
+- _objc_msgSend$_transitionToStandaloneTransactionEvent:forExpressPass:
+- _objc_msgSend$_transitionToStandaloneTransactionEvent:forExpressPass:withExpressUWBInfo:
+- _objc_msgSend$_transitionToStatus:forExpressPass:paymentApplicationIdentifier:
+- _objc_msgSend$_transitionToVerificationChannelsWithPaymentPass:channels:requestContext:
+- _objc_msgSend$_transitionToVerificationCodeWithPaymentPass:channel:requestContext:
+- _objc_msgSend$_transitionToVerificationFieldsWithPaymentPass:fields:requestContext:
+- _objc_msgSend$_updateAccount
+- _objc_msgSend$_updateAllPassesItemsFieldsPendingUpdateStatus
+- _objc_msgSend$_updateAuthorizationValidity
+- _objc_msgSend$_updateAutomaticSelectionPasses
+- _objc_msgSend$_updateCurrentPasses
+- _objc_msgSend$_updateCurrentPaymentBarcodeWithBarcodeIdentifier:decryptedBarcodeCredential:error:
+- _objc_msgSend$_updateCurrentTransactionStatus:transaction:
+- _objc_msgSend$_updateModelWithAccessory:forPassID:withReaderID:
+- _objc_msgSend$_updatePassInfoManagerForPassUniqueID:updateBlock:
+- _objc_msgSend$_updateSessionWithCredentialAndActivate
+- _objc_msgSend$_updateStateWithNewState:completion:
+- _objc_msgSend$_updateVerificationForPass:channel:context:
+- _objc_msgSend$_updatedPassItemFieldWithPaymentPass:transitAppletBalances:appletState:paymentApplication:
+- _objc_msgSend$_upgradeExpressModeForPass:withCredential:
+- _objc_msgSend$_verifyPasscodeStateIfNecessaryWithCompletion:
+- _objc_msgSend$acceptTerms
+- _objc_msgSend$acceptTerms:
+- _objc_msgSend$acceptedPasses
+- _objc_msgSend$accessReportingType
+- _objc_msgSend$accessories
+- _objc_msgSend$accessory
+- _objc_msgSend$accountBalanceForAccount:
+- _objc_msgSend$accountCredential
+- _objc_msgSend$accountService
+- _objc_msgSend$accountSummary
+- _objc_msgSend$accountWithCompletion:
+- _objc_msgSend$actionType
+- _objc_msgSend$actionURL
+- _objc_msgSend$actions
+- _objc_msgSend$activatePaymentApplications:forPaymentPass:
+- _objc_msgSend$activateValueAddedServicePasses:
+- _objc_msgSend$activatedPaymentApplications
+- _objc_msgSend$activatedValueAddedServicePasses
+- _objc_msgSend$activationData
+- _objc_msgSend$activeLocalAuthenticationEvent
+- _objc_msgSend$activityType
+- _objc_msgSend$addGroupObserver:
+- _objc_msgSend$addNotificationRequest:withCompletionHandler:
+- _objc_msgSend$addPaymentPassController:didFinishAddingPaymentPass:error:
+- _objc_msgSend$addPaymentPassController:generateRequestWithCertificateChain:nonce:nonceSignature:completionHandler:
+- _objc_msgSend$addRemoteDevicePendingProvisionings:
+- _objc_msgSend$addUpdateReasons:
+- _objc_msgSend$addUserNotificationForEnabledExpressMode:passUniqueID:completion:
+- _objc_msgSend$addUserNotificationOfType:passUniqueID:completion:
+- _objc_msgSend$address
+- _objc_msgSend$allChannels
+- _objc_msgSend$allPassItemsFields
+- _objc_msgSend$allSetupProducts
+- _objc_msgSend$allSupportedProtocols
+- _objc_msgSend$allowNonSecureHTTP
+- _objc_msgSend$allowedPayloadIDs
+- _objc_msgSend$allowedRelayServerHostsForRegion:
+- _objc_msgSend$allowsAddLater
+- _objc_msgSend$allowsAddingDifferentCard
+- _objc_msgSend$allowsManualEntry
+- _objc_msgSend$allowsReaderModeEntry
+- _objc_msgSend$altDSIDForAccount:
+- _objc_msgSend$ambiguousPassUniqueIdentifierForTransactionWithServiceIdentifier:completion:
+- _objc_msgSend$amounts
+- _objc_msgSend$appState
+- _objc_msgSend$appleBalanceDetails
+- _objc_msgSend$appleID
+- _objc_msgSend$appletCurrencyCode
+- _objc_msgSend$appletTypeIdentifier
+- _objc_msgSend$appletWithIdentifier:
+- _objc_msgSend$applicationState
+- _objc_msgSend$applicationStateListener:applicationStateDidChangeFrom:to:
+- _objc_msgSend$associatedAccountFeatureIdentifier
+- _objc_msgSend$associatedApplicationIdentifiers
+- _objc_msgSend$associatedCredentials
+- _objc_msgSend$associatedEnteredValueIdentifier
+- _objc_msgSend$associatedPlanIdentifier
+- _objc_msgSend$authKitAccountWithAltDSID:
+- _objc_msgSend$authenticationContext
+- _objc_msgSend$authenticationRequested
+- _objc_msgSend$authenticationRequired
+- _objc_msgSend$authorizationCredential
+- _objc_msgSend$authorizationStatus
+- _objc_msgSend$authorize18013RequestWithDataToRelease:credential:
+- _objc_msgSend$authorizeAndStartCardEmulationWithCredential:deferAuthorization:
+- _objc_msgSend$authorizedFKAccount
+- _objc_msgSend$availableActionsFetchDate
+- _objc_msgSend$availableBalance
+- _objc_msgSend$backStepIdentifier
+- _objc_msgSend$balanceIdentifier
+- _objc_msgSend$bankConnectAccount
+- _objc_msgSend$bankConnectDataProvider
+- _objc_msgSend$barcodeIdentifier
+- _objc_msgSend$barcodePaymentSession
+- _objc_msgSend$barcodePaymentSession:didReceivePaymentBarcode:
+- _objc_msgSend$barcodePaymentSession:didUpdateTransactionStatus:withTransaction:
+- _objc_msgSend$base64EncodedStringWithOptions:
+- _objc_msgSend$beginExtensionRequestWithOptions:completion:
+- _objc_msgSend$beginLocalAuthenticationWithCompletion:
+- _objc_msgSend$beginLocalAuthenticationWithPolicy:completion:
+- _objc_msgSend$beginSubjectReporting:
+- _objc_msgSend$beginUpdates
+- _objc_msgSend$betaPaymentNetworksForRegion:
+- _objc_msgSend$body
+- _objc_msgSend$bookedBalance
+- _objc_msgSend$calendar
+- _objc_msgSend$cameraFirstProvisioningEnabled
+- _objc_msgSend$cameraFirstProvisioningEnabledForRegion:
+- _objc_msgSend$canAcceptInvitationOnRemoteDeviceForInvitation:completion:
+- _objc_msgSend$canChangePass
+- _objc_msgSend$canFitAppletTypes:
+- _objc_msgSend$canNotifyAboutExpressModeWithCompletion:
+- _objc_msgSend$canOpenURLInSafariForURL:
+- _objc_msgSend$canPresentPaymentRequest:completion:
+- _objc_msgSend$capitalizedString
+- _objc_msgSend$cardAdded
+- _objc_msgSend$cardEncryptionScheme
+- _objc_msgSend$cardFlow
+- _objc_msgSend$cardID
+- _objc_msgSend$cardIngester
+- _objc_msgSend$cardIssuer
+- _objc_msgSend$cardPNO
+- _objc_msgSend$cardProduct
+- _objc_msgSend$categoryWithIdentifier:actions:intentIdentifiers:options:
+- _objc_msgSend$certificates
+- _objc_msgSend$changeCardToken
+- _objc_msgSend$channel
+- _objc_msgSend$chooseCredentialsStepContext
+- _objc_msgSend$chooseFlowStepContext
+- _objc_msgSend$chooseProduct:includeCardsOnFile:requestContext:
+- _objc_msgSend$chooseProductStepContext
+- _objc_msgSend$cleanupDelegate
+- _objc_msgSend$clearContext
+- _objc_msgSend$clearInAppInterfaceForSkeletonPeerPaymentQuote:withError:
+- _objc_msgSend$commutePlanFields
+- _objc_msgSend$comparePassDatesToPass:searchOption:
+- _objc_msgSend$completionReason
+- _objc_msgSend$configurePaymentServiceWithCompletion:
+- _objc_msgSend$confirmSessionExpectingCredential:
+- _objc_msgSend$conflictingExpressPassesWithPassConfiguration:completion:
+- _objc_msgSend$contactPoint
+- _objc_msgSend$contactlessInterfaceReady
+- _objc_msgSend$contactlessInterfaceSession:didFinishTransactionWithContext:
+- _objc_msgSend$contactlessPaymentSessionManager:didChangeSessionState:
+- _objc_msgSend$contactlessSession
+- _objc_msgSend$contactlessSessionHandle
+- _objc_msgSend$createWithFileURL:warnings:error:
+- _objc_msgSend$credential
+- _objc_msgSend$credentialDelegate
+- _objc_msgSend$credentialProvisioningQueue
+- _objc_msgSend$credentialType
+- _objc_msgSend$credentials
+- _objc_msgSend$creditDetails
+- _objc_msgSend$creditLimit
+- _objc_msgSend$currencyCode
+- _objc_msgSend$currencySymbol
+- _objc_msgSend$currentAppleBalanceCredential
+- _objc_msgSend$currentApplicationIdentifier
+- _objc_msgSend$currentBalance
+- _objc_msgSend$currentExpiredPasses
+- _objc_msgSend$currentLookupIdentifiers
+- _objc_msgSend$currentPass
+- _objc_msgSend$currentPasses
+- _objc_msgSend$currentPaymentBarcode
+- _objc_msgSend$currentPaymentPasses
+- _objc_msgSend$currentProduct
+- _objc_msgSend$currentSecureElementPasses
+- _objc_msgSend$currentStepIdentifier
+- _objc_msgSend$currentSubCredentialIdentifier
+- _objc_msgSend$currentTransaction
+- _objc_msgSend$currentTransactionExpressPassInformation
+- _objc_msgSend$currentTransactionPass
+- _objc_msgSend$currentTransactionStatus
+- _objc_msgSend$currentValue
+- _objc_msgSend$dataTaskWithRequest:completionHandler:
+- _objc_msgSend$dataUsingEncoding:
+- _objc_msgSend$dataWithHexEncodedString:
+- _objc_msgSend$dataWithJSONObject:options:error:
+- _objc_msgSend$dateByAddingUnit:value:toDate:options:
+- _objc_msgSend$dateValue
+- _objc_msgSend$deactivateSessionWithCompletion:
+- _objc_msgSend$deactivationCompletionBlocks
+- _objc_msgSend$debugDescription
+- _objc_msgSend$debugPerformSECleanup:
+- _objc_msgSend$decimalNumberByMultiplyingBy:
+- _objc_msgSend$declineTerms
+- _objc_msgSend$decodeDoubleForKey:
+- _objc_msgSend$decodeObjectForKey:
+- _objc_msgSend$decodeTopLevelObjectOfClasses:forKey:error:
+- _objc_msgSend$decryptedBarcodeCredential
+- _objc_msgSend$defaultAccountForFeature:completion:
+- _objc_msgSend$defaultImagesUsed
+- _objc_msgSend$defaultPaymentSetupProvisioningFields
+- _objc_msgSend$defaultSessionConfiguration
+- _objc_msgSend$defaultSuggestions
+- _objc_msgSend$defaultValue
+- _objc_msgSend$deferAuthorization
+- _objc_msgSend$depositAmount
+- _objc_msgSend$depositType
+- _objc_msgSend$devSigned
+- _objc_msgSend$deviceAccountIdentifier
+- _objc_msgSend$deviceAccountNumberSuffix
+- _objc_msgSend$deviceInAppPaymentApplications
+- _objc_msgSend$devicePrimaryBarcodePaymentApplication
+- _objc_msgSend$devicePrimaryPrecursorRequest
+- _objc_msgSend$deviceTransactionSourceIdentifiers
+- _objc_msgSend$dictionaryWithObjectsAndKeys:
+- _objc_msgSend$didSucceed
+- _objc_msgSend$diffForPassUpdateUserNotificationWithIdentifier:
+- _objc_msgSend$digitalCardImageUrl
+- _objc_msgSend$digitalIssuanceAmount
+- _objc_msgSend$digitalIssuanceAmountRequestContext
+- _objc_msgSend$digitalIssuanceAmountStepContext
+- _objc_msgSend$digitalIssuanceMetadata
+- _objc_msgSend$digitalIssuancePaymentRequest
+- _objc_msgSend$digitalIssuancePaymentRequestContext
+- _objc_msgSend$digitalIssuancePaymentStepContext
+- _objc_msgSend$digitalIssuancePurchase
+- _objc_msgSend$disableExpressModeForPassesWithUniqueIdentifiers:withCompletion:
+- _objc_msgSend$dismissWithCompletion:
+- _objc_msgSend$dispatchSync:
+- _objc_msgSend$displayName
+- _objc_msgSend$displayableErrorForProvisioningError:
+- _objc_msgSend$displayablePassItems
+- _objc_msgSend$displayableShinkansenSeat
+- _objc_msgSend$displayableShinkansenSecondarySeat
+- _objc_msgSend$distributedNotificationCenter
+- _objc_msgSend$doublePressDelegationAssertion:didReceiveTerminalAuthenticationRequestForPassWithUniqueID:
+- _objc_msgSend$doublePressDelegationAssertionDidReceiveDelegatedDoublePressEvent:authIntentSource:
+- _objc_msgSend$doublePressReceived
+- _objc_msgSend$doublePressTimestamp
+- _objc_msgSend$downloadRemoteAssetsWithCloudStoreCoordinatorDelegate:completion:
+- _objc_msgSend$dynamicPlans
+- _objc_msgSend$eligibilityResponse
+- _objc_msgSend$eligibilityStatus
+- _objc_msgSend$eligibleExpressUpgradeRequestsForPass:
+- _objc_msgSend$enRoute
+- _objc_msgSend$enableRemoteUpdates
+- _objc_msgSend$enabledExpressPasses
+- _objc_msgSend$encodeDouble:forKey:
+- _objc_msgSend$encryptedPassData
+- _objc_msgSend$encryptedPushProvisioningTarget
+- _objc_msgSend$encryptionScheme
+- _objc_msgSend$encryptionVersion
+- _objc_msgSend$endDoubleClickClientSuppressionWithRequestToken:
+- _objc_msgSend$endSessionWhenAuthorizationIsConsumed
+- _objc_msgSend$endSubjectReporting:
+- _objc_msgSend$endUpdates
+- _objc_msgSend$enumerateObjectsWithOptions:usingBlock:
+- _objc_msgSend$ephemeralPublicKey
+- _objc_msgSend$error
+- _objc_msgSend$evaluateAccessControl:operation:options:reply:
+- _objc_msgSend$evaluatePolicy:options:error:
+- _objc_msgSend$evaluatePolicy:options:reply:
+- _objc_msgSend$eventDateInfoValue
+- _objc_msgSend$executeRKEActionForPass:function:action:withCompletion:
+- _objc_msgSend$existingExpressPassConfigurationForPass:
+- _objc_msgSend$expiration
+- _objc_msgSend$expiredSectionPasses
+- _objc_msgSend$expressModeSettingsCoordinator:didEncounterConflictWhenEnablingExpressForPass:conflictingExpressPasses:completion:
+- _objc_msgSend$expressModeSettingsCoordinator:didUpdateState:forPassWithUniqueID:
+- _objc_msgSend$expressModeSettingsCoordinator:requestsAuthorizationToEnableExpressForPass:completion:
+- _objc_msgSend$expressModeSupportedForPass:
+- _objc_msgSend$expressPassController:didCompleteRKEAction:function:forPass:
+- _objc_msgSend$expressPassController:didCompleteStandaloneTransactionEvent:forPass:
+- _objc_msgSend$expressPassController:didCompleteStandaloneTransactionEvent:forPass:withUWBTransactionInfo:
+- _objc_msgSend$expressPassController:didCompleteTransactionForPass:
+- _objc_msgSend$expressPassController:didFailTransactionForPass:
+- _objc_msgSend$expressPassController:didReceiveAuthenticationRequestForPass:
+- _objc_msgSend$expressPassController:didStartTransactionForPass:paymentApplicationIdentifier:siblingExpressPasses:
+- _objc_msgSend$expressPasses
+- _objc_msgSend$expressState
+- _objc_msgSend$expressTransactionStatus
+- _objc_msgSend$expressTransactionSuppressionAssertion
+- _objc_msgSend$extensionContext
+- _objc_msgSend$extensionsWithContainingApplicationIdentifiers:completion:
+- _objc_msgSend$externalizedContext
+- _objc_msgSend$failureType
+- _objc_msgSend$feature
+- _objc_msgSend$felicaAppletState:error:
+- _objc_msgSend$fetchAuthorizationStatusWithCompletion:
+- _objc_msgSend$fetchHomeAccessoryForPass:withReaderIdentifier:completion:
+- _objc_msgSend$fetchIdentityProofingConfigurationForCountry:state:completion:
+- _objc_msgSend$fetchLockAccessoryWithTerminalReaderIdentifier:withCompletion:
+- _objc_msgSend$fetchRelevantPassInformationWithCompletion:
+- _objc_msgSend$fetchUpgradeRequestsWithCompletion:
+- _objc_msgSend$fidoAuthCoordinator
+- _objc_msgSend$fieldDetector
+- _objc_msgSend$fieldType
+- _objc_msgSend$fieldsModel
+- _objc_msgSend$firstQuoteItemOfType:
+- _objc_msgSend$flags
+- _objc_msgSend$flight
+- _objc_msgSend$flowIdentifierToCredential
+- _objc_msgSend$flowIdentifiers
+- _objc_msgSend$flowIngestionState
+- _objc_msgSend$footer
+- _objc_msgSend$forceToTransitTypeTransactionWithTransactionStatus:
+- _objc_msgSend$foreignReferenceType
+- _objc_msgSend$fragment
+- _objc_msgSend$generateModelIdentifierWith:
+- _objc_msgSend$getCurrentSnapshot:
+- _objc_msgSend$getHwSupport
+- _objc_msgSend$getMetadataForFieldWithProperties:withHandler:
+- _objc_msgSend$getNotificationSettingsWithCompletionHandler:
+- _objc_msgSend$getRadioEnabledState:
+- _objc_msgSend$getVehicleReports:
+- _objc_msgSend$greenCarDestinationStation
+- _objc_msgSend$greenCarOriginStation
+- _objc_msgSend$greenCarValidityStartDate
+- _objc_msgSend$groupAtIndex:
+- _objc_msgSend$groupIndexForPassUniqueID:
+- _objc_msgSend$groupsController
+- _objc_msgSend$handleApplicationRedirectRequestOnPairedDeviceForPaymentPass:transaction:
+- _objc_msgSend$handleEndSessionRequestedForReason:
+- _objc_msgSend$handleExpressTransactionStatus:forPass:paymentApplication:concreteTransactions:ephemeralTransaction:mutatedBalances:appletState:
+- _objc_msgSend$handleISO18013Request:withReaderAuthInfo:
+- _objc_msgSend$handleInformationRequest:completion:
+- _objc_msgSend$handleMetadataRequestOnPairedDevice:withAssociatedApplicationIdentifiers:completion:
+- _objc_msgSend$handleUniversalLinkWithURL:
+- _objc_msgSend$handleUserPassDelete:
+- _objc_msgSend$handleUserSelectedPass:
+- _objc_msgSend$handlerQueue
+- _objc_msgSend$hardwareManager
+- _objc_msgSend$hasBackgroundImage
+- _objc_msgSend$hasChooseFlowStepContext
+- _objc_msgSend$hasDeviceBoundCommutePlans
+- _objc_msgSend$hasEligibleExpressUpgradeRequestForPass:
+- _objc_msgSend$hasExpiredPlanDate
+- _objc_msgSend$hasGreenCarTicket
+- _objc_msgSend$hasIncompletePaymentSetupFields
+- _objc_msgSend$hasObservers
+- _objc_msgSend$hasOutstandingSessions
+- _objc_msgSend$hasPassesWithSupportedNetworks:merchantCapabilities:issuerCountryCodes:webDomain:
+- _objc_msgSend$hasPaymentPass
+- _objc_msgSend$hasSession
+- _objc_msgSend$hasShinkansenTicket
+- _objc_msgSend$hasWelcomeStepContext
+- _objc_msgSend$heroImages
+- _objc_msgSend$host
+- _objc_msgSend$hostApplicationIdentifier
+- _objc_msgSend$hostApplicationVersion
+- _objc_msgSend$hsa2Requirement
+- _objc_msgSend$iconForApplicationIdentifier:
+- _objc_msgSend$identifierHashComponents
+- _objc_msgSend$identityPassPrearmStatusWithCompletion:
+- _objc_msgSend$ignoreTimeComponents
+- _objc_msgSend$imageAssetURLs
+- _objc_msgSend$imageData
+- _objc_msgSend$imageSetLoadedIfNeeded:
+- _objc_msgSend$imageURL
+- _objc_msgSend$imageWithScale:
+- _objc_msgSend$inField
+- _objc_msgSend$inProgressContext
+- _objc_msgSend$inServiceMode
+- _objc_msgSend$incompletePaymentSetupFields
+- _objc_msgSend$ingestCardWithCardSessionToken:successHandler:
+- _objc_msgSend$ingestCardWithSuccessHandler:
+- _objc_msgSend$ingestionCardNotFoundTimer
+- _objc_msgSend$ingestionCardSessionToken
+- _objc_msgSend$ingestionMethodMetadata
+- _objc_msgSend$ingestionProgress
+- _objc_msgSend$ingestionState
+- _objc_msgSend$initWithAmount:currency:exponent:
+- _objc_msgSend$initWithAssertion:invalidator:
+- _objc_msgSend$initWithAssociatedInfoModel:
+- _objc_msgSend$initWithBalance:label:formattedValue:identifier:primaryBalance:action:pendingUpdateExpireDate:
+- _objc_msgSend$initWithBarcodeIdentifier:decryptedBarcodeCredential:error:
+- _objc_msgSend$initWithBarcodeIdentifier:deviceAccountIdentifier:
+- _objc_msgSend$initWithBase64EncodedString:options:
+- _objc_msgSend$initWithBundleIdentifier:
+- _objc_msgSend$initWithBundleIdentifier:allowPlaceholder:error:
+- _objc_msgSend$initWithCardholderName:primaryAccountNumber:
+- _objc_msgSend$initWithComponentBalances:identifiers:
+- _objc_msgSend$initWithCurrenciesData:directlyInitiate:
+- _objc_msgSend$initWithCurrencyAmount:senderHandle:
+- _objc_msgSend$initWithCurrencyCode:
+- _objc_msgSend$initWithData:encoding:
+- _objc_msgSend$initWithDictionary:lastUpdated:
+- _objc_msgSend$initWithDictionary:source:
+- _objc_msgSend$initWithDistributedNotificationCenter:
+- _objc_msgSend$initWithDomain:
+- _objc_msgSend$initWithEligibilityResponse:
+- _objc_msgSend$initWithEncryptedProvisioningTarget:provisioningSharingIdentifier:passThumbnailImageData:
+- _objc_msgSend$initWithEncryptionScheme:
+- _objc_msgSend$initWithExpressPassConfiguration:
+- _objc_msgSend$initWithIdentifier:imageData:credentialType:
+- _objc_msgSend$initWithLabel:detailLabel:formattedValue:rawCountValue:usageDateRange:identifier:details:action:isDeviceBound:pendingUpdateExpireDate:
+- _objc_msgSend$initWithLabel:value:
+- _objc_msgSend$initWithMachServiceName:options:
+- _objc_msgSend$initWithNotificationBundleIdentifier:
+- _objc_msgSend$initWithNotificationCenter:
+- _objc_msgSend$initWithOptions:
+- _objc_msgSend$initWithPID:flags:reason:name:withHandler:
+- _objc_msgSend$initWithPass:expressNotificationType:
+- _objc_msgSend$initWithPass:transitProperties:balances:commutePlanValueRequired:
+- _objc_msgSend$initWithPass:webService:
+- _objc_msgSend$initWithPassLibrary:
+- _objc_msgSend$initWithPaymentCredential:
+- _objc_msgSend$initWithPaymentDescription:automaticReloadBilling:managementURL:
+- _objc_msgSend$initWithPaymentPass:activatedPaymentApplications:
+- _objc_msgSend$initWithPaymentPass:authorizationCredential:
+- _objc_msgSend$initWithPaymentRequest:
+- _objc_msgSend$initWithPaymentService:accountService:precursorPassManager:
+- _objc_msgSend$initWithPaymentService:passLibrary:distributedNotificationCenter:delegate:
+- _objc_msgSend$initWithPaymentSetupFields:
+- _objc_msgSend$initWithPaymentSetupProduct:cardSessionToken:
+- _objc_msgSend$initWithPaymentSetupProduct:delegate:
+- _objc_msgSend$initWithPaymentSetupProduct:purchase:balance:
+- _objc_msgSend$initWithPeerPaymentPassUniqueID:
+- _objc_msgSend$initWithPeerPaymentPassUniqueID:paymentService:
+- _objc_msgSend$initWithPeerPaymentService:
+- _objc_msgSend$initWithProduct:eligibilitySource:
+- _objc_msgSend$initWithReaderID:lockStatus:timestamp:
+- _objc_msgSend$initWithRequestContext:
+- _objc_msgSend$initWithServiceProviderOrder:
+- _objc_msgSend$initWithSource:
+- _objc_msgSend$initWithStartDate:expirationDate:formatterStyle:
+- _objc_msgSend$initWithStatus:errors:
+- _objc_msgSend$initWithTransitProperties:appletState:balanceFields:commutePlanFields:tiles:rangingSuspensionReason:accessories:isHomeAccessRestricted:precursorPassDescription:hasDeviceBoundCommutePlans:
+- _objc_msgSend$initWithURL:resolvingAgainstBaseURL:
+- _objc_msgSend$initWithValue:isStale:
+- _objc_msgSend$initWithWebService:
+- _objc_msgSend$insertBridgeBulletinWithTitle:message:actionURL:forPass:playSound:notificationIdentifier:expirationDate:
+- _objc_msgSend$insertObject:atIndex:
+- _objc_msgSend$insertOrUpdatePaymentTransaction:forPassUniqueIdentifier:paymentApplication:completion:
+- _objc_msgSend$internalIngestionState
+- _objc_msgSend$intersectsSet:
+- _objc_msgSend$invalidateAssertionExpected:
+- _objc_msgSend$invalidateLocalAuthenticationContexts
+- _objc_msgSend$invalidateSessionWithCompletion:
+- _objc_msgSend$invalidateUpgradeControllerForPassWithUniqueID:
+- _objc_msgSend$invalidated
+- _objc_msgSend$isAccountCredential
+- _objc_msgSend$isActionAvailable
+- _objc_msgSend$isAllDay
+- _objc_msgSend$isAppleBalanceProduct
+- _objc_msgSend$isArmed
+- _objc_msgSend$isCommutePlanValueRequired
+- _objc_msgSend$isConfirmed
+- _objc_msgSend$isContentLoaded
+- _objc_msgSend$isCurrentUserUnder13
+- _objc_msgSend$isDeactivated
+- _objc_msgSend$isDeactivating
+- _objc_msgSend$isDeviceBound
+- _objc_msgSend$isDeviceTap
+- _objc_msgSend$isEqualToPassIncludingMetadata:
+- _objc_msgSend$isExpressMode:supportedForPass:
+- _objc_msgSend$isFirstInQueue
+- _objc_msgSend$isHomeAccessRestrictedForPassSerialNumber:withCompletion:
+- _objc_msgSend$isInFailForward
+- _objc_msgSend$isInFailForward:
+- _objc_msgSend$isInRestrictedMode
+- _objc_msgSend$isInRestrictedMode:
+- _objc_msgSend$isInstalled
+- _objc_msgSend$isInvalidated
+- _objc_msgSend$isNFCDisabled
+- _objc_msgSend$isPasscodeUpgradeRequired
+- _objc_msgSend$isPaymentSection
+- _objc_msgSend$isPlanDisplayable
+- _objc_msgSend$isPurchasedProductCredential
+- _objc_msgSend$isRKEFunctionSupported:
+- _objc_msgSend$isRemoteCredential
+- _objc_msgSend$isRemotePass
+- _objc_msgSend$isRestricted
+- _objc_msgSend$isShinkansenTicketActive
+- _objc_msgSend$isStale
+- _objc_msgSend$isStoredValuePass
+- _objc_msgSend$isSuppressed
+- _objc_msgSend$isSuppressingDoubleClickClients
+- _objc_msgSend$isSwitchingSessionType
+- _objc_msgSend$isTransitSection
+- _objc_msgSend$isTypeF
+- _objc_msgSend$isUnannounced
+- _objc_msgSend$isUndetermined
+- _objc_msgSend$issuerIdentifier
+- _objc_msgSend$issuerProvisioningCertificatesForRequest:withCompletion:
+- _objc_msgSend$issuerVerificationChannelsStepContext
+- _objc_msgSend$itemWithIdentifier:products:
+- _objc_msgSend$itemWithIdentifier:title:products:
+- _objc_msgSend$items
+- _objc_msgSend$keysSortedByValueUsingComparator:
+- _objc_msgSend$lastSessionState
+- _objc_msgSend$lastUpdated
+- _objc_msgSend$learnMoreURL
+- _objc_msgSend$lifecycleState
+- _objc_msgSend$lightweightAccount
+- _objc_msgSend$linkText
+- _objc_msgSend$linkURL
+- _objc_msgSend$loadContentAsyncWithCompletion:
+- _objc_msgSend$loadGroupsWithCompletion:
+- _objc_msgSend$loadImageSetAsync:preheat:withCompletion:
+- _objc_msgSend$loadUpgradeControllerForPass:
+- _objc_msgSend$localAuthenticationCoordinator:cancelRequestForCredentialOfType:
+- _objc_msgSend$localAuthenticationCoordinator:requestsCredentialOfType:completion:
+- _objc_msgSend$localDeviceManualEntryProgressStepContext
+- _objc_msgSend$localDeviceManualEntryStepContext
+- _objc_msgSend$localizedActionText
+- _objc_msgSend$localizedDisplayName
+- _objc_msgSend$localizedFailureReason
+- _objc_msgSend$localizedProgressDescription
+- _objc_msgSend$localizedRecoverySuggestion
+- _objc_msgSend$localizedTitle
+- _objc_msgSend$lockStatus
+- _objc_msgSend$logoImageUrl
+- _objc_msgSend$longDescription
+- _objc_msgSend$lowercaseString
+- _objc_msgSend$manualEntryStepContext
+- _objc_msgSend$markAuthenticationCompleteForTransactionIdentifier:completion:
+- _objc_msgSend$memoryMapImageData
+- _objc_msgSend$merchant
+- _objc_msgSend$merchantCapabilities
+- _objc_msgSend$merchantID
+- _objc_msgSend$merchantURL
+- _objc_msgSend$metadata
+- _objc_msgSend$metadataTypeVehicleFunction
+- _objc_msgSend$minimumReaderModeBalance
+- _objc_msgSend$moreInfoItems
+- _objc_msgSend$moreInformationStepContext
+- _objc_msgSend$moveGroupAtIndex:toIndex:
+- _objc_msgSend$needUpgradeForPass:
+- _objc_msgSend$needsConfiguration
+- _objc_msgSend$newAssertionForBundleIdentifier:withReason:
+- _objc_msgSend$nextCredentialToProvision
+- _objc_msgSend$nextSuppressionRequestToken
+- _objc_msgSend$nonce
+- _objc_msgSend$nonceSignature
+- _objc_msgSend$notANumber
+- _objc_msgSend$noteWillDeleteAccountsWithCompletion:
+- _objc_msgSend$notificationCategoryIdentifier
+- _objc_msgSend$notificationSuppressionAssertion
+- _objc_msgSend$notifyObserversDidChangeUpgradeRequestDescription:forPassWithUniqueID:
+- _objc_msgSend$npkBankConnectedAccountForPass:
+- _objc_msgSend$npkClearTransitValuePendingStateIfNecessaryForPassWithID:withBalanceFields:commutePlanFields:
+- _objc_msgSend$npkHandleTransitValuePendingAmount:forBalanceField:passWithUniqueID:
+- _objc_msgSend$npkHandleTransitValuePendingExpiryDate:forCommutePlanField:passWithUniqueID:
+- _objc_msgSend$npkHasValidNFCPayload
+- _objc_msgSend$npkIsAddValuePending
+- _objc_msgSend$npkIsDebit
+- _objc_msgSend$npkIsPeerPayment
+- _objc_msgSend$npkIsPrecursorPass
+- _objc_msgSend$npkIsSplitPeerPayment
+- _objc_msgSend$npkPendingAddValueStateExpireDateForBalanceFieldWithIdentifier:currentBalance:
+- _objc_msgSend$npkPendingAddValueStateExpireDateForCommutePlanFieldWithIdentifier:expiryDate:rawCountValue:
+- _objc_msgSend$npkPreferredContactlessPaymentApplications
+- _objc_msgSend$npkSetPassDynamicState:
+- _objc_msgSend$npkUsesDynamicView
+- _objc_msgSend$npk_expressAppletIdentifiers
+- _objc_msgSend$npk_objectForKey:class:
+- _objc_msgSend$npk_processUpdateWithAppletHistory:concreteTransactions:ephemeralTransaction:mutatedBalances:pass:
+- _objc_msgSend$numericEntryPending
+- _objc_msgSend$openDeepLinkForURL:isSensitive:completion:
+- _objc_msgSend$ourCallbackQueue
+- _objc_msgSend$ourConfirmed
+- _objc_msgSend$ourCurrentPass
+- _objc_msgSend$ourInServiceMode
+- _objc_msgSend$ourInternalQueue
+- _objc_msgSend$ourPerformedFirstActivation
+- _objc_msgSend$ourVasPasses
+- _objc_msgSend$parsePayload:payloadID:maxCount:
+- _objc_msgSend$partnerIdentifier
+- _objc_msgSend$partnerName
+- _objc_msgSend$passActivating
+- _objc_msgSend$passAssociatedInfoManager:didUpdatePassInfo:withPassUniqueID:
+- _objc_msgSend$passAssociatedInfoManager:didUpdateRestrictedGuestStatusWithInfo:
+- _objc_msgSend$passAtIndex:
+- _objc_msgSend$passCount
+- _objc_msgSend$passDataSource
+- _objc_msgSend$passDetailsResponse
+- _objc_msgSend$passImageSize
+- _objc_msgSend$passInfoForPassWithUniqueID:
+- _objc_msgSend$passLibrary
+- _objc_msgSend$passSelectionFieldDetectorAssertion:didEnterFieldForPassesWithUniqueIDs:
+- _objc_msgSend$passThumbnailImageSize
+- _objc_msgSend$passURL
+- _objc_msgSend$passUniqueIDsByAccountIdentifier
+- _objc_msgSend$passUniqueIdentifierForTransactionWithIdentifier:completion:
+- _objc_msgSend$passUniqueIdentifierForTransactionWithServiceIdentifier:transactionSourceIdentifier:completion:
+- _objc_msgSend$passWithPassTypeIdentifier:serialNumber:completion:
+- _objc_msgSend$passcodeUpgradeCompleted:
+- _objc_msgSend$passcodeUpgradeStepContext
+- _objc_msgSend$passesDataSource:didAddPasses:
+- _objc_msgSend$passesDataSource:didRemovePasses:
+- _objc_msgSend$passesDataSource:didUpdatePasses:
+- _objc_msgSend$passesDataSource:didUpdateSettingsForPass:
+- _objc_msgSend$passesDataSource:didUpdateStates:forPasses:
+- _objc_msgSend$passesDataSourceDidReloadPasses:
+- _objc_msgSend$passesDataSourceDidReorderPasses:
+- _objc_msgSend$passesOfType:
+- _objc_msgSend$paymentApplication
+- _objc_msgSend$paymentApplicationIdentifiers
+- _objc_msgSend$paymentBarcode
+- _objc_msgSend$paymentInformation
+- _objc_msgSend$paymentOptions
+- _objc_msgSend$paymentProvisioningFlowController:didEncounterError:requestContext:
+- _objc_msgSend$paymentProvisioningFlowController:didTransitionFromStep:toStep:withContext:
+- _objc_msgSend$paymentRequest
+- _objc_msgSend$paymentSession:didActivatePass:
+- _objc_msgSend$paymentSession:didCompleteTransactionForReason:withTransactionContext:shouldCleanupSession:
+- _objc_msgSend$paymentSession:didFailTransactionForPass:withValueAddedServiceTransactions:forValueAddedServicePasses:
+- _objc_msgSend$paymentSession:didMakePassCurrent:
+- _objc_msgSend$paymentSession:didReceive18013Request:readerAuthInfo:
+- _objc_msgSend$paymentSession:willActivatePass:
+- _objc_msgSend$paymentSessionDidEnterField:
+- _objc_msgSend$paymentSessionDidExitField:
+- _objc_msgSend$paymentSessionDidReceiveActivationError:
+- _objc_msgSend$paymentSessionDidReceiveActivityTimeout:
+- _objc_msgSend$paymentSessionDidReceiveAuthorizationTimeout:
+- _objc_msgSend$paymentSessionDidReceiveCredential:
+- _objc_msgSend$paymentSessionDidReceiveStartTransaction:
+- _objc_msgSend$paymentSessionDidReceiveTransactionError:
+- _objc_msgSend$paymentSessionDidSelectPayment:
+- _objc_msgSend$paymentSessionDidSelectValueAddedService:
+- _objc_msgSend$paymentSessionDidStart:
+- _objc_msgSend$paymentSessionIsWaitingToStart:
+- _objc_msgSend$paymentSessionQueue
+- _objc_msgSend$paymentSessionSource:declinedToStartPaymentSessionDueToPreconditionState:
+- _objc_msgSend$paymentSessionSource:receivedButtonEventAtDate:authIntentSource:delegated:
+- _objc_msgSend$paymentSessionSource:startedPaymentSession:dueToButtonEventAtDate:authIntentSource:
+- _objc_msgSend$paymentSessionSourceIsWalletInstalledRequiredToStartPaymentSession:
+- _objc_msgSend$paymentSessionSourceRequestsAssistiveTouchAlertPresentation:
+- _objc_msgSend$paymentSetupFieldWithIdentifier:
+- _objc_msgSend$paymentSetupFieldWithIdentifier:type:
+- _objc_msgSend$paymentSetupFields
+- _objc_msgSend$paymentSetupProductModel
+- _objc_msgSend$paymentSetupSupportedInRegion
+- _objc_msgSend$paymentStatus
+- _objc_msgSend$paymentSummaryItems
+- _objc_msgSend$paymentTransactionWithSource:
+- _objc_msgSend$peerPaymentPassUniqueID
+- _objc_msgSend$peerPaymentQuote
+- _objc_msgSend$peerPaymentRequest
+- _objc_msgSend$peerPaymentService
+- _objc_msgSend$peerPaymentStatus
+- _objc_msgSend$peerPaymentStatusWithPaymentIdentifier:completion:
+- _objc_msgSend$pendingLocalAuthenticationEvents
+- _objc_msgSend$pendingSessionHandle
+- _objc_msgSend$phoneNumberWithStringValue:
+- _objc_msgSend$physicalCardImageURL
+- _objc_msgSend$pk_arrayByApplyingBlock:
+- _objc_msgSend$pk_containsObjectPassingTest:
+- _objc_msgSend$pk_createArrayByApplyingBlock:
+- _objc_msgSend$pk_decodeHexadecimal
+- _objc_msgSend$pk_firstObjectPassingTest:
+- _objc_msgSend$pk_objectsPassingTest:
+- _objc_msgSend$pk_weakPointerPersonalityToStrongObjectsMapTable
+- _objc_msgSend$plans
+- _objc_msgSend$playAccessScanCompleteHaptic
+- _objc_msgSend$playIdentityReaderConnectionCompleteHaptic
+- _objc_msgSend$playIdentityReaderConnectionStartHaptic
+- _objc_msgSend$playSessionTimeoutHaptic
+- _objc_msgSend$playTransactionAuthenticationHaptic
+- _objc_msgSend$playTransactionFailureHaptic
+- _objc_msgSend$playTransactionSuccessHaptic
+- _objc_msgSend$playWarsawHaptic
+- _objc_msgSend$possibleProducts
+- _objc_msgSend$preconditionsState
+- _objc_msgSend$precursorPassDescription
+- _objc_msgSend$precursorPassManager
+- _objc_msgSend$precursorPassRequestsManager:didUpdateUpgradePrequestDescription:forPassUniqueID:
+- _objc_msgSend$precursorPassUpgradeRequestsDidChangeForUpgradeController:
+- _objc_msgSend$preflightPasscodeUpgradeWithCompletion:
+- _objc_msgSend$preflightWithRequirements:update:
+- _objc_msgSend$presentContactlessInterfaceForPassWithUniqueIdentifier:fromSource:completion:
+- _objc_msgSend$presentInAppPaymentInterfaceWithPaymentRequest:awaitingRemoteNetworkPaymentRequest:forHostApplicationName:hostBundleIdentifier:hostProcessIdentifier:hostIdentifier:orientation:completion:
+- _objc_msgSend$presentPasscodeUpgradeRequestWithChangeType:completion:
+- _objc_msgSend$presentProvisioningContinuityInterfaceForPassWithUniqueIdentifier:continuityType:transferToken:completion:
+- _objc_msgSend$presentTransitTopUpValueSelectionForPassWithUniqueIdentifier:balanceField:completion:
+- _objc_msgSend$presentWithCompletion:
+- _objc_msgSend$primaryTCIs
+- _objc_msgSend$priority
+- _objc_msgSend$processTransitTransactionEventWithHistory:transactionDate:forPaymentApplication:withPassUniqueIdentifier:expressTransactionState:
+- _objc_msgSend$processedAuthenticationMechanism:forTransactionIdentifier:completion:
+- _objc_msgSend$product
+- _objc_msgSend$productIdentifier
+- _objc_msgSend$productType
+- _objc_msgSend$products
+- _objc_msgSend$productsForFeatureIdentifier:
+- _objc_msgSend$providerForExtensionPoint:
+- _objc_msgSend$provisionedPass
+- _objc_msgSend$provisioningController
+- _objc_msgSend$provisioningMethodMetadataForType:
+- _objc_msgSend$provisioningMethodTypes
+- _objc_msgSend$provisioningProgressStepContext
+- _objc_msgSend$provisioningResultStepContext
+- _objc_msgSend$publicKeyHash
+- _objc_msgSend$purchasedProductCredential
+- _objc_msgSend$queuePersistentCardEmulation
+- _objc_msgSend$quickPaymentSession
+- _objc_msgSend$rangeOfString:
+- _objc_msgSend$rangingSuspensionReason
+- _objc_msgSend$rangingSuspensionReasonForAppletSubcredentialIdentifier:paymentApplicationIdentifier:secureElementIdentifier:
+- _objc_msgSend$rank
+- _objc_msgSend$rawDictionary
+- _objc_msgSend$readerID
+- _objc_msgSend$readerModeEntryStepContext
+- _objc_msgSend$readerModeIngestionStepContext
+- _objc_msgSend$readerModeMetadata
+- _objc_msgSend$readerModeRequestContext
+- _objc_msgSend$readerModeResources
+- _objc_msgSend$recipient
+- _objc_msgSend$refreshAccountDataForPassWithUniqueID:
+- _objc_msgSend$refreshAllPasses
+- _objc_msgSend$registerEventListener:
+- _objc_msgSend$registerObserver:withRelativePriority:
+- _objc_msgSend$releaseDataRequest
+- _objc_msgSend$releaseDataStatus
+- _objc_msgSend$reloadGroupsWithCompletion:
+- _objc_msgSend$remaining
+- _objc_msgSend$remoteButtonListener:didReceiveTerminalAuthenticationRequestForPassWithUniqueID:
+- _objc_msgSend$remoteCredential
+- _objc_msgSend$remoteInterfacePresenterConnectionInterrupted:
+- _objc_msgSend$removeIndex:
+- _objc_msgSend$removeProvisionedPass
+- _objc_msgSend$requestAuthorizationWithCompletion:
+- _objc_msgSend$requestAuthorizationWithOptions:completionHandler:
+- _objc_msgSend$requestContext
+- _objc_msgSend$requestDescriptionFor:completion:
+- _objc_msgSend$requestDoubleClickClientSuppressionWithResponseHandler:
+- _objc_msgSend$requestEligibility:withCompletionHandler:
+- _objc_msgSend$requestExpiredPassListForURLRouter:
+- _objc_msgSend$requestListActionsMenuForURLRouter:
+- _objc_msgSend$requestPassListForURLRouter:
+- _objc_msgSend$requestPassListPreventAppUninstallForURLRouter:
+- _objc_msgSend$requestPassSelectionFieldDetectorDelegationAssertion
+- _objc_msgSend$requestProvisioning:withCompletion:
+- _objc_msgSend$requestProvisioningFlowForURLRouter:
+- _objc_msgSend$requestProvisioningMethodMetadataForProduct:completionHandler:
+- _objc_msgSend$requestRequirements:withCompletionHandler:
+- _objc_msgSend$requestType
+- _objc_msgSend$requestWithIdentifier:content:trigger:destinations:
+- _objc_msgSend$requestWithPass:
+- _objc_msgSend$requestedAuthenticationMechanisms
+- _objc_msgSend$requestorDeviceType
+- _objc_msgSend$requireFirstInQueue
+- _objc_msgSend$requiredFields
+- _objc_msgSend$requiredPaymentSetupFields
+- _objc_msgSend$requiredVerificationFields
+- _objc_msgSend$requirementsResponse
+- _objc_msgSend$requiresAppletSourceOfTruth
+- _objc_msgSend$requiresMetadata
+- _objc_msgSend$requiresUserInteraction
+- _objc_msgSend$resetForNewProvisioning
+- _objc_msgSend$resolveAmbiguousRequirementsWithProductIdentifier:
+- _objc_msgSend$resolveGreenTeaDataUsageIfNecessary
+- _objc_msgSend$resolveLocalEligibilityRequirementsForAppleBalanceCredential:withCompletion:
+- _objc_msgSend$resolveRequirementsUsingProduct:
+- _objc_msgSend$resolveRequirementsUsingProvisioningMethodMetadata:
+- _objc_msgSend$restrictedGuestAccessState
+- _objc_msgSend$retrieveDecryptedBarcodeCredentialForPassUniqueIdentifier:authorization:withCompletion:
+- _objc_msgSend$retrievePINEncryptionCertificateForPassUniqueIdentifier:withCompletion:
+- _objc_msgSend$retryFetchingBarcode
+- _objc_msgSend$role
+- _objc_msgSend$secondaryManualEntryStepContext
+- _objc_msgSend$sectionWithTitle:footer:productType:items:
+- _objc_msgSend$sectionWithTitle:productType:
+- _objc_msgSend$sectionWithTitle:productType:items:
+- _objc_msgSend$sections
+- _objc_msgSend$secureElement:didUpdateRestrictedModeState:
+- _objc_msgSend$secureSubmissionValuesForDestination:
+- _objc_msgSend$securityLevelForAccount:
+- _objc_msgSend$semantics
+- _objc_msgSend$sendRKEFunction:action:withAuthorization:completion:
+- _objc_msgSend$serialQueue
+- _objc_msgSend$serviceModeRequestedPass
+- _objc_msgSend$serviceProviderAcceptedNetworks
+- _objc_msgSend$serviceProviderCapabilities
+- _objc_msgSend$serviceProviderCountryCode
+- _objc_msgSend$serviceProviderDict
+- _objc_msgSend$serviceProviderIdentifier
+- _objc_msgSend$serviceProviderLocalizedDisplayName
+- _objc_msgSend$serviceProviderProducts
+- _objc_msgSend$serviceProviderSupportedCountries
+- _objc_msgSend$sessionAuthorized
+- _objc_msgSend$sessionStarted
+- _objc_msgSend$sessionTimeoutTimer
+- _objc_msgSend$sessionType
+- _objc_msgSend$sessionWaitingToStart
+- _objc_msgSend$sessionWithConfiguration:delegate:delegateQueue:
+- _objc_msgSend$sessionWithQueue:
+- _objc_msgSend$setAccessories:
+- _objc_msgSend$setAccessory:
+- _objc_msgSend$setAccount:
+- _objc_msgSend$setActivationData:
+- _objc_msgSend$setActivationState:
+- _objc_msgSend$setActiveLocalAuthenticationEvent:
+- _objc_msgSend$setAlertTopic:
+- _objc_msgSend$setAllowNonSecureHTTP:
+- _objc_msgSend$setAllowsAddLater:
+- _objc_msgSend$setAllowsAddingDifferentCard:
+- _objc_msgSend$setAllowsManualEntry:
+- _objc_msgSend$setAllowsReaderModeEntry:
+- _objc_msgSend$setAltDSID:
+- _objc_msgSend$setAltText:
+- _objc_msgSend$setAppleID:
+- _objc_msgSend$setAssociatedPlan:
+- _objc_msgSend$setAuthenticationRequested:
+- _objc_msgSend$setAuthenticationType:
+- _objc_msgSend$setAuthorizationController:
+- _objc_msgSend$setAutomaticReloadPaymentRequest:
+- _objc_msgSend$setAvailableActionsFetchDate:
+- _objc_msgSend$setBalance:
+- _objc_msgSend$setBalances:
+- _objc_msgSend$setBarcodeIdentifier:
+- _objc_msgSend$setBarcodePaymentSession:
+- _objc_msgSend$setBillingAgreement:
+- _objc_msgSend$setBillingContact:
+- _objc_msgSend$setButtonHandler:
+- _objc_msgSend$setCameraFirstProvisioningEnabled:
+- _objc_msgSend$setCanChangePass:
+- _objc_msgSend$setCardAdded:
+- _objc_msgSend$setCardDetails:
+- _objc_msgSend$setCardEncryptionScheme:
+- _objc_msgSend$setCardFlow:
+- _objc_msgSend$setCardIngester:
+- _objc_msgSend$setCardIssuer:
+- _objc_msgSend$setCardPNO:
+- _objc_msgSend$setCardProduct:
+- _objc_msgSend$setCardSecurityCode:
+- _objc_msgSend$setCardholderName:
+- _objc_msgSend$setCardholderNameInputMethod:
+- _objc_msgSend$setCategoryIdentifier:
+- _objc_msgSend$setCertificates:
+- _objc_msgSend$setChangeCardToken:
+- _objc_msgSend$setChannel:
+- _objc_msgSend$setCity:
+- _objc_msgSend$setCode:
+- _objc_msgSend$setCompletionReason:
+- _objc_msgSend$setConfiguration:completionHandler:
+- _objc_msgSend$setConfirmationStyle:
+- _objc_msgSend$setContactlessInterfaceReady:
+- _objc_msgSend$setContactlessSession:
+- _objc_msgSend$setContactlessSessionHandle:
+- _objc_msgSend$setCountry:
+- _objc_msgSend$setCountryCode:
+- _objc_msgSend$setCredential:forProcessedEvent:credentialType:reply:
+- _objc_msgSend$setCredentials:
+- _objc_msgSend$setCredentialsToProvision:
+- _objc_msgSend$setCreditLimit:
+- _objc_msgSend$setCurrentAppleBalanceCredential:
+- _objc_msgSend$setCurrentApplicationIdentifier:
+- _objc_msgSend$setCurrentBalance:
+- _objc_msgSend$setCurrentCredential:
+- _objc_msgSend$setCurrentExpiredPasses:
+- _objc_msgSend$setCurrentPass:
+- _objc_msgSend$setCurrentPasses:
+- _objc_msgSend$setCurrentPaymentBarcode:
+- _objc_msgSend$setCurrentPaymentPasses:
+- _objc_msgSend$setCurrentSecureElementPasses:
+- _objc_msgSend$setCurrentSubCredentialIdentifier:
+- _objc_msgSend$setCurrentTransaction:
+- _objc_msgSend$setCurrentTransactionExpressPassInformation:
+- _objc_msgSend$setCurrentTransactionStatus:
+- _objc_msgSend$setDate:
+- _objc_msgSend$setDateFormat:
+- _objc_msgSend$setDeactivated:
+- _objc_msgSend$setDeactivating:
+- _objc_msgSend$setDeactivationCompletionBlocks:
+- _objc_msgSend$setDefaultPaymentPassUniqueIdentifier:
+- _objc_msgSend$setDefaultValue:
+- _objc_msgSend$setDeferAuthorization:
+- _objc_msgSend$setDetail:
+- _objc_msgSend$setDigitalIssuanceAmountRequestContext:
+- _objc_msgSend$setDigitalIssuancePaymentRequest:
+- _objc_msgSend$setDigitalIssuancePaymentRequestContext:
+- _objc_msgSend$setDigitalIssuancePurchase:
+- _objc_msgSend$setDisableCardSelection:
+- _objc_msgSend$setDisplayablePassItems:
+- _objc_msgSend$setDoublePressDelegationRequested:
+- _objc_msgSend$setDoublePressReceived:
+- _objc_msgSend$setDoublePressSuppressionRequested:withCompletion:
+- _objc_msgSend$setDoublePressTimestamp:
+- _objc_msgSend$setDynamicPlans:
+- _objc_msgSend$setEligibilityResponse:
+- _objc_msgSend$setEmailAddress:
+- _objc_msgSend$setEncryptedCardData:
+- _objc_msgSend$setEncryptedPassData:
+- _objc_msgSend$setEncryptionVersion:
+- _objc_msgSend$setEphemeralPublicKey:
+- _objc_msgSend$setEventMetadata:
+- _objc_msgSend$setEventType:
+- _objc_msgSend$setExpirationInputMethod:
+- _objc_msgSend$setExpressModeWithPassConfiguration:credential:completion:
+- _objc_msgSend$setExpressPassConfigurations:
+- _objc_msgSend$setExpressPasses:
+- _objc_msgSend$setExpressTransactionStatus:
+- _objc_msgSend$setExpressTransactionSuppressionAssertion:
+- _objc_msgSend$setFPInfo:
+- _objc_msgSend$setFailureType:
+- _objc_msgSend$setFamilyName:
+- _objc_msgSend$setFieldDetector:
+- _objc_msgSend$setFieldType:
+- _objc_msgSend$setFieldsModel:
+- _objc_msgSend$setFlags:
+- _objc_msgSend$setFlowIdentifierToCredential:
+- _objc_msgSend$setFlowIdentifiers:
+- _objc_msgSend$setFlowIngestionState:
+- _objc_msgSend$setFormat:
+- _objc_msgSend$setGivenName:
+- _objc_msgSend$setHTTPBody:
+- _objc_msgSend$setHTTPMethod:
+- _objc_msgSend$setHardwareManager:
+- _objc_msgSend$setHasSession:
+- _objc_msgSend$setHeroImages:
+- _objc_msgSend$setHidSystemClient:
+- _objc_msgSend$setHostApplicationIdentifier:
+- _objc_msgSend$setHostApplicationVersion:
+- _objc_msgSend$setHsa2Requirement:
+- _objc_msgSend$setISOCountryCode:
+- _objc_msgSend$setIcon:
+- _objc_msgSend$setInField:
+- _objc_msgSend$setInProgressContext:
+- _objc_msgSend$setInServiceMode:
+- _objc_msgSend$setIncludeMetadata:
+- _objc_msgSend$setIngestionCardNotFoundTimer:
+- _objc_msgSend$setIngestionCardSessionToken:
+- _objc_msgSend$setIngestionMethodMetadata:
+- _objc_msgSend$setIngestionProgress:
+- _objc_msgSend$setIngestionState:
+- _objc_msgSend$setIngestionStateOnRetry:
+- _objc_msgSend$setInternalIngestionState:
+- _objc_msgSend$setInterruptionLevel:
+- _objc_msgSend$setInvalidated:
+- _objc_msgSend$setIsStale:
+- _objc_msgSend$setIsSwitchingSessionType:
+- _objc_msgSend$setItemDescription:
+- _objc_msgSend$setLabel:
+- _objc_msgSend$setMerchantCapabilities:
+- _objc_msgSend$setMerchantIdentifier:
+- _objc_msgSend$setMoreInfoItems:
+- _objc_msgSend$setName:
+- _objc_msgSend$setNextSuppressionRequestToken:
+- _objc_msgSend$setNonce:
+- _objc_msgSend$setNonceSignature:
+- _objc_msgSend$setNotificationCategories:
+- _objc_msgSend$setNotificationSuppressionAssertion:
+- _objc_msgSend$setNumericEntryPending:
+- _objc_msgSend$setOriginatedByDevice:
+- _objc_msgSend$setOurConfirmed:
+- _objc_msgSend$setOurCurrentPass:
+- _objc_msgSend$setOurInServiceMode:
+- _objc_msgSend$setOurPerformedFirstActivation:
+- _objc_msgSend$setOurVasPasses:
+- _objc_msgSend$setOverlayParameters:
+- _objc_msgSend$setPassActivating:
+- _objc_msgSend$setPassTile:
+- _objc_msgSend$setPassType:
+- _objc_msgSend$setPaymentApplication:
+- _objc_msgSend$setPaymentBarcode:
+- _objc_msgSend$setPaymentHash:
+- _objc_msgSend$setPaymentNetwork:
+- _objc_msgSend$setPaymentService:
+- _objc_msgSend$setPaymentSetupProducts:
+- _objc_msgSend$setPaymentStatus:
+- _objc_msgSend$setPaymentSummaryItems:
+- _objc_msgSend$setPaymentTransaction:
+- _objc_msgSend$setPeerPaymentBalance:
+- _objc_msgSend$setPeerPaymentPassUniqueID:
+- _objc_msgSend$setPendingLocalAuthenticationEvents:
+- _objc_msgSend$setPendingSessionHandle:
+- _objc_msgSend$setPostalAddress:
+- _objc_msgSend$setPostalCode:
+- _objc_msgSend$setPreconditionsState:
+- _objc_msgSend$setPrecursorPassDescription:
+- _objc_msgSend$setPrimaryAccountNumber:
+- _objc_msgSend$setPrimaryAccountNumberInputMethod:
+- _objc_msgSend$setPrimaryAccountSuffix:
+- _objc_msgSend$setPriority:
+- _objc_msgSend$setPrivateDelegate:
+- _objc_msgSend$setProducts:
+- _objc_msgSend$setProvisionedPass:
+- _objc_msgSend$setPublicKeyHash:
+- _objc_msgSend$setQuickPaymentSession:
+- _objc_msgSend$setRangingSuspensionReason:
+- _objc_msgSend$setRank:
+- _objc_msgSend$setReaderAuthInfo:
+- _objc_msgSend$setReaderModeRequestContext:
+- _objc_msgSend$setReleaseDataRequest:
+- _objc_msgSend$setReleaseDataStatus:
+- _objc_msgSend$setRequireFirstInQueue:
+- _objc_msgSend$setRequiredShippingContactFields:
+- _objc_msgSend$setRequirementsResponse:
+- _objc_msgSend$setRequiresFelicaSecureElement:
+- _objc_msgSend$setRequiresUserInteraction:
+- _objc_msgSend$setRestrictedGuestAccessState:
+- _objc_msgSend$setSections:
+- _objc_msgSend$setSecureOverlayParameters:
+- _objc_msgSend$setSecurityUpgradeContext:
+- _objc_msgSend$setSensitive:
+- _objc_msgSend$setServiceIdentifier:
+- _objc_msgSend$setServiceModeRequested:
+- _objc_msgSend$setServiceModeRequestedPass:
+- _objc_msgSend$setSessionAuthorized:
+- _objc_msgSend$setSessionStarted:
+- _objc_msgSend$setSessionTimeoutTimer:
+- _objc_msgSend$setSessionType:
+- _objc_msgSend$setSessionWaitingToStart:
+- _objc_msgSend$setSettingsWithoutUpdatingDataAccessor:
+- _objc_msgSend$setSetupFields:
+- _objc_msgSend$setShippingContact:
+- _objc_msgSend$setShippingMethods:
+- _objc_msgSend$setShouldShowSubordinateIcon:
+- _objc_msgSend$setSortingState:forObjectWithUniqueID:withCompletion:
+- _objc_msgSend$setSound:
+- _objc_msgSend$setSource:
+- _objc_msgSend$setStreet:
+- _objc_msgSend$setSubmittingAuthenticationResult:
+- _objc_msgSend$setSupportState:
+- _objc_msgSend$setSupportedCountries:
+- _objc_msgSend$setSupportedNetworks:
+- _objc_msgSend$setSupportedProtocols:
+- _objc_msgSend$setSupportedProvisioningMethods:
+- _objc_msgSend$setSuppressPendingPurchases:
+- _objc_msgSend$setSuppressionAssertion:
+- _objc_msgSend$setTermsAcceptedOutOfBand:
+- _objc_msgSend$setThresholdAmount:
+- _objc_msgSend$setTiles:
+- _objc_msgSend$setTimestamp:
+- _objc_msgSend$setTokenNotificationURL:
+- _objc_msgSend$setTransaction:
+- _objc_msgSend$setTransactionContext:
+- _objc_msgSend$setTransactionDate:
+- _objc_msgSend$setTransactionDescription:
+- _objc_msgSend$setTransactionPass:
+- _objc_msgSend$setTransactionStatus:
+- _objc_msgSend$setTransientPassUniqueID:
+- _objc_msgSend$setTransitPassProperties:
+- _objc_msgSend$setUiDelegate:
+- _objc_msgSend$setUserInfo:
+- _objc_msgSend$setValue:forHTTPHeaderField:
+- _objc_msgSend$setValueAddedServicePass:
+- _objc_msgSend$setValueAddedServicePasses:
+- _objc_msgSend$setVasPasses:
+- _objc_msgSend$setVerificationChannel:
+- _objc_msgSend$setVerificationChannels:
+- _objc_msgSend$setVerificationFields:
+- _objc_msgSend$setWrappedKey:
+- _objc_msgSend$setXpcConnection:
+- _objc_msgSend$setupAccountCredentialForProvisioning:completion:
+- _objc_msgSend$setupFields
+- _objc_msgSend$setupProductForProvisioning:includePurchases:withCompletionHandler:
+- _objc_msgSend$setupProductsOfType:
+- _objc_msgSend$sharedHardwareManager
+- _objc_msgSend$sharedHardwareManagerWithNoUI
+- _objc_msgSend$sharedPaymentWebServiceArchiver
+- _objc_msgSend$sharedPaymentWebServiceContext
+- _objc_msgSend$shinkansenArrivalTime
+- _objc_msgSend$shinkansenCarNumber
+- _objc_msgSend$shinkansenDepartureTime
+- _objc_msgSend$shinkansenDestinationStation
+- _objc_msgSend$shinkansenOriginStation
+- _objc_msgSend$shinkansenSecondaryArrivalTime
+- _objc_msgSend$shinkansenSecondaryCarNumber
+- _objc_msgSend$shinkansenSecondaryDepartureTime
+- _objc_msgSend$shinkansenSecondaryDestinationStation
+- _objc_msgSend$shinkansenSecondaryOriginStation
+- _objc_msgSend$shinkansenSecondaryTrainName
+- _objc_msgSend$shinkansenTrainName
+- _objc_msgSend$shinkansenValidityStartDate
+- _objc_msgSend$shinkansenValidityTerm
+- _objc_msgSend$shippingMethods
+- _objc_msgSend$shouldIgnoreField
+- _objc_msgSend$showInAppInterfaceWithPaymentRequest:awaitingRemoteNetworkPaymentRequest:forHostApplicationName:hostBundleIdentifier:hostProcessIdentifier:hostIdentifier:orientation:activationHandler:
+- _objc_msgSend$showInAppInterfaceWithRemotePaymentRequest:activationHandler:
+- _objc_msgSend$showInAppInterfaceWithSkeletonPeerPaymentQuote:activationHandler:
+- _objc_msgSend$signNonce:withCompletion:
+- _objc_msgSend$sortDescriptorWithKey:ascending:
+- _objc_msgSend$sortedArrayUsingDescriptors:
+- _objc_msgSend$sortedArrayUsingFunction:context:
+- _objc_msgSend$soundWithAlertType:
+- _objc_msgSend$source
+- _objc_msgSend$sourceAddress
+- _objc_msgSend$standaloneTargetDevice:requestsEnforceUpgradedPasscodePolicyWithCompletion:
+- _objc_msgSend$standaloneTargetDevice:requestsStartRequiringUpgradedPasscodeWithPasscodeMeetsPolicy:
+- _objc_msgSend$standaloneTargetDeviceRequestsEndRequiringUpgradedPasscodeIfNecessary:
+- _objc_msgSend$startContactlessInterfaceSessionWithCompletion:targetQueue:
+- _objc_msgSend$startDigitalCarKeySessionWithCompletion:targetQueue:
+- _objc_msgSend$startSTSContactlessInterfaceSessionWithDelegate:completion:
+- _objc_msgSend$startSecureElementManagerSession:
+- _objc_msgSend$startSession
+- _objc_msgSend$startSessionWithCompletion:
+- _objc_msgSend$startSubcredentialProvisioningOnLocalDeviceMatchingInvitation:shouldFetchAnonymizationSaltFromRemoteDevice:completion:
+- _objc_msgSend$startSubcredentialProvisioningOnRemoteDeviceForInvitation:
+- _objc_msgSend$startSubcredentialProvisioningOnRemoteDeviceForMailboxAddress:activationCode:
+- _objc_msgSend$stateAtIndex:
+- _objc_msgSend$stateReason
+- _objc_msgSend$statusDescription
+- _objc_msgSend$stepIdentifier
+- _objc_msgSend$storeExternalizedAuth:
+- _objc_msgSend$stringByReplacingOccurrencesOfString:withString:
+- _objc_msgSend$stringFromDate:
+- _objc_msgSend$stringFromNumber:
+- _objc_msgSend$subcredentialCredentialIdentifiers
+- _objc_msgSend$subject:sendEvent:
+- _objc_msgSend$subjects:sendEvent:
+- _objc_msgSend$submissionString
+- _objc_msgSend$submissionStringMeetsAllRequirements
+- _objc_msgSend$submissionValuesForDestination:
+- _objc_msgSend$submitBarcodePaymentEvent:forPassUniqueIdentifier:withCompletion:
+- _objc_msgSend$submitEncryptedPIN:forTransactionIdentifier:completion:
+- _objc_msgSend$submitPinCode:
+- _objc_msgSend$submitUserConfirmation:forTransactionIdentifier:completion:
+- _objc_msgSend$submitUserIntentionConfirmation:
+- _objc_msgSend$submitVerificationCode:verificationData:forPass:completion:
+- _objc_msgSend$submittingAuthenticationResult
+- _objc_msgSend$substringToIndex:
+- _objc_msgSend$subtitle
+- _objc_msgSend$summaryItemWithLabel:amount:
+- _objc_msgSend$summaryMetadataDescription
+- _objc_msgSend$supplementaryData
+- _objc_msgSend$supportState
+- _objc_msgSend$supportedCurrencyCodes
+- _objc_msgSend$supportedNetworks
+- _objc_msgSend$supportedProtocols
+- _objc_msgSend$supportedProvisioningMethods
+- _objc_msgSend$supportedTypeFSystem
+- _objc_msgSend$supportsCredentialType:
+- _objc_msgSend$supportsExpress
+- _objc_msgSend$supportsFamilySharing
+- _objc_msgSend$supportsInSessionExpress
+- _objc_msgSend$supportsOneTimeDeposit
+- _objc_msgSend$supportsOneTimeWithdrawal
+- _objc_msgSend$suppressDefaultCardholderNameField
+- _objc_msgSend$suppressPendingPurchases
+- _objc_msgSend$suppressRemoteUpdates:
+- _objc_msgSend$suppressionAssertion
+- _objc_msgSend$suppressionRequestTokens
+- _objc_msgSend$suppressorQueue
+- _objc_msgSend$tearDownPasscodeUpgradeRequestWithPasscodeChanged:error:
+- _objc_msgSend$technologyType
+- _objc_msgSend$terminalMode
+- _objc_msgSend$terminalType
+- _objc_msgSend$termsAcceptanceRequired
+- _objc_msgSend$termsAndConditionsStepContext
+- _objc_msgSend$termsURL
+- _objc_msgSend$thumbnailImageUrl
+- _objc_msgSend$tile
+- _objc_msgSend$tiles
+- _objc_msgSend$tilesForPassWithUniqueIdentifier:context:completion:
+- _objc_msgSend$timeZone
+- _objc_msgSend$timeZoneValue
+- _objc_msgSend$timeoutTimer
+- _objc_msgSend$toJsonString:
+- _objc_msgSend$toNPKProtoStandaloneCreditAccountCredential:thumbnailSize:
+- _objc_msgSend$toNPKProtoStandaloneError:
+- _objc_msgSend$toNPKProtoStandalonePass:thumbnailSize:
+- _objc_msgSend$toNPKProtoStandalonePassType:
+- _objc_msgSend$toNPKProtoStandalonePaymentApplicationState:
+- _objc_msgSend$toNPKProtoStandalonePaymentCredential:
+- _objc_msgSend$toNPKProtoStandalonePaymentCredentialUnion:withFlowIdentifier:thumbnailSize:
+- _objc_msgSend$toNPKProtoStandalonePaymentDigitalIssuanceMetadata:
+- _objc_msgSend$toNPKProtoStandalonePaymentPass:thumbnailSize:
+- _objc_msgSend$toNPKProtoStandalonePaymentPassActivationState:
+- _objc_msgSend$toNPKProtoStandalonePaymentProvisioningFlowManualEntryStepContext:
+- _objc_msgSend$toNPKProtoStandalonePaymentProvisioningFlowPickerItem:
+- _objc_msgSend$toNPKProtoStandalonePaymentProvisioningFlowPickerSection:
+- _objc_msgSend$toNPKProtoStandalonePaymentProvisioningMethodMetadata:
+- _objc_msgSend$toNPKProtoStandalonePaymentRemoteCredential:thumbnailSize:
+- _objc_msgSend$toNPKProtoStandalonePaymentSetupField:
+- _objc_msgSend$toNPKProtoStandalonePaymentSetupFieldType:
+- _objc_msgSend$toNPKProtoStandalonePaymentSetupMoreInfoItem:
+- _objc_msgSend$toNPKProtoStandalonePaymentSetupProduct:
+- _objc_msgSend$toNPKProtoStandalonePaymentSetupProductImageAssetURLs:
+- _objc_msgSend$toNPKProtoStandalonePaymentSetupProductPaymentOption:
+- _objc_msgSend$toNPKProtoStandaloneReaderModeIngestionState:
+- _objc_msgSend$toNPKProtoStandaloneVerificationChannel:
+- _objc_msgSend$toNPKProtoStandaloneVerificationChannelType:
+- _objc_msgSend$toPKPaymentSetupFieldType:
+- _objc_msgSend$toStringValue:
+- _objc_msgSend$transactionContext
+- _objc_msgSend$transactionDescription
+- _objc_msgSend$transactionDetails
+- _objc_msgSend$transactionPass
+- _objc_msgSend$transactionsForTransactionSourceIdentifiers:withTransactionSource:withBackingData:limit:completion:
+- _objc_msgSend$transitAppletHistoryFetcher:gotTransitAppletHistory:forAppletWithAID:
+- _objc_msgSend$transitAppletState:error:
+- _objc_msgSend$transitCommutePlanType
+- _objc_msgSend$transitHistory
+- _objc_msgSend$transitPassProperties
+- _objc_msgSend$typeDescription
+- _objc_msgSend$typeDescriptionUnlocalized
+- _objc_msgSend$uniqueIdentifier
+- _objc_msgSend$unitTestingAuthorizationController
+- _objc_msgSend$unitTestingCardIngester
+- _objc_msgSend$unregisterEventListener:
+- _objc_msgSend$unsignedLongValue
+- _objc_msgSend$updateAccountWithIdentifier:extended:completion:
+- _objc_msgSend$updateExpressPasses
+- _objc_msgSend$updateItemFields
+- _objc_msgSend$updateRemoteCredentials:withCompletionHandler:
+- _objc_msgSend$updateSupportWithOSVersion:deviceClass:deviceRegion:deviceVersion:
+- _objc_msgSend$updateVerification:completion:
+- _objc_msgSend$updateWithCommutePlanDetail:
+- _objc_msgSend$updateWithConcreteTransactions:ephemeralTransaction:updatedPassTransitItems:paymentApplication:
+- _objc_msgSend$updateWithPaymentSetupFields:
+- _objc_msgSend$upgradeController
+- _objc_msgSend$upgradeExpressModeForPass:withCredential:resultHandler:
+- _objc_msgSend$upgradeRequestDescription
+- _objc_msgSend$urlRouter:requestEntitlementDetailsPresentationForPassWithUniqueID:
+- _objc_msgSend$urlRouter:requestPassBalanceDetailsPresentationForPassWithUniqueID:
+- _objc_msgSend$urlRouter:requestPassDetailsPresentationForPassWithUniqueID:
+- _objc_msgSend$urlRouter:requestSavingsDetailsPresentationWithPassUniqueID:
+- _objc_msgSend$urlRouter:requestServiceModeForPassWithUniqueID:
+- _objc_msgSend$urlRouter:requestShareDetailsPresentationForPassWithUniqueID:shareIdentifier:
+- _objc_msgSend$urlRouter:requestShareableCredentialAcceptanceFlowPresentationWithShareableCredentials:thumbnailImageData:
+- _objc_msgSend$urlRouter:requestSharedInvitationAcceptanceFlowPresentationWithMailboxAddress:referralSource:
+- _objc_msgSend$urlRouter:requestSubcredentialInvitationAcceptanceFlowPresentationWithLocalInvitationIdentifier:remoteInvitationIdentifier:contactName:thumbnailImageData:
+- _objc_msgSend$urlRouter:requestTransactionDetailsForPassWithUniqueID:transactionIdentifier:
+- _objc_msgSend$urlRouter:requestTransactionDetailsForPassWithUniqueID:transactionServiceIdentifier:transactionSourceIdentifier:
+- _objc_msgSend$userNotificationActionPerformed:notificationIdentifier:completion:
+- _objc_msgSend$userRejectedReleaseData
+- _objc_msgSend$userSelectedPass
+- _objc_msgSend$validateAppleBalanceSecurityRequirementsWithCompletion:
+- _objc_msgSend$validatePreconditionsAndRegister:
+- _objc_msgSend$validityInterval
+- _objc_msgSend$valueAddedServiceAutomaticSelectionCoordinator:didUpdatePasses:
+- _objc_msgSend$valueAddedServicePass
+- _objc_msgSend$valueAddedServicePasses
+- _objc_msgSend$valueAddedServiceTransactions
+- _objc_msgSend$vehicleConnectivityCoordinator:didUpdateVehicleStatusForPass:
+- _objc_msgSend$vehicleFunctionActions
+- _objc_msgSend$vehicleFunctions
+- _objc_msgSend$verificationChannel
+- _objc_msgSend$verificationChannels
+- _objc_msgSend$verificationChannelsStepContext
+- _objc_msgSend$verificationCodeStepContext
+- _objc_msgSend$verificationFields
+- _objc_msgSend$verificationFieldsStepContext
+- _objc_msgSend$verificationOptionsForRequest:completion:
+- _objc_msgSend$verificationRecordForPass:
+- _objc_msgSend$verificationStatus
+- _objc_msgSend$wantsBadgedIcon
+- _objc_msgSend$weakObjectsHashTable
+- _objc_msgSend$webpageURL
+- _objc_msgSend$welcomeStepContext
+- _objc_msgSend$wrappedKey
+- _objc_retainAutoreleaseReturnValue
+- _objc_retain_x10
+- _objc_retain_x5
+- _objc_retain_x6
+- _objc_retain_x7
+- _objectdestroyTm
+- _ringerStateIsSilent.onceToken
+- _ringerStateIsSilent.ringerState
+- _sharedInstance.notificationCenter
+- _swift_cvw_allocateGenericValueMetadataWithLayoutString
+- _swift_cvw_instantiateLayoutString
+- _swift_deallocObject
+- _swift_defaultActor_deallocate
+- _swift_defaultActor_destroy
+- _swift_defaultActor_initialize
+- _swift_dynamicCast
+- _swift_errorRelease
+- _swift_errorRetain
+- _swift_getForeignTypeMetadata
+- _swift_getGenericMetadata
+- _swift_getObjCClassMetadata
+- _swift_getObjectType
+- _swift_getSingletonMetadata
+- _swift_getTypeByMangledNameInContext2
+- _swift_getTypeByMangledNameInContextInMetadataState2
+- _swift_getWitnessTable
+- _swift_isUniquelyReferenced_nonNull_native
+- _swift_isaMask
+- _swift_lookUpClassMethod
+- _swift_once
+- _swift_retain
+- _swift_slowDealloc
+- _swift_task_alloc
+- _swift_task_create
+- _swift_task_dealloc
+- _swift_task_switch
+- _swift_unknownObjectRelease
+- _swift_unknownObjectRetain
+- _swift_updateClassMetadata2
+- _symbolic $s11NanoPassKit17PreferencesDomainP
+- _symbolic $sSY
+- _symbolic $ss21_ObjectiveCBridgeableP
+- _symbolic 3Key_____Qyd__ 11NanoPassKit17PreferencesDomainP
+- _symbolic BD
+- _symbolic Ieg_
+- _symbolic IeghH_
+- _symbolic SDy_____SSG So14PKAnalyticsKeya
+- _symbolic Say_____G 8Dispatch0A13WorkItemFlagsV
+- _symbolic Say_____G So17OS_dispatch_queueC8DispatchE10AttributesV
+- _symbolic Say_____G So18PKAnalyticsSubjecta
+- _symbolic Sb
+- _symbolic ScA_pSg
+- _symbolic ScPSg
+- _symbolic ScSyyyYaYbcG
+- _symbolic Si
+- _symbolic So14NSUserDefaultsCSg
+- _symbolic So21OS_dispatch_semaphoreC
+- _symbolic So8NSNumberC
+- _symbolic So8NSObjectC
+- _symbolic So8NSObjectCSg
+- _symbolic So8NSStringC
+- _symbolic _____ 11NanoPassKit0aB21BookPreferencesDomainV
+- _symbolic _____ 11NanoPassKit0aB21BookPreferencesDomainV3KeyO
+- _symbolic _____ 11NanoPassKit10SerializerO
+- _symbolic _____ 11NanoPassKit10SerializerO6FormatO
+- _symbolic _____ 11NanoPassKit11PreferencesV
+- _symbolic _____ 11NanoPassKit12CapabilitiesO
+- _symbolic _____ 11NanoPassKit14SemaphoreQueueC
+- _symbolic _____ 11NanoPassKit17AnalyticsReporterC
+- _symbolic _____ 11NanoPassKit5QueueC
+- _symbolic _____ 11NanoPassKit9MainQueueC
+- _symbolic _____ So14PKAnalyticsKeya
+- _symbolic _____ So18PKAnalyticsSubjecta
+- _symbolic _____ So19PKAnalyticsCategorya
+- _symbolic _____ s8DurationV
+- _symbolic _____Sg 10Foundation4DataV
+- _symbolic _____xXj l11NanoPassKit17PreferencesDomain_px3KeyRts_XPXGMq
+- _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
+- _symbolic _____y_____ypG s18_DictionaryStorageC s11AnyHashableV
+- _symbolic _____yyyYaYbc_G ScS12ContinuationV
+- _symbolic _____yyyYaYbc_G ScS8IteratorV
+- _symbolic _____yyyYaYbc_GSg ScS12ContinuationV
+- _symbolic _____yyyYaYbc__G ScS12ContinuationV11YieldResultO
+- _symbolic _____yyyYaYbc__G ScS12ContinuationV15BufferingPolicyO
+- _symbolic qd__
+- _symbolic x
+- _symbolic ypSg
+- _symbolic ytIeAgHr_
+- _symbolic yyYaYbc
+- _type_layout_string 11NanoPassKit0aB21BookPreferencesDomainV
+- _type_layout_string So18PKAnalyticsSubjecta
+- _type_layout_string So19PKAnalyticsCategorya
+- _type_layout_string s23CustomStringConvertibleRzl11NanoPassKit11PreferencesVyxG
+CStrings:
++ "-[NPKGizmoDatabase _setCommutePlansLocked:forPassWithUniqueID:]"
++ "-[NPKGizmoDatabase selectCommutePlansForPassStatement]"
++ "-[NPKGizmoDatabase setCommutePlans:forPassWithUniqueID:]_block_invoke"
++ "-[NPKGizmoDatabase updateCommutePlansForPassStatement]"
++ "-[PKTransitAppletState(NanoPassKit) _associatedBalanceIdentifiersToBalances:fromPass:]"
++ "-[PKTransitAppletState(NanoPassKit) npk_processUpdateWithAppletHistory:concreteTransactions:ephemeralTransaction:mutatedBalances:pass:]"
++ "/Library/Caches/com.apple.xbs/C54A9DCA-EB68-42A0-9029-816F7E3625D6/TemporaryDirectory.u4TWqP/Sources/NanoPassbook_Frameworks/NanoPassKit/CoreIDV Connection/Host Process Classes/NPKIDVRemoteDeviceSession.m"
++ "/Library/Caches/com.apple.xbs/C54A9DCA-EB68-42A0-9029-816F7E3625D6/TemporaryDirectory.u4TWqP/Sources/NanoPassbook_Frameworks/NanoPassKit/NPKCompanionAgentConnection.m"
++ "/Library/Caches/com.apple.xbs/C54A9DCA-EB68-42A0-9029-816F7E3625D6/TemporaryDirectory.u4TWqP/Sources/NanoPassbook_Frameworks/NanoPassKit/NPKGizmoDatabase.m"
++ "/Library/Caches/com.apple.xbs/C54A9DCA-EB68-42A0-9029-816F7E3625D6/TemporaryDirectory.u4TWqP/Sources/NanoPassbook_Frameworks/NanoPassKit/NPKOSTransaction.m"
++ "/Library/Caches/com.apple.xbs/C54A9DCA-EB68-42A0-9029-816F7E3625D6/TemporaryDirectory.u4TWqP/Sources/NanoPassbook_Frameworks/NanoPassKit/NPKPassSyncConstants.m"
++ "/Library/Caches/com.apple.xbs/C54A9DCA-EB68-42A0-9029-816F7E3625D6/TemporaryDirectory.u4TWqP/Sources/NanoPassbook_Frameworks/NanoPassKit/NPKPassSyncService.m"
++ "/Library/Caches/com.apple.xbs/C54A9DCA-EB68-42A0-9029-816F7E3625D6/TemporaryDirectory.u4TWqP/Sources/NanoPassbook_Frameworks/NanoPassKit/NPKPaymentWebServiceCompanionTargetDevice.m"
++ "/Library/Caches/com.apple.xbs/C54A9DCA-EB68-42A0-9029-816F7E3625D6/TemporaryDirectory.u4TWqP/Sources/NanoPassbook_Frameworks/NanoPassKit/NPKSubcredentialProvisioningService.m"
++ "/Library/Caches/com.apple.xbs/C54A9DCA-EB68-42A0-9029-816F7E3625D6/TemporaryDirectory.u4TWqP/Sources/NanoPassbook_Frameworks/NanoPassKit/NPKWorkQueue.m"
++ "/Library/Caches/com.apple.xbs/C54A9DCA-EB68-42A0-9029-816F7E3625D6/TemporaryDirectory.u4TWqP/Sources/NanoPassbook_Frameworks/NanoPassKit/PKPass+NanoPassKit.m"
++ "0B0171D3-332F-481C-B7DE-7E80973B07BF"
++ "14EA79AF-332F-481C-B7DE-7E80973B07BF"
++ "2A05C9E8-332F-481C-B7DE-7E80973B07BF"
++ "45D167B6-332F-481C-B7DE-7E80973B07BF"
++ "46D8FA11-332F-481C-B7DE-7E80973B07BF"
++ "47B09AC1-332F-481C-B7DE-7E80973B07BF"
++ "4CAAF5A2-332F-481C-B7DE-7E80973B07BF"
++ "50BDC6C0-332F-481C-B7DE-7E80973B07BF"
++ "54EDC00B-332F-481C-B7DE-7E80973B07BF"
++ "66A5B423-332F-481C-B7DE-7E80973B07BF"
++ "674FD660-332F-481C-B7DE-7E80973B07BF"
++ "6993A7A9-332F-481C-B7DE-7E80973B07BF"
++ "6BD289D4-332F-481C-B7DE-7E80973B07BF"
++ "6C4614A2-332F-481C-B7DE-7E80973B07BF"
++ "763A8A6B-332F-481C-B7DE-7E80973B07BF"
++ "77EA0BCD-332F-481C-B7DE-7E80973B07BF"
++ "79770938-332F-481C-B7DE-7E80973B07BF"
++ "81603B90-332F-481C-B7DE-7E80973B07BF"
++ "81D292E4-332F-481C-B7DE-7E80973B07BF"
++ "82AA137D-332F-481C-B7DE-7E80973B07BF"
++ "894C532F-332F-481C-B7DE-7E80973B07BF"
++ "8CF6A4A5-332F-481C-B7DE-7E80973B07BF"
++ "94251CFF-332F-481C-B7DE-7E80973B07BF"
++ "A3D877D2-332F-481C-B7DE-7E80973B07BF"
++ "A5E3D6BA-332F-481C-B7DE-7E80973B07BF"
++ "AAA2622E-332F-481C-B7DE-7E80973B07BF"
++ "AB2653AC-332F-481C-B7DE-7E80973B07BF"
++ "AD3C8B62-332F-481C-B7DE-7E80973B07BF"
++ "ALTER TABLE pass ADD commute_plans BLOB"
++ "B16@?0@\"PKPassField\"8"
++ "B16@?0@\"PKTransitAppletBalance\"8"
++ "B68E1DBD-332F-481C-B7DE-7E80973B07BF"
++ "B7B7F81F-332F-481C-B7DE-7E80973B07BF"
++ "BA0452A1-332F-481C-B7DE-7E80973B07BF"
++ "C3FD35B9-332F-481C-B7DE-7E80973B07BF"
++ "C4F6386A-332F-481C-B7DE-7E80973B07BF"
++ "C990FB84-332F-481C-B7DE-7E80973B07BF"
++ "C9D5B8D6-332F-481C-B7DE-7E80973B07BF"
++ "D3581A95-332F-481C-B7DE-7E80973B07BF"
++ "D5834418-332F-481C-B7DE-7E80973B07BF"
++ "DC264F98-332F-481C-B7DE-7E80973B07BF"
++ "E63BF630-332F-481C-B7DE-7E80973B07BF"
++ "E6F0AB1C-332F-481C-B7DE-7E80973B07BF"
++ "ECFC47E2-332F-481C-B7DE-7E80973B07BF"
++ "EECEF837-332F-481C-B7DE-7E80973B07BF"
++ "Error: *** NPKAssertion failure in %{public}s, %{public}s:%ld (reason: Unable to prepare \"select commute plans\" statement)"
++ "Error: *** NPKAssertion failure in %{public}s, %{public}s:%ld (reason: Unable to prepare \"update commute plans\" statement)"
++ "Error: *** NPKAssertion failure in %{public}s, %{public}s:%ld (reason: Updating commute plans failed: %s; %s)"
++ "Error: Error no pass to process applet history"
++ "Error: Error while creating connection to get balances for pass unique identifier: %@. Error: %@"
++ "Error: Error while creating connection to get commute plans for pass unique identifier: %@. Error: %@"
++ "Error: Should not be receiving plan update from Bridge (%@ %@)"
++ "Error: Unable to get AppleLocale from NPS; domain accessor not found"
++ "Error: Unable to read ConnectedGymNFCAlwaysOn in NPS; domain accessor not found"
++ "Error: Unable to read LowPowerMode from NPS; domain accessor not found"
++ "Error: Unable to read NPKDefaultExpressPassesKey in NPS; domain accessor not found"
++ "Error: Unable to read NPKPassSyncStateVersionKey in NPS; domain accessor not found"
++ "Error: Unable to read NPKPeerPaymentPreferencesDefault in NPS; domain accessor not found"
++ "Error: Unable to read NPKRemoteBiometricAuthenticationStatusTrustLostKey in NPS; domain accessor not found"
++ "Error: Unable to read NPKTransitValuePendingDefaultsKey in NPS; domain accessor not found"
++ "Error: Unable to read PDExpressPasses-2 in NPS; domain accessor not found"
++ "Error: Unable to read PKStockholmMaxPaymentCardsKey in NPS; domain accessor not found"
++ "Error: Unable to read PKUserHasDisabledPeerPaymentKey in NPS; domain accessor not found"
++ "Error: Unable to read _DisablePassSync in NPS; domain accessor not found"
++ "Error: Unable to read _MigrationReregisterNeededDefault in NPS; domain accessor not found"
++ "Error: Unable to update DisableWristDetection in NPS; domain accessor not found"
++ "Error: Unable to update NPKPassSyncStateVersionKey in NPS; domain accessor not found"
++ "Error: Unable to update NPKPeerPaymentPreferencesDefault in NPS; domain accessor not found"
++ "Error: Unable to update NPKRemoteBiometricAuthenticationStatusTrustLostKey in NPS; domain accessor not found"
++ "Error: Unable to update NPKTransitValuePendingDefaultsKey in NPS; domain accessor not found"
++ "Error: Unable to update PDExpressPasses in NPS; domain accessor not found"
++ "Error: Unable to update PKStockholmMaxPaymentCardsKey in NPS; domain accessor not found"
++ "Error: Unable to update PKUserHasDisabledPeerPaymentKey in NPS; domain accessor not found"
++ "Error: Unable to update _MigrationReregisterNeededDefault in NPS; domain accessor not found"
++ "Error: Unable to update isInRestrictedModeKeyName and isInFailForwardModeKeyName in NPS; domain accessor not found"
++ "Error: Unable to update payment web service configuration in NPS; domain accessor not found"
++ "FA784EAB-332F-481C-B7DE-7E80973B07BF"
++ "FCC9847B-332F-481C-B7DE-7E80973B07BF"
++ "FD975695-332F-481C-B7DE-7E80973B07BF"
++ "INSERT INTO pass (unique_id, type_id, style, hash, encoded_pass, encoded_image_sets, encoded_diff, logo_text, logo_image, background_color, label_color, foreground_color, background_image, nfc_payload, private_label, cobranded, device_payment_applications, device_primary_payment_application, device_primary_contactless_payment_application, device_primary_in_app_payment_application, preferred_aid, preferred_payment_application, ingested_date, complete_hash, delete_pending, effective_payment_application_state, has_user_selectable_payment_applications, has_stored_value, settings, complete_hashes, issuer_country_code, available_actions, organization_name, felica_transit_applet_state, front_field_buckets, back_field_buckets, last_add_value_amount, localized_description, pending_add_value_date, express_pass_types_mask, complete_remote_hashes, supports_pp, balances, commute_plans) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
++ "NPKProtoHandlePlanChangeRequest"
++ "Notice: %s Balance associated identifiers. Balance ID %@, found associated balance IDs %@"
++ "Notice: %s Complete list of mutated balances: %@, including the associated applet balances: %@."
++ "Notice: (PKPaymentCommutePlanDetail restore) archiving old plans for pass %@ %@ returned nil"
++ "Notice: (PKPaymentCommutePlanDetail restore) restoring old plans for pass %@ %@"
++ "Notice: Failed to archive balances."
++ "Notice: Failed to archive plans."
++ "Notice: Got plan update for unique ID %@ with %u plans"
++ "Notice: Handling plan update %@ for unique ID %@"
++ "Notice: NPKCompanionAgentConnection (%@): Payment pass did update plans: %@, plans %@"
++ "Notice: Passed empty plans, storing null"
++ "Notice: Successfully wrote commute plans in database: %p, plans: %@, uniqueID: %@"
++ "Notice: Target device (%@) - present standalone transaction request for pass %@ yielded result: %@."
++ "Notice: Will read commute plans from database: %p"
++ "Notice: selectCommutePlansForPassStatement does not equal row"
++ "SELECT commute_plans FROM pass WHERE unique_id = ?"
++ "T@\"NSMutableArray\",&,N,V_planBytes"
++ "UPDATE pass SET commute_plans = ? WHERE unique_id = ?"
++ "_appletHistoryBalancesWithIdentifiers:fromAppletHistory:"
++ "_associatedBalanceIdentifiersToBalances:fromPass:"
++ "_commutePlansForPassWithUniqueIDLocked:"
++ "_deviceDomainAccessorForDevice:"
++ "_planBytes"
++ "_selectCommutePlansForPassStatement"
++ "_setCommutePlansLocked:forPassWithUniqueID:"
++ "_updateCommutePlansForPassStatement"
++ "addPlanBytes:"
++ "clearPlanBytes"
++ "commutePlansForPassWithUniqueID:"
++ "handlePlanChange:"
++ "handlePlanUpdate:forUniqueID:"
++ "initWithSet:"
++ "npk_isMessagesGroupPeerPaymentTransaction"
++ "npk_isNearbyPeerPaymentTransaction"
++ "paymentPassWithUniqueIdentifier:didUpdateWithPlans:"
++ "peerPaymentPaymentMode"
++ "planBytes"
++ "planBytesAtIndex:"
++ "planBytesCount"
++ "planBytesType"
++ "q24@?0@\"PKPaymentTransaction\"8@\"PKPaymentTransaction\"16"
++ "selectCommutePlansForPassStatement"
++ "setCommutePlans:forPassWithUniqueID:"
++ "setPlanBytes:"
++ "sortedTransactionsArray"
++ "updateCommutePlansForPassStatement"
+- "\nverifying pass field with key - label - value - fRefID:%@ - %@ - %@ - %@."
+- " (Accessory :%@)"
+- " (Action :%@)"
+- " (Barcode payment related: paymentBarcode %@ authentication requested %d)"
+- " (first activation)"
+- " (releaseDataStatus:%@)\n"
+- " (service identifier: %@, payment status: %@, available actions: %@, transaction: %@, actionFetchDate: %@)"
+- " (transactionPass %@ valueAddedServicePass %@ paymentMethodDescription %@ transactionType %@ transactionDescription %@ displayablePassItems %@ transactionStatus: %@)\n"
+- " action is not available."
+- " balance by ID no value."
+- " balances:%@"
+- " is timed commute plan:%d, is expired:%d, expiry date:%@, is action available:%d"
+- " transitPassProperties:%@"
+- "\""
+- "#%@"
+- "$defaultActor"
+- "%02x"
+- "%2B"
+- "%@ - %@"
+- "%@ : %@ Suica Card"
+- "%@-flow %@ Card"
+- "%@/"
+- "%@//"
+- "%@: %@"
+- "%@: %p identifier %@ back step identifier %@"
+- "%@_%@"
+- "%f"
+- "%lu"
+- "%u,%@"
+- "(408) 577-1010"
+- "+"
+- ", accessories:%@"
+- ", assertion:%@"
+- "-[NPKContactlessPaymentSessionManager _cleanupQuickPaymentSession]"
+- "-[NPKNanoPassDaemonConnection _remoteObjectProxySynchronous:withFailureHandler:]"
+- "-[NPKPassAssociatedInfoManager _updatePassInfoManagerForPassUniqueID:updateBlock:]_block_invoke"
+- "-[NPKPaymentProvisioningFlowController _handleProvisioningFlowStarted:]_block_invoke"
+- "-[NPKPaymentProvisioningFlowController _handleProvisioningFlowStarted:]_block_invoke_5"
+- "-[NPKPaymentProvisioningFlowController(DigitalIssuance) _canMakeDigitalIssuancePaymentsForTransitProducts:withCompletion:]_block_invoke_3"
+- "-[NPKPaymentProvisioningFlowController(ReaderMode) contactlessCardIngester:didFailToIngestCardWithError:resetProvisioning:isRecoverable:]_block_invoke"
+- "-[NPKQuickPaymentSession executeRKEActionForPass:function:action:withCompletion:]"
+- "-[NPKTransientAssertion _handleInterruption]"
+- "-[NPKTransientAssertion _handleInvalidation]"
+- "-[NPKTransientAssertion _resyncState]"
+- "-[NPKTransientAssertion didEnterFieldForPassesWithUniqueIDs:]"
+- "-[NPKTransientAssertion handleDelegatedDoublePressEventWithSource:]"
+- "-[NPKTransientAssertion handleTerminalAuthenticationRequestedForPassWithUniqueID:]"
+- "-[NPKUserNotification body]"
+- "-[NPKUserNotification title]"
+- "-[NPKUserNotificationCenter _addNotificationWithNotificationIdentifier:title:body:categoryIdentifier:userInfo:wantsBadgedIcon:suppressed:completion:]_block_invoke"
+- "-[NPKVehicleConnectivityCoordinator isVehicleConnectedForPass:]"
+- "/"
+- "/Library/Caches/com.apple.xbs/Sources/NanoPassbook_Frameworks/NanoPassKit/CoreIDV Connection/Host Process Classes/NPKIDVRemoteDeviceSession.m"
+- "/Library/Caches/com.apple.xbs/Sources/NanoPassbook_Frameworks/NanoPassKit/NPKCompanionAgentConnection.m"
+- "/Library/Caches/com.apple.xbs/Sources/NanoPassbook_Frameworks/NanoPassKit/NPKCoreAnalytics.m"
+- "/Library/Caches/com.apple.xbs/Sources/NanoPassbook_Frameworks/NanoPassKit/NPKGizmoDatabase.m"
+- "/Library/Caches/com.apple.xbs/Sources/NanoPassbook_Frameworks/NanoPassKit/NPKNanoPassDaemonConnection.m"
+- "/Library/Caches/com.apple.xbs/Sources/NanoPassbook_Frameworks/NanoPassKit/NPKOSTransaction.m"
+- "/Library/Caches/com.apple.xbs/Sources/NanoPassbook_Frameworks/NanoPassKit/NPKPassSyncConstants.m"
+- "/Library/Caches/com.apple.xbs/Sources/NanoPassbook_Frameworks/NanoPassKit/NPKPassSyncService.m"
+- "/Library/Caches/com.apple.xbs/Sources/NanoPassbook_Frameworks/NanoPassKit/NPKPaymentWebServiceCompanionTargetDevice.m"
+- "/Library/Caches/com.apple.xbs/Sources/NanoPassbook_Frameworks/NanoPassKit/NPKQuickPaymentSession.m"
+- "/Library/Caches/com.apple.xbs/Sources/NanoPassbook_Frameworks/NanoPassKit/NPKSubcredentialProvisioningService.m"
+- "/Library/Caches/com.apple.xbs/Sources/NanoPassbook_Frameworks/NanoPassKit/NPKVehicleConnectivityCoordinator.m"
+- "/Library/Caches/com.apple.xbs/Sources/NanoPassbook_Frameworks/NanoPassKit/NPKWorkQueue.m"
+- "/Library/Caches/com.apple.xbs/Sources/NanoPassbook_Frameworks/NanoPassKit/PKPass+NanoPassKit.m"
+- "/Library/Caches/com.apple.xbs/Sources/NanoPassbook_Frameworks/NanoPassKit/User Notifications/NPKUserNotification.m"
+- "/v%@/%@/"
+- "0.08"
+- "0000"
+- "0B0171D3-B1DB-4B4A-BC75-14ACB7BB9592"
+- "1 Infinite Loop"
+- "1.0"
+- "10.00"
+- "14EA79AF-4D88-460A-8900-04EA1EB9503C"
+- "1a"
+- "20.00"
+- "2000.0"
+- "23.95"
+- "2A05C9E8-D388-4DB8-8EE2-EB4D0F0D11B5"
+- "2x"
+- "37.50"
+- "3x"
+- "45D167B6-F5A6-469D-A81B-3146DE124929"
+- "46D8FA11-A747-4C0B-B4F4-0AB1308739B4"
+- "47B09AC1-3757-485D-9FB4-F124AC8FE430"
+- "4CAAF5A2-6DD3-43EE-B2D8-C3D8C4997856"
+- "50BDC6C0-0803-11EA-AAEF-0800200C9A66"
+- "54EDC00B-9FDF-442B-93A8-0562A7EBCCE0"
+- "66A5B423-7CBE-423C-A13B-6389E27D63B9"
+- "674FD660-822D-4A0A-8A10-7ED7299FB8F7"
+- "6993A7A9-22E3-4F44-AAAB-4F3DFDD83818"
+- "6BD289D4-EFF7-4E48-A3AD-776E924C8723"
+- "6C4614A2-1ECC-4405-9FEE-B5F0A5666961"
+- "763A8A6B-1D96-4298-878A-A0FF3C627D79"
+- "77EA0BCD-6C9F-44F2-B623-FD7662848CB6"
+- "79770938-0C49-40BD-B593-4E04E7557E01"
+- "8.95"
+- "81603B90-6702-446B-A559-CBA22E92C0B8"
+- "81D292E4-16D8-4630-82ED-BDF62B05E334"
+- "82AA137D-7207-4997-8F6E-9DB738D759F1"
+- "894C532F-65E7-4E2E-B3A3-9D0A8C0CE76D"
+- "8CF6A4A5-2346-47AF-B997-475C3E77AF88"
+- "94251CFF-6FD3-4126-9C80-71C8FC8F9F6C"
+- "95014"
+- ":"
+- "<%@ allows reader mode entry %d product %@>"
+- "<%@ appleID %@, balance %@>"
+- "<%@ camera first provisioning enabled %d setup fields %@ credential %@>"
+- "<%@ camera first provisioning enabled %d setup fields %@>"
+- "<%@ card added %d error %@>"
+- "<%@ certificates %@ nonce %@ nonce signature %@>"
+- "<%@ images %@>"
+- "<%@ ordered flow identifiers %@ credentials %@ allows manual entry %d product %@>"
+- "<%@ pass unique ID %@ channel %@>"
+- "<%@ pass unique ID %@ channels %@>"
+- "<%@ pass unique ID %@ fields %@>"
+- "<%@ pass unique ID %@ more info items %@>"
+- "<%@ preconditionsState %ld>"
+- "<%@ products %@>"
+- "<%@ sections %@>"
+- "<%@ terms URL %@ allow non-secure HTTP %d>"
+- "<%@ title %@ subtitle %@ ingestion state %ld ingestion progress %f>"
+- "<%@ title %@ subtitle %@ setup fields %@ product %@>"
+- "<%@: %p\n\tTile: %@\n\tAction: %@\n>"
+- "<%@: %p\n\treaderID: %@\n\tlockStatus: %@\n\ttimestamp: %@\n>"
+- "<%@: %p\n\tuniqueID: %@\n\tTimestamp: %@\n\tPass unique ID: %@\n\tHas session: %d\n\tSession type: %@\n\tSession started: %d\n\tSession waiting to start: %d\n\tSwitching session type: %d\n\tDouble-press received: %d\n\tDouble-press timestamp: %@\n\tSession authorized: %d\n\tPass activating: %d\n\tContactless interface ready: %d\n\tCan change pass: %d\n\tService mode requested pass: %@\n\tIn service mode: %d\n\tIn field: %d\n\tExpress status: %@\n\tTransient failure type: %@\n\tCompletion reason: %@\n\tTransaction context: %@\n>"
+- "<%@: %p - barcodeIdentifier: %@>"
+- "<%@: %p title \"%@\" footer \"%@\" items %@>"
+- "<%@: %p title \"%@\" products %@>"
+- "<%@:%p> {UUID:%@%@}"
+- "<%@:%p> {passUniqueID:%@, balanceFields:%@"
+- "<%@:%p> {transitProperties:%@, appletState:%@, balanceFields:%@ commutePlanFields:%@, tiles:%@, rangingSuspensionReason:%lu, precursorPassDescription:%@, hasDeviceBoundCommutePlans:%lu"
+- "<none>"
+- "@\"<NPKBarcodePaymentSessionDelegate>\""
+- "@\"<NPKBluetoothConnectivityCoordinatorDelegate>\""
+- "@\"<NPKDoublePressDelegationAssertionDelegate>\""
+- "@\"<NPKExpressModeSettingsCoordinatorDelegate>\""
+- "@\"<NPKExpressPassControllerDelegate>\""
+- "@\"<NPKOpenURLRouterDelegate>\""
+- "@\"<NPKPassSelectionFieldDetectorAssertionDelegate>\""
+- "@\"<NPKPassUserNotificationFactoryDataSource>\""
+- "@\"<NPKPassesDataSource>\""
+- "@\"<NPKPaymentProvisioningFlowControllerDelegate>\""
+- "@\"<NPKPaymentProvisioningFlowControllerDelegate>\"16@0:8"
+- "@\"<NPKPaymentWebServiceStandaloneTargetDeviceDelegate>\""
+- "@\"<NPKPrecursorPassUpgradeRequestControllerDelegate>\""
+- "@\"<NPKQuickPaymentSessionDelegate>\""
+- "@\"<NPKQuickPaymentSessionLocalAuthenticationCoordinatorCredentialDelegate>\""
+- "@\"<NPKQuickPaymentSessionSourceDelegate>\""
+- "@\"<NPKRemoteButtonListenerDelegate>\""
+- "@\"<NPKRemoteInterfacePresenterDelegate>\""
+- "@\"<NPKTransitAppletHistoryFetcherDelegate>\""
+- "@\"<NPKValueAddedServiceAutomaticSelectionCoordinatorDelegate>\""
+- "@\"<NPKVehicleConnectivityCoordinatorDelegate>\""
+- "@\"<NPKWiFiObserverDelegate>\""
+- "@\"<NSObject>\""
+- "@\"LAContext\""
+- "@\"NFHardwareManager\""
+- "@\"NPKBankConnectAccount\""
+- "@\"NPKBarcodePaymentSession\""
+- "@\"NPKButtonListener\""
+- "@\"NPKContactlessPaymentSessionManagerTransactionContext\""
+- "@\"NPKContactlessPaymentSessionState\""
+- "@\"NPKDoublePressDelegationAssertion\""
+- "@\"NPKDoublePressSuppressionAssertion\""
+- "@\"NPKExpressState\""
+- "@\"NPKFidoAuthCoordinator\""
+- "@\"NPKPaymentBarcode\""
+- "@\"NPKPaymentProvisioningFlowControllerPreconditionsStepContext\""
+- "@\"NPKPaymentProvisioningFlowControllerRequestContext\""
+- "@\"NPKPaymentProvisioningFlowPickerSection\"8@?0"
+- "@\"NPKPerishableValue\""
+- "@\"NPKPrecursorPassUpgradeRequestsManager\""
+- "@\"NPKQuickPaymentSession\""
+- "@\"NPKQuickPaymentSessionCleanupDelegate\""
+- "@\"NPKQuickPaymentSessionLocalAuthenticationCoordinator\""
+- "@\"NPKSemaphoreQueue\""
+- "@\"NSArray\"24@0:8@\"PKGroupsController\"16"
+- "@\"NSArray\"24@?0@\"NSArray\"8B16B20"
+- "@\"NSDictionary\"16@0:8"
+- "@\"NSDictionary\"8@?0"
+- "@\"NSDistributedNotificationCenter\""
+- "@\"NSError\""
+- "@\"NSMapTable\""
+- "@\"NSNumberFormatter\""
+- "@\"NSObject<NFSession>\""
+- "@\"NSString\"24@0:8@\"PKPaymentAuthorizationController\"16"
+- "@\"NSXPCConnection\""
+- "@\"PKAccountService\""
+- "@\"PKAddPaymentPassRequest\""
+- "@\"PKAddPaymentPassRequestConfiguration\""
+- "@\"PKAppleBalanceCredential\""
+- "@\"PKAssertion\""
+- "@\"PKContactlessCardIngester\""
+- "@\"PKContactlessInterfaceSession\""
+- "@\"PKCurrencyAmount\""
+- "@\"PKExpressPassController\""
+- "@\"PKExpressPassInformation\""
+- "@\"PKFieldDetector\""
+- "@\"PKGroupsController\""
+- "@\"PKHMAccessory\""
+- "@\"PKPass\""
+- "@\"PKPass\"24@0:8@\"NSString\"16"
+- "@\"PKPassLibrary\""
+- "@\"PKPassTile\""
+- "@\"PKPaymentAuthorizationController\""
+- "@\"PKPaymentCredential\""
+- "@\"PKPaymentPass\""
+- "@\"PKPaymentProvisioningController\""
+- "@\"PKPaymentProvisioningMethodMetadata\""
+- "@\"PKPaymentRequest\""
+- "@\"PKPaymentSessionHandle\""
+- "@\"PKPaymentSetupFieldsModel\""
+- "@\"PKPaymentSetupProduct\""
+- "@\"PKPaymentTransaction\""
+- "@\"PKPeerPaymentService\""
+- "@\"PKPrecursorPassUpgradeController\""
+- "@\"PKPrecursorPassUpgradeRequestDescription\""
+- "@\"PKSecureElementPass\""
+- "@\"PKSecureElementPass\"16@0:8"
+- "@\"PKServiceProviderPurchase\""
+- "@\"PKTransitPassProperties\""
+- "@\"PKVerificationChannel\""
+- "@\"STS18013ReaderAuthInfo\""
+- "@\"STSTransaction18013Request\""
+- "@\"UIWindow\"24@0:8@\"PKPaymentAuthorizationController\"16"
+- "@\"UNUserNotificationCenter\""
+- "@16@?0@\"PKEncryptedPushProvisioningTarget\"8"
+- "@16@?0@\"PKPass\"8"
+- "@16@?0@\"PKPaymentApplication\"8"
+- "@16@?0@\"PKPaymentPass\"8"
+- "@16@?0@\"PKShareableCredential\"8"
+- "@32@0:8@16d24"
+- "@32@0:8@16i24i28"
+- "@32@0:8@?16@?24"
+- "@36@0:8Q16@24B32"
+- "@40@0:8@16@?24@?32"
+- "@40@0:8Q16@24@32"
+- "@40@0:8Q16Q24@32"
+- "@40@0:8q16@24B32B36"
+- "@44@0:8@16@24B32@36"
+- "@64@0:8@16@24@32@40@48B56B60"
+- "@64@0:8@16@24q32@40@48B56B60"
+- "@72@0:8Q16@24@32@40@48@56@64"
+- "@88@0:8@16@24@32@40@48Q56@64B72@76B84"
+- "A3D877D2-408A-43F1-9CA4-39C9F3609A93"
+- "A5E3D6BA-0998-4787-BE2A-0BBF2B359CC0"
+- "AAA2622E-C2DC-45BF-A337-F8A4BCED8CFD"
+- "AB"
+- "AB2653AC-2D55-4D7D-9BFB-7D99AA89708B"
+- "ACTIVATION_NOT_AVAILABLE_MESSAGE"
+- "ACTIVATION_NOT_AVAILABLE_TITLE"
+- "AD3C8B62-1FB2-4A7A-ABF1-EBD5AF574209"
+- "AI"
+- "APPLE_ACCOUNT_TITLE"
+- "Accepting"
+- "Added products section with title: %@"
+- "AppRestricted"
+- "AppUninstalled"
+- "Appleseed"
+- "Argon"
+- "Arrives in 5-7 days"
+- "Arrives tomorrow"
+- "Automatic Reload"
+- "Availability"
+- "B16@?0@\"NPKPaymentProvisioningFlowPickerItem\"8"
+- "B16@?0@\"NSURLQueryItem\"8"
+- "B16@?0@\"PKPaymentCredential\"8"
+- "B16@?0@\"PKPaymentPass\"8"
+- "B16@?0@\"PKPaymentSetupProduct\"8"
+- "B16@?0@\"PKPeerPaymentRecipient\"8"
+- "B20@0:8B16"
+- "B24@0:8B16B20"
+- "B24@?0@\"<NPKPassItemField>\"8@\"NSDictionary\"16"
+- "B24@?0@\"PKPass\"8@\"NSDictionary\"16"
+- "B24@?0@\"PKPaymentCredential\"8@\"NSDictionary\"16"
+- "B24@?0@\"PKPaymentPass\"8@\"NSDictionary\"16"
+- "B28@0:8Q16B24"
+- "B32@0:8@16:24"
+- "B32@0:8Q16Q24"
+- "B32@?0@\"NPKPaymentProvisioningFlowPickerSection\"8Q16^B24"
+- "B32@?0@\"PKPass\"8Q16^B24"
+- "B32@?0@\"PKPaymentCredential\"8Q16^B24"
+- "B32@?0@\"PKPaymentSetupField\"8Q16^B24"
+- "B36@0:8@16B24@28"
+- "B48@0:8@16@24@32@40"
+- "B48@0:8@16@24@32B40B44"
+- "B56@0:8@16@24^@32^@40^@48"
+- "B68E1DBD-8CE4-4684-8F65-FF0AF2040D4E"
+- "B7B7F81F-E5A3-4B99-82C2-C5A0095FE70A"
+- "BA0452A1-075E-4E13-B48F-E36DF2F88980"
+- "BMAC"
+- "BankConnectedAccount"
+- "Barcode Event Metadata"
+- "Barcode Payment"
+- "Busy"
+- "C3FD35B9-C30A-4893-B94B-56080B5FD9B7"
+- "C4F6386A-780D-40E5-9900-0A26C16273A1"
+- "C990FB84-055B-467E-B7AD-EB88FCE19825"
+- "C9D5B8D6-68B4-4C31-9CB7-4CA5309D4C83"
+- "CA"
+- "CARD_TYPE_CREDIT_DEBIT"
+- "CARD_TYPE_CREDIT_PREPAID"
+- "CARD_TYPE_EMONEY"
+- "CARD_TYPE_PAYMENT_SECTION_HEADER"
+- "CARD_TYPE_TRANSIT"
+- "CARD_TYPE_TRANSIT_SECTION_BETA_FOOTER"
+- "CARD_TYPE_TRANSIT_SECTION_HEADER"
+- "COULD_NOT_ADD_CARD_MESSAGE"
+- "COULD_NOT_ADD_CARD_TITLE"
+- "COULD_NOT_CONNECT_MESSAGE"
+- "COULD_NOT_CONNECT_TITLE"
+- "COULD_NOT_SET_UP_MESSAGE"
+- "COULD_NOT_SET_UP_TITLE"
+- "CalendarIntegration"
+- "Called completion with nil"
+- "Canceling"
+- "Cancelled"
+- "Card"
+- "Closing existing Analytics subject: %s"
+- "Complete"
+- "Content-type"
+- "Cupertino"
+- "Currency"
+- "CurrencyType"
+- "CurrencyValue"
+- "D"
+- "D3581A95-1F64-4EBD-8F71-0CD6B696D766"
+- "D5834418-F4A0-4C74-AA38-8ED5F7765BD1"
+- "DC264F98-B0E2-4D96-9248-663A801E4FB1"
+- "Debug: Not memory-mapping %ld image set for pass with unique ID %@; does not conform to NPKMemoryMappableImageSet"
+- "Debug: Standalone: Apple Balance. Local eligibility resolved. Error: %@"
+- "DeviceLocked"
+- "DigitalIssuance"
+- "DirectlyInitiate"
+- "Disabled"
+- "E63BF630-F388-4DCC-B73A-40EFB659A4C2"
+- "E6F0AB1C-320C-4941-9948-D2EAE7BA9A51"
+- "ECFC47E2-4B1A-404F-ADA3-D23DF4B06A29"
+- "EECEF837-B719-472A-BE4C-375E1852CA2F"
+- "ELIGIBILITY_ALREADY_PROVISIONED_ERROR_TITLE"
+- "ELIGIBILITY_ERROR_BALANCE_TOO_LOW_MESSAGE"
+- "ELIGIBILITY_ERROR_BALANCE_TOO_LOW_TITLE"
+- "ELIGIBILITY_HARDWARE_NOT_SUPPORTED_ERROR_MESSAGE_WATCH"
+- "ELIGIBILITY_HARDWARE_NOT_SUPPORTED_ERROR_TITLE"
+- "ELIGIBILITY_INELIGIBLE_ERROR_MESSAGE"
+- "ELIGIBILITY_INELIGIBLE_ERROR_MESSAGE_NO_URL"
+- "ELIGIBILITY_INELIGIBLE_ERROR_TITLE"
+- "ELIGIBILITY_LEARN_MORE_BUTTON_TITLE"
+- "ELIGIBILITY_NEWER_OS_VERSION_REQUIRED_ERROR_MESSAGE_WATCH"
+- "ELIGIBILITY_NEWER_OS_VERSION_REQUIRED_ERROR_TITLE"
+- "ELIGIBILITY_SOFTWARE_UPDATE_BUTTON_TITLE"
+- "ELIGIBILITY_UNAVAILABLE_ERROR_MESSAGE"
+- "ELIGIBILITY_UNAVAILABLE_ERROR_TITLE"
+- "ELIGIBILITY_UNKNOWN_REQUIREMENTS_ERROR_MESSAGE"
+- "ELIGIBILITY_UNKNOWN_REQUIREMENTS_ERROR_MESSAGE_NO_URL"
+- "ELIGIBILITY_UNKNOWN_REQUIREMENTS_ERROR_TITLE"
+- "EXTENDED_REVIEW_ACTION_REQUIRED_BODY"
+- "EXTENDED_REVIEW_ACTION_REQUIRED_TITLE_DRIVER_LICENSE"
+- "EXTENDED_REVIEW_ACTION_REQUIRED_TITLE_ID_CARD"
+- "EXTENDED_REVIEW_ACTION_REQUIRED_TITLE_STATE_ID"
+- "EXTENDED_REVIEW_FOLLOW_VERIFICATION_INSTRUCTION_REQUIRED_BODY"
+- "EXTENDED_REVIEW_FOLLOW_VERIFICATION_INSTRUCTION_REQUIRED_TITLE_DRIVER_LICENSE"
+- "EXTENDED_REVIEW_FOLLOW_VERIFICATION_INSTRUCTION_REQUIRED_TITLE_ID_CARD"
+- "EXTENDED_REVIEW_FOLLOW_VERIFICATION_INSTRUCTION_REQUIRED_TITLE_STATE_ID"
+- "EXTENDED_REVIEW_LIVENESS_STEP_UP_REQUIRED_BODY_DRIVER_LICENSE"
+- "EXTENDED_REVIEW_LIVENESS_STEP_UP_REQUIRED_BODY_ID_CARD"
+- "EXTENDED_REVIEW_LIVENESS_STEP_UP_REQUIRED_BODY_STATE_ID"
+- "EXTENDED_REVIEW_LIVENESS_STEP_UP_REQUIRED_TITLE_DRIVER_LICENSE"
+- "EXTENDED_REVIEW_LIVENESS_STEP_UP_REQUIRED_TITLE_ID_CARD"
+- "EXTENDED_REVIEW_LIVENESS_STEP_UP_REQUIRED_TITLE_STATE_ID"
+- "EXTENDED_REVIEW_PROOFING_EXPIRED_BODY_DRIVER_LICENSE"
+- "EXTENDED_REVIEW_PROOFING_EXPIRED_BODY_ID_CARD"
+- "EXTENDED_REVIEW_PROOFING_EXPIRED_BODY_STATE_ID"
+- "EXTENDED_REVIEW_PROOFING_EXPIRED_TITLE_DRIVER_LICENSE"
+- "EXTENDED_REVIEW_PROOFING_EXPIRED_TITLE_ID_CARD"
+- "EXTENDED_REVIEW_PROOFING_EXPIRED_TITLE_STATE_ID"
+- "EXTENDED_REVIEW_PROVISIONING_REJECTED_BODY"
+- "EXTENDED_REVIEW_PROVISIONING_REJECTED_TITLE_DRIVER_LICENSE"
+- "EXTENDED_REVIEW_PROVISIONING_REJECTED_TITLE_ID_CARD"
+- "EXTENDED_REVIEW_PROVISIONING_REJECTED_TITLE_STATE_ID"
+- "EXTENDED_REVIEW_UNABLE_TO_ADD_BODY"
+- "EXTENDED_REVIEW_UNABLE_TO_ADD_TITLE_DRIVER_LICENSE"
+- "EXTENDED_REVIEW_UNABLE_TO_ADD_TITLE_ID_CARD"
+- "EXTENDED_REVIEW_UNABLE_TO_ADD_TITLE_STATE_ID"
+- "EXTENDED_REVIEW_VERIFICATION_CODE_REQUIRED_BODY"
+- "EXTENDED_REVIEW_VERIFICATION_CODE_REQUIRED_TITLE_DRIVER_LICENSE"
+- "EXTENDED_REVIEW_VERIFICATION_CODE_REQUIRED_TITLE_ID_CARD"
+- "EXTENDED_REVIEW_VERIFICATION_CODE_REQUIRED_TITLE_STATE_ID"
+- "EXTENDED_REVIEW_VERIFICATION_CODE_TRY_AGAIN_BODY"
+- "EXTENDED_REVIEW_VERIFICATION_ETA_BODY"
+- "EXTENDED_REVIEW_VERIFICATION_ETA_TITLE"
+- "En Route"
+- "Error in Kista response dict: %@"
+- "Error: %@: Couldn't get remote object proxy. Error: %@"
+- "Error: %@: XPC connection is nil"
+- "Error: *** NPKAssertion failure in %{public}s, %{public}s:%ld (reason: -[NPKNanoPassDaemonConnection _remoteObjectProxySynchronous:withFailureHandler:] (synchronous:%d) would have returned nil)"
+- "Error: *** NPKAssertion failure in %{public}s, %{public}s:%ld (reason: Attempting to send analytics event with nil amount)"
+- "Error: *** NPKAssertion failure in %{public}s, %{public}s:%ld (reason: Attempting to send analytics event with nil currency)"
+- "Error: *** NPKAssertion failure in %{public}s, %{public}s:%ld (reason: Unable to check vehicle connected state for any pass other than UWB capable car keys!)"
+- "Error: *** NPKAssertion failure in %{public}s, %{public}s:%ld (reason: We don't need to require first in queue when executing RKE actions.)"
+- "Error: >1 credentials when not chosen by user!"
+- "Error: Attempted to create assertion for %@ with reason: %@, but received nil."
+- "Error: ButtonController:IOHIDEventSystemClientCreate create failed\n"
+- "Error: Cannot handle unsupported pass list action: %@. Presenting pass list."
+- "Error: Could not find card with uniqueID: %@"
+- "Error: Could not find pass with uniqueID: %@"
+- "Error: Double-press suppression assertion: XPC error during state sync: %@"
+- "Error: Error: No valid provisioning methods exist for credentials [%@]"
+- "Error: Error: No valid provisioning methods exist for product; transitioning to manual entry"
+- "Error: Error: No valid provisioning methods exist for product[%@] credential [%@]"
+- "Error: Express pass controller could not find pass for express pass configuration: %@"
+- "Error: Fail to creat Transit Applet history with Applet:%@ AID:%@ with error:%@"
+- "Error: Failed collecting associated credentials for product = '%@', cardType = %u, productIdentifier = %@"
+- "Error: Failed collecting metadata for associated credentials (type=%d), error = %@"
+- "Error: Failed to acquire process assertion for %@ event: %d."
+- "Error: History fetcher failed to start secure element manager session: %@"
+- "Error: NPKVehicleConnectivityCoordinator: Unable to fetch vehicle report! %@"
+- "Error: Not on an issuer verification step; cannot skip issuer verification!"
+- "Error: Not on get issuer add request step; cannot handle request!"
+- "Error: Not on product disambiguation step; cannot choose product!"
+- "Error: Past initialization step; cannot start issuer verification flow!"
+- "Error: Past initialization step; cannot start provisioning flow!"
+- "Error: RKE action completed with unexpected execution status number! Received: %@; expected: 0"
+- "Error: RKE action failed with error: %@"
+- "Error: Received Enter Near Field Notification, but no express pass information: %@"
+- "Error: Received Express Transaction Ended Notification for application identifier %@, but no pass."
+- "Error: Received Express Transaction Failed Notification for application identifier %@, but no pass."
+- "Error: Received Express Transaction Started Notification for application identifier %@, but no pass."
+- "Error: Remote object proxy error handler for clear peer payment quote invoked: %@"
+- "Error: Remote object proxy error handler for dismiss add payment pass invoked: %@"
+- "Error: Remote object proxy error handler for present add payment pass invoked: %@"
+- "Error: Remote object proxy error handler for present contactless interface upgrade request invoked: %@"
+- "Error: Remote object proxy error handler for present continuity payment interface invoked: %@"
+- "Error: Remote object proxy error handler for present in-app interface for skeleton peer payment quote invoked: %@"
+- "Error: Remote object proxy error handler for present in-app payment interface invoked: %@"
+- "Error: Remote object proxy error handler for present passcode upgrade request invoked: %@"
+- "Error: Remote object proxy error handler for present provisioning continuity car key interface invoked: %@"
+- "Error: Remote object proxy error handler for present top up value selection interface invoked: %@"
+- "Error: Remote object proxy error handler for set configuration invoked: %@"
+- "Error: Remote object proxy error handler for tear down passcode upgrade request invoked: %@"
+- "Error: Request create NPKPeerPaymentStatus with unexpected number:%@"
+- "Error: Standalone: Apple Balance security requirements not met. Could not verify/setup Apple\u00a0Pay cloud store container. Error: %@"
+- "Error: Standalone: Error: Unable to request and store externalized auth! %@"
+- "Error: Subclasses to implement %s"
+- "Error: Unable to re-direct url: %@ to Safari."
+- "Error: [BarcodePayment] Error acquiring express transaction suppression assertion: %@"
+- "Error: [BarcodePayment] Error acquiring notification suppression assertion: %@"
+- "Error: [BarcodePayment] Failed to acquire process assertion for barcode payment event: %d."
+- "Error: [BarcodePayment] Failed to begin payment information event extension for pass %@ with error %@"
+- "Error: [BarcodePayment] Failed to fetch barcode due to: %@"
+- "Error: [BarcodePayment] Local extension %@ for pass %@ failed to collect payment information"
+- "Error: [BarcodePayment] Remote extension failed with error: %@"
+- "Error: [BarcodePayment] Remote extension timed out."
+- "Error: [NPKApplicationStateListener] %p Failed to fetch %@ application record. App Record is nil? %@. Error: %@"
+- "Error: [NanoPassdXPC] Failed to create remoteObjectProxy"
+- "Error: [NanoPassdXPC] Handling legacy express mode enabled codepath for pass unique ID: %@"
+- "Error: [PaymentSessionManager] Asked to handle RKE action for unexpected item: %@ pass: %@; Aborting."
+- "Error: [PaymentSessionManager] Failed to obtain vehicle report (%@) for pass: %@ with subcredential identifier: %@! Error: %@"
+- "Error: [PaymentSessionManager] Got user intervention required passes %@"
+- "Error: [PaymentSessionManager] Unable to handle RKE action for pass: %@ function: %@ action: %@! Invalid input."
+- "Error: [PaymentSessionManager] Unable to handle RKE action for pass: %@ with action: %@ function: %@ error: %@"
+- "Error: expected session type:%@ for pass:%@, current session type:%@ doesn't match. Expect bad thing to happen."
+- "Errors"
+- "FA784EAB-0396-4E07-B68A-66815BB84E3E"
+- "FCC9847B-9EBD-4ADA-9267-D77292895F8D"
+- "FD975695-3B94-465A-86E1-26276C5835A8"
+- "FPInfo"
+- "Failed"
+- "Failed de-serialize data: %s with error: %@"
+- "Failed serialize value with error: %@"
+- "FakePaymentSessionInternal"
+- "FedEx Ground"
+- "Flow"
+- "FlowSelection"
+- "Free Shipping"
+- "Generic"
+- "Green"
+- "HOME_KEY_BOTH_EXPRESS_ENABLED_OPT_OUT_NOTIFICATION_MESSAGE_WATCH"
+- "HOME_KEY_EXPRESS_ENABLED_OPT_OUT_NOTIFICATION_MESSAGE_WATCH_DISABLE_ACTION"
+- "HOME_KEY_EXPRESS_ENABLED_OPT_OUT_NOTIFICATION_TITLE_WATCH"
+- "HOME_KEY_UWB_EXPRESS_ENABLED_OPT_OUT_NOTIFICATION_MESSAGE_WATCH"
+- "HOME_KEY_UWB_EXPRESS_ENABLED_OPT_OUT_NOTIFICATION_TITLE_WATCH"
+- "HalfpipeD"
+- "Helium"
+- "INSERT INTO pass (unique_id, type_id, style, hash, encoded_pass, encoded_image_sets, encoded_diff, logo_text, logo_image, background_color, label_color, foreground_color, background_image, nfc_payload, private_label, cobranded, device_payment_applications, device_primary_payment_application, device_primary_contactless_payment_application, device_primary_in_app_payment_application, preferred_aid, preferred_payment_application, ingested_date, complete_hash, delete_pending, effective_payment_application_state, has_user_selectable_payment_applications, has_stored_value, settings, complete_hashes, issuer_country_code, available_actions, organization_name, felica_transit_applet_state, front_field_buckets, back_field_buckets, last_add_value_amount, localized_description, pending_add_value_date, express_pass_types_mask, complete_remote_hashes, supports_pp, balances) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
+- "Inbound"
+- "Installed"
+- "Items"
+- "John"
+- "Kista response: %@"
+- "Kista response:: %@"
+- "Krypton"
+- "Krypton w/ %@"
+- "LABEL_TIME_ALL_DAY"
+- "LAUIDelegate"
+- "LSApplicationWorkspaceObserverProtocol"
+- "LoadingViewPresented-NanoPassbook-NearbyPeerPayment"
+- "Locked"
+- "NFHardwareEventListener"
+- "NPKAddPaymentPassController"
+- "NPKAddPaymentPassControllerClientProtocol"
+- "NPKAddPaymentPassControllerServerProtocol"
+- "NPKAnalyticsReporter"
+- "NPKApplicationStateListener"
+- "NPKAssertionController"
+- "NPKAssertionWrapper"
+- "NPKAudioPlayer"
+- "NPKAuthIntentListener"
+- "NPKBarcodePaymentSession"
+- "NPKBarcodePaymentSessionDelegate"
+- "NPKBluetoothConnectivityCoordinator"
+- "NPKButtonListener"
+- "NPKContactlessPaymentSessionAnalyticsManager"
+- "NPKContactlessPaymentSessionFailureTypeCanceledTransaction"
+- "NPKContactlessPaymentSessionFailureTypeCardNotActivated"
+- "NPKContactlessPaymentSessionFailureTypeFailedActivation"
+- "NPKContactlessPaymentSessionFailureTypeFailedTransaction"
+- "NPKContactlessPaymentSessionFailureTypeNoBioAuthToken"
+- "NPKContactlessPaymentSessionFailureTypeNoBluetooth"
+- "NPKContactlessPaymentSessionFailureTypeNoWifi"
+- "NPKContactlessPaymentSessionFailureTypeNone"
+- "NPKContactlessPaymentSessionFailureTypePaymentExpected"
+- "NPKContactlessPaymentSessionFailureTypePaymentNotExpected"
+- "NPKContactlessPaymentSessionFailureTypeSessionTimedOut"
+- "NPKContactlessPaymentSessionFailureTypeUntrustedReader"
+- "NPKContactlessPaymentSessionManager"
+- "NPKContactlessPaymentSessionManagerObserver"
+- "NPKContactlessPaymentSessionManagerTransactionContext"
+- "NPKContactlessPaymentSessionSoundsManager"
+- "NPKContactlessPaymentSessionState"
+- "NPKContactlessPaymentSessionTransactionTypeBarcode"
+- "NPKContactlessPaymentSessionTransactionTypeFirstClassTrain"
+- "NPKContactlessPaymentSessionTransactionTypeGeneric"
+- "NPKContactlessPaymentSessionTransactionTypeHighSpeedTrain"
+- "NPKContactlessPaymentSessionTransactionTypeSTS_ISO18013"
+- "NPKContactlessPaymentSessionTransactionTypeStoredValue"
+- "NPKContactlessPaymentSessionTransactionTypeUnknown (%lu)"
+- "NPKDataReleaseStatusAccepted"
+- "NPKDataReleaseStatusDataReleasedFailed"
+- "NPKDataReleaseStatusDataReleasedSuccessfully"
+- "NPKDataReleaseStatusInReview"
+- "NPKDataReleaseStatusPendingRequest"
+- "NPKDataReleaseStatusRejected"
+- "NPKDataReleaseStatusUnknown"
+- "NPKDataReleaseStatusUnknown (%lu)"
+- "NPKDoubleClickClientSuppressor"
+- "NPKDoublePressDelegationAssertion"
+- "NPKDoublePressDelegationAssertionDelegate"
+- "NPKDoublePressSuppressionAssertion"
+- "NPKExpressModeSettingsCoordinator"
+- "NPKExpressPassController"
+- "NPKExpressPassControllerStatusFieldDetected"
+- "NPKExpressPassControllerStatusTransactionCompleted"
+- "NPKExpressPassControllerStatusTransactionFailed"
+- "NPKExpressPassControllerStatusTransactionStarted"
+- "NPKExpressPassControllerStatusWaitingForField"
+- "NPKExpressPassesManager"
+- "NPKExpressTransactionStatusCompleted"
+- "NPKExpressTransactionStatusCompletedWithDetails"
+- "NPKExpressTransactionStatusFailed"
+- "NPKExpressTransactionStatusInProgress"
+- "NPKExpressTransactionStatusPendingDetails"
+- "NPKExpressTransactionStatusUnknown"
+- "NPKExpressUWBTransactionInfo"
+- "NPKFakePaymentSession"
+- "NPKFidoAuthCoordinator"
+- "NPKGreenTeaDataUsageResolver"
+- "NPKIdentityExtendedReviewUserNotification"
+- "NPKInAppPaymentInterfaceServerExportedInterface"
+- "NPKLowPowerModeLocalDeviceMonitor"
+- "NPKMockPeerPaymentAccountManager"
+- "NPKNanoPassDaemonConnection"
+- "NPKNanoPassDaemonConnectionProtocol"
+- "NPKNanoPassbookUserNotificationTypeExpressModeEnabled"
+- "NPKNanoPassbookUserNotificationTypeNFCExpressModeEnabled"
+- "NPKNanoPassbookUserNotificationTypeNfcAndUwbExpressModeEnabled"
+- "NPKNanoPassbookUserNotificationTypeUWBExpressModeEnabled"
+- "NPKOpenURLRouter"
+- "NPKPassAssociatedInfo"
+- "NPKPassAssociatedInfoManager"
+- "NPKPassAssociatedInfoModel"
+- "NPKPassSelectionFieldDetectorAssertion"
+- "NPKPassUserNotification"
+- "NPKPassUserNotificationFactory"
+- "NPKPassesDataSource"
+- "NPKPassesDataSourceObserver"
+- "NPKPassesManager"
+- "NPKPaymentBarcode"
+- "NPKPaymentProvisioningFlowController"
+- "NPKPaymentProvisioningFlowControllerAppleBalanceAccountDetailsStepContext"
+- "NPKPaymentProvisioningFlowControllerChooseCredentialsStepContext"
+- "NPKPaymentProvisioningFlowControllerChooseFlowStepContext"
+- "NPKPaymentProvisioningFlowControllerChooseProductStepContext"
+- "NPKPaymentProvisioningFlowControllerDigitalIssuanceAmountStepContext"
+- "NPKPaymentProvisioningFlowControllerDigitalIssuancePaymentStepContext"
+- "NPKPaymentProvisioningFlowControllerGetIssuerApplicationAddRequestStepContext"
+- "NPKPaymentProvisioningFlowControllerIssuerVerificationChannelsStepContext"
+- "NPKPaymentProvisioningFlowControllerIssuerVerificationCodeStepContext"
+- "NPKPaymentProvisioningFlowControllerIssuerVerificationFieldsStepContext"
+- "NPKPaymentProvisioningFlowControllerLocalDeviceManualEntryProgressStepContext"
+- "NPKPaymentProvisioningFlowControllerLocalDeviceManualEntryStepContext"
+- "NPKPaymentProvisioningFlowControllerManualEntryStepContext"
+- "NPKPaymentProvisioningFlowControllerMoreInformationStepContext"
+- "NPKPaymentProvisioningFlowControllerPasscodeUpgradeStepContext"
+- "NPKPaymentProvisioningFlowControllerPreconditionsStepContext"
+- "NPKPaymentProvisioningFlowControllerProductDisambiguationStepContext"
+- "NPKPaymentProvisioningFlowControllerProtocol"
+- "NPKPaymentProvisioningFlowControllerProvisioningProgressStepContext"
+- "NPKPaymentProvisioningFlowControllerProvisioningResultStepContext"
+- "NPKPaymentProvisioningFlowControllerReaderModeEntryStepContext"
+- "NPKPaymentProvisioningFlowControllerReaderModeIngestionStepContext"
+- "NPKPaymentProvisioningFlowControllerRequestContext"
+- "NPKPaymentProvisioningFlowControllerSecondaryManualEntryStepContext"
+- "NPKPaymentProvisioningFlowControllerTermsAndConditionsStepContext"
+- "NPKPaymentProvisioningFlowControllerWelcomeStepContext"
+- "NPKPaymentProvisioningFlowPickerItem"
+- "NPKPaymentProvisioningFlowPickerSection"
+- "NPKPaymentProvisioningFlowStepContext"
+- "NPKPaymentWebServiceStandaloneTargetDevice"
+- "NPKPeerPaymentAccountManager"
+- "NPKPeerPaymentAccountManagerAccountDidChangeNotification"
+- "NPKPeerPaymentMessagesTransactionsManager"
+- "NPKPeerPaymentNumberFormatter"
+- "NPKPeerPaymentQuickTypeParser"
+- "NPKPeerPaymentQuickTypeParserCurrencyData"
+- "NPKPeerPaymentQuickTypeParserData"
+- "NPKPeerPaymentTransactionDetails"
+- "NPKPerishableValue"
+- "NPKPrecursorPassUpgradeRequestController"
+- "NPKPrecursorPassUpgradeRequestControllerDelegate"
+- "NPKPrecursorPassUpgradeRequestsManager"
+- "NPKPrecursorPassUpgradeRequestsManagerObserver"
+- "NPKProcessAssertion"
+- "NPKProtoStandaloneHelper"
+- "NPKQuickPaymentSession"
+- "NPKQuickPaymentSessionCleanupDelegate"
+- "NPKQuickPaymentSessionCompletionReasonActivationError"
+- "NPKQuickPaymentSessionCompletionReasonClientDismissed"
+- "NPKQuickPaymentSessionCompletionReasonNoBluetooth"
+- "NPKQuickPaymentSessionCompletionReasonNoWifi"
+- "NPKQuickPaymentSessionCompletionReasonTerminalError"
+- "NPKQuickPaymentSessionCompletionReasonTimedOut"
+- "NPKQuickPaymentSessionCompletionReasonTransactionCanceledByClient"
+- "NPKQuickPaymentSessionCompletionReasonTransactionComplete"
+- "NPKQuickPaymentSessionCompletionReasonTransactionError"
+- "NPKQuickPaymentSessionCompletionReasonUIRequested"
+- "NPKQuickPaymentSessionCompletionReasonUnknown"
+- "NPKQuickPaymentSessionCompletionReasonUnknown (%lu)"
+- "NPKQuickPaymentSessionCompletionReasonUntrustedReader"
+- "NPKQuickPaymentSessionContactlessType"
+- "NPKQuickPaymentSessionDelegate"
+- "NPKQuickPaymentSessionDigitalCarKeyType"
+- "NPKQuickPaymentSessionInternalQueue"
+- "NPKQuickPaymentSessionLocalAuthenticationCoordinator"
+- "NPKQuickPaymentSessionQueue"
+- "NPKQuickPaymentSessionSTSType"
+- "NPKQuickPaymentSessionSource"
+- "NPKQuickPaymentSessionUnknownType"
+- "NPKQuickPaymentSessionUnknownType (%lu)"
+- "NPKRemoteButtonListener"
+- "NPKRemoteInterfacePresenter"
+- "NPKRemoteInterfacePresenterQueue"
+- "NPKSecureElement"
+- "NPKSemaphoreQueue"
+- "NPKStandaloneProvisioningNumericEntryCoordinator"
+- "NPKStandaloneProvisioningServiceClientProtocol"
+- "NPKStandaloneProvisioningServiceServerProtocol"
+- "NPKTestAddPaymentPassRequestContext"
+- "NPKTileActionItem"
+- "NPKTrackPeerPaymentAction"
+- "NPKTransactionContextStatusComplete"
+- "NPKTransactionContextStatusProcessing"
+- "NPKTransactionContextStatusUnknown"
+- "NPKTransactionContextStatusUnknown (%lu)"
+- "NPKTransientAssertion"
+- "NPKTransientAssertionQueue"
+- "NPKTransientPassAssertion"
+- "NPKTransientPassAssertionServerClientProtocol"
+- "NPKTransientPassAssertionServerProtocol"
+- "NPKTransitAppletHistoryFetcher"
+- "NPKUserNotification"
+- "NPKUserNotificationCenter"
+- "NPKUserNotificationExpressModeEnabled"
+- "NPKUserNotificationModel"
+- "NPKUserNotificationsErrorDomain"
+- "NPKUserPreferenceTransactionsStatus"
+- "NPKValueAddedServiceAutomaticSelectionCoordinator"
+- "NPKVehicleConnectivityCoordinator"
+- "NPKWifiObserver"
+- "NPSButtonListener"
+- "NanoPassKit-Identity"
+- "NanoPassKitUI-Transit"
+- "NearbyPeerPayment"
+- "NearbyPeerPaymentDestinationAddress"
+- "NearbyPeerPaymentSenderAddress"
+- "NeedAccept"
+- "Neon"
+- "NoCards"
+- "Notice: %@ Declining to handle button event. System state lock (sleep mode, water lock, school mode, etc) in effect"
+- "Notice: %@ Declining to handle button event. Wallet is not installed"
+- "Notice: %@ Start listening for express notifications"
+- "Notice: %@ Stop listening for express notifications"
+- "Notice: %@ account in %@ state, supports one time deposit %@, supports one time withdrawal %@."
+- "Notice: %@ account in %@ state. Should show savings: %@"
+- "Notice: %@ transition from status %@ to %@"
+- "Notice: %@: Transient assertion connection interrupted"
+- "Notice: %@: Transient assertion connection invalidated"
+- "Notice: %@: Transient pass assertion: resyncing state"
+- "Notice: %@: We're in the middle of some other transaction (transactionStatus: %@). Suppressing event for pass %@."
+- "Notice: %d credentials remaining; moving to credential: %@"
+- "Notice: %s Scheduled notification with notification ID: %@, title: %@, body: %@, userInfo: %@. Error: %@"
+- "Notice: %s: completed in %f seconds, after %u products, hasCompatiblePass = %@"
+- "Notice: %s: time taken to all requirements = %fs"
+- "Notice: %s: time taken to min requirements = %fs"
+- "Notice: %s:%@ (resetProvisioning: %d, isRecoverable: %d)"
+- "Notice: (account-pass-provisioning) fetched account %@"
+- "Notice: Accepting new express status because it is greater than the previous express status."
+- "Notice: Accepting reset of express status."
+- "Notice: Access status fetched. Is restricted: %@"
+- "Notice: Acquired process assertion for %@ event with %d."
+- "Notice: Activating local authentication event %ld"
+- "Notice: Attempting to handle URL: %@ as universal link"
+- "Notice: Audio player playing sound %u"
+- "Notice: Authorizing ISO18013 Request with dataToRelease:%@ credential:%@"
+- "Notice: Authorizing deferred authorization: %d use credential: %d credential: %@"
+- "Notice: Card ingestion status: %lu"
+- "Notice: Cleanup delegate got session complete for reason %d with transaction %@ and transit history %@ for unique ID %@"
+- "Notice: Complete except for local fields %d local %d non local %d"
+- "Notice: Confirm or renew quick payment session state is %u"
+- "Notice: Could not fetch Applet with ID:%@ from session:%@"
+- "Notice: Creating commute plan field with label: %@, tripCount: %@, pendingUpdateExpireDate: %@"
+- "Notice: Creating home manager for initial fetch of accessory."
+- "Notice: Credentials chosen: %@"
+- "Notice: Currently resolving data usage"
+- "Notice: Deactivate quick payment session: deactivating %d deactivated %d"
+- "Notice: Deactivate quick payment session: underlying session deactivated"
+- "Notice: Determining required fields for response status %ld and product identifier %@"
+- "Notice: Device may need data usage resolution"
+- "Notice: Didn't understand URL: %@"
+- "Notice: Digital issuance terms accepted"
+- "Notice: Double-press delegation assertion: received delegated event"
+- "Notice: Double-press delegation assertion: received terminal authentication request event"
+- "Notice: Double-press delegation assertion: resyncing state"
+- "Notice: Double-press suppression assertion: Server confirmed state change"
+- "Notice: Double-press suppression assertion: Suppression disabled locally due to interruption."
+- "Notice: Double-press suppression assertion: Suppression disabled on server after invalidation."
+- "Notice: Double-press suppression assertion: connection interrupted during invalidation; suppression disabled"
+- "Notice: Double-press suppression assertion: connection interrupted; disabling suppression locally."
+- "Notice: Double-press suppression assertion: connection invalidated during invalidation; suppression disabled"
+- "Notice: Double-press suppression assertion: connection invalidated; disabling suppression on server."
+- "Notice: Double-press suppression assertion: invalidating assertion"
+- "Notice: Double-press suppression assertion: invalidation already in progress, ignoring duplicate call"
+- "Notice: Double-press suppression assertion: resyncing state (suppression: %@) with completion %@"
+- "Notice: Double-press suppression assertion: state sync completed, proceeding with invalidation"
+- "Notice: Enabling persistent card emulation"
+- "Notice: Entry metadata type PKPassUpcomingPassInformationEntryTypeGeneric not handled. returning nil semantics"
+- "Notice: Error no pass to process applet history"
+- "Notice: Executing RKE action for pass:%@ function:%@ action:%@ with completion:%@"
+- "Notice: Express mode operation completed with success: %d"
+- "Notice: Express mode settings coordinator: Checking for conflicts when enabling express for %@"
+- "Notice: Express mode settings coordinator: Enabling express for %@"
+- "Notice: Express mode settings coordinator: Handling successful user authentication for %@"
+- "Notice: Express mode settings coordinator: Operation completed successfully for %@"
+- "Notice: Express mode settings coordinator: Received request to disable express for %@"
+- "Notice: Express mode settings coordinator: Received request to enable express for %@"
+- "Notice: Express mode settings coordinator: Requesting user authentication for %@"
+- "Notice: Express mode settings coordinator: Upgrading express for %@"
+- "Notice: Fail scheduled invalidation assertion:%@"
+- "Notice: Fail scheduled invalidation assertion:%@ for owner:%@"
+- "Notice: Failed to open deep link for url: %@ with error: %@"
+- "Notice: Fake payment session: Got transaction complete Darwin notification"
+- "Notice: Fake payment session: confirming session for pass %@"
+- "Notice: Fake payment session: deactivating session"
+- "Notice: Fake payment session: detected field entry"
+- "Notice: Fake payment session: detected field exit"
+- "Notice: Fake payment session: handling timeout"
+- "Notice: Fake payment session: setting VAS passes %@"
+- "Notice: Fake payment session: setting current pass %@"
+- "Notice: Fake payment session: setting timer"
+- "Notice: Fetch NFC status error: %@"
+- "Notice: Fetched pass %@ with Unique Identifier %@ for express pass configuration %@"
+- "Notice: Field %@ is incomplete requires local entry %d"
+- "Notice: Filtered required fields based on local device entry requirement"
+- "Notice: Finished creating home manager. Now fetching lock for reader with identifier %@"
+- "Notice: Finished loading content for pass with unique ID %@"
+- "Notice: Finished loading image set %ld for pass with unique ID %@"
+- "Notice: Finished looking up actions for transaction with service identifier %@: actions %@, status %@"
+- "Notice: Flow controller change step from %@ to %@ with context: %@"
+- "Notice: Flow controller encountered error: %@"
+- "Notice: Forming payment eligibility request from current Apple Balance credential %@"
+- "Notice: Forming payment eligibility request from current credential %@"
+- "Notice: Forming payment eligibility request from fields model"
+- "Notice: Forming payment eligibility request from in-app provisioning request %@"
+- "Notice: Forming payment requirements request from current Apple Balance credential %@"
+- "Notice: Forming payment requirements request from current credential %@"
+- "Notice: Forming payment requirements request from fields model"
+- "Notice: Forwarding did finish to delegate"
+- "Notice: Forwarding generate request to delegate"
+- "Notice: Found %d VAS passes for automatic selection"
+- "Notice: Found account with card unique id %@ "
+- "Notice: Found existing accessory with identifier %@.\n Performing fetch in background to update cache."
+- "Notice: Found lock: %@"
+- "Notice: Found reader identifer %@ for accessory %@"
+- "Notice: Found technology type %@ sibling express pass %@"
+- "Notice: Got cancel service mode requests notification"
+- "Notice: Got express passes changed notification in express pass controller"
+- "Notice: Got object settings changed to %u for pass (%@) with unique ID %@"
+- "Notice: Group %@ inserted pass %@ (%@) with state (%@) at index %lu"
+- "Notice: Group %@ moved pass from index %lu to index %lu"
+- "Notice: Group %@ removed pass %@ (%@) at index %lu"
+- "Notice: Group %@ updated pass %@ (%@) with state (%@) at index %lu"
+- "Notice: Group %@ updated state (%@) for pass %@ (%@) at index %lu"
+- "Notice: Groups controller inserted group %@ at index %lu"
+- "Notice: Groups controller moved group %@ from index %lu to index %lu"
+- "Notice: Groups controller removed group %@ at index %lu"
+- "Notice: Handling URL: %@"
+- "Notice: Handling action %@ for pass ID %@"
+- "Notice: Handling conventional transaction"
+- "Notice: Handling new contactless session: %@"
+- "Notice: Handling regular pass with pass ID %@"
+- "Notice: Handling transit transaction"
+- "Notice: Handling truth-on-card transit transaction"
+- "Notice: History fetcher (AID %@) got secure element manager session: %@"
+- "Notice: History fetcher already has an outstanding session handle; not creating a new session."
+- "Notice: History fetcher got applet history: %@ for applet: %@"
+- "Notice: History fetcher received fetch request"
+- "Notice: History fetcher set AID to %@"
+- "Notice: Ignoring UWB event %@ with operation source %@"
+- "Notice: Ignoring new peer payment transaction status %@ for transaction with identifier: %@ transaction: %@"
+- "Notice: Ignoring timeout for service mode (should get persistent card emulation event instead)"
+- "Notice: In service mode; ignoring Start Transaction"
+- "Notice: In service mode; ignoring activity timeout"
+- "Notice: In-app provisioning timed out waiting for response from client"
+- "Notice: Internal queue update contactless session: success %d now activated %d session confirmed %d"
+- "Notice: Internal queue: updating contactless session for pass %@ auto-select VAS passes %@"
+- "Notice: Invalidated assertion:%@"
+- "Notice: Invalidated assertion:%@ for owner:%@"
+- "Notice: Invalidated process assertion for %@ event."
+- "Notice: Invoking callback for activation: success %d invokeOnSuccess %d contactlessValidity %u pass %@"
+- "Notice: Loading content for pass with unique ID %@"
+- "Notice: Loading image set type %ld for pass with unique ID %@"
+- "Notice: Local authentication coordinator: Cancelling authentication"
+- "Notice: Local authentication coordinator: Deactivating local authentication with event %ld"
+- "Notice: Local authentication coordinator: already-completed context"
+- "Notice: Local authentication coordinator: begin local authentication with access control"
+- "Notice: Local authentication coordinator: begin local authentication with completion:%@"
+- "Notice: Local authentication coordinator: created new context"
+- "Notice: Local authentication coordinator: evaluating asynchronously"
+- "Notice: Local authentication coordinator: evaluating synchronously"
+- "Notice: Local authentication coordinator: existing completion handler"
+- "Notice: Local authentication coordinator: have completion handler for evaluate policy with error:%@"
+- "Notice: Local authentication coordinator: in-progress context"
+- "Notice: Local authentication coordinator: invalidating context completed:%@ inProgress:%@"
+- "Notice: Local authentication coordinator: no completion handler for evaluate policy with error:%@"
+- "Notice: Local authentication coordinator: requested invalidate context"
+- "Notice: Local authentication coordinator: setCredential for %@ returned %@"
+- "Notice: LocalAuthentication UI ***** %@ %@ ***** - event: %@ params: %@"
+- "Notice: Malformed reader mode resources - missing card image urls"
+- "Notice: Manual entry fields %@ do not contain all required fields %@; going back to requirements"
+- "Notice: Memory-mapping %ld image set for pass with unique ID %@"
+- "Notice: More than one express pass for this technology type: %@"
+- "Notice: NFC: retrieved nfcDisabled state: %d."
+- "Notice: NFHardwareEventListener received nfc radio enabled %d"
+- "Notice: NPKDoubleClickClientSuppressor: Acquiring assertion"
+- "Notice: NPKDoubleClickClientSuppressor: Releasing assertion"
+- "Notice: NPKFidoAuthCoordinator: About to evaluate device owner authentication policy for context: %@"
+- "Notice: NPKFidoAuthCoordinator: Context evaluated; error: %@"
+- "Notice: NPKFidoAuthCoordinator: clearing context: %@"
+- "Notice: NPKFidoAuthCoordinator: noting that device is locked; requesting unlock"
+- "Notice: NPKFidoAuthCoordinator: request authorization with completion: %@"
+- "Notice: NPKPassAssociatedInfoManager: %s\nHandling update type %ld for pass unique ID %@"
+- "Notice: NPKPassAssociatedInfoManager: Account apple balance not available for account with identifier %@, account details: %@"
+- "Notice: NPKPassAssociatedInfoManager: Adding pass with uniqueID:%@ to:%@"
+- "Notice: NPKPassAssociatedInfoManager: Did %@receive account with identifier %@ for feature identifier %@. Error?: %@"
+- "Notice: NPKPassAssociatedInfoManager: Not processing balances for not-tracked account with identifier %@ "
+- "Notice: NPKPassAssociatedInfoManager: Not using account balance for pass with unique ID %@. Account identifier %@ state %@"
+- "Notice: NPKPassAssociatedInfoManager: Pass is not eligible (non-transit, non-eMoney, non-Access, non-Apple Balance) with uniqueID:%@"
+- "Notice: NPKPassAssociatedInfoManager: Processing account balances for pass with uniqueID %@ with account %@"
+- "Notice: NPKPassAssociatedInfoManager: Received most recent tiles: %@ for pass with unique ID %@"
+- "Notice: NPKPassAssociatedInfoManager: Received most recent transit pass properties: %@ for pass with unique ID %@ payment application %@"
+- "Notice: NPKPassAssociatedInfoManager: Refreshing all associated pass info following re-establishment of connection"
+- "Notice: NPKPassAssociatedInfoManager: Removing model for pass with unique ID %@"
+- "Notice: NPKPassAssociatedInfoManager: Requested fetch most recent balances for pass with unique ID %@"
+- "Notice: NPKPassAssociatedInfoManager: Requested fetch most recent commute plans for pass with unique ID %@"
+- "Notice: NPKPassAssociatedInfoManager: Requested fetch most recent secure ranging suspension reason for pass with unique ID %@"
+- "Notice: NPKPassAssociatedInfoManager: Requested fetch most recent tiles for pass with unique ID %@"
+- "Notice: NPKPassAssociatedInfoManager: Requested fetch most recent transit pass properties for pass with unique ID %@ payment application %@"
+- "Notice: NPKPassAssociatedInfoManager: Requested mark perishable values as stale"
+- "Notice: NPKPassAssociatedInfoManager: Requested refresh all pass Balance"
+- "Notice: NPKPassAssociatedInfoManager: Requested refresh for pass with uniqueID %@"
+- "Notice: NPKPassAssociatedInfoManager: Updating refresh balance for with uniqueID:%@"
+- "Notice: NPKPassAssociatedInfoManager: Will %@request refreshed account with identifier %@ for feature identifier %@."
+- "Notice: NPKPassAssociatedInfoManager: didReceiveBalanceUpdate %@ for pass uniqueID %@"
+- "Notice: NPKPassAssociatedInfoManager: didReceivePlanUpdate %@ for pass uniqueID %@"
+- "Notice: NPKPassAssociatedInfoManager: didUpdateRangingSuspensionReasons (%lu) for pass with subcredential identifier %@"
+- "Notice: NPKPassAssociatedInfoManager: didUpdateTiles %@ for pass uniqueID %@ for context %ld"
+- "Notice: NPKPassAssociatedInfoManager: didUpdateWithTransitPassProperties:%@ for pass uniqueID:%@"
+- "Notice: NPKPassAssociatedInfoManager: pass with uniqueID:%@ has add value pending"
+- "Notice: NPKPassAssociatedInfoManager: received accountChanged for account with identifier %@"
+- "Notice: NPKPassAssociatedInfoManager: received most recent balances %@ for pass with unique ID %@"
+- "Notice: NPKPassAssociatedInfoManager: received most recent commute plans %@ for pass with unique ID %@"
+- "Notice: NPKPassAssociatedInfoManager: received pending add value updated notification"
+- "Notice: NPKPassAssociatedInfoManager: received refreshed account with identifier %@ for feature identifier %@. Error?: %@"
+- "Notice: NPKPassAssociatedInfoManager: setExpirationDate:%@ forCommutePlanField:%@ passWithUniqueID:%@"
+- "Notice: NPKPassAssociatedInfoManager: setPendingAmount:%@ forBalanceField:%@ passWithUniqueID:%@"
+- "Notice: NPKPassAssociatedInfoManager: setting Passes:%@ to:%@"
+- "Notice: NPKPassAssociatedInfoManager: transit pass model did change from:%@ to:%@"
+- "Notice: NPKPassAssociatedInfoModel: Missing data from balance:%@ localizedTitle:%@ formattedValue:%@"
+- "Notice: NPKPassAssociatedInfoModel: Using default balance value 0 for field:%@ balance:%@"
+- "Notice: NPKPassAssociatedInfoModel: should not add commute plan with identifier:%@. decision detail: %@"
+- "Notice: NPKPassAssociatedInfoModel: should not add commute plan with identifier:%@. decision detail:%@"
+- "Notice: NPKPaymentView: Evaluate transaction %@ with type:%ld transitSubtype:%ld amount:%@ amounts: %@ "
+- "Notice: NPKPaymentView: updateWithConcreteTransactions:%@ ephemeralTransaction:%@ updatedPassTransitItems:%@ paymentApplication:%@"
+- "Notice: NPKPrecursorPassUpgradeRequestController: Received precursor pass upgrade request did change."
+- "Notice: NPKPrecursorPassUpgradeRequestsManager: Created upgradeController (%@) for pass: %@"
+- "Notice: NPKPrecursorPassUpgradeRequestsManager: Creating upgradeController for pass: %@"
+- "Notice: NPKPrecursorPassUpgradeRequestsManager: Invalidating upgradeController for pass: %@"
+- "Notice: NPKPrecursorPassUpgradeRequestsManager: Unable to load data; pass (%@) is not a precursor pass."
+- "Notice: NPKTransitBalanceModel: has Green Car ticket ticket:%d"
+- "Notice: NPKTransitBalanceModel: has Shinkansen ticket:%d"
+- "Notice: NPKVehicleConnectivityCoordinator: Received car key vehicle status change notification: %@ for AID: %@ subcredential ID: %@"
+- "Notice: NPKVehicleConnectivityCoordinator: Unable to identify pass for subcredential: %@"
+- "Notice: NPKVehicleConnectivityCoordinator: Vehicle report for pass %@ is %@"
+- "Notice: Needs to refresh session:%d, current pass sessionType:%@ current session:%@ expected:%@ currentPass:%@ hasContactLessSession:%d"
+- "Notice: New peer payment pass identifier is nil. Removing existing transactions."
+- "Notice: No contactless session; marking as deactivated (error: %@)"
+- "Notice: No contactless session; not yet enabling persistent card emulation"
+- "Notice: No credential to activate: setting deferAuthorization to NO to present VAS pass"
+- "Notice: No digital issuance purchase; going back"
+- "Notice: No initial pass; session source reporting no cards"
+- "Notice: Not showing terms (termsURL %@, accepted out of band %d)"
+- "Notice: Notification Authorization Status did change: %@"
+- "Notice: Notification Authorization Status is: %@"
+- "Notice: Notification Authorization already authorized"
+- "Notice: Notification Authorization already denied"
+- "Notice: Notification Authorization not required; precondition not satisfied."
+- "Notice: Notification Authorization status was: %@ Full Authorization being requested"
+- "Notice: Notification Authorization was granted: %@ error: %@"
+- "Notice: Numeric entry complete; invoking completion handler"
+- "Notice: Obtain session handler:%@ for sessionType:%@ pass:%@"
+- "Notice: Obtained assertion:%@ for Owner:%@"
+- "Notice: Old session deactivated"
+- "Notice: Outstanding payment sessions; ignoring"
+- "Notice: Overriding canFit to NO b/c fake full se"
+- "Notice: Pass Selection Field Detector assertion: received enter field with Passes UniqueIDs:%@"
+- "Notice: Pass Selection Field Detector assertion: resyncing state"
+- "Notice: Pass with unique id:%@ was manually recovered successfully"
+- "Notice: Passes manager: All passes loaded."
+- "Notice: Passes manager: Loading passes following first unlock"
+- "Notice: Passes manager: Reloading passes because default payment pass is changed"
+- "Notice: Payment session failed to start; session source reporting busy"
+- "Notice: Payment session: new pass: (%@) is same as current pass in session (%@), returning."
+- "Notice: Payment session: setting current pass to %@"
+- "Notice: Performing SE storage check."
+- "Notice: Product chosen: %@"
+- "Notice: Provided credential %@ does not match current credential %@; going back to requirements"
+- "Notice: Quick payment session: Loyalty engine configuration changed"
+- "Notice: Quick payment session: Received Finish Transaction"
+- "Notice: Quick payment session: Received Start Transaction"
+- "Notice: Quick payment session: Received activity timeout"
+- "Notice: Quick payment session: Session failed for AID(s) %@ and pass with unique ID %@"
+- "Notice: Quick payment session: Session timed out for AID(s) %@ and pass with unique ID %@"
+- "Notice: Quick payment session: Starting contactless session on session queue"
+- "Notice: Quick payment session: contactlessInterfaceSessionDidReceiveTerminalError: %@"
+- "Notice: Quick payment session: contactlessInterfaceSessionDidReceiveUntrustedTerminal:%@"
+- "Notice: Quick payment session: contactlessInterfaceSessionDidTerminate:%@"
+- "Notice: Quick payment session: contactlessInterfaceSessionDidTerminate:%@ with error code:%lu"
+- "Notice: Quick payment session: deactivating session"
+- "Notice: Quick payment session: did enter field"
+- "Notice: Quick payment session: did exit field"
+- "Notice: Quick payment session: did fail transaction for AID %@ and pass with unique ID %@"
+- "Notice: Quick payment session: did received ISO18013 Requests %@"
+- "Notice: Quick payment session: ended persistent card emulation with contexts: %@"
+- "Notice: Quick payment session: failed deferred authorization"
+- "Notice: Quick payment session: has pending server request, sending timeout event"
+- "Notice: Quick payment session: selected VAS"
+- "Notice: Quick payment session: selected payment"
+- "Notice: Quick payment session: updating session%@"
+- "Notice: Quick payment session: updating with current pass and loyalty state"
+- "Notice: Reader mode entry is disabled because secure element is not available"
+- "Notice: Reader mode entry is disabled because transit product lacks reader mode provisioning method"
+- "Notice: Reader mode entry is disabled for typeF product as a local Felica secure element is not available"
+- "Notice: Reader mode terms accepted"
+- "Notice: Received %ld transactions for peer payment pass with unique ID %@"
+- "Notice: Received Car Key Ended Ranging Notification: %@ for AID: %@ key ID: %@"
+- "Notice: Received Car Key Express Entered Notification: %@"
+- "Notice: Received Car Key Express Exited Notification: %@"
+- "Notice: Received Car Key RKE Action Completed Notification for...\nAID: %@\nkey ID: %@\nfunctionNumber: %@\nactionNumber: %@\nexecutionStatusNumber: %@\nerrorMessage: %@"
+- "Notice: Received Car Key Session Ended Notification: %@"
+- "Notice: Received Car Key Session Ended with Error Notification: %@"
+- "Notice: Received Car Key Started Ranging Notification: %@ for AID: %@ key ID: %@"
+- "Notice: Received Car Key Vehicle Connected Notification: %@ for AID: %@ key ID: %@"
+- "Notice: Received Car Key Vehicle Disconnected Notification: %@ for AID: %@ key ID: %@"
+- "Notice: Received Car Key Vehicle Locked Notification: %@ for AID: %@ key ID: %@"
+- "Notice: Received Car Key Vehicle Unlocked Notification: %@ for AID: %@ key ID: %@"
+- "Notice: Received Enter Near Field Notification for automatic selection technology type %d"
+- "Notice: Received Exit Near Field Notification for automatic selection technology type %d"
+- "Notice: Received Exit Near Field Notification, but didn't finish transaction with applicationIdentifier:%@ assume it fails."
+- "Notice: Received Express Transaction End Notification for application identifier %@"
+- "Notice: Received Express Transaction Failed Notification for application identifier %@"
+- "Notice: Received Express Transaction Start Notification for application identifier: %@, application key identifier: %@"
+- "Notice: Received Express Transaction Time Out Notification for application identifier %@"
+- "Notice: Received Generic Transaction Done Notification: %@ for AID: %@ key ID: %@"
+- "Notice: Received Library Passes Changed Notification %@"
+- "Notice: Received home key status changed notification: %@ for AID: %@ key ID: %@ lock status: %@ reader ID: %@ timestamp %@ operation source: %@"
+- "Notice: Received lock connected notification."
+- "Notice: Received lock disconnected notification."
+- "Notice: Remote interface presenter connection interrupted"
+- "Notice: Remote interface presenter connection invalidated"
+- "Notice: Request to clear skeleton peer payment quote: %@ error: %@"
+- "Notice: Request to present continuity payment interface for remote payment request: %@"
+- "Notice: Request to present in-app interface for skeleton peer payment quote: %@"
+- "Notice: Request to present in-app payment interface for host application: %@ payment request: %@"
+- "Notice: Request to present set up Apple\u00a0Pay alert for %@"
+- "Notice: Requested check if SE is in fail forward mode"
+- "Notice: Requested forceToTransitTypeTransactionWithTransactionStatus:%lu"
+- "Notice: Requested to %@ remote button listener."
+- "Notice: Returning status %@ (service identifier %@). We don't have a peer payment pass setup."
+- "Notice: Returning status %@ for transaction details %@ (service identifier %@)"
+- "Notice: SE is Not in fail forward mode"
+- "Notice: SE is in fail forward mode"
+- "Notice: SE storage check returned can fit applets on SE: %@ from snapshot %@"
+- "Notice: Scheduled to invalidate assertion:%@ for owner:%@ with delay:%f"
+- "Notice: Session queue update contactless session: pass %@ auto-select VAS passes %@ (session %@)"
+- "Notice: Session queue update contactless session::%@ VAS success %d payment success %d session confirmed %d"
+- "Notice: Session source initial precondition state is %@"
+- "Notice: Session source is NOT delegating auth intent event"
+- "Notice: Session source is delegating auth intent event"
+- "Notice: Session source is requesting AssistiveTouch enabled alert presentation"
+- "Notice: Session source providing session to delegate"
+- "Notice: Session source received PMU button event"
+- "Notice: Session source received an assistive touch gesture event"
+- "Notice: Setting defer authorization on quick payment session: %@"
+- "Notice: Setting new peer payment transaction status %@ for transaction with identifier: %@"
+- "Notice: Standalone: Apple Balance product chosen. Requesting resolve local eligibility with product: %@"
+- "Notice: Standalone: Apple Balance. Acknowledged account details with product: %@"
+- "Notice: Standalone: Apple Balance. Eligibility resolved. Error: %@"
+- "Notice: Standalone: Apple Balance. Requesting eligibility"
+- "Notice: Standalone: Created context %@ with success %i and error %@"
+- "Notice: Standalone: End of provisioning flow for current card"
+- "Notice: Standalone: Enter Manual Entry, no credentials found"
+- "Notice: Standalone: Entered Local Device Manual Entry for credential %@. There are %lu incomplete fields."
+- "Notice: Standalone: Entered Secondary Manual Entry for credential %@. There are %lu incomplete fields."
+- "Notice: Standalone: Entered more information step. There are %lu more info items"
+- "Notice: Standalone: Entered verification code step with channel %s"
+- "Notice: Standalone: Entered verification fields step. There are %lu fields required"
+- "Notice: Standalone: Entered verification options step. There are %lu channels"
+- "Notice: Standalone: Error occurred when collecting associated purchases for product %@, error: %@"
+- "Notice: Standalone: Error occurred when sending eligibility request: %@"
+- "Notice: Standalone: Error occurred when sending provision request: %@"
+- "Notice: Standalone: Error occurred when sending requirements request: %@"
+- "Notice: Standalone: Error occurred when setting up product for provisioning: %@"
+- "Notice: Standalone: Handling Apple Balance Account Details Acknowledged with product: %@"
+- "Notice: Standalone: Handling issuer add request %@"
+- "Notice: Standalone: Handling issuer verification code of length %lu"
+- "Notice: Standalone: Handling issuer verification fields: %@ with fields model fields: %@"
+- "Notice: Standalone: Handling manual entry fields: %@ with fields model fields: %@"
+- "Notice: Standalone: Handling passcode upgrade complete with success: %d error: %@"
+- "Notice: Standalone: Handling product selection: %@ (%@)"
+- "Notice: Standalone: Have product with identifier %@ provisioning method types %@"
+- "Notice: Standalone: Local eligibility resolved. Error: %@"
+- "Notice: Standalone: More information acknowledged"
+- "Notice: Standalone: Moving directly to next provisioning step for purchased product %@ (%@)."
+- "Notice: Standalone: Moving directly to next provisioning step since all fields are complete (%@)."
+- "Notice: Standalone: No response from issuer provisioning certificates endpoint: %@"
+- "Notice: Standalone: No response or error from provision!"
+- "Notice: Standalone: No response or error from requirements!"
+- "Notice: Standalone: PKPaymentRequirementsStatusRequirementsAmbiguous is responded by server"
+- "Notice: Standalone: PKPaymentRequirementsStatusUnknownRequirements or PKPaymentRequirementsStatusCardNotSupported is responded by server"
+- "Notice: Standalone: Preflighted passcode upgrade with success %d, meets policy %d, error %@"
+- "Notice: Standalone: Provisioning is complete, but waiting for reader mode second tap"
+- "Notice: Standalone: Requesting externalized auth..."
+- "Notice: Standalone: Resolving local eligibility requirements"
+- "Notice: Standalone: Single remote credential"
+- "Notice: Standalone: Skipping passcode upgrade"
+- "Notice: Standalone: Start secondary manual entry with %lu fields following product disambiguation."
+- "Notice: Standalone: Start secondary manual entry with %lu fields."
+- "Notice: Standalone: There are %lu fields required in the Manual Entry"
+- "Notice: Standalone: TransitionToRemoteCredentials Step"
+- "Notice: Standalone: Updating %@"
+- "Notice: Standalone: Verification is necessary"
+- "Notice: Standalone: checking controller initialization %s: "
+- "Notice: Standalone: checking webService %s: "
+- "Notice: Standalone: current State is %ld"
+- "Notice: Standalone: id %@ state %lu response status %lu"
+- "Notice: Standalone: performing provisioning eligibility"
+- "Notice: Standalone: performing requirements"
+- "Notice: Standalone: starting in-app provisioning flow with configuration %@"
+- "Notice: Standalone: starting issuer verification flow for pass %@"
+- "Notice: Standalone: starting provisioning flow"
+- "Notice: Start check if SE is in fail forward mode"
+- "Notice: Start fetching all peer payment transactions With peer payment pass ID: %@"
+- "Notice: Starting Parse payload for PayloadID:%@ payload:%@"
+- "Notice: Starting contactless session timer for reason: %@"
+- "Notice: Starting field detector for terminal-requested auth"
+- "Notice: Starting looking up actions for transaction with service identifier: %@"
+- "Notice: Stopping contactless session timer"
+- "Notice: Successfully retrieved passUniqueID from notificationID: %@"
+- "Notice: Target device (%@) - present standalone transaction got remote device state hasPasscodeSet:%d\nisPasscodeLocked:%d\nisUnlockOnly:%d\nerror:%@"
+- "Notice: Target device (%@) - present standalone transaction request for pass %@ yielded result: %@. isRemoteDeviceUnlocked: %@; watchHasMatchingPass: %@"
+- "Notice: Technology type: %ld detected. Express passes information: %@"
+- "Notice: Transaction application identifier: %@ express pass unique ID %@"
+- "Notice: Transaction complete context: got transaction type %d displayable pass Items %@ action %@ transactionDescription:\"%@\" transactions:%@"
+- "Notice: Transaction: %@ AID: %@ UniqueID: %@ valueAddedServiceTransactions: %@ valueAddedServicePasses: %@ success: %u"
+- "Notice: TransactionManager: did update transaction detail with service Identifier:%@"
+- "Notice: TransactionManager: transactionSourceIdentifier:%@ didReceiveTransaction:%@"
+- "Notice: Unable to handle provisioningContinuity url with path components: %@"
+- "Notice: Unsupported pass update notification. Presenting pass list instead."
+- "Notice: Updated passes with %lu passes, %lu payment styled passes, %lu se passes and %lu expired passes."
+- "Notice: Updating current express passes with new configurations: %@ (previous: %@)"
+- "Notice: Using VAS passes when updating contactless session: %@"
+- "Notice: Using mock SURF server; will return status %@ for transaction with identifier %@"
+- "Notice: Using the subcredential identifier (%@) from the start transaction event for %@ since the transaction end event didn't include it (%@)"
+- "Notice: VAS automatic selection coordinator got added passes"
+- "Notice: VAS automatic selection coordinator got reloaded passes"
+- "Notice: VAS automatic selection coordinator got removed passes"
+- "Notice: VAS automatic selection coordinator got reordered passes"
+- "Notice: VAS automatic selection coordinator got updated passes"
+- "Notice: VAS automatic selection coordinator got updated settings for pass %@"
+- "Notice: Value for directly initiate:%@"
+- "Notice: Wallet preferences changed"
+- "Notice: Warning: User had matching associated credentials (type=%d) but when fetching metadata no credentials were returned"
+- "Notice: Was not first in queue; tearing down and invalidating session"
+- "Notice: We are currently looking up actions for transaction with service identifier: %@"
+- "Notice: Will parse notification %@"
+- "Notice: [BarcodePayment] %@ session invalidated!"
+- "Notice: [BarcodePayment] %@ session retried!"
+- "Notice: [BarcodePayment] %@ session started!"
+- "Notice: [BarcodePayment] Acquired express transaction suppression assertion: %@"
+- "Notice: [BarcodePayment] Acquired notification suppression assertion: %@"
+- "Notice: [BarcodePayment] Acquired process assertion for barcode payment event for %d."
+- "Notice: [BarcodePayment] Barcode state didn't change."
+- "Notice: [BarcodePayment] BarcodePaymentEvent already submitted for %@. Skipping."
+- "Notice: [BarcodePayment] Extension doesn't exist locally. Invoking remote extension on paired device."
+- "Notice: [BarcodePayment] Failed to encrypt PIN for pass %@ with error %@"
+- "Notice: [BarcodePayment] Fetched barcode with identifier: %@"
+- "Notice: [BarcodePayment] Ignoring transaction update while submitting authentication result. %@"
+- "Notice: [BarcodePayment] Inserting transaction %@ for current barcode: %@"
+- "Notice: [BarcodePayment] Invalidated process assertion for barcode payment event."
+- "Notice: [BarcodePayment] Local extension %@ is now collecting payment information for pass %@"
+- "Notice: [BarcodePayment] Marking completed authentication for transaction %@."
+- "Notice: [BarcodePayment] Marking processed %@ for transaction %@."
+- "Notice: [BarcodePayment] New barcode session created for pass: %@"
+- "Notice: [BarcodePayment] PKPaymentTransaction %@ pin step up result: %@, error: %@"
+- "Notice: [BarcodePayment] PKPaymentTransaction %@ status %@ is not relevant. Skipping."
+- "Notice: [BarcodePayment] PKPaymentTransaction %@ status is pending with authentication request %@."
+- "Notice: [BarcodePayment] PKPaymentTransaction %@ status is pending without valid authentication context. Skipping."
+- "Notice: [BarcodePayment] PKPaymentTransaction %@ user intention confirmation step up result: %@, error: %@"
+- "Notice: [BarcodePayment] Released express transaction suppression assertion: %@"
+- "Notice: [BarcodePayment] Released notification suppression assertion: %@"
+- "Notice: [BarcodePayment] Session is invalid, releasing assertion %@"
+- "Notice: [BarcodePayment] Session status is updated to %lu with transaction %@."
+- "Notice: [BarcodePayment] Session timeout timer is extended because transaction authentication is requested."
+- "Notice: [BarcodePayment] Start fetching decrypted barcode with credential: %@"
+- "Notice: [BarcodePayment] Starting to collect payment information for pass %@"
+- "Notice: [BarcodePayment] Submitting barcodePaymentEvent %@ for %@"
+- "Notice: [BarcodePayment] Updating barcode state from %@ to %@"
+- "Notice: [NPKApplicationStateListener] %p Finished updating application state from LS app state notification with state %@. New resolved state: %@"
+- "Notice: [NPKApplicationStateListener] %p Getting cached app state. State: %@"
+- "Notice: [NPKApplicationStateListener] %p Prewarming app state"
+- "Notice: [NPKApplicationStateListener] %p Received NanoPassbook LS app state change notification. App Proxy state: %@, resolved state to %@"
+- "Notice: [NPKApplicationStateListener] %p Retrieving application record."
+- "Notice: [NanoPassdXPC] Connection addRemoteDevicePendingProvisionings: %@"
+- "Notice: [NanoPassdXPC] Connection applicationRedirectRequestOnPairDevice %@-%@"
+- "Notice: [NanoPassdXPC] Connection canAcceptInvitationOnRemoteDeviceForInvitation: %@ completion: %@"
+- "Notice: [NanoPassdXPC] Connection finished addUserNotificationForEnabledExpressMode: %lu, passUniqueID: %@, error?: %@"
+- "Notice: [NanoPassdXPC] Connection finished addUserNotificationOfType: %lu, passUniqueID: %@, error?: %@"
+- "Notice: [NanoPassdXPC] Connection finished noteWillDeleteAccountsSynchronous: %d"
+- "Notice: [NanoPassdXPC] Connection got response (%@, %@) for invitation %@"
+- "Notice: [NanoPassdXPC] Connection got response (%@, %@) for request %@"
+- "Notice: [NanoPassdXPC] Connection got response with canNotify: %@"
+- "Notice: [NanoPassdXPC] Connection got response with configuration: %@, error: %@"
+- "Notice: [NanoPassdXPC] Connection got response with relevantPassInformation: %@"
+- "Notice: [NanoPassdXPC] Connection handleMetadataRequestOnPairedDevice %@"
+- "Notice: [NanoPassdXPC] Connection startSubcredentialProvisioningOnLocalDeviceMatchingInvitation: %@ shouldFetchAnonymizationSaltFromRemoteDevice: %@ completion: %@"
+- "Notice: [NanoPassdXPC] Connection startSubcredentialProvisioningOnRemoteDeviceForInvitation: %@"
+- "Notice: [NanoPassdXPC] Connection startSubcredentialProvisioningOnRemoteDeviceForMailboxAddress: %{private}@, activationCode: %{private}@"
+- "Notice: [NanoPassdXPC] Connection started addUserNotificationForEnabledExpressMode: %lu, pass unique ID: %@"
+- "Notice: [NanoPassdXPC] Connection started canNotifyAboutExpressModeWithCompletion %@"
+- "Notice: [NanoPassdXPC] Connection started fetchIdentityProofingConfigurationForCountry:state:completion %@"
+- "Notice: [NanoPassdXPC] Connection started fetchRelevantPassInformationWithCompletion %@"
+- "Notice: [NanoPassdXPC] Connection started identityPassPrearmStatusSynchronous %d"
+- "Notice: [NanoPassdXPC] Connection started insertBridgeBulletinWithTitle:message:actionURL:forPass:playSound:notificationIdentifier:expirationDate:"
+- "Notice: [NanoPassdXPC] Connection stated noteWillDeleteAccountsSynchronous: %d"
+- "Notice: [NanoPassdXPC] Error on NPKNanoPassDaemonConnection connection: %@"
+- "Notice: [NanoPassdXPC] New connection created: %@"
+- "Notice: [NanoPassdXPC] Received identity Pass Prearm status: %@"
+- "Notice: [NanoPassdXPC] Request to add user notification of type: %@ for passUniqueID: %@"
+- "Notice: [NanoPassdXPC] Service %@ didEstablishConnection: %@"
+- "Notice: [NanoPassdXPC] Service %@ didInterruptConnection: %@"
+- "Notice: [NanoPassdXPC] Service didResume: %@"
+- "Notice: [NanoPassdXPC] Service didSuspend: %@"
+- "Notice: [PaymentSessionManager] %s cleaning payment session:%@"
+- "Notice: [PaymentSessionManager] Barcode payment session pass unique ID is %@"
+- "Notice: [PaymentSessionManager] Clearing quick payment session current pass because it has been removed"
+- "Notice: [PaymentSessionManager] Clearing service mode requested pass %@"
+- "Notice: [PaymentSessionManager] Getting session state for transaction completion"
+- "Notice: [PaymentSessionManager] Got express transaction status %@ for pass %@ concrete transactions %@ ephemeral transactions %@ mutatedBalances:%@ applet state %@"
+- "Notice: [PaymentSessionManager] Got passes reloaded"
+- "Notice: [PaymentSessionManager] Got removed unique IDs: %@"
+- "Notice: [PaymentSessionManager] Got updated unique IDs: %@"
+- "Notice: [PaymentSessionManager] Handling VAS transactions: %@"
+- "Notice: [PaymentSessionManager] Handling activity timeout in transit pass as completion"
+- "Notice: [PaymentSessionManager] Handling contactless payment interface did appear"
+- "Notice: [PaymentSessionManager] Handling contactless payment interface did disappear with session: %@"
+- "Notice: [PaymentSessionManager] Handling credential: %@ with quickPaymentSession:%@"
+- "Notice: [PaymentSessionManager] Handling did present passcode Authentication"
+- "Notice: [PaymentSessionManager] Handling end barcode payment session requested with session: %@"
+- "Notice: [PaymentSessionManager] Handling end quick payment session requested with session: %@"
+- "Notice: [PaymentSessionManager] Handling ending barcode payment session requested by UI."
+- "Notice: [PaymentSessionManager] Handling ending quick payment session requested by UI."
+- "Notice: [PaymentSessionManager] Handling local authentication error %@"
+- "Notice: [PaymentSessionManager] Handling new contactless payment session: %@"
+- "Notice: [PaymentSessionManager] Handling retry loading paymentBarcode"
+- "Notice: [PaymentSessionManager] Handling tile requested for item: %@ pass: %@"
+- "Notice: [PaymentSessionManager] Handling user selected pass: %@"
+- "Notice: [PaymentSessionManager] Invoking RKE action completion handler for pass %@ action %@ function %@ with reason %lu for session %@"
+- "Notice: [PaymentSessionManager] Is previous user selected pass (%@) equal to new pass (%@)? %@"
+- "Notice: [PaymentSessionManager] New current pass from payment session: %@"
+- "Notice: [PaymentSessionManager] Payment session %@ (current %@) completed for reason %@"
+- "Notice: [PaymentSessionManager] Payment session %@ (current %@) failed (VAS) transaction for pass %@"
+- "Notice: [PaymentSessionManager] Payment session detected field entry"
+- "Notice: [PaymentSessionManager] Payment session detected field exit"
+- "Notice: [PaymentSessionManager] Payment session did activate pass: %@"
+- "Notice: [PaymentSessionManager] Payment session did ignore exit field notification while on STS_ISO18013 transaction"
+- "Notice: [PaymentSessionManager] Payment session did select payment for unique ID: %@"
+- "Notice: [PaymentSessionManager] Payment session did start"
+- "Notice: [PaymentSessionManager] Payment session received 18013 Request"
+- "Notice: [PaymentSessionManager] Payment session received activation error"
+- "Notice: [PaymentSessionManager] Payment session received activity timeout isTransit %i"
+- "Notice: [PaymentSessionManager] Payment session received authorization timeout"
+- "Notice: [PaymentSessionManager] Payment session received credential"
+- "Notice: [PaymentSessionManager] Payment session received start transaction"
+- "Notice: [PaymentSessionManager] Payment session received transaction error"
+- "Notice: [PaymentSessionManager] Payment session selected value added service"
+- "Notice: [PaymentSessionManager] Payment session waiting to start"
+- "Notice: [PaymentSessionManager] Payment session will activate pass: %@"
+- "Notice: [PaymentSessionManager] Quick payment session pass unique ID is %@"
+- "Notice: [PaymentSessionManager] RKE action execution for pass: %@ function: %@ action: %@ completed with success: %@ for session: %@"
+- "Notice: [PaymentSessionManager] Reloaded barcode payment pass is %@ (state %lu)"
+- "Notice: [PaymentSessionManager] Setting reloaded pass for unique ID %@"
+- "Notice: [PaymentSessionManager] Setting updated payment session pass with unique ID %@"
+- "Notice: [PaymentSessionManager] Setting updated user selected pass with unique ID %@"
+- "Notice: [PaymentSessionManager] Skip creating new barcodePaymentSession - isPersonalized: %d, hasQuickPaymentSession: %d, hasNoExistingBarcodePaymentSession: %d"
+- "Notice: [PaymentSessionManager] Tearing down barcode payment session because pass has been removed"
+- "Notice: [PaymentSessionManager] Tearing down barcode payment session because updated pass is not activated (state %lu)"
+- "Notice: [PaymentSessionManager] Tearing down barcode payment session because updated pass no longer exists or is not activated"
+- "Notice: [PaymentSessionManager] Transitioning from quickPaymentSession into barcodePaymentSession."
+- "Notice: [PaymentSessionManager] Updating payment session with user selected pass"
+- "Notice: [PaymentSessionManager] User selected pass unique ID is %@"
+- "Notice: [PaymentSessionManager] Will cleanup payment session"
+- "Notice: [PaymentSessionManager] current pass unique ID is %@ style %d"
+- "Notice: [PaymentSessionManager] did set new quick payment session: %@"
+- "Notice: [PaymentSessionManager] handleDoublePressReceivedAtDate:%@"
+- "Notice: [PaymentSessionManager] sending to observer new session State:%@"
+- "Notice: [PaymentSessionManager] unexpected activity timeout event for cEMV pass with uniqueID:%@"
+- "Notice: contactless session timer fired with visibility %d"
+- "Notice: finish refresh session count:%lu"
+- "Notice: found sender handle:%@"
+- "Notice: found valid amount:%@"
+- "Notice: given pass is nil, can't determine expected session type"
+- "Notice: initializing HID client"
+- "Notice: paymentSessionDidReceiveCredential callback"
+- "Notice: refreshing session for pass with uniqueID:%@ count:%lu"
+- "Notice: requested to set credential:%@"
+- "Notice: session: %@ deactivated %d"
+- "Notice: setting credential:%@"
+- "Notice: updateRemoteCredentials [%u, %@] completed in %f seconds"
+- "Notice: updated accessory %@"
+- "Notification type not supported"
+- "Only one available product of type: %@ but no name for display. Using default for product type instead."
+- "Orbit card"
+- "Outbound"
+- "PASS_BALANCE_TITLE"
+- "PASS_DETAILS_HEADER_GREEN_CAR_UPGRADE"
+- "PASS_DETAILS_HEADER_SHINKANSEN"
+- "PASS_DETAILS_HEADER_TRANSIT_BALANCE"
+- "PASS_DETAILS_STATUS_VALUE_INACTIVE"
+- "PASS_DETAILS_VALUE_ARRIVAL_TIME"
+- "PASS_DETAILS_VALUE_CAR_ASSIGNMENT"
+- "PASS_DETAILS_VALUE_DEPARTURE_TIME"
+- "PASS_DETAILS_VALUE_ROUTE"
+- "PASS_DETAILS_VALUE_ROUTE_DESTINATION_ONLY"
+- "PASS_DETAILS_VALUE_ROUTE_ORIGIN_ONLY"
+- "PASS_DETAILS_VALUE_SEAT_ASSIGNMENT"
+- "PAYMENT_SETUP_EMONEY_TITLE"
+- "PDUserNotificationTypePassExpressModeEnabled"
+- "PDUserNotificationTypeWallet"
+- "PIN"
+- "PKAccountServiceObserver"
+- "PKContactlessCardIngesterDelegate"
+- "PKContactlessInterfaceSessionDelegate"
+- "PKFieldDetectorObserver"
+- "PKGroupObserver"
+- "PKGroupsControllerDelegate"
+- "PKPaymentAuthorizationController"
+- "PKPaymentAuthorizationControllerDelegate"
+- "PKPaymentAuthorizationControllerPrivateDelegate"
+- "PKPaymentCardEligibilityErrorDomain"
+- "PKPaymentServiceDelegate"
+- "PKPrecursorPassUpgradeControllerDelegate"
+- "PL"
+- "POST"
+- "PROVISIONING_SETUP_PURCHASE_ADD_DEBIT_PAYMENT_METHOD_ALERT_MESSAGE_FAMILY_SETUP"
+- "PROVISIONING_SETUP_PURCHASE_ADD_PAYMENT_METHOD_ALERT_MESSAGE_FAMILY_SETUP"
+- "PROVISIONING_SETUP_PURCHASE_ADD_SPECIFIC_CARD_ALERT_MESSAGE_FAMILY_SETUP"
+- "PROVISIONING_SETUP_PURCHASE_ADD_SPECIFIC_DEBIT_CARD_ALERT_MESSAGE_FAMILY_SETUP"
+- "PaymentProvisioning"
+- "Pending"
+- "Pioneer card"
+- "PrimaryUsage"
+- "PrimaryUsagePage"
+- "Proceed"
+- "Product: %@ (%@) is supported with provisioning types %@"
+- "Product: %@ is not supported due to device OS version"
+- "Product: %@ is not supported due to lack of SE"
+- "Product: %@ is not supported due to lack of Type F support"
+- "Product: %@ is not supported due to no matching provisioning methods (local supported methods %lu, product supported methods %lu)"
+- "Product: %@ is not supported in neither this device region: %@, nor mobile carrier region: %@"
+- "Product: %@ is not supported in setup context due to HSA requirement"
+- "Product: %@ is not supported on device"
+- "Product: %@ is supported due to available Type F support"
+- "Product: %@ is unsupported and will not be shown in the flow picker"
+- "Product: %@ not supported. Product state is: %@. Previously provisioned to device?"
+- "Push-button"
+- "Q16@?0@\"_LSApplicationState\"8"
+- "Q20@0:8i16"
+- "Q24@0:8@?16"
+- "READER_MODE_PROVISIONING_CARD_ADDED_COMMUTE_SUBTITLE_FORMAT"
+- "READER_MODE_PROVISIONING_CARD_ADDED_DEFAULT_SUBTITLE_FORMAT"
+- "READER_MODE_PROVISIONING_CARD_ADDED_TITLE"
+- "READER_MODE_PROVISIONING_CARD_NOT_FOUND_SUBTITLE"
+- "READER_MODE_PROVISIONING_CARD_NOT_FOUND_TITLE"
+- "READER_MODE_PROVISIONING_TRANSFERRING_SUBTITLE"
+- "READER_MODE_PROVISIONING_TRANSFERRING_TITLE"
+- "READER_MODE_PROVISIONING_TRANSFER_VALUE_SUBTITLE_FORMAT"
+- "READER_MODE_PROVISIONING_TRANSFER_VALUE_TITLE"
+- "ReaderMode"
+- "ReceiverContentPresented-NanoPassbook-NearbyPeerPayment"
+- "ReceiverFlowPresented-NanoPassbook-NearbyPeerPayment"
+- "Redeemed Ticket"
+- "Rejected"
+- "Rejecting"
+- "RemoteKeylessExecution"
+- "Requested to begin Analytics subject: %s sessionToken: %{bool}d"
+- "Restricted"
+- "RichNotification"
+- "SETUP_PURCHASE_ADD_DEBIT_PAYMENT_METHOD_ALERT_MESSAGE"
+- "SETUP_PURCHASE_ADD_PAYMENT_METHOD_ALERT_MESSAGE"
+- "SETUP_PURCHASE_ADD_SPECIFIC_CARD_ALERT_MESSAGE"
+- "SETUP_PURCHASE_ADD_SPECIFIC_DEBIT_CARD_ALERT_MESSAGE"
+- "SETUP_PURCHASE_NONREFUNDABLE_SERVICE_FEE_ITEM_LABEL"
+- "SETUP_PURCHASE_PAYMENT_METHOD_REQUIRED_ALERT_TITLE"
+- "SETUP_PURCHASE_REFUNDABLE_DEPOSIT_ITEM_LABEL"
+- "SETUP_PURCHASE_REFUNDABLE_SERVICE_FEE_ITEM_LABEL"
+- "SETUP_PURCHASE_TRANSFER_ITEM_LABEL"
+- "SPTCC"
+- "STSSessionBaseDelegate"
+- "STSSessionDelegate"
+- "SUICA_PERSONALIZED"
+- "Sales Tax"
+- "SecureElementInFailForward"
+- "SecureElementRestricted"
+- "SenderFlowPresented-NanoPassbook-NearbyPeerPayment"
+- "SenderHandle"
+- "Shipping"
+- "Skipped products of type: %@. Not available setup products."
+- "Slalom"
+- "SourceAuto"
+- "SourceManual"
+- "SourceSchedule"
+- "SourceThisUserDeviceBLEOnly"
+- "SourceThisUserDeviceBLEUWB"
+- "SourceThisUserDeviceMatter"
+- "SourceThisUserDeviceNFC"
+- "SourceUnknown"
+- "SourceUnspecified"
+- "Starbucks"
+- "String sent to passman: %@"
+- "Submit Barcode Payment Event"
+- "Suppressed"
+- "SystemStateLocked"
+- "T@\"<NPKBarcodePaymentSessionDelegate>\",W,N,V_delegate"
+- "T@\"<NPKBluetoothConnectivityCoordinatorDelegate>\",W,N,V_delegate"
+- "T@\"<NPKDoublePressDelegationAssertionDelegate>\",W,N,V_delegate"
+- "T@\"<NPKExpressModeSettingsCoordinatorDelegate>\",W,N,V_delegate"
+- "T@\"<NPKExpressPassControllerDelegate>\",W,V_delegate"
+- "T@\"<NPKOpenURLRouterDelegate>\",W,N,V_delegate"
+- "T@\"<NPKPassSelectionFieldDetectorAssertionDelegate>\",W,N,V_delegate"
+- "T@\"<NPKPassUserNotificationFactoryDataSource>\",W,N,V_dataSource"
+- "T@\"<NPKPassesDataSource>\",&,N,V_passDataSource"
+- "T@\"<NPKPassesDataSource>\",W,N,V_dataSource"
+- "T@\"<NPKPaymentProvisioningFlowControllerDelegate>\",W,N"
+- "T@\"<NPKPaymentProvisioningFlowControllerDelegate>\",W,N,V_delegate"
+- "T@\"<NPKPaymentWebServiceStandaloneTargetDeviceDelegate>\",W,N,V_delegate"
+- "T@\"<NPKPrecursorPassUpgradeRequestControllerDelegate>\",W,N,V_delegate"
+- "T@\"<NPKQuickPaymentSessionDelegate>\",W,N,V_delegate"
+- "T@\"<NPKQuickPaymentSessionLocalAuthenticationCoordinatorCredentialDelegate>\",W,N,V_credentialDelegate"
+- "T@\"<NPKRemoteButtonListenerDelegate>\",W,N,V_delegate"
+- "T@\"<NPKRemoteInterfacePresenterDelegate>\",W,N,V_delegate"
+- "T@\"<NPKTransitAppletHistoryFetcherDelegate>\",W,N,V_delegate"
+- "T@\"<NPKValueAddedServiceAutomaticSelectionCoordinatorDelegate>\",W,N,V_delegate"
+- "T@\"<NPKVehicleConnectivityCoordinatorDelegate>\",W,N,V_delegate"
+- "T@\"<NPKWiFiObserverDelegate>\",W,N,V_delegate"
+- "T@\"<NSObject>\",&,N,V_progressNotificationToken"
+- "T@\"<NSObject>\",R,N,V_assertion"
+- "T@\"LAContext\",&,N,V_completedContext"
+- "T@\"LAContext\",&,N,V_currentContext"
+- "T@\"LAContext\",&,N,V_inProgressContext"
+- "T@\"LAContext\",R,N,V_context"
+- "T@\"NFHardwareManager\",&,N,V_hardwareManager"
+- "T@\"NPKBankConnectAccount\",R,N,V_bankConnectAccount"
+- "T@\"NPKBarcodePaymentSession\",&,N,V_barcodePaymentSession"
+- "T@\"NPKContactlessPaymentSessionManagerTransactionContext\",&,N,V_transactionContext"
+- "T@\"NPKContactlessPaymentSessionState\",&,N,V_lastSessionState"
+- "T@\"NPKContactlessPaymentSessionState\",&,N,V_previousState"
+- "T@\"NPKDoublePressDelegationAssertion\",&,N,V_delegationAssertion"
+- "T@\"NPKDoublePressSuppressionAssertion\",&,N,V_suppressionAssertion"
+- "T@\"NPKExpressState\",&,N,V_currentState"
+- "T@\"NPKFidoAuthCoordinator\",&,N,V_fidoAuthCoordinator"
+- "T@\"NPKObserverManager\",&,N,V_observersManager"
+- "T@\"NPKPaymentBarcode\",&,N,V_currentPaymentBarcode"
+- "T@\"NPKPaymentBarcode\",&,N,V_paymentBarcode"
+- "T@\"NPKPaymentProvisioningFlowControllerPreconditionsStepContext\",&,N,V_preconditionsRequestContext"
+- "T@\"NPKPaymentProvisioningFlowControllerRequestContext\",&,N,V_digitalIssuanceAmountRequestContext"
+- "T@\"NPKPaymentProvisioningFlowControllerRequestContext\",&,N,V_digitalIssuancePaymentRequestContext"
+- "T@\"NPKPaymentProvisioningFlowControllerRequestContext\",&,N,V_provisioningProgressRequestContext"
+- "T@\"NPKPaymentProvisioningFlowControllerRequestContext\",&,N,V_readerModeRequestContext"
+- "T@\"NPKPaymentProvisioningFlowControllerRequestContext\",R,V_requestContext"
+- "T@\"NPKPerishableValue\",&,N,V_restrictedGuestAccessState"
+- "T@\"NPKPrecursorPassUpgradeRequestsManager\",R,N,V_precursorPassManager"
+- "T@\"NPKProtoStandaloneRequestHeader\",R,V_requestHeader"
+- "T@\"NPKQuickPaymentSession\",&,N,V_quickPaymentSession"
+- "T@\"NPKQuickPaymentSessionCleanupDelegate\",&,N,V_cleanupDelegate"
+- "T@\"NSArray\",&,N,V_barcodes"
+- "T@\"NSArray\",&,N,V_certificates"
+- "T@\"NSArray\",&,N,V_currentExpiredPasses"
+- "T@\"NSArray\",&,N,V_currentPasses"
+- "T@\"NSArray\",&,N,V_currentPaymentPasses"
+- "T@\"NSArray\",&,N,V_currentSecureElementPasses"
+- "T@\"NSArray\",&,N,V_displayablePassItems"
+- "T@\"NSArray\",&,N,V_dynamicPlans"
+- "T@\"NSArray\",&,N,V_flowIdentifiers"
+- "T@\"NSArray\",&,N,V_heroImages"
+- "T@\"NSArray\",&,N,V_moreInfoItems"
+- "T@\"NSArray\",&,N,V_products"
+- "T@\"NSArray\",&,N,V_providedFields"
+- "T@\"NSArray\",&,N,V_sections"
+- "T@\"NSArray\",&,N,V_setupFields"
+- "T@\"NSArray\",&,N,V_tiles"
+- "T@\"NSArray\",&,N,V_verificationChannels"
+- "T@\"NSArray\",&,N,V_verificationFields"
+- "T@\"NSArray\",C,N,V_credentials"
+- "T@\"NSArray\",R,N,V_balanceFields"
+- "T@\"NSArray\",R,N,V_commutePlanFields"
+- "T@\"NSArray\",R,N,V_currenciesData"
+- "T@\"NSArray\",R,N,V_tiles"
+- "T@\"NSData\",&,N,V_authorizationCredential"
+- "T@\"NSData\",&,N,V_completedCredential"
+- "T@\"NSData\",&,N,V_credential"
+- "T@\"NSData\",&,N,V_decryptedBarcodeCredential"
+- "T@\"NSData\",&,N,V_inAppProvisioningNonce"
+- "T@\"NSData\",&,N,V_inAppProvisioningPublicKeyHash"
+- "T@\"NSData\",&,N,V_nonce"
+- "T@\"NSData\",&,N,V_nonceSignature"
+- "T@\"NSData\",R,N,V_readerID"
+- "T@\"NSDate\",&,N,V_availableActionsFetchDate"
+- "T@\"NSDate\",&,N,V_doublePressTimestamp"
+- "T@\"NSDate\",&,N,V_timestamp"
+- "T@\"NSDecimalNumber\",&,N,V_digitalIssuanceAmount"
+- "T@\"NSDictionary\",&,N,V_accessories"
+- "T@\"NSDictionary\",&,N,V_flowIdentifierToCredential"
+- "T@\"NSDictionary\",&,N,V_ourVasPasses"
+- "T@\"NSDictionary\",&,N,V_vasPasses"
+- "T@\"NSDictionary\",&,V_expressPasses"
+- "T@\"NSDictionary\",R,N"
+- "T@\"NSDictionary\",R,N,V_accessories"
+- "T@\"NSDistributedNotificationCenter\",R,W,N,V_distributedNotificationCenter"
+- "T@\"NSError\",&,N,V_completedError"
+- "T@\"NSError\",&,N,V_error"
+- "T@\"NSHashTable\",&,N,V_observers"
+- "T@\"NSMutableArray\",&,N,V_completedFields"
+- "T@\"NSMutableArray\",&,N,V_deactivationCompletionBlocks"
+- "T@\"NSMutableArray\",&,N,V_pendingLocalAuthenticationEvents"
+- "T@\"NSMutableArray\",R,C,N,V_items"
+- "T@\"NSMutableDictionary\",&,N,V_passUniqueIDsByAccountIdentifier"
+- "T@\"NSMutableDictionary\",&,N,V_previousPassStates"
+- "T@\"NSMutableDictionary\",R,N,V_transactionDetails"
+- "T@\"NSMutableIndexSet\",&,V_suppressionRequestTokens"
+- "T@\"NSMutableSet\",R,N,V_currentLookupIdentifiers"
+- "T@\"NSNumber\",&,N,V_activeLocalAuthenticationEvent"
+- "T@\"NSNumber\",R,C,N,V_productType"
+- "T@\"NSNumber\",R,N,V_lockStatus"
+- "T@\"NSNumber\",R,N,V_timestamp"
+- "T@\"NSObject<NFSession>\",&,N,V_pendingSessionHandle"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_handlerQueue"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_localAuthenticationQueue"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_ourCallbackQueue"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_ourInternalQueue"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_paymentSessionQueue"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_serialQueue"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_suppressorQueue"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_workQueue"
+- "T@\"NSObject<OS_dispatch_source>\",&,N,V_inAppProvisioningGetRequestTimer"
+- "T@\"NSObject<OS_dispatch_source>\",&,N,V_ingestionCardNotFoundTimer"
+- "T@\"NSObject<OS_dispatch_source>\",&,N,V_sessionTimeoutTimer"
+- "T@\"NSObject<OS_dispatch_source>\",&,N,V_sessionTimer"
+- "T@\"NSSet\",&,V_expressPassConfigurations"
+- "T@\"NSSet\",C,N,V_balances"
+- "T@\"NSSet\",R,C"
+- "T@\"NSSet\",R,N,V_allowedPayloadIDs"
+- "T@\"NSSet\",R,N,V_supportedCurrencyCodes"
+- "T@\"NSString\",&,N,V_aidToFetch"
+- "T@\"NSString\",&,N,V_appleID"
+- "T@\"NSString\",&,N,V_barcodeIdentifier"
+- "T@\"NSString\",&,N,V_cardEncryptionScheme"
+- "T@\"NSString\",&,N,V_cardFlow"
+- "T@\"NSString\",&,N,V_cardID"
+- "T@\"NSString\",&,N,V_cardIssuer"
+- "T@\"NSString\",&,N,V_cardPNO"
+- "T@\"NSString\",&,N,V_cardProduct"
+- "T@\"NSString\",&,N,V_cardType"
+- "T@\"NSString\",&,N,V_chooseCredentialsStepIdentifier"
+- "T@\"NSString\",&,N,V_currentApplicationIdentifier"
+- "T@\"NSString\",&,N,V_currentSubCredentialIdentifier"
+- "T@\"NSString\",&,N,V_immediatelyBeforeTermsStepIdentifier"
+- "T@\"NSString\",&,N,V_ingestionCardSessionToken"
+- "T@\"NSString\",&,N,V_paymentMethodDescription"
+- "T@\"NSString\",&,N,V_serviceIdentifier"
+- "T@\"NSString\",&,N,V_transactionDescription"
+- "T@\"NSString\",C,N,V_currencyCode"
+- "T@\"NSString\",C,N,V_footer"
+- "T@\"NSString\",C,N,V_title"
+- "T@\"NSString\",C,V_peerPaymentPassUniqueID"
+- "T@\"NSString\",R,C,N"
+- "T@\"NSString\",R,N,V_currentStepIdentifier"
+- "T@\"NSString\",R,N,V_issuerName"
+- "T@\"NSString\",R,N,V_senderHandle"
+- "T@\"NSURL\",&,N,V_physicalCardImageURL"
+- "T@\"NSURL\",&,N,V_termsURL"
+- "T@\"NSUUID\",&,N,V_uniqueID"
+- "T@\"NSUUID\",R,V_wrapperUUID"
+- "T@\"NSXPCConnection\",&,N,V_xpcConnection"
+- "T@\"OS_dispatch_queue\",N,R"
+- "T@\"PKAccountService\",R,N,V_accountService"
+- "T@\"PKAddPaymentPassRequest\",&,N,V_inAppProvisioningRequest"
+- "T@\"PKAddPaymentPassRequestConfiguration\",&,N,V_configuration"
+- "T@\"PKAddPaymentPassRequestConfiguration\",&,N,V_inAppProvisioningRequestConfiguration"
+- "T@\"PKAppleBalanceCredential\",&,N,V_currentAppleBalanceCredential"
+- "T@\"PKAssertion\",&,N,V_expressTransactionSuppressionAssertion"
+- "T@\"PKAssertion\",&,N,V_notificationSuppressionAssertion"
+- "T@\"PKContactlessCardIngester\",&,N,V_cardIngester"
+- "T@\"PKContactlessCardIngester\",&,N,V_unitTestingCardIngester"
+- "T@\"PKContactlessInterfaceSession\",&,N,V_contactlessSession"
+- "T@\"PKCurrencyAmount\",&,N,V_balance"
+- "T@\"PKCurrencyAmount\",R,N,V_currencyAmount"
+- "T@\"PKExpressPassController\",&,N,V_expressPassController"
+- "T@\"PKExpressPassInformation\",&,N,V_currentTransactionExpressPassInformation"
+- "T@\"PKFieldDetector\",&,N,V_fieldDetector"
+- "T@\"PKGroupsController\",&,N,V_groupsController"
+- "T@\"PKHMAccessory\",&,N,V_accessory"
+- "T@\"PKPass\",&,N,V_currentPass"
+- "T@\"PKPass\",&,N,V_currentTransactionPass"
+- "T@\"PKPass\",&,N,V_ourCurrentPass"
+- "T@\"PKPass\",&,N,V_serviceModeRequestedPass"
+- "T@\"PKPass\",&,N,V_transactionPass"
+- "T@\"PKPass\",&,N,V_userSelectedPass"
+- "T@\"PKPass\",&,N,V_valueAddedServicePass"
+- "T@\"PKPass\",R,N,V_pass"
+- "T@\"PKPassLibrary\",R,W,N,V_passLibrary"
+- "T@\"PKPassTile\",&,N,V_passTile"
+- "T@\"PKPassTile\",R,N,V_tile"
+- "T@\"PKPaymentAuthorizationController\",&,N,V_authorizationController"
+- "T@\"PKPaymentAuthorizationController\",&,N,V_unitTestingAuthorizationController"
+- "T@\"PKPaymentCredential\",&,N,V_credential"
+- "T@\"PKPaymentCredential\",&,N,V_currentCredential"
+- "T@\"PKPaymentPass\",&,N,V_issuerVerificationPass"
+- "T@\"PKPaymentPass\",&,N,V_paymentPass"
+- "T@\"PKPaymentPass\",&,N,V_provisionedPass"
+- "T@\"PKPaymentPass\",R,N,V_pass"
+- "T@\"PKPaymentPass\",R,N,V_paymentPass"
+- "T@\"PKPaymentProvisioningController\",R,N,V_provisioningController"
+- "T@\"PKPaymentProvisioningMethodMetadata\",&,N,V_ingestionMethodMetadata"
+- "T@\"PKPaymentRequest\",&,N,V_digitalIssuancePaymentRequest"
+- "T@\"PKPaymentService\",R,N,V_paymentService"
+- "T@\"PKPaymentSessionHandle\",&,N,V_contactlessSessionHandle"
+- "T@\"PKPaymentSetupFieldsModel\",&,N,V_fieldsModel"
+- "T@\"PKPaymentSetupProduct\",&,N,V_currentProduct"
+- "T@\"PKPaymentSetupProduct\",&,N,V_product"
+- "T@\"PKPaymentTransaction\",&,N,V_currentTransaction"
+- "T@\"PKPaymentTransaction\",&,N,V_paymentTransaction"
+- "T@\"PKPaymentTransaction\",&,N,V_transaction"
+- "T@\"PKPeerPaymentAccount\",&,V_account"
+- "T@\"PKPeerPaymentService\",R,N,V_peerPaymentService"
+- "T@\"PKPrecursorPassUpgradeController\",&,N,V_upgradeController"
+- "T@\"PKPrecursorPassUpgradeRequestDescription\",&,N,V_precursorPassDescription"
+- "T@\"PKPrecursorPassUpgradeRequestDescription\",R,N,V_precursorPassDescription"
+- "T@\"PKServiceProviderPurchase\",&,N,V_digitalIssuancePurchase"
+- "T@\"PKTransitAppletState\",R,N,V_transitAppletState"
+- "T@\"PKTransitPassProperties\",&,N,V_transitPassProperties"
+- "T@\"PKTransitPassProperties\",R,N,V_transitProperties"
+- "T@\"PKVerificationChannel\",&,N,V_verificationChannel"
+- "T@\"STS18013ReaderAuthInfo\",&,N,V_readerAuthInfo"
+- "T@\"STSTransaction18013Request\",&,N,V_releaseDataRequest"
+- "T@,&,N,V_value"
+- "T@?,C,N,V_buttonHandler"
+- "TB,N,GhasPerformedFirstActivation,V_performedFirstActivation"
+- "TB,N,GisCommutePlanValueRequired,V_commutePlanValueRequired"
+- "TB,N,GisConfirmed,V_confirmed"
+- "TB,N,GisDeactivated,V_deactivated"
+- "TB,N,GisDeactivating,V_deactivating"
+- "TB,N,GisDigitalIssuanceSupported,V_digitalIssuanceSupported"
+- "TB,N,GisReaderModeProvisioningSupported,V_readerModeProvisioningSupported"
+- "TB,N,GisSeparateLocalDeviceEntryRequired,V_separateLocalDeviceEntryRequired"
+- "TB,N,V_authenticationRequested"
+- "TB,N,V_canChangePass"
+- "TB,N,V_contactlessInterfaceReady"
+- "TB,N,V_contactlessPaymentInterfaceVisible"
+- "TB,N,V_currentlyResolving"
+- "TB,N,V_defaultImagesUsed"
+- "TB,N,V_deferAuthorization"
+- "TB,N,V_didFinishCallbackSent"
+- "TB,N,V_disableCardSelection"
+- "TB,N,V_doublePressReceived"
+- "TB,N,V_enabled"
+- "TB,N,V_endSessionWhenAuthorizationIsConsumed"
+- "TB,N,V_expressStateUpdatePending"
+- "TB,N,V_hasSession"
+- "TB,N,V_inField"
+- "TB,N,V_inServiceMode"
+- "TB,N,V_invalidated"
+- "TB,N,V_isHomeAccessRestricted"
+- "TB,N,V_isStale"
+- "TB,N,V_isSwitchingSessionType"
+- "TB,N,V_ourConfirmed"
+- "TB,N,V_ourInServiceMode"
+- "TB,N,V_ourPerformedFirstActivation"
+- "TB,N,V_passActivating"
+- "TB,N,V_paymentServiceWasInterrupted"
+- "TB,N,V_requestServiceMode"
+- "TB,N,V_requestSuppression"
+- "TB,N,V_requireFirstInQueue"
+- "TB,N,V_sessionAuthorized"
+- "TB,N,V_sessionStarted"
+- "TB,N,V_sessionWaitingToStart"
+- "TB,N,V_submittingAuthenticationResult"
+- "TB,N,V_termsAcceptedOutOfBand"
+- "TB,R,N,GisSuppressed"
+- "TB,R,N,V_hasDeviceBoundCommutePlans"
+- "TCIs"
+- "TI,N,V_supportState"
+- "TQ,N,V_action"
+- "TQ,N,V_authorizationValidity"
+- "TQ,N,V_bluetoothAvailableAndEnabled"
+- "TQ,N,V_changeCardToken"
+- "TQ,N,V_completionReason"
+- "TQ,N,V_contactlessValidity"
+- "TQ,N,V_currentIndex"
+- "TQ,N,V_currentTransactionStatus"
+- "TQ,N,V_expressTransactionStatus"
+- "TQ,N,V_failureType"
+- "TQ,N,V_flowIngestionState"
+- "TQ,N,V_ingestionState"
+- "TQ,N,V_ingestionStateOnRetry"
+- "TQ,N,V_internalIngestionState"
+- "TQ,N,V_nextSuppressionRequestToken"
+- "TQ,N,V_options"
+- "TQ,N,V_paymentStatus"
+- "TQ,N,V_preconditionsState"
+- "TQ,N,V_rangingSuspensionReason"
+- "TQ,N,V_releaseDataStatus"
+- "TQ,N,V_sessionType"
+- "TQ,N,V_state"
+- "TQ,N,V_termsReason"
+- "TQ,N,V_transactionStatus"
+- "TQ,N,V_transactionType"
+- "TQ,R,N,V_documentType"
+- "TQ,R,N,V_notificationType"
+- "TQ,R,N,V_rangingSuspensionReason"
+- "TQ,R,N,V_sessionType"
+- "TQ,R,N,V_smartReplyType"
+- "TRANSIT_TRANSACTION_TITLE_GREEN_CAR"
+- "TRANSIT_TRANSACTION_TITLE_SHINKANSEN"
+- "T^{__IOHIDEventSystemClient=},N,V_hidSystemClient"
+- "Td,N,V_ingestionProgress"
+- "Ti,N,V_currentStep"
+- "Ti,N,V_notifyToken"
+- "Ti,N,V_serviceModeRequestNotifyToken"
+- "Tq,R,N,V_setupContext"
+- "UNUserNotificationCenterDelegate"
+- "UNUserNotificationCenterDelegatePrivate"
+- "UPCOMING_INFORMATION_DETAILS_FOOTER_VALUE_NA"
+- "UPCOMING_INFORMATION_DETAILS_FOOTER_VALUE_TBA"
+- "UPCOMING_INFORMATION_DETAILS_FOOTER_VALUE_TBD"
+- "UPS Next Day"
+- "URLForImageWithScale:"
+- "US"
+- "USD"
+- "Unable to perform work item after delay!"
+- "Unexpected Express Transaction Status: %lu"
+- "Uninstalled"
+- "United States"
+- "Unknown NPKExpressPassControllerStatus %lu"
+- "Unlocked"
+- "User-requested Wallet pass provisioning"
+- "Warning: %@ only supports notifications for Home Key passes. Pass with uniqueID: %@"
+- "Warning: Accepting new express status because express transit pass changed from %@ to %@."
+- "Warning: Attempt to load image set %ld for pass with unique ID %@ was unsuccessful!"
+- "Warning: Cannot check _isNFCExpressModeSupportedForPass for nil pass"
+- "Warning: Cannot disable persistent card emulation on a session!"
+- "Warning: Error when looking up actions for transaction with service identifier %@: %@"
+- "Warning: Error: %{public}@ does not know how to handle provisioning state : %{public}@."
+- "Warning: Expected to be provided a notification object, but instead found nil!"
+- "Warning: Express mode settings coordinator: Unable to update previousPassStates due to nil value; _previousPassStates: %@, newState: %@, uniqueID %@"
+- "Warning: Fail to find pass for notification with uniqueID:%@"
+- "Warning: Failed to enable service mode!"
+- "Warning: Found NFHardwareSupportStateUnSupported."
+- "Warning: Got lock status changed for unexpected lock status: %@"
+- "Warning: Got malformed event from sesd. %@"
+- "Warning: Got on-device authentication required for unique ID %@, but no express pass!"
+- "Warning: Ignoring invalid pass image size %@"
+- "Warning: Ignoring invalid pass thumbnail image size %@"
+- "Warning: More than one express payment application identifier for a transit pass! This isn't supported."
+- "Warning: Moving pass %@ at index %lu to %lu (from group index %lu, to group index %lu)"
+- "Warning: Multiple express passes match TCIs for transient authentication required field detect event"
+- "Warning: No existing model found for pass with ID %@"
+- "Warning: No express passes match TCIs for transient authentication required field detect event"
+- "Warning: Not supported currency code from info:%@"
+- "Warning: Not supported currency value from info:%@"
+- "Warning: Not supported pass move. Pass %@ at index %lu to %lu (from group index %lu, to group index %lu)"
+- "Warning: Not supported value from info:%@"
+- "Warning: Pass with unique id:%@ failed to be manually recovered"
+- "Warning: PayloadID:%@ Not allowed"
+- "Warning: Provided digital issuance amount %@ which is less than the minimum %@"
+- "Warning: Provided digital issuance amount %@ which is more than the maximum %@"
+- "Warning: Quick payment session: invalidated session we left open"
+- "Warning: Received unexpected auth intent source: %lu, is double click disabled: %i"
+- "Warning: Standalone verification status: unknown, showing error."
+- "Warning: Standalone: no model field with identifier %@ to update!"
+- "Warning: Standalone: requesting verification fields failed (result %lu). Showing error: %@"
+- "Warning: Standalone: requesting verification options failed (result %lu). Showing error: %@"
+- "Warning: Standalone: submitting verification code failed (result %lu). Showing error: %@"
+- "Warning: Target device: No delegate to end requiring upgraded passcode!"
+- "Warning: Target device: No delegate to enforce upgraded passcode policy!"
+- "Warning: Target device: No delegate to start requiring upgraded passcode!"
+- "Warning: Unexpected invalidation of assertion:%@"
+- "Warning: Warning! Attempted to ingestCard: while currently ingesting"
+- "Warning: Warning! attempting to ingestCardWithCardSessionToken: while currently ingesting"
+- "Warning: Will not use APIs since hw support state is %d"
+- "Warning: Won't use APIs since hw support state is %d"
+- "Warning: falling back from session type:%@ to:%@ for pass:%@."
+- "Washington Metropolitan Area Transit Authority"
+- "XPC connection is nil"
+- "Xenon"
+- "Your Name Here (This isn't a bug)"
+- "Your card will be automatically topped up whenever your balance is below $20.00"
+- "^{__IOHIDEventSystemClient=}"
+- "^{__IOHIDEventSystemClient=}16@0:8"
+- "_NPKTransactionContextActionDescriptionForNPKTransactionContextAction:"
+- "_TtC11NanoPassKit5Queue"
+- "_TtC11NanoPassKit9MainQueue"
+- "_accessories"
+- "_accessory"
+- "_account"
+- "_accountQueue"
+- "_accountService"
+- "_acquireExpressTransactionSuppressAssertion"
+- "_acquireNotificationSuppressionAssertion"
+- "_acquireSuppressionAssertionIfNeededWithCompletion:"
+- "_acquireSuppressionAssertionWithCompletion:"
+- "_actionWithIdentifier:type:"
+- "_actionWithIdentifiers:type:"
+- "_activateLocalAuthenticationEvent:"
+- "_activeLocalAuthenticationEvent"
+- "_addAppleBalanceToSections:fromModel:"
+- "_addCardErrorForPaymentRequest:"
+- "_addCreditDebitItemToSection:webService:"
+- "_addGroupedItemsToSections:fromModel:webService:paymentSection:"
+- "_addLegacyExpressModeEnabledUserNotificationForPassUniqueID:completion:"
+- "_addNotificationWithNotificationIdentifier:title:body:categoryIdentifier:userInfo:wantsBadgedIcon:suppressed:completion:"
+- "_aidToFetch"
+- "_allPassBalanceFieldsWithBalancesByID:"
+- "_allowedPayloadIDs"
+- "_analyticsQueue"
+- "_appState"
+- "_appStateLock"
+- "_appleID"
+- "_applicationStateWithLSApplicationState:"
+- "_applicationWillEnterBackground:"
+- "_applicationWillEnterForeground:"
+- "_assertion"
+- "_assertionFactory"
+- "_assertionInvalidator"
+- "_assertionMaps"
+- "_associatedInfoModelWithPass:currentModel:"
+- "_atomicIsInRestricted"
+- "_atomicIsNfcDisabled"
+- "_atomicIsSwitchingSessionTypeCount"
+- "_authContext"
+- "_authenticationRequested"
+- "_authorizationController"
+- "_authorizationCredential"
+- "_authorizationStatus"
+- "_authorizationValidity"
+- "_availableActionsFetchDate"
+- "_backgroundQueue"
+- "_backgroundQueue_initHWManager"
+- "_balanceByIDWithBalances:"
+- "_balanceFieldBalance:fieldIdentifier:"
+- "_balanceFieldWithPassField:balance:isPrimaryBalance:"
+- "_balanceFields"
+- "_balanceFieldsWithBalancesByID:passFields:maximumCount:"
+- "_balanceOffset"
+- "_balancePassFieldsFromPass:"
+- "_balances"
+- "_bankConnectAccount"
+- "_barcodeIdentifier"
+- "_barcodePaymentSession"
+- "_barcodes"
+- "_baseFlowStepDescription"
+- "_baseSessionStateForUpdate"
+- "_bluetoothAvailableAndEnabled"
+- "_buttonHandler"
+- "_buttonListener"
+- "_callbackQueue_invokeDidCompleteForReason:withTransactionContext:shouldCleanupSession:"
+- "_canChangePass"
+- "_canHandleRKEActionForTileItem:pass:outAction:outFunction:outError:"
+- "_canMakeDigitalIssuancePaymentsForTransitProducts:withCompletion:"
+- "_canMakeDigitalIssuancePaymentsForTransitProductsWithCompletion:"
+- "_canProceedWithTransactionForPass:selector:"
+- "_cancelLocalAuthentication"
+- "_cardEncryptionScheme"
+- "_cardFlow"
+- "_cardID"
+- "_cardIngester"
+- "_cardIssuer"
+- "_cardNotFoundTimerFired"
+- "_cardPNO"
+- "_cardProduct"
+- "_cardsOnFileForProduct:updateHandler:completionHandler:"
+- "_certificates"
+- "_changeCardToken"
+- "_checkContactlessValidity:authorizationValidity:performWork:"
+- "_checkContactlessValidity:performWork:"
+- "_checkForConflictsInEnablingExpressForPass:completion:"
+- "_checkSpaceAvailableForAppletTypes:triedCleanup:completion:"
+- "_chooseCredentialsStepIdentifier"
+- "_chooseProductFromFlowPickerSection:requestContext:transitioningToStep:"
+- "_cleanupBarcodePaymentSession"
+- "_cleanupDelegate"
+- "_cleanupQuickPaymentSession"
+- "_commutePlanFields"
+- "_commutePlanFieldsWithBalancesByID:dynamicPlansByID:"
+- "_commutePlanValueRequired"
+- "_commutePlanWithFelicaPassProperties:"
+- "_commutePlansByIDWithPlans:"
+- "_completedAuthenticationForTransaction:"
+- "_completedContext"
+- "_completedCredential"
+- "_completedError"
+- "_completedFields"
+- "_completionReason"
+- "_configuration"
+- "_configureWebServiceIfNecessary:completion:"
+- "_confirmed"
+- "_contactlessInterfaceReady"
+- "_contactlessPaymentInterfaceVisible"
+- "_contactlessSession"
+- "_contactlessSessionHandle"
+- "_contactlessValidity"
+- "_convertChooseCredentialsStepContext:protoContext:"
+- "_convertChooseFlowStepContext:protoContext:"
+- "_convertChooseProductStepContext:protoContext:"
+- "_convertDigitalIssuanceAmountStepContext:protoContext:"
+- "_convertDigitalIssuancePaymentStepContext:protoContext:"
+- "_convertIssuerVerificationChannelsStepContext:protoContext:"
+- "_convertIssuerVerificationCodeStepContext:protoContext:"
+- "_convertIssuerVerificationFieldsStepContext:protoContext:"
+- "_convertLocalDeviceManualEntry:protoContext:"
+- "_convertLocalDeviceManualEntryProgress:protoContext:"
+- "_convertManualEntryStepContext:protoContext:"
+- "_convertMoreInformationStepContext:protoContext:"
+- "_convertPasscodeUpgradeStepContext:protoContext:"
+- "_convertProtoWelcomeStepContext:requestContext:"
+- "_convertProvisioningProgressStepContext:protoContext:"
+- "_convertProvisioningResultStepContext:protoContext:"
+- "_convertReaderModeEntryStepContext:protoContext:"
+- "_convertReaderModeIngestionStepContext:protoContext:"
+- "_convertSecondaryManualEntryStepContext:protoContext:"
+- "_convertTermsAndConditionsStepContext:protoContext:"
+- "_convertWelcomeStepContext:protoContext:"
+- "_credentialDelegate"
+- "_credentialReadonlyFieldIdentifiers"
+- "_credentialTypeForEvent:"
+- "_curatedDefaultPaymentSetupProvisioningFields"
+- "_currenciesData"
+- "_currencyAmount"
+- "_currentAppleBalanceCredential"
+- "_currentApplicationIdentifier"
+- "_currentContext"
+- "_currentCredential"
+- "_currentExpiredPasses"
+- "_currentIndex"
+- "_currentLookupIdentifiers"
+- "_currentPass"
+- "_currentPasses"
+- "_currentPaymentBarcode"
+- "_currentPaymentPasses"
+- "_currentProduct"
+- "_currentSecureElementPasses"
+- "_currentState"
+- "_currentStep"
+- "_currentStepIdentifier"
+- "_currentSubCredentialIdentifier"
+- "_currentTransaction"
+- "_currentTransactionExpressPassInformation"
+- "_currentTransactionPass"
+- "_currentTransactionStatus"
+- "_currentlyResolving"
+- "_deactivateLocalAuthenticationEvent:"
+- "_deactivated"
+- "_deactivating"
+- "_deactivationCompletionBlocks"
+- "_decimalNumberFormatter"
+- "_decryptedBarcodeCredential"
+- "_defaultImagesUsed"
+- "_deferAuthorization"
+- "_delegateHandlingButtonEvents"
+- "_delegationAssertion"
+- "_didFinishCallbackSent"
+- "_didFinishLoadPasses"
+- "_digitalIssuanceAmount"
+- "_digitalIssuanceAmountRequestContext"
+- "_digitalIssuancePaymentRequest"
+- "_digitalIssuancePaymentRequestContext"
+- "_digitalIssuancePurchase"
+- "_digitalIssuanceSupported"
+- "_disableCardSelection"
+- "_displayableCouldNotAddCardErrorWithUnderlyingError:"
+- "_displayableErrorWithIneligibilityReason:learnMoreURL:"
+- "_displayableErrorWithUnderlyingVerificationError:"
+- "_displayablePassItems"
+- "_distributedNotificationCenter"
+- "_doublePressReceived"
+- "_doublePressTimestamp"
+- "_downloadAndAddUpdatedPassForPaymentPass:completion:"
+- "_downloadRemoteAssetsAndAddPaymentPass:completion:"
+- "_dynamicPlans"
+- "_enableExpressForPass:mode:withCredential:"
+- "_enabled"
+- "_endProvisioningFlowWithError:requestContext:"
+- "_endProvisioningFlowWithSuccessForPass:requestContext:"
+- "_endSessionWhenAuthorizationIsConsumed"
+- "_ensureMetadataForCredentials:updateHandler:completionHandler:"
+- "_expressNotificationType"
+- "_expressPassChangedNotifyToken"
+- "_expressPassController"
+- "_expressPassInformationWithTechnologyType:"
+- "_expressPasses"
+- "_expressPassesInformationWithAutomaticSelectionTechnologyType:"
+- "_expressPassesInformationWithTCIs:"
+- "_expressStateForPassWithUniqueID:"
+- "_expressStateForPassWithUniqueID:fromControllerState:"
+- "_expressStateUpdatePending"
+- "_expressTransactionStatus"
+- "_expressTransactionSuppressionAssertion"
+- "_extendSessionTimeoutTimer"
+- "_failureType"
+- "_fetchAddRequestWithCertificatesResponse:requestContext:"
+- "_fetchAllPeerPaymentTransactionsWithPeerPaymentPassID:"
+- "_fetchDecryptedBarcodeWithCredential:"
+- "_fetchHomeAccessStatusForPass:"
+- "_fetchInAppProvisioningCertificates:"
+- "_fetchMostRecentAccountBalanceForPass:"
+- "_fetchMostRecentBalancesForPass:"
+- "_fetchMostRecentCommutePlansForPass:"
+- "_fetchMostRecentInfoForPass:"
+- "_fetchMostRecentRangingSuspensionReasonForPass:"
+- "_fetchMostRecentTilesForPass:"
+- "_fetchMostRecentTransitPropertiesAndAppletStateForPass:"
+- "_fetchNFCState"
+- "_fetchPrecursorPassDescriptionForPass:"
+- "_fidoAuthCoordinator"
+- "_fieldDetector"
+- "_fieldForCommutePlan:action:isLegacyPass:balancedByID:"
+- "_fieldRequiresLocalEntry:"
+- "_fieldsModel"
+- "_fieldsModelCompleteExceptForLocalFields:"
+- "_filterAssociatedCredentials:forProduct:"
+- "_filteredPaymentSetupFields:forLocalDeviceEntry:"
+- "_filteredPaymentSetupProducts:localCredentials:setupContext:webService:mobileCarrierRegion:readerModeSupported:digitalIssuanceSupported:"
+- "_flowIdentifierToCredential"
+- "_flowIdentifiers"
+- "_flowIngestionState"
+- "_flowPickerSectionsWithContext:provisioningController:readerModeSupported:digitalIssuanceSupported:"
+- "_formattedValueWithCommutePlan:balancesByID:"
+- "_groupsController"
+- "_handleActiveSecureElementManagerSession:"
+- "_handleAppleBalanceAccountDetailsAcknowledgedWithProduct:requestContext:"
+- "_handleAppleBalanceProductChosen:requestContext:"
+- "_handleApplicationChangeNotificationWithWorkspaceApplicationProxies:newStateResolver:"
+- "_handleAuthIntentEventFromSource:"
+- "_handleButtonEvent:"
+- "_handleCarKeyExpressEnteredNotification:"
+- "_handleCarKeyExpressExitedNotification:"
+- "_handleCarKeyRKEActionCompletedNotification:"
+- "_handleCarKeyRangingEndedNotification:"
+- "_handleCarKeyRangingStartedNotification:"
+- "_handleCarKeySessionEndedNotification:"
+- "_handleCarKeySessionEndedWithErrorNotification:"
+- "_handleCarKeyVehicleConnectedNotification:"
+- "_handleCarKeyVehicleDisconnectedNotification:"
+- "_handleCarKeyVehicleLockedNotification:"
+- "_handleCarKeyVehicleStatusChangeNotification:"
+- "_handleCarKeyVehicleUnlockedNotification:"
+- "_handleConventionalTransactionWithContext:"
+- "_handleDigitalIssuanceTermsAccepted:"
+- "_handleEligibiltySuccessWithContext:"
+- "_handleEndOfProvisioningFlowForCurrentPass:requestContext:"
+- "_handleEnterNearFieldNotification:"
+- "_handleExitNearFieldNotification:"
+- "_handleExpressStateChange"
+- "_handleExpressTransactionEndNotification:"
+- "_handleExpressTransactionFailedNotification:"
+- "_handleExpressTransactionStartNotification:"
+- "_handleExpressTransactionTimeOutNotification:"
+- "_handleFailedEnableExpress"
+- "_handleFailedPassUpgrade"
+- "_handleFailedUserAuthentication"
+- "_handleFieldEntry"
+- "_handleFieldExit"
+- "_handleFinished:"
+- "_handleHomeKeyLockConnectedNotification:"
+- "_handleHomeKeyLockDisconnectedNotification:"
+- "_handleHomeKeyLockStatusChangedNotification:"
+- "_handleIfPossibleIdentityUnavailablePassWithSession:"
+- "_handleInterruption"
+- "_handleInvalidation"
+- "_handleLocalAuthenticationPolicyEvaluatedWithContext:error:"
+- "_handleNewContactlessSession:"
+- "_handleObjectSettingsChanged:"
+- "_handlePasscodeUpgradeCompleteWithSuccess:error:requestContext:"
+- "_handlePassesLibraryChangedNotification:"
+- "_handlePreconditionsVerified:"
+- "_handleProceedWithCredentials:chosenByUser:requestContext:"
+- "_handleProductChosen:includeCardsOnFile:requestContext:"
+- "_handleProvisioningFlowStarted:"
+- "_handleRKEActionRequestedForPass:action:function:withSession:completion:"
+- "_handleReaderModeTermsAccepted:"
+- "_handleReceivedAccountUpdateWithAccount:"
+- "_handleSecureElementSessionFailureWithError:"
+- "_handleServiceModeRequestEnded"
+- "_handleServiceModeRequestedForPassWithUniqueID:"
+- "_handleSessionHasCredentialIfNecessaryWithCurrentPass:"
+- "_handleSessionTimeout"
+- "_handleSessionTimerFired"
+- "_handleShareForMailboxAddress:referralSource:"
+- "_handleShareableCredentialsAcceptanceWithShareableCredentials:thumbnailImageData:"
+- "_handleStandaloneTransactionDoneNotification:"
+- "_handleSubcredentialInvitationAcceptanceForLocalInvitationIdentifier:remoteInvitationIdentifier:contactName:thumbnailImageData:"
+- "_handleSuccessForPass:"
+- "_handleSuccessfulUserAuthenticationWithCredential:forPass:withExpressMode:"
+- "_handleTimeoutTimer"
+- "_handleTransactionCompleteDarwinNotification"
+- "_handleTransactionCompleteWithContext:"
+- "_handleUniversalLinkURLAsShoeboxURLForPathComponents:shouldParsePathComponents:urlComponents:"
+- "_handleUpdatedPaymentTransaction:"
+- "_handleUpdatedTransactionStatus:"
+- "_handleUserCancelled"
+- "_handleValueAddedServiceTransactions:forValueAddedServicePasses:paymentTransaction:outUserInterventionRequiredPasses:"
+- "_handleVerificationCode:forPass:context:"
+- "_handleVerificationFieldsForPass:context:"
+- "_handleVerificationResponseForPass:context:"
+- "_handleWalletPreferencesChanged:"
+- "_handlerQueue"
+- "_handlerQueue_buttonHandler"
+- "_hardwareManager"
+- "_hasDeviceBoundCommutePlans"
+- "_hasNoTransactionStartOrEndNotificationForTechnologyType:"
+- "_hasNonPeerPaymentAcceptedPasses"
+- "_hasSession"
+- "_hidSystemClient"
+- "_identifierFromAction:type:"
+- "_immediatelyBeforeTermsStepIdentifier"
+- "_inAppProvisioningGetRequestTimer"
+- "_inAppProvisioningNonce"
+- "_inAppProvisioningPublicKeyHash"
+- "_inAppProvisioningRequest"
+- "_inAppProvisioningRequestConfiguration"
+- "_inField"
+- "_inProgressContext"
+- "_inQueue_releaseAssertionWithOwner:"
+- "_inServiceMode"
+- "_ingestionCardNotFoundTimer"
+- "_ingestionCardSessionToken"
+- "_ingestionMethodMetadata"
+- "_ingestionStateOnRetry"
+- "_initVariables"
+- "_initialPass"
+- "_initializeHIDClient"
+- "_insertPaymentTransactionForActiveBarcode"
+- "_internalClassQueue"
+- "_internalIngestionState"
+- "_internalQueue_deactivateSessionWithCompletion:"
+- "_internalQueue_getContactlessAndAuthorizationValidityAndPerformWork:"
+- "_internalQueue_invokeDeactivationCompletionBlocks"
+- "_internalQueue_processReceivedAccountUpdateWithAccount:"
+- "_internalQueue_regenerateAssociatedInfoModelForPass:inModelsByID:"
+- "_internalQueue_removePassWithUniqueIDs:"
+- "_internalQueue_setCurrentPass:"
+- "_internalQueue_startFieldDetector"
+- "_internalQueue_stopFieldDetector"
+- "_internalQueue_updateContactlessSessionForPass:vasPasses:deferAuthorization:"
+- "_internalQueue_updateContactlessValidityAndPerformWork:"
+- "_internalQueue_updateExpressPasses"
+- "_internalQueue_updateSessionWithCurrentPassAndLoyaltyState"
+- "_invalidateCardNotFoundTimer"
+- "_invalidated"
+- "_invokeCompletionHandler"
+- "_invokeCompletionHandlerForInvalidationWithError:"
+- "_invokeCompletionHandlerWithSuccess:"
+- "_invokeExtensionToCollectPaymentInformation"
+- "_invokeStateUpdateForReason:shouldCleanupSession:"
+- "_isDeviceLocked"
+- "_isEqualToSessionState:"
+- "_isExpressMode:supportedForPassWithUniqueID:"
+- "_isFetchingRestrictedGuestStatus"
+- "_isHSA2Enabled"
+- "_isHomeAccessRestricted"
+- "_isInvalidating"
+- "_isNFCExpressModeSupportedForPass:"
+- "_isPassEligible:"
+- "_isPassWithAccountBalanceForPass:"
+- "_isPasscodeUpgradeRequired"
+- "_isResolveLocalEligibilityRequired"
+- "_isStale"
+- "_isSwitchingSessionType"
+- "_isValidRelayServerURL:outPathComponents:"
+- "_isValidateSecurityRequirementsRequired"
+- "_isWristDetectDisabled"
+- "_issuerVerificationPass"
+- "_lastSessionState"
+- "_loadContentAndImageSetsForAllPassesIfNecessaryWithCompletion:"
+- "_loadContentAndImageSetsForPass:completion:"
+- "_loadContentAndImageSetsIfNecessaryForPasses:completion:"
+- "_loadImageQueue"
+- "_loadPassContentIfNeeded:"
+- "_loadPasses"
+- "_localAuthenticationCoordinator"
+- "_localAuthenticationQueue"
+- "_localCredentials:containProduct:"
+- "_localRequiredFieldsFromRequirementsResponse"
+- "_lockStatus"
+- "_lowPowerModeStateChanged:"
+- "_loyaltyEngineConfigurationChanged:"
+- "_managerContextForContactlessInterfaceTransactionContext:"
+- "_mockAccount"
+- "_nameForLocalAuthenticationEvent:"
+- "_newExpressStateForMode:pass:enable:"
+- "_newPaymentEligibilityRequest"
+- "_newPaymentProvisioningRequest"
+- "_newPaymentRequirementsRequest"
+- "_nextSuppressionRequestToken"
+- "_nonDecimalNumberFormatter"
+- "_nonce"
+- "_nonceSignature"
+- "_noteProvisioningStateChangeForReaderMode:"
+- "_notificationCenter"
+- "_notificationSuppressionAssertion"
+- "_notifyObservers:"
+- "_notifyObserversOfUpdatedRestrictedGuestState:"
+- "_notifyObserversOfUpdatedTransitPassInfoForModel:"
+- "_observerManager"
+- "_onqueue_transactionCompletedForRKEAction:function:withApplicationIdentifier:applicationKeyIdentifier:"
+- "_onqueue_transactionCompletedForStandaloneTransactionEvent:withApplicationIdentifier:applicationKeyIdentifier:"
+- "_onqueue_transactionEndedWithApplicationIdentifier:applicationKeyIdentifier:"
+- "_onqueue_transactionFailedWithApplicationIdentifier:applicationKeyIdentifier:"
+- "_onqueue_transactionStartedWithApplicationIdentifier:applicationKeyIdentifier:"
+- "_operationSourceFromRawValue:"
+- "_options"
+- "_ourCallbackQueue"
+- "_ourConfirmed"
+- "_ourCurrentPass"
+- "_ourInServiceMode"
+- "_ourInternalQueue"
+- "_ourPerformedFirstActivation"
+- "_ourVasPasses"
+- "_outstandingSessionHashTable"
+- "_parseExpressNotificationObject:outApplicationIdentifier:outApplicationKeyIdentifier:"
+- "_parseHomeKeyUWBExpressNotificationObject:outApplicationIdentifier:outApplicationKeyIdentifier:outReaderIdentifier:outTimestamp:outTransactionLockStatus:outLockOperationSource:"
+- "_parseRKEActionNotificationObject:outApplicationIdentifier:outApplicationKeyIdentifier:outFunctionNumber:outActionNumber:outExecutionStatusNumber:outErrorMessage:"
+- "_parseVehicleStatusChangeNotificationObject:outApplicationIdentifier:outSubcredentialIdentifier:"
+- "_passActivating"
+- "_passAssociatedInfoModelsByPassUniqueID"
+- "_passDataSource"
+- "_passLibrary"
+- "_passLibraryChanged:"
+- "_passTile"
+- "_passUniqueIDsByAccountIdentifier"
+- "_paymentBalancesFromTransitAppletBalances:"
+- "_paymentBarcode"
+- "_paymentMethodDescription"
+- "_paymentRequestForAmount:"
+- "_paymentRequestForAmount:serviceProviderProduct:productItem:"
+- "_paymentServiceWasInterrupted"
+- "_paymentSessionQueue"
+- "_paymentStatus"
+- "_paymentTransaction"
+- "_peerPaymentPassQueue"
+- "_peerPaymentPassUniqueID"
+- "_peerPaymentService"
+- "_pendingAddValueUpdatedNotifyToken"
+- "_pendingLocalAuthenticationEvents"
+- "_pendingSessionHandle"
+- "_performDelegateCallback:"
+- "_performEligibility:"
+- "_performNextActionForProvisioningState:"
+- "_performNextStepForProvisionedPass:moreInfoAcknowledged:requestContext:"
+- "_performNextStepForProvisionedPass:requestContext:"
+- "_performPasscodeUpgrade:"
+- "_performProvision:"
+- "_performProvisionWithRequest:requestContext:assertion:"
+- "_performProvisioningEligibility:"
+- "_performRequirementsOrEligibilityForInAppProvisioning:"
+- "_performResolveLocalEligibilityARequirements:completion:"
+- "_performSEStorageCheck:"
+- "_performTerms:"
+- "_performTransitionToStep:withContext:"
+- "_performValidateSecurityRequirements:completion:"
+- "_performedFirstActivation"
+- "_physicalCardURLFromMetadata:forScale:"
+- "_playSoundsWithIdentifier:"
+- "_preconditionState"
+- "_preconditionsRequestContext"
+- "_preconditionsState"
+- "_precursorPassDescription"
+- "_precursorPassManager"
+- "_prepareSessionStateForSendingToObservers:"
+- "_presentEntitlementDetailsForPassUniqueID:"
+- "_presentExpiredPassList"
+- "_presentListActionsMenu"
+- "_presentNextLocalAuthenticationEvent"
+- "_presentPassBalanceDetailsForPassWithUniqueID:"
+- "_presentPassDetailsForPassWithUniqueID:"
+- "_presentPassList"
+- "_presentPassListPreventAppUninstall"
+- "_presentProvisioningFlow"
+- "_presentSavingsDetailsWithPassUniqueID:"
+- "_presentShareDetailsForPassUniqueID:shareIdentifier:"
+- "_presentTransactionDetailsForPassWithUniqueID:transactionIdentifier:"
+- "_presentTransactionDetailsForPassWithUniqueID:transactionServiceIdentifier:transactionSourceIdentifier:"
+- "_previousPassStates"
+- "_previousState"
+- "_primaryAction"
+- "_primaryDisplayableBalanceFieldWithBalancesByID:"
+- "_processAccountBalancesForPassWithUniqueID:withAccount:"
+- "_processAddCardHostWithPathComponents:"
+- "_processBalanceSummaryHostWithPathComponents:queryItems:"
+- "_processCardHostWithPathComponents:queryItems:"
+- "_processDailyCashHostWithPathComponents:queryItems:"
+- "_processExpiredPassListHostWithPathComponents:"
+- "_processListActionsMenuHostWithPathComponents:"
+- "_processPassUpdateHostWithPathComponents:"
+- "_processPassesHostWithPathComponents:urlComponents:"
+- "_processProvisioningContinuityHostWithPathComponents:"
+- "_processSavingsHostWithPathComponents:"
+- "_processShareHostWithPathComponents:urlComponents:"
+- "_processShareableCredentialsHostWithQueryItems:"
+- "_processShoeboxSchemeForHost:pathComponents:urlComponents:"
+- "_processShoeboxSchemeForURL:"
+- "_processSubcredentialInvitationHostWithQueryItems:"
+- "_processTransactionHostWithQueryItems:"
+- "_processedAuthenticationMechanismForTransaction:"
+- "_productType"
+- "_productsArrayFromPickerSection:"
+- "_progressNotificationToken"
+- "_providedFields"
+- "_provisionedPass"
+- "_provisioningController"
+- "_provisioningLocalizedProgressDescriptionDidChange:"
+- "_provisioningProgressRequestContext"
+- "_queue_addObserver:"
+- "_queue_expressPassForTransactionApplicationIdentifier:transactionApplicationKeyIdentifier:"
+- "_queue_invalidateUpgradeControllerForPassWithUniqueID:"
+- "_queue_notifyObserversDidChangeUpgradeRequestDescription:forPassWithUniqueID:"
+- "_queue_removeObserver:"
+- "_queue_siblingExpressPassesForExpressPass:applicationIdentifier:"
+- "_quickPaymentSession"
+- "_rangingSuspensionReason"
+- "_rangingSuspensionReasonForPass:"
+- "_rawCountValueWithCommutePlan:balancesByID:"
+- "_readerAuthInfo"
+- "_readerID"
+- "_readerModeEntryAllowedForProduct:"
+- "_readerModeProvisioningSupported"
+- "_readerModeRequestContext"
+- "_readerModeResources"
+- "_refreshAccountBalanceIfApplicableForPass:withAccount:"
+- "_registerForServiceModeRequestNotification"
+- "_registerGroupControllerGroupObserver"
+- "_registerObservers"
+- "_releaseAssertionFromOwnerObject:withDelay:completion:"
+- "_releaseDataRequest"
+- "_releaseDataStatus"
+- "_releaseExpressTransactionSuppressionAssertion"
+- "_releaseNotificationSuppressionAssertion"
+- "_releaseSuppressionAssertion"
+- "_reloadPasses"
+- "_reloadPassesWithCompletion:"
+- "_remoteObjectProxy"
+- "_remoteObjectProxySynchronous:withFailureHandler:"
+- "_remoteObjectProxyWithErrorHandler:"
+- "_removePassIfNecessary"
+- "_requestContext"
+- "_requestNotificationAuthorizationWithOptions:completion:"
+- "_requestNotificationAuthorizationWithPreconditionCheck:completion:"
+- "_requestPassDetailsForAccountCredential:withCompletionHandler:"
+- "_requestRequirements:"
+- "_requestServiceMode"
+- "_requestSuppression"
+- "_requestUserAuthenticationForPass:withExpressMode:"
+- "_requestVerificationOptionsForPass:context:"
+- "_requestWithNotificationIdentifier:title:body:categoryIdentifier:userInfo:wantsBadgedIcon:suppressed:"
+- "_requireFirstInQueue"
+- "_requiredFieldsFromRequirementsResponse"
+- "_requiredFieldsFromRequirementsResponseExcludingLocalFields"
+- "_resetReaderModeProvisioningState"
+- "_resolveGreenTeaDataUsageIfNecessaryWithCompletion:"
+- "_restrictedGuestAccessState"
+- "_resyncState"
+- "_resyncStateWithCompletion:"
+- "_retrieveAppState:"
+- "_saveTransactionFromContext:"
+- "_scheduleDidActivateEventForPass:"
+- "_secondaryFilteredFields:forCredential:"
+- "_secureElementDidUpdateRestrictedModeState:"
+- "_secureElementPassMatchingAID:subcredentialIdentifier:"
+- "_semaphoreQueue"
+- "_sendDidEncounterError:requestContext:"
+- "_sendDidFinishWithPass:error:"
+- "_sendDidTransitionFromStep:toStep:withContext:"
+- "_sendLowPowerModeEnabledStateToObservers:"
+- "_sendSessionStateToObservers:"
+- "_sendTransactionCompleteToDelegate"
+- "_senderHandle"
+- "_separateLocalDeviceEntryRequired"
+- "_serialQueue"
+- "_serviceIdentifier"
+- "_serviceModeRequestNotifyToken"
+- "_serviceModeRequestedPass"
+- "_sessionAuthorized"
+- "_sessionQueue_authorizeWithUseCredential:deferAuthorizationIfCredentialUsed:"
+- "_sessionQueue_enablePersistentCardEmulation"
+- "_sessionQueue_invokeAppropriateCallbackForActivationWithSuccess:invokeOnSuccess:contactlessValidity:forPass:"
+- "_sessionQueue_startContactlessSessionWithSuccessfulCompletionOnInternalQueue:"
+- "_sessionQueue_updateContactlessSessionForPass:paymentApplications:vasPasses:sessionConfirmed:deferAuthorization:"
+- "_sessionSourceQueue"
+- "_sessionStarted"
+- "_sessionStateForBarcodeTransactionStatus:paymentBarcode:transaction:"
+- "_sessionStateForExpressTransactionStatus:pass:paymentApplication:concreteTransactions:ephemeralTransaction:mutatedBalances:appletState:"
+- "_sessionStateForPaymentBarcode:"
+- "_sessionStateForTransactionContext:"
+- "_sessionStateForUserCanceledBarcodeTransaction"
+- "_sessionTimeoutTimer"
+- "_sessionTimer"
+- "_sessionType"
+- "_sessionWaitingToStart"
+- "_setQueue:"
+- "_setTimeoutTimer"
+- "_setupCardIngester"
+- "_setupContext"
+- "_setupInterface"
+- "_sharedPeerPaymentWebService"
+- "_shouldAddCommutePlan:action:withBalancesByID:"
+- "_shouldUseBalanceForAccount:"
+- "_showCurrentPasscodePromptOrComplete"
+- "_showNextPasscodePromptOrComplete"
+- "_smartReplyType"
+- "_startCardNotFoundTimer"
+- "_startDigitalIssuancePaymentWithAmount:requestContext:"
+- "_startDigitalIssuancePaymentWithAmount:requestContext:serviceProviderProduct:productItem:"
+- "_startIngestion"
+- "_startListeningForCarKeyNotifications"
+- "_startListeningForExpressNotifications"
+- "_startListeningForGenericNotifications"
+- "_startListeningForHomeKeyNotifications"
+- "_startProvisioningForCredential:requestContext:"
+- "_startReaderModeIngestion:"
+- "_startReadingCard"
+- "_startSessionTimeoutTimer"
+- "_startSessionTimerWithReason:"
+- "_startTransferringCard"
+- "_stateLock"
+- "_stopListeningForExpressNotifications"
+- "_stopSessionTimeoutTimer"
+- "_stopSessionTimer"
+- "_streamContinuation"
+- "_subcredentialIdentifierForPass:"
+- "_submittingAuthenticationResult"
+- "_subtitleForState:"
+- "_supportState"
+- "_supportedCurrencyCodes"
+- "_suppressionAssertion"
+- "_suppressionRequestTokens"
+- "_suppressorQueue"
+- "_tearDownCardIngester"
+- "_termsAcceptedOutOfBand"
+- "_termsReason"
+- "_tile"
+- "_tiles"
+- "_timestamp"
+- "_timestampDateFormatter"
+- "_titleForState:"
+- "_transactionContext"
+- "_transactionDescription"
+- "_transactionDetails"
+- "_transactionEventFromLockStatus:"
+- "_transactionPass"
+- "_transactionQueue_statusOfPaymentTransactionWithServiceIdentifier:"
+- "_transactionStatus"
+- "_transactionsQueue"
+- "_transactionsQueue_notifyStatusUpdateOfTransactionWithServiceIdentifier:"
+- "_transactionsQueue_setStatus:forPaymentTransactionWithServiceIdentifier:notifyUpdate:"
+- "_transactionsQueue_transactionDetailsCreatedIfNecessaryForServiceIdentifier:"
+- "_transitPassProperties"
+- "_transitProperties"
+- "_transitionBasedOnCredentials:product:requestContext:"
+- "_transitionBasedOnTermsForReason:URL:requestContext:"
+- "_transitionToAppleBalanceAccountDetailsWithProduct:requestContext:"
+- "_transitionToChooseCredentials:product:requestContext:"
+- "_transitionToChooseFlowWithSections:requestContext:"
+- "_transitionToChooseProductWithProducts:requestContext:"
+- "_transitionToCompletedRKEAction:function:forExpressPass:"
+- "_transitionToDigitalIssuanceForProduct:requestContext:"
+- "_transitionToFlowIngestionState:"
+- "_transitionToFlowIngestionState:progress:"
+- "_transitionToIngestionProgress:"
+- "_transitionToManualEntry:"
+- "_transitionToMoreInformationWithItems:pass:requestContext:"
+- "_transitionToProductDisambiguationWithProducts:requestContext:"
+- "_transitionToProvisioningForCredential:product:requestContext:"
+- "_transitionToProvisioningProgressWithRequestContext:"
+- "_transitionToReaderModeForProduct:requestContext:"
+- "_transitionToSecondaryManualEntryWithFields:credential:requestContext:"
+- "_transitionToStandaloneTransactionEvent:forExpressPass:"
+- "_transitionToStandaloneTransactionEvent:forExpressPass:withExpressUWBInfo:"
+- "_transitionToStatus:forExpressPass:paymentApplicationIdentifier:"
+- "_transitionToVerificationChannelsWithPaymentPass:channels:requestContext:"
+- "_transitionToVerificationCodeWithPaymentPass:channel:requestContext:"
+- "_transitionToVerificationFieldsWithPaymentPass:fields:requestContext:"
+- "_unitTestingAuthorizationController"
+- "_unitTestingCardIngester"
+- "_updateAccount"
+- "_updateAllPassesItemsFieldsPendingUpdateStatus"
+- "_updateAuthorizationValidity"
+- "_updateAutomaticSelectionPasses"
+- "_updateCurrentPasses"
+- "_updateCurrentPaymentBarcodeWithBarcodeIdentifier:decryptedBarcodeCredential:error:"
+- "_updateCurrentTransactionStatus:transaction:"
+- "_updateMockBalance"
+- "_updateModelWithAccessory:forPassID:withReaderID:"
+- "_updatePassInfoManagerForPassUniqueID:updateBlock:"
+- "_updateSessionWithCredentialAndActivate"
+- "_updateStateWithNewState:completion:"
+- "_updateVerificationForPass:channel:context:"
+- "_updateWiFiStateAndNotifiyObserver:"
+- "_updatedPassItemFieldWithPaymentPass:transitAppletBalances:appletState:paymentApplication:"
+- "_upgradeController"
+- "_upgradeControllerMap"
+- "_upgradeExpressModeForPass:withCredential:"
+- "_upgradeRequestDescription"
+- "_userSelectedPass"
+- "_valueAddedServicePass"
+- "_vasPasses"
+- "_verificationChannel"
+- "_verifyPasscodeStateIfNecessaryWithCompletion:"
+- "_wiFiEnabled"
+- "_workQueue"
+- "_wrapperUUID"
+- "_xpcConnection"
+- "acadia"
+- "acceptTerms"
+- "acceptTerms:"
+- "acceptedPasses"
+- "access"
+- "accessReportingType"
+- "accessories"
+- "accessory"
+- "account-balance-identifier"
+- "account-balance-item"
+- "accountAdded:"
+- "accountBalanceForAccount:"
+- "accountChanged:"
+- "accountCredential"
+- "accountRemoved:"
+- "accountService"
+- "accountSummary"
+- "accountUsersChanged:forAccountIdentifier:"
+- "accountWithCompletion:"
+- "acknowledgeAppleBalanceAccountDetails"
+- "acknowledgeAppleBalanceAccountDetailsWithProduct:requestContext:"
+- "acknowledgeMoreInformation"
+- "acknowledgeMoreInformation:"
+- "acknowledgeWelcome"
+- "acknowledgeWelcome:"
+- "acquireBackgroundTaskAssertionWithExplanation:acquiredHandler:invalidationHandler:"
+- "actionType"
+- "actionURL"
+- "actions"
+- "activatePaymentApplications:forPaymentPass:"
+- "activateValueAddedServicePasses:"
+- "activated"
+- "activatedPaymentApplications"
+- "activatedValueAddedServicePasses"
+- "activationData"
+- "activationData: %@"
+- "active"
+- "activeLocalAuthenticationEvent"
+- "activityType"
+- "addCard"
+- "addGroupObserver:"
+- "addNotification:completion:"
+- "addNotificationRequest:withCompletionHandler:"
+- "addPass:"
+- "addPaymentPassController:didFinishAddingPaymentPass:error:"
+- "addPaymentPassController:generateRequestWithCertificateChain:nonce:nonceSignature:completionHandler:"
+- "addRemoteDevicePendingProvisionings:"
+- "addUpdateReasons:"
+- "addUserNotificationForEnabledExpressMode:passUniqueID:completion:"
+- "addUserNotificationOfType:passUniqueID:completion:"
+- "address"
+- "aidToFetch"
+- "allChannels"
+- "allPassItemsFields"
+- "allSetupProducts"
+- "allSupportedProtocols"
+- "allowedPayloadIDs"
+- "allowedRelayServerHostsForRegion:"
+- "altDSIDForAccount:"
+- "ambiguousPassUniqueIdentifierForTransactionWithServiceIdentifier:completion:"
+- "amounts"
+- "any"
+- "appState"
+- "appState:"
+- "apple-card"
+- "appleBalanceAccountDetailsStepContext"
+- "appleBalanceDetails"
+- "appleID"
+- "appletCurrencyCode"
+- "appletTypeIdentifier"
+- "appletWithIdentifier:"
+- "application/x-www-form-urlencoded"
+- "applicationIconDidChange:"
+- "applicationInstallsArePrioritized:arePaused:"
+- "applicationInstallsDidCancel:"
+- "applicationInstallsDidChange:"
+- "applicationInstallsDidPause:"
+- "applicationInstallsDidPrioritize:"
+- "applicationInstallsDidResume:"
+- "applicationInstallsDidStart:"
+- "applicationInstallsDidUpdateIcon:"
+- "applicationIsAtForeground"
+- "applicationState"
+- "applicationStateDidChange:"
+- "applicationStateListener:applicationStateDidChangeFrom:to:"
+- "applicationsDidChangePersonas:"
+- "applicationsDidFailToInstall:"
+- "applicationsDidFailToUninstall:"
+- "applicationsDidInstall:"
+- "applicationsDidUninstall:"
+- "applicationsDidUpdateMetadata:"
+- "applicationsWillInstall:"
+- "applicationsWillUninstall:"
+- "archivedSessionTokenForSubject:"
+- "assertion"
+- "associatedAccountFeatureIdentifier"
+- "associatedCredentials"
+- "associatedEnteredValueIdentifier"
+- "associatedPlanIdentifier"
+- "authKitAccountWithAltDSID:"
+- "authTokenInUse"
+- "authenticationContext"
+- "authenticationRequested"
+- "authenticationRequired"
+- "authorizationController"
+- "authorizationCredential"
+- "authorizationStatus"
+- "authorizationValidity"
+- "authorize18013RequestWithDataToRelease:credential:"
+- "authorizeAndStartCardEmulationWithCredential:deferAuthorization:"
+- "authorizedFKAccount"
+- "availableActionsFetchDate"
+- "availableActionsForPaymentTransactionWithServiceIdentifier:"
+- "availableBalance"
+- "bankConnectAccount"
+- "bankConnectDataProvider"
+- "barcodeIdentifier"
+- "barcodePaymentSession"
+- "barcodePaymentSession:didReceivePaymentBarcode:"
+- "barcodePaymentSession:didUpdateTransactionStatus:withTransaction:"
+- "barcodes"
+- "base64EncodedStringWithOptions:"
+- "beginExtensionRequestWithOptions:completion:"
+- "beginLocalAuthenticationWithAccessControl:operation:completion:"
+- "beginLocalAuthenticationWithCompletion:"
+- "beginLocalAuthenticationWithPolicy:completion:"
+- "beginSubject:"
+- "beginSubject:closePreviousSession:"
+- "beginSubject:sessionToken:"
+- "beginSubject:sessionToken:closePreviousSession:"
+- "beginSubjectReporting:"
+- "beginSubjectReporting:withArchivedParent:"
+- "beginUpdates"
+- "betaPaymentNetworksForRegion:"
+- "bluetoothAvailableAndEnabled"
+- "boardingPass"
+- "bookedBalance"
+- "bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK"
+- "bundle identifier is missing"
+- "buttonHandler"
+- "cachedAppState"
+- "cachedIsInFailForward"
+- "calendar"
+- "cameraFirstProvisioningEnabledForRegion:"
+- "canAddPaymentPass"
+- "canChangePass"
+- "canFitAppletTypes:"
+- "canNotifyAboutExpressModeWithCompletion:"
+- "canOpenURLInSafariForURL:"
+- "canPerformRKEActionsForPassWithUniqueID:"
+- "canPresentPaymentRequest:completion:"
+- "capitalizedString"
+- "card id %@"
+- "cardEncryptionScheme"
+- "cardFlow"
+- "cardID"
+- "cardID=%@&nonce=%@&nonceSignature=%@&leaf=%@"
+- "cardIngester"
+- "cardIssuer"
+- "cardNotFound"
+- "cardPNO"
+- "cardProduct"
+- "cars"
+- "categoryWithIdentifier:actions:intentIdentifiers:options:"
+- "cellular-data"
+- "certificates"
+- "changeCardToken"
+- "channel"
+- "channelType"
+- "channelTypes"
+- "chooseCardsOnFileFlowForProduct:requestContext:preloadMetadata:"
+- "chooseCredentials"
+- "chooseCredentials:requestContext:"
+- "chooseCredentialsStepIdentifier"
+- "chooseEMoneyProductFromFlowPickerSection:requestContext:"
+- "chooseEMoneyProductStepContext"
+- "chooseFlow"
+- "chooseFlowForPickerItem:requestContext:"
+- "chooseIssuerVerificationChannel"
+- "chooseManualEntry"
+- "chooseManualEntry:"
+- "chooseProduct"
+- "chooseProduct:includeCardsOnFile:requestContext:"
+- "chooseProduct:requestContext:"
+- "chooseProductAndCredentialsFlowForProduct:credentials:requestContext:"
+- "chooseReaderMode"
+- "chooseReaderMode:"
+- "chooseTransitProductFromFlowPickerSection:requestContext:"
+- "chooseTransitProductStepContext"
+- "cleanupDelegate"
+- "clearContext"
+- "clearInAppInterfaceForSkeletonPeerPaymentQuote:withError:"
+- "clientInput"
+- "clientInputType"
+- "com.apple.NPKFakePaymentSession.TransactionComplete"
+- "com.apple.NPKInAppPaymentServer"
+- "com.apple.NPKNanoPassDaemonConnection.XPC"
+- "com.apple.NPKProvisioningFlowService"
+- "com.apple.NPKStandaloneErrorDomain"
+- "com.apple.NPKTransientPassServer"
+- "com.apple.NanoPassKit.AddPaymentPass"
+- "com.apple.NanoPassKit.BarcodePaymentSession"
+- "com.apple.NanoPassKit.NPKContactlessPaymentSessionAnalyticsManager"
+- "com.apple.NanoPassKit.NPKQuickPaymentSessionSource"
+- "com.apple.NanoPassKitUI"
+- "com.apple.NanoPassbook.QRTransactionDetails"
+- "com.apple.NanoPassbook.Relevancy"
+- "com.apple.NanoPassbook.alert.assertionManager"
+- "com.apple.NanoPassbook.carKeySecureRanging"
+- "com.apple.NanoPassbook.ingestionType"
+- "com.apple.NanoPassbook.passAction"
+- "com.apple.NanoPassbook.paymentRequestType"
+- "com.apple.NanoPassbook.peerPaymentAction"
+- "com.apple.NanoPassbook.provisioningWebServicesCheck"
+- "com.apple.NanoPassbook.transactionDetails"
+- "com.apple.NanoPassbook.watchProvisioningEvent"
+- "com.apple.NanoPassbook.watchTruthOnCard"
+- "com.apple.NanoPassbookDataUsageREsolver"
+- "com.apple.NanoPasskit.NPKPrecursorPassUpgradeRequestsManager"
+- "com.apple.NanoPasskit.PassesAssociatedInfoManager"
+- "com.apple.expressPassController.internalQueue"
+- "com.apple.mockPeerPaymentAccountManager"
+- "com.apple.nanoPassKit.NPKPassesManager.imageProcessing"
+- "com.apple.nanoPassKit.analyticsReporter"
+- "com.apple.nanoPassKit.applicationStateListener"
+- "com.apple.nanoPassKit.hwManager.background"
+- "com.apple.nanoPassKit.secureElement.inFailForward"
+- "com.apple.nanopassbook.lacoordinator"
+- "com.apple.nanopasskit.NPKDoubleClickClientSuppressor"
+- "com.apple.nanopasskit.peerPaymentmessagesTransactionManager.peerPaymentPass"
+- "com.apple.nanopasskit.peerPaymentmessagesTransactionManager.transactions"
+- "com.apple.nanopasskit.transitpassinformationmanager.pendingaddvalueupdated"
+- "com.apple.secureelementservice.acwg.event.did.connect"
+- "com.apple.secureelementservice.acwg.event.did.disconnect"
+- "com.apple.secureelementservice.acwg.event.did.ranging.end"
+- "com.apple.secureelementservice.acwg.event.did.ranging.start"
+- "com.apple.secureelementservice.acwg.event.did.status.update"
+- "com.apple.secureelementservice.dck.event.session.did.end"
+- "com.apple.secureelementservice.dck.event.session.did.end.with.error"
+- "com.apple.secureelementservice.dck.event.vehicle.did.connect"
+- "com.apple.secureelementservice.dck.event.vehicle.did.disconnect"
+- "com.apple.secureelementservice.dck.event.vehicle.did.express.enter"
+- "com.apple.secureelementservice.dck.event.vehicle.did.express.exit"
+- "com.apple.secureelementservice.dck.event.vehicle.did.lock"
+- "com.apple.secureelementservice.dck.event.vehicle.did.ranging.end"
+- "com.apple.secureelementservice.dck.event.vehicle.did.ranging.start"
+- "com.apple.secureelementservice.dck.event.vehicle.did.rke.action.complete"
+- "com.apple.secureelementservice.dck.event.vehicle.did.status.update"
+- "com.apple.secureelementservice.dck.event.vehicle.did.unlock"
+- "com.apple.springboard.ringerstate"
+- "commuteCardAdded"
+- "commutePlanFields"
+- "commutePlanValueRequired"
+- "comparePassDatesToPass:searchOption:"
+- "completedContext"
+- "completedCredential"
+- "completedError"
+- "completedFields"
+- "completionReason"
+- "configurePaymentServiceWithCompletion:"
+- "confirmSessionExpectingCredential:"
+- "confirmed"
+- "conflictingExpressPassesWithPassConfiguration:completion:"
+- "contactlessCardIngester:didFailToIngestCardWithError:resetProvisioning:isRecoverable:"
+- "contactlessCardIngester:didUpdateCardIngestionStatus:"
+- "contactlessInterfaceReady"
+- "contactlessInterfaceSession:didEndPersistentCardEmulationWithContext:"
+- "contactlessInterfaceSession:didEndPersistentCardEmulationWithContexts:"
+- "contactlessInterfaceSession:didFinishTransactionWithContext:"
+- "contactlessInterfaceSession:didReceive18013Request:readerAuthInfo:"
+- "contactlessInterfaceSession:didReceiveExpressState:"
+- "contactlessInterfaceSession:didReceiveExpressState:expressTransactionEvent:"
+- "contactlessInterfaceSession:didReceiveExpressTransactionState:"
+- "contactlessInterfaceSession:didSuspendWithToken:"
+- "contactlessInterfaceSession:didTransitionFromState:toState:"
+- "contactlessInterfaceSessionDidEnterField:withProperties:"
+- "contactlessInterfaceSessionDidExitField:"
+- "contactlessInterfaceSessionDidFail:forPaymentApplication:paymentPass:valueAddedServicePasses:"
+- "contactlessInterfaceSessionDidFail:forPaymentApplications:paymentPass:valueAddedServicePasses:"
+- "contactlessInterfaceSessionDidFailDeferredAuthorization:"
+- "contactlessInterfaceSessionDidFailTransaction:forPaymentApplication:paymentPass:"
+- "contactlessInterfaceSessionDidReceiveActivityTimeout:"
+- "contactlessInterfaceSessionDidReceiveTerminalError:"
+- "contactlessInterfaceSessionDidReceiveUntrustedTerminal:"
+- "contactlessInterfaceSessionDidResume:"
+- "contactlessInterfaceSessionDidSelectPayment:"
+- "contactlessInterfaceSessionDidSelectValueAddedService:"
+- "contactlessInterfaceSessionDidStartTransaction:"
+- "contactlessInterfaceSessionDidStartTransaction:withContext:"
+- "contactlessInterfaceSessionDidTerminate:"
+- "contactlessInterfaceSessionDidTerminate:withErrorCode:"
+- "contactlessInterfaceSessionDidTimeout:forPaymentApplication:paymentPass:valueAddedServicePasses:"
+- "contactlessInterfaceSessionDidTimeout:forPaymentApplications:paymentPass:valueAddedServicePasses:"
+- "contactlessInterfaceSessionHasPendingServerRequest:"
+- "contactlessPaymentInterfaceVisible"
+- "contactlessPaymentSessionManager:didChangeSessionState:"
+- "contactlessSession"
+- "contactlessSessionHandle"
+- "contactlessValidity"
+- "corporate"
+- "coupon"
+- "createAssertionForOwnerObject:withReason:"
+- "createWithFileURL:warnings:error:"
+- "credential:forPaymentApplication:didUpdateRangingSuspensionReasons:"
+- "credentialCount"
+- "credentialDelegate"
+- "credentialIdentifier:paymentApplicationIdentifier:secureElementIdentifier:didUpdateRangingSuspensionReasons:"
+- "credentialProvisioningQueue"
+- "creditDetails"
+- "creditRecoveryPaymentPlansChangedForAccountIdentifier:"
+- "currenciesData"
+- "currencyAmount"
+- "currencySymbol"
+- "currentAppleBalanceCredential"
+- "currentApplicationIdentifier"
+- "currentContext"
+- "currentCredential"
+- "currentExpiredPasses"
+- "currentIndex"
+- "currentLookupIdentifiers"
+- "currentPass"
+- "currentPasses"
+- "currentPaymentBarcode"
+- "currentPaymentPasses"
+- "currentProduct"
+- "currentSecureElementPasses"
+- "currentState"
+- "currentStep"
+- "currentStepIdentifier"
+- "currentSubCredentialIdentifier"
+- "currentTransaction"
+- "currentTransactionExpressPassInformation"
+- "currentTransactionPass"
+- "currentTransactionStatus"
+- "currentlyResolving"
+- "dataTaskWithRequest:completionHandler:"
+- "dataUsingEncoding:"
+- "dataWithHexEncodedString:"
+- "dataWithJSONObject:options:error:"
+- "databaseWasRebuilt"
+- "dateByAddingUnit:value:toDate:options:"
+- "dateValue"
+- "deactivateSessionWithCompletion:"
+- "deactivated"
+- "deactivating"
+- "deactivationCompletionBlocks"
+- "debugPerformSECleanup:"
+- "decimalNumberByMultiplyingBy:"
+- "declineTerms"
+- "decodeDoubleForKey:"
+- "decodeObjectForKey:"
+- "decodeTopLevelObjectOfClasses:forKey:error:"
+- "decryptedBarcodeCredential"
+- "default"
+- "defaultAccountForFeature:completion:"
+- "defaultImagesUsed"
+- "defaultPaymentPass"
+- "defaultPaymentSetupProvisioningFields"
+- "defaultSessionConfiguration"
+- "defaultValue"
+- "deferAuthorization"
+- "delegationAssertion"
+- "depositType"
+- "deprecated"
+- "descriptionForPassWithUniqueID:"
+- "devSigned"
+- "deviceInAppPaymentApplications"
+- "deviceManagementPolicyDidChange:"
+- "devicePrimaryBarcodePaymentApplication"
+- "devicePrimaryPrecursorRequest"
+- "deviceTransactionSourceIdentifiers"
+- "dictionaryWithObjectsAndKeys:"
+- "didChangeRadioState:"
+- "didEnterFieldForPassesWithUniqueIDs:"
+- "didFinishCallbackSent"
+- "didFinishWithPass:error:"
+- "didReceiveDeviceSharingCapabilities:forHandle:"
+- "didReceiveFatalCommunicationError"
+- "didReceivePendingProvisioningUpdate:"
+- "didRecieveCredentialInvitation:"
+- "didRemoveAppleBalancePromotionWithUniqueIdentifier:forAccountIdentifier:"
+- "didRemoveTransactionsWithSourceIdentifierMapping:"
+- "didSelectPassFromField"
+- "didSucceed"
+- "didUpdateAccountEnhancedMerchants:accountIdentifier:lastUpdate:"
+- "didUpdateAccountPromotions:accountIdentifier:"
+- "didUpdateAppleBalancePromotion:forAccountIdentifier:"
+- "didUpdateApplicationMessages:"
+- "didUpdateDefaultPaymentPassWithUniqueIdentifier:"
+- "didUpdateFamilyMembers:"
+- "didUpdateInStoreTopUpToken:forAccountIdentifier:"
+- "didUpdatePaymentFundingSources:accountIdentifier:"
+- "diffForPassUpdateUserNotificationWithIdentifier:"
+- "digitalIssuanceAmount"
+- "digitalIssuanceAmountRequestContext"
+- "digitalIssuancePaymentRequest"
+- "digitalIssuancePaymentRequestContext"
+- "digitalIssuancePurchase"
+- "digitalIssuanceSupported"
+- "disableCardSelection"
+- "disableExpressForPass:mode:completionHandler:"
+- "disableExpressModeForPassesWithUniqueIdentifiers:withCompletion:"
+- "dismissWithCompletion:"
+- "dispatchSync:"
+- "displayableErrorForProvisioningError:"
+- "displayablePassItems"
+- "displayableShinkansenSeat"
+- "displayableShinkansenSecondarySeat"
+- "distributedNotificationCenter"
+- "doublePressDelegationAssertion:didReceiveTerminalAuthenticationRequestForPassWithUniqueID:"
+- "doublePressDelegationAssertionDidReceiveDelegatedDoublePressEvent:authIntentSource:"
+- "doublePressReceived"
+- "doublePressTimestamp"
+- "downloadRemoteAssetsWithCloudStoreCoordinatorDelegate:completion:"
+- "dynamicPlans"
+- "eligibilityResponse"
+- "eligibilityStatus"
+- "eligibleExpressUpgradeRequestsForPass:"
+- "enRoute"
+- "en_US_POSIX"
+- "enableExpressForPass:mode:completionHandler:"
+- "enableRemoteUpdates"
+- "enabledExpressPasses"
+- "encodeDouble:forKey:"
+- "encryptedData: %@"
+- "encryptedPassData"
+- "encryptedPushProvisioningTarget"
+- "encryptionScheme"
+- "encryptionVersion"
+- "endDoubleClickClientSuppressionWithRequestToken:"
+- "endSessionWhenAuthorizationIsConsumed"
+- "endSubject:"
+- "endSubjectReporting:"
+- "endUpdates"
+- "ensureMetadataForCredentials:requestContext:updateHandler:completionHandler:"
+- "enumerateObjectsWithOptions:usingBlock:"
+- "ephemeralKey"
+- "ephemeralPublicKey"
+- "evaluateAccessControl:operation:options:reply:"
+- "evaluatePolicy:options:error:"
+- "evaluatePolicy:options:reply:"
+- "event:params:reply:"
+- "eventDateInfoValue"
+- "eventTicket"
+- "executeRKEActionForPass:function:action:withCompletion:"
+- "existingExpressPassConfigurationForPass:"
+- "expiredPasses"
+- "expiredSectionPasses"
+- "expressAppletIdentifiersForPass:"
+- "expressModeSettingsCoordinator:didEncounterConflictWhenEnablingExpressForPass:conflictingExpressPasses:completion:"
+- "expressModeSettingsCoordinator:didUpdateState:forPassWithUniqueID:"
+- "expressModeSettingsCoordinator:requestsAuthorizationToEnableExpressForPass:completion:"
+- "expressModeSupportedForPass:"
+- "expressPassController"
+- "expressPassController:didCompleteRKEAction:function:forPass:"
+- "expressPassController:didCompleteStandaloneTransactionEvent:forPass:"
+- "expressPassController:didCompleteStandaloneTransactionEvent:forPass:withUWBTransactionInfo:"
+- "expressPassController:didCompleteTransactionForPass:"
+- "expressPassController:didFailTransactionForPass:"
+- "expressPassController:didReceiveAuthenticationRequestForPass:"
+- "expressPassController:didStartTransactionForPass:paymentApplicationIdentifier:siblingExpressPasses:"
+- "expressPasses"
+- "expressState"
+- "expressStateForPass:"
+- "expressStateUpdatePending"
+- "expressTransactionStatus"
+- "expressTransactionSuppressionAssertion"
+- "extensionContext"
+- "extensionsWithContainingApplicationIdentifiers:completion:"
+- "externalizedContext"
+- "failure"
+- "failureType"
+- "false"
+- "familySetupMode"
+- "feature"
+- "featureApplicationAdded:"
+- "featureApplicationChanged:"
+- "featureApplicationRemoved:"
+- "fedexg"
+- "felicaAppletState:error:"
+- "fetchAuthorizationStatusWithCompletion:"
+- "fetchHomeAccessoryForPass:withReaderIdentifier:completion:"
+- "fetchIdentityProofingConfigurationForCountry:state:completion:"
+- "fetchLockAccessoryWithTerminalReaderIdentifier:withCompletion:"
+- "fetchRelevantPassInformationWithCompletion:"
+- "fetchUpgradeRequestsWithCompletion:"
+- "fidoAuthCoordinator"
+- "fieldDetector"
+- "fieldDetectorDidEnterField:withProperties:"
+- "fieldDetectorDidExitField:"
+- "fieldIdentifiers"
+- "fieldsModel"
+- "firstQuoteItemOfType:"
+- "flight"
+- "flow=%@&pnoName=%@&issuer=%@&cardType=transit&nonce=%@&nonceSignature=%@&leaf=%@"
+- "flow=%@&pnoName=%@&nonce=%@&nonceSignature=%@&leaf=%@"
+- "flow=%@&pnoName=%@&nonce=%@&nonceSignature=%@&leaf=%@&issuer=Acadia"
+- "flow=%@&pnoName=%@&type=%@&nonce=%@&nonceSignature=%@&leaf=%@"
+- "flow=%@&pnoName=%@&type=%@&productName=%@&issuer=%@&nonce=%@&nonceSignature=%@&leaf=%@"
+- "flowIdentifierToCredential"
+- "flowIdentifiers"
+- "flowIngestionState"
+- "flowItem"
+- "flowItems"
+- "forceToTransitTypeTransactionWithTransactionStatus:"
+- "foreignReferenceType"
+- "fragment"
+- "free"
+- "fromNPKProtoStandalonePaymentProvisioningFlowStepContext:requestContext:"
+- "general"
+- "generateModelIdentifierWith:"
+- "generateRequestWithCertificateChain:nonce:nonceSignature:completionHandler:"
+- "generic"
+- "getCurrentSnapshot:"
+- "getHwSupport"
+- "getIssuerApplicationAddRequestStepContext"
+- "getMetadataForFieldWithProperties:withHandler:"
+- "getNotificationSettingsWithCompletionHandler:"
+- "getRadioEnabledState:"
+- "getVehicleReports:"
+- "giftCard"
+- "green-tea"
+- "greenCarDestinationStation"
+- "greenCarOriginStation"
+- "greenCarValidityStartDate"
+- "group:didInsertPass:atIndex:"
+- "group:didInsertPass:withState:atIndex:"
+- "group:didMovePassFromIndex:toIndex:"
+- "group:didRemovePass:atIndex:"
+- "group:didUpdatePass:atIndex:"
+- "group:didUpdatePass:withState:atIndex:"
+- "group:didUpdatePassState:forPass:atIndex:"
+- "groupAtIndex:"
+- "groupIndexForPassUniqueID:"
+- "groupsController"
+- "groupsController:didInsertGroup:atIndex:"
+- "groupsController:didMoveGroup:fromIndex:toIndex:"
+- "groupsController:didRemoveGroup:atIndex:"
+- "groupsControllerShouldExcludePassesWithUniqueIDsFromFiltering:"
+- "handleApplicationRedirectRequestOnPairedDeviceForPaymentPass:transaction:"
+- "handleAuthorize18013RequestWithDataToRelease:credential:"
+- "handleAutomaticSelectionValueAddedServicePasses:"
+- "handleBarcodePaymentPinCodeEntry:"
+- "handleBarcodePaymentUserIntentionConfirmation:"
+- "handleContactlessPaymentInterfaceDidAppear"
+- "handleContactlessPaymentInterfaceDidDisappear"
+- "handleContactlessPaymentSession:authenticationExpected:"
+- "handleCredential:"
+- "handleDelegatedDoublePressEventWithSource:"
+- "handleDidPresentPasscodeAuthentication"
+- "handleDigitalIssuanceAmount:requestContext:"
+- "handleDigitalIssuanceAmount:serviceProviderProduct:item:requestContext:"
+- "handleDoublePressReceivedAtDate:"
+- "handleEndBarcodePaymentSessionRequestedByUI"
+- "handleEndQuickPaymentSessionRequestedByUI"
+- "handleEndSessionRequestedForReason:"
+- "handleExpressTransactionStatus:forPass:"
+- "handleExpressTransactionStatus:forPass:paymentApplication:concreteTransactions:ephemeralTransaction:mutatedBalances:appletState:"
+- "handleFailureToReleaseDataWithError:"
+- "handleFieldEntryEvent"
+- "handleFieldExitEvent"
+- "handleISO18013DataReleaseCanceled"
+- "handleISO18013Request:withReaderAuthInfo:"
+- "handleISO18013TransactionStarted"
+- "handleIncomingProtobufData:withMessageType:"
+- "handleInformationRequest:completion:"
+- "handleIssuerApplicationAddRequest:requestContext:"
+- "handleIssuerVerificationChannel:requestContext:"
+- "handleIssuerVerificationCode:requestContext:"
+- "handleIssuerVerificationFields:requestContext:"
+- "handleLocalAuthenticationError:"
+- "handleManualEntryFields:credential:requestContext:"
+- "handleMetadataRequestOnPairedDevice:withAssociatedApplicationIdentifiers:completion:"
+- "handleOpenURL:"
+- "handlePasscodeNowCompliant"
+- "handlePasscodeUpgradeCompleteWithSuccess:error:requestContext:"
+- "handlePaymentBarcodeRequested"
+- "handleProductSelection:requestContext:"
+- "handleProvisioningFlowComplete"
+- "handleRKEActionRequestedForTileItem:pass:completion:"
+- "handleRKETransactionForPass:fromTile:"
+- "handleReaderModeFields:requestContext:"
+- "handleRetryLoadingPaymentBarcodeRequested"
+- "handleServiceModeRequestedForPass:"
+- "handleStandaloneTransactionWithAction:forPass:"
+- "handleStandaloneTransactionWithAction:forPass:withAccessory:"
+- "handleTerminalAuthenticationRequestedForPassWithUniqueID:"
+- "handleTransactionStarted"
+- "handleUniversalLinkWithURL:"
+- "handleUniversalLinkWithUserActivity:"
+- "handleUserPassDelete:"
+- "handleUserSelectedPass:"
+- "handlerQueue"
+- "hardwareManager"
+- "hardwareStateDidChange"
+- "hasBackgroundImage"
+- "hasCredentialsAssociatedWithProduct:"
+- "hasDeviceBoundCommutePlans"
+- "hasEligibleExpressUpgradeRequestForPass:"
+- "hasExpiredPlanDate"
+- "hasGreenCarTicket"
+- "hasIncompletePaymentSetupFields"
+- "hasOutstandingSessions"
+- "hasPassesWithSupportedNetworks:merchantCapabilities:issuerCountryCodes:webDomain:"
+- "hasPerformedFirstActivation"
+- "hasSession"
+- "hasShinkansenTicket"
+- "healthPass"
+- "helperPlaceholdersInstalled:"
+- "helperPlaceholdersUninstalled:"
+- "hidSystemClient"
+- "homeAccessoryForPass:withReaderIdentifier:"
+- "hospitality"
+- "host"
+- "hostApplicationIdentifier"
+- "hostApplicationVersion"
+- "http"
+- "https"
+- "https:"
+- "https://passman.apple.com:81/index.php/getCardData/index"
+- "https://starbucks.com"
+- "https://starbucks.com/bob/plan1234"
+- "i24@0:8q16"
+- "iconForApplicationIdentifier:"
+- "identifierHashComponents"
+- "identity"
+- "identityPassPrearmStatusSynchronous:completion:"
+- "identityPassPrearmStatusWithCompletion:"
+- "ignoreTimeComponents"
+- "imageSetLoadedIfNeeded:"
+- "imageWithScale:"
+- "immediatelyBeforeTermsStepIdentifier"
+- "inAppProvisioningGetRequestTimer"
+- "inAppProvisioningNonce"
+- "inAppProvisioningPublicKeyHash"
+- "inAppProvisioningRequest"
+- "inAppProvisioningRequestConfiguration"
+- "inField"
+- "inProgressContext"
+- "inServiceMode"
+- "inSessionExpressEnabledForPass:"
+- "incompletePaymentSetupFields"
+- "ingestCardWithCardSessionToken:successHandler:"
+- "ingestCardWithSuccessHandler:"
+- "ingestionCardNotFoundTimer"
+- "ingestionCardSessionToken"
+- "ingestionMethodMetadata"
+- "ingestionStateOnRetry"
+- "ingestionType"
+- "initWithAmount:currency:exponent:"
+- "initWithAssertion:invalidator:"
+- "initWithAssertionFactory:invalidator:"
+- "initWithAssociatedInfoModel:"
+- "initWithBarcodeIdentifier:decryptedBarcodeCredential:error:"
+- "initWithBarcodeIdentifier:deviceAccountIdentifier:"
+- "initWithBase64EncodedString:options:"
+- "initWithBundleIdentifier:"
+- "initWithBundleIdentifier:allowPlaceholder:error:"
+- "initWithCardholderName:primaryAccountNumber:"
+- "initWithComponentBalances:identifiers:"
+- "initWithCurrenciesData:directlyInitiate:"
+- "initWithCurrencyAmount:senderHandle:"
+- "initWithCurrencyCode:"
+- "initWithData:encoding:"
+- "initWithDelegate:buttonListener:callbackQueue:"
+- "initWithDelegate:passesDataSource:"
+- "initWithDictionary:lastUpdated:"
+- "initWithDictionary:source:"
+- "initWithDistributedNotificationCenter:"
+- "initWithDomain:"
+- "initWithEligibilityResponse:"
+- "initWithEncryptedProvisioningTarget:provisioningSharingIdentifier:passThumbnailImageData:"
+- "initWithEncryptionScheme:"
+- "initWithExpressPassController:workQueue:callbackQueue:"
+- "initWithHandlerQueue:"
+- "initWithIdentifier:imageData:credentialType:"
+- "initWithLabel:value:"
+- "initWithMachServiceName:options:"
+- "initWithNotificationBundleIdentifier:"
+- "initWithNotificationCenter:"
+- "initWithNotificationType:documentType:issuerName:"
+- "initWithOptions:"
+- "initWithPID:flags:reason:name:withHandler:"
+- "initWithPass:expressNotificationType:"
+- "initWithPass:transitProperties:balances:commutePlanValueRequired:"
+- "initWithPass:webService:"
+- "initWithPassLibrary:"
+- "initWithPassWithUniqueID:"
+- "initWithPaymentCredential:"
+- "initWithPaymentDescription:automaticReloadBilling:managementURL:"
+- "initWithPaymentPass:activatedPaymentApplications:"
+- "initWithPaymentPass:authorizationCredential:"
+- "initWithPaymentRequest:"
+- "initWithPaymentService:accountService:precursorPassManager:"
+- "initWithPaymentService:passLibrary:distributedNotificationCenter:delegate:"
+- "initWithPaymentSetupFields:"
+- "initWithPaymentSetupProduct:cardSessionToken:"
+- "initWithPaymentSetupProduct:delegate:"
+- "initWithPaymentSetupProduct:purchase:balance:"
+- "initWithPeerPaymentPassUniqueID:"
+- "initWithPeerPaymentPassUniqueID:paymentService:"
+- "initWithPeerPaymentService:"
+- "initWithProduct:eligibilitySource:"
+- "initWithProvisioningController:setupContext:"
+- "initWithReaderID:lockStatus:timestamp:"
+- "initWithRequestConfiguration:delegate:"
+- "initWithRequestContext:"
+- "initWithRequestHeader:"
+- "initWithServiceProviderOrder:"
+- "initWithSource:"
+- "initWithStatus:errors:"
+- "initWithSuiteName:"
+- "initWithSupportedCurrencyCodes:allowedPayloadIDs:"
+- "initWithTile:action:"
+- "initWithTransitProperties:appletState:balanceFields:commutePlanFields:tiles:rangingSuspensionReason:accessories:isHomeAccessRestricted:precursorPassDescription:hasDeviceBoundCommutePlans:"
+- "initWithURL:resolvingAgainstBaseURL:"
+- "initWithValue:"
+- "initWithValue:isStale:"
+- "initWithWebService:"
+- "insertBridgeBulletinWithTitle:message:actionURL:forPass:playSound:notificationIdentifier:expirationDate:"
+- "insertObject:atIndex:"
+- "insertOrUpdatePaymentTransaction:forPassUniqueIdentifier:paymentApplication:completion:"
+- "internalIngestionState"
+- "intersectsSet:"
+- "invalidateAssertion:"
+- "invalidateAssertionExpected:"
+- "invalidateLocalAuthenticationContexts"
+- "invalidateSessionWithCompletion:"
+- "invalidateUpgradeControllerForPassWithUniqueID:"
+- "invalidated"
+- "isAccountCredential"
+- "isActionAvailable"
+- "isAllDay"
+- "isAppleBalanceSection"
+- "isArmed"
+- "isBluetoothEnabled"
+- "isCommutePlanValueRequired"
+- "isConfirmed"
+- "isContentLoaded"
+- "isCurrentUserUnder13"
+- "isDeactivated"
+- "isDeactivating"
+- "isDeviceTap"
+- "isDigitalIssuanceSupported"
+- "isEMoneySection"
+- "isEqualToPassIncludingMetadata:"
+- "isExpressMode:supportedForPass:"
+- "isFirstInQueue"
+- "isHomeAccessRestricted"
+- "isHomeAccessRestrictedForPass:"
+- "isHomeAccessRestrictedForPassSerialNumber:withCompletion:"
+- "isInFailForward"
+- "isInFailForward:"
+- "isInRestrictedMode"
+- "isInRestrictedMode:"
+- "isInstalled"
+- "isInvalidated"
+- "isNFCDisabled"
+- "isPasscodeUpgradeRequired"
+- "isPaymentSection"
+- "isPlanDisplayable"
+- "isPurchasedProductCredential"
+- "isRKEFunctionSupported:"
+- "isReaderModeProvisioningSupported"
+- "isRemoteCredential"
+- "isRemotePass"
+- "isRestricted"
+- "isSeparateLocalDeviceEntryRequired"
+- "isSessionStartedFor:"
+- "isSessionStateValid"
+- "isShinkansenTicketActive"
+- "isStale"
+- "isStoredValuePass"
+- "isSuppressed"
+- "isSuppressingDoubleClickClients"
+- "isSwitchingSessionType"
+- "isTransitSection"
+- "isTypeF"
+- "isUnannounced"
+- "isUndetermined"
+- "isVehicleConnectedForPass:"
+- "isWifiEnabled"
+- "issuerApplicationAddRequest"
+- "issuerIdentifier"
+- "issuerProvisioningCertificatesForRequest:withCompletion:"
+- "issuerVerificationCode"
+- "issuerVerificationFields"
+- "issuerVerificationPass"
+- "itemWithIdentifier:products:"
+- "itemWithIdentifier:title:products:"
+- "john@example.com"
+- "kNPKIgnoreUserPreferenceTransactionsStatus"
+- "kNPKPeerPaymentMessagesTransactionsManagerAvailableActions"
+- "kNPKPeerPaymentMessagesTransactionsManagerTransactionStatus"
+- "keysSortedByValueUsingComparator:"
+- "lastSessionState"
+- "lastUpdated"
+- "learnMoreURL"
+- "lifecycleState"
+- "lightweightAccount"
+- "listActions"
+- "loadContentAsyncWithCompletion:"
+- "loadGroupsWithCompletion:"
+- "loadImageSetAsync:preheat:withCompletion:"
+- "loadUpgradeControllerForPass:"
+- "localAuthenticationCoordinator:cancelRequestForCredentialOfType:"
+- "localAuthenticationCoordinator:requestsCredentialOfType:completion:"
+- "localAuthenticationQueue"
+- "localizedActionText"
+- "localizedDisplayName"
+- "localizedFailureReason"
+- "localizedRecoverySuggestion"
+- "localizedTitle"
+- "lockStatus"
+- "lookupTransactionActionsIfNeededWithServiceIdentifier:"
+- "lowercaseString"
+- "markAuthenticationCompleteForTransactionIdentifier:completion:"
+- "markPerishableDataAsStale"
+- "maximumTransferAmounts"
+- "merchant"
+- "merchant.com.apple.syndrome"
+- "merchantCapabilities"
+- "merchantURL"
+- "metadataTypeVehicleFunction"
+- "minimumTransferAmounts"
+- "moreInformationItemsCount"
+- "moveGroupAtIndex:toIndex:"
+- "movePassAtIndex:toIndex:"
+- "multifamily"
+- "multiple"
+- "needUpgradeForPass:"
+- "needsConfiguration"
+- "networkUsageChanged:"
+- "newAssertionForBundleIdentifier:withReason:"
+- "nextCredentialToProvision"
+- "nextSuppressionRequestToken"
+- "nonFatalError"
+- "nonce"
+- "nonceSignature"
+- "not "
+- "notANumber"
+- "notFound"
+- "noteWillDeleteAccountsSynchronous:completion:"
+- "noteWillDeleteAccountsWithCompletion:"
+- "notificationCategoryIdentifier"
+- "notificationSuppressionAssertion"
+- "notifyObserversDidChangeUpgradeRequestDescription:forPassWithUniqueID:"
+- "notifyToken"
+- "npkBankConnectedAccountForPass:"
+- "npkBankConnectedDebitAccountForPass:"
+- "npkIsCardOnFilePayment"
+- "npkIsCompanionAuthForTvOS"
+- "npkIsDebit"
+- "npkIsExternalContextAuthorization"
+- "npkIsNearbyPeerPayment"
+- "npkIsOutgoingPeerPayment"
+- "npkIsPeerPayment"
+- "npkIsSkeletonPeerPayment"
+- "npkIsSplitPeerPayment"
+- "npkIsSplitPeerPaymentWithAnotherPaymentMethod"
+- "npkIsSplitPeerPaymentWithoutAnotherPaymentMethod"
+- "npkIsTopUp"
+- "npkRefreshConnectedAccountDataForPassWithUniqueID:"
+- "npkSanitizedAddress"
+- "npkSanitizedAddress:"
+- "npkSetPassAndPaymentApplicationForAID:"
+- "npkShouldShowSavingsAccountInfo"
+- "npk_actionType"
+- "npk_actionURL"
+- "npk_localizedActionText"
+- "numberOfPublicStyles"
+- "observeLaunchProhibitedApps"
+- "observers"
+- "observersManager"
+- "openDeepLinkForURL:isSensitive:"
+- "openDeepLinkForURL:isSensitive:completion:"
+- "openURLInSafariForURL:fromPresentingController:"
+- "options"
+- "orbit"
+- "other"
+- "ourCallbackQueue"
+- "ourConfirmed"
+- "ourCurrentPass"
+- "ourInServiceMode"
+- "ourInternalQueue"
+- "ourPerformedFirstActivation"
+- "ourVasPasses"
+- "parsePayload:payloadID:"
+- "parsePayload:payloadID:maxCount:"
+- "passAction"
+- "passActivating"
+- "passAssociatedInfoManager:didUpdatePassInfo:withPassUniqueID:"
+- "passAssociatedInfoManager:didUpdateRestrictedGuestStatusWithInfo:"
+- "passAtIndex:"
+- "passCount"
+- "passDataSource"
+- "passDetailsResponse"
+- "passInfoForPassWithUniqueID:"
+- "passLibrary"
+- "passNotificationWithType:passUniqueID:"
+- "passSelectionFieldDetectorAssertion:didEnterFieldForPassesWithUniqueIDs:"
+- "passStyle"
+- "passTile"
+- "passUniqueIDsByAccountIdentifier"
+- "passUniqueIdentifierForTransactionWithIdentifier:completion:"
+- "passUniqueIdentifierForTransactionWithServiceIdentifier:transactionSourceIdentifier:completion:"
+- "passWithPassTypeIdentifier:serialNumber:completion:"
+- "passWithUniqueIdentifier:didReceiveValueAddedServiceTransaction:"
+- "passWithUniqueIdentifier:didUpdateTiles:forContext:"
+- "passcodeUpgradeComplete"
+- "passcodeUpgradeCompleted:"
+- "passesDataSource:didAddPasses:"
+- "passesDataSource:didRemovePasses:"
+- "passesDataSource:didUpdatePasses:"
+- "passesDataSource:didUpdateSettingsForPass:"
+- "passesDataSource:didUpdateStates:forPasses:"
+- "passesDataSourceDidReloadPasses:"
+- "passesDataSourceDidReorderPasses:"
+- "payment"
+- "paymentApplication"
+- "paymentApplicationIdentifiers"
+- "paymentAuthorizationController:didAuthorizeApplePayTrustSignature:handler:"
+- "paymentAuthorizationController:didAuthorizeContextWithHandler:"
+- "paymentAuthorizationController:didAuthorizePayment:completion:"
+- "paymentAuthorizationController:didAuthorizePayment:handler:"
+- "paymentAuthorizationController:didAuthorizePeerPaymentQuote:handler:"
+- "paymentAuthorizationController:didAuthorizePurchase:completion:"
+- "paymentAuthorizationController:didChangeCouponCode:handler:"
+- "paymentAuthorizationController:didEncounterAuthorizationEvent:"
+- "paymentAuthorizationController:didRequestMerchantSession:"
+- "paymentAuthorizationController:didRequestMerchantSessionUpdate:"
+- "paymentAuthorizationController:didRequestMerchantSessionWithURL:merchantSessionUpdate:"
+- "paymentAuthorizationController:didSelectPaymentMethod:completion:"
+- "paymentAuthorizationController:didSelectPaymentMethod:handler:"
+- "paymentAuthorizationController:didSelectShippingContact:completion:"
+- "paymentAuthorizationController:didSelectShippingContact:handler:"
+- "paymentAuthorizationController:didSelectShippingMethod:completion:"
+- "paymentAuthorizationController:didSelectShippingMethod:handler:"
+- "paymentAuthorizationController:didUpdateAccountServicePaymentMethod:handler:"
+- "paymentAuthorizationController:willFinishWithError:"
+- "paymentAuthorizationControllerDidFinish:"
+- "paymentAuthorizationControllerWillAuthorizePayment:"
+- "paymentBarcode"
+- "paymentDeviceDidEnterFieldWithProperties:"
+- "paymentDeviceDidExitField"
+- "paymentInformation"
+- "paymentMethodDescription"
+- "paymentOfferCatalogChangedFromPush:"
+- "paymentOfferConfirmationRecordChanged:forTransactionWithPaymentHash:"
+- "paymentPassWithUniqueIdentifier:didReceiveBalanceUpdate:"
+- "paymentPassWithUniqueIdentifier:didReceiveMessage:"
+- "paymentPassWithUniqueIdentifier:didReceivePlanUpdate:"
+- "paymentPassWithUniqueIdentifier:didUpdateBalanceReminder:forBalanceWithIdentifier:"
+- "paymentPassWithUniqueIdentifier:didUpdateCategoryVisualizationWithStyle:"
+- "paymentProvisioningFlowController:didEncounterError:requestContext:"
+- "paymentProvisioningFlowController:didTransitionFromStep:toStep:withContext:"
+- "paymentRequest"
+- "paymentServiceEstablishedConnection"
+- "paymentServiceReceivedInterruption"
+- "paymentServiceWasInterrupted"
+- "paymentSession:didActivatePass:"
+- "paymentSession:didCompleteTransactionForReason:withTransactionContext:shouldCleanupSession:"
+- "paymentSession:didFailTransactionForPass:withValueAddedServiceTransactions:forValueAddedServicePasses:"
+- "paymentSession:didMakePassCurrent:"
+- "paymentSession:didReceive18013Request:readerAuthInfo:"
+- "paymentSession:willActivatePass:"
+- "paymentSessionDidEnterField:"
+- "paymentSessionDidExitField:"
+- "paymentSessionDidReceiveActivationError:"
+- "paymentSessionDidReceiveActivityTimeout:"
+- "paymentSessionDidReceiveAuthorizationTimeout:"
+- "paymentSessionDidReceiveCredential:"
+- "paymentSessionDidReceiveStartTransaction:"
+- "paymentSessionDidReceiveTransactionError:"
+- "paymentSessionDidSelectPayment:"
+- "paymentSessionDidSelectValueAddedService:"
+- "paymentSessionDidStart:"
+- "paymentSessionIsWaitingToStart:"
+- "paymentSessionQueue"
+- "paymentSessionSource:declinedToStartPaymentSessionDueToPreconditionState:"
+- "paymentSessionSource:receivedButtonEventAtDate:authIntentSource:delegated:"
+- "paymentSessionSource:startedPaymentSession:dueToButtonEventAtDate:authIntentSource:"
+- "paymentSessionSourceIsWalletInstalledRequiredToStartPaymentSession:"
+- "paymentSessionSourceRequestsAssistiveTouchAlertPresentation:"
+- "paymentSetupFieldWithIdentifier:"
+- "paymentSetupFieldWithIdentifier:type:"
+- "paymentSetupFields"
+- "paymentSetupProductModel"
+- "paymentSetupSupportedInRegion"
+- "paymentStatus"
+- "paymentSummaryItems"
+- "paymentTransaction"
+- "paymentTransactionWithSource:"
+- "peerPaymentPassUniqueID"
+- "peerPaymentQuote"
+- "peerPaymentRequest"
+- "peerPaymentService"
+- "peerPaymentStatus"
+- "peerPaymentStatusWithPaymentIdentifier:completion:"
+- "peerPaymentTransactionWithServiceIdentifier:"
+- "pendingLocalAuthenticationEvents"
+- "pendingSessionHandle"
+- "performedFirstActivation"
+- "persistent_emulation"
+- "phoneNumberWithStringValue:"
+- "physicalCardsChanged:forAccountIdentifier:"
+- "pioneer"
+- "pk_arrayByApplyingBlock:"
+- "pk_containsObjectPassingTest:"
+- "pk_createArrayByApplyingBlock:"
+- "pk_decodeHexadecimal"
+- "pk_firstObjectPassingTest:"
+- "pk_objectsPassingTest:"
+- "pk_weakPointerPersonalityToStrongObjectsMapTable"
+- "plans"
+- "plasticCardImages"
+- "playAccessScanCompleteHaptic"
+- "playIdentityReaderConnectionCompleteHaptic"
+- "playIdentityReaderConnectionStartHaptic"
+- "playInAppPaymentFailureHaptic"
+- "playInAppPaymentSuccessHaptic"
+- "playProvisioningFailureHaptic"
+- "playProvisioningSuccessHaptic"
+- "playReadyToReorderHaptic"
+- "playSessionStartFailureHaptic"
+- "playSessionTimeoutHaptic"
+- "playTerminalRequestedAuthenticationHaptic"
+- "playTransactionAuthenticationHaptic"
+- "playTransactionFailureHaptic"
+- "playTransactionSuccessHaptic"
+- "playWarsawHaptic"
+- "pluginsDidInstall:"
+- "pluginsDidUninstall:"
+- "pluginsWillUninstall:"
+- "possibleProducts"
+- "preconditionsRequestContext"
+- "preconditionsState"
+- "preconditionsStepContext"
+- "precursorPassDescription"
+- "precursorPassManager"
+- "precursorPassRequestsManager:didUpdateUpgradePrequestDescription:forPassUniqueID:"
+- "precursorPassUpgradeRequestDidChange"
+- "precursorPassUpgradeRequestsDidChangeForUpgradeController:"
+- "prefetchCredentialsForProduct:requestContext:completionHandler:"
+- "preflightPasscodeUpgradeWithCompletion:"
+- "preflightWithRequirements:update:"
+- "presentContactlessInterfaceForPassWithUniqueIdentifier:fromSource:completion:"
+- "presentContinuityPaymentInterfaceWithRemotePaymentRequest:completion:"
+- "presentInAppPaymentInterfaceWithPaymentRequest:awaitingRemoteNetworkPaymentRequest:forHostApplicationName:hostBundleIdentifier:hostProcessIdentifier:hostIdentifier:orientation:completion:"
+- "presentInAppPaymentInterfaceWithPaymentRequest:forHostApplicationName:hostBundleIdentifier:hostProcessIdentifier:hostIdentifier:orientation:completion:"
+- "presentPasscodeUpgradeRequestWithChangeType:completion:"
+- "presentProvisioningContinuityInterfaceForPassWithUniqueIdentifier:continuityType:transferToken:completion:"
+- "presentSetupApplePayAlert:"
+- "presentTransitServiceProviderProductsWithRequestContext:"
+- "presentTransitTopUpValueSelectionForPassWithUniqueIdentifier:balanceField:completion:"
+- "presentWithCompletion:"
+- "presentationSceneBundleIdentifierForPaymentAuthorizationController:"
+- "presentationSceneIdentifierForPaymentAuthorizationController:"
+- "presentationWindowForPaymentAuthorizationController:"
+- "preventAppUninstall"
+- "previousPassStates"
+- "previousState"
+- "prewarm"
+- "primaryTCIs"
+- "processTransitTransactionEventWithHistory:transactionDate:forPaymentApplication:withPassUniqueIdentifier:expressTransactionState:"
+- "processedAuthenticationMechanism:forTransactionIdentifier:completion:"
+- "productIdentifiers"
+- "productSelection"
+- "productType"
+- "productsForFeatureIdentifier:"
+- "progressNotificationToken"
+- "providedFields"
+- "providerForExtensionPoint:"
+- "provisionedPass"
+- "provisioning"
+- "provisioningController"
+- "provisioningMethodMetadataForType:"
+- "provisioningMethodTypes"
+- "provisioningProgressRequestContext"
+- "publicKeyHash"
+- "purchasedProductCredential"
+- "q16@?0@\"NPKPassAssociatedInfoModel\"8"
+- "q24@0:8q16"
+- "q24@?0@\"NSNumber\"8@\"NSNumber\"16"
+- "q24@?0@\"PKPass\"8@\"PKPass\"16"
+- "queuePersistentCardEmulation"
+- "quickPaymentSession"
+- "rangeOfString:"
+- "rangingStatus"
+- "rangingSuspensionReason"
+- "rangingSuspensionReasonForAppletSubcredentialIdentifier:paymentApplicationIdentifier:secureElementIdentifier:"
+- "rangingSuspensionReasonForPassWithUniqueID:"
+- "rawDictionary"
+- "readerAuthInfo"
+- "readerID"
+- "readerIdentifierForAccessory:withPass:"
+- "readerModeMetadata"
+- "readerModeProvisioningSupported"
+- "readerModeRequestContext"
+- "readerModeResources"
+- "received"
+- "received certificates..fetching request"
+- "recipient"
+- "refreshAccountDataForPassWithUniqueID:"
+- "refreshAllPasses"
+- "refreshInfoForPass:"
+- "registerEventListener:"
+- "regularPaymentCardProvisioning"
+- "releaseAssertionFromOwnerObject:"
+- "releaseAssertionFromOwnerObject:withDelay:"
+- "releaseAssertionFromOwnerObject:withDelay:completion:"
+- "releaseDataRequest"
+- "releaseDataStatus"
+- "reloadGroupsWithCompletion:"
+- "reloadPasses"
+- "reloadPassesWithCompletion:"
+- "remaining"
+- "remoteButtonListener:didReceiveTerminalAuthenticationRequestForPassWithUniqueID:"
+- "remoteInterfacePresenterConnectionInterrupted:"
+- "removeIndex:"
+- "removePass:"
+- "removeProvisionedPass"
+- "reporterForSubject:"
+- "request"
+- "requestAuthorizationIfNecessaryForPassesManager:withCompletion:"
+- "requestAuthorizationWithCompletion:"
+- "requestAuthorizationWithOptions:completionHandler:"
+- "requestContext"
+- "requestDescriptionFor:completion:"
+- "requestDoubleClickClientSuppressionWithResponseHandler:"
+- "requestEligibility:withCompletionHandler:"
+- "requestExpiredPassListForURLRouter:"
+- "requestListActionsMenuForURLRouter:"
+- "requestNumericInputForFields:completion:"
+- "requestPassListForURLRouter:"
+- "requestPassListPreventAppUninstallForURLRouter:"
+- "requestPassSelectionFieldDetectorDelegationAssertion"
+- "requestProvisioning:withCompletion:"
+- "requestProvisioningFlowForURLRouter:"
+- "requestProvisioningMethodMetadataForProduct:completionHandler:"
+- "requestRequirements:withCompletionHandler:"
+- "requestServiceMode"
+- "requestSuppression"
+- "requestTransitHistoryFetch"
+- "requestType"
+- "requestWithIdentifier:content:trigger:destinations:"
+- "requestWithPass:"
+- "requestedAuthenticationMechanisms"
+- "requestorDeviceType"
+- "requireFirstInQueue"
+- "requiredPaymentSetupFields"
+- "requiredVerificationFields"
+- "requirementsResponse"
+- "requiresAppletSourceOfTruth"
+- "requiresMetadata"
+- "resetForNewProvisioning"
+- "resolveAmbiguousRequirementsWithProductIdentifier:"
+- "resolveGreenTeaDataUsageIfNecessary"
+- "resolveLocalEligibilityRequirementsForAppleBalanceCredential:withCompletion:"
+- "resolveRequirementsUsingProduct:"
+- "resolveRequirementsUsingProvisioningMethodMetadata:"
+- "responseDict: %@"
+- "restrictedGuestAccessState"
+- "retrieveDecryptedBarcodeCredentialForPassUniqueIdentifier:authorization:withCompletion:"
+- "retrievePINEncryptionCertificateForPassUniqueIdentifier:withCompletion:"
+- "retryFetchingBarcode"
+- "role"
+- "scheduledPaymentsChangedForAccountIdentifier:"
+- "sectionWithTitle:footer:productType:"
+- "sectionWithTitle:footer:productType:items:"
+- "sectionWithTitle:productType:"
+- "sectionWithTitle:productType:items:"
+- "secureElement:didChangeRestrictedMode:"
+- "secureElement:didUpdateRestrictedModeState:"
+- "secureElementPasses"
+- "secureSubmissionValuesForDestination:"
+- "securityLevelForAccount:"
+- "selectedPaymentOfferRemoved:passUniqueID:"
+- "selectedPaymentOfferUpdated:passUniqueID:"
+- "semantics"
+- "semaphore"
+- "sendProtobufData:withMessageType:"
+- "sendRKEFunction:action:withAuthorization:completion:"
+- "sendSingularEvent:"
+- "sendToSubject:event:"
+- "sendToSubject:event:category:"
+- "sendToSubjects:event:"
+- "sendToSubjects:event:category:"
+- "sendWithSingularEvent:"
+- "senderHandle"
+- "separateLocalDeviceEntryRequired"
+- "serialQueue"
+- "serviceModeRequestNotifyToken"
+- "serviceModeRequestedPass"
+- "serviceProviderDict"
+- "serviceProviderLocalizedDisplayName"
+- "serviceProviderProducts"
+- "serviceProviderSupportedCountries"
+- "sessionAuthorized"
+- "sessionCreated"
+- "sessionFailed"
+- "sessionStarted"
+- "sessionTimeoutTimer"
+- "sessionTimer"
+- "sessionTokenFor:"
+- "sessionType"
+- "sessionWaitingToStart"
+- "sessionWithConfiguration:delegate:delegateQueue:"
+- "sessionWithQueue:"
+- "setAIDToFetch:"
+- "setAccessories:"
+- "setAccessory:"
+- "setAccount:"
+- "setActivationData:"
+- "setActiveLocalAuthenticationEvent:"
+- "setAidToFetch:"
+- "setAlertTopic:"
+- "setAltDSID:"
+- "setAltText:"
+- "setAppleID:"
+- "setAssociatedPlan:"
+- "setAuthenticationRequested:"
+- "setAuthenticationType:"
+- "setAuthorizationController:"
+- "setAuthorizationCredential:"
+- "setAuthorizationValidity:"
+- "setAutomaticReloadPaymentRequest:"
+- "setAvailableActionsFetchDate:"
+- "setBalance:"
+- "setBalances:"
+- "setBarcodeIdentifier:"
+- "setBarcodePaymentSession:"
+- "setBarcodes:"
+- "setBillingAgreement:"
+- "setBillingContact:"
+- "setBluetoothAvailableAndEnabled:"
+- "setButtonHandler:"
+- "setCanChangePass:"
+- "setCardDetails:"
+- "setCardEncryptionScheme:"
+- "setCardFlow:"
+- "setCardID:"
+- "setCardIngester:"
+- "setCardIssuer:"
+- "setCardPNO:"
+- "setCardProduct:"
+- "setCardSecurityCode:"
+- "setCardholderName:"
+- "setCardholderNameInputMethod:"
+- "setCategoryIdentifier:"
+- "setCertificates:"
+- "setChangeCardToken:"
+- "setChannel:"
+- "setChooseCredentialsStepIdentifier:"
+- "setCity:"
+- "setCleanupDelegate:"
+- "setCommutePlanValueRequired:"
+- "setCompletedContext:"
+- "setCompletedCredential:"
+- "setCompletedError:"
+- "setCompletedFields:"
+- "setCompletionReason:"
+- "setConfiguration:"
+- "setConfiguration:completionHandler:"
+- "setConfirmationStyle:"
+- "setConfirmed:"
+- "setContactlessInterfaceReady:"
+- "setContactlessPaymentInterfaceVisible:"
+- "setContactlessSession:"
+- "setContactlessSessionHandle:"
+- "setContactlessValidity:"
+- "setCountry:"
+- "setCountryCode:"
+- "setCredential:forProcessedEvent:credentialType:reply:"
+- "setCredentialDelegate:"
+- "setCredentialsToProvision:"
+- "setCurrentAppleBalanceCredential:"
+- "setCurrentApplicationIdentifier:"
+- "setCurrentContext:"
+- "setCurrentCredential:"
+- "setCurrentExpiredPasses:"
+- "setCurrentIndex:"
+- "setCurrentPass:"
+- "setCurrentPasses:"
+- "setCurrentPaymentBarcode:"
+- "setCurrentPaymentPasses:"
+- "setCurrentProduct:"
+- "setCurrentSecureElementPasses:"
+- "setCurrentState:"
+- "setCurrentStep:"
+- "setCurrentSubCredentialIdentifier:"
+- "setCurrentTransaction:"
+- "setCurrentTransactionExpressPassInformation:"
+- "setCurrentTransactionPass:"
+- "setCurrentTransactionStatus:"
+- "setCurrentlyResolving:"
+- "setDate:"
+- "setDateFormat:"
+- "setDeactivated:"
+- "setDeactivating:"
+- "setDeactivationCompletionBlocks:"
+- "setDecryptedBarcodeCredential:"
+- "setDefaultImagesUsed:"
+- "setDefaultPaymentPass:"
+- "setDefaultPaymentPassUniqueIdentifier:"
+- "setDefaultValue:"
+- "setDeferAuthorization:"
+- "setDelegateHandlingButtonEvents:"
+- "setDelegationAssertion:"
+- "setDetail:"
+- "setDidFinishCallbackSent:"
+- "setDigitalIssuanceAmount:"
+- "setDigitalIssuanceAmountRequestContext:"
+- "setDigitalIssuancePaymentRequest:"
+- "setDigitalIssuancePaymentRequestContext:"
+- "setDigitalIssuancePurchase:"
+- "setDigitalIssuanceSupported:"
+- "setDisableCardSelection:"
+- "setDisplayablePassItems:"
+- "setDoublePressDelegationRequested:"
+- "setDoublePressReceived:"
+- "setDoublePressSuppressionRequested:"
+- "setDoublePressSuppressionRequested:withCompletion:"
+- "setDoublePressTimestamp:"
+- "setDynamicPlans:"
+- "setEligibilityResponse:"
+- "setEmailAddress:"
+- "setEnabled:"
+- "setEncryptedCardData:"
+- "setEncryptedPassData:"
+- "setEncryptionVersion:"
+- "setEndSessionWhenAuthorizationIsConsumed:"
+- "setEphemeralPublicKey:"
+- "setEventMetadata:"
+- "setEventType:"
+- "setExpirationInputMethod:"
+- "setExpressModeWithPassConfiguration:credential:completion:"
+- "setExpressPassController:"
+- "setExpressPasses:"
+- "setExpressStateUpdatePending:"
+- "setExpressTransactionStatus:"
+- "setExpressTransactionSuppressionAssertion:"
+- "setFPInfo:"
+- "setFailureType:"
+- "setFamilyName:"
+- "setFidoAuthCoordinator:"
+- "setFieldDetector:"
+- "setFieldsModel:"
+- "setFlowIdentifierToCredential:"
+- "setFlowIdentifiers:"
+- "setFlowIngestionState:"
+- "setFormat:"
+- "setGivenName:"
+- "setGroupsController:"
+- "setHTTPBody:"
+- "setHTTPMethod:"
+- "setHandlerQueue:"
+- "setHardwareManager:"
+- "setHasSession:"
+- "setHidSystemClient:"
+- "setHostApplicationIdentifier:"
+- "setHostApplicationVersion:"
+- "setISOCountryCode:"
+- "setIcon:"
+- "setImmediatelyBeforeTermsStepIdentifier:"
+- "setInAppProvisioningGetRequestTimer:"
+- "setInAppProvisioningNonce:"
+- "setInAppProvisioningPublicKeyHash:"
+- "setInAppProvisioningRequest:"
+- "setInAppProvisioningRequestConfiguration:"
+- "setInField:"
+- "setInProgressContext:"
+- "setInServiceMode:"
+- "setIncludeMetadata:"
+- "setIngestionCardNotFoundTimer:"
+- "setIngestionCardSessionToken:"
+- "setIngestionMethodMetadata:"
+- "setIngestionStateOnRetry:"
+- "setInitialPass:"
+- "setInternalIngestionState:"
+- "setInterruptionLevel:"
+- "setInvalidated:"
+- "setIsHomeAccessRestricted:"
+- "setIsStale:"
+- "setIsSwitchingSessionType:"
+- "setIssuerVerificationPass:"
+- "setItemDescription:"
+- "setLabel:"
+- "setLastSessionState:"
+- "setLocalAuthenticationCoordinator:"
+- "setLocalAuthenticationQueue:"
+- "setMerchantCapabilities:"
+- "setMerchantIdentifier:"
+- "setName:"
+- "setNextSuppressionRequestToken:"
+- "setNonce:"
+- "setNonceSignature:"
+- "setNotificationCategories:"
+- "setNotificationCategoryWithIdentifier:intentIdentifier:actions:options:"
+- "setNotificationSuppressionAssertion:"
+- "setNotifyToken:"
+- "setObservers:"
+- "setObserversManager:"
+- "setOptions:"
+- "setOriginatedByDevice:"
+- "setOurCallbackQueue:"
+- "setOurConfirmed:"
+- "setOurCurrentPass:"
+- "setOurInServiceMode:"
+- "setOurInternalQueue:"
+- "setOurPerformedFirstActivation:"
+- "setOurVasPasses:"
+- "setOverlayParameters:"
+- "setPassActivating:"
+- "setPassDataSource:"
+- "setPassTile:"
+- "setPassUniqueIDsByAccountIdentifier:"
+- "setPasses:"
+- "setPaymentApplication:"
+- "setPaymentBarcode:"
+- "setPaymentHash:"
+- "setPaymentMethodDescription:"
+- "setPaymentNetwork:"
+- "setPaymentServiceWasInterrupted:"
+- "setPaymentSessionQueue:"
+- "setPaymentSetupProducts:"
+- "setPaymentStatus:"
+- "setPaymentSummaryItems:"
+- "setPaymentTransaction:"
+- "setPeerPaymentBalance:"
+- "setPeerPaymentPassUniqueID:"
+- "setPendingAmount:forBalanceField:passWithUniqueID:"
+- "setPendingExpirationDate:forCommutePlanField:passWithUniqueID:"
+- "setPendingLocalAuthenticationEvents:"
+- "setPendingSessionHandle:"
+- "setPerformedFirstActivation:"
+- "setPostalAddress:"
+- "setPostalCode:"
+- "setPreconditionState:"
+- "setPreconditionsRequestContext:"
+- "setPreconditionsState:"
+- "setPrecursorPassDescription:"
+- "setPreviousPassStates:"
+- "setPreviousState:"
+- "setPrimaryAccountNumber:"
+- "setPrimaryAccountNumberInputMethod:"
+- "setPrimaryAccountSuffix:"
+- "setPrivateDelegate:"
+- "setProgressNotificationToken:"
+- "setProvidedFields:"
+- "setProvisionedPass:"
+- "setProvisioningProgressRequestContext:"
+- "setPublicKeyHash:"
+- "setQuickPaymentSession:"
+- "setRangingSuspensionReason:"
+- "setReaderAuthInfo:"
+- "setReaderModeProvisioningSupported:"
+- "setReaderModeRequestContext:"
+- "setReleaseDataRequest:"
+- "setReleaseDataStatus:"
+- "setRequestServiceMode:"
+- "setRequestSuppression:"
+- "setRequireFirstInQueue:"
+- "setRequiredShippingContactFields:"
+- "setRequirementsResponse:"
+- "setRequiresFelicaSecureElement:"
+- "setRestrictedGuestAccessState:"
+- "setSecureOverlayParameters:"
+- "setSecurityUpgradeContext:"
+- "setSensitive:"
+- "setSeparateLocalDeviceEntryRequired:"
+- "setSerialQueue:"
+- "setServiceIdentifier:"
+- "setServiceModeRequestNotifyToken:"
+- "setServiceModeRequested:"
+- "setServiceModeRequestedPass:"
+- "setSessionAuthorized:"
+- "setSessionStarted:"
+- "setSessionTimeoutTimer:"
+- "setSessionTimer:"
+- "setSessionType:"
+- "setSessionWaitingToStart:"
+- "setSettingsWithoutUpdatingDataAccessor:"
+- "setShippingContact:"
+- "setShippingMethods:"
+- "setShouldShowSubordinateIcon:"
+- "setSortingState:forObjectWithUniqueID:withCompletion:"
+- "setSound:"
+- "setSource:"
+- "setStatus:forPaymentTransactionWithServiceIdentifier:"
+- "setStreet:"
+- "setSubmittingAuthenticationResult:"
+- "setSupportState:"
+- "setSupportedCountries:"
+- "setSupportedNetworks:"
+- "setSuppressionAssertion:"
+- "setSuppressionRequestTokens:"
+- "setSuppressorQueue:"
+- "setTermsAcceptedOutOfBand:"
+- "setTermsReason:"
+- "setThresholdAmount:"
+- "setTiles:"
+- "setTimestamp:"
+- "setTokenNotificationURL:"
+- "setTransaction:"
+- "setTransactionContext:"
+- "setTransactionDate:"
+- "setTransactionDescription:"
+- "setTransactionPass:"
+- "setTransactionStatus:"
+- "setTransientPassUniqueID:"
+- "setTransitPassProperties:"
+- "setUiDelegate:"
+- "setUnitTestingAuthorizationController:"
+- "setUnitTestingCardIngester:"
+- "setUpgradeController:"
+- "setUserInfo:"
+- "setUserSelectedPass:"
+- "setValue:forHTTPHeaderField:"
+- "setValueAddedServicePass:"
+- "setValueAddedServicePasses:"
+- "setVasPasses:"
+- "setVerificationChannel:"
+- "setWorkQueue:"
+- "setWrappedKey:"
+- "setXpcConnection:"
+- "setupAccountCredentialForProvisioning:completion:"
+- "setupContext"
+- "setupProductForProvisioning:includePurchases:withCompletionHandler:"
+- "setupProductsOfType:"
+- "sha1hash:"
+- "sharedHardwareManager"
+- "sharedHardwareManagerWithNoUI"
+- "sharedPaymentWebServiceArchiver"
+- "sharesDidUpdateWithPaymentPassWithUniqueIdentifier:"
+- "shinkansenArrivalTime"
+- "shinkansenCarNumber"
+- "shinkansenDepartureTime"
+- "shinkansenDestinationStation"
+- "shinkansenOriginStation"
+- "shinkansenSecondaryArrivalTime"
+- "shinkansenSecondaryCarNumber"
+- "shinkansenSecondaryDepartureTime"
+- "shinkansenSecondaryDestinationStation"
+- "shinkansenSecondaryOriginStation"
+- "shinkansenSecondaryTrainName"
+- "shinkansenTrainName"
+- "shinkansenValidityStartDate"
+- "shinkansenValidityTerm"
+- "shippingMethods"
+- "shoebox"
+- "shouldAllowMovingItemAtIndex:toIndex:"
+- "shouldIgnoreField"
+- "showInAppInterfaceWithPaymentRequest:awaitingRemoteNetworkPaymentRequest:forHostApplicationName:hostBundleIdentifier:hostProcessIdentifier:hostIdentifier:orientation:activationHandler:"
+- "showInAppInterfaceWithRemotePaymentRequest:activationHandler:"
+- "showInAppInterfaceWithSkeletonPeerPaymentQuote:activationHandler:"
+- "showInAppInterfaceWithSkeletonPeerPaymentQuote:completion:"
+- "signNonce:withCompletion:"
+- "singlefamily"
+- "skipIssuerVerification"
+- "skipIssuerVerification:"
+- "skipProvisioning"
+- "skipProvisioning:"
+- "smartReplyType"
+- "softlink:r:path:/System/Library/PrivateFrameworks/PassKitUI.framework/PassKitUI"
+- "sortDescriptorWithKey:ascending:"
+- "sortedArrayUsingDescriptors:"
+- "sortedArrayUsingFunction:context:"
+- "soundWithAlertType:"
+- "source"
+- "sportingEventTicketDeprecated"
+- "standalonePaymentWebServiceWithDelegate:"
+- "standaloneTargetDevice:requestsEnforceUpgradedPasscodePolicyWithCompletion:"
+- "standaloneTargetDevice:requestsStartRequiringUpgradedPasscodeWithPasscodeMeetsPolicy:"
+- "standaloneTargetDeviceRequestsEndRequiringUpgradedPasscodeIfNecessary:"
+- "startContactlessInterfaceSessionWithCompletion:targetQueue:"
+- "startDigitalCarKeySessionWithCompletion:targetQueue:"
+- "startInAppProvisioningFlow"
+- "startInAppProvisioningFlowWithConfiguration:requestContext:"
+- "startIssuerVerificationFlow"
+- "startIssuerVerificationFlowForPaymentPass:requestContext:"
+- "startProvisioningFlow"
+- "startProvisioningFlow:"
+- "startSTSContactlessInterfaceSessionWithDelegate:completion:"
+- "startSecureElementManagerSession:"
+- "startSession"
+- "startSessionWithCompletion:"
+- "stateAtIndex:"
+- "stateForNonModalDisplay"
+- "stateReason"
+- "statementsChangedForAccountIdentifier:"
+- "statusOfPaymentTransactionWithServiceIdentifier:"
+- "stepTransition"
+- "storeExternalizedAuth:"
+- "stringByReplacingOccurrencesOfString:withString:"
+- "stringFromDate:"
+- "stringFromNumber:"
+- "stsSession:didChangeExpressModeState:withObject:"
+- "stsSession:didChangeExpressModeWithInfo:"
+- "stsSession:didDetectField:"
+- "stsSession:didEnd:"
+- "stsSession:didEndTransaction:"
+- "stsSession:didExpireTransaction:"
+- "stsSession:didFailDeferredAuth:"
+- "stsSession:didPerformAuxiliaryTransactions:"
+- "stsSession:didReceive18013Requests:"
+- "stsSession:didReceive18013Requests:readerAuthInfo:"
+- "stsSession:didReceiveActivityTimeout:"
+- "stsSession:didReceiveFieldNotification:"
+- "stsSession:didReceivePassthroughMessage:"
+- "stsSession:didStart:"
+- "stsSession:didStartTransaction:"
+- "stsSession:digitalCarKeyEventPayload:"
+- "stsSession:hasPendingServerRequest:"
+- "stsSessionDidConsumeAuthorization:"
+- "stsSessionDidEndUnexpectedly:errorCode:"
+- "stsSessionRequestHandoffConfirmation:"
+- "subcredentialCredentialIdentifiers"
+- "subject:category:sendEvent:"
+- "subject:sendEvent:"
+- "subjects:category:sendEvent:"
+- "subjects:sendEvent:"
+- "submissionString"
+- "submissionStringMeetsAllRequirements"
+- "submissionValuesForDestination:"
+- "submitBarcodePaymentEvent:forPassUniqueIdentifier:withCompletion:"
+- "submitEncryptedPIN:forTransactionIdentifier:completion:"
+- "submitPinCode:"
+- "submitUserConfirmation:forTransactionIdentifier:completion:"
+- "submitUserIntentionConfirmation:"
+- "submitVerificationCode:verificationData:forPass:completion:"
+- "submittingAuthenticationResult"
+- "substringToIndex:"
+- "summaryItemWithLabel:amount:"
+- "supplementaryData"
+- "supportState"
+- "supportedCurrencyCodes"
+- "supportedNetworks"
+- "supportedTypeFSystem"
+- "supportsExpress"
+- "supportsFamilySharing"
+- "supportsInSessionExpress"
+- "supportsOneTimeDeposit"
+- "supportsOneTimeWithdrawal"
+- "suppressDefaultCardholderNameField"
+- "suppressRemoteUpdates"
+- "suppressRemoteUpdates:"
+- "suppressed"
+- "suppressionAssertion"
+- "suppressionRequestTokens"
+- "suppressorQueue"
+- "tearDownPasscodeUpgradeRequestWithPasscodeChanged:error:"
+- "technologyType"
+- "temperatureChanged:"
+- "terminalMode"
+- "terminalType"
+- "termsAcceptanceRequired"
+- "termsAcceptedOutOfBand"
+- "termsReason"
+- "tile"
+- "tiles"
+- "tilesForPassWithUniqueIdentifier:context:completion:"
+- "timeZone"
+- "timeZoneValue"
+- "toJsonString:"
+- "toNPKProtoStandaloneCreditAccountCredential:thumbnailSize:"
+- "toNPKProtoStandaloneError:"
+- "toNPKProtoStandalonePass:thumbnailSize:"
+- "toNPKProtoStandalonePassType:"
+- "toNPKProtoStandalonePaymentApplicationState:"
+- "toNPKProtoStandalonePaymentCredential:"
+- "toNPKProtoStandalonePaymentCredentialUnion:withFlowIdentifier:thumbnailSize:"
+- "toNPKProtoStandalonePaymentDigitalIssuanceMetadata:"
+- "toNPKProtoStandalonePaymentPass:thumbnailSize:"
+- "toNPKProtoStandalonePaymentPassActivationState:"
+- "toNPKProtoStandalonePaymentProvisioningFlowManualEntryStepContext:"
+- "toNPKProtoStandalonePaymentProvisioningFlowPickerItem:"
+- "toNPKProtoStandalonePaymentProvisioningFlowPickerSection:"
+- "toNPKProtoStandalonePaymentProvisioningFlowStepContext:fromStep:toStep:"
+- "toNPKProtoStandalonePaymentProvisioningMethodMetadata:"
+- "toNPKProtoStandalonePaymentRemoteCredential:thumbnailSize:"
+- "toNPKProtoStandalonePaymentSetupField:"
+- "toNPKProtoStandalonePaymentSetupFieldType:"
+- "toNPKProtoStandalonePaymentSetupMoreInfoItem:"
+- "toNPKProtoStandalonePaymentSetupProduct:"
+- "toNPKProtoStandalonePaymentSetupProductImageAssetURLs:"
+- "toNPKProtoStandalonePaymentSetupProductPaymentOption:"
+- "toNPKProtoStandaloneReaderModeIngestionState:"
+- "toNPKProtoStandaloneVerificationChannel:"
+- "toNPKProtoStandaloneVerificationChannelType:"
+- "toPKPaymentSetupField:"
+- "toPKPaymentSetupFieldType:"
+- "toStringValue:"
+- "transactionBatch:moreComing:readyForNextBatch:"
+- "transactionContext"
+- "transactionDescription"
+- "transactionDetails"
+- "transactionFailed"
+- "transactionOrigin"
+- "transactionPass"
+- "transactionWithIdentifier:didDownloadTransactionReceipt:"
+- "transactionsForTransactionSourceIdentifiers:withTransactionSource:withBackingData:limit:completion:"
+- "transferValue"
+- "transferring"
+- "transitAppletHistoryFetcher:gotTransitAppletHistory:forAppletWithAID:"
+- "transitAppletState:error:"
+- "transitCommutePlanType"
+- "transitHistory"
+- "transitPassProperties"
+- "truthOnCardAdded"
+- "unarchivePass:"
+- "underlyingErrorCode"
+- "underlyingErrorDomain"
+- "uniqueIdentifier"
+- "unitTestingAuthorizationController"
+- "unitTestingCardIngester"
+- "unregisterEventListener:"
+- "unsignedLongValue"
+- "updateAccountWithIdentifier:extended:completion:"
+- "updateExpressPasses"
+- "updateExpressPassesSynchronous"
+- "updateItemFields"
+- "updateRemoteCredentials:withCompletionHandler:"
+- "updateSupportWithOSVersion:deviceClass:deviceRegion:deviceVersion:"
+- "updateVerification:completion:"
+- "updateWithCommutePlanDetail:"
+- "updateWithConcreteTransactions:ephemeralTransaction:updatedPassTransitItems:paymentApplication:"
+- "updateWithExpressPass:siblingExpressPasses:"
+- "updateWithPaymentSetupFields:"
+- "upgradeController"
+- "upgradeExpressModeForPass:withCredential:resultHandler:"
+- "upgradeRequestDescription"
+- "upsnda"
+- "urbanmobility"
+- "urlRouter:requestEntitlementDetailsPresentationForPassWithUniqueID:"
+- "urlRouter:requestPassBalanceDetailsPresentationForPassWithUniqueID:"
+- "urlRouter:requestPassDetailsPresentationForPassWithUniqueID:"
+- "urlRouter:requestSavingsDetailsPresentationWithPassUniqueID:"
+- "urlRouter:requestServiceModeForPassWithUniqueID:"
+- "urlRouter:requestShareDetailsPresentationForPassWithUniqueID:shareIdentifier:"
+- "urlRouter:requestShareableCredentialAcceptanceFlowPresentationWithShareableCredentials:thumbnailImageData:"
+- "urlRouter:requestSharedInvitationAcceptanceFlowPresentationWithMailboxAddress:referralSource:"
+- "urlRouter:requestSubcredentialInvitationAcceptanceFlowPresentationWithLocalInvitationIdentifier:remoteInvitationIdentifier:contactName:thumbnailImageData:"
+- "urlRouter:requestTransactionDetailsForPassWithUniqueID:transactionIdentifier:"
+- "urlRouter:requestTransactionDetailsForPassWithUniqueID:transactionServiceIdentifier:transactionSourceIdentifier:"
+- "userCancelled"
+- "userNotificationActionPerformed:notificationIdentifier:completion:"
+- "userNotificationCenter:didChangeSettings:"
+- "userNotificationCenter:didOpenApplicationForResponse:"
+- "userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:"
+- "userNotificationCenter:openSettingsForNotification:"
+- "userNotificationCenter:willPresentNotification:withCompletionHandler:"
+- "userRejectedReleaseData"
+- "userSelectedPass"
+- "v16@?0@\"<NPKApplicationStateObserver>\"8"
+- "v16@?0@\"<NPKContactlessPaymentSessionManagerObserver>\"8"
+- "v16@?0@\"<NPKPassAssociatedInfoManagerObserver>\"8"
+- "v16@?0@\"<NPKPassesDataSourceObserver>\"8"
+- "v16@?0@\"<NPKPrecursorPassUpgradeRequestsManagerObserver>\"8"
+- "v16@?0@\"<NPKSecureElementObserver>\"8"
+- "v16@?0@\"NPKPrecursorPassUpgradeRequestController\"8"
+- "v16@?0@\"NSData\"8"
+- "v16@?0@\"PKBarcodeEventMetadataResponse\"8"
+- "v16@?0@\"PKExtensionRequestHandler\"8"
+- "v16@?0@\"PKFieldMetadata\"8"
+- "v16@?0@\"PKHMAccessory\"8"
+- "v16@?0@\"PKPaymentTransaction\"8"
+- "v16@?0@\"PKPrecursorPassUpgradeRequestDescription\"8"
+- "v16@?0@\"PKProvisioningSEStorageSnapshot\"8"
+- "v16@?0@\"UNNotificationSettings\"8"
+- "v16@?0q8"
+- "v20@?0@\"PKBarcodeEventMetadataResponse\"8B16"
+- "v20@?0B8Q12"
+- "v24@0:8@\"<NPKPassesDataSource>\"16"
+- "v24@0:8@\"<NPKPassesDataSourceObserver>\"16"
+- "v24@0:8@\"<NPKPaymentProvisioningFlowControllerDelegate>\"16"
+- "v24@0:8@\"NPKPaymentProvisioningFlowControllerDigitalIssuanceAmountStepContext\"16"
+- "v24@0:8@\"NPKPaymentProvisioningFlowControllerRequestContext\"16"
+- "v24@0:8@\"NPKPrecursorPassUpgradeRequestController\"16"
+- "v24@0:8@\"NPKQuickPaymentSession\"16"
+- "v24@0:8@\"NSDictionary\"16"
+- "v24@0:8@\"PKAccount\"16"
+- "v24@0:8@\"PKAppletSubcredentialSharingInvitation\"16"
+- "v24@0:8@\"PKContactlessInterfaceSession\"16"
+- "v24@0:8@\"PKFeatureApplication\"16"
+- "v24@0:8@\"PKFieldDetector\"16"
+- "v24@0:8@\"PKFieldProperties\"16"
+- "v24@0:8@\"PKPass\"16"
+- "v24@0:8@\"PKPaymentAuthorizationController\"16"
+- "v24@0:8@\"PKPaymentOfferCatalog\"16"
+- "v24@0:8@\"PKPaymentPass\"16"
+- "v24@0:8@\"STSSession\"16"
+- "v24@0:8@?<v@?q>16"
+- "v24@0:8^{__IOHIDEvent=}16"
+- "v24@0:8^{__IOHIDEventSystemClient=}16"
+- "v24@?0@\"NFSecureElementManagerSession\"8@\"NSError\"16"
+- "v24@?0@\"NSString\"8@\"NPKExpressState\"16"
+- "v24@?0@\"PKAccount\"8@\"NSError\"16"
+- "v24@?0@\"PKAccountWebServicePassDetailsResponse\"8@\"NSError\"16"
+- "v24@?0@\"PKBarcodeEventMetadataResponse\"8@\"NSError\"16"
+- "v24@?0@\"PKContactlessInterfaceSession\"8@\"NSError\"16"
+- "v24@?0@\"PKIdentityProofingConfiguration\"8@\"NSError\"16"
+- "v24@?0@\"PKPaymentBalance\"8^B16"
+- "v24@?0@\"PKPaymentEligibilityResponse\"8@\"NSError\"16"
+- "v24@?0@\"PKPaymentIssuerProvisioningCertificatesResponse\"8@\"NSError\"16"
+- "v24@?0@\"PKPaymentRequirementsResponse\"8@\"NSError\"16"
+- "v24@?0@\"PKPaymentTransaction\"8@\"NSError\"16"
+- "v24@?0@\"PKPaymentTransaction\"8^B16"
+- "v24@?0@\"PKPeerPaymentStatusResponse\"8@\"NSError\"16"
+- "v24@?0Q8Q16"
+- "v28@0:8@\"NFSecureElement\"16B24"
+- "v28@0:8@\"NSData\"16i24"
+- "v28@0:8@\"STSSession\"16B24"
+- "v28@0:8B16@\"NSError\"20"
+- "v28@0:8B16@?<v@?>20"
+- "v28@0:8i16@20"
+- "v28@?0B8@\"NSError\"12@\"NSArray\"20"
+- "v32@0:8@\"<NPKPassesDataSource>\"16@\"NSArray\"24"
+- "v32@0:8@\"<NPKPassesDataSource>\"16@\"PKPass\"24"
+- "v32@0:8@\"NPKBarcodePaymentSession\"16@\"NPKPaymentBarcode\"24"
+- "v32@0:8@\"NPKContactlessPaymentSessionManager\"16@\"NPKContactlessPaymentSessionState\"24"
+- "v32@0:8@\"NPKDoublePressDelegationAssertion\"16@\"NSString\"24"
+- "v32@0:8@\"NPKDoublePressDelegationAssertion\"16Q24"
+- "v32@0:8@\"NPKPaymentProvisioningFlowPickerItem\"16@\"NPKPaymentProvisioningFlowControllerRequestContext\"24"
+- "v32@0:8@\"NPKPaymentProvisioningFlowPickerSection\"16@\"NPKPaymentProvisioningFlowControllerRequestContext\"24"
+- "v32@0:8@\"NPKQuickPaymentSession\"16@\"PKPass\"24"
+- "v32@0:8@\"NSArray\"16@\"NPKPaymentProvisioningFlowControllerRequestContext\"24"
+- "v32@0:8@\"NSArray\"16@\"NSArray\"24"
+- "v32@0:8@\"NSDecimalNumber\"16@\"NPKPaymentProvisioningFlowControllerRequestContext\"24"
+- "v32@0:8@\"NSString\"16@\"NPKPaymentProvisioningFlowControllerRequestContext\"24"
+- "v32@0:8@\"NSString\"16@\"PKPaymentMessage\"24"
+- "v32@0:8@\"NSString\"16@\"PKTransactionReceipt\"24"
+- "v32@0:8@\"NSString\"16@\"PKValueAddedServiceTransaction\"24"
+- "v32@0:8@\"NSString\"16q24"
+- "v32@0:8@\"PKAddPaymentPassRequest\"16@\"NPKPaymentProvisioningFlowControllerRequestContext\"24"
+- "v32@0:8@\"PKAddPaymentPassRequestConfiguration\"16@\"NPKPaymentProvisioningFlowControllerRequestContext\"24"
+- "v32@0:8@\"PKAddPaymentPassRequestConfiguration\"16@?<v@?>24"
+- "v32@0:8@\"PKAppleBalanceInStoreTopUpToken\"16@\"NSString\"24"
+- "v32@0:8@\"PKAppleBalancePromotionConfiguration\"16@\"NSString\"24"
+- "v32@0:8@\"PKAppletSubcredentialSharingInvitation\"16@?<v@?B@\"NSError\">24"
+- "v32@0:8@\"PKContactlessCardIngester\"16Q24"
+- "v32@0:8@\"PKContactlessInterfaceSession\"16@\"NSArray\"24"
+- "v32@0:8@\"PKContactlessInterfaceSession\"16@\"NSData\"24"
+- "v32@0:8@\"PKContactlessInterfaceSession\"16@\"PKContactlessInterfaceTransactionContext\"24"
+- "v32@0:8@\"PKContactlessInterfaceSession\"16@\"PKExpressTransactionState\"24"
+- "v32@0:8@\"PKContactlessInterfaceSession\"16@\"PKFieldProperties\"24"
+- "v32@0:8@\"PKContactlessInterfaceSession\"16Q24"
+- "v32@0:8@\"PKDeviceSharingCapabilities\"16@\"NSString\"24"
+- "v32@0:8@\"PKFieldDetector\"16@\"PKFieldProperties\"24"
+- "v32@0:8@\"PKPaymentAuthorizationController\"16@\"NSError\"24"
+- "v32@0:8@\"PKPaymentAuthorizationController\"16@?<v@?@\"PKPaymentAuthorizationResult\">24"
+- "v32@0:8@\"PKPaymentAuthorizationController\"16@?<v@?@\"PKPaymentMerchantSession\"@\"NSError\">24"
+- "v32@0:8@\"PKPaymentAuthorizationController\"16@?<v@?@\"PKPaymentRequestMerchantSessionUpdate\">24"
+- "v32@0:8@\"PKPaymentAuthorizationController\"16Q24"
+- "v32@0:8@\"PKPaymentOfferConfirmationRecord\"16@\"NSString\"24"
+- "v32@0:8@\"PKPaymentPass\"16@\"NPKPaymentProvisioningFlowControllerRequestContext\"24"
+- "v32@0:8@\"PKPaymentPass\"16@\"NSError\"24"
+- "v32@0:8@\"PKPaymentPass\"16@\"PKPaymentTransaction\"24"
+- "v32@0:8@\"PKPaymentSetupProduct\"16@\"NPKPaymentProvisioningFlowControllerRequestContext\"24"
+- "v32@0:8@\"PKPeerPaymentQuote\"16@\"NSError\"24"
+- "v32@0:8@\"PKPeerPaymentQuote\"16@?<v@?B>24"
+- "v32@0:8@\"PKRemotePaymentRequest\"16@?<v@?B>24"
+- "v32@0:8@\"PKSelectedPaymentOffer\"16@\"NSString\"24"
+- "v32@0:8@\"PKVerificationChannel\"16@\"NPKPaymentProvisioningFlowControllerRequestContext\"24"
+- "v32@0:8@\"STSSession\"16@\"NSArray\"24"
+- "v32@0:8@\"STSSession\"16@\"NSData\"24"
+- "v32@0:8@\"STSSession\"16@\"NSDictionary\"24"
+- "v32@0:8@\"STSSession\"16@\"NSString\"24"
+- "v32@0:8@\"STSSession\"16@\"STSExpressEventInfo\"24"
+- "v32@0:8@\"STSSession\"16@\"STSField\"24"
+- "v32@0:8@\"STSSession\"16@\"STSTransactionEndEvent\"24"
+- "v32@0:8@\"STSSession\"16@\"STSTransactionStartEvent\"24"
+- "v32@0:8@\"STSSessionBase\"16@\"NSError\"24"
+- "v32@0:8@\"STSSessionBase\"16Q24"
+- "v32@0:8@\"UNUserNotificationCenter\"16@\"UNNotification\"24"
+- "v32@0:8@\"UNUserNotificationCenter\"16@\"UNNotificationResponse\"24"
+- "v32@0:8@\"UNUserNotificationCenter\"16@\"UNNotificationSettings\"24"
+- "v32@0:8@16d24"
+- "v32@0:8@?16@?24"
+- "v32@0:8Q16Q24"
+- "v32@0:8Q16d24"
+- "v32@0:8i16i20@24"
+- "v32@0:8{CGSize=dd}16"
+- "v32@?0@\"<NPKBalanceField>\"8Q16^B24"
+- "v32@?0@\"NPKPaymentProvisioningFlowPickerItem\"8Q16^B24"
+- "v32@?0@\"NPKPaymentProvisioningFlowPickerSection\"8Q16^B24"
+- "v32@?0@\"NSData\"8@\"NSURLResponse\"16@\"NSError\"24"
+- "v32@?0@\"NSData\"8@\"PKHMAccessory\"16^B24"
+- "v32@?0@\"NSDecimalNumber\"8Q16^B24"
+- "v32@?0@\"NSNumber\"8@\"NSString\"16^B24"
+- "v32@?0@\"NSString\"8@\"NPKPassAssociatedInfoModel\"16^B24"
+- "v32@?0@\"NSString\"8@\"NPKPeerPaymentTransactionDetails\"16^B24"
+- "v32@?0@\"NSString\"8@\"NSData\"16@\"NSError\"24"
+- "v32@?0@\"NSString\"8@16^B24"
+- "v32@?0@\"PKGroup\"8Q16^B24"
+- "v32@?0@\"PKPassField\"8Q16^B24"
+- "v32@?0@\"PKPaymentPass\"8@\"PKPaymentProvisioningTracker\"16@\"NSError\"24"
+- "v32@?0@\"PKPaymentPass\"8Q16^B24"
+- "v32@?0@\"PKPaymentSetupField\"8Q16^B24"
+- "v32@?0@\"PKPaymentSetupMoreInfoItem\"8Q16^B24"
+- "v32@?0@\"PKPaymentSetupProduct\"8Q16^B24"
+- "v32@?0@\"PKPaymentSetupProductPaymentOption\"8Q16^B24"
+- "v32@?0@\"PKTransitAppletBalance\"8Q16^B24"
+- "v32@?0@\"PKTransitCommutePlan\"8Q16^B24"
+- "v32@?0@\"PKVerificationChannel\"8Q16^B24"
+- "v32@?0B8B12@\"LAContext\"16@\"NSError\"24"
+- "v32@?0Q8@\"PKPaymentPass\"16@\"NSError\"24"
+- "v32@?0Q8@\"PKVerificationRequestRecord\"16@\"NSError\"24"
+- "v32@?0q8@\"NSString\"16@\"NSError\"24"
+- "v36@0:8@\"NSDictionary\"16B24@?<v@?>28"
+- "v36@0:8@\"PKAppletSubcredentialSharingInvitation\"16B24@?<v@?@\"PKPaymentPass\"@\"NSError\">28"
+- "v36@0:8@\"PKPaymentSetupProduct\"16@\"NPKPaymentProvisioningFlowControllerRequestContext\"24B32"
+- "v36@0:8@\"PKPaymentSetupProduct\"16B24@\"NPKPaymentProvisioningFlowControllerRequestContext\"28"
+- "v36@0:8@\"STSSession\"16I24@\"NSString\"28"
+- "v36@0:8@16@24i32"
+- "v36@0:8@16I24@28"
+- "v36@0:8B16@\"NSError\"20@\"NPKPaymentProvisioningFlowControllerRequestContext\"28"
+- "v36@0:8B16@20@28"
+- "v36@0:8Q16@24B32"
+- "v40@0:8@\"<NPKPassesDataSource>\"16@\"NSDictionary\"24@\"NSArray\"32"
+- "v40@0:8@\"NPKBarcodePaymentSession\"16Q24@\"PKPaymentTransaction\"32"
+- "v40@0:8@\"NPKPrecursorPassUpgradeRequestsManager\"16@\"PKPrecursorPassUpgradeRequestDescription\"24@\"NSString\"32"
+- "v40@0:8@\"NPKQuickPaymentSession\"16@\"STSTransaction18013Request\"24@\"STS18013ReaderAuthInfo\"32"
+- "v40@0:8@\"NSArray\"16@\"NSString\"24@\"NSDate\"32"
+- "v40@0:8@\"NSArray\"16@\"PKPaymentCredential\"24@\"NPKPaymentProvisioningFlowControllerRequestContext\"32"
+- "v40@0:8@\"NSString\"16@\"<NPKBalanceField>\"24@?<v@?B>32"
+- "v40@0:8@\"NSString\"16@\"NSArray\"24q32"
+- "v40@0:8@\"NSString\"16@\"NSString\"24@?<v@?@\"PKIdentityProofingConfiguration\"@\"NSError\">32"
+- "v40@0:8@\"NSString\"16@\"PKPaymentBalanceReminder\"24@\"NSString\"32"
+- "v40@0:8@\"NSString\"16q24@?<v@?B>32"
+- "v40@0:8@\"PKAppletSubcredential\"16@\"PKPaymentApplication\"24Q32"
+- "v40@0:8@\"PKBarcodeEventMetadataRequest\"16@\"NSSet\"24@?<v@?@\"PKBarcodeEventMetadataResponse\"@\"NSError\">32"
+- "v40@0:8@\"PKContactlessCardIngester\"16@\"NSError\"24B32B36"
+- "v40@0:8@\"PKContactlessInterfaceSession\"16@\"PKPaymentApplication\"24@\"PKPaymentPass\"32"
+- "v40@0:8@\"PKContactlessInterfaceSession\"16@\"STSTransaction18013Request\"24@\"STS18013ReaderAuthInfo\"32"
+- "v40@0:8@\"PKContactlessInterfaceSession\"16Q24Q32"
+- "v40@0:8@\"PKGroup\"16@\"PKPass\"24Q32"
+- "v40@0:8@\"PKGroup\"16Q24Q32"
+- "v40@0:8@\"PKGroupsController\"16@\"PKGroup\"24Q32"
+- "v40@0:8@\"PKPaymentAuthorizationController\"16@\"NSString\"24@?<v@?@\"PKPaymentRequestCouponCodeUpdate\">32"
+- "v40@0:8@\"PKPaymentAuthorizationController\"16@\"NSURL\"24@?<v@?@\"PKPaymentRequestMerchantSessionUpdate\">32"
+- "v40@0:8@\"PKPaymentAuthorizationController\"16@\"PKAccountServicePaymentMethod\"24@?<v@?@\"PKPaymentRequestPaymentMethodUpdate\"@\"PKApplePayTrustSignatureRequest\">32"
+- "v40@0:8@\"PKPaymentAuthorizationController\"16@\"PKApplePayTrustSignature\"24@?<v@?@\"PKPaymentAuthorizationResult\">32"
+- "v40@0:8@\"PKPaymentAuthorizationController\"16@\"PKAuthorizedPeerPaymentQuote\"24@?<v@?@\"PKPaymentAuthorizationResult\">32"
+- "v40@0:8@\"PKPaymentAuthorizationController\"16@\"PKContact\"24@?<v@?@\"PKPaymentRequestShippingContactUpdate\">32"
+- "v40@0:8@\"PKPaymentAuthorizationController\"16@\"PKContact\"24@?<v@?q@\"NSArray\"@\"NSArray\">32"
+- "v40@0:8@\"PKPaymentAuthorizationController\"16@\"PKPayment\"24@?<v@?@\"PKPaymentAuthorizationResult\">32"
+- "v40@0:8@\"PKPaymentAuthorizationController\"16@\"PKPayment\"24@?<v@?q>32"
+- "v40@0:8@\"PKPaymentAuthorizationController\"16@\"PKPaymentMethod\"24@?<v@?@\"NSArray\">32"
+- "v40@0:8@\"PKPaymentAuthorizationController\"16@\"PKPaymentMethod\"24@?<v@?@\"PKPaymentRequestPaymentMethodUpdate\">32"
+- "v40@0:8@\"PKPaymentAuthorizationController\"16@\"PKServiceProviderPurchase\"24@?<v@?q>32"
+- "v40@0:8@\"PKPaymentAuthorizationController\"16@\"PKShippingMethod\"24@?<v@?@\"PKPaymentRequestShippingMethodUpdate\">32"
+- "v40@0:8@\"PKPaymentAuthorizationController\"16@\"PKShippingMethod\"24@?<v@?q@\"NSArray\">32"
+- "v40@0:8@\"STSSession\"16@\"NSArray\"24@\"STS18013ReaderAuthInfo\"32"
+- "v40@0:8@\"UNUserNotificationCenter\"16@\"UNNotification\"24@?<v@?Q>32"
+- "v40@0:8@\"UNUserNotificationCenter\"16@\"UNNotificationResponse\"24@?<v@?>32"
+- "v40@0:8@16@24Q32"
+- "v40@0:8@16@?24@?32"
+- "v40@0:8@16Q24Q32"
+- "v40@0:8@16^@24^@32"
+- "v40@0:8@16d24@?32"
+- "v40@0:8B16B20Q24@32"
+- "v40@0:8Q16@\"NSString\"24@?<v@?@\"NSError\">32"
+- "v40@0:8Q16Q24@?32"
+- "v40@0:8^{__SecAccessControl=}16q24@?32"
+- "v40@0:8q16@\"NSDictionary\"24@?<v@?@\"NSDictionary\"@\"NSError\">32"
+- "v40@?0@\"NSString\"8@\"NSString\"16@\"NSDate\"24@\"NSDate\"32"
+- "v40@?0^v8^v16^v24^{__IOHIDEvent=}32"
+- "v44@0:8@\"NPKQuickPaymentSession\"16Q24@\"PKContactlessInterfaceTransactionContext\"32B40"
+- "v44@0:8@16Q24@32B40"
+- "v48@0:8@\"NPKQuickPaymentSession\"16@\"PKPass\"24@\"NSArray\"32@\"NSArray\"40"
+- "v48@0:8@\"NSArray\"16@\"NSData\"24@\"NSData\"32@?<v@?@\"PKAddPaymentPassRequest\">40"
+- "v48@0:8@\"NSDecimalNumber\"16@\"PKDigitalIssuanceServiceProviderProduct\"24@\"PKDigitalIssuanceServiceProviderItem\"32@\"NPKPaymentProvisioningFlowControllerRequestContext\"40"
+- "v48@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32@?<v@?B>40"
+- "v48@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32Q40"
+- "v48@0:8@\"PKContactlessInterfaceSession\"16@\"NSArray\"24@\"PKPaymentPass\"32@\"NSArray\"40"
+- "v48@0:8@\"PKContactlessInterfaceSession\"16@\"PKPaymentApplication\"24@\"PKPaymentPass\"32@\"NSArray\"40"
+- "v48@0:8@\"PKGroup\"16@\"PKPass\"24@\"PKPassDynamicState\"32Q40"
+- "v48@0:8@\"PKGroup\"16@\"PKPassDynamicState\"24@\"PKPass\"32Q40"
+- "v48@0:8@\"PKGroupsController\"16@\"PKGroup\"24Q32Q40"
+- "v48@0:8@16@24@32Q40"
+- "v48@0:8@16@24@32^@40"
+- "v48@0:8@16@24@?32@?40"
+- "v48@0:8@16@24Q32Q40"
+- "v68@0:8@\"NSString\"16@\"NSString\"24@\"NSURL\"32@\"PKPass\"40B48@\"NSString\"52@\"NSDate\"60"
+- "v68@0:8@16@24@32@40B48@52@60"
+- "v68@0:8@16@24@32i40@44@52@?60"
+- "v72@0:8@\"PKPaymentRequest\"16B24@\"NSString\"28@\"NSString\"36i44@\"NSString\"48@\"NSNumber\"56@?<v@?B@\"NSError\">64"
+- "v72@0:8@16@24@32@40@48B56B60@?64"
+- "v72@0:8@16B24@28@36i44@48@56@?64"
+- "v72@0:8@16^@24^@32^@40^@48^@56^@64"
+- "v72@0:8Q16@24@32@40@48@56@64"
+- "v84@?0@\"NSDate\"8@\"NSString\"16@\"NSString\"24@\"NSDateComponents\"32@\"NSDateComponents\"40@\"NSString\"48@\"NSNumber\"56@\"NSString\"64@\"NSDate\"72B80"
+- "validateAppleBalanceSecurityRequirementsWithCompletion:"
+- "validatePreconditionsAndRegister:"
+- "validityInterval"
+- "valueAddedServiceAutomaticSelectionCoordinator:didUpdatePasses:"
+- "valueAddedServicePass"
+- "valueAddedServicePasses"
+- "valueAddedServiceTransactions"
+- "valueForKey:"
+- "vasPasses"
+- "vehicleConnectivityCoordinator:didUpdateVehicleStatusForPass:"
+- "vehicleFunctionActions"
+- "vehicleFunctions"
+- "verificationChannel"
+- "verificationChannelsStepContext"
+- "verificationCodeStepContext"
+- "verificationFieldsStepContext"
+- "verificationOptionsForRequest:completion:"
+- "verificationRecordForPass:"
+- "verificationStatus"
+- "wallet"
+- "wantsBadgedIcon"
+- "watchProvisioningEvent"
+- "weakObjectsHashTable"
+- "webServiceErrorCode"
+- "webServiceErrorDomain"
+- "webServicesCheck"
+- "webpageURL"
+- "welcome"
+- "workQueue"
+- "wrappedKey"
+- "wrapperUUID"
+- "xpcConnection"
+- "yyyy-MM-dd' 'HH:mm:ss.SSSSZZZZZ"
+- "{CGSize=dd}16@0:8"
+
+```

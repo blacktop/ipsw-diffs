@@ -1,0 +1,1060 @@
+## Message
+
+> `/System/Library/PrivateFrameworks/Message.framework/Message`
+
+```diff
+
+-3864.400.21.0.0
+-  __TEXT.__text: 0xabb7c8
+-  __TEXT.__auth_stubs: 0x7de0
+-  __TEXT.__objc_methlist: 0x1407c
+-  __TEXT.__gcc_except_tab: 0x38db0
+-  __TEXT.__const: 0x68fec
+-  __TEXT.__cstring: 0x308bb
+-  __TEXT.__oslogstring: 0x266c0
++3864.500.147.2.3
++  __TEXT.__text: 0xacc454
++  __TEXT.__auth_stubs: 0x7d80
++  __TEXT.__objc_methlist: 0x140ec
++  __TEXT.__gcc_except_tab: 0x3934c
++  __TEXT.__const: 0x69bac
++  __TEXT.__cstring: 0x2e734
++  __TEXT.__oslogstring: 0x26e90
+   __TEXT.__ustring: 0x23ca
+   __TEXT.__dlopen_cstrs: 0xae
+-  __TEXT.__swift5_typeref: 0x100c8
+-  __TEXT.__swift5_capture: 0x2fd5c
+-  __TEXT.__constg_swiftt: 0xd61c
+-  __TEXT.__swift5_builtin: 0xd20
+-  __TEXT.__swift5_reflstr: 0xedc8
+-  __TEXT.__swift5_fieldmd: 0x14bf8
++  __TEXT.__swift5_typeref: 0x1018c
++  __TEXT.__swift5_capture: 0x30148
++  __TEXT.__constg_swiftt: 0xd4d0
++  __TEXT.__swift5_builtin: 0xc94
++  __TEXT.__swift5_reflstr: 0xee28
++  __TEXT.__swift5_fieldmd: 0x14cd0
+   __TEXT.__swift5_assocty: 0x1c18
+-  __TEXT.__swift5_proto: 0x2844
+-  __TEXT.__swift5_types: 0x1790
+-  __TEXT.__swift5_mpenum: 0x790
+-  __TEXT.__swift5_protos: 0x70
+-  __TEXT.__unwind_info: 0x1dc08
+-  __TEXT.__eh_frame: 0x1888c
+-  __TEXT.__objc_classname: 0x2a9b
+-  __TEXT.__objc_methname: 0x2ea62
+-  __TEXT.__objc_methtype: 0x6977
+-  __TEXT.__objc_stubs: 0x24740
+-  __DATA_CONST.__got: 0x2e50
+-  __DATA_CONST.__const: 0x153a8
+-  __DATA_CONST.__objc_classlist: 0xb28
++  __TEXT.__swift5_proto: 0x2924
++  __TEXT.__swift5_types: 0x17b0
++  __TEXT.__swift5_mpenum: 0x79c
++  __TEXT.__swift5_protos: 0x68
++  __TEXT.__unwind_info: 0x1d638
++  __TEXT.__eh_frame: 0x15b0c
++  __TEXT.__objc_classname: 0x3b2a
++  __TEXT.__objc_methname: 0x30805
++  __TEXT.__objc_methtype: 0x710a
++  __TEXT.__objc_stubs: 0x262e0
++  __DATA_CONST.__got: 0x2e70
++  __DATA_CONST.__const: 0x152d8
++  __DATA_CONST.__objc_classlist: 0xb38
+   __DATA_CONST.__objc_catlist: 0x68
+   __DATA_CONST.__objc_protolist: 0x500
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xb670
++  __DATA_CONST.__objc_selrefs: 0xb6d0
+   __DATA_CONST.__objc_protorefs: 0x198
+   __DATA_CONST.__objc_superrefs: 0x678
+   __DATA_CONST.__objc_arraydata: 0xf10
+-  __AUTH_CONST.__auth_got: 0x3f08
+-  __AUTH_CONST.__const: 0xa0208
+-  __AUTH_CONST.__cfstring: 0x18560
+-  __AUTH_CONST.__objc_const: 0x227c8
++  __AUTH_CONST.__auth_got: 0x3ed8
++  __AUTH_CONST.__const: 0xa0b60
++  __AUTH_CONST.__cfstring: 0x185a0
++  __AUTH_CONST.__objc_const: 0x22a40
+   __AUTH_CONST.__objc_arrayobj: 0xb28
+   __AUTH_CONST.__objc_intobj: 0xa08
+   __AUTH_CONST.__objc_dictobj: 0x78
+-  __AUTH.__objc_data: 0x5358
+-  __AUTH.__data: 0xadc0
+-  __DATA.__objc_ivar: 0x13ac
+-  __DATA.__data: 0xdbf8
++  __AUTH.__objc_data: 0x53a8
++  __AUTH.__data: 0xaf68
++  __DATA.__objc_ivar: 0x13b4
++  __DATA.__data: 0xddb0
+   __DATA.__crash_info: 0x148
+-  __DATA.__bss: 0x4fba0
+-  __DATA.__common: 0xeb1
++  __DATA.__bss: 0x517c0
++  __DATA.__common: 0xea9
+   __DATA_DIRTY.__objc_data: 0x1860
+-  __DATA_DIRTY.__bss: 0x3e0
++  __DATA_DIRTY.__bss: 0x3b0
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftRegexBuilder.dylib
+   - /usr/lib/swift/libswiftSystem.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftVideoToolbox.dylib
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswift_DarwinFoundation2.dylib
+-  - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 13390BB7-2FA6-3108-82AE-90444B746DE3
+-  Functions: 46396
+-  Symbols:   38107
+-  CStrings:  20515
++  UUID: B08055FD-7CA0-3F7D-807D-D0DF1A4510B3
++  Functions: 46124
++  Symbols:   38569
++  CStrings:  20530
+ 
+Symbols:
++ -[MFMailMessageLibrary indexableMessagesWhere:unionWhere:limit:options:]
++ -[MFMessageContentRequest requestHTMLRepresentationWithCompletionHandler:].cold.2
++ -[MFMessageLoadingContext _reallyLoad:shouldDownload:].cold.2
++ -[MFMessageLoadingContext _setupMeetingData].cold.2
++ -[MFSearchableIndexManager_iOS indexerProvider]
++ -[MFSearchableIndexManager_iOS initWithDatabase:messagePersistence:richLinkPersistence:hookResponder:serverMessagesIndexerProvider:]
++ -[MFSearchableIndexPersistence_iOS clearBodyDataCaches]
++ -[MFSearchableIndexPersistence_iOS messagesWhere:unionWhere:limit:]
++ -[MFSearchableIndex_iOS .cxx_destruct]
++ -[MFSearchableIndex_iOS initWithName:dataSource:serverMessagesIndexer:]
++ -[MFSearchableIndex_iOS serverMessagesIndexer]
++ -[MFSearchableIndex_iOS setServerMessagesIndexer:]
++ -[MFSearchableIndex_iOS startTurboSearchIndexer:]
++ _EDSearchableIndexItemOneTimeCodeDetectionTimeLimit
++ _EDSearchableIndexTransactionItemsNeedReindex
++ _OBJC_CLASS_$_BGSystemTask
++ _OBJC_CLASS_$_BGSystemTaskRequest
++ _OBJC_CLASS_$_EDDataDetectionUtilities
++ _OBJC_CLASS_$_EDMailMessageEntityIDIntegerProtectionUpgradeStep
++ _OBJC_CLASS_$_EDRemoveRebuildTableUpgradeStep
++ _OBJC_IVAR_$_MFSearchableIndexManager_iOS._indexerProvider
++ _OBJC_IVAR_$_MFSearchableIndex_iOS._serverMessagesIndexer
++ _OUTLINED_FUNCTION_15
++ _OUTLINED_FUNCTION_16
++ __AddSpotlightReindexTable
++ __AddSpotlightTombstonesTable
++ __DATA__TtC20IMAPSearchIndexerXPC13SearchService
++ __DATA__TtCE7MessageCSo30MFBackFillMessageBodySchedulerP33_8C94728D29B9D9CACC7F5FFB5564322B11XPCActivity
++ __DATA__TtCE7MessageCSo30MFBackFillMessageBodySchedulerP33_8C94728D29B9D9CACC7F5FFB5564322B13TurboActivity
++ __IVARS__TtC20IMAPSearchIndexerXPC13SearchService
++ __IVARS__TtCE7MessageCSo30MFBackFillMessageBodySchedulerP33_8C94728D29B9D9CACC7F5FFB5564322B11XPCActivity
++ __IVARS__TtCE7MessageCSo30MFBackFillMessageBodySchedulerP33_8C94728D29B9D9CACC7F5FFB5564322B13TurboActivity
++ __METACLASS_DATA__TtC20IMAPSearchIndexerXPC13SearchService
++ __METACLASS_DATA__TtCE7MessageCSo30MFBackFillMessageBodySchedulerP33_8C94728D29B9D9CACC7F5FFB5564322B11XPCActivity
++ __METACLASS_DATA__TtCE7MessageCSo30MFBackFillMessageBodySchedulerP33_8C94728D29B9D9CACC7F5FFB5564322B13TurboActivity
++ __OBJC_$_INSTANCE_VARIABLES_MFSearchableIndex_iOS
++ __PROTOCOLS_MFServerMessagesIndexer.249
++ __PROTOCOLS__TtCCCC7Message25InProgressMessageDownload26AttachmentDecoderAndWriter7DecoderP33_E488F2EBCE7947B89745EE1E7B527BA212DataConsumer.305
++ __PROTOCOLS__TtCE7MessageCSo30MFBackFillMessageBodyScheduler7Request.693
++ __ZNKSt3__112__hash_tableINS_17__hash_value_typeIPKc8EncodingEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S4_EE20CStringAlnumCaseHash21CStringAlnumCaseEqualLb1EEENS_21__unordered_map_equalIS3_S9_SB_SA_Lb1EEENS_9allocatorIS9_EEE4findIS3_EENS_21__hash_const_iteratorIPNS_11__hash_nodeIS5_PvEEEERKT_
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEixB9foe210106Em
++ __ZNKSt3__114default_deleteIA_11DetailEntryEclB9foe210106IS1_Li0EEEvPT_
++ __ZNSt12length_errorC1B9foe210106EPKc
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKc8EncodingEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S4_EE20CStringAlnumCaseHash21CStringAlnumCaseEqualLb1EEENS_21__unordered_map_equalIS3_S9_SB_SA_Lb1EEENS_9allocatorIS9_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKc8EncodingEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S4_EE20CStringAlnumCaseHash21CStringAlnumCaseEqualLb1EEENS_21__unordered_map_equalIS3_S9_SB_SA_Lb1EEENS_9allocatorIS9_EEE14__erase_uniqueIS3_EEmRKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKc8EncodingEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S4_EE20CStringAlnumCaseHash21CStringAlnumCaseEqualLb1EEENS_21__unordered_map_equalIS3_S9_SB_SA_Lb1EEENS_9allocatorIS9_EEE25__emplace_unique_key_argsIS3_JRKNS_21piecewise_construct_tENS_5tupleIJOS3_EEENSM_IJEEEEEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKc8EncodingEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S4_EE20CStringAlnumCaseHash21CStringAlnumCaseEqualLb1EEENS_21__unordered_map_equalIS3_S9_SB_SA_Lb1EEENS_9allocatorIS9_EEE25__emplace_unique_key_argsIS3_JRKNS_21piecewise_construct_tENS_5tupleIJRS8_EEENSM_IJEEEEEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKc8EncodingEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S4_EE20CStringAlnumCaseHash21CStringAlnumCaseEqualLb1EEENS_21__unordered_map_equalIS3_S9_SB_SA_Lb1EEENS_9allocatorIS9_EEE4findIS3_EENS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKc8EncodingEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S4_EE20CStringAlnumCaseHash21CStringAlnumCaseEqualLb1EEENS_21__unordered_map_equalIS3_S9_SB_SA_Lb1EEENS_9allocatorIS9_EEE5eraseENS_21__hash_const_iteratorIPNS_11__hash_nodeIS5_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKc8EncodingEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S4_EE20CStringAlnumCaseHash21CStringAlnumCaseEqualLb1EEENS_21__unordered_map_equalIS3_S9_SB_SA_Lb1EEENS_9allocatorIS9_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeIS5_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKc8EncodingEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S4_EE20CStringAlnumCaseHash21CStringAlnumCaseEqualLb1EEENS_21__unordered_map_equalIS3_S9_SB_SA_Lb1EEENS_9allocatorIS9_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKc8EncodingEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S4_EE20CStringAlnumCaseHash21CStringAlnumCaseEqualLb1EEENS_21__unordered_map_equalIS3_S9_SB_SA_Lb1EEENS_9allocatorIS9_EEED2Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106ILi0EEEPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEixB9foe210106Em
++ __ZNSt3__113unordered_mapIPKc8Encoding20CStringAlnumCaseHash21CStringAlnumCaseEqualNS_9allocatorINS_4pairIKS2_S3_EEEEED1B9foe210106Ev
++ __ZNSt3__120__throw_length_errorB9foe210106EPKc
++ __ZNSt3__132__internal_log_hardening_failureEPKc
++ __ZSt28__throw_bad_array_new_lengthB9foe210106v
++ ___136-[MFMessageContentRequest _originalContentMessagesInReplyToLegacyMessage:withMessageAndHTMLDataPair:maximumNumberOfMessages:completion:]_block_invoke.188
++ ___138-[MFMessageContentRequest _contentRepresentationForEvent:contentURL:relatedItems:messageAndHTMLDataPair:existingRepresentation:invocable:]_block_invoke.143
++ ___138-[MFMessageContentRequest _contentRepresentationForEvent:contentURL:relatedItems:messageAndHTMLDataPair:existingRepresentation:invocable:]_block_invoke.144
++ ___138-[MFMessageContentRequest _contentRepresentationForEvent:contentURL:relatedItems:messageAndHTMLDataPair:existingRepresentation:invocable:]_block_invoke.147
++ ___138-[MFMessageContentRequest _contentRepresentationForEvent:contentURL:relatedItems:messageAndHTMLDataPair:existingRepresentation:invocable:]_block_invoke.147.cold.1
++ ___138-[MFMessageContentRequest _contentRepresentationForEvent:contentURL:relatedItems:messageAndHTMLDataPair:existingRepresentation:invocable:]_block_invoke_2.145
++ ___141-[MFMailMessageLibrary addMessages:withMailbox:newMessagesByOldMessage:remoteIDs:setFlags:addPOPUIDs:dataSectionsByMessage:generationWindow:]_block_invoke.729
++ ___141-[MFMailMessageLibrary addMessages:withMailbox:newMessagesByOldMessage:remoteIDs:setFlags:addPOPUIDs:dataSectionsByMessage:generationWindow:]_block_invoke.858
++ ___24-[_MFDataCollector done]_block_invoke.2405
++ ___46-[MFSearchableIndexPersistence_iOS statistics]_block_invoke.32
++ ___46-[MFSearchableIndexPersistence_iOS statistics]_block_invoke.32.cold.1
++ ___50-[MFAttachmentComposeManager removeAllAttachments]_block_invoke
++ ___54-[MFMessageLoadingContext _reallyLoad:shouldDownload:]_block_invoke.141
++ ___62-[MFMessageContentRequest _processContentLoadingContextEvent:]_block_invoke.103
++ ___62-[MFMessageContentRequest _processContentLoadingContextEvent:]_block_invoke.112
++ ___62-[MFMessageContentRequest _processContentLoadingContextEvent:]_block_invoke.83
++ ___62-[MFMessageContentRequest _processContentLoadingContextEvent:]_block_invoke.83.cold.1
++ ___62-[MFMessageContentRequest _processContentLoadingContextEvent:]_block_invoke.90
++ ___62-[MFMessageContentRequest _processContentLoadingContextEvent:]_block_invoke_2.116
++ ___62-[MFMessageContentRequest _processContentLoadingContextEvent:]_block_invoke_2.96
++ ___62-[MFMessageContentRequest _processContentLoadingContextEvent:]_block_invoke_2.96.cold.1
++ ___72-[MFMailMessageLibrary indexableMessagesWhere:unionWhere:limit:options:]_block_invoke
++ ___72-[MFMailMessageLibrary indexableMessagesWhere:unionWhere:limit:options:]_block_invoke.cold.1
++ ___72-[MFMessageContentRequest _messageContentFromLoadingContext:completion:]_block_invoke.70
++ ___72-[MFMessageContentRequest _messageContentFromLoadingContext:completion:]_block_invoke_2.72
++ ___86-[MFMailMessageLibrary messageWithLibraryID:options:inMailbox:temporarilyUnavailable:]_block_invoke.1210
++ ___88-[MFMessageContentRequest _contentRepresentationForLoadingEvent:existingRepresentation:]_block_invoke.132.cold.1
++ ___88-[MFMessageContentRequest _contentRepresentationForLoadingEvent:existingRepresentation:]_block_invoke.134
++ ___88-[MFMessageContentRequest _contentRepresentationForLoadingEvent:existingRepresentation:]_block_invoke.138
++ ___88-[MFMessageContentRequest _contentRepresentationForLoadingEvent:existingRepresentation:]_block_invoke.138.cold.1
++ ___88-[MFMessageContentRequest _contentRepresentationForLoadingEvent:existingRepresentation:]_block_invoke_2.135
++ ___88-[MFMessageContentRequest _contentRepresentationForLoadingEvent:existingRepresentation:]_block_invoke_2.135.cold.1
++ ___88-[MFMessagePersistence_iOS messageObjectIDForSearchIndexerIdentifier:completionHandler:]_block_invoke.87
++ ___91-[MFMessageContentRequest _requestContentForAttachment:manager:options:managed:completion:]_block_invoke.158
++ ___91-[MFMessageContentRequest _requestContentForAttachment:manager:options:managed:completion:]_block_invoke.165
++ ___91-[MFMessageContentRequest _requestContentForAttachment:manager:options:managed:completion:]_block_invoke_2.157
++ ___91-[MFMessageContentRequest _requestContentForAttachment:manager:options:managed:completion:]_block_invoke_2.168
++ ___block_descriptor_48_ea8_32s40s_e30_v24?0"NSString"8"NSError"16ls32l8s40l8
++ ___block_descriptor_48_ea8_32s40s_e34_v24?0"NSDictionary"8"NSError"16ls32l8s40l8
++ ___block_literal_global.1046
++ ___block_literal_global.1068
++ ___block_literal_global.117
++ ___block_literal_global.1316
++ ___block_literal_global.1352
++ ___block_literal_global.1520
++ ___block_literal_global.1555
++ ___block_literal_global.1561
++ ___block_literal_global.1591
++ ___block_literal_global.180
++ ___block_literal_global.191
++ ___block_literal_global.200
++ ___block_literal_global.2654
++ ___block_literal_global.2676
++ ___block_literal_global.2732
++ ___block_literal_global.2738
++ ___block_literal_global.586
++ ___block_literal_global.818
++ ___block_literal_global.869
++ ___block_literal_global.914
++ ___block_literal_global.942
++ ___block_literal_global.960
++ ___block_literal_global.998
++ ___swift_assign_boxed_opaque_existential_0
++ ___unnamed_26
++ _associated conformance 20IMAPSearchIndexerXPC12IndexRequestO0E0V10CodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLOSHAASQ
++ _associated conformance 20IMAPSearchIndexerXPC12IndexRequestO0E0V10CodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 20IMAPSearchIndexerXPC12IndexRequestO0E0V10CodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20IMAPSearchIndexerXPC12IndexRequestO0E0VSHAASQ
++ _associated conformance 20IMAPSearchIndexerXPC12IndexRequestO18ServerAvailabilityO10CodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLOSHAASQ
++ _associated conformance 20IMAPSearchIndexerXPC12IndexRequestO18ServerAvailabilityO10CodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 20IMAPSearchIndexerXPC12IndexRequestO18ServerAvailabilityO10CodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20IMAPSearchIndexerXPC12IndexRequestO18ServerAvailabilityO16IgnoreCodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 20IMAPSearchIndexerXPC12IndexRequestO18ServerAvailabilityO16IgnoreCodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20IMAPSearchIndexerXPC12IndexRequestO18ServerAvailabilityO17RespectCodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 20IMAPSearchIndexerXPC12IndexRequestO18ServerAvailabilityO17RespectCodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20IMAPSearchIndexerXPC12IndexRequestO18ServerAvailabilityOSHAASQ
++ _associated conformance 20IMAPSearchIndexerXPC12IndexRequestO9DataQuotaO10CodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLOSHAASQ
++ _associated conformance 20IMAPSearchIndexerXPC12IndexRequestO9DataQuotaO10CodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 20IMAPSearchIndexerXPC12IndexRequestO9DataQuotaO10CodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20IMAPSearchIndexerXPC12IndexRequestO9DataQuotaO15BytesCodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLOSHAASQ
++ _associated conformance 20IMAPSearchIndexerXPC12IndexRequestO9DataQuotaO15BytesCodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 20IMAPSearchIndexerXPC12IndexRequestO9DataQuotaO15BytesCodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20IMAPSearchIndexerXPC12IndexRequestO9DataQuotaO19UnlimitedCodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 20IMAPSearchIndexerXPC12IndexRequestO9DataQuotaO19UnlimitedCodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20IMAPSearchIndexerXPC12IndexRequestO9DataQuotaOSHAASQ
++ _associated conformance 7Message27SearchIndexerBackgroundTaskC15CompletionErrorOSHAASQ
++ _associated conformance So30MFBackFillMessageBodySchedulerC0C0E13TurboActivity33_8C94728D29B9D9CACC7F5FFB5564322BLLC15CompletionErrorOSHACSQ
++ _block_copy_helper.1004
++ _block_copy_helper.1029
++ _block_copy_helper.1054
++ _block_copy_helper.1057
++ _block_copy_helper.1060
++ _block_copy_helper.1203
++ _block_copy_helper.161
++ _block_copy_helper.163
++ _block_copy_helper.193
++ _block_copy_helper.197
++ _block_copy_helper.2394
++ _block_copy_helper.2400
++ _block_copy_helper.2406
++ _block_copy_helper.241
++ _block_copy_helper.244
++ _block_copy_helper.33
++ _block_copy_helper.353
++ _block_copy_helper.360
++ _block_copy_helper.37
++ _block_copy_helper.390
++ _block_copy_helper.412
++ _block_copy_helper.442
++ _block_copy_helper.467
++ _block_copy_helper.49
++ _block_copy_helper.55
++ _block_copy_helper.59
++ _block_copy_helper.64
++ _block_copy_helper.6452
++ _block_copy_helper.6458
++ _block_copy_helper.6464
++ _block_copy_helper.6565
++ _block_copy_helper.67
++ _block_copy_helper.81
++ _block_copy_helper.85
++ _block_copy_helper.89
++ _block_copy_helper.95
++ _block_copy_helper.964
++ _block_copy_helper.973
++ _block_descriptor.1006
++ _block_descriptor.1031
++ _block_descriptor.1056
++ _block_descriptor.1059
++ _block_descriptor.1062
++ _block_descriptor.1205
++ _block_descriptor.163
++ _block_descriptor.165
++ _block_descriptor.195
++ _block_descriptor.199
++ _block_descriptor.2396
++ _block_descriptor.2402
++ _block_descriptor.2408
++ _block_descriptor.243
++ _block_descriptor.246
++ _block_descriptor.35
++ _block_descriptor.355
++ _block_descriptor.362
++ _block_descriptor.39
++ _block_descriptor.392
++ _block_descriptor.414
++ _block_descriptor.444
++ _block_descriptor.469
++ _block_descriptor.51
++ _block_descriptor.57
++ _block_descriptor.61
++ _block_descriptor.6454
++ _block_descriptor.6460
++ _block_descriptor.6466
++ _block_descriptor.6567
++ _block_descriptor.66
++ _block_descriptor.69
++ _block_descriptor.83
++ _block_descriptor.87
++ _block_descriptor.91
++ _block_descriptor.966
++ _block_descriptor.97
++ _block_descriptor.975
++ _block_destroy_helper.1005
++ _block_destroy_helper.1030
++ _block_destroy_helper.1055
++ _block_destroy_helper.1058
++ _block_destroy_helper.1061
++ _block_destroy_helper.1204
++ _block_destroy_helper.162
++ _block_destroy_helper.164
++ _block_destroy_helper.194
++ _block_destroy_helper.198
++ _block_destroy_helper.2395
++ _block_destroy_helper.2401
++ _block_destroy_helper.2407
++ _block_destroy_helper.242
++ _block_destroy_helper.245
++ _block_destroy_helper.34
++ _block_destroy_helper.354
++ _block_destroy_helper.361
++ _block_destroy_helper.38
++ _block_destroy_helper.391
++ _block_destroy_helper.413
++ _block_destroy_helper.443
++ _block_destroy_helper.468
++ _block_destroy_helper.50
++ _block_destroy_helper.56
++ _block_destroy_helper.60
++ _block_destroy_helper.6453
++ _block_destroy_helper.6459
++ _block_destroy_helper.6465
++ _block_destroy_helper.65
++ _block_destroy_helper.6566
++ _block_destroy_helper.68
++ _block_destroy_helper.82
++ _block_destroy_helper.86
++ _block_destroy_helper.90
++ _block_destroy_helper.96
++ _block_destroy_helper.965
++ _block_destroy_helper.974
++ _objc_msgSend$accountIDForAccount:
++ _objc_msgSend$accountIDFromMailboxURLString:urlScheme:
++ _objc_msgSend$accountProvider
++ _objc_msgSend$accumulatedString
++ _objc_msgSend$activityWithID:finishedWithError:
++ _objc_msgSend$activityWithID:setCompletedCount:totalCount:
++ _objc_msgSend$activityWithID:setUserInfoObject:forKey:
++ _objc_msgSend$addSubparser:
++ _objc_msgSend$addressListFromHeaderValue:
++ _objc_msgSend$allAttachmentsInfoForGlobalMessageIDs:basePath:
++ _objc_msgSend$allMailboxActionForAccountID:
++ _objc_msgSend$appendAttributedString:
++ _objc_msgSend$appendCustomEntityWithTag:stringRepresentation:
++ _objc_msgSend$appendInnerTextWithConsumableNode:
++ _objc_msgSend$applySortedFlags:
++ _objc_msgSend$attachmentID
++ _objc_msgSend$attachmentTypeIsActionable:
++ _objc_msgSend$audiovisualMIMETypes
++ _objc_msgSend$backFillID
++ _objc_msgSend$bindToStatement:usingIndex:
++ _objc_msgSend$changesDraftTo:
++ _objc_msgSend$completeWithStatus:
++ _objc_msgSend$completedUIDs
++ _objc_msgSend$component:fromDate:
++ _objc_msgSend$createAttachment
++ _objc_msgSend$createAttachmentFileWriterForAttachmentMetadata:basePath:downloadDate:queue:compressionQueue:completion:
++ _objc_msgSend$createContentAttributedStringHTMLParser
++ _objc_msgSend$createHTMLFromText:delSp:flowed:
++ _objc_msgSend$createImageAttachment
++ _objc_msgSend$createMessage
++ _objc_msgSend$createMessageContent
++ _objc_msgSend$credentialExpiryDate
++ _objc_msgSend$csAccountTypeString
++ _objc_msgSend$decodedName
++ _objc_msgSend$deleteLocalMessageActionsWithIDs:
++ _objc_msgSend$deleteMailboxActions:
++ _objc_msgSend$didDownloadMessageOfSize:dateReceived:
++ _objc_msgSend$didSetCriteria
++ _objc_msgSend$didStartDownloading
++ _objc_msgSend$didStopDownloadingIsComplete:
++ _objc_msgSend$dispatchQueueSchedulerWithQueue:
++ _objc_msgSend$displayedAccounts
++ _objc_msgSend$downloadedMessageData
++ _objc_msgSend$ef_SQLBinding
++ _objc_msgSend$ef_temporarilyUnavailableError
++ _objc_msgSend$eligibleToRun
++ _objc_msgSend$encodedData
++ _objc_msgSend$enumerateMessageBatchLimitUIDsWithWindow:batchSize:newUIDCount:block:
++ _objc_msgSend$enumerateUIDsInIndexSet:includingJSON:excludingJSON:withBlock:
++ _objc_msgSend$enumerateUIDsInOlderThanDate:limit:withBlock:
++ _objc_msgSend$extractOneTimeCodeFromHTML:withSubject:
++ _objc_msgSend$extractOneTimeCodeFromPlainText:withSubject:
++ _objc_msgSend$extractOneTimeCodeFromSubject:
++ _objc_msgSend$failAndClose
++ _objc_msgSend$flagsForRemoteIDs:
++ _objc_msgSend$flushBodyDataCache
++ _objc_msgSend$fragmentedMessages
++ _objc_msgSend$getValue:size:
++ _objc_msgSend$groupInsideWriteTransactionWithDescription:block:
++ _objc_msgSend$groupList
++ _objc_msgSend$hasFullMessageData
++ _objc_msgSend$hasPartialMessageData
++ _objc_msgSend$headersOnlyData
++ _objc_msgSend$highPriority
++ _objc_msgSend$indexableMessagesWhere:unionWhere:limit:options:
++ _objc_msgSend$indexerProvider
++ _objc_msgSend$infoDictionary
++ _objc_msgSend$initRequiringSecureCoding:
++ _objc_msgSend$initWithAccountsProvider:
++ _objc_msgSend$initWithAngleBracketID:
++ _objc_msgSend$initWithCallbackQueue:mailMessageLibrary:legacyLoader:
++ _objc_msgSend$initWithDatabase:accountIdentifier:
++ _objc_msgSend$initWithDatabase:messagePersistence:richLinkPersistence:hookResponder:serverMessagesIndexerProvider:
++ _objc_msgSend$initWithFirst:second:
++ _objc_msgSend$initWithHTML:withPriceFormattingThresholds:
++ _objc_msgSend$initWithIMAPServerMessageBuilder:
++ _objc_msgSend$initWithIdentifier:taskName:qos:workloadCategory:expectedMetricValue:itemsCompleted:totalItemCount:
++ _objc_msgSend$initWithInteger:
++ _objc_msgSend$initWithLibraryMessage:
++ _objc_msgSend$initWithLongLong:
++ _objc_msgSend$initWithMessageId:highPriority:mailMessageLibrary:maximumImageWidth:workQueue:delegate:
++ _objc_msgSend$initWithMessagePersistence:urlSession:hookRegistry:
++ _objc_msgSend$initWithName:dataSource:serverMessagesIndexer:
++ _objc_msgSend$initWithString:attributes:
++ _objc_msgSend$initWithSuiteName:
++ _objc_msgSend$initWithUnsignedInt:
++ _objc_msgSend$initWithUnsignedInteger:
++ _objc_msgSend$initWithWrapper:
++ _objc_msgSend$insertDatabaseRowForMailboxURL:
++ _objc_msgSend$insertMimePartAttachments:forGlobalMessageID:
++ _objc_msgSend$interactionWithTitle:message:builder:
++ _objc_msgSend$isKindOfClass:
++ _objc_msgSend$isPartOfExistingThread
++ _objc_msgSend$isRootMailbox
++ _objc_msgSend$itemsToDownload
++ _objc_msgSend$junkLevelSetByUser
++ _objc_msgSend$junkLevelSetByUserChanged
++ _objc_msgSend$limit
++ _objc_msgSend$loadFullMessagesForMessageIds:completion:
++ _objc_msgSend$localPart
++ _objc_msgSend$mailAccountsProvider
++ _objc_msgSend$mailboxDatabaseIDForMailboxURL:
++ _objc_msgSend$mailboxDatabaseIDsForMailboxURLStrings:
++ _objc_msgSend$mailboxForType:
++ _objc_msgSend$mailboxURLForMailboxDatabaseID:
++ _objc_msgSend$mailboxURLs
++ _objc_msgSend$messageActionsAfterActionID:
++ _objc_msgSend$messageContentLoader:receivedAttachmentData:contentId:loadedProtected:
++ _objc_msgSend$messageContentLoader:receivedMailContent:forMessage:loadedProtected:
++ _objc_msgSend$messageContentLoaderDidFailLoadingContent:
++ _objc_msgSend$messageContentLoaderDidFinishLoading:
++ _objc_msgSend$messageCount
++ _objc_msgSend$messageDataIsPartial:
++ _objc_msgSend$messagesMissingBodyData
++ _objc_msgSend$messagesNotMissingBodyData
++ _objc_msgSend$messagesScannedInFilesystemCount
++ _objc_msgSend$messagesWithRemoteIDs:
++ _objc_msgSend$mf_externalReference
++ _objc_msgSend$mf_messageCriterion
++ _objc_msgSend$mimePartParallelCompressionQueue
++ _objc_msgSend$mimeParts
++ _objc_msgSend$nanoMailboxIDForMFMailboxUID:
++ _objc_msgSend$newStringAccumulatorWithOptions:lengthLimit:
++ _objc_msgSend$newestUIDsForMailbox:limit:
++ _objc_msgSend$newestUIDsMissingBodyDataForMailbox:excluding:inLatest:limit:maximumMessagesToScan:
++ _objc_msgSend$newestUIDsMissingPartsForMailbox:excluding:inLatest:limit:maximumMessagesToScan:
++ _objc_msgSend$nnmkMailItemStatusFromMFMessageFlags:conversationFlags:
++ _objc_msgSend$nonFragmentedMessages
++ _objc_msgSend$notificationID
++ _objc_msgSend$observeChangesForPreference:usingBlock:
++ _objc_msgSend$parse
++ _objc_msgSend$parseHTMLBody:encoding:maxLength:maxImageWidth:partiallyParsed:imageAttachmentsLoaded:urlsFound:
++ _objc_msgSend$partialMessageData
++ _objc_msgSend$plainTextFromHTML:limit:
++ _objc_msgSend$priceFormattingThresholds
++ _objc_msgSend$promptToFileWithCompletionHandler:
++ _objc_msgSend$queue
++ _objc_msgSend$ranges
++ _objc_msgSend$rangesOfIndexedUIDsInRange:requiresBody:forMailbox:limit:
++ _objc_msgSend$recordDataNeedsToBeDonatedForMessages:
++ _objc_msgSend$reflectAllMessagesDeletedInMailboxURL:
++ _objc_msgSend$reflectSortedFlagChanges:mailboxURL:
++ _objc_msgSend$renamedMailboxName
++ _objc_msgSend$renewCredentialsWithOptions:completion:
++ _objc_msgSend$replay
++ _objc_msgSend$reportFeatureCheckpoint:forFeature:error:
++ _objc_msgSend$reportProgressMetrics:error:
++ _objc_msgSend$resetWithError:
++ _objc_msgSend$result
++ _objc_msgSend$scaleImageFromData:maxWidth:
++ _objc_msgSend$searchRequestQueue
++ _objc_msgSend$searchableMessageAttachmentsForBaseMessage:includeEncryptedBody:
++ _objc_msgSend$searchableMessageUpdateForBaseMessage:
++ _objc_msgSend$serverMessagesForMessageIDHeaders:
++ _objc_msgSend$setAccountId:
++ _objc_msgSend$setAppendStandardDisclaimerToDescription:
++ _objc_msgSend$setAttachmentPath:
++ _objc_msgSend$setAutoDiagnostics:
++ _objc_msgSend$setClassification:
++ _objc_msgSend$setComponent:
++ _objc_msgSend$setContentId:
++ _objc_msgSend$setConversationId:
++ _objc_msgSend$setDateReceived:
++ _objc_msgSend$setDateSent:
++ _objc_msgSend$setDeleted
++ _objc_msgSend$setDownloadedDataByCopyItems:
++ _objc_msgSend$setExpectedDuration:
++ _objc_msgSend$setExtensionIdentifiers:
++ _objc_msgSend$setFoundTextBlock:
++ _objc_msgSend$setFoundWhitespaceBlock:
++ _objc_msgSend$setFrom:
++ _objc_msgSend$setHasTextData:
++ _objc_msgSend$setHighPriority:
++ _objc_msgSend$setHtmlContentData:
++ _objc_msgSend$setImapUID:
++ _objc_msgSend$setInterval:
++ _objc_msgSend$setIsServerSearchResult:
++ _objc_msgSend$setLenient:
++ _objc_msgSend$setMailboxId:
++ _objc_msgSend$setMainAlternativeValid:
++ _objc_msgSend$setMessageId:
++ _objc_msgSend$setMessageIdHeader:
++ _objc_msgSend$setNotificationMessageId:
++ _objc_msgSend$setOriginalContentSize:
++ _objc_msgSend$setOutputFormat:
++ _objc_msgSend$setPartiallyLoaded:
++ _objc_msgSend$setPrependSystemVersionToTitle:
++ _objc_msgSend$setPreview:
++ _objc_msgSend$setPublisherBulletinId:
++ _objc_msgSend$setRadarDescription:
++ _objc_msgSend$setRenderOnClient:
++ _objc_msgSend$setReproducibility:
++ _objc_msgSend$setRequiresExternalPower:
++ _objc_msgSend$setRequiresInexpensiveNetworkConnectivity:
++ _objc_msgSend$setRequiresNetworkConnectivity:
++ _objc_msgSend$setRequiresProtectionClass:
++ _objc_msgSend$setRequiresSecureCoding:
++ _objc_msgSend$setRequiresUserInactivity:
++ _objc_msgSend$setServerFlags:
++ _objc_msgSend$setServerNamespace:
++ _objc_msgSend$setSourceRemoteID:
++ _objc_msgSend$setTextData:
++ _objc_msgSend$setTimeZone:
++ _objc_msgSend$setTitle:
++ _objc_msgSend$shouldDefer
++ _objc_msgSend$sleepUntilDate:
++ _objc_msgSend$startActivityOfType:userInfo:
++ _objc_msgSend$startBackFillingMessageBodyDownloadWithRequest:
++ _objc_msgSend$startTurboModeWithCompletion:
++ _objc_msgSend$stopBackFillingMessageBodyDownload
++ _objc_msgSend$submitTaskRequest:error:
++ _objc_msgSend$swiftProperties
++ _objc_msgSend$taskRequestForIdentifier:
++ _objc_msgSend$taskStartedWithParameters:error:
++ _objc_msgSend$taskStoppedWithParameters:error:
++ _objc_msgSend$thermalState
++ _objc_msgSend$transferType
++ _objc_msgSend$uidAndSize
++ _objc_msgSend$uidValidity
++ _objc_msgSend$uniqueIdentifier
++ _objc_msgSend$unreconciledMessageCountObservable
++ _objc_msgSend$valueForAttributes:
++ _objc_msgSend$valueWithCGSize:
++ _objc_msgSend$visibleMailboxObjectIDs
++ _objc_release_x2
++ _objectdestroy.3Tm
++ _objectdestroy.9Tm
++ _swift_unknownObjectRelease_n
++ _symbolic Sayy______pSgcG s5ErrorP
++ _symbolic So12BGSystemTaskCSg
++ _symbolic So7NSErrorCSgIeyBy_
++ _symbolic _____ 20IMAPSearchIndexerXPC12IndexRequestO0E0V
++ _symbolic _____ 20IMAPSearchIndexerXPC12IndexRequestO0E0V10CodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLO
++ _symbolic _____ 20IMAPSearchIndexerXPC12IndexRequestO18ServerAvailabilityO
++ _symbolic _____ 20IMAPSearchIndexerXPC12IndexRequestO18ServerAvailabilityO10CodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLO
++ _symbolic _____ 20IMAPSearchIndexerXPC12IndexRequestO18ServerAvailabilityO16IgnoreCodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLO
++ _symbolic _____ 20IMAPSearchIndexerXPC12IndexRequestO18ServerAvailabilityO17RespectCodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLO
++ _symbolic _____ 20IMAPSearchIndexerXPC12IndexRequestO9DataQuotaO
++ _symbolic _____ 20IMAPSearchIndexerXPC12IndexRequestO9DataQuotaO10CodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLO
++ _symbolic _____ 20IMAPSearchIndexerXPC12IndexRequestO9DataQuotaO15BytesCodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLO
++ _symbolic _____ 20IMAPSearchIndexerXPC12IndexRequestO9DataQuotaO19UnlimitedCodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLO
++ _symbolic _____ 20IMAPSearchIndexerXPC13SearchServiceC
++ _symbolic _____ 20IMAPSearchIndexerXPC13SearchServiceC21getIndexingStatisticsyyys6ResultOyAA0gH0Vs5Error_pGYbcFy0C010XPCSessionCSgcfU_0D18SessionUnavailableL_V
++ _symbolic _____ 20IMAPSearchIndexerXPC13SearchServiceC21getIndexingStatisticsyyys6ResultOyAA0gH0Vs5Error_pGYbcFy0C010XPCSessionCSgcfU_yAFyAA011MessageFromdB0OsAI_pGYbcfU_07InvalidH8ResponseL_V
++ _symbolic _____ 7Message27SearchIndexerBackgroundTaskC15CompletionErrorO
++ _symbolic _____ So30MFBackFillMessageBodySchedulerC0C0E11XPCActivity33_8C94728D29B9D9CACC7F5FFB5564322BLLC
++ _symbolic _____ So30MFBackFillMessageBodySchedulerC0C0E13TurboActivity33_8C94728D29B9D9CACC7F5FFB5564322BLLC
++ _symbolic _____ So30MFBackFillMessageBodySchedulerC0C0E13TurboActivity33_8C94728D29B9D9CACC7F5FFB5564322BLLC15CompletionErrorO
++ _symbolic _____Sg 13IMAP2Behavior17UploadFlagChangesV
++ _symbolic _____Sg 20IMAPSearchIndexerXPC3UIDV
++ _symbolic _____Sg 3XPC10XPCSessionC
++ _symbolic _____Sg 3XPC11XPCEndpointV
++ _symbolic _____SgIegg_ 3XPC10XPCSessionC
++ _symbolic _____SgXw 20IMAPSearchIndexerXPC13SearchServiceC
++ _symbolic _____SgXw So30MFBackFillMessageBodySchedulerC0C0E11XPCActivity33_8C94728D29B9D9CACC7F5FFB5564322BLLC
++ _symbolic _____SgXwz_Xx 20IMAPSearchIndexerXPC13SearchServiceC
++ _symbolic _____Sg_ABt 12NIOIMAPCore217EmailAddressGroupV
++ _symbolic _____Sg_ABt 13IMAP2Behavior12DownloadTaskV28MessageWaitingForSectionInfoV
++ _symbolic _____Sg_ABt 15IMAP2Connection13MechanismKindO
++ _symbolic _____Sg_ABt 16IMAP2Persistence13MessageHeaderV
++ _symbolic _____Sg_ABt 16IMAP2Persistence13RemoteMailboxV
++ _symbolic _____Sg_ABt 9IMAP2MIME15PartReplacementO
++ _symbolic ______Say_____Gt 20IMAPSearchIndexerXPC12IndexRequestO0E0V AA20AccountConfigurationV
++ _symbolic ______pSgIegg_ s5ErrorP
++ _symbolic ______pSgytIegnr_ s5ErrorP
++ _symbolic _____ySayy______pSgcGG s16IndexingIteratorV s5ErrorP
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20IMAPSearchIndexerXPC12IndexRequestO0H0V10CodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20IMAPSearchIndexerXPC12IndexRequestO18ServerAvailabilityO10CodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20IMAPSearchIndexerXPC12IndexRequestO18ServerAvailabilityO16IgnoreCodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20IMAPSearchIndexerXPC12IndexRequestO18ServerAvailabilityO17RespectCodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20IMAPSearchIndexerXPC12IndexRequestO9DataQuotaO10CodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20IMAPSearchIndexerXPC12IndexRequestO9DataQuotaO15BytesCodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20IMAPSearchIndexerXPC12IndexRequestO9DataQuotaO19UnlimitedCodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20IMAPSearchIndexerXPC12IndexRequestO0H0V10CodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20IMAPSearchIndexerXPC12IndexRequestO18ServerAvailabilityO10CodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20IMAPSearchIndexerXPC12IndexRequestO18ServerAvailabilityO16IgnoreCodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20IMAPSearchIndexerXPC12IndexRequestO18ServerAvailabilityO17RespectCodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20IMAPSearchIndexerXPC12IndexRequestO9DataQuotaO10CodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20IMAPSearchIndexerXPC12IndexRequestO9DataQuotaO15BytesCodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20IMAPSearchIndexerXPC12IndexRequestO9DataQuotaO19UnlimitedCodingKeys33_B13B9810DB0361E49FAD9F97298A5027LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5Int32V
++ _symbolic _____y___________t______pG s6ResultOsRi_zRi0_zrlE s5Int32V 10Foundation3URLV s5ErrorP
++ _symbolic y______pSgc s5ErrorP
++ _symbolic y______pSgcSg s5ErrorP
++ _type_layout_string 20IMAPSearchIndexerXPC12IndexRequestO0E0V
+- -[MFMailMessageLibrary indexableMessagesWhere:sortedBy:limit:options:]
+- -[MFMessagePersistence_iOS persistMessageAuthenticationState:forMessage:]
+- -[MFSearchableIndexPersistence_iOS messagesWhere:useSearchableRebuildTable:limit:]
+- _ECMailboxTypeTrash
+- _EMPersistenceStatisticsKeyMessagesToReindex
+- __DATA__TtC20IMAPSearchIndexerXPC13SearchSession
+- __ExecuteQueries
+- __IVARS__TtC20IMAPSearchIndexerXPC13SearchSession
+- __METACLASS_DATA__TtC20IMAPSearchIndexerXPC13SearchSession
+- __PROTOCOLS_MFServerMessagesIndexer.241
+- __PROTOCOLS__TtCCCC7Message25InProgressMessageDownload26AttachmentDecoderAndWriter7DecoderP33_E488F2EBCE7947B89745EE1E7B527BA212DataConsumer.304
+- __PROTOCOLS__TtCE7MessageCSo30MFBackFillMessageBodyScheduler7Request.613
+- __ZNKSt3__112__hash_tableINS_17__hash_value_typeIPKc8EncodingEENS_22__unordered_map_hasherIS3_S5_20CStringAlnumCaseHash21CStringAlnumCaseEqualLb1EEENS_21__unordered_map_equalIS3_S5_S8_S7_Lb1EEENS_9allocatorIS5_EEE4findIS3_EENS_21__hash_const_iteratorIPNS_11__hash_nodeIS5_PvEEEERKT_
+- __ZNKSt3__114default_deleteIA_11DetailEntryEclB8ne200100IS1_EENS3_20_EnableIfConvertibleIT_E4typeEPS6_
+- __ZNSt12length_errorC1B8ne200100EPKc
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKc8EncodingEENS_22__unordered_map_hasherIS3_S5_20CStringAlnumCaseHash21CStringAlnumCaseEqualLb1EEENS_21__unordered_map_equalIS3_S5_S8_S7_Lb1EEENS_9allocatorIS5_EEE11__do_rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKc8EncodingEENS_22__unordered_map_hasherIS3_S5_20CStringAlnumCaseHash21CStringAlnumCaseEqualLb1EEENS_21__unordered_map_equalIS3_S5_S8_S7_Lb1EEENS_9allocatorIS5_EEE14__erase_uniqueIS3_EEmRKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKc8EncodingEENS_22__unordered_map_hasherIS3_S5_20CStringAlnumCaseHash21CStringAlnumCaseEqualLb1EEENS_21__unordered_map_equalIS3_S5_S8_S7_Lb1EEENS_9allocatorIS5_EEE25__emplace_unique_key_argsIS3_JRKNS_21piecewise_construct_tENS_5tupleIJOS3_EEENSJ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKc8EncodingEENS_22__unordered_map_hasherIS3_S5_20CStringAlnumCaseHash21CStringAlnumCaseEqualLb1EEENS_21__unordered_map_equalIS3_S5_S8_S7_Lb1EEENS_9allocatorIS5_EEE25__emplace_unique_key_argsIS3_JRKNS_21piecewise_construct_tENS_5tupleIJRKS3_EEENSJ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKc8EncodingEENS_22__unordered_map_hasherIS3_S5_20CStringAlnumCaseHash21CStringAlnumCaseEqualLb1EEENS_21__unordered_map_equalIS3_S5_S8_S7_Lb1EEENS_9allocatorIS5_EEE4findIS3_EENS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKc8EncodingEENS_22__unordered_map_hasherIS3_S5_20CStringAlnumCaseHash21CStringAlnumCaseEqualLb1EEENS_21__unordered_map_equalIS3_S5_S8_S7_Lb1EEENS_9allocatorIS5_EEE5eraseENS_21__hash_const_iteratorIPNS_11__hash_nodeIS5_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKc8EncodingEENS_22__unordered_map_hasherIS3_S5_20CStringAlnumCaseHash21CStringAlnumCaseEqualLb1EEENS_21__unordered_map_equalIS3_S5_S8_S7_Lb1EEENS_9allocatorIS5_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeIS5_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKc8EncodingEENS_22__unordered_map_hasherIS3_S5_20CStringAlnumCaseHash21CStringAlnumCaseEqualLb1EEENS_21__unordered_map_equalIS3_S5_S8_S7_Lb1EEENS_9allocatorIS5_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKc8EncodingEENS_22__unordered_map_hasherIS3_S5_20CStringAlnumCaseHash21CStringAlnumCaseEqualLb1EEENS_21__unordered_map_equalIS3_S5_S8_S7_Lb1EEENS_9allocatorIS5_EEED2Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100ILi0EEEPKc
+- __ZNSt3__113unordered_mapIPKc8Encoding20CStringAlnumCaseHash21CStringAlnumCaseEqualNS_9allocatorINS_4pairIKS2_S3_EEEEED1B8ne200100Ev
+- __ZNSt3__120__throw_length_errorB8ne200100EPKc
+- __ZSt28__throw_bad_array_new_lengthB8ne200100v
+- ___136-[MFMessageContentRequest _originalContentMessagesInReplyToLegacyMessage:withMessageAndHTMLDataPair:maximumNumberOfMessages:completion:]_block_invoke.186
+- ___138-[MFMessageContentRequest _contentRepresentationForEvent:contentURL:relatedItems:messageAndHTMLDataPair:existingRepresentation:invocable:]_block_invoke.141
+- ___138-[MFMessageContentRequest _contentRepresentationForEvent:contentURL:relatedItems:messageAndHTMLDataPair:existingRepresentation:invocable:]_block_invoke.142
+- ___138-[MFMessageContentRequest _contentRepresentationForEvent:contentURL:relatedItems:messageAndHTMLDataPair:existingRepresentation:invocable:]_block_invoke.145
+- ___138-[MFMessageContentRequest _contentRepresentationForEvent:contentURL:relatedItems:messageAndHTMLDataPair:existingRepresentation:invocable:]_block_invoke_2.143
+- ___141-[MFMailMessageLibrary addMessages:withMailbox:newMessagesByOldMessage:remoteIDs:setFlags:addPOPUIDs:dataSectionsByMessage:generationWindow:]_block_invoke.728
+- ___141-[MFMailMessageLibrary addMessages:withMailbox:newMessagesByOldMessage:remoteIDs:setFlags:addPOPUIDs:dataSectionsByMessage:generationWindow:]_block_invoke.857
+- ___24-[_MFDataCollector done]_block_invoke.2407
+- ___46-[MFSearchableIndexPersistence_iOS statistics]_block_invoke.38
+- ___46-[MFSearchableIndexPersistence_iOS statistics]_block_invoke.38.cold.1
+- ___54-[MFMessageLoadingContext _reallyLoad:shouldDownload:]_block_invoke.138
+- ___62-[MFMessageContentRequest _processContentLoadingContextEvent:]_block_invoke.110
+- ___62-[MFMessageContentRequest _processContentLoadingContextEvent:]_block_invoke.81
+- ___62-[MFMessageContentRequest _processContentLoadingContextEvent:]_block_invoke.81.cold.1
+- ___62-[MFMessageContentRequest _processContentLoadingContextEvent:]_block_invoke.88
+- ___62-[MFMessageContentRequest _processContentLoadingContextEvent:]_block_invoke_2.114
+- ___62-[MFMessageContentRequest _processContentLoadingContextEvent:]_block_invoke_2.94
+- ___62-[MFMessageContentRequest _processContentLoadingContextEvent:]_block_invoke_3.101
+- ___70-[MFMailMessageLibrary indexableMessagesWhere:sortedBy:limit:options:]_block_invoke
+- ___70-[MFMailMessageLibrary indexableMessagesWhere:sortedBy:limit:options:]_block_invoke.cold.1
+- ___72-[MFMessageContentRequest _messageContentFromLoadingContext:completion:]_block_invoke_3
+- ___72-[MFMessageContentRequest _messageContentFromLoadingContext:completion:]_block_invoke_4
+- ___86-[MFMailMessageLibrary messageWithLibraryID:options:inMailbox:temporarilyUnavailable:]_block_invoke.1209
+- ___88-[MFMessageContentRequest _contentRepresentationForLoadingEvent:existingRepresentation:]_block_invoke.130
+- ___88-[MFMessageContentRequest _contentRepresentationForLoadingEvent:existingRepresentation:]_block_invoke.130.cold.1
+- ___88-[MFMessageContentRequest _contentRepresentationForLoadingEvent:existingRepresentation:]_block_invoke.136
+- ___88-[MFMessageContentRequest _contentRepresentationForLoadingEvent:existingRepresentation:]_block_invoke.136.cold.1
+- ___88-[MFMessageContentRequest _contentRepresentationForLoadingEvent:existingRepresentation:]_block_invoke_2.131
+- ___88-[MFMessageContentRequest _contentRepresentationForLoadingEvent:existingRepresentation:]_block_invoke_2.133.cold.1
+- ___88-[MFMessagePersistence_iOS messageObjectIDForSearchIndexerIdentifier:completionHandler:]_block_invoke.89
+- ___91-[MFMessageContentRequest _requestContentForAttachment:manager:options:managed:completion:]_block_invoke.154
+- ___91-[MFMessageContentRequest _requestContentForAttachment:manager:options:managed:completion:]_block_invoke.163
+- ___91-[MFMessageContentRequest _requestContentForAttachment:manager:options:managed:completion:]_block_invoke_2.155
+- ___91-[MFMessageContentRequest _requestContentForAttachment:manager:options:managed:completion:]_block_invoke_2.166
+- ___block_descriptor_40_ea8_32s_e30_v24?0"NSString"8"NSError"16ls32l8
+- ___block_descriptor_40_ea8_32s_e34_v24?0"NSDictionary"8"NSError"16ls32l8
+- ___block_literal_global.1036
+- ___block_literal_global.1067
+- ___block_literal_global.119
+- ___block_literal_global.1315
+- ___block_literal_global.1351
+- ___block_literal_global.1519
+- ___block_literal_global.1554
+- ___block_literal_global.1560
+- ___block_literal_global.1590
+- ___block_literal_global.178
+- ___block_literal_global.189
+- ___block_literal_global.198
+- ___block_literal_global.2656
+- ___block_literal_global.2679
+- ___block_literal_global.2735
+- ___block_literal_global.2741
+- ___block_literal_global.576
+- ___block_literal_global.808
+- ___block_literal_global.868
+- ___block_literal_global.904
+- ___block_literal_global.932
+- ___block_literal_global.950
+- ___block_literal_global.988
+- ___swift_memcpy106_1
+- ___swift_memcpy28_4
+- ___unnamed_28
+- _block_copy_helper.153
+- _block_copy_helper.156
+- _block_copy_helper.178
+- _block_copy_helper.183
+- _block_copy_helper.22
+- _block_copy_helper.234
+- _block_copy_helper.2393
+- _block_copy_helper.2399
+- _block_copy_helper.2405
+- _block_copy_helper.259
+- _block_copy_helper.31
+- _block_copy_helper.327
+- _block_copy_helper.34
+- _block_copy_helper.367
+- _block_copy_helper.50
+- _block_copy_helper.54
+- _block_copy_helper.6451
+- _block_copy_helper.6457
+- _block_copy_helper.6463
+- _block_copy_helper.6564
+- _block_copy_helper.73
+- _block_copy_helper.754
+- _block_copy_helper.763
+- _block_copy_helper.794
+- _block_copy_helper.80
+- _block_copy_helper.819
+- _block_copy_helper.83
+- _block_copy_helper.84
+- _block_copy_helper.844
+- _block_copy_helper.847
+- _block_copy_helper.850
+- _block_copy_helper.92
+- _block_copy_helper.992
+- _block_descriptor.155
+- _block_descriptor.158
+- _block_descriptor.180
+- _block_descriptor.185
+- _block_descriptor.236
+- _block_descriptor.2395
+- _block_descriptor.24
+- _block_descriptor.2401
+- _block_descriptor.2407
+- _block_descriptor.261
+- _block_descriptor.329
+- _block_descriptor.33
+- _block_descriptor.36
+- _block_descriptor.369
+- _block_descriptor.52
+- _block_descriptor.56
+- _block_descriptor.6453
+- _block_descriptor.6459
+- _block_descriptor.6465
+- _block_descriptor.6566
+- _block_descriptor.75
+- _block_descriptor.756
+- _block_descriptor.765
+- _block_descriptor.796
+- _block_descriptor.82
+- _block_descriptor.821
+- _block_descriptor.846
+- _block_descriptor.849
+- _block_descriptor.85
+- _block_descriptor.852
+- _block_descriptor.86
+- _block_descriptor.94
+- _block_descriptor.994
+- _block_destroy_helper.154
+- _block_destroy_helper.157
+- _block_destroy_helper.179
+- _block_destroy_helper.184
+- _block_destroy_helper.23
+- _block_destroy_helper.235
+- _block_destroy_helper.2394
+- _block_destroy_helper.2400
+- _block_destroy_helper.2406
+- _block_destroy_helper.260
+- _block_destroy_helper.32
+- _block_destroy_helper.328
+- _block_destroy_helper.35
+- _block_destroy_helper.368
+- _block_destroy_helper.51
+- _block_destroy_helper.55
+- _block_destroy_helper.6452
+- _block_destroy_helper.6458
+- _block_destroy_helper.6464
+- _block_destroy_helper.6565
+- _block_destroy_helper.74
+- _block_destroy_helper.755
+- _block_destroy_helper.764
+- _block_destroy_helper.795
+- _block_destroy_helper.81
+- _block_destroy_helper.820
+- _block_destroy_helper.84
+- _block_destroy_helper.845
+- _block_destroy_helper.848
+- _block_destroy_helper.85
+- _block_destroy_helper.851
+- _block_destroy_helper.93
+- _block_destroy_helper.993
+- _objc_claimAutoreleasedReturnValue
+- _objc_msgSend$indexableMessagesWhere:sortedBy:limit:options:
+- _objc_msgSend$initWithMessagePersistence:urlSession:
+- _objc_msgSend$initWithName:dataSource:
+- _objc_retainAutoreleaseReturnValue
+- _symbolic $s12NIOIMAPCore222_ByteBufferAPITemplateP
+- _symbolic $s12NIOIMAPCore226_ByteBufferViewAPITemplateP
+- _symbolic SS3key______5valuetSg 12NIOIMAPCore214ParameterValueO
+- _symbolic SS3key______Sg5valuetSg 12NIOIMAPCore214ParameterValueO
+- _symbolic SaySS_SStG
+- _symbolic Si6offset______3key______5valuet7elementt 12NIOIMAPCore217MetadataEntryNameV AA0B5ValueV
+- _symbolic Si6offset______7elementt 12NIOIMAPCore212ReturnOptionO
+- _symbolic Si6offset______7elementt 12NIOIMAPCore212URLFetchDataV
+- _symbolic Si6offset______7elementt 12NIOIMAPCore216ListSelectOptionO
+- _symbolic Si6offset______7elementt 12NIOIMAPCore219RumpURLAndMechanismV
+- _symbolic Si6offset______7elementt 12NIOIMAPCore220NamespaceDescriptionV
+- _symbolic Si6offset______7elementt 12NIOIMAPCore227ListSelectIndependentOptionO
+- _symbolic Si6offset______7elementtSg 9IMAP2MIME15ReplacementNodeV
+- _symbolic _____ 20IMAPSearchIndexerXPC13SearchSessionC
+- _symbolic _____ 20IMAPSearchIndexerXPC13SearchSessionC21getIndexingStatisticsyyys6ResultOyAA0gH0Vs5Error_pGYbcFyAFyAA011MessageFromdB0OsAI_pGYbcfU_07InvalidH8ResponseL_V
+- _symbolic _____ So11sockaddr_inV
+- _symbolic _____ So11sockaddr_unV
+- _symbolic _____ So12sockaddr_in6V
+- _symbolic _____ So16sockaddr_storageV
+- _symbolic _____ So7in_addrV
+- _symbolic _____ So8in6_addrV
+- _symbolic _____ So8in6_addrV021__Unnamed_union___u6_B0V
+- _symbolic _____3key______5valuetSg 12NIOIMAPCore210ByteBufferV AA14ParameterValueO
+- _symbolic _____Sg 13IMAP2Behavior12DownloadTaskV7SectionV
+- _symbolic _____Sg 13IMAP2Behavior12DownloadTaskV9CommandIDO
+- _symbolic _____Sg 13IMAP2Behavior23DetectChangesToMessagesV
+- _symbolic ______A103At s4Int8V
+- _symbolic ______A111At s4Int8V
+- _symbolic ______A5At s4Int8V
+- _symbolic ______A7At s4Int8V
+- _symbolic ______Say_____Gt 20IMAPSearchIndexerXPC12IndexRequestO2IDV AA20AccountConfigurationV
+- _symbolic _____y_____yAAyAAy_____y__________GADGADSgGGADG s15LazyMapSequenceV s0a6FilterC0V 19CollectionsInternal17OrderedDictionaryV 12NIOIMAPCore211MailboxNameV 13IMAP2Behavior5StateV11UserVisibleO
+- _symbolic _____y_____y_____yABy_____y__________GAESgGGAEGG s14PrefixSequenceV s07LazyMapB0V s0c6FilterB0V 19CollectionsInternal17OrderedDictionaryV 12NIOIMAPCore211MailboxNameV 13IMAP2Behavior5StateV11UserVisibleO
+- _type_layout_string So11sockaddr_inV
+- _type_layout_string So11sockaddr_unV
+- _type_layout_string So12sockaddr_in6V
+- _type_layout_string So16sockaddr_storageV
+- _type_layout_string So7in_addrV
+- _type_layout_string So8in6_addrV
+CStrings:
++ " ORDER BY messages.date_received DESC %@"
++ " UNION ALL %@ FROM messages %s WHERE %@ %@"
++ "%@ FROM messages %s LEFT OUTER JOIN searchable_messages ON messages.ROWID = searchable_messages.message WHERE %@ %@"
++ "%s%s%s%s%s%s%s%s%s%s%s"
++ "(top)"
++ "-[MFMailMessageLibrary indexableMessagesWhere:unionWhere:limit:options:]"
++ "/AppleInternal/Library/BuildRoots/4~CIVUugB1uUSVAf6GUTTVlhIF2ZDQ50E8q3jikc0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/System/Library/PrivateFrameworks/EmailCore.framework/Headers/ECFlagChangeMessageActionResults.h"
++ "/AppleInternal/Library/BuildRoots/4~CIVUugB1uUSVAf6GUTTVlhIF2ZDQ50E8q3jikc0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/System/Library/PrivateFrameworks/EmailCore.framework/Headers/ECTransferMessageAction.h"
++ "/AppleInternal/Library/BuildRoots/4~CIVUugB1uUSVAf6GUTTVlhIF2ZDQ50E8q3jikc0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/System/Library/PrivateFrameworks/EmailCore.framework/Headers/ECTransferMessageActionResults.h"
++ "/AppleInternal/Library/BuildRoots/4~CIVUugB1uUSVAf6GUTTVlhIF2ZDQ50E8q3jikc0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__hash_table:1892: libc++ Hardening assertion __p != end() failed: unordered container::erase(iterator) called with a non-dereferenceable iterator\n"
++ "/AppleInternal/Library/BuildRoots/4~CIVUugB1uUSVAf6GUTTVlhIF2ZDQ50E8q3jikc0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/string:1332: libc++ Hardening assertion __pos <= size() failed: string index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CIVUugB1uUSVAf6GUTTVlhIF2ZDQ50E8q3jikc0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/string:1340: libc++ Hardening assertion __pos <= size() failed: string index out of bounds\n"
++ "/Library/Caches/com.apple.xbs/5126DCF2-50B5-4757-9D83-F01D6CB10529/TemporaryDirectory.d22npa/Binaries/Mail_Message/install/Symbols/BuiltProducts/Message.framework/PrivateHeaders/BackFillMessageBodies.h"
++ "/Library/Caches/com.apple.xbs/5126DCF2-50B5-4757-9D83-F01D6CB10529/TemporaryDirectory.d22npa/Binaries/Mail_Message/install/Symbols/BuiltProducts/Message.framework/PrivateHeaders/MFMailboxFrecencyController.h"
++ "/Library/Caches/com.apple.xbs/5126DCF2-50B5-4757-9D83-F01D6CB10529/TemporaryDirectory.d22npa/Binaries/Mail_Message/install/Symbols/BuiltProducts/Message.framework/PrivateHeaders/MFMailboxUserInfo.h"
++ "/Library/Caches/com.apple.xbs/5126DCF2-50B5-4757-9D83-F01D6CB10529/TemporaryDirectory.d22npa/Binaries/Mail_Message/install/Symbols/BuiltProducts/Message.framework/PrivateHeaders/MFNanoServerFullMessageLoader2.h"
++ "/Library/Caches/com.apple.xbs/5126DCF2-50B5-4757-9D83-F01D6CB10529/TemporaryDirectory.d22npa/Binaries/Mail_Message/install/Symbols/BuiltProducts/Message.framework/PrivateHeaders/MFNanoServerMessageContentLoader2.h"
++ "/Library/Caches/com.apple.xbs/5126DCF2-50B5-4757-9D83-F01D6CB10529/TemporaryDirectory.d22npa/Binaries/Mail_Message/install/Symbols/BuiltProducts/Message.framework/PrivateHeaders/MFServerMessagesIndexer.h"
++ "/Library/Caches/com.apple.xbs/5126DCF2-50B5-4757-9D83-F01D6CB10529/TemporaryDirectory.d22npa/Sources/Mail_Message/Message/IMAPPersistence/Shared/Flags.swift"
++ "/Library/Caches/com.apple.xbs/5126DCF2-50B5-4757-9D83-F01D6CB10529/TemporaryDirectory.d22npa/Sources/Mail_Message/Message/IMAPPersistence/Shared/MailboxPersistenceHelper.swift"
++ "/Library/Caches/com.apple.xbs/5126DCF2-50B5-4757-9D83-F01D6CB10529/TemporaryDirectory.d22npa/Sources/Mail_Message/Message/IMAPPersistence/Shared/MoveAndCopy.swift"
++ "/Library/Caches/com.apple.xbs/5126DCF2-50B5-4757-9D83-F01D6CB10529/TemporaryDirectory.d22npa/Sources/Mail_Message/Message/IMAPPersistence/Shared/PersistenceAdaptor.swift"
++ "/Library/Caches/com.apple.xbs/5126DCF2-50B5-4757-9D83-F01D6CB10529/TemporaryDirectory.d22npa/Sources/Mail_Message/Message/IMAPPersistence/Shared/SearchUIDs.swift"
++ "/Library/Caches/com.apple.xbs/5126DCF2-50B5-4757-9D83-F01D6CB10529/TemporaryDirectory.d22npa/Sources/Mail_Message/Message/IMAPPersistence/Shared/TaskManager.swift"
++ "/Library/Caches/com.apple.xbs/5126DCF2-50B5-4757-9D83-F01D6CB10529/TemporaryDirectory.d22npa/Sources/Mail_Message/Message/Message/DataAccess/MFDAStoreDraftConsumer.m"
++ "/Library/Caches/com.apple.xbs/5126DCF2-50B5-4757-9D83-F01D6CB10529/TemporaryDirectory.d22npa/Sources/Mail_Message/Message/Message/Mailbox/MFMailboxFrecencyController.swift"
++ "@\"MFServerMessagesIndexer\""
++ "@56@0:8@16@24@32@40@?48"
++ "Best alternative part %{public}@ loaded empty document for message %{public}@. Falling back to default alternative."
++ "Cleared body data caches after Spotlight indexing batch"
++ "Content failed to decode for message %{public}@ with decoding error %{public}@ (domain=%@, code=%ld) Failure stage: decoding."
++ "Content failed to decrypt for message %{public}@ with decryption error %{public}@. (domain=%@, code=%ld) Failure stage: decrypting."
++ "Default"
++ "Delegate snippet generation failed for message %{public}@"
++ "Endhints"
++ "Error generating HTML representation for message %{public}@: %{public}@. Failure stage: HTML representation"
++ "Error loading content for message %{public}@. error: %{public}@"
++ "Failed to create turbo SearchIndexerBackgroundTask: %@."
++ "Failed to extract content from part %{public}@ (offset=%lu, download=%d, type=%@, subtype=%@) for message %{public}@. Failure stage: Content extraction."
++ "Failed to generate no content string with error %{public}@ for message %{public}@"
++ "Failed to get the body for messageID %{public}@. Failure stage: body retrieval (network/storage)."
++ "IMAP2Helpers"
++ "IMAPSearchIndexerXPC/SearchService.swift"
++ "Loading context completed without result for message %{public}@. error: %{public}@"
++ "LuckDAddIsUrgentIndex"
++ "LuckERemoveSearchableRebuildTable"
++ "MFSearchableIndexError"
++ "Migrating MailMessageEntityID to integer file protection encoding"
++ "No top-level MIME part available (body.totalTextSize=%lu) for message %{public}@. Failure stage: MIME structure initialization."
++ "Original content generation failed for message %{public}@ with error %{public}@"
++ "Original content loading failed for message %@ with error %{public}@"
++ "Removing searchable_rebuild table"
++ "Requesting attachment content for attachment %{public}@"
++ "SearchService connection unavailable"
++ "SearchSessionQueue"
++ "Server messages indexer is not available"
++ "Starting HTML representation request for message %{public}@"
++ "StaticString should have Unicode scalar representation"
++ "Stopping existing task to start turbo mode"
++ "Stopping turbo mode"
++ "T@\"MFServerMessagesIndexer\",&,N,V_serverMessagesIndexer"
++ "T@?,R,C,N,V_indexerProvider"
++ "Turbo active, not starting again"
++ "Unable to create XPCSession Error = "
++ "UnsafeMutableRawBufferPointer has a nil start and nonzero count"
++ "UnsafeRawBufferPointer has a nil start and nonzero count"
++ "[%{public}s] Download completed successfully for UID %u"
++ "[%{public}s] Failed to create future for download of UID %u"
++ "[%{public}s] Starting synchronous download for message UID %u with QoS: %s"
++ "[%{public}s] User-initiated download failed for UID %u: %@"
++ "[%{public}s] User-initiated download timed out after 120s for UID %u"
++ "[%{public}s] Waiting for download result for UID %u"
++ "_TtC20IMAPSearchIndexerXPC13SearchService"
++ "_TtCE7MessageCSo30MFBackFillMessageBodySchedulerP33_8C94728D29B9D9CACC7F5FFB5564322B11XPCActivity"
++ "_TtCE7MessageCSo30MFBackFillMessageBodySchedulerP33_8C94728D29B9D9CACC7F5FFB5564322B13TurboActivity"
++ "_serverMessagesIndexer"
++ "clearBodyDataCaches"
++ "completionHandler"
++ "completionHandlers"
++ "content not available for unknown representation type %{public}@ content for message %{public}@ with error %{public}@"
++ "content unavailable for message %@. failed to download the raw message data. error: %{public}@ "
++ "extractOneTimeCodeFromHTML:withSubject:"
++ "extractOneTimeCodeFromPlainText:withSubject:"
++ "extractOneTimeCodeFromSubject:"
++ "flushBodyDataCache"
++ "indexableMessagesWhere:unionWhere:limit:options:"
++ "indexerProvider"
++ "initWithDatabase:messagePersistence:richLinkPersistence:hookResponder:serverMessagesIndexerProvider:"
++ "initWithMessagePersistence:urlSession:hookRegistry:"
++ "initWithName:dataSource:serverMessagesIndexer:"
++ "messagesWhere:unionWhere:limit:"
++ "observeChangesForPreference:usingBlock:"
++ "runTurboBackFillWithCompletion:"
++ "searchService"
++ "serverAvailability"
++ "sessionQueue"
++ "setServerMessagesIndexer:"
++ "startTurboModeWithCompletion:"
++ "startTurboSearchIndexer:"
++ "turboActivity"
++ "turboObservation"
++ "unable to get an event with external id %@ after it was successfully reconstituted. Failure stage: calendar event reconstitution."
++ "v20@?0Q8B16"
++ "xpcActivity"
++ "xpcUnderlying"
+- " JOIN searchable_rebuild ON messages.rowid = searchable_rebuild.message_id"
+- "%@ FROM messages %s %@"
+- "%@ FROM messages %s ORDER BY %@%@"
+- "%@ FROM messages %s WHERE %@ %@ ORDER BY %@%@"
+- "%@ FROM messages %s WHERE %@ %@%@"
+- "%s%s%s%s%s%s%s%s%s%s%s%s"
+- "-[MFMailMessageLibrary indexableMessagesWhere:sortedBy:limit:options:]"
+- "/AppleInternal/Library/BuildRoots/4~CG69ugDQxnrrhyDkTtPv4A-5DRdc6OyOO_MKaBc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.3.Internal.sdk/System/Library/PrivateFrameworks/EmailCore.framework/Headers/ECFlagChangeMessageActionResults.h"
+- "/AppleInternal/Library/BuildRoots/4~CG69ugDQxnrrhyDkTtPv4A-5DRdc6OyOO_MKaBc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.3.Internal.sdk/System/Library/PrivateFrameworks/EmailCore.framework/Headers/ECTransferMessageAction.h"
+- "/AppleInternal/Library/BuildRoots/4~CG69ugDQxnrrhyDkTtPv4A-5DRdc6OyOO_MKaBc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.3.Internal.sdk/System/Library/PrivateFrameworks/EmailCore.framework/Headers/ECTransferMessageActionResults.h"
+- "/Library/Caches/com.apple.xbs/Binaries/Mail_Message/install/Symbols/BuiltProducts/Message.framework/PrivateHeaders/BackFillMessageBodies.h"
+- "/Library/Caches/com.apple.xbs/Binaries/Mail_Message/install/Symbols/BuiltProducts/Message.framework/PrivateHeaders/MFMailboxFrecencyController.h"
+- "/Library/Caches/com.apple.xbs/Binaries/Mail_Message/install/Symbols/BuiltProducts/Message.framework/PrivateHeaders/MFMailboxUserInfo.h"
+- "/Library/Caches/com.apple.xbs/Binaries/Mail_Message/install/Symbols/BuiltProducts/Message.framework/PrivateHeaders/MFNanoServerFullMessageLoader2.h"
+- "/Library/Caches/com.apple.xbs/Binaries/Mail_Message/install/Symbols/BuiltProducts/Message.framework/PrivateHeaders/MFNanoServerMessageContentLoader2.h"
+- "/Library/Caches/com.apple.xbs/Binaries/Mail_Message/install/Symbols/BuiltProducts/Message.framework/PrivateHeaders/MFServerMessagesIndexer.h"
+- "/Library/Caches/com.apple.xbs/Sources/Mail_Message/Message/IMAPPersistence/Shared/Flags.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Mail_Message/Message/IMAPPersistence/Shared/MailboxPersistenceHelper.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Mail_Message/Message/IMAPPersistence/Shared/MoveAndCopy.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Mail_Message/Message/IMAPPersistence/Shared/PersistenceAdaptor.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Mail_Message/Message/IMAPPersistence/Shared/SearchUIDs.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Mail_Message/Message/IMAPPersistence/Shared/TaskManager.swift"
+- "/Library/Caches/com.apple.xbs/Sources/Mail_Message/Message/Message/DataAccess/MFDAStoreDraftConsumer.m"
+- "/Library/Caches/com.apple.xbs/Sources/Mail_Message/Message/Message/Mailbox/MFMailboxFrecencyController.swift"
+- "/var/mobile/Library/Mail/imap-sync-all-folders-experiment"
+- "Chose mailbox filter for experiment: %{public}s"
+- "Error choosing experiment value: %@"
+- "Error generating HTML representation for message %{public}@: %{public}@"
+- "Error loading content for message %{public}@: %{public}@"
+- "ExperimentGroup"
+- "Failed to get the body for messageID %{public}@"
+- "Loaded mailbox filter from experiment: %{public}s"
+- "SELECT COUNT(*) FROM searchable_rebuild"
+- "Unable to activate SearchSession."
+- "Unable to create SearchSession."
+- "_TtC20IMAPSearchIndexerXPC13SearchSession"
+- "carry"
+- "com.apple.da"
+- "content not available for unknown representation type %{public}@ content for message %{public}@"
+- "indexableMessagesWhere:sortedBy:limit:options:"
+- "initWithMessagePersistence:urlSession:"
+- "messagesWhere:useSearchableRebuildTable:limit:"
+- "persistMessageAuthenticationState:forMessage:"
+- "searchSession"
+- "searchable_rebuild.ROWID"
+- "self must be a properly aligned pointer for types Pointee and T"
+- "walkabout"
+
+```

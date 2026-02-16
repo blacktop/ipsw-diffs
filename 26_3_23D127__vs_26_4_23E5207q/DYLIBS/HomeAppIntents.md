@@ -1,0 +1,146 @@
+## HomeAppIntents
+
+> `/System/Library/PrivateFrameworks/HomeAppIntents.framework/HomeAppIntents`
+
+```diff
+
+-1136.4.14.0.0
+-  __TEXT.__text: 0x1abe54
+-  __TEXT.__auth_stubs: 0x32a0
+-  __TEXT.__const: 0x22a78
+-  __TEXT.__cstring: 0x357c
+-  __TEXT.__swift5_typeref: 0xccca
+-  __TEXT.__swift5_reflstr: 0x2bb1
++1166.5.2.1.3
++  __TEXT.__text: 0x19fedc
++  __TEXT.__auth_stubs: 0x3180
++  __TEXT.__const: 0x228a0
++  __TEXT.__swift5_typeref: 0xcca2
++  __TEXT.__cstring: 0x35f5
++  __TEXT.__swift5_reflstr: 0x2ba1
+   __TEXT.__swift5_assocty: 0x4018
+-  __TEXT.__constg_swiftt: 0x2608
+-  __TEXT.__swift5_fieldmd: 0x3520
++  __TEXT.__constg_swiftt: 0x25ec
++  __TEXT.__swift5_fieldmd: 0x3504
+   __TEXT.__swift5_builtin: 0xf0
+-  __TEXT.__swift5_proto: 0x1e04
+-  __TEXT.__swift5_types: 0x4ac
+-  __TEXT.__swift_as_entry: 0x624
+-  __TEXT.__swift_as_ret: 0x578
++  __TEXT.__swift5_proto: 0x1e00
++  __TEXT.__swift5_types: 0x4a8
++  __TEXT.__swift_as_entry: 0x62c
++  __TEXT.__swift_as_ret: 0x550
+   __TEXT.__oslogstring: 0x2a69
+-  __TEXT.__swift5_capture: 0x638
++  __TEXT.__swift5_capture: 0x598
+   __TEXT.__swift5_mpenum: 0x50
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__unwind_info: 0x67b0
+-  __TEXT.__eh_frame: 0x92a0
++  __TEXT.__unwind_info: 0x6240
++  __TEXT.__eh_frame: 0x7bcc
+   __TEXT.__objc_methname: 0xae
+-  __DATA_CONST.__got: 0x11c8
++  __TEXT.__objc_stubs: 0x1e0
++  __DATA_CONST.__got: 0x11e0
+   __DATA_CONST.__const: 0x300
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x78
+-  __AUTH_CONST.__auth_got: 0x1950
+-  __AUTH_CONST.__const: 0x8250
++  __AUTH_CONST.__auth_got: 0x18c8
++  __AUTH_CONST.__const: 0x80d0
+   __AUTH.__data: 0x820
+-  __DATA.__data: 0x71f8
++  __DATA.__data: 0x71b8
++  __DATA.__bss: 0x3c020
+   __DATA.__common: 0xa08
+-  __DATA.__bss: 0x3c0a0
+-  __DATA_DIRTY.__data: 0x10
++  __DATA_DIRTY.__data: 0x18
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F2701A48-68BC-34EB-A9B1-2C9FA3243259
+-  Functions: 9172
+-  Symbols:   4478
++  UUID: 33BBDD1D-B4CF-391E-A746-3862FA36079A
++  Functions: 8786
++  Symbols:   4482
+   CStrings:  687
+ 
+Symbols:
++ _get_witness_table 10AppIntents21IntentResultContainerVys5NeverOA3EGAA0cD0HPyHC.57
++ _get_witness_table 10AppIntents28ResolverSpecificationBuilderO0D0Vy04HomeaB0012DeviceEntityC9InputTypeO_A2H7IdsCaseV0C0V_AH05NamesL0VAKVQPGAA0cD0HPyHC.61
++ _get_witness_table 10AppIntents28ResolverSpecificationBuilderO0D0Vy04HomeaB012SceneOutcomeO_A2H11SuccessCaseV0C0V_AH07FailureJ0VAKVAH0k4Withf12KitErrorCodeJ0VAKVQPGAA0cD0HPyHC.78
++ _get_witness_table 10AppIntents28ResolverSpecificationBuilderO0D0Vy04HomeaB016TriggerEventTypeO_A2H16AbsoluteTimeCaseV0C0V_AH011SignificantkL0VAKVAH019CurrentUserPresenceL0VAKVQPGAA0cD0HPyHC.50
++ _get_witness_table 10AppIntents28ResolverSpecificationBuilderO0D0Vy04HomeaB09AttributeO_A2H25AirParticulateDensityCaseV0C0V_AH0hi4SizeK0VAKVAH0h7QualityK0VAKVAH012BatteryLevelK0VAKVAH010BrightnessK0VAKVAH021CarbonDioxideDetectedK0VAKVAH0qroK0VAKVAH0qr4PeakoK0VAKVAH0q8MonoxidesK0VAKVAH0quoK0VAKVAH0qutoK0VAKVAH013ChargingStateK0VAKVAH016ChildLockEnabledK0VAKVAH05ColorK0VAKVAH07ContactsK0VAKVAH07Currenth8PurifierwK0VAKVAH011CurrentDoorwK0VAKVAH021CurrentHorizontalTiltK0VAKVAH033CurrentHumidifierDehumidifierModeK0VAKVAH015CurrentHumidityK0VAKVAH07CurrentywK0VAKVAH015CurrentPositionK0VAKVAH021CurrentSecuritySystemwK0VAKVAH018CurrentTemperatureK0VAKVAH021CurrentThermostatModeK0VAKVAH019CurrentVerticalTiltK0VAKVAH018FilterChangeNeededK0VAKVAH010FilterLifeoK0VAKVAH026HumidifierDehumidifierModeK0VAKVAH034HumidifierDehumidifierModeAndValueK0VAKVAH034HumidifierDehumidifierModeAndRangeK0VAKVAH05InUseK0VAKVAH04LeaksK0VAKVAH05LightoK0VAKVAH03LownK0VAKVAH06MotionsK0VAKVAH012NaturalLightK0VAKVAH08NitrogenrjK0VAKVAH011ObstructionsK0VAKVAH09OccupancysK0VAKVAH05OzonejK0VAKVAH04Pm10jK0VAKVAH05Pm2_5jK0VAKVAH08PositionwK0VAKVAH05PowerK0VAKVAH017RemainingDurationK0VAKVAH017RotationDirectionK0VAKVAH013RotationSpeedK0VAKVAH013RvcCurrentRunK0VAKVAH03RvcK0VAKVAH011SetDurationK0VAKVAH05SmokesK0VAKVAH07SulphurrjK0VAKVAH09SwingModezK0VAKVAH06Targeth8PurifierwK0VAKVAH010TargetDoorwK0VAKVAH020TargetHorizontalTiltK0VAKVAH014TargetHumidityK0VAKVAH06TargetywK0VAKVAH014TargetPositionK0VAKVAH020TargetSecuritySystemwK0VAKVAH018TargetVerticalTiltK0VAKVAH014ThermostatModeK0VAKVAH022ThermostatModeAndValueK0VAKVAH022ThermostatModeAndRangeK0VAKVAH023VolatileOrganicCompoundjK0VAKVAH05WateroK0VAKVQPGAA0cD0HPyHC.213
++ _get_witness_table SHRzlSSSHHPyHC.108
++ _get_witness_table SHRzlSSSHHPyHC.42
++ _objc_msgSend$accessories
++ _objc_msgSend$cluster
++ _objc_msgSend$code
++ _objc_msgSend$command
++ _objc_msgSend$initWithResponseValue:error:
++ _objc_msgSend$integerValue
++ _objc_msgSend$name
++ _objc_msgSend$roomForEntireHome
++ _objc_msgSend$rooms
++ _objc_msgSend$sortedHomes
++ _objc_msgSend$triggers
++ _objc_msgSend$uniqueIdentifier
++ _objc_msgSend$unsignedIntValue
++ _objc_msgSend$userInfo
++ _objc_msgSend$zones
++ _objc_release_x1
++ _swift_release_n
++ _swift_retain_n
++ _swift_willThrowTypedImpl
++ _symbolic _____Sg 13HomeDataModel13StateSnapshotV24CharacteristicUpdateTypeO05ValueH0O
++ _symbolic _____Sg 14HomeAppIntents0A6EntityV12SnapshotPairV
++ _symbolic _____Sg_ABt 13HomeDataModel0A5StateV
++ _symbolic _____Sg_ABt 13HomeDataModel13StaticServiceV
++ _symbolic _____Sg_ABt 13HomeDataModel14StaticEndpointV
++ _symbolic _____Sg_ABt 13HomeDataModel18CharacteristicKindO
++ _symbolic _____Sg_ABt 13HomeDataModel18StaticServiceGroupV
++ _symbolic _____Sg_ABt 13HomeDataModel20StaticCharacteristicV
+- _get_witness_table 10AppIntents21IntentResultContainerVys5NeverOA3EGAA0cD0HPyHC.58
+- _get_witness_table 10AppIntents28ResolverSpecificationBuilderO0D0Vy04HomeaB0012DeviceEntityC9InputTypeO_A2H7IdsCaseV0C0V_AH05NamesL0VAKVQPGAA0cD0HPyHC.59
+- _get_witness_table 10AppIntents28ResolverSpecificationBuilderO0D0Vy04HomeaB012SceneOutcomeO_A2H11SuccessCaseV0C0V_AH07FailureJ0VAKVAH0k4Withf12KitErrorCodeJ0VAKVQPGAA0cD0HPyHC.77
+- _get_witness_table 10AppIntents28ResolverSpecificationBuilderO0D0Vy04HomeaB016TriggerEventTypeO_A2H16AbsoluteTimeCaseV0C0V_AH011SignificantkL0VAKVAH019CurrentUserPresenceL0VAKVQPGAA0cD0HPyHC.137
+- _get_witness_table 10AppIntents28ResolverSpecificationBuilderO0D0Vy04HomeaB09AttributeO_A2H25AirParticulateDensityCaseV0C0V_AH0hi4SizeK0VAKVAH0h7QualityK0VAKVAH012BatteryLevelK0VAKVAH010BrightnessK0VAKVAH021CarbonDioxideDetectedK0VAKVAH0qroK0VAKVAH0qr4PeakoK0VAKVAH0q8MonoxidesK0VAKVAH0quoK0VAKVAH0qutoK0VAKVAH013ChargingStateK0VAKVAH016ChildLockEnabledK0VAKVAH05ColorK0VAKVAH07ContactsK0VAKVAH07Currenth8PurifierwK0VAKVAH011CurrentDoorwK0VAKVAH021CurrentHorizontalTiltK0VAKVAH033CurrentHumidifierDehumidifierModeK0VAKVAH015CurrentHumidityK0VAKVAH07CurrentywK0VAKVAH015CurrentPositionK0VAKVAH021CurrentSecuritySystemwK0VAKVAH018CurrentTemperatureK0VAKVAH021CurrentThermostatModeK0VAKVAH019CurrentVerticalTiltK0VAKVAH018FilterChangeNeededK0VAKVAH010FilterLifeoK0VAKVAH026HumidifierDehumidifierModeK0VAKVAH034HumidifierDehumidifierModeAndValueK0VAKVAH034HumidifierDehumidifierModeAndRangeK0VAKVAH05InUseK0VAKVAH04LeaksK0VAKVAH05LightoK0VAKVAH03LownK0VAKVAH06MotionsK0VAKVAH012NaturalLightK0VAKVAH08NitrogenrjK0VAKVAH011ObstructionsK0VAKVAH09OccupancysK0VAKVAH05OzonejK0VAKVAH04Pm10jK0VAKVAH05Pm2_5jK0VAKVAH08PositionwK0VAKVAH05PowerK0VAKVAH017RemainingDurationK0VAKVAH017RotationDirectionK0VAKVAH013RotationSpeedK0VAKVAH013RvcCurrentRunK0VAKVAH03RvcK0VAKVAH011SetDurationK0VAKVAH05SmokesK0VAKVAH07SulphurrjK0VAKVAH09SwingModezK0VAKVAH06Targeth8PurifierwK0VAKVAH010TargetDoorwK0VAKVAH020TargetHorizontalTiltK0VAKVAH014TargetHumidityK0VAKVAH06TargetywK0VAKVAH014TargetPositionK0VAKVAH020TargetSecuritySystemwK0VAKVAH018TargetVerticalTiltK0VAKVAH014ThermostatModeK0VAKVAH022ThermostatModeAndValueK0VAKVAH022ThermostatModeAndRangeK0VAKVAH023VolatileOrganicCompoundjK0VAKVAH05WateroK0VAKVQPGAA0cD0HPyHC.212
+- _get_witness_table SHRzlSSSHHPyHC.137
+- _get_witness_table SHRzlSSSHHPyHC.45
+- _keypath_get.44Tm
+- _malloc
+- _objc_release
+- _objc_retain_x24
+- _objc_retain_x25
+- _swift_getAssociatedTypeWitness
+- _symbolic Say_____G 10AppIntents0A17EntityVisualStateV
+- _symbolic Say______pG 10AppIntents0A6EntityP
+- _symbolic _____ 14HomeAppIntents24AnnotationEntityProviderV
+- _symbolic _____Sg 13HomeDataModel06StaticA0V
+- _symbolic _____Sg 13HomeDataModel17StaticMediaSystemV
+- _symbolic _____Sg 13HomeDataModel18StaticMatterDeviceV
+- _symbolic _____Sg 13HomeDataModel19StaticCameraProfileV
+- _symbolic _____Sg 13HomeDataModel20StaticCharacteristicV12LoadingStateO
+- _symbolic _____Sg 14HomeAppIntents10ZoneEntityV
+- _symbolic ______p 10AppIntents0A6EntityP
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel13StaticServiceV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel15StaticAccessoryV
+- _symbolic _____y______pG s23_ContiguousArrayStorageC 10AppIntents0D6EntityP
+- _type_layout_string 14HomeAppIntents24AnnotationEntityProviderV
+CStrings:
++ "Unable To Complete Operation"
++ "unableToCompleteOperation"
+- "Unable To Complete Opearation"
+- "unableToCompleteOpearation"
+
+```

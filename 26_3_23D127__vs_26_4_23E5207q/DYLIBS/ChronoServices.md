@@ -1,0 +1,861 @@
+## ChronoServices
+
+> `/System/Library/PrivateFrameworks/ChronoServices.framework/ChronoServices`
+
+```diff
+
+-664.3.5.100.0
+-  __TEXT.__text: 0xebe7c
+-  __TEXT.__auth_stubs: 0x26b0
+-  __TEXT.__objc_methlist: 0x7e2c
+-  __TEXT.__const: 0x6d88
+-  __TEXT.__gcc_except_tab: 0xab64
+-  __TEXT.__cstring: 0x7a04
+-  __TEXT.__oslogstring: 0x469e
++664.4.35.101.0
++  __TEXT.__text: 0xf4380
++  __TEXT.__auth_stubs: 0x2670
++  __TEXT.__objc_methlist: 0x7e24
++  __TEXT.__const: 0x6d98
++  __TEXT.__gcc_except_tab: 0xacb4
++  __TEXT.__cstring: 0x53a5
++  __TEXT.__oslogstring: 0x46de
+   __TEXT.__dlopen_cstrs: 0x182
+-  __TEXT.__swift5_typeref: 0x228c
++  __TEXT.__swift5_typeref: 0x2314
+   __TEXT.__swift5_capture: 0xa58
+-  __TEXT.__swift5_reflstr: 0x1805
++  __TEXT.__swift5_reflstr: 0x1865
+   __TEXT.__swift5_assocty: 0x470
+-  __TEXT.__constg_swiftt: 0x29c4
+-  __TEXT.__swift5_fieldmd: 0x157c
++  __TEXT.__constg_swiftt: 0x2a04
++  __TEXT.__swift5_fieldmd: 0x1594
+   __TEXT.__swift5_builtin: 0x154
+-  __TEXT.__swift5_proto: 0x4d0
++  __TEXT.__swift5_proto: 0x4d4
+   __TEXT.__swift5_types: 0x1d8
+   __TEXT.__swift5_mpenum: 0x24
+   __TEXT.__swift_as_entry: 0x54
+   __TEXT.__swift_as_ret: 0x54
+   __TEXT.__swift5_protos: 0x44
+-  __TEXT.__unwind_info: 0x6608
+-  __TEXT.__eh_frame: 0x3160
+-  __TEXT.__objc_classname: 0x13b1
+-  __TEXT.__objc_methname: 0xde57
+-  __TEXT.__objc_methtype: 0x2463
+-  __TEXT.__objc_stubs: 0x61e0
+-  __DATA_CONST.__got: 0xa68
+-  __DATA_CONST.__const: 0x1d48
++  __TEXT.__unwind_info: 0x67c8
++  __TEXT.__eh_frame: 0x3210
++  __TEXT.__objc_classname: 0x1e59
++  __TEXT.__objc_methname: 0xf775
++  __TEXT.__objc_methtype: 0x2b8c
++  __TEXT.__objc_stubs: 0x7560
++  __DATA_CONST.__got: 0xa78
++  __DATA_CONST.__const: 0x1d88
+   __DATA_CONST.__objc_classlist: 0x5d0
+   __DATA_CONST.__objc_nlclslist: 0x8
+   __DATA_CONST.__objc_catlist: 0x20
+
+   __DATA_CONST.__objc_protorefs: 0xf0
+   __DATA_CONST.__objc_superrefs: 0x328
+   __DATA_CONST.__objc_arraydata: 0x50
+-  __AUTH_CONST.__auth_got: 0x1370
+-  __AUTH_CONST.__const: 0x5568
+-  __AUTH_CONST.__cfstring: 0x4f40
+-  __AUTH_CONST.__objc_const: 0x1f0a8
++  __AUTH_CONST.__auth_got: 0x1350
++  __AUTH_CONST.__const: 0x5500
++  __AUTH_CONST.__cfstring: 0x4f20
++  __AUTH_CONST.__objc_const: 0x1f0e8
+   __AUTH_CONST.__objc_arrayobj: 0x18
+   __AUTH_CONST.__objc_intobj: 0xd8
+   __AUTH_CONST.__objc_dictobj: 0xa0
+   __AUTH.__objc_data: 0x3078
+-  __AUTH.__data: 0x2388
++  __AUTH.__data: 0x23d8
+   __DATA.__objc_ivar: 0x728
+-  __DATA.__data: 0x2cc0
+-  __DATA.__bss: 0x8ab0
++  __DATA.__data: 0x2d00
++  __DATA.__bss: 0x8b40
+   __DATA.__common: 0x150
+   __DATA_DIRTY.__objc_data: 0xcd0
+-  __DATA_DIRTY.__data: 0x238
++  __DATA_DIRTY.__data: 0x278
+   __DATA_DIRTY.__bss: 0x9b0
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+-  - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6B759F31-C4D2-3346-8E63-8DE54BBCC367
+-  Functions: 6726
+-  Symbols:   12341
+-  CStrings:  4982
++  UUID: FE65B75B-723B-38F3-9FF0-51C7FE9B9583
++  Functions: 6753
++  Symbols:   12522
++  CStrings:  4924
+ 
+Symbols:
++ -[CHSMutableWidgetExtensionInfo setActivityURLs:]
++ -[CHSWidgetExtensionInfo activityURLs]
++ GCC_except_table130
++ GCC_except_table137
++ GCC_except_table146
++ GCC_except_table153
++ GCC_except_table154
++ GCC_except_table161
++ GCC_except_table162
++ GCC_except_table169
++ GCC_except_table182
++ GCC_except_table194
++ GCC_except_table195
++ GCC_except_table199
++ GCC_except_table200
++ GCC_except_table203
++ GCC_except_table206
++ GCC_except_table209
++ GCC_except_table210
++ GCC_except_table213
++ GCC_except_table214
++ GCC_except_table218
++ GCC_except_table222
++ GCC_except_table248
++ GCC_except_table255
++ GCC_except_table259
++ GCC_except_table266
++ GCC_except_table267
++ GCC_except_table272
++ GCC_except_table273
++ GCC_except_table279
++ GCC_except_table283
++ GCC_except_table287
++ GCC_except_table78
++ OBJC_IVAR_$_CHSWidgetExtensionInfo._activityURLs
++ _OUTLINED_FUNCTION_4
++ _OUTLINED_FUNCTION_5
++ _OUTLINED_FUNCTION_6
++ _OUTLINED_FUNCTION_7
++ __PROTOCOLS_CHSRemoteDevicePredicate.3
++ __PROTOCOLS__TtCE14ChronoServicesCSo25CHSWidgetRelevanceService16ConnectionClient.53
++ __ZNKSt3__110__function6__funcIZ112-[AFBBufferBuilder(_CHSWidgetRelevancePropertiesBuf) _chsCreateVectorOfWidgetRelevancePropertiesBufWithOffsets:]E3$_2FN5apple4aiml12flatbuffers26OffsetIvEEmEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ112-[AFBBufferBuilder(_CHSWidgetRelevancePropertiesBuf) _chsCreateVectorOfWidgetRelevancePropertiesBufWithOffsets:]E3$_2FN5apple4aiml12flatbuffers26OffsetIvEEmEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ112-[AFBBufferBuilder(_CHSWidgetRelevancePropertiesBuf) _chsCreateVectorOfWidgetRelevancePropertiesBufWithOffsets:]E3$_2FN5apple4aiml12flatbuffers26OffsetIvEEmEE7__cloneEPNS0_6__baseIS8_EE
++ __ZNKSt3__110__function6__funcIZ112-[AFBBufferBuilder(_CHSWidgetRelevancePropertiesBuf) _chsCreateVectorOfWidgetRelevancePropertiesBufWithOffsets:]E3$_2FN5apple4aiml12flatbuffers26OffsetIvEEmEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ90-[AFBBufferBuilder(_CHSRelevanceCacheBuf) _chsCreateVectorOfRelevanceCacheBufWithOffsets:]E3$_0FN5apple4aiml12flatbuffers26OffsetIvEEmEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ90-[AFBBufferBuilder(_CHSRelevanceCacheBuf) _chsCreateVectorOfRelevanceCacheBufWithOffsets:]E3$_0FN5apple4aiml12flatbuffers26OffsetIvEEmEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ90-[AFBBufferBuilder(_CHSRelevanceCacheBuf) _chsCreateVectorOfRelevanceCacheBufWithOffsets:]E3$_0FN5apple4aiml12flatbuffers26OffsetIvEEmEE7__cloneEPNS0_6__baseIS8_EE
++ __ZNKSt3__110__function6__funcIZ90-[AFBBufferBuilder(_CHSRelevanceCacheBuf) _chsCreateVectorOfRelevanceCacheBufWithOffsets:]E3$_0FN5apple4aiml12flatbuffers26OffsetIvEEmEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSIntentReferenceBuf) _chsCreateVectorOfIntentReferenceBufWithOffsets:]E3$_4FN5apple4aiml12flatbuffers26OffsetIvEEmEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSIntentReferenceBuf) _chsCreateVectorOfIntentReferenceBufWithOffsets:]E3$_4FN5apple4aiml12flatbuffers26OffsetIvEEmEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSIntentReferenceBuf) _chsCreateVectorOfIntentReferenceBufWithOffsets:]E3$_4FN5apple4aiml12flatbuffers26OffsetIvEEmEE7__cloneEPNS0_6__baseIS8_EE
++ __ZNKSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSIntentReferenceBuf) _chsCreateVectorOfIntentReferenceBufWithOffsets:]E3$_4FN5apple4aiml12flatbuffers26OffsetIvEEmEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSWidgetRelevanceBuf) _chsCreateVectorOfWidgetRelevanceBufWithOffsets:]E3$_3FN5apple4aiml12flatbuffers26OffsetIvEEmEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSWidgetRelevanceBuf) _chsCreateVectorOfWidgetRelevanceBufWithOffsets:]E3$_3FN5apple4aiml12flatbuffers26OffsetIvEEmEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSWidgetRelevanceBuf) _chsCreateVectorOfWidgetRelevanceBufWithOffsets:]E3$_3FN5apple4aiml12flatbuffers26OffsetIvEEmEE7__cloneEPNS0_6__baseIS8_EE
++ __ZNKSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSWidgetRelevanceBuf) _chsCreateVectorOfWidgetRelevanceBufWithOffsets:]E3$_3FN5apple4aiml12flatbuffers26OffsetIvEEmEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ96-[AFBBufferBuilder(_CHSExtensionIdentityBuf) _chsCreateVectorOfExtensionIdentityBufWithOffsets:]E3$_1FN5apple4aiml12flatbuffers26OffsetIvEEmEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ96-[AFBBufferBuilder(_CHSExtensionIdentityBuf) _chsCreateVectorOfExtensionIdentityBufWithOffsets:]E3$_1FN5apple4aiml12flatbuffers26OffsetIvEEmEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ96-[AFBBufferBuilder(_CHSExtensionIdentityBuf) _chsCreateVectorOfExtensionIdentityBufWithOffsets:]E3$_1FN5apple4aiml12flatbuffers26OffsetIvEEmEE7__cloneEPNS0_6__baseIS8_EE
++ __ZNKSt3__110__function6__funcIZ96-[AFBBufferBuilder(_CHSExtensionIdentityBuf) _chsCreateVectorOfExtensionIdentityBufWithOffsets:]E3$_1FN5apple4aiml12flatbuffers26OffsetIvEEmEE7__cloneEv
++ __ZNKSt9type_infoeqB9foe210106ERKS_
++ __ZNSt12length_errorC1B9foe210106EPKc
++ __ZNSt3__110__function12__value_funcIFN5apple4aiml12flatbuffers26OffsetIvEEmEED2B9foe210106Ev
++ __ZNSt3__110__function6__funcIZ112-[AFBBufferBuilder(_CHSWidgetRelevancePropertiesBuf) _chsCreateVectorOfWidgetRelevancePropertiesBufWithOffsets:]E3$_2FN5apple4aiml12flatbuffers26OffsetIvEEmEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ112-[AFBBufferBuilder(_CHSWidgetRelevancePropertiesBuf) _chsCreateVectorOfWidgetRelevancePropertiesBufWithOffsets:]E3$_2FN5apple4aiml12flatbuffers26OffsetIvEEmEE7destroyEv
++ __ZNSt3__110__function6__funcIZ112-[AFBBufferBuilder(_CHSWidgetRelevancePropertiesBuf) _chsCreateVectorOfWidgetRelevancePropertiesBufWithOffsets:]E3$_2FN5apple4aiml12flatbuffers26OffsetIvEEmEED0Ev
++ __ZNSt3__110__function6__funcIZ112-[AFBBufferBuilder(_CHSWidgetRelevancePropertiesBuf) _chsCreateVectorOfWidgetRelevancePropertiesBufWithOffsets:]E3$_2FN5apple4aiml12flatbuffers26OffsetIvEEmEED1Ev
++ __ZNSt3__110__function6__funcIZ112-[AFBBufferBuilder(_CHSWidgetRelevancePropertiesBuf) _chsCreateVectorOfWidgetRelevancePropertiesBufWithOffsets:]E3$_2FN5apple4aiml12flatbuffers26OffsetIvEEmEEclEOm
++ __ZNSt3__110__function6__funcIZ90-[AFBBufferBuilder(_CHSRelevanceCacheBuf) _chsCreateVectorOfRelevanceCacheBufWithOffsets:]E3$_0FN5apple4aiml12flatbuffers26OffsetIvEEmEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ90-[AFBBufferBuilder(_CHSRelevanceCacheBuf) _chsCreateVectorOfRelevanceCacheBufWithOffsets:]E3$_0FN5apple4aiml12flatbuffers26OffsetIvEEmEE7destroyEv
++ __ZNSt3__110__function6__funcIZ90-[AFBBufferBuilder(_CHSRelevanceCacheBuf) _chsCreateVectorOfRelevanceCacheBufWithOffsets:]E3$_0FN5apple4aiml12flatbuffers26OffsetIvEEmEED0Ev
++ __ZNSt3__110__function6__funcIZ90-[AFBBufferBuilder(_CHSRelevanceCacheBuf) _chsCreateVectorOfRelevanceCacheBufWithOffsets:]E3$_0FN5apple4aiml12flatbuffers26OffsetIvEEmEED1Ev
++ __ZNSt3__110__function6__funcIZ90-[AFBBufferBuilder(_CHSRelevanceCacheBuf) _chsCreateVectorOfRelevanceCacheBufWithOffsets:]E3$_0FN5apple4aiml12flatbuffers26OffsetIvEEmEEclEOm
++ __ZNSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSIntentReferenceBuf) _chsCreateVectorOfIntentReferenceBufWithOffsets:]E3$_4FN5apple4aiml12flatbuffers26OffsetIvEEmEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSIntentReferenceBuf) _chsCreateVectorOfIntentReferenceBufWithOffsets:]E3$_4FN5apple4aiml12flatbuffers26OffsetIvEEmEE7destroyEv
++ __ZNSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSIntentReferenceBuf) _chsCreateVectorOfIntentReferenceBufWithOffsets:]E3$_4FN5apple4aiml12flatbuffers26OffsetIvEEmEED0Ev
++ __ZNSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSIntentReferenceBuf) _chsCreateVectorOfIntentReferenceBufWithOffsets:]E3$_4FN5apple4aiml12flatbuffers26OffsetIvEEmEED1Ev
++ __ZNSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSIntentReferenceBuf) _chsCreateVectorOfIntentReferenceBufWithOffsets:]E3$_4FN5apple4aiml12flatbuffers26OffsetIvEEmEEclEOm
++ __ZNSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSWidgetRelevanceBuf) _chsCreateVectorOfWidgetRelevanceBufWithOffsets:]E3$_3FN5apple4aiml12flatbuffers26OffsetIvEEmEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSWidgetRelevanceBuf) _chsCreateVectorOfWidgetRelevanceBufWithOffsets:]E3$_3FN5apple4aiml12flatbuffers26OffsetIvEEmEE7destroyEv
++ __ZNSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSWidgetRelevanceBuf) _chsCreateVectorOfWidgetRelevanceBufWithOffsets:]E3$_3FN5apple4aiml12flatbuffers26OffsetIvEEmEED0Ev
++ __ZNSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSWidgetRelevanceBuf) _chsCreateVectorOfWidgetRelevanceBufWithOffsets:]E3$_3FN5apple4aiml12flatbuffers26OffsetIvEEmEED1Ev
++ __ZNSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSWidgetRelevanceBuf) _chsCreateVectorOfWidgetRelevanceBufWithOffsets:]E3$_3FN5apple4aiml12flatbuffers26OffsetIvEEmEEclEOm
++ __ZNSt3__110__function6__funcIZ96-[AFBBufferBuilder(_CHSExtensionIdentityBuf) _chsCreateVectorOfExtensionIdentityBufWithOffsets:]E3$_1FN5apple4aiml12flatbuffers26OffsetIvEEmEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ96-[AFBBufferBuilder(_CHSExtensionIdentityBuf) _chsCreateVectorOfExtensionIdentityBufWithOffsets:]E3$_1FN5apple4aiml12flatbuffers26OffsetIvEEmEE7destroyEv
++ __ZNSt3__110__function6__funcIZ96-[AFBBufferBuilder(_CHSExtensionIdentityBuf) _chsCreateVectorOfExtensionIdentityBufWithOffsets:]E3$_1FN5apple4aiml12flatbuffers26OffsetIvEEmEED0Ev
++ __ZNSt3__110__function6__funcIZ96-[AFBBufferBuilder(_CHSExtensionIdentityBuf) _chsCreateVectorOfExtensionIdentityBufWithOffsets:]E3$_1FN5apple4aiml12flatbuffers26OffsetIvEEmEED1Ev
++ __ZNSt3__110__function6__funcIZ96-[AFBBufferBuilder(_CHSExtensionIdentityBuf) _chsCreateVectorOfExtensionIdentityBufWithOffsets:]E3$_1FN5apple4aiml12flatbuffers26OffsetIvEEmEEclEOm
++ __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN5apple4aiml12flatbuffers26OffsetIvEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__120__throw_length_errorB9foe210106EPKc
++ __ZNSt3__125__throw_bad_function_callB9foe210106Ev
++ __ZNSt3__132__internal_log_hardening_failureEPKc
++ __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetIvEENS_9allocatorIS5_EEE11__vallocateB9foe210106Em
++ __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetIvEENS_9allocatorIS5_EEE20__throw_length_errorB9foe210106Ev
++ __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetIvEENS_9allocatorIS5_EEEC2B9foe210106Em
++ __ZSt28__throw_bad_array_new_lengthB9foe210106v
++ __ZTINSt3__110__function6__funcIZ112-[AFBBufferBuilder(_CHSWidgetRelevancePropertiesBuf) _chsCreateVectorOfWidgetRelevancePropertiesBufWithOffsets:]E3$_2FN5apple4aiml12flatbuffers26OffsetIvEEmEEE
++ __ZTINSt3__110__function6__funcIZ90-[AFBBufferBuilder(_CHSRelevanceCacheBuf) _chsCreateVectorOfRelevanceCacheBufWithOffsets:]E3$_0FN5apple4aiml12flatbuffers26OffsetIvEEmEEE
++ __ZTINSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSIntentReferenceBuf) _chsCreateVectorOfIntentReferenceBufWithOffsets:]E3$_4FN5apple4aiml12flatbuffers26OffsetIvEEmEEE
++ __ZTINSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSWidgetRelevanceBuf) _chsCreateVectorOfWidgetRelevanceBufWithOffsets:]E3$_3FN5apple4aiml12flatbuffers26OffsetIvEEmEEE
++ __ZTINSt3__110__function6__funcIZ96-[AFBBufferBuilder(_CHSExtensionIdentityBuf) _chsCreateVectorOfExtensionIdentityBufWithOffsets:]E3$_1FN5apple4aiml12flatbuffers26OffsetIvEEmEEE
++ __ZTSNSt3__110__function6__funcIZ112-[AFBBufferBuilder(_CHSWidgetRelevancePropertiesBuf) _chsCreateVectorOfWidgetRelevancePropertiesBufWithOffsets:]E3$_2FN5apple4aiml12flatbuffers26OffsetIvEEmEEE
++ __ZTSNSt3__110__function6__funcIZ90-[AFBBufferBuilder(_CHSRelevanceCacheBuf) _chsCreateVectorOfRelevanceCacheBufWithOffsets:]E3$_0FN5apple4aiml12flatbuffers26OffsetIvEEmEEE
++ __ZTSNSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSIntentReferenceBuf) _chsCreateVectorOfIntentReferenceBufWithOffsets:]E3$_4FN5apple4aiml12flatbuffers26OffsetIvEEmEEE
++ __ZTSNSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSWidgetRelevanceBuf) _chsCreateVectorOfWidgetRelevanceBufWithOffsets:]E3$_3FN5apple4aiml12flatbuffers26OffsetIvEEmEEE
++ __ZTSNSt3__110__function6__funcIZ96-[AFBBufferBuilder(_CHSExtensionIdentityBuf) _chsCreateVectorOfExtensionIdentityBufWithOffsets:]E3$_1FN5apple4aiml12flatbuffers26OffsetIvEEmEEE
++ __ZTVNSt3__110__function6__funcIZ112-[AFBBufferBuilder(_CHSWidgetRelevancePropertiesBuf) _chsCreateVectorOfWidgetRelevancePropertiesBufWithOffsets:]E3$_2FN5apple4aiml12flatbuffers26OffsetIvEEmEEE
++ __ZTVNSt3__110__function6__funcIZ90-[AFBBufferBuilder(_CHSRelevanceCacheBuf) _chsCreateVectorOfRelevanceCacheBufWithOffsets:]E3$_0FN5apple4aiml12flatbuffers26OffsetIvEEmEEE
++ __ZTVNSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSIntentReferenceBuf) _chsCreateVectorOfIntentReferenceBufWithOffsets:]E3$_4FN5apple4aiml12flatbuffers26OffsetIvEEmEEE
++ __ZTVNSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSWidgetRelevanceBuf) _chsCreateVectorOfWidgetRelevanceBufWithOffsets:]E3$_3FN5apple4aiml12flatbuffers26OffsetIvEEmEEE
++ __ZTVNSt3__110__function6__funcIZ96-[AFBBufferBuilder(_CHSExtensionIdentityBuf) _chsCreateVectorOfExtensionIdentityBufWithOffsets:]E3$_1FN5apple4aiml12flatbuffers26OffsetIvEEmEEE
++ _block_copy_helper.100
++ _block_copy_helper.103
++ _block_copy_helper.106
++ _block_copy_helper.112
++ _block_copy_helper.115
++ _block_copy_helper.118
++ _block_copy_helper.121
++ _block_copy_helper.130
++ _block_copy_helper.133
++ _block_copy_helper.139
++ _block_copy_helper.142
++ _block_copy_helper.148
++ _block_copy_helper.154
++ _block_copy_helper.190
++ _block_copy_helper.196
++ _block_copy_helper.202
++ _block_copy_helper.208
++ _block_copy_helper.214
++ _block_copy_helper.22
++ _block_copy_helper.220
++ _block_copy_helper.226
++ _block_copy_helper.232
++ _block_copy_helper.238
++ _block_copy_helper.244
++ _block_copy_helper.250
++ _block_copy_helper.256
++ _block_copy_helper.262
++ _block_copy_helper.268
++ _block_copy_helper.274
++ _block_copy_helper.280
++ _block_copy_helper.286
++ _block_copy_helper.292
++ _block_copy_helper.298
++ _block_copy_helper.304
++ _block_copy_helper.310
++ _block_copy_helper.316
++ _block_copy_helper.322
++ _block_copy_helper.328
++ _block_copy_helper.334
++ _block_copy_helper.340
++ _block_copy_helper.347
++ _block_copy_helper.36
++ _block_copy_helper.61
++ _block_copy_helper.64
++ _block_copy_helper.70
++ _block_copy_helper.72
++ _block_copy_helper.82
++ _block_copy_helper.87
++ _block_copy_helper.94
++ _block_descriptor.102
++ _block_descriptor.105
++ _block_descriptor.108
++ _block_descriptor.114
++ _block_descriptor.117
++ _block_descriptor.120
++ _block_descriptor.123
++ _block_descriptor.132
++ _block_descriptor.135
++ _block_descriptor.141
++ _block_descriptor.144
++ _block_descriptor.150
++ _block_descriptor.156
++ _block_descriptor.192
++ _block_descriptor.198
++ _block_descriptor.204
++ _block_descriptor.210
++ _block_descriptor.216
++ _block_descriptor.222
++ _block_descriptor.228
++ _block_descriptor.234
++ _block_descriptor.24
++ _block_descriptor.240
++ _block_descriptor.246
++ _block_descriptor.252
++ _block_descriptor.258
++ _block_descriptor.264
++ _block_descriptor.270
++ _block_descriptor.276
++ _block_descriptor.282
++ _block_descriptor.288
++ _block_descriptor.294
++ _block_descriptor.300
++ _block_descriptor.306
++ _block_descriptor.312
++ _block_descriptor.318
++ _block_descriptor.324
++ _block_descriptor.330
++ _block_descriptor.336
++ _block_descriptor.342
++ _block_descriptor.349
++ _block_descriptor.38
++ _block_descriptor.63
++ _block_descriptor.66
++ _block_descriptor.72
++ _block_descriptor.74
++ _block_descriptor.84
++ _block_descriptor.89
++ _block_descriptor.96
++ _block_destroy_helper.101
++ _block_destroy_helper.104
++ _block_destroy_helper.107
++ _block_destroy_helper.113
++ _block_destroy_helper.116
++ _block_destroy_helper.119
++ _block_destroy_helper.122
++ _block_destroy_helper.131
++ _block_destroy_helper.134
++ _block_destroy_helper.140
++ _block_destroy_helper.143
++ _block_destroy_helper.149
++ _block_destroy_helper.155
++ _block_destroy_helper.191
++ _block_destroy_helper.197
++ _block_destroy_helper.203
++ _block_destroy_helper.209
++ _block_destroy_helper.215
++ _block_destroy_helper.221
++ _block_destroy_helper.227
++ _block_destroy_helper.23
++ _block_destroy_helper.233
++ _block_destroy_helper.239
++ _block_destroy_helper.245
++ _block_destroy_helper.251
++ _block_destroy_helper.257
++ _block_destroy_helper.263
++ _block_destroy_helper.269
++ _block_destroy_helper.275
++ _block_destroy_helper.281
++ _block_destroy_helper.287
++ _block_destroy_helper.293
++ _block_destroy_helper.299
++ _block_destroy_helper.305
++ _block_destroy_helper.311
++ _block_destroy_helper.317
++ _block_destroy_helper.323
++ _block_destroy_helper.329
++ _block_destroy_helper.335
++ _block_destroy_helper.341
++ _block_destroy_helper.348
++ _block_destroy_helper.37
++ _block_destroy_helper.62
++ _block_destroy_helper.65
++ _block_destroy_helper.71
++ _block_destroy_helper.73
++ _block_destroy_helper.83
++ _block_destroy_helper.88
++ _block_destroy_helper.95
++ _keypath_set.98Tm
++ _objc_msgSend$CGImage
++ _objc_msgSend$URLForDirectory:inDomain:appropriateForURL:create:error:
++ _objc_msgSend$_asMigratedAppIntent
++ _objc_msgSend$_chsFinishedBufferWithRootRelevanceCacheBufOfs:error:
++ _objc_msgSend$_loggingIdentifier
++ _objc_msgSend$_partialConfigData
++ _objc_msgSend$_partialSchemaData
++ _objc_msgSend$actionMetadata
++ _objc_msgSend$activityAttributesType
++ _objc_msgSend$addObserver:forKeyPath:options:context:
++ _objc_msgSend$all
++ _objc_msgSend$archivedObjectsAsData
++ _objc_msgSend$attribute
++ _objc_msgSend$attributesOfItemAtPath:error:
++ _objc_msgSend$automaticallyOrphaned
++ _objc_msgSend$bundleIDForPlatform:fromBundleID:platform:
++ _objc_msgSend$closeAndReturnError:
++ _objc_msgSend$configurationIdentifier
++ _objc_msgSend$containerBundleLocalizedDisplayName
++ _objc_msgSend$contentType
++ _objc_msgSend$contentsOfDirectoryAtPath:error:
++ _objc_msgSend$contentsOfDirectoryAtURL:includingPropertiesForKeys:options:error:
++ _objc_msgSend$control
++ _objc_msgSend$controlDescriptorMatching:completion:
++ _objc_msgSend$controlsPredicate
++ _objc_msgSend$copyItemAtURL:toURL:error:
++ _objc_msgSend$createFileAtPath:contents:attributes:
++ _objc_msgSend$createString:
++ _objc_msgSend$createVectorOfUInt8WithData:alignment:
++ _objc_msgSend$dataWithPropertyList:format:options:error:
++ _objc_msgSend$encodingError:
++ _objc_msgSend$equivalentBundleIdentifiersForBundleIdentifier:
++ _objc_msgSend$eventType
++ _objc_msgSend$expirationTimeout
++ _objc_msgSend$extensionForExtensionIdentity:
++ _objc_msgSend$extensionIdentities
++ _objc_msgSend$fetchControlDescriptorsForExtensionBundleIdentifier:userInitiated:reason:completion:
++ _objc_msgSend$fileExistsAtPath:isDirectory:
++ _objc_msgSend$fileHandleForReadingFromURL:error:
++ _objc_msgSend$genericApplicationIcon
++ _objc_msgSend$getCGImageForImageDescriptor:completion:
++ _objc_msgSend$getWidgetIconWithCompletion:
++ _objc_msgSend$globallyUniqueString
++ _objc_msgSend$hiddenControl
++ _objc_msgSend$hostIdentifier
++ _objc_msgSend$image
++ _objc_msgSend$imageDescriptorNamed:
++ _objc_msgSend$includeHidden
++ _objc_msgSend$includeOnlyRemoteEligible
++ _objc_msgSend$includeRelevanceBacked
++ _objc_msgSend$includeRemote
++ _objc_msgSend$includeVisible
++ _objc_msgSend$initIncludingVisible:hidden:
++ _objc_msgSend$initVerifiedRootObjectFromData:
++ _objc_msgSend$initWithAttribute:intentReference:
++ _objc_msgSend$initWithBool:
++ _objc_msgSend$initWithBundleIdentifier:
++ _objc_msgSend$initWithBytes:length:encoding:
++ _objc_msgSend$initWithCGImage:scale:
++ _objc_msgSend$initWithCategoriesPrimitives:
++ _objc_msgSend$initWithConnection:cacheURL:options:
++ _objc_msgSend$initWithControl:contentType:hostIdentifier:configurationIdentifier:
++ _objc_msgSend$initWithControlItems:
++ _objc_msgSend$initWithControlItems:automaticallyOrphaned:
++ _objc_msgSend$initWithControlItems:replicationPredicate:
++ _objc_msgSend$initWithControlItems:replicationPredicate:automaticallyOrphaned:
++ _objc_msgSend$initWithDouble:
++ _objc_msgSend$initWithExtensions:iconResolver:
++ _objc_msgSend$initWithFileAtPath:protection:capacity:error:
++ _objc_msgSend$initWithIdentifier:
++ _objc_msgSend$initWithIdentifier:configuration:
++ _objc_msgSend$initWithImage:size:scale:pixelSize:
++ _objc_msgSend$initWithImages:
++ _objc_msgSend$initWithInteger:
++ _objc_msgSend$initWithItem:
++ _objc_msgSend$initWithObject:
++ _objc_msgSend$initWithSize:scale:
++ _objc_msgSend$initWithSuiteName:
++ _objc_msgSend$initWithUniqueIdentifier:controlIdentity:
++ _objc_msgSend$initWithUniqueIdentifier:controlIdentity:location:
++ _objc_msgSend$initWithUnsignedInteger:
++ _objc_msgSend$initWithUnsignedLongLong:
++ _objc_msgSend$initWithWidgetsPredicate:controlsPredicate:
++ _objc_msgSend$intentDataAsData
++ _objc_msgSend$invalidateControlHost:
++ _objc_msgSend$isCameraCapture
++ _objc_msgSend$isLauncher
++ _objc_msgSend$isRelevanceBacked
++ _objc_msgSend$key
++ _objc_msgSend$linkAction
++ _objc_msgSend$localizedContainerDisplayName
++ _objc_msgSend$moveItemAtPath:toPath:error:
++ _objc_msgSend$moveItemAtURL:toURL:error:
++ _objc_msgSend$outputFlags
++ _objc_msgSend$partialIntentDataAsData
++ _objc_msgSend$performControlAction:completion:
++ _objc_msgSend$pixelSize
++ _objc_msgSend$placeholder
++ _objc_msgSend$prepareImageForDescriptor:
++ _objc_msgSend$reloadControlsForExtension:kind:reason:
++ _objc_msgSend$reloadEvent
++ _objc_msgSend$reloadWidgetRelevanceForExtensionIdentity:kind:completion:
++ _objc_msgSend$remoteWidgetInclusions
++ _objc_msgSend$removeItemAtPath:error:
++ _objc_msgSend$removeObserver:forKeyPath:
++ _objc_msgSend$replicationPredicate
++ _objc_msgSend$requestedDataProtection
++ _objc_msgSend$resolveBundleIdentifier:from:to:
++ _objc_msgSend$resolveISIconForContainerIdentity:completion:
++ _objc_msgSend$resolveIconVersionForExtensionIdentity:
++ _objc_msgSend$resolveWidgetIconForContainerIdentity:completion:
++ _objc_msgSend$schemaDataAsData
++ _objc_msgSend$sendPushToken:completion:
++ _objc_msgSend$sendPushUpdate:completion:
++ _objc_msgSend$setCanKeepAlive:
++ _objc_msgSend$setCanOpenSystemURLs:
++ _objc_msgSend$setContainerBundleLocalizedDisplayName:
++ _objc_msgSend$setControlState:completion:
++ _objc_msgSend$setEntitlements:
++ _objc_msgSend$setEnvironmentModifiers:forSession:
++ _objc_msgSend$setIdentity:
++ _objc_msgSend$setImage:
++ _objc_msgSend$setIncludeOnlyRemoteEligible:
++ _objc_msgSend$setIncludeRemote:
++ _objc_msgSend$setInvalidatesOnStorefrontChange:
++ _objc_msgSend$setIsCameraCapture:
++ _objc_msgSend$setIsLauncher:
++ _objc_msgSend$setLocalizedDisplayName:
++ _objc_msgSend$setPixelSize:
++ _objc_msgSend$setRemoteWidgetInclusions:
++ _objc_msgSend$setScale:
++ _objc_msgSend$setShape:
++ _objc_msgSend$setShouldApplyMask:
++ _objc_msgSend$setSize:
++ _objc_msgSend$setTaskPriority:forSession:
++ _objc_msgSend$setUsesEventService:
++ _objc_msgSend$setVisibility:forSession:
++ _objc_msgSend$sharedCategories
++ _objc_msgSend$standardUserDefaults
++ _objc_msgSend$subpathsOfDirectoryAtPath:error:
++ _objc_msgSend$subscribeToSessionWithRequest:completion:
++ _objc_msgSend$subscribeToTimelineEntryRelevance:outTimelineEntryRelevance:
++ _objc_msgSend$subscribeToWidgetRelevanceEvents:
++ _objc_msgSend$succinctDescriptionWithBundleIDWithoutFullIdentity
++ _objc_msgSend$supportsForwardingToRemoteDevices
++ _objc_msgSend$temporaryDirectory
++ _objc_msgSend$timelineEntryRelevancesDidChangeForRelevanceService:
++ _objc_msgSend$unsubscribeFromSession:
++ _objc_msgSend$unsubscribeToPushes:completion:
++ _objc_msgSend$updateControlHost:activationState:
++ _objc_msgSend$updateControlHost:configuration:activationState:
++ _objc_msgSend$valueForComponent:
++ _objc_msgSend$valueForKey:
++ _objc_msgSend$visible
++ _objc_msgSend$widgetRelevancesDidChangeForRelevanceService:
++ _objc_msgSend$widgetsPredicate
++ _objectdestroy.152Tm
++ _objectdestroy.200Tm
++ _objectdestroy.206Tm
++ _objectdestroy.212Tm
++ _objectdestroy.302Tm
++ _objectdestroy.67Tm
++ _objectdestroy.76Tm
++ _objectdestroy.92Tm
++ _swift_unknownObjectRelease_n
++ _symbolic _____Sg 10Foundation4DateV
++ _symbolic _____Sg20internalDefaultValue_t 10Foundation4DateV
++ _symbolic _____SgSg 10Foundation4DateV
++ _symbolic _____SgSg_ACt 10Foundation4DateV
++ _symbolic _____Sg_ABt 10Foundation4DateV
++ _symbolic _____y_____SgG 14ChronoServices11UserDefaultC 10Foundation4DateV
++ _symbolic _____y_____Sg_G 14ChronoServices11UserDefaultC23AppleInternalOnlyOptionO 10Foundation4DateV
++ _symbolic _____y_____Sg_G 14ChronoServices11UserDefaultC24_KVOUserDefaultsObserver33_D5899A4E53F7E8668E4FAF82ABDBE5C1LLC 10Foundation4DateV
++ _symbolic _____y_____Sg_____G 7Combine18PassthroughSubjectC 10Foundation4DateV s5NeverO
+- -[CHSMutableWidgetDescriptor setTargetLiveSceneBundleIdentifier:]
+- -[CHSWidgetDescriptor targetLiveSceneBundleIdentifier]
+- GCC_except_table105
+- GCC_except_table106
+- GCC_except_table131
+- GCC_except_table140
+- GCC_except_table148
+- GCC_except_table158
+- GCC_except_table159
+- GCC_except_table163
+- GCC_except_table167
+- GCC_except_table168
+- GCC_except_table171
+- GCC_except_table183
+- GCC_except_table196
+- GCC_except_table197
+- GCC_except_table201
+- GCC_except_table204
+- GCC_except_table205
+- GCC_except_table208
+- GCC_except_table211
+- GCC_except_table212
+- GCC_except_table216
+- GCC_except_table219
+- GCC_except_table220
+- GCC_except_table223
+- GCC_except_table254
+- GCC_except_table261
+- GCC_except_table269
+- GCC_except_table270
+- GCC_except_table274
+- GCC_except_table276
+- GCC_except_table278
+- GCC_except_table282
+- GCC_except_table285
+- GCC_except_table288
+- GCC_except_table72
+- GCC_except_table83
+- GCC_except_table90
+- GCC_except_table99
+- OBJC_IVAR_$_CHSWidgetDescriptor._targetLiveSceneBundleIdentifier
+- __PROTOCOLS_CHSRemoteDevicePredicate.2
+- __PROTOCOLS__TtCE14ChronoServicesCSo25CHSWidgetRelevanceService16ConnectionClient.52
+- __ZNKSt3__110__function6__funcIZ112-[AFBBufferBuilder(_CHSWidgetRelevancePropertiesBuf) _chsCreateVectorOfWidgetRelevancePropertiesBufWithOffsets:]E3$_2NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ112-[AFBBufferBuilder(_CHSWidgetRelevancePropertiesBuf) _chsCreateVectorOfWidgetRelevancePropertiesBufWithOffsets:]E3$_2NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ112-[AFBBufferBuilder(_CHSWidgetRelevancePropertiesBuf) _chsCreateVectorOfWidgetRelevancePropertiesBufWithOffsets:]E3$_2NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEE7__cloneEPNS0_6__baseISA_EE
+- __ZNKSt3__110__function6__funcIZ112-[AFBBufferBuilder(_CHSWidgetRelevancePropertiesBuf) _chsCreateVectorOfWidgetRelevancePropertiesBufWithOffsets:]E3$_2NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ90-[AFBBufferBuilder(_CHSRelevanceCacheBuf) _chsCreateVectorOfRelevanceCacheBufWithOffsets:]E3$_0NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ90-[AFBBufferBuilder(_CHSRelevanceCacheBuf) _chsCreateVectorOfRelevanceCacheBufWithOffsets:]E3$_0NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ90-[AFBBufferBuilder(_CHSRelevanceCacheBuf) _chsCreateVectorOfRelevanceCacheBufWithOffsets:]E3$_0NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEE7__cloneEPNS0_6__baseISA_EE
+- __ZNKSt3__110__function6__funcIZ90-[AFBBufferBuilder(_CHSRelevanceCacheBuf) _chsCreateVectorOfRelevanceCacheBufWithOffsets:]E3$_0NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSIntentReferenceBuf) _chsCreateVectorOfIntentReferenceBufWithOffsets:]E3$_4NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSIntentReferenceBuf) _chsCreateVectorOfIntentReferenceBufWithOffsets:]E3$_4NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSIntentReferenceBuf) _chsCreateVectorOfIntentReferenceBufWithOffsets:]E3$_4NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEE7__cloneEPNS0_6__baseISA_EE
+- __ZNKSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSIntentReferenceBuf) _chsCreateVectorOfIntentReferenceBufWithOffsets:]E3$_4NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSWidgetRelevanceBuf) _chsCreateVectorOfWidgetRelevanceBufWithOffsets:]E3$_3NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSWidgetRelevanceBuf) _chsCreateVectorOfWidgetRelevanceBufWithOffsets:]E3$_3NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSWidgetRelevanceBuf) _chsCreateVectorOfWidgetRelevanceBufWithOffsets:]E3$_3NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEE7__cloneEPNS0_6__baseISA_EE
+- __ZNKSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSWidgetRelevanceBuf) _chsCreateVectorOfWidgetRelevanceBufWithOffsets:]E3$_3NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ96-[AFBBufferBuilder(_CHSExtensionIdentityBuf) _chsCreateVectorOfExtensionIdentityBufWithOffsets:]E3$_1NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ96-[AFBBufferBuilder(_CHSExtensionIdentityBuf) _chsCreateVectorOfExtensionIdentityBufWithOffsets:]E3$_1NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ96-[AFBBufferBuilder(_CHSExtensionIdentityBuf) _chsCreateVectorOfExtensionIdentityBufWithOffsets:]E3$_1NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEE7__cloneEPNS0_6__baseISA_EE
+- __ZNKSt3__110__function6__funcIZ96-[AFBBufferBuilder(_CHSExtensionIdentityBuf) _chsCreateVectorOfExtensionIdentityBufWithOffsets:]E3$_1NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEE7__cloneEv
+- __ZNKSt9type_infoeqB8ne200100ERKS_
+- __ZNSt12length_errorC1B8ne200100EPKc
+- __ZNSt3__110__function12__value_funcIFN5apple4aiml12flatbuffers26OffsetIvEEmEED2B8ne200100Ev
+- __ZNSt3__110__function6__funcIZ112-[AFBBufferBuilder(_CHSWidgetRelevancePropertiesBuf) _chsCreateVectorOfWidgetRelevancePropertiesBufWithOffsets:]E3$_2NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ112-[AFBBufferBuilder(_CHSWidgetRelevancePropertiesBuf) _chsCreateVectorOfWidgetRelevancePropertiesBufWithOffsets:]E3$_2NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEE7destroyEv
+- __ZNSt3__110__function6__funcIZ112-[AFBBufferBuilder(_CHSWidgetRelevancePropertiesBuf) _chsCreateVectorOfWidgetRelevancePropertiesBufWithOffsets:]E3$_2NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEED0Ev
+- __ZNSt3__110__function6__funcIZ112-[AFBBufferBuilder(_CHSWidgetRelevancePropertiesBuf) _chsCreateVectorOfWidgetRelevancePropertiesBufWithOffsets:]E3$_2NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEED1Ev
+- __ZNSt3__110__function6__funcIZ112-[AFBBufferBuilder(_CHSWidgetRelevancePropertiesBuf) _chsCreateVectorOfWidgetRelevancePropertiesBufWithOffsets:]E3$_2NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEEclEOm
+- __ZNSt3__110__function6__funcIZ90-[AFBBufferBuilder(_CHSRelevanceCacheBuf) _chsCreateVectorOfRelevanceCacheBufWithOffsets:]E3$_0NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ90-[AFBBufferBuilder(_CHSRelevanceCacheBuf) _chsCreateVectorOfRelevanceCacheBufWithOffsets:]E3$_0NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEE7destroyEv
+- __ZNSt3__110__function6__funcIZ90-[AFBBufferBuilder(_CHSRelevanceCacheBuf) _chsCreateVectorOfRelevanceCacheBufWithOffsets:]E3$_0NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEED0Ev
+- __ZNSt3__110__function6__funcIZ90-[AFBBufferBuilder(_CHSRelevanceCacheBuf) _chsCreateVectorOfRelevanceCacheBufWithOffsets:]E3$_0NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEED1Ev
+- __ZNSt3__110__function6__funcIZ90-[AFBBufferBuilder(_CHSRelevanceCacheBuf) _chsCreateVectorOfRelevanceCacheBufWithOffsets:]E3$_0NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEEclEOm
+- __ZNSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSIntentReferenceBuf) _chsCreateVectorOfIntentReferenceBufWithOffsets:]E3$_4NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSIntentReferenceBuf) _chsCreateVectorOfIntentReferenceBufWithOffsets:]E3$_4NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEE7destroyEv
+- __ZNSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSIntentReferenceBuf) _chsCreateVectorOfIntentReferenceBufWithOffsets:]E3$_4NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEED0Ev
+- __ZNSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSIntentReferenceBuf) _chsCreateVectorOfIntentReferenceBufWithOffsets:]E3$_4NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEED1Ev
+- __ZNSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSIntentReferenceBuf) _chsCreateVectorOfIntentReferenceBufWithOffsets:]E3$_4NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEEclEOm
+- __ZNSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSWidgetRelevanceBuf) _chsCreateVectorOfWidgetRelevanceBufWithOffsets:]E3$_3NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSWidgetRelevanceBuf) _chsCreateVectorOfWidgetRelevanceBufWithOffsets:]E3$_3NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEE7destroyEv
+- __ZNSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSWidgetRelevanceBuf) _chsCreateVectorOfWidgetRelevanceBufWithOffsets:]E3$_3NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEED0Ev
+- __ZNSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSWidgetRelevanceBuf) _chsCreateVectorOfWidgetRelevanceBufWithOffsets:]E3$_3NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEED1Ev
+- __ZNSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSWidgetRelevanceBuf) _chsCreateVectorOfWidgetRelevanceBufWithOffsets:]E3$_3NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEEclEOm
+- __ZNSt3__110__function6__funcIZ96-[AFBBufferBuilder(_CHSExtensionIdentityBuf) _chsCreateVectorOfExtensionIdentityBufWithOffsets:]E3$_1NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ96-[AFBBufferBuilder(_CHSExtensionIdentityBuf) _chsCreateVectorOfExtensionIdentityBufWithOffsets:]E3$_1NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEE7destroyEv
+- __ZNSt3__110__function6__funcIZ96-[AFBBufferBuilder(_CHSExtensionIdentityBuf) _chsCreateVectorOfExtensionIdentityBufWithOffsets:]E3$_1NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEED0Ev
+- __ZNSt3__110__function6__funcIZ96-[AFBBufferBuilder(_CHSExtensionIdentityBuf) _chsCreateVectorOfExtensionIdentityBufWithOffsets:]E3$_1NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEED1Ev
+- __ZNSt3__110__function6__funcIZ96-[AFBBufferBuilder(_CHSExtensionIdentityBuf) _chsCreateVectorOfExtensionIdentityBufWithOffsets:]E3$_1NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEEclEOm
+- __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN5apple4aiml12flatbuffers26OffsetIvEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__120__throw_length_errorB8ne200100EPKc
+- __ZNSt3__125__throw_bad_function_callB8ne200100Ev
+- __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetIvEENS_9allocatorIS5_EEE11__vallocateB8ne200100Em
+- __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetIvEENS_9allocatorIS5_EEE20__throw_length_errorB8ne200100Ev
+- __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetIvEENS_9allocatorIS5_EEEC2B8ne200100Em
+- __ZSt28__throw_bad_array_new_lengthB8ne200100v
+- __ZTINSt3__110__function6__funcIZ112-[AFBBufferBuilder(_CHSWidgetRelevancePropertiesBuf) _chsCreateVectorOfWidgetRelevancePropertiesBufWithOffsets:]E3$_2NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEEE
+- __ZTINSt3__110__function6__funcIZ90-[AFBBufferBuilder(_CHSRelevanceCacheBuf) _chsCreateVectorOfRelevanceCacheBufWithOffsets:]E3$_0NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEEE
+- __ZTINSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSIntentReferenceBuf) _chsCreateVectorOfIntentReferenceBufWithOffsets:]E3$_4NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEEE
+- __ZTINSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSWidgetRelevanceBuf) _chsCreateVectorOfWidgetRelevanceBufWithOffsets:]E3$_3NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEEE
+- __ZTINSt3__110__function6__funcIZ96-[AFBBufferBuilder(_CHSExtensionIdentityBuf) _chsCreateVectorOfExtensionIdentityBufWithOffsets:]E3$_1NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEEE
+- __ZTSNSt3__110__function6__funcIZ112-[AFBBufferBuilder(_CHSWidgetRelevancePropertiesBuf) _chsCreateVectorOfWidgetRelevancePropertiesBufWithOffsets:]E3$_2NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEEE
+- __ZTSNSt3__110__function6__funcIZ90-[AFBBufferBuilder(_CHSRelevanceCacheBuf) _chsCreateVectorOfRelevanceCacheBufWithOffsets:]E3$_0NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEEE
+- __ZTSNSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSIntentReferenceBuf) _chsCreateVectorOfIntentReferenceBufWithOffsets:]E3$_4NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEEE
+- __ZTSNSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSWidgetRelevanceBuf) _chsCreateVectorOfWidgetRelevanceBufWithOffsets:]E3$_3NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEEE
+- __ZTSNSt3__110__function6__funcIZ96-[AFBBufferBuilder(_CHSExtensionIdentityBuf) _chsCreateVectorOfExtensionIdentityBufWithOffsets:]E3$_1NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEEE
+- __ZTVNSt3__110__function6__funcIZ112-[AFBBufferBuilder(_CHSWidgetRelevancePropertiesBuf) _chsCreateVectorOfWidgetRelevancePropertiesBufWithOffsets:]E3$_2NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEEE
+- __ZTVNSt3__110__function6__funcIZ90-[AFBBufferBuilder(_CHSRelevanceCacheBuf) _chsCreateVectorOfRelevanceCacheBufWithOffsets:]E3$_0NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEEE
+- __ZTVNSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSIntentReferenceBuf) _chsCreateVectorOfIntentReferenceBufWithOffsets:]E3$_4NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEEE
+- __ZTVNSt3__110__function6__funcIZ92-[AFBBufferBuilder(_CHSWidgetRelevanceBuf) _chsCreateVectorOfWidgetRelevanceBufWithOffsets:]E3$_3NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEEE
+- __ZTVNSt3__110__function6__funcIZ96-[AFBBufferBuilder(_CHSExtensionIdentityBuf) _chsCreateVectorOfExtensionIdentityBufWithOffsets:]E3$_1NS_9allocatorIS2_EEFN5apple4aiml12flatbuffers26OffsetIvEEmEEE
+- _block_copy_helper.102
+- _block_copy_helper.105
+- _block_copy_helper.111
+- _block_copy_helper.113
+- _block_copy_helper.117
+- _block_copy_helper.119
+- _block_copy_helper.120
+- _block_copy_helper.128
+- _block_copy_helper.131
+- _block_copy_helper.137
+- _block_copy_helper.140
+- _block_copy_helper.146
+- _block_copy_helper.152
+- _block_copy_helper.188
+- _block_copy_helper.194
+- _block_copy_helper.200
+- _block_copy_helper.206
+- _block_copy_helper.21
+- _block_copy_helper.212
+- _block_copy_helper.218
+- _block_copy_helper.224
+- _block_copy_helper.230
+- _block_copy_helper.236
+- _block_copy_helper.242
+- _block_copy_helper.248
+- _block_copy_helper.254
+- _block_copy_helper.260
+- _block_copy_helper.266
+- _block_copy_helper.272
+- _block_copy_helper.278
+- _block_copy_helper.28
+- _block_copy_helper.284
+- _block_copy_helper.290
+- _block_copy_helper.296
+- _block_copy_helper.302
+- _block_copy_helper.308
+- _block_copy_helper.31
+- _block_copy_helper.314
+- _block_copy_helper.320
+- _block_copy_helper.326
+- _block_copy_helper.332
+- _block_copy_helper.338
+- _block_copy_helper.34
+- _block_copy_helper.345
+- _block_copy_helper.53
+- _block_copy_helper.62
+- _block_copy_helper.69
+- _block_copy_helper.71
+- _block_copy_helper.81
+- _block_copy_helper.86
+- _block_copy_helper.92
+- _block_copy_helper.99
+- _block_descriptor.101
+- _block_descriptor.104
+- _block_descriptor.107
+- _block_descriptor.113
+- _block_descriptor.115
+- _block_descriptor.119
+- _block_descriptor.121
+- _block_descriptor.122
+- _block_descriptor.130
+- _block_descriptor.133
+- _block_descriptor.139
+- _block_descriptor.142
+- _block_descriptor.148
+- _block_descriptor.154
+- _block_descriptor.190
+- _block_descriptor.196
+- _block_descriptor.202
+- _block_descriptor.208
+- _block_descriptor.214
+- _block_descriptor.220
+- _block_descriptor.226
+- _block_descriptor.23
+- _block_descriptor.232
+- _block_descriptor.238
+- _block_descriptor.244
+- _block_descriptor.250
+- _block_descriptor.256
+- _block_descriptor.262
+- _block_descriptor.268
+- _block_descriptor.274
+- _block_descriptor.280
+- _block_descriptor.286
+- _block_descriptor.292
+- _block_descriptor.298
+- _block_descriptor.30
+- _block_descriptor.304
+- _block_descriptor.310
+- _block_descriptor.316
+- _block_descriptor.322
+- _block_descriptor.328
+- _block_descriptor.33
+- _block_descriptor.334
+- _block_descriptor.340
+- _block_descriptor.347
+- _block_descriptor.36
+- _block_descriptor.55
+- _block_descriptor.64
+- _block_descriptor.71
+- _block_descriptor.73
+- _block_descriptor.83
+- _block_descriptor.88
+- _block_descriptor.94
+- _block_destroy_helper.100
+- _block_destroy_helper.103
+- _block_destroy_helper.106
+- _block_destroy_helper.112
+- _block_destroy_helper.114
+- _block_destroy_helper.118
+- _block_destroy_helper.120
+- _block_destroy_helper.121
+- _block_destroy_helper.129
+- _block_destroy_helper.132
+- _block_destroy_helper.138
+- _block_destroy_helper.141
+- _block_destroy_helper.147
+- _block_destroy_helper.153
+- _block_destroy_helper.189
+- _block_destroy_helper.195
+- _block_destroy_helper.201
+- _block_destroy_helper.207
+- _block_destroy_helper.213
+- _block_destroy_helper.219
+- _block_destroy_helper.22
+- _block_destroy_helper.225
+- _block_destroy_helper.231
+- _block_destroy_helper.237
+- _block_destroy_helper.243
+- _block_destroy_helper.249
+- _block_destroy_helper.255
+- _block_destroy_helper.261
+- _block_destroy_helper.267
+- _block_destroy_helper.273
+- _block_destroy_helper.279
+- _block_destroy_helper.285
+- _block_destroy_helper.29
+- _block_destroy_helper.291
+- _block_destroy_helper.297
+- _block_destroy_helper.303
+- _block_destroy_helper.309
+- _block_destroy_helper.315
+- _block_destroy_helper.32
+- _block_destroy_helper.321
+- _block_destroy_helper.327
+- _block_destroy_helper.333
+- _block_destroy_helper.339
+- _block_destroy_helper.346
+- _block_destroy_helper.35
+- _block_destroy_helper.54
+- _block_destroy_helper.63
+- _block_destroy_helper.70
+- _block_destroy_helper.72
+- _block_destroy_helper.82
+- _block_destroy_helper.87
+- _block_destroy_helper.93
+- _keypath_get.15Tm
+- _keypath_getTm
+- _keypath_set.96Tm
+- _keypath_setTm
+- _malloc
+- _objc_claimAutoreleasedReturnValue
+- _objc_retain_x3
+- _objc_retain_x4
+- _objc_retain_x5
+- _objectdestroy.150Tm
+- _objectdestroy.198Tm
+- _objectdestroy.204Tm
+- _objectdestroy.210Tm
+- _objectdestroy.300Tm
+- _objectdestroy.66Tm
+- _objectdestroy.75Tm
+- _objectdestroy.91Tm
+- _symbolic SS_Sbt
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CIU2ugCCJfZ3X9-VhPrOn8FCzueK0M-2G3jc2bg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "CHSControlConfiguration"
++ "CHSControlConfigurationItem"
++ "CHSControlInstanceIdentity"
++ "CHSExtensionIdentity"
++ "CHSRemoteDevicePredicate"
++ "ExtensionWatchdogTailspinDebounceInterval"
++ "Sandbox extension consumed successfully: %{public}s"
++ "T@\"NSArray\",R,C,N,V_activityURLs"
++ "T@\"NSDateComponents\",&,D,N"
++ "[includeRelevanceBacked="
++ "_activityURLs"
++ "_extensionWatchdogTailspinDebounceInterval"
++ "_lastEffectiveSignificantTimeChange"
++ "activityURLs"
++ "au"
++ "lastEffectiveSignificantTimeChange"
++ "setActivityURLs:"
+- ": includeRelevanceBacked="
+- "T@\"NSDateComponents\",D,N"
+- "T@\"NSString\",R,C,N,V_targetLiveSceneBundleIdentifier"
+- "_targetLiveSceneBundleIdentifier"
+- "setTargetLiveSceneBundleIdentifier:"
+- "targetLiveSceneBundleID"
+- "targetLiveSceneBundleIdentifier"
+
+```

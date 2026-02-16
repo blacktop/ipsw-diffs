@@ -1,0 +1,373 @@
+## AdaptiveMusic
+
+> `/System/Library/PrivateFrameworks/AdaptiveMusic.framework/AdaptiveMusic`
+
+```diff
+
+-23.0.2.0.0
+-  __TEXT.__text: 0x4ac30
+-  __TEXT.__auth_stubs: 0x1a70
++26.4.3.0.0
++  __TEXT.__text: 0x54138
++  __TEXT.__auth_stubs: 0x1b60
+   __TEXT.__objc_methlist: 0x7c
+-  __TEXT.__cstring: 0xdd8
+-  __TEXT.__swift5_typeref: 0x1793
+-  __TEXT.__const: 0x5350
+-  __TEXT.__constg_swiftt: 0xf78
+-  __TEXT.__swift5_reflstr: 0x8f1
+-  __TEXT.__swift5_fieldmd: 0xe64
++  __TEXT.__const: 0x63fe
++  __TEXT.__constg_swiftt: 0x1084
++  __TEXT.__swift5_typeref: 0x1a4e
+   __TEXT.__swift5_builtin: 0x3c
+-  __TEXT.__swift5_assocty: 0x368
+-  __TEXT.__swift5_proto: 0x488
+-  __TEXT.__swift5_types: 0x144
+-  __TEXT.__oslogstring: 0x728
+-  __TEXT.__swift_as_entry: 0x144
+-  __TEXT.__swift_as_ret: 0x1a4
++  __TEXT.__cstring: 0x968
++  __TEXT.__oslogstring: 0x778
++  __TEXT.__swift5_reflstr: 0xa4c
++  __TEXT.__swift5_fieldmd: 0x1114
++  __TEXT.__swift5_assocty: 0x4b8
++  __TEXT.__swift5_proto: 0x57c
++  __TEXT.__swift5_types: 0x178
++  __TEXT.__swift_as_entry: 0x174
++  __TEXT.__swift_as_ret: 0x1e0
+   __TEXT.__swift5_protos: 0x14
+   __TEXT.__swift5_capture: 0x1c8
+-  __TEXT.__unwind_info: 0x18a0
+-  __TEXT.__eh_frame: 0x2e40
+-  __TEXT.__objc_methname: 0x53e
+-  __DATA_CONST.__got: 0x508
+-  __DATA_CONST.__const: 0x168
+-  __DATA_CONST.__objc_classlist: 0x50
++  __TEXT.__unwind_info: 0x1b98
++  __TEXT.__eh_frame: 0x3660
++  __TEXT.__objc_classname: 0x189
++  __TEXT.__objc_methname: 0x800
++  __TEXT.__objc_methtype: 0x151
++  __TEXT.__objc_stubs: 0x8c0
++  __DATA_CONST.__got: 0x560
++  __DATA_CONST.__const: 0x180
++  __DATA_CONST.__objc_classlist: 0x48
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x248
+-  __AUTH_CONST.__auth_got: 0xd38
+-  __AUTH_CONST.__const: 0x2b70
+-  __AUTH_CONST.__objc_const: 0x890
++  __DATA_CONST.__objc_selrefs: 0x250
++  __AUTH_CONST.__auth_got: 0xdb8
++  __AUTH_CONST.__const: 0x3258
++  __AUTH_CONST.__objc_const: 0x800
+   __AUTH.__objc_data: 0x2d8
+-  __AUTH.__data: 0x940
+-  __DATA.__data: 0x1508
+-  __DATA.__bss: 0x9110
++  __AUTH.__data: 0x8a8
++  __DATA.__data: 0x1750
++  __DATA.__bss: 0xafa0
+   __DATA.__common: 0x18
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+-  - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9A236E27-0422-357D-A7BE-57DB22ACC2A4
+-  Functions: 1913
+-  Symbols:   977
+-  CStrings:  228
++  UUID: 7C52CB1A-9969-3B65-9849-8AA32AAB5C53
++  Functions: 2158
++  Symbols:   1141
++  CStrings:  238
+ 
+Symbols:
++ ___swift_memcpy18_8
++ ___swift_memcpy88_8
++ _associated conformance 13AdaptiveMusic0aB5ErrorO23MediaNotFoundCodingKeys33_6C03A4F28C997415103A7115C68BD5C2LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13AdaptiveMusic0aB5ErrorO23MediaNotFoundCodingKeys33_6C03A4F28C997415103A7115C68BD5C2LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13AdaptiveMusic0aB5ErrorO31FailedToScheduleMediaCodingKeys33_6C03A4F28C997415103A7115C68BD5C2LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13AdaptiveMusic0aB5ErrorO31FailedToScheduleMediaCodingKeys33_6C03A4F28C997415103A7115C68BD5C2LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13AdaptiveMusic25SelectMoodOptionsProviderV10AppIntents07DynamiceF0AA12DefaultValueAdEP_AD07_IntentK0
++ _associated conformance 13AdaptiveMusic25SelectMoodOptionsProviderV10AppIntents07DynamiceF0AA6ResultAdEP_AD17ResultsCollection
++ _associated conformance 13AdaptiveMusic25SelectMoodOptionsProviderV10AppIntents07DynamiceF0AaD09_SupportsG12Dependencies
++ _associated conformance 13AdaptiveMusic29SelectPlaylistOptionsProviderV10AppIntents07DynamiceF0AA12DefaultValueAdEP_AD07_IntentK0
++ _associated conformance 13AdaptiveMusic29SelectPlaylistOptionsProviderV10AppIntents07DynamiceF0AA6ResultAdEP_AD17ResultsCollection
++ _associated conformance 13AdaptiveMusic29SelectPlaylistOptionsProviderV10AppIntents07DynamiceF0AaD09_SupportsG12Dependencies
++ _associated conformance 13AdaptiveMusic35SingleMoodWidgetConfigurationIntentV10AppIntents0efG0AaD0hG0
++ _associated conformance 13AdaptiveMusic35SingleMoodWidgetConfigurationIntentV10AppIntents0hG0AA13PerformResultAdEP_AD0gK0
++ _associated conformance 13AdaptiveMusic35SingleMoodWidgetConfigurationIntentV10AppIntents0hG0AA14SummaryContentAdEP_AD09ParameterJ0
++ _associated conformance 13AdaptiveMusic35SingleMoodWidgetConfigurationIntentV10AppIntents0hG0AaD09_SupportsH12Dependencies
++ _associated conformance 13AdaptiveMusic35SingleMoodWidgetConfigurationIntentV10AppIntents0hG0AaD24PersistentlyIdentifiable
++ _associated conformance 13AdaptiveMusic38MultipleMoodsWidgetConfigurationIntentV10AppIntents0efG0AaD0hG0
++ _associated conformance 13AdaptiveMusic38MultipleMoodsWidgetConfigurationIntentV10AppIntents0hG0AA13PerformResultAdEP_AD0gK0
++ _associated conformance 13AdaptiveMusic38MultipleMoodsWidgetConfigurationIntentV10AppIntents0hG0AA14SummaryContentAdEP_AD09ParameterJ0
++ _associated conformance 13AdaptiveMusic38MultipleMoodsWidgetConfigurationIntentV10AppIntents0hG0AaD09_SupportsH12Dependencies
++ _associated conformance 13AdaptiveMusic38MultipleMoodsWidgetConfigurationIntentV10AppIntents0hG0AaD24PersistentlyIdentifiable
++ _associated conformance 13AdaptiveMusic39SingleMoodIntentPlaylistOptionsProviderV10AppIntents07DynamicgH0AA12DefaultValueAdEP_AD01_eM0
++ _associated conformance 13AdaptiveMusic39SingleMoodIntentPlaylistOptionsProviderV10AppIntents07DynamicgH0AA6ResultAdEP_AD17ResultsCollection
++ _associated conformance 13AdaptiveMusic39SingleMoodIntentPlaylistOptionsProviderV10AppIntents07DynamicgH0AaD09_SupportsI12Dependencies
++ _associated conformance 13AdaptiveMusic5MediaV10CodingKeys33_B3CAE9819162244A4D2366C3FDD30480LLOSHAASQ
++ _associated conformance 13AdaptiveMusic5MediaV10CodingKeys33_B3CAE9819162244A4D2366C3FDD30480LLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 13AdaptiveMusic5MediaV10CodingKeys33_B3CAE9819162244A4D2366C3FDD30480LLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13AdaptiveMusic5MediaV11ContentTypeOSHAASQ
++ _associated conformance 13AdaptiveMusic5MediaV11ContentTypeOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 13AdaptiveMusic5MediaV12PlayableItemV10CodingKeys33_B3CAE9819162244A4D2366C3FDD30480LLOSHAASQ
++ _associated conformance 13AdaptiveMusic5MediaV12PlayableItemV10CodingKeys33_B3CAE9819162244A4D2366C3FDD30480LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 13AdaptiveMusic5MediaV12PlayableItemV10CodingKeys33_B3CAE9819162244A4D2366C3FDD30480LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13AdaptiveMusic5MediaV12PlayableItemVs12IdentifiableAA2IDsAFP_SH
++ _associated conformance 13AdaptiveMusic5MediaV16PlayableItemTypeOSHAASQ
++ _associated conformance 13AdaptiveMusic5MediaV16PlayableItemTypeOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 13AdaptiveMusic5MediaV4SongV10CodingKeys33_B3CAE9819162244A4D2366C3FDD30480LLOSHAASQ
++ _associated conformance 13AdaptiveMusic5MediaV4SongV10CodingKeys33_B3CAE9819162244A4D2366C3FDD30480LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 13AdaptiveMusic5MediaV4SongV10CodingKeys33_B3CAE9819162244A4D2366C3FDD30480LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13AdaptiveMusic5MediaV4SongVs12IdentifiableAA2IDsAFP_SH
++ _associated conformance 13AdaptiveMusic5MediaV8PlaylistV10CodingKeys33_B3CAE9819162244A4D2366C3FDD30480LLOSHAASQ
++ _associated conformance 13AdaptiveMusic5MediaV8PlaylistV10CodingKeys33_B3CAE9819162244A4D2366C3FDD30480LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 13AdaptiveMusic5MediaV8PlaylistV10CodingKeys33_B3CAE9819162244A4D2366C3FDD30480LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13AdaptiveMusic5MediaV8PlaylistVs12IdentifiableAA2IDsAFP_SH
++ _associated conformance 13AdaptiveMusic5MediaVs12IdentifiableAA2IDsADP_SH
++ _get_witness_table 10AppIntents22IntentParameterSummaryVy13AdaptiveMusic029SingleMoodWidgetConfigurationC0VGAA0dE0HPyHC.4
++ _get_witness_table 10AppIntents22IntentParameterSummaryVy13AdaptiveMusic032MultipleMoodsWidgetConfigurationC0VGAA0dE0HPyHC.10
++ _keypath_setTm
++ _objc_msgSend$activateWithOptions:completionHandler:
++ _objc_msgSend$addObserver:selector:name:object:
++ _objc_msgSend$addTargetWithHandler:
++ _objc_msgSend$advanceToNextItem
++ _objc_msgSend$ams_activeiTunesAccount
++ _objc_msgSend$ams_sharedAccountStore
++ _objc_msgSend$bagForProfile:profileVersion:
++ _objc_msgSend$becomeActiveIfPossibleWithCompletion:
++ _objc_msgSend$bundleIdentifier
++ _objc_msgSend$bundleURL
++ _objc_msgSend$changePlaybackPositionCommand
++ _objc_msgSend$currentItem
++ _objc_msgSend$currentProcess
++ _objc_msgSend$currentTime
++ _objc_msgSend$data
++ _objc_msgSend$dataTaskPromiseWithRequest:
++ _objc_msgSend$defaultCenter
++ _objc_msgSend$defaultSessionConfiguration
++ _objc_msgSend$defaultWorkspace
++ _objc_msgSend$duration
++ _objc_msgSend$init
++ _objc_msgSend$initWithBoundsSize:requestHandler:
++ _objc_msgSend$initWithClientIdentifier:bag:
++ _objc_msgSend$initWithConfiguration:
++ _objc_msgSend$initWithData:
++ _objc_msgSend$initWithLongLong:
++ _objc_msgSend$initWithPlayers:
++ _objc_msgSend$initWithSuiteName:
++ _objc_msgSend$initWithTokenService:
++ _objc_msgSend$initWithTokenService:bag:
++ _objc_msgSend$initWithURL:
++ _objc_msgSend$insertItem:afterItem:
++ _objc_msgSend$items
++ _objc_msgSend$localizedInfoDictionary
++ _objc_msgSend$mainBundle
++ _objc_msgSend$mainRunLoop
++ _objc_msgSend$nextTrackCommand
++ _objc_msgSend$objectForKey:
++ _objc_msgSend$openURL:configuration:completionHandler:
++ _objc_msgSend$pause
++ _objc_msgSend$pauseCommand
++ _objc_msgSend$play
++ _objc_msgSend$playCommand
++ _objc_msgSend$positionTime
++ _objc_msgSend$previousTrackCommand
++ _objc_msgSend$rate
++ _objc_msgSend$remoteCommandCenter
++ _objc_msgSend$removeAllItems
++ _objc_msgSend$requestWithURL:
++ _objc_msgSend$response
++ _objc_msgSend$resultWithCompletion:
++ _objc_msgSend$seekToTime:
++ _objc_msgSend$seekToTime:completionHandler:
++ _objc_msgSend$setAccount:
++ _objc_msgSend$setActive:withOptions:error:
++ _objc_msgSend$setAutomaticallyPublishesNowPlayingInfo:
++ _objc_msgSend$setCategory:error:
++ _objc_msgSend$setClientInfo:
++ _objc_msgSend$setClientType:
++ _objc_msgSend$setMediaKind:
++ _objc_msgSend$setNowPlayingInfo:
++ _objc_msgSend$setObject:forKey:
++ _objc_msgSend$setProtocolHandler:
++ _objc_msgSend$setRate:
++ _objc_msgSend$setSession:
++ _objc_msgSend$sharedInstance
++ _objc_msgSend$sharedSession
++ _objc_msgSend$status
++ _objc_msgSend$stringForKey:
++ _objc_msgSend$valueWithCompletion:
++ _objc_retain_x25
++ _swift_asyncLet_begin
++ _swift_asyncLet_finish
++ _swift_asyncLet_get_throwing
++ _swift_bridgeObjectRelease_n
++ _symbolic $s10AppIntents25WidgetConfigurationIntentP
++ _symbolic SaySSG
++ _symbolic Say_____G 13AdaptiveMusic5MediaV11ContentTypeO
++ _symbolic Say_____G 13AdaptiveMusic5MediaV12PlayableItemV
++ _symbolic Say_____G 13AdaptiveMusic5MediaV16PlayableItemTypeO
++ _symbolic Say_____G 8MusicKit4SongV
++ _symbolic _____ 13AdaptiveMusic0aB5ErrorO23MediaNotFoundCodingKeys33_6C03A4F28C997415103A7115C68BD5C2LLO
++ _symbolic _____ 13AdaptiveMusic0aB5ErrorO31FailedToScheduleMediaCodingKeys33_6C03A4F28C997415103A7115C68BD5C2LLO
++ _symbolic _____ 13AdaptiveMusic25SelectMoodOptionsProviderV
++ _symbolic _____ 13AdaptiveMusic29SelectPlaylistOptionsProviderV
++ _symbolic _____ 13AdaptiveMusic35SingleMoodWidgetConfigurationIntentV
++ _symbolic _____ 13AdaptiveMusic38MultipleMoodsWidgetConfigurationIntentV
++ _symbolic _____ 13AdaptiveMusic39SingleMoodIntentPlaylistOptionsProviderV
++ _symbolic _____ 13AdaptiveMusic5MediaV
++ _symbolic _____ 13AdaptiveMusic5MediaV10CodingKeys33_B3CAE9819162244A4D2366C3FDD30480LLO
++ _symbolic _____ 13AdaptiveMusic5MediaV11ContentTypeO
++ _symbolic _____ 13AdaptiveMusic5MediaV12PlayableItemV
++ _symbolic _____ 13AdaptiveMusic5MediaV12PlayableItemV10CodingKeys33_B3CAE9819162244A4D2366C3FDD30480LLO
++ _symbolic _____ 13AdaptiveMusic5MediaV16PlayableItemTypeO
++ _symbolic _____ 13AdaptiveMusic5MediaV4SongV
++ _symbolic _____ 13AdaptiveMusic5MediaV4SongV10CodingKeys33_B3CAE9819162244A4D2366C3FDD30480LLO
++ _symbolic _____ 13AdaptiveMusic5MediaV8PlaylistV
++ _symbolic _____ 13AdaptiveMusic5MediaV8PlaylistV10CodingKeys33_B3CAE9819162244A4D2366C3FDD30480LLO
++ _symbolic _____Sg 13AdaptiveMusic5MediaV
++ _symbolic _____Sg 8MusicKit4SongV
++ _symbolic _____Sg_ABt 8MusicKit0A6PlayerC5QueueC5EntryV
++ _symbolic ______p 8MusicKit10SongFilterP
++ _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G 10AppIntents10IntentItemV 13AdaptiveMusic4MoodV2IDO
++ _symbolic _____y_____G 10AppIntents10IntentItemV 13AdaptiveMusic4MoodV8PlaylistV
++ _symbolic _____y_____G 10AppIntents17IntentItemSectionV 13AdaptiveMusic4MoodV2IDO
++ _symbolic _____y_____G 10AppIntents17IntentItemSectionV 13AdaptiveMusic4MoodV8PlaylistV
++ _symbolic _____y_____G 10AppIntents20IntentItemCollectionV 13AdaptiveMusic4MoodV2IDO
++ _symbolic _____y_____G 10AppIntents20IntentItemCollectionV 13AdaptiveMusic4MoodV8PlaylistV
++ _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV 13AdaptiveMusic029SingleMoodWidgetConfigurationC0V
++ _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV 13AdaptiveMusic032MultipleMoodsWidgetConfigurationC0V
++ _symbolic _____y_____G 10AppIntents25IntentParameterDependencyC 13AdaptiveMusic029SingleMoodWidgetConfigurationC0V
++ _symbolic _____y_____G 8MusicKit0A14ItemCollectionV AA4SongV
++ _symbolic _____y_____G 8MusicKit0A22CatalogResourceRequestV AA4SongV
++ _symbolic _____y_____G 8MusicKit0A23CatalogResourceResponseV AA4SongV
++ _symbolic _____y_____G s11_SetStorageC 13AdaptiveMusic5MediaV11ContentTypeO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13AdaptiveMusic0dE5ErrorO23MediaNotFoundCodingKeys33_6C03A4F28C997415103A7115C68BD5C2LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13AdaptiveMusic0dE5ErrorO31FailedToScheduleMediaCodingKeys33_6C03A4F28C997415103A7115C68BD5C2LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13AdaptiveMusic5MediaV10CodingKeys33_B3CAE9819162244A4D2366C3FDD30480LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13AdaptiveMusic5MediaV12PlayableItemV10CodingKeys33_B3CAE9819162244A4D2366C3FDD30480LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13AdaptiveMusic5MediaV4SongV10CodingKeys33_B3CAE9819162244A4D2366C3FDD30480LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13AdaptiveMusic5MediaV8PlaylistV10CodingKeys33_B3CAE9819162244A4D2366C3FDD30480LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13AdaptiveMusic0dE5ErrorO23MediaNotFoundCodingKeys33_6C03A4F28C997415103A7115C68BD5C2LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13AdaptiveMusic0dE5ErrorO31FailedToScheduleMediaCodingKeys33_6C03A4F28C997415103A7115C68BD5C2LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13AdaptiveMusic5MediaV10CodingKeys33_B3CAE9819162244A4D2366C3FDD30480LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13AdaptiveMusic5MediaV12PlayableItemV10CodingKeys33_B3CAE9819162244A4D2366C3FDD30480LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13AdaptiveMusic5MediaV4SongV10CodingKeys33_B3CAE9819162244A4D2366C3FDD30480LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13AdaptiveMusic5MediaV8PlaylistV10CodingKeys33_B3CAE9819162244A4D2366C3FDD30480LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13AdaptiveMusic5MediaV11ContentTypeO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13AdaptiveMusic5MediaV12PlayableItemV
++ _symbolic _____y_____SgG 10AppIntents15IntentParameterC 13AdaptiveMusic4MoodV2IDO
++ _symbolic _____y_____SgG 2os21OSAllocatedUnfairLockV 13AdaptiveMusic5MediaV
++ _symbolic _____y_____Sg_____G s13ManagedBufferCsRi__rlE 13AdaptiveMusic5MediaV So16os_unfair_lock_sV
++ _symbolic _____y______Qo_ 10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQO 13AdaptiveMusic019SelectChillPlaylistC0V
++ _symbolic _____y______Qo_ 10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQO 13AdaptiveMusic019SelectSleepPlaylistC0V
++ _symbolic _____y______Qo_ 10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQO 13AdaptiveMusic023SelectWellbeingPlaylistC0V
++ _symbolic _____y______Qo_ 10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQO 13AdaptiveMusic026SelectProductivityPlaylistC0V
++ _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 10AppIntents10IntentItemV 13AdaptiveMusic4MoodV2IDO
++ _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 10AppIntents10IntentItemV 13AdaptiveMusic4MoodV8PlaylistV
++ _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 10AppIntents17IntentItemSectionV 13AdaptiveMusic4MoodV2IDO
++ _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 10AppIntents17IntentItemSectionV 13AdaptiveMusic4MoodV8PlaylistV
++ _type_layout_string 13AdaptiveMusic29SelectPlaylistOptionsProviderV
++ _type_layout_string 13AdaptiveMusic31UploadedAudioPlaylistAttributesV
++ _type_layout_string 13AdaptiveMusic35SingleMoodWidgetConfigurationIntentV
++ _type_layout_string 13AdaptiveMusic38MultipleMoodsWidgetConfigurationIntentV
++ _type_layout_string 13AdaptiveMusic39SingleMoodIntentPlaylistOptionsProviderV
++ _type_layout_string 13AdaptiveMusic5MediaV
++ _type_layout_string 13AdaptiveMusic5MediaV12PlayableItemV
++ _type_layout_string 13AdaptiveMusic5MediaV8PlaylistV
+- __DATA__TtC13AdaptiveMusic16ThumbnailFetcher
+- __METACLASS_DATA__TtC13AdaptiveMusic16ThumbnailFetcher
+- __swift_FORCE_LOAD_$_swiftCompression
+- __swift_FORCE_LOAD_$_swiftCompression_$_AdaptiveMusic
+- _associated conformance 13AdaptiveMusic0aB5ErrorO26PlaylistNotFoundCodingKeys33_6C03A4F28C997415103A7115C68BD5C2LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 13AdaptiveMusic0aB5ErrorO26PlaylistNotFoundCodingKeys33_6C03A4F28C997415103A7115C68BD5C2LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13AdaptiveMusic0aB5ErrorO34FailedToSchedulePlaylistCodingKeys33_6C03A4F28C997415103A7115C68BD5C2LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 13AdaptiveMusic0aB5ErrorO34FailedToSchedulePlaylistCodingKeys33_6C03A4F28C997415103A7115C68BD5C2LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13AdaptiveMusic25UserLibraryPlaylistsQueryV10AppIntents012EntityStringF0AaD0iF0
+- _associated conformance 13AdaptiveMusic25UserLibraryPlaylistsQueryV10AppIntents06EntityF0AA0I0AdEP_AD0gI0
+- _associated conformance 13AdaptiveMusic25UserLibraryPlaylistsQueryV10AppIntents06EntityF0AaD22DynamicOptionsProvider
+- _associated conformance 13AdaptiveMusic25UserLibraryPlaylistsQueryV10AppIntents06EntityF0AaD24PersistentlyIdentifiable
+- _associated conformance 13AdaptiveMusic25UserLibraryPlaylistsQueryV10AppIntents22DynamicOptionsProviderAA12DefaultValueAdEP_AD07_IntentM0
+- _associated conformance 13AdaptiveMusic25UserLibraryPlaylistsQueryV10AppIntents22DynamicOptionsProviderAA6ResultAdEP_AD17ResultsCollection
+- _associated conformance 13AdaptiveMusic25UserLibraryPlaylistsQueryV10AppIntents22DynamicOptionsProviderAaD09_SupportsG12Dependencies
+- _get_witness_table 10AppIntents29ParameterSummaryWhenConditionVy13AdaptiveMusic25SelectChillPlaylistIntentVAA0lcD0VyAFGAIGAA0cD0HPyHC.51
+- _get_witness_table 10AppIntents29ParameterSummaryWhenConditionVy13AdaptiveMusic25SelectSleepPlaylistIntentVAA0lcD0VyAFGAIGAA0cD0HPyHC.52
+- _get_witness_table 10AppIntents29ParameterSummaryWhenConditionVy13AdaptiveMusic29SelectWellbeingPlaylistIntentVAA0lcD0VyAFGAIGAA0cD0HPyHC.53
+- _get_witness_table 10AppIntents29ParameterSummaryWhenConditionVy13AdaptiveMusic32SelectProductivityPlaylistIntentVAA0lcD0VyAFGAIGAA0cD0HPyHC.50
+- _malloc
+- _objc_retain_x24
+- _symbolic SS______y_____Gt 13AdaptiveMusic8ResourceV AA18ManifestAttributesV
+- _symbolic Say_____G 13AdaptiveMusic4MoodV11ContentTypeO
+- _symbolic _____ 13AdaptiveMusic0aB5ErrorO26PlaylistNotFoundCodingKeys33_6C03A4F28C997415103A7115C68BD5C2LLO
+- _symbolic _____ 13AdaptiveMusic0aB5ErrorO34FailedToSchedulePlaylistCodingKeys33_6C03A4F28C997415103A7115C68BD5C2LLO
+- _symbolic _____ 13AdaptiveMusic16ThumbnailFetcherC
+- _symbolic _____ 13AdaptiveMusic25UserLibraryPlaylistsQueryV
+- _symbolic _____ySS_____y_____GG s18_DictionaryStorageC 13AdaptiveMusic8ResourceV AC18ManifestAttributesV
+- _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV 13AdaptiveMusic019SelectChillPlaylistC0V
+- _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV 13AdaptiveMusic019SelectSleepPlaylistC0V
+- _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV 13AdaptiveMusic023SelectWellbeingPlaylistC0V
+- _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV 13AdaptiveMusic026SelectProductivityPlaylistC0V
+- _symbolic _____y_____G s11_SetStorageC 13AdaptiveMusic4MoodV11ContentTypeO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 13AdaptiveMusic0dE5ErrorO26PlaylistNotFoundCodingKeys33_6C03A4F28C997415103A7115C68BD5C2LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 13AdaptiveMusic0dE5ErrorO34FailedToSchedulePlaylistCodingKeys33_6C03A4F28C997415103A7115C68BD5C2LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13AdaptiveMusic0dE5ErrorO26PlaylistNotFoundCodingKeys33_6C03A4F28C997415103A7115C68BD5C2LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13AdaptiveMusic0dE5ErrorO34FailedToSchedulePlaylistCodingKeys33_6C03A4F28C997415103A7115C68BD5C2LLO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 13AdaptiveMusic4MoodV11ContentTypeO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 8MusicKit8PlaylistV
+- _symbolic _____y_____SgG 2os21OSAllocatedUnfairLockV 13AdaptiveMusic4MoodV8PlaylistV
+- _symbolic _____y_____Sg_____G s13ManagedBufferCsRi__rlE 13AdaptiveMusic4MoodV8PlaylistV So16os_unfair_lock_sV
+- _symbolic _____y__________yABGADG 10AppIntents29ParameterSummaryWhenConditionV 13AdaptiveMusic25SelectChillPlaylistIntentV AA0lcD0V
+- _symbolic _____y__________yABGADG 10AppIntents29ParameterSummaryWhenConditionV 13AdaptiveMusic25SelectSleepPlaylistIntentV AA0lcD0V
+- _symbolic _____y__________yABGADG 10AppIntents29ParameterSummaryWhenConditionV 13AdaptiveMusic29SelectWellbeingPlaylistIntentV AA0lcD0V
+- _symbolic _____y__________yABGADG 10AppIntents29ParameterSummaryWhenConditionV 13AdaptiveMusic32SelectProductivityPlaylistIntentV AA0lcD0V
+- _type_layout_string 13AdaptiveMusic05AppleB14MoodAttributesV
+CStrings:
++ "\", playableItem: "
++ "AppleMusicPlayer failed to schedule media: %@"
++ "AppleMusicPlayer playing %s with id: %s."
++ "LIBRARY_PLAYLISTS_SECTION_NAME"
++ "Media(playableItem: "
++ "Media.PlayableItem(id: \""
++ "Mood.Playlist(name: \""
++ "Mood.Playlist.PlayableItem(id: \""
++ "No media items found."
++ "No player items found."
++ "QueuePlayer playing %s with id: %s."
++ "SUGGESTED_PLAYLISTS_SECTION_NAME"
++ "SelectPlaylistOptionsProvider failed to fetch suggested playlists, this section will be empty."
++ "WIDGET_CONFIGURATION_TITLE"
++ "bundleURL"
++ "com.apple.AdaptiveMusicApp.AdaptiveMusicWidget"
++ "currentMediaLock"
++ "failedToScheduleMedia"
++ "mood"
++ "playlist"
++ "song"
+- "AppleMusicPlayer failed to schedule playlist: %@"
+- "AppleMusicPlayer playing playlist %s."
+- "LIBRARY_PLAYLIST"
+- "No playlist items found."
+- "No uploaded audio found."
+- "QueuePlayer playing playlist %s."
+- "_TtC13AdaptiveMusic16ThumbnailFetcher"
+- "currentPlaylistLock"
+- "failedToSchedulePlaylist"
+- "playlistNotFound"
+
+```

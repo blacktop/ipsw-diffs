@@ -7,6 +7,7 @@
 ## DIFFS
 
 <p><strong>Quick Nav:</strong>
+<a href="#ios-26-4-beta">iOS 26.4 beta</a> ·
 <a href="#ios-26-3-beta">iOS 26.3 beta</a> ·
 <a href="#ios-26-2">iOS 26.2</a> ·
 <a href="#ios-26-1-beta">iOS 26.1 beta</a> ·
@@ -35,9 +36,18 @@
 <a href="#macos-15-0-beta">macOS 15.0 beta</a>
 </p>
 
+<a id="ios-26-4-beta"></a>
+### iOS 26.4 beta
+<details open>
+  <summary>View diffs</summary>
+
+- [26.3 (23D127) .vs 26.4 beta 1 (23E5207q)](26_3_23D127__vs_26_4_23E5207q/README.md)
+
+</details>
+
 <a id="ios-26-3-beta"></a>
 ### iOS 26.3 beta
-<details open>
+<details>
   <summary>View diffs</summary>
 
 - [26.3 RC (23D125) .vs 26.3 (23D127)](26_3_23D125__vs_26_3_23D127/README.md)
