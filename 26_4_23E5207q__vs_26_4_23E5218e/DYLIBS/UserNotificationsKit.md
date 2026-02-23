@@ -1,0 +1,91 @@
+## UserNotificationsKit
+
+> `/System/Library/PrivateFrameworks/UserNotificationsKit.framework/UserNotificationsKit`
+
+```diff
+
+-1003.4.18.102.0
+-  __TEXT.__text: 0x5c570
+-  __TEXT.__auth_stubs: 0x1dd0
+-  __TEXT.__objc_methlist: 0x2a14
+-  __TEXT.__const: 0x34f4
++1003.4.23.0.0
++  __TEXT.__text: 0x5c29c
++  __TEXT.__auth_stubs: 0x1dc0
++  __TEXT.__objc_methlist: 0x2a2c
++  __TEXT.__const: 0x34e4
+   __TEXT.__cstring: 0x274d
+   __TEXT.__gcc_except_tab: 0x190
+   __TEXT.__oslogstring: 0x2083
+   __TEXT.__constg_swiftt: 0xf64
+-  __TEXT.__swift5_typeref: 0x3346
++  __TEXT.__swift5_typeref: 0x3272
+   __TEXT.__swift5_reflstr: 0x84f
+   __TEXT.__swift5_fieldmd: 0xb44
+   __TEXT.__swift5_builtin: 0x64
+
+   __TEXT.__swift_as_ret: 0x1c
+   __TEXT.__swift5_mpenum: 0x8
+   __TEXT.__swift5_protos: 0x8
+-  __TEXT.__unwind_info: 0x1408
+-  __TEXT.__eh_frame: 0xbf4
++  __TEXT.__unwind_info: 0x1410
++  __TEXT.__eh_frame: 0xbec
+   __TEXT.__objc_classname: 0x894
+   __TEXT.__objc_methname: 0x879d
+   __TEXT.__objc_methtype: 0x1112
+
+   __DATA_CONST.__objc_selrefs: 0x18f8
+   __DATA_CONST.__objc_protorefs: 0x38
+   __DATA_CONST.__objc_superrefs: 0x80
+-  __AUTH_CONST.__auth_got: 0xef8
++  __AUTH_CONST.__auth_got: 0xef0
+   __AUTH_CONST.__const: 0x2008
+   __AUTH_CONST.__cfstring: 0x16a0
+   __AUTH_CONST.__objc_const: 0x50a8
+   __AUTH.__objc_data: 0x468
+   __AUTH.__data: 0xa00
+   __DATA.__objc_ivar: 0x2a4
+-  __DATA.__data: 0x16e0
++  __DATA.__data: 0x16c0
+   __DATA.__bss: 0x3228
+   __DATA.__common: 0xc8
+   __DATA_DIRTY.__objc_data: 0x848
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D891FEA1-5C65-3813-9DF3-CD7479A66A58
+-  Functions: 2107
+-  Symbols:   3579
++  UUID: DEAA8049-A17D-30B2-A3E5-223C641DE867
++  Functions: 2109
++  Symbols:   3580
+   CStrings:  2091
+ 
+Symbols:
++ -[NCNotificationAction hash]
++ -[NCNotificationAction isEqual:]
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyACyAA4TextVAA16_FixedSizeLayoutVGSg_AEyAA7ForEachVySnySiGSiAA6HStackVyAOyAPSiACy20UserNotificationsKit022NotificationSourceIconG0VAA30_EnvironmentKeyWritingModifierVyAS0rsT5CacheCSgGGSgGGGGAEyAGyAM_AMtGGtGGAA08_PaddingK0VGAA0G0HPA9_AAA13_HPyHC_A11_AA0gX0HPyHCHC.1
++ _symbolic _____y__________GSg______y_____ySnySiGSi_____yAGyAHSiAAy__________y_____SgGGSgGGGGAFy_____yAE_AEtGGt 7SwiftUI15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV AA6VStackV AA7ForEachV AA6HStackV 20UserNotificationsKit26NotificationSourceIconViewV AA30_EnvironmentKeyWritingModifierV AN0pqR5CacheC AA05TupleS0V
++ _symbolic _____y___________ySnySiGSi_____yACyADSi_____y__________y_____SgGGSgGGGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA7ForEachV AA6HStackV AA15ModifiedContentV 20UserNotificationsKit022NotificationSourceIconD0V AA30_EnvironmentKeyWritingModifierV AN0pqR5CacheC
++ _symbolic _____y___________y_____y__________GSg______y_____ySnySiGSi_____yAJyAKSiADy__________y_____SgGGSgGGGGAIyACyAH_AHtGGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV AA4TextV AA010_FixedSizeG0V AA0F0V AA7ForEachV AA6HStackV 20UserNotificationsKit022NotificationSourceIconD0V AA30_EnvironmentKeyWritingModifierV AV0tuV5CacheC
++ _symbolic _____y_____ySnySiGSi_____yAByACSi_____y__________y_____SgGGSgGGGG 7SwiftUI6VStackV AA7ForEachV AA6HStackV AA15ModifiedContentV 20UserNotificationsKit26NotificationSourceIconViewV AA30_EnvironmentKeyWritingModifierV AJ0lmN5CacheC
++ _symbolic _____y_____y__________GSg_AFtG 7SwiftUI9TupleViewV AA15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV
++ _symbolic _____y_____y_____yAAy__________GSg_ABy_____ySnySiGSi_____yAHyAISiAAy__________y_____SgGGSgGGGGAByACyAG_AGtGGtGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA16_FixedSizeLayoutV AA7ForEachV AA6HStackV 20UserNotificationsKit022NotificationSourceIconG0V AA30_EnvironmentKeyWritingModifierV AP0rsT5CacheC AA08_PaddingK0V
++ _symbolic _____y_____y_____y__________GSg_AAy_____ySnySiGSi_____yAHyAISiACy__________y_____SgGGSgGGGGAAyAByAG_AGtGGtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV AA7ForEachV AA6HStackV 20UserNotificationsKit022NotificationSourceIconE0V AA30_EnvironmentKeyWritingModifierV AP0rsT5CacheC
++ _symbolic _____y_____y_____y__________GSg_AGtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyACyACyAA4TextVAA16_FixedSizeLayoutVGAA010_FlexFrameK0VGSg_AEyAA7ForEachVySnySiGSiACyAA6HStackVyARyASSiACy20UserNotificationsKit022NotificationSourceIconG0VAA30_EnvironmentKeyWritingModifierVyAV0tuV5CacheCSgGGSgGGANGGGAEyAGyAP_APtGGtGGANGAA0G0HPA13_AAA15_HPyHC_AnA0gZ0HPyHCHC.1
+- _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV AA010_FlexFrameH0V
+- _symbolic _____yAAy__________G_____GSg 7SwiftUI15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV AA010_FlexFrameH0V
+- _symbolic _____yAAy__________G_____GSg______y_____ySnySiGSiAAy_____yAIyAJSiAAy__________y_____SgGGSgGGAEGGGAHy_____yAG_AGtGGt 7SwiftUI15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV AA010_FlexFrameH0V AA6VStackV AA7ForEachV AA6HStackV 20UserNotificationsKit26NotificationSourceIconViewV AA30_EnvironmentKeyWritingModifierV AP0rsT5CacheC AA05TupleU0V
+- _symbolic _____y___________ySnySiGSi_____y_____yACyADSiAEy__________y_____SgGGSgGG_____GGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA7ForEachV AA15ModifiedContentV AA6HStackV 20UserNotificationsKit022NotificationSourceIconD0V AA30_EnvironmentKeyWritingModifierV AN0pqR5CacheC AA010_FlexFrameG0V
+- _symbolic _____y___________y_____yADy__________G_____GSg______y_____ySnySiGSiADy_____yALyAMSiADy__________y_____SgGGSgGGAHGGGAKyACyAJ_AJtGGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV AA4TextV AA010_FixedSizeG0V AA010_FlexFrameG0V AA0F0V AA7ForEachV AA6HStackV 20UserNotificationsKit022NotificationSourceIconD0V AA30_EnvironmentKeyWritingModifierV AX0vwX5CacheC
+- _symbolic _____y_____yABy__________G_____GSg_AHtG 7SwiftUI9TupleViewV AA15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV AA010_FlexFrameJ0V
+- _symbolic _____y_____ySnySiGSi_____y_____yAByACSiADy__________y_____SgGGSgGG_____GGG 7SwiftUI6VStackV AA7ForEachV AA15ModifiedContentV AA6HStackV 20UserNotificationsKit26NotificationSourceIconViewV AA30_EnvironmentKeyWritingModifierV AJ0lmN5CacheC AA16_FlexFrameLayoutV
+- _symbolic _____y_____y_____yAAyAAy__________G_____GSg_ABy_____ySnySiGSiAAy_____yAJyAKSiAAy__________y_____SgGGSgGGAGGGGAByACyAI_AItGGtGGAGG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA16_FixedSizeLayoutV AA010_FlexFrameK0V AA7ForEachV AA6HStackV 20UserNotificationsKit022NotificationSourceIconG0V AA30_EnvironmentKeyWritingModifierV AR0tuV5CacheC
+- _symbolic _____y_____y_____yACy__________G_____GSg_AAy_____ySnySiGSiACy_____yAJyAKSiACy__________y_____SgGGSgGGAGGGGAAyAByAI_AItGGtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV AA010_FlexFrameK0V AA7ForEachV AA6HStackV 20UserNotificationsKit022NotificationSourceIconE0V AA30_EnvironmentKeyWritingModifierV AR0tuV5CacheC
+- _symbolic _____y_____y_____yACy__________G_____GSg_AItGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV AA010_FlexFrameK0V
+- _symbolic _____y_____y_____ySnySiGSiAAy__________y_____SgGGSgGG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA7ForEachV 20UserNotificationsKit26NotificationSourceIconViewV AA30_EnvironmentKeyWritingModifierV AH0klM5CacheC AA16_FlexFrameLayoutV
+
+```

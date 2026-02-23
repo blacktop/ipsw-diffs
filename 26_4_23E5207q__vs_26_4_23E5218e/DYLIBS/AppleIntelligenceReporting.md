@@ -1,0 +1,140 @@
+## AppleIntelligenceReporting
+
+> `/System/Library/PrivateFrameworks/AppleIntelligenceReporting.framework/AppleIntelligenceReporting`
+
+```diff
+
+-148.100.0.502.3
+-  __TEXT.__text: 0x6b474
+-  __TEXT.__auth_stubs: 0x2550
+-  __TEXT.__const: 0xdaac
+-  __TEXT.__swift5_typeref: 0x2ab7
++155.0.0.0.0
++  __TEXT.__text: 0x6b9c8
++  __TEXT.__auth_stubs: 0x2650
++  __TEXT.__const: 0xdbbc
++  __TEXT.__swift5_typeref: 0x2ac5
+   __TEXT.__oslogstring: 0x17b
+-  __TEXT.__constg_swiftt: 0x20dc
+-  __TEXT.__swift5_reflstr: 0x1b2d
+-  __TEXT.__swift5_fieldmd: 0x2f40
++  __TEXT.__constg_swiftt: 0x20f8
++  __TEXT.__swift5_reflstr: 0x1b6d
++  __TEXT.__swift5_fieldmd: 0x2f98
+   __TEXT.__cstring: 0x12c6
+-  __TEXT.__swift5_proto: 0xd68
+-  __TEXT.__swift5_types: 0x38c
++  __TEXT.__swift5_proto: 0xd7c
++  __TEXT.__swift5_types: 0x390
+   __TEXT.__swift5_protos: 0x10
+-  __TEXT.__swift5_assocty: 0x120
++  __TEXT.__swift5_assocty: 0x138
+   __TEXT.__swift5_builtin: 0x28
+   __TEXT.__swift5_mpenum: 0x10
+   __TEXT.__swift5_capture: 0x150
+   __TEXT.__swift_as_entry: 0xc
+   __TEXT.__swift_as_ret: 0xc
+-  __TEXT.__unwind_info: 0x24c0
+-  __TEXT.__eh_frame: 0x3078
++  __TEXT.__unwind_info: 0x24e0
++  __TEXT.__eh_frame: 0x30d8
+   __TEXT.__objc_classname: 0x121
+   __TEXT.__objc_methname: 0x2b1
+   __TEXT.__objc_methtype: 0x1
+
+   __DATA_CONST.__objc_classlist: 0x28
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x30
+-  __AUTH_CONST.__auth_got: 0x12b0
+-  __AUTH_CONST.__const: 0x5b78
++  __AUTH_CONST.__auth_got: 0x1330
++  __AUTH_CONST.__const: 0x5c08
+   __AUTH_CONST.__objc_const: 0x630
+   __AUTH.__data: 0x90
+-  __DATA.__data: 0x2390
+-  __DATA.__bss: 0x1a510
++  __DATA.__data: 0x23a0
++  __DATA.__bss: 0x1a790
+   __DATA.__common: 0x48
+   __DATA_DIRTY.__objc_data: 0x50
+   __DATA_DIRTY.__data: 0xd10
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: FA8772B9-B1EA-343F-A083-96A8CE27D4CB
+-  Functions: 4668
+-  Symbols:   19255
++  UUID: 0A4D6F35-1D79-3A7A-9B4E-6851177F4470
++  Functions: 4686
++  Symbols:   19349
+   CStrings:  195
+ 
+Symbols:
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceO06mobileG0yA2EmFWC
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceO14factoryInstallyA2EmFWC
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceO24preSoftwareUpdateStagingyA2EmFWC
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceO4rootyA2EmFWC
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceO5trialyA2EmFWC
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceO7unknownyA2EmFWC
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceO8rawValueAESgs6UInt32V_tcfC
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceO8rawValues6UInt32Vvg
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceO8rawValues6UInt32VvpMV
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOAESQAAWL
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOAESQAAWl
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOAESYAAWL
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOAESYAAWl
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOMF
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOMa
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOMf
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOMn
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceON
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOSEAAMc
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOSEAAMcMK
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOSEAASE6encode2toys7Encoder_p_tKFTW
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOSHAAMc
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOSHAAMcMK
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOSHAASH9hashValueSivgTW
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOSHAASQWb
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOSQAAMc
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOSQAAMcMK
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOSQAASQ2eeoiySbx_xtFZTW
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOSYAAMA
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOSYAAMc
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOSYAAMcMK
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOSYAASY8rawValue03RawJ0QzvgTW
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOSYAASY8rawValuexSg03RawJ0Qz_tcfCTW
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOSeAAMc
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOSeAAMcMK
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOSeAASe4fromxs7Decoder_p_tKcfCTW
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOWV
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOwet
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOwst
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOwug
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOwui
++ _$s26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOwup
++ _$s27IntelligencePlatformLibrary05AppleA25ReportingInferenceMetricsV13kvCacheReusedSbSgvg
++ _$s27IntelligencePlatformLibrary05AppleA25ReportingInferenceMetricsV13kvCacheReusedSbSgvs
++ _$s27IntelligencePlatformLibrary05AppleA25ReportingInferenceMetricsV16kvCachePublishedSbSgvg
++ _$s27IntelligencePlatformLibrary05AppleA25ReportingInferenceMetricsV16kvCachePublishedSbSgvs
++ _$s27IntelligencePlatformLibrary05AppleA25ReportingInferenceMetricsV26kvCacheReuseFetchSizeBytess6UInt32VSgvg
++ _$s27IntelligencePlatformLibrary05AppleA25ReportingInferenceMetricsV26kvCacheReuseFetchSizeBytess6UInt32VSgvs
++ _$s27IntelligencePlatformLibrary05AppleA25ReportingInferenceMetricsV28kvCacheReusePublishSizeBytess6UInt32VSgvg
++ _$s27IntelligencePlatformLibrary05AppleA25ReportingInferenceMetricsV28kvCacheReusePublishSizeBytess6UInt32VSgvs
++ _$s27IntelligencePlatformLibrary05AppleA25ReportingInferenceMetricsV30kvCacheReuseFetchLatencyMilliss6UInt32VSgvg
++ _$s27IntelligencePlatformLibrary05AppleA25ReportingInferenceMetricsV30kvCacheReuseFetchLatencyMilliss6UInt32VSgvs
++ _$s27IntelligencePlatformLibrary05AppleA25ReportingInferenceMetricsV30kvCacheReuseIsFromSameEnsembleSbSgvg
++ _$s27IntelligencePlatformLibrary05AppleA25ReportingInferenceMetricsV30kvCacheReuseIsFromSameEnsembleSbSgvs
++ _$s27IntelligencePlatformLibrary05AppleA25ReportingInferenceMetricsV32kvCacheReuseNonStaticTokensCounts6UInt32VSgvg
++ _$s27IntelligencePlatformLibrary05AppleA25ReportingInferenceMetricsV32kvCacheReuseNonStaticTokensCounts6UInt32VSgvs
++ _$s27IntelligencePlatformLibrary05AppleA25ReportingInferenceMetricsV32kvCacheReusePublishLatencyMilliss6UInt32VSgvg
++ _$s27IntelligencePlatformLibrary05AppleA25ReportingInferenceMetricsV32kvCacheReusePublishLatencyMilliss6UInt32VSgvs
++ _$sSYsSHRzSH8RawValueSYRpzrlE04hashB0Sivg26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceO_TB5
++ _$sSYsSHRzSH8RawValueSYRpzrlE08_rawHashB04seedS2i_tF26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceO_TB5
++ _$sSYsSHRzSH8RawValueSYRpzrlE4hash4intoys6HasherVz_tF26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceO_TB5
++ _associated conformance 26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceOSHAASQ
++ _symbolic _____ 26AppleIntelligenceReporting19UAFDailyStatusEventV11AssetSourceO
+
+```

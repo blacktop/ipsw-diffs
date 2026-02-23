@@ -1,0 +1,2832 @@
+# 26.4 (23E5207q) .vs 26.4 (23E5218e)
+
+## IPSWs
+
+- `iPhone18,1_26.4_23E5207q_Restore.ipsw`
+- `iPhone18,1_26.4_23E5218e_Restore.ipsw`
+
+## Kernel
+
+### Version
+
+| iOS | Version | Build | Date |
+| :-- | :------ | :---- | :--- |
+| 26.4 *(23E5207q)* | 25.4.0 | 12377.100.591.502.1~2 | Wed, 04Feb2026 23:07:23 PST |
+| 26.4 *(23E5218e)* | 25.4.0 | 12377.100.625.0.3~14 | Sun, 15Feb2026 23:07:24 PST |
+
+### Kexts
+
+### ⬆️ Updated (42)
+
+<details>
+  <summary><i>View Updated</i></summary>
+
+- [com.apple.AGXG18P](KEXTS/com.apple.AGXG18P.md)
+- [com.apple.AppleFSCompression.AppleFSCompressionTypeZlib](KEXTS/com.apple.AppleFSCompression.AppleFSCompressionTypeZlib.md)
+- [com.apple.driver.AppleA7IOP](KEXTS/com.apple.driver.AppleA7IOP.md)
+- [com.apple.driver.AppleA7IOP-ASCWrap-v6](KEXTS/com.apple.driver.AppleA7IOP-ASCWrap-v6.md)
+- [com.apple.driver.AppleAVD](KEXTS/com.apple.driver.AppleAVD.md)
+- [com.apple.driver.AppleAVE2](KEXTS/com.apple.driver.AppleAVE2.md)
+- [com.apple.driver.AppleEffaceableStorage](KEXTS/com.apple.driver.AppleEffaceableStorage.md)
+- [com.apple.driver.AppleFirmwareKit](KEXTS/com.apple.driver.AppleFirmwareKit.md)
+- [com.apple.driver.AppleGenericMultitouch](KEXTS/com.apple.driver.AppleGenericMultitouch.md)
+- [com.apple.driver.AppleH16ANEInterface](KEXTS/com.apple.driver.AppleH16ANEInterface.md)
+- [com.apple.driver.AppleHPM](KEXTS/com.apple.driver.AppleHPM.md)
+- [com.apple.driver.AppleJPEGDriver](KEXTS/com.apple.driver.AppleJPEGDriver.md)
+- [com.apple.driver.AppleM2ScalerCSCDriver](KEXTS/com.apple.driver.AppleM2ScalerCSCDriver.md)
+- [com.apple.driver.AppleMobileDispH18P-DCP](KEXTS/com.apple.driver.AppleMobileDispH18P-DCP.md)
+- [com.apple.driver.AppleMobileFileIntegrity](KEXTS/com.apple.driver.AppleMobileFileIntegrity.md)
+- [com.apple.driver.AppleProResHW](KEXTS/com.apple.driver.AppleProResHW.md)
+- [com.apple.driver.AppleSEPKeyStore](KEXTS/com.apple.driver.AppleSEPKeyStore.md)
+- [com.apple.driver.AppleSEPManager](KEXTS/com.apple.driver.AppleSEPManager.md)
+- [com.apple.driver.AppleSMCWirelessCharger](KEXTS/com.apple.driver.AppleSMCWirelessCharger.md)
+- [com.apple.driver.AppleSPMIPMU](KEXTS/com.apple.driver.AppleSPMIPMU.md)
+- [com.apple.driver.AppleT8150CLPC](KEXTS/com.apple.driver.AppleT8150CLPC.md)
+- [com.apple.driver.AppleUSBXDCIARM](KEXTS/com.apple.driver.AppleUSBXDCIARM.md)
+- [com.apple.driver.DiskImages.UDIFDiskImage](KEXTS/com.apple.driver.DiskImages.UDIFDiskImage.md)
+- [com.apple.driver.FairPlayIOKit](KEXTS/com.apple.driver.FairPlayIOKit.md)
+- [com.apple.driver.RTBuddy](KEXTS/com.apple.driver.RTBuddy.md)
+- [com.apple.driver.corecapture](KEXTS/com.apple.driver.corecapture.md)
+- [com.apple.driver.usb.AppleSynopsysUSB40XHCI](KEXTS/com.apple.driver.usb.AppleSynopsysUSB40XHCI.md)
+- [com.apple.driver.usb.AppleSynopsysUSBXHCI](KEXTS/com.apple.driver.usb.AppleSynopsysUSBXHCI.md)
+- [com.apple.driver.usb.AppleUSBXHCI](KEXTS/com.apple.driver.usb.AppleUSBXHCI.md)
+- [com.apple.filesystems.apfs](KEXTS/com.apple.filesystems.apfs.md)
+- [com.apple.filesystems.hfs.kext](KEXTS/com.apple.filesystems.hfs.kext.md)
+- [com.apple.iokit.IOMobileGraphicsFamily](KEXTS/com.apple.iokit.IOMobileGraphicsFamily.md)
+- [com.apple.iokit.IOMobileGraphicsFamily-DCP](KEXTS/com.apple.iokit.IOMobileGraphicsFamily-DCP.md)
+- [com.apple.iokit.IOSCSIArchitectureModelFamily](KEXTS/com.apple.iokit.IOSCSIArchitectureModelFamily.md)
+- [com.apple.iokit.IOTimeSyncFamily](KEXTS/com.apple.iokit.IOTimeSyncFamily.md)
+- [com.apple.iokit.IOUSBHostFamily](KEXTS/com.apple.iokit.IOUSBHostFamily.md)
+- [com.apple.iokit.IOUSBMassStorageDriver](KEXTS/com.apple.iokit.IOUSBMassStorageDriver.md)
+- [com.apple.kec.corecrypto](KEXTS/com.apple.kec.corecrypto.md)
+- [com.apple.kernel](KEXTS/com.apple.kernel.md)
+- [com.apple.nke.ppp](KEXTS/com.apple.nke.ppp.md)
+- [com.apple.security.AKSAnalytics](KEXTS/com.apple.security.AKSAnalytics.md)
+- [com.apple.security.sandbox](KEXTS/com.apple.security.sandbox.md)
+
+</details>
+
+### 🔑 Entitlements
+
+- [Entitlements DIFF](Entitlements.md)
+
+## Firmware
+
+### ⬆️ Updated (16)
+
+<details>
+  <summary><i>View Updated</i></summary>
+
+- [AppleAVE2FW_H18.im4p](FIRMWARE/AppleAVE2FW_H18.im4p.md)
+- [adc-silenus-v5x.im4p](FIRMWARE/adc-silenus-v5x.im4p.md)
+- [agx_a000](FIRMWARE/agx_a000.md)
+- [agx_a010](FIRMWARE/agx_a010.md)
+- [agx_b000](FIRMWARE/agx_b000.md)
+- [ansf.t8150.release.im4p](FIRMWARE/ansf.t8150.release.im4p.md)
+- [exclave_pmm_exclave](FIRMWARE/exclave_pmm_exclave.md)
+- [exclave_roottask](FIRMWARE/exclave_roottask.md)
+- [exclave_sharedcache](FIRMWARE/exclave_sharedcache.md)
+- [h18_ane_fw_apollo_v5x.im4p](FIRMWARE/h18_ane_fw_apollo_v5x.im4p.md)
+- [rans.t8150.release.im4p](FIRMWARE/rans.t8150.release.im4p.md)
+- [securem3fw-v5x.im4p](FIRMWARE/securem3fw-v5x.im4p.md)
+- [t8150.msrf.im4p](FIRMWARE/t8150.msrf.im4p.md)
+- [t8150.rmsr.im4p](FIRMWARE/t8150.rmsr.im4p.md)
+- [t8150pmp.im4p](FIRMWARE/t8150pmp.im4p.md)
+- [txm.iphoneos.release.im4p](FIRMWARE/txm.iphoneos.release.im4p.md)
+
+</details>
+
+### iBoot
+
+| iOS | Version |
+| :-- | :------ |
+| 26.4 *(23E5207q)* | iBoot-13822.100.791.502.1 |
+| 26.4 *(23E5218e)* | mBoot-18000.100.10.0.1 |
+
+#### 🆕 NEW (9)
+
+<details>
+  <summary><i>View NEW</i></summary>
+
+##### `iboot_blob29.bin`
+  - `TCAPACDLHDHPNIRNDVPUV0Df0rl0slilpslp0tvT`
+  - `!C#C?CRCZl`
+  - `MCBWRBDARDRR1lh`
+  - `!B-C-E-F-I-J-M-N-P-Q-R-S-T-U-W-X-PAIBFCPCBDIDLDCEPFDIEIMLKPWPtSSVtp`
+  - `CRabcdefgi0`
+  - `jPAcAuADBIBACDCFCRCSCTCUCXCYCZCbCcCfCiCmCnCrCsCtCvCwCADBDEDIDPDRDpDCEFEpECFSFVFCIDIQIRIAJBJDJEJFJGJIJMJNJPJQJRJSJVJCLGLILRLIMPMVMIPMPRPSPTPdPePiPsPtPIRRRcRpRTSWStSIUCVDVMVRVXVbVdVeVmVnVSWfihiiiminisiglilsodpiprptpX`
+##### `iboot_blob32.bin`
+  - `smc/bms/bms_v1/charger.cpp`
+  - `Error getting LVR data from PMU: %d`
+  - `select_input_power_source`
+  - `Not charging:%llx`
+  - `charger_configure_input_src: ilim=%u, src:%u`
+  - `Unable to write LVR data to GG: %d`
+  - `%s: %s:%d: %s, Unable to disable interrupt for btLV: %d`
+  - `Shutdown flags: Battery=%d, PMU=%d, pwrOut=%d Override=%d`
+  - `RXDS: AP notify retry %d, buff %d`
+  - `LVR init failed: %d`
+  - `Unable to enable interrupt for btLV region: rc = %u`
+  - `smc/bms/dynamic_shutdown/battery_dynamic_shutdown.cpp`
+  - `smc/bms/bms_v1/battery.cpp`
+  - `DE: invalid checksum SMC %d AP %d`
+  - `Unable to set handler for btLV region: rc = %u`
+  - `rc_irq == RTK_ST_OK`
+  - `Shutdown VPMax bounds: floor=%d ceil=%d vpmax_vcut=%d gg_vcut=%d iss=%d.`
+  - `Critical Shutdown Requested`
+  - `DE: correcting shutdown_threshold from %d to %d`
+  - `charger: Failed to set termination voltage to:%umV rc:%d`
+  - `smc/bms/bms_v1/bms.cpp`
+  - `%s: Failed to read 'CELD', error ret=%d`
+  - `RXDS: retry %d`
+  - `iBoot CHI1 = %d ignored`
+  - `c == RTK_ST_OK`
+  - `%s: charger_set_path_priority failed`
+  - `vBMSTaskStop fail`
+  - `RXDS: AP notify error %d`
+  - `Error accessing scratchpad key '%s', rc=%d`
+  - `DE: Checksum becomes valid SMC %d AP %d`
+  - `charger_pmu_init`
+  - `iOS CHI1 = %d`
+##### `iboot_blob10.bin`
+  - `j@y.~b9)9@y?`
+##### `RTKit.bin`
+  - `smc/ppm_task.cpp`
+  - `Measure invalid: v %d i %d`
+  - `diff = %lld, expected_ticks_diff = %lld, iter_counter = %u, previous_count = %u`
+  - `PMU FW info:`
+  - `<<<PMU monitor crashlog end>>>`
+  - `(SOCD) ERROR:Failed to allocate a region instance. Storage index %u`
+  - `Adapter Eff Loss`
+  - `status = 0x%x`
+  - `smc/smcmain.cpp`
+  - `Battery Discharge`
+  - `Could not complete appending PMU FW information to crashlog because of SPMI err`
+  - `System Power In`
+  - `smc/socd.cpp`
+  - `(SOCD) ERROR:Failed to create socd handle. Storage index %u, result %d`
+  - `fw_ver_string = %s`
+  - `assert_params = 0x%x, 0x%x`
+  - `smc/smc_init.cpp`
+  - `(SOCD) ERROR:Failed to load socd container, result: %d`
+  - `(SOCD) ERROR:Failed to initialize the SOCD container. Storage index %u, result %d`
+  - `assert_id = %d`
+  - `smc/smc_watchdog.cpp`
+  - `(SOCD) ERROR:Failed to allocate a region buffer`
+  - `(SOCD) ERROR:AP wdt counter is about to overflow`
+  - `(SOCD) ERROR:Unknown SOCD storage type: %d`
+  - `(SOCD) ERROR:Failed to initialize socd container, result %d`
+  - `UUID: %02x%02x%02x%02x-%02x%02x-%02x%02x-%02x%02x-%02x%02x%02x%02x%02x%02x`
+  - `preventing overflow for %s accumulator, resetting`
+  - `Battery Power`
+  - `(SOCD) ERROR:Failed to read event counters`
+##### `iboot_blob36.bin`
+  - `RTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACK`
+##### `AppleSMCFirmware.bin`
+  - `AppleSMCFirmware_H18-6164.100.502.0.1.v53.REL`
+##### `iboot_blob31.bin`
+  - `vla_bound_not_positive`
+  - `cfi_check_fail`
+  - `type_mismatch`
+  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/acBlock.cpp`
+  - `UBSAN triggered SMC panic: unknown`
+  - `UBSAN triggered SMC panic: %s`
+  - `las_tunableh_write`
+  - `load_invalid_value`
+  - `divrem_overflow`
+  - `float_cast_overflow`
+  - `invalid_objc_cast`
+  - `shift_out_of_bounds`
+  - `las_tunableh_fig_get_mask`
+  - `mul_overflow`
+  - `Comms ntfy: %d, %d`
+  - `!las_tunableh_initialized()`
+  - `nullability_return`
+  - `las_tunableh_read`
+  - `dynamic_type_cache_miss`
+  - `las_tunableh_fig_get_value`
+  - `/Library/Caches/com.apple.xbs/37729C83-EA6C-40DF-8B4A-4C54CCD5C0E5/TemporaryDirectory.5Zo1Ly/Sources/libAppleSilicon/tunableh/v1/tunableh.c`
+  - `las_tunableh_init`
+  - `builtin_unreachable`
+  - `negate_overflow`
+  - `nullability_arg`
+  - `missing_return`
+  - `alignment_assumption`
+  - `las_tunableh_get_fig() == NULL`
+  - `function_type_mismatch`
+  - `las_tunableh_module_evaluate`
+  - `las_tunableh_apply`
+  - `invalid_builtin`
+  - `sub_overflow`
+  - `implicit_conversion`
+  - `add_overflow`
+  - `nonnull_arg`
+  - `%s:%d:%s: %s`
+  - `las_tunableh_fig_get_expression`
+  - `nonnull_return`
+  - `out_of_bounds`
+  - `pointer_overflow`
+##### `iboot_blob46.bin`
+  - `tnCplSTRhN`
+  - `lCytuDTR]N`
+  - `tnCkaWTRtN`
+##### `iboot`
+  - `usbcfw_tnt-35.100.3`
+
+</details>
+
+#### ❌ Removed (8)
+
+<details>
+  <summary><i>View Removed</i></summary>
+
+##### `RTKit.bin`
+  - `R:AP wdt counter is about to overflow`
+##### `iboot`
+  - `usbcfw_tnt-35.100.2`
+##### `iboot_blob29.bin`
+  - `MCBWRBDARDRR1`
+  - `CRabcdefgi`
+  - `TCAPACDLHDHPNIRNDVPUV0Df0rl0slilpslp0tvTX[`
+  - ` B-C-E-F-I-J-M-N-P-Q-R-S-T-U-W-X-PAIBFCPCBDIDLDCEPFDIEIMLKPWPtSSV`
+  - `DKLLLKRLR0b1b3b4babbbcbdbMdmdzd0hHh0t1t3t4tatbtctdtmt`
+  - `DD0E0H0J0R0V01A2AIASAIBVBCCECFCRCBDSFCHVHWH1I2IBICIEIFILIMIOISIDKGKHKKKLKMKOKPKQKRKSKUKVKWKSLTL2MCNDNINCOSPiQvQwQCRTRCSESLSTSWSCTETLTMTUTG`
+  - `D0010203040506001112131415102122232031323330414243405152535061626071727081828384858091929390A1A2A0B1B2B0C1C2C3C0D1D2D3DaD0E1E0F1F1H2H1K2K2P3P4P5PFPRPSPTPjPkPmPnPuPvPwPyPTRKSLSMSNSOSPSQSRSSSTSUSVSWSXS0T1T2T8T9TaTbTcTdTeTfTgThTiTjTkTlTMU0a1a2a0b1b2b3b0c1c2c0d1d2d0e1e2eKeLeMeNeOePeQeReSeTeUeVeWeXe0f1f2f0g1g2g0h1h2h0i1i2i0j1j2j0k1k2k0l1l2l0m1m2m3mambmcm0n1n2n3n0o1o2o0p1p2p3p0q1q2q0r1r2r0s1s2s0t1t2tatbtct0u1u2u0v1v2v0w1w2w0x1x2x8x9xaxbxcxdxexfxgxhxixjxkxlx0y1y2y0z1z2z`
+  - `jPAcAuADBIBACDCFCRCSCTCUCXCYCZCbCcCfCiCmCnCrCsCtCvCwCADBDEDIDPDRDpDCEFEpECFSFVFCIDIQIRIAJBJDJEJFJGJIJMJNJPJQJRJSJVJCLGLILRLIMPMVMIPMPRPSPTPdPePiPsPtPIRRRcRpRTSWStSIUCVDVMVRVXVbVdVeVmVnVSWfihiiiminisiglilsodpiprptpX,`
+  - `D0t1t2t3t0v1v2v3v0z1z2z3z`
+##### `iboot_blob32.bin`
+  - `Could not complete appending PMU FW information to crashlog because of SPMI err`
+  - `PMU FW info:`
+  - `status = 0x%x`
+  - `smc/socd.cpp`
+  - `(SOCD) ERROR:Failed to read event counters`
+  - `(SOCD) ERROR:Failed to allocate a region instance. Storage index %u`
+  - `hpad key '%s', rc=%d`
+  - `smc/smcmain.cpp`
+  - `System Power In`
+  - `(SOCD) ERROR:Failed to create socd handle. Storage index %u, result %d`
+  - `Measure invalid: v %d i %d`
+  - `preventing overflow for %s accumulator, resetting`
+  - `smc/smc_init.cpp`
+  - `(SOCD) ERROR:Failed to initialize the SOCD container. Storage index %u, result %d`
+  - `(SOCD) ERROR:Failed to load socd container, result: %d`
+  - `(SOCD) ERROR:Failed to allocate a region buffer`
+  - `assert_params = 0x%x, 0x%x`
+  - `UUID: %02x%02x%02x%02x-%02x%02x-%02x%02x-%02x%02x-%02x%02x%02x%02x%02x%02x`
+  - `(SOCD) ERRO`
+  - `assert_id = %d`
+  - `(SOCD) ERROR:Failed to initialize socd container, result %d`
+  - `smc/ppm_task.cpp`
+  - `ticks_diff = %lld, expected_ticks_diff = %lld, iter_counter = %u, previous_count = %u`
+  - `(SOCD) ERROR:Unknown SOCD storage type: %d`
+  - `<<<PMU monitor crashlog end>>>`
+  - `Adapter Eff Loss`
+  - `Battery Discharge`
+  - `fw_ver_string = %s`
+  - `smc/smc_watchdog.cpp`
+  - `Battery Power`
+##### `AppleSMCFirmware.bin`
+  - `AppleSMCFirmware_H18-6164.100.488.v53.REL`
+##### `iboot_blob46.bin`
+  - `EERFPHTR=J`
+  - `UPCmuNTRyJ`
+  - `tnCkaWTR&J`
+  - `tffOnOTR1J`
+  - `KAEPPHTRRJ`
+##### `iboot_blob31.bin`
+  - `iBoot CHI1 = %d ignored`
+  - `DE: Checksum becomes valid SMC %d AP %d`
+  - `smc/bms/bms_v1/charger.cpp`
+  - `Error accessing scratc`
+  - `iOS CHI1 = %d`
+  - `%s: charger_set_path_priority failed`
+  - `Shutdown VPMax bounds: floor=%d ceil=%d vpmax_vcut=%d gg_vcut=%d iss=%d.`
+  - `smc/bms/dynamic_shutdown/battery_dynamic_shutdown.cpp`
+  - `Critical Shutdown Requested`
+  - `Error getting LVR data from PMU: %d`
+  - `smc/bms/bms_v1/bms.cpp`
+  - `DE: invalid checksum SMC %d AP %d`
+  - `charger_pmu_init`
+  - `select_input_power_source`
+  - `Shutdown flags: Battery=%d, PMU=%d, pwrOut=%d Override=%d`
+  - `DE: correcting shutdown_threshold from %d to %d`
+  - `Unable to set handler for btLV region: rc = %u`
+  - `rc_irq == RTK_ST_OK`
+  - `LVR init failed: %d`
+  - `smc/bms/bms_v1/battery.cpp`
+  - `%s: Failed to read 'CELD', error ret=%d`
+  - `charger: Failed to set termination voltage to:%umV rc:%d`
+  - `Unable to enable interrupt for btLV region: rc = %u`
+  - `Not charging:%llx`
+  - `Unable to write LVR data to GG: %d`
+  - `charger_configure_input_src: ilim=%u, src:%u`
+  - `frc == RTK_ST_OK`
+  - `%s: %s:%d: %s, Unable to disable interrupt for btLV: %d`
+  - `vBMSTaskStop fail`
+##### `iboot_blob35.bin`
+  - `RTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACK`
+
+</details>
+
+## DSC
+
+### WebKit
+
+| iOS | Version |
+| :-- | :------ |
+| 26.4 *(23E5207q)* | 624.1.11.10.3 |
+| 26.4 *(23E5218e)* | 624.1.13.10.2 |
+
+### Dylibs
+
+#### 🆕 NEW (9)
+
+- `/System/Library/AccessibilityBundles/DockFolderViewService.axbundle/DockFolderViewService`
+- `/System/Library/PrivateFrameworks/AlwaysOnExclavesDaemon.framework/AlwaysOnExclavesDaemon`
+- `/System/Library/PrivateFrameworks/AppleCIOFusion.framework/AppleCIOFusion`
+- `/System/Library/PrivateFrameworks/AppleCIOFusionConfig.framework/AppleCIOFusionConfig`
+- `/System/Library/PrivateFrameworks/BinaryParsingInternal.framework/BinaryParsingInternal`
+- `/System/Library/PrivateFrameworks/ByteMatrixVerification.framework/ByteMatrixVerification`
+- `/System/Library/PrivateFrameworks/InAppFeedback.framework/InAppFeedback`
+- `/System/Library/PrivateFrameworks/NewsUserEvents.framework/NewsUserEvents`
+- `/System/Library/PrivateFrameworks/TCCAuthorizationService.framework/TCCAuthorizationService`
+
+#### ❌ Removed (2)
+
+- `/System/Library/Frameworks/ByteMatrixVerification.framework/ByteMatrixVerification`
+- `/System/Library/PrivateFrameworks/SwiftUITracingSupport.framework/SwiftUITracingSupport`
+
+#### ⬆️ Updated (1800)
+
+<details>
+  <summary><i>View Updated</i></summary>
+
+- [/System/Library/AccessibilityBundles/ASMessagesProvider.axbundle/ASMessagesProvider](DYLIBS/ASMessagesProvider.md)
+- [/System/Library/AccessibilityBundles/AVKit.axbundle/AVKit](DYLIBS/AVKit.md)
+- [/System/Library/AccessibilityBundles/AppInstallExtension.axbundle/AppInstallExtension](DYLIBS/AppInstallExtension.md)
+- [/System/Library/AccessibilityBundles/AppStore.axbundle/AppStore](DYLIBS/AppStore.md)
+- [/System/Library/AccessibilityBundles/AppleMediaServicesUI.axbundle/AppleMediaServicesUI](DYLIBS/AppleMediaServicesUI.md)
+- [/System/Library/AccessibilityBundles/Arcade.axbundle/Arcade](DYLIBS/Arcade.md)
+- [/System/Library/AccessibilityBundles/BridgeStoreExtension.axbundle/BridgeStoreExtension](DYLIBS/BridgeStoreExtension.md)
+- [/System/Library/AccessibilityBundles/ChatKitFramework.axbundle/ChatKitFramework](DYLIBS/ChatKitFramework.md)
+- [/System/Library/AccessibilityBundles/CommunicationDetails.axbundle/CommunicationDetails](DYLIBS/CommunicationDetails.md)
+- [/System/Library/AccessibilityBundles/ConversationKit.axbundle/ConversationKit](DYLIBS/ConversationKit.md)
+- [/System/Library/AccessibilityBundles/DocumentManagerExecutables.axbundle/DocumentManagerExecutables](DYLIBS/DocumentManagerExecutables.md)
+- [/System/Library/AccessibilityBundles/HeadphoneSettingsUI.axbundle/HeadphoneSettingsUI](DYLIBS/HeadphoneSettingsUI.md)
+- [/System/Library/AccessibilityBundles/IntelligentCallScreeningSettingsBundle.axbundle/IntelligentCallScreeningSettingsBundle](DYLIBS/IntelligentCallScreeningSettingsBundle.md)
+- [/System/Library/AccessibilityBundles/Measure.axbundle/Measure](DYLIBS/Measure.md)
+- [/System/Library/AccessibilityBundles/MobileMail.axbundle/MobileMail](DYLIBS/MobileMail.md)
+- [/System/Library/AccessibilityBundles/MobileSafariFramework.axbundle/MobileSafariFramework](DYLIBS/MobileSafariFramework.md)
+- [/System/Library/AccessibilityBundles/MobileSafariUI.axbundle/MobileSafariUI](DYLIBS/MobileSafariUI.md)
+- [/System/Library/AccessibilityBundles/PassKitUI.axbundle/PassKitUI](DYLIBS/PassKitUI.md)
+- [/System/Library/AccessibilityBundles/PhotosUICore.axbundle/PhotosUICore](DYLIBS/PhotosUICore.md)
+- [/System/Library/AccessibilityBundles/Podcasts.axbundle/Podcasts](DYLIBS/Podcasts.md)
+- [/System/Library/AccessibilityBundles/PosterBoardFramework.axbundle/PosterBoardFramework](DYLIBS/PosterBoardFramework.md)
+- [/System/Library/AccessibilityBundles/ProductPageExtension.axbundle/ProductPageExtension](DYLIBS/ProductPageExtension.md)
+- [/System/Library/AccessibilityBundles/SiriSharedUI.axbundle/SiriSharedUI](DYLIBS/SiriSharedUI.md)
+- [/System/Library/AccessibilityBundles/SpringBoard.axbundle/SpringBoard](DYLIBS/SpringBoard.md)
+- [/System/Library/AccessibilityBundles/SystemApertureUI.axbundle/SystemApertureUI](DYLIBS/SystemApertureUI.md)
+- [/System/Library/AccessibilityBundles/UIKit.axbundle/UIKit](DYLIBS/UIKit.md)
+- [/System/Library/AccessibilityBundles/VideosUIFramework.axbundle/VideosUIFramework](DYLIBS/VideosUIFramework.md)
+- [/System/Library/AccessibilityBundles/WebCore.axbundle/WebCore](DYLIBS/WebCore.md)
+- [/System/Library/AccessibilityBundles/WorkflowEditor.axbundle/WorkflowEditor](DYLIBS/WorkflowEditor.md)
+- [/System/Library/Accounts/Notification/DonationAccountWatcher.bundle/DonationAccountWatcher](DYLIBS/DonationAccountWatcher.md)
+- [/System/Library/Assistant/UIPlugins/SiriFindMyUIPlugin.siriUIBundle/Frameworks/SiriFindMyUI.framework/SiriFindMyUI](DYLIBS/SiriFindMyUI.md)
+- [/System/Library/ControlCenter/Bundles/HomeControlCenterSingleTileModule.bundle/HomeControlCenterSingleTileModule](DYLIBS/HomeControlCenterSingleTileModule.md)
+- [/System/Library/CoreAccessories/PlugIns/Transports/IOAccessoryManager.transport/IOAccessoryManager](DYLIBS/IOAccessoryManager.md)
+- [/System/Library/CoreServices/RawCamera.bundle/RawCamera](DYLIBS/RawCamera.md)
+- [/System/Library/Extensions/AGXMetalG18P.bundle/AGXMetalG18P](DYLIBS/AGXMetalG18P.md)
+- [/System/Library/Extensions/AppleMultitouchSPI.kext/PlugIns/MultitouchHID.plugin/MultitouchHID](DYLIBS/MultitouchHID.md)
+- [/System/Library/Fitness/Plugins/SeymourAwardsPlugin.bundle/SeymourAwardsPlugin](DYLIBS/SeymourAwardsPlugin.md)
+- [/System/Library/Frameworks/AVFAudio.framework/AVFAudio](DYLIBS/AVFAudio.md)
+- [/System/Library/Frameworks/AVKit.framework/AVKit](DYLIBS/AVKit.md)
+- [/System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/vImage](DYLIBS/vImage.md)
+- [/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libBLAS.dylib](DYLIBS/libBLAS.dylib.md)
+- [/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libBNNS.dylib](DYLIBS/libBNNS.dylib.md)
+- [/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libLAPACK.dylib](DYLIBS/libLAPACK.dylib.md)
+- [/System/Library/Frameworks/Accessibility.framework/Accessibility](DYLIBS/Accessibility.md)
+- [/System/Library/Frameworks/AccessoryNotifications.framework/AccessoryNotifications](DYLIBS/AccessoryNotifications.md)
+- [/System/Library/Frameworks/AccessorySetupKit.framework/AccessorySetupKit](DYLIBS/AccessorySetupKit.md)
+- [/System/Library/Frameworks/AccessoryTransportExtension.framework/AccessoryTransportExtension](DYLIBS/AccessoryTransportExtension.md)
+- [/System/Library/Frameworks/ActivityKit.framework/ActivityKit](DYLIBS/ActivityKit.md)
+- [/System/Library/Frameworks/AppIntents.framework/AppIntents](DYLIBS/AppIntents.md)
+- [/System/Library/Frameworks/AppMigrationKit.framework/AppMigrationKit](DYLIBS/AppMigrationKit.md)
+- [/System/Library/Frameworks/Assignables.framework/Assignables](DYLIBS/Assignables.md)
+- [/System/Library/Frameworks/AudioAccessoryKit.framework/AudioAccessoryKit](DYLIBS/AudioAccessoryKit.md)
+- [/System/Library/Frameworks/AudioToolbox.framework/AudioCodecs](DYLIBS/AudioCodecs.md)
+- [/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox](DYLIBS/AudioToolbox.md)
+- [/System/Library/Frameworks/AudioToolbox.framework/libAudioDSP.dylib](DYLIBS/libAudioDSP.dylib.md)
+- [/System/Library/Frameworks/AudioToolbox.framework/libEmbeddedSystemAUs.dylib](DYLIBS/libEmbeddedSystemAUs.dylib.md)
+- [/System/Library/Frameworks/AudioToolbox.framework/libValidationCapsule.dylib](DYLIBS/libValidationCapsule.dylib.md)
+- [/System/Library/Frameworks/AuthenticationServices.framework/AuthenticationServices](DYLIBS/AuthenticationServices.md)
+- [/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Frameworks/AACClient.framework/AACClient](DYLIBS/AACClient.md)
+- [/System/Library/Frameworks/BackgroundAssets.framework/BackgroundAssets](DYLIBS/BackgroundAssets.md)
+- [/System/Library/Frameworks/BrowserEngineKit.framework/BrowserEngineKit](DYLIBS/BrowserEngineKit.md)
+- [/System/Library/Frameworks/BrowserKit.framework/BrowserKit](DYLIBS/BrowserKit.md)
+- [/System/Library/Frameworks/CFNetwork.framework/CFNetwork](DYLIBS/CFNetwork.md)
+- [/System/Library/Frameworks/CarKey.framework/CarKey](DYLIBS/CarKey.md)
+- [/System/Library/Frameworks/CarPlay.framework/CarPlay](DYLIBS/CarPlay.md)
+- [/System/Library/Frameworks/Charts.framework/Charts](DYLIBS/Charts.md)
+- [/System/Library/Frameworks/ClassKit.framework/ClassKit](DYLIBS/ClassKit.md)
+- [/System/Library/Frameworks/ClassKitUI.framework/ClassKitUI](DYLIBS/ClassKitUI.md)
+- [/System/Library/Frameworks/ClockKit.framework/ClockKit](DYLIBS/ClockKit.md)
+- [/System/Library/Frameworks/CloudKit.framework/CloudKit](DYLIBS/CloudKit.md)
+- [/System/Library/Frameworks/Combine.framework/Combine](DYLIBS/Combine.md)
+- [/System/Library/Frameworks/ContactProvider.framework/ContactProvider](DYLIBS/ContactProvider.md)
+- [/System/Library/Frameworks/Contacts.framework/Contacts](DYLIBS/Contacts.md)
+- [/System/Library/Frameworks/ContactsUI.framework/ContactsUI](DYLIBS/ContactsUI.md)
+- [/System/Library/Frameworks/CoreAudio.framework/CoreAudio](DYLIBS/CoreAudio.md)
+- [/System/Library/Frameworks/CoreAudioKit.framework/CoreAudioKit](DYLIBS/CoreAudioKit.md)
+- [/System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth](DYLIBS/CoreBluetooth.md)
+- [/System/Library/Frameworks/CoreHaptics.framework/CoreHaptics](DYLIBS/CoreHaptics.md)
+- [/System/Library/Frameworks/CoreMIDI.framework/CoreMIDI](DYLIBS/CoreMIDI.md)
+- [/System/Library/Frameworks/CoreML.framework/CoreML](DYLIBS/CoreML.md)
+- [/System/Library/Frameworks/CoreMedia.framework/CoreMedia](DYLIBS/CoreMedia.md)
+- [/System/Library/Frameworks/CoreMotion.framework/CoreMotion](DYLIBS/CoreMotion.md)
+- [/System/Library/Frameworks/CoreNFC.framework/CoreNFC](DYLIBS/CoreNFC.md)
+- [/System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlight](DYLIBS/CoreSpotlight.md)
+- [/System/Library/Frameworks/CoreTelephony.framework/CoreTelephony](DYLIBS/CoreTelephony.md)
+- [/System/Library/Frameworks/CoreTelephony.framework/Support/libCommCenterBase.dylib](DYLIBS/libCommCenterBase.dylib.md)
+- [/System/Library/Frameworks/CoreTelephony.framework/Support/libCommCenterKCommandDrivers.dylib](DYLIBS/libCommCenterKCommandDrivers.dylib.md)
+- [/System/Library/Frameworks/CoreTelephony.framework/Support/libCommCenterMCommandDrivers.dylib](DYLIBS/libCommCenterMCommandDrivers.dylib.md)
+- [/System/Library/Frameworks/CoreTelephony.framework/Support/libSystemDetermination.dylib](DYLIBS/libSystemDetermination.dylib.md)
+- [/System/Library/Frameworks/CoreText.framework/CoreText](DYLIBS/CoreText.md)
+- [/System/Library/Frameworks/CoreTransferable.framework/CoreTransferable](DYLIBS/CoreTransferable.md)
+- [/System/Library/Frameworks/CreateML.framework/CreateML](DYLIBS/CreateML.md)
+- [/System/Library/Frameworks/CreateMLComponents.framework/CreateMLComponents](DYLIBS/CreateMLComponents.md)
+- [/System/Library/Frameworks/CryptoKit.framework/CryptoKit](DYLIBS/CryptoKit.md)
+- [/System/Library/Frameworks/CryptoTokenKit.framework/CryptoTokenKit](DYLIBS/CryptoTokenKit.md)
+- [/System/Library/Frameworks/DataDetection.framework/DataDetection](DYLIBS/DataDetection.md)
+- [/System/Library/Frameworks/DeclaredAgeRange.framework/DeclaredAgeRange](DYLIBS/DeclaredAgeRange.md)
+- [/System/Library/Frameworks/DeviceActivity.framework/DeviceActivity](DYLIBS/DeviceActivity.md)
+- [/System/Library/Frameworks/DeviceDiscoveryUI.framework/DeviceDiscoveryUI](DYLIBS/DeviceDiscoveryUI.md)
+- [/System/Library/Frameworks/DockKit.framework/DockKit](DYLIBS/DockKit.md)
+- [/System/Library/Frameworks/DriverKit.framework/DriverKit](DYLIBS/DriverKit.md)
+- [/System/Library/Frameworks/EnergyKit.framework/EnergyKit](DYLIBS/EnergyKit.md)
+- [/System/Library/Frameworks/EventKit.framework/EventKit](DYLIBS/EventKit.md)
+- [/System/Library/Frameworks/EventKitUI.framework/EventKitUI](DYLIBS/EventKitUI.md)
+- [/System/Library/Frameworks/ExtensionFoundation.framework/ExtensionFoundation](DYLIBS/ExtensionFoundation.md)
+- [/System/Library/Frameworks/ExtensionKit.framework/ExtensionKit](DYLIBS/ExtensionKit.md)
+- [/System/Library/Frameworks/FamilyControls.framework/FamilyControls](DYLIBS/FamilyControls.md)
+- [/System/Library/Frameworks/FinanceKit.framework/FinanceKit](DYLIBS/FinanceKit.md)
+- [/System/Library/Frameworks/FinanceKitUI.framework/FinanceKitUI](DYLIBS/FinanceKitUI.md)
+- [/System/Library/Frameworks/Foundation.framework/Foundation](DYLIBS/Foundation.md)
+- [/System/Library/Frameworks/FoundationModels.framework/FoundationModels](DYLIBS/FoundationModels.md)
+- [/System/Library/Frameworks/GameKit.framework/GameKit](DYLIBS/GameKit.md)
+- [/System/Library/Frameworks/GameSave.framework/GameSave](DYLIBS/GameSave.md)
+- [/System/Library/Frameworks/GroupActivities.framework/GroupActivities](DYLIBS/GroupActivities.md)
+- [/System/Library/Frameworks/HealthKit.framework/HealthKit](DYLIBS/HealthKit.md)
+- [/System/Library/Frameworks/HomeKit.framework/HomeKit](DYLIBS/HomeKit.md)
+- [/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit](DYLIBS/IOKit.md)
+- [/System/Library/Frameworks/IdentityDocumentServices.framework/IdentityDocumentServices](DYLIBS/IdentityDocumentServices.md)
+- [/System/Library/Frameworks/IdentityDocumentServicesUI.framework/IdentityDocumentServicesUI](DYLIBS/IdentityDocumentServicesUI.md)
+- [/System/Library/Frameworks/IdentityLookup.framework/IdentityLookup](DYLIBS/IdentityLookup.md)
+- [/System/Library/Frameworks/ImageIO.framework/ImageIO](DYLIBS/ImageIO.md)
+- [/System/Library/Frameworks/ImagePlayground.framework/ImagePlayground](DYLIBS/ImagePlayground.md)
+- [/System/Library/Frameworks/ImmersiveMediaSupport.framework/ImmersiveMediaSupport](DYLIBS/ImmersiveMediaSupport.md)
+- [/System/Library/Frameworks/JavaScriptCore.framework/JavaScriptCore](DYLIBS/JavaScriptCore.md)
+- [/System/Library/Frameworks/JournalingSuggestions.framework/JournalingSuggestions](DYLIBS/JournalingSuggestions.md)
+- [/System/Library/Frameworks/LightweightCodeRequirements.framework/LightweightCodeRequirements](DYLIBS/LightweightCodeRequirements.md)
+- [/System/Library/Frameworks/LinkPresentation.framework/LinkPresentation](DYLIBS/LinkPresentation.md)
+- [/System/Library/Frameworks/LiveCommunicationKit.framework/LiveCommunicationKit](DYLIBS/LiveCommunicationKit.md)
+- [/System/Library/Frameworks/LocalAuthenticationEmbeddedUI.framework/LocalAuthenticationEmbeddedUI](DYLIBS/LocalAuthenticationEmbeddedUI.md)
+- [/System/Library/Frameworks/MLCompute.framework/MLCompute](DYLIBS/MLCompute.md)
+- [/System/Library/Frameworks/ManagedApp.framework/ManagedApp](DYLIBS/ManagedApp.md)
+- [/System/Library/Frameworks/ManagedAppDistribution.framework/ManagedAppDistribution](DYLIBS/ManagedAppDistribution.md)
+- [/System/Library/Frameworks/ManagedSettings.framework/ManagedSettings](DYLIBS/ManagedSettings.md)
+- [/System/Library/Frameworks/ManagedSettingsUI.framework/ManagedSettingsUI](DYLIBS/ManagedSettingsUI.md)
+- [/System/Library/Frameworks/MapKit.framework/MapKitSwiftBridge.framework/MapKitSwiftBridge](DYLIBS/MapKitSwiftBridge.md)
+- [/System/Library/Frameworks/MarketplaceKit.framework/MarketplaceKit](DYLIBS/MarketplaceKit.md)
+- [/System/Library/Frameworks/MatterSupport.framework/MatterSupport](DYLIBS/MatterSupport.md)
+- [/System/Library/Frameworks/MediaAccessibility.framework/MediaAccessibility](DYLIBS/MediaAccessibility.md)
+- [/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer](DYLIBS/MediaPlayer.md)
+- [/System/Library/Frameworks/MediaToolbox.framework/MediaToolbox](DYLIBS/MediaToolbox.md)
+- [/System/Library/Frameworks/MediaToolbox.framework/Support/libSTS-N.dylib](DYLIBS/libSTS-N.dylib.md)
+- [/System/Library/Frameworks/MessageUI.framework/MessageUI](DYLIBS/MessageUI.md)
+- [/System/Library/Frameworks/Messages.framework/Messages](DYLIBS/Messages.md)
+- [/System/Library/Frameworks/Metal.framework/Metal](DYLIBS/Metal.md)
+- [/System/Library/Frameworks/MetalFX.framework/MetalFX](DYLIBS/MetalFX.md)
+- [/System/Library/Frameworks/MetalPerformanceShaders.framework/Frameworks/MPSCore.framework/MPSCore](DYLIBS/MPSCore.md)
+- [/System/Library/Frameworks/MetalPerformanceShaders.framework/Frameworks/MPSHost.framework/MPSHost](DYLIBS/MPSHost.md)
+- [/System/Library/Frameworks/MetalPerformanceShaders.framework/Frameworks/MPSNDArray.framework/MPSNDArray](DYLIBS/MPSNDArray.md)
+- [/System/Library/Frameworks/MetalPerformanceShadersGraph.framework/MetalPerformanceShadersGraph](DYLIBS/MetalPerformanceShadersGraph.md)
+- [/System/Library/Frameworks/MetricKit.framework/MetricKit](DYLIBS/MetricKit.md)
+- [/System/Library/Frameworks/MusicKit.framework/MusicKit](DYLIBS/MusicKit.md)
+- [/System/Library/Frameworks/NaturalLanguage.framework/NaturalLanguage](DYLIBS/NaturalLanguage.md)
+- [/System/Library/Frameworks/Network.framework/Network](DYLIBS/Network.md)
+- [/System/Library/Frameworks/NetworkExtension.framework/NetworkExtension](DYLIBS/NetworkExtension.md)
+- [/System/Library/Frameworks/PDFKit.framework/PDFKit](DYLIBS/PDFKit.md)
+- [/System/Library/Frameworks/PHASE.framework/PHASE](DYLIBS/PHASE.md)
+- [/System/Library/Frameworks/PaperKit.framework/PaperKit](DYLIBS/PaperKit.md)
+- [/System/Library/Frameworks/PencilKit.framework/PencilKit](DYLIBS/PencilKit.md)
+- [/System/Library/Frameworks/PermissionKit.framework/PermissionKit](DYLIBS/PermissionKit.md)
+- [/System/Library/Frameworks/Photos.framework/Photos](DYLIBS/Photos.md)
+- [/System/Library/Frameworks/PhotosUI.framework/PhotosUI](DYLIBS/PhotosUI.md)
+- [/System/Library/Frameworks/ProximityReader.framework/ProximityReader](DYLIBS/ProximityReader.md)
+- [/System/Library/Frameworks/QuartzCore.framework/QuartzCore](DYLIBS/QuartzCore.md)
+- [/System/Library/Frameworks/QuickLook.framework/QuickLook](DYLIBS/QuickLook.md)
+- [/System/Library/Frameworks/QuickLookThumbnailing.framework/QuickLookThumbnailing](DYLIBS/QuickLookThumbnailing.md)
+- [/System/Library/Frameworks/RealityFoundation.framework/RealityFoundation](DYLIBS/RealityFoundation.md)
+- [/System/Library/Frameworks/RealityKit.framework/RealityKit](DYLIBS/RealityKit.md)
+- [/System/Library/Frameworks/RoomPlan.framework/RoomPlan](DYLIBS/RoomPlan.md)
+- [/System/Library/Frameworks/SafariServices.framework/SafariServices](DYLIBS/SafariServices.md)
+- [/System/Library/Frameworks/SceneKit.framework/SceneKit](DYLIBS/SceneKit.md)
+- [/System/Library/Frameworks/SecureElementCredential.framework/SecureElementCredential](DYLIBS/SecureElementCredential.md)
+- [/System/Library/Frameworks/Security.framework/Security](DYLIBS/Security.md)
+- [/System/Library/Frameworks/SecurityUI.framework/SecurityUI](DYLIBS/SecurityUI.md)
+- [/System/Library/Frameworks/SensitiveContentAnalysis.framework/SensitiveContentAnalysis](DYLIBS/SensitiveContentAnalysis.md)
+- [/System/Library/Frameworks/ServicesAccountLinking.framework/ServicesAccountLinking](DYLIBS/ServicesAccountLinking.md)
+- [/System/Library/Frameworks/SharedWithYou.framework/SharedWithYou](DYLIBS/SharedWithYou.md)
+- [/System/Library/Frameworks/ShazamKit.framework/ShazamKit](DYLIBS/ShazamKit.md)
+- [/System/Library/Frameworks/SoundAnalysis.framework/SoundAnalysis](DYLIBS/SoundAnalysis.md)
+- [/System/Library/Frameworks/Speech.framework/Speech](DYLIBS/Speech.md)
+- [/System/Library/Frameworks/StickerKit.framework/StickerKit](DYLIBS/StickerKit.md)
+- [/System/Library/Frameworks/StoreKit.framework/StoreKit](DYLIBS/StoreKit.md)
+- [/System/Library/Frameworks/SwiftData.framework/SwiftData](DYLIBS/SwiftData.md)
+- [/System/Library/Frameworks/SwiftUI.framework/SwiftUI](DYLIBS/SwiftUI.md)
+- [/System/Library/Frameworks/SwiftUICore.framework/SwiftUICore](DYLIBS/SwiftUICore.md)
+- [/System/Library/Frameworks/TabularData.framework/TabularData](DYLIBS/TabularData.md)
+- [/System/Library/Frameworks/TelephonyMessagingKit.framework/TelephonyMessagingKit](DYLIBS/TelephonyMessagingKit.md)
+- [/System/Library/Frameworks/TipKit.framework/TipKit](DYLIBS/TipKit.md)
+- [/System/Library/Frameworks/Translation.framework/Translation](DYLIBS/Translation.md)
+- [/System/Library/Frameworks/TranslationUIProvider.framework/TranslationUIProvider](DYLIBS/TranslationUIProvider.md)
+- [/System/Library/Frameworks/UserNotifications.framework/UserNotifications](DYLIBS/UserNotifications.md)
+- [/System/Library/Frameworks/VideoSubscriberAccount.framework/VideoSubscriberAccount](DYLIBS/VideoSubscriberAccount.md)
+- [/System/Library/Frameworks/Vision.framework/Vision](DYLIBS/Vision.md)
+- [/System/Library/Frameworks/VisionKit.framework/VisionKit](DYLIBS/VisionKit.md)
+- [/System/Library/Frameworks/VisualIntelligence.framework/VisualIntelligence](DYLIBS/VisualIntelligence.md)
+- [/System/Library/Frameworks/WeatherKit.framework/WeatherKit](DYLIBS/WeatherKit.md)
+- [/System/Library/Frameworks/WebKit.framework/Frameworks/libWebKitSwift.dylib](DYLIBS/libWebKitSwift.dylib.md)
+- [/System/Library/Frameworks/WebKit.framework/WebKit](DYLIBS/WebKit.md)
+- [/System/Library/Frameworks/WiFiInfrastructure.framework/WiFiInfrastructure](DYLIBS/WiFiInfrastructure.md)
+- [/System/Library/Frameworks/WidgetKit.framework/WidgetKit](DYLIBS/WidgetKit.md)
+- [/System/Library/Frameworks/WirelessInsights.framework/WirelessInsights](DYLIBS/WirelessInsights.md)
+- [/System/Library/Frameworks/WorkoutKit.framework/WorkoutKit](DYLIBS/WorkoutKit.md)
+- [/System/Library/Frameworks/_AdAttributionKit_StoreKit.framework/_AdAttributionKit_StoreKit](DYLIBS/_AdAttributionKit_StoreKit.md)
+- [/System/Library/Frameworks/_AppIntents_SwiftUI.framework/_AppIntents_SwiftUI](DYLIBS/_AppIntents_SwiftUI.md)
+- [/System/Library/Frameworks/_AppIntents_UIKit.framework/_AppIntents_UIKit](DYLIBS/_AppIntents_UIKit.md)
+- [/System/Library/Frameworks/_CoreNFC_UIKit.framework/_CoreNFC_UIKit](DYLIBS/_CoreNFC_UIKit.md)
+- [/System/Library/Frameworks/_DeviceActivity_SwiftUI.framework/_DeviceActivity_SwiftUI](DYLIBS/_DeviceActivity_SwiftUI.md)
+- [/System/Library/Frameworks/_GeoToolbox_AppIntents.framework/_GeoToolbox_AppIntents](DYLIBS/_GeoToolbox_AppIntents.md)
+- [/System/Library/Frameworks/_GroupActivities_UIKit.framework/_GroupActivities_UIKit](DYLIBS/_GroupActivities_UIKit.md)
+- [/System/Library/Frameworks/_LinkPresentation_AppIntents.framework/_LinkPresentation_AppIntents](DYLIBS/_LinkPresentation_AppIntents.md)
+- [/System/Library/Frameworks/_ManagedAppDistribution_SwiftUI.framework/_ManagedAppDistribution_SwiftUI](DYLIBS/_ManagedAppDistribution_SwiftUI.md)
+- [/System/Library/Frameworks/_MapKit_SwiftUI.framework/_MapKit_SwiftUI](DYLIBS/_MapKit_SwiftUI.md)
+- [/System/Library/Frameworks/_MarketplaceKit_UIKit.framework/_MarketplaceKit_UIKit](DYLIBS/_MarketplaceKit_UIKit.md)
+- [/System/Library/Frameworks/_MusicKit_SwiftUI.framework/_MusicKit_SwiftUI](DYLIBS/_MusicKit_SwiftUI.md)
+- [/System/Library/Frameworks/_PassKit_SwiftUI.framework/_PassKit_SwiftUI](DYLIBS/_PassKit_SwiftUI.md)
+- [/System/Library/Frameworks/_PermissionKit_UIKit.framework/_PermissionKit_UIKit](DYLIBS/_PermissionKit_UIKit.md)
+- [/System/Library/Frameworks/_PhotosUI_SwiftUI.framework/_PhotosUI_SwiftUI](DYLIBS/_PhotosUI_SwiftUI.md)
+- [/System/Library/Frameworks/_PhotosUI_WidgetKit.framework/_PhotosUI_WidgetKit](DYLIBS/_PhotosUI_WidgetKit.md)
+- [/System/Library/Frameworks/_RealityKit_SwiftUI.framework/_RealityKit_SwiftUI](DYLIBS/_RealityKit_SwiftUI.md)
+- [/System/Library/Frameworks/_RelevanceKit_MapKit.framework/_RelevanceKit_MapKit](DYLIBS/_RelevanceKit_MapKit.md)
+- [/System/Library/Frameworks/_SecureElementCredential_UIKit.framework/_SecureElementCredential_UIKit](DYLIBS/_SecureElementCredential_UIKit.md)
+- [/System/Library/Frameworks/_StoreKit_SwiftUI.framework/_StoreKit_SwiftUI](DYLIBS/_StoreKit_SwiftUI.md)
+- [/System/Library/Frameworks/_SwiftData_SwiftUI.framework/_SwiftData_SwiftUI](DYLIBS/_SwiftData_SwiftUI.md)
+- [/System/Library/Frameworks/_Translation_SwiftUI.framework/_Translation_SwiftUI](DYLIBS/_Translation_SwiftUI.md)
+- [/System/Library/Health/FeedItemPlugins/AppRecommendations.healthplugin/AppRecommendations](DYLIBS/AppRecommendations.md)
+- [/System/Library/Health/FeedItemPlugins/HealthCategories.healthplugin/HealthCategories](DYLIBS/HealthCategories.md)
+- [/System/Library/Health/FeedItemPlugins/HealthRecords.healthplugin/HealthRecords](DYLIBS/HealthRecords.md)
+- [/System/Library/Health/FeedItemPlugins/HearingAppPlugin.healthplugin/HearingAppPlugin](DYLIBS/HearingAppPlugin.md)
+- [/System/Library/Health/FeedItemPlugins/Heart.healthplugin/Heart](DYLIBS/Heart.md)
+- [/System/Library/Health/FeedItemPlugins/HighlightAlerts.healthplugin/HighlightAlerts](DYLIBS/HighlightAlerts.md)
+- [/System/Library/Health/FeedItemPlugins/Highlights.healthplugin/Highlights](DYLIBS/Highlights.md)
+- [/System/Library/Health/FeedItemPlugins/MenstrualCyclesAppPlugin.healthplugin/MenstrualCyclesAppPlugin](DYLIBS/MenstrualCyclesAppPlugin.md)
+- [/System/Library/Health/FeedItemPlugins/MentalHealthAppPlugin.healthplugin/MentalHealthAppPlugin](DYLIBS/MentalHealthAppPlugin.md)
+- [/System/Library/Health/FeedItemPlugins/MobilityAppPlugin.healthplugin/MobilityAppPlugin](DYLIBS/MobilityAppPlugin.md)
+- [/System/Library/Health/FeedItemPlugins/Profiles.healthplugin/Profiles](DYLIBS/Profiles.md)
+- [/System/Library/Health/FeedItemPlugins/ResearchApp.healthplugin/ResearchApp](DYLIBS/ResearchApp.md)
+- [/System/Library/Health/FeedItemPlugins/RespiratoryHealthAppPlugin.healthplugin/RespiratoryHealthAppPlugin](DYLIBS/RespiratoryHealthAppPlugin.md)
+- [/System/Library/Health/FeedItemPlugins/Safety.healthplugin/Safety](DYLIBS/Safety.md)
+- [/System/Library/Health/FeedItemPlugins/SleepHealthAppPlugin.healthplugin/SleepHealthAppPlugin](DYLIBS/SleepHealthAppPlugin.md)
+- [/System/Library/Health/FeedItemPlugins/Summaries.healthplugin/Summaries](DYLIBS/Summaries.md)
+- [/System/Library/Health/FeedItemPlugins/VisionHealthAppPlugin.healthplugin/VisionHealthAppPlugin](DYLIBS/VisionHealthAppPlugin.md)
+- [/System/Library/MediaCapture/H16ISP.mediacapture](DYLIBS/H16ISP.mediacapture.md)
+- [/System/Library/NanoPreferenceBundles/General/AccessibilitySettings.bundle/AccessibilitySettings](DYLIBS/AccessibilitySettings.md)
+- [/System/Library/NanoTimeKit/ComplicationBundles/NanoCompassComplications.bundle/NanoCompassComplications](DYLIBS/NanoCompassComplications.md)
+- [/System/Library/NanoTimeKit/ComplicationBundles/WeatherComplications.bundle/WeatherComplications](DYLIBS/WeatherComplications.md)
+- [/System/Library/NanoTimeKit/FaceBundles/NTKEsterbrookFaceBundleCompanion.bundle/NTKEsterbrookFaceBundleCompanion](DYLIBS/NTKEsterbrookFaceBundleCompanion.md)
+- [/System/Library/NanoTimeKit/FaceBundles/NTKHermes2025FaceBundleCompanion.bundle/NTKHermes2025FaceBundleCompanion](DYLIBS/NTKHermes2025FaceBundleCompanion.md)
+- [/System/Library/NanoTimeKit/FaceBundles/NTKLeghornFaceBundle.bundle/NTKLeghornFaceBundle](DYLIBS/NTKLeghornFaceBundle.md)
+- [/System/Library/NanoTimeKit/FaceBundles/NTKParmesanFaceBundleCompanion.bundle/NTKParmesanFaceBundleCompanion](DYLIBS/NTKParmesanFaceBundleCompanion.md)
+- [/System/Library/NanoTimeKit/FaceBundles/NTKRhizomeFaceBundleCompanion.bundle/NTKRhizomeFaceBundleCompanion](DYLIBS/NTKRhizomeFaceBundleCompanion.md)
+- [/System/Library/PreferenceBundles/AVKitSettings.bundle/AVKitSettings](DYLIBS/AVKitSettings.md)
+- [/System/Library/PreferenceBundles/BluetoothSettings.bundle/BluetoothSettings](DYLIBS/BluetoothSettings.md)
+- [/System/Library/Previews/ShellPlugins/WidgetPreviewsShellPlugin.bundle/WidgetPreviewsShellPlugin](DYLIBS/WidgetPreviewsShellPlugin.md)
+- [/System/Library/PrivateFrameworks/AAAFoundationSwift.framework/AAAFoundationSwift](DYLIBS/AAAFoundationSwift.md)
+- [/System/Library/PrivateFrameworks/AAAFoundationUI.framework/AAAFoundationUI](DYLIBS/AAAFoundationUI.md)
+- [/System/Library/PrivateFrameworks/ABMHelper.framework/ABMHelper](DYLIBS/ABMHelper.md)
+- [/System/Library/PrivateFrameworks/ACSEFoundation.framework/ACSEFoundation](DYLIBS/ACSEFoundation.md)
+- [/System/Library/PrivateFrameworks/AGXCompilerCore.framework/AGXCompilerCore](DYLIBS/AGXCompilerCore.md)
+- [/System/Library/PrivateFrameworks/AIMLExperimentationAnalytics.framework/AIMLExperimentationAnalytics](DYLIBS/AIMLExperimentationAnalytics.md)
+- [/System/Library/PrivateFrameworks/AIMLInstrumentationStreams.framework/AIMLInstrumentationStreams](DYLIBS/AIMLInstrumentationStreams.md)
+- [/System/Library/PrivateFrameworks/ALUtil.framework/ALUtil.dylib](DYLIBS/ALUtil.dylib.md)
+- [/System/Library/PrivateFrameworks/ANECompiler.framework/ANECompiler](DYLIBS/ANECompiler.md)
+- [/System/Library/PrivateFrameworks/AONSense.framework/AONSense.dylib](DYLIBS/AONSense.dylib.md)
+- [/System/Library/PrivateFrameworks/APFoundation.framework/APFoundation](DYLIBS/APFoundation.md)
+- [/System/Library/PrivateFrameworks/APTransport.framework/APTransport](DYLIBS/APTransport.md)
+- [/System/Library/PrivateFrameworks/ARKitCore.framework/ARKitCore](DYLIBS/ARKitCore.md)
+- [/System/Library/PrivateFrameworks/ASEProcessing.framework/ASEProcessing](DYLIBS/ASEProcessing.md)
+- [/System/Library/PrivateFrameworks/ASRBridge.framework/ASRBridge](DYLIBS/ASRBridge.md)
+- [/System/Library/PrivateFrameworks/AUDeveloperSettings.framework/AUDeveloperSettings](DYLIBS/AUDeveloperSettings.md)
+- [/System/Library/PrivateFrameworks/AVConference.framework/AVConference](DYLIBS/AVConference.md)
+- [/System/Library/PrivateFrameworks/AVConference.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace](DYLIBS/ViceroyTrace.md)
+- [/System/Library/PrivateFrameworks/AVFCapture.framework/AVFCapture](DYLIBS/AVFCapture.md)
+- [/System/Library/PrivateFrameworks/AVFCore.framework/AVFCore](DYLIBS/AVFCore.md)
+- [/System/Library/PrivateFrameworks/AXCoreUtilities.framework/AXCoreUtilities](DYLIBS/AXCoreUtilities.md)
+- [/System/Library/PrivateFrameworks/AXGuestPassServices.framework/AXGuestPassServices](DYLIBS/AXGuestPassServices.md)
+- [/System/Library/PrivateFrameworks/AXMotionCuesServices.framework/AXMotionCuesServices](DYLIBS/AXMotionCuesServices.md)
+- [/System/Library/PrivateFrameworks/AXSoundDetection.framework/AXSoundDetection](DYLIBS/AXSoundDetection.md)
+- [/System/Library/PrivateFrameworks/AXSoundDetectionUI.framework/AXSoundDetectionUI](DYLIBS/AXSoundDetectionUI.md)
+- [/System/Library/PrivateFrameworks/AXSpringBoardServerInstance.framework/AXSpringBoardServerInstance](DYLIBS/AXSpringBoardServerInstance.md)
+- [/System/Library/PrivateFrameworks/AXTapToSpeakTime.framework/AXTapToSpeakTime](DYLIBS/AXTapToSpeakTime.md)
+- [/System/Library/PrivateFrameworks/AXWatchRemoteScreenServices.framework/AXWatchRemoteScreenServices](DYLIBS/AXWatchRemoteScreenServices.md)
+- [/System/Library/PrivateFrameworks/AXWatchRemoteScreenUI.framework/AXWatchRemoteScreenUI](DYLIBS/AXWatchRemoteScreenUI.md)
+- [/System/Library/PrivateFrameworks/AccessibilityPhysicalInteraction.framework/AccessibilityPhysicalInteraction](DYLIBS/AccessibilityPhysicalInteraction.md)
+- [/System/Library/PrivateFrameworks/AccessibilityReaderData.framework/AccessibilityReaderData](DYLIBS/AccessibilityReaderData.md)
+- [/System/Library/PrivateFrameworks/AccessibilityReadingUI.framework/AccessibilityReadingUI](DYLIBS/AccessibilityReadingUI.md)
+- [/System/Library/PrivateFrameworks/AccessibilitySettingsUI.framework/AccessibilitySettingsUI](DYLIBS/AccessibilitySettingsUI.md)
+- [/System/Library/PrivateFrameworks/AccessibilitySharedSupport.framework/AccessibilitySharedSupport](DYLIBS/AccessibilitySharedSupport.md)
+- [/System/Library/PrivateFrameworks/AccessibilitySharedUISupport.framework/AccessibilitySharedUISupport](DYLIBS/AccessibilitySharedUISupport.md)
+- [/System/Library/PrivateFrameworks/AccessibilityUIService.framework/AccessibilityUIService](DYLIBS/AccessibilityUIService.md)
+- [/System/Library/PrivateFrameworks/AccessibilityUIUtilities.framework/AccessibilityUIUtilities](DYLIBS/AccessibilityUIUtilities.md)
+- [/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities](DYLIBS/AccessibilityUtilities.md)
+- [/System/Library/PrivateFrameworks/AccessoryFirmwareUpdate.framework/AccessoryFirmwareUpdate](DYLIBS/AccessoryFirmwareUpdate.md)
+- [/System/Library/PrivateFrameworks/AccountSuggestions.framework/AccountSuggestions](DYLIBS/AccountSuggestions.md)
+- [/System/Library/PrivateFrameworks/AccountsDaemon.framework/AccountsDaemon](DYLIBS/AccountsDaemon.md)
+- [/System/Library/PrivateFrameworks/AccountsUI.framework/AccountsUI](DYLIBS/AccountsUI.md)
+- [/System/Library/PrivateFrameworks/AccountsUISettings.framework/AccountsUISettings](DYLIBS/AccountsUISettings.md)
+- [/System/Library/PrivateFrameworks/AccountsUISupport.framework/AccountsUISupport](DYLIBS/AccountsUISupport.md)
+- [/System/Library/PrivateFrameworks/ActionButtonConfigurationUI.framework/ActionButtonConfigurationUI](DYLIBS/ActionButtonConfigurationUI.md)
+- [/System/Library/PrivateFrameworks/ActionKit.framework/ActionKit](DYLIBS/ActionKit.md)
+- [/System/Library/PrivateFrameworks/ActionKitUI.framework/ActionKitUI](DYLIBS/ActionKitUI.md)
+- [/System/Library/PrivateFrameworks/ActionPredictionHeuristics.framework/ActionPredictionHeuristics](DYLIBS/ActionPredictionHeuristics.md)
+- [/System/Library/PrivateFrameworks/ActionPredictionHeuristicsInternal.framework/ActionPredictionHeuristicsInternal](DYLIBS/ActionPredictionHeuristicsInternal.md)
+- [/System/Library/PrivateFrameworks/ActivityAchievementsDaemon.framework/ActivityAchievementsDaemon](DYLIBS/ActivityAchievementsDaemon.md)
+- [/System/Library/PrivateFrameworks/ActivityAchievementsUI.framework/ActivityAchievementsUI](DYLIBS/ActivityAchievementsUI.md)
+- [/System/Library/PrivateFrameworks/ActivityAwardsCore.framework/ActivityAwardsCore](DYLIBS/ActivityAwardsCore.md)
+- [/System/Library/PrivateFrameworks/ActivityAwardsServices.framework/ActivityAwardsServices](DYLIBS/ActivityAwardsServices.md)
+- [/System/Library/PrivateFrameworks/ActivitySharingClient.framework/ActivitySharingClient](DYLIBS/ActivitySharingClient.md)
+- [/System/Library/PrivateFrameworks/ActivitySharingServices.framework/ActivitySharingServices](DYLIBS/ActivitySharingServices.md)
+- [/System/Library/PrivateFrameworks/ActivityUI.framework/ActivityUI](DYLIBS/ActivityUI.md)
+- [/System/Library/PrivateFrameworks/ActivityUIServices.framework/ActivityUIServices](DYLIBS/ActivityUIServices.md)
+- [/System/Library/PrivateFrameworks/AdPlatformsCommon.framework/AdPlatformsCommon](DYLIBS/AdPlatformsCommon.md)
+- [/System/Library/PrivateFrameworks/AdaptiveMusic.framework/AdaptiveMusic](DYLIBS/AdaptiveMusic.md)
+- [/System/Library/PrivateFrameworks/AdaptiveVoiceShortcuts.framework/AdaptiveVoiceShortcuts](DYLIBS/AdaptiveVoiceShortcuts.md)
+- [/System/Library/PrivateFrameworks/AeroML.framework/AeroML](DYLIBS/AeroML.md)
+- [/System/Library/PrivateFrameworks/AirDropSettingsSupport.framework/AirDropSettingsSupport](DYLIBS/AirDropSettingsSupport.md)
+- [/System/Library/PrivateFrameworks/AirPlayAndHandoffSettingsSupport.framework/AirPlayAndHandoffSettingsSupport](DYLIBS/AirPlayAndHandoffSettingsSupport.md)
+- [/System/Library/PrivateFrameworks/AirPlayKit.framework/AirPlayKit](DYLIBS/AirPlayKit.md)
+- [/System/Library/PrivateFrameworks/AirPlayOverlaysServer.framework/AirPlayOverlaysServer](DYLIBS/AirPlayOverlaysServer.md)
+- [/System/Library/PrivateFrameworks/AirPlayReceiver.framework/AirPlayReceiver](DYLIBS/AirPlayReceiver.md)
+- [/System/Library/PrivateFrameworks/AirPlaySender.framework/AirPlaySender](DYLIBS/AirPlaySender.md)
+- [/System/Library/PrivateFrameworks/AirPlaySupport.framework/AirPlaySupport](DYLIBS/AirPlaySupport.md)
+- [/System/Library/PrivateFrameworks/AirTrafficDevice.framework/AirTrafficDevice](DYLIBS/AirTrafficDevice.md)
+- [/System/Library/PrivateFrameworks/AlarmKitCore.framework/AlarmKitCore](DYLIBS/AlarmKitCore.md)
+- [/System/Library/PrivateFrameworks/AlarmUIFramework.framework/AlarmUIFramework](DYLIBS/AlarmUIFramework.md)
+- [/System/Library/PrivateFrameworks/AlchemistBase.framework/AlchemistBase](DYLIBS/AlchemistBase.md)
+- [/System/Library/PrivateFrameworks/AlchemistService.framework/AlchemistService](DYLIBS/AlchemistService.md)
+- [/System/Library/PrivateFrameworks/AlwaysOnExclavesServices.framework/AlwaysOnExclavesServices](DYLIBS/AlwaysOnExclavesServices.md)
+- [/System/Library/PrivateFrameworks/AmbientUI.framework/AmbientUI](DYLIBS/AmbientUI.md)
+- [/System/Library/PrivateFrameworks/Announce.framework/Announce](DYLIBS/Announce.md)
+- [/System/Library/PrivateFrameworks/AnnounceDaemon.framework/AnnounceDaemon](DYLIBS/AnnounceDaemon.md)
+- [/System/Library/PrivateFrameworks/Anvil.framework/Anvil](DYLIBS/Anvil.md)
+- [/System/Library/PrivateFrameworks/AppAnalytics.framework/AppAnalytics](DYLIBS/AppAnalytics.md)
+- [/System/Library/PrivateFrameworks/AppAttestInternal.framework/AppAttestInternal](DYLIBS/AppAttestInternal.md)
+- [/System/Library/PrivateFrameworks/AppC3D.framework/AppC3D](DYLIBS/AppC3D.md)
+- [/System/Library/PrivateFrameworks/AppDistribution.framework/AppDistribution](DYLIBS/AppDistribution.md)
+- [/System/Library/PrivateFrameworks/AppDistributionUI.framework/AppDistributionUI](DYLIBS/AppDistributionUI.md)
+- [/System/Library/PrivateFrameworks/AppIntentSchemas.framework/AppIntentSchemas](DYLIBS/AppIntentSchemas.md)
+- [/System/Library/PrivateFrameworks/AppIntentsIndex.framework/AppIntentsIndex](DYLIBS/AppIntentsIndex.md)
+- [/System/Library/PrivateFrameworks/AppIntentsServices.framework/AppIntentsServices](DYLIBS/AppIntentsServices.md)
+- [/System/Library/PrivateFrameworks/AppPlaceholderSync.framework/AppPlaceholderSync](DYLIBS/AppPlaceholderSync.md)
+- [/System/Library/PrivateFrameworks/AppPredictionInternal.framework/AppPredictionInternal](DYLIBS/AppPredictionInternal.md)
+- [/System/Library/PrivateFrameworks/AppProtection.framework/AppProtection](DYLIBS/AppProtection.md)
+- [/System/Library/PrivateFrameworks/AppProtectionDaemon.framework/AppProtectionDaemon](DYLIBS/AppProtectionDaemon.md)
+- [/System/Library/PrivateFrameworks/AppProtectionUI.framework/AppProtectionUI](DYLIBS/AppProtectionUI.md)
+- [/System/Library/PrivateFrameworks/AppRemoteAssets.framework/AppRemoteAssets](DYLIBS/AppRemoteAssets.md)
+- [/System/Library/PrivateFrameworks/AppSSO.framework/AppSSO](DYLIBS/AppSSO.md)
+- [/System/Library/PrivateFrameworks/AppSSOKerberos.framework/AppSSOKerberos](DYLIBS/AppSSOKerberos.md)
+- [/System/Library/PrivateFrameworks/AppServerSupport.framework/AppServerSupport](DYLIBS/AppServerSupport.md)
+- [/System/Library/PrivateFrameworks/AppState.framework/AppState](DYLIBS/AppState.md)
+- [/System/Library/PrivateFrameworks/AppStoreComponents.framework/AppStoreComponents](DYLIBS/AppStoreComponents.md)
+- [/System/Library/PrivateFrameworks/AppStoreComponentsDaemonKit.framework/AppStoreComponentsDaemonKit](DYLIBS/AppStoreComponentsDaemonKit.md)
+- [/System/Library/PrivateFrameworks/AppStoreDaemon.framework/AppStoreDaemon](DYLIBS/AppStoreDaemon.md)
+- [/System/Library/PrivateFrameworks/AppStoreFoundation.framework/AppStoreFoundation](DYLIBS/AppStoreFoundation.md)
+- [/System/Library/PrivateFrameworks/AppStoreKit.framework/AppStoreKit](DYLIBS/AppStoreKit.md)
+- [/System/Library/PrivateFrameworks/AppSubscriptions.framework/AppSubscriptions](DYLIBS/AppSubscriptions.md)
+- [/System/Library/PrivateFrameworks/AppSupportUI.framework/AppSupportUI](DYLIBS/AppSupportUI.md)
+- [/System/Library/PrivateFrameworks/AppSystemSettingsUI.framework/AppSystemSettingsUI](DYLIBS/AppSystemSettingsUI.md)
+- [/System/Library/PrivateFrameworks/AppleAccountUI.framework/AppleAccountUI](DYLIBS/AppleAccountUI.md)
+- [/System/Library/PrivateFrameworks/AppleBasebandManager.framework/AppleBasebandManager](DYLIBS/AppleBasebandManager.md)
+- [/System/Library/PrivateFrameworks/AppleBasebandServices.framework/AppleBasebandServices](DYLIBS/AppleBasebandServices.md)
+- [/System/Library/PrivateFrameworks/AppleCV3D.framework/AppleCV3D](DYLIBS/AppleCV3D.md)
+- [/System/Library/PrivateFrameworks/AppleCareSupport.framework/AppleCareSupport](DYLIBS/AppleCareSupport.md)
+- [/System/Library/PrivateFrameworks/AppleIDSetup.framework/AppleIDSetup](DYLIBS/AppleIDSetup.md)
+- [/System/Library/PrivateFrameworks/AppleIDSetupDaemon.framework/AppleIDSetupDaemon](DYLIBS/AppleIDSetupDaemon.md)
+- [/System/Library/PrivateFrameworks/AppleIDSetupUI.framework/AppleIDSetupUI](DYLIBS/AppleIDSetupUI.md)
+- [/System/Library/PrivateFrameworks/AppleIntelligenceReporting.framework/AppleIntelligenceReporting](DYLIBS/AppleIntelligenceReporting.md)
+- [/System/Library/PrivateFrameworks/AppleIntelligenceReportingProcessing.framework/AppleIntelligenceReportingProcessing](DYLIBS/AppleIntelligenceReportingProcessing.md)
+- [/System/Library/PrivateFrameworks/AppleKeyStore.framework/AppleKeyStore](DYLIBS/AppleKeyStore.md)
+- [/System/Library/PrivateFrameworks/AppleMediaDiscovery.framework/AppleMediaDiscovery](DYLIBS/AppleMediaDiscovery.md)
+- [/System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices](DYLIBS/AppleMediaServices.md)
+- [/System/Library/PrivateFrameworks/AppleMediaServicesKitInternal.framework/AppleMediaServicesKitInternal](DYLIBS/AppleMediaServicesKitInternal.md)
+- [/System/Library/PrivateFrameworks/AppleMediaServicesKitSupport.framework/AppleMediaServicesKitSupport](DYLIBS/AppleMediaServicesKitSupport.md)
+- [/System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/AppleMediaServicesUI](DYLIBS/AppleMediaServicesUI.md)
+- [/System/Library/PrivateFrameworks/AppleMediaServicesUIDynamic.framework/AppleMediaServicesUIDynamic](DYLIBS/AppleMediaServicesUIDynamic.md)
+- [/System/Library/PrivateFrameworks/AppleMediaServicesUIKitInternal.framework/AppleMediaServicesUIKitInternal](DYLIBS/AppleMediaServicesUIKitInternal.md)
+- [/System/Library/PrivateFrameworks/AppleMediaServicesUIPaymentSheets.framework/AppleMediaServicesUIPaymentSheets](DYLIBS/AppleMediaServicesUIPaymentSheets.md)
+- [/System/Library/PrivateFrameworks/ArchetypeEngine.framework/ArchetypeEngine](DYLIBS/ArchetypeEngine.md)
+- [/System/Library/PrivateFrameworks/ArgumentParserInternal.framework/ArgumentParserInternal](DYLIBS/ArgumentParserInternal.md)
+- [/System/Library/PrivateFrameworks/Asen.framework/Asen.dylib](DYLIBS/Asen.dylib.md)
+- [/System/Library/PrivateFrameworks/AskPermission.framework/AskPermission](DYLIBS/AskPermission.md)
+- [/System/Library/PrivateFrameworks/AskTo.framework/AskTo](DYLIBS/AskTo.md)
+- [/System/Library/PrivateFrameworks/AskToCore.framework/AskToCore](DYLIBS/AskToCore.md)
+- [/System/Library/PrivateFrameworks/AskToDaemon.framework/AskToDaemon](DYLIBS/AskToDaemon.md)
+- [/System/Library/PrivateFrameworks/AskToUI.framework/AskToUI](DYLIBS/AskToUI.md)
+- [/System/Library/PrivateFrameworks/AssetViewer.framework/AssetViewer](DYLIBS/AssetViewer.md)
+- [/System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices](DYLIBS/AssistantServices.md)
+- [/System/Library/PrivateFrameworks/AssistantSettingsFoundation.framework/AssistantSettingsFoundation](DYLIBS/AssistantSettingsFoundation.md)
+- [/System/Library/PrivateFrameworks/AssistantSettingsSupport.framework/AssistantSettingsSupport](DYLIBS/AssistantSettingsSupport.md)
+- [/System/Library/PrivateFrameworks/AssistantUI.framework/AssistantUI](DYLIBS/AssistantUI.md)
+- [/System/Library/PrivateFrameworks/AudioAnalytics.framework/AudioAnalytics](DYLIBS/AudioAnalytics.md)
+- [/System/Library/PrivateFrameworks/AudioAnalyticsBase.framework/AudioAnalyticsBase](DYLIBS/AudioAnalyticsBase.md)
+- [/System/Library/PrivateFrameworks/AudioAnalyticsExternal.framework/AudioAnalyticsExternal](DYLIBS/AudioAnalyticsExternal.md)
+- [/System/Library/PrivateFrameworks/AudioDSPGraph.framework/AudioDSPGraph](DYLIBS/AudioDSPGraph.md)
+- [/System/Library/PrivateFrameworks/AudioDSPManager.framework/AudioDSPManager](DYLIBS/AudioDSPManager.md)
+- [/System/Library/PrivateFrameworks/AudioDiagnosticExtensionCore.framework/AudioDiagnosticExtensionCore](DYLIBS/AudioDiagnosticExtensionCore.md)
+- [/System/Library/PrivateFrameworks/AudioPasscode.framework/AudioPasscode](DYLIBS/AudioPasscode.md)
+- [/System/Library/PrivateFrameworks/AudioPasscodeDSP.framework/AudioPasscodeDSP](DYLIBS/AudioPasscodeDSP.md)
+- [/System/Library/PrivateFrameworks/AudioServerDriver.framework/AudioServerDriver](DYLIBS/AudioServerDriver.md)
+- [/System/Library/PrivateFrameworks/AudioToolboxCore.framework/AudioToolboxCore](DYLIBS/AudioToolboxCore.md)
+- [/System/Library/PrivateFrameworks/AudiogramIngestion.framework/AudiogramIngestion](DYLIBS/AudiogramIngestion.md)
+- [/System/Library/PrivateFrameworks/AuthKit.framework/AuthKit](DYLIBS/AuthKit.md)
+- [/System/Library/PrivateFrameworks/AuthKitUI.framework/AuthKitUI](DYLIBS/AuthKitUI.md)
+- [/System/Library/PrivateFrameworks/AuthenticationServicesCore.framework/AuthenticationServicesCore](DYLIBS/AuthenticationServicesCore.md)
+- [/System/Library/PrivateFrameworks/AutoBugCaptureCore.framework/AutoBugCaptureCore](DYLIBS/AutoBugCaptureCore.md)
+- [/System/Library/PrivateFrameworks/AvatarPersistence.framework/AvatarPersistence](DYLIBS/AvatarPersistence.md)
+- [/System/Library/PrivateFrameworks/BackBoardServices.framework/BackBoardServices](DYLIBS/BackBoardServices.md)
+- [/System/Library/PrivateFrameworks/BarcodeSupport.framework/BarcodeSupport](DYLIBS/BarcodeSupport.md)
+- [/System/Library/PrivateFrameworks/BatteryAlgorithms.framework/BatteryAlgorithms](DYLIBS/BatteryAlgorithms.md)
+- [/System/Library/PrivateFrameworks/BatteryCenterUI.framework/BatteryCenterUI](DYLIBS/BatteryCenterUI.md)
+- [/System/Library/PrivateFrameworks/BiomeFoundation.framework/BiomeFoundation](DYLIBS/BiomeFoundation.md)
+- [/System/Library/PrivateFrameworks/BiomeLibrary.framework/BiomeLibrary](DYLIBS/BiomeLibrary.md)
+- [/System/Library/PrivateFrameworks/BiomeStreams.framework/BiomeStreams](DYLIBS/BiomeStreams.md)
+- [/System/Library/PrivateFrameworks/Blackbeard.framework/Blackbeard](DYLIBS/Blackbeard.md)
+- [/System/Library/PrivateFrameworks/BlastDoor.framework/BlastDoor](DYLIBS/BlastDoor.md)
+- [/System/Library/PrivateFrameworks/Bom.framework/Bom](DYLIBS/Bom.md)
+- [/System/Library/PrivateFrameworks/BookDataStore.framework/BookDataStore](DYLIBS/BookDataStore.md)
+- [/System/Library/PrivateFrameworks/BookFoundation.framework/BookFoundation](DYLIBS/BookFoundation.md)
+- [/System/Library/PrivateFrameworks/BrailleSymbology.framework/BrailleSymbology](DYLIBS/BrailleSymbology.md)
+- [/System/Library/PrivateFrameworks/BrailleTranslation.framework/BrailleTranslation](DYLIBS/BrailleTranslation.md)
+- [/System/Library/PrivateFrameworks/BridgeLiveActivity.framework/BridgeLiveActivity](DYLIBS/BridgeLiveActivity.md)
+- [/System/Library/PrivateFrameworks/BridgePreferences.framework/BridgePreferences](DYLIBS/BridgePreferences.md)
+- [/System/Library/PrivateFrameworks/BrowserSupportKit.framework/BrowserSupportKit](DYLIBS/BrowserSupportKit.md)
+- [/System/Library/PrivateFrameworks/BulletinDistributorCompanion.framework/BulletinDistributorCompanion](DYLIBS/BulletinDistributorCompanion.md)
+- [/System/Library/PrivateFrameworks/BusinessServices.framework/BusinessServices](DYLIBS/BusinessServices.md)
+- [/System/Library/PrivateFrameworks/BusinessServicesUI.framework/BusinessServicesUI](DYLIBS/BusinessServicesUI.md)
+- [/System/Library/PrivateFrameworks/CAFCombine.framework/CAFCombine](DYLIBS/CAFCombine.md)
+- [/System/Library/PrivateFrameworks/CAFUI.framework/CAFUI](DYLIBS/CAFUI.md)
+- [/System/Library/PrivateFrameworks/CDMFoundation.framework/CDMFoundation](DYLIBS/CDMFoundation.md)
+- [/System/Library/PrivateFrameworks/CMCapture.framework/CMCapture](DYLIBS/CMCapture.md)
+- [/System/Library/PrivateFrameworks/CMImaging.framework/CMImaging](DYLIBS/CMImaging.md)
+- [/System/Library/PrivateFrameworks/CMPhoto.framework/CMPhoto](DYLIBS/CMPhoto.md)
+- [/System/Library/PrivateFrameworks/CTBlastDoorSupport.framework/CTBlastDoorSupport](DYLIBS/CTBlastDoorSupport.md)
+- [/System/Library/PrivateFrameworks/CTLazuliSupport.framework/CTLazuliSupport](DYLIBS/CTLazuliSupport.md)
+- [/System/Library/PrivateFrameworks/Calculate.framework/Calculate](DYLIBS/Calculate.md)
+- [/System/Library/PrivateFrameworks/CalculateUI.framework/CalculateUI](DYLIBS/CalculateUI.md)
+- [/System/Library/PrivateFrameworks/CalendarFoundation.framework/CalendarFoundation](DYLIBS/CalendarFoundation.md)
+- [/System/Library/PrivateFrameworks/CalendarIntegrationSupport.framework/CalendarIntegrationSupport](DYLIBS/CalendarIntegrationSupport.md)
+- [/System/Library/PrivateFrameworks/CalendarLink.framework/CalendarLink](DYLIBS/CalendarLink.md)
+- [/System/Library/PrivateFrameworks/CalendarUIKit.framework/CalendarUIKit](DYLIBS/CalendarUIKit.md)
+- [/System/Library/PrivateFrameworks/CalendarUIKitInternal.framework/CalendarUIKitInternal](DYLIBS/CalendarUIKitInternal.md)
+- [/System/Library/PrivateFrameworks/CalendarWidget.framework/CalendarWidget](DYLIBS/CalendarWidget.md)
+- [/System/Library/PrivateFrameworks/CallHistory.framework/CallHistory](DYLIBS/CallHistory.md)
+- [/System/Library/PrivateFrameworks/CallIntelligence.framework/CallIntelligence](DYLIBS/CallIntelligence.md)
+- [/System/Library/PrivateFrameworks/CallsAppServices.framework/CallsAppServices](DYLIBS/CallsAppServices.md)
+- [/System/Library/PrivateFrameworks/CallsAppUI.framework/CallsAppUI](DYLIBS/CallsAppUI.md)
+- [/System/Library/PrivateFrameworks/CallsPersistence.framework/CallsPersistence](DYLIBS/CallsPersistence.md)
+- [/System/Library/PrivateFrameworks/CallsSearch.framework/CallsSearch](DYLIBS/CallsSearch.md)
+- [/System/Library/PrivateFrameworks/CallsUtilities.framework/CallsUtilities](DYLIBS/CallsUtilities.md)
+- [/System/Library/PrivateFrameworks/CallsXPC.framework/CallsXPC](DYLIBS/CallsXPC.md)
+- [/System/Library/PrivateFrameworks/CameraEditKit.framework/CameraEditKit](DYLIBS/CameraEditKit.md)
+- [/System/Library/PrivateFrameworks/CameraUI.framework/CameraUI](DYLIBS/CameraUI.md)
+- [/System/Library/PrivateFrameworks/CarAccessoryDaemon.framework/CarAccessoryDaemon](DYLIBS/CarAccessoryDaemon.md)
+- [/System/Library/PrivateFrameworks/CarAccessoryFramework.framework/CarAccessoryFramework](DYLIBS/CarAccessoryFramework.md)
+- [/System/Library/PrivateFrameworks/CarAssetUtils.framework/CarAssetUtils](DYLIBS/CarAssetUtils.md)
+- [/System/Library/PrivateFrameworks/CarCommandsUIFramework.framework/CarCommandsUIFramework](DYLIBS/CarCommandsUIFramework.md)
+- [/System/Library/PrivateFrameworks/CarKit.framework/CarKit](DYLIBS/CarKit.md)
+- [/System/Library/PrivateFrameworks/CarPlayAssetUI.framework/CarPlayAssetUI](DYLIBS/CarPlayAssetUI.md)
+- [/System/Library/PrivateFrameworks/CarPlayDisplayUtils.framework/CarPlayDisplayUtils](DYLIBS/CarPlayDisplayUtils.md)
+- [/System/Library/PrivateFrameworks/CarPlaySetup.framework/CarPlaySetup](DYLIBS/CarPlaySetup.md)
+- [/System/Library/PrivateFrameworks/CarPlaySupport.framework/CarPlaySupport](DYLIBS/CarPlaySupport.md)
+- [/System/Library/PrivateFrameworks/CarPlayUI.framework/CarPlayUI](DYLIBS/CarPlayUI.md)
+- [/System/Library/PrivateFrameworks/CarPlayUIServices.framework/CarPlayUIServices](DYLIBS/CarPlayUIServices.md)
+- [/System/Library/PrivateFrameworks/CarouselPreferenceServices.framework/CarouselPreferenceServices](DYLIBS/CarouselPreferenceServices.md)
+- [/System/Library/PrivateFrameworks/CascadeSets.framework/CascadeSets](DYLIBS/CascadeSets.md)
+- [/System/Library/PrivateFrameworks/CascadingFilters.framework/CascadingFilters](DYLIBS/CascadingFilters.md)
+- [/System/Library/PrivateFrameworks/Catalyst.framework/Catalyst](DYLIBS/Catalyst.md)
+- [/System/Library/PrivateFrameworks/ChatKit.framework/ChatKit](DYLIBS/ChatKit.md)
+- [/System/Library/PrivateFrameworks/ChronoCore.framework/ChronoCore](DYLIBS/ChronoCore.md)
+- [/System/Library/PrivateFrameworks/ChronoCore.framework/Support/WidgetPreviewsExtensionAgent.bundle/WidgetPreviewsExtensionAgent](DYLIBS/WidgetPreviewsExtensionAgent.md)
+- [/System/Library/PrivateFrameworks/ChronoCore.framework/Support/WidgetPreviewsSupport.framework/WidgetPreviewsSupport](DYLIBS/WidgetPreviewsSupport.md)
+- [/System/Library/PrivateFrameworks/ChronoKit.framework/ChronoKit](DYLIBS/ChronoKit.md)
+- [/System/Library/PrivateFrameworks/ChronoServices.framework/ChronoServices](DYLIBS/ChronoServices.md)
+- [/System/Library/PrivateFrameworks/ChronoUIServices.framework/ChronoUIServices](DYLIBS/ChronoUIServices.md)
+- [/System/Library/PrivateFrameworks/CipherML.framework/CipherML](DYLIBS/CipherML.md)
+- [/System/Library/PrivateFrameworks/ClarityBoardFoundation.framework/ClarityBoardFoundation](DYLIBS/ClarityBoardFoundation.md)
+- [/System/Library/PrivateFrameworks/ClassroomKit.framework/Frameworks/ClassroomUIKit.framework/ClassroomUIKit](DYLIBS/ClassroomUIKit.md)
+- [/System/Library/PrivateFrameworks/ClipUIServices.framework/ClipUIServices](DYLIBS/ClipUIServices.md)
+- [/System/Library/PrivateFrameworks/ClockKitUI.framework/ClockKitUI](DYLIBS/ClockKitUI.md)
+- [/System/Library/PrivateFrameworks/ClockPoster.framework/ClockPoster](DYLIBS/ClockPoster.md)
+- [/System/Library/PrivateFrameworks/ClockUIFramework.framework/ClockUIFramework](DYLIBS/ClockUIFramework.md)
+- [/System/Library/PrivateFrameworks/CloudAsset.framework/CloudAsset](DYLIBS/CloudAsset.md)
+- [/System/Library/PrivateFrameworks/CloudAssets.framework/CloudAssets](DYLIBS/CloudAssets.md)
+- [/System/Library/PrivateFrameworks/CloudAssetsCommons.framework/CloudAssetsCommons](DYLIBS/CloudAssetsCommons.md)
+- [/System/Library/PrivateFrameworks/CloudAssetsDaemon.framework/CloudAssetsDaemon](DYLIBS/CloudAssetsDaemon.md)
+- [/System/Library/PrivateFrameworks/CloudAttestation.framework/CloudAttestation](DYLIBS/CloudAttestation.md)
+- [/System/Library/PrivateFrameworks/CloudCoreInternal.framework/CloudCoreInternal](DYLIBS/CloudCoreInternal.md)
+- [/System/Library/PrivateFrameworks/CloudDocs.framework/CloudDocs](DYLIBS/CloudDocs.md)
+- [/System/Library/PrivateFrameworks/CloudKitCode.framework/CloudKitCode](DYLIBS/CloudKitCode.md)
+- [/System/Library/PrivateFrameworks/CloudKitDaemon.framework/CloudKitDaemon](DYLIBS/CloudKitDaemon.md)
+- [/System/Library/PrivateFrameworks/CloudPhotoLibrary.framework/CloudPhotoLibrary](DYLIBS/CloudPhotoLibrary.md)
+- [/System/Library/PrivateFrameworks/CloudRecommendation.framework/CloudRecommendation](DYLIBS/CloudRecommendation.md)
+- [/System/Library/PrivateFrameworks/CloudRecommendationUI.framework/CloudRecommendationUI](DYLIBS/CloudRecommendationUI.md)
+- [/System/Library/PrivateFrameworks/CloudServices.framework/CloudServices](DYLIBS/CloudServices.md)
+- [/System/Library/PrivateFrameworks/CloudSharing.framework/CloudSharing](DYLIBS/CloudSharing.md)
+- [/System/Library/PrivateFrameworks/CloudSharingUI.framework/CloudSharingUI](DYLIBS/CloudSharingUI.md)
+- [/System/Library/PrivateFrameworks/CloudSubscriptionFeatures.framework/CloudSubscriptionFeatures](DYLIBS/CloudSubscriptionFeatures.md)
+- [/System/Library/PrivateFrameworks/CloudTelemetry.framework/CloudTelemetry](DYLIBS/CloudTelemetry.md)
+- [/System/Library/PrivateFrameworks/CloudTelemetryShared.dylib](DYLIBS/CloudTelemetryShared.dylib.md)
+- [/System/Library/PrivateFrameworks/CloudTelemetryTools.framework/CloudTelemetryTools](DYLIBS/CloudTelemetryTools.md)
+- [/System/Library/PrivateFrameworks/CodesignKit.framework/CodesignKit](DYLIBS/CodesignKit.md)
+- [/System/Library/PrivateFrameworks/Coherence.framework/Coherence](DYLIBS/Coherence.md)
+- [/System/Library/PrivateFrameworks/CollectionsInternal.framework/CollectionsInternal](DYLIBS/CollectionsInternal.md)
+- [/System/Library/PrivateFrameworks/CommandAndControlUI.framework/CommandAndControlUI](DYLIBS/CommandAndControlUI.md)
+- [/System/Library/PrivateFrameworks/CommunicationDetails.framework/CommunicationDetails](DYLIBS/CommunicationDetails.md)
+- [/System/Library/PrivateFrameworks/CommunicationSafetySettingsUI.framework/CommunicationSafetySettingsUI](DYLIBS/CommunicationSafetySettingsUI.md)
+- [/System/Library/PrivateFrameworks/CommunicationTrust.framework/CommunicationTrust](DYLIBS/CommunicationTrust.md)
+- [/System/Library/PrivateFrameworks/CommunicationsSetupUI.framework/CommunicationsSetupUI](DYLIBS/CommunicationsSetupUI.md)
+- [/System/Library/PrivateFrameworks/CommunicationsUI.framework/CommunicationsUI](DYLIBS/CommunicationsUI.md)
+- [/System/Library/PrivateFrameworks/CommunicationsUICore.framework/CommunicationsUICore](DYLIBS/CommunicationsUICore.md)
+- [/System/Library/PrivateFrameworks/CompanionInferenceCore.framework/CompanionInferenceCore](DYLIBS/CompanionInferenceCore.md)
+- [/System/Library/PrivateFrameworks/CompanionServices.framework/CompanionServices](DYLIBS/CompanionServices.md)
+- [/System/Library/PrivateFrameworks/CompanionSetupKit.framework/CompanionSetupKit](DYLIBS/CompanionSetupKit.md)
+- [/System/Library/PrivateFrameworks/ComputationalGraph.framework/ComputationalGraph](DYLIBS/ComputationalGraph.md)
+- [/System/Library/PrivateFrameworks/ComputeSafeguards.framework/ComputeSafeguards](DYLIBS/ComputeSafeguards.md)
+- [/System/Library/PrivateFrameworks/ContactlessReaderUI.framework/ContactlessReaderUI](DYLIBS/ContactlessReaderUI.md)
+- [/System/Library/PrivateFrameworks/ContactsAutocomplete.framework/ContactsAutocomplete](DYLIBS/ContactsAutocomplete.md)
+- [/System/Library/PrivateFrameworks/ContactsAutocompleteUI.framework/ContactsAutocompleteUI](DYLIBS/ContactsAutocompleteUI.md)
+- [/System/Library/PrivateFrameworks/ContactsFoundation.framework/ContactsFoundation](DYLIBS/ContactsFoundation.md)
+- [/System/Library/PrivateFrameworks/ContactsUICore.framework/ContactsUICore](DYLIBS/ContactsUICore.md)
+- [/System/Library/PrivateFrameworks/ContactsWidgetUI.framework/ContactsWidgetUI](DYLIBS/ContactsWidgetUI.md)
+- [/System/Library/PrivateFrameworks/ContainerManagerCommon.framework/ContainerManagerCommon](DYLIBS/ContainerManagerCommon.md)
+- [/System/Library/PrivateFrameworks/ContentKit.framework/ContentKit](DYLIBS/ContentKit.md)
+- [/System/Library/PrivateFrameworks/ContextualSuggestionClient.framework/ContextualSuggestionClient](DYLIBS/ContextualSuggestionClient.md)
+- [/System/Library/PrivateFrameworks/ContextualUnderstanding.framework/ContextualUnderstanding](DYLIBS/ContextualUnderstanding.md)
+- [/System/Library/PrivateFrameworks/ContinuitySing.framework/ContinuitySing](DYLIBS/ContinuitySing.md)
+- [/System/Library/PrivateFrameworks/ControlCenterUI.framework/ControlCenterUI](DYLIBS/ControlCenterUI.md)
+- [/System/Library/PrivateFrameworks/ControlCenterUIKit.framework/ControlCenterUIKit](DYLIBS/ControlCenterUIKit.md)
+- [/System/Library/PrivateFrameworks/ConversationKit.framework/ConversationKit](DYLIBS/ConversationKit.md)
+- [/System/Library/PrivateFrameworks/CookingData.framework/CookingData](DYLIBS/CookingData.md)
+- [/System/Library/PrivateFrameworks/CookingKit.framework/CookingKit](DYLIBS/CookingKit.md)
+- [/System/Library/PrivateFrameworks/CookingSupport.framework/CookingSupport](DYLIBS/CookingSupport.md)
+- [/System/Library/PrivateFrameworks/CopresenceCore.framework/CopresenceCore](DYLIBS/CopresenceCore.md)
+- [/System/Library/PrivateFrameworks/CoreALD.framework/CoreALD](DYLIBS/CoreALD.md)
+- [/System/Library/PrivateFrameworks/CoreAudioOrchestration.framework/CoreAudioOrchestration](DYLIBS/CoreAudioOrchestration.md)
+- [/System/Library/PrivateFrameworks/CoreCDP.framework/CoreCDP](DYLIBS/CoreCDP.md)
+- [/System/Library/PrivateFrameworks/CoreCDPInternal.framework/CoreCDPInternal](DYLIBS/CoreCDPInternal.md)
+- [/System/Library/PrivateFrameworks/CoreCDPUI.framework/CoreCDPUI](DYLIBS/CoreCDPUI.md)
+- [/System/Library/PrivateFrameworks/CoreCaptureDaemon.framework/CoreCaptureDaemon](DYLIBS/CoreCaptureDaemon.md)
+- [/System/Library/PrivateFrameworks/CoreDeviceSelection.framework/CoreDeviceSelection](DYLIBS/CoreDeviceSelection.md)
+- [/System/Library/PrivateFrameworks/CoreDiagnostics.framework/CoreDiagnostics](DYLIBS/CoreDiagnostics.md)
+- [/System/Library/PrivateFrameworks/CoreDuet.framework/CoreDuet](DYLIBS/CoreDuet.md)
+- [/System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/CoreEmbeddedSpeechRecognition](DYLIBS/CoreEmbeddedSpeechRecognition.md)
+- [/System/Library/PrivateFrameworks/CoreFollowUp.framework/CoreFollowUp](DYLIBS/CoreFollowUp.md)
+- [/System/Library/PrivateFrameworks/CoreGPS.framework/CoreGPS.dylib](DYLIBS/CoreGPS.dylib.md)
+- [/System/Library/PrivateFrameworks/CoreHAP.framework/CoreHAP](DYLIBS/CoreHAP.md)
+- [/System/Library/PrivateFrameworks/CoreHID.framework/CoreHID](DYLIBS/CoreHID.md)
+- [/System/Library/PrivateFrameworks/CoreHandwriting.framework/CoreHandwriting](DYLIBS/CoreHandwriting.md)
+- [/System/Library/PrivateFrameworks/CoreIDCred.framework/CoreIDCred](DYLIBS/CoreIDCred.md)
+- [/System/Library/PrivateFrameworks/CoreIDV.framework/CoreIDV](DYLIBS/CoreIDV.md)
+- [/System/Library/PrivateFrameworks/CoreIDVDaemonSupport.framework/CoreIDVDaemonSupport](DYLIBS/CoreIDVDaemonSupport.md)
+- [/System/Library/PrivateFrameworks/CoreIDVPAD.framework/CoreIDVPAD](DYLIBS/CoreIDVPAD.md)
+- [/System/Library/PrivateFrameworks/CoreIDVRGBLiveness.framework/CoreIDVRGBLiveness](DYLIBS/CoreIDVRGBLiveness.md)
+- [/System/Library/PrivateFrameworks/CoreIDVShared.framework/CoreIDVShared](DYLIBS/CoreIDVShared.md)
+- [/System/Library/PrivateFrameworks/CoreIDVUI.framework/CoreIDVUI](DYLIBS/CoreIDVUI.md)
+- [/System/Library/PrivateFrameworks/CoreKnowledge.framework/CoreKnowledge](DYLIBS/CoreKnowledge.md)
+- [/System/Library/PrivateFrameworks/CoreMLOdie.framework/CoreMLOdie](DYLIBS/CoreMLOdie.md)
+- [/System/Library/PrivateFrameworks/CoreMotionAlgorithms.framework/CoreMotionAlgorithms](DYLIBS/CoreMotionAlgorithms.md)
+- [/System/Library/PrivateFrameworks/CoreNLP.framework/CoreNLP](DYLIBS/CoreNLP.md)
+- [/System/Library/PrivateFrameworks/CoreOC.framework/CoreOC](DYLIBS/CoreOC.md)
+- [/System/Library/PrivateFrameworks/CoreODI.framework/CoreODI](DYLIBS/CoreODI.md)
+- [/System/Library/PrivateFrameworks/CoreODIEssentials.framework/CoreODIEssentials](DYLIBS/CoreODIEssentials.md)
+- [/System/Library/PrivateFrameworks/CoreParsec.framework/CoreParsec](DYLIBS/CoreParsec.md)
+- [/System/Library/PrivateFrameworks/CorePhoneNumbers.framework/CorePhoneNumbers](DYLIBS/CorePhoneNumbers.md)
+- [/System/Library/PrivateFrameworks/CorePhotogrammetry.framework/CorePhotogrammetry](DYLIBS/CorePhotogrammetry.md)
+- [/System/Library/PrivateFrameworks/CoreRE.framework/CoreRE](DYLIBS/CoreRE.md)
+- [/System/Library/PrivateFrameworks/CoreRepairCore.framework/CoreRepairCore](DYLIBS/CoreRepairCore.md)
+- [/System/Library/PrivateFrameworks/CoreRepairLite.framework/CoreRepairLite](DYLIBS/CoreRepairLite.md)
+- [/System/Library/PrivateFrameworks/CoreRepairUI.framework/CoreRepairUI](DYLIBS/CoreRepairUI.md)
+- [/System/Library/PrivateFrameworks/CoreSceneUnderstanding.framework/CoreSceneUnderstanding](DYLIBS/CoreSceneUnderstanding.md)
+- [/System/Library/PrivateFrameworks/CoreServicesInternal.framework/CoreServicesInternal](DYLIBS/CoreServicesInternal.md)
+- [/System/Library/PrivateFrameworks/CoreServicesUI.framework/CoreServicesUI](DYLIBS/CoreServicesUI.md)
+- [/System/Library/PrivateFrameworks/CoreSpeech.framework/CoreSpeech](DYLIBS/CoreSpeech.md)
+- [/System/Library/PrivateFrameworks/CoreSpeechDataAnalytics.framework/CoreSpeechDataAnalytics](DYLIBS/CoreSpeechDataAnalytics.md)
+- [/System/Library/PrivateFrameworks/CoreSpeechExclave.framework/CoreSpeechExclave](DYLIBS/CoreSpeechExclave.md)
+- [/System/Library/PrivateFrameworks/CoreSpeechFoundation.framework/CoreSpeechFoundation](DYLIBS/CoreSpeechFoundation.md)
+- [/System/Library/PrivateFrameworks/CoreSpeechUtils.framework/CoreSpeechUtils](DYLIBS/CoreSpeechUtils.md)
+- [/System/Library/PrivateFrameworks/CoreSuggestionsInternals.framework/CoreSuggestionsInternals](DYLIBS/CoreSuggestionsInternals.md)
+- [/System/Library/PrivateFrameworks/CoreSuggestionsUI.framework/CoreSuggestionsUI](DYLIBS/CoreSuggestionsUI.md)
+- [/System/Library/PrivateFrameworks/CoreSymbolication.framework/CoreSymbolication](DYLIBS/CoreSymbolication.md)
+- [/System/Library/PrivateFrameworks/CoreTransparency.framework/CoreTransparency](DYLIBS/CoreTransparency.md)
+- [/System/Library/PrivateFrameworks/CoreUARP.framework/CoreUARP](DYLIBS/CoreUARP.md)
+- [/System/Library/PrivateFrameworks/CoreUI.framework/CoreUI](DYLIBS/CoreUI.md)
+- [/System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils](DYLIBS/CoreUtils.md)
+- [/System/Library/PrivateFrameworks/CoreUtilsShims.framework/CoreUtilsShims](DYLIBS/CoreUtilsShims.md)
+- [/System/Library/PrivateFrameworks/CoreUtilsSwift.framework/CoreUtilsSwift](DYLIBS/CoreUtilsSwift.md)
+- [/System/Library/PrivateFrameworks/CoreUtilsUI.framework/CoreUtilsUI](DYLIBS/CoreUtilsUI.md)
+- [/System/Library/PrivateFrameworks/CoreWiFi.framework/CoreWiFi](DYLIBS/CoreWiFi.md)
+- [/System/Library/PrivateFrameworks/CosmeticAssessment.framework/CosmeticAssessment](DYLIBS/CosmeticAssessment.md)
+- [/System/Library/PrivateFrameworks/Cosmo.framework/Cosmo](DYLIBS/Cosmo.md)
+- [/System/Library/PrivateFrameworks/CoverSheet.framework/CoverSheet](DYLIBS/CoverSheet.md)
+- [/System/Library/PrivateFrameworks/CoverSheetKit.framework/CoverSheetKit](DYLIBS/CoverSheetKit.md)
+- [/System/Library/PrivateFrameworks/CrisisResources.framework/CrisisResources](DYLIBS/CrisisResources.md)
+- [/System/Library/PrivateFrameworks/CryptexKit.framework/CryptexKit](DYLIBS/CryptexKit.md)
+- [/System/Library/PrivateFrameworks/CryptexServer.framework/CryptexServer](DYLIBS/CryptexServer.md)
+- [/System/Library/PrivateFrameworks/CryptoKitPrivate.framework/CryptoKitPrivate](DYLIBS/CryptoKitPrivate.md)
+- [/System/Library/PrivateFrameworks/DMCApps.framework/DMCApps](DYLIBS/DMCApps.md)
+- [/System/Library/PrivateFrameworks/DMCEnrollmentProvider.framework/DMCEnrollmentProvider](DYLIBS/DMCEnrollmentProvider.md)
+- [/System/Library/PrivateFrameworks/DMCTools.framework/DMCTools](DYLIBS/DMCTools.md)
+- [/System/Library/PrivateFrameworks/DSContinuityPairing.framework/DSContinuityPairing](DYLIBS/DSContinuityPairing.md)
+- [/System/Library/PrivateFrameworks/DSRemotePairing.framework/DSRemotePairing](DYLIBS/DSRemotePairing.md)
+- [/System/Library/PrivateFrameworks/DVTInstrumentsFoundation.framework/DVTInstrumentsFoundation](DYLIBS/DVTInstrumentsFoundation.md)
+- [/System/Library/PrivateFrameworks/DarwinDirectoryInternal.framework/DarwinDirectoryInternal](DYLIBS/DarwinDirectoryInternal.md)
+- [/System/Library/PrivateFrameworks/DashBoard.framework/DashBoard](DYLIBS/DashBoard.md)
+- [/System/Library/PrivateFrameworks/DataCollector.framework/DataCollector](DYLIBS/DataCollector.md)
+- [/System/Library/PrivateFrameworks/DataFlow.framework/DataFlow](DYLIBS/DataFlow.md)
+- [/System/Library/PrivateFrameworks/DateAndTimeSupport.framework/DateAndTimeSupport](DYLIBS/DateAndTimeSupport.md)
+- [/System/Library/PrivateFrameworks/DeepThought.framework/DeepThought](DYLIBS/DeepThought.md)
+- [/System/Library/PrivateFrameworks/DeepThoughtBiomeFoundation.framework/DeepThoughtBiomeFoundation](DYLIBS/DeepThoughtBiomeFoundation.md)
+- [/System/Library/PrivateFrameworks/DefaultAppsSettingsUI.framework/DefaultAppsSettingsUI](DYLIBS/DefaultAppsSettingsUI.md)
+- [/System/Library/PrivateFrameworks/Dendrite.framework/Dendrite](DYLIBS/Dendrite.md)
+- [/System/Library/PrivateFrameworks/DepthCore.framework/DepthCore](DYLIBS/DepthCore.md)
+- [/System/Library/PrivateFrameworks/DesignLibrary.framework/DesignLibrary](DYLIBS/DesignLibrary.md)
+- [/System/Library/PrivateFrameworks/DeviceAccess.framework/DeviceAccess](DYLIBS/DeviceAccess.md)
+- [/System/Library/PrivateFrameworks/DeviceDiscoveryUICore.framework/DeviceDiscoveryUICore](DYLIBS/DeviceDiscoveryUICore.md)
+- [/System/Library/PrivateFrameworks/DeviceExpertIntents.framework/DeviceExpertIntents](DYLIBS/DeviceExpertIntents.md)
+- [/System/Library/PrivateFrameworks/DeviceExpertUI.framework/DeviceExpertUI](DYLIBS/DeviceExpertUI.md)
+- [/System/Library/PrivateFrameworks/DeviceIdentity.framework/DeviceIdentity](DYLIBS/DeviceIdentity.md)
+- [/System/Library/PrivateFrameworks/DeviceRegulatoryInfo.framework/DeviceRegulatoryInfo](DYLIBS/DeviceRegulatoryInfo.md)
+- [/System/Library/PrivateFrameworks/DeviceSharing.framework/DeviceSharing](DYLIBS/DeviceSharing.md)
+- [/System/Library/PrivateFrameworks/DeviceSharingEnrollmentServices.framework/DeviceSharingEnrollmentServices](DYLIBS/DeviceSharingEnrollmentServices.md)
+- [/System/Library/PrivateFrameworks/DeviceSharingServices.framework/DeviceSharingServices](DYLIBS/DeviceSharingServices.md)
+- [/System/Library/PrivateFrameworks/DeviceSharingServicesCore.framework/DeviceSharingServicesCore](DYLIBS/DeviceSharingServicesCore.md)
+- [/System/Library/PrivateFrameworks/DiagnosticExtensionsDaemon.framework/DiagnosticExtensionsDaemon](DYLIBS/DiagnosticExtensionsDaemon.md)
+- [/System/Library/PrivateFrameworks/DiagnosticsKit.framework/DiagnosticsKit](DYLIBS/DiagnosticsKit.md)
+- [/System/Library/PrivateFrameworks/DiagnosticsReporterServices.framework/DiagnosticsReporterServices](DYLIBS/DiagnosticsReporterServices.md)
+- [/System/Library/PrivateFrameworks/DialogEngine.framework/DialogEngine](DYLIBS/DialogEngine.md)
+- [/System/Library/PrivateFrameworks/DifferentialPrivacy.framework/DifferentialPrivacy](DYLIBS/DifferentialPrivacy.md)
+- [/System/Library/PrivateFrameworks/DigitalSeparationUI.framework/DigitalSeparationUI](DYLIBS/DigitalSeparationUI.md)
+- [/System/Library/PrivateFrameworks/DistributedTimers.framework/DistributedTimers](DYLIBS/DistributedTimers.md)
+- [/System/Library/PrivateFrameworks/DistributedTimersDaemon.framework/DistributedTimersDaemon](DYLIBS/DistributedTimersDaemon.md)
+- [/System/Library/PrivateFrameworks/DoNotDisturb.framework/DoNotDisturb](DYLIBS/DoNotDisturb.md)
+- [/System/Library/PrivateFrameworks/DoNotDisturbServer.framework/DoNotDisturbServer](DYLIBS/DoNotDisturbServer.md)
+- [/System/Library/PrivateFrameworks/DockKitCore.framework/DockKitCore](DYLIBS/DockKitCore.md)
+- [/System/Library/PrivateFrameworks/DocumentCamera.framework/DocumentCamera](DYLIBS/DocumentCamera.md)
+- [/System/Library/PrivateFrameworks/DocumentManagerCore.framework/DocumentManagerCore](DYLIBS/DocumentManagerCore.md)
+- [/System/Library/PrivateFrameworks/DocumentManagerExecutables.framework/DocumentManagerExecutables](DYLIBS/DocumentManagerExecutables.md)
+- [/System/Library/PrivateFrameworks/DocumentManagerUICore.framework/DocumentManagerUICore](DYLIBS/DocumentManagerUICore.md)
+- [/System/Library/PrivateFrameworks/DocumentUnderstanding.framework/DocumentUnderstanding](DYLIBS/DocumentUnderstanding.md)
+- [/System/Library/PrivateFrameworks/DownloadObtainer.framework/DownloadObtainer](DYLIBS/DownloadObtainer.md)
+- [/System/Library/PrivateFrameworks/DrawingBoard.framework/DrawingBoard](DYLIBS/DrawingBoard.md)
+- [/System/Library/PrivateFrameworks/DropIn.framework/DropIn](DYLIBS/DropIn.md)
+- [/System/Library/PrivateFrameworks/DropInCore.framework/DropInCore](DYLIBS/DropInCore.md)
+- [/System/Library/PrivateFrameworks/Dyld.framework/Dyld](DYLIBS/Dyld.md)
+- [/System/Library/PrivateFrameworks/DynamicPrefetching.framework/DynamicPrefetching](DYLIBS/DynamicPrefetching.md)
+- [/System/Library/PrivateFrameworks/EchoRelay.framework/EchoRelay](DYLIBS/EchoRelay.md)
+- [/System/Library/PrivateFrameworks/EcosystemAnalytics.framework/EcosystemAnalytics](DYLIBS/EcosystemAnalytics.md)
+- [/System/Library/PrivateFrameworks/Email.framework/Email](DYLIBS/Email.md)
+- [/System/Library/PrivateFrameworks/EmailDaemon.framework/EmailDaemon](DYLIBS/EmailDaemon.md)
+- [/System/Library/PrivateFrameworks/EmbeddedAcousticRecognition.framework/EmbeddedAcousticRecognition](DYLIBS/EmbeddedAcousticRecognition.md)
+- [/System/Library/PrivateFrameworks/EmojiPosterFramework.framework/EmojiPosterFramework](DYLIBS/EmojiPosterFramework.md)
+- [/System/Library/PrivateFrameworks/EncoreXPCService.framework/EncoreXPCService](DYLIBS/EncoreXPCService.md)
+- [/System/Library/PrivateFrameworks/EnergyKitInternal.framework/EnergyKitInternal](DYLIBS/EnergyKitInternal.md)
+- [/System/Library/PrivateFrameworks/EnhancedLogging.framework/EnhancedLogging](DYLIBS/EnhancedLogging.md)
+- [/System/Library/PrivateFrameworks/Espresso.framework/Espresso](DYLIBS/Espresso.md)
+- [/System/Library/PrivateFrameworks/FMFCore.framework/FMFCore](DYLIBS/FMFCore.md)
+- [/System/Library/PrivateFrameworks/FMFindingUI.framework/FMFindingUI](DYLIBS/FMFindingUI.md)
+- [/System/Library/PrivateFrameworks/FMIPCore.framework/FMIPCore](DYLIBS/FMIPCore.md)
+- [/System/Library/PrivateFrameworks/FMNetworking.framework/FMNetworking](DYLIBS/FMNetworking.md)
+- [/System/Library/PrivateFrameworks/FaceTimeMessageStore.framework/FaceTimeMessageStore](DYLIBS/FaceTimeMessageStore.md)
+- [/System/Library/PrivateFrameworks/FaceTimeNotificationUI.framework/FaceTimeNotificationUI](DYLIBS/FaceTimeNotificationUI.md)
+- [/System/Library/PrivateFrameworks/FamilyCircle.framework/FamilyCircle](DYLIBS/FamilyCircle.md)
+- [/System/Library/PrivateFrameworks/FamilyCircleUI.framework/FamilyCircleUI](DYLIBS/FamilyCircleUI.md)
+- [/System/Library/PrivateFrameworks/FamilyControlsObjC.framework/FamilyControlsObjC](DYLIBS/FamilyControlsObjC.md)
+- [/System/Library/PrivateFrameworks/FeatureStore.framework/FeatureStore](DYLIBS/FeatureStore.md)
+- [/System/Library/PrivateFrameworks/FedStatsPluginCore.framework/FedStatsPluginCore](DYLIBS/FedStatsPluginCore.md)
+- [/System/Library/PrivateFrameworks/Feedback.framework/Feedback](DYLIBS/Feedback.md)
+- [/System/Library/PrivateFrameworks/FeedbackCore.framework/FeedbackCore](DYLIBS/FeedbackCore.md)
+- [/System/Library/PrivateFrameworks/FeedbackLogger.framework/FeedbackLogger](DYLIBS/FeedbackLogger.md)
+- [/System/Library/PrivateFrameworks/FeedbackService.framework/FeedbackService](DYLIBS/FeedbackService.md)
+- [/System/Library/PrivateFrameworks/FileIndexerDaemon.framework/FileIndexerDaemon](DYLIBS/FileIndexerDaemon.md)
+- [/System/Library/PrivateFrameworks/FileProviderDaemon.framework/FileProviderDaemon](DYLIBS/FileProviderDaemon.md)
+- [/System/Library/PrivateFrameworks/FileProviderResolver.framework/FileProviderResolver](DYLIBS/FileProviderResolver.md)
+- [/System/Library/PrivateFrameworks/FinHealthCore.framework/FinHealthCore](DYLIBS/FinHealthCore.md)
+- [/System/Library/PrivateFrameworks/FinHealthInsights.framework/FinHealthInsights](DYLIBS/FinHealthInsights.md)
+- [/System/Library/PrivateFrameworks/FinanceDaemon.framework/FinanceDaemon](DYLIBS/FinanceDaemon.md)
+- [/System/Library/PrivateFrameworks/FindMyBase.framework/FindMyBase](DYLIBS/FindMyBase.md)
+- [/System/Library/PrivateFrameworks/FindMyBluetooth.framework/FindMyBluetooth](DYLIBS/FindMyBluetooth.md)
+- [/System/Library/PrivateFrameworks/FindMyCloudKit.framework/FindMyCloudKit](DYLIBS/FindMyCloudKit.md)
+- [/System/Library/PrivateFrameworks/FindMyCommon.framework/FindMyCommon](DYLIBS/FindMyCommon.md)
+- [/System/Library/PrivateFrameworks/FindMyCore.framework/FindMyCore](DYLIBS/FindMyCore.md)
+- [/System/Library/PrivateFrameworks/FindMyCrypto.framework/FindMyCrypto](DYLIBS/FindMyCrypto.md)
+- [/System/Library/PrivateFrameworks/FindMyDaemonSupport.framework/FindMyDaemonSupport](DYLIBS/FindMyDaemonSupport.md)
+- [/System/Library/PrivateFrameworks/FindMyLocate.framework/FindMyLocate](DYLIBS/FindMyLocate.md)
+- [/System/Library/PrivateFrameworks/FindMyLocateObjCWrapper.framework/FindMyLocateObjCWrapper](DYLIBS/FindMyLocateObjCWrapper.md)
+- [/System/Library/PrivateFrameworks/FindMyMessaging.framework/FindMyMessaging](DYLIBS/FindMyMessaging.md)
+- [/System/Library/PrivateFrameworks/FindMyPairing.framework/FindMyPairing](DYLIBS/FindMyPairing.md)
+- [/System/Library/PrivateFrameworks/FindMyServerInteraction.framework/FindMyServerInteraction](DYLIBS/FindMyServerInteraction.md)
+- [/System/Library/PrivateFrameworks/FindMyStorage.framework/FindMyStorage](DYLIBS/FindMyStorage.md)
+- [/System/Library/PrivateFrameworks/FindMyUICore.framework/FindMyUICore](DYLIBS/FindMyUICore.md)
+- [/System/Library/PrivateFrameworks/FindMyUnsafeAsyncBridging.framework/FindMyUnsafeAsyncBridging](DYLIBS/FindMyUnsafeAsyncBridging.md)
+- [/System/Library/PrivateFrameworks/Fitness.framework/Fitness](DYLIBS/Fitness.md)
+- [/System/Library/PrivateFrameworks/FitnessActions.framework/FitnessActions](DYLIBS/FitnessActions.md)
+- [/System/Library/PrivateFrameworks/FitnessAsset.framework/FitnessAsset](DYLIBS/FitnessAsset.md)
+- [/System/Library/PrivateFrameworks/FitnessAwards.framework/FitnessAwards](DYLIBS/FitnessAwards.md)
+- [/System/Library/PrivateFrameworks/FitnessBrowsing.framework/FitnessBrowsing](DYLIBS/FitnessBrowsing.md)
+- [/System/Library/PrivateFrameworks/FitnessCanvas.framework/FitnessCanvas](DYLIBS/FitnessCanvas.md)
+- [/System/Library/PrivateFrameworks/FitnessCanvasUI.framework/FitnessCanvasUI](DYLIBS/FitnessCanvasUI.md)
+- [/System/Library/PrivateFrameworks/FitnessCoaching.framework/FitnessCoaching](DYLIBS/FitnessCoaching.md)
+- [/System/Library/PrivateFrameworks/FitnessCoachingServices.framework/FitnessCoachingServices](DYLIBS/FitnessCoachingServices.md)
+- [/System/Library/PrivateFrameworks/FitnessCoreUI.framework/FitnessCoreUI](DYLIBS/FitnessCoreUI.md)
+- [/System/Library/PrivateFrameworks/FitnessDispatch.framework/FitnessDispatch](DYLIBS/FitnessDispatch.md)
+- [/System/Library/PrivateFrameworks/FitnessForYou.framework/FitnessForYou](DYLIBS/FitnessForYou.md)
+- [/System/Library/PrivateFrameworks/FitnessIntelligence.framework/FitnessIntelligence](DYLIBS/FitnessIntelligence.md)
+- [/System/Library/PrivateFrameworks/FitnessIntelligenceDaemonCore.framework/FitnessIntelligenceDaemonCore](DYLIBS/FitnessIntelligenceDaemonCore.md)
+- [/System/Library/PrivateFrameworks/FitnessIntelligenceFeedback.framework/FitnessIntelligenceFeedback](DYLIBS/FitnessIntelligenceFeedback.md)
+- [/System/Library/PrivateFrameworks/FitnessIntelligenceInference.framework/FitnessIntelligenceInference](DYLIBS/FitnessIntelligenceInference.md)
+- [/System/Library/PrivateFrameworks/FitnessIntelligenceSnapshotting.framework/FitnessIntelligenceSnapshotting](DYLIBS/FitnessIntelligenceSnapshotting.md)
+- [/System/Library/PrivateFrameworks/FitnessMachineServices.framework/FitnessMachineServices](DYLIBS/FitnessMachineServices.md)
+- [/System/Library/PrivateFrameworks/FitnessMarketing.framework/FitnessMarketing](DYLIBS/FitnessMarketing.md)
+- [/System/Library/PrivateFrameworks/FitnessSearch.framework/FitnessSearch](DYLIBS/FitnessSearch.md)
+- [/System/Library/PrivateFrameworks/FitnessUI.framework/FitnessUI](DYLIBS/FitnessUI.md)
+- [/System/Library/PrivateFrameworks/FitnessUtilities.framework/FitnessUtilities](DYLIBS/FitnessUtilities.md)
+- [/System/Library/PrivateFrameworks/FitnessWorkoutPlan.framework/FitnessWorkoutPlan](DYLIBS/FitnessWorkoutPlan.md)
+- [/System/Library/PrivateFrameworks/FlightUtilitiesCore.framework/FlightUtilitiesCore](DYLIBS/FlightUtilitiesCore.md)
+- [/System/Library/PrivateFrameworks/FocusSettingsUI.framework/FocusSettingsUI](DYLIBS/FocusSettingsUI.md)
+- [/System/Library/PrivateFrameworks/FontServices.framework/libFontParser.dylib](DYLIBS/libFontParser.dylib.md)
+- [/System/Library/PrivateFrameworks/FontServices.framework/libGSFontCache.dylib](DYLIBS/libGSFontCache.dylib.md)
+- [/System/Library/PrivateFrameworks/FrontBoard.framework/FrontBoard](DYLIBS/FrontBoard.md)
+- [/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/libGPUCompilerImpl.dylib](DYLIBS/libGPUCompilerImpl.dylib.md)
+- [/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/libGPUCompilerImplLazy.dylib](DYLIBS/libGPUCompilerImplLazy.dylib.md)
+- [/System/Library/PrivateFrameworks/GPUToolsReplay.framework/GPUToolsReplay](DYLIBS/GPUToolsReplay.md)
+- [/System/Library/PrivateFrameworks/GPUToolsTransport.framework/GPUToolsTransport](DYLIBS/GPUToolsTransport.md)
+- [/System/Library/PrivateFrameworks/GRDBInternal.framework/GRDBInternal](DYLIBS/GRDBInternal.md)
+- [/System/Library/PrivateFrameworks/GRDBv7Internal.framework/GRDBv7Internal](DYLIBS/GRDBv7Internal.md)
+- [/System/Library/PrivateFrameworks/GRPCCoreInternal.framework/GRPCCoreInternal](DYLIBS/GRPCCoreInternal.md)
+- [/System/Library/PrivateFrameworks/GRPCInProcessTransportInternal.framework/GRPCInProcessTransportInternal](DYLIBS/GRPCInProcessTransportInternal.md)
+- [/System/Library/PrivateFrameworks/GRPCURLSessionTransportInternal.framework/GRPCURLSessionTransportInternal](DYLIBS/GRPCURLSessionTransportInternal.md)
+- [/System/Library/PrivateFrameworks/GameCenterFoundation.framework/GameCenterFoundation](DYLIBS/GameCenterFoundation.md)
+- [/System/Library/PrivateFrameworks/GameCenterServerClient.framework/GameCenterServerClient](DYLIBS/GameCenterServerClient.md)
+- [/System/Library/PrivateFrameworks/GameCenterUI.framework/GameCenterUI](DYLIBS/GameCenterUI.md)
+- [/System/Library/PrivateFrameworks/GameCenterUICore.framework/GameCenterUICore](DYLIBS/GameCenterUICore.md)
+- [/System/Library/PrivateFrameworks/GameControllerSettingsUI.framework/GameControllerSettingsUI](DYLIBS/GameControllerSettingsUI.md)
+- [/System/Library/PrivateFrameworks/GameControllerUI.framework/GameControllerUI](DYLIBS/GameControllerUI.md)
+- [/System/Library/PrivateFrameworks/GamePolicy.framework/GamePolicy](DYLIBS/GamePolicy.md)
+- [/System/Library/PrivateFrameworks/GamePolicyFoundation.framework/GamePolicyFoundation](DYLIBS/GamePolicyFoundation.md)
+- [/System/Library/PrivateFrameworks/GameServices.framework/GameServices](DYLIBS/GameServices.md)
+- [/System/Library/PrivateFrameworks/GameServicesCore.framework/GameServicesCore](DYLIBS/GameServicesCore.md)
+- [/System/Library/PrivateFrameworks/GameStoreKit.framework/GameStoreKit](DYLIBS/GameStoreKit.md)
+- [/System/Library/PrivateFrameworks/GenerativeAssistantActions.framework/GenerativeAssistantActions](DYLIBS/GenerativeAssistantActions.md)
+- [/System/Library/PrivateFrameworks/GenerativeAssistantCommon.framework/GenerativeAssistantCommon](DYLIBS/GenerativeAssistantCommon.md)
+- [/System/Library/PrivateFrameworks/GenerativeAssistantEnablementFlow.framework/GenerativeAssistantEnablementFlow](DYLIBS/GenerativeAssistantEnablementFlow.md)
+- [/System/Library/PrivateFrameworks/GenerativeAssistantSettings.framework/GenerativeAssistantSettings](DYLIBS/GenerativeAssistantSettings.md)
+- [/System/Library/PrivateFrameworks/GenerativeAssistantUI.framework/GenerativeAssistantUI](DYLIBS/GenerativeAssistantUI.md)
+- [/System/Library/PrivateFrameworks/GenerativeExperiences.framework/GenerativeExperiences](DYLIBS/GenerativeExperiences.md)
+- [/System/Library/PrivateFrameworks/GenerativeExperiencesRuntime.framework/GenerativeExperiencesRuntime](DYLIBS/GenerativeExperiencesRuntime.md)
+- [/System/Library/PrivateFrameworks/GenerativeExperiencesUI.framework/GenerativeExperiencesUI](DYLIBS/GenerativeExperiencesUI.md)
+- [/System/Library/PrivateFrameworks/GenerativeFunctions.framework/GenerativeFunctions](DYLIBS/GenerativeFunctions.md)
+- [/System/Library/PrivateFrameworks/GenerativeFunctionsFoundation.framework/GenerativeFunctionsFoundation](DYLIBS/GenerativeFunctionsFoundation.md)
+- [/System/Library/PrivateFrameworks/GenerativeFunctionsInstrumentation.framework/GenerativeFunctionsInstrumentation](DYLIBS/GenerativeFunctionsInstrumentation.md)
+- [/System/Library/PrivateFrameworks/GenerativeModels.framework/GenerativeModels](DYLIBS/GenerativeModels.md)
+- [/System/Library/PrivateFrameworks/GenerativeModelsFoundation.framework/GenerativeModelsFoundation](DYLIBS/GenerativeModelsFoundation.md)
+- [/System/Library/PrivateFrameworks/GenerativePartnerService.framework/GenerativePartnerService](DYLIBS/GenerativePartnerService.md)
+- [/System/Library/PrivateFrameworks/GenerativePartnerServiceUI.framework/GenerativePartnerServiceUI](DYLIBS/GenerativePartnerServiceUI.md)
+- [/System/Library/PrivateFrameworks/GeoAnalytics.framework/GeoAnalytics](DYLIBS/GeoAnalytics.md)
+- [/System/Library/PrivateFrameworks/GeoServices.framework/GeoServices](DYLIBS/GeoServices.md)
+- [/System/Library/PrivateFrameworks/Geometry.framework/Geometry](DYLIBS/Geometry.md)
+- [/System/Library/PrivateFrameworks/Gestures.framework/Gestures](DYLIBS/Gestures.md)
+- [/System/Library/PrivateFrameworks/GradientPosterFramework.framework/GradientPosterFramework](DYLIBS/GradientPosterFramework.md)
+- [/System/Library/PrivateFrameworks/GridZero.framework/GridZero](DYLIBS/GridZero.md)
+- [/System/Library/PrivateFrameworks/HDRProcessing.framework/HDRProcessing](DYLIBS/HDRProcessing.md)
+- [/System/Library/PrivateFrameworks/HIDRMKit.framework/HIDRMKit](DYLIBS/HIDRMKit.md)
+- [/System/Library/PrivateFrameworks/HMFoundation.framework/HMFoundation](DYLIBS/HMFoundation.md)
+- [/System/Library/PrivateFrameworks/HTTPTypesInternal.framework/HTTPTypesInternal](DYLIBS/HTTPTypesInternal.md)
+- [/System/Library/PrivateFrameworks/Hands.framework/Hands](DYLIBS/Hands.md)
+- [/System/Library/PrivateFrameworks/HangTracerSettingsClient.framework/HangTracerSettingsClient](DYLIBS/HangTracerSettingsClient.md)
+- [/System/Library/PrivateFrameworks/HeadGestures.framework/HeadGestures](DYLIBS/HeadGestures.md)
+- [/System/Library/PrivateFrameworks/HeadphoneCommonUIKit.framework/HeadphoneCommonUIKit](DYLIBS/HeadphoneCommonUIKit.md)
+- [/System/Library/PrivateFrameworks/HeadphoneConfigs.framework/HeadphoneConfigs](DYLIBS/HeadphoneConfigs.md)
+- [/System/Library/PrivateFrameworks/HeadphoneManager.framework/HeadphoneManager](DYLIBS/HeadphoneManager.md)
+- [/System/Library/PrivateFrameworks/HeadphoneProxFeatureService.framework/HeadphoneProxFeatureService](DYLIBS/HeadphoneProxFeatureService.md)
+- [/System/Library/PrivateFrameworks/HeadphoneSettings.framework/HeadphoneSettings](DYLIBS/HeadphoneSettings.md)
+- [/System/Library/PrivateFrameworks/HeadphoneSettingsUI.framework/HeadphoneSettingsUI](DYLIBS/HeadphoneSettingsUI.md)
+- [/System/Library/PrivateFrameworks/HealthAppHealthDaemon.framework/HealthAppHealthDaemon](DYLIBS/HealthAppHealthDaemon.md)
+- [/System/Library/PrivateFrameworks/HealthAppHealthDaemonSupport.framework/HealthAppHealthDaemonSupport](DYLIBS/HealthAppHealthDaemonSupport.md)
+- [/System/Library/PrivateFrameworks/HealthAppServices.framework/HealthAppServices](DYLIBS/HealthAppServices.md)
+- [/System/Library/PrivateFrameworks/HealthArticlesGeneration.framework/HealthArticlesGeneration](DYLIBS/HealthArticlesGeneration.md)
+- [/System/Library/PrivateFrameworks/HealthBalance.framework/HealthBalance](DYLIBS/HealthBalance.md)
+- [/System/Library/PrivateFrameworks/HealthBalanceAppPlugin.framework/HealthBalanceAppPlugin](DYLIBS/HealthBalanceAppPlugin.md)
+- [/System/Library/PrivateFrameworks/HealthBalanceDaemon.framework/HealthBalanceDaemon](DYLIBS/HealthBalanceDaemon.md)
+- [/System/Library/PrivateFrameworks/HealthBalanceUI.framework/HealthBalanceUI](DYLIBS/HealthBalanceUI.md)
+- [/System/Library/PrivateFrameworks/HealthCharts.framework/HealthCharts](DYLIBS/HealthCharts.md)
+- [/System/Library/PrivateFrameworks/HealthChartsCore.framework/HealthChartsCore](DYLIBS/HealthChartsCore.md)
+- [/System/Library/PrivateFrameworks/HealthCoaching.framework/HealthCoaching](DYLIBS/HealthCoaching.md)
+- [/System/Library/PrivateFrameworks/HealthDaemon.framework/HealthDaemon](DYLIBS/HealthDaemon.md)
+- [/System/Library/PrivateFrameworks/HealthDaemonFeatures.framework/HealthDaemonFeatures](DYLIBS/HealthDaemonFeatures.md)
+- [/System/Library/PrivateFrameworks/HealthDaemonFoundation.framework/HealthDaemonFoundation](DYLIBS/HealthDaemonFoundation.md)
+- [/System/Library/PrivateFrameworks/HealthDomains.framework/HealthDomains](DYLIBS/HealthDomains.md)
+- [/System/Library/PrivateFrameworks/HealthDomainsDaemon.framework/HealthDomainsDaemon](DYLIBS/HealthDomainsDaemon.md)
+- [/System/Library/PrivateFrameworks/HealthDomainsTools.framework/HealthDomainsTools](DYLIBS/HealthDomainsTools.md)
+- [/System/Library/PrivateFrameworks/HealthDomainsUI.framework/HealthDomainsUI](DYLIBS/HealthDomainsUI.md)
+- [/System/Library/PrivateFrameworks/HealthExperience.framework/HealthExperience](DYLIBS/HealthExperience.md)
+- [/System/Library/PrivateFrameworks/HealthExperienceUI.framework/HealthExperienceUI](DYLIBS/HealthExperienceUI.md)
+- [/System/Library/PrivateFrameworks/HealthExposureNotificationUI.framework/HealthExposureNotificationUI](DYLIBS/HealthExposureNotificationUI.md)
+- [/System/Library/PrivateFrameworks/HealthExpressions.framework/HealthExpressions](DYLIBS/HealthExpressions.md)
+- [/System/Library/PrivateFrameworks/HealthFeatures.framework/HealthFeatures](DYLIBS/HealthFeatures.md)
+- [/System/Library/PrivateFrameworks/HealthHearingDaemon.framework/HealthHearingDaemon](DYLIBS/HealthHearingDaemon.md)
+- [/System/Library/PrivateFrameworks/HealthHeartRateStream.framework/HealthHeartRateStream](DYLIBS/HealthHeartRateStream.md)
+- [/System/Library/PrivateFrameworks/HealthIntents.framework/HealthIntents](DYLIBS/HealthIntents.md)
+- [/System/Library/PrivateFrameworks/HealthKitAdditions.framework/HealthKitAdditions](DYLIBS/HealthKitAdditions.md)
+- [/System/Library/PrivateFrameworks/HealthKitOrchestrationAdditions.framework/HealthKitOrchestrationAdditions](DYLIBS/HealthKitOrchestrationAdditions.md)
+- [/System/Library/PrivateFrameworks/HealthMedicationsExperience.framework/HealthMedicationsExperience](DYLIBS/HealthMedicationsExperience.md)
+- [/System/Library/PrivateFrameworks/HealthMedicationsUI.framework/HealthMedicationsUI](DYLIBS/HealthMedicationsUI.md)
+- [/System/Library/PrivateFrameworks/HealthMedicationsVisionUI.framework/HealthMedicationsVisionUI](DYLIBS/HealthMedicationsVisionUI.md)
+- [/System/Library/PrivateFrameworks/HealthMedicationsWidgetUI.framework/HealthMedicationsWidgetUI](DYLIBS/HealthMedicationsWidgetUI.md)
+- [/System/Library/PrivateFrameworks/HealthMenstrualCycles.framework/HealthMenstrualCycles](DYLIBS/HealthMenstrualCycles.md)
+- [/System/Library/PrivateFrameworks/HealthMenstrualCyclesDaemon.framework/HealthMenstrualCyclesDaemon](DYLIBS/HealthMenstrualCyclesDaemon.md)
+- [/System/Library/PrivateFrameworks/HealthMenstrualCyclesWidgetUI.framework/HealthMenstrualCyclesWidgetUI](DYLIBS/HealthMenstrualCyclesWidgetUI.md)
+- [/System/Library/PrivateFrameworks/HealthMobilityUI.framework/HealthMobilityUI](DYLIBS/HealthMobilityUI.md)
+- [/System/Library/PrivateFrameworks/HealthOntologyDaemonPlugin.framework/HealthOntologyDaemonPlugin](DYLIBS/HealthOntologyDaemonPlugin.md)
+- [/System/Library/PrivateFrameworks/HealthOntologyKit.framework/HealthOntologyKit](DYLIBS/HealthOntologyKit.md)
+- [/System/Library/PrivateFrameworks/HealthOrchestration.framework/HealthOrchestration](DYLIBS/HealthOrchestration.md)
+- [/System/Library/PrivateFrameworks/HealthPlatform.framework/HealthPlatform](DYLIBS/HealthPlatform.md)
+- [/System/Library/PrivateFrameworks/HealthPlatformCatalogUI.framework/HealthPlatformCatalogUI](DYLIBS/HealthPlatformCatalogUI.md)
+- [/System/Library/PrivateFrameworks/HealthPlatformCore.framework/HealthPlatformCore](DYLIBS/HealthPlatformCore.md)
+- [/System/Library/PrivateFrameworks/HealthPlatformFoundation.framework/HealthPlatformFoundation](DYLIBS/HealthPlatformFoundation.md)
+- [/System/Library/PrivateFrameworks/HealthPluginHost.framework/HealthPluginHost](DYLIBS/HealthPluginHost.md)
+- [/System/Library/PrivateFrameworks/HealthRecordsDaemon.framework/HealthRecordsDaemon](DYLIBS/HealthRecordsDaemon.md)
+- [/System/Library/PrivateFrameworks/HealthRecordsExtraction.framework/HealthRecordsExtraction](DYLIBS/HealthRecordsExtraction.md)
+- [/System/Library/PrivateFrameworks/HealthRecordsPlugin.framework/HealthRecordsPlugin](DYLIBS/HealthRecordsPlugin.md)
+- [/System/Library/PrivateFrameworks/HealthRecordsUI.framework/HealthRecordsUI](DYLIBS/HealthRecordsUI.md)
+- [/System/Library/PrivateFrameworks/HealthRecordsWalletSupport.framework/HealthRecordsWalletSupport](DYLIBS/HealthRecordsWalletSupport.md)
+- [/System/Library/PrivateFrameworks/HealthTopics.framework/HealthTopics](DYLIBS/HealthTopics.md)
+- [/System/Library/PrivateFrameworks/HealthTopicsCore.framework/HealthTopicsCore](DYLIBS/HealthTopicsCore.md)
+- [/System/Library/PrivateFrameworks/HealthTopicsDaemonPlugin.framework/HealthTopicsDaemonPlugin](DYLIBS/HealthTopicsDaemonPlugin.md)
+- [/System/Library/PrivateFrameworks/HealthUI.framework/HealthUI](DYLIBS/HealthUI.md)
+- [/System/Library/PrivateFrameworks/HealthVisualization.framework/HealthVisualization](DYLIBS/HealthVisualization.md)
+- [/System/Library/PrivateFrameworks/HearingMLHelper.framework/HearingMLHelper](DYLIBS/HearingMLHelper.md)
+- [/System/Library/PrivateFrameworks/HearingModeSettingsUI.framework/HearingModeSettingsUI](DYLIBS/HearingModeSettingsUI.md)
+- [/System/Library/PrivateFrameworks/HearingModeUI.framework/HearingModeUI](DYLIBS/HearingModeUI.md)
+- [/System/Library/PrivateFrameworks/HearingTest.framework/HearingTest](DYLIBS/HearingTest.md)
+- [/System/Library/PrivateFrameworks/HearingTestUI.framework/HearingTestUI](DYLIBS/HearingTestUI.md)
+- [/System/Library/PrivateFrameworks/HearingUI.framework/HearingUI](DYLIBS/HearingUI.md)
+- [/System/Library/PrivateFrameworks/HearingUtilities.framework/HearingUtilities](DYLIBS/HearingUtilities.md)
+- [/System/Library/PrivateFrameworks/HeartHealth.framework/HeartHealth](DYLIBS/HeartHealth.md)
+- [/System/Library/PrivateFrameworks/HeartHealthDaemon.framework/HeartHealthDaemon](DYLIBS/HeartHealthDaemon.md)
+- [/System/Library/PrivateFrameworks/HeartHealthUI.framework/HeartHealthUI](DYLIBS/HeartHealthUI.md)
+- [/System/Library/PrivateFrameworks/HeartRateCoordinator.framework/HeartRateCoordinator](DYLIBS/HeartRateCoordinator.md)
+- [/System/Library/PrivateFrameworks/HeartRhythmUI.framework/HeartRhythmUI](DYLIBS/HeartRhythmUI.md)
+- [/System/Library/PrivateFrameworks/Home.framework/Home](DYLIBS/Home.md)
+- [/System/Library/PrivateFrameworks/HomeAccessoryControlUI.framework/HomeAccessoryControlUI](DYLIBS/HomeAccessoryControlUI.md)
+- [/System/Library/PrivateFrameworks/HomeAppIntents.framework/HomeAppIntents](DYLIBS/HomeAppIntents.md)
+- [/System/Library/PrivateFrameworks/HomeAutomationInternal.framework/HomeAutomationInternal](DYLIBS/HomeAutomationInternal.md)
+- [/System/Library/PrivateFrameworks/HomeAutomationUIFramework.framework/HomeAutomationUIFramework](DYLIBS/HomeAutomationUIFramework.md)
+- [/System/Library/PrivateFrameworks/HomeCommunicationUIFramework.framework/HomeCommunicationUIFramework](DYLIBS/HomeCommunicationUIFramework.md)
+- [/System/Library/PrivateFrameworks/HomeDataModel.framework/HomeDataModel](DYLIBS/HomeDataModel.md)
+- [/System/Library/PrivateFrameworks/HomeDeviceSetup.framework/HomeDeviceSetup](DYLIBS/HomeDeviceSetup.md)
+- [/System/Library/PrivateFrameworks/HomeEnergyDaemon.framework/HomeEnergyDaemon](DYLIBS/HomeEnergyDaemon.md)
+- [/System/Library/PrivateFrameworks/HomeEnergyUI.framework/HomeEnergyUI](DYLIBS/HomeEnergyUI.md)
+- [/System/Library/PrivateFrameworks/HomeKitClips.framework/HomeKitClips](DYLIBS/HomeKitClips.md)
+- [/System/Library/PrivateFrameworks/HomeKitCore.framework/HomeKitCore](DYLIBS/HomeKitCore.md)
+- [/System/Library/PrivateFrameworks/HomeKitDaemon.framework/HomeKitDaemon](DYLIBS/HomeKitDaemon.md)
+- [/System/Library/PrivateFrameworks/HomeKitDaemonFoundation.framework/HomeKitDaemonFoundation](DYLIBS/HomeKitDaemonFoundation.md)
+- [/System/Library/PrivateFrameworks/HomeKitDaemonLegacy.framework/HomeKitDaemonLegacy](DYLIBS/HomeKitDaemonLegacy.md)
+- [/System/Library/PrivateFrameworks/HomeKitDaemonShared.framework/HomeKitDaemonShared](DYLIBS/HomeKitDaemonShared.md)
+- [/System/Library/PrivateFrameworks/HomeKitEvents.framework/HomeKitEvents](DYLIBS/HomeKitEvents.md)
+- [/System/Library/PrivateFrameworks/HomeKitMatter.framework/HomeKitMatter](DYLIBS/HomeKitMatter.md)
+- [/System/Library/PrivateFrameworks/HomeKitMetrics.framework/HomeKitMetrics](DYLIBS/HomeKitMetrics.md)
+- [/System/Library/PrivateFrameworks/HomeMessagingUtils.framework/HomeMessagingUtils](DYLIBS/HomeMessagingUtils.md)
+- [/System/Library/PrivateFrameworks/HomePodSettings.framework/HomePodSettings](DYLIBS/HomePodSettings.md)
+- [/System/Library/PrivateFrameworks/HomeServices.framework/HomeServices](DYLIBS/HomeServices.md)
+- [/System/Library/PrivateFrameworks/HomeSharing.framework/HomeSharing](DYLIBS/HomeSharing.md)
+- [/System/Library/PrivateFrameworks/HomeUI.framework/HomeUI](DYLIBS/HomeUI.md)
+- [/System/Library/PrivateFrameworks/HomeUI2.framework/HomeUI2](DYLIBS/HomeUI2.md)
+- [/System/Library/PrivateFrameworks/HomeUICommon.framework/HomeUICommon](DYLIBS/HomeUICommon.md)
+- [/System/Library/PrivateFrameworks/HomeUtilityServices.framework/HomeUtilityServices](DYLIBS/HomeUtilityServices.md)
+- [/System/Library/PrivateFrameworks/HomeWidgetIntents.framework/HomeWidgetIntents](DYLIBS/HomeWidgetIntents.md)
+- [/System/Library/PrivateFrameworks/HoverTextUI.framework/HoverTextUI](DYLIBS/HoverTextUI.md)
+- [/System/Library/PrivateFrameworks/HumanUnderstandingFoundation.framework/HumanUnderstandingFoundation](DYLIBS/HumanUnderstandingFoundation.md)
+- [/System/Library/PrivateFrameworks/IDS.framework/IDS](DYLIBS/IDS.md)
+- [/System/Library/PrivateFrameworks/IDSFoundation.framework/IDSFoundation](DYLIBS/IDSFoundation.md)
+- [/System/Library/PrivateFrameworks/IMAssistantCore.framework/IMAssistantCore](DYLIBS/IMAssistantCore.md)
+- [/System/Library/PrivateFrameworks/IMCore.framework/IMCore](DYLIBS/IMCore.md)
+- [/System/Library/PrivateFrameworks/IMCorePipeline.framework/IMCorePipeline](DYLIBS/IMCorePipeline.md)
+- [/System/Library/PrivateFrameworks/IMDPersistence.framework/IMDPersistence](DYLIBS/IMDPersistence.md)
+- [/System/Library/PrivateFrameworks/IMDaemonCore.framework/IMDaemonCore](DYLIBS/IMDaemonCore.md)
+- [/System/Library/PrivateFrameworks/IMFoundation.framework/IMFoundation](DYLIBS/IMFoundation.md)
+- [/System/Library/PrivateFrameworks/IMRCSTransfer.framework/IMRCSTransfer](DYLIBS/IMRCSTransfer.md)
+- [/System/Library/PrivateFrameworks/IMSharedUtilities.framework/IMSharedUtilities](DYLIBS/IMSharedUtilities.md)
+- [/System/Library/PrivateFrameworks/IO80211.framework/IO80211](DYLIBS/IO80211.md)
+- [/System/Library/PrivateFrameworks/IOMobileFramebuffer.framework/IOMobileFramebuffer](DYLIBS/IOMobileFramebuffer.md)
+- [/System/Library/PrivateFrameworks/IPTelephony.framework/Support/libIPTelephony.dylib](DYLIBS/libIPTelephony.dylib.md)
+- [/System/Library/PrivateFrameworks/IconFoundation.framework/IconFoundation](DYLIBS/IconFoundation.md)
+- [/System/Library/PrivateFrameworks/IconRendering.framework/IconRendering](DYLIBS/IconRendering.md)
+- [/System/Library/PrivateFrameworks/IconServices.framework/IconServices](DYLIBS/IconServices.md)
+- [/System/Library/PrivateFrameworks/ImageHarmonizationKit.framework/ImageHarmonizationKit](DYLIBS/ImageHarmonizationKit.md)
+- [/System/Library/PrivateFrameworks/ImagePlaygroundInternal.framework/ImagePlaygroundInternal](DYLIBS/ImagePlaygroundInternal.md)
+- [/System/Library/PrivateFrameworks/InputAccessoriesSettings.framework/InputAccessoriesSettings](DYLIBS/InputAccessoriesSettings.md)
+- [/System/Library/PrivateFrameworks/InputAnalyticsServer.framework/InputAnalyticsServer](DYLIBS/InputAnalyticsServer.md)
+- [/System/Library/PrivateFrameworks/InputToolKitUI.framework/InputToolKitUI](DYLIBS/InputToolKitUI.md)
+- [/System/Library/PrivateFrameworks/InstallCoordination.framework/InstallCoordination](DYLIBS/InstallCoordination.md)
+- [/System/Library/PrivateFrameworks/InstalledContentLibrary.framework/InstalledContentLibrary](DYLIBS/InstalledContentLibrary.md)
+- [/System/Library/PrivateFrameworks/IntelligenceFlow.framework/IntelligenceFlow](DYLIBS/IntelligenceFlow.md)
+- [/System/Library/PrivateFrameworks/IntelligenceFlowAppIntentsPreviewToolSupport.framework/IntelligenceFlowAppIntentsPreviewToolSupport](DYLIBS/IntelligenceFlowAppIntentsPreviewToolSupport.md)
+- [/System/Library/PrivateFrameworks/IntelligenceFlowContext.framework/IntelligenceFlowContext](DYLIBS/IntelligenceFlowContext.md)
+- [/System/Library/PrivateFrameworks/IntelligenceFlowContextRuntime.framework/IntelligenceFlowContextRuntime](DYLIBS/IntelligenceFlowContextRuntime.md)
+- [/System/Library/PrivateFrameworks/IntelligenceFlowFeedbackDataCollector.framework/IntelligenceFlowFeedbackDataCollector](DYLIBS/IntelligenceFlowFeedbackDataCollector.md)
+- [/System/Library/PrivateFrameworks/IntelligenceFlowPlannerRuntime.framework/IntelligenceFlowPlannerRuntime](DYLIBS/IntelligenceFlowPlannerRuntime.md)
+- [/System/Library/PrivateFrameworks/IntelligenceFlowPlannerSupport.framework/IntelligenceFlowPlannerSupport](DYLIBS/IntelligenceFlowPlannerSupport.md)
+- [/System/Library/PrivateFrameworks/IntelligenceFlowRuntime.framework/IntelligenceFlowRuntime](DYLIBS/IntelligenceFlowRuntime.md)
+- [/System/Library/PrivateFrameworks/IntelligenceFlowShared.framework/IntelligenceFlowShared](DYLIBS/IntelligenceFlowShared.md)
+- [/System/Library/PrivateFrameworks/IntelligencePlatform.framework/IntelligencePlatform](DYLIBS/IntelligencePlatform.md)
+- [/System/Library/PrivateFrameworks/IntelligencePlatformCore.framework/IntelligencePlatformCore](DYLIBS/IntelligencePlatformCore.md)
+- [/System/Library/PrivateFrameworks/IntelligencePlatformDataActions.framework/IntelligencePlatformDataActions](DYLIBS/IntelligencePlatformDataActions.md)
+- [/System/Library/PrivateFrameworks/IntelligencePlatformLibrary.framework/IntelligencePlatformLibrary](DYLIBS/IntelligencePlatformLibrary.md)
+- [/System/Library/PrivateFrameworks/IntelligencePlatformQuery.framework/IntelligencePlatformQuery](DYLIBS/IntelligencePlatformQuery.md)
+- [/System/Library/PrivateFrameworks/IntelligenceTasksEngine.framework/IntelligenceTasksEngine](DYLIBS/IntelligenceTasksEngine.md)
+- [/System/Library/PrivateFrameworks/IntelligentRoutingDaemon.framework/IntelligentRoutingDaemon](DYLIBS/IntelligentRoutingDaemon.md)
+- [/System/Library/PrivateFrameworks/IntelligentRoutingMediaBundles.framework/IntelligentRoutingMediaBundles](DYLIBS/IntelligentRoutingMediaBundles.md)
+- [/System/Library/PrivateFrameworks/IntelligentRoutingServices.framework/IntelligentRoutingServices](DYLIBS/IntelligentRoutingServices.md)
+- [/System/Library/PrivateFrameworks/IntelligentTrackingCore.framework/IntelligentTrackingCore](DYLIBS/IntelligentTrackingCore.md)
+- [/System/Library/PrivateFrameworks/IntentRecommendRuntime.framework/IntentRecommendRuntime](DYLIBS/IntentRecommendRuntime.md)
+- [/System/Library/PrivateFrameworks/IntentsCore.framework/IntentsCore](DYLIBS/IntentsCore.md)
+- [/System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf](DYLIBS/InternalSwiftProtobuf.md)
+- [/System/Library/PrivateFrameworks/JITAppKit.framework/JITAppKit](DYLIBS/JITAppKit.md)
+- [/System/Library/PrivateFrameworks/JetCore.framework/JetCore](DYLIBS/JetCore.md)
+- [/System/Library/PrivateFrameworks/JetEngine.framework/JetEngine](DYLIBS/JetEngine.md)
+- [/System/Library/PrivateFrameworks/JetUI.framework/JetUI](DYLIBS/JetUI.md)
+- [/System/Library/PrivateFrameworks/JournalShared.framework/JournalShared](DYLIBS/JournalShared.md)
+- [/System/Library/PrivateFrameworks/KernelManagerLibrary.framework/KernelManagerLibrary](DYLIBS/KernelManagerLibrary.md)
+- [/System/Library/PrivateFrameworks/KnowledgeGraphKit.framework/KnowledgeGraphKit](DYLIBS/KnowledgeGraphKit.md)
+- [/System/Library/PrivateFrameworks/KoaMapper.framework/KoaMapper](DYLIBS/KoaMapper.md)
+- [/System/Library/PrivateFrameworks/LLMCache.framework/LLMCache](DYLIBS/LLMCache.md)
+- [/System/Library/PrivateFrameworks/LanguageModeling.framework/LanguageModeling](DYLIBS/LanguageModeling.md)
+- [/System/Library/PrivateFrameworks/LearnedFeatures.framework/LearnedFeatures](DYLIBS/LearnedFeatures.md)
+- [/System/Library/PrivateFrameworks/LegalAndRegulatorySettingsSupport.framework/LegalAndRegulatorySettingsSupport](DYLIBS/LegalAndRegulatorySettingsSupport.md)
+- [/System/Library/PrivateFrameworks/LiftUI.framework/LiftUI](DYLIBS/LiftUI.md)
+- [/System/Library/PrivateFrameworks/LighthouseAV.framework/LighthouseAV](DYLIBS/LighthouseAV.md)
+- [/System/Library/PrivateFrameworks/LighthouseBackground.framework/LighthouseBackground](DYLIBS/LighthouseBackground.md)
+- [/System/Library/PrivateFrameworks/LighthouseDataProcessor.framework/LighthouseDataProcessor](DYLIBS/LighthouseDataProcessor.md)
+- [/System/Library/PrivateFrameworks/LighthouseQuartz.framework/LighthouseQuartz](DYLIBS/LighthouseQuartz.md)
+- [/System/Library/PrivateFrameworks/LighthouseServicesAnalyticsFramework.framework/LighthouseServicesAnalyticsFramework](DYLIBS/LighthouseServicesAnalyticsFramework.md)
+- [/System/Library/PrivateFrameworks/LinkMetadata.framework/LinkMetadata](DYLIBS/LinkMetadata.md)
+- [/System/Library/PrivateFrameworks/LinkPresentationStyleSheetParsing.framework/LinkPresentationStyleSheetParsing](DYLIBS/LinkPresentationStyleSheetParsing.md)
+- [/System/Library/PrivateFrameworks/LinkServices.framework/LinkServices](DYLIBS/LinkServices.md)
+- [/System/Library/PrivateFrameworks/LiveExecutionResultsProbe.framework/LiveExecutionResultsProbe](DYLIBS/LiveExecutionResultsProbe.md)
+- [/System/Library/PrivateFrameworks/LiveSpeechUI.framework/LiveSpeechUI](DYLIBS/LiveSpeechUI.md)
+- [/System/Library/PrivateFrameworks/LiveTranscription.framework/LiveTranscription](DYLIBS/LiveTranscription.md)
+- [/System/Library/PrivateFrameworks/LocalAuthenticationCore.framework/LocalAuthenticationCore](DYLIBS/LocalAuthenticationCore.md)
+- [/System/Library/PrivateFrameworks/LocalAuthenticationCoreUI.framework/LocalAuthenticationCoreUI](DYLIBS/LocalAuthenticationCoreUI.md)
+- [/System/Library/PrivateFrameworks/LocalAuthenticationCredentialServices.framework/LocalAuthenticationCredentialServices](DYLIBS/LocalAuthenticationCredentialServices.md)
+- [/System/Library/PrivateFrameworks/LocalAuthenticationPreboard.framework/LocalAuthenticationPreboard](DYLIBS/LocalAuthenticationPreboard.md)
+- [/System/Library/PrivateFrameworks/LocalStatusKit.framework/LocalStatusKit](DYLIBS/LocalStatusKit.md)
+- [/System/Library/PrivateFrameworks/LocationSupport.framework/LocationSupport](DYLIBS/LocationSupport.md)
+- [/System/Library/PrivateFrameworks/MCCFoundation.framework/MCCFoundation](DYLIBS/MCCFoundation.md)
+- [/System/Library/PrivateFrameworks/MCCKitCategorization.framework/MCCKitCategorization](DYLIBS/MCCKitCategorization.md)
+- [/System/Library/PrivateFrameworks/MLModelAsset.framework/MLModelAsset](DYLIBS/MLModelAsset.md)
+- [/System/Library/PrivateFrameworks/MLModelSpecification.framework/MLModelSpecification](DYLIBS/MLModelSpecification.md)
+- [/System/Library/PrivateFrameworks/MTInferenceToolLib.framework/MTInferenceToolLib](DYLIBS/MTInferenceToolLib.md)
+- [/System/Library/PrivateFrameworks/MagnifierSupport.framework/MagnifierSupport](DYLIBS/MagnifierSupport.md)
+- [/System/Library/PrivateFrameworks/MailSearchSchemaManifest.framework/MailSearchSchemaManifest](DYLIBS/MailSearchSchemaManifest.md)
+- [/System/Library/PrivateFrameworks/MailServices.framework/MailServices](DYLIBS/MailServices.md)
+- [/System/Library/PrivateFrameworks/MailSupport.framework/MailSupport](DYLIBS/MailSupport.md)
+- [/System/Library/PrivateFrameworks/MailUI.framework/MailUI](DYLIBS/MailUI.md)
+- [/System/Library/PrivateFrameworks/ManagedAppsCore.framework/ManagedAppsCore](DYLIBS/ManagedAppsCore.md)
+- [/System/Library/PrivateFrameworks/ManagedAppsInterface.framework/ManagedAppsInterface](DYLIBS/ManagedAppsInterface.md)
+- [/System/Library/PrivateFrameworks/ManagedBackgroundAssets.framework/ManagedBackgroundAssets](DYLIBS/ManagedBackgroundAssets.md)
+- [/System/Library/PrivateFrameworks/ManagedBackgroundAssetsHelper.framework/ManagedBackgroundAssetsHelper](DYLIBS/ManagedBackgroundAssetsHelper.md)
+- [/System/Library/PrivateFrameworks/ManagedBackgroundAssetsHelperFetching.framework/ManagedBackgroundAssetsHelperFetching](DYLIBS/ManagedBackgroundAssetsHelperFetching.md)
+- [/System/Library/PrivateFrameworks/ManagedBackgroundAssetsXPC.framework/ManagedBackgroundAssetsXPC](DYLIBS/ManagedBackgroundAssetsXPC.md)
+- [/System/Library/PrivateFrameworks/ManagedSettingsObjC.framework/ManagedSettingsObjC](DYLIBS/ManagedSettingsObjC.md)
+- [/System/Library/PrivateFrameworks/MapsDesign.framework/MapsDesign](DYLIBS/MapsDesign.md)
+- [/System/Library/PrivateFrameworks/MapsIntelligence.framework/MapsIntelligence](DYLIBS/MapsIntelligence.md)
+- [/System/Library/PrivateFrameworks/MapsSuggestions.framework/MapsSuggestions](DYLIBS/MapsSuggestions.md)
+- [/System/Library/PrivateFrameworks/MapsSync.framework/MapsSync](DYLIBS/MapsSync.md)
+- [/System/Library/PrivateFrameworks/MapsUI.framework/MapsUI](DYLIBS/MapsUI.md)
+- [/System/Library/PrivateFrameworks/Marrs.framework/Marrs](DYLIBS/Marrs.md)
+- [/System/Library/PrivateFrameworks/MeasureFoundation.framework/MeasureFoundation](DYLIBS/MeasureFoundation.md)
+- [/System/Library/PrivateFrameworks/MediaAnalysis.framework/MediaAnalysis](DYLIBS/MediaAnalysis.md)
+- [/System/Library/PrivateFrameworks/MediaContinuityKit.framework/MediaContinuityKit](DYLIBS/MediaContinuityKit.md)
+- [/System/Library/PrivateFrameworks/MediaControl.framework/MediaControl](DYLIBS/MediaControl.md)
+- [/System/Library/PrivateFrameworks/MediaControlSender.framework/MediaControlSender](DYLIBS/MediaControlSender.md)
+- [/System/Library/PrivateFrameworks/MediaControls.framework/MediaControls](DYLIBS/MediaControls.md)
+- [/System/Library/PrivateFrameworks/MediaCoreUI.framework/MediaCoreUI](DYLIBS/MediaCoreUI.md)
+- [/System/Library/PrivateFrameworks/MediaExperience.framework/MediaExperience](DYLIBS/MediaExperience.md)
+- [/System/Library/PrivateFrameworks/MediaML.framework/MediaML](DYLIBS/MediaML.md)
+- [/System/Library/PrivateFrameworks/MediaMLServices.framework/MediaMLServices](DYLIBS/MediaMLServices.md)
+- [/System/Library/PrivateFrameworks/MediaMiningKit.framework/MediaMiningKit](DYLIBS/MediaMiningKit.md)
+- [/System/Library/PrivateFrameworks/MediaPlaybackCore.framework/MediaPlaybackCore](DYLIBS/MediaPlaybackCore.md)
+- [/System/Library/PrivateFrameworks/MediaRemote.framework/MediaRemote](DYLIBS/MediaRemote.md)
+- [/System/Library/PrivateFrameworks/MediaSuggester.framework/MediaSuggester](DYLIBS/MediaSuggester.md)
+- [/System/Library/PrivateFrameworks/MediaTokens.framework/MediaTokens](DYLIBS/MediaTokens.md)
+- [/System/Library/PrivateFrameworks/MedicalIDUI.framework/MedicalIDUI](DYLIBS/MedicalIDUI.md)
+- [/System/Library/PrivateFrameworks/MedicationsHealthAppPlugin.framework/MedicationsHealthAppPlugin](DYLIBS/MedicationsHealthAppPlugin.md)
+- [/System/Library/PrivateFrameworks/MemoryAccounting.framework/MemoryAccounting](DYLIBS/MemoryAccounting.md)
+- [/System/Library/PrivateFrameworks/MemoryDiagnostics.framework/MemoryDiagnostics](DYLIBS/MemoryDiagnostics.md)
+- [/System/Library/PrivateFrameworks/MentalHealthDaemon.framework/MentalHealthDaemon](DYLIBS/MentalHealthDaemon.md)
+- [/System/Library/PrivateFrameworks/MentalHealthUI.framework/MentalHealthUI](DYLIBS/MentalHealthUI.md)
+- [/System/Library/PrivateFrameworks/MentalHealthWidgetUI.framework/MentalHealthWidgetUI](DYLIBS/MentalHealthWidgetUI.md)
+- [/System/Library/PrivateFrameworks/Mercury.framework/Mercury](DYLIBS/Mercury.md)
+- [/System/Library/PrivateFrameworks/Message.framework/Message](DYLIBS/Message.md)
+- [/System/Library/PrivateFrameworks/MessageProtection.framework/MessageProtection](DYLIBS/MessageProtection.md)
+- [/System/Library/PrivateFrameworks/MessagesBlastDoorSupport.framework/MessagesBlastDoorSupport](DYLIBS/MessagesBlastDoorSupport.md)
+- [/System/Library/PrivateFrameworks/MessagesCloudSync.framework/MessagesCloudSync](DYLIBS/MessagesCloudSync.md)
+- [/System/Library/PrivateFrameworks/MetadataUtilities.framework/MetadataUtilities](DYLIBS/MetadataUtilities.md)
+- [/System/Library/PrivateFrameworks/MetalTools.framework/MetalTools](DYLIBS/MetalTools.md)
+- [/System/Library/PrivateFrameworks/MetricKitCore.framework/MetricKitCore](DYLIBS/MetricKitCore.md)
+- [/System/Library/PrivateFrameworks/MetricKitServices.framework/MetricKitServices](DYLIBS/MetricKitServices.md)
+- [/System/Library/PrivateFrameworks/MetricKitSource.framework/MetricKitSource](DYLIBS/MetricKitSource.md)
+- [/System/Library/PrivateFrameworks/MetricMeasurement.framework/MetricMeasurement](DYLIBS/MetricMeasurement.md)
+- [/System/Library/PrivateFrameworks/MetricsFramework.framework/MetricsFramework](DYLIBS/MetricsFramework.md)
+- [/System/Library/PrivateFrameworks/MicroFindMy.framework/MicroFindMy](DYLIBS/MicroFindMy.md)
+- [/System/Library/PrivateFrameworks/MicroLocationDaemon.framework/MicroLocationDaemon](DYLIBS/MicroLocationDaemon.md)
+- [/System/Library/PrivateFrameworks/MicroLocationKit.framework/MicroLocationKit](DYLIBS/MicroLocationKit.md)
+- [/System/Library/PrivateFrameworks/MigrationKit.framework/MigrationKit](DYLIBS/MigrationKit.md)
+- [/System/Library/PrivateFrameworks/MobileActivation.framework/MobileActivation](DYLIBS/MobileActivation.md)
+- [/System/Library/PrivateFrameworks/MobileAsset.framework/MobileAsset](DYLIBS/MobileAsset.md)
+- [/System/Library/PrivateFrameworks/MobileAssetDaemon.framework/MobileAssetDaemon](DYLIBS/MobileAssetDaemon.md)
+- [/System/Library/PrivateFrameworks/MobileBackup.framework/MobileBackup](DYLIBS/MobileBackup.md)
+- [/System/Library/PrivateFrameworks/MobileBluetooth.framework/MobileBluetooth](DYLIBS/MobileBluetooth.md)
+- [/System/Library/PrivateFrameworks/MobileIdentityServiceUI.framework/MobileIdentityServiceUI](DYLIBS/MobileIdentityServiceUI.md)
+- [/System/Library/PrivateFrameworks/MobileInBoxUpdate.framework/MobileInBoxUpdate](DYLIBS/MobileInBoxUpdate.md)
+- [/System/Library/PrivateFrameworks/MobileMailUI.framework/MobileMailUI](DYLIBS/MobileMailUI.md)
+- [/System/Library/PrivateFrameworks/MobileMulticastTransfer.framework/MobileMulticastTransfer](DYLIBS/MobileMulticastTransfer.md)
+- [/System/Library/PrivateFrameworks/MobileSafari.framework/MobileSafari](DYLIBS/MobileSafari.md)
+- [/System/Library/PrivateFrameworks/MobileSafariUI.framework/MobileSafariUI](DYLIBS/MobileSafariUI.md)
+- [/System/Library/PrivateFrameworks/MobileStoreUI.framework/MobileStoreUI](DYLIBS/MobileStoreUI.md)
+- [/System/Library/PrivateFrameworks/MobileTimer.framework/MobileTimer](DYLIBS/MobileTimer.md)
+- [/System/Library/PrivateFrameworks/MobileTimerSupport.framework/MobileTimerSupport](DYLIBS/MobileTimerSupport.md)
+- [/System/Library/PrivateFrameworks/MobileTimerUISupport.framework/MobileTimerUISupport](DYLIBS/MobileTimerUISupport.md)
+- [/System/Library/PrivateFrameworks/MobileWiFi.framework/MobileWiFi](DYLIBS/MobileWiFi.md)
+- [/System/Library/PrivateFrameworks/ModelCatalog.framework/ModelCatalog](DYLIBS/ModelCatalog.md)
+- [/System/Library/PrivateFrameworks/ModelCatalogRuntime.framework/ModelCatalogRuntime](DYLIBS/ModelCatalogRuntime.md)
+- [/System/Library/PrivateFrameworks/ModelManagerServices.framework/ModelManagerServices](DYLIBS/ModelManagerServices.md)
+- [/System/Library/PrivateFrameworks/MomentsUI.framework/MomentsUI](DYLIBS/MomentsUI.md)
+- [/System/Library/PrivateFrameworks/Morpheus.framework/Morpheus](DYLIBS/Morpheus.md)
+- [/System/Library/PrivateFrameworks/MorpheusExtensions.framework/MorpheusExtensions](DYLIBS/MorpheusExtensions.md)
+- [/System/Library/PrivateFrameworks/MultitouchSupport.framework/MultitouchSupport](DYLIBS/MultitouchSupport.md)
+- [/System/Library/PrivateFrameworks/MusicCarDisplayUI.framework/MusicCarDisplayUI](DYLIBS/MusicCarDisplayUI.md)
+- [/System/Library/PrivateFrameworks/MusicKitInternal.framework/MusicKitInternal](DYLIBS/MusicKitInternal.md)
+- [/System/Library/PrivateFrameworks/MusicKitPlaybackSupport.framework/MusicKitPlaybackSupport](DYLIBS/MusicKitPlaybackSupport.md)
+- [/System/Library/PrivateFrameworks/MusicLibrary.framework/MusicLibrary](DYLIBS/MusicLibrary.md)
+- [/System/Library/PrivateFrameworks/MusicStoreUI.framework/MusicStoreUI](DYLIBS/MusicStoreUI.md)
+- [/System/Library/PrivateFrameworks/MusicUI.framework/MusicUI](DYLIBS/MusicUI.md)
+- [/System/Library/PrivateFrameworks/NDOAPI.framework/NDOAPI](DYLIBS/NDOAPI.md)
+- [/System/Library/PrivateFrameworks/NDOUI.framework/NDOUI](DYLIBS/NDOUI.md)
+- [/System/Library/PrivateFrameworks/NPTKit.framework/NPTKit](DYLIBS/NPTKit.md)
+- [/System/Library/PrivateFrameworks/NameRecognition.framework/NameRecognition](DYLIBS/NameRecognition.md)
+- [/System/Library/PrivateFrameworks/NanoControlCenter.framework/NanoControlCenter](DYLIBS/NanoControlCenter.md)
+- [/System/Library/PrivateFrameworks/NanoFaceGallery.framework/NanoFaceGallery](DYLIBS/NanoFaceGallery.md)
+- [/System/Library/PrivateFrameworks/NanoHomeIntents.framework/NanoHomeIntents](DYLIBS/NanoHomeIntents.md)
+- [/System/Library/PrivateFrameworks/NanoHomeScreenUIServices.framework/NanoHomeScreenUIServices](DYLIBS/NanoHomeScreenUIServices.md)
+- [/System/Library/PrivateFrameworks/NanoMailCompanionUI.framework/NanoMailCompanionUI](DYLIBS/NanoMailCompanionUI.md)
+- [/System/Library/PrivateFrameworks/NanoMailKitServer.framework/NanoMailKitServer](DYLIBS/NanoMailKitServer.md)
+- [/System/Library/PrivateFrameworks/NanoMediaAPI.framework/NanoMediaAPI](DYLIBS/NanoMediaAPI.md)
+- [/System/Library/PrivateFrameworks/NanoMusicSync.framework/NanoMusicSync](DYLIBS/NanoMusicSync.md)
+- [/System/Library/PrivateFrameworks/NanoPassKit.framework/NanoPassKit](DYLIBS/NanoPassKit.md)
+- [/System/Library/PrivateFrameworks/NanoSmartStackProactiveSuggestions.framework/NanoSmartStackProactiveSuggestions](DYLIBS/NanoSmartStackProactiveSuggestions.md)
+- [/System/Library/PrivateFrameworks/NanoSystemSettings.framework/NanoSystemSettings](DYLIBS/NanoSystemSettings.md)
+- [/System/Library/PrivateFrameworks/NanoTimeKit.framework/NanoTimeKit](DYLIBS/NanoTimeKit.md)
+- [/System/Library/PrivateFrameworks/NanoTimeKitCompanion.framework/NanoTimeKitCompanion](DYLIBS/NanoTimeKitCompanion.md)
+- [/System/Library/PrivateFrameworks/NanoUniverse.framework/NanoUniverse](DYLIBS/NanoUniverse.md)
+- [/System/Library/PrivateFrameworks/NanoWeatherKitUICompanion.framework/NanoWeatherKitUICompanion](DYLIBS/NanoWeatherKitUICompanion.md)
+- [/System/Library/PrivateFrameworks/Navigation.framework/Navigation](DYLIBS/Navigation.md)
+- [/System/Library/PrivateFrameworks/NearbySessions.framework/NearbySessions](DYLIBS/NearbySessions.md)
+- [/System/Library/PrivateFrameworks/NeighborhoodActivityConduit.framework/NeighborhoodActivityConduit](DYLIBS/NeighborhoodActivityConduit.md)
+- [/System/Library/PrivateFrameworks/Netrb.framework/Netrb](DYLIBS/Netrb.md)
+- [/System/Library/PrivateFrameworks/NetworkInfo.framework/NetworkInfo](DYLIBS/NetworkInfo.md)
+- [/System/Library/PrivateFrameworks/NeuralNetworks.framework/NeuralNetworks](DYLIBS/NeuralNetworks.md)
+- [/System/Library/PrivateFrameworks/NewDeviceOutreach.framework/NewDeviceOutreach](DYLIBS/NewDeviceOutreach.md)
+- [/System/Library/PrivateFrameworks/NewDeviceOutreachUI.framework/NewDeviceOutreachUI](DYLIBS/NewDeviceOutreachUI.md)
+- [/System/Library/PrivateFrameworks/NewsAds.framework/NewsAds](DYLIBS/NewsAds.md)
+- [/System/Library/PrivateFrameworks/NewsAnalytics.framework/NewsAnalytics](DYLIBS/NewsAnalytics.md)
+- [/System/Library/PrivateFrameworks/NewsAnalyticsUpload.framework/NewsAnalyticsUpload](DYLIBS/NewsAnalyticsUpload.md)
+- [/System/Library/PrivateFrameworks/NewsArticles.framework/NewsArticles](DYLIBS/NewsArticles.md)
+- [/System/Library/PrivateFrameworks/NewsCore.framework/NewsCore](DYLIBS/NewsCore.md)
+- [/System/Library/PrivateFrameworks/NewsDaemon.framework/NewsDaemon](DYLIBS/NewsDaemon.md)
+- [/System/Library/PrivateFrameworks/NewsEngagement.framework/NewsEngagement](DYLIBS/NewsEngagement.md)
+- [/System/Library/PrivateFrameworks/NewsEngagementCollector.framework/NewsEngagementCollector](DYLIBS/NewsEngagementCollector.md)
+- [/System/Library/PrivateFrameworks/NewsFeed.framework/NewsFeed](DYLIBS/NewsFeed.md)
+- [/System/Library/PrivateFrameworks/NewsKit.framework/NewsKit](DYLIBS/NewsKit.md)
+- [/System/Library/PrivateFrameworks/NewsLiveActivitiesCore.framework/NewsLiveActivitiesCore](DYLIBS/NewsLiveActivitiesCore.md)
+- [/System/Library/PrivateFrameworks/NewsPersonalization.framework/NewsPersonalization](DYLIBS/NewsPersonalization.md)
+- [/System/Library/PrivateFrameworks/NewsSubscription.framework/NewsSubscription](DYLIBS/NewsSubscription.md)
+- [/System/Library/PrivateFrameworks/NewsToday.framework/NewsToday](DYLIBS/NewsToday.md)
+- [/System/Library/PrivateFrameworks/NewsUI.framework/NewsUI](DYLIBS/NewsUI.md)
+- [/System/Library/PrivateFrameworks/NewsUI2.framework/NewsUI2](DYLIBS/NewsUI2.md)
+- [/System/Library/PrivateFrameworks/NewsURLBucket.framework/NewsURLBucket](DYLIBS/NewsURLBucket.md)
+- [/System/Library/PrivateFrameworks/Nexus.framework/Nexus](DYLIBS/Nexus.md)
+- [/System/Library/PrivateFrameworks/NexusDaemon.framework/NexusDaemon](DYLIBS/NexusDaemon.md)
+- [/System/Library/PrivateFrameworks/NightingaleTraining.framework/NightingaleTraining](DYLIBS/NightingaleTraining.md)
+- [/System/Library/PrivateFrameworks/Notes.framework/Notes](DYLIBS/Notes.md)
+- [/System/Library/PrivateFrameworks/NotesAnalytics.framework/NotesAnalytics](DYLIBS/NotesAnalytics.md)
+- [/System/Library/PrivateFrameworks/NotesEditor.framework/NotesEditor](DYLIBS/NotesEditor.md)
+- [/System/Library/PrivateFrameworks/NotesPreviewKit.framework/NotesPreviewKit](DYLIBS/NotesPreviewKit.md)
+- [/System/Library/PrivateFrameworks/NotesShared.framework/NotesShared](DYLIBS/NotesShared.md)
+- [/System/Library/PrivateFrameworks/NotesSiriUI.framework/NotesSiriUI](DYLIBS/NotesSiriUI.md)
+- [/System/Library/PrivateFrameworks/NotesSupport.framework/NotesSupport](DYLIBS/NotesSupport.md)
+- [/System/Library/PrivateFrameworks/NotesUI.framework/NotesUI](DYLIBS/NotesUI.md)
+- [/System/Library/PrivateFrameworks/ODCurareAnalysis.framework/ODCurareAnalysis](DYLIBS/ODCurareAnalysis.md)
+- [/System/Library/PrivateFrameworks/ODCurareEvaluationAndReporting.framework/ODCurareEvaluationAndReporting](DYLIBS/ODCurareEvaluationAndReporting.md)
+- [/System/Library/PrivateFrameworks/ODDAnalytics.framework/ODDAnalytics](DYLIBS/ODDAnalytics.md)
+- [/System/Library/PrivateFrameworks/ODDIFramework.framework/ODDIFramework](DYLIBS/ODDIFramework.md)
+- [/System/Library/PrivateFrameworks/ODIE.framework/ODIE](DYLIBS/ODIE.md)
+- [/System/Library/PrivateFrameworks/OSAnalytics.framework/OSAnalytics](DYLIBS/OSAnalytics.md)
+- [/System/Library/PrivateFrameworks/OSEligibility.framework/OSEligibility](DYLIBS/OSEligibility.md)
+- [/System/Library/PrivateFrameworks/OSIntelligence.framework/OSIntelligence](DYLIBS/OSIntelligence.md)
+- [/System/Library/PrivateFrameworks/OmniSearch.framework/OmniSearch](DYLIBS/OmniSearch.md)
+- [/System/Library/PrivateFrameworks/OmniSearchClient.framework/OmniSearchClient](DYLIBS/OmniSearchClient.md)
+- [/System/Library/PrivateFrameworks/OmniSearchTypes.framework/OmniSearchTypes](DYLIBS/OmniSearchTypes.md)
+- [/System/Library/PrivateFrameworks/OnBoardingKit.framework/OnBoardingKit](DYLIBS/OnBoardingKit.md)
+- [/System/Library/PrivateFrameworks/OnDeviceStorage.framework/OnDeviceStorage](DYLIBS/OnDeviceStorage.md)
+- [/System/Library/PrivateFrameworks/OnDeviceStorageCore.framework/OnDeviceStorageCore](DYLIBS/OnDeviceStorageCore.md)
+- [/System/Library/PrivateFrameworks/OpenAPIRuntimeInternal.framework/OpenAPIRuntimeInternal](DYLIBS/OpenAPIRuntimeInternal.md)
+- [/System/Library/PrivateFrameworks/Osprey.framework/Osprey](DYLIBS/Osprey.md)
+- [/System/Library/PrivateFrameworks/PCCAgentClientCommon.framework/PCCAgentClientCommon](DYLIBS/PCCAgentClientCommon.md)
+- [/System/Library/PrivateFrameworks/PLSnapshot.framework/PLSnapshot](DYLIBS/PLSnapshot.md)
+- [/System/Library/PrivateFrameworks/PairedDeviceRegistry.framework/PairedDeviceRegistry](DYLIBS/PairedDeviceRegistry.md)
+- [/System/Library/PrivateFrameworks/PartnerVisualSearch.framework/PartnerVisualSearch](DYLIBS/PartnerVisualSearch.md)
+- [/System/Library/PrivateFrameworks/PassKitCore.framework/PassKitCore](DYLIBS/PassKitCore.md)
+- [/System/Library/PrivateFrameworks/PassKitUI.framework/PassKitUI](DYLIBS/PassKitUI.md)
+- [/System/Library/PrivateFrameworks/PassKitUIFoundation.framework/PassKitUIFoundation](DYLIBS/PassKitUIFoundation.md)
+- [/System/Library/PrivateFrameworks/PasscodeAndBiometricsSettings.framework/PasscodeAndBiometricsSettings](DYLIBS/PasscodeAndBiometricsSettings.md)
+- [/System/Library/PrivateFrameworks/PasswordManagerUI.framework/PasswordManagerUI](DYLIBS/PasswordManagerUI.md)
+- [/System/Library/PrivateFrameworks/PaymentUIBase.framework/PaymentUIBase](DYLIBS/PaymentUIBase.md)
+- [/System/Library/PrivateFrameworks/Pegasus.framework/Pegasus](DYLIBS/Pegasus.md)
+- [/System/Library/PrivateFrameworks/PegasusAPI.framework/PegasusAPI](DYLIBS/PegasusAPI.md)
+- [/System/Library/PrivateFrameworks/PegasusConfiguration.framework/PegasusConfiguration](DYLIBS/PegasusConfiguration.md)
+- [/System/Library/PrivateFrameworks/PegasusKit.framework/PegasusKit](DYLIBS/PegasusKit.md)
+- [/System/Library/PrivateFrameworks/PegasusPersistence.framework/PegasusPersistence](DYLIBS/PegasusPersistence.md)
+- [/System/Library/PrivateFrameworks/PencilPairingUI.framework/PencilPairingUI](DYLIBS/PencilPairingUI.md)
+- [/System/Library/PrivateFrameworks/People.framework/People](DYLIBS/People.md)
+- [/System/Library/PrivateFrameworks/PeopleSuggester.framework/PeopleSuggester](DYLIBS/PeopleSuggester.md)
+- [/System/Library/PrivateFrameworks/PeopleUI.framework/PeopleUI](DYLIBS/PeopleUI.md)
+- [/System/Library/PrivateFrameworks/PerfPowerServicesMetadata.framework/PerfPowerServicesMetadata](DYLIBS/PerfPowerServicesMetadata.md)
+- [/System/Library/PrivateFrameworks/PersistentConnection.framework/PersistentConnection](DYLIBS/PersistentConnection.md)
+- [/System/Library/PrivateFrameworks/PersonalAudio.framework/PersonalAudio](DYLIBS/PersonalAudio.md)
+- [/System/Library/PrivateFrameworks/PersonalIntelligenceCore.framework/PersonalIntelligenceCore](DYLIBS/PersonalIntelligenceCore.md)
+- [/System/Library/PrivateFrameworks/PersonalSearch.framework/PersonalSearch](DYLIBS/PersonalSearch.md)
+- [/System/Library/PrivateFrameworks/PersonalSearchService.framework/PersonalSearchService](DYLIBS/PersonalSearchService.md)
+- [/System/Library/PrivateFrameworks/PersonalSearchTypes.framework/PersonalSearchTypes](DYLIBS/PersonalSearchTypes.md)
+- [/System/Library/PrivateFrameworks/PersonalizationPortraitInternals.framework/PersonalizationPortraitInternals](DYLIBS/PersonalizationPortraitInternals.md)
+- [/System/Library/PrivateFrameworks/PhoneKit.framework/PhoneKit](DYLIBS/PhoneKit.md)
+- [/System/Library/PrivateFrameworks/PhoneSnippetUI.framework/PhoneSnippetUI](DYLIBS/PhoneSnippetUI.md)
+- [/System/Library/PrivateFrameworks/PhotoAnalysis.framework/PhotoAnalysis](DYLIBS/PhotoAnalysis.md)
+- [/System/Library/PrivateFrameworks/PhotoImaging.framework/PhotoImaging](DYLIBS/PhotoImaging.md)
+- [/System/Library/PrivateFrameworks/PhotoLibraryServices.framework/PhotoLibraryServices](DYLIBS/PhotoLibraryServices.md)
+- [/System/Library/PrivateFrameworks/PhotoLibraryServicesCore.framework/PhotoLibraryServicesCore](DYLIBS/PhotoLibraryServicesCore.md)
+- [/System/Library/PrivateFrameworks/PhotosFace.framework/PhotosFace](DYLIBS/PhotosFace.md)
+- [/System/Library/PrivateFrameworks/PhotosGraph.framework/PhotosGraph](DYLIBS/PhotosGraph.md)
+- [/System/Library/PrivateFrameworks/PhotosIntelligence.framework/PhotosIntelligence](DYLIBS/PhotosIntelligence.md)
+- [/System/Library/PrivateFrameworks/PhotosIntelligenceCore.framework/PhotosIntelligenceCore](DYLIBS/PhotosIntelligenceCore.md)
+- [/System/Library/PrivateFrameworks/PhotosSpatialMedia.framework/PhotosSpatialMedia](DYLIBS/PhotosSpatialMedia.md)
+- [/System/Library/PrivateFrameworks/PhotosSpatialMediaCore.framework/PhotosSpatialMediaCore](DYLIBS/PhotosSpatialMediaCore.md)
+- [/System/Library/PrivateFrameworks/PhotosSwiftUICore.framework/PhotosSwiftUICore](DYLIBS/PhotosSwiftUICore.md)
+- [/System/Library/PrivateFrameworks/PhotosUICore.framework/PhotosUICore](DYLIBS/PhotosUICore.md)
+- [/System/Library/PrivateFrameworks/PhotosUIEdit.framework/PhotosUIEdit](DYLIBS/PhotosUIEdit.md)
+- [/System/Library/PrivateFrameworks/PhotosUIFoundation.framework/PhotosUIFoundation](DYLIBS/PhotosUIFoundation.md)
+- [/System/Library/PrivateFrameworks/PhotosUIPrivate.framework/PhotosUIPrivate](DYLIBS/PhotosUIPrivate.md)
+- [/System/Library/PrivateFrameworks/PhotosensitivityProcessing.framework/PhotosensitivityProcessing](DYLIBS/PhotosensitivityProcessing.md)
+- [/System/Library/PrivateFrameworks/Planks.framework/Planks](DYLIBS/Planks.md)
+- [/System/Library/PrivateFrameworks/PlatformSSO.framework/PlatformSSO](DYLIBS/PlatformSSO.md)
+- [/System/Library/PrivateFrameworks/PlatformSSOCore.framework/PlatformSSOCore](DYLIBS/PlatformSSOCore.md)
+- [/System/Library/PrivateFrameworks/PnROnDeviceFramework.framework/PnROnDeviceFramework](DYLIBS/PnROnDeviceFramework.md)
+- [/System/Library/PrivateFrameworks/PodcastsFoundation.framework/PodcastsFoundation](DYLIBS/PodcastsFoundation.md)
+- [/System/Library/PrivateFrameworks/PodcastsKit.framework/PodcastsKit](DYLIBS/PodcastsKit.md)
+- [/System/Library/PrivateFrameworks/PodcastsUI.framework/PodcastsUI](DYLIBS/PodcastsUI.md)
+- [/System/Library/PrivateFrameworks/PoirotAnalytics.framework/PoirotAnalytics](DYLIBS/PoirotAnalytics.md)
+- [/System/Library/PrivateFrameworks/PoirotBlocks.framework/PoirotBlocks](DYLIBS/PoirotBlocks.md)
+- [/System/Library/PrivateFrameworks/PoirotSQLite.framework/PoirotSQLite](DYLIBS/PoirotSQLite.md)
+- [/System/Library/PrivateFrameworks/PoirotSchematizer.framework/PoirotSchematizer](DYLIBS/PoirotSchematizer.md)
+- [/System/Library/PrivateFrameworks/Polaris.framework/Polaris](DYLIBS/Polaris.md)
+- [/System/Library/PrivateFrameworks/PolarisExclaveSupport.framework/PolarisExclaveSupport](DYLIBS/PolarisExclaveSupport.md)
+- [/System/Library/PrivateFrameworks/PolarisGraph.framework/PolarisGraph](DYLIBS/PolarisGraph.md)
+- [/System/Library/PrivateFrameworks/PolarisRuntime.framework/PolarisRuntime](DYLIBS/PolarisRuntime.md)
+- [/System/Library/PrivateFrameworks/Portrait.framework/Portrait](DYLIBS/Portrait.md)
+- [/System/Library/PrivateFrameworks/PostSiriEngagement.framework/PostSiriEngagement](DYLIBS/PostSiriEngagement.md)
+- [/System/Library/PrivateFrameworks/PosterBoard.framework/PosterBoard](DYLIBS/PosterBoard.md)
+- [/System/Library/PrivateFrameworks/PosterBoardUIServices.framework/PosterBoardUIServices](DYLIBS/PosterBoardUIServices.md)
+- [/System/Library/PrivateFrameworks/PosterFoundation.framework/PosterFoundation](DYLIBS/PosterFoundation.md)
+- [/System/Library/PrivateFrameworks/PosterKit.framework/PosterKit](DYLIBS/PosterKit.md)
+- [/System/Library/PrivateFrameworks/PosterLegibilityKit.framework/PosterLegibilityKit](DYLIBS/PosterLegibilityKit.md)
+- [/System/Library/PrivateFrameworks/PosterUIFoundation.framework/PosterUIFoundation](DYLIBS/PosterUIFoundation.md)
+- [/System/Library/PrivateFrameworks/PowerLog.framework/PowerLog](DYLIBS/PowerLog.md)
+- [/System/Library/PrivateFrameworks/PowerlogAccounting.framework/PowerlogAccounting](DYLIBS/PowerlogAccounting.md)
+- [/System/Library/PrivateFrameworks/PowerlogControl.framework/PowerlogControl](DYLIBS/PowerlogControl.md)
+- [/System/Library/PrivateFrameworks/PowerlogCore.framework/PowerlogCore](DYLIBS/PowerlogCore.md)
+- [/System/Library/PrivateFrameworks/PowerlogFullOperators.framework/PowerlogFullOperators](DYLIBS/PowerlogFullOperators.md)
+- [/System/Library/PrivateFrameworks/PowerlogHelperdOperators.framework/PowerlogHelperdOperators](DYLIBS/PowerlogHelperdOperators.md)
+- [/System/Library/PrivateFrameworks/PowerlogLiteOperators.framework/PowerlogLiteOperators](DYLIBS/PowerlogLiteOperators.md)
+- [/System/Library/PrivateFrameworks/PredictedContextAlgorithms.framework/PredictedContextAlgorithms](DYLIBS/PredictedContextAlgorithms.md)
+- [/System/Library/PrivateFrameworks/PreferencesExtended.framework/PreferencesExtended](DYLIBS/PreferencesExtended.md)
+- [/System/Library/PrivateFrameworks/PreviewShellKit.framework/PreviewShellKit](DYLIBS/PreviewShellKit.md)
+- [/System/Library/PrivateFrameworks/PreviewsFoundationOS.framework/PreviewsFoundationOS](DYLIBS/PreviewsFoundationOS.md)
+- [/System/Library/PrivateFrameworks/PreviewsInjection.framework/PreviewsInjection](DYLIBS/PreviewsInjection.md)
+- [/System/Library/PrivateFrameworks/PreviewsMessagingOS.framework/PreviewsMessagingOS](DYLIBS/PreviewsMessagingOS.md)
+- [/System/Library/PrivateFrameworks/PreviewsOSSupport.framework/PreviewsOSSupport](DYLIBS/PreviewsOSSupport.md)
+- [/System/Library/PrivateFrameworks/PreviewsServices.framework/PreviewsServices](DYLIBS/PreviewsServices.md)
+- [/System/Library/PrivateFrameworks/PreviewsServicesUI.framework/PreviewsServicesUI](DYLIBS/PreviewsServicesUI.md)
+- [/System/Library/PrivateFrameworks/PriMLETL.framework/PriMLETL](DYLIBS/PriMLETL.md)
+- [/System/Library/PrivateFrameworks/PrivacyAccounting.framework/PrivacyAccounting](DYLIBS/PrivacyAccounting.md)
+- [/System/Library/PrivateFrameworks/PrivacyDisclosureUI.framework/PrivacyDisclosureUI](DYLIBS/PrivacyDisclosureUI.md)
+- [/System/Library/PrivateFrameworks/PrivateCloudCompute.framework/PrivateCloudCompute](DYLIBS/PrivateCloudCompute.md)
+- [/System/Library/PrivateFrameworks/PrivateCloudComputeDaemon.framework/PrivateCloudComputeDaemon](DYLIBS/PrivateCloudComputeDaemon.md)
+- [/System/Library/PrivateFrameworks/PrivateFederatedLearning.framework/PrivateFederatedLearning](DYLIBS/PrivateFederatedLearning.md)
+- [/System/Library/PrivateFrameworks/PrivateMLClient.framework/PrivateMLClient](DYLIBS/PrivateMLClient.md)
+- [/System/Library/PrivateFrameworks/PrivateMLClientInferenceProvider.framework/PrivateMLClientInferenceProvider](DYLIBS/PrivateMLClientInferenceProvider.md)
+- [/System/Library/PrivateFrameworks/PrivateSearchCore.framework/PrivateSearchCore](DYLIBS/PrivateSearchCore.md)
+- [/System/Library/PrivateFrameworks/ProDisplayLibrary.framework/ProDisplayLibrary](DYLIBS/ProDisplayLibrary.md)
+- [/System/Library/PrivateFrameworks/ProVideo.framework/ProVideo](DYLIBS/ProVideo.md)
+- [/System/Library/PrivateFrameworks/ProactiveDaemonSupport.framework/ProactiveDaemonSupport](DYLIBS/ProactiveDaemonSupport.md)
+- [/System/Library/PrivateFrameworks/ProactiveExperiments.framework/ProactiveExperiments](DYLIBS/ProactiveExperiments.md)
+- [/System/Library/PrivateFrameworks/ProactiveHarvesting.framework/ProactiveHarvesting](DYLIBS/ProactiveHarvesting.md)
+- [/System/Library/PrivateFrameworks/ProactiveML.framework/ProactiveML](DYLIBS/ProactiveML.md)
+- [/System/Library/PrivateFrameworks/ProactivePredictionClient.framework/ProactivePredictionClient](DYLIBS/ProactivePredictionClient.md)
+- [/System/Library/PrivateFrameworks/ProactiveSummarization.framework/ProactiveSummarization](DYLIBS/ProactiveSummarization.md)
+- [/System/Library/PrivateFrameworks/ProactiveSummarizationClient.framework/ProactiveSummarizationClient](DYLIBS/ProactiveSummarizationClient.md)
+- [/System/Library/PrivateFrameworks/ProactiveSupport.framework/ProactiveSupport](DYLIBS/ProactiveSupport.md)
+- [/System/Library/PrivateFrameworks/ProductKit.framework/ProductKit](DYLIBS/ProductKit.md)
+- [/System/Library/PrivateFrameworks/ProductKitCore.framework/ProductKitCore](DYLIBS/ProductKitCore.md)
+- [/System/Library/PrivateFrameworks/PromotedContent.framework/PromotedContent](DYLIBS/PromotedContent.md)
+- [/System/Library/PrivateFrameworks/PromotedContentJetClient.framework/PromotedContentJetClient](DYLIBS/PromotedContentJetClient.md)
+- [/System/Library/PrivateFrameworks/PromotedContentJetSupport.framework/PromotedContentJetSupport](DYLIBS/PromotedContentJetSupport.md)
+- [/System/Library/PrivateFrameworks/PromotedContentUI.framework/PromotedContentUI](DYLIBS/PromotedContentUI.md)
+- [/System/Library/PrivateFrameworks/PromptKit.framework/PromptKit](DYLIBS/PromptKit.md)
+- [/System/Library/PrivateFrameworks/ProofReader.framework/ProofReader](DYLIBS/ProofReader.md)
+- [/System/Library/PrivateFrameworks/ProtectedCloudStorage.framework/ProtectedCloudStorage](DYLIBS/ProtectedCloudStorage.md)
+- [/System/Library/PrivateFrameworks/ProtoDataExtractor.framework/ProtoDataExtractor](DYLIBS/ProtoDataExtractor.md)
+- [/System/Library/PrivateFrameworks/ProximityAppleIDSetup.framework/ProximityAppleIDSetup](DYLIBS/ProximityAppleIDSetup.md)
+- [/System/Library/PrivateFrameworks/ProximityAppleIDSetupUI.framework/ProximityAppleIDSetupUI](DYLIBS/ProximityAppleIDSetupUI.md)
+- [/System/Library/PrivateFrameworks/ProximityControl.framework/ProximityControl](DYLIBS/ProximityControl.md)
+- [/System/Library/PrivateFrameworks/ProximityReaderCore.framework/ProximityReaderCore](DYLIBS/ProximityReaderCore.md)
+- [/System/Library/PrivateFrameworks/ProximityReaderDaemon.framework/ProximityReaderDaemon](DYLIBS/ProximityReaderDaemon.md)
+- [/System/Library/PrivateFrameworks/QOSToolkit.framework/QOSToolkit](DYLIBS/QOSToolkit.md)
+- [/System/Library/PrivateFrameworks/QueryParser.framework/QueryParser](DYLIBS/QueryParser.md)
+- [/System/Library/PrivateFrameworks/QuickLookThumbnailingDaemon.framework/QuickLookThumbnailingDaemon](DYLIBS/QuickLookThumbnailingDaemon.md)
+- [/System/Library/PrivateFrameworks/QuickLookUICore.framework/QuickLookUICore](DYLIBS/QuickLookUICore.md)
+- [/System/Library/PrivateFrameworks/RTCReporting.framework/RTCReporting](DYLIBS/RTCReporting.md)
+- [/System/Library/PrivateFrameworks/RTTUtilities.framework/RTTUtilities](DYLIBS/RTTUtilities.md)
+- [/System/Library/PrivateFrameworks/RapidResourceDelivery.framework/RapidResourceDelivery](DYLIBS/RapidResourceDelivery.md)
+- [/System/Library/PrivateFrameworks/RealityIO.framework/RealityIO](DYLIBS/RealityIO.md)
+- [/System/Library/PrivateFrameworks/RealityKitInspection.framework/RealityKitInspection](DYLIBS/RealityKitInspection.md)
+- [/System/Library/PrivateFrameworks/Recon3D.framework/Recon3D](DYLIBS/Recon3D.md)
+- [/System/Library/PrivateFrameworks/Recount.framework/Recount](DYLIBS/Recount.md)
+- [/System/Library/PrivateFrameworks/RegulatoryDomain.framework/RegulatoryDomain](DYLIBS/RegulatoryDomain.md)
+- [/System/Library/PrivateFrameworks/RelevanceEngine.framework/RelevanceEngine](DYLIBS/RelevanceEngine.md)
+- [/System/Library/PrivateFrameworks/ReminderKit.framework/ReminderKit](DYLIBS/ReminderKit.md)
+- [/System/Library/PrivateFrameworks/ReminderKitInternal.framework/ReminderKitInternal](DYLIBS/ReminderKitInternal.md)
+- [/System/Library/PrivateFrameworks/RemindersAppIntents.framework/RemindersAppIntents](DYLIBS/RemindersAppIntents.md)
+- [/System/Library/PrivateFrameworks/RemindersIntentsFramework.framework/RemindersIntentsFramework](DYLIBS/RemindersIntentsFramework.md)
+- [/System/Library/PrivateFrameworks/RemindersUICore.framework/RemindersUICore](DYLIBS/RemindersUICore.md)
+- [/System/Library/PrivateFrameworks/RemoteManagement.framework/RemoteManagement](DYLIBS/RemoteManagement.md)
+- [/System/Library/PrivateFrameworks/RemoteManagementModel.framework/RemoteManagementModel](DYLIBS/RemoteManagementModel.md)
+- [/System/Library/PrivateFrameworks/RemoteManagementStore.framework/RemoteManagementStore](DYLIBS/RemoteManagementStore.md)
+- [/System/Library/PrivateFrameworks/RemoteMediaServices.framework/RemoteMediaServices](DYLIBS/RemoteMediaServices.md)
+- [/System/Library/PrivateFrameworks/RemotePairingDevice.framework/RemotePairingDevice](DYLIBS/RemotePairingDevice.md)
+- [/System/Library/PrivateFrameworks/RemoteUI.framework/RemoteUI](DYLIBS/RemoteUI.md)
+- [/System/Library/PrivateFrameworks/RenderBox.framework/RenderBox](DYLIBS/RenderBox.md)
+- [/System/Library/PrivateFrameworks/ReplicatorCore.framework/ReplicatorCore](DYLIBS/ReplicatorCore.md)
+- [/System/Library/PrivateFrameworks/ReplicatorEngine.framework/ReplicatorEngine](DYLIBS/ReplicatorEngine.md)
+- [/System/Library/PrivateFrameworks/ReplicatorServices.framework/ReplicatorServices](DYLIBS/ReplicatorServices.md)
+- [/System/Library/PrivateFrameworks/RequestDispatcherBridges.framework/RequestDispatcherBridges](DYLIBS/RequestDispatcherBridges.md)
+- [/System/Library/PrivateFrameworks/RespiratoryHealthUI.framework/RespiratoryHealthUI](DYLIBS/RespiratoryHealthUI.md)
+- [/System/Library/PrivateFrameworks/Rewind.framework/Rewind](DYLIBS/Rewind.md)
+- [/System/Library/PrivateFrameworks/RoyaSystemCapture.framework/RoyaSystemCapture](DYLIBS/RoyaSystemCapture.md)
+- [/System/Library/PrivateFrameworks/Rules.framework/Rules](DYLIBS/Rules.md)
+- [/System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices](DYLIBS/RunningBoardServices.md)
+- [/System/Library/PrivateFrameworks/SESUIService.framework/SESUIService](DYLIBS/SESUIService.md)
+- [/System/Library/PrivateFrameworks/SESUIServiceCore.framework/SESUIServiceCore](DYLIBS/SESUIServiceCore.md)
+- [/System/Library/PrivateFrameworks/SEService.framework/SEService](DYLIBS/SEService.md)
+- [/System/Library/PrivateFrameworks/SIDFitness.framework/SIDFitness](DYLIBS/SIDFitness.md)
+- [/System/Library/PrivateFrameworks/SILManager.framework/SILManager](DYLIBS/SILManager.md)
+- [/System/Library/PrivateFrameworks/SIMSetupSupport.framework/SIMSetupSupport](DYLIBS/SIMSetupSupport.md)
+- [/System/Library/PrivateFrameworks/SLOM.framework/SLOM](DYLIBS/SLOM.md)
+- [/System/Library/PrivateFrameworks/SLOMMapping.framework/SLOMMapping](DYLIBS/SLOMMapping.md)
+- [/System/Library/PrivateFrameworks/SLOMOdometry.framework/SLOMOdometry](DYLIBS/SLOMOdometry.md)
+- [/System/Library/PrivateFrameworks/SMCT.framework/SMCT](DYLIBS/SMCT.md)
+- [/System/Library/PrivateFrameworks/SOSUI.framework/SOSUI](DYLIBS/SOSUI.md)
+- [/System/Library/PrivateFrameworks/SPShared.framework/SPShared](DYLIBS/SPShared.md)
+- [/System/Library/PrivateFrameworks/SafariCore.framework/SafariCore](DYLIBS/SafariCore.md)
+- [/System/Library/PrivateFrameworks/SafariFoundation.framework/SafariFoundation](DYLIBS/SafariFoundation.md)
+- [/System/Library/PrivateFrameworks/SafariShared.framework/SafariShared](DYLIBS/SafariShared.md)
+- [/System/Library/PrivateFrameworks/SafariSharedUI.framework/SafariSharedUI](DYLIBS/SafariSharedUI.md)
+- [/System/Library/PrivateFrameworks/SafetyMonitor.framework/SafetyMonitor](DYLIBS/SafetyMonitor.md)
+- [/System/Library/PrivateFrameworks/SafetyMonitorUI.framework/SafetyMonitorUI](DYLIBS/SafetyMonitorUI.md)
+- [/System/Library/PrivateFrameworks/Sage.framework/Sage](DYLIBS/Sage.md)
+- [/System/Library/PrivateFrameworks/SampleAnalysis.framework/Frameworks/SAHelper.framework/SAHelper](DYLIBS/SAHelper.md)
+- [/System/Library/PrivateFrameworks/SampleAnalysis.framework/SampleAnalysis](DYLIBS/SampleAnalysis.md)
+- [/System/Library/PrivateFrameworks/SceneIntelligence.framework/SceneIntelligence](DYLIBS/SceneIntelligence.md)
+- [/System/Library/PrivateFrameworks/ScreenContinuityServices.framework/ScreenContinuityServices](DYLIBS/ScreenContinuityServices.md)
+- [/System/Library/PrivateFrameworks/ScreenReaderOutput.framework/ScreenReaderOutput](DYLIBS/ScreenReaderOutput.md)
+- [/System/Library/PrivateFrameworks/ScreenSharingKit.framework/ScreenSharingKit](DYLIBS/ScreenSharingKit.md)
+- [/System/Library/PrivateFrameworks/ScreenTimeCore.framework/ScreenTimeCore](DYLIBS/ScreenTimeCore.md)
+- [/System/Library/PrivateFrameworks/ScreenTimeSettingsFoundation.framework/ScreenTimeSettingsFoundation](DYLIBS/ScreenTimeSettingsFoundation.md)
+- [/System/Library/PrivateFrameworks/ScreenTimeSettingsServices.framework/ScreenTimeSettingsServices](DYLIBS/ScreenTimeSettingsServices.md)
+- [/System/Library/PrivateFrameworks/ScreenTimeSettingsUI.framework/ScreenTimeSettingsUI](DYLIBS/ScreenTimeSettingsUI.md)
+- [/System/Library/PrivateFrameworks/ScreenTimeSwift.framework/ScreenTimeSwift](DYLIBS/ScreenTimeSwift.md)
+- [/System/Library/PrivateFrameworks/ScreenTimeUICore.framework/ScreenTimeUICore](DYLIBS/ScreenTimeUICore.md)
+- [/System/Library/PrivateFrameworks/SearchAds.framework/SearchAds](DYLIBS/SearchAds.md)
+- [/System/Library/PrivateFrameworks/SearchAssets.framework/SearchAssets](DYLIBS/SearchAssets.md)
+- [/System/Library/PrivateFrameworks/SearchFoundation.framework/SearchFoundation](DYLIBS/SearchFoundation.md)
+- [/System/Library/PrivateFrameworks/SearchIntrospectionKit.framework/SearchIntrospectionKit](DYLIBS/SearchIntrospectionKit.md)
+- [/System/Library/PrivateFrameworks/SearchOnDeviceAnalytics.framework/SearchOnDeviceAnalytics](DYLIBS/SearchOnDeviceAnalytics.md)
+- [/System/Library/PrivateFrameworks/SearchUI.framework/SearchUI](DYLIBS/SearchUI.md)
+- [/System/Library/PrivateFrameworks/SecureCaptureKit.framework/SecureCaptureKit](DYLIBS/SecureCaptureKit.md)
+- [/System/Library/PrivateFrameworks/SecureMessaging.framework/SecureMessaging](DYLIBS/SecureMessaging.md)
+- [/System/Library/PrivateFrameworks/SecureMessagingAgentCore.framework/SecureMessagingAgentCore](DYLIBS/SecureMessagingAgentCore.md)
+- [/System/Library/PrivateFrameworks/SecurePairing.framework/SecurePairing](DYLIBS/SecurePairing.md)
+- [/System/Library/PrivateFrameworks/SecureVectorStorage.framework/SecureVectorStorage](DYLIBS/SecureVectorStorage.md)
+- [/System/Library/PrivateFrameworks/SensingAlgsPadHostServiceJ8xx.framework/SensingAlgsPadHostServiceJ8xx](DYLIBS/SensingAlgsPadHostServiceJ8xx.md)
+- [/System/Library/PrivateFrameworks/SensingAlgsService.framework/SensingAlgsService](DYLIBS/SensingAlgsService.md)
+- [/System/Library/PrivateFrameworks/SensingPredict.framework/SensingPredict](DYLIBS/SensingPredict.md)
+- [/System/Library/PrivateFrameworks/SensingPredictDaemon.framework/SensingPredictDaemon](DYLIBS/SensingPredictDaemon.md)
+- [/System/Library/PrivateFrameworks/SensitiveContentAnalysisML.framework/SensitiveContentAnalysisML](DYLIBS/SensitiveContentAnalysisML.md)
+- [/System/Library/PrivateFrameworks/SensitiveContentAnalysisUI.framework/SensitiveContentAnalysisUI](DYLIBS/SensitiveContentAnalysisUI.md)
+- [/System/Library/PrivateFrameworks/ServiceExtensions.framework/ServiceExtensions](DYLIBS/ServiceExtensions.md)
+- [/System/Library/PrivateFrameworks/ServicesIntelligence.framework/ServicesIntelligence](DYLIBS/ServicesIntelligence.md)
+- [/System/Library/PrivateFrameworks/SessionAlert.framework/SessionAlert](DYLIBS/SessionAlert.md)
+- [/System/Library/PrivateFrameworks/SessionAssertion.framework/SessionAssertion](DYLIBS/SessionAssertion.md)
+- [/System/Library/PrivateFrameworks/SessionCore.framework/SessionCore](DYLIBS/SessionCore.md)
+- [/System/Library/PrivateFrameworks/SessionPushNotifications.framework/SessionPushNotifications](DYLIBS/SessionPushNotifications.md)
+- [/System/Library/PrivateFrameworks/SessionSyncEngine.framework/SessionSyncEngine](DYLIBS/SessionSyncEngine.md)
+- [/System/Library/PrivateFrameworks/Settings.framework/Settings](DYLIBS/Settings.md)
+- [/System/Library/PrivateFrameworks/Settings/PrivacySettingsUI.framework/PrivacySettingsUI](DYLIBS/PrivacySettingsUI.md)
+- [/System/Library/PrivateFrameworks/SettingsHost.framework/SettingsHost](DYLIBS/SettingsHost.md)
+- [/System/Library/PrivateFrameworks/SettingsHostUI.framework/SettingsHostUI](DYLIBS/SettingsHostUI.md)
+- [/System/Library/PrivateFrameworks/SetupAssistantSoftwareUpdateUI.framework/SetupAssistantSoftwareUpdateUI](DYLIBS/SetupAssistantSoftwareUpdateUI.md)
+- [/System/Library/PrivateFrameworks/SetupAssistantSupportUI.framework/SetupAssistantSupportUI](DYLIBS/SetupAssistantSupportUI.md)
+- [/System/Library/PrivateFrameworks/SetupAssistantUI.framework/SetupAssistantUI](DYLIBS/SetupAssistantUI.md)
+- [/System/Library/PrivateFrameworks/SeymourClient.framework/SeymourClient](DYLIBS/SeymourClient.md)
+- [/System/Library/PrivateFrameworks/SeymourClientServices.framework/SeymourClientServices](DYLIBS/SeymourClientServices.md)
+- [/System/Library/PrivateFrameworks/SeymourCore.framework/SeymourCore](DYLIBS/SeymourCore.md)
+- [/System/Library/PrivateFrameworks/SeymourMedia.framework/SeymourMedia](DYLIBS/SeymourMedia.md)
+- [/System/Library/PrivateFrameworks/SeymourServices.framework/SeymourServices](DYLIBS/SeymourServices.md)
+- [/System/Library/PrivateFrameworks/SeymourServicesCore.framework/SeymourServicesCore](DYLIBS/SeymourServicesCore.md)
+- [/System/Library/PrivateFrameworks/SeymourSessionServices.framework/SeymourSessionServices](DYLIBS/SeymourSessionServices.md)
+- [/System/Library/PrivateFrameworks/SeymourUI.framework/SeymourUI](DYLIBS/SeymourUI.md)
+- [/System/Library/PrivateFrameworks/ShaderGraph.framework/ShaderGraph](DYLIBS/ShaderGraph.md)
+- [/System/Library/PrivateFrameworks/Sharing.framework/Sharing](DYLIBS/Sharing.md)
+- [/System/Library/PrivateFrameworks/SharingUI.framework/SharingUI](DYLIBS/SharingUI.md)
+- [/System/Library/PrivateFrameworks/ShazamCore.framework/ShazamCore](DYLIBS/ShazamCore.md)
+- [/System/Library/PrivateFrameworks/ShazamEvents.framework/ShazamEvents](DYLIBS/ShazamEvents.md)
+- [/System/Library/PrivateFrameworks/ShazamInsights.framework/ShazamInsights](DYLIBS/ShazamInsights.md)
+- [/System/Library/PrivateFrameworks/ShazamKitUI.framework/ShazamKitUI](DYLIBS/ShazamKitUI.md)
+- [/System/Library/PrivateFrameworks/ShellSceneKit.framework/ShellSceneKit](DYLIBS/ShellSceneKit.md)
+- [/System/Library/PrivateFrameworks/ShimGameServices.framework/ShimGameServices](DYLIBS/ShimGameServices.md)
+- [/System/Library/PrivateFrameworks/Silex.framework/Silex](DYLIBS/Silex.md)
+- [/System/Library/PrivateFrameworks/SilexVideo.framework/SilexVideo](DYLIBS/SilexVideo.md)
+- [/System/Library/PrivateFrameworks/SiriActivation.framework/SiriActivation](DYLIBS/SiriActivation.md)
+- [/System/Library/PrivateFrameworks/SiriActivationFoundation.framework/SiriActivationFoundation](DYLIBS/SiriActivationFoundation.md)
+- [/System/Library/PrivateFrameworks/SiriAnalytics.framework/SiriAnalytics](DYLIBS/SiriAnalytics.md)
+- [/System/Library/PrivateFrameworks/SiriAnnouncePlatformOpportuneSpeaking.framework/SiriAnnouncePlatformOpportuneSpeaking](DYLIBS/SiriAnnouncePlatformOpportuneSpeaking.md)
+- [/System/Library/PrivateFrameworks/SiriAppLaunchIntents.framework/SiriAppLaunchIntents](DYLIBS/SiriAppLaunchIntents.md)
+- [/System/Library/PrivateFrameworks/SiriAppLaunchUIFramework.framework/SiriAppLaunchUIFramework](DYLIBS/SiriAppLaunchUIFramework.md)
+- [/System/Library/PrivateFrameworks/SiriAppResolution.framework/SiriAppResolution](DYLIBS/SiriAppResolution.md)
+- [/System/Library/PrivateFrameworks/SiriAudioIntentUtils.framework/SiriAudioIntentUtils](DYLIBS/SiriAudioIntentUtils.md)
+- [/System/Library/PrivateFrameworks/SiriAudioInternal.framework/SiriAudioInternal](DYLIBS/SiriAudioInternal.md)
+- [/System/Library/PrivateFrameworks/SiriAudioSupport.framework/SiriAudioSupport](DYLIBS/SiriAudioSupport.md)
+- [/System/Library/PrivateFrameworks/SiriAutoComplete.framework/SiriAutoComplete](DYLIBS/SiriAutoComplete.md)
+- [/System/Library/PrivateFrameworks/SiriAutoCompleteAPI.framework/SiriAutoCompleteAPI](DYLIBS/SiriAutoCompleteAPI.md)
+- [/System/Library/PrivateFrameworks/SiriCalendarIntents.framework/SiriCalendarIntents](DYLIBS/SiriCalendarIntents.md)
+- [/System/Library/PrivateFrameworks/SiriCam.framework/SiriCam](DYLIBS/SiriCam.md)
+- [/System/Library/PrivateFrameworks/SiriContactsCommon.framework/SiriContactsCommon](DYLIBS/SiriContactsCommon.md)
+- [/System/Library/PrivateFrameworks/SiriContactsIntents.framework/SiriContactsIntents](DYLIBS/SiriContactsIntents.md)
+- [/System/Library/PrivateFrameworks/SiriContactsUI.framework/SiriContactsUI](DYLIBS/SiriContactsUI.md)
+- [/System/Library/PrivateFrameworks/SiriCoreMetrics.framework/SiriCoreMetrics](DYLIBS/SiriCoreMetrics.md)
+- [/System/Library/PrivateFrameworks/SiriCorrections.framework/SiriCorrections](DYLIBS/SiriCorrections.md)
+- [/System/Library/PrivateFrameworks/SiriCrossDeviceArbitrationFeedback.framework/SiriCrossDeviceArbitrationFeedback](DYLIBS/SiriCrossDeviceArbitrationFeedback.md)
+- [/System/Library/PrivateFrameworks/SiriDailyBriefingInternal.framework/SiriDailyBriefingInternal](DYLIBS/SiriDailyBriefingInternal.md)
+- [/System/Library/PrivateFrameworks/SiriDialogEngine.framework/SiriDialogEngine](DYLIBS/SiriDialogEngine.md)
+- [/System/Library/PrivateFrameworks/SiriEmergencyIntents.framework/SiriEmergencyIntents](DYLIBS/SiriEmergencyIntents.md)
+- [/System/Library/PrivateFrameworks/SiriEntityMatcher.framework/SiriEntityMatcher](DYLIBS/SiriEntityMatcher.md)
+- [/System/Library/PrivateFrameworks/SiriExpanseInternal.framework/SiriExpanseInternal](DYLIBS/SiriExpanseInternal.md)
+- [/System/Library/PrivateFrameworks/SiriFindMy.framework/SiriFindMy](DYLIBS/SiriFindMy.md)
+- [/System/Library/PrivateFrameworks/SiriFlowEnvironment.framework/SiriFlowEnvironment](DYLIBS/SiriFlowEnvironment.md)
+- [/System/Library/PrivateFrameworks/SiriGeo.framework/SiriGeo](DYLIBS/SiriGeo.md)
+- [/System/Library/PrivateFrameworks/SiriGestureBridge.framework/SiriGestureBridge](DYLIBS/SiriGestureBridge.md)
+- [/System/Library/PrivateFrameworks/SiriIdentityInternal.framework/SiriIdentityInternal](DYLIBS/SiriIdentityInternal.md)
+- [/System/Library/PrivateFrameworks/SiriInCall.framework/SiriInCall](DYLIBS/SiriInCall.md)
+- [/System/Library/PrivateFrameworks/SiriInference.framework/SiriInference](DYLIBS/SiriInference.md)
+- [/System/Library/PrivateFrameworks/SiriInferenceFlow.framework/SiriInferenceFlow](DYLIBS/SiriInferenceFlow.md)
+- [/System/Library/PrivateFrameworks/SiriInformationSearch.framework/SiriInformationSearch](DYLIBS/SiriInformationSearch.md)
+- [/System/Library/PrivateFrameworks/SiriInformationTypes.framework/SiriInformationTypes](DYLIBS/SiriInformationTypes.md)
+- [/System/Library/PrivateFrameworks/SiriInstrumentation.framework/SiriInstrumentation](DYLIBS/SiriInstrumentation.md)
+- [/System/Library/PrivateFrameworks/SiriIntentEvents.framework/SiriIntentEvents](DYLIBS/SiriIntentEvents.md)
+- [/System/Library/PrivateFrameworks/SiriInteractive.framework/SiriInteractive](DYLIBS/SiriInteractive.md)
+- [/System/Library/PrivateFrameworks/SiriKitFlow.framework/SiriKitFlow](DYLIBS/SiriKitFlow.md)
+- [/System/Library/PrivateFrameworks/SiriKitRuntime.framework/SiriKitRuntime](DYLIBS/SiriKitRuntime.md)
+- [/System/Library/PrivateFrameworks/SiriMASPFLTraining.framework/SiriMASPFLTraining](DYLIBS/SiriMASPFLTraining.md)
+- [/System/Library/PrivateFrameworks/SiriMailInternal.framework/SiriMailInternal](DYLIBS/SiriMailInternal.md)
+- [/System/Library/PrivateFrameworks/SiriMailOntology.framework/SiriMailOntology](DYLIBS/SiriMailOntology.md)
+- [/System/Library/PrivateFrameworks/SiriMailUI.framework/SiriMailUI](DYLIBS/SiriMailUI.md)
+- [/System/Library/PrivateFrameworks/SiriMailUIModel.framework/SiriMailUIModel](DYLIBS/SiriMailUIModel.md)
+- [/System/Library/PrivateFrameworks/SiriMessageBus.framework/SiriMessageBus](DYLIBS/SiriMessageBus.md)
+- [/System/Library/PrivateFrameworks/SiriMessageTypes.framework/SiriMessageTypes](DYLIBS/SiriMessageTypes.md)
+- [/System/Library/PrivateFrameworks/SiriMessagesFlow.framework/SiriMessagesFlow](DYLIBS/SiriMessagesFlow.md)
+- [/System/Library/PrivateFrameworks/SiriMessagesFlowCommon.framework/SiriMessagesFlowCommon](DYLIBS/SiriMessagesFlowCommon.md)
+- [/System/Library/PrivateFrameworks/SiriMessagesUI.framework/SiriMessagesUI](DYLIBS/SiriMessagesUI.md)
+- [/System/Library/PrivateFrameworks/SiriMessagesUICommon.framework/SiriMessagesUICommon](DYLIBS/SiriMessagesUICommon.md)
+- [/System/Library/PrivateFrameworks/SiriNLUOverrides.framework/SiriNLUOverrides](DYLIBS/SiriNLUOverrides.md)
+- [/System/Library/PrivateFrameworks/SiriNLUTypes.framework/SiriNLUTypes](DYLIBS/SiriNLUTypes.md)
+- [/System/Library/PrivateFrameworks/SiriNaturalLanguageGeneration.framework/SiriNaturalLanguageGeneration](DYLIBS/SiriNaturalLanguageGeneration.md)
+- [/System/Library/PrivateFrameworks/SiriNaturalLanguageParsing.framework/SiriNaturalLanguageParsing](DYLIBS/SiriNaturalLanguageParsing.md)
+- [/System/Library/PrivateFrameworks/SiriNetwork.framework/SiriNetwork](DYLIBS/SiriNetwork.md)
+- [/System/Library/PrivateFrameworks/SiriNotebook.framework/SiriNotebook](DYLIBS/SiriNotebook.md)
+- [/System/Library/PrivateFrameworks/SiriNotebookUI.framework/SiriNotebookUI](DYLIBS/SiriNotebookUI.md)
+- [/System/Library/PrivateFrameworks/SiriNotificationsIntents.framework/SiriNotificationsIntents](DYLIBS/SiriNotificationsIntents.md)
+- [/System/Library/PrivateFrameworks/SiriOntology.framework/SiriOntology](DYLIBS/SiriOntology.md)
+- [/System/Library/PrivateFrameworks/SiriOntologyProtobuf.framework/SiriOntologyProtobuf](DYLIBS/SiriOntologyProtobuf.md)
+- [/System/Library/PrivateFrameworks/SiriPaymentsIntents.framework/SiriPaymentsIntents](DYLIBS/SiriPaymentsIntents.md)
+- [/System/Library/PrivateFrameworks/SiriPhoneIntents.framework/SiriPhoneIntents](DYLIBS/SiriPhoneIntents.md)
+- [/System/Library/PrivateFrameworks/SiriPlaybackControlIntents.framework/SiriPlaybackControlIntents](DYLIBS/SiriPlaybackControlIntents.md)
+- [/System/Library/PrivateFrameworks/SiriPlaybackControlSupport.framework/SiriPlaybackControlSupport](DYLIBS/SiriPlaybackControlSupport.md)
+- [/System/Library/PrivateFrameworks/SiriPrivateLearningAnalytics.framework/SiriPrivateLearningAnalytics](DYLIBS/SiriPrivateLearningAnalytics.md)
+- [/System/Library/PrivateFrameworks/SiriPrivateLearningInference.framework/SiriPrivateLearningInference](DYLIBS/SiriPrivateLearningInference.md)
+- [/System/Library/PrivateFrameworks/SiriPrivateLearningLogging.framework/SiriPrivateLearningLogging](DYLIBS/SiriPrivateLearningLogging.md)
+- [/System/Library/PrivateFrameworks/SiriReaderIntents.framework/SiriReaderIntents](DYLIBS/SiriReaderIntents.md)
+- [/System/Library/PrivateFrameworks/SiriReferenceResolution.framework/SiriReferenceResolution](DYLIBS/SiriReferenceResolution.md)
+- [/System/Library/PrivateFrameworks/SiriReferenceResolutionDataModel.framework/SiriReferenceResolutionDataModel](DYLIBS/SiriReferenceResolutionDataModel.md)
+- [/System/Library/PrivateFrameworks/SiriReferenceResolver.framework/SiriReferenceResolver](DYLIBS/SiriReferenceResolver.md)
+- [/System/Library/PrivateFrameworks/SiriRemembers.framework/SiriRemembers](DYLIBS/SiriRemembers.md)
+- [/System/Library/PrivateFrameworks/SiriRequestDispatcher.framework/SiriRequestDispatcher](DYLIBS/SiriRequestDispatcher.md)
+- [/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/SiriSettingsIntents](DYLIBS/SiriSettingsIntents.md)
+- [/System/Library/PrivateFrameworks/SiriSettingsUI.framework/SiriSettingsUI](DYLIBS/SiriSettingsUI.md)
+- [/System/Library/PrivateFrameworks/SiriSetup.framework/SiriSetup](DYLIBS/SiriSetup.md)
+- [/System/Library/PrivateFrameworks/SiriSharedUI.framework/SiriSharedUI](DYLIBS/SiriSharedUI.md)
+- [/System/Library/PrivateFrameworks/SiriSignals.framework/SiriSignals](DYLIBS/SiriSignals.md)
+- [/System/Library/PrivateFrameworks/SiriSocialConversation.framework/SiriSocialConversation](DYLIBS/SiriSocialConversation.md)
+- [/System/Library/PrivateFrameworks/SiriStates.framework/SiriStates](DYLIBS/SiriStates.md)
+- [/System/Library/PrivateFrameworks/SiriSuggestions.framework/SiriSuggestions](DYLIBS/SiriSuggestions.md)
+- [/System/Library/PrivateFrameworks/SiriSuggestionsAPI.framework/SiriSuggestionsAPI](DYLIBS/SiriSuggestionsAPI.md)
+- [/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/SiriSuggestionsBaseModel](DYLIBS/SiriSuggestionsBaseModel.md)
+- [/System/Library/PrivateFrameworks/SiriSuggestionsIntelligence.framework/SiriSuggestionsIntelligence](DYLIBS/SiriSuggestionsIntelligence.md)
+- [/System/Library/PrivateFrameworks/SiriSuggestionsKit.framework/SiriSuggestionsKit](DYLIBS/SiriSuggestionsKit.md)
+- [/System/Library/PrivateFrameworks/SiriSuggestionsSupport.framework/SiriSuggestionsSupport](DYLIBS/SiriSuggestionsSupport.md)
+- [/System/Library/PrivateFrameworks/SiriSystemCommandsIntents.framework/SiriSystemCommandsIntents](DYLIBS/SiriSystemCommandsIntents.md)
+- [/System/Library/PrivateFrameworks/SiriTTS.framework/SiriTTS](DYLIBS/SiriTTS.md)
+- [/System/Library/PrivateFrameworks/SiriTTSService.framework/SiriTTSService](DYLIBS/SiriTTSService.md)
+- [/System/Library/PrivateFrameworks/SiriTaskEngagement.framework/SiriTaskEngagement](DYLIBS/SiriTaskEngagement.md)
+- [/System/Library/PrivateFrameworks/SiriTasksEvaluation.framework/SiriTasksEvaluation](DYLIBS/SiriTasksEvaluation.md)
+- [/System/Library/PrivateFrameworks/SiriTimeAlarmInternal.framework/SiriTimeAlarmInternal](DYLIBS/SiriTimeAlarmInternal.md)
+- [/System/Library/PrivateFrameworks/SiriTimeInternal.framework/SiriTimeInternal](DYLIBS/SiriTimeInternal.md)
+- [/System/Library/PrivateFrameworks/SiriTimeTimerInternal.framework/SiriTimeTimerInternal](DYLIBS/SiriTimeTimerInternal.md)
+- [/System/Library/PrivateFrameworks/SiriTranslationIntents.framework/SiriTranslationIntents](DYLIBS/SiriTranslationIntents.md)
+- [/System/Library/PrivateFrameworks/SiriTurnTakingManager.framework/SiriTurnTakingManager](DYLIBS/SiriTurnTakingManager.md)
+- [/System/Library/PrivateFrameworks/SiriUIActivation.framework/SiriUIActivation](DYLIBS/SiriUIActivation.md)
+- [/System/Library/PrivateFrameworks/SiriUIBridge.framework/SiriUIBridge](DYLIBS/SiriUIBridge.md)
+- [/System/Library/PrivateFrameworks/SiriUICore.framework/SiriUICore](DYLIBS/SiriUICore.md)
+- [/System/Library/PrivateFrameworks/SiriUIFoundation.framework/SiriUIFoundation](DYLIBS/SiriUIFoundation.md)
+- [/System/Library/PrivateFrameworks/SiriUserSegments.framework/SiriUserSegments](DYLIBS/SiriUserSegments.md)
+- [/System/Library/PrivateFrameworks/SiriUtilities.framework/SiriUtilities](DYLIBS/SiriUtilities.md)
+- [/System/Library/PrivateFrameworks/SiriVideoIntents.framework/SiriVideoIntents](DYLIBS/SiriVideoIntents.md)
+- [/System/Library/PrivateFrameworks/SiriVideoUIFramework.framework/SiriVideoUIFramework](DYLIBS/SiriVideoUIFramework.md)
+- [/System/Library/PrivateFrameworks/SiriVirtualDeviceResolution.framework/SiriVirtualDeviceResolution](DYLIBS/SiriVirtualDeviceResolution.md)
+- [/System/Library/PrivateFrameworks/SiriWellnessIntents.framework/SiriWellnessIntents](DYLIBS/SiriWellnessIntents.md)
+- [/System/Library/PrivateFrameworks/SleepHealth.framework/SleepHealth](DYLIBS/SleepHealth.md)
+- [/System/Library/PrivateFrameworks/SleepHealthUI.framework/SleepHealthUI](DYLIBS/SleepHealthUI.md)
+- [/System/Library/PrivateFrameworks/SleepWidgetUI.framework/SleepWidgetUI](DYLIBS/SleepWidgetUI.md)
+- [/System/Library/PrivateFrameworks/SmartReplies.framework/SmartReplies](DYLIBS/SmartReplies.md)
+- [/System/Library/PrivateFrameworks/SmartRepliesServer.framework/SmartRepliesServer](DYLIBS/SmartRepliesServer.md)
+- [/System/Library/PrivateFrameworks/SmartStackFoundation.framework/SmartStackFoundation](DYLIBS/SmartStackFoundation.md)
+- [/System/Library/PrivateFrameworks/SmartStackSettings.framework/SmartStackSettings](DYLIBS/SmartStackSettings.md)
+- [/System/Library/PrivateFrameworks/SnippetCommands.framework/SnippetCommands](DYLIBS/SnippetCommands.md)
+- [/System/Library/PrivateFrameworks/SnippetKit.framework/SnippetKit](DYLIBS/SnippetKit.md)
+- [/System/Library/PrivateFrameworks/SnippetUI.framework/SnippetUI](DYLIBS/SnippetUI.md)
+- [/System/Library/PrivateFrameworks/SnippetUI_Proto.framework/SnippetUI_Proto](DYLIBS/SnippetUI_Proto.md)
+- [/System/Library/PrivateFrameworks/SocialLayer.framework/SocialLayer](DYLIBS/SocialLayer.md)
+- [/System/Library/PrivateFrameworks/SoftPosReader.framework/SoftPosReader](DYLIBS/SoftPosReader.md)
+- [/System/Library/PrivateFrameworks/SoftwareUpdateCore.framework/SoftwareUpdateCore](DYLIBS/SoftwareUpdateCore.md)
+- [/System/Library/PrivateFrameworks/SoftwareUpdateCoreSupport.framework/SoftwareUpdateCoreSupport](DYLIBS/SoftwareUpdateCoreSupport.md)
+- [/System/Library/PrivateFrameworks/SoftwareUpdateServices.framework/SoftwareUpdateServices](DYLIBS/SoftwareUpdateServices.md)
+- [/System/Library/PrivateFrameworks/SoftwareUpdateServicesUI.framework/SoftwareUpdateServicesUI](DYLIBS/SoftwareUpdateServicesUI.md)
+- [/System/Library/PrivateFrameworks/SoftwareUpdateSettings.framework/SoftwareUpdateSettings](DYLIBS/SoftwareUpdateSettings.md)
+- [/System/Library/PrivateFrameworks/SoftwareUpdateSettingsUI.framework/SoftwareUpdateSettingsUI](DYLIBS/SoftwareUpdateSettingsUI.md)
+- [/System/Library/PrivateFrameworks/SoftwareUpdateUIFoundation.framework/SoftwareUpdateUIFoundation](DYLIBS/SoftwareUpdateUIFoundation.md)
+- [/System/Library/PrivateFrameworks/SoftwareUpdateUIKit.framework/SoftwareUpdateUIKit](DYLIBS/SoftwareUpdateUIKit.md)
+- [/System/Library/PrivateFrameworks/SoftwareUpdateUIMobile.framework/SoftwareUpdateUIMobile](DYLIBS/SoftwareUpdateUIMobile.md)
+- [/System/Library/PrivateFrameworks/SonicFoundation.framework/SonicFoundation](DYLIBS/SonicFoundation.md)
+- [/System/Library/PrivateFrameworks/SonicKit.framework/SonicKit](DYLIBS/SonicKit.md)
+- [/System/Library/PrivateFrameworks/SpaceAttribution.framework/SpaceAttribution](DYLIBS/SpaceAttribution.md)
+- [/System/Library/PrivateFrameworks/SpatialInspectorFoundation.framework/SpatialInspectorFoundation](DYLIBS/SpatialInspectorFoundation.md)
+- [/System/Library/PrivateFrameworks/SpeakerRecognition.framework/SpeakerRecognition](DYLIBS/SpeakerRecognition.md)
+- [/System/Library/PrivateFrameworks/SpeechRecognitionCommandAndControl.framework/SpeechRecognitionCommandAndControl](DYLIBS/SpeechRecognitionCommandAndControl.md)
+- [/System/Library/PrivateFrameworks/SpeechRecognitionCommandServices.framework/SpeechRecognitionCommandServices](DYLIBS/SpeechRecognitionCommandServices.md)
+- [/System/Library/PrivateFrameworks/SpeechRecognitionSharedSupport.framework/SpeechRecognitionSharedSupport](DYLIBS/SpeechRecognitionSharedSupport.md)
+- [/System/Library/PrivateFrameworks/SpeechTranslation.framework/SpeechTranslation](DYLIBS/SpeechTranslation.md)
+- [/System/Library/PrivateFrameworks/SportsKit.framework/SportsKit](DYLIBS/SportsKit.md)
+- [/System/Library/PrivateFrameworks/Spotlight.framework/Spotlight](DYLIBS/Spotlight.md)
+- [/System/Library/PrivateFrameworks/SpotlightDaemon.framework/SpotlightDaemon](DYLIBS/SpotlightDaemon.md)
+- [/System/Library/PrivateFrameworks/SpotlightEmbedding.framework/SpotlightEmbedding](DYLIBS/SpotlightEmbedding.md)
+- [/System/Library/PrivateFrameworks/SpotlightFoundation.framework/SpotlightFoundation](DYLIBS/SpotlightFoundation.md)
+- [/System/Library/PrivateFrameworks/SpotlightIndex.framework/SpotlightIndex](DYLIBS/SpotlightIndex.md)
+- [/System/Library/PrivateFrameworks/SpotlightKnowledgeDaemon.framework/SpotlightKnowledgeDaemon](DYLIBS/SpotlightKnowledgeDaemon.md)
+- [/System/Library/PrivateFrameworks/SpotlightLinguistics.framework/SpotlightLinguistics](DYLIBS/SpotlightLinguistics.md)
+- [/System/Library/PrivateFrameworks/SpotlightRecommendation.framework/SpotlightRecommendation](DYLIBS/SpotlightRecommendation.md)
+- [/System/Library/PrivateFrameworks/SpotlightResources.framework/SpotlightResources](DYLIBS/SpotlightResources.md)
+- [/System/Library/PrivateFrameworks/SpotlightServices.framework/SpotlightServices](DYLIBS/SpotlightServices.md)
+- [/System/Library/PrivateFrameworks/SpotlightUIServices.framework/SpotlightUIServices](DYLIBS/SpotlightUIServices.md)
+- [/System/Library/PrivateFrameworks/SpotlightUIShared.framework/SpotlightUIShared](DYLIBS/SpotlightUIShared.md)
+- [/System/Library/PrivateFrameworks/SpringBoard.framework/SpringBoard](DYLIBS/SpringBoard.md)
+- [/System/Library/PrivateFrameworks/SpringBoardDisplay.framework/SpringBoardDisplay](DYLIBS/SpringBoardDisplay.md)
+- [/System/Library/PrivateFrameworks/SpringBoardDisplayServices.framework/SpringBoardDisplayServices](DYLIBS/SpringBoardDisplayServices.md)
+- [/System/Library/PrivateFrameworks/SpringBoardFoundation.framework/SpringBoardFoundation](DYLIBS/SpringBoardFoundation.md)
+- [/System/Library/PrivateFrameworks/SpringBoardHome.framework/SpringBoardHome](DYLIBS/SpringBoardHome.md)
+- [/System/Library/PrivateFrameworks/StatusKit.framework/StatusKit](DYLIBS/StatusKit.md)
+- [/System/Library/PrivateFrameworks/StatusKitAgentCore.framework/StatusKitAgentCore](DYLIBS/StatusKitAgentCore.md)
+- [/System/Library/PrivateFrameworks/Stickers.framework/Stickers](DYLIBS/Stickers.md)
+- [/System/Library/PrivateFrameworks/Stickers.framework/Support/RecencyService.framework/RecencyService](DYLIBS/RecencyService.md)
+- [/System/Library/PrivateFrameworks/StickersUI.framework/StickersUI](DYLIBS/StickersUI.md)
+- [/System/Library/PrivateFrameworks/StocksAnalytics.framework/StocksAnalytics](DYLIBS/StocksAnalytics.md)
+- [/System/Library/PrivateFrameworks/StocksCore.framework/StocksCore](DYLIBS/StocksCore.md)
+- [/System/Library/PrivateFrameworks/StocksKit.framework/StocksKit](DYLIBS/StocksKit.md)
+- [/System/Library/PrivateFrameworks/StocksPersonalization.framework/StocksPersonalization](DYLIBS/StocksPersonalization.md)
+- [/System/Library/PrivateFrameworks/StocksUI.framework/StocksUI](DYLIBS/StocksUI.md)
+- [/System/Library/PrivateFrameworks/StorageUI.framework/StorageUI](DYLIBS/StorageUI.md)
+- [/System/Library/PrivateFrameworks/StoreKitUI.framework/StoreKitUI](DYLIBS/StoreKitUI.md)
+- [/System/Library/PrivateFrameworks/StoreServices.framework/StoreServices](DYLIBS/StoreServices.md)
+- [/System/Library/PrivateFrameworks/StrokeAnimation.framework/StrokeAnimation](DYLIBS/StrokeAnimation.md)
+- [/System/Library/PrivateFrameworks/SuggestionsSpotlightMetrics.framework/SuggestionsSpotlightMetrics](DYLIBS/SuggestionsSpotlightMetrics.md)
+- [/System/Library/PrivateFrameworks/SummarizationKit.framework/SummarizationKit](DYLIBS/SummarizationKit.md)
+- [/System/Library/PrivateFrameworks/SupportFlowCore.framework/SupportFlowCore](DYLIBS/SupportFlowCore.md)
+- [/System/Library/PrivateFrameworks/SupportFlowUI.framework/SupportFlowUI](DYLIBS/SupportFlowUI.md)
+- [/System/Library/PrivateFrameworks/SupportServices.framework/SupportServices](DYLIBS/SupportServices.md)
+- [/System/Library/PrivateFrameworks/SwiftCRLite.framework/SwiftCRLite](DYLIBS/SwiftCRLite.md)
+- [/System/Library/PrivateFrameworks/SwiftMLS.framework/SwiftMLS](DYLIBS/SwiftMLS.md)
+- [/System/Library/PrivateFrameworks/SwiftSQLite.framework/SwiftSQLite](DYLIBS/SwiftSQLite.md)
+- [/System/Library/PrivateFrameworks/SwiftTLS.framework/SwiftTLS](DYLIBS/SwiftTLS.md)
+- [/System/Library/PrivateFrameworks/Symbolication.framework/Symbolication](DYLIBS/Symbolication.md)
+- [/System/Library/PrivateFrameworks/SymptomDistribution.framework/SymptomDistribution](DYLIBS/SymptomDistribution.md)
+- [/System/Library/PrivateFrameworks/SymptomNetworkDiagnostics.framework/SymptomNetworkDiagnostics](DYLIBS/SymptomNetworkDiagnostics.md)
+- [/System/Library/PrivateFrameworks/SymptomNetworkDiagnosticsCommon.framework/SymptomNetworkDiagnosticsCommon](DYLIBS/SymptomNetworkDiagnosticsCommon.md)
+- [/System/Library/PrivateFrameworks/SymptomNetworkDiagnosticsCore.framework/SymptomNetworkDiagnosticsCore](DYLIBS/SymptomNetworkDiagnosticsCore.md)
+- [/System/Library/PrivateFrameworks/Symptoms.framework/Frameworks/SymptomEvaluator.framework/SymptomEvaluator](DYLIBS/SymptomEvaluator.md)
+- [/System/Library/PrivateFrameworks/SyncedModels.framework/SyncedModels](DYLIBS/SyncedModels.md)
+- [/System/Library/PrivateFrameworks/SystemStatusUI.framework/SystemStatusUI](DYLIBS/SystemStatusUI.md)
+- [/System/Library/PrivateFrameworks/SystemUIAnimationKit.framework/SystemUIAnimationKit](DYLIBS/SystemUIAnimationKit.md)
+- [/System/Library/PrivateFrameworks/SystemUISecureFlipBookUtilities.framework/SystemUISecureFlipBookUtilities](DYLIBS/SystemUISecureFlipBookUtilities.md)
+- [/System/Library/PrivateFrameworks/SystemVoiceAssistantServices.framework/SystemVoiceAssistantServices](DYLIBS/SystemVoiceAssistantServices.md)
+- [/System/Library/PrivateFrameworks/TCC.framework/TCC](DYLIBS/TCC.md)
+- [/System/Library/PrivateFrameworks/TDGSharing.framework/TDGSharing](DYLIBS/TDGSharing.md)
+- [/System/Library/PrivateFrameworks/TVAppServices.framework/TVAppServices](DYLIBS/TVAppServices.md)
+- [/System/Library/PrivateFrameworks/TVRemoteUI.framework/TVRemoteUI](DYLIBS/TVRemoteUI.md)
+- [/System/Library/PrivateFrameworks/TeaBreeze.framework/TeaBreeze](DYLIBS/TeaBreeze.md)
+- [/System/Library/PrivateFrameworks/TeaCharts.framework/TeaCharts](DYLIBS/TeaCharts.md)
+- [/System/Library/PrivateFrameworks/TeaDB.framework/TeaDB](DYLIBS/TeaDB.md)
+- [/System/Library/PrivateFrameworks/TeaFoundation.framework/TeaFoundation](DYLIBS/TeaFoundation.md)
+- [/System/Library/PrivateFrameworks/TeaSnappy.framework/TeaSnappy](DYLIBS/TeaSnappy.md)
+- [/System/Library/PrivateFrameworks/TeaState.framework/TeaState](DYLIBS/TeaState.md)
+- [/System/Library/PrivateFrameworks/TeaUI.framework/TeaUI](DYLIBS/TeaUI.md)
+- [/System/Library/PrivateFrameworks/TelephonyBlastDoorSupport.framework/TelephonyBlastDoorSupport](DYLIBS/TelephonyBlastDoorSupport.md)
+- [/System/Library/PrivateFrameworks/TelephonyKit.framework/TelephonyKit](DYLIBS/TelephonyKit.md)
+- [/System/Library/PrivateFrameworks/TelephonyRPC.framework/TelephonyRPC](DYLIBS/TelephonyRPC.md)
+- [/System/Library/PrivateFrameworks/TelephonyUI.framework/TelephonyUI](DYLIBS/TelephonyUI.md)
+- [/System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities](DYLIBS/TelephonyUtilities.md)
+- [/System/Library/PrivateFrameworks/TemplateKit.framework/TemplateKit](DYLIBS/TemplateKit.md)
+- [/System/Library/PrivateFrameworks/TestFlightCore.framework/TestFlightCore](DYLIBS/TestFlightCore.md)
+- [/System/Library/PrivateFrameworks/TextAnimationSupport.framework/TextAnimationSupport](DYLIBS/TextAnimationSupport.md)
+- [/System/Library/PrivateFrameworks/TextComposer.framework/TextComposer](DYLIBS/TextComposer.md)
+- [/System/Library/PrivateFrameworks/TextInput.framework/TextInput](DYLIBS/TextInput.md)
+- [/System/Library/PrivateFrameworks/TextInputCore.framework/TextInputCore](DYLIBS/TextInputCore.md)
+- [/System/Library/PrivateFrameworks/TextInputTestingKit.framework/TextInputTestingKit](DYLIBS/TextInputTestingKit.md)
+- [/System/Library/PrivateFrameworks/TextInputUI.framework/TextInputUI](DYLIBS/TextInputUI.md)
+- [/System/Library/PrivateFrameworks/TextRecognition.framework/TextRecognition](DYLIBS/TextRecognition.md)
+- [/System/Library/PrivateFrameworks/TextToSpeech.framework/TextToSpeech](DYLIBS/TextToSpeech.md)
+- [/System/Library/PrivateFrameworks/TextToSpeechBundleSupport.framework/TextToSpeechBundleSupport](DYLIBS/TextToSpeechBundleSupport.md)
+- [/System/Library/PrivateFrameworks/TextToSpeechVoiceBankingSupport.framework/TextToSpeechVoiceBankingSupport](DYLIBS/TextToSpeechVoiceBankingSupport.md)
+- [/System/Library/PrivateFrameworks/TextToSpeechVoiceBankingUI.framework/TextToSpeechVoiceBankingUI](DYLIBS/TextToSpeechVoiceBankingUI.md)
+- [/System/Library/PrivateFrameworks/TextUnderstanding.framework/TextUnderstanding](DYLIBS/TextUnderstanding.md)
+- [/System/Library/PrivateFrameworks/TextUnderstandingRuntime.framework/TextUnderstandingRuntime](DYLIBS/TextUnderstandingRuntime.md)
+- [/System/Library/PrivateFrameworks/TextUnderstandingShared.framework/TextUnderstandingShared](DYLIBS/TextUnderstandingShared.md)
+- [/System/Library/PrivateFrameworks/ThirdPartyApplicationSettings.framework/ThirdPartyApplicationSettings](DYLIBS/ThirdPartyApplicationSettings.md)
+- [/System/Library/PrivateFrameworks/ThreatNotificationCore.framework/ThreatNotificationCore](DYLIBS/ThreatNotificationCore.md)
+- [/System/Library/PrivateFrameworks/ThreatNotificationUI.framework/ThreatNotificationUI](DYLIBS/ThreatNotificationUI.md)
+- [/System/Library/PrivateFrameworks/Tightbeam.framework/Tightbeam](DYLIBS/Tightbeam.md)
+- [/System/Library/PrivateFrameworks/TipKitCore.framework/TipKitCore](DYLIBS/TipKitCore.md)
+- [/System/Library/PrivateFrameworks/TipsCore.framework/TipsCore](DYLIBS/TipsCore.md)
+- [/System/Library/PrivateFrameworks/TipsDaemon.framework/TipsDaemon](DYLIBS/TipsDaemon.md)
+- [/System/Library/PrivateFrameworks/TipsUI.framework/TipsUI](DYLIBS/TipsUI.md)
+- [/System/Library/PrivateFrameworks/TokenGeneration.framework/TokenGeneration](DYLIBS/TokenGeneration.md)
+- [/System/Library/PrivateFrameworks/TokenGenerationCore.framework/TokenGenerationCore](DYLIBS/TokenGenerationCore.md)
+- [/System/Library/PrivateFrameworks/TokenGenerationInference.framework/TokenGenerationInference](DYLIBS/TokenGenerationInference.md)
+- [/System/Library/PrivateFrameworks/ToneLibrary.framework/ToneLibrary](DYLIBS/ToneLibrary.md)
+- [/System/Library/PrivateFrameworks/ToolKit.framework/ToolKit](DYLIBS/ToolKit.md)
+- [/System/Library/PrivateFrameworks/TranslationAPISupport.framework/TranslationAPISupport](DYLIBS/TranslationAPISupport.md)
+- [/System/Library/PrivateFrameworks/TranslationDaemon.framework/TranslationDaemon](DYLIBS/TranslationDaemon.md)
+- [/System/Library/PrivateFrameworks/TranslationInference.framework/TranslationInference](DYLIBS/TranslationInference.md)
+- [/System/Library/PrivateFrameworks/TranslationPersistence.framework/TranslationPersistence](DYLIBS/TranslationPersistence.md)
+- [/System/Library/PrivateFrameworks/TranslationUI.framework/TranslationUI](DYLIBS/TranslationUI.md)
+- [/System/Library/PrivateFrameworks/TranslationUIServices.framework/TranslationUIServices](DYLIBS/TranslationUIServices.md)
+- [/System/Library/PrivateFrameworks/Transparency.framework/Transparency](DYLIBS/Transparency.md)
+- [/System/Library/PrivateFrameworks/TrialServer.framework/TrialServer](DYLIBS/TrialServer.md)
+- [/System/Library/PrivateFrameworks/TrustKit.framework/TrustKit](DYLIBS/TrustKit.md)
+- [/System/Library/PrivateFrameworks/TurnManagerService.framework/TurnManagerService](DYLIBS/TurnManagerService.md)
+- [/System/Library/PrivateFrameworks/UARPKit.framework/UARPKit](DYLIBS/UARPKit.md)
+- [/System/Library/PrivateFrameworks/UARPiCloud.framework/UARPiCloud](DYLIBS/UARPiCloud.md)
+- [/System/Library/PrivateFrameworks/UIAccessibility.framework/UIAccessibility](DYLIBS/UIAccessibility.md)
+- [/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation](DYLIBS/UIFoundation.md)
+- [/System/Library/PrivateFrameworks/UIGrounding.framework/UIGrounding](DYLIBS/UIGrounding.md)
+- [/System/Library/PrivateFrameworks/UIIntelligenceIntents.framework/UIIntelligenceIntents](DYLIBS/UIIntelligenceIntents.md)
+- [/System/Library/PrivateFrameworks/UIIntelligenceInteraction.framework/UIIntelligenceInteraction](DYLIBS/UIIntelligenceInteraction.md)
+- [/System/Library/PrivateFrameworks/UIIntelligenceSupport.framework/UIIntelligenceSupport](DYLIBS/UIIntelligenceSupport.md)
+- [/System/Library/PrivateFrameworks/UIIntelligenceSupportAgent.framework/UIIntelligenceSupportAgent](DYLIBS/UIIntelligenceSupportAgent.md)
+- [/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore](DYLIBS/UIKitCore.md)
+- [/System/Library/PrivateFrameworks/UIUnderstanding.framework/UIUnderstanding](DYLIBS/UIUnderstanding.md)
+- [/System/Library/PrivateFrameworks/ULPNHeuristicsClientFramework.framework/ULPNHeuristicsClientFramework](DYLIBS/ULPNHeuristicsClientFramework.md)
+- [/System/Library/PrivateFrameworks/UnifiedAssetFramework.framework/UnifiedAssetFramework](DYLIBS/UnifiedAssetFramework.md)
+- [/System/Library/PrivateFrameworks/UnifiedMessagingKit.framework/UnifiedMessagingKit](DYLIBS/UnifiedMessagingKit.md)
+- [/System/Library/PrivateFrameworks/UnilogCommonLibrary.framework/UnilogCommonLibrary](DYLIBS/UnilogCommonLibrary.md)
+- [/System/Library/PrivateFrameworks/UnilogConfig.framework/UnilogConfig](DYLIBS/UnilogConfig.md)
+- [/System/Library/PrivateFrameworks/UnilogCoordination.framework/UnilogCoordination](DYLIBS/UnilogCoordination.md)
+- [/System/Library/PrivateFrameworks/UnilogIngestion.framework/UnilogIngestion](DYLIBS/UnilogIngestion.md)
+- [/System/Library/PrivateFrameworks/UnilogInstrumentation.framework/UnilogInstrumentation](DYLIBS/UnilogInstrumentation.md)
+- [/System/Library/PrivateFrameworks/UnilogStreamAlgorithms.framework/UnilogStreamAlgorithms](DYLIBS/UnilogStreamAlgorithms.md)
+- [/System/Library/PrivateFrameworks/UnilogTelemetry.framework/UnilogTelemetry](DYLIBS/UnilogTelemetry.md)
+- [/System/Library/PrivateFrameworks/UniversalDrag.framework/UniversalDrag](DYLIBS/UniversalDrag.md)
+- [/System/Library/PrivateFrameworks/UniversalHID.framework/UniversalHID](DYLIBS/UniversalHID.md)
+- [/System/Library/PrivateFrameworks/UniversalHIDKit.framework/UniversalHIDKit](DYLIBS/UniversalHIDKit.md)
+- [/System/Library/PrivateFrameworks/UrchinKit.framework/UrchinKit](DYLIBS/UrchinKit.md)
+- [/System/Library/PrivateFrameworks/UsageTracking.framework/UsageTracking](DYLIBS/UsageTracking.md)
+- [/System/Library/PrivateFrameworks/UserDomainConceptsSupport.framework/UserDomainConceptsSupport](DYLIBS/UserDomainConceptsSupport.md)
+- [/System/Library/PrivateFrameworks/UserNotificationsCore.framework/UserNotificationsCore](DYLIBS/UserNotificationsCore.md)
+- [/System/Library/PrivateFrameworks/UserNotificationsKit.framework/UserNotificationsKit](DYLIBS/UserNotificationsKit.md)
+- [/System/Library/PrivateFrameworks/UserNotificationsServer.framework/UserNotificationsServer](DYLIBS/UserNotificationsServer.md)
+- [/System/Library/PrivateFrameworks/UserNotificationsServices.framework/UserNotificationsServices](DYLIBS/UserNotificationsServices.md)
+- [/System/Library/PrivateFrameworks/UserNotificationsUIKit.framework/UserNotificationsUIKit](DYLIBS/UserNotificationsUIKit.md)
+- [/System/Library/PrivateFrameworks/VDAF.framework/VDAF](DYLIBS/VDAF.md)
+- [/System/Library/PrivateFrameworks/VFX.framework/VFX](DYLIBS/VFX.md)
+- [/System/Library/PrivateFrameworks/VectorKit.framework/VectorKit](DYLIBS/VectorKit.md)
+- [/System/Library/PrivateFrameworks/VectorSearch.framework/VectorSearch](DYLIBS/VectorSearch.md)
+- [/System/Library/PrivateFrameworks/VideoIntelligence.framework/VideoIntelligence](DYLIBS/VideoIntelligence.md)
+- [/System/Library/PrivateFrameworks/VideosUI.framework/VideosUI](DYLIBS/VideosUI.md)
+- [/System/Library/PrivateFrameworks/VideosUICore.framework/VideosUICore](DYLIBS/VideosUICore.md)
+- [/System/Library/PrivateFrameworks/VirtualGarage.framework/VirtualGarage](DYLIBS/VirtualGarage.md)
+- [/System/Library/PrivateFrameworks/VisionCompanion.framework/VisionCompanion](DYLIBS/VisionCompanion.md)
+- [/System/Library/PrivateFrameworks/VisionCompanionServices.framework/VisionCompanionServices](DYLIBS/VisionCompanionServices.md)
+- [/System/Library/PrivateFrameworks/VisionKitCore.framework/VisionKitCore](DYLIBS/VisionKitCore.md)
+- [/System/Library/PrivateFrameworks/VisualActionPrediction.framework/VisualActionPrediction](DYLIBS/VisualActionPrediction.md)
+- [/System/Library/PrivateFrameworks/VisualActionPredictionCore.framework/VisualActionPredictionCore](DYLIBS/VisualActionPredictionCore.md)
+- [/System/Library/PrivateFrameworks/VisualActionPredictionSupport.framework/VisualActionPredictionSupport](DYLIBS/VisualActionPredictionSupport.md)
+- [/System/Library/PrivateFrameworks/VisualGeneration.framework/VisualGeneration](DYLIBS/VisualGeneration.md)
+- [/System/Library/PrivateFrameworks/VisualIntelligenceCore.framework/VisualIntelligenceCore](DYLIBS/VisualIntelligenceCore.md)
+- [/System/Library/PrivateFrameworks/VisualIntelligenceCoreDDSupport.framework/VisualIntelligenceCoreDDSupport](DYLIBS/VisualIntelligenceCoreDDSupport.md)
+- [/System/Library/PrivateFrameworks/VisualIntelligenceUI.framework/VisualIntelligenceUI](DYLIBS/VisualIntelligenceUI.md)
+- [/System/Library/PrivateFrameworks/VisualLocalization.framework/VisualLocalization](DYLIBS/VisualLocalization.md)
+- [/System/Library/PrivateFrameworks/VisualLookUp.framework/VisualLookUp](DYLIBS/VisualLookUp.md)
+- [/System/Library/PrivateFrameworks/VisualMappingKit.framework/VisualMappingKit](DYLIBS/VisualMappingKit.md)
+- [/System/Library/PrivateFrameworks/VisualUnderstanding.framework/VisualUnderstanding](DYLIBS/VisualUnderstanding.md)
+- [/System/Library/PrivateFrameworks/VoiceActions.framework/VoiceActions](DYLIBS/VoiceActions.md)
+- [/System/Library/PrivateFrameworks/VoiceControl.framework/VoiceControl](DYLIBS/VoiceControl.md)
+- [/System/Library/PrivateFrameworks/VoiceControlUI.framework/VoiceControlUI](DYLIBS/VoiceControlUI.md)
+- [/System/Library/PrivateFrameworks/VoiceOverServices.framework/VoiceOverServices](DYLIBS/VoiceOverServices.md)
+- [/System/Library/PrivateFrameworks/VoiceProcessor.framework/VoiceProcessor](DYLIBS/VoiceProcessor.md)
+- [/System/Library/PrivateFrameworks/VoiceShortcutClient.framework/VoiceShortcutClient](DYLIBS/VoiceShortcutClient.md)
+- [/System/Library/PrivateFrameworks/VoiceShortcuts.framework/VoiceShortcuts](DYLIBS/VoiceShortcuts.md)
+- [/System/Library/PrivateFrameworks/VoiceTrigger.framework/VoiceTrigger](DYLIBS/VoiceTrigger.md)
+- [/System/Library/PrivateFrameworks/WPDaemon.framework/WPDaemon](DYLIBS/WPDaemon.md)
+- [/System/Library/PrivateFrameworks/WalletBlastDoorSupport.framework/WalletBlastDoorSupport](DYLIBS/WalletBlastDoorSupport.md)
+- [/System/Library/PrivateFrameworks/WallpaperKit.framework/WallpaperKit](DYLIBS/WallpaperKit.md)
+- [/System/Library/PrivateFrameworks/WatchFacesWallpaperSupport.framework/WatchFacesWallpaperSupport](DYLIBS/WatchFacesWallpaperSupport.md)
+- [/System/Library/PrivateFrameworks/WatchListKit.framework/WatchListKit](DYLIBS/WatchListKit.md)
+- [/System/Library/PrivateFrameworks/WeatherAnalytics.framework/WeatherAnalytics](DYLIBS/WeatherAnalytics.md)
+- [/System/Library/PrivateFrameworks/WeatherAppSupport.framework/WeatherAppSupport](DYLIBS/WeatherAppSupport.md)
+- [/System/Library/PrivateFrameworks/WeatherCore.framework/WeatherCore](DYLIBS/WeatherCore.md)
+- [/System/Library/PrivateFrameworks/WeatherDaemon.framework/WeatherDaemon](DYLIBS/WeatherDaemon.md)
+- [/System/Library/PrivateFrameworks/WeatherMaps.framework/WeatherMaps](DYLIBS/WeatherMaps.md)
+- [/System/Library/PrivateFrameworks/WeatherUI.framework/WeatherUI](DYLIBS/WeatherUI.md)
+- [/System/Library/PrivateFrameworks/WebBookmarks.framework/WebBookmarks](DYLIBS/WebBookmarks.md)
+- [/System/Library/PrivateFrameworks/WebBookmarksSwift.framework/WebBookmarksSwift](DYLIBS/WebBookmarksSwift.md)
+- [/System/Library/PrivateFrameworks/WebCore.framework/Frameworks/libANGLE-shared.dylib](DYLIBS/libANGLE-shared.dylib.md)
+- [/System/Library/PrivateFrameworks/WebCore.framework/WebCore](DYLIBS/WebCore.md)
+- [/System/Library/PrivateFrameworks/WebGPU.framework/WebGPU](DYLIBS/WebGPU.md)
+- [/System/Library/PrivateFrameworks/WebKitLegacy.framework/WebKitLegacy](DYLIBS/WebKitLegacy.md)
+- [/System/Library/PrivateFrameworks/WebUI.framework/WebUI](DYLIBS/WebUI.md)
+- [/System/Library/PrivateFrameworks/Welcome.framework/Welcome](DYLIBS/Welcome.md)
+- [/System/Library/PrivateFrameworks/WelcomeKitUI.framework/WelcomeKitUI](DYLIBS/WelcomeKitUI.md)
+- [/System/Library/PrivateFrameworks/WiFiAnalytics.framework/WiFiAnalytics](DYLIBS/WiFiAnalytics.md)
+- [/System/Library/PrivateFrameworks/WiFiKit.framework/WiFiKit](DYLIBS/WiFiKit.md)
+- [/System/Library/PrivateFrameworks/WiFiKitUI.framework/WiFiKitUI](DYLIBS/WiFiKitUI.md)
+- [/System/Library/PrivateFrameworks/WiFiPeerToPeer.framework/WiFiPeerToPeer](DYLIBS/WiFiPeerToPeer.md)
+- [/System/Library/PrivateFrameworks/WiFiPolicy.framework/WiFiPolicy](DYLIBS/WiFiPolicy.md)
+- [/System/Library/PrivateFrameworks/WiFiSettingsKit.framework/WiFiSettingsKit](DYLIBS/WiFiSettingsKit.md)
+- [/System/Library/PrivateFrameworks/WidgetRenderer.framework/WidgetRenderer](DYLIBS/WidgetRenderer.md)
+- [/System/Library/PrivateFrameworks/WorkflowEditor.framework/WorkflowEditor](DYLIBS/WorkflowEditor.md)
+- [/System/Library/PrivateFrameworks/WorkflowKit.framework/WorkflowKit](DYLIBS/WorkflowKit.md)
+- [/System/Library/PrivateFrameworks/WorkflowResponsiveness.framework/WorkflowResponsiveness](DYLIBS/WorkflowResponsiveness.md)
+- [/System/Library/PrivateFrameworks/WorkflowUI.framework/WorkflowUI](DYLIBS/WorkflowUI.md)
+- [/System/Library/PrivateFrameworks/WorkflowUICore.framework/WorkflowUICore](DYLIBS/WorkflowUICore.md)
+- [/System/Library/PrivateFrameworks/WorkflowUIServices.framework/WorkflowUIServices](DYLIBS/WorkflowUIServices.md)
+- [/System/Library/PrivateFrameworks/WorkoutAnnouncements.framework/WorkoutAnnouncements](DYLIBS/WorkoutAnnouncements.md)
+- [/System/Library/PrivateFrameworks/WorkoutCore.framework/WorkoutCore](DYLIBS/WorkoutCore.md)
+- [/System/Library/PrivateFrameworks/WorkoutKitUI.framework/WorkoutKitUI](DYLIBS/WorkoutKitUI.md)
+- [/System/Library/PrivateFrameworks/WorkoutUI.framework/WorkoutUI](DYLIBS/WorkoutUI.md)
+- [/System/Library/PrivateFrameworks/WorldAwareSpatialAudio.framework/WorldAwareSpatialAudio](DYLIBS/WorldAwareSpatialAudio.md)
+- [/System/Library/PrivateFrameworks/XOJIT.framework/XOJIT](DYLIBS/XOJIT.md)
+- [/System/Library/PrivateFrameworks/XPCDistributed.framework/XPCDistributed](DYLIBS/XPCDistributed.md)
+- [/System/Library/PrivateFrameworks/XavierNews.framework/XavierNews](DYLIBS/XavierNews.md)
+- [/System/Library/PrivateFrameworks/ZeoliteFramework.framework/ZeoliteFramework](DYLIBS/ZeoliteFramework.md)
+- [/System/Library/PrivateFrameworks/ZeoliteLanguage.framework/ZeoliteLanguage](DYLIBS/ZeoliteLanguage.md)
+- [/System/Library/PrivateFrameworks/_AppIntentsServices_AppIntents.framework/_AppIntentsServices_AppIntents](DYLIBS/_AppIntentsServices_AppIntents.md)
+- [/System/Library/PrivateFrameworks/_AppIntentsServices_ToolKit.framework/_AppIntentsServices_ToolKit](DYLIBS/_AppIntentsServices_ToolKit.md)
+- [/System/Library/PrivateFrameworks/_GeoServices_GeoToolbox.framework/_GeoServices_GeoToolbox](DYLIBS/_GeoServices_GeoToolbox.md)
+- [/System/Library/PrivateFrameworks/_GeoToolbox_CoreLocation.framework/_GeoToolbox_CoreLocation](DYLIBS/_GeoToolbox_CoreLocation.md)
+- [/System/Library/PrivateFrameworks/_JetEngine_SwiftUI.framework/_JetEngine_SwiftUI](DYLIBS/_JetEngine_SwiftUI.md)
+- [/System/Library/PrivateFrameworks/_JetUI_SwiftUI.framework/_JetUI_SwiftUI](DYLIBS/_JetUI_SwiftUI.md)
+- [/System/Library/PrivateFrameworks/_MediaPlayer_AppIntents.framework/_MediaPlayer_AppIntents](DYLIBS/_MediaPlayer_AppIntents.md)
+- [/System/Library/PrivateFrameworks/_MusicKitInternal_MediaPlaybackCore.framework/_MusicKitInternal_MediaPlaybackCore](DYLIBS/_MusicKitInternal_MediaPlaybackCore.md)
+- [/System/Library/PrivateFrameworks/_MusicKitInternal_MediaPlayer.framework/_MusicKitInternal_MediaPlayer](DYLIBS/_MusicKitInternal_MediaPlayer.md)
+- [/System/Library/PrivateFrameworks/_MusicKitInternal_SwiftUI.framework/_MusicKitInternal_SwiftUI](DYLIBS/_MusicKitInternal_SwiftUI.md)
+- [/System/Library/PrivateFrameworks/_OnDeviceStorage_JetEngine.framework/_OnDeviceStorage_JetEngine](DYLIBS/_OnDeviceStorage_JetEngine.md)
+- [/System/Library/PrivateFrameworks/_PhotosUIPrivate_SwiftUI.framework/_PhotosUIPrivate_SwiftUI](DYLIBS/_PhotosUIPrivate_SwiftUI.md)
+- [/System/Library/PrivateFrameworks/_SonicKit_MusicKit.framework/_SonicKit_MusicKit](DYLIBS/_SonicKit_MusicKit.md)
+- [/System/Library/PrivateFrameworks/_SonicKit_MusicKit_Packages.framework/_SonicKit_MusicKit_Packages](DYLIBS/_SonicKit_MusicKit_Packages.md)
+- [/System/Library/PrivateFrameworks/_ToolKit_AppIntents.framework/_ToolKit_AppIntents](DYLIBS/_ToolKit_AppIntents.md)
+- [/System/Library/PrivateFrameworks/iCloudCalendarUnifiedSettings.framework/iCloudCalendarUnifiedSettings](DYLIBS/iCloudCalendarUnifiedSettings.md)
+- [/System/Library/PrivateFrameworks/iCloudDriveCore.framework/iCloudDriveCore](DYLIBS/iCloudDriveCore.md)
+- [/System/Library/PrivateFrameworks/iCloudMailAccountUI.framework/iCloudMailAccountUI](DYLIBS/iCloudMailAccountUI.md)
+- [/System/Library/PrivateFrameworks/iCloudMailAssistant.framework/iCloudMailAssistant](DYLIBS/iCloudMailAssistant.md)
+- [/System/Library/PrivateFrameworks/iCloudMailUnifiedSettings.framework/iCloudMailUnifiedSettings](DYLIBS/iCloudMailUnifiedSettings.md)
+- [/System/Library/PrivateFrameworks/iCloudQuota.framework/iCloudQuota](DYLIBS/iCloudQuota.md)
+- [/System/Library/PrivateFrameworks/iCloudQuotaUI.framework/iCloudQuotaUI](DYLIBS/iCloudQuotaUI.md)
+- [/System/Library/PrivateFrameworks/iCloudSettings.framework/iCloudSettings](DYLIBS/iCloudSettings.md)
+- [/System/Library/PrivateFrameworks/iCloudSubscriptionOptimizerCore.framework/iCloudSubscriptionOptimizerCore](DYLIBS/iCloudSubscriptionOptimizerCore.md)
+- [/System/Library/PrivateFrameworks/iCloudSubscriptionOptimizerDaemon.framework/iCloudSubscriptionOptimizerDaemon](DYLIBS/iCloudSubscriptionOptimizerDaemon.md)
+- [/System/Library/PrivateFrameworks/iCloudSubscriptionOptimizerLighthouse.framework/iCloudSubscriptionOptimizerLighthouse](DYLIBS/iCloudSubscriptionOptimizerLighthouse.md)
+- [/System/Library/PrivateFrameworks/iCloudWebData.framework/iCloudWebData](DYLIBS/iCloudWebData.md)
+- [/System/Library/PrivateFrameworks/iCloudWebUI.framework/iCloudWebUI](DYLIBS/iCloudWebUI.md)
+- [/System/Library/PrivateFrameworks/iTunesCloud.framework/iTunesCloud](DYLIBS/iTunesCloud.md)
+- [/System/Library/PrivateFrameworks/iTunesStoreUI.framework/iTunesStoreUI](DYLIBS/iTunesStoreUI.md)
+- [/System/Library/PrivateFrameworks/iWorkImport.framework/Frameworks/TSCollaborationKit.framework/TSCollaborationKit](DYLIBS/TSCollaborationKit.md)
+- [/System/Library/PrivateFrameworks/iWorkImport.framework/Frameworks/TSPersistence.framework/TSPersistence](DYLIBS/TSPersistence.md)
+- [/System/Library/PrivateFrameworks/iWorkImport.framework/Frameworks/TSText.framework/TSText](DYLIBS/TSText.md)
+- [/System/Library/PrivateFrameworks/iWorkImport.framework/Frameworks/TSUtility.framework/TSUtility](DYLIBS/TSUtility.md)
+- [/System/Library/PrivateFrameworks/icloudMCCKit.framework/icloudMCCKit](DYLIBS/icloudMCCKit.md)
+- [/System/Library/PrivateFrameworks/ktrace.framework/ktrace](DYLIBS/ktrace.md)
+- [/System/Library/TextInput/TextInput_ta.bundle/TextInput_ta](DYLIBS/TextInput_ta.md)
+- [/System/Library/VideoDecoders/AVD.videodecoder](DYLIBS/AVD.videodecoder.md)
+- [/System/Library/VideoProcessors/STF.bundle/STF](DYLIBS/STF.md)
+- [/usr/lib/dyld](DYLIBS/dyld.md)
+- [/usr/lib/i18n/libUTF1632.dylib](DYLIBS/libUTF1632.dylib.md)
+- [/usr/lib/i18n/libUTF8.dylib](DYLIBS/libUTF8.dylib.md)
+- [/usr/lib/i18n/libUTF8MAC.dylib](DYLIBS/libUTF8MAC.dylib.md)
+- [/usr/lib/i18n/libiconv_std.dylib](DYLIBS/libiconv_std.dylib.md)
+- [/usr/lib/i18n/libmapper_std.dylib](DYLIBS/libmapper_std.dylib.md)
+- [/usr/lib/libARI.dylib](DYLIBS/libARI.dylib.md)
+- [/usr/lib/libAccessibility.dylib](DYLIBS/libAccessibility.dylib.md)
+- [/usr/lib/libAppleArchive.dylib](DYLIBS/libAppleArchive.dylib.md)
+- [/usr/lib/libAppletTranslationLibrary.dylib](DYLIBS/libAppletTranslationLibrary.dylib.md)
+- [/usr/lib/libAudioDSPCore.dylib](DYLIBS/libAudioDSPCore.dylib.md)
+- [/usr/lib/libBasebandCommandDriversARI.dylib](DYLIBS/libBasebandCommandDriversARI.dylib.md)
+- [/usr/lib/libBasebandCommandDriversMIPC.dylib](DYLIBS/libBasebandCommandDriversMIPC.dylib.md)
+- [/usr/lib/libBasebandCommandDriversQMI.dylib](DYLIBS/libBasebandCommandDriversQMI.dylib.md)
+- [/usr/lib/libBasebandManager.dylib](DYLIBS/libBasebandManager.dylib.md)
+- [/usr/lib/libBasebandManagerDAL.dylib](DYLIBS/libBasebandManagerDAL.dylib.md)
+- [/usr/lib/libBasebandManagerICE.dylib](DYLIBS/libBasebandManagerICE.dylib.md)
+- [/usr/lib/libLLVM.dylib](DYLIBS/libLLVM.dylib.md)
+- [/usr/lib/libMemoryResourceException.dylib](DYLIBS/libMemoryResourceException.dylib.md)
+- [/usr/lib/libNFC_Comet.dylib](DYLIBS/libNFC_Comet.dylib.md)
+- [/usr/lib/libPN548_API.dylib](DYLIBS/libPN548_API.dylib.md)
+- [/usr/lib/libParallelCompression.dylib](DYLIBS/libParallelCompression.dylib.md)
+- [/usr/lib/libafc.dylib](DYLIBS/libafc.dylib.md)
+- [/usr/lib/libauthinstall.dylib](DYLIBS/libauthinstall.dylib.md)
+- [/usr/lib/libboringssl.dylib](DYLIBS/libboringssl.dylib.md)
+- [/usr/lib/libchannel.dylib](DYLIBS/libchannel.dylib.md)
+- [/usr/lib/libcompression.dylib](DYLIBS/libcompression.dylib.md)
+- [/usr/lib/libcoreroutine.dylib](DYLIBS/libcoreroutine.dylib.md)
+- [/usr/lib/libdns_services.dylib](DYLIBS/libdns_services.dylib.md)
+- [/usr/lib/libfire7.dylib](DYLIBS/libfire7.dylib.md)
+- [/usr/lib/libhwtrace.dylib](DYLIBS/libhwtrace.dylib.md)
+- [/usr/lib/libmecabra.dylib](DYLIBS/libmecabra.dylib.md)
+- [/usr/lib/libmis.dylib](DYLIBS/libmis.dylib.md)
+- [/usr/lib/libnetworkextension.dylib](DYLIBS/libnetworkextension.dylib.md)
+- [/usr/lib/libnfshared.dylib](DYLIBS/libnfshared.dylib.md)
+- [/usr/lib/libnwswifttls.dylib](DYLIBS/libnwswifttls.dylib.md)
+- [/usr/lib/libobjc.A.dylib](DYLIBS/libobjc.A.dylib.md)
+- [/usr/lib/libquic.dylib](DYLIBS/libquic.dylib.md)
+- [/usr/lib/libskit.dylib](DYLIBS/libskit.dylib.md)
+- [/usr/lib/libswiftPrespecialized.dylib](DYLIBS/libswiftPrespecialized.dylib.md)
+- [/usr/lib/libusrtcp.dylib](DYLIBS/libusrtcp.dylib.md)
+- [/usr/lib/log/liblog_network.dylib](DYLIBS/liblog_network.dylib.md)
+- [/usr/lib/swift/libswiftARKit.dylib](DYLIBS/libswiftARKit.dylib.md)
+- [/usr/lib/swift/libswiftAccelerate.dylib](DYLIBS/libswiftAccelerate.dylib.md)
+- [/usr/lib/swift/libswiftAppleArchive.dylib](DYLIBS/libswiftAppleArchive.dylib.md)
+- [/usr/lib/swift/libswiftCarPlay.dylib](DYLIBS/libswiftCarPlay.dylib.md)
+- [/usr/lib/swift/libswiftCompression.dylib](DYLIBS/libswiftCompression.dylib.md)
+- [/usr/lib/swift/libswiftCore.dylib](DYLIBS/libswiftCore.dylib.md)
+- [/usr/lib/swift/libswiftCoreAudio_Private.dylib](DYLIBS/libswiftCoreAudio_Private.dylib.md)
+- [/usr/lib/swift/libswiftCoreLocation.dylib](DYLIBS/libswiftCoreLocation.dylib.md)
+- [/usr/lib/swift/libswiftCoreMedia.dylib](DYLIBS/libswiftCoreMedia.dylib.md)
+- [/usr/lib/swift/libswiftDispatch.dylib](DYLIBS/libswiftDispatch.dylib.md)
+- [/usr/lib/swift/libswiftGLKit.dylib](DYLIBS/libswiftGLKit.dylib.md)
+- [/usr/lib/swift/libswiftGameplayKit.dylib](DYLIBS/libswiftGameplayKit.dylib.md)
+- [/usr/lib/swift/libswiftIntents.dylib](DYLIBS/libswiftIntents.dylib.md)
+- [/usr/lib/swift/libswiftMapKit.dylib](DYLIBS/libswiftMapKit.dylib.md)
+- [/usr/lib/swift/libswiftMetal.dylib](DYLIBS/libswiftMetal.dylib.md)
+- [/usr/lib/swift/libswiftMetalKit.dylib](DYLIBS/libswiftMetalKit.dylib.md)
+- [/usr/lib/swift/libswiftPassKit.dylib](DYLIBS/libswiftPassKit.dylib.md)
+- [/usr/lib/swift/libswiftSceneKit.dylib](DYLIBS/libswiftSceneKit.dylib.md)
+- [/usr/lib/swift/libswiftSpriteKit.dylib](DYLIBS/libswiftSpriteKit.dylib.md)
+- [/usr/lib/swift/libswiftWatchKit.dylib](DYLIBS/libswiftWatchKit.dylib.md)
+- [/usr/lib/swift/libswift_Concurrency.dylib](DYLIBS/libswift_Concurrency.dylib.md)
+- [/usr/lib/swift/libswift_DarwinFoundation2.dylib](DYLIBS/libswift_DarwinFoundation2.dylib.md)
+- [/usr/lib/swift/libswift_RegexParser.dylib](DYLIBS/libswift_RegexParser.dylib.md)
+- [/usr/lib/swift/libswift_StringProcessing.dylib](DYLIBS/libswift_StringProcessing.dylib.md)
+- [/usr/lib/swift/libswiftos.dylib](DYLIBS/libswiftos.dylib.md)
+- [/usr/lib/system/libdyld.dylib](DYLIBS/libdyld.dylib.md)
+- [/usr/lib/system/libsystem_containermanager.dylib](DYLIBS/libsystem_containermanager.dylib.md)
+- [/usr/lib/system/libsystem_eligibility.dylib](DYLIBS/libsystem_eligibility.dylib.md)
+- [/usr/lib/system/libsystem_m.dylib](DYLIBS/libsystem_m.dylib.md)
+- [/usr/lib/system/libsystem_malloc.dylib](DYLIBS/libsystem_malloc.dylib.md)
+- [/usr/lib/system/libsystem_notify.dylib](DYLIBS/libsystem_notify.dylib.md)
+- [/usr/lib/system/libxpc.dylib](DYLIBS/libxpc.dylib.md)
+- [/usr/lib/updaters/libSEUpdater.dylib](DYLIBS/libSEUpdater.dylib.md)
+
+</details>
+
+## Files
+
+### 🆕 New
+
+#### IPSW (2)
+
+- `Firmware/Mav25-1.54.03.Release.bbfw`
+- `Firmware/Mav25-1.54.03.Release.plist`
+
+#### filesystem (394)
+
+<details>
+  <summary><i>View Files</i></summary>
+
+- `/Applications/AuthorizationPromptService.app/AuthorizationPromptService`
+- `/Applications/AuthorizationPromptService.app/Info.plist`
+- `/Applications/AuthorizationPromptService.app/PkgInfo`
+- `/Applications/AuthorizationPromptService.app/_CodeSignature/CodeResources`
+- `/Library/Audio/Tunings/AID8021/ADM/AirpodsNoiseSuppression.dspg`
+- `/System/Library/AccessibilityBundles/DockFolderViewService.axbundle/Accessibility.loctable`
+- `/System/Library/AccessibilityBundles/DockFolderViewService.axbundle/Info.plist`
+- `/System/Library/AccessibilityBundles/DockFolderViewService.axbundle/_CodeSignature/CodeResources`
+- `/System/Library/Assistant/FlowDelegatePlugins/AudioFlowDelegatePlugin.bundle/Templates/dialog/CommonMediaIntent.catfamily/UnsupportedMediaItemsServiceUnavailable.cat/vi_VN_u_sd_vnct.cat.bin`
+- `/System/Library/Assistant/FlowDelegatePlugins/WellnessFlowPlugin.bundle/Templates/dialog/wellnessLogging.catfamily/unsafeRequestConfirmation_Dialog.cat/_params.cat.bin`
+- `/System/Library/Assistant/FlowDelegatePlugins/WellnessFlowPlugin.bundle/Templates/dialog/wellnessLogging.catfamily/unsafeRequestConfirmation_Dialog.cat/en.cat.bin`
+- `/System/Library/Carrier Bundles/iPhone/Rakuten_jp.bundle/profile.mobileconfig`
+- `/System/Library/Carrier Bundles/iPhone/Verizon_Charter_LTE_US.bundle/supported_devices.plist`
+- `/System/Library/Carrier Bundles/iPhone/Verizon_Comcast_LTE_US.bundle/supported_devices.plist`
+- `/System/Library/Carrier Bundles/iPhone/Verizon_Core_Visible_LTE_US.bundle/supported_devices.plist`
+- `/System/Library/Carrier Bundles/iPhone/Verizon_Cox_LTE_US.bundle/supported_devices.plist`
+- `/System/Library/Carrier Bundles/iPhone/Verizon_LTE_US.bundle/supported_devices.plist`
+- `/System/Library/Carrier Bundles/iPhone/Verizon_Response_LTE_US.bundle/supported_devices.plist`
+- `/System/Library/Carrier Bundles/iPhone/Verizon_TFW_LTE_US.bundle/supported_devices.plist`
+- `/System/Library/ExtensionKit/Extensions/MediaRemoteAppIntentsExtension.appex/Metadata.appintents/extract.actionsdata`
+- `/System/Library/ExtensionKit/Extensions/MediaRemoteAppIntentsExtension.appex/Metadata.appintents/version.json`
+- `/System/Library/FeatureFlags/Domain/AppleFileConduit.plist`
+- `/System/Library/Frameworks/SwiftUI.framework/OrnamentABIShims.txt`
+- `/System/Library/LaunchAngels/com.apple.tcc.AuthorizationPromptService.plist`
+- `/System/Library/PerfPowerTelemetry/MetadataReports/com.apple.spotlightknowledge.metadata.plist`
+- `/System/Library/PreferenceBundles/MetalHUDDeveloperSettings.bundle/Localizable.loctable`
+- `/System/Library/Preferences/Logging/Subsystems/com.apple.uarpassetmanager.plist`
+- `/System/Library/PreinstalledAssetsV2/RequiredByOs/com_apple_MobileAsset_SafetyAlertsConfig/48470c72c8be46707fa8056c6966111d1229ffcf.asset/AssetData/safetyalerts_channels.plist`
+- `/System/Library/PreinstalledAssetsV2/RequiredByOs/com_apple_MobileAsset_SafetyAlertsConfig/48470c72c8be46707fa8056c6966111d1229ffcf.asset/Info.plist`
+- `/System/Library/PreinstalledAssetsV2/RequiredByOs/com_apple_MobileAsset_SafetyAlertsConfig/afdcbf1810901f5c834a4c3c97cd0caa6b07800c.asset/AssetData/safetyalerts_channels.plist`
+- `/System/Library/PreinstalledAssetsV2/RequiredByOs/com_apple_MobileAsset_SafetyAlertsConfig/afdcbf1810901f5c834a4c3c97cd0caa6b07800c.asset/Info.plist`
+- `/System/Library/PrivateFrameworks/APFoundation.framework/DatabaseMigrationScritps/APDatabase/25.plist`
+- `/System/Library/PrivateFrameworks/AlwaysOnExclavesDaemon.framework/Info.plist`
+- `/System/Library/PrivateFrameworks/AlwaysOnExclavesDaemon.framework/_CodeSignature/CodeResources`
+- `/System/Library/PrivateFrameworks/AppleCIOFusion.framework/Info.plist`
+- `/System/Library/PrivateFrameworks/AppleCIOFusion.framework/_CodeSignature/CodeResources`
+- `/System/Library/PrivateFrameworks/AppleCIOFusionConfig.framework/Info.plist`
+- `/System/Library/PrivateFrameworks/AppleCIOFusionConfig.framework/_CodeSignature/CodeResources`
+- `/System/Library/PrivateFrameworks/AppleDepth.framework/MLModels/Mona-H18-d23-v53-v54-v57/model.bundle/H18.bundle/main_height576_width768/main_ane/model.hwx`
+- `/System/Library/PrivateFrameworks/AppleMediaServices.framework/Rating-Brazil_6.tiff`
+- `/System/Library/PrivateFrameworks/AppleMediaServices.framework/Rating-Brazil_A6.tiff`
+- `/System/Library/PrivateFrameworks/BinaryParsingInternal.framework/Info.plist`
+- `/System/Library/PrivateFrameworks/BinaryParsingInternal.framework/_CodeSignature/CodeResources`
+- `/System/Library/PrivateFrameworks/ByteMatrixVerification.framework/Info.plist`
+- `/System/Library/PrivateFrameworks/ByteMatrixVerification.framework/_CodeSignature/CodeResources`
+- `/System/Library/PrivateFrameworks/CookingKit.framework/default.metallib`
+- `/System/Library/PrivateFrameworks/CoreDuet.framework/CDInteractionDataModel.momd/CDInteractionDataModel-16.mom`
+- `/System/Library/PrivateFrameworks/CoreSceneUnderstanding.framework/image_captioning/ImageCaptioningMD8_h74dt6bujy-1560/ImageCaptioning-mica_v8.0.0_h74dt6bujy-1560.reverse_vocab.json`
+- `/System/Library/PrivateFrameworks/CoreSceneUnderstanding.framework/image_captioning/ImageCaptioningMD8_h74dt6bujy-1560/ImageCaptioning-mica_v8.0.0_h74dt6bujy-1560_bridge_kmeans-8bit-cgs8.mlmodelc/analytics/coremldata.bin`
+- `/System/Library/PrivateFrameworks/CoreSceneUnderstanding.framework/image_captioning/ImageCaptioningMD8_h74dt6bujy-1560/ImageCaptioning-mica_v8.0.0_h74dt6bujy-1560_bridge_kmeans-8bit-cgs8.mlmodelc/coremldata.bin`
+- `/System/Library/PrivateFrameworks/CoreSceneUnderstanding.framework/image_captioning/ImageCaptioningMD8_h74dt6bujy-1560/ImageCaptioning-mica_v8.0.0_h74dt6bujy-1560_bridge_kmeans-8bit-cgs8.mlmodelc/metadata.json`
+- `/System/Library/PrivateFrameworks/CoreSceneUnderstanding.framework/image_captioning/ImageCaptioningMD8_h74dt6bujy-1560/ImageCaptioning-mica_v8.0.0_h74dt6bujy-1560_bridge_kmeans-8bit-cgs8.mlmodelc/model.specialization.bundle/H18.bundle/H18.e5`
+- `/System/Library/PrivateFrameworks/CoreSceneUnderstanding.framework/image_captioning/ImageCaptioningMD8_h74dt6bujy-1560/ImageCaptioning-mica_v8.0.0_h74dt6bujy-1560_bridge_kmeans-8bit-cgs8.mlmodelc/model.specialization.bundle/H18.bundle/main/main_ane/model.hwx`
+- `/System/Library/PrivateFrameworks/CoreSceneUnderstanding.framework/image_captioning/ImageCaptioningMD8_h74dt6bujy-1560/ImageCaptioning-mica_v8.0.0_h74dt6bujy-1560_decoder_kmeans-6bit-cgs8.mlmodelc/analytics/coremldata.bin`
+- `/System/Library/PrivateFrameworks/CoreSceneUnderstanding.framework/image_captioning/ImageCaptioningMD8_h74dt6bujy-1560/ImageCaptioning-mica_v8.0.0_h74dt6bujy-1560_decoder_kmeans-6bit-cgs8.mlmodelc/coremldata.bin`
+- `/System/Library/PrivateFrameworks/CoreSceneUnderstanding.framework/image_captioning/ImageCaptioningMD8_h74dt6bujy-1560/ImageCaptioning-mica_v8.0.0_h74dt6bujy-1560_decoder_kmeans-6bit-cgs8.mlmodelc/metadata.json`
+- `/System/Library/PrivateFrameworks/CoreSceneUnderstanding.framework/image_captioning/ImageCaptioningMD8_h74dt6bujy-1560/ImageCaptioning-mica_v8.0.0_h74dt6bujy-1560_decoder_kmeans-6bit-cgs8.mlmodelc/model.specialization.bundle/H18.bundle/H18.e5`
+- `/System/Library/PrivateFrameworks/CoreSceneUnderstanding.framework/image_captioning/ImageCaptioningMD8_h74dt6bujy-1560/ImageCaptioning-mica_v8.0.0_h74dt6bujy-1560_decoder_kmeans-6bit-cgs8.mlmodelc/model.specialization.bundle/H18.bundle/main/main_ane/model.hwx`
+- `/System/Library/PrivateFrameworks/CoreSceneUnderstanding.framework/image_captioning/ImageCaptioningMD8_h74dt6bujy-1560/ImageCaptioning.config.json`
+- `/System/Library/PrivateFrameworks/CoreSceneUnderstanding.framework/image_captioning/ImageCaptioningMD8_h74dt6bujy-1560/ImageCaptioning_GP_PeopleDetection.config.json`
+- `/System/Library/PrivateFrameworks/CoreSceneUnderstanding.framework/image_captioning/ImageCaptioningMD8_h74dt6bujy-1560/ImageCaptioning_Safe.config.json`
+- `/System/Library/PrivateFrameworks/CoreSceneUnderstanding.framework/image_captioning/ImageCaptioningMD8_h74dt6bujy-1560/runtime_parameters.json`
+- `/System/Library/PrivateFrameworks/CoreSceneUnderstanding.framework/image_captioning/ImageCaptioningMD8_h74dt6bujy-1560/runtime_parameters_people_detection.json`
+- `/System/Library/PrivateFrameworks/CoreSceneUnderstanding.framework/video_captioning/VideoCaptioning_v8.0.0_fxfs4chdvb-21620/VideoCaptioning.config.json`
+- `/System/Library/PrivateFrameworks/CoreSceneUnderstanding.framework/video_captioning/VideoCaptioning_v8.0.0_fxfs4chdvb-21620/VideoCaptioning_v8.0.0_fxfs4chdvb-21620.reverse_vocab.json`
+- `/System/Library/PrivateFrameworks/CoreSceneUnderstanding.framework/video_captioning/VideoCaptioning_v8.0.0_fxfs4chdvb-21620/VideoCaptioning_v8.0.0_fxfs4chdvb-21620_bridge-kmeans-8bit-cgs8.mlmodelc/analytics/coremldata.bin`
+- `/System/Library/PrivateFrameworks/CoreSceneUnderstanding.framework/video_captioning/VideoCaptioning_v8.0.0_fxfs4chdvb-21620/VideoCaptioning_v8.0.0_fxfs4chdvb-21620_bridge-kmeans-8bit-cgs8.mlmodelc/coremldata.bin`
+- `/System/Library/PrivateFrameworks/CoreSceneUnderstanding.framework/video_captioning/VideoCaptioning_v8.0.0_fxfs4chdvb-21620/VideoCaptioning_v8.0.0_fxfs4chdvb-21620_bridge-kmeans-8bit-cgs8.mlmodelc/metadata.json`
+- `/System/Library/PrivateFrameworks/CoreSceneUnderstanding.framework/video_captioning/VideoCaptioning_v8.0.0_fxfs4chdvb-21620/VideoCaptioning_v8.0.0_fxfs4chdvb-21620_bridge-kmeans-8bit-cgs8.mlmodelc/model.mil`
+- `/System/Library/PrivateFrameworks/CoreSceneUnderstanding.framework/video_captioning/VideoCaptioning_v8.0.0_fxfs4chdvb-21620/VideoCaptioning_v8.0.0_fxfs4chdvb-21620_bridge-kmeans-8bit-cgs8.mlmodelc/weights/weight.bin`
+- `/System/Library/PrivateFrameworks/CoreSceneUnderstanding.framework/video_captioning/VideoCaptioning_v8.0.0_fxfs4chdvb-21620/VideoCaptioning_v8.0.0_fxfs4chdvb-21620_decoder-kmeans-6bit-cgs8.mlmodelc/analytics/coremldata.bin`
+- `/System/Library/PrivateFrameworks/CoreSceneUnderstanding.framework/video_captioning/VideoCaptioning_v8.0.0_fxfs4chdvb-21620/VideoCaptioning_v8.0.0_fxfs4chdvb-21620_decoder-kmeans-6bit-cgs8.mlmodelc/coremldata.bin`
+- `/System/Library/PrivateFrameworks/CoreSceneUnderstanding.framework/video_captioning/VideoCaptioning_v8.0.0_fxfs4chdvb-21620/VideoCaptioning_v8.0.0_fxfs4chdvb-21620_decoder-kmeans-6bit-cgs8.mlmodelc/metadata.json`
+- `/System/Library/PrivateFrameworks/CoreSceneUnderstanding.framework/video_captioning/VideoCaptioning_v8.0.0_fxfs4chdvb-21620/VideoCaptioning_v8.0.0_fxfs4chdvb-21620_decoder-kmeans-6bit-cgs8.mlmodelc/model.mil`
+- `/System/Library/PrivateFrameworks/CoreSceneUnderstanding.framework/video_captioning/VideoCaptioning_v8.0.0_fxfs4chdvb-21620/VideoCaptioning_v8.0.0_fxfs4chdvb-21620_decoder-kmeans-6bit-cgs8.mlmodelc/weights/weight.bin`
+- `/System/Library/PrivateFrameworks/DialogEngine.framework/Templates/dialog/dateTime.catfamily/dateTimeDescriptive.cat/pl.cat.bin`
+- `/System/Library/PrivateFrameworks/DialogEngine.framework/Templates/dialog/location.catfamily/postposition.cat/pl.cat.bin`
+- `/System/Library/PrivateFrameworks/DialogEngine.framework/Templates/metadata/country.dtag/id.dtag.bin`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/TargetConditionals.h`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/__bits/metal_depth2d`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/__bits/metal_depth2d_array`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/__bits/metal_depth2d_ms`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/__bits/metal_depth2d_ms_array`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/__bits/metal_depthcube`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/__bits/metal_depthcube_array`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/__bits/metal_texture1d`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/__bits/metal_texture1d_array`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/__bits/metal_texture2d`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/__bits/metal_texture2d_array`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/__bits/metal_texture2d_ms`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/__bits/metal_texture2d_ms_array`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/__bits/metal_texture3d`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/__bits/metal_texture_buffer`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/__bits/metal_texture_common`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/__bits/metal_texturecube`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/__bits/metal_texturecube_array`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/__exec/units.h`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/__mdspan/extents.h`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_array`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_assert`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_atomic`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_command_buffer`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_common`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_compute`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_config`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_cooperative_tensor`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_curves`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_extended_vector`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_functional`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_geometric`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_graphics`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_imageblocks`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_initializer_list`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_integer`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_interpolate`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_limits`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_logging`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_math`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_matrix`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_mesh`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_numeric`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_pack`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_packed_numeric`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_packed_vector`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_pixel`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_quadgroup`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_raytracing`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_relational`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_simdgroup`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_simdgroup_matrix`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_stdlib`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_tensor`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_tessellation`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_texture`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_type_traits`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_types`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_types.h`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_uniform`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_utility`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_vertex_value`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/metal_visible_function_table`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/module.modulemap`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/prebuilt_implicit_modules/10HVEQ57W0RZ4/monolithic_metal.pcm`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/prebuilt_implicit_modules/1291P9NOGPKFE/monolithic_metal.pcm`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/prebuilt_implicit_modules/15Y6ZAOLCII4A/monolithic_metal.pcm`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/prebuilt_implicit_modules/17E385RM8R76I/monolithic_metal.pcm`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/prebuilt_implicit_modules/1GYHHSRHHKN57/monolithic_metal.pcm`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/prebuilt_implicit_modules/1W7D92BKZYJ29/monolithic_metal.pcm`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/prebuilt_implicit_modules/1Z2VXQ7TT2AY1/monolithic_metal.pcm`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/prebuilt_implicit_modules/34EN0WGXS2H92/monolithic_metal.pcm`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/prebuilt_implicit_modules/3ERWMVFRWEX0O/monolithic_metal.pcm`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/prebuilt_implicit_modules/3G6STT5IB8S8T/monolithic_metal.pcm`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/prebuilt_implicit_modules/3M5UQ5S28WOIX/monolithic_metal.pcm`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/prebuilt_implicit_modules/3TQDSXVC5GBTC/monolithic_metal.pcm`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/simd/matrix_types.h`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/simd/packed.h`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/simd/simd.h`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/include/metal/simd/vector_types.h`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/lib/darwin/libair_rt_ios.rtlib`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/lib/darwin/libmetal_rt_ios.a`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/lib/darwin/libpost_mesh_dump_rt_ios.rtlib`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/lib/darwin/libresource_tracking_rt_ios.rtlib`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/lib/darwin/libtracepoint_rt_ios.metallib`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/lib/darwin/libtracepoint_rt_static_ios.a`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.880/lib/darwin/libtracepoint_rt_workaround_ios.a`
+- `/System/Library/PrivateFrameworks/GameStoreKit.framework/ChicletVFX_AllPlacements_V5.vfx/info.json`
+- `/System/Library/PrivateFrameworks/GameStoreKit.framework/ChicletVFX_AllPlacements_V5.vfx/scene.vfxbin`
+- `/System/Library/PrivateFrameworks/GameStoreKit.framework/ChicletVFX_AllPlacements_V5.vfx/world.plist`
+- `/System/Library/PrivateFrameworks/GenerativeAssistantActions.framework/Templates/dialog/GenerativeAssistantTools.catfamily/knowledgeDeclineButtonText.cat/pt-pt.cat.bin`
+- `/System/Library/PrivateFrameworks/InAppFeedback.framework/Info.plist`
+- `/System/Library/PrivateFrameworks/InAppFeedback.framework/_CodeSignature/CodeResources`
+- `/System/Library/PrivateFrameworks/MXUIService.framework/Localizable.loctable`
+- `/System/Library/PrivateFrameworks/ManagedBackgroundAssets.framework/XPCServices/Managed Background Assets Helper Service.xpc/InfoPlist.loctable`
+- `/System/Library/PrivateFrameworks/ManagedBackgroundAssetsHelper.framework/XPCServices/Managed Background Assets Helper Fetching Service.xpc/InfoPlist.loctable`
+- `/System/Library/PrivateFrameworks/NewsUserEvents.framework/Info.plist`
+- `/System/Library/PrivateFrameworks/NewsUserEvents.framework/_CodeSignature/CodeResources`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindDeviceAndPlaySound.catfamily/UtteranceRewriteConfirmation.cat/ar.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindDeviceAndPlaySound.catfamily/UtteranceRewriteConfirmation.cat/da.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindDeviceAndPlaySound.catfamily/UtteranceRewriteConfirmation.cat/de.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindDeviceAndPlaySound.catfamily/UtteranceRewriteConfirmation.cat/en-au.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindDeviceAndPlaySound.catfamily/UtteranceRewriteConfirmation.cat/en-ca.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindDeviceAndPlaySound.catfamily/UtteranceRewriteConfirmation.cat/en-gb.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindDeviceAndPlaySound.catfamily/UtteranceRewriteConfirmation.cat/es-mx.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindDeviceAndPlaySound.catfamily/UtteranceRewriteConfirmation.cat/es.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindDeviceAndPlaySound.catfamily/UtteranceRewriteConfirmation.cat/fi.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindDeviceAndPlaySound.catfamily/UtteranceRewriteConfirmation.cat/fr-ca.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindDeviceAndPlaySound.catfamily/UtteranceRewriteConfirmation.cat/fr.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindDeviceAndPlaySound.catfamily/UtteranceRewriteConfirmation.cat/he.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindDeviceAndPlaySound.catfamily/UtteranceRewriteConfirmation.cat/hi.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindDeviceAndPlaySound.catfamily/UtteranceRewriteConfirmation.cat/id.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindDeviceAndPlaySound.catfamily/UtteranceRewriteConfirmation.cat/it.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindDeviceAndPlaySound.catfamily/UtteranceRewriteConfirmation.cat/ja.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindDeviceAndPlaySound.catfamily/UtteranceRewriteConfirmation.cat/ko.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindDeviceAndPlaySound.catfamily/UtteranceRewriteConfirmation.cat/ms.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindDeviceAndPlaySound.catfamily/UtteranceRewriteConfirmation.cat/nb.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindDeviceAndPlaySound.catfamily/UtteranceRewriteConfirmation.cat/nl.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindDeviceAndPlaySound.catfamily/UtteranceRewriteConfirmation.cat/pl.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindDeviceAndPlaySound.catfamily/UtteranceRewriteConfirmation.cat/pt-pt.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindDeviceAndPlaySound.catfamily/UtteranceRewriteConfirmation.cat/pt.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindDeviceAndPlaySound.catfamily/UtteranceRewriteConfirmation.cat/ru.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindDeviceAndPlaySound.catfamily/UtteranceRewriteConfirmation.cat/sv.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindDeviceAndPlaySound.catfamily/UtteranceRewriteConfirmation.cat/th.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindDeviceAndPlaySound.catfamily/UtteranceRewriteConfirmation.cat/tr.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindDeviceAndPlaySound.catfamily/UtteranceRewriteConfirmation.cat/vi.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindDeviceAndPlaySound.catfamily/UtteranceRewriteConfirmation.cat/yue.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindDeviceAndPlaySound.catfamily/UtteranceRewriteConfirmation.cat/zh-cn.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindDeviceAndPlaySound.catfamily/UtteranceRewriteConfirmation.cat/zh-hk.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindDeviceAndPlaySound.catfamily/UtteranceRewriteConfirmation.cat/zh-tw.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindMyFriend.catfamily/UtteranceRewriteConfirmation.cat/ar.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindMyFriend.catfamily/UtteranceRewriteConfirmation.cat/da.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindMyFriend.catfamily/UtteranceRewriteConfirmation.cat/de.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindMyFriend.catfamily/UtteranceRewriteConfirmation.cat/en-au.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindMyFriend.catfamily/UtteranceRewriteConfirmation.cat/en-ca.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindMyFriend.catfamily/UtteranceRewriteConfirmation.cat/en-gb.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindMyFriend.catfamily/UtteranceRewriteConfirmation.cat/es-mx.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindMyFriend.catfamily/UtteranceRewriteConfirmation.cat/es.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindMyFriend.catfamily/UtteranceRewriteConfirmation.cat/fi.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindMyFriend.catfamily/UtteranceRewriteConfirmation.cat/fr-ca.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindMyFriend.catfamily/UtteranceRewriteConfirmation.cat/fr.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindMyFriend.catfamily/UtteranceRewriteConfirmation.cat/he.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindMyFriend.catfamily/UtteranceRewriteConfirmation.cat/hi.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindMyFriend.catfamily/UtteranceRewriteConfirmation.cat/id.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindMyFriend.catfamily/UtteranceRewriteConfirmation.cat/it.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindMyFriend.catfamily/UtteranceRewriteConfirmation.cat/ja.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindMyFriend.catfamily/UtteranceRewriteConfirmation.cat/ko.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindMyFriend.catfamily/UtteranceRewriteConfirmation.cat/ms.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindMyFriend.catfamily/UtteranceRewriteConfirmation.cat/nb.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindMyFriend.catfamily/UtteranceRewriteConfirmation.cat/nl.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindMyFriend.catfamily/UtteranceRewriteConfirmation.cat/pl.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindMyFriend.catfamily/UtteranceRewriteConfirmation.cat/pt-pt.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindMyFriend.catfamily/UtteranceRewriteConfirmation.cat/pt.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindMyFriend.catfamily/UtteranceRewriteConfirmation.cat/ru.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindMyFriend.catfamily/UtteranceRewriteConfirmation.cat/sv.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindMyFriend.catfamily/UtteranceRewriteConfirmation.cat/th.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindMyFriend.catfamily/UtteranceRewriteConfirmation.cat/tr.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindMyFriend.catfamily/UtteranceRewriteConfirmation.cat/vi.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindMyFriend.catfamily/UtteranceRewriteConfirmation.cat/yue.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindMyFriend.catfamily/UtteranceRewriteConfirmation.cat/zh-cn.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindMyFriend.catfamily/UtteranceRewriteConfirmation.cat/zh-hk.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/FindMyFriend.catfamily/UtteranceRewriteConfirmation.cat/zh-tw.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/ar.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/da.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/de-at.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/de-ch.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/de.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/en-au.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/en-ca.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/en-gb.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/en-sg.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/en-za.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/es-mx.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/es.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/fi.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/fr.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/he.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/hi.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/id.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/it.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/ja.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/ko.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/ms.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/nb.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/nl.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/pl.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/pt-pt.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/pt.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/ru.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/sv.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/th.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/tr.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/vi.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/yue.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/zh-cn.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/zh-hk.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriFindMy.framework/Templates/dialog/SiriFindMyCommon.catfamily/GenericCancellation.cat/zh-tw.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriMailUI.framework/Localizable.loctable`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/ar.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/da.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/de.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/en-au.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/en-ca.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/en-gb.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/en-sg.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/es-mx.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/es.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/fi.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/fr-ca.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/fr.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/he.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/hi.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/id.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/it.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/ja.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/ko.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/ms.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/nb.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/nl.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/pl.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/pt-pt.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/pt.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/ru.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/sv.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/th.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/tr.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/vi.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/yue.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/zh-cn.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/zh-hk.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Templates/dialog/SetBinarySettingIntent.catfamily/ConfirmBinarySettingChange.cat/zh-tw.cat.bin`
+- `/System/Library/PrivateFrameworks/SnippetUI.framework/Assets.car`
+- `/System/Library/PrivateFrameworks/SpotlightResources.framework/RequiredAssets_nb.bundle/AssetData/localizedkeywords/localized_keywords.mdplist`
+- `/System/Library/PrivateFrameworks/TCCAuthorizationService.framework/Info.plist`
+- `/System/Library/PrivateFrameworks/TCCAuthorizationService.framework/_CodeSignature/CodeResources`
+- `/System/Library/PrivateFrameworks/VisualLookUp.framework/RichLabelKV/RichLabelKgCommonNameDa.lzfse`
+- `/System/Library/PrivateFrameworks/VisualLookUp.framework/RichLabelKV/RichLabelKgCommonNameNb.lzfse`
+- `/System/Library/PrivateFrameworks/VisualLookUp.framework/RichLabelKV/RichLabelKgCommonNameSv.lzfse`
+- `/System/Library/PrivateFrameworks/VisualLookUp.framework/RichLabelKV/RichLabelKgCommonNameVi.lzfse`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_C.bundle/Content.md`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_C.bundle/Info.plist`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_Localized.bundle/en_GB.lproj/Content.md`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_Localized.bundle/en_GB.lproj/WheelieBin_logo_thin_5mm_042017@2x.png`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_Localized.bundle/en_GB.lproj/WheelieBin_logo_thin_5mm_042017@3x.png`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_Localized.bundle/en_GB.lproj/WheelieBin_logo_thin_5mm_042017~dark@2x.png`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_Localized.bundle/en_GB.lproj/WheelieBin_logo_thin_5mm_042017~dark@3x.png`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_ROW.bundle/cs.lproj/Content.md`
+- `/System/Library/ScreenReader/BrailleTables/LiblouisBrailleTranslator.brailletable/liblouis/tables/ancient-languages-borger.utb`
+- `/System/Library/ScreenReader/BrailleTables/LiblouisBrailleTranslator.brailletable/liblouis/tables/ancient-languages-us.utb`
+- `/System/Library/ScreenReader/BrailleTables/LiblouisBrailleTranslator.brailletable/liblouis/tables/en-g3-patterns.dic`
+- `/System/Library/ScreenReader/BrailleTables/LiblouisBrailleTranslator.brailletable/liblouis/tables/en-g3.ctb`
+- `/System/Library/ScreenReader/BrailleTables/LiblouisBrailleTranslator.brailletable/liblouis/tables/ja-rokutenkanji.utb`
+- `/System/Library/ScreenReader/BrailleTables/LiblouisBrailleTranslator.brailletable/liblouis/tables/mk-g1.utb`
+- `/System/Library/Security/Certificates.bundle/Anchors/1435F225C5D252D7A21948CC3CE62AECFA88001E3DD72D1CC3555100EB372F93.cer`
+- `/System/Library/Security/Certificates.bundle/Anchors/3629E7188E00A7CB3232C4426BC84912F1218B1A9AE676C0B0ABE1DBFE2182B5.cer`
+- `/System/Library/Security/Certificates.bundle/Anchors/6AB2AB75F51CB4F4F0156203FBF6F646232F514BE059F62833308B82B4D72DB1.cer`
+- `/System/Library/Security/Certificates.bundle/Anchors/849F3E878AC22EDFB3D1EE804C8211D9E7C56A1B5E84B5D32C078A0E32F5CC7B.cer`
+- `/System/Library/Security/Certificates.bundle/Anchors/C2B6D2709DFB7B0FE5DA9042B40ACD8A454405E47F831AC5076E5812BC158E9E.cer`
+- `/System/Library/Security/Certificates.bundle/Anchors/CD122CB877C6928B9017B0F0B80DBD508196300BBD03CD7356C3BEEF524E7E0B.cer`
+- `/System/Library/UnifiedAssetFramework/AssetSets/Deprecated/com.apple.MobileAsset.UAF.FM.CodeLM.deprecated.plist`
+- `/System/Library/UnifiedAssetFramework/AssetSets/Deprecated/com.apple.MobileAsset.UAF.Vision.ADT.deprecated.plist`
+- `/private/var/staged_system_apps/MobileStore.app/LaunchScreen.storyboardc/UIViewController-9oM-BG-wdF.nib`
+- `/private/var/staged_system_apps/Tips.app/ar.lproj/nlu.appintents/b52a7f3e431d80aeff6038f0938a68e5.version`
+- `/private/var/staged_system_apps/Tips.app/bg.lproj/nlu.appintents/639cd3a46b9578b7a915e9f247e13b6a.version`
+- `/private/var/staged_system_apps/Tips.app/bn.lproj/nlu.appintents/5d5e0c03e59f6f45d23d808c866ec00a.version`
+- `/private/var/staged_system_apps/Tips.app/ca.lproj/nlu.appintents/35f9a74ac0d18f76e4f63179c302e098.version`
+- `/private/var/staged_system_apps/Tips.app/cs.lproj/nlu.appintents/49f9343cde090dff567184917ed4bf84.version`
+- `/private/var/staged_system_apps/Tips.app/da.lproj/nlu.appintents/7b70d67d86c5aee5dcabb93765367fdf.version`
+- `/private/var/staged_system_apps/Tips.app/de.lproj/nlu.appintents/3eb16b87a6588e65c8c722749c101ec1.version`
+- `/private/var/staged_system_apps/Tips.app/el.lproj/nlu.appintents/a31502e7003900a1a54ecb22759b2fcc.version`
+- `/private/var/staged_system_apps/Tips.app/en.lproj/nlu.appintents/590e75886b57cdf5d6132f3b6fdac5cf.version`
+- `/private/var/staged_system_apps/Tips.app/en_AU.lproj/nlu.appintents/32aa5568ea64cc140ed970163e7a2911.version`
+- `/private/var/staged_system_apps/Tips.app/en_GB.lproj/nlu.appintents/3021deda55cf9ab7619850b07a7b4b18.version`
+- `/private/var/staged_system_apps/Tips.app/es.lproj/nlu.appintents/81f437cf01a0080242e2e2572a55e8b8.version`
+- `/private/var/staged_system_apps/Tips.app/es_419.lproj/nlu.appintents/189d60711739b0b091adacd1e16826a0.version`
+- `/private/var/staged_system_apps/Tips.app/es_US.lproj/nlu.appintents/cea7e3a0a2ac210864500bbf4f68af7d.version`
+- `/private/var/staged_system_apps/Tips.app/fi.lproj/nlu.appintents/22474e7235cae0cda0f4b7ae734e982b.version`
+- `/private/var/staged_system_apps/Tips.app/fr.lproj/nlu.appintents/3a706295aa420b9a533b23fa959d02e6.version`
+- `/private/var/staged_system_apps/Tips.app/fr_CA.lproj/nlu.appintents/5ee8e9e1468a57505a948fd3b414a04b.version`
+- `/private/var/staged_system_apps/Tips.app/gu.lproj/nlu.appintents/a81ddb065326bad9482dfa4266cfb5e5.version`
+- `/private/var/staged_system_apps/Tips.app/he.lproj/nlu.appintents/f56d12350cf0f1807b40323133fd6cc8.version`
+- `/private/var/staged_system_apps/Tips.app/hi.lproj/nlu.appintents/266017b3067229ae795bf5d8e3f43737.version`
+- `/private/var/staged_system_apps/Tips.app/hr.lproj/nlu.appintents/a0cf834a07fc48649779d402a7a8077d.version`
+- `/private/var/staged_system_apps/Tips.app/hu.lproj/nlu.appintents/4379937d1e5e78aadc5ad7df2663ddf6.version`
+- `/private/var/staged_system_apps/Tips.app/id.lproj/nlu.appintents/f0aa58d8d75992511927183e282d3c8a.version`
+- `/private/var/staged_system_apps/Tips.app/it.lproj/nlu.appintents/8c5e96515ff9eafaf7ca44dd0ecc1434.version`
+- `/private/var/staged_system_apps/Tips.app/ja.lproj/nlu.appintents/3fee0b2660ad7e0c00a09b634bd29f9b.version`
+- `/private/var/staged_system_apps/Tips.app/kk.lproj/nlu.appintents/8c1393f33353cfdd0d975ac9228a468d.version`
+- `/private/var/staged_system_apps/Tips.app/kn.lproj/nlu.appintents/6be2242d85b3131fb840053146f4463c.version`
+- `/private/var/staged_system_apps/Tips.app/ko.lproj/nlu.appintents/da4b5d1868757664e05bfeb00c76c085.version`
+- `/private/var/staged_system_apps/Tips.app/lt.lproj/nlu.appintents/173001d97a37f5c6e22bc3606e57ed2c.version`
+- `/private/var/staged_system_apps/Tips.app/ml.lproj/nlu.appintents/1cfd77b95ec7aa29aa28de036c0839ba.version`
+- `/private/var/staged_system_apps/Tips.app/mr.lproj/nlu.appintents/619b33ecad2bb536eeacc6a18f38b394.version`
+- `/private/var/staged_system_apps/Tips.app/ms.lproj/nlu.appintents/ae5f626502181b6ee64d069fb2c7cbf0.version`
+- `/private/var/staged_system_apps/Tips.app/nl.lproj/nlu.appintents/67e903b8578251d36716e36987fa82a7.version`
+- `/private/var/staged_system_apps/Tips.app/no.lproj/nlu.appintents/fa2491358e5adabcf6954c9e26ceb4eb.version`
+- `/private/var/staged_system_apps/Tips.app/or.lproj/nlu.appintents/474b2970f54b05b6561e8ba06835bace.version`
+- `/private/var/staged_system_apps/Tips.app/pa.lproj/nlu.appintents/ab31ecb382d95be32d141beb3e8bdcfa.version`
+- `/private/var/staged_system_apps/Tips.app/pl.lproj/nlu.appintents/8299347cf7999cb0b290211db7c7e998.version`
+- `/private/var/staged_system_apps/Tips.app/pt_BR.lproj/nlu.appintents/1fca45b5a093de517d644201f93eb04e.version`
+- `/private/var/staged_system_apps/Tips.app/ro.lproj/nlu.appintents/6db141474b2b6afbd1650097a62a748e.version`
+- `/private/var/staged_system_apps/Tips.app/ru.lproj/nlu.appintents/f4d7bec62c06366298618d86efaee113.version`
+- `/private/var/staged_system_apps/Tips.app/sk.lproj/nlu.appintents/2a8f4c6784392c6baeea5a00f93b0556.version`
+- `/private/var/staged_system_apps/Tips.app/sl.lproj/nlu.appintents/9ff1ef3bcd72ac716f5dbd78885814c3.version`
+- `/private/var/staged_system_apps/Tips.app/sv.lproj/nlu.appintents/e869ea29a6f6b9a2381f1e2e5816768b.version`
+- `/private/var/staged_system_apps/Tips.app/ta.lproj/nlu.appintents/d559155b3ac1646731374946626ee9e6.version`
+- `/private/var/staged_system_apps/Tips.app/th.lproj/nlu.appintents/c54ec0859e08a4b7b823bda0a9e59d06.version`
+- `/private/var/staged_system_apps/Tips.app/tr.lproj/nlu.appintents/3782ce2e4bd8c07641be0e6f41785cfe.version`
+- `/private/var/staged_system_apps/Tips.app/uk.lproj/nlu.appintents/546510619a407ef8d108f1d373d1ce33.version`
+- `/private/var/staged_system_apps/Tips.app/ur.lproj/nlu.appintents/4f103a2a5ab3f395aea80ba843387ea2.version`
+- `/private/var/staged_system_apps/Tips.app/vi.lproj/nlu.appintents/86f4047276983def7de3a8a89a0c5ef0.version`
+- `/private/var/staged_system_apps/Tips.app/zh_CN.lproj/nlu.appintents/88525e9d13696a9abcb543f2067f878c.version`
+- `/private/var/staged_system_apps/Tips.app/zh_HK.lproj/nlu.appintents/bb77d104e27916f5941f15b2d05d8104.version`
+- `/private/var/staged_system_apps/Tips.app/zh_TW.lproj/nlu.appintents/0ac5c370aec8a711955f90d15a051721.version`
+- `/private/var/staged_system_apps/VoiceMemos.app/Base.lproj/nlu.appintents/6148a4bd03a935c4f3f6c0e92f5e6c9f.version`
+- `/private/var/staged_system_apps/VoiceMemos.app/en.lproj/nlu.appintents/1f54d287cd4f333c55c272fe6cf34fcd.version`
+
+</details>
+
+#### SystemOS (1)
+
+- `/System/Library/PrivateFrameworks/SwiftUITracingSupport.framework/SwiftUITracingSupport`
+
+### ❌ Removed
+
+#### IPSW (2)
+
+- `Firmware/Mav25-1.54.01.Release.bbfw`
+- `Firmware/Mav25-1.54.01.Release.plist`
+
+#### filesystem (235)
+
+<details>
+  <summary><i>View Files</i></summary>
+
+- `/Applications/Print Center.app/AppIntents.loctable`
+- `/Applications/Print Center.app/PlugIns/PrintCenterWidgetExtension.iOS.appex/AppIntents.loctable`
+- `/System/Library/Carrier Bundles/iPhone/Mobi.bundle/Info.plist`
+- `/System/Library/Carrier Bundles/iPhone/Mobi.bundle/carrier.plist`
+- `/System/Library/Carrier Bundles/iPhone/Mobi.bundle/overrides_V53_V54_V57.der.pri`
+- `/System/Library/Carrier Bundles/iPhone/Mobi.bundle/overrides_V53_V54_V57.plist`
+- `/System/Library/Carrier Bundles/iPhone/Mobi.bundle/signatures/common.plist`
+- `/System/Library/Carrier Bundles/iPhone/Mobi.bundle/signatures/overrides_V53_V54_V57.plist`
+- `/System/Library/ExtensionKit/Extensions/MusicEngagementExtension.appex/MusicFoundation_ShaderFallbackKit.bundle/Assets.car`
+- `/System/Library/ExtensionKit/Extensions/MusicEngagementExtension.appex/MusicFoundation_ShaderFallbackKit.bundle/Info.plist`
+- `/System/Library/ExtensionKit/Extensions/MusicEngagementExtension.appex/MusicFoundation_ShaderFallbackKit.bundle/default.metallib`
+- `/System/Library/ExtensionKit/Extensions/SensitiveContentAnalysisConfigurationExtension.appex/InfoPlist.loctable`
+- `/System/Library/Frameworks/ByteMatrixVerification.framework/Info.plist`
+- `/System/Library/Frameworks/ByteMatrixVerification.framework/_CodeSignature/CodeResources`
+- `/System/Library/Frameworks/_LinkPresentation_AppIntents.framework/AppIntents.swiftoverlay`
+- `/System/Library/LaunchDaemons/com.apple.speechmaintenanced.plist`
+- `/System/Library/PreferenceBundles/AppInstallationSettings.bundle/AppInstallationSettings-Info.plist`
+- `/System/Library/PreferenceBundles/ConferenceRegistrationSettings.bundle/CNFRegistration.loctable`
+- `/System/Library/PreferenceBundles/MetalHUDDeveloperSettings.bundle/Localizable.strings`
+- `/System/Library/Preferences/Logging/Subsystems/com.apple.photos.cpl.plist`
+- `/System/Library/PreinstalledAssetsV2/RequiredByOs/com_apple_MobileAsset_SafetyAlertsConfig/42827091c0bf74e28feb50e209951d3269606d14.asset/AssetData/safetyalerts_channels.plist`
+- `/System/Library/PreinstalledAssetsV2/RequiredByOs/com_apple_MobileAsset_SafetyAlertsConfig/42827091c0bf74e28feb50e209951d3269606d14.asset/Info.plist`
+- `/System/Library/PreinstalledAssetsV2/RequiredByOs/com_apple_MobileAsset_SafetyAlertsConfig/a519c3fb18912dce730919b2f73e0085104e12d7.asset/AssetData/safetyalerts_channels.plist`
+- `/System/Library/PreinstalledAssetsV2/RequiredByOs/com_apple_MobileAsset_SafetyAlertsConfig/a519c3fb18912dce730919b2f73e0085104e12d7.asset/Info.plist`
+- `/System/Library/PrivateFrameworks/AppSubscriptions.framework/.swiftlint.yml`
+- `/System/Library/PrivateFrameworks/AppleDepth.framework/MLModels/Mona-H18-d23-v53-v54-v57/model.bundle/H18.bundle/main_height768_width768/main_ane/model.hwx`
+- `/System/Library/PrivateFrameworks/AssistantSettingsSupport.framework/AssistantSettingsSupport-Info.plist`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/TargetConditionals.h`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/__bits/metal_depth2d`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/__bits/metal_depth2d_array`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/__bits/metal_depth2d_ms`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/__bits/metal_depth2d_ms_array`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/__bits/metal_depthcube`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/__bits/metal_depthcube_array`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/__bits/metal_texture1d`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/__bits/metal_texture1d_array`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/__bits/metal_texture2d`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/__bits/metal_texture2d_array`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/__bits/metal_texture2d_ms`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/__bits/metal_texture2d_ms_array`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/__bits/metal_texture3d`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/__bits/metal_texture_buffer`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/__bits/metal_texture_common`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/__bits/metal_texturecube`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/__bits/metal_texturecube_array`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/__exec/units.h`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/__mdspan/extents.h`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_array`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_assert`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_atomic`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_command_buffer`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_common`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_compute`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_config`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_cooperative_tensor`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_curves`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_extended_vector`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_functional`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_geometric`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_graphics`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_imageblocks`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_initializer_list`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_integer`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_interpolate`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_limits`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_logging`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_math`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_matrix`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_mesh`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_numeric`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_pack`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_packed_numeric`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_packed_vector`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_pixel`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_quadgroup`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_raytracing`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_relational`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_simdgroup`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_simdgroup_matrix`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_stdlib`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_tensor`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_tessellation`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_texture`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_type_traits`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_types`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_types.h`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_uniform`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_utility`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_vertex_value`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/metal_visible_function_table`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/module.modulemap`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/prebuilt_implicit_modules/11J4FD0GGD17H/monolithic_metal.pcm`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/prebuilt_implicit_modules/18ZI79N3Z3DWX/monolithic_metal.pcm`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/prebuilt_implicit_modules/1ZNSRW93NWN1P/monolithic_metal.pcm`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/prebuilt_implicit_modules/26UW0R8ZKMMI8/monolithic_metal.pcm`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/prebuilt_implicit_modules/2GZIW6ONDO1I7/monolithic_metal.pcm`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/prebuilt_implicit_modules/2N2EK6MSZAN4F/monolithic_metal.pcm`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/prebuilt_implicit_modules/2NJW45LEUF7H/monolithic_metal.pcm`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/prebuilt_implicit_modules/2NX40MC2XTSCZ/monolithic_metal.pcm`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/prebuilt_implicit_modules/2PL1DCOFT93SZ/monolithic_metal.pcm`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/prebuilt_implicit_modules/2Y0Y4PH96EWI9/monolithic_metal.pcm`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/prebuilt_implicit_modules/318UGWPR342BQ/monolithic_metal.pcm`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/prebuilt_implicit_modules/3TSEMLVS6QEBO/monolithic_metal.pcm`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/simd/matrix_types.h`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/simd/packed.h`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/simd/simd.h`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/include/metal/simd/vector_types.h`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/lib/darwin/libair_rt_ios.rtlib`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/lib/darwin/libmetal_rt_ios.a`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/lib/darwin/libpost_mesh_dump_rt_ios.rtlib`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/lib/darwin/libresource_tracking_rt_ios.rtlib`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/lib/darwin/libtracepoint_rt_ios.metallib`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/lib/darwin/libtracepoint_rt_static_ios.a`
+- `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/lib/clang/32023.878/lib/darwin/libtracepoint_rt_workaround_ios.a`
+- `/System/Library/PrivateFrameworks/GameStoreKit.framework/ChicletVFX_AllPlacements_V4.vfx/info.json`
+- `/System/Library/PrivateFrameworks/GameStoreKit.framework/ChicletVFX_AllPlacements_V4.vfx/scene.vfxbin`
+- `/System/Library/PrivateFrameworks/GameStoreKit.framework/ChicletVFX_AllPlacements_V4.vfx/world.plist`
+- `/System/Library/PrivateFrameworks/HeadphoneAssets.framework/translate_AirPods_new_new.ca/assetManifest.caml`
+- `/System/Library/PrivateFrameworks/HeadphoneAssets.framework/translate_AirPods_new_new.ca/assets/B788-airpod_static_v02.png`
+- `/System/Library/PrivateFrameworks/HeadphoneAssets.framework/translate_AirPods_new_new.ca/assets/Solarium Gradient_sq.png`
+- `/System/Library/PrivateFrameworks/HeadphoneAssets.framework/translate_AirPods_new_new.ca/assets/mask.svg`
+- `/System/Library/PrivateFrameworks/HeadphoneAssets.framework/translate_AirPods_new_new.ca/index.xml`
+- `/System/Library/PrivateFrameworks/HeadphoneAssets.framework/translate_AirPods_new_new.ca/main.caml`
+- `/System/Library/PrivateFrameworks/IntelligenceFlowPlannerSupport.framework/PlannerToolError.loctable`
+- `/System/Library/PrivateFrameworks/NanoControlCenter.framework/buttonPlatterOff.materialrecipe`
+- `/System/Library/PrivateFrameworks/SESShared.framework/SESShared-Info.plist`
+- `/System/Library/PrivateFrameworks/SearchIntrospectionKit.framework/run-swift-format`
+- `/System/Library/PrivateFrameworks/UARPAssetManager.framework/UARPAssetManagerUnexports.txt`
+- `/System/Library/PrivateFrameworks/VisualLookUp.framework/RichLabelKV/RichLabelKgCommonNameAr.lzfse`
+- `/System/Library/PrivateFrameworks/VisualLookUp.framework/RichLabelKV/RichLabelKgCommonNameTh.lzfse`
+- `/System/Library/PrivateFrameworks/VisualLookUp.framework/RichLabelKV/RichLabelKgCommonNameYue_CN.lzfse`
+- `/System/Library/PrivateFrameworks/WorkflowResponsiveness.framework/WorkflowPlists/SiriQueryDecorator_GetContextTimeouts.plist`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_CA.bundle/Content.md`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_CA.bundle/Info.plist`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_Localized.bundle/en-GB.lproj/Content.md`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_Localized.bundle/en-GB.lproj/WheelieBin_logo_thin_5mm_042017@2x.png`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_Localized.bundle/en-GB.lproj/WheelieBin_logo_thin_5mm_042017@3x.png`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_Localized.bundle/en-GB.lproj/WheelieBin_logo_thin_5mm_042017~dark@2x.png`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_Localized.bundle/en-GB.lproj/WheelieBin_logo_thin_5mm_042017~dark@3x.png`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_Localized.bundle/et.lproj/Content.md`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_Localized.bundle/et.lproj/WheelieBin_logo_thin_5mm_042017@2x.png`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_Localized.bundle/et.lproj/WheelieBin_logo_thin_5mm_042017@3x.png`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_Localized.bundle/et.lproj/WheelieBin_logo_thin_5mm_042017~dark@2x.png`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_Localized.bundle/et.lproj/WheelieBin_logo_thin_5mm_042017~dark@3x.png`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_Localized.bundle/lv.lproj/Content.md`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_Localized.bundle/lv.lproj/WheelieBin_logo_thin_5mm_042017@2x.png`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_Localized.bundle/lv.lproj/WheelieBin_logo_thin_5mm_042017@3x.png`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_Localized.bundle/lv.lproj/WheelieBin_logo_thin_5mm_042017~dark@2x.png`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_Localized.bundle/lv.lproj/WheelieBin_logo_thin_5mm_042017~dark@3x.png`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_Localized.bundle/sq.lproj/Content.md`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_Localized.bundle/sq.lproj/WheelieBin_logo_thin_5mm_042017@2x.png`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_Localized.bundle/sq.lproj/WheelieBin_logo_thin_5mm_042017@3x.png`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_Localized.bundle/sq.lproj/WheelieBin_logo_thin_5mm_042017~dark@2x.png`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_Localized.bundle/sq.lproj/WheelieBin_logo_thin_5mm_042017~dark@3x.png`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_Localized.bundle/sr.lproj/Content.md`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_Localized.bundle/sr.lproj/WheelieBin_logo_thin_5mm_042017@2x.png`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_Localized.bundle/sr.lproj/WheelieBin_logo_thin_5mm_042017@3x.png`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_Localized.bundle/sr.lproj/WheelieBin_logo_thin_5mm_042017~dark@2x.png`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_Localized.bundle/sr.lproj/WheelieBin_logo_thin_5mm_042017~dark@3x.png`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_ROW.bundle/et.lproj/Content.md`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_ROW.bundle/lv.lproj/Content.md`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_ROW.bundle/sq.lproj/Content.md`
+- `/System/Library/ProductDocuments/SafetyAndHandling/N227_N228_N243_N244_N230_ROW.bundle/sr.lproj/Content.md`
+- `/private/var/staged_system_apps/Freeform.app/Frameworks/AppsGen.framework/README.md`
+- `/private/var/staged_system_apps/Freeform.app/not-animated.gif`
+- `/private/var/staged_system_apps/MobileStore.app/LaunchScreen.storyboardc/UITabBarController-bRv-CR-MZp.nib`
+- `/private/var/staged_system_apps/Music.app/Frameworks/MusicApplication.framework/XPCServices/MusicScriptUpdateService.xpc/MusicFoundation_ShaderFallbackKit.bundle/Assets.car`
+- `/private/var/staged_system_apps/Music.app/Frameworks/MusicApplication.framework/XPCServices/MusicScriptUpdateService.xpc/MusicFoundation_ShaderFallbackKit.bundle/Info.plist`
+- `/private/var/staged_system_apps/Music.app/Frameworks/MusicApplication.framework/XPCServices/MusicScriptUpdateService.xpc/MusicFoundation_ShaderFallbackKit.bundle/default.metallib`
+- `/private/var/staged_system_apps/Music.app/MusicFoundation_ShaderFallbackKit.bundle/Assets.car`
+- `/private/var/staged_system_apps/Music.app/MusicFoundation_ShaderFallbackKit.bundle/Info.plist`
+- `/private/var/staged_system_apps/Music.app/MusicFoundation_ShaderFallbackKit.bundle/default.metallib`
+- `/private/var/staged_system_apps/Music.app/PlugIns/MediaPicker.appex/MusicFoundation_ShaderFallbackKit.bundle/Assets.car`
+- `/private/var/staged_system_apps/Music.app/PlugIns/MediaPicker.appex/MusicFoundation_ShaderFallbackKit.bundle/Info.plist`
+- `/private/var/staged_system_apps/Music.app/PlugIns/MediaPicker.appex/MusicFoundation_ShaderFallbackKit.bundle/default.metallib`
+- `/private/var/staged_system_apps/Music.app/PlugIns/MusicMessagesApp.appex/MusicFoundation_ShaderFallbackKit.bundle/Assets.car`
+- `/private/var/staged_system_apps/Music.app/PlugIns/MusicMessagesApp.appex/MusicFoundation_ShaderFallbackKit.bundle/Info.plist`
+- `/private/var/staged_system_apps/Music.app/PlugIns/MusicMessagesApp.appex/MusicFoundation_ShaderFallbackKit.bundle/default.metallib`
+- `/private/var/staged_system_apps/Music.app/PlugIns/MusicWidgets.appex/MusicFoundation_ShaderFallbackKit.bundle/Assets.car`
+- `/private/var/staged_system_apps/Music.app/PlugIns/MusicWidgets.appex/MusicFoundation_ShaderFallbackKit.bundle/Info.plist`
+- `/private/var/staged_system_apps/Music.app/PlugIns/MusicWidgets.appex/MusicFoundation_ShaderFallbackKit.bundle/default.metallib`
+- `/private/var/staged_system_apps/Tips.app/ar.lproj/nlu.appintents/cfa1b38438688c98fd4fdc24341ffd98.version`
+- `/private/var/staged_system_apps/Tips.app/bg.lproj/nlu.appintents/836e3ef0ea68ad4b53e6f39fb4864ccb.version`
+- `/private/var/staged_system_apps/Tips.app/bn.lproj/nlu.appintents/6e78e350445d1ca5c58465637b05a870.version`
+- `/private/var/staged_system_apps/Tips.app/ca.lproj/nlu.appintents/86c3004cfb16cc2dc016083257bbf62f.version`
+- `/private/var/staged_system_apps/Tips.app/cs.lproj/nlu.appintents/a89a5a042fb74987fe671755b94a50fd.version`
+- `/private/var/staged_system_apps/Tips.app/da.lproj/nlu.appintents/b62c20fb79f3771bdca624cc6e828e95.version`
+- `/private/var/staged_system_apps/Tips.app/de.lproj/nlu.appintents/5b233d48789ccfe60d8db3f7df5b16f6.version`
+- `/private/var/staged_system_apps/Tips.app/el.lproj/nlu.appintents/eaf504ce5e7c9f7decb860d7a789a90d.version`
+- `/private/var/staged_system_apps/Tips.app/en.lproj/nlu.appintents/46bfefa0d8dc58177e9c1462c016f7f2.version`
+- `/private/var/staged_system_apps/Tips.app/en_AU.lproj/nlu.appintents/f1481ee11cd234666cd617301d21e479.version`
+- `/private/var/staged_system_apps/Tips.app/en_GB.lproj/nlu.appintents/7a601ea9a4177c3c27ba16d7e6589363.version`
+- `/private/var/staged_system_apps/Tips.app/es.lproj/nlu.appintents/ce357ae8737a69d1f970bc0bed259628.version`
+- `/private/var/staged_system_apps/Tips.app/es_419.lproj/nlu.appintents/8a6d436bbd740160155926c030a35836.version`
+- `/private/var/staged_system_apps/Tips.app/es_US.lproj/nlu.appintents/f51a5a97a1ef915e690344a297411a6d.version`
+- `/private/var/staged_system_apps/Tips.app/fi.lproj/nlu.appintents/cef1f6444b6ad7486573fe0dbaee5592.version`
+- `/private/var/staged_system_apps/Tips.app/fr.lproj/nlu.appintents/b26ba1bbda283d44d6c9d546d8451448.version`
+- `/private/var/staged_system_apps/Tips.app/fr_CA.lproj/nlu.appintents/8aa73e48f2edb289683eb309f76edb2e.version`
+- `/private/var/staged_system_apps/Tips.app/gu.lproj/nlu.appintents/d3744f09b81e74887b52235cad1e9dd3.version`
+- `/private/var/staged_system_apps/Tips.app/he.lproj/nlu.appintents/93f04b292aea523d153fece8e18dd38f.version`
+- `/private/var/staged_system_apps/Tips.app/hi.lproj/nlu.appintents/cce4fc240ecfb05dddedf728c0defc02.version`
+- `/private/var/staged_system_apps/Tips.app/hr.lproj/nlu.appintents/3e9d4fefe52feb356f511ad6332702df.version`
+- `/private/var/staged_system_apps/Tips.app/hu.lproj/nlu.appintents/4832bebea0087e2a6a0f58dbeb4d0b04.version`
+- `/private/var/staged_system_apps/Tips.app/id.lproj/nlu.appintents/273faf502022f93545ebc14aabf9c334.version`
+- `/private/var/staged_system_apps/Tips.app/it.lproj/nlu.appintents/f5f8ce682f4cab88cdf527a102c97a2c.version`
+- `/private/var/staged_system_apps/Tips.app/ja.lproj/nlu.appintents/356ea13380c92434ab3095dd3657d915.version`
+- `/private/var/staged_system_apps/Tips.app/kk.lproj/nlu.appintents/1e011ba0305c6424136c80832b43c59e.version`
+- `/private/var/staged_system_apps/Tips.app/kn.lproj/nlu.appintents/1032045db50afbdc8a187cc1e7572349.version`
+- `/private/var/staged_system_apps/Tips.app/ko.lproj/nlu.appintents/6976ed0dbe9a2f51915a8c25c9b7c3b9.version`
+- `/private/var/staged_system_apps/Tips.app/lt.lproj/nlu.appintents/dc3c75a1ad7de96e70e4d5789bafb3ae.version`
+- `/private/var/staged_system_apps/Tips.app/ml.lproj/nlu.appintents/8364b0ec3101493262d835f15827b790.version`
+- `/private/var/staged_system_apps/Tips.app/mr.lproj/nlu.appintents/c3d31bcd9305a031e4143179fc540e22.version`
+- `/private/var/staged_system_apps/Tips.app/ms.lproj/nlu.appintents/7ce6e664f5dac63ad1e6f063f359caa5.version`
+- `/private/var/staged_system_apps/Tips.app/nl.lproj/nlu.appintents/d11d585c21bf72b11e1112e74a5e6b31.version`
+- `/private/var/staged_system_apps/Tips.app/no.lproj/nlu.appintents/71badc56db41b76ffcf2c26bbf499706.version`
+- `/private/var/staged_system_apps/Tips.app/or.lproj/nlu.appintents/f0272ce3258e61caadd7d61cbf03efed.version`
+- `/private/var/staged_system_apps/Tips.app/pa.lproj/nlu.appintents/727acadf54d54acdc5f4c4bea901df92.version`
+- `/private/var/staged_system_apps/Tips.app/pl.lproj/nlu.appintents/28b3fee6df163691e813b0badfc00fee.version`
+- `/private/var/staged_system_apps/Tips.app/pt_BR.lproj/nlu.appintents/ce222a545cad3ab2545a77cb4e3c4fbb.version`
+- `/private/var/staged_system_apps/Tips.app/ro.lproj/nlu.appintents/642f5f9ebda1592c318fdfc9015f1497.version`
+- `/private/var/staged_system_apps/Tips.app/ru.lproj/nlu.appintents/20acaa067a93848e58e38512fbb25c9c.version`
+- `/private/var/staged_system_apps/Tips.app/sk.lproj/nlu.appintents/dd658e68186e8e1eb14647bed3f80ff3.version`
+- `/private/var/staged_system_apps/Tips.app/sl.lproj/nlu.appintents/653bd47f69fe7aa7c729c02d9d0d31d0.version`
+- `/private/var/staged_system_apps/Tips.app/sv.lproj/nlu.appintents/d79537549779b68cd1997b87b8c4d597.version`
+- `/private/var/staged_system_apps/Tips.app/ta.lproj/nlu.appintents/c392f19f521e641edbe8a1dd80d90963.version`
+- `/private/var/staged_system_apps/Tips.app/th.lproj/nlu.appintents/83f72807c0afe1196143dbad768513e3.version`
+- `/private/var/staged_system_apps/Tips.app/tr.lproj/nlu.appintents/a0ed599d4d769184194dca0d19c56e19.version`
+- `/private/var/staged_system_apps/Tips.app/uk.lproj/nlu.appintents/cd7613f1d3bb21899c2db8492577194c.version`
+- `/private/var/staged_system_apps/Tips.app/ur.lproj/nlu.appintents/d0731236957e8bce163da12916a51c1b.version`
+- `/private/var/staged_system_apps/Tips.app/vi.lproj/nlu.appintents/abfa98b9d5009cde3ef3e6087a983f84.version`
+- `/private/var/staged_system_apps/Tips.app/zh_CN.lproj/nlu.appintents/c717de8bd8491437b2f247e22bb6dd05.version`
+- `/private/var/staged_system_apps/Tips.app/zh_HK.lproj/nlu.appintents/0f46ee88027642bbbdc2f2fe6a6cd98d.version`
+- `/private/var/staged_system_apps/Tips.app/zh_TW.lproj/nlu.appintents/8fc080c2b78502d16f5afe1791265034.version`
+- `/private/var/staged_system_apps/VoiceMemos.app/Base.lproj/nlu.appintents/fe200a7bea670fc523de9e407efda68c.version`
+- `/private/var/staged_system_apps/VoiceMemos.app/en.lproj/nlu.appintents/c203b06b6ad86d4774f5aada5e5fa29c.version`
+
+</details>
+
+## EOF

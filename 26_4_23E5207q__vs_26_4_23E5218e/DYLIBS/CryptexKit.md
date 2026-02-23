@@ -1,0 +1,476 @@
+## CryptexKit
+
+> `/System/Library/PrivateFrameworks/CryptexKit.framework/CryptexKit`
+
+```diff
+
+-662.100.17.0.0
+-  __TEXT.__text: 0x64df8
+-  __TEXT.__auth_stubs: 0x20a0
++662.100.24.0.0
++  __TEXT.__text: 0x678ec
++  __TEXT.__auth_stubs: 0x2130
+   __TEXT.__objc_methlist: 0x124
+-  __TEXT.__const: 0x87f8
+-  __TEXT.__cstring: 0x19fb
+-  __TEXT.__constg_swiftt: 0x1d6c
+-  __TEXT.__swift5_typeref: 0x1661
+-  __TEXT.__swift5_reflstr: 0x1268
+-  __TEXT.__swift5_fieldmd: 0x1efc
+-  __TEXT.__swift5_types: 0x2d0
++  __TEXT.__const: 0x8d00
++  __TEXT.__cstring: 0x1ad6
++  __TEXT.__constg_swiftt: 0x1ec4
++  __TEXT.__swift5_typeref: 0x1721
++  __TEXT.__swift5_reflstr: 0x12ef
++  __TEXT.__swift5_fieldmd: 0x1ff0
++  __TEXT.__swift5_types: 0x2ec
+   __TEXT.__swift5_types2: 0x20
+-  __TEXT.__swift5_proto: 0x87c
+-  __TEXT.__swift5_assocty: 0x7f8
++  __TEXT.__swift5_proto: 0x8e4
++  __TEXT.__swift5_assocty: 0x890
+   __TEXT.__oslogstring: 0x5b4
+   __TEXT.__swift5_capture: 0x148
+   __TEXT.__swift5_builtin: 0x1a4
+
+   __TEXT.__swift_as_ret: 0x68
+   __TEXT.__swift5_mpenum: 0x40
+   __TEXT.__swift5_protos: 0x28
+-  __TEXT.__unwind_info: 0x2880
+-  __TEXT.__eh_frame: 0x5b50
+-  __TEXT.__objc_classname: 0x2a2
+-  __TEXT.__objc_methname: 0x446
++  __TEXT.__unwind_info: 0x2a48
++  __TEXT.__eh_frame: 0x5ef0
++  __TEXT.__objc_classname: 0x332
++  __TEXT.__objc_methname: 0x456
+   __TEXT.__objc_methtype: 0x1c9
+   __TEXT.__objc_stubs: 0x1e0
+-  __DATA_CONST.__got: 0x3e8
++  __DATA_CONST.__got: 0x3f0
+   __DATA_CONST.__const: 0x120
+-  __DATA_CONST.__objc_classlist: 0x78
++  __DATA_CONST.__objc_classlist: 0x90
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x128
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __AUTH_CONST.__auth_got: 0x1058
+-  __AUTH_CONST.__const: 0x6d68
+-  __AUTH_CONST.__objc_const: 0xcd8
++  __AUTH_CONST.__auth_got: 0x10a0
++  __AUTH_CONST.__const: 0x70f0
++  __AUTH_CONST.__objc_const: 0xf18
+   __AUTH.__objc_data: 0x228
+-  __AUTH.__data: 0x16d8
+-  __DATA.__data: 0xde8
+-  __DATA.__bss: 0xd280
++  __AUTH.__data: 0x19c0
++  __DATA.__data: 0xe18
++  __DATA.__bss: 0xda00
+   __DATA.__common: 0x20
+   __DATA_DIRTY.__objc_data: 0x78
+   __DATA_DIRTY.__data: 0xf8
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 86E59FBC-D84F-343E-99BA-8876AA4B1E75
+-  Functions: 3405
+-  Symbols:   12059
+-  CStrings:  354
++  UUID: 109F7788-98B7-327F-8BC8-69BC270A1882
++  Functions: 3539
++  Symbols:   12538
++  CStrings:  367
+ 
+Symbols:
++ _$s10CryptexKit021RequestInstallBuiltinA0VAA0C0A2aDP14checkPrivilege10auditTokenySo0H8_token_ta_tKFTW
++ _$s10CryptexKit0A5ErrorO12notPermittedyA2CmFWC
++ _$s10CryptexKit12PkgAssetTypeO11openOptions6System14FileDescriptorV04OpenG0Vvg
++ _$s10CryptexKit12PkgAssetTypeO11openOptions6System14FileDescriptorV04OpenG0VvpMV
++ _$s10CryptexKit12PkgDirectoryV8metadatayxxmKSeRzlF
++ _$s10CryptexKit14PkgListRequestCAA0E0A2aDP14checkPrivilege10auditTokenySo0H8_token_ta_tKFTW
++ _$s10CryptexKit14RequestInstallVAA0C0A2aDP14checkPrivilege10auditTokenySo0G8_token_ta_tKFTW
++ _$s10CryptexKit16PkgExportRequestCAA0E0A2aDP14checkPrivilege10auditTokenySo0H8_token_ta_tKFTW
++ _$s10CryptexKit16PkgImportRequestC14checkPrivilege10auditTokenySo0H8_token_ta_tKF
++ _$s10CryptexKit16PkgImportRequestCAA0E0A2aDP14checkPrivilege10auditTokenySo0H8_token_ta_tKFTW
++ _$s10CryptexKit16PkgRemoveRequestC14checkPrivilege10auditTokenySo0H8_token_ta_tKF
++ _$s10CryptexKit16PkgRemoveRequestCAA0E0A2aDP14checkPrivilege10auditTokenySo0H8_token_ta_tKFTW
++ _$s10CryptexKit16RequestTestErrorVAA0C0A2aDP14checkPrivilege10auditTokenySo0H8_token_ta_tKFTW
++ _$s10CryptexKit16RequestUninstallVAA0C0A2aDP14checkPrivilege10auditTokenySo0G8_token_ta_tKFTW
++ _$s10CryptexKit17PkgEnvInfoRequestVAA0F0A2aDP14checkPrivilege10auditTokenySo0I8_token_ta_tKFTW
++ _$s10CryptexKit17PkgEnvLinkRequestVAA0F0A2aDP14checkPrivilege10auditTokenySo0I8_token_ta_tKFTW
++ _$s10CryptexKit18PkgInvEraseRequestC14checkPrivilege10auditTokenySo0I8_token_ta_tKF
++ _$s10CryptexKit18PkgInvEraseRequestC16checkEntitlement12entitlementsySDySSypG_tKF
++ _$s10CryptexKit18PkgInvEraseRequestC2idSSvgZ
++ _$s10CryptexKit18PkgInvEraseRequestC2idSSvpZMV
++ _$s10CryptexKit18PkgInvEraseRequestC4from3xpcACXDSo03OS_H7_object_p_tKFZ
++ _$s10CryptexKit18PkgInvEraseRequestC8populate7xpcDictySo03OS_H7_object_pz_tKF
++ _$s10CryptexKit18PkgInvEraseRequestCAA0F0A2aDP14checkPrivilege10auditTokenySo0I8_token_ta_tKFTW
++ _$s10CryptexKit18PkgInvEraseRequestCAA0F0A2aDP16checkEntitlement12entitlementsySDySSypG_tKFTW
++ _$s10CryptexKit18PkgInvEraseRequestCAA0F0A2aDP2idSSvgZTW
++ _$s10CryptexKit18PkgInvEraseRequestCAA0F0AA12ResponseTypeAaDP_AA0G0PWT
++ _$s10CryptexKit18PkgInvEraseRequestCAA0F0AAMA
++ _$s10CryptexKit18PkgInvEraseRequestCAA0F0AAMc
++ _$s10CryptexKit18PkgInvEraseRequestCAA0F0AAWP
++ _$s10CryptexKit18PkgInvEraseRequestCAA10XpcCodableA2aDP4from3xpcxSo03OS_J7_object_p_tKFZTW
++ _$s10CryptexKit18PkgInvEraseRequestCAA10XpcCodableA2aDP5asXPCSo13OS_xpc_object_pyKFTW
++ _$s10CryptexKit18PkgInvEraseRequestCAA10XpcCodableAAMc
++ _$s10CryptexKit18PkgInvEraseRequestCAA10XpcCodableAAWP
++ _$s10CryptexKit18PkgInvEraseRequestCAA14XpcDictCodableA2aDP8populate03xpcH0ySo03OS_K7_object_pz_tKFTW
++ _$s10CryptexKit18PkgInvEraseRequestCAA14XpcDictCodableAAMc
++ _$s10CryptexKit18PkgInvEraseRequestCAA14XpcDictCodableAAWP
++ _$s10CryptexKit18PkgInvEraseRequestCACycfC
++ _$s10CryptexKit18PkgInvEraseRequestCACycfCTj
++ _$s10CryptexKit18PkgInvEraseRequestCACycfCTq
++ _$s10CryptexKit18PkgInvEraseRequestCACycfc
++ _$s10CryptexKit18PkgInvEraseRequestCMF
++ _$s10CryptexKit18PkgInvEraseRequestCMa
++ _$s10CryptexKit18PkgInvEraseRequestCMf
++ _$s10CryptexKit18PkgInvEraseRequestCMm
++ _$s10CryptexKit18PkgInvEraseRequestCMn
++ _$s10CryptexKit18PkgInvEraseRequestCMo
++ _$s10CryptexKit18PkgInvEraseRequestCMu
++ _$s10CryptexKit18PkgInvEraseRequestCN
++ _$s10CryptexKit18PkgInvEraseRequestCfD
++ _$s10CryptexKit18PkgInvEraseRequestCfd
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysO11stringValueAESgSS_tcfC
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysO11stringValueSSvg
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysO11stringValueSSvpMV
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysO8intValueAESgSi_tcfC
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysO8intValueSiSgvg
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysO8intValueSiSgvpMV
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysO8rawValueAESgSS_tcfC
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysO8rawValueAESgSS_tcfCTf4nd_n
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysO8rawValueAESgSS_tcfCTv_r
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysO8rawValueSSvg
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysO8rawValueSSvpMV
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOAESQAAWL
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOAESQAAWl
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOAEs0G3KeyAAWL
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOAEs0G3KeyAAWl
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOAEs23CustomStringConvertibleAAWL
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOAEs23CustomStringConvertibleAAWl
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOAEs28CustomDebugStringConvertibleAAWL
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOAEs28CustomDebugStringConvertibleAAWl
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOMF
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOMa
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOMf
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOMn
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysON
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOSHAAMc
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOSHAAMcMK
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOSHAASH9hashValueSivgTW
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOSHAASQWb
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOSQAAMc
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOSQAAMcMK
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOSQAASQ2eeoiySbx_xtFZTW
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOSYAAMA
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOSYAAMc
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOSYAAMcMK
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOSYAASY8rawValue03RawJ0QzvgTW
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOSYAASY8rawValuexSg03RawJ0Qz_tcfCTW
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOWV
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOs0G3KeyAAMc
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOs0G3KeyAAMcMK
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOs0G3KeyAAs23CustomStringConvertiblePWb
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOs0G3KeyAAs28CustomDebugStringConvertiblePWb
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOs0G3KeyAAsAFP11stringValueSSvgTW
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOs0G3KeyAAsAFP11stringValuexSgSS_tcfCTW
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOs0G3KeyAAsAFP8intValueSiSgvgTW
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOs0G3KeyAAsAFP8intValuexSgSi_tcfCTW
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOs23CustomStringConvertibleAAMc
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOs23CustomStringConvertibleAAMcMK
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOs23CustomStringConvertibleAAsAFP11descriptionSSvgTW
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOs28CustomDebugStringConvertibleAAMc
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOs28CustomDebugStringConvertibleAAMcMK
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOs28CustomDebugStringConvertibleAAsAFP16debugDescriptionSSvgTW
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOwet
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOwst
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOwug
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOwui
++ _$s10CryptexKit18PkgInvQueryRequestC10CodingKeysOwup
++ _$s10CryptexKit18PkgInvQueryRequestC10publishersShySSGvg
++ _$s10CryptexKit18PkgInvQueryRequestC10publishersShySSGvpMV
++ _$s10CryptexKit18PkgInvQueryRequestC10publishersShySSGvpWvd
++ _$s10CryptexKit18PkgInvQueryRequestC11environmentSSSgvg
++ _$s10CryptexKit18PkgInvQueryRequestC11environmentSSSgvpMV
++ _$s10CryptexKit18PkgInvQueryRequestC11environmentSSSgvpWvd
++ _$s10CryptexKit18PkgInvQueryRequestC16checkEntitlement12entitlementsySDySSypG_tKF
++ _$s10CryptexKit18PkgInvQueryRequestC2idSSvgZ
++ _$s10CryptexKit18PkgInvQueryRequestC2idSSvpZMV
++ _$s10CryptexKit18PkgInvQueryRequestC4from3xpcACXDSo03OS_H7_object_p_tKFZ
++ _$s10CryptexKit18PkgInvQueryRequestC4from3xpcACXDSo03OS_H7_object_p_tKFZTf4nd_n
++ _$s10CryptexKit18PkgInvQueryRequestC7options11environment10publishersAcA0C11InfoOptionsV_SSSgShySSGtcfC
++ _$s10CryptexKit18PkgInvQueryRequestC7options11environment10publishersAcA0C11InfoOptionsV_SSSgShySSGtcfCTj
++ _$s10CryptexKit18PkgInvQueryRequestC7options11environment10publishersAcA0C11InfoOptionsV_SSSgShySSGtcfCTq
++ _$s10CryptexKit18PkgInvQueryRequestC7options11environment10publishersAcA0C11InfoOptionsV_SSSgShySSGtcfc
++ _$s10CryptexKit18PkgInvQueryRequestC7optionsAA0C11InfoOptionsVvg
++ _$s10CryptexKit18PkgInvQueryRequestC7optionsAA0C11InfoOptionsVvpMV
++ _$s10CryptexKit18PkgInvQueryRequestC7optionsAA0C11InfoOptionsVvpWvd
++ _$s10CryptexKit18PkgInvQueryRequestC8populate7xpcDictySo03OS_H7_object_pz_tKF
++ _$s10CryptexKit18PkgInvQueryRequestCAA0F0A2aDP14checkPrivilege10auditTokenySo0I8_token_ta_tKFTW
++ _$s10CryptexKit18PkgInvQueryRequestCAA0F0A2aDP16checkEntitlement12entitlementsySDySSypG_tKFTW
++ _$s10CryptexKit18PkgInvQueryRequestCAA0F0A2aDP2idSSvgZTW
++ _$s10CryptexKit18PkgInvQueryRequestCAA0F0AA12ResponseTypeAaDP_AA0G0PWT
++ _$s10CryptexKit18PkgInvQueryRequestCAA0F0AAMA
++ _$s10CryptexKit18PkgInvQueryRequestCAA0F0AAMc
++ _$s10CryptexKit18PkgInvQueryRequestCAA0F0AAWP
++ _$s10CryptexKit18PkgInvQueryRequestCAA10XpcCodableA2aDP4from3xpcxSo03OS_J7_object_p_tKFZTW
++ _$s10CryptexKit18PkgInvQueryRequestCAA10XpcCodableA2aDP5asXPCSo13OS_xpc_object_pyKFTW
++ _$s10CryptexKit18PkgInvQueryRequestCAA10XpcCodableAAMc
++ _$s10CryptexKit18PkgInvQueryRequestCAA10XpcCodableAAWP
++ _$s10CryptexKit18PkgInvQueryRequestCAA14XpcDictCodableA2aDP8populate03xpcH0ySo03OS_K7_object_pz_tKFTW
++ _$s10CryptexKit18PkgInvQueryRequestCAA14XpcDictCodableAAMc
++ _$s10CryptexKit18PkgInvQueryRequestCAA14XpcDictCodableAAWP
++ _$s10CryptexKit18PkgInvQueryRequestCMF
++ _$s10CryptexKit18PkgInvQueryRequestCMa
++ _$s10CryptexKit18PkgInvQueryRequestCMf
++ _$s10CryptexKit18PkgInvQueryRequestCMm
++ _$s10CryptexKit18PkgInvQueryRequestCMn
++ _$s10CryptexKit18PkgInvQueryRequestCMo
++ _$s10CryptexKit18PkgInvQueryRequestCMu
++ _$s10CryptexKit18PkgInvQueryRequestCN
++ _$s10CryptexKit18PkgInvQueryRequestCfD
++ _$s10CryptexKit18PkgInvQueryRequestCfd
++ _$s10CryptexKit19PkgEnvCreateRequestVAA0F0A2aDP14checkPrivilege10auditTokenySo0I8_token_ta_tKFTW
++ _$s10CryptexKit19PkgEnvUnlinkRequestVAA0F0A2aDP14checkPrivilege10auditTokenySo0I8_token_ta_tKFTW
++ _$s10CryptexKit19PkgInvEraseResponseV4from3xpcACSo03OS_H7_object_p_tKFZ
++ _$s10CryptexKit19PkgInvEraseResponseV8populate7xpcDictySo03OS_H7_object_pz_tKF
++ _$s10CryptexKit19PkgInvEraseResponseVAA0F0AAMc
++ _$s10CryptexKit19PkgInvEraseResponseVAA0F0AAWP
++ _$s10CryptexKit19PkgInvEraseResponseVAA10XpcCodableA2aDP4from3xpcxSo03OS_J7_object_p_tKFZTW
++ _$s10CryptexKit19PkgInvEraseResponseVAA10XpcCodableA2aDP5asXPCSo13OS_xpc_object_pyKFTW
++ _$s10CryptexKit19PkgInvEraseResponseVAA10XpcCodableAAMc
++ _$s10CryptexKit19PkgInvEraseResponseVAA10XpcCodableAAWP
++ _$s10CryptexKit19PkgInvEraseResponseVAA14XpcDictCodableA2aDP8populate03xpcH0ySo03OS_K7_object_pz_tKFTW
++ _$s10CryptexKit19PkgInvEraseResponseVAA14XpcDictCodableAAMc
++ _$s10CryptexKit19PkgInvEraseResponseVAA14XpcDictCodableAAWP
++ _$s10CryptexKit19PkgInvEraseResponseVACycfC
++ _$s10CryptexKit19PkgInvEraseResponseVMF
++ _$s10CryptexKit19PkgInvEraseResponseVMa
++ _$s10CryptexKit19PkgInvEraseResponseVMf
++ _$s10CryptexKit19PkgInvEraseResponseVMn
++ _$s10CryptexKit19PkgInvEraseResponseVN
++ _$s10CryptexKit19PkgInvEraseResponseVWV
++ _$s10CryptexKit19PkgInvEraseResponseVwet
++ _$s10CryptexKit19PkgInvEraseResponseVwst
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysO11stringValueAESgSS_tcfC
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysO11stringValueSSvg
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysO11stringValueSSvpMV
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysO8intValueAESgSi_tcfC
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysO8intValueSiSgvg
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysO8intValueSiSgvpMV
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysO8rawValueAESgSS_tcfC
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysO8rawValueAESgSS_tcfCTv_r
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysO8rawValueSSvg
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysO8rawValueSSvpMV
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOAESQAAWL
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOAESQAAWl
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOAEs0G3KeyAAWL
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOAEs0G3KeyAAWl
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOAEs23CustomStringConvertibleAAWL
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOAEs23CustomStringConvertibleAAWl
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOAEs28CustomDebugStringConvertibleAAWL
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOAEs28CustomDebugStringConvertibleAAWl
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOMF
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOMa
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOMf
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOMn
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysON
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOSHAAMc
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOSHAAMcMK
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOSHAASH9hashValueSivgTW
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOSHAASQWb
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOSQAAMc
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOSQAAMcMK
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOSQAASQ2eeoiySbx_xtFZTW
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOSYAAMA
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOSYAAMc
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOSYAAMcMK
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOSYAASY8rawValue03RawJ0QzvgTW
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOSYAASY8rawValuexSg03RawJ0Qz_tcfCTW
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOWV
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOs0G3KeyAAMc
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOs0G3KeyAAMcMK
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOs0G3KeyAAs23CustomStringConvertiblePWb
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOs0G3KeyAAs28CustomDebugStringConvertiblePWb
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOs0G3KeyAAsAFP11stringValueSSvgTW
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOs0G3KeyAAsAFP11stringValuexSgSS_tcfCTW
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOs0G3KeyAAsAFP8intValueSiSgvgTW
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOs0G3KeyAAsAFP8intValuexSgSi_tcfCTW
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOs23CustomStringConvertibleAAMc
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOs23CustomStringConvertibleAAMcMK
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOs23CustomStringConvertibleAAsAFP11descriptionSSvgTW
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOs28CustomDebugStringConvertibleAAMc
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOs28CustomDebugStringConvertibleAAMcMK
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOs28CustomDebugStringConvertibleAAsAFP16debugDescriptionSSvgTW
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOwet
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOwst
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOwug
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOwui
++ _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOwup
++ _$s10CryptexKit19PkgInvQueryResponseC4from3xpcACXDSo03OS_H7_object_p_tKFZ
++ _$s10CryptexKit19PkgInvQueryResponseC4from3xpcACXDSo03OS_H7_object_p_tKFZTf4nd_n
++ _$s10CryptexKit19PkgInvQueryResponseC4takeAA0C5IndexVSgyF
++ _$s10CryptexKit19PkgInvQueryResponseC5index33_0F15C8ED191710702D23CFBA4BFDBA54LLAA0C5IndexVSgvpWvd
++ _$s10CryptexKit19PkgInvQueryResponseC5indexAcA0C5IndexV_tcfC
++ _$s10CryptexKit19PkgInvQueryResponseC5indexAcA0C5IndexV_tcfCTj
++ _$s10CryptexKit19PkgInvQueryResponseC5indexAcA0C5IndexV_tcfCTq
++ _$s10CryptexKit19PkgInvQueryResponseC5indexAcA0C5IndexV_tcfc
++ _$s10CryptexKit19PkgInvQueryResponseC8populate7xpcDictySo03OS_H7_object_pz_tKF
++ _$s10CryptexKit19PkgInvQueryResponseCAA0F0AAMc
++ _$s10CryptexKit19PkgInvQueryResponseCAA0F0AAWP
++ _$s10CryptexKit19PkgInvQueryResponseCAA10XpcCodableA2aDP4from3xpcxSo03OS_J7_object_p_tKFZTW
++ _$s10CryptexKit19PkgInvQueryResponseCAA10XpcCodableA2aDP5asXPCSo13OS_xpc_object_pyKFTW
++ _$s10CryptexKit19PkgInvQueryResponseCAA10XpcCodableAAMc
++ _$s10CryptexKit19PkgInvQueryResponseCAA10XpcCodableAAWP
++ _$s10CryptexKit19PkgInvQueryResponseCAA14XpcDictCodableA2aDP8populate03xpcH0ySo03OS_K7_object_pz_tKFTW
++ _$s10CryptexKit19PkgInvQueryResponseCAA14XpcDictCodableAAMc
++ _$s10CryptexKit19PkgInvQueryResponseCAA14XpcDictCodableAAWP
++ _$s10CryptexKit19PkgInvQueryResponseCMF
++ _$s10CryptexKit19PkgInvQueryResponseCMa
++ _$s10CryptexKit19PkgInvQueryResponseCMf
++ _$s10CryptexKit19PkgInvQueryResponseCMm
++ _$s10CryptexKit19PkgInvQueryResponseCMn
++ _$s10CryptexKit19PkgInvQueryResponseCMo
++ _$s10CryptexKit19PkgInvQueryResponseCMu
++ _$s10CryptexKit19PkgInvQueryResponseCN
++ _$s10CryptexKit19PkgInvQueryResponseCfD
++ _$s10CryptexKit19PkgInvQueryResponseCfd
++ _$s10CryptexKit20PkgEnvResolveRequestVAA0F0A2aDP14checkPrivilege10auditTokenySo0I8_token_ta_tKFTW
++ _$s10CryptexKit21PkgEnvActivateRequestVAA0F0A2aDP14checkPrivilege10auditTokenySo0I8_token_ta_tKFTW
++ _$s10CryptexKit21PkgEnvTeardownRequestVAA0F0A2aDP14checkPrivilege10auditTokenySo0I8_token_ta_tKFTW
++ _$s10CryptexKit22PkgEnvBootstrapRequestVAA0F0A2aDP14checkPrivilege10auditTokenySo0I8_token_ta_tKFTW
++ _$s10CryptexKit26RequestInstalledInfoPlistsVAA0C0A2aDP14checkPrivilege10auditTokenySo0I8_token_ta_tKFTW
++ _$s10CryptexKit4TrieV12makeIteratorAC0E0Vyx_GyF
++ _$s10CryptexKit4TrieV8IteratorV4nextSaySSG_xtSgyF
++ _$s10CryptexKit4TrieV8IteratorV4rootAEyx_GAcARi_zrlE4NodeCyx_G_tcfC
++ _$s10CryptexKit4TrieV8IteratorVMF
++ _$s10CryptexKit4TrieV8IteratorVMI
++ _$s10CryptexKit4TrieV8IteratorVMP
++ _$s10CryptexKit4TrieV8IteratorVMa
++ _$s10CryptexKit4TrieV8IteratorVMi
++ _$s10CryptexKit4TrieV8IteratorVMn
++ _$s10CryptexKit4TrieV8IteratorVMr
++ _$s10CryptexKit4TrieV8IteratorVWV
++ _$s10CryptexKit4TrieV8IteratorVwet
++ _$s10CryptexKit4TrieV8IteratorVwst
++ _$s10CryptexKit4TrieV8IteratorVyx_GStAAMA
++ _$s10CryptexKit4TrieV8IteratorVyx_GStAAMc
++ _$s10CryptexKit4TrieV8IteratorVyx_GStAAMcMK
++ _$s10CryptexKit4TrieV8IteratorVyx_GStAASt4next7ElementQzSgyFTW
++ _$s10CryptexKit4TrieVMXE
++ _$s10CryptexKit4TrieVwetTm
++ _$s10CryptexKit4TrieVwstTm
++ _$s10CryptexKit4TrieVyxGSTAA8IteratorST_StWT
++ _$s10CryptexKit4TrieVyxGSTAAMA
++ _$s10CryptexKit4TrieVyxGSTAAMc
++ _$s10CryptexKit4TrieVyxGSTAAMcMK
++ _$s10CryptexKit4TrieVyxGSTAAST12makeIterator0E0QzyFTW
++ _$s10CryptexKit4TrieVyxGSTAAST13_copyContents12initializing8IteratorQz_SitSry7ElementQzG_tFTW
++ _$s10CryptexKit4TrieVyxGSTAAST19underestimatedCountSivgTW
++ _$s10CryptexKit4TrieVyxGSTAAST22_copyToContiguousArrays0fG0Vy7ElementQzGyFTW
++ _$s10CryptexKit4TrieVyxGSTAAST31_customContainsEquatableElementySbSg0G0QzFTW
++ _$s10CryptexKit4TrieVyxGSTAAST32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlFTW
++ _$s10CryptexKit6TempFdV4load10Foundation4DataVyKF
++ _$s10CryptexKit7RequestP14checkPrivilege10auditTokenySo0F8_token_ta_tKF
++ _$s10CryptexKit7RequestP14checkPrivilege10auditTokenySo0F8_token_ta_tKFTj
++ _$s10CryptexKit7RequestP14checkPrivilege10auditTokenySo0F8_token_ta_tKFTq
++ _$s10CryptexKit7RequestPAAE14checkPrivilege10auditTokenySo0F8_token_ta_tKF
++ _$s10CryptexKit7RequestPAAE16requireSuperuser10auditTokenySo0F8_token_ta_tKF
++ _$s10CryptexKit8PkgIndexV3mapySayxGxAC7PackageVnKXEKlF
++ _$s10CryptexKit8PkgIndexV3mapySayxGxAC7PackageVnKXEKlFyAGnKXEfU_
++ _$s10CryptexKit8PkgIndexV3mapySayxGxAC7PackageVnKXEKlFyAGnKXEfU_TA
++ _$s10CryptexKit8PkgIndexV7forEachyyyAC7PackageVnKXEKFySaySSG_AA4TrieVAARi_zrlE4NodeCyAC5EntryV_GtKXEfU_TA.2
++ _$s7ElementStTl
++ _$s8IteratorSTTl
++ _$sSKsE8reverseds18ReversedCollectionVyxGyF
++ _$sST12makeIterator0B0QzyFTq
++ _$sST13_copyContents12initializing8IteratorQz_SitSry7ElementQzG_tFTq
++ _$sST19underestimatedCountSivgTq
++ _$sST22_copyToContiguousArrays0cD0Vy7ElementQzGyFTq
++ _$sST31_customContainsEquatableElementySbSg0D0QzFTq
++ _$sST32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlFTq
++ _$sST8IteratorST_StTn
++ _$sSTMp
++ _$sSTsE13_copyContents12initializing8IteratorQz_SitSry7ElementQzG_tF
++ _$sSTsE21_copySequenceContents12initializing8IteratorQz_SitSry7ElementQzG_tFShySSG_Tg5
++ _$sSTsE22_copyToContiguousArrays0cD0Vy7ElementQzGyFTf4g_n
++ _$sSTsE32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlF
++ _$sSa13_adoptStorage_5countSayxG_SpyxGts016_ContiguousArrayB0CyxGn_SitFZ
++ _$sSayxGSmsMc
++ _$sSayxSicir
++ _$sSayxSicir.resume.0
++ _$sSh8IteratorV8_VariantOySS__GWOe
++ _$sSmsSKRzrlE7popLast7ElementSTQzSgyF
++ _$sSo13audit_token_ta10CryptexKitE4euids6UInt32Vvg
++ _$sSo13audit_token_ta10CryptexKitE4euids6UInt32VvpMV
++ _$sSt4next7ElementQzSgyFTq
++ _$sStMp
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSS_Tt1g5
++ _$ss23_ContiguousArrayStorageCMa
++ _$ss30_copySequenceToContiguousArrayys0dE0Vy7ElementQzGxSTRzlF
++ __DATA__TtC10CryptexKit18PkgInvEraseRequest
++ __DATA__TtC10CryptexKit18PkgInvQueryRequest
++ __DATA__TtC10CryptexKit19PkgInvQueryResponse
++ __IVARS__TtC10CryptexKit18PkgInvQueryRequest
++ __IVARS__TtC10CryptexKit19PkgInvQueryResponse
++ __METACLASS_DATA__TtC10CryptexKit18PkgInvEraseRequest
++ __METACLASS_DATA__TtC10CryptexKit18PkgInvQueryRequest
++ __METACLASS_DATA__TtC10CryptexKit19PkgInvQueryResponse
++ ___unnamed_11
++ ___unnamed_5
++ _associated conformance 10CryptexKit18PkgInvEraseRequestCAA0F0AA12ResponseTypeAaDP_AA0G0
++ _associated conformance 10CryptexKit18PkgInvQueryRequestC10CodingKeysOSHAASQ
++ _associated conformance 10CryptexKit18PkgInvQueryRequestC10CodingKeysOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 10CryptexKit18PkgInvQueryRequestC10CodingKeysOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10CryptexKit18PkgInvQueryRequestCAA0F0AA12ResponseTypeAaDP_AA0G0
++ _associated conformance 10CryptexKit19PkgInvQueryResponseC10CodingKeysOSHAASQ
++ _associated conformance 10CryptexKit19PkgInvQueryResponseC10CodingKeysOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 10CryptexKit19PkgInvQueryResponseC10CodingKeysOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10CryptexKit4TrieVyxGSTAA8IteratorST_St
++ _audit_token_to_euid
++ _get_type_metadata 10CryptexKit8PkgIndexVSg noncopyable.16
++ _swift_coroFrameAlloc
++ _symbolic $sST
++ _symbolic $sSt
++ _symbolic SaySSG_xt
++ _symbolic Say_____yx_G4node_SaySSG4pathtG 10CryptexKit4TrieV4NodeCAARi_zrlE
++ _symbolic _____ 10CryptexKit18PkgInvEraseRequestC
++ _symbolic _____ 10CryptexKit18PkgInvQueryRequestC
++ _symbolic _____ 10CryptexKit18PkgInvQueryRequestC10CodingKeysO
++ _symbolic _____ 10CryptexKit19PkgInvEraseResponseV
++ _symbolic _____ 10CryptexKit19PkgInvQueryResponseC
++ _symbolic _____ 10CryptexKit19PkgInvQueryResponseC10CodingKeysO
++ _symbolic _____ 10CryptexKit4TrieV8IteratorV
++ _symbolic _____yx_G 10CryptexKit4TrieV8IteratorV
++ _type_layout_string l10CryptexKit4TrieV8IteratorVyx_G
+CStrings:
++ "/Library/Caches/com.apple.xbs/6A4633E0-090C-4AB7-B64C-5E63AA2B78A1/TemporaryDirectory.IYAYcj/Binaries/libcryptex/install/Symbols/CryptexKit"
++ "662.100.24"
++ "@(#)VERSION:Darwin Cryptex Framework Version 1.0.0: Sun Feb 15 22:41:06 PST 2026; root:libcryptex-662.100.24~16/CryptexKit/RELEASE_ARM64E"
++ "Darwin Cryptex Framework Version 1.0.0: Sun Feb 15 22:41:06 PST 2026; root:libcryptex-662.100.24~16/CryptexKit/RELEASE_ARM64E"
++ "Operation requires superuser privilege"
++ "Permission denied for this operation"
++ "_TtC10CryptexKit18PkgInvEraseRequest"
++ "_TtC10CryptexKit18PkgInvQueryRequest"
++ "_TtC10CryptexKit19PkgInvQueryResponse"
++ "environment"
++ "node path "
++ "package/inv/erase/1"
++ "package/inv/query/1"
++ "publishers"
++ "requireSuperuser(auditToken:)"
+- "/Library/Caches/com.apple.xbs/9F3B9D61-EB54-4E7B-B21D-A0A57311432A/TemporaryDirectory.R26HX9/Binaries/libcryptex/install/Symbols/CryptexKit"
+- "662.100.17"
+- "@(#)VERSION:Darwin Cryptex Framework Version 1.0.0: Thu Jan 29 21:17:30 PST 2026; root:libcryptex-662.100.17~18/CryptexKit/RELEASE_ARM64E"
+- "Darwin Cryptex Framework Version 1.0.0: Thu Jan 29 21:17:30 PST 2026; root:libcryptex-662.100.17~18/CryptexKit/RELEASE_ARM64E"
+
+```

@@ -1,0 +1,130 @@
+## FindMyPairing
+
+> `/System/Library/PrivateFrameworks/FindMyPairing.framework/FindMyPairing`
+
+```diff
+
+-84.34.7.18.13
+-  __TEXT.__text: 0xd0370
+-  __TEXT.__auth_stubs: 0xc60
++84.34.7.18.14
++  __TEXT.__text: 0xd0560
++  __TEXT.__auth_stubs: 0xc50
+   __TEXT.__swift5_typeref: 0x13f7
+   __TEXT.__const: 0x3726
+   __TEXT.__constg_swiftt: 0x17dc
+
+   __TEXT.__swift5_builtin: 0x50
+   __TEXT.__swift5_mpenum: 0x38
+   __TEXT.__swift5_assocty: 0x68
+-  __TEXT.__unwind_info: 0x44c8
+-  __TEXT.__eh_frame: 0xf480
++  __TEXT.__unwind_info: 0x44c0
++  __TEXT.__eh_frame: 0xf478
+   __TEXT.__objc_classname: 0xf4
+   __TEXT.__objc_methname: 0x29c
+   __TEXT.__objc_methtype: 0x1
+
+   __DATA_CONST.__const: 0x100
+   __DATA_CONST.__objc_classlist: 0x28
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __AUTH_CONST.__auth_got: 0x630
++  __AUTH_CONST.__auth_got: 0x628
+   __AUTH_CONST.__const: 0x2808
+   __AUTH_CONST.__objc_const: 0x688
+   __AUTH.__objc_data: 0xa0
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 87CE9C14-1042-37AC-A6BE-647A5BF6D6FD
++  UUID: 4A496153-9E8C-38C4-9A45-827D10A5A184
+   Functions: 3167
+-  Symbols:   9144
++  Symbols:   9143
+   CStrings:  278
+ 
+Symbols:
++ _objc_release_x27
+- _objc_release_x22
+- _objc_release_x26
+Functions:
+~ _$s13FindMyPairing0C8ObserverC07monitorC0yyYaKFyyYaYbcfU_TY6_ : 1444 -> 1420
+~ _$s13FindMyPairing0C8ObserverC03logC10Statistics33_6522DDCBD7B65E63C1B47D8B33BF409ALL3for11timeTrackeryAA22DependenciesIdentifierO_0aB4Base04TimeQ0CtYaFTY3_ : 852 -> 836
+~ _$s13FindMyPairing0C8ObserverC23checkCustomObservations4withy0aB4Base11TimeTrackerC_tYaFTY0_ : 376 -> 408
+~ _$s13FindMyPairing0C8ObserverC23checkCustomObservations4withy0aB4Base11TimeTrackerC_tYaFTY2_ : 612 -> 644
+~ _$s13FindMyPairing0C8ObserverC23checkCustomObservations4withy0aB4Base11TimeTrackerC_tYaFTY4_ : 6940 -> 6972
+~ _$s13FindMyPairing0C7ServiceC14_configuration33_47FACCC5A7E7DEFB858184558C5EFD22LL3forAA0C13ConfigurationOSayAA9Accessory_pG_tYaKFTY0_ : 3756 -> 3752
+~ _$s13FindMyPairing0C7ServiceC33_multipartCompatibleConfiguration33_47FACCC5A7E7DEFB858184558C5EFD22LL3forSayAA0cG0OGSayAA9Accessory_pG_tYaKFTY0_ : 4588 -> 4584
+~ _$s13FindMyPairing0C7ServiceC8_manager33_47FACCC5A7E7DEFB858184558C5EFD22LL3forAA0C19CoordinatorsManagerCSayAA0C13ConfigurationOG_tYaKFTY5_ : 1060 -> 1056
+~ _$s13FindMyPairing0C7ServiceC8_manager33_47FACCC5A7E7DEFB858184558C5EFD22LL3forAA0C19CoordinatorsManagerCSayAA0C13ConfigurationOG_tYaKFySayAA9Accessory_pGYaKcfU0_TY0_ : 496 -> 540
+~ _$s13FindMyPairing0C7ServiceC8_manager33_47FACCC5A7E7DEFB858184558C5EFD22LL3forAA0C19CoordinatorsManagerCSayAA0C13ConfigurationOG_tYaKFySayAA9Accessory_pGYaKcfU0_TY4_ : 456 -> 468
+~ _$sSh21_nonEmptyArrayLiteralShyxGSayxG_tcfC10Foundation4UUIDV_Tt0g5Tf4g_n : 792 -> 864
+~ _$s13FindMyPairing17ExecutionDirectorC7execute33_03CDD46CAF348C7314B9BA06170585BFLL_11coordinatorAC0D6ResultOAA0D9DirectiveO_AA08AdaptiveC11Coordinator_ptYaKFTQ2_ : 344 -> 316
+~ _$s13FindMyPairing17ExecutionDirectorC7execute33_03CDD46CAF348C7314B9BA06170585BFLL_11coordinatorAC0D6ResultOAA0D9DirectiveO_AA08AdaptiveC11Coordinator_ptYaKFTQ3_ : 344 -> 336
+~ _$s13FindMyPairing17ExecutionDirectorC7execute33_03CDD46CAF348C7314B9BA06170585BFLL_11coordinatorAC0D6ResultOAA0D9DirectiveO_AA08AdaptiveC11Coordinator_ptYaKFTY12_ : 24 -> 100
+~ _$s13FindMyPairing17ExecutionDirectorC7execute33_03CDD46CAF348C7314B9BA06170585BFLL_11coordinatorAC0D6ResultOAA0D9DirectiveO_AA08AdaptiveC11Coordinator_ptYaKFTY13_ : 100 -> 108
+~ _$s13FindMyPairing17ExecutionDirectorC7execute33_03CDD46CAF348C7314B9BA06170585BFLL_11coordinatorAC0D6ResultOAA0D9DirectiveO_AA08AdaptiveC11Coordinator_ptYaKFyScgyyts5Error_pGzYaKXEfU_TY0_ : 780 -> 792
+~ _$s13FindMyPairing0C19CoordinatorsManagerC06notifyC8Finished9detection6resultyAA9DetectionO_s6ResultOyAA0cK0_ps5Error_pGtFyyYacfU_TY0_ : 2132 -> 2116
+~ _$s13FindMyPairing0C19CoordinatorsManagerC06notifyC8Finished9detection6resultyAA9DetectionO_s6ResultOyAA0cK0_ps5Error_pGtFyyYacfU_TY2_ : 1536 -> 1520
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtF13FindMyPairing9DetectionO_s6ResultOyAF0mO0_ps5Error_pGTg5 : 1400 -> 1424
+~ _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tF13FindMyPairing9DetectionO_s6ResultOyAI0jL0_ps5Error_pGTg5 : 1156 -> 1160
+~ _$s13FindMyPairing0C11CoordinatorPAAE21_setupUIStateListener33_407497F7659C33E8AE96C104A25E46D2LLyyYaKFTY4_ : 1456 -> 1460
+~ _$s13FindMyPairing0C11CoordinatorPAAE25_setupUserSessionListener33_407497F7659C33E8AE96C104A25E46D2LLyyYaKFTY4_ : 2540 -> 2528
+~ _$s13FindMyPairing0C11CoordinatorPAAE07triggerC4FlowyyYaFyyYaYbKcfU_TY8_ : 2120 -> 2136
+~ _$s13FindMyPairing0C11CoordinatorPAAE04_endC033_407497F7659C33E8AE96C104A25E46D2LL17forwardResultToUI5error8beaconIdySb_s5Error_pSg10Foundation4UUIDVSgtYaKFTY0_ : 1420 -> 1416
+~ _$s13FindMyPairing0C11CoordinatorPAAE18_handleStateChange33_407497F7659C33E8AE96C104A25E46D2LLyyAA0cdF0OYaKFTY0_ : 1476 -> 1484
+~ _$s13FindMyPairing0C11CoordinatorPAAE12startTimeout3foryAA0C9OperationO_tYaKFTY3_ : 2460 -> 2488
+~ _$s13FindMyPairing0C11CoordinatorPAAE8_cleanUpyyYaKFTY2_ : 1644 -> 1632
+~ _$s13FindMyPairing0C11CoordinatorPAAE25handleAccessoryConfigured33_407497F7659C33E8AE96C104A25E46D2LL19accessoryIdentifier13configurationy10Foundation4UUIDV_AA0C17ConfigurationType_ptFyyYaYbcfU_TY8_ : 1640 -> 1648
+~ _$s13FindMyPairing0C11CoordinatorPAAE25handleAccessoryConfigured33_407497F7659C33E8AE96C104A25E46D2LL19accessoryIdentifier13configurationy10Foundation4UUIDV_AA0C17ConfigurationType_ptFyyYaYbcfU_TY18_ : 1116 -> 1124
+~ _$s13FindMyPairing0C11CoordinatorPAAE25handleAccessoryConfigured33_407497F7659C33E8AE96C104A25E46D2LL19accessoryIdentifier13configurationy10Foundation4UUIDV_AA0C17ConfigurationType_ptFyyYaYbcfU_TY19_ : 1116 -> 1124
+~ _$s13FindMyPairing0C11CoordinatorPAAE25handleAccessoryConfigured33_407497F7659C33E8AE96C104A25E46D2LL19accessoryIdentifier13configurationy10Foundation4UUIDV_AA0C17ConfigurationType_ptFyyYaYbcfU_TY20_ : 1108 -> 1116
+~ _$s13FindMyPairing0C11CoordinatorPAAE29_retrieveAndPrePairPeripheralyyYaKFTY4_ : 1376 -> 1384
+~ _$s13FindMyPairing0C11CoordinatorPAAE29_retrieveAndPrePairPeripheralyyYaKFTY8_ : 1164 -> 1172
+~ _$s13FindMyPairing0C11CoordinatorPAAE29_retrieveAndPrePairPeripheralyyYaKFytSgyYaKcfu0_AEyYaYbKcfU_TY2_ : 900 -> 892
+~ _$s13FindMyPairing0C11CoordinatorPAAE16_listenToUpdates33_407497F7659C33E8AE96C104A25E46D2LL2of6streamy10Foundation4UUIDV_ScSy0aB4Base11TransactionC_AA0C13ExecutorStateOtGtYaKFyyYaYbcfU_ : 784 -> 796
+~ _$s13FindMyPairing0C11CoordinatorPAAE16_listenToUpdates33_407497F7659C33E8AE96C104A25E46D2LL2of6streamy10Foundation4UUIDV_ScSy0aB4Base11TransactionC_AA0C13ExecutorStateOtGtYaKFyyYaYbcfU_TY0_ : 592 -> 608
+~ _$s13FindMyPairing0C11CoordinatorPAAE16_listenToUpdates33_407497F7659C33E8AE96C104A25E46D2LL2of6streamy10Foundation4UUIDV_ScSy0aB4Base11TransactionC_AA0C13ExecutorStateOtGtYaKFyyYaYbcfU_TY4_ : 3040 -> 3036
+~ _$s13FindMyPairing0C11CoordinatorPAAE16_listenToUpdates33_407497F7659C33E8AE96C104A25E46D2LL2of6streamy10Foundation4UUIDV_ScSy0aB4Base11TransactionC_AA0C13ExecutorStateOtGtYaKFyyYaYbcfU_TY6_ : 3920 -> 3868
+~ _$s13FindMyPairing0C11CoordinatorPAAE16_listenToUpdates33_407497F7659C33E8AE96C104A25E46D2LL2of6streamy10Foundation4UUIDV_ScSy0aB4Base11TransactionC_AA0C13ExecutorStateOtGtYaKFyyYaYbcfU_TY10_ : 428 -> 444
+~ _$s13FindMyPairing0C11CoordinatorPAAE16_listenToUpdates33_407497F7659C33E8AE96C104A25E46D2LL2of6streamy10Foundation4UUIDV_ScSy0aB4Base11TransactionC_AA0C13ExecutorStateOtGtYaKFyyYaYbcfU_TY16_ : 472 -> 488
+~ _$s13FindMyPairing0C11CoordinatorPAAE16_listenToUpdates33_407497F7659C33E8AE96C104A25E46D2LL2of6streamy10Foundation4UUIDV_ScSy0aB4Base11TransactionC_AA0C13ExecutorStateOtGtYaKFyyYaYbcfU_TY20_ : 540 -> 564
+~ _$s13FindMyPairing0C11CoordinatorPAAE16_listenToUpdates33_407497F7659C33E8AE96C104A25E46D2LL2of6streamy10Foundation4UUIDV_ScSy0aB4Base11TransactionC_AA0C13ExecutorStateOtGtYaKFyyYaYbcfU_TY22_ : 456 -> 472
+~ _$s13FindMyPairing0C11CoordinatorPAAE16_listenToUpdates33_407497F7659C33E8AE96C104A25E46D2LL2of6streamy10Foundation4UUIDV_ScSy0aB4Base11TransactionC_AA0C13ExecutorStateOtGtYaKFyyYaYbcfU_TY28_ : 488 -> 504
+~ _$s13FindMyPairing0C11CoordinatorPAAE16_listenToUpdates33_407497F7659C33E8AE96C104A25E46D2LL2of6streamy10Foundation4UUIDV_ScSy0aB4Base11TransactionC_AA0C13ExecutorStateOtGtYaKFyyYaYbcfU_TY39_ : 940 -> 924
+~ _$s13FindMyPairing0C11CoordinatorPAAE16_listenToUpdates33_407497F7659C33E8AE96C104A25E46D2LL2of6streamy10Foundation4UUIDV_ScSy0aB4Base11TransactionC_AA0C13ExecutorStateOtGtYaKFyyYaYbcfU_TY49_ : 260 -> 276
+~ _$s13FindMyPairing0C11CoordinatorPAAE16_listenToUpdates33_407497F7659C33E8AE96C104A25E46D2LL2of6streamy10Foundation4UUIDV_ScSy0aB4Base11TransactionC_AA0C13ExecutorStateOtGtYaKFyyYaYbcfU_TY51_ : 460 -> 476
+~ _$s13FindMyPairing0C11CoordinatorPAAE16_listenToUpdates33_407497F7659C33E8AE96C104A25E46D2LL2of6streamy10Foundation4UUIDV_ScSy0aB4Base11TransactionC_AA0C13ExecutorStateOtGtYaKFyyYaYbcfU_TY53_ : 440 -> 456
+~ _$s13FindMyPairing0C11CoordinatorPAAE16_listenToUpdates33_407497F7659C33E8AE96C104A25E46D2LL2of6streamy10Foundation4UUIDV_ScSy0aB4Base11TransactionC_AA0C13ExecutorStateOtGtYaKFyyYaYbcfU_TY54_ : 1016 -> 1028
+~ _$s13FindMyPairing0C11CoordinatorPAAE014handleExecutorC6Finish33_407497F7659C33E8AE96C104A25E46D2LLyyFyyYaYbKcfU_TY12_ : 1276 -> 1272
+~ _$s13FindMyPairing0C11CoordinatorPAAE09_finalizeC033_407497F7659C33E8AE96C104A25E46D2LL4withyAA0C17ConfigurationType_pSg_tYaKFTY5_ : 1436 -> 1440
+~ _$s13FindMyPairing0C11CoordinatorPAAE12startTimeout3foryAA0C9OperationO_tYaKFyyYacfU_TY3_ : 948 -> 944
+~ _$s13FindMyPairing0C11CoordinatorPAAE14pairingTimeOut33_407497F7659C33E8AE96C104A25E46D2LL3foryAA0C9OperationO_tYaKFTY0_ : 1420 -> 1428
+~ _$s13FindMyPairing0C11CoordinatorPAAE14pairingTimeOut33_407497F7659C33E8AE96C104A25E46D2LL3foryAA0C9OperationO_tYaKFTY2_ : 1676 -> 1688
+~ _$s13FindMyPairing0C11CoordinatorPAAE14pairingTimeOut33_407497F7659C33E8AE96C104A25E46D2LL3foryAA0C9OperationO_tYaKFTY3_ : 1648 -> 1660
+~ _$sSTsSQ7ElementRpzrlE8containsySbABFSay13FindMyPairing0E13ExecutorStateOG_Tg5 : 304 -> 368
+~ _$sSTsSQ7ElementRpzrlE8containsySbABFSay13FindMyPairing0E16CoordinatorStateOG_Tg5 : 124 -> 152
+~ _$s13FindMyPairing0C8ExecutorPAAE5_pair10peripheralyAA14PeripheralType_p_tYaFTY0_ : 2144 -> 2132
+~ _$s13FindMyPairing0C8ExecutorPAAE13_pairingErrors0F0_pSgyF : 448 -> 508
+~ _$s13FindMyPairing0C8ExecutorPAAE8_cleanUpyyYaFTY0_ : 1784 -> 1760
+~ _$s13FindMyPairing08AdaptiveC11CoordinatorPAAE15listenToUpdates2of6streamy10Foundation4UUIDV_ScSy0aB4Base11TransactionC_AA0C13ExecutorStateOtGtYaKF : 940 -> 952
+~ _$s13FindMyPairing08AdaptiveC11CoordinatorPAAE15listenToUpdates2of6streamy10Foundation4UUIDV_ScSy0aB4Base11TransactionC_AA0C13ExecutorStateOtGtYaKFTY0_ : 1156 -> 1172
+~ _$s13FindMyPairing08AdaptiveC11CoordinatorPAAE15listenToUpdates2of6streamy10Foundation4UUIDV_ScSy0aB4Base11TransactionC_AA0C13ExecutorStateOtGtYaKFTY2_ : 1064 -> 1080
+~ _$s13FindMyPairing08AdaptiveC11CoordinatorPAAE15listenToUpdates2of6streamy10Foundation4UUIDV_ScSy0aB4Base11TransactionC_AA0C13ExecutorStateOtGtYaKFTY6_ : 3428 -> 3420
+~ _$s13FindMyPairing08AdaptiveC11CoordinatorPAAE15listenToUpdates2of6streamy10Foundation4UUIDV_ScSy0aB4Base11TransactionC_AA0C13ExecutorStateOtGtYaKFTY8_ : 4184 -> 4148
+~ _$s13FindMyPairing08AdaptiveC11CoordinatorPAAE15listenToUpdates2of6streamy10Foundation4UUIDV_ScSy0aB4Base11TransactionC_AA0C13ExecutorStateOtGtYaKFTY14_ : 788 -> 816
+~ _$s13FindMyPairing08AdaptiveC11CoordinatorPAAE04_endC06resultys6ResultOy10Foundation4UUIDVs5Error_pGSg_tYaKFTY0_ : 2652 -> 2648
+~ _$s13FindMyPairing08AdaptiveC11CoordinatorPAAE20setupUIStateListener33_1F7EF7601E751D8F329AF7D95289BC04LLyyYaKFTY4_ : 1276 -> 1268
+~ _$s13FindMyPairing08AdaptiveC11CoordinatorPAAE24setupUserSessionListener33_1F7EF7601E751D8F329AF7D95289BC04LLyyYaKFTY4_ : 1924 -> 1912
+~ _$s13FindMyPairing08AdaptiveC11CoordinatorPAAE15timeoutHandling3foryAA0C9OperationO_tFyyYaYbcfU_TY14_ : 1676 -> 1680
+~ _$s13FindMyPairing08AdaptiveC11CoordinatorPAAE07prepareC13LatencyReport33_1F7EF7601E751D8F329AF7D95289BC04LL11timeTrackerAA0cgH0V0aB4Base04TimeR0C_tYaFTY3_ : 776 -> 760
+~ _$s13FindMyPairing0C9InfoStorePAAE15updateDetectionyyAA0G0OKF : 732 -> 776
+~ _$s13FindMyPairing9DetectionO4hash4intoys6HasherVz_tF : 520 -> 532
+~ _$s13FindMyPairing05TypedC9InfoStorePAAE16updatePeripheralyyqd__KAA0H4TypeRd__lF : 1604 -> 1592
+~ _$s13FindMyPairing05TypedC9InfoStorePAAE23updateAccessoryMetadatayyqd__KAA0I4TypeRd__lF : 1604 -> 1592
+~ _$s13FindMyPairing05TypedC9InfoStorePAAE022updateAccessoryProductE0yyqd__KAA0hiE4TypeRd__lF : 1604 -> 1592
+~ _$s13FindMyPairing05TypedC9InfoStorePAAE32updateAccessoryUserConfigurationyyqd__KAA0cJ4TypeRd__lF : 1604 -> 1592
+~ _$s13FindMyPairing9DetectionO2eeoiySbAC_ACtFZTf4nnd_n : 1208 -> 1160
+
+```

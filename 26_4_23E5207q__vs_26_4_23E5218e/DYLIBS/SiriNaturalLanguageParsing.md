@@ -1,0 +1,1690 @@
+## SiriNaturalLanguageParsing
+
+> `/System/Library/PrivateFrameworks/SiriNaturalLanguageParsing.framework/SiriNaturalLanguageParsing`
+
+```diff
+
+-3520.12.1.0.0
+-  __TEXT.__text: 0x17fef0
+-  __TEXT.__auth_stubs: 0x2ad0
++3520.14.1.0.0
++  __TEXT.__text: 0x18129c
++  __TEXT.__auth_stubs: 0x2ae0
+   __TEXT.__init_offsets: 0x168
+   __TEXT.__objc_methlist: 0x1974
+-  __TEXT.__const: 0x950f
+-  __TEXT.__cstring: 0x11260
+-  __TEXT.__gcc_except_tab: 0x16bd0
+-  __TEXT.__oslogstring: 0xa29a
++  __TEXT.__const: 0x952f
++  __TEXT.__cstring: 0x1128e
++  __TEXT.__gcc_except_tab: 0x16d7c
++  __TEXT.__oslogstring: 0xa367
+   __TEXT.__ustring: 0x10c
+-  __TEXT.__unwind_info: 0x7a30
++  __TEXT.__unwind_info: 0x7a98
+   __TEXT.__objc_classname: 0x4c4
+   __TEXT.__objc_methname: 0x55cf
+   __TEXT.__objc_methtype: 0x220c
+   __TEXT.__objc_stubs: 0x4140
+-  __DATA_CONST.__got: 0x648
+-  __DATA_CONST.__const: 0x8c8
++  __DATA_CONST.__got: 0x650
++  __DATA_CONST.__const: 0x8f0
+   __DATA_CONST.__objc_classlist: 0x1c8
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x12d0
+   __DATA_CONST.__objc_superrefs: 0x188
+-  __AUTH_CONST.__auth_got: 0x1580
+-  __AUTH_CONST.__const: 0x7220
+-  __AUTH_CONST.__cfstring: 0x1e80
++  __AUTH_CONST.__auth_got: 0x1588
++  __AUTH_CONST.__const: 0x7258
++  __AUTH_CONST.__cfstring: 0x1f20
+   __AUTH_CONST.__objc_const: 0x4138
+   __AUTH.__objc_data: 0x1130
+   __AUTH.__data: 0xe0
+
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libmorphun.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 93EBCE10-ADCD-306A-8E26-8A5152CC7099
+-  Functions: 5439
+-  Symbols:   15759
+-  CStrings:  3724
++  UUID: 9C86D809-CE7B-3AB1-8562-048ED0BF4D2B
++  Functions: 5451
++  Symbols:   15794
++  CStrings:  3736
+ 
+Symbols:
++ GCC_except_table1063
++ GCC_except_table1065
++ GCC_except_table1067
++ GCC_except_table1071
++ GCC_except_table1078
++ GCC_except_table1088
++ GCC_except_table1089
++ GCC_except_table1090
++ GCC_except_table1091
++ GCC_except_table1093
++ GCC_except_table1094
++ GCC_except_table1114
++ GCC_except_table1116
++ GCC_except_table1118
++ GCC_except_table1119
++ GCC_except_table1124
++ GCC_except_table1129
++ GCC_except_table1130
++ GCC_except_table1131
++ GCC_except_table1132
++ GCC_except_table1146
++ GCC_except_table1156
++ GCC_except_table1158
++ GCC_except_table1172
++ GCC_except_table1173
++ GCC_except_table1178
++ GCC_except_table1179
++ GCC_except_table1186
++ GCC_except_table1210
++ GCC_except_table1215
++ GCC_except_table1217
++ GCC_except_table1218
++ GCC_except_table1220
++ GCC_except_table1228
++ GCC_except_table1235
++ GCC_except_table1236
++ GCC_except_table1237
++ GCC_except_table1238
++ GCC_except_table1244
++ GCC_except_table1255
++ GCC_except_table1256
++ GCC_except_table1267
++ GCC_except_table1271
++ GCC_except_table1275
++ GCC_except_table1276
++ GCC_except_table1281
++ GCC_except_table1292
++ GCC_except_table1295
++ GCC_except_table1296
++ GCC_except_table1297
++ GCC_except_table1299
++ GCC_except_table1310
++ GCC_except_table1313
++ GCC_except_table1344
++ GCC_except_table1345
++ GCC_except_table1349
++ GCC_except_table1353
++ GCC_except_table1360
++ GCC_except_table1367
++ GCC_except_table1368
++ GCC_except_table1369
++ GCC_except_table1370
++ GCC_except_table1371
++ GCC_except_table1378
++ GCC_except_table1391
++ GCC_except_table1393
++ GCC_except_table1394
++ GCC_except_table1395
++ GCC_except_table1396
++ GCC_except_table1398
++ GCC_except_table1417
++ GCC_except_table1421
++ GCC_except_table1422
++ GCC_except_table1432
++ GCC_except_table1434
++ GCC_except_table1435
++ GCC_except_table1457
++ GCC_except_table1458
++ GCC_except_table1459
++ GCC_except_table1462
++ GCC_except_table1467
++ GCC_except_table1472
++ GCC_except_table1475
++ GCC_except_table1476
++ GCC_except_table1484
++ GCC_except_table1485
++ GCC_except_table1486
++ GCC_except_table1487
++ GCC_except_table1495
++ GCC_except_table1496
++ GCC_except_table1500
++ GCC_except_table1509
++ GCC_except_table1523
++ GCC_except_table1532
++ GCC_except_table1535
++ GCC_except_table1537
++ GCC_except_table1540
++ GCC_except_table1547
++ GCC_except_table1550
++ GCC_except_table1551
++ GCC_except_table1552
++ GCC_except_table1554
++ GCC_except_table1561
++ GCC_except_table1568
++ GCC_except_table1571
++ GCC_except_table1573
++ GCC_except_table1575
++ GCC_except_table1576
++ GCC_except_table1583
++ GCC_except_table1586
++ GCC_except_table1590
++ GCC_except_table1593
++ GCC_except_table1595
++ GCC_except_table1604
++ GCC_except_table1605
++ GCC_except_table1606
++ GCC_except_table1608
++ GCC_except_table1609
++ GCC_except_table1613
++ GCC_except_table1622
++ GCC_except_table1623
++ GCC_except_table1624
++ GCC_except_table1625
++ GCC_except_table1626
++ GCC_except_table1627
++ GCC_except_table1640
++ GCC_except_table1641
++ GCC_except_table1661
++ GCC_except_table1662
++ GCC_except_table1663
++ GCC_except_table1665
++ GCC_except_table1676
++ GCC_except_table1677
++ GCC_except_table1678
++ GCC_except_table1679
++ GCC_except_table1680
++ GCC_except_table1687
++ GCC_except_table1698
++ GCC_except_table1700
++ GCC_except_table1702
++ GCC_except_table1707
++ GCC_except_table1709
++ GCC_except_table1728
++ GCC_except_table1735
++ GCC_except_table1737
++ GCC_except_table1744
++ GCC_except_table1745
++ GCC_except_table1746
++ GCC_except_table1747
++ GCC_except_table1748
++ GCC_except_table1749
++ GCC_except_table1778
++ GCC_except_table1780
++ GCC_except_table1781
++ GCC_except_table1782
++ GCC_except_table1792
++ GCC_except_table1793
++ GCC_except_table1794
++ GCC_except_table1812
++ GCC_except_table1813
++ GCC_except_table1814
++ GCC_except_table1823
++ GCC_except_table1825
++ GCC_except_table1826
++ GCC_except_table1827
++ GCC_except_table1828
++ GCC_except_table1837
++ GCC_except_table1841
++ GCC_except_table1842
++ GCC_except_table1844
++ GCC_except_table1865
++ GCC_except_table1876
++ GCC_except_table1883
++ GCC_except_table1884
++ GCC_except_table1886
++ GCC_except_table1887
++ GCC_except_table1888
++ GCC_except_table1891
++ GCC_except_table1901
++ GCC_except_table1905
++ GCC_except_table1906
++ GCC_except_table1951
++ GCC_except_table1953
++ GCC_except_table1961
++ GCC_except_table1963
++ GCC_except_table1971
++ GCC_except_table1972
++ GCC_except_table1974
++ GCC_except_table1982
++ GCC_except_table1987
++ GCC_except_table1992
++ GCC_except_table1997
++ GCC_except_table2007
++ GCC_except_table2009
++ GCC_except_table2020
++ GCC_except_table2030
++ GCC_except_table2040
++ GCC_except_table2050
++ GCC_except_table2054
++ GCC_except_table2058
++ GCC_except_table2066
++ GCC_except_table2074
++ GCC_except_table2075
++ GCC_except_table2085
++ GCC_except_table2095
++ GCC_except_table2102
++ GCC_except_table2111
++ GCC_except_table2113
++ GCC_except_table2121
++ GCC_except_table2123
++ GCC_except_table2130
++ GCC_except_table2134
++ GCC_except_table2144
++ GCC_except_table2148
++ GCC_except_table2152
++ GCC_except_table2160
++ GCC_except_table2167
++ GCC_except_table2172
++ GCC_except_table2174
++ GCC_except_table2184
++ GCC_except_table2188
++ GCC_except_table2192
++ GCC_except_table2202
++ GCC_except_table2204
++ GCC_except_table2212
++ GCC_except_table2214
++ GCC_except_table2223
++ GCC_except_table2225
++ GCC_except_table2233
++ GCC_except_table2235
++ GCC_except_table2245
++ GCC_except_table2247
++ GCC_except_table2257
++ GCC_except_table2267
++ GCC_except_table2277
++ GCC_except_table2287
++ GCC_except_table2297
++ GCC_except_table2301
++ GCC_except_table2305
++ GCC_except_table2313
++ GCC_except_table2321
++ GCC_except_table2329
++ GCC_except_table2337
++ GCC_except_table2355
++ GCC_except_table2357
++ GCC_except_table2366
++ GCC_except_table2370
++ GCC_except_table2374
++ GCC_except_table2382
++ GCC_except_table2385
++ GCC_except_table2386
++ GCC_except_table2424
++ GCC_except_table2431
++ GCC_except_table2435
++ GCC_except_table2448
++ GCC_except_table2460
++ GCC_except_table2480
++ GCC_except_table2481
++ GCC_except_table2482
++ GCC_except_table2483
++ GCC_except_table2484
++ GCC_except_table2485
++ GCC_except_table2499
++ GCC_except_table2501
++ GCC_except_table2503
++ GCC_except_table2504
++ GCC_except_table2508
++ GCC_except_table2518
++ GCC_except_table2521
++ GCC_except_table2522
++ GCC_except_table2525
++ GCC_except_table2529
++ GCC_except_table2530
++ GCC_except_table2540
++ GCC_except_table2541
++ GCC_except_table2543
++ GCC_except_table2545
++ GCC_except_table2551
++ GCC_except_table2553
++ GCC_except_table2555
++ GCC_except_table2556
++ GCC_except_table2566
++ GCC_except_table2567
++ GCC_except_table2575
++ GCC_except_table2576
++ GCC_except_table2584
++ GCC_except_table2585
++ GCC_except_table2586
++ GCC_except_table2589
++ GCC_except_table2590
++ GCC_except_table2598
++ GCC_except_table2601
++ GCC_except_table2602
++ GCC_except_table2603
++ GCC_except_table2604
++ GCC_except_table2607
++ GCC_except_table2616
++ GCC_except_table2618
++ GCC_except_table2620
++ GCC_except_table2621
++ GCC_except_table2622
++ GCC_except_table2626
++ GCC_except_table2630
++ GCC_except_table2631
++ GCC_except_table2635
++ GCC_except_table2641
++ GCC_except_table2644
++ GCC_except_table2659
++ GCC_except_table2665
++ GCC_except_table2667
++ GCC_except_table2668
++ GCC_except_table2669
++ GCC_except_table2670
++ GCC_except_table2671
++ GCC_except_table2687
++ GCC_except_table2688
++ GCC_except_table2690
++ GCC_except_table2691
++ GCC_except_table2692
++ GCC_except_table2693
++ GCC_except_table2706
++ GCC_except_table2708
++ GCC_except_table2709
++ GCC_except_table2711
++ GCC_except_table2714
++ GCC_except_table2717
++ GCC_except_table2719
++ GCC_except_table2728
++ GCC_except_table2732
++ GCC_except_table2734
++ GCC_except_table2738
++ GCC_except_table2743
++ GCC_except_table2746
++ GCC_except_table2749
++ GCC_except_table2759
++ GCC_except_table2760
++ GCC_except_table2768
++ GCC_except_table2770
++ GCC_except_table2776
++ GCC_except_table2780
++ GCC_except_table2781
++ GCC_except_table2793
++ GCC_except_table2803
++ GCC_except_table2807
++ GCC_except_table2813
++ GCC_except_table2817
++ GCC_except_table2823
++ GCC_except_table2824
++ GCC_except_table2828
++ GCC_except_table2830
++ GCC_except_table2847
++ GCC_except_table2848
++ GCC_except_table2856
++ GCC_except_table2857
++ GCC_except_table2864
++ GCC_except_table2865
++ GCC_except_table2866
++ GCC_except_table2867
++ GCC_except_table2870
++ GCC_except_table2875
++ GCC_except_table2880
++ GCC_except_table2883
++ GCC_except_table2884
++ GCC_except_table2886
++ GCC_except_table2891
++ GCC_except_table2897
++ GCC_except_table2906
++ GCC_except_table2910
++ GCC_except_table2914
++ GCC_except_table2915
++ GCC_except_table2932
++ GCC_except_table2933
++ GCC_except_table2935
++ GCC_except_table2938
++ GCC_except_table2940
++ GCC_except_table2941
++ GCC_except_table2942
++ GCC_except_table2965
++ GCC_except_table2968
++ GCC_except_table2972
++ GCC_except_table2974
++ GCC_except_table2993
++ GCC_except_table2997
++ GCC_except_table2998
++ GCC_except_table2999
++ GCC_except_table3000
++ GCC_except_table3002
++ GCC_except_table3003
++ GCC_except_table3004
++ GCC_except_table3006
++ GCC_except_table3007
++ GCC_except_table3013
++ GCC_except_table3017
++ GCC_except_table3020
++ GCC_except_table3028
++ GCC_except_table3031
++ GCC_except_table3041
++ GCC_except_table3047
++ GCC_except_table3052
++ GCC_except_table3054
++ GCC_except_table3056
++ GCC_except_table3057
++ GCC_except_table3062
++ GCC_except_table3063
++ GCC_except_table3070
++ GCC_except_table3083
++ GCC_except_table3084
++ GCC_except_table3085
++ GCC_except_table3088
++ GCC_except_table3089
++ GCC_except_table3094
++ GCC_except_table3098
++ GCC_except_table3099
++ GCC_except_table3102
++ GCC_except_table3103
++ GCC_except_table3104
++ GCC_except_table3118
++ GCC_except_table3132
++ GCC_except_table3133
++ GCC_except_table3135
++ GCC_except_table3136
++ GCC_except_table3137
++ GCC_except_table3139
++ GCC_except_table3140
++ GCC_except_table3141
++ GCC_except_table3142
++ GCC_except_table3143
++ GCC_except_table3156
++ GCC_except_table3157
++ GCC_except_table3159
++ GCC_except_table3173
++ GCC_except_table3174
++ GCC_except_table3177
++ GCC_except_table3187
++ GCC_except_table3188
++ GCC_except_table3190
++ GCC_except_table3191
++ GCC_except_table3192
++ GCC_except_table3193
++ GCC_except_table3197
++ GCC_except_table3198
++ GCC_except_table3206
++ GCC_except_table3207
++ GCC_except_table3208
++ GCC_except_table3212
++ GCC_except_table3213
++ GCC_except_table3214
++ GCC_except_table3215
++ GCC_except_table3217
++ GCC_except_table3234
++ GCC_except_table3243
++ GCC_except_table3252
++ GCC_except_table3253
++ GCC_except_table3263
++ GCC_except_table3266
++ GCC_except_table3273
++ GCC_except_table3276
++ GCC_except_table3282
++ GCC_except_table3284
++ GCC_except_table3292
++ GCC_except_table3295
++ GCC_except_table3297
++ GCC_except_table3298
++ GCC_except_table3299
++ GCC_except_table3301
++ GCC_except_table3305
++ GCC_except_table3308
++ GCC_except_table3312
++ GCC_except_table3334
++ GCC_except_table3336
++ GCC_except_table3338
++ GCC_except_table3340
++ GCC_except_table3341
++ GCC_except_table3344
++ GCC_except_table3355
++ GCC_except_table3357
++ GCC_except_table3358
++ GCC_except_table3359
++ GCC_except_table3360
++ GCC_except_table3363
++ GCC_except_table3397
++ GCC_except_table3401
++ GCC_except_table3428
++ GCC_except_table3429
++ GCC_except_table3435
++ GCC_except_table3439
++ GCC_except_table3443
++ GCC_except_table3449
++ GCC_except_table3452
++ GCC_except_table3454
++ GCC_except_table3462
++ GCC_except_table3473
++ GCC_except_table3477
++ GCC_except_table3483
++ GCC_except_table3484
++ GCC_except_table3494
++ GCC_except_table3498
++ GCC_except_table3499
++ GCC_except_table3500
++ GCC_except_table3501
++ GCC_except_table3503
++ GCC_except_table3504
++ GCC_except_table3509
++ GCC_except_table3527
++ GCC_except_table3528
++ GCC_except_table3531
++ GCC_except_table3541
++ GCC_except_table3542
++ GCC_except_table3544
++ GCC_except_table3547
++ GCC_except_table3548
++ GCC_except_table3561
++ GCC_except_table3563
++ GCC_except_table3564
++ GCC_except_table3565
++ GCC_except_table3566
++ GCC_except_table3572
++ GCC_except_table3574
++ GCC_except_table3601
++ GCC_except_table3612
++ GCC_except_table3614
++ GCC_except_table3615
++ GCC_except_table3616
++ GCC_except_table3625
++ GCC_except_table3631
++ GCC_except_table3653
++ GCC_except_table3661
++ GCC_except_table3662
++ GCC_except_table3664
++ GCC_except_table3666
++ GCC_except_table3667
++ GCC_except_table3668
++ GCC_except_table3669
++ GCC_except_table3670
++ GCC_except_table3672
++ GCC_except_table3675
++ GCC_except_table3728
++ GCC_except_table3735
++ GCC_except_table3742
++ GCC_except_table3743
++ GCC_except_table3750
++ GCC_except_table3761
++ GCC_except_table3778
++ GCC_except_table3785
++ GCC_except_table3792
++ GCC_except_table3793
++ GCC_except_table3800
++ GCC_except_table3801
++ GCC_except_table3810
++ GCC_except_table3816
++ GCC_except_table3825
++ GCC_except_table3832
++ GCC_except_table3843
++ GCC_except_table3850
++ GCC_except_table3856
++ GCC_except_table3861
++ GCC_except_table3870
++ GCC_except_table3879
++ GCC_except_table3886
++ GCC_except_table3893
++ GCC_except_table3900
++ GCC_except_table3907
++ GCC_except_table3924
++ GCC_except_table3931
++ GCC_except_table3938
++ GCC_except_table3945
++ GCC_except_table3952
++ GCC_except_table3969
++ GCC_except_table3978
++ GCC_except_table3985
++ GCC_except_table3988
++ GCC_except_table3989
++ GCC_except_table4028
++ GCC_except_table4041
++ GCC_except_table4042
++ GCC_except_table4043
++ GCC_except_table4044
++ GCC_except_table4045
++ GCC_except_table4046
++ GCC_except_table4047
++ GCC_except_table4048
++ GCC_except_table4049
++ GCC_except_table4052
++ GCC_except_table4062
++ GCC_except_table4063
++ GCC_except_table4065
++ GCC_except_table4066
++ GCC_except_table4069
++ GCC_except_table4071
++ GCC_except_table4072
++ GCC_except_table4073
++ GCC_except_table4082
++ GCC_except_table4087
++ GCC_except_table4104
++ GCC_except_table4107
++ GCC_except_table4112
++ GCC_except_table4115
++ GCC_except_table4118
++ GCC_except_table4120
++ GCC_except_table4121
++ GCC_except_table4122
++ GCC_except_table4123
++ GCC_except_table4136
++ GCC_except_table4137
++ GCC_except_table4150
++ GCC_except_table4158
++ GCC_except_table4171
++ GCC_except_table4172
++ GCC_except_table4173
++ GCC_except_table4174
++ GCC_except_table4177
++ GCC_except_table4179
++ GCC_except_table4180
++ GCC_except_table4181
++ GCC_except_table4198
++ GCC_except_table4200
++ GCC_except_table4202
++ GCC_except_table4204
++ GCC_except_table4205
++ GCC_except_table4206
++ GCC_except_table4208
++ GCC_except_table4225
++ GCC_except_table4226
++ GCC_except_table4227
++ GCC_except_table4248
++ GCC_except_table4250
++ GCC_except_table4254
++ GCC_except_table4255
++ GCC_except_table4258
++ GCC_except_table4259
++ GCC_except_table4275
++ GCC_except_table4276
++ GCC_except_table4277
++ GCC_except_table4284
++ GCC_except_table4285
++ GCC_except_table4291
++ GCC_except_table4302
++ GCC_except_table4312
++ GCC_except_table4319
++ GCC_except_table4320
++ GCC_except_table4326
++ GCC_except_table4328
++ GCC_except_table4329
++ GCC_except_table4342
++ GCC_except_table4344
++ GCC_except_table4359
++ GCC_except_table4364
++ GCC_except_table4370
++ GCC_except_table4374
++ GCC_except_table4375
++ GCC_except_table4377
++ GCC_except_table4379
++ GCC_except_table4380
++ GCC_except_table4384
++ GCC_except_table4385
++ GCC_except_table4405
++ GCC_except_table4406
++ GCC_except_table4407
++ GCC_except_table4408
++ GCC_except_table4409
++ GCC_except_table4425
++ GCC_except_table4426
++ GCC_except_table4427
++ GCC_except_table4431
++ GCC_except_table4432
++ GCC_except_table4433
++ __ZN27nlv4_inference_orchestrator5treesL9printTreeERKNS0_8TreeNodeE.5340
++ __ZN4siri2nl4span12datadetector4type10kBeginDateE
++ __ZN4siri2nl4span12datadetector4type12kDayIntervalE
++ __ZN4siri2nl4span12datadetector4type7kEndDayE
++ __ZN4siri2nl4span12datadetector4type8kEndDateE
++ __ZN4siri2nl4span12datadetector4type9kBeginDayE
++ __ZN4uaap19DateDurationHandler34resolveDateDurationWithDayIntervalEPNS_20UPDDDateDurationSpanERN4siri8ontology8UsoGraphE
++ __ZN4uaap19DateDurationHandler35resolveDateDurationWithBeginEndDateEPNS_20UPDDDateDurationSpanERN4siri8ontology8UsoGraphE
++ __ZN4uaap20UPDDDateDurationSpanC1EP10__DDResult
++ __ZN4uaap20UPDDDateDurationSpanC2EP10__DDResult
++ __ZN4uaap20UPDDDateDurationSpanD0Ev
++ __ZN4uaap20UPDDDateDurationSpanD1Ev
++ __ZN4uaap20UPDDDateDurationSpanD2Ev
++ __ZN4uaapL12kSpanIndicesE.3537
++ __ZN4uaapL16kTokenEmbeddingsE.3538
++ __ZN4uaapL20addMonthAndDayToDateERN4siri8ontology8UsoGraphERNS1_13UsoEntityNodeEPNS_8UPDDSpanES7_
++ __ZN4uaapL27hasImplicitWeeklyRecurrenceEPNS_12UPDDDateSpanE
++ __ZNSt3__111make_uniqueB9foe210106IN4siri8ontology8UsoGraphEJELi0EEENS_10unique_ptrIT_NS_14default_deleteIS5_EEEEDpOT0_
++ __ZNSt3__111make_uniqueB9foe210106IN4uaap25UPDDDateSpanWithReferenceEJRP10__DDResultELi0EEENS_10unique_ptrIT_NS_14default_deleteIS7_EEEEDpOT0_
++ __ZNSt3__16vectorINS_10unique_ptrIN4siri8ontology21UsoUtteranceAlignmentENS_14default_deleteIS4_EEEENS_9allocatorIS7_EEE22__base_destruct_at_endB9foe210106EPS7_
++ __ZTIN4uaap20UPDDDateDurationSpanE
++ __ZTSN4uaap20UPDDDateDurationSpanE
++ __ZTVN4uaap20UPDDDateDurationSpanE
++ ___block_literal_global.1241
++ ___block_literal_global.1549
++ ___block_literal_global.1858
++ ___block_literal_global.2664
++ ___block_literal_global.4994
++ ___cxx_global_var_init.10.5625
++ ___cxx_global_var_init.11.5626
++ ___cxx_global_var_init.12.5627
++ ___cxx_global_var_init.13.5628
++ ___cxx_global_var_init.14.5629
++ ___cxx_global_var_init.15.5630
++ ___cxx_global_var_init.16.5631
++ ___cxx_global_var_init.17.5632
++ ___cxx_global_var_init.18.5633
++ ___cxx_global_var_init.19.5634
++ ___cxx_global_var_init.20.5635
++ ___cxx_global_var_init.21.5636
++ ___cxx_global_var_init.22.5637
++ ___cxx_global_var_init.23.5638
++ ___cxx_global_var_init.24.5639
++ ___cxx_global_var_init.25.5640
++ ___cxx_global_var_init.26.5641
++ ___cxx_global_var_init.27.5642
++ ___cxx_global_var_init.28.5643
++ ___cxx_global_var_init.29.5644
++ ___cxx_global_var_init.3.5618
++ ___cxx_global_var_init.30.5645
++ ___cxx_global_var_init.31.5646
++ ___cxx_global_var_init.32.5647
++ ___cxx_global_var_init.33.5648
++ ___cxx_global_var_init.34.5649
++ ___cxx_global_var_init.35.5650
++ ___cxx_global_var_init.36.5651
++ ___cxx_global_var_init.37.5652
++ ___cxx_global_var_init.38.5653
++ ___cxx_global_var_init.39.5654
++ ___cxx_global_var_init.4.5619
++ ___cxx_global_var_init.40.5655
++ ___cxx_global_var_init.41.5656
++ ___cxx_global_var_init.42.5657
++ ___cxx_global_var_init.5.5620
++ ___cxx_global_var_init.5617
++ ___cxx_global_var_init.6.5621
++ ___cxx_global_var_init.7.5622
++ ___cxx_global_var_init.8.5623
++ ___cxx_global_var_init.9.5624
++ __os_log_default
++ __os_log_error_impl
+- GCC_except_table1076
+- GCC_except_table1079
+- GCC_except_table1080
+- GCC_except_table1081
+- GCC_except_table1082
+- GCC_except_table1084
+- GCC_except_table1086
+- GCC_except_table1101
+- GCC_except_table1105
+- GCC_except_table1107
+- GCC_except_table1109
+- GCC_except_table1112
+- GCC_except_table1115
+- GCC_except_table1120
+- GCC_except_table1123
+- GCC_except_table1137
+- GCC_except_table1138
+- GCC_except_table1149
+- GCC_except_table1150
+- GCC_except_table1164
+- GCC_except_table1165
+- GCC_except_table1168
+- GCC_except_table1174
+- GCC_except_table1175
+- GCC_except_table1182
+- GCC_except_table1203
+- GCC_except_table1205
+- GCC_except_table1206
+- GCC_except_table1208
+- GCC_except_table1214
+- GCC_except_table1224
+- GCC_except_table1225
+- GCC_except_table1227
+- GCC_except_table1232
+- GCC_except_table1234
+- GCC_except_table1240
+- GCC_except_table1249
+- GCC_except_table1250
+- GCC_except_table1260
+- GCC_except_table1264
+- GCC_except_table1265
+- GCC_except_table1268
+- GCC_except_table1269
+- GCC_except_table1273
+- GCC_except_table1274
+- GCC_except_table1278
+- GCC_except_table1287
+- GCC_except_table1289
+- GCC_except_table1304
+- GCC_except_table1307
+- GCC_except_table1338
+- GCC_except_table1339
+- GCC_except_table1341
+- GCC_except_table1343
+- GCC_except_table1354
+- GCC_except_table1355
+- GCC_except_table1356
+- GCC_except_table1357
+- GCC_except_table1358
+- GCC_except_table1359
+- GCC_except_table1372
+- GCC_except_table1380
+- GCC_except_table1381
+- GCC_except_table1382
+- GCC_except_table1383
+- GCC_except_table1384
+- GCC_except_table1385
+- GCC_except_table1399
+- GCC_except_table1404
+- GCC_except_table1415
+- GCC_except_table1418
+- GCC_except_table1420
+- GCC_except_table1425
+- GCC_except_table1427
+- GCC_except_table1428
+- GCC_except_table1429
+- GCC_except_table1438
+- GCC_except_table1440
+- GCC_except_table1447
+- GCC_except_table1464
+- GCC_except_table1469
+- GCC_except_table1478
+- GCC_except_table1479
+- GCC_except_table1480
+- GCC_except_table1481
+- GCC_except_table1489
+- GCC_except_table1490
+- GCC_except_table1494
+- GCC_except_table1499
+- GCC_except_table1503
+- GCC_except_table1525
+- GCC_except_table1526
+- GCC_except_table1528
+- GCC_except_table1529
+- GCC_except_table1541
+- GCC_except_table1542
+- GCC_except_table1544
+- GCC_except_table1545
+- GCC_except_table1546
+- GCC_except_table1555
+- GCC_except_table1562
+- GCC_except_table1565
+- GCC_except_table1567
+- GCC_except_table1569
+- GCC_except_table1570
+- GCC_except_table1577
+- GCC_except_table1578
+- GCC_except_table1580
+- GCC_except_table1581
+- GCC_except_table1589
+- GCC_except_table1598
+- GCC_except_table1599
+- GCC_except_table1600
+- GCC_except_table1601
+- GCC_except_table1602
+- GCC_except_table1603
+- GCC_except_table1612
+- GCC_except_table1614
+- GCC_except_table1616
+- GCC_except_table1617
+- GCC_except_table1619
+- GCC_except_table1621
+- GCC_except_table1634
+- GCC_except_table1635
+- GCC_except_table1649
+- GCC_except_table1656
+- GCC_except_table1657
+- GCC_except_table1659
+- GCC_except_table1660
+- GCC_except_table1664
+- GCC_except_table1667
+- GCC_except_table1671
+- GCC_except_table1674
+- GCC_except_table1681
+- GCC_except_table1692
+- GCC_except_table1694
+- GCC_except_table1695
+- GCC_except_table1696
+- GCC_except_table1697
+- GCC_except_table1711
+- GCC_except_table1721
+- GCC_except_table1722
+- GCC_except_table1725
+- GCC_except_table1726
+- GCC_except_table1730
+- GCC_except_table1740
+- GCC_except_table1741
+- GCC_except_table1743
+- GCC_except_table1768
+- GCC_except_table1769
+- GCC_except_table1772
+- GCC_except_table1776
+- GCC_except_table1786
+- GCC_except_table1787
+- GCC_except_table1788
+- GCC_except_table1801
+- GCC_except_table1802
+- GCC_except_table1806
+- GCC_except_table1811
+- GCC_except_table1819
+- GCC_except_table1820
+- GCC_except_table1821
+- GCC_except_table1822
+- GCC_except_table1831
+- GCC_except_table1832
+- GCC_except_table1835
+- GCC_except_table1836
+- GCC_except_table1859
+- GCC_except_table1864
+- GCC_except_table1872
+- GCC_except_table1877
+- GCC_except_table1880
+- GCC_except_table1881
+- GCC_except_table1882
+- GCC_except_table1885
+- GCC_except_table1889
+- GCC_except_table1893
+- GCC_except_table1894
+- GCC_except_table1945
+- GCC_except_table1947
+- GCC_except_table1955
+- GCC_except_table1957
+- GCC_except_table1965
+- GCC_except_table1966
+- GCC_except_table1968
+- GCC_except_table1976
+- GCC_except_table1981
+- GCC_except_table1986
+- GCC_except_table1991
+- GCC_except_table2001
+- GCC_except_table2003
+- GCC_except_table2014
+- GCC_except_table2018
+- GCC_except_table2028
+- GCC_except_table2038
+- GCC_except_table2048
+- GCC_except_table2052
+- GCC_except_table2060
+- GCC_except_table2068
+- GCC_except_table2069
+- GCC_except_table2079
+- GCC_except_table2089
+- GCC_except_table2096
+- GCC_except_table2105
+- GCC_except_table2107
+- GCC_except_table2115
+- GCC_except_table2117
+- GCC_except_table2124
+- GCC_except_table2128
+- GCC_except_table2132
+- GCC_except_table2142
+- GCC_except_table2146
+- GCC_except_table2154
+- GCC_except_table2161
+- GCC_except_table2166
+- GCC_except_table2168
+- GCC_except_table2178
+- GCC_except_table2182
+- GCC_except_table2186
+- GCC_except_table2196
+- GCC_except_table2198
+- GCC_except_table2206
+- GCC_except_table2208
+- GCC_except_table2217
+- GCC_except_table2219
+- GCC_except_table2227
+- GCC_except_table2229
+- GCC_except_table2239
+- GCC_except_table2241
+- GCC_except_table2251
+- GCC_except_table2255
+- GCC_except_table2265
+- GCC_except_table2275
+- GCC_except_table2285
+- GCC_except_table2295
+- GCC_except_table2299
+- GCC_except_table2307
+- GCC_except_table2315
+- GCC_except_table2323
+- GCC_except_table2331
+- GCC_except_table2349
+- GCC_except_table2351
+- GCC_except_table2360
+- GCC_except_table2364
+- GCC_except_table2368
+- GCC_except_table2376
+- GCC_except_table2379
+- GCC_except_table2380
+- GCC_except_table2418
+- GCC_except_table2425
+- GCC_except_table2429
+- GCC_except_table2442
+- GCC_except_table2446
+- GCC_except_table2450
+- GCC_except_table2454
+- GCC_except_table2459
+- GCC_except_table2463
+- GCC_except_table2466
+- GCC_except_table2467
+- GCC_except_table2488
+- GCC_except_table2491
+- GCC_except_table2493
+- GCC_except_table2495
+- GCC_except_table2496
+- GCC_except_table2498
+- GCC_except_table2507
+- GCC_except_table2509
+- GCC_except_table2510
+- GCC_except_table2511
+- GCC_except_table2524
+- GCC_except_table2528
+- GCC_except_table2535
+- GCC_except_table2536
+- GCC_except_table2537
+- GCC_except_table2538
+- GCC_except_table2546
+- GCC_except_table2548
+- GCC_except_table2552
+- GCC_except_table2560
+- GCC_except_table2561
+- GCC_except_table2569
+- GCC_except_table2577
+- GCC_except_table2578
+- GCC_except_table2579
+- GCC_except_table2582
+- GCC_except_table2583
+- GCC_except_table2591
+- GCC_except_table2592
+- GCC_except_table2594
+- GCC_except_table2595
+- GCC_except_table2596
+- GCC_except_table2597
+- GCC_except_table2600
+- GCC_except_table2608
+- GCC_except_table2609
+- GCC_except_table2610
+- GCC_except_table2611
+- GCC_except_table2614
+- GCC_except_table2619
+- GCC_except_table2623
+- GCC_except_table2627
+- GCC_except_table2628
+- GCC_except_table2637
+- GCC_except_table2645
+- GCC_except_table2651
+- GCC_except_table2653
+- GCC_except_table2656
+- GCC_except_table2661
+- GCC_except_table2662
+- GCC_except_table2664
+- GCC_except_table2679
+- GCC_except_table2680
+- GCC_except_table2681
+- GCC_except_table2682
+- GCC_except_table2683
+- GCC_except_table2684
+- GCC_except_table2685
+- GCC_except_table2695
+- GCC_except_table2697
+- GCC_except_table2698
+- GCC_except_table2699
+- GCC_except_table2700
+- GCC_except_table2701
+- GCC_except_table2715
+- GCC_except_table2721
+- GCC_except_table2724
+- GCC_except_table2725
+- GCC_except_table2727
+- GCC_except_table2739
+- GCC_except_table2742
+- GCC_except_table2747
+- GCC_except_table2752
+- GCC_except_table2753
+- GCC_except_table2763
+- GCC_except_table2769
+- GCC_except_table2773
+- GCC_except_table2777
+- GCC_except_table2784
+- GCC_except_table2791
+- GCC_except_table2795
+- GCC_except_table2805
+- GCC_except_table2811
+- GCC_except_table2812
+- GCC_except_table2816
+- GCC_except_table2818
+- GCC_except_table2831
+- GCC_except_table2832
+- GCC_except_table2833
+- GCC_except_table2835
+- GCC_except_table2836
+- GCC_except_table2840
+- GCC_except_table2841
+- GCC_except_table2842
+- GCC_except_table2858
+- GCC_except_table2859
+- GCC_except_table2860
+- GCC_except_table2862
+- GCC_except_table2863
+- GCC_except_table2868
+- GCC_except_table2873
+- GCC_except_table2879
+- GCC_except_table2890
+- GCC_except_table2894
+- GCC_except_table2898
+- GCC_except_table2903
+- GCC_except_table2911
+- GCC_except_table2917
+- GCC_except_table2920
+- GCC_except_table2921
+- GCC_except_table2926
+- GCC_except_table2928
+- GCC_except_table2930
+- GCC_except_table2947
+- GCC_except_table2953
+- GCC_except_table2956
+- GCC_except_table2958
+- GCC_except_table2960
+- GCC_except_table2961
+- GCC_except_table2962
+- GCC_except_table2979
+- GCC_except_table2980
+- GCC_except_table2981
+- GCC_except_table2984
+- GCC_except_table2986
+- GCC_except_table2987
+- GCC_except_table2988
+- GCC_except_table2989
+- GCC_except_table2990
+- GCC_except_table3005
+- GCC_except_table3016
+- GCC_except_table3019
+- GCC_except_table3029
+- GCC_except_table3030
+- GCC_except_table3033
+- GCC_except_table3034
+- GCC_except_table3035
+- GCC_except_table3038
+- GCC_except_table3040
+- GCC_except_table3044
+- GCC_except_table3051
+- GCC_except_table3059
+- GCC_except_table3060
+- GCC_except_table3064
+- GCC_except_table3066
+- GCC_except_table3067
+- GCC_except_table3068
+- GCC_except_table3069
+- GCC_except_table3073
+- GCC_except_table3075
+- GCC_except_table3077
+- GCC_except_table3082
+- GCC_except_table3086
+- GCC_except_table3095
+- GCC_except_table3106
+- GCC_except_table3120
+- GCC_except_table3121
+- GCC_except_table3123
+- GCC_except_table3124
+- GCC_except_table3125
+- GCC_except_table3127
+- GCC_except_table3128
+- GCC_except_table3130
+- GCC_except_table3144
+- GCC_except_table3145
+- GCC_except_table3146
+- GCC_except_table3147
+- GCC_except_table3148
+- GCC_except_table3149
+- GCC_except_table3152
+- GCC_except_table3162
+- GCC_except_table3163
+- GCC_except_table3165
+- GCC_except_table3169
+- GCC_except_table3171
+- GCC_except_table3178
+- GCC_except_table3179
+- GCC_except_table3180
+- GCC_except_table3185
+- GCC_except_table3186
+- GCC_except_table3189
+- GCC_except_table3200
+- GCC_except_table3202
+- GCC_except_table3203
+- GCC_except_table3205
+- GCC_except_table3222
+- GCC_except_table3231
+- GCC_except_table3239
+- GCC_except_table3240
+- GCC_except_table3241
+- GCC_except_table3242
+- GCC_except_table3249
+- GCC_except_table3262
+- GCC_except_table3264
+- GCC_except_table3270
+- GCC_except_table3271
+- GCC_except_table3272
+- GCC_except_table3277
+- GCC_except_table3279
+- GCC_except_table3280
+- GCC_except_table3285
+- GCC_except_table3287
+- GCC_except_table3288
+- GCC_except_table3293
+- GCC_except_table3296
+- GCC_except_table3316
+- GCC_except_table3317
+- GCC_except_table3322
+- GCC_except_table3324
+- GCC_except_table3326
+- GCC_except_table3331
+- GCC_except_table3332
+- GCC_except_table3335
+- GCC_except_table3345
+- GCC_except_table3346
+- GCC_except_table3348
+- GCC_except_table3385
+- GCC_except_table3389
+- GCC_except_table3416
+- GCC_except_table3417
+- GCC_except_table3418
+- GCC_except_table3419
+- GCC_except_table3423
+- GCC_except_table3427
+- GCC_except_table3437
+- GCC_except_table3440
+- GCC_except_table3450
+- GCC_except_table3459
+- GCC_except_table3460
+- GCC_except_table3461
+- GCC_except_table3465
+- GCC_except_table3474
+- GCC_except_table3475
+- GCC_except_table3482
+- GCC_except_table3485
+- GCC_except_table3488
+- GCC_except_table3489
+- GCC_except_table3491
+- GCC_except_table3492
+- GCC_except_table3493
+- GCC_except_table3508
+- GCC_except_table3515
+- GCC_except_table3516
+- GCC_except_table3518
+- GCC_except_table3519
+- GCC_except_table3524
+- GCC_except_table3526
+- GCC_except_table3535
+- GCC_except_table3537
+- GCC_except_table3539
+- GCC_except_table3540
+- GCC_except_table3553
+- GCC_except_table3554
+- GCC_except_table3560
+- GCC_except_table3589
+- GCC_except_table3590
+- GCC_except_table3591
+- GCC_except_table3592
+- GCC_except_table3600
+- GCC_except_table3613
+- GCC_except_table3619
+- GCC_except_table3641
+- GCC_except_table3642
+- GCC_except_table3648
+- GCC_except_table3649
+- GCC_except_table3650
+- GCC_except_table3651
+- GCC_except_table3652
+- GCC_except_table3655
+- GCC_except_table3656
+- GCC_except_table3657
+- GCC_except_table3658
+- GCC_except_table3716
+- GCC_except_table3723
+- GCC_except_table3730
+- GCC_except_table3731
+- GCC_except_table3738
+- GCC_except_table3749
+- GCC_except_table3766
+- GCC_except_table3773
+- GCC_except_table3780
+- GCC_except_table3781
+- GCC_except_table3788
+- GCC_except_table3789
+- GCC_except_table3798
+- GCC_except_table3804
+- GCC_except_table3813
+- GCC_except_table3820
+- GCC_except_table3826
+- GCC_except_table3831
+- GCC_except_table3844
+- GCC_except_table3849
+- GCC_except_table3858
+- GCC_except_table3867
+- GCC_except_table3874
+- GCC_except_table3881
+- GCC_except_table3888
+- GCC_except_table3895
+- GCC_except_table3912
+- GCC_except_table3919
+- GCC_except_table3926
+- GCC_except_table3933
+- GCC_except_table3940
+- GCC_except_table3957
+- GCC_except_table3966
+- GCC_except_table3973
+- GCC_except_table3976
+- GCC_except_table3977
+- GCC_except_table4016
+- GCC_except_table4022
+- GCC_except_table4025
+- GCC_except_table4029
+- GCC_except_table4030
+- GCC_except_table4031
+- GCC_except_table4032
+- GCC_except_table4033
+- GCC_except_table4035
+- GCC_except_table4036
+- GCC_except_table4038
+- GCC_except_table4039
+- GCC_except_table4040
+- GCC_except_table4053
+- GCC_except_table4054
+- GCC_except_table4057
+- GCC_except_table4058
+- GCC_except_table4059
+- GCC_except_table4060
+- GCC_except_table4061
+- GCC_except_table4067
+- GCC_except_table4075
+- GCC_except_table4076
+- GCC_except_table4092
+- GCC_except_table4095
+- GCC_except_table4096
+- GCC_except_table4097
+- GCC_except_table4098
+- GCC_except_table4099
+- GCC_except_table4106
+- GCC_except_table4124
+- GCC_except_table4125
+- GCC_except_table4138
+- GCC_except_table4146
+- GCC_except_table4147
+- GCC_except_table4148
+- GCC_except_table4161
+- GCC_except_table4162
+- GCC_except_table4165
+- GCC_except_table4166
+- GCC_except_table4167
+- GCC_except_table4168
+- GCC_except_table4169
+- GCC_except_table4170
+- GCC_except_table4186
+- GCC_except_table4188
+- GCC_except_table4191
+- GCC_except_table4192
+- GCC_except_table4193
+- GCC_except_table4196
+- GCC_except_table4212
+- GCC_except_table4213
+- GCC_except_table4214
+- GCC_except_table4235
+- GCC_except_table4238
+- GCC_except_table4240
+- GCC_except_table4242
+- GCC_except_table4243
+- GCC_except_table4246
+- GCC_except_table4251
+- GCC_except_table4253
+- GCC_except_table4272
+- GCC_except_table4273
+- GCC_except_table4278
+- GCC_except_table4279
+- GCC_except_table4280
+- GCC_except_table4293
+- GCC_except_table4295
+- GCC_except_table4300
+- GCC_except_table4308
+- GCC_except_table4314
+- GCC_except_table4318
+- GCC_except_table4332
+- GCC_except_table4346
+- GCC_except_table4347
+- GCC_except_table4348
+- GCC_except_table4350
+- GCC_except_table4351
+- GCC_except_table4352
+- GCC_except_table4353
+- GCC_except_table4357
+- GCC_except_table4367
+- GCC_except_table4368
+- GCC_except_table4373
+- GCC_except_table4382
+- GCC_except_table4383
+- GCC_except_table4396
+- GCC_except_table4397
+- GCC_except_table4403
+- GCC_except_table4413
+- GCC_except_table4414
+- GCC_except_table4419
+- GCC_except_table4420
+- GCC_except_table4421
+- __ZN27nlv4_inference_orchestrator5treesL9printTreeERKNS0_8TreeNodeE.5318
+- __ZN4uaapL12kSpanIndicesE.3515
+- __ZN4uaapL16kTokenEmbeddingsE.3516
+- ___block_literal_global.1236
+- ___block_literal_global.1544
+- ___block_literal_global.1853
+- ___block_literal_global.2659
+- ___block_literal_global.4972
+- ___cxx_global_var_init.10.5603
+- ___cxx_global_var_init.11.5604
+- ___cxx_global_var_init.12.5605
+- ___cxx_global_var_init.13.5606
+- ___cxx_global_var_init.14.5607
+- ___cxx_global_var_init.15.5608
+- ___cxx_global_var_init.16.5609
+- ___cxx_global_var_init.17.5610
+- ___cxx_global_var_init.18.5611
+- ___cxx_global_var_init.19.5612
+- ___cxx_global_var_init.20.5613
+- ___cxx_global_var_init.21.5614
+- ___cxx_global_var_init.22.5615
+- ___cxx_global_var_init.23.5616
+- ___cxx_global_var_init.24.5617
+- ___cxx_global_var_init.25.5618
+- ___cxx_global_var_init.26.5619
+- ___cxx_global_var_init.27.5620
+- ___cxx_global_var_init.28.5621
+- ___cxx_global_var_init.29.5622
+- ___cxx_global_var_init.3.5596
+- ___cxx_global_var_init.30.5623
+- ___cxx_global_var_init.31.5624
+- ___cxx_global_var_init.32.5625
+- ___cxx_global_var_init.33.5626
+- ___cxx_global_var_init.34.5627
+- ___cxx_global_var_init.35.5628
+- ___cxx_global_var_init.36.5629
+- ___cxx_global_var_init.37.5630
+- ___cxx_global_var_init.38.5631
+- ___cxx_global_var_init.39.5632
+- ___cxx_global_var_init.4.5597
+- ___cxx_global_var_init.40.5633
+- ___cxx_global_var_init.41.5634
+- ___cxx_global_var_init.42.5635
+- ___cxx_global_var_init.5.5598
+- ___cxx_global_var_init.5595
+- ___cxx_global_var_init.6.5599
+- ___cxx_global_var_init.7.5600
+- ___cxx_global_var_init.8.5601
+- ___cxx_global_var_init.9.5602
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CI63ugCAV5-_PzHSjVUwM4162LzqOB6MrLLMr2E/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:1162: libc++ Hardening assertion __position != end() failed: vector::erase(iterator) called with a non-dereferenceable iterator\n"
++ "/AppleInternal/Library/BuildRoots/4~CI63ugCAV5-_PzHSjVUwM4162LzqOB6MrLLMr2E/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CI63ugCAV5-_PzHSjVUwM4162LzqOB6MrLLMr2E/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:410: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CI63ugCAV5-_PzHSjVUwM4162LzqOB6MrLLMr2E/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:429: libc++ Hardening assertion !empty() failed: front() called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/4~CI63ugCAV5-_PzHSjVUwM4162LzqOB6MrLLMr2E/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:433: libc++ Hardening assertion !empty() failed: back() called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/4~CI63ugCAV5-_PzHSjVUwM4162LzqOB6MrLLMr2E/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:486: libc++ Hardening assertion !empty() failed: vector::pop_back called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/4~CI63ugCAV5-_PzHSjVUwM4162LzqOB6MrLLMr2E/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector_bool.h:282: libc++ Hardening assertion __n < size() failed: vector<bool>::operator[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CI63ugCAV5-_PzHSjVUwM4162LzqOB6MrLLMr2E/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:2296: libc++ Hardening assertion !empty() failed: deque::pop_front called on an empty deque\n"
++ "/AppleInternal/Library/BuildRoots/4~CI63ugCAV5-_PzHSjVUwM4162LzqOB6MrLLMr2E/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/string_view:329: libc++ Hardening assertion __len <= static_cast<size_type>(numeric_limits<difference_type>::max()) failed: string_view::string_view(_CharT *, size_t): length does not fit in difference_type\n"
++ "/AppleInternal/Library/BuildRoots/4~CI63ugCAV5-_PzHSjVUwM4162LzqOB6MrLLMr2E/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/string_view:431: libc++ Hardening assertion __n <= size() failed: remove_prefix() can't remove more than size()\n"
++ "/AppleInternal/Library/BuildRoots/4~CI6QugDQ82lmj6u7WLpsz-dKvtJ2SUbtFRi0TU8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:293: libc++ Hardening assertion __k != __leftmost failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:603: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:615: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:633: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:638: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:669: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:682: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:692: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:697: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__bit_reference:111: libc++ Hardening assertion __ctz + __clz < sizeof(_StorageType) * 8 failed: __fill_masked_range called with invalid range\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__hash_table:1892: libc++ Hardening assertion __p != end() failed: unordered container::erase(iterator) called with a non-dereferenceable iterator\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:1162: libc++ Hardening assertion __position != end() failed: vector::erase(iterator) called with a non-dereferenceable iterator\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:1172: libc++ Hardening assertion __first <= __last failed: vector::erase(first, last) called with invalid range\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:410: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:425: libc++ Hardening assertion !empty() failed: front() called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:433: libc++ Hardening assertion !empty() failed: back() called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:437: libc++ Hardening assertion !empty() failed: back() called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:486: libc++ Hardening assertion !empty() failed: vector::pop_back called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector_bool.h:282: libc++ Hardening assertion __n < size() failed: vector<bool>::operator[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector_bool.h:301: libc++ Hardening assertion !empty() failed: vector<bool>::back() called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector_bool.h:333: libc++ Hardening assertion !empty() failed: vector<bool>::pop_back called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:1553: libc++ Hardening assertion !empty() failed: deque::front called on an empty deque\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:1565: libc++ Hardening assertion !empty() failed: deque::back called on an empty deque\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:2296: libc++ Hardening assertion !empty() failed: deque::pop_front called on an empty deque\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:2310: libc++ Hardening assertion !empty() failed: deque::pop_back called on an empty deque\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/optional:796: libc++ Hardening assertion this->has_value() failed: optional operator-> called on a disengaged value\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/optional:806: libc++ Hardening assertion this->has_value() failed: optional operator* called on a disengaged value\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/optional:811: libc++ Hardening assertion this->has_value() failed: optional operator* called on a disengaged value\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/regex:4739: libc++ Hardening assertion ready() failed: match_results::format() called when not ready\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/streambuf:279: libc++ Hardening assertion std::__is_valid_range(__gbeg, __gnext) failed: [gbeg, gnext) must be a valid range\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/streambuf:280: libc++ Hardening assertion std::__is_valid_range(__gbeg, __gend) failed: [gbeg, gend) must be a valid range\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/streambuf:281: libc++ Hardening assertion std::__is_valid_range(__gnext, __gend) failed: [gnext, gend) must be a valid range\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/streambuf:297: libc++ Hardening assertion std::__is_valid_range(__pbeg, __pend) failed: [pbeg, pend) must be a valid range\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/string:1332: libc++ Hardening assertion __pos <= size() failed: string index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/string:1340: libc++ Hardening assertion __pos <= size() failed: string index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CI8OugCRO9g3d4RaSjkpvxx8Sq8H3o7-TozMl58/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/include/boost/uuid/detail/random_provider_posix.ipp"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/src/bpe_model.cc"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/src/builtin_pb/sentencepiece.pb.cc"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/src/builtin_pb/sentencepiece_model.pb.cc"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/src/builtin_pb/sentencepiece_model.pb.h"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/src/filesystem.cc"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/src/mmap.h"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/src/model_factory.cc"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/src/model_interface.cc"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/src/model_interface.h"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/src/normalizer.cc"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/src/sentencepiece_processor.cc"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/src/unigram_model.cc"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/src/util.cc"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/src/util.h"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/third_party/darts_clone/darts.h:1106: exception: failed to insert key: negative value"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/third_party/darts_clone/darts.h:1108: exception: failed to insert key: zero-length key"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/third_party/darts_clone/darts.h:1122: exception: failed to insert key: invalid null character"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/third_party/darts_clone/darts.h:1127: exception: failed to insert key: wrong key order"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/third_party/darts_clone/darts.h:1339: exception: failed to modify unit: too large offset"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/third_party/darts_clone/darts.h:1675: exception: failed to build double-array: invalid null character"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/third_party/darts_clone/darts.h:1677: exception: failed to build double-array: negative value"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/third_party/darts_clone/darts.h:1692: exception: failed to build double-array: wrong key order"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/third_party/darts_clone/darts.h:743: exception: failed to resize pool: std::bad_alloc"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/third_party/darts_clone/darts.h:859: exception: failed to build rank index: std::bad_alloc"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/third_party/protobuf-lite/arena.cc"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/third_party/protobuf-lite/arenastring.cc"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/third_party/protobuf-lite/coded_stream.cc"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/third_party/protobuf-lite/common.cc"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/third_party/protobuf-lite/extension_set.cc"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/third_party/protobuf-lite/generated_message_util.cc"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/arena_impl.h"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/arenastring.h"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/extension_set_inl.h"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/io/coded_stream.h"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/parse_context.h"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/repeated_field.h"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/third_party/protobuf-lite/message_lite.cc"
++ "/Library/Caches/com.apple.xbs/56300B45-F87D-47EC-AEB8-C52440520C28/TemporaryDirectory.M5cqHl/Sources/SentencePiece/third_party/protobuf-lite/parse_context.cc"
++ "BeginDate"
++ "BeginDay"
++ "DayInterval"
++ "EndDate"
++ "EndDay"
++ "[DateDurationHandler] resolveDateDurationWithBeginEndDate: dateDurationSpan, beginDate, or endDate is null"
++ "[DateDurationHandler] resolveDateDurationWithDayInterval: dateDurationSpan or dayInterval is null"
+- "/AppleInternal/Library/BuildRoots/4~CHnfugBQfFiUsKTOUfg69qHXhLEu9BfmOtFN7Ag/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CHoJugBqlT7SMJpMwMp5lNUARVYDGofuKEixb6M/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:1162: libc++ Hardening assertion __position != end() failed: vector::erase(iterator) called with a non-dereferenceable iterator\n"
+- "/AppleInternal/Library/BuildRoots/4~CHoJugBqlT7SMJpMwMp5lNUARVYDGofuKEixb6M/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CHoJugBqlT7SMJpMwMp5lNUARVYDGofuKEixb6M/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:410: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CHoJugBqlT7SMJpMwMp5lNUARVYDGofuKEixb6M/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:429: libc++ Hardening assertion !empty() failed: front() called on an empty vector\n"
+- "/AppleInternal/Library/BuildRoots/4~CHoJugBqlT7SMJpMwMp5lNUARVYDGofuKEixb6M/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:433: libc++ Hardening assertion !empty() failed: back() called on an empty vector\n"
+- "/AppleInternal/Library/BuildRoots/4~CHoJugBqlT7SMJpMwMp5lNUARVYDGofuKEixb6M/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:486: libc++ Hardening assertion !empty() failed: vector::pop_back called on an empty vector\n"
+- "/AppleInternal/Library/BuildRoots/4~CHoJugBqlT7SMJpMwMp5lNUARVYDGofuKEixb6M/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector_bool.h:282: libc++ Hardening assertion __n < size() failed: vector<bool>::operator[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CHoJugBqlT7SMJpMwMp5lNUARVYDGofuKEixb6M/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:2296: libc++ Hardening assertion !empty() failed: deque::pop_front called on an empty deque\n"
+- "/AppleInternal/Library/BuildRoots/4~CHoJugBqlT7SMJpMwMp5lNUARVYDGofuKEixb6M/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/string_view:329: libc++ Hardening assertion __len <= static_cast<size_type>(numeric_limits<difference_type>::max()) failed: string_view::string_view(_CharT *, size_t): length does not fit in difference_type\n"
+- "/AppleInternal/Library/BuildRoots/4~CHoJugBqlT7SMJpMwMp5lNUARVYDGofuKEixb6M/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/string_view:431: libc++ Hardening assertion __n <= size() failed: remove_prefix() can't remove more than size()\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:293: libc++ Hardening assertion __k != __leftmost failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:603: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:615: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:633: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:638: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:669: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:682: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:692: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:697: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__bit_reference:111: libc++ Hardening assertion __ctz + __clz < sizeof(_StorageType) * 8 failed: __fill_masked_range called with invalid range\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__hash_table:1892: libc++ Hardening assertion __p != end() failed: unordered container::erase(iterator) called with a non-dereferenceable iterator\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:1162: libc++ Hardening assertion __position != end() failed: vector::erase(iterator) called with a non-dereferenceable iterator\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:1172: libc++ Hardening assertion __first <= __last failed: vector::erase(first, last) called with invalid range\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:410: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:425: libc++ Hardening assertion !empty() failed: front() called on an empty vector\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:433: libc++ Hardening assertion !empty() failed: back() called on an empty vector\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:437: libc++ Hardening assertion !empty() failed: back() called on an empty vector\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:486: libc++ Hardening assertion !empty() failed: vector::pop_back called on an empty vector\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector_bool.h:282: libc++ Hardening assertion __n < size() failed: vector<bool>::operator[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector_bool.h:301: libc++ Hardening assertion !empty() failed: vector<bool>::back() called on an empty vector\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector_bool.h:333: libc++ Hardening assertion !empty() failed: vector<bool>::pop_back called on an empty vector\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:1553: libc++ Hardening assertion !empty() failed: deque::front called on an empty deque\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:1565: libc++ Hardening assertion !empty() failed: deque::back called on an empty deque\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:2296: libc++ Hardening assertion !empty() failed: deque::pop_front called on an empty deque\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:2310: libc++ Hardening assertion !empty() failed: deque::pop_back called on an empty deque\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/optional:796: libc++ Hardening assertion this->has_value() failed: optional operator-> called on a disengaged value\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/optional:806: libc++ Hardening assertion this->has_value() failed: optional operator* called on a disengaged value\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/optional:811: libc++ Hardening assertion this->has_value() failed: optional operator* called on a disengaged value\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/regex:4739: libc++ Hardening assertion ready() failed: match_results::format() called when not ready\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/streambuf:279: libc++ Hardening assertion std::__is_valid_range(__gbeg, __gnext) failed: [gbeg, gnext) must be a valid range\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/streambuf:280: libc++ Hardening assertion std::__is_valid_range(__gbeg, __gend) failed: [gbeg, gend) must be a valid range\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/streambuf:281: libc++ Hardening assertion std::__is_valid_range(__gnext, __gend) failed: [gnext, gend) must be a valid range\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/streambuf:297: libc++ Hardening assertion std::__is_valid_range(__pbeg, __pend) failed: [pbeg, pend) must be a valid range\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/string:1332: libc++ Hardening assertion __pos <= size() failed: string index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/string:1340: libc++ Hardening assertion __pos <= size() failed: string index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CHv1ugD9SscjbkrCZV36D4IyHyngbDOFkwd-vJs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/include/boost/uuid/detail/random_provider_posix.ipp"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/src/bpe_model.cc"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/src/builtin_pb/sentencepiece.pb.cc"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/src/builtin_pb/sentencepiece_model.pb.cc"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/src/builtin_pb/sentencepiece_model.pb.h"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/src/filesystem.cc"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/src/mmap.h"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/src/model_factory.cc"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/src/model_interface.cc"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/src/model_interface.h"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/src/normalizer.cc"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/src/sentencepiece_processor.cc"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/src/unigram_model.cc"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/src/util.cc"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/src/util.h"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/third_party/darts_clone/darts.h:1106: exception: failed to insert key: negative value"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/third_party/darts_clone/darts.h:1108: exception: failed to insert key: zero-length key"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/third_party/darts_clone/darts.h:1122: exception: failed to insert key: invalid null character"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/third_party/darts_clone/darts.h:1127: exception: failed to insert key: wrong key order"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/third_party/darts_clone/darts.h:1339: exception: failed to modify unit: too large offset"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/third_party/darts_clone/darts.h:1675: exception: failed to build double-array: invalid null character"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/third_party/darts_clone/darts.h:1677: exception: failed to build double-array: negative value"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/third_party/darts_clone/darts.h:1692: exception: failed to build double-array: wrong key order"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/third_party/darts_clone/darts.h:743: exception: failed to resize pool: std::bad_alloc"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/third_party/darts_clone/darts.h:859: exception: failed to build rank index: std::bad_alloc"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/third_party/protobuf-lite/arena.cc"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/third_party/protobuf-lite/arenastring.cc"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/third_party/protobuf-lite/coded_stream.cc"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/third_party/protobuf-lite/common.cc"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/third_party/protobuf-lite/extension_set.cc"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/third_party/protobuf-lite/generated_message_util.cc"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/arena_impl.h"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/arenastring.h"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/extension_set_inl.h"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/io/coded_stream.h"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/parse_context.h"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/repeated_field.h"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/third_party/protobuf-lite/message_lite.cc"
+- "/Library/Caches/com.apple.xbs/FCCC2C4A-33F8-4DE7-AA59-0DD53EE1052A/TemporaryDirectory.QSYWY5/Sources/SentencePiece/third_party/protobuf-lite/parse_context.cc"
+
+```

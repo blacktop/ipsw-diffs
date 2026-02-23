@@ -1,0 +1,639 @@
+## UIKitCore
+
+> `/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore`
+
+```diff
+
+-9126.4.20.1.105
+-  __TEXT.__text: 0x1b4edac
+-  __TEXT.__auth_stubs: 0xdaf0
++9126.4.24.1.101
++  __TEXT.__text: 0x1b515fc
++  __TEXT.__auth_stubs: 0xdb00
+   __TEXT.__delay_helper: 0x1bc
+   __TEXT.__init_offsets: 0x4
+-  __TEXT.__objc_methlist: 0x1946c8
+-  __TEXT.__const: 0x40ad8
++  __TEXT.__objc_methlist: 0x194720
++  __TEXT.__const: 0x40af8
+   __TEXT.__dlopen_cstrs: 0x4a2f
+-  __TEXT.__swift5_typeref: 0x13d08
++  __TEXT.__swift5_typeref: 0x13d0a
+   __TEXT.__swift5_capture: 0xda9c
+-  __TEXT.__cstring: 0xf3417
+-  __TEXT.__swift5_reflstr: 0x13587
++  __TEXT.__cstring: 0xf3647
++  __TEXT.__swift5_reflstr: 0x13577
+   __TEXT.__swift5_assocty: 0x4098
+   __TEXT.__swift5_fieldmd: 0x13698
+-  __TEXT.__constg_swiftt: 0x18bfc
++  __TEXT.__constg_swiftt: 0x18c04
+   __TEXT.__swift5_builtin: 0x10a4
+   __TEXT.__swift5_protos: 0x200
+   __TEXT.__swift5_proto: 0x1ec4
+
+   __TEXT.__swift_as_ret: 0x12c
+   __TEXT.__swift5_mpenum: 0x21c
+   __TEXT.__swift5_types2: 0x4
+-  __TEXT.__gcc_except_tab: 0x25d1c
++  __TEXT.__gcc_except_tab: 0x25dfc
+   __TEXT.__ustring: 0x2786
+-  __TEXT.__unwind_info: 0x71828
++  __TEXT.__unwind_info: 0x718a8
+   __TEXT.__eh_frame: 0x6f60
+-  __TEXT.__objc_classname: 0x3c889
+-  __TEXT.__objc_methname: 0x320e9a
+-  __TEXT.__objc_methtype: 0x7901f
+-  __TEXT.__objc_stubs: 0x1e3aa0
++  __TEXT.__objc_classname: 0x3c8a9
++  __TEXT.__objc_methname: 0x32103a
++  __TEXT.__objc_methtype: 0x7905c
++  __TEXT.__objc_stubs: 0x1e3c00
+   __DATA_CONST.__got: 0x7920
+-  __DATA_CONST.__const: 0x3c698
++  __DATA_CONST.__const: 0x3c648
+   __DATA_CONST.__objc_classlist: 0xae08
+   __DATA_CONST.__objc_catlist: 0x328
+   __DATA_CONST.__objc_protolist: 0x31b8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x92928
++  __DATA_CONST.__objc_selrefs: 0x92990
+   __DATA_CONST.__objc_protorefs: 0xc30
+   __DATA_CONST.__objc_superrefs: 0x73e8
+   __DATA_CONST.__objc_arraydata: 0x4638
+-  __AUTH_CONST.__auth_got: 0x6d90
+-  __AUTH_CONST.__const: 0x5cdb0
+-  __AUTH_CONST.__cfstring: 0xb0560
++  __AUTH_CONST.__auth_got: 0x6d98
++  __AUTH_CONST.__const: 0x5cdd0
++  __AUTH_CONST.__cfstring: 0xb05c0
+   __AUTH_CONST.__objc_const: 0x267950
+   __AUTH_CONST.__objc_arrayobj: 0x2f28
+   __AUTH_CONST.__objc_doubleobj: 0x1000
+   __AUTH_CONST.__objc_intobj: 0x4fc8
+   __AUTH_CONST.__objc_dictobj: 0xb40
+   __AUTH_CONST.__objc_floatobj: 0x20
+-  __AUTH.__objc_data: 0x52080
+-  __AUTH.__data: 0x8c08
++  __AUTH.__objc_data: 0x52090
++  __AUTH.__data: 0x8c28
+   __DATA.__objc_ivar: 0x1167c
+-  __DATA.__data: 0x2ee78
++  __DATA.__data: 0x2ee68
+   __DATA.__uikit_ip: 0x898
+   __DATA.__uikit_ipl: 0x18
+-  __DATA.__bss: 0x34ee8
++  __DATA.__bss: 0x34f20
+   __DATA.__common: 0x28a8
+   __DATA_DIRTY.__objc_ivar: 0x8a88
+   __DATA_DIRTY.__objc_data: 0x2bae8
+   __DATA_DIRTY.__uikit_ip: 0x11e8
+-  __DATA_DIRTY.__data: 0x74c8
+-  __DATA_DIRTY.__bss: 0x13578
++  __DATA_DIRTY.__data: 0x74a8
++  __DATA_DIRTY.__bss: 0x13568
+   __DATA_DIRTY.__common: 0x4a0
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/Accessibility.framework/Accessibility
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 827E4057-193B-372C-8651-63467E9F7717
+-  Functions: 173375
+-  Symbols:   437641
+-  CStrings:  181142
++  UUID: A1F8A4D9-2E42-3696-8CFC-63CA4D4B55F6
++  Functions: 173405
++  Symbols:   437702
++  CStrings:  181169
+ 
+Symbols:
++ +[_UIRemoteViewControllerAppProtectionMetrics appMetricsForBundleIdentifier:]
++ +[_UIRemoteViewControllerAppProtectionMetrics extensionMetricsForBundleIdentifier:extensionPlugin:]
++ +[_UIRemoteViewControllerAppProtectionMetrics metricsForBundleIdentifier:extensionPlugin:]
++ -[UIKBRenderFactory_Monolith letterKeyFontTextStyle]
++ -[UIKBRenderFactory_Monolith variantKeySymbolHeightThreshold]
++ -[UIKBRenderFactory_Monolith variantKeySymbolMinSideMargin]
++ -[UITextView disableScrollToSelectionOnBecomeFirstResponder]
++ -[UITextView setDisableScrollToSelectionOnBecomeFirstResponder:]
++ -[_UINavigationBarVisualProviderCarPlaySolarium _effectiveLayoutMargins]
++ -[_UINavigationBarVisualProviderCarPlaySolarium minimumTopPaddingWithTraitCollection:]
++ -[_UIRemoteViewControllerAppProtectionMetrics _initWithAPSubject:bundleIdentifierForAppIcon:localizedName:loggingIdentifier:]
++ -[_UISceneInterfaceProtectionHostComponent presentAppProtectionShieldIfServiceCurrentlyRequiresAuth]
++ -[_UISceneInterfaceProtectionHostComponent setAPSubject:]
++ GCC_except_table253
++ GCC_except_table470
++ GCC_except_table472
++ GCC_except_table519
++ GCC_except_table636
++ GCC_except_table643
++ GCC_except_table678
++ _.str.835
++ _OBJC_IVAR_$__UIRemoteViewControllerAppProtectionMetrics._apSubject
++ _OBJC_IVAR_$__UIRemoteViewControllerAppProtectionMetrics._loggingIdentifier
++ __MergedGlobals.207
++ __OBJC_$_CLASS_METHODS_UIView(CornerConfiguration|CornerProvider|MenuMorphBackground|UIKitCore|AppIntentsAnnotationsDebugDescription|_UIFlexInteraction|SwiftC2|ViewMasking|ConcentricLayout|UIKitCore1|UIKitCore2|AlphaOverride|UIKitCore3|_UIViewMaterial|Glass|BackgroundSuppression|MonochromaticTreatment|Monochromatic|_UIViewBackgroundSuppression|UIKitCore4|InProcessAlongsideAnimations|LayoutRegions|SwiftUIAnimation|DynamicLayoutGuides|UIObservationTracking|_UIUpdateContent|HybridPropertyAnimator|UIHoverStyle|UIShapeInternal|UIKitAccessibilityInterfaceBuilderSupport|UIAccessibilityInvertColors|UIAccessibilityInvertColorsInternal|UIInterfaceActionRepresentationView|_UIShapeConvenience|UIRenderingGroupFlags|UIContentSizeCategoryLimit|_UIButtonBarItemLayout|UINavigationBarAdditions|_UIWTCProofreadDecorating|_UIWritingToolsResponderSupport|VisualDescriptionAdditions|UIReferenceLibraryViewController_UIViewExtensions|_UIFlocker|_UIBarCustomizationChiclet|UIDragging|KeyboardSceneDelegate|UIKit_StandardEditActions|UIActivityItemsConfiguration_Private|inputResponderController|_UIViewBacking|_UIViewBackingMaterialThemesSupport|MaterialThemes|MultiLayer|_UIFallbackEnvironment|UIKB_UIViewExtras|UIAutocorrectInlinePrompt|_UISearchBarCompatibilityClippingViewSupport|_UIConstraintBasedLayoutEmbedding|_UIConstraintBasedLayoutMeasuring|UIHoverStyle_Internal|UITextInputView|UIMorphableInternal|_UIPortalView|_UIPickerReuse|_UITouchForceObservable|_UIHDRAnimations|UISystemStatusUISupport|StatusBarAdditions_Internal|AddStickerAnimation|_UIMorphingView|UITextEffectsOrdering|UITextEffectsWindowAdditions|UITextField|UILargeContentViewer|UILargeContentViewerPrivate|UILargeContentViewerInternal|UICatalystMacIdiomUnsupported_Private|UICatalystMacIdiomUnsupported_Internal|XcodeDebuggerSupport|_UIDragEventSupport|ViewService|FluidTransitions|_UILayoutArrangementInternalAdditions|_UIOrderedLayoutArrangementInternalAdditions|_UILACanvasSupport|_UIOldConstraintBasedLayoutSupport|UIAutolayoutTAMIC_NO_EngineHosting|UIDisableLayoutFlushingCount|UIConstraintBasedLayout|AdditionalLayoutSupport|UIConstraintBasedLayout_EngineDelegate|_UIKitLayoutSpacing|_UIKitLayoutSpacing_Private|Geometry|InProcessAnimations_Internal|Hierarchy|Rendering|Animation|UIViewAnimationWithBlocks|UIViewAnimationWithBlocksPrivate|UIViewKeyframeAnimations|Deprecated|ScrollNotification|Internal|UIViewAnimation_ForSystemShellOnly|UIView_ForSpringBoardOnly|_UIPointerInteractionAssistant|Dragging|UIViewGestures|CALayerDelegate|UIDebugging|UIDebuggingInternal|SyntheticEvents|UIViewStyleAdditions|ClassicAdditions|UIAutoscrollAdditions|UIScrollAdditions|ActivityContinuation|UIViewRTL|UIViewLayoutConstraintCreation|UIViewBoundingPathSupport|UIViewBoundingPathSupportInternal|UserInterfaceStyle|_UIDynamicUserInterfaceStyleSPI|DictationSPI|VisibilityNotification|_UIKitViewLandmarks|UIKitManual|AutoLayoutManual|ContentEffects|_UIPopoverPresentationControllerSourceItem_Internal|_UIViewLayoutFeedbackDebuggingSupport|_UIScrollPocket)
++ __OBJC_$_INSTANCE_METHODS_UIView(CornerConfiguration|CornerProvider|MenuMorphBackground|UIKitCore|AppIntentsAnnotationsDebugDescription|_UIFlexInteraction|SwiftC2|ViewMasking|ConcentricLayout|UIKitCore1|UIKitCore2|AlphaOverride|UIKitCore3|_UIViewMaterial|Glass|BackgroundSuppression|MonochromaticTreatment|Monochromatic|_UIViewBackgroundSuppression|UIKitCore4|InProcessAlongsideAnimations|LayoutRegions|SwiftUIAnimation|DynamicLayoutGuides|UIObservationTracking|_UIUpdateContent|HybridPropertyAnimator|UIHoverStyle|UIShapeInternal|UIKitAccessibilityInterfaceBuilderSupport|UIAccessibilityInvertColors|UIAccessibilityInvertColorsInternal|UIInterfaceActionRepresentationView|_UIShapeConvenience|UIRenderingGroupFlags|UIContentSizeCategoryLimit|_UIButtonBarItemLayout|UINavigationBarAdditions|_UIWTCProofreadDecorating|_UIWritingToolsResponderSupport|VisualDescriptionAdditions|UIReferenceLibraryViewController_UIViewExtensions|_UIFlocker|_UIBarCustomizationChiclet|UIDragging|KeyboardSceneDelegate|UIKit_StandardEditActions|UIActivityItemsConfiguration_Private|inputResponderController|_UIViewBacking|_UIViewBackingMaterialThemesSupport|MaterialThemes|MultiLayer|_UIFallbackEnvironment|UIKB_UIViewExtras|UIAutocorrectInlinePrompt|_UISearchBarCompatibilityClippingViewSupport|_UIConstraintBasedLayoutEmbedding|_UIConstraintBasedLayoutMeasuring|UIHoverStyle_Internal|UITextInputView|UIMorphableInternal|_UIPortalView|_UIPickerReuse|_UITouchForceObservable|_UIHDRAnimations|UISystemStatusUISupport|StatusBarAdditions_Internal|AddStickerAnimation|_UIMorphingView|UITextEffectsOrdering|UITextEffectsWindowAdditions|UITextField|UILargeContentViewer|UILargeContentViewerPrivate|UILargeContentViewerInternal|UICatalystMacIdiomUnsupported_Private|UICatalystMacIdiomUnsupported_Internal|XcodeDebuggerSupport|_UIDragEventSupport|ViewService|FluidTransitions|_UILayoutArrangementInternalAdditions|_UIOrderedLayoutArrangementInternalAdditions|_UILACanvasSupport|_UIOldConstraintBasedLayoutSupport|UIAutolayoutTAMIC_NO_EngineHosting|UIDisableLayoutFlushingCount|UIConstraintBasedLayout|AdditionalLayoutSupport|UIConstraintBasedLayout_EngineDelegate|_UIKitLayoutSpacing|_UIKitLayoutSpacing_Private|Geometry|InProcessAnimations_Internal|Hierarchy|Rendering|Animation|UIViewAnimationWithBlocks|UIViewAnimationWithBlocksPrivate|UIViewKeyframeAnimations|Deprecated|ScrollNotification|Internal|UIViewAnimation_ForSystemShellOnly|UIView_ForSpringBoardOnly|_UIPointerInteractionAssistant|Dragging|UIViewGestures|CALayerDelegate|UIDebugging|UIDebuggingInternal|SyntheticEvents|UIViewStyleAdditions|ClassicAdditions|UIAutoscrollAdditions|UIScrollAdditions|ActivityContinuation|UIViewRTL|UIViewLayoutConstraintCreation|UIViewBoundingPathSupport|UIViewBoundingPathSupportInternal|UserInterfaceStyle|_UIDynamicUserInterfaceStyleSPI|DictationSPI|VisibilityNotification|_UIKitViewLandmarks|UIKitManual|AutoLayoutManual|ContentEffects|_UIPopoverPresentationControllerSourceItem_Internal|_UIViewLayoutFeedbackDebuggingSupport|_UIScrollPocket)
++ __OBJC_CLASS_PROTOCOLS_$_UIView(CornerConfiguration|CornerProvider|MenuMorphBackground|UIKitCore|AppIntentsAnnotationsDebugDescription|_UIFlexInteraction|SwiftC2|ViewMasking|ConcentricLayout|UIKitCore1|UIKitCore2|AlphaOverride|UIKitCore3|_UIViewMaterial|Glass|BackgroundSuppression|MonochromaticTreatment|Monochromatic|_UIViewBackgroundSuppression|UIKitCore4|InProcessAlongsideAnimations|LayoutRegions|SwiftUIAnimation|DynamicLayoutGuides|UIObservationTracking|_UIUpdateContent|HybridPropertyAnimator|UIHoverStyle|UIShapeInternal|UIKitAccessibilityInterfaceBuilderSupport|UIAccessibilityInvertColors|UIAccessibilityInvertColorsInternal|UIInterfaceActionRepresentationView|_UIShapeConvenience|UIRenderingGroupFlags|UIContentSizeCategoryLimit|_UIButtonBarItemLayout|UINavigationBarAdditions|_UIWTCProofreadDecorating|_UIWritingToolsResponderSupport|VisualDescriptionAdditions|UIReferenceLibraryViewController_UIViewExtensions|_UIFlocker|_UIBarCustomizationChiclet|UIDragging|KeyboardSceneDelegate|UIKit_StandardEditActions|UIActivityItemsConfiguration_Private|inputResponderController|_UIViewBacking|_UIViewBackingMaterialThemesSupport|MaterialThemes|MultiLayer|_UIFallbackEnvironment|UIKB_UIViewExtras|UIAutocorrectInlinePrompt|_UISearchBarCompatibilityClippingViewSupport|_UIConstraintBasedLayoutEmbedding|_UIConstraintBasedLayoutMeasuring|UIHoverStyle_Internal|UITextInputView|UIMorphableInternal|_UIPortalView|_UIPickerReuse|_UITouchForceObservable|_UIHDRAnimations|UISystemStatusUISupport|StatusBarAdditions_Internal|AddStickerAnimation|_UIMorphingView|UITextEffectsOrdering|UITextEffectsWindowAdditions|UITextField|UILargeContentViewer|UILargeContentViewerPrivate|UILargeContentViewerInternal|UICatalystMacIdiomUnsupported_Private|UICatalystMacIdiomUnsupported_Internal|XcodeDebuggerSupport|_UIDragEventSupport|ViewService|FluidTransitions|_UILayoutArrangementInternalAdditions|_UIOrderedLayoutArrangementInternalAdditions|_UILACanvasSupport|_UIOldConstraintBasedLayoutSupport|UIAutolayoutTAMIC_NO_EngineHosting|UIDisableLayoutFlushingCount|UIConstraintBasedLayout|AdditionalLayoutSupport|UIConstraintBasedLayout_EngineDelegate|_UIKitLayoutSpacing|_UIKitLayoutSpacing_Private|Geometry|InProcessAnimations_Internal|Hierarchy|Rendering|Animation|UIViewAnimationWithBlocks|UIViewAnimationWithBlocksPrivate|UIViewKeyframeAnimations|Deprecated|ScrollNotification|Internal|UIViewAnimation_ForSystemShellOnly|UIView_ForSpringBoardOnly|_UIPointerInteractionAssistant|Dragging|UIViewGestures|CALayerDelegate|UIDebugging|UIDebuggingInternal|SyntheticEvents|UIViewStyleAdditions|ClassicAdditions|UIAutoscrollAdditions|UIScrollAdditions|ActivityContinuation|UIViewRTL|UIViewLayoutConstraintCreation|UIViewBoundingPathSupport|UIViewBoundingPathSupportInternal|UserInterfaceStyle|_UIDynamicUserInterfaceStyleSPI|DictationSPI|VisibilityNotification|_UIKitViewLandmarks|UIKitManual|AutoLayoutManual|ContentEffects|_UIPopoverPresentationControllerSourceItem_Internal|_UIViewLayoutFeedbackDebuggingSupport|_UIScrollPocket)
++ __UIAPSubjectRequiresShielding
++ __UIContextMenuPreferredUserInterfaceStyleForMaterial
++ __UIStickerCopyMetadataFromRepresentationImageData
++ ___25-[UIColor initWithCoder:]_block_invoke
++ ___78-[UIViewController _presentViewController:withAnimationController:completion:]_block_invoke.731
++ ___88-[_UISceneInterfaceProtectionHostComponent executeUnlockButtonPressedWithSuccess:error:]_block_invoke
++ ____UIStickerItemProviderWithMetadata_block_invoke_5
++ ___block_literal_global.1185
++ ___block_literal_global.1236
++ ___block_literal_global.1240
++ ___block_literal_global.1252
++ ___block_literal_global.1265
++ ___block_literal_global.1268
++ ___block_literal_global.1271
++ ___block_literal_global.1274
++ ___block_literal_global.1280
++ ___block_literal_global.1283
++ ___block_literal_global.1289
++ ___block_literal_global.1295
++ ___block_literal_global.1298
++ ___block_literal_global.1301
++ ___block_literal_global.1304
++ ___block_literal_global.1313
++ ___block_literal_global.1319
++ ___block_literal_global.1325
++ ___block_literal_global.1328
++ ___block_literal_global.1333
++ ___block_literal_global.1347
++ ___block_literal_global.1354
++ ___block_literal_global.1357
++ ___block_literal_global.1360
++ ___block_literal_global.1375
++ ___block_literal_global.1378
++ ___block_literal_global.1384
++ ___block_literal_global.1387
++ ___block_literal_global.1390
++ ___block_literal_global.1393
++ ___block_literal_global.1396
++ ___block_literal_global.1399
++ ___block_literal_global.1405
++ ___block_literal_global.1408
++ ___block_literal_global.1417
++ ___block_literal_global.1420
++ ___block_literal_global.1432
++ ___block_literal_global.1435
++ ___block_literal_global.1438
++ ___block_literal_global.1441
++ ___block_literal_global.1447
++ ___block_literal_global.1456
++ ___block_literal_global.1462
++ ___block_literal_global.1474
++ ___block_literal_global.1480
++ ___block_literal_global.1489
++ ___block_literal_global.1492
++ ___block_literal_global.1495
++ ___block_literal_global.1504
++ ___block_literal_global.1516
++ ___block_literal_global.1523
++ ___block_literal_global.1529
++ ___block_literal_global.1532
++ ___block_literal_global.1815
++ ___block_literal_global.1933
++ ___block_literal_global.1939
++ ___block_literal_global.1945
++ ___block_literal_global.1948
++ ___block_literal_global.1951
++ ___block_literal_global.1954
++ ___block_literal_global.1957
++ ___block_literal_global.1960
++ ___block_literal_global.1963
++ ___block_literal_global.1966
++ ___block_literal_global.1969
++ ___block_literal_global.1972
++ ___block_literal_global.1975
++ ___block_literal_global.1978
++ ___block_literal_global.1981
++ ___block_literal_global.1987
++ ___block_literal_global.1991
++ ___block_literal_global.1994
++ ___block_literal_global.1997
++ ___block_literal_global.2000
++ ___block_literal_global.2003
++ ___block_literal_global.2006
++ ___block_literal_global.2009
++ ___block_literal_global.2012
++ ___block_literal_global.2015
++ ___block_literal_global.2018
++ ___block_literal_global.2024
++ ___block_literal_global.2027
++ ___block_literal_global.2030
++ ___block_literal_global.2033
++ ___block_literal_global.2037
++ ___block_literal_global.2040
++ ___block_literal_global.2043
++ ___block_literal_global.2046
++ ___block_literal_global.2049
++ ___block_literal_global.2052
++ ___block_literal_global.2055
++ ___block_literal_global.2058
++ ___block_literal_global.2061
++ ___block_literal_global.2064
++ ___block_literal_global.2070
++ ___block_literal_global.2073
++ ___block_literal_global.2076
++ ___block_literal_global.2079
++ ___block_literal_global.2082
++ ___block_literal_global.2085
++ ___block_literal_global.2088
++ ___block_literal_global.2091
++ ___block_literal_global.2094
++ ___block_literal_global.2097
++ ___block_literal_global.2100
++ ___block_literal_global.2103
++ ___block_literal_global.2106
++ ___block_literal_global.2109
++ ___block_literal_global.2112
++ ___block_literal_global.2115
++ ___block_literal_global.2118
++ ___block_literal_global.2121
++ ___block_literal_global.2124
++ ___block_literal_global.2127
++ ___block_literal_global.2130
++ ___block_literal_global.2133
++ ___block_literal_global.2136
++ ___block_literal_global.2139
++ ___block_literal_global.2142
++ ___block_literal_global.2145
++ ___block_literal_global.2148
++ ___block_literal_global.2151
++ ___block_literal_global.2154
++ ___block_literal_global.2157
++ ___block_literal_global.2160
++ ___block_literal_global.2163
++ ___block_literal_global.2166
++ ___block_literal_global.2169
++ ___block_literal_global.2172
++ ___block_literal_global.2175
++ ___block_literal_global.2178
++ ___block_literal_global.2181
++ ___block_literal_global.2184
++ ___block_literal_global.2187
++ ___block_literal_global.2190
++ ___block_literal_global.2253
++ ___block_literal_global.2259
++ ___block_literal_global.2365
++ ___block_literal_global.2378
++ ___block_literal_global.2388
++ ___block_literal_global.2402
++ ___block_literal_global.2421
++ ___block_literal_global.2586
++ ___block_literal_global.2591
++ ___block_literal_global.2599
++ ___block_literal_global.2638
++ ___block_literal_global.814
++ ___block_literal_global.840
++ ___block_literal_global.880
++ ___block_literal_global.899
++ ___block_literal_global.901
++ ___block_literal_global.903
++ ___block_literal_global.905
++ ___block_literal_global.908
++ ___block_literal_global.910
++ ___block_literal_global.912
++ ___block_literal_global.914
++ ___block_literal_global.920
++ ___block_literal_global.924
++ ___getAPViewSubjectClass_block_invoke
++ ___getAPViewSubjectMonitorRegistryClass_block_invoke
++ __resolvedColorWithTraitCollection:.__s_category.1889
++ _block_copy_helper.388
++ _block_descriptor.390
++ _block_destroy_helper.389
++ _executeUnlockButtonPressedWithSuccess:error:.__s_category
++ _getAPBaseExtensionShieldViewClass
++ _getAPExtensionClass.softClass
++ _getAPGuardClass
++ _getAPViewSubjectClass
++ _getAPViewSubjectClass.softClass
++ _objc_msgSend$_effectiveLayoutMargins
++ _objc_msgSend$_preferredMenuUserInterfaceStyleForResolvedMorphable
++ _objc_msgSend$authenticateForExtension:reasonDescription:completion:
++ _objc_msgSend$authenticateForViewSubject:reasonDescription:completion:
++ _objc_msgSend$disableScrollToSelectionOnBecomeFirstResponder
++ _objc_msgSend$effectiveContainer
++ _objc_msgSend$effectiveContainerLocalizedName
++ _objc_msgSend$initWithAPViewSubject:unlockButtonHidden:
++ _objc_msgSend$initWithViewSubject:
++ _objc_msgSend$letterKeyFontTextStyle
++ _objc_msgSend$setAPSubject:
++ _objc_msgSend$variantKeySymbolHeightThreshold
++ _objc_msgSend$variantKeySymbolMinSideMargin
++ _objectdestroy.392Tm
++ _symbolic So19_UITabContainerViewCSgXw
+- +[_UIRemoteViewControllerAppProtectionMetrics metricsForExtensionBundleIdentifier:extensionPlugin:]
+- -[_UISceneInterfaceProtectionHostComponent _setUnderAppProtection:]
+- -[_UISceneInterfaceProtectionHostComponent setAPExtension:]
+- GCC_except_table471
+- GCC_except_table485
+- GCC_except_table517
+- GCC_except_table527
+- GCC_except_table634
+- GCC_except_table637
+- GCC_except_table641
+- _.str.836
+- _OBJC_IVAR_$__UIRemoteViewControllerAppProtectionMetrics._apExtension
+- _OBJC_IVAR_$__UIRemoteViewControllerAppProtectionMetrics._bundleIdentifierForExtension
+- __MergedGlobals.205
+- __OBJC_$_CLASS_METHODS_UIView(CornerConfiguration|CornerProvider|UIKitCore|AppIntentsAnnotationsDebugDescription|_UIFlexInteraction|SwiftC2|ViewMasking|ConcentricLayout|UIKitCore1|UIKitCore2|AlphaOverride|UIKitCore3|_UIViewMaterial|Glass|BackgroundSuppression|MonochromaticTreatment|Monochromatic|_UIViewBackgroundSuppression|UIKitCore4|InProcessAlongsideAnimations|LayoutRegions|SwiftUIAnimation|DynamicLayoutGuides|UIObservationTracking|_UIUpdateContent|HybridPropertyAnimator|UIHoverStyle|UIShapeInternal|UIKitAccessibilityInterfaceBuilderSupport|UIAccessibilityInvertColors|UIAccessibilityInvertColorsInternal|UIInterfaceActionRepresentationView|_UIShapeConvenience|UIRenderingGroupFlags|UIContentSizeCategoryLimit|_UIButtonBarItemLayout|UINavigationBarAdditions|_UIWTCProofreadDecorating|_UIWritingToolsResponderSupport|VisualDescriptionAdditions|UIReferenceLibraryViewController_UIViewExtensions|_UIFlocker|_UIBarCustomizationChiclet|UIDragging|KeyboardSceneDelegate|UIKit_StandardEditActions|UIActivityItemsConfiguration_Private|inputResponderController|_UIViewBacking|_UIViewBackingMaterialThemesSupport|MaterialThemes|MultiLayer|_UIFallbackEnvironment|UIKB_UIViewExtras|UIAutocorrectInlinePrompt|_UISearchBarCompatibilityClippingViewSupport|_UIConstraintBasedLayoutEmbedding|_UIConstraintBasedLayoutMeasuring|UIHoverStyle_Internal|UITextInputView|UIMorphableInternal|_UIPortalView|_UIPickerReuse|_UITouchForceObservable|_UIHDRAnimations|UISystemStatusUISupport|StatusBarAdditions_Internal|AddStickerAnimation|_UIMorphingView|UITextEffectsOrdering|UITextEffectsWindowAdditions|UITextField|UILargeContentViewer|UILargeContentViewerPrivate|UILargeContentViewerInternal|UICatalystMacIdiomUnsupported_Private|UICatalystMacIdiomUnsupported_Internal|XcodeDebuggerSupport|_UIDragEventSupport|ViewService|FluidTransitions|_UILayoutArrangementInternalAdditions|_UIOrderedLayoutArrangementInternalAdditions|_UILACanvasSupport|_UIOldConstraintBasedLayoutSupport|UIAutolayoutTAMIC_NO_EngineHosting|UIDisableLayoutFlushingCount|UIConstraintBasedLayout|AdditionalLayoutSupport|UIConstraintBasedLayout_EngineDelegate|_UIKitLayoutSpacing|_UIKitLayoutSpacing_Private|Geometry|InProcessAnimations_Internal|Hierarchy|Rendering|Animation|UIViewAnimationWithBlocks|UIViewAnimationWithBlocksPrivate|UIViewKeyframeAnimations|Deprecated|ScrollNotification|Internal|UIViewAnimation_ForSystemShellOnly|UIView_ForSpringBoardOnly|_UIPointerInteractionAssistant|Dragging|UIViewGestures|CALayerDelegate|UIDebugging|UIDebuggingInternal|SyntheticEvents|UIViewStyleAdditions|ClassicAdditions|UIAutoscrollAdditions|UIScrollAdditions|ActivityContinuation|UIViewRTL|UIViewLayoutConstraintCreation|UIViewBoundingPathSupport|UIViewBoundingPathSupportInternal|UserInterfaceStyle|_UIDynamicUserInterfaceStyleSPI|DictationSPI|VisibilityNotification|_UIKitViewLandmarks|UIKitManual|AutoLayoutManual|ContentEffects|_UIPopoverPresentationControllerSourceItem_Internal|_UIViewLayoutFeedbackDebuggingSupport|_UIScrollPocket)
+- __OBJC_$_INSTANCE_METHODS_UIView(CornerConfiguration|CornerProvider|UIKitCore|AppIntentsAnnotationsDebugDescription|_UIFlexInteraction|SwiftC2|ViewMasking|ConcentricLayout|UIKitCore1|UIKitCore2|AlphaOverride|UIKitCore3|_UIViewMaterial|Glass|BackgroundSuppression|MonochromaticTreatment|Monochromatic|_UIViewBackgroundSuppression|UIKitCore4|InProcessAlongsideAnimations|LayoutRegions|SwiftUIAnimation|DynamicLayoutGuides|UIObservationTracking|_UIUpdateContent|HybridPropertyAnimator|UIHoverStyle|UIShapeInternal|UIKitAccessibilityInterfaceBuilderSupport|UIAccessibilityInvertColors|UIAccessibilityInvertColorsInternal|UIInterfaceActionRepresentationView|_UIShapeConvenience|UIRenderingGroupFlags|UIContentSizeCategoryLimit|_UIButtonBarItemLayout|UINavigationBarAdditions|_UIWTCProofreadDecorating|_UIWritingToolsResponderSupport|VisualDescriptionAdditions|UIReferenceLibraryViewController_UIViewExtensions|_UIFlocker|_UIBarCustomizationChiclet|UIDragging|KeyboardSceneDelegate|UIKit_StandardEditActions|UIActivityItemsConfiguration_Private|inputResponderController|_UIViewBacking|_UIViewBackingMaterialThemesSupport|MaterialThemes|MultiLayer|_UIFallbackEnvironment|UIKB_UIViewExtras|UIAutocorrectInlinePrompt|_UISearchBarCompatibilityClippingViewSupport|_UIConstraintBasedLayoutEmbedding|_UIConstraintBasedLayoutMeasuring|UIHoverStyle_Internal|UITextInputView|UIMorphableInternal|_UIPortalView|_UIPickerReuse|_UITouchForceObservable|_UIHDRAnimations|UISystemStatusUISupport|StatusBarAdditions_Internal|AddStickerAnimation|_UIMorphingView|UITextEffectsOrdering|UITextEffectsWindowAdditions|UITextField|UILargeContentViewer|UILargeContentViewerPrivate|UILargeContentViewerInternal|UICatalystMacIdiomUnsupported_Private|UICatalystMacIdiomUnsupported_Internal|XcodeDebuggerSupport|_UIDragEventSupport|ViewService|FluidTransitions|_UILayoutArrangementInternalAdditions|_UIOrderedLayoutArrangementInternalAdditions|_UILACanvasSupport|_UIOldConstraintBasedLayoutSupport|UIAutolayoutTAMIC_NO_EngineHosting|UIDisableLayoutFlushingCount|UIConstraintBasedLayout|AdditionalLayoutSupport|UIConstraintBasedLayout_EngineDelegate|_UIKitLayoutSpacing|_UIKitLayoutSpacing_Private|Geometry|InProcessAnimations_Internal|Hierarchy|Rendering|Animation|UIViewAnimationWithBlocks|UIViewAnimationWithBlocksPrivate|UIViewKeyframeAnimations|Deprecated|ScrollNotification|Internal|UIViewAnimation_ForSystemShellOnly|UIView_ForSpringBoardOnly|_UIPointerInteractionAssistant|Dragging|UIViewGestures|CALayerDelegate|UIDebugging|UIDebuggingInternal|SyntheticEvents|UIViewStyleAdditions|ClassicAdditions|UIAutoscrollAdditions|UIScrollAdditions|ActivityContinuation|UIViewRTL|UIViewLayoutConstraintCreation|UIViewBoundingPathSupport|UIViewBoundingPathSupportInternal|UserInterfaceStyle|_UIDynamicUserInterfaceStyleSPI|DictationSPI|VisibilityNotification|_UIKitViewLandmarks|UIKitManual|AutoLayoutManual|ContentEffects|_UIPopoverPresentationControllerSourceItem_Internal|_UIViewLayoutFeedbackDebuggingSupport|_UIScrollPocket)
+- __OBJC_CLASS_PROTOCOLS_$_UIView(CornerConfiguration|CornerProvider|UIKitCore|AppIntentsAnnotationsDebugDescription|_UIFlexInteraction|SwiftC2|ViewMasking|ConcentricLayout|UIKitCore1|UIKitCore2|AlphaOverride|UIKitCore3|_UIViewMaterial|Glass|BackgroundSuppression|MonochromaticTreatment|Monochromatic|_UIViewBackgroundSuppression|UIKitCore4|InProcessAlongsideAnimations|LayoutRegions|SwiftUIAnimation|DynamicLayoutGuides|UIObservationTracking|_UIUpdateContent|HybridPropertyAnimator|UIHoverStyle|UIShapeInternal|UIKitAccessibilityInterfaceBuilderSupport|UIAccessibilityInvertColors|UIAccessibilityInvertColorsInternal|UIInterfaceActionRepresentationView|_UIShapeConvenience|UIRenderingGroupFlags|UIContentSizeCategoryLimit|_UIButtonBarItemLayout|UINavigationBarAdditions|_UIWTCProofreadDecorating|_UIWritingToolsResponderSupport|VisualDescriptionAdditions|UIReferenceLibraryViewController_UIViewExtensions|_UIFlocker|_UIBarCustomizationChiclet|UIDragging|KeyboardSceneDelegate|UIKit_StandardEditActions|UIActivityItemsConfiguration_Private|inputResponderController|_UIViewBacking|_UIViewBackingMaterialThemesSupport|MaterialThemes|MultiLayer|_UIFallbackEnvironment|UIKB_UIViewExtras|UIAutocorrectInlinePrompt|_UISearchBarCompatibilityClippingViewSupport|_UIConstraintBasedLayoutEmbedding|_UIConstraintBasedLayoutMeasuring|UIHoverStyle_Internal|UITextInputView|UIMorphableInternal|_UIPortalView|_UIPickerReuse|_UITouchForceObservable|_UIHDRAnimations|UISystemStatusUISupport|StatusBarAdditions_Internal|AddStickerAnimation|_UIMorphingView|UITextEffectsOrdering|UITextEffectsWindowAdditions|UITextField|UILargeContentViewer|UILargeContentViewerPrivate|UILargeContentViewerInternal|UICatalystMacIdiomUnsupported_Private|UICatalystMacIdiomUnsupported_Internal|XcodeDebuggerSupport|_UIDragEventSupport|ViewService|FluidTransitions|_UILayoutArrangementInternalAdditions|_UIOrderedLayoutArrangementInternalAdditions|_UILACanvasSupport|_UIOldConstraintBasedLayoutSupport|UIAutolayoutTAMIC_NO_EngineHosting|UIDisableLayoutFlushingCount|UIConstraintBasedLayout|AdditionalLayoutSupport|UIConstraintBasedLayout_EngineDelegate|_UIKitLayoutSpacing|_UIKitLayoutSpacing_Private|Geometry|InProcessAnimations_Internal|Hierarchy|Rendering|Animation|UIViewAnimationWithBlocks|UIViewAnimationWithBlocksPrivate|UIViewKeyframeAnimations|Deprecated|ScrollNotification|Internal|UIViewAnimation_ForSystemShellOnly|UIView_ForSpringBoardOnly|_UIPointerInteractionAssistant|Dragging|UIViewGestures|CALayerDelegate|UIDebugging|UIDebuggingInternal|SyntheticEvents|UIViewStyleAdditions|ClassicAdditions|UIAutoscrollAdditions|UIScrollAdditions|ActivityContinuation|UIViewRTL|UIViewLayoutConstraintCreation|UIViewBoundingPathSupport|UIViewBoundingPathSupportInternal|UserInterfaceStyle|_UIDynamicUserInterfaceStyleSPI|DictationSPI|VisibilityNotification|_UIKitViewLandmarks|UIKitManual|AutoLayoutManual|ContentEffects|_UIPopoverPresentationControllerSourceItem_Internal|_UIViewLayoutFeedbackDebuggingSupport|_UIScrollPocket)
+- __UICollectionViewCompositionalLayoutShouldRespectPreferredSizeOnEstimatedAxisOnly
+- __UISceneInterfaceProtectionHostComponentInitiallyUnderAppProtectionTransientSettingsKey_block_invoke.__s_category
+- ___74-[_UISceneInterfaceProtectionHostComponent shieldViewUnlockButtonPressed:]_block_invoke_2
+- ___78-[UIViewController _presentViewController:withAnimationController:completion:]_block_invoke.732
+- ____UICollectionViewCompositionalLayoutShouldRespectPreferredSizeOnEstimatedAxisOnly_block_invoke
+- ___block_descriptor_40_e8_32s_e71_v24?0"_UIFloatingTabBarSelectionContainerView"8"UITraitCollection"16ls32l8
+- ___block_descriptor_48_e8_32s40w_e20_v20?0B8"NSError"12lw40l8s32l8
+- ___block_literal_global.1234
+- ___block_literal_global.1241
+- ___block_literal_global.1244
+- ___block_literal_global.1250
+- ___block_literal_global.1257
+- ___block_literal_global.1263
+- ___block_literal_global.1266
+- ___block_literal_global.1269
+- ___block_literal_global.1275
+- ___block_literal_global.1278
+- ___block_literal_global.1281
+- ___block_literal_global.1290
+- ___block_literal_global.1293
+- ___block_literal_global.1296
+- ___block_literal_global.1299
+- ___block_literal_global.1308
+- ___block_literal_global.1311
+- ___block_literal_global.1320
+- ___block_literal_global.1323
+- ___block_literal_global.1326
+- ___block_literal_global.1329
+- ___block_literal_global.1345
+- ___block_literal_global.1352
+- ___block_literal_global.1355
+- ___block_literal_global.1361
+- ___block_literal_global.1367
+- ___block_literal_global.1379
+- ___block_literal_global.1382
+- ___block_literal_global.1385
+- ___block_literal_global.1391
+- ___block_literal_global.1394
+- ___block_literal_global.1397
+- ___block_literal_global.1403
+- ___block_literal_global.1406
+- ___block_literal_global.1415
+- ___block_literal_global.1421
+- ___block_literal_global.1424
+- ___block_literal_global.1430
+- ___block_literal_global.1433
+- ___block_literal_global.1436
+- ___block_literal_global.1439
+- ___block_literal_global.1442
+- ___block_literal_global.1445
+- ___block_literal_global.1451
+- ___block_literal_global.1454
+- ___block_literal_global.1460
+- ___block_literal_global.1463
+- ___block_literal_global.1469
+- ___block_literal_global.1472
+- ___block_literal_global.1475
+- ___block_literal_global.1478
+- ___block_literal_global.1484
+- ___block_literal_global.1487
+- ___block_literal_global.1490
+- ___block_literal_global.1493
+- ___block_literal_global.1508
+- ___block_literal_global.1514
+- ___block_literal_global.1521
+- ___block_literal_global.1527
+- ___block_literal_global.1530
+- ___block_literal_global.1934
+- ___block_literal_global.1937
+- ___block_literal_global.1943
+- ___block_literal_global.1946
+- ___block_literal_global.1949
+- ___block_literal_global.1952
+- ___block_literal_global.1955
+- ___block_literal_global.1958
+- ___block_literal_global.1961
+- ___block_literal_global.1964
+- ___block_literal_global.1967
+- ___block_literal_global.1970
+- ___block_literal_global.1973
+- ___block_literal_global.1976
+- ___block_literal_global.1979
+- ___block_literal_global.1982
+- ___block_literal_global.1985
+- ___block_literal_global.1989
+- ___block_literal_global.1992
+- ___block_literal_global.1995
+- ___block_literal_global.1998
+- ___block_literal_global.2001
+- ___block_literal_global.2004
+- ___block_literal_global.2007
+- ___block_literal_global.2010
+- ___block_literal_global.2013
+- ___block_literal_global.2016
+- ___block_literal_global.2022
+- ___block_literal_global.2028
+- ___block_literal_global.2031
+- ___block_literal_global.2035
+- ___block_literal_global.2038
+- ___block_literal_global.2041
+- ___block_literal_global.2044
+- ___block_literal_global.2047
+- ___block_literal_global.2050
+- ___block_literal_global.2053
+- ___block_literal_global.2056
+- ___block_literal_global.2059
+- ___block_literal_global.2062
+- ___block_literal_global.2065
+- ___block_literal_global.2074
+- ___block_literal_global.2077
+- ___block_literal_global.2080
+- ___block_literal_global.2083
+- ___block_literal_global.2086
+- ___block_literal_global.2089
+- ___block_literal_global.2092
+- ___block_literal_global.2095
+- ___block_literal_global.2098
+- ___block_literal_global.2101
+- ___block_literal_global.2104
+- ___block_literal_global.2107
+- ___block_literal_global.2110
+- ___block_literal_global.2113
+- ___block_literal_global.2116
+- ___block_literal_global.2119
+- ___block_literal_global.2122
+- ___block_literal_global.2125
+- ___block_literal_global.2128
+- ___block_literal_global.2131
+- ___block_literal_global.2134
+- ___block_literal_global.2137
+- ___block_literal_global.2140
+- ___block_literal_global.2143
+- ___block_literal_global.2146
+- ___block_literal_global.2149
+- ___block_literal_global.2152
+- ___block_literal_global.2155
+- ___block_literal_global.2158
+- ___block_literal_global.2161
+- ___block_literal_global.2164
+- ___block_literal_global.2167
+- ___block_literal_global.2170
+- ___block_literal_global.2173
+- ___block_literal_global.2176
+- ___block_literal_global.2179
+- ___block_literal_global.2182
+- ___block_literal_global.2185
+- ___block_literal_global.2243
+- ___block_literal_global.2255
+- ___block_literal_global.2304
+- ___block_literal_global.2363
+- ___block_literal_global.2376
+- ___block_literal_global.2386
+- ___block_literal_global.2398
+- ___block_literal_global.2419
+- ___block_literal_global.2587
+- ___block_literal_global.2592
+- ___block_literal_global.2600
+- ___block_literal_global.2639
+- ___block_literal_global.304
+- ___block_literal_global.451
+- ___block_literal_global.469
+- ___block_literal_global.564
+- ___block_literal_global.815
+- ___block_literal_global.841
+- ___block_literal_global.881
+- ___block_literal_global.900
+- ___block_literal_global.902
+- ___block_literal_global.909
+- ___block_literal_global.911
+- ___block_literal_global.913
+- ___block_literal_global.915
+- ___block_literal_global.919
+- __resolvedColorWithTraitCollection:.__s_category.1887
+- _block_copy_helper.331
+- _block_copy_helper.351
+- _block_copy_helper.385
+- _block_copy_helper.398
+- _block_descriptor.333
+- _block_descriptor.353
+- _block_descriptor.387
+- _block_descriptor.400
+- _block_destroy_helper.332
+- _block_destroy_helper.352
+- _block_destroy_helper.386
+- _block_destroy_helper.399
+- _getAPExtensionSubjectMonitorRegistryClass.softClass
+- _objc_msgSend$_extensionBundleIdentifierForAppProtection
+- _objc_msgSend$setAPExtension:
+- _objectdestroy.389Tm
+- _symbolic So19_UITabContainerViewCSg
+CStrings:
++ "-Monolith"
++ "/AppleInternal/Library/BuildRoots/4~CJV_ugCzg6vYbTLRa7cJ3oR6OTPvAXHTeR2_6bM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/nth_element.h:122: libc++ Hardening assertion __i != __last failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CJV_ugCzg6vYbTLRa7cJ3oR6OTPvAXHTeR2_6bM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/nth_element.h:127: libc++ Hardening assertion __j != __first failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CJV_ugCzg6vYbTLRa7cJ3oR6OTPvAXHTeR2_6bM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/nth_element.h:158: libc++ Hardening assertion __i != __last failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CJV_ugCzg6vYbTLRa7cJ3oR6OTPvAXHTeR2_6bM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/nth_element.h:164: libc++ Hardening assertion __j != __first failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CJV_ugCzg6vYbTLRa7cJ3oR6OTPvAXHTeR2_6bM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:293: libc++ Hardening assertion __k != __leftmost failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CJV_ugCzg6vYbTLRa7cJ3oR6OTPvAXHTeR2_6bM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:512: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CJV_ugCzg6vYbTLRa7cJ3oR6OTPvAXHTeR2_6bM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:525: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CJV_ugCzg6vYbTLRa7cJ3oR6OTPvAXHTeR2_6bM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:669: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CJV_ugCzg6vYbTLRa7cJ3oR6OTPvAXHTeR2_6bM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:682: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CJV_ugCzg6vYbTLRa7cJ3oR6OTPvAXHTeR2_6bM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:692: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CJV_ugCzg6vYbTLRa7cJ3oR6OTPvAXHTeR2_6bM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:697: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CJV_ugCzg6vYbTLRa7cJ3oR6OTPvAXHTeR2_6bM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__bit_reference:111: libc++ Hardening assertion __ctz + __clz < sizeof(_StorageType) * 8 failed: __fill_masked_range called with invalid range\n"
++ "/AppleInternal/Library/BuildRoots/4~CJV_ugCzg6vYbTLRa7cJ3oR6OTPvAXHTeR2_6bM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__hash_table:1892: libc++ Hardening assertion __p != end() failed: unordered container::erase(iterator) called with a non-dereferenceable iterator\n"
++ "/AppleInternal/Library/BuildRoots/4~CJV_ugCzg6vYbTLRa7cJ3oR6OTPvAXHTeR2_6bM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__utility/is_pointer_in_range.h:38: libc++ Hardening assertion std::__is_valid_range(__begin, __end) failed: [__begin, __end) is not a valid range\n"
++ "/AppleInternal/Library/BuildRoots/4~CJV_ugCzg6vYbTLRa7cJ3oR6OTPvAXHTeR2_6bM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:1162: libc++ Hardening assertion __position != end() failed: vector::erase(iterator) called with a non-dereferenceable iterator\n"
++ "/AppleInternal/Library/BuildRoots/4~CJV_ugCzg6vYbTLRa7cJ3oR6OTPvAXHTeR2_6bM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:1172: libc++ Hardening assertion __first <= __last failed: vector::erase(first, last) called with invalid range\n"
++ "/AppleInternal/Library/BuildRoots/4~CJV_ugCzg6vYbTLRa7cJ3oR6OTPvAXHTeR2_6bM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CJV_ugCzg6vYbTLRa7cJ3oR6OTPvAXHTeR2_6bM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:410: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CJV_ugCzg6vYbTLRa7cJ3oR6OTPvAXHTeR2_6bM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:429: libc++ Hardening assertion !empty() failed: front() called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/4~CJV_ugCzg6vYbTLRa7cJ3oR6OTPvAXHTeR2_6bM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector_bool.h:282: libc++ Hardening assertion __n < size() failed: vector<bool>::operator[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CJV_ugCzg6vYbTLRa7cJ3oR6OTPvAXHTeR2_6bM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:1522: libc++ Hardening assertion __i < size() failed: deque::operator[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CJV_ugCzg6vYbTLRa7cJ3oR6OTPvAXHTeR2_6bM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:2296: libc++ Hardening assertion !empty() failed: deque::pop_front called on an empty deque\n"
++ "/AppleInternal/Library/BuildRoots/4~CJV_ugCzg6vYbTLRa7cJ3oR6OTPvAXHTeR2_6bM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:2464: libc++ Hardening assertion __f <= __l failed: deque::erase(first, last) called with an invalid range\n"
++ "/Library/Caches/com.apple.xbs/ADAC6BD2-4AA8-436F-A1F5-9F5F9EA845EE/TemporaryDirectory.ojnSap/Sources/UIKitCore/Sources/Controllers/UISplitViewController/Adaptive Impl/Layout/_UISplitViewControllerAdaptiveLayoutTransition.swift"
++ "/Library/Caches/com.apple.xbs/ADAC6BD2-4AA8-436F-A1F5-9F5F9EA845EE/TemporaryDirectory.ojnSap/Sources/UIKitCore/Sources/Controllers/UISplitViewController/Adaptive Impl/Layout/_UISplitViewControllerAdaptivePanelLayout.swift"
++ "/Library/Caches/com.apple.xbs/ADAC6BD2-4AA8-436F-A1F5-9F5F9EA845EE/TemporaryDirectory.ojnSap/Sources/UIKitCore/Sources/Controllers/UISplitViewController/Adaptive Impl/View/_UISplitViewControllerAdaptiveColumnView.swift"
++ "/Library/Caches/com.apple.xbs/ADAC6BD2-4AA8-436F-A1F5-9F5F9EA845EE/TemporaryDirectory.ojnSap/Sources/UIKitCore/Sources/Gestures/Force Level Classifiers/_UIForceLevelClassifier.m"
++ "/Library/Caches/com.apple.xbs/ADAC6BD2-4AA8-436F-A1F5-9F5F9EA845EE/TemporaryDirectory.ojnSap/Sources/UIKitCore/Sources/Views/UIView/UIView_ManagedContent.swift"
++ "/Library/Caches/com.apple.xbs/ADAC6BD2-4AA8-436F-A1F5-9F5F9EA845EE/TemporaryDirectory.ojnSap/Sources/UIKitCore/Sources/Views/UIView/UIView_ViewMasking.swift"
++ "@\"APSubject\""
++ "APSubject %@ unexpectedly does not support -requiresShielding"
++ "APViewSubject"
++ "APViewSubjectMonitorRegistry"
++ "BOOL _UIAPSubjectRequiresShielding(APSubject *__strong)"
++ "Class getAPViewSubjectClass(void)_block_invoke"
++ "Class getAPViewSubjectMonitorRegistryClass(void)_block_invoke"
++ "MenuMorphBackground"
++ "T@\"UIView\",N,W,VliftedContentView"
++ "_apSubject"
++ "_effectiveLayoutMargins"
++ "_initWithAPSubject:bundleIdentifierForAppIcon:localizedName:loggingIdentifier:"
++ "_preferredMenuUserInterfaceStyleForResolvedMorphable"
++ "apSubject"
++ "authenticateForExtension:reasonDescription:completion:"
++ "authenticateForViewSubject:reasonDescription:completion:"
++ "disableScrollToSelectionOnBecomeFirstResponder"
++ "effectiveContainer"
++ "effectiveContainerLocalizedName"
++ "id _UIAPCreateSubjectMonitorRegistry(APSubject *__strong, __strong id<APSubjectMonitor>)"
++ "initWithAPViewSubject:unlockButtonHidden:"
++ "initWithViewSubject:"
++ "letterKeyFontTextStyle"
++ "setAPSubject:"
++ "setDisableScrollToSelectionOnBecomeFirstResponder:"
++ "unable to request authentication for unknown APSubject class: %@"
++ "v24@0:8@\"APSubject\"16"
++ "variantKeySymbolHeightThreshold"
++ "variantKeySymbolMinSideMargin"
++ "void _UIAPGuardAuthenticateSubject(APSubject *__strong, NSString *__strong, void (^__strong)(BOOL, NSError * _Nullable __strong))"
++ "{?=\"needsScrollToSelectionAfterLayout\"b1\"disableScrollToSelectionOnBecomeFirstResponder\"b1\"editable\"b1\"reentrancyGuard\"b1\"usesExplicitPreferredMaxLayoutWidth\"b1\"interactiveSelectionDisabled\"b1\"selectable\"b1\"shouldPresentSheetsInAWindowLayeredAboveTheKeyboard\"b1\"shouldAutoscrollAboveBottom\"b1\"containerViewSizeInvalid\"b1\"isAnimatingPaste\"b1\"textSizeCacheEnabled\"b1\"showsEditMenu\"b1\"transitioningFromNSTextLayoutManagerToNSLayoutManager\"b1\"extremeSizingEnabled\"b1\"sizingRule\"b1\"wantsContentAwareTypesettingLanguage\"b1\"customRenderControllerCanEnumerateTextSegments\"b1\"customRenderControllerCanCheckFragmentsValid\"b1\"customRenderControllerCanSetTextDidEditRange\"b1\"customRenderControllerCanConvertPointToTextAnimationsCoordinateSpace\"b1\"customRenderControllerCanConvertPointToRenderSpace\"b1\"customRenderControllerCanConvertPointFromRenderSpace\"b1\"customRenderControllerCanConvertPointToRenderSpaceWithPosition\"b1\"customRenderControllerTextAnimatorForAnimation\"b1\"customRenderControllerCustomTextBounds\"b1\"delegateDidChangeCustomRenderBounds\"b1\"hasOverrideOfInsertTextSuggestion\"b1\"delegateWillBeginTextAssistantSession\"b1\"delegateDidEndTextAssistantSession\"b1\"delegateWritingToolsWillBegin\"b1\"delegateWritingToolsDidEnd\"b1\"delegateWritingToolsIgnoredRanges\"b1\"delegateWritingToolsUndoCoalescingWillBegin\"b1\"delegateWritingToolsUndoCoalescingDidEnd\"b1\"textStorageOverridesReplaceCharactersInRangeWithAttributedString\"b1\"didSetSupportsAdaptiveImageGlyph\"b1\"didCacheSupportsImagePaste\"b1\"supportsImagePasteCached\"b1\"delegateRespondsToTextViewEditMenuForTextInRangeSuggestedActions\"b1\"delegateRespondsToTextViewEditMenuForTextInRangesSuggestedActions\"b1}"
+- "/AppleInternal/Library/BuildRoots/4~CIdWugAZTLNPKwUsjZEfOb3JJOhYxCCJdKRS1sY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/nth_element.h:122: libc++ Hardening assertion __i != __last failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CIdWugAZTLNPKwUsjZEfOb3JJOhYxCCJdKRS1sY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/nth_element.h:127: libc++ Hardening assertion __j != __first failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CIdWugAZTLNPKwUsjZEfOb3JJOhYxCCJdKRS1sY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/nth_element.h:158: libc++ Hardening assertion __i != __last failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CIdWugAZTLNPKwUsjZEfOb3JJOhYxCCJdKRS1sY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/nth_element.h:164: libc++ Hardening assertion __j != __first failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CIdWugAZTLNPKwUsjZEfOb3JJOhYxCCJdKRS1sY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:293: libc++ Hardening assertion __k != __leftmost failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CIdWugAZTLNPKwUsjZEfOb3JJOhYxCCJdKRS1sY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:512: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CIdWugAZTLNPKwUsjZEfOb3JJOhYxCCJdKRS1sY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:525: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CIdWugAZTLNPKwUsjZEfOb3JJOhYxCCJdKRS1sY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:669: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CIdWugAZTLNPKwUsjZEfOb3JJOhYxCCJdKRS1sY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:682: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CIdWugAZTLNPKwUsjZEfOb3JJOhYxCCJdKRS1sY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:692: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CIdWugAZTLNPKwUsjZEfOb3JJOhYxCCJdKRS1sY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:697: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CIdWugAZTLNPKwUsjZEfOb3JJOhYxCCJdKRS1sY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__bit_reference:111: libc++ Hardening assertion __ctz + __clz < sizeof(_StorageType) * 8 failed: __fill_masked_range called with invalid range\n"
+- "/AppleInternal/Library/BuildRoots/4~CIdWugAZTLNPKwUsjZEfOb3JJOhYxCCJdKRS1sY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__hash_table:1892: libc++ Hardening assertion __p != end() failed: unordered container::erase(iterator) called with a non-dereferenceable iterator\n"
+- "/AppleInternal/Library/BuildRoots/4~CIdWugAZTLNPKwUsjZEfOb3JJOhYxCCJdKRS1sY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__utility/is_pointer_in_range.h:38: libc++ Hardening assertion std::__is_valid_range(__begin, __end) failed: [__begin, __end) is not a valid range\n"
+- "/AppleInternal/Library/BuildRoots/4~CIdWugAZTLNPKwUsjZEfOb3JJOhYxCCJdKRS1sY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:1162: libc++ Hardening assertion __position != end() failed: vector::erase(iterator) called with a non-dereferenceable iterator\n"
+- "/AppleInternal/Library/BuildRoots/4~CIdWugAZTLNPKwUsjZEfOb3JJOhYxCCJdKRS1sY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:1172: libc++ Hardening assertion __first <= __last failed: vector::erase(first, last) called with invalid range\n"
+- "/AppleInternal/Library/BuildRoots/4~CIdWugAZTLNPKwUsjZEfOb3JJOhYxCCJdKRS1sY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CIdWugAZTLNPKwUsjZEfOb3JJOhYxCCJdKRS1sY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:410: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CIdWugAZTLNPKwUsjZEfOb3JJOhYxCCJdKRS1sY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:429: libc++ Hardening assertion !empty() failed: front() called on an empty vector\n"
+- "/AppleInternal/Library/BuildRoots/4~CIdWugAZTLNPKwUsjZEfOb3JJOhYxCCJdKRS1sY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector_bool.h:282: libc++ Hardening assertion __n < size() failed: vector<bool>::operator[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CIdWugAZTLNPKwUsjZEfOb3JJOhYxCCJdKRS1sY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:1522: libc++ Hardening assertion __i < size() failed: deque::operator[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CIdWugAZTLNPKwUsjZEfOb3JJOhYxCCJdKRS1sY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:2296: libc++ Hardening assertion !empty() failed: deque::pop_front called on an empty deque\n"
+- "/AppleInternal/Library/BuildRoots/4~CIdWugAZTLNPKwUsjZEfOb3JJOhYxCCJdKRS1sY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:2464: libc++ Hardening assertion __f <= __l failed: deque::erase(first, last) called with an invalid range\n"
+- "/Library/Caches/com.apple.xbs/EF585AF3-0B43-4701-99E7-EA5D211119DD/TemporaryDirectory.UtAgJS/Sources/UIKitCore/Sources/Controllers/UISplitViewController/Adaptive Impl/Layout/_UISplitViewControllerAdaptiveLayoutTransition.swift"
+- "/Library/Caches/com.apple.xbs/EF585AF3-0B43-4701-99E7-EA5D211119DD/TemporaryDirectory.UtAgJS/Sources/UIKitCore/Sources/Controllers/UISplitViewController/Adaptive Impl/Layout/_UISplitViewControllerAdaptivePanelLayout.swift"
+- "/Library/Caches/com.apple.xbs/EF585AF3-0B43-4701-99E7-EA5D211119DD/TemporaryDirectory.UtAgJS/Sources/UIKitCore/Sources/Controllers/UISplitViewController/Adaptive Impl/View/_UISplitViewControllerAdaptiveColumnView.swift"
+- "/Library/Caches/com.apple.xbs/EF585AF3-0B43-4701-99E7-EA5D211119DD/TemporaryDirectory.UtAgJS/Sources/UIKitCore/Sources/Gestures/Force Level Classifiers/_UIForceLevelClassifier.m"
+- "/Library/Caches/com.apple.xbs/EF585AF3-0B43-4701-99E7-EA5D211119DD/TemporaryDirectory.UtAgJS/Sources/UIKitCore/Sources/Views/UIView/UIView_ManagedContent.swift"
+- "/Library/Caches/com.apple.xbs/EF585AF3-0B43-4701-99E7-EA5D211119DD/TemporaryDirectory.UtAgJS/Sources/UIKitCore/Sources/Views/UIView/UIView_ViewMasking.swift"
+- "T@\"UIView\",N,&,VliftedContentView"
+- "_apExtension"
+- "_bundleIdentifierForExtension"
+- "_initWithAPExtension:bundleIdentifierForAppIcon:localizedName:bundleIdentifierForExtension:"
+- "apExtension"
+- "setAPExtension:"
+- "v24@0:8@\"APExtension\"16"
+- "{?=\"needsScrollToSelectionAfterLayout\"b1\"editable\"b1\"reentrancyGuard\"b1\"usesExplicitPreferredMaxLayoutWidth\"b1\"interactiveSelectionDisabled\"b1\"selectable\"b1\"shouldPresentSheetsInAWindowLayeredAboveTheKeyboard\"b1\"shouldAutoscrollAboveBottom\"b1\"containerViewSizeInvalid\"b1\"isAnimatingPaste\"b1\"textSizeCacheEnabled\"b1\"showsEditMenu\"b1\"transitioningFromNSTextLayoutManagerToNSLayoutManager\"b1\"extremeSizingEnabled\"b1\"sizingRule\"b1\"wantsContentAwareTypesettingLanguage\"b1\"customRenderControllerCanEnumerateTextSegments\"b1\"customRenderControllerCanCheckFragmentsValid\"b1\"customRenderControllerCanSetTextDidEditRange\"b1\"customRenderControllerCanConvertPointToTextAnimationsCoordinateSpace\"b1\"customRenderControllerCanConvertPointToRenderSpace\"b1\"customRenderControllerCanConvertPointFromRenderSpace\"b1\"customRenderControllerCanConvertPointToRenderSpaceWithPosition\"b1\"customRenderControllerTextAnimatorForAnimation\"b1\"customRenderControllerCustomTextBounds\"b1\"delegateDidChangeCustomRenderBounds\"b1\"hasOverrideOfInsertTextSuggestion\"b1\"delegateWillBeginTextAssistantSession\"b1\"delegateDidEndTextAssistantSession\"b1\"delegateWritingToolsWillBegin\"b1\"delegateWritingToolsDidEnd\"b1\"delegateWritingToolsIgnoredRanges\"b1\"delegateWritingToolsUndoCoalescingWillBegin\"b1\"delegateWritingToolsUndoCoalescingDidEnd\"b1\"textStorageOverridesReplaceCharactersInRangeWithAttributedString\"b1\"didSetSupportsAdaptiveImageGlyph\"b1\"didCacheSupportsImagePaste\"b1\"supportsImagePasteCached\"b1\"delegateRespondsToTextViewEditMenuForTextInRangeSuggestedActions\"b1\"delegateRespondsToTextViewEditMenuForTextInRangesSuggestedActions\"b1}"
+
+```

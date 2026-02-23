@@ -1,0 +1,261 @@
+## libquic.dylib
+
+> `/usr/lib/libquic.dylib`
+
+```diff
+
+-5812.100.360.0.2
+-  __TEXT.__text: 0xca34c
++5812.100.384.0.0
++  __TEXT.__text: 0xc9bd0
+   __TEXT.__auth_stubs: 0x1ab0
+   __TEXT.__objc_methlist: 0x244
+   __TEXT.__const: 0x3c5
+-  __TEXT.__cstring: 0x8756
+-  __TEXT.__oslogstring: 0x112cd
+-  __TEXT.__unwind_info: 0xda8
++  __TEXT.__cstring: 0x8697
++  __TEXT.__oslogstring: 0x1129e
++  __TEXT.__unwind_info: 0xd80
+   __TEXT.__objc_classname: 0xa
+   __TEXT.__objc_methname: 0x7e6
+   __TEXT.__objc_methtype: 0xcb9
+
+   - /System/Library/Frameworks/Security.framework/Security
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A3EE0F2B-FB80-39D8-8B50-9F5A21E37517
++  UUID: F71F9BB0-070A-325C-B454-A71EFE6390D1
+   Functions: 1147
+   Symbols:   3142
+-  CStrings:  2831
++  CStrings:  2823
+ 
+Symbols:
++ _____quic_signpost_is_enabled_block_invoke.2729
++ _____quic_signpost_is_enabled_block_invoke.3230
++ _____quic_signpost_is_enabled_block_invoke.3750
++ _____quic_signpost_is_enabled_block_invoke.3987
++ _____quic_signpost_is_enabled_block_invoke.4831
++ ___block_descriptor_tmp.101.3865
++ ___block_descriptor_tmp.11.4082
++ ___block_descriptor_tmp.12.2738
++ ___block_descriptor_tmp.12.3603
++ ___block_descriptor_tmp.13.2251
++ ___block_descriptor_tmp.13.3609
++ ___block_descriptor_tmp.13.4053
++ ___block_descriptor_tmp.14.2277
++ ___block_descriptor_tmp.14.2671
++ ___block_descriptor_tmp.14.3142
++ ___block_descriptor_tmp.148.4315
++ ___block_descriptor_tmp.149.4321
++ ___block_descriptor_tmp.15.3646
++ ___block_descriptor_tmp.15.3887
++ ___block_descriptor_tmp.15.4886
++ ___block_descriptor_tmp.16.3327
++ ___block_descriptor_tmp.160.4330
++ ___block_descriptor_tmp.161.4333
++ ___block_descriptor_tmp.166.4338
++ ___block_descriptor_tmp.167.4342
++ ___block_descriptor_tmp.1806
++ ___block_descriptor_tmp.1880
++ ___block_descriptor_tmp.19.4050
++ ___block_descriptor_tmp.1977
++ ___block_descriptor_tmp.20.4049
++ ___block_descriptor_tmp.2001
++ ___block_descriptor_tmp.21.3732
++ ___block_descriptor_tmp.21.3888
++ ___block_descriptor_tmp.2104
++ ___block_descriptor_tmp.2245
++ ___block_descriptor_tmp.2407
++ ___block_descriptor_tmp.2578
++ ___block_descriptor_tmp.26.4046
++ ___block_descriptor_tmp.2664
++ ___block_descriptor_tmp.27.2735
++ ___block_descriptor_tmp.27.3889
++ ___block_descriptor_tmp.28.2767
++ ___block_descriptor_tmp.2894
++ ___block_descriptor_tmp.30.1883
++ ___block_descriptor_tmp.30.2736
++ ___block_descriptor_tmp.3021
++ ___block_descriptor_tmp.31.2759
++ ___block_descriptor_tmp.31.4043
++ ___block_descriptor_tmp.32.4042
++ ___block_descriptor_tmp.33.3890
++ ___block_descriptor_tmp.3395
++ ___block_descriptor_tmp.34.2755
++ ___block_descriptor_tmp.3514
++ ___block_descriptor_tmp.37.3748
++ ___block_descriptor_tmp.37.4039
++ ___block_descriptor_tmp.38.3891
++ ___block_descriptor_tmp.40.2737
++ ___block_descriptor_tmp.4057
++ ___block_descriptor_tmp.41.4036
++ ___block_descriptor_tmp.45.4033
++ ___block_descriptor_tmp.4565
++ ___block_descriptor_tmp.46.3892
++ ___block_descriptor_tmp.4607
++ ___block_descriptor_tmp.4671
++ ___block_descriptor_tmp.48.3920
++ ___block_descriptor_tmp.4829
++ ___block_descriptor_tmp.5.2328
++ ___block_descriptor_tmp.5.3472
++ ___block_descriptor_tmp.5.3528
++ ___block_descriptor_tmp.54.3893
++ ___block_descriptor_tmp.56.2676
++ ___block_descriptor_tmp.56.3894
++ ___block_descriptor_tmp.58.3895
++ ___block_descriptor_tmp.6.3228
++ ___block_descriptor_tmp.6.3848
++ ___block_descriptor_tmp.7.4081
++ ___block_descriptor_tmp.76.3904
++ ___block_descriptor_tmp.78.2813
++ ___block_descriptor_tmp.78.3896
++ ___block_descriptor_tmp.8.2662
++ ___block_descriptor_tmp.80.3901
++ ___block_descriptor_tmp.81.3897
++ ___block_descriptor_tmp.82.2787
++ ___block_descriptor_tmp.83.3898
++ ___block_descriptor_tmp.84.4093
++ ___block_descriptor_tmp.91.4114
++ ___block_literal_global.1804
++ ___block_literal_global.1999
++ ___block_literal_global.2102
++ ___block_literal_global.2405
++ ___block_literal_global.2576
++ ___block_literal_global.2725
++ ___block_literal_global.3224
++ ___block_literal_global.3741
++ ___block_literal_global.3847
++ ___block_literal_global.4669
++ ___block_literal_global.4816
++ ___quic_signpost_is_enabled._quic_signposts_enabled.2726
++ ___quic_signpost_is_enabled._quic_signposts_enabled.3225
++ ___quic_signpost_is_enabled._quic_signposts_enabled.3742
++ ___quic_signpost_is_enabled._quic_signposts_enabled.3985
++ ___quic_signpost_is_enabled._quic_signposts_enabled.4817
++ ___quic_signpost_is_enabled._quic_signposts_once.2724
++ ___quic_signpost_is_enabled._quic_signposts_once.3223
++ ___quic_signpost_is_enabled._quic_signposts_once.3740
++ ___quic_signpost_is_enabled._quic_signposts_once.3984
++ ___quic_signpost_is_enabled._quic_signposts_once.4815
++ _quic_conn_set_current_path
+- _____quic_signpost_is_enabled_block_invoke.2731
+- _____quic_signpost_is_enabled_block_invoke.3232
+- _____quic_signpost_is_enabled_block_invoke.3752
+- _____quic_signpost_is_enabled_block_invoke.3989
+- _____quic_signpost_is_enabled_block_invoke.4833
+- ___block_descriptor_tmp.101.3867
+- ___block_descriptor_tmp.11.4084
+- ___block_descriptor_tmp.12.2740
+- ___block_descriptor_tmp.12.3605
+- ___block_descriptor_tmp.13.2253
+- ___block_descriptor_tmp.13.3611
+- ___block_descriptor_tmp.13.4055
+- ___block_descriptor_tmp.14.2279
+- ___block_descriptor_tmp.14.2673
+- ___block_descriptor_tmp.14.3144
+- ___block_descriptor_tmp.148.4317
+- ___block_descriptor_tmp.149.4323
+- ___block_descriptor_tmp.15.3648
+- ___block_descriptor_tmp.15.3889
+- ___block_descriptor_tmp.15.4888
+- ___block_descriptor_tmp.16.3329
+- ___block_descriptor_tmp.160.4332
+- ___block_descriptor_tmp.161.4335
+- ___block_descriptor_tmp.166.4340
+- ___block_descriptor_tmp.167.4344
+- ___block_descriptor_tmp.1808
+- ___block_descriptor_tmp.1882
+- ___block_descriptor_tmp.19.4052
+- ___block_descriptor_tmp.1979
+- ___block_descriptor_tmp.20.4051
+- ___block_descriptor_tmp.2003
+- ___block_descriptor_tmp.21.3734
+- ___block_descriptor_tmp.21.3890
+- ___block_descriptor_tmp.2106
+- ___block_descriptor_tmp.2247
+- ___block_descriptor_tmp.2409
+- ___block_descriptor_tmp.2580
+- ___block_descriptor_tmp.26.4048
+- ___block_descriptor_tmp.2666
+- ___block_descriptor_tmp.27.2737
+- ___block_descriptor_tmp.27.3891
+- ___block_descriptor_tmp.28.2769
+- ___block_descriptor_tmp.2896
+- ___block_descriptor_tmp.30.1885
+- ___block_descriptor_tmp.30.2738
+- ___block_descriptor_tmp.3023
+- ___block_descriptor_tmp.31.2761
+- ___block_descriptor_tmp.31.4045
+- ___block_descriptor_tmp.32.4044
+- ___block_descriptor_tmp.33.3892
+- ___block_descriptor_tmp.3397
+- ___block_descriptor_tmp.34.2757
+- ___block_descriptor_tmp.3516
+- ___block_descriptor_tmp.37.3750
+- ___block_descriptor_tmp.37.4041
+- ___block_descriptor_tmp.38.3893
+- ___block_descriptor_tmp.40.2739
+- ___block_descriptor_tmp.4059
+- ___block_descriptor_tmp.41.4038
+- ___block_descriptor_tmp.45.4035
+- ___block_descriptor_tmp.4567
+- ___block_descriptor_tmp.46.3894
+- ___block_descriptor_tmp.4609
+- ___block_descriptor_tmp.4673
+- ___block_descriptor_tmp.48.3922
+- ___block_descriptor_tmp.4831
+- ___block_descriptor_tmp.5.2330
+- ___block_descriptor_tmp.5.3474
+- ___block_descriptor_tmp.5.3530
+- ___block_descriptor_tmp.54.3895
+- ___block_descriptor_tmp.56.2678
+- ___block_descriptor_tmp.56.3896
+- ___block_descriptor_tmp.58.3897
+- ___block_descriptor_tmp.6.3230
+- ___block_descriptor_tmp.6.3850
+- ___block_descriptor_tmp.7.4083
+- ___block_descriptor_tmp.76.3906
+- ___block_descriptor_tmp.78.2815
+- ___block_descriptor_tmp.78.3898
+- ___block_descriptor_tmp.8.2664
+- ___block_descriptor_tmp.80.3903
+- ___block_descriptor_tmp.81.3899
+- ___block_descriptor_tmp.82.2789
+- ___block_descriptor_tmp.83.3900
+- ___block_descriptor_tmp.84.4095
+- ___block_descriptor_tmp.91.4116
+- ___block_literal_global.1806
+- ___block_literal_global.2001
+- ___block_literal_global.2104
+- ___block_literal_global.2407
+- ___block_literal_global.2578
+- ___block_literal_global.2727
+- ___block_literal_global.3226
+- ___block_literal_global.3743
+- ___block_literal_global.3849
+- ___block_literal_global.4671
+- ___block_literal_global.4818
+- ___quic_signpost_is_enabled._quic_signposts_enabled.2728
+- ___quic_signpost_is_enabled._quic_signposts_enabled.3227
+- ___quic_signpost_is_enabled._quic_signposts_enabled.3744
+- ___quic_signpost_is_enabled._quic_signposts_enabled.3987
+- ___quic_signpost_is_enabled._quic_signposts_enabled.4819
+- ___quic_signpost_is_enabled._quic_signposts_once.2726
+- ___quic_signpost_is_enabled._quic_signposts_once.3225
+- ___quic_signpost_is_enabled._quic_signposts_once.3742
+- ___quic_signpost_is_enabled._quic_signposts_once.3986
+- ___quic_signpost_is_enabled._quic_signposts_once.4817
+- __quic_path_retain
+CStrings:
+- "%{public}s %p refcount %llu -> %llu from %s:%u"
+- "_quic_path_retain"
+- "qpod_conn_free"
+- "qpod_conn_free_block_invoke"
+- "quic_conn_destroy_block_invoke"
+- "quic_conn_destroy_block_invoke_2"
+- "quic_conn_migrate_to_path_block_invoke"
+- "quic_conn_set_current_path"
+
+```

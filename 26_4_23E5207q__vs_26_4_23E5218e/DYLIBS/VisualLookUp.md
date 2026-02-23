@@ -1,0 +1,695 @@
+## VisualLookUp
+
+> `/System/Library/PrivateFrameworks/VisualLookUp.framework/VisualLookUp`
+
+```diff
+
+-5.4.73.0.0
+-  __TEXT.__text: 0x530eb4
+-  __TEXT.__auth_stubs: 0x5400
++5.4.75.0.0
++  __TEXT.__text: 0x510868
++  __TEXT.__auth_stubs: 0x54b0
+   __TEXT.__objc_methlist: 0x442c
+-  __TEXT.__const: 0x37750
+-  __TEXT.__cstring: 0x178e5
+-  __TEXT.__oslogstring: 0x8524
++  __TEXT.__const: 0x35a90
++  __TEXT.__cstring: 0x17855
++  __TEXT.__oslogstring: 0x8754
+   __TEXT.__gcc_except_tab: 0x3ea4
+-  __TEXT.__constg_swiftt: 0xb10c
+-  __TEXT.__swift5_typeref: 0xa533
+-  __TEXT.__swift5_reflstr: 0x9d68
+-  __TEXT.__swift5_fieldmd: 0xc8dc
++  __TEXT.__constg_swiftt: 0xad84
++  __TEXT.__swift5_typeref: 0xa10b
++  __TEXT.__swift5_reflstr: 0x9e58
++  __TEXT.__swift5_fieldmd: 0xc4d4
+   __TEXT.__swift5_builtin: 0x17c
+-  __TEXT.__swift5_assocty: 0xbc8
++  __TEXT.__swift5_assocty: 0xb68
+   __TEXT.__swift5_capture: 0x1d24
+-  __TEXT.__swift5_proto: 0x2e38
+-  __TEXT.__swift5_types: 0xd48
++  __TEXT.__swift5_proto: 0x2c7c
++  __TEXT.__swift5_types: 0xcf4
+   __TEXT.__swift5_protos: 0x88
+   __TEXT.__swift_as_entry: 0xb0
+   __TEXT.__swift_as_ret: 0xc0
+   __TEXT.__swift5_mpenum: 0x40
+-  __TEXT.__unwind_info: 0x117a8
+-  __TEXT.__eh_frame: 0x19068
+-  __TEXT.__objc_classname: 0x25e2
+-  __TEXT.__objc_methname: 0xc649
++  __TEXT.__unwind_info: 0x10ee8
++  __TEXT.__eh_frame: 0x18458
++  __TEXT.__objc_classname: 0x25c2
++  __TEXT.__objc_methname: 0xc6a9
+   __TEXT.__objc_methtype: 0x28c7
+   __TEXT.__objc_stubs: 0x5dc0
+-  __DATA_CONST.__got: 0x13b0
+-  __DATA_CONST.__const: 0x2d00
++  __DATA_CONST.__got: 0x13c8
++  __DATA_CONST.__const: 0x2b30
+   __DATA_CONST.__objc_classlist: 0x6e0
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x130
+
+   __DATA_CONST.__objc_protorefs: 0x58
+   __DATA_CONST.__objc_superrefs: 0x258
+   __DATA_CONST.__objc_arraydata: 0x20
+-  __AUTH_CONST.__auth_got: 0x2a18
+-  __AUTH_CONST.__const: 0x14880
++  __AUTH_CONST.__auth_got: 0x2a70
++  __AUTH_CONST.__const: 0x14540
+   __AUTH_CONST.__cfstring: 0x2000
+-  __AUTH_CONST.__objc_const: 0x118d0
++  __AUTH_CONST.__objc_const: 0x11870
+   __AUTH_CONST.__objc_intobj: 0x18
+   __AUTH_CONST.__objc_arrayobj: 0x18
+   __AUTH.__objc_data: 0x15f0
+-  __AUTH.__data: 0xca70
++  __AUTH.__data: 0xc000
+   __DATA.__objc_ivar: 0x544
+-  __DATA.__data: 0xb480
+-  __DATA.__bss: 0x4cab0
++  __DATA.__data: 0xab58
++  __DATA.__bss: 0x49330
+   __DATA.__common: 0x738
+   __DATA_DIRTY.__objc_data: 0x1818
+-  __DATA_DIRTY.__data: 0xba80
++  __DATA_DIRTY.__data: 0xba90
+   __DATA_DIRTY.__bss: 0xc110
+   __DATA_DIRTY.__common: 0x858
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A61621D1-0076-3C3A-BF48-28F37AD47F59
+-  Functions: 26524
+-  Symbols:   13409
++  UUID: CFD3E647-BCD9-3196-ADDE-989CC01D45A7
++  Functions: 25639
++  Symbols:   13271
+   CStrings:  5988
+ 
+Symbols:
++ __DATA__TtCV12VisualLookUp17Tie_FinalResponseP33_A360E3B1225E0EA7263E7D7AD73F11FC13_StorageClass
++ __IVARS__TtCV12VisualLookUp17Tie_FinalResponseP33_A360E3B1225E0EA7263E7D7AD73F11FC13_StorageClass
++ __METACLASS_DATA__TtCV12VisualLookUp17Tie_FinalResponseP33_A360E3B1225E0EA7263E7D7AD73F11FC13_StorageClass
++ ___swift_get_extra_inhabitant_index.1032Tm
++ ___swift_get_extra_inhabitant_index.1116Tm
++ ___swift_get_extra_inhabitant_index.1125Tm
++ ___swift_get_extra_inhabitant_index.1134Tm
++ ___swift_get_extra_inhabitant_index.1225Tm
++ ___swift_get_extra_inhabitant_index.1356Tm
++ ___swift_get_extra_inhabitant_index.1470Tm
++ ___swift_get_extra_inhabitant_index.1563Tm
++ ___swift_get_extra_inhabitant_index.489Tm
++ ___swift_get_extra_inhabitant_index.532Tm
++ ___swift_get_extra_inhabitant_index.559Tm
++ ___swift_get_extra_inhabitant_index.586Tm
++ ___swift_get_extra_inhabitant_index.604Tm
++ ___swift_get_extra_inhabitant_index.658Tm
++ ___swift_get_extra_inhabitant_index.703Tm
++ ___swift_get_extra_inhabitant_index.802Tm
++ ___swift_get_extra_inhabitant_index.865Tm
++ ___swift_get_extra_inhabitant_index.874Tm
++ ___swift_get_extra_inhabitant_index.932Tm
++ ___swift_get_extra_inhabitant_index.947Tm
++ ___swift_store_extra_inhabitant_index.1033Tm
++ ___swift_store_extra_inhabitant_index.1117Tm
++ ___swift_store_extra_inhabitant_index.1126Tm
++ ___swift_store_extra_inhabitant_index.1135Tm
++ ___swift_store_extra_inhabitant_index.1226Tm
++ ___swift_store_extra_inhabitant_index.1357Tm
++ ___swift_store_extra_inhabitant_index.1471Tm
++ ___swift_store_extra_inhabitant_index.1564Tm
++ ___swift_store_extra_inhabitant_index.490Tm
++ ___swift_store_extra_inhabitant_index.533Tm
++ ___swift_store_extra_inhabitant_index.560Tm
++ ___swift_store_extra_inhabitant_index.587Tm
++ ___swift_store_extra_inhabitant_index.605Tm
++ ___swift_store_extra_inhabitant_index.659Tm
++ ___swift_store_extra_inhabitant_index.704Tm
++ ___swift_store_extra_inhabitant_index.803Tm
++ ___swift_store_extra_inhabitant_index.866Tm
++ ___swift_store_extra_inhabitant_index.875Tm
++ ___swift_store_extra_inhabitant_index.933Tm
++ ___swift_store_extra_inhabitant_index.948Tm
++ _associated conformance 12VisualLookUp09Tie_EndToE15ComponentMetricV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 12VisualLookUp09Tie_EndToE15ComponentMetricV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
++ _associated conformance 12VisualLookUp09Tie_EndToE15ComponentMetricV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 12VisualLookUp09Tie_EndToE15ComponentMetricVSHAASQ
++ _associated conformance 12VisualLookUp09Tie_EndToE16ComponentMetricsV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 12VisualLookUp09Tie_EndToE16ComponentMetricsV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
++ _associated conformance 12VisualLookUp09Tie_EndToE16ComponentMetricsV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 12VisualLookUp09Tie_EndToE16ComponentMetricsVSHAASQ
++ _associated conformance 12VisualLookUp29Tie_MultiGroupRequestMetadataV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 12VisualLookUp29Tie_MultiGroupRequestMetadataV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
++ _associated conformance 12VisualLookUp29Tie_MultiGroupRequestMetadataV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 12VisualLookUp29Tie_MultiGroupRequestMetadataVSHAASQ
++ _associated conformance 12VisualLookUp30Tie_MultiGroupResponseMetadataV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 12VisualLookUp30Tie_MultiGroupResponseMetadataV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
++ _associated conformance 12VisualLookUp30Tie_MultiGroupResponseMetadataV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 12VisualLookUp30Tie_MultiGroupResponseMetadataVSHAASQ
++ _keypath_get.147Tm
++ _keypath_get.229Tm
++ _keypath_get.235Tm
++ _keypath_get.237Tm
++ _keypath_get.239Tm
++ _keypath_get.241Tm
++ _keypath_get.245Tm
++ _keypath_get.255Tm
++ _keypath_get.257Tm
++ _keypath_get.259Tm
++ _keypath_get.261Tm
++ _keypath_get.273Tm
++ _keypath_get.281Tm
++ _keypath_get.287Tm
++ _keypath_get.343Tm
++ _keypath_get.357Tm
++ _keypath_get.363Tm
++ _keypath_get.369Tm
++ _keypath_get.371Tm
++ _keypath_get.373Tm
++ _keypath_get.381Tm
++ _keypath_get.409Tm
++ _keypath_get.413Tm
++ _keypath_get.483Tm
++ _keypath_get.485Tm
++ _keypath_get.505Tm
++ _keypath_get.581Tm
++ _keypath_get.643Tm
++ _keypath_set.148Tm
++ _keypath_set.236Tm
++ _keypath_set.238Tm
++ _keypath_set.240Tm
++ _keypath_set.242Tm
++ _keypath_set.246Tm
++ _keypath_set.256Tm
++ _keypath_set.258Tm
++ _keypath_set.260Tm
++ _keypath_set.262Tm
++ _keypath_set.274Tm
++ _keypath_set.282Tm
++ _keypath_set.288Tm
++ _keypath_set.344Tm
++ _keypath_set.358Tm
++ _keypath_set.370Tm
++ _keypath_set.372Tm
++ _keypath_set.374Tm
++ _keypath_set.382Tm
++ _keypath_set.410Tm
++ _keypath_set.414Tm
++ _keypath_set.484Tm
++ _keypath_set.486Tm
++ _keypath_set.506Tm
++ _keypath_set.582Tm
++ _keypath_set.856Tm
++ _symbolic SS_Sft
++ _symbolic Say_____G 12VisualLookUp09Tie_EndToE15ComponentMetricV
++ _symbolic _____ 12VisualLookUp09Tie_EndToE15ComponentMetricV
++ _symbolic _____ 12VisualLookUp09Tie_EndToE16ComponentMetricsV
++ _symbolic _____ 12VisualLookUp17Tie_FinalResponseV13_StorageClass33_A360E3B1225E0EA7263E7D7AD73F11FCLLC
++ _symbolic _____ 12VisualLookUp29Tie_MultiGroupRequestMetadataV
++ _symbolic _____ 12VisualLookUp30Tie_MultiGroupResponseMetadataV
++ _symbolic _____Sg 12VisualLookUp09Tie_EndToE16ComponentMetricsV
++ _symbolic _____Sg 12VisualLookUp29Tie_MultiGroupRequestMetadataV
++ _symbolic _____Sg 12VisualLookUp30Tie_MultiGroupResponseMetadataV
++ _symbolic _____Sg_ABt 12VisualLookUp29Tie_MultiGroupRequestMetadataV
++ _symbolic _____Sg_ABt 12VisualLookUp30Tie_MultiGroupResponseMetadataV
++ _symbolic ______p 10Foundation15ContiguousBytesP
++ _symbolic ______p s19_HasContiguousBytesP
++ _symbolic ______pSg 10Foundation15ContiguousBytesP
++ _symbolic ______pSg s19_HasContiguousBytesP
++ _symbolic _____m 12VisualLookUp09Tie_EndToE15ComponentMetricV
++ _symbolic _____m 12VisualLookUp09Tie_EndToE16ComponentMetricsV
++ _symbolic _____m 12VisualLookUp29Tie_MultiGroupRequestMetadataV
++ _symbolic _____m 12VisualLookUp30Tie_MultiGroupResponseMetadataV
+- __DATA__TtCVVV12VisualLookUp20Tie_GenerateResponse13FinalResponse9DebugInfoP33_A360E3B1225E0EA7263E7D7AD73F11FC13_StorageClass
+- __IVARS__TtCVVV12VisualLookUp20Tie_GenerateResponse13FinalResponse9DebugInfoP33_A360E3B1225E0EA7263E7D7AD73F11FC13_StorageClass
+- __METACLASS_DATA__TtCVVV12VisualLookUp20Tie_GenerateResponse13FinalResponse9DebugInfoP33_A360E3B1225E0EA7263E7D7AD73F11FC13_StorageClass
+- ___swift_get_extra_inhabitant_index.1004Tm
+- ___swift_get_extra_inhabitant_index.1164Tm
+- ___swift_get_extra_inhabitant_index.1182Tm
+- ___swift_get_extra_inhabitant_index.1191Tm
+- ___swift_get_extra_inhabitant_index.1223Tm
+- ___swift_get_extra_inhabitant_index.1341Tm
+- ___swift_get_extra_inhabitant_index.1506Tm
+- ___swift_get_extra_inhabitant_index.1554Tm
+- ___swift_get_extra_inhabitant_index.1668Tm
+- ___swift_get_extra_inhabitant_index.1776Tm
+- ___swift_get_extra_inhabitant_index.487Tm
+- ___swift_get_extra_inhabitant_index.530Tm
+- ___swift_get_extra_inhabitant_index.557Tm
+- ___swift_get_extra_inhabitant_index.584Tm
+- ___swift_get_extra_inhabitant_index.602Tm
+- ___swift_get_extra_inhabitant_index.656Tm
+- ___swift_get_extra_inhabitant_index.701Tm
+- ___swift_get_extra_inhabitant_index.800Tm
+- ___swift_get_extra_inhabitant_index.863Tm
+- ___swift_get_extra_inhabitant_index.872Tm
+- ___swift_get_extra_inhabitant_index.989Tm
+- ___swift_store_extra_inhabitant_index.1005Tm
+- ___swift_store_extra_inhabitant_index.1165Tm
+- ___swift_store_extra_inhabitant_index.1183Tm
+- ___swift_store_extra_inhabitant_index.1192Tm
+- ___swift_store_extra_inhabitant_index.1224Tm
+- ___swift_store_extra_inhabitant_index.1342Tm
+- ___swift_store_extra_inhabitant_index.1507Tm
+- ___swift_store_extra_inhabitant_index.1555Tm
+- ___swift_store_extra_inhabitant_index.1669Tm
+- ___swift_store_extra_inhabitant_index.1777Tm
+- ___swift_store_extra_inhabitant_index.488Tm
+- ___swift_store_extra_inhabitant_index.531Tm
+- ___swift_store_extra_inhabitant_index.558Tm
+- ___swift_store_extra_inhabitant_index.585Tm
+- ___swift_store_extra_inhabitant_index.603Tm
+- ___swift_store_extra_inhabitant_index.657Tm
+- ___swift_store_extra_inhabitant_index.702Tm
+- ___swift_store_extra_inhabitant_index.801Tm
+- ___swift_store_extra_inhabitant_index.864Tm
+- ___swift_store_extra_inhabitant_index.873Tm
+- ___swift_store_extra_inhabitant_index.990Tm
+- _associated conformance 12VisualLookUp14Tie_MediaChunkV9DebugInfoV05AudioF7MetricsV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 12VisualLookUp14Tie_MediaChunkV9DebugInfoV05AudioF7MetricsV21InternalSwiftProtobuf26_MessageImplementationBaseAaH0N0
+- _associated conformance 12VisualLookUp14Tie_MediaChunkV9DebugInfoV05AudioF7MetricsV21InternalSwiftProtobuf7MessageAAs06CustomG17StringConvertible
+- _associated conformance 12VisualLookUp14Tie_MediaChunkV9DebugInfoV05AudioF7MetricsVSHAASQ
+- _associated conformance 12VisualLookUp15Tie_ModelConfigV25SpeechSynthesisParametersV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 12VisualLookUp15Tie_ModelConfigV25SpeechSynthesisParametersV21InternalSwiftProtobuf26_MessageImplementationBaseAaF0M0
+- _associated conformance 12VisualLookUp15Tie_ModelConfigV25SpeechSynthesisParametersV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 12VisualLookUp15Tie_ModelConfigV25SpeechSynthesisParametersVSHAASQ
+- _associated conformance 12VisualLookUp17Tie_AudioMetadataV0E6FormatO21InternalSwiftProtobuf4EnumAASH
+- _associated conformance 12VisualLookUp17Tie_AudioMetadataV0E6FormatO21InternalSwiftProtobuf4EnumAASY
+- _associated conformance 12VisualLookUp17Tie_AudioMetadataV0E6FormatOSHAASQ
+- _associated conformance 12VisualLookUp17Tie_AudioMetadataV0E6FormatOs12CaseIterableAA8AllCasessAFP_Sl
+- _associated conformance 12VisualLookUp17Tie_AudioMetadataV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 12VisualLookUp17Tie_AudioMetadataV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 12VisualLookUp17Tie_AudioMetadataV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 12VisualLookUp17Tie_AudioMetadataVSHAASQ
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV017InferenceCompleteF0V21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV017InferenceCompleteF0V21InternalSwiftProtobuf26_MessageImplementationBaseAaF0L0
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV017InferenceCompleteF0V21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV017InferenceCompleteF0VSHAASQ
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV020InferenceEnvironmentF0V21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV020InferenceEnvironmentF0V21InternalSwiftProtobuf26_MessageImplementationBaseAaF0L0
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV020InferenceEnvironmentF0V21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV020InferenceEnvironmentF0VSHAASQ
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV05FinalF0V20EncounteredStopTokenV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV05FinalF0V20EncounteredStopTokenV21InternalSwiftProtobuf26_MessageImplementationBaseAaH0N0
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV05FinalF0V20EncounteredStopTokenV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV05FinalF0V20EncounteredStopTokenVSHAASQ
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV05FinalF0V21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV05FinalF0V21InternalSwiftProtobuf26_MessageImplementationBaseAaF0K0
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV05FinalF0V21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV05FinalF0V23EncounteredStopSequenceV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV05FinalF0V23EncounteredStopSequenceV21InternalSwiftProtobuf26_MessageImplementationBaseAaH0N0
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV05FinalF0V23EncounteredStopSequenceV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV05FinalF0V23EncounteredStopSequenceVSHAASQ
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV05FinalF0V23OutputTokenLimitReachedV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV05FinalF0V23OutputTokenLimitReachedV21InternalSwiftProtobuf26_MessageImplementationBaseAaH0O0
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV05FinalF0V23OutputTokenLimitReachedV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV05FinalF0V23OutputTokenLimitReachedVSHAASQ
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV05FinalF0V29FinishedFirstTokenComputationV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV05FinalF0V29FinishedFirstTokenComputationV21InternalSwiftProtobuf26_MessageImplementationBaseAaH0O0
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV05FinalF0V29FinishedFirstTokenComputationV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV05FinalF0V29FinishedFirstTokenComputationVSHAASQ
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV05FinalF0V9DebugInfoV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV05FinalF0V9DebugInfoV21InternalSwiftProtobuf26_MessageImplementationBaseAaH0M0
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV05FinalF0V9DebugInfoV21InternalSwiftProtobuf7MessageAAs06CustomH17StringConvertible
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV05FinalF0V9DebugInfoVSHAASQ
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV05FinalF0VSHAASQ
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV06StatusF0V0G0O21InternalSwiftProtobuf4EnumAASH
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV06StatusF0V0G0O21InternalSwiftProtobuf4EnumAASY
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV06StatusF0V0G0OSHAASQ
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV06StatusF0V0G0Os12CaseIterableAA8AllCasessAHP_Sl
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV06StatusF0V17TokenLimitReachedV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV06StatusF0V17TokenLimitReachedV21InternalSwiftProtobuf26_MessageImplementationBaseAaH0N0
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV06StatusF0V17TokenLimitReachedV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV06StatusF0V17TokenLimitReachedVSHAASQ
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV06StatusF0V21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV06StatusF0V21InternalSwiftProtobuf26_MessageImplementationBaseAaF0K0
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV06StatusF0V21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV06StatusF0VSHAASQ
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV09NextTokenF0V21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV09NextTokenF0V21InternalSwiftProtobuf26_MessageImplementationBaseAaF0L0
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV09NextTokenF0V21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV09NextTokenF0VSHAASQ
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 12VisualLookUp20Tie_GenerateResponseVSHAASQ
+- _associated conformance 12VisualLookUp26Tie_AudioGenerationMetricsV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 12VisualLookUp26Tie_AudioGenerationMetricsV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0K0
+- _associated conformance 12VisualLookUp26Tie_AudioGenerationMetricsV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 12VisualLookUp26Tie_AudioGenerationMetricsVSHAASQ
+- _associated conformance 12VisualLookUp28Tie_MultiTurnRequestMetadataV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 12VisualLookUp28Tie_MultiTurnRequestMetadataV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
+- _associated conformance 12VisualLookUp28Tie_MultiTurnRequestMetadataV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 12VisualLookUp28Tie_MultiTurnRequestMetadataVSHAASQ
+- _associated conformance 12VisualLookUp29Tie_MultiTurnResponseMetadataV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 12VisualLookUp29Tie_MultiTurnResponseMetadataV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
+- _associated conformance 12VisualLookUp29Tie_MultiTurnResponseMetadataV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 12VisualLookUp29Tie_MultiTurnResponseMetadataVSHAASQ
+- _associated conformance 12VisualLookUp30Apple_Cloudos_Cloudllm_TurnKeyV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 12VisualLookUp30Apple_Cloudos_Cloudllm_TurnKeyV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
+- _associated conformance 12VisualLookUp30Apple_Cloudos_Cloudllm_TurnKeyV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 12VisualLookUp30Apple_Cloudos_Cloudllm_TurnKeyVSHAASQ
+- _associated conformance 12VisualLookUp31Apple_Cloudos_Cloudllm_TurnKeysV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 12VisualLookUp31Apple_Cloudos_Cloudllm_TurnKeysV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
+- _associated conformance 12VisualLookUp31Apple_Cloudos_Cloudllm_TurnKeysV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 12VisualLookUp31Apple_Cloudos_Cloudllm_TurnKeysVSHAASQ
+- _keypath_get.144Tm
+- _keypath_get.226Tm
+- _keypath_get.232Tm
+- _keypath_get.234Tm
+- _keypath_get.236Tm
+- _keypath_get.238Tm
+- _keypath_get.242Tm
+- _keypath_get.252Tm
+- _keypath_get.254Tm
+- _keypath_get.266Tm
+- _keypath_get.274Tm
+- _keypath_get.280Tm
+- _keypath_get.396Tm
+- _keypath_get.408Tm
+- _keypath_get.422Tm
+- _keypath_get.424Tm
+- _keypath_get.426Tm
+- _keypath_get.438Tm
+- _keypath_get.442Tm
+- _keypath_get.450Tm
+- _keypath_get.452Tm
+- _keypath_get.468Tm
+- _keypath_get.476Tm
+- _keypath_get.478Tm
+- _keypath_get.544Tm
+- _keypath_get.564Tm
+- _keypath_get.626Tm
+- _keypath_get.690Tm
+- _keypath_set.145Tm
+- _keypath_set.233Tm
+- _keypath_set.235Tm
+- _keypath_set.237Tm
+- _keypath_set.239Tm
+- _keypath_set.243Tm
+- _keypath_set.253Tm
+- _keypath_set.255Tm
+- _keypath_set.267Tm
+- _keypath_set.275Tm
+- _keypath_set.281Tm
+- _keypath_set.397Tm
+- _keypath_set.409Tm
+- _keypath_set.423Tm
+- _keypath_set.425Tm
+- _keypath_set.427Tm
+- _keypath_set.439Tm
+- _keypath_set.443Tm
+- _keypath_set.453Tm
+- _keypath_set.469Tm
+- _keypath_set.477Tm
+- _keypath_set.479Tm
+- _keypath_set.545Tm
+- _keypath_set.565Tm
+- _keypath_set.627Tm
+- _keypath_set.913Tm
+- _symbolic Say_____G 12VisualLookUp17Tie_AudioMetadataV0E6FormatO
+- _symbolic Say_____G 12VisualLookUp20Tie_GenerateResponseV06StatusF0V0G0O
+- _symbolic Say_____G 12VisualLookUp30Apple_Cloudos_Cloudllm_TurnKeyV
+- _symbolic _____ 12VisualLookUp14Tie_MediaChunkV9DebugInfoV05AudioF7MetricsV
+- _symbolic _____ 12VisualLookUp15Tie_ModelConfigV25SpeechSynthesisParametersV
+- _symbolic _____ 12VisualLookUp17Tie_AudioMetadataV
+- _symbolic _____ 12VisualLookUp17Tie_AudioMetadataV0E6FormatO
+- _symbolic _____ 12VisualLookUp20Tie_GenerateResponseV
+- _symbolic _____ 12VisualLookUp20Tie_GenerateResponseV017InferenceCompleteF0V
+- _symbolic _____ 12VisualLookUp20Tie_GenerateResponseV020InferenceEnvironmentF0V
+- _symbolic _____ 12VisualLookUp20Tie_GenerateResponseV05FinalF0V
+- _symbolic _____ 12VisualLookUp20Tie_GenerateResponseV05FinalF0V20EncounteredStopTokenV
+- _symbolic _____ 12VisualLookUp20Tie_GenerateResponseV05FinalF0V22OneOf_CompletionReasonO
+- _symbolic _____ 12VisualLookUp20Tie_GenerateResponseV05FinalF0V23EncounteredStopSequenceV
+- _symbolic _____ 12VisualLookUp20Tie_GenerateResponseV05FinalF0V23OutputTokenLimitReachedV
+- _symbolic _____ 12VisualLookUp20Tie_GenerateResponseV05FinalF0V29FinishedFirstTokenComputationV
+- _symbolic _____ 12VisualLookUp20Tie_GenerateResponseV05FinalF0V9DebugInfoV
+- _symbolic _____ 12VisualLookUp20Tie_GenerateResponseV05FinalF0V9DebugInfoV13_StorageClass33_A360E3B1225E0EA7263E7D7AD73F11FCLLC
+- _symbolic _____ 12VisualLookUp20Tie_GenerateResponseV06OneOf_F4TypeO
+- _symbolic _____ 12VisualLookUp20Tie_GenerateResponseV06StatusF0V
+- _symbolic _____ 12VisualLookUp20Tie_GenerateResponseV06StatusF0V06OneOf_G7DetailsO
+- _symbolic _____ 12VisualLookUp20Tie_GenerateResponseV06StatusF0V0G0O
+- _symbolic _____ 12VisualLookUp20Tie_GenerateResponseV06StatusF0V17TokenLimitReachedV
+- _symbolic _____ 12VisualLookUp20Tie_GenerateResponseV09NextTokenF0V
+- _symbolic _____ 12VisualLookUp26Tie_AudioGenerationMetricsV
+- _symbolic _____ 12VisualLookUp28Tie_MultiTurnRequestMetadataV
+- _symbolic _____ 12VisualLookUp29Tie_MultiTurnResponseMetadataV
+- _symbolic _____ 12VisualLookUp30Apple_Cloudos_Cloudllm_TurnKeyV
+- _symbolic _____ 12VisualLookUp31Apple_Cloudos_Cloudllm_TurnKeysV
+- _symbolic _____Sg 12VisualLookUp14Tie_MediaChunkV9DebugInfoV05AudioF7MetricsV
+- _symbolic _____Sg 12VisualLookUp15Tie_ModelConfigV25SpeechSynthesisParametersV
+- _symbolic _____Sg 12VisualLookUp17Tie_AudioMetadataV
+- _symbolic _____Sg 12VisualLookUp20Tie_GenerateResponseV017InferenceCompleteF0V
+- _symbolic _____Sg 12VisualLookUp20Tie_GenerateResponseV020InferenceEnvironmentF0V
+- _symbolic _____Sg 12VisualLookUp20Tie_GenerateResponseV05FinalF0V
+- _symbolic _____Sg 12VisualLookUp20Tie_GenerateResponseV05FinalF0V20EncounteredStopTokenV
+- _symbolic _____Sg 12VisualLookUp20Tie_GenerateResponseV05FinalF0V22OneOf_CompletionReasonO
+- _symbolic _____Sg 12VisualLookUp20Tie_GenerateResponseV05FinalF0V23EncounteredStopSequenceV
+- _symbolic _____Sg 12VisualLookUp20Tie_GenerateResponseV05FinalF0V23OutputTokenLimitReachedV
+- _symbolic _____Sg 12VisualLookUp20Tie_GenerateResponseV05FinalF0V29FinishedFirstTokenComputationV
+- _symbolic _____Sg 12VisualLookUp20Tie_GenerateResponseV05FinalF0V9DebugInfoV
+- _symbolic _____Sg 12VisualLookUp20Tie_GenerateResponseV06OneOf_F4TypeO
+- _symbolic _____Sg 12VisualLookUp20Tie_GenerateResponseV06StatusF0V
+- _symbolic _____Sg 12VisualLookUp20Tie_GenerateResponseV06StatusF0V06OneOf_G7DetailsO
+- _symbolic _____Sg 12VisualLookUp20Tie_GenerateResponseV06StatusF0V0G0O
+- _symbolic _____Sg 12VisualLookUp20Tie_GenerateResponseV06StatusF0V17TokenLimitReachedV
+- _symbolic _____Sg 12VisualLookUp20Tie_GenerateResponseV09NextTokenF0V
+- _symbolic _____Sg 12VisualLookUp26Tie_AudioGenerationMetricsV
+- _symbolic _____Sg 12VisualLookUp28Tie_MultiTurnRequestMetadataV
+- _symbolic _____Sg 12VisualLookUp29Tie_MultiTurnResponseMetadataV
+- _symbolic _____Sg_ABt 12VisualLookUp14Tie_MediaChunkV9DebugInfoV05AudioF7MetricsV
+- _symbolic _____Sg_ABt 12VisualLookUp15Tie_ModelConfigV25SpeechSynthesisParametersV
+- _symbolic _____Sg_ABt 12VisualLookUp20Tie_GenerateResponseV05FinalF0V22OneOf_CompletionReasonO
+- _symbolic _____Sg_ABt 12VisualLookUp20Tie_GenerateResponseV05FinalF0V9DebugInfoV
+- _symbolic _____Sg_ABt 12VisualLookUp20Tie_GenerateResponseV06OneOf_F4TypeO
+- _symbolic _____Sg_ABt 12VisualLookUp20Tie_GenerateResponseV06StatusF0V06OneOf_G7DetailsO
+- _symbolic _____Sg_ABt 12VisualLookUp26Tie_AudioGenerationMetricsV
+- _symbolic _____Sg_ABt 12VisualLookUp28Tie_MultiTurnRequestMetadataV
+- _symbolic _____Sg_ABt 12VisualLookUp29Tie_MultiTurnResponseMetadataV
+- _symbolic ______AAt 12VisualLookUp20Tie_GenerateResponseV05FinalF0V22OneOf_CompletionReasonO
+- _symbolic ______AAt 12VisualLookUp20Tie_GenerateResponseV06OneOf_F4TypeO
+- _symbolic ______AAt 12VisualLookUp20Tie_GenerateResponseV06StatusF0V06OneOf_G7DetailsO
+- _symbolic _____m 12VisualLookUp14Tie_MediaChunkV9DebugInfoV05AudioF7MetricsV
+- _symbolic _____m 12VisualLookUp15Tie_ModelConfigV25SpeechSynthesisParametersV
+- _symbolic _____m 12VisualLookUp17Tie_AudioMetadataV
+- _symbolic _____m 12VisualLookUp20Tie_GenerateResponseV
+- _symbolic _____m 12VisualLookUp20Tie_GenerateResponseV017InferenceCompleteF0V
+- _symbolic _____m 12VisualLookUp20Tie_GenerateResponseV020InferenceEnvironmentF0V
+- _symbolic _____m 12VisualLookUp20Tie_GenerateResponseV05FinalF0V
+- _symbolic _____m 12VisualLookUp20Tie_GenerateResponseV05FinalF0V20EncounteredStopTokenV
+- _symbolic _____m 12VisualLookUp20Tie_GenerateResponseV05FinalF0V23EncounteredStopSequenceV
+- _symbolic _____m 12VisualLookUp20Tie_GenerateResponseV05FinalF0V23OutputTokenLimitReachedV
+- _symbolic _____m 12VisualLookUp20Tie_GenerateResponseV05FinalF0V29FinishedFirstTokenComputationV
+- _symbolic _____m 12VisualLookUp20Tie_GenerateResponseV05FinalF0V9DebugInfoV
+- _symbolic _____m 12VisualLookUp20Tie_GenerateResponseV06StatusF0V
+- _symbolic _____m 12VisualLookUp20Tie_GenerateResponseV06StatusF0V17TokenLimitReachedV
+- _symbolic _____m 12VisualLookUp20Tie_GenerateResponseV09NextTokenF0V
+- _symbolic _____m 12VisualLookUp26Tie_AudioGenerationMetricsV
+- _symbolic _____m 12VisualLookUp28Tie_MultiTurnRequestMetadataV
+- _symbolic _____m 12VisualLookUp29Tie_MultiTurnResponseMetadataV
+- _symbolic _____m 12VisualLookUp30Apple_Cloudos_Cloudllm_TurnKeyV
+- _symbolic _____m 12VisualLookUp31Apple_Cloudos_Cloudllm_TurnKeysV
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CJRlugB0pwohPhfDpmB5nP0RJdFs2VEFbbQ-uEk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:293: libc++ Hardening assertion __k != __leftmost failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CJRlugB0pwohPhfDpmB5nP0RJdFs2VEFbbQ-uEk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:603: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CJRlugB0pwohPhfDpmB5nP0RJdFs2VEFbbQ-uEk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:615: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CJRlugB0pwohPhfDpmB5nP0RJdFs2VEFbbQ-uEk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:633: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CJRlugB0pwohPhfDpmB5nP0RJdFs2VEFbbQ-uEk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:638: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CJRlugB0pwohPhfDpmB5nP0RJdFs2VEFbbQ-uEk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:669: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CJRlugB0pwohPhfDpmB5nP0RJdFs2VEFbbQ-uEk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:682: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CJRlugB0pwohPhfDpmB5nP0RJdFs2VEFbbQ-uEk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:692: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CJRlugB0pwohPhfDpmB5nP0RJdFs2VEFbbQ-uEk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:697: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CJRlugB0pwohPhfDpmB5nP0RJdFs2VEFbbQ-uEk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__hash_table:1892: libc++ Hardening assertion __p != end() failed: unordered container::erase(iterator) called with a non-dereferenceable iterator\n"
++ "/AppleInternal/Library/BuildRoots/4~CJRlugB0pwohPhfDpmB5nP0RJdFs2VEFbbQ-uEk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CJRlugB0pwohPhfDpmB5nP0RJdFs2VEFbbQ-uEk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:410: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CJRlugB0pwohPhfDpmB5nP0RJdFs2VEFbbQ-uEk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:425: libc++ Hardening assertion !empty() failed: front() called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/4~CJRlugB0pwohPhfDpmB5nP0RJdFs2VEFbbQ-uEk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:433: libc++ Hardening assertion !empty() failed: back() called on an empty vector\n"
++ "/AppleInternal/Library/BuildRoots/4~CJRlugB0pwohPhfDpmB5nP0RJdFs2VEFbbQ-uEk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:2296: libc++ Hardening assertion !empty() failed: deque::pop_front called on an empty deque\n"
++ "/Library/Caches/com.apple.xbs/DDF38129-6D16-4643-873F-342145DFB9A2/TemporaryDirectory.mRAz2p/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/Clustering.cpp"
++ "/Library/Caches/com.apple.xbs/DDF38129-6D16-4643-873F-342145DFB9A2/TemporaryDirectory.mRAz2p/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/Index.cpp"
++ "/Library/Caches/com.apple.xbs/DDF38129-6D16-4643-873F-342145DFB9A2/TemporaryDirectory.mRAz2p/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/IndexBinary.cpp"
++ "/Library/Caches/com.apple.xbs/DDF38129-6D16-4643-873F-342145DFB9A2/TemporaryDirectory.mRAz2p/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/IndexFlat.cpp"
++ "/Library/Caches/com.apple.xbs/DDF38129-6D16-4643-873F-342145DFB9A2/TemporaryDirectory.mRAz2p/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/IndexIVF.cpp"
++ "/Library/Caches/com.apple.xbs/DDF38129-6D16-4643-873F-342145DFB9A2/TemporaryDirectory.mRAz2p/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/IndexIVFFlat.cpp"
++ "/Library/Caches/com.apple.xbs/DDF38129-6D16-4643-873F-342145DFB9A2/TemporaryDirectory.mRAz2p/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/IndexIVFPQ.cpp"
++ "/Library/Caches/com.apple.xbs/DDF38129-6D16-4643-873F-342145DFB9A2/TemporaryDirectory.mRAz2p/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/IndexIVFPQR.cpp"
++ "/Library/Caches/com.apple.xbs/DDF38129-6D16-4643-873F-342145DFB9A2/TemporaryDirectory.mRAz2p/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/IndexPQ.cpp"
++ "/Library/Caches/com.apple.xbs/DDF38129-6D16-4643-873F-342145DFB9A2/TemporaryDirectory.mRAz2p/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/MetaIndexes.cpp"
++ "/Library/Caches/com.apple.xbs/DDF38129-6D16-4643-873F-342145DFB9A2/TemporaryDirectory.mRAz2p/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/VectorTransform.cpp"
++ "/Library/Caches/com.apple.xbs/DDF38129-6D16-4643-873F-342145DFB9A2/TemporaryDirectory.mRAz2p/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/impl/AuxIndexStructures.cpp"
++ "/Library/Caches/com.apple.xbs/DDF38129-6D16-4643-873F-342145DFB9A2/TemporaryDirectory.mRAz2p/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/impl/PolysemousTraining.cpp"
++ "/Library/Caches/com.apple.xbs/DDF38129-6D16-4643-873F-342145DFB9A2/TemporaryDirectory.mRAz2p/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/impl/ProductQuantizer.cpp"
++ "/Library/Caches/com.apple.xbs/DDF38129-6D16-4643-873F-342145DFB9A2/TemporaryDirectory.mRAz2p/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/impl/index_read.cpp"
++ "/Library/Caches/com.apple.xbs/DDF38129-6D16-4643-873F-342145DFB9A2/TemporaryDirectory.mRAz2p/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/impl/io.cpp"
++ "/Library/Caches/com.apple.xbs/DDF38129-6D16-4643-873F-342145DFB9A2/TemporaryDirectory.mRAz2p/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/invlists/DirectMap.cpp"
++ "/Library/Caches/com.apple.xbs/DDF38129-6D16-4643-873F-342145DFB9A2/TemporaryDirectory.mRAz2p/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/invlists/InvertedLists.cpp"
++ "/Library/Caches/com.apple.xbs/DDF38129-6D16-4643-873F-342145DFB9A2/TemporaryDirectory.mRAz2p/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/utils/WorkerThread.cpp"
++ "/Library/Caches/com.apple.xbs/DDF38129-6D16-4643-873F-342145DFB9A2/TemporaryDirectory.mRAz2p/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/utils/distances_simd.cpp"
++ "/Library/Caches/com.apple.xbs/DDF38129-6D16-4643-873F-342145DFB9A2/TemporaryDirectory.mRAz2p/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/utils/extra_distances.cpp"
++ "/Library/Caches/com.apple.xbs/DDF38129-6D16-4643-873F-342145DFB9A2/TemporaryDirectory.mRAz2p/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/utils/hamming.cpp"
++ "/Library/Caches/com.apple.xbs/DDF38129-6D16-4643-873F-342145DFB9A2/TemporaryDirectory.mRAz2p/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/utils/partitioning.cpp"
++ "/Library/Caches/com.apple.xbs/DDF38129-6D16-4643-873F-342145DFB9A2/TemporaryDirectory.mRAz2p/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/utils/utils.cpp"
++ "DEPRECATED_is_experiment"
++ "Failed to decompress and deserialize RichLabelKgMapperConfig at path %s with error %@"
++ "Rich label threshold: unable to extract language code from locale %s"
++ "Rich label threshold: unsupported language %s"
++ "RichLabelKgCommonNameDa"
++ "RichLabelKgCommonNameNb"
++ "RichLabelKgCommonNameSv"
++ "RichLabelKgCommonNameVi"
++ "VLUPCCAgentService_handleNatureDomain: modelHeadPredictions is empty"
++ "VLUPCCAgentService_handleNatureDomain: nature domain results - count: %ld, results: %s"
++ "VLUPCCAgentService_handleNatureDomain: no predictions above confidence threshold. Highest confidence: %f"
++ "VLUPCCAgentService_handleNatureDomain: no valid results after title mapping"
++ "VLUPCCAgentService_runWithVisualUnderstanding: Failed to convert JSON data to UTF-8 string"
++ "VLUPCCAgentService_runWithVisualUnderstanding: vluResults.domain was nil, setting to firstAvailableDomainLabel: %s"
++ "VLUResult.toRegionSearchResultItem: title is empty and onDeviceFallbackDisplayLabel is nil"
++ "_TtCV12VisualLookUp17Tie_FinalResponseP33_A360E3B1225E0EA7263E7D7AD73F11FC13_StorageClass"
++ "_adapterOverridePath"
++ "_adapterOverrideVersion"
++ "_assetDownloaderEventID"
++ "_classificationResults"
++ "_cloudosEnvironment"
++ "_completionReason"
++ "_debugInfo"
++ "_deprecatedIsExperiment"
++ "_multiGroupMetadata"
++ "_sentence"
++ "_tieAssetOverrideVersion"
++ "adapter_override_path"
++ "adapter_override_version"
++ "asset_downloader_event_id"
++ "cloudos_environment"
++ "component_name"
++ "end_time_millis"
++ "end_to_end_component_metrics"
++ "kv_cache_reuse_is_from_same_ensemble"
++ "kv_cache_reuse_non_static_tokens_count"
++ "localeIdentifier"
++ "metrics"
++ "multi_group_metadata"
++ "nature_display_label"
++ "non_static_input_tokens_count"
++ "num_bytes_read_from_file"
++ "num_bytes_requested_from_file"
++ "num_tokens_read_from_file"
++ "num_tokens_requested_from_file"
++ "onDeviceFallbackDisplayLabel"
++ "operation_name"
++ "override_version"
++ "prediction.label: %s, prediction.confidence: %f, applied threshold: %f"
++ "prefixID"
++ "prefix_trie_cached_tokens_count"
++ "start_time_millis"
++ "tie.EndToEndComponentMetric"
++ "tie.EndToEndComponentMetrics"
++ "tie.MultiGroupRequestMetadata"
++ "tie.MultiGroupResponseMetadata"
++ "tie_asset_override_version"
+- ".AudioChunkMetrics"
+- ".InferenceCompleteResponse"
+- ".InferenceEnvironmentResponse"
+- ".NextTokenResponse"
+- ".SpeechSynthesisParameters"
+- "/AppleInternal/Library/BuildRoots/4~CInYugBpSbhIIiaTrnOgdh1OaiFvlreVSOtAzy0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:293: libc++ Hardening assertion __k != __leftmost failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CInYugBpSbhIIiaTrnOgdh1OaiFvlreVSOtAzy0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:603: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CInYugBpSbhIIiaTrnOgdh1OaiFvlreVSOtAzy0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:615: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CInYugBpSbhIIiaTrnOgdh1OaiFvlreVSOtAzy0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:633: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CInYugBpSbhIIiaTrnOgdh1OaiFvlreVSOtAzy0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:638: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CInYugBpSbhIIiaTrnOgdh1OaiFvlreVSOtAzy0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:669: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CInYugBpSbhIIiaTrnOgdh1OaiFvlreVSOtAzy0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:682: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CInYugBpSbhIIiaTrnOgdh1OaiFvlreVSOtAzy0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:692: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CInYugBpSbhIIiaTrnOgdh1OaiFvlreVSOtAzy0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:697: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CInYugBpSbhIIiaTrnOgdh1OaiFvlreVSOtAzy0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__hash_table:1892: libc++ Hardening assertion __p != end() failed: unordered container::erase(iterator) called with a non-dereferenceable iterator\n"
+- "/AppleInternal/Library/BuildRoots/4~CInYugBpSbhIIiaTrnOgdh1OaiFvlreVSOtAzy0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CInYugBpSbhIIiaTrnOgdh1OaiFvlreVSOtAzy0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:410: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CInYugBpSbhIIiaTrnOgdh1OaiFvlreVSOtAzy0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:425: libc++ Hardening assertion !empty() failed: front() called on an empty vector\n"
+- "/AppleInternal/Library/BuildRoots/4~CInYugBpSbhIIiaTrnOgdh1OaiFvlreVSOtAzy0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:433: libc++ Hardening assertion !empty() failed: back() called on an empty vector\n"
+- "/AppleInternal/Library/BuildRoots/4~CInYugBpSbhIIiaTrnOgdh1OaiFvlreVSOtAzy0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:2296: libc++ Hardening assertion !empty() failed: deque::pop_front called on an empty deque\n"
+- "/Library/Caches/com.apple.xbs/D97844A0-93AF-4C79-9B6D-A656C0992B23/TemporaryDirectory.J6pgLX/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/Clustering.cpp"
+- "/Library/Caches/com.apple.xbs/D97844A0-93AF-4C79-9B6D-A656C0992B23/TemporaryDirectory.J6pgLX/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/Index.cpp"
+- "/Library/Caches/com.apple.xbs/D97844A0-93AF-4C79-9B6D-A656C0992B23/TemporaryDirectory.J6pgLX/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/IndexBinary.cpp"
+- "/Library/Caches/com.apple.xbs/D97844A0-93AF-4C79-9B6D-A656C0992B23/TemporaryDirectory.J6pgLX/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/IndexFlat.cpp"
+- "/Library/Caches/com.apple.xbs/D97844A0-93AF-4C79-9B6D-A656C0992B23/TemporaryDirectory.J6pgLX/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/IndexIVF.cpp"
+- "/Library/Caches/com.apple.xbs/D97844A0-93AF-4C79-9B6D-A656C0992B23/TemporaryDirectory.J6pgLX/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/IndexIVFFlat.cpp"
+- "/Library/Caches/com.apple.xbs/D97844A0-93AF-4C79-9B6D-A656C0992B23/TemporaryDirectory.J6pgLX/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/IndexIVFPQ.cpp"
+- "/Library/Caches/com.apple.xbs/D97844A0-93AF-4C79-9B6D-A656C0992B23/TemporaryDirectory.J6pgLX/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/IndexIVFPQR.cpp"
+- "/Library/Caches/com.apple.xbs/D97844A0-93AF-4C79-9B6D-A656C0992B23/TemporaryDirectory.J6pgLX/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/IndexPQ.cpp"
+- "/Library/Caches/com.apple.xbs/D97844A0-93AF-4C79-9B6D-A656C0992B23/TemporaryDirectory.J6pgLX/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/MetaIndexes.cpp"
+- "/Library/Caches/com.apple.xbs/D97844A0-93AF-4C79-9B6D-A656C0992B23/TemporaryDirectory.J6pgLX/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/VectorTransform.cpp"
+- "/Library/Caches/com.apple.xbs/D97844A0-93AF-4C79-9B6D-A656C0992B23/TemporaryDirectory.J6pgLX/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/impl/AuxIndexStructures.cpp"
+- "/Library/Caches/com.apple.xbs/D97844A0-93AF-4C79-9B6D-A656C0992B23/TemporaryDirectory.J6pgLX/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/impl/PolysemousTraining.cpp"
+- "/Library/Caches/com.apple.xbs/D97844A0-93AF-4C79-9B6D-A656C0992B23/TemporaryDirectory.J6pgLX/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/impl/ProductQuantizer.cpp"
+- "/Library/Caches/com.apple.xbs/D97844A0-93AF-4C79-9B6D-A656C0992B23/TemporaryDirectory.J6pgLX/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/impl/index_read.cpp"
+- "/Library/Caches/com.apple.xbs/D97844A0-93AF-4C79-9B6D-A656C0992B23/TemporaryDirectory.J6pgLX/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/impl/io.cpp"
+- "/Library/Caches/com.apple.xbs/D97844A0-93AF-4C79-9B6D-A656C0992B23/TemporaryDirectory.J6pgLX/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/invlists/DirectMap.cpp"
+- "/Library/Caches/com.apple.xbs/D97844A0-93AF-4C79-9B6D-A656C0992B23/TemporaryDirectory.J6pgLX/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/invlists/InvertedLists.cpp"
+- "/Library/Caches/com.apple.xbs/D97844A0-93AF-4C79-9B6D-A656C0992B23/TemporaryDirectory.J6pgLX/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/utils/WorkerThread.cpp"
+- "/Library/Caches/com.apple.xbs/D97844A0-93AF-4C79-9B6D-A656C0992B23/TemporaryDirectory.J6pgLX/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/utils/distances_simd.cpp"
+- "/Library/Caches/com.apple.xbs/D97844A0-93AF-4C79-9B6D-A656C0992B23/TemporaryDirectory.J6pgLX/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/utils/extra_distances.cpp"
+- "/Library/Caches/com.apple.xbs/D97844A0-93AF-4C79-9B6D-A656C0992B23/TemporaryDirectory.J6pgLX/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/utils/hamming.cpp"
+- "/Library/Caches/com.apple.xbs/D97844A0-93AF-4C79-9B6D-A656C0992B23/TemporaryDirectory.J6pgLX/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/utils/partitioning.cpp"
+- "/Library/Caches/com.apple.xbs/D97844A0-93AF-4C79-9B6D-A656C0992B23/TemporaryDirectory.J6pgLX/Sources/VisualLookUp/VisualIntelligence/VisualIntelligence/Vendor/faiss_search/faiss/faiss/utils/utils.cpp"
+- "OPUS_24K"
+- "OPUS_48K"
+- "PCM_24K"
+- "PCM_48K"
+- "RichLabelKgCommonNameAr"
+- "RichLabelKgCommonNameTh"
+- "RichLabelKgCommonNameYue_CN"
+- "VLUPCCAgentService_runWithVisualUnderstanding: jsonStringOfVLURequest is nil"
+- "VLUPCCAgentService_runWithVisualUnderstanding: nature domain - no rich label found for knowledgeId: %s"
+- "VLUPCCAgentService_runWithVisualUnderstanding: nature domain but modelHeadPredictions is empty. modelHeadPredictionArray count=%ld"
+- "VLUPCCAgentService_runWithVisualUnderstanding: nature domain result - kgId: %s, title: %s"
+- "_TtCVVV12VisualLookUp20Tie_GenerateResponse13FinalResponse9DebugInfoP33_A360E3B1225E0EA7263E7D7AD73F11FC13_StorageClass"
+- "_audioDetokenizer"
+- "_audioDetokenizerName"
+- "_audioDetokenizerVersion"
+- "_audioGenerationMetrics"
+- "_isExperiment"
+- "_multiTurnMetadata"
+- "_speechSynthesisParameters"
+- "_supportedAudioFormats"
+- "anetec_nanos"
+- "apple.cloudos.cloudllm.TurnKey"
+- "apple.cloudos.cloudllm.TurnKeys"
+- "audio_detokenizer"
+- "audio_detokenizer_name"
+- "audio_detokenizer_version"
+- "audio_format"
+- "audio_generation_metrics"
+- "audio_metadata"
+- "audio_metrics"
+- "base_model_nanos"
+- "combined_nanos"
+- "depthformer_nanos"
+- "encryptedVluAnimal"
+- "encryptedVluBook"
+- "encryptedVluLandmark"
+- "encryptedVluNature"
+- "is_experiment"
+- "multi_turn_metadata"
+- "rate_of_audio_generation"
+- "real_time_factor"
+- "speaker_id"
+- "speech_synthesis_parameters"
+- "supported_audio_formats"
+- "tie.AudioGenerationMetrics"
+- "tie.AudioMetadata"
+- "tie.GenerateResponse"
+- "tie.MultiTurnRequestMetadata"
+- "tie.MultiTurnResponseMetadata"
+- "time_to_first_audio_byte_millis"
+- "total_generated_audio_duration_millis"
+- "turnKeys"
+
+```

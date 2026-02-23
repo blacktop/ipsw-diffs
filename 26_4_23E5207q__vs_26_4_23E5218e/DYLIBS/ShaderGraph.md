@@ -1,0 +1,62 @@
+## ShaderGraph
+
+> `/System/Library/PrivateFrameworks/ShaderGraph.framework/ShaderGraph`
+
+```diff
+
+ 123.100.1.0.0
+-  __TEXT.__text: 0x1abcd4
++  __TEXT.__text: 0x1abe1c
+   __TEXT.__auth_stubs: 0x23f0
+   __TEXT.__objc_methlist: 0xe20
+   __TEXT.__const: 0xd248
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 7213C321-BB18-3A19-9C7C-B7D0985A29D1
+-  Functions: 7519
+-  Symbols:   20686
++  UUID: D98CE781-ABBD-37AA-A88A-A764DA1312EC
++  Functions: 7520
++  Symbols:   20688
+   CStrings:  1429
+ 
+Symbols:
++ _$s11ShaderGraph09RESurfaceA12FunctionNodeC19generateMetalSource2inyAA0gA8CompilerC_tKFyAG5ScopeCKXEfU0_
+Functions:
+~ _$s11ShaderGraph15NodePersonalityO17emitFunctionNodes4node7context4intoAA05MetalA7ProgramCAA0abC0V_AA04UserB8CompilerC14CompileContextVzAItKF : 6816 -> 6852
+~ _$s11ShaderGraph04UserB0V21resolveMaterialXEnumsyyKFyAA0aB4NodeVKXEfU_yAA5InputVKXEfU_ : 5716 -> 5696
+~ _$s11ShaderGraph09RESurfaceA8MaterialV_18customUniformsType18textureAssignments12nodeDefStore9debugHashAcA04UserB0V_AA09MetalDataG0CSDyS2S19uniformPropertyName_AK4typetGAA04NodekL0VSStKcfcyAA0abV0VKXEfU0_ : 912 -> 900
+~ _$s11ShaderGraph10OrderedSetV4hash4intoys6HasherVz_tF : 324 -> 396
+~ _$s11ShaderGraph8SGOutputC5edgesSayAA6SGEdgeCGvg : 332 -> 368
+~ _$s11ShaderGraph0aB7ServiceC13archiveSourcey10Foundation4DataVAA012SGREMaterialE0CSgKFZTf4nd_n : 2568 -> 2576
+~ _$s11ShaderGraph0aB7ServiceC13createLibrary4from6device7optionsSo10MTLLibrary_pAA12SGREMaterialCSg_So9MTLDevice_pSgAA0J18CompilationOptionsCtKFZTf4nnnd_n : 9520 -> 9528
+~ _$s11ShaderGraph11DebugConfigO9debugModeShyAC5GroupOGvpZfiAGyXEfU_ : 2372 -> 2368
+~ _$s11ShaderGraph04UserB0V27transformGeomPropValueNodes7surface16geometryModifier12nodeDefStoreyAA0aB4NodeV_AISgAA0omN0VtKFyAIXEfU_ : 5620 -> 5628
+~ _$s11ShaderGraph18SGREMaterialSourceC5graph13configurationAcA7SGGraphC_AA23SGMaterialConfigurationCtKcfc : 9724 -> 9716
+~ _$s11ShaderGraph18SGREMaterialSourceC5graph13configurationAcA7SGGraphC_AA23SGMaterialConfigurationCtKcfcyAA7SGInputCKXEfU0_ : 1028 -> 1020
+~ _$s11ShaderGraph22collectImplementations_4intoyAA10XMLElement_p_AA12NodeDefStoreVztKFyAaD_pKXEfU0_ : 3652 -> 3636
+~ _$s11ShaderGraph06createB0_12nodeDefStoreAA04UserB0VAA10XMLElement_p_AA04NodeeF0VtKFyAaF_p_AA0abI0VtKXEfU5_yAaF_pKXEfU_ : 5568 -> 5548
+~ _$s11ShaderGraph0B8CompilerV7compile3for7optionsSo10MTLLibrary_pSo9MTLDevice_p_AA30SGREMaterialCompilationOptionsCtKF : 11404 -> 11400
+~ _$s11ShaderGraph0B8CompilerV7compile3for7optionsSo10MTLLibrary_pSo9MTLDevice_p_AA30SGREMaterialCompilationOptionsCtKFSoAG_pAA17OrderedDictionaryVys6UInt64VSoAG_pGzYbKXEfU_ : 740 -> 744
+~ _$s11ShaderGraph10OrderedSetV14removeSubrangeyySnySiGFyAA10_HashTableV12UnsafeHandleVXEfU_ : 1196 -> 1288
+~ _$s11ShaderGraph7SGErrorCyACs5Error_pcfC : 924 -> 916
+~ _$s11ShaderGraph10_HashTableV12UnsafeHandleV14adjustContents21preparingForRemovalOf2inySny5IndexQzG_xtSkRzSH7ElementRpzlFs15ContiguousArrayVyAA7WeakBoxVyAA6SGEdgeCGG_Tg5 : 2340 -> 2364
+~ _$s11ShaderGraph10FileLoggerC09saveDebugC0_4name9extensiony10Foundation4DataV_S2StFZTf4nnnd_n : 1984 -> 1964
+~ _$s11ShaderGraph7NodeDefV12AvailabilityV24MaterialXAttributeParserV20createAvailabilities33_EDE84B9B734F2401FB377770BFCB2B39LL23platformAttributeTokensSayAEGs10ArraySliceVySSG_tKFZTf4nd_n : 4032 -> 4024
++ _$s11ShaderGraph09RESurfaceA12FunctionNodeC19generateMetalSource2inyAA0gA8CompilerC_tKFyAG5ScopeCKXEfU0_
+~ _$s11ShaderGraph09RESurfaceA12FunctionNodeC19generateMetalSource2inyAA0gA8CompilerC_tKFyAG5ScopeCKXEfU0_TA : 88 -> 28
+~ _$sSTsE7flatMapySay7ElementQyd__Gqd__ABQzKXEKSTRd__lFSay11ShaderGraph8SGOutputCG_SayAF6SGEdgeCGTg504$s11d44Graph7SGGraphC6remove4nodeyAA6SGNodeC_tKFSaylg5CGAA8F51Ccfu_32ad25e95f24f88cfced7b09a76c33a25dAlJTf3nnpk_nTf1cn_n : 1084 -> 1128
+~ _$s11ShaderGraph7SGGraphC24createCustomUniformsType5named18textureAssignmentsAA17SGTypeDescriptionCSS_SayAA17TextureAssignmentVGtKF : 2224 -> 2236
+~ _$s11ShaderGraph7SGGraphC24createCustomUniformsType5named18textureAssignmentsAA17SGTypeDescriptionCSS_SayAA17TextureAssignmentVGtKFAA04DataG8PropertyVSgAA8SGOutputCXEfU1_ : 812 -> 788
+~ _$sSo10SGDataTypeV11ShaderGraphEyABSgSScfCTf4nd_n : 3972 -> 3964
+~ _$s11ShaderGraph19NodeDefinitionStoreV0C0V7nodeDefAeA0cG0V_tcfcAC5InputVAH6IOSpecVXEfU_Tm : 1320 -> 1316
+~ _$s11ShaderGraph10OrderedSetV19symmetricDifferenceyACyxGqd__n7ElementQyd__RszSTRd__lFAeA13_UnsafeBitsetVzXEfU_ : 1376 -> 1484
+~ _$s11ShaderGraph21MetalStitchingBackendV7compile7program17uniformDefinition14builtInLibrary19additionalLibraries7options6deviceSo10MTLLibrary_pAA0cA7ProgramC_AA0C8DataTypeCSoAK_pSaySoAK_pGAA30SGREMaterialCompilationOptionsCSo9MTLDevice_ptKF : 6832 -> 6756
+~ _$s11ShaderGraph12NodeDefStoreV06createC03for2inAA0abC0VAA10XMLElement_p_AA04UserB0VztKF : 6808 -> 6804
+~ _$s11ShaderGraph12NodeDefStoreV14implementation3for6targetAA0cD0V14ImplementationVSgAH_AA15MaterialXTargetCtF : 1700 -> 1772
+~ _$s11ShaderGraph12NodeDefStoreV11loadLibrary24materialXLibraryFileURLsyx_tKSTRz10Foundation3URLV7ElementRtzlFAA10XMLElement_pSgAHXEfU_ : 1636 -> 1580
+~ _$s11ShaderGraph12NodeDefStoreV06createC03for2inAA0abC0VAA10XMLElement_p_AA04UserB0VztKFSbAA0cD0VXEfU4_SbSS4name_AA17MaterialXDataTypeC4typet_tXEfU0_ : 1120 -> 1136
+
+```
