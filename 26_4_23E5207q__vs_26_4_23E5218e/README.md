@@ -66,6 +66,1177 @@
 
 </details>
 
+## MachO
+
+### 🆕 NEW (2)
+
+- `/Applications/AuthorizationPromptService.app/AuthorizationPromptService`
+- `/System/Library/PrivateFrameworks/SwiftUITracingSupport.framework/SwiftUITracingSupport`
+
+### ⬆️ Updated (1156)
+
+<details>
+  <summary><i>View Updated</i></summary>
+
+- [/Applications/AMSEngagementViewService.app/AMSEngagementViewService](MACHOS/AMSEngagementViewService.md)
+- [/Applications/AVKitRoutingService.app/AVKitRoutingService](MACHOS/AVKitRoutingService.md)
+- [/Applications/AccessibilityReader_iOS.app/AccessibilityReader_iOS](MACHOS/AccessibilityReader_iOS.md)
+- [/Applications/AccessoryNotificationsSourceSelection.app/PlugIns/AccessoryNotificationsSetupExtension.appex/AccessoryNotificationsSetupExtension](MACHOS/AccessoryNotificationsSetupExtension.md)
+- [/Applications/AccessorySetupUI.app/AccessorySetupUI](MACHOS/AccessorySetupUI.md)
+- [/Applications/ActivityProgressUI.app/ActivityProgressUI](MACHOS/ActivityProgressUI.md)
+- [/Applications/AdaptiveMusicApp.app/AdaptiveMusicApp](MACHOS/AdaptiveMusicApp.md)
+- [/Applications/AdaptiveMusicApp.app/PlugIns/AdaptiveMusicControl.appex/AdaptiveMusicControl](MACHOS/AdaptiveMusicControl.md)
+- [/Applications/AdaptiveMusicApp.app/PlugIns/AdaptiveMusicWidget.appex/AdaptiveMusicWidget](MACHOS/AdaptiveMusicWidget.md)
+- [/Applications/AirDropUI.app/AirDropUI](MACHOS/AirDropUI.md)
+- [/Applications/AppDistributionLaunchAngel.app/AppDistributionLaunchAngel](MACHOS/AppDistributionLaunchAngel.md)
+- [/Applications/AppSSOUIService.app/AppSSOUIService](MACHOS/AppSSOUIService.md)
+- [/Applications/AppleCashStickerPackHost.app/PlugIns/AppleCashStickerPackExtension.appex/AppleCashStickerPackExtension](MACHOS/AppleCashStickerPackExtension.md)
+- [/Applications/AppleIDSetupUIService.app/AppleIDSetupUIService](MACHOS/AppleIDSetupUIService.md)
+- [/Applications/BarcodeScanner.app/BarcodeScanner](MACHOS/BarcodeScanner.md)
+- [/Applications/Batteries.app/PlugIns/BatteriesWidgetIntentsExtension.appex/BatteriesWidgetIntentsExtension](MACHOS/BatteriesWidgetIntentsExtension.md)
+- [/Applications/BrowserKitViewService.app/BrowserKitViewService](MACHOS/BrowserKitViewService.md)
+- [/Applications/BusinessActionSheet.app/BusinessActionSheet](MACHOS/BusinessActionSheet.md)
+- [/Applications/BusinessExtensionsWrapper.app/PlugIns/Business.appex/Business](MACHOS/Business.md)
+- [/Applications/CameraOverlayAngel.app/CameraOverlayAngel](MACHOS/CameraOverlayAngel.md)
+- [/Applications/CarCamera.app/CarCamera](MACHOS/CarCamera.md)
+- [/Applications/CarPlaySettings.app/CarPlaySettings](MACHOS/CarPlaySettings.md)
+- [/Applications/CarPlayWallpaper.app/CarPlayWallpaper](MACHOS/CarPlayWallpaper.md)
+- [/Applications/Charge.app/Charge](MACHOS/Charge.md)
+- [/Applications/CheckerBoard.app/CheckerBoard](MACHOS/CheckerBoard.md)
+- [/Applications/CheckerBoardRemoteSetup.app/CheckerBoardRemoteSetup](MACHOS/CheckerBoardRemoteSetup.md)
+- [/Applications/ClarityCamera.app/ClarityCamera](MACHOS/ClarityCamera.md)
+- [/Applications/ClarityPhotos.app/ClarityPhotos](MACHOS/ClarityPhotos.md)
+- [/Applications/Climate.app/Climate](MACHOS/Climate.md)
+- [/Applications/ClockAngel.app/ClockAngel](MACHOS/ClockAngel.md)
+- [/Applications/ColorPickerUIService.app/ColorPickerUIService](MACHOS/ColorPickerUIService.md)
+- [/Applications/CompanionSetup.app/CompanionSetup](MACHOS/CompanionSetup.md)
+- [/Applications/CoreIDVUIService.app/CoreIDVUIService](MACHOS/CoreIDVUIService.md)
+- [/Applications/Device Recovery Assistant.app/Device Recovery Assistant](MACHOS/Device_Recovery_Assistant.md)
+- [/Applications/Diagnostics.app/Diagnostics](MACHOS/Diagnostics.md)
+- [/Applications/DiagnosticsReporter.app/DiagnosticsReporter](MACHOS/DiagnosticsReporter.md)
+- [/Applications/DiagnosticsService.app/DiagnosticsService](MACHOS/DiagnosticsService.md)
+- [/Applications/DiagnosticsService.app/PlugIns/Diagnostic-0001.appex/Diagnostic-0001](MACHOS/Diagnostic-0001.md)
+- [/Applications/DiagnosticsService.app/PlugIns/Diagnostic-6000.appex/Diagnostic-6000](MACHOS/Diagnostic-6000.md)
+- [/Applications/DiagnosticsService.app/PlugIns/Diagnostic-6006.appex/Diagnostic-6006](MACHOS/Diagnostic-6006.md)
+- [/Applications/DiagnosticsService.app/PlugIns/Diagnostic-6007.appex/Diagnostic-6007](MACHOS/Diagnostic-6007.md)
+- [/Applications/DiagnosticsService.app/PlugIns/Diagnostic-6008.appex/Diagnostic-6008](MACHOS/Diagnostic-6008.md)
+- [/Applications/DiagnosticsService.app/PlugIns/Diagnostic-6017.appex/Diagnostic-6017](MACHOS/Diagnostic-6017.md)
+- [/Applications/DiagnosticsService.app/PlugIns/Diagnostic-8389.appex/Diagnostic-8389](MACHOS/Diagnostic-8389.md)
+- [/Applications/DockFolderViewService.app/DockFolderViewService](MACHOS/DockFolderViewService.md)
+- [/Applications/EventViewService.app/EventViewService](MACHOS/EventViewService.md)
+- [/Applications/FTMInternal.app/FTMInternal](MACHOS/FTMInternal.md)
+- [/Applications/Family.app/Family](MACHOS/Family.md)
+- [/Applications/Family.app/PlugIns/InviteMessageBubbleExtension.appex/InviteMessageBubbleExtension](MACHOS/InviteMessageBubbleExtension.md)
+- [/Applications/FamilyControlsAuthenticationUI.app/FamilyControlsAuthenticationUI](MACHOS/FamilyControlsAuthenticationUI.md)
+- [/Applications/FamilyExtensionHost.app/Extensions/FamilyOutOfProcessUIExtension.appex/FamilyOutOfProcessUIExtension](MACHOS/FamilyOutOfProcessUIExtension.md)
+- [/Applications/Feedback Assistant iOS.app/Feedback Assistant iOS](MACHOS/Feedback_Assistant_iOS.md)
+- [/Applications/FeedbackRemoteView.app/FeedbackRemoteView](MACHOS/FeedbackRemoteView.md)
+- [/Applications/FinanceStub.app/FinanceStub](MACHOS/FinanceStub.md)
+- [/Applications/FindMyRemoteUIService.app/FindMyRemoteUIService](MACHOS/FindMyRemoteUIService.md)
+- [/Applications/GameCenterWidgets.app/PlugIns/GCWidgets.appex/GCWidgets](MACHOS/GCWidgets.md)
+- [/Applications/GameTrampoline.app/GameTrampoline](MACHOS/GameTrampoline.md)
+- [/Applications/GuestUserHandoverSetup.app/GuestUserHandoverSetup](MACHOS/GuestUserHandoverSetup.md)
+- [/Applications/HDSViewService.app/HDSViewService](MACHOS/HDSViewService.md)
+- [/Applications/HeadphoneProxService.app/HeadphoneProxService](MACHOS/HeadphoneProxService.md)
+- [/Applications/HealthENBuddy.app/HealthENBuddy](MACHOS/HealthENBuddy.md)
+- [/Applications/HealthENLauncher.app/HealthENLauncher](MACHOS/HealthENLauncher.md)
+- [/Applications/HomeCaptiveViewService.app/HomeCaptiveViewService](MACHOS/HomeCaptiveViewService.md)
+- [/Applications/HomeUIService.app/HomeUIService](MACHOS/HomeUIService.md)
+- [/Applications/InCallService.app/InCallService](MACHOS/InCallService.md)
+- [/Applications/InCallService.app/PlugIns/IntentsUI.appex/IntentsUI](MACHOS/IntentsUI.md)
+- [/Applications/Jellyfish.app/PlugIns/Animoji.appex/Animoji](MACHOS/Animoji.md)
+- [/Applications/LimitedAccessPromptView.app/LimitedAccessPromptView](MACHOS/LimitedAccessPromptView.md)
+- [/Applications/LocalAuthenticationUIService.app/LocalAuthenticationUIService](MACHOS/LocalAuthenticationUIService.md)
+- [/Applications/MTLReplayer.app/MTLReplayer](MACHOS/MTLReplayer.md)
+- [/Applications/MagnifierAngel.app/MagnifierAngel](MACHOS/MagnifierAngel.md)
+- [/Applications/Media.app/Media](MACHOS/Media.md)
+- [/Applications/MediaRemoteUI.app/MediaRemoteUI](MACHOS/MediaRemoteUI.md)
+- [/Applications/MediaRemoteUIService.app/MediaRemoteUIService](MACHOS/MediaRemoteUIService.md)
+- [/Applications/MobilePhone.app/Extensions/PhoneFocus.appex/PhoneFocus](MACHOS/PhoneFocus.md)
+- [/Applications/MobilePhone.app/MobilePhone](MACHOS/MobilePhone.md)
+- [/Applications/MobilePhone.app/PlugIns/VoicemailMessageNotificationExtension.appex/VoicemailMessageNotificationExtension](MACHOS/VoicemailMessageNotificationExtension.md)
+- [/Applications/MomentsUIService.app/Frameworks/MomentsUIServiceCore.framework/MomentsUIServiceCore](MACHOS/MomentsUIServiceCore.md)
+- [/Applications/MomentsUIService.app/MomentsUIService](MACHOS/MomentsUIService.md)
+- [/Applications/MusicRecognition.app/MusicRecognition](MACHOS/MusicRecognition.md)
+- [/Applications/NFCUISceneService.app/NFCUISceneService](MACHOS/NFCUISceneService.md)
+- [/Applications/PASViewService.app/PASViewService](MACHOS/PASViewService.md)
+- [/Applications/PCViewService.app/PCViewService](MACHOS/PCViewService.md)
+- [/Applications/PeopleMessageService.app/Extensions/PeopleLegacyMessageService.appex/PeopleLegacyMessageService](MACHOS/PeopleLegacyMessageService.md)
+- [/Applications/PeopleMessageService.app/PeopleMessageService](MACHOS/PeopleMessageService.md)
+- [/Applications/PeopleMessageService.app/PlugIns/PeopleMessagesAskToBuy.appex/PeopleMessagesAskToBuy](MACHOS/PeopleMessagesAskToBuy.md)
+- [/Applications/PeopleMessageService.app/PlugIns/PeopleMessagesScreenTime.appex/PeopleMessagesScreenTime](MACHOS/PeopleMessagesScreenTime.md)
+- [/Applications/PeopleViewService.app/PeopleViewService](MACHOS/PeopleViewService.md)
+- [/Applications/PeopleViewService.app/PlugIns/PeopleWidget_iOSExtension.appex/PeopleWidget_iOSExtension](MACHOS/PeopleWidget_iOSExtension.md)
+- [/Applications/PeopleViewService.app/PlugIns/SelectPerson_iOS.appex/SelectPerson_iOS](MACHOS/SelectPerson_iOS.md)
+- [/Applications/PosterBoard.app/XPCServices/PosterPlatformSupportBundleService.xpc/PosterPlatformSupportBundleService](MACHOS/PosterPlatformSupportBundleService.md)
+- [/Applications/Preferences.app/Preferences](MACHOS/Preferences.md)
+- [/Applications/PreviewShell.app/PreviewShell](MACHOS/PreviewShell.md)
+- [/Applications/Print Center.app/PlugIns/PrintCenterWidgetExtension.iOS.appex/PrintCenterWidgetExtension.iOS](MACHOS/PrintCenterWidgetExtension.iOS.md)
+- [/Applications/Print Center.app/Print Center](MACHOS/Print_Center.md)
+- [/Applications/ProximityReaderSceneUI.app/ProximityReaderSceneUI](MACHOS/ProximityReaderSceneUI.md)
+- [/Applications/ProximityReaderUIService.app/ProximityReaderUIService](MACHOS/ProximityReaderUIService.md)
+- [/Applications/RemotePaymentPassActionsService.app/PlugIns/RemotePaymentPassActionsMessagesExtension.appex/RemotePaymentPassActionsMessagesExtension](MACHOS/RemotePaymentPassActionsMessagesExtension.md)
+- [/Applications/ReplayKitAngel.app/ReplayKitAngel](MACHOS/ReplayKitAngel.md)
+- [/Applications/SESUIServiceApp.app/SESUIServiceApp](MACHOS/SESUIServiceApp.md)
+- [/Applications/SOSBuddy.app/SOSBuddy](MACHOS/SOSBuddy.md)
+- [/Applications/SafetyMonitorApp.app/SafetyMonitorApp](MACHOS/SafetyMonitorApp.md)
+- [/Applications/Screen Time.app/PlugIns/ScreenTimeWidgetExtension.appex/ScreenTimeWidgetExtension](MACHOS/ScreenTimeWidgetExtension.md)
+- [/Applications/Screen Time.app/PlugIns/ScreenTimeWidgetIntentsExtension.appex/ScreenTimeWidgetIntentsExtension](MACHOS/ScreenTimeWidgetIntentsExtension.md)
+- [/Applications/Screen Time.app/Screen Time](MACHOS/Screen_Time.md)
+- [/Applications/ScreenContinuityShell.app/ScreenContinuityShell](MACHOS/ScreenContinuityShell.md)
+- [/Applications/ScreenshotServicesService.app/ScreenshotServicesService](MACHOS/ScreenshotServicesService.md)
+- [/Applications/Setup.app/Setup](MACHOS/Setup.md)
+- [/Applications/SharingUIService.app/SharingUIService](MACHOS/SharingUIService.md)
+- [/Applications/SharingViewService.app/SharingViewService](MACHOS/SharingViewService.md)
+- [/Applications/ShazamEventsApp.app/ShazamEventsApp](MACHOS/ShazamEventsApp.md)
+- [/Applications/Sidecar.app/PlugIns/ContinuityCamera.appex/ContinuityCamera](MACHOS/ContinuityCamera.md)
+- [/Applications/Sidecar.app/PlugIns/ContinuityDisplay.appex/ContinuityDisplay](MACHOS/ContinuityDisplay.md)
+- [/Applications/Sidecar.app/PlugIns/ContinuityMarkup.appex/ContinuityMarkup](MACHOS/ContinuityMarkup.md)
+- [/Applications/Sidecar.app/PlugIns/ContinuitySignature.appex/ContinuitySignature](MACHOS/ContinuitySignature.md)
+- [/Applications/Sidecar.app/PlugIns/ContinuitySketch.appex/ContinuitySketch](MACHOS/ContinuitySketch.md)
+- [/Applications/Sidecar.app/Sidecar](MACHOS/Sidecar.md)
+- [/Applications/Siri.app/Siri](MACHOS/Siri.md)
+- [/Applications/SleepLockScreen.app/SleepLockScreen](MACHOS/SleepLockScreen.md)
+- [/Applications/SoftwareUpdateUIService.app/SoftwareUpdateUIService](MACHOS/SoftwareUpdateUIService.md)
+- [/Applications/StickerPickerService.app/StickerPickerService](MACHOS/StickerPickerService.md)
+- [/Applications/StickersUltra.app/PlugIns/StickersUltraExtension.appex/StickersUltraExtension](MACHOS/StickersUltraExtension.md)
+- [/Applications/StoreKitUISceneService.app/StoreKitUISceneService](MACHOS/StoreKitUISceneService.md)
+- [/Applications/StoreKitUIService.app/StoreKitUIService](MACHOS/StoreKitUIService.md)
+- [/Applications/SupportFlow.app/SupportFlow](MACHOS/SupportFlow.md)
+- [/Applications/SystemActions.app/SystemActions](MACHOS/SystemActions.md)
+- [/Applications/SystemVoiceAssistant.app/SystemVoiceAssistant](MACHOS/SystemVoiceAssistant.md)
+- [/Applications/TDGSharingViewService.app/TDGSharingViewService](MACHOS/TDGSharingViewService.md)
+- [/Applications/TVSetupUIService.app/TVSetupUIService](MACHOS/TVSetupUIService.md)
+- [/Applications/Tamale.app/Tamale](MACHOS/Tamale.md)
+- [/Applications/Text Message Filter.app/PlugIns/extensionFilter.appex/extensionFilter](MACHOS/extensionFilter.md)
+- [/Applications/Text Message Filter.app/Text Message Filter](MACHOS/Text_Message_Filter.md)
+- [/Applications/TirePressure.app/TirePressure](MACHOS/TirePressure.md)
+- [/Applications/Trip.app/Trip](MACHOS/Trip.md)
+- [/Applications/Vehicle.app/Vehicle](MACHOS/Vehicle.md)
+- [/Applications/WritingToolsUIService.app/WritingToolsUIService](MACHOS/WritingToolsUIService.md)
+- [/Library/Audio/Plug-Ins/HAL/VirtualAudio.plugin/VirtualAudio](MACHOS/VirtualAudio.md)
+- [/System/Applications/Family/InviteMessageBubbleExtension.appex/InviteMessageBubbleExtension](MACHOS/InviteMessageBubbleExtension.md)
+- [/System/DriverKit/usr/lib/system/libsystem_malloc_debug.dylib](MACHOS/libsystem_malloc_debug.dylib.md)
+- [/System/ExclaveKit/System/Library/Frameworks/T8150_IR_ISP_EK_Component.framework/T8150_IR_ISP_EK_Component_asan](MACHOS/T8150_IR_ISP_EK_Component_asan.md)
+- [/System/ExclaveKit/System/Library/Frameworks/T8150_RGB_ISP_EK_Component.framework/T8150_RGB_ISP_EK_Component_asan](MACHOS/T8150_RGB_ISP_EK_Component_asan.md)
+- [/System/ExclaveKit/System/Library/PrivateFrameworks/T8150_CoreAAClientKit.framework/T8150_CoreAAClientKit_asan](MACHOS/T8150_CoreAAClientKit_asan.md)
+- [/System/ExclaveKit/System/Library/PrivateFrameworks/T8150_ExclaveISPSharedLib_exclavekit.framework/T8150_ExclaveISPSharedLib_exclavekit_asan](MACHOS/T8150_ExclaveISPSharedLib_exclavekit_asan.md)
+- [/System/ExclaveKit/usr/lib/dyld](MACHOS/dyld.md)
+- [/System/ExclaveKit/usr/lib/system/libsystem_malloc_debug.dylib](MACHOS/libsystem_malloc_debug.dylib.md)
+- [/System/Library/AccessibilityBundles/AXFeatureOverrideServer.axuiservice/AXFeatureOverrideServer](MACHOS/AXFeatureOverrideServer.md)
+- [/System/Library/AccessibilityBundles/AXGuestPassServer.axuiservice/AXGuestPassServer](MACHOS/AXGuestPassServer.md)
+- [/System/Library/AccessibilityBundles/AXHapticMusicServer.axuiservice/AXHapticMusicServer](MACHOS/AXHapticMusicServer.md)
+- [/System/Library/AccessibilityBundles/AXMotionCuesServer.axuiservice/AXMotionCuesServer](MACHOS/AXMotionCuesServer.md)
+- [/System/Library/AccessibilityBundles/AXNameRecognitionPluginService.axuiservice/AXNameRecognitionPluginService](MACHOS/AXNameRecognitionPluginService.md)
+- [/System/Library/AccessibilityBundles/AXWatchRemoteScreenUIServer.axuiservice/AXWatchRemoteScreenUIServer](MACHOS/AXWatchRemoteScreenUIServer.md)
+- [/System/Library/AccessibilityBundles/AccessibilityReaderUIServer.axuiservice/AccessibilityReaderUIServer](MACHOS/AccessibilityReaderUIServer.md)
+- [/System/Library/AccessibilityBundles/ClarityUIServer.axuiservice/ClarityUIServer](MACHOS/ClarityUIServer.md)
+- [/System/Library/AccessibilityBundles/GAXBackboardServer.bundle/GAXBackboardServer](MACHOS/GAXBackboardServer.md)
+- [/System/Library/AccessibilityBundles/GAXSpringboardServer.bundle/GAXSpringboardServer](MACHOS/GAXSpringboardServer.md)
+- [/System/Library/AccessibilityBundles/LiveSpeechUIService.axuiservice/LiveSpeechUIService](MACHOS/LiveSpeechUIService.md)
+- [/System/Library/AccessibilityBundles/NTKCustomization.axbundle/NTKCustomization](MACHOS/NTKCustomization.md)
+- [/System/Library/AccessibilityBundles/NanoTimeKitCompanion.axbundle/NanoTimeKitCompanion](MACHOS/NanoTimeKitCompanion.md)
+- [/System/Library/AccessibilityBundles/ScreenSharingAccessibilityServer.axuiservice/ScreenSharingAccessibilityServer](MACHOS/ScreenSharingAccessibilityServer.md)
+- [/System/Library/AccessibilityBundles/SpeakThis.axuiservice/SpeakThis](MACHOS/SpeakThis.md)
+- [/System/Library/AccessibilityBundles/VoiceOver.axuiservice/VoiceOver](MACHOS/VoiceOver.md)
+- [/System/Library/Accounts/DataclassOwners/DeviceEnrollmentDataClassPlugIn.bundle/DeviceEnrollmentDataClassPlugIn](MACHOS/DeviceEnrollmentDataClassPlugIn.md)
+- [/System/Library/Accounts/DataclassOwners/FreeformDataclassOwner.bundle/FreeformDataclassOwner](MACHOS/FreeformDataclassOwner.md)
+- [/System/Library/Accounts/DataclassOwners/JournalDataclassOwner.bundle/JournalDataclassOwner](MACHOS/JournalDataclassOwner.md)
+- [/System/Library/Accounts/Notification/ASDAccountNotificationPlugin.bundle/ASDAccountNotificationPlugin](MACHOS/ASDAccountNotificationPlugin.md)
+- [/System/Library/Accounts/Notification/CloudDocsAccountNotificationPlugin.bundle/CloudDocsAccountNotificationPlugin](MACHOS/CloudDocsAccountNotificationPlugin.md)
+- [/System/Library/Accounts/Notification/TVAppServicesAccountNotificationPlugin.bundle/TVAppServicesAccountNotificationPlugin](MACHOS/TVAppServicesAccountNotificationPlugin.md)
+- [/System/Library/Accounts/ServiceOwners/AMSMediaServiceOwner.bundle/AMSMediaServiceOwner](MACHOS/AMSMediaServiceOwner.md)
+- [/System/Library/AppRemovalServices/com.apple.weather.appremoval.xpc/com.apple.weather.appremoval](MACHOS/com.apple.weather.appremoval.md)
+- [/System/Library/AppleMediaServices/DynamicUI/PlugIns/CoreDynamicUIPlugin.bundle/CoreDynamicUIPlugin](MACHOS/CoreDynamicUIPlugin.md)
+- [/System/Library/AppleMediaServices/DynamicUI/PlugIns/StoreDynamicUIPlugin.bundle/StoreDynamicUIPlugin](MACHOS/StoreDynamicUIPlugin.md)
+- [/System/Library/Assistant/FlowDelegatePlugins/AlarmFlowPlugin.bundle/AlarmFlowPlugin](MACHOS/AlarmFlowPlugin.md)
+- [/System/Library/Assistant/FlowDelegatePlugins/AudioFlowDelegatePlugin.bundle/AudioFlowDelegatePlugin](MACHOS/AudioFlowDelegatePlugin.md)
+- [/System/Library/Assistant/FlowDelegatePlugins/CAMRootFlowPlugin.bundle/CAMRootFlowPlugin](MACHOS/CAMRootFlowPlugin.md)
+- [/System/Library/Assistant/FlowDelegatePlugins/CarCommandsFlowDelegatePlugin.bundle/CarCommandsFlowDelegatePlugin](MACHOS/CarCommandsFlowDelegatePlugin.md)
+- [/System/Library/Assistant/FlowDelegatePlugins/ClockFlowPlugin.bundle/ClockFlowPlugin](MACHOS/ClockFlowPlugin.md)
+- [/System/Library/Assistant/FlowDelegatePlugins/ContactsFlowDelegatePlugin.bundle/ContactsFlowDelegatePlugin](MACHOS/ContactsFlowDelegatePlugin.md)
+- [/System/Library/Assistant/FlowDelegatePlugins/DailyBriefingFlowPlugin.bundle/DailyBriefingFlowPlugin](MACHOS/DailyBriefingFlowPlugin.md)
+- [/System/Library/Assistant/FlowDelegatePlugins/EdutainmentFlowPlugin.bundle/EdutainmentFlowPlugin](MACHOS/EdutainmentFlowPlugin.md)
+- [/System/Library/Assistant/FlowDelegatePlugins/EmergencyFlowPlugin.bundle/EmergencyFlowPlugin](MACHOS/EmergencyFlowPlugin.md)
+- [/System/Library/Assistant/FlowDelegatePlugins/FindMyFlowPlugin.bundle/FindMyFlowPlugin](MACHOS/FindMyFlowPlugin.md)
+- [/System/Library/Assistant/FlowDelegatePlugins/GeoFlowDelegatePlugin.bundle/GeoFlowDelegatePlugin](MACHOS/GeoFlowDelegatePlugin.md)
+- [/System/Library/Assistant/FlowDelegatePlugins/HealthFlowDelegatePlugin.bundle/HealthFlowDelegatePlugin](MACHOS/HealthFlowDelegatePlugin.md)
+- [/System/Library/Assistant/FlowDelegatePlugins/HomeCommunicationFlowDelegatePlugin.bundle/HomeCommunicationFlowDelegatePlugin](MACHOS/HomeCommunicationFlowDelegatePlugin.md)
+- [/System/Library/Assistant/FlowDelegatePlugins/IFFlowPlugin.bundle/IFFlowPlugin](MACHOS/IFFlowPlugin.md)
+- [/System/Library/Assistant/FlowDelegatePlugins/IdentityFlowPlugin.bundle/IdentityFlowPlugin](MACHOS/IdentityFlowPlugin.md)
+- [/System/Library/Assistant/FlowDelegatePlugins/InformationFlowPlugin.bundle/InformationFlowPlugin](MACHOS/InformationFlowPlugin.md)
+- [/System/Library/Assistant/FlowDelegatePlugins/MailFlowDelegatePlugin.bundle/MailFlowDelegatePlugin](MACHOS/MailFlowDelegatePlugin.md)
+- [/System/Library/Assistant/FlowDelegatePlugins/NotificationsFlowDelegatePlugin.bundle/NotificationsFlowDelegatePlugin](MACHOS/NotificationsFlowDelegatePlugin.md)
+- [/System/Library/Assistant/FlowDelegatePlugins/PCSReadingFlowDelegatePlugin.bundle/PCSReadingFlowDelegatePlugin](MACHOS/PCSReadingFlowDelegatePlugin.md)
+- [/System/Library/Assistant/FlowDelegatePlugins/PhoneCallFlowDelegatePlugin.bundle/PhoneCallFlowDelegatePlugin](MACHOS/PhoneCallFlowDelegatePlugin.md)
+- [/System/Library/Assistant/FlowDelegatePlugins/SettingsFlowDelegatePlugin.bundle/SettingsFlowDelegatePlugin](MACHOS/SettingsFlowDelegatePlugin.md)
+- [/System/Library/Assistant/FlowDelegatePlugins/SiriLinkFlowPlugin.bundle/SiriLinkFlowPlugin](MACHOS/SiriLinkFlowPlugin.md)
+- [/System/Library/Assistant/FlowDelegatePlugins/SiriSuggestionsFlowPlugin.bundle/SiriSuggestionsFlowPlugin](MACHOS/SiriSuggestionsFlowPlugin.md)
+- [/System/Library/Assistant/FlowDelegatePlugins/SocialConversationFlowDelegatePlugin.bundle/SocialConversationFlowDelegatePlugin](MACHOS/SocialConversationFlowDelegatePlugin.md)
+- [/System/Library/Assistant/FlowDelegatePlugins/SystemCommandsFlowDelegatePlugin.bundle/SystemCommandsFlowDelegatePlugin](MACHOS/SystemCommandsFlowDelegatePlugin.md)
+- [/System/Library/Assistant/FlowDelegatePlugins/TimerFlowDelegatePlugin.bundle/TimerFlowDelegatePlugin](MACHOS/TimerFlowDelegatePlugin.md)
+- [/System/Library/Assistant/FlowDelegatePlugins/WellnessFlowPlugin.bundle/WellnessFlowPlugin](MACHOS/WellnessFlowPlugin.md)
+- [/System/Library/Assistant/Plugins/Maps.assistantBundle/Maps](MACHOS/Maps.md)
+- [/System/Library/Assistant/Plugins/SiriFindMyBundle.assistantBundle/SiriFindMyBundle](MACHOS/SiriFindMyBundle.md)
+- [/System/Library/Assistant/Plugins/SiriPrivateLearningAnalytics.assistantBundle/SiriPrivateLearningAnalytics](MACHOS/SiriPrivateLearningAnalytics.md)
+- [/System/Library/Assistant/PrivateLearningPlugins/SiriPrivateLearningInferencePlugin.bundle/SiriPrivateLearningInferencePlugin](MACHOS/SiriPrivateLearningInferencePlugin.md)
+- [/System/Library/Assistant/PrivateLearningPlugins/SiriPrivateLearningPatternExtractionPlugin.bundle/SiriPrivateLearningPatternExtractionPlugin](MACHOS/SiriPrivateLearningPatternExtractionPlugin.md)
+- [/System/Library/Assistant/PrivateLearningPlugins/SiriPrivateLearningTTSMispronunciationPlugin.bundle/SiriPrivateLearningTTSMispronunciationPlugin](MACHOS/SiriPrivateLearningTTSMispronunciationPlugin.md)
+- [/System/Library/Assistant/PrivateLearningPlugins/SiriReferenceResolutionMetricsPlugin.bundle/SiriReferenceResolutionMetricsPlugin](MACHOS/SiriReferenceResolutionMetricsPlugin.md)
+- [/System/Library/Assistant/UIPlugins/Maps.siriUIBundle/Maps](MACHOS/Maps.md)
+- [/System/Library/Assistant/UIPlugins/Notes.siriUIBundle/Notes](MACHOS/Notes.md)
+- [/System/Library/Assistant/UIPlugins/RemindersSiriUIPlugin.siriUIBundle/RemindersSiriUIPlugin](MACHOS/RemindersSiriUIPlugin.md)
+- [/System/Library/Audio/MIDI Drivers/AppleIDAMDriver.plugin/AppleIDAMDriver](MACHOS/AppleIDAMDriver.md)
+- [/System/Library/Audio/MIDI Drivers/AppleMIDIBluetoothDriver.plugin/AppleMIDIBluetoothDriver](MACHOS/AppleMIDIBluetoothDriver.md)
+- [/System/Library/Audio/MIDI Drivers/AppleMIDINetworkDriver.plugin/AppleMIDINetworkDriver](MACHOS/AppleMIDINetworkDriver.md)
+- [/System/Library/Audio/MIDI Drivers/AppleMIDIUSBDriver.plugin/AppleMIDIUSBDriver](MACHOS/AppleMIDIUSBDriver.md)
+- [/System/Library/Audio/MIDI Drivers/YamahaUSBMIDIDriver.plugin/YamahaUSBMIDIDriver](MACHOS/YamahaUSBMIDIDriver.md)
+- [/System/Library/Audio/Plug-Ins/HAL/BTAudioHALPlugin.driver/BTAudioHALPlugin](MACHOS/BTAudioHALPlugin.md)
+- [/System/Library/Audio/Plug-Ins/HAL/CarPlayHalogen.driver/CarPlayHalogen](MACHOS/CarPlayHalogen.md)
+- [/System/Library/Audio/Plug-Ins/usbaudio.bundle/usbaudiod](MACHOS/usbaudiod.md)
+- [/System/Library/ControlCenter/Bundles/AudioConferenceControlCenterModule.bundle/AudioConferenceControlCenterModule](MACHOS/AudioConferenceControlCenterModule.md)
+- [/System/Library/ControlCenter/Bundles/RPControlCenterModuleHQLR.bundle/RPControlCenterModuleHQLR](MACHOS/RPControlCenterModuleHQLR.md)
+- [/System/Library/ControlCenter/Bundles/VideoConferenceControlCenterModule.bundle/VideoConferenceControlCenterModule](MACHOS/VideoConferenceControlCenterModule.md)
+- [/System/Library/CoreServices/AccessibilityUIServer.app/PlugIns/AccessibilityControlsExtension.appex/AccessibilityControlsExtension](MACHOS/AccessibilityControlsExtension.md)
+- [/System/Library/CoreServices/AssistiveTouch.app/assistivetouchd](MACHOS/assistivetouchd.md)
+- [/System/Library/CoreServices/BluetoothUIService.app/BluetoothUIService](MACHOS/BluetoothUIService.md)
+- [/System/Library/CoreServices/CSUIAUpcallBundle.bundle/CSUIAUpcallBundle](MACHOS/CSUIAUpcallBundle.md)
+- [/System/Library/CoreServices/CarPlayTemplateUIHost.app/CarPlayTemplateUIHost](MACHOS/CarPlayTemplateUIHost.md)
+- [/System/Library/CoreServices/ClarityBoard.app/ClarityBoard](MACHOS/ClarityBoard.md)
+- [/System/Library/CoreServices/GameOverlayUI.app/GameOverlayUI](MACHOS/GameOverlayUI.md)
+- [/System/Library/CoreServices/IntelligentLight.app/IntelligentLight](MACHOS/IntelligentLight.md)
+- [/System/Library/CoreServices/LiveTranscriptionUI.app/LiveTranscriptionUI](MACHOS/LiveTranscriptionUI.md)
+- [/System/Library/CoreServices/MusicKitUI.app/MusicKitUI](MACHOS/MusicKitUI.md)
+- [/System/Library/CoreServices/ReportCrash](MACHOS/ReportCrash.md)
+- [/System/Library/CoreServices/ShortcutsActions.app/Extensions/ShortcutsTopHitsExtension.appex/ShortcutsTopHitsExtension](MACHOS/ShortcutsTopHitsExtension.md)
+- [/System/Library/CoreServices/VoiceOverTouch.app/vot](MACHOS/vot.md)
+- [/System/Library/CoreServices/appplaceholdersyncd](MACHOS/appplaceholdersyncd.md)
+- [/System/Library/CoreServices/powerd.bundle/powerd](MACHOS/powerd.md)
+- [/System/Library/DataClassMigrators/AddressBookLegacy.migrator/AddressBookLegacy](MACHOS/AddressBookLegacy.md)
+- [/System/Library/DataClassMigrators/BuddyMigrator.migrator/BuddyMigrator](MACHOS/BuddyMigrator.md)
+- [/System/Library/DataClassMigrators/MobileActivationMigrator.migrator/MobileActivationMigrator](MACHOS/MobileActivationMigrator.md)
+- [/System/Library/DataClassMigrators/MobileMailMigrator.migrator/MobileMailMigrator](MACHOS/MobileMailMigrator.md)
+- [/System/Library/DataClassMigrators/MobileSafari.migrator/MobileSafari](MACHOS/MobileSafari.md)
+- [/System/Library/DigitalSeparation/SharingSources/ActivityDigitalSeparation.bundle/ActivityDigitalSeparation](MACHOS/ActivityDigitalSeparation.md)
+- [/System/Library/DigitalSeparation/SharingSources/DSNotesPlugin.bundle/DSNotesPlugin](MACHOS/DSNotesPlugin.md)
+- [/System/Library/DigitalSeparation/SharingSources/FindMyItemsDigitalSeparation.bundle/FindMyItemsDigitalSeparation](MACHOS/FindMyItemsDigitalSeparation.md)
+- [/System/Library/DigitalSeparation/SharingSources/FindMyPeopleDigitalSeparation.bundle/FindMyPeopleDigitalSeparation](MACHOS/FindMyPeopleDigitalSeparation.md)
+- [/System/Library/DistributedEvaluation/Plugins/siriinference-dodml-plugin.desPlugin/siriinference-dodml-plugin](MACHOS/siriinference-dodml-plugin.md)
+- [/System/Library/DoNotDisturb/ClientBundles/com.apple.donotdisturb.private.smart-trigger.bundle/com.apple.donotdisturb.private.smart-trigger](MACHOS/com.apple.donotdisturb.private.smart-trigger.md)
+- [/System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN](MACHOS/com.apple.DriverKit-AppleBCMWLAN.md)
+- [/System/Library/ExtensionKit/Extensions/AAKPriMLPlugin.appex/AAKPriMLPlugin](MACHOS/AAKPriMLPlugin.md)
+- [/System/Library/ExtensionKit/Extensions/ADAskForExceptionExtension.appex/ADAskForExceptionExtension](MACHOS/ADAskForExceptionExtension.md)
+- [/System/Library/ExtensionKit/Extensions/ASDAgeAssuranceExtension.appex/ASDAgeAssuranceExtension](MACHOS/ASDAgeAssuranceExtension.md)
+- [/System/Library/ExtensionKit/Extensions/ASRFullPayloadCorrection.appex/ASRFullPayloadCorrection](MACHOS/ASRFullPayloadCorrection.md)
+- [/System/Library/ExtensionKit/Extensions/AVCPlugin.appex/AVCPlugin](MACHOS/AVCPlugin.md)
+- [/System/Library/ExtensionKit/Extensions/ActionButtonSettingsAppIntents.appex/ActionButtonSettingsAppIntents](MACHOS/ActionButtonSettingsAppIntents.md)
+- [/System/Library/ExtensionKit/Extensions/AirDropSettingsIntents.appex/AirDropSettingsIntents](MACHOS/AirDropSettingsIntents.md)
+- [/System/Library/ExtensionKit/Extensions/AmbientPhotoFramePosterProvider.appex/AmbientPhotoFramePosterProvider](MACHOS/AmbientPhotoFramePosterProvider.md)
+- [/System/Library/ExtensionKit/Extensions/AppStoreEvalLighthouseWorker.appex/AppStoreEvalLighthouseWorker](MACHOS/AppStoreEvalLighthouseWorker.md)
+- [/System/Library/ExtensionKit/Extensions/AppStoreSettingsAppIntents.appex/AppStoreSettingsAppIntents](MACHOS/AppStoreSettingsAppIntents.md)
+- [/System/Library/ExtensionKit/Extensions/AppleAccountIntents.appex/AppleAccountIntents](MACHOS/AppleAccountIntents.md)
+- [/System/Library/ExtensionKit/Extensions/AskToExtension.appex/AskToExtension](MACHOS/AskToExtension.md)
+- [/System/Library/ExtensionKit/Extensions/AssetMetricsExtension.appex/AssetMetricsExtension](MACHOS/AssetMetricsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/AssistantSettingsControlsExtension.appex/AssistantSettingsControlsExtension](MACHOS/AssistantSettingsControlsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/AudioAppIntentsExtension.appex/AudioAppIntentsExtension](MACHOS/AudioAppIntentsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/AudiovisualThumbnailExtension.appex/AudiovisualThumbnailExtension](MACHOS/AudiovisualThumbnailExtension.md)
+- [/System/Library/ExtensionKit/Extensions/AutocompleteAppIntentsExtension.appex/AutocompleteAppIntentsExtension](MACHOS/AutocompleteAppIntentsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/AvatarPosterExtension.appex/AvatarPosterExtension](MACHOS/AvatarPosterExtension.md)
+- [/System/Library/ExtensionKit/Extensions/BatterySettingsIntentsExtension.appex/BatterySettingsIntentsExtension](MACHOS/BatterySettingsIntentsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/BiomeSELFIngestor.appex/BiomeSELFIngestor](MACHOS/BiomeSELFIngestor.md)
+- [/System/Library/ExtensionKit/Extensions/CameraSettingsAppIntentsExtension.appex/CameraSettingsAppIntentsExtension](MACHOS/CameraSettingsAppIntentsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/ChallengesMessageExtension.appex/ChallengesMessageExtension](MACHOS/ChallengesMessageExtension.md)
+- [/System/Library/ExtensionKit/Extensions/ClassKitAppIntents.appex/ClassKitAppIntents](MACHOS/ClassKitAppIntents.md)
+- [/System/Library/ExtensionKit/Extensions/ClockPosterExtension.appex/ClockPosterExtension](MACHOS/ClockPosterExtension.md)
+- [/System/Library/ExtensionKit/Extensions/CloudWorker.appex/CloudWorker](MACHOS/CloudWorker.md)
+- [/System/Library/ExtensionKit/Extensions/CollectionsPoster.appex/CollectionsPoster](MACHOS/CollectionsPoster.md)
+- [/System/Library/ExtensionKit/Extensions/CompassSettingsAppIntents.appex/CompassSettingsAppIntents](MACHOS/CompassSettingsAppIntents.md)
+- [/System/Library/ExtensionKit/Extensions/ContactThumbnailExtension.appex/ContactThumbnailExtension](MACHOS/ContactThumbnailExtension.md)
+- [/System/Library/ExtensionKit/Extensions/ContactsSettingsIntentsExtension.appex/ContactsSettingsIntentsExtension](MACHOS/ContactsSettingsIntentsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/ControlCenterAppIntentsExtension.appex/ControlCenterAppIntentsExtension](MACHOS/ControlCenterAppIntentsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/CoreMotionFoundationModelExtension.appex/CoreMotionFoundationModelExtension](MACHOS/CoreMotionFoundationModelExtension.md)
+- [/System/Library/ExtensionKit/Extensions/CustomRingtoneAction.appex/CustomRingtoneAction](MACHOS/CustomRingtoneAction.md)
+- [/System/Library/ExtensionKit/Extensions/DevicePropertiesExtension.appex/DevicePropertiesExtension](MACHOS/DevicePropertiesExtension.md)
+- [/System/Library/ExtensionKit/Extensions/DictionarySettingsExtension.appex/DictionarySettingsExtension](MACHOS/DictionarySettingsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/DisplayAndBrightnessSettingsExtension.appex/DisplayAndBrightnessSettingsExtension](MACHOS/DisplayAndBrightnessSettingsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/DoNotDisturbAppIntents.appex/DoNotDisturbAppIntents](MACHOS/DoNotDisturbAppIntents.md)
+- [/System/Library/ExtensionKit/Extensions/DocumentAppShortcuts.appex/DocumentAppShortcuts](MACHOS/DocumentAppShortcuts.md)
+- [/System/Library/ExtensionKit/Extensions/DynamicBackgroundPosterExtension.appex/DynamicBackgroundPosterExtension](MACHOS/DynamicBackgroundPosterExtension.md)
+- [/System/Library/ExtensionKit/Extensions/EventKitUIRemoteUIExtension.appex/EventKitUIRemoteUIExtension](MACHOS/EventKitUIRemoteUIExtension.md)
+- [/System/Library/ExtensionKit/Extensions/FamilyIntents.appex/FamilyIntents](MACHOS/FamilyIntents.md)
+- [/System/Library/ExtensionKit/Extensions/FamilyOutOfProcessUIExtension.appex/FamilyOutOfProcessUIExtension](MACHOS/FamilyOutOfProcessUIExtension.md)
+- [/System/Library/ExtensionKit/Extensions/FedAutoEvalPlugin.appex/FedAutoEvalPlugin](MACHOS/FedAutoEvalPlugin.md)
+- [/System/Library/ExtensionKit/Extensions/FedStatsMLHostPlugin.appex/FedStatsMLHostPlugin](MACHOS/FedStatsMLHostPlugin.md)
+- [/System/Library/ExtensionKit/Extensions/FedStatsMLHostPluginClassA.appex/FedStatsMLHostPluginClassA](MACHOS/FedStatsMLHostPluginClassA.md)
+- [/System/Library/ExtensionKit/Extensions/FedStatsMLHostPluginClassB.appex/FedStatsMLHostPluginClassB](MACHOS/FedStatsMLHostPluginClassB.md)
+- [/System/Library/ExtensionKit/Extensions/FindMyIntentsExtension.appex/FindMyIntentsExtension](MACHOS/FindMyIntentsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/FindMySettingsAppIntentsExtension.appex/FindMySettingsAppIntentsExtension](MACHOS/FindMySettingsAppIntentsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/FitnessSettingsIntents.appex/FitnessSettingsIntents](MACHOS/FitnessSettingsIntents.md)
+- [/System/Library/ExtensionKit/Extensions/FontIntents.appex/FontIntents](MACHOS/FontIntents.md)
+- [/System/Library/ExtensionKit/Extensions/GMSSELFIngestor.appex/GMSSELFIngestor](MACHOS/GMSSELFIngestor.md)
+- [/System/Library/ExtensionKit/Extensions/GPUExtension.appex/com.apple.WebKit.GPU](MACHOS/com.apple.WebKit.GPU.md)
+- [/System/Library/ExtensionKit/Extensions/GameCenterMessageExtension.appex/GameCenterMessageExtension](MACHOS/GameCenterMessageExtension.md)
+- [/System/Library/ExtensionKit/Extensions/GameCenterSettingsDeviceExpertExtension.appex/GameCenterSettingsDeviceExpertExtension](MACHOS/GameCenterSettingsDeviceExpertExtension.md)
+- [/System/Library/ExtensionKit/Extensions/GenerativeAssistantExtension.appex/GenerativeAssistantExtension](MACHOS/GenerativeAssistantExtension.md)
+- [/System/Library/ExtensionKit/Extensions/GenerativeAssistantSettingsExtension.appex/GenerativeAssistantSettingsExtension](MACHOS/GenerativeAssistantSettingsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/GradientBackgroundPosterExtension.appex/GradientBackgroundPosterExtension](MACHOS/GradientBackgroundPosterExtension.md)
+- [/System/Library/ExtensionKit/Extensions/HealthStandaloneIntents.appex/HealthStandaloneIntents](MACHOS/HealthStandaloneIntents.md)
+- [/System/Library/ExtensionKit/Extensions/HostInferenceProviderService.appex/HostInferenceProviderService](MACHOS/HostInferenceProviderService.md)
+- [/System/Library/ExtensionKit/Extensions/IFTelemetrySELFIngestor.appex/IFTelemetrySELFIngestor](MACHOS/IFTelemetrySELFIngestor.md)
+- [/System/Library/ExtensionKit/Extensions/IFTranscriptSELFIngestor.appex/IFTranscriptSELFIngestor](MACHOS/IFTranscriptSELFIngestor.md)
+- [/System/Library/ExtensionKit/Extensions/InferenceExtension.appex/InferenceExtension](MACHOS/InferenceExtension.md)
+- [/System/Library/ExtensionKit/Extensions/InferenceProviderService.appex/InferenceProviderService](MACHOS/InferenceProviderService.md)
+- [/System/Library/ExtensionKit/Extensions/InstalledAppsSettingsAppIntents.appex/InstalledAppsSettingsAppIntents](MACHOS/InstalledAppsSettingsAppIntents.md)
+- [/System/Library/ExtensionKit/Extensions/IntelligenceFlowAppIntentsExtension.appex/IntelligenceFlowAppIntentsExtension](MACHOS/IntelligenceFlowAppIntentsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/IntelligenceIntentsExtension.appex/IntelligenceIntentsExtension](MACHOS/IntelligenceIntentsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/IntelligencePlatformDataActionsAppIntentsExtension.appex/IntelligencePlatformDataActionsAppIntentsExtension](MACHOS/IntelligencePlatformDataActionsAppIntentsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/InternationalSettingsExtension.appex/InternationalSettingsExtension](MACHOS/InternationalSettingsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/KeyboardSettingsExtension.appex/KeyboardSettingsExtension](MACHOS/KeyboardSettingsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/LLMCacheSELFIngestor.appex/LLMCacheSELFIngestor](MACHOS/LLMCacheSELFIngestor.md)
+- [/System/Library/ExtensionKit/Extensions/LegalAndRegulatoryAppIntents.appex/LegalAndRegulatoryAppIntents](MACHOS/LegalAndRegulatoryAppIntents.md)
+- [/System/Library/ExtensionKit/Extensions/LighthouseASRReplay.appex/LighthouseASRReplay](MACHOS/LighthouseASRReplay.md)
+- [/System/Library/ExtensionKit/Extensions/LighthouseAVExtension.appex/LighthouseAVExtension](MACHOS/LighthouseAVExtension.md)
+- [/System/Library/ExtensionKit/Extensions/LighthouseAVShadowEval.appex/LighthouseAVShadowEval](MACHOS/LighthouseAVShadowEval.md)
+- [/System/Library/ExtensionKit/Extensions/LighthouseServicesAnalyticsExtension.appex/LighthouseServicesAnalyticsExtension](MACHOS/LighthouseServicesAnalyticsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/LocalCaptureAppIntents.appex/LocalCaptureAppIntents](MACHOS/LocalCaptureAppIntents.md)
+- [/System/Library/ExtensionKit/Extensions/MADViewServiceExtension.appex/MADViewServiceExtension](MACHOS/MADViewServiceExtension.md)
+- [/System/Library/ExtensionKit/Extensions/MCUIAppIntents.appex/MCUIAppIntents](MACHOS/MCUIAppIntents.md)
+- [/System/Library/ExtensionKit/Extensions/MKRemoteUI.appex/MKRemoteUI](MACHOS/MKRemoteUI.md)
+- [/System/Library/ExtensionKit/Extensions/MailSettingsIntentsExtension.appex/MailSettingsIntentsExtension](MACHOS/MailSettingsIntentsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/MapsSettingsAppIntents.appex/MapsSettingsAppIntents](MACHOS/MapsSettingsAppIntents.md)
+- [/System/Library/ExtensionKit/Extensions/MatterAccessoriesSettingsIntents.appex/MatterAccessoriesSettingsIntents](MACHOS/MatterAccessoriesSettingsIntents.md)
+- [/System/Library/ExtensionKit/Extensions/MediaMLExtension.appex/MediaMLExtension](MACHOS/MediaMLExtension.md)
+- [/System/Library/ExtensionKit/Extensions/MediaRemoteAppIntentsExtension.appex/MediaRemoteAppIntentsExtension](MACHOS/MediaRemoteAppIntentsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/MercuryPosterExtension.appex/MercuryPosterExtension](MACHOS/MercuryPosterExtension.md)
+- [/System/Library/ExtensionKit/Extensions/MercuryPosterExtension.appex/Space.metallib](MACHOS/Space.metallib.md)
+- [/System/Library/ExtensionKit/Extensions/MessagesAnalyticsWorker.appex/MessagesAnalyticsWorker](MACHOS/MessagesAnalyticsWorker.md)
+- [/System/Library/ExtensionKit/Extensions/MessagesSettingsWidgetKitExtension.appex/MessagesSettingsWidgetKitExtension](MACHOS/MessagesSettingsWidgetKitExtension.md)
+- [/System/Library/ExtensionKit/Extensions/MetricsExtension.appex/MetricsExtension](MACHOS/MetricsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/MusicEngagementExtension.appex/MusicEngagementExtension](MACHOS/MusicEngagementExtension.md)
+- [/System/Library/ExtensionKit/Extensions/MusicSettingsAppIntents.appex/MusicSettingsAppIntents](MACHOS/MusicSettingsAppIntents.md)
+- [/System/Library/ExtensionKit/Extensions/MusicUIEngagementExtension.appex/MusicUIEngagementExtension](MACHOS/MusicUIEngagementExtension.md)
+- [/System/Library/ExtensionKit/Extensions/NLPLearnerExtension.appex/NLPLearnerExtension](MACHOS/NLPLearnerExtension.md)
+- [/System/Library/ExtensionKit/Extensions/NetworkingExtension.appex/com.apple.WebKit.Networking](MACHOS/com.apple.WebKit.Networking.md)
+- [/System/Library/ExtensionKit/Extensions/NewDeviceOutreachIntents_iOS.appex/NewDeviceOutreachIntents_iOS](MACHOS/NewDeviceOutreachIntents_iOS.md)
+- [/System/Library/ExtensionKit/Extensions/Notification.appex/Notification](MACHOS/Notification.md)
+- [/System/Library/ExtensionKit/Extensions/NotificationsSettingsExtension.appex/NotificationsSettingsExtension](MACHOS/NotificationsSettingsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/ODDIExperimentationExtension.appex/ODDIExperimentationExtension](MACHOS/ODDIExperimentationExtension.md)
+- [/System/Library/ExtensionKit/Extensions/ODDIMetricsExtension.appex/ODDIMetricsExtension](MACHOS/ODDIMetricsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/ODDIPoirotMetricsExtension.appex/ODDIPoirotMetricsExtension](MACHOS/ODDIPoirotMetricsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/PCCAgentClientExtension.appex/PCCAgentClientExtension](MACHOS/PCCAgentClientExtension.md)
+- [/System/Library/ExtensionKit/Extensions/PFLASLAppEmbedding.appex/PFLASLAppEmbedding](MACHOS/PFLASLAppEmbedding.md)
+- [/System/Library/ExtensionKit/Extensions/PFLASLArcadeRanking.appex/PFLASLArcadeRanking](MACHOS/PFLASLArcadeRanking.md)
+- [/System/Library/ExtensionKit/Extensions/PFLASLArcadeRetention.appex/PFLASLArcadeRetention](MACHOS/PFLASLArcadeRetention.md)
+- [/System/Library/ExtensionKit/Extensions/PFLASLExperimental.appex/PFLASLExperimental](MACHOS/PFLASLExperimental.md)
+- [/System/Library/ExtensionKit/Extensions/PFLCSLAppStore.appex/PFLCSLAppStore](MACHOS/PFLCSLAppStore.md)
+- [/System/Library/ExtensionKit/Extensions/PFLCSLAppStore2.appex/PFLCSLAppStore2](MACHOS/PFLCSLAppStore2.md)
+- [/System/Library/ExtensionKit/Extensions/PassbookSettingsIntentExtension.appex/PassbookSettingsIntentExtension](MACHOS/PassbookSettingsIntentExtension.md)
+- [/System/Library/ExtensionKit/Extensions/PasscodeAndBiometricsSettingsAppIntentsExtension.appex/PasscodeAndBiometricsSettingsAppIntentsExtension](MACHOS/PasscodeAndBiometricsSettingsAppIntentsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/PasswordManagerAppIntentsExtension.appex/PasswordManagerAppIntentsExtension](MACHOS/PasswordManagerAppIntentsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/PasswordSettingsAppIntentsExtension.appex/PasswordSettingsAppIntentsExtension](MACHOS/PasswordSettingsAppIntentsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/PednetInferenceProviderTarget.appex/PednetInferenceProviderTarget](MACHOS/PednetInferenceProviderTarget.md)
+- [/System/Library/ExtensionKit/Extensions/PhotosPosterProvider.appex/PhotosPosterProvider](MACHOS/PhotosPosterProvider.md)
+- [/System/Library/ExtensionKit/Extensions/PnRCarPlayOnDeviceWorker.appex/PnRCarPlayOnDeviceWorker](MACHOS/PnRCarPlayOnDeviceWorker.md)
+- [/System/Library/ExtensionKit/Extensions/PnROnDeviceWorker.appex/PnROnDeviceWorker](MACHOS/PnROnDeviceWorker.md)
+- [/System/Library/ExtensionKit/Extensions/PrivateEvolutionPlugin.appex/PrivateEvolutionPlugin](MACHOS/PrivateEvolutionPlugin.md)
+- [/System/Library/ExtensionKit/Extensions/PrivateMLClientInferenceProviderService.appex/PrivateMLClientInferenceProviderService](MACHOS/PrivateMLClientInferenceProviderService.md)
+- [/System/Library/ExtensionKit/Extensions/ProductPageExtension.appex/ProductPageExtension](MACHOS/ProductPageExtension.md)
+- [/System/Library/ExtensionKit/Extensions/RepackagingWorker.appex/RepackagingWorker](MACHOS/RepackagingWorker.md)
+- [/System/Library/ExtensionKit/Extensions/SIDInferenceProvider.appex/SIDInferenceProvider](MACHOS/SIDInferenceProvider.md)
+- [/System/Library/ExtensionKit/Extensions/SafariBrowsingAssistantWorker.appex/SafariBrowsingAssistantWorker](MACHOS/SafariBrowsingAssistantWorker.md)
+- [/System/Library/ExtensionKit/Extensions/SafetyCheckAppIntents.appex/SafetyCheckAppIntents](MACHOS/SafetyCheckAppIntents.md)
+- [/System/Library/ExtensionKit/Extensions/ScreenshotServicesAppIntents.appex/ScreenshotServicesAppIntents](MACHOS/ScreenshotServicesAppIntents.md)
+- [/System/Library/ExtensionKit/Extensions/SearchAnalyticsWorker.appex/SearchAnalyticsWorker](MACHOS/SearchAnalyticsWorker.md)
+- [/System/Library/ExtensionKit/Extensions/SearchToolDiagnosticExtension.appex/SearchToolDiagnosticExtension](MACHOS/SearchToolDiagnosticExtension.md)
+- [/System/Library/ExtensionKit/Extensions/SearchToolExtension.appex/SearchToolExtension](MACHOS/SearchToolExtension.md)
+- [/System/Library/ExtensionKit/Extensions/SearchUploadWorker.appex/SearchUploadWorker](MACHOS/SearchUploadWorker.md)
+- [/System/Library/ExtensionKit/Extensions/SensitiveContentAnalysisConfigurationExtension.appex/SensitiveContentAnalysisConfigurationExtension](MACHOS/SensitiveContentAnalysisConfigurationExtension.md)
+- [/System/Library/ExtensionKit/Extensions/SettingsAppIntents.appex/SettingsAppIntents](MACHOS/SettingsAppIntents.md)
+- [/System/Library/ExtensionKit/Extensions/SettingsCellularAppIntentsExtension.appex/SettingsCellularAppIntentsExtension](MACHOS/SettingsCellularAppIntentsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/SettingsSOSAppIntentsExtension.appex/SettingsSOSAppIntentsExtension](MACHOS/SettingsSOSAppIntentsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/SignificantChangeAckExtension.appex/SignificantChangeAckExtension](MACHOS/SignificantChangeAckExtension.md)
+- [/System/Library/ExtensionKit/Extensions/SiriAttentionAndInvocationExtension.appex/SiriAttentionAndInvocationExtension](MACHOS/SiriAttentionAndInvocationExtension.md)
+- [/System/Library/ExtensionKit/Extensions/SiriAutoEvalPlugin.appex/SiriAutoEvalPlugin](MACHOS/SiriAutoEvalPlugin.md)
+- [/System/Library/ExtensionKit/Extensions/SiriInferenceRuntimeDiagnostics.appex/SiriInferenceRuntimeDiagnostics](MACHOS/SiriInferenceRuntimeDiagnostics.md)
+- [/System/Library/ExtensionKit/Extensions/SiriUploadWorker.appex/SiriUploadWorker](MACHOS/SiriUploadWorker.md)
+- [/System/Library/ExtensionKit/Extensions/SiriUserSegmentation.appex/SiriUserSegmentation](MACHOS/SiriUserSegmentation.md)
+- [/System/Library/ExtensionKit/Extensions/SiriVideoAppIntents.appex/SiriVideoAppIntents](MACHOS/SiriVideoAppIntents.md)
+- [/System/Library/ExtensionKit/Extensions/SoftwareUpdateSettingsIntents.appex/SoftwareUpdateSettingsIntents](MACHOS/SoftwareUpdateSettingsIntents.md)
+- [/System/Library/ExtensionKit/Extensions/SpeakerIdSamplingExtension.appex/SpeakerIdSamplingExtension](MACHOS/SpeakerIdSamplingExtension.md)
+- [/System/Library/ExtensionKit/Extensions/SpotlightSettingsIntentsExtension.appex/SpotlightSettingsIntentsExtension](MACHOS/SpotlightSettingsIntentsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/StorageSettingsIntentsExtension.appex/StorageSettingsIntentsExtension](MACHOS/StorageSettingsIntentsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/SubscribePageExtension.appex/SubscribePageExtension](MACHOS/SubscribePageExtension.md)
+- [/System/Library/ExtensionKit/Extensions/SystemAssistantSettingsAppIntents.appex/SystemAssistantSettingsAppIntents](MACHOS/SystemAssistantSettingsAppIntents.md)
+- [/System/Library/ExtensionKit/Extensions/TVAppExtension.appex/TVAppExtension](MACHOS/TVAppExtension.md)
+- [/System/Library/ExtensionKit/Extensions/TelemetryAggregator.appex/TelemetryAggregator](MACHOS/TelemetryAggregator.md)
+- [/System/Library/ExtensionKit/Extensions/TetsuoDiagnosticExtension.appex/TetsuoDiagnosticExtension](MACHOS/TetsuoDiagnosticExtension.md)
+- [/System/Library/ExtensionKit/Extensions/TextInputAppIntentsExtension.appex/TextInputAppIntentsExtension](MACHOS/TextInputAppIntentsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/TranslationAPIExtension.appex/TranslationAPIExtension](MACHOS/TranslationAPIExtension.md)
+- [/System/Library/ExtensionKit/Extensions/TranslationAPISupportExtension.appex/TranslationAPISupportExtension](MACHOS/TranslationAPISupportExtension.md)
+- [/System/Library/ExtensionKit/Extensions/TransparencySettingsIntents.appex/TransparencySettingsIntents](MACHOS/TransparencySettingsIntents.md)
+- [/System/Library/ExtensionKit/Extensions/UnilogTelemetryWorker.appex/UnilogTelemetryWorker](MACHOS/UnilogTelemetryWorker.md)
+- [/System/Library/ExtensionKit/Extensions/VSAppIntents.appex/VSAppIntents](MACHOS/VSAppIntents.md)
+- [/System/Library/ExtensionKit/Extensions/VideosUIEngagementExtension.appex/VideosUIEngagementExtension](MACHOS/VideosUIEngagementExtension.md)
+- [/System/Library/ExtensionKit/Extensions/VisualIntelligenceCameraAnalytics.appex/VisualIntelligenceCameraAnalytics](MACHOS/VisualIntelligenceCameraAnalytics.md)
+- [/System/Library/ExtensionKit/Extensions/WallpaperSettingsIntents.appex/WallpaperSettingsIntents](MACHOS/WallpaperSettingsIntents.md)
+- [/System/Library/ExtensionKit/Extensions/WebContentCaptivePortalExtension.appex/com.apple.WebKit.WebContent.CaptivePortal](MACHOS/com.apple.WebKit.WebContent.CaptivePortal.md)
+- [/System/Library/ExtensionKit/Extensions/WebContentEnhancedSecurityExtension.appex/com.apple.WebKit.WebContent.EnhancedSecurity](MACHOS/com.apple.WebKit.WebContent.EnhancedSecurity.md)
+- [/System/Library/ExtensionKit/Extensions/WebContentExtension.appex/com.apple.WebKit.WebContent](MACHOS/com.apple.WebKit.WebContent.md)
+- [/System/Library/ExtensionKit/Extensions/WiFiSettingsControlsExtension.appex/WiFiSettingsControlsExtension](MACHOS/WiFiSettingsControlsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/WirelessModemSettingsControlsExtension.appex/WirelessModemSettingsControlsExtension](MACHOS/WirelessModemSettingsControlsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/WritingToolsAppIntentsExtension.appex/WritingToolsAppIntentsExtension](MACHOS/WritingToolsAppIntentsExtension.md)
+- [/System/Library/ExtensionKit/Extensions/ZeoliteEvalExtension.appex/ZeoliteEvalExtension](MACHOS/ZeoliteEvalExtension.md)
+- [/System/Library/ExtensionKit/Extensions/com.apple.mlhost.QuartzWorker.appex/com.apple.mlhost.QuartzWorker](MACHOS/com.apple.mlhost.QuartzWorker.md)
+- [/System/Library/ExtensionKit/Extensions/com.apple.mlhost.SampleWorker.appex/com.apple.mlhost.SampleWorker](MACHOS/com.apple.mlhost.SampleWorker.md)
+- [/System/Library/ExtensionKit/Extensions/com.apple.mlhost.TelemetryWorker.appex/com.apple.mlhost.TelemetryWorker](MACHOS/com.apple.mlhost.TelemetryWorker.md)
+- [/System/Library/Filesystems/apfs.fs/apfs_vol_converter](MACHOS/apfs_vol_converter.md)
+- [/System/Library/Filesystems/hfs.fs/CopyHFSMeta](MACHOS/CopyHFSMeta.md)
+- [/System/Library/Filesystems/hfs.fs/fsck_hfs](MACHOS/fsck_hfs.md)
+- [/System/Library/Filesystems/msdos.fs/fsck_msdos](MACHOS/fsck_msdos.md)
+- [/System/Library/Frameworks/AdAttributionKit.framework/Support/attributionkitd](MACHOS/attributionkitd.md)
+- [/System/Library/Frameworks/AutomatedDeviceEnrollment.framework/PlugIns/AddDevicesToAutomatedDeviceEnrollmentExtension.appex/AddDevicesToAutomatedDeviceEnrollmentExtension](MACHOS/AddDevicesToAutomatedDeviceEnrollmentExtension.md)
+- [/System/Library/Frameworks/BrowserEngineKit.framework/XPCServices/BrowserEngineKit.Intermediary.xpc/BrowserEngineKit.Intermediary](MACHOS/BrowserEngineKit.Intermediary.md)
+- [/System/Library/Frameworks/CFNetwork.framework/PlugIns/DiagnosticExtension.appex/DiagnosticExtension](MACHOS/DiagnosticExtension.md)
+- [/System/Library/Frameworks/CallKit.framework/XPCServices/com.apple.CallKit.CallDirectory.xpc/com.apple.CallKit.CallDirectory](MACHOS/com.apple.CallKit.CallDirectory.md)
+- [/System/Library/Frameworks/CallKit.framework/XPCServices/com.apple.CallKit.CallDirectoryMaintenance.xpc/com.apple.CallKit.CallDirectoryMaintenance](MACHOS/com.apple.CallKit.CallDirectoryMaintenance.md)
+- [/System/Library/Frameworks/ClassKit.framework/progressd](MACHOS/progressd.md)
+- [/System/Library/Frameworks/Contacts.framework/Support/contactsd](MACHOS/contactsd.md)
+- [/System/Library/Frameworks/Contacts.framework/Support/postersyncd](MACHOS/postersyncd.md)
+- [/System/Library/Frameworks/ContactsUI.framework/Extensions/LimitedLibraryPickerViewService.appex/LimitedLibraryPickerViewService](MACHOS/LimitedLibraryPickerViewService.md)
+- [/System/Library/Frameworks/ContactsUI.framework/PlugIns/MonogramPosterExtension.appex/MonogramPosterExtension](MACHOS/MonogramPosterExtension.md)
+- [/System/Library/Frameworks/ContactsUI.framework/XPCServices/ContactsButtonXPCService.xpc/ContactsButtonXPCService](MACHOS/ContactsButtonXPCService.md)
+- [/System/Library/Frameworks/CoreImage.framework/redeye_repair_archive_bin.metallib](MACHOS/redeye_repair_archive_bin.metallib.md)
+- [/System/Library/Frameworks/CoreLocation.framework/PlugIns/CoreLocationLearnedRouteAuthPromptPlugin.appex/CoreLocationLearnedRouteAuthPromptPlugin](MACHOS/CoreLocationLearnedRouteAuthPromptPlugin.md)
+- [/System/Library/Frameworks/CoreLocation.framework/PlugIns/CoreLocationNumberedMapCalloutPromptPlugin.appex/CoreLocationNumberedMapCalloutPromptPlugin](MACHOS/CoreLocationNumberedMapCalloutPromptPlugin.md)
+- [/System/Library/Frameworks/CoreLocation.framework/PlugIns/CoreLocationRepromptAlwaysAuthPromptPlugin.appex/CoreLocationRepromptAlwaysAuthPromptPlugin](MACHOS/CoreLocationRepromptAlwaysAuthPromptPlugin.md)
+- [/System/Library/Frameworks/CoreLocation.framework/PlugIns/CoreLocationVisitHistoryAuthPromptPlugin.appex/CoreLocationVisitHistoryAuthPromptPlugin](MACHOS/CoreLocationVisitHistoryAuthPromptPlugin.md)
+- [/System/Library/Frameworks/CoreLocationUI.framework/XPCServices/com.apple.corelocation.locationUI.xpc/com.apple.corelocation.locationUI](MACHOS/com.apple.corelocation.locationUI.md)
+- [/System/Library/Frameworks/CoreSpotlight.framework/Support/com.apple.spotlight.IndexAgent](MACHOS/com.apple.spotlight.IndexAgent.md)
+- [/System/Library/Frameworks/CoreTelephony.framework/PlugIns/CTFollowUpExtension.appex/CTFollowUpExtension](MACHOS/CTFollowUpExtension.md)
+- [/System/Library/Frameworks/CoreTelephony.framework/Support/CommCenterMobileHelper](MACHOS/CommCenterMobileHelper.md)
+- [/System/Library/Frameworks/FamilyControls.framework/FamilyControlsAgent](MACHOS/FamilyControlsAgent.md)
+- [/System/Library/Frameworks/FamilyControls.framework/PlugIns/ActivityPickerExtension.appex/ActivityPickerExtension](MACHOS/ActivityPickerExtension.md)
+- [/System/Library/Frameworks/FamilyControls.framework/PlugIns/FamilyControlsOverrideSettingsExtension.appex/FamilyControlsOverrideSettingsExtension](MACHOS/FamilyControlsOverrideSettingsExtension.md)
+- [/System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd](MACHOS/coreauthd.md)
+- [/System/Library/Frameworks/ManagedAppDistribution.framework/Support/managedappdistributiond](MACHOS/managedappdistributiond.md)
+- [/System/Library/Frameworks/ManagedSettings.framework/ManagedSettingsAgent](MACHOS/ManagedSettingsAgent.md)
+- [/System/Library/Frameworks/ManagedSettings.framework/managedsettingsdiagnoticstool](MACHOS/managedsettingsdiagnoticstool.md)
+- [/System/Library/Frameworks/MusicKit.framework/Support/musicd](MACHOS/musicd.md)
+- [/System/Library/Frameworks/PassKit.framework/XPCServices/PassKitWrapperXPCServiceUI.xpc/PassKitWrapperXPCServiceUI](MACHOS/PassKitWrapperXPCServiceUI.md)
+- [/System/Library/Frameworks/ScreenTime.framework/PlugIns/ScreenTimeWebExtension.appex/ScreenTimeWebExtension](MACHOS/ScreenTimeWebExtension.md)
+- [/System/Library/Frameworks/Security.framework/XPCServices/TrustedPeersHelper.xpc/TrustedPeersHelper](MACHOS/TrustedPeersHelper.md)
+- [/System/Library/Frameworks/SensorKit.framework/XPCServices/SensorKitLongTermStorageHelper.xpc/SensorKitLongTermStorageHelper](MACHOS/SensorKitLongTermStorageHelper.md)
+- [/System/Library/Frameworks/ServicesAccountLinking.framework/XPCServices/ServicesAccountLinkingService.xpc/ServicesAccountLinkingService](MACHOS/ServicesAccountLinkingService.md)
+- [/System/Library/Frameworks/ShazamKit.framework/shazamd](MACHOS/shazamd.md)
+- [/System/Library/Frameworks/Speech.framework/XPCServices/localspeechrecognition.xpc/localspeechrecognition](MACHOS/localspeechrecognition.md)
+- [/System/Library/Frameworks/StoreKit.framework/PlugIns/SKAskPermissionExtension.appex/SKAskPermissionExtension](MACHOS/SKAskPermissionExtension.md)
+- [/System/Library/Frameworks/StoreKit.framework/Support/storekitd](MACHOS/storekitd.md)
+- [/System/Library/Frameworks/SystemConfiguration.framework/get-network-info](MACHOS/get-network-info.md)
+- [/System/Library/Frameworks/TelephonyMessagingKit.framework/XPCServices/TelephonyTransferService.xpc/TelephonyTransferService](MACHOS/TelephonyTransferService.md)
+- [/System/Library/Frameworks/Translation.framework/translationd](MACHOS/translationd.md)
+- [/System/Library/Frameworks/WirelessInsights.framework/Support/wirelessinsightsd](MACHOS/wirelessinsightsd.md)
+- [/System/Library/Frameworks/_DeviceActivity_SwiftUI.framework/PlugIns/DeviceActivityReportService.appex/DeviceActivityReportService](MACHOS/DeviceActivityReportService.md)
+- [/System/Library/HIDPlugins/ServiceFilters/GamepadHIDServiceFilter.plugin/GamepadHIDServiceFilter](MACHOS/GamepadHIDServiceFilter.md)
+- [/System/Library/HIDPlugins/ServiceFilters/HIDRMServiceFilter.plugin/HIDRMServiceFilter](MACHOS/HIDRMServiceFilter.md)
+- [/System/Library/HIDPlugins/ServiceFilters/HIDSensorControlFilter.plugin/HIDSensorControlFilter](MACHOS/HIDSensorControlFilter.md)
+- [/System/Library/HIDPlugins/ServiceFilters/HIDSensorTimeFilter.plugin/HIDSensorTimeFilter](MACHOS/HIDSensorTimeFilter.md)
+- [/System/Library/HIDPlugins/ServicePlugins/HSTouchHIDService.plugin/HSTouchHIDService](MACHOS/HSTouchHIDService.md)
+- [/System/Library/HIDPlugins/SessionFilters/AppleMagicKeyboardSessionFilter.plugin/AppleMagicKeyboardSessionFilter](MACHOS/AppleMagicKeyboardSessionFilter.md)
+- [/System/Library/Health/FeedItemPlugins/HealthBalanceAppPluginBundle.healthplugin/HealthBalanceAppPluginBundle](MACHOS/HealthBalanceAppPluginBundle.md)
+- [/System/Library/Health/Plugins/FitnessIntelligencePlugin.bundle/FitnessIntelligencePlugin](MACHOS/FitnessIntelligencePlugin.md)
+- [/System/Library/Health/Plugins/HealthBluetoothPeripheral.bundle/HealthBluetoothPeripheral](MACHOS/HealthBluetoothPeripheral.md)
+- [/System/Library/KerberosPlugins/GSSAPI/AppSSOReplacePlugin_iOS.bundle/AppSSOReplacePlugin_iOS](MACHOS/AppSSOReplacePlugin_iOS.md)
+- [/System/Library/KerberosPlugins/KerberosFrameworkPlugins/AppSSOConfigPlugin_iOS.bundle/AppSSOConfigPlugin_iOS](MACHOS/AppSSOConfigPlugin_iOS.md)
+- [/System/Library/KerberosPlugins/KerberosFrameworkPlugins/AppSSOLocatePlugin_iOS.bundle/AppSSOLocatePlugin_iOS](MACHOS/AppSSOLocatePlugin_iOS.md)
+- [/System/Library/LocationBundles/AltimeterHarvest.bundle/AltimeterHarvest](MACHOS/AltimeterHarvest.md)
+- [/System/Library/LocationBundles/AppGenius.bundle/AppGenius](MACHOS/AppGenius.md)
+- [/System/Library/LocationBundles/CompassCalibration.bundle/CompassCalibration](MACHOS/CompassCalibration.md)
+- [/System/Library/LocationBundles/DoNotDisturb.bundle/DoNotDisturb](MACHOS/DoNotDisturb.md)
+- [/System/Library/LocationBundles/IonosphereHarvest.bundle/IonosphereHarvest](MACHOS/IonosphereHarvest.md)
+- [/System/Library/LocationBundles/LocationFenceSync.bundle/LocationFenceSync](MACHOS/LocationFenceSync.md)
+- [/System/Library/LocationBundles/LocationHarvest.bundle/LocationHarvest](MACHOS/LocationHarvest.md)
+- [/System/Library/LocationBundles/LocationPromptUI.bundle/LocationPromptUI](MACHOS/LocationPromptUI.md)
+- [/System/Library/LocationBundles/MotionCalibration.bundle/MotionCalibration](MACHOS/MotionCalibration.md)
+- [/System/Library/LocationBundles/PLAMonitor.bundle/PLAMonitor](MACHOS/PLAMonitor.md)
+- [/System/Library/LocationBundles/TimeZone.bundle/TimeZone](MACHOS/TimeZone.md)
+- [/System/Library/LocationBundles/Traffic.bundle/Traffic](MACHOS/Traffic.md)
+- [/System/Library/Messages/PlugIns/RCS.imservice/RCS](MACHOS/RCS.md)
+- [/System/Library/Messages/PlugIns/SMS.imservice/SMS](MACHOS/SMS.md)
+- [/System/Library/Messages/PlugIns/SatelliteSMS.imservice/SatelliteSMS](MACHOS/SatelliteSMS.md)
+- [/System/Library/Messages/PlugIns/iMessage.imservice/iMessage](MACHOS/iMessage.md)
+- [/System/Library/Messages/PlugIns/iMessageLite.imservice/iMessageLite](MACHOS/iMessageLite.md)
+- [/System/Library/Messages/iMessageApps/AskToMessages.bundle/AskToMessages](MACHOS/AskToMessages.md)
+- [/System/Library/Messages/iMessageApps/AudioMessagesExtension.bundle/AudioMessagesExtension](MACHOS/AudioMessagesExtension.md)
+- [/System/Library/Messages/iMessageApps/FindMyMessagesApp.bundle/FindMyMessagesApp](MACHOS/FindMyMessagesApp.md)
+- [/System/Library/Messages/iMessageApps/MessagesPolls.bundle/MessagesPolls](MACHOS/MessagesPolls.md)
+- [/System/Library/Messages/iMessageApps/SafetyMonitorMessages.bundle/SafetyMonitorMessages](MACHOS/SafetyMonitorMessages.md)
+- [/System/Library/Messages/iMessageBalloons/ASMessagesProvider.bundle/ASMessagesProvider](MACHOS/ASMessagesProvider.md)
+- [/System/Library/Messages/iMessageBalloons/SendLaterProvider.bundle/SendLaterProvider](MACHOS/SendLaterProvider.md)
+- [/System/Library/NanoPreferenceBundles/Applications/MindSettings.bundle/MindSettings](MACHOS/MindSettings.md)
+- [/System/Library/NanoPreferenceBundles/Applications/NanoPassbookBridgeSettings.bundle/NanoPassbookBridgeSettings](MACHOS/NanoPassbookBridgeSettings.md)
+- [/System/Library/NanoPreferenceBundles/Applications/SessionTrackerAppSettings.bundle/SessionTrackerAppSettings](MACHOS/SessionTrackerAppSettings.md)
+- [/System/Library/NanoPreferenceBundles/General/CellularBridgeSettings.bundle/CellularBridgeSettings](MACHOS/CellularBridgeSettings.md)
+- [/System/Library/NanoPreferenceBundles/General/CompanionAutoLaunchSettings.bundle/CompanionAutoLaunchSettings](MACHOS/CompanionAutoLaunchSettings.md)
+- [/System/Library/NanoPreferenceBundles/General/CompanionInternationalSettings.bundle/CompanionInternationalSettings](MACHOS/CompanionInternationalSettings.md)
+- [/System/Library/NanoPreferenceBundles/General/CompanionNotificationSettings.bundle/CompanionNotificationSettings](MACHOS/CompanionNotificationSettings.md)
+- [/System/Library/NanoPreferenceBundles/SetupBundles/ActivityBridgeSetup.bundle/ActivityBridgeSetup](MACHOS/ActivityBridgeSetup.md)
+- [/System/Library/NanoPreferenceBundles/SetupBundles/HealthFeaturesBridgeSetupPlugin.bundle/HealthFeaturesBridgeSetupPlugin](MACHOS/HealthFeaturesBridgeSetupPlugin.md)
+- [/System/Library/NanoTimeKit/ComplicationBundles/DepthComplicationBundleCompanion.bundle/DepthComplicationBundleCompanion](MACHOS/DepthComplicationBundleCompanion.md)
+- [/System/Library/NanoTimeKit/ComplicationBundles/MindComplicationBundleCompanion.bundle/MindComplicationBundleCompanion](MACHOS/MindComplicationBundleCompanion.md)
+- [/System/Library/NanoTimeKit/FaceBundles/NTKDolomiteFaceBundleCompanion.bundle/NTKDolomiteFaceBundleCompanion](MACHOS/NTKDolomiteFaceBundleCompanion.md)
+- [/System/Library/NanoTimeKit/FaceBundles/NTKPrideWeaveFaceBundleCompanion.bundle/NTKPrideWeaveFaceBundleCompanion](MACHOS/NTKPrideWeaveFaceBundleCompanion.md)
+- [/System/Library/NanoTimeKit/FaceBundles/NTKProteusFaceBundleCompanion.bundle/NTKProteusFaceBundleCompanion](MACHOS/NTKProteusFaceBundleCompanion.md)
+- [/System/Library/NanoTimeKit/FaceBundles/NTKWarlockFaceBundle.bundle/NTKWarlockFaceBundle](MACHOS/NTKWarlockFaceBundle.md)
+- [/System/Library/NanoTimeKit/FaceBundles/NTKWarlockFaceBundle.bundle/warlock.metallib](MACHOS/warlock.metallib.md)
+- [/System/Library/NanoTimeKit/FaceBundles/NTKZeusFaceBundleCompanion.bundle/NTKZeusFaceBundleCompanion](MACHOS/NTKZeusFaceBundleCompanion.md)
+- [/System/Library/PreferenceBundles/AccessibilitySettings.bundle/AccessibilitySettings](MACHOS/AccessibilitySettings.md)
+- [/System/Library/PreferenceBundles/AccessorySetupDeveloperSettings.bundle/AccessorySetupDeveloperSettings](MACHOS/AccessorySetupDeveloperSettings.md)
+- [/System/Library/PreferenceBundles/AccountSettings/icloudMailSettings.bundle/icloudMailSettings](MACHOS/icloudMailSettings.md)
+- [/System/Library/PreferenceBundles/AdAttributionKitDeveloperSettings.bundle/AdAttributionKitDeveloperSettings](MACHOS/AdAttributionKitDeveloperSettings.md)
+- [/System/Library/PreferenceBundles/AppClipDeveloperSettings.bundle/AppClipDeveloperSettings](MACHOS/AppClipDeveloperSettings.md)
+- [/System/Library/PreferenceBundles/AppInstallationSettings.bundle/AppInstallationSettings](MACHOS/AppInstallationSettings.md)
+- [/System/Library/PreferenceBundles/AssistantSettings.bundle/AssistantSettings](MACHOS/AssistantSettings.md)
+- [/System/Library/PreferenceBundles/BackgroundSecurityImprovement.bundle/BackgroundSecurityImprovement](MACHOS/BackgroundSecurityImprovement.md)
+- [/System/Library/PreferenceBundles/BatteryUsageUI.bundle/BatteryUsageUI](MACHOS/BatteryUsageUI.md)
+- [/System/Library/PreferenceBundles/BlocklistSettings.bundle/BlocklistSettings](MACHOS/BlocklistSettings.md)
+- [/System/Library/PreferenceBundles/CarKitSettings.bundle/CarKitSettings](MACHOS/CarKitSettings.md)
+- [/System/Library/PreferenceBundles/Content Caches.bundle/Content Caches](MACHOS/Content_Caches.md)
+- [/System/Library/PreferenceBundles/CoverageSettings.bundle/CoverageSettings](MACHOS/CoverageSettings.md)
+- [/System/Library/PreferenceBundles/DigitalSeparationSettings.bundle/DigitalSeparationSettings](MACHOS/DigitalSeparationSettings.md)
+- [/System/Library/PreferenceBundles/FontSettings.bundle/FontSettings](MACHOS/FontSettings.md)
+- [/System/Library/PreferenceBundles/FreeformSettings.bundle/FreeformSettings](MACHOS/FreeformSettings.md)
+- [/System/Library/PreferenceBundles/GenerativePartnerSettingsExperience.bundle/GenerativePartnerSettingsExperience](MACHOS/GenerativePartnerSettingsExperience.md)
+- [/System/Library/PreferenceBundles/HearingSettings.bundle/HearingSettings](MACHOS/HearingSettings.md)
+- [/System/Library/PreferenceBundles/HomePrivacySettings.bundle/HomePrivacySettings](MACHOS/HomePrivacySettings.md)
+- [/System/Library/PreferenceBundles/InternationalSettings.bundle/InternationalSettings](MACHOS/InternationalSettings.md)
+- [/System/Library/PreferenceBundles/JournalNotifications.bundle/JournalNotifications](MACHOS/JournalNotifications.md)
+- [/System/Library/PreferenceBundles/JournalSettings.bundle/JournalSettings](MACHOS/JournalSettings.md)
+- [/System/Library/PreferenceBundles/MapsSettings.bundle/MapsSettings](MACHOS/MapsSettings.md)
+- [/System/Library/PreferenceBundles/MobileMailSettings.bundle/MobileMailSettings](MACHOS/MobileMailSettings.md)
+- [/System/Library/PreferenceBundles/MobileSafariSettings.bundle/MobileSafariSettings](MACHOS/MobileSafariSettings.md)
+- [/System/Library/PreferenceBundles/MobileStoreSettings.bundle/MobileStoreSettings](MACHOS/MobileStoreSettings.md)
+- [/System/Library/PreferenceBundles/MultitaskingAndGesturesSettings.bundle/MultitaskingAndGesturesSettings](MACHOS/MultitaskingAndGesturesSettings.md)
+- [/System/Library/PreferenceBundles/MusicSettings.bundle/MusicSettings](MACHOS/MusicSettings.md)
+- [/System/Library/PreferenceBundles/NotificationsSettings.bundle/NotificationsSettings](MACHOS/NotificationsSettings.md)
+- [/System/Library/PreferenceBundles/PassbookSettings.bundle/PassbookSettings](MACHOS/PassbookSettings.md)
+- [/System/Library/PreferenceBundles/PasscodeAndBiometricsSettingsPref.bundle/PasscodeAndBiometricsSettingsPref](MACHOS/PasscodeAndBiometricsSettingsPref.md)
+- [/System/Library/PreferenceBundles/PasswordsSettings.bundle/PasswordsSettings](MACHOS/PasswordsSettings.md)
+- [/System/Library/PreferenceBundles/PodcastsSettingsPlugin.bundle/PodcastsSettingsPlugin](MACHOS/PodcastsSettingsPlugin.md)
+- [/System/Library/PreferenceBundles/PrivacyAndSecuritySettings.bundle/PrivacyAndSecuritySettings](MACHOS/PrivacyAndSecuritySettings.md)
+- [/System/Library/PreferenceBundles/RemindersSettings.bundle/RemindersSettings](MACHOS/RemindersSettings.md)
+- [/System/Library/PreferenceBundles/SMSPreferences.bundle/SMSPreferences](MACHOS/SMSPreferences.md)
+- [/System/Library/PreferenceBundles/SiriMessagesSettings.bundle/SiriMessagesSettings](MACHOS/SiriMessagesSettings.md)
+- [/System/Library/PreferenceBundles/SoftwareUpdateUIMobileSettingsPlugin.bundle/SoftwareUpdateUIMobileSettingsPlugin](MACHOS/SoftwareUpdateUIMobileSettingsPlugin.md)
+- [/System/Library/PreferenceBundles/StorageSettingsUI.bundle/StorageSettingsUI](MACHOS/StorageSettingsUI.md)
+- [/System/Library/PreferenceBundles/SystemVersionSettings.bundle/SystemVersionSettings](MACHOS/SystemVersionSettings.md)
+- [/System/Library/PreferenceBundles/TetsuoNotifications.bundle/TetsuoNotifications](MACHOS/TetsuoNotifications.md)
+- [/System/Library/PreferenceBundles/VPNPreferences.bundle/VPNPreferences](MACHOS/VPNPreferences.md)
+- [/System/Library/PreferenceBundles/WallpaperSettings.bundle/WallpaperSettings](MACHOS/WallpaperSettings.md)
+- [/System/Library/PreferenceBundles/WiFiSettings.bundle/WiFiSettings](MACHOS/WiFiSettings.md)
+- [/System/Library/PreferenceBundles/iCloudPreferences.bundle/iCloudPreferences](MACHOS/iCloudPreferences.md)
+- [/System/Library/PreferencesSyncBundles/CoreLocationSync.bundle/CoreLocationSync](MACHOS/CoreLocationSync.md)
+- [/System/Library/PrivateFrameworks/ACTFramework.framework/binaryArchive.g18p](MACHOS/binaryArchive.g18p.md)
+- [/System/Library/PrivateFrameworks/ACTFramework.framework/binaryArchive.g18p_a0](MACHOS/binaryArchive.g18p_a0.md)
+- [/System/Library/PrivateFrameworks/ASOctaneSupport.framework/XPCServices/ASOctaneSupportXPCService.xpc/ASOctaneSupportXPCService](MACHOS/ASOctaneSupportXPCService.md)
+- [/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/PlugIns/AXTeachableMomentsNotificationsExtension.appex/AXTeachableMomentsNotificationsExtension](MACHOS/AXTeachableMomentsNotificationsExtension.md)
+- [/System/Library/PrivateFrameworks/AccessoryOOBBTPairing.framework/XPCServices/ACCBluetoothPairingService.xpc/ACCBluetoothPairingService](MACHOS/ACCBluetoothPairingService.md)
+- [/System/Library/PrivateFrameworks/AccountsUISupport.framework/XPCServices/AccountsUISupportService.xpc/AccountsUISupportService](MACHOS/AccountsUISupportService.md)
+- [/System/Library/PrivateFrameworks/ActionPredictionHeuristics.framework/XPCServices/HeuristicInterpreter.xpc/HeuristicInterpreter](MACHOS/HeuristicInterpreter.md)
+- [/System/Library/PrivateFrameworks/ActivityAwardsServices.framework/activityawardsd](MACHOS/activityawardsd.md)
+- [/System/Library/PrivateFrameworks/ActivitySharingServices.framework/activitysharingd](MACHOS/activitysharingd.md)
+- [/System/Library/PrivateFrameworks/AnnounceSiriExtensions.framework/PlugIns/AnnounceIntentExtension.appex/AnnounceIntentExtension](MACHOS/AnnounceIntentExtension.md)
+- [/System/Library/PrivateFrameworks/AppInstallationMetrics.framework/Support/appinstallationmetricsd](MACHOS/appinstallationmetricsd.md)
+- [/System/Library/PrivateFrameworks/AppIntentsServices.framework/XPCServices/AppIntentsRunnerXPCService.xpc/AppIntentsRunnerXPCService](MACHOS/AppIntentsRunnerXPCService.md)
+- [/System/Library/PrivateFrameworks/AppSSO.framework/Support/AppSSODaemon](MACHOS/AppSSODaemon.md)
+- [/System/Library/PrivateFrameworks/AppStoreComponents.framework/Support/appstorecomponentsd](MACHOS/appstorecomponentsd.md)
+- [/System/Library/PrivateFrameworks/AppStoreDaemon.framework/Support/appstored](MACHOS/appstored.md)
+- [/System/Library/PrivateFrameworks/AppStoreOverlays.framework/PlugIns/AppStoreOverlaysService.appex/AppStoreOverlaysService](MACHOS/AppStoreOverlaysService.md)
+- [/System/Library/PrivateFrameworks/AppleAccountUI.framework/PlugIns/CustodianInviteMessageExtension.appex/CustodianInviteMessageExtension](MACHOS/CustodianInviteMessageExtension.md)
+- [/System/Library/PrivateFrameworks/AppleAccountUI.framework/PlugIns/LegacyContactMessageExtention.appex/LegacyContactMessageExtention](MACHOS/LegacyContactMessageExtention.md)
+- [/System/Library/PrivateFrameworks/AppleIntelligenceReportingProcessing.framework/XPCServices/AppleIntelligenceReportingProcessingService.xpc/AppleIntelligenceReportingProcessingService](MACHOS/AppleIntelligenceReportingProcessingService.md)
+- [/System/Library/PrivateFrameworks/AppleMediaServices.framework/amsaccountsd](MACHOS/amsaccountsd.md)
+- [/System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/Extensions/UtilityExtension.appex/UtilityExtension](MACHOS/UtilityExtension.md)
+- [/System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/PlugIns/AMSEngagementViewExtension.appex/AMSEngagementViewExtension](MACHOS/AMSEngagementViewExtension.md)
+- [/System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/amsengagementd](MACHOS/amsengagementd.md)
+- [/System/Library/PrivateFrameworks/ApplePushService.framework/apsd](MACHOS/apsd.md)
+- [/System/Library/PrivateFrameworks/AskPermission.framework/Support/askpermissiond](MACHOS/askpermissiond.md)
+- [/System/Library/PrivateFrameworks/AssetViewer.framework/PlugIns/ASVAssetThumbnail.appex/ASVAssetThumbnail](MACHOS/ASVAssetThumbnail.md)
+- [/System/Library/PrivateFrameworks/AssistantServices.framework/assistantd](MACHOS/assistantd.md)
+- [/System/Library/PrivateFrameworks/AuthKit.framework/akd](MACHOS/akd.md)
+- [/System/Library/PrivateFrameworks/AuthKitUI.framework/PlugIns/AKSecondFactorEntryAlert.appex/AKSecondFactorEntryAlert](MACHOS/AKSecondFactorEntryAlert.md)
+- [/System/Library/PrivateFrameworks/AutomationMode.framework/AutomationModeUI.app/AutomationModeUI](MACHOS/AutomationModeUI.md)
+- [/System/Library/PrivateFrameworks/AutomationMode.framework/automationmode-writer](MACHOS/automationmode-writer.md)
+- [/System/Library/PrivateFrameworks/BlastDoor.framework/Resources/BlastDoorPosterArchiveBridging.bundle/BlastDoorPosterArchiveBridging](MACHOS/BlastDoorPosterArchiveBridging.md)
+- [/System/Library/PrivateFrameworks/BookDataStore.framework/Support/bookdatastored](MACHOS/bookdatastored.md)
+- [/System/Library/PrivateFrameworks/BookLibraryCore.framework/Support/bookassetd](MACHOS/bookassetd.md)
+- [/System/Library/PrivateFrameworks/BusinessChatService.framework/businessservicesd](MACHOS/businessservicesd.md)
+- [/System/Library/PrivateFrameworks/CallHistory.framework/Support/CallHistorySyncHelper](MACHOS/CallHistorySyncHelper.md)
+- [/System/Library/PrivateFrameworks/CallIntelligence.framework/callintelligenced](MACHOS/callintelligenced.md)
+- [/System/Library/PrivateFrameworks/CameraUI.framework/FRSVCoreImageArchive_bin.metallib](MACHOS/FRSVCoreImageArchive_bin.metallib.md)
+- [/System/Library/PrivateFrameworks/ClockPoster.framework/PlugIns/ClockPosterExtension.appex/ClockPosterExtension](MACHOS/ClockPosterExtension.md)
+- [/System/Library/PrivateFrameworks/CloudDocs.framework/PlugIns/com.apple.CloudDocs.iCloudDriveFileProvider.appex/com.apple.CloudDocs.iCloudDriveFileProvider](MACHOS/com.apple.CloudDocs.iCloudDriveFileProvider.md)
+- [/System/Library/PrivateFrameworks/CloudDocs.framework/PlugIns/com.apple.CloudDocs.iCloudDriveFileProviderManaged.appex/com.apple.CloudDocs.iCloudDriveFileProviderManaged](MACHOS/com.apple.CloudDocs.iCloudDriveFileProviderManaged.md)
+- [/System/Library/PrivateFrameworks/CloudPhotoLibrary.framework/Support/cloudphotod](MACHOS/cloudphotod.md)
+- [/System/Library/PrivateFrameworks/CloudServices.framework/Helpers/com.apple.sbd](MACHOS/com.apple.sbd.md)
+- [/System/Library/PrivateFrameworks/CloudSharing.framework/XPCServices/SPIHelper-iOS.xpc/SPIHelper-iOS](MACHOS/SPIHelper-iOS.md)
+- [/System/Library/PrivateFrameworks/CloudSharingUI.framework/PlugIns/CreateiCloudLinkExtension.appex/CreateiCloudLinkExtension](MACHOS/CreateiCloudLinkExtension.md)
+- [/System/Library/PrivateFrameworks/CloudSharingUI.framework/PlugIns/com.apple.CloudSharingUI.AddParticipants.appex/com.apple.CloudSharingUI.AddParticipants](MACHOS/com.apple.CloudSharingUI.AddParticipants.md)
+- [/System/Library/PrivateFrameworks/CloudSharingUI.framework/PlugIns/com.apple.CloudSharingUI.CloudSharing.appex/com.apple.CloudSharingUI.CloudSharing](MACHOS/com.apple.CloudSharingUI.CloudSharing.md)
+- [/System/Library/PrivateFrameworks/CloudSubscriptionFeatures.framework/PlugIns/CSFFollowUpExtension.appex/CSFFollowUpExtension](MACHOS/CSFFollowUpExtension.md)
+- [/System/Library/PrivateFrameworks/CloudTelemetry.framework/XPCServices/CloudTelemetryService.xpc/CloudTelemetryService](MACHOS/CloudTelemetryService.md)
+- [/System/Library/PrivateFrameworks/CommunicationsFilter.framework/CMFSyncAgent](MACHOS/CMFSyncAgent.md)
+- [/System/Library/PrivateFrameworks/ContactsDonation.framework/Versions/A/Support/contactsdonationagent](MACHOS/contactsdonationagent.md)
+- [/System/Library/PrivateFrameworks/ContinuousDialogManagerService.framework/assistant_cdmd](MACHOS/assistant_cdmd.md)
+- [/System/Library/PrivateFrameworks/CoreAccessories.framework/Support/accessoryd](MACHOS/accessoryd.md)
+- [/System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsagent](MACHOS/analyticsagent.md)
+- [/System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsd](MACHOS/analyticsd.md)
+- [/System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/XPCServices/com.apple.siri.embeddedspeech.xpc/com.apple.siri.embeddedspeech](MACHOS/com.apple.siri.embeddedspeech.md)
+- [/System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/speechmaintenanced](MACHOS/speechmaintenanced.md)
+- [/System/Library/PrivateFrameworks/CoreParsec.framework/parsec-fbf](MACHOS/parsec-fbf.md)
+- [/System/Library/PrivateFrameworks/CoreParsec.framework/parsecd](MACHOS/parsecd.md)
+- [/System/Library/PrivateFrameworks/CorePrescription.framework/XPCServices/CorePrescriptionService.xpc/CorePrescriptionService](MACHOS/CorePrescriptionService.md)
+- [/System/Library/PrivateFrameworks/CoreRE.framework/default-binaryarchive.metallib](MACHOS/default-binaryarchive.metallib.md)
+- [/System/Library/PrivateFrameworks/CoreRE.framework/mxi-binaryarchive.metallib](MACHOS/mxi-binaryarchive.metallib.md)
+- [/System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd](MACHOS/corespeechd.md)
+- [/System/Library/PrivateFrameworks/CoreThreadCommissionerService.framework/CoreThreadCommissionerServiced](MACHOS/CoreThreadCommissionerServiced.md)
+- [/System/Library/PrivateFrameworks/CoreThreadRadio.framework/threadradiod](MACHOS/threadradiod.md)
+- [/System/Library/PrivateFrameworks/DVTInstrumentsFoundation.framework/XPCServices/com.apple.dt.DTMLModelRunnerService.xpc/com.apple.dt.DTMLModelRunnerService](MACHOS/com.apple.dt.DTMLModelRunnerService.md)
+- [/System/Library/PrivateFrameworks/DVTInstrumentsFoundation.framework/XPCServices/com.apple.dt.instruments.dtsecurity.xpc/com.apple.dt.instruments.dtsecurity](MACHOS/com.apple.dt.instruments.dtsecurity.md)
+- [/System/Library/PrivateFrameworks/DeviceRecovery.framework/Support/devicerecoveryd](MACHOS/devicerecoveryd.md)
+- [/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/IMDiagnosticExtension.appex/IMDiagnosticExtension](MACHOS/IMDiagnosticExtension.md)
+- [/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/MediaSuggesterDiagnosticExtension.appex/MediaSuggesterDiagnosticExtension](MACHOS/MediaSuggesterDiagnosticExtension.md)
+- [/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/PICSDiagnosticExtension.appex/PICSDiagnosticExtension](MACHOS/PICSDiagnosticExtension.md)
+- [/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/ScreenTimeDiagnosticExtension.appex/ScreenTimeDiagnosticExtension](MACHOS/ScreenTimeDiagnosticExtension.md)
+- [/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/ToolKitDiagnosticExtension.appex/ToolKitDiagnosticExtension](MACHOS/ToolKitDiagnosticExtension.md)
+- [/System/Library/PrivateFrameworks/DialogEngine.framework/catutil](MACHOS/catutil.md)
+- [/System/Library/PrivateFrameworks/DifferentialPrivacy.framework/XPCServices/DPSubmissionService.xpc/DPSubmissionService](MACHOS/DPSubmissionService.md)
+- [/System/Library/PrivateFrameworks/DiskSpaceDiagnostics.framework/XPCServices/FilesystemMetadataSnapshotService.xpc/FilesystemMetadataSnapshotService](MACHOS/FilesystemMetadataSnapshotService.md)
+- [/System/Library/PrivateFrameworks/DockKitCore.framework/PlugIns/DockKitExtension.appex/DockKitExtension](MACHOS/DockKitExtension.md)
+- [/System/Library/PrivateFrameworks/DocumentManagerUICore.framework/PlugIns/AddTagsActionExtension.appex/AddTagsActionExtension](MACHOS/AddTagsActionExtension.md)
+- [/System/Library/PrivateFrameworks/DocumentManagerUICore.framework/PlugIns/RecentsAvocado.appex/RecentsAvocado](MACHOS/RecentsAvocado.md)
+- [/System/Library/PrivateFrameworks/DocumentManagerUICore.framework/PlugIns/RecentsAvocadoIntentHandler.appex/RecentsAvocadoIntentHandler](MACHOS/RecentsAvocadoIntentHandler.md)
+- [/System/Library/PrivateFrameworks/EcosystemAnalytics.framework/Support/ecosystemanalyticsd](MACHOS/ecosystemanalyticsd.md)
+- [/System/Library/PrivateFrameworks/EmailDaemon.framework/maild](MACHOS/maild.md)
+- [/System/Library/PrivateFrameworks/EnergyKitInternal.framework/XPCServices/EnergyKitService.xpc/EnergyKitService](MACHOS/EnergyKitService.md)
+- [/System/Library/PrivateFrameworks/FaceTimeMessageStore.framework/facetimemessagestored](MACHOS/facetimemessagestored.md)
+- [/System/Library/PrivateFrameworks/FamilyCircle.framework/familycircled](MACHOS/familycircled.md)
+- [/System/Library/PrivateFrameworks/FileProviderResolver.framework/XPCServices/ResolverService.xpc/ResolverService](MACHOS/ResolverService.md)
+- [/System/Library/PrivateFrameworks/FinHealth.framework/finhealthd](MACHOS/finhealthd.md)
+- [/System/Library/PrivateFrameworks/FindMyDevice.framework/XPCServices/FindMyDeviceSharedConfigurationXPCService.xpc/FindMyDeviceSharedConfigurationXPCService](MACHOS/FindMyDeviceSharedConfigurationXPCService.md)
+- [/System/Library/PrivateFrameworks/FitnessIntelligenceDaemonCore.framework/XPCServices/FitnessIntelligenceSnapshotService.xpc/FitnessIntelligenceSnapshotService](MACHOS/FitnessIntelligenceSnapshotService.md)
+- [/System/Library/PrivateFrameworks/FitnessIntelligenceDaemonCore.framework/fitnessintelligenced](MACHOS/fitnessintelligenced.md)
+- [/System/Library/PrivateFrameworks/FontServices.framework/UITypographyPanel.bundle/UITypographyPanel](MACHOS/UITypographyPanel.md)
+- [/System/Library/PrivateFrameworks/GPUToolsCapture.framework/GPUToolsCapture](MACHOS/GPUToolsCapture.md)
+- [/System/Library/PrivateFrameworks/GPUToolsDeviceServices.framework/XPCServices/GPUToolsReplayService.xpc/GPUToolsReplayService](MACHOS/GPUToolsReplayService.md)
+- [/System/Library/PrivateFrameworks/GameCenterUI.framework/PlugIns/GameCenterMatchmakerExtension.appex/GameCenterMatchmakerExtension](MACHOS/GameCenterMatchmakerExtension.md)
+- [/System/Library/PrivateFrameworks/GeoServices.framework/MapsOfflineService.bundle/MapsOfflineService](MACHOS/MapsOfflineService.md)
+- [/System/Library/PrivateFrameworks/HealthBalance.framework/PlugIns/HealthBalanceDiagnosticExtension.appex/HealthBalanceDiagnosticExtension](MACHOS/HealthBalanceDiagnosticExtension.md)
+- [/System/Library/PrivateFrameworks/HealthMenstrualCyclesUI.framework/PlugIns/HealthMenstrualCyclesNotificationContentExtension.appex/HealthMenstrualCyclesNotificationContentExtension](MACHOS/HealthMenstrualCyclesNotificationContentExtension.md)
+- [/System/Library/PrivateFrameworks/HealthPluginHost.framework/healthappd](MACHOS/healthappd.md)
+- [/System/Library/PrivateFrameworks/HomeEnergyDaemon.framework/Support/homeenergyd](MACHOS/homeenergyd.md)
+- [/System/Library/PrivateFrameworks/HomeKitEvents.framework/PlugIns/HomeKitEventsDiagnosticExtension.appex/HomeKitEventsDiagnosticExtension](MACHOS/HomeKitEventsDiagnosticExtension.md)
+- [/System/Library/PrivateFrameworks/HomeKitEvents.framework/Support/homeeventsd](MACHOS/homeeventsd.md)
+- [/System/Library/PrivateFrameworks/HomePlatformSettingsUI.framework/PlugIns/HPSUIViewService.appex/HPSUIViewService](MACHOS/HPSUIViewService.md)
+- [/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/identityservicesd](MACHOS/identityservicesd.md)
+- [/System/Library/PrivateFrameworks/IDSBlastDoorSupport.framework/XPCServices/IDSBlastDoorService.xpc/IDSBlastDoorService](MACHOS/IDSBlastDoorService.md)
+- [/System/Library/PrivateFrameworks/IMCore.framework/imagent.app/imagent](MACHOS/imagent.md)
+- [/System/Library/PrivateFrameworks/IntelligenceFlowContextRuntime.framework/intelligencecontextd](MACHOS/intelligencecontextd.md)
+- [/System/Library/PrivateFrameworks/IntelligenceFlowRuntime.framework/PlugIns/IntelligenceFlowDiagnostics.appex/IntelligenceFlowDiagnostics](MACHOS/IntelligenceFlowDiagnostics.md)
+- [/System/Library/PrivateFrameworks/IntelligenceFlowRuntime.framework/intelligenceflowd](MACHOS/intelligenceflowd.md)
+- [/System/Library/PrivateFrameworks/IntelligencePlatformCompute.framework/XPCServices/IntelligencePlatformComputeService.xpc/IntelligencePlatformComputeService](MACHOS/IntelligencePlatformComputeService.md)
+- [/System/Library/PrivateFrameworks/IntelligentRoutingDaemon.framework/XPCServices/IntelligentRoutingDaemonLLMService.xpc/IntelligentRoutingDaemonLLMService](MACHOS/IntelligentRoutingDaemonLLMService.md)
+- [/System/Library/PrivateFrameworks/IntlPreferences.framework/Support/localizationswitcherd](MACHOS/localizationswitcherd.md)
+- [/System/Library/PrivateFrameworks/JetCore.framework/Support/jetpackassetd](MACHOS/jetpackassetd.md)
+- [/System/Library/PrivateFrameworks/LockdownMode.framework/lockdownmoded](MACHOS/lockdownmoded.md)
+- [/System/Library/PrivateFrameworks/MFAAuthentication.framework/XPCServices/MFAANetwork.xpc/MFAANetwork](MACHOS/MFAANetwork.md)
+- [/System/Library/PrivateFrameworks/MLKit.framework/PlugIns/com.apple.MLKit.MLModelPreview.appex/com.apple.MLKit.MLModelPreview](MACHOS/com.apple.MLKit.MLModelPreview.md)
+- [/System/Library/PrivateFrameworks/MLKit.framework/PlugIns/com.apple.MLKit.MLPackagePreview.appex/com.apple.MLKit.MLPackagePreview](MACHOS/com.apple.MLKit.MLPackagePreview.md)
+- [/System/Library/PrivateFrameworks/ManagedBackgroundAssets.framework/XPCServices/Managed Background Assets Helper Service.xpc/Managed Background Assets Helper Service](MACHOS/Managed_Background_Assets_Helper_Service.md)
+- [/System/Library/PrivateFrameworks/ManagedBackgroundAssetsHelper.framework/XPCServices/Managed Background Assets Helper Fetching Service.xpc/Managed Background Assets Helper Fetching Service](MACHOS/Managed_Background_Assets_Helper_Fetching_Service.md)
+- [/System/Library/PrivateFrameworks/MapsIntelligence.framework/IntelligenceBundles/SearchPersonalization.bundle/SearchPersonalization](MACHOS/SearchPersonalization.md)
+- [/System/Library/PrivateFrameworks/MapsSuggestions.framework/destinationd](MACHOS/destinationd.md)
+- [/System/Library/PrivateFrameworks/MapsSupport.framework/mapspushd](MACHOS/mapspushd.md)
+- [/System/Library/PrivateFrameworks/MapsSupport.framework/nanomapscd](MACHOS/nanomapscd.md)
+- [/System/Library/PrivateFrameworks/MapsSupport.framework/navd](MACHOS/navd.md)
+- [/System/Library/PrivateFrameworks/MapsSync.framework/mapssyncd](MACHOS/mapssyncd.md)
+- [/System/Library/PrivateFrameworks/MediaAnalysis.framework/mediaanalysisd](MACHOS/mediaanalysisd.md)
+- [/System/Library/PrivateFrameworks/MediaAnalysis.framework/mediaanalysisd-service](MACHOS/mediaanalysisd-service.md)
+- [/System/Library/PrivateFrameworks/MediaAnalysisBlastDoorSupport.framework/XPCServices/MediaAnalysisBlastDoorService.xpc/MediaAnalysisBlastDoorService](MACHOS/MediaAnalysisBlastDoorService.md)
+- [/System/Library/PrivateFrameworks/MediaConversionService.framework/XPCServices/com.apple.photos.ImageConversionService.xpc/com.apple.photos.ImageConversionService](MACHOS/com.apple.photos.ImageConversionService.md)
+- [/System/Library/PrivateFrameworks/MediaMLServices.framework/XPCServices/mediamlxpc.xpc/mediamlxpc](MACHOS/mediamlxpc.md)
+- [/System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoted](MACHOS/mediaremoted.md)
+- [/System/Library/PrivateFrameworks/MediaServicesBroker.framework/PlugIns/MediaSetupViewService.appex/MediaSetupViewService](MACHOS/MediaSetupViewService.md)
+- [/System/Library/PrivateFrameworks/Message.framework/XPCServices/SearchIndexer.xpc/SearchIndexer](MACHOS/SearchIndexer.md)
+- [/System/Library/PrivateFrameworks/MessagesBlastDoorSupport.framework/XPCServices/HubbleBlastDoorService.xpc/HubbleBlastDoorService](MACHOS/HubbleBlastDoorService.md)
+- [/System/Library/PrivateFrameworks/MessagesBlastDoorSupport.framework/XPCServices/MessagesAirlockService.xpc/MessagesAirlockService](MACHOS/MessagesAirlockService.md)
+- [/System/Library/PrivateFrameworks/MessagesBlastDoorSupport.framework/XPCServices/MessagesBlastDoorService.xpc/MessagesBlastDoorService](MACHOS/MessagesBlastDoorService.md)
+- [/System/Library/PrivateFrameworks/MigrationKit.framework/migrationd](MACHOS/migrationd.md)
+- [/System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/Support/accessoryupdaterd](MACHOS/accessoryupdaterd.md)
+- [/System/Library/PrivateFrameworks/MobileBackup.framework/backupd](MACHOS/backupd.md)
+- [/System/Library/PrivateFrameworks/MobileInBoxUpdate.framework/XPCServices/MIBULoopbackServerHelper.xpc/MIBULoopbackServerHelper](MACHOS/MIBULoopbackServerHelper.md)
+- [/System/Library/PrivateFrameworks/MobileSoftwareUpdate.framework/Support/softwareupdated](MACHOS/softwareupdated.md)
+- [/System/Library/PrivateFrameworks/MobileSoftwareUpdate.framework/XPCServices/com.apple.MobileSoftwareUpdate.CleanupPreparePathService.xpc/com.apple.MobileSoftwareUpdate.CleanupPreparePathService](MACHOS/com.apple.MobileSoftwareUpdate.CleanupPreparePathService.md)
+- [/System/Library/PrivateFrameworks/ModelCatalogRuntime.framework/modelcatalogd](MACHOS/modelcatalogd.md)
+- [/System/Library/PrivateFrameworks/MusicLibrary.framework/Support/medialibraryd](MACHOS/medialibraryd.md)
+- [/System/Library/PrivateFrameworks/NanoLeash.framework/companionfindlocallyd](MACHOS/companionfindlocallyd.md)
+- [/System/Library/PrivateFrameworks/NanoUniverse.framework/NUNICalliopeShadersCompanion.metallib](MACHOS/NUNICalliopeShadersCompanion.metallib.md)
+- [/System/Library/PrivateFrameworks/NearFieldPrivateServices.framework/XPCServices/NFRestoreService.xpc/NFRestoreService](MACHOS/NFRestoreService.md)
+- [/System/Library/PrivateFrameworks/NearFieldPrivateServices.framework/XPCServices/NFUIService.xpc/NFUIService](MACHOS/NFUIService.md)
+- [/System/Library/PrivateFrameworks/NearbySessions.framework/XPCServices/com.apple.SharePlay.NearbyInvitationsService.xpc/com.apple.SharePlay.NearbyInvitationsService](MACHOS/com.apple.SharePlay.NearbyInvitationsService.md)
+- [/System/Library/PrivateFrameworks/NeighborhoodActivityConduit.framework/XPCServices/com.apple.NeighborhoodActivityConduitService.xpc/com.apple.NeighborhoodActivityConduitService](MACHOS/com.apple.NeighborhoodActivityConduitService.md)
+- [/System/Library/PrivateFrameworks/NetworkInfo.framework/PlugIns/NetworkInfoDiagnosticExtension.appex/NetworkInfoDiagnosticExtension](MACHOS/NetworkInfoDiagnosticExtension.md)
+- [/System/Library/PrivateFrameworks/NetworkQuality.framework/PlugIns/NetworkQualityDiagnostic.appex/NetworkQualityDiagnostic](MACHOS/NetworkQualityDiagnostic.md)
+- [/System/Library/PrivateFrameworks/NetworkQuality.framework/XPCServices/NetworkQualityXPC.xpc/NetworkQualityXPC](MACHOS/NetworkQualityXPC.md)
+- [/System/Library/PrivateFrameworks/NewDeviceOutreach.framework/ndoagent](MACHOS/ndoagent.md)
+- [/System/Library/PrivateFrameworks/NewsDaemon.framework/newsd](MACHOS/newsd.md)
+- [/System/Library/PrivateFrameworks/NewsUI2.framework/XPCServices/NewsScoringService.xpc/NewsScoringService](MACHOS/NewsScoringService.md)
+- [/System/Library/PrivateFrameworks/NewsUI2.framework/XPCServices/TodayFeedConfigDecoder.xpc/TodayFeedConfigDecoder](MACHOS/TodayFeedConfigDecoder.md)
+- [/System/Library/PrivateFrameworks/OSAnalytics.framework/PlugIns/IPSExtension.appex/IPSExtension](MACHOS/IPSExtension.md)
+- [/System/Library/PrivateFrameworks/OmniSearch.framework/searchtoold](MACHOS/searchtoold.md)
+- [/System/Library/PrivateFrameworks/OnDeviceStorage.framework/Support/amsondevicestoraged](MACHOS/amsondevicestoraged.md)
+- [/System/Library/PrivateFrameworks/PassKitCore.framework/passd](MACHOS/passd.md)
+- [/System/Library/PrivateFrameworks/Pasteboard.framework/Support/pasted](MACHOS/pasted.md)
+- [/System/Library/PrivateFrameworks/People.framework/peopled](MACHOS/peopled.md)
+- [/System/Library/PrivateFrameworks/PerfPowerServicesReader.framework/XPCServices/PerfPowerTelemetryReaderService.xpc/PerfPowerTelemetryReaderService](MACHOS/PerfPowerTelemetryReaderService.md)
+- [/System/Library/PrivateFrameworks/Portrait.framework/binaryArchive.g18p_a0](MACHOS/binaryArchive.g18p_a0.md)
+- [/System/Library/PrivateFrameworks/PowerLog.framework/XPCServices/PerfPowerTelemetryClientRegistrationService.xpc/PerfPowerTelemetryClientRegistrationService](MACHOS/PerfPowerTelemetryClientRegistrationService.md)
+- [/System/Library/PrivateFrameworks/PowerlogCore.framework/PlugIns/com.apple.PowerlogCore.diagnosticextension.appex/com.apple.PowerlogCore.diagnosticextension](MACHOS/com.apple.PowerlogCore.diagnosticextension.md)
+- [/System/Library/PrivateFrameworks/PowerlogCore.framework/XPCServices/PerfPowerServicesSignpostReader.xpc/PerfPowerServicesSignpostReader](MACHOS/PerfPowerServicesSignpostReader.md)
+- [/System/Library/PrivateFrameworks/PowerlogCore.framework/XPCServices/PerfPowerServicesSignpostService.xpc/PerfPowerServicesSignpostService](MACHOS/PerfPowerServicesSignpostService.md)
+- [/System/Library/PrivateFrameworks/PreviewsOSSupport.framework/Support/previewsd](MACHOS/previewsd.md)
+- [/System/Library/PrivateFrameworks/PrivacyAccounting.framework/Versions/A/Resources/privacyaccountingd](MACHOS/privacyaccountingd.md)
+- [/System/Library/PrivateFrameworks/ProductKitCore.framework/XPCServices/ProductKitService.xpc/ProductKitService](MACHOS/ProductKitService.md)
+- [/System/Library/PrivateFrameworks/PromotedContentJetSupport.framework/XPCServices/PromotedContentJetService.xpc/PromotedContentJetService](MACHOS/PromotedContentJetService.md)
+- [/System/Library/PrivateFrameworks/PrototypeToolsUI.framework/prototyped](MACHOS/prototyped.md)
+- [/System/Library/PrivateFrameworks/ReminderKit.framework/PlugIns/RemindersNotificationContentExtension.appex/RemindersNotificationContentExtension](MACHOS/RemindersNotificationContentExtension.md)
+- [/System/Library/PrivateFrameworks/ReminderKitUI.framework/PlugIns/com.apple.ReminderKitUI.ReminderCreationViewService.appex/com.apple.ReminderKitUI.ReminderCreationViewService](MACHOS/com.apple.ReminderKitUI.ReminderCreationViewService.md)
+- [/System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/ASConfigurationSubscriber.xpc/ASConfigurationSubscriber](MACHOS/ASConfigurationSubscriber.md)
+- [/System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/ManagedAppsSubscriber.xpc/ManagedAppsSubscriber](MACHOS/ManagedAppsSubscriber.md)
+- [/System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/ManagedSettingsSubscriber.xpc/ManagedSettingsSubscriber](MACHOS/ManagedSettingsSubscriber.md)
+- [/System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/SecuritySubscriber.xpc/SecuritySubscriber](MACHOS/SecuritySubscriber.md)
+- [/System/Library/PrivateFrameworks/RenderBox.framework/archive.metallib](MACHOS/archive.metallib.md)
+- [/System/Library/PrivateFrameworks/STSXPCHelperClient.framework/XPCServices/STSXPCHelper.xpc/STSXPCHelper](MACHOS/STSXPCHelper.md)
+- [/System/Library/PrivateFrameworks/SafariShared.framework/XPCServices/com.apple.Safari.SearchHelper.xpc/com.apple.Safari.SearchHelper](MACHOS/com.apple.Safari.SearchHelper.md)
+- [/System/Library/PrivateFrameworks/ScreenTimeCore.framework/ScreenTimeAgent](MACHOS/ScreenTimeAgent.md)
+- [/System/Library/PrivateFrameworks/ScreenTimeSwift.framework/PlugIns/ScreenTimeDeviceActivityMonitorExtension.appex/ScreenTimeDeviceActivityMonitorExtension](MACHOS/ScreenTimeDeviceActivityMonitorExtension.md)
+- [/System/Library/PrivateFrameworks/Search.framework/PlugIns/SpotlightDiagnostic.appex/SpotlightDiagnostic](MACHOS/SpotlightDiagnostic.md)
+- [/System/Library/PrivateFrameworks/Search.framework/searchd](MACHOS/searchd.md)
+- [/System/Library/PrivateFrameworks/SecureMessaging.framework/SecureMessagingAgent](MACHOS/SecureMessagingAgent.md)
+- [/System/Library/PrivateFrameworks/SensingPredictServices.framework/XPCServices/SensingPredictXPCService.xpc/SensingPredictXPCService](MACHOS/SensingPredictXPCService.md)
+- [/System/Library/PrivateFrameworks/ServicesIntelligence.framework/servicesintelligenced](MACHOS/servicesintelligenced.md)
+- [/System/Library/PrivateFrameworks/SeymourServices.framework/PlugIns/SeymourEngagementExtension.appex/SeymourEngagementExtension](MACHOS/SeymourEngagementExtension.md)
+- [/System/Library/PrivateFrameworks/Sharing.framework/PlugIns/AirDrop.appex/AirDrop](MACHOS/AirDrop.md)
+- [/System/Library/PrivateFrameworks/Sharing.framework/PlugIns/AirDropNotice.appex/AirDropNotice](MACHOS/AirDropNotice.md)
+- [/System/Library/PrivateFrameworks/SiriGeo.framework/PlugIns/SiriGeoIntentExtension.appex/SiriGeoIntentExtension](MACHOS/SiriGeoIntentExtension.md)
+- [/System/Library/PrivateFrameworks/SiriInference.framework/Support/siriinferenced](MACHOS/siriinferenced.md)
+- [/System/Library/PrivateFrameworks/SiriPrivateLearningAnalytics.framework/PlugIns/SiriUserFeedbackLearningPlatformPlugin.appex/SiriUserFeedbackLearningPlatformPlugin](MACHOS/SiriUserFeedbackLearningPlatformPlugin.md)
+- [/System/Library/PrivateFrameworks/SiriPrivateLearningAnalytics.framework/PlugIns/SiriUserFeedbackLearningUniversalSuggestionsPlugin.appex/SiriUserFeedbackLearningUniversalSuggestionsPlugin](MACHOS/SiriUserFeedbackLearningUniversalSuggestionsPlugin.md)
+- [/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/PlugIns/SettingsIntentExtension.appex/SettingsIntentExtension](MACHOS/SettingsIntentExtension.md)
+- [/System/Library/PrivateFrameworks/SiriSignals.framework/PlugIns/MusicAppSelectionPFLPlugin.appex/MusicAppSelectionPFLPlugin](MACHOS/MusicAppSelectionPFLPlugin.md)
+- [/System/Library/PrivateFrameworks/SiriSuggestionsSupport.framework/XPCServices/SiriSuggestionsBookkeepingService.xpc/SiriSuggestionsBookkeepingService](MACHOS/SiriSuggestionsBookkeepingService.md)
+- [/System/Library/PrivateFrameworks/SiriTTSService.framework/PlugIns/STSDiagnostic.appex/STSDiagnostic](MACHOS/STSDiagnostic.md)
+- [/System/Library/PrivateFrameworks/SiriTTSService.framework/sirittsd](MACHOS/sirittsd.md)
+- [/System/Library/PrivateFrameworks/SiriTTSTraining.framework/SiriTTSTrainingAgent](MACHOS/SiriTTSTrainingAgent.md)
+- [/System/Library/PrivateFrameworks/SiriUICore.framework/archive.metallib](MACHOS/archive.metallib.md)
+- [/System/Library/PrivateFrameworks/SiriVOX.framework/SiriHeadlessService](MACHOS/SiriHeadlessService.md)
+- [/System/Library/PrivateFrameworks/SmartReplies.framework/PlugIns/SmartRepliesMLRuntimePlugin.appex/SmartRepliesMLRuntimePlugin](MACHOS/SmartRepliesMLRuntimePlugin.md)
+- [/System/Library/PrivateFrameworks/SoftwareUpdateServices.framework/PlugIns/SUSFollowUpExtension.appex/SUSFollowUpExtension](MACHOS/SUSFollowUpExtension.md)
+- [/System/Library/PrivateFrameworks/SoftwareUpdateServicesUI.framework/Plugins/SoftwareUpdateServicesUIPlugin.servicebundle/SoftwareUpdateServicesUIPlugin](MACHOS/SoftwareUpdateServicesUIPlugin.md)
+- [/System/Library/PrivateFrameworks/SonicKit.framework/PlugIns/SonicDiagnostics.appex/SonicDiagnostics](MACHOS/SonicDiagnostics.md)
+- [/System/Library/PrivateFrameworks/SoundScapesUtility.framework/PlugIns/SoundScapesViewServices.appex/SoundScapesViewServices](MACHOS/SoundScapesViewServices.md)
+- [/System/Library/PrivateFrameworks/SpaceAttribution.framework/spaceattributiond](MACHOS/spaceattributiond.md)
+- [/System/Library/PrivateFrameworks/SpeechRecognitionCore.framework/XPCServices/com.apple.SpeechRecognitionCore.brokerd.xpc/XPCServices/com.apple.SpeechRecognitionCore.speechrecognitiond.xpc/com.apple.SpeechRecognitionCore.speechrecognitiond](MACHOS/com.apple.SpeechRecognitionCore.speechrecognitiond.md)
+- [/System/Library/PrivateFrameworks/SpeechRecognitionCore.framework/XPCServices/com.apple.SpeechRecognitionCore.brokerd.xpc/com.apple.SpeechRecognitionCore.brokerd](MACHOS/com.apple.SpeechRecognitionCore.brokerd.md)
+- [/System/Library/PrivateFrameworks/Stickers.framework/Support/stickersd](MACHOS/stickersd.md)
+- [/System/Library/PrivateFrameworks/StocksKit.framework/XPCServices/StocksKitService.xpc/StocksKitService](MACHOS/StocksKitService.md)
+- [/System/Library/PrivateFrameworks/TCC.framework/Support/tccd](MACHOS/tccd.md)
+- [/System/Library/PrivateFrameworks/TelephonyUtilities.framework/PlugIns/PhoneIntentHandler.appex/PhoneIntentHandler](MACHOS/PhoneIntentHandler.md)
+- [/System/Library/PrivateFrameworks/TelephonyUtilities.framework/XPCServices/com.apple.FTLivePhotoService.xpc/com.apple.FTLivePhotoService](MACHOS/com.apple.FTLivePhotoService.md)
+- [/System/Library/PrivateFrameworks/TelephonyUtilities.framework/callservicesd](MACHOS/callservicesd.md)
+- [/System/Library/PrivateFrameworks/TextToSpeechVoiceBankingSupport.framework/PlugIns/VoiceBankingDiagnostics.appex/VoiceBankingDiagnostics](MACHOS/VoiceBankingDiagnostics.md)
+- [/System/Library/PrivateFrameworks/TextToSpeechVoiceBankingSupport.framework/Support/voicebankingd](MACHOS/voicebankingd.md)
+- [/System/Library/PrivateFrameworks/ThumbnailsBlastDoorSupport.framework/XPCServices/ThumbnailsBlastDoorService.xpc/ThumbnailsBlastDoorService](MACHOS/ThumbnailsBlastDoorService.md)
+- [/System/Library/PrivateFrameworks/TranslationUIServices.framework/PlugIns/TranslationUIService.appex/TranslationUIService](MACHOS/TranslationUIService.md)
+- [/System/Library/PrivateFrameworks/TransparencyUI.framework/PlugIns/SWTFollowUpExtension.appex/SWTFollowUpExtension](MACHOS/SWTFollowUpExtension.md)
+- [/System/Library/PrivateFrameworks/TrialServer.framework/XPCServices/TrialArchivingService.xpc/TrialArchivingService](MACHOS/TrialArchivingService.md)
+- [/System/Library/PrivateFrameworks/UARPAssetManager.framework/XPCServices/UARPAssetManagerServiceMobileAsset.xpc/UARPAssetManagerServiceMobileAsset](MACHOS/UARPAssetManagerServiceMobileAsset.md)
+- [/System/Library/PrivateFrameworks/UsageTracking.framework/UsageTrackingAgent](MACHOS/UsageTrackingAgent.md)
+- [/System/Library/PrivateFrameworks/UserNotificationsCore.framework/Support/usernotificationsd](MACHOS/usernotificationsd.md)
+- [/System/Library/PrivateFrameworks/VectorKit.framework/metal_libraries/binary.metallib](MACHOS/binary.metallib.md)
+- [/System/Library/PrivateFrameworks/VisualUnderstanding.framework/Plugins.bundle/Plugins](MACHOS/Plugins.md)
+- [/System/Library/PrivateFrameworks/VisualVoicemail.framework/vmd](MACHOS/vmd.md)
+- [/System/Library/PrivateFrameworks/VoiceMemos.framework/Support/voicememod](MACHOS/voicememod.md)
+- [/System/Library/PrivateFrameworks/VoiceShortcuts.framework/Support/siriactionsd](MACHOS/siriactionsd.md)
+- [/System/Library/PrivateFrameworks/WeatherDaemon.framework/weatherd](MACHOS/weatherd.md)
+- [/System/Library/PrivateFrameworks/WeaveReplay.framework/WeaveReplay](MACHOS/WeaveReplay.md)
+- [/System/Library/PrivateFrameworks/WebPrivacy.framework/webprivacyd](MACHOS/webprivacyd.md)
+- [/System/Library/PrivateFrameworks/WorkflowKit.framework/XPCServices/BackgroundShortcutRunner.xpc/BackgroundShortcutRunner](MACHOS/BackgroundShortcutRunner.md)
+- [/System/Library/PrivateFrameworks/WorkflowUI.framework/PlugIns/FocusConfigurationExtension.appex/FocusConfigurationExtension](MACHOS/FocusConfigurationExtension.md)
+- [/System/Library/PrivateFrameworks/WorkflowUI.framework/PlugIns/SystemActionConfigurationExtension.appex/SystemActionConfigurationExtension](MACHOS/SystemActionConfigurationExtension.md)
+- [/System/Library/PrivateFrameworks/WorkflowUI.framework/PlugIns/WidgetConfigurationExtension.appex/WidgetConfigurationExtension](MACHOS/WidgetConfigurationExtension.md)
+- [/System/Library/PrivateFrameworks/WorkoutKitServices.framework/XPCServices/WorkoutKitXPCService.xpc/WorkoutKitXPCService](MACHOS/WorkoutKitXPCService.md)
+- [/System/Library/PrivateFrameworks/iCloudDriveCore.framework/Frameworks/libos-brain.dylib](MACHOS/libos-brain.dylib.md)
+- [/System/Library/PrivateFrameworks/iCloudNotification.framework/ind](MACHOS/ind.md)
+- [/System/Library/PrivateFrameworks/iCloudQuotaUI.framework/Extensions/RemoteiCloudQuotaUI.appex/RemoteiCloudQuotaUI](MACHOS/RemoteiCloudQuotaUI.md)
+- [/System/Library/PrivateFrameworks/iCloudSubscriptionOptimizerDaemon.framework/icloudsubscriptionoptimizerd/icloudsubscriptionoptimizerd](MACHOS/icloudsubscriptionoptimizerd.md)
+- [/System/Library/PrivateFrameworks/iCloudSubscriptionOptimizerLighthouse.framework/PlugIns/LighthousePlugin.appex/LighthousePlugin](MACHOS/LighthousePlugin.md)
+- [/System/Library/PrivateFrameworks/iTunesCloud.framework/Support/itunescloudd](MACHOS/itunescloudd.md)
+- [/System/Library/PrivateFrameworks/iTunesStore.framework/Support/itunesstored](MACHOS/itunesstored.md)
+- [/System/Library/RelevanceEngine/NanoDataSources/MindRelevanceEngineDataSource.bundle/MindRelevanceEngineDataSource](MACHOS/MindRelevanceEngineDataSource.md)
+- [/System/Library/ScreenReader/BrailleDrivers/GenericHID.brailledriver/GenericHID](MACHOS/GenericHID.md)
+- [/System/Library/ScreenReader/BrailleTables/BrailleNBSC.brailletable/BrailleNBSC](MACHOS/BrailleNBSC.md)
+- [/System/Library/ScreenReader/BrailleTables/LiblouisBrailleTranslator.brailletable/LiblouisBrailleTranslator](MACHOS/LiblouisBrailleTranslator.md)
+- [/System/Library/Settings/DefaultApps/DefaultCallingAppsSettings.plugin/DefaultCallingAppsSettings](MACHOS/DefaultCallingAppsSettings.md)
+- [/System/Library/Settings/DeviceDiscoveryUISettings.settings/DeviceDiscoveryUISettings](MACHOS/DeviceDiscoveryUISettings.md)
+- [/System/Library/Settings/InstalledApps.settings/InstalledApps](MACHOS/InstalledApps.md)
+- [/System/Library/Settings/NFCTCCSettings.settings/NFCTCCSettings](MACHOS/NFCTCCSettings.md)
+- [/System/Library/Siri/DM/SiriSuggestions/Owners/AppLaunchSuggestionsPlugin.bundle/AppLaunchSuggestionsPlugin](MACHOS/AppLaunchSuggestionsPlugin.md)
+- [/System/Library/Siri/DM/SiriSuggestions/Owners/AudioSuggestionsPlugin.bundle/AudioSuggestionsPlugin](MACHOS/AudioSuggestionsPlugin.md)
+- [/System/Library/Siri/DM/SiriSuggestions/Owners/HomeAutomationSiriSuggestions.bundle/HomeAutomationSiriSuggestions](MACHOS/HomeAutomationSiriSuggestions.md)
+- [/System/Library/Siri/DM/SiriSuggestions/Owners/PhoneSuggestions.bundle/PhoneSuggestions](MACHOS/PhoneSuggestions.md)
+- [/System/Library/Siri/DM/SiriSuggestions/Owners/SiriGeoSuggestions.bundle/SiriGeoSuggestions](MACHOS/SiriGeoSuggestions.md)
+- [/System/Library/Siri/DM/SiriSuggestions/Owners/SiriInformationSuggestionsPlugin.bundle/SiriInformationSuggestionsPlugin](MACHOS/SiriInformationSuggestionsPlugin.md)
+- [/System/Library/Siri/DM/SiriSuggestions/Owners/SiriLinkSuggestionsPlugin.bundle/SiriLinkSuggestionsPlugin](MACHOS/SiriLinkSuggestionsPlugin.md)
+- [/System/Library/Siri/DM/SiriSuggestions/Owners/SiriMessagesSuggestions.bundle/SiriMessagesSuggestions](MACHOS/SiriMessagesSuggestions.md)
+- [/System/Library/Siri/DM/SiriSuggestions/Owners/SiriNotebookSuggestionsPlugin.bundle/SiriNotebookSuggestionsPlugin](MACHOS/SiriNotebookSuggestionsPlugin.md)
+- [/System/Library/Siri/DM/SiriSuggestions/Owners/SiriSettingsSuggestionsPlugin.bundle/SiriSettingsSuggestionsPlugin](MACHOS/SiriSettingsSuggestionsPlugin.md)
+- [/System/Library/Siri/DM/SiriSuggestions/Owners/SiriSocialConversationSuggestionsPlugin.bundle/SiriSocialConversationSuggestionsPlugin](MACHOS/SiriSocialConversationSuggestionsPlugin.md)
+- [/System/Library/Siri/DM/SiriSuggestions/Owners/SiriTimeSuggestionsPlugin.bundle/SiriTimeSuggestionsPlugin](MACHOS/SiriTimeSuggestionsPlugin.md)
+- [/System/Library/Snippets/UIPlugins/AlarmUIPlugin.bundle/AlarmUIPlugin](MACHOS/AlarmUIPlugin.md)
+- [/System/Library/Snippets/UIPlugins/AudioUIPlugin.bundle/AudioUIPlugin](MACHOS/AudioUIPlugin.md)
+- [/System/Library/Snippets/UIPlugins/ContactsFlowUIPlugin.bundle/ContactsFlowUIPlugin](MACHOS/ContactsFlowUIPlugin.md)
+- [/System/Library/Snippets/UIPlugins/HomeCommunicationUIPlugin.bundle/HomeCommunicationUIPlugin](MACHOS/HomeCommunicationUIPlugin.md)
+- [/System/Library/Snippets/UIPlugins/PhoneUIPlugin.bundle/PhoneUIPlugin](MACHOS/PhoneUIPlugin.md)
+- [/System/Library/Snippets/UIPlugins/ResponseGenerationUIPlugin.bundle/ResponseGenerationUIPlugin](MACHOS/ResponseGenerationUIPlugin.md)
+- [/System/Library/Snippets/UIPlugins/SearchToolUIPlugin.bundle/SearchToolUIPlugin](MACHOS/SearchToolUIPlugin.md)
+- [/System/Library/Snippets/UIPlugins/SettingsCustomPlugin.bundle/SettingsCustomPlugin](MACHOS/SettingsCustomPlugin.md)
+- [/System/Library/Snippets/UIPlugins/SiriExpanseInternalUIPlugin.bundle/SiriExpanseInternalUIPlugin](MACHOS/SiriExpanseInternalUIPlugin.md)
+- [/System/Library/Snippets/UIPlugins/SiriInferenceFlowsUIPlugin.bundle/SiriInferenceFlowsUIPlugin](MACHOS/SiriInferenceFlowsUIPlugin.md)
+- [/System/Library/Snippets/UIPlugins/SiriKitUIPlugin.bundle/SiriKitUIPlugin](MACHOS/SiriKitUIPlugin.md)
+- [/System/Library/Snippets/UIPlugins/SiriLinkUIPlugin.bundle/SiriLinkUIPlugin](MACHOS/SiriLinkUIPlugin.md)
+- [/System/Library/Snippets/UIPlugins/SiriMailUIPlugin.bundle/SiriMailUIPlugin](MACHOS/SiriMailUIPlugin.md)
+- [/System/Library/Snippets/UIPlugins/SiriPaymentsUIPlugin.bundle/SiriPaymentsUIPlugin](MACHOS/SiriPaymentsUIPlugin.md)
+- [/System/Library/Snippets/UIPlugins/SiriSuggestionsUIPlugin.bundle/SiriSuggestionsUIPlugin](MACHOS/SiriSuggestionsUIPlugin.md)
+- [/System/Library/Snippets/UIPlugins/SiriVideoUIPlugin.bundle/SiriVideoUIPlugin](MACHOS/SiriVideoUIPlugin.md)
+- [/System/Library/Snippets/UIPlugins/SystemPlugin.bundle/SystemPlugin](MACHOS/SystemPlugin.md)
+- [/System/Library/Snippets/UIPlugins/TimerUIPlugin.bundle/TimerUIPlugin](MACHOS/TimerUIPlugin.md)
+- [/System/Library/StreamingExtractorPlugins/Managed Background Assets Processing Pipeline.bundle/Managed Background Assets Processing Pipeline](MACHOS/Managed_Background_Assets_Processing_Pipeline.md)
+- [/System/Library/SyncBundles/AirFair.syncBundle/AirFair](MACHOS/AirFair.md)
+- [/System/Library/SyncBundles/AirFair2.syncBundle/AirFair2](MACHOS/AirFair2.md)
+- [/System/Library/SyncBundles/MusicLibrary.syncBundle/MusicLibrary](MACHOS/MusicLibrary.md)
+- [/System/Library/Trace/Providers/Logging.bundle/Logging](MACHOS/Logging.md)
+- [/System/Library/Trace/Providers/SwiftUI.bundle/SwiftUI](MACHOS/SwiftUI.md)
+- [/System/Library/UserEventPlugins/com.apple.accessoryd.matching.plugin/com.apple.accessoryd.matching](MACHOS/com.apple.accessoryd.matching.md)
+- [/System/Library/UserEventPlugins/locationd.events.plugin/locationd.events](MACHOS/locationd.events.md)
+- [/System/Library/UserNotifications/Bundles/com.apple.Siri.ActionPredictionNotifications.bundle/com.apple.Siri.ActionPredictionNotifications](MACHOS/com.apple.Siri.ActionPredictionNotifications.md)
+- [/System/Library/Video/Plug-Ins/AppleMCTF.bundle/AppleMCTF](MACHOS/AppleMCTF.md)
+- [/System/Library/Video/Plug-Ins/AppleVideoEncoder.bundle/AppleVideoEncoder](MACHOS/AppleVideoEncoder.md)
+- [/System/Library/VideoProcessors/ColourConstancyV1.bundle/binaryArchive.g18p](MACHOS/binaryArchive.g18p.md)
+- [/System/Library/VideoProcessors/DepthProcessorV2.bundle/binaryArchive.g18p](MACHOS/binaryArchive.g18p.md)
+- [/System/Library/VideoProcessors/DepthProcessorV2.bundle/binaryArchive.g18p_a0](MACHOS/binaryArchive.g18p_a0.md)
+- [/System/Library/VideoProcessors/MattingV2.bundle/binaryArchive.g18p_a0](MACHOS/binaryArchive.g18p_a0.md)
+- [/System/Library/VideoProcessors/MetalFilter.bundle/binaryArchive.g18p](MACHOS/binaryArchive.g18p.md)
+- [/System/Library/VideoProcessors/MetalFilter.bundle/binaryArchive.g18p_a0](MACHOS/binaryArchive.g18p_a0.md)
+- [/System/Library/VideoProcessors/NRFV4.bundle/binaryArchive.g18p](MACHOS/binaryArchive.g18p.md)
+- [/System/Library/VideoProcessors/NRFV4.bundle/binaryArchive.g18p_a0](MACHOS/binaryArchive.g18p_a0.md)
+- [/System/Library/VideoProcessors/STF.bundle/binaryArchive.g18p](MACHOS/binaryArchive.g18p.md)
+- [/System/Library/VideoProcessors/SuperResolutionV2.bundle/binaryArchive.g18p](MACHOS/binaryArchive.g18p.md)
+- [/System/Library/VideoProcessors/VideoDeghostingV3.bundle/binaryArchive.g18p](MACHOS/binaryArchive.g18p.md)
+- [/System/Library/VideoProcessors/VideoStabilizationV2.bundle/binaryArchive.g18p](MACHOS/binaryArchive.g18p.md)
+- [/System/Library/VideoProcessors/VideoStabilizationV2.bundle/binaryArchive.g18p_a0](MACHOS/binaryArchive.g18p_a0.md)
+- [/private/var/staged_system_apps/AegirProxyApp.app/Extensions/AegirPoster.appex/AegirPoster](MACHOS/AegirPoster.md)
+- [/private/var/staged_system_apps/AppStore.app/AppStore](MACHOS/AppStore.md)
+- [/private/var/staged_system_apps/AppStore.app/PlugIns/AppStoreWidgetsExtension.appex/AppStoreWidgetsExtension](MACHOS/AppStoreWidgetsExtension.md)
+- [/private/var/staged_system_apps/AppleTV.app/PlugIns/TVIntentsExtension.appex/TVIntentsExtension](MACHOS/TVIntentsExtension.md)
+- [/private/var/staged_system_apps/AppleTV.app/PlugIns/TVWidgetExtension.appex/TVWidgetExtension](MACHOS/TVWidgetExtension.md)
+- [/private/var/staged_system_apps/AppleVisionProApp.app/AppleVisionProApp](MACHOS/AppleVisionProApp.md)
+- [/private/var/staged_system_apps/Books.app/Books](MACHOS/Books.md)
+- [/private/var/staged_system_apps/Books.app/Frameworks/AEBookPlugins.framework/AEBookPlugins](MACHOS/AEBookPlugins.md)
+- [/private/var/staged_system_apps/Books.app/Frameworks/BKLibrary.framework/BKLibrary](MACHOS/BKLibrary.md)
+- [/private/var/staged_system_apps/Books.app/Frameworks/BookAnalytics.framework/BookAnalytics](MACHOS/BookAnalytics.md)
+- [/private/var/staged_system_apps/Books.app/Frameworks/BookCore.framework/BookCore](MACHOS/BookCore.md)
+- [/private/var/staged_system_apps/Books.app/Frameworks/BookEPUB.framework/BookEPUB](MACHOS/BookEPUB.md)
+- [/private/var/staged_system_apps/Books.app/Frameworks/BookStoreUI.framework/BookStoreUI](MACHOS/BookStoreUI.md)
+- [/private/var/staged_system_apps/Books.app/Frameworks/BooksPersonalization.framework/BooksPersonalization](MACHOS/BooksPersonalization.md)
+- [/private/var/staged_system_apps/Books.app/Frameworks/BooksUI.framework/BooksUI](MACHOS/BooksUI.md)
+- [/private/var/staged_system_apps/Books.app/Frameworks/EngagementCollector.framework/EngagementCollector](MACHOS/EngagementCollector.md)
+- [/private/var/staged_system_apps/Books.app/Frameworks/JSApp.framework/JSApp](MACHOS/JSApp.md)
+- [/private/var/staged_system_apps/Books.app/Frameworks/TemplateUI.framework/TemplateUI](MACHOS/TemplateUI.md)
+- [/private/var/staged_system_apps/Books.app/PlugIns/BooksEngagementExtension.appex/BooksEngagementExtension](MACHOS/BooksEngagementExtension.md)
+- [/private/var/staged_system_apps/Books.app/PlugIns/BooksProductPageExtension.appex/BooksProductPageExtension](MACHOS/BooksProductPageExtension.md)
+- [/private/var/staged_system_apps/Books.app/PlugIns/BooksWidgetExtension.appex/BooksWidgetExtension](MACHOS/BooksWidgetExtension.md)
+- [/private/var/staged_system_apps/Bridge.app/Bridge](MACHOS/Bridge.md)
+- [/private/var/staged_system_apps/Bridge.app/PlugIns/BridgeWidgetExtension.appex/BridgeWidgetExtension](MACHOS/BridgeWidgetExtension.md)
+- [/private/var/staged_system_apps/Calculator.app/Calculator](MACHOS/Calculator.md)
+- [/private/var/staged_system_apps/Camera.app/Camera](MACHOS/Camera.md)
+- [/private/var/staged_system_apps/EmojiPoster.app/Extensions/EmojiPosterExtension.appex/EmojiPosterExtension](MACHOS/EmojiPosterExtension.md)
+- [/private/var/staged_system_apps/FaceTime.app/FaceTime](MACHOS/FaceTime.md)
+- [/private/var/staged_system_apps/Files.app/Files](MACHOS/Files.md)
+- [/private/var/staged_system_apps/FindMy.app/FindMy](MACHOS/FindMy.md)
+- [/private/var/staged_system_apps/FindMy.app/Frameworks/FindMyAppCore.framework/FindMyAppCore](MACHOS/FindMyAppCore.md)
+- [/private/var/staged_system_apps/FindMy.app/PlugIns/FindMyNotificationsContent.appex/FindMyNotificationsContent](MACHOS/FindMyNotificationsContent.md)
+- [/private/var/staged_system_apps/FindMy.app/PlugIns/FindMyNotificationsService.appex/FindMyNotificationsService](MACHOS/FindMyNotificationsService.md)
+- [/private/var/staged_system_apps/FindMy.app/PlugIns/FindMyWidgetItems.appex/FindMyWidgetItems](MACHOS/FindMyWidgetItems.md)
+- [/private/var/staged_system_apps/FindMy.app/PlugIns/FindMyWidgetPeople.appex/FindMyWidgetPeople](MACHOS/FindMyWidgetPeople.md)
+- [/private/var/staged_system_apps/Fitness.app/Fitness](MACHOS/Fitness.md)
+- [/private/var/staged_system_apps/Fitness.app/PlugIns/MirroredWidgetExtension.appex/MirroredWidgetExtension](MACHOS/MirroredWidgetExtension.md)
+- [/private/var/staged_system_apps/Freeform.app/Extensions/USDRendererExtension.appex/USDRendererExtension](MACHOS/USDRendererExtension.md)
+- [/private/var/staged_system_apps/Freeform.app/Frameworks/AppsGen.framework/AppsGen](MACHOS/AppsGen.md)
+- [/private/var/staged_system_apps/Freeform.app/Frameworks/TSImageGeneration.framework/TSImageGeneration](MACHOS/TSImageGeneration.md)
+- [/private/var/staged_system_apps/Freeform.app/Frameworks/TSMediaLibrary.framework/TSMediaLibrary](MACHOS/TSMediaLibrary.md)
+- [/private/var/staged_system_apps/Freeform.app/Frameworks/TSUtility.framework/TSUtility](MACHOS/TSUtility.md)
+- [/private/var/staged_system_apps/Freeform.app/Freeform](MACHOS/Freeform.md)
+- [/private/var/staged_system_apps/Freeform.app/PlugIns/FreeformSharingExtension.appex/FreeformSharingExtension](MACHOS/FreeformSharingExtension.md)
+- [/private/var/staged_system_apps/Freeform.app/PlugIns/FreeformWidgetKitExtension.appex/FreeformWidgetKitExtension](MACHOS/FreeformWidgetKitExtension.md)
+- [/private/var/staged_system_apps/Games.app/Games](MACHOS/Games.md)
+- [/private/var/staged_system_apps/GradientPoster.app/GradientPoster](MACHOS/GradientPoster.md)
+- [/private/var/staged_system_apps/Health.app/Health](MACHOS/Health.md)
+- [/private/var/staged_system_apps/Home.app/Home](MACHOS/Home.md)
+- [/private/var/staged_system_apps/Home.app/PlugIns/HomeEnergyWidgetsExtension.appex/HomeEnergyWidgetsExtension](MACHOS/HomeEnergyWidgetsExtension.md)
+- [/private/var/staged_system_apps/Home.app/PlugIns/HomeWidget.appex/HomeWidget](MACHOS/HomeWidget.md)
+- [/private/var/staged_system_apps/Home.app/PlugIns/HomeWidgetLockScreen.appex/HomeWidgetLockScreen](MACHOS/HomeWidgetLockScreen.md)
+- [/private/var/staged_system_apps/Image Playground.app/PlugIns/GenerativePlaygroundMessagesAppExtension.appex/GenerativePlaygroundMessagesAppExtension](MACHOS/GenerativePlaygroundMessagesAppExtension.md)
+- [/private/var/staged_system_apps/Journal.app/Journal](MACHOS/Journal.md)
+- [/private/var/staged_system_apps/Journal.app/PlugIns/JournalShareExtension.appex/JournalShareExtension](MACHOS/JournalShareExtension.md)
+- [/private/var/staged_system_apps/Journal.app/PlugIns/JournalWidgets.appex/JournalWidgets](MACHOS/JournalWidgets.md)
+- [/private/var/staged_system_apps/Journal.app/PlugIns/JournalWidgetsSecure.appex/JournalWidgetsSecure](MACHOS/JournalWidgetsSecure.md)
+- [/private/var/staged_system_apps/KaleidoscopePosterApp.app/Extensions/KaleidoscopePoster.appex/KaleidoscopePoster](MACHOS/KaleidoscopePoster.md)
+- [/private/var/staged_system_apps/Maps.app/Maps](MACHOS/Maps.md)
+- [/private/var/staged_system_apps/Maps.app/PlugIns/GeneralMapsWidget.appex/GeneralMapsWidget](MACHOS/GeneralMapsWidget.md)
+- [/private/var/staged_system_apps/Measure.app/Measure](MACHOS/Measure.md)
+- [/private/var/staged_system_apps/MobileCal.app/MobileCal](MACHOS/MobileCal.md)
+- [/private/var/staged_system_apps/MobileCal.app/PlugIns/CalendarWidgetExtension.appex/CalendarWidgetExtension](MACHOS/CalendarWidgetExtension.md)
+- [/private/var/staged_system_apps/MobileMail.app/MobileMail](MACHOS/MobileMail.md)
+- [/private/var/staged_system_apps/MobileNotes.app/Extensions/NotesAppMigrationExtension.appex/NotesAppMigrationExtension](MACHOS/NotesAppMigrationExtension.md)
+- [/private/var/staged_system_apps/MobileNotes.app/MobileNotes](MACHOS/MobileNotes.md)
+- [/private/var/staged_system_apps/MobileNotes.app/PlugIns/com.apple.mobilenotes.EditorExtension.appex/com.apple.mobilenotes.EditorExtension](MACHOS/com.apple.mobilenotes.EditorExtension.md)
+- [/private/var/staged_system_apps/MobileNotes.app/PlugIns/com.apple.mobilenotes.IntentsExtension.appex/com.apple.mobilenotes.IntentsExtension](MACHOS/com.apple.mobilenotes.IntentsExtension.md)
+- [/private/var/staged_system_apps/MobileNotes.app/PlugIns/com.apple.mobilenotes.SharingExtension.appex/com.apple.mobilenotes.SharingExtension](MACHOS/com.apple.mobilenotes.SharingExtension.md)
+- [/private/var/staged_system_apps/MobileNotes.app/PlugIns/com.apple.mobilenotes.WidgetExtension.appex/com.apple.mobilenotes.WidgetExtension](MACHOS/com.apple.mobilenotes.WidgetExtension.md)
+- [/private/var/staged_system_apps/MobileSMS.app/Extensions/MessagesActionExtension.appex/MessagesActionExtension](MACHOS/MessagesActionExtension.md)
+- [/private/var/staged_system_apps/MobileSMS.app/PlugIns/MessagesPluginNotificationExtension.appex/MessagesPluginNotificationExtension](MACHOS/MessagesPluginNotificationExtension.md)
+- [/private/var/staged_system_apps/MobileSafari.app/Extensions/SafariLinkExtension.appex/SafariLinkExtension](MACHOS/SafariLinkExtension.md)
+- [/private/var/staged_system_apps/MobileSafari.app/PlugIns/SafariWidgetExtension.appex/SafariWidgetExtension](MACHOS/SafariWidgetExtension.md)
+- [/private/var/staged_system_apps/MobileStore.app/MobileStore](MACHOS/MobileStore.md)
+- [/private/var/staged_system_apps/Music.app/Extensions/MusicFocusFilters.appex/MusicFocusFilters](MACHOS/MusicFocusFilters.md)
+- [/private/var/staged_system_apps/Music.app/Frameworks/MusicApplication.framework/MusicApplication](MACHOS/MusicApplication.md)
+- [/private/var/staged_system_apps/Music.app/Frameworks/MusicApplication.framework/XPCServices/MusicScriptUpdateService.xpc/MusicScriptUpdateService](MACHOS/MusicScriptUpdateService.md)
+- [/private/var/staged_system_apps/Music.app/Music](MACHOS/Music.md)
+- [/private/var/staged_system_apps/Music.app/PlugIns/MusicMessagesApp.appex/MusicMessagesApp](MACHOS/MusicMessagesApp.md)
+- [/private/var/staged_system_apps/Music.app/PlugIns/MusicWidgets.appex/MusicWidgets](MACHOS/MusicWidgets.md)
+- [/private/var/staged_system_apps/News.app/News](MACHOS/News.md)
+- [/private/var/staged_system_apps/News.app/PlugIns/NewsAudioExtension.appex/NewsAudioExtension](MACHOS/NewsAudioExtension.md)
+- [/private/var/staged_system_apps/News.app/PlugIns/NewsEngagementExtension.appex/NewsEngagementExtension](MACHOS/NewsEngagementExtension.md)
+- [/private/var/staged_system_apps/News.app/PlugIns/NewsNotificationServiceExtension.appex/NewsNotificationServiceExtension](MACHOS/NewsNotificationServiceExtension.md)
+- [/private/var/staged_system_apps/News.app/PlugIns/NewsTag.appex/NewsTag](MACHOS/NewsTag.md)
+- [/private/var/staged_system_apps/News.app/PlugIns/NewsToday2.appex/NewsToday2](MACHOS/NewsToday2.md)
+- [/private/var/staged_system_apps/News.app/PlugIns/NewsTodayIntents.appex/NewsTodayIntents](MACHOS/NewsTodayIntents.md)
+- [/private/var/staged_system_apps/Passbook.app/PlugIns/PassbookLockedWidgetsExtension.appex/PassbookLockedWidgetsExtension](MACHOS/PassbookLockedWidgetsExtension.md)
+- [/private/var/staged_system_apps/Photos.app/Photos](MACHOS/Photos.md)
+- [/private/var/staged_system_apps/Photos.app/PlugIns/PhotosReliveWidget.appex/PhotosReliveWidget](MACHOS/PhotosReliveWidget.md)
+- [/private/var/staged_system_apps/Podcasts.app/Frameworks/NowPlayingUI.framework/NowPlayingUI](MACHOS/NowPlayingUI.md)
+- [/private/var/staged_system_apps/Podcasts.app/Frameworks/PodcastsActions.framework/PodcastsActions](MACHOS/PodcastsActions.md)
+- [/private/var/staged_system_apps/Podcasts.app/Frameworks/PodcastsAppEntities.framework/PodcastsAppEntities](MACHOS/PodcastsAppEntities.md)
+- [/private/var/staged_system_apps/Podcasts.app/Frameworks/PodcastsAppIntents.framework/PodcastsAppIntents](MACHOS/PodcastsAppIntents.md)
+- [/private/var/staged_system_apps/Podcasts.app/Frameworks/PodcastsPlayback.framework/PodcastsPlayback](MACHOS/PodcastsPlayback.md)
+- [/private/var/staged_system_apps/Podcasts.app/Frameworks/PodcastsSuggestedDonations.framework/PodcastsSuggestedDonations](MACHOS/PodcastsSuggestedDonations.md)
+- [/private/var/staged_system_apps/Podcasts.app/Frameworks/PodcastsTranscripts.framework/PodcastsTranscripts](MACHOS/PodcastsTranscripts.md)
+- [/private/var/staged_system_apps/Podcasts.app/Frameworks/PodcastsWidgetKit.framework/PodcastsWidgetKit](MACHOS/PodcastsWidgetKit.md)
+- [/private/var/staged_system_apps/Podcasts.app/Frameworks/ShelfKit.framework/ShelfKit](MACHOS/ShelfKit.md)
+- [/private/var/staged_system_apps/Podcasts.app/Frameworks/ShelfKitCollectionViews.framework/ShelfKitCollectionViews](MACHOS/ShelfKitCollectionViews.md)
+- [/private/var/staged_system_apps/Podcasts.app/PlugIns/PodcastsClassKitExtension.appex/PodcastsClassKitExtension](MACHOS/PodcastsClassKitExtension.md)
+- [/private/var/staged_system_apps/Podcasts.app/PlugIns/com.apple.podcasts.DiagnosticExtension.appex/com.apple.podcasts.DiagnosticExtension](MACHOS/com.apple.podcasts.DiagnosticExtension.md)
+- [/private/var/staged_system_apps/Podcasts.app/Podcasts](MACHOS/Podcasts.md)
+- [/private/var/staged_system_apps/Preview.app/Preview](MACHOS/Preview.md)
+- [/private/var/staged_system_apps/PridePosterApp.app/Extensions/PridePosterExtension.appex/PridePosterExtension](MACHOS/PridePosterExtension.md)
+- [/private/var/staged_system_apps/Reminders.app/PlugIns/RemindersIntentsExtension.appex/RemindersIntentsExtension](MACHOS/RemindersIntentsExtension.md)
+- [/private/var/staged_system_apps/Reminders.app/PlugIns/RemindersIntentsUIExtension.appex/RemindersIntentsUIExtension](MACHOS/RemindersIntentsUIExtension.md)
+- [/private/var/staged_system_apps/Reminders.app/PlugIns/RemindersSharingExtension.appex/RemindersSharingExtension](MACHOS/RemindersSharingExtension.md)
+- [/private/var/staged_system_apps/Reminders.app/PlugIns/RemindersSpotlightIndexExtension.appex/RemindersSpotlightIndexExtension](MACHOS/RemindersSpotlightIndexExtension.md)
+- [/private/var/staged_system_apps/Reminders.app/PlugIns/RemindersWidgetExtension.appex/RemindersWidgetExtension](MACHOS/RemindersWidgetExtension.md)
+- [/private/var/staged_system_apps/Reminders.app/Reminders](MACHOS/Reminders.md)
+- [/private/var/staged_system_apps/SequoiaTranslator.app/PlugIns/TranslationWidgetsExtension.appex/TranslationWidgetsExtension](MACHOS/TranslationWidgetsExtension.md)
+- [/private/var/staged_system_apps/SequoiaTranslator.app/SequoiaTranslator](MACHOS/SequoiaTranslator.md)
+- [/private/var/staged_system_apps/Shortcuts.app/PlugIns/ShortcutsWidgetExtension.appex/ShortcutsWidgetExtension](MACHOS/ShortcutsWidgetExtension.md)
+- [/private/var/staged_system_apps/Shortcuts.app/PlugIns/ThumbnailExtension.appex/ThumbnailExtension](MACHOS/ThumbnailExtension.md)
+- [/private/var/staged_system_apps/Shortcuts.app/Shortcuts](MACHOS/Shortcuts.md)
+- [/private/var/staged_system_apps/Stocks.app/PlugIns/StocksWidget.appex/StocksWidget](MACHOS/StocksWidget.md)
+- [/private/var/staged_system_apps/Stocks.app/Stocks](MACHOS/Stocks.md)
+- [/private/var/staged_system_apps/Tips.app/PlugIns/TipsWidget.appex/TipsWidget](MACHOS/TipsWidget.md)
+- [/private/var/staged_system_apps/Tips.app/Tips](MACHOS/Tips.md)
+- [/private/var/staged_system_apps/UnityPosterApp.app/Extensions/ExtragalacticPoster.appex/ExtragalacticPoster](MACHOS/ExtragalacticPoster.md)
+- [/private/var/staged_system_apps/UnityPosterApp.app/Extensions/RhizomePoster.appex/RhizomePoster](MACHOS/RhizomePoster.md)
+- [/private/var/staged_system_apps/VoiceMemos.app/PlugIns/VoiceMemosSettingsWidgetExtension.appex/VoiceMemosSettingsWidgetExtension](MACHOS/VoiceMemosSettingsWidgetExtension.md)
+- [/private/var/staged_system_apps/VoiceMemos.app/VoiceMemos](MACHOS/VoiceMemos.md)
+- [/private/var/staged_system_apps/Weather.app/Extensions/WeatherAppIntents.appex/WeatherAppIntents](MACHOS/WeatherAppIntents.md)
+- [/private/var/staged_system_apps/Weather.app/PlugIns/WeatherDiagnosticExtension.appex/WeatherDiagnosticExtension](MACHOS/WeatherDiagnosticExtension.md)
+- [/private/var/staged_system_apps/Weather.app/PlugIns/WeatherIntents.appex/WeatherIntents](MACHOS/WeatherIntents.md)
+- [/private/var/staged_system_apps/Weather.app/PlugIns/WeatherWidget.appex/WeatherWidget](MACHOS/WeatherWidget.md)
+- [/private/var/staged_system_apps/Weather.app/Weather](MACHOS/Weather.md)
+- [/private/var/staged_system_apps/WeatherPosterApp.app/Extensions/WeatherPoster.appex/WeatherPoster](MACHOS/WeatherPoster.md)
+- [/sbin/ifconfig](MACHOS/ifconfig.md)
+- [/sbin/launchd](MACHOS/launchd.md)
+- [/usr/bin/footprint](MACHOS/footprint.md)
+- [/usr/bin/modelcatalogdump](MACHOS/modelcatalogdump.md)
+- [/usr/bin/perfpowermetricd](MACHOS/perfpowermetricd.md)
+- [/usr/bin/powerlogHelperd](MACHOS/powerlogHelperd.md)
+- [/usr/bin/searchdiagnose](MACHOS/searchdiagnose.md)
+- [/usr/bin/swift-inspect](MACHOS/swift-inspect.md)
+- [/usr/lib/dyld](MACHOS/dyld.md)
+- [/usr/lib/libCoreFP.dylib](MACHOS/libCoreFP.dylib.md)
+- [/usr/lib/libCoreLSKD.dylib](MACHOS/libCoreLSKD.dylib.md)
+- [/usr/lib/libramrod.dylib](MACHOS/libramrod.dylib.md)
+- [/usr/libexec/ASPCarryLog](MACHOS/ASPCarryLog.md)
+- [/usr/libexec/AuthenticationServicesAgent](MACHOS/AuthenticationServicesAgent.md)
+- [/usr/libexec/BackupAgent2](MACHOS/BackupAgent2.md)
+- [/usr/libexec/DumpPanic](MACHOS/DumpPanic.md)
+- [/usr/libexec/IOMFB_bics_daemon](MACHOS/IOMFB_bics_daemon.md)
+- [/usr/libexec/NANDTaskScheduler](MACHOS/NANDTaskScheduler.md)
+- [/usr/libexec/PerfPowerServices](MACHOS/PerfPowerServices.md)
+- [/usr/libexec/PerfPowerServicesExtended](MACHOS/PerfPowerServicesExtended.md)
+- [/usr/libexec/ReportMemoryException](MACHOS/ReportMemoryException.md)
+- [/usr/libexec/SafariBookmarksSyncAgent](MACHOS/SafariBookmarksSyncAgent.md)
+- [/usr/libexec/SensorKitALSHelper](MACHOS/SensorKitALSHelper.md)
+- [/usr/libexec/SidecarRelay](MACHOS/SidecarRelay.md)
+- [/usr/libexec/ViewHierarchyAgent](MACHOS/ViewHierarchyAgent.md)
+- [/usr/libexec/addressbooksyncd](MACHOS/addressbooksyncd.md)
+- [/usr/libexec/alwaysonexclavesd](MACHOS/alwaysonexclavesd.md)
+- [/usr/libexec/amfid](MACHOS/amfid.md)
+- [/usr/libexec/anomalydetectiond](MACHOS/anomalydetectiond.md)
+- [/usr/libexec/aonsensed](MACHOS/aonsensed.md)
+- [/usr/libexec/appleaccountd](MACHOS/appleaccountd.md)
+- [/usr/libexec/appleh16camerad](MACHOS/appleh16camerad.md)
+- [/usr/libexec/appleidsetupd](MACHOS/appleidsetupd.md)
+- [/usr/libexec/applekeystored](MACHOS/applekeystored.md)
+- [/usr/libexec/asktod](MACHOS/asktod.md)
+- [/usr/libexec/assessmentagent](MACHOS/assessmentagent.md)
+- [/usr/libexec/audioaccessoryd](MACHOS/audioaccessoryd.md)
+- [/usr/libexec/audioanalyticsd](MACHOS/audioanalyticsd.md)
+- [/usr/libexec/backboardd](MACHOS/backboardd.md)
+- [/usr/libexec/backgroundassets.user](MACHOS/backgroundassets.user.md)
+- [/usr/libexec/bluetoothuserd](MACHOS/bluetoothuserd.md)
+- [/usr/libexec/browserkitd](MACHOS/browserkitd.md)
+- [/usr/libexec/caraccessoryd](MACHOS/caraccessoryd.md)
+- [/usr/libexec/carkitd](MACHOS/carkitd.md)
+- [/usr/libexec/checkpointd](MACHOS/checkpointd.md)
+- [/usr/libexec/companiond](MACHOS/companiond.md)
+- [/usr/libexec/continuitycaptured](MACHOS/continuitycaptured.md)
+- [/usr/libexec/coreidvd](MACHOS/coreidvd.md)
+- [/usr/libexec/countryd](MACHOS/countryd.md)
+- [/usr/libexec/cryptexd](MACHOS/cryptexd.md)
+- [/usr/libexec/dasd](MACHOS/dasd.md)
+- [/usr/libexec/demod](MACHOS/demod.md)
+- [/usr/libexec/deviceaccessd](MACHOS/deviceaccessd.md)
+- [/usr/libexec/diagnosticspushd](MACHOS/diagnosticspushd.md)
+- [/usr/libexec/dietappleh16camerad](MACHOS/dietappleh16camerad.md)
+- [/usr/libexec/dockaccessoryd](MACHOS/dockaccessoryd.md)
+- [/usr/libexec/driverkitd](MACHOS/driverkitd.md)
+- [/usr/libexec/dtfetchsymbolsd](MACHOS/dtfetchsymbolsd.md)
+- [/usr/libexec/duetexpertd](MACHOS/duetexpertd.md)
+- [/usr/libexec/eligibilityd](MACHOS/eligibilityd.md)
+- [/usr/libexec/enhancedloggingd](MACHOS/enhancedloggingd.md)
+- [/usr/libexec/fairplaydeviceidentityd](MACHOS/fairplaydeviceidentityd.md)
+- [/usr/libexec/feedbackd](MACHOS/feedbackd.md)
+- [/usr/libexec/findmybeaconingd](MACHOS/findmybeaconingd.md)
+- [/usr/libexec/findmydeviced](MACHOS/findmydeviced.md)
+- [/usr/libexec/findmylocated](MACHOS/findmylocated.md)
+- [/usr/libexec/fmflocatord](MACHOS/fmflocatord.md)
+- [/usr/libexec/frauddefensed](MACHOS/frauddefensed.md)
+- [/usr/libexec/fskitd](MACHOS/fskitd.md)
+- [/usr/libexec/gamed](MACHOS/gamed.md)
+- [/usr/libexec/gamepolicyd](MACHOS/gamepolicyd.md)
+- [/usr/libexec/gamesaved](MACHOS/gamesaved.md)
+- [/usr/libexec/gpsd](MACHOS/gpsd.md)
+- [/usr/libexec/gputoolsserviced](MACHOS/gputoolsserviced.md)
+- [/usr/libexec/icloudmailagent](MACHOS/icloudmailagent.md)
+- [/usr/libexec/icloudwebd](MACHOS/icloudwebd.md)
+- [/usr/libexec/idcredd](MACHOS/idcredd.md)
+- [/usr/libexec/inboxupdaterd](MACHOS/inboxupdaterd.md)
+- [/usr/libexec/keychainsharingmessagingd](MACHOS/keychainsharingmessagingd.md)
+- [/usr/libexec/latticed](MACHOS/latticed.md)
+- [/usr/libexec/linkd](MACHOS/linkd.md)
+- [/usr/libexec/locationd](MACHOS/locationd.md)
+- [/usr/libexec/lockdownd](MACHOS/lockdownd.md)
+- [/usr/libexec/lskdP7d](MACHOS/lskdP7d.md)
+- [/usr/libexec/lskdd](MACHOS/lskdd.md)
+- [/usr/libexec/managedassetsd](MACHOS/managedassetsd.md)
+- [/usr/libexec/meshnetd](MACHOS/meshnetd.md)
+- [/usr/libexec/misagent](MACHOS/misagent.md)
+- [/usr/libexec/misd](MACHOS/misd.md)
+- [/usr/libexec/mlhostd](MACHOS/mlhostd.md)
+- [/usr/libexec/mmaintenanced](MACHOS/mmaintenanced.md)
+- [/usr/libexec/mobileactivationd](MACHOS/mobileactivationd.md)
+- [/usr/libexec/modelmanagerd](MACHOS/modelmanagerd.md)
+- [/usr/libexec/momentsd](MACHOS/momentsd.md)
+- [/usr/libexec/nanoregistryd](MACHOS/nanoregistryd.md)
+- [/usr/libexec/nearbyd](MACHOS/nearbyd.md)
+- [/usr/libexec/nehelper](MACHOS/nehelper.md)
+- [/usr/libexec/nesessionmanager](MACHOS/nesessionmanager.md)
+- [/usr/libexec/nfcd](MACHOS/nfcd.md)
+- [/usr/libexec/nptocompaniond](MACHOS/nptocompaniond.md)
+- [/usr/libexec/online-auth-agent](MACHOS/online-auth-agent.md)
+- [/usr/libexec/ospredictiond](MACHOS/ospredictiond.md)
+- [/usr/libexec/peakpowermanagerd](MACHOS/peakpowermanagerd.md)
+- [/usr/libexec/photosfaced](MACHOS/photosfaced.md)
+- [/usr/libexec/powerexceptionsd](MACHOS/powerexceptionsd.md)
+- [/usr/libexec/powerexperienced](MACHOS/powerexperienced.md)
+- [/usr/libexec/profiled](MACHOS/profiled.md)
+- [/usr/libexec/promotedcontentd](MACHOS/promotedcontentd.md)
+- [/usr/libexec/proximitycontrold](MACHOS/proximitycontrold.md)
+- [/usr/libexec/ptpassivecollectiond](MACHOS/ptpassivecollectiond.md)
+- [/usr/libexec/rapportd](MACHOS/rapportd.md)
+- [/usr/libexec/remindd](MACHOS/remindd.md)
+- [/usr/libexec/remoteappintentsd](MACHOS/remoteappintentsd.md)
+- [/usr/libexec/remotectl](MACHOS/remotectl.md)
+- [/usr/libexec/remotepairingdeviced](MACHOS/remotepairingdeviced.md)
+- [/usr/libexec/restoreserviced](MACHOS/restoreserviced.md)
+- [/usr/libexec/royacaptured](MACHOS/royacaptured.md)
+- [/usr/libexec/rtcreportingd](MACHOS/rtcreportingd.md)
+- [/usr/libexec/searchpartyd](MACHOS/searchpartyd.md)
+- [/usr/libexec/securepairingd](MACHOS/securepairingd.md)
+- [/usr/libexec/securityd](MACHOS/securityd.md)
+- [/usr/libexec/securityresearchdevice-init](MACHOS/securityresearchdevice-init.md)
+- [/usr/libexec/securityuploadd](MACHOS/securityuploadd.md)
+- [/usr/libexec/seld](MACHOS/seld.md)
+- [/usr/libexec/sensorkitd](MACHOS/sensorkitd.md)
+- [/usr/libexec/seserviced](MACHOS/seserviced.md)
+- [/usr/libexec/sharingd](MACHOS/sharingd.md)
+- [/usr/libexec/sirireaderd](MACHOS/sirireaderd.md)
+- [/usr/libexec/softposreaderd](MACHOS/softposreaderd.md)
+- [/usr/libexec/sportsd](MACHOS/sportsd.md)
+- [/usr/libexec/srp-mdns-proxy](MACHOS/srp-mdns-proxy.md)
+- [/usr/libexec/storagekitd](MACHOS/storagekitd.md)
+- [/usr/libexec/swiftuitraced](MACHOS/swiftuitraced.md)
+- [/usr/libexec/swtransparency-sysdiagnose](MACHOS/swtransparency-sysdiagnose.md)
+- [/usr/libexec/swtransparencyd](MACHOS/swtransparencyd.md)
+- [/usr/libexec/sysdiagnosed](MACHOS/sysdiagnosed.md)
+- [/usr/libexec/textunderstandingd](MACHOS/textunderstandingd.md)
+- [/usr/libexec/thermalmonitord](MACHOS/thermalmonitord.md)
+- [/usr/libexec/tipsd](MACHOS/tipsd.md)
+- [/usr/libexec/toolkitd](MACHOS/toolkitd.md)
+- [/usr/libexec/transparencyd](MACHOS/transparencyd.md)
+- [/usr/libexec/triageControllerD](MACHOS/triageControllerD.md)
+- [/usr/libexec/trustd](MACHOS/trustd.md)
+- [/usr/libexec/tzd](MACHOS/tzd.md)
+- [/usr/libexec/uarpassetmanagerd](MACHOS/uarpassetmanagerd.md)
+- [/usr/libexec/uarpd](MACHOS/uarpd.md)
+- [/usr/libexec/visioncompaniond](MACHOS/visioncompaniond.md)
+- [/usr/libexec/wifianalyticsd](MACHOS/wifianalyticsd.md)
+- [/usr/libexec/wifip2pd](MACHOS/wifip2pd.md)
+- [/usr/libexec/xpcproxy](MACHOS/xpcproxy.md)
+- [/usr/libexec/xpcroleaccountd](MACHOS/xpcroleaccountd.md)
+- [/usr/sbin/WirelessRadioManagerd](MACHOS/WirelessRadioManagerd.md)
+- [/usr/sbin/appleh16camerad](MACHOS/appleh16camerad.md)
+- [/usr/sbin/bluetoothd](MACHOS/bluetoothd.md)
+- [/usr/sbin/dietappleh16camerad](MACHOS/dietappleh16camerad.md)
+- [/usr/sbin/fairplayd.H2](MACHOS/fairplayd.H2.md)
+- [/usr/sbin/netstat](MACHOS/netstat.md)
+- [/usr/sbin/otctl](MACHOS/otctl.md)
+- [/usr/sbin/skywalkctl](MACHOS/skywalkctl.md)
+- [/usr/sbin/wifid](MACHOS/wifid.md)
+
+</details>
+
 ### 🔑 Entitlements
 
 - [Entitlements DIFF](Entitlements.md)
@@ -108,130 +1279,130 @@
 <details>
   <summary><i>View NEW</i></summary>
 
+##### `iboot`
+  - `usbcfw_tnt-35.100.3`
+##### `iboot_blob46.bin`
+  - `tnCkaWTRtN`
+  - `lCytuDTR]N`
+  - `tnCplSTRhN`
 ##### `iboot_blob29.bin`
-  - `TCAPACDLHDHPNIRNDVPUV0Df0rl0slilpslp0tvT`
   - `!C#C?CRCZl`
-  - `MCBWRBDARDRR1lh`
+  - `TCAPACDLHDHPNIRNDVPUV0Df0rl0slilpslp0tvT`
   - `!B-C-E-F-I-J-M-N-P-Q-R-S-T-U-W-X-PAIBFCPCBDIDLDCEPFDIEIMLKPWPtSSVtp`
   - `CRabcdefgi0`
+  - `MCBWRBDARDRR1lh`
   - `jPAcAuADBIBACDCFCRCSCTCUCXCYCZCbCcCfCiCmCnCrCsCtCvCwCADBDEDIDPDRDpDCEFEpECFSFVFCIDIQIRIAJBJDJEJFJGJIJMJNJPJQJRJSJVJCLGLILRLIMPMVMIPMPRPSPTPdPePiPsPtPIRRRcRpRTSWStSIUCVDVMVRVXVbVdVeVmVnVSWfihiiiminisiglilsodpiprptpX`
-##### `iboot_blob32.bin`
-  - `smc/bms/bms_v1/charger.cpp`
-  - `Error getting LVR data from PMU: %d`
-  - `select_input_power_source`
-  - `Not charging:%llx`
-  - `charger_configure_input_src: ilim=%u, src:%u`
-  - `Unable to write LVR data to GG: %d`
-  - `%s: %s:%d: %s, Unable to disable interrupt for btLV: %d`
-  - `Shutdown flags: Battery=%d, PMU=%d, pwrOut=%d Override=%d`
-  - `RXDS: AP notify retry %d, buff %d`
-  - `LVR init failed: %d`
-  - `Unable to enable interrupt for btLV region: rc = %u`
-  - `smc/bms/dynamic_shutdown/battery_dynamic_shutdown.cpp`
-  - `smc/bms/bms_v1/battery.cpp`
-  - `DE: invalid checksum SMC %d AP %d`
-  - `Unable to set handler for btLV region: rc = %u`
-  - `rc_irq == RTK_ST_OK`
-  - `Shutdown VPMax bounds: floor=%d ceil=%d vpmax_vcut=%d gg_vcut=%d iss=%d.`
-  - `Critical Shutdown Requested`
-  - `DE: correcting shutdown_threshold from %d to %d`
-  - `charger: Failed to set termination voltage to:%umV rc:%d`
-  - `smc/bms/bms_v1/bms.cpp`
-  - `%s: Failed to read 'CELD', error ret=%d`
-  - `RXDS: retry %d`
-  - `iBoot CHI1 = %d ignored`
-  - `c == RTK_ST_OK`
-  - `%s: charger_set_path_priority failed`
-  - `vBMSTaskStop fail`
-  - `RXDS: AP notify error %d`
-  - `Error accessing scratchpad key '%s', rc=%d`
-  - `DE: Checksum becomes valid SMC %d AP %d`
-  - `charger_pmu_init`
-  - `iOS CHI1 = %d`
 ##### `iboot_blob10.bin`
   - `j@y.~b9)9@y?`
-##### `RTKit.bin`
-  - `smc/ppm_task.cpp`
-  - `Measure invalid: v %d i %d`
-  - `diff = %lld, expected_ticks_diff = %lld, iter_counter = %u, previous_count = %u`
-  - `PMU FW info:`
-  - `<<<PMU monitor crashlog end>>>`
-  - `(SOCD) ERROR:Failed to allocate a region instance. Storage index %u`
-  - `Adapter Eff Loss`
-  - `status = 0x%x`
-  - `smc/smcmain.cpp`
-  - `Battery Discharge`
-  - `Could not complete appending PMU FW information to crashlog because of SPMI err`
-  - `System Power In`
-  - `smc/socd.cpp`
-  - `(SOCD) ERROR:Failed to create socd handle. Storage index %u, result %d`
-  - `fw_ver_string = %s`
-  - `assert_params = 0x%x, 0x%x`
-  - `smc/smc_init.cpp`
-  - `(SOCD) ERROR:Failed to load socd container, result: %d`
-  - `(SOCD) ERROR:Failed to initialize the SOCD container. Storage index %u, result %d`
-  - `assert_id = %d`
-  - `smc/smc_watchdog.cpp`
-  - `(SOCD) ERROR:Failed to allocate a region buffer`
-  - `(SOCD) ERROR:AP wdt counter is about to overflow`
-  - `(SOCD) ERROR:Unknown SOCD storage type: %d`
-  - `(SOCD) ERROR:Failed to initialize socd container, result %d`
-  - `UUID: %02x%02x%02x%02x-%02x%02x-%02x%02x-%02x%02x-%02x%02x%02x%02x%02x%02x`
-  - `preventing overflow for %s accumulator, resetting`
-  - `Battery Power`
-  - `(SOCD) ERROR:Failed to read event counters`
+##### `iboot_blob32.bin`
+  - `charger: Failed to set termination voltage to:%umV rc:%d`
+  - `Unable to set handler for btLV region: rc = %u`
+  - `iOS CHI1 = %d`
+  - `iBoot CHI1 = %d ignored`
+  - `%s: %s:%d: %s, Unable to disable interrupt for btLV: %d`
+  - `Error accessing scratchpad key '%s', rc=%d`
+  - `Error getting LVR data from PMU: %d`
+  - `Shutdown VPMax bounds: floor=%d ceil=%d vpmax_vcut=%d gg_vcut=%d iss=%d.`
+  - `rc_irq == RTK_ST_OK`
+  - `%s: charger_set_path_priority failed`
+  - `smc/bms/bms_v1/charger.cpp`
+  - `RXDS: AP notify retry %d, buff %d`
+  - `vBMSTaskStop fail`
+  - `Not charging:%llx`
+  - `DE: Checksum becomes valid SMC %d AP %d`
+  - `c == RTK_ST_OK`
+  - `select_input_power_source`
+  - `Unable to enable interrupt for btLV region: rc = %u`
+  - `Unable to write LVR data to GG: %d`
+  - `RXDS: AP notify error %d`
+  - `%s: Failed to read 'CELD', error ret=%d`
+  - `Critical Shutdown Requested`
+  - `smc/bms/bms_v1/bms.cpp`
+  - `DE: correcting shutdown_threshold from %d to %d`
+  - `Shutdown flags: Battery=%d, PMU=%d, pwrOut=%d Override=%d`
+  - `charger_configure_input_src: ilim=%u, src:%u`
+  - `RXDS: retry %d`
+  - `LVR init failed: %d`
+  - `smc/bms/bms_v1/battery.cpp`
+  - `charger_pmu_init`
+  - `DE: invalid checksum SMC %d AP %d`
+  - `smc/bms/dynamic_shutdown/battery_dynamic_shutdown.cpp`
 ##### `iboot_blob36.bin`
   - `RTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACK`
 ##### `AppleSMCFirmware.bin`
   - `AppleSMCFirmware_H18-6164.100.502.0.1.v53.REL`
+##### `RTKit.bin`
+  - `smc/socd.cpp`
+  - `Adapter Eff Loss`
+  - `smc/ppm_task.cpp`
+  - `assert_params = 0x%x, 0x%x`
+  - `Measure invalid: v %d i %d`
+  - `(SOCD) ERROR:Failed to initialize socd container, result %d`
+  - `(SOCD) ERROR:Failed to read event counters`
+  - `fw_ver_string = %s`
+  - `(SOCD) ERROR:AP wdt counter is about to overflow`
+  - `preventing overflow for %s accumulator, resetting`
+  - `(SOCD) ERROR:Failed to allocate a region buffer`
+  - `status = 0x%x`
+  - `Could not complete appending PMU FW information to crashlog because of SPMI err`
+  - `System Power In`
+  - `PMU FW info:`
+  - `(SOCD) ERROR:Failed to create socd handle. Storage index %u, result %d`
+  - `assert_id = %d`
+  - `UUID: %02x%02x%02x%02x-%02x%02x-%02x%02x-%02x%02x-%02x%02x%02x%02x%02x%02x`
+  - `smc/smcmain.cpp`
+  - `(SOCD) ERROR:Unknown SOCD storage type: %d`
+  - `(SOCD) ERROR:Failed to load socd container, result: %d`
+  - `smc/smc_init.cpp`
+  - `smc/smc_watchdog.cpp`
+  - `(SOCD) ERROR:Failed to allocate a region instance. Storage index %u`
+  - `Battery Power`
+  - `(SOCD) ERROR:Failed to initialize the SOCD container. Storage index %u, result %d`
+  - `diff = %lld, expected_ticks_diff = %lld, iter_counter = %u, previous_count = %u`
+  - `<<<PMU monitor crashlog end>>>`
+  - `Battery Discharge`
 ##### `iboot_blob31.bin`
-  - `vla_bound_not_positive`
-  - `cfi_check_fail`
-  - `type_mismatch`
-  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/acBlock.cpp`
-  - `UBSAN triggered SMC panic: unknown`
-  - `UBSAN triggered SMC panic: %s`
-  - `las_tunableh_write`
-  - `load_invalid_value`
   - `divrem_overflow`
-  - `float_cast_overflow`
-  - `invalid_objc_cast`
-  - `shift_out_of_bounds`
-  - `las_tunableh_fig_get_mask`
-  - `mul_overflow`
-  - `Comms ntfy: %d, %d`
-  - `!las_tunableh_initialized()`
-  - `nullability_return`
-  - `las_tunableh_read`
-  - `dynamic_type_cache_miss`
-  - `las_tunableh_fig_get_value`
-  - `/Library/Caches/com.apple.xbs/37729C83-EA6C-40DF-8B4A-4C54CCD5C0E5/TemporaryDirectory.5Zo1Ly/Sources/libAppleSilicon/tunableh/v1/tunableh.c`
-  - `las_tunableh_init`
+  - `sub_overflow`
   - `builtin_unreachable`
-  - `negate_overflow`
-  - `nullability_arg`
-  - `missing_return`
-  - `alignment_assumption`
-  - `las_tunableh_get_fig() == NULL`
-  - `function_type_mismatch`
-  - `las_tunableh_module_evaluate`
+  - `las_tunableh_fig_get_expression`
+  - `las_tunableh_write`
+  - `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/acBlock.cpp`
+  - `cfi_check_fail`
+  - `las_tunableh_fig_get_value`
+  - `nullability_return`
+  - `load_invalid_value`
   - `las_tunableh_apply`
   - `invalid_builtin`
-  - `sub_overflow`
-  - `implicit_conversion`
-  - `add_overflow`
-  - `nonnull_arg`
-  - `%s:%d:%s: %s`
-  - `las_tunableh_fig_get_expression`
-  - `nonnull_return`
+  - `missing_return`
   - `out_of_bounds`
+  - `las_tunableh_init`
+  - `las_tunableh_get_fig() == NULL`
+  - `float_cast_overflow`
+  - `Comms ntfy: %d, %d`
+  - `add_overflow`
+  - `dynamic_type_cache_miss`
+  - `negate_overflow`
+  - `alignment_assumption`
+  - `nullability_arg`
+  - `!las_tunableh_initialized()`
+  - `UBSAN triggered SMC panic: unknown`
+  - `%s:%d:%s: %s`
+  - `las_tunableh_read`
+  - `las_tunableh_module_evaluate`
+  - `UBSAN triggered SMC panic: %s`
+  - `function_type_mismatch`
+  - `/Library/Caches/com.apple.xbs/37729C83-EA6C-40DF-8B4A-4C54CCD5C0E5/TemporaryDirectory.5Zo1Ly/Sources/libAppleSilicon/tunableh/v1/tunableh.c`
+  - `mul_overflow`
+  - `type_mismatch`
+  - `shift_out_of_bounds`
+  - `las_tunableh_fig_get_mask`
+  - `nonnull_return`
   - `pointer_overflow`
-##### `iboot_blob46.bin`
-  - `tnCplSTRhN`
-  - `lCytuDTR]N`
-  - `tnCkaWTRtN`
-##### `iboot`
-  - `usbcfw_tnt-35.100.3`
+  - `vla_bound_not_positive`
+  - `implicit_conversion`
+  - `nonnull_arg`
+  - `invalid_objc_cast`
 
 </details>
 
@@ -242,89 +1413,89 @@
 
 ##### `RTKit.bin`
   - `R:AP wdt counter is about to overflow`
+##### `iboot_blob35.bin`
+  - `RTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACK`
 ##### `iboot`
   - `usbcfw_tnt-35.100.2`
+##### `iboot_blob31.bin`
+  - `select_input_power_source`
+  - `frc == RTK_ST_OK`
+  - `%s: Failed to read 'CELD', error ret=%d`
+  - `smc/bms/dynamic_shutdown/battery_dynamic_shutdown.cpp`
+  - `Unable to set handler for btLV region: rc = %u`
+  - `Error getting LVR data from PMU: %d`
+  - `charger_pmu_init`
+  - `iOS CHI1 = %d`
+  - `iBoot CHI1 = %d ignored`
+  - `DE: Checksum becomes valid SMC %d AP %d`
+  - `Error accessing scratc`
+  - `smc/bms/bms_v1/bms.cpp`
+  - `LVR init failed: %d`
+  - `%s: charger_set_path_priority failed`
+  - `DE: invalid checksum SMC %d AP %d`
+  - `Unable to enable interrupt for btLV region: rc = %u`
+  - `vBMSTaskStop fail`
+  - `charger_configure_input_src: ilim=%u, src:%u`
+  - `smc/bms/bms_v1/charger.cpp`
+  - `Not charging:%llx`
+  - `%s: %s:%d: %s, Unable to disable interrupt for btLV: %d`
+  - `Shutdown VPMax bounds: floor=%d ceil=%d vpmax_vcut=%d gg_vcut=%d iss=%d.`
+  - `charger: Failed to set termination voltage to:%umV rc:%d`
+  - `Critical Shutdown Requested`
+  - `smc/bms/bms_v1/battery.cpp`
+  - `Unable to write LVR data to GG: %d`
+  - `rc_irq == RTK_ST_OK`
+  - `DE: correcting shutdown_threshold from %d to %d`
+  - `Shutdown flags: Battery=%d, PMU=%d, pwrOut=%d Override=%d`
+##### `iboot_blob32.bin`
+  - `(SOCD) ERROR:Failed to allocate a region buffer`
+  - `(SOCD) ERROR:Failed to initialize the SOCD container. Storage index %u, result %d`
+  - `(SOCD) ERROR:Failed to allocate a region instance. Storage index %u`
+  - `(SOCD) ERRO`
+  - `(SOCD) ERROR:Failed to initialize socd container, result %d`
+  - `(SOCD) ERROR:Unknown SOCD storage type: %d`
+  - `assert_id = %d`
+  - `preventing overflow for %s accumulator, resetting`
+  - `hpad key '%s', rc=%d`
+  - `smc/smc_watchdog.cpp`
+  - `UUID: %02x%02x%02x%02x-%02x%02x-%02x%02x-%02x%02x-%02x%02x%02x%02x%02x%02x`
+  - `smc/ppm_task.cpp`
+  - `(SOCD) ERROR:Failed to create socd handle. Storage index %u, result %d`
+  - `(SOCD) ERROR:Failed to load socd container, result: %d`
+  - `ticks_diff = %lld, expected_ticks_diff = %lld, iter_counter = %u, previous_count = %u`
+  - `assert_params = 0x%x, 0x%x`
+  - `smc/socd.cpp`
+  - `System Power In`
+  - `smc/smc_init.cpp`
+  - `smc/smcmain.cpp`
+  - `PMU FW info:`
+  - `Could not complete appending PMU FW information to crashlog because of SPMI err`
+  - `<<<PMU monitor crashlog end>>>`
+  - `Battery Power`
+  - `Adapter Eff Loss`
+  - `Measure invalid: v %d i %d`
+  - `Battery Discharge`
+  - `status = 0x%x`
+  - `fw_ver_string = %s`
+  - `(SOCD) ERROR:Failed to read event counters`
 ##### `iboot_blob29.bin`
-  - `MCBWRBDARDRR1`
-  - `CRabcdefgi`
   - `TCAPACDLHDHPNIRNDVPUV0Df0rl0slilpslp0tvTX[`
-  - ` B-C-E-F-I-J-M-N-P-Q-R-S-T-U-W-X-PAIBFCPCBDIDLDCEPFDIEIMLKPWPtSSV`
-  - `DKLLLKRLR0b1b3b4babbbcbdbMdmdzd0hHh0t1t3t4tatbtctdtmt`
   - `DD0E0H0J0R0V01A2AIASAIBVBCCECFCRCBDSFCHVHWH1I2IBICIEIFILIMIOISIDKGKHKKKLKMKOKPKQKRKSKUKVKWKSLTL2MCNDNINCOSPiQvQwQCRTRCSESLSTSWSCTETLTMTUTG`
   - `D0010203040506001112131415102122232031323330414243405152535061626071727081828384858091929390A1A2A0B1B2B0C1C2C3C0D1D2D3DaD0E1E0F1F1H2H1K2K2P3P4P5PFPRPSPTPjPkPmPnPuPvPwPyPTRKSLSMSNSOSPSQSRSSSTSUSVSWSXS0T1T2T8T9TaTbTcTdTeTfTgThTiTjTkTlTMU0a1a2a0b1b2b3b0c1c2c0d1d2d0e1e2eKeLeMeNeOePeQeReSeTeUeVeWeXe0f1f2f0g1g2g0h1h2h0i1i2i0j1j2j0k1k2k0l1l2l0m1m2m3mambmcm0n1n2n3n0o1o2o0p1p2p3p0q1q2q0r1r2r0s1s2s0t1t2tatbtct0u1u2u0v1v2v0w1w2w0x1x2x8x9xaxbxcxdxexfxgxhxixjxkxlx0y1y2y0z1z2z`
   - `jPAcAuADBIBACDCFCRCSCTCUCXCYCZCbCcCfCiCmCnCrCsCtCvCwCADBDEDIDPDRDpDCEFEpECFSFVFCIDIQIRIAJBJDJEJFJGJIJMJNJPJQJRJSJVJCLGLILRLIMPMVMIPMPRPSPTPdPePiPsPtPIRRRcRpRTSWStSIUCVDVMVRVXVbVdVeVmVnVSWfihiiiminisiglilsodpiprptpX,`
+  - `MCBWRBDARDRR1`
+  - `CRabcdefgi`
+  - ` B-C-E-F-I-J-M-N-P-Q-R-S-T-U-W-X-PAIBFCPCBDIDLDCEPFDIEIMLKPWPtSSV`
   - `D0t1t2t3t0v1v2v3v0z1z2z3z`
-##### `iboot_blob32.bin`
-  - `Could not complete appending PMU FW information to crashlog because of SPMI err`
-  - `PMU FW info:`
-  - `status = 0x%x`
-  - `smc/socd.cpp`
-  - `(SOCD) ERROR:Failed to read event counters`
-  - `(SOCD) ERROR:Failed to allocate a region instance. Storage index %u`
-  - `hpad key '%s', rc=%d`
-  - `smc/smcmain.cpp`
-  - `System Power In`
-  - `(SOCD) ERROR:Failed to create socd handle. Storage index %u, result %d`
-  - `Measure invalid: v %d i %d`
-  - `preventing overflow for %s accumulator, resetting`
-  - `smc/smc_init.cpp`
-  - `(SOCD) ERROR:Failed to initialize the SOCD container. Storage index %u, result %d`
-  - `(SOCD) ERROR:Failed to load socd container, result: %d`
-  - `(SOCD) ERROR:Failed to allocate a region buffer`
-  - `assert_params = 0x%x, 0x%x`
-  - `UUID: %02x%02x%02x%02x-%02x%02x-%02x%02x-%02x%02x-%02x%02x%02x%02x%02x%02x`
-  - `(SOCD) ERRO`
-  - `assert_id = %d`
-  - `(SOCD) ERROR:Failed to initialize socd container, result %d`
-  - `smc/ppm_task.cpp`
-  - `ticks_diff = %lld, expected_ticks_diff = %lld, iter_counter = %u, previous_count = %u`
-  - `(SOCD) ERROR:Unknown SOCD storage type: %d`
-  - `<<<PMU monitor crashlog end>>>`
-  - `Adapter Eff Loss`
-  - `Battery Discharge`
-  - `fw_ver_string = %s`
-  - `smc/smc_watchdog.cpp`
-  - `Battery Power`
+  - `DKLLLKRLR0b1b3b4babbbcbdbMdmdzd0hHh0t1t3t4tatbtctdtmt`
 ##### `AppleSMCFirmware.bin`
   - `AppleSMCFirmware_H18-6164.100.488.v53.REL`
 ##### `iboot_blob46.bin`
-  - `EERFPHTR=J`
-  - `UPCmuNTRyJ`
   - `tnCkaWTR&J`
-  - `tffOnOTR1J`
+  - `UPCmuNTRyJ`
   - `KAEPPHTRRJ`
-##### `iboot_blob31.bin`
-  - `iBoot CHI1 = %d ignored`
-  - `DE: Checksum becomes valid SMC %d AP %d`
-  - `smc/bms/bms_v1/charger.cpp`
-  - `Error accessing scratc`
-  - `iOS CHI1 = %d`
-  - `%s: charger_set_path_priority failed`
-  - `Shutdown VPMax bounds: floor=%d ceil=%d vpmax_vcut=%d gg_vcut=%d iss=%d.`
-  - `smc/bms/dynamic_shutdown/battery_dynamic_shutdown.cpp`
-  - `Critical Shutdown Requested`
-  - `Error getting LVR data from PMU: %d`
-  - `smc/bms/bms_v1/bms.cpp`
-  - `DE: invalid checksum SMC %d AP %d`
-  - `charger_pmu_init`
-  - `select_input_power_source`
-  - `Shutdown flags: Battery=%d, PMU=%d, pwrOut=%d Override=%d`
-  - `DE: correcting shutdown_threshold from %d to %d`
-  - `Unable to set handler for btLV region: rc = %u`
-  - `rc_irq == RTK_ST_OK`
-  - `LVR init failed: %d`
-  - `smc/bms/bms_v1/battery.cpp`
-  - `%s: Failed to read 'CELD', error ret=%d`
-  - `charger: Failed to set termination voltage to:%umV rc:%d`
-  - `Unable to enable interrupt for btLV region: rc = %u`
-  - `Not charging:%llx`
-  - `Unable to write LVR data to GG: %d`
-  - `charger_configure_input_src: ilim=%u, src:%u`
-  - `frc == RTK_ST_OK`
-  - `%s: %s:%d: %s, Unable to disable interrupt for btLV: %d`
-  - `vBMSTaskStop fail`
-##### `iboot_blob35.bin`
-  - `RTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACKRTKSTACK`
+  - `EERFPHTR=J`
+  - `tffOnOTR1J`
 
 </details>
 
@@ -2826,6 +3997,65 @@
 - `/private/var/staged_system_apps/Tips.app/zh_TW.lproj/nlu.appintents/8fc080c2b78502d16f5afe1791265034.version`
 - `/private/var/staged_system_apps/VoiceMemos.app/Base.lproj/nlu.appintents/fe200a7bea670fc523de9e407efda68c.version`
 - `/private/var/staged_system_apps/VoiceMemos.app/en.lproj/nlu.appintents/c203b06b6ad86d4774f5aada5e5fa29c.version`
+
+</details>
+
+## Feature Flags
+
+### 🆕 NEW (1)
+
+<details>
+  <summary><i>View New</i></summary>
+
+#### AppleFileConduit.plist
+
+>  `Domain/AppleFileConduit.plist`
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnableActivationChecksForInternalDaemon</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
+</dict>
+</plist>
+
+```
+
+</details>
+
+### ⬆️ Updated (23)
+
+<details>
+  <summary><i>View Updated</i></summary>
+
+- [Domain/AppStore.plist](FEATURES/AppStore.plist.md)
+- [Domain/AppleMediaServices.plist](FEATURES/AppleMediaServices.plist.md)
+- [Domain/BusinessServices.plist](FEATURES/BusinessServices.plist.md)
+- [Domain/DeviceCheck.plist](FEATURES/DeviceCheck.plist.md)
+- [Domain/FitnessIntelligence.plist](FEATURES/FitnessIntelligence.plist.md)
+- [Domain/Health.plist](FEATURES/Health.plist.md)
+- [Domain/IDS.plist](FEATURES/IDS.plist.md)
+- [Domain/IntelligencePlatform.plist](FEATURES/IntelligencePlatform.plist.md)
+- [Domain/Link.plist](FEATURES/Link.plist.md)
+- [Domain/MobileLockdown.plist](FEATURES/MobileLockdown.plist.md)
+- [Domain/NanoControlCenter.plist](FEATURES/NanoControlCenter.plist.md)
+- [Domain/NanoPhone.plist](FEATURES/NanoPhone.plist.md)
+- [Domain/PasscodeAndBiometricsSettings.plist](FEATURES/PasscodeAndBiometricsSettings.plist.md)
+- [Domain/SecureMessagingAgent.plist](FEATURES/SecureMessagingAgent.plist.md)
+- [Domain/SiriSetup.plist](FEATURES/SiriSetup.plist.md)
+- [Domain/SiriTTSService.plist](FEATURES/SiriTTSService.plist.md)
+- [Domain/Spotlight.plist](FEATURES/Spotlight.plist.md)
+- [Domain/TCC.plist](FEATURES/TCC.plist.md)
+- [Domain/TVApp.plist](FEATURES/TVApp.plist.md)
+- [Domain/Tamale.plist](FEATURES/Tamale.plist.md)
+- [Domain/TelephonyUtilities.plist](FEATURES/TelephonyUtilities.plist.md)
+- [Domain/TrialXP.plist](FEATURES/TrialXP.plist.md)
+- [Unified/Domain/UnifiedFeatureFlagsDemo.plist](FEATURES/UnifiedFeatureFlagsDemo.plist.md)
 
 </details>
 

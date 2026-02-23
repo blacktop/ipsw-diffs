@@ -32,20 +32,20 @@
 +  CStrings:  365
  
 Functions:
-~ sub_fffffe000a1d706c -> sub_fffffe000a1b058c : 7248 -> 7264
+~ sub_fffffe000a1d706c -> __ZN17AppleT8112USBXDCI7powerOnEv : 7248 -> 7264
 ~ __ZN17AppleT8027USBXDCI7powerOnEv : 1588 -> 1600
 ~ __ZN17AppleT8130USBXDCI7powerOnEv -> sub_fffffe000a1b6ee8 : 7248 -> 7264
 ~ sub_fffffe000a1e2c88 -> sub_fffffe000a1bc1d4 : 7356 -> 7372
-~ __ZN17AppleT8122USBXDCI5startEP9IOService -> __ZN17AppleT8122USBXDCI7powerOnEv : 12272 -> 12288
-~ __ZN17AppleT8132USBXDCI7powerOnEv : 12272 -> 12288
+~ __ZN17AppleT8122USBXDCI5startEP9IOService : 12272 -> 12288
+~ sub_fffffe000a1f058c -> __ZN17AppleT8132USBXDCI5startEP9IOService : 12272 -> 12288
 ~ __ZN15AppleUSBXDCIARM5startEP9IOService : 8176 -> 8148
 ~ sub_fffffe000a1f8a38 -> sub_fffffe000a1d1f98 : 240 -> 260
 ~ __ZN15AppleUSBXDCIARM15updatePortStateEj : 3828 -> 3940
 ~ __ZN15AppleUSBXDCIARM19cableChangeOccurredEP18IOTimerEventSource : 1772 -> 2332
 ~ __ZN15AppleUSBXDCIARM17hardwareExceptionEiPKc : 1376 -> 1384
-~ __ZN17AppleT8140USBXDCI7powerOnEv -> __ZN17AppleT8140USBXDCI5startEP9IOService : 7248 -> 7264
-~ __ZN17AppleT8103USBXDCI5startEP9IOService -> sub_fffffe000a1e04fc : 7248 -> 7264
-~ __ZN17AppleT8142USBXDCI7powerOnEv -> __ZN17AppleT8142USBXDCI5startEP9IOService : 11928 -> 11944
+~ sub_fffffe000a201f74 -> sub_fffffe000a1db790 : 7248 -> 7264
+~ __ZN17AppleT8103USBXDCI7powerOnEv : 7248 -> 7264
+~ __ZN17AppleT8142USBXDCI7powerOnEv : 11928 -> 11944
 CStrings:
 + "%s@%s: %s::%s: Port-%s@%d %s: connected: %d (tunneled: %d, role: %s, trm: %d:%d, authorized: %d -> %d)\n"
 + "%s@%s: %s::%s: Port-%s@%d %s: connected: %d-> %d (no IOPortTransportState)\n"

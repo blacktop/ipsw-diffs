@@ -1,0 +1,318 @@
+## alwaysonexclavesd
+
+> `/usr/libexec/alwaysonexclavesd`
+
+```diff
+
+-40.100.4.0.1
+-  __TEXT.__text: 0x3d48
+-  __TEXT.__auth_stubs: 0x720
+-  __TEXT.__objc_methlist: 0x104
+-  __TEXT.__const: 0x17a
+-  __TEXT.__cstring: 0x22b
++40.100.10.0.0
++  __TEXT.__text: 0x70
++  __TEXT.__auth_stubs: 0x50
++  __TEXT.__const: 0x52
++  __TEXT.__cstring: 0x3b
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__objc_classname: 0xa3
+-  __TEXT.__objc_methname: 0x1e8
+-  __TEXT.__objc_methtype: 0xf5
+-  __TEXT.__constg_swiftt: 0x1c8
+-  __TEXT.__swift5_typeref: 0xa2
+-  __TEXT.__swift5_reflstr: 0x82
+-  __TEXT.__swift5_fieldmd: 0xb8
+-  __TEXT.__oslogstring: 0x32c
+-  __TEXT.__swift5_types: 0x10
+-  __TEXT.__swift5_proto: 0x4
+-  __TEXT.__swift5_capture: 0x14
+-  __TEXT.__unwind_info: 0x148
+-  __TEXT.__eh_frame: 0x80
+-  __DATA_CONST.__auth_got: 0x390
+-  __DATA_CONST.__got: 0xb8
+-  __DATA_CONST.__auth_ptr: 0x70
+-  __DATA_CONST.__const: 0x188
+-  __DATA_CONST.__objc_classlist: 0x18
+-  __DATA_CONST.__objc_protolist: 0x20
++  __TEXT.__unwind_info: 0x58
++  __DATA_CONST.__auth_got: 0x28
++  __DATA_CONST.__const: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x10
+-  __DATA.__objc_const: 0x2f0
+-  __DATA.__objc_selrefs: 0xa0
+-  __DATA.__objc_data: 0xf0
+-  __DATA.__data: 0x450
+-  __DATA.__common: 0x20
+-  __DATA.__bss: 0x80
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+-  - /System/Library/PrivateFrameworks/AlwaysOnExclavesServices.framework/AlwaysOnExclavesServices
+-  - /System/Library/PrivateFrameworks/Tightbeam.framework/Tightbeam
++  - /System/Library/PrivateFrameworks/AlwaysOnExclavesDaemon.framework/AlwaysOnExclavesDaemon
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: AEA9854F-1F7D-304A-9FAE-82FE24DCB652
+-  Functions: 74
+-  Symbols:   168
+-  CStrings:  89
++  UUID: C87CEDED-F527-357B-A0B1-083811839DF8
++  Functions: 1
++  Symbols:   15
++  CStrings:  2
+ 
+Symbols:
++ _$s22AlwaysOnExclavesDaemon0D0C5label12mach_serviceACSS_SStcfc
++ _$s22AlwaysOnExclavesDaemon0D0C5startyyFTj
++ _$s22AlwaysOnExclavesDaemon0D0CMa
+- _$s24AlwaysOnExclavesServices5ErrorO14missingServiceyA2CmFWC
+- _$s24AlwaysOnExclavesServices5ErrorO7unknownyA2CmFWC
+- _$s24AlwaysOnExclavesServices5ErrorO8rawValues5Int64Vvg
+- _$s24AlwaysOnExclavesServices5ErrorOMa
+- _$s2os6LoggerV9logObjectSo03OS_a1_C0Cvg
+- _$s2os6LoggerV9subsystem8categoryACSS_SStcfC
+- _$s2os6LoggerVMa
+- _$s2os6LoggerVMn
+- _$s3XPC0A11_TYPE_ERRORs13OpaquePointerVvg
+- _$s3XPC0A16_TYPE_DICTIONARYs13OpaquePointerVvg
+- _$s8Dispatch0A13WorkItemFlagsVMa
+- _$s8Dispatch0A13WorkItemFlagsVMn
+- _$s8Dispatch0A13WorkItemFlagsVs10SetAlgebraAAMc
+- _$s8Dispatch0A3QoSV11unspecifiedACvgZ
+- _$s8Dispatch0A3QoSVMa
+- _$s9Tightbeam0A7DecoderVMa
+- _$s9Tightbeam0A8EndpointO11machReceiveyACs6UInt32V_tcACmFWC
+- _$s9Tightbeam0A8EndpointO6darwinyACSi_tcACmFWC
+- _$s9Tightbeam0A8EndpointOMa
+- _$s9Tightbeam18ForwardingProtocolMp
+- _$s9Tightbeam18ForwardingProtocolP6decodeySbAA0B10ConnectionC_AA0A7DecoderVntFTq
+- _$s9Tightbeam20ForwardingConnectionC16service_endpoint07client_E0AcA0A8EndpointO_AGtcfc
+- _$s9Tightbeam20ForwardingConnectionC5beginyyFTj
+- _$s9Tightbeam20ForwardingConnectionC7forwardAA0B8Protocol_pSgvsTj
+- _$s9Tightbeam20ForwardingConnectionCMa
+- _$s9Tightbeam20ForwardingConnectionCMn
+- _$sBOWV
+- _$sBbWV
+- _$sBi64_WV
+- _$sBoWV
+- _$sSS11utf8CStrings15ContiguousArrayVys4Int8VGvg
+- _$sSS18_fromUTF8RepairingySS6result_Sb11repairsMadetSRys5UInt8VGFZ
+- _$sSS7cStringSSSPys4Int8VG_tcfC
+- _$sSS8UTF8ViewV13_foreignCountSiyF
+- _$sSa034_makeUniqueAndReserveCapacityIfNotB0yyFyXl_Ts5
+- _$sSa16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFyXl_Ts5
+- _$sSa28_allocateBufferUninitialized15minimumCapacitys06_ArrayB0VyxGSi_tFZ
+- _$sSa37_appendElementAssumeUniqueAndCapacity_03newB0ySi_xntFyXl_Ts5
+- _$sSayxGSTsMc
+- _$sSo13os_log_type_ta0A0E4infoABvgZ
+- _$sSo13os_log_type_ta0A0E5errorABvgZ
+- _$sSo13os_log_type_ta0A0E7defaultABvgZ
+- _$sSo17OS_dispatch_queueC8DispatchE10AttributesVMa
+- _$sSo17OS_dispatch_queueC8DispatchE10AttributesVMn
+- _$sSo17OS_dispatch_queueC8DispatchE10AttributesVs10SetAlgebraACMc
+- _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyO7inherityA2EmFWC
+- _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyOMa
+- _$sSo17OS_dispatch_queueC8DispatchE5async5group3qos5flags7executeySo0a1_b1_F0CSg_AC0D3QoSVAC0D13WorkItemFlagsVyyXBtF
+- _$sSo17OS_dispatch_queueC8DispatchE5label3qos10attributes20autoreleaseFrequency6targetABSS_AC0D3QoSVAbCE10AttributesVAbCE011AutoreleaseI0OABSgtcfC
+- _$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTj
+- _$ss11_StringGutsV16_foreignCopyUTF84intoSiSgSrys5UInt8VG_tF
+- _$ss11_StringGutsVN
+- _$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFyXl_Ts5
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyXl_Ts5
+- _$ss13_StringObjectV10sharedUTF8SRys5UInt8VGvg
+- _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_SSAHSus6UInt32VtF
+- _$ss18_CocoaArrayWrapperV8endIndexSivg
+- _$ss18_DictionaryStorageC4copy8originalAByxq_Gs05__RawaB0C_tFZ
+- _$ss18_DictionaryStorageC6resize8original8capacity4moveAByxq_Gs05__RawaB0C_SiSbtFZ
+- _$ss18_DictionaryStorageCMn
+- _$ss20__StaticArrayStorageCN
+- _$ss23_ContiguousArrayStorageCMn
+- _$ss4Int8VN
+- _$ss53KEY_TYPE_OF_DICTIONARY_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
+- _$ss5UInt8VMn
+- _$ss6HasherV5_hash4seed_S2i_s6UInt64VtFZ
+- _$ss6UInt32VMn
+- _$ss6UInt64VMn
+- _$ss6UInt64VN
+- _OBJC_CLASS_$_OS_dispatch_queue
+- _OBJC_CLASS_$__TtCs12_SwiftObject
+- _OBJC_METACLASS_$__TtCs12_SwiftObject
+- __Block_copy
+- __Block_release
+- __NSConcreteStackBlock
+- ___chkstk_darwin
+- ___stack_chk_fail
+- ___stack_chk_guard
+- __objc_empty_cache
+- __os_log_impl
+- __swiftEmptyArrayStorage
+- __swiftEmptyDictionarySingleton
+- __swiftImmortalRefCount
+- _arc4random
+- _bzero
+- _exclaves_aoe_message_loop
+- _exclaves_aoe_setup
+- _exclaves_aoe_work_loop
+- _exclaves_launch_conclave
+- _exclaves_lookup_service
+- _exit
+- _mach_port_construct
+- _mach_task_self_
+- _malloc_size
+- _memcpy
+- _memmove
+- _objc_opt_self
+- _objc_release
+- _objc_release_x19
+- _objc_release_x20
+- _objc_release_x8
+- _objc_retainAutoreleasedReturnValue
+- _os_log_type_enabled
+- _pthread_attr_init
+- _pthread_attr_set_qos_class_np
+- _pthread_attr_setstacksize
+- _pthread_create
+- _pthread_setname_np
+- _swift_arrayDestroy
+- _swift_beginAccess
+- _swift_bridgeObjectRelease
+- _swift_bridgeObjectRelease_n
+- _swift_bridgeObjectRetain
+- _swift_cvw_assignWithCopy
+- _swift_cvw_assignWithTake
+- _swift_cvw_destroy
+- _swift_cvw_initWithCopy
+- _swift_cvw_initializeBufferWithCopyOfBuffer
+- _swift_deallocClassInstance
+- _swift_deallocObject
+- _swift_deletedMethodError
+- _swift_endAccess
+- _swift_getObjCClassMetadata
+- _swift_getObjectType
+- _swift_getSingletonMetadata
+- _swift_getTypeByMangledNameInContext2
+- _swift_getTypeByMangledNameInContextInMetadataState2
+- _swift_getWitnessTable
+- _swift_isUniquelyReferenced_nonNull_bridgeObject
+- _swift_isUniquelyReferenced_nonNull_native
+- _swift_once
+- _swift_release
+- _swift_retain
+- _swift_slowAlloc
+- _swift_slowDealloc
+- _swift_unknownObjectRelease
+- _swift_unknownObjectRetain
+- _swift_updateClassMetadata2
+- _sysctlbyname
+- _xpc_bool_get_value
+- _xpc_connection_activate
+- _xpc_connection_cancel
+- _xpc_connection_copy_entitlement_value
+- _xpc_connection_create_mach_service
+- _xpc_connection_send_message
+- _xpc_connection_set_event_handler
+- _xpc_connection_set_target_queue
+- _xpc_dictionary_create_reply
+- _xpc_dictionary_get_bool
+- _xpc_dictionary_get_string
+- _xpc_dictionary_get_value
+- _xpc_dictionary_set_bool
+- _xpc_dictionary_set_int64
+- _xpc_dictionary_set_mach_send
+- _xpc_equal
+- _xpc_get_type
+CStrings:
+- "#16@0:8"
+- "(error %d): exclaves_aoe_setup failed"
+- "(error: %d): failed to create pthread"
+- "(error: %d): failed to create thread attribute"
+- "(error: %d): failed to launch conclave"
+- "(error: %d): failed to set thread attribute"
+- "(error: %d): failed to set thread stacksize"
+- "@\"NSString\"16@0:8"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@32@0:8:16@24"
+- "@40@0:8:16@24@32"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "Failed to retrieve task conclave name"
+- "Fatal error"
+- "NSObject"
+- "OS_xpc_object"
+- "Q16@0:8"
+- "Started %hhu message threads"
+- "Started %hhu worker threads"
+- "T#,R"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "TQ,R"
+- "Task Conclave Name: %s"
+- "Vv16@0:8"
+- "[Forwarder] Forwarding connection setup"
+- "[Forwarder] Service lookup failed"
+- "[XPCService] AlwaysOnXPCService initialized"
+- "[XPCService] Sender does not have the required entitlement"
+- "[xpcService] AlwaysOnExclaves disabled by %s"
+- "[xpcService] AlwaysOnExclaves enabled by %s"
+- "[xpcService] No more requesters, exiting"
+- "[xpcService] xpc_dictionary_create_reply failed"
+- "^{_NSZone=}16@0:8"
+- "_TtC17alwaysonexclavesd18AlwaysOnXPCService"
+- "_TtC17alwaysonexclavesd25AlwaysOnExclavesForwarder"
+- "_TtC17alwaysonexclavesd6Daemon"
+- "alwaysonexclavesd/alwaysonexclavesd.swift"
+- "alwaysonexclavesd/xpcService.swift"
+- "aoe_message_thread"
+- "aoe_worker_thread"
+- "autorelease"
+- "class"
+- "clientConnections"
+- "com.apple.alwaysonexclaves.xpc"
+- "com.apple.private.exclaves.conclave-host"
+- "conformsToProtocol:"
+- "debugDescription"
+- "description"
+- "enable"
+- "enabledCount"
+- "error"
+- "exclaves_aoe_message_loop unexpectedly returned"
+- "exclaves_aoe_work_loop unexpectedly returned"
+- "exiting"
+- "forwarder"
+- "from"
+- "hash"
+- "isEqual:"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "kern.task_conclave"
+- "listener"
+- "logger"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "release"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "self"
+- "sendPort"
+- "serviceName"
+- "starting alwaysonexclavesd"
+- "success"
+- "superclass"
+- "v16@?0@\"<OS_xpc_object>\"8"
+- "v8@?0"
+- "xpcConnectionQueue"
+- "zone"
+
+```
